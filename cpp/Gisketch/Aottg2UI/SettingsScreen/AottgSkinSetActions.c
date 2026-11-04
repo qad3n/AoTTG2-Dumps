@@ -1,139 +1,93 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgSkinSetActions.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$get_CurrentSettings
 // il2cpp: Settings_ISetSettingsContainer_o* Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__get_CurrentSettings (const MethodInfo* method);
-// 0x4464e70
+// 0x18239e6f0
 
 Settings_ISetSettingsContainer_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__get_CurrentSettings(MethodInfo *method)
 
 {
-  if (g_data_057ae7b4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    g_data_057ae7b4 = '\x01';
+  if (Il2CppMethodInitialized_184347b46 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    Il2CppMethodInitialized_184347b46 = '\x01';
   }
-  return (Settings_ISetSettingsContainer_o *)**(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8);
+  return TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$get_CurrentOperation
 // il2cpp: int32_t Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__get_CurrentOperation (const MethodInfo* method);
-// 0x4464eb0
+// 0x18239e6b0
 
 int32_t Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__get_CurrentOperation(MethodInfo *method)
 
 {
-  if (g_data_057ae7b5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    g_data_057ae7b5 = '\x01';
+  if (Il2CppMethodInitialized_184347b47 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    Il2CppMethodInitialized_184347b47 = '\x01';
   }
-  return *(int32_t *)(*(long *)(TypeInfo_AottgSkinSetActions + 0xb8) + 8);
+  return TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_operation;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$OpenCreate
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCreate (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, const MethodInfo* method);
-// 0x4464ef0
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCreate (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, System_Action_o* afterChange, const MethodInfo* method);
+// 0x18239e2f0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCreate
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,
-               Settings_ISetSettingsContainer_o *settings,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,
+               Settings_ISetSettingsContainer_o *settings,System_Action_o *afterChange,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_28;
   
-  if (g_data_057ae7bb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    il2cpp_runtime_helper_023445d0(&"setting-skin-set-name");
-    g_data_057ae7bb = '\x01';
-  }
-  if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-    **(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8) = settings;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgSkinSetActions + 0xb8),settings);
-    *(undefined4 *)(*(long *)(TypeInfo_AottgSkinSetActions + 0xb8) + 8) = 0;
-    if (context.fields.GameObject != (UnityEngine_GameObject_o *)0x0) {
-      pIVar1 = UnityEngine_GameObject__GetComponentInParent_object_(context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-      if ((pIVar1 != (Il2CppObject *)0x0) &&
-         (pIVar1[8].monitor != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
-        Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__ShowDialog
-                  (pIVar1[8].monitor,"setting-skin-set-name",1,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
+  local_28.fields.ElementId = (context->fields).ElementId;
+  local_28.fields.GameObject = (context->fields).GameObject;
+  local_28.fields.Node = (context->fields).Node;
+  local_28.fields.InputSource = (context->fields).InputSource;
+  local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName
+            (&local_28,settings,0,afterChange,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$OpenRename
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenRename (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, const MethodInfo* method);
-// 0x4464fe0
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenRename (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, System_Action_o* afterChange, const MethodInfo* method);
+// 0x18239e550
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenRename
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,
-               Settings_ISetSettingsContainer_o *settings,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,
+               Settings_ISetSettingsContainer_o *settings,System_Action_o *afterChange,MethodInfo *method)
 
 {
-  ushort uVar1;
-  Settings_ISetSettingsContainer_c *pSVar2;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
-  char cVar4;
-  Il2CppObject *pIVar5;
-  VirtualInvokeData *pVVar6;
-  long lVar7;
+  void *pvVar1;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_28;
   
-  if (g_data_057ae7b6 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7b6 = '\x01';
+  if (Il2CppMethodInitialized_184347b48 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    Il2CppMethodInitialized_184347b48 = '\x01';
   }
   if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-    pSVar2 = settings->klass;
-    uVar1._0_1_ = (pSVar2->_2).rank;
-    uVar1._1_1_ = (pSVar2->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar3 = (pSVar2->_1).interfaceOffsets;
-      lVar7 = 0;
-      do {
-        if (*(long *)((long)&pIVar3->interfaceType + lVar7) == TypeInfo_ISetSettingsContainer) {
-          pVVar6 = pSVar2->vtable + (*(int *)((long)&pIVar3->offset + lVar7) + 8);
-          goto label_04465069;
-        }
-        lVar7 = lVar7 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar7);
-    }
-    pVVar6 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(settings,TypeInfo_ISetSettingsContainer,8);
-label_04465069:
-    cVar4 = (*pVVar6->methodPtr)(settings,pVVar6->method);
-    if (cVar4 != '\0') {
-      if (g_data_057ae7bb == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-        il2cpp_runtime_helper_023445d0(&"setting-skin-set-name");
-        g_data_057ae7bb = '\x01';
-      }
-      if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-        **(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8) = settings;
-        il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgSkinSetActions + 0xb8),settings);
-        *(undefined4 *)(*(long *)(TypeInfo_AottgSkinSetActions + 0xb8) + 8) = 1;
-        if (context.fields.GameObject != (UnityEngine_GameObject_o *)0x0) {
-          pIVar5 = UnityEngine_GameObject__GetComponentInParent_object_
-                             (context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-          if ((pIVar5 != (Il2CppObject *)0x0) &&
-             (pIVar5[8].monitor != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
-            Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__ShowDialog
-                      (pIVar5[8].monitor,"setting-skin-set-name",1,(MethodInfo *)0x0);
-            return;
-          }
-        }
-      }
-      return;
+    pvVar1 = InterfaceInvoker0_Invoke
+                       (8,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,(Il2CppObject *)settings);
+    if ((char)pvVar1 != '\0') {
+      local_28.fields.ElementId = (context->fields).ElementId;
+      local_28.fields.GameObject = (context->fields).GameObject;
+      local_28.fields.Node = (context->fields).Node;
+      local_28.fields.InputSource = (context->fields).InputSource;
+      local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
+      Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName
+                (&local_28,settings,1,afterChange,(MethodInfo *)0x0);
     }
   }
   return;
@@ -141,92 +95,73 @@ label_04465069:
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$OpenCopy
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCopy (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, const MethodInfo* method);
-// 0x4465090
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCopy (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, System_Action_o* afterChange, const MethodInfo* method);
+// 0x18239e2b0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenCopy
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,
-               Settings_ISetSettingsContainer_o *settings,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,
+               Settings_ISetSettingsContainer_o *settings,System_Action_o *afterChange,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_28;
   
-  if (g_data_057ae7bb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    il2cpp_runtime_helper_023445d0(&"setting-skin-set-name");
-    g_data_057ae7bb = '\x01';
-  }
-  if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-    **(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8) = settings;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgSkinSetActions + 0xb8),settings);
-    *(undefined4 *)(*(long *)(TypeInfo_AottgSkinSetActions + 0xb8) + 8) = 2;
-    if (context.fields.GameObject != (UnityEngine_GameObject_o *)0x0) {
-      pIVar1 = UnityEngine_GameObject__GetComponentInParent_object_(context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-      if ((pIVar1 != (Il2CppObject *)0x0) &&
-         (pIVar1[8].monitor != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
-        Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__ShowDialog
-                  (pIVar1[8].monitor,"setting-skin-set-name",1,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
+  local_28.fields.ElementId = (context->fields).ElementId;
+  local_28.fields.GameObject = (context->fields).GameObject;
+  local_28.fields.Node = (context->fields).Node;
+  local_28.fields.InputSource = (context->fields).InputSource;
+  local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName
+            (&local_28,settings,2,afterChange,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$OpenDelete
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenDelete (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, const MethodInfo* method);
-// 0x44650a0
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenDelete (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, System_Action_o* afterChange, const MethodInfo* method);
+// 0x18239e330
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenDelete
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,
-               Settings_ISetSettingsContainer_o *settings,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,
+               Settings_ISetSettingsContainer_o *settings,System_Action_o *afterChange,MethodInfo *method)
 
 {
-  ushort uVar1;
-  Settings_ISetSettingsContainer_c *pSVar2;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
-  char cVar4;
-  VirtualInvokeData *pVVar5;
-  Il2CppObject *pIVar6;
-  long lVar7;
+  UnityEngine_GameObject_o *__this;
+  Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *__this_00;
+  void *pvVar1;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *pGVar2;
   
-  if (g_data_057ae7b7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7b7 = '\x01';
+  if (Il2CppMethodInitialized_184347b49 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    il2cpp_codegen_initialize_runtime_metadata(&"setting-skin-set-delete");
+    Il2CppMethodInitialized_184347b49 = '\x01';
   }
   if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-    pSVar2 = settings->klass;
-    uVar1._0_1_ = (pSVar2->_2).rank;
-    uVar1._1_1_ = (pSVar2->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar3 = (pSVar2->_1).interfaceOffsets;
-      lVar7 = 0;
-      do {
-        if (*(long *)((long)&pIVar3->interfaceType + lVar7) == TypeInfo_ISetSettingsContainer) {
-          pVVar5 = pSVar2->vtable + (*(int *)((long)&pIVar3->offset + lVar7) + 7);
-          goto label_04465159;
-        }
-        lVar7 = lVar7 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar7);
-    }
-    pVVar5 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(settings,TypeInfo_ISetSettingsContainer,7);
-label_04465159:
-    cVar4 = (*pVVar5->methodPtr)(settings,pVVar5->method);
-    if (cVar4 != '\0') {
-      **(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8) = settings;
-      il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgSkinSetActions + 0xb8),settings);
-      if (context.fields.GameObject != (UnityEngine_GameObject_o *)0x0) {
-        pIVar6 = UnityEngine_GameObject__GetComponentInParent_object_(context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-        if ((pIVar6 != (Il2CppObject *)0x0) &&
-           (pIVar6[8].monitor != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
+    pvVar1 = InterfaceInvoker0_Invoke
+                       (7,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,(Il2CppObject *)settings);
+    if ((char)pvVar1 != '\0') {
+      TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings = settings;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings,
+                 settings);
+      TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange = afterChange
+      ;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange,
+                 afterChange);
+      __this = (context->fields).GameObject;
+      if (__this != (UnityEngine_GameObject_o *)0x0) {
+        pGVar2 = UnityEngine_GameObject__GetComponentInParent_object_
+                           (__this,(MethodInfo_6F53B0 *)
+                                   MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+        if ((pGVar2 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) &&
+           (__this_00 = (pGVar2->fields)._Overlays_k__BackingField,
+           __this_00 != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
           Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__ShowDialog
-                    (pIVar6[8].monitor,"setting-skin-set-delete",1,(MethodInfo *)0x0);
-          return;
+                    (__this_00,"setting-skin-set-delete",true,(MethodInfo *)0x0);
         }
       }
     }
@@ -237,762 +172,194 @@ label_04465159:
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$SelectedName
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__SelectedName (const MethodInfo* method);
-// 0x44651e0
+// 0x18239e5f0
 
 System_String_o * Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__SelectedName(MethodInfo *method)
 
 {
-  ushort uVar1;
-  ushort uVar2;
-  System_String_c *pSVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  void *pvVar5;
-  char cVar6;
-  bool_conflict bVar7;
-  int iVar8;
-  VirtualInvokeData *pVVar9;
-  undefined8 *puVar10;
-  undefined4 extraout_var;
-  System_String_o *pSVar11;
-  Settings_TypedSetting_int__o *pSVar12;
-  long *plVar13;
-  System_String_o *extraout_RAX;
-  System_String_o *extraout_RAX_00;
-  System_String_o *pSVar14;
-  System_String_o *extraout_RAX_01;
-  long lVar15;
-  long lVar16;
-  long lVar17;
+  Il2CppObject *obj;
+  void *pvVar1;
   
-  if (g_data_057ae7b8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7b8 = '\x01';
+  if (Il2CppMethodInitialized_184347b4a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    Il2CppMethodInitialized_184347b4a = '\x01';
   }
-  pSVar14 = (System_String_o *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-  if (pSVar14 != (System_String_o *)0x0) {
-    pSVar3 = pSVar14->klass;
-    uVar1._0_1_ = (pSVar3->_2).rank;
-    uVar1._1_1_ = (pSVar3->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar4 = (pSVar3->_1).interfaceOffsets;
-      lVar15 = 0;
-      do {
-        if (*(long *)((long)&pIVar4->interfaceType + lVar15) == TypeInfo_ISetSettingsContainer) {
-          pVVar9 = &(pSVar3->vtable)._0_Equals + *(int *)((long)&pIVar4->offset + lVar15);
-          goto label_04465291;
-        }
-        lVar15 = lVar15 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar15);
-    }
-    pVVar9 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar14,TypeInfo_ISetSettingsContainer,0);
-label_04465291:
-    lVar15 = (*pVVar9->methodPtr)();
-    if (lVar15 != 0) {
-      pSVar11 = (System_String_o *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      if (pSVar11 != (System_String_o *)0x0) {
-        pSVar3 = pSVar11->klass;
-        uVar2._0_1_ = (pSVar3->_2).rank;
-        uVar2._1_1_ = (pSVar3->_2).minimumAlignment;
-        if ((ulong)uVar2 != 0) {
-          pIVar4 = (pSVar3->_1).interfaceOffsets;
-          lVar15 = 0;
-          do {
-            if (*(long *)((long)&pIVar4->interfaceType + lVar15) == TypeInfo_ISetSettingsContainer) {
-              pVVar9 = &(pSVar3->vtable)._0_Equals + *(int *)((long)&pIVar4->offset + lVar15);
-              goto label_04465328;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)uVar2 << 4 != lVar15);
-        }
-        pVVar9 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar11,TypeInfo_ISetSettingsContainer,0);
-label_04465328:
-        lVar15 = (*pVVar9->methodPtr)();
-        pSVar14 = pSVar11;
-        if ((lVar15 != 0) && (*(long *)(lVar15 + 0x20) != 0)) {
-          puVar10 = (undefined8 *)(*(long *)(lVar15 + 0x20) + 0x18);
-          goto label_04465343;
+  if (TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings !=
+      (Settings_ISetSettingsContainer_o *)0x0) {
+    pvVar1 = InterfaceInvoker0_Invoke
+                       (0,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,
+                        (Il2CppObject *)
+                        TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->
+                        _settings);
+    if (pvVar1 != (void *)0x0) {
+      obj = (Il2CppObject *)
+            TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+      if (obj != (Il2CppObject *)0x0) {
+        pvVar1 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,obj);
+        if ((pvVar1 != (void *)0x0) && (*(longlong *)((longlong)pvVar1 + 0x30) != 0)) {
+          return *(System_String_o **)(*(longlong *)((longlong)pvVar1 + 0x30) + 0x20);
         }
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae7b9 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_IListSetting);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-        g_data_057ae7b9 = '\x01';
-      }
-      if ((*(System_String_o **)(TypeInfo_AottgSkinSetActions + 0xb8))->klass == (System_String_c *)0x0) {
-        return *(System_String_o **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      }
-      bVar7 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
-      if ((char)bVar7 != '\0') {
-        return (System_String_o *)CONCAT44(extraout_var,bVar7);
-      }
-      pSVar11 = *(System_String_o **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      iVar8 = *(int *)&pSVar11->monitor;
-      if (iVar8 == 1) {
-        pSVar3 = pSVar11->klass;
-        if (pSVar3 == (System_String_c *)0x0) goto label_04465958;
-        pvVar5 = (pSVar3->_1).image;
-        if ((ulong)*(ushort *)((long)pvVar5 + 0x12e) != 0) {
-          lVar15 = 0;
-          do {
-            if (*(long *)(*(long *)((long)pvVar5 + 0xb0) + lVar15) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)pvVar5 +
-                        (long)(*(int *)(*(long *)((long)pvVar5 + 0xb0) + 8 + lVar15) + 8) * 0x10 + 0x138);
-              goto label_04465570;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)((long)pvVar5 + 0x12e) << 4 != lVar15);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(pSVar3,TypeInfo_ISetSettingsContainer,8);
-label_04465570:
-        cVar6 = (*(code *)*puVar10)(pSVar3,puVar10[1]);
-        if (cVar6 != '\0') {
-          plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-          if (plVar13 != (long *)0x0) {
-            lVar15 = *plVar13;
-            if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-              lVar16 = 0;
-              do {
-                if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-                  puVar10 = (undefined8 *)
-                            ((long)*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) * 0x10 + lVar15 + 0x138);
-                  goto label_04465924;
-                }
-                lVar16 = lVar16 + 0x10;
-              } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-            }
-            puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,0);
-label_04465924:
-            lVar15 = (*(code *)*puVar10)(plVar13,puVar10[1]);
-            if ((lVar15 != 0) &&
-               (*(Settings_TypedSetting_T__o **)(lVar15 + 0x20) != (Settings_TypedSetting_T__o *)0x0)) {
-              Settings_TypedSetting_object___set_Value
-                        (*(Settings_TypedSetting_T__o **)(lVar15 + 0x20),(Il2CppObject *)pSVar14,MethodInfo_Void_set_Value)
-              ;
-              return extraout_RAX_00;
-            }
-          }
-          goto label_04465958;
-        }
-        pSVar11 = *(System_String_o **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        iVar8 = *(int *)&pSVar11->monitor;
-label_044655ef:
-        if (iVar8 != 2) {
-          return pSVar11;
-        }
-        pSVar3 = pSVar11->klass;
-        if (pSVar3 == (System_String_c *)0x0) goto label_04465958;
-        pvVar5 = (pSVar3->_1).image;
-        if ((ulong)*(ushort *)((long)pvVar5 + 0x12e) != 0) {
-          lVar15 = 0;
-          do {
-            if (*(long *)(*(long *)((long)pvVar5 + 0xb0) + lVar15) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)pvVar5 +
-                        (long)(*(int *)(*(long *)((long)pvVar5 + 0xb0) + 8 + lVar15) + 5) * 0x10 + 0x138);
-              goto label_0446575f;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)((long)pvVar5 + 0x12e) << 4 != lVar15);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(pSVar3,TypeInfo_ISetSettingsContainer,5);
-label_0446575f:
-        (*(code *)*puVar10)(pSVar3,pSVar14,puVar10[1]);
-        plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 1) * 0x10 + lVar15 + 0x138);
-              goto label_044657e9;
-            }
-            lVar16 = lVar16 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,1);
-label_044657e9:
-        pSVar12 = (Settings_TypedSetting_int__o *)(*(code *)*puVar10)(plVar13,puVar10[1]);
-        plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 2) * 0x10 + lVar15 + 0x138);
-              goto label_04465869;
-            }
-            lVar16 = lVar16 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,2);
-label_04465869:
-        plVar13 = (long *)(*(code *)*puVar10)(plVar13,puVar10[1]);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = *(long *)(lVar15 + 0xb0);
-          lVar17 = 0;
-          do {
-            if (*(long *)(lVar16 + lVar17) == TypeInfo_IListSetting) goto label_044658ce;
-            lVar17 = lVar17 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar17);
-        }
-      }
-      else {
-        if (iVar8 != 0) goto label_044655ef;
-        pSVar3 = pSVar11->klass;
-        if (pSVar3 == (System_String_c *)0x0) goto label_04465958;
-        pvVar5 = (pSVar3->_1).image;
-        if ((ulong)*(ushort *)((long)pvVar5 + 0x12e) != 0) {
-          lVar15 = 0;
-          do {
-            if (*(long *)(*(long *)((long)pvVar5 + 0xb0) + lVar15) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)pvVar5 +
-                        (long)(*(int *)(*(long *)((long)pvVar5 + 0xb0) + 8 + lVar15) + 4) * 0x10 + 0x138);
-              goto label_044654df;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)((long)pvVar5 + 0x12e) << 4 != lVar15);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(pSVar3,TypeInfo_ISetSettingsContainer,4);
-label_044654df:
-        (*(code *)*puVar10)(pSVar3,pSVar14,puVar10[1]);
-        plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 1) * 0x10 + lVar15 + 0x138);
-              goto label_0446566d;
-            }
-            lVar16 = lVar16 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,1);
-label_0446566d:
-        pSVar12 = (Settings_TypedSetting_int__o *)(*(code *)*puVar10)(plVar13,puVar10[1]);
-        plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        ((long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 2) * 0x10 + lVar15 + 0x138);
-              goto label_044656e9;
-            }
-            lVar16 = lVar16 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,2);
-label_044656e9:
-        plVar13 = (long *)(*(code *)*puVar10)(plVar13,puVar10[1]);
-        if (plVar13 == (long *)0x0) goto label_04465958;
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = *(long *)(lVar15 + 0xb0);
-          lVar17 = 0;
-          do {
-            if (*(long *)(lVar16 + lVar17) == TypeInfo_IListSetting) goto label_044658ce;
-            lVar17 = lVar17 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar17);
-        }
-      }
-      puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_IListSetting,0);
-      goto label_044658e1;
+      ThrowNullReferenceException();
     }
   }
-  puVar10 = *(undefined8 **)(g_data_057b9c00 + 0xb8);
-label_04465343:
-  return (System_String_o *)*puVar10;
-label_044658ce:
-  puVar10 = (undefined8 *)((long)*(int *)(lVar16 + 8 + lVar17) * 0x10 + lVar15 + 0x138);
-label_044658e1:
-  iVar8 = (*(code *)*puVar10)(plVar13,puVar10[1]);
-  if (pSVar12 != (Settings_TypedSetting_int__o *)0x0) {
-    Settings_TypedSetting_int___set_Value(pSVar12,iVar8 + -1,MethodInfo_Void_set_Value);
-    return extraout_RAX;
-  }
-label_04465958:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae7ba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7ba = '\x01';
-  }
-  pSVar14 = *(System_String_o **)(TypeInfo_AottgSkinSetActions + 0xb8);
-  pSVar3 = pSVar14->klass;
-  if (pSVar3 != (System_String_c *)0x0) {
-    pvVar5 = (pSVar3->_1).image;
-    if ((ulong)*(ushort *)((long)pvVar5 + 0x12e) != 0) {
-      lVar15 = 0;
-      do {
-        if (*(long *)(*(long *)((long)pvVar5 + 0xb0) + lVar15) == TypeInfo_ISetSettingsContainer) {
-          puVar10 = (undefined8 *)
-                    ((long)pvVar5 +
-                    (long)(*(int *)(*(long *)((long)pvVar5 + 0xb0) + 8 + lVar15) + 7) * 0x10 + 0x138);
-          goto label_04465a19;
-        }
-        lVar15 = lVar15 + 0x10;
-      } while ((ulong)*(ushort *)((long)pvVar5 + 0x12e) << 4 != lVar15);
-    }
-    puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(pSVar3,TypeInfo_ISetSettingsContainer,7);
-label_04465a19:
-    pSVar14 = (System_String_o *)(*(code *)*puVar10)(pSVar3,puVar10[1]);
-    if ((char)pSVar14 != '\0') {
-      plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      if (plVar13 != (long *)0x0) {
-        lVar15 = *plVar13;
-        if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-          lVar16 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-              puVar10 = (undefined8 *)
-                        (lVar15 + (long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 6) * 0x10 + 0x138);
-              goto label_04465a9b;
-            }
-            lVar16 = lVar16 + 0x10;
-          } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,6);
-label_04465a9b:
-        (*(code *)*puVar10)(plVar13,puVar10[1]);
-        plVar13 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar13 != (long *)0x0) {
-          lVar15 = *plVar13;
-          if ((ulong)*(ushort *)(lVar15 + 0x12e) != 0) {
-            lVar16 = 0;
-            do {
-              if (*(long *)(*(long *)(lVar15 + 0xb0) + lVar16) == TypeInfo_ISetSettingsContainer) {
-                puVar10 = (undefined8 *)
-                          ((long)(*(int *)(*(long *)(lVar15 + 0xb0) + 8 + lVar16) + 1) * 0x10 + lVar15 + 0x138
-                          );
-                goto label_04465b19;
-              }
-              lVar16 = lVar16 + 0x10;
-            } while ((ulong)*(ushort *)(lVar15 + 0x12e) << 4 != lVar16);
-          }
-          puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar13,TypeInfo_ISetSettingsContainer,1);
-label_04465b19:
-          pSVar12 = (Settings_TypedSetting_int__o *)(*(code *)*puVar10)(plVar13);
-          if (pSVar12 != (Settings_TypedSetting_int__o *)0x0) {
-            Settings_TypedSetting_int___set_Value(pSVar12,0,MethodInfo_Void_set_Value);
-            return extraout_RAX_01;
-          }
-        }
-      }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae7bc == '\0') {
-        il2cpp_runtime_helper_023445d0(&"Delete Skin Set");
-        g_data_057ae7bc = '\x01';
-      }
-      return "Delete Skin Set";
-    }
-  }
-  return pSVar14;
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$ApplyName
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__ApplyName (System_String_o* name, const MethodInfo* method);
-// 0x4465360
+// 0x18239ded0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18239dfe0: mov rcx, qword ptr [rip + 0x1d28469]  ; TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions
+// asm:   0x18239e0b9: mov rcx, qword ptr [rip + 0x1d28390]  ; TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__ApplyName(System_String_o *name,MethodInfo *method)
 
 {
-  char cVar1;
-  bool_conflict bVar2;
-  int iVar3;
-  undefined8 *puVar4;
-  Settings_TypedSetting_int__o *pSVar5;
-  long *plVar6;
-  long lVar7;
-  long lVar8;
-  long lVar9;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions_StaticFields *pGVar1;
+  System_Action_o *pSVar2;
+  bool bVar3;
+  void *pvVar4;
+  Settings_TypedSetting_int__o *__this;
+  Il2CppObject *pIVar5;
+  undefined8 uVar6;
+  Settings_ISetSettingsContainer_o *pSVar7;
   
-  if (g_data_057ae7b9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IListSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057ae7b9 = '\x01';
+  if (Il2CppMethodInitialized_184347b4b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IListSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184347b4b = '\x01';
   }
-  if (**(long **)(TypeInfo_AottgSkinSetActions + 0xb8) == 0) {
+  if (TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings ==
+      (Settings_ISetSettingsContainer_o *)0x0) {
     return;
   }
-  bVar2 = System_String__IsNullOrEmpty(name,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar3 = System_String__IsNullOrEmpty(name,(MethodInfo *)0x0);
+  if (bVar3) {
     return;
   }
-  plVar6 = *(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-  iVar3 = (int)plVar6[1];
-  if (iVar3 == 1) {
-    plVar6 = (long *)*plVar6;
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 8) * 0x10 + lVar7 + 0x138);
-          goto label_04465570;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,8);
-label_04465570:
-    cVar1 = (*(code *)*puVar4)(plVar6,puVar4[1]);
-    if (cVar1 != '\0') {
-      plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      if (plVar6 != (long *)0x0) {
-        lVar7 = *plVar6;
-        if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-          lVar8 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-              puVar4 = (undefined8 *)
-                       ((long)*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) * 0x10 + lVar7 + 0x138);
-              goto label_04465924;
-            }
-            lVar8 = lVar8 + 0x10;
-          } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-        }
-        puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,0);
-label_04465924:
-        lVar7 = (*(code *)*puVar4)(plVar6,puVar4[1]);
-        if ((lVar7 != 0) &&
-           (*(Settings_TypedSetting_T__o **)(lVar7 + 0x20) != (Settings_TypedSetting_T__o *)0x0)) {
-          Settings_TypedSetting_object___set_Value
-                    (*(Settings_TypedSetting_T__o **)(lVar7 + 0x20),(Il2CppObject *)name,MethodInfo_Void_set_Value);
-          return;
-        }
-      }
-      goto label_04465958;
-    }
-    plVar6 = *(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-    iVar3 = (int)plVar6[1];
-label_044655ef:
-    if (iVar3 != 2) {
-      return;
-    }
-    plVar6 = (long *)*plVar6;
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   (lVar7 + (long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 5) * 0x10 + 0x138);
-          goto label_0446575f;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,5);
-label_0446575f:
-    (*(code *)*puVar4)(plVar6,name,puVar4[1]);
-    plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 1) * 0x10 + lVar7 + 0x138);
-          goto label_044657e9;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,1);
-label_044657e9:
-    pSVar5 = (Settings_TypedSetting_int__o *)(*(code *)*puVar4)(plVar6,puVar4[1]);
-    plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 2) * 0x10 + lVar7 + 0x138);
-          goto label_04465869;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,2);
-label_04465869:
-    plVar6 = (long *)(*(code *)*puVar4)(plVar6,puVar4[1]);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = *(long *)(lVar7 + 0xb0);
-      lVar9 = 0;
-      do {
-        if (*(long *)(lVar8 + lVar9) == TypeInfo_IListSetting) goto label_044658ce;
-        lVar9 = lVar9 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar9);
-    }
+  pGVar1 = TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields;
+  if (pGVar1->_operation == 0) {
+    pSVar7 = pGVar1->_settings;
+    if (pSVar7 == (Settings_ISetSettingsContainer_o *)0x0) goto label_18239e12e;
+    uVar6 = 4;
   }
   else {
-    if (iVar3 != 0) goto label_044655ef;
-    plVar6 = (long *)*plVar6;
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   (lVar7 + (long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 4) * 0x10 + 0x138);
-          goto label_044654df;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,4);
-label_044654df:
-    (*(code *)*puVar4)(plVar6,name,puVar4[1]);
-    plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 1) * 0x10 + lVar7 + 0x138);
-          goto label_0446566d;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,1);
-label_0446566d:
-    pSVar5 = (Settings_TypedSetting_int__o *)(*(code *)*puVar4)(plVar6,puVar4[1]);
-    plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 2) * 0x10 + lVar7 + 0x138);
-          goto label_044656e9;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,2);
-label_044656e9:
-    plVar6 = (long *)(*(code *)*puVar4)(plVar6,puVar4[1]);
-    if (plVar6 == (long *)0x0) goto label_04465958;
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = *(long *)(lVar7 + 0xb0);
-      lVar9 = 0;
-      do {
-        if (*(long *)(lVar8 + lVar9) == TypeInfo_IListSetting) goto label_044658ce;
-        lVar9 = lVar9 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar9);
-    }
-  }
-  puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_IListSetting,0);
-label_044658e1:
-  iVar3 = (*(code *)*puVar4)(plVar6,puVar4[1]);
-  if (pSVar5 != (Settings_TypedSetting_int__o *)0x0) {
-    Settings_TypedSetting_int___set_Value(pSVar5,iVar3 + -1,MethodInfo_Void_set_Value);
-    return;
-  }
-label_04465958:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae7ba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7ba = '\x01';
-  }
-  plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-  if (plVar6 != (long *)0x0) {
-    lVar7 = *plVar6;
-    if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-      lVar8 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 7) * 0x10 + lVar7 + 0x138);
-          goto label_04465a19;
-        }
-        lVar8 = lVar8 + 0x10;
-      } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,7);
-label_04465a19:
-    cVar1 = (*(code *)*puVar4)(plVar6,puVar4[1]);
-    if (cVar1 != '\0') {
-      plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      if (plVar6 != (long *)0x0) {
-        lVar7 = *plVar6;
-        if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-          lVar8 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-              puVar4 = (undefined8 *)
-                       (lVar7 + (long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 6) * 0x10 + 0x138);
-              goto label_04465a9b;
-            }
-            lVar8 = lVar8 + 0x10;
-          } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-        }
-        puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,6);
-label_04465a9b:
-        (*(code *)*puVar4)(plVar6,puVar4[1]);
-        plVar6 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar6 != (long *)0x0) {
-          lVar7 = *plVar6;
-          if ((ulong)*(ushort *)(lVar7 + 0x12e) != 0) {
-            lVar8 = 0;
-            do {
-              if (*(long *)(*(long *)(lVar7 + 0xb0) + lVar8) == TypeInfo_ISetSettingsContainer) {
-                puVar4 = (undefined8 *)
-                         ((long)(*(int *)(*(long *)(lVar7 + 0xb0) + 8 + lVar8) + 1) * 0x10 + lVar7 + 0x138);
-                goto label_04465b19;
-              }
-              lVar8 = lVar8 + 0x10;
-            } while ((ulong)*(ushort *)(lVar7 + 0x12e) << 4 != lVar8);
-          }
-          puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar6,TypeInfo_ISetSettingsContainer,1);
-label_04465b19:
-          pSVar5 = (Settings_TypedSetting_int__o *)(*(code *)*puVar4)(plVar6);
-          if (pSVar5 != (Settings_TypedSetting_int__o *)0x0) {
-            Settings_TypedSetting_int___set_Value(pSVar5,0,MethodInfo_Void_set_Value);
-            return;
-          }
-        }
+    if (pGVar1->_operation == 1) {
+      if ((Il2CppObject *)pGVar1->_settings == (Il2CppObject *)0x0) goto label_18239e12e;
+      pvVar4 = InterfaceInvoker0_Invoke
+                         (8,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,
+                          (Il2CppObject *)pGVar1->_settings);
+      if ((char)pvVar4 != '\0') {
+        pIVar5 = (Il2CppObject *)
+                 TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+        if (((pIVar5 == (Il2CppObject *)0x0) ||
+            (pvVar4 = InterfaceInvoker0_Invoke
+                                (0,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar5),
+            pvVar4 == (void *)0x0)) ||
+           (*(Settings_TypedSetting_T__o **)((longlong)pvVar4 + 0x30) == (Settings_TypedSetting_T__o *)0x0))
+        goto label_18239e12e;
+        Settings_TypedSetting_object___set_Value
+                  (*(Settings_TypedSetting_T__o **)((longlong)pvVar4 + 0x30),(Il2CppObject *)name,
+                   (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+        goto label_18239e0c0;
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae7bc == '\0') {
-        il2cpp_runtime_helper_023445d0(&"Delete Skin Set");
-        g_data_057ae7bc = '\x01';
+    }
+    if (TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_operation != 2)
+    goto label_18239e0c0;
+    pSVar7 = TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+    if (pSVar7 == (Settings_ISetSettingsContainer_o *)0x0) goto label_18239e12e;
+    uVar6 = 5;
+  }
+  il2cpp_runtime_helper_180014780(uVar6,TypeInfo_Settings_ISetSettingsContainer,pSVar7,name);
+  pIVar5 = (Il2CppObject *)
+           TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+  if (pIVar5 != (Il2CppObject *)0x0) {
+    __this = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar5);
+    pIVar5 = (Il2CppObject *)
+             TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+    if (((pIVar5 != (Il2CppObject *)0x0) &&
+        (pIVar5 = InterfaceInvoker0_Invoke(2,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar5),
+        pIVar5 != (Il2CppObject *)0x0)) &&
+       (pvVar4 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_Settings_IListSetting,pIVar5),
+       __this != (Settings_TypedSetting_int__o *)0x0)) {
+      Settings_TypedSetting_int___set_Value
+                (__this,(int)pvVar4 + -1,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+label_18239e0c0:
+      if (Il2CppMethodInitialized_184347b4e == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions);
+        Il2CppMethodInitialized_184347b4e = '\x01';
       }
+      pSVar2 = TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange;
+      TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange =
+           (System_Action_o *)0x0;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange,
+                 (void *)0x0);
+      if (pSVar2 == (System_Action_o *)0x0) {
+        return;
+      }
+      (*(code *)(pSVar2->fields).invoke_impl)((pSVar2->fields).method_code,(pSVar2->fields).method);
       return;
     }
   }
-  return;
-label_044658ce:
-  puVar4 = (undefined8 *)((long)*(int *)(lVar8 + 8 + lVar9) * 0x10 + lVar7 + 0x138);
-  goto label_044658e1;
+label_18239e12e:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$DeleteSelected
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__DeleteSelected (const MethodInfo* method);
-// 0x4465960
+// 0x18239e140
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__DeleteSelected(MethodInfo *method)
 
 {
-  long *plVar1;
-  long lVar2;
-  char cVar3;
-  undefined8 *puVar4;
+  Il2CppObject *pIVar1;
+  void *pvVar2;
   Settings_TypedSetting_int__o *__this;
-  long lVar5;
   
-  if (g_data_057ae7ba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ISetSettingsContainer);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7ba = '\x01';
+  if (Il2CppMethodInitialized_184347b4c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184347b4c = '\x01';
   }
-  plVar1 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-  if (plVar1 != (long *)0x0) {
-    lVar2 = *plVar1;
-    if ((ulong)*(ushort *)(lVar2 + 0x12e) != 0) {
-      lVar5 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar2 + 0xb0) + lVar5) == TypeInfo_ISetSettingsContainer) {
-          puVar4 = (undefined8 *)
-                   ((long)(*(int *)(*(long *)(lVar2 + 0xb0) + 8 + lVar5) + 7) * 0x10 + lVar2 + 0x138);
-          goto label_04465a19;
-        }
-        lVar5 = lVar5 + 0x10;
-      } while ((ulong)*(ushort *)(lVar2 + 0x12e) << 4 != lVar5);
-    }
-    puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar1,TypeInfo_ISetSettingsContainer,7);
-label_04465a19:
-    cVar3 = (*(code *)*puVar4)(plVar1,puVar4[1]);
-    if (cVar3 != '\0') {
-      plVar1 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-      if (plVar1 != (long *)0x0) {
-        lVar2 = *plVar1;
-        if ((ulong)*(ushort *)(lVar2 + 0x12e) != 0) {
-          lVar5 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar2 + 0xb0) + lVar5) == TypeInfo_ISetSettingsContainer) {
-              puVar4 = (undefined8 *)
-                       (lVar2 + (long)(*(int *)(*(long *)(lVar2 + 0xb0) + 8 + lVar5) + 6) * 0x10 + 0x138);
-              goto label_04465a9b;
-            }
-            lVar5 = lVar5 + 0x10;
-          } while ((ulong)*(ushort *)(lVar2 + 0x12e) << 4 != lVar5);
-        }
-        puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar1,TypeInfo_ISetSettingsContainer,6);
-label_04465a9b:
-        (*(code *)*puVar4)(plVar1,puVar4[1]);
-        plVar1 = (long *)**(long **)(TypeInfo_AottgSkinSetActions + 0xb8);
-        if (plVar1 != (long *)0x0) {
-          lVar2 = *plVar1;
-          if ((ulong)*(ushort *)(lVar2 + 0x12e) != 0) {
-            lVar5 = 0;
-            do {
-              if (*(long *)(*(long *)(lVar2 + 0xb0) + lVar5) == TypeInfo_ISetSettingsContainer) {
-                puVar4 = (undefined8 *)
-                         ((long)(*(int *)(*(long *)(lVar2 + 0xb0) + 8 + lVar5) + 1) * 0x10 + lVar2 + 0x138);
-                goto label_04465b19;
-              }
-              lVar5 = lVar5 + 0x10;
-            } while ((ulong)*(ushort *)(lVar2 + 0x12e) << 4 != lVar5);
-          }
-          puVar4 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar1,TypeInfo_ISetSettingsContainer,1);
-label_04465b19:
-          __this = (Settings_TypedSetting_int__o *)(*(code *)*puVar4)(plVar1);
+  if (TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings !=
+      (Settings_ISetSettingsContainer_o *)0x0) {
+    pvVar2 = InterfaceInvoker0_Invoke
+                       (7,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,
+                        (Il2CppObject *)
+                        TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->
+                        _settings);
+    if ((char)pvVar2 != '\0') {
+      pIVar1 = (Il2CppObject *)
+               TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+      if (pIVar1 != (Il2CppObject *)0x0) {
+        InterfaceInvoker0_Invoke(6,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar1);
+        pIVar1 = (Il2CppObject *)
+                 TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+        if (pIVar1 != (Il2CppObject *)0x0) {
+          __this = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar1);
           if (__this != (Settings_TypedSetting_int__o *)0x0) {
-            Settings_TypedSetting_int___set_Value(__this,0,MethodInfo_Void_set_Value);
+            Settings_TypedSetting_int___set_Value
+                      (__this,0,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+            Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__InvokeAfterChange((MethodInfo *)0x0);
             return;
           }
         }
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae7bc == '\0') {
-        il2cpp_runtime_helper_023445d0(&"Delete Skin Set");
-        g_data_057ae7bc = '\x01';
-      }
-      return;
+      ThrowNullReferenceException();
     }
   }
   return;
@@ -1000,37 +367,77 @@ label_04465b19:
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$OpenName
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, int32_t operation, const MethodInfo* method);
-// 0x4464f00
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, Settings_ISetSettingsContainer_o* settings, int32_t operation, System_Action_o* afterChange, const MethodInfo* method);
+// 0x18239e450
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__OpenName
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,
-               Settings_ISetSettingsContainer_o *settings,int32_t operation,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,
+               Settings_ISetSettingsContainer_o *settings,int32_t operation,System_Action_o *afterChange,
+               MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  MethodInfo *extraout_RDX;
+  UnityEngine_GameObject_o *__this;
+  Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *__this_00;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *pGVar1;
   
-  if (g_data_057ae7bb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSkinSetActions);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    il2cpp_runtime_helper_023445d0(&"setting-skin-set-name");
-    g_data_057ae7bb = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184347b4d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+    il2cpp_codegen_initialize_runtime_metadata(&"setting-skin-set-name");
+    Il2CppMethodInitialized_184347b4d = '\x01';
   }
   if (settings != (Settings_ISetSettingsContainer_o *)0x0) {
-    **(undefined8 **)(TypeInfo_AottgSkinSetActions + 0xb8) = settings;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgSkinSetActions + 0xb8),settings,method);
-    *(int32_t *)(*(long *)(TypeInfo_AottgSkinSetActions + 0xb8) + 8) = operation;
-    if (context.fields.GameObject != (UnityEngine_GameObject_o *)0x0) {
-      pIVar1 = UnityEngine_GameObject__GetComponentInParent_object_(context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-      if ((pIVar1 != (Il2CppObject *)0x0) &&
-         (pIVar1[8].monitor != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
+    TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings = settings;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings,
+               settings);
+    TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_operation = operation;
+    TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange = afterChange;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange,
+               afterChange);
+    __this = (context->fields).GameObject;
+    if (__this != (UnityEngine_GameObject_o *)0x0) {
+      pGVar1 = UnityEngine_GameObject__GetComponentInParent_object_
+                         (__this,(MethodInfo_6F53B0 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+      if ((pGVar1 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) &&
+         (__this_00 = (pGVar1->fields)._Overlays_k__BackingField,
+         __this_00 != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
         Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__ShowDialog
-                  (pIVar1[8].monitor,"setting-skin-set-name",1,(MethodInfo *)0x0);
-        return;
+                  (__this_00,"setting-skin-set-name",true,(MethodInfo *)0x0);
       }
     }
+  }
+  return;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetActions$$InvokeAfterChange
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__InvokeAfterChange (const MethodInfo* method);
+// 0x18239e230
+
+void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__InvokeAfterChange(MethodInfo *method)
+
+{
+  System_Action_o *pSVar1;
+  
+  if (Il2CppMethodInitialized_184347b4e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    Il2CppMethodInitialized_184347b4e = '\x01';
+  }
+  pSVar1 = TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange;
+  TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange =
+       (System_Action_o *)0x0;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_afterChange,
+             (void *)0x0);
+  if (pSVar1 != (System_Action_o *)0x0) {
+    (*(code *)(pSVar1->fields).invoke_impl)((pSVar1->fields).method_code,(pSVar1->fields).method);
+    return;
   }
   return;
 }

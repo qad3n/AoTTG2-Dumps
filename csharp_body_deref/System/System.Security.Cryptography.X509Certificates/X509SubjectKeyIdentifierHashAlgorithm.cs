@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000F3")]
+[Token(Token = "0x2000133")]
 public enum X509SubjectKeyIdentifierHashAlgorithm
 {
-	[Token(Token = "0x40004B4")]
+	[Token(Token = "0x4000586")]
 	Sha1,
-	[Token(Token = "0x40004B5")]
+	[Token(Token = "0x4000587")]
 	ShortSha1,
-	[Token(Token = "0x40004B6")]
+	[Token(Token = "0x4000588")]
 	CapiSha1
 }

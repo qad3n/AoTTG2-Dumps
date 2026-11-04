@@ -11,186 +11,186 @@ using Mono.Xml;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000346")]
+[Token(Token = "0x2000375")]
 internal class ConfigHandler : Mono.Xml.SmallXmlParser.IContentHandler
 {
-	[Token(Token = "0x4000E8F")]
+	[Token(Token = "0x4000E9C")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList typeEntries;
 
-	[Token(Token = "0x4000E90")]
+	[Token(Token = "0x4000E9D")]
 	[FieldOffset(Offset = "0x18")]
 	private ArrayList channelInstances;
 
-	[Token(Token = "0x4000E91")]
+	[Token(Token = "0x4000E9E")]
 	[FieldOffset(Offset = "0x20")]
 	private System.Runtime.Remoting.ChannelData currentChannel;
 
-	[Token(Token = "0x4000E92")]
+	[Token(Token = "0x4000E9F")]
 	[FieldOffset(Offset = "0x28")]
 	private Stack currentProviderData;
 
-	[Token(Token = "0x4000E93")]
+	[Token(Token = "0x4000EA0")]
 	[FieldOffset(Offset = "0x30")]
 	private string currentClientUrl;
 
-	[Token(Token = "0x4000E94")]
+	[Token(Token = "0x4000EA1")]
 	[FieldOffset(Offset = "0x38")]
 	private string appName;
 
-	[Token(Token = "0x4000E95")]
+	[Token(Token = "0x4000EA2")]
 	[FieldOffset(Offset = "0x40")]
 	private string currentXmlPath;
 
-	[Token(Token = "0x4000E96")]
+	[Token(Token = "0x4000EA3")]
 	[FieldOffset(Offset = "0x48")]
 	private bool onlyDelayedChannels;
 
-	[Token(Token = "0x6001C59")]
-	[Address(RVA = "0x3B61BE0", Offset = "0x3B61BE0", VA = "0x3B61BE0")]
+	[Token(Token = "0x6001CC8")]
+	[Address(RVA = "0x19D9C30", Offset = "0x19D8230", VA = "0x1819D9C30")]
 	public ConfigHandler(bool onlyDelayedChannels)
 	{
 	}
 
-	[Token(Token = "0x6001C5A")]
-	[Address(RVA = "0x3B65FC0", Offset = "0x3B65FC0", VA = "0x3B65FC0")]
+	[Token(Token = "0x6001CC9")]
+	[Address(RVA = "0x19D9B40", Offset = "0x19D8140", VA = "0x1819D9B40")]
 	private void ValidatePath(string element, params string[] paths)
 	{
 	}
 
-	[Token(Token = "0x6001C5B")]
-	[Address(RVA = "0x3B66090", Offset = "0x3B66090", VA = "0x3B66090")]
+	[Token(Token = "0x6001CCA")]
+	[Address(RVA = "0x19D6340", Offset = "0x19D4940", VA = "0x1819D6340")]
 	private bool CheckPath(string path)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001C5C")]
-	[Address(RVA = "0x3B66190", Offset = "0x3B66190", VA = "0x3B66190", Slot = "4")]
+	[Token(Token = "0x6001CCB")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void OnStartParsing(Mono.Xml.SmallXmlParser parser)
 	{
 	}
 
-	[Token(Token = "0x6001C5D")]
-	[Address(RVA = "0x3B661A0", Offset = "0x3B661A0", VA = "0x3B661A0", Slot = "8")]
+	[Token(Token = "0x6001CCC")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public void OnProcessingInstruction(string name, string text)
 	{
 	}
 
-	[Token(Token = "0x6001C5E")]
-	[Address(RVA = "0x3B661B0", Offset = "0x3B661B0", VA = "0x3B661B0", Slot = "10")]
+	[Token(Token = "0x6001CCD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	public void OnIgnorableWhitespace(string s)
 	{
 	}
 
-	[Token(Token = "0x6001C5F")]
-	[Address(RVA = "0x3B661C0", Offset = "0x3B661C0", VA = "0x3B661C0", Slot = "6")]
+	[Token(Token = "0x6001CCE")]
+	[Address(RVA = "0x19D67D0", Offset = "0x19D4DD0", VA = "0x1819D67D0", Slot = "6")]
 	public void OnStartElement(string name, Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C60")]
-	[Address(RVA = "0x3B66390", Offset = "0x3B66390", VA = "0x3B66390")]
+	[Token(Token = "0x6001CCF")]
+	[Address(RVA = "0x19D6930", Offset = "0x19D4F30", VA = "0x1819D6930")]
 	public void ParseElement(string name, Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C61")]
-	[Address(RVA = "0x3B69140", Offset = "0x3B69140", VA = "0x3B69140", Slot = "7")]
+	[Token(Token = "0x6001CD0")]
+	[Address(RVA = "0x19D6610", Offset = "0x19D4C10", VA = "0x1819D6610", Slot = "7")]
 	public void OnEndElement(string name)
 	{
 	}
 
-	[Token(Token = "0x6001C62")]
-	[Address(RVA = "0x3B67460", Offset = "0x3B67460", VA = "0x3B67460")]
+	[Token(Token = "0x6001CD1")]
+	[Address(RVA = "0x19D87B0", Offset = "0x19D6DB0", VA = "0x1819D87B0")]
 	private void ReadCustomProviderData(string name, Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C63")]
-	[Address(RVA = "0x3B67880", Offset = "0x3B67880", VA = "0x3B67880")]
+	[Token(Token = "0x6001CD2")]
+	[Address(RVA = "0x19D8D00", Offset = "0x19D7300", VA = "0x1819D8D00")]
 	private void ReadLifetine(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C64")]
-	[Address(RVA = "0x3B691E0", Offset = "0x3B691E0", VA = "0x3B691E0")]
+	[Token(Token = "0x6001CD3")]
+	[Address(RVA = "0x19D7B30", Offset = "0x19D6130", VA = "0x1819D7B30")]
 	private TimeSpan ParseTime(string s)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6001C65")]
-	[Address(RVA = "0x3B67EA0", Offset = "0x3B67EA0", VA = "0x3B67EA0")]
+	[Token(Token = "0x6001CD4")]
+	[Address(RVA = "0x19D7EB0", Offset = "0x19D64B0", VA = "0x1819D7EB0")]
 	private void ReadChannel(Mono.Xml.SmallXmlParser.IAttrList attrs, bool isTemplate)
 	{
 	}
 
-	[Token(Token = "0x6001C66")]
-	[Address(RVA = "0x3B68400", Offset = "0x3B68400", VA = "0x3B68400")]
+	[Token(Token = "0x6001CD5")]
+	[Address(RVA = "0x19D9290", Offset = "0x19D7890", VA = "0x1819D9290")]
 	private System.Runtime.Remoting.ProviderData ReadProvider(string name, Mono.Xml.SmallXmlParser.IAttrList attrs, bool isTemplate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C67")]
-	[Address(RVA = "0x3B68B70", Offset = "0x3B68B70", VA = "0x3B68B70")]
+	[Token(Token = "0x6001CD6")]
+	[Address(RVA = "0x19D8440", Offset = "0x19D6A40", VA = "0x1819D8440")]
 	private void ReadClientActivated(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C68")]
-	[Address(RVA = "0x3B68CA0", Offset = "0x3B68CA0", VA = "0x3B68CA0")]
+	[Token(Token = "0x6001CD7")]
+	[Address(RVA = "0x19D9770", Offset = "0x19D7D70", VA = "0x1819D9770")]
 	private void ReadServiceActivated(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C69")]
-	[Address(RVA = "0x3B688D0", Offset = "0x3B688D0", VA = "0x3B688D0")]
+	[Token(Token = "0x6001CD8")]
+	[Address(RVA = "0x19D86A0", Offset = "0x19D6CA0", VA = "0x1819D86A0")]
 	private void ReadClientWellKnown(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C6A")]
-	[Address(RVA = "0x3B689B0", Offset = "0x3B689B0", VA = "0x3B689B0")]
+	[Token(Token = "0x6001CD9")]
+	[Address(RVA = "0x19D9940", Offset = "0x19D7F40", VA = "0x1819D9940")]
 	private void ReadServiceWellKnown(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C6B")]
-	[Address(RVA = "0x3B68D50", Offset = "0x3B68D50", VA = "0x3B68D50")]
+	[Token(Token = "0x6001CDA")]
+	[Address(RVA = "0x19D8B70", Offset = "0x19D7170", VA = "0x1819D8B70")]
 	private void ReadInteropXml(Mono.Xml.SmallXmlParser.IAttrList attrs, bool isElement)
 	{
 	}
 
-	[Token(Token = "0x6001C6C")]
-	[Address(RVA = "0x3B68EC0", Offset = "0x3B68EC0", VA = "0x3B68EC0")]
+	[Token(Token = "0x6001CDB")]
+	[Address(RVA = "0x19D9020", Offset = "0x19D7620", VA = "0x1819D9020")]
 	private void ReadPreload(Mono.Xml.SmallXmlParser.IAttrList attrs)
 	{
 	}
 
-	[Token(Token = "0x6001C6D")]
-	[Address(RVA = "0x3B69780", Offset = "0x3B69780", VA = "0x3B69780")]
+	[Token(Token = "0x6001CDC")]
+	[Address(RVA = "0x19D6530", Offset = "0x19D4B30", VA = "0x1819D6530")]
 	private string GetNotNull(Mono.Xml.SmallXmlParser.IAttrList attrs, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C6E")]
-	[Address(RVA = "0x3B698C0", Offset = "0x3B698C0", VA = "0x3B698C0")]
+	[Token(Token = "0x6001CDD")]
+	[Address(RVA = "0x19D6450", Offset = "0x19D4A50", VA = "0x1819D6450")]
 	private string ExtractAssembly(ref string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001C6F")]
-	[Address(RVA = "0x3B6A450", Offset = "0x3B6A450", VA = "0x3B6A450", Slot = "9")]
+	[Token(Token = "0x6001CDE")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	public void OnChars(string ch)
 	{
 	}
 
-	[Token(Token = "0x6001C70")]
-	[Address(RVA = "0x3B6A460", Offset = "0x3B6A460", VA = "0x3B6A460", Slot = "5")]
+	[Token(Token = "0x6001CDF")]
+	[Address(RVA = "0x19D66C0", Offset = "0x19D4CC0", VA = "0x1819D66C0", Slot = "5")]
 	public void OnEndParsing(Mono.Xml.SmallXmlParser parser)
 	{
 	}

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200019F")]
+[Token(Token = "0x20001A2")]
 public interface IAsyncOnAudioFilterReadHandler
 {
-	[Token(Token = "0x6000A93")]
+	[Token(Token = "0x6000AB7")]
 	UniTask<(float[], int)> OnAudioFilterReadAsync();
 }

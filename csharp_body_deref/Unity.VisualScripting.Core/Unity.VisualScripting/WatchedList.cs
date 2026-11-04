@@ -15,38 +15,23 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200002E")]
 public class WatchedList<T> : Collection<T>, INotifyCollectionChanged<T>
 {
+	[Token(Token = "0x400003C")]
+	[FieldOffset(Offset = "0x0")]
+	[CompilerGenerated]
+	private Action<T> m_ItemAdded;
+
+	[Token(Token = "0x400003D")]
+	[FieldOffset(Offset = "0x0")]
+	[CompilerGenerated]
+	private Action<T> m_ItemRemoved;
+
+	[Token(Token = "0x400003E")]
+	[FieldOffset(Offset = "0x0")]
+	[CompilerGenerated]
+	private Action m_CollectionChanged;
+
 	[Token(Token = "0x14000004")]
 	public event Action<T> ItemAdded
-	{
-		[Token(Token = "0x600018E")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x600018F")]
-		[CompilerGenerated]
-		remove
-		{
-		}
-	}
-
-	[Token(Token = "0x14000005")]
-	public event Action<T> ItemRemoved
-	{
-		[Token(Token = "0x6000190")]
-		[CompilerGenerated]
-		add
-		{
-		}
-		[Token(Token = "0x6000191")]
-		[CompilerGenerated]
-		remove
-		{
-		}
-	}
-
-	[Token(Token = "0x14000006")]
-	public event Action CollectionChanged
 	{
 		[Token(Token = "0x6000192")]
 		[CompilerGenerated]
@@ -60,22 +45,52 @@ public class WatchedList<T> : Collection<T>, INotifyCollectionChanged<T>
 		}
 	}
 
-	[Token(Token = "0x6000194")]
+	[Token(Token = "0x14000005")]
+	public event Action<T> ItemRemoved
+	{
+		[Token(Token = "0x6000194")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6000195")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x14000006")]
+	public event Action CollectionChanged
+	{
+		[Token(Token = "0x6000196")]
+		[CompilerGenerated]
+		add
+		{
+		}
+		[Token(Token = "0x6000197")]
+		[CompilerGenerated]
+		remove
+		{
+		}
+	}
+
+	[Token(Token = "0x6000198")]
 	protected override void InsertItem(int index, T item)
 	{
 	}
 
-	[Token(Token = "0x6000195")]
+	[Token(Token = "0x6000199")]
 	protected override void RemoveItem(int index)
 	{
 	}
 
-	[Token(Token = "0x6000196")]
+	[Token(Token = "0x600019A")]
 	protected override void ClearItems()
 	{
 	}
 
-	[Token(Token = "0x6000197")]
+	[Token(Token = "0x600019B")]
 	public WatchedList()
 	{
 	}

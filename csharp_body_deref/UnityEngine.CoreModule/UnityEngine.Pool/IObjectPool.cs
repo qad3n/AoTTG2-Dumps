@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Pool;
 
-[Token(Token = "0x2000291")]
+[Token(Token = "0x20002ED")]
 public interface IObjectPool<T> where T : class
 {
-	[Token(Token = "0x6000DDA")]
+	[Token(Token = "0x60011E1")]
 	void Release(T element);
 }

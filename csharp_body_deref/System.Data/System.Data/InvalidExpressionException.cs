@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200005B")]
+[Token(Token = "0x2000068")]
 public class InvalidExpressionException : DataException
 {
-	[Token(Token = "0x6000612")]
-	[Address(RVA = "0x45AE060", Offset = "0x45AE060", VA = "0x45AE060")]
+	[Token(Token = "0x6000645")]
+	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
 	protected InvalidExpressionException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000613")]
-	[Address(RVA = "0x45AE070", Offset = "0x45AE070", VA = "0x45AE070")]
+	[Token(Token = "0x6000646")]
+	[Address(RVA = "0x2515CF0", Offset = "0x25142F0", VA = "0x182515CF0")]
 	public InvalidExpressionException()
 	{
 	}
 
-	[Token(Token = "0x6000614")]
-	[Address(RVA = "0x45AE080", Offset = "0x45AE080", VA = "0x45AE080")]
+	[Token(Token = "0x6000647")]
+	[Address(RVA = "0x2515D00", Offset = "0x2514300", VA = "0x182515D00")]
 	public InvalidExpressionException(string s)
 	{
 	}

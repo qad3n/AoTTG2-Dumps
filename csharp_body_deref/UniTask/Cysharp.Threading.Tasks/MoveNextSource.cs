@@ -11,61 +11,61 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200003D")]
+[Token(Token = "0x200003B")]
 public abstract class MoveNextSource : IUniTaskSource<bool>, IUniTaskSource, IValueTaskSource, IValueTaskSource<bool>
 {
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x4000097")]
 	[FieldOffset(Offset = "0x10")]
 	protected UniTaskCompletionSourceCore<bool> completionSource;
 
-	[Token(Token = "0x6000130")]
-	[Address(RVA = "0x49D6630", Offset = "0x49D6630", VA = "0x49D6630", Slot = "22")]
+	[Token(Token = "0x600012E")]
+	[Address(RVA = "0x290E890", Offset = "0x290CE90", VA = "0x18290E890", Slot = "22")]
 	public bool GetResult(short token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x49D6680", Offset = "0x49D6680", VA = "0x49D6680", Slot = "10")]
+	[Token(Token = "0x600012F")]
+	[Address(RVA = "0x290E8E0", Offset = "0x290CEE0", VA = "0x18290E8E0", Slot = "10")]
 	public UniTaskStatus GetStatus(short token)
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000132")]
-	[Address(RVA = "0x49D66D0", Offset = "0x49D66D0", VA = "0x49D66D0", Slot = "11")]
+	[Token(Token = "0x6000130")]
+	[Address(RVA = "0x290EA30", Offset = "0x290D030", VA = "0x18290EA30", Slot = "11")]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 
-	[Token(Token = "0x6000133")]
-	[Address(RVA = "0x49D6730", Offset = "0x49D6730", VA = "0x49D6730", Slot = "13")]
+	[Token(Token = "0x6000131")]
+	[Address(RVA = "0x290EC70", Offset = "0x290D270", VA = "0x18290EC70", Slot = "13")]
 	public UniTaskStatus UnsafeGetStatus()
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x49D67E0", Offset = "0x49D67E0", VA = "0x49D67E0", Slot = "12")]
+	[Token(Token = "0x6000132")]
+	[Address(RVA = "0x290E840", Offset = "0x290CE40", VA = "0x18290E840", Slot = "12")]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 	{
 	}
 
-	[Token(Token = "0x6000135")]
+	[Token(Token = "0x6000133")]
 	protected bool TryGetResult<T>(UniTask<T>.Awaiter awaiter, out T result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x49D6830", Offset = "0x49D6830", VA = "0x49D6830")]
+	[Token(Token = "0x6000134")]
+	[Address(RVA = "0x290EBF0", Offset = "0x290D1F0", VA = "0x18290EBF0")]
 	protected bool TryGetResult(UniTask.Awaiter awaiter)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x49D6990", Offset = "0x49D6990", VA = "0x49D6990")]
+	[Token(Token = "0x6000135")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected MoveNextSource()
 	{
 	}

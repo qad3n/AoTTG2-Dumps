@@ -10,58 +10,58 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x20007A8")]
+[Token(Token = "0x2000933")]
 public sealed class AottgCreditContributor
 {
-	[Token(Token = "0x17000E25")]
+	[Token(Token = "0x17000F88")]
 	public string Name
 	{
-		[Token(Token = "0x60049C2")]
-		[Address(RVA = "0x43C6200", Offset = "0x43C6200", VA = "0x43C6200")]
+		[Token(Token = "0x600563A")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049C3")]
-		[Address(RVA = "0x43C6210", Offset = "0x43C6210", VA = "0x43C6210")]
+		[Token(Token = "0x600563B")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E26")]
+	[Token(Token = "0x17000F89")]
 	public string AccountId
 	{
-		[Token(Token = "0x60049C4")]
-		[Address(RVA = "0x43C6220", Offset = "0x43C6220", VA = "0x43C6220")]
+		[Token(Token = "0x600563C")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049C5")]
-		[Address(RVA = "0x43C6230", Offset = "0x43C6230", VA = "0x43C6230")]
+		[Token(Token = "0x600563D")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E27")]
+	[Token(Token = "0x17000F8A")]
 	public bool IsLinked
 	{
-		[Token(Token = "0x60049C6")]
-		[Address(RVA = "0x43C6240", Offset = "0x43C6240", VA = "0x43C6240")]
+		[Token(Token = "0x600563E")]
+		[Address(RVA = "0x2363930", Offset = "0x2361F30", VA = "0x182363930")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60049C1")]
-	[Address(RVA = "0x43C61C0", Offset = "0x43C61C0", VA = "0x43C61C0")]
+	[Token(Token = "0x6005639")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public AottgCreditContributor(string name, string accountId)
 	{
 	}

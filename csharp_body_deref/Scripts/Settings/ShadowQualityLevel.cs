@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000076")]
+[Token(Token = "0x2000092")]
 public enum ShadowQualityLevel
 {
-	[Token(Token = "0x4000284")]
+	[Token(Token = "0x40002EA")]
 	Off,
-	[Token(Token = "0x4000285")]
+	[Token(Token = "0x40002EB")]
 	Low,
-	[Token(Token = "0x4000286")]
+	[Token(Token = "0x40002EC")]
 	Medium,
-	[Token(Token = "0x4000287")]
+	[Token(Token = "0x40002ED")]
 	High
 }

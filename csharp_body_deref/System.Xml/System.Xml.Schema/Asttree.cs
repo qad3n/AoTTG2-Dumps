@@ -34,7 +34,7 @@ internal class Asttree
 	internal ArrayList SubtreeArray
 	{
 		[Token(Token = "0x6000F41")]
-		[Address(RVA = "0x483EF80", Offset = "0x483EF80", VA = "0x483EF80")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -42,47 +42,47 @@ internal class Asttree
 	}
 
 	[Token(Token = "0x6000F42")]
-	[Address(RVA = "0x483EF90", Offset = "0x483EF90", VA = "0x483EF90")]
+	[Address(RVA = "0x2775C40", Offset = "0x2774240", VA = "0x182775C40")]
 	public Asttree(string xPath, bool isField, XmlNamespaceManager nsmgr)
 	{
 	}
 
 	[Token(Token = "0x6000F43")]
-	[Address(RVA = "0x483F9E0", Offset = "0x483F9E0", VA = "0x483F9E0")]
+	[Address(RVA = "0x2775AB0", Offset = "0x27740B0", VA = "0x182775AB0")]
 	private static bool IsNameTest(Axis ast)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F44")]
-	[Address(RVA = "0x483DEE0", Offset = "0x483DEE0", VA = "0x483DEE0")]
+	[Address(RVA = "0x2775A50", Offset = "0x2774050", VA = "0x182775A50")]
 	internal static bool IsAttribute(Axis ast)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F45")]
-	[Address(RVA = "0x483FA00", Offset = "0x483FA00", VA = "0x483FA00")]
+	[Address(RVA = "0x2775A80", Offset = "0x2774080", VA = "0x182775A80")]
 	private static bool IsDescendantOrSelf(Axis ast)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x483EF50", Offset = "0x483EF50", VA = "0x483EF50")]
+	[Address(RVA = "0x2775AE0", Offset = "0x27740E0", VA = "0x182775AE0")]
 	internal static bool IsSelf(Axis ast)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F47")]
-	[Address(RVA = "0x483EFF0", Offset = "0x483EFF0", VA = "0x483EFF0")]
+	[Address(RVA = "0x2775160", Offset = "0x2773760", VA = "0x182775160")]
 	public void CompileXPath(string xPath, bool isField, XmlNamespaceManager nsmgr)
 	{
 	}
 
 	[Token(Token = "0x6000F48")]
-	[Address(RVA = "0x483FA30", Offset = "0x483FA30", VA = "0x483FA30")]
+	[Address(RVA = "0x2775B10", Offset = "0x2774110", VA = "0x182775B10")]
 	private void SetURN(Axis axis, XmlNamespaceManager nsmgr)
 	{
 	}

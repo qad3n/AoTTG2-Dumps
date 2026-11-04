@@ -8,17 +8,17 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x200002A")]
 internal class PrintCenterPivot : MonoBehaviour
 {
-	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x3F683A0", Offset = "0x3F683A0", VA = "0x3F683A0")]
+	[Token(Token = "0x600011D")]
+	[Address(RVA = "0x1DADB30", Offset = "0x1DAC130", VA = "0x181DADB30")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x3F68550", Offset = "0x3F68550", VA = "0x3F68550")]
+	[Token(Token = "0x600011E")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public PrintCenterPivot()
 	{
 	}

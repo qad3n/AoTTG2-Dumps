@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006A8")]
+[Token(Token = "0x2000803")]
 internal class QuestAchievementsPanel : QuestCategoryPanel
 {
-	[Token(Token = "0x17000CD8")]
+	[Token(Token = "0x17000E1E")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x6004270")]
-		[Address(RVA = "0x430F050", Offset = "0x430F050", VA = "0x430F050", Slot = "15")]
+		[Token(Token = "0x6004D64")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004271")]
-	[Address(RVA = "0x430F060", Offset = "0x430F060", VA = "0x430F060", Slot = "20")]
+	[Token(Token = "0x6004D65")]
+	[Address(RVA = "0x2296F30", Offset = "0x2295530", VA = "0x182296F30", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004272")]
-	[Address(RVA = "0x4311190", Offset = "0x4311190", VA = "0x4311190")]
+	[Token(Token = "0x6004D66")]
+	[Address(RVA = "0x2297A80", Offset = "0x2296080", VA = "0x182297A80")]
 	public QuestAchievementsPanel()
 	{
 	}

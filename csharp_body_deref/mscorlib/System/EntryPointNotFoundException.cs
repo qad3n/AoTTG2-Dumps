@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000A9")]
+[Token(Token = "0x20000D1")]
 public class EntryPointNotFoundException : TypeLoadException
 {
-	[Token(Token = "0x600069B")]
-	[Address(RVA = "0x3C9AC80", Offset = "0x3C9AC80", VA = "0x3C9AC80")]
+	[Token(Token = "0x60006CA")]
+	[Address(RVA = "0x1B22D00", Offset = "0x1B21300", VA = "0x181B22D00")]
 	public EntryPointNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x3C9ACC0", Offset = "0x3C9ACC0", VA = "0x3C9ACC0")]
+	[Token(Token = "0x60006CB")]
+	[Address(RVA = "0x1B22D50", Offset = "0x1B21350", VA = "0x181B22D50")]
 	public EntryPointNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x3C9ACE0", Offset = "0x3C9ACE0", VA = "0x3C9ACE0")]
+	[Token(Token = "0x60006CC")]
+	[Address(RVA = "0x1B21A50", Offset = "0x1B20050", VA = "0x181B21A50")]
 	protected EntryPointNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}

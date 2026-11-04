@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200019D")]
+[Token(Token = "0x20001A0")]
 public interface IAsyncOnApplicationQuitHandler
 {
-	[Token(Token = "0x6000A8C")]
+	[Token(Token = "0x6000AB0")]
 	UniTask OnApplicationQuitAsync();
 }

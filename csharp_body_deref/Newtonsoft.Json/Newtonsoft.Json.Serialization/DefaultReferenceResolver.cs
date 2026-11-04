@@ -18,41 +18,41 @@ internal class DefaultReferenceResolver : IReferenceResolver
 	private int _referenceCount;
 
 	[Token(Token = "0x60007A1")]
-	[Address(RVA = "0x3DD55B0", Offset = "0x3DD55B0", VA = "0x3DD55B0")]
+	[Address(RVA = "0x1C3C8E0", Offset = "0x1C3AEE0", VA = "0x181C3C8E0")]
 	private BidirectionalDictionary<string, object> GetMappings(object context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A2")]
-	[Address(RVA = "0x3DD57A0", Offset = "0x3DD57A0", VA = "0x3DD57A0", Slot = "4")]
+	[Address(RVA = "0x1C3CB50", Offset = "0x1C3B150", VA = "0x181C3CB50", Slot = "4")]
 	public object ResolveReference(object context, string reference)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A3")]
-	[Address(RVA = "0x3DD5810", Offset = "0x3DD5810", VA = "0x3DD5810", Slot = "5")]
+	[Address(RVA = "0x1C3C9E0", Offset = "0x1C3AFE0", VA = "0x181C3C9E0", Slot = "5")]
 	public string GetReference(object context, object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A4")]
-	[Address(RVA = "0x3DD5900", Offset = "0x3DD5900", VA = "0x3DD5900", Slot = "7")]
+	[Address(RVA = "0x1C3C870", Offset = "0x1C3AE70", VA = "0x181C3C870", Slot = "7")]
 	public void AddReference(object context, string reference, object value)
 	{
 	}
 
 	[Token(Token = "0x60007A5")]
-	[Address(RVA = "0x3DD5960", Offset = "0x3DD5960", VA = "0x3DD5960", Slot = "6")]
+	[Address(RVA = "0x1C3CAD0", Offset = "0x1C3B0D0", VA = "0x181C3CAD0", Slot = "6")]
 	public bool IsReferenced(object context, object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60007A6")]
-	[Address(RVA = "0x3DD59C0", Offset = "0x3DD59C0", VA = "0x3DD59C0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DefaultReferenceResolver()
 	{
 	}

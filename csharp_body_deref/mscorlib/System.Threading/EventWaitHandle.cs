@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001F3")]
+[Token(Token = "0x2000224")]
 [ComVisible(true)]
 public class EventWaitHandle : WaitHandle
 {
-	[Token(Token = "0x6001218")]
-	[Address(RVA = "0x3D280A0", Offset = "0x3D280A0", VA = "0x3D280A0")]
+	[Token(Token = "0x6001289")]
+	[Address(RVA = "0x1B9EDA0", Offset = "0x1B9D3A0", VA = "0x181B9EDA0")]
 	public EventWaitHandle(bool initialState, EventResetMode mode)
 	{
 	}
 
-	[Token(Token = "0x6001219")]
-	[Address(RVA = "0x3D31AC0", Offset = "0x3D31AC0", VA = "0x3D31AC0")]
+	[Token(Token = "0x600128A")]
+	[Address(RVA = "0x1B9EDC0", Offset = "0x1B9D3C0", VA = "0x181B9EDC0")]
 	public EventWaitHandle(bool initialState, EventResetMode mode, string name)
 	{
 	}
 
-	[Token(Token = "0x600121A")]
-	[Address(RVA = "0x3D2F160", Offset = "0x3D2F160", VA = "0x3D2F160")]
+	[Token(Token = "0x600128B")]
+	[Address(RVA = "0x1B9ECE0", Offset = "0x1B9D2E0", VA = "0x181B9ECE0")]
 	public bool Reset()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600121B")]
-	[Address(RVA = "0x3D2A210", Offset = "0x3D2A210", VA = "0x3D2A210")]
+	[Token(Token = "0x600128C")]
+	[Address(RVA = "0x1B9ED40", Offset = "0x1B9D340", VA = "0x181B9ED40")]
 	public bool Set()
 	{
 		return default(bool);

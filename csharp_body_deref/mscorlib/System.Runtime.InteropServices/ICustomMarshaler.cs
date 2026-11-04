@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000439")]
+[Token(Token = "0x2000468")]
 public interface ICustomMarshaler
 {
-	[Token(Token = "0x60021C5")]
+	[Token(Token = "0x6002235")]
 	object MarshalNativeToManaged(IntPtr pNativeData);
 
-	[Token(Token = "0x60021C6")]
+	[Token(Token = "0x6002236")]
 	IntPtr MarshalManagedToNative(object ManagedObj);
 
-	[Token(Token = "0x60021C7")]
+	[Token(Token = "0x6002237")]
 	void CleanUpNativeData(IntPtr pNativeData);
 
-	[Token(Token = "0x60021C8")]
+	[Token(Token = "0x6002238")]
 	void CleanUpManagedData(object ManagedObj);
 
-	[Token(Token = "0x60021C9")]
+	[Token(Token = "0x6002239")]
 	int GetNativeDataSize();
 }

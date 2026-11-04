@@ -12,11 +12,12 @@ using UnityEngine.EventSystems;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200005F")]
-[AddComponentMenu("UI/Rect Mask 2D", 14)]
+[Token(Token = "0x200005D")]
+[AddComponentMenu("UI (Canvas)/Rect Mask 2D", 14)]
 [ExecuteAlways]
 [DisallowMultipleComponent]
 [RequireComponent(typeof(RectTransform))]
+[UnityEngine.UGUIHelpURL("RectMask2D")]
 public class RectMask2D : UIBehaviour, IClipper, ICanvasRaycastFilter
 {
 	[NonSerialized]
@@ -78,145 +79,145 @@ public class RectMask2D : UIBehaviour, IClipper, ICanvasRaycastFilter
 	[FieldOffset(Offset = "0x88")]
 	private Vector3[] m_Corners;
 
-	[Token(Token = "0x170000E6")]
+	[Token(Token = "0x170000E7")]
 	public Vector4 padding
 	{
-		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x50D9790", Offset = "0x50D9790", VA = "0x50D9790")]
+		[Token(Token = "0x6000388")]
+		[Address(RVA = "0x32DD6B0", Offset = "0x32DBCB0", VA = "0x1832DD6B0")]
 		get
 		{
 			return default(Vector4);
 		}
-		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x50D97A0", Offset = "0x50D97A0", VA = "0x50D97A0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170000E7")]
-	public Vector2Int softness
-	{
-		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x50D97B0", Offset = "0x50D97B0", VA = "0x50D97B0")]
-		get
-		{
-			return default(Vector2Int);
-		}
-		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x50D97C0", Offset = "0x50D97C0", VA = "0x50D97C0")]
+		[Token(Token = "0x6000389")]
+		[Address(RVA = "0x32DD930", Offset = "0x32DBF30", VA = "0x1832DD930")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000E8")]
-	internal Canvas Canvas
+	public Vector2Int softness
 	{
-		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x50D97F0", Offset = "0x50D97F0", VA = "0x50D97F0")]
+		[Token(Token = "0x600038A")]
+		[Address(RVA = "0x32DD920", Offset = "0x32DBF20", VA = "0x1832DD920")]
 		get
 		{
-			return null;
+			return default(Vector2Int);
+		}
+		[Token(Token = "0x600038B")]
+		[Address(RVA = "0x32DD940", Offset = "0x32DBF40", VA = "0x1832DD940")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x170000E9")]
-	public Rect canvasRect
+	internal Canvas Canvas
 	{
-		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x50D9980", Offset = "0x50D9980", VA = "0x50D9980")]
-		get
-		{
-			return default(Rect);
-		}
-	}
-
-	[Token(Token = "0x170000EA")]
-	public RectTransform rectTransform
-	{
-		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x50D9A20", Offset = "0x50D9A20", VA = "0x50D9A20")]
+		[Token(Token = "0x600038C")]
+		[Address(RVA = "0x32DD4A0", Offset = "0x32DBAA0", VA = "0x1832DD4A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000EB")]
-	private Rect rootCanvasRect
+	[Token(Token = "0x170000EA")]
+	public Rect canvasRect
 	{
-		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x50D9E00", Offset = "0x50D9E00", VA = "0x50D9E00")]
+		[Token(Token = "0x600038D")]
+		[Address(RVA = "0x32DD610", Offset = "0x32DBC10", VA = "0x1832DD610")]
 		get
 		{
 			return default(Rect);
 		}
 	}
 
-	[Token(Token = "0x6000383")]
-	[Address(RVA = "0x50D9A80", Offset = "0x50D9A80", VA = "0x50D9A80")]
+	[Token(Token = "0x170000EB")]
+	public RectTransform rectTransform
+	{
+		[Token(Token = "0x600038E")]
+		[Address(RVA = "0x32DD6C0", Offset = "0x32DBCC0", VA = "0x1832DD6C0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000EC")]
+	private Rect rootCanvasRect
+	{
+		[Token(Token = "0x6000394")]
+		[Address(RVA = "0x32DD730", Offset = "0x32DBD30", VA = "0x1832DD730")]
+		get
+		{
+			return default(Rect);
+		}
+	}
+
+	[Token(Token = "0x600038F")]
+	[Address(RVA = "0x32DD330", Offset = "0x32DB930", VA = "0x1832DD330")]
 	protected RectMask2D()
 	{
 	}
 
-	[Token(Token = "0x6000384")]
-	[Address(RVA = "0x50D9C00", Offset = "0x50D9C00", VA = "0x50D9C00", Slot = "5")]
+	[Token(Token = "0x6000390")]
+	[Address(RVA = "0x32DC280", Offset = "0x32DA880", VA = "0x1832DC280", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000385")]
-	[Address(RVA = "0x50D9C30", Offset = "0x50D9C30", VA = "0x50D9C30", Slot = "7")]
+	[Token(Token = "0x6000391")]
+	[Address(RVA = "0x32DC1C0", Offset = "0x32DA7C0", VA = "0x1832DC1C0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000386")]
-	[Address(RVA = "0x50D9CF0", Offset = "0x50D9CF0", VA = "0x50D9CF0", Slot = "8")]
+	[Token(Token = "0x6000392")]
+	[Address(RVA = "0x32DC1A0", Offset = "0x32DA7A0", VA = "0x1832DC1A0", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000387")]
-	[Address(RVA = "0x50D9D10", Offset = "0x50D9D10", VA = "0x50D9D10", Slot = "19")]
+	[Token(Token = "0x6000393")]
+	[Address(RVA = "0x32DC050", Offset = "0x32DA650", VA = "0x1832DC050", Slot = "19")]
 	public virtual bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x50DA070", Offset = "0x50DA070", VA = "0x50DA070", Slot = "20")]
+	[Token(Token = "0x6000395")]
+	[Address(RVA = "0x32DC2B0", Offset = "0x32DA8B0", VA = "0x1832DC2B0", Slot = "20")]
 	public virtual void PerformClipping()
 	{
 	}
 
-	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x50DAA70", Offset = "0x50DAA70", VA = "0x50DAA70", Slot = "21")]
+	[Token(Token = "0x6000396")]
+	[Address(RVA = "0x32DD020", Offset = "0x32DB620", VA = "0x1832DD020", Slot = "21")]
 	public virtual void UpdateClipSoftness()
 	{
 	}
 
-	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x50DADF0", Offset = "0x50DADF0", VA = "0x50DADF0")]
+	[Token(Token = "0x6000397")]
+	[Address(RVA = "0x32DBF40", Offset = "0x32DA540", VA = "0x1832DBF40")]
 	public void AddClippable(IClippable clippable)
 	{
 	}
 
-	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x50DAF00", Offset = "0x50DAF00", VA = "0x50DAF00")]
+	[Token(Token = "0x6000398")]
+	[Address(RVA = "0x32DCE70", Offset = "0x32DB470", VA = "0x1832DCE70")]
 	public void RemoveClippable(IClippable clippable)
 	{
 	}
 
-	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x50DB080", Offset = "0x50DB080", VA = "0x50DB080", Slot = "12")]
+	[Token(Token = "0x6000399")]
+	[Address(RVA = "0x32DC160", Offset = "0x32DA760", VA = "0x1832DC160", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x50DB0B0", Offset = "0x50DB0B0", VA = "0x50DB0B0", Slot = "15")]
+	[Token(Token = "0x600039A")]
+	[Address(RVA = "0x32DC160", Offset = "0x32DA760", VA = "0x1832DC160", Slot = "15")]
 	protected override void OnCanvasHierarchyChanged()
 	{
 	}

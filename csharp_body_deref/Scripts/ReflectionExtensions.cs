@@ -9,24 +9,24 @@ using System;
 using System.Reflection;
 using Il2CppDummyDll;
 
-[Token(Token = "0x2000027")]
+[Token(Token = "0x2000029")]
 public static class ReflectionExtensions
 {
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000DD")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Type IntType;
 
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000DE")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly Type FloatType;
 
-	[Token(Token = "0x6000108")]
+	[Token(Token = "0x600011A")]
 	public static bool HasAttribute<T>(this Type member) where T : Attribute
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000109")]
+	[Token(Token = "0x600011B")]
 	public static bool HasAttribute<T>(this MemberInfo member) where T : Attribute
 	{
 		return default(bool);

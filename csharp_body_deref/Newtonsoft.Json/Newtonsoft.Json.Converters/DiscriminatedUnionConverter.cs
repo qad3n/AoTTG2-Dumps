@@ -28,7 +28,7 @@ public class DiscriminatedUnionConverter : JsonConverter
 		public readonly List<UnionCase> Cases;
 
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x3E41FF0", Offset = "0x3E41FF0", VA = "0x3E41FF0")]
+		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 		public Union(FSharpFunction tagReader, List<UnionCase> cases)
 		{
 		}
@@ -58,7 +58,7 @@ public class DiscriminatedUnionConverter : JsonConverter
 		public readonly FSharpFunction Constructor;
 
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x3E42030", Offset = "0x3E42030", VA = "0x3E42030")]
+		[Address(RVA = "0x18C6C80", Offset = "0x18C5280", VA = "0x1818C6C80")]
 		public UnionCase(int tag, string name, PropertyInfo[] fields, FSharpFunction fieldReader, FSharpFunction constructor)
 		{
 		}
@@ -79,41 +79,41 @@ public class DiscriminatedUnionConverter : JsonConverter
 	private static readonly ThreadSafeStore<Type, Type> UnionTypeLookupCache;
 
 	[Token(Token = "0x6000EB2")]
-	[Address(RVA = "0x3E412F0", Offset = "0x3E412F0", VA = "0x3E412F0")]
+	[Address(RVA = "0x1C92030", Offset = "0x1C90630", VA = "0x181C92030")]
 	private static Type CreateUnionTypeLookup(Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EB3")]
-	[Address(RVA = "0x3E41580", Offset = "0x3E41580", VA = "0x3E41580")]
+	[Address(RVA = "0x1C92260", Offset = "0x1C90860", VA = "0x181C92260")]
 	private static Union CreateUnion(Type t)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EB4")]
-	[Address(RVA = "0x3E420B0", Offset = "0x3E420B0", VA = "0x3E420B0", Slot = "4")]
+	[Address(RVA = "0x1C93330", Offset = "0x1C91930", VA = "0x181C93330", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000EB5")]
-	[Address(RVA = "0x3E425C0", Offset = "0x3E425C0", VA = "0x3E425C0", Slot = "5")]
+	[Address(RVA = "0x1C92B70", Offset = "0x1C91170", VA = "0x181C92B70", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EB6")]
-	[Address(RVA = "0x3E42D30", Offset = "0x3E42D30", VA = "0x3E42D30", Slot = "6")]
+	[Address(RVA = "0x1C91DD0", Offset = "0x1C903D0", VA = "0x181C91DD0", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EB7")]
-	[Address(RVA = "0x3E42FE0", Offset = "0x3E42FE0", VA = "0x3E42FE0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DiscriminatedUnionConverter()
 	{
 	}

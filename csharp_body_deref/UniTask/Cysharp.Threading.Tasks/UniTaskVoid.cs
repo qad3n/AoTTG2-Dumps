@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000156")]
+[Token(Token = "0x2000154")]
 [AsyncMethodBuilder(typeof(AsyncUniTaskVoidMethodBuilder))]
 public readonly struct UniTaskVoid
 {
-	[Token(Token = "0x60007EF")]
-	[Address(RVA = "0x49F6AE0", Offset = "0x49F6AE0", VA = "0x49F6AE0")]
+	[Token(Token = "0x60007ED")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Forget()
 	{
 	}

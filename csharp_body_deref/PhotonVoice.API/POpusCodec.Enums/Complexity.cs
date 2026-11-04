@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000A")]
 public enum Complexity
 {
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x400002B")]
 	Complexity0,
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x400002C")]
 	Complexity1,
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x400002D")]
 	Complexity2,
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400002E")]
 	Complexity3,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400002F")]
 	Complexity4,
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000030")]
 	Complexity5,
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x4000031")]
 	Complexity6,
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x4000032")]
 	Complexity7,
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x4000033")]
 	Complexity8,
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x4000034")]
 	Complexity9,
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000035")]
 	Complexity10
 }

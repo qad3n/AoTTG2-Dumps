@@ -12,46 +12,58 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000028")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 [UnityEngine.Bindings.NativeHeader("Modules/IMGUI/GUIState.h")]
 internal class ObjectGUIState : IDisposable
 {
-	[Token(Token = "0x40000FC")]
+	[Token(Token = "0x2000029")]
+	internal static class BindingsMarshaller
+	{
+		[Token(Token = "0x6000294")]
+		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		public static IntPtr ConvertToNative(ObjectGUIState objectGUIState)
+		{
+			return default(IntPtr);
+		}
+	}
+
+	[Token(Token = "0x4000102")]
 	[FieldOffset(Offset = "0x10")]
 	internal IntPtr m_Ptr;
 
-	[Token(Token = "0x600023A")]
-	[Address(RVA = "0x4E61680", Offset = "0x4E61680", VA = "0x4E61680")]
+	[Token(Token = "0x600028E")]
+	[Address(RVA = "0x2FA9E80", Offset = "0x2FA8480", VA = "0x182FA9E80")]
 	public ObjectGUIState()
 	{
 	}
 
-	[Token(Token = "0x600023B")]
-	[Address(RVA = "0x4E616F0", Offset = "0x4E616F0", VA = "0x4E616F0", Slot = "4")]
+	[Token(Token = "0x600028F")]
+	[Address(RVA = "0x2FA9CE0", Offset = "0x2FA82E0", VA = "0x182FA9CE0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x4E617D0", Offset = "0x4E617D0", VA = "0x4E617D0", Slot = "1")]
+	[Token(Token = "0x6000290")]
+	[Address(RVA = "0x2FA9D70", Offset = "0x2FA8370", VA = "0x182FA9D70", Slot = "1")]
 	~ObjectGUIState()
 	{
 	}
 
-	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x4E61780", Offset = "0x4E61780", VA = "0x4E61780")]
+	[Token(Token = "0x6000291")]
+	[Address(RVA = "0x2FA9C90", Offset = "0x2FA8290", VA = "0x182FA9C90")]
 	private void Destroy()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x4E616C0", Offset = "0x4E616C0", VA = "0x4E616C0")]
+	[Token(Token = "0x6000292")]
+	[Address(RVA = "0x2FA9E10", Offset = "0x2FA8410", VA = "0x182FA9E10")]
 	private static extern IntPtr Internal_Create();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x4E61890", Offset = "0x4E61890", VA = "0x4E61890")]
+	[Token(Token = "0x6000293")]
+	[Address(RVA = "0x2FA9E40", Offset = "0x2FA8440", VA = "0x182FA9E40")]
 	[UnityEngine.Bindings.NativeMethod(IsThreadSafe = true)]
 	private static extern void Internal_Destroy(IntPtr ptr);
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000068")]
+[Token(Token = "0x2000066")]
 public enum AudioSampleType
 {
-	[Token(Token = "0x40001B1")]
+	[Token(Token = "0x40001AC")]
 	Source,
-	[Token(Token = "0x40001B2")]
+	[Token(Token = "0x40001AD")]
 	Short,
-	[Token(Token = "0x40001B3")]
+	[Token(Token = "0x40001AE")]
 	Float
 }

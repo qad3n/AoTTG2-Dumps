@@ -6,16 +6,18 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000164")]
+[Token(Token = "0x20001A9")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule", "UnityEngine.HierarchyModule" })]
 internal enum DispatchMode
 {
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x400074C")]
 	Default = 1,
-	[Token(Token = "0x400061C")]
-	Queued = 1,
-	[Token(Token = "0x400061D")]
+	[Token(Token = "0x400074D")]
+	Queued = Default,
+	[Token(Token = "0x400074E")]
 	Immediate = 2
 }

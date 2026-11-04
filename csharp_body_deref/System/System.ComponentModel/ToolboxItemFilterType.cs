@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002D9")]
+[Token(Token = "0x20001E4")]
 public enum ToolboxItemFilterType
 {
-	[Token(Token = "0x4000E19")]
+	[Token(Token = "0x4000750")]
 	Allow,
-	[Token(Token = "0x4000E1A")]
+	[Token(Token = "0x4000751")]
 	Custom,
-	[Token(Token = "0x4000E1B")]
+	[Token(Token = "0x4000752")]
 	Prevent,
-	[Token(Token = "0x4000E1C")]
+	[Token(Token = "0x4000753")]
 	Require
 }

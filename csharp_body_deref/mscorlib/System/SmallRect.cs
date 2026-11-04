@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001B9")]
+[Token(Token = "0x20001E4")]
 internal struct SmallRect
 {
-	[Token(Token = "0x40008E4")]
+	[Token(Token = "0x4000948")]
 	[FieldOffset(Offset = "0x0")]
 	public short Left;
 
-	[Token(Token = "0x40008E5")]
+	[Token(Token = "0x4000949")]
 	[FieldOffset(Offset = "0x2")]
 	public short Top;
 
-	[Token(Token = "0x40008E6")]
+	[Token(Token = "0x400094A")]
 	[FieldOffset(Offset = "0x4")]
 	public short Right;
 
-	[Token(Token = "0x40008E7")]
+	[Token(Token = "0x400094B")]
 	[FieldOffset(Offset = "0x6")]
 	public short Bottom;
 }

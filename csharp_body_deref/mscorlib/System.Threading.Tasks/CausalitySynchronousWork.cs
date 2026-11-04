@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000262")]
+[Token(Token = "0x2000292")]
 internal enum CausalitySynchronousWork
 {
-	[Token(Token = "0x4000B1A")]
+	[Token(Token = "0x4000B63")]
 	CompletionNotification,
-	[Token(Token = "0x4000B1B")]
+	[Token(Token = "0x4000B64")]
 	ProgressNotification,
-	[Token(Token = "0x4000B1C")]
+	[Token(Token = "0x4000B65")]
 	Execution
 }

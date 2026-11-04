@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002EE")]
+[Token(Token = "0x20001F9")]
 public delegate void PropertyChangingEventHandler(object sender, PropertyChangingEventArgs e);

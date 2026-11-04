@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnMouseOverMessageListener : MessageListener
 {
-	[Token(Token = "0x6000441")]
-	[Address(RVA = "0x4CB6270", Offset = "0x4CB6270", VA = "0x4CB6270")]
+	[Token(Token = "0x600044B")]
+	[Address(RVA = "0x2DBE570", Offset = "0x2DBCB70", VA = "0x182DBE570")]
 	private void OnMouseOver()
 	{
 	}
 
-	[Token(Token = "0x6000442")]
-	[Address(RVA = "0x4CB62E0", Offset = "0x4CB62E0", VA = "0x4CB62E0")]
+	[Token(Token = "0x600044C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnMouseOverMessageListener()
 	{
 	}

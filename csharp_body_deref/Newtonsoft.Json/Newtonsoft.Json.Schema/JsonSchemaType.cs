@@ -32,5 +32,5 @@ public enum JsonSchemaType
 	[Token(Token = "0x400064C")]
 	Null = 0x40,
 	[Token(Token = "0x400064D")]
-	Any = 0x7F
+	Any = String | Float | Integer | Boolean | Object | Array | Null
 }

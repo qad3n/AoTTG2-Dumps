@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Versioning;
 
-[Token(Token = "0x20003C6")]
+[Token(Token = "0x20003F5")]
 internal static class BinaryCompatibility
 {
-	[Token(Token = "0x4000FC5")]
+	[Token(Token = "0x4000FCB")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly bool TargetsAtLeast_Desktop_V4_5;
 
-	[Token(Token = "0x4000FC6")]
+	[Token(Token = "0x4000FCC")]
 	[FieldOffset(Offset = "0x1")]
 	public static readonly bool TargetsAtLeast_Desktop_V4_5_1;
 }

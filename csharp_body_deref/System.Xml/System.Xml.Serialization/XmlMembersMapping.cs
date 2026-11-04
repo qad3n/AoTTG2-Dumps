@@ -26,7 +26,7 @@ public class XmlMembersMapping : XmlMapping
 	public int Count
 	{
 		[Token(Token = "0x6000D63")]
-		[Address(RVA = "0x4815960", Offset = "0x4815960", VA = "0x4815960")]
+		[Address(RVA = "0x275EBF0", Offset = "0x275D1F0", VA = "0x18275EBF0")]
 		get
 		{
 			return default(int);
@@ -37,7 +37,7 @@ public class XmlMembersMapping : XmlMapping
 	internal bool HasWrapperElement
 	{
 		[Token(Token = "0x6000D64")]
-		[Address(RVA = "0x4815980", Offset = "0x4815980", VA = "0x4815980")]
+		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
 		get
 		{
 			return default(bool);

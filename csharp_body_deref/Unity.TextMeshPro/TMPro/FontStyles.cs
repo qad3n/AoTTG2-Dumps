@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x2000087")]
 [Flags]
 public enum FontStyles
 {
-	[Token(Token = "0x40004AB")]
+	[Token(Token = "0x400041B")]
 	Normal = 0,
-	[Token(Token = "0x40004AC")]
+	[Token(Token = "0x400041C")]
 	Bold = 1,
-	[Token(Token = "0x40004AD")]
+	[Token(Token = "0x400041D")]
 	Italic = 2,
-	[Token(Token = "0x40004AE")]
+	[Token(Token = "0x400041E")]
 	Underline = 4,
-	[Token(Token = "0x40004AF")]
+	[Token(Token = "0x400041F")]
 	LowerCase = 8,
-	[Token(Token = "0x40004B0")]
+	[Token(Token = "0x4000420")]
 	UpperCase = 0x10,
-	[Token(Token = "0x40004B1")]
+	[Token(Token = "0x4000421")]
 	SmallCaps = 0x20,
-	[Token(Token = "0x40004B2")]
+	[Token(Token = "0x4000422")]
 	Strikethrough = 0x40,
-	[Token(Token = "0x40004B3")]
+	[Token(Token = "0x4000423")]
 	Superscript = 0x80,
-	[Token(Token = "0x40004B4")]
+	[Token(Token = "0x4000424")]
 	Subscript = 0x100,
-	[Token(Token = "0x40004B5")]
+	[Token(Token = "0x4000425")]
 	Highlight = 0x200
 }

@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000145")]
+[Token(Token = "0x20002CD")]
 internal static class ExceptionHelper
 {
-	[Token(Token = "0x170001B5")]
+	[Token(Token = "0x1700040A")]
 	internal static NotImplementedException MethodNotImplementedException
 	{
-		[Token(Token = "0x60007D8")]
-		[Address(RVA = "0x495DFE0", Offset = "0x495DFE0", VA = "0x495DFE0")]
+		[Token(Token = "0x6001397")]
+		[Address(RVA = "0x27C9410", Offset = "0x27C7A10", VA = "0x1827C9410")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B6")]
+	[Token(Token = "0x1700040B")]
 	internal static NotImplementedException PropertyNotImplementedException
 	{
-		[Token(Token = "0x60007D9")]
-		[Address(RVA = "0x495DF50", Offset = "0x495DF50", VA = "0x495DF50")]
+		[Token(Token = "0x6001398")]
+		[Address(RVA = "0x27C9480", Offset = "0x27C7A80", VA = "0x1827C9480")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B7")]
+	[Token(Token = "0x1700040C")]
 	internal static WebException TimeoutException
 	{
-		[Token(Token = "0x60007DA")]
-		[Address(RVA = "0x4957630", Offset = "0x4957630", VA = "0x4957630")]
+		[Token(Token = "0x6001399")]
+		[Address(RVA = "0x27C95F0", Offset = "0x27C7BF0", VA = "0x1827C95F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B8")]
+	[Token(Token = "0x1700040D")]
 	internal static NotSupportedException PropertyNotSupportedException
 	{
-		[Token(Token = "0x60007DB")]
-		[Address(RVA = "0x495C760", Offset = "0x495C760", VA = "0x495C760")]
+		[Token(Token = "0x600139A")]
+		[Address(RVA = "0x27C94F0", Offset = "0x27C7AF0", VA = "0x1827C94F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B9")]
+	[Token(Token = "0x1700040E")]
 	internal static WebException RequestAbortedException
 	{
-		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x4953950", Offset = "0x4953950", VA = "0x4953950")]
+		[Token(Token = "0x600139B")]
+		[Address(RVA = "0x27C9560", Offset = "0x27C7B60", VA = "0x1827C9560")]
 		get
 		{
 			return null;

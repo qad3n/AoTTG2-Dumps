@@ -11,7 +11,7 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000003")]
 public class FastAction
 {
 	[Token(Token = "0x4000006")]
@@ -22,31 +22,31 @@ public class FastAction
 	[FieldOffset(Offset = "0x18")]
 	private Dictionary<Action, LinkedListNode<Action>> lookup;
 
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4C300C0", Offset = "0x4C300C0", VA = "0x4C300C0")]
+	[Token(Token = "0x6000001")]
+	[Address(RVA = "0x2CDD5D0", Offset = "0x2CDBBD0", VA = "0x182CDD5D0")]
 	public void Add(Action rhs)
 	{
 	}
 
-	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4C30170", Offset = "0x4C30170", VA = "0x4C30170")]
+	[Token(Token = "0x6000002")]
+	[Address(RVA = "0x2CDD710", Offset = "0x2CDBD10", VA = "0x182CDD710")]
 	public void Remove(Action rhs)
 	{
 	}
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4C30220", Offset = "0x4C30220", VA = "0x4C30220")]
+	[Token(Token = "0x6000003")]
+	[Address(RVA = "0x2CDD680", Offset = "0x2CDBC80", VA = "0x182CDD680")]
 	public void Call()
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4C302C0", Offset = "0x4C302C0", VA = "0x4C302C0")]
+	[Token(Token = "0x6000004")]
+	[Address(RVA = "0x2CDD7D0", Offset = "0x2CDBDD0", VA = "0x182CDD7D0")]
 	public FastAction()
 	{
 	}
 }
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000004")]
 public class FastAction<A>
 {
 	[Token(Token = "0x4000008")]
@@ -57,27 +57,27 @@ public class FastAction<A>
 	[FieldOffset(Offset = "0x0")]
 	private Dictionary<Action<A>, LinkedListNode<Action<A>>> lookup;
 
-	[Token(Token = "0x6000007")]
+	[Token(Token = "0x6000005")]
 	public void Add(Action<A> rhs)
 	{
 	}
 
-	[Token(Token = "0x6000008")]
+	[Token(Token = "0x6000006")]
 	public void Remove(Action<A> rhs)
 	{
 	}
 
-	[Token(Token = "0x6000009")]
+	[Token(Token = "0x6000007")]
 	public void Call(A a)
 	{
 	}
 
-	[Token(Token = "0x600000A")]
+	[Token(Token = "0x6000008")]
 	public FastAction()
 	{
 	}
 }
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000005")]
 public class FastAction<A, B>
 {
 	[Token(Token = "0x400000A")]
@@ -88,27 +88,27 @@ public class FastAction<A, B>
 	[FieldOffset(Offset = "0x0")]
 	private Dictionary<Action<A, B>, LinkedListNode<Action<A, B>>> lookup;
 
-	[Token(Token = "0x600000B")]
+	[Token(Token = "0x6000009")]
 	public void Add(Action<A, B> rhs)
 	{
 	}
 
-	[Token(Token = "0x600000C")]
+	[Token(Token = "0x600000A")]
 	public void Remove(Action<A, B> rhs)
 	{
 	}
 
-	[Token(Token = "0x600000D")]
+	[Token(Token = "0x600000B")]
 	public void Call(A a, B b)
 	{
 	}
 
-	[Token(Token = "0x600000E")]
+	[Token(Token = "0x600000C")]
 	public FastAction()
 	{
 	}
 }
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000006")]
 public class FastAction<A, B, C>
 {
 	[Token(Token = "0x400000C")]
@@ -119,22 +119,22 @@ public class FastAction<A, B, C>
 	[FieldOffset(Offset = "0x0")]
 	private Dictionary<Action<A, B, C>, LinkedListNode<Action<A, B, C>>> lookup;
 
-	[Token(Token = "0x600000F")]
+	[Token(Token = "0x600000D")]
 	public void Add(Action<A, B, C> rhs)
 	{
 	}
 
-	[Token(Token = "0x6000010")]
+	[Token(Token = "0x600000E")]
 	public void Remove(Action<A, B, C> rhs)
 	{
 	}
 
-	[Token(Token = "0x6000011")]
+	[Token(Token = "0x600000F")]
 	public void Call(A a, B b, C c)
 	{
 	}
 
-	[Token(Token = "0x6000012")]
+	[Token(Token = "0x6000010")]
 	public FastAction()
 	{
 	}

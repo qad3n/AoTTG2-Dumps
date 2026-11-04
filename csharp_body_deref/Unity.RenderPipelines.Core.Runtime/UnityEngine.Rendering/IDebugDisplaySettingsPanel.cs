@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000F9")]
+[Token(Token = "0x20000CF")]
 public interface IDebugDisplaySettingsPanel
 {
-	[Token(Token = "0x170000C3")]
+	[Token(Token = "0x170000AC")]
 	string PanelName
 	{
-		[Token(Token = "0x600082C")]
+		[Token(Token = "0x600078D")]
 		get;
 	}
 
-	[Token(Token = "0x170000C4")]
+	[Token(Token = "0x170000AD")]
 	DebugUI.Widget[] Widgets
 	{
-		[Token(Token = "0x600082D")]
+		[Token(Token = "0x600078E")]
 		get;
 	}
 
-	[Token(Token = "0x170000C5")]
+	[Token(Token = "0x170000AE")]
 	DebugUI.Flags Flags
 	{
-		[Token(Token = "0x600082E")]
+		[Token(Token = "0x600078F")]
 		get;
 	}
 }

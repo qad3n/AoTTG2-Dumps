@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x2000086")]
 public static class AottgSearchableExtensions
 {
-	[Token(Token = "0x600031B")]
-	[Address(RVA = "0x3A63E30", Offset = "0x3A63E30", VA = "0x3A63E30")]
+	[Token(Token = "0x600040F")]
+	[Address(RVA = "0x18C6B50", Offset = "0x18C5150", VA = "0x1818C6B50")]
 	public static GisketchNodeDefinition Searchable(this GisketchNodeDefinition node, [Optional] string title, [Optional] string keywords, [Optional] string icon, [Optional] string kind, [Optional] string sectionId, [Optional] string sectionTitle, bool autoAddKeywords = false)
 	{
 		return null;

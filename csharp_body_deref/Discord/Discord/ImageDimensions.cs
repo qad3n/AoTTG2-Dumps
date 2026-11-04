@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000038")]
 public struct ImageDimensions
 {
-	[Token(Token = "0x40000AE")]
+	[Token(Token = "0x40000A9")]
 	[FieldOffset(Offset = "0x0")]
 	public uint Width;
 
-	[Token(Token = "0x40000AF")]
+	[Token(Token = "0x40000AA")]
 	[FieldOffset(Offset = "0x4")]
 	public uint Height;
 }

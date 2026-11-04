@@ -10,75 +10,75 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000234")]
+[Token(Token = "0x20002F5")]
 public class DebugUIHandlerValueTuple : DebugUIHandlerWidget
 {
-	[Token(Token = "0x40008C7")]
+	[Token(Token = "0x4000D9F")]
 	[FieldOffset(Offset = "0x60")]
 	public Text nameLabel;
 
-	[Token(Token = "0x40008C8")]
+	[Token(Token = "0x4000DA0")]
 	[FieldOffset(Offset = "0x68")]
 	public Text valueLabel;
 
-	[Token(Token = "0x40008C9")]
+	[Token(Token = "0x4000DA1")]
 	[FieldOffset(Offset = "0x70")]
 	protected internal DebugUI.ValueTuple m_Field;
 
-	[Token(Token = "0x40008CA")]
+	[Token(Token = "0x4000DA2")]
 	[FieldOffset(Offset = "0x78")]
 	protected internal Text[] valueElements;
 
-	[Token(Token = "0x40008CB")]
+	[Token(Token = "0x4000DA3")]
 	private const float k_XOffset = 230f;
 
-	[Token(Token = "0x40008CC")]
+	[Token(Token = "0x4000DA4")]
 	[FieldOffset(Offset = "0x80")]
 	private float m_Timer;
 
-	[Token(Token = "0x40008CD")]
+	[Token(Token = "0x4000DA5")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Color k_ZeroColor;
 
-	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x4C17E60", Offset = "0x4C17E60", VA = "0x4C17E60", Slot = "4")]
+	[Token(Token = "0x60014CF")]
+	[Address(RVA = "0x16F6DE0", Offset = "0x16F53E0", VA = "0x1816F6DE0", Slot = "4")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x4C17E70", Offset = "0x4C17E70", VA = "0x4C17E70", Slot = "6")]
+	[Token(Token = "0x60014D0")]
+	[Address(RVA = "0x2BA8BF0", Offset = "0x2BA71F0", VA = "0x182BA8BF0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x4C17EA0", Offset = "0x4C17EA0", VA = "0x4C17EA0", Slot = "7")]
+	[Token(Token = "0x60014D1")]
+	[Address(RVA = "0x2BA83A0", Offset = "0x2BA69A0", VA = "0x182BA83A0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
-	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x4C17ED0", Offset = "0x4C17ED0", VA = "0x4C17ED0", Slot = "5")]
+	[Token(Token = "0x60014D2")]
+	[Address(RVA = "0x2BB1E70", Offset = "0x2BB0470", VA = "0x182BB1E70", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x4C18270", Offset = "0x4C18270", VA = "0x4C18270", Slot = "13")]
+	[Token(Token = "0x60014D3")]
+	[Address(RVA = "0x2BB22B0", Offset = "0x2BB08B0", VA = "0x182BB22B0", Slot = "13")]
 	internal virtual void UpdateValueLabels()
 	{
 	}
 
-	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x4C184E0", Offset = "0x4C184E0", VA = "0x4C184E0")]
+	[Token(Token = "0x60014D4")]
+	[Address(RVA = "0x2BB2540", Offset = "0x2BB0B40", VA = "0x182BB2540")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x4C18590", Offset = "0x4C18590", VA = "0x4C18590")]
+	[Token(Token = "0x60014D5")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerValueTuple()
 	{
 	}

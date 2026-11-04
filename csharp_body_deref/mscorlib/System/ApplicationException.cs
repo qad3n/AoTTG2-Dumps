@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000089")]
+[Token(Token = "0x20000B2")]
 public class ApplicationException : Exception
 {
-	[Token(Token = "0x60003D5")]
-	[Address(RVA = "0x3C134F0", Offset = "0x3C134F0", VA = "0x3C134F0")]
+	[Token(Token = "0x6000408")]
+	[Address(RVA = "0x1A77A20", Offset = "0x1A76020", VA = "0x181A77A20")]
 	public ApplicationException()
 	{
 	}
 
-	[Token(Token = "0x60003D6")]
-	[Address(RVA = "0x3C13560", Offset = "0x3C13560", VA = "0x3C13560")]
+	[Token(Token = "0x6000409")]
+	[Address(RVA = "0x1A77B10", Offset = "0x1A76110", VA = "0x181A77B10")]
 	public ApplicationException(string message)
 	{
 	}
 
-	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x3C135C0", Offset = "0x3C135C0", VA = "0x3C135C0")]
+	[Token(Token = "0x600040A")]
+	[Address(RVA = "0x1A77A90", Offset = "0x1A76090", VA = "0x181A77A90")]
 	public ApplicationException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x3C13620", Offset = "0x3C13620", VA = "0x3C13620")]
+	[Token(Token = "0x600040B")]
+	[Address(RVA = "0x1A77B80", Offset = "0x1A76180", VA = "0x181A77B80")]
 	protected ApplicationException(SerializationInfo info, StreamingContext context)
 	{
 	}

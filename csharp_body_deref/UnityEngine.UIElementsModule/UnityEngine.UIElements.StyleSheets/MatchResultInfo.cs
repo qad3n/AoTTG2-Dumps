@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x200053B")]
+[Token(Token = "0x2000633")]
 internal struct MatchResultInfo
 {
-	[Token(Token = "0x4001213")]
+	[Token(Token = "0x40017BD")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly bool success;
 
-	[Token(Token = "0x4001214")]
+	[Token(Token = "0x40017BE")]
 	[FieldOffset(Offset = "0x4")]
 	public readonly PseudoStates triggerPseudoMask;
 
-	[Token(Token = "0x4001215")]
+	[Token(Token = "0x40017BF")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly PseudoStates dependencyPseudoMask;
 
-	[Token(Token = "0x6002022")]
-	[Address(RVA = "0x4FCBF00", Offset = "0x4FCBF00", VA = "0x4FCBF00")]
+	[Token(Token = "0x6002D8E")]
+	[Address(RVA = "0x31ED190", Offset = "0x31EB790", VA = "0x1831ED190")]
 	public MatchResultInfo(bool success, PseudoStates triggerPseudoMask, PseudoStates dependencyPseudoMask)
 	{
 	}

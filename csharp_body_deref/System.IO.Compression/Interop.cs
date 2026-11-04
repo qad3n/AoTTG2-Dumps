@@ -12,47 +12,47 @@ internal static class Interop
 	{
 		[PreserveSig]
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x465F510", Offset = "0x465F510", VA = "0x465F510")]
+		[Address(RVA = "0x25B8770", Offset = "0x25B6D70", VA = "0x1825B8770")]
 		internal static extern SafeBrotliDecoderHandle BrotliDecoderCreateInstance(IntPtr allocFunc, IntPtr freeFunc, IntPtr opaque);
 
 		[PreserveSig]
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x465F590", Offset = "0x465F590", VA = "0x465F590")]
+		[Address(RVA = "0x25B87F0", Offset = "0x25B6DF0", VA = "0x1825B87F0")]
 		internal unsafe static extern int BrotliDecoderDecompressStream(SafeBrotliDecoderHandle state, ref IntPtr availableIn, byte** nextIn, ref IntPtr availableOut, byte** nextOut, out IntPtr totalOut);
 
 		[PreserveSig]
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x465F620", Offset = "0x465F620", VA = "0x465F620")]
+		[Address(RVA = "0x25B8880", Offset = "0x25B6E80", VA = "0x1825B8880")]
 		internal static extern void BrotliDecoderDestroyInstance(IntPtr state);
 
 		[PreserveSig]
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x465F630", Offset = "0x465F630", VA = "0x465F630")]
+		[Address(RVA = "0x25B8890", Offset = "0x25B6E90", VA = "0x1825B8890")]
 		internal static extern bool BrotliDecoderIsFinished(SafeBrotliDecoderHandle state);
 
 		[PreserveSig]
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x465F690", Offset = "0x465F690", VA = "0x465F690")]
+		[Address(RVA = "0x25B89A0", Offset = "0x25B6FA0", VA = "0x1825B89A0")]
 		internal static extern SafeBrotliEncoderHandle BrotliEncoderCreateInstance(IntPtr allocFunc, IntPtr freeFunc, IntPtr opaque);
 
 		[PreserveSig]
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x465F710", Offset = "0x465F710", VA = "0x465F710")]
+		[Address(RVA = "0x25B8AA0", Offset = "0x25B70A0", VA = "0x1825B8AA0")]
 		internal static extern bool BrotliEncoderSetParameter(SafeBrotliEncoderHandle state, BrotliEncoderParameter parameter, uint value);
 
 		[PreserveSig]
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x465F780", Offset = "0x465F780", VA = "0x465F780")]
+		[Address(RVA = "0x25B8900", Offset = "0x25B6F00", VA = "0x1825B8900")]
 		internal unsafe static extern bool BrotliEncoderCompressStream(SafeBrotliEncoderHandle state, BrotliEncoderOperation op, ref IntPtr availableIn, byte** nextIn, ref IntPtr availableOut, byte** nextOut, out IntPtr totalOut);
 
 		[PreserveSig]
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x465F820", Offset = "0x465F820", VA = "0x465F820")]
+		[Address(RVA = "0x25B8A30", Offset = "0x25B7030", VA = "0x1825B8A30")]
 		internal static extern bool BrotliEncoderHasMoreOutput(SafeBrotliEncoderHandle state);
 
 		[PreserveSig]
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x465F880", Offset = "0x465F880", VA = "0x465F880")]
+		[Address(RVA = "0x25B8A20", Offset = "0x25B7020", VA = "0x1825B8A20")]
 		internal static extern void BrotliEncoderDestroyInstance(IntPtr state);
 	}
 }

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004D9")]
+[Token(Token = "0x2000509")]
 [Flags]
 public enum ExceptionHandlingClauseOptions
 {

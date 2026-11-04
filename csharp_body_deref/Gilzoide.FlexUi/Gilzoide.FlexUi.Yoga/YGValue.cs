@@ -11,44 +11,44 @@ using Il2CppDummyDll;
 namespace Gilzoide.FlexUi.Yoga;
 
 [Serializable]
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001B")]
 public struct YGValue
 {
-	[Token(Token = "0x4000090")]
+	[Token(Token = "0x400008B")]
 	[FieldOffset(Offset = "0x0")]
 	public float Value;
 
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0x4")]
 	public Unit Unit;
 
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x400008D")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly YGValue Zero;
 
-	[Token(Token = "0x4000093")]
+	[Token(Token = "0x400008E")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly YGValue Undefined;
 
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly YGValue Auto;
 
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3A292D0", Offset = "0x3A292D0", VA = "0x3A292D0")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x1381B80", Offset = "0x1380180", VA = "0x181381B80")]
 	public YGValue(float value, Unit unit)
 	{
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3A292E0", Offset = "0x3A292E0", VA = "0x3A292E0")]
+	[Token(Token = "0x60000C1")]
+	[Address(RVA = "0x1880A40", Offset = "0x187F040", VA = "0x181880A40")]
 	public static YGValue Percent(float value)
 	{
 		return default(YGValue);
 	}
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3A29300", Offset = "0x3A29300", VA = "0x3A29300")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x1880B00", Offset = "0x187F100", VA = "0x181880B00")]
 	public static implicit operator YGValue(float value)
 	{
 		return default(YGValue);

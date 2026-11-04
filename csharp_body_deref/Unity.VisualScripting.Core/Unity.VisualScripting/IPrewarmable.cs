@@ -12,6 +12,6 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000EC")]
 public interface IPrewarmable
 {
-	[Token(Token = "0x600059F")]
+	[Token(Token = "0x60005A9")]
 	void Prewarm();
 }

@@ -1,95 +1,59 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DefaultMultiColumnTreeViewController
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000026")]
-internal class DefaultMultiColumnTreeViewController<T> : MultiColumnTreeViewController
+[Token(Token = "0x200005A")]
+public class DefaultMultiColumnTreeViewController<T> : MultiColumnTreeViewController
 {
-	[Token(Token = "0x4000067")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4000131")]
+	[FieldOffset(Offset = "0x0")]
 	private TreeDataController<T> m_TreeDataController;
 
-	[Token(Token = "0x17000024")]
+	[Token(Token = "0x1700006B")]
 	private TreeDataController<T> treeDataController
 	{
-		[Token(Token = "0x600010D")]
+		[Token(Token = "0x600026A")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000025")]
+	[Token(Token = "0x1700006C")]
 	public override IList itemsSource
 	{
-		[Token(Token = "0x600010F")]
+		[Token(Token = "0x600026C")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000110")]
+		[Token(Token = "0x600026D")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600010E")]
+	[Token(Token = "0x600026B")]
 	public DefaultMultiColumnTreeViewController(Columns columns, SortColumnDescriptions sortDescriptions, List<SortColumnDescription> sortedColumns)
 	{
 	}
 
-	[Token(Token = "0x6000111")]
+	[Token(Token = "0x600026E")]
 	public void SetRootItems(IList<TreeViewItemData<T>> items)
 	{
 	}
 
-	[Token(Token = "0x6000112")]
+	[Token(Token = "0x600026F")]
 	public override object GetItemForIndex(int index)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000113")]
-	public override int GetParentId(int id)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x6000114")]
-	public override bool HasChildren(int id)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000115")]
-	public override IEnumerable<int> GetChildrenIds(int id)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000116")]
-	public override void Move(int id, int newParentId, int childIndex = -1, bool rebuildTree = true)
-	{
-	}
-
-	[Token(Token = "0x6000117")]
-	private bool IsChildOf(int childId, int id)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000118")]
-	public override IEnumerable<int> GetAllItemIds([Optional] IEnumerable<int> rootIds)
 	{
 		return null;
 	}

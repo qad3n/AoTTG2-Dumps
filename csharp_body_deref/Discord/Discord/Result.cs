@@ -9,97 +9,97 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200001F")]
 public enum Result
 {
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x4000014")]
 	Ok,
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000015")]
 	ServiceUnavailable,
-	[Token(Token = "0x400001B")]
+	[Token(Token = "0x4000016")]
 	InvalidVersion,
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000017")]
 	LockFailed,
-	[Token(Token = "0x400001D")]
+	[Token(Token = "0x4000018")]
 	InternalError,
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x4000019")]
 	InvalidPayload,
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x400001A")]
 	InvalidCommand,
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x400001B")]
 	InvalidPermissions,
-	[Token(Token = "0x4000021")]
+	[Token(Token = "0x400001C")]
 	NotFetched,
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x400001D")]
 	NotFound,
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x400001E")]
 	Conflict,
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x400001F")]
 	InvalidSecret,
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x4000020")]
 	InvalidJoinSecret,
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x4000021")]
 	NoEligibleActivity,
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x4000022")]
 	InvalidInvite,
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x4000023")]
 	NotAuthenticated,
-	[Token(Token = "0x4000029")]
+	[Token(Token = "0x4000024")]
 	InvalidAccessToken,
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x4000025")]
 	ApplicationMismatch,
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x4000026")]
 	InvalidDataUrl,
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x4000027")]
 	InvalidBase64,
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000028")]
 	NotFiltered,
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000029")]
 	LobbyFull,
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x400002A")]
 	InvalidLobbySecret,
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x400002B")]
 	InvalidFilename,
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x400002C")]
 	InvalidFileSize,
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x400002D")]
 	InvalidEntitlement,
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400002E")]
 	NotInstalled,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400002F")]
 	NotRunning,
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000030")]
 	InsufficientBuffer,
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x4000031")]
 	PurchaseCanceled,
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x4000032")]
 	InvalidGuild,
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x4000033")]
 	InvalidEvent,
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x4000034")]
 	InvalidChannel,
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000035")]
 	InvalidOrigin,
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000036")]
 	RateLimited,
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000037")]
 	OAuth2Error,
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000038")]
 	SelectChannelTimeout,
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000039")]
 	GetGuildTimeout,
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x400003A")]
 	SelectVoiceForceRequired,
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x400003B")]
 	CaptureShortcutAlreadyListening,
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x400003C")]
 	UnauthorizedForAchievement,
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x400003D")]
 	InvalidGiftCode,
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x400003E")]
 	PurchaseError,
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x400003F")]
 	TransactionAborted,
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000040")]
 	DrawingInitFailed
 }

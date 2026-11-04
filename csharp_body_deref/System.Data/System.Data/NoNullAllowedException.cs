@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200001F")]
+[Token(Token = "0x2000013")]
 public class NoNullAllowedException : DataException
 {
-	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x4547A40", Offset = "0x4547A40", VA = "0x4547A40")]
+	[Token(Token = "0x60000B7")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected NoNullAllowedException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x4547A50", Offset = "0x4547A50", VA = "0x4547A50")]
+	[Token(Token = "0x60000B8")]
+	[Address(RVA = "0x24E44B0", Offset = "0x24E2AB0", VA = "0x1824E44B0")]
 	public NoNullAllowedException()
 	{
 	}
 
-	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x4547A90", Offset = "0x4547A90", VA = "0x4547A90")]
+	[Token(Token = "0x60000B9")]
+	[Address(RVA = "0x24E4490", Offset = "0x24E2A90", VA = "0x1824E4490")]
 	public NoNullAllowedException(string s)
 	{
 	}

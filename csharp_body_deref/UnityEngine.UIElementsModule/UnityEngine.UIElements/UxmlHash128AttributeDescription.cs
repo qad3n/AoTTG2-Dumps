@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000432")]
+[Token(Token = "0x20004FB")]
 public class UxmlHash128AttributeDescription : TypedUxmlAttributeDescription<Hash128>
 {
-	[Token(Token = "0x6001AD3")]
-	[Address(RVA = "0x4F6B020", Offset = "0x4F6B020", VA = "0x4F6B020")]
+	[Token(Token = "0x600269E")]
+	[Address(RVA = "0x3156BA0", Offset = "0x31551A0", VA = "0x183156BA0")]
 	public UxmlHash128AttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AD4")]
-	[Address(RVA = "0x4F6B0B0", Offset = "0x4F6B0B0", VA = "0x4F6B0B0", Slot = "4")]
+	[Token(Token = "0x600269F")]
+	[Address(RVA = "0x31569E0", Offset = "0x3154FE0", VA = "0x1831569E0", Slot = "4")]
 	public override Hash128 GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(Hash128);

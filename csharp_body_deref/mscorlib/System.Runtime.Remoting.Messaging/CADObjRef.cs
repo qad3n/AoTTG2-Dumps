@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x200039E")]
+[Token(Token = "0x20003CD")]
 internal class CADObjRef
 {
-	[Token(Token = "0x4000F55")]
+	[Token(Token = "0x4000F5F")]
 	[FieldOffset(Offset = "0x10")]
 	internal ObjRef objref;
 
-	[Token(Token = "0x4000F56")]
+	[Token(Token = "0x4000F60")]
 	[FieldOffset(Offset = "0x18")]
 	internal int SourceDomain;
 
-	[Token(Token = "0x4000F57")]
+	[Token(Token = "0x4000F61")]
 	[FieldOffset(Offset = "0x20")]
 	internal byte[] TypeInfo;
 
-	[Token(Token = "0x6001E1D")]
-	[Address(RVA = "0x3B86C60", Offset = "0x3B86C60", VA = "0x3B86C60")]
+	[Token(Token = "0x6001E8C")]
+	[Address(RVA = "0x19F0EA0", Offset = "0x19EF4A0", VA = "0x1819F0EA0")]
 	public CADObjRef(ObjRef o, int sourceDomain)
 	{
 	}

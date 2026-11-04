@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000142")]
+[Token(Token = "0x2000187")]
 internal class DisposeHelper
 {
-	[Token(Token = "0x6000916")]
-	[Address(RVA = "0x501AAE0", Offset = "0x501AAE0", VA = "0x501AAE0")]
+	[Token(Token = "0x6000B05")]
+	[Address(RVA = "0x323FD10", Offset = "0x323E310", VA = "0x18323FD10")]
 	public static void NotifyDisposedUsed(IDisposable disposable)
 	{
 	}

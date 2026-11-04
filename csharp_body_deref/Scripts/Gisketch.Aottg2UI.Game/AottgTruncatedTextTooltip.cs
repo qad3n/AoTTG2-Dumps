@@ -12,39 +12,39 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000173")]
+[Token(Token = "0x2000279")]
 public sealed class AottgTruncatedTextTooltip : MonoBehaviour
 {
-	[Token(Token = "0x4000815")]
+	[Token(Token = "0x4000CB6")]
 	[FieldOffset(Offset = "0x20")]
 	private TextMeshProUGUI _text;
 
-	[Token(Token = "0x4000816")]
+	[Token(Token = "0x4000CB7")]
 	[FieldOffset(Offset = "0x28")]
 	private GisketchTooltipTrigger _tooltip;
 
-	[Token(Token = "0x4000817")]
+	[Token(Token = "0x4000CB8")]
 	[FieldOffset(Offset = "0x30")]
 	private string _lastText;
 
-	[Token(Token = "0x4000818")]
+	[Token(Token = "0x4000CB9")]
 	[FieldOffset(Offset = "0x38")]
 	private Vector2 _lastSize;
 
-	[Token(Token = "0x600084A")]
-	[Address(RVA = "0x43F44D0", Offset = "0x43F44D0", VA = "0x43F44D0")]
+	[Token(Token = "0x6000EFE")]
+	[Address(RVA = "0x1DE7810", Offset = "0x1DE5E10", VA = "0x181DE7810")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x600084B")]
-	[Address(RVA = "0x43F4620", Offset = "0x43F4620", VA = "0x43F4620")]
+	[Token(Token = "0x6000EFF")]
+	[Address(RVA = "0x1DE7960", Offset = "0x1DE5F60", VA = "0x181DE7960")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x600084C")]
-	[Address(RVA = "0x43F47D0", Offset = "0x43F47D0", VA = "0x43F47D0")]
+	[Token(Token = "0x6000F00")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgTruncatedTextTooltip()
 	{
 	}

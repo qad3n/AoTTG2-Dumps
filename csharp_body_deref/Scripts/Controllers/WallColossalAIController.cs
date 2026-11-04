@@ -11,71 +11,71 @@ using SimpleJSONFixed;
 
 namespace Controllers;
 
-[Token(Token = "0x20004CF")]
+[Token(Token = "0x2000626")]
 internal class WallColossalAIController : BaseTitanAIController
 {
-	[Token(Token = "0x400153A")]
-	[FieldOffset(Offset = "0x100")]
+	[Token(Token = "0x4001B9D")]
+	[FieldOffset(Offset = "0x150")]
 	protected List<string> WallAttacks;
 
-	[Token(Token = "0x400153B")]
-	[FieldOffset(Offset = "0x108")]
+	[Token(Token = "0x4001B9E")]
+	[FieldOffset(Offset = "0x158")]
 	protected List<string> LeftHandedAttacks;
 
-	[Token(Token = "0x400153C")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x4001B9F")]
+	[FieldOffset(Offset = "0x160")]
 	protected List<string> RightHandedAttacks;
 
-	[Token(Token = "0x400153D")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x4001BA0")]
+	[FieldOffset(Offset = "0x168")]
 	public float WallAttackCooldownLeft;
 
-	[Token(Token = "0x400153E")]
-	[FieldOffset(Offset = "0x11C")]
+	[Token(Token = "0x4001BA1")]
+	[FieldOffset(Offset = "0x16C")]
 	public float WallAttackCooldown;
 
-	[Token(Token = "0x170009A8")]
+	[Token(Token = "0x17000AAD")]
 	protected override bool _scriptedAI
 	{
-		[Token(Token = "0x60032C7")]
-		[Address(RVA = "0x419C920", Offset = "0x419C920", VA = "0x419C920", Slot = "7")]
+		[Token(Token = "0x6003C82")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170009A9")]
+	[Token(Token = "0x17000AAE")]
 	protected override bool _stationaryAI
 	{
-		[Token(Token = "0x60032C8")]
-		[Address(RVA = "0x419C930", Offset = "0x419C930", VA = "0x419C930", Slot = "8")]
+		[Token(Token = "0x6003C83")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60032C9")]
-	[Address(RVA = "0x419C940", Offset = "0x419C940", VA = "0x419C940", Slot = "10")]
+	[Token(Token = "0x6003C84")]
+	[Address(RVA = "0x211F970", Offset = "0x211DF70", VA = "0x18211F970", Slot = "12")]
 	protected override void UpdateScriptedAI()
 	{
 	}
 
-	[Token(Token = "0x60032CA")]
-	[Address(RVA = "0x419CB30", Offset = "0x419CB30", VA = "0x419CB30", Slot = "9")]
+	[Token(Token = "0x6003C85")]
+	[Address(RVA = "0x211F8E0", Offset = "0x211DEE0", VA = "0x18211F8E0", Slot = "11")]
 	public override void Init(JSONNode data)
 	{
 	}
 
-	[Token(Token = "0x60032CB")]
-	[Address(RVA = "0x419CA00", Offset = "0x419CA00", VA = "0x419CA00")]
+	[Token(Token = "0x6003C86")]
+	[Address(RVA = "0x211FB80", Offset = "0x211E180", VA = "0x18211FB80")]
 	public void WallAttack()
 	{
 	}
 
-	[Token(Token = "0x60032CC")]
-	[Address(RVA = "0x419CBC0", Offset = "0x419CBC0", VA = "0x419CBC0")]
+	[Token(Token = "0x6003C87")]
+	[Address(RVA = "0x211FCE0", Offset = "0x211E2E0", VA = "0x18211FCE0")]
 	public WallColossalAIController()
 	{
 	}

@@ -8,64 +8,66 @@
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200035F")]
+[Token(Token = "0x20003F4")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal struct TransitionData : IStyleDataGroup<TransitionData>, IEquatable<TransitionData>
 {
-	[Token(Token = "0x4000A3A")]
+	[Token(Token = "0x4000CB6")]
 	[FieldOffset(Offset = "0x0")]
 	public List<TimeValue> transitionDelay;
 
-	[Token(Token = "0x4000A3B")]
+	[Token(Token = "0x4000CB7")]
 	[FieldOffset(Offset = "0x8")]
 	public List<TimeValue> transitionDuration;
 
-	[Token(Token = "0x4000A3C")]
+	[Token(Token = "0x4000CB8")]
 	[FieldOffset(Offset = "0x10")]
 	public List<StylePropertyName> transitionProperty;
 
-	[Token(Token = "0x4000A3D")]
+	[Token(Token = "0x4000CB9")]
 	[FieldOffset(Offset = "0x18")]
 	public List<EasingFunction> transitionTimingFunction;
 
-	[Token(Token = "0x60015A8")]
-	[Address(RVA = "0x50AB620", Offset = "0x50AB620", VA = "0x50AB620", Slot = "4")]
+	[Token(Token = "0x6001D8C")]
+	[Address(RVA = "0x30F6D20", Offset = "0x30F5320", VA = "0x1830F6D20", Slot = "4")]
 	public TransitionData Copy()
 	{
 		return default(TransitionData);
 	}
 
-	[Token(Token = "0x60015A9")]
-	[Address(RVA = "0x50AB7B0", Offset = "0x50AB7B0", VA = "0x50AB7B0", Slot = "5")]
+	[Token(Token = "0x6001D8D")]
+	[Address(RVA = "0x30F6BB0", Offset = "0x30F51B0", VA = "0x1830F6BB0", Slot = "5")]
 	public void CopyFrom(ref TransitionData other)
 	{
 	}
 
-	[Token(Token = "0x60015AA")]
-	[Address(RVA = "0x50AB900", Offset = "0x50AB900", VA = "0x50AB900")]
+	[Token(Token = "0x6001D8E")]
+	[Address(RVA = "0x30F7070", Offset = "0x30F5670", VA = "0x1830F7070")]
 	public static bool operator ==(TransitionData lhs, TransitionData rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015AB")]
-	[Address(RVA = "0x50AB940", Offset = "0x50AB940", VA = "0x50AB940", Slot = "6")]
+	[Token(Token = "0x6001D8F")]
+	[Address(RVA = "0x30F6EA0", Offset = "0x30F54A0", VA = "0x1830F6EA0", Slot = "6")]
 	public bool Equals(TransitionData other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015AC")]
-	[Address(RVA = "0x50AB980", Offset = "0x50AB980", VA = "0x50AB980", Slot = "0")]
+	[Token(Token = "0x6001D90")]
+	[Address(RVA = "0x30F6EF0", Offset = "0x30F54F0", VA = "0x1830F6EF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015AD")]
-	[Address(RVA = "0x50ABA00", Offset = "0x50ABA00", VA = "0x50ABA00", Slot = "2")]
+	[Token(Token = "0x6001D91")]
+	[Address(RVA = "0x30F6FC0", Offset = "0x30F55C0", VA = "0x1830F6FC0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

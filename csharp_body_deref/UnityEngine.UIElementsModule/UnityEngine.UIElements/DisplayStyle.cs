@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A5")]
+[Token(Token = "0x2000447")]
 public enum DisplayStyle
 {
-	[Token(Token = "0x4000AEF")]
+	[Token(Token = "0x4000E3F")]
 	Flex,
-	[Token(Token = "0x4000AF0")]
+	[Token(Token = "0x4000E40")]
 	None
 }

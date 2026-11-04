@@ -11,38 +11,38 @@ using Utility;
 
 namespace Anticheat;
 
-[Token(Token = "0x20007F2")]
+[Token(Token = "0x200097F")]
 internal class InstantiateEventFilter : BaseEventFilter
 {
-	[Token(Token = "0x6004B6F")]
-	[Address(RVA = "0x43DC510", Offset = "0x43DC510", VA = "0x43DC510")]
+	[Token(Token = "0x60057E8")]
+	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
 	public InstantiateEventFilter(Player player, PhotonEventType eventType)
 	{
 	}
 
-	[Token(Token = "0x6004B70")]
-	[Address(RVA = "0x43DC540", Offset = "0x43DC540", VA = "0x43DC540", Slot = "6")]
+	[Token(Token = "0x60057E9")]
+	[Address(RVA = "0x236B4F0", Offset = "0x2369AF0", VA = "0x18236B4F0", Slot = "6")]
 	public override bool CheckEvent(object[] data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004B71")]
-	[Address(RVA = "0x43DC7D0", Offset = "0x43DC7D0", VA = "0x43DC7D0")]
+	[Token(Token = "0x60057EA")]
+	[Address(RVA = "0x236B7A0", Offset = "0x2369DA0", VA = "0x18236B7A0")]
 	private bool CheckRateLimit(string name, RateLimit limit, int count = 1)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004B72")]
-	[Address(RVA = "0x43DC7C0", Offset = "0x43DC7C0", VA = "0x43DC7C0")]
+	[Token(Token = "0x60057EB")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
 	private bool CheckInstantiate(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004B73")]
-	[Address(RVA = "0x43DC720", Offset = "0x43DC720", VA = "0x43DC720")]
+	[Token(Token = "0x60057EC")]
+	[Address(RVA = "0x236B850", Offset = "0x2369E50", VA = "0x18236B850")]
 	private bool CheckViewIds(int senderId, int[] viewIds)
 	{
 		return default(bool);

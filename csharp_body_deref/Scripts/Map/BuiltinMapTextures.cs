@@ -11,41 +11,41 @@ using SimpleJSONFixed;
 
 namespace Map;
 
-[Token(Token = "0x2000266")]
+[Token(Token = "0x200038F")]
 internal class BuiltinMapTextures
 {
-	[Token(Token = "0x4000CFA")]
+	[Token(Token = "0x400126E")]
 	[FieldOffset(Offset = "0x0")]
 	private static JSONNode _textureList;
 
-	[Token(Token = "0x4000CFB")]
+	[Token(Token = "0x400126F")]
 	[FieldOffset(Offset = "0x8")]
 	public static Dictionary<string, MapScriptBasicMaterial> AllTextures;
 
-	[Token(Token = "0x4000CFC")]
+	[Token(Token = "0x4001270")]
 	[FieldOffset(Offset = "0x10")]
 	public static Dictionary<string, List<MapScriptBasicMaterial>> TextureCategories;
 
-	[Token(Token = "0x4000CFD")]
+	[Token(Token = "0x4001271")]
 	[FieldOffset(Offset = "0x18")]
 	public static Dictionary<string, MapScriptBasicMaterial> AllTexturesLower;
 
-	[Token(Token = "0x4000CFE")]
+	[Token(Token = "0x4001272")]
 	[FieldOffset(Offset = "0x20")]
 	public static Dictionary<string, MapScriptBasicMaterial> AllTexturesNoLegacy;
 
-	[Token(Token = "0x4000CFF")]
+	[Token(Token = "0x4001273")]
 	[FieldOffset(Offset = "0x28")]
 	public static Dictionary<string, string> LegacyTexturePaths;
 
-	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x3FA0850", Offset = "0x3FA0850", VA = "0x3FA0850")]
+	[Token(Token = "0x600168E")]
+	[Address(RVA = "0x1E85F30", Offset = "0x1E84530", VA = "0x181E85F30")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6000ED9")]
-	[Address(RVA = "0x3FA10D0", Offset = "0x3FA10D0", VA = "0x3FA10D0")]
+	[Token(Token = "0x600168F")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public BuiltinMapTextures()
 	{
 	}

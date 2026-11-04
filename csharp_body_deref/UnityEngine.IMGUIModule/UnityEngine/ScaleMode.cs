@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000D")]
 public enum ScaleMode
 {
-	[Token(Token = "0x4000056")]
-	StretchToFill,
-	[Token(Token = "0x4000057")]
-	ScaleAndCrop,
 	[Token(Token = "0x4000058")]
+	StretchToFill,
+	[Token(Token = "0x4000059")]
+	ScaleAndCrop,
+	[Token(Token = "0x400005A")]
 	ScaleToFit
 }

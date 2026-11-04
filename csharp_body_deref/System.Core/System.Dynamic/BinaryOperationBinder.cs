@@ -17,8 +17,8 @@ public abstract class BinaryOperationBinder : DynamicMetaObjectBinder
 	[Token(Token = "0x1700025E")]
 	public ExpressionType Operation
 	{
-		[Token(Token = "0x6000BA6")]
-		[Address(RVA = "0x4508190", Offset = "0x4508190", VA = "0x4508190")]
+		[Token(Token = "0x6000BA5")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,18 +26,18 @@ public abstract class BinaryOperationBinder : DynamicMetaObjectBinder
 		}
 	}
 
-	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x45081A0", Offset = "0x45081A0", VA = "0x45081A0")]
+	[Token(Token = "0x6000BA6")]
+	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
 	public DynamicMetaObject FallbackBinaryOperation(DynamicMetaObject target, DynamicMetaObject arg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BA8")]
+	[Token(Token = "0x6000BA7")]
 	public abstract DynamicMetaObject FallbackBinaryOperation(DynamicMetaObject target, DynamicMetaObject arg, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000BA9")]
-	[Address(RVA = "0x45081C0", Offset = "0x45081C0", VA = "0x45081C0", Slot = "7")]
+	[Token(Token = "0x6000BA8")]
+	[Address(RVA = "0x2466770", Offset = "0x2464D70", VA = "0x182466770", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

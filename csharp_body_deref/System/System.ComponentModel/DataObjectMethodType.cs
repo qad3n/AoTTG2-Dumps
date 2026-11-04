@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200027F")]
+[Token(Token = "0x200018A")]
 public enum DataObjectMethodType
 {
-	[Token(Token = "0x4000D3D")]
+	[Token(Token = "0x4000674")]
 	Fill,
-	[Token(Token = "0x4000D3E")]
+	[Token(Token = "0x4000675")]
 	Select,
-	[Token(Token = "0x4000D3F")]
+	[Token(Token = "0x4000676")]
 	Update,
-	[Token(Token = "0x4000D40")]
+	[Token(Token = "0x4000677")]
 	Insert,
-	[Token(Token = "0x4000D41")]
+	[Token(Token = "0x4000678")]
 	Delete
 }

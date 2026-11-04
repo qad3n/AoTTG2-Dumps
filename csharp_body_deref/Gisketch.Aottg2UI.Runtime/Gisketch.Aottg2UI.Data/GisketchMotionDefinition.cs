@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x2000051")]
+[Token(Token = "0x2000064")]
 public sealed class GisketchMotionDefinition
 {
-	[Token(Token = "0x40001CB")]
+	[Token(Token = "0x4000235")]
 	[FieldOffset(Offset = "0x10")]
 	public string preset;
 
-	[Token(Token = "0x40001CC")]
+	[Token(Token = "0x4000236")]
 	[FieldOffset(Offset = "0x18")]
 	public string group;
 
-	[Token(Token = "0x40001CD")]
+	[Token(Token = "0x4000237")]
 	[FieldOffset(Offset = "0x20")]
 	public float duration;
 
-	[Token(Token = "0x40001CE")]
+	[Token(Token = "0x4000238")]
 	[FieldOffset(Offset = "0x24")]
 	public float delay;
 
-	[Token(Token = "0x40001CF")]
+	[Token(Token = "0x4000239")]
 	[FieldOffset(Offset = "0x28")]
 	public float stagger;
 
-	[Token(Token = "0x40001D0")]
+	[Token(Token = "0x400023A")]
 	[FieldOffset(Offset = "0x2C")]
 	public int order;
 
-	[Token(Token = "0x600025C")]
-	[Address(RVA = "0x3A5B2E0", Offset = "0x3A5B2E0", VA = "0x3A5B2E0")]
+	[Token(Token = "0x6000328")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public GisketchMotionDefinition()
 	{
 	}

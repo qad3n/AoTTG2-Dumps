@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200006B")]
+[Token(Token = "0x2000075")]
 public delegate void MergeFailedEventHandler(object sender, MergeFailedEventArgs e);

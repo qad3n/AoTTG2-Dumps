@@ -10,95 +10,95 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002FA")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = true, Inherited = true)]
+[Token(Token = "0x2000205")]
 [Conditional("FALSE")]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = true, Inherited = true)]
 public sealed class DesignerAttribute : Attribute
 {
-	[Token(Token = "0x4000E4E")]
+	[Token(Token = "0x4000785")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string designerTypeName;
 
-	[Token(Token = "0x4000E4F")]
+	[Token(Token = "0x4000786")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string designerBaseTypeName;
 
-	[Token(Token = "0x4000E50")]
+	[Token(Token = "0x4000787")]
 	[FieldOffset(Offset = "0x20")]
 	private string typeId;
 
-	[Token(Token = "0x17000459")]
+	[Token(Token = "0x170002C8")]
 	public string DesignerBaseTypeName
 	{
-		[Token(Token = "0x600133E")]
-		[Address(RVA = "0x48B1BE0", Offset = "0x48B1BE0", VA = "0x48B1BE0")]
+		[Token(Token = "0x6000D86")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700045A")]
+	[Token(Token = "0x170002C9")]
 	public string DesignerTypeName
 	{
-		[Token(Token = "0x600133F")]
-		[Address(RVA = "0x48B1BF0", Offset = "0x48B1BF0", VA = "0x48B1BF0")]
+		[Token(Token = "0x6000D87")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700045B")]
+	[Token(Token = "0x170002CA")]
 	public override object TypeId
 	{
-		[Token(Token = "0x6001340")]
-		[Address(RVA = "0x48B1C00", Offset = "0x48B1C00", VA = "0x48B1C00", Slot = "4")]
+		[Token(Token = "0x6000D88")]
+		[Address(RVA = "0x28B2500", Offset = "0x28B0B00", VA = "0x1828B2500", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001339")]
-	[Address(RVA = "0x48B1850", Offset = "0x48B1850", VA = "0x48B1850")]
+	[Token(Token = "0x6000D81")]
+	[Address(RVA = "0x28B2220", Offset = "0x28B0820", VA = "0x1828B2220")]
 	public DesignerAttribute(string designerTypeName)
 	{
 	}
 
-	[Token(Token = "0x600133A")]
-	[Address(RVA = "0x48B1940", Offset = "0x48B1940", VA = "0x48B1940")]
+	[Token(Token = "0x6000D82")]
+	[Address(RVA = "0x28B2300", Offset = "0x28B0900", VA = "0x1828B2300")]
 	public DesignerAttribute(Type designerType)
 	{
 	}
 
-	[Token(Token = "0x600133B")]
-	[Address(RVA = "0x48B1A10", Offset = "0x48B1A10", VA = "0x48B1A10")]
+	[Token(Token = "0x6000D83")]
+	[Address(RVA = "0x28B2450", Offset = "0x28B0A50", VA = "0x1828B2450")]
 	public DesignerAttribute(string designerTypeName, string designerBaseTypeName)
 	{
 	}
 
-	[Token(Token = "0x600133C")]
-	[Address(RVA = "0x48B1AB0", Offset = "0x48B1AB0", VA = "0x48B1AB0")]
+	[Token(Token = "0x6000D84")]
+	[Address(RVA = "0x28B2160", Offset = "0x28B0760", VA = "0x1828B2160")]
 	public DesignerAttribute(string designerTypeName, Type designerBaseType)
 	{
 	}
 
-	[Token(Token = "0x600133D")]
-	[Address(RVA = "0x48B1B60", Offset = "0x48B1B60", VA = "0x48B1B60")]
+	[Token(Token = "0x6000D85")]
+	[Address(RVA = "0x28B23C0", Offset = "0x28B09C0", VA = "0x1828B23C0")]
 	public DesignerAttribute(Type designerType, Type designerBaseType)
 	{
 	}
 
-	[Token(Token = "0x6001341")]
-	[Address(RVA = "0x48B1CA0", Offset = "0x48B1CA0", VA = "0x48B1CA0", Slot = "0")]
+	[Token(Token = "0x6000D89")]
+	[Address(RVA = "0x28B2050", Offset = "0x28B0650", VA = "0x1828B2050", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001342")]
-	[Address(RVA = "0x48B1D30", Offset = "0x48B1D30", VA = "0x48B1D30", Slot = "2")]
+	[Token(Token = "0x6000D8A")]
+	[Address(RVA = "0x28B2100", Offset = "0x28B0700", VA = "0x1828B2100", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

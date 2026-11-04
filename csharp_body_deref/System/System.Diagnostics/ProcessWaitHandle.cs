@@ -11,11 +11,11 @@ using Microsoft.Win32.SafeHandles;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000D8")]
+[Token(Token = "0x2000118")]
 internal class ProcessWaitHandle : WaitHandle
 {
-	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x4927F40", Offset = "0x4927F40", VA = "0x4927F40")]
+	[Token(Token = "0x60006C7")]
+	[Address(RVA = "0x28643B0", Offset = "0x28629B0", VA = "0x1828643B0")]
 	internal ProcessWaitHandle(SafeProcessHandle processHandle)
 	{
 	}

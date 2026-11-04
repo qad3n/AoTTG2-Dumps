@@ -25,7 +25,7 @@ public struct Vector3ArrayOptions : IPlugOptions
 	internal float[] durations;
 
 	[Token(Token = "0x6000374")]
-	[Address(RVA = "0x237F8B0", Offset = "0x237F8B0", VA = "0x237F8B0", Slot = "4")]
+	[Address(RVA = "0x574E40", Offset = "0x573440", VA = "0x180574E40", Slot = "4")]
 	public void Reset()
 	{
 	}

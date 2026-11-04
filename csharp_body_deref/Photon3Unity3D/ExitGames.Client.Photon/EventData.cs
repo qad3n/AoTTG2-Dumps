@@ -40,13 +40,13 @@ public class EventData
 	public object this[byte key]
 	{
 		[Token(Token = "0x60001D5")]
-		[Address(RVA = "0x3E793D0", Offset = "0x3E793D0", VA = "0x3E793D0")]
+		[Address(RVA = "0x1CCE200", Offset = "0x1CCC800", VA = "0x181CCE200")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x3E79400", Offset = "0x3E79400", VA = "0x3E79400")]
+		[Address(RVA = "0x1CCE2B0", Offset = "0x1CCC8B0", VA = "0x181CCE2B0")]
 		internal set
 		{
 		}
@@ -56,13 +56,13 @@ public class EventData
 	public int Sender
 	{
 		[Token(Token = "0x60001D7")]
-		[Address(RVA = "0x3E79420", Offset = "0x3E79420", VA = "0x3E79420")]
+		[Address(RVA = "0x1CCE240", Offset = "0x1CCC840", VA = "0x181CCE240")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x3E794A0", Offset = "0x3E794A0", VA = "0x3E794A0")]
+		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
 		internal set
 		{
 		}
@@ -72,39 +72,39 @@ public class EventData
 	public object CustomData
 	{
 		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x3E794B0", Offset = "0x3E794B0", VA = "0x3E794B0")]
+		[Address(RVA = "0x1CCE1C0", Offset = "0x1CCC7C0", VA = "0x181CCE1C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60001DA")]
-		[Address(RVA = "0x3E794F0", Offset = "0x3E794F0", VA = "0x3E794F0")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		internal set
 		{
 		}
 	}
 
 	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x3E79350", Offset = "0x3E79350", VA = "0x3E79350")]
+	[Address(RVA = "0x1CCE140", Offset = "0x1CCC740", VA = "0x181CCE140")]
 	public EventData()
 	{
 	}
 
 	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x3E79500", Offset = "0x3E79500", VA = "0x3E79500")]
+	[Address(RVA = "0x1CCDFF0", Offset = "0x1CCC5F0", VA = "0x181CCDFF0")]
 	internal void Reset()
 	{
 	}
 
 	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x3E79540", Offset = "0x3E79540", VA = "0x3E79540", Slot = "3")]
+	[Address(RVA = "0x1CCE0F0", Offset = "0x1CCC6F0", VA = "0x181CCE0F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x3E79590", Offset = "0x3E79590", VA = "0x3E79590")]
+	[Address(RVA = "0x1CCE040", Offset = "0x1CCC640", VA = "0x181CCE040")]
 	public string ToStringFull()
 	{
 		return null;

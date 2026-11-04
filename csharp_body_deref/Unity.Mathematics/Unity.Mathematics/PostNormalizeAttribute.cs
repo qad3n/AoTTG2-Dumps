@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Unity.Mathematics;
 
-[Token(Token = "0x200004F")]
+[Token(Token = "0x2000004")]
 public class PostNormalizeAttribute : PropertyAttribute
 {
-	[Token(Token = "0x6001E35")]
-	[Address(RVA = "0x4B1DAE0", Offset = "0x4B1DAE0", VA = "0x4B1DAE0")]
+	[Token(Token = "0x6000028")]
+	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
 	public PostNormalizeAttribute()
 	{
 	}

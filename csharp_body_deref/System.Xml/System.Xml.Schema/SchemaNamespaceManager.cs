@@ -17,20 +17,20 @@ internal class SchemaNamespaceManager : XmlNamespaceManager
 	private XmlSchemaObject node;
 
 	[Token(Token = "0x60013E7")]
-	[Address(RVA = "0x46F1C20", Offset = "0x46F1C20", VA = "0x46F1C20")]
+	[Address(RVA = "0x2655500", Offset = "0x2653B00", VA = "0x182655500")]
 	public SchemaNamespaceManager(XmlSchemaObject node)
 	{
 	}
 
 	[Token(Token = "0x60013E8")]
-	[Address(RVA = "0x46F1C50", Offset = "0x46F1C50", VA = "0x46F1C50", Slot = "16")]
+	[Address(RVA = "0x2655130", Offset = "0x2653730", VA = "0x182655130", Slot = "16")]
 	public override string LookupNamespace(string prefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60013E9")]
-	[Address(RVA = "0x46F1D80", Offset = "0x46F1D80", VA = "0x46F1D80", Slot = "17")]
+	[Address(RVA = "0x2655280", Offset = "0x2653880", VA = "0x182655280", Slot = "17")]
 	public override string LookupPrefix(string ns)
 	{
 		return null;

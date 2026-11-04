@@ -18,19 +18,19 @@ public abstract class XNode : XObject
 	internal XNode next;
 
 	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x468CC40", Offset = "0x468CC40", VA = "0x468CC40")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal XNode()
 	{
 	}
 
 	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4695A80", Offset = "0x4695A80", VA = "0x4695A80")]
+	[Address(RVA = "0x25EC540", Offset = "0x25EAB40", VA = "0x1825EC540")]
 	public void Remove()
 	{
 	}
 
 	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x4695AE0", Offset = "0x4695AE0", VA = "0x4695AE0", Slot = "3")]
+	[Address(RVA = "0x25EC5B0", Offset = "0x25EABB0", VA = "0x1825EC5B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
@@ -40,7 +40,7 @@ public abstract class XNode : XObject
 	public abstract void WriteTo(XmlWriter writer);
 
 	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x4696040", Offset = "0x4696040", VA = "0x4696040", Slot = "9")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	internal virtual void AppendText(StringBuilder sb)
 	{
 	}
@@ -49,7 +49,7 @@ public abstract class XNode : XObject
 	internal abstract XNode CloneNode();
 
 	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x4695BD0", Offset = "0x4695BD0", VA = "0x4695BD0")]
+	[Address(RVA = "0x25EC260", Offset = "0x25EA860", VA = "0x1825EC260")]
 	private string GetXmlString(SaveOptions o)
 	{
 		return null;

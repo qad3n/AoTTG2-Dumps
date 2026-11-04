@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000125")]
+[Token(Token = "0x2000171")]
 public enum TwoPaneSplitViewOrientation
 {
-	[Token(Token = "0x40004DE")]
+	[Token(Token = "0x40006C3")]
 	Horizontal,
-	[Token(Token = "0x40004DF")]
+	[Token(Token = "0x40006C4")]
 	Vertical
 }

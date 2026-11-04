@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004C6")]
+[Token(Token = "0x20004F6")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyDelaySignAttribute : Attribute
 {
@@ -19,8 +19,8 @@ public sealed class AssemblyDelaySignAttribute : Attribute
 	[CompilerGenerated]
 	private readonly bool _003CDelaySign_003Ek__BackingField;
 
-	[Token(Token = "0x60023D4")]
-	[Address(RVA = "0x3BD0530", Offset = "0x3BD0530", VA = "0x3BD0530")]
+	[Token(Token = "0x6002456")]
+	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
 	public AssemblyDelaySignAttribute(bool delaySign)
 	{
 	}

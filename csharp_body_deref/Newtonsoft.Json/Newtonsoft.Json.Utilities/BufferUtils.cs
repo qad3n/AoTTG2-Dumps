@@ -13,20 +13,20 @@ namespace Newtonsoft.Json.Utilities;
 internal static class BufferUtils
 {
 	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x3DBB780", Offset = "0x3DBB780", VA = "0x3DBB780")]
+	[Address(RVA = "0x1C19EB0", Offset = "0x1C184B0", VA = "0x181C19EB0")]
 	public static char[] RentBuffer(IArrayPool<char>? bufferPool, int minSize)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x3DBB840", Offset = "0x3DBB840", VA = "0x3DBB840")]
+	[Address(RVA = "0x1C19F30", Offset = "0x1C18530", VA = "0x181C19F30")]
 	public static void ReturnBuffer(IArrayPool<char>? bufferPool, char[]? buffer)
 	{
 	}
 
 	[Token(Token = "0x6000646")]
-	[Address(RVA = "0x3DBB900", Offset = "0x3DBB900", VA = "0x3DBB900")]
+	[Address(RVA = "0x1C19E10", Offset = "0x1C18410", VA = "0x181C19E10")]
 	public static char[]? EnsureBufferSize(IArrayPool<char>? bufferPool, int size, char[]? buffer)
 	{
 		return null;

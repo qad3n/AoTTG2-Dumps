@@ -12,28 +12,28 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001FE")]
+[Token(Token = "0x200021C")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class TextureParameter : VolumeParameter<Texture>
 {
-	[Token(Token = "0x400083A")]
+	[Token(Token = "0x40009AB")]
 	[FieldOffset(Offset = "0x20")]
 	public TextureDimension dimension;
 
-	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x4C0BC90", Offset = "0x4C0BC90", VA = "0x4C0BC90")]
+	[Token(Token = "0x6000F59")]
+	[Address(RVA = "0x2B63D90", Offset = "0x2B62390", VA = "0x182B63D90")]
 	public TextureParameter(Texture value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x4C0BCE0", Offset = "0x4C0BCE0", VA = "0x4C0BCE0")]
+	[Token(Token = "0x6000F5A")]
+	[Address(RVA = "0x2B63D30", Offset = "0x2B62330", VA = "0x182B63D30")]
 	public TextureParameter(Texture value, TextureDimension dimension, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x4C0BD40", Offset = "0x4C0BD40", VA = "0x4C0BD40", Slot = "2")]
+	[Token(Token = "0x6000F5B")]
+	[Address(RVA = "0x2B63C40", Offset = "0x2B62240", VA = "0x182B63C40", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

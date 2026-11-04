@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x200009E")]
 public struct CaretInfo
 {
-	[Token(Token = "0x40005F3")]
+	[Token(Token = "0x4000580")]
 	[FieldOffset(Offset = "0x0")]
 	public int index;
 
-	[Token(Token = "0x40005F4")]
+	[Token(Token = "0x4000581")]
 	[FieldOffset(Offset = "0x4")]
 	public CaretPosition position;
 
-	[Token(Token = "0x6000619")]
-	[Address(RVA = "0x4C95760", Offset = "0x4C95760", VA = "0x4C95760")]
+	[Token(Token = "0x60005F4")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	public CaretInfo(int index, CaretPosition position)
 	{
 	}

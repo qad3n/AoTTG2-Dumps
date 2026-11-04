@@ -11,112 +11,112 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200004C")]
+[Token(Token = "0x200004A")]
 public struct LobbyTransaction
 {
-	[Token(Token = "0x200004D")]
+	[Token(Token = "0x200004B")]
 	internal struct FFIMethods
 	{
-		[Token(Token = "0x200004E")]
+		[Token(Token = "0x200004C")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result SetTypeMethod(IntPtr methodsPtr, LobbyType type);
 
-		[Token(Token = "0x200004F")]
+		[Token(Token = "0x200004D")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result SetOwnerMethod(IntPtr methodsPtr, long ownerId);
 
-		[Token(Token = "0x2000050")]
+		[Token(Token = "0x200004E")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result SetCapacityMethod(IntPtr methodsPtr, uint capacity);
 
-		[Token(Token = "0x2000051")]
+		[Token(Token = "0x200004F")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result SetMetadataMethod(IntPtr methodsPtr, string key, string value);
 
-		[Token(Token = "0x2000052")]
+		[Token(Token = "0x2000050")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result DeleteMetadataMethod(IntPtr methodsPtr, string key);
 
-		[Token(Token = "0x2000053")]
+		[Token(Token = "0x2000051")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result SetLockedMethod(IntPtr methodsPtr, bool locked);
 
-		[Token(Token = "0x40000F1")]
+		[Token(Token = "0x40000EC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		internal SetTypeMethod SetType;
 
-		[Token(Token = "0x40000F2")]
+		[Token(Token = "0x40000ED")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		internal SetOwnerMethod SetOwner;
 
-		[Token(Token = "0x40000F3")]
+		[Token(Token = "0x40000EE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		internal SetCapacityMethod SetCapacity;
 
-		[Token(Token = "0x40000F4")]
+		[Token(Token = "0x40000EF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		internal SetMetadataMethod SetMetadata;
 
-		[Token(Token = "0x40000F5")]
+		[Token(Token = "0x40000F0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		internal DeleteMetadataMethod DeleteMetadata;
 
-		[Token(Token = "0x40000F6")]
+		[Token(Token = "0x40000F1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		internal SetLockedMethod SetLocked;
 	}
 
-	[Token(Token = "0x40000EF")]
+	[Token(Token = "0x40000EA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal IntPtr MethodsPtr;
 
-	[Token(Token = "0x40000F0")]
+	[Token(Token = "0x40000EB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal object MethodsStructure;
 
 	[Token(Token = "0x17000002")]
 	private FFIMethods Methods
 	{
-		[Token(Token = "0x6000085")]
-		[Address(RVA = "0x232F5D0", Offset = "0x232F5D0", VA = "0x232F5D0")]
+		[Token(Token = "0x6000083")]
+		[Address(RVA = "0x538240", Offset = "0x536840", VA = "0x180538240")]
 		get
 		{
 			return default(FFIMethods);
 		}
 	}
 
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x232F6E0", Offset = "0x232F6E0", VA = "0x232F6E0")]
+	[Token(Token = "0x6000084")]
+	[Address(RVA = "0x5381A0", Offset = "0x5367A0", VA = "0x1805381A0")]
 	public void SetType(LobbyType type)
 	{
 	}
 
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x232F770", Offset = "0x232F770", VA = "0x232F770")]
+	[Token(Token = "0x6000085")]
+	[Address(RVA = "0x538100", Offset = "0x536700", VA = "0x180538100")]
 	public void SetOwner(long ownerId)
 	{
 	}
 
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x232F800", Offset = "0x232F800", VA = "0x232F800")]
+	[Token(Token = "0x6000086")]
+	[Address(RVA = "0x537F10", Offset = "0x536510", VA = "0x180537F10")]
 	public void SetCapacity(uint capacity)
 	{
 	}
 
-	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x232F890", Offset = "0x232F890", VA = "0x232F890")]
+	[Token(Token = "0x6000087")]
+	[Address(RVA = "0x538050", Offset = "0x536650", VA = "0x180538050")]
 	public void SetMetadata(string key, string value)
 	{
 	}
 
-	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x232F920", Offset = "0x232F920", VA = "0x232F920")]
+	[Token(Token = "0x6000088")]
+	[Address(RVA = "0x537E70", Offset = "0x536470", VA = "0x180537E70")]
 	public void DeleteMetadata(string key)
 	{
 	}
 
-	[Token(Token = "0x600008B")]
-	[Address(RVA = "0x232F9B0", Offset = "0x232F9B0", VA = "0x232F9B0")]
+	[Token(Token = "0x6000089")]
+	[Address(RVA = "0x537FB0", Offset = "0x5365B0", VA = "0x180537FB0")]
 	public void SetLocked(bool locked)
 	{
 	}

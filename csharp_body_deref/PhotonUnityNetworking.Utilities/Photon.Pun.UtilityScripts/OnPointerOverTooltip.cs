@@ -11,29 +11,29 @@ using UnityEngine.EventSystems;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200002D")]
 public class OnPointerOverTooltip : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler
 {
-	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3F0D560", Offset = "0x3F0D560", VA = "0x3F0D560")]
+	[Token(Token = "0x60000FB")]
+	[Address(RVA = "0x1D54A60", Offset = "0x1D53060", VA = "0x181D54A60")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x3F0D5E0", Offset = "0x3F0D5E0", VA = "0x3F0D5E0", Slot = "5")]
+	[Token(Token = "0x60000FC")]
+	[Address(RVA = "0x1D54B60", Offset = "0x1D53160", VA = "0x181D54B60", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerExitHandler_002EOnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x3F0D660", Offset = "0x3F0D660", VA = "0x3F0D660", Slot = "4")]
+	[Token(Token = "0x60000FD")]
+	[Address(RVA = "0x1D54AE0", Offset = "0x1D530E0", VA = "0x181D54AE0", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerEnterHandler_002EOnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x3F0D6E0", Offset = "0x3F0D6E0", VA = "0x3F0D6E0")]
+	[Token(Token = "0x60000FE")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public OnPointerOverTooltip()
 	{
 	}

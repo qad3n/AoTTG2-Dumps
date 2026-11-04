@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x200000F")]
 [Flags]
 public enum ExperimentalFeatureFlags
 {
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x400005E")]
 	WebFlexBasis = 1,
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x400005F")]
 	AbsolutePercentageAgainstPaddingEdge = 2
 }

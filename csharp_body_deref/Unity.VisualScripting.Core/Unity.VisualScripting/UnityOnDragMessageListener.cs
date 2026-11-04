@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnDragMessageListener : MessageListener, IDragHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x4CB75F0", Offset = "0x4CB75F0", VA = "0x4CB75F0", Slot = "4")]
+	[Token(Token = "0x6000481")]
+	[Address(RVA = "0x2DBDCF0", Offset = "0x2DBC2F0", VA = "0x182DBDCF0", Slot = "4")]
 	public void OnDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x4CB7680", Offset = "0x4CB7680", VA = "0x4CB7680")]
+	[Token(Token = "0x6000482")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnDragMessageListener()
 	{
 	}

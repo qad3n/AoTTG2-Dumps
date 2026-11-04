@@ -9,77 +9,77 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000533")]
+[Token(Token = "0x200068D")]
 internal class BladeWeapon : HoldUseable
 {
-	[Token(Token = "0x4001836")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4001ED3")]
+	[FieldOffset(Offset = "0x40")]
 	public float MaxDurability;
 
-	[Token(Token = "0x4001837")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4001ED4")]
+	[FieldOffset(Offset = "0x44")]
 	public float CurrentDurability;
 
-	[Token(Token = "0x4001838")]
-	[FieldOffset(Offset = "0x44")]
+	[Token(Token = "0x4001ED5")]
+	[FieldOffset(Offset = "0x48")]
 	public int MaxBlades;
 
-	[Token(Token = "0x4001839")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4001ED6")]
+	[FieldOffset(Offset = "0x4C")]
 	public int BladesLeft;
 
-	[Token(Token = "0x600362E")]
-	[Address(RVA = "0x41FB7E0", Offset = "0x41FB7E0", VA = "0x41FB7E0")]
+	[Token(Token = "0x600406C")]
+	[Address(RVA = "0x2169A90", Offset = "0x2168090", VA = "0x182169A90")]
 	public BladeWeapon(BaseCharacter owner, float durability, int blades)
 	{
 	}
 
-	[Token(Token = "0x600362F")]
-	[Address(RVA = "0x41FB820", Offset = "0x41FB820", VA = "0x41FB820")]
+	[Token(Token = "0x600406D")]
+	[Address(RVA = "0x2169A70", Offset = "0x2168070", VA = "0x182169A70")]
 	public void UseDurability(float amount)
 	{
 	}
 
-	[Token(Token = "0x6003630")]
-	[Address(RVA = "0x41FB840", Offset = "0x41FB840", VA = "0x41FB840", Slot = "4")]
+	[Token(Token = "0x600406E")]
+	[Address(RVA = "0x2169A40", Offset = "0x2168040", VA = "0x182169A40", Slot = "4")]
 	public override void Reload()
 	{
 	}
 
-	[Token(Token = "0x6003631")]
-	[Address(RVA = "0x41FB860", Offset = "0x41FB860", VA = "0x41FB860", Slot = "5")]
+	[Token(Token = "0x600406F")]
+	[Address(RVA = "0x2169A60", Offset = "0x2168060", VA = "0x182169A60", Slot = "5")]
 	public override void Reset()
 	{
 	}
 
-	[Token(Token = "0x6003632")]
-	[Address(RVA = "0x41FB870", Offset = "0x41FB870", VA = "0x41FB870", Slot = "6")]
+	[Token(Token = "0x6004070")]
+	[Address(RVA = "0x2169980", Offset = "0x2167F80", VA = "0x182169980", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003633")]
-	[Address(RVA = "0x41FB910", Offset = "0x41FB910", VA = "0x41FB910", Slot = "7")]
+	[Token(Token = "0x6004071")]
+	[Address(RVA = "0x2169A30", Offset = "0x2168030", VA = "0x182169A30", Slot = "7")]
 	public override bool HasDurability()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003634")]
-	[Address(RVA = "0x41FB920", Offset = "0x41FB920", VA = "0x41FB920", Slot = "9")]
+	[Token(Token = "0x6004072")]
+	[Address(RVA = "0x2169900", Offset = "0x2167F00", VA = "0x182169900", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6003635")]
-	[Address(RVA = "0x41FB990", Offset = "0x41FB990", VA = "0x41FB990", Slot = "10")]
+	[Token(Token = "0x6004073")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6003636")]
-	[Address(RVA = "0x41FB9A0", Offset = "0x41FB9A0", VA = "0x41FB9A0", Slot = "16")]
+	[Token(Token = "0x6004074")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}

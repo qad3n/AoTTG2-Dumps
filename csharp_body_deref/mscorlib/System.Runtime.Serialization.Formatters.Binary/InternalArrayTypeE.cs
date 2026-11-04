@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003FD")]
+[Token(Token = "0x200042C")]
 internal enum InternalArrayTypeE
 {
-	[Token(Token = "0x4001085")]
-	Empty,
-	[Token(Token = "0x4001086")]
-	Single,
 	[Token(Token = "0x4001087")]
-	Jagged,
+	Empty,
 	[Token(Token = "0x4001088")]
-	Rectangular,
+	Single,
 	[Token(Token = "0x4001089")]
+	Jagged,
+	[Token(Token = "0x400108A")]
+	Rectangular,
+	[Token(Token = "0x400108B")]
 	Base64
 }

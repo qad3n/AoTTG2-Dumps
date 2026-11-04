@@ -13,71 +13,71 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000023")]
 public static class PunExtensions
 {
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40000CC")]
 	[FieldOffset(Offset = "0x0")]
 	public static Dictionary<MethodInfo, ParameterInfo[]> ParametersOfMethods;
 
-	[Token(Token = "0x6000177")]
-	[Address(RVA = "0x3F0E520", Offset = "0x3F0E520", VA = "0x3F0E520")]
+	[Token(Token = "0x6000175")]
+	[Address(RVA = "0x1D67660", Offset = "0x1D65C60", VA = "0x181D67660")]
 	public static ParameterInfo[] GetCachedParemeters(this MethodInfo mo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000178")]
-	[Address(RVA = "0x3F0E610", Offset = "0x3F0E610", VA = "0x3F0E610")]
+	[Token(Token = "0x6000176")]
+	[Address(RVA = "0x1D677C0", Offset = "0x1D65DC0", VA = "0x181D677C0")]
 	public static PhotonView[] GetPhotonViewsInChildren(this GameObject go)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000179")]
-	[Address(RVA = "0x3F0E660", Offset = "0x3F0E660", VA = "0x3F0E660")]
+	[Token(Token = "0x6000177")]
+	[Address(RVA = "0x1D67770", Offset = "0x1D65D70", VA = "0x181D67770")]
 	public static PhotonView GetPhotonView(this GameObject go)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600017A")]
-	[Address(RVA = "0x3F0E6A0", Offset = "0x3F0E6A0", VA = "0x3F0E6A0")]
+	[Token(Token = "0x6000178")]
+	[Address(RVA = "0x1D67540", Offset = "0x1D65B40", VA = "0x181D67540")]
 	public static bool AlmostEquals(this Vector3 target, Vector3 second, float sqrMagnitudePrecision)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017B")]
-	[Address(RVA = "0x3F0E6E0", Offset = "0x3F0E6E0", VA = "0x3F0E6E0")]
+	[Token(Token = "0x6000179")]
+	[Address(RVA = "0x1D67500", Offset = "0x1D65B00", VA = "0x181D67500")]
 	public static bool AlmostEquals(this Vector2 target, Vector2 second, float sqrMagnitudePrecision)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x3F0E700", Offset = "0x3F0E700", VA = "0x3F0E700")]
+	[Token(Token = "0x600017A")]
+	[Address(RVA = "0x1D675A0", Offset = "0x1D65BA0", VA = "0x181D675A0")]
 	public static bool AlmostEquals(this Quaternion target, Quaternion second, float maxAngle)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017D")]
-	[Address(RVA = "0x3F0E770", Offset = "0x3F0E770", VA = "0x3F0E770")]
+	[Token(Token = "0x600017B")]
+	[Address(RVA = "0x1D67580", Offset = "0x1D65B80", VA = "0x181D67580")]
 	public static bool AlmostEquals(this float target, float second, float floatDiff)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x3F0E790", Offset = "0x3F0E790", VA = "0x3F0E790")]
+	[Token(Token = "0x600017C")]
+	[Address(RVA = "0x1D67630", Offset = "0x1D65C30", VA = "0x181D67630")]
 	public static bool CheckIsAssignableFrom(this Type to, Type from)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x3F0E7B0", Offset = "0x3F0E7B0", VA = "0x3F0E7B0")]
+	[Token(Token = "0x600017D")]
+	[Address(RVA = "0x1C53BB0", Offset = "0x1C521B0", VA = "0x181C53BB0")]
 	public static bool CheckIsInterface(this Type to)
 	{
 		return default(bool);

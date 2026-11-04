@@ -1,5 +1,5 @@
 // Type: UI.QuestCategoryPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/QuestCategoryPanel.cs
@@ -8,14 +8,14 @@
 
 // UI.QuestCategoryPanel$$get_ThemePanel
 // il2cpp: System_String_o* UI_QuestCategoryPanel__get_ThemePanel (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x44111d0
+// 0x1822993f0
 
 System_String_o * UI_QuestCategoryPanel__get_ThemePanel(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ae5e8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"QuestPopup");
-    g_data_057ae5e8 = '\x01';
+  if (Il2CppMethodInitialized_184347476 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"QuestPopup");
+    Il2CppMethodInitialized_184347476 = '\x01';
   }
   return "QuestPopup";
 }
@@ -23,9 +23,10 @@ System_String_o * UI_QuestCategoryPanel__get_ThemePanel(UI_QuestCategoryPanel_o 
 
 // UI.QuestCategoryPanel$$get_VerticalSpacing
 // il2cpp: float UI_QuestCategoryPanel__get_VerticalSpacing (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x4411200
+// 0x182168bc0
 
-float UI_QuestCategoryPanel__get_VerticalSpacing(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
+float
+UI_QuestCategoryPanel__get_VerticalSpacing(UI_QuestCategoryPanel_o* __this, MethodInfo* method)
 
 {
   return 20.0;
@@ -34,9 +35,10 @@ float UI_QuestCategoryPanel__get_VerticalSpacing(UI_QuestCategoryPanel_o *__this
 
 // UI.QuestCategoryPanel$$get_HorizontalPadding
 // il2cpp: int32_t UI_QuestCategoryPanel__get_HorizontalPadding (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x4411210
+// 0x180847040
 
-int32_t UI_QuestCategoryPanel__get_HorizontalPadding(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
+int32_t
+UI_QuestCategoryPanel__get_HorizontalPadding(UI_QuestCategoryPanel_o* __this, MethodInfo* method)
 
 {
   return 0x14;
@@ -45,9 +47,10 @@ int32_t UI_QuestCategoryPanel__get_HorizontalPadding(UI_QuestCategoryPanel_o *__
 
 // UI.QuestCategoryPanel$$get_VerticalPadding
 // il2cpp: int32_t UI_QuestCategoryPanel__get_VerticalPadding (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x4411220
+// 0x180847040
 
-int32_t UI_QuestCategoryPanel__get_VerticalPadding(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
+int32_t
+UI_QuestCategoryPanel__get_VerticalPadding(UI_QuestCategoryPanel_o* __this, MethodInfo* method)
 
 {
   return 0x14;
@@ -56,9 +59,10 @@ int32_t UI_QuestCategoryPanel__get_VerticalPadding(UI_QuestCategoryPanel_o *__th
 
 // UI.QuestCategoryPanel$$get_PanelAlignment
 // il2cpp: int32_t UI_QuestCategoryPanel__get_PanelAlignment (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x4411230
+// 0x180564040
 
-int32_t UI_QuestCategoryPanel__get_PanelAlignment(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
+int32_t
+UI_QuestCategoryPanel__get_PanelAlignment(UI_QuestCategoryPanel_o* __this, MethodInfo* method)
 
 {
   return 1;
@@ -67,7 +71,7 @@ int32_t UI_QuestCategoryPanel__get_PanelAlignment(UI_QuestCategoryPanel_o *__thi
 
 // UI.QuestCategoryPanel$$Setup
 // il2cpp: void UI_QuestCategoryPanel__Setup (UI_QuestCategoryPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x440fd90
+// 0x182278860
 
 void UI_QuestCategoryPanel__Setup(UI_QuestCategoryPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
@@ -79,7 +83,27 @@ void UI_QuestCategoryPanel__Setup(UI_QuestCategoryPanel_o *__this,UI_BasePanel_o
 
 // UI.QuestCategoryPanel$$CreateQuestItems
 // il2cpp: void UI_QuestCategoryPanel__CreateQuestItems (UI_QuestCategoryPanel_o* __this, System_Collections_Generic_List_QuestItem__o* items, const MethodInfo* method);
-// 0x4410080
+// 0x182297aa0
+// eh: try 0x182297cc0..0x182298778 -> pad 0x1833286e0 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182298671: mov rdx, qword ptr [rip + 0x1df9498]  ; MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose
+// asm:   0x182298678: mov rcx, qword ptr [rsp + 0x48]
+// asm:   0x18229867d: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182298682: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x182298687: test rcx, rcx
+// asm:   0x18229868a: jne 0x182298778
+// asm:   0x182298778: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x1833286e0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833286e5: push rbp
+// asm:   0x1833286e6: sub rsp, 0x30
+// asm:   0x1833286ea: mov rbp, rdx
+// asm:   0x1833286ed: mov rax, qword ptr [rbp + 0x80]
+// asm:   0x1833286f4: mov rcx, qword ptr [rax]
+// asm:   0x1833286f7: mov qword ptr [rbp + 0x40], rcx
+// asm:   0x1833286fb: movabs rax, 0
+// asm:   0x183328705: add rsp, 0x30
+// asm:   0x183328709: pop rbp
+// asm:   0x18332870a: ret 
 
 void UI_QuestCategoryPanel__CreateQuestItems
                (UI_QuestCategoryPanel_o *__this,System_Collections_Generic_List_QuestItem__o *items,
@@ -87,346 +111,460 @@ void UI_QuestCategoryPanel__CreateQuestItems
 
 {
   Settings_StringSetting_o *pSVar1;
-  long lVar2;
-  System_Collections_Generic_List_Enumerator_object__o __this_00;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  bool_conflict bVar3;
-  uint uVar4;
+  Settings_IntSetting_o *pSVar2;
+  Settings_IntSetting_o *pSVar3;
+  Il2CppObject *item;
+  bool bVar4;
   UnityEngine_GameObject_o *pUVar5;
   UnityEngine_Transform_o *pUVar6;
-  Il2CppObject *pIVar7;
+  UnityEngine_UI_LayoutElement_o *pUVar7;
   UnityEngine_Transform_o *pUVar8;
-  UnityEngine_UI_RawImage_o *__this_04;
-  System_String_o *name;
+  UnityEngine_UI_RawImage_o *pUVar9;
+  System_String_o *pSVar10;
+  UnityEngine_Texture_o *pUVar11;
+  UnityEngine_UI_Slider_o *pUVar12;
+  UnityEngine_UI_Text_o *pUVar13;
+  System_String_o *pSVar14;
+  UnityEngine_UI_Image_o *pUVar15;
+  UnityEngine_Color_o *pUVar16;
   UnityEngine_Texture_o *value;
-  System_String_o *pSVar9;
-  long *plVar10;
-  UnityEngine_Texture_c **method_00;
-  UI_QuestCategoryPanel_o *__this_05;
-  float fVar11;
-  UnityEngine_Color_o UVar12;
-  undefined1 auVar13 [12];
-  System_Collections_Generic_List_Enumerator_T__c *pSVar14;
-  Il2CppType *pIVar15;
-  GameProgress_QuestItem_o *pGVar16;
-  GameProgress_QuestItem_o *item;
-  undefined1 local_48 [16];
-  GameProgress_QuestItem_o *local_38;
+  int32_t local_res10 [2];
+  UnityEngine_Color_Fields local_118;
+  undefined8 local_108;
+  System_Collections_Generic_List_Enumerator_object__o *local_100;
+  System_Collections_Generic_List_Enumerator_object__o local_f8;
+  System_Collections_Generic_List_Enumerator_T__o local_e0;
+  UnityEngine_Color_o local_c0;
+  UnityEngine_Color_o local_b0;
+  UnityEngine_Color_o local_a0;
+  UnityEngine_Color_o local_90;
+  UnityEngine_Color_o local_80;
+  UnityEngine_Color_o local_70;
+  UnityEngine_Color_o local_60;
+  UnityEngine_Color_o local_50;
+  UnityEngine_Color_o local_40;
   
-  if (g_data_057ae5e9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RawImage_GetComponent_RawImage);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_QuestItem_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_GameProgress_QuestItem_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"TextColor");
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    il2cpp_runtime_helper_023445d0(&"ProgressBarFillColor");
-    il2cpp_runtime_helper_023445d0(&"Panel/Icon");
-    il2cpp_runtime_helper_023445d0(&"Panel/ProgressLabel");
-    il2cpp_runtime_helper_023445d0(&"Panel/ProgressBar/Background");
-    il2cpp_runtime_helper_023445d0(&"Background");
-    il2cpp_runtime_helper_023445d0(&"Icons/Quests/");
-    il2cpp_runtime_helper_023445d0(&"QuestItem");
-    il2cpp_runtime_helper_023445d0(&"Panel/ProgressBar/Fill Area/Fill");
-    il2cpp_runtime_helper_023445d0(&"Panel/CheckIcon");
-    il2cpp_runtime_helper_023445d0(&"Panel/RewardLabel");
-    il2cpp_runtime_helper_023445d0(&"CheckColor");
-    il2cpp_runtime_helper_023445d0(&"BorderColor");
-    il2cpp_runtime_helper_023445d0(&"Icon");
-    il2cpp_runtime_helper_023445d0(&"IconColor");
-    il2cpp_runtime_helper_023445d0(&"Border");
-    il2cpp_runtime_helper_023445d0(&"Panel/Title");
-    il2cpp_runtime_helper_023445d0(&"ProgressBarBackgroundColor");
-    il2cpp_runtime_helper_023445d0(&"Prefabs/MainMenu/QuestItemPanel");
-    il2cpp_runtime_helper_023445d0(&"BackgroundColor");
-    g_data_057ae5e9 = '\x01';
+  if (Il2CppMethodInitialized_184347477 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Image);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RawImage);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_QuestItem_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Texture2D);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"TextColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
+    il2cpp_codegen_initialize_runtime_metadata(&"ProgressBarFillColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/Icon");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressLabel");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressBar/Background");
+    il2cpp_codegen_initialize_runtime_metadata(&"Background");
+    il2cpp_codegen_initialize_runtime_metadata(&"Icons/Quests/");
+    il2cpp_codegen_initialize_runtime_metadata(&"QuestItem");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressBar/Fill Area/Fill");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/CheckIcon");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/RewardLabel");
+    il2cpp_codegen_initialize_runtime_metadata(&"CheckColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"BorderColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Icon");
+    il2cpp_codegen_initialize_runtime_metadata(&"IconColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Border");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/Title");
+    il2cpp_codegen_initialize_runtime_metadata(&"ProgressBarBackgroundColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/MainMenu/QuestItemPanel");
+    il2cpp_codegen_initialize_runtime_metadata(&"BackgroundColor");
+    Il2CppMethodInitialized_184347477 = '\x01';
   }
-  pSVar14 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIVar15 = (Il2CppType *)0x0;
-  pGVar16 = (GameProgress_QuestItem_o *)0x0;
-  if (items != (System_Collections_Generic_List_QuestItem__o *)0x0) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_48,
-               (System_Collections_Generic_List_object__o *)items,MethodInfo_List_1_T_Enumerator_GameProgress_QuestItem_GetEnumerator);
-    pSVar14 = (System_Collections_Generic_List_Enumerator_T__c *)local_48._0_8_;
-    pIVar15 = (Il2CppType *)local_48._8_8_;
-    item = local_38;
-    while( true ) {
-      __this_00.fields._8_8_ = pIVar15;
-      __this_00.fields._list = (System_Collections_Generic_List_T__o *)pSVar14;
-      __this_00.fields._current = (Il2CppObject *)item;
-      bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_00,(MethodInfo_321A1D0 *)&stack0xffffffffffffff98);
-      if ((char)bVar3 == '\0') {
-        __this_01.fields._8_8_ = pIVar15;
-        __this_01.fields._list = (System_Collections_Generic_List_T__o *)pSVar14;
-        __this_01.fields._current = (Il2CppObject *)item;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_01,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-        return;
-      }
-      pGVar16 = item;
-      pUVar5 = UI_ElementFactory__InstantiateAndBind
-                         ((__this->fields).SinglePanel,"Prefabs/MainMenu/QuestItemPanel",(MethodInfo *)0x0);
-      if (pUVar5 == (UnityEngine_GameObject_o *)0x0) break;
-      pUVar6 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
-      if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_04410a62;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410a67;
-      (*pIVar7->klass->vtable[0x24].methodPtr)
-                ((__this->fields).QuestItemWidth,pIVar7,pIVar7->klass->vtable[0x24].method);
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410a6c;
-      (*pIVar7->klass->vtable[0x26].methodPtr)
-                ((__this->fields).QuestItemHeight,pIVar7,pIVar7->klass->vtable[0x26].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Icon",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410a71;
-      __this_04 = (UnityEngine_UI_RawImage_o *)
-                  UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_RawImage_GetComponent_RawImage);
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (item == (GameProgress_QuestItem_o *)0x0) goto label_04410a76;
-      pSVar1 = (item->fields).Icon;
-      if (pSVar1 == (Settings_StringSetting_o *)0x0) goto label_04410a7b;
-      pSVar9 = (System_String_o *)**(undefined8 **)(TypeInfo_ResourcePaths + 0xb8);
-      name = System_String__Concat_3af7150
-                       ("Icons/Quests/",(pSVar1->fields)._value,"Icon",(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      method_00 = (UnityEngine_Texture_c **)0x0;
-      value = (UnityEngine_Texture_o *)
-              ApplicationManagers_ResourceManager__LoadAsset(pSVar9,name,1,(MethodInfo *)0x0);
-      if (__this_04 == (UnityEngine_UI_RawImage_o *)0x0) goto label_04410a80;
-      if ((value != (UnityEngine_Texture_o *)0x0) && (method_00 = &TypeInfo_Texture2D, value->klass != TypeInfo_Texture2D)
-         ) goto label_04410af3;
-      UnityEngine_UI_RawImage__set_texture(__this_04,value,(MethodInfo *)0x0);
-      UI_QuestCategoryPanel__SetTitle(__this,item,pUVar6,(MethodInfo *)method_00);
-      __this_05 = __this;
-      UI_QuestCategoryPanel__SetRewardLabel(__this,item,pUVar6,(MethodInfo *)method_00);
-      UI_QuestCategoryPanel__SetProgress(__this_05,item,pUVar6,(MethodInfo *)method_00);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Background",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410a85;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","BackgroundColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410a8a;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410a8f;
-      pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar8,(MethodInfo *)0x0);
-      uVar4 = GameProgress_QuestItem__Finished(item,(MethodInfo *)0x0);
-      if (pUVar5 == (UnityEngine_GameObject_o *)0x0) goto label_04410a94;
-      UnityEngine_GameObject__SetActive(pUVar5,uVar4 & 0xff,(MethodInfo *)0x0);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Border",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410a99;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","BorderColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410a9e;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Icon",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410aa3;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_RawImage_GetComponent_RawImage);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","IconColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410aa8;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410aad;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","CheckColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410ab2;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Title",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410ab7;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Text_GetComponent_Text);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","TextColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410abc;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressLabel",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410ac1;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Text_GetComponent_Text);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","TextColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410ac6;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/RewardLabel",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410acb;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Text_GetComponent_Text);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","TextColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410ad0;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410ad5;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","IconColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410ada;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressBar/Background",(MethodInfo *)0x0);
-      if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_04410adf;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar8,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","ProgressBarBackgroundColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410ae4;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      pUVar6 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressBar/Fill Area/Fill",(MethodInfo *)0x0);
-      if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_04410ae9;
-      pIVar7 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar6,MethodInfo_Image_GetComponent_Image);
-      pSVar9 = (System_String_o *)
-               (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                         (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      UVar12 = UI_UIManager__GetThemeColor(pSVar9,"QuestItem","ProgressBarFillColor","DefaultPanel",(MethodInfo *)0x0);
-      fVar11 = UVar12.fields.r;
-      if (pIVar7 == (Il2CppObject *)0x0) goto label_04410aee;
-      (*pIVar7->klass->vtable[0x17].methodPtr)
-                (fVar11,UVar12.fields._8_8_,pIVar7,pIVar7->klass->vtable[0x17].method);
-      item = pGVar16;
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_04410a62:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a67:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a6c:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a71:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a76:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a7b:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a80:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a85:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410a8a:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410a8f:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a94:
-    il2cpp_runtime_helper_022b2c90();
-label_04410a99:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410a9e:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410aa3:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410aa8:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410aad:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410ab2:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410ab7:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410abc:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410ac1:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410ac6:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410acb:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410ad0:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410ad5:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410ada:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410adf:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410ae4:
-    il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410ae9:
-    fVar11 = (float)il2cpp_runtime_helper_022b2c90();
-label_04410aee:
-    value = (UnityEngine_Texture_o *)il2cpp_runtime_helper_022b2c90(fVar11);
-label_04410af3:
-    il2cpp_runtime_helper_022b2fd0(value);
+  local_f8.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_f8.fields._index = 0;
+  local_f8.fields._version = 0;
+  local_f8.fields._current = (Il2CppObject *)0x0;
+  if (items == (System_Collections_Generic_List_QuestItem__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  auVar13 = il2cpp_runtime_helper_022b2c90();
-  if (auVar13._8_4_ == 1) {
-    plVar10 = (long *)__cxa_begin_catch(auVar13._0_8_);
-    lVar2 = *plVar10;
-    __cxa_end_catch();
-    __this_02.fields._8_8_ = pIVar15;
-    __this_02.fields._list = (System_Collections_Generic_List_T__o *)pSVar14;
-    __this_02.fields._current = (Il2CppObject *)pGVar16;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-    if (lVar2 == 0) {
+  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+            (&local_e0,(System_Collections_Generic_List_T__o *)items,
+             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_QuestItem_GetEnumerator);
+  local_f8.fields._list = local_e0.fields._list;
+  local_f8.fields._index = local_e0.fields._index;
+  local_f8.fields._version = local_e0.fields._version;
+  local_f8.fields._current = local_e0.fields._current;
+  local_108 = 0;
+  local_100 = &local_f8;
+  while( true ) {
+    bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      (&local_f8,
+                       (MethodInfo_153A2A0 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_MoveNext);
+    item = local_f8.fields._current;
+    if (!bVar4) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_f8,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose);
       return;
     }
-    il2cpp_runtime_helper_022fefe0(lVar2);
+    pUVar5 = UI_ElementFactory__InstantiateAndBind
+                       ((__this->fields).SinglePanel,"Prefabs/MainMenu/QuestItemPanel",(MethodInfo *)0x0);
+    if (pUVar5 == (UnityEngine_GameObject_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar6 = UnityEngine_GameObject__get_transform(pUVar5,(MethodInfo *)0x0);
+    if (pUVar6 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar7 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)pUVar6,
+                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+    if (pUVar7 == (UnityEngine_UI_LayoutElement_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (*(pUVar7->klass->vtable)._36_set_preferredWidth.methodPtr)
+              (pUVar7,(__this->fields).QuestItemWidth,(pUVar7->klass->vtable)._36_set_preferredWidth.method);
+    pUVar7 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)pUVar6,
+                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+    if (pUVar7 == (UnityEngine_UI_LayoutElement_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (*(pUVar7->klass->vtable)._38_set_preferredHeight.methodPtr)
+              (pUVar7,(__this->fields).QuestItemHeight,(pUVar7->klass->vtable)._38_set_preferredHeight.method)
+    ;
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Icon",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar9 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)pUVar8,
+                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RawImage);
+    if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+    }
+    if ((GameProgress_QuestItem_o *)item == (GameProgress_QuestItem_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar1 = ((GameProgress_QuestItem_Fields *)((longlong)item + 0x10))->Icon;
+    if (pSVar1 == (Settings_StringSetting_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar14 = TypeInfo_Utility_ResourcePaths->static_fields->UI;
+    pSVar10 = System_String__Concat_1969b70
+                        ("Icons/Quests/",(pSVar1->fields)._value,"Icon",(MethodInfo *)0x0
+                        );
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+    }
+    pUVar11 = (UnityEngine_Texture_o *)
+              ApplicationManagers_ResourceManager__LoadAsset(pSVar14,pSVar10,true,(MethodInfo *)0x0);
+    if (pUVar9 == (UnityEngine_UI_RawImage_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    value = (UnityEngine_Texture_o *)0x0;
+    if (pUVar11 != (UnityEngine_Texture_o *)0x0) {
+      if (pUVar11->klass == (UnityEngine_Texture_c *)TypeInfo_UnityEngine_Texture2D) {
+        value = pUVar11;
+      }
+      if (value == (UnityEngine_Texture_o *)0x0) {
+        il2cpp_codegen_raise_invalid_cast_exception(pUVar11,TypeInfo_UnityEngine_Texture2D);
+      }
+    }
+    UnityEngine_UI_RawImage__set_texture(pUVar9,value,(MethodInfo *)0x0);
+    UI_QuestCategoryPanel__SetTitle(__this,(GameProgress_QuestItem_o *)item,pUVar6,(MethodInfo *)0x0);
+    UI_QuestCategoryPanel__SetRewardLabel(__this,(GameProgress_QuestItem_o *)item,pUVar6,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18434747b == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Slider);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+      il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressLabel");
+      il2cpp_codegen_initialize_runtime_metadata(&" / ");
+      il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressBar");
+      Il2CppMethodInitialized_18434747b = '\x01';
+    }
+    local_res10[0] = 0;
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressBar",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar12 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Slider);
+    pSVar2 = ((GameProgress_QuestItem_Fields *)((longlong)item + 0x10))->Progress;
+    if (pSVar2 == (Settings_IntSetting_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar3 = ((GameProgress_QuestItem_Fields *)((longlong)item + 0x10))->Amount;
+    if (pSVar3 == (Settings_IntSetting_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if (pUVar12 == (UnityEngine_UI_Slider_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (*(pUVar12->klass->vtable)._47_set_value.methodPtr)
+              (pUVar12,(float)(pSVar2->fields)._value / (float)(pSVar3->fields)._value,
+               (pUVar12->klass->vtable)._47_set_value.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressLabel",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar13 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+    pSVar2 = ((GameProgress_QuestItem_Fields *)((longlong)item + 0x10))->Progress;
+    if (pSVar2 == (Settings_IntSetting_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_res10[0] = (pSVar2->fields)._value;
+    pSVar14 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+    pSVar2 = ((GameProgress_QuestItem_Fields *)((longlong)item + 0x10))->Amount;
+    if (pSVar2 == (Settings_IntSetting_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_res10[0] = (pSVar2->fields)._value;
+    pSVar10 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+    pSVar14 = System_String__Concat_1969b70(pSVar14," / ",pSVar10,(MethodInfo *)0x0);
+    if (pUVar13 == (UnityEngine_UI_Text_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    (*(pUVar13->klass->vtable)._75_set_text.methodPtr)
+              (pUVar13,pSVar14,(pUVar13->klass->vtable)._75_set_text.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Background",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_c0,pSVar14,"QuestItem","BackgroundColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar8,(MethodInfo *)0x0);
+    bVar4 = GameProgress_QuestItem__Finished((GameProgress_QuestItem_o *)item,(MethodInfo *)0x0);
+    if (pUVar5 == (UnityEngine_GameObject_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    UnityEngine_GameObject__SetActive(pUVar5,bVar4,(MethodInfo *)0x0);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Border",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_b0,pSVar14,"QuestItem","BorderColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Icon",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar9 = UnityEngine_Component__GetComponent_object_
+                       ((UnityEngine_Component_o *)pUVar8,
+                        (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RawImage);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_a0,pSVar14,"QuestItem","IconColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar9 == (UnityEngine_UI_RawImage_o *)0x0) break;
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar9->klass->vtable)._23_set_color.methodPtr)
+              (pUVar9,(UnityEngine_Color_o *)&local_118,(pUVar9->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_90,pSVar14,"QuestItem","CheckColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/Title",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar13 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_80,pSVar14,"QuestItem","TextColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar13 == (UnityEngine_UI_Text_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar13->klass->vtable)._23_set_color.methodPtr)
+              (pUVar13,(UnityEngine_Color_o *)&local_118,(pUVar13->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressLabel",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar13 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_70,pSVar14,"QuestItem","TextColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar13 == (UnityEngine_UI_Text_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar13->klass->vtable)._23_set_color.methodPtr)
+              (pUVar13,(UnityEngine_Color_o *)&local_118,(pUVar13->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/RewardLabel",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar13 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_60,pSVar14,"QuestItem","TextColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar13 == (UnityEngine_UI_Text_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar13->klass->vtable)._23_set_color.methodPtr)
+              (pUVar13,(UnityEngine_Color_o *)&local_118,(pUVar13->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/CheckIcon",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_50,pSVar14,"QuestItem","IconColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
+    pUVar8 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressBar/Background",(MethodInfo *)0x0);
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar8,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        (&local_40,pSVar14,"QuestItem","ProgressBarBackgroundColor","DefaultPanel",
+                         (MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
+    pUVar6 = UnityEngine_Transform__Find(pUVar6,"Panel/ProgressBar/Fill Area/Fill",(MethodInfo *)0x0);
+    if (pUVar6 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar6,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+    pSVar14 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                        (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    pUVar16 = UI_UIManager__GetThemeColor
+                        ((UnityEngine_Color_o *)&local_e0,pSVar14,"QuestItem","ProgressBarFillColor",
+                         "DefaultPanel",(MethodInfo *)0x0);
+    if (pUVar15 == (UnityEngine_UI_Image_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_118.r = (pUVar16->fields).r;
+    local_118.g = (pUVar16->fields).g;
+    local_118.b = (pUVar16->fields).b;
+    local_118.a = (pUVar16->fields).a;
+    (*(pUVar15->klass->vtable)._23_set_color.methodPtr)
+              (pUVar15,(UnityEngine_Color_o *)&local_118,(pUVar15->klass->vtable)._23_set_color.method);
   }
-  __this_03.fields._8_8_ = pIVar15;
-  __this_03.fields._list = (System_Collections_Generic_List_T__o *)pSVar14;
-  __this_03.fields._current = (Il2CppObject *)pGVar16;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-  _Unwind_Resume(auVar13._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // UI.QuestCategoryPanel$$SetRewardLabel
 // il2cpp: void UI_QuestCategoryPanel__SetRewardLabel (UI_QuestCategoryPanel_o* __this, GameProgress_QuestItem_o* item, UnityEngine_Transform_o* panel, const MethodInfo* method);
-// 0x44119d0
+// 0x182298af0
 
 void UI_QuestCategoryPanel__SetRewardLabel
                (UI_QuestCategoryPanel_o *__this,GameProgress_QuestItem_o *item,UnityEngine_Transform_o *panel,
@@ -435,666 +573,378 @@ void UI_QuestCategoryPanel__SetRewardLabel
 {
   byte bVar1;
   Settings_StringSetting_o *pSVar2;
-  System_String_c *pSVar3;
-  code *vtableDispatch;
-  void *pvVar4;
-  Il2CppClass *pIVar5;
-  long lVar6;
-  Il2CppClass_1 *pIVar7;
-  GameProgress_QuestItem_o *pGVar8;
-  int32_t iVar9;
-  bool_conflict bVar10;
-  UnityEngine_Transform_o *pUVar11;
-  Il2CppClass *pIVar12;
-  Il2CppObject *pIVar13;
-  System_String_o *pSVar14;
-  System_String_o *pSVar15;
-  UI_ElementStyle_o *__this_00;
-  UnityEngine_GameObject_o *pUVar16;
-  UI_CategoryPanel_o *__this_01;
-  MethodInfo_24E7B40 **ppMVar17;
-  Il2CppClass **ppIVar18;
-  uint startIndex;
-  Il2CppClass *__this_02;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *method_00;
-  Il2CppClass **unaff_RBX;
-  Il2CppClass *pIVar19;
-  Il2CppClass *__this_03;
-  Il2CppClass **ppIVar20;
-  System_String_o **__this_04;
-  undefined4 extraout_XMM0_Db;
-  UnityEngine_Color_o UVar21;
-  undefined4 uStack_54;
-  System_String_o *pSStack_50;
-  System_String_o *pSStack_48;
-  UI_QuestCategoryPanel_o *pUStack_40;
+  bool bVar3;
+  UnityEngine_Transform_o *pUVar4;
+  UnityEngine_GameObject_o *pUVar5;
+  UnityEngine_UI_Image_o *pUVar6;
+  System_String_o *pSVar7;
+  System_String_o *item_00;
+  UnityEngine_Color_o *pUVar8;
+  UnityEngine_UI_Text_o *pUVar9;
+  UnityEngine_Color_o local_18;
   
-  pIVar19 = (Il2CppClass *)item;
-  if (g_data_057ae5ea == '\0') {
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x44119fd;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AchievementItem);
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a09;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a15;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a21;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a2d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a39;
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a45;
-    il2cpp_runtime_helper_023445d0(&"Color");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a51;
-    il2cpp_runtime_helper_023445d0(&"Trophy");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a5d;
-    il2cpp_runtime_helper_023445d0(&"+");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a69;
-    il2cpp_runtime_helper_023445d0(&"Exp");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a75;
-    il2cpp_runtime_helper_023445d0(&"Panel/AchievementIcon");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a81;
-    il2cpp_runtime_helper_023445d0(&"Panel/RewardLabel");
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411a8d;
-    il2cpp_runtime_helper_023445d0(&" exp");
-    g_data_057ae5ea = '\x01';
+  if (Il2CppMethodInitialized_184347478 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameProgress_AchievementItem);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Image);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"DefaultPanel");
+    il2cpp_codegen_initialize_runtime_metadata(&"Color");
+    il2cpp_codegen_initialize_runtime_metadata(&"Trophy");
+    il2cpp_codegen_initialize_runtime_metadata(&"+");
+    il2cpp_codegen_initialize_runtime_metadata(&"Exp");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/AchievementIcon");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/RewardLabel");
+    il2cpp_codegen_initialize_runtime_metadata(&" exp");
+    Il2CppMethodInitialized_184347478 = '\x01';
   }
-  if (item == (GameProgress_QuestItem_o *)0x0) {
-label_04411ab7:
-    ppMVar17 = (MethodInfo_24E7B40 **)method;
-    pGVar8 = (GameProgress_QuestItem_o *)0x0;
-  }
-  else {
-    bVar1 = (TypeInfo_AchievementItem->_2).naturalAligment;
-    method = (MethodInfo *)(ulong)bVar1;
-    if ((item->klass->_2).naturalAligment < bVar1) goto label_04411ab7;
-    ppMVar17 = (MethodInfo_24E7B40 **)method;
-    pGVar8 = (GameProgress_QuestItem_o *)0x0;
-    if ((item->klass->_2).typeHierarchy
-        [(long)((long)&((Il2CppClass *)((long)method + -0x1128))->vtable[0xfe].method + 7)] == TypeInfo_AchievementItem) {
-      pGVar8 = item;
-    }
-  }
-  if (panel != (UnityEngine_Transform_o *)0x0) {
-    unaff_RBX = &"Panel/RewardLabel";
-    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411af2;
-    pIVar19 = "Panel/RewardLabel";
-    pUVar11 = UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/RewardLabel",(MethodInfo *)0x0);
-    if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-      pIVar19 = (Il2CppClass *)0x0;
-      pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b05;
-      pUVar16 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar11,(MethodInfo *)0x0);
-      if (pUVar16 != (UnityEngine_GameObject_o *)0x0) {
-        if (pGVar8 == (GameProgress_QuestItem_o *)0x0) {
-          pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411c9f;
-          UnityEngine_GameObject__SetActive(pUVar16,1,(MethodInfo *)0x0);
-          pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411cb3;
-          pIVar19 = "Panel/AchievementIcon";
-          pUVar11 = UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/AchievementIcon",(MethodInfo *)0x0);
-          if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-            pIVar19 = (Il2CppClass *)0x0;
-            pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411cc6;
-            pUVar16 = UnityEngine_Component__get_gameObject
-                                ((UnityEngine_Component_o *)pUVar11,(MethodInfo *)0x0);
-            if (pUVar16 != (UnityEngine_GameObject_o *)0x0) {
-              pIVar19 = (Il2CppClass *)0x0;
-              pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411cdb;
-              UnityEngine_GameObject__SetActive(pUVar16,0,(MethodInfo *)0x0);
-              if ((item != (GameProgress_QuestItem_o *)0x0) &&
-                 (pSVar2 = (item->fields).RewardType, pSVar2 != (Settings_StringSetting_o *)0x0)) {
-                pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411d07;
-                bVar10 = System_String__op_Equality((pSVar2->fields)._value,"Exp",(MethodInfo *)0x0);
-                if ((char)bVar10 == '\0') {
-                  return;
-                }
-                pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411d18;
-                pIVar19 = "Panel/RewardLabel";
-                pUVar11 = UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/RewardLabel",(MethodInfo *)0x0)
-                ;
-                if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-                  ppIVar18 = &MethodInfo_Text_GetComponent_Text;
-                  pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411d2f;
-                  pIVar19 = MethodInfo_Text_GetComponent_Text;
-                  unaff_RBX = &UnityEngine_Component__GetComponent_object_
-                                         ((UnityEngine_Component_o *)pUVar11,
-                                          (MethodInfo_24E7B40 *)MethodInfo_Text_GetComponent_Text)->klass;
-                  pSVar2 = (item->fields).RewardValue;
-                  ppMVar17 = (MethodInfo_24E7B40 **)ppIVar18;
-                  if (pSVar2 != (Settings_StringSetting_o *)0x0) {
-                    pIVar19 = (Il2CppClass *)(pSVar2->fields)._value;
-                    ppMVar17 = (MethodInfo_24E7B40 **)0x0;
-                    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411d5b;
-                    pSVar14 = System_String__Concat_3af7150
-                                        ("+",(System_String_o *)pIVar19," exp",
-                                         (MethodInfo *)0x0);
-                    if ((System_String_o *)unaff_RBX != (System_String_o *)0x0) {
-                      pSVar3 = ((System_String_o *)unaff_RBX)->klass;
-                      vtableDispatch = (code *)pSVar3[2]._1.namespaze;
-                      (*vtableDispatch)
-                                (unaff_RBX,pSVar14,pSVar3[2]._1.byval_arg.data,pSVar3,vtableDispatch);
-                      return;
-                    }
-                  }
-                }
-              }
+  if (item != (GameProgress_QuestItem_o *)0x0) {
+    bVar1 = (TypeInfo_GameProgress_AchievementItem->_2).typeHierarchyDepth;
+    if ((bVar1 <= (item->klass->_2).typeHierarchyDepth) &&
+       ((item->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+        (Il2CppClass *)TypeInfo_GameProgress_AchievementItem)) {
+      if ((panel != (UnityEngine_Transform_o *)0x0) &&
+         ((pUVar4 = UnityEngine_Transform__Find(panel,"Panel/RewardLabel",(MethodInfo *)0x0),
+          pUVar4 != (UnityEngine_Transform_o *)0x0 &&
+          (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0)
+          , pUVar5 != (UnityEngine_GameObject_o *)0x0)))) {
+        UnityEngine_GameObject__SetActive(pUVar5,false,(MethodInfo *)0x0);
+        pUVar4 = UnityEngine_Transform__Find(panel,"Panel/AchievementIcon",(MethodInfo *)0x0);
+        if ((pUVar4 != (UnityEngine_Transform_o *)0x0) &&
+           (pUVar5 = UnityEngine_Component__get_gameObject
+                               ((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0),
+           pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
+          UnityEngine_GameObject__SetActive(pUVar5,true,(MethodInfo *)0x0);
+          pUVar4 = UnityEngine_Transform__Find(panel,"Panel/AchievementIcon",(MethodInfo *)0x0);
+          if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
+            pUVar6 = UnityEngine_Component__GetComponent_object_
+                               ((UnityEngine_Component_o *)pUVar4,
+                                (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Image);
+            pSVar7 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                               (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+            bVar1 = (TypeInfo_GameProgress_AchievementItem->_2).typeHierarchyDepth;
+            if (((item->klass->_2).typeHierarchyDepth < bVar1) ||
+               ((item->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                (Il2CppClass *)TypeInfo_GameProgress_AchievementItem)) {
+              il2cpp_codegen_raise_invalid_cast_exception(item,TypeInfo_GameProgress_AchievementItem);
             }
-          }
-        }
-        else {
-          pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b23;
-          UnityEngine_GameObject__SetActive(pUVar16,0,(MethodInfo *)0x0);
-          unaff_RBX = &"Panel/AchievementIcon";
-          pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b37;
-          pIVar19 = "Panel/AchievementIcon";
-          pUVar11 = UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/AchievementIcon",(MethodInfo *)0x0);
-          if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-            pIVar19 = (Il2CppClass *)0x0;
-            pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b4a;
-            pUVar16 = UnityEngine_Component__get_gameObject
-                                ((UnityEngine_Component_o *)pUVar11,(MethodInfo *)0x0);
-            if (pUVar16 != (UnityEngine_GameObject_o *)0x0) {
-              pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b65;
-              UnityEngine_GameObject__SetActive(pUVar16,1,(MethodInfo *)0x0);
-              pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b72;
-              pIVar19 = "Panel/AchievementIcon";
-              pUVar11 = UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/AchievementIcon",(MethodInfo *)0x0);
-              if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-                ppMVar17 = &MethodInfo_Image_GetComponent_Image;
-                pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411b8d;
-                pIVar13 = UnityEngine_Component__GetComponent_object_
-                                    ((UnityEngine_Component_o *)pUVar11,MethodInfo_Image_GetComponent_Image);
-                pIVar19 = (Il2CppClass *)(__this->klass->vtable)._4_get_ThemePanel.method;
-                pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411ba3;
-                pSVar14 = (System_String_o *)(*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)(__this);
-                if (item != (GameProgress_QuestItem_o *)0x0) {
-                  bVar1 = (TypeInfo_AchievementItem->_2).naturalAligment;
-                  ppMVar17 = (MethodInfo_24E7B40 **)(ulong)bVar1;
-                  pIVar19 = TypeInfo_AchievementItem;
-                  if (((item->klass->_2).naturalAligment < bVar1) ||
-                     ((item->klass->_2).typeHierarchy
-                      [(long)((long)&((Il2CppClass *)((long)ppMVar17 + -0x1128))->vtable[0xfe].method + 7)] !=
-                      TypeInfo_AchievementItem)) goto label_04411d9c;
-                  bVar1 = (TypeInfo_AchievementItem->_2).naturalAligment;
-                  ppMVar17 = (MethodInfo_24E7B40 **)(ulong)bVar1;
-                  if (((item->klass->_2).naturalAligment < bVar1) ||
-                     ((item->klass->_2).typeHierarchy
-                      [(long)((long)&((Il2CppClass *)((long)ppMVar17 + -0x1128))->vtable[0xfe].method + 7)] !=
-                      TypeInfo_AchievementItem)) goto label_04411d9c;
-                  panel = (UnityEngine_Transform_o *)pSVar14;
-                  if (item[1].klass != (GameProgress_QuestItem_c *)0x0) {
-                    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411c28;
-                    unaff_RBX = (Il2CppClass **)
-                                System_String__Concat_3ae5ba0
-                                          ((System_String_o *)((item[1].klass)->_1).namespaze,"Color",
-                                           (MethodInfo *)0x0);
-                    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                      pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411c43;
-                      il2cpp_runtime_helper_02337ed0();
-                    }
-                    pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411c65;
-                    ppMVar17 = (MethodInfo_24E7B40 **)"DefaultPanel";
-                    pIVar19 = "Trophy";
-                    UVar21 = UI_UIManager__GetThemeColor
-                                       (pSVar14,(System_String_o *)"Trophy",(System_String_o *)unaff_RBX,
-                                        (System_String_o *)"DefaultPanel",(MethodInfo *)0x0);
-                    if (pIVar13 != (Il2CppObject *)0x0) {
-                      (*pIVar13->klass->vtable[0x17].methodPtr)
-                                (UVar21.fields._0_8_,UVar21.fields._8_8_,pIVar13,
-                                 pIVar13->klass->vtable[0x17].method);
-                      return;
-                    }
-                  }
-                }
+            if ((*(uint64_t *)((char *)item + 0x80)) != (GameProgress_QuestItem_c *)0x0) {
+              item_00 = System_String__Concat_1969e50
+                                  ((((*(Il2CppClass **)((char *)item + 0x80)))->_1).byval_arg.data,"Color",
+                                   (MethodInfo *)0x0);
+              if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              }
+              pUVar8 = UI_UIManager__GetThemeColor
+                                 (&local_18,pSVar7,"Trophy",item_00,"DefaultPanel",
+                                  (MethodInfo *)0x0);
+              if (pUVar6 != (UnityEngine_UI_Image_o *)0x0) {
+                local_18.fields.r = (pUVar8->fields).r;
+                local_18.fields.g = (pUVar8->fields).g;
+                local_18.fields.b = (pUVar8->fields).b;
+                local_18.fields.a = (pUVar8->fields).a;
+                (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
+                          (pUVar6,&local_18,(pUVar6->klass->vtable)._23_set_color.method);
+                return;
               }
             }
           }
         }
       }
+      goto label_182298eb3;
     }
   }
-  pSVar14 = (System_String_o *)panel;
-  pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411d9c;
-  il2cpp_runtime_helper_022b2c90();
-label_04411d9c:
-  pUStack_40 = (UI_QuestCategoryPanel_o *)0x4411da4;
-  il2cpp_runtime_helper_022b2fd0();
-  ppIVar18 = (Il2CppClass **)ppMVar17;
-  __this_03 = pIVar19;
-  pSStack_50 = (System_String_o *)unaff_RBX;
-  pSStack_48 = pSVar14;
-  pUStack_40 = __this;
-  if (g_data_057ae5ed == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Slider_GetComponent_Slider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"Panel/ProgressLabel");
-    il2cpp_runtime_helper_023445d0(&" / ");
-    ppIVar20 = &"Panel/ProgressBar";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae5ed = '\x01';
-    ppIVar18 = (Il2CppClass **)ppMVar17;
-    item = (GameProgress_QuestItem_o *)ppIVar20;
-  }
-  uStack_54 = 0;
-  __this_04 = (System_String_o **)item;
-  if ((__this_02 != (Il2CppClass *)0x0) &&
-     (__this_03 = "Panel/ProgressBar", __this_04 = (System_String_o **)__this_02,
-     pIVar12 = (Il2CppClass *)
-               UnityEngine_Transform__Find
-                         ((UnityEngine_Transform_o *)__this_02,(System_String_o *)"Panel/ProgressBar",
-                          (MethodInfo *)0x0), pIVar12 != (Il2CppClass *)0x0)) {
-    ppIVar18 = &MethodInfo_Slider_GetComponent_Slider;
-    __this_03 = MethodInfo_Slider_GetComponent_Slider;
-    pIVar13 = UnityEngine_Component__GetComponent_object_
-                        ((UnityEngine_Component_o *)pIVar12,(MethodInfo_24E7B40 *)MethodInfo_Slider_GetComponent_Slider);
-    __this_04 = (System_String_o **)pIVar12;
-    if ((pIVar19 != (Il2CppClass *)0x0) &&
-       (((ppIVar18 = (Il2CppClass **)(pIVar19->_1).declaringType,
-         (Il2CppClass *)ppIVar18 != (Il2CppClass *)0x0 &&
-         (pvVar4 = (pIVar19->_1).this_arg.data, pvVar4 != (void *)0x0)) && (pIVar13 != (Il2CppObject *)0x0))))
-    {
-      pIVar7 = &((Il2CppClass *)ppIVar18)->_1;
-      ppIVar18 = (Il2CppClass **)pIVar13->klass;
-      (*((Il2CppClass *)ppIVar18)->vtable[0x2f].methodPtr)
-                (CONCAT44(extraout_XMM0_Db,
-                          (float)*(int *)((long)&pIVar7->name + 4) / (float)*(int *)((long)pvVar4 + 0x14)),
-                 pIVar13,((Il2CppClass *)ppIVar18)->vtable[0x2f].method);
-      __this_03 = "Panel/ProgressLabel";
-      __this_04 = (System_String_o **)__this_02;
-      pIVar12 = (Il2CppClass *)
-                UnityEngine_Transform__Find
-                          ((UnityEngine_Transform_o *)__this_02,(System_String_o *)"Panel/ProgressLabel",
-                           (MethodInfo *)0x0);
-      if (pIVar12 != (Il2CppClass *)0x0) {
-        ppIVar18 = &MethodInfo_Text_GetComponent_Text;
-        __this_03 = MethodInfo_Text_GetComponent_Text;
-        pIVar13 = UnityEngine_Component__GetComponent_object_
-                            ((UnityEngine_Component_o *)pIVar12,(MethodInfo_24E7B40 *)MethodInfo_Text_GetComponent_Text);
-        pIVar5 = (pIVar19->_1).declaringType;
-        __this_04 = (System_String_o **)pIVar12;
-        if (pIVar5 != (Il2CppClass *)0x0) {
-          uStack_54 = *(undefined4 *)((long)&(pIVar5->_1).name + 4);
-          __this_04 = (System_String_o **)&stack0xffffffffffffffac;
-          __this_03 = (Il2CppClass *)0x0;
-          pIVar12 = (Il2CppClass *)System_Int32__ToString((int32_t)__this_04,(MethodInfo *)0x0);
-          pvVar4 = (pIVar19->_1).this_arg.data;
-          if (pvVar4 != (void *)0x0) {
-            uStack_54 = *(undefined4 *)((long)pvVar4 + 0x14);
-            pSVar14 = System_Int32__ToString((int32_t)&stack0xffffffffffffffac,(MethodInfo *)0x0);
-            ppIVar18 = (Il2CppClass **)0x0;
-            __this_03 = " / ";
-            pSVar14 = System_String__Concat_3af7150
-                                ((System_String_o *)pIVar12,(System_String_o *)" / ",pSVar14,
-                                 (MethodInfo *)0x0);
-            __this_04 = (System_String_o **)pIVar12;
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x4b].methodPtr)(pIVar13,pSVar14,pIVar13->klass->vtable[0x4b].method);
-              return;
-            }
-          }
-        }
+  if (((panel != (UnityEngine_Transform_o *)0x0) &&
+      (pUVar4 = UnityEngine_Transform__Find(panel,"Panel/RewardLabel",(MethodInfo *)0x0),
+      pUVar4 != (UnityEngine_Transform_o *)0x0)) &&
+     (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0),
+     pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
+    UnityEngine_GameObject__SetActive(pUVar5,true,(MethodInfo *)0x0);
+    pUVar4 = UnityEngine_Transform__Find(panel,"Panel/AchievementIcon",(MethodInfo *)0x0);
+    if (((pUVar4 != (UnityEngine_Transform_o *)0x0) &&
+        (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0),
+        pUVar5 != (UnityEngine_GameObject_o *)0x0)) &&
+       ((UnityEngine_GameObject__SetActive(pUVar5,false,(MethodInfo *)0x0),
+        item != (GameProgress_QuestItem_o *)0x0 &&
+        (pSVar2 = (item->fields).RewardType, pSVar2 != (Settings_StringSetting_o *)0x0)))) {
+      bVar3 = System_String__op_Equality((pSVar2->fields)._value,"Exp",(MethodInfo *)0x0);
+      if (!bVar3) {
+        return;
       }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pIVar19 = __this_03;
-  if (g_data_057ae5ec == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"QuestItems");
-    il2cpp_runtime_helper_023445d0(&"Error");
-    il2cpp_runtime_helper_023445d0(&"");
-    __this_04 = &".";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae5ec = '\x01';
-  }
-  if (__this_03 != (Il2CppClass *)0x0) {
-    iVar9 = System_String__IndexOf_3afbe50((System_String_o *)__this_03,0x7d,startIndex,(MethodInfo *)0x0);
-    pIVar19 = (Il2CppClass *)(ulong)(startIndex + 1);
-    pSVar14 = System_String__Substring_3af8da0
-                        ((System_String_o *)__this_03,startIndex + 1,~startIndex + iVar9,(MethodInfo *)0x0);
-    __this_04 = (System_String_o **)__this_03;
-    if ((Il2CppClass *)ppIVar18 != (Il2CppClass *)0x0) {
-      bVar10 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                         ((System_Collections_Generic_Dictionary_object__object__o *)ppIVar18,
-                          (Il2CppObject *)pSVar14,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar10 != '\0') {
-        pSVar15 = (System_String_o *)
-                  System_Collections_Generic_Dictionary_object__object___get_Item
-                            ((System_Collections_Generic_Dictionary_object__object__o *)ppIVar18,
-                             (Il2CppObject *)pSVar14,MethodInfo_String_get_Item);
-        pSVar15 = System_String__Concat_3af7150(pSVar14,".",pSVar15,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar15 = UI_UIManager__GetLocale
-                            ("QuestItems",pSVar15,"","","Error",(MethodInfo *)0x0);
-        bVar10 = System_String__op_Equality(pSVar15,"Error",(MethodInfo *)0x0);
-        if ((char)bVar10 != '\0') {
-          System_Collections_Generic_Dictionary_object__object___get_Item
-                    ((System_Collections_Generic_Dictionary_object__object__o *)ppIVar18,
-                     (Il2CppObject *)pSVar14,MethodInfo_String_get_Item);
+      pUVar4 = UnityEngine_Transform__Find(panel,"Panel/RewardLabel",(MethodInfo *)0x0);
+      if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
+        pUVar9 = UnityEngine_Component__GetComponent_object_
+                           ((UnityEngine_Component_o *)pUVar4,
+                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+        pSVar2 = (item->fields).RewardValue;
+        if ((pSVar2 != (Settings_StringSetting_o *)0x0) &&
+           (pSVar7 = System_String__Concat_1969b70
+                               ("+",(pSVar2->fields)._value," exp",
+                                (MethodInfo *)0x0), pUVar9 != (UnityEngine_UI_Text_o *)0x0)) {
+          (*(pUVar9->klass->vtable)._75_set_text.methodPtr)
+                    (pUVar9,pSVar7,(pUVar9->klass->vtable)._75_set_text.method);
           return;
         }
       }
-      return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae5ee == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameProgressManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_QuestHandler);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_GameProgress_QuestItem_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    il2cpp_runtime_helper_023445d0(&"ResetTextColor");
-    il2cpp_runtime_helper_023445d0(&"QuestHeader");
-    g_data_057ae5ee = '\x01';
-  }
-  UI_BasePanel__Setup((UI_BasePanel_o *)__this_04,(UI_BasePanel_o *)pIVar19,(MethodInfo *)0x0);
-  pvVar4 = (((Il2CppClass *)__this_04)->_1).image;
-  __this_01 = (((Il2CppClass *)__this_04)->_1).byval_arg.data;
-  pSVar14 = (System_String_o *)
-            (**(code **)((long)pvVar4 + 0x178))(__this_04,*(undefined8 *)((long)pvVar4 + 0x180));
-  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(__this_00,0x18,120.0,20.0,pSVar14,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_QuestHandler + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar14 = GameProgress_QuestHandler__GetTimeToQuestReset(1,(MethodInfo *)0x0);
-  pUVar16 = UI_ElementFactory__CreateDefaultLabel
-                      ((UnityEngine_Transform_o *)__this_01,__this_00,pSVar14,0,3,(MethodInfo *)0x0);
-  if (pUVar16 != (UnityEngine_GameObject_o *)0x0) {
-    pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar16,MethodInfo_Text_GetComponent_Text);
-    pvVar4 = (((Il2CppClass *)__this_04)->_1).image;
-    __this_01 = (UI_CategoryPanel_o *)
-                (**(code **)((long)pvVar4 + 0x178))(__this_04,*(undefined8 *)((long)pvVar4 + 0x180));
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    UVar21 = UI_UIManager__GetThemeColor
-                       ((System_String_o *)__this_01,"QuestHeader","ResetTextColor",(System_String_o *)"DefaultPanel"
-                        ,(MethodInfo *)0x0);
-    if (pIVar13 != (Il2CppObject *)0x0) {
-      (*pIVar13->klass->vtable[0x17].methodPtr)(UVar21.fields._0_8_,UVar21.fields._8_8_,pIVar13);
-      method_00 = extraout_RDX;
-      if (*(int *)((long)&TypeInfo_GameProgressManager[2].fields.m_CachedPtr + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        method_00 = extraout_RDX_00;
-      }
-      pvVar4 = (TypeInfo_GameProgressManager[1].fields._categoryPanelTypes)->monitor;
-      __this_01 = TypeInfo_GameProgressManager;
-      if (((pvVar4 != (void *)0x0) && (lVar6 = *(long *)((long)pvVar4 + 0x28), lVar6 != 0)) &&
-         (lVar6 = *(long *)(lVar6 + 0x20), lVar6 != 0)) {
-        UI_QuestCategoryPanel__CreateQuestItems
-                  ((UI_QuestCategoryPanel_o *)__this_04,
-                   *(System_Collections_Generic_List_QuestItem__o **)(lVar6 + 0x18),method_00);
-        return;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  __this_01[1].klass = (UI_CategoryPanel_c *)0x42c80000446b0000;
-  UI_CategoryPanel___ctor(__this_01,(MethodInfo *)0x0);
-  return;
+label_182298eb3:
+  ThrowNullReferenceException();
 }
 
 
 // UI.QuestCategoryPanel$$SetTitle
 // il2cpp: void UI_QuestCategoryPanel__SetTitle (UI_QuestCategoryPanel_o* __this, GameProgress_QuestItem_o* item, UnityEngine_Transform_o* panel, const MethodInfo* method);
-// 0x4411240
+// 0x182298ed0
+// eh: try 0x1822990a0..0x18229911f -> pad 0x18333fbb0 catch Il2CppExceptionWrapper
+// eh: try 0x182299170..0x182299340 -> pad 0x18333fbe0 catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// eh: try 0x1822993b6..0x1822993d6 -> pad 0x18333fbb0 catch Il2CppExceptionWrapper
+// eh: try 0x1822993dc..0x1822993e3 -> pad 0x18333fbe0 catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// asm: 50 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182299132: mov rdx, qword ptr [rip + 0x1dfed1f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_Dispose
+// asm:   0x182299139: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x18229913e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182299143: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x182299148: test rcx, rcx
+// asm:   0x18229914b: jne 0x1822993d6
+// asm:   0x182299151: xor esi, esi
+// asm:   0x182299153: mov r12, qword ptr [rsp + 0x68]
+// asm:   0x182299158: mov qword ptr [rsp + 0x30], r12
+// asm:   0x18229915d: mov rdi, qword ptr [rsp + 0x70]
+// asm:   0x182299179: mov ebx, esi
+// asm:   0x18229917b: nop dword ptr [rax + rax]
+// asm:   0x182299342: lea rcx, [rip + 0x1e53ee7]  ; "Locale error."
+// asm:   0x182299349: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18229934e: mov r14, rax
+// asm:   0x1822993d6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x18333fbb0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333fbb5: push rbp
+// asm:   0x18333fbb6: sub rsp, 0x30
+// asm:   0x18333fbba: mov rbp, rdx
+// asm:   0x18333fbbd: mov rax, qword ptr [rbp + 0x80]
+// asm:   0x18333fbc4: mov rcx, qword ptr [rax]
+// asm:   0x18333fbc7: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x18333fbcb: movabs rax, 0
+// asm:   0x18333fbd5: add rsp, 0x30
+// asm:   0x18333fbd9: pop rbp
+// asm:   0x18333fbda: ret 
+// asm:   0x18333fbe0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333fbe5: push rbx
+// asm:   0x18333fbe6: push rbp
+// asm:   0x18333fbe7: sub rsp, 0x38
+// asm:   0x18333fbeb: mov rbp, rdx
+// asm:   0x18333fbee: mov rbx, qword ptr [rbp + 0x88]
+// asm:   0x18333fbf5: mov rdx, qword ptr [rbx]
+// asm:   0x18333fbf8: mov rdx, qword ptr [rdx]
+// asm:   0x18333fbfb: mov rcx, qword ptr [rip + 0x10151ce]
+// asm:   0x18333fc02: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x18333fc07: test al, al
+// asm:   0x18333fc09: je 0x18333fc17
+// asm:   0x18333fc0b: movabs rax, 0
+// asm:   0x18333fc15: jmp 0x18333fc2f
+// asm:   0x18333fc17: mov rax, qword ptr [rbx]
+// asm:   0x18333fc1a: mov qword ptr [rbp + 0x78], rax
+// asm:   0x18333fc1e: lea rdx, [rip + 0xc9c363]
+// asm:   0x18333fc25: lea rcx, [rbp + 0x78]
+// asm:   0x18333fc29: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x18333fc2f: add rsp, 0x38
+// asm:   0x18333fc33: pop rbp
+// asm:   0x18333fc34: pop rbx
+// asm:   0x18333fc35: ret 
 
 void UI_QuestCategoryPanel__SetTitle
                (UI_QuestCategoryPanel_o *__this,GameProgress_QuestItem_o *item,UnityEngine_Transform_o *panel,
                MethodInfo *method)
 
 {
-  int iVar1;
-  Settings_StringSetting_o *pSVar2;
-  Settings_ListSetting_StringSetting__o *pSVar3;
-  System_Collections_Generic_List_object__o *__this_00;
-  long lVar4;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  uint16_t uVar5;
-  bool_conflict bVar6;
-  int32_t iVar7;
-  uint uVar8;
-  uint uVar9;
-  System_Collections_Generic_Dictionary_object__object__o *__this_06;
-  System_String_array *pSVar10;
-  System_String_o *pSVar11;
-  MethodInfo *str0;
+  Settings_StringSetting_o *pSVar1;
+  Settings_ListSetting_StringSetting__o *pSVar2;
+  System_Collections_Generic_List_T__o *__this_00;
+  bool bVar3;
+  uint16_t uVar4;
+  int32_t iVar5;
+  int32_t index;
+  int32_t iVar6;
+  System_String_o *pSVar7;
+  System_Collections_Generic_Dictionary_string__string__o *conditionToValue;
+  System_String_array *pSVar8;
+  System_String_o *pSVar9;
+  System_String_o *str0;
   System_String_o *str1;
   System_String_o *str3;
-  UnityEngine_Transform_o *__this_07;
-  Il2CppObject *pIVar12;
-  undefined8 *puVar13;
-  long *plVar14;
-  UI_QuestCategoryPanel_o *unaff_RBX;
-  UI_QuestCategoryPanel_o *pUVar15;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_UI_Text_o *pUVar10;
+  int32_t iVar11;
   MethodInfo *method_00;
-  uint index;
-  undefined1 auVar16 [12];
-  undefined1 in_stack_ffffffffffffff78 [14];
-  undefined2 uVar17;
-  Il2CppObject *in_stack_ffffffffffffff88;
-  System_Collections_Generic_List_Enumerator_T__c *local_68;
-  Il2CppType *pIStack_60;
-  Il2CppObject *local_58;
-  UnityEngine_Transform_o *local_50;
-  undefined1 local_48 [16];
-  Il2CppObject *local_38;
+  uint16_t local_res10 [4];
+  UnityEngine_Transform_o *local_res18;
+  undefined1 local_90 [16];
+  Il2CppObject *local_80;
+  undefined1 local_78 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_70;
+  Il2CppObject *local_68;
+  System_Collections_Generic_Dictionary_string__string__o *local_60;
+  System_String_o *local_58;
   
-  local_50 = panel;
-  if (g_data_057ae5eb == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_StringSetting_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_Settings_StringSetting_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Settings_StringSetting_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"QuestItems");
-    il2cpp_runtime_helper_023445d0(&"Panel/Title");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae5eb = '\x01';
+  local_res18 = panel;
+  if (Il2CppMethodInitialized_184347479 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_string);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_StringSetting_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_List_StringSetting_get_Value)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"QuestItems");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/Title");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184347479 = '\x01';
   }
-  local_68 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIStack_60 = (Il2CppType *)0x0;
-  local_58 = (Il2CppObject *)0x0;
-  uVar17 = 0;
+  local_78 = (undefined1  [8])0x0;
+  pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_68 = (Il2CppObject *)0x0;
+  local_res10[0] = 0;
   if ((item != (GameProgress_QuestItem_o *)0x0) &&
-     (pSVar2 = (item->fields).Category, pSVar2 != (Settings_StringSetting_o *)0x0)) {
-    pSVar11 = (pSVar2->fields)._value;
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+     (pSVar1 = (item->fields).Category, pSVar1 != (Settings_StringSetting_o *)0x0)) {
+    pSVar7 = (pSVar1->fields)._value;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
     }
-    method_00 = "";
-    unaff_RBX = (UI_QuestCategoryPanel_o *)
-                UI_UIManager__GetLocale
-                          ("QuestItems",pSVar11,(System_String_o *)"",
-                           (System_String_o *)"",(System_String_o *)"",(MethodInfo *)0x0);
-    __this_06 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-    System_Collections_Generic_Dictionary_object__object____ctor(__this_06,MethodInfo_Dictionary_2_System_String_System_String);
-    pSVar3 = (item->fields).Conditions;
-    if ((pSVar3 != (Settings_ListSetting_StringSetting__o *)0x0) &&
-       (__this_00 = (System_Collections_Generic_List_object__o *)(pSVar3->fields)._value,
-       __this_00 != (System_Collections_Generic_List_object__o *)0x0)) {
-      System_Collections_Generic_List_object___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_48,__this_00,MethodInfo_List_1_T_Enumerator_Settings_StringSetting_GetEnumerator);
-      local_58 = local_38;
-      local_68 = (System_Collections_Generic_List_Enumerator_T__c *)local_48._0_8_;
-      pIStack_60 = (Il2CppType *)local_48._8_8_;
-      if (__this_06 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        __this_02.fields._version._2_2_ = uVar17;
-        __this_02.fields._0_14_ = in_stack_ffffffffffffff78;
-        __this_02.fields._current = in_stack_ffffffffffffff88;
-        bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                          (__this_02,(MethodInfo_321A1D0 *)&local_68);
-        if ((char)bVar6 != '\0') goto label_04411677;
+    pSVar7 = UI_UIManager__GetLocale
+                       ("QuestItems",pSVar7,"","",
+                        "",(MethodInfo *)0x0);
+    local_58 = pSVar7;
+    conditionToValue =
+         il2cpp_codegen_object_new
+                   ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+    System_Collections_Generic_Dictionary_object__ProbeReferenceVolume_CellData_PerScenarioData____ctor
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)conditionToValue,
+               (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+    pSVar2 = (item->fields).Conditions;
+    if ((pSVar2 != (Settings_ListSetting_StringSetting__o *)0x0) &&
+       (__this_00 = (pSVar2->fields)._value, __this_00 != (System_Collections_Generic_List_T__o *)0x0)) {
+      local_60 = conditionToValue;
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_90,__this_00,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_StringSetting_GetEnumerator);
+      local_78 = (undefined1  [8])local_90._0_8_;
+      pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90._8_8_;
+      local_68 = local_80;
+      local_90._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+      local_90._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78;
+      while (bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                               ((System_Collections_Generic_List_Enumerator_object__o *)local_78,
+                                (MethodInfo_153A2A0 *)
+                                MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_MoveNext),
+            bVar3) {
+        if (local_68 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        if (local_68[2].klass == (Il2CppClass *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar8 = System_String__Split((System_String_o *)local_68[2].klass,0x3a,0,(MethodInfo *)0x0);
+        if (pSVar8 == (System_String_array *)0x0) {
+          ThrowNullReferenceException();
+        }
+        if ((int)pSVar8->max_length == 0) {
+          ThrowIndexOutOfRangeException();
+        }
+        if ((uint)pSVar8->max_length < 2) {
+          ThrowIndexOutOfRangeException();
+        }
+        if (conditionToValue == (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        System_Collections_Generic_Dictionary_object__object___Add
+                  ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
+                   (Il2CppObject *)pSVar8->m_Items[0],(Il2CppObject *)pSVar8->m_Items[1],
+                   (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
       }
-      else {
-        while (__this_01.fields._version._2_2_ = uVar17, __this_01.fields._0_14_ = in_stack_ffffffffffffff78,
-              __this_01.fields._current = in_stack_ffffffffffffff88,
-              bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (__this_01,(MethodInfo_321A1D0 *)&local_68), (char)bVar6 != '\0') {
-          if (local_58 == (Il2CppObject *)0x0) goto label_04411681;
-          pSVar11 = (System_String_o *)0x0;
-          if (local_58[1].monitor == (System_String_o *)0x0) goto label_04411692;
-          pSVar10 = System_String__Split(local_58[1].monitor,0x3a,0,(MethodInfo *)0x0);
-          if (pSVar10 == (System_String_array *)0x0) goto label_044116b3;
-          iVar1 = (int)pSVar10->max_length;
-          if (iVar1 == 1) goto label_044116c7;
-          if (iVar1 == 0) goto label_044116cf;
-          System_Collections_Generic_Dictionary_object__object___Add
-                    (__this_06,(Il2CppObject *)pSVar10->m_Items[0],(Il2CppObject *)pSVar10->m_Items[1],
-                     MethodInfo_Void_Add);
-        }
-      }
-      __this_03.fields._version._2_2_ = uVar17;
-      __this_03.fields._0_14_ = in_stack_ffffffffffffff78;
-      __this_03.fields._current = in_stack_ffffffffffffff88;
-      System_Collections_Generic_List_Enumerator_object___Dispose(__this_03,(MethodInfo_321A1C0 *)&local_68);
-      while (unaff_RBX == (UI_QuestCategoryPanel_o *)0x0) {
-        il2cpp_runtime_helper_022b2c90();
-label_04411677:
-        pIVar12 = local_58;
-        if (local_58 == (Il2CppObject *)0x0) {
-label_04411681:
-          pIVar12 = (Il2CppObject *)il2cpp_runtime_helper_022b2c90();
-        }
-        pSVar11 = pIVar12[1].monitor;
-        if (pSVar11 == (System_String_o *)0x0) {
-label_04411692:
-          il2cpp_runtime_helper_022b2c90();
-        }
-        pSVar10 = System_String__Split(pSVar11,0x3a,0,(MethodInfo *)0x0);
-        if (pSVar10 == (System_String_array *)0x0) {
-label_044116b3:
-          pSVar10 = (System_String_array *)il2cpp_runtime_helper_022b2c90();
-        }
-        iVar1 = (int)pSVar10->max_length;
-        if (iVar1 == 0) {
-label_044116cf:
-          il2cpp_runtime_helper_022b2ca0();
-        }
-        else if (iVar1 == 1) {
-label_044116c7:
-          il2cpp_runtime_helper_022b2ca0();
-          goto label_044116cf;
-        }
-        auVar16 = il2cpp_runtime_helper_022b2c90();
-        pUVar15 = auVar16._0_8_;
-        if (auVar16._8_4_ != 1) goto label_0441198e;
-        plVar14 = (long *)__cxa_begin_catch(pUVar15);
-        lVar4 = *plVar14;
-        __cxa_end_catch();
-        __this_04.fields._version._2_2_ = uVar17;
-        __this_04.fields._0_14_ = in_stack_ffffffffffffff78;
-        __this_04.fields._current = in_stack_ffffffffffffff88;
-        System_Collections_Generic_List_Enumerator_object___Dispose(__this_04,(MethodInfo_321A1C0 *)&local_68)
-        ;
-        if (lVar4 != 0) {
-          il2cpp_runtime_helper_022fefe0(lVar4);
-          pUVar15 = unaff_RBX;
-label_0441198e:
-          __this_05.fields._version._2_2_ = uVar17;
-          __this_05.fields._0_14_ = in_stack_ffffffffffffff78;
-          __this_05.fields._current = in_stack_ffffffffffffff88;
-          System_Collections_Generic_List_Enumerator_object___Dispose
-                    (__this_05,(MethodInfo_321A1C0 *)&local_68);
-          _Unwind_Resume(pUVar15);
-        }
-      }
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_StringSetting_Dispose);
+      iVar11 = 0;
       str0 = "";
-      if (0 < (int)(unaff_RBX->fields).m_CachedPtr) {
-        index = 0;
-        do {
-          while (pUVar15 = unaff_RBX,
-                uVar5 = System_String__get_Chars((System_String_o *)unaff_RBX,index,(MethodInfo *)0x0),
-                uVar5 == 0x7b) {
-            pSVar11 = UI_QuestCategoryPanel__HandleConditionVariable
-                                (pUVar15,(System_String_o *)unaff_RBX,index,
-                                 (System_Collections_Generic_Dictionary_string__string__o *)__this_06,
-                                 method_00);
-            str0 = (MethodInfo *)
-                   System_String__Concat_3ae5ba0((System_String_o *)str0,pSVar11,(MethodInfo *)0x0);
-            iVar7 = System_String__IndexOf_3afbe50((System_String_o *)unaff_RBX,0x7d,index,(MethodInfo *)0x0);
-            index = iVar7 + 1;
-            if ((int)(unaff_RBX->fields).m_CachedPtr <= (int)index) goto label_044118bd;
-          }
-          uVar5 = System_String__get_Chars((System_String_o *)unaff_RBX,index,(MethodInfo *)0x0);
-          if (uVar5 == 0x5b) {
-            uVar8 = System_String__IndexOf_3afbe50((System_String_o *)unaff_RBX,0x5d,index,(MethodInfo *)0x0);
-            iVar7 = System_String__IndexOf_3afbe50((System_String_o *)unaff_RBX,0x7b,index,(MethodInfo *)0x0);
-            pUVar15 = unaff_RBX;
-            uVar9 = System_String__IndexOf_3afbe50((System_String_o *)unaff_RBX,0x7d,index,(MethodInfo *)0x0);
-            pSVar11 = UI_QuestCategoryPanel__HandleConditionVariable
-                                (pUVar15,(System_String_o *)unaff_RBX,iVar7,
-                                 (System_Collections_Generic_Dictionary_string__string__o *)__this_06,
-                                 method_00);
-            bVar6 = System_String__op_Inequality
-                              (pSVar11,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
+      if (pSVar7 == (System_String_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      while (iVar11 < (pSVar7->fields)._stringLength) {
+        uVar4 = System_String__get_Chars(pSVar7,iVar11,(MethodInfo *)0x0);
+        if (uVar4 == 0x7b) {
+          pSVar9 = UI_QuestCategoryPanel__HandleConditionVariable
+                             (__this,pSVar7,iVar11,conditionToValue,(MethodInfo *)0x0);
+          str0 = System_String__Concat_1969e50(str0,pSVar9,(MethodInfo *)0x0);
+          iVar11 = System_String__IndexOf_196de40(pSVar7,0x7d,iVar11,(MethodInfo *)0x0);
+          iVar11 = iVar11 + 1;
+        }
+        else {
+          uVar4 = System_String__get_Chars(pSVar7,iVar11,(MethodInfo *)0x0);
+          if (uVar4 == 0x5b) {
+            iVar5 = System_String__IndexOf_196de40(pSVar7,0x5d,iVar11,(MethodInfo *)0x0);
+            index = System_String__IndexOf_196de40(pSVar7,0x7b,iVar11,(MethodInfo *)0x0);
+            iVar6 = System_String__IndexOf_196de40(pSVar7,0x7d,iVar11,(MethodInfo *)0x0);
+            pSVar9 = UI_QuestCategoryPanel__HandleConditionVariable
+                               (__this,pSVar7,index,conditionToValue,(MethodInfo *)0x0);
+            bVar3 = System_String__op_Inequality
+                              (pSVar9,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),
                                (MethodInfo *)0x0);
-            if ((char)bVar6 != '\0') {
-              str1 = System_String__Substring_3af8da0
-                               ((System_String_o *)unaff_RBX,index + 1,iVar7 + ~index,(MethodInfo *)0x0);
-              str3 = System_String__Substring_3af8da0
-                               ((System_String_o *)unaff_RBX,uVar9 + 1,uVar8 + ~uVar9,(MethodInfo *)0x0);
-              method_00 = (MethodInfo *)0x0;
-              str0 = (MethodInfo *)
-                     System_String__Concat_3af7470
-                               ((System_String_o *)str0,str1,pSVar11,str3,(MethodInfo *)0x0);
+            if (bVar3) {
+              str1 = System_String__Substring_1972740
+                               (pSVar7,iVar11 + 1,(index - iVar11) + -1,(MethodInfo *)0x0);
+              str3 = System_String__Substring_1972740(pSVar7,iVar6 + 1,(iVar5 - iVar6) + -1,(MethodInfo *)0x0)
+              ;
+              str0 = System_String__Concat_1969590(str0,str1,pSVar9,str3,(MethodInfo *)0x0);
+              iVar11 = iVar5 + 1;
+            }
+            else {
+              iVar11 = iVar5 + 1;
             }
           }
           else {
-            System_String__get_Chars((System_String_o *)unaff_RBX,index,(MethodInfo *)0x0);
-            if (*(int *)(g_data_057b9bf8 + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+            method_00 = (MethodInfo *)0x0;
+            local_res10[0] = System_String__get_Chars(pSVar7,iVar11,(MethodInfo *)0x0);
+            if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init(g_data_184354e48);
             }
-            pSVar11 = System_Char__ToString((uint16_t)&stack0xffffffffffffff86,(MethodInfo *)0x0);
-            str0 = (MethodInfo *)
-                   System_String__Concat_3ae5ba0((System_String_o *)str0,pSVar11,(MethodInfo *)0x0);
-            uVar8 = index;
+            pSVar9 = System_Char__ToString(local_res10,(System_IFormatProvider_o *)0x0,method_00);
+            str0 = System_String__Concat_1969e50(str0,pSVar9,(MethodInfo *)0x0);
+            iVar11 = iVar11 + 1;
           }
-          index = uVar8 + 1;
-        } while ((int)index < (int)(unaff_RBX->fields).m_CachedPtr);
+        }
       }
-label_044118bd:
-      if (((local_50 != (UnityEngine_Transform_o *)0x0) &&
-          (__this_07 = UnityEngine_Transform__Find(local_50,"Panel/Title",(MethodInfo *)0x0),
-          __this_07 != (UnityEngine_Transform_o *)0x0)) &&
-         (pIVar12 = UnityEngine_Component__GetComponent_object_
-                              ((UnityEngine_Component_o *)__this_07,MethodInfo_Text_GetComponent_Text),
-         pIVar12 != (Il2CppObject *)0x0)) {
-        (*pIVar12->klass->vtable[0x4b].methodPtr)(pIVar12,str0,pIVar12->klass->vtable[0x4b].method);
+      if (((local_res18 != (UnityEngine_Transform_o *)0x0) &&
+          (__this_01 = UnityEngine_Transform__Find(local_res18,"Panel/Title",(MethodInfo *)0x0),
+          __this_01 != (UnityEngine_Transform_o *)0x0)) &&
+         (pUVar10 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)__this_01,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text),
+         pUVar10 != (UnityEngine_UI_Text_o *)0x0)) {
+        (*(pUVar10->klass->vtable)._75_set_text.methodPtr)
+                  (pUVar10,str0,(pUVar10->klass->vtable)._75_set_text.method);
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  puVar13 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar13 = unaff_RBX->klass;
-  __cxa_throw(puVar13,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // UI.QuestCategoryPanel$$HandleConditionVariable
 // il2cpp: System_String_o* UI_QuestCategoryPanel__HandleConditionVariable (UI_QuestCategoryPanel_o* __this, System_String_o* locale, int32_t index, System_Collections_Generic_Dictionary_string__string__o* conditionToValue, const MethodInfo* method);
-// 0x4411f60
+// 0x182298790
 
 System_String_o *
 UI_QuestCategoryPanel__HandleConditionVariable
@@ -1102,136 +952,66 @@ UI_QuestCategoryPanel__HandleConditionVariable
           System_Collections_Generic_Dictionary_string__string__o *conditionToValue,MethodInfo *method)
 
 {
-  void *pvVar1;
-  long lVar2;
-  int32_t iVar3;
-  bool_conflict bVar4;
-  System_String_o *pSVar5;
-  System_String_o *pSVar6;
-  UI_ElementStyle_o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
-  Il2CppObject *pIVar7;
-  UI_CategoryPanel_o *__this_02;
-  System_String_o *extraout_RAX;
-  System_String_o *extraout_RAX_00;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *method_00;
-  UI_BasePanel_o *parent;
-  System_String_o **ppSVar8;
-  UnityEngine_Color_o UVar9;
+  bool bVar1;
+  int32_t iVar2;
+  System_String_o *pSVar3;
+  System_String_o *pSVar4;
   
-  parent = (UI_BasePanel_o *)locale;
-  if (g_data_057ae5ec == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"QuestItems");
-    il2cpp_runtime_helper_023445d0(&"Error");
-    il2cpp_runtime_helper_023445d0(&"");
-    ppSVar8 = &".";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae5ec = '\x01';
-    __this = (UI_QuestCategoryPanel_o *)ppSVar8;
+  if (Il2CppMethodInitialized_18434747a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"QuestItems");
+    il2cpp_codegen_initialize_runtime_metadata(&"Error");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&".");
+    Il2CppMethodInitialized_18434747a = '\x01';
   }
   if (locale != (System_String_o *)0x0) {
-    iVar3 = System_String__IndexOf_3afbe50(locale,0x7d,index,(MethodInfo *)0x0);
-    parent = (UI_BasePanel_o *)(ulong)(index + 1U);
-    pSVar5 = System_String__Substring_3af8da0(locale,index + 1U,~index + iVar3,(MethodInfo *)0x0);
-    __this = (UI_QuestCategoryPanel_o *)locale;
+    iVar2 = System_String__IndexOf_196de40(locale,0x7d,index,(MethodInfo *)0x0);
+    pSVar3 = System_String__Substring_1972740(locale,index + 1,(iVar2 - index) + -1,(MethodInfo *)0x0);
     if (conditionToValue != (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
-      bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
-                         (Il2CppObject *)pSVar5,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar4 == '\0') {
-        pSVar6 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+      bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)conditionToValue,
+                         (Il2CppObject *)pSVar3,
+                         (MethodInfo_1455450 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_string_ContainsKey);
+      if (!bVar1) {
+        return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
       }
-      else {
-        pSVar6 = (System_String_o *)
-                 System_Collections_Generic_Dictionary_object__object___get_Item
-                           ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
-                            (Il2CppObject *)pSVar5,MethodInfo_String_get_Item);
-        pSVar6 = System_String__Concat_3af7150(pSVar5,".",pSVar6,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar6 = UI_UIManager__GetLocale
-                           ("QuestItems",pSVar6,"","","Error",(MethodInfo *)0x0);
-        bVar4 = System_String__op_Equality(pSVar6,"Error",(MethodInfo *)0x0);
-        if ((char)bVar4 != '\0') {
-          pSVar5 = (System_String_o *)
-                   System_Collections_Generic_Dictionary_object__object___get_Item
-                             ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
-                              (Il2CppObject *)pSVar5,MethodInfo_String_get_Item);
-          return pSVar5;
-        }
+      pSVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
+                          (Il2CppObject *)pSVar3,
+                          (MethodInfo_147A5B0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+      pSVar4 = System_String__Concat_1969b70(pSVar3,".",pSVar4,(MethodInfo *)0x0);
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
       }
-      return pSVar6;
+      pSVar4 = UI_UIManager__GetLocale
+                         ("QuestItems",pSVar4,"","",
+                          "Error",(MethodInfo *)0x0);
+      bVar1 = System_String__op_Equality(pSVar4,"Error",(MethodInfo *)0x0);
+      if (!bVar1) {
+        return pSVar4;
+      }
+      pSVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         ((System_Collections_Generic_Dictionary_object__object__o *)conditionToValue,
+                          (Il2CppObject *)pSVar3,
+                          (MethodInfo_147A5B0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+      return pSVar3;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae5ee == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameProgressManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_QuestHandler);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_GameProgress_QuestItem_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    il2cpp_runtime_helper_023445d0(&"ResetTextColor");
-    il2cpp_runtime_helper_023445d0(&"QuestHeader");
-    g_data_057ae5ee = '\x01';
-  }
-  UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
-  __this_02 = (UI_CategoryPanel_o *)(__this->fields).SinglePanel;
-  pSVar5 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(__this_00,0x18,120.0,20.0,pSVar5,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_QuestHandler + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar5 = GameProgress_QuestHandler__GetTimeToQuestReset(1,(MethodInfo *)0x0);
-  __this_01 = UI_ElementFactory__CreateDefaultLabel
-                        ((UnityEngine_Transform_o *)__this_02,__this_00,pSVar5,0,3,(MethodInfo *)0x0);
-  if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-    pIVar7 = UnityEngine_GameObject__GetComponent_object_(__this_01,MethodInfo_Text_GetComponent_Text);
-    __this_02 = (UI_CategoryPanel_o *)
-                (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                          (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    UVar9 = UI_UIManager__GetThemeColor
-                      ((System_String_o *)__this_02,"QuestHeader","ResetTextColor","DefaultPanel",(MethodInfo *)0x0);
-    if (pIVar7 != (Il2CppObject *)0x0) {
-      (*pIVar7->klass->vtable[0x17].methodPtr)(UVar9.fields._0_8_,UVar9.fields._8_8_,pIVar7);
-      method_00 = extraout_RDX;
-      if (*(int *)((long)&TypeInfo_GameProgressManager[2].fields.m_CachedPtr + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        method_00 = extraout_RDX_00;
-      }
-      pvVar1 = (TypeInfo_GameProgressManager[1].fields._categoryPanelTypes)->monitor;
-      __this_02 = TypeInfo_GameProgressManager;
-      if (((pvVar1 != (void *)0x0) && (lVar2 = *(long *)((long)pvVar1 + 0x28), lVar2 != 0)) &&
-         (lVar2 = *(long *)(lVar2 + 0x20), lVar2 != 0)) {
-        UI_QuestCategoryPanel__CreateQuestItems
-                  (__this,*(System_Collections_Generic_List_QuestItem__o **)(lVar2 + 0x18),method_00);
-        return extraout_RAX;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  __this_02[1].klass = (UI_CategoryPanel_c *)0x42c80000446b0000;
-  UI_CategoryPanel___ctor(__this_02,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // UI.QuestCategoryPanel$$SetProgress
 // il2cpp: void UI_QuestCategoryPanel__SetProgress (UI_QuestCategoryPanel_o* __this, GameProgress_QuestItem_o* item, UnityEngine_Transform_o* panel, const MethodInfo* method);
-// 0x4411db0
+// 0x182298940
 
 void UI_QuestCategoryPanel__SetProgress
                (UI_QuestCategoryPanel_o *__this,GameProgress_QuestItem_o *item,UnityEngine_Transform_o *panel,
@@ -1239,221 +1019,77 @@ void UI_QuestCategoryPanel__SetProgress
 
 {
   Settings_IntSetting_o *pSVar1;
-  void *pvVar2;
-  long lVar3;
-  Il2CppClass_1 *pIVar4;
-  int32_t iVar5;
-  bool_conflict bVar6;
-  UI_QuestCategoryPanel_o *pUVar7;
-  Il2CppObject *pIVar8;
-  System_String_o *pSVar9;
-  System_String_o *pSVar10;
-  UI_ElementStyle_o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
-  UI_CategoryPanel_o *__this_02;
-  UI_QuestCategoryPanel_o **__this_03;
-  uint startIndex;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *method_00;
-  UI_QuestCategoryPanel_o *__this_04;
-  UI_QuestCategoryPanel_o **ppUVar11;
-  System_String_o **__this_05;
-  undefined4 extraout_XMM0_Db;
-  UnityEngine_Color_o UVar12;
-  int32_t local_1c;
+  Settings_IntSetting_o *pSVar2;
+  UnityEngine_Transform_o *pUVar3;
+  UnityEngine_UI_Slider_o *pUVar4;
+  UnityEngine_UI_Text_o *pUVar5;
+  System_String_o *pSVar6;
+  System_String_o *str2;
+  int32_t local_res18 [4];
   
-  __this_03 = (UI_QuestCategoryPanel_o **)method;
-  __this_04 = (UI_QuestCategoryPanel_o *)item;
-  if (g_data_057ae5ed == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Slider_GetComponent_Slider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"Panel/ProgressLabel");
-    il2cpp_runtime_helper_023445d0(&" / ");
-    ppUVar11 = &"Panel/ProgressBar";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae5ed = '\x01';
-    __this_03 = (UI_QuestCategoryPanel_o **)method;
-    __this = (UI_QuestCategoryPanel_o *)ppUVar11;
+  if (Il2CppMethodInitialized_18434747b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Slider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressLabel");
+    il2cpp_codegen_initialize_runtime_metadata(&" / ");
+    il2cpp_codegen_initialize_runtime_metadata(&"Panel/ProgressBar");
+    Il2CppMethodInitialized_18434747b = '\x01';
   }
-  local_1c = 0;
-  __this_05 = (System_String_o **)__this;
-  if ((panel != (UnityEngine_Transform_o *)0x0) &&
-     (__this_04 = "Panel/ProgressBar", __this_05 = (System_String_o **)panel,
-     pUVar7 = (UI_QuestCategoryPanel_o *)
-              UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/ProgressBar",(MethodInfo *)0x0),
-     pUVar7 != (UI_QuestCategoryPanel_o *)0x0)) {
-    __this_03 = &MethodInfo_Slider_GetComponent_Slider;
-    __this_04 = MethodInfo_Slider_GetComponent_Slider;
-    pIVar8 = UnityEngine_Component__GetComponent_object_
-                       ((UnityEngine_Component_o *)pUVar7,(MethodInfo_24E7B40 *)MethodInfo_Slider_GetComponent_Slider);
-    __this_05 = (System_String_o **)pUVar7;
-    if ((item != (GameProgress_QuestItem_o *)0x0) &&
-       (((__this_03 = (UI_QuestCategoryPanel_o **)(item->fields).Progress,
-         (Il2CppClass *)__this_03 != (Il2CppClass *)0x0 &&
-         (pSVar1 = (item->fields).Amount, pSVar1 != (Settings_IntSetting_o *)0x0)) &&
-        (pIVar8 != (Il2CppObject *)0x0)))) {
-      pIVar4 = &((Il2CppClass *)__this_03)->_1;
-      __this_03 = (UI_QuestCategoryPanel_o **)pIVar8->klass;
-      (*((Il2CppClass *)__this_03)->vtable[0x2f].methodPtr)
-                (CONCAT44(extraout_XMM0_Db,
-                          (float)*(int *)((long)&pIVar4->name + 4) / (float)(pSVar1->fields)._value),pIVar8,
-                 ((Il2CppClass *)__this_03)->vtable[0x2f].method);
-      __this_04 = "Panel/ProgressLabel";
-      pUVar7 = (UI_QuestCategoryPanel_o *)
-               UnityEngine_Transform__Find(panel,(System_String_o *)"Panel/ProgressLabel",(MethodInfo *)0x0);
-      __this_05 = (System_String_o **)panel;
-      if (pUVar7 != (UI_QuestCategoryPanel_o *)0x0) {
-        __this_03 = &MethodInfo_Text_GetComponent_Text;
-        __this_04 = MethodInfo_Text_GetComponent_Text;
-        pIVar8 = UnityEngine_Component__GetComponent_object_
-                           ((UnityEngine_Component_o *)pUVar7,(MethodInfo_24E7B40 *)MethodInfo_Text_GetComponent_Text);
-        pSVar1 = (item->fields).Progress;
-        __this_05 = (System_String_o **)pUVar7;
-        if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-          local_1c = (pSVar1->fields)._value;
-          __this_05 = (System_String_o **)&stack0xffffffffffffffe4;
-          __this_04 = (UI_QuestCategoryPanel_o *)0x0;
-          pUVar7 = (UI_QuestCategoryPanel_o *)System_Int32__ToString((int32_t)__this_05,(MethodInfo *)0x0);
-          pSVar1 = (item->fields).Amount;
+  local_res18[0] = 0;
+  if (panel != (UnityEngine_Transform_o *)0x0) {
+    pUVar3 = UnityEngine_Transform__Find(panel,"Panel/ProgressBar",(MethodInfo *)0x0);
+    if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+      pUVar4 = UnityEngine_Component__GetComponent_object_
+                         ((UnityEngine_Component_o *)pUVar3,
+                          (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Slider);
+      if ((((item != (GameProgress_QuestItem_o *)0x0) &&
+           (pSVar1 = (item->fields).Progress, pSVar1 != (Settings_IntSetting_o *)0x0)) &&
+          (pSVar2 = (item->fields).Amount, pSVar2 != (Settings_IntSetting_o *)0x0)) &&
+         (pUVar4 != (UnityEngine_UI_Slider_o *)0x0)) {
+        (*(pUVar4->klass->vtable)._47_set_value.methodPtr)
+                  (pUVar4,(float)(pSVar1->fields)._value / (float)(pSVar2->fields)._value,
+                   (pUVar4->klass->vtable)._47_set_value.method);
+        pUVar3 = UnityEngine_Transform__Find(panel,"Panel/ProgressLabel",(MethodInfo *)0x0);
+        if (pUVar3 != (UnityEngine_Transform_o *)0x0) {
+          pUVar5 = UnityEngine_Component__GetComponent_object_
+                             ((UnityEngine_Component_o *)pUVar3,
+                              (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Text);
+          pSVar1 = (item->fields).Progress;
           if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-            local_1c = (pSVar1->fields)._value;
-            pSVar9 = System_Int32__ToString((int32_t)&stack0xffffffffffffffe4,(MethodInfo *)0x0);
-            __this_03 = (UI_QuestCategoryPanel_o **)0x0;
-            __this_04 = " / ";
-            pSVar9 = System_String__Concat_3af7150
-                               ((System_String_o *)pUVar7,(System_String_o *)" / ",pSVar9,
-                                (MethodInfo *)0x0);
-            __this_05 = (System_String_o **)pUVar7;
-            if (pIVar8 != (Il2CppObject *)0x0) {
-              (*pIVar8->klass->vtable[0x4b].methodPtr)(pIVar8,pSVar9,pIVar8->klass->vtable[0x4b].method);
-              return;
+            local_res18[0] = (pSVar1->fields)._value;
+            pSVar6 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+            pSVar1 = (item->fields).Amount;
+            if (pSVar1 != (Settings_IntSetting_o *)0x0) {
+              local_res18[0] = (pSVar1->fields)._value;
+              str2 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+              pSVar6 = System_String__Concat_1969b70(pSVar6," / ",str2,(MethodInfo *)0x0);
+              if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
+                (*(pUVar5->klass->vtable)._75_set_text.methodPtr)
+                          (pUVar5,pSVar6,(pUVar5->klass->vtable)._75_set_text.method);
+                return;
+              }
             }
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar7 = __this_04;
-  if (g_data_057ae5ec == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"QuestItems");
-    il2cpp_runtime_helper_023445d0(&"Error");
-    il2cpp_runtime_helper_023445d0(&"");
-    __this_05 = &".";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae5ec = '\x01';
-  }
-  if (__this_04 != (UI_QuestCategoryPanel_o *)0x0) {
-    iVar5 = System_String__IndexOf_3afbe50((System_String_o *)__this_04,0x7d,startIndex,(MethodInfo *)0x0);
-    pUVar7 = (UI_QuestCategoryPanel_o *)(ulong)(startIndex + 1);
-    pSVar9 = System_String__Substring_3af8da0
-                       ((System_String_o *)__this_04,startIndex + 1,~startIndex + iVar5,(MethodInfo *)0x0);
-    __this_05 = (System_String_o **)__this_04;
-    if ((Il2CppClass *)__this_03 != (Il2CppClass *)0x0) {
-      bVar6 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)__this_03,
-                         (Il2CppObject *)pSVar9,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar6 != '\0') {
-        pSVar10 = (System_String_o *)
-                  System_Collections_Generic_Dictionary_object__object___get_Item
-                            ((System_Collections_Generic_Dictionary_object__object__o *)__this_03,
-                             (Il2CppObject *)pSVar9,MethodInfo_String_get_Item);
-        pSVar10 = System_String__Concat_3af7150(pSVar9,".",pSVar10,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar10 = UI_UIManager__GetLocale
-                            ("QuestItems",pSVar10,"","","Error",(MethodInfo *)0x0);
-        bVar6 = System_String__op_Equality(pSVar10,"Error",(MethodInfo *)0x0);
-        if ((char)bVar6 != '\0') {
-          System_Collections_Generic_Dictionary_object__object___get_Item
-                    ((System_Collections_Generic_Dictionary_object__object__o *)__this_03,
-                     (Il2CppObject *)pSVar9,MethodInfo_String_get_Item);
-          return;
-        }
-      }
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae5ee == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameProgressManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_QuestHandler);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_GameProgress_QuestItem_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    il2cpp_runtime_helper_023445d0(&"ResetTextColor");
-    il2cpp_runtime_helper_023445d0(&"QuestHeader");
-    g_data_057ae5ee = '\x01';
-  }
-  UI_BasePanel__Setup((UI_BasePanel_o *)__this_05,(UI_BasePanel_o *)pUVar7,(MethodInfo *)0x0);
-  __this_02 = (UI_CategoryPanel_o *)(((UI_QuestCategoryPanel_o *)__this_05)->fields).SinglePanel;
-  pSVar9 = (System_String_o *)
-           (*(((UI_QuestCategoryPanel_o *)__this_05)->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this_05,
-                      (((UI_QuestCategoryPanel_o *)__this_05)->klass->vtable)._4_get_ThemePanel.method);
-  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(__this_00,0x18,120.0,20.0,pSVar9,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_QuestHandler + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar9 = GameProgress_QuestHandler__GetTimeToQuestReset(1,(MethodInfo *)0x0);
-  __this_01 = UI_ElementFactory__CreateDefaultLabel
-                        ((UnityEngine_Transform_o *)__this_02,__this_00,pSVar9,0,3,(MethodInfo *)0x0);
-  if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-    pIVar8 = UnityEngine_GameObject__GetComponent_object_(__this_01,MethodInfo_Text_GetComponent_Text);
-    __this_02 = (UI_CategoryPanel_o *)
-                (*(((UI_QuestCategoryPanel_o *)__this_05)->klass->vtable)._4_get_ThemePanel.methodPtr)
-                          (__this_05,
-                           (((UI_QuestCategoryPanel_o *)__this_05)->klass->vtable)._4_get_ThemePanel.method);
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    UVar12 = UI_UIManager__GetThemeColor
-                       ((System_String_o *)__this_02,"QuestHeader","ResetTextColor","DefaultPanel",(MethodInfo *)0x0)
-    ;
-    if (pIVar8 != (Il2CppObject *)0x0) {
-      (*pIVar8->klass->vtable[0x17].methodPtr)(UVar12.fields._0_8_,UVar12.fields._8_8_,pIVar8);
-      method_00 = extraout_RDX;
-      if (*(int *)((long)&TypeInfo_GameProgressManager[2].fields.m_CachedPtr + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        method_00 = extraout_RDX_00;
-      }
-      pvVar2 = (TypeInfo_GameProgressManager[1].fields._categoryPanelTypes)->monitor;
-      __this_02 = TypeInfo_GameProgressManager;
-      if (((pvVar2 != (void *)0x0) && (lVar3 = *(long *)((long)pvVar2 + 0x28), lVar3 != 0)) &&
-         (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) {
-        UI_QuestCategoryPanel__CreateQuestItems
-                  ((UI_QuestCategoryPanel_o *)__this_05,
-                   *(System_Collections_Generic_List_QuestItem__o **)(lVar3 + 0x18),method_00);
-        return;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  __this_02[1].klass = (UI_CategoryPanel_c *)0x42c80000446b0000;
-  UI_CategoryPanel___ctor(__this_02,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.QuestCategoryPanel$$.ctor
 // il2cpp: void UI_QuestCategoryPanel___ctor (UI_QuestCategoryPanel_o* __this, const MethodInfo* method);
-// 0x44111b0
+// 0x182297a80
 
-void UI_QuestCategoryPanel___ctor(UI_QuestCategoryPanel_o *__this,MethodInfo *method)
+void
+UI_QuestCategoryPanel___ctor(UI_QuestCategoryPanel_o* __this, MethodInfo* method)
 
 {
   (__this->fields).QuestItemWidth = 940.0;
   (__this->fields).QuestItemHeight = 100.0;
-  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
+  UI_CategoryPanel___ctor((UI_TopLeftHUD_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

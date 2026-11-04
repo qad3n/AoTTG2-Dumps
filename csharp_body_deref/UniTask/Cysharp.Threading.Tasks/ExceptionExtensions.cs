@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200002D")]
 public static class ExceptionExtensions
 {
-	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x49D5990", Offset = "0x49D5990", VA = "0x49D5990")]
+	[Token(Token = "0x6000107")]
+	[Address(RVA = "0x290DD70", Offset = "0x290C370", VA = "0x18290DD70")]
 	public static bool IsOperationCanceledException(this Exception exception)
 	{
 		return default(bool);

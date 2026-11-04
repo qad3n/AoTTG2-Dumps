@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x200017B")]
 public enum TypesMatching
 {
-	[Token(Token = "0x4000891")]
+	[Token(Token = "0x40008AC")]
 	ConvertibleToAny,
-	[Token(Token = "0x4000892")]
+	[Token(Token = "0x40008AD")]
 	AssignableToAll,
-	[Token(Token = "0x4000893")]
+	[Token(Token = "0x40008AE")]
 	Any
 }

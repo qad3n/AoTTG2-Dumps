@@ -12,71 +12,71 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000797")]
+[Token(Token = "0x2000922")]
 internal class VoiceChatManager : MonoBehaviour
 {
-	[Token(Token = "0x40024BD")]
+	[Token(Token = "0x4002D8B")]
 	[FieldOffset(Offset = "0x0")]
 	private static VoiceChatManager _instance;
 
-	[Token(Token = "0x40024BE")]
+	[Token(Token = "0x4002D8C")]
 	[FieldOffset(Offset = "0x8")]
 	public static PunVoiceClient Client;
 
-	[Token(Token = "0x40024BF")]
+	[Token(Token = "0x4002D8D")]
 	[FieldOffset(Offset = "0x10")]
 	public static float ProximitySpatialBlend;
 
-	[Token(Token = "0x17000E0D")]
+	[Token(Token = "0x17000F70")]
 	public static string[] MicrophoneDevices
 	{
-		[Token(Token = "0x6004957")]
-		[Address(RVA = "0x43C16A0", Offset = "0x43C16A0", VA = "0x43C16A0")]
+		[Token(Token = "0x60055CF")]
+		[Address(RVA = "0x2377760", Offset = "0x2375D60", VA = "0x182377760")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000E0E")]
+	[Token(Token = "0x17000F71")]
 	public static string DefaultDevice
 	{
-		[Token(Token = "0x6004958")]
-		[Address(RVA = "0x43C1770", Offset = "0x43C1770", VA = "0x43C1770")]
+		[Token(Token = "0x60055D0")]
+		[Address(RVA = "0x2377690", Offset = "0x2375C90", VA = "0x182377690")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004959")]
-	[Address(RVA = "0x43C1830", Offset = "0x43C1830", VA = "0x43C1830")]
+	[Token(Token = "0x60055D1")]
+	[Address(RVA = "0x2377520", Offset = "0x2375B20", VA = "0x182377520")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600495A")]
-	[Address(RVA = "0x43B7AE0", Offset = "0x43B7AE0", VA = "0x43B7AE0")]
+	[Token(Token = "0x60055D2")]
+	[Address(RVA = "0x2377020", Offset = "0x2375620", VA = "0x182377020")]
 	public static void ApplySoundSettings()
 	{
 	}
 
-	[Token(Token = "0x600495B")]
-	[Address(RVA = "0x43C1940", Offset = "0x43C1940", VA = "0x43C1940")]
+	[Token(Token = "0x60055D3")]
+	[Address(RVA = "0x2377260", Offset = "0x2375860", VA = "0x182377260")]
 	public static float GetInputVolume()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600495C")]
-	[Address(RVA = "0x43C19E0", Offset = "0x43C19E0", VA = "0x43C19E0")]
+	[Token(Token = "0x60055D4")]
+	[Address(RVA = "0x2377320", Offset = "0x2375920", VA = "0x182377320")]
 	public static float GetOuputVolume(PhotonView view)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600495D")]
-	[Address(RVA = "0x43C1BB0", Offset = "0x43C1BB0", VA = "0x43C1BB0")]
+	[Token(Token = "0x60055D5")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public VoiceChatManager()
 	{
 	}

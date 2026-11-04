@@ -25,7 +25,7 @@ internal class KSStruct
 	public LocatedActiveAxis[] fields;
 
 	[Token(Token = "0x6000FA7")]
-	[Address(RVA = "0x4843E70", Offset = "0x4843E70", VA = "0x4843E70")]
+	[Address(RVA = "0x277E7A0", Offset = "0x277CDA0", VA = "0x18277E7A0")]
 	public KSStruct(KeySequence ks, int dim)
 	{
 	}

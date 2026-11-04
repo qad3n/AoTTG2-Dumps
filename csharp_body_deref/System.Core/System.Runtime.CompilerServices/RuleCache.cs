@@ -24,28 +24,28 @@ public class RuleCache<T> where T : class
 	[FieldOffset(Offset = "0x0")]
 	private readonly object _cacheLock;
 
-	[Token(Token = "0x6000B9A")]
+	[Token(Token = "0x6000B99")]
 	internal RuleCache()
 	{
 	}
 
-	[Token(Token = "0x6000B9B")]
+	[Token(Token = "0x6000B9A")]
 	internal T[] GetRules()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B9C")]
+	[Token(Token = "0x6000B9B")]
 	internal void MoveRule(T rule, int i)
 	{
 	}
 
-	[Token(Token = "0x6000B9D")]
+	[Token(Token = "0x6000B9C")]
 	internal void AddRule(T newRule)
 	{
 	}
 
-	[Token(Token = "0x6000B9E")]
+	[Token(Token = "0x6000B9D")]
 	private static T[] AddOrInsert(T[] rules, T item)
 	{
 		return null;

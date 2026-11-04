@@ -20,7 +20,7 @@ internal static class WebRequestUtils
 	private static Regex domainRegex;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x5104690", Offset = "0x5104690", VA = "0x5104690")]
+	[Address(RVA = "0x330F220", Offset = "0x330D820", VA = "0x18330F220")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static string RedirectTo(string baseUri, string redirectUri)
 	{
@@ -28,21 +28,21 @@ internal static class WebRequestUtils
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x5104770", Offset = "0x5104770", VA = "0x5104770")]
+	[Address(RVA = "0x330EB10", Offset = "0x330D110", VA = "0x18330EB10")]
 	internal static string MakeInitialUrl(string targetUrl, string localUrl)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x5104B30", Offset = "0x5104B30", VA = "0x5104B30")]
+	[Address(RVA = "0x330EE00", Offset = "0x330D400", VA = "0x18330EE00")]
 	internal static string MakeUriString(Uri targetUri, string targetUrl, bool prependProtocol)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x5104ED0", Offset = "0x5104ED0", VA = "0x5104ED0")]
+	[Address(RVA = "0x330F320", Offset = "0x330D920", VA = "0x18330F320")]
 	private static string URLDecode(string encoded)
 	{
 		return null;

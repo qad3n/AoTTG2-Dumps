@@ -11,52 +11,52 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001DE")]
+[Token(Token = "0x20001E8")]
 public class fsDictionaryConverter : fsConverter
 {
-	[Token(Token = "0x6001171")]
-	[Address(RVA = "0x4D6A3E0", Offset = "0x4D6A3E0", VA = "0x4D6A3E0", Slot = "9")]
+	[Token(Token = "0x60011A5")]
+	[Address(RVA = "0x2E612A0", Offset = "0x2E5F8A0", VA = "0x182E612A0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001172")]
-	[Address(RVA = "0x4D6A460", Offset = "0x4D6A460", VA = "0x4D6A460", Slot = "4")]
+	[Token(Token = "0x60011A6")]
+	[Address(RVA = "0x2E61320", Offset = "0x2E5F920", VA = "0x182E61320", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001173")]
-	[Address(RVA = "0x4D6A4E0", Offset = "0x4D6A4E0", VA = "0x4D6A4E0", Slot = "8")]
+	[Token(Token = "0x60011A7")]
+	[Address(RVA = "0x2E614D0", Offset = "0x2E5FAD0", VA = "0x182E614D0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance_, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001174")]
-	[Address(RVA = "0x4D6BB50", Offset = "0x4D6BB50", VA = "0x4D6BB50", Slot = "7")]
+	[Token(Token = "0x60011A8")]
+	[Address(RVA = "0x2E61E90", Offset = "0x2E60490", VA = "0x182E61E90", Slot = "7")]
 	public override fsResult TrySerialize(object instance_, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001175")]
-	[Address(RVA = "0x4D6B330", Offset = "0x4D6B330", VA = "0x4D6B330")]
+	[Token(Token = "0x60011A9")]
+	[Address(RVA = "0x2E60EC0", Offset = "0x2E5F4C0", VA = "0x182E60EC0")]
 	private fsResult AddItemToDictionary(IDictionary dictionary, object key, object value)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001176")]
-	[Address(RVA = "0x4D6B130", Offset = "0x4D6B130", VA = "0x4D6B130")]
+	[Token(Token = "0x60011AA")]
+	[Address(RVA = "0x2E613A0", Offset = "0x2E5F9A0", VA = "0x182E613A0")]
 	private static void GetKeyValueTypes(Type dictionaryType, out Type keyStorageType, out Type valueStorageType)
 	{
 	}
 
-	[Token(Token = "0x6001177")]
-	[Address(RVA = "0x4D6C9E0", Offset = "0x4D6C9E0", VA = "0x4D6C9E0")]
+	[Token(Token = "0x60011AB")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public fsDictionaryConverter()
 	{
 	}

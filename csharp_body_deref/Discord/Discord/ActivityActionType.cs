@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000029")]
+[Token(Token = "0x2000027")]
 public enum ActivityActionType
 {
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x400005E")]
 	Join = 1,
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x400005F")]
 	Spectate
 }

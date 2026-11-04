@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x2000028")]
 [Flags]
 public enum ClearFlag
 {
-	[Token(Token = "0x40001AD")]
+	[Token(Token = "0x40000B0")]
 	None = 0,
-	[Token(Token = "0x40001AE")]
+	[Token(Token = "0x40000B1")]
 	Color = 1,
-	[Token(Token = "0x40001AF")]
+	[Token(Token = "0x40000B2")]
 	Depth = 2,
-	[Token(Token = "0x40001B0")]
+	[Token(Token = "0x40000B3")]
 	Stencil = 4,
-	[Token(Token = "0x40001B1")]
-	DepthStencil = 6,
-	[Token(Token = "0x40001B2")]
-	ColorStencil = 5,
-	[Token(Token = "0x40001B3")]
-	All = 7
+	[Token(Token = "0x40000B4")]
+	DepthStencil = Depth | Stencil,
+	[Token(Token = "0x40000B5")]
+	ColorStencil = Color | Stencil,
+	[Token(Token = "0x40000B6")]
+	All = DepthStencil | Color
 }

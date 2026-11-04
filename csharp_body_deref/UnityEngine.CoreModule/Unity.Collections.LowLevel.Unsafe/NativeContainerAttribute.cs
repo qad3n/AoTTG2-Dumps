@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x2000056")]
-[AttributeUsage(AttributeTargets.Struct)]
+[Token(Token = "0x200006A")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Struct)]
 public sealed class NativeContainerAttribute : Attribute
 {
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x4DAD830", Offset = "0x4DAD830", VA = "0x4DAD830")]
+	[Token(Token = "0x600014F")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeContainerAttribute()
 	{
 	}

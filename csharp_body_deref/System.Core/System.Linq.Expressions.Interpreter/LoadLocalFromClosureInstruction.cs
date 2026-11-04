@@ -15,8 +15,8 @@ internal sealed class LoadLocalFromClosureInstruction : LocalAccessInstruction
 	[Token(Token = "0x170001D9")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000957")]
-		[Address(RVA = "0x44F5F30", Offset = "0x44F5F30", VA = "0x44F5F30", Slot = "5")]
+		[Token(Token = "0x6000956")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -26,22 +26,22 @@ internal sealed class LoadLocalFromClosureInstruction : LocalAccessInstruction
 	[Token(Token = "0x170001DA")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000958")]
-		[Address(RVA = "0x44F5F40", Offset = "0x44F5F40", VA = "0x44F5F40", Slot = "9")]
+		[Token(Token = "0x6000957")]
+		[Address(RVA = "0x2472B80", Offset = "0x2471180", VA = "0x182472B80", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x44F5F10", Offset = "0x44F5F10", VA = "0x44F5F10")]
+	[Token(Token = "0x6000955")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	internal LoadLocalFromClosureInstruction(int index)
 	{
 	}
 
-	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x44F5F70", Offset = "0x44F5F70", VA = "0x44F5F70", Slot = "8")]
+	[Token(Token = "0x6000958")]
+	[Address(RVA = "0x2472A90", Offset = "0x2471090", VA = "0x182472A90", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

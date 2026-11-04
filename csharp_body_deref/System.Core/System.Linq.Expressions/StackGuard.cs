@@ -16,26 +16,26 @@ internal sealed class StackGuard
 	[FieldOffset(Offset = "0x10")]
 	private int _executionStackCount;
 
-	[Token(Token = "0x60004DB")]
-	[Address(RVA = "0x44C0150", Offset = "0x44C0150", VA = "0x44C0150")]
+	[Token(Token = "0x60004DA")]
+	[Address(RVA = "0x243F220", Offset = "0x243D820", VA = "0x18243F220")]
 	public bool TryEnterOnCurrentStack()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004DC")]
+	[Token(Token = "0x60004DB")]
 	public void RunOnEmptyStack<T1, T2>(Action<T1, T2> action, T1 arg1, T2 arg2)
 	{
 	}
 
-	[Token(Token = "0x60004DD")]
+	[Token(Token = "0x60004DC")]
 	private R RunOnEmptyStackCore<R>(Func<object, R> action, object state)
 	{
 		return (R)null;
 	}
 
-	[Token(Token = "0x60004DE")]
-	[Address(RVA = "0x44C01B0", Offset = "0x44C01B0", VA = "0x44C01B0")]
+	[Token(Token = "0x60004DD")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public StackGuard()
 	{
 	}

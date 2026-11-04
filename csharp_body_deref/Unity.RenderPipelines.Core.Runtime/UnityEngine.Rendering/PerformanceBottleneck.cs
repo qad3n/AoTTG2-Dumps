@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000F1")]
+[Token(Token = "0x20000C7")]
 internal enum PerformanceBottleneck
 {
-	[Token(Token = "0x4000344")]
+	[Token(Token = "0x400028F")]
 	Indeterminate,
-	[Token(Token = "0x4000345")]
+	[Token(Token = "0x4000290")]
 	PresentLimited,
-	[Token(Token = "0x4000346")]
+	[Token(Token = "0x4000291")]
 	CPU,
-	[Token(Token = "0x4000347")]
+	[Token(Token = "0x4000292")]
 	GPU,
-	[Token(Token = "0x4000348")]
+	[Token(Token = "0x4000293")]
 	Balanced
 }

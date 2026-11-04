@@ -10,17 +10,17 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x200002B")]
 public class EventSystemSpawner : MonoBehaviour
 {
-	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x3F0D160", Offset = "0x3F0D160", VA = "0x3F0D160")]
+	[Token(Token = "0x60000F3")]
+	[Address(RVA = "0x1D52F90", Offset = "0x1D51590", VA = "0x181D52F90")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x3F0D250", Offset = "0x3F0D250", VA = "0x3F0D250")]
+	[Token(Token = "0x60000F4")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public EventSystemSpawner()
 	{
 	}

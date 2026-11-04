@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000023")]
 internal enum RoomOptionBit
 {
-	[Token(Token = "0x40000D4")]
+	[Token(Token = "0x40000CF")]
 	CheckUserOnJoin = 1,
-	[Token(Token = "0x40000D5")]
+	[Token(Token = "0x40000D0")]
 	DeleteCacheOnLeave = 2,
-	[Token(Token = "0x40000D6")]
+	[Token(Token = "0x40000D1")]
 	SuppressRoomEvents = 4,
-	[Token(Token = "0x40000D7")]
+	[Token(Token = "0x40000D2")]
 	PublishUserId = 8,
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x40000D3")]
 	DeleteNullProps = 0x10,
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x40000D4")]
 	BroadcastPropsChangeToAll = 0x20,
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x40000D5")]
 	SuppressPlayerInfo = 0x40
 }

@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200022B")]
+[Token(Token = "0x20002A2")]
 internal struct MeshWriteDataInterface
 {
-	[Token(Token = "0x40007C2")]
+	[Token(Token = "0x40009DF")]
 	[FieldOffset(Offset = "0x0")]
 	public IntPtr vertices;
 
-	[Token(Token = "0x40007C3")]
+	[Token(Token = "0x40009E0")]
 	[FieldOffset(Offset = "0x8")]
 	public IntPtr indices;
 
-	[Token(Token = "0x40007C4")]
+	[Token(Token = "0x40009E1")]
 	[FieldOffset(Offset = "0x10")]
 	public int vertexCount;
 
-	[Token(Token = "0x40007C5")]
+	[Token(Token = "0x40009E2")]
 	[FieldOffset(Offset = "0x14")]
 	public int indexCount;
 }

@@ -13,27 +13,27 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000089")]
 public interface IGraphParent
 {
-	[Token(Token = "0x170000F3")]
+	[Token(Token = "0x170000F6")]
 	IGraph childGraph
 	{
-		[Token(Token = "0x60003F2")]
+		[Token(Token = "0x60003FC")]
 		get;
 	}
 
-	[Token(Token = "0x170000F4")]
+	[Token(Token = "0x170000F7")]
 	bool isSerializationRoot
 	{
-		[Token(Token = "0x60003F3")]
+		[Token(Token = "0x60003FD")]
 		get;
 	}
 
-	[Token(Token = "0x170000F5")]
+	[Token(Token = "0x170000F8")]
 	Object serializedObject
 	{
-		[Token(Token = "0x60003F4")]
+		[Token(Token = "0x60003FE")]
 		get;
 	}
 
-	[Token(Token = "0x60003F5")]
+	[Token(Token = "0x60003FF")]
 	IGraph DefaultGraph();
 }

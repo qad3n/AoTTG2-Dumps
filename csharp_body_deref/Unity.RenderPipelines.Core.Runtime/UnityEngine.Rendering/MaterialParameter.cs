@@ -12,12 +12,12 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000209")]
+[Token(Token = "0x2000227")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class MaterialParameter : VolumeParameter<Material>
 {
-	[Token(Token = "0x6000E1D")]
-	[Address(RVA = "0x4C0C900", Offset = "0x4C0C900", VA = "0x4C0C900")]
+	[Token(Token = "0x6000F7C")]
+	[Address(RVA = "0x2B5DA40", Offset = "0x2B5C040", VA = "0x182B5DA40")]
 	public MaterialParameter(Material value, bool overrideState = false)
 	{
 	}

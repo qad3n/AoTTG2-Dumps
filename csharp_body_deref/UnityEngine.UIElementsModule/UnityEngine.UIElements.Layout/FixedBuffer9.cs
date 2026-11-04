@@ -5,55 +5,66 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000518")]
+[Serializable]
+[Token(Token = "0x200060D")]
 internal struct FixedBuffer9<T> where T : struct
 {
-	[Token(Token = "0x400110A")]
+	[Token(Token = "0x4001693")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __0;
 
-	[Token(Token = "0x400110B")]
+	[Token(Token = "0x4001694")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __1;
 
-	[Token(Token = "0x400110C")]
+	[Token(Token = "0x4001695")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __2;
 
-	[Token(Token = "0x400110D")]
+	[Token(Token = "0x4001696")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __3;
 
-	[Token(Token = "0x400110E")]
+	[Token(Token = "0x4001697")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __4;
 
-	[Token(Token = "0x400110F")]
+	[Token(Token = "0x4001698")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __5;
 
-	[Token(Token = "0x4001110")]
+	[Token(Token = "0x4001699")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __6;
 
-	[Token(Token = "0x4001111")]
+	[Token(Token = "0x400169A")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __7;
 
-	[Token(Token = "0x4001112")]
+	[Token(Token = "0x400169B")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __8;
 
-	[Token(Token = "0x170007F5")]
+	[Token(Token = "0x17000B08")]
 	public unsafe ref T this[int index]
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001F4F")]
+		[Token(Token = "0x6002C9C")]
 		get
 		{
 			return ref *(T*)null;

@@ -9,18 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000086")]
-[AddComponentMenu("UI/Effects/Outline", 81)]
+[Token(Token = "0x2000084")]
+[AddComponentMenu("UI (Canvas)/Effects/Outline", 81)]
+[UnityEngine.UGUIHelpURL("Outline")]
 public class Outline : Shadow
 {
-	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x50EFC90", Offset = "0x50EFC90", VA = "0x50EFC90")]
+	[Token(Token = "0x6000541")]
+	[Address(RVA = "0x32DAE50", Offset = "0x32D9450", VA = "0x1832DAE50")]
 	protected Outline()
 	{
 	}
 
-	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x50EFCA0", Offset = "0x50EFCA0", VA = "0x50EFCA0", Slot = "20")]
+	[Token(Token = "0x6000542")]
+	[Address(RVA = "0x32DAAE0", Offset = "0x32D90E0", VA = "0x1832DAAE0", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

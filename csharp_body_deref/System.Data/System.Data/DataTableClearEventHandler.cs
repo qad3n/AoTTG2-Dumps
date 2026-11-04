@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200003D")]
+[Token(Token = "0x200004A")]
 public delegate void DataTableClearEventHandler(object sender, DataTableClearEventArgs e);

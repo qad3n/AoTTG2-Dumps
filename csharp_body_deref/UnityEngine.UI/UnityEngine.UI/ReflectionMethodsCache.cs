@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200007A")]
+[Token(Token = "0x2000078")]
 internal class ReflectionMethodsCache
 {
-	[Token(Token = "0x200007B")]
+	[Token(Token = "0x2000079")]
 	public delegate bool Raycast3DCallback(Ray r, out RaycastHit hit, float f, int i);
 
-	[Token(Token = "0x200007C")]
+	[Token(Token = "0x200007A")]
 	public delegate RaycastHit[] RaycastAllCallback(Ray r, float f, int i);
 
-	[Token(Token = "0x200007D")]
+	[Token(Token = "0x200007B")]
 	public delegate int GetRaycastNonAllocCallback(Ray r, RaycastHit[] results, float f, int i);
 
-	[Token(Token = "0x200007E")]
+	[Token(Token = "0x200007C")]
 	public delegate RaycastHit2D Raycast2DCallback(Vector2 p1, Vector2 p2, float f, int i);
 
-	[Token(Token = "0x200007F")]
+	[Token(Token = "0x200007D")]
 	public delegate RaycastHit2D[] GetRayIntersectionAllCallback(Ray r, float f, int i);
 
-	[Token(Token = "0x2000080")]
+	[Token(Token = "0x200007E")]
 	public delegate int GetRayIntersectionAllNonAllocCallback(Ray r, RaycastHit2D[] results, float f, int i);
 
 	[Token(Token = "0x400025B")]
@@ -58,19 +58,19 @@ internal class ReflectionMethodsCache
 	[FieldOffset(Offset = "0x0")]
 	private static ReflectionMethodsCache s_ReflectionMethodsCache;
 
-	[Token(Token = "0x17000151")]
+	[Token(Token = "0x17000152")]
 	public static ReflectionMethodsCache Singleton
 	{
-		[Token(Token = "0x60004FC")]
-		[Address(RVA = "0x50ED910", Offset = "0x50ED910", VA = "0x50ED910")]
+		[Token(Token = "0x6000508")]
+		[Address(RVA = "0x32DE940", Offset = "0x32DCF40", VA = "0x1832DE940")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60004FB")]
-	[Address(RVA = "0x50ECB30", Offset = "0x50ECB30", VA = "0x50ECB30")]
+	[Token(Token = "0x6000507")]
+	[Address(RVA = "0x32DD970", Offset = "0x32DBF70", VA = "0x1832DD970")]
 	public ReflectionMethodsCache()
 	{
 	}

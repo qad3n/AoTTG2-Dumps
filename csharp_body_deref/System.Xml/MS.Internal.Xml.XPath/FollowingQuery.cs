@@ -22,32 +22,32 @@ internal sealed class FollowingQuery : BaseAxisQuery
 	private XPathNodeIterator _iterator;
 
 	[Token(Token = "0x6001AFB")]
-	[Address(RVA = "0x477BCE0", Offset = "0x477BCE0", VA = "0x477BCE0")]
+	[Address(RVA = "0x26B45E0", Offset = "0x26B2BE0", VA = "0x1826B45E0")]
 	public FollowingQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001AFC")]
-	[Address(RVA = "0x477BCF0", Offset = "0x477BCF0", VA = "0x477BCF0")]
+	[Address(RVA = "0x26B97F0", Offset = "0x26B7DF0", VA = "0x1826B97F0")]
 	private FollowingQuery(FollowingQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AFD")]
-	[Address(RVA = "0x477BD50", Offset = "0x477BD50", VA = "0x477BD50", Slot = "12")]
+	[Address(RVA = "0x26B77C0", Offset = "0x26B5DC0", VA = "0x1826B77C0", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AFE")]
-	[Address(RVA = "0x477BDB0", Offset = "0x477BDB0", VA = "0x477BDB0", Slot = "15")]
+	[Address(RVA = "0x26B9410", Offset = "0x26B7A10", VA = "0x1826B9410", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AFF")]
-	[Address(RVA = "0x477C0A0", Offset = "0x477C0A0", VA = "0x477C0A0", Slot = "6")]
+	[Address(RVA = "0x26B96E0", Offset = "0x26B7CE0", VA = "0x1826B96E0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

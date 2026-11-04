@@ -12,488 +12,488 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200067A")]
+[Token(Token = "0x20007D5")]
 internal class AccountPanel : MonoBehaviour
 {
-	[Token(Token = "0x200067B")]
+	[Token(Token = "0x20007D6")]
 	private enum Tab
 	{
-		[Token(Token = "0x4001FE5")]
+		[Token(Token = "0x40027BD")]
 		SignUp,
-		[Token(Token = "0x4001FE6")]
+		[Token(Token = "0x40027BE")]
 		Login,
-		[Token(Token = "0x4001FE7")]
+		[Token(Token = "0x40027BF")]
 		ForgotPassword
 	}
 
-	[Token(Token = "0x4001FAB")]
+	[Token(Token = "0x4002783")]
 	private const float PanelWidth = 450f;
 
-	[Token(Token = "0x4001FAC")]
+	[Token(Token = "0x4002784")]
 	private const float TitleWidth = 130f;
 
-	[Token(Token = "0x4001FAD")]
+	[Token(Token = "0x4002785")]
 	private const float LabelWidthToggle = 180f;
 
-	[Token(Token = "0x4001FAE")]
+	[Token(Token = "0x4002786")]
 	private const float InputHeight = 42f;
 
-	[Token(Token = "0x4001FAF")]
+	[Token(Token = "0x4002787")]
 	private const float ActionButtonHeight = 40f;
 
-	[Token(Token = "0x4001FB0")]
+	[Token(Token = "0x4002788")]
 	private const float CollapseButtonHeight = 22f;
 
-	[Token(Token = "0x4001FB1")]
+	[Token(Token = "0x4002789")]
 	private const int InputFontSize = 27;
 
-	[Token(Token = "0x4001FB2")]
+	[Token(Token = "0x400278A")]
 	private const int InputFontSizeSmall = 22;
 
-	[Token(Token = "0x4001FB3")]
+	[Token(Token = "0x400278B")]
 	private const int TabFontSize = 33;
 
-	[Token(Token = "0x4001FB4")]
+	[Token(Token = "0x400278C")]
 	private const int ActionButtonFontSize = 30;
 
-	[Token(Token = "0x4001FB5")]
+	[Token(Token = "0x400278D")]
 	private const int CollapseFontSize = 16;
 
-	[Token(Token = "0x4001FB6")]
+	[Token(Token = "0x400278E")]
 	private const int LoggedInLabelFontSize = 27;
 
-	[Token(Token = "0x4001FB7")]
+	[Token(Token = "0x400278F")]
 	private const int OAuthOnlyButtonFontSize = 18;
 
-	[Token(Token = "0x4001FB8")]
+	[Token(Token = "0x4002790")]
 	private const int StatusFontSize = 21;
 
-	[Token(Token = "0x4001FB9")]
+	[Token(Token = "0x4002791")]
 	private const string ThemePanel = "DefaultPanel";
 
-	[Token(Token = "0x4001FBA")]
+	[Token(Token = "0x4002792")]
 	[FieldOffset(Offset = "0x20")]
 	private StringSetting _signupDisplayName;
 
-	[Token(Token = "0x4001FBB")]
+	[Token(Token = "0x4002793")]
 	[FieldOffset(Offset = "0x28")]
 	private StringSetting _signupEmail;
 
-	[Token(Token = "0x4001FBC")]
+	[Token(Token = "0x4002794")]
 	[FieldOffset(Offset = "0x30")]
 	private StringSetting _signupPassword;
 
-	[Token(Token = "0x4001FBD")]
+	[Token(Token = "0x4002795")]
 	[FieldOffset(Offset = "0x38")]
 	private StringSetting _loginEmail;
 
-	[Token(Token = "0x4001FBE")]
+	[Token(Token = "0x4002796")]
 	[FieldOffset(Offset = "0x40")]
 	private StringSetting _loginPassword;
 
-	[Token(Token = "0x4001FBF")]
+	[Token(Token = "0x4002797")]
 	[FieldOffset(Offset = "0x48")]
 	private BoolSetting _keepSignedIn;
 
-	[Token(Token = "0x4001FC0")]
+	[Token(Token = "0x4002798")]
 	[FieldOffset(Offset = "0x50")]
 	private StringSetting _forgotPasswordEmail;
 
-	[Token(Token = "0x4001FC1")]
+	[Token(Token = "0x4002799")]
 	[FieldOffset(Offset = "0x58")]
 	private GameObject _content;
 
-	[Token(Token = "0x4001FC2")]
+	[Token(Token = "0x400279A")]
 	[FieldOffset(Offset = "0x60")]
 	private GameObject _signupContent;
 
-	[Token(Token = "0x4001FC3")]
+	[Token(Token = "0x400279B")]
 	[FieldOffset(Offset = "0x68")]
 	private GameObject _loginContent;
 
-	[Token(Token = "0x4001FC4")]
+	[Token(Token = "0x400279C")]
 	[FieldOffset(Offset = "0x70")]
 	private GameObject _forgotPasswordContent;
 
-	[Token(Token = "0x4001FC5")]
+	[Token(Token = "0x400279D")]
 	[FieldOffset(Offset = "0x78")]
 	private GameObject _loggedInContent;
 
-	[Token(Token = "0x4001FC6")]
+	[Token(Token = "0x400279E")]
 	[FieldOffset(Offset = "0x80")]
 	private GameObject _signupEmailSection;
 
-	[Token(Token = "0x4001FC7")]
+	[Token(Token = "0x400279F")]
 	[FieldOffset(Offset = "0x88")]
 	private GameObject _loginOAuthOnlySection;
 
-	[Token(Token = "0x4001FC8")]
+	[Token(Token = "0x40027A0")]
 	[FieldOffset(Offset = "0x90")]
 	private GameObject _loginOAuthOnlyButtons;
 
-	[Token(Token = "0x4001FC9")]
+	[Token(Token = "0x40027A1")]
 	[FieldOffset(Offset = "0x98")]
 	private GameObject _loginOAuthOnlyDiscordButton;
 
-	[Token(Token = "0x4001FCA")]
+	[Token(Token = "0x40027A2")]
 	[FieldOffset(Offset = "0xA0")]
 	private GameObject _loginOAuthOnlyGoogleButton;
 
-	[Token(Token = "0x4001FCB")]
+	[Token(Token = "0x40027A3")]
 	[FieldOffset(Offset = "0xA8")]
 	private Text _loginOAuthOnlyMessage;
 
-	[Token(Token = "0x4001FCC")]
+	[Token(Token = "0x40027A4")]
 	[FieldOffset(Offset = "0xB0")]
 	private GameObject _loginEmailSection;
 
-	[Token(Token = "0x4001FCD")]
+	[Token(Token = "0x40027A5")]
 	[FieldOffset(Offset = "0xB8")]
 	private GameObject _signupTabButton;
 
-	[Token(Token = "0x4001FCE")]
+	[Token(Token = "0x40027A6")]
 	[FieldOffset(Offset = "0xC0")]
 	private GameObject _loginTabButton;
 
-	[Token(Token = "0x4001FCF")]
+	[Token(Token = "0x40027A7")]
 	[FieldOffset(Offset = "0xC8")]
 	private GameObject _tabSeparator;
 
-	[Token(Token = "0x4001FD0")]
+	[Token(Token = "0x40027A8")]
 	[FieldOffset(Offset = "0xD0")]
 	private GameObject _signupOAuthDivider;
 
-	[Token(Token = "0x4001FD1")]
+	[Token(Token = "0x40027A9")]
 	[FieldOffset(Offset = "0xD8")]
 	private GameObject _signupOAuthRow;
 
-	[Token(Token = "0x4001FD2")]
+	[Token(Token = "0x40027AA")]
 	[FieldOffset(Offset = "0xE0")]
 	private GameObject _signupDiscordButton;
 
-	[Token(Token = "0x4001FD3")]
+	[Token(Token = "0x40027AB")]
 	[FieldOffset(Offset = "0xE8")]
 	private GameObject _signupGoogleButton;
 
-	[Token(Token = "0x4001FD4")]
+	[Token(Token = "0x40027AC")]
 	[FieldOffset(Offset = "0xF0")]
 	private GameObject _loginOAuthDivider;
 
-	[Token(Token = "0x4001FD5")]
+	[Token(Token = "0x40027AD")]
 	[FieldOffset(Offset = "0xF8")]
 	private GameObject _loginOAuthRow;
 
-	[Token(Token = "0x4001FD6")]
+	[Token(Token = "0x40027AE")]
 	[FieldOffset(Offset = "0x100")]
 	private GameObject _loginDiscordButton;
 
-	[Token(Token = "0x4001FD7")]
+	[Token(Token = "0x40027AF")]
 	[FieldOffset(Offset = "0x108")]
 	private GameObject _loginGoogleButton;
 
-	[Token(Token = "0x4001FD8")]
+	[Token(Token = "0x40027B0")]
 	[FieldOffset(Offset = "0x110")]
 	private GameObject _oauthCancelButton;
 
-	[Token(Token = "0x4001FD9")]
+	[Token(Token = "0x40027B1")]
 	[FieldOffset(Offset = "0x118")]
 	private Text _statusLabel;
 
-	[Token(Token = "0x4001FDA")]
+	[Token(Token = "0x40027B2")]
 	[FieldOffset(Offset = "0x120")]
 	private Text _loggedInUserLabel;
 
-	[Token(Token = "0x4001FDB")]
+	[Token(Token = "0x40027B3")]
 	[FieldOffset(Offset = "0x128")]
 	private Text _onlineToggleButtonLabel;
 
-	[Token(Token = "0x4001FDC")]
+	[Token(Token = "0x40027B4")]
 	[FieldOffset(Offset = "0x130")]
 	private Text _collapseButtonLabel;
 
-	[Token(Token = "0x4001FDD")]
+	[Token(Token = "0x40027B5")]
 	[FieldOffset(Offset = "0x138")]
 	private Text _collapsedUserLabel;
 
-	[Token(Token = "0x4001FDE")]
+	[Token(Token = "0x40027B6")]
 	[FieldOffset(Offset = "0x140")]
 	private RectTransform _rect;
 
-	[Token(Token = "0x4001FDF")]
+	[Token(Token = "0x40027B7")]
 	[FieldOffset(Offset = "0x148")]
 	private Tab _currentTab;
 
-	[Token(Token = "0x4001FE0")]
+	[Token(Token = "0x40027B8")]
 	[FieldOffset(Offset = "0x14C")]
 	private bool _collapsed;
 
-	[Token(Token = "0x4001FE1")]
+	[Token(Token = "0x40027B9")]
 	[FieldOffset(Offset = "0x14D")]
 	private bool _userToggledCollapse;
 
-	[Token(Token = "0x4001FE2")]
+	[Token(Token = "0x40027BA")]
 	[FieldOffset(Offset = "0x14E")]
 	private bool _busy;
 
-	[Token(Token = "0x4001FE3")]
+	[Token(Token = "0x40027BB")]
 	[FieldOffset(Offset = "0x14F")]
 	private bool _oauthInProgress;
 
-	[Token(Token = "0x60040E9")]
-	[Address(RVA = "0x42F1080", Offset = "0x42F1080", VA = "0x42F1080")]
+	[Token(Token = "0x6004BDE")]
+	[Address(RVA = "0x2274120", Offset = "0x2272720", VA = "0x182274120")]
 	public static AccountPanel Create(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040EA")]
-	[Address(RVA = "0x42F1200", Offset = "0x42F1200", VA = "0x42F1200")]
+	[Token(Token = "0x6004BDF")]
+	[Address(RVA = "0x22735C0", Offset = "0x2271BC0", VA = "0x1822735C0")]
 	private void Build()
 	{
 	}
 
-	[Token(Token = "0x60040EB")]
-	[Address(RVA = "0x42F27C0", Offset = "0x42F27C0", VA = "0x42F27C0")]
+	[Token(Token = "0x6004BE0")]
+	[Address(RVA = "0x2274960", Offset = "0x2272F60", VA = "0x182274960")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60040EC")]
-	[Address(RVA = "0x42F16A0", Offset = "0x42F16A0", VA = "0x42F16A0")]
+	[Token(Token = "0x6004BE1")]
+	[Address(RVA = "0x22707F0", Offset = "0x226EDF0", VA = "0x1822707F0")]
 	private void BuildContent()
 	{
 	}
 
-	[Token(Token = "0x60040ED")]
-	[Address(RVA = "0x42F28C0", Offset = "0x42F28C0", VA = "0x42F28C0")]
+	[Token(Token = "0x6004BE2")]
+	[Address(RVA = "0x2273390", Offset = "0x2271990", VA = "0x182273390")]
 	private void BuildTabs(Transform parent)
 	{
 	}
 
-	[Token(Token = "0x60040EE")]
-	[Address(RVA = "0x42F2AD0", Offset = "0x42F2AD0", VA = "0x42F2AD0")]
+	[Token(Token = "0x6004BE3")]
+	[Address(RVA = "0x2272C00", Offset = "0x2271200", VA = "0x182272C00")]
 	private GameObject BuildSignUpForm(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040EF")]
-	[Address(RVA = "0x42F3040", Offset = "0x42F3040", VA = "0x42F3040")]
+	[Token(Token = "0x6004BE4")]
+	[Address(RVA = "0x2271440", Offset = "0x226FA40", VA = "0x182271440")]
 	private GameObject BuildLoginForm(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040F0")]
-	[Address(RVA = "0x42F3950", Offset = "0x42F3950", VA = "0x42F3950")]
+	[Token(Token = "0x6004BE5")]
+	[Address(RVA = "0x2270C20", Offset = "0x226F220", VA = "0x182270C20")]
 	private GameObject BuildForgotPasswordForm(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040F1")]
-	[Address(RVA = "0x42F3C80", Offset = "0x42F3C80", VA = "0x42F3C80")]
+	[Token(Token = "0x6004BE6")]
+	[Address(RVA = "0x2271030", Offset = "0x226F630", VA = "0x182271030")]
 	private GameObject BuildLoggedInView(Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040F2")]
-	[Address(RVA = "0x42F1AA0", Offset = "0x42F1AA0", VA = "0x42F1AA0")]
+	[Token(Token = "0x6004BE7")]
+	[Address(RVA = "0x22706F0", Offset = "0x226ECF0", VA = "0x1822706F0")]
 	private void BuildCollapsedUserLabel()
 	{
 	}
 
-	[Token(Token = "0x60040F3")]
-	[Address(RVA = "0x42F1B90", Offset = "0x42F1B90", VA = "0x42F1B90")]
+	[Token(Token = "0x6004BE8")]
+	[Address(RVA = "0x2270560", Offset = "0x226EB60", VA = "0x182270560")]
 	private void BuildCollapseBar()
 	{
 	}
 
-	[Token(Token = "0x60040F4")]
-	[Address(RVA = "0x42F4400", Offset = "0x42F4400", VA = "0x42F4400")]
+	[Token(Token = "0x6004BE9")]
+	[Address(RVA = "0x2271F10", Offset = "0x2270510", VA = "0x182271F10")]
 	private void BuildOAuthRow(Transform parent, out GameObject divider, out GameObject row, out GameObject discordBtn, out GameObject googleBtn)
 	{
 	}
 
-	[Token(Token = "0x60040F5")]
-	[Address(RVA = "0x42F5120", Offset = "0x42F5120", VA = "0x42F5120")]
+	[Token(Token = "0x6004BEA")]
+	[Address(RVA = "0x2274760", Offset = "0x2272D60", VA = "0x182274760")]
 	private static InputField GetInput(GameObject inputSettingGO)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60040F6")]
-	[Address(RVA = "0x42F4060", Offset = "0x42F4060", VA = "0x42F4060")]
+	[Token(Token = "0x6004BEB")]
+	[Address(RVA = "0x2270250", Offset = "0x226E850", VA = "0x182270250")]
 	private static void ApplySubtleButtonStyle(GameObject buttonGO)
 	{
 	}
 
-	[Token(Token = "0x60040F7")]
-	[Address(RVA = "0x42F5590", Offset = "0x42F5590", VA = "0x42F5590")]
+	[Token(Token = "0x6004BEC")]
+	[Address(RVA = "0x226EE80", Offset = "0x226D480", VA = "0x18226EE80")]
 	private static void AddOAuthButtonIcon(GameObject buttonGO, string resourcePath)
 	{
 	}
 
-	[Token(Token = "0x60040F8")]
-	[Address(RVA = "0x42F5EE0", Offset = "0x42F5EE0", VA = "0x42F5EE0")]
+	[Token(Token = "0x6004BED")]
+	[Address(RVA = "0x2273CF0", Offset = "0x22722F0", VA = "0x182273CF0")]
 	private static void ConfigureOAuthOnlyButtonText(GameObject buttonGO)
 	{
 	}
 
-	[Token(Token = "0x60040F9")]
-	[Address(RVA = "0x42F4370", Offset = "0x42F4370", VA = "0x42F4370")]
+	[Token(Token = "0x6004BEE")]
+	[Address(RVA = "0x2274010", Offset = "0x2272610", VA = "0x182274010")]
 	private static void ConfigurePasswordInput(GameObject inputSettingGO)
 	{
 	}
 
-	[Token(Token = "0x60040FA")]
-	[Address(RVA = "0x42F61F0", Offset = "0x42F61F0", VA = "0x42F61F0")]
+	[Token(Token = "0x6004BEF")]
+	[Address(RVA = "0x226F7F0", Offset = "0x226DDF0", VA = "0x18226F7F0")]
 	private static void AddPasswordToggle(InputField field)
 	{
 	}
 
-	[Token(Token = "0x60040FB")]
-	[Address(RVA = "0x42F51B0", Offset = "0x42F51B0", VA = "0x42F51B0")]
+	[Token(Token = "0x6004BF0")]
+	[Address(RVA = "0x2276320", Offset = "0x2274920", VA = "0x182276320")]
 	private static void SetupTabNavigation(InputField[] fields, Selectable submit)
 	{
 	}
 
-	[Token(Token = "0x60040FC")]
-	[Address(RVA = "0x42F1D20", Offset = "0x42F1D20", VA = "0x42F1D20")]
+	[Token(Token = "0x6004BF1")]
+	[Address(RVA = "0x2275880", Offset = "0x2273E80", VA = "0x182275880")]
 	private void RefreshState()
 	{
 	}
 
-	[Token(Token = "0x60040FD")]
-	[Address(RVA = "0x42F6C60", Offset = "0x42F6C60", VA = "0x42F6C60")]
+	[Token(Token = "0x6004BF2")]
+	[Address(RVA = "0x22762E0", Offset = "0x22748E0", VA = "0x1822762E0")]
 	private void SetTab(Tab tab)
 	{
 	}
 
-	[Token(Token = "0x60040FE")]
-	[Address(RVA = "0x42F6CB0", Offset = "0x42F6CB0", VA = "0x42F6CB0")]
+	[Token(Token = "0x6004BF3")]
+	[Address(RVA = "0x2276790", Offset = "0x2274D90", VA = "0x182276790")]
 	private void ToggleCollapsed()
 	{
 	}
 
-	[Token(Token = "0x60040FF")]
-	[Address(RVA = "0x42F6CD0", Offset = "0x42F6CD0", VA = "0x42F6CD0")]
+	[Token(Token = "0x6004BF4")]
+	[Address(RVA = "0x2274800", Offset = "0x2272E00", VA = "0x182274800")]
 	private void HandleLoggedIn()
 	{
 	}
 
-	[Token(Token = "0x6004100")]
-	[Address(RVA = "0x42F6E20", Offset = "0x42F6E20", VA = "0x42F6E20")]
+	[Token(Token = "0x6004BF5")]
+	[Address(RVA = "0x2274850", Offset = "0x2272E50", VA = "0x182274850")]
 	private void HandleLoggedOut()
 	{
 	}
 
-	[Token(Token = "0x6004101")]
-	[Address(RVA = "0x42F6E40", Offset = "0x42F6E40", VA = "0x42F6E40")]
+	[Token(Token = "0x6004BF6")]
+	[Address(RVA = "0x22747F0", Offset = "0x2272DF0", VA = "0x1822747F0")]
 	private void HandleAuthMethodsChanged()
 	{
 	}
 
-	[Token(Token = "0x6004102")]
-	[Address(RVA = "0x42F6E50", Offset = "0x42F6E50", VA = "0x42F6E50")]
+	[Token(Token = "0x6004BF7")]
+	[Address(RVA = "0x22753B0", Offset = "0x22739B0", VA = "0x1822753B0")]
 	private void OnRegisterClick()
 	{
 	}
 
-	[Token(Token = "0x6004103")]
-	[Address(RVA = "0x42F7020", Offset = "0x42F7020", VA = "0x42F7020")]
+	[Token(Token = "0x6004BF8")]
+	[Address(RVA = "0x2274C10", Offset = "0x2273210", VA = "0x182274C10")]
 	private void OnLoginClick()
 	{
 	}
 
-	[Token(Token = "0x6004104")]
-	[Address(RVA = "0x42F71B0", Offset = "0x42F71B0", VA = "0x42F71B0")]
+	[Token(Token = "0x6004BF9")]
+	[Address(RVA = "0x2274A70", Offset = "0x2273070", VA = "0x182274A70")]
 	private void OnForgotPasswordClick()
 	{
 	}
 
-	[Token(Token = "0x6004105")]
-	[Address(RVA = "0x42F72E0", Offset = "0x42F72E0", VA = "0x42F72E0")]
+	[Token(Token = "0x6004BFA")]
+	[Address(RVA = "0x22757F0", Offset = "0x2273DF0", VA = "0x1822757F0")]
 	private void OnWebLoginClick()
 	{
 	}
 
-	[Token(Token = "0x6004106")]
-	[Address(RVA = "0x42F7370", Offset = "0x42F7370", VA = "0x42F7370")]
+	[Token(Token = "0x6004BFB")]
+	[Address(RVA = "0x22752E0", Offset = "0x22738E0", VA = "0x1822752E0")]
 	private void OnRefreshLoginClick()
 	{
 	}
 
-	[Token(Token = "0x6004107")]
-	[Address(RVA = "0x42F7440", Offset = "0x42F7440", VA = "0x42F7440")]
+	[Token(Token = "0x6004BFC")]
+	[Address(RVA = "0x2274EE0", Offset = "0x22734E0", VA = "0x182274EE0")]
 	private void OnOAuthClick(string provider)
 	{
 	}
 
-	[Token(Token = "0x6004108")]
-	[Address(RVA = "0x42F75B0", Offset = "0x42F75B0", VA = "0x42F75B0")]
+	[Token(Token = "0x6004BFD")]
+	[Address(RVA = "0x2274E80", Offset = "0x2273480", VA = "0x182274E80")]
 	private void OnOAuthCancelClick()
 	{
 	}
 
-	[Token(Token = "0x6004109")]
-	[Address(RVA = "0x42F7610", Offset = "0x42F7610", VA = "0x42F7610")]
+	[Token(Token = "0x6004BFE")]
+	[Address(RVA = "0x2275050", Offset = "0x2273650", VA = "0x182275050")]
 	private void OnOAuthComplete(bool success, string error)
 	{
 	}
 
-	[Token(Token = "0x600410A")]
-	[Address(RVA = "0x42F7BD0", Offset = "0x42F7BD0", VA = "0x42F7BD0")]
+	[Token(Token = "0x6004BFF")]
+	[Address(RVA = "0x2274BA0", Offset = "0x22731A0", VA = "0x182274BA0")]
 	private void OnForgotPasswordComplete(bool success, string error)
 	{
 	}
 
-	[Token(Token = "0x600410B")]
-	[Address(RVA = "0x42F7C30", Offset = "0x42F7C30", VA = "0x42F7C30")]
+	[Token(Token = "0x6004C00")]
+	[Address(RVA = "0x2274DB0", Offset = "0x22733B0", VA = "0x182274DB0")]
 	private void OnLogoutClick()
 	{
 	}
 
-	[Token(Token = "0x600410C")]
-	[Address(RVA = "0x42F7D00", Offset = "0x42F7D00", VA = "0x42F7D00")]
+	[Token(Token = "0x6004C01")]
+	[Address(RVA = "0x2275140", Offset = "0x2273740", VA = "0x182275140")]
 	private void OnOnlineToggleClick()
 	{
 	}
 
-	[Token(Token = "0x600410D")]
-	[Address(RVA = "0x42F7EA0", Offset = "0x42F7EA0", VA = "0x42F7EA0")]
+	[Token(Token = "0x6004C02")]
+	[Address(RVA = "0x2275590", Offset = "0x2273B90", VA = "0x182275590")]
 	private void OnRegisterComplete(bool success, string error)
 	{
 	}
 
-	[Token(Token = "0x600410E")]
-	[Address(RVA = "0x42F8140", Offset = "0x42F8140", VA = "0x42F8140")]
+	[Token(Token = "0x6004C03")]
+	[Address(RVA = "0x2274870", Offset = "0x2272E70", VA = "0x182274870")]
 	private void OnAuthComplete(bool success, string error)
 	{
 	}
 
-	[Token(Token = "0x600410F")]
-	[Address(RVA = "0x42F6D10", Offset = "0x42F6D10", VA = "0x42F6D10")]
+	[Token(Token = "0x6004C04")]
+	[Address(RVA = "0x2276660", Offset = "0x2274C60", VA = "0x182276660")]
 	private void ShowStatus(string message)
 	{
 	}
 
-	[Token(Token = "0x6004110")]
-	[Address(RVA = "0x42F6C90", Offset = "0x42F6C90", VA = "0x42F6C90")]
+	[Token(Token = "0x6004C05")]
+	[Address(RVA = "0x2273CD0", Offset = "0x22722D0", VA = "0x182273CD0")]
 	private void ClearStatus()
 	{
 	}
 
-	[Token(Token = "0x6004111")]
-	[Address(RVA = "0x42F76E0", Offset = "0x42F76E0", VA = "0x42F76E0")]
+	[Token(Token = "0x6004C06")]
+	[Address(RVA = "0x22742A0", Offset = "0x22728A0", VA = "0x1822742A0")]
 	private static string FormatError(string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004112")]
-	[Address(RVA = "0x42F8210", Offset = "0x42F8210", VA = "0x42F8210")]
+	[Token(Token = "0x6004C07")]
+	[Address(RVA = "0x2276B50", Offset = "0x2275150", VA = "0x182276B50")]
 	public AccountPanel()
 	{
 	}

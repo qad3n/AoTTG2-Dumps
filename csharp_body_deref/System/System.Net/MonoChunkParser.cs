@@ -11,191 +11,191 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20001A2")]
+[Token(Token = "0x200032A")]
 internal class MonoChunkParser
 {
-	[Token(Token = "0x20001A3")]
+	[Token(Token = "0x200032B")]
 	private enum State
 	{
-		[Token(Token = "0x4000856")]
+		[Token(Token = "0x4000C6C")]
 		None,
-		[Token(Token = "0x4000857")]
+		[Token(Token = "0x4000C6D")]
 		PartialSize,
-		[Token(Token = "0x4000858")]
+		[Token(Token = "0x4000C6E")]
 		Body,
-		[Token(Token = "0x4000859")]
+		[Token(Token = "0x4000C6F")]
 		BodyFinished,
-		[Token(Token = "0x400085A")]
+		[Token(Token = "0x4000C70")]
 		Trailer
 	}
 
-	[Token(Token = "0x20001A4")]
+	[Token(Token = "0x200032C")]
 	private class Chunk
 	{
-		[Token(Token = "0x400085B")]
+		[Token(Token = "0x4000C71")]
 		[FieldOffset(Offset = "0x10")]
 		public byte[] Bytes;
 
-		[Token(Token = "0x400085C")]
+		[Token(Token = "0x4000C72")]
 		[FieldOffset(Offset = "0x18")]
 		public int Offset;
 
-		[Token(Token = "0x6000A3F")]
-		[Address(RVA = "0x498B1F0", Offset = "0x498B1F0", VA = "0x498B1F0")]
+		[Token(Token = "0x6001600")]
+		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 		public Chunk(byte[] chunk)
 		{
 		}
 
-		[Token(Token = "0x6000A40")]
-		[Address(RVA = "0x498A620", Offset = "0x498A620", VA = "0x498A620")]
+		[Token(Token = "0x6001601")]
+		[Address(RVA = "0x27DCEB0", Offset = "0x27DB4B0", VA = "0x1827DCEB0")]
 		public int Read(byte[] buffer, int offset, int size)
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x400084B")]
+	[Token(Token = "0x4000C61")]
 	[FieldOffset(Offset = "0x10")]
 	private WebHeaderCollection headers;
 
-	[Token(Token = "0x400084C")]
+	[Token(Token = "0x4000C62")]
 	[FieldOffset(Offset = "0x18")]
 	private int chunkSize;
 
-	[Token(Token = "0x400084D")]
+	[Token(Token = "0x4000C63")]
 	[FieldOffset(Offset = "0x1C")]
 	private int chunkRead;
 
-	[Token(Token = "0x400084E")]
+	[Token(Token = "0x4000C64")]
 	[FieldOffset(Offset = "0x20")]
 	private int totalWritten;
 
-	[Token(Token = "0x400084F")]
+	[Token(Token = "0x4000C65")]
 	[FieldOffset(Offset = "0x24")]
 	private State state;
 
-	[Token(Token = "0x4000850")]
+	[Token(Token = "0x4000C66")]
 	[FieldOffset(Offset = "0x28")]
 	private StringBuilder saved;
 
-	[Token(Token = "0x4000851")]
+	[Token(Token = "0x4000C67")]
 	[FieldOffset(Offset = "0x30")]
 	private bool sawCR;
 
-	[Token(Token = "0x4000852")]
+	[Token(Token = "0x4000C68")]
 	[FieldOffset(Offset = "0x31")]
 	private bool gotit;
 
-	[Token(Token = "0x4000853")]
+	[Token(Token = "0x4000C69")]
 	[FieldOffset(Offset = "0x34")]
 	private int trailerState;
 
-	[Token(Token = "0x4000854")]
+	[Token(Token = "0x4000C6A")]
 	[FieldOffset(Offset = "0x38")]
 	private ArrayList chunks;
 
-	[Token(Token = "0x1700025C")]
+	[Token(Token = "0x170004B2")]
 	public bool WantMore
 	{
-		[Token(Token = "0x6000A36")]
-		[Address(RVA = "0x498B0C0", Offset = "0x498B0C0", VA = "0x498B0C0")]
+		[Token(Token = "0x60015F7")]
+		[Address(RVA = "0x27E79A0", Offset = "0x27E5FA0", VA = "0x1827E79A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700025D")]
+	[Token(Token = "0x170004B3")]
 	public bool DataAvailable
 	{
-		[Token(Token = "0x6000A37")]
-		[Address(RVA = "0x498B0E0", Offset = "0x498B0E0", VA = "0x498B0E0")]
+		[Token(Token = "0x60015F8")]
+		[Address(RVA = "0x27E7890", Offset = "0x27E5E90", VA = "0x1827E7890")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700025E")]
+	[Token(Token = "0x170004B4")]
 	public int ChunkLeft
 	{
-		[Token(Token = "0x6000A38")]
-		[Address(RVA = "0x498B1E0", Offset = "0x498B1E0", VA = "0x498B1E0")]
+		[Token(Token = "0x60015F9")]
+		[Address(RVA = "0x27E7880", Offset = "0x27E5E80", VA = "0x1827E7880")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000A31")]
-	[Address(RVA = "0x498A0D0", Offset = "0x498A0D0", VA = "0x498A0D0")]
+	[Token(Token = "0x60015F2")]
+	[Address(RVA = "0x27E77C0", Offset = "0x27E5DC0", VA = "0x1827E77C0")]
 	public MonoChunkParser(WebHeaderCollection headers)
 	{
 	}
 
-	[Token(Token = "0x6000A32")]
-	[Address(RVA = "0x498A190", Offset = "0x498A190", VA = "0x498A190")]
+	[Token(Token = "0x60015F3")]
+	[Address(RVA = "0x27E76D0", Offset = "0x27E5CD0", VA = "0x1827E76D0")]
 	public int Read(byte[] buffer, int offset, int size)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A33")]
-	[Address(RVA = "0x498A1A0", Offset = "0x498A1A0", VA = "0x498A1A0")]
+	[Token(Token = "0x60015F4")]
+	[Address(RVA = "0x27E71A0", Offset = "0x27E57A0", VA = "0x1827E71A0")]
 	private int ReadFromChunks(byte[] buffer, int offset, int size)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A34")]
-	[Address(RVA = "0x498A660", Offset = "0x498A660", VA = "0x498A660")]
+	[Token(Token = "0x60015F5")]
+	[Address(RVA = "0x27E7790", Offset = "0x27E5D90", VA = "0x1827E7790")]
 	public void Write(byte[] buffer, int offset, int size)
 	{
 	}
 
-	[Token(Token = "0x6000A35")]
-	[Address(RVA = "0x498A680", Offset = "0x498A680", VA = "0x498A680")]
+	[Token(Token = "0x60015F6")]
+	[Address(RVA = "0x27E6CA0", Offset = "0x27E52A0", VA = "0x1827E6CA0")]
 	private void InternalWrite(byte[] buffer, ref int offset, int size)
 	{
 	}
 
-	[Token(Token = "0x6000A39")]
-	[Address(RVA = "0x498AB90", Offset = "0x498AB90", VA = "0x498AB90")]
+	[Token(Token = "0x60015FA")]
+	[Address(RVA = "0x27E6F80", Offset = "0x27E5580", VA = "0x1827E6F80")]
 	private State ReadBody(byte[] buffer, ref int offset, int size)
 	{
 		return default(State);
 	}
 
-	[Token(Token = "0x6000A3A")]
-	[Address(RVA = "0x498A790", Offset = "0x498A790", VA = "0x498A790")]
+	[Token(Token = "0x60015FB")]
+	[Address(RVA = "0x27E69D0", Offset = "0x27E4FD0", VA = "0x1827E69D0")]
 	private State GetChunkSize(byte[] buffer, ref int offset, int size)
 	{
 		return default(State);
 	}
 
-	[Token(Token = "0x6000A3B")]
-	[Address(RVA = "0x498B270", Offset = "0x498B270", VA = "0x498B270")]
+	[Token(Token = "0x60015FC")]
+	[Address(RVA = "0x27E76E0", Offset = "0x27E5CE0", VA = "0x1827E76E0")]
 	private static string RemoveChunkExtension(string input)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A3C")]
-	[Address(RVA = "0x498ACA0", Offset = "0x498ACA0", VA = "0x498ACA0")]
+	[Token(Token = "0x60015FD")]
+	[Address(RVA = "0x27E70D0", Offset = "0x27E56D0", VA = "0x1827E70D0")]
 	private State ReadCRLF(byte[] buffer, ref int offset, int size)
 	{
 		return default(State);
 	}
 
-	[Token(Token = "0x6000A3D")]
-	[Address(RVA = "0x498AD70", Offset = "0x498AD70", VA = "0x498AD70")]
+	[Token(Token = "0x60015FE")]
+	[Address(RVA = "0x27E7490", Offset = "0x27E5A90", VA = "0x1827E7490")]
 	private State ReadTrailer(byte[] buffer, ref int offset, int size)
 	{
 		return default(State);
 	}
 
-	[Token(Token = "0x6000A3E")]
-	[Address(RVA = "0x498B220", Offset = "0x498B220", VA = "0x498B220")]
+	[Token(Token = "0x60015FF")]
+	[Address(RVA = "0x27E7730", Offset = "0x27E5D30", VA = "0x1827E7730")]
 	private static void ThrowProtocolViolation(string message)
 	{
 	}

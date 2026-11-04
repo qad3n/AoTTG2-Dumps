@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000FA")]
+[Token(Token = "0x20000D0")]
 public interface IDebugDisplaySettingsPanelDisposable : IDebugDisplaySettingsPanel, IDisposable
 {
 }

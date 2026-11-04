@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000024")]
+[Token(Token = "0x2000022")]
 public enum UserFlag
 {
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x400004A")]
 	Partner = 2,
-	[Token(Token = "0x4000050")]
+	[Token(Token = "0x400004B")]
 	HypeSquadEvents = 4,
-	[Token(Token = "0x4000051")]
+	[Token(Token = "0x400004C")]
 	HypeSquadHouse1 = 0x40,
-	[Token(Token = "0x4000052")]
+	[Token(Token = "0x400004D")]
 	HypeSquadHouse2 = 0x80,
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x400004E")]
 	HypeSquadHouse3 = 0x100
 }

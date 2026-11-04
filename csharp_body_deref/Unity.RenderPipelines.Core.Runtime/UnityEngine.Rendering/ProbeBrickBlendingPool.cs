@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ProbeBrickBlendingPool
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,257 +10,229 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000119")]
+[Token(Token = "0x20000FB")]
 internal class ProbeBrickBlendingPool
 {
-	[Token(Token = "0x40003EA")]
+	[Token(Token = "0x400038D")]
 	[FieldOffset(Offset = "0x0")]
 	private static ComputeShader stateBlendShader;
 
-	[Token(Token = "0x40003EB")]
+	[Token(Token = "0x400038E")]
 	[FieldOffset(Offset = "0x8")]
 	private static int scenarioBlendingKernel;
 
-	[Token(Token = "0x40003EC")]
+	[Token(Token = "0x400038F")]
 	[FieldOffset(Offset = "0xC")]
 	private static readonly int _PoolDim_LerpFactor;
 
-	[Token(Token = "0x40003ED")]
+	[Token(Token = "0x4000390")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly int _ChunkList;
 
-	[Token(Token = "0x40003EE")]
+	[Token(Token = "0x4000391")]
 	[FieldOffset(Offset = "0x14")]
 	private static readonly int _State0_L0_L1Rx;
 
-	[Token(Token = "0x40003EF")]
+	[Token(Token = "0x4000392")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly int _State0_L1G_L1Ry;
 
-	[Token(Token = "0x40003F0")]
+	[Token(Token = "0x4000393")]
 	[FieldOffset(Offset = "0x1C")]
 	private static readonly int _State0_L1B_L1Rz;
 
-	[Token(Token = "0x40003F1")]
+	[Token(Token = "0x4000394")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly int _State0_L2_0;
 
-	[Token(Token = "0x40003F2")]
+	[Token(Token = "0x4000395")]
 	[FieldOffset(Offset = "0x24")]
 	private static readonly int _State0_L2_1;
 
-	[Token(Token = "0x40003F3")]
+	[Token(Token = "0x4000396")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly int _State0_L2_2;
 
-	[Token(Token = "0x40003F4")]
+	[Token(Token = "0x4000397")]
 	[FieldOffset(Offset = "0x2C")]
 	private static readonly int _State0_L2_3;
 
-	[Token(Token = "0x40003F5")]
+	[Token(Token = "0x4000398")]
 	[FieldOffset(Offset = "0x30")]
+	private static readonly int _State0_ProbeOcclusion;
+
+	[Token(Token = "0x4000399")]
+	[FieldOffset(Offset = "0x34")]
 	private static readonly int _State1_L0_L1Rx;
 
-	[Token(Token = "0x40003F6")]
-	[FieldOffset(Offset = "0x34")]
+	[Token(Token = "0x400039A")]
+	[FieldOffset(Offset = "0x38")]
 	private static readonly int _State1_L1G_L1Ry;
 
-	[Token(Token = "0x40003F7")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x400039B")]
+	[FieldOffset(Offset = "0x3C")]
 	private static readonly int _State1_L1B_L1Rz;
 
-	[Token(Token = "0x40003F8")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x400039C")]
+	[FieldOffset(Offset = "0x40")]
 	private static readonly int _State1_L2_0;
 
-	[Token(Token = "0x40003F9")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400039D")]
+	[FieldOffset(Offset = "0x44")]
 	private static readonly int _State1_L2_1;
 
-	[Token(Token = "0x40003FA")]
-	[FieldOffset(Offset = "0x44")]
+	[Token(Token = "0x400039E")]
+	[FieldOffset(Offset = "0x48")]
 	private static readonly int _State1_L2_2;
 
-	[Token(Token = "0x40003FB")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x400039F")]
+	[FieldOffset(Offset = "0x4C")]
 	private static readonly int _State1_L2_3;
 
-	[Token(Token = "0x40003FC")]
-	[FieldOffset(Offset = "0x4C")]
-	private static readonly int _Out_L0_L1Rx;
-
-	[Token(Token = "0x40003FD")]
+	[Token(Token = "0x40003A0")]
 	[FieldOffset(Offset = "0x50")]
-	private static readonly int _Out_L1G_L1Ry;
+	private static readonly int _State1_ProbeOcclusion;
 
-	[Token(Token = "0x40003FE")]
-	[FieldOffset(Offset = "0x54")]
-	private static readonly int _Out_L1B_L1Rz;
-
-	[Token(Token = "0x40003FF")]
-	[FieldOffset(Offset = "0x58")]
-	private static readonly int _Out_L2_0;
-
-	[Token(Token = "0x4000400")]
-	[FieldOffset(Offset = "0x5C")]
-	private static readonly int _Out_L2_1;
-
-	[Token(Token = "0x4000401")]
-	[FieldOffset(Offset = "0x60")]
-	private static readonly int _Out_L2_2;
-
-	[Token(Token = "0x4000402")]
-	[FieldOffset(Offset = "0x64")]
-	private static readonly int _Out_L2_3;
-
-	[Token(Token = "0x4000403")]
+	[Token(Token = "0x40003A1")]
 	[FieldOffset(Offset = "0x10")]
 	private Vector4[] m_ChunkList;
 
-	[Token(Token = "0x4000404")]
+	[Token(Token = "0x40003A2")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_MappedChunks;
 
-	[Token(Token = "0x4000405")]
+	[Token(Token = "0x40003A3")]
 	[FieldOffset(Offset = "0x20")]
 	private ProbeBrickPool m_State0;
 
-	[Token(Token = "0x4000406")]
+	[Token(Token = "0x40003A4")]
 	[FieldOffset(Offset = "0x28")]
 	private ProbeBrickPool m_State1;
 
-	[Token(Token = "0x4000407")]
+	[Token(Token = "0x40003A5")]
 	[FieldOffset(Offset = "0x30")]
 	private ProbeVolumeTextureMemoryBudget m_MemoryBudget;
 
-	[Token(Token = "0x4000408")]
+	[Token(Token = "0x40003A6")]
 	[FieldOffset(Offset = "0x34")]
 	private ProbeVolumeSHBands m_ShBands;
 
-	[Token(Token = "0x170000F5")]
-	internal static bool isSupported
-	{
-		[Token(Token = "0x60008F5")]
-		[Address(RVA = "0x4BB6830", Offset = "0x4BB6830", VA = "0x4BB6830")]
-		get
-		{
-			return default(bool);
-		}
-	}
+	[Token(Token = "0x40003A7")]
+	[FieldOffset(Offset = "0x38")]
+	private bool m_ProbeOcclusion;
 
-	[Token(Token = "0x170000F6")]
+	[Token(Token = "0x170000F4")]
 	internal bool isAllocated
 	{
-		[Token(Token = "0x60008F7")]
-		[Address(RVA = "0x4BB69C0", Offset = "0x4BB69C0", VA = "0x4BB69C0")]
+		[Token(Token = "0x60008AD")]
+		[Address(RVA = "0x2450AE0", Offset = "0x244F0E0", VA = "0x182450AE0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000F7")]
+	[Token(Token = "0x170000F5")]
 	internal int estimatedVMemCost
 	{
-		[Token(Token = "0x60008F8")]
-		[Address(RVA = "0x4BB69D0", Offset = "0x4BB69D0", VA = "0x4BB69D0")]
+		[Token(Token = "0x60008AE")]
+		[Address(RVA = "0x2B0E030", Offset = "0x2B0C630", VA = "0x182B0E030")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60008F6")]
-	[Address(RVA = "0x4BB68B0", Offset = "0x4BB68B0", VA = "0x4BB68B0")]
-	internal static void Initialize(in ProbeVolumeSystemParameters parameters)
+	[Token(Token = "0x60008AC")]
+	[Address(RVA = "0x2B0CB50", Offset = "0x2B0B150", VA = "0x182B0CB50")]
+	internal static void Initialize()
 	{
 	}
 
-	[Token(Token = "0x60008F9")]
-	[Address(RVA = "0x4BB6C50", Offset = "0x4BB6C50", VA = "0x4BB6C50")]
+	[Token(Token = "0x60008AF")]
+	[Address(RVA = "0x2B0CB30", Offset = "0x2B0B130", VA = "0x182B0CB30")]
 	internal int GetPoolWidth()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008FA")]
-	[Address(RVA = "0x4BB6C70", Offset = "0x4BB6C70", VA = "0x4BB6C70")]
+	[Token(Token = "0x60008B0")]
+	[Address(RVA = "0x2B0CB10", Offset = "0x2B0B110", VA = "0x182B0CB10")]
 	internal int GetPoolHeight()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008FB")]
-	[Address(RVA = "0x4BB6C90", Offset = "0x4BB6C90", VA = "0x4BB6C90")]
+	[Token(Token = "0x60008B1")]
+	[Address(RVA = "0x2B0CAF0", Offset = "0x2B0B0F0", VA = "0x182B0CAF0")]
 	internal int GetPoolDepth()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008FC")]
-	[Address(RVA = "0x4BB6CB0", Offset = "0x4BB6CB0", VA = "0x4BB6CB0")]
-	internal ProbeBrickBlendingPool(ProbeVolumeBlendingTextureMemoryBudget memoryBudget, ProbeVolumeSHBands shBands)
+	[Token(Token = "0x60008B2")]
+	[Address(RVA = "0x2B0E000", Offset = "0x2B0C600", VA = "0x182B0E000")]
+	internal ProbeBrickBlendingPool(ProbeVolumeBlendingTextureMemoryBudget memoryBudget, ProbeVolumeSHBands shBands, bool probeOcclusion)
 	{
 	}
 
-	[Token(Token = "0x60008FD")]
-	[Address(RVA = "0x4BB6CD0", Offset = "0x4BB6CD0", VA = "0x4BB6CD0")]
+	[Token(Token = "0x60008B3")]
+	[Address(RVA = "0x2B0C4E0", Offset = "0x2B0AAE0", VA = "0x182B0C4E0")]
 	internal void AllocateResourcesIfNeeded()
 	{
 	}
 
-	[Token(Token = "0x60008FE")]
-	[Address(RVA = "0x4BB6E00", Offset = "0x4BB6E00", VA = "0x4BB6E00")]
+	[Token(Token = "0x60008B4")]
+	[Address(RVA = "0x2B0DAC0", Offset = "0x2B0C0C0", VA = "0x182B0DAC0")]
 	internal void Update(ProbeBrickPool.DataLocation source, List<ProbeBrickPool.BrickChunkAlloc> srcLocations, List<ProbeBrickPool.BrickChunkAlloc> dstLocations, int destStartIndex, ProbeVolumeSHBands bands, int state)
 	{
 	}
 
-	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x4BB6EB0", Offset = "0x4BB6EB0", VA = "0x4BB6EB0")]
-	private static int DivRoundUp(int x, int y)
+	[Token(Token = "0x60008B5")]
+	[Address(RVA = "0x2B0DB60", Offset = "0x2B0C160", VA = "0x182B0DB60")]
+	internal void Update(CommandBuffer cmd, ProbeReferenceVolume.CellStreamingScratchBuffer dataBuffer, ProbeReferenceVolume.CellStreamingScratchBufferLayout layout, List<ProbeBrickPool.BrickChunkAlloc> dstLocations, ProbeVolumeSHBands bands, int state, Texture validityTexture, bool skyOcclusion, Texture skyOcclusionTexture, bool skyShadingDirections, Texture skyShadingDirectionsTexture, bool probeOcclusion)
 	{
-		return default(int);
 	}
 
-	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x4BB6EC0", Offset = "0x4BB6EC0", VA = "0x4BB6EC0")]
+	[Token(Token = "0x60008B6")]
+	[Address(RVA = "0x2B0CCE0", Offset = "0x2B0B2E0", VA = "0x182B0CCE0")]
 	internal void PerformBlending(CommandBuffer cmd, float factor, ProbeBrickPool dstPool)
 	{
 	}
 
-	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x4BB7C30", Offset = "0x4BB7C30", VA = "0x4BB7C30")]
-	internal void BlendChunks(ProbeReferenceVolume.BlendingCellInfo blendingCell, ProbeBrickPool dstPool)
+	[Token(Token = "0x60008B7")]
+	[Address(RVA = "0x2B0C840", Offset = "0x2B0AE40", VA = "0x182B0C840")]
+	internal void BlendChunks(ProbeReferenceVolume.Cell cell, ProbeBrickPool dstPool)
 	{
 	}
 
-	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x4BB7DB0", Offset = "0x4BB7DB0", VA = "0x4BB7DB0")]
+	[Token(Token = "0x60008B8")]
+	[Address(RVA = "0x2B0C9F0", Offset = "0x2B0AFF0", VA = "0x182B0C9F0")]
 	internal void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x4BB7E10", Offset = "0x4BB7E10", VA = "0x4BB7E10")]
+	[Token(Token = "0x60008B9")]
+	[Address(RVA = "0x2B0C660", Offset = "0x2B0AC60", VA = "0x182B0C660")]
 	internal bool Allocate(int numberOfBrickChunks, List<ProbeBrickPool.BrickChunkAlloc> outAllocations)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x4BB7E50", Offset = "0x4BB7E50", VA = "0x4BB7E50")]
+	[Token(Token = "0x60008BA")]
+	[Address(RVA = "0x2B0CA50", Offset = "0x2B0B050", VA = "0x182B0CA50")]
 	internal void Deallocate(List<ProbeBrickPool.BrickChunkAlloc> allocations)
 	{
 	}
 
-	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x4BB7EB0", Offset = "0x4BB7EB0", VA = "0x4BB7EB0")]
+	[Token(Token = "0x60008BB")]
+	[Address(RVA = "0x2B0CAB0", Offset = "0x2B0B0B0", VA = "0x182B0CAB0")]
 	internal void EnsureTextureValidity()
 	{
 	}
 
-	[Token(Token = "0x6000906")]
-	[Address(RVA = "0x4BB7EE0", Offset = "0x4BB7EE0", VA = "0x4BB7EE0")]
+	[Token(Token = "0x60008BC")]
+	[Address(RVA = "0x2B0C9A0", Offset = "0x2B0AFA0", VA = "0x182B0C9A0")]
 	internal void Cleanup()
 	{
 	}

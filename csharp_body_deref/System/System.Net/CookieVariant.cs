@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200016A")]
+[Token(Token = "0x20002F2")]
 internal enum CookieVariant
 {
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x4000B36")]
 	Unknown = 0,
-	[Token(Token = "0x4000721")]
+	[Token(Token = "0x4000B37")]
 	Plain = 1,
-	[Token(Token = "0x4000722")]
+	[Token(Token = "0x4000B38")]
 	Rfc2109 = 2,
-	[Token(Token = "0x4000723")]
+	[Token(Token = "0x4000B39")]
 	Rfc2965 = 3,
-	[Token(Token = "0x4000724")]
-	Default = 2
+	[Token(Token = "0x4000B3A")]
+	Default = Rfc2109
 }

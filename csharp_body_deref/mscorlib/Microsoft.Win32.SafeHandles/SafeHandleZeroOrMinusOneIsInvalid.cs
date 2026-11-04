@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x200005D")]
+[Token(Token = "0x2000086")]
 public abstract class SafeHandleZeroOrMinusOneIsInvalid : SafeHandle
 {
 	[Token(Token = "0x17000037")]
 	public override bool IsInvalid
 	{
-		[Token(Token = "0x600021D")]
-		[Address(RVA = "0x3AF31F0", Offset = "0x3AF31F0", VA = "0x3AF31F0", Slot = "5")]
+		[Token(Token = "0x600025C")]
+		[Address(RVA = "0x1967C90", Offset = "0x1966290", VA = "0x181967C90", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x3AF3140", Offset = "0x3AF3140", VA = "0x3AF3140")]
+	[Token(Token = "0x600025B")]
+	[Address(RVA = "0x1967C80", Offset = "0x1966280", VA = "0x181967C80")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	protected SafeHandleZeroOrMinusOneIsInvalid(bool ownsHandle)
 	{

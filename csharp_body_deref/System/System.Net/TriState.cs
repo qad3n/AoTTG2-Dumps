@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000148")]
+[Token(Token = "0x20002D0")]
 internal enum TriState
 {
-	[Token(Token = "0x4000695")]
+	[Token(Token = "0x4000AAB")]
 	Unspecified = -1,
-	[Token(Token = "0x4000696")]
+	[Token(Token = "0x4000AAC")]
 	False,
-	[Token(Token = "0x4000697")]
+	[Token(Token = "0x4000AAD")]
 	True
 }

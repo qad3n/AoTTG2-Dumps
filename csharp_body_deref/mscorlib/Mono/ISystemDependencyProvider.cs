@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x200002F")]
 internal interface ISystemDependencyProvider
 {
 	[Token(Token = "0x17000004")]
 	Mono.ISystemCertificateProvider CertificateProvider
 	{
-		[Token(Token = "0x600003C")]
+		[Token(Token = "0x6000054")]
 		get;
 	}
 }

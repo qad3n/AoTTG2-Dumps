@@ -9,40 +9,40 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200036A")]
+[Token(Token = "0x200028B")]
 internal class NullFileWatcher : IFileWatcher
 {
-	[Token(Token = "0x4000F8F")]
+	[Token(Token = "0x4000907")]
 	[FieldOffset(Offset = "0x0")]
 	private static IFileWatcher instance;
 
-	[Token(Token = "0x60016D9")]
-	[Address(RVA = "0x48EEDD0", Offset = "0x48EEDD0", VA = "0x48EEDD0", Slot = "4")]
+	[Token(Token = "0x60011DD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void StartDispatching(object handle)
 	{
 	}
 
-	[Token(Token = "0x60016DA")]
-	[Address(RVA = "0x48EEDE0", Offset = "0x48EEDE0", VA = "0x48EEDE0", Slot = "5")]
+	[Token(Token = "0x60011DE")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public void StopDispatching(object handle)
 	{
 	}
 
-	[Token(Token = "0x60016DB")]
-	[Address(RVA = "0x48EEDF0", Offset = "0x48EEDF0", VA = "0x48EEDF0", Slot = "6")]
+	[Token(Token = "0x60011DF")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	public void Dispose(object handle)
 	{
 	}
 
-	[Token(Token = "0x60016DC")]
-	[Address(RVA = "0x48ED560", Offset = "0x48ED560", VA = "0x48ED560")]
+	[Token(Token = "0x60011E0")]
+	[Address(RVA = "0x2904CE0", Offset = "0x29032E0", VA = "0x182904CE0")]
 	public static bool GetInstance(out IFileWatcher watcher)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60016DD")]
-	[Address(RVA = "0x48EEE00", Offset = "0x48EEE00", VA = "0x48EEE00")]
+	[Token(Token = "0x60011E1")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public NullFileWatcher()
 	{
 	}

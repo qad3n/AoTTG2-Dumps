@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000A8")]
+[Token(Token = "0x20000C6")]
 public enum AppIdModeType
 {
-	[Token(Token = "0x400044F")]
+	[Token(Token = "0x40004D8")]
 	Public,
-	[Token(Token = "0x4000450")]
+	[Token(Token = "0x40004D9")]
 	Custom
 }

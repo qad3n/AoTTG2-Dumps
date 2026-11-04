@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200019B")]
+[Token(Token = "0x20001E2")]
 public interface IKeyboardEvent
 {
-	[Token(Token = "0x170001E8")]
+	[Token(Token = "0x1700026A")]
 	EventModifiers modifiers
 	{
-		[Token(Token = "0x6000ADC")]
+		[Token(Token = "0x6000CFF")]
 		get;
 	}
 
-	[Token(Token = "0x170001E9")]
+	[Token(Token = "0x1700026B")]
 	char character
 	{
-		[Token(Token = "0x6000ADD")]
+		[Token(Token = "0x6000D00")]
 		get;
 	}
 
-	[Token(Token = "0x170001EA")]
+	[Token(Token = "0x1700026C")]
 	KeyCode keyCode
 	{
-		[Token(Token = "0x6000ADE")]
+		[Token(Token = "0x6000D01")]
 		get;
 	}
 }

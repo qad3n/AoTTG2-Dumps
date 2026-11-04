@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x2000546")]
+[Token(Token = "0x200063C")]
 internal struct MatchResult
 {
-	[Token(Token = "0x400122E")]
+	[Token(Token = "0x40017D6")]
 	[FieldOffset(Offset = "0x0")]
 	public MatchResultErrorCode errorCode;
 
-	[Token(Token = "0x400122F")]
+	[Token(Token = "0x40017D7")]
 	[FieldOffset(Offset = "0x8")]
 	public string errorValue;
 
-	[Token(Token = "0x17000851")]
+	[Token(Token = "0x17000B6E")]
 	public bool success
 	{
-		[Token(Token = "0x6002036")]
-		[Address(RVA = "0x4FCE7A0", Offset = "0x4FCE7A0", VA = "0x4FCE7A0")]
+		[Token(Token = "0x6002D9E")]
+		[Address(RVA = "0x31ED1A0", Offset = "0x31EB7A0", VA = "0x1831ED1A0")]
 		get
 		{
 			return default(bool);

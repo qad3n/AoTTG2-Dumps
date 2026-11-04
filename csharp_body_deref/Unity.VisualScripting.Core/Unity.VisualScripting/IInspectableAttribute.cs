@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200003D")]
 public interface IInspectableAttribute
 {
-	[Token(Token = "0x1700005F")]
+	[Token(Token = "0x17000060")]
 	int order
 	{
-		[Token(Token = "0x60001DA")]
+		[Token(Token = "0x60001DE")]
 		get;
 	}
 }

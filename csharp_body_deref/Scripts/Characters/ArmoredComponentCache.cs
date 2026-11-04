@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x200053A")]
+[Token(Token = "0x2000695")]
 internal class ArmoredComponentCache : ShifterComponentCache
 {
-	[Token(Token = "0x6003660")]
-	[Address(RVA = "0x41FF110", Offset = "0x41FF110", VA = "0x41FF110")]
+	[Token(Token = "0x60040A2")]
+	[Address(RVA = "0x2166620", Offset = "0x2164C20", VA = "0x182166620")]
 	public ArmoredComponentCache(GameObject owner)
 	{
 	}

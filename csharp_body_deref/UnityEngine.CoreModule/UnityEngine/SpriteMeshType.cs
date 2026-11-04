@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001AC")]
+[Token(Token = "0x2000087")]
 public enum SpriteMeshType
 {
-	[Token(Token = "0x4000617")]
+	[Token(Token = "0x4000126")]
 	FullRect,
-	[Token(Token = "0x4000618")]
+	[Token(Token = "0x4000127")]
 	Tight
 }

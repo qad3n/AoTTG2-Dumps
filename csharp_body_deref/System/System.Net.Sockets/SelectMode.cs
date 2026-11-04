@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x20001FC")]
+[Token(Token = "0x2000389")]
 public enum SelectMode
 {
-	[Token(Token = "0x4000AB7")]
+	[Token(Token = "0x4000EE6")]
 	SelectRead,
-	[Token(Token = "0x4000AB8")]
+	[Token(Token = "0x4000EE7")]
 	SelectWrite,
-	[Token(Token = "0x4000AB9")]
+	[Token(Token = "0x4000EE8")]
 	SelectError
 }

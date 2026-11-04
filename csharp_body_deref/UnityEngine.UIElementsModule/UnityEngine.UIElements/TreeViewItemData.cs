@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TreeViewItemData
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -8,24 +8,26 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
+using Unity.Properties;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000121")]
+[Token(Token = "0x200016D")]
 public readonly struct TreeViewItemData<T>
 {
-	[Token(Token = "0x40004BE")]
+	[Token(Token = "0x40006A1")]
 	[FieldOffset(Offset = "0x0")]
+	[CreateProperty]
 	private readonly T m_Data;
 
-	[Token(Token = "0x40004BF")]
+	[Token(Token = "0x40006A2")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly IList<TreeViewItemData<T>> m_Children;
 
-	[Token(Token = "0x1700015F")]
+	[Token(Token = "0x170001F0")]
 	public int id
 	{
-		[Token(Token = "0x60007A6")]
+		[Token(Token = "0x6000A7D")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,54 +35,23 @@ public readonly struct TreeViewItemData<T>
 		}
 	}
 
-	[Token(Token = "0x17000160")]
+	[Token(Token = "0x170001F1")]
 	public T data
 	{
-		[Token(Token = "0x60007A7")]
+		[Token(Token = "0x6000A7E")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x17000161")]
+	[Token(Token = "0x170001F2")]
 	public IEnumerable<TreeViewItemData<T>> children
 	{
-		[Token(Token = "0x60007A8")]
+		[Token(Token = "0x6000A7F")]
 		get
 		{
 			return null;
 		}
-	}
-
-	[Token(Token = "0x17000162")]
-	public bool hasChildren
-	{
-		[Token(Token = "0x60007A9")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x60007AA")]
-	internal void InsertChild(TreeViewItemData<T> child, int index)
-	{
-	}
-
-	[Token(Token = "0x60007AB")]
-	internal void RemoveChild(int childId)
-	{
-	}
-
-	[Token(Token = "0x60007AC")]
-	internal int GetChildIndex(int itemId)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x60007AD")]
-	internal void ReplaceChild(TreeViewItemData<T> newChild)
-	{
 	}
 }

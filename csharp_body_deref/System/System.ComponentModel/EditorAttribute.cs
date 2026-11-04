@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200028D")]
+[Token(Token = "0x2000198")]
 [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = true)]
 public sealed class EditorAttribute : Attribute
 {
-	[Token(Token = "0x4000D62")]
+	[Token(Token = "0x4000699")]
 	[FieldOffset(Offset = "0x10")]
 	private string _typeId;
 
-	[Token(Token = "0x1700038E")]
+	[Token(Token = "0x170001FD")]
 	public string EditorBaseTypeName
 	{
-		[Token(Token = "0x600100D")]
-		[Address(RVA = "0x4891F10", Offset = "0x4891F10", VA = "0x4891F10")]
+		[Token(Token = "0x6000A55")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,11 +30,11 @@ public sealed class EditorAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700038F")]
+	[Token(Token = "0x170001FE")]
 	public string EditorTypeName
 	{
-		[Token(Token = "0x600100E")]
-		[Address(RVA = "0x4891F20", Offset = "0x4891F20", VA = "0x4891F20")]
+		[Token(Token = "0x6000A56")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,50 +42,50 @@ public sealed class EditorAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x17000390")]
+	[Token(Token = "0x170001FF")]
 	public override object TypeId
 	{
-		[Token(Token = "0x600100F")]
-		[Address(RVA = "0x4891F30", Offset = "0x4891F30", VA = "0x4891F30", Slot = "4")]
+		[Token(Token = "0x6000A57")]
+		[Address(RVA = "0x289C1A0", Offset = "0x289A7A0", VA = "0x18289C1A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001009")]
-	[Address(RVA = "0x4891CE0", Offset = "0x4891CE0", VA = "0x4891CE0")]
+	[Token(Token = "0x6000A51")]
+	[Address(RVA = "0x289C140", Offset = "0x289A740", VA = "0x18289C140")]
 	public EditorAttribute()
 	{
 	}
 
-	[Token(Token = "0x600100A")]
-	[Address(RVA = "0x4891D40", Offset = "0x4891D40", VA = "0x4891D40")]
+	[Token(Token = "0x6000A52")]
+	[Address(RVA = "0x289C090", Offset = "0x289A690", VA = "0x18289C090")]
 	public EditorAttribute(string typeName, string baseTypeName)
 	{
 	}
 
-	[Token(Token = "0x600100B")]
-	[Address(RVA = "0x4891DE0", Offset = "0x4891DE0", VA = "0x4891DE0")]
+	[Token(Token = "0x6000A53")]
+	[Address(RVA = "0x289BFD0", Offset = "0x289A5D0", VA = "0x18289BFD0")]
 	public EditorAttribute(string typeName, Type baseType)
 	{
 	}
 
-	[Token(Token = "0x600100C")]
-	[Address(RVA = "0x4891E90", Offset = "0x4891E90", VA = "0x4891E90")]
+	[Token(Token = "0x6000A54")]
+	[Address(RVA = "0x289BF40", Offset = "0x289A540", VA = "0x18289BF40")]
 	public EditorAttribute(Type type, Type baseType)
 	{
 	}
 
-	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x4891FD0", Offset = "0x4891FD0", VA = "0x4891FD0", Slot = "0")]
+	[Token(Token = "0x6000A58")]
+	[Address(RVA = "0x289BE90", Offset = "0x289A490", VA = "0x18289BE90", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001011")]
-	[Address(RVA = "0x4892060", Offset = "0x4892060", VA = "0x4892060", Slot = "2")]
+	[Token(Token = "0x6000A59")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

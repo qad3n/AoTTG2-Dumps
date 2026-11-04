@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200024C")]
+[Token(Token = "0x2000366")]
 internal abstract class LevelCustomSkinLoader : BaseCustomSkinLoader
 {
-	[Token(Token = "0x6000E29")]
-	[Address(RVA = "0x3F92120", Offset = "0x3F92120", VA = "0x3F92120", Slot = "7")]
+	[Token(Token = "0x600158A")]
+	[Address(RVA = "0x1E8B390", Offset = "0x1E89990", VA = "0x181E8B390", Slot = "8")]
 	protected virtual BaseCustomSkinPart GetCustomSkinPart(int partId, int randomIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x3F92160", Offset = "0x3F92160", VA = "0x3F92160", Slot = "8")]
+	[Token(Token = "0x600158B")]
+	[Address(RVA = "0x1E8B350", Offset = "0x1E89950", VA = "0x181E8B350", Slot = "9")]
 	protected virtual void FindAndIndexLevelObjects()
 	{
 	}
 
-	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x3F8FBD0", Offset = "0x3F8FBD0", VA = "0x3F8FBD0")]
+	[Token(Token = "0x600158C")]
+	[Address(RVA = "0x1E8B3D0", Offset = "0x1E899D0", VA = "0x181E8B3D0")]
 	protected LevelCustomSkinLoader()
 	{
 	}

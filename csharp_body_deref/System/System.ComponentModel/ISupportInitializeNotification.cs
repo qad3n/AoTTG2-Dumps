@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002A3")]
+[Token(Token = "0x20001AE")]
 public interface ISupportInitializeNotification : ISupportInitialize
 {
-	[Token(Token = "0x170003BA")]
+	[Token(Token = "0x17000229")]
 	bool IsInitialized
 	{
-		[Token(Token = "0x60010A9")]
+		[Token(Token = "0x6000AF1")]
 		get;
 	}
 

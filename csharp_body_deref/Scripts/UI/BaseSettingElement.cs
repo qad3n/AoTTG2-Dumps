@@ -12,74 +12,74 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20005EB")]
+[Token(Token = "0x2000741")]
 internal abstract class BaseSettingElement : MonoBehaviour
 {
-	[Token(Token = "0x4001C7C")]
+	[Token(Token = "0x400240A")]
 	[FieldOffset(Offset = "0x20")]
 	protected BaseSetting _setting;
 
-	[Token(Token = "0x4001C7D")]
+	[Token(Token = "0x400240B")]
 	[FieldOffset(Offset = "0x28")]
 	protected SettingType _settingType;
 
-	[Token(Token = "0x4001C7E")]
+	[Token(Token = "0x400240C")]
 	[FieldOffset(Offset = "0x30")]
 	protected ElementStyle _style;
 
-	[Token(Token = "0x17000B7B")]
+	[Token(Token = "0x17000CC0")]
 	protected virtual HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6003C38")]
-		[Address(RVA = "0x428E740", Offset = "0x428E740", VA = "0x428E740", Slot = "4")]
+		[Token(Token = "0x60046F0")]
+		[Address(RVA = "0x2201F40", Offset = "0x2200540", VA = "0x182201F40", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003C39")]
-	[Address(RVA = "0x428E7A0", Offset = "0x428E7A0", VA = "0x428E7A0", Slot = "5")]
+	[Token(Token = "0x60046F1")]
+	[Address(RVA = "0x2201E10", Offset = "0x2200410", VA = "0x182201E10", Slot = "5")]
 	public virtual void Setup(BaseSetting setting, ElementStyle style, string title, string tooltip)
 	{
 	}
 
-	[Token(Token = "0x6003C3A")]
-	[Address(RVA = "0x428EB60", Offset = "0x428EB60", VA = "0x428EB60")]
+	[Token(Token = "0x60046F2")]
+	[Address(RVA = "0x2201D10", Offset = "0x2200310", VA = "0x182201D10")]
 	protected void SetupTooltip(string tooltip, ElementStyle style)
 	{
 	}
 
-	[Token(Token = "0x6003C3B")]
+	[Token(Token = "0x60046F3")]
 	public abstract void SyncElement();
 
-	[Token(Token = "0x6003C3C")]
-	[Address(RVA = "0x428E8D0", Offset = "0x428E8D0", VA = "0x428E8D0")]
+	[Token(Token = "0x60046F4")]
+	[Address(RVA = "0x2201960", Offset = "0x21FFF60", VA = "0x182201960")]
 	protected SettingType GetSettingType(BaseSetting setting)
 	{
 		return default(SettingType);
 	}
 
-	[Token(Token = "0x6003C3D")]
-	[Address(RVA = "0x428E8E0", Offset = "0x428E8E0", VA = "0x428E8E0")]
+	[Token(Token = "0x60046F5")]
+	[Address(RVA = "0x2201A70", Offset = "0x2200070", VA = "0x182201A70")]
 	protected void SetupTitle(string title, int fontSize, float titleWidth)
 	{
 	}
 
-	[Token(Token = "0x6003C3E")]
-	[Address(RVA = "0x428EC50", Offset = "0x428EC50", VA = "0x428EC50")]
+	[Token(Token = "0x60046F6")]
+	[Address(RVA = "0x22019E0", Offset = "0x21FFFE0", VA = "0x1822019E0")]
 	protected void SetupLabel(GameObject obj, string title, int fontSize)
 	{
 	}
 
-	[Token(Token = "0x6003C3F")]
-	[Address(RVA = "0x428ECD0", Offset = "0x428ECD0", VA = "0x428ECD0")]
+	[Token(Token = "0x60046F7")]
+	[Address(RVA = "0x2201970", Offset = "0x21FFF70", VA = "0x182201970")]
 	protected void SetupLabel(GameObject obj, string title)
 	{
 	}
 
-	[Token(Token = "0x6003C40")]
-	[Address(RVA = "0x428ED40", Offset = "0x428ED40", VA = "0x428ED40")]
+	[Token(Token = "0x60046F8")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	protected BaseSettingElement()
 	{
 	}

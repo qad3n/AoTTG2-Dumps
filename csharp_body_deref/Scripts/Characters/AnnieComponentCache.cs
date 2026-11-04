@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000537")]
+[Token(Token = "0x2000692")]
 internal class AnnieComponentCache : ShifterComponentCache
 {
-	[Token(Token = "0x600364D")]
-	[Address(RVA = "0x41FD5A0", Offset = "0x41FD5A0", VA = "0x41FD5A0")]
+	[Token(Token = "0x600408D")]
+	[Address(RVA = "0x2164D20", Offset = "0x2163320", VA = "0x182164D20")]
 	public AnnieComponentCache(GameObject owner)
 	{
 	}

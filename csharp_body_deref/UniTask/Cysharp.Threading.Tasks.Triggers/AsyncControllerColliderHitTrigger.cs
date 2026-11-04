@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001B6")]
+[Token(Token = "0x20001B9")]
 [DisallowMultipleComponent]
 public sealed class AsyncControllerColliderHitTrigger : AsyncTriggerBase<ControllerColliderHit>
 {
-	[Token(Token = "0x6000AE1")]
-	[Address(RVA = "0x4A0CBE0", Offset = "0x4A0CBE0", VA = "0x4A0CBE0")]
+	[Token(Token = "0x6000B05")]
+	[Address(RVA = "0x292C0E0", Offset = "0x292A6E0", VA = "0x18292C0E0")]
 	private void OnControllerColliderHit(ControllerColliderHit hit)
 	{
 	}
 
-	[Token(Token = "0x6000AE2")]
-	[Address(RVA = "0x4A0CC30", Offset = "0x4A0CC30", VA = "0x4A0CC30")]
+	[Token(Token = "0x6000B06")]
+	[Address(RVA = "0x292BDC0", Offset = "0x292A3C0", VA = "0x18292BDC0")]
 	public IAsyncOnControllerColliderHitHandler GetOnControllerColliderHitAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AE3")]
-	[Address(RVA = "0x4A0CCA0", Offset = "0x4A0CCA0", VA = "0x4A0CCA0")]
+	[Token(Token = "0x6000B07")]
+	[Address(RVA = "0x292BE30", Offset = "0x292A430", VA = "0x18292BE30")]
 	public IAsyncOnControllerColliderHitHandler GetOnControllerColliderHitAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AE4")]
-	[Address(RVA = "0x4A0CD10", Offset = "0x4A0CD10", VA = "0x4A0CD10")]
+	[Token(Token = "0x6000B08")]
+	[Address(RVA = "0x292BFC0", Offset = "0x292A5C0", VA = "0x18292BFC0")]
 	public UniTask<ControllerColliderHit> OnControllerColliderHitAsync()
 	{
 		return default(UniTask<ControllerColliderHit>);
 	}
 
-	[Token(Token = "0x6000AE5")]
-	[Address(RVA = "0x4A0CE10", Offset = "0x4A0CE10", VA = "0x4A0CE10")]
+	[Token(Token = "0x6000B09")]
+	[Address(RVA = "0x292BEB0", Offset = "0x292A4B0", VA = "0x18292BEB0")]
 	public UniTask<ControllerColliderHit> OnControllerColliderHitAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<ControllerColliderHit>);
 	}
 
-	[Token(Token = "0x6000AE6")]
-	[Address(RVA = "0x4A0CF20", Offset = "0x4A0CF20", VA = "0x4A0CF20")]
+	[Token(Token = "0x6000B0A")]
+	[Address(RVA = "0x292C130", Offset = "0x292A730", VA = "0x18292C130")]
 	public AsyncControllerColliderHitTrigger()
 	{
 	}

@@ -16,80 +16,80 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class, Inherited = true, AllowMultiple = false)]
 public sealed class SingletonAttribute : Attribute
 {
-	[Token(Token = "0x170001C6")]
+	[Token(Token = "0x170001C9")]
 	public bool Persistent
 	{
-		[Token(Token = "0x6000FEA")]
-		[Address(RVA = "0x4D5D420", Offset = "0x4D5D420", VA = "0x4D5D420")]
+		[Token(Token = "0x6000FF7")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000FEB")]
-		[Address(RVA = "0x4D5D430", Offset = "0x4D5D430", VA = "0x4D5D430")]
+		[Token(Token = "0x6000FF8")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001C7")]
+	[Token(Token = "0x170001CA")]
 	public bool Automatic
 	{
-		[Token(Token = "0x6000FEC")]
-		[Address(RVA = "0x4D5D440", Offset = "0x4D5D440", VA = "0x4D5D440")]
+		[Token(Token = "0x6000FF9")]
+		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000FED")]
-		[Address(RVA = "0x4D5D450", Offset = "0x4D5D450", VA = "0x4D5D450")]
+		[Token(Token = "0x6000FFA")]
+		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001C8")]
+	[Token(Token = "0x170001CB")]
 	public HideFlags HideFlags
 	{
-		[Token(Token = "0x6000FEE")]
-		[Address(RVA = "0x4D5D460", Offset = "0x4D5D460", VA = "0x4D5D460")]
+		[Token(Token = "0x6000FFB")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(HideFlags);
 		}
-		[Token(Token = "0x6000FEF")]
-		[Address(RVA = "0x4D5D470", Offset = "0x4D5D470", VA = "0x4D5D470")]
+		[Token(Token = "0x6000FFC")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001C9")]
+	[Token(Token = "0x170001CC")]
 	public string Name
 	{
-		[Token(Token = "0x6000FF0")]
-		[Address(RVA = "0x4D5D480", Offset = "0x4D5D480", VA = "0x4D5D480")]
+		[Token(Token = "0x6000FFD")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000FF1")]
-		[Address(RVA = "0x4D5D490", Offset = "0x4D5D490", VA = "0x4D5D490")]
+		[Token(Token = "0x6000FFE")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x4D5D400", Offset = "0x4D5D400", VA = "0x4D5D400")]
+	[Token(Token = "0x6000FF6")]
+	[Address(RVA = "0x2E3CD10", Offset = "0x2E3B310", VA = "0x182E3CD10")]
 	public SingletonAttribute()
 	{
 	}

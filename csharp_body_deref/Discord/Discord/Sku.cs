@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x2000047")]
 public struct Sku
 {
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x40000E0")]
 	[FieldOffset(Offset = "0x0")]
 	public long Id;
 
-	[Token(Token = "0x40000E6")]
+	[Token(Token = "0x40000E1")]
 	[FieldOffset(Offset = "0x8")]
 	public SkuType Type;
 
-	[Token(Token = "0x40000E7")]
+	[Token(Token = "0x40000E2")]
 	[FieldOffset(Offset = "0x10")]
 	public string Name;
 
-	[Token(Token = "0x40000E8")]
+	[Token(Token = "0x40000E3")]
 	[FieldOffset(Offset = "0x18")]
 	public SkuPrice Price;
 }

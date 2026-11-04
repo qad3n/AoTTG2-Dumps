@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001C0")]
+[Token(Token = "0x2000207")]
 internal static class PointerEventsHelper
 {
-	[Token(Token = "0x6000BAC")]
+	[Token(Token = "0x6000DCE")]
 	internal static void SendEnterLeave<TLeaveEvent, TEnterEvent>(VisualElement previousTopElementUnderPointer, VisualElement currentTopElementUnderPointer, IPointerEvent triggerEvent, Vector2 position, int pointerId) where TLeaveEvent : PointerEventBase<TLeaveEvent>, new() where TEnterEvent : PointerEventBase<TEnterEvent>, new()
 	{
 	}
 
-	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x502BBE0", Offset = "0x502BBE0", VA = "0x502BBE0")]
+	[Token(Token = "0x6000DCF")]
+	[Address(RVA = "0x326C360", Offset = "0x326A960", VA = "0x18326C360")]
 	internal static void SendOverOut(VisualElement previousTopElementUnderPointer, VisualElement currentTopElementUnderPointer, IPointerEvent triggerEvent, Vector2 position, int pointerId)
 	{
 	}

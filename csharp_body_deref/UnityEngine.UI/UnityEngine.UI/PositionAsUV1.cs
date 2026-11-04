@@ -9,18 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000087")]
-[AddComponentMenu("UI/Effects/Position As UV1", 82)]
+[Token(Token = "0x2000085")]
+[AddComponentMenu("UI (Canvas)/Effects/Position As UV1", 82)]
+[UnityEngine.UGUIHelpURL("PositionAsUV1")]
 public class PositionAsUV1 : BaseMeshEffect
 {
-	[Token(Token = "0x6000537")]
-	[Address(RVA = "0x50EFF60", Offset = "0x50EFF60", VA = "0x50EFF60")]
+	[Token(Token = "0x6000543")]
+	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
 	protected PositionAsUV1()
 	{
 	}
 
-	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x50EFF70", Offset = "0x50EFF70", VA = "0x50EFF70", Slot = "20")]
+	[Token(Token = "0x6000544")]
+	[Address(RVA = "0x32DAE60", Offset = "0x32D9460", VA = "0x1832DAE60", Slot = "20")]
 	public override void ModifyMesh(VertexHelper vh)
 	{
 	}

@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000495")]
+[Token(Token = "0x20004C4")]
 internal static class AsyncTaskCache
 {
-	[Token(Token = "0x400131D")]
+	[Token(Token = "0x400131F")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Task<bool> TrueTask;
 
-	[Token(Token = "0x400131E")]
+	[Token(Token = "0x4001320")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly Task<bool> FalseTask;
 
-	[Token(Token = "0x400131F")]
+	[Token(Token = "0x4001321")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly Task<int>[] Int32Tasks;
 
-	[Token(Token = "0x60022DB")]
-	[Address(RVA = "0x3BC2D70", Offset = "0x3BC2D70", VA = "0x3BC2D70")]
+	[Token(Token = "0x600235B")]
+	[Address(RVA = "0x1A28670", Offset = "0x1A26C70", VA = "0x181A28670")]
 	private static Task<int>[] CreateInt32Tasks()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60022DC")]
+	[Token(Token = "0x600235C")]
 	internal static Task<TResult> CreateCacheableTask<TResult>(TResult result)
 	{
 		return null;

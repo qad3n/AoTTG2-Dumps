@@ -11,21 +11,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x200001E")]
 internal class WebRpcCallbacksContainer : List<IWebRpcCallback>, IWebRpcCallback
 {
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000C7")]
 	[FieldOffset(Offset = "0x28")]
 	private LoadBalancingClient client;
 
-	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x3EBF590", Offset = "0x3EBF590", VA = "0x3EBF590")]
+	[Token(Token = "0x60000F5")]
+	[Address(RVA = "0x1D27130", Offset = "0x1D25730", VA = "0x181D27130")]
 	public WebRpcCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
-	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x3EC7CD0", Offset = "0x3EC7CD0", VA = "0x3EC7CD0", Slot = "35")]
+	[Token(Token = "0x60000F6")]
+	[Address(RVA = "0x1D26F90", Offset = "0x1D25590", VA = "0x181D26F90", Slot = "35")]
 	public void OnWebRpcResponse(OperationResponse response)
 	{
 	}

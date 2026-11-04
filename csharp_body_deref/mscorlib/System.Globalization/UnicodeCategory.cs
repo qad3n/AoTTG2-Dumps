@@ -9,67 +9,67 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005B8")]
+[Token(Token = "0x200058A")]
 public enum UnicodeCategory
 {
-	[Token(Token = "0x40018A1")]
+	[Token(Token = "0x40016E9")]
 	UppercaseLetter,
-	[Token(Token = "0x40018A2")]
+	[Token(Token = "0x40016EA")]
 	LowercaseLetter,
-	[Token(Token = "0x40018A3")]
+	[Token(Token = "0x40016EB")]
 	TitlecaseLetter,
-	[Token(Token = "0x40018A4")]
+	[Token(Token = "0x40016EC")]
 	ModifierLetter,
-	[Token(Token = "0x40018A5")]
+	[Token(Token = "0x40016ED")]
 	OtherLetter,
-	[Token(Token = "0x40018A6")]
+	[Token(Token = "0x40016EE")]
 	NonSpacingMark,
-	[Token(Token = "0x40018A7")]
+	[Token(Token = "0x40016EF")]
 	SpacingCombiningMark,
-	[Token(Token = "0x40018A8")]
+	[Token(Token = "0x40016F0")]
 	EnclosingMark,
-	[Token(Token = "0x40018A9")]
+	[Token(Token = "0x40016F1")]
 	DecimalDigitNumber,
-	[Token(Token = "0x40018AA")]
+	[Token(Token = "0x40016F2")]
 	LetterNumber,
-	[Token(Token = "0x40018AB")]
+	[Token(Token = "0x40016F3")]
 	OtherNumber,
-	[Token(Token = "0x40018AC")]
+	[Token(Token = "0x40016F4")]
 	SpaceSeparator,
-	[Token(Token = "0x40018AD")]
+	[Token(Token = "0x40016F5")]
 	LineSeparator,
-	[Token(Token = "0x40018AE")]
+	[Token(Token = "0x40016F6")]
 	ParagraphSeparator,
-	[Token(Token = "0x40018AF")]
+	[Token(Token = "0x40016F7")]
 	Control,
-	[Token(Token = "0x40018B0")]
+	[Token(Token = "0x40016F8")]
 	Format,
-	[Token(Token = "0x40018B1")]
+	[Token(Token = "0x40016F9")]
 	Surrogate,
-	[Token(Token = "0x40018B2")]
+	[Token(Token = "0x40016FA")]
 	PrivateUse,
-	[Token(Token = "0x40018B3")]
+	[Token(Token = "0x40016FB")]
 	ConnectorPunctuation,
-	[Token(Token = "0x40018B4")]
+	[Token(Token = "0x40016FC")]
 	DashPunctuation,
-	[Token(Token = "0x40018B5")]
+	[Token(Token = "0x40016FD")]
 	OpenPunctuation,
-	[Token(Token = "0x40018B6")]
+	[Token(Token = "0x40016FE")]
 	ClosePunctuation,
-	[Token(Token = "0x40018B7")]
+	[Token(Token = "0x40016FF")]
 	InitialQuotePunctuation,
-	[Token(Token = "0x40018B8")]
+	[Token(Token = "0x4001700")]
 	FinalQuotePunctuation,
-	[Token(Token = "0x40018B9")]
+	[Token(Token = "0x4001701")]
 	OtherPunctuation,
-	[Token(Token = "0x40018BA")]
+	[Token(Token = "0x4001702")]
 	MathSymbol,
-	[Token(Token = "0x40018BB")]
+	[Token(Token = "0x4001703")]
 	CurrencySymbol,
-	[Token(Token = "0x40018BC")]
+	[Token(Token = "0x4001704")]
 	ModifierSymbol,
-	[Token(Token = "0x40018BD")]
+	[Token(Token = "0x4001705")]
 	OtherSymbol,
-	[Token(Token = "0x40018BE")]
+	[Token(Token = "0x4001706")]
 	OtherNotAssigned
 }

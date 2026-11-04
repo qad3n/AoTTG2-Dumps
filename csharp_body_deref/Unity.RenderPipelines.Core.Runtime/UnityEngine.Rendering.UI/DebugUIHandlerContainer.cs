@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000218")]
+[Token(Token = "0x20002D7")]
 public class DebugUIHandlerContainer : MonoBehaviour
 {
-	[Token(Token = "0x400086D")]
+	[Token(Token = "0x4000D3F")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	public RectTransform contentHolder;
 
-	[Token(Token = "0x6000E87")]
-	[Address(RVA = "0x4C0ED90", Offset = "0x4C0ED90", VA = "0x4C0ED90")]
+	[Token(Token = "0x600141F")]
+	[Address(RVA = "0x2BABF30", Offset = "0x2BAA530", VA = "0x182BABF30")]
 	internal DebugUIHandlerWidget GetFirstItem()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E88")]
-	[Address(RVA = "0x4C0EBB0", Offset = "0x4C0EBB0", VA = "0x4C0EBB0")]
+	[Token(Token = "0x6001420")]
+	[Address(RVA = "0x2BABFB0", Offset = "0x2BAA5B0", VA = "0x182BABFB0")]
 	internal DebugUIHandlerWidget GetLastItem()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E89")]
-	[Address(RVA = "0x4C0EAB0", Offset = "0x4C0EAB0", VA = "0x4C0EAB0")]
+	[Token(Token = "0x6001421")]
+	[Address(RVA = "0x2BAC040", Offset = "0x2BAA640", VA = "0x182BAC040")]
 	internal bool IsDirectChild(DebugUIHandlerWidget widget)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E8A")]
-	[Address(RVA = "0x4C122E0", Offset = "0x4C122E0", VA = "0x4C122E0")]
+	[Token(Token = "0x6001422")]
+	[Address(RVA = "0x2BABC60", Offset = "0x2BAA260", VA = "0x182BABC60")]
 	private List<DebugUIHandlerWidget> GetActiveChildren()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E8B")]
-	[Address(RVA = "0x4C127D0", Offset = "0x4C127D0", VA = "0x4C127D0")]
+	[Token(Token = "0x6001423")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DebugUIHandlerContainer()
 	{
 	}

@@ -11,136 +11,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000350")]
+[Token(Token = "0x20004A0")]
 [CompilerGenerated]
 internal class CustomLogicDummyAnimationEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000351")]
+	[Token(Token = "0x20004A1")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001CCE")]
-		[Address(RVA = "0x404E090", Offset = "0x404E090", VA = "0x404E090")]
+		[Token(Token = "0x60025A3")]
+		[Address(RVA = "0x1FA49E0", Offset = "0x1FA2FE0", VA = "0x181FA49E0")]
 		public static CustomLogicDummyAnimationEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000352")]
+	[Token(Token = "0x20004A2")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000FF8")]
+		[Token(Token = "0x4001626")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001CCF")]
-		[Address(RVA = "0x404E1B0", Offset = "0x404E1B0", VA = "0x404E1B0")]
+		[Token(Token = "0x60025A4")]
+		[Address(RVA = "0x1F8AC20", Offset = "0x1F89220", VA = "0x181F8AC20")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001CD0")]
-		[Address(RVA = "0x404E340", Offset = "0x404E340", VA = "0x404E340")]
+		[Token(Token = "0x60025A5")]
+		[Address(RVA = "0x1F97F20", Offset = "0x1F96520", VA = "0x181F97F20")]
 		public static CLPropertyBinding<CustomLogicDummyAnimationEnum> __CreatePropertyBinding__Idle()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001CD1")]
-		[Address(RVA = "0x404E3E0", Offset = "0x404E3E0", VA = "0x404E3E0")]
+		[Token(Token = "0x60025A6")]
+		[Address(RVA = "0x1F96D50", Offset = "0x1F95350", VA = "0x181F96D50")]
 		public static CLPropertyBinding<CustomLogicDummyAnimationEnum> __CreatePropertyBinding__Fall()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001CD2")]
-		[Address(RVA = "0x404E480", Offset = "0x404E480", VA = "0x404E480")]
+		[Token(Token = "0x60025A7")]
+		[Address(RVA = "0x1F9A220", Offset = "0x1F98820", VA = "0x181F9A220")]
 		public static CLPropertyBinding<CustomLogicDummyAnimationEnum> __CreatePropertyBinding__Rise()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700044F")]
+	[Token(Token = "0x17000515")]
 	public static string Idle
 	{
-		[Token(Token = "0x6001CC7")]
-		[Address(RVA = "0x404DFA0", Offset = "0x404DFA0", VA = "0x404DFA0")]
+		[Token(Token = "0x600259C")]
+		[Address(RVA = "0x1F8EA30", Offset = "0x1F8D030", VA = "0x181F8EA30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000450")]
+	[Token(Token = "0x17000516")]
 	public static string Fall
 	{
-		[Token(Token = "0x6001CC8")]
-		[Address(RVA = "0x404DFD0", Offset = "0x404DFD0", VA = "0x404DFD0")]
+		[Token(Token = "0x600259D")]
+		[Address(RVA = "0x1F8E180", Offset = "0x1F8C780", VA = "0x181F8E180")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000451")]
+	[Token(Token = "0x17000517")]
 	public static string Rise
 	{
-		[Token(Token = "0x6001CC9")]
-		[Address(RVA = "0x404E000", Offset = "0x404E000", VA = "0x404E000")]
+		[Token(Token = "0x600259E")]
+		[Address(RVA = "0x1F90420", Offset = "0x1F8EA20", VA = "0x181F90420")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000452")]
+	[Token(Token = "0x17000518")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001CCA")]
-		[Address(RVA = "0x404E030", Offset = "0x404E030", VA = "0x404E030", Slot = "4")]
+		[Token(Token = "0x600259F")]
+		[Address(RVA = "0x1FA0220", Offset = "0x1F9E820", VA = "0x181FA0220", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000453")]
+	[Token(Token = "0x17000519")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001CCB")]
-		[Address(RVA = "0x404E060", Offset = "0x404E060", VA = "0x404E060", Slot = "6")]
+		[Token(Token = "0x60025A0")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000454")]
+	[Token(Token = "0x1700051A")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001CCC")]
-		[Address(RVA = "0x404E070", Offset = "0x404E070", VA = "0x404E070", Slot = "7")]
+		[Token(Token = "0x60025A1")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000455")]
+	[Token(Token = "0x1700051B")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001CCD")]
-		[Address(RVA = "0x404E080", Offset = "0x404E080", VA = "0x404E080", Slot = "8")]
+		[Token(Token = "0x60025A2")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001CC6")]
-	[Address(RVA = "0x404DF30", Offset = "0x404DF30", VA = "0x404DF30")]
+	[Token(Token = "0x600259B")]
+	[Address(RVA = "0x1FA01D0", Offset = "0x1F9E7D0", VA = "0x181FA01D0")]
 	public CustomLogicDummyAnimationEnum()
 	{
 	}

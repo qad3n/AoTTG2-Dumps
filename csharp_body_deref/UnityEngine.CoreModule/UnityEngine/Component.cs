@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Component
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -16,17 +16,17 @@ using UnityEngineInternal;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000160")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Scripting/Component.bindings.h")]
-[UnityEngine.NativeClass("Unity::Component")]
+[Token(Token = "0x2000193")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.NativeClass("Unity::Component")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Scripting/Component.bindings.h")]
 public class Component : Object
 {
-	[Token(Token = "0x170001C1")]
+	[Token(Token = "0x1700022D")]
 	public Transform transform
 	{
-		[Token(Token = "0x60009E3")]
-		[Address(RVA = "0x4DF6F50", Offset = "0x4DF6F50", VA = "0x4DF6F50")]
+		[Token(Token = "0x6000D23")]
+		[Address(RVA = "0x2F14A90", Offset = "0x2F13090", VA = "0x182F14A90")]
 		[UnityEngine.Bindings.FreeFunction("GetTransform", HasExplicitThis = true, ThrowsException = true)]
 		get
 		{
@@ -34,11 +34,23 @@ public class Component : Object
 		}
 	}
 
-	[Token(Token = "0x170001C2")]
+	[Token(Token = "0x1700022E")]
+	public TransformHandle transformHandle
+	{
+		[Token(Token = "0x6000D24")]
+		[Address(RVA = "0x2F149C0", Offset = "0x2F12FC0", VA = "0x182F149C0")]
+		[UnityEngine.Bindings.FreeFunction("GetTransformHandle", HasExplicitThis = true, ThrowsException = true)]
+		get
+		{
+			return default(TransformHandle);
+		}
+	}
+
+	[Token(Token = "0x1700022F")]
 	public GameObject gameObject
 	{
-		[Token(Token = "0x60009E4")]
-		[Address(RVA = "0x4DF7010", Offset = "0x4DF7010", VA = "0x4DF7010")]
+		[Token(Token = "0x6000D25")]
+		[Address(RVA = "0x2F14830", Offset = "0x2F12E30", VA = "0x182F14830")]
 		[UnityEngine.Bindings.FreeFunction("GetGameObject", HasExplicitThis = true)]
 		get
 		{
@@ -46,351 +58,375 @@ public class Component : Object
 		}
 	}
 
-	[Token(Token = "0x170001C3")]
+	[Token(Token = "0x17000230")]
 	public string tag
 	{
-		[Token(Token = "0x6000A02")]
-		[Address(RVA = "0x4DF8290", Offset = "0x4DF8290", VA = "0x4DF8290")]
+		[Token(Token = "0x6000D43")]
+		[Address(RVA = "0x2F148D0", Offset = "0x2F12ED0", VA = "0x182F148D0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x4DF8440", Offset = "0x4DF8440", VA = "0x4DF8440")]
+		[Token(Token = "0x6000D44")]
+		[Address(RVA = "0x2F14B30", Offset = "0x2F13130", VA = "0x182F14B30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60009E5")]
-	[Address(RVA = "0x4DF70D0", Offset = "0x4DF70D0", VA = "0x4DF70D0")]
+	[Token(Token = "0x6000D26")]
+	[Address(RVA = "0x2F13A50", Offset = "0x2F12050", VA = "0x182F13A50")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public Component GetComponent(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009E6")]
-	[Address(RVA = "0x4DF7280", Offset = "0x4DF7280", VA = "0x4DF7280")]
+	[Token(Token = "0x6000D27")]
+	[Address(RVA = "0x2F131C0", Offset = "0x2F117C0", VA = "0x182F131C0")]
 	[UnityEngine.Bindings.FreeFunction(HasExplicitThis = true, ThrowsException = true)]
 	internal void GetComponentFastPath(Type type, IntPtr oneFurtherThanResultValue)
 	{
 	}
 
-	[Token(Token = "0x60009E7")]
+	[Token(Token = "0x6000D28")]
 	public T GetComponent<T>()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x4DF7360", Offset = "0x4DF7360", VA = "0x4DF7360")]
+	[Token(Token = "0x6000D29")]
+	[Address(RVA = "0x2F14600", Offset = "0x2F12C00", VA = "0x182F14600")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public bool TryGetComponent(Type type, out Component component)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009E9")]
+	[Token(Token = "0x6000D2A")]
 	public bool TryGetComponent<T>(out T component)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x4DF7590", Offset = "0x4DF7590", VA = "0x4DF7590")]
+	[Token(Token = "0x6000D2B")]
+	[Address(RVA = "0x2F13830", Offset = "0x2F11E30", VA = "0x182F13830")]
 	[UnityEngine.Bindings.FreeFunction(HasExplicitThis = true)]
 	public Component GetComponent(string type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009EB")]
-	[Address(RVA = "0x4DF7660", Offset = "0x4DF7660", VA = "0x4DF7660")]
+	[Token(Token = "0x6000D2C")]
+	[Address(RVA = "0x2F13390", Offset = "0x2F11990", VA = "0x182F13390")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public Component GetComponentInChildren(Type t, bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009EC")]
-	[Address(RVA = "0x4DF7830", Offset = "0x4DF7830", VA = "0x4DF7830")]
+	[Token(Token = "0x6000D2D")]
+	[Address(RVA = "0x2F13260", Offset = "0x2F11860", VA = "0x182F13260")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public Component GetComponentInChildren(Type t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009ED")]
+	[Token(Token = "0x6000D2E")]
 	public T GetComponentInChildren<T>([DefaultValue("false")] bool includeInactive)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009EE")]
+	[Token(Token = "0x6000D2F")]
 	[ExcludeFromDocs]
 	public T GetComponentInChildren<T>()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009EF")]
-	[Address(RVA = "0x4DF7840", Offset = "0x4DF7840", VA = "0x4DF7840")]
+	[Token(Token = "0x6000D30")]
+	[Address(RVA = "0x2F13C70", Offset = "0x2F12270", VA = "0x182F13C70")]
 	public Component[] GetComponentsInChildren(Type t, bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F0")]
-	[Address(RVA = "0x4DF7A00", Offset = "0x4DF7A00", VA = "0x4DF7A00")]
+	[Token(Token = "0x6000D31")]
+	[Address(RVA = "0x2F13D40", Offset = "0x2F12340", VA = "0x182F13D40")]
 	[ExcludeFromDocs]
 	public Component[] GetComponentsInChildren(Type t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F1")]
+	[Token(Token = "0x6000D32")]
 	public T[] GetComponentsInChildren<T>(bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F2")]
+	[Token(Token = "0x6000D33")]
 	public void GetComponentsInChildren<T>(bool includeInactive, List<T> result)
 	{
 	}
 
-	[Token(Token = "0x60009F3")]
+	[Token(Token = "0x6000D34")]
 	public T[] GetComponentsInChildren<T>()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F4")]
+	[Token(Token = "0x6000D35")]
 	public void GetComponentsInChildren<T>(List<T> results)
 	{
 	}
 
-	[Token(Token = "0x60009F5")]
-	[Address(RVA = "0x4DF7AB0", Offset = "0x4DF7AB0", VA = "0x4DF7AB0")]
+	[Token(Token = "0x6000D36")]
+	[Address(RVA = "0x2F135F0", Offset = "0x2F11BF0", VA = "0x182F135F0")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public Component GetComponentInParent(Type t, bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F6")]
-	[Address(RVA = "0x4DF7C80", Offset = "0x4DF7C80", VA = "0x4DF7C80")]
+	[Token(Token = "0x6000D37")]
+	[Address(RVA = "0x2F134C0", Offset = "0x2F11AC0", VA = "0x182F134C0")]
 	[TypeInferenceRule(TypeInferenceRules.TypeReferencedByFirstArgument)]
 	public Component GetComponentInParent(Type t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F7")]
+	[Token(Token = "0x6000D38")]
 	public T GetComponentInParent<T>([DefaultValue("false")] bool includeInactive)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009F8")]
+	[Token(Token = "0x6000D39")]
 	public T GetComponentInParent<T>()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009F9")]
-	[Address(RVA = "0x4DF7DA0", Offset = "0x4DF7DA0", VA = "0x4DF7DA0")]
+	[Token(Token = "0x6000D3A")]
+	[Address(RVA = "0x2F13E00", Offset = "0x2F12400", VA = "0x182F13E00")]
 	public Component[] GetComponentsInParent(Type t, [DefaultValue("false")] bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009FA")]
-	[Address(RVA = "0x4DF7F60", Offset = "0x4DF7F60", VA = "0x4DF7F60")]
+	[Token(Token = "0x6000D3B")]
+	[Address(RVA = "0x2F13ED0", Offset = "0x2F124D0", VA = "0x182F13ED0")]
 	[ExcludeFromDocs]
 	public Component[] GetComponentsInParent(Type t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009FB")]
+	[Token(Token = "0x6000D3C")]
 	public T[] GetComponentsInParent<T>(bool includeInactive)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009FC")]
+	[Token(Token = "0x6000D3D")]
 	public void GetComponentsInParent<T>(bool includeInactive, List<T> results)
 	{
 	}
 
-	[Token(Token = "0x60009FD")]
+	[Token(Token = "0x6000D3E")]
 	public T[] GetComponentsInParent<T>()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009FE")]
-	[Address(RVA = "0x4DF7F70", Offset = "0x4DF7F70", VA = "0x4DF7F70")]
+	[Token(Token = "0x6000D3F")]
+	[Address(RVA = "0x2F13F90", Offset = "0x2F12590", VA = "0x182F13F90")]
 	public Component[] GetComponents(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x4DF8110", Offset = "0x4DF8110", VA = "0x4DF8110")]
+	[Token(Token = "0x6000D40")]
+	[Address(RVA = "0x2F13BD0", Offset = "0x2F121D0", VA = "0x182F13BD0")]
 	[UnityEngine.Bindings.FreeFunction(HasExplicitThis = true, ThrowsException = true)]
 	private void GetComponentsForListInternal(Type searchType, object resultList)
 	{
 	}
 
-	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x4DF81F0", Offset = "0x4DF81F0", VA = "0x4DF81F0")]
+	[Token(Token = "0x6000D41")]
+	[Address(RVA = "0x2F13BD0", Offset = "0x2F121D0", VA = "0x182F13BD0")]
 	public void GetComponents(Type type, List<Component> results)
 	{
 	}
 
-	[Token(Token = "0x6000A01")]
+	[Token(Token = "0x6000D42")]
 	public void GetComponents<T>(List<T> results)
 	{
 	}
 
-	[Token(Token = "0x6000A04")]
+	[Token(Token = "0x6000D45")]
 	public T[] GetComponents<T>()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A05")]
-	[Address(RVA = "0x4DF85F0", Offset = "0x4DF85F0", VA = "0x4DF85F0")]
+	[Token(Token = "0x6000D46")]
+	[Address(RVA = "0x2F13760", Offset = "0x2F11D60", VA = "0x182F13760")]
+	public int GetComponentIndex()
+	{
+		return default(int);
+	}
+
+	[Token(Token = "0x6000D47")]
+	[Address(RVA = "0x2F12FA0", Offset = "0x2F115A0", VA = "0x182F12FA0")]
 	public bool CompareTag(string tag)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x4DF87A0", Offset = "0x4DF87A0", VA = "0x4DF87A0")]
+	[Token(Token = "0x6000D48")]
+	[Address(RVA = "0x2F13050", Offset = "0x2F11650", VA = "0x182F13050")]
+	public bool CompareTag(TagHandle tag)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000D49")]
+	[Address(RVA = "0x2F14150", Offset = "0x2F12750", VA = "0x182F14150")]
 	[UnityEngine.Bindings.FreeFunction(HasExplicitThis = true)]
 	public void SendMessageUpwards(string methodName, [DefaultValue("null")] object value, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A07")]
-	[Address(RVA = "0x4DF8890", Offset = "0x4DF8890", VA = "0x4DF8890")]
+	[Token(Token = "0x6000D4A")]
+	[Address(RVA = "0x2F14360", Offset = "0x2F12960", VA = "0x182F14360")]
 	[ExcludeFromDocs]
 	public void SendMessageUpwards(string methodName, object value)
 	{
 	}
 
-	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x4DF8930", Offset = "0x4DF8930", VA = "0x4DF8930")]
+	[Token(Token = "0x6000D4B")]
+	[Address(RVA = "0x2F14320", Offset = "0x2F12920", VA = "0x182F14320")]
 	[ExcludeFromDocs]
 	public void SendMessageUpwards(string methodName)
 	{
 	}
 
-	[Token(Token = "0x6000A09")]
-	[Address(RVA = "0x4DF89C0", Offset = "0x4DF89C0", VA = "0x4DF89C0")]
+	[Token(Token = "0x6000D4C")]
+	[Address(RVA = "0x2F14340", Offset = "0x2F12940", VA = "0x182F14340")]
 	public void SendMessageUpwards(string methodName, SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A0A")]
-	[Address(RVA = "0x4DF8A60", Offset = "0x4DF8A60", VA = "0x4DF8A60")]
+	[Token(Token = "0x6000D4D")]
+	[Address(RVA = "0x2F145A0", Offset = "0x2F12BA0", VA = "0x182F145A0")]
 	public void SendMessage(string methodName, object value)
 	{
 	}
 
-	[Token(Token = "0x6000A0B")]
-	[Address(RVA = "0x4DF8BA0", Offset = "0x4DF8BA0", VA = "0x4DF8BA0")]
+	[Token(Token = "0x6000D4E")]
+	[Address(RVA = "0x2F145C0", Offset = "0x2F12BC0", VA = "0x182F145C0")]
 	public void SendMessage(string methodName)
 	{
 	}
 
-	[Token(Token = "0x6000A0C")]
-	[Address(RVA = "0x4DF8B00", Offset = "0x4DF8B00", VA = "0x4DF8B00")]
+	[Token(Token = "0x6000D4F")]
+	[Address(RVA = "0x2F143D0", Offset = "0x2F129D0", VA = "0x182F143D0")]
 	[UnityEngine.Bindings.FreeFunction("SendMessage", HasExplicitThis = true)]
 	public void SendMessage(string methodName, object value, SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A0D")]
-	[Address(RVA = "0x4DF8C80", Offset = "0x4DF8C80", VA = "0x4DF8C80")]
+	[Token(Token = "0x6000D50")]
+	[Address(RVA = "0x2F145E0", Offset = "0x2F12BE0", VA = "0x182F145E0")]
 	public void SendMessage(string methodName, SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A0E")]
-	[Address(RVA = "0x4DF8D20", Offset = "0x4DF8D20", VA = "0x4DF8D20")]
+	[Token(Token = "0x6000D51")]
+	[Address(RVA = "0x2F12DB0", Offset = "0x2F113B0", VA = "0x182F12DB0")]
 	[UnityEngine.Bindings.FreeFunction("BroadcastMessage", HasExplicitThis = true)]
 	public void BroadcastMessage(string methodName, [DefaultValue("null")] object parameter, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A0F")]
-	[Address(RVA = "0x4DF8E10", Offset = "0x4DF8E10", VA = "0x4DF8E10")]
+	[Token(Token = "0x6000D52")]
+	[Address(RVA = "0x2F12D70", Offset = "0x2F11370", VA = "0x182F12D70")]
 	[ExcludeFromDocs]
 	public void BroadcastMessage(string methodName, object parameter)
 	{
 	}
 
-	[Token(Token = "0x6000A10")]
-	[Address(RVA = "0x4DF8EB0", Offset = "0x4DF8EB0", VA = "0x4DF8EB0")]
+	[Token(Token = "0x6000D53")]
+	[Address(RVA = "0x2F12F80", Offset = "0x2F11580", VA = "0x182F12F80")]
 	[ExcludeFromDocs]
 	public void BroadcastMessage(string methodName)
 	{
 	}
 
-	[Token(Token = "0x6000A11")]
-	[Address(RVA = "0x4DF8F40", Offset = "0x4DF8F40", VA = "0x4DF8F40")]
+	[Token(Token = "0x6000D54")]
+	[Address(RVA = "0x2F12D90", Offset = "0x2F11390", VA = "0x182F12D90")]
 	public void BroadcastMessage(string methodName, SendMessageOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A12")]
-	[Address(RVA = "0x4DF6770", Offset = "0x4DF6770", VA = "0x4DF6770")]
+	[Token(Token = "0x6000D55")]
+	[Address(RVA = "0x2F12960", Offset = "0x2F10F60", VA = "0x182F12960")]
 	public Component()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A13")]
-	[Address(RVA = "0x4DF6FE0", Offset = "0x4DF6FE0", VA = "0x4DF6FE0")]
-	private static extern Transform get_transform_Injected(IntPtr _unity_self);
+	[Token(Token = "0x6000D56")]
+	[Address(RVA = "0x2F14A50", Offset = "0x2F13050", VA = "0x182F14A50")]
+	private static extern IntPtr get_transform_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A14")]
-	[Address(RVA = "0x4DF70A0", Offset = "0x4DF70A0", VA = "0x4DF70A0")]
-	private static extern GameObject get_gameObject_Injected(IntPtr _unity_self);
+	[Token(Token = "0x6000D57")]
+	[Address(RVA = "0x2F14970", Offset = "0x2F12F70", VA = "0x182F14970")]
+	private static extern void get_transformHandle_Injected(IntPtr _unity_self, out TransformHandle ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A15")]
-	[Address(RVA = "0x4DF7320", Offset = "0x4DF7320", VA = "0x4DF7320")]
+	[Token(Token = "0x6000D58")]
+	[Address(RVA = "0x2F147F0", Offset = "0x2F12DF0", VA = "0x182F147F0")]
+	private static extern IntPtr get_gameObject_Injected(IntPtr _unity_self);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000D59")]
+	[Address(RVA = "0x2F13160", Offset = "0x2F11760", VA = "0x182F13160")]
 	private static extern void GetComponentFastPath_Injected(IntPtr _unity_self, Type type, IntPtr oneFurtherThanResultValue);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A16")]
-	[Address(RVA = "0x4DF7620", Offset = "0x4DF7620", VA = "0x4DF7620")]
-	private static extern Component GetComponent_Injected(IntPtr _unity_self, string type);
+	[Token(Token = "0x6000D5A")]
+	[Address(RVA = "0x2F137E0", Offset = "0x2F11DE0", VA = "0x182F137E0")]
+	private static extern IntPtr GetComponent_Injected(IntPtr _unity_self, ref ManagedSpanWrapper type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A17")]
-	[Address(RVA = "0x4DF81B0", Offset = "0x4DF81B0", VA = "0x4DF81B0")]
+	[Token(Token = "0x6000D5B")]
+	[Address(RVA = "0x2F13B70", Offset = "0x2F12170", VA = "0x182F13B70")]
 	private static extern void GetComponentsForListInternal_Injected(IntPtr _unity_self, Type searchType, object resultList);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A18")]
-	[Address(RVA = "0x4DF8840", Offset = "0x4DF8840", VA = "0x4DF8840")]
-	private static extern void SendMessageUpwards_Injected(IntPtr _unity_self, string methodName, [DefaultValue("null")] object value, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options);
+	[Token(Token = "0x6000D5C")]
+	[Address(RVA = "0x2F13720", Offset = "0x2F11D20", VA = "0x182F13720")]
+	private static extern int GetComponentIndex_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A19")]
-	[Address(RVA = "0x4DF8C30", Offset = "0x4DF8C30", VA = "0x4DF8C30")]
-	private static extern void SendMessage_Injected(IntPtr _unity_self, string methodName, object value, SendMessageOptions options);
+	[Token(Token = "0x6000D5D")]
+	[Address(RVA = "0x2F14100", Offset = "0x2F12700", VA = "0x182F14100")]
+	private static extern void SendMessageUpwards_Injected(IntPtr _unity_self, ref ManagedSpanWrapper methodName, [DefaultValue("null")] object value, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A1A")]
-	[Address(RVA = "0x4DF8DC0", Offset = "0x4DF8DC0", VA = "0x4DF8DC0")]
-	private static extern void BroadcastMessage_Injected(IntPtr _unity_self, string methodName, [DefaultValue("null")] object parameter, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options);
+	[Token(Token = "0x6000D5E")]
+	[Address(RVA = "0x2F14380", Offset = "0x2F12980", VA = "0x182F14380")]
+	private static extern void SendMessage_Injected(IntPtr _unity_self, ref ManagedSpanWrapper methodName, object value, SendMessageOptions options);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000D5F")]
+	[Address(RVA = "0x2F12D20", Offset = "0x2F11320", VA = "0x182F12D20")]
+	private static extern void BroadcastMessage_Injected(IntPtr _unity_self, ref ManagedSpanWrapper methodName, [DefaultValue("null")] object parameter, [DefaultValue("SendMessageOptions.RequireReceiver")] SendMessageOptions options);
 }

@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x20000BE")]
 internal abstract class SqlStreamChars
 {
-	[Token(Token = "0x1700019D")]
+	[Token(Token = "0x170001A0")]
 	public abstract long Length
 	{
-		[Token(Token = "0x6000AD7")]
+		[Token(Token = "0x6000AF6")]
 		get;
 	}
 
-	[Token(Token = "0x1700019E")]
+	[Token(Token = "0x170001A1")]
 	public abstract long Position
 	{
-		[Token(Token = "0x6000AD8")]
+		[Token(Token = "0x6000AF7")]
 		get;
 	}
 
-	[Token(Token = "0x6000AD9")]
+	[Token(Token = "0x6000AF8")]
 	public abstract int Read(char[] buffer, int offset, int count);
 
-	[Token(Token = "0x6000ADA")]
+	[Token(Token = "0x6000AF9")]
 	public abstract long Seek(long offset, SeekOrigin origin);
 }

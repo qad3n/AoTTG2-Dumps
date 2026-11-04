@@ -11,45 +11,45 @@ using SimpleJSONFixed;
 
 namespace Map;
 
-[Token(Token = "0x2000265")]
+[Token(Token = "0x200038E")]
 internal class BuiltinMapPrefabs
 {
-	[Token(Token = "0x4000CF3")]
+	[Token(Token = "0x4001267")]
 	[FieldOffset(Offset = "0x0")]
 	private static JSONNode _prefabList;
 
-	[Token(Token = "0x4000CF4")]
+	[Token(Token = "0x4001268")]
 	[FieldOffset(Offset = "0x8")]
 	public static Dictionary<string, MapScriptBaseObject> AllPrefabs;
 
-	[Token(Token = "0x4000CF5")]
+	[Token(Token = "0x4001269")]
 	[FieldOffset(Offset = "0x10")]
 	public static Dictionary<string, List<MapScriptBaseObject>> PrefabCategories;
 
-	[Token(Token = "0x4000CF6")]
+	[Token(Token = "0x400126A")]
 	[FieldOffset(Offset = "0x18")]
 	public static Dictionary<string, MapScriptBaseObject> AllPrefabsLower;
 
-	[Token(Token = "0x4000CF7")]
+	[Token(Token = "0x400126B")]
 	[FieldOffset(Offset = "0x20")]
 	public static Dictionary<string, string> PrefabPreviews;
 
-	[Token(Token = "0x4000CF8")]
+	[Token(Token = "0x400126C")]
 	[FieldOffset(Offset = "0x28")]
 	public static Dictionary<string, List<string>> PrefabVariants;
 
-	[Token(Token = "0x4000CF9")]
+	[Token(Token = "0x400126D")]
 	[FieldOffset(Offset = "0x30")]
 	public static Dictionary<string, string> VariantToBasePrefab;
 
-	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x3F9F1C0", Offset = "0x3F9F1C0", VA = "0x3F9F1C0")]
+	[Token(Token = "0x600168B")]
+	[Address(RVA = "0x1E84A30", Offset = "0x1E83030", VA = "0x181E84A30")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6000ED6")]
-	[Address(RVA = "0x3FA0640", Offset = "0x3FA0640", VA = "0x3FA0640")]
+	[Token(Token = "0x600168C")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public BuiltinMapPrefabs()
 	{
 	}

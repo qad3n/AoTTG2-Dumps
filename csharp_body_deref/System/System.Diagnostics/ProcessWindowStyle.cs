@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000DB")]
+[Token(Token = "0x200011B")]
 public enum ProcessWindowStyle
 {
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x40004DB")]
 	Hidden = 1,
-	[Token(Token = "0x400040A")]
+	[Token(Token = "0x40004DC")]
 	Maximized = 3,
-	[Token(Token = "0x400040B")]
+	[Token(Token = "0x40004DD")]
 	Minimized = 2,
-	[Token(Token = "0x400040C")]
+	[Token(Token = "0x40004DE")]
 	Normal = 0
 }

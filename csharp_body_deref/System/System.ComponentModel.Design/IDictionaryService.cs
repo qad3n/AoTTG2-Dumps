@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x200032A")]
+[Token(Token = "0x2000235")]
 public interface IDictionaryService
 {
-	[Token(Token = "0x6001516")]
+	[Token(Token = "0x6000F5E")]
 	object GetValue(object key);
 
-	[Token(Token = "0x6001517")]
+	[Token(Token = "0x6000F5F")]
 	void SetValue(object key, object value);
 }

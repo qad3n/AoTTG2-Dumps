@@ -9,121 +9,121 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001A4")]
+[Token(Token = "0x20001BE")]
 public static class ColorUtils
 {
-	[Token(Token = "0x400073E")]
+	[Token(Token = "0x40008AE")]
 	[FieldOffset(Offset = "0x0")]
 	public static float s_LightMeterCalibrationConstant;
 
-	[Token(Token = "0x400073F")]
+	[Token(Token = "0x40008AF")]
 	[FieldOffset(Offset = "0x4")]
 	public static float s_LensAttenuation;
 
-	[Token(Token = "0x17000176")]
+	[Token(Token = "0x170001C1")]
 	public static float lensImperfectionExposureScale
 	{
-		[Token(Token = "0x6000C67")]
-		[Address(RVA = "0x4BF6C70", Offset = "0x4BF6C70", VA = "0x4BF6C70")]
+		[Token(Token = "0x6000D8F")]
+		[Address(RVA = "0x2B40A40", Offset = "0x2B3F040", VA = "0x182B40A40")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6000C68")]
-	[Address(RVA = "0x4BF6CD0", Offset = "0x4BF6CD0", VA = "0x4BF6CD0")]
+	[Token(Token = "0x6000D90")]
+	[Address(RVA = "0x2B408B0", Offset = "0x2B3EEB0", VA = "0x182B408B0")]
 	public static float StandardIlluminantY(float x)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C69")]
-	[Address(RVA = "0x4BF6D00", Offset = "0x4BF6D00", VA = "0x4BF6D00")]
+	[Token(Token = "0x6000D91")]
+	[Address(RVA = "0x2B3FBB0", Offset = "0x2B3E1B0", VA = "0x182B3FBB0")]
 	public static Vector3 CIExyToLMS(float x, float y)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000C6A")]
-	[Address(RVA = "0x4BF6D80", Offset = "0x4BF6D80", VA = "0x4BF6D80")]
+	[Token(Token = "0x6000D92")]
+	[Address(RVA = "0x2B3FC40", Offset = "0x2B3E240", VA = "0x182B3FC40")]
 	public static Vector3 ColorBalanceToLMSCoeffs(float temperature, float tint)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000C6B")]
-	[Address(RVA = "0x4BF6EF0", Offset = "0x4BF6EF0", VA = "0x4BF6EF0")]
+	[Token(Token = "0x6000D93")]
+	[Address(RVA = "0x2B404E0", Offset = "0x2B3EAE0", VA = "0x182B404E0")]
 	public static (Vector4, Vector4, Vector4) PrepareShadowsMidtonesHighlights(in Vector4 inShadows, in Vector4 inMidtones, in Vector4 inHighlights)
 	{
 		return default((Vector4, Vector4, Vector4));
 	}
 
-	[Token(Token = "0x6000C6C")]
-	[Address(RVA = "0x4BF71C0", Offset = "0x4BF71C0", VA = "0x4BF71C0")]
+	[Token(Token = "0x6000D94")]
+	[Address(RVA = "0x2B40150", Offset = "0x2B3E750", VA = "0x182B40150")]
 	public static (Vector4, Vector4, Vector4) PrepareLiftGammaGain(in Vector4 inLift, in Vector4 inGamma, in Vector4 inGain)
 	{
 		return default((Vector4, Vector4, Vector4));
 	}
 
-	[Token(Token = "0x6000C6D")]
-	[Address(RVA = "0x4BF74F0", Offset = "0x4BF74F0", VA = "0x4BF74F0")]
+	[Token(Token = "0x6000D95")]
+	[Address(RVA = "0x2B407D0", Offset = "0x2B3EDD0", VA = "0x182B407D0")]
 	public static (Vector4, Vector4) PrepareSplitToning(in Vector4 inShadows, in Vector4 inHighlights, float balance)
 	{
 		return default((Vector4, Vector4));
 	}
 
-	[Token(Token = "0x6000C6E")]
-	[Address(RVA = "0x4BF74C0", Offset = "0x4BF74C0", VA = "0x4BF74C0")]
+	[Token(Token = "0x6000D96")]
+	[Address(RVA = "0x2B40120", Offset = "0x2B3E720", VA = "0x182B40120")]
 	public static float Luminance(in Color color)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C6F")]
-	[Address(RVA = "0x4BF7580", Offset = "0x4BF7580", VA = "0x4BF7580")]
+	[Token(Token = "0x6000D97")]
+	[Address(RVA = "0x2B3FE80", Offset = "0x2B3E480", VA = "0x182B3FE80")]
 	public static float ComputeEV100(float aperture, float shutterSpeed, float ISO)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C70")]
-	[Address(RVA = "0x4BF7610", Offset = "0x4BF7610", VA = "0x4BF7610")]
+	[Token(Token = "0x6000D98")]
+	[Address(RVA = "0x2B3FF50", Offset = "0x2B3E550", VA = "0x182B3FF50")]
 	public static float ConvertEV100ToExposure(float EV100)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C71")]
-	[Address(RVA = "0x4BF7720", Offset = "0x4BF7720", VA = "0x4BF7720")]
+	[Token(Token = "0x6000D99")]
+	[Address(RVA = "0x2B40020", Offset = "0x2B3E620", VA = "0x182B40020")]
 	public static float ConvertExposureToEV100(float exposure)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C72")]
-	[Address(RVA = "0x4BF7880", Offset = "0x4BF7880", VA = "0x4BF7880")]
+	[Token(Token = "0x6000D9A")]
+	[Address(RVA = "0x2B3FDD0", Offset = "0x2B3E3D0", VA = "0x182B3FDD0")]
 	public static float ComputeEV100FromAvgLuminance(float avgLuminance)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C73")]
-	[Address(RVA = "0x4BF7970", Offset = "0x4BF7970", VA = "0x4BF7970")]
+	[Token(Token = "0x6000D9B")]
+	[Address(RVA = "0x2B3FF00", Offset = "0x2B3E500", VA = "0x182B3FF00")]
 	public static float ComputeISO(float aperture, float shutterSpeed, float targetEV100)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000C74")]
-	[Address(RVA = "0x4BF79B0", Offset = "0x4BF79B0", VA = "0x4BF79B0")]
+	[Token(Token = "0x6000D9C")]
+	[Address(RVA = "0x2B408E0", Offset = "0x2B3EEE0", VA = "0x182B408E0")]
 	public static uint ToHex(Color c)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000C75")]
-	[Address(RVA = "0x4BF7A30", Offset = "0x4BF7A30", VA = "0x4BF7A30")]
+	[Token(Token = "0x6000D9D")]
+	[Address(RVA = "0x2B40970", Offset = "0x2B3EF70", VA = "0x182B40970")]
 	public static Color ToRGBA(uint hex)
 	{
 		return default(Color);

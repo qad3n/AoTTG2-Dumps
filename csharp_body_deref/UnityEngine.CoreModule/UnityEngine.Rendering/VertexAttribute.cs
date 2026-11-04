@@ -10,36 +10,36 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A6")]
+[Token(Token = "0x200031D")]
 [MovedFrom("UnityEngine.Experimental.Rendering")]
 public enum VertexAttribute
 {
-	[Token(Token = "0x4000702")]
+	[Token(Token = "0x40007FD")]
 	Position,
-	[Token(Token = "0x4000703")]
+	[Token(Token = "0x40007FE")]
 	Normal,
-	[Token(Token = "0x4000704")]
+	[Token(Token = "0x40007FF")]
 	Tangent,
-	[Token(Token = "0x4000705")]
+	[Token(Token = "0x4000800")]
 	Color,
-	[Token(Token = "0x4000706")]
+	[Token(Token = "0x4000801")]
 	TexCoord0,
-	[Token(Token = "0x4000707")]
+	[Token(Token = "0x4000802")]
 	TexCoord1,
-	[Token(Token = "0x4000708")]
+	[Token(Token = "0x4000803")]
 	TexCoord2,
-	[Token(Token = "0x4000709")]
+	[Token(Token = "0x4000804")]
 	TexCoord3,
-	[Token(Token = "0x400070A")]
+	[Token(Token = "0x4000805")]
 	TexCoord4,
-	[Token(Token = "0x400070B")]
+	[Token(Token = "0x4000806")]
 	TexCoord5,
-	[Token(Token = "0x400070C")]
+	[Token(Token = "0x4000807")]
 	TexCoord6,
-	[Token(Token = "0x400070D")]
+	[Token(Token = "0x4000808")]
 	TexCoord7,
-	[Token(Token = "0x400070E")]
+	[Token(Token = "0x4000809")]
 	BlendWeight,
-	[Token(Token = "0x400070F")]
+	[Token(Token = "0x400080A")]
 	BlendIndices
 }

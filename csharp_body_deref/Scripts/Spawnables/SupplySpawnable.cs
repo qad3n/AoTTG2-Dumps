@@ -13,14 +13,14 @@ namespace Spawnables;
 [Token(Token = "0x2000063")]
 internal class SupplySpawnable : BaseSpawnable
 {
-	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x3F84B20", Offset = "0x3F84B20", VA = "0x3F84B20")]
+	[Token(Token = "0x600030B")]
+	[Address(RVA = "0x1DCF860", Offset = "0x1DCDE60", VA = "0x181DCF860")]
 	protected void OnTriggerStay(Collider other)
 	{
 	}
 
-	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x3F84C00", Offset = "0x3F84C00", VA = "0x3F84C00")]
+	[Token(Token = "0x600030C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SupplySpawnable()
 	{
 	}

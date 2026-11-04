@@ -11,37 +11,37 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x200013F")]
+[Token(Token = "0x2000127")]
 internal struct ProbeDilationSettings
 {
-	[Token(Token = "0x400057B")]
+	[Token(Token = "0x400056B")]
 	[FieldOffset(Offset = "0x0")]
 	public bool enableDilation;
 
-	[Token(Token = "0x400057C")]
+	[Token(Token = "0x400056C")]
 	[FieldOffset(Offset = "0x4")]
 	public float dilationDistance;
 
-	[Token(Token = "0x400057D")]
+	[Token(Token = "0x400056D")]
 	[FieldOffset(Offset = "0x8")]
 	public float dilationValidityThreshold;
 
-	[Token(Token = "0x400057E")]
+	[Token(Token = "0x400056E")]
 	[FieldOffset(Offset = "0xC")]
 	public int dilationIterations;
 
-	[Token(Token = "0x400057F")]
+	[Token(Token = "0x400056F")]
 	[FieldOffset(Offset = "0x10")]
 	public bool squaredDistWeighting;
 
-	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x4BCDDF0", Offset = "0x4BCDDF0", VA = "0x4BCDDF0")]
+	[Token(Token = "0x6000A4F")]
+	[Address(RVA = "0x2B12D20", Offset = "0x2B11320", VA = "0x182B12D20")]
 	internal void SetDefaults()
 	{
 	}
 
-	[Token(Token = "0x6000A25")]
-	[Address(RVA = "0x4BCDE10", Offset = "0x4BCDE10", VA = "0x4BCDE10")]
+	[Token(Token = "0x6000A50")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	internal void UpgradeFromTo(ProbeVolumeBakingProcessSettings.SettingsVersion from, ProbeVolumeBakingProcessSettings.SettingsVersion to)
 	{
 	}

@@ -9,91 +9,91 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000C9")]
+[Token(Token = "0x20000CB")]
 public abstract class UIBehaviour : MonoBehaviour
 {
-	[Token(Token = "0x600075D")]
-	[Address(RVA = "0x5104150", Offset = "0x5104150", VA = "0x5104150", Slot = "4")]
+	[Token(Token = "0x60007A2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x50F1510", Offset = "0x50F1510", VA = "0x50F1510", Slot = "5")]
+	[Token(Token = "0x60007A3")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	protected virtual void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600075F")]
-	[Address(RVA = "0x50F7F30", Offset = "0x50F7F30", VA = "0x50F7F30", Slot = "6")]
+	[Token(Token = "0x60007A4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	protected virtual void Start()
 	{
 	}
 
-	[Token(Token = "0x6000760")]
-	[Address(RVA = "0x50F1530", Offset = "0x50F1530", VA = "0x50F1530", Slot = "7")]
+	[Token(Token = "0x60007A5")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	protected virtual void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000761")]
-	[Address(RVA = "0x5104160", Offset = "0x5104160", VA = "0x5104160", Slot = "8")]
+	[Token(Token = "0x60007A6")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	protected virtual void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000762")]
-	[Address(RVA = "0x5104170", Offset = "0x5104170", VA = "0x5104170", Slot = "9")]
+	[Token(Token = "0x60007A7")]
+	[Address(RVA = "0x3304540", Offset = "0x3302B40", VA = "0x183304540", Slot = "9")]
 	public virtual bool IsActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000763")]
-	[Address(RVA = "0x5104180", Offset = "0x5104180", VA = "0x5104180", Slot = "10")]
+	[Token(Token = "0x60007A8")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected virtual void OnRectTransformDimensionsChange()
 	{
 	}
 
-	[Token(Token = "0x6000764")]
-	[Address(RVA = "0x5104190", Offset = "0x5104190", VA = "0x5104190", Slot = "11")]
+	[Token(Token = "0x60007A9")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
 	protected virtual void OnBeforeTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x6000765")]
-	[Address(RVA = "0x5102990", Offset = "0x5102990", VA = "0x5102990", Slot = "12")]
+	[Token(Token = "0x60007AA")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
 	protected virtual void OnTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x6000766")]
-	[Address(RVA = "0x51041A0", Offset = "0x51041A0", VA = "0x51041A0", Slot = "13")]
+	[Token(Token = "0x60007AB")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
 	protected virtual void OnDidApplyAnimationProperties()
 	{
 	}
 
-	[Token(Token = "0x6000767")]
-	[Address(RVA = "0x51041B0", Offset = "0x51041B0", VA = "0x51041B0", Slot = "14")]
+	[Token(Token = "0x60007AC")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "14")]
 	protected virtual void OnCanvasGroupChanged()
 	{
 	}
 
-	[Token(Token = "0x6000768")]
-	[Address(RVA = "0x5102960", Offset = "0x5102960", VA = "0x5102960", Slot = "15")]
+	[Token(Token = "0x60007AD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
 	protected virtual void OnCanvasHierarchyChanged()
 	{
 	}
 
-	[Token(Token = "0x6000769")]
-	[Address(RVA = "0x51041C0", Offset = "0x51041C0", VA = "0x51041C0", Slot = "16")]
+	[Token(Token = "0x60007AE")]
+	[Address(RVA = "0x3304550", Offset = "0x3302B50", VA = "0x183304550", Slot = "16")]
 	public bool IsDestroyed()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600076A")]
-	[Address(RVA = "0x50F3F60", Offset = "0x50F3F60", VA = "0x50F3F60")]
+	[Token(Token = "0x60007AF")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	protected UIBehaviour()
 	{
 	}

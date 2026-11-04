@@ -11,26 +11,26 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x200027E")]
+[Token(Token = "0x20003C6")]
 public class MapScriptBasicMaterial : MapScriptBaseMaterial
 {
-	[Token(Token = "0x4000D8D")]
+	[Token(Token = "0x40013A4")]
 	[FieldOffset(Offset = "0x20")]
 	[Order(3)]
 	public string Texture;
 
-	[Token(Token = "0x4000D8E")]
+	[Token(Token = "0x40013A5")]
 	[FieldOffset(Offset = "0x28")]
 	[Order(4)]
 	public Vector2 Tiling;
 
-	[Token(Token = "0x4000D8F")]
+	[Token(Token = "0x40013A6")]
 	[FieldOffset(Offset = "0x30")]
 	[Order(5)]
 	public Vector2 Offset;
 
-	[Token(Token = "0x6000F50")]
-	[Address(RVA = "0x3FB4C30", Offset = "0x3FB4C30", VA = "0x3FB4C30")]
+	[Token(Token = "0x60017C8")]
+	[Address(RVA = "0x1ED9E40", Offset = "0x1ED8440", VA = "0x181ED9E40")]
 	public MapScriptBasicMaterial()
 	{
 	}

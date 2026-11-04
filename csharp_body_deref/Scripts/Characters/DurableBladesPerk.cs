@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000510")]
+[Token(Token = "0x200066A")]
 internal class DurableBladesPerk : BasePerk
 {
-	[Token(Token = "0x170009D5")]
+	[Token(Token = "0x17000B05")]
 	public override string Name
 	{
-		[Token(Token = "0x600354D")]
-		[Address(RVA = "0x41E6ED0", Offset = "0x41E6ED0", VA = "0x41E6ED0", Slot = "4")]
+		[Token(Token = "0x6003F7A")]
+		[Address(RVA = "0x21469F0", Offset = "0x2144FF0", VA = "0x1821469F0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009D6")]
+	[Token(Token = "0x17000B06")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x600354E")]
-		[Address(RVA = "0x41E6F00", Offset = "0x41E6F00", VA = "0x41E6F00", Slot = "5")]
+		[Token(Token = "0x6003F7B")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600354F")]
-	[Address(RVA = "0x41E4E80", Offset = "0x41E4E80", VA = "0x41E4E80")]
+	[Token(Token = "0x6003F7C")]
+	[Address(RVA = "0x21466B0", Offset = "0x2144CB0", VA = "0x1821466B0")]
 	public DurableBladesPerk()
 	{
 	}

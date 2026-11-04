@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005E3")]
-[ComVisible(true)]
+[Token(Token = "0x20005B5")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true)]
+[ComVisible(true)]
 public sealed class DebuggerTypeProxyAttribute : Attribute
 {
-	[Token(Token = "0x4001A06")]
+	[Token(Token = "0x4001822")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string typeName;
 
-	[Token(Token = "0x6002E5F")]
-	[Address(RVA = "0x3C7A5F0", Offset = "0x3C7A5F0", VA = "0x3C7A5F0")]
+	[Token(Token = "0x6002B6C")]
+	[Address(RVA = "0x1ABF6A0", Offset = "0x1ABDCA0", VA = "0x181ABF6A0")]
 	public DebuggerTypeProxyAttribute(Type type)
 	{
 	}

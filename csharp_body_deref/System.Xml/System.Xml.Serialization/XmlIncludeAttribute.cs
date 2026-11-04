@@ -21,7 +21,7 @@ public class XmlIncludeAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x4815860", Offset = "0x4815860", VA = "0x4815860")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;

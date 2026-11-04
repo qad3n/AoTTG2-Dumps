@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001C9")]
+[Token(Token = "0x2000210")]
 public class NavigationSubmitEvent : NavigationEventBase<NavigationSubmitEvent>
 {
-	[Token(Token = "0x6000BD0")]
-	[Address(RVA = "0x5036500", Offset = "0x5036500", VA = "0x5036500")]
+	[Token(Token = "0x6000DF1")]
+	[Address(RVA = "0x32698E0", Offset = "0x3267EE0", VA = "0x1832698E0")]
 	static NavigationSubmitEvent()
 	{
 	}
 
-	[Token(Token = "0x6000BD1")]
-	[Address(RVA = "0x50365D0", Offset = "0x50365D0", VA = "0x50365D0")]
+	[Token(Token = "0x6000DF2")]
+	[Address(RVA = "0x32699C0", Offset = "0x3267FC0", VA = "0x1832699C0")]
 	public NavigationSubmitEvent()
 	{
 	}

@@ -21,14 +21,14 @@ public class JsonCloneSettings
 	public bool CopyAnnotations
 	{
 		[Token(Token = "0x6000C93")]
-		[Address(RVA = "0x3E1CC10", Offset = "0x3E1CC10", VA = "0x3E1CC10")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000C94")]
-		[Address(RVA = "0x3E1CC20", Offset = "0x3E1CC20", VA = "0x3E1CC20")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -36,7 +36,7 @@ public class JsonCloneSettings
 	}
 
 	[Token(Token = "0x6000C92")]
-	[Address(RVA = "0x3E1CBF0", Offset = "0x3E1CBF0", VA = "0x3E1CBF0")]
+	[Address(RVA = "0x1C88340", Offset = "0x1C86940", VA = "0x181C88340")]
 	public JsonCloneSettings()
 	{
 	}

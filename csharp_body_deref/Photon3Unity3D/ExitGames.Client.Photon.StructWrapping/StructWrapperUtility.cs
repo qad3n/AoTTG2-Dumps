@@ -15,7 +15,7 @@ namespace ExitGames.Client.Photon.StructWrapping;
 public static class StructWrapperUtility
 {
 	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x3EA3040", Offset = "0x3EA3040", VA = "0x3EA3040")]
+	[Address(RVA = "0x1D0A2C0", Offset = "0x1D088C0", VA = "0x181D0A2C0")]
 	public static Type GetWrappedType(this object obj)
 	{
 		return null;
@@ -34,14 +34,14 @@ public static class StructWrapperUtility
 	}
 
 	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x3EA30B0", Offset = "0x3EA30B0", VA = "0x3EA30B0")]
+	[Address(RVA = "0x1D0A760", Offset = "0x1D08D60", VA = "0x181D0A760")]
 	public static StructWrapper<byte> Wrap(this byte value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x3EA3140", Offset = "0x3EA3140", VA = "0x3EA3140")]
+	[Address(RVA = "0x1D0A6F0", Offset = "0x1D08CF0", VA = "0x181D0A6F0")]
 	public static StructWrapper<bool> Wrap(this bool value)
 	{
 		return null;
@@ -60,28 +60,28 @@ public static class StructWrapperUtility
 	}
 
 	[Token(Token = "0x60003CD")]
-	[Address(RVA = "0x3EA31D0", Offset = "0x3EA31D0", VA = "0x3EA31D0")]
+	[Address(RVA = "0x1D0A590", Offset = "0x1D08B90", VA = "0x181D0A590")]
 	public static List<object> ReleaseAllWrappers(this List<object> collection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CE")]
-	[Address(RVA = "0x3EA3370", Offset = "0x3EA3370", VA = "0x3EA3370")]
+	[Address(RVA = "0x1D0A340", Offset = "0x1D08940", VA = "0x181D0A340")]
 	public static object[] ReleaseAllWrappers(this object[] collection)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003CF")]
-	[Address(RVA = "0x3EA3430", Offset = "0x3EA3430", VA = "0x3EA3430")]
+	[Address(RVA = "0x1D0A400", Offset = "0x1D08A00", VA = "0x181D0A400")]
 	public static Hashtable ReleaseAllWrappers(this Hashtable table)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x3EA3600", Offset = "0x3EA3600", VA = "0x3EA3600")]
+	[Address(RVA = "0x1D0A0D0", Offset = "0x1D086D0", VA = "0x181D0A0D0")]
 	public static void BoxAll(this Hashtable table, bool recursive = false)
 	{
 	}

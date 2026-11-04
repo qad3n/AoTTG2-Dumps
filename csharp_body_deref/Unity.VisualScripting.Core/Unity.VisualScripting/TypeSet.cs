@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x200004F")]
+[Token(Token = "0x2000050")]
 public enum TypeSet
 {
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x400005B")]
 	AllTypes,
-	[Token(Token = "0x400005F")]
+	[Token(Token = "0x400005C")]
 	RuntimeTypes,
-	[Token(Token = "0x4000060")]
+	[Token(Token = "0x400005D")]
 	SettingsTypes,
-	[Token(Token = "0x4000061")]
+	[Token(Token = "0x400005E")]
 	SettingsAssembliesTypes
 }

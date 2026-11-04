@@ -10,33 +10,33 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000E")]
 [AddComponentMenu("Photon Voice/Speaker AudioFilterRead")]
 public class SpeakerAudioFilterRead : Speaker
 {
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x400004E")]
 	[FieldOffset(Offset = "0x60")]
 	private AudioSyncBuffer<float> outBuffer;
 
-	[Token(Token = "0x4000054")]
+	[Token(Token = "0x400004F")]
 	[FieldOffset(Offset = "0x68")]
 	private int outputSampleRate;
 
-	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x3F49B60", Offset = "0x3F49B60", VA = "0x3F49B60", Slot = "5")]
+	[Token(Token = "0x6000094")]
+	[Address(RVA = "0x1D93100", Offset = "0x1D91700", VA = "0x181D93100", Slot = "5")]
 	protected override IAudioOut<float> CreateAudioOut()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x3F49C40", Offset = "0x3F49C40", VA = "0x3F49C40")]
+	[Token(Token = "0x6000095")]
+	[Address(RVA = "0x1D931F0", Offset = "0x1D917F0", VA = "0x181D931F0")]
 	private void OnAudioFilterRead(float[] data, int channels)
 	{
 	}
 
-	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x3F49CA0", Offset = "0x3F49CA0", VA = "0x3F49CA0")]
+	[Token(Token = "0x6000096")]
+	[Address(RVA = "0x1D93260", Offset = "0x1D91860", VA = "0x181D93260")]
 	public SpeakerAudioFilterRead()
 	{
 	}

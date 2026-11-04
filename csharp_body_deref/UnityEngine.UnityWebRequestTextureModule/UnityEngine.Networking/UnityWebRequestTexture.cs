@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Networking;
 
-[Token(Token = "0x2000003")]
+[Token(Token = "0x2000006")]
 public static class UnityWebRequestTexture
 {
-	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x51092A0", Offset = "0x51092A0", VA = "0x51092A0")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x330FA30", Offset = "0x330E030", VA = "0x18330FA30")]
 	public static UnityWebRequest GetTexture(string uri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x51092B0", Offset = "0x51092B0", VA = "0x51092B0")]
+	[Token(Token = "0x6000010")]
+	[Address(RVA = "0x330F940", Offset = "0x330DF40", VA = "0x18330F940")]
 	public static UnityWebRequest GetTexture(string uri, bool nonReadable)
 	{
 		return null;

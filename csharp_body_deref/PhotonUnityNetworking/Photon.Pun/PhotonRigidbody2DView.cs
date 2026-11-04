@@ -10,71 +10,71 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000031")]
 [RequireComponent(typeof(Rigidbody2D))]
 [AddComponentMenu("Photon Networking/Photon Rigidbody 2D View")]
 public class PhotonRigidbody2DView : MonoBehaviourPun, IPunObservable
 {
-	[Token(Token = "0x40000FB")]
+	[Token(Token = "0x40000F6")]
 	[FieldOffset(Offset = "0x28")]
 	private float m_Distance;
 
-	[Token(Token = "0x40000FC")]
+	[Token(Token = "0x40000F7")]
 	[FieldOffset(Offset = "0x2C")]
 	private float m_Angle;
 
-	[Token(Token = "0x40000FD")]
+	[Token(Token = "0x40000F8")]
 	[FieldOffset(Offset = "0x30")]
 	private Rigidbody2D m_Body;
 
-	[Token(Token = "0x40000FE")]
+	[Token(Token = "0x40000F9")]
 	[FieldOffset(Offset = "0x38")]
 	private Vector2 m_NetworkPosition;
 
-	[Token(Token = "0x40000FF")]
+	[Token(Token = "0x40000FA")]
 	[FieldOffset(Offset = "0x40")]
 	private float m_NetworkRotation;
 
-	[Token(Token = "0x4000100")]
+	[Token(Token = "0x40000FB")]
 	[FieldOffset(Offset = "0x44")]
 	[HideInInspector]
 	public bool m_SynchronizeVelocity;
 
-	[Token(Token = "0x4000101")]
+	[Token(Token = "0x40000FC")]
 	[FieldOffset(Offset = "0x45")]
 	[HideInInspector]
 	public bool m_SynchronizeAngularVelocity;
 
-	[Token(Token = "0x4000102")]
+	[Token(Token = "0x40000FD")]
 	[FieldOffset(Offset = "0x46")]
 	[HideInInspector]
 	public bool m_TeleportEnabled;
 
-	[Token(Token = "0x4000103")]
+	[Token(Token = "0x40000FE")]
 	[FieldOffset(Offset = "0x48")]
 	[HideInInspector]
 	public float m_TeleportIfDistanceGreaterThan;
 
-	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x3F10DE0", Offset = "0x3F10DE0", VA = "0x3F10DE0")]
+	[Token(Token = "0x60001B1")]
+	[Address(RVA = "0x1D63190", Offset = "0x1D61790", VA = "0x181D63190")]
 	public void Awake()
 	{
 	}
 
-	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x3F10E30", Offset = "0x3F10E30", VA = "0x3F10E30")]
+	[Token(Token = "0x60001B2")]
+	[Address(RVA = "0x1D631E0", Offset = "0x1D617E0", VA = "0x181D631E0")]
 	public void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x3F11070", Offset = "0x3F11070", VA = "0x3F11070", Slot = "4")]
+	[Token(Token = "0x60001B3")]
+	[Address(RVA = "0x1D634A0", Offset = "0x1D61AA0", VA = "0x181D634A0", Slot = "4")]
 	public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x3F11560", Offset = "0x3F11560", VA = "0x3F11560")]
+	[Token(Token = "0x60001B4")]
+	[Address(RVA = "0x1D63A10", Offset = "0x1D62010", VA = "0x181D63A10")]
 	public PhotonRigidbody2DView()
 	{
 	}

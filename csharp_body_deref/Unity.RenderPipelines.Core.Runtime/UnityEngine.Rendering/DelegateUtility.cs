@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001AB")]
+[Token(Token = "0x20001C3")]
 public static class DelegateUtility
 {
-	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x4BFDD60", Offset = "0x4BFDD60", VA = "0x4BFDD60")]
+	[Token(Token = "0x6000E09")]
+	[Address(RVA = "0x2B57E70", Offset = "0x2B56470", VA = "0x182B57E70")]
 	public static Delegate Cast(Delegate source, Type type)
 	{
 		return null;

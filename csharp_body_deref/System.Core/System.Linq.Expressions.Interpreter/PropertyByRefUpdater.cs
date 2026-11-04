@@ -21,20 +21,20 @@ internal sealed class PropertyByRefUpdater : ByRefUpdater
 	[FieldOffset(Offset = "0x30")]
 	private readonly PropertyInfo _property;
 
-	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x44F1C80", Offset = "0x44F1C80", VA = "0x44F1C80")]
+	[Token(Token = "0x60008EA")]
+	[Address(RVA = "0x246F2E0", Offset = "0x246D8E0", VA = "0x18246F2E0")]
 	public PropertyByRefUpdater(LocalDefinition? obj, PropertyInfo property, int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x44F1CD0", Offset = "0x44F1CD0", VA = "0x44F1CD0", Slot = "4")]
+	[Token(Token = "0x60008EB")]
+	[Address(RVA = "0x247C7B0", Offset = "0x247ADB0", VA = "0x18247C7B0", Slot = "4")]
 	public override void Update(InterpretedFrame frame, object value)
 	{
 	}
 
-	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x44F1E20", Offset = "0x44F1E20", VA = "0x44F1E20", Slot = "5")]
+	[Token(Token = "0x60008EC")]
+	[Address(RVA = "0x247C710", Offset = "0x247AD10", VA = "0x18247C710", Slot = "5")]
 	public override void UndefineTemps(InstructionList instructions, LocalVariables locals)
 	{
 	}

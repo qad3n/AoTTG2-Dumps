@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000228")]
+[Token(Token = "0x200029F")]
 public enum MouseButton
 {
-	[Token(Token = "0x40007BD")]
+	[Token(Token = "0x40009DB")]
 	LeftMouse,
-	[Token(Token = "0x40007BE")]
+	[Token(Token = "0x40009DC")]
 	RightMouse,
-	[Token(Token = "0x40007BF")]
+	[Token(Token = "0x40009DD")]
 	MiddleMouse
 }

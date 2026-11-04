@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x200024B")]
+[Token(Token = "0x200027B")]
 internal sealed class ContinuationTaskFromTask : Task
 {
-	[Token(Token = "0x4000AE3")]
+	[Token(Token = "0x4000B2D")]
 	[FieldOffset(Offset = "0x50")]
 	private Task m_antecedent;
 
-	[Token(Token = "0x600149F")]
-	[Address(RVA = "0x3D47060", Offset = "0x3D47060", VA = "0x3D47060")]
+	[Token(Token = "0x600150B")]
+	[Address(RVA = "0x1BAD570", Offset = "0x1BABB70", VA = "0x181BAD570")]
 	public ContinuationTaskFromTask(Task antecedent, Delegate action, object state, TaskCreationOptions creationOptions, System.Threading.Tasks.InternalTaskOptions internalOptions)
 	{
 	}
 
-	[Token(Token = "0x60014A0")]
-	[Address(RVA = "0x3D4AE30", Offset = "0x3D4AE30", VA = "0x3D4AE30", Slot = "13")]
+	[Token(Token = "0x600150C")]
+	[Address(RVA = "0x1BAD470", Offset = "0x1BABA70", VA = "0x181BAD470", Slot = "13")]
 	internal override void InnerInvoke()
 	{
 	}

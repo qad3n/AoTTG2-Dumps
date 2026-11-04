@@ -10,67 +10,67 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000AC")]
+[Token(Token = "0x20000EC")]
 internal sealed class RegexBoyerMoore
 {
-	[Token(Token = "0x40002B8")]
+	[Token(Token = "0x400038A")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly int[] Positive;
 
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x400038B")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly int[] NegativeASCII;
 
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x400038C")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly int[][] NegativeUnicode;
 
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x400038D")]
 	[FieldOffset(Offset = "0x28")]
 	public readonly string Pattern;
 
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x400038E")]
 	[FieldOffset(Offset = "0x30")]
 	public readonly int LowASCII;
 
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x400038F")]
 	[FieldOffset(Offset = "0x34")]
 	public readonly int HighASCII;
 
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x4000390")]
 	[FieldOffset(Offset = "0x38")]
 	public readonly bool RightToLeft;
 
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x4000391")]
 	[FieldOffset(Offset = "0x39")]
 	public readonly bool CaseInsensitive;
 
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x4000392")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly CultureInfo _culture;
 
-	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x4907BA0", Offset = "0x4907BA0", VA = "0x4907BA0")]
+	[Token(Token = "0x6000534")]
+	[Address(RVA = "0x284E680", Offset = "0x284CC80", VA = "0x18284E680")]
 	public RegexBoyerMoore(string pattern, bool caseInsensitive, bool rightToLeft, CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x49081B0", Offset = "0x49081B0", VA = "0x49081B0")]
+	[Token(Token = "0x6000535")]
+	[Address(RVA = "0x284E260", Offset = "0x284C860", VA = "0x18284E260")]
 	private bool MatchPattern(string text, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000359")]
-	[Address(RVA = "0x49082E0", Offset = "0x49082E0", VA = "0x49082E0")]
+	[Token(Token = "0x6000536")]
+	[Address(RVA = "0x284E1F0", Offset = "0x284C7F0", VA = "0x18284E1F0")]
 	public bool IsMatch(string text, int index, int beglimit, int endlimit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600035A")]
-	[Address(RVA = "0x4908330", Offset = "0x4908330", VA = "0x4908330")]
+	[Token(Token = "0x6000537")]
+	[Address(RVA = "0x284E390", Offset = "0x284C990", VA = "0x18284E390")]
 	public int Scan(string text, int index, int beglimit, int endlimit)
 	{
 		return default(int);

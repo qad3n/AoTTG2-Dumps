@@ -8,25 +8,27 @@
 using System;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.Scripting.APIUpdating;
 
-[Token(Token = "0x20001FA")]
+[Token(Token = "0x200024A")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Interface | AttributeTargets.Delegate)]
 public class MovedFromAttribute : Attribute
 {
-	[Token(Token = "0x40006AA")]
+	[Token(Token = "0x4000753")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal MovedFromAttributeData data;
 
-	[Token(Token = "0x6000D94")]
-	[Address(RVA = "0x4E13B90", Offset = "0x4E13B90", VA = "0x4E13B90")]
+	[Token(Token = "0x6001188")]
+	[Address(RVA = "0x2F4B540", Offset = "0x2F49B40", VA = "0x182F4B540")]
 	public MovedFromAttribute(bool autoUpdateAPI, [Optional] string sourceNamespace, [Optional] string sourceAssembly, [Optional] string sourceClassName)
 	{
 	}
 
-	[Token(Token = "0x6000D95")]
-	[Address(RVA = "0x4E13C10", Offset = "0x4E13C10", VA = "0x4E13C10")]
+	[Token(Token = "0x6001189")]
+	[Address(RVA = "0x2F4B5D0", Offset = "0x2F49BD0", VA = "0x182F4B5D0")]
 	public MovedFromAttribute(string sourceNamespace)
 	{
 	}

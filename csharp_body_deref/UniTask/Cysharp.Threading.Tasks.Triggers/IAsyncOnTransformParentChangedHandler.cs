@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x20001F0")]
 public interface IAsyncOnTransformParentChangedHandler
 {
-	[Token(Token = "0x6000BA4")]
+	[Token(Token = "0x6000BC8")]
 	UniTask OnTransformParentChangedAsync();
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.LowLevel;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000E")]
 internal struct FontEngineUtilities
 {
-	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x4EA58B0", Offset = "0x4EA58B0", VA = "0x4EA58B0")]
+	[Token(Token = "0x600008C")]
+	[Address(RVA = "0x2FFD310", Offset = "0x2FFB910", VA = "0x182FFD310")]
 	internal static int MaxValue(int a, int b, int c)
 	{
 		return default(int);

@@ -22,7 +22,7 @@ public class XmlAttributeOverrides
 	public XmlAttributes this[Type type]
 	{
 		[Token(Token = "0x6000D25")]
-		[Address(RVA = "0x4811860", Offset = "0x4811860", VA = "0x4811860")]
+		[Address(RVA = "0x275AF80", Offset = "0x2759580", VA = "0x18275AF80")]
 		get
 		{
 			return null;
@@ -33,7 +33,7 @@ public class XmlAttributeOverrides
 	public XmlAttributes this[Type type, string member]
 	{
 		[Token(Token = "0x6000D26")]
-		[Address(RVA = "0x4811880", Offset = "0x4811880", VA = "0x4811880")]
+		[Address(RVA = "0x275AFA0", Offset = "0x27595A0", VA = "0x18275AFA0")]
 		get
 		{
 			return null;
@@ -41,20 +41,20 @@ public class XmlAttributeOverrides
 	}
 
 	[Token(Token = "0x6000D24")]
-	[Address(RVA = "0x48117F0", Offset = "0x48117F0", VA = "0x48117F0")]
+	[Address(RVA = "0x275AF10", Offset = "0x2759510", VA = "0x18275AF10")]
 	public XmlAttributeOverrides()
 	{
 	}
 
 	[Token(Token = "0x6000D27")]
-	[Address(RVA = "0x4811960", Offset = "0x4811960", VA = "0x4811960")]
+	[Address(RVA = "0x275AEA0", Offset = "0x27594A0", VA = "0x18275AEA0")]
 	private TypeMember GetKey(Type type, string member)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D28")]
-	[Address(RVA = "0x48119C0", Offset = "0x48119C0", VA = "0x48119C0")]
+	[Address(RVA = "0x275AAE0", Offset = "0x27590E0", VA = "0x18275AAE0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

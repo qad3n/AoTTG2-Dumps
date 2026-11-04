@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x200000D")]
 public enum ClientAppType
 {
-	[Token(Token = "0x4000082")]
+	[Token(Token = "0x400007D")]
 	Realtime,
-	[Token(Token = "0x4000083")]
+	[Token(Token = "0x400007E")]
 	Voice,
-	[Token(Token = "0x4000084")]
+	[Token(Token = "0x400007F")]
 	Fusion
 }

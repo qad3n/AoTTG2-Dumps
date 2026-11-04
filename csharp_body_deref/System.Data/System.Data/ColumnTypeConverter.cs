@@ -11,67 +11,67 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000026")]
 internal sealed class ColumnTypeConverter : TypeConverter
 {
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x40000EB")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Type[] s_types;
 
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x40000EC")]
 	[FieldOffset(Offset = "0x10")]
 	private StandardValuesCollection _values;
 
-	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4531B20", Offset = "0x4531B20", VA = "0x4531B20")]
+	[Token(Token = "0x6000338")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ColumnTypeConverter()
 	{
 	}
 
-	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4531B30", Offset = "0x4531B30", VA = "0x4531B30", Slot = "5")]
+	[Token(Token = "0x6000339")]
+	[Address(RVA = "0x24E4B80", Offset = "0x24E3180", VA = "0x1824E4B80", Slot = "5")]
 	public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x4531BD0", Offset = "0x4531BD0", VA = "0x4531BD0", Slot = "7")]
+	[Token(Token = "0x600033A")]
+	[Address(RVA = "0x24E4E10", Offset = "0x24E3410", VA = "0x1824E4E10", Slot = "7")]
 	public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x4532140", Offset = "0x4532140", VA = "0x4532140", Slot = "4")]
+	[Token(Token = "0x600033B")]
+	[Address(RVA = "0x24E4B10", Offset = "0x24E3110", VA = "0x1824E4B10", Slot = "4")]
 	public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x45321C0", Offset = "0x45321C0", VA = "0x45321C0", Slot = "6")]
+	[Token(Token = "0x600033C")]
+	[Address(RVA = "0x24E4C10", Offset = "0x24E3210", VA = "0x1824E4C10", Slot = "6")]
 	public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x45323E0", Offset = "0x45323E0", VA = "0x45323E0", Slot = "12")]
+	[Token(Token = "0x600033D")]
+	[Address(RVA = "0x24E5350", Offset = "0x24E3950", VA = "0x1824E5350", Slot = "12")]
 	public override StandardValuesCollection GetStandardValues(ITypeDescriptorContext context)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x4532510", Offset = "0x4532510", VA = "0x4532510", Slot = "13")]
+	[Token(Token = "0x600033E")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 	public override bool GetStandardValuesExclusive(ITypeDescriptorContext context)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4532520", Offset = "0x4532520", VA = "0x4532520", Slot = "14")]
+	[Token(Token = "0x600033F")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
 	public override bool GetStandardValuesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);

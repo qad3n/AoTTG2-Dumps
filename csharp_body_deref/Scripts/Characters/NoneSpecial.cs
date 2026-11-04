@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000525")]
+[Token(Token = "0x200067F")]
 internal class NoneSpecial : SimpleUseable
 {
-	[Token(Token = "0x60035E9")]
-	[Address(RVA = "0x41E4230", Offset = "0x41E4230", VA = "0x41E4230")]
+	[Token(Token = "0x6004027")]
+	[Address(RVA = "0x2171670", Offset = "0x216FC70", VA = "0x182171670")]
 	public NoneSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60035EA")]
-	[Address(RVA = "0x41F73E0", Offset = "0x41F73E0", VA = "0x41F73E0", Slot = "6")]
+	[Token(Token = "0x6004028")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60035EB")]
-	[Address(RVA = "0x41F73F0", Offset = "0x41F73F0", VA = "0x41F73F0", Slot = "9")]
+	[Token(Token = "0x6004029")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60035EC")]
-	[Address(RVA = "0x41F7400", Offset = "0x41F7400", VA = "0x41F7400", Slot = "10")]
+	[Token(Token = "0x600402A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

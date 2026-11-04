@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003EB")]
-[AttributeUsage(AttributeTargets.Method, Inherited = false)]
+[Token(Token = "0x200041A")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Method, Inherited = false)]
 public sealed class OnSerializingAttribute : Attribute
 {
-	[Token(Token = "0x6001FF1")]
-	[Address(RVA = "0x3B9F2F0", Offset = "0x3B9F2F0", VA = "0x3B9F2F0")]
+	[Token(Token = "0x6002060")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public OnSerializingAttribute()
 	{
 	}

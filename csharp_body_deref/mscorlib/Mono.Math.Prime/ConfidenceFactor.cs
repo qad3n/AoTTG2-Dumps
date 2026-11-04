@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Mono.Math.Prime;
 
-[Token(Token = "0x2000053")]
+[Token(Token = "0x2000071")]
 internal enum ConfidenceFactor
 {
-	[Token(Token = "0x4000188")]
+	[Token(Token = "0x400020A")]
 	ExtraLow,
-	[Token(Token = "0x4000189")]
+	[Token(Token = "0x400020B")]
 	Low,
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x400020C")]
 	Medium,
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x400020D")]
 	High,
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x400020E")]
 	ExtraHigh,
-	[Token(Token = "0x400018D")]
+	[Token(Token = "0x400020F")]
 	Provable
 }

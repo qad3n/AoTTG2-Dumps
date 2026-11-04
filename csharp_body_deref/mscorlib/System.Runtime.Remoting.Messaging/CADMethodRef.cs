@@ -11,45 +11,45 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x200039F")]
+[Token(Token = "0x20003CE")]
 internal class CADMethodRef
 {
-	[Token(Token = "0x4000F58")]
+	[Token(Token = "0x4000F62")]
 	[FieldOffset(Offset = "0x10")]
 	private bool ctor;
 
-	[Token(Token = "0x4000F59")]
+	[Token(Token = "0x4000F63")]
 	[FieldOffset(Offset = "0x18")]
 	private string typeName;
 
-	[Token(Token = "0x4000F5A")]
+	[Token(Token = "0x4000F64")]
 	[FieldOffset(Offset = "0x20")]
 	private string methodName;
 
-	[Token(Token = "0x4000F5B")]
+	[Token(Token = "0x4000F65")]
 	[FieldOffset(Offset = "0x28")]
 	private string[] param_names;
 
-	[Token(Token = "0x4000F5C")]
+	[Token(Token = "0x4000F66")]
 	[FieldOffset(Offset = "0x30")]
 	private string[] generic_arg_names;
 
-	[Token(Token = "0x6001E1E")]
-	[Address(RVA = "0x3B86CC0", Offset = "0x3B86CC0", VA = "0x3B86CC0")]
+	[Token(Token = "0x6001E8D")]
+	[Address(RVA = "0x19F0060", Offset = "0x19EE660", VA = "0x1819F0060")]
 	private Type[] GetTypes(string[] typeArray)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E1F")]
-	[Address(RVA = "0x3B86E60", Offset = "0x3B86E60", VA = "0x3B86E60")]
+	[Token(Token = "0x6001E8E")]
+	[Address(RVA = "0x19F01A0", Offset = "0x19EE7A0", VA = "0x1819F01A0")]
 	public MethodBase Resolve()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E20")]
-	[Address(RVA = "0x3B87370", Offset = "0x3B87370", VA = "0x3B87370")]
+	[Token(Token = "0x6001E8F")]
+	[Address(RVA = "0x19F0680", Offset = "0x19EEC80", VA = "0x1819F0680")]
 	public CADMethodRef(IMethodMessage msg)
 	{
 	}

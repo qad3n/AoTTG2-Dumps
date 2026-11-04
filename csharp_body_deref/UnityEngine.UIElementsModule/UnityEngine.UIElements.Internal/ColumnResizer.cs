@@ -10,131 +10,131 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x200056C")]
+[Token(Token = "0x2000667")]
 internal class ColumnResizer : PointerManipulator
 {
-	[Token(Token = "0x40012B2")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x400186C")]
+	[FieldOffset(Offset = "0x28")]
 	private Vector2 m_Start;
 
-	[Token(Token = "0x40012B3")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x400186D")]
+	[FieldOffset(Offset = "0x30")]
 	protected bool m_Active;
 
-	[Token(Token = "0x40012B4")]
-	[FieldOffset(Offset = "0x39")]
+	[Token(Token = "0x400186E")]
+	[FieldOffset(Offset = "0x31")]
 	private bool m_Resizing;
 
-	[Token(Token = "0x40012B5")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400186F")]
+	[FieldOffset(Offset = "0x38")]
 	private MultiColumnCollectionHeader m_Header;
 
-	[Token(Token = "0x40012B6")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4001870")]
+	[FieldOffset(Offset = "0x40")]
 	private Column m_Column;
 
-	[Token(Token = "0x40012B7")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4001871")]
+	[FieldOffset(Offset = "0x48")]
 	private VisualElement m_PreviewElement;
 
-	[Token(Token = "0x17000892")]
+	[Token(Token = "0x17000BB7")]
 	public ColumnLayout columnLayout
 	{
-		[Token(Token = "0x6002153")]
-		[Address(RVA = "0x4FD8500", Offset = "0x4FD8500", VA = "0x4FD8500")]
+		[Token(Token = "0x6002EE2")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002154")]
-		[Address(RVA = "0x4FD8510", Offset = "0x4FD8510", VA = "0x4FD8510")]
+		[Token(Token = "0x6002EE3")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000893")]
+	[Token(Token = "0x17000BB8")]
 	public bool preview
 	{
-		[Token(Token = "0x6002155")]
-		[Address(RVA = "0x4FD8520", Offset = "0x4FD8520", VA = "0x4FD8520")]
+		[Token(Token = "0x6002EE4")]
+		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002156")]
-		[Address(RVA = "0x4FD8530", Offset = "0x4FD8530", VA = "0x4FD8530")]
+		[Token(Token = "0x6002EE5")]
+		[Address(RVA = "0x19377D0", Offset = "0x1935DD0", VA = "0x1819377D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002157")]
-	[Address(RVA = "0x4FD8540", Offset = "0x4FD8540", VA = "0x4FD8540")]
+	[Token(Token = "0x6002EE6")]
+	[Address(RVA = "0x31FE290", Offset = "0x31FC890", VA = "0x1831FE290")]
 	public ColumnResizer(Column column)
 	{
 	}
 
-	[Token(Token = "0x6002158")]
-	[Address(RVA = "0x4FD85F0", Offset = "0x4FD85F0", VA = "0x4FD85F0", Slot = "5")]
+	[Token(Token = "0x6002EE7")]
+	[Address(RVA = "0x31FDD50", Offset = "0x31FC350", VA = "0x1831FDD50", Slot = "5")]
 	protected override void RegisterCallbacksOnTarget()
 	{
 	}
 
-	[Token(Token = "0x6002159")]
-	[Address(RVA = "0x4FD8800", Offset = "0x4FD8800", VA = "0x4FD8800", Slot = "6")]
+	[Token(Token = "0x6002EE8")]
+	[Address(RVA = "0x31FDF50", Offset = "0x31FC550", VA = "0x1831FDF50", Slot = "6")]
 	protected override void UnregisterCallbacksFromTarget()
 	{
 	}
 
-	[Token(Token = "0x600215A")]
-	[Address(RVA = "0x4FD8A10", Offset = "0x4FD8A10", VA = "0x4FD8A10")]
+	[Token(Token = "0x6002EE9")]
+	[Address(RVA = "0x31FD620", Offset = "0x31FBC20", VA = "0x1831FD620")]
 	private void OnKeyDown(KeyDownEvent e)
 	{
 	}
 
-	[Token(Token = "0x600215B")]
-	[Address(RVA = "0x4FD8B00", Offset = "0x4FD8B00", VA = "0x4FD8B00")]
+	[Token(Token = "0x6002EEA")]
+	[Address(RVA = "0x31FD6C0", Offset = "0x31FBCC0", VA = "0x1831FD6C0")]
 	private void OnPointerDown(PointerDownEvent e)
 	{
 	}
 
-	[Token(Token = "0x600215C")]
-	[Address(RVA = "0x4FD8DC0", Offset = "0x4FD8DC0", VA = "0x4FD8DC0")]
+	[Token(Token = "0x6002EEB")]
+	[Address(RVA = "0x31FDA60", Offset = "0x31FC060", VA = "0x1831FDA60")]
 	private void OnPointerMove(PointerMoveEvent e)
 	{
 	}
 
-	[Token(Token = "0x600215D")]
-	[Address(RVA = "0x4FD8F00", Offset = "0x4FD8F00", VA = "0x4FD8F00")]
+	[Token(Token = "0x6002EEC")]
+	[Address(RVA = "0x31FDBB0", Offset = "0x31FC1B0", VA = "0x1831FDBB0")]
 	private void OnPointerUp(PointerUpEvent e)
 	{
 	}
 
-	[Token(Token = "0x600215E")]
-	[Address(RVA = "0x4FD8D80", Offset = "0x4FD8D80", VA = "0x4FD8D80")]
+	[Token(Token = "0x6002EED")]
+	[Address(RVA = "0x31FD510", Offset = "0x31FBB10", VA = "0x1831FD510")]
 	private void BeginDragResize(float pos)
 	{
 	}
 
-	[Token(Token = "0x600215F")]
-	[Address(RVA = "0x4FD8ED0", Offset = "0x4FD8ED0", VA = "0x4FD8ED0")]
+	[Token(Token = "0x6002EEE")]
+	[Address(RVA = "0x31FD560", Offset = "0x31FBB60", VA = "0x1831FD560")]
 	private void DragResize(float pos)
 	{
 	}
 
-	[Token(Token = "0x6002160")]
-	[Address(RVA = "0x4FD9060", Offset = "0x4FD9060", VA = "0x4FD9060")]
+	[Token(Token = "0x6002EEF")]
+	[Address(RVA = "0x31FE150", Offset = "0x31FC750", VA = "0x1831FE150")]
 	private void UpdatePreviewPosition()
 	{
 	}
 
-	[Token(Token = "0x6002161")]
-	[Address(RVA = "0x4FD8AA0", Offset = "0x4FD8AA0", VA = "0x4FD8AA0")]
+	[Token(Token = "0x6002EF0")]
+	[Address(RVA = "0x31FD5B0", Offset = "0x31FBBB0", VA = "0x1831FD5B0")]
 	private void EndDragResize(float pos, bool cancelled)
 	{
 	}

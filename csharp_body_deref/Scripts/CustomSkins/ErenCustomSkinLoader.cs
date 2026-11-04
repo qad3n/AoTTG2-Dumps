@@ -14,34 +14,34 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000243")]
+[Token(Token = "0x200035D")]
 internal class ErenCustomSkinLoader : BaseCustomSkinLoader
 {
-	[Token(Token = "0x2000244")]
+	[Token(Token = "0x200035E")]
 	[CompilerGenerated]
 	private sealed class _003CLoadSkinsFromRPC_003Ed__2 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000C5E")]
+		[Token(Token = "0x400118A")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000C5F")]
+		[Token(Token = "0x400118B")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000C60")]
+		[Token(Token = "0x400118C")]
 		[FieldOffset(Offset = "0x20")]
 		public object[] data;
 
-		[Token(Token = "0x4000C61")]
+		[Token(Token = "0x400118D")]
 		[FieldOffset(Offset = "0x28")]
 		public ErenCustomSkinLoader _003C_003E4__this;
 
-		[Token(Token = "0x170001B3")]
+		[Token(Token = "0x17000249")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000E0E")]
-			[Address(RVA = "0x3F8F280", Offset = "0x3F8F280", VA = "0x3F8F280", Slot = "4")]
+			[Token(Token = "0x600156E")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -49,11 +49,11 @@ internal class ErenCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x170001B4")]
+		[Token(Token = "0x1700024A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000E10")]
-			[Address(RVA = "0x3F8F2D0", Offset = "0x3F8F2D0", VA = "0x3F8F2D0", Slot = "7")]
+			[Token(Token = "0x6001570")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,63 +61,63 @@ internal class ErenCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x6000E0B")]
-		[Address(RVA = "0x3F8EFA0", Offset = "0x3F8EFA0", VA = "0x3F8EFA0")]
+		[Token(Token = "0x600156B")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CLoadSkinsFromRPC_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000E0C")]
-		[Address(RVA = "0x3F8F110", Offset = "0x3F8F110", VA = "0x3F8F110", Slot = "5")]
+		[Token(Token = "0x600156C")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000E0D")]
-		[Address(RVA = "0x3F8F120", Offset = "0x3F8F120", VA = "0x3F8F120", Slot = "6")]
+		[Token(Token = "0x600156D")]
+		[Address(RVA = "0x1E78910", Offset = "0x1E76F10", VA = "0x181E78910", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000E0F")]
-		[Address(RVA = "0x3F8F290", Offset = "0x3F8F290", VA = "0x3F8F290", Slot = "8")]
+		[Token(Token = "0x600156F")]
+		[Address(RVA = "0x1E78A90", Offset = "0x1E77090", VA = "0x181E78A90", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x170001B2")]
+	[Token(Token = "0x17000248")]
 	protected override string RendererIdPrefix
 	{
-		[Token(Token = "0x6000E07")]
-		[Address(RVA = "0x3F8EEE0", Offset = "0x3F8EEE0", VA = "0x3F8EEE0", Slot = "4")]
+		[Token(Token = "0x6001567")]
+		[Address(RVA = "0x1E65F40", Offset = "0x1E64540", VA = "0x181E65F40", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x3F8EF10", Offset = "0x3F8EF10", VA = "0x3F8EF10", Slot = "6")]
+	[Token(Token = "0x6001568")]
+	[Address(RVA = "0x1E65E60", Offset = "0x1E64460", VA = "0x181E65E60", Slot = "7")]
 	[IteratorStateMachine(typeof(_003CLoadSkinsFromRPC_003Ed__2))]
 	public override IEnumerator LoadSkinsFromRPC(object[] data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E09")]
-	[Address(RVA = "0x3F8EFC0", Offset = "0x3F8EFC0", VA = "0x3F8EFC0", Slot = "5")]
+	[Token(Token = "0x6001569")]
+	[Address(RVA = "0x1E65C50", Offset = "0x1E64250", VA = "0x181E65C50", Slot = "6")]
 	protected override BaseCustomSkinPart GetCustomSkinPart(int partId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E0A")]
-	[Address(RVA = "0x3F8F0A0", Offset = "0x3F8F0A0", VA = "0x3F8F0A0")]
+	[Token(Token = "0x600156A")]
+	[Address(RVA = "0x1E65EF0", Offset = "0x1E644F0", VA = "0x181E65EF0")]
 	public ErenCustomSkinLoader()
 	{
 	}

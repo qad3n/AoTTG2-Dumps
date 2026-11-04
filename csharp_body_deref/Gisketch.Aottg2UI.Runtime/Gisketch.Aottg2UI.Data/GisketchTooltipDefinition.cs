@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x200004D")]
+[Token(Token = "0x2000060")]
 public sealed class GisketchTooltipDefinition
 {
-	[Token(Token = "0x40001A3")]
+	[Token(Token = "0x400020D")]
 	[FieldOffset(Offset = "0x10")]
 	public string id;
 
-	[Token(Token = "0x40001A4")]
+	[Token(Token = "0x400020E")]
 	[FieldOffset(Offset = "0x18")]
 	public string text;
 
-	[Token(Token = "0x40001A5")]
+	[Token(Token = "0x400020F")]
 	[FieldOffset(Offset = "0x20")]
 	public string textKey;
 
-	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x3A5B2B0", Offset = "0x3A5B2B0", VA = "0x3A5B2B0")]
+	[Token(Token = "0x6000324")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public GisketchTooltipDefinition()
 	{
 	}

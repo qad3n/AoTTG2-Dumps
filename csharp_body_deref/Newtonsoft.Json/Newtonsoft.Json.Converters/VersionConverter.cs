@@ -14,27 +14,27 @@ namespace Newtonsoft.Json.Converters;
 public class VersionConverter : JsonConverter
 {
 	[Token(Token = "0x6000EFF")]
-	[Address(RVA = "0x3E47A30", Offset = "0x3E47A30", VA = "0x3E47A30", Slot = "4")]
+	[Address(RVA = "0x1CAFC40", Offset = "0x1CAE240", VA = "0x181CAFC40", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000F00")]
-	[Address(RVA = "0x3E47B10", Offset = "0x3E47B10", VA = "0x3E47B10", Slot = "5")]
+	[Address(RVA = "0x1CAFA00", Offset = "0x1CAE000", VA = "0x181CAFA00", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F01")]
-	[Address(RVA = "0x3E47DA0", Offset = "0x3E47DA0", VA = "0x3E47DA0", Slot = "6")]
+	[Address(RVA = "0x1CAF990", Offset = "0x1CADF90", VA = "0x181CAF990", Slot = "6")]
 	public override bool CanConvert(Type objectType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F02")]
-	[Address(RVA = "0x3E47E10", Offset = "0x3E47E10", VA = "0x3E47E10")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public VersionConverter()
 	{
 	}

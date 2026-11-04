@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000068")]
+[Token(Token = "0x200002B")]
 public abstract class ConstantBufferBase
 {
-	[Token(Token = "0x600056E")]
+	[Token(Token = "0x6000464")]
 	public abstract void Release();
 
-	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x4B96510", Offset = "0x4B96510", VA = "0x4B96510")]
+	[Token(Token = "0x6000465")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ConstantBufferBase()
 	{
 	}

@@ -21,7 +21,7 @@ internal sealed class OperandQuery : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001B82")]
-		[Address(RVA = "0x4783B60", Offset = "0x4783B60", VA = "0x4783B60", Slot = "16")]
+		[Address(RVA = "0x26C1510", Offset = "0x26BFB10", VA = "0x1826C1510", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -29,20 +29,20 @@ internal sealed class OperandQuery : ValueQuery
 	}
 
 	[Token(Token = "0x6001B80")]
-	[Address(RVA = "0x4783B20", Offset = "0x4783B20", VA = "0x4783B20")]
+	[Address(RVA = "0x26C14D0", Offset = "0x26BFAD0", VA = "0x1826C14D0")]
 	public OperandQuery(object val)
 	{
 	}
 
 	[Token(Token = "0x6001B81")]
-	[Address(RVA = "0x4783B50", Offset = "0x4783B50", VA = "0x4783B50", Slot = "14")]
+	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B83")]
-	[Address(RVA = "0x4783B70", Offset = "0x4783B70", VA = "0x4783B70", Slot = "6")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

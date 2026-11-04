@@ -11,64 +11,64 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000144")]
+[Token(Token = "0x200016C")]
 public class MissingMemberException : MemberAccessException
 {
-	[Token(Token = "0x40004FE")]
+	[Token(Token = "0x400055B")]
 	[FieldOffset(Offset = "0x90")]
 	protected string ClassName;
 
-	[Token(Token = "0x40004FF")]
+	[Token(Token = "0x400055C")]
 	[FieldOffset(Offset = "0x98")]
 	protected string MemberName;
 
-	[Token(Token = "0x4000500")]
+	[Token(Token = "0x400055D")]
 	[FieldOffset(Offset = "0xA0")]
 	protected byte[] Signature;
 
-	[Token(Token = "0x17000115")]
+	[Token(Token = "0x17000116")]
 	public override string Message
 	{
-		[Token(Token = "0x6000C8C")]
-		[Address(RVA = "0x3CDE020", Offset = "0x3CDE020", VA = "0x3CDE020", Slot = "5")]
+		[Token(Token = "0x6000CD6")]
+		[Address(RVA = "0x1B44880", Offset = "0x1B42E80", VA = "0x181B44880", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000C87")]
-	[Address(RVA = "0x3CDDD30", Offset = "0x3CDDD30", VA = "0x3CDDD30")]
+	[Token(Token = "0x6000CD1")]
+	[Address(RVA = "0x1B44600", Offset = "0x1B42C00", VA = "0x181B44600")]
 	public MissingMemberException()
 	{
 	}
 
-	[Token(Token = "0x6000C88")]
-	[Address(RVA = "0x3CDDC70", Offset = "0x3CDDC70", VA = "0x3CDDC70")]
+	[Token(Token = "0x6000CD2")]
+	[Address(RVA = "0x1B44650", Offset = "0x1B42C50", VA = "0x181B44650")]
 	public MissingMemberException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000C89")]
-	[Address(RVA = "0x3CDE100", Offset = "0x3CDE100", VA = "0x3CDE100")]
+	[Token(Token = "0x6000CD3")]
+	[Address(RVA = "0x1B44820", Offset = "0x1B42E20", VA = "0x181B44820")]
 	public MissingMemberException(string className, string memberName)
 	{
 	}
 
-	[Token(Token = "0x6000C8A")]
-	[Address(RVA = "0x3CDDD80", Offset = "0x3CDDD80", VA = "0x3CDDD80")]
+	[Token(Token = "0x6000CD4")]
+	[Address(RVA = "0x1B44670", Offset = "0x1B42C70", VA = "0x181B44670")]
 	protected MissingMemberException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000C8B")]
-	[Address(RVA = "0x3CDE150", Offset = "0x3CDE150", VA = "0x3CDE150", Slot = "11")]
+	[Token(Token = "0x6000CD5")]
+	[Address(RVA = "0x1B44460", Offset = "0x1B42A60", VA = "0x181B44460", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x3CDE2E0", Offset = "0x3CDE2E0", VA = "0x3CDE2E0")]
+	[Token(Token = "0x6000CD7")]
+	[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010")]
 	internal static string FormatSignature(byte[] signature)
 	{
 		return null;

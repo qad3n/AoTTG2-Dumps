@@ -1,290 +1,378 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.RenderPipelineAsset
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
+using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002F1")]
+[Token(Token = "0x20003BB")]
 public abstract class RenderPipelineAsset : ScriptableObject
 {
-	[Token(Token = "0x17000284")]
-	public virtual string[] renderingLayerMaskNames
-	{
-		[Token(Token = "0x6001057")]
-		[Address(RVA = "0x4E2EFC0", Offset = "0x4E2EFC0", VA = "0x4E2EFC0", Slot = "4")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000285")]
-	public virtual string[] prefixedRenderingLayerMaskNames
-	{
-		[Token(Token = "0x6001058")]
-		[Address(RVA = "0x4E2EFD0", Offset = "0x4E2EFD0", VA = "0x4E2EFD0", Slot = "5")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000286")]
+	[Token(Token = "0x1700036A")]
 	public virtual Material defaultMaterial
 	{
-		[Token(Token = "0x6001059")]
-		[Address(RVA = "0x4E2EFE0", Offset = "0x4E2EFE0", VA = "0x4E2EFE0", Slot = "6")]
+		[Token(Token = "0x6001666")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000287")]
+	[Token(Token = "0x1700036B")]
 	public virtual Shader autodeskInteractiveShader
 	{
-		[Token(Token = "0x600105A")]
-		[Address(RVA = "0x4E2EFF0", Offset = "0x4E2EFF0", VA = "0x4E2EFF0", Slot = "7")]
+		[Token(Token = "0x6001667")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000288")]
+	[Token(Token = "0x1700036C")]
 	public virtual Shader autodeskInteractiveTransparentShader
 	{
-		[Token(Token = "0x600105B")]
-		[Address(RVA = "0x4E2F000", Offset = "0x4E2F000", VA = "0x4E2F000", Slot = "8")]
+		[Token(Token = "0x6001668")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000289")]
+	[Token(Token = "0x1700036D")]
 	public virtual Shader autodeskInteractiveMaskedShader
 	{
-		[Token(Token = "0x600105C")]
-		[Address(RVA = "0x4E2F010", Offset = "0x4E2F010", VA = "0x4E2F010", Slot = "9")]
+		[Token(Token = "0x6001669")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028A")]
+	[Token(Token = "0x1700036E")]
 	public virtual Shader terrainDetailLitShader
 	{
-		[Token(Token = "0x600105D")]
-		[Address(RVA = "0x4E2F020", Offset = "0x4E2F020", VA = "0x4E2F020", Slot = "10")]
+		[Token(Token = "0x600166A")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028B")]
+	[Token(Token = "0x1700036F")]
 	public virtual Shader terrainDetailGrassShader
 	{
-		[Token(Token = "0x600105E")]
-		[Address(RVA = "0x4E2F030", Offset = "0x4E2F030", VA = "0x4E2F030", Slot = "11")]
+		[Token(Token = "0x600166B")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028C")]
+	[Token(Token = "0x17000370")]
 	public virtual Shader terrainDetailGrassBillboardShader
 	{
-		[Token(Token = "0x600105F")]
-		[Address(RVA = "0x4E2F040", Offset = "0x4E2F040", VA = "0x4E2F040", Slot = "12")]
+		[Token(Token = "0x600166C")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028D")]
+	[Token(Token = "0x17000371")]
 	public virtual Material defaultParticleMaterial
 	{
-		[Token(Token = "0x6001060")]
-		[Address(RVA = "0x4E2F050", Offset = "0x4E2F050", VA = "0x4E2F050", Slot = "13")]
+		[Token(Token = "0x600166D")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028E")]
+	[Token(Token = "0x17000372")]
 	public virtual Material defaultLineMaterial
 	{
-		[Token(Token = "0x6001061")]
-		[Address(RVA = "0x4E2F060", Offset = "0x4E2F060", VA = "0x4E2F060", Slot = "14")]
+		[Token(Token = "0x600166E")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700028F")]
+	[Token(Token = "0x17000373")]
 	public virtual Material defaultTerrainMaterial
 	{
-		[Token(Token = "0x6001062")]
-		[Address(RVA = "0x4E2F070", Offset = "0x4E2F070", VA = "0x4E2F070", Slot = "15")]
+		[Token(Token = "0x600166F")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000290")]
+	[Token(Token = "0x17000374")]
 	public virtual Material defaultUIMaterial
 	{
-		[Token(Token = "0x6001063")]
-		[Address(RVA = "0x4E2F080", Offset = "0x4E2F080", VA = "0x4E2F080", Slot = "16")]
+		[Token(Token = "0x6001670")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000291")]
+	[Token(Token = "0x17000375")]
 	public virtual Material defaultUIOverdrawMaterial
 	{
-		[Token(Token = "0x6001064")]
-		[Address(RVA = "0x4E2F090", Offset = "0x4E2F090", VA = "0x4E2F090", Slot = "17")]
+		[Token(Token = "0x6001671")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000292")]
+	[Token(Token = "0x17000376")]
 	public virtual Material defaultUIETC1SupportedMaterial
 	{
-		[Token(Token = "0x6001065")]
-		[Address(RVA = "0x4E2F0A0", Offset = "0x4E2F0A0", VA = "0x4E2F0A0", Slot = "18")]
+		[Token(Token = "0x6001672")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000293")]
+	[Token(Token = "0x17000377")]
 	public virtual Material default2DMaterial
 	{
-		[Token(Token = "0x6001066")]
-		[Address(RVA = "0x4E2F0B0", Offset = "0x4E2F0B0", VA = "0x4E2F0B0", Slot = "19")]
+		[Token(Token = "0x6001673")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000294")]
+	[Token(Token = "0x17000378")]
 	public virtual Material default2DMaskMaterial
 	{
-		[Token(Token = "0x6001067")]
-		[Address(RVA = "0x4E2F0C0", Offset = "0x4E2F0C0", VA = "0x4E2F0C0", Slot = "20")]
+		[Token(Token = "0x6001674")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000295")]
+	[Token(Token = "0x17000379")]
 	public virtual Shader defaultShader
 	{
-		[Token(Token = "0x6001068")]
-		[Address(RVA = "0x4E2F0D0", Offset = "0x4E2F0D0", VA = "0x4E2F0D0", Slot = "21")]
+		[Token(Token = "0x6001675")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000296")]
+	[Token(Token = "0x1700037A")]
 	public virtual Shader defaultSpeedTree7Shader
 	{
-		[Token(Token = "0x6001069")]
-		[Address(RVA = "0x4E2F0E0", Offset = "0x4E2F0E0", VA = "0x4E2F0E0", Slot = "22")]
+		[Token(Token = "0x6001676")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000297")]
+	[Token(Token = "0x1700037B")]
 	public virtual Shader defaultSpeedTree8Shader
 	{
-		[Token(Token = "0x600106A")]
-		[Address(RVA = "0x4E2F0F0", Offset = "0x4E2F0F0", VA = "0x4E2F0F0", Slot = "23")]
+		[Token(Token = "0x6001677")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "21")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000298")]
+	[Token(Token = "0x1700037C")]
+	public virtual Shader defaultSpeedTree9Shader
+	{
+		[Token(Token = "0x6001678")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "22")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700037D")]
 	public virtual string renderPipelineShaderTag
 	{
-		[Token(Token = "0x600106B")]
-		[Address(RVA = "0x4E2F100", Offset = "0x4E2F100", VA = "0x4E2F100", Slot = "24")]
+		[Token(Token = "0x6001679")]
+		[Address(RVA = "0x2F68DF0", Offset = "0x2F673F0", VA = "0x182F68DF0", Slot = "23")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000299")]
+	[Token(Token = "0x1700037E")]
+	public virtual Type pipelineType
+	{
+		[Token(Token = "0x600167B")]
+		[Address(RVA = "0x2F68D90", Offset = "0x2F67390", VA = "0x182F68D90", Slot = "25")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700037F")]
+	internal string pipelineTypeFullName
+	{
+		[Token(Token = "0x600167C")]
+		[Address(RVA = "0x2F68D40", Offset = "0x2F67340", VA = "0x182F68D40")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000380")]
+	protected internal virtual bool requiresCompatibleRenderPipelineGlobalSettings
+	{
+		[Token(Token = "0x6001680")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30", Slot = "29")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000381")]
+	[Obsolete("This property is obsolete. Use pipelineType instead. #from(23.2)", false)]
 	protected internal virtual Type renderPipelineType
 	{
-		[Token(Token = "0x600106D")]
-		[Address(RVA = "0x4E2F120", Offset = "0x4E2F120", VA = "0x4E2F120", Slot = "26")]
+		[Token(Token = "0x6001681")]
+		[Address(RVA = "0x2F68E60", Offset = "0x2F67460", VA = "0x182F68E60", Slot = "30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001056")]
-	[Address(RVA = "0x4E2EED0", Offset = "0x4E2EED0", VA = "0x4E2EED0")]
+	[Token(Token = "0x17000382")]
+	[Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
+	public virtual string[] renderingLayerMaskNames
+	{
+		[Token(Token = "0x6001682")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "31")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000383")]
+	[Obsolete("This property is obsolete. Use RenderingLayerMask API and Tags & Layers project settings instead. #from(23.3)", false)]
+	public virtual string[] prefixedRenderingLayerMaskNames
+	{
+		[Token(Token = "0x6001683")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "32")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6001665")]
+	[Address(RVA = "0x2F68BE0", Offset = "0x2F671E0", VA = "0x182F68BE0")]
 	internal RenderPipeline InternalCreatePipeline()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600106C")]
+	[Token(Token = "0x600167A")]
 	protected abstract RenderPipeline CreatePipeline();
 
-	[Token(Token = "0x600106E")]
-	[Address(RVA = "0x4E2F180", Offset = "0x4E2F180", VA = "0x4E2F180", Slot = "27")]
+	[Token(Token = "0x600167D")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "26")]
 	protected virtual void EnsureGlobalSettings()
 	{
 	}
 
-	[Token(Token = "0x600106F")]
-	[Address(RVA = "0x4E2F190", Offset = "0x4E2F190", VA = "0x4E2F190", Slot = "28")]
+	[Token(Token = "0x600167E")]
+	[Address(RVA = "0x2F68CA0", Offset = "0x2F672A0", VA = "0x182F68CA0", Slot = "27")]
 	protected virtual void OnValidate()
 	{
 	}
 
-	[Token(Token = "0x6001070")]
-	[Address(RVA = "0x4E2F820", Offset = "0x4E2F820", VA = "0x4E2F820", Slot = "29")]
+	[Token(Token = "0x600167F")]
+	[Address(RVA = "0x2F68C50", Offset = "0x2F67250", VA = "0x182F68C50", Slot = "28")]
 	protected virtual void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6001071")]
-	[Address(RVA = "0x4E2F880", Offset = "0x4E2F880", VA = "0x4E2F880")]
+	[Token(Token = "0x6001684")]
+	[Address(RVA = "0x2F68D30", Offset = "0x2F67330", VA = "0x182F68D30")]
+	protected RenderPipelineAsset()
+	{
+	}
+}
+[Token(Token = "0x20003BC")]
+public abstract class RenderPipelineAsset<TRenderPipeline> : RenderPipelineAsset where TRenderPipeline : RenderPipeline
+{
+	[Token(Token = "0x17000384")]
+	public sealed override Type pipelineType
+	{
+		[Token(Token = "0x6001685")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000385")]
+	public override string renderPipelineShaderTag
+	{
+		[Token(Token = "0x6001686")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000386")]
+	[Obsolete("This property is obsolete. Use pipelineType instead. #from(23.2)", false)]
+	protected internal sealed override Type renderPipelineType
+	{
+		[Token(Token = "0x6001687")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6001688")]
 	protected RenderPipelineAsset()
 	{
 	}

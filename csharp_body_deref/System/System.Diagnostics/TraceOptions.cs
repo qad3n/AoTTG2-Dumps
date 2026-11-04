@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000CD")]
+[Token(Token = "0x200010D")]
 [Flags]
 public enum TraceOptions
 {
-	[Token(Token = "0x40003A6")]
+	[Token(Token = "0x4000478")]
 	None = 0,
-	[Token(Token = "0x40003A7")]
+	[Token(Token = "0x4000479")]
 	LogicalOperationStack = 1,
-	[Token(Token = "0x40003A8")]
+	[Token(Token = "0x400047A")]
 	DateTime = 2,
-	[Token(Token = "0x40003A9")]
+	[Token(Token = "0x400047B")]
 	Timestamp = 4,
-	[Token(Token = "0x40003AA")]
+	[Token(Token = "0x400047C")]
 	ProcessId = 8,
-	[Token(Token = "0x40003AB")]
+	[Token(Token = "0x400047D")]
 	ThreadId = 0x10,
-	[Token(Token = "0x40003AC")]
+	[Token(Token = "0x400047E")]
 	Callstack = 0x20
 }

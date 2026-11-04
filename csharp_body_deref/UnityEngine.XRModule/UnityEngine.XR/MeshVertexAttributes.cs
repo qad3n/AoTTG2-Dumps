@@ -12,20 +12,20 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x200001C")]
+[Token(Token = "0x200001D")]
 [Flags]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public enum MeshVertexAttributes
 {
-	[Token(Token = "0x400007B")]
-	None = 0,
-	[Token(Token = "0x400007C")]
-	Normals = 1,
-	[Token(Token = "0x400007D")]
-	Tangents = 2,
-	[Token(Token = "0x400007E")]
-	UVs = 4,
 	[Token(Token = "0x400007F")]
+	None = 0,
+	[Token(Token = "0x4000080")]
+	Normals = 1,
+	[Token(Token = "0x4000081")]
+	Tangents = 2,
+	[Token(Token = "0x4000082")]
+	UVs = 4,
+	[Token(Token = "0x4000083")]
 	Colors = 8
 }

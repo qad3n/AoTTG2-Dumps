@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000209")]
+[Token(Token = "0x2000396")]
 internal enum SocketOperation
 {
-	[Token(Token = "0x4000B6F")]
+	[Token(Token = "0x4000F9E")]
 	Accept,
-	[Token(Token = "0x4000B70")]
+	[Token(Token = "0x4000F9F")]
 	Connect,
-	[Token(Token = "0x4000B71")]
+	[Token(Token = "0x4000FA0")]
 	Receive,
-	[Token(Token = "0x4000B72")]
+	[Token(Token = "0x4000FA1")]
 	ReceiveFrom,
-	[Token(Token = "0x4000B73")]
+	[Token(Token = "0x4000FA2")]
 	Send,
-	[Token(Token = "0x4000B74")]
+	[Token(Token = "0x4000FA3")]
 	SendTo,
-	[Token(Token = "0x4000B75")]
+	[Token(Token = "0x4000FA4")]
 	RecvJustCallback,
-	[Token(Token = "0x4000B76")]
+	[Token(Token = "0x4000FA5")]
 	SendJustCallback,
-	[Token(Token = "0x4000B77")]
+	[Token(Token = "0x4000FA6")]
 	Disconnect,
-	[Token(Token = "0x4000B78")]
+	[Token(Token = "0x4000FA7")]
 	AcceptReceive,
-	[Token(Token = "0x4000B79")]
+	[Token(Token = "0x4000FA8")]
 	ReceiveGeneric,
-	[Token(Token = "0x4000B7A")]
+	[Token(Token = "0x4000FA9")]
 	SendGeneric
 }

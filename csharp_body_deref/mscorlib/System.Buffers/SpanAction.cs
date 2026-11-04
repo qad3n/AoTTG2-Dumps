@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x200067B")]
+[Token(Token = "0x200064F")]
 public delegate void SpanAction<T, in TArg>(Span<T> span, TArg arg);

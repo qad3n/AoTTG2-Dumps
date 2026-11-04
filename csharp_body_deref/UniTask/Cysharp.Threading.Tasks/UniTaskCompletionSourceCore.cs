@@ -15,34 +15,34 @@ using Il2CppDummyDll;
 namespace Cysharp.Threading.Tasks;
 
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x200011F")]
+[Token(Token = "0x200011D")]
 public struct UniTaskCompletionSourceCore<TResult>
 {
-	[Token(Token = "0x4000437")]
+	[Token(Token = "0x4000432")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private TResult result;
 
-	[Token(Token = "0x4000438")]
+	[Token(Token = "0x4000433")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private object error;
 
-	[Token(Token = "0x4000439")]
+	[Token(Token = "0x4000434")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private short version;
 
-	[Token(Token = "0x400043A")]
+	[Token(Token = "0x4000435")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private bool hasUnhandledError;
 
-	[Token(Token = "0x400043B")]
+	[Token(Token = "0x4000436")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private int completedCount;
 
-	[Token(Token = "0x400043C")]
+	[Token(Token = "0x4000437")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private Action<object> continuation;
 
-	[Token(Token = "0x400043D")]
+	[Token(Token = "0x4000438")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private object continuationState;
 
@@ -50,44 +50,44 @@ public struct UniTaskCompletionSourceCore<TResult>
 	[DebuggerHidden]
 	public short Version
 	{
-		[Token(Token = "0x60006DA")]
+		[Token(Token = "0x60006D8")]
 		get
 		{
 			return default(short);
 		}
 	}
 
-	[Token(Token = "0x60006D4")]
+	[Token(Token = "0x60006D2")]
 	[DebuggerHidden]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x60006D5")]
+	[Token(Token = "0x60006D3")]
 	private void ReportUnhandledError()
 	{
 	}
 
-	[Token(Token = "0x60006D6")]
+	[Token(Token = "0x60006D4")]
 	internal void MarkHandled()
 	{
 	}
 
-	[Token(Token = "0x60006D7")]
+	[Token(Token = "0x60006D5")]
 	[DebuggerHidden]
 	public bool TrySetResult(TResult result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006D8")]
+	[Token(Token = "0x60006D6")]
 	[DebuggerHidden]
 	public bool TrySetException(Exception error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006D9")]
+	[Token(Token = "0x60006D7")]
 	[DebuggerHidden]
 	public bool TrySetCanceled([Optional] CancellationToken cancellationToken)
 	{
@@ -95,7 +95,7 @@ public struct UniTaskCompletionSourceCore<TResult>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60006DB")]
+	[Token(Token = "0x60006D9")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
@@ -103,7 +103,7 @@ public struct UniTaskCompletionSourceCore<TResult>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60006DC")]
+	[Token(Token = "0x60006DA")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
@@ -111,7 +111,7 @@ public struct UniTaskCompletionSourceCore<TResult>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60006DD")]
+	[Token(Token = "0x60006DB")]
 	[DebuggerHidden]
 	public TResult GetResult(short token)
 	{
@@ -119,14 +119,14 @@ public struct UniTaskCompletionSourceCore<TResult>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60006DE")]
+	[Token(Token = "0x60006DC")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60006DF")]
+	[Token(Token = "0x60006DD")]
 	[DebuggerHidden]
 	private void ValidateToken(short token)
 	{

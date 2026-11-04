@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Pool;
 
-[Token(Token = "0x200028F")]
+[Token(Token = "0x20002E9")]
 public class CollectionPool<TCollection, TItem> where TCollection : class, ICollection<TItem>, new()
 {
-	[Token(Token = "0x40006C5")]
+	[Token(Token = "0x400076F")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly ObjectPool<TCollection> s_Pool;
 
-	[Token(Token = "0x6000DD2")]
+	[Token(Token = "0x60011D2")]
 	public static TCollection Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DD3")]
+	[Token(Token = "0x60011D3")]
 	public static PooledObject<TCollection> Get(out TCollection value)
 	{
 		return default(PooledObject<TCollection>);
 	}
 
-	[Token(Token = "0x6000DD4")]
+	[Token(Token = "0x60011D4")]
 	public static void Release(TCollection toRelease)
 	{
 	}

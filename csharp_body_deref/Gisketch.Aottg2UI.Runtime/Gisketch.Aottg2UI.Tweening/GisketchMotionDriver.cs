@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Tweening.GisketchMotionDriver
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Tweening/GisketchMotionDriver.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,114 +12,121 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Tweening;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x200001F")]
 public sealed class GisketchMotionDriver : MonoBehaviour
 {
-	[Token(Token = "0x2000017")]
+	[Token(Token = "0x2000020")]
 	private sealed class ActiveTween
 	{
-		[Token(Token = "0x4000066")]
+		[Token(Token = "0x4000090")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly Tween Tween;
 
-		[Token(Token = "0x4000067")]
+		[Token(Token = "0x4000091")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly bool BlocksInput;
 
-		[Token(Token = "0x4000068")]
+		[Token(Token = "0x4000092")]
 		[FieldOffset(Offset = "0x1C")]
 		public readonly int CreatedFrame;
 
-		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x3A33D10", Offset = "0x3A33D10", VA = "0x3A33D10")]
+		[Token(Token = "0x6000118")]
+		[Address(RVA = "0x1882DE0", Offset = "0x18813E0", VA = "0x181882DE0")]
 		public ActiveTween(Tween tween, bool blocksInput, int createdFrame)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x400008D")]
 	[FieldOffset(Offset = "0x0")]
 	private static GisketchMotionDriver _instance;
 
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x400008E")]
 	[FieldOffset(Offset = "0x8")]
 	private static int _lastSkipFrame;
 
-	[Token(Token = "0x4000065")]
+	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<ActiveTween> _active;
 
-	[Token(Token = "0x1700000D")]
+	[Token(Token = "0x1700001B")]
 	public static bool HasActive
 	{
-		[Token(Token = "0x60000A8")]
-		[Address(RVA = "0x3A2C530", Offset = "0x3A2C530", VA = "0x3A2C530")]
+		[Token(Token = "0x600010D")]
+		[Address(RVA = "0x1886340", Offset = "0x1884940", VA = "0x181886340")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700000E")]
+	[Token(Token = "0x1700001C")]
 	public static bool ConsumedSkipThisFrame
 	{
-		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x3A2A170", Offset = "0x3A2A170", VA = "0x3A2A170")]
+		[Token(Token = "0x6000110")]
+		[Address(RVA = "0x18862E0", Offset = "0x18848E0", VA = "0x1818862E0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x3A30510", Offset = "0x3A30510", VA = "0x3A30510")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x1885DF0", Offset = "0x18843F0", VA = "0x181885DF0")]
 	public static Tween Track(Tween tween, bool blocksInput = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x3A33EB0", Offset = "0x3A33EB0", VA = "0x3A33EB0")]
+	[Token(Token = "0x600010E")]
+	[Address(RVA = "0x1886160", Offset = "0x1884760", VA = "0x181886160")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x3A2A1C0", Offset = "0x3A2A1C0", VA = "0x3A2A1C0")]
+	[Token(Token = "0x600010F")]
+	[Address(RVA = "0x1885760", Offset = "0x1883D60", VA = "0x181885760")]
 	public static bool CompleteActiveForSkip()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000AC")]
-	[Address(RVA = "0x3A33D50", Offset = "0x3A33D50", VA = "0x3A33D50")]
+	[Token(Token = "0x6000111")]
+	[Address(RVA = "0x1885BE0", Offset = "0x18841E0", VA = "0x181885BE0")]
 	private static GisketchMotionDriver Ensure()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x3A33F90", Offset = "0x3A33F90", VA = "0x3A33F90")]
+	[Token(Token = "0x6000112")]
+	[Address(RVA = "0x1885D80", Offset = "0x1884380", VA = "0x181885D80")]
 	private static bool SkipPressed()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x3A341D0", Offset = "0x3A341D0", VA = "0x3A341D0")]
+	[Token(Token = "0x6000113")]
+	[Address(RVA = "0x1885D50", Offset = "0x1884350", VA = "0x181885D50")]
+	internal static bool IsBackKeyDown()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000114")]
+	[Address(RVA = "0x1885D70", Offset = "0x1884370", VA = "0x181885D70")]
 	internal static bool IsKeyboardSkip(KeyCode key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x3A34000", Offset = "0x3A34000", VA = "0x3A34000")]
+	[Token(Token = "0x6000115")]
+	[Address(RVA = "0x1885A20", Offset = "0x1884020", VA = "0x181885A20")]
 	private void CompleteActive()
 	{
 	}
 
-	[Token(Token = "0x60000B0")]
-	[Address(RVA = "0x3A341E0", Offset = "0x3A341E0", VA = "0x3A341E0")]
+	[Token(Token = "0x6000116")]
+	[Address(RVA = "0x1886260", Offset = "0x1884860", VA = "0x181886260")]
 	public GisketchMotionDriver()
 	{
 	}

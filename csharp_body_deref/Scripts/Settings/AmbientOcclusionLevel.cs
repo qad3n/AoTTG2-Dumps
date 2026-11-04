@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000079")]
+[Token(Token = "0x2000095")]
 public enum AmbientOcclusionLevel
 {
-	[Token(Token = "0x4000290")]
+	[Token(Token = "0x40002F7")]
 	Off,
-	[Token(Token = "0x4000291")]
+	[Token(Token = "0x40002F8")]
 	Lowest,
-	[Token(Token = "0x4000292")]
+	[Token(Token = "0x40002F9")]
 	Low,
-	[Token(Token = "0x4000293")]
+	[Token(Token = "0x40002FA")]
 	Medium,
-	[Token(Token = "0x4000294")]
+	[Token(Token = "0x40002FB")]
 	High,
-	[Token(Token = "0x4000295")]
+	[Token(Token = "0x40002FC")]
 	Ultra
 }

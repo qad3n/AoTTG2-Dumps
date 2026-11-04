@@ -11,49 +11,49 @@ using Il2CppDummyDll;
 namespace System.Text.RegularExpressions;
 
 [Serializable]
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000E0")]
 public class Group : Capture
 {
-	[Token(Token = "0x4000272")]
+	[Token(Token = "0x4000344")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Group s_emptyGroup;
 
-	[Token(Token = "0x4000273")]
+	[Token(Token = "0x4000345")]
 	[FieldOffset(Offset = "0x20")]
 	internal readonly int[] _caps;
 
-	[Token(Token = "0x4000274")]
+	[Token(Token = "0x4000346")]
 	[FieldOffset(Offset = "0x28")]
 	internal int _capcount;
 
-	[Token(Token = "0x4000275")]
+	[Token(Token = "0x4000347")]
 	[FieldOffset(Offset = "0x30")]
 	internal CaptureCollection _capcoll;
 
-	[Token(Token = "0x4000276")]
+	[Token(Token = "0x4000348")]
 	[FieldOffset(Offset = "0x38")]
 	[CompilerGenerated]
 	private readonly string _003CName_003Ek__BackingField;
 
-	[Token(Token = "0x17000090")]
+	[Token(Token = "0x170000C9")]
 	public bool Success
 	{
-		[Token(Token = "0x60002BF")]
-		[Address(RVA = "0x4901900", Offset = "0x4901900", VA = "0x4901900")]
+		[Token(Token = "0x6000499")]
+		[Address(RVA = "0x284C380", Offset = "0x284A980", VA = "0x18284C380")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60002BE")]
-	[Address(RVA = "0x4901840", Offset = "0x4901840", VA = "0x4901840")]
+	[Token(Token = "0x6000498")]
+	[Address(RVA = "0x284C2C0", Offset = "0x284A8C0", VA = "0x18284C2C0")]
 	internal Group(string text, int[] caps, int capcount, string name)
 	{
 	}
 
-	[Token(Token = "0x60002C1")]
-	[Address(RVA = "0x4901AA0", Offset = "0x4901AA0", VA = "0x4901AA0")]
+	[Token(Token = "0x600049B")]
+	[Address(RVA = "0x284C290", Offset = "0x284A890", VA = "0x18284C290")]
 	internal Group()
 	{
 	}

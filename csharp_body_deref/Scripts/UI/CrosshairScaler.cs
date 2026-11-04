@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20005E3")]
+[Token(Token = "0x2000738")]
 internal class CrosshairScaler : IgnoreScaler
 {
-	[Token(Token = "0x6003C28")]
-	[Address(RVA = "0x428DF80", Offset = "0x428DF80", VA = "0x428DF80", Slot = "5")]
+	[Token(Token = "0x60046DD")]
+	[Address(RVA = "0x2206D90", Offset = "0x2205390", VA = "0x182206D90", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x6003C29")]
-	[Address(RVA = "0x428E1F0", Offset = "0x428E1F0", VA = "0x428E1F0")]
+	[Token(Token = "0x60046DE")]
+	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
 	public CrosshairScaler()
 	{
 	}

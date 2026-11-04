@@ -11,31 +11,31 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000141")]
+[Token(Token = "0x2000172")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class RequireComponent : Attribute
 {
-	[Token(Token = "0x4000539")]
+	[Token(Token = "0x40005C1")]
 	[FieldOffset(Offset = "0x10")]
 	public Type m_Type0;
 
-	[Token(Token = "0x400053A")]
+	[Token(Token = "0x40005C2")]
 	[FieldOffset(Offset = "0x18")]
 	public Type m_Type1;
 
-	[Token(Token = "0x400053B")]
+	[Token(Token = "0x40005C3")]
 	[FieldOffset(Offset = "0x20")]
 	public Type m_Type2;
 
-	[Token(Token = "0x600097C")]
-	[Address(RVA = "0x4DF3C40", Offset = "0x4DF3C40", VA = "0x4DF3C40")]
+	[Token(Token = "0x6000CB5")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public RequireComponent(Type requiredComponent)
 	{
 	}
 
-	[Token(Token = "0x600097D")]
-	[Address(RVA = "0x4DF3C70", Offset = "0x4DF3C70", VA = "0x4DF3C70")]
+	[Token(Token = "0x6000CB6")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public RequireComponent(Type requiredComponent, Type requiredComponent2)
 	{
 	}

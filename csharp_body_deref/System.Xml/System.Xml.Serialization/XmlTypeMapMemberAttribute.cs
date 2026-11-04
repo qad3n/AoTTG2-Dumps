@@ -33,13 +33,13 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public string AttributeName
 	{
 		[Token(Token = "0x6000EB6")]
-		[Address(RVA = "0x4838DB0", Offset = "0x4838DB0", VA = "0x4838DB0")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB7")]
-		[Address(RVA = "0x4838DC0", Offset = "0x4838DC0", VA = "0x4838DC0")]
+		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
 		set
 		{
 		}
@@ -49,13 +49,13 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public string Namespace
 	{
 		[Token(Token = "0x6000EB8")]
-		[Address(RVA = "0x4838DD0", Offset = "0x4838DD0", VA = "0x4838DD0")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EB9")]
-		[Address(RVA = "0x4838DE0", Offset = "0x4838DE0", VA = "0x4838DE0")]
+		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
 		set
 		{
 		}
@@ -65,7 +65,7 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000EBA")]
-		[Address(RVA = "0x4838DF0", Offset = "0x4838DF0", VA = "0x4838DF0")]
+		[Address(RVA = "0xA4D6E0", Offset = "0xA4BCE0", VA = "0x180A4D6E0")]
 		set
 		{
 		}
@@ -75,20 +75,20 @@ internal class XmlTypeMapMemberAttribute : XmlTypeMapMember
 	public XmlTypeMapping MappedType
 	{
 		[Token(Token = "0x6000EBB")]
-		[Address(RVA = "0x4838E00", Offset = "0x4838E00", VA = "0x4838E00")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EBC")]
-		[Address(RVA = "0x4838E10", Offset = "0x4838E10", VA = "0x4838E10")]
+		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000EB5")]
-	[Address(RVA = "0x4838D00", Offset = "0x4838D00", VA = "0x4838D00")]
+	[Address(RVA = "0x278D610", Offset = "0x278BC10", VA = "0x18278D610")]
 	public XmlTypeMapMemberAttribute()
 	{
 	}

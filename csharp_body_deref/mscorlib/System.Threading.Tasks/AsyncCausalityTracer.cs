@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000263")]
+[Token(Token = "0x2000293")]
 [System.Runtime.CompilerServices.FriendAccessAllowed]
 internal static class AsyncCausalityTracer
 {
-	[Token(Token = "0x1700020E")]
+	[Token(Token = "0x17000210")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static bool LoggingOn
 	{
-		[Token(Token = "0x6001502")]
-		[Address(RVA = "0x3D4A0B0", Offset = "0x3D4A0B0", VA = "0x3D4A0B0")]
+		[Token(Token = "0x600156E")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 		[System.Runtime.CompilerServices.FriendAccessAllowed]
 		get
 		{
@@ -28,31 +28,31 @@ internal static class AsyncCausalityTracer
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001503")]
-	[Address(RVA = "0x3D4E5A0", Offset = "0x3D4E5A0", VA = "0x3D4E5A0")]
+	[Token(Token = "0x600156F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static void TraceOperationCreation(System.Threading.Tasks.CausalityTraceLevel traceLevel, int taskId, string operationName, ulong relatedContext)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001504")]
-	[Address(RVA = "0x3D4E5B0", Offset = "0x3D4E5B0", VA = "0x3D4E5B0")]
+	[Token(Token = "0x6001570")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[System.Runtime.CompilerServices.FriendAccessAllowed]
 	internal static void TraceOperationCompletion(System.Threading.Tasks.CausalityTraceLevel traceLevel, int taskId, System.Threading.Tasks.AsyncCausalityStatus status)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001505")]
-	[Address(RVA = "0x3D4E5C0", Offset = "0x3D4E5C0", VA = "0x3D4E5C0")]
+	[Token(Token = "0x6001571")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	internal static void TraceSynchronousWorkStart(System.Threading.Tasks.CausalityTraceLevel traceLevel, int taskId, System.Threading.Tasks.CausalitySynchronousWork work)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001506")]
-	[Address(RVA = "0x3D4A0C0", Offset = "0x3D4A0C0", VA = "0x3D4A0C0")]
+	[Token(Token = "0x6001572")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	internal static void TraceSynchronousWorkCompletion(System.Threading.Tasks.CausalityTraceLevel traceLevel, System.Threading.Tasks.CausalitySynchronousWork work)
 	{
 	}

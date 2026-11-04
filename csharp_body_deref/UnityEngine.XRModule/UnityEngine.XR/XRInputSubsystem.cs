@@ -14,40 +14,40 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000017")]
 [UnityEngine.Bindings.NativeType(Header = "Modules/XR/Subsystems/Input/XRInputSubsystem.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
 public class XRInputSubsystem : IntegratedSubsystem<XRInputSubsystemDescriptor>
 {
-	[Token(Token = "0x4000066")]
+	[Token(Token = "0x400006A")]
 	[FieldOffset(Offset = "0x20")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private Action<XRInputSubsystem> trackingOriginUpdated;
 
-	[Token(Token = "0x4000067")]
+	[Token(Token = "0x400006B")]
 	[FieldOffset(Offset = "0x28")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private Action<XRInputSubsystem> boundaryChanged;
 
-	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x510D250", Offset = "0x510D250", VA = "0x510D250")]
+	[Token(Token = "0x6000054")]
+	[Address(RVA = "0x3315440", Offset = "0x3313A40", VA = "0x183315440")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private static void InvokeTrackingOriginUpdatedEvent(IntPtr internalPtr)
 	{
 	}
 
-	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x510D2F0", Offset = "0x510D2F0", VA = "0x510D2F0")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x3315390", Offset = "0x3313990", VA = "0x183315390")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private static void InvokeBoundaryChangedEvent(IntPtr internalPtr)
 	{
 	}
 
-	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x510D390", Offset = "0x510D390", VA = "0x510D390")]
+	[Token(Token = "0x6000056")]
+	[Address(RVA = "0x33154F0", Offset = "0x3313AF0", VA = "0x1833154F0")]
 	public XRInputSubsystem()
 	{
 	}

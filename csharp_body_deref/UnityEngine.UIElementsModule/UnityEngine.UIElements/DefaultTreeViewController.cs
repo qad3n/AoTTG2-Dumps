@@ -1,95 +1,59 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.DefaultTreeViewController
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000027")]
-internal class DefaultTreeViewController<T> : TreeViewController
+[Token(Token = "0x200005B")]
+public class DefaultTreeViewController<T> : TreeViewController
 {
-	[Token(Token = "0x4000068")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4000132")]
+	[FieldOffset(Offset = "0x0")]
 	private TreeDataController<T> m_TreeDataController;
 
-	[Token(Token = "0x17000026")]
+	[Token(Token = "0x1700006D")]
 	private TreeDataController<T> treeDataController
 	{
-		[Token(Token = "0x6000119")]
+		[Token(Token = "0x6000272")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000027")]
+	[Token(Token = "0x1700006E")]
 	public override IList itemsSource
 	{
-		[Token(Token = "0x600011A")]
+		[Token(Token = "0x6000273")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600011B")]
+		[Token(Token = "0x6000274")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600011C")]
+	[Token(Token = "0x6000275")]
 	public void SetRootItems(IList<TreeViewItemData<T>> items)
 	{
 	}
 
-	[Token(Token = "0x600011D")]
+	[Token(Token = "0x6000276")]
 	public override object GetItemForIndex(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011E")]
-	public override int GetParentId(int id)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x600011F")]
-	public override bool HasChildren(int id)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000120")]
-	public override IEnumerable<int> GetChildrenIds(int id)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000121")]
-	public override void Move(int id, int newParentId, int childIndex = -1, bool rebuildTree = true)
-	{
-	}
-
-	[Token(Token = "0x6000122")]
-	private bool IsChildOf(int childId, int id)
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000123")]
-	public override IEnumerable<int> GetAllItemIds([Optional] IEnumerable<int> rootIds)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000124")]
+	[Token(Token = "0x6000277")]
 	public DefaultTreeViewController()
 	{
 	}

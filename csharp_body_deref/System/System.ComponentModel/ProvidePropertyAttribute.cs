@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002CA")]
+[Token(Token = "0x20001D5")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
 public sealed class ProvidePropertyAttribute : Attribute
 {
-	[Token(Token = "0x1700041B")]
+	[Token(Token = "0x1700028A")]
 	public string PropertyName
 	{
-		[Token(Token = "0x6001236")]
-		[Address(RVA = "0x48A5C10", Offset = "0x48A5C10", VA = "0x48A5C10")]
+		[Token(Token = "0x6000C7E")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public sealed class ProvidePropertyAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700041C")]
+	[Token(Token = "0x1700028B")]
 	public string ReceiverTypeName
 	{
-		[Token(Token = "0x6001237")]
-		[Address(RVA = "0x48A5C20", Offset = "0x48A5C20", VA = "0x48A5C20")]
+		[Token(Token = "0x6000C7F")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,38 +38,38 @@ public sealed class ProvidePropertyAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700041D")]
+	[Token(Token = "0x1700028C")]
 	public override object TypeId
 	{
-		[Token(Token = "0x600123A")]
-		[Address(RVA = "0x48A5D10", Offset = "0x48A5D10", VA = "0x48A5D10", Slot = "4")]
+		[Token(Token = "0x6000C82")]
+		[Address(RVA = "0x287D510", Offset = "0x287BB10", VA = "0x18287D510", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001234")]
-	[Address(RVA = "0x48A5B70", Offset = "0x48A5B70", VA = "0x48A5B70")]
+	[Token(Token = "0x6000C7C")]
+	[Address(RVA = "0x28B8930", Offset = "0x28B6F30", VA = "0x1828B8930")]
 	public ProvidePropertyAttribute(string propertyName, Type receiverType)
 	{
 	}
 
-	[Token(Token = "0x6001235")]
-	[Address(RVA = "0x48A5BD0", Offset = "0x48A5BD0", VA = "0x48A5BD0")]
+	[Token(Token = "0x6000C7D")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public ProvidePropertyAttribute(string propertyName, string receiverTypeName)
 	{
 	}
 
-	[Token(Token = "0x6001238")]
-	[Address(RVA = "0x48A5C30", Offset = "0x48A5C30", VA = "0x48A5C30", Slot = "0")]
+	[Token(Token = "0x6000C80")]
+	[Address(RVA = "0x28B8880", Offset = "0x28B6E80", VA = "0x1828B8880", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001239")]
-	[Address(RVA = "0x48A5CC0", Offset = "0x48A5CC0", VA = "0x48A5CC0", Slot = "2")]
+	[Token(Token = "0x6000C81")]
+	[Address(RVA = "0x28B2100", Offset = "0x28B0700", VA = "0x1828B2100", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

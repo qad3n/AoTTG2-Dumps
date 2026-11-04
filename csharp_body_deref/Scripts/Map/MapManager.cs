@@ -14,117 +14,117 @@ using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x2000274")]
+[Token(Token = "0x20003B3")]
 internal class MapManager : MonoBehaviourPunCallbacks
 {
-	[Token(Token = "0x4000D56")]
+	[Token(Token = "0x4001358")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool MapLoaded;
 
-	[Token(Token = "0x4000D57")]
+	[Token(Token = "0x4001359")]
 	[FieldOffset(Offset = "0x8")]
 	public static MapScript MapScript;
 
-	[Token(Token = "0x4000D58")]
+	[Token(Token = "0x400135A")]
 	[FieldOffset(Offset = "0x10")]
 	private static MapManager _instance;
 
-	[Token(Token = "0x4000D59")]
+	[Token(Token = "0x400135B")]
 	[FieldOffset(Offset = "0x18")]
 	public static bool NeedsNavMeshUpdate;
 
-	[Token(Token = "0x4000D5A")]
+	[Token(Token = "0x400135C")]
 	[FieldOffset(Offset = "0x20")]
 	public static string LastMapHash;
 
-	[Token(Token = "0x4000D5B")]
+	[Token(Token = "0x400135D")]
 	[FieldOffset(Offset = "0x28")]
 	public static string LastGameMode;
 
-	[Token(Token = "0x6000F25")]
-	[Address(RVA = "0x3FB1E10", Offset = "0x3FB1E10", VA = "0x3FB1E10")]
+	[Token(Token = "0x600176B")]
+	[Address(RVA = "0x1EB2AD0", Offset = "0x1EB10D0", VA = "0x181EB2AD0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6000F26")]
-	[Address(RVA = "0x3FB20D0", Offset = "0x3FB20D0", VA = "0x3FB20D0")]
+	[Token(Token = "0x600176C")]
+	[Address(RVA = "0x1EB4180", Offset = "0x1EB2780", VA = "0x181EB4180")]
 	public static bool TryGetRandomTagXform(string tag, out Transform xform)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x3FB2330", Offset = "0x3FB2330", VA = "0x3FB2330")]
+	[Token(Token = "0x600176D")]
+	[Address(RVA = "0x1EB46F0", Offset = "0x1EB2CF0", VA = "0x181EB46F0")]
 	public static bool TryGetRandomTagsXform(List<string> tags, out Transform xform)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F28")]
-	[Address(RVA = "0x3FB2580", Offset = "0x3FB2580", VA = "0x3FB2580")]
+	[Token(Token = "0x600176E")]
+	[Address(RVA = "0x1EB4250", Offset = "0x1EB2850", VA = "0x181EB4250")]
 	public static bool TryGetRandomTagXforms(string tag, Vector3 avoidPosition, float avoidRadius, int count, out List<Transform> xforms)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F29")]
-	[Address(RVA = "0x3FB2190", Offset = "0x3FB2190", VA = "0x3FB2190")]
+	[Token(Token = "0x600176F")]
+	[Address(RVA = "0x1EB2950", Offset = "0x1EB0F50", VA = "0x181EB2950")]
 	public static GameObject GetRandomTag(string tag)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F2A")]
-	[Address(RVA = "0x3FB2B80", Offset = "0x3FB2B80", VA = "0x3FB2B80")]
+	[Token(Token = "0x6001770")]
+	[Address(RVA = "0x1EB3880", Offset = "0x1EB1E80", VA = "0x181EB3880")]
 	private static void OnPreLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6000F2B")]
-	[Address(RVA = "0x3FB2BF0", Offset = "0x3FB2BF0", VA = "0x3FB2BF0")]
+	[Token(Token = "0x6001771")]
+	[Address(RVA = "0x1EB34C0", Offset = "0x1EB1AC0", VA = "0x181EB34C0")]
 	private static void OnLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6000F2C")]
-	[Address(RVA = "0x3FB2D40", Offset = "0x3FB2D40", VA = "0x3FB2D40")]
+	[Token(Token = "0x6001772")]
+	[Address(RVA = "0x1EB38D0", Offset = "0x1EB1ED0", VA = "0x181EB38D0")]
 	private static void StartInGame()
 	{
 	}
 
-	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x3FB30F0", Offset = "0x3FB30F0", VA = "0x3FB30F0")]
+	[Token(Token = "0x6001773")]
+	[Address(RVA = "0x1EB3E50", Offset = "0x1EB2450", VA = "0x181EB3E50")]
 	private static void StartMapEditor()
 	{
 	}
 
-	[Token(Token = "0x6000F2E")]
-	[Address(RVA = "0x3FB3E60", Offset = "0x3FB3E60", VA = "0x3FB3E60")]
+	[Token(Token = "0x6001774")]
+	[Address(RVA = "0x1EB2FF0", Offset = "0x1EB15F0", VA = "0x181EB2FF0")]
 	public static void OnLoadBuiltinMapRPC(string category, string name, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000F2F")]
-	[Address(RVA = "0x3FB38C0", Offset = "0x3FB38C0", VA = "0x3FB38C0")]
+	[Token(Token = "0x6001775")]
+	[Address(RVA = "0x1EB32F0", Offset = "0x1EB18F0", VA = "0x181EB32F0")]
 	public static void OnLoadCachedMapRPC(PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000F30")]
-	[Address(RVA = "0x3FB40F0", Offset = "0x3FB40F0", VA = "0x3FB40F0")]
+	[Token(Token = "0x6001776")]
+	[Address(RVA = "0x1EB2E60", Offset = "0x1EB1460", VA = "0x181EB2E60")]
 	public static void LoadMap(bool mapChanged)
 	{
 	}
 
-	[Token(Token = "0x6000F31")]
-	[Address(RVA = "0x3FB4240", Offset = "0x3FB4240", VA = "0x3FB4240", Slot = "42")]
+	[Token(Token = "0x6001777")]
+	[Address(RVA = "0x1EB3600", Offset = "0x1EB1C00", VA = "0x181EB3600", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000F32")]
-	[Address(RVA = "0x3FB45D0", Offset = "0x3FB45D0", VA = "0x3FB45D0")]
+	[Token(Token = "0x6001778")]
+	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
 	public MapManager()
 	{
 	}

@@ -1,13 +1,15 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.HierarchyEvent
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200023A")]
-internal delegate void HierarchyEvent(VisualElement ve, HierarchyChangeType changeType);
+[Token(Token = "0x20002B3")]
+internal delegate void HierarchyEvent(VisualElement ve, HierarchyChangeType changeType, [Optional] IReadOnlyList<VisualElement> additionalContext);

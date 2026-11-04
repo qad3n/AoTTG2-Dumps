@@ -20,22 +20,22 @@ internal sealed class PropertyExpression : MemberExpression
 	[Token(Token = "0x170000C5")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x600047F")]
-		[Address(RVA = "0x44BD0B0", Offset = "0x44BD0B0", VA = "0x44BD0B0", Slot = "5")]
+		[Token(Token = "0x600047E")]
+		[Address(RVA = "0x243E8F0", Offset = "0x243CEF0", VA = "0x18243E8F0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x44BCE40", Offset = "0x44BCE40", VA = "0x44BCE40")]
+	[Token(Token = "0x600047C")]
+	[Address(RVA = "0x2439780", Offset = "0x2437D80", VA = "0x182439780")]
 	public PropertyExpression(Expression expression, PropertyInfo member)
 	{
 	}
 
-	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x44BD0A0", Offset = "0x44BD0A0", VA = "0x44BD0A0", Slot = "10")]
+	[Token(Token = "0x600047D")]
+	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "10")]
 	internal override MemberInfo GetMember()
 	{
 		return null;

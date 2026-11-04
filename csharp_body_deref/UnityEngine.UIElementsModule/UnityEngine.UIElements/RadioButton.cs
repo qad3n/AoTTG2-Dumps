@@ -5,143 +5,146 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000F7")]
+[Token(Token = "0x2000132")]
 public class RadioButton : BaseBoolField, IGroupBoxOption
 {
-	[Token(Token = "0x20000F8")]
+	[Token(Token = "0x2000133")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<RadioButton, UxmlTraits>
 	{
-		[Token(Token = "0x60006AB")]
-		[Address(RVA = "0x4FF2D50", Offset = "0x4FF2D50", VA = "0x4FF2D50")]
+		[Token(Token = "0x60008D8")]
+		[Address(RVA = "0x3224EE0", Offset = "0x32234E0", VA = "0x183224EE0")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000F9")]
+	[Token(Token = "0x2000134")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : BaseFieldTraits<bool, UxmlBoolAttributeDescription>
 	{
-		[Token(Token = "0x40003FE")]
-		[FieldOffset(Offset = "0x88")]
+		[Token(Token = "0x400055D")]
+		[FieldOffset(Offset = "0xA0")]
 		private UxmlStringAttributeDescription m_Text;
 
-		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x4FF2D90", Offset = "0x4FF2D90", VA = "0x4FF2D90", Slot = "4")]
+		[Token(Token = "0x60008D9")]
+		[Address(RVA = "0x3225860", Offset = "0x3223E60", VA = "0x183225860", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
-		[Token(Token = "0x60006AD")]
-		[Address(RVA = "0x4FF2EA0", Offset = "0x4FF2EA0", VA = "0x4FF2EA0")]
+		[Token(Token = "0x60008DA")]
+		[Address(RVA = "0x3226110", Offset = "0x3224710", VA = "0x183226110")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x40003F7")]
+	[Token(Token = "0x4000556")]
 	[FieldOffset(Offset = "0x0")]
 	public new static readonly string ussClassName;
 
-	[Token(Token = "0x40003F8")]
+	[Token(Token = "0x4000557")]
 	[FieldOffset(Offset = "0x8")]
 	public new static readonly string labelUssClassName;
 
-	[Token(Token = "0x40003F9")]
+	[Token(Token = "0x4000558")]
 	[FieldOffset(Offset = "0x10")]
 	public new static readonly string inputUssClassName;
 
-	[Token(Token = "0x40003FA")]
+	[Token(Token = "0x4000559")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly string checkmarkBackgroundUssClassName;
 
-	[Token(Token = "0x40003FB")]
+	[Token(Token = "0x400055A")]
 	[FieldOffset(Offset = "0x20")]
 	public static readonly string checkmarkUssClassName;
 
-	[Token(Token = "0x40003FC")]
+	[Token(Token = "0x400055B")]
 	[FieldOffset(Offset = "0x28")]
 	public static readonly string textUssClassName;
 
-	[Token(Token = "0x40003FD")]
-	[FieldOffset(Offset = "0x470")]
+	[Token(Token = "0x400055C")]
+	[FieldOffset(Offset = "0x380")]
 	private VisualElement m_CheckmarkBackground;
 
-	[Token(Token = "0x17000127")]
+	[Token(Token = "0x170001A0")]
 	public override bool value
 	{
-		[Token(Token = "0x600069E")]
-		[Address(RVA = "0x4FF2460", Offset = "0x4FF2460", VA = "0x4FF2460", Slot = "105")]
+		[Token(Token = "0x60008CB")]
+		[Address(RVA = "0x32233B0", Offset = "0x32219B0", VA = "0x1832233B0", Slot = "148")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600069F")]
-		[Address(RVA = "0x4FF24A0", Offset = "0x4FF24A0", VA = "0x4FF24A0", Slot = "106")]
+		[Token(Token = "0x60008CC")]
+		[Address(RVA = "0x32233F0", Offset = "0x32219F0", VA = "0x1832233F0", Slot = "149")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x4FF2650", Offset = "0x4FF2650", VA = "0x4FF2650")]
+	[Token(Token = "0x60008CD")]
+	[Address(RVA = "0x32230B0", Offset = "0x32216B0", VA = "0x1832230B0")]
 	public RadioButton()
 	{
 	}
 
-	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x4FF2660", Offset = "0x4FF2660", VA = "0x4FF2660")]
+	[Token(Token = "0x60008CE")]
+	[Address(RVA = "0x32230C0", Offset = "0x32216C0", VA = "0x1832230C0")]
 	public RadioButton(string label)
 	{
 	}
 
-	[Token(Token = "0x60006A2")]
-	[Address(RVA = "0x4FF2940", Offset = "0x4FF2940", VA = "0x4FF2940")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x3222BA0", Offset = "0x32211A0", VA = "0x183222BA0")]
 	private void OnOptionAttachToPanel(AttachToPanelEvent evt)
 	{
 	}
 
-	[Token(Token = "0x60006A3")]
-	[Address(RVA = "0x4FF29A0", Offset = "0x4FF29A0", VA = "0x4FF29A0")]
+	[Token(Token = "0x60008D0")]
+	[Address(RVA = "0x3222C00", Offset = "0x3221200", VA = "0x183222C00")]
 	private void OnOptionDetachFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
-	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x4FF2A00", Offset = "0x4FF2A00", VA = "0x4FF2A00", Slot = "115")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x3222B20", Offset = "0x3221120", VA = "0x183222B20", Slot = "160")]
 	protected override void InitLabel()
 	{
 	}
 
-	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x4FF2A80", Offset = "0x4FF2A80", VA = "0x4FF2A80", Slot = "116")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x3222C80", Offset = "0x3221280", VA = "0x183222C80", Slot = "161")]
 	protected override void ToggleValue()
 	{
 	}
 
-	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x4FF2AC0", Offset = "0x4FF2AC0", VA = "0x4FF2AC0", Slot = "117")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x3222CC0", Offset = "0x32212C0", VA = "0x183222CC0", Slot = "162")]
 	private void UnityEngine_002EUIElements_002EIGroupBoxOption_002ESetSelected(bool selected)
 	{
 	}
 
-	[Token(Token = "0x60006A7")]
-	[Address(RVA = "0x4FF2AE0", Offset = "0x4FF2AE0", VA = "0x4FF2AE0", Slot = "114")]
+	[Token(Token = "0x60008D4")]
+	[Address(RVA = "0x3222C60", Offset = "0x3221260", VA = "0x183222C60", Slot = "159")]
 	public override void SetValueWithoutNotify(bool newValue)
 	{
 	}
 
-	[Token(Token = "0x60006A8")]
-	[Address(RVA = "0x4FF2560", Offset = "0x4FF2560", VA = "0x4FF2560")]
+	[Token(Token = "0x60008D5")]
+	[Address(RVA = "0x3222CE0", Offset = "0x32212E0", VA = "0x183222CE0")]
 	private void UpdateCheckmark()
 	{
 	}
 
-	[Token(Token = "0x60006A9")]
-	[Address(RVA = "0x4FF2B00", Offset = "0x4FF2B00", VA = "0x4FF2B00", Slot = "113")]
+	[Token(Token = "0x60008D6")]
+	[Address(RVA = "0x3222DF0", Offset = "0x32213F0", VA = "0x183222DF0", Slot = "158")]
 	protected override void UpdateMixedValueContent()
 	{
 	}

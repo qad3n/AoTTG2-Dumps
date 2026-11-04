@@ -15,76 +15,96 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x2000736")]
+[Token(Token = "0x20008BB")]
 public class FileWatcherExtension : MonoBehaviour
 {
-	[Token(Token = "0x4002297")]
+	[Token(Token = "0x4002B56")]
 	[FieldOffset(Offset = "0x20")]
 	[Header("Watcher Settings")]
 	[SerializeField]
 	private List<string> watchPaths;
 
-	[Token(Token = "0x4002298")]
+	[Token(Token = "0x4002B57")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	private bool _includeSubdirectories;
 
-	[Token(Token = "0x4002299")]
+	[Token(Token = "0x4002B58")]
 	[FieldOffset(Offset = "0x2C")]
 	[SerializeField]
 	private NotifyFilters _notifyFilter;
 
-	[Token(Token = "0x400229A")]
+	[Token(Token = "0x4002B59")]
 	[FieldOffset(Offset = "0x30")]
 	[Header("Dispatch Settings")]
 	[SerializeField]
 	private int maxActionsPerFrame;
 
-	[Token(Token = "0x400229B")]
+	[Token(Token = "0x4002B5A")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly Dictionary<string, FileSystemWatcher> _watchers;
 
-	[Token(Token = "0x400229C")]
+	[Token(Token = "0x4002B5B")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly ConcurrentQueue<Action> _mainThreadQueue;
 
-	[Token(Token = "0x17000DBB")]
+	[Token(Token = "0x4002B5C")]
+	[FieldOffset(Offset = "0x48")]
+	[CompilerGenerated]
+	private FileSystemEventHandler m_Changed;
+
+	[Token(Token = "0x4002B5D")]
+	[FieldOffset(Offset = "0x50")]
+	[CompilerGenerated]
+	private FileSystemEventHandler m_Created;
+
+	[Token(Token = "0x4002B5E")]
+	[FieldOffset(Offset = "0x58")]
+	[CompilerGenerated]
+	private FileSystemEventHandler m_Deleted;
+
+	[Token(Token = "0x4002B5F")]
+	[FieldOffset(Offset = "0x60")]
+	[CompilerGenerated]
+	private RenamedEventHandler m_Renamed;
+
+	[Token(Token = "0x17000F1C")]
 	public bool IncludeSubdirectories
 	{
-		[Token(Token = "0x60046CA")]
-		[Address(RVA = "0x4390920", Offset = "0x4390920", VA = "0x4390920")]
+		[Token(Token = "0x6005326")]
+		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60046CB")]
-		[Address(RVA = "0x4390930", Offset = "0x4390930", VA = "0x4390930")]
+		[Token(Token = "0x6005327")]
+		[Address(RVA = "0x23389D0", Offset = "0x2336FD0", VA = "0x1823389D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000DBC")]
+	[Token(Token = "0x17000F1D")]
 	public NotifyFilters NotifyFilter
 	{
-		[Token(Token = "0x60046CC")]
-		[Address(RVA = "0x4390AC0", Offset = "0x4390AC0", VA = "0x4390AC0")]
+		[Token(Token = "0x6005328")]
+		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
 		get
 		{
 			return default(NotifyFilters);
 		}
-		[Token(Token = "0x60046CD")]
-		[Address(RVA = "0x4390AD0", Offset = "0x4390AD0", VA = "0x4390AD0")]
+		[Token(Token = "0x6005329")]
+		[Address(RVA = "0x2338B30", Offset = "0x2337130", VA = "0x182338B30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000DBD")]
+	[Token(Token = "0x17000F1E")]
 	public IEnumerable<string> WatchedPaths
 	{
-		[Token(Token = "0x60046D8")]
-		[Address(RVA = "0x4391A90", Offset = "0x4391A90", VA = "0x4391A90")]
+		[Token(Token = "0x6005334")]
+		[Address(RVA = "0x2338700", Offset = "0x2336D00", VA = "0x182338700")]
 		get
 		{
 			return null;
@@ -94,14 +114,14 @@ public class FileWatcherExtension : MonoBehaviour
 	[Token(Token = "0x14000009")]
 	public event FileSystemEventHandler Changed
 	{
-		[Token(Token = "0x60046C2")]
-		[Address(RVA = "0x43904A0", Offset = "0x43904A0", VA = "0x43904A0")]
+		[Token(Token = "0x600531E")]
+		[Address(RVA = "0x2338480", Offset = "0x2336A80", VA = "0x182338480")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60046C3")]
-		[Address(RVA = "0x4390530", Offset = "0x4390530", VA = "0x4390530")]
+		[Token(Token = "0x600531F")]
+		[Address(RVA = "0x2338750", Offset = "0x2336D50", VA = "0x182338750")]
 		[CompilerGenerated]
 		remove
 		{
@@ -111,14 +131,14 @@ public class FileWatcherExtension : MonoBehaviour
 	[Token(Token = "0x1400000A")]
 	public event FileSystemEventHandler Created
 	{
-		[Token(Token = "0x60046C4")]
-		[Address(RVA = "0x43905C0", Offset = "0x43905C0", VA = "0x43905C0")]
+		[Token(Token = "0x6005320")]
+		[Address(RVA = "0x2338520", Offset = "0x2336B20", VA = "0x182338520")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60046C5")]
-		[Address(RVA = "0x4390650", Offset = "0x4390650", VA = "0x4390650")]
+		[Token(Token = "0x6005321")]
+		[Address(RVA = "0x23387F0", Offset = "0x2336DF0", VA = "0x1823387F0")]
 		[CompilerGenerated]
 		remove
 		{
@@ -128,14 +148,14 @@ public class FileWatcherExtension : MonoBehaviour
 	[Token(Token = "0x1400000B")]
 	public event FileSystemEventHandler Deleted
 	{
-		[Token(Token = "0x60046C6")]
-		[Address(RVA = "0x43906E0", Offset = "0x43906E0", VA = "0x43906E0")]
+		[Token(Token = "0x6005322")]
+		[Address(RVA = "0x23385C0", Offset = "0x2336BC0", VA = "0x1823385C0")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60046C7")]
-		[Address(RVA = "0x4390770", Offset = "0x4390770", VA = "0x4390770")]
+		[Token(Token = "0x6005323")]
+		[Address(RVA = "0x2338890", Offset = "0x2336E90", VA = "0x182338890")]
 		[CompilerGenerated]
 		remove
 		{
@@ -145,82 +165,82 @@ public class FileWatcherExtension : MonoBehaviour
 	[Token(Token = "0x1400000C")]
 	public event RenamedEventHandler Renamed
 	{
-		[Token(Token = "0x60046C8")]
-		[Address(RVA = "0x4390800", Offset = "0x4390800", VA = "0x4390800")]
+		[Token(Token = "0x6005324")]
+		[Address(RVA = "0x2338660", Offset = "0x2336C60", VA = "0x182338660")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60046C9")]
-		[Address(RVA = "0x4390890", Offset = "0x4390890", VA = "0x4390890")]
+		[Token(Token = "0x6005325")]
+		[Address(RVA = "0x2338930", Offset = "0x2336F30", VA = "0x182338930")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60046CE")]
-	[Address(RVA = "0x4390C50", Offset = "0x4390C50", VA = "0x4390C50")]
+	[Token(Token = "0x600532A")]
+	[Address(RVA = "0x2337930", Offset = "0x2335F30", VA = "0x182337930")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60046CF")]
-	[Address(RVA = "0x4391020", Offset = "0x4391020", VA = "0x4391020")]
+	[Token(Token = "0x600532B")]
+	[Address(RVA = "0x23382D0", Offset = "0x23368D0", VA = "0x1823382D0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60046D0")]
-	[Address(RVA = "0x43910C0", Offset = "0x43910C0", VA = "0x43910C0")]
+	[Token(Token = "0x600532C")]
+	[Address(RVA = "0x2337FB0", Offset = "0x23365B0", VA = "0x182337FB0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60046D1")]
-	[Address(RVA = "0x4390DA0", Offset = "0x4390DA0", VA = "0x4390DA0")]
+	[Token(Token = "0x600532D")]
+	[Address(RVA = "0x23376C0", Offset = "0x2335CC0", VA = "0x1823376C0")]
 	public void AddWatcher(string path)
 	{
 	}
 
-	[Token(Token = "0x60046D2")]
-	[Address(RVA = "0x4391400", Offset = "0x4391400", VA = "0x4391400")]
+	[Token(Token = "0x600532E")]
+	[Address(RVA = "0x23380B0", Offset = "0x23366B0", VA = "0x1823380B0")]
 	public void RemoveWatcher(string path)
 	{
 	}
 
-	[Token(Token = "0x60046D3")]
-	[Address(RVA = "0x43910D0", Offset = "0x43910D0", VA = "0x43910D0")]
+	[Token(Token = "0x600532F")]
+	[Address(RVA = "0x2337A40", Offset = "0x2336040", VA = "0x182337A40")]
 	private void DisposeWatchers()
 	{
 	}
 
-	[Token(Token = "0x60046D4")]
-	[Address(RVA = "0x4391610", Offset = "0x4391610", VA = "0x4391610")]
+	[Token(Token = "0x6005330")]
+	[Address(RVA = "0x2337CE0", Offset = "0x23362E0", VA = "0x182337CE0")]
 	private void OnChanged(object sender, FileSystemEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x60046D5")]
-	[Address(RVA = "0x4391730", Offset = "0x4391730", VA = "0x4391730")]
+	[Token(Token = "0x6005331")]
+	[Address(RVA = "0x2337DD0", Offset = "0x23363D0", VA = "0x182337DD0")]
 	private void OnCreated(object sender, FileSystemEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x60046D6")]
-	[Address(RVA = "0x4391850", Offset = "0x4391850", VA = "0x4391850")]
+	[Token(Token = "0x6005332")]
+	[Address(RVA = "0x2337EC0", Offset = "0x23364C0", VA = "0x182337EC0")]
 	private void OnDeleted(object sender, FileSystemEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x60046D7")]
-	[Address(RVA = "0x4391970", Offset = "0x4391970", VA = "0x4391970")]
+	[Token(Token = "0x6005333")]
+	[Address(RVA = "0x2337FC0", Offset = "0x23365C0", VA = "0x182337FC0")]
 	private void OnRenamed(object sender, RenamedEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x60046D9")]
-	[Address(RVA = "0x4391AD0", Offset = "0x4391AD0", VA = "0x4391AD0")]
+	[Token(Token = "0x6005335")]
+	[Address(RVA = "0x2338360", Offset = "0x2336960", VA = "0x182338360")]
 	public FileWatcherExtension()
 	{
 	}

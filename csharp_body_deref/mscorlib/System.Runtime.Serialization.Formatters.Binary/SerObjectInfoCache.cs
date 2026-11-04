@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200041F")]
+[Token(Token = "0x200044E")]
 internal sealed class SerObjectInfoCache
 {
-	[Token(Token = "0x4001184")]
+	[Token(Token = "0x4001186")]
 	[FieldOffset(Offset = "0x10")]
 	internal string fullTypeName;
 
-	[Token(Token = "0x4001185")]
+	[Token(Token = "0x4001187")]
 	[FieldOffset(Offset = "0x18")]
 	internal string assemblyString;
 
-	[Token(Token = "0x4001186")]
+	[Token(Token = "0x4001188")]
 	[FieldOffset(Offset = "0x20")]
 	internal bool hasTypeForwardedFrom;
 
-	[Token(Token = "0x4001187")]
+	[Token(Token = "0x4001189")]
 	[FieldOffset(Offset = "0x28")]
 	internal MemberInfo[] memberInfos;
 
-	[Token(Token = "0x4001188")]
+	[Token(Token = "0x400118A")]
 	[FieldOffset(Offset = "0x30")]
 	internal string[] memberNames;
 
-	[Token(Token = "0x4001189")]
+	[Token(Token = "0x400118B")]
 	[FieldOffset(Offset = "0x38")]
 	internal Type[] memberTypes;
 
-	[Token(Token = "0x600210A")]
-	[Address(RVA = "0x3BAC940", Offset = "0x3BAC940", VA = "0x3BAC940")]
+	[Token(Token = "0x6002179")]
+	[Address(RVA = "0x1A1E5E0", Offset = "0x1A1CBE0", VA = "0x181A1E5E0")]
 	internal SerObjectInfoCache(string typeName, string assemblyName, bool hasTypeForwardedFrom)
 	{
 	}
 
-	[Token(Token = "0x600210B")]
-	[Address(RVA = "0x3BAC8B0", Offset = "0x3BAC8B0", VA = "0x3BAC8B0")]
+	[Token(Token = "0x600217A")]
+	[Address(RVA = "0x1A1E630", Offset = "0x1A1CC30", VA = "0x181A1E630")]
 	internal SerObjectInfoCache(Type type)
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.NetworkInformation;
 
-[Token(Token = "0x20001D8")]
+[Token(Token = "0x2000360")]
 internal static class IPGlobalPropertiesFactoryPal
 {
-	[Token(Token = "0x6000B9B")]
-	[Address(RVA = "0x49A4170", Offset = "0x49A4170", VA = "0x49A4170")]
+	[Token(Token = "0x6001759")]
+	[Address(RVA = "0x27F3BB0", Offset = "0x27F21B0", VA = "0x1827F3BB0")]
 	public static IPGlobalProperties Create()
 	{
 		return null;

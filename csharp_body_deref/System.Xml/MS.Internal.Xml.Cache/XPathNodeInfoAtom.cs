@@ -61,7 +61,7 @@ internal sealed class XPathNodeInfoAtom
 	public XPathNodePageInfo PageInfo
 	{
 		[Token(Token = "0x6001CDF")]
-		[Address(RVA = "0x47932D0", Offset = "0x47932D0", VA = "0x47932D0")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ internal sealed class XPathNodeInfoAtom
 	public string LocalName
 	{
 		[Token(Token = "0x6001CE0")]
-		[Address(RVA = "0x47932E0", Offset = "0x47932E0", VA = "0x47932E0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -83,7 +83,7 @@ internal sealed class XPathNodeInfoAtom
 	public string NamespaceUri
 	{
 		[Token(Token = "0x6001CE1")]
-		[Address(RVA = "0x47932F0", Offset = "0x47932F0", VA = "0x47932F0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -94,7 +94,7 @@ internal sealed class XPathNodeInfoAtom
 	public string Prefix
 	{
 		[Token(Token = "0x6001CE2")]
-		[Address(RVA = "0x4793300", Offset = "0x4793300", VA = "0x4793300")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -105,7 +105,7 @@ internal sealed class XPathNodeInfoAtom
 	public string BaseUri
 	{
 		[Token(Token = "0x6001CE3")]
-		[Address(RVA = "0x4793310", Offset = "0x4793310", VA = "0x4793310")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -116,7 +116,7 @@ internal sealed class XPathNodeInfoAtom
 	public XPathNode[] SiblingPage
 	{
 		[Token(Token = "0x6001CE4")]
-		[Address(RVA = "0x4793320", Offset = "0x4793320", VA = "0x4793320")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -127,7 +127,7 @@ internal sealed class XPathNodeInfoAtom
 	public XPathNode[] SimilarElementPage
 	{
 		[Token(Token = "0x6001CE5")]
-		[Address(RVA = "0x4793330", Offset = "0x4793330", VA = "0x4793330")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
@@ -138,7 +138,7 @@ internal sealed class XPathNodeInfoAtom
 	public XPathNode[] ParentPage
 	{
 		[Token(Token = "0x6001CE6")]
-		[Address(RVA = "0x4793340", Offset = "0x4793340", VA = "0x4793340")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
@@ -149,7 +149,7 @@ internal sealed class XPathNodeInfoAtom
 	public XPathDocument Document
 	{
 		[Token(Token = "0x6001CE7")]
-		[Address(RVA = "0x4793350", Offset = "0x4793350", VA = "0x4793350")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
@@ -160,7 +160,7 @@ internal sealed class XPathNodeInfoAtom
 	public int LineNumberBase
 	{
 		[Token(Token = "0x6001CE8")]
-		[Address(RVA = "0x4793360", Offset = "0x4793360", VA = "0x4793360")]
+		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
 		get
 		{
 			return default(int);
@@ -171,7 +171,7 @@ internal sealed class XPathNodeInfoAtom
 	public int LinePositionBase
 	{
 		[Token(Token = "0x6001CE9")]
-		[Address(RVA = "0x4793370", Offset = "0x4793370", VA = "0x4793370")]
+		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
 		get
 		{
 			return default(int);

@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000229")]
+[Token(Token = "0x20002A0")]
 public static class MouseCaptureController
 {
-	[Token(Token = "0x6000E21")]
-	[Address(RVA = "0x504B2E0", Offset = "0x504B2E0", VA = "0x504B2E0")]
+	[Token(Token = "0x60011B9")]
+	[Address(RVA = "0x32B0C90", Offset = "0x32AF290", VA = "0x1832B0C90")]
 	public static bool HasMouseCapture(this IEventHandler handler)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E22")]
-	[Address(RVA = "0x504CD80", Offset = "0x504CD80", VA = "0x504CD80")]
+	[Token(Token = "0x60011BA")]
+	[Address(RVA = "0x32B0B60", Offset = "0x32AF160", VA = "0x1832B0B60")]
 	public static void CaptureMouse(this IEventHandler handler)
 	{
 	}

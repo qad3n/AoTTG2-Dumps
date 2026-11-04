@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D4")]
+[Token(Token = "0x20000FC")]
 public interface IObservable<out T>
 {
-	[Token(Token = "0x60007AE")]
+	[Token(Token = "0x60007E0")]
 	IDisposable Subscribe(IObserver<T> observer);
 }

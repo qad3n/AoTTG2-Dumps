@@ -10,36 +10,36 @@ using UnityEngine;
 
 namespace Cameras;
 
-[Token(Token = "0x2000705")]
+[Token(Token = "0x2000888")]
 internal class CharacterEditorCamera : BaseCamera
 {
-	[Token(Token = "0x40021E6")]
+	[Token(Token = "0x4002A9D")]
 	private const float MaxDistance = 4f;
 
-	[Token(Token = "0x40021E7")]
+	[Token(Token = "0x4002A9E")]
 	private const float MinDistance = 1f;
 
-	[Token(Token = "0x40021E8")]
+	[Token(Token = "0x4002A9F")]
 	private const float DefaultDistance = 3f;
 
-	[Token(Token = "0x40021E9")]
+	[Token(Token = "0x4002AA0")]
 	[FieldOffset(Offset = "0x38")]
 	private Vector3 AnchorPoint;
 
-	[Token(Token = "0x600456D")]
-	[Address(RVA = "0x4375BC0", Offset = "0x4375BC0", VA = "0x4375BC0", Slot = "6")]
+	[Token(Token = "0x60051BB")]
+	[Address(RVA = "0x22EEA30", Offset = "0x22ED030", VA = "0x1822EEA30", Slot = "6")]
 	protected override void SetDefaultCameraPosition()
 	{
 	}
 
-	[Token(Token = "0x600456E")]
-	[Address(RVA = "0x4375C20", Offset = "0x4375C20", VA = "0x4375C20")]
+	[Token(Token = "0x60051BC")]
+	[Address(RVA = "0x22EEAB0", Offset = "0x22ED0B0", VA = "0x1822EEAB0")]
 	protected void Update()
 	{
 	}
 
-	[Token(Token = "0x600456F")]
-	[Address(RVA = "0x43762E0", Offset = "0x43762E0", VA = "0x43762E0")]
+	[Token(Token = "0x60051BD")]
+	[Address(RVA = "0x22EF0B0", Offset = "0x22ED6B0", VA = "0x1822EF0B0")]
 	public CharacterEditorCamera()
 	{
 	}

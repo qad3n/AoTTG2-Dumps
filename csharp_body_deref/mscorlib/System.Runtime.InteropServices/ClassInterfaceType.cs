@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x200043E")]
+[Token(Token = "0x200046D")]
 [ComVisible(true)]
 public enum ClassInterfaceType
 {
-	[Token(Token = "0x4001255")]
-	None,
-	[Token(Token = "0x4001256")]
-	AutoDispatch,
 	[Token(Token = "0x4001257")]
+	None,
+	[Token(Token = "0x4001258")]
+	AutoDispatch,
+	[Token(Token = "0x4001259")]
 	AutoDual
 }

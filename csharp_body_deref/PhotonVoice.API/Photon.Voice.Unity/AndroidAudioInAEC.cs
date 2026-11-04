@@ -12,133 +12,133 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000A1")]
+[Token(Token = "0x20000A3")]
 public class AndroidAudioInAEC : IAudioPusher<short>, IAudioDesc, IDisposable, IResettable
 {
-	[Token(Token = "0x20000A2")]
+	[Token(Token = "0x20000A4")]
 	private class DataCallback : AndroidJavaProxy
 	{
-		[Token(Token = "0x40002AC")]
+		[Token(Token = "0x40002B5")]
 		[FieldOffset(Offset = "0x20")]
 		private Action<short[]> callback;
 
-		[Token(Token = "0x40002AD")]
+		[Token(Token = "0x40002B6")]
 		[FieldOffset(Offset = "0x28")]
 		private IntPtr javaBuf;
 
-		[Token(Token = "0x40002AE")]
+		[Token(Token = "0x40002B7")]
 		[FieldOffset(Offset = "0x30")]
 		private int cntFrame;
 
-		[Token(Token = "0x40002AF")]
+		[Token(Token = "0x40002B8")]
 		[FieldOffset(Offset = "0x34")]
 		private int cntShort;
 
-		[Token(Token = "0x6000378")]
-		[Address(RVA = "0x3F37960", Offset = "0x3F37960", VA = "0x3F37960")]
+		[Token(Token = "0x600038E")]
+		[Address(RVA = "0x1D841D0", Offset = "0x1D827D0", VA = "0x181D841D0")]
 		public DataCallback()
 		{
 		}
 
-		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x3F37CD0", Offset = "0x3F37CD0", VA = "0x3F37CD0")]
+		[Token(Token = "0x600038F")]
+		[Address(RVA = "0x1D841A0", Offset = "0x1D827A0", VA = "0x181D841A0")]
 		public void SetCallback(Action<short[]> callback, IntPtr javaBuf)
 		{
 		}
 
-		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x3F37F20", Offset = "0x3F37F20", VA = "0x3F37F20")]
+		[Token(Token = "0x6000390")]
+		[Address(RVA = "0x1D84130", Offset = "0x1D82730", VA = "0x181D84130")]
 		public void OnData()
 		{
 		}
 
-		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x3F37F70", Offset = "0x3F37F70", VA = "0x3F37F70")]
+		[Token(Token = "0x6000391")]
+		[Address(RVA = "0x1D84190", Offset = "0x1D82790", VA = "0x181D84190")]
 		public void OnStop()
 		{
 		}
 	}
 
-	[Token(Token = "0x40002A6")]
+	[Token(Token = "0x40002AF")]
 	[FieldOffset(Offset = "0x10")]
 	private AndroidJavaObject audioIn;
 
-	[Token(Token = "0x40002A7")]
+	[Token(Token = "0x40002B0")]
 	[FieldOffset(Offset = "0x18")]
 	private IntPtr javaBuf;
 
-	[Token(Token = "0x40002A8")]
+	[Token(Token = "0x40002B1")]
 	[FieldOffset(Offset = "0x20")]
 	private ILogger logger;
 
-	[Token(Token = "0x40002A9")]
+	[Token(Token = "0x40002B2")]
 	[FieldOffset(Offset = "0x28")]
 	private int audioInSampleRate;
 
-	[Token(Token = "0x40002AA")]
+	[Token(Token = "0x40002B3")]
 	[FieldOffset(Offset = "0x30")]
 	private DataCallback callback;
 
-	[Token(Token = "0x170000EF")]
+	[Token(Token = "0x170000F2")]
 	public int Channels
 	{
-		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x3F379C0", Offset = "0x3F379C0", VA = "0x3F379C0", Slot = "6")]
+		[Token(Token = "0x6000388")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000F0")]
+	[Token(Token = "0x170000F3")]
 	public int SamplingRate
 	{
-		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x3F37D00", Offset = "0x3F37D00", VA = "0x3F37D00", Slot = "5")]
+		[Token(Token = "0x6000389")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000F1")]
+	[Token(Token = "0x170000F4")]
 	public string Error
 	{
-		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x3F37D10", Offset = "0x3F37D10", VA = "0x3F37D10", Slot = "7")]
+		[Token(Token = "0x600038A")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x3F37D20", Offset = "0x3F37D20", VA = "0x3F37D20")]
+		[Token(Token = "0x600038B")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000370")]
-	[Address(RVA = "0x3F363D0", Offset = "0x3F363D0", VA = "0x3F363D0")]
+	[Token(Token = "0x6000386")]
+	[Address(RVA = "0x1D82170", Offset = "0x1D80770", VA = "0x181D82170")]
 	public AndroidAudioInAEC(ILogger logger, bool enableAEC = false, bool enableAGC = false, bool enableNS = false)
 	{
 	}
 
-	[Token(Token = "0x6000371")]
-	[Address(RVA = "0x3F379D0", Offset = "0x3F379D0", VA = "0x3F379D0", Slot = "4")]
+	[Token(Token = "0x6000387")]
+	[Address(RVA = "0x1D81EC0", Offset = "0x1D804C0", VA = "0x181D81EC0", Slot = "4")]
 	public void SetCallback(Action<short[]> callback, ObjectFactory<short[], int> bufferFactory)
 	{
 	}
 
-	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x3F37D30", Offset = "0x3F37D30", VA = "0x3F37D30", Slot = "9")]
+	[Token(Token = "0x600038C")]
+	[Address(RVA = "0x1D81E50", Offset = "0x1D80450", VA = "0x181D81E50", Slot = "9")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x3F37E20", Offset = "0x3F37E20", VA = "0x3F37E20", Slot = "8")]
+	[Token(Token = "0x600038D")]
+	[Address(RVA = "0x1D81DD0", Offset = "0x1D803D0", VA = "0x181D81DD0", Slot = "8")]
 	public void Dispose()
 	{
 	}

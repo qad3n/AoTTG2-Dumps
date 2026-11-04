@@ -32,21 +32,21 @@ internal sealed class ExceptionHandler
 	[FieldOffset(Offset = "0x28")]
 	public readonly ExceptionFilter Filter;
 
-	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x44DEAD0", Offset = "0x44DEAD0", VA = "0x44DEAD0")]
+	[Token(Token = "0x6000862")]
+	[Address(RVA = "0x24448E0", Offset = "0x2442EE0", VA = "0x1824448E0")]
 	internal ExceptionHandler(int labelIndex, int handlerStartIndex, int handlerEndIndex, Type exceptionType, ExceptionFilter filter)
 	{
 	}
 
-	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x44DEB40", Offset = "0x44DEB40", VA = "0x44DEB40")]
+	[Token(Token = "0x6000863")]
+	[Address(RVA = "0x24447C0", Offset = "0x2442DC0", VA = "0x1824447C0")]
 	public bool Matches(Type exceptionType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x44DEB70", Offset = "0x44DEB70", VA = "0x44DEB70", Slot = "3")]
+	[Token(Token = "0x6000864")]
+	[Address(RVA = "0x24447F0", Offset = "0x2442DF0", VA = "0x1824447F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

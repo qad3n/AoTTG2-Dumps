@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001E")]
+[Token(Token = "0x2000021")]
 public sealed class ExitGUIException : Exception
 {
-	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x4E5B900", Offset = "0x4E5B900", VA = "0x4E5B900")]
+	[Token(Token = "0x6000254")]
+	[Address(RVA = "0x2F86270", Offset = "0x2F84870", VA = "0x182F86270")]
 	public ExitGUIException()
 	{
 	}
 
-	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x4E52620", Offset = "0x4E52620", VA = "0x4E52620")]
+	[Token(Token = "0x6000255")]
+	[Address(RVA = "0x2F86330", Offset = "0x2F84930", VA = "0x182F86330")]
 	internal ExitGUIException(string message)
 	{
 	}

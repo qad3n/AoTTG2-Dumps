@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005A1")]
+[Token(Token = "0x2000575")]
 [Flags]
 public enum DateTimeStyles
 {
-	[Token(Token = "0x4001810")]
+	[Token(Token = "0x4001661")]
 	None = 0,
-	[Token(Token = "0x4001811")]
+	[Token(Token = "0x4001662")]
 	AllowLeadingWhite = 1,
-	[Token(Token = "0x4001812")]
+	[Token(Token = "0x4001663")]
 	AllowTrailingWhite = 2,
-	[Token(Token = "0x4001813")]
+	[Token(Token = "0x4001664")]
 	AllowInnerWhite = 4,
-	[Token(Token = "0x4001814")]
-	AllowWhiteSpaces = 7,
-	[Token(Token = "0x4001815")]
+	[Token(Token = "0x4001665")]
+	AllowWhiteSpaces = AllowLeadingWhite | AllowTrailingWhite | AllowInnerWhite,
+	[Token(Token = "0x4001666")]
 	NoCurrentDateDefault = 8,
-	[Token(Token = "0x4001816")]
+	[Token(Token = "0x4001667")]
 	AdjustToUniversal = 0x10,
-	[Token(Token = "0x4001817")]
+	[Token(Token = "0x4001668")]
 	AssumeLocal = 0x20,
-	[Token(Token = "0x4001818")]
+	[Token(Token = "0x4001669")]
 	AssumeUniversal = 0x40,
-	[Token(Token = "0x4001819")]
+	[Token(Token = "0x400166A")]
 	RoundtripKind = 0x80
 }

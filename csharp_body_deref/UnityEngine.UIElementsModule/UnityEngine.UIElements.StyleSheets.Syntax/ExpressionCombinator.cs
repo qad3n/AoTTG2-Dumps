@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x200054D")]
+[Token(Token = "0x2000643")]
 internal enum ExpressionCombinator
 {
-	[Token(Token = "0x400124E")]
+	[Token(Token = "0x40017FB")]
 	None,
-	[Token(Token = "0x400124F")]
+	[Token(Token = "0x40017FC")]
 	Or,
-	[Token(Token = "0x4001250")]
+	[Token(Token = "0x40017FD")]
 	OrOr,
-	[Token(Token = "0x4001251")]
+	[Token(Token = "0x40017FE")]
 	AndAnd,
-	[Token(Token = "0x4001252")]
+	[Token(Token = "0x40017FF")]
 	Juxtaposition,
-	[Token(Token = "0x4001253")]
+	[Token(Token = "0x4001800")]
 	Group
 }

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200018C")]
+[Token(Token = "0x20001B7")]
 internal enum UInt64Enum : ulong
 {
 

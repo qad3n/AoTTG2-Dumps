@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x200002B")]
 [Flags]
 public enum ProfilerRecorderOptions
 {
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000056")]
 	None = 0,
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x4000057")]
 	StartImmediately = 1,
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x4000058")]
 	KeepAliveDuringDomainReload = 2,
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x4000059")]
 	CollectOnlyOnCurrentThread = 4,
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x400005A")]
 	WrapAroundWhenCapacityReached = 8,
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x400005B")]
 	SumAllSamplesInFrame = 0x10,
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x400005C")]
 	GpuRecorder = 0x40,
-	[Token(Token = "0x4000045")]
-	Default = 0x18
+	[Token(Token = "0x400005D")]
+	Default = WrapAroundWhenCapacityReached | SumAllSamplesInFrame
 }

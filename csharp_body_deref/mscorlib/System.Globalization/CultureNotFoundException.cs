@@ -11,92 +11,92 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [Serializable]
-[Token(Token = "0x2000597")]
+[Token(Token = "0x200056B")]
 public class CultureNotFoundException : ArgumentException
 {
-	[Token(Token = "0x4001777")]
+	[Token(Token = "0x40015C8")]
 	[FieldOffset(Offset = "0x98")]
 	private string _invalidCultureName;
 
-	[Token(Token = "0x4001778")]
+	[Token(Token = "0x40015C9")]
 	[FieldOffset(Offset = "0xA0")]
 	private int? _invalidCultureId;
 
-	[Token(Token = "0x17000643")]
+	[Token(Token = "0x170005D2")]
 	public virtual int? InvalidCultureId
 	{
-		[Token(Token = "0x6002BA3")]
-		[Address(RVA = "0x3C40670", Offset = "0x3C40670", VA = "0x3C40670", Slot = "13")]
+		[Token(Token = "0x60028C1")]
+		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000644")]
+	[Token(Token = "0x170005D3")]
 	public virtual string InvalidCultureName
 	{
-		[Token(Token = "0x6002BA4")]
-		[Address(RVA = "0x3C40680", Offset = "0x3C40680", VA = "0x3C40680", Slot = "14")]
+		[Token(Token = "0x60028C2")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000645")]
+	[Token(Token = "0x170005D4")]
 	private static string DefaultMessage
 	{
-		[Token(Token = "0x6002BA5")]
-		[Address(RVA = "0x3C40370", Offset = "0x3C40370", VA = "0x3C40370")]
+		[Token(Token = "0x60028C3")]
+		[Address(RVA = "0x1A5F840", Offset = "0x1A5DE40", VA = "0x181A5F840")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000646")]
+	[Token(Token = "0x170005D5")]
 	private string FormatedInvalidCultureId
 	{
-		[Token(Token = "0x6002BA6")]
-		[Address(RVA = "0x3C40690", Offset = "0x3C40690", VA = "0x3C40690")]
+		[Token(Token = "0x60028C4")]
+		[Address(RVA = "0x1A5F870", Offset = "0x1A5DE70", VA = "0x181A5F870")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000647")]
+	[Token(Token = "0x170005D6")]
 	public override string Message
 	{
-		[Token(Token = "0x6002BA7")]
-		[Address(RVA = "0x3C407B0", Offset = "0x3C407B0", VA = "0x3C407B0", Slot = "5")]
+		[Token(Token = "0x60028C5")]
+		[Address(RVA = "0x1A5F980", Offset = "0x1A5DF80", VA = "0x181A5F980", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002B9F")]
-	[Address(RVA = "0x3C40330", Offset = "0x3C40330", VA = "0x3C40330")]
+	[Token(Token = "0x60028BD")]
+	[Address(RVA = "0x1A5F660", Offset = "0x1A5DC60", VA = "0x181A5F660")]
 	public CultureNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x6002BA0")]
-	[Address(RVA = "0x3C403A0", Offset = "0x3C403A0", VA = "0x3C403A0")]
+	[Token(Token = "0x60028BE")]
+	[Address(RVA = "0x1A5F640", Offset = "0x1A5DC40", VA = "0x181A5F640")]
 	public CultureNotFoundException(string paramName, string message)
 	{
 	}
 
-	[Token(Token = "0x6002BA1")]
-	[Address(RVA = "0x3C403B0", Offset = "0x3C403B0", VA = "0x3C403B0")]
+	[Token(Token = "0x60028BF")]
+	[Address(RVA = "0x1A5F6A0", Offset = "0x1A5DCA0", VA = "0x181A5F6A0")]
 	protected CultureNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002BA2")]
-	[Address(RVA = "0x3C40540", Offset = "0x3C40540", VA = "0x3C40540", Slot = "11")]
+	[Token(Token = "0x60028C0")]
+	[Address(RVA = "0x1A5F520", Offset = "0x1A5DB20", VA = "0x181A5F520", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

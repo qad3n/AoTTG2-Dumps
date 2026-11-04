@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005E2")]
+[Token(Token = "0x20005B4")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false)]
 [ComVisible(true)]
 public sealed class DebuggerBrowsableAttribute : Attribute
 {
-	[Token(Token = "0x4001A05")]
+	[Token(Token = "0x4001821")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private DebuggerBrowsableState state;
 
-	[Token(Token = "0x6002E5E")]
-	[Address(RVA = "0x3C7A580", Offset = "0x3C7A580", VA = "0x3C7A580")]
+	[Token(Token = "0x6002B6B")]
+	[Address(RVA = "0x1ABF580", Offset = "0x1ABDB80", VA = "0x181ABF580")]
 	public DebuggerBrowsableAttribute(DebuggerBrowsableState state)
 	{
 	}

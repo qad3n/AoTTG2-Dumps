@@ -19,20 +19,20 @@ internal class SerializationBinderAdapter : ISerializationBinder
 	public readonly SerializationBinder SerializationBinder;
 
 	[Token(Token = "0x6000994")]
-	[Address(RVA = "0x3DF5510", Offset = "0x3DF5510", VA = "0x3DF5510")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public SerializationBinderAdapter(SerializationBinder serializationBinder)
 	{
 	}
 
 	[Token(Token = "0x6000995")]
-	[Address(RVA = "0x3DF5540", Offset = "0x3DF5540", VA = "0x3DF5540", Slot = "4")]
+	[Address(RVA = "0x1C6C730", Offset = "0x1C6AD30", VA = "0x181C6C730", Slot = "4")]
 	public Type BindToType(string? assemblyName, string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000996")]
-	[Address(RVA = "0x3DF5570", Offset = "0x3DF5570", VA = "0x3DF5570", Slot = "5")]
+	[Address(RVA = "0x1C6C700", Offset = "0x1C6AD00", VA = "0x181C6C700", Slot = "5")]
 	public void BindToName(Type serializedType, out string? assemblyName, out string? typeName)
 	{
 	}

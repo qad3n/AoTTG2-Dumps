@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000008")]
 public enum Align
 {
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000036")]
 	Auto,
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000037")]
 	FlexStart,
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000038")]
 	Center,
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000039")]
 	FlexEnd,
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x400003A")]
 	Stretch,
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x400003B")]
 	Baseline,
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x400003C")]
 	SpaceBetween,
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x400003D")]
 	SpaceAround,
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x400003E")]
 	SpaceEvenly
 }

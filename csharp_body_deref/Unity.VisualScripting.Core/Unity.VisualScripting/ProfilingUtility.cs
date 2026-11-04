@@ -14,75 +14,75 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000DE")]
 public static class ProfilingUtility
 {
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x4000150")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object @lock;
 
-	[Token(Token = "0x17000117")]
+	[Token(Token = "0x1700011A")]
 	public static ProfiledSegment rootSegment
 	{
-		[Token(Token = "0x600052E")]
-		[Address(RVA = "0x4CBA0C0", Offset = "0x4CBA0C0", VA = "0x4CBA0C0")]
+		[Token(Token = "0x6000538")]
+		[Address(RVA = "0x2DB9520", Offset = "0x2DB7B20", VA = "0x182DB9520")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600052F")]
-		[Address(RVA = "0x4CBA130", Offset = "0x4CBA130", VA = "0x4CBA130")]
+		[Token(Token = "0x6000539")]
+		[Address(RVA = "0x2DB95E0", Offset = "0x2DB7BE0", VA = "0x182DB95E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000118")]
+	[Token(Token = "0x1700011B")]
 	public static ProfiledSegment currentSegment
 	{
-		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x4CBA190", Offset = "0x4CBA190", VA = "0x4CBA190")]
+		[Token(Token = "0x600053A")]
+		[Address(RVA = "0x2DB94D0", Offset = "0x2DB7AD0", VA = "0x182DB94D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x4CBA200", Offset = "0x4CBA200", VA = "0x4CBA200")]
+		[Token(Token = "0x600053B")]
+		[Address(RVA = "0x2DB9570", Offset = "0x2DB7B70", VA = "0x182DB9570")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600052D")]
-	[Address(RVA = "0x4CB9F60", Offset = "0x4CB9F60", VA = "0x4CB9F60")]
+	[Token(Token = "0x6000537")]
+	[Address(RVA = "0x2DB9360", Offset = "0x2DB7960", VA = "0x182DB9360")]
 	static ProfilingUtility()
 	{
 	}
 
-	[Token(Token = "0x6000532")]
-	[Address(RVA = "0x4CBA260", Offset = "0x4CBA260", VA = "0x4CBA260")]
+	[Token(Token = "0x600053C")]
+	[Address(RVA = "0x2DB9070", Offset = "0x2DB7670", VA = "0x182DB9070")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x4CBA3A0", Offset = "0x4CBA3A0", VA = "0x4CBA3A0")]
+	[Token(Token = "0x600053D")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 	public static ProfilingScope SampleBlock(string name)
 	{
 		return default(ProfilingScope);
 	}
 
-	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x4CBA3B0", Offset = "0x4CBA3B0", VA = "0x4CBA3B0")]
+	[Token(Token = "0x600053E")]
+	[Address(RVA = "0x2DB8CB0", Offset = "0x2DB72B0", VA = "0x182DB8CB0")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void BeginSample(string name)
 	{
 	}
 
-	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x4CBA850", Offset = "0x4CBA850", VA = "0x4CBA850")]
+	[Token(Token = "0x600053F")]
+	[Address(RVA = "0x2DB91B0", Offset = "0x2DB77B0", VA = "0x182DB91B0")]
 	[Conditional("ENABLE_PROFILER")]
 	public static void EndSample()
 	{

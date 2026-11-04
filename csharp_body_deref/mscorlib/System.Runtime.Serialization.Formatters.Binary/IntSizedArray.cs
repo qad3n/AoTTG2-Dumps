@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization.Formatters.Binary;
 
 [Serializable]
-[Token(Token = "0x2000429")]
+[Token(Token = "0x2000458")]
 internal sealed class IntSizedArray : ICloneable
 {
-	[Token(Token = "0x4001204")]
+	[Token(Token = "0x4001206")]
 	[FieldOffset(Offset = "0x10")]
 	internal int[] objects;
 
-	[Token(Token = "0x4001205")]
+	[Token(Token = "0x4001207")]
 	[FieldOffset(Offset = "0x18")]
 	internal int[] negObjects;
 
-	[Token(Token = "0x1700045A")]
+	[Token(Token = "0x1700045C")]
 	internal int this[int index]
 	{
-		[Token(Token = "0x6002196")]
-		[Address(RVA = "0x3BBB950", Offset = "0x3BBB950", VA = "0x3BBB950")]
+		[Token(Token = "0x6002205")]
+		[Address(RVA = "0x1A2B140", Offset = "0x1A29740", VA = "0x181A2B140")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6002197")]
-		[Address(RVA = "0x3BBB9A0", Offset = "0x3BBB9A0", VA = "0x3BBB9A0")]
+		[Token(Token = "0x6002206")]
+		[Address(RVA = "0x1A2B1B0", Offset = "0x1A297B0", VA = "0x181A2B1B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002193")]
-	[Address(RVA = "0x3BBB770", Offset = "0x3BBB770", VA = "0x3BBB770")]
+	[Token(Token = "0x6002202")]
+	[Address(RVA = "0x1A2B0C0", Offset = "0x1A296C0", VA = "0x181A2B0C0")]
 	public IntSizedArray()
 	{
 	}
 
-	[Token(Token = "0x6002194")]
-	[Address(RVA = "0x3BBB7F0", Offset = "0x3BBB7F0", VA = "0x3BBB7F0")]
+	[Token(Token = "0x6002203")]
+	[Address(RVA = "0x1A2AFA0", Offset = "0x1A295A0", VA = "0x181A2AFA0")]
 	private IntSizedArray(System.Runtime.Serialization.Formatters.Binary.IntSizedArray sizedArray)
 	{
 	}
 
-	[Token(Token = "0x6002195")]
-	[Address(RVA = "0x3BBB900", Offset = "0x3BBB900", VA = "0x3BBB900", Slot = "4")]
+	[Token(Token = "0x6002204")]
+	[Address(RVA = "0x1A2AC80", Offset = "0x1A29280", VA = "0x181A2AC80", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002198")]
-	[Address(RVA = "0x3BBBA30", Offset = "0x3BBBA30", VA = "0x3BBBA30")]
+	[Token(Token = "0x6002207")]
+	[Address(RVA = "0x1A2ADD0", Offset = "0x1A293D0", VA = "0x181A2ADD0")]
 	internal void IncreaseCapacity(int index)
 	{
 	}

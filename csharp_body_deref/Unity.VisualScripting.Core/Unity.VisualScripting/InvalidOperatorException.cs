@@ -13,14 +13,14 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200011C")]
 public sealed class InvalidOperatorException : OperatorException
 {
-	[Token(Token = "0x6000A1E")]
-	[Address(RVA = "0x4D09BC0", Offset = "0x4D09BC0", VA = "0x4D09BC0")]
+	[Token(Token = "0x6000A28")]
+	[Address(RVA = "0x2DF7920", Offset = "0x2DF5F20", VA = "0x182DF7920")]
 	public InvalidOperatorException(string symbol, Type type)
 	{
 	}
 
-	[Token(Token = "0x6000A1F")]
-	[Address(RVA = "0x4D09D30", Offset = "0x4D09D30", VA = "0x4D09D30")]
+	[Token(Token = "0x6000A29")]
+	[Address(RVA = "0x2DF7A80", Offset = "0x2DF6080", VA = "0x182DF7A80")]
 	public InvalidOperatorException(string symbol, Type leftType, Type rightType)
 	{
 	}

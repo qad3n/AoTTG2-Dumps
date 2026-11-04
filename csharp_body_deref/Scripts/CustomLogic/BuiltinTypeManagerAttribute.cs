@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200029C")]
+[Token(Token = "0x20003E6")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class BuiltinTypeManagerAttribute : Attribute
 {
-	[Token(Token = "0x6000F8A")]
-	[Address(RVA = "0x3FB9150", Offset = "0x3FB9150", VA = "0x3FB9150")]
+	[Token(Token = "0x6001809")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public BuiltinTypeManagerAttribute()
 	{
 	}

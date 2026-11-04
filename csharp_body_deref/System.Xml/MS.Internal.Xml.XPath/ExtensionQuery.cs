@@ -34,7 +34,7 @@ internal abstract class ExtensionQuery : Query
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001ADF")]
-		[Address(RVA = "0x477AA00", Offset = "0x477AA00", VA = "0x477AA00", Slot = "8")]
+		[Address(RVA = "0x26B81D0", Offset = "0x26B67D0", VA = "0x1826B81D0", Slot = "8")]
 		get
 		{
 			return null;
@@ -45,7 +45,7 @@ internal abstract class ExtensionQuery : Query
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001AE1")]
-		[Address(RVA = "0x477AB10", Offset = "0x477AB10", VA = "0x477AB10", Slot = "9")]
+		[Address(RVA = "0x26B81B0", Offset = "0x26B67B0", VA = "0x1826B81B0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -56,7 +56,7 @@ internal abstract class ExtensionQuery : Query
 	protected string QName
 	{
 		[Token(Token = "0x6001AE3")]
-		[Address(RVA = "0x477AF70", Offset = "0x477AF70", VA = "0x477AF70")]
+		[Address(RVA = "0x26B8270", Offset = "0x26B6870", VA = "0x1826B8270")]
 		get
 		{
 			return null;
@@ -67,7 +67,7 @@ internal abstract class ExtensionQuery : Query
 	public override int Count
 	{
 		[Token(Token = "0x6001AE4")]
-		[Address(RVA = "0x477AFC0", Offset = "0x477AFC0", VA = "0x477AFC0", Slot = "10")]
+		[Address(RVA = "0x26B8180", Offset = "0x26B6780", VA = "0x1826B8180", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -78,7 +78,7 @@ internal abstract class ExtensionQuery : Query
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001AE5")]
-		[Address(RVA = "0x477AFF0", Offset = "0x477AFF0", VA = "0x477AFF0", Slot = "16")]
+		[Address(RVA = "0x8680A0", Offset = "0x8666A0", VA = "0x1808680A0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -86,32 +86,32 @@ internal abstract class ExtensionQuery : Query
 	}
 
 	[Token(Token = "0x6001ADC")]
-	[Address(RVA = "0x477A8B0", Offset = "0x477A8B0", VA = "0x477A8B0")]
+	[Address(RVA = "0x26B8010", Offset = "0x26B6610", VA = "0x1826B8010")]
 	public ExtensionQuery(string prefix, string name)
 	{
 	}
 
 	[Token(Token = "0x6001ADD")]
-	[Address(RVA = "0x477A8F0", Offset = "0x477A8F0", VA = "0x477A8F0")]
+	[Address(RVA = "0x26B8060", Offset = "0x26B6660", VA = "0x1826B8060")]
 	protected ExtensionQuery(ExtensionQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001ADE")]
-	[Address(RVA = "0x477A9E0", Offset = "0x477A9E0", VA = "0x477A9E0", Slot = "12")]
+	[Address(RVA = "0x26B7FF0", Offset = "0x26B65F0", VA = "0x1826B7FF0", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001AE0")]
-	[Address(RVA = "0x477AA90", Offset = "0x477AA90", VA = "0x477AA90", Slot = "15")]
+	[Address(RVA = "0x26B7970", Offset = "0x26B5F70", VA = "0x1826B7970", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001AE2")]
-	[Address(RVA = "0x477AB30", Offset = "0x477AB30", VA = "0x477AB30")]
+	[Address(RVA = "0x26B7A00", Offset = "0x26B6000", VA = "0x1826B7A00")]
 	protected object ProcessResult(object value)
 	{
 		return null;

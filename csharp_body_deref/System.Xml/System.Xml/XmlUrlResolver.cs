@@ -48,13 +48,13 @@ public class XmlUrlResolver : XmlResolver
 		private ConfiguredTaskAwaitable<System.IO.Stream>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000C30")]
-		[Address(RVA = "0x4803060", Offset = "0x4803060", VA = "0x4803060", Slot = "4")]
+		[Address(RVA = "0x2743F40", Offset = "0x2742540", VA = "0x182743F40", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000C31")]
-		[Address(RVA = "0x4803590", Offset = "0x4803590", VA = "0x4803590", Slot = "5")]
+		[Address(RVA = "0x2744260", Offset = "0x2742860", VA = "0x182744260", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -81,7 +81,7 @@ public class XmlUrlResolver : XmlResolver
 	private static XmlDownloadManager DownloadManager
 	{
 		[Token(Token = "0x6000C2B")]
-		[Address(RVA = "0x4802CD0", Offset = "0x4802CD0", VA = "0x4802CD0")]
+		[Address(RVA = "0x2759A20", Offset = "0x2758020", VA = "0x182759A20")]
 		get
 		{
 			return null;
@@ -89,27 +89,27 @@ public class XmlUrlResolver : XmlResolver
 	}
 
 	[Token(Token = "0x6000C2C")]
-	[Address(RVA = "0x4802DA0", Offset = "0x4802DA0", VA = "0x4802DA0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public XmlUrlResolver()
 	{
 	}
 
 	[Token(Token = "0x6000C2D")]
-	[Address(RVA = "0x4802DB0", Offset = "0x4802DB0", VA = "0x4802DB0", Slot = "4")]
+	[Address(RVA = "0x27597D0", Offset = "0x2757DD0", VA = "0x1827597D0", Slot = "4")]
 	public override object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C2E")]
-	[Address(RVA = "0x4802F10", Offset = "0x4802F10", VA = "0x4802F10", Slot = "5")]
+	[Address(RVA = "0x2759A10", Offset = "0x2758010", VA = "0x182759A10", Slot = "5")]
 	public override Uri ResolveUri(Uri baseUri, string relativeUri)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C2F")]
-	[Address(RVA = "0x4802F20", Offset = "0x4802F20", VA = "0x4802F20", Slot = "7")]
+	[Address(RVA = "0x2759680", Offset = "0x2757C80", VA = "0x182759680", Slot = "7")]
 	[AsyncStateMachine(typeof(_003CGetEntityAsync_003Ed__15))]
 	public override Task<object> GetEntityAsync(Uri absoluteUri, string role, Type ofObjectToReturn)
 	{

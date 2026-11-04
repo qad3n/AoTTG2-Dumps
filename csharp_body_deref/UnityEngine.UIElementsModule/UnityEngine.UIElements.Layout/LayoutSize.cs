@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000526")]
+[Token(Token = "0x200061A")]
 internal struct LayoutSize
 {
-	[Token(Token = "0x400115E")]
+	[Token(Token = "0x40016D7")]
 	[FieldOffset(Offset = "0x0")]
 	public float width;
 
-	[Token(Token = "0x400115F")]
+	[Token(Token = "0x40016D8")]
 	[FieldOffset(Offset = "0x4")]
 	public float height;
 
-	[Token(Token = "0x6001F5C")]
-	[Address(RVA = "0x4FBC400", Offset = "0x4FBC400", VA = "0x4FBC400")]
+	[Token(Token = "0x6002CAB")]
+	[Address(RVA = "0x1028C00", Offset = "0x1027200", VA = "0x181028C00")]
 	public LayoutSize(float width, float height)
 	{
 	}

@@ -10,20 +10,20 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20005E2")]
+[Token(Token = "0x2000737")]
 internal abstract class BaseScaler : MonoBehaviour
 {
-	[Token(Token = "0x6003C25")]
-	[Address(RVA = "0x428DF50", Offset = "0x428DF50", VA = "0x428DF50", Slot = "4")]
+	[Token(Token = "0x60046DA")]
+	[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003C26")]
+	[Token(Token = "0x60046DB")]
 	public abstract void ApplyScale();
 
-	[Token(Token = "0x6003C27")]
-	[Address(RVA = "0x428DF70", Offset = "0x428DF70", VA = "0x428DF70")]
+	[Token(Token = "0x60046DC")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	protected BaseScaler()
 	{
 	}

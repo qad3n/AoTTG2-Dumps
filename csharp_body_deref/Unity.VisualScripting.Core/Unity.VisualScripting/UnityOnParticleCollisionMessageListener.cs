@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnParticleCollisionMessageListener : MessageListener
 {
-	[Token(Token = "0x6000447")]
-	[Address(RVA = "0x4CB63F0", Offset = "0x4CB63F0", VA = "0x4CB63F0")]
+	[Token(Token = "0x6000451")]
+	[Address(RVA = "0x2DBE750", Offset = "0x2DBCD50", VA = "0x182DBE750")]
 	private void OnParticleCollision(GameObject other)
 	{
 	}
 
-	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x4CB6480", Offset = "0x4CB6480", VA = "0x4CB6480")]
+	[Token(Token = "0x6000452")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnParticleCollisionMessageListener()
 	{
 	}

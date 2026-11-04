@@ -15,15 +15,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x200012F")]
 	private sealed class ExclusiveOrSByte : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006E2")]
-		[Address(RVA = "0x44CD9B0", Offset = "0x44CD9B0", VA = "0x44CD9B0", Slot = "8")]
+		[Token(Token = "0x60006E1")]
+		[Address(RVA = "0x2435970", Offset = "0x2433F70", VA = "0x182435970", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006E3")]
-		[Address(RVA = "0x44CD970", Offset = "0x44CD970", VA = "0x44CD970")]
+		[Token(Token = "0x60006E2")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public ExclusiveOrSByte()
 		{
 		}
@@ -32,15 +32,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000130")]
 	private sealed class ExclusiveOrInt16 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006E4")]
-		[Address(RVA = "0x44CDA70", Offset = "0x44CDA70", VA = "0x44CDA70", Slot = "8")]
+		[Token(Token = "0x60006E3")]
+		[Address(RVA = "0x24356F0", Offset = "0x2433CF0", VA = "0x1824356F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006E5")]
-		[Address(RVA = "0x44CD980", Offset = "0x44CD980", VA = "0x44CD980")]
+		[Token(Token = "0x60006E4")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public ExclusiveOrInt16()
 		{
 		}
@@ -49,15 +49,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000131")]
 	private sealed class ExclusiveOrInt32 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006E6")]
-		[Address(RVA = "0x44CDB30", Offset = "0x44CDB30", VA = "0x44CDB30", Slot = "8")]
+		[Token(Token = "0x60006E5")]
+		[Address(RVA = "0x24357C0", Offset = "0x2433DC0", VA = "0x1824357C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006E7")]
-		[Address(RVA = "0x44CD990", Offset = "0x44CD990", VA = "0x44CD990")]
+		[Token(Token = "0x60006E6")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public ExclusiveOrInt32()
 		{
 		}
@@ -66,15 +66,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000132")]
 	private sealed class ExclusiveOrInt64 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006E8")]
-		[Address(RVA = "0x44CDBF0", Offset = "0x44CDBF0", VA = "0x44CDBF0", Slot = "8")]
+		[Token(Token = "0x60006E7")]
+		[Address(RVA = "0x2435890", Offset = "0x2433E90", VA = "0x182435890", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006E9")]
-		[Address(RVA = "0x44CD9A0", Offset = "0x44CD9A0", VA = "0x44CD9A0")]
+		[Token(Token = "0x60006E8")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public ExclusiveOrInt64()
 		{
 		}
@@ -83,15 +83,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000133")]
 	private sealed class ExclusiveOrByte : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006EA")]
-		[Address(RVA = "0x44CDCC0", Offset = "0x44CDCC0", VA = "0x44CDCC0", Slot = "8")]
+		[Token(Token = "0x60006E9")]
+		[Address(RVA = "0x2444A70", Offset = "0x2443070", VA = "0x182444A70", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006EB")]
-		[Address(RVA = "0x44CDEF0", Offset = "0x44CDEF0", VA = "0x44CDEF0")]
+		[Token(Token = "0x60006EA")]
+		[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 		public ExclusiveOrByte()
 		{
 		}
@@ -100,15 +100,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000134")]
 	private sealed class ExclusiveOrUInt16 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006EC")]
-		[Address(RVA = "0x44CDF00", Offset = "0x44CDF00", VA = "0x44CDF00", Slot = "8")]
+		[Token(Token = "0x60006EB")]
+		[Address(RVA = "0x2444BB0", Offset = "0x24431B0", VA = "0x182444BB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006ED")]
-		[Address(RVA = "0x44CE090", Offset = "0x44CE090", VA = "0x44CE090")]
+		[Token(Token = "0x60006EC")]
+		[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 		public ExclusiveOrUInt16()
 		{
 		}
@@ -117,15 +117,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000135")]
 	private sealed class ExclusiveOrUInt32 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006EE")]
-		[Address(RVA = "0x44CE0A0", Offset = "0x44CE0A0", VA = "0x44CE0A0", Slot = "8")]
+		[Token(Token = "0x60006ED")]
+		[Address(RVA = "0x2444CF0", Offset = "0x24432F0", VA = "0x182444CF0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006EF")]
-		[Address(RVA = "0x44CE200", Offset = "0x44CE200", VA = "0x44CE200")]
+		[Token(Token = "0x60006EE")]
+		[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 		public ExclusiveOrUInt32()
 		{
 		}
@@ -134,15 +134,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000136")]
 	private sealed class ExclusiveOrUInt64 : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006F0")]
-		[Address(RVA = "0x44CE210", Offset = "0x44CE210", VA = "0x44CE210", Slot = "8")]
+		[Token(Token = "0x60006EF")]
+		[Address(RVA = "0x2444EC0", Offset = "0x24434C0", VA = "0x182444EC0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006F1")]
-		[Address(RVA = "0x44CE370", Offset = "0x44CE370", VA = "0x44CE370")]
+		[Token(Token = "0x60006F0")]
+		[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 		public ExclusiveOrUInt64()
 		{
 		}
@@ -151,15 +151,15 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x2000137")]
 	private sealed class ExclusiveOrBoolean : ExclusiveOrInstruction
 	{
-		[Token(Token = "0x60006F2")]
-		[Address(RVA = "0x44CE380", Offset = "0x44CE380", VA = "0x44CE380", Slot = "8")]
+		[Token(Token = "0x60006F1")]
+		[Address(RVA = "0x2444930", Offset = "0x2442F30", VA = "0x182444930", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60006F3")]
-		[Address(RVA = "0x44CE540", Offset = "0x44CE540", VA = "0x44CE540")]
+		[Token(Token = "0x60006F2")]
+		[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 		public ExclusiveOrBoolean()
 		{
 		}
@@ -204,8 +204,8 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x1700019B")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60006DD")]
-		[Address(RVA = "0x44CD4F0", Offset = "0x44CD4F0", VA = "0x44CD4F0", Slot = "4")]
+		[Token(Token = "0x60006DC")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -215,8 +215,8 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x1700019C")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60006DE")]
-		[Address(RVA = "0x44CD500", Offset = "0x44CD500", VA = "0x44CD500", Slot = "5")]
+		[Token(Token = "0x60006DD")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -226,22 +226,22 @@ internal abstract class ExclusiveOrInstruction : Instruction
 	[Token(Token = "0x1700019D")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60006DF")]
-		[Address(RVA = "0x44CD510", Offset = "0x44CD510", VA = "0x44CD510", Slot = "9")]
+		[Token(Token = "0x60006DE")]
+		[Address(RVA = "0x24356C0", Offset = "0x2433CC0", VA = "0x1824356C0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60006E0")]
-	[Address(RVA = "0x44CD540", Offset = "0x44CD540", VA = "0x44CD540")]
+	[Token(Token = "0x60006DF")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private ExclusiveOrInstruction()
 	{
 	}
 
-	[Token(Token = "0x60006E1")]
-	[Address(RVA = "0x44CD550", Offset = "0x44CD550", VA = "0x44CD550")]
+	[Token(Token = "0x60006E0")]
+	[Address(RVA = "0x24351C0", Offset = "0x24337C0", VA = "0x1824351C0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

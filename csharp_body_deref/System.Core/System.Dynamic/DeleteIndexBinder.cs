@@ -12,20 +12,20 @@ namespace System.Dynamic;
 [Token(Token = "0x2000264")]
 public abstract class DeleteIndexBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000BCB")]
-	[Address(RVA = "0x45098F0", Offset = "0x45098F0", VA = "0x45098F0", Slot = "7")]
+	[Token(Token = "0x6000BCA")]
+	[Address(RVA = "0x246AB40", Offset = "0x2469140", VA = "0x18246AB40", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BCC")]
-	[Address(RVA = "0x4509990", Offset = "0x4509990", VA = "0x4509990")]
+	[Token(Token = "0x6000BCB")]
+	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
 	public DynamicMetaObject FallbackDeleteIndex(DynamicMetaObject target, DynamicMetaObject[] indexes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BCD")]
+	[Token(Token = "0x6000BCC")]
 	public abstract DynamicMetaObject FallbackDeleteIndex(DynamicMetaObject target, DynamicMetaObject[] indexes, DynamicMetaObject errorSuggestion);
 }

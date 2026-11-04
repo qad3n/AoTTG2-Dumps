@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200014B")]
+[Token(Token = "0x2000190")]
 internal interface IListDragAndDropArgs
 {
-	[Token(Token = "0x1700019F")]
+	[Token(Token = "0x1700021D")]
 	int insertAtIndex
 	{
-		[Token(Token = "0x600094A")]
+		[Token(Token = "0x6000B3E")]
 		get;
 	}
 
-	[Token(Token = "0x170001A0")]
+	[Token(Token = "0x1700021E")]
 	int parentId
 	{
-		[Token(Token = "0x600094B")]
+		[Token(Token = "0x6000B3F")]
 		get;
 	}
 
-	[Token(Token = "0x170001A1")]
+	[Token(Token = "0x1700021F")]
 	int childIndex
 	{
-		[Token(Token = "0x600094C")]
+		[Token(Token = "0x6000B40")]
 		get;
 	}
 
-	[Token(Token = "0x170001A2")]
+	[Token(Token = "0x17000220")]
 	DragAndDropData dragAndDropData
 	{
-		[Token(Token = "0x600094D")]
+		[Token(Token = "0x6000B41")]
 		get;
 	}
 
-	[Token(Token = "0x170001A3")]
+	[Token(Token = "0x17000221")]
 	DragAndDropPosition dragAndDropPosition
 	{
-		[Token(Token = "0x600094E")]
+		[Token(Token = "0x6000B42")]
 		get;
 	}
 }

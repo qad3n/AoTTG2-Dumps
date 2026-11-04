@@ -10,34 +10,34 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005DF")]
+[Token(Token = "0x20005B1")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Module, AllowMultiple = false)]
 [ComVisible(true)]
 public sealed class DebuggableAttribute : Attribute
 {
-	[Token(Token = "0x20005E0")]
+	[Token(Token = "0x20005B2")]
 	[Flags]
 	[ComVisible(true)]
 	public enum DebuggingModes
 	{
-		[Token(Token = "0x40019FC")]
+		[Token(Token = "0x4001818")]
 		None = 0,
-		[Token(Token = "0x40019FD")]
+		[Token(Token = "0x4001819")]
 		Default = 1,
-		[Token(Token = "0x40019FE")]
+		[Token(Token = "0x400181A")]
 		DisableOptimizations = 0x100,
-		[Token(Token = "0x40019FF")]
+		[Token(Token = "0x400181B")]
 		IgnoreSymbolStoreSequencePoints = 2,
-		[Token(Token = "0x4001A00")]
+		[Token(Token = "0x400181C")]
 		EnableEditAndContinue = 4
 	}
 
-	[Token(Token = "0x40019FA")]
+	[Token(Token = "0x4001816")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private DebuggingModes m_debuggingModes;
 
-	[Token(Token = "0x6002E5D")]
-	[Address(RVA = "0x3C7A560", Offset = "0x3C7A560", VA = "0x3C7A560")]
+	[Token(Token = "0x6002B6A")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public DebuggableAttribute(DebuggingModes modes)
 	{
 	}

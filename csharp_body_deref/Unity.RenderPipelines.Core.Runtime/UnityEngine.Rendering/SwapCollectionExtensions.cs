@@ -13,10 +13,10 @@ using JetBrains.Annotations;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000098")]
+[Token(Token = "0x2000067")]
 public static class SwapCollectionExtensions
 {
-	[Token(Token = "0x6000658")]
+	[Token(Token = "0x600057B")]
 	[CollectionAccess(CollectionAccessType.ModifyExistingContent)]
 	[MustUseReturnValue]
 	public static bool TrySwap<TValue>([DisallowNull] this IList<TValue> list, int from, int to, [NotNullWhen(false)] out Exception error)

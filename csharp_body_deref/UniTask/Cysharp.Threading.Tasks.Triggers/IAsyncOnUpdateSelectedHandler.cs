@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000223")]
+[Token(Token = "0x2000226")]
 public interface IAsyncOnUpdateSelectedHandler
 {
-	[Token(Token = "0x6000C61")]
+	[Token(Token = "0x6000C85")]
 	UniTask<BaseEventData> OnUpdateSelectedAsync();
 }

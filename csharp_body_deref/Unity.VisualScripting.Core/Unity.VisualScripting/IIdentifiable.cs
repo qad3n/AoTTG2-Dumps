@@ -13,10 +13,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001AD")]
 public interface IIdentifiable
 {
-	[Token(Token = "0x170001CC")]
+	[Token(Token = "0x170001CF")]
 	Guid guid
 	{
-		[Token(Token = "0x6001031")]
+		[Token(Token = "0x600103E")]
 		get;
 	}
 }

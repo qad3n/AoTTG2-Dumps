@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x2000022")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 [Obsolete("Not supported anymore.", true)]
 public interface IMask
 {
-	[Token(Token = "0x17000066")]
+	[Token(Token = "0x1700004B")]
 	RectTransform rectTransform
 	{
-		[Token(Token = "0x6000189")]
+		[Token(Token = "0x600013D")]
 		get;
 	}
 
-	[Token(Token = "0x6000188")]
+	[Token(Token = "0x600013C")]
 	bool Enabled();
 }

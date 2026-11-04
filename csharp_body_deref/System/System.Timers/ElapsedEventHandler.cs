@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Timers;
 
-[Token(Token = "0x2000099")]
+[Token(Token = "0x20000D8")]
 public delegate void ElapsedEventHandler(object sender, ElapsedEventArgs e);

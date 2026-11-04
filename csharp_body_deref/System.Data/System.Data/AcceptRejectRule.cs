@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000003")]
+[Token(Token = "0x2000023")]
 public enum AcceptRejectRule
 {
-	[Token(Token = "0x4000002")]
+	[Token(Token = "0x40000DE")]
 	None,
-	[Token(Token = "0x4000003")]
+	[Token(Token = "0x40000DF")]
 	Cascade
 }

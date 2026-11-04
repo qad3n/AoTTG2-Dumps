@@ -10,49 +10,49 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000607")]
+[Token(Token = "0x200075D")]
 internal class GalleryMenu : BaseMenu
 {
-	[Token(Token = "0x4001CE6")]
+	[Token(Token = "0x400247B")]
 	[FieldOffset(Offset = "0x98")]
 	private GalleryMainPanel _mainPanel;
 
-	[Token(Token = "0x4001CE7")]
+	[Token(Token = "0x400247C")]
 	[FieldOffset(Offset = "0xA0")]
 	private GameObject _picture;
 
-	[Token(Token = "0x4001CE8")]
+	[Token(Token = "0x400247D")]
 	[FieldOffset(Offset = "0xA8")]
 	private int _backgroundCount;
 
-	[Token(Token = "0x4001CE9")]
+	[Token(Token = "0x400247E")]
 	[FieldOffset(Offset = "0xAC")]
 	private int _profileCount;
 
-	[Token(Token = "0x4001CEA")]
+	[Token(Token = "0x400247F")]
 	[FieldOffset(Offset = "0xB0")]
 	public int TotalBackgroundCount;
 
-	[Token(Token = "0x6003CF9")]
-	[Address(RVA = "0x429B0B0", Offset = "0x429B0B0", VA = "0x429B0B0", Slot = "4")]
+	[Token(Token = "0x60047B2")]
+	[Address(RVA = "0x2237330", Offset = "0x2235930", VA = "0x182237330", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x6003CFA")]
-	[Address(RVA = "0x429AE00", Offset = "0x429AE00", VA = "0x429AE00")]
+	[Token(Token = "0x60047B3")]
+	[Address(RVA = "0x2236EE0", Offset = "0x22354E0", VA = "0x182236EE0")]
 	public void LoadGallery(int index)
 	{
 	}
 
-	[Token(Token = "0x6003CFB")]
-	[Address(RVA = "0x429B2C0", Offset = "0x429B2C0", VA = "0x429B2C0")]
+	[Token(Token = "0x60047B4")]
+	[Address(RVA = "0x2237090", Offset = "0x2235690", VA = "0x182237090")]
 	public void SetBackground(string image)
 	{
 	}
 
-	[Token(Token = "0x6003CFC")]
-	[Address(RVA = "0x429B640", Offset = "0x429B640", VA = "0x429B640")]
+	[Token(Token = "0x60047B5")]
+	[Address(RVA = "0x21DA7E0", Offset = "0x21D8DE0", VA = "0x1821DA7E0")]
 	public GalleryMenu()
 	{
 	}

@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200002C")]
 internal class ForeignKeyConstraintEnumerator : ConstraintEnumerator
 {
-	[Token(Token = "0x6000065")]
-	[Address(RVA = "0x4538020", Offset = "0x4538020", VA = "0x4538020")]
+	[Token(Token = "0x600038F")]
+	[Address(RVA = "0x24E9F10", Offset = "0x24E8510", VA = "0x1824E9F10")]
 	public ForeignKeyConstraintEnumerator(DataSet dataSet)
 	{
 	}
 
-	[Token(Token = "0x6000066")]
-	[Address(RVA = "0x4538090", Offset = "0x4538090", VA = "0x4538090", Slot = "4")]
+	[Token(Token = "0x6000390")]
+	[Address(RVA = "0x24FE500", Offset = "0x24FCB00", VA = "0x1824FE500", Slot = "4")]
 	protected override bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000067")]
-	[Address(RVA = "0x45380F0", Offset = "0x45380F0", VA = "0x45380F0")]
+	[Token(Token = "0x6000391")]
+	[Address(RVA = "0x24FE490", Offset = "0x24FCA90", VA = "0x1824FE490")]
 	public ForeignKeyConstraint GetForeignKeyConstraint()
 	{
 		return null;

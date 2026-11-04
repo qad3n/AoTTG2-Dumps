@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000AA")]
+[Token(Token = "0x20000D2")]
 public class EventArgs
 {
-	[Token(Token = "0x4000272")]
+	[Token(Token = "0x40002FD")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly EventArgs Empty;
 
-	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x3C9ACF0", Offset = "0x3C9ACF0", VA = "0x3C9ACF0")]
+	[Token(Token = "0x60006CD")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EventArgs()
 	{
 	}

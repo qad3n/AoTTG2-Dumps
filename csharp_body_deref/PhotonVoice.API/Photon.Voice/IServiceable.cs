@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200005B")]
+[Token(Token = "0x2000059")]
 public interface IServiceable
 {
-	[Token(Token = "0x60001C8")]
+	[Token(Token = "0x60001C6")]
 	void Service(LocalVoice localVoice);
 }

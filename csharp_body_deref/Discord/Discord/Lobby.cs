@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000041")]
 public struct Lobby
 {
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000C9")]
 	[FieldOffset(Offset = "0x0")]
 	public long Id;
 
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40000CA")]
 	[FieldOffset(Offset = "0x8")]
 	public LobbyType Type;
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000CB")]
 	[FieldOffset(Offset = "0x10")]
 	public long OwnerId;
 
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40000CC")]
 	[FieldOffset(Offset = "0x18")]
 	public string Secret;
 
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x40000CD")]
 	[FieldOffset(Offset = "0x20")]
 	public uint Capacity;
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x40000CE")]
 	[FieldOffset(Offset = "0x24")]
 	public bool Locked;
 }

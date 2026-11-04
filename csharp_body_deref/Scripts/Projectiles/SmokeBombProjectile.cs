@@ -10,28 +10,28 @@ using UnityEngine;
 
 namespace Projectiles;
 
-[Token(Token = "0x20000E7")]
+[Token(Token = "0x2000107")]
 internal class SmokeBombProjectile : BaseProjectile
 {
-	[Token(Token = "0x170000B0")]
+	[Token(Token = "0x170000BF")]
 	protected override float DestroyDelay
 	{
-		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x41094B0", Offset = "0x41094B0", VA = "0x41094B0", Slot = "11")]
+		[Token(Token = "0x60004FE")]
+		[Address(RVA = "0x20B9980", Offset = "0x20B7F80", VA = "0x1820B9980", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x41094C0", Offset = "0x41094C0", VA = "0x41094C0")]
+	[Token(Token = "0x60004FF")]
+	[Address(RVA = "0x20D0AD0", Offset = "0x20CF0D0", VA = "0x1820D0AD0")]
 	private void OnCollisionEnter(Collision collision)
 	{
 	}
 
-	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x4109850", Offset = "0x4109850", VA = "0x4109850")]
+	[Token(Token = "0x6000500")]
+	[Address(RVA = "0x20B6310", Offset = "0x20B4910", VA = "0x1820B6310")]
 	public SmokeBombProjectile()
 	{
 	}

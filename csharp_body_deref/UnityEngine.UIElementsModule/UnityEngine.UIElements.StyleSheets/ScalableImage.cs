@@ -7,23 +7,25 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
 [Serializable]
-[Token(Token = "0x2000536")]
+[Token(Token = "0x200062E")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal struct ScalableImage
 {
-	[Token(Token = "0x40011FE")]
+	[Token(Token = "0x40017A9")]
 	[FieldOffset(Offset = "0x0")]
 	public Texture2D normalImage;
 
-	[Token(Token = "0x40011FF")]
+	[Token(Token = "0x40017AA")]
 	[FieldOffset(Offset = "0x8")]
 	public Texture2D highResolutionImage;
 
-	[Token(Token = "0x6001FE8")]
-	[Address(RVA = "0x4FC6CF0", Offset = "0x4FC6CF0", VA = "0x4FC6CF0", Slot = "3")]
+	[Token(Token = "0x6002D4A")]
+	[Address(RVA = "0x31ED3E0", Offset = "0x31EB9E0", VA = "0x1831ED3E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

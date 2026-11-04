@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200039F")]
+[Token(Token = "0x2000441")]
 public enum Justify
 {
-	[Token(Token = "0x4000AD5")]
+	[Token(Token = "0x4000E23")]
 	FlexStart,
-	[Token(Token = "0x4000AD6")]
+	[Token(Token = "0x4000E24")]
 	Center,
-	[Token(Token = "0x4000AD7")]
+	[Token(Token = "0x4000E25")]
 	FlexEnd,
-	[Token(Token = "0x4000AD8")]
+	[Token(Token = "0x4000E26")]
 	SpaceBetween,
-	[Token(Token = "0x4000AD9")]
+	[Token(Token = "0x4000E27")]
 	SpaceAround,
-	[Token(Token = "0x4000ADA")]
+	[Token(Token = "0x4000E28")]
 	SpaceEvenly
 }

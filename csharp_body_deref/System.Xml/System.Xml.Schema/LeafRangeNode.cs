@@ -28,10 +28,10 @@ internal sealed class LeafRangeNode : LeafNode
 	public decimal Max
 	{
 		[Token(Token = "0x6001001")]
-		[Address(RVA = "0x4848D20", Offset = "0x4848D20", VA = "0x4848D20")]
+		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
 		get
 		{
-			return default(decimal);
+			return 0m;
 		}
 	}
 
@@ -39,10 +39,10 @@ internal sealed class LeafRangeNode : LeafNode
 	public decimal Min
 	{
 		[Token(Token = "0x6001002")]
-		[Address(RVA = "0x4848D30", Offset = "0x4848D30", VA = "0x4848D30")]
+		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
 		get
 		{
-			return default(decimal);
+			return 0m;
 		}
 	}
 
@@ -50,13 +50,13 @@ internal sealed class LeafRangeNode : LeafNode
 	public BitSet NextIteration
 	{
 		[Token(Token = "0x6001003")]
-		[Address(RVA = "0x4848D40", Offset = "0x4848D40", VA = "0x4848D40")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001004")]
-		[Address(RVA = "0x4848D50", Offset = "0x4848D50", VA = "0x4848D50")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
@@ -66,7 +66,7 @@ internal sealed class LeafRangeNode : LeafNode
 	public override bool IsRangeNode
 	{
 		[Token(Token = "0x6001005")]
-		[Address(RVA = "0x4848D60", Offset = "0x4848D60", VA = "0x4848D60", Slot = "7")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -74,19 +74,19 @@ internal sealed class LeafRangeNode : LeafNode
 	}
 
 	[Token(Token = "0x6000FFF")]
-	[Address(RVA = "0x4848C90", Offset = "0x4848C90", VA = "0x4848C90")]
+	[Address(RVA = "0x277F1A0", Offset = "0x277D7A0", VA = "0x18277F1A0")]
 	public LeafRangeNode(decimal min, decimal max)
 	{
 	}
 
 	[Token(Token = "0x6001000")]
-	[Address(RVA = "0x4848CD0", Offset = "0x4848CD0", VA = "0x4848CD0")]
+	[Address(RVA = "0x277F1F0", Offset = "0x277D7F0", VA = "0x18277F1F0")]
 	public LeafRangeNode(int pos, decimal min, decimal max)
 	{
 	}
 
 	[Token(Token = "0x6001006")]
-	[Address(RVA = "0x4848D70", Offset = "0x4848D70", VA = "0x4848D70", Slot = "4")]
+	[Address(RVA = "0x277F160", Offset = "0x277D760", VA = "0x18277F160", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}

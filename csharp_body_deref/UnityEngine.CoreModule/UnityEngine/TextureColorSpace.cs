@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000EB")]
+[Token(Token = "0x200010C")]
 internal enum TextureColorSpace
 {
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x400032F")]
 	Linear,
-	[Token(Token = "0x40002E7")]
+	[Token(Token = "0x4000330")]
 	sRGB
 }

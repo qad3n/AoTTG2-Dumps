@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace JetBrains.Annotations;
 
-[Token(Token = "0x2000069")]
+[Token(Token = "0x200007F")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Parameter | AttributeTargets.Delegate | AttributeTargets.GenericParameter)]
 public sealed class CanBeNullAttribute : Attribute
 {
-	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x4DADED0", Offset = "0x4DADED0", VA = "0x4DADED0")]
+	[Token(Token = "0x60001A0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public CanBeNullAttribute()
 	{
 	}

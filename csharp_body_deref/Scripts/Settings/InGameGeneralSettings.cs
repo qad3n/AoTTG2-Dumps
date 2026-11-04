@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x20000A8")]
 internal class InGameGeneralSettings : BaseSettingsContainer
 {
-	[Token(Token = "0x4000309")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000376")]
+	[FieldOffset(Offset = "0x30")]
 	public StringSetting MapCategory;
 
-	[Token(Token = "0x400030A")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4000377")]
+	[FieldOffset(Offset = "0x38")]
 	public StringSetting MapName;
 
-	[Token(Token = "0x400030B")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x4000378")]
+	[FieldOffset(Offset = "0x40")]
 	public StringSetting GameMode;
 
-	[Token(Token = "0x400030C")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000379")]
+	[FieldOffset(Offset = "0x48")]
 	public StringSetting PrevGameMode;
 
-	[Token(Token = "0x400030D")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400037A")]
+	[FieldOffset(Offset = "0x50")]
 	public IntSetting Difficulty;
 
-	[Token(Token = "0x400030E")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x400037B")]
+	[FieldOffset(Offset = "0x58")]
 	public ListSetting<StringSetting> Addons;
 
-	[Token(Token = "0x400030F")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x400037C")]
+	[FieldOffset(Offset = "0x60")]
 	public StringSetting RoomName;
 
-	[Token(Token = "0x4000310")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x400037D")]
+	[FieldOffset(Offset = "0x68")]
 	public StringSetting Password;
 
-	[Token(Token = "0x4000311")]
-	[FieldOffset(Offset = "0x60")]
+	[Token(Token = "0x400037E")]
+	[FieldOffset(Offset = "0x70")]
 	public IntSetting MaxPlayers;
 
-	[Token(Token = "0x600032A")]
-	[Address(RVA = "0x3F8AB90", Offset = "0x3F8AB90", VA = "0x3F8AB90")]
+	[Token(Token = "0x60003AC")]
+	[Address(RVA = "0x1F19A40", Offset = "0x1F18040", VA = "0x181F19A40")]
 	public InGameGeneralSettings()
 	{
 	}

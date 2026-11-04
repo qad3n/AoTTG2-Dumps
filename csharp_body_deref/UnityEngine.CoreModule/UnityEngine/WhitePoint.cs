@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000E5")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x2000106")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ColorGamut.h")]
+[UnityEngine.Scripting.UsedByNativeCode]
 public enum WhitePoint
 {
-	[Token(Token = "0x400027C")]
+	[Token(Token = "0x40002D3")]
 	Unknown = -1,
-	[Token(Token = "0x400027D")]
+	[Token(Token = "0x40002D4")]
 	D65
 }

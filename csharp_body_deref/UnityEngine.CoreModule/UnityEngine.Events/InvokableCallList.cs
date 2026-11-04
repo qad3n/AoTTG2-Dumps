@@ -11,64 +11,64 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001E9")]
+[Token(Token = "0x200022B")]
 internal class InvokableCallList
 {
-	[Token(Token = "0x4000694")]
+	[Token(Token = "0x400072B")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<BaseInvokableCall> m_PersistentCalls;
 
-	[Token(Token = "0x4000695")]
+	[Token(Token = "0x400072C")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly List<BaseInvokableCall> m_RuntimeCalls;
 
-	[Token(Token = "0x4000696")]
+	[Token(Token = "0x400072D")]
 	[FieldOffset(Offset = "0x20")]
 	private List<BaseInvokableCall> m_ExecutingCalls;
 
-	[Token(Token = "0x4000697")]
+	[Token(Token = "0x400072E")]
 	[FieldOffset(Offset = "0x28")]
 	private bool m_NeedsUpdate;
 
-	[Token(Token = "0x6000D54")]
-	[Address(RVA = "0x4E12760", Offset = "0x4E12760", VA = "0x4E12760")]
+	[Token(Token = "0x6001133")]
+	[Address(RVA = "0x2F4A960", Offset = "0x2F48F60", VA = "0x182F4A960")]
 	public void AddPersistentInvokableCall(BaseInvokableCall call)
 	{
 	}
 
-	[Token(Token = "0x6000D55")]
-	[Address(RVA = "0x4E12800", Offset = "0x4E12800", VA = "0x4E12800")]
+	[Token(Token = "0x6001134")]
+	[Address(RVA = "0x2F4A8A0", Offset = "0x2F48EA0", VA = "0x182F4A8A0")]
 	public void AddListener(BaseInvokableCall call)
 	{
 	}
 
-	[Token(Token = "0x6000D56")]
-	[Address(RVA = "0x4E128A0", Offset = "0x4E128A0", VA = "0x4E128A0")]
+	[Token(Token = "0x6001135")]
+	[Address(RVA = "0x2F4AC50", Offset = "0x2F49250", VA = "0x182F4AC50")]
 	public void RemoveListener(object targetObj, MethodInfo method)
 	{
 	}
 
-	[Token(Token = "0x6000D57")]
-	[Address(RVA = "0x4E12BD0", Offset = "0x4E12BD0", VA = "0x4E12BD0")]
+	[Token(Token = "0x6001136")]
+	[Address(RVA = "0x2F4AAE0", Offset = "0x2F490E0", VA = "0x182F4AAE0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000D58")]
-	[Address(RVA = "0x4E12C80", Offset = "0x4E12C80", VA = "0x4E12C80")]
+	[Token(Token = "0x6001137")]
+	[Address(RVA = "0x2F4AA20", Offset = "0x2F49020", VA = "0x182F4AA20")]
 	public void ClearPersistent()
 	{
 	}
 
-	[Token(Token = "0x6000D59")]
-	[Address(RVA = "0x4E12D30", Offset = "0x4E12D30", VA = "0x4E12D30")]
+	[Token(Token = "0x6001138")]
+	[Address(RVA = "0x2F4ABA0", Offset = "0x2F491A0", VA = "0x182F4ABA0")]
 	public List<BaseInvokableCall> PrepareInvoke()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D5A")]
-	[Address(RVA = "0x4E12DE0", Offset = "0x4E12DE0", VA = "0x4E12DE0")]
+	[Token(Token = "0x6001139")]
+	[Address(RVA = "0x2F4AEA0", Offset = "0x2F494A0", VA = "0x182F4AEA0")]
 	public InvokableCallList()
 	{
 	}

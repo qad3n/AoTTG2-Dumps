@@ -11,51 +11,51 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Styling;
 
-[Token(Token = "0x200001C")]
+[Token(Token = "0x2000025")]
 public sealed class GisketchLogoMotionBlur : MonoBehaviour
 {
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400009D")]
 	public const string ShaderName = "Gisketch/AoTTG2 UI Sprite Blur";
 
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400009E")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly int BlurId;
 
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x400009F")]
 	[FieldOffset(Offset = "0x20")]
 	private Material _material;
 
-	[Token(Token = "0x1700000F")]
+	[Token(Token = "0x1700001D")]
 	public float Blur
 	{
-		[Token(Token = "0x60000C0")]
-		[Address(RVA = "0x3A32F20", Offset = "0x3A32F20", VA = "0x3A32F20")]
+		[Token(Token = "0x6000126")]
+		[Address(RVA = "0x18856A0", Offset = "0x1883CA0", VA = "0x1818856A0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x3A34DA0", Offset = "0x3A34DA0", VA = "0x3A34DA0")]
+	[Token(Token = "0x6000127")]
+	[Address(RVA = "0x18854B0", Offset = "0x1883AB0", VA = "0x1818854B0")]
 	public void Setup(Image image)
 	{
 	}
 
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3A32E60", Offset = "0x3A32E60", VA = "0x3A32E60")]
+	[Token(Token = "0x6000128")]
+	[Address(RVA = "0x18853F0", Offset = "0x18839F0", VA = "0x1818853F0")]
 	public void SetBlur(float value)
 	{
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3A34F30", Offset = "0x3A34F30", VA = "0x3A34F30")]
+	[Token(Token = "0x6000129")]
+	[Address(RVA = "0x1885320", Offset = "0x1883920", VA = "0x181885320")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3A34FF0", Offset = "0x3A34FF0", VA = "0x3A34FF0")]
+	[Token(Token = "0x600012A")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchLogoMotionBlur()
 	{
 	}

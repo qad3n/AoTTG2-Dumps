@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001D2")]
+[Token(Token = "0x20001FD")]
 public delegate void SendOrPostCallback(object state);

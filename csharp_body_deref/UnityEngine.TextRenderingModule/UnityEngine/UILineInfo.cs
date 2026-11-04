@@ -10,23 +10,23 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000E")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct UILineInfo
 {
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000041")]
 	[FieldOffset(Offset = "0x0")]
 	public int startCharIdx;
 
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000042")]
 	[FieldOffset(Offset = "0x4")]
 	public int height;
 
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000043")]
 	[FieldOffset(Offset = "0x8")]
 	public float topY;
 
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000044")]
 	[FieldOffset(Offset = "0xC")]
 	public float leading;
 }

@@ -7,25 +7,27 @@
 // ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x2000541")]
+[Token(Token = "0x2000637")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal static class StyleSheetColor
 {
-	[Token(Token = "0x400121D")]
+	[Token(Token = "0x40017C5")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<string, Color32> s_NameToColor;
 
-	[Token(Token = "0x6002031")]
-	[Address(RVA = "0x4FC8E80", Offset = "0x4FC8E80", VA = "0x4FC8E80")]
+	[Token(Token = "0x6002D9A")]
+	[Address(RVA = "0x31F5C30", Offset = "0x31F4230", VA = "0x1831F5C30")]
 	public static bool TryGetColor(string name, out Color color)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002032")]
-	[Address(RVA = "0x4FCD0B0", Offset = "0x4FCD0B0", VA = "0x4FCD0B0")]
+	[Token(Token = "0x6002D9B")]
+	[Address(RVA = "0x31F5C10", Offset = "0x31F4210", VA = "0x1831F5C10")]
 	private static Color32 HexToColor32(uint color)
 	{
 		return default(Color32);

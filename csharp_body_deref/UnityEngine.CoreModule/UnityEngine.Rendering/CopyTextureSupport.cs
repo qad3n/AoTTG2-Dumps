@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C2")]
+[Token(Token = "0x200033D")]
 [Flags]
 public enum CopyTextureSupport
 {
-	[Token(Token = "0x40007DD")]
+	[Token(Token = "0x4000928")]
 	None = 0,
-	[Token(Token = "0x40007DE")]
+	[Token(Token = "0x4000929")]
 	Basic = 1,
-	[Token(Token = "0x40007DF")]
+	[Token(Token = "0x400092A")]
 	Copy3D = 2,
-	[Token(Token = "0x40007E0")]
+	[Token(Token = "0x400092B")]
 	DifferentTypes = 4,
-	[Token(Token = "0x40007E1")]
+	[Token(Token = "0x400092C")]
 	TextureToRT = 8,
-	[Token(Token = "0x40007E2")]
+	[Token(Token = "0x400092D")]
 	RTToTexture = 0x10
 }

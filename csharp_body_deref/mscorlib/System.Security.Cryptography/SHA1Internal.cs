@@ -9,83 +9,83 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200031D")]
+[Token(Token = "0x200034C")]
 internal class SHA1Internal
 {
-	[Token(Token = "0x4000E07")]
+	[Token(Token = "0x4000E14")]
 	private const int BLOCK_SIZE_BYTES = 64;
 
-	[Token(Token = "0x4000E08")]
+	[Token(Token = "0x4000E15")]
 	[FieldOffset(Offset = "0x10")]
 	private uint[] _H;
 
-	[Token(Token = "0x4000E09")]
+	[Token(Token = "0x4000E16")]
 	[FieldOffset(Offset = "0x18")]
 	private ulong count;
 
-	[Token(Token = "0x4000E0A")]
+	[Token(Token = "0x4000E17")]
 	[FieldOffset(Offset = "0x20")]
 	private byte[] _ProcessingBuffer;
 
-	[Token(Token = "0x4000E0B")]
+	[Token(Token = "0x4000E18")]
 	[FieldOffset(Offset = "0x28")]
 	private int _ProcessingBufferCount;
 
-	[Token(Token = "0x4000E0C")]
+	[Token(Token = "0x4000E19")]
 	[FieldOffset(Offset = "0x30")]
 	private uint[] buff;
 
-	[Token(Token = "0x6001B5C")]
-	[Address(RVA = "0x3B56370", Offset = "0x3B56370", VA = "0x3B56370")]
+	[Token(Token = "0x6001BC4")]
+	[Address(RVA = "0x19E61F0", Offset = "0x19E47F0", VA = "0x1819E61F0")]
 	public SHA1Internal()
 	{
 	}
 
-	[Token(Token = "0x6001B5D")]
-	[Address(RVA = "0x3B564F0", Offset = "0x3B564F0", VA = "0x3B564F0")]
+	[Token(Token = "0x6001BC5")]
+	[Address(RVA = "0x19E4E80", Offset = "0x19E3480", VA = "0x1819E4E80")]
 	public void HashCore(byte[] rgb, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6001B5E")]
-	[Address(RVA = "0x3B56DF0", Offset = "0x3B56DF0", VA = "0x3B56DF0")]
+	[Token(Token = "0x6001BC6")]
+	[Address(RVA = "0x19E4FB0", Offset = "0x19E35B0", VA = "0x1819E4FB0")]
 	public byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B5F")]
-	[Address(RVA = "0x3B56480", Offset = "0x3B56480", VA = "0x3B56480")]
+	[Token(Token = "0x6001BC7")]
+	[Address(RVA = "0x19E5810", Offset = "0x19E3E10", VA = "0x1819E5810")]
 	public void Initialize()
 	{
 	}
 
-	[Token(Token = "0x6001B60")]
-	[Address(RVA = "0x3B565D0", Offset = "0x3B565D0", VA = "0x3B565D0")]
+	[Token(Token = "0x6001BC8")]
+	[Address(RVA = "0x19E58A0", Offset = "0x19E3EA0", VA = "0x1819E58A0")]
 	private void ProcessBlock(byte[] inputBuffer, uint inputOffset)
 	{
 	}
 
-	[Token(Token = "0x6001B61")]
-	[Address(RVA = "0x3B57360", Offset = "0x3B57360", VA = "0x3B57360")]
+	[Token(Token = "0x6001BC9")]
+	[Address(RVA = "0x19E5090", Offset = "0x19E3690", VA = "0x1819E5090")]
 	private static void InitialiseBuff(uint[] buff, byte[] input, uint inputOffset)
 	{
 	}
 
-	[Token(Token = "0x6001B62")]
-	[Address(RVA = "0x3B57A60", Offset = "0x3B57A60", VA = "0x3B57A60")]
+	[Token(Token = "0x6001BCA")]
+	[Address(RVA = "0x19E4AB0", Offset = "0x19E30B0", VA = "0x1819E4AB0")]
 	private static void FillBuff(uint[] buff)
 	{
 	}
 
-	[Token(Token = "0x6001B63")]
-	[Address(RVA = "0x3B57180", Offset = "0x3B57180", VA = "0x3B57180")]
+	[Token(Token = "0x6001BCB")]
+	[Address(RVA = "0x19E5FC0", Offset = "0x19E45C0", VA = "0x1819E5FC0")]
 	private void ProcessFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount)
 	{
 	}
 
-	[Token(Token = "0x6001B64")]
-	[Address(RVA = "0x3B57CA0", Offset = "0x3B57CA0", VA = "0x3B57CA0")]
+	[Token(Token = "0x6001BCC")]
+	[Address(RVA = "0x19E49D0", Offset = "0x19E2FD0", VA = "0x1819E49D0")]
 	internal void AddLength(ulong length, byte[] buffer, int position)
 	{
 	}

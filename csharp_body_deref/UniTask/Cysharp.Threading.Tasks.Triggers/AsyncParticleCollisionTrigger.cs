@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001D4")]
+[Token(Token = "0x20001D7")]
 [DisallowMultipleComponent]
 public sealed class AsyncParticleCollisionTrigger : AsyncTriggerBase<GameObject>
 {
-	[Token(Token = "0x6000B4A")]
-	[Address(RVA = "0x4A0FF70", Offset = "0x4A0FF70", VA = "0x4A0FF70")]
+	[Token(Token = "0x6000B6E")]
+	[Address(RVA = "0x29340F0", Offset = "0x29326F0", VA = "0x1829340F0")]
 	private void OnParticleCollision(GameObject other)
 	{
 	}
 
-	[Token(Token = "0x6000B4B")]
-	[Address(RVA = "0x4A0FFC0", Offset = "0x4A0FFC0", VA = "0x4A0FFC0")]
+	[Token(Token = "0x6000B6F")]
+	[Address(RVA = "0x2933DD0", Offset = "0x29323D0", VA = "0x182933DD0")]
 	public IAsyncOnParticleCollisionHandler GetOnParticleCollisionAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4C")]
-	[Address(RVA = "0x4A10030", Offset = "0x4A10030", VA = "0x4A10030")]
+	[Token(Token = "0x6000B70")]
+	[Address(RVA = "0x2933E40", Offset = "0x2932440", VA = "0x182933E40")]
 	public IAsyncOnParticleCollisionHandler GetOnParticleCollisionAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4D")]
-	[Address(RVA = "0x4A100A0", Offset = "0x4A100A0", VA = "0x4A100A0")]
+	[Token(Token = "0x6000B71")]
+	[Address(RVA = "0x2933EC0", Offset = "0x29324C0", VA = "0x182933EC0")]
 	public UniTask<GameObject> OnParticleCollisionAsync()
 	{
 		return default(UniTask<GameObject>);
 	}
 
-	[Token(Token = "0x6000B4E")]
-	[Address(RVA = "0x4A101A0", Offset = "0x4A101A0", VA = "0x4A101A0")]
+	[Token(Token = "0x6000B72")]
+	[Address(RVA = "0x2933FE0", Offset = "0x29325E0", VA = "0x182933FE0")]
 	public UniTask<GameObject> OnParticleCollisionAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<GameObject>);
 	}
 
-	[Token(Token = "0x6000B4F")]
-	[Address(RVA = "0x4A102B0", Offset = "0x4A102B0", VA = "0x4A102B0")]
+	[Token(Token = "0x6000B73")]
+	[Address(RVA = "0x2934140", Offset = "0x2932740", VA = "0x182934140")]
 	public AsyncParticleCollisionTrigger()
 	{
 	}

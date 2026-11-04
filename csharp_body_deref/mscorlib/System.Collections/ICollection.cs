@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005F8")]
+[Token(Token = "0x20005CC")]
 public interface ICollection : IEnumerable
 {
-	[Token(Token = "0x1700071F")]
+	[Token(Token = "0x170006AC")]
 	int Count
 	{
-		[Token(Token = "0x6002EB3")]
+		[Token(Token = "0x6002BC2")]
 		get;
 	}
 
-	[Token(Token = "0x17000720")]
+	[Token(Token = "0x170006AD")]
 	object SyncRoot
 	{
-		[Token(Token = "0x6002EB4")]
+		[Token(Token = "0x6002BC3")]
 		get;
 	}
 
-	[Token(Token = "0x17000721")]
+	[Token(Token = "0x170006AE")]
 	bool IsSynchronized
 	{
-		[Token(Token = "0x6002EB5")]
+		[Token(Token = "0x6002BC4")]
 		get;
 	}
 
-	[Token(Token = "0x6002EB2")]
+	[Token(Token = "0x6002BC1")]
 	void CopyTo(Array array, int index);
 }

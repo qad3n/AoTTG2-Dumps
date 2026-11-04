@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.Archive;
 
-[Token(Token = "0x2000038")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x200004B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct ArchiveHandle
 {
-	[Token(Token = "0x40000B5")]
+	[Token(Token = "0x40000E8")]
 	[FieldOffset(Offset = "0x0")]
 	internal ulong Handle;
 }

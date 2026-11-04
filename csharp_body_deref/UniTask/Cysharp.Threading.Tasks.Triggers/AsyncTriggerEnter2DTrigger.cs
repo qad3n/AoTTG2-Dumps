@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001F2")]
+[Token(Token = "0x20001F5")]
 [DisallowMultipleComponent]
 public sealed class AsyncTriggerEnter2DTrigger : AsyncTriggerBase<Collider2D>
 {
-	[Token(Token = "0x6000BB3")]
-	[Address(RVA = "0x4A133A0", Offset = "0x4A133A0", VA = "0x4A133A0")]
+	[Token(Token = "0x6000BD7")]
+	[Address(RVA = "0x2939990", Offset = "0x2937F90", VA = "0x182939990")]
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 	}
 
-	[Token(Token = "0x6000BB4")]
-	[Address(RVA = "0x4A133F0", Offset = "0x4A133F0", VA = "0x4A133F0")]
+	[Token(Token = "0x6000BD8")]
+	[Address(RVA = "0x29396F0", Offset = "0x2937CF0", VA = "0x1829396F0")]
 	public IAsyncOnTriggerEnter2DHandler GetOnTriggerEnter2DAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BB5")]
-	[Address(RVA = "0x4A13460", Offset = "0x4A13460", VA = "0x4A13460")]
+	[Token(Token = "0x6000BD9")]
+	[Address(RVA = "0x2939670", Offset = "0x2937C70", VA = "0x182939670")]
 	public IAsyncOnTriggerEnter2DHandler GetOnTriggerEnter2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BB6")]
-	[Address(RVA = "0x4A134D0", Offset = "0x4A134D0", VA = "0x4A134D0")]
+	[Token(Token = "0x6000BDA")]
+	[Address(RVA = "0x2939870", Offset = "0x2937E70", VA = "0x182939870")]
 	public UniTask<Collider2D> OnTriggerEnter2DAsync()
 	{
 		return default(UniTask<Collider2D>);
 	}
 
-	[Token(Token = "0x6000BB7")]
-	[Address(RVA = "0x4A135D0", Offset = "0x4A135D0", VA = "0x4A135D0")]
+	[Token(Token = "0x6000BDB")]
+	[Address(RVA = "0x2939760", Offset = "0x2937D60", VA = "0x182939760")]
 	public UniTask<Collider2D> OnTriggerEnter2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collider2D>);
 	}
 
-	[Token(Token = "0x6000BB8")]
-	[Address(RVA = "0x4A136E0", Offset = "0x4A136E0", VA = "0x4A136E0")]
+	[Token(Token = "0x6000BDC")]
+	[Address(RVA = "0x29399E0", Offset = "0x2937FE0", VA = "0x1829399E0")]
 	public AsyncTriggerEnter2DTrigger()
 	{
 	}

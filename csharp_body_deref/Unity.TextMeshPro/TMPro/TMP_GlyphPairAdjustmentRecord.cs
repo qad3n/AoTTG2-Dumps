@@ -13,80 +13,80 @@ using UnityEngine.TextCore.LowLevel;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000051")]
+[Token(Token = "0x2000047")]
 public class TMP_GlyphPairAdjustmentRecord
 {
-	[Token(Token = "0x4000237")]
+	[Token(Token = "0x400017F")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	internal TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord;
 
-	[Token(Token = "0x4000238")]
+	[Token(Token = "0x4000180")]
 	[FieldOffset(Offset = "0x24")]
 	[SerializeField]
 	internal TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord;
 
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x4000181")]
 	[FieldOffset(Offset = "0x38")]
 	[SerializeField]
 	internal FontFeatureLookupFlags m_FeatureLookupFlags;
 
-	[Token(Token = "0x17000071")]
+	[Token(Token = "0x1700006D")]
 	public TMP_GlyphAdjustmentRecord firstAdjustmentRecord
 	{
-		[Token(Token = "0x600027A")]
-		[Address(RVA = "0x4C58790", Offset = "0x4C58790", VA = "0x4C58790")]
+		[Token(Token = "0x60001FC")]
+		[Address(RVA = "0x152F200", Offset = "0x152D800", VA = "0x18152F200")]
 		get
 		{
 			return default(TMP_GlyphAdjustmentRecord);
 		}
-		[Token(Token = "0x600027B")]
-		[Address(RVA = "0x4C587B0", Offset = "0x4C587B0", VA = "0x4C587B0")]
+		[Token(Token = "0x60001FD")]
+		[Address(RVA = "0x2CF7690", Offset = "0x2CF5C90", VA = "0x182CF7690")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000072")]
+	[Token(Token = "0x1700006E")]
 	public TMP_GlyphAdjustmentRecord secondAdjustmentRecord
 	{
-		[Token(Token = "0x600027C")]
-		[Address(RVA = "0x4C587D0", Offset = "0x4C587D0", VA = "0x4C587D0")]
+		[Token(Token = "0x60001FE")]
+		[Address(RVA = "0x2CF7670", Offset = "0x2CF5C70", VA = "0x182CF7670")]
 		get
 		{
 			return default(TMP_GlyphAdjustmentRecord);
 		}
-		[Token(Token = "0x600027D")]
-		[Address(RVA = "0x4C587F0", Offset = "0x4C587F0", VA = "0x4C587F0")]
+		[Token(Token = "0x60001FF")]
+		[Address(RVA = "0x2CF76A0", Offset = "0x2CF5CA0", VA = "0x182CF76A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000073")]
+	[Token(Token = "0x1700006F")]
 	public FontFeatureLookupFlags featureLookupFlags
 	{
-		[Token(Token = "0x600027E")]
-		[Address(RVA = "0x4C58810", Offset = "0x4C58810", VA = "0x4C58810")]
+		[Token(Token = "0x6000200")]
+		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
 		get
 		{
 			return default(FontFeatureLookupFlags);
 		}
-		[Token(Token = "0x600027F")]
-		[Address(RVA = "0x4C58820", Offset = "0x4C58820", VA = "0x4C58820")]
+		[Token(Token = "0x6000201")]
+		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000280")]
-	[Address(RVA = "0x4C55A30", Offset = "0x4C55A30", VA = "0x4C55A30")]
+	[Token(Token = "0x6000202")]
+	[Address(RVA = "0x2CF7470", Offset = "0x2CF5A70", VA = "0x182CF7470")]
 	public TMP_GlyphPairAdjustmentRecord(TMP_GlyphAdjustmentRecord firstAdjustmentRecord, TMP_GlyphAdjustmentRecord secondAdjustmentRecord)
 	{
 	}
 
-	[Token(Token = "0x6000281")]
-	[Address(RVA = "0x4C54DA0", Offset = "0x4C54DA0", VA = "0x4C54DA0")]
+	[Token(Token = "0x6000203")]
+	[Address(RVA = "0x2CF74C0", Offset = "0x2CF5AC0", VA = "0x182CF74C0")]
 	internal TMP_GlyphPairAdjustmentRecord(GlyphPairAdjustmentRecord glyphPairAdjustmentRecord)
 	{
 	}

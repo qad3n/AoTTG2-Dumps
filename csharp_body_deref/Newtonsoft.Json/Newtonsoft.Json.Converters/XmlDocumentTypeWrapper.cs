@@ -21,7 +21,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	public string Name
 	{
 		[Token(Token = "0x6000F1C")]
-		[Address(RVA = "0x3E48930", Offset = "0x3E48930", VA = "0x3E48930", Slot = "16")]
+		[Address(RVA = "0x1CB2D20", Offset = "0x1CB1320", VA = "0x181CB2D20", Slot = "16")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	public string? System
 	{
 		[Token(Token = "0x6000F1D")]
-		[Address(RVA = "0x3E48960", Offset = "0x3E48960", VA = "0x3E48960", Slot = "17")]
+		[Address(RVA = "0x1CB2C50", Offset = "0x1CB1250", VA = "0x181CB2C50", Slot = "17")]
 		get
 		{
 			return null;
@@ -43,7 +43,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	public string? Public
 	{
 		[Token(Token = "0x6000F1E")]
-		[Address(RVA = "0x3E48980", Offset = "0x3E48980", VA = "0x3E48980", Slot = "18")]
+		[Address(RVA = "0x1CB2C30", Offset = "0x1CB1230", VA = "0x181CB2C30", Slot = "18")]
 		get
 		{
 			return null;
@@ -54,7 +54,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	public string? InternalSubset
 	{
 		[Token(Token = "0x6000F1F")]
-		[Address(RVA = "0x3E489A0", Offset = "0x3E489A0", VA = "0x3E489A0", Slot = "19")]
+		[Address(RVA = "0x1CB2CD0", Offset = "0x1CB12D0", VA = "0x181CB2CD0", Slot = "19")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000F20")]
-		[Address(RVA = "0x3E489C0", Offset = "0x3E489C0", VA = "0x3E489C0", Slot = "14")]
+		[Address(RVA = "0x1CB2CF0", Offset = "0x1CB12F0", VA = "0x181CB2CF0", Slot = "14")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType, IXmlNo
 	}
 
 	[Token(Token = "0x6000F1B")]
-	[Address(RVA = "0x3E48300", Offset = "0x3E48300", VA = "0x3E48300")]
+	[Address(RVA = "0x1CB2BE0", Offset = "0x1CB11E0", VA = "0x181CB2BE0")]
 	public XmlDocumentTypeWrapper(XmlDocumentType documentType)
 	{
 	}

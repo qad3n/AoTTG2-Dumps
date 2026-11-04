@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x20000C2")]
 public enum UriKind
 {
-	[Token(Token = "0x40001DC")]
+	[Token(Token = "0x40002AC")]
 	RelativeOrAbsolute,
-	[Token(Token = "0x40001DD")]
+	[Token(Token = "0x40002AD")]
 	Absolute,
-	[Token(Token = "0x40001DE")]
+	[Token(Token = "0x40002AE")]
 	Relative
 }

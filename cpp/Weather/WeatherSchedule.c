@@ -1,5 +1,5 @@
 // Type: Weather.WeatherSchedule
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Weather/WeatherSchedule.cs
@@ -8,58 +8,108 @@
 
 // Weather.WeatherSchedule$$.ctor
 // il2cpp: void Weather_WeatherSchedule___ctor (Weather_WeatherSchedule_o* __this, const MethodInfo* method);
-// 0x4075b50
+// 0x181dd51d0
 
 void Weather_WeatherSchedule___ctor(Weather_WeatherSchedule_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_WeatherEvent__o *__this_00;
   
-  if (g_data_057ac31f == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Weather_WeatherEvent);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_WeatherEvent);
-    g_data_057ac31f = '\x01';
+  if (Il2CppMethodInitialized_18434494f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEvent_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_WeatherEvent);
+    Il2CppMethodInitialized_18434494f = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_WeatherEvent__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_WeatherEvent);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherEvent);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_Weather_WeatherEvent);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_WeatherEvent_ctor);
   (__this->fields).Events = __this_00;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Events,__this_00);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.WeatherSchedule$$.ctor
 // il2cpp: void Weather_WeatherSchedule___ctor (Weather_WeatherSchedule_o* __this, System_String_o* csv, const MethodInfo* method);
-// 0x4075bd0
+// 0x181dd5250
 
-void Weather_WeatherSchedule___ctor_3f75bd0
+void Weather_WeatherSchedule___ctor_1dd5250
                (Weather_WeatherSchedule_o *__this,System_String_o *csv,MethodInfo *method)
 
 {
   System_Collections_Generic_List_WeatherEvent__o *__this_00;
-  MethodInfo *method_00;
   
-  if (g_data_057ac320 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Weather_WeatherEvent);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_WeatherEvent);
-    g_data_057ac320 = '\x01';
+  if (Il2CppMethodInitialized_184344950 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEvent_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_WeatherEvent);
+    Il2CppMethodInitialized_184344950 = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_WeatherEvent__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_WeatherEvent);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_WeatherEvent);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_Weather_WeatherEvent);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_WeatherEvent_ctor);
   (__this->fields).Events = __this_00;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  Weather_WeatherSchedule__DeserializeFromCSV(__this,csv,method_00);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Events,__this_00);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  Weather_WeatherSchedule__DeserializeFromCSV(__this,csv,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.WeatherSchedule$$SerializeToCSV
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeToCSV (Weather_WeatherSchedule_o* __this, const MethodInfo* method);
-// 0x4075fd0
+// 0x181dd44d0
+// eh: try 0x181dd4684..0x181dd4a79 -> pad 0x18333c400 (+3 call sites) catch Il2CppExceptionWrapper
+// asm: 45 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dd48ae: mov rbx, qword ptr [rsp + 0x120]
+// asm:   0x181dd48f7: mov rdx, qword ptr [rip + 0x22ba58a]  ; MethodInfo_System_Collections_Generic_List_Enumerator_object_Dispose
+// asm:   0x181dd48fe: mov rcx, qword ptr [rsp + 0x60]
+// asm:   0x181dd4903: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181dd4908: mov rcx, qword ptr [rsp + 0x58]
+// asm:   0x181dd490d: test rcx, rcx
+// asm:   0x181dd4910: jne 0x181dd4a4b
+// asm:   0x181dd4916: xor r12d, r12d
+// asm:   0x181dd4919: mov r13, qword ptr [rsp + 0x110]
+// asm:   0x181dd4921: mov rbx, qword ptr [rsp + 0x128]
+// asm:   0x181dd4929: mov qword ptr [rsp + 0x120], rbx
+// asm:   0x181dd4931: mov rsi, qword ptr [rsp + 0x98]
+// asm:   0x181dd4939: jmp 0x181dd48b6
+// asm:   0x181dd493e: mov ebx, r12d
+// asm:   0x181dd49df: mov rdx, qword ptr [rip + 0x22c9d62]  ; MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose
+// asm:   0x181dd49e6: mov rcx, qword ptr [rsp + 0x50]
+// asm:   0x181dd49eb: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181dd49f0: mov rcx, qword ptr [rsp + 0x48]
+// asm:   0x181dd49f5: test rcx, rcx
+// asm:   0x181dd49f8: jne 0x181dd4a79
+// asm:   0x181dd49fe: mov rbx, qword ptr [rsp + 0x128]
+// asm:   0x181dd4a4b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181dd4a79: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x18333c3d0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333c3d5: push rbp
+// asm:   0x18333c3d6: sub rsp, 0x30
+// asm:   0x18333c3da: mov rbp, rdx
+// asm:   0x18333c3dd: mov rax, qword ptr [rbp + 0xb8]
+// asm:   0x18333c3e4: mov rcx, qword ptr [rax]
+// asm:   0x18333c3e7: mov qword ptr [rbp + 0x58], rcx
+// asm:   0x18333c3eb: movabs rax, 0
+// asm:   0x18333c3f5: add rsp, 0x30
+// asm:   0x18333c3f9: pop rbp
+// asm:   0x18333c3fa: ret 
+// asm:   0x18333c400: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333c405: push rbp
+// asm:   0x18333c406: sub rsp, 0x30
+// asm:   0x18333c40a: mov rbp, rdx
+// asm:   0x18333c40d: mov rax, qword ptr [rbp + 0xc0]
+// asm:   0x18333c414: mov rcx, qword ptr [rax]
+// asm:   0x18333c417: mov qword ptr [rbp + 0x48], rcx
+// asm:   0x18333c41b: movabs rax, 0
+// asm:   0x18333c425: add rsp, 0x30
+// asm:   0x18333c429: pop rbp
+// asm:   0x18333c42a: ret 
 
 System_String_o *
 Weather_WeatherSchedule__SerializeToCSV(Weather_WeatherSchedule_o *__this,MethodInfo *method)
@@ -68,373 +118,281 @@ Weather_WeatherSchedule__SerializeToCSV(Weather_WeatherSchedule_o *__this,Method
   int32_t *piVar1;
   uint uVar2;
   System_Collections_Generic_List_WeatherEvent__o *__this_00;
-  System_Collections_Generic_List_object__o *pSVar3;
+  System_String_array *pSVar3;
+  System_Collections_Generic_List_object__o *pSVar4;
   System_Collections_Generic_List_float__o *__this_01;
-  MethodInfo *pMVar4;
-  long lVar5;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  System_Collections_Generic_List_Enumerator_object__o __this_06;
-  System_Collections_Generic_List_Enumerator_object__o __this_07;
-  Weather_WeatherEvent_o *__this_08;
-  bool_conflict bVar6;
+  MethodInfo *pMVar5;
+  Weather_WeatherEvent_o *__this_02;
+  bool bVar6;
   int32_t iVar7;
-  _union_13 _Var8;
-  System_Collections_Generic_List_object__o *__this_09;
-  System_String_o *pSVar9;
+  System_Collections_Generic_List_string__o *__this_03;
+  System_Collections_Generic_List_string__o *__this_04;
+  System_String_o *pSVar8;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar9;
   Il2CppObject *pIVar10;
-  System_String_o *str2;
-  System_String_array *pSVar11;
-  Il2CppClass *item;
-  long *plVar12;
-  System_Object_array *method_00;
-  int iVar13;
-  ulong unaff_RBP;
-  float __this_10;
-  undefined1 auVar14 [12];
-  float in_stack_ffffffffffffff78;
-  undefined4 in_stack_ffffffffffffff7c;
-  Il2CppType *in_stack_ffffffffffffff80;
-  int in_stack_ffffffffffffff88;
-  undefined4 in_stack_ffffffffffffff8c;
-  Il2CppClass *pIStack_68;
-  Il2CppType *pIStack_60;
-  Weather_WeatherEvent_o *pWStack_58;
-  _union_13 _Stack_50;
-  _union_14 _Stack_48;
-  Il2CppType *pIStack_40;
-  Il2CppObject *pIStack_38;
+  int index;
+  float weight;
+  undefined1 local_d8 [16];
+  int32_t local_c8;
+  undefined4 uStack_c4;
+  undefined8 local_c0;
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_b8;
+  undefined8 local_b0;
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *local_a8;
+  undefined1 local_a0 [8];
+  undefined1 *puStack_98;
+  Weather_WeatherEvent_o *local_90;
+  undefined1 local_88 [8];
+  undefined1 *puStack_80;
+  Il2CppObject *local_78;
+  System_Collections_Generic_List_string__o *local_70;
+  System_Enum_o local_68;
+  int32_t local_58;
   
-  if (g_data_057ac321 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherEvent_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_System_Object_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_Weather_WeatherEvent_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherAction);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherEffect);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherValueSelectType);
-    il2cpp_runtime_helper_023445d0(&";\n");
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac321 = '\x01';
+  if (Il2CppMethodInitialized_184344951 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_object_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_object_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_object_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_object_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_WeatherEvent_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_float_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherAction);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherValueSelectType);
+    il2cpp_codegen_initialize_runtime_metadata(&";\n");
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_184344951 = '\x01';
   }
-  pIStack_68 = (Il2CppClass *)0x0;
-  pIStack_60 = (Il2CppType *)0x0;
-  pWStack_58 = (Weather_WeatherEvent_o *)0x0;
-  _Stack_48.genericMethod = (void *)0x0;
-  pIStack_40 = (Il2CppType *)0x0;
-  pIStack_38 = (Il2CppObject *)0x0;
-  _Var8.rgctx_data = (Il2CppRGCTXData *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
+  local_a0 = (undefined1  [8])0x0;
+  puStack_98 = (undefined1 *)0x0;
+  local_90 = (Weather_WeatherEvent_o *)0x0;
+  local_88 = (undefined1  [8])0x0;
+  puStack_80 = (undefined1 *)0x0;
+  local_78 = (Il2CppObject *)0x0;
+  __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)_Var8.rgctx_data,MethodInfo_List_1_System_String);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_03,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
   __this_00 = (__this->fields).Events;
   if (__this_00 != (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)&stack0xffffffffffffff78,
-               (System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_T_Enumerator_Weather_WeatherEvent_GetEnumerator);
-    pWStack_58 = (Weather_WeatherEvent_o *)CONCAT44(in_stack_ffffffffffffff8c,in_stack_ffffffffffffff88);
-    pIStack_68 = (Il2CppClass *)CONCAT44(in_stack_ffffffffffffff7c,in_stack_ffffffffffffff78);
-    pIStack_60 = in_stack_ffffffffffffff80;
-    _Stack_50.rgctx_data = _Var8.rgctx_data;
-    while( true ) {
-      __this_02.fields._list._4_4_ = in_stack_ffffffffffffff7c;
-      __this_02.fields._list._0_4_ = in_stack_ffffffffffffff78;
-      __this_02.fields._8_8_ = in_stack_ffffffffffffff80;
-      __this_02.fields._current._0_4_ = in_stack_ffffffffffffff88;
-      __this_02.fields._current._4_4_ = in_stack_ffffffffffffff8c;
-      bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_02,(MethodInfo_321A1D0 *)&pIStack_68);
-      __this_08 = pWStack_58;
-      if ((char)bVar6 == '\0') {
-        __this_05.fields._list._4_4_ = in_stack_ffffffffffffff7c;
-        __this_05.fields._list._0_4_ = in_stack_ffffffffffffff78;
-        __this_05.fields._8_8_ = in_stack_ffffffffffffff80;
-        __this_05.fields._current._0_4_ = in_stack_ffffffffffffff88;
-        __this_05.fields._current._4_4_ = in_stack_ffffffffffffff8c;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_05,(MethodInfo_321A1C0 *)&pIStack_68);
-        goto label_04076704;
+    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_d8,
+               (System_Collections_Generic_List_T__o *)__this_00,
+               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_WeatherEvent_GetEnumerator);
+    local_a0 = (undefined1  [8])local_d8._0_8_;
+    puStack_98 = (undefined1 *)local_d8._8_8_;
+    local_90 = (Weather_WeatherEvent_o *)CONCAT44(uStack_c4,local_c8);
+    local_c0 = 0;
+    local_b8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0;
+    while (bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                             ((System_Collections_Generic_List_Enumerator_object__o *)local_a0,
+                              (MethodInfo_153A2A0 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_MoveNext),
+          __this_02 = local_90, bVar6) {
+      __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)__this_04,
+                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+      if (__this_02 == (Weather_WeatherEvent_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      __this_09 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-      System_Collections_Generic_List_object____ctor(__this_09,MethodInfo_List_1_System_String);
-      if (__this_08 == (Weather_WeatherEvent_o *)0x0) break;
-      in_stack_ffffffffffffff78 = (float)TypeInfo_WeatherAction;
-      in_stack_ffffffffffffff7c = (undefined4)((ulong)TypeInfo_WeatherAction >> 0x20);
-      in_stack_ffffffffffffff80 = (Il2CppType *)0xffffffffffffffff;
-      in_stack_ffffffffffffff88 = (__this_08->fields).Action;
-      pSVar9 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffff78,(MethodInfo *)0x0);
-      lVar5 = MethodInfo_Void_Add;
-      if (__this_09 == (System_Collections_Generic_List_object__o *)0x0) goto label_0407679a;
-      piVar1 = &(__this_09->fields)._version;
+      local_68.klass = (System_Enum_c *)TypeInfo_Weather_WeatherAction;
+      local_68.monitor = &g_data_ffffffffffffffff;
+      local_58 = (__this_02->fields).Action;
+      local_70 = __this_04;
+      pSVar8 = System_Enum__ToString(&local_68,(MethodInfo *)0x0);
+      pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+      if (__this_04 == (System_Collections_Generic_List_string__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      piVar1 = &(__this_04->fields)._version;
       *piVar1 = *piVar1 + 1;
-      method_00 = (__this_09->fields)._items;
-      if (method_00 == (System_Object_array *)0x0) goto label_0407679f;
-      uVar2 = (__this_09->fields)._size;
-      if (uVar2 < (uint)method_00->max_length) {
-        (__this_09->fields)._size = uVar2 + 1;
-        method_00->m_Items[(int)uVar2] = (Il2CppObject *)pSVar9;
-        il2cpp_runtime_helper_022b4080(method_00->m_Items + (int)uVar2);
+      pSVar3 = (__this_04->fields)._items;
+      if (pSVar3 == (System_String_array *)0x0) {
+        ThrowNullReferenceException();
+      }
+      uVar2 = (__this_04->fields)._size;
+      if (uVar2 < (uint)pSVar3->max_length) {
+        (__this_04->fields)._size = uVar2 + 1;
+        if ((uint)pSVar3->max_length <= uVar2) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar3->m_Items[(int)uVar2] = pSVar8;
+        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar8);
       }
       else {
-        method_00 = *(System_Object_array **)(*(long *)(lVar5 + 0x20) + 0xc0);
         System_Collections_Generic_List_object___AddWithResize
-                  (__this_09,(Il2CppObject *)pSVar9,(MethodInfo_362C220 *)method_00->m_Items[10]);
+                  ((System_Collections_Generic_List_object__o *)__this_04,(Il2CppObject *)pSVar8,
+                   (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
       }
-      if ((__this_08->fields).Effect != 0) {
-        in_stack_ffffffffffffff78 = (float)TypeInfo_WeatherEffect;
-        in_stack_ffffffffffffff7c = (undefined4)((ulong)TypeInfo_WeatherEffect >> 0x20);
-        in_stack_ffffffffffffff80 = (Il2CppType *)0xffffffffffffffff;
-        in_stack_ffffffffffffff88 = (__this_08->fields).Effect;
-        pSVar9 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffff78,(MethodInfo *)0x0);
-        lVar5 = MethodInfo_Void_Add;
-        piVar1 = &(__this_09->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        method_00 = (__this_09->fields)._items;
-        if (method_00 != (System_Object_array *)0x0) {
-          uVar2 = (__this_09->fields)._size;
-          if (uVar2 < (uint)method_00->max_length) {
-            (__this_09->fields)._size = uVar2 + 1;
-            method_00->m_Items[(int)uVar2] = (Il2CppObject *)pSVar9;
-            il2cpp_runtime_helper_022b4080(method_00->m_Items + (int)uVar2);
-          }
-          else {
-            method_00 = *(System_Object_array **)(*(long *)(lVar5 + 0x20) + 0xc0);
-            System_Collections_Generic_List_object___AddWithResize
-                      (__this_09,(Il2CppObject *)pSVar9,(MethodInfo_362C220 *)method_00->m_Items[10]);
-          }
-          goto label_040762cc;
+      if ((__this_02->fields).Effect != 0) {
+        local_d8._0_8_ = TypeInfo_Weather_WeatherEffect;
+        local_d8._8_8_ = &g_data_ffffffffffffffff;
+        local_c8 = (__this_02->fields).Effect;
+        System_Enum__ToString((System_Enum_o *)local_d8,(MethodInfo *)0x0);
+        il2cpp_runtime_helper_180012890(__this_04);
+      }
+      if ((__this_02->fields).ValueSelectType != 0) {
+        if ((__this_02->fields).Action != 0xf) {
+          local_d8._0_8_ = TypeInfo_Weather_WeatherValueSelectType;
+          local_d8._8_8_ = &g_data_ffffffffffffffff;
+          local_c8 = (__this_02->fields).ValueSelectType;
+          System_Enum__ToString((System_Enum_o *)local_d8,(MethodInfo *)0x0);
+          il2cpp_runtime_helper_180012890(__this_04);
         }
-        goto label_040767ae;
-      }
-label_040762cc:
-      iVar13 = (__this_08->fields).ValueSelectType;
-      if (iVar13 == 0) goto label_04076610;
-      if ((__this_08->fields).Action != 0xf) {
-        in_stack_ffffffffffffff78 = (float)TypeInfo_WeatherValueSelectType;
-        in_stack_ffffffffffffff7c = (undefined4)((ulong)TypeInfo_WeatherValueSelectType >> 0x20);
-        in_stack_ffffffffffffff80 = (Il2CppType *)0xffffffffffffffff;
-        pSVar9 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffff78,(MethodInfo *)0x0);
-        lVar5 = MethodInfo_Void_Add;
-        piVar1 = &(__this_09->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        method_00 = (__this_09->fields)._items;
-        in_stack_ffffffffffffff88 = iVar13;
-        if (method_00 != (System_Object_array *)0x0) {
-          uVar2 = (__this_09->fields)._size;
-          if (uVar2 < (uint)method_00->max_length) {
-            (__this_09->fields)._size = uVar2 + 1;
-            method_00->m_Items[(int)uVar2] = (Il2CppObject *)pSVar9;
-            il2cpp_runtime_helper_022b4080(method_00->m_Items + (int)uVar2,pSVar9);
-            in_stack_ffffffffffffff88 = iVar13;
+        index = 0;
+        if ((__this_02->fields).ValueSelectType == 3) {
+          while( true ) {
+            pSVar4 = (__this_02->fields).Values;
+            if (pSVar4 == (System_Collections_Generic_List_object__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            if ((pSVar4->fields)._size <= index) break;
+            iVar7 = Weather_WeatherEvent__GetValueType(__this_02,(MethodInfo *)0x0);
+            pSVar4 = (__this_02->fields).Values;
+            if (pSVar4 == (System_Collections_Generic_List_object__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            pIVar10 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                                (pSVar4,index,
+                                 (MethodInfo_92B830 *)
+                                 MethodInfo_System_Collections_Generic_List_object_get_Item);
+            __this_01 = (__this_02->fields).Weights;
+            if (__this_01 == (System_Collections_Generic_List_float__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            weight = System_Collections_Generic_List_float___get_Item
+                               (__this_01,index,
+                                (MethodInfo_983A20 *)MethodInfo_System_Collections_Generic_List_float_get_Item
+                               );
+            Weather_WeatherSchedule__SerializeRandomListValue(__this,iVar7,pIVar10,weight,(MethodInfo *)0x0);
+            il2cpp_runtime_helper_180012890(__this_04);
+            index = index + 1;
           }
-          else {
-            method_00 = *(System_Object_array **)(*(long *)(lVar5 + 0x20) + 0xc0);
-            System_Collections_Generic_List_object___AddWithResize
-                      (__this_09,(Il2CppObject *)pSVar9,(MethodInfo_362C220 *)method_00->m_Items[10]);
-            in_stack_ffffffffffffff88 = iVar13;
-          }
-          iVar13 = (__this_08->fields).ValueSelectType;
-          goto label_040763ad;
         }
-        goto label_040767b3;
-      }
-label_040763ad:
-      pSVar3 = (__this_08->fields).Values;
-      if (iVar13 != 3) {
-        if (pSVar3 != (System_Collections_Generic_List_object__o *)0x0) {
-          System_Collections_Generic_List_object___GetEnumerator
-                    ((System_Collections_Generic_List_Enumerator_T__o *)&stack0xffffffffffffff78,pSVar3,
-                     MethodInfo_List_1_T_Enumerator_System_Object_GetEnumerator);
-          pIStack_38 = (Il2CppObject *)CONCAT44(in_stack_ffffffffffffff8c,in_stack_ffffffffffffff88);
-          _Stack_48._4_4_ = in_stack_ffffffffffffff7c;
-          _Stack_48._0_4_ = in_stack_ffffffffffffff78;
-          pIStack_40 = in_stack_ffffffffffffff80;
-          while (__this_03.fields._list._4_4_ = in_stack_ffffffffffffff7c,
-                __this_03.fields._list._0_4_ = in_stack_ffffffffffffff78,
-                __this_03.fields._8_8_ = in_stack_ffffffffffffff80,
-                __this_03.fields._current._0_4_ = in_stack_ffffffffffffff88,
-                __this_03.fields._current._4_4_ = in_stack_ffffffffffffff8c,
-                bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                  (__this_03,(MethodInfo_321A1D0 *)&_Stack_48), pIVar10 = pIStack_38,
-                (char)bVar6 != '\0') {
-            iVar7 = Weather_WeatherEvent__GetValueType(__this_08,(MethodInfo *)0x0);
-            pSVar9 = Weather_WeatherSchedule__SerializeValue(__this,iVar7,pIVar10,(MethodInfo *)method_00);
-            lVar5 = MethodInfo_Void_Add;
-            piVar1 = &(__this_09->fields)._version;
-            *piVar1 = *piVar1 + 1;
-            method_00 = (__this_09->fields)._items;
-            if (method_00 == (System_Object_array *)0x0) {
-              il2cpp_runtime_helper_022b2c90();
-              goto label_04076795;
-            }
-            uVar2 = (__this_09->fields)._size;
-            if (uVar2 < (uint)method_00->max_length) {
-              (__this_09->fields)._size = uVar2 + 1;
-              method_00->m_Items[(int)uVar2] = (Il2CppObject *)pSVar9;
-              il2cpp_runtime_helper_022b4080(method_00->m_Items + (int)uVar2,pSVar9);
-            }
-            else {
-              method_00 = *(System_Object_array **)(*(long *)(lVar5 + 0x20) + 0xc0);
-              System_Collections_Generic_List_object___AddWithResize
-                        (__this_09,(Il2CppObject *)pSVar9,(MethodInfo_362C220 *)method_00->m_Items[10]);
-            }
+        else {
+          pSVar4 = (__this_02->fields).Values;
+          if (pSVar4 == (System_Collections_Generic_List_object__o *)0x0) {
+            ThrowNullReferenceException();
           }
-          unaff_RBP = 0;
-          __this_04.fields._list._4_4_ = in_stack_ffffffffffffff7c;
-          __this_04.fields._list._0_4_ = in_stack_ffffffffffffff78;
-          __this_04.fields._8_8_ = in_stack_ffffffffffffff80;
-          __this_04.fields._current._0_4_ = in_stack_ffffffffffffff88;
-          __this_04.fields._current._4_4_ = in_stack_ffffffffffffff8c;
+          System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                    ((System_Collections_Generic_List_Enumerator_T__o *)local_d8,
+                     (System_Collections_Generic_List_T__o *)pSVar4,
+                     (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_object_GetEnumerator);
+          local_88 = (undefined1  [8])local_d8._0_8_;
+          puStack_80 = (undefined1 *)local_d8._8_8_;
+          local_78 = (Il2CppObject *)CONCAT44(uStack_c4,local_c8);
+          local_b0 = 0;
+          local_a8 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_88;
+          while (bVar6 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                   ((System_Collections_Generic_List_Enumerator_object__o *)local_88,
+                                    (MethodInfo_153A2A0 *)
+                                    MethodInfo_System_Collections_Generic_List_Enumerator_object_MoveNext),
+                pIVar10 = local_78, bVar6) {
+            iVar7 = Weather_WeatherEvent__GetValueType(__this_02,(MethodInfo *)0x0);
+            pSVar8 = Weather_WeatherSchedule__SerializeValue(__this,iVar7,pIVar10,(MethodInfo *)0x0);
+            il2cpp_runtime_helper_180012890(__this_04,pSVar8);
+          }
           System_Collections_Generic_List_Enumerator_object___Dispose
-                    (__this_04,(MethodInfo_321A1C0 *)&_Stack_48);
-          goto label_04076610;
+                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_88,
+                     MethodInfo_System_Collections_Generic_List_Enumerator_object_Dispose);
         }
-        goto label_040767c0;
       }
-      if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) {
-label_04076781:
-        il2cpp_runtime_helper_022b2c90();
-label_04076786:
-        il2cpp_runtime_helper_022b2c90();
-label_0407678b:
-        il2cpp_runtime_helper_022b2c90();
-label_04076790:
-        il2cpp_runtime_helper_022b2c90();
-        break;
+      pUVar9 = System_Collections_Generic_List_object___ToArray
+                         ((System_Collections_Generic_List_T__o *)__this_04,
+                          (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+      pSVar8 = System_String__Join(",",(System_String_array *)pUVar9,(MethodInfo *)0x0);
+      if (__this_03 == (System_Collections_Generic_List_string__o *)0x0) {
+        ThrowNullReferenceException();
       }
-      unaff_RBP = 0;
-      if (0 < (pSVar3->fields)._size) {
-        do {
-          iVar7 = Weather_WeatherEvent__GetValueType(__this_08,(MethodInfo *)0x0);
-          pSVar3 = (__this_08->fields).Values;
-          if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_04076790;
-          iVar13 = (int)unaff_RBP;
-          pIVar10 = System_Collections_Generic_List_object___get_Item(pSVar3,iVar13,MethodInfo_Object_get_Item);
-          __this_01 = (__this_08->fields).Weights;
-          if (__this_01 == (System_Collections_Generic_List_float__o *)0x0) goto label_0407678b;
-          in_stack_ffffffffffffff78 =
-               System_Collections_Generic_List_float___get_Item(__this_01,iVar13,MethodInfo_Single_get_Item);
-          if (g_data_057ac324 == '\0') {
-            il2cpp_runtime_helper_023445d0(&"-");
-            g_data_057ac324 = '\x01';
-          }
-          pSVar9 = Weather_WeatherSchedule__SerializeValue(__this,iVar7,pIVar10,(MethodInfo *)method_00);
-          str2 = System_Single__ToString(__this_10,(MethodInfo *)&stack0xffffffffffffff78);
-          pSVar9 = System_String__Concat_3af7150(pSVar9,"-",str2,(MethodInfo *)0x0);
-          lVar5 = MethodInfo_Void_Add;
-          piVar1 = &(__this_09->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          method_00 = (__this_09->fields)._items;
-          if (method_00 == (System_Object_array *)0x0) goto label_04076786;
-          uVar2 = (__this_09->fields)._size;
-          if (uVar2 < (uint)method_00->max_length) {
-            (__this_09->fields)._size = uVar2 + 1;
-            method_00->m_Items[(int)uVar2] = (Il2CppObject *)pSVar9;
-            il2cpp_runtime_helper_022b4080(method_00->m_Items + (int)uVar2,pSVar9);
-          }
-          else {
-            method_00 = *(System_Object_array **)(*(long *)(lVar5 + 0x20) + 0xc0);
-            System_Collections_Generic_List_object___AddWithResize
-                      (__this_09,(Il2CppObject *)pSVar9,(MethodInfo_362C220 *)method_00->m_Items[10]);
-          }
-          unaff_RBP = (ulong)(iVar13 + 1U);
-          pSVar3 = (__this_08->fields).Values;
-          if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_04076781;
-        } while ((int)(iVar13 + 1U) < (pSVar3->fields)._size);
-      }
-label_04076610:
-      pSVar11 = (System_String_array *)
-                System_Collections_Generic_List_object___ToArray(__this_09,MethodInfo_String_ToArray);
-      _Var8 = _Stack_50;
-      item = (Il2CppClass *)System_String__Join(",",pSVar11,(MethodInfo *)0x0);
-      lVar5 = MethodInfo_Void_Add;
-      if (_Var8.rgctx_data == (Il2CppRGCTXData *)0x0) goto label_040767a4;
-      *(int32_t *)((long)_Var8.rgctx_data + 0x1c) = *(int32_t *)((long)_Var8.rgctx_data + 0x1c) + 1;
-      pMVar4 = _Var8.rgctx_data[2].method;
-      if (pMVar4 == (MethodInfo *)0x0) goto label_040767a9;
-      uVar2 = *(uint *)(_Var8.rgctx_data + 3);
-      if (uVar2 < *(uint *)&pMVar4->name) {
-        *(uint *)(_Var8.rgctx_data + 3) = uVar2 + 1;
-        (&pMVar4->klass)[(int)uVar2] = item;
-        il2cpp_runtime_helper_022b4080(&pMVar4->klass + (int)uVar2,item);
-      }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)_Var8.rgctx_data,(Il2CppObject *)item,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
-      }
+      il2cpp_runtime_helper_180012890(__this_03,pSVar8);
     }
-label_04076795:
-    il2cpp_runtime_helper_022b2c90();
-label_0407679a:
-    il2cpp_runtime_helper_022b2c90();
-label_0407679f:
-    il2cpp_runtime_helper_022b2c90();
-label_040767a4:
-    il2cpp_runtime_helper_022b2c90();
-label_040767a9:
-    il2cpp_runtime_helper_022b2c90();
-label_040767ae:
-    il2cpp_runtime_helper_022b2c90();
-label_040767b3:
-    il2cpp_runtime_helper_022b2c90();
-    il2cpp_runtime_helper_022fefe0(unaff_RBP);
-label_040767c0:
-    il2cpp_runtime_helper_022b2c90();
+    System_Collections_Generic_List_Enumerator_object___Dispose
+              (local_b8,MethodInfo_System_Collections_Generic_List_Enumerator_WeatherEvent_Dispose);
+    if (__this_03 != (System_Collections_Generic_List_string__o *)0x0) {
+      pUVar9 = System_Collections_Generic_List_object___ToArray
+                         ((System_Collections_Generic_List_T__o *)__this_03,
+                          (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+      pSVar8 = System_String__Join(";\n",(System_String_array *)pUVar9,(MethodInfo *)0x0);
+      return pSVar8;
+    }
   }
-  do {
-    auVar14 = il2cpp_runtime_helper_022b2c90();
-    if (auVar14._8_4_ != 1) {
-label_04076844:
-      __this_07.fields._list._4_4_ = in_stack_ffffffffffffff7c;
-      __this_07.fields._list._0_4_ = in_stack_ffffffffffffff78;
-      __this_07.fields._8_8_ = in_stack_ffffffffffffff80;
-      __this_07.fields._current._0_4_ = in_stack_ffffffffffffff88;
-      __this_07.fields._current._4_4_ = in_stack_ffffffffffffff8c;
-      System_Collections_Generic_List_Enumerator_object___Dispose(__this_07,(MethodInfo_321A1C0 *)&pIStack_68)
-      ;
-      _Unwind_Resume(auVar14._0_8_);
-    }
-    plVar12 = (long *)__cxa_begin_catch(auVar14._0_8_);
-    lVar5 = *plVar12;
-    __cxa_end_catch();
-    __this_06.fields._list._4_4_ = in_stack_ffffffffffffff7c;
-    __this_06.fields._list._0_4_ = in_stack_ffffffffffffff78;
-    __this_06.fields._8_8_ = in_stack_ffffffffffffff80;
-    __this_06.fields._current._0_4_ = in_stack_ffffffffffffff88;
-    __this_06.fields._current._4_4_ = in_stack_ffffffffffffff8c;
-    System_Collections_Generic_List_Enumerator_object___Dispose(__this_06,(MethodInfo_321A1C0 *)&pIStack_68);
-    if (lVar5 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar5);
-      goto label_04076844;
-    }
-label_04076704:
-    if (_Stack_50.rgctx_data != (Il2CppRGCTXData *)0x0) {
-      pSVar11 = (System_String_array *)
-                System_Collections_Generic_List_object___ToArray
-                          ((System_Collections_Generic_List_object__o *)_Stack_50.rgctx_data,MethodInfo_String_ToArray);
-      pSVar9 = System_String__Join(";\n",pSVar11,(MethodInfo *)0x0);
-      return pSVar9;
-    }
-  } while( true );
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$DeserializeFromCSV
 // il2cpp: System_String_o* Weather_WeatherSchedule__DeserializeFromCSV (Weather_WeatherSchedule_o* __this, System_String_o* csv, const MethodInfo* method);
-// 0x4075c50
+// 0x181dd3890
+// eh: try 0x181dd3950..0x181dd3aac -> pad 0x183331bd0 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 49 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dd3a20: nop 
+// asm:   0x181dd3a28: mov eax, dword ptr [rsp + 0x70]
+// asm:   0x181dd3a2c: mov dword ptr [rsp + 0x70], eax
+// asm:   0x181dd3a30: lea rdx, [rsp + 0x70]
+// asm:   0x181dd3a35: mov rcx, qword ptr [rip + 0x25813cc]
+// asm:   0x181dd3a3c: call 0x180416160  ; il2cpp_value_box()
+// asm:   0x181dd3a41: mov rbx, rax
+// asm:   0x181dd3a44: lea rcx, [rip + 0x22d11bd]  ; "Import failed at line {0}"
+// asm:   0x181dd3a4b: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x181dd3a50: mov rcx, rax
+// asm:   0x181dd3a53: xor r8d, r8d
+// asm:   0x181dd3a56: mov rdx, rbx
+// asm:   0x181dd3a59: call 0x18196d190  ; System_String__Format()
+// asm:   0x181dd3a5e: add rsp, 0x38
+// asm:   0x181dd3a62: pop r15
+// asm:   0x181dd3a64: pop r14
+// asm:   0x181dd3a66: pop r12
+// asm:   0x181dd3a68: pop rdi
+// asm:   0x181dd3a69: pop rsi
+// asm:   0x181dd3a6a: pop rbx
+// asm:   0x181dd3a6b: ret 
+// asm:   0x183331bd0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183331bd5: push rbx
+// asm:   0x183331bd6: push rbp
+// asm:   0x183331bd7: push rdi
+// asm:   0x183331bd8: sub rsp, 0x20
+// asm:   0x183331bdc: mov rbp, rdx
+// asm:   0x183331bdf: mov rdi, qword ptr [rbp + 0x28]
+// asm:   0x183331be3: mov rax, qword ptr [rdi]
+// asm:   0x183331be6: mov rbx, qword ptr [rax]
+// asm:   0x183331be9: lea rcx, [rip + 0xd47368]  ; TypeInfo_System_Exception
+// asm:   0x183331bf0: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183331bf5: mov rcx, rax
+// asm:   0x183331bf8: mov rdx, rbx
+// asm:   0x183331bfb: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183331c00: test al, al
+// asm:   0x183331c02: je 0x183331c10
+// asm:   0x183331c04: movabs rax, 0
+// asm:   0x183331c0e: jmp 0x183331c28
+// asm:   0x183331c10: mov rax, qword ptr [rdi]
+// asm:   0x183331c13: mov qword ptr [rbp + 0x20], rax
+// asm:   0x183331c17: lea rdx, [rip + 0xcaa36a]
+// asm:   0x183331c1e: lea rcx, [rbp + 0x20]
+// asm:   0x183331c22: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183331c28: add rsp, 0x20
+// asm:   0x183331c2c: pop rdi
+// asm:   0x183331c2d: pop rbp
+// asm:   0x183331c2e: pop rbx
+// asm:   0x183331c2f: ret 
 
 System_String_o *
 Weather_WeatherSchedule__DeserializeFromCSV
@@ -442,138 +400,83 @@ Weather_WeatherSchedule__DeserializeFromCSV
 
 {
   int32_t *piVar1;
-  int iVar2;
-  uint uVar3;
-  System_Collections_Generic_List_WeatherEvent__o *pSVar4;
-  Weather_WeatherEvent_array *pWVar5;
-  long lVar6;
-  char cVar7;
-  bool_conflict bVar8;
-  System_String_array *pSVar9;
-  System_String_array *pSVar10;
-  Weather_WeatherEvent_o *item;
-  undefined8 *puVar11;
-  undefined8 uVar12;
-  Il2CppObject *arg0;
-  System_String_o *pSVar13;
-  undefined8 *puVar14;
-  MethodInfo *method_00;
-  uint uVar15;
-  int unaff_R13D;
-  undefined1 auVar16 [12];
-  int local_3c;
-  Weather_WeatherSchedule_o *local_38;
+  int length;
+  System_Collections_Generic_List_WeatherEvent__o *pSVar2;
+  bool bVar3;
+  System_String_array *pSVar4;
+  System_String_o *a;
+  System_String_array *pSVar5;
+  uint uVar6;
   
-  local_38 = __this;
-  if (g_data_057ac322 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&"//");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ac322 = '\x01';
+  if (Il2CppMethodInitialized_184344952 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEvent_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_WeatherEvent_Clear)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&"//");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184344952 = '\x01';
   }
-  pSVar4 = (local_38->fields).Events;
-  if (pSVar4 != (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
-    piVar1 = &(pSVar4->fields)._version;
+  pSVar2 = (__this->fields).Events;
+  if (pSVar2 != (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
+    piVar1 = &(pSVar2->fields)._version;
     *piVar1 = *piVar1 + 1;
-    iVar2 = (pSVar4->fields)._size;
-    (pSVar4->fields)._size = 0;
-    if (0 < iVar2) {
-      System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar2,(MethodInfo *)0x0);
+    length = (pSVar2->fields)._size;
+    (pSVar2->fields)._size = 0;
+    if (0 < length) {
+      System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
     }
-    if ((csv != (System_String_o *)0x0) &&
-       (pSVar9 = System_String__Split(csv,0x3b,0,(MethodInfo *)0x0), pSVar9 != (System_String_array *)0x0)) {
-      iVar2 = (int)pSVar9->max_length;
-      if (iVar2 < 1) {
-        return "";
-      }
-      unaff_R13D = 1;
-      uVar15 = 0;
-      if (iVar2 != 0) {
-        do {
-          if (pSVar9->m_Items[(int)uVar15] == (System_String_o *)0x0) goto label_04075e82;
-          pSVar13 = System_String__Trim(pSVar9->m_Items[(int)uVar15],(MethodInfo *)0x0);
-          if ((uint)pSVar9->max_length <= uVar15) goto label_04075e7d;
-          if (pSVar9->m_Items[(int)uVar15] == (System_String_o *)0x0) goto label_04075e87;
-          pSVar10 = System_String__Split(pSVar9->m_Items[(int)uVar15],10,0,(MethodInfo *)0x0);
-          if (pSVar10 == (System_String_array *)0x0) goto label_04075e8c;
-          unaff_R13D = (int)pSVar10->max_length + unaff_R13D + -1;
-          bVar8 = System_String__op_Inequality
-                            (pSVar13,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
-                             (MethodInfo *)0x0);
-          if ((char)bVar8 != '\0') {
-            if (pSVar13 == (System_String_o *)0x0) goto label_04075e91;
-            bVar8 = System_String__StartsWith(pSVar13,_DAT_055be878,(MethodInfo *)0x0);
-            if ((char)bVar8 == '\0') {
-              pSVar4 = (local_38->fields).Events;
-              item = Weather_WeatherSchedule__DeserializeLine(local_38,pSVar13,method_00);
-              lVar6 = MethodInfo_Void_Add;
-              if (pSVar4 == (System_Collections_Generic_List_WeatherEvent__o *)0x0) goto label_04075e96;
-              piVar1 = &(pSVar4->fields)._version;
-              *piVar1 = *piVar1 + 1;
-              pWVar5 = (pSVar4->fields)._items;
-              if (pWVar5 == (Weather_WeatherEvent_array *)0x0) goto label_04075e9b;
-              uVar3 = (pSVar4->fields)._size;
-              if (uVar3 < (uint)pWVar5->max_length) {
-                (pSVar4->fields)._size = uVar3 + 1;
-                pWVar5->m_Items[(int)uVar3] = item;
-                il2cpp_runtime_helper_022b4080(pWVar5->m_Items + (int)uVar3);
-              }
-              else {
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)item,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-              }
-            }
-          }
-          uVar15 = uVar15 + 1;
-          uVar3 = (uint)pSVar9->max_length;
-          if ((int)uVar3 <= (int)uVar15) {
+    if (csv != (System_String_o *)0x0) {
+      pSVar4 = System_String__Split(csv,0x3b,0,(MethodInfo *)0x0);
+      if (pSVar4 != (System_String_array *)0x0) {
+        uVar6 = 0;
+        while( true ) {
+          if ((int)pSVar4->max_length <= (int)uVar6) {
             return "";
           }
-        } while (uVar15 < uVar3);
+          if ((uint)pSVar4->max_length <= uVar6) {
+            ThrowIndexOutOfRangeException();
+          }
+          if (pSVar4->m_Items[(int)uVar6] == (System_String_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          a = System_String__Trim(pSVar4->m_Items[(int)uVar6],(MethodInfo *)0x0);
+          if ((uint)pSVar4->max_length <= uVar6) break;
+          if (pSVar4->m_Items[(int)uVar6] == (System_String_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar5 = System_String__Split(pSVar4->m_Items[(int)uVar6],10,0,(MethodInfo *)0x0);
+          if (pSVar5 == (System_String_array *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar3 = System_String__op_Inequality
+                            (a,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0);
+          if (bVar3) {
+            if (a == (System_String_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            bVar3 = System_String__StartsWith(a,"//",(MethodInfo *)0x0);
+            if (!bVar3) {
+              pSVar2 = (__this->fields).Events;
+              Weather_WeatherSchedule__DeserializeLine(__this,a,(MethodInfo *)0x0);
+              if (pSVar2 == (System_Collections_Generic_List_WeatherEvent__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              il2cpp_runtime_helper_180012890(pSVar2);
+            }
+          }
+          uVar6 = uVar6 + 1;
+        }
+        ThrowIndexOutOfRangeException();
       }
-      il2cpp_runtime_helper_022b2ca0();
-label_04075e7d:
-      il2cpp_runtime_helper_022b2ca0();
-label_04075e82:
-      il2cpp_runtime_helper_022b2c90();
-label_04075e87:
-      il2cpp_runtime_helper_022b2c90();
-label_04075e8c:
-      il2cpp_runtime_helper_022b2c90();
-label_04075e91:
-      il2cpp_runtime_helper_022b2c90();
-label_04075e96:
-      il2cpp_runtime_helper_022b2c90();
-label_04075e9b:
-      il2cpp_runtime_helper_022b2c90();
     }
   }
-  auVar16 = il2cpp_runtime_helper_022b2c90();
-  if (auVar16._8_4_ != 1) {
-    _Unwind_Resume(auVar16._0_8_);
-  }
-  puVar11 = (undefined8 *)__cxa_begin_catch(auVar16._0_8_);
-  uVar12 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  cVar7 = il2cpp_runtime_helper_0233e000(uVar12,*(undefined8 *)*puVar11);
-  if (cVar7 != '\0') {
-    __cxa_end_catch();
-    local_3c = unaff_R13D;
-    arg0 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&local_3c);
-    pSVar13 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Import failed at line {0}");
-    pSVar13 = System_String__Format(pSVar13,arg0,(MethodInfo *)0x0);
-    return pSVar13;
-  }
-  puVar14 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar14 = *puVar11;
-  __cxa_throw(puVar14,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$SerializeValue
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeValue (Weather_WeatherSchedule_o* __this, int32_t type, Il2CppObject* value, const MethodInfo* method);
-// 0x40768f0
+// 0x181dd4a80
 
 System_String_o *
 Weather_WeatherSchedule__SerializeValue
@@ -582,527 +485,173 @@ Weather_WeatherSchedule__SerializeValue
 {
   float fVar1;
   float fVar2;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar3;
-  System_Object_array *pSVar4;
-  System_Single_array *pSVar5;
-  uint uVar6;
-  int32_t iVar7;
-  bool_conflict bVar8;
-  int iVar9;
-  undefined4 uVar10;
-  undefined4 *puVar11;
-  byte *pbVar12;
-  UnityEngine_Color_Fields *pUVar13;
-  int32_t *piVar14;
-  UnityEngine_Vector3_Fields *pUVar15;
-  Weather_WeatherEvent_o *__this_00;
-  System_String_array *pSVar16;
-  Il2CppObject *pIVar17;
-  System_String_array *pSVar18;
-  System_String_o *pSVar19;
-  MethodInfo *method_00;
-  MethodInfo *pMVar20;
-  undefined8 *puVar21;
-  System_Collections_Generic_List_object__o *__this_01;
-  uint uVar22;
-  long lVar23;
-  undefined4 in_register_00000034;
-  Il2CppClass *method_01;
-  Il2CppClass *oldValue;
-  MethodInfo_36649C0 *method_02;
-  System_Collections_Generic_List_float__o *__this_02;
-  float __this_03;
-  float __this_04;
-  float extraout_XMM0_Da;
-  undefined4 in_XMM1_Da;
-  float in_XMM1_Db;
-  uint32_t in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  undefined8 uStack_f8;
-  undefined1 auStack_e8 [8];
-  float afStack_e0 [2];
-  System_String_array *pSStack_d8;
-  Weather_WeatherSchedule_o *pWStack_d0;
-  int iStack_bc;
-  undefined8 uStack_b8;
-  _union_14 _Stack_a8;
-  _union_14 _Stack_a0;
-  Il2CppType *pIStack_98;
-  float fStack_88;
-  float fStack_84;
-  uint32_t uStack_80;
-  uint16_t uStack_7c;
-  uint16_t uStack_7a;
-  System_Collections_Generic_List_object__o *pSStack_70;
-  Weather_WeatherSchedule_o *pWStack_68;
-  System_String_o *pSStack_60;
-  undefined8 *puStack_58;
-  int32_t local_20;
-  undefined4 local_1c;
+  float fVar3;
+  float fVar4;
+  int32_t *piVar5;
+  System_String_o *pSVar6;
+  float *pfVar7;
+  void *pvVar8;
+  undefined8 *puVar9;
+  System_String_array *value_00;
+  int32_t local_res10 [6];
+  float local_78;
+  int local_74 [3];
+  undefined8 local_68;
+  float local_60 [22];
   
-  method_01 = (Il2CppClass *)CONCAT44(in_register_00000034,type);
-  if (g_data_057ac323 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Convert);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-    il2cpp_runtime_helper_023445d0(&";");
-    il2cpp_runtime_helper_023445d0(&",");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ac323 = '\x01';
+  if (Il2CppMethodInitialized_184344953 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Color);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Convert);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    il2cpp_codegen_initialize_runtime_metadata(&";");
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184344953 = '\x01';
   }
-  local_1c = 0;
-  local_20 = 0;
-  puVar21 = (undefined8 *)(ulong)(type - 1);
-  pSVar19 = "";
-  oldValue = ",";
-  switch(puVar21) {
-  case (undefined8 *)0x0:
-    if (value != (Il2CppObject *)0x0) {
-      method_01 = g_data_057b9be8;
-      if ((value->klass->_1).element_class != (g_data_057b9be8->_1).element_class) goto label_04076b78;
-      puVar11 = (undefined4 *)il2cpp_runtime_helper_02305440(value);
-      local_1c = *puVar11;
-      method_01 = (Il2CppClass *)0x0;
-      pSVar19 = System_Single__ToString(__this_03,(MethodInfo *)&stack0xffffffffffffffe4);
-      oldValue = ",";
-      break;
+  local_78 = 0.0;
+  local_res10[0] = 0;
+  pSVar6 = "";
+  switch(type) {
+  case 1:
+    if (value == (Il2CppObject *)0x0) goto label_181dd4f7d;
+    if ((value->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e38 + 0x40)) {
+      il2cpp_codegen_raise_invalid_cast_exception();
     }
-    goto label_04076b73;
-  case (undefined8 *)0x1:
-    if (value == (Il2CppObject *)0x0) goto label_04076b73;
-    method_01 = g_data_057b9bb8;
-    if ((value->klass->_1).element_class != (g_data_057b9bb8->_1).element_class) goto label_04076b78;
-    piVar14 = (int32_t *)il2cpp_runtime_helper_02305440(value);
-    local_20 = *piVar14;
-label_04076ab0:
-    method_01 = (Il2CppClass *)0x0;
-    pSVar19 = System_Int32__ToString((int32_t)&local_20,(MethodInfo *)0x0);
-    oldValue = ",";
+    pfVar7 = il2cpp_object_unbox(value);
+    local_78 = *pfVar7;
+    pSVar6 = System_Single__ToString(&local_78,(MethodInfo *)0x0);
     break;
-  case (undefined8 *)0x2:
-    pSVar19 = (System_String_o *)value;
-    if ((value == (Il2CppObject *)0x0) || (method_01 = g_data_057b9c00, value->klass == g_data_057b9c00)) break;
-    goto label_04076b78;
-  case (undefined8 *)0x3:
-    if (value == (Il2CppObject *)0x0) goto label_04076b73;
-    method_01 = TypeInfo_Color;
-    if ((value->klass->_1).element_class != (TypeInfo_Color->_1).element_class) goto label_04076b78;
-    pUVar13 = (UnityEngine_Color_Fields *)il2cpp_runtime_helper_02305440(value);
-    fVar1 = pUVar13->b;
-    fVar2 = pUVar13->a;
-    in_XMM1_Dc = 0;
-    in_XMM1_Dd._0_2_ = 0;
-    in_XMM1_Dd._2_2_ = 0;
-    pSVar19 = Weather_WeatherSchedule__SerializeColor
-                        (__this,(UnityEngine_Color_o)*pUVar13,(MethodInfo *)method_01);
-    in_XMM1_Da = fVar1;
-    in_XMM1_Db = fVar2;
-    oldValue = ",";
+  case 2:
+    if (value == (Il2CppObject *)0x0) goto label_181dd4f7d;
+    if ((value->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
+      il2cpp_codegen_raise_invalid_cast_exception();
+    }
+    piVar5 = il2cpp_object_unbox(value);
+    local_res10[0] = *piVar5;
+    goto label_181dd4bbb;
+  case 3:
+    pSVar6 = (System_String_o *)0x0;
+    if (value == (Il2CppObject *)0x0) break;
+    if (value->klass == g_data_184354e50) {
+      pSVar6 = (System_String_o *)value;
+    }
+    if (pSVar6 == (System_String_o *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(value);
+    }
+    goto label_181dd4bd6;
+  case 4:
+    if (value == (Il2CppObject *)0x0) goto label_181dd4f7d;
+    if ((value->klass->_1).element_class != (TypeInfo_UnityEngine_Color->_1).element_class) {
+      il2cpp_codegen_raise_invalid_cast_exception();
+    }
+    pfVar7 = il2cpp_object_unbox(value);
+    fVar1 = *pfVar7;
+    fVar2 = pfVar7[1];
+    fVar3 = pfVar7[2];
+    fVar4 = pfVar7[3];
+    if (Il2CppMethodInitialized_184344955 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+      il2cpp_codegen_initialize_runtime_metadata(&"-");
+      Il2CppMethodInitialized_184344955 = '\x01';
+    }
+    value_00 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+    local_74[0] = (int)(fVar1 * 255.0);
+    pSVar6 = System_Int32__ToString(local_74,(MethodInfo *)0x0);
+    if (value_00 == (System_String_array *)0x0) goto label_181dd4f7d;
+    if ((int)value_00->max_length == 0) {
+label_181dd4f98:
+      ThrowIndexOutOfRangeException();
+    }
+    value_00->m_Items[0] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items,pSVar6);
+    local_74[0] = (int)(fVar2 * 255.0);
+    pSVar6 = System_Int32__ToString(local_74,(MethodInfo *)0x0);
+    if ((uint)value_00->max_length < 2) goto label_181dd4f98;
+    value_00->m_Items[1] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items + 1,pSVar6);
+    local_74[0] = (int)(fVar3 * 255.0);
+    pSVar6 = System_Int32__ToString(local_74,(MethodInfo *)0x0);
+    if ((uint)value_00->max_length < 3) goto label_181dd4f98;
+    value_00->m_Items[2] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items + 2,pSVar6);
+    local_74[0] = (int)(fVar4 * 255.0);
+    pSVar6 = System_Int32__ToString(local_74,(MethodInfo *)0x0);
+    if ((uint)value_00->max_length < 4) goto label_181dd4f98;
+    value_00->m_Items[3] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items + 3,pSVar6);
+    if (((fVar4 != 1.0) || (fVar1 != fVar2)) || (fVar1 != fVar3)) goto label_181dd4f66;
+    if ((int)value_00->max_length == 0) goto label_181dd4f98;
+    pSVar6 = value_00->m_Items[0];
     break;
-  case (undefined8 *)0x4:
-    if (*(int *)(TypeInfo_Convert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  case 5:
+    if ((TypeInfo_System_Convert->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Convert);
     }
-    if (value == (Il2CppObject *)0x0) goto label_04076b73;
-    method_01 = g_data_057b9b98;
-    if ((value->klass->_1).element_class == (g_data_057b9b98->_1).element_class) {
-      pbVar12 = (byte *)il2cpp_runtime_helper_02305440(value);
-      local_20 = System_Convert__ToInt32_3c15f90((uint)*pbVar12,(MethodInfo *)0x0);
-      goto label_04076ab0;
+    if (value == (Il2CppObject *)0x0) goto label_181dd4f7d;
+    if ((value->klass->_1).element_class != *(Il2CppClass **)(g_data_184354de8 + 0x40)) {
+      il2cpp_codegen_raise_invalid_cast_exception();
     }
-    goto label_04076b78;
-  case (undefined8 *)0x5:
-    if (value == (Il2CppObject *)0x0) goto label_04076b73;
-    method_01 = TypeInfo_Vector3;
-    if ((value->klass->_1).element_class != (TypeInfo_Vector3->_1).element_class) goto label_04076b78;
-    pUVar15 = (UnityEngine_Vector3_Fields *)il2cpp_runtime_helper_02305440();
-    in_XMM1_Da = pUVar15->z;
-    in_XMM1_Db = 0.0;
-    in_XMM1_Dc = 0;
-    in_XMM1_Dd._0_2_ = 0;
-    in_XMM1_Dd._2_2_ = 0;
-    pSVar19 = Weather_WeatherSchedule__SerializeVector3
-                        ((Weather_WeatherSchedule_o *)value,(UnityEngine_Vector3_o)*pUVar15,
-                         (MethodInfo *)method_01);
-    oldValue = ",";
+    pvVar8 = il2cpp_object_unbox(value);
+    local_res10[0] = Unity_Collections_Bitwise__FromBool(*(bool *)pvVar8,(MethodInfo *)0x0);
+label_181dd4bbb:
+    pSVar6 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+    break;
+  case 6:
+    if (value == (Il2CppObject *)0x0) {
+label_181dd4fb6:
+      ThrowNullReferenceException();
+    }
+    if ((value->klass->_1).element_class != (TypeInfo_UnityEngine_Vector3->_1).element_class) {
+      il2cpp_codegen_raise_invalid_cast_exception();
+    }
+    puVar9 = il2cpp_object_unbox(value);
+    local_68 = *puVar9;
+    local_60[0] = *(float *)(puVar9 + 1);
+    if (Il2CppMethodInitialized_184344956 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+      il2cpp_codegen_initialize_runtime_metadata(&"-");
+      Il2CppMethodInitialized_184344956 = '\x01';
+    }
+    value_00 = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
+    pSVar6 = System_Single__ToString((float *)&local_68,(MethodInfo *)0x0);
+    if (value_00 == (System_String_array *)0x0) goto label_181dd4fb6;
+    if ((int)value_00->max_length == 0) {
+label_181dd4faa:
+      ThrowIndexOutOfRangeException();
+    }
+    value_00->m_Items[0] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items,pSVar6);
+    pSVar6 = System_Single__ToString((float *)((longlong)&local_68 + 4),(MethodInfo *)0x0);
+    if ((uint)value_00->max_length < 2) goto label_181dd4faa;
+    value_00->m_Items[1] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items + 1,pSVar6);
+    pSVar6 = System_Single__ToString(local_60,(MethodInfo *)0x0);
+    if ((uint)value_00->max_length < 3) goto label_181dd4faa;
+    value_00->m_Items[2] = pSVar6;
+    Il2CppCodeGenWriteBarrier(value_00->m_Items + 2,pSVar6);
+label_181dd4f66:
+    pSVar6 = System_String__Join("-",value_00,(MethodInfo *)0x0);
   }
-  value = (Il2CppObject *)pSVar19;
-  "," = oldValue;
-  if ((System_String_o *)value != (System_String_o *)0x0) {
-    puVar21 = &g_data_057b9b70;
-    pSVar19 = System_String__Replace_3af9030
-                        ((System_String_o *)value,(System_String_o *)oldValue,
-                         *(System_String_o **)g_data_057b9c00->static_fields,(MethodInfo *)0x0);
-    method_01 = oldValue;
-    if (pSVar19 != (System_String_o *)0x0) {
-      pSVar19 = System_String__Replace_3af9030
-                          (pSVar19,";",*(System_String_o **)g_data_057b9c00->static_fields,
-                           (MethodInfo *)0x0);
-      return pSVar19;
-    }
-  }
-label_04076b73:
-  il2cpp_runtime_helper_022b2c90();
-label_04076b78:
-  pSStack_60 = (System_String_o *)il2cpp_runtime_helper_022b2fd0();
-  puStack_58 = puVar21;
-  if (g_data_057ac327 == '\0') {
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076ba6;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherEffect_get_Item);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076bb2;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherAction_get_Item);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076bbe;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherValueSelectType_get_Item);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076bca;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076bd6;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076be2;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherEvent);
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076bee;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherSchedule);
-    g_data_057ac327 = '\x01';
-  }
-  pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c04;
-  __this_00 = (Weather_WeatherEvent_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WeatherEvent);
-  pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c11;
-  Weather_WeatherEvent___ctor(__this_00,(MethodInfo *)0x0);
-  __this_01 = (System_Collections_Generic_List_object__o *)0x0;
-  if (method_01 != (Il2CppClass *)0x0) {
-    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c2b;
-    pSVar16 = System_String__Split((System_String_o *)method_01,0x2c,0,(MethodInfo *)0x0);
-    __this_01 = (System_Collections_Generic_List_object__o *)&TypeInfo_WeatherSchedule;
-    if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-      pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c46;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (pSVar16 != (System_String_array *)0x0) {
-      if ((int)pSVar16->max_length == 0) goto label_0407704e;
-      if ((System_Collections_Generic_Dictionary_TKey__TValue__o *)**(undefined8 **)(TypeInfo_WeatherSchedule + 0xb8) !=
-          (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
-        pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c85;
-        iVar7 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)
-                           **(undefined8 **)(TypeInfo_WeatherSchedule + 0xb8),(Il2CppObject *)pSVar16->m_Items[0],
-                           MethodInfo_WeatherAction_get_Item);
-        if (__this_00 != (Weather_WeatherEvent_o *)0x0) {
-          (__this_00->fields).Action = iVar7;
-          pWStack_68 = (Weather_WeatherSchedule_o *)0x4076c9c;
-          bVar8 = Weather_WeatherEvent__SupportsWeatherEffects(__this_00,(MethodInfo *)0x0);
-          lVar23 = 1;
-          if ((char)bVar8 != '\0') {
-            if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-              pWStack_68 = (Weather_WeatherSchedule_o *)0x4076cb6;
-              il2cpp_runtime_helper_02337ed0();
-            }
-            if ((uint)pSVar16->max_length < 2) goto label_0407704e;
-            pSVar3 = *(System_Collections_Generic_Dictionary_TKey__TValue__o **)
-                      (*(long *)(TypeInfo_WeatherSchedule + 0xb8) + 8);
-            if (pSVar3 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_04077049;
-            pWStack_68 = (Weather_WeatherSchedule_o *)0x4076ced;
-            iVar7 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                              (pSVar3,(Il2CppObject *)pSVar16->m_Items[1],MethodInfo_WeatherEffect_get_Item);
-            (__this_00->fields).Effect = iVar7;
-            lVar23 = 2;
-          }
-          uVar22 = (uint)lVar23;
-          if ((__this_00->fields).Action == 0xf) {
-            (__this_00->fields).ValueSelectType = 1;
-            if ((int)pSVar16->max_length <= (int)uVar22) {
-              return (System_String_o *)__this_00;
-            }
-          }
-          else {
-            pWStack_68 = (Weather_WeatherSchedule_o *)0x4076d1b;
-            bVar8 = Weather_WeatherEvent__SupportsWeatherValueSelectTypes(__this_00,(MethodInfo *)0x0);
-            if ((char)bVar8 == '\0') {
-              iVar9 = (__this_00->fields).ValueSelectType;
-              uVar6 = (uint)pSVar16->max_length;
-            }
-            else {
-              if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-                pWStack_68 = (Weather_WeatherSchedule_o *)0x4076d34;
-                il2cpp_runtime_helper_02337ed0();
-              }
-              if ((uint)pSVar16->max_length <= uVar22) goto label_0407704e;
-              pSVar3 = *(System_Collections_Generic_Dictionary_TKey__TValue__o **)
-                        (*(long *)(TypeInfo_WeatherSchedule + 0xb8) + 0x10);
-              if (pSVar3 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_04077049;
-              uVar22 = uVar22 + 1;
-              pWStack_68 = (Weather_WeatherSchedule_o *)0x4076d6f;
-              iVar9 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                                (pSVar3,(Il2CppObject *)pSVar16->m_Items[lVar23],MethodInfo_WeatherValueSelectType_get_Item);
-              (__this_00->fields).ValueSelectType = iVar9;
-              uVar6 = (uint)pSVar16->max_length;
-            }
-            if (iVar9 == 3) {
-              if ((int)uVar6 <= (int)uVar22) {
-                return (System_String_o *)__this_00;
-              }
-              __this = (Weather_WeatherSchedule_o *)(ulong)uVar22;
-              pSStack_60 = (System_String_o *)value;
-              if (uVar22 < uVar6) {
-                do {
-                  pSVar19 = pSStack_60;
-                  if (pSVar16->m_Items[(long)__this] == (System_String_o *)0x0) goto label_04077049;
-                  pMVar20 = (MethodInfo *)0x0;
-                  pWStack_68 = (Weather_WeatherSchedule_o *)0x4076eda;
-                  pSVar18 = System_String__Split(pSVar16->m_Items[(long)__this],0x2d,0,(MethodInfo *)0x0);
-                  __this_01 = (__this_00->fields).Values;
-                  pWStack_68 = (Weather_WeatherSchedule_o *)0x4076eeb;
-                  iVar7 = Weather_WeatherEvent__GetValueType(__this_00,(MethodInfo *)0x0);
-                  if (pSVar18 == (System_String_array *)0x0) goto label_04077049;
-                  if ((int)pSVar18->max_length == 0) break;
-                  pWStack_68 = (Weather_WeatherSchedule_o *)0x4076f0c;
-                  pIVar17 = Weather_WeatherSchedule__DeserializeValue
-                                      ((Weather_WeatherSchedule_o *)pSVar19,iVar7,pSVar18->m_Items[0],pMVar20)
-                  ;
-                  lVar23 = MethodInfo_Void_Add;
-                  if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) goto label_04077049;
-                  piVar14 = &(__this_01->fields)._version;
-                  *piVar14 = *piVar14 + 1;
-                  pSVar4 = (__this_01->fields)._items;
-                  if (pSVar4 == (System_Object_array *)0x0) goto label_04077049;
-                  uVar22 = (__this_01->fields)._size;
-                  if (uVar22 < (uint)pSVar4->max_length) {
-                    (__this_01->fields)._size = uVar22 + 1;
-                    pSVar4->m_Items[(int)uVar22] = pIVar17;
-                    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076f54;
-                    il2cpp_runtime_helper_022b4080(pSVar4->m_Items + (int)uVar22);
-                    __this_02 = (__this_00->fields).Weights;
-                    if (1 < (int)pSVar18->max_length) goto label_04076f5e;
-label_04076fd4:
-                    lVar23 = MethodInfo_Void_Add;
-                    if (__this_02 == (System_Collections_Generic_List_float__o *)0x0) goto label_04077049;
-                    piVar14 = &(__this_02->fields)._version;
-                    *piVar14 = *piVar14 + 1;
-                    pSVar5 = (__this_02->fields)._items;
-                    if (pSVar5 == (System_Single_array *)0x0) goto label_04077049;
-                    uVar22 = (__this_02->fields)._size;
-                    if ((uint)pSVar5->max_length <= uVar22) {
-                      method_02 = *(MethodInfo_36649C0 **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70);
-                      fVar1 = 1.0;
-                      goto label_04076e9a;
-                    }
-                    (__this_02->fields)._size = uVar22 + 1;
-                    pSVar5->m_Items[(int)uVar22] = 1.0;
-                  }
-                  else {
-                    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076fca;
-                    System_Collections_Generic_List_object___AddWithResize
-                              (__this_01,pIVar17,
-                               *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70));
-                    __this_02 = (__this_00->fields).Weights;
-                    if ((int)pSVar18->max_length < 2) goto label_04076fd4;
-label_04076f5e:
-                    pWStack_68 = (Weather_WeatherSchedule_o *)0x4076f69;
-                    fVar1 = System_Single__Parse(pSVar18->m_Items[1],(MethodInfo *)0x0);
-                    lVar23 = MethodInfo_Void_Add;
-                    if (__this_02 == (System_Collections_Generic_List_float__o *)0x0) goto label_04077049;
-                    piVar14 = &(__this_02->fields)._version;
-                    *piVar14 = *piVar14 + 1;
-                    pSVar5 = (__this_02->fields)._items;
-                    if (pSVar5 == (System_Single_array *)0x0) goto label_04077049;
-                    uVar22 = (__this_02->fields)._size;
-                    if (uVar22 < (uint)pSVar5->max_length) {
-                      (__this_02->fields)._size = uVar22 + 1;
-                      pSVar5->m_Items[(int)uVar22] = fVar1;
-                    }
-                    else {
-                      method_02 = *(MethodInfo_36649C0 **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70);
-label_04076e9a:
-                      pWStack_68 = (Weather_WeatherSchedule_o *)0x4076e9f;
-                      System_Collections_Generic_List_float___AddWithResize(__this_02,fVar1,method_02);
-                    }
-                  }
-                  uVar22 = (uint)pSVar16->max_length;
-                  __this = (Weather_WeatherSchedule_o *)((long)&__this->klass + 1);
-                  if ((int)uVar22 <= (int)(uint)__this) {
-                    return (System_String_o *)__this_00;
-                  }
-                } while ((uint)__this < uVar22);
-              }
-              goto label_0407704e;
-            }
-            if ((int)uVar6 <= (int)uVar22) {
-              return (System_String_o *)__this_00;
-            }
-          }
-          pMVar20 = (MethodInfo *)(ulong)uVar22;
-          __this = (Weather_WeatherSchedule_o *)&MethodInfo_Void_Add;
-          while( true ) {
-            __this_01 = (__this_00->fields).Values;
-            pWStack_68 = (Weather_WeatherSchedule_o *)0x4076dda;
-            iVar7 = Weather_WeatherEvent__GetValueType(__this_00,(MethodInfo *)0x0);
-            method_00 = (MethodInfo *)(ulong)(uint)pSVar16->max_length;
-            if (method_00 <= pMVar20) break;
-            pWStack_68 = (Weather_WeatherSchedule_o *)0x4076df7;
-            pIVar17 = Weather_WeatherSchedule__DeserializeValue
-                                ((Weather_WeatherSchedule_o *)value,iVar7,pSVar16->m_Items[(long)pMVar20],
-                                 method_00);
-            lVar23 = MethodInfo_Void_Add;
-            if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) goto label_04077049;
-            piVar14 = &(__this_01->fields)._version;
-            *piVar14 = *piVar14 + 1;
-            pSVar4 = (__this_01->fields)._items;
-            if (pSVar4 == (System_Object_array *)0x0) goto label_04077049;
-            uVar22 = (__this_01->fields)._size;
-            if (uVar22 < (uint)pSVar4->max_length) {
-              (__this_01->fields)._size = uVar22 + 1;
-              pSVar4->m_Items[(int)uVar22] = pIVar17;
-              pWStack_68 = (Weather_WeatherSchedule_o *)0x4076e38;
-              il2cpp_runtime_helper_022b4080(pSVar4->m_Items + (int)uVar22);
-              pMVar20 = (MethodInfo *)((long)&pMVar20->methodPointer + 1);
-              if ((long)(int)pSVar16->max_length <= (long)pMVar20) {
-                return (System_String_o *)__this_00;
-              }
-            }
-            else {
-              pWStack_68 = (Weather_WeatherSchedule_o *)0x4076dba;
-              System_Collections_Generic_List_object___AddWithResize
-                        (__this_01,pIVar17,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70));
-              pMVar20 = (MethodInfo *)((long)&pMVar20->methodPointer + 1);
-              if ((long)(int)pSVar16->max_length <= (long)pMVar20) {
-                return (System_String_o *)__this_00;
-              }
-            }
-          }
-          goto label_0407704e;
-        }
-      }
+  if (pSVar6 != (System_String_o *)0x0) {
+label_181dd4bd6:
+    pSVar6 = System_String__Replace_1970e80
+                       (pSVar6,",",*(System_String_o **)g_data_184354e50->static_fields,
+                        (MethodInfo *)0x0);
+    if (pSVar6 != (System_String_o *)0x0) {
+      pSVar6 = System_String__Replace_1970e80
+                         (pSVar6,";",*(System_String_o **)g_data_184354e50->static_fields,
+                          (MethodInfo *)0x0);
+      return pSVar6;
     }
   }
-label_04077049:
-  pWStack_68 = (Weather_WeatherSchedule_o *)0x407704e;
-  il2cpp_runtime_helper_022b2c90();
-label_0407704e:
-  pWStack_68 = (Weather_WeatherSchedule_o *)0x4077053;
-  uStack_b8 = (Il2CppType *)il2cpp_runtime_helper_022b2ca0();
-  _Stack_a8._0_4_ = in_XMM1_Da;
-  _Stack_a8._4_4_ = in_XMM1_Db;
-  _Stack_a0._0_4_ = in_XMM1_Dc;
-  _Stack_a0._4_4_ = in_XMM1_Dd;
-  pSStack_70 = __this_01;
-  pWStack_68 = __this;
-  pIStack_98 = uStack_b8;
-  if (g_data_057ac325 == '\0') {
-    pWStack_d0 = (Weather_WeatherSchedule_o *)0x407708b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077097;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac325 = '\x01';
-  }
-  pWStack_d0 = (Weather_WeatherSchedule_o *)0x40770b2;
-  pSVar16 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  iStack_bc = (int)(pIStack_98._0_4_ * 255.0);
-  pWStack_d0 = (Weather_WeatherSchedule_o *)0x40770d7;
-  pSVar19 = System_Int32__ToString((int32_t)&iStack_bc,(MethodInfo *)0x0);
-  if (pSVar16 != (System_String_array *)0x0) {
-    if ((int)pSVar16->max_length != 0) {
-      __this = (Weather_WeatherSchedule_o *)pSVar16->m_Items;
-      pSVar16->m_Items[0] = pSVar19;
-      pWStack_d0 = (Weather_WeatherSchedule_o *)0x40770fd;
-      il2cpp_runtime_helper_022b4080(__this);
-      uStack_b8._0_4_ = uStack_b8._4_4_;
-      iStack_bc = (int)(uStack_b8._4_4_ * 255.0);
-      pWStack_d0 = (Weather_WeatherSchedule_o *)0x407712b;
-      in_XMM1_Da = uStack_b8._4_4_;
-      pSVar19 = System_Int32__ToString((int32_t)&iStack_bc,(MethodInfo *)0x0);
-      if (1 < (uint)pSVar16->max_length) {
-        pSVar16->m_Items[1] = pSVar19;
-        pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077145;
-        il2cpp_runtime_helper_022b4080(pSVar16->m_Items + 1);
-        iStack_bc = (int)((float)_Stack_a8._0_4_ * 255.0);
-        pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077167;
-        pSVar19 = System_Int32__ToString((int32_t)&iStack_bc,(MethodInfo *)0x0);
-        if (2 < (uint)pSVar16->max_length) {
-          pSVar16->m_Items[2] = pSVar19;
-          pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077181;
-          il2cpp_runtime_helper_022b4080(pSVar16->m_Items + 2);
-          fStack_88 = (float)_Stack_a8._4_4_;
-          fStack_84 = (float)_Stack_a8._4_4_;
-          uStack_80 = _Stack_a0._0_4_;
-          uStack_7c = _Stack_a0._4_2_;
-          uStack_7a = _Stack_a0._6_2_;
-          iStack_bc = (int)((float)_Stack_a8._4_4_ * 255.0);
-          pWStack_d0 = (Weather_WeatherSchedule_o *)0x40771af;
-          in_XMM1_Da = _Stack_a8._4_4_;
-          pSVar19 = System_Int32__ToString((int32_t)&iStack_bc,(MethodInfo *)0x0);
-          if (3 < (uint)pSVar16->max_length) {
-            pSVar16->m_Items[3] = pSVar19;
-            pWStack_d0 = (Weather_WeatherSchedule_o *)0x40771c8;
-            il2cpp_runtime_helper_022b4080(pSVar16->m_Items + 3,pSVar19);
-            if ((((pIStack_98._0_4_ != (float)_Stack_a8._0_4_) || (pIStack_98._0_4_ != (float)uStack_b8)) ||
-                (NAN(pIStack_98._0_4_) || NAN((float)uStack_b8))) || ((fStack_88 != 1.0 || (NAN(fStack_88)))))
-            {
-              pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077214;
-              pSVar19 = System_String__Join("-",pSVar16,(MethodInfo *)0x0);
-              return pSVar19;
-            }
-            if ((int)pSVar16->max_length != 0) {
-              return *(System_String_o **)__this;
-            }
-          }
-        }
-      }
-    }
-    pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077221;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  pWStack_d0 = (Weather_WeatherSchedule_o *)0x4077226;
-  auStack_e8 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  afStack_e0[0] = (float)in_XMM1_Da;
-  pSStack_d8 = pSVar16;
-  pWStack_d0 = __this;
-  if (g_data_057ac326 == '\0') {
-    uStack_f8 = 0x4077257;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    uStack_f8 = 0x4077263;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac326 = '\x01';
-  }
-  uStack_f8 = 0x407727e;
-  pSVar16 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  uStack_f8 = 0x407728d;
-  pSVar19 = System_Single__ToString(__this_04,(MethodInfo *)auStack_e8);
-  if (pSVar16 != (System_String_array *)0x0) {
-    if ((int)pSVar16->max_length != 0) {
-      pSVar16->m_Items[0] = pSVar19;
-      uStack_f8 = 0x40772ac;
-      fVar1 = (float)il2cpp_runtime_helper_022b4080(pSVar16->m_Items);
-      uStack_f8 = 0x40772b8;
-      pSVar19 = System_Single__ToString(fVar1,(MethodInfo *)(auStack_e8 + 4));
-      if (1 < (uint)pSVar16->max_length) {
-        pSVar16->m_Items[1] = pSVar19;
-        uStack_f8 = 0x40772d3;
-        fVar1 = (float)il2cpp_runtime_helper_022b4080(pSVar16->m_Items + 1);
-        uStack_f8 = 0x40772dd;
-        pSVar19 = System_Single__ToString(fVar1,(MethodInfo *)afStack_e0);
-        if (2 < (uint)pSVar16->max_length) {
-          pSVar16->m_Items[2] = pSVar19;
-          uStack_f8 = 0x40772f6;
-          il2cpp_runtime_helper_022b4080(pSVar16->m_Items + 2,pSVar19);
-          uStack_f8 = 0x407730a;
-          pSVar19 = System_String__Join("-",pSVar16,(MethodInfo *)0x0);
-          return pSVar19;
-        }
-      }
-    }
-    uStack_f8 = 0x4077317;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  uStack_f8 = 0x407731c;
-  uVar10 = il2cpp_runtime_helper_022b2c90();
-  uStack_f8 = CONCAT44((int)(extraout_XMM0_Da * 255.0),uVar10);
-  pSVar19 = System_Int32__ToString((int)&uStack_f8 + 4,(MethodInfo *)0x0);
-  return pSVar19;
+label_181dd4f7d:
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$SerializeRandomListValue
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeRandomListValue (Weather_WeatherSchedule_o* __this, int32_t type, Il2CppObject* value, float weight, const MethodInfo* method);
-// 0x4076880
+// 0x181dd4450
 
 System_String_o *
 Weather_WeatherSchedule__SerializeRandomListValue
@@ -1111,270 +660,145 @@ Weather_WeatherSchedule__SerializeRandomListValue
 {
   System_String_o *pSVar1;
   System_String_o *str2;
-  float __this_00;
-  float fStack_1c;
+  float local_res20 [2];
   
-  fStack_1c = weight;
-  if (g_data_057ac324 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac324 = '\x01';
+  local_res20[0] = weight;
+  if (Il2CppMethodInitialized_184344954 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"-");
+    Il2CppMethodInitialized_184344954 = '\x01';
   }
-  pSVar1 = Weather_WeatherSchedule__SerializeValue(__this,type,value,method);
-  str2 = System_Single__ToString(__this_00,(MethodInfo *)&fStack_1c);
-  pSVar1 = System_String__Concat_3af7150(pSVar1,"-",str2,(MethodInfo *)0x0);
+  pSVar1 = Weather_WeatherSchedule__SerializeValue(__this,type,value,(MethodInfo *)0x0);
+  str2 = System_Single__ToString(local_res20,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_1969b70(pSVar1,"-",str2,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Weather.WeatherSchedule$$SerializeColor
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeColor (Weather_WeatherSchedule_o* __this, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x4077060
+// 0x181dd42a0
 
 System_String_o *
 Weather_WeatherSchedule__SerializeColor
-          (Weather_WeatherSchedule_o *__this,UnityEngine_Color_o color,MethodInfo *method)
+          (Weather_WeatherSchedule_o *__this,UnityEngine_Color_o *color,MethodInfo *method)
 
 {
-  undefined1 auVar1 [16];
-  undefined4 uVar2;
-  System_String_array *pSVar3;
-  System_String_o *pSVar4;
-  System_String_o **unaff_R14;
-  float __this_00;
-  float fVar5;
-  float extraout_XMM0_Da;
-  undefined4 in_XMM0_Dc;
-  undefined4 in_XMM0_Dd;
-  undefined4 in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  undefined8 uStack_98;
-  undefined1 auStack_88 [8];
-  float afStack_80 [2];
-  System_String_array *pSStack_78;
-  System_String_o **ppSStack_70;
-  int local_5c;
-  undefined1 local_58 [16];
-  undefined1 local_48 [16];
-  undefined1 local_38 [16];
-  float local_28;
-  float fStack_24;
-  uint32_t uStack_20;
-  uint16_t uStack_1c;
-  uint16_t uStack_1a;
+  float fVar1;
+  System_String_array *value;
+  System_String_o *pSVar2;
+  int local_res10 [6];
   
-  fVar5 = color.fields.b;
-  local_48._8_4_ = in_XMM1_Dc;
-  local_48._0_8_ = color.fields._8_8_;
-  local_48._12_4_ = in_XMM1_Dd;
-  local_58._8_4_ = in_XMM0_Dc;
-  local_58._0_8_ = color.fields._0_8_;
-  local_58._12_4_ = in_XMM0_Dd;
-  local_38._8_4_ = in_XMM0_Dc;
-  local_38._0_8_ = color.fields._0_8_;
-  local_38._12_4_ = in_XMM0_Dd;
-  if (g_data_057ac325 == '\0') {
-    ppSStack_70 = (System_String_o **)0x407708b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    ppSStack_70 = (System_String_o **)0x4077097;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac325 = '\x01';
+  if (Il2CppMethodInitialized_184344955 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"-");
+    Il2CppMethodInitialized_184344955 = '\x01';
   }
-  ppSStack_70 = (System_String_o **)0x40770b2;
-  pSVar3 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  local_5c = (int)((float)local_38._0_4_ * 255.0);
-  ppSStack_70 = (System_String_o **)0x40770d7;
-  pSVar4 = System_Int32__ToString((int32_t)&local_5c,(MethodInfo *)0x0);
-  if (pSVar3 != (System_String_array *)0x0) {
-    if ((int)pSVar3->max_length != 0) {
-      unaff_R14 = pSVar3->m_Items;
-      pSVar3->m_Items[0] = pSVar4;
-      ppSStack_70 = (System_String_o **)0x40770fd;
-      il2cpp_runtime_helper_022b4080(unaff_R14);
-      local_58._0_4_ = local_58._4_4_;
-      local_5c = (int)((float)local_58._4_4_ * 255.0);
-      ppSStack_70 = (System_String_o **)0x407712b;
-      fVar5 = (float)local_58._4_4_;
-      pSVar4 = System_Int32__ToString((int32_t)&local_5c,(MethodInfo *)0x0);
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = pSVar4;
-        ppSStack_70 = (System_String_o **)0x4077145;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1);
-        local_5c = (int)((float)local_48._0_4_ * 255.0);
-        ppSStack_70 = (System_String_o **)0x4077167;
-        pSVar4 = System_Int32__ToString((int32_t)&local_5c,(MethodInfo *)0x0);
-        if (2 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[2] = pSVar4;
-          ppSStack_70 = (System_String_o **)0x4077181;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 2);
-          auVar1 = local_48;
-          local_28 = (float)local_48._4_4_;
-          fStack_24 = (float)local_48._4_4_;
-          uStack_20 = local_48._8_4_;
-          uStack_1c = local_48._12_2_;
-          uStack_1a = local_48._14_2_;
-          local_5c = (int)((float)local_48._4_4_ * 255.0);
-          ppSStack_70 = (System_String_o **)0x40771af;
-          fVar5 = (float)local_48._4_4_;
-          local_48 = auVar1;
-          pSVar4 = System_Int32__ToString((int32_t)&local_5c,(MethodInfo *)0x0);
-          if (3 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[3] = pSVar4;
-            ppSStack_70 = (System_String_o **)0x40771c8;
-            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 3,pSVar4);
-            if ((float)local_38._0_4_ != (float)local_48._0_4_) {
-label_04077200:
-              ppSStack_70 = (System_String_o **)0x4077214;
-              pSVar4 = System_String__Join("-",pSVar3,(MethodInfo *)0x0);
-              return pSVar4;
+  value = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+  local_res10[0] = (int)((color->fields).r * 255.0);
+  pSVar2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+  if (value != (System_String_array *)0x0) {
+    if ((int)value->max_length != 0) {
+      value->m_Items[0] = pSVar2;
+      Il2CppCodeGenWriteBarrier(value->m_Items,pSVar2);
+      local_res10[0] = (int)((color->fields).g * 255.0);
+      pSVar2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+      if (1 < (uint)value->max_length) {
+        value->m_Items[1] = pSVar2;
+        Il2CppCodeGenWriteBarrier(value->m_Items + 1,pSVar2);
+        local_res10[0] = (int)((color->fields).b * 255.0);
+        pSVar2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+        if (2 < (uint)value->max_length) {
+          value->m_Items[2] = pSVar2;
+          Il2CppCodeGenWriteBarrier(value->m_Items + 2,pSVar2);
+          local_res10[0] = (int)((color->fields).a * 255.0);
+          pSVar2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+          if (3 < (uint)value->max_length) {
+            value->m_Items[3] = pSVar2;
+            Il2CppCodeGenWriteBarrier(value->m_Items + 3,pSVar2);
+            if ((((color->fields).a != 1.0) || (fVar1 = (color->fields).r, fVar1 != (color->fields).g)) ||
+               (fVar1 != (color->fields).b)) {
+              pSVar2 = System_String__Join("-",value,(MethodInfo *)0x0);
+              return pSVar2;
             }
-            if (((((float)local_38._0_4_ != (float)local_58._0_4_) ||
-                 (NAN((float)local_38._0_4_) || NAN((float)local_58._0_4_))) || (local_28 != 1.0)) ||
-               (NAN(local_28))) goto label_04077200;
-            if ((int)pSVar3->max_length != 0) {
-              return *unaff_R14;
+            if ((int)value->max_length != 0) {
+              return value->m_Items[0];
             }
           }
         }
       }
     }
-    ppSStack_70 = (System_String_o **)0x4077221;
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-  ppSStack_70 = (System_String_o **)0x4077226;
-  auStack_88 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  afStack_80[0] = fVar5;
-  pSStack_78 = pSVar3;
-  ppSStack_70 = unaff_R14;
-  if (g_data_057ac326 == '\0') {
-    uStack_98 = 0x4077257;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    uStack_98 = 0x4077263;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac326 = '\x01';
-  }
-  uStack_98 = 0x407727e;
-  pSVar3 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  uStack_98 = 0x407728d;
-  pSVar4 = System_Single__ToString(__this_00,(MethodInfo *)auStack_88);
-  if (pSVar3 != (System_String_array *)0x0) {
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = pSVar4;
-      uStack_98 = 0x40772ac;
-      fVar5 = (float)il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-      uStack_98 = 0x40772b8;
-      pSVar4 = System_Single__ToString(fVar5,(MethodInfo *)(auStack_88 + 4));
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = pSVar4;
-        uStack_98 = 0x40772d3;
-        fVar5 = (float)il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1);
-        uStack_98 = 0x40772dd;
-        pSVar4 = System_Single__ToString(fVar5,(MethodInfo *)afStack_80);
-        if (2 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[2] = pSVar4;
-          uStack_98 = 0x40772f6;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 2,pSVar4);
-          uStack_98 = 0x407730a;
-          pSVar4 = System_String__Join("-",pSVar3,(MethodInfo *)0x0);
-          return pSVar4;
-        }
-      }
-    }
-    uStack_98 = 0x4077317;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  uStack_98 = 0x407731c;
-  uVar2 = il2cpp_runtime_helper_022b2c90();
-  uStack_98 = CONCAT44((int)(extraout_XMM0_Da * 255.0),uVar2);
-  pSVar4 = System_Int32__ToString((int)&uStack_98 + 4,(MethodInfo *)0x0);
-  return pSVar4;
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$SerializeColorValue
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeColorValue (Weather_WeatherSchedule_o* __this, float value, const MethodInfo* method);
-// 0x4077320
+// 0x181dd4270
 
 System_String_o *
 Weather_WeatherSchedule__SerializeColorValue(Weather_WeatherSchedule_o *__this,float value,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
-  undefined1 auStack_4 [4];
+  int local_res10 [6];
   
-  pSVar1 = System_Int32__ToString((int32_t)auStack_4,(MethodInfo *)0x0);
+  local_res10[0] = (int)(value * 255.0);
+  pSVar1 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // Weather.WeatherSchedule$$SerializeVector3
 // il2cpp: System_String_o* Weather_WeatherSchedule__SerializeVector3 (Weather_WeatherSchedule_o* __this, UnityEngine_Vector3_o v, const MethodInfo* method);
-// 0x4077230
+// 0x181dd4fe0
 
 System_String_o *
 Weather_WeatherSchedule__SerializeVector3
-          (Weather_WeatherSchedule_o *__this,UnityEngine_Vector3_o v,MethodInfo *method)
+          (Weather_WeatherSchedule_o *__this,UnityEngine_Vector3_o *v,MethodInfo *method)
 
 {
-  undefined4 uVar1;
   System_String_array *value;
-  System_String_o *pSVar2;
-  float __this_00;
-  float fVar3;
-  float extraout_XMM0_Da;
-  undefined8 uStack_30;
-  undefined1 local_20 [8];
-  float local_18 [2];
+  System_String_o *pSVar1;
   
-  local_18[0] = v.fields.z;
-  local_20 = v.fields._0_8_;
-  if (g_data_057ac326 == '\0') {
-    uStack_30 = 0x4077257;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    uStack_30 = 0x4077263;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac326 = '\x01';
+  if (Il2CppMethodInitialized_184344956 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"-");
+    Il2CppMethodInitialized_184344956 = '\x01';
   }
-  uStack_30 = 0x407727e;
-  value = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  uStack_30 = 0x407728d;
-  pSVar2 = System_Single__ToString(__this_00,(MethodInfo *)local_20);
+  value = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
+  pSVar1 = System_Single__ToString((float *)v,(MethodInfo *)0x0);
   if (value != (System_String_array *)0x0) {
     if ((int)value->max_length != 0) {
-      value->m_Items[0] = pSVar2;
-      uStack_30 = 0x40772ac;
-      fVar3 = (float)il2cpp_runtime_helper_022b4080(value->m_Items);
-      uStack_30 = 0x40772b8;
-      pSVar2 = System_Single__ToString(fVar3,(MethodInfo *)(local_20 + 4));
+      value->m_Items[0] = pSVar1;
+      Il2CppCodeGenWriteBarrier(value->m_Items,pSVar1);
+      pSVar1 = System_Single__ToString(&(v->fields).y,(MethodInfo *)0x0);
       if (1 < (uint)value->max_length) {
-        value->m_Items[1] = pSVar2;
-        uStack_30 = 0x40772d3;
-        fVar3 = (float)il2cpp_runtime_helper_022b4080(value->m_Items + 1);
-        uStack_30 = 0x40772dd;
-        pSVar2 = System_Single__ToString(fVar3,(MethodInfo *)local_18);
+        value->m_Items[1] = pSVar1;
+        Il2CppCodeGenWriteBarrier(value->m_Items + 1,pSVar1);
+        pSVar1 = System_Single__ToString(&(v->fields).z,(MethodInfo *)0x0);
         if (2 < (uint)value->max_length) {
-          value->m_Items[2] = pSVar2;
-          uStack_30 = 0x40772f6;
-          il2cpp_runtime_helper_022b4080(value->m_Items + 2,pSVar2);
-          uStack_30 = 0x407730a;
-          pSVar2 = System_String__Join("-",value,(MethodInfo *)0x0);
-          return pSVar2;
+          value->m_Items[2] = pSVar1;
+          Il2CppCodeGenWriteBarrier(value->m_Items + 2,pSVar1);
+          pSVar1 = System_String__Join("-",value,(MethodInfo *)0x0);
+          return pSVar1;
         }
       }
     }
-    uStack_30 = 0x4077317;
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-  uStack_30 = 0x407731c;
-  uVar1 = il2cpp_runtime_helper_022b2c90();
-  uStack_30 = CONCAT44((int)(extraout_XMM0_Da * 255.0),uVar1);
-  pSVar2 = System_Int32__ToString((int)&uStack_30 + 4,(MethodInfo *)0x0);
-  return pSVar2;
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$DeserializeLine
 // il2cpp: Weather_WeatherEvent_o* Weather_WeatherSchedule__DeserializeLine (Weather_WeatherSchedule_o* __this, System_String_o* line, const MethodInfo* method);
-// 0x4076b80
+// 0x181dd3ab0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dd3d65: movss xmm6, dword ptr [rip + 0x1584e9b]
+// asm:   0x181dd3d6d: nop dword ptr [rax]
+// asm:   0x181dd3e68: movaps xmm1, xmm0
 
 Weather_WeatherEvent_o *
 Weather_WeatherSchedule__DeserializeLine
@@ -1382,412 +806,182 @@ Weather_WeatherSchedule__DeserializeLine
 
 {
   int32_t *piVar1;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar2;
-  System_Object_array *pSVar3;
-  System_Single_array *pSVar4;
-  uint uVar5;
-  Weather_WeatherSchedule_o *__this_00;
-  int32_t iVar6;
-  bool_conflict bVar7;
-  int iVar8;
-  undefined4 uVar9;
-  Weather_WeatherSchedule_o *in_RAX;
-  Weather_WeatherEvent_o *pWVar10;
-  System_String_array *pSVar11;
-  Il2CppObject *pIVar12;
-  System_String_array *pSVar13;
-  System_String_o *pSVar14;
-  MethodInfo *method_00;
-  MethodInfo *pMVar15;
-  System_Collections_Generic_List_object__o *__this_01;
-  uint uVar16;
-  long lVar17;
-  MethodInfo_36649C0 *method_01;
-  System_Collections_Generic_List_float__o *__this_02;
-  System_String_o **unaff_R14;
-  float __this_03;
-  float fVar18;
-  float extraout_XMM0_Da;
-  float in_XMM1_Da;
-  float in_XMM1_Db;
-  uint32_t in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  undefined8 uStack_d0;
-  undefined1 auStack_c0 [8];
-  float afStack_b8 [2];
-  System_String_array *pSStack_b0;
-  System_String_o **ppSStack_a8;
-  int iStack_94;
-  undefined8 uStack_90;
-  _union_14 _Stack_80;
-  _union_14 _Stack_78;
-  Il2CppType *pIStack_70;
-  float fStack_60;
-  float fStack_5c;
-  uint32_t uStack_58;
-  uint16_t uStack_54;
-  uint16_t uStack_52;
-  System_Collections_Generic_List_object__o *pSStack_48;
-  System_String_o **ppSStack_40;
-  Weather_WeatherSchedule_o *local_38;
+  uint uVar2;
+  System_Collections_Generic_Dictionary_string__WeatherAction__o *__this_00;
+  System_Collections_Generic_Dictionary_string__WeatherEffect__o *__this_01;
+  System_Collections_Generic_Dictionary_string__WeatherValueSelectType__o *__this_02;
+  System_Collections_Generic_List_object__o *pSVar3;
+  System_Object_array *pSVar4;
+  System_Collections_Generic_List_float__o *pSVar5;
+  MethodInfo *pMVar6;
+  bool bVar7;
+  int32_t iVar8;
+  Weather_WeatherEvent_o *__this_03;
+  System_String_array *pSVar9;
+  ulonglong uVar10;
+  Il2CppObject *pIVar11;
+  System_String_array *pSVar12;
+  uint uVar13;
+  float fVar14;
   
-  local_38 = in_RAX;
-  if (g_data_057ac327 == '\0') {
-    ppSStack_40 = (System_String_o **)0x4076ba6;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherEffect_get_Item);
-    ppSStack_40 = (System_String_o **)0x4076bb2;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherAction_get_Item);
-    ppSStack_40 = (System_String_o **)0x4076bbe;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_WeatherValueSelectType_get_Item);
-    ppSStack_40 = (System_String_o **)0x4076bca;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    ppSStack_40 = (System_String_o **)0x4076bd6;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    ppSStack_40 = (System_String_o **)0x4076be2;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherEvent);
-    ppSStack_40 = (System_String_o **)0x4076bee;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherSchedule);
-    g_data_057ac327 = '\x01';
+  if (Il2CppMethodInitialized_184344957 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_WeatherEffect_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_WeatherAction_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_WeatherValueSelectType_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_float_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherEvent);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherSchedule);
+    Il2CppMethodInitialized_184344957 = '\x01';
   }
-  ppSStack_40 = (System_String_o **)0x4076c04;
-  pWVar10 = (Weather_WeatherEvent_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WeatherEvent);
-  ppSStack_40 = (System_String_o **)0x4076c11;
-  Weather_WeatherEvent___ctor(pWVar10,(MethodInfo *)0x0);
-  __this_01 = (System_Collections_Generic_List_object__o *)0x0;
+  __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Weather_WeatherEvent);
+  Weather_WeatherEvent___ctor(__this_03,(MethodInfo *)0x0);
   if (line != (System_String_o *)0x0) {
-    ppSStack_40 = (System_String_o **)0x4076c2b;
-    pSVar11 = System_String__Split(line,0x2c,0,(MethodInfo *)0x0);
-    __this_01 = (System_Collections_Generic_List_object__o *)&TypeInfo_WeatherSchedule;
-    if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-      ppSStack_40 = (System_String_o **)0x4076c46;
-      il2cpp_runtime_helper_02337ed0();
+    pSVar9 = System_String__Split(line,0x2c,0,(MethodInfo *)0x0);
+    if ((TypeInfo_Weather_WeatherSchedule->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherSchedule);
     }
-    if (pSVar11 != (System_String_array *)0x0) {
-      if ((int)pSVar11->max_length == 0) goto label_0407704e;
-      if ((System_Collections_Generic_Dictionary_TKey__TValue__o *)**(undefined8 **)(TypeInfo_WeatherSchedule + 0xb8) !=
-          (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) {
-        ppSStack_40 = (System_String_o **)0x4076c85;
-        iVar6 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)
-                           **(undefined8 **)(TypeInfo_WeatherSchedule + 0xb8),(Il2CppObject *)pSVar11->m_Items[0],
-                           MethodInfo_WeatherAction_get_Item);
-        if (pWVar10 != (Weather_WeatherEvent_o *)0x0) {
-          (pWVar10->fields).Action = iVar6;
-          ppSStack_40 = (System_String_o **)0x4076c9c;
-          bVar7 = Weather_WeatherEvent__SupportsWeatherEffects(pWVar10,(MethodInfo *)0x0);
-          lVar17 = 1;
-          if ((char)bVar7 != '\0') {
-            if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-              ppSStack_40 = (System_String_o **)0x4076cb6;
-              il2cpp_runtime_helper_02337ed0();
-            }
-            if ((uint)pSVar11->max_length < 2) goto label_0407704e;
-            pSVar2 = *(System_Collections_Generic_Dictionary_TKey__TValue__o **)
-                      (*(long *)(TypeInfo_WeatherSchedule + 0xb8) + 8);
-            if (pSVar2 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_04077049;
-            ppSStack_40 = (System_String_o **)0x4076ced;
-            iVar6 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                              (pSVar2,(Il2CppObject *)pSVar11->m_Items[1],MethodInfo_WeatherEffect_get_Item);
-            (pWVar10->fields).Effect = iVar6;
-            lVar17 = 2;
+    if (pSVar9 != (System_String_array *)0x0) {
+      if ((int)pSVar9->max_length == 0) {
+label_181dd3ea9:
+        ThrowIndexOutOfRangeException();
+      }
+      __this_00 = TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherAction;
+      if ((__this_00 != (System_Collections_Generic_Dictionary_string__WeatherAction__o *)0x0) &&
+         (iVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                             (Il2CppObject *)pSVar9->m_Items[0],
+                             (MethodInfo_147A530 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_WeatherAction_get_Item),
+         __this_03 != (Weather_WeatherEvent_o *)0x0)) {
+        (__this_03->fields).Action = iVar8;
+        uVar13 = 1;
+        bVar7 = Weather_WeatherEvent__SupportsWeatherEffects(__this_03,(MethodInfo *)0x0);
+        if (bVar7) {
+          if ((TypeInfo_Weather_WeatherSchedule->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherSchedule);
           }
-          uVar16 = (uint)lVar17;
-          if ((pWVar10->fields).Action == 0xf) {
-            (pWVar10->fields).ValueSelectType = 1;
-            if ((int)pSVar11->max_length <= (int)uVar16) {
-              return pWVar10;
+          if ((uint)pSVar9->max_length < 2) goto label_181dd3ea9;
+          __this_01 = TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherEffect;
+          if (__this_01 == (System_Collections_Generic_Dictionary_string__WeatherEffect__o *)0x0)
+          goto label_181dd3ea3;
+          uVar13 = 2;
+          iVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
+                             (Il2CppObject *)pSVar9->m_Items[1],
+                             (MethodInfo_147A530 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_WeatherEffect_get_Item);
+          (__this_03->fields).Effect = iVar8;
+        }
+        if ((__this_03->fields).Action == 0xf) {
+          (__this_03->fields).ValueSelectType = 1;
+        }
+        else {
+          bVar7 = Weather_WeatherEvent__SupportsWeatherValueSelectTypes(__this_03,(MethodInfo *)0x0);
+          if (bVar7) {
+            if ((TypeInfo_Weather_WeatherSchedule->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherSchedule);
             }
+            if ((uint)pSVar9->max_length <= uVar13) goto label_181dd3ea9;
+            __this_02 = TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherValueSelectType;
+            if (__this_02 == (System_Collections_Generic_Dictionary_string__WeatherValueSelectType__o *)0x0)
+            goto label_181dd3ea3;
+            uVar10 = (ulonglong)uVar13;
+            uVar13 = uVar13 + 1;
+            iVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
+                              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_02,
+                               (Il2CppObject *)pSVar9->m_Items[uVar10],
+                               (MethodInfo_147A530 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_string_WeatherValueSelectType_get_Item
+                              );
+            (__this_03->fields).ValueSelectType = iVar8;
           }
-          else {
-            ppSStack_40 = (System_String_o **)0x4076d1b;
-            bVar7 = Weather_WeatherEvent__SupportsWeatherValueSelectTypes(pWVar10,(MethodInfo *)0x0);
-            if ((char)bVar7 == '\0') {
-              iVar8 = (pWVar10->fields).ValueSelectType;
-              uVar5 = (uint)pSVar11->max_length;
-            }
-            else {
-              if (*(int *)(TypeInfo_WeatherSchedule + 0xe4) == 0) {
-                ppSStack_40 = (System_String_o **)0x4076d34;
-                il2cpp_runtime_helper_02337ed0();
-              }
-              if ((uint)pSVar11->max_length <= uVar16) goto label_0407704e;
-              pSVar2 = *(System_Collections_Generic_Dictionary_TKey__TValue__o **)
-                        (*(long *)(TypeInfo_WeatherSchedule + 0xb8) + 0x10);
-              if (pSVar2 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_04077049;
-              uVar16 = uVar16 + 1;
-              ppSStack_40 = (System_String_o **)0x4076d6f;
-              iVar8 = System_Collections_Generic_Dictionary_object__Int32Enum___get_Item
-                                (pSVar2,(Il2CppObject *)pSVar11->m_Items[lVar17],MethodInfo_WeatherValueSelectType_get_Item);
-              (pWVar10->fields).ValueSelectType = iVar8;
-              uVar5 = (uint)pSVar11->max_length;
-            }
-            if (iVar8 == 3) {
-              if ((int)uVar5 <= (int)uVar16) {
-                return pWVar10;
-              }
-              unaff_R14 = (System_String_o **)(ulong)uVar16;
-              local_38 = __this;
-              if (uVar16 < uVar5) {
-                do {
-                  __this_00 = local_38;
-                  if (pSVar11->m_Items[(long)unaff_R14] == (System_String_o *)0x0) goto label_04077049;
-                  pMVar15 = (MethodInfo *)0x0;
-                  ppSStack_40 = (System_String_o **)0x4076eda;
-                  pSVar13 = System_String__Split(pSVar11->m_Items[(long)unaff_R14],0x2d,0,(MethodInfo *)0x0);
-                  __this_01 = (pWVar10->fields).Values;
-                  ppSStack_40 = (System_String_o **)0x4076eeb;
-                  iVar6 = Weather_WeatherEvent__GetValueType(pWVar10,(MethodInfo *)0x0);
-                  if (pSVar13 == (System_String_array *)0x0) goto label_04077049;
-                  if ((int)pSVar13->max_length == 0) break;
-                  ppSStack_40 = (System_String_o **)0x4076f0c;
-                  pIVar12 = Weather_WeatherSchedule__DeserializeValue
-                                      (__this_00,iVar6,pSVar13->m_Items[0],pMVar15);
-                  lVar17 = MethodInfo_Void_Add;
-                  if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) goto label_04077049;
-                  piVar1 = &(__this_01->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pSVar3 = (__this_01->fields)._items;
-                  if (pSVar3 == (System_Object_array *)0x0) goto label_04077049;
-                  uVar16 = (__this_01->fields)._size;
-                  if (uVar16 < (uint)pSVar3->max_length) {
-                    (__this_01->fields)._size = uVar16 + 1;
-                    pSVar3->m_Items[(int)uVar16] = pIVar12;
-                    ppSStack_40 = (System_String_o **)0x4076f54;
-                    il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar16);
-                    __this_02 = (pWVar10->fields).Weights;
-                    if (1 < (int)pSVar13->max_length) goto label_04076f5e;
-label_04076fd4:
-                    lVar17 = MethodInfo_Void_Add;
-                    if (__this_02 == (System_Collections_Generic_List_float__o *)0x0) goto label_04077049;
-                    piVar1 = &(__this_02->fields)._version;
-                    *piVar1 = *piVar1 + 1;
-                    pSVar4 = (__this_02->fields)._items;
-                    if (pSVar4 == (System_Single_array *)0x0) goto label_04077049;
-                    uVar16 = (__this_02->fields)._size;
-                    if ((uint)pSVar4->max_length <= uVar16) {
-                      method_01 = *(MethodInfo_36649C0 **)(*(long *)(*(long *)(lVar17 + 0x20) + 0xc0) + 0x70);
-                      fVar18 = 1.0;
-                      goto label_04076e9a;
-                    }
-                    (__this_02->fields)._size = uVar16 + 1;
-                    pSVar4->m_Items[(int)uVar16] = 1.0;
-                  }
-                  else {
-                    ppSStack_40 = (System_String_o **)0x4076fca;
-                    System_Collections_Generic_List_object___AddWithResize
-                              (__this_01,pIVar12,
-                               *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar17 + 0x20) + 0xc0) + 0x70));
-                    __this_02 = (pWVar10->fields).Weights;
-                    if ((int)pSVar13->max_length < 2) goto label_04076fd4;
-label_04076f5e:
-                    ppSStack_40 = (System_String_o **)0x4076f69;
-                    fVar18 = System_Single__Parse(pSVar13->m_Items[1],(MethodInfo *)0x0);
-                    lVar17 = MethodInfo_Void_Add;
-                    if (__this_02 == (System_Collections_Generic_List_float__o *)0x0) goto label_04077049;
-                    piVar1 = &(__this_02->fields)._version;
-                    *piVar1 = *piVar1 + 1;
-                    pSVar4 = (__this_02->fields)._items;
-                    if (pSVar4 == (System_Single_array *)0x0) goto label_04077049;
-                    uVar16 = (__this_02->fields)._size;
-                    if (uVar16 < (uint)pSVar4->max_length) {
-                      (__this_02->fields)._size = uVar16 + 1;
-                      pSVar4->m_Items[(int)uVar16] = fVar18;
-                    }
-                    else {
-                      method_01 = *(MethodInfo_36649C0 **)(*(long *)(*(long *)(lVar17 + 0x20) + 0xc0) + 0x70);
-label_04076e9a:
-                      ppSStack_40 = (System_String_o **)0x4076e9f;
-                      System_Collections_Generic_List_float___AddWithResize(__this_02,fVar18,method_01);
-                    }
-                  }
-                  uVar16 = (uint)pSVar11->max_length;
-                  unaff_R14 = (System_String_o **)((long)unaff_R14 + 1);
-                  if ((int)uVar16 <= (int)(uint)unaff_R14) {
-                    return pWVar10;
-                  }
-                } while ((uint)unaff_R14 < uVar16);
-              }
-              goto label_0407704e;
-            }
-            if ((int)uVar5 <= (int)uVar16) {
-              return pWVar10;
-            }
-          }
-          pMVar15 = (MethodInfo *)(ulong)uVar16;
-          unaff_R14 = (System_String_o **)&MethodInfo_Void_Add;
-          while( true ) {
-            __this_01 = (pWVar10->fields).Values;
-            ppSStack_40 = (System_String_o **)0x4076dda;
-            iVar6 = Weather_WeatherEvent__GetValueType(pWVar10,(MethodInfo *)0x0);
-            method_00 = (MethodInfo *)(ulong)(uint)pSVar11->max_length;
-            if (method_00 <= pMVar15) break;
-            ppSStack_40 = (System_String_o **)0x4076df7;
-            pIVar12 = Weather_WeatherSchedule__DeserializeValue
-                                (__this,iVar6,pSVar11->m_Items[(long)pMVar15],method_00);
-            lVar17 = MethodInfo_Void_Add;
-            if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) goto label_04077049;
-            piVar1 = &(__this_01->fields)._version;
+        }
+        if ((__this_03->fields).ValueSelectType == 3) {
+          for (; (int)uVar13 < (int)pSVar9->max_length; uVar13 = uVar13 + 1) {
+            if ((uint)pSVar9->max_length <= uVar13) goto label_181dd3ea9;
+            if (pSVar9->m_Items[(int)uVar13] == (System_String_o *)0x0) goto label_181dd3ea3;
+            pSVar12 = System_String__Split(pSVar9->m_Items[(int)uVar13],0x2d,0,(MethodInfo *)0x0);
+            pSVar3 = (__this_03->fields).Values;
+            iVar8 = Weather_WeatherEvent__GetValueType(__this_03,(MethodInfo *)0x0);
+            if (pSVar12 == (System_String_array *)0x0) goto label_181dd3ea3;
+            if ((int)pSVar12->max_length == 0) goto label_181dd3ea9;
+            pIVar11 = Weather_WeatherSchedule__DeserializeValue
+                                (__this,iVar8,pSVar12->m_Items[0],(MethodInfo *)0x0);
+            pMVar6 = MethodInfo_System_Collections_Generic_List_object_Add;
+            if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_181dd3ea3;
+            piVar1 = &(pSVar3->fields)._version;
             *piVar1 = *piVar1 + 1;
-            pSVar3 = (__this_01->fields)._items;
-            if (pSVar3 == (System_Object_array *)0x0) goto label_04077049;
-            uVar16 = (__this_01->fields)._size;
-            if (uVar16 < (uint)pSVar3->max_length) {
-              (__this_01->fields)._size = uVar16 + 1;
-              pSVar3->m_Items[(int)uVar16] = pIVar12;
-              ppSStack_40 = (System_String_o **)0x4076e38;
-              il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar16);
-              pMVar15 = (MethodInfo *)((long)&pMVar15->methodPointer + 1);
-              if ((long)(int)pSVar11->max_length <= (long)pMVar15) {
-                return pWVar10;
-              }
+            pSVar4 = (pSVar3->fields)._items;
+            if (pSVar4 == (System_Object_array *)0x0) goto label_181dd3ea3;
+            uVar2 = (pSVar3->fields)._size;
+            if (uVar2 < (uint)pSVar4->max_length) {
+              (pSVar3->fields)._size = uVar2 + 1;
+              if ((uint)pSVar4->max_length <= uVar2) goto label_181dd3ea9;
+              pSVar4->m_Items[(int)uVar2] = pIVar11;
+              Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pIVar11);
             }
             else {
-              ppSStack_40 = (System_String_o **)0x4076dba;
               System_Collections_Generic_List_object___AddWithResize
-                        (__this_01,pIVar12,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar17 + 0x20) + 0xc0) + 0x70));
-              pMVar15 = (MethodInfo *)((long)&pMVar15->methodPointer + 1);
-              if ((long)(int)pSVar11->max_length <= (long)pMVar15) {
-                return pWVar10;
-              }
+                        (pSVar3,pIVar11,(MethodInfo_93DD50 *)pMVar6->klass->rgctx_data[0xe].method);
             }
+            uVar2 = (uint)pSVar12->max_length;
+            pSVar5 = (__this_03->fields).Weights;
+            if ((int)uVar2 < 2) {
+              if (pSVar5 == (System_Collections_Generic_List_float__o *)0x0) goto label_181dd3ea3;
+              fVar14 = 1.0;
+            }
+            else {
+              if (uVar2 < 2) goto label_181dd3ea9;
+              fVar14 = System_Single__Parse(pSVar12->m_Items[1],(MethodInfo *)0x0);
+              if (pSVar5 == (System_Collections_Generic_List_float__o *)0x0) goto label_181dd3ea3;
+            }
+            il2cpp_runtime_helper_180030dc0(pSVar5,fVar14);
           }
-          goto label_0407704e;
         }
-      }
-    }
-  }
-label_04077049:
-  ppSStack_40 = (System_String_o **)0x407704e;
-  il2cpp_runtime_helper_022b2c90();
-label_0407704e:
-  ppSStack_40 = (System_String_o **)0x4077053;
-  uStack_90 = (Il2CppType *)il2cpp_runtime_helper_022b2ca0();
-  _Stack_80._0_4_ = in_XMM1_Da;
-  _Stack_80._4_4_ = in_XMM1_Db;
-  _Stack_78._0_4_ = in_XMM1_Dc;
-  _Stack_78._4_4_ = in_XMM1_Dd;
-  pSStack_48 = __this_01;
-  ppSStack_40 = unaff_R14;
-  pIStack_70 = uStack_90;
-  if (g_data_057ac325 == '\0') {
-    ppSStack_a8 = (System_String_o **)0x407708b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    ppSStack_a8 = (System_String_o **)0x4077097;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac325 = '\x01';
-  }
-  ppSStack_a8 = (System_String_o **)0x40770b2;
-  pSVar11 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  iStack_94 = (int)(pIStack_70._0_4_ * 255.0);
-  ppSStack_a8 = (System_String_o **)0x40770d7;
-  pSVar14 = System_Int32__ToString((int32_t)&iStack_94,(MethodInfo *)0x0);
-  if (pSVar11 != (System_String_array *)0x0) {
-    if ((int)pSVar11->max_length != 0) {
-      unaff_R14 = pSVar11->m_Items;
-      pSVar11->m_Items[0] = pSVar14;
-      ppSStack_a8 = (System_String_o **)0x40770fd;
-      il2cpp_runtime_helper_022b4080(unaff_R14);
-      uStack_90._0_4_ = uStack_90._4_4_;
-      iStack_94 = (int)(uStack_90._4_4_ * 255.0);
-      ppSStack_a8 = (System_String_o **)0x407712b;
-      in_XMM1_Da = uStack_90._4_4_;
-      pSVar14 = System_Int32__ToString((int32_t)&iStack_94,(MethodInfo *)0x0);
-      if (1 < (uint)pSVar11->max_length) {
-        pSVar11->m_Items[1] = pSVar14;
-        ppSStack_a8 = (System_String_o **)0x4077145;
-        il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 1);
-        iStack_94 = (int)((float)_Stack_80._0_4_ * 255.0);
-        ppSStack_a8 = (System_String_o **)0x4077167;
-        pSVar14 = System_Int32__ToString((int32_t)&iStack_94,(MethodInfo *)0x0);
-        if (2 < (uint)pSVar11->max_length) {
-          pSVar11->m_Items[2] = pSVar14;
-          ppSStack_a8 = (System_String_o **)0x4077181;
-          il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 2);
-          fStack_60 = (float)_Stack_80._4_4_;
-          fStack_5c = (float)_Stack_80._4_4_;
-          uStack_58 = _Stack_78._0_4_;
-          uStack_54 = _Stack_78._4_2_;
-          uStack_52 = _Stack_78._6_2_;
-          iStack_94 = (int)((float)_Stack_80._4_4_ * 255.0);
-          ppSStack_a8 = (System_String_o **)0x40771af;
-          pSVar14 = System_Int32__ToString((int32_t)&iStack_94,(MethodInfo *)0x0);
-          in_XMM1_Da = (float)_Stack_80._4_4_;
-          if (3 < (uint)pSVar11->max_length) {
-            pSVar11->m_Items[3] = pSVar14;
-            ppSStack_a8 = (System_String_o **)0x40771c8;
-            il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 3,pSVar14);
-            if ((((pIStack_70._0_4_ != (float)_Stack_80._0_4_) || (pIStack_70._0_4_ != (float)uStack_90)) ||
-                (NAN(pIStack_70._0_4_) || NAN((float)uStack_90))) || ((fStack_60 != 1.0 || (NAN(fStack_60)))))
-            {
-              ppSStack_a8 = (System_String_o **)0x4077214;
-              pWVar10 = (Weather_WeatherEvent_o *)System_String__Join("-",pSVar11,(MethodInfo *)0x0);
-              return pWVar10;
+        else {
+          while ((int)uVar13 < (int)pSVar9->max_length) {
+            pSVar3 = (__this_03->fields).Values;
+            iVar8 = Weather_WeatherEvent__GetValueType(__this_03,(MethodInfo *)0x0);
+            if ((uint)pSVar9->max_length <= uVar13) goto label_181dd3ea9;
+            pIVar11 = Weather_WeatherSchedule__DeserializeValue
+                                (__this,iVar8,pSVar9->m_Items[(int)uVar13],(MethodInfo *)0x0);
+            pMVar6 = MethodInfo_System_Collections_Generic_List_object_Add;
+            if (pSVar3 == (System_Collections_Generic_List_object__o *)0x0) goto label_181dd3ea3;
+            piVar1 = &(pSVar3->fields)._version;
+            *piVar1 = *piVar1 + 1;
+            pSVar4 = (pSVar3->fields)._items;
+            if (pSVar4 == (System_Object_array *)0x0) goto label_181dd3ea3;
+            uVar2 = (pSVar3->fields)._size;
+            if (uVar2 < (uint)pSVar4->max_length) {
+              (pSVar3->fields)._size = uVar2 + 1;
+              if ((uint)pSVar4->max_length <= uVar2) goto label_181dd3ea9;
+              pSVar4->m_Items[(int)uVar2] = pIVar11;
+              Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pIVar11);
+              uVar13 = uVar13 + 1;
             }
-            in_XMM1_Da = (float)_Stack_80._4_4_;
-            if ((int)pSVar11->max_length != 0) {
-              return (Weather_WeatherEvent_o *)*unaff_R14;
+            else {
+              System_Collections_Generic_List_object___AddWithResize
+                        (pSVar3,pIVar11,(MethodInfo_93DD50 *)pMVar6->klass->rgctx_data[0xe].method);
+              uVar13 = uVar13 + 1;
             }
           }
         }
+        return __this_03;
       }
     }
-    ppSStack_a8 = (System_String_o **)0x4077221;
-    il2cpp_runtime_helper_022b2ca0();
   }
-  ppSStack_a8 = (System_String_o **)0x4077226;
-  auStack_c0 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  afStack_b8[0] = in_XMM1_Da;
-  pSStack_b0 = pSVar11;
-  ppSStack_a8 = unaff_R14;
-  if (g_data_057ac326 == '\0') {
-    uStack_d0 = 0x4077257;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    uStack_d0 = 0x4077263;
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057ac326 = '\x01';
-  }
-  uStack_d0 = 0x407727e;
-  pSVar11 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  uStack_d0 = 0x407728d;
-  pSVar14 = System_Single__ToString(__this_03,(MethodInfo *)auStack_c0);
-  if (pSVar11 != (System_String_array *)0x0) {
-    if ((int)pSVar11->max_length != 0) {
-      pSVar11->m_Items[0] = pSVar14;
-      uStack_d0 = 0x40772ac;
-      fVar18 = (float)il2cpp_runtime_helper_022b4080(pSVar11->m_Items);
-      uStack_d0 = 0x40772b8;
-      pSVar14 = System_Single__ToString(fVar18,(MethodInfo *)(auStack_c0 + 4));
-      if (1 < (uint)pSVar11->max_length) {
-        pSVar11->m_Items[1] = pSVar14;
-        uStack_d0 = 0x40772d3;
-        fVar18 = (float)il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 1);
-        uStack_d0 = 0x40772dd;
-        pSVar14 = System_Single__ToString(fVar18,(MethodInfo *)afStack_b8);
-        if (2 < (uint)pSVar11->max_length) {
-          pSVar11->m_Items[2] = pSVar14;
-          uStack_d0 = 0x40772f6;
-          il2cpp_runtime_helper_022b4080(pSVar11->m_Items + 2,pSVar14);
-          uStack_d0 = 0x407730a;
-          pWVar10 = (Weather_WeatherEvent_o *)System_String__Join("-",pSVar11,(MethodInfo *)0x0);
-          return pWVar10;
-        }
-      }
-    }
-    uStack_d0 = 0x4077317;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  uStack_d0 = 0x407731c;
-  uVar9 = il2cpp_runtime_helper_022b2c90();
-  uStack_d0 = CONCAT44((int)(extraout_XMM0_Da * 255.0),uVar9);
-  pWVar10 = (Weather_WeatherEvent_o *)System_Int32__ToString((int)&uStack_d0 + 4,(MethodInfo *)0x0);
-  return pWVar10;
+label_181dd3ea3:
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$DeserializeValue
 // il2cpp: Il2CppObject* Weather_WeatherSchedule__DeserializeValue (Weather_WeatherSchedule_o* __this, int32_t type, System_String_o* item, const MethodInfo* method);
-// 0x4077340
+// 0x181dd3eb0
 
 Il2CppObject *
 Weather_WeatherSchedule__DeserializeValue
@@ -1795,128 +989,103 @@ Weather_WeatherSchedule__DeserializeValue
 
 {
   int iVar1;
-  int32_t iVar2;
-  int32_t g;
-  int32_t b;
-  int32_t a;
-  System_String_array *pSVar3;
+  bool bVar2;
+  int32_t tryStart;
+  int32_t finallyStart;
+  int32_t finallyEnd;
+  int32_t iVar3;
   Utility_Color255_o *__this_00;
-  Il2CppObject *extraout_RAX;
-  undefined4 extraout_var;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
-  System_String_o *__this_01;
-  System_String_o *s;
-  undefined8 uVar4;
+  System_String_array *pSVar4;
+  Il2CppObject *pIVar5;
+  float fVar6;
+  float local_res10 [2];
+  float local_48;
+  float local_44;
+  float local_40;
   
-  method_00 = (MethodInfo *)item;
-  if (g_data_057ac328 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Convert);
-    __this = (Weather_WeatherSchedule_o *)&TypeInfo_Vector3;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac328 = '\x01';
-    method_00 = extraout_RDX;
+  if (Il2CppMethodInitialized_184344958 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Convert);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_184344958 = '\x01';
   }
   switch(type) {
   case 1:
-    System_Single__Parse(item,(MethodInfo *)0x0);
-    uVar4 = g_data_057b9be8;
-    break;
+    local_res10[0] = System_Single__Parse(item,(MethodInfo *)0x0);
+    pIVar5 = il2cpp_value_box(g_data_184354e38,local_res10);
+    return pIVar5;
   case 2:
-    System_Int32__Parse(item,(MethodInfo *)0x0);
-    uVar4 = g_data_057b9bb8;
-    break;
+    local_res10[0] = (float)System_Int32__Parse(item,(MethodInfo *)0x0);
+    pIVar5 = il2cpp_value_box(g_data_184354e08,local_res10);
+    return pIVar5;
   case 3:
-    goto switchD_0407738f_caseD_2;
+    return (Il2CppObject *)item;
   case 4:
-    __this_01 = item;
-    if (g_data_057ac329 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-      g_data_057ac329 = '\x01';
+    if (Il2CppMethodInitialized_184344959 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+      Il2CppMethodInitialized_184344959 = '\x01';
     }
-    if (item != (System_String_o *)0x0) {
-      __this_01 = (System_String_o *)&g_data_0000002d;
-      pSVar3 = System_String__Split(item,0x2d,0,(MethodInfo *)0x0);
-      if (pSVar3 != (System_String_array *)0x0) {
-        iVar1 = (int)pSVar3->max_length;
-        if (iVar1 != 0) {
-          __this_01 = (System_String_o *)0x0;
-          iVar2 = System_Int32__Parse(pSVar3->m_Items[0],(MethodInfo *)0x0);
-          if (iVar1 == 1) {
-            __this_00 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-            a = 0xff;
-            g = iVar2;
-            b = iVar2;
-label_04077551:
-            Utility_Color255___ctor(__this_00,iVar2,g,b,a,(MethodInfo *)0x0);
-            return (Il2CppObject *)__this_00;
-          }
-          if (1 < (uint)pSVar3->max_length) {
-            __this_01 = (System_String_o *)0x0;
-            g = System_Int32__Parse(pSVar3->m_Items[1],(MethodInfo *)0x0);
-            if (2 < (uint)pSVar3->max_length) {
-              __this_01 = (System_String_o *)0x0;
-              b = System_Int32__Parse(pSVar3->m_Items[2],(MethodInfo *)0x0);
-              if (3 < (uint)pSVar3->max_length) {
-                a = System_Int32__Parse(pSVar3->m_Items[3],(MethodInfo *)0x0);
-                __this_00 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-                goto label_04077551;
-              }
-            }
-          }
-        }
-        il2cpp_runtime_helper_022b2ca0();
+    if ((item != (System_String_o *)0x0) &&
+       (pSVar4 = System_String__Split(item,0x2d,0,(MethodInfo *)0x0), pSVar4 != (System_String_array *)0x0)) {
+      iVar1 = (int)pSVar4->max_length;
+      if (iVar1 == 1) {
+        tryStart = System_Int32__Parse(pSVar4->m_Items[0],(MethodInfo *)0x0);
+        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+        finallyEnd = 0xff;
+        iVar3 = tryStart;
+        finallyStart = tryStart;
       }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    s = (System_String_o *)0x0;
-    if (__this_01 != (System_String_o *)0x0) {
-      s = (System_String_o *)&g_data_0000002d;
-      pSVar3 = System_String__Split(__this_01,0x2d,0,(MethodInfo *)0x0);
-      if (pSVar3 != (System_String_array *)0x0) {
-        if ((int)pSVar3->max_length != 0) {
-          s = (System_String_o *)0x0;
-          System_Single__Parse(pSVar3->m_Items[0],(MethodInfo *)0x0);
-          if (1 < (uint)pSVar3->max_length) {
-            s = (System_String_o *)0x0;
-            System_Single__Parse(pSVar3->m_Items[1],(MethodInfo *)0x0);
-            if (2 < (uint)pSVar3->max_length) {
-              System_Single__Parse(pSVar3->m_Items[2],(MethodInfo *)0x0);
-              return extraout_RAX;
-            }
-          }
+      else {
+        if ((((iVar1 == 0) ||
+             (tryStart = System_Int32__Parse(pSVar4->m_Items[0],(MethodInfo *)0x0),
+             (uint)pSVar4->max_length < 2)) ||
+            (iVar3 = System_Int32__Parse(pSVar4->m_Items[1],(MethodInfo *)0x0), (uint)pSVar4->max_length < 3))
+           || (finallyStart = System_Int32__Parse(pSVar4->m_Items[2],(MethodInfo *)0x0),
+              (uint)pSVar4->max_length < 4)) {
+          ThrowIndexOutOfRangeException();
         }
-        il2cpp_runtime_helper_022b2ca0();
+        finallyEnd = System_Int32__Parse(pSVar4->m_Items[3],(MethodInfo *)0x0);
+        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
       }
+      Utility_Color255___ctor
+                ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)__this_00,tryStart,iVar3,
+                 finallyStart,finallyEnd,(MethodInfo *)0x0);
+      return (Il2CppObject *)__this_00;
     }
-    il2cpp_runtime_helper_022b2c90();
-    iVar2 = System_Int32__Parse(s,(MethodInfo *)0x0);
-    return (Il2CppObject *)CONCAT44(extraout_var,iVar2);
+    ThrowNullReferenceException();
   case 5:
-    iVar2 = System_Int32__Parse(item,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_Convert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    iVar3 = System_Int32__Parse(item,(MethodInfo *)0x0);
+    if ((TypeInfo_System_Convert->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Convert);
     }
-    System_Convert__ToBoolean_3c1c650(iVar2,(MethodInfo *)0x0);
-    uVar4 = g_data_057b9b98;
-    break;
+    bVar2 = Cysharp_Threading_Tasks_UniTaskStatusExtensions__IsCompleted(iVar3,(MethodInfo *)0x0);
+    local_res10[0] = (float)CONCAT31(local_res10[0]._1_3_,bVar2);
+    pIVar5 = il2cpp_value_box(g_data_184354de8,local_res10);
+    return pIVar5;
   case 6:
-    Weather_WeatherSchedule__DeserializeVector3(__this,item,method_00);
-    uVar4 = TypeInfo_Vector3;
     break;
   default:
-    item = (System_String_o *)0x0;
-    goto switchD_0407738f_caseD_2;
+    return (Il2CppObject *)0x0;
   }
-  item = (System_String_o *)il2cpp_runtime_helper_02304f30(uVar4,&stack0xffffffffffffffd8);
-switchD_0407738f_caseD_2:
-  return (Il2CppObject *)item;
+  if ((item == (System_String_o *)0x0) ||
+     (pSVar4 = System_String__Split(item,0x2d,0,(MethodInfo *)0x0), pSVar4 == (System_String_array *)0x0)) {
+    ThrowNullReferenceException();
+  }
+  if (((int)pSVar4->max_length != 0) &&
+     ((fVar6 = System_Single__Parse(pSVar4->m_Items[0],(MethodInfo *)0x0), 1 < (uint)pSVar4->max_length &&
+      (local_44 = System_Single__Parse(pSVar4->m_Items[1],(MethodInfo *)0x0), 2 < (uint)pSVar4->max_length))))
+  {
+    local_40 = System_Single__Parse(pSVar4->m_Items[2],(MethodInfo *)0x0);
+    local_48 = fVar6;
+    pIVar5 = il2cpp_value_box((Il2CppClass *)TypeInfo_UnityEngine_Vector3,&local_48);
+    return pIVar5;
+  }
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Weather.WeatherSchedule$$DeserializeColor
 // il2cpp: Utility_Color255_o* Weather_WeatherSchedule__DeserializeColor (Weather_WeatherSchedule_o* __this, System_String_o* item, const MethodInfo* method);
-// 0x4077460
+// 0x181dd3720
 
 Utility_Color255_o *
 Weather_WeatherSchedule__DeserializeColor
@@ -1925,85 +1094,55 @@ Weather_WeatherSchedule__DeserializeColor
 {
   int iVar1;
   int32_t iVar2;
-  int32_t g;
-  int32_t b;
-  int32_t a;
+  int32_t tryEnd;
+  int32_t finallyStart;
+  int32_t finallyEnd;
   System_String_array *pSVar3;
-  Utility_Color255_o *__this_00;
-  Utility_Color255_o *extraout_RAX;
-  undefined4 extraout_var;
-  System_String_o *__this_01;
-  System_String_o *s;
+  Utility_Color255_o *pUVar4;
   
-  __this_01 = item;
-  if (g_data_057ac329 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    g_data_057ac329 = '\x01';
+  if (Il2CppMethodInitialized_184344959 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    Il2CppMethodInitialized_184344959 = '\x01';
   }
   if (item != (System_String_o *)0x0) {
-    __this_01 = (System_String_o *)&g_data_0000002d;
     pSVar3 = System_String__Split(item,0x2d,0,(MethodInfo *)0x0);
     if (pSVar3 != (System_String_array *)0x0) {
       iVar1 = (int)pSVar3->max_length;
-      if (iVar1 != 0) {
-        __this_01 = (System_String_o *)0x0;
+      if (iVar1 == 1) {
         iVar2 = System_Int32__Parse(pSVar3->m_Items[0],(MethodInfo *)0x0);
-        if (iVar1 == 1) {
-          __this_00 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-          a = 0xff;
-          g = iVar2;
-          b = iVar2;
-label_04077551:
-          Utility_Color255___ctor(__this_00,iVar2,g,b,a,(MethodInfo *)0x0);
-          return __this_00;
-        }
+        pUVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+        Utility_Color255___ctor
+                  ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar4,iVar2,iVar2,iVar2,0xff,
+                   (MethodInfo *)0x0);
+        return pUVar4;
+      }
+      if (iVar1 != 0) {
+        iVar2 = System_Int32__Parse(pSVar3->m_Items[0],(MethodInfo *)0x0);
         if (1 < (uint)pSVar3->max_length) {
-          __this_01 = (System_String_o *)0x0;
-          g = System_Int32__Parse(pSVar3->m_Items[1],(MethodInfo *)0x0);
+          tryEnd = System_Int32__Parse(pSVar3->m_Items[1],(MethodInfo *)0x0);
           if (2 < (uint)pSVar3->max_length) {
-            __this_01 = (System_String_o *)0x0;
-            b = System_Int32__Parse(pSVar3->m_Items[2],(MethodInfo *)0x0);
+            finallyStart = System_Int32__Parse(pSVar3->m_Items[2],(MethodInfo *)0x0);
             if (3 < (uint)pSVar3->max_length) {
-              a = System_Int32__Parse(pSVar3->m_Items[3],(MethodInfo *)0x0);
-              __this_00 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-              goto label_04077551;
+              finallyEnd = System_Int32__Parse(pSVar3->m_Items[3],(MethodInfo *)0x0);
+              pUVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+              Utility_Color255___ctor
+                        ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar4,iVar2,tryEnd,
+                         finallyStart,finallyEnd,(MethodInfo *)0x0);
+              return pUVar4;
             }
           }
         }
       }
-      il2cpp_runtime_helper_022b2ca0();
+      ThrowIndexOutOfRangeException();
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  s = (System_String_o *)0x0;
-  if (__this_01 != (System_String_o *)0x0) {
-    s = (System_String_o *)&g_data_0000002d;
-    pSVar3 = System_String__Split(__this_01,0x2d,0,(MethodInfo *)0x0);
-    if (pSVar3 != (System_String_array *)0x0) {
-      if ((int)pSVar3->max_length != 0) {
-        s = (System_String_o *)0x0;
-        System_Single__Parse(pSVar3->m_Items[0],(MethodInfo *)0x0);
-        if (1 < (uint)pSVar3->max_length) {
-          s = (System_String_o *)0x0;
-          System_Single__Parse(pSVar3->m_Items[1],(MethodInfo *)0x0);
-          if (2 < (uint)pSVar3->max_length) {
-            System_Single__Parse(pSVar3->m_Items[2],(MethodInfo *)0x0);
-            return extraout_RAX;
-          }
-        }
-      }
-      il2cpp_runtime_helper_022b2ca0();
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  iVar2 = System_Int32__Parse(s,(MethodInfo *)0x0);
-  return (Utility_Color255_o *)CONCAT44(extraout_var,iVar2);
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$DeserializeColorValue
 // il2cpp: int32_t Weather_WeatherSchedule__DeserializeColorValue (Weather_WeatherSchedule_o* __this, System_String_o* str, const MethodInfo* method);
-// 0x4077600
+// 0x181dd3710
 
 int32_t Weather_WeatherSchedule__DeserializeColorValue
                   (Weather_WeatherSchedule_o *__this,System_String_o *str,MethodInfo *method)
@@ -2018,86 +1157,78 @@ int32_t Weather_WeatherSchedule__DeserializeColorValue
 
 // Weather.WeatherSchedule$$DeserializeVector3
 // il2cpp: UnityEngine_Vector3_o Weather_WeatherSchedule__DeserializeVector3 (Weather_WeatherSchedule_o* __this, System_String_o* item, const MethodInfo* method);
-// 0x4077580
+// 0x181dd41c0
 
-UnityEngine_Vector3_o
+UnityEngine_Vector3_o *
 Weather_WeatherSchedule__DeserializeVector3
-          (Weather_WeatherSchedule_o *__this,System_String_o *item,MethodInfo *method)
+          (UnityEngine_Vector3_o *__return_storage_ptr__,Weather_WeatherSchedule_o *__this,
+          System_String_o *item,MethodInfo *method)
 
 {
   System_String_array *pSVar1;
-  System_String_o *s;
   float fVar2;
   float fVar3;
-  undefined4 extraout_XMM0_Da;
-  float in_XMM1_Da;
-  UnityEngine_Vector3_o UVar4;
-  UnityEngine_Vector3_o UVar5;
-  undefined4 extraout_XMM0_Db;
+  float fVar4;
   
-  s = (System_String_o *)0x0;
   if (item != (System_String_o *)0x0) {
-    s = (System_String_o *)&g_data_0000002d;
     pSVar1 = System_String__Split(item,0x2d,0,(MethodInfo *)0x0);
     if (pSVar1 != (System_String_array *)0x0) {
       if ((int)pSVar1->max_length != 0) {
-        s = (System_String_o *)0x0;
-        UVar4.fields.x = System_Single__Parse(pSVar1->m_Items[0],(MethodInfo *)0x0);
+        fVar2 = System_Single__Parse(pSVar1->m_Items[0],(MethodInfo *)0x0);
         if (1 < (uint)pSVar1->max_length) {
-          s = (System_String_o *)0x0;
-          fVar2 = System_Single__Parse(pSVar1->m_Items[1],(MethodInfo *)0x0);
+          fVar3 = System_Single__Parse(pSVar1->m_Items[1],(MethodInfo *)0x0);
           if (2 < (uint)pSVar1->max_length) {
-            fVar3 = System_Single__Parse(pSVar1->m_Items[2],(MethodInfo *)0x0);
-            UVar4.fields.y = fVar2;
-            UVar4.fields.z = fVar3;
-            return (UnityEngine_Vector3_o)UVar4.fields;
+            fVar4 = System_Single__Parse(pSVar1->m_Items[2],(MethodInfo *)0x0);
+            (__return_storage_ptr__->fields).x = fVar2;
+            (__return_storage_ptr__->fields).y = fVar3;
+            (__return_storage_ptr__->fields).z = fVar4;
+            return __return_storage_ptr__;
           }
         }
       }
-      il2cpp_runtime_helper_022b2ca0();
+      ThrowIndexOutOfRangeException();
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Int32__Parse(s,(MethodInfo *)0x0);
-  UVar5.fields.y = (float)extraout_XMM0_Db;
-  UVar5.fields.x = (float)extraout_XMM0_Da;
-  UVar5.fields.z = in_XMM1_Da;
-  return (UnityEngine_Vector3_o)UVar5.fields;
+  ThrowNullReferenceException();
 }
 
 
 // Weather.WeatherSchedule$$.cctor
 // il2cpp: void Weather_WeatherSchedule___cctor (const MethodInfo* method);
-// 0x4077610
+// 0x181dd50c0
 
 void Weather_WeatherSchedule___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_Dictionary_string__T__o *pSVar2;
+  System_Collections_Generic_Dictionary_string__T__o *pSVar1;
   
-  if (g_data_057ac32a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Weather_WeatherAction_EnumToD);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Weather_WeatherEffect_EnumToD);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Weather_WeatherValueSelectTyp);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WeatherSchedule);
-    g_data_057ac32a = '\x01';
+  if (Il2CppMethodInitialized_18434495a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_EnumToDict_WeatherAction);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_EnumToDict_WeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_EnumToDict_WeatherValueSelectType);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherSchedule);
+    Il2CppMethodInitialized_18434495a = '\x01';
   }
-  if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
   }
-  pSVar2 = Utility_Util__EnumToDict_Int32Enum_(MethodInfo_Dictionary_2_System_String_Weather_WeatherAction_EnumToD);
-  **(undefined8 **)(TypeInfo_WeatherSchedule + 0xb8) = pSVar2;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_WeatherSchedule + 0xb8),pSVar2);
-  pSVar2 = Utility_Util__EnumToDict_Int32Enum_(MethodInfo_Dictionary_2_System_String_Weather_WeatherEffect_EnumToD);
-  lVar1 = *(long *)(TypeInfo_WeatherSchedule + 0xb8);
-  *(System_Collections_Generic_Dictionary_string__T__o **)(lVar1 + 8) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar2);
-  pSVar2 = Utility_Util__EnumToDict_Int32Enum_(MethodInfo_Dictionary_2_System_String_Weather_WeatherValueSelectTyp);
-  lVar1 = *(long *)(TypeInfo_WeatherSchedule + 0xb8);
-  *(System_Collections_Generic_Dictionary_string__T__o **)(lVar1 + 0x10) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10,pSVar2);
+  pSVar1 = Utility_Util__EnumToDict_Int32Enum_
+                     ((MethodInfo_869960 *)MethodInfo_Utility_Util_EnumToDict_WeatherAction);
+  TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherAction =
+       (System_Collections_Generic_Dictionary_string__WeatherAction__o *)pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherAction,pSVar1);
+  pSVar1 = Utility_Util__EnumToDict_Int32Enum_
+                     ((MethodInfo_869960 *)MethodInfo_Utility_Util_EnumToDict_WeatherEffect);
+  TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherEffect =
+       (System_Collections_Generic_Dictionary_string__WeatherEffect__o *)pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherEffect,pSVar1);
+  pSVar1 = Utility_Util__EnumToDict_Int32Enum_
+                     ((MethodInfo_869960 *)MethodInfo_Utility_Util_EnumToDict_WeatherValueSelectType);
+  TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherValueSelectType =
+       (System_Collections_Generic_Dictionary_string__WeatherValueSelectType__o *)pSVar1;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Weather_WeatherSchedule->static_fields->NameToWeatherValueSelectType,pSVar1);
   return;
 }
 

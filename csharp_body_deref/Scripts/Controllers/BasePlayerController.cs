@@ -14,106 +14,106 @@ using UnityEngine;
 
 namespace Controllers;
 
-[Token(Token = "0x20004C5")]
+[Token(Token = "0x200061A")]
 internal class BasePlayerController : MonoBehaviour
 {
-	[Token(Token = "0x40014CF")]
+	[Token(Token = "0x4001B23")]
 	[FieldOffset(Offset = "0x20")]
 	protected GeneralInputSettings _generalInput;
 
-	[Token(Token = "0x40014D0")]
+	[Token(Token = "0x4001B24")]
 	[FieldOffset(Offset = "0x28")]
 	protected InteractionInputSettings _interactionInput;
 
-	[Token(Token = "0x40014D1")]
+	[Token(Token = "0x4001B25")]
 	[FieldOffset(Offset = "0x30")]
 	protected InGameMenu _inGameMenu;
 
-	[Token(Token = "0x40014D2")]
+	[Token(Token = "0x4001B26")]
 	[FieldOffset(Offset = "0x38")]
 	protected BaseCharacter _character;
 
-	[Token(Token = "0x40014D3")]
+	[Token(Token = "0x4001B27")]
 	[FieldOffset(Offset = "0x40")]
 	protected InGameManager _gameManager;
 
-	[Token(Token = "0x40014D4")]
+	[Token(Token = "0x4001B28")]
 	[FieldOffset(Offset = "0x48")]
 	protected bool _autorun;
 
-	[Token(Token = "0x40014D5")]
+	[Token(Token = "0x4001B29")]
 	[FieldOffset(Offset = "0x49")]
 	public bool HideCursor;
 
-	[Token(Token = "0x40014D6")]
+	[Token(Token = "0x4001B2A")]
 	[FieldOffset(Offset = "0x50")]
 	private string[] _quickSelectOptions;
 
-	[Token(Token = "0x600322B")]
-	[Address(RVA = "0x4189240", Offset = "0x4189240", VA = "0x4189240", Slot = "4")]
+	[Token(Token = "0x6003BBC")]
+	[Address(RVA = "0x20F2AF0", Offset = "0x20F10F0", VA = "0x1820F2AF0", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x600322C")]
-	[Address(RVA = "0x418AAB0", Offset = "0x418AAB0", VA = "0x418AAB0", Slot = "5")]
+	[Token(Token = "0x6003BBD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	protected virtual void Start()
 	{
 	}
 
-	[Token(Token = "0x600322D")]
-	[Address(RVA = "0x418AAC0", Offset = "0x418AAC0", VA = "0x418AAC0", Slot = "6")]
+	[Token(Token = "0x6003BBE")]
+	[Address(RVA = "0x20F3970", Offset = "0x20F1F70", VA = "0x1820F3970", Slot = "6")]
 	protected virtual void Update()
 	{
 	}
 
-	[Token(Token = "0x600322E")]
-	[Address(RVA = "0x4189C20", Offset = "0x4189C20", VA = "0x4189C20", Slot = "7")]
+	[Token(Token = "0x6003BBF")]
+	[Address(RVA = "0x20F32D0", Offset = "0x20F18D0", VA = "0x1820F32D0", Slot = "7")]
 	protected virtual void UpdateActionInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x600322F")]
-	[Address(RVA = "0x418ADE0", Offset = "0x418ADE0", VA = "0x418ADE0", Slot = "8")]
+	[Token(Token = "0x6003BC0")]
+	[Address(RVA = "0x20F36F0", Offset = "0x20F1CF0", VA = "0x1820F36F0", Slot = "8")]
 	protected virtual void UpdateMovementInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003230")]
-	[Address(RVA = "0x418ABC0", Offset = "0x418ABC0", VA = "0x418ABC0")]
+	[Token(Token = "0x6003BC1")]
+	[Address(RVA = "0x20F34B0", Offset = "0x20F1AB0", VA = "0x1820F34B0")]
 	protected void UpdateMenuInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003231")]
-	[Address(RVA = "0x418B000", Offset = "0x418B000", VA = "0x418B000", Slot = "9")]
+	[Token(Token = "0x6003BC2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	protected virtual void UpdateUI(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003232")]
-	[Address(RVA = "0x418B010", Offset = "0x418B010", VA = "0x418B010")]
+	[Token(Token = "0x6003BC3")]
+	[Address(RVA = "0x20F3040", Offset = "0x20F1640", VA = "0x1820F3040")]
 	protected float GetTargetAngle(int forward, int right)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003233")]
-	[Address(RVA = "0x418A0F0", Offset = "0x418A0F0", VA = "0x418A0F0")]
+	[Token(Token = "0x6003BC4")]
+	[Address(RVA = "0x20F2D40", Offset = "0x20F1340", VA = "0x1820F2D40")]
 	protected float[] GetAimAngles()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003234")]
-	[Address(RVA = "0x418B0D0", Offset = "0x418B0D0", VA = "0x418B0D0")]
+	[Token(Token = "0x6003BC5")]
+	[Address(RVA = "0x20F3150", Offset = "0x20F1750", VA = "0x1820F3150")]
 	protected float GetTargetAngle(Vector3 direction)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003235")]
-	[Address(RVA = "0x418A4B0", Offset = "0x418A4B0", VA = "0x418A4B0")]
+	[Token(Token = "0x6003BC6")]
+	[Address(RVA = "0x20F3AA0", Offset = "0x20F20A0", VA = "0x1820F3AA0")]
 	public BasePlayerController()
 	{
 	}

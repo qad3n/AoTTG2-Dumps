@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000204")]
+[Token(Token = "0x200020B")]
 public sealed class fsDuplicateVersionNameException : Exception
 {
-	[Token(Token = "0x600123C")]
-	[Address(RVA = "0x4D7BE50", Offset = "0x4D7BE50", VA = "0x4D7BE50")]
+	[Token(Token = "0x6001274")]
+	[Address(RVA = "0x2E62610", Offset = "0x2E60C10", VA = "0x182E62610")]
 	public fsDuplicateVersionNameException(Type typeA, Type typeB, string version)
 	{
 	}

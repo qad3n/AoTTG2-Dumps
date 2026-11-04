@@ -12,24 +12,24 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200001D")]
 public interface IProxyableNotifyCollectionChanged<T>
 {
-	[Token(Token = "0x1700001F")]
+	[Token(Token = "0x17000020")]
 	bool ProxyCollectionChange
 	{
-		[Token(Token = "0x60000A3")]
+		[Token(Token = "0x60000A7")]
 		get;
-		[Token(Token = "0x60000A4")]
+		[Token(Token = "0x60000A8")]
 		set;
 	}
 
-	[Token(Token = "0x60000A5")]
+	[Token(Token = "0x60000A9")]
 	void BeforeAdd(T item);
 
-	[Token(Token = "0x60000A6")]
+	[Token(Token = "0x60000AA")]
 	void AfterAdd(T item);
 
-	[Token(Token = "0x60000A7")]
+	[Token(Token = "0x60000AB")]
 	void BeforeRemove(T item);
 
-	[Token(Token = "0x60000A8")]
+	[Token(Token = "0x60000AC")]
 	void AfterRemove(T item);
 }

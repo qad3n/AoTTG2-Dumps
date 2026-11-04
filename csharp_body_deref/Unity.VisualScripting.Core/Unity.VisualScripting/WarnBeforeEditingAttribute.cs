@@ -15,23 +15,11 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public sealed class WarnBeforeEditingAttribute : Attribute
 {
-	[Token(Token = "0x17000073")]
+	[Token(Token = "0x17000074")]
 	public string warningTitle
 	{
-		[Token(Token = "0x6000212")]
-		[Address(RVA = "0x4CA4100", Offset = "0x4CA4100", VA = "0x4CA4100")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000074")]
-	public string warningMessage
-	{
-		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x4CA4110", Offset = "0x4CA4110", VA = "0x4CA4110")]
+		[Token(Token = "0x6000216")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,10 +28,10 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 	}
 
 	[Token(Token = "0x17000075")]
-	public object[] emptyValues
+	public string warningMessage
 	{
-		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x4CA4120", Offset = "0x4CA4120", VA = "0x4CA4120")]
+		[Token(Token = "0x6000217")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -51,14 +39,26 @@ public sealed class WarnBeforeEditingAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000210")]
-	[Address(RVA = "0x4CA4060", Offset = "0x4CA4060", VA = "0x4CA4060")]
+	[Token(Token = "0x17000076")]
+	public object[] emptyValues
+	{
+		[Token(Token = "0x6000218")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6000214")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage)
 	{
 	}
 
-	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x4CA40A0", Offset = "0x4CA40A0", VA = "0x4CA40A0")]
+	[Token(Token = "0x6000215")]
+	[Address(RVA = "0x2DBF5E0", Offset = "0x2DBDBE0", VA = "0x182DBF5E0")]
 	public WarnBeforeEditingAttribute(string warningTitle, string warningMessage, params object[] emptyValues)
 	{
 	}

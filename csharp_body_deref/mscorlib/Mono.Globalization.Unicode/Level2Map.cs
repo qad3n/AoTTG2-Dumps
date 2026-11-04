@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000053")]
 internal class Level2Map
 {
-	[Token(Token = "0x40000E2")]
+	[Token(Token = "0x4000164")]
 	[FieldOffset(Offset = "0x10")]
 	public byte Source;
 
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x4000165")]
 	[FieldOffset(Offset = "0x11")]
 	public byte Replace;
 
-	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x3AD1920", Offset = "0x3AD1920", VA = "0x3AD1920")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x1949280", Offset = "0x1947880", VA = "0x181949280")]
 	public Level2Map(byte source, byte replace)
 	{
 	}

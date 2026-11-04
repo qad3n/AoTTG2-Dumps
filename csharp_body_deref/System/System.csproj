@@ -24,9 +24,11 @@
     <Reference Include="System.Xml">
       <HintPath>../../dumps/il2cpp/DummyDll/System.Xml.dll</HintPath>
     </Reference>
+    <Reference Include="System.Private.CoreLib">
+      <HintPath>../../../../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.13/System.Private.CoreLib.dll</HintPath>
+    </Reference>
     <Reference Include="System.Data">
       <HintPath>../../dumps/il2cpp/DummyDll/System.Data.dll</HintPath>
     </Reference>
-    <Reference Include="System.Private.CoreLib" />
   </ItemGroup>
 </Project>

@@ -12,6 +12,6 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001A9")]
 public interface IAnalyticsIdentifiable
 {
-	[Token(Token = "0x600102C")]
+	[Token(Token = "0x6001039")]
 	AnalyticsIdentifier GetAnalyticsIdentifier();
 }

@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000170")]
+[Token(Token = "0x2000173")]
 public interface IAsyncEndEditEventHandler<T> : IDisposable
 {
-	[Token(Token = "0x60008DD")]
+	[Token(Token = "0x6000901")]
 	UniTask<T> OnEndEditAsync();
 }

@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000019")]
+[Token(Token = "0x2000017")]
 public interface IOnEventCallback
 {
-	[Token(Token = "0x60000DA")]
+	[Token(Token = "0x60000D8")]
 	void OnEvent(EventData photonEvent);
 }

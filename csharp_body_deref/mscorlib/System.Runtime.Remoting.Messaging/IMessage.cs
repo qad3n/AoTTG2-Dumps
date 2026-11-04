@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003AD")]
+[Token(Token = "0x20003DC")]
 [ComVisible(true)]
 public interface IMessage
 {
-	[Token(Token = "0x170003BE")]
+	[Token(Token = "0x170003C0")]
 	IDictionary Properties
 	{
-		[Token(Token = "0x6001E6E")]
+		[Token(Token = "0x6001EDD")]
 		get;
 	}
 }

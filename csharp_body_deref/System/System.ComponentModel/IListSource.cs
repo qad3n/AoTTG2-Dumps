@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200029F")]
+[Token(Token = "0x20001AA")]
 [MergableProperty(false)]
 public interface IListSource
 {
-	[Token(Token = "0x170003B6")]
+	[Token(Token = "0x17000225")]
 	bool ContainsListCollection
 	{
-		[Token(Token = "0x60010A4")]
+		[Token(Token = "0x6000AEC")]
 		get;
 	}
 
-	[Token(Token = "0x60010A5")]
+	[Token(Token = "0x6000AED")]
 	IList GetList();
 }

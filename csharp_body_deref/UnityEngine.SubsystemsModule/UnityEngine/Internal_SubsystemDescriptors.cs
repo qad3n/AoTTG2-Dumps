@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000C")]
 internal static class Internal_SubsystemDescriptors
 {
-	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4E9E650", Offset = "0x4E9E650", VA = "0x4E9E650")]
+	[Token(Token = "0x6000013")]
+	[Address(RVA = "0x2FF7640", Offset = "0x2FF5C40", VA = "0x182FF7640")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void Internal_AddDescriptor(SubsystemDescriptor descriptor)
 	{

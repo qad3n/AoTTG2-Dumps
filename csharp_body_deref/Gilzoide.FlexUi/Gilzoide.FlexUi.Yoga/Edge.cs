@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000C")]
 public enum Edge
 {
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x400004A")]
 	Left,
-	[Token(Token = "0x4000050")]
+	[Token(Token = "0x400004B")]
 	Top,
-	[Token(Token = "0x4000051")]
+	[Token(Token = "0x400004C")]
 	Right,
-	[Token(Token = "0x4000052")]
+	[Token(Token = "0x400004D")]
 	Bottom,
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x400004E")]
 	Start,
-	[Token(Token = "0x4000054")]
+	[Token(Token = "0x400004F")]
 	End,
-	[Token(Token = "0x4000055")]
+	[Token(Token = "0x4000050")]
 	Horizontal,
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000051")]
 	Vertical,
-	[Token(Token = "0x4000057")]
+	[Token(Token = "0x4000052")]
 	All
 }

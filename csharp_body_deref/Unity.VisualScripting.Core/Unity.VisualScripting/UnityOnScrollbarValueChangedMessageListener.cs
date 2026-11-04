@@ -10,18 +10,18 @@ using UnityEngine;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x20000B7")]
 [AddComponentMenu("")]
 public sealed class UnityOnScrollbarValueChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x4CB6E90", Offset = "0x4CB6E90", VA = "0x4CB6E90")]
+	[Token(Token = "0x6000472")]
+	[Address(RVA = "0x2DBEC90", Offset = "0x2DBD290", VA = "0x182DBEC90")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x4CB6F50", Offset = "0x4CB6F50", VA = "0x4CB6F50")]
+	[Token(Token = "0x6000473")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnScrollbarValueChangedMessageListener()
 	{
 	}

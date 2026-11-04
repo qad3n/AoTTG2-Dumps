@@ -10,15 +10,15 @@ using Settings;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000226")]
+[Token(Token = "0x200033E")]
 internal class PlayerInfo : BaseSettingsContainer
 {
-	[Token(Token = "0x4000BBA")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x40010BF")]
+	[FieldOffset(Offset = "0x30")]
 	public ProfileSettings Profile;
 
-	[Token(Token = "0x6000D86")]
-	[Address(RVA = "0x445DEE0", Offset = "0x445DEE0", VA = "0x445DEE0")]
+	[Token(Token = "0x60014CB")]
+	[Address(RVA = "0x1E73060", Offset = "0x1E71660", VA = "0x181E73060")]
 	public PlayerInfo()
 	{
 	}

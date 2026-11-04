@@ -39,8 +39,8 @@ internal sealed class ThrowInstruction : Instruction
 	[Token(Token = "0x17000189")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000669")]
-		[Address(RVA = "0x44C98A0", Offset = "0x44C98A0", VA = "0x44C98A0", Slot = "9")]
+		[Token(Token = "0x6000668")]
+		[Address(RVA = "0x2441660", Offset = "0x243FC60", VA = "0x182441660", Slot = "9")]
 		get
 		{
 			return null;
@@ -50,8 +50,8 @@ internal sealed class ThrowInstruction : Instruction
 	[Token(Token = "0x1700018A")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600066A")]
-		[Address(RVA = "0x44C98D0", Offset = "0x44C98D0", VA = "0x44C98D0", Slot = "5")]
+		[Token(Token = "0x6000669")]
+		[Address(RVA = "0x242D820", Offset = "0x242BE20", VA = "0x18242D820", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -61,29 +61,29 @@ internal sealed class ThrowInstruction : Instruction
 	[Token(Token = "0x1700018B")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x600066B")]
-		[Address(RVA = "0x44C98E0", Offset = "0x44C98E0", VA = "0x44C98E0", Slot = "4")]
+		[Token(Token = "0x600066A")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x44C9880", Offset = "0x44C9880", VA = "0x44C9880")]
+	[Token(Token = "0x6000667")]
+	[Address(RVA = "0x2441620", Offset = "0x243FC20", VA = "0x182441620")]
 	private ThrowInstruction(bool hasResult, bool isRethrow)
 	{
 	}
 
-	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x44C98F0", Offset = "0x44C98F0", VA = "0x44C98F0", Slot = "8")]
+	[Token(Token = "0x600066B")]
+	[Address(RVA = "0x2441300", Offset = "0x243F900", VA = "0x182441300", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x44C9A20", Offset = "0x44C9A20", VA = "0x44C9A20")]
+	[Token(Token = "0x600066C")]
+	[Address(RVA = "0x2441420", Offset = "0x243FA20", VA = "0x182441420")]
 	private static Exception WrapThrownObject(object thrown)
 	{
 		return null;

@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling.Memory;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x2000039")]
 public class MemorySnapshotMetadata
 {
-	[Token(Token = "0x1700000F")]
+	[Token(Token = "0x17000016")]
 	public string Description
 	{
-		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x4DAD030", Offset = "0x4DAD030", VA = "0x4DAD030")]
+		[Token(Token = "0x60000B6")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x4DAD040", Offset = "0x4DAD040", VA = "0x4DAD040")]
+		[Token(Token = "0x60000B7")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000010")]
+	[Token(Token = "0x17000017")]
 	internal byte[] Data
 	{
-		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x4DAD050", Offset = "0x4DAD050", VA = "0x4DAD050")]
+		[Token(Token = "0x60000B8")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,8 +43,8 @@ public class MemorySnapshotMetadata
 		}
 	}
 
-	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x4DAD060", Offset = "0x4DAD060", VA = "0x4DAD060")]
+	[Token(Token = "0x60000B9")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public MemorySnapshotMetadata()
 	{
 	}

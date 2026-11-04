@@ -30,7 +30,7 @@ public class XmlAnyElementAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000D01")]
-		[Address(RVA = "0x4810980", Offset = "0x4810980", VA = "0x4810980")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ public class XmlAnyElementAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D02")]
-		[Address(RVA = "0x48109B0", Offset = "0x48109B0", VA = "0x48109B0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ public class XmlAnyElementAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D03")]
-		[Address(RVA = "0x48109C0", Offset = "0x48109C0", VA = "0x48109C0")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(int);
@@ -60,13 +60,13 @@ public class XmlAnyElementAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D00")]
-	[Address(RVA = "0x4810970", Offset = "0x4810970", VA = "0x4810970")]
+	[Address(RVA = "0x2759E70", Offset = "0x2758470", VA = "0x182759E70")]
 	public XmlAnyElementAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x48109D0", Offset = "0x48109D0", VA = "0x48109D0")]
+	[Address(RVA = "0x2759DE0", Offset = "0x27583E0", VA = "0x182759DE0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

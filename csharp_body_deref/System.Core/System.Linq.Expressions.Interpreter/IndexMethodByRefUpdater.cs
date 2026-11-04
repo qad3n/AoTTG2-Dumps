@@ -25,20 +25,20 @@ internal sealed class IndexMethodByRefUpdater : ByRefUpdater
 	[FieldOffset(Offset = "0x38")]
 	private readonly LocalDefinition[] _args;
 
-	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x44F1EB0", Offset = "0x44F1EB0", VA = "0x44F1EB0")]
+	[Token(Token = "0x60008ED")]
+	[Address(RVA = "0x246FCE0", Offset = "0x246E2E0", VA = "0x18246FCE0")]
 	public IndexMethodByRefUpdater(LocalDefinition? obj, LocalDefinition[] args, MethodInfo indexer, int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x44F1F20", Offset = "0x44F1F20", VA = "0x44F1F20", Slot = "4")]
+	[Token(Token = "0x60008EE")]
+	[Address(RVA = "0x246FAC0", Offset = "0x246E0C0", VA = "0x18246FAC0", Slot = "4")]
 	public override void Update(InterpretedFrame frame, object value)
 	{
 	}
 
-	[Token(Token = "0x60008F0")]
-	[Address(RVA = "0x44F21D0", Offset = "0x44F21D0", VA = "0x44F21D0", Slot = "5")]
+	[Token(Token = "0x60008EF")]
+	[Address(RVA = "0x246F910", Offset = "0x246DF10", VA = "0x18246F910", Slot = "5")]
 	public override void UndefineTemps(InstructionList instructions, LocalVariables locals)
 	{
 	}

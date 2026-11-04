@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003E6")]
+[Token(Token = "0x2000415")]
 internal class TypeLoadExceptionHolder
 {
-	[Token(Token = "0x4001011")]
+	[Token(Token = "0x4001017")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_typeName;
 
-	[Token(Token = "0x17000438")]
+	[Token(Token = "0x1700043A")]
 	internal string TypeName
 	{
-		[Token(Token = "0x6001FE3")]
-		[Address(RVA = "0x3B9E080", Offset = "0x3B9E080", VA = "0x3B9E080")]
+		[Token(Token = "0x6002052")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001FE2")]
-	[Address(RVA = "0x3B9E050", Offset = "0x3B9E050", VA = "0x3B9E050")]
+	[Token(Token = "0x6002051")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	internal TypeLoadExceptionHolder(string typeName)
 	{
 	}

@@ -10,64 +10,64 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200050F")]
+[Token(Token = "0x2000669")]
 internal class BasePerk
 {
-	[Token(Token = "0x40017AE")]
+	[Token(Token = "0x4001E3A")]
 	[FieldOffset(Offset = "0x10")]
 	public bool Enabled;
 
-	[Token(Token = "0x40017AF")]
+	[Token(Token = "0x4001E3B")]
 	[FieldOffset(Offset = "0x14")]
 	public int CurrPoints;
 
-	[Token(Token = "0x40017B0")]
+	[Token(Token = "0x4001E3C")]
 	[FieldOffset(Offset = "0x18")]
 	protected Dictionary<string, int> Requirements;
 
-	[Token(Token = "0x170009D3")]
+	[Token(Token = "0x17000B03")]
 	public virtual string Name
 	{
-		[Token(Token = "0x6003547")]
-		[Address(RVA = "0x41E6B90", Offset = "0x41E6B90", VA = "0x41E6B90", Slot = "4")]
+		[Token(Token = "0x6003F74")]
+		[Address(RVA = "0x21469C0", Offset = "0x2144FC0", VA = "0x1821469C0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009D4")]
+	[Token(Token = "0x17000B04")]
 	public virtual int MaxPoints
 	{
-		[Token(Token = "0x6003548")]
-		[Address(RVA = "0x41E6BC0", Offset = "0x41E6BC0", VA = "0x41E6BC0", Slot = "5")]
+		[Token(Token = "0x6003F75")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003549")]
-	[Address(RVA = "0x41E6B00", Offset = "0x41E6B00", VA = "0x41E6B00")]
+	[Token(Token = "0x6003F76")]
+	[Address(RVA = "0x2146930", Offset = "0x2144F30", VA = "0x182146930")]
 	public BasePerk()
 	{
 	}
 
-	[Token(Token = "0x600354A")]
-	[Address(RVA = "0x41E6BD0", Offset = "0x41E6BD0", VA = "0x41E6BD0", Slot = "6")]
+	[Token(Token = "0x6003F77")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	protected virtual void SetupRequirements()
 	{
 	}
 
-	[Token(Token = "0x600354B")]
-	[Address(RVA = "0x41E6BE0", Offset = "0x41E6BE0", VA = "0x41E6BE0", Slot = "7")]
+	[Token(Token = "0x6003F78")]
+	[Address(RVA = "0x21466F0", Offset = "0x2144CF0", VA = "0x1821466F0", Slot = "7")]
 	public virtual bool HasRequirements(Dictionary<string, BasePerk> perks)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600354C")]
-	[Address(RVA = "0x41E6E70", Offset = "0x41E6E70", VA = "0x41E6E70", Slot = "8")]
+	[Token(Token = "0x6003F79")]
+	[Address(RVA = "0x21468D0", Offset = "0x2144ED0", VA = "0x1821468D0", Slot = "8")]
 	public virtual bool Validate(Dictionary<string, BasePerk> perks)
 	{
 		return default(bool);

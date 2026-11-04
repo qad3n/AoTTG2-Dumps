@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x20004FE")]
+[Token(Token = "0x20005F5")]
 internal static class LayoutProcessor
 {
-	[Token(Token = "0x40010A7")]
+	[Token(Token = "0x400163E")]
 	[FieldOffset(Offset = "0x0")]
 	private static ILayoutProcessor s_Processor;
 
-	[Token(Token = "0x6001F17")]
-	[Address(RVA = "0x4FBA6E0", Offset = "0x4FBA6E0", VA = "0x4FBA6E0")]
+	[Token(Token = "0x6002C5E")]
+	[Address(RVA = "0x31C2C00", Offset = "0x31C1200", VA = "0x1831C2C00")]
 	public static void CalculateLayout(LayoutNode node, float parentWidth, float parentHeight, LayoutDirection parentDirection)
 	{
 	}

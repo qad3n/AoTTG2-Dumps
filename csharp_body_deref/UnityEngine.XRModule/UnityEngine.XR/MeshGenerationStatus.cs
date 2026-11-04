@@ -11,19 +11,19 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x2000019")]
-[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
+[Token(Token = "0x200001A")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 public enum MeshGenerationStatus
 {
-	[Token(Token = "0x400006C")]
-	Success,
-	[Token(Token = "0x400006D")]
-	InvalidMeshId,
-	[Token(Token = "0x400006E")]
-	GenerationAlreadyInProgress,
-	[Token(Token = "0x400006F")]
-	Canceled,
 	[Token(Token = "0x4000070")]
+	Success,
+	[Token(Token = "0x4000071")]
+	InvalidMeshId,
+	[Token(Token = "0x4000072")]
+	GenerationAlreadyInProgress,
+	[Token(Token = "0x4000073")]
+	Canceled,
+	[Token(Token = "0x4000074")]
 	UnknownError
 }

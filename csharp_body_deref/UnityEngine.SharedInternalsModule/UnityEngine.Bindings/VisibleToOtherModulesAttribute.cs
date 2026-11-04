@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace UnityEngine.Bindings;
 
 [Token(Token = "0x2000008")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
 [VisibleToOtherModules]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface | AttributeTargets.Delegate, Inherited = false)]
 internal class VisibleToOtherModulesAttribute : Attribute
 {
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x4E9DB70", Offset = "0x4E9DB70", VA = "0x4E9DB70")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public VisibleToOtherModulesAttribute()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4E9DB80", Offset = "0x4E9DB80", VA = "0x4E9DB80")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public VisibleToOtherModulesAttribute(params string[] modules)
 	{
 	}

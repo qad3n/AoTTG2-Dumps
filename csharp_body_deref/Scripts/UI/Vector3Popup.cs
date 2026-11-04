@@ -15,118 +15,118 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000591")]
+[Token(Token = "0x2000703")]
 internal class Vector3Popup : PromptPopup
 {
-	[Token(Token = "0x4001B77")]
+	[Token(Token = "0x4002331")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Vector3Setting _setting;
 
-	[Token(Token = "0x4001B78")]
+	[Token(Token = "0x4002332")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private FloatSetting _x;
 
-	[Token(Token = "0x4001B79")]
+	[Token(Token = "0x4002333")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private FloatSetting _y;
 
-	[Token(Token = "0x4001B7A")]
+	[Token(Token = "0x4002334")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	private FloatSetting _z;
 
-	[Token(Token = "0x4001B7B")]
+	[Token(Token = "0x4002335")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	private List<GameObject> _inputs;
 
-	[Token(Token = "0x4001B7C")]
+	[Token(Token = "0x4002336")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private UnityAction _onChangeVector;
 
-	[Token(Token = "0x4001B7D")]
+	[Token(Token = "0x4002337")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	private Text _text;
 
-	[Token(Token = "0x17000AFD")]
+	[Token(Token = "0x17000C55")]
 	protected override string Title
 	{
-		[Token(Token = "0x60039AD")]
-		[Address(RVA = "0x42564B0", Offset = "0x42564B0", VA = "0x42564B0", Slot = "35")]
+		[Token(Token = "0x60044DD")]
+		[Address(RVA = "0x21E9100", Offset = "0x21E7700", VA = "0x1821E9100", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000AFE")]
+	[Token(Token = "0x17000C56")]
 	protected override float Width
 	{
-		[Token(Token = "0x60039AE")]
-		[Address(RVA = "0x42564E0", Offset = "0x42564E0", VA = "0x42564E0", Slot = "5")]
+		[Token(Token = "0x60044DE")]
+		[Address(RVA = "0x2182BD0", Offset = "0x21811D0", VA = "0x182182BD0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000AFF")]
+	[Token(Token = "0x17000C57")]
 	protected override float Height
 	{
-		[Token(Token = "0x60039AF")]
-		[Address(RVA = "0x42564F0", Offset = "0x42564F0", VA = "0x42564F0", Slot = "6")]
+		[Token(Token = "0x60044DF")]
+		[Address(RVA = "0x21D2010", Offset = "0x21D0610", VA = "0x1821D2010", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B00")]
+	[Token(Token = "0x17000C58")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x60039B0")]
-		[Address(RVA = "0x4256500", Offset = "0x4256500", VA = "0x4256500", Slot = "11")]
+		[Token(Token = "0x60044E0")]
+		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B01")]
+	[Token(Token = "0x17000C59")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x60039B1")]
-		[Address(RVA = "0x4256510", Offset = "0x4256510", VA = "0x4256510", Slot = "12")]
+		[Token(Token = "0x60044E1")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x60039B2")]
-	[Address(RVA = "0x4256520", Offset = "0x4256520", VA = "0x4256520", Slot = "20")]
+	[Token(Token = "0x60044E2")]
+	[Address(RVA = "0x21E8C20", Offset = "0x21E7220", VA = "0x1821E8C20", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60039B3")]
-	[Address(RVA = "0x42566D0", Offset = "0x42566D0", VA = "0x42566D0")]
+	[Token(Token = "0x60044E3")]
+	[Address(RVA = "0x21E8DE0", Offset = "0x21E73E0", VA = "0x1821E8DE0")]
 	public void Show(Vector3Setting setting, Text text, UnityAction onChangeVector)
 	{
 	}
 
-	[Token(Token = "0x60039B4")]
-	[Address(RVA = "0x4256800", Offset = "0x4256800", VA = "0x4256800")]
+	[Token(Token = "0x60044E4")]
+	[Address(RVA = "0x21E85D0", Offset = "0x21E6BD0", VA = "0x1821E85D0")]
 	private void CreateInputs()
 	{
 	}
 
-	[Token(Token = "0x60039B5")]
-	[Address(RVA = "0x4256C50", Offset = "0x4256C50", VA = "0x4256C50")]
+	[Token(Token = "0x60044E5")]
+	[Address(RVA = "0x21E8A50", Offset = "0x21E7050", VA = "0x1821E8A50")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60039B6")]
-	[Address(RVA = "0x4256E00", Offset = "0x4256E00", VA = "0x4256E00")]
+	[Token(Token = "0x60044E6")]
+	[Address(RVA = "0x21E8F90", Offset = "0x21E7590", VA = "0x1821E8F90")]
 	public Vector3Popup()
 	{
 	}

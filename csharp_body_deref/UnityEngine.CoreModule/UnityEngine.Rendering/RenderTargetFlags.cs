@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002B8")]
+[Token(Token = "0x2000334")]
 [Flags]
 public enum RenderTargetFlags
 {
-	[Token(Token = "0x40007A6")]
+	[Token(Token = "0x40008D6")]
 	None = 0,
-	[Token(Token = "0x40007A7")]
+	[Token(Token = "0x40008D7")]
 	ReadOnlyDepth = 1,
-	[Token(Token = "0x40007A8")]
+	[Token(Token = "0x40008D8")]
 	ReadOnlyStencil = 2,
-	[Token(Token = "0x40007A9")]
-	ReadOnlyDepthStencil = 3
+	[Token(Token = "0x40008D9")]
+	ReadOnlyDepthStencil = ReadOnlyDepth | ReadOnlyStencil
 }

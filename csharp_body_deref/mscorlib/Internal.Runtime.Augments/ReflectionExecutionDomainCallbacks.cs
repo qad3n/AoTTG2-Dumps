@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace Internal.Runtime.Augments;
 
-[Token(Token = "0x2000063")]
+[Token(Token = "0x200008C")]
 internal class ReflectionExecutionDomainCallbacks
 {
-	[Token(Token = "0x600022D")]
-	[Address(RVA = "0x3AF35F0", Offset = "0x3AF35F0", VA = "0x3AF35F0")]
+	[Token(Token = "0x600026C")]
+	[Address(RVA = "0x1964F30", Offset = "0x1963530", VA = "0x181964F30")]
 	internal Exception CreateMissingMetadataException(Type attributeType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x3AF35E0", Offset = "0x3AF35E0", VA = "0x3AF35E0")]
+	[Token(Token = "0x600026D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ReflectionExecutionDomainCallbacks()
 	{
 	}

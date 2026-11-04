@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200020B")]
+[Token(Token = "0x200020E")]
 public interface IAsyncOnDropHandler
 {
-	[Token(Token = "0x6000C0D")]
+	[Token(Token = "0x6000C31")]
 	UniTask<PointerEventData> OnDropAsync();
 }

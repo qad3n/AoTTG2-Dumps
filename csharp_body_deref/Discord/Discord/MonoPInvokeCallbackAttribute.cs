@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000074")]
+[Token(Token = "0x2000072")]
 internal class MonoPInvokeCallbackAttribute : Attribute
 {
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x2334250", Offset = "0x2334250", VA = "0x2334250")]
+	[Token(Token = "0x600011B")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public MonoPInvokeCallbackAttribute()
 	{
 	}

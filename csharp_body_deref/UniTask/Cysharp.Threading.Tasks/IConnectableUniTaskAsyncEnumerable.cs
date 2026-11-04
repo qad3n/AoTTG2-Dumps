@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000032")]
 public interface IConnectableUniTaskAsyncEnumerable<out T> : IUniTaskAsyncEnumerable<T>
 {
-	[Token(Token = "0x6000117")]
+	[Token(Token = "0x600010F")]
 	IDisposable Connect();
 }

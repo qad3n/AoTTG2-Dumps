@@ -23,14 +23,14 @@ internal sealed class LocalVariable
 	[Token(Token = "0x170001F8")]
 	public bool IsBoxed
 	{
-		[Token(Token = "0x600099F")]
-		[Address(RVA = "0x44F18D0", Offset = "0x44F18D0", VA = "0x44F18D0")]
+		[Token(Token = "0x600099E")]
+		[Address(RVA = "0x2473230", Offset = "0x2471830", VA = "0x182473230")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60009A0")]
-		[Address(RVA = "0x44F7710", Offset = "0x44F7710", VA = "0x44F7710")]
+		[Token(Token = "0x600099F")]
+		[Address(RVA = "0x2473240", Offset = "0x2471840", VA = "0x182473240")]
 		set
 		{
 		}
@@ -39,22 +39,22 @@ internal sealed class LocalVariable
 	[Token(Token = "0x170001F9")]
 	public bool InClosure
 	{
-		[Token(Token = "0x60009A1")]
-		[Address(RVA = "0x44F18C0", Offset = "0x44F18C0", VA = "0x44F18C0")]
+		[Token(Token = "0x60009A0")]
+		[Address(RVA = "0x2473220", Offset = "0x2471820", VA = "0x182473220")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x44F7730", Offset = "0x44F7730", VA = "0x44F7730")]
+	[Token(Token = "0x60009A1")]
+	[Address(RVA = "0x24731E0", Offset = "0x24717E0", VA = "0x1824731E0")]
 	internal LocalVariable(int index, bool closure)
 	{
 	}
 
-	[Token(Token = "0x60009A3")]
-	[Address(RVA = "0x44F7760", Offset = "0x44F7760", VA = "0x44F7760", Slot = "3")]
+	[Token(Token = "0x60009A2")]
+	[Address(RVA = "0x2473100", Offset = "0x2471700", VA = "0x182473100", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

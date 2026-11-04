@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006DA")]
+[Token(Token = "0x2000852")]
 internal class MapEditorTexturePanel : MapEditorAddObjectPanel
 {
-	[Token(Token = "0x600445A")]
-	[Address(RVA = "0x4339B20", Offset = "0x4339B20", VA = "0x4339B20", Slot = "35")]
+	[Token(Token = "0x600505C")]
+	[Address(RVA = "0x22D3980", Offset = "0x22D1F80", VA = "0x1822D3980", Slot = "35")]
 	protected override List<string> GetItems(string category)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600445B")]
-	[Address(RVA = "0x4339D10", Offset = "0x4339D10", VA = "0x4339D10", Slot = "36")]
+	[Token(Token = "0x600505D")]
+	[Address(RVA = "0x22D3B90", Offset = "0x22D2190", VA = "0x1822D3B90", Slot = "36")]
 	protected override string GetPreviewName(string item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600445C")]
-	[Address(RVA = "0x4339D50", Offset = "0x4339D50", VA = "0x4339D50", Slot = "37")]
+	[Token(Token = "0x600505E")]
+	[Address(RVA = "0x22D3BD0", Offset = "0x22D21D0", VA = "0x1822D3BD0", Slot = "37")]
 	protected override void OnSelectObject(string name)
 	{
 	}
 
-	[Token(Token = "0x600445D")]
-	[Address(RVA = "0x4339E90", Offset = "0x4339E90", VA = "0x4339E90")]
+	[Token(Token = "0x600505F")]
+	[Address(RVA = "0x22D3D10", Offset = "0x22D2310", VA = "0x1822D3D10")]
 	public MapEditorTexturePanel()
 	{
 	}

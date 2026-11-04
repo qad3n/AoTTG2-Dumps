@@ -10,55 +10,55 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200042B")]
+[Token(Token = "0x200045A")]
 internal sealed class ValueFixup
 {
-	[Token(Token = "0x4001208")]
+	[Token(Token = "0x400120A")]
 	[FieldOffset(Offset = "0x10")]
 	internal System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum valueFixupEnum;
 
-	[Token(Token = "0x4001209")]
+	[Token(Token = "0x400120B")]
 	[FieldOffset(Offset = "0x18")]
 	internal Array arrayObj;
 
-	[Token(Token = "0x400120A")]
+	[Token(Token = "0x400120C")]
 	[FieldOffset(Offset = "0x20")]
 	internal int[] indexMap;
 
-	[Token(Token = "0x400120B")]
+	[Token(Token = "0x400120D")]
 	[FieldOffset(Offset = "0x28")]
 	internal object header;
 
-	[Token(Token = "0x400120C")]
+	[Token(Token = "0x400120E")]
 	[FieldOffset(Offset = "0x30")]
 	internal object memberObject;
 
-	[Token(Token = "0x400120D")]
+	[Token(Token = "0x400120F")]
 	[FieldOffset(Offset = "0x0")]
 	internal static MemberInfo valueInfo;
 
-	[Token(Token = "0x400120E")]
+	[Token(Token = "0x4001210")]
 	[FieldOffset(Offset = "0x38")]
 	internal System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo;
 
-	[Token(Token = "0x400120F")]
+	[Token(Token = "0x4001211")]
 	[FieldOffset(Offset = "0x40")]
 	internal string memberName;
 
-	[Token(Token = "0x600219D")]
-	[Address(RVA = "0x3BBBEC0", Offset = "0x3BBBEC0", VA = "0x3BBBEC0")]
+	[Token(Token = "0x600220C")]
+	[Address(RVA = "0x1A38E30", Offset = "0x1A37430", VA = "0x181A38E30")]
 	internal ValueFixup(Array arrayObj, int[] indexMap)
 	{
 	}
 
-	[Token(Token = "0x600219E")]
-	[Address(RVA = "0x3BBBF10", Offset = "0x3BBBF10", VA = "0x3BBBF10")]
+	[Token(Token = "0x600220D")]
+	[Address(RVA = "0x1A38E90", Offset = "0x1A37490", VA = "0x181A38E90")]
 	internal ValueFixup(object memberObject, string memberName, System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo objectInfo)
 	{
 	}
 
-	[Token(Token = "0x600219F")]
-	[Address(RVA = "0x3BBBF70", Offset = "0x3BBBF70", VA = "0x3BBBF70")]
+	[Token(Token = "0x600220E")]
+	[Address(RVA = "0x1A38AF0", Offset = "0x1A370F0", VA = "0x181A38AF0")]
 	internal void Fixup(System.Runtime.Serialization.Formatters.Binary.ParseRecord record, System.Runtime.Serialization.Formatters.Binary.ParseRecord parent)
 	{
 	}

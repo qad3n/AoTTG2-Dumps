@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000164")]
+[Token(Token = "0x2000158")]
 public enum SRPLensFlareDistribution
 {
-	[Token(Token = "0x4000620")]
+	[Token(Token = "0x40006A5")]
 	Uniform,
-	[Token(Token = "0x4000621")]
+	[Token(Token = "0x40006A6")]
 	Curve,
-	[Token(Token = "0x4000622")]
+	[Token(Token = "0x40006A7")]
 	Random
 }

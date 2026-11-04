@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200012B")]
+[Token(Token = "0x20002B3")]
 internal enum FtpOperation
 {
-	[Token(Token = "0x40005D3")]
+	[Token(Token = "0x40009E9")]
 	DownloadFile,
-	[Token(Token = "0x40005D4")]
+	[Token(Token = "0x40009EA")]
 	ListDirectory,
-	[Token(Token = "0x40005D5")]
+	[Token(Token = "0x40009EB")]
 	ListDirectoryDetails,
-	[Token(Token = "0x40005D6")]
+	[Token(Token = "0x40009EC")]
 	UploadFile,
-	[Token(Token = "0x40005D7")]
+	[Token(Token = "0x40009ED")]
 	UploadFileUnique,
-	[Token(Token = "0x40005D8")]
+	[Token(Token = "0x40009EE")]
 	AppendFile,
-	[Token(Token = "0x40005D9")]
+	[Token(Token = "0x40009EF")]
 	DeleteFile,
-	[Token(Token = "0x40005DA")]
+	[Token(Token = "0x40009F0")]
 	GetDateTimestamp,
-	[Token(Token = "0x40005DB")]
+	[Token(Token = "0x40009F1")]
 	GetFileSize,
-	[Token(Token = "0x40005DC")]
+	[Token(Token = "0x40009F2")]
 	Rename,
-	[Token(Token = "0x40005DD")]
+	[Token(Token = "0x40009F3")]
 	MakeDirectory,
-	[Token(Token = "0x40005DE")]
+	[Token(Token = "0x40009F4")]
 	RemoveDirectory,
-	[Token(Token = "0x40005DF")]
+	[Token(Token = "0x40009F5")]
 	PrintWorkingDirectory,
-	[Token(Token = "0x40005E0")]
+	[Token(Token = "0x40009F6")]
 	Other
 }

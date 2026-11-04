@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002BA")]
+[Token(Token = "0x2000336")]
 public enum ReflectionProbeMode
 {
-	[Token(Token = "0x40007B2")]
+	[Token(Token = "0x40008E2")]
 	Baked,
-	[Token(Token = "0x40007B3")]
+	[Token(Token = "0x40008E3")]
 	Realtime,
-	[Token(Token = "0x40007B4")]
+	[Token(Token = "0x40008E4")]
 	Custom
 }

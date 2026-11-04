@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x2000023")]
 public interface IMaskable
 {
-	[Token(Token = "0x600018A")]
+	[Token(Token = "0x600013E")]
 	void RecalculateMasking();
 }

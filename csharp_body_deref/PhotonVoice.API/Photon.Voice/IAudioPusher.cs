@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000066")]
+[Token(Token = "0x2000064")]
 public interface IAudioPusher<T> : IAudioDesc, IDisposable
 {
-	[Token(Token = "0x6000236")]
+	[Token(Token = "0x6000234")]
 	void SetCallback(Action<T[]> callback, ObjectFactory<T[], int> bufferFactory);
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x200007C")]
 internal enum TreeAccessMethod
 {
-	[Token(Token = "0x400026A")]
+	[Token(Token = "0x400027D")]
 	KEY_SEARCH_AND_INDEX = 1,
-	[Token(Token = "0x400026B")]
+	[Token(Token = "0x400027E")]
 	INDEX_ONLY
 }

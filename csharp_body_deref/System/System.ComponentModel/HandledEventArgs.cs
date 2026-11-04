@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000295")]
+[Token(Token = "0x20001A0")]
 public class HandledEventArgs : EventArgs
 {
-	[Token(Token = "0x170003A5")]
+	[Token(Token = "0x17000214")]
 	public bool Handled
 	{
-		[Token(Token = "0x6001067")]
-		[Address(RVA = "0x48946F0", Offset = "0x48946F0", VA = "0x48946F0")]
+		[Token(Token = "0x6000AAF")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001068")]
-		[Address(RVA = "0x4894700", Offset = "0x4894700", VA = "0x4894700")]
+		[Token(Token = "0x6000AB0")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001065")]
-	[Address(RVA = "0x4894640", Offset = "0x4894640", VA = "0x4894640")]
+	[Token(Token = "0x6000AAD")]
+	[Address(RVA = "0x289E9F0", Offset = "0x289CFF0", VA = "0x18289E9F0")]
 	public HandledEventArgs()
 	{
 	}
 
-	[Token(Token = "0x6001066")]
-	[Address(RVA = "0x4894690", Offset = "0x4894690", VA = "0x4894690")]
+	[Token(Token = "0x6000AAE")]
+	[Address(RVA = "0x289E990", Offset = "0x289CF90", VA = "0x18289E990")]
 	public HandledEventArgs(bool defaultHandledValue)
 	{
 	}

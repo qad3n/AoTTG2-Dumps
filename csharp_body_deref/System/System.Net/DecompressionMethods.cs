@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200018E")]
+[Token(Token = "0x2000316")]
 [Flags]
 public enum DecompressionMethods
 {
-	[Token(Token = "0x40007BA")]
+	[Token(Token = "0x4000BD0")]
 	None = 0,
-	[Token(Token = "0x40007BB")]
+	[Token(Token = "0x4000BD1")]
 	GZip = 1,
-	[Token(Token = "0x40007BC")]
+	[Token(Token = "0x4000BD2")]
 	Deflate = 2
 }

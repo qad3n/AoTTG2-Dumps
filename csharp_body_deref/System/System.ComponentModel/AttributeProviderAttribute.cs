@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000267")]
+[Token(Token = "0x2000172")]
 [AttributeUsage(AttributeTargets.Property)]
 public class AttributeProviderAttribute : Attribute
 {
-	[Token(Token = "0x17000355")]
+	[Token(Token = "0x170001C4")]
 	public string TypeName
 	{
-		[Token(Token = "0x6000F01")]
-		[Address(RVA = "0x4885E40", Offset = "0x4885E40", VA = "0x4885E40")]
+		[Token(Token = "0x6000949")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public class AttributeProviderAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x17000356")]
+	[Token(Token = "0x170001C5")]
 	public string PropertyName
 	{
-		[Token(Token = "0x6000F02")]
-		[Address(RVA = "0x4885E50", Offset = "0x4885E50", VA = "0x4885E50")]
+		[Token(Token = "0x600094A")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,20 +38,20 @@ public class AttributeProviderAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000EFE")]
-	[Address(RVA = "0x4885C50", Offset = "0x4885C50", VA = "0x4885C50")]
+	[Token(Token = "0x6000946")]
+	[Address(RVA = "0x2892790", Offset = "0x2890D90", VA = "0x182892790")]
 	public AttributeProviderAttribute(string typeName)
 	{
 	}
 
-	[Token(Token = "0x6000EFF")]
-	[Address(RVA = "0x4885CD0", Offset = "0x4885CD0", VA = "0x4885CD0")]
+	[Token(Token = "0x6000947")]
+	[Address(RVA = "0x28925E0", Offset = "0x2890BE0", VA = "0x1828925E0")]
 	public AttributeProviderAttribute(string typeName, string propertyName)
 	{
 	}
 
-	[Token(Token = "0x6000F00")]
-	[Address(RVA = "0x4885D80", Offset = "0x4885D80", VA = "0x4885D80")]
+	[Token(Token = "0x6000948")]
+	[Address(RVA = "0x28926D0", Offset = "0x2890CD0", VA = "0x1828926D0")]
 	public AttributeProviderAttribute(Type type)
 	{
 	}

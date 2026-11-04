@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A2")]
+[Token(Token = "0x20001CD")]
 internal class ByteMatcher
 {
-	[Token(Token = "0x40006F6")]
+	[Token(Token = "0x400075A")]
 	[FieldOffset(Offset = "0x10")]
 	private Hashtable map;
 
-	[Token(Token = "0x40006F7")]
+	[Token(Token = "0x400075B")]
 	[FieldOffset(Offset = "0x18")]
 	private Hashtable starts;
 
-	[Token(Token = "0x6001053")]
-	[Address(RVA = "0x3D198E0", Offset = "0x3D198E0", VA = "0x3D198E0")]
+	[Token(Token = "0x60010AA")]
+	[Address(RVA = "0x1B7BF00", Offset = "0x1B7A500", VA = "0x181B7BF00")]
 	public void AddMapping(System.TermInfoStrings key, byte[] val)
 	{
 	}
 
-	[Token(Token = "0x6001054")]
-	[Address(RVA = "0x3D199E0", Offset = "0x3D199E0", VA = "0x3D199E0")]
+	[Token(Token = "0x60010AB")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Sort()
 	{
 	}
 
-	[Token(Token = "0x6001055")]
-	[Address(RVA = "0x3D15A80", Offset = "0x3D15A80", VA = "0x3D15A80")]
+	[Token(Token = "0x60010AC")]
+	[Address(RVA = "0x1B7C300", Offset = "0x1B7A900", VA = "0x181B7C300")]
 	public bool StartsWith(int c)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001056")]
-	[Address(RVA = "0x3D15AD0", Offset = "0x3D15AD0", VA = "0x3D15AD0")]
+	[Token(Token = "0x60010AD")]
+	[Address(RVA = "0x1B7C010", Offset = "0x1B7A610", VA = "0x181B7C010")]
 	public System.TermInfoStrings Match(char[] buffer, int offset, int length, out int used)
 	{
 		return default(System.TermInfoStrings);
 	}
 
-	[Token(Token = "0x6001057")]
-	[Address(RVA = "0x3D19820", Offset = "0x3D19820", VA = "0x3D19820")]
+	[Token(Token = "0x60010AE")]
+	[Address(RVA = "0x1B7C350", Offset = "0x1B7A950", VA = "0x181B7C350")]
 	public ByteMatcher()
 	{
 	}

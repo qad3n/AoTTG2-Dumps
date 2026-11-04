@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000487")]
+[Token(Token = "0x20004B6")]
 public readonly struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion
 {
-	[Token(Token = "0x4001307")]
+	[Token(Token = "0x4001309")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Action<object> s_invokeActionDelegate;
 
-	[Token(Token = "0x4001308")]
+	[Token(Token = "0x400130A")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ValueTask _value;
 
-	[Token(Token = "0x17000477")]
+	[Token(Token = "0x1700047A")]
 	public bool IsCompleted
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6002292")]
-		[Address(RVA = "0x3BC1450", Offset = "0x3BC1450", VA = "0x3BC1450")]
+		[Token(Token = "0x6002312")]
+		[Address(RVA = "0x1A39470", Offset = "0x1A37A70", VA = "0x181A39470")]
 		get
 		{
 			return default(bool);
@@ -35,44 +35,44 @@ public readonly struct ValueTaskAwaiter : ICriticalNotifyCompletion, INotifyComp
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002291")]
-	[Address(RVA = "0x3BC1440", Offset = "0x3BC1440", VA = "0x3BC1440")]
+	[Token(Token = "0x6002311")]
+	[Address(RVA = "0xEF4190", Offset = "0xEF2790", VA = "0x180EF4190")]
 	internal ValueTaskAwaiter(ValueTask value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002293")]
-	[Address(RVA = "0x3BC15C0", Offset = "0x3BC15C0", VA = "0x3BC15C0")]
+	[Token(Token = "0x6002313")]
+	[Address(RVA = "0x1A38EF0", Offset = "0x1A374F0", VA = "0x181A38EF0")]
 	[System.Diagnostics.StackTraceHidden]
 	public void GetResult()
 	{
 	}
 
-	[Token(Token = "0x6002294")]
-	[Address(RVA = "0x3BC1630", Offset = "0x3BC1630", VA = "0x3BC1630", Slot = "5")]
+	[Token(Token = "0x6002314")]
+	[Address(RVA = "0x1A38F40", Offset = "0x1A37540", VA = "0x181A38F40", Slot = "5")]
 	public void OnCompleted(Action continuation)
 	{
 	}
 
-	[Token(Token = "0x6002295")]
-	[Address(RVA = "0x3BC17E0", Offset = "0x3BC17E0", VA = "0x3BC17E0", Slot = "4")]
+	[Token(Token = "0x6002315")]
+	[Address(RVA = "0x1A39170", Offset = "0x1A37770", VA = "0x181A39170", Slot = "4")]
 	public void UnsafeOnCompleted(Action continuation)
 	{
 	}
 }
-[Token(Token = "0x2000489")]
+[Token(Token = "0x20004B8")]
 public readonly struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, INotifyCompletion
 {
-	[Token(Token = "0x400130A")]
+	[Token(Token = "0x400130C")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ValueTask<TResult> _value;
 
-	[Token(Token = "0x17000478")]
+	[Token(Token = "0x1700047B")]
 	public bool IsCompleted
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x600229B")]
+		[Token(Token = "0x600231B")]
 		get
 		{
 			return default(bool);
@@ -80,25 +80,25 @@ public readonly struct ValueTaskAwaiter<TResult> : ICriticalNotifyCompletion, IN
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600229A")]
+	[Token(Token = "0x600231A")]
 	internal ValueTaskAwaiter(ValueTask<TResult> value)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600229C")]
+	[Token(Token = "0x600231C")]
 	[System.Diagnostics.StackTraceHidden]
 	public TResult GetResult()
 	{
 		return (TResult)null;
 	}
 
-	[Token(Token = "0x600229D")]
+	[Token(Token = "0x600231D")]
 	public void OnCompleted(Action continuation)
 	{
 	}
 
-	[Token(Token = "0x600229E")]
+	[Token(Token = "0x600231E")]
 	public void UnsafeOnCompleted(Action continuation)
 	{
 	}

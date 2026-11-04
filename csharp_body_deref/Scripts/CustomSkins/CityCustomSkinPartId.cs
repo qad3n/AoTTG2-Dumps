@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200023F")]
+[Token(Token = "0x2000359")]
 public enum CityCustomSkinPartId
 {
-	[Token(Token = "0x4000C54")]
+	[Token(Token = "0x4001180")]
 	House,
-	[Token(Token = "0x4000C55")]
+	[Token(Token = "0x4001181")]
 	Ground,
-	[Token(Token = "0x4000C56")]
+	[Token(Token = "0x4001182")]
 	Wall,
-	[Token(Token = "0x4000C57")]
+	[Token(Token = "0x4001183")]
 	Gate
 }

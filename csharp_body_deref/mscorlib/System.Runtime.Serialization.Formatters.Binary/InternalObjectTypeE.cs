@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003FB")]
+[Token(Token = "0x200042A")]
 internal enum InternalObjectTypeE
 {
-	[Token(Token = "0x400107C")]
-	Empty,
-	[Token(Token = "0x400107D")]
-	Object,
 	[Token(Token = "0x400107E")]
+	Empty,
+	[Token(Token = "0x400107F")]
+	Object,
+	[Token(Token = "0x4001080")]
 	Array
 }

@@ -10,141 +10,141 @@ using Settings;
 
 namespace Characters;
 
-[Token(Token = "0x20004DE")]
+[Token(Token = "0x2000637")]
 internal abstract class BaseUseable
 {
-	[Token(Token = "0x40015A9")]
+	[Token(Token = "0x4001C1B")]
 	[FieldOffset(Offset = "0x10")]
 	public float Cooldown;
 
-	[Token(Token = "0x40015AA")]
+	[Token(Token = "0x4001C1C")]
 	[FieldOffset(Offset = "0x14")]
 	public int UsesLeft;
 
-	[Token(Token = "0x40015AB")]
+	[Token(Token = "0x4001C1D")]
 	[FieldOffset(Offset = "0x18")]
 	public int MaxUses;
 
-	[Token(Token = "0x40015AC")]
+	[Token(Token = "0x4001C1E")]
 	[FieldOffset(Offset = "0x1C")]
 	public bool IsActive;
 
-	[Token(Token = "0x40015AD")]
+	[Token(Token = "0x4001C1F")]
 	[FieldOffset(Offset = "0x20")]
 	public string Name;
 
-	[Token(Token = "0x40015AE")]
+	[Token(Token = "0x4001C20")]
 	[FieldOffset(Offset = "0x28")]
 	protected float _lastUseTime;
 
-	[Token(Token = "0x40015AF")]
+	[Token(Token = "0x4001C21")]
 	[FieldOffset(Offset = "0x30")]
 	protected BaseCharacter _owner;
 
-	[Token(Token = "0x600339C")]
-	[Address(RVA = "0x41A8C90", Offset = "0x41A8C90", VA = "0x41A8C90")]
+	[Token(Token = "0x6003D7E")]
+	[Address(RVA = "0x21131F0", Offset = "0x21117F0", VA = "0x1821131F0")]
 	public BaseUseable(BaseCharacter owner, float cooldown = 0f, int maxUses = -1)
 	{
 	}
 
-	[Token(Token = "0x600339D")]
-	[Address(RVA = "0x41A8CF0", Offset = "0x41A8CF0", VA = "0x41A8CF0", Slot = "4")]
+	[Token(Token = "0x6003D7F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public virtual void Reload()
 	{
 	}
 
-	[Token(Token = "0x600339E")]
-	[Address(RVA = "0x41A8D00", Offset = "0x41A8D00", VA = "0x41A8D00", Slot = "5")]
+	[Token(Token = "0x6003D80")]
+	[Address(RVA = "0x2113140", Offset = "0x2111740", VA = "0x182113140", Slot = "5")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x600339F")]
-	[Address(RVA = "0x41A8D10", Offset = "0x41A8D10", VA = "0x41A8D10")]
+	[Token(Token = "0x6003D81")]
+	[Address(RVA = "0x2113150", Offset = "0x2111750", VA = "0x182113150")]
 	public void SetCooldownLeft(float cooldownLeft)
 	{
 	}
 
-	[Token(Token = "0x60033A0")]
-	[Address(RVA = "0x41A8D40", Offset = "0x41A8D40", VA = "0x41A8D40")]
+	[Token(Token = "0x6003D82")]
+	[Address(RVA = "0x2113000", Offset = "0x2111600", VA = "0x182113000")]
 	public float GetCooldownLeft()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60033A1")]
-	[Address(RVA = "0x41A8D90", Offset = "0x41A8D90", VA = "0x41A8D90")]
+	[Token(Token = "0x6003D83")]
+	[Address(RVA = "0x2113190", Offset = "0x2111790", VA = "0x182113190")]
 	public void SetCooldownRatio(float ratio)
 	{
 	}
 
-	[Token(Token = "0x60033A2")]
-	[Address(RVA = "0x41A8DE0", Offset = "0x41A8DE0", VA = "0x41A8DE0")]
+	[Token(Token = "0x6003D84")]
+	[Address(RVA = "0x2113060", Offset = "0x2111660", VA = "0x182113060")]
 	public float GetCooldownRatio()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60033A3")]
-	[Address(RVA = "0x41A8E40", Offset = "0x41A8E40", VA = "0x41A8E40")]
+	[Token(Token = "0x6003D85")]
+	[Address(RVA = "0x2113100", Offset = "0x2111700", VA = "0x182113100")]
 	public bool HasUsesLeft()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033A4")]
-	[Address(RVA = "0x41A8E50", Offset = "0x41A8E50", VA = "0x41A8E50")]
+	[Token(Token = "0x6003D86")]
+	[Address(RVA = "0x21130E0", Offset = "0x21116E0", VA = "0x1821130E0")]
 	public float GetUsesRatio()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60033A5")]
-	[Address(RVA = "0x41A8E70", Offset = "0x41A8E70", VA = "0x41A8E70", Slot = "6")]
+	[Token(Token = "0x6003D87")]
+	[Address(RVA = "0x2112FC0", Offset = "0x21115C0", VA = "0x182112FC0", Slot = "6")]
 	public virtual bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033A6")]
-	[Address(RVA = "0x41A8EA0", Offset = "0x41A8EA0", VA = "0x41A8EA0", Slot = "7")]
+	[Token(Token = "0x6003D88")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 	public virtual bool HasDurability()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60033A7")]
-	[Address(RVA = "0x41A8EB0", Offset = "0x41A8EB0", VA = "0x41A8EB0", Slot = "8")]
+	[Token(Token = "0x6003D89")]
+	[Address(RVA = "0x2113110", Offset = "0x2111710", VA = "0x182113110", Slot = "8")]
 	protected virtual void OnUse()
 	{
 	}
 
-	[Token(Token = "0x60033A8")]
-	[Address(RVA = "0x41A8ED0", Offset = "0x41A8ED0", VA = "0x41A8ED0", Slot = "9")]
+	[Token(Token = "0x6003D8A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	protected virtual void Activate()
 	{
 	}
 
-	[Token(Token = "0x60033A9")]
-	[Address(RVA = "0x41A8EE0", Offset = "0x41A8EE0", VA = "0x41A8EE0", Slot = "10")]
+	[Token(Token = "0x6003D8B")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected virtual void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x60033AA")]
-	[Address(RVA = "0x41A8EF0", Offset = "0x41A8EF0", VA = "0x41A8EF0", Slot = "11")]
+	[Token(Token = "0x6003D8C")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "11")]
 	public virtual void ReadInput(KeybindSetting keybind)
 	{
 	}
 
-	[Token(Token = "0x60033AB")]
-	[Address(RVA = "0x41A8F00", Offset = "0x41A8F00", VA = "0x41A8F00", Slot = "12")]
+	[Token(Token = "0x6003D8D")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
 	public virtual void SetInput(bool key)
 	{
 	}
 
-	[Token(Token = "0x60033AC")]
-	[Address(RVA = "0x41A8F10", Offset = "0x41A8F10", VA = "0x41A8F10", Slot = "13")]
+	[Token(Token = "0x6003D8E")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "13")]
 	public virtual void OnFixedUpdate()
 	{
 	}

@@ -16,7 +16,7 @@ public abstract class JsonNameTable
 	public abstract string Get(char[] key, int start, int length);
 
 	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x3D54720", Offset = "0x3D54720", VA = "0x3D54720")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected JsonNameTable()
 	{
 	}

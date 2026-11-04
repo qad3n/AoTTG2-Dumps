@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x2000019")]
 public enum ColorMode
 {
-	[Token(Token = "0x400014D")]
+	[Token(Token = "0x400006A")]
 	Single,
-	[Token(Token = "0x400014E")]
+	[Token(Token = "0x400006B")]
 	HorizontalGradient,
-	[Token(Token = "0x400014F")]
+	[Token(Token = "0x400006C")]
 	VerticalGradient,
-	[Token(Token = "0x4000150")]
+	[Token(Token = "0x400006D")]
 	FourCornersGradient
 }

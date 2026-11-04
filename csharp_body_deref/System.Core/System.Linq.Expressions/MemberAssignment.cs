@@ -19,8 +19,8 @@ public sealed class MemberAssignment : MemberBinding
 	[Token(Token = "0x170000BE")]
 	public Expression Expression
 	{
-		[Token(Token = "0x600046E")]
-		[Address(RVA = "0x44BCCE0", Offset = "0x44BCCE0", VA = "0x44BCCE0")]
+		[Token(Token = "0x600046D")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;

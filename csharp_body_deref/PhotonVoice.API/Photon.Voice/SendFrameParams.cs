@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200006E")]
+[Token(Token = "0x200006C")]
 public readonly struct SendFrameParams
 {
 	[Token(Token = "0x1700009F")]
 	public bool TargetMe
 	{
-		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x3F26EE0", Offset = "0x3F26EE0", VA = "0x3F26EE0")]
+		[Token(Token = "0x600024C")]
+		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,8 +28,8 @@ public readonly struct SendFrameParams
 	[Token(Token = "0x170000A0")]
 	public int[] TargetPlayers
 	{
-		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x3F26EF0", Offset = "0x3F26EF0", VA = "0x3F26EF0")]
+		[Token(Token = "0x600024D")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,8 +40,8 @@ public readonly struct SendFrameParams
 	[Token(Token = "0x170000A1")]
 	public byte InterestGroup
 	{
-		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x3F26F00", Offset = "0x3F26F00", VA = "0x3F26F00")]
+		[Token(Token = "0x600024E")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
@@ -52,8 +52,8 @@ public readonly struct SendFrameParams
 	[Token(Token = "0x170000A2")]
 	public bool Reliable
 	{
-		[Token(Token = "0x6000251")]
-		[Address(RVA = "0x3F26F10", Offset = "0x3F26F10", VA = "0x3F26F10")]
+		[Token(Token = "0x600024F")]
+		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
 		[CompilerGenerated]
 		get
 		{
@@ -64,8 +64,8 @@ public readonly struct SendFrameParams
 	[Token(Token = "0x170000A3")]
 	public bool Encrypt
 	{
-		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x3F26F20", Offset = "0x3F26F20", VA = "0x3F26F20")]
+		[Token(Token = "0x6000250")]
+		[Address(RVA = "0xE5A340", Offset = "0xE58940", VA = "0x180E5A340")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,8 +73,8 @@ public readonly struct SendFrameParams
 		}
 	}
 
-	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x3F1F300", Offset = "0x3F1F300", VA = "0x3F1F300")]
+	[Token(Token = "0x6000251")]
+	[Address(RVA = "0x1D75780", Offset = "0x1D73D80", VA = "0x181D75780")]
 	public SendFrameParams(bool targetMe, int[] targetPlayers, byte interestGroup, bool reliable, bool encrypt)
 	{
 	}

@@ -10,68 +10,68 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003A2")]
+[Token(Token = "0x20003D1")]
 internal class CADMethodReturnMessage : System.Runtime.Remoting.Messaging.CADMessageBase
 {
-	[Token(Token = "0x4000F63")]
+	[Token(Token = "0x4000F6D")]
 	[FieldOffset(Offset = "0x38")]
 	private object _returnValue;
 
-	[Token(Token = "0x4000F64")]
+	[Token(Token = "0x4000F6E")]
 	[FieldOffset(Offset = "0x40")]
 	private System.Runtime.Remoting.Messaging.CADArgHolder _exception;
 
-	[Token(Token = "0x4000F65")]
+	[Token(Token = "0x4000F6F")]
 	[FieldOffset(Offset = "0x48")]
 	private Type[] _sig;
 
-	[Token(Token = "0x170003A9")]
+	[Token(Token = "0x170003AB")]
 	internal int PropertiesCount
 	{
-		[Token(Token = "0x6001E39")]
-		[Address(RVA = "0x3B89FF0", Offset = "0x3B89FF0", VA = "0x3B89FF0")]
+		[Token(Token = "0x6001EA8")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001E33")]
-	[Address(RVA = "0x3B89910", Offset = "0x3B89910", VA = "0x3B89910")]
+	[Token(Token = "0x6001EA2")]
+	[Address(RVA = "0x19F0920", Offset = "0x19EEF20", VA = "0x1819F0920")]
 	internal static System.Runtime.Remoting.Messaging.CADMethodReturnMessage Create(IMessage callMsg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E34")]
-	[Address(RVA = "0x3B89990", Offset = "0x3B89990", VA = "0x3B89990")]
+	[Token(Token = "0x6001EA3")]
+	[Address(RVA = "0x19F0C20", Offset = "0x19EF220", VA = "0x1819F0C20")]
 	internal CADMethodReturnMessage(IMethodReturnMessage retMsg)
 	{
 	}
 
-	[Token(Token = "0x6001E35")]
-	[Address(RVA = "0x3B89E00", Offset = "0x3B89E00", VA = "0x3B89E00")]
+	[Token(Token = "0x6001EA4")]
+	[Address(RVA = "0x19F09B0", Offset = "0x19EEFB0", VA = "0x1819F09B0")]
 	internal ArrayList GetArguments()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E36")]
-	[Address(RVA = "0x3B89F30", Offset = "0x3B89F30", VA = "0x3B89F30")]
+	[Token(Token = "0x6001EA5")]
+	[Address(RVA = "0x19EFBE0", Offset = "0x19EE1E0", VA = "0x1819EFBE0")]
 	internal object[] GetArgs(ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E37")]
-	[Address(RVA = "0x3B89F40", Offset = "0x3B89F40", VA = "0x3B89F40")]
+	[Token(Token = "0x6001EA6")]
+	[Address(RVA = "0x19F0C10", Offset = "0x19EF210", VA = "0x1819F0C10")]
 	internal object GetReturnValue(ArrayList args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E38")]
-	[Address(RVA = "0x3B89F50", Offset = "0x3B89F50", VA = "0x3B89F50")]
+	[Token(Token = "0x6001EA7")]
+	[Address(RVA = "0x19F0B60", Offset = "0x19EF160", VA = "0x1819F0B60")]
 	internal Exception GetException(ArrayList args)
 	{
 		return null;

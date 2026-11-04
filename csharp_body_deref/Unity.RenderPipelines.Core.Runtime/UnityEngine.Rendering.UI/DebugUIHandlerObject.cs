@@ -10,38 +10,38 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000226")]
+[Token(Token = "0x20002E5")]
 public class DebugUIHandlerObject : DebugUIHandlerWidget
 {
-	[Token(Token = "0x400089D")]
+	[Token(Token = "0x4000D6F")]
 	[FieldOffset(Offset = "0x60")]
 	public Text nameLabel;
 
-	[Token(Token = "0x400089E")]
+	[Token(Token = "0x4000D70")]
 	[FieldOffset(Offset = "0x68")]
 	public Text valueLabel;
 
-	[Token(Token = "0x6000ED7")]
-	[Address(RVA = "0x4C14C00", Offset = "0x4C14C00", VA = "0x4C14C00", Slot = "5")]
+	[Token(Token = "0x6001470")]
+	[Address(RVA = "0x2BAE930", Offset = "0x2BACF30", VA = "0x182BAE930", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000ED8")]
-	[Address(RVA = "0x4C14CD0", Offset = "0x4C14CD0", VA = "0x4C14CD0", Slot = "6")]
+	[Token(Token = "0x6001471")]
+	[Address(RVA = "0x2BACCA0", Offset = "0x2BAB2A0", VA = "0x182BACCA0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000ED9")]
-	[Address(RVA = "0x4C14D30", Offset = "0x4C14D30", VA = "0x4C14D30", Slot = "7")]
+	[Token(Token = "0x6001472")]
+	[Address(RVA = "0x2BACC20", Offset = "0x2BAB220", VA = "0x182BACC20", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
-	[Token(Token = "0x6000EDA")]
-	[Address(RVA = "0x4C14D90", Offset = "0x4C14D90", VA = "0x4C14D90")]
+	[Token(Token = "0x6001473")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerObject()
 	{
 	}

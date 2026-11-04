@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000E")]
 public enum EncryptionMode
 {
-	[Token(Token = "0x4000086")]
+	[Token(Token = "0x4000081")]
 	PayloadEncryption = 0,
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x4000082")]
 	DatagramEncryption = 10,
-	[Token(Token = "0x4000088")]
+	[Token(Token = "0x4000083")]
 	DatagramEncryptionRandomSequence = 11,
-	[Token(Token = "0x4000089")]
+	[Token(Token = "0x4000084")]
 	DatagramEncryptionGCM = 13
 }

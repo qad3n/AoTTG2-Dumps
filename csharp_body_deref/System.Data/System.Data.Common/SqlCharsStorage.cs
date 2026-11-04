@@ -11,101 +11,101 @@ using Il2CppDummyDll;
 
 namespace System.Data.Common;
 
-[Token(Token = "0x20000CD")]
+[Token(Token = "0x20000D7")]
 internal sealed class SqlCharsStorage : DataStorage
 {
-	[Token(Token = "0x400047B")]
+	[Token(Token = "0x400048E")]
 	[FieldOffset(Offset = "0x50")]
 	private SqlChars[] _values;
 
-	[Token(Token = "0x6000C42")]
-	[Address(RVA = "0x4626460", Offset = "0x4626460", VA = "0x4626460")]
+	[Token(Token = "0x6000C61")]
+	[Address(RVA = "0x2593730", Offset = "0x2591D30", VA = "0x182593730")]
 	public SqlCharsStorage(DataColumn column)
 	{
 	}
 
-	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x4640C80", Offset = "0x4640C80", VA = "0x4640C80", Slot = "4")]
+	[Token(Token = "0x6000C62")]
+	[Address(RVA = "0x2592E10", Offset = "0x2591410", VA = "0x182592E10", Slot = "4")]
 	public override object Aggregate(int[] records, AggregateType kind)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x4640EA0", Offset = "0x4640EA0", VA = "0x4640EA0", Slot = "5")]
+	[Token(Token = "0x6000C63")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 	public override int Compare(int recordNo1, int recordNo2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x4640EB0", Offset = "0x4640EB0", VA = "0x4640EB0", Slot = "6")]
+	[Token(Token = "0x6000C64")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
 	public override int CompareValueTo(int recordNo, object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x4640EC0", Offset = "0x4640EC0", VA = "0x4640EC0", Slot = "8")]
+	[Token(Token = "0x6000C65")]
+	[Address(RVA = "0x25929D0", Offset = "0x2590FD0", VA = "0x1825929D0", Slot = "8")]
 	public override void Copy(int recordNo1, int recordNo2)
 	{
 	}
 
-	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0x4640F00", Offset = "0x4640F00", VA = "0x4640F00", Slot = "9")]
+	[Token(Token = "0x6000C66")]
+	[Address(RVA = "0x2592A60", Offset = "0x2591060", VA = "0x182592A60", Slot = "9")]
 	public override object Get(int record)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C48")]
-	[Address(RVA = "0x4640F30", Offset = "0x4640F30", VA = "0x4640F30", Slot = "11")]
+	[Token(Token = "0x6000C67")]
+	[Address(RVA = "0x2592A90", Offset = "0x2591090", VA = "0x182592A90", Slot = "11")]
 	public override bool IsNull(int record)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x4640F60", Offset = "0x4640F60", VA = "0x4640F60", Slot = "12")]
+	[Token(Token = "0x6000C68")]
+	[Address(RVA = "0x2593630", Offset = "0x2591C30", VA = "0x182593630", Slot = "12")]
 	public override void Set(int record, object value)
 	{
 	}
 
-	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x4641090", Offset = "0x4641090", VA = "0x4641090", Slot = "13")]
+	[Token(Token = "0x6000C69")]
+	[Address(RVA = "0x25934C0", Offset = "0x2591AC0", VA = "0x1825934C0", Slot = "13")]
 	public override void SetCapacity(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x4641140", Offset = "0x4641140", VA = "0x4641140", Slot = "14")]
+	[Token(Token = "0x6000C6A")]
+	[Address(RVA = "0x2593130", Offset = "0x2591730", VA = "0x182593130", Slot = "14")]
 	public override object ConvertXmlToObject(string s)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x4641450", Offset = "0x4641450", VA = "0x4641450", Slot = "16")]
+	[Token(Token = "0x6000C6B")]
+	[Address(RVA = "0x2592F80", Offset = "0x2591580", VA = "0x182592F80", Slot = "16")]
 	public override string ConvertObjectToXml(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C4D")]
-	[Address(RVA = "0x4641730", Offset = "0x4641730", VA = "0x4641730", Slot = "18")]
+	[Token(Token = "0x6000C6C")]
+	[Address(RVA = "0x2593480", Offset = "0x2591A80", VA = "0x182593480", Slot = "18")]
 	protected override object GetEmptyStorage(int recordCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C4E")]
-	[Address(RVA = "0x4641770", Offset = "0x4641770", VA = "0x4641770", Slot = "19")]
+	[Token(Token = "0x6000C6D")]
+	[Address(RVA = "0x2593360", Offset = "0x2591960", VA = "0x182593360", Slot = "19")]
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
-	[Token(Token = "0x6000C4F")]
-	[Address(RVA = "0x4641890", Offset = "0x4641890", VA = "0x4641890", Slot = "20")]
+	[Token(Token = "0x6000C6E")]
+	[Address(RVA = "0x2593590", Offset = "0x2591B90", VA = "0x182593590", Slot = "20")]
 	protected override void SetStorage(object store, BitArray nullbits)
 	{
 	}

@@ -25,20 +25,20 @@ internal class XmlTypeSerializationSource : SerializationSource
 	private string rootHash;
 
 	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x480A610", Offset = "0x480A610", VA = "0x480A610")]
+	[Address(RVA = "0x2759540", Offset = "0x2757B40", VA = "0x182759540")]
 	public XmlTypeSerializationSource(Type type, XmlRootAttribute root, XmlAttributeOverrides attributeOverrides, string namspace, Type[] includedTypes)
 	{
 	}
 
 	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x480A750", Offset = "0x480A750", VA = "0x480A750", Slot = "0")]
+	[Address(RVA = "0x2759370", Offset = "0x2757970", VA = "0x182759370", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x480A820", Offset = "0x480A820", VA = "0x480A820", Slot = "2")]
+	[Address(RVA = "0x1ECE090", Offset = "0x1ECC690", VA = "0x181ECE090", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

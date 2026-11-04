@@ -11,16 +11,16 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x2000280")]
+[Token(Token = "0x20003C8")]
 internal class MapScriptLegacyMaterial : MapScriptBaseMaterial
 {
-	[Token(Token = "0x4000D91")]
+	[Token(Token = "0x40013A8")]
 	[FieldOffset(Offset = "0x20")]
 	[Order(3)]
 	public Vector2 Tiling;
 
-	[Token(Token = "0x6000F52")]
-	[Address(RVA = "0x3FB6400", Offset = "0x3FB6400", VA = "0x3FB6400")]
+	[Token(Token = "0x60017CA")]
+	[Address(RVA = "0x1ED9F10", Offset = "0x1ED8510", VA = "0x181ED9F10")]
 	public MapScriptLegacyMaterial()
 	{
 	}

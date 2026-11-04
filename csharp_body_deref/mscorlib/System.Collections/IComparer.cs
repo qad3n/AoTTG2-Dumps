@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005F9")]
+[Token(Token = "0x20005CD")]
 public interface IComparer
 {
-	[Token(Token = "0x6002EB6")]
+	[Token(Token = "0x6002BC5")]
 	int Compare(object x, object y);
 }

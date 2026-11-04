@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000050")]
+[Token(Token = "0x2000085")]
 public enum CollectionVirtualizationMethod
 {
-	[Token(Token = "0x4000155")]
+	[Token(Token = "0x4000255")]
 	FixedHeight,
-	[Token(Token = "0x4000156")]
+	[Token(Token = "0x4000256")]
 	DynamicHeight
 }

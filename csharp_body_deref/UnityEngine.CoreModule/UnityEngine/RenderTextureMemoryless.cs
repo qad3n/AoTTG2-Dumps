@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F1")]
+[Token(Token = "0x2000112")]
 [Flags]
 public enum RenderTextureMemoryless
 {
-	[Token(Token = "0x4000322")]
+	[Token(Token = "0x400036D")]
 	None = 0,
-	[Token(Token = "0x4000323")]
+	[Token(Token = "0x400036E")]
 	Color = 1,
-	[Token(Token = "0x4000324")]
+	[Token(Token = "0x400036F")]
 	Depth = 2,
-	[Token(Token = "0x4000325")]
+	[Token(Token = "0x4000370")]
 	MSAA = 4
 }

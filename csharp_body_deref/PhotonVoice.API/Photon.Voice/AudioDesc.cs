@@ -11,21 +11,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000064")]
+[Token(Token = "0x2000062")]
 public class AudioDesc : IAudioDesc, IDisposable
 {
 	[Token(Token = "0x17000093")]
 	public int SamplingRate
 	{
-		[Token(Token = "0x600022F")]
-		[Address(RVA = "0x3F269A0", Offset = "0x3F269A0", VA = "0x3F269A0", Slot = "4")]
+		[Token(Token = "0x600022D")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000230")]
-		[Address(RVA = "0x3F269B0", Offset = "0x3F269B0", VA = "0x3F269B0")]
+		[Token(Token = "0x600022E")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -35,15 +35,15 @@ public class AudioDesc : IAudioDesc, IDisposable
 	[Token(Token = "0x17000094")]
 	public int Channels
 	{
-		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x3F269C0", Offset = "0x3F269C0", VA = "0x3F269C0", Slot = "5")]
+		[Token(Token = "0x600022F")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000232")]
-		[Address(RVA = "0x3F269D0", Offset = "0x3F269D0", VA = "0x3F269D0")]
+		[Token(Token = "0x6000230")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		[CompilerGenerated]
 		private set
 		{
@@ -53,29 +53,29 @@ public class AudioDesc : IAudioDesc, IDisposable
 	[Token(Token = "0x17000095")]
 	public string Error
 	{
-		[Token(Token = "0x6000233")]
-		[Address(RVA = "0x3F269E0", Offset = "0x3F269E0", VA = "0x3F269E0", Slot = "6")]
+		[Token(Token = "0x6000231")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x3F269F0", Offset = "0x3F269F0", VA = "0x3F269F0")]
+		[Token(Token = "0x6000232")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x600022E")]
-	[Address(RVA = "0x3F26960", Offset = "0x3F26960", VA = "0x3F26960")]
+	[Token(Token = "0x600022C")]
+	[Address(RVA = "0x1D67D10", Offset = "0x1D66310", VA = "0x181D67D10")]
 	public AudioDesc(int samplingRate, int channels, string error)
 	{
 	}
 
-	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x3F26A00", Offset = "0x3F26A00", VA = "0x3F26A00", Slot = "7")]
+	[Token(Token = "0x6000233")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	public void Dispose()
 	{
 	}

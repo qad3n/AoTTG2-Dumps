@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.CompilerServices;
 
-[Token(Token = "0x200025A")]
+[Token(Token = "0x200025D")]
 internal interface IStateMachineRunner
 {
-	[Token(Token = "0x17000083")]
+	[Token(Token = "0x17000085")]
 	Action MoveNext
 	{
-		[Token(Token = "0x6000D6D")]
+		[Token(Token = "0x6000D91")]
 		get;
 	}
 
-	[Token(Token = "0x17000084")]
+	[Token(Token = "0x17000086")]
 	Action ReturnAction
 	{
-		[Token(Token = "0x6000D6F")]
+		[Token(Token = "0x6000D93")]
 		get;
 	}
 
-	[Token(Token = "0x6000D6E")]
+	[Token(Token = "0x6000D92")]
 	void Return();
 }

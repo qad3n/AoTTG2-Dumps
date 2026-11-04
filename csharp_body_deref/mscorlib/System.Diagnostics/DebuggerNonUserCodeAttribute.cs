@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 namespace System.Diagnostics;
 
 [Serializable]
-[Token(Token = "0x20005DE")]
+[Token(Token = "0x20005B0")]
 [ComVisible(true)]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property, Inherited = false)]
 public sealed class DebuggerNonUserCodeAttribute : Attribute
 {
-	[Token(Token = "0x6002E5C")]
-	[Address(RVA = "0x3C7A550", Offset = "0x3C7A550", VA = "0x3C7A550")]
+	[Token(Token = "0x6002B69")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DebuggerNonUserCodeAttribute()
 	{
 	}

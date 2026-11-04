@@ -9,34 +9,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x200006B")]
 internal class ReusableMultiColumnTreeViewItem : ReusableTreeViewItem
 {
-	[Token(Token = "0x17000045")]
+	[Token(Token = "0x17000086")]
 	public override VisualElement rootElement
 	{
-		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x4F1E530", Offset = "0x4F1E530", VA = "0x4F1E530", Slot = "4")]
+		[Token(Token = "0x600031E")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x4F1E540", Offset = "0x4F1E540", VA = "0x4F1E540", Slot = "5")]
+	[Token(Token = "0x600031F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public override void Init(VisualElement item)
 	{
 	}
 
-	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x4F1CC00", Offset = "0x4F1CC00", VA = "0x4F1CC00")]
+	[Token(Token = "0x6000320")]
+	[Address(RVA = "0x30B0D00", Offset = "0x30AF300", VA = "0x1830B0D00")]
 	public void Init(VisualElement container, Columns columns)
 	{
 	}
 
-	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x4F1EAF0", Offset = "0x4F1EAF0", VA = "0x4F1EAF0")]
+	[Token(Token = "0x6000321")]
+	[Address(RVA = "0x30B0F50", Offset = "0x30AF550", VA = "0x1830B0F50")]
 	public ReusableMultiColumnTreeViewItem()
 	{
 	}

@@ -10,30 +10,30 @@ using UnityEngine;
 
 namespace Projectiles;
 
-[Token(Token = "0x20000E1")]
+[Token(Token = "0x2000101")]
 internal class CannonBallProjectile : BaseProjectile
 {
-	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x4107B90", Offset = "0x4107B90", VA = "0x4107B90", Slot = "15")]
+	[Token(Token = "0x60004E3")]
+	[Address(RVA = "0x20B6230", Offset = "0x20B4830", VA = "0x1820B6230", Slot = "15")]
 	protected override void RegisterObjects()
 	{
 	}
 
-	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x4107C60", Offset = "0x4107C60", VA = "0x4107C60")]
+	[Token(Token = "0x60004E4")]
+	[Address(RVA = "0x20B5C70", Offset = "0x20B4270", VA = "0x1820B5C70")]
 	private void OnCollisionEnter(Collision collision)
 	{
 	}
 
-	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x41081C0", Offset = "0x41081C0", VA = "0x41081C0")]
+	[Token(Token = "0x60004E5")]
+	[Address(RVA = "0x20B5BE0", Offset = "0x20B41E0", VA = "0x1820B5BE0")]
 	private int CalculateDamage()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x4108240", Offset = "0x4108240", VA = "0x4108240")]
+	[Token(Token = "0x60004E6")]
+	[Address(RVA = "0x20B6310", Offset = "0x20B4910", VA = "0x1820B6310")]
 	public CannonBallProjectile()
 	{
 	}

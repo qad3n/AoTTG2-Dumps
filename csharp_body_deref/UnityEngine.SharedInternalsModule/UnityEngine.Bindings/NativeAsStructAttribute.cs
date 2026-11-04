@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x2000010")]
 [VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Class)]
 internal class NativeAsStructAttribute : Attribute
 {
-	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4E9E0B0", Offset = "0x4E9E0B0", VA = "0x4E9E0B0")]
+	[Token(Token = "0x6000022")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeAsStructAttribute()
 	{
 	}

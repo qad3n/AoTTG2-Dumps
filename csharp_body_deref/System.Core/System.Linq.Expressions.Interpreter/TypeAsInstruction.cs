@@ -19,8 +19,8 @@ internal sealed class TypeAsInstruction : Instruction
 	[Token(Token = "0x1700023A")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000AF0")]
-		[Address(RVA = "0x4504CE0", Offset = "0x4504CE0", VA = "0x4504CE0", Slot = "4")]
+		[Token(Token = "0x6000AEF")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -30,8 +30,8 @@ internal sealed class TypeAsInstruction : Instruction
 	[Token(Token = "0x1700023B")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000AF1")]
-		[Address(RVA = "0x4504CF0", Offset = "0x4504CF0", VA = "0x4504CF0", Slot = "5")]
+		[Token(Token = "0x6000AF0")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -41,29 +41,29 @@ internal sealed class TypeAsInstruction : Instruction
 	[Token(Token = "0x1700023C")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000AF2")]
-		[Address(RVA = "0x4504D00", Offset = "0x4504D00", VA = "0x4504D00", Slot = "9")]
+		[Token(Token = "0x6000AF1")]
+		[Address(RVA = "0x24816B0", Offset = "0x247FCB0", VA = "0x1824816B0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AEF")]
-	[Address(RVA = "0x4504CB0", Offset = "0x4504CB0", VA = "0x4504CB0")]
+	[Token(Token = "0x6000AEE")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	internal TypeAsInstruction(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000AF3")]
-	[Address(RVA = "0x4504D30", Offset = "0x4504D30", VA = "0x4504D30", Slot = "8")]
+	[Token(Token = "0x6000AF2")]
+	[Address(RVA = "0x24815D0", Offset = "0x247FBD0", VA = "0x1824815D0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AF4")]
-	[Address(RVA = "0x4504D90", Offset = "0x4504D90", VA = "0x4504D90", Slot = "3")]
+	[Token(Token = "0x6000AF3")]
+	[Address(RVA = "0x2481650", Offset = "0x247FC50", VA = "0x182481650", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

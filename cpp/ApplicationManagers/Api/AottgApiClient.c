@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Api.AottgApiClient
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Api/AottgApiClient.cs
@@ -8,443 +8,494 @@
 
 // ApplicationManagers.Api.AottgApiClient.<SendAsync>d__4$$MoveNext
 // il2cpp: void ApplicationManagers_Api_AottgApiClient__SendAsync_d__4__MoveNext (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o __this, const MethodInfo* method);
-// 0x44ce5c0
+// 0x1823742e0
+// eh: try 0x18237436b..0x1823743a3 -> pad 0x183340c90 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x1823743a3..0x1823745da -> pad 0x183340c20 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_OperationCanceledException]
+// eh: try 0x182374614..0x18237479a -> pad 0x183340c90 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x18237479a..0x1823747aa -> pad 0x183340c20 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_OperationCanceledException]
+// eh: try 0x1823747aa..0x1823747b1 -> pad 0x183340c90 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 141 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823743a2: nop 
+// asm:   0x1823745fc: mov rax, qword ptr [rip + 0x1fe084d]
+// asm:   0x182374603: mov rcx, qword ptr [rax + 0xb8]
+// asm:   0x18237460a: mov rdi, qword ptr [rcx]
+// asm:   0x18237460d: lea rcx, [rip + 0x1d2cd74]  ; "canceled"
+// asm:   0x182374614: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182374619: mov r14, rax
+// asm:   0x18237461c: cmp byte ptr [rip + 0x1fd3435], 0
+// asm:   0x182374623: jne 0x182374638
+// asm:   0x182374625: lea rcx, [rip + 0x1d4bb4c]  ; TypeInfo_ApplicationManagers_Api_AottgApiResult
+// asm:   0x18237462c: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x182374631: mov byte ptr [rip + 0x1fd3420], 1
+// asm:   0x182374638: mov rcx, qword ptr [rip + 0x1d4bb39]  ; TypeInfo_ApplicationManagers_Api_AottgApiResult
+// asm:   0x18237463f: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x182374644: mov rbx, rax
+// asm:   0x182374647: xor edx, edx
+// asm:   0x182374649: mov rcx, rax
+// asm:   0x18237464c: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182374651: test rbx, rbx
+// asm:   0x182374654: je 0x1823747aa
+// asm:   0x18237465a: mov byte ptr [rbx + 0x10], 0
+// asm:   0x18237465e: xor esi, esi
+// asm:   0x182374660: mov qword ptr [rbx + 0x18], rsi
+// asm:   0x182374664: test rdi, rdi
+// asm:   0x182374667: jne 0x18237467a
+// asm:   0x182374669: mov rax, qword ptr [rip + 0x1fe07e0]
+// asm:   0x182374670: mov rcx, qword ptr [rax + 0xb8]
+// asm:   0x182374677: mov rdi, qword ptr [rcx]
+// asm:   0x18237467a: mov qword ptr [rbx + 0x20], rdi
+// asm:   0x18237467e: lea rcx, [rbx + 0x20]
+// asm:   0x182374682: mov rdx, rdi
+// asm:   0x182374685: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18237468a: mov qword ptr [rbx + 0x30], r14
+// asm:   0x18237468e: lea rcx, [rbx + 0x30]
+// asm:   0x182374692: mov rdx, r14
+// asm:   0x182374695: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18237469a: mov qword ptr [rbx + 0x38], rsi
+// asm:   0x18237469e: lea rcx, [rbx + 0x38]
+// asm:   0x1823746a2: xor edx, edx
+// asm:   0x1823746a4: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1823746a9: mov byte ptr [rbx + 0x40], 1
+// asm:   0x1823746ad: mov dword ptr [rsp + 0x40], esi
+// asm:   0x1823746b1: mov rdi, qword ptr [rsp + 0xe0]
+// asm:   0x1823746b9: mov dword ptr [rdi], 0xfffffffe
+// asm:   0x1823746bf: mov qword ptr [rdi + 0x38], rsi
+// asm:   0x1823746c3: lea rcx, [rdi + 0x38]
+// asm:   0x1823746c7: xor edx, edx
+// asm:   0x1823746c9: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1823746ce: lea rcx, [rdi + 8]
+// asm:   0x1823746d2: mov r8, qword ptr [rip + 0x1d827cf]  ; MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_SetResult
+// asm:   0x1823746d9: mov rdx, rbx
+// asm:   0x1823746dc: call 0x180dda980  ; Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_object___SetResult()
+// asm:   0x1823746e1: lea r11, [rsp + 0xc0]
+// asm:   0x1823746e9: mov rbx, qword ptr [r11 + 0x28]
+// asm:   0x1823746ed: mov rsi, qword ptr [r11 + 0x30]
+// asm:   0x1823746f1: movaps xmm6, xmmword ptr [r11 - 0x10]
+// asm:   0x1823746f6: movaps xmm7, xmmword ptr [r11 - 0x20]
+// asm:   0x1823746fb: mov rsp, r11
+// asm:   0x1823746fe: pop r15
+// asm:   0x182374700: pop r14
+// asm:   0x182374702: pop rdi
+// asm:   0x182374703: ret 
+// asm:   0x182374704: mov rbx, qword ptr [rsp + 0xe0]
+// asm:   0x18237470c: mov dword ptr [rbx], 0xfffffffe
+// asm:   0x182374712: xor esi, esi
+// asm:   0x182374714: mov qword ptr [rbx + 0x38], rsi
+// asm:   0x182374718: lea rcx, [rbx + 0x38]
+// asm:   0x18237471c: xor edx, edx
+// asm:   0x18237471e: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x182374723: lea rcx, [rip + 0x1d8269e]  ; MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_SetException
+// asm:   0x18237472a: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18237472f: mov r8, rax
+// asm:   0x182374732: mov eax, dword ptr [rsp + 0x40]
+// asm:   0x182374736: dec eax
+// asm:   0x182374738: movsxd rdx, eax
+// asm:   0x18237473b: lea rcx, [rbx + 8]
+// asm:   0x18237473f: mov rdx, qword ptr [rsp + rdx*8 + 0x30]
+// asm:   0x182374744: call 0x180dda900  ; Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_bool___SetException()
+// asm:   0x182374749: jmp 0x1823746e1
+// asm:   0x1823747aa: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x183340c20: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340c25: push rbx
+// asm:   0x183340c26: push rbp
+// asm:   0x183340c27: push rdi
+// asm:   0x183340c28: sub rsp, 0x30
+// asm:   0x183340c2c: mov rbp, rdx
+// asm:   0x183340c2f: mov rbx, qword ptr [rbp + 0x88]
+// asm:   0x183340c36: mov rax, qword ptr [rbx]
+// asm:   0x183340c39: mov rdi, qword ptr [rax]
+// asm:   0x183340c3c: lea rcx, [rip + 0xd93ae5]  ; TypeInfo_System_OperationCanceledException
+// asm:   0x183340c43: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340c48: mov rdx, rdi
+// asm:   0x183340c4b: mov rcx, rax
+// asm:   0x183340c4e: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183340c53: test al, al
+// asm:   0x183340c55: mov rax, qword ptr [rbx]
+// asm:   0x183340c58: je 0x183340c71
+// asm:   0x183340c5a: mov qword ptr [rbp + 0x30], rax
+// asm:   0x183340c5e: mov dword ptr [rbp + 0x40], 1
+// asm:   0x183340c65: movabs rax, 0
+// asm:   0x183340c6f: jmp 0x183340c86
+// asm:   0x183340c71: mov qword ptr [rbp + 0x78], rax
+// asm:   0x183340c75: lea rdx, [rip + 0xc9b30c]
+// asm:   0x183340c7c: lea rcx, [rbp + 0x78]
+// asm:   0x183340c80: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183340c86: add rsp, 0x30
+// asm:   0x183340c8a: pop rdi
+// asm:   0x183340c8b: pop rbp
+// asm:   0x183340c8c: pop rbx
+// asm:   0x183340c8d: ret 
+// asm:   0x183340c90: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340c95: push rbx
+// asm:   0x183340c96: push rbp
+// asm:   0x183340c97: push rdi
+// asm:   0x183340c98: sub rsp, 0x30
+// asm:   0x183340c9c: mov rbp, rdx
+// asm:   0x183340c9f: mov rdi, qword ptr [rbp + 0x90]
+// asm:   0x183340ca6: mov rax, qword ptr [rdi]
+// asm:   0x183340ca9: mov rbx, qword ptr [rax]
+// asm:   0x183340cac: lea rcx, [rip + 0xd382a5]  ; TypeInfo_System_Exception
+// asm:   0x183340cb3: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340cb8: mov rcx, rax
+// asm:   0x183340cbb: mov rdx, rbx
+// asm:   0x183340cbe: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183340cc3: test al, al
+// asm:   0x183340cc5: mov rax, qword ptr [rdi]
+// asm:   0x183340cc8: je 0x183340ce2
+// asm:   0x183340cca: movsxd rcx, dword ptr [rbp + 0x40]
+// asm:   0x183340cce: mov qword ptr [rbp + rcx*8 + 0x30], rax
+// asm:   0x183340cd3: inc dword ptr [rbp + 0x40]
+// asm:   0x183340cd6: movabs rax, 0
+// asm:   0x183340ce0: jmp 0x183340cfd
+// asm:   0x183340ce2: mov qword ptr [rbp + 0x80], rax
+// asm:   0x183340ce9: lea rdx, [rip + 0xc9b298]
+// asm:   0x183340cf0: lea rcx, [rbp + 0x80]
+// asm:   0x183340cf7: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183340cfd: add rsp, 0x30
+// asm:   0x183340d01: pop rdi
+// asm:   0x183340d02: pop rbp
+// asm:   0x183340d03: pop rbx
+// asm:   0x183340d04: ret 
 
 void ApplicationManagers_Api_AottgApiClient__SendAsync_d__4__MoveNext
-               (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o __this,MethodInfo *method)
+               (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o *__this,MethodInfo *method)
 
 {
-  ushort uVar1;
+  undefined8 uVar1;
+  ushort uVar2;
+  int iVar3;
   ApplicationManagers_Api_AottgApiClient_o *__this_00;
-  ApplicationManagers_Api_IAottgApiTransport_o *pAVar2;
-  ApplicationManagers_Api_IAottgApiTransport_c *pAVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  long *plVar5;
-  short sVar6;
-  char cVar7;
-  int iVar8;
-  Il2CppRGCTXData *pIVar9;
+  Il2CppObject *pIVar4;
+  System_Threading_CancellationToken_o cancellationToken;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
+  Cysharp_Threading_Tasks_IUniTaskSource_T__o *pCVar6;
+  Cysharp_Threading_Tasks_UniTask_Awaiter_AottgApiTransportResponse__o *pCVar7;
+  bool bVar8;
+  ApplicationManagers_Api_AottgApiTransportRequest_o *pAVar9;
   VirtualInvokeData *pVVar10;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAVar11;
-  ApplicationManagers_Api_AottgApiResult_o *pAVar12;
-  undefined8 *puVar13;
-  long lVar14;
+  Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse__o *pCVar11;
+  ApplicationManagers_Api_AottgApiTransportResponse_o *pAVar12;
+  ApplicationManagers_Api_AottgApiResult_o *result;
+  Il2CppClass *pIVar13;
+  void *pvVar14;
   System_ArgumentNullException_o *__this_01;
-  System_String_o *pSVar15;
-  System_String_o *error;
-  undefined8 *puVar16;
-  MethodInfo *in_RCX;
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  undefined8 uVar17;
-  Il2CppMethodPointer pIVar18;
-  long lVar19;
-  long lVar20;
-  MethodInfo *in_R9;
-  InvokerMethod *ppIVar21;
-  undefined1 auVar22 [12];
-  undefined8 local_88;
-  undefined8 uStack_80;
-  undefined8 local_78;
-  long *local_68;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_60;
-  undefined8 local_58;
-  long *local_48;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_40;
-  undefined8 local_38;
+  System_String_o *paramName;
+  MethodInfo *pMVar15;
+  ushort uVar16;
+  Cysharp_Threading_Tasks_UniTask_Awaiter_T__o local_90;
+  Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse__o local_78 [4];
   
-  if (g_data_057aeb13 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_AwaitUnsafeOnCompleted_UniTask_1_T_Awaiter_Applicat);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetResult);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgApiTransportResponse_GetResult);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsCompleted);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IAottgApiTransport);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeb13 = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_184347a53 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_AwaitUnsafeOnC
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_SetResult
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_AottgApiTransportResponse_GetResult);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_AottgApiTransportResponse_get_IsCompleted);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_IAottgApiTransport);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse_GetAwaiter);
+    Il2CppMethodInitialized_184347a53 = '\x01';
   }
-  local_88 = (long *)0x0;
-  uStack_80 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
-  local_78 = 0;
-  local_48 = (long *)0x0;
-  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
-  local_38 = 0;
-  if (*(int *)&method->methodPointer == 0) {
-    local_78._0_2_ = method->slot;
-    local_78._2_1_ = method->parameters_count;
-    local_78._3_1_ = method->bitflags;
-    local_78._4_4_ = *(undefined4 *)&method->field_0x54;
-    plVar5 = (method->field8_0x40).genericMethod;
-    pAVar11 = *(ApplicationManagers_Api_AottgApiTransportResponse_o **)&method->token;
-    (method->field8_0x40).genericMethod = (void *)0x0;
-    method->token = 0;
-    method->flags = 0;
-    method->iflags = 0;
-    method->slot = 0;
-    method->parameters_count = '\0';
-    method->bitflags = '\0';
-    *(undefined4 *)&method->field_0x54 = 0;
-    *(undefined4 *)&method->methodPointer = 0xffffffff;
-joined_r0x044ce71d:
-    local_88 = plVar5;
-    uStack_80 = pAVar11;
-    if (plVar5 != (long *)0x0) {
-      sVar6 = (short)local_78;
-      lVar19 = *(long *)(MethodInfo_AottgApiTransportResponse_GetResult + 0x20);
-      if ((*(byte *)(lVar19 + 0x135) & 1) == 0) {
-        lVar19 = il2cpp_runtime_helper_023009c0();
-      }
-      lVar19 = *(long *)(*(long *)(lVar19 + 0xc0) + 0x28);
-      if ((*(byte *)(lVar19 + 0x135) & 1) == 0) {
-        lVar19 = il2cpp_runtime_helper_023009c0();
-      }
-      lVar14 = *plVar5;
-      if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-        lVar20 = 0;
-        do {
-          if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar20) == lVar19) {
-            in_RCX = (MethodInfo *)
-                     ((long)*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar20) * 0x10 + lVar14 + 0x138);
-            goto label_044ce948;
-          }
-          lVar20 = lVar20 + 0x10;
-        } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar20);
-      }
-      in_RCX = (MethodInfo *)il2cpp_runtime_helper_02300d20(plVar5,lVar19,0);
-label_044ce948:
-      pAVar11 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)
-                (*in_RCX->methodPointer)(plVar5,(ulong)(uint)(int)sVar6,in_RCX->virtualMethodPointer);
+  iVar3 = (__this->fields).__1__state;
+  __this_00 = (__this->fields).__4__this;
+  if (iVar3 != 0) {
+    if ((__this->fields).request == (ApplicationManagers_Api_AottgApiRequest_o *)0x0) {
+      pIVar13 = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentNullException);
+      __this_01 = (System_ArgumentNullException_o *)il2cpp_codegen_object_new(pIVar13);
+      paramName = il2cpp_codegen_get_runtime_metadata(&"request");
+      System_ArgumentNullException___ctor_1a77f20(__this_01,paramName,(MethodInfo *)0x0);
+      pMVar15 = il2cpp_codegen_get_runtime_metadata
+                          (&MethodInfo_ApplicationManagers_Api_AottgApiClient_SendAsync_d__4_MoveNext);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,pMVar15);
     }
-    pAVar12 = ApplicationManagers_Api_AottgApiClient__HandleResponse
-                        ((ApplicationManagers_Api_AottgApiRequest_o *)method->klass,
-                         (ApplicationManagers_Api_AottgApiTransportRequest_o *)
-                         (method->field7_0x38).rgctx_data,pAVar11,in_RCX);
+    if (__this_00 == (ApplicationManagers_Api_AottgApiClient_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pAVar9 = ApplicationManagers_Api_AottgApiClient__BuildTransportRequest
+                       (__this_00,(__this->fields).request,(MethodInfo *)0x0);
+    (__this->fields)._transportRequest_5__2 = pAVar9;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._transportRequest_5__2,pAVar9);
+  }
+  if (iVar3 == 0) {
+    local_90.fields.task.fields.source = (__this->fields).__u__1.fields.task.fields.source;
+    local_90.fields.task.fields.result = (__this->fields).__u__1.fields.task.fields.result;
+    pCVar7 = &(__this->fields).__u__1;
+    local_90.fields.task.fields.token = (pCVar7->fields).task.fields.token;
+    local_90.fields.task.fields._18_6_ = *(undefined6 *)&(pCVar7->fields).task.fields.field_0x12;
+    (__this->fields).__u__1.fields.task.fields.source = (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+    (__this->fields).__u__1.fields.task.fields.result = (Il2CppObject *)0x0;
+    *(undefined8 *)&(__this->fields).__u__1.fields.task.fields.token = 0;
+    (__this->fields).__1__state = -1;
   }
   else {
-    if (method->klass == (Il2CppClass *)0x0) {
-      uVar17 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentNullException);
-      __this_01 = (System_ArgumentNullException_o *)il2cpp_runtime_helper_023052d0(uVar17);
-      pSVar15 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"request");
-      System_ArgumentNullException___ctor_3c0ad60(__this_01,pSVar15,(MethodInfo *)0x0);
-      uVar17 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_MoveNext);
-      il2cpp_runtime_helper_022b2b10(__this_01,uVar17);
-label_044ceb09:
-      il2cpp_runtime_helper_022b2c90();
+    if (__this_00 == (ApplicationManagers_Api_AottgApiClient_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    else {
-      __this_00 = (ApplicationManagers_Api_AottgApiClient_o *)method->return_type;
-      if (__this_00 == (ApplicationManagers_Api_AottgApiClient_o *)0x0) goto label_044ceb09;
-      pIVar9 = (Il2CppRGCTXData *)
-               ApplicationManagers_Api_AottgApiClient__BuildTransportRequest
-                         (__this_00,(ApplicationManagers_Api_AottgApiRequest_o *)method->klass,in_RDX);
-      (method->field7_0x38).rgctx_data = pIVar9;
-      il2cpp_runtime_helper_022b4080(&method->field7_0x38,pIVar9);
-      pAVar2 = (__this_00->fields)._transport;
-      if (pAVar2 != (ApplicationManagers_Api_IAottgApiTransport_o *)0x0) {
-        in_RCX = (MethodInfo *)method->parameters;
-        pIVar9 = (method->field7_0x38).rgctx_data;
-        pAVar3 = pAVar2->klass;
-        uVar1._0_1_ = (pAVar3->_2).rank;
-        uVar1._1_1_ = (pAVar3->_2).minimumAlignment;
-        if ((ulong)uVar1 != 0) {
-          pIVar4 = (pAVar3->_1).interfaceOffsets;
-          lVar19 = 0;
-          do {
-            if (*(long *)((long)&pIVar4->interfaceType + lVar19) == TypeInfo_IAottgApiTransport) {
-              pVVar10 = pAVar3->vtable + *(int *)((long)&pIVar4->offset + lVar19);
-              goto label_044ce73a;
-            }
-            lVar19 = lVar19 + 0x10;
-          } while ((ulong)uVar1 << 4 != lVar19);
-        }
-        pVVar10 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pAVar2,TypeInfo_IAottgApiTransport,0);
-label_044ce73a:
-        (*pVVar10->methodPtr)(&local_68,pAVar2,pIVar9,in_RCX,pVVar10->method);
-        local_38 = local_58;
-        local_48 = local_68;
-        pAStack_40 = pAStack_60;
-        local_68 = (long *)0x0;
-        pAStack_60 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
-        local_58 = 0;
-        if ((*(byte *)(*(long *)(MethodInfo_UniTask_1_T_Awaiter_ApplicationManagers_Api_AottgApiTran + 0x20) + 0x135) & 1) == 0) {
-          il2cpp_runtime_helper_023009c0();
-        }
-        local_58 = local_38;
-        local_68 = local_48;
-        pAStack_60 = pAStack_40;
-        il2cpp_runtime_helper_022b4080(&local_68,0);
-        local_78 = local_58;
-        local_88 = local_68;
-        uStack_80 = pAStack_60;
-        lVar19 = *(long *)(MethodInfo_Boolean_get_IsCompleted + 0x20);
-        if ((*(byte *)(lVar19 + 0x135) & 1) == 0) {
-          lVar19 = il2cpp_runtime_helper_023009c0();
-        }
-        plVar5 = local_88;
-        pAVar11 = uStack_80;
-        if (local_88 != (long *)0x0) {
-          sVar6 = (short)local_78;
-          lVar19 = *(long *)(*(long *)(*(long *)(lVar19 + 0xc0) + 0x18) + 0x20);
-          if ((*(byte *)(lVar19 + 0x135) & 1) == 0) {
-            lVar19 = il2cpp_runtime_helper_023009c0();
-          }
-          lVar19 = *(long *)(*(long *)(lVar19 + 0xc0) + 8);
-          if ((*(byte *)(lVar19 + 0x135) & 1) == 0) {
-            lVar19 = il2cpp_runtime_helper_023009c0();
-          }
-          lVar14 = *plVar5;
-          if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-            lVar20 = 0;
-            do {
-              if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar20) == lVar19) {
-                in_RCX = (MethodInfo *)
-                         ((long)(*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar20) + 1) * 0x10 + lVar14 + 0x138)
-                ;
-                goto label_044ce889;
-              }
-              lVar20 = lVar20 + 0x10;
-            } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar20);
-          }
-          in_RCX = (MethodInfo *)il2cpp_runtime_helper_02300d20(plVar5,lVar19,1);
-label_044ce889:
-          iVar8 = (*in_RCX->methodPointer)(plVar5,(ulong)(uint)(int)sVar6,in_RCX->virtualMethodPointer);
-          pAVar11 = uStack_80;
-          plVar5 = local_88;
-          if (iVar8 == 0) {
-            *(undefined4 *)&method->methodPointer = 0;
-            *(undefined4 *)&method->field8_0x40 = (undefined4)local_88;
-            *(undefined4 *)((long)&method->field8_0x40 + 4) = local_88._4_4_;
-            method->token = (uint32_t)uStack_80;
-            method->flags = uStack_80._4_2_;
-            method->iflags = uStack_80._6_2_;
-            method->slot = (short)local_78;
-            method->parameters_count = local_78._2_1_;
-            method->bitflags = local_78._3_1_;
-            *(undefined4 *)&method->field_0x54 = local_78._4_4_;
-            uStack_80 = pAVar11;
-            il2cpp_runtime_helper_022b4080(&method->field8_0x40,0);
-            il2cpp_runtime_helper_024eadb0(&method->virtualMethodPointer,&local_88,method,MethodInfo_Void_AwaitUnsafeOnCompleted_UniTask_1_T_Awaiter_Applicat);
-            return;
-          }
-        }
-        goto joined_r0x044ce71d;
-      }
+    pIVar4 = (Il2CppObject *)(__this_00->fields)._transport;
+    if (pIVar4 == (Il2CppObject *)0x0) {
+      ThrowNullReferenceException();
     }
-    auVar22 = il2cpp_runtime_helper_022b2c90();
-    uVar17 = auVar22._0_8_;
-    if (auVar22._8_4_ != 1) {
-      if (auVar22._8_4_ != 1) {
-        _Unwind_Resume(uVar17);
-      }
-      puVar13 = (undefined8 *)__cxa_begin_catch(uVar17);
-      uVar17 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-      cVar7 = il2cpp_runtime_helper_0233e000(uVar17,*(undefined8 *)*puVar13);
-      if (cVar7 == '\0') {
-        puVar16 = (undefined8 *)__cxa_allocate_exception(8);
-        *puVar16 = *puVar13;
-        __cxa_throw(puVar16,&PTR_PTR_05215060,0);
-      }
-      pAVar12 = (ApplicationManagers_Api_AottgApiResult_o *)*puVar13;
-      __cxa_end_catch();
-      *(undefined4 *)&method->methodPointer = 0xfffffffe;
-      (method->field7_0x38).rgctx_data = (Il2CppRGCTXData *)0x0;
-      il2cpp_runtime_helper_022b4080(&method->field7_0x38,0);
-      lVar19 = il2cpp_runtime_helper_023445d0();
-      pIVar18 = method->virtualMethodPointer;
-      if (pIVar18 == (Il2CppMethodPointer)0x0) {
-        method->invoker_method = (InvokerMethod)pAVar12;
-        ppIVar21 = &method->invoker_method;
-        goto label_044ce9d5;
-      }
-      if ((*(byte *)(*(long *)(lVar19 + 0x20) + 0x135) & 1) == 0) {
-        lVar19 = il2cpp_runtime_helper_023009c0();
-        lVar19 = *(long *)(*(long *)(lVar19 + 0xc0) + 8);
-        if ((*(byte *)(lVar19 + 0x135) & 1) != 0) goto label_044cecf1;
-label_044ced2c:
-        lVar19 = il2cpp_runtime_helper_023009c0();
-        lVar14 = *(long *)pIVar18;
-        uVar1 = *(ushort *)(lVar14 + 0x12e);
-      }
-      else {
-        lVar19 = *(long *)(*(long *)(*(long *)(lVar19 + 0x20) + 0xc0) + 8);
-        if ((*(byte *)(lVar19 + 0x135) & 1) == 0) goto label_044ced2c;
-label_044cecf1:
-        lVar14 = *(long *)pIVar18;
-        uVar1 = *(ushort *)(lVar14 + 0x12e);
-      }
-      if ((ulong)uVar1 != 0) {
-        lVar20 = 0;
-        do {
-          if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar20) == lVar19) {
-            iVar8 = *(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar20) + 3;
-label_044cea55:
-            puVar13 = (undefined8 *)(lVar14 + (long)iVar8 * 0x10 + 0x138);
-            goto label_044cea65;
-          }
-          lVar20 = lVar20 + 0x10;
-        } while ((ulong)uVar1 * 0x10 != lVar20);
-      }
-      uVar17 = 3;
-      goto label_044cea47;
+    pAVar9 = (__this->fields)._transportRequest_5__2;
+    cancellationToken.fields._source =
+         (System_Threading_CancellationToken_Fields)(__this->fields).cancellationToken.fields._source;
+    pIVar13 = pIVar4->klass;
+    uVar2 = (pIVar13->_2).interface_offsets_count;
+    uVar16 = 0;
+    if (uVar2 != 0) {
+      pIVar5 = (pIVar13->_1).interfaceOffsets;
+      do {
+        if (pIVar5[uVar16].interfaceType == (Il2CppClass *)TypeInfo_ApplicationManagers_Api_IAottgApiTransport
+           ) {
+          pVVar10 = pIVar13->vtable + pIVar5[uVar16].offset;
+          goto label_182374446;
+        }
+        uVar16 = uVar16 + 1;
+      } while (uVar16 < uVar2);
     }
-    puVar13 = (undefined8 *)__cxa_begin_catch(uVar17);
-    uVar17 = il2cpp_runtime_helper_023445d0(&TypeInfo_OperationCanceledException);
-    cVar7 = il2cpp_runtime_helper_0233e000(uVar17,*(undefined8 *)*puVar13);
-    if (cVar7 == '\0') {
-      puVar16 = (undefined8 *)__cxa_allocate_exception(8);
-      *puVar16 = *puVar13;
-      __cxa_throw(puVar16,&PTR_PTR_05215060,0);
+    pVVar10 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar4,(Il2CppClass *)TypeInfo_ApplicationManagers_Api_IAottgApiTransport,0);
+label_182374446:
+    pCVar11 = (*pVVar10->methodPtr)(local_78,pIVar4,pAVar9,cancellationToken,pVVar10->method);
+    pCVar6 = (pCVar11->fields).source;
+    pAVar12 = (pCVar11->fields).result;
+    uVar1._0_2_ = (pCVar11->fields).token;
+    uVar1._2_6_ = *(undefined6 *)&(pCVar11->fields).field_0x12;
+    local_78[0].fields.source = (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+    local_78[0].fields.result = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
+    local_78[0].fields.token = 0;
+    local_78[0].fields._18_6_ = 0;
+    if (((MethodInfo_Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse_GetAwaiter->klass->_2).
+         bitflags1 & 1) == 0) {
+      il2cpp_codegen_class_init_checked
+                (MethodInfo_Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse_GetAwaiter->klass);
     }
-    __cxa_end_catch();
-    pSVar15 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    error = (System_String_o *)il2cpp_runtime_helper_023445d0();
-    pAVar12 = ApplicationManagers_Api_AottgApiResult__Fail(0,pSVar15,error,(System_String_o *)0x0,1,in_R9);
-  }
-  *(undefined4 *)&method->methodPointer = 0xfffffffe;
-  (method->field7_0x38).rgctx_data = (Il2CppRGCTXData *)0x0;
-  il2cpp_runtime_helper_022b4080(&method->field7_0x38,0);
-  pIVar18 = method->virtualMethodPointer;
-  if (pIVar18 == (Il2CppMethodPointer)0x0) {
-    method->name = (char *)pAVar12;
-    ppIVar21 = (InvokerMethod *)&method->name;
-label_044ce9d5:
-    il2cpp_runtime_helper_022b4080(ppIVar21,pAVar12);
-    return;
-  }
-  if ((*(byte *)(*(long *)(MethodInfo_Void_SetResult + 0x20) + 0x135) & 1) == 0) {
-    lVar19 = il2cpp_runtime_helper_023009c0();
-    lVar19 = *(long *)(*(long *)(lVar19 + 0xc0) + 8);
-    if ((*(byte *)(lVar19 + 0x135) & 1) != 0) goto label_044ce9bb;
-label_044cea01:
-    lVar19 = il2cpp_runtime_helper_023009c0();
-    lVar14 = *(long *)pIVar18;
-    uVar1 = *(ushort *)(lVar14 + 0x12e);
-  }
-  else {
-    lVar19 = *(long *)(*(long *)(*(long *)(MethodInfo_Void_SetResult + 0x20) + 0xc0) + 8);
-    if ((*(byte *)(lVar19 + 0x135) & 1) == 0) goto label_044cea01;
-label_044ce9bb:
-    lVar14 = *(long *)pIVar18;
-    uVar1 = *(ushort *)(lVar14 + 0x12e);
-  }
-  if ((ulong)uVar1 != 0) {
-    lVar20 = 0;
-    do {
-      if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar20) == lVar19) {
-        iVar8 = *(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar20) + 2;
-        goto label_044cea55;
+    local_78[0].fields.source = pCVar6;
+    local_78[0].fields.result = pAVar12;
+    local_78[0].fields._16_8_ = uVar1;
+    Il2CppCodeGenWriteBarrier((void **)local_78,(void *)0x0);
+    local_90.fields.task.fields.source = local_78[0].fields.source;
+    local_90.fields.task.fields.result = (Il2CppObject *)local_78[0].fields.result;
+    local_90.fields.task.fields.token = local_78[0].fields.token;
+    local_90.fields.task.fields._18_6_ = local_78[0].fields._18_6_;
+    bVar8 = Cysharp_Threading_Tasks_UniTask_Awaiter_Vector2___get_IsCompleted
+                      (&local_90,
+                       (MethodInfo_EE1910 *)
+                       MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_AottgApiTransportResponse_get_IsCompleted
+                      );
+    if (!bVar8) {
+      (__this->fields).__1__state = 0;
+      (__this->fields).__u__1.fields.task.fields.source = local_90.fields.task.fields.source;
+      (__this->fields).__u__1.fields.task.fields.result = local_90.fields.task.fields.result;
+      pCVar7 = &(__this->fields).__u__1;
+      (pCVar7->fields).task.fields.token = local_90.fields.task.fields.token;
+      *(undefined6 *)&(pCVar7->fields).task.fields.field_0x12 = local_90.fields.task.fields._18_6_;
+      Il2CppCodeGenWriteBarrier((void **)&(__this->fields).__u__1,(void *)0x0);
+      pMVar15 = 
+      MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_AwaitUnsafeOnC
+      ;
+      if ((
+          MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_AwaitUnsafeOnC
+          ->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+        il2cpp_codegen_rgctx_method_init
+                  (
+                  MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_AwaitUnsafeOnC
+                  );
       }
-      lVar20 = lVar20 + 0x10;
-    } while ((ulong)uVar1 * 0x10 != lVar20);
+      if ((__this->fields).__t__builder.fields.runnerPromise ==
+          (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)0x0) {
+        pIVar13 = (pMVar15->field7_0x38).rgctx_data[2].klass;
+        if (((pIVar13->_2).bitflags1 & 1) == 0) {
+          pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+        }
+        if ((pIVar13->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(pIVar13);
+        }
+        Cysharp_Threading_Tasks_CompilerServices_AsyncUniTask_AottgApiClient__SendAsync_d__4__object___SetStateMachine
+                  (__this,(Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o **)
+                          &(__this->fields).__t__builder,
+                   (MethodInfo_DFEE50 *)(pMVar15->field7_0x38).rgctx_data[1].method);
+      }
+      pIVar4 = (Il2CppObject *)(__this->fields).__t__builder.fields.runnerPromise;
+      if (pIVar4 != (Il2CppObject *)0x0) {
+        pIVar13 = pMVar15->klass;
+        if (((pIVar13->_2).bitflags1 & 1) == 0) {
+          pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+        }
+        pIVar13 = pIVar13->rgctx_data[1].klass;
+        if (((pIVar13->_2).bitflags1 & 1) == 0) {
+          pIVar13 = il2cpp_codegen_class_init_checked(pIVar13);
+        }
+        pvVar14 = InterfaceInvoker0_Invoke(0,pIVar13,pIVar4);
+        il2cpp_runtime_helper_1800142b0(&local_90,pvVar14,(pMVar15->field7_0x38).rgctx_data[5].rgctxDataDummy);
+        return;
+      }
+      ThrowNullReferenceException();
+    }
   }
-  uVar17 = 2;
-label_044cea47:
-  puVar13 = (undefined8 *)il2cpp_runtime_helper_02300d20(pIVar18,lVar19,uVar17);
-label_044cea65:
-  (*(code *)*puVar13)(pIVar18,pAVar12,puVar13[1]);
+  pAVar12 = Cysharp_Threading_Tasks_UniTask_Awaiter_object___GetResult
+                      ((Cysharp_Threading_Tasks_UniTask_Awaiter_object__o *)&local_90,
+                       (MethodInfo_EE11A0 *)
+                       MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_AottgApiTransportResponse_GetResult)
+  ;
+  result = ApplicationManagers_Api_AottgApiClient__HandleResponse
+                     ((__this->fields).request,(__this->fields)._transportRequest_5__2,pAVar12,
+                      (MethodInfo *)0x0);
+  (__this->fields).__1__state = -2;
+  (__this->fields)._transportRequest_5__2 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._transportRequest_5__2,(void *)0x0);
+  Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_object___SetResult
+            ((Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_T__o *)
+             &(__this->fields).__t__builder,(Il2CppObject *)result,
+             (MethodInfo_DDA980 *)
+             MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_SetResult
+            );
   return;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient.<SendAsync>d__4$$SetStateMachine
 // il2cpp: void ApplicationManagers_Api_AottgApiClient__SendAsync_d__4__SetStateMachine (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);
-// 0x44cedc0
+// 0x1823747c0
 
 void ApplicationManagers_Api_AottgApiClient__SendAsync_d__4__SetStateMachine
-               (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o __this,
+               (ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o *__this,
                System_Runtime_CompilerServices_IAsyncStateMachine_o *stateMachine,MethodInfo *method)
 
 {
-  if (g_data_057aeb14 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetStateMachine);
-    g_data_057aeb14 = '\x01';
+  if (Il2CppMethodInitialized_184347a54 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_SetStateMachin
+              );
+    Il2CppMethodInitialized_184347a54 = '\x01';
   }
+  System_Configuration_ConfigurationCollectionAttribute___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&(__this->fields).__t__builder,
+             (MethodInfo *)stateMachine);
   return;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$.ctor
 // il2cpp: void ApplicationManagers_Api_AottgApiClient___ctor (ApplicationManagers_Api_AottgApiClient_o* __this, const MethodInfo* method);
-// 0x44c4f50
+// 0x1823606a0
 
 void ApplicationManagers_Api_AottgApiClient___ctor
                (ApplicationManagers_Api_AottgApiClient_o *__this,MethodInfo *method)
 
 {
-  System_Func_string__o *baseUrlProvider;
-  Il2CppObject *__this_00;
-  MethodInfo *method_00;
+  DG_Tweening_Core_DOGetter_Vector2__o *__this_00;
+  ApplicationManagers_Api_IAottgApiTransport_o *__this_01;
   
-  if (g_data_057aeb09 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_DefaultBaseUrl);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgUnityWebRequestTransport);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string);
-    g_data_057aeb09 = '\x01';
+  if (Il2CppMethodInitialized_184347a49 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string);
+    Il2CppMethodInitialized_184347a49 = '\x01';
   }
-  baseUrlProvider = (System_Func_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string);
-  method_00 = (MethodInfo *)0x0;
-  System_Func_object____ctor();
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgUnityWebRequestTransport);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  ApplicationManagers_Api_AottgApiClient___ctor_43cd1c0
-            (__this,baseUrlProvider,(ApplicationManagers_Api_IAottgApiTransport_o *)__this_00,method_00);
-  return;
+  __this_00 = (DG_Tweening_Core_DOGetter_Vector2__o *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string);
+  System_Func_object____ctor
+            (__this_00,(Il2CppObject *)0x0,
+             (intptr_t)MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl,
+             (MethodInfo_1387740 *)0x0);
+  __this_01 = (ApplicationManagers_Api_IAottgApiTransport_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184347a4a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string);
+    Il2CppMethodInitialized_184347a4a = '\x01';
+  }
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  if (__this_00 == (DG_Tweening_Core_DOGetter_Vector2__o *)0x0) {
+    __this_00 = (DG_Tweening_Core_DOGetter_Vector2__o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string);
+    System_Func_object____ctor
+              (__this_00,(Il2CppObject *)0x0,
+               (intptr_t)MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl,
+               (MethodInfo_1387740 *)0x0);
+  }
+  if (__this != (ApplicationManagers_Api_AottgApiClient_o *)0x0) {
+    (__this->fields)._baseUrlProvider = (System_Func_string__o *)__this_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._baseUrlProvider,__this_00);
+    if (__this_01 == (ApplicationManagers_Api_IAottgApiTransport_o *)0x0) {
+      __this_01 = (ApplicationManagers_Api_IAottgApiTransport_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
+    }
+    (__this->fields)._transport = __this_01;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._transport,__this_01);
+    return;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$.ctor
 // il2cpp: void ApplicationManagers_Api_AottgApiClient___ctor (ApplicationManagers_Api_AottgApiClient_o* __this, System_Func_string__o* baseUrlProvider, ApplicationManagers_Api_IAottgApiTransport_o* transport, const MethodInfo* method);
-// 0x44cd1c0
+// 0x1823605c0
 
-void ApplicationManagers_Api_AottgApiClient___ctor_43cd1c0
+void ApplicationManagers_Api_AottgApiClient___ctor_23605c0
                (ApplicationManagers_Api_AottgApiClient_o *__this,System_Func_string__o *baseUrlProvider,
                ApplicationManagers_Api_IAottgApiTransport_o *transport,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aeb0a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_DefaultBaseUrl);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgUnityWebRequestTransport);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string);
-    g_data_057aeb0a = '\x01';
+  if (Il2CppMethodInitialized_184347a4a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string);
+    Il2CppMethodInitialized_184347a4a = '\x01';
   }
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   if (baseUrlProvider == (System_Func_string__o *)0x0) {
-    baseUrlProvider = (System_Func_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string);
-    System_Func_object____ctor();
+    baseUrlProvider = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string);
+    System_Func_object____ctor
+              ((DG_Tweening_Core_DOGetter_Vector2__o *)baseUrlProvider,(Il2CppObject *)0x0,
+               (intptr_t)MethodInfo_ApplicationManagers_Api_AottgApiClient_DefaultBaseUrl,
+               (MethodInfo_1387740 *)0x0);
   }
-  if (__this == (ApplicationManagers_Api_AottgApiClient_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aeb0c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-      g_data_057aeb0c = '\x01';
-      iVar1 = *(int *)(TypeInfo_AccountManager + 0xe4);
+  if (__this != (ApplicationManagers_Api_AottgApiClient_o *)0x0) {
+    (__this->fields)._baseUrlProvider = baseUrlProvider;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._baseUrlProvider,baseUrlProvider);
+    if (transport == (ApplicationManagers_Api_IAottgApiTransport_o *)0x0) {
+      transport = (ApplicationManagers_Api_IAottgApiTransport_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgUnityWebRequestTransport);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)transport,(MethodInfo *)0x0);
     }
-    else {
-      iVar1 = *(int *)(TypeInfo_AccountManager + 0xe4);
-    }
-    if (iVar1 != 0) {
-      return;
-    }
-    il2cpp_runtime_helper_02337ed0();
+    (__this->fields)._transport = transport;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._transport,transport);
     return;
   }
-  (__this->fields)._baseUrlProvider = baseUrlProvider;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
-  if (transport == (ApplicationManagers_Api_IAottgApiTransport_o *)0x0) {
-    transport = (ApplicationManagers_Api_IAottgApiTransport_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgUnityWebRequestTransport);
-    System_Object___ctor((Il2CppObject *)transport,(MethodInfo *)0x0);
-  }
-  (__this->fields)._transport = transport;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._transport,transport);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$SendAsync
 // il2cpp: Cysharp_Threading_Tasks_UniTask_AottgApiResult__o ApplicationManagers_Api_AottgApiClient__SendAsync (ApplicationManagers_Api_AottgApiClient_o* __this, ApplicationManagers_Api_AottgApiRequest_o* request, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
-// 0x44c5040
+// 0x182360490
 
 Cysharp_Threading_Tasks_UniTask_AottgApiResult__o *
 ApplicationManagers_Api_AottgApiClient__SendAsync
@@ -453,102 +504,98 @@ ApplicationManagers_Api_AottgApiClient__SendAsync
           System_Threading_CancellationToken_o cancellationToken,MethodInfo *method)
 
 {
-  ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o __this_00;
-  undefined4 uVar1;
-  undefined4 uVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  char *pcVar5;
-  _union_13 _Var6;
-  _union_14 _Var7;
-  undefined8 uVar8;
-  undefined8 uVar9;
-  Cysharp_Threading_Tasks_IUniTaskSource_T__o *local_48;
-  ApplicationManagers_Api_AottgApiResult_o *pAStack_40;
-  undefined8 local_38;
+  MethodInfo *pMVar1;
+  Cysharp_Threading_Tasks_IUniTaskSource_T__o *local_a8;
+  ApplicationManagers_Api_AottgApiResult_o *pAStack_a0;
+  undefined8 local_98;
+  ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_Fields local_88;
   
-  if (g_data_057aeb0b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AsyncUniTaskMethodBuilder_1_ApplicationManagers_Api_Aott);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Start_AottgApiClient_SendAsync_d__4);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_UniTask_1_ApplicationManagers_Api_AottgApiResult_get_Tas);
-    g_data_057aeb0b = '\x01';
+  if (Il2CppMethodInitialized_184347a4b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_Create
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_Start_AottgApi
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_get_Task
+              );
+    Il2CppMethodInitialized_184347a4b = '\x01';
   }
-  uVar2 = 0;
-  _Var7.genericMethod = (void *)0x0;
-  uVar8._0_4_ = 0;
-  uVar8._4_2_ = 0;
-  uVar8._6_2_ = 0;
-  _Var6.rgctx_data = (Il2CppRGCTXData *)0x0;
-  uVar9._0_2_ = 0;
-  uVar9._2_1_ = '\0';
-  uVar9._3_1_ = '\0';
-  uVar9._4_4_ = 0;
-  pIVar3 = (Il2CppMethodPointer)0x0;
-  pIVar4 = (InvokerMethod)0x0;
-  pcVar5 = (char *)0x0;
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff60,0);
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff80,__this);
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff78,request);
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff88,0);
-  uVar1 = 0xffffffff;
-  if (*(long *)(MethodInfo_Void_Start_AottgApiClient_SendAsync_d__4 + 0x38) == 0) {
-    il2cpp_runtime_helper_02300a20();
+  local_88.__t__builder.fields.result = (ApplicationManagers_Api_AottgApiResult_o *)0x0;
+  local_88.__1__state = 0;
+  local_88._4_4_ = 0;
+  local_88.__u__1.fields.task.fields.token = 0;
+  local_88.__u__1.fields.task.fields._18_6_ = 0;
+  local_88.__t__builder.fields.runnerPromise =
+       (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)0x0;
+  local_88.__t__builder.fields.ex = (System_Exception_o *)0x0;
+  local_88.request = (ApplicationManagers_Api_AottgApiRequest_o *)0x0;
+  local_88.__4__this = (ApplicationManagers_Api_AottgApiClient_o *)0x0;
+  local_88.cancellationToken.fields._source =
+       (System_Threading_CancellationToken_Fields)(System_Threading_CancellationTokenSource_o *)0x0;
+  local_88._transportRequest_5__2 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
+  local_88.__u__1.fields.task.fields.source = (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+  local_88.__u__1.fields.task.fields.result = (Il2CppObject *)0x0;
+  Il2CppCodeGenWriteBarrier((void **)&local_88.__t__builder,(void *)0x0);
+  local_88.__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&local_88.__4__this,__this);
+  local_88.request = request;
+  Il2CppCodeGenWriteBarrier(&local_88.request,request);
+  local_88.cancellationToken.fields._source = cancellationToken.fields._source;
+  Il2CppCodeGenWriteBarrier((void **)&local_88.cancellationToken,(void *)0x0);
+  pMVar1 = 
+  MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_Start_AottgApi;
+  local_88.__1__state = -1;
+  if ((
+      MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_Start_AottgApi
+      ->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+    il2cpp_codegen_rgctx_method_init
+              (
+              MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_Start_AottgApi
+              );
   }
-  __this_00.fields._4_4_ = uVar2;
-  __this_00.fields.__1__state = uVar1;
-  __this_00.fields.__t__builder.fields.runnerPromise =
-       (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)pIVar3;
-  __this_00.fields.__t__builder.fields.ex = (System_Exception_o *)pIVar4;
-  __this_00.fields.__t__builder.fields.result = (ApplicationManagers_Api_AottgApiResult_o *)pcVar5;
-  __this_00.fields.request = request;
-  __this_00.fields.__4__this = __this;
-  __this_00.fields.cancellationToken.fields._source = cancellationToken.fields._source;
-  __this_00.fields._transportRequest_5__2 =
-       (ApplicationManagers_Api_AottgApiTransportRequest_o *)_Var6.rgctx_data;
-  __this_00.fields.__u__1.fields.task.fields.source = _Var7.genericMethod;
-  __this_00.fields.__u__1.fields.task.fields.result = (Il2CppObject *)uVar8;
-  __this_00.fields.__u__1.fields.task.fields.token = (uint16_t)uVar9;
-  __this_00.fields.__u__1.fields.task.fields._18_1_ = SUB81(uVar9,2);
-  __this_00.fields.__u__1.fields.task.fields._19_1_ = SUB81(uVar9,3);
-  __this_00.fields.__u__1.fields.task.fields._20_4_ = SUB84(uVar9,4);
   ApplicationManagers_Api_AottgApiClient__SendAsync_d__4__MoveNext
-            (__this_00,(MethodInfo *)&stack0xffffffffffffff58);
-  il2cpp_runtime_helper_02f6cd90(&local_48,&stack0xffffffffffffff60,MethodInfo_UniTask_1_ApplicationManagers_Api_AottgApiResult_get_Tas);
-  *(undefined8 *)&(__return_storage_ptr__->fields).token = local_38;
-  (__return_storage_ptr__->fields).source = local_48;
-  (__return_storage_ptr__->fields).result = pAStack_40;
+            ((ApplicationManagers_Api_AottgApiClient__SendAsync_d__4_o *)&local_88,
+             (pMVar1->field7_0x38).rgctx_data[2].method);
+  il2cpp_runtime_helper_180ddb120(&local_a8,&local_88.__t__builder,
+                MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiResult_get_Task
+               );
+  (__return_storage_ptr__->fields).source = local_a8;
+  (__return_storage_ptr__->fields).result = pAStack_a0;
+  *(undefined8 *)&(__return_storage_ptr__->fields).token = local_98;
   return __return_storage_ptr__;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$DefaultBaseUrl
 // il2cpp: System_String_o* ApplicationManagers_Api_AottgApiClient__DefaultBaseUrl (const MethodInfo* method);
-// 0x44cd290
+// 0x18235f840
 
 System_String_o * ApplicationManagers_Api_AottgApiClient__DefaultBaseUrl(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aeb0c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057aeb0c = '\x01';
-    iVar1 = *(int *)(TypeInfo_AccountManager + 0xe4);
+  if (Il2CppMethodInitialized_184347a4c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_184347a4c = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AccountManager + 0xe4);
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  if (iVar1 != 0) {
-    return *(System_String_o **)(*(long *)(TypeInfo_AccountManager + 0xb8) + 0x10);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(System_String_o **)(*(long *)(TypeInfo_AccountManager + 0xb8) + 0x10);
+  return TypeInfo_ApplicationManagers_AccountManager->static_fields->BaseUrl;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$BuildTransportRequest
 // il2cpp: ApplicationManagers_Api_AottgApiTransportRequest_o* ApplicationManagers_Api_AottgApiClient__BuildTransportRequest (ApplicationManagers_Api_AottgApiClient_o* __this, ApplicationManagers_Api_AottgApiRequest_o* request, const MethodInfo* method);
-// 0x44cd300
+// 0x18235f340
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18235f3e8: mov rbp, qword ptr [rip + 0x1d98c59]  ; "GET"
+// asm:   0x18235f3ef: jmp 0x18235f408
+// asm:   0x18235f5d2: mov rbp, rax
 
 ApplicationManagers_Api_AottgApiTransportRequest_o *
 ApplicationManagers_Api_AottgApiClient__BuildTransportRequest
@@ -556,461 +603,332 @@ ApplicationManagers_Api_AottgApiClient__BuildTransportRequest
           ,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__string__o **ppSVar1;
-  bool_conflict bVar2;
+  System_Func_string__o *pSVar1;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  bool bVar3;
   ApplicationManagers_Api_AottgApiTransportRequest_o *__this_00;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  System_Collections_Generic_Dictionary_string__string__o *__this_01;
   System_String_o *pSVar4;
-  ApplicationManagers_Api_AottgApiTransportRequest_o *extraout_RAX;
-  MethodInfo *method_00;
-  ApplicationManagers_Api_AottgApiTransportRequest_o *__this_01;
+  System_String_o *pSVar5;
   
-  __this_01 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)__this;
-  if (g_data_057aeb0d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiTransportRequest);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&"Accept");
-    il2cpp_runtime_helper_023445d0(&"GET");
-    il2cpp_runtime_helper_023445d0(&"Content-Type");
-    il2cpp_runtime_helper_023445d0(&"application/json");
-    il2cpp_runtime_helper_023445d0(&"Authorization");
-    __this_01 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)&"Bearer ";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeb0d = '\x01';
+  if (Il2CppMethodInitialized_184347a4d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgApiTransportRequest);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&"Accept");
+    il2cpp_codegen_initialize_runtime_metadata(&"GET");
+    il2cpp_codegen_initialize_runtime_metadata(&"Content-Type");
+    il2cpp_codegen_initialize_runtime_metadata(&"application/json");
+    il2cpp_codegen_initialize_runtime_metadata(&"Authorization");
+    il2cpp_codegen_initialize_runtime_metadata(&"Bearer ");
+    Il2CppMethodInitialized_184347a4d = '\x01';
   }
   if (request != (ApplicationManagers_Api_AottgApiRequest_o *)0x0) {
-    bVar2 = System_String__IsNullOrEmpty((request->fields).Method,(MethodInfo *)0x0);
-    pSVar4 = "GET";
-    if ((char)bVar2 == '\0') {
-      pSVar4 = (request->fields).Method;
-      __this_01 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
-      if (pSVar4 == (System_String_o *)0x0) goto label_044cd541;
-      pSVar4 = System_String__ToUpperInvariant(pSVar4,(MethodInfo *)0x0);
+    bVar3 = System_String__IsNullOrEmpty((request->fields).Method,(MethodInfo *)0x0);
+    pSVar5 = "GET";
+    if (!bVar3) {
+      pSVar5 = (request->fields).Method;
+      if (pSVar5 == (System_String_o *)0x0) goto label_18235f6b9;
+      pSVar5 = System_String__ToUpperInvariant(pSVar5,(MethodInfo *)0x0);
     }
-    __this_00 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiTransportRequest);
-    if (g_data_057aeb19 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_String);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_string);
-      g_data_057aeb19 = '\x01';
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgApiTransportRequest);
+    if (Il2CppMethodInitialized_184347a59 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_System_Collections_Generic_Dictionary_string_string);
+      Il2CppMethodInitialized_184347a59 = '\x01';
     }
-    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-    System_Collections_Generic_Dictionary_object__object____ctor(pSVar3,MethodInfo_Dictionary_2_System_String_System_String);
-    ppSVar1 = &(__this_00->fields).Headers;
-    (__this_00->fields).Headers = (System_Collections_Generic_Dictionary_string__string__o *)pSVar3;
-    il2cpp_runtime_helper_022b4080(ppSVar1);
-    __this_01 = __this_00;
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    if (__this_00 != (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
-      (__this_00->fields).Method = pSVar4;
-      il2cpp_runtime_helper_022b4080(&__this_00->fields,pSVar4);
-      pSVar4 = ApplicationManagers_Api_AottgApiClient__BuildUrl(__this,(request->fields).Path,method_00);
-      (__this_00->fields).Url = pSVar4;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields).Url,pSVar4);
-      (__this_00->fields).JsonBody = (request->fields).JsonBody;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields).JsonBody);
-      (__this_00->fields).TimeoutSeconds.fields = (request->fields).TimeoutSeconds.fields;
-      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)(__this_00->fields).Headers;
-      __this_01 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
-      if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  (pSVar3,"Accept","application/json",MethodInfo_Void_set_Item);
-        bVar2 = System_String__IsNullOrEmpty((request->fields).JsonBody,(MethodInfo *)0x0);
-        if ((char)bVar2 == '\0') {
-          __this_01 = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
-          if ((System_Collections_Generic_Dictionary_object__object__o *)*ppSVar1 ==
-              (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044cd541;
-          System_Collections_Generic_Dictionary_object__object___set_Item
-                    ((System_Collections_Generic_Dictionary_object__object__o *)*ppSVar1,"Content-Type",
-                     "application/json",MethodInfo_Void_set_Item);
-        }
-        bVar2 = System_String__IsNullOrEmpty((request->fields).BearerToken,(MethodInfo *)0x0);
-        if ((char)bVar2 == '\0') {
-          pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)*ppSVar1;
-          __this_01 = "Bearer ";
-          pSVar4 = System_String__Concat_3ae5ba0
-                             ((System_String_o *)"Bearer ",(request->fields).BearerToken,(MethodInfo *)0x0)
-          ;
-          if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044cd541;
-          System_Collections_Generic_Dictionary_object__object___set_Item
-                    (pSVar3,"Authorization",(Il2CppObject *)pSVar4,MethodInfo_Void_set_Item);
-        }
-        return __this_00;
+    __this_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+    System_Collections_Generic_Dictionary_object__object____ctor
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_01,
+               (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+    (__this_00->fields).Headers = __this_01;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields).Headers,__this_01);
+    System_Configuration_ConfigurationCollectionAttribute___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+    (__this_00->fields).Method = pSVar5;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields).Method,pSVar5);
+    pSVar5 = (request->fields).Path;
+    if (Il2CppMethodInitialized_184347a4e == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"http://");
+      il2cpp_codegen_initialize_runtime_metadata(&"/");
+      il2cpp_codegen_initialize_runtime_metadata(&"https://");
+      Il2CppMethodInitialized_184347a4e = '\x01';
+    }
+    bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
+    if (bVar3) {
+      pSVar1 = (__this->fields)._baseUrlProvider;
+      if ((pSVar1 == (System_Func_string__o *)0x0) ||
+         ((pSVar5 = (System_String_o *)
+                    (*(code *)(pSVar1->fields).invoke_impl)
+                              ((pSVar1->fields).method_code,(pSVar1->fields).method),
+          pSVar5 == (System_String_o *)0x0 &&
+          (pSVar5 = (System_String_o *)**(longlong **)(g_data_184354e50 + 0xb8), pSVar5 == (System_String_o *)0x0
+          )))) goto label_18235f6b9;
+      pSVar5 = System_String__TrimEnd_19734b0(pSVar5,0x2f,(MethodInfo *)0x0);
+    }
+    else {
+      if (pSVar5 == (System_String_o *)0x0) goto label_18235f6b9;
+      bVar3 = System_String__StartsWith_19722c0(pSVar5,"http://",5,(MethodInfo *)0x0);
+      if ((!bVar3) &&
+         (bVar3 = System_String__StartsWith_19722c0(pSVar5,"https://",5,(MethodInfo *)0x0), !bVar3)
+         ) {
+        pSVar1 = (__this->fields)._baseUrlProvider;
+        if ((pSVar1 == (System_Func_string__o *)0x0) ||
+           ((pSVar4 = (System_String_o *)
+                      (*(code *)(pSVar1->fields).invoke_impl)
+                                ((pSVar1->fields).method_code,(pSVar1->fields).method),
+            pSVar4 == (System_String_o *)0x0 &&
+            (pSVar4 = (System_String_o *)**(longlong **)(g_data_184354e50 + 0xb8),
+            pSVar4 == (System_String_o *)0x0)))) goto label_18235f6b9;
+        pSVar4 = System_String__TrimEnd_19734b0(pSVar4,0x2f,(MethodInfo *)0x0);
+        pSVar5 = System_String__TrimStart_19736a0(pSVar5,0x2f,(MethodInfo *)0x0);
+        pSVar5 = System_String__Concat_1969b70(pSVar4,"/",pSVar5,(MethodInfo *)0x0);
       }
     }
+    (__this_00->fields).Url = pSVar5;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields).Url,pSVar5);
+    pSVar5 = (request->fields).JsonBody;
+    (__this_00->fields).JsonBody = pSVar5;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields).JsonBody,pSVar5);
+    (__this_00->fields).TimeoutSeconds.fields = (request->fields).TimeoutSeconds.fields;
+    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this_00->fields).Headers;
+    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      System_Collections_Generic_Dictionary_object__object___set_Item
+                (pSVar2,(Il2CppObject *)"Accept",(Il2CppObject *)"application/json",
+                 (MethodInfo_147A7F0 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item
+                );
+      bVar3 = System_String__IsNullOrEmpty((request->fields).JsonBody,(MethodInfo *)0x0);
+      if (!bVar3) {
+        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this_00->fields).Headers;
+        if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_18235f6b9;
+        System_Collections_Generic_Dictionary_object__object___set_Item
+                  (pSVar2,(Il2CppObject *)"Content-Type",(Il2CppObject *)"application/json",
+                   (MethodInfo_147A7F0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+      }
+      bVar3 = System_String__IsNullOrEmpty((request->fields).BearerToken,(MethodInfo *)0x0);
+      if (!bVar3) {
+        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this_00->fields).Headers;
+        pSVar5 = System_String__Concat_1969e50
+                           ("Bearer ",(request->fields).BearerToken,(MethodInfo *)0x0);
+        if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_18235f6b9;
+        System_Collections_Generic_Dictionary_object__object___set_Item
+                  (pSVar2,(Il2CppObject *)"Authorization",(Il2CppObject *)pSVar5,
+                   (MethodInfo_147A7F0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+      }
+      return __this_00;
+    }
   }
-label_044cd541:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aeb19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_string);
-    g_data_057aeb19 = '\x01';
-  }
-  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar3,MethodInfo_Dictionary_2_System_String_System_String);
-  (__this_01->fields).Headers = (System_Collections_Generic_Dictionary_string__string__o *)pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this_01->fields).Headers);
-  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-  return extraout_RAX;
+label_18235f6b9:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$BuildUrl
 // il2cpp: System_String_o* ApplicationManagers_Api_AottgApiClient__BuildUrl (ApplicationManagers_Api_AottgApiClient_o* __this, System_String_o* path, const MethodInfo* method);
-// 0x44cd5d0
+// 0x18235f6c0
 
 System_String_o *
 ApplicationManagers_Api_AottgApiClient__BuildUrl
           (ApplicationManagers_Api_AottgApiClient_o *__this,System_String_o *path,MethodInfo *method)
 
 {
-  uint uVar1;
-  System_String_c *pSVar2;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  undefined8 *puVar6;
-  System_String_array *values;
-  System_String_array *pSVar7;
-  ApplicationManagers_Api_AottgApiResult_o *pAVar8;
-  SimpleJSONFixed_JSONNode_o *node;
-  System_Func_string__o *in_RCX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  ApplicationManagers_Api_AottgApiTransportRequest_o *request;
-  System_String_o *pSVar9;
-  System_String_o *pSVar10;
-  System_String_array *value;
-  MethodInfo *in_R9;
-  System_String_Fields unaff_R12;
-  Il2CppClass *responseText;
-  System_String_o *pSStack_70;
-  System_String_array *pSStack_68;
-  System_String_o *pSStack_60;
-  MethodInfo *pMStack_58;
-  Il2CppClass *pIStack_50;
-  undefined *puStack_48;
-  System_String_o *pSStack_40;
+  System_Func_string__o *pSVar1;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_String_o *str2;
   
-  if (g_data_057aeb0e == '\0') {
-    il2cpp_runtime_helper_023445d0(&"http://");
-    il2cpp_runtime_helper_023445d0(&"/");
-    il2cpp_runtime_helper_023445d0(&"https://");
-    g_data_057aeb0e = '\x01';
+  if (Il2CppMethodInitialized_184347a4e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"http://");
+    il2cpp_codegen_initialize_runtime_metadata(&"/");
+    il2cpp_codegen_initialize_runtime_metadata(&"https://");
+    Il2CppMethodInitialized_184347a4e = '\x01';
   }
-  request = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
-  pSVar5 = path;
-  bVar3 = System_String__IsNullOrEmpty(path,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (path != (System_String_o *)0x0) {
-      bVar3 = System_String__StartsWith_3af5570(path,"http://",5,(MethodInfo *)0x0);
-      if (((char)bVar3 != '\0') ||
-         (request = "https://", pSVar5 = path,
-         bVar3 = System_String__StartsWith_3af5570(path,(System_String_o *)"https://",5,(MethodInfo *)0x0),
-         (char)bVar3 != '\0')) {
-        return path;
-      }
-      in_RCX = (__this->fields)._baseUrlProvider;
-      if (in_RCX != (System_Func_string__o *)0x0) {
-        request = (ApplicationManagers_Api_AottgApiTransportRequest_o *)(in_RCX->fields).method;
-        pSVar5 = ((_union_14 *)&(in_RCX->fields).method_code)->genericMethod;
-        pSVar4 = (System_String_o *)(*(code *)(in_RCX->fields).invoke_impl)();
-        if (pSVar4 == (System_String_o *)0x0) {
-          pSVar4 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-        }
-        if (pSVar4 != (System_String_o *)0x0) {
-          pSVar5 = System_String__TrimEnd_3afbd10(pSVar4,0x2f,(MethodInfo *)0x0);
-          pSVar4 = System_String__TrimStart(path,0x2f,(MethodInfo *)0x0);
-          pSVar5 = System_String__Concat_3af7150(pSVar5,"/",pSVar4,(MethodInfo *)0x0);
-          return pSVar5;
-        }
+  bVar2 = System_String__IsNullOrEmpty(path,(MethodInfo *)0x0);
+  if (bVar2) {
+    pSVar1 = (__this->fields)._baseUrlProvider;
+    if (pSVar1 != (System_Func_string__o *)0x0) {
+      pSVar3 = (System_String_o *)
+               (*(code *)(pSVar1->fields).invoke_impl)((pSVar1->fields).method_code,(pSVar1->fields).method);
+      if ((pSVar3 != (System_String_o *)0x0) ||
+         (pSVar3 = (System_String_o *)**(longlong **)(g_data_184354e50 + 0xb8), pSVar3 != (System_String_o *)0x0)
+         ) {
+        pSVar3 = System_String__TrimEnd_19734b0(pSVar3,0x2f,(MethodInfo *)0x0);
+        return pSVar3;
       }
     }
   }
-  else {
-    in_RCX = (__this->fields)._baseUrlProvider;
-    if (in_RCX != (System_Func_string__o *)0x0) {
-      request = (ApplicationManagers_Api_AottgApiTransportRequest_o *)(in_RCX->fields).method;
-      pSVar5 = ((_union_14 *)&(in_RCX->fields).method_code)->genericMethod;
-      pSVar4 = (System_String_o *)(*(code *)(in_RCX->fields).invoke_impl)();
-      if (pSVar4 == (System_String_o *)0x0) {
-        pSVar4 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      }
-      if (pSVar4 != (System_String_o *)0x0) {
-        pSVar5 = System_String__TrimEnd_3afbd10(pSVar4,0x2f,(MethodInfo *)0x0);
-        return pSVar5;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSStack_40 = path;
-  if (method_00 != (MethodInfo *)0x0) {
-    responseText = method_00->klass;
-    if (responseText == (Il2CppClass *)0x0) {
-      responseText = (Il2CppClass *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      uVar1 = *(uint *)&method_00->invoker_method;
-    }
-    else {
-      uVar1 = *(uint *)&method_00->invoker_method;
-    }
-    if ((uVar1 | 2) == 3) {
-      pSVar7 = (System_String_array *)&stack0xffffffffffffffb0;
-      if (g_data_057aeb0f == '\0') {
-        pMStack_58 = (MethodInfo *)0x44cdb19;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiTransportResult);
-        pMStack_58 = (MethodInfo *)0x44cdb25;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-        pMStack_58 = (MethodInfo *)0x44cdb31;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-        pMStack_58 = (MethodInfo *)0x44cdb3d;
-        il2cpp_runtime_helper_023445d0(&" ");
-        pMStack_58 = (MethodInfo *)0x44cdb49;
-        il2cpp_runtime_helper_023445d0(&" responseCode=");
-        pMStack_58 = (MethodInfo *)0x44cdb55;
-        il2cpp_runtime_helper_023445d0(&"AottgApiClient: network error ");
-        pMStack_58 = (MethodInfo *)0x44cdb61;
-        il2cpp_runtime_helper_023445d0(&"network_error");
-        pMStack_58 = (MethodInfo *)0x44cdb6d;
-        il2cpp_runtime_helper_023445d0(&" error=");
-        pMStack_58 = (MethodInfo *)0x44cdb79;
-        il2cpp_runtime_helper_023445d0(&" result=");
-        g_data_057aeb0f = '\x01';
-      }
-      pSVar4 = (System_String_o *)0xa;
-      pMStack_58 = (MethodInfo *)0x44cdb94;
-      value = TypeInfo_string;
-      values = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-      pSVar9 = "AottgApiClient: network error ";
-      pSStack_68 = (System_String_array *)path;
-      if (values != (System_String_array *)0x0) {
-        pSVar10 = pSVar4;
-        pSStack_68 = values;
-        if ((int)values->max_length != 0) {
-          value = (System_String_array *)values->m_Items;
-          values->m_Items[0] = "AottgApiClient: network error ";
-          pMStack_58 = (MethodInfo *)0x44cdbc1;
-          il2cpp_runtime_helper_022b4080();
-          pSVar4 = pSVar9;
-          if (request == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) goto label_044cdd90;
-          pSVar10 = pSVar9;
-          if (1 < (uint)values->max_length) {
-            pSVar10 = (request->fields).Method;
-            value = (System_String_array *)(values->m_Items + 1);
-            values->m_Items[1] = pSVar10;
-            pMStack_58 = (MethodInfo *)0x44cdbe6;
-            il2cpp_runtime_helper_022b4080();
-            pSVar4 = " ";
-            if (2 < (uint)values->max_length) {
-              value = (System_String_array *)(values->m_Items + 2);
-              values->m_Items[2] = " ";
-              pMStack_58 = (MethodInfo *)0x44cdc07;
-              il2cpp_runtime_helper_022b4080();
-              pSVar10 = pSVar4;
-              if (3 < (uint)values->max_length) {
-                pSVar10 = (request->fields).Url;
-                value = (System_String_array *)(values->m_Items + 3);
-                values->m_Items[3] = pSVar10;
-                pMStack_58 = (MethodInfo *)0x44cdc23;
-                il2cpp_runtime_helper_022b4080();
-                pSVar4 = " result=";
-                if (4 < (uint)values->max_length) {
-                  value = (System_String_array *)(values->m_Items + 4);
-                  values->m_Items[4] = " result=";
-                  pMStack_58 = (MethodInfo *)0x44cdc44;
-                  il2cpp_runtime_helper_022b4080();
-                  if (method_00 == (MethodInfo *)0x0) goto label_044cdd90;
-                  pIStack_50 = TypeInfo_AottgApiTransportResult;
-                  puStack_48 = (void *)0xffffffffffffffff;
-                  pSStack_40 = (System_String_o *)
-                               CONCAT44(pSStack_40._4_4_,*(undefined4 *)&method_00->invoker_method);
-                  pSVar10 = (System_String_o *)0x0;
-                  pMStack_58 = (MethodInfo *)0x44cdc76;
-                  pSVar4 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffffb0,(MethodInfo *)0x0);
-                  value = pSVar7;
-                  if (5 < (uint)values->max_length) {
-                    value = (System_String_array *)(values->m_Items + 5);
-                    values->m_Items[5] = pSVar4;
-                    pMStack_58 = (MethodInfo *)0x44cdc90;
-                    il2cpp_runtime_helper_022b4080();
-                    pSVar10 = pSVar4;
-                    if (6 < (uint)values->max_length) {
-                      values->m_Items[6] = " responseCode=";
-                      pMStack_58 = (MethodInfo *)0x44cdcb1;
-                      il2cpp_runtime_helper_022b4080(values->m_Items + 6);
-                      value = (System_String_array *)&method_00->name;
-                      pSVar10 = (System_String_o *)0x0;
-                      pMStack_58 = (MethodInfo *)0x44cdcbc;
-                      pSVar4 = System_Int64__ToString((int64_t)value,(MethodInfo *)0x0);
-                      if (7 < (uint)values->max_length) {
-                        value = (System_String_array *)(values->m_Items + 7);
-                        values->m_Items[7] = pSVar4;
-                        pMStack_58 = (MethodInfo *)0x44cdcd6;
-                        il2cpp_runtime_helper_022b4080();
-                        pSVar9 = " error=";
-                        pSVar10 = pSVar4;
-                        if (8 < (uint)values->max_length) {
-                          value = (System_String_array *)(values->m_Items + 8);
-                          values->m_Items[8] = " error=";
-                          pMStack_58 = (MethodInfo *)0x44cdcf7;
-                          il2cpp_runtime_helper_022b4080();
-                          pSVar10 = pSVar9;
-                          if (9 < (uint)values->max_length) {
-                            values->m_Items[9] = (System_String_o *)method_00->return_type;
-                            pMStack_58 = (MethodInfo *)0x44cdd15;
-                            il2cpp_runtime_helper_022b4080(values->m_Items + 9);
-                            pMStack_58 = (MethodInfo *)0x44cdd1f;
-                            pSVar7 = (System_String_array *)
-                                     System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-                            if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-                              pMStack_58 = (MethodInfo *)0x44cdd3a;
-                              il2cpp_runtime_helper_02337ed0();
-                            }
-                            pSVar4 = (System_String_o *)0x0;
-                            pMStack_58 = (MethodInfo *)0x44cdd44;
-                            value = pSVar7;
-                            UnityEngine_Debug__LogError((Il2CppObject *)pSVar7,(MethodInfo *)0x0);
-                            pSStack_68 = pSVar7;
-                            if (pSVar5 != (System_String_o *)0x0) {
-                              if (*(char *)((long)&pSVar5[2].monitor + 1) != '\0') {
-                                pMStack_58 = (MethodInfo *)0x44cdd61;
-                                ApplicationManagers_AottgNetworkNotifications__TryReport
-                                          ("network_error",(MethodInfo *)0x0);
-                              }
-                              pMStack_58 = (MethodInfo *)0x44cdd7f;
-                              pAVar8 = ApplicationManagers_Api_AottgApiResult__Fail
-                                                 ((int64_t)method_00->name,(System_String_o *)method_00->klass
-                                                  ,"network_error",(System_String_o *)method_00->return_type,0,
-                                                  in_R9);
-                              return (System_String_o *)pAVar8;
-                            }
-                            goto label_044cdd90;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+  else if (path != (System_String_o *)0x0) {
+    bVar2 = System_String__StartsWith_19722c0(path,"http://",5,(MethodInfo *)0x0);
+    if (!bVar2) {
+      bVar2 = System_String__StartsWith_19722c0(path,"https://",5,(MethodInfo *)0x0);
+      if (!bVar2) {
+        pSVar1 = (__this->fields)._baseUrlProvider;
+        if (pSVar1 != (System_Func_string__o *)0x0) {
+          pSVar3 = (System_String_o *)
+                   (*(code *)(pSVar1->fields).invoke_impl)
+                             ((pSVar1->fields).method_code,(pSVar1->fields).method);
+          if ((pSVar3 != (System_String_o *)0x0) ||
+             (pSVar3 = (System_String_o *)**(longlong **)(g_data_184354e50 + 0xb8),
+             pSVar3 != (System_String_o *)0x0)) {
+            pSVar3 = System_String__TrimEnd_19734b0(pSVar3,0x2f,(MethodInfo *)0x0);
+            str2 = System_String__TrimStart_19736a0(path,0x2f,(MethodInfo *)0x0);
+            pSVar3 = System_String__Concat_1969b70(pSVar3,"/",str2,(MethodInfo *)0x0);
+            return pSVar3;
           }
         }
-        pSVar4 = pSVar10;
-        pMStack_58 = (MethodInfo *)0x44cdd90;
-        il2cpp_runtime_helper_022b2ca0();
-      }
-label_044cdd90:
-      pMStack_58 = (MethodInfo *)0x44cdd95;
-      il2cpp_runtime_helper_022b2c90();
-      pSStack_60 = pSVar5;
-      pMStack_58 = method_00;
-      if (g_data_057aeb10 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"code");
-        il2cpp_runtime_helper_023445d0(&"message");
-        il2cpp_runtime_helper_023445d0(&"error");
-        g_data_057aeb10 = '\x01';
-      }
-      bVar3 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') {
-        node = SimpleJSONFixed_JSON__Parse((System_String_o *)value,(MethodInfo *)0x0);
-        pSVar5 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"error",method_01);
-        bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pSVar5;
-        }
-        pSVar5 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"message",method_02);
-        bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pSVar5;
-        }
-        pSVar5 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"code",method_03);
-        bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pSVar5;
-        }
-      }
-      pSStack_70 = pSVar4;
-      if (g_data_057aeb15 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"http_");
-        g_data_057aeb15 = '\x01';
-      }
-      pSVar5 = System_Int64__ToString((int64_t)&pSStack_70,(MethodInfo *)0x0);
-      pSVar5 = System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar5,(MethodInfo *)0x0);
-      return pSVar5;
-    }
-    if (&g_data_00000063 < method_00->name + -200) {
-      puStack_48 = (void *)0x44cd88b;
-      pSVar5 = ApplicationManagers_Api_AottgApiClient__ParseError
-                         ((System_String_o *)responseText,(int64_t)method_00->name,method_00);
-      puStack_48 = (void *)0x44cd89c;
-      ApplicationManagers_Api_AottgApiClient__LogHttpFailure
-                (request,(ApplicationManagers_Api_AottgApiTransportResponse_o *)method_00,
-                 (System_String_o *)responseText,(MethodInfo *)in_RCX);
-      pAVar8 = ApplicationManagers_Api_AottgApiResult__Fail
-                         ((int64_t)method_00->name,(System_String_o *)responseText,pSVar5,
-                          (System_String_o *)method_00->return_type,0,in_R9);
-      return (System_String_o *)pAVar8;
-    }
-    if (pSVar5 != (System_String_o *)0x0) {
-      if (*(char *)&pSVar5[2].monitor == '\0') {
-        unaff_R12._stringLength = 0;
-        unaff_R12._firstChar = 0;
-        unaff_R12._6_2_ = 0;
-        pSVar2 = (System_String_c *)method_00->name;
-      }
-      else {
-        unaff_R12._stringLength = 0;
-        unaff_R12._firstChar = 0;
-        unaff_R12._6_2_ = 0;
-        puStack_48 = (void *)0x44cd7d8;
-        bVar3 = System_String__IsNullOrEmpty((System_String_o *)responseText,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          puStack_48 = (void *)0x44cd7e6;
-          unaff_R12 = (System_String_Fields)
-                      SimpleJSONFixed_JSON__Parse((System_String_o *)responseText,(MethodInfo *)0x0);
-        }
-        pSVar2 = (System_String_c *)method_00->name;
-      }
-      if (g_data_057aeb17 == '\0') {
-        puStack_48 = (void *)0x44cd802;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiResult);
-        g_data_057aeb17 = '\x01';
-      }
-      puStack_48 = (void *)0x44cd818;
-      pSVar5 = (System_String_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiResult);
-      puStack_48 = (void *)0x44cd825;
-      System_Object___ctor((Il2CppObject *)pSVar5,(MethodInfo *)0x0);
-      if (pSVar5 != (System_String_o *)0x0) {
-        *(undefined1 *)&(pSVar5->fields)._stringLength = 1;
-        pSVar5[1].klass = pSVar2;
-        if (responseText == (Il2CppClass *)0x0) {
-          responseText = (Il2CppClass *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-        }
-        pSVar5[1].monitor = responseText;
-        puStack_48 = (void *)0x44cd863;
-        il2cpp_runtime_helper_022b4080(&pSVar5[1].monitor,responseText);
-        pSVar5[1].fields = unaff_R12;
-        puStack_48 = (void *)0x44cd876;
-        il2cpp_runtime_helper_022b4080(&pSVar5[1].fields,unaff_R12);
-        return pSVar5;
+        goto label_18235f82b;
       }
     }
+    return path;
   }
-  puStack_48 = (void *)0x44cda98;
-  il2cpp_runtime_helper_022b2c90();
-  puStack_48 = (void *)0x44cda9d;
-  il2cpp_runtime_helper_022b2ca0();
-  puStack_48 = (void *)0x44cdaa7;
-  puVar6 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar6 = *(undefined8 *)unaff_R12;
-  puStack_48 = &g_data_044cdabf;
-  __cxa_throw(puVar6,&PTR_PTR_05215060,0);
+label_18235f82b:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$HandleResponse
 // il2cpp: ApplicationManagers_Api_AottgApiResult_o* ApplicationManagers_Api_AottgApiClient__HandleResponse (ApplicationManagers_Api_AottgApiRequest_o* request, ApplicationManagers_Api_AottgApiTransportRequest_o* transportRequest, ApplicationManagers_Api_AottgApiTransportResponse_o* response, const MethodInfo* method);
-// 0x44cd740
+// 0x18235fa90
+// eh: try 0x18235fb30..0x18235fb44 -> pad 0x183339ce0 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 132 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18235fb3d: lea rcx, [rip + 0x1d4e49c]  ; TypeInfo_string_array
+// asm:   0x18235fb44: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fb49: mov rcx, rax
+// asm:   0x18235fb4c: mov edx, 6
+// asm:   0x18235fb51: call 0x180416200  ; SZArrayNew()
+// asm:   0x18235fb56: mov rbx, rax
+// asm:   0x18235fb59: test rax, rax
+// asm:   0x18235fb5c: je 0x18235fdc3
+// asm:   0x18235fb62: lea rcx, [rip + 0x1d4298f]  ; "AottgApiClient: failed to parse "
+// asm:   0x18235fb69: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fb6e: cmp dword ptr [rbx + 0x18], 0
+// asm:   0x18235fb72: jbe 0x18235fdc9
+// asm:   0x18235fb78: mov qword ptr [rbx + 0x20], rax
+// asm:   0x18235fb7c: lea rcx, [rbx + 0x20]
+// asm:   0x18235fb80: mov rdx, rax
+// asm:   0x18235fb83: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fb88: mov rdi, qword ptr [rsp + 0x88]
+// asm:   0x18235fb90: test rdi, rdi
+// asm:   0x18235fb93: je 0x18235fdc3
+// asm:   0x18235fb99: cmp dword ptr [rbx + 0x18], 1
+// asm:   0x18235fb9d: jbe 0x18235fdc9
+// asm:   0x18235fba3: mov rdx, qword ptr [rdi + 0x10]
+// asm:   0x18235fba7: mov qword ptr [rbx + 0x28], rdx
+// asm:   0x18235fbab: lea rcx, [rbx + 0x28]
+// asm:   0x18235fbaf: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fbb4: lea rcx, [rip + 0x1d24bcd]  ; " "
+// asm:   0x18235fbbb: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fbc0: cmp dword ptr [rbx + 0x18], 2
+// asm:   0x18235fbc4: jbe 0x18235fdc9
+// asm:   0x18235fbca: mov qword ptr [rbx + 0x30], rax
+// asm:   0x18235fbce: lea rcx, [rbx + 0x30]
+// asm:   0x18235fbd2: mov rdx, rax
+// asm:   0x18235fbd5: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fbda: cmp dword ptr [rbx + 0x18], 3
+// asm:   0x18235fbde: jbe 0x18235fdc9
+// asm:   0x18235fbe4: mov rdx, qword ptr [rdi + 0x18]
+// asm:   0x18235fbe8: mov qword ptr [rbx + 0x38], rdx
+// asm:   0x18235fbec: lea rcx, [rbx + 0x38]
+// asm:   0x18235fbf0: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fbf5: lea rcx, [rip + 0x1d403ec]  ; " response: "
+// asm:   0x18235fbfc: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fc01: cmp dword ptr [rbx + 0x18], 4
+// asm:   0x18235fc05: jbe 0x18235fdc9
+// asm:   0x18235fc0b: mov qword ptr [rbx + 0x40], rax
+// asm:   0x18235fc0f: lea rcx, [rbx + 0x40]
+// asm:   0x18235fc13: mov rdx, rax
+// asm:   0x18235fc16: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fc1b: mov rcx, qword ptr [rsp + 0x48]
+// asm:   0x18235fc20: test rcx, rcx
+// asm:   0x18235fc23: je 0x18235fdc3
+// asm:   0x18235fc29: mov rax, qword ptr [rcx]
+// asm:   0x18235fc2c: mov rdx, qword ptr [rax + 0x190]
+// asm:   0x18235fc33: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x18235fc39: cmp dword ptr [rbx + 0x18], 5
+// asm:   0x18235fc3d: jbe 0x18235fdc9
+// asm:   0x18235fc43: mov qword ptr [rbx + 0x48], rax
+// asm:   0x18235fc47: lea rcx, [rbx + 0x48]
+// asm:   0x18235fc4b: mov rdx, rax
+// asm:   0x18235fc4e: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18235fc53: xor edx, edx
+// asm:   0x18235fc55: mov rcx, rbx
+// asm:   0x18235fc58: call 0x181969830  ; System_String__Concat()
+// asm:   0x18235fc5d: mov rbx, rax
+// asm:   0x18235fc60: lea rcx, [rip + 0x1d9b7d1]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x18235fc67: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fc6c: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x18235fc73: jne 0x18235fc7d
+// asm:   0x18235fc75: mov rcx, rax
+// asm:   0x18235fc78: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x18235fc7d: xor edx, edx
+// asm:   0x18235fc7f: mov rcx, rbx
+// asm:   0x18235fc82: call 0x182ec3130  ; UnityEngine_Debug__LogError()
+// asm:   0x18235fc87: mov rax, qword ptr [rsp + 0x90]
+// asm:   0x18235fc8f: mov rdi, qword ptr [rax + 0x18]
+// asm:   0x18235fc93: mov rbx, qword ptr [rax + 0x28]
+// asm:   0x18235fc97: lea rcx, [rip + 0x1d3358a]  ; "bad_response"
+// asm:   0x18235fc9e: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235fca3: mov r8, rax
+// asm:   0x18235fca6: xor r14d, r14d
+// asm:   0x18235fca9: mov qword ptr [rsp + 0x28], r14
+// asm:   0x18235fcae: mov byte ptr [rsp + 0x20], r14b
+// asm:   0x18235fcb3: mov r9, rbx
+// asm:   0x18235fcb6: mov rdx, qword ptr [rsp + 0x30]
+// asm:   0x18235fcbb: mov rcx, rdi
+// asm:   0x18235fd68: xor r8d, r8d
+// asm:   0x18235fd6b: mov rdx, qword ptr [rdi + 0x18]
+// asm:   0x18235fd6f: mov rcx, rsi
+// asm:   0x18235fd72: call 0x182360340  ; ApplicationManagers_Api_AottgApiClient__ParseError()
+// asm:   0x18235fd77: mov rbx, rax
+// asm:   0x18235fd7a: xor r9d, r9d
+// asm:   0x18235fd7d: mov r8, rsi
+// asm:   0x18235fd80: mov rdx, rdi
+// asm:   0x18235fd83: mov rcx, r14
+// asm:   0x18235fd86: call 0x18235fde0  ; ApplicationManagers_Api_AottgApiClient__LogHttpFailure()
+// asm:   0x18235fd8b: xor r14d, r14d
+// asm:   0x18235fd8e: mov qword ptr [rsp + 0x28], r14
+// asm:   0x18235fd93: mov byte ptr [rsp + 0x20], r14b
+// asm:   0x18235fd98: mov r9, qword ptr [rdi + 0x28]
+// asm:   0x18235fd9c: mov r8, rbx
+// asm:   0x18235fd9f: mov rdx, rsi
+// asm:   0x18235fda2: mov rcx, qword ptr [rdi + 0x18]
+// asm:   0x18235fda6: jmp 0x18235fcbe
+// asm:   0x18235fdc9: call 0x180417110  ; ThrowIndexOutOfRangeException()
+// asm:   0x183339ce0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183339ce5: push rbx
+// asm:   0x183339ce6: push rbp
+// asm:   0x183339ce7: push rdi
+// asm:   0x183339ce8: sub rsp, 0x30
+// asm:   0x183339cec: mov rbp, rdx
+// asm:   0x183339cef: mov rdi, qword ptr [rbp + 0x40]
+// asm:   0x183339cf3: mov rax, qword ptr [rdi]
+// asm:   0x183339cf6: mov rbx, qword ptr [rax]
+// asm:   0x183339cf9: lea rcx, [rip + 0xd3f258]  ; TypeInfo_System_Exception
+// asm:   0x183339d00: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183339d05: mov rcx, rax
+// asm:   0x183339d08: mov rdx, rbx
+// asm:   0x183339d0b: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183339d10: test al, al
+// asm:   0x183339d12: mov rax, qword ptr [rdi]
+// asm:   0x183339d15: je 0x183339d27
+// asm:   0x183339d17: mov qword ptr [rbp + 0x48], rax
+// asm:   0x183339d1b: movabs rax, 0
+// asm:   0x183339d25: jmp 0x183339d3c
+// asm:   0x183339d27: mov qword ptr [rbp + 0x38], rax
+// asm:   0x183339d2b: lea rdx, [rip + 0xca2256]
+// asm:   0x183339d32: lea rcx, [rbp + 0x38]
+// asm:   0x183339d36: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183339d3c: add rsp, 0x30
+// asm:   0x183339d40: pop rdi
+// asm:   0x183339d41: pop rbp
+// asm:   0x183339d42: pop rbx
+// asm:   0x183339d43: ret 
 
 ApplicationManagers_Api_AottgApiResult_o *
 ApplicationManagers_Api_AottgApiClient__HandleResponse
@@ -1019,293 +937,72 @@ ApplicationManagers_Api_AottgApiClient__HandleResponse
           ApplicationManagers_Api_AottgApiTransportResponse_o *response,MethodInfo *method)
 
 {
-  uint uVar1;
-  long responseCode;
-  int64_t iVar2;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  undefined8 *puVar5;
-  System_String_array *values;
-  System_String_array *pSVar6;
-  ApplicationManagers_Api_AottgApiResult_o *pAVar7;
-  SimpleJSONFixed_JSONNode_o *node;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  System_String_array *unaff_RBX;
-  System_String_o *pSVar8;
-  System_String_o *pSVar9;
-  System_String_array *value;
-  MethodInfo *in_R9;
-  SimpleJSONFixed_JSONNode_o *unaff_R12;
-  System_String_o *pSStack_58;
-  System_String_array *pSStack_50;
-  ApplicationManagers_Api_AottgApiRequest_o *pAStack_48;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_40;
-  Il2CppClass *local_38;
-  undefined *local_30;
+  int64_t iVar1;
+  bool bVar2;
+  SimpleJSONFixed_JSONNode_o *value;
+  ApplicationManagers_Api_AottgApiResult_o *pAVar3;
+  System_String_o *error;
+  System_String_o **ppSVar4;
+  System_String_o *responseText;
   
   if (response != (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) {
-    pSVar8 = (response->fields).Text;
-    if (pSVar8 == (System_String_o *)0x0) {
-      pSVar8 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      uVar1 = (response->fields).Result;
+    ppSVar4 = &(response->fields).Text;
+    if (*ppSVar4 == (System_String_o *)0x0) {
+      ppSVar4 = *(System_String_o ***)(g_data_184354e50 + 0xb8);
     }
-    else {
-      uVar1 = (response->fields).Result;
+    if (((response->fields).Result - 1U & 0xfffffffd) == 0) {
+      pAVar3 = ApplicationManagers_Api_AottgApiClient__NetworkFailure
+                         (request,transportRequest,response,(MethodInfo *)0x0);
+      return pAVar3;
     }
-    if ((uVar1 | 2) == 3) {
-      pSVar6 = (System_String_array *)&stack0xffffffffffffffc8;
-      if (g_data_057aeb0f == '\0') {
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb19;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiTransportResult);
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb25;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb31;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb3d;
-        il2cpp_runtime_helper_023445d0(&" ");
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb49;
-        il2cpp_runtime_helper_023445d0(&" responseCode=");
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb55;
-        il2cpp_runtime_helper_023445d0(&"AottgApiClient: network error ");
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb61;
-        il2cpp_runtime_helper_023445d0(&"network_error");
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb6d;
-        il2cpp_runtime_helper_023445d0(&" error=");
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb79;
-        il2cpp_runtime_helper_023445d0(&" result=");
-        g_data_057aeb0f = '\x01';
-      }
-      pSVar8 = (System_String_o *)0xa;
-      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb94;
-      value = TypeInfo_string;
-      values = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-      pSVar4 = "AottgApiClient: network error ";
-      pSStack_50 = unaff_RBX;
-      if (values != (System_String_array *)0x0) {
-        pSVar9 = pSVar8;
-        pSStack_50 = values;
-        if ((int)values->max_length != 0) {
-          value = (System_String_array *)values->m_Items;
-          values->m_Items[0] = "AottgApiClient: network error ";
-          pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdbc1;
-          il2cpp_runtime_helper_022b4080();
-          pSVar8 = pSVar4;
-          if (transportRequest == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0)
-          goto label_044cdd90;
-          pSVar9 = pSVar4;
-          if (1 < (uint)values->max_length) {
-            pSVar9 = (transportRequest->fields).Method;
-            value = (System_String_array *)(values->m_Items + 1);
-            values->m_Items[1] = pSVar9;
-            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdbe6;
-            il2cpp_runtime_helper_022b4080();
-            pSVar8 = " ";
-            if (2 < (uint)values->max_length) {
-              value = (System_String_array *)(values->m_Items + 2);
-              values->m_Items[2] = " ";
-              pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc07;
-              il2cpp_runtime_helper_022b4080();
-              pSVar9 = pSVar8;
-              if (3 < (uint)values->max_length) {
-                pSVar9 = (transportRequest->fields).Url;
-                value = (System_String_array *)(values->m_Items + 3);
-                values->m_Items[3] = pSVar9;
-                pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc23;
-                il2cpp_runtime_helper_022b4080();
-                pSVar8 = " result=";
-                if (4 < (uint)values->max_length) {
-                  value = (System_String_array *)(values->m_Items + 4);
-                  values->m_Items[4] = " result=";
-                  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc44;
-                  il2cpp_runtime_helper_022b4080();
-                  if (response == (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0)
-                  goto label_044cdd90;
-                  local_38 = TypeInfo_AottgApiTransportResult;
-                  local_30 = (void *)0xffffffffffffffff;
-                  pSVar9 = (System_String_o *)0x0;
-                  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc76;
-                  pSVar8 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffffc8,(MethodInfo *)0x0);
-                  value = pSVar6;
-                  if (5 < (uint)values->max_length) {
-                    value = (System_String_array *)(values->m_Items + 5);
-                    values->m_Items[5] = pSVar8;
-                    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc90;
-                    il2cpp_runtime_helper_022b4080();
-                    pSVar9 = pSVar8;
-                    if (6 < (uint)values->max_length) {
-                      values->m_Items[6] = " responseCode=";
-                      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcb1;
-                      il2cpp_runtime_helper_022b4080(values->m_Items + 6);
-                      value = (System_String_array *)&(response->fields).StatusCode;
-                      pSVar9 = (System_String_o *)0x0;
-                      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcbc;
-                      pSVar8 = System_Int64__ToString((int64_t)value,(MethodInfo *)0x0);
-                      if (7 < (uint)values->max_length) {
-                        value = (System_String_array *)(values->m_Items + 7);
-                        values->m_Items[7] = pSVar8;
-                        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcd6;
-                        il2cpp_runtime_helper_022b4080();
-                        pSVar4 = " error=";
-                        pSVar9 = pSVar8;
-                        if (8 < (uint)values->max_length) {
-                          value = (System_String_array *)(values->m_Items + 8);
-                          values->m_Items[8] = " error=";
-                          pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcf7;
-                          il2cpp_runtime_helper_022b4080();
-                          pSVar9 = pSVar4;
-                          if (9 < (uint)values->max_length) {
-                            values->m_Items[9] = (response->fields).Error;
-                            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd15;
-                            il2cpp_runtime_helper_022b4080(values->m_Items + 9);
-                            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd1f;
-                            pSVar6 = (System_String_array *)
-                                     System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-                            if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-                              pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd3a;
-                              il2cpp_runtime_helper_02337ed0();
-                            }
-                            pSVar8 = (System_String_o *)0x0;
-                            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd44;
-                            value = pSVar6;
-                            UnityEngine_Debug__LogError((Il2CppObject *)pSVar6,(MethodInfo *)0x0);
-                            pSStack_50 = pSVar6;
-                            if (request != (ApplicationManagers_Api_AottgApiRequest_o *)0x0) {
-                              if (*(char *)((long)&(request->fields).ParseJson + 1) != '\0') {
-                                pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd61;
-                                ApplicationManagers_AottgNetworkNotifications__TryReport
-                                          ("network_error",(MethodInfo *)0x0);
-                              }
-                              pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd7f;
-                              pAVar7 = ApplicationManagers_Api_AottgApiResult__Fail
-                                                 ((response->fields).StatusCode,(response->fields).Text,
-                                                  "network_error",(response->fields).Error,0,in_R9);
-                              return pAVar7;
-                            }
-                            goto label_044cdd90;
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-        pSVar8 = pSVar9;
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd90;
-        il2cpp_runtime_helper_022b2ca0();
-      }
-label_044cdd90:
-      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd95;
-      il2cpp_runtime_helper_022b2c90();
-      pAStack_48 = request;
-      pAStack_40 = response;
-      if (g_data_057aeb10 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"code");
-        il2cpp_runtime_helper_023445d0(&"message");
-        il2cpp_runtime_helper_023445d0(&"error");
-        g_data_057aeb10 = '\x01';
-      }
-      bVar3 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') {
-        node = SimpleJSONFixed_JSON__Parse((System_String_o *)value,(MethodInfo *)0x0);
-        pAVar7 = (ApplicationManagers_Api_AottgApiResult_o *)
-                 ApplicationManagers_Api_AottgApiClient__FieldValue(node,"error",method_00);
-        bVar3 = System_String__IsNullOrEmpty((System_String_o *)pAVar7,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pAVar7;
-        }
-        pAVar7 = (ApplicationManagers_Api_AottgApiResult_o *)
-                 ApplicationManagers_Api_AottgApiClient__FieldValue(node,"message",method_01);
-        bVar3 = System_String__IsNullOrEmpty((System_String_o *)pAVar7,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pAVar7;
-        }
-        pAVar7 = (ApplicationManagers_Api_AottgApiResult_o *)
-                 ApplicationManagers_Api_AottgApiClient__FieldValue(node,"code",method_02);
-        bVar3 = System_String__IsNullOrEmpty((System_String_o *)pAVar7,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          return pAVar7;
-        }
-      }
-      pSStack_58 = pSVar8;
-      if (g_data_057aeb15 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"http_");
-        g_data_057aeb15 = '\x01';
-      }
-      pSVar8 = System_Int64__ToString((int64_t)&pSStack_58,(MethodInfo *)0x0);
-      pAVar7 = (ApplicationManagers_Api_AottgApiResult_o *)
-               System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar8,(MethodInfo *)0x0);
-      return pAVar7;
-    }
-    responseCode = (response->fields).StatusCode;
-    if (99 < responseCode - 200U) {
-      local_30 = (void *)0x44cd88b;
-      pSVar4 = ApplicationManagers_Api_AottgApiClient__ParseError(pSVar8,responseCode,(MethodInfo *)response);
-      local_30 = (void *)0x44cd89c;
-      ApplicationManagers_Api_AottgApiClient__LogHttpFailure(transportRequest,response,pSVar8,method);
-      pAVar7 = ApplicationManagers_Api_AottgApiResult__Fail
-                         ((response->fields).StatusCode,pSVar8,pSVar4,(response->fields).Error,0,in_R9);
-      return pAVar7;
+    responseText = *ppSVar4;
+    if (((response->fields).StatusCode < 200) || (299 < (ulonglong)(response->fields).StatusCode)) {
+      error = ApplicationManagers_Api_AottgApiClient__ParseError
+                        (responseText,(response->fields).StatusCode,(MethodInfo *)0x0);
+      ApplicationManagers_Api_AottgApiClient__LogHttpFailure
+                (transportRequest,response,responseText,(MethodInfo *)0x0);
+      pAVar3 = ApplicationManagers_Api_AottgApiResult__Fail
+                         ((response->fields).StatusCode,responseText,error,(response->fields).Error,false,
+                          (MethodInfo *)0x0);
+      return pAVar3;
     }
     if (request != (ApplicationManagers_Api_AottgApiRequest_o *)0x0) {
-      if ((char)(request->fields).ParseJson == '\0') {
-        unaff_R12 = (SimpleJSONFixed_JSONNode_o *)0x0;
-        iVar2 = (response->fields).StatusCode;
-      }
-      else {
-        unaff_R12 = (SimpleJSONFixed_JSONNode_o *)0x0;
-        local_30 = (void *)0x44cd7d8;
-        bVar3 = System_String__IsNullOrEmpty(pSVar8,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          local_30 = (void *)0x44cd7e6;
-          unaff_R12 = SimpleJSONFixed_JSON__Parse(pSVar8,(MethodInfo *)0x0);
+      value = (SimpleJSONFixed_JSONNode_o *)0x0;
+      if ((request->fields).ParseJson != false) {
+        bVar2 = System_String__IsNullOrEmpty(responseText,(MethodInfo *)0x0);
+        if (!bVar2) {
+          value = SimpleJSONFixed_JSON__Parse(responseText,(MethodInfo *)0x0);
         }
-        iVar2 = (response->fields).StatusCode;
       }
-      if (g_data_057aeb17 == '\0') {
-        local_30 = (void *)0x44cd802;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiResult);
-        g_data_057aeb17 = '\x01';
+      iVar1 = (response->fields).StatusCode;
+      if (Il2CppMethodInitialized_184347a57 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgApiResult);
+        Il2CppMethodInitialized_184347a57 = '\x01';
       }
-      local_30 = (void *)0x44cd818;
-      pAVar7 = (ApplicationManagers_Api_AottgApiResult_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiResult);
-      local_30 = (void *)0x44cd825;
-      System_Object___ctor((Il2CppObject *)pAVar7,(MethodInfo *)0x0);
-      if (pAVar7 != (ApplicationManagers_Api_AottgApiResult_o *)0x0) {
-        *(undefined1 *)&(pAVar7->fields)._Success_k__BackingField = 1;
-        (pAVar7->fields)._StatusCode_k__BackingField = iVar2;
-        if (pSVar8 == (System_String_o *)0x0) {
-          pSVar8 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+      pAVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgApiResult);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pAVar3,(MethodInfo *)0x0);
+      if (pAVar3 != (ApplicationManagers_Api_AottgApiResult_o *)0x0) {
+        (pAVar3->fields)._Success_k__BackingField = true;
+        (pAVar3->fields)._StatusCode_k__BackingField = iVar1;
+        if (responseText == (System_String_o *)0x0) {
+          responseText = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
         }
-        (pAVar7->fields)._ResponseText_k__BackingField = pSVar8;
-        local_30 = (void *)0x44cd863;
-        il2cpp_runtime_helper_022b4080(&(pAVar7->fields)._ResponseText_k__BackingField,pSVar8);
-        (pAVar7->fields)._Json_k__BackingField = unaff_R12;
-        local_30 = (void *)0x44cd876;
-        il2cpp_runtime_helper_022b4080(&(pAVar7->fields)._Json_k__BackingField,unaff_R12);
-        return pAVar7;
+        (pAVar3->fields)._ResponseText_k__BackingField = responseText;
+        Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._ResponseText_k__BackingField,responseText);
+        (pAVar3->fields)._Json_k__BackingField = value;
+        Il2CppCodeGenWriteBarrier(&(pAVar3->fields)._Json_k__BackingField,value);
+        return pAVar3;
       }
     }
   }
-  local_30 = (void *)0x44cda98;
-  il2cpp_runtime_helper_022b2c90();
-  local_30 = (void *)0x44cda9d;
-  il2cpp_runtime_helper_022b2ca0();
-  local_30 = (void *)0x44cdaa7;
-  puVar5 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar5 = unaff_R12->klass;
-  local_30 = &g_data_044cdabf;
-  __cxa_throw(puVar5,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$NetworkFailure
 // il2cpp: ApplicationManagers_Api_AottgApiResult_o* ApplicationManagers_Api_AottgApiClient__NetworkFailure (ApplicationManagers_Api_AottgApiRequest_o* request, ApplicationManagers_Api_AottgApiTransportRequest_o* transportRequest, ApplicationManagers_Api_AottgApiTransportResponse_o* response, const MethodInfo* method);
-// 0x44cdaf0
+// 0x182360020
 
 ApplicationManagers_Api_AottgApiResult_o *
 ApplicationManagers_Api_AottgApiClient__NetworkFailure
@@ -1314,156 +1011,116 @@ ApplicationManagers_Api_AottgApiClient__NetworkFailure
           ApplicationManagers_Api_AottgApiTransportResponse_o *response,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  int64_t iVar1;
+  System_String_o *value;
+  System_String_o *value_00;
   System_String_array *values;
-  System_String_array *pSVar2;
-  ApplicationManagers_Api_AottgApiResult_o *pAVar3;
-  SimpleJSONFixed_JSONNode_o *node;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  System_String_array *unaff_RBX;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  System_String_o *pSVar6;
-  System_String_array *value;
-  MethodInfo *in_R9;
-  System_String_o *pSStack_58;
-  System_String_array *pSStack_50;
-  ApplicationManagers_Api_AottgApiRequest_o *pAStack_48;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_40;
-  Il2CppClass *pIStack_38;
-  void *pvStack_30;
-  int32_t iStack_28;
+  System_String_o *pSVar2;
+  ApplicationManagers_Api_AottgApiResult_o *__this;
+  System_Enum_o local_48;
+  int32_t local_38;
   
-  pSVar2 = (System_String_array *)&stack0xffffffffffffffc8;
-  if (g_data_057aeb0f == '\0') {
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb19;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiTransportResult);
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb25;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb31;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb3d;
-    il2cpp_runtime_helper_023445d0(&" ");
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb49;
-    il2cpp_runtime_helper_023445d0(&" responseCode=");
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb55;
-    il2cpp_runtime_helper_023445d0(&"AottgApiClient: network error ");
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb61;
-    il2cpp_runtime_helper_023445d0(&"network_error");
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb6d;
-    il2cpp_runtime_helper_023445d0(&" error=");
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb79;
-    il2cpp_runtime_helper_023445d0(&" result=");
-    g_data_057aeb0f = '\x01';
+  if (Il2CppMethodInitialized_184347a4f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgApiTransportResult);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&" responseCode=");
+    il2cpp_codegen_initialize_runtime_metadata(&"AottgApiClient: network error ");
+    il2cpp_codegen_initialize_runtime_metadata(&"network_error");
+    il2cpp_codegen_initialize_runtime_metadata(&" error=");
+    il2cpp_codegen_initialize_runtime_metadata(&" result=");
+    Il2CppMethodInitialized_184347a4f = '\x01';
   }
-  pSVar4 = (System_String_o *)0xa;
-  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdb94;
-  value = TypeInfo_string;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pSVar5 = "AottgApiClient: network error ";
-  pSStack_50 = unaff_RBX;
+  values = (System_String_array *)SZArrayNew(TypeInfo_string_array,10);
+  pSVar2 = "AottgApiClient: network error ";
   if (values != (System_String_array *)0x0) {
-    pSVar6 = pSVar4;
-    pSStack_50 = values;
     if ((int)values->max_length != 0) {
-      value = (System_String_array *)values->m_Items;
       values->m_Items[0] = "AottgApiClient: network error ";
-      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdbc1;
-      il2cpp_runtime_helper_022b4080();
-      pSVar4 = pSVar5;
-      if (transportRequest == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) goto label_044cdd90;
-      pSVar6 = pSVar5;
+      Il2CppCodeGenWriteBarrier(values->m_Items,pSVar2);
+      if (transportRequest == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) goto label_182360329;
       if (1 < (uint)values->max_length) {
-        pSVar6 = (transportRequest->fields).Method;
-        value = (System_String_array *)(values->m_Items + 1);
-        values->m_Items[1] = pSVar6;
-        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdbe6;
-        il2cpp_runtime_helper_022b4080();
-        pSVar4 = " ";
+        pSVar2 = (transportRequest->fields).Method;
+        values->m_Items[1] = pSVar2;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar2);
+        pSVar2 = " ";
         if (2 < (uint)values->max_length) {
-          value = (System_String_array *)(values->m_Items + 2);
           values->m_Items[2] = " ";
-          pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc07;
-          il2cpp_runtime_helper_022b4080();
-          pSVar6 = pSVar4;
+          Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar2);
           if (3 < (uint)values->max_length) {
-            pSVar6 = (transportRequest->fields).Url;
-            value = (System_String_array *)(values->m_Items + 3);
-            values->m_Items[3] = pSVar6;
-            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc23;
-            il2cpp_runtime_helper_022b4080();
-            pSVar4 = " result=";
+            pSVar2 = (transportRequest->fields).Url;
+            values->m_Items[3] = pSVar2;
+            Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar2);
+            pSVar2 = " result=";
             if (4 < (uint)values->max_length) {
-              value = (System_String_array *)(values->m_Items + 4);
               values->m_Items[4] = " result=";
-              pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc44;
-              il2cpp_runtime_helper_022b4080();
-              if (response == (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) goto label_044cdd90;
-              pIStack_38 = TypeInfo_AottgApiTransportResult;
-              pvStack_30 = (void *)0xffffffffffffffff;
-              iStack_28 = (response->fields).Result;
-              pSVar6 = (System_String_o *)0x0;
-              pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc76;
-              pSVar4 = System_Enum__ToString((System_Enum_o *)&stack0xffffffffffffffc8,(MethodInfo *)0x0);
-              value = pSVar2;
+              Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar2);
+              if (response == (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) goto label_182360329;
+              local_48.klass = (System_Enum_c *)TypeInfo_ApplicationManagers_Api_AottgApiTransportResult;
+              local_38 = (response->fields).Result;
+              local_48.monitor = &g_data_ffffffffffffffff;
+              pSVar2 = System_Enum__ToString(&local_48,(MethodInfo *)0x0);
               if (5 < (uint)values->max_length) {
-                value = (System_String_array *)(values->m_Items + 5);
-                values->m_Items[5] = pSVar4;
-                pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdc90;
-                il2cpp_runtime_helper_022b4080();
-                pSVar6 = pSVar4;
+                values->m_Items[5] = pSVar2;
+                Il2CppCodeGenWriteBarrier(values->m_Items + 5,pSVar2);
+                pSVar2 = " responseCode=";
                 if (6 < (uint)values->max_length) {
                   values->m_Items[6] = " responseCode=";
-                  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcb1;
-                  il2cpp_runtime_helper_022b4080(values->m_Items + 6);
-                  value = (System_String_array *)&(response->fields).StatusCode;
-                  pSVar6 = (System_String_o *)0x0;
-                  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcbc;
-                  pSVar4 = System_Int64__ToString((int64_t)value,(MethodInfo *)0x0);
+                  Il2CppCodeGenWriteBarrier(values->m_Items + 6,pSVar2);
+                  pSVar2 = System_Int64__ToString(&(response->fields).StatusCode,(MethodInfo *)0x0);
                   if (7 < (uint)values->max_length) {
-                    value = (System_String_array *)(values->m_Items + 7);
-                    values->m_Items[7] = pSVar4;
-                    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcd6;
-                    il2cpp_runtime_helper_022b4080();
-                    pSVar5 = " error=";
-                    pSVar6 = pSVar4;
+                    values->m_Items[7] = pSVar2;
+                    Il2CppCodeGenWriteBarrier(values->m_Items + 7,pSVar2);
+                    pSVar2 = " error=";
                     if (8 < (uint)values->max_length) {
-                      value = (System_String_array *)(values->m_Items + 8);
                       values->m_Items[8] = " error=";
-                      pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdcf7;
-                      il2cpp_runtime_helper_022b4080();
-                      pSVar6 = pSVar5;
+                      Il2CppCodeGenWriteBarrier(values->m_Items + 8,pSVar2);
                       if (9 < (uint)values->max_length) {
-                        values->m_Items[9] = (response->fields).Error;
-                        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd15;
-                        il2cpp_runtime_helper_022b4080(values->m_Items + 9);
-                        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd1f;
-                        pSVar2 = (System_String_array *)
-                                 System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-                        if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-                          pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd3a;
-                          il2cpp_runtime_helper_02337ed0();
+                        pSVar2 = (response->fields).Error;
+                        values->m_Items[9] = pSVar2;
+                        Il2CppCodeGenWriteBarrier(values->m_Items + 9,pSVar2);
+                        pSVar2 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+                        if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
                         }
-                        pSVar4 = (System_String_o *)0x0;
-                        pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd44;
-                        value = pSVar2;
                         UnityEngine_Debug__LogError((Il2CppObject *)pSVar2,(MethodInfo *)0x0);
-                        pSStack_50 = pSVar2;
                         if (request != (ApplicationManagers_Api_AottgApiRequest_o *)0x0) {
-                          if (*(char *)((long)&(request->fields).ParseJson + 1) != '\0') {
-                            pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd61;
+                          if ((request->fields).ReportNetworkError != false) {
                             ApplicationManagers_AottgNetworkNotifications__TryReport
                                       ("network_error",(MethodInfo *)0x0);
                           }
-                          pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd7f;
-                          pAVar3 = ApplicationManagers_Api_AottgApiResult__Fail
-                                             ((response->fields).StatusCode,(response->fields).Text,
-                                              "network_error",(response->fields).Error,0,in_R9);
-                          return pAVar3;
+                          value_00 = "network_error";
+                          iVar1 = (response->fields).StatusCode;
+                          pSVar2 = (response->fields).Text;
+                          value = (response->fields).Error;
+                          if (Il2CppMethodInitialized_184347a58 == '\0') {
+                            il2cpp_codegen_initialize_runtime_metadata
+                                      (&TypeInfo_ApplicationManagers_Api_AottgApiResult);
+                            Il2CppMethodInitialized_184347a58 = '\x01';
+                          }
+                          __this = il2cpp_codegen_object_new
+                                             ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgApiResult);
+                          System_Object___ctor
+                                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,
+                                     (MethodInfo *)0x0);
+                          if (__this != (ApplicationManagers_Api_AottgApiResult_o *)0x0) {
+                            (__this->fields)._Success_k__BackingField = false;
+                            (__this->fields)._StatusCode_k__BackingField = iVar1;
+                            if (pSVar2 == (System_String_o *)0x0) {
+                              pSVar2 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+                            }
+                            (__this->fields)._ResponseText_k__BackingField = pSVar2;
+                            Il2CppCodeGenWriteBarrier(&(__this->fields)._ResponseText_k__BackingField,pSVar2);
+                            (__this->fields)._Error_k__BackingField = value_00;
+                            Il2CppCodeGenWriteBarrier(&(__this->fields)._Error_k__BackingField,value_00);
+                            (__this->fields)._RawError_k__BackingField = value;
+                            Il2CppCodeGenWriteBarrier(&(__this->fields)._RawError_k__BackingField,value);
+                            (__this->fields)._IsCanceled_k__BackingField = false;
+                            return __this;
+                          }
+                          ThrowNullReferenceException();
                         }
-                        goto label_044cdd90;
+                        goto label_182360329;
                       }
                     }
                   }
@@ -1474,253 +1131,192 @@ ApplicationManagers_Api_AottgApiClient__NetworkFailure
         }
       }
     }
-    pSVar4 = pSVar6;
-    pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd90;
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-label_044cdd90:
-  pAStack_40 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x44cdd95;
-  il2cpp_runtime_helper_022b2c90();
-  pAStack_48 = request;
-  pAStack_40 = response;
-  if (g_data_057aeb10 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"code");
-    il2cpp_runtime_helper_023445d0(&"message");
-    il2cpp_runtime_helper_023445d0(&"error");
-    g_data_057aeb10 = '\x01';
-  }
-  bVar1 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    node = SimpleJSONFixed_JSON__Parse((System_String_o *)value,(MethodInfo *)0x0);
-    pAVar3 = (ApplicationManagers_Api_AottgApiResult_o *)
-             ApplicationManagers_Api_AottgApiClient__FieldValue(node,"error",method_00);
-    bVar1 = System_String__IsNullOrEmpty((System_String_o *)pAVar3,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pAVar3;
-    }
-    pAVar3 = (ApplicationManagers_Api_AottgApiResult_o *)
-             ApplicationManagers_Api_AottgApiClient__FieldValue(node,"message",method_01);
-    bVar1 = System_String__IsNullOrEmpty((System_String_o *)pAVar3,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pAVar3;
-    }
-    pAVar3 = (ApplicationManagers_Api_AottgApiResult_o *)
-             ApplicationManagers_Api_AottgApiClient__FieldValue(node,"code",method_02);
-    bVar1 = System_String__IsNullOrEmpty((System_String_o *)pAVar3,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pAVar3;
-    }
-  }
-  pSStack_58 = pSVar4;
-  if (g_data_057aeb15 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"http_");
-    g_data_057aeb15 = '\x01';
-  }
-  pSVar4 = System_Int64__ToString((int64_t)&pSStack_58,(MethodInfo *)0x0);
-  pAVar3 = (ApplicationManagers_Api_AottgApiResult_o *)
-           System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar4,(MethodInfo *)0x0);
-  return pAVar3;
+label_182360329:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$IsNetworkError
 // il2cpp: bool ApplicationManagers_Api_AottgApiClient__IsNetworkError (int32_t result, const MethodInfo* method);
-// 0x44cdae0
+// 0x18235fdd0
 
-bool_conflict ApplicationManagers_Api_AottgApiClient__IsNetworkError(int32_t result,MethodInfo *method)
+bool ApplicationManagers_Api_AottgApiClient__IsNetworkError(int32_t result,MethodInfo *method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(result | 2U) == 3);
+  if (result == 1) {
+    return true;
+  }
+  return result == 3;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$ParseError
 // il2cpp: System_String_o* ApplicationManagers_Api_AottgApiClient__ParseError (System_String_o* responseText, int64_t responseCode, const MethodInfo* method);
-// 0x44cdda0
+// 0x182360340
+// eh: try 0x18236038e..0x182360416 -> pad 0x183315840 catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// asm: 26 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182360416: jmp 0x18236041a
+// asm:   0x182360418: jmp 0x18236041a
+// asm:   0x18236042f: mov rdi, qword ptr [rsp + 0x48]
+// asm:   0x183315840: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315845: push rbx
+// asm:   0x183315846: push rbp
+// asm:   0x183315847: sub rsp, 0x28
+// asm:   0x18331584b: mov rbp, rdx
+// asm:   0x18331584e: mov rbx, qword ptr [rbp + 0x28]
+// asm:   0x183315852: mov rdx, qword ptr [rbx]
+// asm:   0x183315855: mov rdx, qword ptr [rdx]
+// asm:   0x183315858: mov rcx, qword ptr [rip + 0x103f571]
+// asm:   0x18331585f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183315864: test al, al
+// asm:   0x183315866: je 0x183315874
+// asm:   0x183315868: movabs rax, 0
+// asm:   0x183315872: jmp 0x18331588c
+// asm:   0x183315874: mov rax, qword ptr [rbx]
+// asm:   0x183315877: mov qword ptr [rbp + 0x20], rax
+// asm:   0x18331587b: lea rdx, [rip + 0xcc6706]
+// asm:   0x183315882: lea rcx, [rbp + 0x20]
+// asm:   0x183315886: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x18331588c: add rsp, 0x28
+// asm:   0x183315890: pop rbp
+// asm:   0x183315891: pop rbx
+// asm:   0x183315892: ret 
 
 System_String_o *
 ApplicationManagers_Api_AottgApiClient__ParseError
           (System_String_o *responseText,int64_t responseCode,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  System_String_o *pSVar2;
+  bool bVar1;
   SimpleJSONFixed_JSONNode_o *node;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  int64_t local_20;
+  System_String_o *pSVar2;
+  int64_t local_res8;
+  int64_t local_res10;
   
-  if (g_data_057aeb10 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"code");
-    il2cpp_runtime_helper_023445d0(&"message");
-    il2cpp_runtime_helper_023445d0(&"error");
-    g_data_057aeb10 = '\x01';
+  local_res10 = responseCode;
+  if (Il2CppMethodInitialized_184347a50 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"code");
+    il2cpp_codegen_initialize_runtime_metadata(&"message");
+    il2cpp_codegen_initialize_runtime_metadata(&"error");
+    Il2CppMethodInitialized_184347a50 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(responseText,(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    node = SimpleJSONFixed_JSON__Parse(responseText,(MethodInfo *)0x0);
-    pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"error",method_00);
-    bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pSVar2;
+  if (bVar1) {
+label_18236042d:
+    local_res8 = responseCode;
+    if (Il2CppMethodInitialized_184347a55 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"http_");
+      Il2CppMethodInitialized_184347a55 = '\x01';
     }
-    pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"message",method_01);
+    pSVar2 = System_Int64__ToString(&local_res8,(MethodInfo *)0x0);
+    pSVar2 = System_String__Concat_1969e50("http_",pSVar2,(MethodInfo *)0x0);
+    return pSVar2;
+  }
+  node = SimpleJSONFixed_JSON__Parse(responseText,(MethodInfo *)0x0);
+  pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"error",(MethodInfo *)0x0);
+  bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+  if (bVar1) {
+    pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"message",(MethodInfo *)0x0);
     bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pSVar2;
-    }
-    pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue(node,"code",method_02);
-    bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return pSVar2;
+    if (bVar1) {
+      pSVar2 = ApplicationManagers_Api_AottgApiClient__FieldValue
+                         (node,"code",(MethodInfo *)0x0);
+      bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+      if (bVar1) goto label_18236042d;
     }
   }
-  local_20 = responseCode;
-  if (g_data_057aeb15 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"http_");
-    g_data_057aeb15 = '\x01';
-  }
-  pSVar2 = System_Int64__ToString((int64_t)&local_20,(MethodInfo *)0x0);
-  pSVar2 = System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar2,(MethodInfo *)0x0);
   return pSVar2;
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$FieldValue
 // il2cpp: System_String_o* ApplicationManagers_Api_AottgApiClient__FieldValue (SimpleJSONFixed_JSONNode_o* node, System_String_o* name, const MethodInfo* method);
-// 0x44ce370
+// 0x18235f890
 
 System_String_o *
 ApplicationManagers_Api_AottgApiClient__FieldValue
           (SimpleJSONFixed_JSONNode_o *node,System_String_o *name,MethodInfo *method)
 
 {
-  uint16_t uVar1;
-  bool_conflict bVar2;
-  ulong in_RAX;
-  System_String_o *pSVar3;
-  System_String_o *pSVar4;
-  SimpleJSONFixed_JSONNode_c *pSVar5;
-  MethodInfo *pMVar6;
-  System_String_o *local_30;
-  undefined8 uStack_28;
+  bool bVar1;
+  uint16_t c;
+  System_Xml_Schema_XmlSchema_o *a;
+  System_String_o *pSVar2;
+  System_String_o *str1;
+  MethodInfo *pMVar3;
+  uint16_t local_res8 [4];
   
-  uStack_28 = in_RAX;
-  if (g_data_057aeb11 == '\0') {
-    local_30 = (System_String_o *)0x44ce393;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    g_data_057aeb11 = '\x01';
+  if (Il2CppMethodInitialized_184347a51 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    Il2CppMethodInitialized_184347a51 = '\x01';
   }
-  uStack_28 = uStack_28 & 0xffffffffffff;
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    local_30 = (System_String_o *)0x44ce3ba;
-    il2cpp_runtime_helper_02337ed0();
+  local_res8[0] = 0;
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  local_30 = (System_String_o *)0x44ce3c8;
-  bVar2 = SimpleJSONFixed_JSONNode__op_Equality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar1 = SimpleJSONFixed_JSONNode__op_Equality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
     return (System_String_o *)0x0;
   }
-  local_30 = (System_String_o *)0x44ce3dc;
-  pSVar4 = name;
-  bVar2 = System_String__IsNullOrEmpty(name,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar1 = System_String__IsNullOrEmpty(name,(MethodInfo *)0x0);
+  if (bVar1) {
     return (System_String_o *)0x0;
   }
   if (node != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    local_30 = (System_String_o *)0x44ce403;
-    pSVar3 = (System_String_o *)
-             (*(node->klass->vtable)._7_get_Item.methodPtr)
-                       (node,name,(node->klass->vtable)._7_get_Item.method);
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      local_30 = (System_String_o *)0x44ce418;
-      il2cpp_runtime_helper_02337ed0();
+    a = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,(MethodInfo *)name);
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
     }
-    local_30 = (System_String_o *)0x44ce424;
-    pSVar4 = pSVar3;
-    bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
-                      ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      if (pSVar3 == (System_String_o *)0x0) goto label_044ce55c;
-      local_30 = (System_String_o *)0x44ce444;
-      pSVar4 = (System_String_o *)
-               (*(((SimpleJSONFixed_JSONNode_c *)pSVar3->klass)->vtable)._9_get_Value.methodPtr)(pSVar3);
-      local_30 = (System_String_o *)0x44ce44e;
-      bVar2 = System_String__IsNullOrEmpty(pSVar4,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
-        pSVar5 = (SimpleJSONFixed_JSONNode_c *)pSVar3->klass;
-        pMVar6 = (pSVar5->vtable)._9_get_Value.method;
-        goto label_044ce544;
-      }
+    bVar1 = SimpleJSONFixed_JSONNode__op_Inequality
+                      ((SimpleJSONFixed_JSONNode_o *)a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    if (bVar1) {
+      if (a == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18235fa7e;
+      pSVar2 = (*(a->klass->vtable)._9_SetUnhandledAttributes.methodPtr)
+                         (a,(a->klass->vtable)._9_SetUnhandledAttributes.method);
+      bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+      if (!bVar1) goto label_18235fa49;
     }
     if (name != (System_String_o *)0x0) {
-      local_30 = (System_String_o *)0x44ce46b;
-      uVar1 = System_String__get_Chars(name,0,(MethodInfo *)0x0);
-      if (*(int *)(g_data_057b9bf8 + 0xe4) == 0) {
-        local_30 = (System_String_o *)0x44ce489;
-        il2cpp_runtime_helper_02337ed0();
+      pMVar3 = (MethodInfo *)0x0;
+      c = System_String__get_Chars(name,0,(MethodInfo *)0x0);
+      if ((g_data_184354e48->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init(g_data_184354e48);
       }
-      local_30 = (System_String_o *)0x44ce493;
-      uVar1 = System_Char__ToUpperInvariant(uVar1,(MethodInfo *)0x0);
-      uStack_28 = CONCAT26(uVar1,(undefined6)uStack_28);
-      local_30 = (System_String_o *)0x44ce4a4;
-      pSVar4 = System_Char__ToString((short)&uStack_28 + 6,(MethodInfo *)0x0);
-      local_30 = (System_String_o *)0x44ce4b6;
-      pSVar3 = System_String__Substring(name,1,(MethodInfo *)0x0);
-      local_30 = (System_String_o *)0x44ce4c3;
-      pSVar4 = System_String__Concat_3ae5ba0(pSVar4,pSVar3,(MethodInfo *)0x0);
-      local_30 = (System_String_o *)0x44ce4d9;
-      pSVar3 = (System_String_o *)
-               (*(node->klass->vtable)._7_get_Item.methodPtr)
-                         (node,pSVar4,(node->klass->vtable)._7_get_Item.method);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        local_30 = (System_String_o *)0x44ce4ee;
-        il2cpp_runtime_helper_02337ed0();
+      local_res8[0] = System_Char__ToUpperInvariant(c,(MethodInfo *)0x0);
+      pSVar2 = System_Char__ToString(local_res8,(System_IFormatProvider_o *)0x0,pMVar3);
+      str1 = System_String__Substring(name,1,(MethodInfo *)0x0);
+      pMVar3 = (MethodInfo *)System_String__Concat_1969e50(pSVar2,str1,(MethodInfo *)0x0);
+      a = (*(node->klass->vtable)._7_get_Item.methodPtr)(node,pMVar3);
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      local_30 = (System_String_o *)0x44ce4fc;
-      pSVar4 = pSVar3;
-      bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
-                        ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
-        return (System_String_o *)0x0;
-      }
-      if (pSVar3 != (System_String_o *)0x0) {
-        local_30 = (System_String_o *)0x44ce518;
-        pSVar4 = (System_String_o *)(*(pSVar3->klass->vtable)._9_GetTypeCode.methodPtr)(pSVar3);
-        local_30 = (System_String_o *)0x44ce524;
-        bVar2 = System_String__IsNullOrEmpty(pSVar4,(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          return (System_String_o *)0x0;
+      bVar1 = SimpleJSONFixed_JSONNode__op_Inequality
+                        ((SimpleJSONFixed_JSONNode_o *)a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        if (a == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18235fa7e;
+        pSVar2 = (*(a->klass->vtable)._9_SetUnhandledAttributes.methodPtr)
+                           (a,(a->klass->vtable)._9_SetUnhandledAttributes.method);
+        bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+        if (!bVar1) {
+label_18235fa49:
+          pSVar2 = (*(a->klass->vtable)._9_SetUnhandledAttributes.methodPtr)
+                             (a,(a->klass->vtable)._9_SetUnhandledAttributes.method);
+          return pSVar2;
         }
-        pSVar5 = (SimpleJSONFixed_JSONNode_c *)pSVar3->klass;
-        pMVar6 = (pSVar5->vtable)._9_get_Value.method;
-label_044ce544:
-        local_30 = (System_String_o *)0x44ce54a;
-        pSVar4 = (System_String_o *)(*(pSVar5->vtable)._9_get_Value.methodPtr)(pSVar3,pMVar6);
-        return pSVar4;
       }
+      return (System_String_o *)0x0;
     }
   }
-label_044ce55c:
-  local_30 = (System_String_o *)0x44ce561;
-  il2cpp_runtime_helper_022b2c90();
-  local_30 = pSVar4;
-  if (g_data_057aeb15 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"http_");
-    g_data_057aeb15 = '\x01';
-  }
-  pSVar4 = System_Int64__ToString((int64_t)&local_30,(MethodInfo *)0x0);
-  pSVar4 = System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar4,(MethodInfo *)0x0);
-  return pSVar4;
+label_18235fa7e:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgApiClient$$LogHttpFailure
 // il2cpp: void ApplicationManagers_Api_AottgApiClient__LogHttpFailure (ApplicationManagers_Api_AottgApiTransportRequest_o* request, ApplicationManagers_Api_AottgApiTransportResponse_o* response, System_String_o* text, const MethodInfo* method);
-// 0x44cdfa0
+// 0x18235fde0
 
 void ApplicationManagers_Api_AottgApiClient__LogHttpFailure
                (ApplicationManagers_Api_AottgApiTransportRequest_o *request,
@@ -1728,154 +1324,74 @@ void ApplicationManagers_Api_AottgApiClient__LogHttpFailure
                MethodInfo *method)
 
 {
-  uint16_t uVar1;
-  bool_conflict bVar2;
   System_String_array *values;
-  Il2CppClass *pIVar3;
-  System_String_o *pSVar4;
-  Il2CppObject *pIVar5;
-  Il2CppObject *__this;
-  System_String_o *a;
-  System_String_o *pSVar6;
-  SimpleJSONFixed_JSONNode_c *pSVar7;
-  void *pvVar8;
-  System_String_array *unaff_RBX;
-  Il2CppClass **unaff_RBP;
-  Il2CppClass *pIVar9;
-  Il2CppClass *pIVar10;
-  MethodInfo *pMVar11;
-  System_String_o **ppSVar12;
-  Il2CppObject *pIVar13;
-  uint in_R8D;
-  int64_t *unaff_R12;
-  undefined1 auVar14 [16];
-  System_String_o *pSStack_c8;
-  undefined8 uStack_c0;
-  Il2CppObject *pIStack_b8;
-  Il2CppObject *pIStack_b0;
-  void *pvStack_a8;
-  Il2CppClass *pIStack_a0;
-  undefined8 uStack_98;
-  Il2CppObject *pIStack_90;
-  Il2CppClass *pIStack_88;
-  ulong uStack_80;
-  MethodInfo *pMStack_78;
-  undefined8 uStack_70;
-  System_String_array *pSStack_68;
-  int64_t *piStack_60;
-  ApplicationManagers_Api_AottgApiTransportRequest_o *pAStack_58;
-  System_String_o *pSStack_50;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_48;
-  Il2CppClass **ppIStack_40;
+  System_String_o *pSVar1;
   
-  if (g_data_057aeb12 == '\0') {
-    ppIStack_40 = (Il2CppClass **)0x44cdfc9;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    ppIStack_40 = (Il2CppClass **)0x44cdfd5;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    ppIStack_40 = (Il2CppClass **)0x44cdfe1;
-    il2cpp_runtime_helper_023445d0(&"AottgApiClient: HTTP ");
-    ppIStack_40 = (Il2CppClass **)0x44cdfed;
-    il2cpp_runtime_helper_023445d0(&" ");
-    ppIStack_40 = (Il2CppClass **)0x44cdff9;
-    il2cpp_runtime_helper_023445d0(&" body=");
-    ppIStack_40 = (Il2CppClass **)0x44ce005;
-    il2cpp_runtime_helper_023445d0(&" error=");
-    g_data_057aeb12 = '\x01';
+  if (Il2CppMethodInitialized_184347a52 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"AottgApiClient: HTTP ");
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&" body=");
+    il2cpp_codegen_initialize_runtime_metadata(&" error=");
+    Il2CppMethodInitialized_184347a52 = '\x01';
   }
-  pIVar9 = (Il2CppClass *)0xa;
-  ppIStack_40 = (Il2CppClass **)0x44ce020;
-  ppSVar12 = TypeInfo_string;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pIVar3 = "AottgApiClient: HTTP ";
-  pSStack_68 = unaff_RBX;
+  values = (System_String_array *)SZArrayNew(TypeInfo_string_array,10);
+  pSVar1 = "AottgApiClient: HTTP ";
   if (values != (System_String_array *)0x0) {
-    pSStack_68 = values;
     if ((int)values->max_length != 0) {
-      ppSVar12 = values->m_Items;
-      values->m_Items[0] = (System_String_o *)"AottgApiClient: HTTP ";
-      ppIStack_40 = (Il2CppClass **)0x44ce04d;
-      il2cpp_runtime_helper_022b4080();
-      pIVar9 = pIVar3;
-      if (response == (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) goto label_044ce1e9;
-      unaff_R12 = &(response->fields).StatusCode;
-      pIVar9 = (Il2CppClass *)0x0;
-      ppIStack_40 = (Il2CppClass **)0x44ce064;
-      ppSVar12 = (System_String_o **)unaff_R12;
-      pIVar3 = (Il2CppClass *)System_Int64__ToString((int64_t)unaff_R12,(MethodInfo *)0x0);
+      values->m_Items[0] = "AottgApiClient: HTTP ";
+      Il2CppCodeGenWriteBarrier(values->m_Items,pSVar1);
+      if (response == (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) goto label_18236000e;
+      pSVar1 = System_Int64__ToString(&(response->fields).StatusCode,(MethodInfo *)0x0);
       if (1 < (uint)values->max_length) {
-        ppSVar12 = values->m_Items + 1;
-        values->m_Items[1] = (System_String_o *)pIVar3;
-        ppIStack_40 = (Il2CppClass **)0x44ce07e;
-        il2cpp_runtime_helper_022b4080();
-        pIVar10 = " ";
-        pIVar9 = pIVar3;
+        values->m_Items[1] = pSVar1;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar1);
+        pSVar1 = " ";
         if (2 < (uint)values->max_length) {
-          unaff_RBP = &" ";
-          ppSVar12 = values->m_Items + 2;
-          values->m_Items[2] = (System_String_o *)" ";
-          ppIStack_40 = (Il2CppClass **)0x44ce0a0;
-          il2cpp_runtime_helper_022b4080();
-          pIVar9 = pIVar10;
-          if (request == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) goto label_044ce1e9;
+          values->m_Items[2] = " ";
+          Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar1);
+          if (request == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) goto label_18236000e;
           if (3 < (uint)values->max_length) {
-            pIVar9 = (Il2CppClass *)(request->fields).Method;
-            ppSVar12 = values->m_Items + 3;
-            values->m_Items[3] = (System_String_o *)pIVar9;
-            ppIStack_40 = (Il2CppClass **)0x44ce0c4;
-            il2cpp_runtime_helper_022b4080();
-            pIVar3 = " ";
+            pSVar1 = (request->fields).Method;
+            values->m_Items[3] = pSVar1;
+            Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar1);
+            pSVar1 = " ";
             if (4 < (uint)values->max_length) {
-              ppSVar12 = values->m_Items + 4;
-              values->m_Items[4] = (System_String_o *)" ";
-              ppIStack_40 = (Il2CppClass **)0x44ce0df;
-              il2cpp_runtime_helper_022b4080();
-              pIVar9 = pIVar3;
+              values->m_Items[4] = " ";
+              Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar1);
               if (5 < (uint)values->max_length) {
-                pIVar9 = (Il2CppClass *)(request->fields).Url;
-                ppSVar12 = values->m_Items + 5;
-                values->m_Items[5] = (System_String_o *)pIVar9;
-                ppIStack_40 = (Il2CppClass **)0x44ce0fa;
-                il2cpp_runtime_helper_022b4080();
-                pIVar3 = " error=";
+                pSVar1 = (request->fields).Url;
+                values->m_Items[5] = pSVar1;
+                Il2CppCodeGenWriteBarrier(values->m_Items + 5,pSVar1);
+                pSVar1 = " error=";
                 if (6 < (uint)values->max_length) {
-                  ppSVar12 = values->m_Items + 6;
-                  values->m_Items[6] = (System_String_o *)" error=";
-                  ppIStack_40 = (Il2CppClass **)0x44ce11b;
-                  il2cpp_runtime_helper_022b4080();
-                  pIVar9 = pIVar3;
+                  values->m_Items[6] = " error=";
+                  Il2CppCodeGenWriteBarrier(values->m_Items + 6,pSVar1);
                   if (7 < (uint)values->max_length) {
-                    pIVar9 = (Il2CppClass *)(response->fields).Error;
-                    ppSVar12 = values->m_Items + 7;
-                    values->m_Items[7] = (System_String_o *)pIVar9;
-                    ppIStack_40 = (Il2CppClass **)0x44ce136;
-                    il2cpp_runtime_helper_022b4080();
-                    pIVar3 = " body=";
+                    pSVar1 = (response->fields).Error;
+                    values->m_Items[7] = pSVar1;
+                    Il2CppCodeGenWriteBarrier(values->m_Items + 7,pSVar1);
+                    pSVar1 = " body=";
                     if (8 < (uint)values->max_length) {
-                      ppSVar12 = values->m_Items + 8;
-                      values->m_Items[8] = (System_String_o *)" body=";
-                      ppIStack_40 = (Il2CppClass **)0x44ce157;
-                      il2cpp_runtime_helper_022b4080();
-                      pIVar9 = pIVar3;
+                      values->m_Items[8] = " body=";
+                      Il2CppCodeGenWriteBarrier(values->m_Items + 8,pSVar1);
                       if (9 < (uint)values->max_length) {
                         values->m_Items[9] = text;
-                        ppIStack_40 = (Il2CppClass **)0x44ce174;
-                        il2cpp_runtime_helper_022b4080(values->m_Items + 9);
-                        ppIStack_40 = (Il2CppClass **)0x44ce17e;
-                        pSVar4 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-                        if (*unaff_R12 - 400U <= &g_data_00000063) {
-                          if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-                            ppIStack_40 = (Il2CppClass **)0x44ce1cc;
-                            il2cpp_runtime_helper_02337ed0();
+                        Il2CppCodeGenWriteBarrier(values->m_Items + 9,text);
+                        pSVar1 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+                        if ((399 < (response->fields).StatusCode) &&
+                           ((ulonglong)(response->fields).StatusCode < 500)) {
+                          if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+                            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
                           }
-                          UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar4,(MethodInfo *)0x0);
+                          UnityEngine_Debug__LogWarning((Il2CppObject *)pSVar1,(MethodInfo *)0x0);
                           return;
                         }
-                        if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-                          ppIStack_40 = (Il2CppClass **)0x44ce1ab;
-                          il2cpp_runtime_helper_02337ed0();
+                        if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
                         }
-                        UnityEngine_Debug__LogError((Il2CppObject *)pSVar4,(MethodInfo *)0x0);
+                        UnityEngine_Debug__LogError((Il2CppObject *)pSVar1,(MethodInfo *)0x0);
                         return;
                       }
                     }
@@ -1887,192 +1403,10 @@ void ApplicationManagers_Api_AottgApiClient__LogHttpFailure
         }
       }
     }
-    ppIStack_40 = (Il2CppClass **)0x44ce1e9;
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-label_044ce1e9:
-  ppIStack_40 = (Il2CppClass **)0x44ce1ee;
-  auVar14 = il2cpp_runtime_helper_022b2c90();
-  pIVar3 = auVar14._8_8_;
-  uStack_70 = auVar14._0_8_;
-  piStack_60 = unaff_R12;
-  pAStack_58 = request;
-  pSStack_50 = text;
-  pAStack_48 = response;
-  ppIStack_40 = unaff_RBP;
-  if (g_data_057aeb18 == '\0') {
-    pMStack_78 = (MethodInfo *)0x44ce21f;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiResult);
-    g_data_057aeb18 = '\x01';
-  }
-  pMStack_78 = (MethodInfo *)0x44ce235;
-  pIVar5 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiResult);
-  pIVar10 = (Il2CppClass *)0x0;
-  pMStack_78 = (MethodInfo *)0x44ce242;
-  pIVar13 = pIVar5;
-  System_Object___ctor(pIVar5,(MethodInfo *)0x0);
-  if (pIVar5 != (Il2CppObject *)0x0) {
-    *(undefined1 *)&pIVar5[1].klass = 0;
-    pIVar5[1].monitor = ppSVar12;
-    if (pIVar9 == (Il2CppClass *)0x0) {
-      pIVar9 = (Il2CppClass *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    pIVar5[2].klass = pIVar9;
-    pMStack_78 = (MethodInfo *)0x44ce27c;
-    il2cpp_runtime_helper_022b4080(pIVar5 + 2,pIVar9);
-    pIVar5[3].klass = pIVar3;
-    pMStack_78 = (MethodInfo *)0x44ce28c;
-    il2cpp_runtime_helper_022b4080(pIVar5 + 3,pIVar3);
-    pIVar5[3].monitor = method;
-    pMStack_78 = (MethodInfo *)0x44ce29f;
-    il2cpp_runtime_helper_022b4080(&pIVar5[3].monitor,method);
-    *(char *)&pIVar5[4].klass = (char)in_R8D;
-    return;
-  }
-  pMStack_78 = (MethodInfo *)0x44ce2ba;
-  auVar14 = il2cpp_runtime_helper_022b2c90();
-  pvVar8 = auVar14._8_8_;
-  uStack_98 = auVar14._0_8_;
-  pIStack_90 = pIVar5;
-  pIStack_88 = pIVar3;
-  uStack_80 = (ulong)in_R8D;
-  pMStack_78 = method;
-  if (g_data_057aeb17 == '\0') {
-    pIStack_a0 = (Il2CppClass *)0x44ce2e6;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiResult);
-    g_data_057aeb17 = '\x01';
-  }
-  pIStack_a0 = (Il2CppClass *)0x44ce2fc;
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiResult);
-  pSVar4 = (System_String_o *)0x0;
-  pIStack_a0 = (Il2CppClass *)0x44ce309;
-  pIVar5 = __this;
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  if (__this != (Il2CppObject *)0x0) {
-    *(undefined1 *)&__this[1].klass = 1;
-    __this[1].monitor = pIVar13;
-    if (pIVar10 == (Il2CppClass *)0x0) {
-      pIVar10 = (Il2CppClass *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    __this[2].klass = pIVar10;
-    pIStack_a0 = (Il2CppClass *)0x44ce343;
-    il2cpp_runtime_helper_022b4080(__this + 2,pIVar10);
-    __this[2].monitor = pvVar8;
-    pIStack_a0 = (Il2CppClass *)0x44ce356;
-    il2cpp_runtime_helper_022b4080(&__this[2].monitor,pvVar8);
-    return;
-  }
-  pIStack_a0 = (Il2CppClass *)0x44ce36a;
-  uStack_c0 = il2cpp_runtime_helper_022b2c90();
-  pIStack_b8 = __this;
-  pIStack_b0 = pIVar13;
-  pvStack_a8 = pvVar8;
-  pIStack_a0 = pIVar10;
-  if (g_data_057aeb11 == '\0') {
-    pSStack_c8 = (System_String_o *)0x44ce393;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    g_data_057aeb11 = '\x01';
-  }
-  uStack_c0 = uStack_c0 & 0xffffffffffff;
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    pSStack_c8 = (System_String_o *)0x44ce3ba;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSStack_c8 = (System_String_o *)0x44ce3c8;
-  bVar2 = SimpleJSONFixed_JSONNode__op_Equality
-                    ((SimpleJSONFixed_JSONNode_o *)pIVar5,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    return;
-  }
-  pSStack_c8 = (System_String_o *)0x44ce3dc;
-  pSVar6 = pSVar4;
-  bVar2 = System_String__IsNullOrEmpty(pSVar4,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    return;
-  }
-  if (pIVar5 != (Il2CppObject *)0x0) {
-    pSStack_c8 = (System_String_o *)0x44ce403;
-    a = (System_String_o *)
-        (*pIVar5->klass->vtable[7].methodPtr)(pIVar5,pSVar4,pIVar5->klass->vtable[7].method);
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      pSStack_c8 = (System_String_o *)0x44ce418;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_c8 = (System_String_o *)0x44ce424;
-    pSVar6 = a;
-    bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
-                      ((SimpleJSONFixed_JSONNode_o *)a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      if (a == (System_String_o *)0x0) goto label_044ce55c;
-      pSStack_c8 = (System_String_o *)0x44ce444;
-      pSVar6 = (System_String_o *)
-               (*(((SimpleJSONFixed_JSONNode_c *)a->klass)->vtable)._9_get_Value.methodPtr)(a);
-      pSStack_c8 = (System_String_o *)0x44ce44e;
-      bVar2 = System_String__IsNullOrEmpty(pSVar6,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
-        pSVar7 = (SimpleJSONFixed_JSONNode_c *)a->klass;
-        pMVar11 = (pSVar7->vtable)._9_get_Value.method;
-        goto label_044ce544;
-      }
-    }
-    if (pSVar4 != (System_String_o *)0x0) {
-      pSStack_c8 = (System_String_o *)0x44ce46b;
-      uVar1 = System_String__get_Chars(pSVar4,0,(MethodInfo *)0x0);
-      if (*(int *)(g_data_057b9bf8 + 0xe4) == 0) {
-        pSStack_c8 = (System_String_o *)0x44ce489;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_c8 = (System_String_o *)0x44ce493;
-      uVar1 = System_Char__ToUpperInvariant(uVar1,(MethodInfo *)0x0);
-      uStack_c0 = CONCAT26(uVar1,(undefined6)uStack_c0);
-      pSStack_c8 = (System_String_o *)0x44ce4a4;
-      pSVar6 = System_Char__ToString((short)&uStack_c0 + 6,(MethodInfo *)0x0);
-      pSStack_c8 = (System_String_o *)0x44ce4b6;
-      pSVar4 = System_String__Substring(pSVar4,1,(MethodInfo *)0x0);
-      pSStack_c8 = (System_String_o *)0x44ce4c3;
-      pSVar4 = System_String__Concat_3ae5ba0(pSVar6,pSVar4,(MethodInfo *)0x0);
-      pSStack_c8 = (System_String_o *)0x44ce4d9;
-      a = (System_String_o *)
-          (*pIVar5->klass->vtable[7].methodPtr)(pIVar5,pSVar4,pIVar5->klass->vtable[7].method);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        pSStack_c8 = (System_String_o *)0x44ce4ee;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_c8 = (System_String_o *)0x44ce4fc;
-      pSVar6 = a;
-      bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
-                        ((SimpleJSONFixed_JSONNode_o *)a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
-        return;
-      }
-      if (a != (System_String_o *)0x0) {
-        pSStack_c8 = (System_String_o *)0x44ce518;
-        pSVar4 = (System_String_o *)(*(a->klass->vtable)._9_GetTypeCode.methodPtr)(a);
-        pSStack_c8 = (System_String_o *)0x44ce524;
-        bVar2 = System_String__IsNullOrEmpty(pSVar4,(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          return;
-        }
-        pSVar7 = (SimpleJSONFixed_JSONNode_c *)a->klass;
-        pMVar11 = (pSVar7->vtable)._9_get_Value.method;
-label_044ce544:
-        pSStack_c8 = (System_String_o *)0x44ce54a;
-        (*(pSVar7->vtable)._9_get_Value.methodPtr)(a,pMVar11);
-        return;
-      }
-    }
-  }
-label_044ce55c:
-  pSStack_c8 = (System_String_o *)0x44ce561;
-  il2cpp_runtime_helper_022b2c90();
-  pSStack_c8 = pSVar6;
-  if (g_data_057aeb15 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"http_");
-    g_data_057aeb15 = '\x01';
-  }
-  pSVar4 = System_Int64__ToString((int64_t)&pSStack_c8,(MethodInfo *)0x0);
-  System_String__Concat_3ae5ba0(_DAT_055de1b0,pSVar4,(MethodInfo *)0x0);
-  return;
+label_18236000e:
+  ThrowNullReferenceException();
 }
 
 

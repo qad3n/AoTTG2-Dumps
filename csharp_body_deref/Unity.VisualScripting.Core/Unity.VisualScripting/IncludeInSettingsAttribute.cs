@@ -15,26 +15,26 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = false, Inherited = true)]
 public sealed class IncludeInSettingsAttribute : Attribute
 {
-	[Token(Token = "0x17000060")]
+	[Token(Token = "0x17000061")]
 	public bool include
 	{
-		[Token(Token = "0x60001DC")]
-		[Address(RVA = "0x4CA39C0", Offset = "0x4CA39C0", VA = "0x4CA39C0")]
+		[Token(Token = "0x60001E0")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60001DD")]
-		[Address(RVA = "0x4CA39D0", Offset = "0x4CA39D0", VA = "0x4CA39D0")]
+		[Token(Token = "0x60001E1")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x4CA39A0", Offset = "0x4CA39A0", VA = "0x4CA39A0")]
+	[Token(Token = "0x60001DF")]
+	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
 	public IncludeInSettingsAttribute(bool include)
 	{
 	}

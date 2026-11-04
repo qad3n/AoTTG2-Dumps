@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000173")]
+[Token(Token = "0x2000176")]
 public interface IAsyncDeselectEventHandler<T> : IDisposable
 {
-	[Token(Token = "0x60008E0")]
+	[Token(Token = "0x6000904")]
 	UniTask<T> OnDeselectAsync();
 }

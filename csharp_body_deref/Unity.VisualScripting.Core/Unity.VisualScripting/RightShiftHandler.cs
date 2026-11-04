@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000132")]
 public class RightShiftHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000C96")]
-	[Address(RVA = "0x4D32270", Offset = "0x4D32270", VA = "0x4D32270")]
+	[Token(Token = "0x6000CA0")]
+	[Address(RVA = "0x2E20F90", Offset = "0x2E1F590", VA = "0x182E20F90")]
 	public RightShiftHandler()
 	{
 	}

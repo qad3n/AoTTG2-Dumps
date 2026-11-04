@@ -10,78 +10,78 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x2000553")]
+[Token(Token = "0x2000649")]
 internal class StyleSyntaxTokenizer
 {
-	[Token(Token = "0x400127D")]
+	[Token(Token = "0x400182A")]
 	[FieldOffset(Offset = "0x10")]
 	private List<StyleSyntaxToken> m_Tokens;
 
-	[Token(Token = "0x400127E")]
+	[Token(Token = "0x400182B")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_CurrentTokenIndex;
 
-	[Token(Token = "0x1700085D")]
+	[Token(Token = "0x17000B7A")]
 	public StyleSyntaxToken current
 	{
-		[Token(Token = "0x6002086")]
-		[Address(RVA = "0x4FD1BC0", Offset = "0x4FD1BC0", VA = "0x4FD1BC0")]
+		[Token(Token = "0x6002DF3")]
+		[Address(RVA = "0x31FAEE0", Offset = "0x31F94E0", VA = "0x1831FAEE0")]
 		get
 		{
 			return default(StyleSyntaxToken);
 		}
 	}
 
-	[Token(Token = "0x6002087")]
-	[Address(RVA = "0x4FD29A0", Offset = "0x4FD29A0", VA = "0x4FD29A0")]
+	[Token(Token = "0x6002DF4")]
+	[Address(RVA = "0x31FA120", Offset = "0x31F8720", VA = "0x1831FA120")]
 	public StyleSyntaxToken MoveNext()
 	{
 		return default(StyleSyntaxToken);
 	}
 
-	[Token(Token = "0x6002088")]
-	[Address(RVA = "0x4FD2BE0", Offset = "0x4FD2BE0", VA = "0x4FD2BE0")]
+	[Token(Token = "0x6002DF5")]
+	[Address(RVA = "0x31FA1E0", Offset = "0x31F87E0", VA = "0x1831FA1E0")]
 	public StyleSyntaxToken PeekNext()
 	{
 		return default(StyleSyntaxToken);
 	}
 
-	[Token(Token = "0x6002089")]
-	[Address(RVA = "0x4FD0B90", Offset = "0x4FD0B90", VA = "0x4FD0B90")]
+	[Token(Token = "0x6002DF6")]
+	[Address(RVA = "0x31FA2D0", Offset = "0x31F88D0", VA = "0x1831FA2D0")]
 	public void Tokenize(string syntax)
 	{
 	}
 
-	[Token(Token = "0x600208A")]
-	[Address(RVA = "0x4FD3570", Offset = "0x4FD3570", VA = "0x4FD3570")]
+	[Token(Token = "0x6002DF7")]
+	[Address(RVA = "0x31F9FC0", Offset = "0x31F85C0", VA = "0x1831F9FC0")]
 	private static bool IsNextCharacter(string s, int index, char c)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600208B")]
-	[Address(RVA = "0x4FD3600", Offset = "0x4FD3600", VA = "0x4FD3600")]
+	[Token(Token = "0x6002DF8")]
+	[Address(RVA = "0x31FA010", Offset = "0x31F8610", VA = "0x1831FA010")]
 	private static bool IsNextLetterOrDash(string s, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600208C")]
-	[Address(RVA = "0x4FD35A0", Offset = "0x4FD35A0", VA = "0x4FD35A0")]
+	[Token(Token = "0x6002DF9")]
+	[Address(RVA = "0x31FA0C0", Offset = "0x31F86C0", VA = "0x1831FA0C0")]
 	private static bool IsNextNumber(string s, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600208D")]
-	[Address(RVA = "0x4FD3520", Offset = "0x4FD3520", VA = "0x4FD3520")]
+	[Token(Token = "0x6002DFA")]
+	[Address(RVA = "0x31F9F60", Offset = "0x31F8560", VA = "0x1831F9F60")]
 	private static int GlobCharacter(string s, int index, char c)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600208E")]
-	[Address(RVA = "0x4FD0B10", Offset = "0x4FD0B10", VA = "0x4FD0B10")]
+	[Token(Token = "0x6002DFB")]
+	[Address(RVA = "0x31FAE60", Offset = "0x31F9460", VA = "0x1831FAE60")]
 	public StyleSyntaxTokenizer()
 	{
 	}

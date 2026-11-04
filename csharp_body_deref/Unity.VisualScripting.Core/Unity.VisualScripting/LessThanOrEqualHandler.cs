@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000121")]
 public class LessThanOrEqualHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0x4D14410", Offset = "0x4D14410", VA = "0x4D14410")]
+	[Token(Token = "0x6000AC5")]
+	[Address(RVA = "0x2E07E60", Offset = "0x2E06460", VA = "0x182E07E60")]
 	public LessThanOrEqualHandler()
 	{
 	}

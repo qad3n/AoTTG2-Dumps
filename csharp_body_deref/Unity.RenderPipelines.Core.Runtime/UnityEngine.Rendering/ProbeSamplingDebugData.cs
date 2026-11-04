@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000132")]
-public class ProbeSamplingDebugData
+[Token(Token = "0x200011A")]
+internal class ProbeSamplingDebugData
 {
-	[Token(Token = "0x4000509")]
+	[Token(Token = "0x40004F9")]
 	[FieldOffset(Offset = "0x10")]
 	public ProbeSamplingDebugUpdate update;
 
-	[Token(Token = "0x400050A")]
+	[Token(Token = "0x40004FA")]
 	[FieldOffset(Offset = "0x14")]
 	public Vector2 coordinates;
 
-	[Token(Token = "0x400050B")]
+	[Token(Token = "0x40004FB")]
 	[FieldOffset(Offset = "0x1C")]
 	public bool forceScreenCenterCoordinates;
 
-	[Token(Token = "0x400050C")]
+	[Token(Token = "0x40004FC")]
 	[FieldOffset(Offset = "0x20")]
 	public Camera camera;
 
-	[Token(Token = "0x400050D")]
+	[Token(Token = "0x40004FD")]
 	[FieldOffset(Offset = "0x28")]
 	public bool shortcutPressed;
 
-	[Token(Token = "0x400050E")]
+	[Token(Token = "0x40004FE")]
 	[FieldOffset(Offset = "0x30")]
 	public GraphicsBuffer positionNormalBuffer;
 
-	[Token(Token = "0x6000A0B")]
-	[Address(RVA = "0x4BCCC80", Offset = "0x4BCCC80", VA = "0x4BCCC80")]
+	[Token(Token = "0x6000A43")]
+	[Address(RVA = "0x2B13980", Offset = "0x2B11F80", VA = "0x182B13980")]
 	public ProbeSamplingDebugData()
 	{
 	}

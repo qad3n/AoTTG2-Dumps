@@ -11,111 +11,111 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200016B")]
+[Token(Token = "0x2000271")]
 [AottgDialog("main-menu-forgot-password")]
 public sealed class AottgForgotPasswordDialog : AottgDialog
 {
-	[Token(Token = "0x40007F4")]
+	[Token(Token = "0x4000C95")]
 	public const string Id = "main-menu-forgot-password";
 
-	[Token(Token = "0x40007F5")]
+	[Token(Token = "0x4000C96")]
 	public const string EmailInputId = "account-forgot-email";
 
-	[Token(Token = "0x17000120")]
+	[Token(Token = "0x170001A4")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000802")]
-		[Address(RVA = "0x43EE980", Offset = "0x43EE980", VA = "0x43EE980", Slot = "4")]
+		[Token(Token = "0x6000EB6")]
+		[Address(RVA = "0x1DDA400", Offset = "0x1DD8A00", VA = "0x181DDA400", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000121")]
+	[Token(Token = "0x170001A5")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000803")]
-		[Address(RVA = "0x43EE9F0", Offset = "0x43EE9F0", VA = "0x43EE9F0", Slot = "5")]
+		[Token(Token = "0x6000EB7")]
+		[Address(RVA = "0x1DDA3D0", Offset = "0x1DD89D0", VA = "0x181DDA3D0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000122")]
+	[Token(Token = "0x170001A6")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000804")]
-		[Address(RVA = "0x43EEA20", Offset = "0x43EEA20", VA = "0x43EEA20", Slot = "13")]
+		[Token(Token = "0x6000EB8")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x17000123")]
+	[Token(Token = "0x170001A7")]
 	protected override string HeaderCloseEnabledKey
 	{
-		[Token(Token = "0x6000805")]
-		[Address(RVA = "0x43EEA30", Offset = "0x43EEA30", VA = "0x43EEA30", Slot = "10")]
+		[Token(Token = "0x6000EB9")]
+		[Address(RVA = "0x1DDA2A0", Offset = "0x1DD88A0", VA = "0x181DDA2A0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000124")]
+	[Token(Token = "0x170001A8")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000806")]
-		[Address(RVA = "0x43EEA60", Offset = "0x43EEA60", VA = "0x43EEA60", Slot = "14")]
+		[Token(Token = "0x6000EBA")]
+		[Address(RVA = "0x1DDA2D0", Offset = "0x1DD88D0", VA = "0x181DDA2D0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000125")]
+	[Token(Token = "0x170001A9")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x6000807")]
-		[Address(RVA = "0x43EEB30", Offset = "0x43EEB30", VA = "0x43EEB30", Slot = "16")]
+		[Token(Token = "0x6000EBB")]
+		[Address(RVA = "0x1DDA1B0", Offset = "0x1DD87B0", VA = "0x181DDA1B0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000808")]
-	[Address(RVA = "0x43EEBF0", Offset = "0x43EEBF0", VA = "0x43EEBF0", Slot = "19")]
+	[Token(Token = "0x6000EBC")]
+	[Address(RVA = "0x1DD9DA0", Offset = "0x1DD83A0", VA = "0x181DD9DA0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000809")]
-	[Address(RVA = "0x43EEEE0", Offset = "0x43EEEE0", VA = "0x43EEEE0")]
+	[Token(Token = "0x6000EBD")]
+	[Address(RVA = "0x1DDA140", Offset = "0x1DD8740", VA = "0x181DDA140")]
 	private static GisketchUIBindingDefinition Visible(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600080A")]
-	[Address(RVA = "0x43EEF50", Offset = "0x43EEF50", VA = "0x43EEF50")]
+	[Token(Token = "0x6000EBE")]
+	[Address(RVA = "0x1DDA0D0", Offset = "0x1DD86D0", VA = "0x181DDA0D0")]
 	private static GisketchUIBindingDefinition Enabled(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x43EEFC0", Offset = "0x43EEFC0", VA = "0x43EEFC0")]
+	[Token(Token = "0x6000EBF")]
+	[Address(RVA = "0x1DD9D00", Offset = "0x1DD8300", VA = "0x181DD9D00")]
 	private static GisketchUIBindingDefinition BoundCta(string textKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x43EF050", Offset = "0x43EF050", VA = "0x43EF050")]
+	[Token(Token = "0x6000EC0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgForgotPasswordDialog()
 	{
 	}

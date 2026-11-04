@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200031E")]
+[Token(Token = "0x200034D")]
 [ComVisible(true)]
 public sealed class SHA1CryptoServiceProvider : SHA1
 {
-	[Token(Token = "0x4000E0D")]
+	[Token(Token = "0x4000E1A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private System.Security.Cryptography.SHA1Internal sha;
 
-	[Token(Token = "0x6001B65")]
-	[Address(RVA = "0x3B57D80", Offset = "0x3B57D80", VA = "0x3B57D80")]
+	[Token(Token = "0x6001BCD")]
+	[Address(RVA = "0x19E48D0", Offset = "0x19E2ED0", VA = "0x1819E48D0")]
 	public SHA1CryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001B66")]
-	[Address(RVA = "0x3B57DF0", Offset = "0x3B57DF0", VA = "0x3B57DF0", Slot = "1")]
+	[Token(Token = "0x6001BCE")]
+	[Address(RVA = "0x19BF8A0", Offset = "0x19BDEA0", VA = "0x1819BF8A0", Slot = "1")]
 	~SHA1CryptoServiceProvider()
 	{
 	}
 
-	[Token(Token = "0x6001B67")]
-	[Address(RVA = "0x3B57E80", Offset = "0x3B57E80", VA = "0x3B57E80", Slot = "13")]
+	[Token(Token = "0x6001BCF")]
+	[Address(RVA = "0x19E4660", Offset = "0x19E2C60", VA = "0x1819E4660", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001B68")]
-	[Address(RVA = "0x3B57E90", Offset = "0x3B57E90", VA = "0x3B57E90", Slot = "18")]
+	[Token(Token = "0x6001BD0")]
+	[Address(RVA = "0x19E4670", Offset = "0x19E2C70", VA = "0x1819E4670", Slot = "18")]
 	protected override void HashCore(byte[] rgb, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x6001B69")]
-	[Address(RVA = "0x3B57EB0", Offset = "0x3B57EB0", VA = "0x3B57EB0", Slot = "19")]
+	[Token(Token = "0x6001BD1")]
+	[Address(RVA = "0x19E47C0", Offset = "0x19E2DC0", VA = "0x1819E47C0", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001B6A")]
-	[Address(RVA = "0x3B57ED0", Offset = "0x3B57ED0", VA = "0x3B57ED0", Slot = "20")]
+	[Token(Token = "0x6001BD2")]
+	[Address(RVA = "0x19E48B0", Offset = "0x19E2EB0", VA = "0x1819E48B0", Slot = "20")]
 	public override void Initialize()
 	{
 	}

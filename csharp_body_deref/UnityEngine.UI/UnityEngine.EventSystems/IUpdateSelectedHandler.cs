@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000AA")]
+[Token(Token = "0x20000AC")]
 public interface IUpdateSelectedHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000648")]
+	[Token(Token = "0x600068F")]
 	void OnUpdateSelected(BaseEventData eventData);
 }

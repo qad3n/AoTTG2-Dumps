@@ -11,281 +11,281 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002F8")]
+[Token(Token = "0x2000327")]
 [ComVisible(true)]
 public abstract class RSA : AsymmetricAlgorithm
 {
-	[Token(Token = "0x170002C4")]
+	[Token(Token = "0x170002C6")]
 	public override string KeyExchangeAlgorithm
 	{
-		[Token(Token = "0x60019DF")]
-		[Address(RVA = "0x3B3D9C0", Offset = "0x3B3D9C0", VA = "0x3B3D9C0", Slot = "10")]
+		[Token(Token = "0x6001A47")]
+		[Address(RVA = "0x19C8AF0", Offset = "0x19C70F0", VA = "0x1819C8AF0", Slot = "10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002C5")]
+	[Token(Token = "0x170002C7")]
 	public override string SignatureAlgorithm
 	{
-		[Token(Token = "0x60019E0")]
-		[Address(RVA = "0x3B3D9F0", Offset = "0x3B3D9F0", VA = "0x3B3D9F0", Slot = "9")]
+		[Token(Token = "0x6001A48")]
+		[Address(RVA = "0x19C8B20", Offset = "0x19C7120", VA = "0x1819C8B20", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60019CC")]
-	[Address(RVA = "0x3B3CE00", Offset = "0x3B3CE00", VA = "0x3B3CE00")]
+	[Token(Token = "0x6001A34")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	protected RSA()
 	{
 	}
 
-	[Token(Token = "0x60019CD")]
-	[Address(RVA = "0x3B3CE10", Offset = "0x3B3CE10", VA = "0x3B3CE10")]
+	[Token(Token = "0x6001A35")]
+	[Address(RVA = "0x19C6400", Offset = "0x19C4A00", VA = "0x1819C6400")]
 	public new static RSA Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019CE")]
-	[Address(RVA = "0x3B3CE90", Offset = "0x3B3CE90", VA = "0x3B3CE90")]
+	[Token(Token = "0x6001A36")]
+	[Address(RVA = "0x19C6330", Offset = "0x19C4930", VA = "0x1819C6330")]
 	public new static RSA Create(string algName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019CF")]
-	[Address(RVA = "0x3B3D010", Offset = "0x3B3D010", VA = "0x3B3D010", Slot = "25")]
+	[Token(Token = "0x6001A37")]
+	[Address(RVA = "0x19C6780", Offset = "0x19C4D80", VA = "0x1819C6780", Slot = "25")]
 	public virtual byte[] Encrypt(byte[] data, RSAEncryptionPadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D0")]
-	[Address(RVA = "0x3B3D0A0", Offset = "0x3B3D0A0", VA = "0x3B3D0A0", Slot = "26")]
+	[Token(Token = "0x6001A38")]
+	[Address(RVA = "0x19C6680", Offset = "0x19C4C80", VA = "0x1819C6680", Slot = "26")]
 	public virtual byte[] Decrypt(byte[] data, RSAEncryptionPadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D1")]
-	[Address(RVA = "0x3B3D0C0", Offset = "0x3B3D0C0", VA = "0x3B3D0C0", Slot = "27")]
+	[Token(Token = "0x6001A39")]
+	[Address(RVA = "0x19C74F0", Offset = "0x19C5AF0", VA = "0x1819C74F0", Slot = "27")]
 	public virtual byte[] SignHash(byte[] hash, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D2")]
-	[Address(RVA = "0x3B3D0E0", Offset = "0x3B3D0E0", VA = "0x3B3D0E0", Slot = "28")]
+	[Token(Token = "0x6001A3A")]
+	[Address(RVA = "0x19C8AC0", Offset = "0x19C70C0", VA = "0x1819C8AC0", Slot = "28")]
 	public virtual bool VerifyHash(byte[] hash, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019D3")]
-	[Address(RVA = "0x3B3D100", Offset = "0x3B3D100", VA = "0x3B3D100", Slot = "29")]
+	[Token(Token = "0x6001A3B")]
+	[Address(RVA = "0x19C6FE0", Offset = "0x19C55E0", VA = "0x1819C6FE0", Slot = "29")]
 	protected virtual byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D4")]
-	[Address(RVA = "0x3B3D120", Offset = "0x3B3D120", VA = "0x3B3D120", Slot = "30")]
+	[Token(Token = "0x6001A3C")]
+	[Address(RVA = "0x19C6FB0", Offset = "0x19C55B0", VA = "0x1819C6FB0", Slot = "30")]
 	protected virtual byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D5")]
-	[Address(RVA = "0x3B3D140", Offset = "0x3B3D140", VA = "0x3B3D140")]
+	[Token(Token = "0x6001A3D")]
+	[Address(RVA = "0x19C7460", Offset = "0x19C5A60", VA = "0x1819C7460")]
 	public byte[] SignData(byte[] data, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D6")]
-	[Address(RVA = "0x3B3D1C0", Offset = "0x3B3D1C0", VA = "0x3B3D1C0", Slot = "31")]
+	[Token(Token = "0x6001A3E")]
+	[Address(RVA = "0x19C7090", Offset = "0x19C5690", VA = "0x1819C7090", Slot = "31")]
 	public virtual byte[] SignData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D7")]
-	[Address(RVA = "0x3B3D400", Offset = "0x3B3D400", VA = "0x3B3D400", Slot = "32")]
+	[Token(Token = "0x6001A3F")]
+	[Address(RVA = "0x19C72E0", Offset = "0x19C58E0", VA = "0x1819C72E0", Slot = "32")]
 	public virtual byte[] SignData(Stream data, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019D8")]
-	[Address(RVA = "0x3B3D530", Offset = "0x3B3D530", VA = "0x3B3D530")]
+	[Token(Token = "0x6001A40")]
+	[Address(RVA = "0x19C85B0", Offset = "0x19C6BB0", VA = "0x1819C85B0")]
 	public bool VerifyData(byte[] data, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019D9")]
-	[Address(RVA = "0x3B3D5B0", Offset = "0x3B3D5B0", VA = "0x3B3D5B0", Slot = "33")]
+	[Token(Token = "0x6001A41")]
+	[Address(RVA = "0x19C8300", Offset = "0x19C6900", VA = "0x1819C8300", Slot = "33")]
 	public virtual bool VerifyData(byte[] data, int offset, int count, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019DA")]
-	[Address(RVA = "0x3B3D7A0", Offset = "0x3B3D7A0", VA = "0x3B3D7A0")]
+	[Token(Token = "0x6001A42")]
+	[Address(RVA = "0x19C8120", Offset = "0x19C6720", VA = "0x1819C8120")]
 	public bool VerifyData(Stream data, byte[] signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019DB")]
-	[Address(RVA = "0x3B3D030", Offset = "0x3B3D030", VA = "0x3B3D030")]
+	[Token(Token = "0x6001A43")]
+	[Address(RVA = "0x19C66B0", Offset = "0x19C4CB0", VA = "0x1819C66B0")]
 	private static Exception DerivedClassMustOverride()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019DC")]
-	[Address(RVA = "0x3B3D380", Offset = "0x3B3D380", VA = "0x3B3D380")]
+	[Token(Token = "0x6001A44")]
+	[Address(RVA = "0x19C6F20", Offset = "0x19C5520", VA = "0x1819C6F20")]
 	internal static Exception HashAlgorithmNameNullOrEmpty()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019DD")]
-	[Address(RVA = "0x3B3D900", Offset = "0x3B3D900", VA = "0x3B3D900", Slot = "34")]
+	[Token(Token = "0x6001A45")]
+	[Address(RVA = "0x19C6620", Offset = "0x19C4C20", VA = "0x1819C6620", Slot = "34")]
 	public virtual byte[] DecryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019DE")]
-	[Address(RVA = "0x3B3D960", Offset = "0x3B3D960", VA = "0x3B3D960", Slot = "35")]
+	[Token(Token = "0x6001A46")]
+	[Address(RVA = "0x19C6720", Offset = "0x19C4D20", VA = "0x1819C6720", Slot = "35")]
 	public virtual byte[] EncryptValue(byte[] rgb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019E1")]
-	[Address(RVA = "0x3B3DA20", Offset = "0x3B3DA20", VA = "0x3B3DA20", Slot = "11")]
+	[Token(Token = "0x6001A49")]
+	[Address(RVA = "0x19C6830", Offset = "0x19C4E30", VA = "0x1819C6830", Slot = "11")]
 	public override void FromXmlString(string xmlString)
 	{
 	}
 
-	[Token(Token = "0x60019E2")]
-	[Address(RVA = "0x3B3E450", Offset = "0x3B3E450", VA = "0x3B3E450", Slot = "12")]
+	[Token(Token = "0x6001A4A")]
+	[Address(RVA = "0x19C7520", Offset = "0x19C5B20", VA = "0x1819C7520", Slot = "12")]
 	public override string ToXmlString(bool includePrivateParameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019E3")]
+	[Token(Token = "0x6001A4B")]
 	public abstract RSAParameters ExportParameters(bool includePrivateParameters);
 
-	[Token(Token = "0x60019E4")]
+	[Token(Token = "0x6001A4C")]
 	public abstract void ImportParameters(RSAParameters parameters);
 
-	[Token(Token = "0x60019E5")]
-	[Address(RVA = "0x3B3E820", Offset = "0x3B3E820", VA = "0x3B3E820")]
+	[Token(Token = "0x6001A4D")]
+	[Address(RVA = "0x19C6460", Offset = "0x19C4A60", VA = "0x1819C6460")]
 	public static RSA Create(int keySizeInBits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019E6")]
-	[Address(RVA = "0x3B3E930", Offset = "0x3B3E930", VA = "0x3B3E930")]
+	[Token(Token = "0x6001A4E")]
+	[Address(RVA = "0x19C6520", Offset = "0x19C4B20", VA = "0x1819C6520")]
 	public static RSA Create(RSAParameters parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019E7")]
-	[Address(RVA = "0x3B3EAA0", Offset = "0x3B3EAA0", VA = "0x3B3EAA0", Slot = "38")]
+	[Token(Token = "0x6001A4F")]
+	[Address(RVA = "0x19C78D0", Offset = "0x19C5ED0", VA = "0x1819C78D0", Slot = "38")]
 	public virtual bool TryDecrypt(ReadOnlySpan<byte> data, Span<byte> destination, RSAEncryptionPadding padding, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019E8")]
-	[Address(RVA = "0x3B3EBA0", Offset = "0x3B3EBA0", VA = "0x3B3EBA0", Slot = "39")]
+	[Token(Token = "0x6001A50")]
+	[Address(RVA = "0x19C79E0", Offset = "0x19C5FE0", VA = "0x1819C79E0", Slot = "39")]
 	public virtual bool TryEncrypt(ReadOnlySpan<byte> data, Span<byte> destination, RSAEncryptionPadding padding, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019E9")]
-	[Address(RVA = "0x3B3ECA0", Offset = "0x3B3ECA0", VA = "0x3B3ECA0", Slot = "40")]
+	[Token(Token = "0x6001A51")]
+	[Address(RVA = "0x19C7B70", Offset = "0x19C6170", VA = "0x1819C7B70", Slot = "40")]
 	protected virtual bool TryHashData(ReadOnlySpan<byte> data, Span<byte> destination, HashAlgorithmName hashAlgorithm, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019EA")]
-	[Address(RVA = "0x3B3EF90", Offset = "0x3B3EF90", VA = "0x3B3EF90", Slot = "41")]
+	[Token(Token = "0x6001A52")]
+	[Address(RVA = "0x19C8000", Offset = "0x19C6600", VA = "0x1819C8000", Slot = "41")]
 	public virtual bool TrySignHash(ReadOnlySpan<byte> hash, Span<byte> destination, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019EB")]
-	[Address(RVA = "0x3B3F0A0", Offset = "0x3B3F0A0", VA = "0x3B3F0A0", Slot = "42")]
+	[Token(Token = "0x6001A53")]
+	[Address(RVA = "0x19C7DB0", Offset = "0x19C63B0", VA = "0x1819C7DB0", Slot = "42")]
 	public virtual bool TrySignData(ReadOnlySpan<byte> data, Span<byte> destination, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019EC")]
-	[Address(RVA = "0x3B3F270", Offset = "0x3B3F270", VA = "0x3B3F270", Slot = "43")]
+	[Token(Token = "0x6001A54")]
+	[Address(RVA = "0x19C8650", Offset = "0x19C6C50", VA = "0x1819C8650", Slot = "43")]
 	public virtual bool VerifyData(ReadOnlySpan<byte> data, ReadOnlySpan<byte> signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019ED")]
-	[Address(RVA = "0x3B3F6A0", Offset = "0x3B3F6A0", VA = "0x3B3F6A0", Slot = "44")]
+	[Token(Token = "0x6001A55")]
+	[Address(RVA = "0x19C8A30", Offset = "0x19C7030", VA = "0x1819C8A30", Slot = "44")]
 	public virtual bool VerifyHash(ReadOnlySpan<byte> hash, ReadOnlySpan<byte> signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding padding)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019EE")]
-	[Address(RVA = "0x3B3F740", Offset = "0x3B3F740", VA = "0x3B3F740", Slot = "45")]
+	[Token(Token = "0x6001A56")]
+	[Address(RVA = "0x19C67B0", Offset = "0x19C4DB0", VA = "0x1819C67B0", Slot = "45")]
 	public virtual byte[] ExportRSAPrivateKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019EF")]
-	[Address(RVA = "0x3B3F780", Offset = "0x3B3F780", VA = "0x3B3F780", Slot = "46")]
+	[Token(Token = "0x6001A57")]
+	[Address(RVA = "0x19C67F0", Offset = "0x19C4DF0", VA = "0x1819C67F0", Slot = "46")]
 	public virtual byte[] ExportRSAPublicKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60019F0")]
-	[Address(RVA = "0x3B3F7C0", Offset = "0x3B3F7C0", VA = "0x3B3F7C0", Slot = "47")]
+	[Token(Token = "0x6001A58")]
+	[Address(RVA = "0x19C7010", Offset = "0x19C5610", VA = "0x1819C7010", Slot = "47")]
 	public virtual void ImportRSAPrivateKey(ReadOnlySpan<byte> source, out int bytesRead)
 	{
 	}
 
-	[Token(Token = "0x60019F1")]
-	[Address(RVA = "0x3B3F800", Offset = "0x3B3F800", VA = "0x3B3F800", Slot = "48")]
+	[Token(Token = "0x6001A59")]
+	[Address(RVA = "0x19C7050", Offset = "0x19C5650", VA = "0x1819C7050", Slot = "48")]
 	public virtual void ImportRSAPublicKey(ReadOnlySpan<byte> source, out int bytesRead)
 	{
 	}
 
-	[Token(Token = "0x60019F2")]
-	[Address(RVA = "0x3B3F840", Offset = "0x3B3F840", VA = "0x3B3F840", Slot = "49")]
+	[Token(Token = "0x6001A5A")]
+	[Address(RVA = "0x19C7AF0", Offset = "0x19C60F0", VA = "0x1819C7AF0", Slot = "49")]
 	public virtual bool TryExportRSAPrivateKey(Span<byte> destination, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60019F3")]
-	[Address(RVA = "0x3B3F880", Offset = "0x3B3F880", VA = "0x3B3F880", Slot = "50")]
+	[Token(Token = "0x6001A5B")]
+	[Address(RVA = "0x19C7B30", Offset = "0x19C6130", VA = "0x1819C7B30", Slot = "50")]
 	public virtual bool TryExportRSAPublicKey(Span<byte> destination, out int bytesWritten)
 	{
 		return default(bool);

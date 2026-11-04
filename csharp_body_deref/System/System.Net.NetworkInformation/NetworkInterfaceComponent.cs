@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.NetworkInformation;
 
-[Token(Token = "0x20001D7")]
+[Token(Token = "0x200035E")]
 public enum NetworkInterfaceComponent
 {
-	[Token(Token = "0x40009C3")]
+	[Token(Token = "0x4000DD9")]
 	IPv4,
-	[Token(Token = "0x40009C4")]
+	[Token(Token = "0x4000DDA")]
 	IPv6
 }

@@ -19,46 +19,46 @@ internal class XmlListConverter : XmlBaseConverter
 	protected XmlValueConverter atomicConverter;
 
 	[Token(Token = "0x600194A")]
-	[Address(RVA = "0x475B2C0", Offset = "0x475B2C0", VA = "0x475B2C0")]
+	[Address(RVA = "0x2690C90", Offset = "0x268F290", VA = "0x182690C90")]
 	protected XmlListConverter(XmlBaseConverter atomicConverter)
 	{
 	}
 
 	[Token(Token = "0x600194B")]
-	[Address(RVA = "0x4751710", Offset = "0x4751710", VA = "0x4751710")]
+	[Address(RVA = "0x2696660", Offset = "0x2694C60", VA = "0x182696660")]
 	protected XmlListConverter(XmlBaseConverter atomicConverter, Type clrTypeDefault)
 	{
 	}
 
 	[Token(Token = "0x600194C")]
-	[Address(RVA = "0x47515F0", Offset = "0x47515F0", VA = "0x47515F0")]
+	[Address(RVA = "0x26966E0", Offset = "0x2694CE0", VA = "0x1826966E0")]
 	protected XmlListConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x600194D")]
-	[Address(RVA = "0x475B790", Offset = "0x475B790", VA = "0x475B790")]
+	[Address(RVA = "0x2695AB0", Offset = "0x26940B0", VA = "0x182695AB0")]
 	public static XmlValueConverter Create(XmlValueConverter atomicConverter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600194E")]
-	[Address(RVA = "0x475B9D0", Offset = "0x475B9D0", VA = "0x475B9D0", Slot = "61")]
+	[Address(RVA = "0x26956B0", Offset = "0x2693CB0", VA = "0x1826956B0", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600194F")]
-	[Address(RVA = "0x4756F90", Offset = "0x4756F90", VA = "0x4756F90", Slot = "62")]
+	[Address(RVA = "0x2694660", Offset = "0x2692C60", VA = "0x182694660", Slot = "62")]
 	protected override object ChangeListType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001950")]
-	[Address(RVA = "0x475BAB0", Offset = "0x475BAB0", VA = "0x475BAB0")]
+	[Address(RVA = "0x2695C80", Offset = "0x2694280", VA = "0x182695C80")]
 	private bool IsListType(Type type)
 	{
 		return default(bool);
@@ -71,28 +71,28 @@ internal class XmlListConverter : XmlBaseConverter
 	}
 
 	[Token(Token = "0x6001952")]
-	[Address(RVA = "0x475C500", Offset = "0x475C500", VA = "0x475C500")]
+	[Address(RVA = "0x2696150", Offset = "0x2694750", VA = "0x182696150")]
 	private IList ToList(object list, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001953")]
-	[Address(RVA = "0x475C460", Offset = "0x475C460", VA = "0x475C460")]
+	[Address(RVA = "0x26960B0", Offset = "0x26946B0", VA = "0x1826960B0")]
 	private List<string> StringAsList(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001954")]
-	[Address(RVA = "0x475BF00", Offset = "0x475BF00", VA = "0x475BF00")]
+	[Address(RVA = "0x2695E20", Offset = "0x2694420", VA = "0x182695E20")]
 	private string ListAsString(IEnumerable list, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001955")]
-	[Address(RVA = "0x475BC40", Offset = "0x475BC40", VA = "0x475BC40")]
+	[Address(RVA = "0x26957B0", Offset = "0x2693DB0", VA = "0x1826957B0")]
 	private new Exception CreateInvalidClrMappingException(Type sourceType, Type destinationType)
 	{
 		return null;

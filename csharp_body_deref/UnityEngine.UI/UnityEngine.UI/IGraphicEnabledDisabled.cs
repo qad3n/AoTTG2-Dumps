@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000023")]
+[Token(Token = "0x2000021")]
 [Obsolete("Not supported anymore")]
 internal interface IGraphicEnabledDisabled
 {
-	[Token(Token = "0x600013C")]
+	[Token(Token = "0x600013B")]
 	void OnSiblingGraphicEnabledDisabled();
 }

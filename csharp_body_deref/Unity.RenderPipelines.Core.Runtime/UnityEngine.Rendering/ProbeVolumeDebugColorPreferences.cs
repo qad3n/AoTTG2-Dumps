@@ -10,65 +10,65 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000134")]
+[Token(Token = "0x200011C")]
 internal class ProbeVolumeDebugColorPreferences
 {
-	[Token(Token = "0x4000524")]
+	[Token(Token = "0x400051D")]
 	[FieldOffset(Offset = "0x0")]
 	internal static Func<Color> GetDetailSubdivisionColor;
 
-	[Token(Token = "0x4000525")]
+	[Token(Token = "0x400051E")]
 	[FieldOffset(Offset = "0x8")]
 	internal static Func<Color> GetMediumSubdivisionColor;
 
-	[Token(Token = "0x4000526")]
+	[Token(Token = "0x400051F")]
 	[FieldOffset(Offset = "0x10")]
 	internal static Func<Color> GetLowSubdivisionColor;
 
-	[Token(Token = "0x4000527")]
+	[Token(Token = "0x4000520")]
 	[FieldOffset(Offset = "0x18")]
 	internal static Func<Color> GetVeryLowSubdivisionColor;
 
-	[Token(Token = "0x4000528")]
+	[Token(Token = "0x4000521")]
 	[FieldOffset(Offset = "0x20")]
 	internal static Func<Color> GetSparseSubdivisionColor;
 
-	[Token(Token = "0x4000529")]
+	[Token(Token = "0x4000522")]
 	[FieldOffset(Offset = "0x28")]
 	internal static Func<Color> GetSparsestSubdivisionColor;
 
-	[Token(Token = "0x400052A")]
+	[Token(Token = "0x4000523")]
 	[FieldOffset(Offset = "0x30")]
 	internal static Color s_DetailSubdivision;
 
-	[Token(Token = "0x400052B")]
+	[Token(Token = "0x4000524")]
 	[FieldOffset(Offset = "0x40")]
 	internal static Color s_MediumSubdivision;
 
-	[Token(Token = "0x400052C")]
+	[Token(Token = "0x4000525")]
 	[FieldOffset(Offset = "0x50")]
 	internal static Color s_LowSubdivision;
 
-	[Token(Token = "0x400052D")]
+	[Token(Token = "0x4000526")]
 	[FieldOffset(Offset = "0x60")]
 	internal static Color s_VeryLowSubdivision;
 
-	[Token(Token = "0x400052E")]
+	[Token(Token = "0x4000527")]
 	[FieldOffset(Offset = "0x70")]
 	internal static Color s_SparseSubdivision;
 
-	[Token(Token = "0x400052F")]
+	[Token(Token = "0x4000528")]
 	[FieldOffset(Offset = "0x80")]
 	internal static Color s_SparsestSubdivision;
 
-	[Token(Token = "0x6000A10")]
-	[Address(RVA = "0x4BCCE40", Offset = "0x4BCCE40", VA = "0x4BCCE40")]
+	[Token(Token = "0x6000A48")]
+	[Address(RVA = "0x2B18ED0", Offset = "0x2B174D0", VA = "0x182B18ED0")]
 	static ProbeVolumeDebugColorPreferences()
 	{
 	}
 
-	[Token(Token = "0x6000A11")]
-	[Address(RVA = "0x4BCCEE0", Offset = "0x4BCCEE0", VA = "0x4BCCEE0")]
+	[Token(Token = "0x6000A49")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ProbeVolumeDebugColorPreferences()
 	{
 	}

@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200012C")]
+[Token(Token = "0x20002B4")]
 [Flags]
 internal enum FtpMethodFlags
 {
-	[Token(Token = "0x40005E2")]
+	[Token(Token = "0x40009F8")]
 	None = 0,
-	[Token(Token = "0x40005E3")]
+	[Token(Token = "0x40009F9")]
 	IsDownload = 1,
-	[Token(Token = "0x40005E4")]
+	[Token(Token = "0x40009FA")]
 	IsUpload = 2,
-	[Token(Token = "0x40005E5")]
+	[Token(Token = "0x40009FB")]
 	TakesParameter = 4,
-	[Token(Token = "0x40005E6")]
+	[Token(Token = "0x40009FC")]
 	MayTakeParameter = 8,
-	[Token(Token = "0x40005E7")]
+	[Token(Token = "0x40009FD")]
 	DoesNotTakeParameter = 0x10,
-	[Token(Token = "0x40005E8")]
+	[Token(Token = "0x40009FE")]
 	ParameterIsDirectory = 0x20,
-	[Token(Token = "0x40005E9")]
+	[Token(Token = "0x40009FF")]
 	ShouldParseForResponseUri = 0x40,
-	[Token(Token = "0x40005EA")]
+	[Token(Token = "0x4000A00")]
 	HasHttpCommand = 0x80,
-	[Token(Token = "0x40005EB")]
+	[Token(Token = "0x4000A01")]
 	MustChangeWorkingDirectoryToPath = 0x100
 }

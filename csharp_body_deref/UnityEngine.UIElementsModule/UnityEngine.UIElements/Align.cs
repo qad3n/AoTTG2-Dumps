@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200039E")]
+[Token(Token = "0x2000440")]
 public enum Align
 {
-	[Token(Token = "0x4000ACF")]
+	[Token(Token = "0x4000E1D")]
 	Auto,
-	[Token(Token = "0x4000AD0")]
+	[Token(Token = "0x4000E1E")]
 	FlexStart,
-	[Token(Token = "0x4000AD1")]
+	[Token(Token = "0x4000E1F")]
 	Center,
-	[Token(Token = "0x4000AD2")]
+	[Token(Token = "0x4000E20")]
 	FlexEnd,
-	[Token(Token = "0x4000AD3")]
+	[Token(Token = "0x4000E21")]
 	Stretch
 }

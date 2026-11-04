@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace JetBrains.Annotations;
 
-[Token(Token = "0x200006F")]
+[Token(Token = "0x2000085")]
 [AttributeUsage(AttributeTargets.Parameter)]
 public sealed class NoEnumerationAttribute : Attribute
 {
-	[Token(Token = "0x60000F8")]
-	[Address(RVA = "0x4DADF30", Offset = "0x4DADF30", VA = "0x4DADF30")]
+	[Token(Token = "0x60001A5")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NoEnumerationAttribute()
 	{
 	}

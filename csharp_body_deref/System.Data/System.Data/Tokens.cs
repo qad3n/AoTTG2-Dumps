@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000059")]
+[Token(Token = "0x2000066")]
 internal enum Tokens
 {
-	[Token(Token = "0x40001E0")]
+	[Token(Token = "0x4000228")]
 	None,
-	[Token(Token = "0x40001E1")]
+	[Token(Token = "0x4000229")]
 	Name,
-	[Token(Token = "0x40001E2")]
+	[Token(Token = "0x400022A")]
 	Numeric,
-	[Token(Token = "0x40001E3")]
+	[Token(Token = "0x400022B")]
 	Decimal,
-	[Token(Token = "0x40001E4")]
+	[Token(Token = "0x400022C")]
 	Float,
-	[Token(Token = "0x40001E5")]
+	[Token(Token = "0x400022D")]
 	BinaryConst,
-	[Token(Token = "0x40001E6")]
+	[Token(Token = "0x400022E")]
 	StringConst,
-	[Token(Token = "0x40001E7")]
+	[Token(Token = "0x400022F")]
 	Date,
-	[Token(Token = "0x40001E8")]
+	[Token(Token = "0x4000230")]
 	ListSeparator,
-	[Token(Token = "0x40001E9")]
+	[Token(Token = "0x4000231")]
 	LeftParen,
-	[Token(Token = "0x40001EA")]
+	[Token(Token = "0x4000232")]
 	RightParen,
-	[Token(Token = "0x40001EB")]
+	[Token(Token = "0x4000233")]
 	ZeroOp,
-	[Token(Token = "0x40001EC")]
+	[Token(Token = "0x4000234")]
 	UnaryOp,
-	[Token(Token = "0x40001ED")]
+	[Token(Token = "0x4000235")]
 	BinaryOp,
-	[Token(Token = "0x40001EE")]
+	[Token(Token = "0x4000236")]
 	Child,
-	[Token(Token = "0x40001EF")]
+	[Token(Token = "0x4000237")]
 	Parent,
-	[Token(Token = "0x40001F0")]
+	[Token(Token = "0x4000238")]
 	Dot,
-	[Token(Token = "0x40001F1")]
+	[Token(Token = "0x4000239")]
 	Unknown,
-	[Token(Token = "0x40001F2")]
+	[Token(Token = "0x400023A")]
 	EOS
 }

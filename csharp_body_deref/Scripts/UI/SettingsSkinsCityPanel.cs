@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006F0")]
+[Token(Token = "0x200086F")]
 internal class SettingsSkinsCityPanel : SettingsCategoryPanel
 {
-	[Token(Token = "0x17000D7A")]
+	[Token(Token = "0x17000EDA")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x60044F4")]
-		[Address(RVA = "0x4348C30", Offset = "0x4348C30", VA = "0x4348C30", Slot = "11")]
+		[Token(Token = "0x600512D")]
+		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D7B")]
+	[Token(Token = "0x17000EDB")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x60044F5")]
-		[Address(RVA = "0x4348C40", Offset = "0x4348C40", VA = "0x4348C40", Slot = "15")]
+		[Token(Token = "0x600512E")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60044F6")]
-	[Address(RVA = "0x4348C50", Offset = "0x4348C50", VA = "0x4348C50", Slot = "20")]
+	[Token(Token = "0x600512F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044F7")]
-	[Address(RVA = "0x4348C60", Offset = "0x4348C60", VA = "0x4348C60")]
+	[Token(Token = "0x6005130")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public SettingsSkinsCityPanel()
 	{
 	}

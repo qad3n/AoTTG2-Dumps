@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000504")]
+[Token(Token = "0x200065E")]
 public enum HumanCarryState
 {
-	[Token(Token = "0x40016D8")]
+	[Token(Token = "0x4001D5E")]
 	None,
-	[Token(Token = "0x40016D9")]
+	[Token(Token = "0x4001D5F")]
 	Carry
 }

@@ -1,5 +1,5 @@
 // Type: Replay.HumanReplayObject
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Replay/HumanReplayObject.cs
@@ -8,9 +8,10 @@
 
 // Replay.HumanReplayObject$$.ctor
 // il2cpp: void Replay_HumanReplayObject___ctor (Replay_HumanReplayObject_o* __this, const MethodInfo* method);
-// 0x4204560
+// 0x180528540
 
-void Replay_HumanReplayObject___ctor(Replay_HumanReplayObject_o *__this,MethodInfo *method)
+void
+Replay_HumanReplayObject___ctor(Replay_HumanReplayObject_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

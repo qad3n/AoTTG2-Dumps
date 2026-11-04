@@ -11,13 +11,13 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000006")]
 [VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Assembly)]
 internal class UnityEngineModuleAssembly : Attribute
 {
-	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4E9D9F0", Offset = "0x4E9D9F0", VA = "0x4E9D9F0")]
+	[Token(Token = "0x6000005")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public UnityEngineModuleAssembly()
 	{
 	}

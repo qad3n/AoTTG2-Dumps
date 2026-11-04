@@ -17,14 +17,14 @@ internal abstract class LocalAccessInstruction : Instruction
 	[FieldOffset(Offset = "0x10")]
 	internal readonly int _index;
 
-	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x44F5A10", Offset = "0x44F5A10", VA = "0x44F5A10")]
+	[Token(Token = "0x600094A")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	protected LocalAccessInstruction(int index)
 	{
 	}
 
-	[Token(Token = "0x600094C")]
-	[Address(RVA = "0x44F5A30", Offset = "0x44F5A30", VA = "0x44F5A30", Slot = "10")]
+	[Token(Token = "0x600094B")]
+	[Address(RVA = "0x2472E50", Offset = "0x2471450", VA = "0x182472E50", Slot = "10")]
 	public override string ToDebugString(int instructionIndex, object cookie, Func<int, int> labelIndexer, IReadOnlyList<object> objects)
 	{
 		return null;

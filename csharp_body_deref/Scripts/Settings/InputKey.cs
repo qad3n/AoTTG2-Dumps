@@ -11,127 +11,127 @@ using UnityEngine;
 
 namespace Settings;
 
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x20000D3")]
 internal class InputKey
 {
-	[Token(Token = "0x4000487")]
+	[Token(Token = "0x400050A")]
 	[FieldOffset(Offset = "0x10")]
 	protected KeyCode _key;
 
-	[Token(Token = "0x4000488")]
+	[Token(Token = "0x400050B")]
 	[FieldOffset(Offset = "0x14")]
 	protected bool _isSpecial;
 
-	[Token(Token = "0x4000489")]
+	[Token(Token = "0x400050C")]
 	[FieldOffset(Offset = "0x18")]
 	protected SpecialKey _special;
 
-	[Token(Token = "0x400048A")]
+	[Token(Token = "0x400050D")]
 	[FieldOffset(Offset = "0x1C")]
 	protected bool _isModifier;
 
-	[Token(Token = "0x400048B")]
+	[Token(Token = "0x400050E")]
 	[FieldOffset(Offset = "0x20")]
 	protected KeyCode _modifier;
 
-	[Token(Token = "0x400048C")]
+	[Token(Token = "0x400050F")]
 	[FieldOffset(Offset = "0x28")]
 	protected HashSet<KeyCode> ModifierKeys;
 
-	[Token(Token = "0x400048D")]
+	[Token(Token = "0x4000510")]
 	[FieldOffset(Offset = "0x30")]
 	protected HashSet<string> AlphaDigits;
 
-	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x40FFAE0", Offset = "0x40FFAE0", VA = "0x40FFAE0")]
+	[Token(Token = "0x6000425")]
+	[Address(RVA = "0x1F1D440", Offset = "0x1F1BA40", VA = "0x181F1D440")]
 	public InputKey()
 	{
 	}
 
-	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x40FFD90", Offset = "0x40FFD90", VA = "0x40FFD90")]
+	[Token(Token = "0x6000426")]
+	[Address(RVA = "0x1F1D700", Offset = "0x1F1BD00", VA = "0x181F1D700")]
 	public InputKey(string keyStr)
 	{
 	}
 
-	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x4100210", Offset = "0x4100210", VA = "0x4100210")]
+	[Token(Token = "0x6000427")]
+	[Address(RVA = "0x1F1CB50", Offset = "0x1F1B150", VA = "0x181F1CB50")]
 	public bool MatchesKeyCode(KeyCode key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x4100230", Offset = "0x4100230", VA = "0x4100230")]
+	[Token(Token = "0x6000428")]
+	[Address(RVA = "0x1F1CB70", Offset = "0x1F1B170", VA = "0x181F1CB70")]
 	public bool ReadNextInput()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x4100D20", Offset = "0x4100D20", VA = "0x4100D20")]
+	[Token(Token = "0x6000429")]
+	[Address(RVA = "0x1F1C770", Offset = "0x1F1AD70", VA = "0x181F1C770")]
 	public bool GetKeyDown()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x4100DF0", Offset = "0x4100DF0", VA = "0x4100DF0")]
+	[Token(Token = "0x600042A")]
+	[Address(RVA = "0x1F1C850", Offset = "0x1F1AE50", VA = "0x181F1C850")]
 	public bool GetKey()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x4100EA0", Offset = "0x4100EA0", VA = "0x4100EA0")]
+	[Token(Token = "0x600042B")]
+	[Address(RVA = "0x1F1C7E0", Offset = "0x1F1ADE0", VA = "0x181F1C7E0")]
 	public bool GetKeyUp()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x4100F50", Offset = "0x4100F50", VA = "0x4100F50")]
+	[Token(Token = "0x600042C")]
+	[Address(RVA = "0x1F1C970", Offset = "0x1F1AF70", VA = "0x181F1C970")]
 	public bool IsWheel()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x4100F70", Offset = "0x4100F70", VA = "0x4100F70")]
+	[Token(Token = "0x600042D")]
+	[Address(RVA = "0x1F1C950", Offset = "0x1F1AF50", VA = "0x181F1C950")]
 	public bool IsNone()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x4100F90", Offset = "0x4100F90", VA = "0x4100F90", Slot = "3")]
+	[Token(Token = "0x600042E")]
+	[Address(RVA = "0x1F1D310", Offset = "0x1F1B910", VA = "0x181F1D310", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x41010B0", Offset = "0x41010B0", VA = "0x41010B0", Slot = "0")]
+	[Token(Token = "0x600042F")]
+	[Address(RVA = "0x1F1C710", Offset = "0x1F1AD10", VA = "0x181F1C710", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A5")]
-	[Address(RVA = "0x4100060", Offset = "0x4100060", VA = "0x4100060")]
+	[Token(Token = "0x6000430")]
+	[Address(RVA = "0x1F1C990", Offset = "0x1F1AF90", VA = "0x181F1C990")]
 	public void LoadFromString(string serializedKey)
 	{
 	}
 
-	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x4100DD0", Offset = "0x4100DD0", VA = "0x4100DD0")]
+	[Token(Token = "0x6000431")]
+	[Address(RVA = "0x1F1C8C0", Offset = "0x1F1AEC0", VA = "0x181F1C8C0")]
 	protected bool GetModifier()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x4100CB0", Offset = "0x4100CB0", VA = "0x4100CB0")]
+	[Token(Token = "0x6000432")]
+	[Address(RVA = "0x1F1C8E0", Offset = "0x1F1AEE0", VA = "0x181F1C8E0")]
 	protected bool GetSpecial(SpecialKey specialKey)
 	{
 		return default(bool);

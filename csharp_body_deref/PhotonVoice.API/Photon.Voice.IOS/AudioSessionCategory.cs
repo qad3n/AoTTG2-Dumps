@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice.IOS;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000B0")]
 public enum AudioSessionCategory
 {
-	[Token(Token = "0x40002CE")]
+	[Token(Token = "0x40002D7")]
 	Ambient,
-	[Token(Token = "0x40002CF")]
+	[Token(Token = "0x40002D8")]
 	SoloAmbient,
-	[Token(Token = "0x40002D0")]
+	[Token(Token = "0x40002D9")]
 	Playback,
-	[Token(Token = "0x40002D1")]
+	[Token(Token = "0x40002DA")]
 	Record,
-	[Token(Token = "0x40002D2")]
+	[Token(Token = "0x40002DB")]
 	PlayAndRecord,
-	[Token(Token = "0x40002D3")]
+	[Token(Token = "0x40002DC")]
 	AudioProcessing,
-	[Token(Token = "0x40002D4")]
+	[Token(Token = "0x40002DD")]
 	MultiRoute
 }

@@ -11,97 +11,97 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Diagnostics;
 
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000057")]
 public static class GisketchUiPerfLog
 {
-	[Token(Token = "0x2000046")]
+	[Token(Token = "0x2000058")]
 	public readonly struct Scope : IDisposable
 	{
-		[Token(Token = "0x4000153")]
+		[Token(Token = "0x40001AD")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly string _area;
 
-		[Token(Token = "0x4000154")]
+		[Token(Token = "0x40001AE")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly string _detail;
 
-		[Token(Token = "0x4000155")]
+		[Token(Token = "0x40001AF")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly long _startMs;
 
-		[Token(Token = "0x4000156")]
+		[Token(Token = "0x40001B0")]
 		[FieldOffset(Offset = "0x18")]
 		private readonly bool _enabled;
 
-		[Token(Token = "0x4000157")]
+		[Token(Token = "0x40001B1")]
 		[FieldOffset(Offset = "0x19")]
 		private readonly bool _hotLoop;
 
-		[Token(Token = "0x6000243")]
-		[Address(RVA = "0x3A5AAB0", Offset = "0x3A5AAB0", VA = "0x3A5AAB0")]
+		[Token(Token = "0x600030D")]
+		[Address(RVA = "0x18D8EE0", Offset = "0x18D74E0", VA = "0x1818D8EE0")]
 		public Scope(string area, string detail)
 		{
 		}
 
-		[Token(Token = "0x6000244")]
-		[Address(RVA = "0x3A5AC90", Offset = "0x3A5AC90", VA = "0x3A5AC90", Slot = "4")]
+		[Token(Token = "0x600030E")]
+		[Address(RVA = "0x18D8CC0", Offset = "0x18D72C0", VA = "0x1818D8CC0", Slot = "4")]
 		public void Dispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x400014D")]
+	[Token(Token = "0x40001A7")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool Enabled;
 
-	[Token(Token = "0x400014E")]
+	[Token(Token = "0x40001A8")]
 	[FieldOffset(Offset = "0x1")]
 	public static bool LogBegins;
 
-	[Token(Token = "0x400014F")]
+	[Token(Token = "0x40001A9")]
 	[FieldOffset(Offset = "0x2")]
 	public static bool VerboseHotLoops;
 
-	[Token(Token = "0x4000150")]
+	[Token(Token = "0x40001AA")]
 	[FieldOffset(Offset = "0x4")]
 	public static int SlowElapsedMs;
 
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x40001AB")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Stopwatch Clock;
 
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x40001AC")]
 	[FieldOffset(Offset = "0x10")]
 	private static long _lastMs;
 
-	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x3A4FD50", Offset = "0x3A4FD50", VA = "0x3A4FD50")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x18D8870", Offset = "0x18D6E70", VA = "0x1818D8870")]
 	public static long NowMs()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x3A4DA30", Offset = "0x3A4DA30", VA = "0x3A4DA30")]
+	[Token(Token = "0x6000308")]
+	[Address(RVA = "0x18D87B0", Offset = "0x18D6DB0", VA = "0x1818D87B0")]
 	public static void Mark(string area, string detail)
 	{
 	}
 
-	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x3A4DA10", Offset = "0x3A4DA10", VA = "0x3A4DA10")]
+	[Token(Token = "0x6000309")]
+	[Address(RVA = "0x18D88D0", Offset = "0x18D6ED0", VA = "0x1818D88D0")]
 	public static Scope Time(string area, string detail)
 	{
 		return default(Scope);
 	}
 
-	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x3A5A850", Offset = "0x3A5A850", VA = "0x3A5A850")]
+	[Token(Token = "0x600030A")]
+	[Address(RVA = "0x18D8900", Offset = "0x18D6F00", VA = "0x1818D8900")]
 	private static void Write(string area, string detail)
 	{
 	}
 
-	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x3A5A7A0", Offset = "0x3A5A7A0", VA = "0x3A5A7A0")]
+	[Token(Token = "0x600030B")]
+	[Address(RVA = "0x18D8700", Offset = "0x18D6D00", VA = "0x1818D8700")]
 	private static bool IsHotLoop(string area)
 	{
 		return default(bool);

@@ -20,7 +20,7 @@ public class JsonWriterException : JsonException
 	public string? Path
 	{
 		[Token(Token = "0x60004C5")]
-		[Address(RVA = "0x3DA95C0", Offset = "0x3DA95C0", VA = "0x3DA95C0")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,44 +29,44 @@ public class JsonWriterException : JsonException
 	}
 
 	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x3DA95D0", Offset = "0x3DA95D0", VA = "0x3DA95D0")]
+	[Address(RVA = "0x1C2A390", Offset = "0x1C28990", VA = "0x181C2A390")]
 	public JsonWriterException()
 	{
 	}
 
 	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x3DA95E0", Offset = "0x3DA95E0", VA = "0x3DA95E0")]
+	[Address(RVA = "0x1C2A3A0", Offset = "0x1C289A0", VA = "0x181C2A3A0")]
 	public JsonWriterException(string message)
 	{
 	}
 
 	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x3DA95F0", Offset = "0x3DA95F0", VA = "0x3DA95F0")]
+	[Address(RVA = "0x1C2A340", Offset = "0x1C28940", VA = "0x181C2A340")]
 	public JsonWriterException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x60004C9")]
-	[Address(RVA = "0x3DA9600", Offset = "0x3DA9600", VA = "0x3DA9600")]
+	[Address(RVA = "0x1C2A320", Offset = "0x1C28920", VA = "0x181C2A320")]
 	public JsonWriterException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x60004CA")]
-	[Address(RVA = "0x3DA9610", Offset = "0x3DA9610", VA = "0x3DA9610")]
+	[Address(RVA = "0x1C2A350", Offset = "0x1C28950", VA = "0x181C2A350")]
 	public JsonWriterException(string message, string path, Exception? innerException)
 	{
 	}
 
 	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x3DA84C0", Offset = "0x3DA84C0", VA = "0x3DA84C0")]
+	[Address(RVA = "0x1C2A240", Offset = "0x1C28840", VA = "0x181C2A240")]
 	internal static JsonWriterException Create(JsonWriter writer, string message, Exception? ex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004CC")]
-	[Address(RVA = "0x3DA9650", Offset = "0x3DA9650", VA = "0x3DA9650")]
+	[Address(RVA = "0x1C2A190", Offset = "0x1C28790", VA = "0x181C2A190")]
 	internal static JsonWriterException Create(string path, string message, Exception? ex)
 	{
 		return null;

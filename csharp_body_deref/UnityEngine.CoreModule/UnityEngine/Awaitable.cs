@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Awaitable
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -20,317 +20,343 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200014C")]
+[Token(Token = "0x200017E")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Mono/DelayedCallAwaitable.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/AsyncOperationAwaitable.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/Awaitable.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Mono/DelayedCallAwaitable.h")]
 [AsyncMethodBuilder(typeof(AwaitableAsyncMethodBuilder))]
 public class Awaitable : IEnumerator
 {
-	[Token(Token = "0x200014D")]
+	[Token(Token = "0x200017F")]
+	internal enum AwaiterCompletionThreadAffinity
+	{
+		[Token(Token = "0x40005DF")]
+		None,
+		[Token(Token = "0x40005E0")]
+		MainThread,
+		[Token(Token = "0x40005E1")]
+		BackgroundThread
+	}
+
+	[Token(Token = "0x2000180")]
 	[ExcludeFromDocs]
 	public struct AwaitableAsyncMethodBuilder
 	{
-		[Token(Token = "0x200014E")]
+		[Token(Token = "0x2000181")]
 		private interface IStateMachineBox : IDisposable
 		{
 		}
 
-		[Token(Token = "0x4000553")]
+		[Token(Token = "0x40005E2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private IStateMachineBox _stateMachineBox;
 
-		[Token(Token = "0x4000554")]
+		[Token(Token = "0x40005E3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		private Awaitable _resultingCoroutine;
 	}
 
-	[Token(Token = "0x200014F")]
+	[Token(Token = "0x2000182")]
 	[ExcludeFromDocs]
 	public struct AwaitableAsyncMethodBuilder<T>
 	{
-		[Token(Token = "0x2000150")]
+		[Token(Token = "0x2000183")]
 		private interface IStateMachineBox : IDisposable
 		{
 		}
 
-		[Token(Token = "0x4000555")]
+		[Token(Token = "0x40005E4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private IStateMachineBox _stateMachineBox;
 
-		[Token(Token = "0x4000556")]
+		[Token(Token = "0x40005E5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private Awaitable<T> _resultingCoroutine;
 	}
 
-	[Token(Token = "0x2000151")]
+	[Token(Token = "0x2000184")]
 	[ExcludeFromDocs]
 	public struct Awaiter : INotifyCompletion
 	{
-		[Token(Token = "0x4000557")]
+		[Token(Token = "0x40005E6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly Awaitable _awaited;
 
-		[Token(Token = "0x170001BB")]
+		[Token(Token = "0x17000225")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60009B1")]
-			[Address(RVA = "0x4DF6220", Offset = "0x4DF6220", VA = "0x4DF6220")]
+			[Token(Token = "0x6000CEF")]
+			[Address(RVA = "0x2F12940", Offset = "0x2F10F40", VA = "0x182F12940")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60009AF")]
-		[Address(RVA = "0x4DF61F0", Offset = "0x4DF61F0", VA = "0x4DF61F0")]
+		[Token(Token = "0x6000CED")]
+		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
 		internal Awaiter(Awaitable awaited)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60009B0")]
-		[Address(RVA = "0x4DF6200", Offset = "0x4DF6200", VA = "0x4DF6200", Slot = "4")]
+		[Token(Token = "0x6000CEE")]
+		[Address(RVA = "0x2F12920", Offset = "0x2F10F20", VA = "0x182F12920", Slot = "4")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60009B2")]
-		[Address(RVA = "0x4DF6240", Offset = "0x4DF6240", VA = "0x4DF6240")]
+		[Token(Token = "0x6000CF0")]
+		[Address(RVA = "0x2F12900", Offset = "0x2F10F00", VA = "0x182F12900")]
 		public void GetResult()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000152")]
-	private class DoubleBufferedAwaitableList
-	{
-		[Token(Token = "0x4000558")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-		private List<Awaitable> _awaitables;
-
-		[Token(Token = "0x4000559")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
-		private List<Awaitable> _scratch;
-
-		[Token(Token = "0x60009B3")]
-		[Address(RVA = "0x4DF4930", Offset = "0x4DF4930", VA = "0x4DF4930")]
-		public void SwapAndComplete()
-		{
-		}
-
-		[Token(Token = "0x60009B4")]
-		[Address(RVA = "0x4DF4680", Offset = "0x4DF4680", VA = "0x4DF4680")]
-		public void Add(Awaitable item)
-		{
-		}
-
-		[Token(Token = "0x60009B5")]
-		[Address(RVA = "0x4DF4860", Offset = "0x4DF4860", VA = "0x4DF4860")]
-		public void Clear()
-		{
-		}
-
-		[Token(Token = "0x60009B6")]
-		[Address(RVA = "0x4DF6140", Offset = "0x4DF6140", VA = "0x4DF6140")]
-		public DoubleBufferedAwaitableList()
-		{
-		}
-	}
-
-	[Token(Token = "0x2000153")]
-	private struct ManagedLockWithSingleThreadBias
-	{
-		[Token(Token = "0x400055A")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private int _taken;
-
-		[Token(Token = "0x60009B7")]
-		[Address(RVA = "0x4DF40D0", Offset = "0x4DF40D0", VA = "0x4DF40D0")]
-		public void Acquire()
-		{
-		}
-
-		[Token(Token = "0x60009B8")]
-		[Address(RVA = "0x4DF6260", Offset = "0x4DF6260", VA = "0x4DF6260")]
-		public void Release()
-		{
-		}
-	}
-
-	[Token(Token = "0x2000154")]
-	internal struct ThreadSafeObjectPool<T> where T : class
-	{
-		[Token(Token = "0x400055B")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private readonly ObjectPool<T> _objectPool;
-
-		[Token(Token = "0x400055C")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private ManagedLockWithSingleThreadBias _spinLock;
-
-		[Token(Token = "0x60009B9")]
-		public ThreadSafeObjectPool(Func<T> factory, [Optional] Action<T> onDestroy)
-		{
-		}
-
-		[Token(Token = "0x60009BA")]
-		public T Get()
-		{
-			return null;
-		}
-
-		[Token(Token = "0x60009BB")]
-		public void Release(T element)
-		{
-		}
-	}
-
-	[Token(Token = "0x2000155")]
+	[Token(Token = "0x2000185")]
 	private readonly struct AwaitableHandle
 	{
-		[Token(Token = "0x400055D")]
+		[Token(Token = "0x40005E7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly IntPtr _handle;
 
-		[Token(Token = "0x400055E")]
+		[Token(Token = "0x40005E8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static AwaitableHandle ManagedHandle;
 
-		[Token(Token = "0x400055F")]
+		[Token(Token = "0x40005E9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public static AwaitableHandle NullHandle;
 
-		[Token(Token = "0x170001BC")]
+		[Token(Token = "0x17000226")]
 		public bool IsNull
 		{
-			[Token(Token = "0x60009BC")]
-			[Address(RVA = "0x4DF5720", Offset = "0x4DF5720", VA = "0x4DF5720")]
+			[Token(Token = "0x6000CF1")]
+			[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x170001BD")]
+		[Token(Token = "0x17000227")]
 		public bool IsManaged
 		{
-			[Token(Token = "0x60009BD")]
-			[Address(RVA = "0x4DF56C0", Offset = "0x4DF56C0", VA = "0x4DF56C0")]
+			[Token(Token = "0x6000CF2")]
+			[Address(RVA = "0x2F0FE40", Offset = "0x2F0E440", VA = "0x182F0FE40")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60009BE")]
-		[Address(RVA = "0x4DF6280", Offset = "0x4DF6280", VA = "0x4DF6280")]
+		[Token(Token = "0x6000CF3")]
+		[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
 		public AwaitableHandle(IntPtr handle)
 		{
 		}
 
-		[Token(Token = "0x60009BF")]
-		[Address(RVA = "0x4DF6290", Offset = "0x4DF6290", VA = "0x4DF6290")]
+		[Token(Token = "0x6000CF4")]
+		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 		public static implicit operator IntPtr(AwaitableHandle handle)
 		{
 			return default(IntPtr);
 		}
 
-		[Token(Token = "0x60009C0")]
-		[Address(RVA = "0x4DF4E30", Offset = "0x4DF4E30", VA = "0x4DF4E30")]
+		[Token(Token = "0x6000CF5")]
+		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 		public static implicit operator AwaitableHandle(IntPtr handle)
 		{
 			return default(AwaitableHandle);
 		}
 	}
 
-	[Token(Token = "0x4000547")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-	private static bool _nextFrameAndEndOfFrameWiredUp;
+	[Token(Token = "0x2000186")]
+	private struct AwaitableAndFrameIndex
+	{
+		[Token(Token = "0x17000228")]
+		public readonly Awaitable Awaitable
+		{
+			[Token(Token = "0x6000CF7")]
+			[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
+			[CompilerGenerated]
+			get
+			{
+				return null;
+			}
+		}
 
-	[Token(Token = "0x4000548")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
-	private static CancellationTokenRegistration _nextFrameAndEndOfFrameWiredUpCTRegistration;
+		[Token(Token = "0x17000229")]
+		public readonly int FrameIndex
+		{
+			[Token(Token = "0x6000CF8")]
+			[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+			[CompilerGenerated]
+			get
+			{
+				return default(int);
+			}
+		}
 
-	[Token(Token = "0x4000549")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
-	private static readonly DoubleBufferedAwaitableList _nextFrameAwaitables;
+		[Token(Token = "0x6000CF9")]
+		[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
+		public AwaitableAndFrameIndex(Awaitable awaitable, int frameIndex)
+		{
+		}
+	}
 
-	[Token(Token = "0x400054A")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
-	private static readonly DoubleBufferedAwaitableList _endOfFrameAwaitables;
+	[Token(Token = "0x2000187")]
+	private class DoubleBufferedAwaitableList
+	{
+		[Token(Token = "0x40005EC")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		private List<AwaitableAndFrameIndex> _awaitables;
 
-	[Token(Token = "0x400054B")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
-	private static SynchronizationContext _synchronizationContext;
+		[Token(Token = "0x40005ED")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+		private List<AwaitableAndFrameIndex> _scratch;
 
-	[Token(Token = "0x400054C")]
+		[Token(Token = "0x6000CFA")]
+		[Address(RVA = "0x2F16BB0", Offset = "0x2F151B0", VA = "0x182F16BB0")]
+		public void SwapAndComplete()
+		{
+		}
+
+		[Token(Token = "0x6000CFB")]
+		[Address(RVA = "0x2F16970", Offset = "0x2F14F70", VA = "0x182F16970")]
+		public void Add(Awaitable item, int frameIndex)
+		{
+		}
+
+		[Token(Token = "0x6000CFC")]
+		[Address(RVA = "0x2F16AD0", Offset = "0x2F150D0", VA = "0x182F16AD0")]
+		public void Remove(Awaitable item)
+		{
+		}
+
+		[Token(Token = "0x6000CFD")]
+		[Address(RVA = "0x2F16A70", Offset = "0x2F15070", VA = "0x182F16A70")]
+		public void Clear()
+		{
+		}
+
+		[Token(Token = "0x6000CFE")]
+		[Address(RVA = "0x2F16E30", Offset = "0x2F15430", VA = "0x182F16E30")]
+		public DoubleBufferedAwaitableList()
+		{
+		}
+	}
+
+	[Token(Token = "0x40005CF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-	private readonly ManagedLockWithSingleThreadBias _spinLock;
+	private SpinLock _spinLock;
 
-	[Token(Token = "0x400054D")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
-	private static readonly ThreadSafeObjectPool<Awaitable> _pool;
+	[Token(Token = "0x40005D0")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	private static readonly ThreadLocal<ObjectPool<Awaitable>> _pool;
 
-	[Token(Token = "0x400054E")]
+	[Token(Token = "0x40005D1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private AwaitableHandle _handle;
 
-	[Token(Token = "0x400054F")]
+	[Token(Token = "0x40005D2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private ExceptionDispatchInfo _exceptionToRethrow;
 
-	[Token(Token = "0x4000550")]
+	[Token(Token = "0x40005D3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private bool _managedAwaitableDone;
 
-	[Token(Token = "0x4000551")]
+	[Token(Token = "0x40005D4")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
+	private AwaiterCompletionThreadAffinity _completionThreadAffinity;
+
+	[Token(Token = "0x40005D5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private Action _continuation;
 
-	[Token(Token = "0x4000552")]
+	[Token(Token = "0x40005D6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private CancellationTokenRegistration? _cancelTokenRegistration;
 
-	[Token(Token = "0x170001B7")]
+	[Token(Token = "0x40005D7")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
+	private DoubleBufferedAwaitableList _managedCompletionQueue;
+
+	[Token(Token = "0x40005D8")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	private static bool _nextFrameAndEndOfFrameWiredUp;
+
+	[Token(Token = "0x40005D9")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	private static CancellationTokenRegistration _nextFrameAndEndOfFrameWiredUpCTRegistration;
+
+	[Token(Token = "0x40005DA")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
+	private static readonly DoubleBufferedAwaitableList _nextFrameAwaitables;
+
+	[Token(Token = "0x40005DB")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	private static readonly DoubleBufferedAwaitableList _endOfFrameAwaitables;
+
+	[Token(Token = "0x40005DC")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	private static SynchronizationContext _synchronizationContext;
+
+	[Token(Token = "0x40005DD")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	private static int _mainThreadId;
+
+	[Token(Token = "0x17000220")]
 	private bool IsCompletedNoLock
 	{
-		[Token(Token = "0x60009A6")]
-		[Address(RVA = "0x4DF5900", Offset = "0x4DF5900", VA = "0x4DF5900")]
+		[Token(Token = "0x6000CDB")]
+		[Address(RVA = "0x2F122C0", Offset = "0x2F108C0", VA = "0x182F122C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001B8")]
+	[Token(Token = "0x17000221")]
+	private bool IsLogicallyCompletedNoLock
+	{
+		[Token(Token = "0x6000CDC")]
+		[Address(RVA = "0x2F127F0", Offset = "0x2F10DF0", VA = "0x182F127F0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000222")]
 	public bool IsCompleted
 	{
-		[Token(Token = "0x60009A7")]
-		[Address(RVA = "0x4DF5AC0", Offset = "0x4DF5AC0", VA = "0x4DF5AC0")]
+		[Token(Token = "0x6000CDD")]
+		[Address(RVA = "0x2F12400", Offset = "0x2F10A00", VA = "0x182F12400")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001B9")]
+	[Token(Token = "0x17000223")]
 	internal bool IsDettachedOrCompleted
 	{
-		[Token(Token = "0x60009A8")]
-		[Address(RVA = "0x4DF5B70", Offset = "0x4DF5B70", VA = "0x4DF5B70")]
+		[Token(Token = "0x6000CDE")]
+		[Address(RVA = "0x2F125F0", Offset = "0x2F10BF0", VA = "0x182F125F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001BA")]
+	[Token(Token = "0x17000224")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x60009AD")]
-		[Address(RVA = "0x4DF5FB0", Offset = "0x4DF5FB0", VA = "0x4DF5FB0", Slot = "5")]
+		[Token(Token = "0x6000CE3")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 		get
 		{
 			return null;
@@ -338,263 +364,290 @@ public class Awaitable : IEnumerator
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600098E")]
-	[Address(RVA = "0x4DF3EE0", Offset = "0x4DF3EE0", VA = "0x4DF3EE0")]
+	[Token(Token = "0x6000CC7")]
+	[Address(RVA = "0x2F108B0", Offset = "0x2F0EEB0", VA = "0x182F108B0")]
 	public static Awaitable FromAsyncOperation(AsyncOperation op, [Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600098F")]
-	[Address(RVA = "0x4DF3FB0", Offset = "0x4DF3FB0", VA = "0x4DF3FB0")]
+	[Token(Token = "0x6000CC8")]
+	[Address(RVA = "0x2F10870", Offset = "0x2F0EE70", VA = "0x182F10870")]
 	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::FromAsyncOperation", ThrowsException = true)]
 	private static extern IntPtr FromAsyncOperationInternal(IntPtr asyncOperation);
 
-	[Token(Token = "0x6000990")]
-	[Address(RVA = "0x4DF3FE0", Offset = "0x4DF3FE0", VA = "0x4DF3FE0")]
+	[Token(Token = "0x6000CC9")]
+	[Address(RVA = "0x1BB49C0", Offset = "0x1BB2FC0", VA = "0x181BB49C0")]
 	[ExcludeFromDocs]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);
 	}
 
-	[Token(Token = "0x6000991")]
-	[Address(RVA = "0x4DF4000", Offset = "0x4DF4000", VA = "0x4DF4000")]
+	[Token(Token = "0x6000CCA")]
+	[Address(RVA = "0x2F11AE0", Offset = "0x2F100E0", VA = "0x182F11AE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private void SetExceptionFromNative(Exception ex)
 	{
 	}
 
-	[Token(Token = "0x6000992")]
-	[Address(RVA = "0x4DF4190", Offset = "0x4DF4190", VA = "0x4DF4190")]
+	[Token(Token = "0x6000CCB")]
+	[Address(RVA = "0x2F11650", Offset = "0x2F0FC50", VA = "0x182F11650")]
 	[UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 	private void RunContinuation()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000993")]
-	[Address(RVA = "0x4DF4260", Offset = "0x4DF4260", VA = "0x4DF4260")]
+	[Token(Token = "0x6000CCC")]
+	[Address(RVA = "0x2F0FEA0", Offset = "0x2F0E4A0", VA = "0x182F0FEA0")]
 	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::AttachManagedWrapper", IsThreadSafe = true)]
 	private static extern void AttachManagedGCHandleToNativeAwaitable(IntPtr nativeAwaitable, UIntPtr gcHandle);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000994")]
-	[Address(RVA = "0x4DF42A0", Offset = "0x4DF42A0", VA = "0x4DF42A0")]
+	[Token(Token = "0x6000CCD")]
+	[Address(RVA = "0x2F11610", Offset = "0x2F0FC10", VA = "0x182F11610")]
 	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::Release", IsThreadSafe = true)]
 	private static extern void ReleaseNativeAwaitable(IntPtr nativeAwaitable);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000995")]
-	[Address(RVA = "0x4DF42D0", Offset = "0x4DF42D0", VA = "0x4DF42D0")]
+	[Token(Token = "0x6000CCE")]
+	[Address(RVA = "0x2F0FEF0", Offset = "0x2F0E4F0", VA = "0x182F0FEF0")]
 	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::Cancel", IsThreadSafe = true)]
 	private static extern void CancelNativeAwaitable(IntPtr nativeAwaitable);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000996")]
-	[Address(RVA = "0x4DF4300", Offset = "0x4DF4300", VA = "0x4DF4300")]
+	[Token(Token = "0x6000CCF")]
+	[Address(RVA = "0x2F10B10", Offset = "0x2F0F110", VA = "0x182F10B10")]
 	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::IsCompleted", IsThreadSafe = true)]
 	private static extern int IsNativeAwaitableCompleted(IntPtr nativeAwaitable);
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000997")]
-	[Address(RVA = "0x4DF4330", Offset = "0x4DF4330", VA = "0x4DF4330")]
-	public static Awaitable EndOfFrameAsync([Optional] CancellationToken cancellationToken)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000998")]
-	[Address(RVA = "0x4DF4410", Offset = "0x4DF4410", VA = "0x4DF4410")]
-	private static void EnsureDelayedCallWiredUp()
-	{
-	}
-
-	[Token(Token = "0x6000999")]
-	[Address(RVA = "0x4DF4750", Offset = "0x4DF4750", VA = "0x4DF4750")]
-	[UnityEngine.Scripting.RequiredByNativeCode]
-	private static void OnDelayedCallManagerCleared()
-	{
-	}
-
-	[Token(Token = "0x600099A")]
-	[Address(RVA = "0x4DF48B0", Offset = "0x4DF48B0", VA = "0x4DF48B0")]
-	[UnityEngine.Scripting.RequiredByNativeCode]
-	private static void OnUpdate()
-	{
-	}
-
-	[Token(Token = "0x600099B")]
-	[Address(RVA = "0x4DF4BC0", Offset = "0x4DF4BC0", VA = "0x4DF4BC0")]
-	[UnityEngine.Scripting.RequiredByNativeCode]
-	private static void OnEndOfFrame()
-	{
-	}
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600099C")]
-	[Address(RVA = "0x4DF4720", Offset = "0x4DF4720", VA = "0x4DF4720")]
-	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::WireupNextFrameAndEndOfFrameCallbacks")]
-	private static extern void WireupNextFrameAndEndOfFrameCallbacks();
-
-	[Token(Token = "0x600099D")]
-	[Address(RVA = "0x4DF4C40", Offset = "0x4DF4C40", VA = "0x4DF4C40")]
-	internal static void SetSynchronizationContext(SynchronizationContext synchronizationContext)
-	{
-	}
-
-	[Token(Token = "0x600099E")]
-	[Address(RVA = "0x4DF4CA0", Offset = "0x4DF4CA0", VA = "0x4DF4CA0")]
+	[Token(Token = "0x6000CD0")]
+	[Address(RVA = "0x2F122B0", Offset = "0x2F108B0", VA = "0x182F122B0")]
 	private Awaitable()
 	{
 	}
 
-	[Token(Token = "0x600099F")]
-	[Address(RVA = "0x4DF45C0", Offset = "0x4DF45C0", VA = "0x4DF45C0")]
+	[Token(Token = "0x6000CD1")]
+	[Address(RVA = "0x2F10C20", Offset = "0x2F0F220", VA = "0x182F10C20")]
 	internal static Awaitable NewManagedAwaitable()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009A0")]
-	[Address(RVA = "0x4DF4CB0", Offset = "0x4DF4CB0", VA = "0x4DF4CB0")]
+	[Token(Token = "0x6000CD2")]
+	[Address(RVA = "0x2F10970", Offset = "0x2F0EF70", VA = "0x182F10970")]
 	private static Awaitable FromNativeAwaitableHandle(IntPtr nativeHandle, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009A1")]
-	[Address(RVA = "0x4DF4E40", Offset = "0x4DF4E40", VA = "0x4DF4E40")]
+	[Token(Token = "0x6000CD3")]
+	[Address(RVA = "0x2F11D50", Offset = "0x2F10350", VA = "0x182F11D50")]
 	private static void WireupCancellation(Awaitable awaitable, CancellationToken cancellationToken)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009A2")]
-	[Address(RVA = "0x4DF5110", Offset = "0x4DF5110", VA = "0x4DF5110")]
+	[Token(Token = "0x6000CD4")]
+	[Address(RVA = "0x2F10B50", Offset = "0x2F0F150", VA = "0x182F10B50")]
+	private static bool MatchCompletionThreadAffinity(AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity)
+	{
+		return default(bool);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000CD5")]
+	[Address(RVA = "0x2F114B0", Offset = "0x2F0FAB0", VA = "0x182F114B0")]
 	internal void RaiseManagedCompletion(Exception exception)
 	{
 	}
 
+	[Token(Token = "0x6000CD6")]
+	[Address(RVA = "0x2F11750", Offset = "0x2F0FD50", VA = "0x182F11750")]
+	private void RunOrScheduleContinuation(AwaiterCompletionThreadAffinity awaiterCompletionThreadAffinity, Action continuation)
+	{
+	}
+
+	[Token(Token = "0x6000CD7")]
+	[Address(RVA = "0x2F101E0", Offset = "0x2F0E7E0", VA = "0x182F101E0")]
+	private static void DoRunContinuationOnSynchonizationContext(object continuation)
+	{
+	}
+
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009A3")]
-	[Address(RVA = "0x4DF5230", Offset = "0x4DF5230", VA = "0x4DF5230")]
+	[Token(Token = "0x6000CD8")]
+	[Address(RVA = "0x2F11360", Offset = "0x2F0F960", VA = "0x182F11360")]
 	internal void RaiseManagedCompletion()
 	{
 	}
 
-	[Token(Token = "0x60009A4")]
-	[Address(RVA = "0x4DF5310", Offset = "0x4DF5310", VA = "0x4DF5310")]
+	[Token(Token = "0x6000CD9")]
+	[Address(RVA = "0x2F10EF0", Offset = "0x2F0F4F0", VA = "0x182F10EF0")]
 	internal void PropagateExceptionAndRelease()
 	{
 	}
 
-	[Token(Token = "0x60009A5")]
-	[Address(RVA = "0x4DF5730", Offset = "0x4DF5730", VA = "0x4DF5730")]
+	[Token(Token = "0x6000CDA")]
+	[Address(RVA = "0x2F0FF30", Offset = "0x2F0E530", VA = "0x182F0FF30")]
 	public void Cancel()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009A9")]
-	[Address(RVA = "0x4DF5DF0", Offset = "0x4DF5DF0", VA = "0x4DF5DF0")]
+	[Token(Token = "0x6000CDF")]
+	[Address(RVA = "0x2F10140", Offset = "0x2F0E740", VA = "0x182F10140")]
 	private AwaitableHandle CheckPointerValidity()
 	{
 		return default(AwaitableHandle);
 	}
 
-	[Token(Token = "0x60009AA")]
-	[Address(RVA = "0x4DF5E80", Offset = "0x4DF5E80", VA = "0x4DF5E80")]
+	[Token(Token = "0x6000CE0")]
+	[Address(RVA = "0x2F118B0", Offset = "0x2F0FEB0", VA = "0x182F118B0")]
 	internal void SetContinuation(Action continuation)
 	{
 	}
 
-	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x4DF5F80", Offset = "0x4DF5F80", VA = "0x4DF5F80", Slot = "4")]
+	[Token(Token = "0x6000CE1")]
+	[Address(RVA = "0x2F11C50", Offset = "0x2F10250", VA = "0x182F11C50", Slot = "4")]
 	private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x4DF5FA0", Offset = "0x4DF5FA0", VA = "0x4DF5FA0", Slot = "6")]
+	[Token(Token = "0x6000CE2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	private void System_002ECollections_002EIEnumerator_002EReset()
 	{
 	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000CE4")]
+	[Address(RVA = "0x2F11C80", Offset = "0x2F10280", VA = "0x182F11C80")]
+	private static void ThrowIfNotMainThread()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000CE5")]
+	[Address(RVA = "0x2F10240", Offset = "0x2F0E840", VA = "0x182F10240")]
+	public static Awaitable EndOfFrameAsync([Optional] CancellationToken cancellationToken)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000CE6")]
+	[Address(RVA = "0x2F106F0", Offset = "0x2F0ECF0", VA = "0x182F106F0")]
+	private static void EnsureDelayedCallWiredUp()
+	{
+	}
+
+	[Token(Token = "0x6000CE7")]
+	[Address(RVA = "0x2F10D00", Offset = "0x2F0F300", VA = "0x182F10D00")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	private static void OnDelayedCallManagerCleared()
+	{
+	}
+
+	[Token(Token = "0x6000CE8")]
+	[Address(RVA = "0x2F10E90", Offset = "0x2F0F490", VA = "0x182F10E90")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	private static void OnUpdate()
+	{
+	}
+
+	[Token(Token = "0x6000CE9")]
+	[Address(RVA = "0x2F10E30", Offset = "0x2F0F430", VA = "0x182F10E30")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	private static void OnEndOfFrame()
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000CEA")]
+	[Address(RVA = "0x2F120B0", Offset = "0x2F106B0", VA = "0x182F120B0")]
+	[UnityEngine.Bindings.FreeFunction("Scripting::Awaitables::WireupNextFrameAndEndOfFrameCallbacks")]
+	private static extern void WireupNextFrameAndEndOfFrameCallbacks();
+
+	[Token(Token = "0x6000CEB")]
+	[Address(RVA = "0x2F11BC0", Offset = "0x2F101C0", VA = "0x182F11BC0")]
+	internal static void SetSynchronizationContext(UnitySynchronizationContext synchronizationContext)
+	{
+	}
 }
-[Token(Token = "0x2000158")]
+[Token(Token = "0x200018B")]
 [AsyncMethodBuilder(typeof(Awaitable.AwaitableAsyncMethodBuilder<>))]
 public class Awaitable<T>
 {
-	[Token(Token = "0x2000159")]
+	[Token(Token = "0x200018C")]
 	[ExcludeFromDocs]
 	public struct Awaiter : INotifyCompletion
 	{
-		[Token(Token = "0x4000565")]
+		[Token(Token = "0x40005F5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly Awaitable<T> _coroutine;
 
-		[Token(Token = "0x170001BE")]
+		[Token(Token = "0x1700022A")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60009CE")]
+			[Token(Token = "0x6000D0E")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60009CC")]
+		[Token(Token = "0x6000D0C")]
 		public Awaiter(Awaitable<T> coroutine)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60009CD")]
+		[Token(Token = "0x6000D0D")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60009CF")]
+		[Token(Token = "0x6000D0F")]
 		public T GetResult()
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x4000562")]
+	[Token(Token = "0x40005F2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-	private static Awaitable.ThreadSafeObjectPool<Awaitable<T>> _pool;
+	private static readonly ThreadLocal<ObjectPool<Awaitable<T>>> _pool;
 
-	[Token(Token = "0x4000563")]
+	[Token(Token = "0x40005F3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private Awaitable _awaitable;
 
-	[Token(Token = "0x4000564")]
+	[Token(Token = "0x40005F4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private T _result;
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009C7")]
+	[Token(Token = "0x6000D07")]
 	private void ContinueWith(Action continuation)
 	{
 	}
 
-	[Token(Token = "0x60009C8")]
+	[Token(Token = "0x6000D08")]
 	private T GetResult()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60009C9")]
+	[Token(Token = "0x6000D09")]
 	private Awaitable()
 	{
 	}
 
-	[Token(Token = "0x60009CA")]
+	[Token(Token = "0x6000D0A")]
 	[ExcludeFromDocs]
 	public Awaiter GetAwaiter()
 	{

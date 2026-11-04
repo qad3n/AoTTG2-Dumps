@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001BB")]
+[Token(Token = "0x2000202")]
 [EventCategory(EventCategory.EnterLeaveWindow)]
 public class MouseLeaveWindowEvent : MouseEventBase<MouseLeaveWindowEvent>
 {
-	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x5034940", Offset = "0x5034940", VA = "0x5034940")]
+	[Token(Token = "0x6000DB5")]
+	[Address(RVA = "0x3268750", Offset = "0x3266D50", VA = "0x183268750")]
 	static MouseLeaveWindowEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x5034A10", Offset = "0x5034A10", VA = "0x5034A10", Slot = "13")]
+	[Token(Token = "0x6000DB6")]
+	[Address(RVA = "0x3268580", Offset = "0x3266B80", VA = "0x183268580", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000B95")]
-	[Address(RVA = "0x5034A50", Offset = "0x5034A50", VA = "0x5034A50")]
+	[Token(Token = "0x6000DB7")]
+	[Address(RVA = "0x32685F0", Offset = "0x3266BF0", VA = "0x1832685F0")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000B96")]
-	[Address(RVA = "0x5034A60", Offset = "0x5034A60", VA = "0x5034A60")]
+	[Token(Token = "0x6000DB8")]
+	[Address(RVA = "0x3268830", Offset = "0x3266E30", VA = "0x183268830")]
 	public MouseLeaveWindowEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B97")]
-	[Address(RVA = "0x5034AA0", Offset = "0x5034AA0", VA = "0x5034AA0")]
+	[Token(Token = "0x6000DB9")]
+	[Address(RVA = "0x3268470", Offset = "0x3266A70", VA = "0x183268470")]
 	public new static MouseLeaveWindowEvent GetPooled(Event systemEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B98")]
-	[Address(RVA = "0x5034C60", Offset = "0x5034C60", VA = "0x5034C60", Slot = "9")]
+	[Token(Token = "0x6000DBA")]
+	[Address(RVA = "0x3268640", Offset = "0x3266C40", VA = "0x183268640", Slot = "9")]
 	protected internal override void PostDispatch(IPanel panel)
 	{
 	}
 
-	[Token(Token = "0x6000B99")]
-	[Address(RVA = "0x5034E40", Offset = "0x5034E40", VA = "0x5034E40", Slot = "10")]
+	[Token(Token = "0x6000DBB")]
+	[Address(RVA = "0x3268310", Offset = "0x3266910", VA = "0x183268310", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

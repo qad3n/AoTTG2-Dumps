@@ -10,73 +10,73 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 internal static class CustomTypesUnity
 {
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000035")]
 	private const int SizeV2 = 8;
 
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000036")]
 	private const int SizeV3 = 12;
 
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000037")]
 	private const int SizeQuat = 16;
 
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000038")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly byte[] memVector3;
 
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly byte[] memVector2;
 
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly byte[] memQuarternion;
 
-	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x3EBB010", Offset = "0x3EBB010", VA = "0x3EBB010")]
+	[Token(Token = "0x6000026")]
+	[Address(RVA = "0x1D139C0", Offset = "0x1D11FC0", VA = "0x181D139C0")]
 	internal static void Register()
 	{
 	}
 
-	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x3EBB260", Offset = "0x3EBB260", VA = "0x3EBB260")]
+	[Token(Token = "0x6000027")]
+	[Address(RVA = "0x1D14090", Offset = "0x1D12690", VA = "0x181D14090")]
 	private static short SerializeVector3(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x3EBB4A0", Offset = "0x3EBB4A0", VA = "0x3EBB4A0")]
+	[Token(Token = "0x6000028")]
+	[Address(RVA = "0x1D13790", Offset = "0x1D11D90", VA = "0x181D13790")]
 	private static object DeserializeVector3(StreamBuffer inStream, short length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600002B")]
-	[Address(RVA = "0x3EBB710", Offset = "0x3EBB710", VA = "0x3EBB710")]
+	[Token(Token = "0x6000029")]
+	[Address(RVA = "0x1D13E70", Offset = "0x1D12470", VA = "0x181D13E70")]
 	private static short SerializeVector2(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x3EBB920", Offset = "0x3EBB920", VA = "0x3EBB920")]
+	[Token(Token = "0x600002A")]
+	[Address(RVA = "0x1D13580", Offset = "0x1D11B80", VA = "0x181D13580")]
 	private static object DeserializeVector2(StreamBuffer inStream, short length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3EBBB70", Offset = "0x3EBBB70", VA = "0x3EBBB70")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x1D13C00", Offset = "0x1D12200", VA = "0x181D13C00")]
 	private static short SerializeQuaternion(StreamBuffer outStream, object customobject)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3EBBDD0", Offset = "0x3EBBDD0", VA = "0x3EBBDD0")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x1D13300", Offset = "0x1D11900", VA = "0x181D13300")]
 	private static object DeserializeQuaternion(StreamBuffer inStream, short length)
 	{
 		return null;

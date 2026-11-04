@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000019")]
+[Token(Token = "0x2000017")]
 public enum Wrap
 {
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x4000082")]
 	NoWrap,
-	[Token(Token = "0x4000088")]
+	[Token(Token = "0x4000083")]
 	Wrap,
-	[Token(Token = "0x4000089")]
+	[Token(Token = "0x4000084")]
 	WrapReverse
 }

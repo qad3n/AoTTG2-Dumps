@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200003F")]
+[Token(Token = "0x200003D")]
 public struct ActivitySecrets
 {
-	[Token(Token = "0x40000BB")]
+	[Token(Token = "0x40000B6")]
 	[FieldOffset(Offset = "0x0")]
 	public string Match;
 
-	[Token(Token = "0x40000BC")]
+	[Token(Token = "0x40000B7")]
 	[FieldOffset(Offset = "0x8")]
 	public string Join;
 
-	[Token(Token = "0x40000BD")]
+	[Token(Token = "0x40000B8")]
 	[FieldOffset(Offset = "0x10")]
 	public string Spectate;
 }

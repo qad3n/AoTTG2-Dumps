@@ -10,12 +10,12 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.LowLevel.Unsafe;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x2000041")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public enum Priority
 {
-	[Token(Token = "0x400008F")]
+	[Token(Token = "0x40000BE")]
 	PriorityLow,
-	[Token(Token = "0x4000090")]
+	[Token(Token = "0x40000BF")]
 	PriorityHigh
 }

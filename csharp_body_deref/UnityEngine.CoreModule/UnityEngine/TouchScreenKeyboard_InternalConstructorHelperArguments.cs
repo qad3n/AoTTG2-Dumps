@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200019E")]
+[Token(Token = "0x20001DA")]
 internal struct TouchScreenKeyboard_InternalConstructorHelperArguments
 {
-	[Token(Token = "0x40005D0")]
+	[Token(Token = "0x400066D")]
 	[FieldOffset(Offset = "0x0")]
 	public uint keyboardType;
 
-	[Token(Token = "0x40005D1")]
+	[Token(Token = "0x400066E")]
 	[FieldOffset(Offset = "0x4")]
 	public uint autocorrection;
 
-	[Token(Token = "0x40005D2")]
+	[Token(Token = "0x400066F")]
 	[FieldOffset(Offset = "0x8")]
 	public uint multiline;
 
-	[Token(Token = "0x40005D3")]
+	[Token(Token = "0x4000670")]
 	[FieldOffset(Offset = "0xC")]
 	public uint secure;
 
-	[Token(Token = "0x40005D4")]
+	[Token(Token = "0x4000671")]
 	[FieldOffset(Offset = "0x10")]
 	public uint alert;
 
-	[Token(Token = "0x40005D5")]
+	[Token(Token = "0x4000672")]
 	[FieldOffset(Offset = "0x14")]
 	public int characterLimit;
 }

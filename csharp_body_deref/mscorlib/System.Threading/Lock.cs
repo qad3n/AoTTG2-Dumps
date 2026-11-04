@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x2000218")]
 public class Lock
 {
-	[Token(Token = "0x4000984")]
+	[Token(Token = "0x40009D7")]
 	[FieldOffset(Offset = "0x10")]
 	private object _lock;
 
-	[Token(Token = "0x60011F2")]
-	[Address(RVA = "0x3D2E100", Offset = "0x3D2E100", VA = "0x3D2E100")]
+	[Token(Token = "0x600124D")]
+	[Address(RVA = "0x1BA1580", Offset = "0x1B9FB80", VA = "0x181BA1580")]
 	public void Acquire()
 	{
 	}
 
-	[Token(Token = "0x60011F3")]
-	[Address(RVA = "0x3D2E130", Offset = "0x3D2E130", VA = "0x3D2E130")]
+	[Token(Token = "0x600124E")]
+	[Address(RVA = "0x1BA1590", Offset = "0x1B9FB90", VA = "0x181BA1590")]
 	public void Release()
 	{
 	}
 
-	[Token(Token = "0x60011F4")]
-	[Address(RVA = "0x3D2E160", Offset = "0x3D2E160", VA = "0x3D2E160")]
+	[Token(Token = "0x600124F")]
+	[Address(RVA = "0x1BA15A0", Offset = "0x1B9FBA0", VA = "0x181BA15A0")]
 	public Lock()
 	{
 	}

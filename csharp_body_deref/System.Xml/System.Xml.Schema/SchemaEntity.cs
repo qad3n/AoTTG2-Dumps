@@ -68,7 +68,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002EName
 	{
 		[Token(Token = "0x600139E")]
-		[Address(RVA = "0x46E9E90", Offset = "0x46E9E90", VA = "0x46E9E90", Slot = "4")]
+		[Address(RVA = "0x11282C0", Offset = "0x11268C0", VA = "0x1811282C0", Slot = "4")]
 		get
 		{
 			return null;
@@ -79,7 +79,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private bool System_002EXml_002EIDtdEntityInfo_002EIsExternal
 	{
 		[Token(Token = "0x600139F")]
-		[Address(RVA = "0x46E9EB0", Offset = "0x46E9EB0", VA = "0x46E9EB0", Slot = "5")]
+		[Address(RVA = "0x1AD8270", Offset = "0x1AD6870", VA = "0x181AD8270", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -90,7 +90,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private bool System_002EXml_002EIDtdEntityInfo_002EIsDeclaredInExternal
 	{
 		[Token(Token = "0x60013A0")]
-		[Address(RVA = "0x46E9EC0", Offset = "0x46E9EC0", VA = "0x46E9EC0", Slot = "6")]
+		[Address(RVA = "0x1AD8260", Offset = "0x1AD6860", VA = "0x181AD8260", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -101,7 +101,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private bool System_002EXml_002EIDtdEntityInfo_002EIsUnparsedEntity
 	{
 		[Token(Token = "0x60013A1")]
-		[Address(RVA = "0x46E9ED0", Offset = "0x46E9ED0", VA = "0x46E9ED0", Slot = "7")]
+		[Address(RVA = "0x264D5B0", Offset = "0x264BBB0", VA = "0x18264D5B0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -112,7 +112,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private bool System_002EXml_002EIDtdEntityInfo_002EIsParameterEntity
 	{
 		[Token(Token = "0x60013A2")]
-		[Address(RVA = "0x46E9EF0", Offset = "0x46E9EF0", VA = "0x46E9EF0", Slot = "8")]
+		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -123,7 +123,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002EBaseUriString
 	{
 		[Token(Token = "0x60013A3")]
-		[Address(RVA = "0x46E9F00", Offset = "0x46E9F00", VA = "0x46E9F00", Slot = "9")]
+		[Address(RVA = "0x264D570", Offset = "0x264BB70", VA = "0x18264D570", Slot = "9")]
 		get
 		{
 			return null;
@@ -134,7 +134,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002EDeclaredUriString
 	{
 		[Token(Token = "0x60013A4")]
-		[Address(RVA = "0x46E9F60", Offset = "0x46E9F60", VA = "0x46E9F60", Slot = "10")]
+		[Address(RVA = "0x264D590", Offset = "0x264BB90", VA = "0x18264D590", Slot = "10")]
 		get
 		{
 			return null;
@@ -145,7 +145,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002ESystemId
 	{
 		[Token(Token = "0x60013A5")]
-		[Address(RVA = "0x46E9FC0", Offset = "0x46E9FC0", VA = "0x46E9FC0", Slot = "11")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "11")]
 		get
 		{
 			return null;
@@ -156,7 +156,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002EPublicId
 	{
 		[Token(Token = "0x60013A6")]
-		[Address(RVA = "0x46E9FD0", Offset = "0x46E9FD0", VA = "0x46E9FD0", Slot = "12")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "12")]
 		get
 		{
 			return null;
@@ -167,7 +167,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private string System_002EXml_002EIDtdEntityInfo_002EText
 	{
 		[Token(Token = "0x60013A7")]
-		[Address(RVA = "0x46E9FE0", Offset = "0x46E9FE0", VA = "0x46E9FE0", Slot = "13")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "13")]
 		get
 		{
 			return null;
@@ -178,7 +178,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private int System_002EXml_002EIDtdEntityInfo_002ELineNumber
 	{
 		[Token(Token = "0x60013A8")]
-		[Address(RVA = "0x46E9FF0", Offset = "0x46E9FF0", VA = "0x46E9FF0", Slot = "14")]
+		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0", Slot = "14")]
 		get
 		{
 			return default(int);
@@ -189,7 +189,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	private int System_002EXml_002EIDtdEntityInfo_002ELinePosition
 	{
 		[Token(Token = "0x60013A9")]
-		[Address(RVA = "0x46EA000", Offset = "0x46EA000", VA = "0x46EA000", Slot = "15")]
+		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0", Slot = "15")]
 		get
 		{
 			return default(int);
@@ -200,7 +200,7 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal XmlQualifiedName Name
 	{
 		[Token(Token = "0x60013AB")]
-		[Address(RVA = "0x46EA0E0", Offset = "0x46EA0E0", VA = "0x46EA0E0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -211,13 +211,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal string Url
 	{
 		[Token(Token = "0x60013AC")]
-		[Address(RVA = "0x46EA0F0", Offset = "0x46EA0F0", VA = "0x46EA0F0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013AD")]
-		[Address(RVA = "0x46EA100", Offset = "0x46EA100", VA = "0x46EA100")]
+		[Address(RVA = "0x264D6A0", Offset = "0x264BCA0", VA = "0x18264D6A0")]
 		set
 		{
 		}
@@ -227,13 +227,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal string Pubid
 	{
 		[Token(Token = "0x60013AE")]
-		[Address(RVA = "0x46EA120", Offset = "0x46EA120", VA = "0x46EA120")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013AF")]
-		[Address(RVA = "0x46EA130", Offset = "0x46EA130", VA = "0x46EA130")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
@@ -243,13 +243,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal bool IsExternal
 	{
 		[Token(Token = "0x60013B0")]
-		[Address(RVA = "0x46EA140", Offset = "0x46EA140", VA = "0x46EA140")]
+		[Address(RVA = "0x1AD8270", Offset = "0x1AD6870", VA = "0x181AD8270")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013B1")]
-		[Address(RVA = "0x46EA150", Offset = "0x46EA150", VA = "0x46EA150")]
+		[Address(RVA = "0x1D263A0", Offset = "0x1D249A0", VA = "0x181D263A0")]
 		set
 		{
 		}
@@ -259,13 +259,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal bool DeclaredInExternal
 	{
 		[Token(Token = "0x60013B2")]
-		[Address(RVA = "0x46EA160", Offset = "0x46EA160", VA = "0x46EA160")]
+		[Address(RVA = "0x1AD8260", Offset = "0x1AD6860", VA = "0x181AD8260")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013B3")]
-		[Address(RVA = "0x46EA170", Offset = "0x46EA170", VA = "0x46EA170")]
+		[Address(RVA = "0x1D26380", Offset = "0x1D24980", VA = "0x181D26380")]
 		set
 		{
 		}
@@ -275,13 +275,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal XmlQualifiedName NData
 	{
 		[Token(Token = "0x60013B4")]
-		[Address(RVA = "0x46EA180", Offset = "0x46EA180", VA = "0x46EA180")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013B5")]
-		[Address(RVA = "0x46EA190", Offset = "0x46EA190", VA = "0x46EA190")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		set
 		{
 		}
@@ -291,13 +291,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal string Text
 	{
 		[Token(Token = "0x60013B6")]
-		[Address(RVA = "0x46EA1A0", Offset = "0x46EA1A0", VA = "0x46EA1A0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013B7")]
-		[Address(RVA = "0x46EA1B0", Offset = "0x46EA1B0", VA = "0x46EA1B0")]
+		[Address(RVA = "0x264D680", Offset = "0x264BC80", VA = "0x18264D680")]
 		set
 		{
 		}
@@ -307,13 +307,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal int Line
 	{
 		[Token(Token = "0x60013B8")]
-		[Address(RVA = "0x46EA1D0", Offset = "0x46EA1D0", VA = "0x46EA1D0")]
+		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60013B9")]
-		[Address(RVA = "0x46EA1E0", Offset = "0x46EA1E0", VA = "0x46EA1E0")]
+		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
 		set
 		{
 		}
@@ -323,13 +323,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal int Pos
 	{
 		[Token(Token = "0x60013BA")]
-		[Address(RVA = "0x46EA1F0", Offset = "0x46EA1F0", VA = "0x46EA1F0")]
+		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60013BB")]
-		[Address(RVA = "0x46EA200", Offset = "0x46EA200", VA = "0x46EA200")]
+		[Address(RVA = "0x1CFE070", Offset = "0x1CFC670", VA = "0x181CFE070")]
 		set
 		{
 		}
@@ -339,13 +339,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal string BaseURI
 	{
 		[Token(Token = "0x60013BC")]
-		[Address(RVA = "0x46E9F30", Offset = "0x46E9F30", VA = "0x46E9F30")]
+		[Address(RVA = "0x264D570", Offset = "0x264BB70", VA = "0x18264D570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013BD")]
-		[Address(RVA = "0x46EA210", Offset = "0x46EA210", VA = "0x46EA210")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		set
 		{
 		}
@@ -355,13 +355,13 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal bool ParsingInProgress
 	{
 		[Token(Token = "0x60013BE")]
-		[Address(RVA = "0x46EA220", Offset = "0x46EA220", VA = "0x46EA220")]
+		[Address(RVA = "0x1D26370", Offset = "0x1D24970", VA = "0x181D26370")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60013BF")]
-		[Address(RVA = "0x46EA230", Offset = "0x46EA230", VA = "0x46EA230")]
+		[Address(RVA = "0x1D26390", Offset = "0x1D24990", VA = "0x181D26390")]
 		set
 		{
 		}
@@ -371,26 +371,26 @@ internal sealed class SchemaEntity : IDtdEntityInfo
 	internal string DeclaredURI
 	{
 		[Token(Token = "0x60013C0")]
-		[Address(RVA = "0x46E9F90", Offset = "0x46E9F90", VA = "0x46E9F90")]
+		[Address(RVA = "0x264D590", Offset = "0x264BB90", VA = "0x18264D590")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60013C1")]
-		[Address(RVA = "0x46EA240", Offset = "0x46EA240", VA = "0x46EA240")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600139D")]
-	[Address(RVA = "0x46E9E00", Offset = "0x46E9E00", VA = "0x46E9E00")]
+	[Address(RVA = "0x264D5E0", Offset = "0x264BBE0", VA = "0x18264D5E0")]
 	internal SchemaEntity(XmlQualifiedName qname, bool isParameter)
 	{
 	}
 
 	[Token(Token = "0x60013AA")]
-	[Address(RVA = "0x46EA010", Offset = "0x46EA010", VA = "0x46EA010")]
+	[Address(RVA = "0x264D4A0", Offset = "0x264BAA0", VA = "0x18264D4A0")]
 	internal static bool IsPredefinedEntity(string n)
 	{
 		return default(bool);

@@ -49,7 +49,7 @@ internal abstract class ReflectionDelegateFactory
 	public abstract Action<T, object> CreateSet<T>(PropertyInfo propertyInfo) where T : notnull;
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x3DBFE30", Offset = "0x3DBFE30", VA = "0x3DBFE30")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ReflectionDelegateFactory()
 	{
 	}

@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000176")]
+[Token(Token = "0x20001AB")]
 public struct RangeInt
 {
-	[Token(Token = "0x4000595")]
+	[Token(Token = "0x4000628")]
 	[FieldOffset(Offset = "0x0")]
 	public int start;
 
-	[Token(Token = "0x4000596")]
+	[Token(Token = "0x4000629")]
 	[FieldOffset(Offset = "0x4")]
 	public int length;
 
-	[Token(Token = "0x170001D7")]
+	[Token(Token = "0x17000245")]
 	public int end
 	{
-		[Token(Token = "0x6000AC6")]
-		[Address(RVA = "0x4DFE640", Offset = "0x4DFE640", VA = "0x4DFE640")]
+		[Token(Token = "0x6000E1D")]
+		[Address(RVA = "0x2BF0780", Offset = "0x2BEED80", VA = "0x182BF0780")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x4DFE650", Offset = "0x4DFE650", VA = "0x4DFE650")]
+	[Token(Token = "0x6000E1E")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	public RangeInt(int start, int length)
 	{
 	}

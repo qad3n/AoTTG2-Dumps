@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x200058F")]
+[Token(Token = "0x2000701")]
 internal class SkillTooltipPopup : TooltipPopup
 {
-	[Token(Token = "0x17000AF7")]
+	[Token(Token = "0x17000C4E")]
 	protected override string TextColor
 	{
-		[Token(Token = "0x60039A1")]
-		[Address(RVA = "0x4255F30", Offset = "0x4255F30", VA = "0x4255F30", Slot = "59")]
+		[Token(Token = "0x60044CC")]
+		[Address(RVA = "0x21E4850", Offset = "0x21E2E50", VA = "0x1821E4850", Slot = "62")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000AF8")]
+	[Token(Token = "0x17000C4F")]
 	protected override string BackgroundColor
 	{
-		[Token(Token = "0x60039A2")]
-		[Address(RVA = "0x4255F60", Offset = "0x4255F60", VA = "0x4255F60", Slot = "60")]
+		[Token(Token = "0x60044CD")]
+		[Address(RVA = "0x21E4820", Offset = "0x21E2E20", VA = "0x1821E4820", Slot = "63")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60039A3")]
-	[Address(RVA = "0x4255F90", Offset = "0x4255F90", VA = "0x4255F90")]
+	[Token(Token = "0x60044CE")]
+	[Address(RVA = "0x21E47D0", Offset = "0x21E2DD0", VA = "0x1821E47D0")]
 	public SkillTooltipPopup()
 	{
 	}

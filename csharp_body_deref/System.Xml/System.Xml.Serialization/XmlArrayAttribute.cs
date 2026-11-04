@@ -39,7 +39,7 @@ public class XmlArrayAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D0A")]
-		[Address(RVA = "0x4810FF0", Offset = "0x4810FF0", VA = "0x4810FF0")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -50,7 +50,7 @@ public class XmlArrayAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D0B")]
-		[Address(RVA = "0x4811020", Offset = "0x4811020", VA = "0x4811020")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -61,7 +61,7 @@ public class XmlArrayAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D0C")]
-		[Address(RVA = "0x4811030", Offset = "0x4811030", VA = "0x4811030")]
+		[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
 		get
 		{
 			return default(bool);
@@ -72,7 +72,7 @@ public class XmlArrayAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D0D")]
-		[Address(RVA = "0x4811040", Offset = "0x4811040", VA = "0x4811040")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -83,7 +83,7 @@ public class XmlArrayAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D0E")]
-		[Address(RVA = "0x4811050", Offset = "0x4811050", VA = "0x4811050")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		get
 		{
 			return default(int);
@@ -91,7 +91,7 @@ public class XmlArrayAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D0F")]
-	[Address(RVA = "0x4811060", Offset = "0x4811060", VA = "0x4811060")]
+	[Address(RVA = "0x275A320", Offset = "0x2758920", VA = "0x18275A320")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

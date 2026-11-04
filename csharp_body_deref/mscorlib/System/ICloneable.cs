@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000CB")]
+[Token(Token = "0x20000F3")]
 public interface ICloneable
 {
-	[Token(Token = "0x6000795")]
+	[Token(Token = "0x60007C7")]
 	object Clone();
 }

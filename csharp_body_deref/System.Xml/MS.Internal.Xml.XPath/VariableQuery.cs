@@ -22,7 +22,7 @@ internal sealed class VariableQuery : ExtensionQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001BF6")]
-		[Address(RVA = "0x4789980", Offset = "0x4789980", VA = "0x4789980", Slot = "16")]
+		[Address(RVA = "0x26D3EC0", Offset = "0x26D24C0", VA = "0x1826D3EC0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -30,32 +30,32 @@ internal sealed class VariableQuery : ExtensionQuery
 	}
 
 	[Token(Token = "0x6001BF2")]
-	[Address(RVA = "0x47862F0", Offset = "0x47862F0", VA = "0x47862F0")]
+	[Address(RVA = "0x26D3E60", Offset = "0x26D2460", VA = "0x1826D3E60")]
 	public VariableQuery(string name, string prefix)
 	{
 	}
 
 	[Token(Token = "0x6001BF3")]
-	[Address(RVA = "0x4789780", Offset = "0x4789780", VA = "0x4789780")]
+	[Address(RVA = "0x26D3E80", Offset = "0x26D2480", VA = "0x1826D3E80")]
 	private VariableQuery(VariableQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001BF4")]
-	[Address(RVA = "0x47897C0", Offset = "0x47897C0", VA = "0x47897C0", Slot = "13")]
+	[Address(RVA = "0x26D3D80", Offset = "0x26D2380", VA = "0x1826D3D80", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001BF5")]
-	[Address(RVA = "0x4789880", Offset = "0x4789880", VA = "0x4789880", Slot = "14")]
+	[Address(RVA = "0x26D3C60", Offset = "0x26D2260", VA = "0x1826D3C60", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BF7")]
-	[Address(RVA = "0x4789A60", Offset = "0x4789A60", VA = "0x4789A60", Slot = "6")]
+	[Address(RVA = "0x26D3BF0", Offset = "0x26D21F0", VA = "0x1826D3BF0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000105")]
+[Token(Token = "0x200012D")]
 public delegate Assembly ResolveEventHandler(object sender, ResolveEventArgs args);

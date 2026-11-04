@@ -52,27 +52,27 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 		public string ns;
 
 		[Token(Token = "0x60014DB")]
-		[Address(RVA = "0x471AC60", Offset = "0x471AC60", VA = "0x471AC60")]
+		[Address(RVA = "0x2655830", Offset = "0x2653E30", VA = "0x182655830")]
 		public NamespacePrefixForQName(string prefix, string ns)
 		{
 		}
 
 		[Token(Token = "0x60014DC")]
-		[Address(RVA = "0x471BA70", Offset = "0x471BA70", VA = "0x471BA70", Slot = "5")]
+		[Address(RVA = "0x26557C0", Offset = "0x2653DC0", VA = "0x1826557C0", Slot = "5")]
 		public string LookupNamespace(string prefix)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60014DD")]
-		[Address(RVA = "0x471BAA0", Offset = "0x471BAA0", VA = "0x471BAA0", Slot = "6")]
+		[Address(RVA = "0x2655800", Offset = "0x2653E00", VA = "0x182655800", Slot = "6")]
 		public string LookupPrefix(string namespaceName)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x60014DE")]
-		[Address(RVA = "0x471BAD0", Offset = "0x471BAD0", VA = "0x471BAD0", Slot = "4")]
+		[Address(RVA = "0x2655720", Offset = "0x2653D20", VA = "0x182655720", Slot = "4")]
 		public IDictionary<string, string> GetNamespacesInScope(XmlNamespaceScope scope)
 		{
 			return null;
@@ -103,7 +103,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override XmlSchemaType XmlType
 	{
 		[Token(Token = "0x60014CF")]
-		[Address(RVA = "0x471AFD0", Offset = "0x471AFD0", VA = "0x471AFD0", Slot = "4")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		get
 		{
 			return null;
@@ -114,7 +114,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override Type ValueType
 	{
 		[Token(Token = "0x60014D0")]
-		[Address(RVA = "0x471AFE0", Offset = "0x471AFE0", VA = "0x471AFE0", Slot = "7")]
+		[Address(RVA = "0x2665350", Offset = "0x2663950", VA = "0x182665350", Slot = "7")]
 		get
 		{
 			return null;
@@ -125,7 +125,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override object TypedValue
 	{
 		[Token(Token = "0x60014D1")]
-		[Address(RVA = "0x471B010", Offset = "0x471B010", VA = "0x471B010", Slot = "6")]
+		[Address(RVA = "0x2664C60", Offset = "0x2663260", VA = "0x182664C60", Slot = "6")]
 		get
 		{
 			return null;
@@ -136,7 +136,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override bool ValueAsBoolean
 	{
 		[Token(Token = "0x60014D2")]
-		[Address(RVA = "0x471B200", Offset = "0x471B200", VA = "0x471B200", Slot = "8")]
+		[Address(RVA = "0x2664E50", Offset = "0x2663450", VA = "0x182664E50", Slot = "8")]
 		get
 		{
 			return default(bool);
@@ -147,7 +147,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override DateTime ValueAsDateTime
 	{
 		[Token(Token = "0x60014D3")]
-		[Address(RVA = "0x471B300", Offset = "0x471B300", VA = "0x471B300", Slot = "9")]
+		[Address(RVA = "0x2664F50", Offset = "0x2663550", VA = "0x182664F50", Slot = "9")]
 		get
 		{
 			return default(DateTime);
@@ -158,7 +158,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override double ValueAsDouble
 	{
 		[Token(Token = "0x60014D4")]
-		[Address(RVA = "0x471B400", Offset = "0x471B400", VA = "0x471B400", Slot = "10")]
+		[Address(RVA = "0x2665050", Offset = "0x2663650", VA = "0x182665050", Slot = "10")]
 		get
 		{
 			return default(double);
@@ -169,7 +169,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override int ValueAsInt
 	{
 		[Token(Token = "0x60014D5")]
-		[Address(RVA = "0x471B500", Offset = "0x471B500", VA = "0x471B500", Slot = "11")]
+		[Address(RVA = "0x2665150", Offset = "0x2663750", VA = "0x182665150", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -180,7 +180,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override long ValueAsLong
 	{
 		[Token(Token = "0x60014D6")]
-		[Address(RVA = "0x471B600", Offset = "0x471B600", VA = "0x471B600", Slot = "12")]
+		[Address(RVA = "0x2665250", Offset = "0x2663850", VA = "0x182665250", Slot = "12")]
 		get
 		{
 			return default(long);
@@ -191,7 +191,7 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	public override string Value
 	{
 		[Token(Token = "0x60014D8")]
-		[Address(RVA = "0x471B930", Offset = "0x471B930", VA = "0x471B930", Slot = "5")]
+		[Address(RVA = "0x2665390", Offset = "0x2663990", VA = "0x182665390", Slot = "5")]
 		get
 		{
 			return null;
@@ -199,82 +199,82 @@ public sealed class XmlAtomicValue : XPathItem, ICloneable
 	}
 
 	[Token(Token = "0x60014C5")]
-	[Address(RVA = "0x471A640", Offset = "0x471A640", VA = "0x471A640")]
+	[Address(RVA = "0x26642F0", Offset = "0x26628F0", VA = "0x1826642F0")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, bool value)
 	{
 	}
 
 	[Token(Token = "0x60014C6")]
-	[Address(RVA = "0x471A6C0", Offset = "0x471A6C0", VA = "0x471A6C0")]
+	[Address(RVA = "0x2664B20", Offset = "0x2663120", VA = "0x182664B20")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, DateTime value)
 	{
 	}
 
 	[Token(Token = "0x60014C7")]
-	[Address(RVA = "0x471A750", Offset = "0x471A750", VA = "0x471A750")]
+	[Address(RVA = "0x2664BC0", Offset = "0x26631C0", VA = "0x182664BC0")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, double value)
 	{
 	}
 
 	[Token(Token = "0x60014C8")]
-	[Address(RVA = "0x471A7E0", Offset = "0x471A7E0", VA = "0x471A7E0")]
+	[Address(RVA = "0x2664760", Offset = "0x2662D60", VA = "0x182664760")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, int value)
 	{
 	}
 
 	[Token(Token = "0x60014C9")]
-	[Address(RVA = "0x471A860", Offset = "0x471A860", VA = "0x471A860")]
+	[Address(RVA = "0x26646C0", Offset = "0x2662CC0", VA = "0x1826646C0")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, long value)
 	{
 	}
 
 	[Token(Token = "0x60014CA")]
-	[Address(RVA = "0x471A8F0", Offset = "0x471A8F0", VA = "0x471A8F0")]
+	[Address(RVA = "0x2664A30", Offset = "0x2663030", VA = "0x182664A30")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, string value)
 	{
 	}
 
 	[Token(Token = "0x60014CB")]
-	[Address(RVA = "0x471A9A0", Offset = "0x471A9A0", VA = "0x471A9A0")]
+	[Address(RVA = "0x2664480", Offset = "0x2662A80", VA = "0x182664480")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, string value, IXmlNamespaceResolver nsResolver)
 	{
 	}
 
 	[Token(Token = "0x60014CC")]
-	[Address(RVA = "0x471ACA0", Offset = "0x471ACA0", VA = "0x471ACA0")]
+	[Address(RVA = "0x2664390", Offset = "0x2662990", VA = "0x182664390")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, object value)
 	{
 	}
 
 	[Token(Token = "0x60014CD")]
-	[Address(RVA = "0x471AD50", Offset = "0x471AD50", VA = "0x471AD50")]
+	[Address(RVA = "0x2664800", Offset = "0x2662E00", VA = "0x182664800")]
 	internal XmlAtomicValue(XmlSchemaType xmlType, object value, IXmlNamespaceResolver nsResolver)
 	{
 	}
 
 	[Token(Token = "0x60014CE")]
-	[Address(RVA = "0x471AFC0", Offset = "0x471AFC0", VA = "0x471AFC0", Slot = "15")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "15")]
 	private object System_002EICloneable_002EClone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014D7")]
-	[Address(RVA = "0x471B700", Offset = "0x471B700", VA = "0x471B700", Slot = "14")]
+	[Address(RVA = "0x26640D0", Offset = "0x26626D0", VA = "0x1826640D0", Slot = "14")]
 	public override object ValueAs(Type type, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014D9")]
-	[Address(RVA = "0x471BA50", Offset = "0x471BA50", VA = "0x471BA50", Slot = "3")]
+	[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60014DA")]
-	[Address(RVA = "0x471ABB0", Offset = "0x471ABB0", VA = "0x471ABB0")]
+	[Address(RVA = "0x2664020", Offset = "0x2662620", VA = "0x182664020")]
 	private string GetPrefixFromQName(string value)
 	{
 		return null;

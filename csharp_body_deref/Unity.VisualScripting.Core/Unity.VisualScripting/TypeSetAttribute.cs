@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000050")]
+[Token(Token = "0x200004F")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public class TypeSetAttribute : Attribute
 {
-	[Token(Token = "0x17000072")]
+	[Token(Token = "0x17000073")]
 	public TypeSet typeSet
 	{
-		[Token(Token = "0x600020F")]
-		[Address(RVA = "0x4CA4050", Offset = "0x4CA4050", VA = "0x4CA4050")]
+		[Token(Token = "0x6000213")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,8 +27,8 @@ public class TypeSetAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x4CA4030", Offset = "0x4CA4030", VA = "0x4CA4030")]
+	[Token(Token = "0x6000212")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public TypeSetAttribute(TypeSet typeSet)
 	{
 	}

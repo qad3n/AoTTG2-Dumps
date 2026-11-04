@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200029E")]
+[Token(Token = "0x20001A9")]
 public interface IIntellisenseBuilder
 {
-	[Token(Token = "0x170003B5")]
+	[Token(Token = "0x17000224")]
 	string Name
 	{
-		[Token(Token = "0x60010A2")]
+		[Token(Token = "0x6000AEA")]
 		get;
 	}
 
-	[Token(Token = "0x60010A3")]
+	[Token(Token = "0x6000AEB")]
 	bool Show(string language, string value, ref string newValue);
 }

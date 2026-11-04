@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000074")]
+[Token(Token = "0x2000069")]
 public enum TagValueType
 {
-	[Token(Token = "0x4000389")]
+	[Token(Token = "0x40002ED")]
 	None = 0,
-	[Token(Token = "0x400038A")]
+	[Token(Token = "0x40002EE")]
 	NumericalValue = 1,
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x40002EF")]
 	StringValue = 2,
-	[Token(Token = "0x400038C")]
+	[Token(Token = "0x40002F0")]
 	ColorValue = 4
 }

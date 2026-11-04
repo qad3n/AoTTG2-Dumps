@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000E")]
 internal enum OpusCtlGetRequest
 {
-	[Token(Token = "0x400004B")]
+	[Token(Token = "0x4000046")]
 	Application = 4001,
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000047")]
 	Bitrate = 4003,
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000048")]
 	MaxBandwidth = 4005,
-	[Token(Token = "0x400004E")]
+	[Token(Token = "0x4000049")]
 	VBR = 4007,
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x400004A")]
 	Bandwidth = 4009,
-	[Token(Token = "0x4000050")]
+	[Token(Token = "0x400004B")]
 	Complexity = 4011,
-	[Token(Token = "0x4000051")]
+	[Token(Token = "0x400004C")]
 	InbandFec = 4013,
-	[Token(Token = "0x4000052")]
+	[Token(Token = "0x400004D")]
 	PacketLossPercentage = 4015,
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x400004E")]
 	Dtx = 4017,
-	[Token(Token = "0x4000054")]
+	[Token(Token = "0x400004F")]
 	VBRConstraint = 4021,
-	[Token(Token = "0x4000055")]
+	[Token(Token = "0x4000050")]
 	ForceChannels = 4023,
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000051")]
 	Signal = 4025,
-	[Token(Token = "0x4000057")]
+	[Token(Token = "0x4000052")]
 	LookAhead = 4027,
-	[Token(Token = "0x4000058")]
+	[Token(Token = "0x4000053")]
 	SampleRate = 4029,
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x4000054")]
 	FinalRange = 4031,
-	[Token(Token = "0x400005A")]
+	[Token(Token = "0x4000055")]
 	Pitch = 4033,
-	[Token(Token = "0x400005B")]
+	[Token(Token = "0x4000056")]
 	Gain = 4035,
-	[Token(Token = "0x400005C")]
+	[Token(Token = "0x4000057")]
 	LsbDepth = 4037,
-	[Token(Token = "0x400005D")]
+	[Token(Token = "0x4000058")]
 	LastPacketDurationRequest = 4039
 }

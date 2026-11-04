@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x2000012")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animation.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]

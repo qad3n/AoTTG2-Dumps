@@ -13,46 +13,46 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001A6")]
+[Token(Token = "0x20002AC")]
 internal sealed class AottgGuildPresetChoicePreviewRuntime : MonoBehaviour
 {
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000DDA")]
 	[FieldOffset(Offset = "0x20")]
 	private TMP_Text _label;
 
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000DDB")]
 	[FieldOffset(Offset = "0x28")]
 	private Image _image;
 
-	[Token(Token = "0x4000935")]
+	[Token(Token = "0x4000DDC")]
 	[FieldOffset(Offset = "0x30")]
 	private NameEffectController _effect;
 
-	[Token(Token = "0x1700014F")]
+	[Token(Token = "0x170001D6")]
 	private TMP_Text Label
 	{
-		[Token(Token = "0x60009F2")]
-		[Address(RVA = "0x441A5C0", Offset = "0x441A5C0", VA = "0x441A5C0")]
+		[Token(Token = "0x60010AF")]
+		[Address(RVA = "0x1E125A0", Offset = "0x1E10BA0", VA = "0x181E125A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009F1")]
-	[Address(RVA = "0x441A300", Offset = "0x441A300", VA = "0x441A300")]
+	[Token(Token = "0x60010AE")]
+	[Address(RVA = "0x1E12240", Offset = "0x1E10840", VA = "0x181E12240")]
 	public void Configure(string value, string text, bool enabled)
 	{
 	}
 
-	[Token(Token = "0x60009F3")]
-	[Address(RVA = "0x441AF40", Offset = "0x441AF40", VA = "0x441AF40")]
+	[Token(Token = "0x60010B0")]
+	[Address(RVA = "0x1E12570", Offset = "0x1E10B70", VA = "0x181E12570")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60009F4")]
-	[Address(RVA = "0x441AF60", Offset = "0x441AF60", VA = "0x441AF60")]
+	[Token(Token = "0x60010B1")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgGuildPresetChoicePreviewRuntime()
 	{
 	}

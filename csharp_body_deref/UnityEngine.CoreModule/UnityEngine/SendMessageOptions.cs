@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x2000098")]
 public enum SendMessageOptions
 {
-	[Token(Token = "0x4000115")]
+	[Token(Token = "0x400015C")]
 	RequireReceiver,
-	[Token(Token = "0x4000116")]
+	[Token(Token = "0x400015D")]
 	DontRequireReceiver
 }

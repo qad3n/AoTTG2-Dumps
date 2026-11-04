@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000E9")]
+[Token(Token = "0x2000129")]
 [Flags]
 public enum OpenFlags
 {
-	[Token(Token = "0x4000452")]
+	[Token(Token = "0x4000524")]
 	ReadOnly = 0,
-	[Token(Token = "0x4000453")]
+	[Token(Token = "0x4000525")]
 	ReadWrite = 1,
-	[Token(Token = "0x4000454")]
+	[Token(Token = "0x4000526")]
 	MaxAllowed = 2,
-	[Token(Token = "0x4000455")]
+	[Token(Token = "0x4000527")]
 	OpenExistingOnly = 4,
-	[Token(Token = "0x4000456")]
+	[Token(Token = "0x4000528")]
 	IncludeArchived = 8
 }

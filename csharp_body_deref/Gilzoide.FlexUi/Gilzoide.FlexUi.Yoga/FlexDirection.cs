@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000010")]
 public enum FlexDirection
 {
-	[Token(Token = "0x4000066")]
+	[Token(Token = "0x4000061")]
 	Column,
-	[Token(Token = "0x4000067")]
+	[Token(Token = "0x4000062")]
 	ColumnReverse,
-	[Token(Token = "0x4000068")]
+	[Token(Token = "0x4000063")]
 	Row,
-	[Token(Token = "0x4000069")]
+	[Token(Token = "0x4000064")]
 	RowReverse
 }

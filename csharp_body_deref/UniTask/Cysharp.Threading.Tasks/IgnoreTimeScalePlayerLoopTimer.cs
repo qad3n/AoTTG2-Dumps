@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000067")]
+[Token(Token = "0x2000065")]
 internal sealed class IgnoreTimeScalePlayerLoopTimer : PlayerLoopTimer
 {
-	[Token(Token = "0x40000DB")]
+	[Token(Token = "0x40000D6")]
 	[FieldOffset(Offset = "0x30")]
 	private int initialFrame;
 
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40000D7")]
 	[FieldOffset(Offset = "0x34")]
 	private float elapsed;
 
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x40000D8")]
 	[FieldOffset(Offset = "0x38")]
 	private float interval;
 
-	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x49D8FE0", Offset = "0x49D8FE0", VA = "0x49D8FE0")]
+	[Token(Token = "0x600015E")]
+	[Address(RVA = "0x290E280", Offset = "0x290C880", VA = "0x18290E280")]
 	public IgnoreTimeScalePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
-	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x49D96C0", Offset = "0x49D96C0", VA = "0x49D96C0", Slot = "7")]
+	[Token(Token = "0x600015F")]
+	[Address(RVA = "0x290E130", Offset = "0x290C730", VA = "0x18290E130", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x49D9720", Offset = "0x49D9720", VA = "0x49D9720", Slot = "6")]
+	[Token(Token = "0x6000160")]
+	[Address(RVA = "0x290E1A0", Offset = "0x290C7A0", VA = "0x18290E1A0", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

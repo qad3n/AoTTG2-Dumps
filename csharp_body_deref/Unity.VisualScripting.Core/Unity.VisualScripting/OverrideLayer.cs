@@ -14,10 +14,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001B9")]
 public struct OverrideLayer<T> : IDisposable
 {
-	[Token(Token = "0x170001D4")]
+	[Token(Token = "0x170001D7")]
 	public readonly OverrideStack<T> stack
 	{
-		[Token(Token = "0x6001077")]
+		[Token(Token = "0x6001084")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,12 +25,12 @@ public struct OverrideLayer<T> : IDisposable
 		}
 	}
 
-	[Token(Token = "0x6001078")]
+	[Token(Token = "0x6001085")]
 	internal OverrideLayer(OverrideStack<T> stack, T item)
 	{
 	}
 
-	[Token(Token = "0x6001079")]
+	[Token(Token = "0x6001086")]
 	public void Dispose()
 	{
 	}

@@ -49,14 +49,14 @@ public class JsonDictionaryContract : JsonContainerContract
 	public Func<string, string>? DictionaryKeyResolver
 	{
 		[Token(Token = "0x6000816")]
-		[Address(RVA = "0x3DD8880", Offset = "0x3DD8880", VA = "0x3DD8880")]
+		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000817")]
-		[Address(RVA = "0x3DD8890", Offset = "0x3DD8890", VA = "0x3DD8890")]
+		[Address(RVA = "0xC8FFC0", Offset = "0xC8E5C0", VA = "0x180C8FFC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -67,7 +67,7 @@ public class JsonDictionaryContract : JsonContainerContract
 	public Type? DictionaryKeyType
 	{
 		[Token(Token = "0x6000818")]
-		[Address(RVA = "0x3DD88B0", Offset = "0x3DD88B0", VA = "0x3DD88B0")]
+		[Address(RVA = "0x187BC00", Offset = "0x187A200", VA = "0x18187BC00")]
 		[CompilerGenerated]
 		get
 		{
@@ -79,7 +79,7 @@ public class JsonDictionaryContract : JsonContainerContract
 	public Type? DictionaryValueType
 	{
 		[Token(Token = "0x6000819")]
-		[Address(RVA = "0x3DD88C0", Offset = "0x3DD88C0", VA = "0x3DD88C0")]
+		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
 		[CompilerGenerated]
 		get
 		{
@@ -91,14 +91,14 @@ public class JsonDictionaryContract : JsonContainerContract
 	internal JsonContract? KeyContract
 	{
 		[Token(Token = "0x600081A")]
-		[Address(RVA = "0x3DD88D0", Offset = "0x3DD88D0", VA = "0x3DD88D0")]
+		[Address(RVA = "0x187BC60", Offset = "0x187A260", VA = "0x18187BC60")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081B")]
-		[Address(RVA = "0x3DD88E0", Offset = "0x3DD88E0", VA = "0x3DD88E0")]
+		[Address(RVA = "0x1BD5220", Offset = "0x1BD3820", VA = "0x181BD5220")]
 		[CompilerGenerated]
 		set
 		{
@@ -109,7 +109,7 @@ public class JsonDictionaryContract : JsonContainerContract
 	internal bool ShouldCreateWrapper
 	{
 		[Token(Token = "0x600081C")]
-		[Address(RVA = "0x3DD8900", Offset = "0x3DD8900", VA = "0x3DD8900")]
+		[Address(RVA = "0x1C41DE0", Offset = "0x1C403E0", VA = "0x181C41DE0")]
 		[CompilerGenerated]
 		get
 		{
@@ -121,7 +121,7 @@ public class JsonDictionaryContract : JsonContainerContract
 	internal ObjectConstructor<object>? ParameterizedCreator
 	{
 		[Token(Token = "0x600081D")]
-		[Address(RVA = "0x3DD8910", Offset = "0x3DD8910", VA = "0x3DD8910")]
+		[Address(RVA = "0x1C41D00", Offset = "0x1C40300", VA = "0x181C41D00")]
 		get
 		{
 			return null;
@@ -132,13 +132,13 @@ public class JsonDictionaryContract : JsonContainerContract
 	public ObjectConstructor<object>? OverrideCreator
 	{
 		[Token(Token = "0x600081E")]
-		[Address(RVA = "0x3DD89E0", Offset = "0x3DD89E0", VA = "0x3DD89E0")]
+		[Address(RVA = "0x1C41CF0", Offset = "0x1C402F0", VA = "0x181C41CF0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600081F")]
-		[Address(RVA = "0x3DD89F0", Offset = "0x3DD89F0", VA = "0x3DD89F0")]
+		[Address(RVA = "0x1C41E00", Offset = "0x1C40400", VA = "0x181C41E00")]
 		set
 		{
 		}
@@ -148,14 +148,14 @@ public class JsonDictionaryContract : JsonContainerContract
 	public bool HasParameterizedCreator
 	{
 		[Token(Token = "0x6000820")]
-		[Address(RVA = "0x3DD8A10", Offset = "0x3DD8A10", VA = "0x3DD8A10")]
+		[Address(RVA = "0x1C41CE0", Offset = "0x1C402E0", VA = "0x181C41CE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000821")]
-		[Address(RVA = "0x3DD8A20", Offset = "0x3DD8A20", VA = "0x3DD8A20")]
+		[Address(RVA = "0x1C41DF0", Offset = "0x1C403F0", VA = "0x181C41DF0")]
 		[CompilerGenerated]
 		set
 		{
@@ -166,7 +166,7 @@ public class JsonDictionaryContract : JsonContainerContract
 	internal bool HasParameterizedCreatorInternal
 	{
 		[Token(Token = "0x6000822")]
-		[Address(RVA = "0x3DD8A30", Offset = "0x3DD8A30", VA = "0x3DD8A30")]
+		[Address(RVA = "0x1C41C70", Offset = "0x1C40270", VA = "0x181C41C70")]
 		get
 		{
 			return default(bool);
@@ -174,20 +174,20 @@ public class JsonDictionaryContract : JsonContainerContract
 	}
 
 	[Token(Token = "0x6000823")]
-	[Address(RVA = "0x3DD0300", Offset = "0x3DD0300", VA = "0x3DD0300")]
+	[Address(RVA = "0x1C41020", Offset = "0x1C3F620", VA = "0x181C41020")]
 	public JsonDictionaryContract(Type underlyingType)
 	{
 	}
 
 	[Token(Token = "0x6000824")]
-	[Address(RVA = "0x3DD8AA0", Offset = "0x3DD8AA0", VA = "0x3DD8AA0")]
+	[Address(RVA = "0x1C40CE0", Offset = "0x1C3F2E0", VA = "0x181C40CE0")]
 	internal IWrappedDictionary CreateWrapper(object dictionary)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000825")]
-	[Address(RVA = "0x3DD8DB0", Offset = "0x3DD8DB0", VA = "0x3DD8DB0")]
+	[Address(RVA = "0x1C40A30", Offset = "0x1C3F030", VA = "0x181C40A30")]
 	internal IDictionary CreateTemporaryDictionary()
 	{
 		return null;

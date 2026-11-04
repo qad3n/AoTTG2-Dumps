@@ -11,30 +11,30 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x200024B")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x20002A0")]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct Update
 {
-	[Token(Token = "0x200024C")]
+	[Token(Token = "0x20002A1")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunBehaviourUpdate
 	{
 	}
 
-	[Token(Token = "0x200024D")]
+	[Token(Token = "0x20002A2")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorUpdate
 	{
 	}
 
-	[Token(Token = "0x200024E")]
+	[Token(Token = "0x20002A3")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunDelayedDynamicFrameRate
 	{
 	}
 
-	[Token(Token = "0x200024F")]
+	[Token(Token = "0x20002A4")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunDelayedTasks
 	{

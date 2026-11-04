@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000080")]
+[Token(Token = "0x200009C")]
 public enum LogType
 {
-	[Token(Token = "0x4000157")]
+	[Token(Token = "0x40001A2")]
 	Error,
-	[Token(Token = "0x4000158")]
+	[Token(Token = "0x40001A3")]
 	Assert,
-	[Token(Token = "0x4000159")]
+	[Token(Token = "0x40001A4")]
 	Warning,
-	[Token(Token = "0x400015A")]
+	[Token(Token = "0x40001A5")]
 	Log,
-	[Token(Token = "0x400015B")]
+	[Token(Token = "0x40001A6")]
 	Exception
 }

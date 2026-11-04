@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200000E")]
-internal static class BackgroundPropertyHelper
+[Token(Token = "0x2000012")]
+public static class BackgroundPropertyHelper
 {
-	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x4F0CC00", Offset = "0x4F0CC00", VA = "0x4F0CC00")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x307DB10", Offset = "0x307C110", VA = "0x18307DB10")]
 	public static BackgroundPosition ConvertScaleModeToBackgroundPosition(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundPosition);
 	}
 
-	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x4F0D100", Offset = "0x4F0D100", VA = "0x4F0D100")]
+	[Token(Token = "0x6000056")]
+	[Address(RVA = "0x307DCA0", Offset = "0x307C2A0", VA = "0x18307DCA0")]
 	public static BackgroundRepeat ConvertScaleModeToBackgroundRepeat(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundRepeat);
 	}
 
-	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x4F0D120", Offset = "0x4F0D120", VA = "0x4F0D120")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x307DCB0", Offset = "0x307C2B0", VA = "0x18307DCB0")]
 	public static BackgroundSize ConvertScaleModeToBackgroundSize(ScaleMode scaleMode = ScaleMode.StretchToFill)
 	{
 		return default(BackgroundSize);
 	}
 
-	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4F0D250", Offset = "0x4F0D250", VA = "0x4F0D250")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x307DD70", Offset = "0x307C370", VA = "0x18307DD70")]
 	public static ScaleMode ResolveUnityBackgroundScaleMode(BackgroundPosition backgroundPositionX, BackgroundPosition backgroundPositionY, BackgroundRepeat backgroundRepeat, BackgroundSize backgroundSize, out bool valid)
 	{
 		return default(ScaleMode);

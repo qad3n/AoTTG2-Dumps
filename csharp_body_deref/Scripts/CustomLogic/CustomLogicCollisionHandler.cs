@@ -12,80 +12,80 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200047C")]
+[Token(Token = "0x20005D2")]
 internal class CustomLogicCollisionHandler : MonoBehaviour
 {
-	[Token(Token = "0x40012BE")]
+	[Token(Token = "0x40018FE")]
 	[FieldOffset(Offset = "0x20")]
 	private List<CustomLogicComponentInstance> _classInstances;
 
-	[Token(Token = "0x40012BF")]
+	[Token(Token = "0x40018FF")]
 	[FieldOffset(Offset = "0x28")]
 	private float _lastEnterTime;
 
-	[Token(Token = "0x6002F0F")]
-	[Address(RVA = "0x41548D0", Offset = "0x41548D0", VA = "0x41548D0")]
+	[Token(Token = "0x6003881")]
+	[Address(RVA = "0x209D1C0", Offset = "0x209B7C0", VA = "0x18209D1C0")]
 	public void RegisterInstance(CustomLogicComponentInstance classInstance)
 	{
 	}
 
-	[Token(Token = "0x6002F10")]
-	[Address(RVA = "0x4154970", Offset = "0x4154970", VA = "0x4154970")]
+	[Token(Token = "0x6003882")]
+	[Address(RVA = "0x209C070", Offset = "0x209A670", VA = "0x18209C070")]
 	public void GetHit(BaseCharacter character, string name, int damage, string type, Vector3 position)
 	{
 	}
 
-	[Token(Token = "0x6002F11")]
-	[Address(RVA = "0x4155020", Offset = "0x4155020", VA = "0x4155020")]
+	[Token(Token = "0x6003883")]
+	[Address(RVA = "0x209C260", Offset = "0x209A860", VA = "0x18209C260")]
 	public void GetHooked(Human human, Vector3 position, bool left)
 	{
 	}
 
-	[Token(Token = "0x6002F12")]
-	[Address(RVA = "0x41553E0", Offset = "0x41553E0", VA = "0x41553E0")]
+	[Token(Token = "0x6003884")]
+	[Address(RVA = "0x209C570", Offset = "0x209AB70", VA = "0x18209C570")]
 	protected void OnCollisionEnter(Collision other)
 	{
 	}
 
-	[Token(Token = "0x6002F13")]
-	[Address(RVA = "0x4155B10", Offset = "0x4155B10", VA = "0x4155B10")]
+	[Token(Token = "0x6003885")]
+	[Address(RVA = "0x209C990", Offset = "0x209AF90", VA = "0x18209C990")]
 	protected void OnCollisionStay(Collision other)
 	{
 	}
 
-	[Token(Token = "0x6002F14")]
-	[Address(RVA = "0x4155E30", Offset = "0x4155E30", VA = "0x4155E30")]
+	[Token(Token = "0x6003886")]
+	[Address(RVA = "0x209C780", Offset = "0x209AD80", VA = "0x18209C780")]
 	protected void OnCollisionExit(Collision other)
 	{
 	}
 
-	[Token(Token = "0x6002F15")]
-	[Address(RVA = "0x4156150", Offset = "0x4156150", VA = "0x4156150")]
+	[Token(Token = "0x6003887")]
+	[Address(RVA = "0x209CBA0", Offset = "0x209B1A0", VA = "0x18209CBA0")]
 	public void OnTriggerEnter(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6002F16")]
-	[Address(RVA = "0x41562E0", Offset = "0x41562E0", VA = "0x41562E0")]
+	[Token(Token = "0x6003888")]
+	[Address(RVA = "0x209CFC0", Offset = "0x209B5C0", VA = "0x18209CFC0")]
 	protected void OnTriggerStay(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6002F17")]
-	[Address(RVA = "0x4156450", Offset = "0x4156450", VA = "0x4156450")]
+	[Token(Token = "0x6003889")]
+	[Address(RVA = "0x209CDC0", Offset = "0x209B3C0", VA = "0x18209CDC0")]
 	protected void OnTriggerExit(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6002F18")]
-	[Address(RVA = "0x4155560", Offset = "0x4155560", VA = "0x4155560")]
+	[Token(Token = "0x600388A")]
+	[Address(RVA = "0x209BE70", Offset = "0x209A470", VA = "0x18209BE70")]
 	public static BuiltinClassInstance GetBuiltin(Collider other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F19")]
-	[Address(RVA = "0x41565C0", Offset = "0x41565C0", VA = "0x41565C0")]
+	[Token(Token = "0x600388B")]
+	[Address(RVA = "0x209D270", Offset = "0x209B870", VA = "0x18209D270")]
 	public CustomLogicCollisionHandler()
 	{
 	}

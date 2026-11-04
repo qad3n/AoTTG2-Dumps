@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007CA")]
+[Token(Token = "0x2000957")]
 public sealed class AottgApiTransportRequest
 {
-	[Token(Token = "0x400256A")]
+	[Token(Token = "0x4002E3C")]
 	[FieldOffset(Offset = "0x10")]
 	public string Method;
 
-	[Token(Token = "0x400256B")]
+	[Token(Token = "0x4002E3D")]
 	[FieldOffset(Offset = "0x18")]
 	public string Url;
 
-	[Token(Token = "0x400256C")]
+	[Token(Token = "0x4002E3E")]
 	[FieldOffset(Offset = "0x20")]
 	public string JsonBody;
 
-	[Token(Token = "0x400256D")]
+	[Token(Token = "0x4002E3F")]
 	[FieldOffset(Offset = "0x28")]
 	public int? TimeoutSeconds;
 
-	[Token(Token = "0x400256E")]
+	[Token(Token = "0x4002E40")]
 	[FieldOffset(Offset = "0x30")]
 	public Dictionary<string, string> Headers;
 
-	[Token(Token = "0x6004AA0")]
-	[Address(RVA = "0x43CD550", Offset = "0x43CD550", VA = "0x43CD550")]
+	[Token(Token = "0x6005719")]
+	[Address(RVA = "0x23609F0", Offset = "0x235EFF0", VA = "0x1823609F0")]
 	public AottgApiTransportRequest()
 	{
 	}

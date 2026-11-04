@@ -12,88 +12,88 @@ using Unity.Collections;
 
 namespace UnityEngine.ParticleSystemJobs;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x2000020")]
 public struct ParticleSystemJobData
 {
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x4000086")]
 	[FieldOffset(Offset = "0x0")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly int _003Ccount_003Ek__BackingField;
 
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x4000087")]
 	[FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003Cpositions_003Ek__BackingField;
 
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x4000088")]
 	[FieldOffset(Offset = "0x38")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private readonly ParticleSystemNativeArray3 _003Cvelocities_003Ek__BackingField;
 
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x4000089")]
 	[FieldOffset(Offset = "0x68")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly ParticleSystemNativeArray3 _003CaxisOfRotations_003Ek__BackingField;
 
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x400008A")]
 	[FieldOffset(Offset = "0x98")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private readonly ParticleSystemNativeArray3 _003Crotations_003Ek__BackingField;
 
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x400008B")]
 	[FieldOffset(Offset = "0xC8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003CrotationalSpeeds_003Ek__BackingField;
 
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0xF8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ParticleSystemNativeArray3 _003Csizes_003Ek__BackingField;
 
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x400008D")]
 	[FieldOffset(Offset = "0x128")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly NativeArray<Color32> _003CstartColors_003Ek__BackingField;
 
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x400008E")]
 	[FieldOffset(Offset = "0x138")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly NativeArray<float> _003CaliveTimePercent_003Ek__BackingField;
 
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x148")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly NativeArray<float> _003CinverseStartLifetimes_003Ek__BackingField;
 
-	[Token(Token = "0x400004A")]
+	[Token(Token = "0x4000090")]
 	[FieldOffset(Offset = "0x158")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly NativeArray<uint> _003CrandomSeeds_003Ek__BackingField;
 
-	[Token(Token = "0x400004B")]
+	[Token(Token = "0x4000091")]
 	[FieldOffset(Offset = "0x168")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly ParticleSystemNativeArray4 _003CcustomData1_003Ek__BackingField;
 
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000092")]
 	[FieldOffset(Offset = "0x1A8")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private readonly ParticleSystemNativeArray4 _003CcustomData2_003Ek__BackingField;
 
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000093")]
 	[FieldOffset(Offset = "0x1E8")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]

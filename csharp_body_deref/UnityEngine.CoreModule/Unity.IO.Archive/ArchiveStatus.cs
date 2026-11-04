@@ -10,14 +10,14 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.Archive;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000049")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public enum ArchiveStatus
 {
-	[Token(Token = "0x40000B0")]
+	[Token(Token = "0x40000E3")]
 	InProgress,
-	[Token(Token = "0x40000B1")]
+	[Token(Token = "0x40000E4")]
 	Complete,
-	[Token(Token = "0x40000B2")]
+	[Token(Token = "0x40000E5")]
 	Failed
 }

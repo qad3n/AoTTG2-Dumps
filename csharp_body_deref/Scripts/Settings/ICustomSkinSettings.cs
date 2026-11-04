@@ -12,12 +12,12 @@ namespace Settings;
 [Token(Token = "0x200006C")]
 internal interface ICustomSkinSettings : ISetSettingsContainer
 {
-	[Token(Token = "0x6000311")]
+	[Token(Token = "0x6000321")]
 	BoolSetting GetSkinsLocal();
 
-	[Token(Token = "0x6000312")]
+	[Token(Token = "0x6000322")]
 	BoolSetting GetSkinsEnabled();
 
-	[Token(Token = "0x6000313")]
+	[Token(Token = "0x6000323")]
 	IListSetting GetSkinSets();
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Single
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,37 +14,16 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000108")]
+[Token(Token = "0x2000130")]
 public readonly struct Single : IComparable, IConvertible, IFormattable, IComparable<float>, IEquatable<float>, System.ISpanFormattable
 {
-	[Token(Token = "0x40003BD")]
+	[Token(Token = "0x400043F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly float m_value;
 
-	[Token(Token = "0x40003BE")]
-	public const float MinValue = -3.4028235E+38f;
-
-	[Token(Token = "0x40003BF")]
-	public const float Epsilon = 1E-45f;
-
-	[Token(Token = "0x40003C0")]
-	public const float MaxValue = 3.4028235E+38f;
-
-	[Token(Token = "0x40003C1")]
-	public const float PositiveInfinity = 1f / 0f;
-
-	[Token(Token = "0x40003C2")]
-	public const float NegativeInfinity = -1f / 0f;
-
-	[Token(Token = "0x40003C3")]
-	public const float NaN = 0f / 0f;
-
-	[Token(Token = "0x40003C4")]
-	internal const float NegativeZero = -0f;
-
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009B3")]
-	[Address(RVA = "0x3CCCCB0", Offset = "0x3CCCCB0", VA = "0x3CCCCB0")]
+	[Token(Token = "0x60009F0")]
+	[Address(RVA = "0x1B49620", Offset = "0x1B47C20", VA = "0x181B49620")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static bool IsFinite(float f)
 	{
@@ -52,8 +31,8 @@ public readonly struct Single : IComparable, IConvertible, IFormattable, ICompar
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009B4")]
-	[Address(RVA = "0x3CCCCD0", Offset = "0x3CCCCD0", VA = "0x3CCCCD0")]
+	[Token(Token = "0x60009F1")]
+	[Address(RVA = "0x1B49640", Offset = "0x1B47C40", VA = "0x181B49640")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static bool IsInfinity(float f)
 	{
@@ -61,8 +40,8 @@ public readonly struct Single : IComparable, IConvertible, IFormattable, ICompar
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x3CCCCF0", Offset = "0x3CCCCF0", VA = "0x3CCCCF0")]
+	[Token(Token = "0x60009F2")]
+	[Address(RVA = "0x1B49660", Offset = "0x1B47C60", VA = "0x181B49660")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static bool IsNaN(float f)
 	{
@@ -70,8 +49,17 @@ public readonly struct Single : IComparable, IConvertible, IFormattable, ICompar
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x3CCCD10", Offset = "0x3CCCD10", VA = "0x3CCCD10")]
+	[Token(Token = "0x60009F3")]
+	[Address(RVA = "0x1B496A0", Offset = "0x1B47CA0", VA = "0x181B496A0")]
+	[System.Runtime.Versioning.NonVersionable]
+	public static bool IsNegative(float f)
+	{
+		return default(bool);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60009F4")]
+	[Address(RVA = "0x1B49680", Offset = "0x1B47C80", VA = "0x181B49680")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static bool IsNegativeInfinity(float f)
 	{
@@ -79,233 +67,240 @@ public readonly struct Single : IComparable, IConvertible, IFormattable, ICompar
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x3CCCD20", Offset = "0x3CCCD20", VA = "0x3CCCD20")]
+	[Token(Token = "0x60009F5")]
+	[Address(RVA = "0x1B496B0", Offset = "0x1B47CB0", VA = "0x181B496B0")]
 	[System.Runtime.Versioning.NonVersionable]
 	public static bool IsPositiveInfinity(float f)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x3CCCD30", Offset = "0x3CCCD30", VA = "0x3CCCD30", Slot = "4")]
+	[Token(Token = "0x60009F6")]
+	[Address(RVA = "0x1B49450", Offset = "0x1B47A50", VA = "0x181B49450", Slot = "4")]
 	public int CompareTo(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x3CCCDF0", Offset = "0x3CCCDF0", VA = "0x3CCCDF0", Slot = "23")]
+	[Token(Token = "0x60009F7")]
+	[Address(RVA = "0x1B49410", Offset = "0x1B47A10", VA = "0x181B49410", Slot = "23")]
 	public int CompareTo(float value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60009BA")]
-	[Address(RVA = "0x3CCCE40", Offset = "0x3CCCE40", VA = "0x3CCCE40", Slot = "0")]
+	[Token(Token = "0x60009F8")]
+	[Address(RVA = "0x1B49570", Offset = "0x1B47B70", VA = "0x181B49570", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009BB")]
-	[Address(RVA = "0x3CCCEA0", Offset = "0x3CCCEA0", VA = "0x3CCCEA0", Slot = "24")]
+	[Token(Token = "0x60009F9")]
+	[Address(RVA = "0x1B49540", Offset = "0x1B47B40", VA = "0x181B49540", Slot = "24")]
 	public bool Equals(float obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009BC")]
-	[Address(RVA = "0x3CCCEE0", Offset = "0x3CCCEE0", VA = "0x3CCCEE0", Slot = "2")]
+	[Token(Token = "0x60009FA")]
+	[Address(RVA = "0x1B495F0", Offset = "0x1B47BF0", VA = "0x181B495F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60009BD")]
-	[Address(RVA = "0x3CCCF00", Offset = "0x3CCCF00", VA = "0x3CCCF00", Slot = "3")]
+	[Token(Token = "0x60009FB")]
+	[Address(RVA = "0x1B4A060", Offset = "0x1B48660", VA = "0x181B4A060", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009BE")]
-	[Address(RVA = "0x3CCCF70", Offset = "0x3CCCF70", VA = "0x3CCCF70", Slot = "20")]
+	[Token(Token = "0x60009FC")]
+	[Address(RVA = "0x1B49FE0", Offset = "0x1B485E0", VA = "0x181B49FE0", Slot = "20")]
 	public string ToString(IFormatProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009BF")]
-	[Address(RVA = "0x3CCCFE0", Offset = "0x3CCCFE0", VA = "0x3CCCFE0")]
+	[Token(Token = "0x60009FD")]
+	[Address(RVA = "0x1B49F60", Offset = "0x1B48560", VA = "0x181B49F60")]
 	public string ToString(string format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009C0")]
-	[Address(RVA = "0x3CCD050", Offset = "0x3CCD050", VA = "0x3CCD050", Slot = "22")]
+	[Token(Token = "0x60009FE")]
+	[Address(RVA = "0x1B4A0D0", Offset = "0x1B486D0", VA = "0x181B4A0D0", Slot = "22")]
 	public string ToString(string format, IFormatProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009C1")]
-	[Address(RVA = "0x3CCD0D0", Offset = "0x3CCD0D0", VA = "0x3CCD0D0", Slot = "25")]
+	[Token(Token = "0x60009FF")]
+	[Address(RVA = "0x1B4A160", Offset = "0x1B48760", VA = "0x181B4A160", Slot = "25")]
 	public bool TryFormat(Span<char> destination, out int charsWritten, [Optional] ReadOnlySpan<char> format, [Optional] IFormatProvider provider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009C2")]
-	[Address(RVA = "0x3CCD180", Offset = "0x3CCD180", VA = "0x3CCD180")]
+	[Token(Token = "0x6000A00")]
+	[Address(RVA = "0x1B497C0", Offset = "0x1B47DC0", VA = "0x181B497C0")]
 	public static float Parse(string s)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60009C3")]
-	[Address(RVA = "0x3CCD220", Offset = "0x3CCD220", VA = "0x3CCD220")]
+	[Token(Token = "0x6000A01")]
+	[Address(RVA = "0x1B49890", Offset = "0x1B47E90", VA = "0x181B49890")]
 	public static float Parse(string s, IFormatProvider provider)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60009C4")]
-	[Address(RVA = "0x3CCD2D0", Offset = "0x3CCD2D0", VA = "0x3CCD2D0")]
+	[Token(Token = "0x6000A02")]
+	[Address(RVA = "0x1B496D0", Offset = "0x1B47CD0", VA = "0x181B496D0")]
 	public static float Parse(string s, NumberStyles style, IFormatProvider provider)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60009C5")]
-	[Address(RVA = "0x3CCD390", Offset = "0x3CCD390", VA = "0x3CCD390")]
+	[Token(Token = "0x6000A03")]
+	[Address(RVA = "0x1B4A4A0", Offset = "0x1B48AA0", VA = "0x181B4A4A0")]
 	public static bool TryParse(string s, out float result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009C6")]
-	[Address(RVA = "0x3CCD6A0", Offset = "0x3CCD6A0", VA = "0x3CCD6A0")]
+	[Token(Token = "0x6000A04")]
+	[Address(RVA = "0x1B4A540", Offset = "0x1B48B40", VA = "0x181B4A540")]
 	public static bool TryParse(string s, NumberStyles style, IFormatProvider provider, out float result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009C7")]
-	[Address(RVA = "0x3CCD400", Offset = "0x3CCD400", VA = "0x3CCD400")]
+	[Token(Token = "0x6000A05")]
+	[Address(RVA = "0x1B4A440", Offset = "0x1B48A40", VA = "0x181B4A440")]
+	public static bool TryParse(ReadOnlySpan<char> s, NumberStyles style, IFormatProvider provider, out float result)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000A06")]
+	[Address(RVA = "0x1B4A210", Offset = "0x1B48810", VA = "0x181B4A210")]
 	private static bool TryParse(ReadOnlySpan<char> s, NumberStyles style, NumberFormatInfo info, out float result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009C8")]
-	[Address(RVA = "0x3CCD730", Offset = "0x3CCD730", VA = "0x3CCD730", Slot = "5")]
+	[Token(Token = "0x6000A07")]
+	[Address(RVA = "0x1B49610", Offset = "0x1B47C10", VA = "0x181B49610", Slot = "5")]
 	public TypeCode GetTypeCode()
 	{
 		return default(TypeCode);
 	}
 
-	[Token(Token = "0x60009C9")]
-	[Address(RVA = "0x3CCD740", Offset = "0x3CCD740", VA = "0x3CCD740", Slot = "6")]
+	[Token(Token = "0x6000A08")]
+	[Address(RVA = "0x1B49970", Offset = "0x1B47F70", VA = "0x181B49970", Slot = "6")]
 	private bool System_002EIConvertible_002EToBoolean(IFormatProvider provider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009CA")]
-	[Address(RVA = "0x3CCD7B0", Offset = "0x3CCD7B0", VA = "0x3CCD7B0", Slot = "7")]
+	[Token(Token = "0x6000A09")]
+	[Address(RVA = "0x1B49A30", Offset = "0x1B48030", VA = "0x181B49A30", Slot = "7")]
 	private char System_002EIConvertible_002EToChar(IFormatProvider provider)
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x60009CB")]
-	[Address(RVA = "0x3CCD830", Offset = "0x3CCD830", VA = "0x3CCD830", Slot = "8")]
+	[Token(Token = "0x6000A0A")]
+	[Address(RVA = "0x1B49D50", Offset = "0x1B48350", VA = "0x181B49D50", Slot = "8")]
 	private sbyte System_002EIConvertible_002EToSByte(IFormatProvider provider)
 	{
 		return default(sbyte);
 	}
 
-	[Token(Token = "0x60009CC")]
-	[Address(RVA = "0x3CCD8A0", Offset = "0x3CCD8A0", VA = "0x3CCD8A0", Slot = "9")]
+	[Token(Token = "0x6000A0B")]
+	[Address(RVA = "0x1B499D0", Offset = "0x1B47FD0", VA = "0x181B499D0", Slot = "9")]
 	private byte System_002EIConvertible_002EToByte(IFormatProvider provider)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x60009CD")]
-	[Address(RVA = "0x3CCD910", Offset = "0x3CCD910", VA = "0x3CCD910", Slot = "10")]
+	[Token(Token = "0x6000A0C")]
+	[Address(RVA = "0x1B49C30", Offset = "0x1B48230", VA = "0x181B49C30", Slot = "10")]
 	private short System_002EIConvertible_002EToInt16(IFormatProvider provider)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x60009CE")]
-	[Address(RVA = "0x3CCD980", Offset = "0x3CCD980", VA = "0x3CCD980", Slot = "11")]
+	[Token(Token = "0x6000A0D")]
+	[Address(RVA = "0x1B49E40", Offset = "0x1B48440", VA = "0x181B49E40", Slot = "11")]
 	private ushort System_002EIConvertible_002EToUInt16(IFormatProvider provider)
 	{
 		return default(ushort);
 	}
 
-	[Token(Token = "0x60009CF")]
-	[Address(RVA = "0x3CCD9F0", Offset = "0x3CCD9F0", VA = "0x3CCD9F0", Slot = "12")]
+	[Token(Token = "0x6000A0E")]
+	[Address(RVA = "0x1B49C90", Offset = "0x1B48290", VA = "0x181B49C90", Slot = "12")]
 	private int System_002EIConvertible_002EToInt32(IFormatProvider provider)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60009D0")]
-	[Address(RVA = "0x3CCDA60", Offset = "0x3CCDA60", VA = "0x3CCDA60", Slot = "13")]
+	[Token(Token = "0x6000A0F")]
+	[Address(RVA = "0x1B49EA0", Offset = "0x1B484A0", VA = "0x181B49EA0", Slot = "13")]
 	private uint System_002EIConvertible_002EToUInt32(IFormatProvider provider)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x60009D1")]
-	[Address(RVA = "0x3CCDAD0", Offset = "0x3CCDAD0", VA = "0x3CCDAD0", Slot = "14")]
+	[Token(Token = "0x6000A10")]
+	[Address(RVA = "0x1B49CF0", Offset = "0x1B482F0", VA = "0x181B49CF0", Slot = "14")]
 	private long System_002EIConvertible_002EToInt64(IFormatProvider provider)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x60009D2")]
-	[Address(RVA = "0x3CCDB40", Offset = "0x3CCDB40", VA = "0x3CCDB40", Slot = "15")]
+	[Token(Token = "0x6000A11")]
+	[Address(RVA = "0x1B49F00", Offset = "0x1B48500", VA = "0x181B49F00", Slot = "15")]
 	private ulong System_002EIConvertible_002EToUInt64(IFormatProvider provider)
 	{
 		return default(ulong);
 	}
 
-	[Token(Token = "0x60009D3")]
-	[Address(RVA = "0x3CCDBB0", Offset = "0x3CCDBB0", VA = "0x3CCDBB0", Slot = "16")]
+	[Token(Token = "0x6000A12")]
+	[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0", Slot = "16")]
 	private float System_002EIConvertible_002EToSingle(IFormatProvider provider)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60009D4")]
-	[Address(RVA = "0x3CCDBC0", Offset = "0x3CCDBC0", VA = "0x3CCDBC0", Slot = "17")]
+	[Token(Token = "0x6000A13")]
+	[Address(RVA = "0x1B49BD0", Offset = "0x1B481D0", VA = "0x181B49BD0", Slot = "17")]
 	private double System_002EIConvertible_002EToDouble(IFormatProvider provider)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x60009D5")]
-	[Address(RVA = "0x3CCDC30", Offset = "0x3CCDC30", VA = "0x3CCDC30", Slot = "18")]
+	[Token(Token = "0x6000A14")]
+	[Address(RVA = "0x1B49B50", Offset = "0x1B48150", VA = "0x181B49B50", Slot = "18")]
 	private decimal System_002EIConvertible_002EToDecimal(IFormatProvider provider)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
-	[Token(Token = "0x60009D6")]
-	[Address(RVA = "0x3CCDCA0", Offset = "0x3CCDCA0", VA = "0x3CCDCA0", Slot = "19")]
+	[Token(Token = "0x6000A15")]
+	[Address(RVA = "0x1B49AC0", Offset = "0x1B480C0", VA = "0x181B49AC0", Slot = "19")]
 	private DateTime System_002EIConvertible_002EToDateTime(IFormatProvider provider)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x60009D7")]
-	[Address(RVA = "0x3CCDD20", Offset = "0x3CCDD20", VA = "0x3CCDD20", Slot = "21")]
+	[Token(Token = "0x6000A16")]
+	[Address(RVA = "0x1B49DB0", Offset = "0x1B483B0", VA = "0x181B49DB0", Slot = "21")]
 	private object System_002EIConvertible_002EToType(Type type, IFormatProvider provider)
 	{
 		return null;

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003F8")]
+[Token(Token = "0x2000427")]
 internal enum BinaryArrayTypeEnum
 {
-	[Token(Token = "0x4001064")]
-	Single,
-	[Token(Token = "0x4001065")]
-	Jagged,
 	[Token(Token = "0x4001066")]
-	Rectangular,
+	Single,
 	[Token(Token = "0x4001067")]
-	SingleOffset,
+	Jagged,
 	[Token(Token = "0x4001068")]
-	JaggedOffset,
+	Rectangular,
 	[Token(Token = "0x4001069")]
+	SingleOffset,
+	[Token(Token = "0x400106A")]
+	JaggedOffset,
+	[Token(Token = "0x400106B")]
 	RectangularOffset
 }

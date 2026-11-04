@@ -25,16 +25,16 @@ public class CallSite
 	[Token(Token = "0x1700024D")]
 	public CallSiteBinder Binder
 	{
-		[Token(Token = "0x6000B49")]
-		[Address(RVA = "0x4508020", Offset = "0x4508020", VA = "0x4508020")]
+		[Token(Token = "0x6000B48")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B48")]
-	[Address(RVA = "0x4507FF0", Offset = "0x4507FF0", VA = "0x4507FF0")]
+	[Token(Token = "0x6000B47")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	internal CallSite(CallSiteBinder binder)
 	{
 	}
@@ -61,76 +61,76 @@ public class CallSite<T> : CallSite where T : class
 	[Token(Token = "0x1700024E")]
 	public T Update
 	{
-		[Token(Token = "0x6000B4A")]
+		[Token(Token = "0x6000B49")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B4B")]
+	[Token(Token = "0x6000B4A")]
 	private CallSite(CallSiteBinder binder)
 	{
 	}
 
-	[Token(Token = "0x6000B4C")]
+	[Token(Token = "0x6000B4B")]
 	private CallSite()
 	{
 	}
 
-	[Token(Token = "0x6000B4D")]
+	[Token(Token = "0x6000B4C")]
 	internal CallSite<T> CreateMatchMaker()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4E")]
+	[Token(Token = "0x6000B4D")]
 	public static CallSite<T> Create(CallSiteBinder binder)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B4F")]
+	[Token(Token = "0x6000B4E")]
 	private T GetUpdateDelegate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B50")]
+	[Token(Token = "0x6000B4F")]
 	private T GetUpdateDelegate(ref T addr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B51")]
+	[Token(Token = "0x6000B50")]
 	internal void AddRule(T newRule)
 	{
 	}
 
-	[Token(Token = "0x6000B52")]
+	[Token(Token = "0x6000B51")]
 	internal void MoveRule(int i)
 	{
 	}
 
-	[Token(Token = "0x6000B53")]
+	[Token(Token = "0x6000B52")]
 	internal T MakeUpdateDelegate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B54")]
+	[Token(Token = "0x6000B53")]
 	private T CreateCustomUpdateDelegate(MethodInfo invoke)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B55")]
+	[Token(Token = "0x6000B54")]
 	private T CreateCustomNoMatchDelegate(MethodInfo invoke)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B56")]
+	[Token(Token = "0x6000B55")]
 	private static Expression Convert(Expression arg, Type type)
 	{
 		return null;

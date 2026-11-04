@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnJointBreakMessageListener : MessageListener
 {
-	[Token(Token = "0x6000437")]
-	[Address(RVA = "0x4CB5FD0", Offset = "0x4CB5FD0", VA = "0x4CB5FD0")]
+	[Token(Token = "0x6000441")]
+	[Address(RVA = "0x2DBE320", Offset = "0x2DBC920", VA = "0x182DBE320")]
 	private void OnJointBreak(float breakForce)
 	{
 	}
 
-	[Token(Token = "0x6000438")]
-	[Address(RVA = "0x4CB6060", Offset = "0x4CB6060", VA = "0x4CB6060")]
+	[Token(Token = "0x6000442")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnJointBreakMessageListener()
 	{
 	}

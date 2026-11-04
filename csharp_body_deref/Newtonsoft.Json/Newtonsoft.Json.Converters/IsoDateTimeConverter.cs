@@ -33,13 +33,13 @@ public class IsoDateTimeConverter : DateTimeConverterBase
 	public DateTimeStyles DateTimeStyles
 	{
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0x3E440A0", Offset = "0x3E440A0", VA = "0x3E440A0")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(DateTimeStyles);
 		}
 		[Token(Token = "0x6000ECE")]
-		[Address(RVA = "0x3E440B0", Offset = "0x3E440B0", VA = "0x3E440B0")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		set
 		{
 		}
@@ -49,13 +49,13 @@ public class IsoDateTimeConverter : DateTimeConverterBase
 	public string? DateTimeFormat
 	{
 		[Token(Token = "0x6000ECF")]
-		[Address(RVA = "0x3E440C0", Offset = "0x3E440C0", VA = "0x3E440C0")]
+		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x3E440F0", Offset = "0x3E440F0", VA = "0x3E440F0")]
+		[Address(RVA = "0x1C953D0", Offset = "0x1C939D0", VA = "0x181C953D0")]
 		set
 		{
 		}
@@ -65,33 +65,33 @@ public class IsoDateTimeConverter : DateTimeConverterBase
 	public CultureInfo Culture
 	{
 		[Token(Token = "0x6000ED1")]
-		[Address(RVA = "0x3E44130", Offset = "0x3E44130", VA = "0x3E44130")]
+		[Address(RVA = "0x1C95370", Offset = "0x1C93970", VA = "0x181C95370")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ED2")]
-		[Address(RVA = "0x3E44190", Offset = "0x3E44190", VA = "0x3E44190")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000ED3")]
-	[Address(RVA = "0x3E441A0", Offset = "0x3E441A0", VA = "0x3E441A0", Slot = "4")]
+	[Address(RVA = "0x1C95030", Offset = "0x1C93630", VA = "0x181C95030", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000ED4")]
-	[Address(RVA = "0x3E44500", Offset = "0x3E44500", VA = "0x3E44500", Slot = "5")]
+	[Address(RVA = "0x1C94A80", Offset = "0x1C93080", VA = "0x181C94A80", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ED5")]
-	[Address(RVA = "0x3E44B10", Offset = "0x3E44B10", VA = "0x3E44B10")]
+	[Address(RVA = "0x1C95360", Offset = "0x1C93960", VA = "0x181C95360")]
 	public IsoDateTimeConverter()
 	{
 	}

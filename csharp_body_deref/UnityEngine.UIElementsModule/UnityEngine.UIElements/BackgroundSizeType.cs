@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A8")]
+[Token(Token = "0x200044A")]
 public enum BackgroundSizeType
 {
-	[Token(Token = "0x4000AFD")]
+	[Token(Token = "0x4000E4D")]
 	Length,
-	[Token(Token = "0x4000AFE")]
+	[Token(Token = "0x4000E4E")]
 	Cover,
-	[Token(Token = "0x4000AFF")]
+	[Token(Token = "0x4000E4F")]
 	Contain
 }

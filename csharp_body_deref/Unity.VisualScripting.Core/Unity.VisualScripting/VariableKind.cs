@@ -12,16 +12,16 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001D6")]
 public enum VariableKind
 {
-	[Token(Token = "0x400094E")]
+	[Token(Token = "0x400094C")]
 	Flow,
-	[Token(Token = "0x400094F")]
+	[Token(Token = "0x400094D")]
 	Graph,
-	[Token(Token = "0x4000950")]
+	[Token(Token = "0x400094E")]
 	Object,
-	[Token(Token = "0x4000951")]
+	[Token(Token = "0x400094F")]
 	Scene,
-	[Token(Token = "0x4000952")]
+	[Token(Token = "0x4000950")]
 	Application,
-	[Token(Token = "0x4000953")]
+	[Token(Token = "0x4000951")]
 	Saved
 }

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B4")]
+[Token(Token = "0x20004E4")]
 public enum UltimateResourceFallbackLocation
 {
 	[Token(Token = "0x400136E")]

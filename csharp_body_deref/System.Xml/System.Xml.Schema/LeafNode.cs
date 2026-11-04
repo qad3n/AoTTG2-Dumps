@@ -20,13 +20,13 @@ internal class LeafNode : SyntaxTreeNode
 	public int Pos
 	{
 		[Token(Token = "0x6000FDB")]
-		[Address(RVA = "0x4846FF0", Offset = "0x4846FF0", VA = "0x4846FF0")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000FDC")]
-		[Address(RVA = "0x4847000", Offset = "0x4847000", VA = "0x4847000")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		set
 		{
 		}
@@ -36,7 +36,7 @@ internal class LeafNode : SyntaxTreeNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FDF")]
-		[Address(RVA = "0x48470C0", Offset = "0x48470C0", VA = "0x48470C0", Slot = "6")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -44,19 +44,19 @@ internal class LeafNode : SyntaxTreeNode
 	}
 
 	[Token(Token = "0x6000FDA")]
-	[Address(RVA = "0x4846FD0", Offset = "0x4846FD0", VA = "0x4846FD0")]
+	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 	public LeafNode(int pos)
 	{
 	}
 
 	[Token(Token = "0x6000FDD")]
-	[Address(RVA = "0x4847010", Offset = "0x4847010", VA = "0x4847010", Slot = "4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FDE")]
-	[Address(RVA = "0x4847020", Offset = "0x4847020", VA = "0x4847020", Slot = "5")]
+	[Address(RVA = "0x277F0C0", Offset = "0x277D6C0", VA = "0x18277F0C0", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}

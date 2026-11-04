@@ -1,5 +1,5 @@
 // Type: Projectiles.BaseProjectile
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Projectiles/BaseProjectile.cs
@@ -8,14 +8,14 @@
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$.ctor
 // il2cpp: void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21___ctor (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x42054c0
+// 0x180573ef0
 
-void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21___ctor
-               (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void
+Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21___ctor(Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21___ctor
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$System.IDisposable.Dispose
 // il2cpp: void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_IDisposable_Dispose (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, const MethodInfo* method);
-// 0x4205ca0
+// 0x180547020
 
-void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_IDisposable_Dispose
-               (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
+void
+Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_IDisposable_Dispose(Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, MethodInfo* method)
 
 {
   return;
@@ -35,64 +35,58 @@ void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_IDi
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$MoveNext
 // il2cpp: bool Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__MoveNext (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, const MethodInfo* method);
-// 0x4205cb0
+// 0x181f2a520
 
-bool_conflict
-Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__MoveNext
-          (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
+bool Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__MoveNext
+               (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
 
 {
-  float seconds;
+  float amplificationFactor;
   int iVar1;
-  UnityEngine_WaitForSeconds_o *__this_00;
+  Projectiles_BaseProjectile_o *__this_00;
+  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *__this_01;
   UnityEngine_GameObject_o *targetGo;
-  bool_conflict bVar2;
-  Projectiles_BaseProjectile_o *__this_01;
   
-  if (g_data_057ad8e0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhotonNetwork);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitForSeconds);
-    g_data_057ad8e0 = '\x01';
+  if (Il2CppMethodInitialized_1843454e0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
+    Il2CppMethodInitialized_1843454e0 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 1) {
-    __this_01 = (__this->fields).__4__this;
+  if (iVar1 == 0) {
+    amplificationFactor = (__this->fields).time;
     (__this->fields).__1__state = -1;
-    if (__this_01 == (Projectiles_BaseProjectile_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      return (bool_conflict)(__this_01->fields).m_CancellationTokenSource;
-    }
-    targetGo = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_PhotonNetwork + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar2 = 0;
-    Photon_Pun_PhotonNetwork__Destroy_3eec3a0(targetGo,(MethodInfo *)0x0);
-  }
-  else if (iVar1 == 0) {
-    (__this->fields).__1__state = -1;
-    seconds = (__this->fields).time;
-    __this_00 = (UnityEngine_WaitForSeconds_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-    UnityEngine_WaitForSeconds___ctor(__this_00,seconds,(MethodInfo *)0x0);
-    (__this->fields).__2__current = (Il2CppObject *)__this_00;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,__this_00);
+    __this_01 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+    UnityEngine_WaitForSeconds___ctor
+              (__this_01,amplificationFactor,(MethodInfo *)0x0);
+    (__this->fields).__2__current = (Il2CppObject *)__this_01;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
     (__this->fields).__1__state = 1;
-    bVar2 = (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
+    return true;
   }
-  else {
-    bVar2 = 0;
+  if (iVar1 == 1) {
+    __this_00 = (__this->fields).__4__this;
+    (__this->fields).__1__state = -1;
+    if (__this_00 == (Projectiles_BaseProjectile_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    targetGo = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+    }
+    Photon_Pun_PhotonNetwork__Destroy_1d35aa0(targetGo,(MethodInfo *)0x0);
   }
-  return bVar2;
+  return false;
 }
 
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, const MethodInfo* method);
-// 0x4205d90
+// 0x180573e90
 
-Il2CppObject *
-Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
+Il2CppObject*
+Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current(Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -101,31 +95,34 @@ Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collecti
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$System.Collections.IEnumerator.Reset
 // il2cpp: void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_IEnumerator_Reset (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, const MethodInfo* method);
-// 0x4205da0
+// 0x181f2a610
 
 void Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_IEnumerator_Reset
                (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_Projectiles_BaseProjectile_WaitAndFinishDestroyCoroutine_d__21_System_Collections_IEnumerator_Re
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // Projectiles.BaseProjectile.<WaitAndFinishDestroyCoroutine>d__21$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_IEnumerator_get_Current (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, const MethodInfo* method);
-// 0x4205de0
+// 0x180573e90
 
-Il2CppObject *
-Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_IEnumerator_get_Current
-          (Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this,MethodInfo *method)
+Il2CppObject*
+Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collections_IEnumerator_get_Current(Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -134,7 +131,7 @@ Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21__System_Collecti
 
 // Projectiles.BaseProjectile$$get_TrailFadeMultiplier
 // il2cpp: float Projectiles_BaseProjectile__get_TrailFadeMultiplier (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4204a70
+// 0x181f0e9d0
 
 float Projectiles_BaseProjectile__get_TrailFadeMultiplier
                 (Projectiles_BaseProjectile_o *__this,MethodInfo *method)
@@ -146,9 +143,10 @@ float Projectiles_BaseProjectile__get_TrailFadeMultiplier
 
 // Projectiles.BaseProjectile$$get_DestroyDelay
 // il2cpp: float Projectiles_BaseProjectile__get_DestroyDelay (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4204a80
+// 0x181f0e9c0
 
-float Projectiles_BaseProjectile__get_DestroyDelay(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
+float
+Projectiles_BaseProjectile__get_DestroyDelay(Projectiles_BaseProjectile_o* __this, MethodInfo* method)
 
 {
   return 1.5;
@@ -157,427 +155,472 @@ float Projectiles_BaseProjectile__get_DestroyDelay(Projectiles_BaseProjectile_o 
 
 // Projectiles.BaseProjectile$$Setup
 // il2cpp: void Projectiles_BaseProjectile__Setup (Projectiles_BaseProjectile_o* __this, float liveTime, UnityEngine_Vector3_o velocity, UnityEngine_Vector3_o gravity, int32_t charViewId, System_String_o* team, System_Object_array* settings, const MethodInfo* method);
-// 0x4204a90
+// 0x181f0e4e0
 
 void Projectiles_BaseProjectile__Setup
-               (Projectiles_BaseProjectile_o *__this,float liveTime,UnityEngine_Vector3_o velocity,
-               UnityEngine_Vector3_o gravity,int32_t charViewId,System_String_o *team,
+               (Projectiles_BaseProjectile_o *__this,float liveTime,UnityEngine_Vector3_o *velocity,
+               UnityEngine_Vector3_o *gravity,int32_t charViewId,System_String_o *team,
                System_Object_array *settings,MethodInfo *method)
 
 {
   undefined8 uVar1;
   UnityEngine_Rigidbody_o *__this_00;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_Collections_Generic_List_Collider__o *__this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  System_Collections_Generic_List_Enumerator_object__o __this_06;
-  System_Collections_Generic_List_Enumerator_object__o __this_07;
-  System_Collections_Generic_List_Enumerator_object__o __this_08;
-  UnityEngine_Collider_o *collider2;
-  bool_conflict bVar2;
-  UnityEngine_GameObject_o *__this_09;
+  UnityEngine_Vector3_StaticFields *pUVar2;
+  UnityEngine_GameObject_o *__this_01;
   UnityEngine_ConstantForce_o *pUVar3;
+  Photon_Pun_PhotonView_o *__this_02;
+  System_Object_array *parameters;
   Il2CppObject *pIVar4;
-  long lVar5;
-  Projectiles_BaseProjectile_o *__this_10;
-  Photon_Pun_PhotonView_o *pPVar6;
-  Characters_BaseCharacter_o *pCVar7;
-  long *plVar8;
-  undefined8 extraout_RDX;
-  ulong uVar9;
-  ulong uVar10;
-  MethodInfo *method_00;
-  Photon_Pun_PhotonView_o *unaff_R12;
-  float fVar11;
-  undefined1 auVar12 [12];
-  _union_249689 _Var13;
-  Il2CppType *pIVar14;
-  UnityEngine_Collider_o *collider1;
-  UnityEngine_Collider_o *pUVar15;
-  _union_249689 _Stack_d0;
-  Il2CppType *pIStack_c8;
-  UnityEngine_Collider_o *pUStack_c0;
-  _union_249689 _Stack_b0;
-  Il2CppType *pIStack_a8;
-  UnityEngine_Collider_o *pUStack_a0;
-  System_Object_array *pSStack_98;
-  Photon_Pun_PhotonView_o *pPStack_90;
-  float fStack_58;
-  float fStack_54;
+  Il2CppObject *pIVar5;
+  float fVar6;
+  float fVar7;
+  float fVar8;
+  int32_t local_res10 [2];
+  UnityEngine_Vector3_Fields local_28 [2];
   
-  if (g_data_057ad8d8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ConstantForce_AddComponent_ConstantForce);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
-    il2cpp_runtime_helper_023445d0(&"SetupRPC");
-    g_data_057ad8d8 = '\x01';
+  if (Il2CppMethodInitialized_1843454d8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_ConstantForce);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"SetupRPC");
+    Il2CppMethodInitialized_1843454d8 = '\x01';
   }
-  (__this->fields)._timeLeft = liveTime;
   __this_00 = (__this->fields)._rigidbody;
-  if (__this_00 == (UnityEngine_Rigidbody_o *)0x0) {
-label_04204d02:
-    il2cpp_runtime_helper_022b2c90();
-label_04204d07:
-    il2cpp_runtime_helper_022b2ca0();
+  (__this->fields)._timeLeft = liveTime;
+  if (__this_00 == (UnityEngine_Rigidbody_o *)0x0) goto label_181f0e761;
+  local_28[0].x = (velocity->fields).x;
+  local_28[0].y = (velocity->fields).y;
+  local_28[0].z = (velocity->fields).z;
+  UnityEngine_Rigidbody__set_linearVelocity(__this_00,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+  (__this->fields)._team = team;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._team,team);
+  fVar7 = (velocity->fields).y;
+  fVar6 = (velocity->fields).z;
+  uVar1._0_4_ = (gravity->fields).x;
+  uVar1._4_4_ = (gravity->fields).y;
+  (__this->fields)._velocity.fields.x = (velocity->fields).x;
+  (__this->fields)._velocity.fields.y = fVar7;
+  (__this->fields)._velocity.fields.z = fVar6;
+  local_28[0]._0_8_ = uVar1;
+  if (Il2CppMethodInitialized_18433dbea == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433dbea = '\x01';
   }
-  else {
-    UnityEngine_Rigidbody__set_velocity(__this_00,velocity,(MethodInfo *)0x0);
-    (__this->fields)._team = team;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._team);
-    (__this->fields)._velocity.fields.x = (float)(int)velocity.fields._0_8_;
-    (__this->fields)._velocity.fields.y = (float)(int)((ulong)velocity.fields._0_8_ >> 0x20);
-    (__this->fields)._velocity.fields.z = velocity.fields.z;
-    if (g_data_057a65d5 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-      g_data_057a65d5 = '\x01';
+  pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
+  fVar8 = (float)uVar1 - (pUVar2->zeroVector).fields.x;
+  fVar7 = local_28[0].y - (pUVar2->zeroVector).fields.y;
+  fVar6 = (gravity->fields).z - (pUVar2->zeroVector).fields.z;
+  if (9.9999994e-11 <= fVar7 * fVar7 + fVar8 * fVar8 + fVar6 * fVar6) {
+    __this_01 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (__this_01 == (UnityEngine_GameObject_o *)0x0) {
+label_181f0e761:
+      ThrowNullReferenceException();
     }
-    uVar1 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-    fStack_58 = gravity.fields.x;
-    fStack_54 = gravity.fields.y;
-    fStack_54 = fStack_54 - (float)((ulong)uVar1 >> 0x20);
-    fVar11 = gravity.fields.z - *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-    fStack_58 = fStack_58 - (float)uVar1;
-    if (9.9999994e-11 <= fStack_58 * fStack_58 + fStack_54 * fStack_54 + fVar11 * fVar11) {
-      __this_09 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (__this_09 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar3 = (UnityEngine_ConstantForce_o *)
-                 UnityEngine_GameObject__AddComponent_object_(__this_09,MethodInfo_ConstantForce_AddComponent_ConstantForce);
-        (__this->fields)._force = pUVar3;
-        il2cpp_runtime_helper_022b4080(&(__this->fields)._force);
-        pUVar3 = (__this->fields)._force;
-        if (pUVar3 != (UnityEngine_ConstantForce_o *)0x0) {
-          UnityEngine_ConstantForce__set_force(pUVar3,gravity,(MethodInfo *)0x0);
-          goto label_04204c2b;
+    pUVar3 = UnityEngine_GameObject__AddComponent_object_
+                       (__this_01,
+                        (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_ConstantForce);
+    (__this->fields)._force = pUVar3;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._force,pUVar3);
+    pUVar3 = (__this->fields)._force;
+    if (pUVar3 == (UnityEngine_ConstantForce_o *)0x0) goto label_181f0e761;
+    local_28[0].x = (gravity->fields).x;
+    local_28[0].y = (gravity->fields).y;
+    local_28[0].z = (gravity->fields).z;
+    UnityEngine_ConstantForce__set_force(pUVar3,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+  }
+  __this_02 = Photon_Pun_MonoBehaviourPun__get_photonView
+                        ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+  parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,2);
+  local_res10[0] = charViewId;
+  pIVar4 = il2cpp_value_box(g_data_184354e08,local_res10);
+  if (parameters != (System_Object_array *)0x0) {
+    if (pIVar4 != (Il2CppObject *)0x0) {
+      pIVar5 = il2cpp_vm_Object_IsInst(pIVar4,(((parameters->obj).klass)->_1).element_class);
+      if (pIVar5 == (Il2CppObject *)0x0) {
+        pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
+      }
+    }
+    if ((int)parameters->max_length != 0) {
+      parameters->m_Items[0] = pIVar4;
+      Il2CppCodeGenWriteBarrier(parameters->m_Items,pIVar4);
+      if (settings != (System_Object_array *)0x0) {
+        pIVar4 = il2cpp_vm_Object_IsInst(&settings->obj,(((parameters->obj).klass)->_1).element_class);
+        if (pIVar4 == (Il2CppObject *)0x0) {
+          pIVar4 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar4,(MethodInfo *)0x0);
         }
       }
-      goto label_04204d02;
-    }
-label_04204c2b:
-    unaff_R12 = Photon_Pun_MonoBehaviourPun__get_photonView
-                          ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-    team = (System_String_o *)il2cpp_runtime_helper_022b2a40(TypeInfo_object,2);
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8);
-    if ((System_Object_array *)team == (System_Object_array *)0x0) goto label_04204d02;
-    if ((pIVar4 == (Il2CppObject *)0x0) || (lVar5 = il2cpp_runtime_helper_023051f0(pIVar4), lVar5 != 0)) {
-      if ((int)((System_Object_array *)team)->max_length != 0) {
-        ((System_Object_array *)team)->m_Items[0] = pIVar4;
-        il2cpp_runtime_helper_022b4080(((System_Object_array *)team)->m_Items);
-        if ((settings != (System_Object_array *)0x0) && (lVar5 = il2cpp_runtime_helper_023051f0(settings), lVar5 == 0))
-        goto label_04204d0c;
-        if (1 < (uint)((System_Object_array *)team)->max_length) {
-          ((System_Object_array *)team)->m_Items[1] = &settings->obj;
-          il2cpp_runtime_helper_022b4080(((System_Object_array *)team)->m_Items + 1);
-          if (unaff_R12 != (Photon_Pun_PhotonView_o *)0x0) {
-            Photon_Pun_PhotonView__RPC(unaff_R12,"SetupRPC",0,(System_Object_array *)team,(MethodInfo *)0x0)
-            ;
-            return;
-          }
-          goto label_04204d02;
+      if (1 < (uint)parameters->max_length) {
+        parameters->m_Items[1] = &settings->obj;
+        Il2CppCodeGenWriteBarrier(parameters->m_Items + 1,settings);
+        if (__this_02 != (Photon_Pun_PhotonView_o *)0x0) {
+          Photon_Pun_PhotonView__RPC(__this_02,"SetupRPC",0,parameters,(MethodInfo *)0x0);
+          return;
         }
+        goto label_181f0e78d;
       }
-      goto label_04204d07;
     }
+    ThrowIndexOutOfRangeException();
   }
-label_04204d0c:
-  __this_10 = (Projectiles_BaseProjectile_o *)il2cpp_runtime_helper_0231b270();
-  uVar10 = 0;
-  il2cpp_runtime_helper_022b2b10();
-  uVar9 = uVar10 & 0xffffffff;
-  pSStack_98 = (System_Object_array *)team;
-  pPStack_90 = unaff_R12;
-  if (g_data_057ad8d9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCharacter_GetComponent_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Physics);
-    g_data_057ad8d9 = '\x01';
-  }
-  _Var13.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIVar14 = (Il2CppType *)0x0;
-  collider1 = (UnityEngine_Collider_o *)0x0;
-  _Stack_d0.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIStack_c8 = (Il2CppType *)0x0;
-  pUStack_c0 = (UnityEngine_Collider_o *)0x0;
-  pPVar6 = Photon_Pun_MonoBehaviourPun__get_photonView
-                     ((Photon_Pun_MonoBehaviourPun_o *)__this_10,(MethodInfo *)0x0);
-  if (pPVar6 == (Photon_Pun_PhotonView_o *)0x0) goto label_0420506f;
-  if (gravity.fields._0_8_ != (pPVar6->fields)._Owner_k__BackingField) {
-    return;
-  }
-  if ((int)uVar10 != -1) {
-    pPVar6 = Photon_Pun_PhotonView__Find((int)uVar10,(MethodInfo *)0x0);
-    if (pPVar6 == (Photon_Pun_PhotonView_o *)0x0) goto label_0420506f;
-    pCVar7 = (Characters_BaseCharacter_o *)
-             UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pPVar6,MethodInfo_BaseCharacter_GetComponent_BaseCharacter);
-    (__this_10->fields)._owner = pCVar7;
-    il2cpp_runtime_helper_022b4080(&(__this_10->fields)._owner,pCVar7);
-    pCVar7 = (__this_10->fields)._owner;
-    if (pCVar7 == (Characters_BaseCharacter_o *)0x0) goto label_0420506f;
-    (__this_10->fields)._team = *(System_String_o **)&(pCVar7->fields).AI;
-    il2cpp_runtime_helper_022b4080(&(__this_10->fields)._team);
-  }
-  (*(__this_10->klass->vtable)._14_SetupSettings.methodPtr)
-            (__this_10,extraout_RDX,(__this_10->klass->vtable)._14_SetupSettings.method);
-  method_00 = (__this_10->klass->vtable)._15_RegisterObjects.method;
-  (*(__this_10->klass->vtable)._15_RegisterObjects.methodPtr)(__this_10);
-  Projectiles_BaseProjectile__RegisterColliders(__this_10,method_00);
-  pCVar7 = (__this_10->fields)._owner;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pCVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    return;
-  }
-  pCVar7 = (__this_10->fields)._owner;
-  if (((pCVar7 != (Characters_BaseCharacter_o *)0x0) && (lVar5 = *(long *)&(pCVar7->fields).Dead, lVar5 != 0))
-     && (__this_01 = *(System_Collections_Generic_List_object__o **)(lVar5 + 0x28),
-        __this_01 != (System_Collections_Generic_List_object__o *)0x0)) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)&_Stack_b0,__this_01,MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-    _Var13 = _Stack_b0;
-    pIVar14 = pIStack_a8;
-    collider1 = pUStack_a0;
-    while( true ) {
-      __this_03.fields._8_8_ = pIVar14;
-      __this_03.fields._list = _Var13.genericMethod;
-      __this_03.fields._current = (Il2CppObject *)collider1;
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_03,(MethodInfo_321A1D0 *)&stack0xffffffffffffff10);
-      if ((char)bVar2 == '\0') {
-        __this_06.fields._8_8_ = pIVar14;
-        __this_06.fields._list = _Var13.genericMethod;
-        __this_06.fields._current = (Il2CppObject *)collider1;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_06,(MethodInfo_321A1C0 *)&stack0xffffffffffffff10);
-        return;
-      }
-      __this_02 = (__this_10->fields)._colliders;
-      if (__this_02 == (System_Collections_Generic_List_Collider__o *)0x0) break;
-      pUVar15 = collider1;
-      System_Collections_Generic_List_object___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)&_Stack_b0,
-                 (System_Collections_Generic_List_object__o *)__this_02,MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-      pUStack_c0 = pUStack_a0;
-      _Stack_d0.genericMethod = _Stack_b0.genericMethod;
-      pIStack_c8 = pIStack_a8;
-      while (__this_04.fields._8_8_ = pIVar14, __this_04.fields._list = _Var13.genericMethod,
-            __this_04.fields._current = (Il2CppObject *)pUVar15,
-            bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              (__this_04,(MethodInfo_321A1D0 *)&_Stack_d0), collider2 = pUStack_c0,
-            (char)bVar2 != '\0') {
-        if (*(int *)(TypeInfo_Physics + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        UnityEngine_Physics__IgnoreCollision_4e76ac0(collider1,collider2,(MethodInfo *)0x0);
-      }
-      uVar9 = 0;
-      __this_05.fields._8_8_ = pIVar14;
-      __this_05.fields._list = _Var13.genericMethod;
-      __this_05.fields._current = (Il2CppObject *)pUVar15;
-      System_Collections_Generic_List_Enumerator_object___Dispose(__this_05,(MethodInfo_321A1C0 *)&_Stack_d0);
-      collider1 = pUVar15;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    il2cpp_runtime_helper_022fefe0(uVar9);
-  }
-label_0420506f:
-  auVar12 = il2cpp_runtime_helper_022b2c90();
-  if (auVar12._8_4_ == 1) {
-    plVar8 = (long *)__cxa_begin_catch(auVar12._0_8_);
-    lVar5 = *plVar8;
-    __cxa_end_catch();
-    __this_07.fields._8_8_ = pIVar14;
-    __this_07.fields._list = _Var13.genericMethod;
-    __this_07.fields._current = (Il2CppObject *)collider1;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_07,(MethodInfo_321A1C0 *)&stack0xffffffffffffff10);
-    if (lVar5 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar5);
-  }
-  __this_08.fields._8_8_ = pIVar14;
-  __this_08.fields._list = _Var13.genericMethod;
-  __this_08.fields._current = (Il2CppObject *)collider1;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_08,(MethodInfo_321A1C0 *)&stack0xffffffffffffff10);
-  _Unwind_Resume(auVar12._0_8_);
+label_181f0e78d:
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.BaseProjectile$$SetupRPC
 // il2cpp: void Projectiles_BaseProjectile__SetupRPC (Projectiles_BaseProjectile_o* __this, int32_t charViewId, System_Object_array* settings, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x4204d20
+// 0x181f0de30
+// eh: try 0x181f0e170..0x181f0e4d0 -> pad 0x1833245a0 (+7 call sites) catch Il2CppExceptionWrapper
+// asm: 80 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f0e233: mov rdx, qword ptr [rip + 0x216ac96]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose
+// asm:   0x181f0e23a: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181f0e23f: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0e244: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181f0e249: test rcx, rcx
+// asm:   0x181f0e24c: jne 0x181f0e4b3
+// asm:   0x181f0e252: xor r12d, r12d
+// asm:   0x181f0e255: mov rsi, qword ptr [rsp + 0xf0]
+// asm:   0x181f0e25d: jmp 0x181f0e170
+// asm:   0x181f0e275: mov rdx, qword ptr [rip + 0x216ac54]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose
+// asm:   0x181f0e27c: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f0e281: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0e286: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x181f0e28b: test rcx, rcx
+// asm:   0x181f0e28e: jne 0x181f0e4bf
+// asm:   0x181f0e294: xor r12d, r12d
+// asm:   0x181f0e297: mov rsi, qword ptr [rsp + 0xf0]
+// asm:   0x181f0e443: mov rdx, qword ptr [rip + 0x216aa86]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose
+// asm:   0x181f0e44a: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181f0e44f: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0e454: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181f0e459: test rcx, rcx
+// asm:   0x181f0e45c: jne 0x181f0e4c5
+// asm:   0x181f0e45e: xor r12d, r12d
+// asm:   0x181f0e461: mov rsi, qword ptr [rsp + 0xf0]
+// asm:   0x181f0e469: jmp 0x181f0e383
+// asm:   0x181f0e481: mov rdx, qword ptr [rip + 0x216aa48]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose
+// asm:   0x181f0e488: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f0e48d: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0e492: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x181f0e497: test rcx, rcx
+// asm:   0x181f0e49a: jne 0x181f0e4d0
+// asm:   0x181f0e4b3: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181f0e4bf: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181f0e4c5: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181f0e4d0: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x1833245a0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833245a5: push rbp
+// asm:   0x1833245a6: sub rsp, 0x20
+// asm:   0x1833245aa: mov rbp, rdx
+// asm:   0x1833245ad: mov rax, qword ptr [rbp + 0x98]
+// asm:   0x1833245b4: mov rcx, qword ptr [rax]
+// asm:   0x1833245b7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x1833245bb: movabs rax, 0
+// asm:   0x1833245c5: add rsp, 0x20
+// asm:   0x1833245c9: pop rbp
+// asm:   0x1833245ca: ret 
+// asm:   0x183324f50: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183324f55: push rbp
+// asm:   0x183324f56: sub rsp, 0x20
+// asm:   0x183324f5a: mov rbp, rdx
+// asm:   0x183324f5d: mov rax, qword ptr [rbp + 0xa0]
+// asm:   0x183324f64: mov rcx, qword ptr [rax]
+// asm:   0x183324f67: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x183324f6b: movabs rax, 0
+// asm:   0x183324f75: add rsp, 0x20
+// asm:   0x183324f79: pop rbp
+// asm:   0x183324f7a: ret 
+// asm:   0x1833316f0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833316f5: push rbp
+// asm:   0x1833316f6: sub rsp, 0x20
+// asm:   0x1833316fa: mov rbp, rdx
+// asm:   0x1833316fd: mov rax, qword ptr [rbp + 0xa8]
+// asm:   0x183331704: mov rcx, qword ptr [rax]
+// asm:   0x183331707: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x18333170b: movabs rax, 0
+// asm:   0x183331715: add rsp, 0x20
+// asm:   0x183331719: pop rbp
+// asm:   0x18333171a: ret 
+// asm:   0x18333c7d0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333c7d5: push rbp
+// asm:   0x18333c7d6: sub rsp, 0x20
+// asm:   0x18333c7da: mov rbp, rdx
+// asm:   0x18333c7dd: mov rax, qword ptr [rbp + 0x90]
+// asm:   0x18333c7e4: mov rcx, qword ptr [rax]
+// asm:   0x18333c7e7: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x18333c7eb: movabs rax, 0
+// asm:   0x18333c7f5: add rsp, 0x20
+// asm:   0x18333c7f9: pop rbp
+// asm:   0x18333c7fa: ret 
 
 void Projectiles_BaseProjectile__SetupRPC
                (Projectiles_BaseProjectile_o *__this,int32_t charViewId,System_Object_array *settings,
-               Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
+               Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_List_object__o *__this_00;
-  System_Collections_Generic_List_Collider__o *__this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  System_Collections_Generic_List_Enumerator_object__o __this_06;
-  System_Collections_Generic_List_Enumerator_object__o __this_07;
-  UnityEngine_Collider_o *collider2;
-  bool_conflict bVar2;
-  Photon_Pun_PhotonView_o *pPVar3;
-  Characters_BaseCharacter_o *pCVar4;
-  long *plVar5;
-  MethodInfo *method_00;
-  undefined1 auVar6 [12];
-  _union_249689 _Var7;
-  Il2CppType *pIVar8;
-  UnityEngine_Collider_o *collider1;
+  int32_t *piVar1;
+  byte bVar2;
+  uint uVar3;
+  System_String_o *pSVar4;
+  UnityEngine_Component_o *__this_00;
+  System_Collections_Generic_List_Collider__o *pSVar5;
+  UnityEngine_Collider_array *pUVar6;
+  Utility_BaseComponentCache_o *pUVar7;
+  System_String_c *pSVar8;
+  System_Collections_Generic_List_T__o *__this_01;
   UnityEngine_Collider_o *pUVar9;
-  _union_249689 _Stack_68;
-  Il2CppType *pIStack_60;
-  UnityEngine_Collider_o *pUStack_58;
-  _union_249689 _Stack_48;
-  Il2CppType *pIStack_40;
-  UnityEngine_Collider_o *pUStack_38;
+  Il2CppObject *pIVar10;
+  bool bVar11;
+  Photon_Pun_PhotonView_o *pPVar12;
+  Characters_BaseCharacter_o *pCVar13;
+  System_Object_array *pSVar14;
+  UnityEngine_GameObject_o *__this_02;
+  uint uVar15;
+  MethodInfo *pMVar16;
+  undefined1 local_b8 [16];
+  UnityEngine_Collider_o *local_a8;
+  undefined1 local_a0 [8];
+  System_Collections_Generic_List_Enumerator_object__o *pSStack_98;
+  UnityEngine_Collider_o *local_90;
+  System_Collections_Generic_List_Enumerator_object__o local_88;
+  System_Collections_Generic_List_Enumerator_T__o local_70 [2];
   
-  if (g_data_057ad8d9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCharacter_GetComponent_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Physics);
-    g_data_057ad8d9 = '\x01';
+  if (Il2CppMethodInitialized_1843454d9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
+    Il2CppMethodInitialized_1843454d9 = '\x01';
   }
-  _Var7.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIVar8 = (Il2CppType *)0x0;
-  collider1 = (UnityEngine_Collider_o *)0x0;
-  _Stack_68.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIStack_60 = (Il2CppType *)0x0;
-  pUStack_58 = (UnityEngine_Collider_o *)0x0;
-  pPVar3 = Photon_Pun_MonoBehaviourPun__get_photonView
-                     ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-  if (pPVar3 == (Photon_Pun_PhotonView_o *)0x0) goto label_0420506f;
-  if (info.fields.Sender != (pPVar3->fields)._Owner_k__BackingField) {
-    return;
-  }
-  if (charViewId != -1) {
-    pPVar3 = Photon_Pun_PhotonView__Find(charViewId,(MethodInfo *)0x0);
-    if (pPVar3 == (Photon_Pun_PhotonView_o *)0x0) goto label_0420506f;
-    pCVar4 = (Characters_BaseCharacter_o *)
-             UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pPVar3,MethodInfo_BaseCharacter_GetComponent_BaseCharacter);
-    (__this->fields)._owner = pCVar4;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._owner,pCVar4);
-    pCVar4 = (__this->fields)._owner;
-    if (pCVar4 == (Characters_BaseCharacter_o *)0x0) goto label_0420506f;
-    (__this->fields)._team = *(System_String_o **)&(pCVar4->fields).AI;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._team);
-  }
-  (*(__this->klass->vtable)._14_SetupSettings.methodPtr)
-            (__this,settings,(__this->klass->vtable)._14_SetupSettings.method);
-  method_00 = (__this->klass->vtable)._15_RegisterObjects.method;
-  (*(__this->klass->vtable)._15_RegisterObjects.methodPtr)(__this);
-  Projectiles_BaseProjectile__RegisterColliders(__this,method_00);
-  pCVar4 = (__this->fields)._owner;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pCVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    return;
-  }
-  pCVar4 = (__this->fields)._owner;
-  if (((pCVar4 != (Characters_BaseCharacter_o *)0x0) && (lVar1 = *(long *)&(pCVar4->fields).Dead, lVar1 != 0))
-     && (__this_00 = *(System_Collections_Generic_List_object__o **)(lVar1 + 0x28),
-        __this_00 != (System_Collections_Generic_List_object__o *)0x0)) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)&_Stack_48,__this_00,MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-    _Var7 = _Stack_48;
-    pIVar8 = pIStack_40;
-    collider1 = pUStack_38;
-    while( true ) {
-      __this_02.fields._8_8_ = pIVar8;
-      __this_02.fields._list = _Var7.genericMethod;
-      __this_02.fields._current = (Il2CppObject *)collider1;
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_02,(MethodInfo_321A1D0 *)&stack0xffffffffffffff78);
-      if ((char)bVar2 == '\0') {
-        __this_05.fields._8_8_ = pIVar8;
-        __this_05.fields._list = _Var7.genericMethod;
-        __this_05.fields._current = (Il2CppObject *)collider1;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_05,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-        return;
+  local_a0 = (undefined1  [8])0x0;
+  pSStack_98 = (System_Collections_Generic_List_Enumerator_object__o *)0x0;
+  local_90 = (UnityEngine_Collider_o *)0x0;
+  local_88.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_88.fields._index = 0;
+  local_88.fields._version = 0;
+  local_88.fields._current = (Il2CppObject *)0x0;
+  pPVar12 = Photon_Pun_MonoBehaviourPun__get_photonView
+                      ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+  if (pPVar12 == (Photon_Pun_PhotonView_o *)0x0) goto label_181f0e4d6;
+  if ((info->fields).Sender == (pPVar12->fields)._Owner_k__BackingField) {
+    if (charViewId != -1) {
+      pPVar12 = Photon_Pun_PhotonView__Find(charViewId,(MethodInfo *)0x0);
+      if (pPVar12 == (Photon_Pun_PhotonView_o *)0x0) goto label_181f0e4d6;
+      pCVar13 = UnityEngine_Component__GetComponent_object_
+                          ((UnityEngine_Component_o *)pPVar12,
+                           (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
+      (__this->fields)._owner = pCVar13;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,pCVar13);
+      pCVar13 = (__this->fields)._owner;
+      if (pCVar13 == (Characters_BaseCharacter_o *)0x0) goto label_181f0e4d6;
+      pSVar4 = (pCVar13->fields).Team;
+      (__this->fields)._team = pSVar4;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._team,pSVar4);
+    }
+    pMVar16 = (__this->klass->vtable)._14_SetupSettings.method;
+    (*(__this->klass->vtable)._14_SetupSettings.methodPtr)(__this,(System_Type_o *)settings,pMVar16);
+    (*(__this->klass->vtable)._15_RegisterObjects.methodPtr)
+              (__this,(System_Type_o *)(__this->klass->vtable)._15_RegisterObjects.method,pMVar16);
+    if (Il2CppMethodInitialized_1843454da == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_Collider);
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Collider_Add);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+      Il2CppMethodInitialized_1843454da = '\x01';
+    }
+    pSVar14 = UnityEngine_Component__GetComponentsInChildren_object__665370
+                        ((UnityEngine_Component_o *)__this,
+                         (MethodInfo_665370 *)
+                         MethodInfo_UnityEngine_Component_GetComponentsInChildren_Collider);
+    if (pSVar14 == (System_Object_array *)0x0) {
+label_181f0e4d6:
+      ThrowNullReferenceException();
+    }
+    uVar15 = 0;
+    while ((int)uVar15 < (int)pSVar14->max_length) {
+      if ((uint)pSVar14->max_length <= uVar15) {
+label_181f0e4ad:
+        ThrowIndexOutOfRangeException();
       }
-      __this_01 = (__this->fields)._colliders;
-      if (__this_01 == (System_Collections_Generic_List_Collider__o *)0x0) break;
-      pUVar9 = collider1;
-      System_Collections_Generic_List_object___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)&_Stack_48,
-                 (System_Collections_Generic_List_object__o *)__this_01,MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-      pUStack_58 = pUStack_38;
-      _Stack_68.genericMethod = _Stack_48.genericMethod;
-      pIStack_60 = pIStack_40;
-      while (__this_03.fields._8_8_ = pIVar8, __this_03.fields._list = _Var7.genericMethod,
-            __this_03.fields._current = (Il2CppObject *)pUVar9,
-            bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              (__this_03,(MethodInfo_321A1D0 *)&_Stack_68), collider2 = pUStack_58,
-            (char)bVar2 != '\0') {
-        if (*(int *)(TypeInfo_Physics + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+      __this_00 = (UnityEngine_Component_o *)pSVar14->m_Items[(int)uVar15];
+      if (__this_00 == (UnityEngine_Component_o *)0x0) goto label_181f0e4d6;
+      __this_02 = UnityEngine_Component__get_gameObject(__this_00,(MethodInfo *)0x0);
+      if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+      }
+      if (__this_02 == (UnityEngine_GameObject_o *)0x0) goto label_181f0e4d6;
+      UnityEngine_GameObject__set_layer
+                (__this_02,TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,(MethodInfo *)0x0);
+      pMVar16 = MethodInfo_System_Collections_Generic_List_Collider_Add;
+      pSVar5 = (__this->fields)._colliders;
+      if (pSVar5 == (System_Collections_Generic_List_Collider__o *)0x0) goto label_181f0e4d6;
+      piVar1 = &(pSVar5->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar6 = (pSVar5->fields)._items;
+      if (pUVar6 == (UnityEngine_Collider_array *)0x0) goto label_181f0e4d6;
+      uVar3 = (pSVar5->fields)._size;
+      if (uVar3 < (uint)pUVar6->max_length) {
+        (pSVar5->fields)._size = uVar3 + 1;
+        if ((uint)pUVar6->max_length <= uVar3) goto label_181f0e4ad;
+        pUVar6->m_Items[(int)uVar3] = (UnityEngine_Collider_o *)__this_00;
+        Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)uVar3,__this_00);
+        uVar15 = uVar15 + 1;
+      }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)pSVar5,(Il2CppObject *)__this_00,
+                   (MethodInfo_93DD50 *)pMVar16->klass->rgctx_data[0xe].method);
+        uVar15 = uVar15 + 1;
+      }
+    }
+    pCVar13 = (__this->fields)._owner;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar11 = UnityEngine_Object__op_Inequality
+                       ((UnityEngine_Object_o *)pCVar13,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar11) {
+      pCVar13 = (__this->fields)._owner;
+      if (((pCVar13 == (Characters_BaseCharacter_o *)0x0) ||
+          (pUVar7 = (pCVar13->fields).Cache, pUVar7 == (Utility_BaseComponentCache_o *)0x0)) ||
+         (pSVar5 = (pUVar7->fields).Colliders, pSVar5 == (System_Collections_Generic_List_Collider__o *)0x0))
+      goto label_181f0e4d6;
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_b8,
+                 (System_Collections_Generic_List_T__o *)pSVar5,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+      local_a0 = (undefined1  [8])local_b8._0_8_;
+      pSStack_98 = (System_Collections_Generic_List_Enumerator_object__o *)local_b8._8_8_;
+      local_90 = local_a8;
+      while( true ) {
+        bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                           ((System_Collections_Generic_List_Enumerator_object__o *)local_a0,
+                            (MethodInfo_153A2A0 *)
+                            MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+        pUVar9 = local_90;
+        if (!bVar11) break;
+        pSVar5 = (__this->fields)._colliders;
+        if (pSVar5 == (System_Collections_Generic_List_Collider__o *)0x0) {
+          ThrowNullReferenceException();
         }
-        UnityEngine_Physics__IgnoreCollision_4e76ac0(collider1,collider2,(MethodInfo *)0x0);
+        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                  (local_70,(System_Collections_Generic_List_T__o *)pSVar5,
+                   (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+        local_88.fields._list = local_70[0].fields._list;
+        local_88.fields._index = local_70[0].fields._index;
+        local_88.fields._version = local_70[0].fields._version;
+        local_88.fields._current = local_70[0].fields._current;
+        local_b8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+        local_b8._8_8_ = &local_88;
+        while( true ) {
+          bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                             (&local_88,
+                              (MethodInfo_153A2A0 *)
+                              MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+          pIVar10 = local_88.fields._current;
+          if (!bVar11) break;
+          if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
+          }
+          UnityEngine_Physics__IgnoreCollision_2fe2870
+                    (pUVar9,(UnityEngine_Collider_o *)pIVar10,(MethodInfo *)0x0);
+        }
+        System_Collections_Generic_List_Enumerator_object___Dispose
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_88,
+                   MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
       }
-      charViewId = 0;
-      __this_04.fields._8_8_ = pIVar8;
-      __this_04.fields._list = _Var7.genericMethod;
-      __this_04.fields._current = (Il2CppObject *)pUVar9;
-      System_Collections_Generic_List_Enumerator_object___Dispose(__this_04,(MethodInfo_321A1C0 *)&_Stack_68);
-      collider1 = pUVar9;
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+      pCVar13 = (__this->fields)._owner;
+      if (pCVar13 != (Characters_BaseCharacter_o *)0x0) {
+        bVar2 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
+        if (((bVar2 <= (pCVar13->klass->_2).typeHierarchyDepth) &&
+            ((pCVar13->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] ==
+             (Il2CppClass *)TypeInfo_Characters_Human)) && (*(int *)&(*(uint8_t *)((char *)pCVar13 + 0x130)) == 1)) {
+          pSVar4 = (*(uint64_t *)((char *)pCVar13 + 0x138));
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar11 = UnityEngine_Object__op_Inequality
+                             ((UnityEngine_Object_o *)pSVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (bVar11) {
+            pSVar4 = (*(uint64_t *)((char *)pCVar13 + 0x138));
+            if (((pSVar4 == (System_String_o *)0x0) ||
+                (pSVar8 = (*(uint64_t *)((char *)pSVar4 + 0x78)), pSVar8 == (System_String_c *)0x0)) ||
+               (__this_01 = *(System_Collections_Generic_List_T__o **)&(pSVar8->_1).byval_arg.bits,
+               __this_01 == (System_Collections_Generic_List_T__o *)0x0)) goto label_181f0e4d6;
+            System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                      (local_70,__this_01,
+                       (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator)
+            ;
+            local_a0 = (undefined1  [8])local_70[0].fields._list;
+            pSStack_98 = (System_Collections_Generic_List_Enumerator_object__o *)local_70[0].fields._8_8_;
+            local_90 = (UnityEngine_Collider_o *)local_70[0].fields._current;
+            while( true ) {
+              bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                 ((System_Collections_Generic_List_Enumerator_object__o *)local_a0,
+                                  (MethodInfo_153A2A0 *)
+                                  MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+              pUVar9 = local_90;
+              if (!bVar11) break;
+              pSVar5 = (__this->fields)._colliders;
+              if (pSVar5 == (System_Collections_Generic_List_Collider__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                        (local_70,(System_Collections_Generic_List_T__o *)pSVar5,
+                         (MethodInfo_91F180 *)
+                         MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+              local_88.fields._list = local_70[0].fields._list;
+              local_88.fields._index = local_70[0].fields._index;
+              local_88.fields._version = local_70[0].fields._version;
+              local_88.fields._current = local_70[0].fields._current;
+              local_b8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+              local_b8._8_8_ = &local_88;
+              while( true ) {
+                bVar11 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                   (&local_88,
+                                    (MethodInfo_153A2A0 *)
+                                    MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+                pIVar10 = local_88.fields._current;
+                if (!bVar11) break;
+                if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
+                }
+                UnityEngine_Physics__IgnoreCollision_2fe2870
+                          (pUVar9,(UnityEngine_Collider_o *)pIVar10,(MethodInfo *)0x0);
+              }
+              System_Collections_Generic_List_Enumerator_object___Dispose
+                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_88,
+                         MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+            }
+            System_Collections_Generic_List_Enumerator_object___Dispose
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0,
+                       MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+          }
+        }
+      }
     }
-    il2cpp_runtime_helper_022b2c90();
-    il2cpp_runtime_helper_022fefe0(charViewId);
   }
-label_0420506f:
-  auVar6 = il2cpp_runtime_helper_022b2c90();
-  if (auVar6._8_4_ == 1) {
-    plVar5 = (long *)__cxa_begin_catch(auVar6._0_8_);
-    lVar1 = *plVar5;
-    __cxa_end_catch();
-    __this_06.fields._8_8_ = pIVar8;
-    __this_06.fields._list = _Var7.genericMethod;
-    __this_06.fields._current = (Il2CppObject *)collider1;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_06,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-    if (lVar1 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar1);
-  }
-  __this_07.fields._8_8_ = pIVar8;
-  __this_07.fields._list = _Var7.genericMethod;
-  __this_07.fields._current = (Il2CppObject *)collider1;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_07,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-  _Unwind_Resume(auVar6._0_8_);
+  return;
 }
 
 
 // Projectiles.BaseProjectile$$SetupSettings
 // il2cpp: void Projectiles_BaseProjectile__SetupSettings (Projectiles_BaseProjectile_o* __this, System_Object_array* settings, const MethodInfo* method);
-// 0x4205280
+// 0x180547020
 
-void Projectiles_BaseProjectile__SetupSettings
-               (Projectiles_BaseProjectile_o *__this,System_Object_array *settings,MethodInfo *method)
+void
+Projectiles_BaseProjectile__SetupSettings(Projectiles_BaseProjectile_o* __this, System_Object_array* settings, MethodInfo* method)
 
 {
   return;
@@ -586,154 +629,119 @@ void Projectiles_BaseProjectile__SetupSettings
 
 // Projectiles.BaseProjectile$$RegisterColliders
 // il2cpp: void Projectiles_BaseProjectile__RegisterColliders (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205100
+// 0x181f0db30
 
 void Projectiles_BaseProjectile__RegisterColliders(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
+  uint uVar2;
   UnityEngine_Component_o *__this_00;
   System_Collections_Generic_List_Collider__o *__this_01;
-  UnityEngine_Collider_array *pUVar2;
-  long lVar3;
-  uint uVar4;
+  UnityEngine_Collider_array *pUVar3;
+  MethodInfo *pMVar4;
   System_Object_array *pSVar5;
   UnityEngine_GameObject_o *__this_02;
   uint uVar6;
   
-  if (g_data_057ad8da == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_GetComponentsInChildren_Collider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ad8da = '\x01';
+  if (Il2CppMethodInitialized_1843454da == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_Collider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Collider_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    Il2CppMethodInitialized_1843454da = '\x01';
   }
-  pSVar5 = UnityEngine_Component__GetComponentsInChildren_object__24e8500
-                     ((UnityEngine_Component_o *)__this,MethodInfo_Collider_GetComponentsInChildren_Collider);
+  pSVar5 = UnityEngine_Component__GetComponentsInChildren_object__665370
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_665370 *)MethodInfo_UnityEngine_Component_GetComponentsInChildren_Collider);
   if (pSVar5 != (System_Object_array *)0x0) {
-    uVar4 = (uint)pSVar5->max_length;
-    if (0 < (int)uVar4) {
-      uVar6 = 0;
-      do {
-        while( true ) {
-          if (uVar4 <= uVar6) goto label_0420526d;
-          __this_00 = (UnityEngine_Component_o *)pSVar5->m_Items[(int)uVar6];
-          if (__this_00 == (UnityEngine_Component_o *)0x0) goto label_04205268;
-          __this_02 = UnityEngine_Component__get_gameObject(__this_00,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_PhysicsLayer + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          if (__this_02 == (UnityEngine_GameObject_o *)0x0) goto label_04205268;
-          UnityEngine_GameObject__set_layer
-                    (__this_02,*(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x1c),(MethodInfo *)0x0);
-          lVar3 = MethodInfo_Void_Add;
-          __this_01 = (__this->fields)._colliders;
-          if (__this_01 == (System_Collections_Generic_List_Collider__o *)0x0) goto label_04205268;
-          piVar1 = &(__this_01->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pUVar2 = (__this_01->fields)._items;
-          if (pUVar2 == (UnityEngine_Collider_array *)0x0) goto label_04205268;
-          uVar4 = (__this_01->fields)._size;
-          if ((uint)pUVar2->max_length <= uVar4) break;
-          (__this_01->fields)._size = uVar4 + 1;
-          pUVar2->m_Items[(int)uVar4] = (UnityEngine_Collider_o *)__this_00;
-          il2cpp_runtime_helper_022b4080(pUVar2->m_Items + (int)uVar4);
-          uVar6 = uVar6 + 1;
-          uVar4 = (uint)pSVar5->max_length;
-          if ((int)uVar4 <= (int)uVar6) {
-            return;
-          }
-        }
+    uVar6 = 0;
+    do {
+      if ((int)pSVar5->max_length <= (int)uVar6) {
+        return;
+      }
+      if ((uint)pSVar5->max_length <= uVar6) {
+label_181f0dca0:
+        ThrowIndexOutOfRangeException();
+      }
+      __this_00 = (UnityEngine_Component_o *)pSVar5->m_Items[(int)uVar6];
+      if (__this_00 == (UnityEngine_Component_o *)0x0) break;
+      __this_02 = UnityEngine_Component__get_gameObject(__this_00,(MethodInfo *)0x0);
+      if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+      }
+      if (__this_02 == (UnityEngine_GameObject_o *)0x0) break;
+      UnityEngine_GameObject__set_layer
+                (__this_02,TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,(MethodInfo *)0x0);
+      pMVar4 = MethodInfo_System_Collections_Generic_List_Collider_Add;
+      __this_01 = (__this->fields)._colliders;
+      if (__this_01 == (System_Collections_Generic_List_Collider__o *)0x0) break;
+      piVar1 = &(__this_01->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar3 = (__this_01->fields)._items;
+      if (pUVar3 == (UnityEngine_Collider_array *)0x0) break;
+      uVar2 = (__this_01->fields)._size;
+      if (uVar2 < (uint)pUVar3->max_length) {
+        (__this_01->fields)._size = uVar2 + 1;
+        if ((uint)pUVar3->max_length <= uVar2) goto label_181f0dca0;
+        pUVar3->m_Items[(int)uVar2] = (UnityEngine_Collider_o *)__this_00;
+        Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,__this_00);
+        uVar6 = uVar6 + 1;
+      }
+      else {
         System_Collections_Generic_List_object___AddWithResize
                   ((System_Collections_Generic_List_object__o *)__this_01,(Il2CppObject *)__this_00,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70));
+                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
         uVar6 = uVar6 + 1;
-        uVar4 = (uint)pSVar5->max_length;
-      } while ((int)uVar6 < (int)uVar4);
-    }
-    return;
+      }
+    } while( true );
   }
-label_04205268:
-  il2cpp_runtime_helper_022b2c90();
-label_0420526d:
-  il2cpp_runtime_helper_022b2ca0();
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.BaseProjectile$$IsMine
 // il2cpp: bool Projectiles_BaseProjectile__IsMine (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205290
+// 0x181f0daf0
 
-bool_conflict Projectiles_BaseProjectile__IsMine(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
+bool Projectiles_BaseProjectile__IsMine(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  bool_conflict bVar1;
-  Photon_Pun_PhotonView_o *pPVar2;
-  Photon_Pun_PhotonView_o *extraout_RAX;
-  undefined8 extraout_RDX;
-  float fVar3;
-  float fVar4;
+  Photon_Pun_PhotonView_o *pPVar1;
   
-  pPVar2 = Photon_Pun_MonoBehaviourPun__get_photonView
+  pPVar1 = Photon_Pun_MonoBehaviourPun__get_photonView
                      ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-  if (pPVar2 != (Photon_Pun_PhotonView_o *)0x0) {
-    return (bool_conflict)CONCAT71((int7)((ulong)pPVar2 >> 8),(char)(pPVar2->fields)._IsMine_k__BackingField);
+  if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
+    return (pPVar1->fields)._IsMine_k__BackingField;
   }
-  il2cpp_runtime_helper_022b2c90();
-  Characters_BaseMovementSync__Update((Characters_BaseMovementSync_o *)__this,(MethodInfo *)0x0);
-  pPVar2 = (__this->fields)._photonView;
-  if (pPVar2 != (Photon_Pun_PhotonView_o *)0x0) {
-    if ((char)(pPVar2->fields)._IsMine_k__BackingField != '\0') {
-      fVar4 = (__this->fields)._timeLeft;
-      fVar3 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-      fVar4 = fVar4 - fVar3;
-      (__this->fields)._timeLeft = fVar4;
-      pPVar2 = extraout_RAX;
-      if (fVar4 <= 0.0) {
-        vtableDispatch = (__this->klass->vtable)._16_OnExceedLiveTime.methodPtr;
-        bVar1 = (*vtableDispatch)
-                          (__this,(__this->klass->vtable)._16_OnExceedLiveTime.method,extraout_RDX,
-                           vtableDispatch);
-        return bVar1;
-      }
-    }
-    return (bool_conflict)pPVar2;
-  }
-  bVar1 = il2cpp_runtime_helper_022b2c90();
-  return bVar1;
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.BaseProjectile$$Update
 // il2cpp: void Projectiles_BaseProjectile__Update (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x42052b0
+// 0x181f0e7a0
 
 void Projectiles_BaseProjectile__Update(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
 
 {
   Photon_Pun_PhotonView_o *pPVar1;
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 extraout_RDX;
   float fVar2;
   float fVar3;
   
   Characters_BaseMovementSync__Update((Characters_BaseMovementSync_o *)__this,(MethodInfo *)0x0);
   pPVar1 = (__this->fields)._photonView;
   if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    return;
+    ThrowNullReferenceException();
   }
-  if ((char)(pPVar1->fields)._IsMine_k__BackingField != '\0') {
+  if ((pPVar1->fields)._IsMine_k__BackingField != false) {
     fVar3 = (__this->fields)._timeLeft;
     fVar2 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
     fVar3 = fVar3 - fVar2;
     (__this->fields)._timeLeft = fVar3;
     if (fVar3 <= 0.0) {
-      vtableDispatch = (__this->klass->vtable)._16_OnExceedLiveTime.methodPtr;
-      (*vtableDispatch)
-                (__this,(__this->klass->vtable)._16_OnExceedLiveTime.method,extraout_RDX,vtableDispatch
-                );
+      (*(__this->klass->vtable)._16_OnExceedLiveTime.methodPtr)
+                (__this,(__this->klass->vtable)._16_OnExceedLiveTime.method);
       return;
     }
   }
@@ -743,9 +751,10 @@ void Projectiles_BaseProjectile__Update(Projectiles_BaseProjectile_o *__this,Met
 
 // Projectiles.BaseProjectile$$RegisterObjects
 // il2cpp: void Projectiles_BaseProjectile__RegisterObjects (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205330
+// 0x180547020
 
-void Projectiles_BaseProjectile__RegisterObjects(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
+void
+Projectiles_BaseProjectile__RegisterObjects(Projectiles_BaseProjectile_o* __this, MethodInfo* method)
 
 {
   return;
@@ -754,24 +763,20 @@ void Projectiles_BaseProjectile__RegisterObjects(Projectiles_BaseProjectile_o *_
 
 // Projectiles.BaseProjectile$$OnExceedLiveTime
 // il2cpp: void Projectiles_BaseProjectile__OnExceedLiveTime (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205340
+// 0x181f0db10
 
-void Projectiles_BaseProjectile__OnExceedLiveTime(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
+void
+Projectiles_BaseProjectile__OnExceedLiveTime(Projectiles_BaseProjectile_o* __this, MethodInfo* method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 in_RDX;
-  
-  vtableDispatch = (__this->klass->vtable)._17_DestroySelf.methodPtr;
-  (*vtableDispatch)(__this,(__this->klass->vtable)._17_DestroySelf.method,in_RDX,vtableDispatch)
-  ;
+  (*(__this->klass->vtable)._17_Handle.methodPtr)(__this,(__this->klass->vtable)._17_Handle.method);
   return;
 }
 
 
 // Projectiles.BaseProjectile$$DestroySelf
 // il2cpp: void Projectiles_BaseProjectile__DestroySelf (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205360
+// 0x181f0d440
 
 void Projectiles_BaseProjectile__DestroySelf(Projectiles_BaseProjectile_o *__this,MethodInfo *method)
 
@@ -779,106 +784,131 @@ void Projectiles_BaseProjectile__DestroySelf(Projectiles_BaseProjectile_o *__thi
   Photon_Pun_PhotonView_o *pPVar1;
   System_Object_array *parameters;
   System_Collections_IEnumerator_o *routine;
-  Il2CppObject *__this_00;
-  undefined4 uVar2;
-  Projectiles_BaseProjectile_o *pPVar3;
-  Il2CppObject *__this_01;
-  undefined4 uVar4;
+  float fVar2;
   
-  if (g_data_057ad8db == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
-    il2cpp_runtime_helper_023445d0(&"DisableRPC");
-    g_data_057ad8db = '\x01';
+  if (Il2CppMethodInitialized_1843454db == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"DisableRPC");
+    Il2CppMethodInitialized_1843454db = '\x01';
   }
-  pPVar3 = __this;
   pPVar1 = Photon_Pun_MonoBehaviourPun__get_photonView
                      ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
   if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
-    if (((char)(pPVar1->fields)._IsMine_k__BackingField == '\0') || ((char)(__this->fields).Disabled != '\0'))
-    {
-      return;
-    }
-    pPVar1 = Photon_Pun_MonoBehaviourPun__get_photonView
-                       ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-    pPVar3 = TypeInfo_object;
-    parameters = (System_Object_array *)il2cpp_runtime_helper_022b2a40();
-    if (pPVar1 != (Photon_Pun_PhotonView_o *)0x0) {
+    if (((pPVar1->fields)._IsMine_k__BackingField != false) && ((__this->fields).Disabled == false)) {
+      pPVar1 = Photon_Pun_MonoBehaviourPun__get_photonView
+                         ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+      parameters = (System_Object_array *)SZArrayNew(TypeInfo_object_array,0);
+      if (pPVar1 == (Photon_Pun_PhotonView_o *)0x0) goto label_181f0d515;
       Photon_Pun_PhotonView__RPC(pPVar1,"DisableRPC",0,parameters,(MethodInfo *)0x0);
-      (*(__this->klass->vtable)._11_get_DestroyDelay.methodPtr)
-                (__this,(__this->klass->vtable)._11_get_DestroyDelay.method);
-      routine = (System_Collections_IEnumerator_o *)
-                (*(__this->klass->vtable)._18_WaitAndFinishDestroyCoroutine.methodPtr)
-                          (__this,(__this->klass->vtable)._18_WaitAndFinishDestroyCoroutine.method);
-      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
+      fVar2 = (*(__this->klass->vtable)._11_get_DestroyDelay.methodPtr)
+                        (__this,(__this->klass->vtable)._11_get_DestroyDelay.method);
+      routine = (*(__this->klass->vtable)._18_WaitAndFinishDestroyCoroutine.methodPtr)
+                          (__this,fVar2,(__this->klass->vtable)._18_WaitAndFinishDestroyCoroutine.method);
+      UnityEngine_MonoBehaviour__StartCoroutine_Auto
                 ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
-      return;
     }
-  }
-  uVar4 = il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad8dc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndFinishDestroyCoroutine_d__21);
-    g_data_057ad8dc = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndFinishDestroyCoroutine_d__21);
-  uVar2 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].monitor = pPVar3;
-    il2cpp_runtime_helper_022b4080(&__this_00[2].monitor,pPVar3);
-    *(undefined4 *)&__this_00[2].klass = uVar4;
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar2;
-  return;
+label_181f0d515:
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.BaseProjectile$$WaitAndFinishDestroyCoroutine
 // il2cpp: System_Collections_IEnumerator_o* Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine (Projectiles_BaseProjectile_o* __this, float time, const MethodInfo* method);
-// 0x4205440
+// 0x181f0e820
 
 System_Collections_IEnumerator_o *
 Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine
           (Projectiles_BaseProjectile_o *__this,float time,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  Projectiles_BaseProjectile__WaitAndFinishDestroyCoroutine_d__21_o *__this_00;
   
-  if (g_data_057ad8dc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndFinishDestroyCoroutine_d__21);
-    g_data_057ad8dc = '\x01';
+  if (Il2CppMethodInitialized_1843454dc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Projectiles_BaseProjectile_WaitAndFinishDestroyCoroutine_d__21);
+    Il2CppMethodInitialized_1843454dc = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndFinishDestroyCoroutine_d__21);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].monitor = __this;
-    il2cpp_runtime_helper_022b4080(&__this_00[2].monitor,__this);
-    *(float *)&__this_00[2].klass = time;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_Projectiles_BaseProjectile_WaitAndFinishDestroyCoroutine_d__21);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  (__this_00->fields).time = time;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Projectiles.BaseProjectile$$DisableRPC
 // il2cpp: void Projectiles_BaseProjectile__DisableRPC (Projectiles_BaseProjectile_o* __this, Photon_Pun_PhotonMessageInfo_o info, const MethodInfo* method);
-// 0x42054e0
+// 0x181f0d520
+// eh: try 0x181f0d6b0..0x181f0dae2 -> pad 0x183320de0 (+5 call sites) catch Il2CppExceptionWrapper
+// asm: 58 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f0d6f0: mov rdx, qword ptr [rip + 0x2172df1]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x181f0d6f7: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f0d6fc: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0d701: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x181f0d706: test rcx, rcx
+// asm:   0x181f0d709: jne 0x181f0dabb
+// asm:   0x181f0d70f: mov r15, qword ptr [rsp + 0xf0]
+// asm:   0x181f0d7a1: mov rdx, qword ptr [rip + 0x216b728]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose
+// asm:   0x181f0d7a8: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f0d7ad: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0d7b2: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x181f0d7b7: test rcx, rcx
+// asm:   0x181f0d7ba: jne 0x181f0dac7
+// asm:   0x181f0d7c0: mov r15, qword ptr [rsp + 0xf0]
+// asm:   0x181f0d8bc: nop dword ptr [rax]
+// asm:   0x181f0d972: mov rdx, qword ptr [rip + 0x21824cf]  ; MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose
+// asm:   0x181f0d979: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f0d97e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f0d983: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x181f0d988: test rcx, rcx
+// asm:   0x181f0d98b: jne 0x181f0dae2
+// asm:   0x181f0d991: mov r15, qword ptr [rsp + 0xf0]
+// asm:   0x181f0dabb: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181f0dac7: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181f0dae2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183320de0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183320de5: push rbp
+// asm:   0x183320de6: sub rsp, 0x20
+// asm:   0x183320dea: mov rbp, rdx
+// asm:   0x183320ded: mov rax, qword ptr [rbp + 0x88]
+// asm:   0x183320df4: mov rcx, qword ptr [rax]
+// asm:   0x183320df7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x183320dfb: movabs rax, 0
+// asm:   0x183320e05: add rsp, 0x20
+// asm:   0x183320e09: pop rbp
+// asm:   0x183320e0a: ret 
+// asm:   0x183324460: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183324465: push rbp
+// asm:   0x183324466: sub rsp, 0x20
+// asm:   0x18332446a: mov rbp, rdx
+// asm:   0x18332446d: mov rax, qword ptr [rbp + 0x90]
+// asm:   0x183324474: mov rcx, qword ptr [rax]
+// asm:   0x183324477: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x18332447b: movabs rax, 0
+// asm:   0x183324485: add rsp, 0x20
+// asm:   0x183324489: pop rbp
+// asm:   0x18332448a: ret 
+// asm:   0x1833245a0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833245a5: push rbp
+// asm:   0x1833245a6: sub rsp, 0x20
+// asm:   0x1833245aa: mov rbp, rdx
+// asm:   0x1833245ad: mov rax, qword ptr [rbp + 0x98]
+// asm:   0x1833245b4: mov rcx, qword ptr [rax]
+// asm:   0x1833245b7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x1833245bb: movabs rax, 0
+// asm:   0x1833245c5: add rsp, 0x20
+// asm:   0x1833245c9: pop rbp
+// asm:   0x1833245ca: ret 
 
 void Projectiles_BaseProjectile__DisableRPC
-               (Projectiles_BaseProjectile_o *__this,Photon_Pun_PhotonMessageInfo_o info,MethodInfo *method)
+               (Projectiles_BaseProjectile_o *__this,Photon_Pun_PhotonMessageInfo_o *info,MethodInfo *method)
 
 {
   System_Collections_Generic_List_GameObject__o *__this_00;
@@ -886,403 +916,322 @@ void Projectiles_BaseProjectile__DisableRPC
   System_Collections_Generic_List_ParticleSystem__o *__this_02;
   UnityEngine_Object_o *x;
   UnityEngine_ConstantForce_o *__this_03;
-  long lVar1;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  System_Collections_Generic_List_Enumerator_object__o __this_06;
-  System_Collections_Generic_List_Enumerator_object__o __this_07;
-  System_Collections_Generic_List_Enumerator_object__o __this_08;
-  System_Collections_Generic_List_Enumerator_object__o __this_09;
-  System_Collections_Generic_List_Enumerator_object__o __this_10;
-  System_Collections_Generic_List_Enumerator_object__o __this_11;
-  System_Collections_Generic_List_Enumerator_object__o __this_12;
-  bool_conflict bVar2;
-  Photon_Pun_PhotonView_o *pPVar3;
-  UnityEngine_Rigidbody_o *__this_13;
-  long *plVar4;
-  MethodInfo *method_00;
-  undefined1 auVar5 [12];
-  _union_249689 _Var6;
-  Il2CppType *pIVar7;
-  UnityEngine_ParticleSystem_o *particleSystem;
-  _union_249689 local_78;
-  Il2CppType *pIStack_70;
-  UnityEngine_Collider_o *local_68;
-  _union_249689 local_58;
-  Il2CppType *pIStack_50;
-  UnityEngine_GameObject_o *local_48;
-  _union_249689 local_38;
-  Il2CppType *pIStack_30;
-  UnityEngine_ParticleSystem_o *local_28;
+  UnityEngine_ParticleSystem_o *__this_04;
+  bool bVar1;
+  uint32_t length;
+  Photon_Pun_PhotonView_o *pPVar2;
+  UnityEngine_ParticleSystem_Particle_array *particles;
+  UnityEngine_Rigidbody_o *__this_05;
+  uint uVar3;
+  float fVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  undefined1 local_c8 [16];
+  UnityEngine_ParticleSystem_o *local_b8;
+  undefined1 local_a8 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_a0;
+  UnityEngine_ParticleSystem_o *local_98;
+  undefined1 local_90 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_88;
+  UnityEngine_ParticleSystem_o *local_80;
+  undefined1 local_78 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_70;
+  UnityEngine_ParticleSystem_o *local_68;
   
-  if (g_data_057ad8dd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Rigidbody_GetComponent_Rigidbody);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParticleSystem_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_ParticleSystem_GetEnumer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_GameObject_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ad8dd = '\x01';
+  if (Il2CppMethodInitialized_1843454dd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Rigidbody);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Collider_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ParticleSystem_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843454dd = '\x01';
   }
-  local_58.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIStack_50 = (Il2CppType *)0x0;
-  local_48 = (UnityEngine_GameObject_o *)0x0;
-  local_78.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIStack_70 = (Il2CppType *)0x0;
-  local_68 = (UnityEngine_Collider_o *)0x0;
-  _Var6.genericMethod = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIVar7 = (Il2CppType *)0x0;
-  particleSystem = (UnityEngine_ParticleSystem_o *)0x0;
-  if ((char)(__this->fields).Disabled == '\0') {
-    pPVar3 = Photon_Pun_MonoBehaviourPun__get_photonView
-                       ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
-    if (pPVar3 != (Photon_Pun_PhotonView_o *)0x0) {
-      if (info.fields.Sender != (pPVar3->fields)._Owner_k__BackingField) {
-        return;
-      }
-      __this_00 = (__this->fields)._hideObjects;
-      if (__this_00 != (System_Collections_Generic_List_GameObject__o *)0x0) {
-        System_Collections_Generic_List_object___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)&local_38,
-                   (System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_T_Enumerator_UnityEngine_GameObject_GetEnumerator);
-        local_48 = (UnityEngine_GameObject_o *)local_28;
-        local_58 = local_38;
-        pIStack_50 = pIStack_30;
-        while (__this_04.fields._8_8_ = pIVar7, __this_04.fields._list = _Var6.genericMethod,
-              __this_04.fields._current = (Il2CppObject *)particleSystem,
-              bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (__this_04,(MethodInfo_321A1D0 *)&local_58), (char)bVar2 != '\0') {
-          if (local_48 == (UnityEngine_GameObject_o *)0x0) {
-            il2cpp_runtime_helper_022b2c90();
-            goto label_0420588b;
-          }
-          UnityEngine_GameObject__SetActive(local_48,0,(MethodInfo *)0x0);
+  local_a8 = (undefined1  [8])0x0;
+  pUStack_a0 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_98 = (UnityEngine_ParticleSystem_o *)0x0;
+  local_90 = (undefined1  [8])0x0;
+  pUStack_88 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_80 = (UnityEngine_ParticleSystem_o *)0x0;
+  local_78 = (undefined1  [8])0x0;
+  pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_68 = (UnityEngine_ParticleSystem_o *)0x0;
+  if ((__this->fields).Disabled != false) {
+    return;
+  }
+  pPVar2 = Photon_Pun_MonoBehaviourPun__get_photonView
+                     ((Photon_Pun_MonoBehaviourPun_o *)__this,(MethodInfo *)0x0);
+  if (pPVar2 != (Photon_Pun_PhotonView_o *)0x0) {
+    if ((info->fields).Sender != (pPVar2->fields)._Owner_k__BackingField) {
+      return;
+    }
+    __this_00 = (__this->fields)._hideObjects;
+    if (__this_00 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_c8,
+                 (System_Collections_Generic_List_T__o *)__this_00,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+      local_a8 = (undefined1  [8])local_c8._0_8_;
+      pUStack_a0 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_c8._8_8_;
+      local_98 = local_b8;
+      local_c8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+      local_c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8;
+      while (bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                               ((System_Collections_Generic_List_Enumerator_object__o *)local_a8,
+                                (MethodInfo_153A2A0 *)
+                                MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext),
+            bVar1) {
+        if (local_98 == (UnityEngine_ParticleSystem_o *)0x0) {
+          ThrowNullReferenceException();
         }
-        __this_05.fields._8_8_ = pIVar7;
-        __this_05.fields._list = _Var6.genericMethod;
-        __this_05.fields._current = (Il2CppObject *)particleSystem;
-        System_Collections_Generic_List_Enumerator_object___Dispose(__this_05,(MethodInfo_321A1C0 *)&local_58)
-        ;
-        __this_01 = (__this->fields)._colliders;
-        if (__this_01 != (System_Collections_Generic_List_Collider__o *)0x0) {
-          System_Collections_Generic_List_object___GetEnumerator
-                    ((System_Collections_Generic_List_Enumerator_T__o *)&local_38,
-                     (System_Collections_Generic_List_object__o *)__this_01,MethodInfo_List_1_T_Enumerator_UnityEngine_Collider_GetEnumerator);
-          local_68 = (UnityEngine_Collider_o *)local_28;
-          local_78 = local_38;
-          pIStack_70 = pIStack_30;
-          while( true ) {
-            __this_06.fields._8_8_ = pIVar7;
-            __this_06.fields._list = _Var6.genericMethod;
-            __this_06.fields._current = (Il2CppObject *)particleSystem;
-            bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                              (__this_06,(MethodInfo_321A1D0 *)&local_78);
-            if ((char)bVar2 == '\0') {
-              __this_07.fields._8_8_ = pIVar7;
-              __this_07.fields._list = _Var6.genericMethod;
-              __this_07.fields._current = (Il2CppObject *)particleSystem;
-              System_Collections_Generic_List_Enumerator_object___Dispose
-                        (__this_07,(MethodInfo_321A1C0 *)&local_78);
-              goto label_0420572c;
-            }
-            if (local_68 == (UnityEngine_Collider_o *)0x0) break;
-            UnityEngine_Collider__set_enabled(local_68,0,(MethodInfo *)0x0);
+        UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)local_98,false,(MethodInfo *)0x0);
+      }
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+      __this_01 = (__this->fields)._colliders;
+      if (__this_01 != (System_Collections_Generic_List_Collider__o *)0x0) {
+        System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                  ((System_Collections_Generic_List_Enumerator_T__o *)local_c8,
+                   (System_Collections_Generic_List_T__o *)__this_01,
+                   (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_Collider_GetEnumerator);
+        local_90 = (undefined1  [8])local_c8._0_8_;
+        pUStack_88 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_c8._8_8_;
+        local_80 = local_b8;
+        local_c8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+        local_c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90;
+        while (bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                 ((System_Collections_Generic_List_Enumerator_object__o *)local_90,
+                                  (MethodInfo_153A2A0 *)
+                                  MethodInfo_System_Collections_Generic_List_Enumerator_Collider_MoveNext),
+              bVar1) {
+          if (local_80 == (UnityEngine_ParticleSystem_o *)0x0) {
+            ThrowNullReferenceException();
           }
-label_0420588b:
-          il2cpp_runtime_helper_022b2c90();
+          UnityEngine_Collider__set_enabled((UnityEngine_Collider_o *)local_80,false,(MethodInfo *)0x0);
+        }
+        System_Collections_Generic_List_Enumerator_object___Dispose
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_90,
+                   MethodInfo_System_Collections_Generic_List_Enumerator_Collider_Dispose);
+        __this_02 = (__this->fields)._fadeTrails;
+        if (__this_02 != (System_Collections_Generic_List_ParticleSystem__o *)0x0) {
+          System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                    ((System_Collections_Generic_List_Enumerator_T__o *)local_c8,
+                     (System_Collections_Generic_List_T__o *)__this_02,
+                     (MethodInfo_91F180 *)
+                     MethodInfo_System_Collections_Generic_List_ParticleSystem_GetEnumerator);
+          local_78 = (undefined1  [8])local_c8._0_8_;
+          pUStack_70 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_c8._8_8_;
+          local_68 = local_b8;
+          local_c8._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+          local_c8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78;
+          while (bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                   ((System_Collections_Generic_List_Enumerator_object__o *)local_78,
+                                    (MethodInfo_153A2A0 *)
+                                    MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_MoveNext
+                                   ), __this_04 = local_68, bVar1) {
+            if (Il2CppMethodInitialized_1843454de == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_ParticleSystem_Particle_array);
+              Il2CppMethodInitialized_1843454de = '\x01';
+            }
+            if (__this_04 == (UnityEngine_ParticleSystem_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            length = UnityEngine_ParticleSystem__get_particleCount(__this_04,(MethodInfo *)0x0);
+            fVar4 = UnityEngine_ParticleSystem__get_startLifetime(__this_04,(MethodInfo *)0x0);
+            fVar5 = (*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
+                              (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
+            particles = (UnityEngine_ParticleSystem_Particle_array *)
+                        SZArrayNew(TypeInfo_UnityEngine_ParticleSystem_Particle_array,length);
+            UnityEngine_ParticleSystem__GetParticles_2fca1d0(__this_04,particles,(MethodInfo *)0x0);
+            for (uVar3 = 0; (int)uVar3 < (int)length; uVar3 = uVar3 + 1) {
+              if (particles == (UnityEngine_ParticleSystem_Particle_array *)0x0) {
+                ThrowNullReferenceException();
+              }
+              if ((uint)particles->max_length <= uVar3) {
+                ThrowIndexOutOfRangeException();
+              }
+              fVar6 = UnityEngine_ParticleSystem_Particle__get_remainingLifetime
+                                (particles->m_Items + (int)uVar3,(MethodInfo *)0x0);
+              fVar7 = (*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
+                                (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
+              UnityEngine_ParticleSystem_Particle__set_remainingLifetime
+                        (particles->m_Items + (int)uVar3,fVar7 * fVar6,(MethodInfo *)0x0);
+              if ((uint)particles->max_length <= uVar3) {
+                ThrowIndexOutOfRangeException();
+              }
+              UnityEngine_ParticleSystem_Particle__set_startLifetime
+                        (particles->m_Items + (int)uVar3,fVar5 * fVar4,(MethodInfo *)0x0);
+            }
+            UnityEngine_ParticleSystem__SetParticles_2fca640(__this_04,particles,length,(MethodInfo *)0x0);
+          }
+          System_Collections_Generic_List_Enumerator_object___Dispose
+                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_78,
+                     MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose);
+          __this_05 = UnityEngine_Component__GetComponent_object_
+                                ((UnityEngine_Component_o *)__this,
+                                 (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Rigidbody)
+          ;
+          if (Il2CppMethodInitialized_18433dbea == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433dbea = '\x01';
+          }
+          if (__this_05 != (UnityEngine_Rigidbody_o *)0x0) {
+            local_c8._0_8_ = *(undefined8 *)&(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
+            local_c8._8_4_ = (TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields.z;
+            UnityEngine_Rigidbody__set_linearVelocity
+                      (__this_05,(UnityEngine_Vector3_o *)local_c8,(MethodInfo *)0x0);
+            x = (UnityEngine_Object_o *)(__this->fields)._force;
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+            }
+            bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+            if (bVar1) {
+              __this_03 = (__this->fields)._force;
+              if (Il2CppMethodInitialized_18433dbea == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                Il2CppMethodInitialized_18433dbea = '\x01';
+              }
+              if (__this_03 == (UnityEngine_ConstantForce_o *)0x0) goto label_181f0daaf;
+              local_c8._0_8_ =
+                   *(undefined8 *)&(TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields;
+              local_c8._8_4_ = (TypeInfo_UnityEngine_Vector3->static_fields->zeroVector).fields.z;
+              UnityEngine_ConstantForce__set_force
+                        (__this_03,(UnityEngine_Vector3_o *)local_c8,(MethodInfo *)0x0);
+            }
+            (__this->fields).Disabled = true;
+            return;
+          }
         }
       }
     }
-    do {
-      do {
-        do {
-          auVar5 = il2cpp_runtime_helper_022b2c90();
-          if (auVar5._8_4_ != 1) {
-            __this_11.fields._8_8_ = pIVar7;
-            __this_11.fields._list = _Var6.genericMethod;
-            __this_11.fields._current = (Il2CppObject *)particleSystem;
-            System_Collections_Generic_List_Enumerator_object___Dispose
-                      (__this_11,(MethodInfo_321A1C0 *)&local_78);
-label_04205a04:
-            _Unwind_Resume(auVar5._0_8_);
-          }
-          plVar4 = (long *)__cxa_begin_catch(auVar5._0_8_);
-          lVar1 = *plVar4;
-          __cxa_end_catch();
-          __this_10.fields._8_8_ = pIVar7;
-          __this_10.fields._list = _Var6.genericMethod;
-          __this_10.fields._current = (Il2CppObject *)particleSystem;
-          System_Collections_Generic_List_Enumerator_object___Dispose
-                    (__this_10,(MethodInfo_321A1C0 *)&local_78);
-          if (lVar1 != 0) {
-            il2cpp_runtime_helper_022fefe0(lVar1);
-            __this_12.fields._8_8_ = pIVar7;
-            __this_12.fields._list = _Var6.genericMethod;
-            __this_12.fields._current = (Il2CppObject *)particleSystem;
-            System_Collections_Generic_List_Enumerator_object___Dispose
-                      (__this_12,(MethodInfo_321A1C0 *)&local_58);
-            goto label_04205a04;
-          }
-label_0420572c:
-          __this_02 = (__this->fields)._fadeTrails;
-        } while (__this_02 == (System_Collections_Generic_List_ParticleSystem__o *)0x0);
-        System_Collections_Generic_List_object___GetEnumerator
-                  ((System_Collections_Generic_List_Enumerator_T__o *)&local_38,
-                   (System_Collections_Generic_List_object__o *)__this_02,MethodInfo_List_1_T_Enumerator_UnityEngine_ParticleSystem_GetEnumer);
-        _Var6 = local_38;
-        pIVar7 = pIStack_30;
-        particleSystem = local_28;
-        while (__this_08.fields._8_8_ = pIVar7, __this_08.fields._list = _Var6.genericMethod,
-              __this_08.fields._current = (Il2CppObject *)particleSystem,
-              bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (__this_08,(MethodInfo_321A1D0 *)&stack0xffffffffffffff68),
-              (char)bVar2 != '\0') {
-          Projectiles_BaseProjectile__SetDisabledTrailFade(__this,particleSystem,method_00);
-        }
-        __this_09.fields._8_8_ = pIVar7;
-        __this_09.fields._list = _Var6.genericMethod;
-        __this_09.fields._current = (Il2CppObject *)particleSystem;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_09,(MethodInfo_321A1C0 *)&stack0xffffffffffffff68);
-        __this_13 = (UnityEngine_Rigidbody_o *)
-                    UnityEngine_Component__GetComponent_object_
-                              ((UnityEngine_Component_o *)__this,MethodInfo_Rigidbody_GetComponent_Rigidbody);
-        if (g_data_057a65d5 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-      } while (__this_13 == (UnityEngine_Rigidbody_o *)0x0);
-      UnityEngine_Rigidbody__set_velocity
-                (__this_13,(UnityEngine_Vector3_o)**(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),
-                 (MethodInfo *)0x0);
-      x = (UnityEngine_Object_o *)(__this->fields)._force;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') goto label_04205874;
-      __this_03 = (__this->fields)._force;
-      if (g_data_057a65d5 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-        g_data_057a65d5 = '\x01';
-      }
-    } while (__this_03 == (UnityEngine_ConstantForce_o *)0x0);
-    UnityEngine_ConstantForce__set_force
-              (__this_03,(UnityEngine_Vector3_o)**(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),
-               (MethodInfo *)0x0);
-label_04205874:
-    *(undefined1 *)&(__this->fields).Disabled = 1;
   }
-  return;
+label_181f0daaf:
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.BaseProjectile$$SetDisabledTrailFade
 // il2cpp: void Projectiles_BaseProjectile__SetDisabledTrailFade (Projectiles_BaseProjectile_o* __this, UnityEngine_ParticleSystem_o* particleSystem, const MethodInfo* method);
-// 0x4205a20
+// 0x181f0dcb0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f0dd6b: nop dword ptr [rax + rax]
 
 void Projectiles_BaseProjectile__SetDisabledTrailFade
                (Projectiles_BaseProjectile_o *__this,UnityEngine_ParticleSystem_o *particleSystem,
                MethodInfo *method)
 
 {
-  UnityEngine_ParticleSystem_Particle_o __this_00;
-  UnityEngine_ParticleSystem_Particle_o __this_01;
-  UnityEngine_ParticleSystem_Particle_o __this_02;
-  uint size;
+  uint32_t length;
   UnityEngine_ParticleSystem_Particle_array *particles;
-  System_Collections_Generic_List_GameObject__o *__this_03;
-  System_Collections_Generic_List_Collider__o *__this_04;
-  System_Collections_Generic_List_ParticleSystem__o *__this_05;
-  undefined8 unaff_RBX;
-  undefined8 unaff_RBP;
-  Projectiles_BaseProjectile_o *method_00;
-  Projectiles_BaseProjectile_o *__this_06;
-  undefined8 unaff_R12;
-  undefined8 unaff_R13;
-  ulong uVar1;
-  undefined8 unaff_R14;
-  undefined8 unaff_R15;
-  ulong uVar2;
+  uint uVar1;
+  float fVar2;
   float fVar3;
   float fVar4;
   float fVar5;
-  undefined1 in_stack_00000000 [64];
-  undefined1 in_stack_ffffffffffffffb8 [12];
   
-  __this_06 = __this;
-  if (g_data_057ad8de == '\0') {
-    __this_06 = (Projectiles_BaseProjectile_o *)&TypeInfo_Particle;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ad8de = '\x01';
+  if (Il2CppMethodInitialized_1843454de == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_ParticleSystem_Particle_array);
+    Il2CppMethodInitialized_1843454de = '\x01';
   }
-  if (particleSystem != (UnityEngine_ParticleSystem_o *)0x0) {
-    size = UnityEngine_ParticleSystem__get_particleCount(particleSystem,(MethodInfo *)0x0);
-    fVar3 = UnityEngine_ParticleSystem__get_startLifetime(particleSystem,(MethodInfo *)0x0);
-    fVar4 = (float)(*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
-                             (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
-    particles = (UnityEngine_ParticleSystem_Particle_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Particle,size);
-    __this_06 = (Projectiles_BaseProjectile_o *)particleSystem;
-    UnityEngine_ParticleSystem__GetParticles_4e727e0(particleSystem,particles,(MethodInfo *)0x0);
-    if (0 < (int)size) {
-      if (particles == (UnityEngine_ParticleSystem_Particle_array *)0x0) goto label_04205b78;
-      fVar3 = fVar3 * fVar4;
-      uVar1 = (ulong)size;
-      method_00 = (Projectiles_BaseProjectile_o *)particles->m_Items;
-      uVar2 = 0;
-      do {
-        if ((uint)particles->max_length <= uVar2) {
-label_04205b73:
-          il2cpp_runtime_helper_022b2ca0();
-          goto label_04205b78;
-        }
-        __this_00.fields.m_Velocity.fields.x = fVar3;
-        __this_00.fields.m_Position.fields.x = (float)in_stack_ffffffffffffffb8._0_4_;
-        __this_00.fields.m_Position.fields.y = (float)in_stack_ffffffffffffffb8._4_4_;
-        __this_00.fields.m_Position.fields.z = (float)in_stack_ffffffffffffffb8._8_4_;
-        __this_00.fields.m_Velocity.fields.y = fVar4;
-        __this_00.fields.m_Velocity.fields.z = (float)size;
-        __this_00.fields.m_AnimatedVelocity.fields.x = (float)(int)unaff_RBX;
-        __this_00.fields.m_AnimatedVelocity.fields.y = (float)(int)((ulong)unaff_RBX >> 0x20);
-        __this_00.fields.m_AnimatedVelocity.fields.z = (float)(int)unaff_R12;
-        __this_00.fields.m_InitialVelocity.fields.x = (float)(int)((ulong)unaff_R12 >> 0x20);
-        __this_00.fields.m_InitialVelocity.fields.y = (float)(int)unaff_R13;
-        __this_00.fields.m_InitialVelocity.fields.z = (float)(int)((ulong)unaff_R13 >> 0x20);
-        __this_00.fields.m_AxisOfRotation.fields.x = (float)(int)unaff_R14;
-        __this_00.fields.m_AxisOfRotation.fields.y = (float)(int)((ulong)unaff_R14 >> 0x20);
-        __this_00.fields.m_AxisOfRotation.fields.z = (float)(int)unaff_R15;
-        __this_00.fields.m_Rotation.fields.x = (float)(int)((ulong)unaff_R15 >> 0x20);
-        __this_00.fields.m_Rotation.fields.y = (float)(int)unaff_RBP;
-        __this_00.fields.m_Rotation.fields.z = (float)(int)((ulong)unaff_RBP >> 0x20);
-        __this_00.fields._72_64_ = in_stack_00000000;
-        fVar4 = UnityEngine_ParticleSystem_Particle__get_remainingLifetime(__this_00,(MethodInfo *)method_00);
-        fVar5 = (float)(*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
-                                 (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
-        __this_01.fields.m_Velocity.fields.x = fVar3;
-        __this_01.fields.m_Position.fields.x = (float)in_stack_ffffffffffffffb8._0_4_;
-        __this_01.fields.m_Position.fields.y = (float)in_stack_ffffffffffffffb8._4_4_;
-        __this_01.fields.m_Position.fields.z = (float)in_stack_ffffffffffffffb8._8_4_;
-        __this_01.fields.m_Velocity.fields.y = fVar4;
-        __this_01.fields.m_Velocity.fields.z = (float)size;
-        __this_01.fields.m_AnimatedVelocity.fields.x = (float)(int)unaff_RBX;
-        __this_01.fields.m_AnimatedVelocity.fields.y = (float)(int)((ulong)unaff_RBX >> 0x20);
-        __this_01.fields.m_AnimatedVelocity.fields.z = (float)(int)unaff_R12;
-        __this_01.fields.m_InitialVelocity.fields.x = (float)(int)((ulong)unaff_R12 >> 0x20);
-        __this_01.fields.m_InitialVelocity.fields.y = (float)(int)unaff_R13;
-        __this_01.fields.m_InitialVelocity.fields.z = (float)(int)((ulong)unaff_R13 >> 0x20);
-        __this_01.fields.m_AxisOfRotation.fields.x = (float)(int)unaff_R14;
-        __this_01.fields.m_AxisOfRotation.fields.y = (float)(int)((ulong)unaff_R14 >> 0x20);
-        __this_01.fields.m_AxisOfRotation.fields.z = (float)(int)unaff_R15;
-        __this_01.fields.m_Rotation.fields.x = (float)(int)((ulong)unaff_R15 >> 0x20);
-        __this_01.fields.m_Rotation.fields.y = (float)(int)unaff_RBP;
-        __this_01.fields.m_Rotation.fields.z = (float)(int)((ulong)unaff_RBP >> 0x20);
-        __this_01.fields._72_64_ = in_stack_00000000;
-        __this_06 = method_00;
-        UnityEngine_ParticleSystem_Particle__set_remainingLifetime
-                  (__this_01,fVar5 * fVar4,(MethodInfo *)method_00);
-        if ((uint)particles->max_length <= uVar2) goto label_04205b73;
-        __this_02.fields.m_Velocity.fields.x = fVar3;
-        __this_02.fields.m_Position.fields.x = (float)in_stack_ffffffffffffffb8._0_4_;
-        __this_02.fields.m_Position.fields.y = (float)in_stack_ffffffffffffffb8._4_4_;
-        __this_02.fields.m_Position.fields.z = (float)in_stack_ffffffffffffffb8._8_4_;
-        __this_02.fields.m_Velocity.fields.y = fVar4;
-        __this_02.fields.m_Velocity.fields.z = (float)size;
-        __this_02.fields.m_AnimatedVelocity.fields.x = (float)(int)unaff_RBX;
-        __this_02.fields.m_AnimatedVelocity.fields.y = (float)(int)((ulong)unaff_RBX >> 0x20);
-        __this_02.fields.m_AnimatedVelocity.fields.z = (float)(int)unaff_R12;
-        __this_02.fields.m_InitialVelocity.fields.x = (float)(int)((ulong)unaff_R12 >> 0x20);
-        __this_02.fields.m_InitialVelocity.fields.y = (float)(int)unaff_R13;
-        __this_02.fields.m_InitialVelocity.fields.z = (float)(int)((ulong)unaff_R13 >> 0x20);
-        __this_02.fields.m_AxisOfRotation.fields.x = (float)(int)unaff_R14;
-        __this_02.fields.m_AxisOfRotation.fields.y = (float)(int)((ulong)unaff_R14 >> 0x20);
-        __this_02.fields.m_AxisOfRotation.fields.z = (float)(int)unaff_R15;
-        __this_02.fields.m_Rotation.fields.x = (float)(int)((ulong)unaff_R15 >> 0x20);
-        __this_02.fields.m_Rotation.fields.y = (float)(int)unaff_RBP;
-        __this_02.fields.m_Rotation.fields.z = (float)(int)((ulong)unaff_RBP >> 0x20);
-        __this_02.fields._72_64_ = in_stack_00000000;
-        __this_06 = method_00;
-        UnityEngine_ParticleSystem_Particle__set_startLifetime(__this_02,fVar3,(MethodInfo *)method_00);
-        uVar2 = uVar2 + 1;
-        method_00 = (Projectiles_BaseProjectile_o *)((long)&(method_00->fields)._photonView + 4);
-      } while (uVar1 != uVar2);
-    }
-    UnityEngine_ParticleSystem__SetParticles_4e72600(particleSystem,particles,size,(MethodInfo *)0x0);
-    return;
+  if (particleSystem == (UnityEngine_ParticleSystem_o *)0x0) {
+label_181f0de1b:
+    ThrowNullReferenceException();
   }
-label_04205b78:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad8df == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Collider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_ParticleSystem);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_ParticleSystem);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    g_data_057ad8df = '\x01';
+  length = UnityEngine_ParticleSystem__get_particleCount(particleSystem,(MethodInfo *)0x0);
+  fVar2 = UnityEngine_ParticleSystem__get_startLifetime(particleSystem,(MethodInfo *)0x0);
+  fVar3 = (*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
+                    (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
+  particles = (UnityEngine_ParticleSystem_Particle_array *)
+              SZArrayNew(TypeInfo_UnityEngine_ParticleSystem_Particle_array,length);
+  UnityEngine_ParticleSystem__GetParticles_2fca1d0(particleSystem,particles,(MethodInfo *)0x0);
+  if (0 < (int)length) {
+    uVar1 = 0;
+    if (particles == (UnityEngine_ParticleSystem_Particle_array *)0x0) goto label_181f0de1b;
+    do {
+      if ((uint)particles->max_length <= uVar1) {
+label_181f0de21:
+        ThrowIndexOutOfRangeException();
+      }
+      fVar4 = UnityEngine_ParticleSystem_Particle__get_remainingLifetime
+                        (particles->m_Items + (int)uVar1,(MethodInfo *)0x0);
+      fVar5 = (*(__this->klass->vtable)._10_get_TrailFadeMultiplier.methodPtr)
+                        (__this,(__this->klass->vtable)._10_get_TrailFadeMultiplier.method);
+      UnityEngine_ParticleSystem_Particle__set_remainingLifetime
+                (particles->m_Items + (int)uVar1,fVar5 * fVar4,(MethodInfo *)0x0);
+      if ((uint)particles->max_length <= uVar1) goto label_181f0de21;
+      UnityEngine_ParticleSystem_Particle__set_startLifetime
+                (particles->m_Items + (int)uVar1,fVar3 * fVar2,(MethodInfo *)0x0);
+      uVar1 = uVar1 + 1;
+    } while ((int)uVar1 < (int)length);
   }
-  __this_03 = (System_Collections_Generic_List_GameObject__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_03,MethodInfo_List_1_UnityEngine_GameObject);
-  (__this_06->fields)._hideObjects = __this_03;
-  il2cpp_runtime_helper_022b4080(&(__this_06->fields)._hideObjects,__this_03);
-  __this_04 = (System_Collections_Generic_List_Collider__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Collider);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_04,MethodInfo_List_1_UnityEngine_Collider);
-  (__this_06->fields)._colliders = __this_04;
-  il2cpp_runtime_helper_022b4080(&(__this_06->fields)._colliders,__this_04);
-  __this_05 = (System_Collections_Generic_List_ParticleSystem__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ParticleSystem);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_05,MethodInfo_List_1_UnityEngine_ParticleSystem);
-  (__this_06->fields)._fadeTrails = __this_05;
-  il2cpp_runtime_helper_022b4080(&(__this_06->fields)._fadeTrails);
-  Characters_BaseMovementSync___ctor((Characters_BaseMovementSync_o *)__this_06,(MethodInfo *)0x0);
+  UnityEngine_ParticleSystem__SetParticles_2fca640(particleSystem,particles,length,(MethodInfo *)0x0);
   return;
 }
 
 
 // Projectiles.BaseProjectile$$.ctor
 // il2cpp: void Projectiles_BaseProjectile___ctor (Projectiles_BaseProjectile_o* __this, const MethodInfo* method);
-// 0x4205b80
+// 0x181f0e8a0
 
-void Projectiles_BaseProjectile___ctor(Projectiles_SmokeBombProjectile_o *__this,MethodInfo *method)
+void
+Projectiles_BaseProjectile___ctor(Projectiles_BaseProjectile_o* __this, MethodInfo* method)
 
 {
   System_Collections_Generic_List_GameObject__o *__this_00;
   System_Collections_Generic_List_Collider__o *__this_01;
   System_Collections_Generic_List_ParticleSystem__o *__this_02;
   
-  if (g_data_057ad8df == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Collider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_ParticleSystem);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_ParticleSystem);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    g_data_057ad8df = '\x01';
+  if (Il2CppMethodInitialized_1843454df == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Collider_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ParticleSystem_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Collider);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_ParticleSystem);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
+    Il2CppMethodInitialized_1843454df = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_GameObject__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_UnityEngine_GameObject);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._hideObjects = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._hideObjects,__this_00);
-  __this_01 = (System_Collections_Generic_List_Collider__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Collider);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._hideObjects,__this_00);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Collider);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_01,MethodInfo_List_1_UnityEngine_Collider);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Collider_ctor);
   (__this->fields)._colliders = __this_01;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._colliders,__this_01);
-  __this_02 = (System_Collections_Generic_List_ParticleSystem__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ParticleSystem);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._colliders,__this_01);
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_ParticleSystem);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_02,MethodInfo_List_1_UnityEngine_ParticleSystem);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_ParticleSystem_ctor);
   (__this->fields)._fadeTrails = __this_02;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._fadeTrails);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._fadeTrails,__this_02);
   Characters_BaseMovementSync___ctor((Characters_BaseMovementSync_o *)__this,(MethodInfo *)0x0);
   return;
 }

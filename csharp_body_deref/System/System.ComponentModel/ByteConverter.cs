@@ -10,43 +10,43 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200026F")]
+[Token(Token = "0x200017A")]
 public class ByteConverter : BaseNumberConverter
 {
-	[Token(Token = "0x17000371")]
+	[Token(Token = "0x170001E0")]
 	internal override Type TargetType
 	{
-		[Token(Token = "0x6000F5B")]
-		[Address(RVA = "0x4886D00", Offset = "0x4886D00", VA = "0x4886D00", Slot = "17")]
+		[Token(Token = "0x60009A3")]
+		[Address(RVA = "0x2893600", Offset = "0x2891C00", VA = "0x182893600", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000F5C")]
-	[Address(RVA = "0x4886D40", Offset = "0x4886D40", VA = "0x4886D40", Slot = "18")]
+	[Token(Token = "0x60009A4")]
+	[Address(RVA = "0x28934D0", Offset = "0x2891AD0", VA = "0x1828934D0", Slot = "18")]
 	internal override object FromString(string value, int radix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F5D")]
-	[Address(RVA = "0x4886DB0", Offset = "0x4886DB0", VA = "0x4886DB0", Slot = "19")]
+	[Token(Token = "0x60009A5")]
+	[Address(RVA = "0x2893540", Offset = "0x2891B40", VA = "0x182893540", Slot = "19")]
 	internal override object FromString(string value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F5E")]
-	[Address(RVA = "0x4886DE0", Offset = "0x4886DE0", VA = "0x4886DE0", Slot = "20")]
+	[Token(Token = "0x60009A6")]
+	[Address(RVA = "0x2893570", Offset = "0x2891B70", VA = "0x182893570", Slot = "20")]
 	internal override string ToString(object value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F5F")]
-	[Address(RVA = "0x4886E70", Offset = "0x4886E70", VA = "0x4886E70")]
+	[Token(Token = "0x60009A7")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ByteConverter()
 	{
 	}

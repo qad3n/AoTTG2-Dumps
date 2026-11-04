@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x2000055")]
 internal struct CharacterSubstitution
 {
-	[Token(Token = "0x4000215")]
+	[Token(Token = "0x4000346")]
 	[FieldOffset(Offset = "0x0")]
 	public int index;
 
-	[Token(Token = "0x4000216")]
+	[Token(Token = "0x4000347")]
 	[FieldOffset(Offset = "0x4")]
 	public uint unicode;
 
-	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x4EDB940", Offset = "0x4EDB940", VA = "0x4EDB940")]
+	[Token(Token = "0x600024A")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	public CharacterSubstitution(int index, uint unicode)
 	{
 	}

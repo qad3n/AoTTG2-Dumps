@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20003A7")]
+[Token(Token = "0x2000402")]
 [Obsolete("This class has been deprecated.  http://go.microsoft.com/fwlink/?linkid=14202")]
 public class DiagnosticsConfigurationHandler : IConfigurationSectionHandler
 {
-	[Token(Token = "0x6001854")]
-	[Address(RVA = "0x48F5A20", Offset = "0x48F5A20", VA = "0x48F5A20")]
+	[Token(Token = "0x6001AF8")]
+	[Address(RVA = "0x282AAB0", Offset = "0x28290B0", VA = "0x18282AAB0")]
 	public DiagnosticsConfigurationHandler()
 	{
 	}
 
-	[Token(Token = "0x6001855")]
-	[Address(RVA = "0x48F5A50", Offset = "0x48F5A50", VA = "0x48F5A50", Slot = "4")]
+	[Token(Token = "0x6001AF9")]
+	[Address(RVA = "0x282AA80", Offset = "0x2829080", VA = "0x18282AA80", Slot = "4")]
 	public virtual object Create(object parent, object configContext, XmlNode section)
 	{
 		return null;

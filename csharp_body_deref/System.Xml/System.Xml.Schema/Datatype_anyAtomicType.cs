@@ -16,7 +16,7 @@ internal class Datatype_anyAtomicType : Datatype_anySimpleType
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x60010A6")]
-		[Address(RVA = "0x485DDE0", Offset = "0x485DDE0", VA = "0x485DDE0", Slot = "19")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -27,7 +27,7 @@ internal class Datatype_anyAtomicType : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60010A7")]
-		[Address(RVA = "0x485DDF0", Offset = "0x485DDF0", VA = "0x485DDF0", Slot = "8")]
+		[Address(RVA = "0x1B56090", Offset = "0x1B54690", VA = "0x181B56090", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -35,14 +35,14 @@ internal class Datatype_anyAtomicType : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x60010A5")]
-	[Address(RVA = "0x485DD70", Offset = "0x485DD70", VA = "0x485DD70", Slot = "25")]
+	[Address(RVA = "0x279B380", Offset = "0x2799980", VA = "0x18279B380", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010A8")]
-	[Address(RVA = "0x4858740", Offset = "0x4858740", VA = "0x4858740")]
+	[Address(RVA = "0x279B3D0", Offset = "0x27999D0", VA = "0x18279B3D0")]
 	public Datatype_anyAtomicType()
 	{
 	}

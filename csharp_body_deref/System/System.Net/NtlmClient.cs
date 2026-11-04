@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20001A8")]
+[Token(Token = "0x2000330")]
 internal class NtlmClient : IAuthenticationModule
 {
-	[Token(Token = "0x400086F")]
+	[Token(Token = "0x4000C85")]
 	[FieldOffset(Offset = "0x10")]
 	private IAuthenticationModule authObject;
 
-	[Token(Token = "0x17000260")]
+	[Token(Token = "0x170004B6")]
 	public string AuthenticationType
 	{
-		[Token(Token = "0x6000A4E")]
-		[Address(RVA = "0x498C480", Offset = "0x498C480", VA = "0x498C480", Slot = "6")]
+		[Token(Token = "0x600160F")]
+		[Address(RVA = "0x27E7E90", Offset = "0x27E6490", VA = "0x1827E7E90", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A4B")]
-	[Address(RVA = "0x498C340", Offset = "0x498C340", VA = "0x498C340")]
+	[Token(Token = "0x600160C")]
+	[Address(RVA = "0x27E7E20", Offset = "0x27E6420", VA = "0x1827E7E20")]
 	public NtlmClient()
 	{
 	}
 
-	[Token(Token = "0x6000A4C")]
-	[Address(RVA = "0x498C3B0", Offset = "0x498C3B0", VA = "0x498C3B0", Slot = "4")]
+	[Token(Token = "0x600160D")]
+	[Address(RVA = "0x27E7DB0", Offset = "0x27E63B0", VA = "0x1827E7DB0", Slot = "4")]
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A4D")]
-	[Address(RVA = "0x498C470", Offset = "0x498C470", VA = "0x498C470", Slot = "5")]
+	[Token(Token = "0x600160E")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 	public Authorization PreAuthenticate(WebRequest webRequest, ICredentials credentials)
 	{
 		return null;

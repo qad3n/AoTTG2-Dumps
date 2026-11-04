@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015C")]
+[Token(Token = "0x200018F")]
 internal struct CastHelper<T>
 {
-	[Token(Token = "0x4000567")]
+	[Token(Token = "0x40005F8")]
 	[FieldOffset(Offset = "0x0")]
 	public T t;
 
-	[Token(Token = "0x4000568")]
+	[Token(Token = "0x40005F9")]
 	[FieldOffset(Offset = "0x0")]
 	public IntPtr onePointerFurtherThanT;
 }

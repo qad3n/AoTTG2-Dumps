@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000017")]
+[Token(Token = "0x2000015")]
 [Flags]
 public enum PrintOptions
 {
-	[Token(Token = "0x400007E")]
+	[Token(Token = "0x4000079")]
 	Layout = 1,
-	[Token(Token = "0x400007F")]
+	[Token(Token = "0x400007A")]
 	Style = 2,
-	[Token(Token = "0x4000080")]
+	[Token(Token = "0x400007B")]
 	Children = 4
 }

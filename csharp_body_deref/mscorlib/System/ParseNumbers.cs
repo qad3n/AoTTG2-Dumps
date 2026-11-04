@@ -10,98 +10,98 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x2000126")]
 internal static class ParseNumbers
 {
-	[Token(Token = "0x6000950")]
-	[Address(RVA = "0x3CC97E0", Offset = "0x3CC97E0", VA = "0x3CC97E0")]
+	[Token(Token = "0x600098B")]
+	[Address(RVA = "0x1B47780", Offset = "0x1B45D80", VA = "0x181B47780")]
 	public static long StringToLong(ReadOnlySpan<char> s, int radix, int flags)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000951")]
-	[Address(RVA = "0x3CC9800", Offset = "0x3CC9800", VA = "0x3CC9800")]
+	[Token(Token = "0x600098C")]
+	[Address(RVA = "0x1B472B0", Offset = "0x1B458B0", VA = "0x181B472B0")]
 	public static long StringToLong(ReadOnlySpan<char> s, int radix, int flags, ref int currPos)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000952")]
-	[Address(RVA = "0x3CC9E90", Offset = "0x3CC9E90", VA = "0x3CC9E90")]
+	[Token(Token = "0x600098D")]
+	[Address(RVA = "0x1B46D10", Offset = "0x1B45310", VA = "0x181B46D10")]
 	public static int StringToInt(ReadOnlySpan<char> s, int radix, int flags)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000953")]
-	[Address(RVA = "0x3CC9EB0", Offset = "0x3CC9EB0", VA = "0x3CC9EB0")]
+	[Token(Token = "0x600098E")]
+	[Address(RVA = "0x1B46D40", Offset = "0x1B45340", VA = "0x181B46D40")]
 	public static int StringToInt(ReadOnlySpan<char> s, int radix, int flags, ref int currPos)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000954")]
-	[Address(RVA = "0x3CCA4F0", Offset = "0x3CCA4F0", VA = "0x3CCA4F0")]
+	[Token(Token = "0x600098F")]
+	[Address(RVA = "0x1B46560", Offset = "0x1B44B60", VA = "0x181B46560")]
 	public static string IntToString(int n, int radix, int width, char paddingChar, int flags)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x3CCA9D0", Offset = "0x3CCA9D0", VA = "0x3CCA9D0")]
+	[Token(Token = "0x6000990")]
+	[Address(RVA = "0x1B46910", Offset = "0x1B44F10", VA = "0x181B46910")]
 	public static string LongToString(long n, int radix, int width, char paddingChar, int flags)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x3CC9C10", Offset = "0x3CC9C10", VA = "0x3CC9C10")]
+	[Token(Token = "0x6000991")]
+	[Address(RVA = "0x1B46130", Offset = "0x1B44730", VA = "0x181B46130")]
 	private static void EatWhiteSpace(ReadOnlySpan<char> s, ref int i)
 	{
 	}
 
-	[Token(Token = "0x6000957")]
-	[Address(RVA = "0x3CC9CC0", Offset = "0x3CC9CC0", VA = "0x3CC9CC0")]
+	[Token(Token = "0x6000992")]
+	[Address(RVA = "0x1B463A0", Offset = "0x1B449A0", VA = "0x181B463A0")]
 	private static long GrabLongs(int radix, ReadOnlySpan<char> s, ref int i, bool isUnsigned)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000958")]
-	[Address(RVA = "0x3CCA320", Offset = "0x3CCA320", VA = "0x3CCA320")]
+	[Token(Token = "0x6000993")]
+	[Address(RVA = "0x1B461D0", Offset = "0x1B447D0", VA = "0x181B461D0")]
 	private static int GrabInts(int radix, ReadOnlySpan<char> s, ref int i, bool isUnsigned)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000959")]
-	[Address(RVA = "0x3CCB000", Offset = "0x3CCB000", VA = "0x3CCB000")]
+	[Token(Token = "0x6000994")]
+	[Address(RVA = "0x1B477B0", Offset = "0x1B45DB0", VA = "0x181B477B0")]
 	private static void ThrowOverflowInt32Exception()
 	{
 	}
 
-	[Token(Token = "0x600095A")]
-	[Address(RVA = "0x3CCAF60", Offset = "0x3CCAF60", VA = "0x3CCAF60")]
+	[Token(Token = "0x6000995")]
+	[Address(RVA = "0x1B47800", Offset = "0x1B45E00", VA = "0x181B47800")]
 	private static void ThrowOverflowInt64Exception()
 	{
 	}
 
-	[Token(Token = "0x600095B")]
-	[Address(RVA = "0x3CCB050", Offset = "0x3CCB050", VA = "0x3CCB050")]
+	[Token(Token = "0x6000996")]
+	[Address(RVA = "0x1B47850", Offset = "0x1B45E50", VA = "0x181B47850")]
 	private static void ThrowOverflowUInt32Exception()
 	{
 	}
 
-	[Token(Token = "0x600095C")]
-	[Address(RVA = "0x3CCAFB0", Offset = "0x3CCAFB0", VA = "0x3CCAFB0")]
+	[Token(Token = "0x6000997")]
+	[Address(RVA = "0x1B478A0", Offset = "0x1B45EA0", VA = "0x181B478A0")]
 	private static void ThrowOverflowUInt64Exception()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600095D")]
-	[Address(RVA = "0x3CCB0A0", Offset = "0x3CCB0A0", VA = "0x3CCB0A0")]
+	[Token(Token = "0x6000998")]
+	[Address(RVA = "0x1B468B0", Offset = "0x1B44EB0", VA = "0x181B468B0")]
 	private static bool IsDigit(char c, int radix, out int result)
 	{
 		return default(bool);

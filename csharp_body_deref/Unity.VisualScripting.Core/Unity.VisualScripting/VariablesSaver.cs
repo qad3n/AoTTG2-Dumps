@@ -17,49 +17,49 @@ namespace Unity.VisualScripting;
 [IncludeInSettings(false)]
 public class VariablesSaver : MonoBehaviour, ISingleton
 {
-	[Token(Token = "0x170001F6")]
+	[Token(Token = "0x170001F9")]
 	public static VariablesSaver instance
 	{
-		[Token(Token = "0x6001162")]
-		[Address(RVA = "0x4D66480", Offset = "0x4D66480", VA = "0x4D66480")]
+		[Token(Token = "0x600116F")]
+		[Address(RVA = "0x2E5B790", Offset = "0x2E59D90", VA = "0x182E5B790")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600115E")]
-	[Address(RVA = "0x4D68880", Offset = "0x4D68880", VA = "0x4D68880")]
+	[Token(Token = "0x600116B")]
+	[Address(RVA = "0x2E5B620", Offset = "0x2E59C20", VA = "0x182E5B620")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x600115F")]
-	[Address(RVA = "0x4D688E0", Offset = "0x4D688E0", VA = "0x4D688E0")]
+	[Token(Token = "0x600116C")]
+	[Address(RVA = "0x2E5B730", Offset = "0x2E59D30", VA = "0x182E5B730")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6001160")]
-	[Address(RVA = "0x4D68940", Offset = "0x4D68940", VA = "0x4D68940")]
+	[Token(Token = "0x600116D")]
+	[Address(RVA = "0x2E56730", Offset = "0x2E54D30", VA = "0x182E56730")]
 	private void OnApplicationQuit()
 	{
 	}
 
-	[Token(Token = "0x6001161")]
-	[Address(RVA = "0x4D68980", Offset = "0x4D68980", VA = "0x4D68980")]
+	[Token(Token = "0x600116E")]
+	[Address(RVA = "0x2E5B6E0", Offset = "0x2E59CE0", VA = "0x182E5B6E0")]
 	private void OnApplicationPause(bool isPaused)
 	{
 	}
 
-	[Token(Token = "0x6001163")]
-	[Address(RVA = "0x4D66500", Offset = "0x4D66500", VA = "0x4D66500")]
+	[Token(Token = "0x6001170")]
+	[Address(RVA = "0x2E5B680", Offset = "0x2E59C80", VA = "0x182E5B680")]
 	public static void Instantiate()
 	{
 	}
 
-	[Token(Token = "0x6001164")]
-	[Address(RVA = "0x4D689C0", Offset = "0x4D689C0", VA = "0x4D689C0")]
+	[Token(Token = "0x6001171")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public VariablesSaver()
 	{
 	}

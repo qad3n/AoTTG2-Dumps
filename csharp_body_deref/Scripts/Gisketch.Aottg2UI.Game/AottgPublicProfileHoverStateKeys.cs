@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D4")]
+[Token(Token = "0x20002DD")]
 internal static class AottgPublicProfileHoverStateKeys
 {
-	[Token(Token = "0x40009D9")]
+	[Token(Token = "0x4000E91")]
 	public const string AccountId = "publicProfile.hover.accountId";
 
-	[Token(Token = "0x40009DA")]
+	[Token(Token = "0x4000E92")]
 	public const string Loading = "publicProfile.hover.loading";
 
-	[Token(Token = "0x40009DB")]
+	[Token(Token = "0x4000E93")]
 	public const string Ready = "publicProfile.hover.ready";
 
-	[Token(Token = "0x40009DC")]
+	[Token(Token = "0x4000E94")]
 	public const string Error = "publicProfile.hover.error";
 
-	[Token(Token = "0x40009DD")]
+	[Token(Token = "0x4000E95")]
 	public const string HasBio = "publicProfile.hover.hasBio";
 
-	[Token(Token = "0x40009DE")]
+	[Token(Token = "0x4000E96")]
 	public const string HasBadges = "publicProfile.hover.hasBadges";
 
-	[Token(Token = "0x40009DF")]
+	[Token(Token = "0x4000E97")]
 	public const string CharacterName = "publicProfile.hover.characterName";
 
-	[Token(Token = "0x40009E0")]
+	[Token(Token = "0x4000E98")]
 	public const string DisplayName = "publicProfile.hover.displayName";
 
-	[Token(Token = "0x40009E1")]
+	[Token(Token = "0x4000E99")]
 	public const string Bio = "publicProfile.hover.bio";
 
-	[Token(Token = "0x40009E2")]
+	[Token(Token = "0x4000E9A")]
 	public const string BadgesJson = "publicProfile.hover.badgesJson";
 
-	[Token(Token = "0x40009E3")]
+	[Token(Token = "0x4000E9B")]
 	public const string AvatarSprite = "publicProfile.hover.avatarSprite";
 
-	[Token(Token = "0x40009E4")]
+	[Token(Token = "0x4000E9C")]
 	public const string BannerSprite = "publicProfile.hover.bannerSprite";
 
-	[Token(Token = "0x40009E5")]
+	[Token(Token = "0x4000E9D")]
 	public const string ErrorText = "publicProfile.hover.errorText";
 }

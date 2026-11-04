@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x2000396")]
+[Token(Token = "0x20003F1")]
 public sealed class Ipv6Element : ConfigurationElement
 {
-	[Token(Token = "0x1700054A")]
+	[Token(Token = "0x170005B4")]
 	public bool Enabled
 	{
-		[Token(Token = "0x60017C3")]
-		[Address(RVA = "0x48F3EF0", Offset = "0x48F3EF0", VA = "0x48F3EF0")]
+		[Token(Token = "0x6001A67")]
+		[Address(RVA = "0x282B2C0", Offset = "0x28298C0", VA = "0x18282B2C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60017C4")]
-		[Address(RVA = "0x48F3F20", Offset = "0x48F3F20", VA = "0x48F3F20")]
+		[Token(Token = "0x6001A68")]
+		[Address(RVA = "0x282B320", Offset = "0x2829920", VA = "0x18282B320")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700054B")]
+	[Token(Token = "0x170005B5")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60017C5")]
-		[Address(RVA = "0x48F3F50", Offset = "0x48F3F50", VA = "0x48F3F50", Slot = "4")]
+		[Token(Token = "0x6001A69")]
+		[Address(RVA = "0x282B2F0", Offset = "0x28298F0", VA = "0x18282B2F0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017C2")]
-	[Address(RVA = "0x48F3EC0", Offset = "0x48F3EC0", VA = "0x48F3EC0")]
+	[Token(Token = "0x6001A66")]
+	[Address(RVA = "0x282B290", Offset = "0x2829890", VA = "0x18282B290")]
 	public Ipv6Element()
 	{
 	}

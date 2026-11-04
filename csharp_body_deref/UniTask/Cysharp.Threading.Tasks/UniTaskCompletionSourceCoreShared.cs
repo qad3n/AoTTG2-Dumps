@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000120")]
+[Token(Token = "0x200011E")]
 internal static class UniTaskCompletionSourceCoreShared
 {
-	[Token(Token = "0x400043E")]
+	[Token(Token = "0x4000439")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Action<object> s_sentinel;
 
-	[Token(Token = "0x60006E0")]
-	[Address(RVA = "0x49EAE20", Offset = "0x49EAE20", VA = "0x49EAE20")]
+	[Token(Token = "0x60006DE")]
+	[Address(RVA = "0x291A6F0", Offset = "0x2918CF0", VA = "0x18291A6F0")]
 	private static void CompletionSentinel(object _)
 	{
 	}

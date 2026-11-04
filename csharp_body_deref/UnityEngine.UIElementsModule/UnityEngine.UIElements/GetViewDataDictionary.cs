@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200023F")]
+[Token(Token = "0x20002BB")]
 internal delegate ISerializableJsonDictionary GetViewDataDictionary();

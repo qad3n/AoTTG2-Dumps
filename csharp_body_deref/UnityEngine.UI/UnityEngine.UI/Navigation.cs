@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 namespace UnityEngine.UI;
 
 [Serializable]
-[Token(Token = "0x200005C")]
+[Token(Token = "0x200005A")]
 public struct Navigation : IEquatable<Navigation>
 {
-	[Token(Token = "0x200005D")]
+	[Token(Token = "0x200005B")]
 	[Flags]
 	public enum Mode
 	{
@@ -25,7 +25,7 @@ public struct Navigation : IEquatable<Navigation>
 		[Token(Token = "0x40001AE")]
 		Vertical = 2,
 		[Token(Token = "0x40001AF")]
-		Automatic = 3,
+		Automatic = Horizontal | Vertical,
 		[Token(Token = "0x40001B0")]
 		Explicit = 4
 	}
@@ -61,115 +61,115 @@ public struct Navigation : IEquatable<Navigation>
 	[SerializeField]
 	private Selectable m_SelectOnRight;
 
-	[Token(Token = "0x170000DC")]
+	[Token(Token = "0x170000DD")]
 	public Mode mode
 	{
-		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x50D8890", Offset = "0x50D8890", VA = "0x50D8890")]
+		[Token(Token = "0x6000371")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		get
 		{
 			return default(Mode);
 		}
-		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x50D88A0", Offset = "0x50D88A0", VA = "0x50D88A0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170000DD")]
-	public bool wrapAround
-	{
-		[Token(Token = "0x6000367")]
-		[Address(RVA = "0x50D88B0", Offset = "0x50D88B0", VA = "0x50D88B0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6000368")]
-		[Address(RVA = "0x50D88C0", Offset = "0x50D88C0", VA = "0x50D88C0")]
+		[Token(Token = "0x6000372")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000DE")]
-	public Selectable selectOnUp
+	public bool wrapAround
 	{
-		[Token(Token = "0x6000369")]
-		[Address(RVA = "0x50D88D0", Offset = "0x50D88D0", VA = "0x50D88D0")]
+		[Token(Token = "0x6000373")]
+		[Address(RVA = "0x180D610", Offset = "0x180BC10", VA = "0x18180D610")]
 		get
 		{
-			return null;
+			return default(bool);
 		}
-		[Token(Token = "0x600036A")]
-		[Address(RVA = "0x50D88E0", Offset = "0x50D88E0", VA = "0x50D88E0")]
+		[Token(Token = "0x6000374")]
+		[Address(RVA = "0x2F73AD0", Offset = "0x2F720D0", VA = "0x182F73AD0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000DF")]
-	public Selectable selectOnDown
+	public Selectable selectOnUp
 	{
-		[Token(Token = "0x600036B")]
-		[Address(RVA = "0x50D88F0", Offset = "0x50D88F0", VA = "0x50D88F0")]
+		[Token(Token = "0x6000375")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600036C")]
-		[Address(RVA = "0x50D8900", Offset = "0x50D8900", VA = "0x50D8900")]
+		[Token(Token = "0x6000376")]
+		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000E0")]
-	public Selectable selectOnLeft
+	public Selectable selectOnDown
 	{
-		[Token(Token = "0x600036D")]
-		[Address(RVA = "0x50D8910", Offset = "0x50D8910", VA = "0x50D8910")]
+		[Token(Token = "0x6000377")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600036E")]
-		[Address(RVA = "0x50D8920", Offset = "0x50D8920", VA = "0x50D8920")]
+		[Token(Token = "0x6000378")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000E1")]
-	public Selectable selectOnRight
+	public Selectable selectOnLeft
 	{
-		[Token(Token = "0x600036F")]
-		[Address(RVA = "0x50D8930", Offset = "0x50D8930", VA = "0x50D8930")]
+		[Token(Token = "0x6000379")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x50D8940", Offset = "0x50D8940", VA = "0x50D8940")]
+		[Token(Token = "0x600037A")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000E2")]
+	public Selectable selectOnRight
+	{
+		[Token(Token = "0x600037B")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600037C")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170000E3")]
 	public static Navigation defaultNavigation
 	{
-		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x50D8950", Offset = "0x50D8950", VA = "0x50D8950")]
+		[Token(Token = "0x600037D")]
+		[Address(RVA = "0x32DAAC0", Offset = "0x32D90C0", VA = "0x1832DAAC0")]
 		get
 		{
 			return default(Navigation);
 		}
 	}
 
-	[Token(Token = "0x6000372")]
-	[Address(RVA = "0x50D8970", Offset = "0x50D8970", VA = "0x50D8970", Slot = "4")]
+	[Token(Token = "0x600037E")]
+	[Address(RVA = "0x32DA9B0", Offset = "0x32D8FB0", VA = "0x1832DA9B0", Slot = "4")]
 	public bool Equals(Navigation other)
 	{
 		return default(bool);

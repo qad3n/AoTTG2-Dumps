@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001F5")]
+[Token(Token = "0x200023F")]
 [EventCategory(EventCategory.StyleTransition)]
 public abstract class TransitionEventBase<T> : EventBase<T> where T : TransitionEventBase<T>, new()
 {
-	[Token(Token = "0x1700025D")]
+	[Token(Token = "0x170002E9")]
 	public StylePropertyNameCollection stylePropertyNames
 	{
-		[Token(Token = "0x6000CCC")]
+		[Token(Token = "0x6000F10")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,32 +25,32 @@ public abstract class TransitionEventBase<T> : EventBase<T> where T : Transition
 		}
 	}
 
-	[Token(Token = "0x1700025E")]
+	[Token(Token = "0x170002EA")]
 	protected double elapsedTime
 	{
-		[Token(Token = "0x6000CCD")]
+		[Token(Token = "0x6000F11")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CCE")]
+	[Token(Token = "0x6000F12")]
 	protected TransitionEventBase()
 	{
 	}
 
-	[Token(Token = "0x6000CCF")]
+	[Token(Token = "0x6000F13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000CD0")]
+	[Token(Token = "0x6000F14")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000CD1")]
+	[Token(Token = "0x6000F15")]
 	public static T GetPooled(StylePropertyName stylePropertyName, double elapsedTime)
 	{
 		return null;

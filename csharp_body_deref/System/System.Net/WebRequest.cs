@@ -16,327 +16,327 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x2000154")]
+[Token(Token = "0x20002DC")]
 public abstract class WebRequest : MarshalByRefObject, ISerializable
 {
-	[Token(Token = "0x2000155")]
+	[Token(Token = "0x20002DD")]
 	internal class DesignerWebRequestCreate : IWebRequestCreate
 	{
-		[Token(Token = "0x6000856")]
-		[Address(RVA = "0x4964BA0", Offset = "0x4964BA0", VA = "0x4964BA0", Slot = "4")]
+		[Token(Token = "0x6001416")]
+		[Address(RVA = "0x27C91D0", Offset = "0x27C77D0", VA = "0x1827C91D0", Slot = "4")]
 		public WebRequest Create(Uri uri)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000857")]
-		[Address(RVA = "0x4964AA0", Offset = "0x4964AA0", VA = "0x4964AA0")]
+		[Token(Token = "0x6001417")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public DesignerWebRequestCreate()
 		{
 		}
 	}
 
-	[Token(Token = "0x40006DE")]
+	[Token(Token = "0x4000AF4")]
 	[FieldOffset(Offset = "0x0")]
 	private static ArrayList s_PrefixList;
 
-	[Token(Token = "0x40006DF")]
+	[Token(Token = "0x4000AF5")]
 	[FieldOffset(Offset = "0x8")]
 	private static object s_InternalSyncObject;
 
-	[Token(Token = "0x40006E0")]
+	[Token(Token = "0x4000AF6")]
 	[FieldOffset(Offset = "0x10")]
 	private static TimerThread.Queue s_DefaultTimerQueue;
 
-	[Token(Token = "0x40006E1")]
+	[Token(Token = "0x4000AF7")]
 	[FieldOffset(Offset = "0x18")]
 	private AuthenticationLevel m_AuthenticationLevel;
 
-	[Token(Token = "0x40006E2")]
+	[Token(Token = "0x4000AF8")]
 	[FieldOffset(Offset = "0x1C")]
 	private TokenImpersonationLevel m_ImpersonationLevel;
 
-	[Token(Token = "0x40006E3")]
+	[Token(Token = "0x4000AF9")]
 	[FieldOffset(Offset = "0x20")]
 	private RequestCachePolicy m_CachePolicy;
 
-	[Token(Token = "0x40006E4")]
+	[Token(Token = "0x4000AFA")]
 	[FieldOffset(Offset = "0x28")]
 	private RequestCacheProtocol m_CacheProtocol;
 
-	[Token(Token = "0x40006E5")]
+	[Token(Token = "0x4000AFB")]
 	[FieldOffset(Offset = "0x30")]
 	private RequestCacheBinding m_CacheBinding;
 
-	[Token(Token = "0x40006E6")]
+	[Token(Token = "0x4000AFC")]
 	[FieldOffset(Offset = "0x18")]
 	private static DesignerWebRequestCreate webRequestCreate;
 
-	[Token(Token = "0x40006E7")]
+	[Token(Token = "0x4000AFD")]
 	[FieldOffset(Offset = "0x20")]
 	private static IWebProxy s_DefaultWebProxy;
 
-	[Token(Token = "0x40006E8")]
+	[Token(Token = "0x4000AFE")]
 	[FieldOffset(Offset = "0x28")]
 	private static bool s_DefaultWebProxyInitialized;
 
-	[Token(Token = "0x170001C7")]
+	[Token(Token = "0x1700041C")]
 	private static object InternalSyncObject
 	{
-		[Token(Token = "0x6000834")]
-		[Address(RVA = "0x4963480", Offset = "0x4963480", VA = "0x4963480")]
+		[Token(Token = "0x60013F4")]
+		[Address(RVA = "0x27DAAB0", Offset = "0x27D90B0", VA = "0x1827DAAB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001C8")]
+	[Token(Token = "0x1700041D")]
 	internal static ArrayList PrefixList
 	{
-		[Token(Token = "0x6000838")]
-		[Address(RVA = "0x4963830", Offset = "0x4963830", VA = "0x4963830")]
+		[Token(Token = "0x60013F8")]
+		[Address(RVA = "0x27DABD0", Offset = "0x27D91D0", VA = "0x1827DABD0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001C9")]
+	[Token(Token = "0x1700041E")]
 	public virtual RequestCachePolicy CachePolicy
 	{
-		[Token(Token = "0x600083E")]
-		[Address(RVA = "0x4963E20", Offset = "0x4963E20", VA = "0x4963E20", Slot = "8")]
+		[Token(Token = "0x60013FE")]
+		[Address(RVA = "0x27DA290", Offset = "0x27D8890", VA = "0x1827DA290", Slot = "8")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001CA")]
+	[Token(Token = "0x1700041F")]
 	public virtual string Method
 	{
-		[Token(Token = "0x6000840")]
-		[Address(RVA = "0x4963EF0", Offset = "0x4963EF0", VA = "0x4963EF0", Slot = "9")]
+		[Token(Token = "0x6001400")]
+		[Address(RVA = "0x27DABA0", Offset = "0x27D91A0", VA = "0x1827DABA0", Slot = "9")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000841")]
-		[Address(RVA = "0x4963F20", Offset = "0x4963F20", VA = "0x4963F20", Slot = "10")]
+		[Token(Token = "0x6001401")]
+		[Address(RVA = "0x27DAE70", Offset = "0x27D9470", VA = "0x1827DAE70", Slot = "10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001CB")]
+	[Token(Token = "0x17000420")]
 	public virtual Uri RequestUri
 	{
-		[Token(Token = "0x6000842")]
-		[Address(RVA = "0x4963F50", Offset = "0x4963F50", VA = "0x4963F50", Slot = "11")]
+		[Token(Token = "0x6001402")]
+		[Address(RVA = "0x27DADB0", Offset = "0x27D93B0", VA = "0x1827DADB0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001CC")]
+	[Token(Token = "0x17000421")]
 	public virtual WebHeaderCollection Headers
 	{
-		[Token(Token = "0x6000843")]
-		[Address(RVA = "0x4963F80", Offset = "0x4963F80", VA = "0x4963F80", Slot = "12")]
+		[Token(Token = "0x6001403")]
+		[Address(RVA = "0x27DA890", Offset = "0x27D8E90", VA = "0x1827DA890", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001CD")]
+	[Token(Token = "0x17000422")]
 	public virtual long ContentLength
 	{
-		[Token(Token = "0x6000844")]
-		[Address(RVA = "0x4963FB0", Offset = "0x4963FB0", VA = "0x4963FB0", Slot = "13")]
+		[Token(Token = "0x6001404")]
+		[Address(RVA = "0x27DA830", Offset = "0x27D8E30", VA = "0x1827DA830", Slot = "13")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x170001CE")]
+	[Token(Token = "0x17000423")]
 	public virtual ICredentials Credentials
 	{
-		[Token(Token = "0x6000845")]
-		[Address(RVA = "0x4963FE0", Offset = "0x4963FE0", VA = "0x4963FE0", Slot = "14")]
+		[Token(Token = "0x6001405")]
+		[Address(RVA = "0x27DA860", Offset = "0x27D8E60", VA = "0x1827DA860", Slot = "14")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000846")]
-		[Address(RVA = "0x4964010", Offset = "0x4964010", VA = "0x4964010", Slot = "15")]
+		[Token(Token = "0x6001406")]
+		[Address(RVA = "0x27DAE40", Offset = "0x27D9440", VA = "0x1827DAE40", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001CF")]
+	[Token(Token = "0x17000424")]
 	public virtual bool UseDefaultCredentials
 	{
-		[Token(Token = "0x6000847")]
-		[Address(RVA = "0x4964040", Offset = "0x4964040", VA = "0x4964040", Slot = "16")]
+		[Token(Token = "0x6001407")]
+		[Address(RVA = "0x27DAE10", Offset = "0x27D9410", VA = "0x1827DAE10", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170001D0")]
+	[Token(Token = "0x17000425")]
 	public virtual IWebProxy Proxy
 	{
-		[Token(Token = "0x6000848")]
-		[Address(RVA = "0x4964070", Offset = "0x4964070", VA = "0x4964070", Slot = "17")]
+		[Token(Token = "0x6001408")]
+		[Address(RVA = "0x27DAD80", Offset = "0x27D9380", VA = "0x1827DAD80", Slot = "17")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000849")]
-		[Address(RVA = "0x49640A0", Offset = "0x49640A0", VA = "0x49640A0", Slot = "18")]
+		[Token(Token = "0x6001409")]
+		[Address(RVA = "0x27DAEA0", Offset = "0x27D94A0", VA = "0x1827DAEA0", Slot = "18")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001D1")]
+	[Token(Token = "0x17000426")]
 	public virtual int Timeout
 	{
-		[Token(Token = "0x600084A")]
-		[Address(RVA = "0x49640D0", Offset = "0x49640D0", VA = "0x49640D0", Slot = "19")]
+		[Token(Token = "0x600140A")]
+		[Address(RVA = "0x27DADE0", Offset = "0x27D93E0", VA = "0x1827DADE0", Slot = "19")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001D2")]
+	[Token(Token = "0x17000427")]
 	internal RequestCacheProtocol CacheProtocol
 	{
-		[Token(Token = "0x6000851")]
-		[Address(RVA = "0x4964550", Offset = "0x4964550", VA = "0x4964550")]
+		[Token(Token = "0x6001411")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000852")]
-		[Address(RVA = "0x4964560", Offset = "0x4964560", VA = "0x4964560")]
+		[Token(Token = "0x6001412")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001D3")]
+	[Token(Token = "0x17000428")]
 	internal static IWebProxy InternalDefaultWebProxy
 	{
-		[Token(Token = "0x6000853")]
-		[Address(RVA = "0x4964570", Offset = "0x4964570", VA = "0x4964570")]
+		[Token(Token = "0x6001413")]
+		[Address(RVA = "0x27DA8C0", Offset = "0x27D8EC0", VA = "0x1827DA8C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x4963580", Offset = "0x4963580", VA = "0x4963580")]
+	[Token(Token = "0x60013F5")]
+	[Address(RVA = "0x27D9B80", Offset = "0x27D8180", VA = "0x1827D9B80")]
 	private static WebRequest Create(Uri requestUri, bool useUriBase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000836")]
-	[Address(RVA = "0x4963A10", Offset = "0x4963A10", VA = "0x4963A10")]
+	[Token(Token = "0x60013F6")]
+	[Address(RVA = "0x27D9F10", Offset = "0x27D8510", VA = "0x1827D9F10")]
 	public static WebRequest Create(string requestUriString)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x4963AE0", Offset = "0x4963AE0", VA = "0x4963AE0")]
+	[Token(Token = "0x60013F7")]
+	[Address(RVA = "0x27D9E40", Offset = "0x27D8440", VA = "0x1827D9E40")]
 	public static WebRequest Create(Uri requestUri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x4963BB0", Offset = "0x4963BB0", VA = "0x4963BB0")]
+	[Token(Token = "0x60013F9")]
+	[Address(RVA = "0x27DA370", Offset = "0x27D8970", VA = "0x1827DA370")]
 	private static ArrayList PopulatePrefixList()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x4963DC0", Offset = "0x4963DC0", VA = "0x4963DC0")]
+	[Token(Token = "0x60013FA")]
+	[Address(RVA = "0x27DA800", Offset = "0x27D8E00", VA = "0x1827DA800")]
 	protected WebRequest()
 	{
 	}
 
-	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x4963DE0", Offset = "0x4963DE0", VA = "0x4963DE0")]
+	[Token(Token = "0x60013FB")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected WebRequest(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x4963DF0", Offset = "0x4963DF0", VA = "0x4963DF0", Slot = "6")]
+	[Token(Token = "0x60013FC")]
+	[Address(RVA = "0x27CA9B0", Offset = "0x27C8FB0", VA = "0x1827CA9B0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x4963E10", Offset = "0x4963E10", VA = "0x4963E10", Slot = "7")]
+	[Token(Token = "0x60013FD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	protected virtual void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x4963E30", Offset = "0x4963E30", VA = "0x4963E30")]
+	[Token(Token = "0x60013FF")]
+	[Address(RVA = "0x27DA290", Offset = "0x27D8890", VA = "0x1827DA290")]
 	private void InternalSetCachePolicy(RequestCachePolicy policy)
 	{
 	}
 
-	[Token(Token = "0x600084B")]
-	[Address(RVA = "0x4964100", Offset = "0x4964100", VA = "0x4964100", Slot = "20")]
+	[Token(Token = "0x600140B")]
+	[Address(RVA = "0x27DA260", Offset = "0x27D8860", VA = "0x1827DA260", Slot = "20")]
 	public virtual WebResponse GetResponse()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600084C")]
-	[Address(RVA = "0x4964130", Offset = "0x4964130", VA = "0x4964130", Slot = "21")]
+	[Token(Token = "0x600140C")]
+	[Address(RVA = "0x27D9B50", Offset = "0x27D8150", VA = "0x1827D9B50", Slot = "21")]
 	public virtual IAsyncResult BeginGetResponse(AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600084D")]
-	[Address(RVA = "0x4964160", Offset = "0x4964160", VA = "0x4964160", Slot = "22")]
+	[Token(Token = "0x600140D")]
+	[Address(RVA = "0x27D9FE0", Offset = "0x27D85E0", VA = "0x1827D9FE0", Slot = "22")]
 	public virtual WebResponse EndGetResponse(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600084E")]
-	[Address(RVA = "0x4964190", Offset = "0x4964190", VA = "0x4964190", Slot = "23")]
+	[Token(Token = "0x600140E")]
+	[Address(RVA = "0x27DA010", Offset = "0x27D8610", VA = "0x1827DA010", Slot = "23")]
 	public virtual Task<WebResponse> GetResponseAsync()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600084F")]
-	[Address(RVA = "0x49644C0", Offset = "0x49644C0", VA = "0x49644C0")]
+	[Token(Token = "0x600140F")]
+	[Address(RVA = "0x27DA5E0", Offset = "0x27D8BE0", VA = "0x1827DA5E0")]
 	private WindowsIdentity SafeCaptureIdenity()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000850")]
-	[Address(RVA = "0x4964520", Offset = "0x4964520", VA = "0x4964520", Slot = "24")]
+	[Token(Token = "0x6001410")]
+	[Address(RVA = "0x27D9B20", Offset = "0x27D8120", VA = "0x1827D9B20", Slot = "24")]
 	public virtual void Abort()
 	{
 	}

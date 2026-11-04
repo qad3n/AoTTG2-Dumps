@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200002E")]
 internal sealed class ParentForeignKeyConstraintEnumerator : ForeignKeyConstraintEnumerator
 {
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x40000FE")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly DataTable _table;
 
-	[Token(Token = "0x600006A")]
-	[Address(RVA = "0x4538260", Offset = "0x4538260", VA = "0x4538260")]
+	[Token(Token = "0x6000394")]
+	[Address(RVA = "0x24E4A80", Offset = "0x24E3080", VA = "0x1824E4A80")]
 	public ParentForeignKeyConstraintEnumerator(DataSet dataSet, DataTable inTable)
 	{
 	}
 
-	[Token(Token = "0x600006B")]
-	[Address(RVA = "0x45382F0", Offset = "0x45382F0", VA = "0x45382F0", Slot = "4")]
+	[Token(Token = "0x6000395")]
+	[Address(RVA = "0x24FF180", Offset = "0x24FD780", VA = "0x1824FF180", Slot = "4")]
 	protected override bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);

@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000087")]
+[Token(Token = "0x20000C6")]
 internal enum ParsingError
 {
-	[Token(Token = "0x40001FA")]
+	[Token(Token = "0x40002CA")]
 	None = 0,
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x40002CB")]
 	BadFormat = 1,
-	[Token(Token = "0x40001FC")]
+	[Token(Token = "0x40002CC")]
 	BadScheme = 2,
-	[Token(Token = "0x40001FD")]
+	[Token(Token = "0x40002CD")]
 	BadAuthority = 3,
-	[Token(Token = "0x40001FE")]
+	[Token(Token = "0x40002CE")]
 	EmptyUriString = 4,
-	[Token(Token = "0x40001FF")]
-	LastRelativeUriOkErrIndex = 4,
-	[Token(Token = "0x4000200")]
+	[Token(Token = "0x40002CF")]
+	LastRelativeUriOkErrIndex = EmptyUriString,
+	[Token(Token = "0x40002D0")]
 	SchemeLimit = 5,
-	[Token(Token = "0x4000201")]
+	[Token(Token = "0x40002D1")]
 	SizeLimit = 6,
-	[Token(Token = "0x4000202")]
+	[Token(Token = "0x40002D2")]
 	MustRootedPath = 7,
-	[Token(Token = "0x4000203")]
+	[Token(Token = "0x40002D3")]
 	BadHostName = 8,
-	[Token(Token = "0x4000204")]
+	[Token(Token = "0x40002D4")]
 	NonEmptyHost = 9,
-	[Token(Token = "0x4000205")]
+	[Token(Token = "0x40002D5")]
 	BadPort = 10,
-	[Token(Token = "0x4000206")]
+	[Token(Token = "0x40002D6")]
 	BadAuthorityTerminator = 11,
-	[Token(Token = "0x4000207")]
+	[Token(Token = "0x40002D7")]
 	CannotCreateRelative = 12
 }

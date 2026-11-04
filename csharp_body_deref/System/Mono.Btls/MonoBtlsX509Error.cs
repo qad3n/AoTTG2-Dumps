@@ -1,0 +1,141 @@
+// ==================== AoTTG2 cross-reference ====================
+// Type: Mono.Btls.MonoBtlsX509Error
+// Update status: NEW in this game update
+// No native C: this type has no methods, or its assembly is out of native scope.
+// Prior real C# source: none (type is newer than the last public source snapshot)
+// Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
+// ===============================================================
+using Il2CppDummyDll;
+
+namespace Mono.Btls;
+
+[Token(Token = "0x2000091")]
+internal enum MonoBtlsX509Error
+{
+	[Token(Token = "0x4000170")]
+	OK = 0,
+	[Token(Token = "0x4000171")]
+	UNABLE_TO_GET_ISSUER_CERT = 2,
+	[Token(Token = "0x4000172")]
+	UNABLE_TO_GET_CRL = 3,
+	[Token(Token = "0x4000173")]
+	UNABLE_TO_DECRYPT_CERT_SIGNATURE = 4,
+	[Token(Token = "0x4000174")]
+	UNABLE_TO_DECRYPT_CRL_SIGNATURE = 5,
+	[Token(Token = "0x4000175")]
+	UNABLE_TO_DECODE_ISSUER_PUBLIC_KEY = 6,
+	[Token(Token = "0x4000176")]
+	CERT_SIGNATURE_FAILURE = 7,
+	[Token(Token = "0x4000177")]
+	CRL_SIGNATURE_FAILURE = 8,
+	[Token(Token = "0x4000178")]
+	CERT_NOT_YET_VALID = 9,
+	[Token(Token = "0x4000179")]
+	CERT_HAS_EXPIRED = 10,
+	[Token(Token = "0x400017A")]
+	CRL_NOT_YET_VALID = 11,
+	[Token(Token = "0x400017B")]
+	CRL_HAS_EXPIRED = 12,
+	[Token(Token = "0x400017C")]
+	ERROR_IN_CERT_NOT_BEFORE_FIELD = 13,
+	[Token(Token = "0x400017D")]
+	ERROR_IN_CERT_NOT_AFTER_FIELD = 14,
+	[Token(Token = "0x400017E")]
+	ERROR_IN_CRL_LAST_UPDATE_FIELD = 15,
+	[Token(Token = "0x400017F")]
+	ERROR_IN_CRL_NEXT_UPDATE_FIELD = 16,
+	[Token(Token = "0x4000180")]
+	OUT_OF_MEM = 17,
+	[Token(Token = "0x4000181")]
+	DEPTH_ZERO_SELF_SIGNED_CERT = 18,
+	[Token(Token = "0x4000182")]
+	SELF_SIGNED_CERT_IN_CHAIN = 19,
+	[Token(Token = "0x4000183")]
+	UNABLE_TO_GET_ISSUER_CERT_LOCALLY = 20,
+	[Token(Token = "0x4000184")]
+	UNABLE_TO_VERIFY_LEAF_SIGNATURE = 21,
+	[Token(Token = "0x4000185")]
+	CERT_CHAIN_TOO_LONG = 22,
+	[Token(Token = "0x4000186")]
+	CERT_REVOKED = 23,
+	[Token(Token = "0x4000187")]
+	INVALID_CA = 24,
+	[Token(Token = "0x4000188")]
+	PATH_LENGTH_EXCEEDED = 25,
+	[Token(Token = "0x4000189")]
+	INVALID_PURPOSE = 26,
+	[Token(Token = "0x400018A")]
+	CERT_UNTRUSTED = 27,
+	[Token(Token = "0x400018B")]
+	CERT_REJECTED = 28,
+	[Token(Token = "0x400018C")]
+	SUBJECT_ISSUER_MISMATCH = 29,
+	[Token(Token = "0x400018D")]
+	AKID_SKID_MISMATCH = 30,
+	[Token(Token = "0x400018E")]
+	AKID_ISSUER_SERIAL_MISMATCH = 31,
+	[Token(Token = "0x400018F")]
+	KEYUSAGE_NO_CERTSIGN = 32,
+	[Token(Token = "0x4000190")]
+	UNABLE_TO_GET_CRL_ISSUER = 33,
+	[Token(Token = "0x4000191")]
+	UNHANDLED_CRITICAL_EXTENSION = 34,
+	[Token(Token = "0x4000192")]
+	KEYUSAGE_NO_CRL_SIGN = 35,
+	[Token(Token = "0x4000193")]
+	UNHANDLED_CRITICAL_CRL_EXTENSION = 36,
+	[Token(Token = "0x4000194")]
+	INVALID_NON_CA = 37,
+	[Token(Token = "0x4000195")]
+	PROXY_PATH_LENGTH_EXCEEDED = 38,
+	[Token(Token = "0x4000196")]
+	KEYUSAGE_NO_DIGITAL_SIGNATURE = 39,
+	[Token(Token = "0x4000197")]
+	PROXY_CERTIFICATES_NOT_ALLOWED = 40,
+	[Token(Token = "0x4000198")]
+	INVALID_EXTENSION = 41,
+	[Token(Token = "0x4000199")]
+	INVALID_POLICY_EXTENSION = 42,
+	[Token(Token = "0x400019A")]
+	NO_EXPLICIT_POLICY = 43,
+	[Token(Token = "0x400019B")]
+	DIFFERENT_CRL_SCOPE = 44,
+	[Token(Token = "0x400019C")]
+	UNSUPPORTED_EXTENSION_FEATURE = 45,
+	[Token(Token = "0x400019D")]
+	UNNESTED_RESOURCE = 46,
+	[Token(Token = "0x400019E")]
+	PERMITTED_VIOLATION = 47,
+	[Token(Token = "0x400019F")]
+	EXCLUDED_VIOLATION = 48,
+	[Token(Token = "0x40001A0")]
+	SUBTREE_MINMAX = 49,
+	[Token(Token = "0x40001A1")]
+	UNSUPPORTED_CONSTRAINT_TYPE = 51,
+	[Token(Token = "0x40001A2")]
+	UNSUPPORTED_CONSTRAINT_SYNTAX = 52,
+	[Token(Token = "0x40001A3")]
+	UNSUPPORTED_NAME_SYNTAX = 53,
+	[Token(Token = "0x40001A4")]
+	CRL_PATH_VALIDATION_ERROR = 54,
+	[Token(Token = "0x40001A5")]
+	SUITE_B_INVALID_VERSION = 56,
+	[Token(Token = "0x40001A6")]
+	SUITE_B_INVALID_ALGORITHM = 57,
+	[Token(Token = "0x40001A7")]
+	SUITE_B_INVALID_CURVE = 58,
+	[Token(Token = "0x40001A8")]
+	SUITE_B_INVALID_SIGNATURE_ALGORITHM = 59,
+	[Token(Token = "0x40001A9")]
+	SUITE_B_LOS_NOT_ALLOWED = 60,
+	[Token(Token = "0x40001AA")]
+	SUITE_B_CANNOT_SIGN_P_384_WITH_P_256 = 61,
+	[Token(Token = "0x40001AB")]
+	HOSTNAME_MISMATCH = 62,
+	[Token(Token = "0x40001AC")]
+	EMAIL_MISMATCH = 63,
+	[Token(Token = "0x40001AD")]
+	IP_ADDRESS_MISMATCH = 64,
+	[Token(Token = "0x40001AE")]
+	APPLICATION_VERIFICATION = 50
+}

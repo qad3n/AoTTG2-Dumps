@@ -12,12 +12,12 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000190")]
+[Token(Token = "0x20001CA")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public class YieldInstruction
 {
-	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x4DF31D0", Offset = "0x4DF31D0", VA = "0x4DF31D0")]
+	[Token(Token = "0x6000EEC")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public YieldInstruction()
 	{
 	}

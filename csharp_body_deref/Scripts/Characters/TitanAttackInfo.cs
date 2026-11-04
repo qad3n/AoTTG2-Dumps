@@ -12,60 +12,60 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000560")]
+[Token(Token = "0x20006D1")]
 internal class TitanAttackInfo
 {
-	[Token(Token = "0x4001A8A")]
+	[Token(Token = "0x400223A")]
 	[FieldOffset(Offset = "0x10")]
 	public bool HumanOnly;
 
-	[Token(Token = "0x4001A8B")]
+	[Token(Token = "0x400223B")]
 	[FieldOffset(Offset = "0x11")]
 	public bool MapObject;
 
-	[Token(Token = "0x4001A8C")]
+	[Token(Token = "0x400223C")]
 	[FieldOffset(Offset = "0x12")]
 	public bool FarOnly;
 
-	[Token(Token = "0x4001A8D")]
+	[Token(Token = "0x400223D")]
 	[FieldOffset(Offset = "0x13")]
 	public bool LeftArm;
 
-	[Token(Token = "0x4001A8E")]
+	[Token(Token = "0x400223E")]
 	[FieldOffset(Offset = "0x14")]
 	public bool RightArm;
 
-	[Token(Token = "0x4001A8F")]
+	[Token(Token = "0x400223F")]
 	[FieldOffset(Offset = "0x18")]
 	public Vector3 MinRange;
 
-	[Token(Token = "0x4001A90")]
+	[Token(Token = "0x4002240")]
 	[FieldOffset(Offset = "0x24")]
 	public Vector3 MaxRange;
 
-	[Token(Token = "0x4001A91")]
+	[Token(Token = "0x4002241")]
 	[FieldOffset(Offset = "0x30")]
 	public bool HasKeyframes;
 
-	[Token(Token = "0x4001A92")]
+	[Token(Token = "0x4002242")]
 	[FieldOffset(Offset = "0x38")]
 	public List<TitanAttackKeyframe> Keyframes;
 
-	[Token(Token = "0x60037F9")]
-	[Address(RVA = "0x42226D0", Offset = "0x42226D0", VA = "0x42226D0")]
+	[Token(Token = "0x600431B")]
+	[Address(RVA = "0x21CC330", Offset = "0x21CA930", VA = "0x1821CC330")]
 	public TitanAttackInfo(JSONNode attackInfo, JSONNode keyframes)
 	{
 	}
 
-	[Token(Token = "0x60037FA")]
-	[Address(RVA = "0x42231F0", Offset = "0x42231F0", VA = "0x42231F0")]
+	[Token(Token = "0x600431C")]
+	[Address(RVA = "0x21CC0C0", Offset = "0x21CA6C0", VA = "0x1821CC0C0")]
 	public bool CheckSimpleAttack(Vector3 relativePosition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60037FB")]
-	[Address(RVA = "0x4223240", Offset = "0x4223240", VA = "0x4223240")]
+	[Token(Token = "0x600431D")]
+	[Address(RVA = "0x21CC110", Offset = "0x21CA710", VA = "0x1821CC110")]
 	public bool CheckSmartAttack(Transform titan, Vector3 worldPosition, Vector3 velocity, float attackSpeed, float size)
 	{
 		return default(bool);

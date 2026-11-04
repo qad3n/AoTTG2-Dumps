@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200021C")]
+[Token(Token = "0x200021F")]
 [DisallowMultipleComponent]
 public sealed class AsyncPointerUpTrigger : AsyncTriggerBase<PointerEventData>, IPointerUpHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x4A17CE0", Offset = "0x4A17CE0", VA = "0x4A17CE0", Slot = "5")]
+	[Token(Token = "0x6000C6A")]
+	[Address(RVA = "0x2935F40", Offset = "0x2934540", VA = "0x182935F40", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerUpHandler_002EOnPointerUp(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0x4A17D30", Offset = "0x4A17D30", VA = "0x4A17D30")]
+	[Token(Token = "0x6000C6B")]
+	[Address(RVA = "0x2935CA0", Offset = "0x29342A0", VA = "0x182935CA0")]
 	public IAsyncOnPointerUpHandler GetOnPointerUpAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C48")]
-	[Address(RVA = "0x4A17DA0", Offset = "0x4A17DA0", VA = "0x4A17DA0")]
+	[Token(Token = "0x6000C6C")]
+	[Address(RVA = "0x2935C20", Offset = "0x2934220", VA = "0x182935C20")]
 	public IAsyncOnPointerUpHandler GetOnPointerUpAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C49")]
-	[Address(RVA = "0x4A17E10", Offset = "0x4A17E10", VA = "0x4A17E10")]
+	[Token(Token = "0x6000C6D")]
+	[Address(RVA = "0x2935E20", Offset = "0x2934420", VA = "0x182935E20")]
 	public UniTask<PointerEventData> OnPointerUpAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C4A")]
-	[Address(RVA = "0x4A17F10", Offset = "0x4A17F10", VA = "0x4A17F10")]
+	[Token(Token = "0x6000C6E")]
+	[Address(RVA = "0x2935D10", Offset = "0x2934310", VA = "0x182935D10")]
 	public UniTask<PointerEventData> OnPointerUpAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C4B")]
-	[Address(RVA = "0x4A18020", Offset = "0x4A18020", VA = "0x4A18020")]
+	[Token(Token = "0x6000C6F")]
+	[Address(RVA = "0x2935F90", Offset = "0x2934590", VA = "0x182935F90")]
 	public AsyncPointerUpTrigger()
 	{
 	}

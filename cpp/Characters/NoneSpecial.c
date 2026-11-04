@@ -1,5 +1,5 @@
 // Type: Characters.NoneSpecial
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/NoneSpecial.cs
@@ -8,7 +8,7 @@
 
 // Characters.NoneSpecial$$.ctor
 // il2cpp: void Characters_NoneSpecial___ctor (Characters_NoneSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x42e4230
+// 0x182171670
 
 void Characters_NoneSpecial___ctor
                (Characters_NoneSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
@@ -22,20 +22,22 @@ void Characters_NoneSpecial___ctor
 
 // Characters.NoneSpecial$$CanUse
 // il2cpp: bool Characters_NoneSpecial__CanUse (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x42f73e0
+// 0x180668280
 
-bool_conflict Characters_NoneSpecial__CanUse(Characters_NoneSpecial_o *__this,MethodInfo *method)
+bool
+Characters_NoneSpecial__CanUse(Characters_NoneSpecial_o* __this, MethodInfo* method)
 
 {
-  return 0;
+  return false;
 }
 
 
 // Characters.NoneSpecial$$Activate
 // il2cpp: void Characters_NoneSpecial__Activate (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x42f73f0
+// 0x180547020
 
-void Characters_NoneSpecial__Activate(Characters_NoneSpecial_o *__this,MethodInfo *method)
+void
+Characters_NoneSpecial__Activate(Characters_NoneSpecial_o* __this, MethodInfo* method)
 
 {
   return;
@@ -44,9 +46,10 @@ void Characters_NoneSpecial__Activate(Characters_NoneSpecial_o *__this,MethodInf
 
 // Characters.NoneSpecial$$Deactivate
 // il2cpp: void Characters_NoneSpecial__Deactivate (Characters_NoneSpecial_o* __this, const MethodInfo* method);
-// 0x42f7400
+// 0x180547020
 
-void Characters_NoneSpecial__Deactivate(Characters_NoneSpecial_o *__this,MethodInfo *method)
+void
+Characters_NoneSpecial__Deactivate(Characters_NoneSpecial_o* __this, MethodInfo* method)
 
 {
   return;

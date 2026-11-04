@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000056")]
+[Token(Token = "0x2000092")]
 public interface IBindable
 {
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x170000E7")]
 	IBinding binding
 	{
-		[Token(Token = "0x6000325")]
+		[Token(Token = "0x60004ED")]
 		get;
 	}
 
-	[Token(Token = "0x17000086")]
+	[Token(Token = "0x170000E8")]
 	string bindingPath
 	{
-		[Token(Token = "0x6000326")]
+		[Token(Token = "0x60004EE")]
 		set;
 	}
 }

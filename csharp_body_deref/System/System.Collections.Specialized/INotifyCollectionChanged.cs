@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Specialized;
 
-[Token(Token = "0x200033E")]
+[Token(Token = "0x2000249")]
 public interface INotifyCollectionChanged
 {
 }

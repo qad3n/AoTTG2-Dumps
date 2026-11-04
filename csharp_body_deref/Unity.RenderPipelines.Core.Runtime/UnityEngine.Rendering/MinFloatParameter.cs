@@ -12,33 +12,33 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x200020C")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class MinFloatParameter : FloatParameter
 {
 	[NonSerialized]
-	[Token(Token = "0x4000828")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000999")]
+	[FieldOffset(Offset = "0x20")]
 	public float min;
 
-	[Token(Token = "0x170001A1")]
+	[Token(Token = "0x170001F2")]
 	public override float value
 	{
-		[Token(Token = "0x6000DD3")]
-		[Address(RVA = "0x4C0B2D0", Offset = "0x4C0B2D0", VA = "0x4C0B2D0", Slot = "14")]
+		[Token(Token = "0x6000F32")]
+		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000DD4")]
-		[Address(RVA = "0x4C0B2E0", Offset = "0x4C0B2E0", VA = "0x4C0B2E0", Slot = "15")]
+		[Token(Token = "0x6000F33")]
+		[Address(RVA = "0x2B5F3B0", Offset = "0x2B5D9B0", VA = "0x182B5F3B0", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000DD5")]
-	[Address(RVA = "0x4C0B2F0", Offset = "0x4C0B2F0", VA = "0x4C0B2F0")]
+	[Token(Token = "0x6000F34")]
+	[Address(RVA = "0x2B5E2B0", Offset = "0x2B5C8B0", VA = "0x182B5E2B0")]
 	public MinFloatParameter(float value, float min, bool overrideState = false)
 	{
 	}

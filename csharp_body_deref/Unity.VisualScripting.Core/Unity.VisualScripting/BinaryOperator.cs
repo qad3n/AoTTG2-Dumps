@@ -12,36 +12,36 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000108")]
 public enum BinaryOperator
 {
-	[Token(Token = "0x400028C")]
+	[Token(Token = "0x400028A")]
 	Addition,
-	[Token(Token = "0x400028D")]
+	[Token(Token = "0x400028B")]
 	Subtraction,
-	[Token(Token = "0x400028E")]
+	[Token(Token = "0x400028C")]
 	Multiplication,
-	[Token(Token = "0x400028F")]
+	[Token(Token = "0x400028D")]
 	Division,
-	[Token(Token = "0x4000290")]
+	[Token(Token = "0x400028E")]
 	Modulo,
-	[Token(Token = "0x4000291")]
+	[Token(Token = "0x400028F")]
 	And,
-	[Token(Token = "0x4000292")]
+	[Token(Token = "0x4000290")]
 	Or,
-	[Token(Token = "0x4000293")]
+	[Token(Token = "0x4000291")]
 	ExclusiveOr,
-	[Token(Token = "0x4000294")]
+	[Token(Token = "0x4000292")]
 	Equality,
-	[Token(Token = "0x4000295")]
+	[Token(Token = "0x4000293")]
 	Inequality,
-	[Token(Token = "0x4000296")]
+	[Token(Token = "0x4000294")]
 	GreaterThan,
-	[Token(Token = "0x4000297")]
+	[Token(Token = "0x4000295")]
 	LessThan,
-	[Token(Token = "0x4000298")]
+	[Token(Token = "0x4000296")]
 	GreaterThanOrEqual,
-	[Token(Token = "0x4000299")]
+	[Token(Token = "0x4000297")]
 	LessThanOrEqual,
-	[Token(Token = "0x400029A")]
+	[Token(Token = "0x4000298")]
 	LeftShift,
-	[Token(Token = "0x400029B")]
+	[Token(Token = "0x4000299")]
 	RightShift
 }

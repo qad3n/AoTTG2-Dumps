@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x2000568")]
+[Token(Token = "0x2000663")]
 internal class MultiColumnHeaderColumnMovePreview : VisualElement
 {
-	[Token(Token = "0x400129D")]
+	[Token(Token = "0x4001857")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x600212C")]
-	[Address(RVA = "0x4FD5890", Offset = "0x4FD5890", VA = "0x4FD5890")]
+	[Token(Token = "0x6002EC0")]
+	[Address(RVA = "0x3204080", Offset = "0x3202680", VA = "0x183204080")]
 	public MultiColumnHeaderColumnMovePreview()
 	{
 	}

@@ -10,47 +10,47 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000220")]
+[Token(Token = "0x20002DF")]
 public class DebugUIHandlerGroup : DebugUIHandlerWidget
 {
-	[Token(Token = "0x4000882")]
+	[Token(Token = "0x4000D54")]
 	[FieldOffset(Offset = "0x60")]
 	public Text nameLabel;
 
-	[Token(Token = "0x4000883")]
+	[Token(Token = "0x4000D55")]
 	[FieldOffset(Offset = "0x68")]
 	public Transform header;
 
-	[Token(Token = "0x4000884")]
+	[Token(Token = "0x4000D56")]
 	[FieldOffset(Offset = "0x70")]
 	private DebugUI.Container m_Field;
 
-	[Token(Token = "0x4000885")]
+	[Token(Token = "0x4000D57")]
 	[FieldOffset(Offset = "0x78")]
 	private DebugUIHandlerContainer m_Container;
 
-	[Token(Token = "0x6000EB4")]
-	[Address(RVA = "0x4C13DC0", Offset = "0x4C13DC0", VA = "0x4C13DC0", Slot = "5")]
+	[Token(Token = "0x600144C")]
+	[Address(RVA = "0x2BAD790", Offset = "0x2BABD90", VA = "0x182BAD790", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000EB5")]
-	[Address(RVA = "0x4C13EC0", Offset = "0x4C13EC0", VA = "0x4C13EC0", Slot = "6")]
+	[Token(Token = "0x600144D")]
+	[Address(RVA = "0x2BAD6D0", Offset = "0x2BABCD0", VA = "0x182BAD6D0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000EB6")]
-	[Address(RVA = "0x4C13F60", Offset = "0x4C13F60", VA = "0x4C13F60", Slot = "12")]
+	[Token(Token = "0x600144E")]
+	[Address(RVA = "0x2BAD610", Offset = "0x2BABC10", VA = "0x182BAD610", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EB7")]
-	[Address(RVA = "0x4C14010", Offset = "0x4C14010", VA = "0x4C14010")]
+	[Token(Token = "0x600144F")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerGroup()
 	{
 	}

@@ -39,8 +39,8 @@ internal sealed class TryCatchFinallyHandler
 	[Token(Token = "0x170001CF")]
 	internal bool IsFinallyBlockExist
 	{
-		[Token(Token = "0x6000866")]
-		[Address(RVA = "0x44DEC50", Offset = "0x44DEC50", VA = "0x44DEC50")]
+		[Token(Token = "0x6000865")]
+		[Address(RVA = "0x2465C80", Offset = "0x2464280", VA = "0x182465C80")]
 		get
 		{
 			return default(bool);
@@ -50,8 +50,8 @@ internal sealed class TryCatchFinallyHandler
 	[Token(Token = "0x170001D0")]
 	internal ExceptionHandler[] Handlers
 	{
-		[Token(Token = "0x6000867")]
-		[Address(RVA = "0x44DEC60", Offset = "0x44DEC60", VA = "0x44DEC60")]
+		[Token(Token = "0x6000866")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -61,35 +61,35 @@ internal sealed class TryCatchFinallyHandler
 	[Token(Token = "0x170001D1")]
 	internal bool IsCatchBlockExist
 	{
-		[Token(Token = "0x6000868")]
-		[Address(RVA = "0x44DEC70", Offset = "0x44DEC70", VA = "0x44DEC70")]
+		[Token(Token = "0x6000867")]
+		[Address(RVA = "0x19B68F0", Offset = "0x19B4EF0", VA = "0x1819B68F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x44DEC80", Offset = "0x44DEC80", VA = "0x44DEC80")]
+	[Token(Token = "0x6000868")]
+	[Address(RVA = "0x2465C30", Offset = "0x2464230", VA = "0x182465C30")]
 	internal TryCatchFinallyHandler(int tryStart, int tryEnd, int gotoEndTargetIndex, ExceptionHandler[] handlers)
 	{
 	}
 
-	[Token(Token = "0x600086A")]
-	[Address(RVA = "0x44DECE0", Offset = "0x44DECE0", VA = "0x44DECE0")]
+	[Token(Token = "0x6000869")]
+	[Address(RVA = "0x2465BE0", Offset = "0x24641E0", VA = "0x182465BE0")]
 	internal TryCatchFinallyHandler(int tryStart, int tryEnd, int gotoEndLabelIndex, int finallyStart, int finallyEnd, ExceptionHandler[] handlers)
 	{
 	}
 
-	[Token(Token = "0x600086B")]
-	[Address(RVA = "0x44DED50", Offset = "0x44DED50", VA = "0x44DED50")]
+	[Token(Token = "0x600086A")]
+	[Address(RVA = "0x2465A60", Offset = "0x2464060", VA = "0x182465A60")]
 	internal bool HasHandler(InterpretedFrame frame, Exception exception, out ExceptionHandler handler, out object unwrappedException)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600086C")]
-	[Address(RVA = "0x44DEED0", Offset = "0x44DEED0", VA = "0x44DEED0")]
+	[Token(Token = "0x600086B")]
+	[Address(RVA = "0x2465810", Offset = "0x2463E10", VA = "0x182465810")]
 	private static bool FilterPasses(InterpretedFrame frame, ref object exception, ExceptionFilter filter)
 	{
 		return default(bool);

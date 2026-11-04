@@ -12,33 +12,33 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x2000206")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class MaxIntParameter : IntParameter
 {
 	[NonSerialized]
-	[Token(Token = "0x4000822")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000993")]
+	[FieldOffset(Offset = "0x20")]
 	public int max;
 
-	[Token(Token = "0x1700019D")]
+	[Token(Token = "0x170001EE")]
 	public override int value
 	{
-		[Token(Token = "0x6000DC4")]
-		[Address(RVA = "0x4C0AFF0", Offset = "0x4C0AFF0", VA = "0x4C0AFF0", Slot = "14")]
+		[Token(Token = "0x6000F23")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000DC5")]
-		[Address(RVA = "0x4C0B000", Offset = "0x4C0B000", VA = "0x4C0B000", Slot = "15")]
+		[Token(Token = "0x6000F24")]
+		[Address(RVA = "0x2B5E390", Offset = "0x2B5C990", VA = "0x182B5E390", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000DC6")]
-	[Address(RVA = "0x4C0B010", Offset = "0x4C0B010", VA = "0x4C0B010")]
+	[Token(Token = "0x6000F25")]
+	[Address(RVA = "0x2B5E330", Offset = "0x2B5C930", VA = "0x182B5E330")]
 	public MaxIntParameter(int value, int max, bool overrideState = false)
 	{
 	}

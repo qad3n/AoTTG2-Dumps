@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A3")]
+[Token(Token = "0x20000A5")]
 public interface IPointerClickHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000641")]
+	[Token(Token = "0x6000688")]
 	void OnPointerClick(PointerEventData eventData);
 }

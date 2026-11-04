@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000129")]
 public sealed class NumericNegationHandler : UnaryOperatorHandler
 {
-	[Token(Token = "0x6000C17")]
-	[Address(RVA = "0x4D2C320", Offset = "0x4D2C320", VA = "0x4D2C320")]
+	[Token(Token = "0x6000C21")]
+	[Address(RVA = "0x2E19FF0", Offset = "0x2E185F0", VA = "0x182E19FF0")]
 	public NumericNegationHandler()
 	{
 	}

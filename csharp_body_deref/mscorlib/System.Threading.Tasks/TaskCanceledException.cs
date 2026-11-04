@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 namespace System.Threading.Tasks;
 
 [Serializable]
-[Token(Token = "0x2000224")]
+[Token(Token = "0x2000255")]
 public class TaskCanceledException : OperationCanceledException
 {
 	[NonSerialized]
-	[Token(Token = "0x4000A4F")]
+	[Token(Token = "0x4000AAC")]
 	[FieldOffset(Offset = "0x98")]
 	private readonly Task _canceledTask;
 
-	[Token(Token = "0x6001371")]
-	[Address(RVA = "0x3D3E030", Offset = "0x3D3E030", VA = "0x3D3E030")]
+	[Token(Token = "0x60013E2")]
+	[Address(RVA = "0x1BB4A80", Offset = "0x1BB3080", VA = "0x181BB4A80")]
 	public TaskCanceledException()
 	{
 	}
 
-	[Token(Token = "0x6001372")]
-	[Address(RVA = "0x3D3E070", Offset = "0x3D3E070", VA = "0x3D3E070")]
+	[Token(Token = "0x60013E3")]
+	[Address(RVA = "0x1BB49E0", Offset = "0x1BB2FE0", VA = "0x181BB49E0")]
 	public TaskCanceledException(Task task)
 	{
 	}
 
-	[Token(Token = "0x6001373")]
-	[Address(RVA = "0x3D3E120", Offset = "0x3D3E120", VA = "0x3D3E120")]
+	[Token(Token = "0x60013E4")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected TaskCanceledException(SerializationInfo info, StreamingContext context)
 	{
 	}

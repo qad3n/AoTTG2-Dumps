@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000013")]
 [VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Method)]
 internal class FreeFunctionAttribute : NativeMethodAttribute
 {
-	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x4E9E2B0", Offset = "0x4E9E2B0", VA = "0x4E9E2B0")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x2FF6D00", Offset = "0x2FF5300", VA = "0x182FF6D00")]
 	public FreeFunctionAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x4E9E2D0", Offset = "0x4E9E2D0", VA = "0x4E9E2D0")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x2FF6D20", Offset = "0x2FF5320", VA = "0x182FF6D20")]
 	public FreeFunctionAttribute(string name)
 	{
 	}
 
-	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x4E9E2E0", Offset = "0x4E9E2E0", VA = "0x4E9E2E0")]
+	[Token(Token = "0x600002D")]
+	[Address(RVA = "0x2FF6D40", Offset = "0x2FF5340", VA = "0x182FF6D40")]
 	public FreeFunctionAttribute(string name, bool isThreadSafe)
 	{
 	}

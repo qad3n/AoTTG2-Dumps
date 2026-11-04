@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200051E")]
+[Token(Token = "0x2000612")]
 internal enum LayoutEdge
 {
-	[Token(Token = "0x4001138")]
+	[Token(Token = "0x40016B1")]
 	Left,
-	[Token(Token = "0x4001139")]
+	[Token(Token = "0x40016B2")]
 	Top,
-	[Token(Token = "0x400113A")]
+	[Token(Token = "0x40016B3")]
 	Right,
-	[Token(Token = "0x400113B")]
+	[Token(Token = "0x40016B4")]
 	Bottom,
-	[Token(Token = "0x400113C")]
+	[Token(Token = "0x40016B5")]
 	Start,
-	[Token(Token = "0x400113D")]
+	[Token(Token = "0x40016B6")]
 	End,
-	[Token(Token = "0x400113E")]
+	[Token(Token = "0x40016B7")]
 	Horizontal,
-	[Token(Token = "0x400113F")]
+	[Token(Token = "0x40016B8")]
 	Vertical,
-	[Token(Token = "0x4001140")]
+	[Token(Token = "0x40016B9")]
 	All
 }

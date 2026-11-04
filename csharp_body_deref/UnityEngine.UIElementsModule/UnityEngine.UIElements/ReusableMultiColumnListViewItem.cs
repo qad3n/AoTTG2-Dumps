@@ -9,34 +9,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x200006A")]
 internal class ReusableMultiColumnListViewItem : ReusableListViewItem
 {
-	[Token(Token = "0x17000044")]
+	[Token(Token = "0x17000085")]
 	public override VisualElement rootElement
 	{
-		[Token(Token = "0x60001C7")]
-		[Address(RVA = "0x4F1E480", Offset = "0x4F1E480", VA = "0x4F1E480", Slot = "4")]
+		[Token(Token = "0x600031A")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x4F1E490", Offset = "0x4F1E490", VA = "0x4F1E490", Slot = "5")]
+	[Token(Token = "0x600031B")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public override void Init(VisualElement item)
 	{
 	}
 
-	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x4F1BEB0", Offset = "0x4F1BEB0", VA = "0x4F1BEB0")]
+	[Token(Token = "0x600031C")]
+	[Address(RVA = "0x30B0A40", Offset = "0x30AF040", VA = "0x1830B0A40")]
 	public void Init(VisualElement container, Columns columns, bool usesAnimatedDrag)
 	{
 	}
 
-	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x4F1E4A0", Offset = "0x4F1E4A0", VA = "0x4F1E4A0")]
+	[Token(Token = "0x600031D")]
+	[Address(RVA = "0x30B0CB0", Offset = "0x30AF2B0", VA = "0x1830B0CB0")]
 	public ReusableMultiColumnListViewItem()
 	{
 	}

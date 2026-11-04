@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x200020B")]
+[Token(Token = "0x2000212")]
 public enum fsMemberSerialization
 {
-	[Token(Token = "0x4000997")]
+	[Token(Token = "0x40009A7")]
 	OptIn,
-	[Token(Token = "0x4000998")]
+	[Token(Token = "0x40009A8")]
 	OptOut,
-	[Token(Token = "0x4000999")]
+	[Token(Token = "0x40009A9")]
 	Default
 }

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200001E")]
+[Token(Token = "0x2000012")]
 public class InvalidConstraintException : DataException
 {
-	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x45479D0", Offset = "0x45479D0", VA = "0x45479D0")]
+	[Token(Token = "0x60000B4")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected InvalidConstraintException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x45479E0", Offset = "0x45479E0", VA = "0x45479E0")]
+	[Token(Token = "0x60000B5")]
+	[Address(RVA = "0x24E40B0", Offset = "0x24E26B0", VA = "0x1824E40B0")]
 	public InvalidConstraintException()
 	{
 	}
 
-	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x4547A20", Offset = "0x4547A20", VA = "0x4547A20")]
+	[Token(Token = "0x60000B6")]
+	[Address(RVA = "0x24E4090", Offset = "0x24E2690", VA = "0x1824E4090")]
 	public InvalidConstraintException(string s)
 	{
 	}

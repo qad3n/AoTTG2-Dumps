@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x2000086")]
 public enum Rule
 {
-	[Token(Token = "0x4000297")]
+	[Token(Token = "0x40002AA")]
 	None,
-	[Token(Token = "0x4000298")]
+	[Token(Token = "0x40002AB")]
 	Cascade,
-	[Token(Token = "0x4000299")]
+	[Token(Token = "0x40002AC")]
 	SetNull,
-	[Token(Token = "0x400029A")]
+	[Token(Token = "0x40002AD")]
 	SetDefault
 }

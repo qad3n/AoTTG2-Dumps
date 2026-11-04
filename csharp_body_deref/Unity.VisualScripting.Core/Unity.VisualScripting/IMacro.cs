@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000CC")]
 public interface IMacro : IGraphRoot, IGraphParent, ISerializationDependency, ISerializationCallbackReceiver, IAotStubbable
 {
-	[Token(Token = "0x17000109")]
+	[Token(Token = "0x1700010C")]
 	IGraph graph
 	{
-		[Token(Token = "0x60004E7")]
+		[Token(Token = "0x60004F1")]
 		get;
-		[Token(Token = "0x60004E8")]
+		[Token(Token = "0x60004F2")]
 		set;
 	}
 }

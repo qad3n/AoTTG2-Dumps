@@ -58,7 +58,7 @@ public class XPathDocument
 	internal XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000C36")]
-		[Address(RVA = "0x4803610", Offset = "0x4803610", VA = "0x4803610")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -69,7 +69,7 @@ public class XPathDocument
 	internal bool HasLineInfo
 	{
 		[Token(Token = "0x6000C37")]
-		[Address(RVA = "0x4803620", Offset = "0x4803620", VA = "0x4803620")]
+		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
 		get
 		{
 			return default(bool);
@@ -77,35 +77,35 @@ public class XPathDocument
 	}
 
 	[Token(Token = "0x6000C38")]
-	[Address(RVA = "0x4803630", Offset = "0x4803630", VA = "0x4803630")]
+	[Address(RVA = "0x27476A0", Offset = "0x2745CA0", VA = "0x1827476A0")]
 	internal int GetCollapsedTextNode(out XPathNode[] pageText)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C39")]
-	[Address(RVA = "0x4803650", Offset = "0x4803650", VA = "0x4803650")]
+	[Address(RVA = "0x27476D0", Offset = "0x2745CD0", VA = "0x1827476D0")]
 	internal int GetRootNode(out XPathNode[] pageRoot)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3A")]
-	[Address(RVA = "0x4803670", Offset = "0x4803670", VA = "0x4803670")]
+	[Address(RVA = "0x2747700", Offset = "0x2745D00", VA = "0x182747700")]
 	internal int GetXmlNamespaceNode(out XPathNode[] pageXmlNmsp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3B")]
-	[Address(RVA = "0x4803690", Offset = "0x4803690", VA = "0x4803690")]
+	[Address(RVA = "0x2747800", Offset = "0x2745E00", VA = "0x182747800")]
 	internal int LookupNamespaces(XPathNode[] pageElem, int idxElem, out XPathNode[] pageNmsp)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C3C")]
-	[Address(RVA = "0x4803770", Offset = "0x4803770", VA = "0x4803770")]
+	[Address(RVA = "0x2747730", Offset = "0x2745D30", VA = "0x182747730")]
 	internal int LookupIdElement(string id, out XPathNode[] pageElem)
 	{
 		return default(int);

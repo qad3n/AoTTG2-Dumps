@@ -10,33 +10,33 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x200077B")]
+[Token(Token = "0x2000904")]
 internal class ApplicationStart : MonoBehaviour
 {
-	[Token(Token = "0x40023E7")]
+	[Token(Token = "0x4002CAC")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool _firstLaunch;
 
-	[Token(Token = "0x6004879")]
-	[Address(RVA = "0x43ABDB0", Offset = "0x43ABDB0", VA = "0x43ABDB0")]
+	[Token(Token = "0x60054E1")]
+	[Address(RVA = "0x23444B0", Offset = "0x2342AB0", VA = "0x1823444B0")]
 	public void Awake()
 	{
 	}
 
-	[Token(Token = "0x600487A")]
-	[Address(RVA = "0x43ABE40", Offset = "0x43ABE40", VA = "0x43ABE40")]
+	[Token(Token = "0x60054E2")]
+	[Address(RVA = "0x2344530", Offset = "0x2342B30", VA = "0x182344530")]
 	private static void Init()
 	{
 	}
 
-	[Token(Token = "0x600487B")]
-	[Address(RVA = "0x43AC4A0", Offset = "0x43AC4A0", VA = "0x43AC4A0")]
+	[Token(Token = "0x60054E3")]
+	[Address(RVA = "0x23454C0", Offset = "0x2343AC0", VA = "0x1823454C0")]
 	private static void PrewarmTextMeshPro()
 	{
 	}
 
-	[Token(Token = "0x600487C")]
-	[Address(RVA = "0x43AC7F0", Offset = "0x43AC7F0", VA = "0x43AC7F0")]
+	[Token(Token = "0x60054E4")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ApplicationStart()
 	{
 	}

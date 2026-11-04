@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000D5")]
+[Token(Token = "0x20000FD")]
 public interface IObserver<in T>
 {
-	[Token(Token = "0x60007AF")]
+	[Token(Token = "0x60007E1")]
 	void OnNext(T value);
 
-	[Token(Token = "0x60007B0")]
+	[Token(Token = "0x60007E2")]
 	void OnError(Exception error);
 
-	[Token(Token = "0x60007B1")]
+	[Token(Token = "0x60007E3")]
 	void OnCompleted();
 }

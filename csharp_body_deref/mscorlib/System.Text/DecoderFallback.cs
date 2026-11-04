@@ -10,51 +10,51 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x2000270")]
+[Token(Token = "0x20002A0")]
 public abstract class DecoderFallback
 {
-	[Token(Token = "0x4000B33")]
+	[Token(Token = "0x4000B7C")]
 	[FieldOffset(Offset = "0x0")]
 	private static DecoderFallback s_replacementFallback;
 
-	[Token(Token = "0x4000B34")]
+	[Token(Token = "0x4000B7D")]
 	[FieldOffset(Offset = "0x8")]
 	private static DecoderFallback s_exceptionFallback;
 
-	[Token(Token = "0x17000217")]
+	[Token(Token = "0x17000219")]
 	public static DecoderFallback ReplacementFallback
 	{
-		[Token(Token = "0x600154C")]
-		[Address(RVA = "0x3D4E620", Offset = "0x3D4E620", VA = "0x3D4E620")]
+		[Token(Token = "0x60015B8")]
+		[Address(RVA = "0x1BAE650", Offset = "0x1BACC50", VA = "0x181BAE650")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000218")]
+	[Token(Token = "0x1700021A")]
 	public static DecoderFallback ExceptionFallback
 	{
-		[Token(Token = "0x600154D")]
-		[Address(RVA = "0x3D52200", Offset = "0x3D52200", VA = "0x3D52200")]
+		[Token(Token = "0x60015B9")]
+		[Address(RVA = "0x1BAE5B0", Offset = "0x1BACBB0", VA = "0x181BAE5B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000219")]
+	[Token(Token = "0x1700021B")]
 	public abstract int MaxCharCount
 	{
-		[Token(Token = "0x600154F")]
+		[Token(Token = "0x60015BB")]
 		get;
 	}
 
-	[Token(Token = "0x600154E")]
+	[Token(Token = "0x60015BA")]
 	public abstract DecoderFallbackBuffer CreateFallbackBuffer();
 
-	[Token(Token = "0x6001550")]
-	[Address(RVA = "0x3D518B0", Offset = "0x3D518B0", VA = "0x3D518B0")]
+	[Token(Token = "0x60015BC")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected DecoderFallback()
 	{
 	}

@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Photon.Chat;
 
-[Token(Token = "0x2000013")]
+[Token(Token = "0x2000011")]
 public static class ChatUserStatus
 {
-	[Token(Token = "0x40000B6")]
+	[Token(Token = "0x40000B1")]
 	public const int Offline = 0;
 
-	[Token(Token = "0x40000B7")]
+	[Token(Token = "0x40000B2")]
 	public const int Invisible = 1;
 
-	[Token(Token = "0x40000B8")]
+	[Token(Token = "0x40000B3")]
 	public const int Online = 2;
 
-	[Token(Token = "0x40000B9")]
+	[Token(Token = "0x40000B4")]
 	public const int Away = 3;
 
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000B5")]
 	public const int DND = 4;
 
-	[Token(Token = "0x40000BB")]
+	[Token(Token = "0x40000B6")]
 	public const int LFG = 5;
 
-	[Token(Token = "0x40000BC")]
+	[Token(Token = "0x40000B7")]
 	public const int Playing = 6;
 }

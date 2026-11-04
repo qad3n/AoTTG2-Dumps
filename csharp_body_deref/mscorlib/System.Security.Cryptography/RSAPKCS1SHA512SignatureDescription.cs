@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x200030B")]
+[Token(Token = "0x200033A")]
 internal class RSAPKCS1SHA512SignatureDescription : System.Security.Cryptography.RSAPKCS1SignatureDescription
 {
-	[Token(Token = "0x6001AA1")]
-	[Address(RVA = "0x3B4A0E0", Offset = "0x3B4A0E0", VA = "0x3B4A0E0")]
+	[Token(Token = "0x6001B09")]
+	[Address(RVA = "0x19C5FD0", Offset = "0x19C45D0", VA = "0x1819C5FD0")]
 	public RSAPKCS1SHA512SignatureDescription()
 	{
 	}

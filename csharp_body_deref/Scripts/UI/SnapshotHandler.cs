@@ -16,42 +16,42 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000562")]
+[Token(Token = "0x20006D3")]
 internal class SnapshotHandler : MonoBehaviour
 {
-	[Token(Token = "0x2000563")]
+	[Token(Token = "0x20006D4")]
 	[CompilerGenerated]
 	private sealed class _003CTakeSnapshotCoroutine_003Ed__4 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001A98")]
+		[Token(Token = "0x4002248")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001A99")]
+		[Token(Token = "0x4002249")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001A9A")]
+		[Token(Token = "0x400224A")]
 		[FieldOffset(Offset = "0x20")]
 		public SnapshotHandler _003C_003E4__this;
 
-		[Token(Token = "0x4001A9B")]
+		[Token(Token = "0x400224B")]
 		[FieldOffset(Offset = "0x28")]
 		public Vector3 position;
 
-		[Token(Token = "0x4001A9C")]
+		[Token(Token = "0x400224C")]
 		[FieldOffset(Offset = "0x34")]
 		public int damage;
 
-		[Token(Token = "0x4001A9D")]
+		[Token(Token = "0x400224D")]
 		[FieldOffset(Offset = "0x38")]
 		private Texture2D _003Csnapshot_003E5__2;
 
-		[Token(Token = "0x17000A6A")]
+		[Token(Token = "0x17000BBD")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003807")]
-			[Address(RVA = "0x42241A0", Offset = "0x42241A0", VA = "0x42241A0", Slot = "4")]
+			[Token(Token = "0x6004329")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,11 +59,11 @@ internal class SnapshotHandler : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000A6B")]
+		[Token(Token = "0x17000BBE")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003809")]
-			[Address(RVA = "0x42241F0", Offset = "0x42241F0", VA = "0x42241F0", Slot = "7")]
+			[Token(Token = "0x600432B")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -71,78 +71,78 @@ internal class SnapshotHandler : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6003804")]
-		[Address(RVA = "0x4223810", Offset = "0x4223810", VA = "0x4223810")]
+		[Token(Token = "0x6004326")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CTakeSnapshotCoroutine_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003805")]
-		[Address(RVA = "0x4223E00", Offset = "0x4223E00", VA = "0x4223E00", Slot = "5")]
+		[Token(Token = "0x6004327")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003806")]
-		[Address(RVA = "0x4223E10", Offset = "0x4223E10", VA = "0x4223E10", Slot = "6")]
+		[Token(Token = "0x6004328")]
+		[Address(RVA = "0x21D0060", Offset = "0x21CE660", VA = "0x1821D0060", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003808")]
-		[Address(RVA = "0x42241B0", Offset = "0x42241B0", VA = "0x42241B0", Slot = "8")]
+		[Token(Token = "0x600432A")]
+		[Address(RVA = "0x21D0450", Offset = "0x21CEA50", VA = "0x1821D0450", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001A96")]
+	[Token(Token = "0x4002246")]
 	[FieldOffset(Offset = "0x20")]
 	public BaseCamera SnapshotCamera;
 
-	[Token(Token = "0x4001A97")]
+	[Token(Token = "0x4002247")]
 	[FieldOffset(Offset = "0x28")]
 	public InGameCamera InGameCamera;
 
-	[Token(Token = "0x60037FE")]
-	[Address(RVA = "0x4223530", Offset = "0x4223530", VA = "0x4223530")]
+	[Token(Token = "0x6004320")]
+	[Address(RVA = "0x21CB920", Offset = "0x21C9F20", VA = "0x1821CB920")]
 	public void Awake()
 	{
 	}
 
-	[Token(Token = "0x60037FF")]
-	[Address(RVA = "0x4223660", Offset = "0x4223660", VA = "0x4223660")]
+	[Token(Token = "0x6004321")]
+	[Address(RVA = "0x21CBFC0", Offset = "0x21CA5C0", VA = "0x1821CBFC0")]
 	public void TakeSnapshot(Vector3 position, int damage)
 	{
 	}
 
-	[Token(Token = "0x6003800")]
-	[Address(RVA = "0x4223770", Offset = "0x4223770", VA = "0x4223770")]
+	[Token(Token = "0x6004322")]
+	[Address(RVA = "0x21CBF40", Offset = "0x21CA540", VA = "0x1821CBF40")]
 	[IteratorStateMachine(typeof(_003CTakeSnapshotCoroutine_003Ed__4))]
 	private IEnumerator TakeSnapshotCoroutine(Vector3 position, int damage)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003801")]
-	[Address(RVA = "0x4223830", Offset = "0x4223830", VA = "0x4223830")]
+	[Token(Token = "0x6004323")]
+	[Address(RVA = "0x21CBD40", Offset = "0x21CA340", VA = "0x1821CBD40")]
 	private void SetSnapshotPosition(Vector3 position)
 	{
 	}
 
-	[Token(Token = "0x6003802")]
-	[Address(RVA = "0x4223AB0", Offset = "0x4223AB0", VA = "0x4223AB0")]
+	[Token(Token = "0x6004324")]
+	[Address(RVA = "0x21CBA60", Offset = "0x21CA060", VA = "0x1821CBA60")]
 	private Texture2D RTImage()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003803")]
-	[Address(RVA = "0x4223DF0", Offset = "0x4223DF0", VA = "0x4223DF0")]
+	[Token(Token = "0x6004325")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SnapshotHandler()
 	{
 	}

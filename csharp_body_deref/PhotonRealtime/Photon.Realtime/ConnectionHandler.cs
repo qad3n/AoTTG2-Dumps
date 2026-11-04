@@ -13,70 +13,70 @@ using UnityEngine;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000003")]
 public class ConnectionHandler : MonoBehaviour
 {
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000012")]
 	[FieldOffset(Offset = "0x28")]
 	public bool DisconnectAfterKeepAlive;
 
-	[Token(Token = "0x4000018")]
+	[Token(Token = "0x4000013")]
 	[FieldOffset(Offset = "0x2C")]
 	public int KeepAliveInBackground;
 
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000015")]
 	[FieldOffset(Offset = "0x34")]
 	public bool ApplyDontDestroyOnLoad;
 
 	[NonSerialized]
-	[Token(Token = "0x400001B")]
+	[Token(Token = "0x4000016")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool AppQuits;
 
 	[NonSerialized]
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000017")]
 	[FieldOffset(Offset = "0x1")]
 	public static bool AppPause;
 
 	[NonSerialized]
-	[Token(Token = "0x400001D")]
+	[Token(Token = "0x4000018")]
 	[FieldOffset(Offset = "0x2")]
 	public static bool AppPauseRecent;
 
 	[NonSerialized]
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x4000019")]
 	[FieldOffset(Offset = "0x3")]
 	public static bool AppOutOfFocus;
 
 	[NonSerialized]
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x400001A")]
 	[FieldOffset(Offset = "0x4")]
 	public static bool AppOutOfFocusRecent;
 
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x400001B")]
 	[FieldOffset(Offset = "0x35")]
 	private byte fallbackThreadId;
 
-	[Token(Token = "0x4000021")]
+	[Token(Token = "0x400001C")]
 	[FieldOffset(Offset = "0x36")]
 	private bool didSendAcks;
 
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x400001D")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly Stopwatch backgroundStopwatch;
 
 	[Token(Token = "0x17000005")]
 	public LoadBalancingClient Client
 	{
-		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x3EB9F10", Offset = "0x3EB9F10", VA = "0x3EB9F10")]
+		[Token(Token = "0x600000A")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x3EB9F20", Offset = "0x3EB9F20", VA = "0x3EB9F20")]
+		[Token(Token = "0x600000B")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -86,15 +86,15 @@ public class ConnectionHandler : MonoBehaviour
 	[Token(Token = "0x17000006")]
 	public int CountSendAcksOnly
 	{
-		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x3EB9F30", Offset = "0x3EB9F30", VA = "0x3EB9F30")]
+		[Token(Token = "0x600000C")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x3EB9F40", Offset = "0x3EB9F40", VA = "0x3EB9F40")]
+		[Token(Token = "0x600000D")]
+		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
 		[CompilerGenerated]
 		private set
 		{
@@ -104,91 +104,91 @@ public class ConnectionHandler : MonoBehaviour
 	[Token(Token = "0x17000007")]
 	public bool FallbackThreadRunning
 	{
-		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x3EB9F50", Offset = "0x3EB9F50", VA = "0x3EB9F50")]
+		[Token(Token = "0x600000E")]
+		[Address(RVA = "0x1D132F0", Offset = "0x1D118F0", VA = "0x181D132F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x3EB9F60", Offset = "0x3EB9F60", VA = "0x3EB9F60")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x1D13180", Offset = "0x1D11780", VA = "0x181D13180")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
 	private static void StaticReset()
 	{
 	}
 
-	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x3EB9FA0", Offset = "0x3EB9FA0", VA = "0x3EB9FA0")]
+	[Token(Token = "0x6000010")]
+	[Address(RVA = "0x1D12D90", Offset = "0x1D11390", VA = "0x181D12D90")]
 	public void OnApplicationQuit()
 	{
 	}
 
-	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x3EB9FE0", Offset = "0x3EB9FE0", VA = "0x3EB9FE0")]
+	[Token(Token = "0x6000011")]
+	[Address(RVA = "0x1D12CF0", Offset = "0x1D112F0", VA = "0x181D12CF0")]
 	public void OnApplicationPause(bool pause)
 	{
 	}
 
-	[Token(Token = "0x6000014")]
-	[Address(RVA = "0x3EBA070", Offset = "0x3EBA070", VA = "0x3EBA070")]
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x1D13080", Offset = "0x1D11680", VA = "0x181D13080")]
 	private void ResetAppPauseRecent()
 	{
 	}
 
-	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x3EBA0B0", Offset = "0x3EBA0B0", VA = "0x3EBA0B0")]
+	[Token(Token = "0x6000013")]
+	[Address(RVA = "0x1D12C40", Offset = "0x1D11240", VA = "0x181D12C40")]
 	public void OnApplicationFocus(bool focus)
 	{
 	}
 
-	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x3EBA140", Offset = "0x3EBA140", VA = "0x3EBA140")]
+	[Token(Token = "0x6000014")]
+	[Address(RVA = "0x1D13040", Offset = "0x1D11640", VA = "0x181D13040")]
 	private void ResetAppOutOfFocusRecent()
 	{
 	}
 
-	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x3EBA180", Offset = "0x3EBA180", VA = "0x3EBA180", Slot = "4")]
+	[Token(Token = "0x6000015")]
+	[Address(RVA = "0x1D12B80", Offset = "0x1D11180", VA = "0x181D12B80", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x3EBA1F0", Offset = "0x3EBA1F0", VA = "0x3EBA1F0", Slot = "5")]
+	[Token(Token = "0x6000016")]
+	[Address(RVA = "0x1D12DD0", Offset = "0x1D113D0", VA = "0x181D12DD0", Slot = "5")]
 	protected virtual void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x3EBA600", Offset = "0x3EBA600", VA = "0x3EBA600")]
+	[Token(Token = "0x6000017")]
+	[Address(RVA = "0x1D12BF0", Offset = "0x1D111F0", VA = "0x181D12BF0")]
 	public static bool IsNetworkReachableUnity()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x3EBA650", Offset = "0x3EBA650", VA = "0x3EBA650")]
+	[Token(Token = "0x6000018")]
+	[Address(RVA = "0x1D130C0", Offset = "0x1D116C0", VA = "0x181D130C0")]
 	public void StartFallbackSendAckThread()
 	{
 	}
 
-	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x3EBA320", Offset = "0x3EBA320", VA = "0x3EBA320")]
+	[Token(Token = "0x6000019")]
+	[Address(RVA = "0x1D13200", Offset = "0x1D11800", VA = "0x181D13200")]
 	public void StopFallbackSendAckThread()
 	{
 	}
 
-	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x3EBA710", Offset = "0x3EBA710", VA = "0x3EBA710")]
+	[Token(Token = "0x600001A")]
+	[Address(RVA = "0x1D12EF0", Offset = "0x1D114F0", VA = "0x181D12EF0")]
 	public bool RealtimeFallbackThread()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x3EBA810", Offset = "0x3EBA810", VA = "0x3EBA810")]
+	[Token(Token = "0x600001B")]
+	[Address(RVA = "0x1D13270", Offset = "0x1D11870", VA = "0x181D13270")]
 	public ConnectionHandler()
 	{
 	}

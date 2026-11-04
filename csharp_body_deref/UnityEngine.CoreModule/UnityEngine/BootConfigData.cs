@@ -12,24 +12,24 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000082")]
+[Token(Token = "0x200009E")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Bootstrap/BootConfig.bindings.h")]
 internal class BootConfigData
 {
-	[Token(Token = "0x400015F")]
+	[Token(Token = "0x40001AA")]
 	[FieldOffset(Offset = "0x10")]
 	private IntPtr m_Ptr;
 
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x4DB04C0", Offset = "0x4DB04C0", VA = "0x4DB04C0")]
+	[Token(Token = "0x600025C")]
+	[Address(RVA = "0x2EBBD90", Offset = "0x2EBA390", VA = "0x182EBBD90")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static BootConfigData WrapBootConfigData(IntPtr nativeHandle)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x4DB0560", Offset = "0x4DB0560", VA = "0x4DB0560")]
+	[Token(Token = "0x600025D")]
+	[Address(RVA = "0x2EBBE40", Offset = "0x2EBA440", VA = "0x182EBBE40")]
 	private BootConfigData(IntPtr nativeHandle)
 	{
 	}

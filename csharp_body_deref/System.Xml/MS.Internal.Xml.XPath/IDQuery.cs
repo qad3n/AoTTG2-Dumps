@@ -14,32 +14,32 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class IDQuery : CacheOutputQuery
 {
 	[Token(Token = "0x6001B1F")]
-	[Address(RVA = "0x477D940", Offset = "0x477D940", VA = "0x477D940")]
+	[Address(RVA = "0x26B7950", Offset = "0x26B5F50", VA = "0x1826B7950")]
 	public IDQuery(Query arg)
 	{
 	}
 
 	[Token(Token = "0x6001B20")]
-	[Address(RVA = "0x477D950", Offset = "0x477D950", VA = "0x477D950")]
+	[Address(RVA = "0x26B7940", Offset = "0x26B5F40", VA = "0x1826B7940")]
 	private IDQuery(IDQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B21")]
-	[Address(RVA = "0x477D960", Offset = "0x477D960", VA = "0x477D960", Slot = "14")]
+	[Address(RVA = "0x26BAC40", Offset = "0x26B9240", VA = "0x1826BAC40", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B22")]
-	[Address(RVA = "0x477DC30", Offset = "0x477DC30", VA = "0x477DC30")]
+	[Address(RVA = "0x26BB1B0", Offset = "0x26B97B0", VA = "0x1826BB1B0")]
 	private void ProcessIds(XPathNavigator contextNode, string val)
 	{
 	}
 
 	[Token(Token = "0x6001B23")]
-	[Address(RVA = "0x477DD10", Offset = "0x477DD10", VA = "0x477DD10", Slot = "6")]
+	[Address(RVA = "0x26BABE0", Offset = "0x26B91E0", VA = "0x1826BABE0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

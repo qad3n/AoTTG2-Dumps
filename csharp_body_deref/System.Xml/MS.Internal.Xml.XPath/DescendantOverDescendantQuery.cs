@@ -14,50 +14,50 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class DescendantOverDescendantQuery : DescendantBaseQuery
 {
 	[Token(Token = "0x4000E20")]
-	[FieldOffset(Offset = "0x58")]
+	[FieldOffset(Offset = "0x60")]
 	private int _level;
 
 	[Token(Token = "0x6001AC7")]
-	[Address(RVA = "0x477A360", Offset = "0x477A360", VA = "0x477A360")]
+	[Address(RVA = "0x26B74C0", Offset = "0x26B5AC0", VA = "0x1826B74C0")]
 	public DescendantOverDescendantQuery(Query qyParent, bool matchSelf, string name, string prefix, XPathNodeType typeTest, bool abbrAxis)
 	{
 	}
 
 	[Token(Token = "0x6001AC8")]
-	[Address(RVA = "0x477A390", Offset = "0x477A390", VA = "0x477A390")]
+	[Address(RVA = "0x26B7480", Offset = "0x26B5A80", VA = "0x1826B7480")]
 	private DescendantOverDescendantQuery(DescendantOverDescendantQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001AC9")]
-	[Address(RVA = "0x477A3D0", Offset = "0x477A3D0", VA = "0x477A3D0", Slot = "12")]
+	[Address(RVA = "0x26B7430", Offset = "0x26B5A30", VA = "0x1826B7430", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001ACA")]
-	[Address(RVA = "0x477A420", Offset = "0x477A420", VA = "0x477A420", Slot = "15")]
+	[Address(RVA = "0x26B7170", Offset = "0x26B5770", VA = "0x1826B7170", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001ACB")]
-	[Address(RVA = "0x477A5D0", Offset = "0x477A5D0", VA = "0x477A5D0")]
+	[Address(RVA = "0x26B7370", Offset = "0x26B5970", VA = "0x1826B7370")]
 	private bool MoveToFirstChild()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001ACC")]
-	[Address(RVA = "0x477A610", Offset = "0x477A610", VA = "0x477A610")]
+	[Address(RVA = "0x26B73B0", Offset = "0x26B59B0", VA = "0x1826B73B0")]
 	private bool MoveUpUntilNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001ACD")]
-	[Address(RVA = "0x477A670", Offset = "0x477A670", VA = "0x477A670", Slot = "6")]
+	[Address(RVA = "0x26B7300", Offset = "0x26B5900", VA = "0x1826B7300", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

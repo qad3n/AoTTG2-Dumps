@@ -1,286 +1,272 @@
 // Type: ClothFactory
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/ClothFactory.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/Setup/ClothFactory.cs
 // --------------------------------
 
+// ClothFactory.<>c$$.cctor
+// il2cpp: void ClothFactory___c___cctor (const MethodInfo* method);
+// 0x181db12d0
+
+void ClothFactory___c___cctor(MethodInfo *method)
+
+{
+  ClothFactory___c_o *__this;
+  
+  if (Il2CppMethodInitialized_18434489f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory_c);
+    Il2CppMethodInitialized_18434489f = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ClothFactory_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_ClothFactory_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ClothFactory_c->static_fields->__9,__this);
+  return;
+}
+
+
+// ClothFactory.<>c$$.ctor
+// il2cpp: void ClothFactory___c___ctor (ClothFactory___c_o* __this, const MethodInfo* method);
+// 0x18054c890
+
+void
+ClothFactory___c___ctor(ClothFactory___c_o* __this, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// ClothFactory.<>c$$<GetCloth>b__7_0
+// il2cpp: bool ClothFactory___c___GetCloth_b__7_0 (ClothFactory___c_o* __this, UnityEngine_GameObject_o* cloth, const MethodInfo* method);
+// 0x181db0f30
+
+bool ClothFactory___c___GetCloth_b__7_0
+               (ClothFactory___c_o *__this,UnityEngine_GameObject_o *cloth,MethodInfo *method)
+
+{
+  bool bVar1;
+  
+  if (Il2CppMethodInitialized_1843448a0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843448a0 = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)cloth,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  return bVar1;
+}
+
+
+// ClothFactory.<>c$$<GetCloth>b__7_1
+// il2cpp: bool ClothFactory___c___GetCloth_b__7_1 (ClothFactory___c_o* __this, UnityEngine_GameObject_o* cloth, const MethodInfo* method);
+// 0x181db0f80
+
+bool ClothFactory___c___GetCloth_b__7_1
+               (ClothFactory___c_o *__this,UnityEngine_GameObject_o *cloth,MethodInfo *method)
+
+{
+  ParentFollow_o *pPVar1;
+  
+  if (Il2CppMethodInitialized_1843448a1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow);
+    Il2CppMethodInitialized_1843448a1 = '\x01';
+  }
+  if (cloth != (UnityEngine_GameObject_o *)0x0) {
+    pPVar1 = UnityEngine_GameObject__GetComponent_object_
+                       (cloth,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow
+                       );
+    if (pPVar1 != (ParentFollow_o *)0x0) {
+      return (pPVar1->fields).isActiveInScene == false;
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
 // ClothFactory$$ClearClothCache
 // il2cpp: void ClothFactory__ClearClothCache (const MethodInfo* method);
-// 0x405a1c0
+// 0x181d9fae0
 
 void ClothFactory__ClearClothCache(MethodInfo *method)
 
 {
-  uint uVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  int iVar2;
-  bool_conflict bVar3;
-  System_Object_array *pSVar4;
-  UnityEngine_Object_o *x;
-  UnityEngine_Renderer_o *__this_00;
-  UnityEngine_Cloth_o *__this_01;
-  UnityEngine_Transform_o *__this_02;
-  Il2CppObject *pIVar5;
-  long lVar6;
-  MethodInfo *method_00;
-  UnityEngine_Object_o *x_00;
-  UnityEngine_Object_o *pUVar7;
+  System_Collections_Generic_Dictionary_string__List_GameObject___o *__this;
   
-  if (g_data_057ac275 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    g_data_057ac275 = '\x01';
-    iVar2 = *(int *)(TypeInfo_ClothFactory + 0xe4);
+  if (Il2CppMethodInitialized_184344895 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_Clear);
+    Il2CppMethodInitialized_184344895 = '\x01';
   }
-  else {
-    iVar2 = *(int *)(TypeInfo_ClothFactory + 0xe4);
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
   }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8)
-    ;
-  }
-  else {
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8)
-    ;
-  }
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear(__this,MethodInfo_Void_Clear);
+  __this = TypeInfo_ClothFactory->static_fields->clothCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__List_GameObject___o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+               (MethodInfo_13BF1C0 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_Clear);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac276 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsByType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac276 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  x_00 = (UnityEngine_Object_o *)0x1;
-  pSVar4 = UnityEngine_Object__FindObjectsByType_object__2589b50(1,0,MethodInfo_Cloth_FindObjectsByType_Cloth);
-  if (pSVar4 != (System_Object_array *)0x0) {
-    if ((pSVar4->max_length == 0) || (iVar2 = (int)pSVar4->max_length, iVar2 < 1)) {
-      return;
-    }
-    lVar6 = 0;
-    if (iVar2 != 0) {
-      do {
-        x_00 = (UnityEngine_Object_o *)0x0;
-        if ((UnityEngine_Component_o *)pSVar4->m_Items[lVar6] == (UnityEngine_Component_o *)0x0)
-        goto label_0405a331;
-        method_00 = (MethodInfo *)0x0;
-        x_00 = (UnityEngine_Object_o *)
-               UnityEngine_Component__get_gameObject
-                         ((UnityEngine_Component_o *)pSVar4->m_Items[lVar6],(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        ClothFactory__DisposeObject((UnityEngine_GameObject_o *)x_00,method_00);
-        uVar1 = (uint)pSVar4->max_length;
-        lVar6 = lVar6 + 1;
-        if ((int)uVar1 <= (int)(uint)lVar6) {
-          return;
-        }
-      } while ((uint)lVar6 < uVar1);
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_0405a331:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac277 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac277 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pUVar7 = x_00;
-  bVar3 = UnityEngine_Object__op_Inequality(x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    if (x_00 != (UnityEngine_Object_o *)0x0) {
-      x = (UnityEngine_Object_o *)
-          UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)x_00,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pUVar7 = x;
-      bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') {
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        UnityEngine_Object__Destroy_4e01c60(x_00,(MethodInfo *)0x0);
-        return;
-      }
-      if (x != (UnityEngine_Object_o *)0x0) {
-        if ((char)x[1].fields.m_CachedPtr == '\0') {
-          return;
-        }
-        pUVar7 = x_00;
-        __this_00 = (UnityEngine_Renderer_o *)
-                    UnityEngine_GameObject__GetComponent_object_
-                              ((UnityEngine_GameObject_o *)x_00,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-        if (__this_00 != (UnityEngine_Renderer_o *)0x0) {
-          UnityEngine_Renderer__set_enabled(__this_00,0,(MethodInfo *)0x0);
-          pUVar7 = x_00;
-          __this_01 = (UnityEngine_Cloth_o *)
-                      UnityEngine_GameObject__GetComponent_object_
-                                ((UnityEngine_GameObject_o *)x_00,MethodInfo_Cloth_GetComponent_Cloth);
-          if (__this_01 != (UnityEngine_Cloth_o *)0x0) {
-            UnityEngine_Cloth__set_enabled(__this_01,0,(MethodInfo *)0x0);
-            *(undefined1 *)&x[1].fields.m_CachedPtr = 0;
-            pUVar7 = x_00;
-            __this_02 = UnityEngine_GameObject__get_transform
-                                  ((UnityEngine_GameObject_o *)x_00,(MethodInfo *)0x0);
-            if (__this_02 != (UnityEngine_Transform_o *)0x0) {
-              UnityEngine_Transform__set_position
-                        (__this_02,(UnityEngine_Vector3_o)ZEXT812(0xc7c34f8000000000),(MethodInfo *)0x0);
-              pIVar5 = UnityEngine_GameObject__GetComponent_object_
-                                 ((UnityEngine_GameObject_o *)x_00,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-              pUVar7 = x_00;
-              if (pIVar5 != (Il2CppObject *)0x0) {
-                pIVar5[3].klass = (Il2CppClass *)0x0;
-                il2cpp_runtime_helper_022b4080(pIVar5 + 3,0);
-                return;
-              }
-            }
-          }
-        }
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    pUVar7[2].klass = (UnityEngine_Object_c *)0x0;
-    il2cpp_runtime_helper_022b4080(pUVar7 + 2,0);
-    return;
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ClothFactory$$DisposeAllObjects
 // il2cpp: void ClothFactory__DisposeAllObjects (const MethodInfo* method);
-// 0x405a250
+// 0x181d9fb50
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181d9fbcf: nop 
 
 void ClothFactory__DisposeAllObjects(MethodInfo *method)
 
 {
-  uint uVar1;
-  int iVar2;
-  bool_conflict bVar3;
-  System_Object_array *pSVar4;
-  UnityEngine_Object_o *x;
-  UnityEngine_Renderer_o *__this;
-  UnityEngine_Cloth_o *__this_00;
-  UnityEngine_Transform_o *__this_01;
-  Il2CppObject *pIVar5;
-  long lVar6;
-  MethodInfo *method_00;
-  UnityEngine_Object_o *x_00;
-  UnityEngine_Object_o *pUVar7;
+  System_Object_array *pSVar1;
+  UnityEngine_GameObject_o *cachedObject;
+  uint uVar2;
   
-  if (g_data_057ac276 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsByType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac276 = '\x01';
+  if (Il2CppMethodInitialized_184344896 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Object_FindObjectsByType_Cloth);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344896 = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  x_00 = (UnityEngine_Object_o *)0x1;
-  pSVar4 = UnityEngine_Object__FindObjectsByType_object__2589b50(1,0,MethodInfo_Cloth_FindObjectsByType_Cloth);
-  if (pSVar4 != (System_Object_array *)0x0) {
-    if ((pSVar4->max_length == 0) || (iVar2 = (int)pSVar4->max_length, iVar2 < 1)) {
-      return;
-    }
-    lVar6 = 0;
-    if (iVar2 != 0) {
-      do {
-        x_00 = (UnityEngine_Object_o *)0x0;
-        if ((UnityEngine_Component_o *)pSVar4->m_Items[lVar6] == (UnityEngine_Component_o *)0x0)
-        goto label_0405a331;
-        method_00 = (MethodInfo *)0x0;
-        x_00 = (UnityEngine_Object_o *)
-               UnityEngine_Component__get_gameObject
-                         ((UnityEngine_Component_o *)pSVar4->m_Items[lVar6],(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+  pSVar1 = UnityEngine_Object__FindObjectsByType_object__745290
+                     (1,0,(MethodInfo_745290 *)MethodInfo_UnityEngine_Object_FindObjectsByType_Cloth);
+  if (pSVar1 != (System_Object_array *)0x0) {
+    if (pSVar1->max_length != 0) {
+      for (uVar2 = 0; (int)uVar2 < (int)pSVar1->max_length; uVar2 = uVar2 + 1) {
+        if ((uint)pSVar1->max_length <= uVar2) {
+          ThrowIndexOutOfRangeException();
         }
-        ClothFactory__DisposeObject((UnityEngine_GameObject_o *)x_00,method_00);
-        uVar1 = (uint)pSVar4->max_length;
-        lVar6 = lVar6 + 1;
-        if ((int)uVar1 <= (int)(uint)lVar6) {
-          return;
+        if ((UnityEngine_Component_o *)pSVar1->m_Items[(int)uVar2] == (UnityEngine_Component_o *)0x0)
+        goto label_181d9fc2c;
+        cachedObject = UnityEngine_Component__get_gameObject
+                                 ((UnityEngine_Component_o *)pSVar1->m_Items[(int)uVar2],(MethodInfo *)0x0);
+        if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
         }
-      } while ((uint)lVar6 < uVar1);
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_0405a331:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac277 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac277 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pUVar7 = x_00;
-  bVar3 = UnityEngine_Object__op_Inequality(x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    if (x_00 != (UnityEngine_Object_o *)0x0) {
-      x = (UnityEngine_Object_o *)
-          UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)x_00,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+        ClothFactory__DisposeObject(cachedObject,(MethodInfo *)0x0);
       }
-      pUVar7 = x;
-      bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') {
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+    }
+    return;
+  }
+label_181d9fc2c:
+  ThrowNullReferenceException();
+}
+
+
+// ClothFactory$$DisposeObject
+// il2cpp: void ClothFactory__DisposeObject (UnityEngine_GameObject_o* cachedObject, const MethodInfo* method);
+// 0x181d9fc40
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181d9fe9b: xor edx, edx
+// asm:   0x181d9fe9d: mov rcx, rbp
+// asm:   0x181d9fea0: call 0x182f1ff70  ; UnityEngine_Object__Destroy()
+// asm:   0x181d9fea5: jmp 0x181d9fe67
+
+void ClothFactory__DisposeObject(UnityEngine_GameObject_o *cachedObject,MethodInfo *method)
+
+{
+  bool bVar1;
+  ParentFollow_o *x;
+  UnityEngine_Cloth_o *__this;
+  UnityEngine_SkinnedMeshRenderer_o *__this_00;
+  UnityEngine_Transform_array *value;
+  UnityEngine_Transform_o *pUVar2;
+  Il2CppObject *pIVar3;
+  uint uVar4;
+  UnityEngine_Vector3_o local_28;
+  
+  if (Il2CppMethodInitialized_184344897 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Cloth);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344897 = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)cachedObject,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar1) {
+    if (cachedObject != (UnityEngine_GameObject_o *)0x0) {
+      x = UnityEngine_GameObject__GetComponent_object_
+                    (cachedObject,
+                     (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar1 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        UnityEngine_Object__Destroy_4e01c60(x_00,(MethodInfo *)0x0);
+        UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)cachedObject,(MethodInfo *)0x0);
         return;
       }
-      if (x != (UnityEngine_Object_o *)0x0) {
-        if ((char)x[1].fields.m_CachedPtr == '\0') {
+      if (x != (ParentFollow_o *)0x0) {
+        if ((x->fields).isActiveInScene == false) {
           return;
         }
-        pUVar7 = x_00;
-        __this = (UnityEngine_Renderer_o *)
-                 UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)x_00,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-        if (__this != (UnityEngine_Renderer_o *)0x0) {
-          UnityEngine_Renderer__set_enabled(__this,0,(MethodInfo *)0x0);
-          pUVar7 = x_00;
-          __this_00 = (UnityEngine_Cloth_o *)
-                      UnityEngine_GameObject__GetComponent_object_
-                                ((UnityEngine_GameObject_o *)x_00,MethodInfo_Cloth_GetComponent_Cloth);
-          if (__this_00 != (UnityEngine_Cloth_o *)0x0) {
-            UnityEngine_Cloth__set_enabled(__this_00,0,(MethodInfo *)0x0);
-            *(undefined1 *)&x[1].fields.m_CachedPtr = 0;
-            pUVar7 = x_00;
-            __this_01 = UnityEngine_GameObject__get_transform
-                                  ((UnityEngine_GameObject_o *)x_00,(MethodInfo *)0x0);
-            if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-              UnityEngine_Transform__set_position
-                        (__this_01,(UnityEngine_Vector3_o)ZEXT812(0xc7c34f8000000000),(MethodInfo *)0x0);
-              pIVar5 = UnityEngine_GameObject__GetComponent_object_
-                                 ((UnityEngine_GameObject_o *)x_00,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-              pUVar7 = x_00;
-              if (pIVar5 != (Il2CppObject *)0x0) {
-                pIVar5[3].klass = (Il2CppClass *)0x0;
-                il2cpp_runtime_helper_022b4080(pIVar5 + 3,0);
+        __this = UnityEngine_GameObject__GetComponent_object_
+                           (cachedObject,
+                            (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Cloth);
+        if (__this != (UnityEngine_Cloth_o *)0x0) {
+          UnityEngine_Cloth__set_enabled(__this,false,(MethodInfo *)0x0);
+          __this_00 = UnityEngine_GameObject__GetComponent_object_
+                                (cachedObject,
+                                 (MethodInfo_6F5650 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+          if (__this_00 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+            UnityEngine_Renderer__set_enabled((UnityEngine_Renderer_o *)__this_00,false,(MethodInfo *)0x0);
+            value = UnityEngine_SkinnedMeshRenderer__get_bones(__this_00,(MethodInfo *)0x0);
+            if (value != (UnityEngine_Transform_array *)0x0) {
+              for (uVar4 = 0; (int)uVar4 < (int)value->max_length; uVar4 = uVar4 + 1) {
+                pUVar2 = UnityEngine_Component__get_transform
+                                   ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+                if ((pUVar2 != (UnityEngine_Transform_o *)0x0) &&
+                   (pIVar3 = il2cpp_vm_Object_IsInst
+                                       ((Il2CppObject *)pUVar2,(((value->obj).klass)->_1).element_class),
+                   pIVar3 == (Il2CppObject *)0x0)) {
+                  pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
+                  il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
+                }
+                if ((uint)value->max_length <= uVar4) {
+                  ThrowIndexOutOfRangeException();
+                }
+                value->m_Items[(int)uVar4] = pUVar2;
+                Il2CppCodeGenWriteBarrier(value->m_Items + (int)uVar4,pUVar2);
+              }
+              UnityEngine_SkinnedMeshRenderer__set_bones(__this_00,value,(MethodInfo *)0x0);
+              UnityEngine_SkinnedMeshRenderer__set_rootBone
+                        (__this_00,(UnityEngine_Transform_o *)0x0,(MethodInfo *)0x0);
+              (x->fields).isActiveInScene = false;
+              pUVar2 = UnityEngine_GameObject__get_transform(cachedObject,(MethodInfo *)0x0);
+              if (pUVar2 != (UnityEngine_Transform_o *)0x0) {
+                local_28.fields.x = 0.0;
+                local_28.fields.y = -99999.0;
+                local_28.fields.z = 0.0;
+                UnityEngine_Transform__set_position(pUVar2,&local_28,(MethodInfo *)0x0);
+                (x->fields).parent = (UnityEngine_Transform_o *)0x0;
+                Il2CppCodeGenWriteBarrier(&(x->fields).parent,(void *)0x0);
+                (x->fields).owner = (Characters_BaseCharacter_o *)0x0;
+                Il2CppCodeGenWriteBarrier(&(x->fields).owner,(void *)0x0);
                 return;
               }
             }
@@ -288,924 +274,118 @@ label_0405a331:
         }
       }
     }
-    il2cpp_runtime_helper_022b2c90();
-    pUVar7[2].klass = (UnityEngine_Object_c *)0x0;
-    il2cpp_runtime_helper_022b4080(pUVar7 + 2,0);
-    return;
+    ThrowNullReferenceException();
   }
-  return;
-}
-
-
-// ClothFactory$$DisposeObject
-// il2cpp: void ClothFactory__DisposeObject (UnityEngine_GameObject_o* cachedObject, const MethodInfo* method);
-// 0x405a340
-
-void ClothFactory__DisposeObject(UnityEngine_GameObject_o *cachedObject,MethodInfo *method)
-
-{
-  bool_conflict bVar1;
-  UnityEngine_Object_o *x;
-  UnityEngine_Renderer_o *__this;
-  UnityEngine_Cloth_o *__this_00;
-  UnityEngine_Transform_o *__this_01;
-  Il2CppObject *pIVar2;
-  UnityEngine_Object_o *pUVar3;
-  
-  if (g_data_057ac277 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac277 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pUVar3 = (UnityEngine_Object_o *)cachedObject;
-  bVar1 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)cachedObject,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    return;
-  }
-  if (cachedObject != (UnityEngine_GameObject_o *)0x0) {
-    x = (UnityEngine_Object_o *)UnityEngine_GameObject__GetComponent_object_(cachedObject,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pUVar3 = x;
-    bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      UnityEngine_Object__Destroy_4e01c60((UnityEngine_Object_o *)cachedObject,(MethodInfo *)0x0);
-      return;
-    }
-    if (x != (UnityEngine_Object_o *)0x0) {
-      if ((char)x[1].fields.m_CachedPtr == '\0') {
-        return;
-      }
-      pUVar3 = (UnityEngine_Object_o *)cachedObject;
-      __this = (UnityEngine_Renderer_o *)
-               UnityEngine_GameObject__GetComponent_object_(cachedObject,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-      if (__this != (UnityEngine_Renderer_o *)0x0) {
-        UnityEngine_Renderer__set_enabled(__this,0,(MethodInfo *)0x0);
-        pUVar3 = (UnityEngine_Object_o *)cachedObject;
-        __this_00 = (UnityEngine_Cloth_o *)
-                    UnityEngine_GameObject__GetComponent_object_(cachedObject,MethodInfo_Cloth_GetComponent_Cloth);
-        if (__this_00 != (UnityEngine_Cloth_o *)0x0) {
-          UnityEngine_Cloth__set_enabled(__this_00,0,(MethodInfo *)0x0);
-          *(undefined1 *)&x[1].fields.m_CachedPtr = 0;
-          pUVar3 = (UnityEngine_Object_o *)cachedObject;
-          __this_01 = UnityEngine_GameObject__get_transform(cachedObject,(MethodInfo *)0x0);
-          if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_position
-                      (__this_01,(UnityEngine_Vector3_o)ZEXT812(0xc7c34f8000000000),(MethodInfo *)0x0);
-            pIVar2 = UnityEngine_GameObject__GetComponent_object_(cachedObject,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-            pUVar3 = (UnityEngine_Object_o *)cachedObject;
-            if (pIVar2 != (Il2CppObject *)0x0) {
-              pIVar2[3].klass = (Il2CppClass *)0x0;
-              il2cpp_runtime_helper_022b4080(pIVar2 + 3,0);
-              return;
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3[2].klass = (UnityEngine_Object_c *)0x0;
-  il2cpp_runtime_helper_022b4080(pUVar3 + 2,0);
   return;
 }
 
 
 // ClothFactory$$GenerateCloth
 // il2cpp: UnityEngine_GameObject_o* ClothFactory__GenerateCloth (UnityEngine_GameObject_o* go, System_String_o* res, const MethodInfo* method);
-// 0x405a510
+// 0x181d9fed0
 
 UnityEngine_GameObject_o *
 ClothFactory__GenerateCloth(UnityEngine_GameObject_o *go,System_String_o *res,MethodInfo *method)
 
 {
-  int *piVar1;
-  char *pcVar2;
-  long lVar3;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_00;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  bool_conflict bVar4;
-  uint uVar5;
-  UnityEngine_SkinnedMeshRenderer_o *pUVar6;
-  Il2CppClass *pIVar7;
-  UnityEngine_Transform_o *pUVar8;
-  UnityEngine_GameObject_o *pUVar9;
-  UnityEngine_Cloth_o *__this_03;
-  Il2CppClass *pIVar10;
-  UnityEngine_Renderer_o *pUVar11;
-  Il2CppClass *pIVar12;
-  Il2CppClass *pIVar13;
-  UnityEngine_GameObject_o *extraout_RAX;
-  Il2CppClass *pIVar14;
+  System_String_o *path;
+  UnityEngine_Vector3_StaticFields *pUVar1;
+  bool bVar2;
+  UnityEngine_Object_o *pUVar3;
+  UnityEngine_SkinnedMeshRenderer_o *pUVar4;
   UnityEngine_Transform_array *value;
-  UnityEngine_GameObject_o *extraout_RAX_00;
-  System_Object_array *pSVar15;
-  Il2CppObject *pIVar16;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_04;
-  Il2CppObject *arg2;
-  System_String_o *pSVar17;
-  long *plVar18;
-  Il2CppClass *value_00;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *pMVar19;
-  MethodInfo *extraout_RDX_04;
-  MethodInfo *extraout_RDX_05;
-  uint uVar20;
-  Il2CppClass *unaff_RBX;
-  int iVar21;
-  Il2CppClass *pIVar22;
-  Il2CppClass *pIVar23;
-  Il2CppClass *unaff_R12;
-  undefined8 *unaff_R13;
-  Il2CppObject *pIVar24;
-  Il2CppClass *__this_05;
-  UnityEngine_Quaternion_o UVar25;
-  undefined1 auVar26 [12];
-  undefined8 in_stack_fffffffffffffea8;
-  undefined4 in_stack_fffffffffffffeb0;
-  int in_stack_fffffffffffffeb4;
-  Il2CppMethodPointer pIVar27;
-  Il2CppRGCTXData *pIVar28;
-  undefined4 uVar29;
-  undefined4 uVar30;
-  undefined1 auStack_118 [16];
-  _union_231609 a_Stack_108 [3];
-  Il2CppClass *pIStack_f0;
-  Il2CppClass *pIStack_e8;
-  Il2CppClass *pIStack_e0;
-  Il2CppClass *pIStack_d8;
-  Il2CppClass *pIStack_d0;
-  Il2CppClass *pIStack_c8;
-  undefined8 uStack_c0;
-  Il2CppClass *pIStack_b8;
-  Il2CppClass *pIStack_b0;
-  Il2CppClass *pIStack_a8;
-  Il2CppClass *pIStack_a0;
-  undefined8 uStack_98;
-  Il2CppClass *pIStack_90;
-  Il2CppObject *pIStack_88;
-  Il2CppClass *pIStack_78;
-  Il2CppClass *pIStack_70;
-  Il2CppClass *pIStack_68;
-  Il2CppClass *pIStack_60;
-  Il2CppClass *pIStack_58;
-  Il2CppClass *pIStack_50;
-  undefined8 *puStack_48;
-  System_String_o *pSStack_40;
-  UnityEngine_Transform_array *pUStack_38;
+  UnityEngine_Transform_o *__this;
+  UnityEngine_GameObject_o *pUVar5;
+  UnityEngine_Object_o *pUVar6;
+  UnityEngine_Vector3_Fields local_18;
   
-  pIVar23 = (Il2CppClass *)res;
-  if (g_data_057ac278 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_AddComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    g_data_057ac278 = '\x01';
+  if (Il2CppMethodInitialized_184344898 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_SkinnedMeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    Il2CppMethodInitialized_184344898 = '\x01';
   }
   if (go != (UnityEngine_GameObject_o *)0x0) {
-    unaff_R12 = (Il2CppClass *)&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-    unaff_RBX = (Il2CppClass *)
-                UnityEngine_GameObject__GetComponent_object_(go,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    unaff_R13 = &TypeInfo_Object;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pUVar3 = (UnityEngine_Object_o *)
+             UnityEngine_GameObject__GetComponent_object_
+                       (go,(MethodInfo_6F5650 *)
+                           MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar4 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      UnityEngine_GameObject__AddComponent_object_(go,MethodInfo_SkinnedMeshRenderer_AddComponent_SkinnedMeshRenderer);
+    bVar2 = UnityEngine_Object__op_Equality(pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      UnityEngine_GameObject__AddComponent_object_
+                (go,(MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_SkinnedMeshRenderer);
     }
-    pIVar23 = MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-    pUVar6 = (UnityEngine_SkinnedMeshRenderer_o *)
-             UnityEngine_GameObject__GetComponent_object_(go,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    if (pUVar6 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
-      go = (UnityEngine_GameObject_o *)UnityEngine_SkinnedMeshRenderer__get_bones(pUVar6,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    pUVar4 = UnityEngine_GameObject__GetComponent_object_
+                       (go,(MethodInfo_6F5650 *)
+                           MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    if (pUVar4 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+      value = UnityEngine_SkinnedMeshRenderer__get_bones(pUVar4,(MethodInfo *)0x0);
+      if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
       }
-      pSVar17 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      path = TypeInfo_Utility_ResourcePaths->static_fields->Characters;
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
       }
-      unaff_RBX = (Il2CppClass *)
-                  ApplicationManagers_ResourceManager__LoadAsset(pSVar17,res,1,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      pUVar3 = ApplicationManagers_ResourceManager__LoadAsset(path,res,true,(MethodInfo *)0x0);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      pIVar23 = (Il2CppClass *)0x0;
-      pIVar7 = (Il2CppClass *)
-               UnityEngine_Object__Instantiate_4e01490((UnityEngine_Object_o *)unaff_RBX,(MethodInfo *)0x0);
-      if (pIVar7 != (Il2CppClass *)0x0) {
-        pIVar23 = TypeInfo_GameObject;
-        if ((pIVar7->_1).image != TypeInfo_GameObject) goto label_0405a71d;
-        pIVar23 = MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-        pIVar7 = (Il2CppClass *)
-                 UnityEngine_GameObject__GetComponent_object_
-                           ((UnityEngine_GameObject_o *)pIVar7,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-        if (pIVar7 != (Il2CppClass *)0x0) {
-          pIVar23 = (Il2CppClass *)0x0;
-          pUVar8 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pIVar7,(MethodInfo *)0x0);
-          if (g_data_057a6932 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-            g_data_057a6932 = '\x01';
+      pUVar3 = UnityEngine_Object__Instantiate_2f212a0(pUVar3,(MethodInfo *)0x0);
+      if (pUVar3 != (UnityEngine_Object_o *)0x0) {
+        pUVar6 = (UnityEngine_Object_o *)0x0;
+        if (pUVar3->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+          pUVar6 = pUVar3;
+        }
+        if (pUVar6 == (UnityEngine_Object_o *)0x0) {
+          il2cpp_codegen_raise_invalid_cast_exception(pUVar3);
+        }
+        pUVar6 = (UnityEngine_Object_o *)0x0;
+        if (pUVar3->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+          pUVar6 = pUVar3;
+        }
+        pUVar4 = UnityEngine_GameObject__GetComponent_object_
+                           ((UnityEngine_GameObject_o *)pUVar6,
+                            (MethodInfo_6F5650 *)
+                            MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+        if (pUVar4 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+          __this = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_18433dbeb == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433dbeb = '\x01';
           }
-          res = (System_String_o *)0x0;
-          unaff_RBX = pIVar7;
-          if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_localScale
-                      (pUVar8,(UnityEngine_Vector3_o)
-                              *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                       (MethodInfo *)0x0);
-            UnityEngine_SkinnedMeshRenderer__set_bones
-                      ((UnityEngine_SkinnedMeshRenderer_o *)pIVar7,(UnityEngine_Transform_array *)go,
-                       (MethodInfo *)0x0);
-            UnityEngine_SkinnedMeshRenderer__set_quality
-                      ((UnityEngine_SkinnedMeshRenderer_o *)pIVar7,4,(MethodInfo *)0x0);
-            pUVar9 = UnityEngine_Component__get_gameObject
-                               ((UnityEngine_Component_o *)pIVar7,(MethodInfo *)0x0);
-            return pUVar9;
-          }
-        }
-      }
-    }
-  }
-  pIVar7 = (Il2CppClass *)il2cpp_runtime_helper_022b2c90();
-label_0405a71d:
-  il2cpp_runtime_helper_022b2fd0();
-  pIVar14 = pIVar23;
-  pIStack_58 = unaff_RBX;
-  pIStack_50 = unaff_R12;
-  puStack_48 = unaff_R13;
-  pSStack_40 = res;
-  pUStack_38 = (UnityEngine_Transform_array *)go;
-  if (g_data_057ac279 == '\0') {
-    pIStack_88 = (Il2CppObject *)0x405a760;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    pIStack_88 = (Il2CppObject *)0x405a76c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pIStack_88 = (Il2CppObject *)0x405a778;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    pIStack_88 = (Il2CppObject *)0x405a784;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    pIStack_88 = (Il2CppObject *)0x405a790;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_AddComponent_ParentFollow);
-    pIStack_88 = (Il2CppObject *)0x405a79c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    pIStack_88 = (Il2CppObject *)0x405a7a8;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    pIStack_88 = (Il2CppObject *)0x405a7b4;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponent_Renderer);
-    pIStack_88 = (Il2CppObject *)0x405a7c0;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    pIStack_88 = (Il2CppObject *)0x405a7cc;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pIStack_88 = (Il2CppObject *)0x405a7d8;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_RemoveAt);
-    pIStack_88 = (Il2CppObject *)0x405a7e4;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    pIStack_88 = (Il2CppObject *)0x405a7f0;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    pIStack_88 = (Il2CppObject *)0x405a7fc;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_get_Item);
-    pIStack_88 = (Il2CppObject *)0x405a808;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    pIStack_88 = (Il2CppObject *)0x405a814;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac279 = '\x01';
-  }
-  pIStack_78 = (Il2CppClass *)0x0;
-  pIVar24 = (Il2CppObject *)&TypeInfo_ClothFactory;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    pIStack_88 = (Il2CppObject *)0x405a83c;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pIVar22 = (Il2CppClass *)0x0;
-  __this_05 = value_00;
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    pIStack_88 = (Il2CppObject *)0x405a869;
-    pIVar14 = pIVar23;
-    bVar4 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      ((System_Collections_Generic_Dictionary_object__object__o *)
-                       **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)pIVar23,
-                       (Il2CppObject **)&pIStack_78,MethodInfo_Boolean_TryGetValue);
-    if ((char)bVar4 == '\0') {
-      pMVar19 = extraout_RDX;
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        pIStack_88 = (Il2CppObject *)0x405aa8f;
-        il2cpp_runtime_helper_02337ed0();
-        pMVar19 = extraout_RDX_04;
-      }
-      pIStack_88 = (Il2CppObject *)0x405aa9a;
-      pIVar14 = pIVar23;
-      pIVar22 = pIVar7;
-      pIVar12 = (Il2CppClass *)
-                ClothFactory__GenerateCloth
-                          ((UnityEngine_GameObject_o *)pIVar7,(System_String_o *)pIVar23,pMVar19);
-      if (pIVar12 != (Il2CppClass *)0x0) {
-        pIStack_88 = (Il2CppObject *)0x405aab8;
-        pIVar14 = MethodInfo_Renderer_GetComponent_Renderer;
-        pIVar22 = pIVar12;
-        pUVar11 = (UnityEngine_Renderer_o *)
-                  UnityEngine_GameObject__GetComponent_object_
-                            ((UnityEngine_GameObject_o *)pIVar12,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer);
-        unaff_RBX = pIVar12;
-        if (pUVar11 != (UnityEngine_Renderer_o *)0x0) {
-          pIStack_88 = (Il2CppObject *)0x405aace;
-          UnityEngine_Renderer__set_material(pUVar11,(UnityEngine_Material_o *)value_00,(MethodInfo *)0x0);
-          pIStack_88 = (Il2CppObject *)0x405aae0;
-          pIVar14 = MethodInfo_ParentFollow_AddComponent_ParentFollow;
-          pIVar22 = pIVar12;
-          pIVar10 = (Il2CppClass *)
-                    UnityEngine_GameObject__AddComponent_object_
-                              ((UnityEngine_GameObject_o *)pIVar12,(MethodInfo_255A020 *)MethodInfo_ParentFollow_AddComponent_ParentFollow);
-          if (pIVar7 != (Il2CppClass *)0x0) {
-            pIVar14 = (Il2CppClass *)0x0;
-            pIStack_88 = (Il2CppObject *)0x405aaf6;
-            pIVar22 = pIVar7;
-            pIVar13 = (Il2CppClass *)
-                      UnityEngine_GameObject__get_transform
-                                ((UnityEngine_GameObject_o *)pIVar7,(MethodInfo *)0x0);
-            unaff_R12 = pIVar10;
-            if (pIVar10 != (Il2CppClass *)0x0) {
-              pIVar22 = (Il2CppClass *)&(pIVar10->_1).this_arg;
-              (pIVar10->_1).this_arg.data = pIVar13;
-              pIStack_88 = (Il2CppObject *)0x405ab16;
-              pIVar14 = pIVar13;
-              il2cpp_runtime_helper_022b4080();
-              pIVar7 = pIVar13;
-              if (pIVar13 != (Il2CppClass *)0x0) {
-                __this_05 = (pIVar10->_1).byval_arg.data;
-                pIVar14 = (Il2CppClass *)0x0;
-                pIStack_88 = (Il2CppObject *)0x405ab2e;
-                pIVar22 = pIVar13;
-                UVar25 = UnityEngine_Transform__get_rotation
-                                   ((UnityEngine_Transform_o *)pIVar13,(MethodInfo *)0x0);
-                if (__this_05 != (Il2CppClass *)0x0) {
-                  pIStack_88 = (Il2CppObject *)0x405ab41;
-                  UnityEngine_Transform__set_rotation
-                            ((UnityEngine_Transform_o *)__this_05,UVar25,(MethodInfo *)0x0);
-                  pIStack_88 = (Il2CppObject *)0x405ab50;
-                  pIVar7 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
-                  pIStack_88 = (Il2CppObject *)0x405ab65;
-                  pIVar14 = MethodInfo_List_1_UnityEngine_GameObject;
-                  pIVar22 = pIVar7;
-                  System_Collections_Generic_List_object____ctor
-                            ((System_Collections_Generic_List_object__o *)pIVar7,
-                             (MethodInfo_362B8B0 *)MethodInfo_List_1_UnityEngine_GameObject);
-                  lVar3 = MethodInfo_Void_Add;
-                  if (pIVar7 != (Il2CppClass *)0x0) {
-                    piVar1 = (int *)((long)&(pIVar7->_1).namespaze + 4);
-                    *piVar1 = *piVar1 + 1;
-                    pcVar2 = (pIVar7->_1).name;
-                    if (pcVar2 != (char *)0x0) {
-                      uVar5 = *(uint *)&(pIVar7->_1).namespaze;
-                      pIVar14 = pIVar12;
-                      if (uVar5 < *(uint *)(pcVar2 + 0x18)) {
-                        *(uint *)&(pIVar7->_1).namespaze = uVar5 + 1;
-                        *(Il2CppClass **)(pcVar2 + (long)(int)uVar5 * 8 + 0x20) = pIVar12;
-                        pIStack_88 = (Il2CppObject *)0x405abb1;
-                        il2cpp_runtime_helper_022b4080(pcVar2 + (long)(int)uVar5 * 8 + 0x20);
-                      }
-                      else {
-                        pIStack_88 = (Il2CppObject *)0x405acf8;
-                        System_Collections_Generic_List_object___AddWithResize
-                                  ((System_Collections_Generic_List_object__o *)pIVar7,(Il2CppObject *)pIVar12
-                                   ,*(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70)
-                                  );
-                      }
-                      pIVar22 = (Il2CppClass *)0x0;
-                      pIStack_78 = pIVar7;
-                      if ((System_Collections_Generic_Dictionary_object__object__o *)
-                          **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                          (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                        pIStack_88 = (Il2CppObject *)0x405ad24;
-                        System_Collections_Generic_Dictionary_object__object___Add
-                                  ((System_Collections_Generic_Dictionary_object__object__o *)
-                                   **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)pIVar23,
-                                   (Il2CppObject *)pIVar7,MethodInfo_Void_Add);
-                        return (UnityEngine_GameObject_o *)pIVar12;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    else {
-      pIVar22 = pIStack_78;
-      pIStack_70 = value_00;
-      pIStack_68 = pIVar7;
-      pIStack_60 = pIVar23;
-      if (pIStack_78 != (Il2CppClass *)0x0) {
-        pIVar12 = (Il2CppClass *)0x0;
-        unaff_R12 = (Il2CppClass *)0x0;
-        __this_05 = (Il2CppClass *)&TypeInfo_Object;
-        pIVar7 = (Il2CppClass *)0x0;
-        pMVar19 = extraout_RDX;
-        if (0 < *(int *)&(pIStack_78->_1).namespaze) {
-          do {
-            iVar21 = (int)pIVar7;
-            pIStack_88 = (Il2CppObject *)0x405a8e4;
-            unaff_RBX = (Il2CppClass *)
-                        System_Collections_Generic_List_object___get_Item
-                                  ((System_Collections_Generic_List_object__o *)pIStack_78,iVar21,MethodInfo_GameObject_get_Item
-                                  );
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              pIStack_88 = (Il2CppObject *)0x405a8f8;
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pIVar14 = (Il2CppClass *)0x0;
-            pIStack_88 = (Il2CppObject *)0x405a904;
-            pIVar22 = unaff_RBX;
-            bVar4 = UnityEngine_Object__op_Equality
-                              ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0
-                              );
-            pIVar23 = (Il2CppClass *)&MethodInfo_Void_RemoveAt;
-            pIVar24 = (Il2CppObject *)&MethodInfo_GameObject_get_Item;
-            if ((char)bVar4 == '\0') {
-              if (unaff_RBX == (Il2CppClass *)0x0) goto label_0405ad78;
-              pIStack_88 = (Il2CppObject *)0x405a94b;
-              pIVar14 = MethodInfo_ParentFollow_GetComponent_ParentFollow;
-              pIVar22 = unaff_RBX;
-              pIVar16 = UnityEngine_GameObject__GetComponent_object_
-                                  ((UnityEngine_GameObject_o *)unaff_RBX,(MethodInfo_255A0F0 *)MethodInfo_ParentFollow_GetComponent_ParentFollow);
-              if (pIVar16 == (Il2CppObject *)0x0) goto label_0405ad78;
-              pMVar19 = extraout_RDX_01;
-              pIVar22 = pIVar7;
-              if (*(char *)&pIVar16[2].monitor == '\0') {
-                *(undefined1 *)&pIVar16[2].monitor = 1;
-                pIStack_88 = (Il2CppObject *)0x405a974;
-                pIVar14 = MethodInfo_Renderer_GetComponent_Renderer;
-                pIVar22 = unaff_RBX;
-                pUVar11 = (UnityEngine_Renderer_o *)
-                          UnityEngine_GameObject__GetComponent_object_
-                                    ((UnityEngine_GameObject_o *)unaff_RBX,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer)
-                ;
-                if (pUVar11 != (UnityEngine_Renderer_o *)0x0) {
-                  pIStack_88 = (Il2CppObject *)0x405a98c;
-                  UnityEngine_Renderer__set_material
-                            (pUVar11,(UnityEngine_Material_o *)pIStack_70,(MethodInfo *)0x0);
-                  pIStack_88 = (Il2CppObject *)0x405a99e;
-                  pIVar14 = MethodInfo_Cloth_GetComponent_Cloth;
-                  pIVar22 = unaff_RBX;
-                  __this_03 = (UnityEngine_Cloth_o *)
-                              UnityEngine_GameObject__GetComponent_object_
-                                        ((UnityEngine_GameObject_o *)unaff_RBX,
-                                         (MethodInfo_255A0F0 *)MethodInfo_Cloth_GetComponent_Cloth);
-                  __this_05 = pIStack_68;
-                  if (__this_03 != (UnityEngine_Cloth_o *)0x0) {
-                    pIStack_88 = (Il2CppObject *)0x405a9bb;
-                    UnityEngine_Cloth__set_enabled(__this_03,1,(MethodInfo *)0x0);
-                    pIStack_88 = (Il2CppObject *)0x405a9cd;
-                    pIVar14 = MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-                    pIVar22 = unaff_RBX;
-                    pUVar11 = (UnityEngine_Renderer_o *)
-                              UnityEngine_GameObject__GetComponent_object_
-                                        ((UnityEngine_GameObject_o *)unaff_RBX,
-                                         (MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-                    if (pUVar11 != (UnityEngine_Renderer_o *)0x0) {
-                      pIStack_88 = (Il2CppObject *)0x405a9e5;
-                      UnityEngine_Renderer__set_enabled(pUVar11,1,(MethodInfo *)0x0);
-                      pIStack_88 = (Il2CppObject *)0x405a9f7;
-                      pIVar14 = MethodInfo_ParentFollow_GetComponent_ParentFollow;
-                      pIVar22 = unaff_RBX;
-                      pIVar16 = UnityEngine_GameObject__GetComponent_object_
-                                          ((UnityEngine_GameObject_o *)unaff_RBX,
-                                           (MethodInfo_255A0F0 *)MethodInfo_ParentFollow_GetComponent_ParentFollow);
-                      if (__this_05 != (Il2CppClass *)0x0) {
-                        pIVar14 = (Il2CppClass *)0x0;
-                        pIStack_88 = (Il2CppObject *)0x405aa0d;
-                        pIVar22 = __this_05;
-                        pIVar12 = (Il2CppClass *)
-                                  UnityEngine_GameObject__get_transform
-                                            ((UnityEngine_GameObject_o *)__this_05,(MethodInfo *)0x0);
-                        pIVar24 = pIVar16;
-                        if (pIVar16 != (Il2CppObject *)0x0) {
-                          pIVar22 = (Il2CppClass *)(pIVar16 + 3);
-                          pIVar16[3].klass = pIVar12;
-                          pIStack_88 = (Il2CppObject *)0x405aa2c;
-                          pIVar14 = pIVar12;
-                          il2cpp_runtime_helper_022b4080();
-                          pIVar7 = pIVar12;
-                          if (pIVar12 != (Il2CppClass *)0x0) {
-                            pIVar10 = pIVar16[2].klass;
-                            pIVar14 = (Il2CppClass *)0x0;
-                            pIStack_88 = (Il2CppObject *)0x405aa43;
-                            pIVar22 = pIVar12;
-                            UVar25 = UnityEngine_Transform__get_rotation
-                                               ((UnityEngine_Transform_o *)pIVar12,(MethodInfo *)0x0);
-                            pIVar24 = (Il2CppObject *)0x0;
-                            if (pIVar10 != (Il2CppClass *)0x0) {
-                              pIStack_88 = (Il2CppObject *)0x405aa56;
-                              UnityEngine_Transform__set_rotation
-                                        ((UnityEngine_Transform_o *)pIVar10,UVar25,(MethodInfo *)0x0);
-                              pMVar19 = extraout_RDX_02;
-                              if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-                                pIStack_88 = (Il2CppObject *)0x405aa6e;
-                                il2cpp_runtime_helper_02337ed0();
-                                pMVar19 = extraout_RDX_03;
-                              }
-                              pIStack_88 = (Il2CppObject *)0x405aa79;
-                              ClothFactory__ReapplyClothBones
-                                        ((UnityEngine_GameObject_o *)__this_05,
-                                         (UnityEngine_GameObject_o *)unaff_RBX,pMVar19);
-                              return (UnityEngine_GameObject_o *)unaff_RBX;
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-                goto label_0405ad78;
-              }
-            }
-            else {
-              pIVar22 = pIStack_78;
-              if (pIStack_78 == (Il2CppClass *)0x0) goto label_0405ad78;
-              pIStack_88 = (Il2CppObject *)0x405a921;
-              System_Collections_Generic_List_object___RemoveAt
-                        ((System_Collections_Generic_List_object__o *)pIStack_78,iVar21,MethodInfo_Void_RemoveAt);
-              pMVar19 = extraout_RDX_00;
-              pIVar22 = (Il2CppClass *)(ulong)(iVar21 - 1U);
-              pIVar14 = pIVar7;
-              if ((int)(iVar21 - 1U) < 0) {
-                pIVar22 = pIVar12;
-              }
-            }
-            uVar5 = (int)pIVar22 + 1;
-            pIVar7 = (Il2CppClass *)(ulong)uVar5;
-            pIVar22 = pIStack_78;
-            if (pIStack_78 == (Il2CppClass *)0x0) goto label_0405ad78;
-          } while ((int)uVar5 < *(int *)&(pIStack_78->_1).namespaze);
-        }
-        if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-          pIStack_88 = (Il2CppObject *)0x405abce;
-          il2cpp_runtime_helper_02337ed0();
-          pMVar19 = extraout_RDX_05;
-        }
-        pIVar23 = pIStack_60;
-        pIVar7 = pIStack_68;
-        pIStack_88 = (Il2CppObject *)0x405abe3;
-        pIVar14 = pIStack_60;
-        pIVar22 = pIStack_68;
-        pIVar10 = (Il2CppClass *)
-                  ClothFactory__GenerateCloth
-                            ((UnityEngine_GameObject_o *)pIStack_68,(System_String_o *)pIStack_60,pMVar19);
-        __this_05 = pIStack_70;
-        unaff_R12 = pIVar12;
-        pIVar24 = (Il2CppObject *)&TypeInfo_ClothFactory;
-        if (pIVar10 != (Il2CppClass *)0x0) {
-          pIStack_88 = (Il2CppObject *)0x405ac06;
-          pIVar14 = MethodInfo_Renderer_GetComponent_Renderer;
-          pIVar22 = pIVar10;
-          pUVar11 = (UnityEngine_Renderer_o *)
-                    UnityEngine_GameObject__GetComponent_object_
-                              ((UnityEngine_GameObject_o *)pIVar10,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer);
-          unaff_RBX = pIVar10;
-          if (pUVar11 != (UnityEngine_Renderer_o *)0x0) {
-            pIStack_88 = (Il2CppObject *)0x405ac1c;
-            UnityEngine_Renderer__set_material(pUVar11,(UnityEngine_Material_o *)__this_05,(MethodInfo *)0x0);
-            pIStack_88 = (Il2CppObject *)0x405ac2e;
-            pIVar14 = MethodInfo_ParentFollow_AddComponent_ParentFollow;
-            pIVar22 = pIVar10;
-            pIVar12 = (Il2CppClass *)
-                      UnityEngine_GameObject__AddComponent_object_
-                                ((UnityEngine_GameObject_o *)pIVar10,(MethodInfo_255A020 *)MethodInfo_ParentFollow_AddComponent_ParentFollow);
-            if (pIVar7 != (Il2CppClass *)0x0) {
-              pIVar14 = (Il2CppClass *)0x0;
-              pIStack_88 = (Il2CppObject *)0x405ac44;
-              pIVar22 = pIVar7;
-              pIVar13 = (Il2CppClass *)
-                        UnityEngine_GameObject__get_transform
-                                  ((UnityEngine_GameObject_o *)pIVar7,(MethodInfo *)0x0);
-              unaff_R12 = pIVar12;
-              if (pIVar12 != (Il2CppClass *)0x0) {
-                pIVar22 = (Il2CppClass *)&(pIVar12->_1).this_arg;
-                (pIVar12->_1).this_arg.data = pIVar13;
-                pIStack_88 = (Il2CppObject *)0x405ac64;
-                pIVar14 = pIVar13;
-                il2cpp_runtime_helper_022b4080();
-                pIVar7 = pIVar13;
-                if (pIVar13 != (Il2CppClass *)0x0) {
-                  __this_05 = (pIVar12->_1).byval_arg.data;
-                  pIVar14 = (Il2CppClass *)0x0;
-                  pIStack_88 = (Il2CppObject *)0x405ac7c;
-                  pIVar22 = pIVar13;
-                  UVar25 = UnityEngine_Transform__get_rotation
-                                     ((UnityEngine_Transform_o *)pIVar13,(MethodInfo *)0x0);
-                  if (__this_05 != (Il2CppClass *)0x0) {
-                    pIVar14 = (Il2CppClass *)0x0;
-                    pIStack_88 = (Il2CppObject *)0x405ac8f;
-                    UnityEngine_Transform__set_rotation
-                              ((UnityEngine_Transform_o *)__this_05,UVar25,(MethodInfo *)0x0);
-                    lVar3 = MethodInfo_Void_Add;
-                    pIVar22 = pIStack_78;
-                    if (pIStack_78 != (Il2CppClass *)0x0) {
-                      piVar1 = (int *)((long)&(pIStack_78->_1).namespaze + 4);
-                      *piVar1 = *piVar1 + 1;
-                      pcVar2 = (pIStack_78->_1).name;
-                      if (pcVar2 != (char *)0x0) {
-                        uVar5 = *(uint *)&(pIStack_78->_1).namespaze;
-                        pIVar14 = pIVar10;
-                        if (uVar5 < *(uint *)(pcVar2 + 0x18)) {
-                          *(uint *)&(pIStack_78->_1).namespaze = uVar5 + 1;
-                          *(Il2CppClass **)(pcVar2 + (long)(int)uVar5 * 8 + 0x20) = pIVar10;
-                          pIStack_88 = (Il2CppObject *)0x405acdc;
-                          il2cpp_runtime_helper_022b4080(pcVar2 + (long)(int)uVar5 * 8 + 0x20);
-                        }
-                        else {
-                          pIStack_88 = (Il2CppObject *)0x405ad3d;
-                          System_Collections_Generic_List_object___AddWithResize
-                                    ((System_Collections_Generic_List_object__o *)pIStack_78,
-                                     (Il2CppObject *)pIVar10,
-                                     *(MethodInfo_362C220 **)
-                                      (*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70));
-                        }
-                        pIVar22 = (Il2CppClass *)0x0;
-                        if ((System_Collections_Generic_Dictionary_object__object__o *)
-                            **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                            (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                          pIStack_88 = (Il2CppObject *)0x405ad66;
-                          System_Collections_Generic_Dictionary_object__object___set_Item
-                                    ((System_Collections_Generic_Dictionary_object__object__o *)
-                                     **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)pIVar23,
-                                     (Il2CppObject *)pIStack_78,MethodInfo_Void_set_Item);
-                          return (UnityEngine_GameObject_o *)pIVar10;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
+          if (__this != (UnityEngine_Transform_o *)0x0) {
+            pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
+            local_18.x = (pUVar1->oneVector).fields.x;
+            local_18.y = (pUVar1->oneVector).fields.y;
+            local_18.z = (pUVar1->oneVector).fields.z;
+            UnityEngine_Transform__set_localScale(__this,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0)
+            ;
+            UnityEngine_SkinnedMeshRenderer__set_bones(pUVar4,value,(MethodInfo *)0x0);
+            UnityEngine_SkinnedMeshRenderer__set_quality(pUVar4,4,(MethodInfo *)0x0);
+            pUVar5 = UnityEngine_Component__get_gameObject
+                               ((UnityEngine_Component_o *)pUVar4,(MethodInfo *)0x0);
+            return pUVar5;
           }
         }
       }
     }
   }
-label_0405ad78:
-  pIStack_88 = (Il2CppObject *)0x405ad7d;
-  uStack_98 = il2cpp_runtime_helper_022b2c90();
-  pIVar12 = (Il2CppClass *)&(pIVar22->_1).this_arg;
-  (pIVar22->_1).this_arg.data = pIVar14;
-  pIStack_a0 = (Il2CppClass *)0x405ad97;
-  pIVar10 = pIVar14;
-  pIStack_90 = unaff_RBX;
-  pIStack_88 = pIVar24;
-  il2cpp_runtime_helper_022b4080();
-  if (pIVar14 != (Il2CppClass *)0x0) {
-    pUVar8 = (pIVar22->_1).byval_arg.data;
-    pIVar10 = (Il2CppClass *)0x0;
-    pIStack_a0 = (Il2CppClass *)0x405adaa;
-    pIVar12 = pIVar14;
-    UVar25 = UnityEngine_Transform__get_rotation((UnityEngine_Transform_o *)pIVar14,(MethodInfo *)0x0);
-    pIVar22 = (Il2CppClass *)0x0;
-    if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__set_rotation(pUVar8,UVar25,(MethodInfo *)0x0);
-      return extraout_RAX;
-    }
-  }
-  pIStack_a0 = (Il2CppClass *)0x405adc5;
-  uStack_c0 = il2cpp_runtime_helper_022b2c90();
-  pIStack_b8 = pIVar14;
-  pIStack_b0 = unaff_R12;
-  pIStack_a8 = pIVar22;
-  pIStack_a0 = __this_05;
-  if (g_data_057ac27c == '\0') {
-    pIStack_c8 = (Il2CppClass *)0x405adf3;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    g_data_057ac27c = '\x01';
-  }
-  if (pIVar12 != (Il2CppClass *)0x0) {
-    unaff_R12 = (Il2CppClass *)&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-    pIStack_c8 = (Il2CppClass *)0x405ae16;
-    pIVar14 = (Il2CppClass *)
-              UnityEngine_GameObject__GetComponent_object_
-                        ((UnityEngine_GameObject_o *)pIVar12,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    if (pIVar10 != (Il2CppClass *)0x0) {
-      pIStack_c8 = (Il2CppClass *)0x405ae2e;
-      pUVar6 = (UnityEngine_SkinnedMeshRenderer_o *)
-               UnityEngine_GameObject__GetComponent_object_
-                         ((UnityEngine_GameObject_o *)pIVar10,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-      pIVar22 = pIVar14;
-      if (pIVar14 != (Il2CppClass *)0x0) {
-        pIStack_c8 = (Il2CppClass *)0x405ae40;
-        value = UnityEngine_SkinnedMeshRenderer__get_bones
-                          ((UnityEngine_SkinnedMeshRenderer_o *)pIVar14,(MethodInfo *)0x0);
-        pIVar12 = (Il2CppClass *)0x0;
-        if (pUVar6 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
-          pIStack_c8 = (Il2CppClass *)0x405ae52;
-          UnityEngine_SkinnedMeshRenderer__set_bones(pUVar6,value,(MethodInfo *)0x0);
-          pIStack_c8 = (Il2CppClass *)0x405ae5c;
-          pUVar8 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar6,(MethodInfo *)0x0);
-          if (g_data_057a6932 == '\0') {
-            pIStack_c8 = (Il2CppClass *)0x405ae74;
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-            g_data_057a6932 = '\x01';
-          }
-          pIVar12 = (Il2CppClass *)0x0;
-          if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_localScale
-                      (pUVar8,(UnityEngine_Vector3_o)
-                              *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                       (MethodInfo *)0x0);
-            return extraout_RAX_00;
-          }
-        }
-      }
-    }
-  }
-  pIStack_c8 = (Il2CppClass *)0x405aeb5;
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_f0 = pIVar12;
-  pIStack_e8 = unaff_R12;
-  pIStack_e0 = pIVar23;
-  pIStack_d8 = pIVar22;
-  pIStack_d0 = pIVar10;
-  pIStack_c8 = pIVar7;
-  if (g_data_057ac27a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"{0} cached cloths, {1} active cloths, {2} types cached");
-    g_data_057ac27a = '\x01';
-  }
-  uVar29 = 0;
-  uVar30 = 0;
-  pIVar27 = (Il2CppMethodPointer)0x0;
-  pIVar28 = (Il2CppRGCTXData *)0x0;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_118,
-               (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    pIVar27 = (Il2CppMethodPointer)CONCAT44(auStack_118._4_4_,auStack_118._0_4_);
-    pIVar23 = (Il2CppClass *)0x0;
-    pIVar28 = (Il2CppRGCTXData *)auStack_118._8_8_;
-    uVar29 = a_Stack_108[0]._0_4_;
-    uVar30 = a_Stack_108[0]._4_4_;
-    while( true ) {
-      __this.fields._version = in_stack_fffffffffffffeb0;
-      __this.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffea8;
-      __this.fields._index = in_stack_fffffffffffffeb4;
-      __this.fields._current.fields.key = (Il2CppObject *)pIVar27;
-      __this.fields._current.fields.value = (Il2CppObject *)pIVar28;
-      __this.fields._getEnumeratorRetType = uVar29;
-      __this.fields._36_4_ = uVar30;
-      bVar4 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                        (__this,(MethodInfo_3251160 *)&stack0xfffffffffffffeb8);
-      if ((char)bVar4 == '\0') {
-        __this_00.fields._version = in_stack_fffffffffffffeb0;
-        __this_00.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffea8;
-        __this_00.fields._index = in_stack_fffffffffffffeb4;
-        __this_00.fields._current.fields.key = (Il2CppObject *)pIVar27;
-        __this_00.fields._current.fields.value = (Il2CppObject *)pIVar28;
-        __this_00.fields._getEnumeratorRetType = uVar29;
-        __this_00.fields._36_4_ = uVar30;
-        System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                  (__this_00,(MethodInfo_3251280 *)&stack0xfffffffffffffeb8);
-        goto label_0405b0a2;
-      }
-      pIVar24 = (Il2CppObject *)il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xfffffffffffffeb8,MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-      pIVar24 = System_Collections_Generic_Dictionary_object__object___get_Item
-                          ((System_Collections_Generic_Dictionary_object__object__o *)
-                           **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),pIVar24,MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-      if (pIVar24 == (Il2CppObject *)0x0) goto label_0405b1d9;
-      pIVar23 = (Il2CppClass *)(ulong)(uint)((int)pIVar23 + *(int *)&pIVar24[1].monitor);
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1d9:
-    il2cpp_runtime_helper_022b2c90();
-  }
-label_0405b1de:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1e3:
-    auVar26 = il2cpp_runtime_helper_022b2ca0();
-    if (auVar26._8_4_ != 1) {
-label_0405b257:
-      __this_02.fields._version = in_stack_fffffffffffffeb0;
-      __this_02.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffea8;
-      __this_02.fields._index = in_stack_fffffffffffffeb4;
-      __this_02.fields._current.fields.key = (Il2CppObject *)pIVar27;
-      __this_02.fields._current.fields.value = (Il2CppObject *)pIVar28;
-      __this_02.fields._getEnumeratorRetType = uVar29;
-      __this_02.fields._36_4_ = uVar30;
-      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                (__this_02,(MethodInfo_3251280 *)&stack0xfffffffffffffeb8);
-      _Unwind_Resume(auVar26._0_8_);
-    }
-    plVar18 = (long *)__cxa_begin_catch(auVar26._0_8_);
-    lVar3 = *plVar18;
-    __cxa_end_catch();
-    __this_01.fields._version = in_stack_fffffffffffffeb0;
-    __this_01.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffea8;
-    __this_01.fields._index = in_stack_fffffffffffffeb4;
-    __this_01.fields._current.fields.key = (Il2CppObject *)pIVar27;
-    __this_01.fields._current.fields.value = (Il2CppObject *)pIVar28;
-    __this_01.fields._getEnumeratorRetType = uVar29;
-    __this_01.fields._36_4_ = uVar30;
-    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-              (__this_01,(MethodInfo_3251280 *)&stack0xfffffffffffffeb8);
-    if (lVar3 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar3);
-      goto label_0405b257;
-    }
-label_0405b0a2:
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar15 = UnityEngine_Object__FindObjectsOfType_object_(MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    if (pSVar15 == (System_Object_array *)0x0) goto label_0405b1de;
-    uVar5 = (uint)pSVar15->max_length;
-    if (0 < (int)uVar5) {
-      uVar20 = 0;
-      iVar21 = 0;
-      while (uVar20 < uVar5) {
-        if ((UnityEngine_Cloth_o *)pSVar15->m_Items[(int)uVar20] == (UnityEngine_Cloth_o *)0x0)
-        goto label_0405b1de;
-        uVar5 = UnityEngine_Cloth__get_enabled
-                          ((UnityEngine_Cloth_o *)pSVar15->m_Items[(int)uVar20],(MethodInfo *)0x0);
-        iVar21 = iVar21 + (uVar5 & 0xff);
-        uVar20 = uVar20 + 1;
-        uVar5 = (uint)pSVar15->max_length;
-        if ((int)uVar5 <= (int)uVar20) goto label_0405b114;
-      }
-      goto label_0405b1e3;
-    }
-    iVar21 = 0;
-label_0405b114:
-    auStack_118._0_4_ = SUB84(pIVar23,0);
-    pIVar24 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_118);
-    pIVar16 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xfffffffffffffeb4);
-    in_stack_fffffffffffffeb4 = iVar21;
-    if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      in_stack_fffffffffffffeb4 = iVar21;
-    }
-    if (((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-         (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-       (__this_04 = System_Collections_Generic_Dictionary_object__object___get_Keys
-                              ((System_Collections_Generic_Dictionary_object__object__o *)
-                               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis),
-       __this_04 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
-      System_Collections_Generic_Dictionary_KeyCollection_object__object___get_Count(__this_04,MethodInfo_Int32_get_Count);
-      arg2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xfffffffffffffeb0);
-      pSVar17 = System_String__Format_3af7930("{0} cached cloths, {1} active cloths, {2} types cached",pIVar24,pIVar16,arg2,(MethodInfo *)0x0);
-      return (UnityEngine_GameObject_o *)pSVar17;
-    }
-  } while( true );
+  ThrowNullReferenceException();
 }
 
 
 // ClothFactory$$GetCape
 // il2cpp: UnityEngine_GameObject_o* ClothFactory__GetCape (UnityEngine_GameObject_o* reference, System_String_o* name, UnityEngine_Material_o* material, const MethodInfo* method);
-// 0x405a730
+// 0x181da0120
 
 UnityEngine_GameObject_o *
 ClothFactory__GetCape
@@ -1213,1063 +393,401 @@ ClothFactory__GetCape
           MethodInfo *method)
 
 {
-  int *piVar1;
-  InvokerMethod pIVar2;
-  long lVar3;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_00;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  bool_conflict bVar4;
-  uint uVar5;
-  UnityEngine_Cloth_o *__this_03;
-  Il2CppClass *pIVar6;
-  UnityEngine_Renderer_o *pUVar7;
-  Il2CppClass *pIVar8;
-  Il2CppClass *pIVar9;
-  UnityEngine_GameObject_o *extraout_RAX;
-  Il2CppClass *pIVar10;
-  UnityEngine_SkinnedMeshRenderer_o *__this_04;
-  UnityEngine_Transform_array *value;
-  UnityEngine_Transform_o *pUVar11;
-  UnityEngine_GameObject_o *extraout_RAX_00;
-  System_Object_array *pSVar12;
-  Il2CppObject *pIVar13;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_05;
-  Il2CppObject *arg2;
-  System_String_o *pSVar14;
-  long *plVar15;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *pMVar16;
-  MethodInfo *extraout_RDX_04;
-  MethodInfo *extraout_RDX_05;
-  uint uVar17;
-  Il2CppClass *unaff_RBX;
-  int iVar18;
-  Il2CppClass *pIVar19;
-  Il2CppClass *unaff_R12;
-  Il2CppObject *pIVar20;
-  UnityEngine_Quaternion_o UVar21;
-  undefined1 auVar22 [12];
-  undefined8 in_stack_fffffffffffffed0;
-  undefined4 in_stack_fffffffffffffed8;
-  int in_stack_fffffffffffffedc;
-  Il2CppMethodPointer pIVar23;
-  Il2CppRGCTXData *pIVar24;
-  undefined4 uVar25;
-  undefined4 uVar26;
-  undefined1 auStack_f0 [16];
-  _union_231609 a_Stack_e0 [3];
-  Il2CppClass *pIStack_c8;
-  Il2CppClass *pIStack_c0;
-  Il2CppClass *pIStack_b8;
-  Il2CppClass *pIStack_b0;
-  Il2CppClass *pIStack_a8;
-  Il2CppClass *pIStack_a0;
-  undefined8 uStack_98;
-  Il2CppClass *pIStack_90;
-  Il2CppClass *pIStack_88;
-  Il2CppClass *pIStack_80;
-  Il2CppClass *pIStack_78;
-  undefined8 uStack_70;
-  Il2CppClass *pIStack_68;
-  Il2CppObject *pIStack_60;
-  Il2CppClass *local_50;
-  Il2CppClass *local_48;
-  Il2CppClass *local_40;
-  Il2CppClass *local_38;
+  UnityEngine_GameObject_o *pUVar1;
+  System_Nullable_Color__Fields local_58 [2];
   
-  pIVar10 = (Il2CppClass *)name;
-  if (g_data_057ac279 == '\0') {
-    pIStack_60 = (Il2CppObject *)0x405a760;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    pIStack_60 = (Il2CppObject *)0x405a76c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pIStack_60 = (Il2CppObject *)0x405a778;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    pIStack_60 = (Il2CppObject *)0x405a784;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    pIStack_60 = (Il2CppObject *)0x405a790;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_AddComponent_ParentFollow);
-    pIStack_60 = (Il2CppObject *)0x405a79c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    pIStack_60 = (Il2CppObject *)0x405a7a8;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    pIStack_60 = (Il2CppObject *)0x405a7b4;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponent_Renderer);
-    pIStack_60 = (Il2CppObject *)0x405a7c0;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    pIStack_60 = (Il2CppObject *)0x405a7cc;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pIStack_60 = (Il2CppObject *)0x405a7d8;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_RemoveAt);
-    pIStack_60 = (Il2CppObject *)0x405a7e4;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    pIStack_60 = (Il2CppObject *)0x405a7f0;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    pIStack_60 = (Il2CppObject *)0x405a7fc;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_get_Item);
-    pIStack_60 = (Il2CppObject *)0x405a808;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    pIStack_60 = (Il2CppObject *)0x405a814;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac279 = '\x01';
+  if (Il2CppMethodInitialized_184344899 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    Il2CppMethodInitialized_184344899 = '\x01';
   }
-  local_50 = (Il2CppClass *)0x0;
-  pIVar20 = (Il2CppObject *)&TypeInfo_ClothFactory;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    pIStack_60 = (Il2CppObject *)0x405a83c;
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
   }
-  pIVar19 = (Il2CppClass *)0x0;
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    pIStack_60 = (Il2CppObject *)0x405a869;
-    pIVar10 = (Il2CppClass *)name;
-    bVar4 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      ((System_Collections_Generic_Dictionary_object__object__o *)
-                       **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)name,(Il2CppObject **)&local_50,
-                       MethodInfo_Boolean_TryGetValue);
-    if ((char)bVar4 == '\0') {
-      pMVar16 = extraout_RDX;
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        pIStack_60 = (Il2CppObject *)0x405aa8f;
-        il2cpp_runtime_helper_02337ed0();
-        pMVar16 = extraout_RDX_04;
-      }
-      pIStack_60 = (Il2CppObject *)0x405aa9a;
-      pIVar10 = (Il2CppClass *)name;
-      pIVar19 = (Il2CppClass *)reference;
-      pIVar6 = (Il2CppClass *)ClothFactory__GenerateCloth(reference,name,pMVar16);
-      if (pIVar6 != (Il2CppClass *)0x0) {
-        pIStack_60 = (Il2CppObject *)0x405aab8;
-        pIVar10 = MethodInfo_Renderer_GetComponent_Renderer;
-        pIVar19 = pIVar6;
-        pUVar7 = (UnityEngine_Renderer_o *)
-                 UnityEngine_GameObject__GetComponent_object_
-                           ((UnityEngine_GameObject_o *)pIVar6,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer);
-        unaff_RBX = pIVar6;
-        if (pUVar7 != (UnityEngine_Renderer_o *)0x0) {
-          pIStack_60 = (Il2CppObject *)0x405aace;
-          UnityEngine_Renderer__set_material(pUVar7,material,(MethodInfo *)0x0);
-          pIStack_60 = (Il2CppObject *)0x405aae0;
-          pIVar10 = MethodInfo_ParentFollow_AddComponent_ParentFollow;
-          pIVar19 = pIVar6;
-          pIVar8 = (Il2CppClass *)
-                   UnityEngine_GameObject__AddComponent_object_
-                             ((UnityEngine_GameObject_o *)pIVar6,(MethodInfo_255A020 *)MethodInfo_ParentFollow_AddComponent_ParentFollow);
-          if (reference != (UnityEngine_GameObject_o *)0x0) {
-            pIVar10 = (Il2CppClass *)0x0;
-            pIStack_60 = (Il2CppObject *)0x405aaf6;
-            pIVar19 = (Il2CppClass *)reference;
-            pIVar9 = (Il2CppClass *)UnityEngine_GameObject__get_transform(reference,(MethodInfo *)0x0);
-            unaff_R12 = pIVar8;
-            if (pIVar8 != (Il2CppClass *)0x0) {
-              pIVar19 = (Il2CppClass *)&(pIVar8->_1).this_arg;
-              (pIVar8->_1).this_arg.data = pIVar9;
-              pIStack_60 = (Il2CppObject *)0x405ab16;
-              pIVar10 = pIVar9;
-              il2cpp_runtime_helper_022b4080();
-              reference = (UnityEngine_GameObject_o *)pIVar9;
-              if (pIVar9 != (Il2CppClass *)0x0) {
-                material = (pIVar8->_1).byval_arg.data;
-                pIVar10 = (Il2CppClass *)0x0;
-                pIStack_60 = (Il2CppObject *)0x405ab2e;
-                pIVar19 = pIVar9;
-                UVar21 = UnityEngine_Transform__get_rotation
-                                   ((UnityEngine_Transform_o *)pIVar9,(MethodInfo *)0x0);
-                if ((Il2CppClass *)material != (Il2CppClass *)0x0) {
-                  pIStack_60 = (Il2CppObject *)0x405ab41;
-                  UnityEngine_Transform__set_rotation
-                            ((UnityEngine_Transform_o *)material,UVar21,(MethodInfo *)0x0);
-                  pIStack_60 = (Il2CppObject *)0x405ab50;
-                  reference = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
-                  pIStack_60 = (Il2CppObject *)0x405ab65;
-                  pIVar10 = MethodInfo_List_1_UnityEngine_GameObject;
-                  pIVar19 = (Il2CppClass *)reference;
-                  System_Collections_Generic_List_object____ctor
-                            ((System_Collections_Generic_List_object__o *)reference,
-                             (MethodInfo_362B8B0 *)MethodInfo_List_1_UnityEngine_GameObject);
-                  lVar3 = MethodInfo_Void_Add;
-                  if ((Il2CppClass *)reference != (Il2CppClass *)0x0) {
-                    piVar1 = (int *)((long)&(((Il2CppClass *)reference)->_1).namespaze + 4);
-                    *piVar1 = *piVar1 + 1;
-                    pIVar2 = (InvokerMethod)(((Il2CppClass *)reference)->_1).name;
-                    if (pIVar2 != (InvokerMethod)0x0) {
-                      uVar5 = *(uint *)&(((Il2CppClass *)reference)->_1).namespaze;
-                      pIVar10 = pIVar6;
-                      if (uVar5 < *(uint *)(pIVar2 + 0x18)) {
-                        *(uint *)&(((Il2CppClass *)reference)->_1).namespaze = uVar5 + 1;
-                        *(Il2CppClass **)(pIVar2 + (long)(int)uVar5 * 8 + 0x20) = pIVar6;
-                        pIStack_60 = (Il2CppObject *)0x405abb1;
-                        il2cpp_runtime_helper_022b4080(pIVar2 + (long)(int)uVar5 * 8 + 0x20);
-                      }
-                      else {
-                        pIStack_60 = (Il2CppObject *)0x405acf8;
-                        System_Collections_Generic_List_object___AddWithResize
-                                  ((System_Collections_Generic_List_object__o *)reference,
-                                   (Il2CppObject *)pIVar6,
-                                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70))
-                        ;
-                      }
-                      pIVar19 = (Il2CppClass *)0x0;
-                      local_50 = (Il2CppClass *)reference;
-                      if ((System_Collections_Generic_Dictionary_object__object__o *)
-                          **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                          (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                        pIStack_60 = (Il2CppObject *)0x405ad24;
-                        System_Collections_Generic_Dictionary_object__object___Add
-                                  ((System_Collections_Generic_Dictionary_object__object__o *)
-                                   **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)name,
-                                   (Il2CppObject *)reference,MethodInfo_Void_Add);
-                        return (UnityEngine_GameObject_o *)pIVar6;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    else {
-      pIVar19 = local_50;
-      local_48 = (Il2CppClass *)material;
-      local_40 = (Il2CppClass *)reference;
-      local_38 = (Il2CppClass *)name;
-      if (local_50 != (Il2CppClass *)0x0) {
-        pIVar8 = (Il2CppClass *)0x0;
-        unaff_R12 = (Il2CppClass *)0x0;
-        pIVar6 = (Il2CppClass *)0x0;
-        pMVar16 = extraout_RDX;
-        if (0 < *(int *)&(local_50->_1).namespaze) {
-          do {
-            iVar18 = (int)pIVar6;
-            pIStack_60 = (Il2CppObject *)0x405a8e4;
-            unaff_RBX = (Il2CppClass *)
-                        System_Collections_Generic_List_object___get_Item
-                                  ((System_Collections_Generic_List_object__o *)local_50,iVar18,MethodInfo_GameObject_get_Item);
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              pIStack_60 = (Il2CppObject *)0x405a8f8;
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pIVar10 = (Il2CppClass *)0x0;
-            pIStack_60 = (Il2CppObject *)0x405a904;
-            pIVar19 = unaff_RBX;
-            bVar4 = UnityEngine_Object__op_Equality
-                              ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0
-                              );
-            material = (UnityEngine_Material_o *)&TypeInfo_Object;
-            reference = (UnityEngine_GameObject_o *)pIVar6;
-            name = (System_String_o *)&MethodInfo_Void_RemoveAt;
-            pIVar20 = (Il2CppObject *)&MethodInfo_GameObject_get_Item;
-            if ((char)bVar4 == '\0') {
-              if (unaff_RBX == (Il2CppClass *)0x0) goto label_0405ad78;
-              pIStack_60 = (Il2CppObject *)0x405a94b;
-              pIVar10 = MethodInfo_ParentFollow_GetComponent_ParentFollow;
-              pIVar19 = unaff_RBX;
-              pIVar13 = UnityEngine_GameObject__GetComponent_object_
-                                  ((UnityEngine_GameObject_o *)unaff_RBX,(MethodInfo_255A0F0 *)MethodInfo_ParentFollow_GetComponent_ParentFollow);
-              if (pIVar13 == (Il2CppObject *)0x0) goto label_0405ad78;
-              pMVar16 = extraout_RDX_01;
-              pIVar19 = pIVar6;
-              if (*(char *)&pIVar13[2].monitor == '\0') {
-                *(undefined1 *)&pIVar13[2].monitor = 1;
-                pIStack_60 = (Il2CppObject *)0x405a974;
-                pIVar10 = MethodInfo_Renderer_GetComponent_Renderer;
-                pIVar19 = unaff_RBX;
-                pUVar7 = (UnityEngine_Renderer_o *)
-                         UnityEngine_GameObject__GetComponent_object_
-                                   ((UnityEngine_GameObject_o *)unaff_RBX,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer);
-                if (pUVar7 != (UnityEngine_Renderer_o *)0x0) {
-                  pIStack_60 = (Il2CppObject *)0x405a98c;
-                  UnityEngine_Renderer__set_material
-                            (pUVar7,(UnityEngine_Material_o *)local_48,(MethodInfo *)0x0);
-                  pIStack_60 = (Il2CppObject *)0x405a99e;
-                  pIVar10 = MethodInfo_Cloth_GetComponent_Cloth;
-                  pIVar19 = unaff_RBX;
-                  __this_03 = (UnityEngine_Cloth_o *)
-                              UnityEngine_GameObject__GetComponent_object_
-                                        ((UnityEngine_GameObject_o *)unaff_RBX,
-                                         (MethodInfo_255A0F0 *)MethodInfo_Cloth_GetComponent_Cloth);
-                  material = (UnityEngine_Material_o *)local_40;
-                  if (__this_03 != (UnityEngine_Cloth_o *)0x0) {
-                    pIStack_60 = (Il2CppObject *)0x405a9bb;
-                    UnityEngine_Cloth__set_enabled(__this_03,1,(MethodInfo *)0x0);
-                    pIStack_60 = (Il2CppObject *)0x405a9cd;
-                    pIVar10 = MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-                    pIVar19 = unaff_RBX;
-                    pUVar7 = (UnityEngine_Renderer_o *)
-                             UnityEngine_GameObject__GetComponent_object_
-                                       ((UnityEngine_GameObject_o *)unaff_RBX,
-                                        (MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-                    if (pUVar7 != (UnityEngine_Renderer_o *)0x0) {
-                      pIStack_60 = (Il2CppObject *)0x405a9e5;
-                      UnityEngine_Renderer__set_enabled(pUVar7,1,(MethodInfo *)0x0);
-                      pIStack_60 = (Il2CppObject *)0x405a9f7;
-                      pIVar10 = MethodInfo_ParentFollow_GetComponent_ParentFollow;
-                      pIVar19 = unaff_RBX;
-                      pIVar13 = UnityEngine_GameObject__GetComponent_object_
-                                          ((UnityEngine_GameObject_o *)unaff_RBX,
-                                           (MethodInfo_255A0F0 *)MethodInfo_ParentFollow_GetComponent_ParentFollow);
-                      if ((Il2CppClass *)material != (Il2CppClass *)0x0) {
-                        pIVar10 = (Il2CppClass *)0x0;
-                        pIStack_60 = (Il2CppObject *)0x405aa0d;
-                        pIVar19 = (Il2CppClass *)material;
-                        pIVar6 = (Il2CppClass *)
-                                 UnityEngine_GameObject__get_transform
-                                           ((UnityEngine_GameObject_o *)material,(MethodInfo *)0x0);
-                        pIVar20 = pIVar13;
-                        if (pIVar13 != (Il2CppObject *)0x0) {
-                          pIVar19 = (Il2CppClass *)(pIVar13 + 3);
-                          pIVar13[3].klass = pIVar6;
-                          pIStack_60 = (Il2CppObject *)0x405aa2c;
-                          pIVar10 = pIVar6;
-                          il2cpp_runtime_helper_022b4080();
-                          reference = (UnityEngine_GameObject_o *)pIVar6;
-                          if (pIVar6 != (Il2CppClass *)0x0) {
-                            pIVar8 = pIVar13[2].klass;
-                            pIVar10 = (Il2CppClass *)0x0;
-                            pIStack_60 = (Il2CppObject *)0x405aa43;
-                            pIVar19 = pIVar6;
-                            UVar21 = UnityEngine_Transform__get_rotation
-                                               ((UnityEngine_Transform_o *)pIVar6,(MethodInfo *)0x0);
-                            pIVar20 = (Il2CppObject *)0x0;
-                            if (pIVar8 != (Il2CppClass *)0x0) {
-                              pIStack_60 = (Il2CppObject *)0x405aa56;
-                              UnityEngine_Transform__set_rotation
-                                        ((UnityEngine_Transform_o *)pIVar8,UVar21,(MethodInfo *)0x0);
-                              pMVar16 = extraout_RDX_02;
-                              if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-                                pIStack_60 = (Il2CppObject *)0x405aa6e;
-                                il2cpp_runtime_helper_02337ed0();
-                                pMVar16 = extraout_RDX_03;
-                              }
-                              pIStack_60 = (Il2CppObject *)0x405aa79;
-                              ClothFactory__ReapplyClothBones
-                                        ((UnityEngine_GameObject_o *)material,
-                                         (UnityEngine_GameObject_o *)unaff_RBX,pMVar16);
-                              return (UnityEngine_GameObject_o *)unaff_RBX;
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-                goto label_0405ad78;
-              }
-            }
-            else {
-              pIVar19 = local_50;
-              if (local_50 == (Il2CppClass *)0x0) goto label_0405ad78;
-              pIStack_60 = (Il2CppObject *)0x405a921;
-              System_Collections_Generic_List_object___RemoveAt
-                        ((System_Collections_Generic_List_object__o *)local_50,iVar18,MethodInfo_Void_RemoveAt);
-              pMVar16 = extraout_RDX_00;
-              pIVar19 = (Il2CppClass *)(ulong)(iVar18 - 1U);
-              pIVar10 = pIVar6;
-              if ((int)(iVar18 - 1U) < 0) {
-                pIVar19 = pIVar8;
-              }
-            }
-            uVar5 = (int)pIVar19 + 1;
-            pIVar6 = (Il2CppClass *)(ulong)uVar5;
-            reference = (UnityEngine_GameObject_o *)pIVar6;
-            pIVar19 = local_50;
-            if (local_50 == (Il2CppClass *)0x0) goto label_0405ad78;
-          } while ((int)uVar5 < *(int *)&(local_50->_1).namespaze);
-        }
-        if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-          pIStack_60 = (Il2CppObject *)0x405abce;
-          il2cpp_runtime_helper_02337ed0();
-          pMVar16 = extraout_RDX_05;
-        }
-        name = (System_String_o *)local_38;
-        reference = (UnityEngine_GameObject_o *)local_40;
-        pIStack_60 = (Il2CppObject *)0x405abe3;
-        pIVar10 = local_38;
-        pIVar19 = local_40;
-        pIVar6 = (Il2CppClass *)
-                 ClothFactory__GenerateCloth
-                           ((UnityEngine_GameObject_o *)local_40,(System_String_o *)local_38,pMVar16);
-        material = (UnityEngine_Material_o *)local_48;
-        unaff_R12 = pIVar8;
-        pIVar20 = (Il2CppObject *)&TypeInfo_ClothFactory;
-        if (pIVar6 != (Il2CppClass *)0x0) {
-          pIStack_60 = (Il2CppObject *)0x405ac06;
-          pIVar10 = MethodInfo_Renderer_GetComponent_Renderer;
-          pIVar19 = pIVar6;
-          pUVar7 = (UnityEngine_Renderer_o *)
-                   UnityEngine_GameObject__GetComponent_object_
-                             ((UnityEngine_GameObject_o *)pIVar6,(MethodInfo_255A0F0 *)MethodInfo_Renderer_GetComponent_Renderer);
-          unaff_RBX = pIVar6;
-          if (pUVar7 != (UnityEngine_Renderer_o *)0x0) {
-            pIStack_60 = (Il2CppObject *)0x405ac1c;
-            UnityEngine_Renderer__set_material(pUVar7,material,(MethodInfo *)0x0);
-            pIStack_60 = (Il2CppObject *)0x405ac2e;
-            pIVar10 = MethodInfo_ParentFollow_AddComponent_ParentFollow;
-            pIVar19 = pIVar6;
-            pIVar8 = (Il2CppClass *)
-                     UnityEngine_GameObject__AddComponent_object_
-                               ((UnityEngine_GameObject_o *)pIVar6,(MethodInfo_255A020 *)MethodInfo_ParentFollow_AddComponent_ParentFollow);
-            if ((Il2CppClass *)reference != (Il2CppClass *)0x0) {
-              pIVar10 = (Il2CppClass *)0x0;
-              pIStack_60 = (Il2CppObject *)0x405ac44;
-              pIVar19 = (Il2CppClass *)reference;
-              pIVar9 = (Il2CppClass *)UnityEngine_GameObject__get_transform(reference,(MethodInfo *)0x0);
-              unaff_R12 = pIVar8;
-              if (pIVar8 != (Il2CppClass *)0x0) {
-                pIVar19 = (Il2CppClass *)&(pIVar8->_1).this_arg;
-                (pIVar8->_1).this_arg.data = pIVar9;
-                pIStack_60 = (Il2CppObject *)0x405ac64;
-                pIVar10 = pIVar9;
-                il2cpp_runtime_helper_022b4080();
-                reference = (UnityEngine_GameObject_o *)pIVar9;
-                if (pIVar9 != (Il2CppClass *)0x0) {
-                  material = (pIVar8->_1).byval_arg.data;
-                  pIVar10 = (Il2CppClass *)0x0;
-                  pIStack_60 = (Il2CppObject *)0x405ac7c;
-                  pIVar19 = pIVar9;
-                  UVar21 = UnityEngine_Transform__get_rotation
-                                     ((UnityEngine_Transform_o *)pIVar9,(MethodInfo *)0x0);
-                  if ((Il2CppClass *)material != (Il2CppClass *)0x0) {
-                    pIVar10 = (Il2CppClass *)0x0;
-                    pIStack_60 = (Il2CppObject *)0x405ac8f;
-                    UnityEngine_Transform__set_rotation
-                              ((UnityEngine_Transform_o *)material,UVar21,(MethodInfo *)0x0);
-                    lVar3 = MethodInfo_Void_Add;
-                    pIVar19 = local_50;
-                    if (local_50 != (Il2CppClass *)0x0) {
-                      piVar1 = (int *)((long)&(local_50->_1).namespaze + 4);
-                      *piVar1 = *piVar1 + 1;
-                      pIVar2 = (InvokerMethod)(local_50->_1).name;
-                      if (pIVar2 != (InvokerMethod)0x0) {
-                        uVar5 = *(uint *)&(local_50->_1).namespaze;
-                        pIVar10 = pIVar6;
-                        if (uVar5 < *(uint *)(pIVar2 + 0x18)) {
-                          *(uint *)&(local_50->_1).namespaze = uVar5 + 1;
-                          *(Il2CppClass **)(pIVar2 + (long)(int)uVar5 * 8 + 0x20) = pIVar6;
-                          pIStack_60 = (Il2CppObject *)0x405acdc;
-                          il2cpp_runtime_helper_022b4080(pIVar2 + (long)(int)uVar5 * 8 + 0x20);
-                        }
-                        else {
-                          pIStack_60 = (Il2CppObject *)0x405ad3d;
-                          System_Collections_Generic_List_object___AddWithResize
-                                    ((System_Collections_Generic_List_object__o *)local_50,
-                                     (Il2CppObject *)pIVar6,
-                                     *(MethodInfo_362C220 **)
-                                      (*(long *)(*(long *)(lVar3 + 0x20) + 0xc0) + 0x70));
-                        }
-                        pIVar19 = (Il2CppClass *)0x0;
-                        if ((System_Collections_Generic_Dictionary_object__object__o *)
-                            **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                            (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                          pIStack_60 = (Il2CppObject *)0x405ad66;
-                          System_Collections_Generic_Dictionary_object__object___set_Item
-                                    ((System_Collections_Generic_Dictionary_object__object__o *)
-                                     **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)name,
-                                     (Il2CppObject *)local_50,MethodInfo_Void_set_Item);
-                          return (UnityEngine_GameObject_o *)pIVar6;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-label_0405ad78:
-  pIStack_60 = (Il2CppObject *)0x405ad7d;
-  uStack_70 = il2cpp_runtime_helper_022b2c90();
-  pIVar6 = (Il2CppClass *)&(pIVar19->_1).this_arg;
-  (pIVar19->_1).this_arg.data = pIVar10;
-  pIStack_78 = (Il2CppClass *)0x405ad97;
-  pIVar8 = pIVar10;
-  pIStack_68 = unaff_RBX;
-  pIStack_60 = pIVar20;
-  il2cpp_runtime_helper_022b4080();
-  if (pIVar10 != (Il2CppClass *)0x0) {
-    pUVar11 = (pIVar19->_1).byval_arg.data;
-    pIVar8 = (Il2CppClass *)0x0;
-    pIStack_78 = (Il2CppClass *)0x405adaa;
-    pIVar6 = pIVar10;
-    UVar21 = UnityEngine_Transform__get_rotation((UnityEngine_Transform_o *)pIVar10,(MethodInfo *)0x0);
-    pIVar19 = (Il2CppClass *)0x0;
-    if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__set_rotation(pUVar11,UVar21,(MethodInfo *)0x0);
-      return extraout_RAX;
-    }
-  }
-  pIStack_78 = (Il2CppClass *)0x405adc5;
-  uStack_98 = il2cpp_runtime_helper_022b2c90();
-  pIStack_90 = pIVar10;
-  pIStack_88 = unaff_R12;
-  pIStack_80 = pIVar19;
-  pIStack_78 = (Il2CppClass *)material;
-  if (g_data_057ac27c == '\0') {
-    pIStack_a0 = (Il2CppClass *)0x405adf3;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    g_data_057ac27c = '\x01';
-  }
-  if (pIVar6 != (Il2CppClass *)0x0) {
-    unaff_R12 = (Il2CppClass *)&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-    pIStack_a0 = (Il2CppClass *)0x405ae16;
-    pIVar10 = (Il2CppClass *)
-              UnityEngine_GameObject__GetComponent_object_
-                        ((UnityEngine_GameObject_o *)pIVar6,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    if (pIVar8 != (Il2CppClass *)0x0) {
-      pIStack_a0 = (Il2CppClass *)0x405ae2e;
-      __this_04 = (UnityEngine_SkinnedMeshRenderer_o *)
-                  UnityEngine_GameObject__GetComponent_object_
-                            ((UnityEngine_GameObject_o *)pIVar8,(MethodInfo_255A0F0 *)MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-      pIVar19 = pIVar10;
-      if (pIVar10 != (Il2CppClass *)0x0) {
-        pIStack_a0 = (Il2CppClass *)0x405ae40;
-        value = UnityEngine_SkinnedMeshRenderer__get_bones
-                          ((UnityEngine_SkinnedMeshRenderer_o *)pIVar10,(MethodInfo *)0x0);
-        pIVar6 = (Il2CppClass *)0x0;
-        if (__this_04 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
-          pIStack_a0 = (Il2CppClass *)0x405ae52;
-          UnityEngine_SkinnedMeshRenderer__set_bones(__this_04,value,(MethodInfo *)0x0);
-          pIStack_a0 = (Il2CppClass *)0x405ae5c;
-          pUVar11 = UnityEngine_Component__get_transform
-                              ((UnityEngine_Component_o *)__this_04,(MethodInfo *)0x0);
-          if (g_data_057a6932 == '\0') {
-            pIStack_a0 = (Il2CppClass *)0x405ae74;
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-            g_data_057a6932 = '\x01';
-          }
-          pIVar6 = (Il2CppClass *)0x0;
-          if (pUVar11 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_localScale
-                      (pUVar11,(UnityEngine_Vector3_o)
-                               *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                       (MethodInfo *)0x0);
-            return extraout_RAX_00;
-          }
-        }
-      }
-    }
-  }
-  pIStack_a0 = (Il2CppClass *)0x405aeb5;
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_c8 = pIVar6;
-  pIStack_c0 = unaff_R12;
-  pIStack_b8 = (Il2CppClass *)name;
-  pIStack_b0 = pIVar19;
-  pIStack_a8 = pIVar8;
-  pIStack_a0 = (Il2CppClass *)reference;
-  if (g_data_057ac27a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"{0} cached cloths, {1} active cloths, {2} types cached");
-    g_data_057ac27a = '\x01';
-  }
-  uVar25 = 0;
-  uVar26 = 0;
-  pIVar23 = (Il2CppMethodPointer)0x0;
-  pIVar24 = (Il2CppRGCTXData *)0x0;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_f0,
-               (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    pIVar23 = (Il2CppMethodPointer)CONCAT44(auStack_f0._4_4_,auStack_f0._0_4_);
-    name = (System_String_o *)0x0;
-    pIVar24 = (Il2CppRGCTXData *)auStack_f0._8_8_;
-    uVar25 = a_Stack_e0[0]._0_4_;
-    uVar26 = a_Stack_e0[0]._4_4_;
-    while( true ) {
-      __this.fields._version = in_stack_fffffffffffffed8;
-      __this.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffed0;
-      __this.fields._index = in_stack_fffffffffffffedc;
-      __this.fields._current.fields.key = (Il2CppObject *)pIVar23;
-      __this.fields._current.fields.value = (Il2CppObject *)pIVar24;
-      __this.fields._getEnumeratorRetType = uVar25;
-      __this.fields._36_4_ = uVar26;
-      bVar4 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                        (__this,(MethodInfo_3251160 *)&stack0xfffffffffffffee0);
-      if ((char)bVar4 == '\0') {
-        __this_00.fields._version = in_stack_fffffffffffffed8;
-        __this_00.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffed0;
-        __this_00.fields._index = in_stack_fffffffffffffedc;
-        __this_00.fields._current.fields.key = (Il2CppObject *)pIVar23;
-        __this_00.fields._current.fields.value = (Il2CppObject *)pIVar24;
-        __this_00.fields._getEnumeratorRetType = uVar25;
-        __this_00.fields._36_4_ = uVar26;
-        System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                  (__this_00,(MethodInfo_3251280 *)&stack0xfffffffffffffee0);
-        goto label_0405b0a2;
-      }
-      pIVar20 = (Il2CppObject *)il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xfffffffffffffee0,MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-      pIVar20 = System_Collections_Generic_Dictionary_object__object___get_Item
-                          ((System_Collections_Generic_Dictionary_object__object__o *)
-                           **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),pIVar20,MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-      if (pIVar20 == (Il2CppObject *)0x0) goto label_0405b1d9;
-      name = (System_String_o *)(ulong)(uint)((int)name + *(int *)&pIVar20[1].monitor);
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1d9:
-    il2cpp_runtime_helper_022b2c90();
-  }
-label_0405b1de:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1e3:
-    auVar22 = il2cpp_runtime_helper_022b2ca0();
-    if (auVar22._8_4_ != 1) {
-label_0405b257:
-      __this_02.fields._version = in_stack_fffffffffffffed8;
-      __this_02.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffed0;
-      __this_02.fields._index = in_stack_fffffffffffffedc;
-      __this_02.fields._current.fields.key = (Il2CppObject *)pIVar23;
-      __this_02.fields._current.fields.value = (Il2CppObject *)pIVar24;
-      __this_02.fields._getEnumeratorRetType = uVar25;
-      __this_02.fields._36_4_ = uVar26;
-      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                (__this_02,(MethodInfo_3251280 *)&stack0xfffffffffffffee0);
-      _Unwind_Resume(auVar22._0_8_);
-    }
-    plVar15 = (long *)__cxa_begin_catch(auVar22._0_8_);
-    lVar3 = *plVar15;
-    __cxa_end_catch();
-    __this_01.fields._version = in_stack_fffffffffffffed8;
-    __this_01.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffed0;
-    __this_01.fields._index = in_stack_fffffffffffffedc;
-    __this_01.fields._current.fields.key = (Il2CppObject *)pIVar23;
-    __this_01.fields._current.fields.value = (Il2CppObject *)pIVar24;
-    __this_01.fields._getEnumeratorRetType = uVar25;
-    __this_01.fields._36_4_ = uVar26;
-    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-              (__this_01,(MethodInfo_3251280 *)&stack0xfffffffffffffee0);
-    if (lVar3 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar3);
-      goto label_0405b257;
-    }
-label_0405b0a2:
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar12 = UnityEngine_Object__FindObjectsOfType_object_(MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    if (pSVar12 == (System_Object_array *)0x0) goto label_0405b1de;
-    uVar5 = (uint)pSVar12->max_length;
-    if (0 < (int)uVar5) {
-      uVar17 = 0;
-      iVar18 = 0;
-      while (uVar17 < uVar5) {
-        if ((UnityEngine_Cloth_o *)pSVar12->m_Items[(int)uVar17] == (UnityEngine_Cloth_o *)0x0)
-        goto label_0405b1de;
-        uVar5 = UnityEngine_Cloth__get_enabled
-                          ((UnityEngine_Cloth_o *)pSVar12->m_Items[(int)uVar17],(MethodInfo *)0x0);
-        iVar18 = iVar18 + (uVar5 & 0xff);
-        uVar17 = uVar17 + 1;
-        uVar5 = (uint)pSVar12->max_length;
-        if ((int)uVar5 <= (int)uVar17) goto label_0405b114;
-      }
-      goto label_0405b1e3;
-    }
-    iVar18 = 0;
-label_0405b114:
-    auStack_f0._0_4_ = SUB84(name,0);
-    pIVar20 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_f0);
-    pIVar13 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xfffffffffffffedc);
-    in_stack_fffffffffffffedc = iVar18;
-    if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      in_stack_fffffffffffffedc = iVar18;
-    }
-    if (((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-         (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-       (__this_05 = System_Collections_Generic_Dictionary_object__object___get_Keys
-                              ((System_Collections_Generic_Dictionary_object__object__o *)
-                               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis),
-       __this_05 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
-      System_Collections_Generic_Dictionary_KeyCollection_object__object___get_Count(__this_05,MethodInfo_Int32_get_Count);
-      arg2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xfffffffffffffed8);
-      pSVar14 = System_String__Format_3af7930("{0} cached cloths, {1} active cloths, {2} types cached",pIVar20,pIVar13,arg2,(MethodInfo *)0x0);
-      return (UnityEngine_GameObject_o *)pSVar14;
-    }
-  } while( true );
-}
-
-
-// ClothFactory$$GetDebugInfo
-// il2cpp: System_String_o* ClothFactory__GetDebugInfo (const MethodInfo* method);
-// 0x405aec0
-
-System_String_o * ClothFactory__GetDebugInfo(MethodInfo *method)
-
-{
-  long lVar1;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_00;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  bool_conflict bVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
-  System_Object_array *pSVar5;
-  Il2CppObject *arg1;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_03;
-  Il2CppObject *arg2;
-  System_String_o *pSVar6;
-  long *plVar7;
-  uint uVar8;
-  int iVar9;
-  int unaff_R13D;
-  undefined1 auVar10 [12];
-  undefined8 in_stack_ffffffffffffff68;
-  undefined4 in_stack_ffffffffffffff70;
-  int in_stack_ffffffffffffff74;
-  Il2CppMethodPointer pIVar11;
-  Il2CppRGCTXData *pIVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  undefined1 auStack_58 [16];
-  _union_231609 a_Stack_48 [3];
-  
-  if (g_data_057ac27a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"{0} cached cloths, {1} active cloths, {2} types cached");
-    g_data_057ac27a = '\x01';
-  }
-  uVar13 = 0;
-  uVar14 = 0;
-  pIVar11 = (Il2CppMethodPointer)0x0;
-  pIVar12 = (Il2CppRGCTXData *)0x0;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)auStack_58,
-               (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    pIVar11 = (Il2CppMethodPointer)CONCAT44(auStack_58._4_4_,auStack_58._0_4_);
-    unaff_R13D = 0;
-    pIVar12 = (Il2CppRGCTXData *)auStack_58._8_8_;
-    uVar13 = a_Stack_48[0]._0_4_;
-    uVar14 = a_Stack_48[0]._4_4_;
-    while( true ) {
-      __this.fields._version = in_stack_ffffffffffffff70;
-      __this.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff68;
-      __this.fields._index = in_stack_ffffffffffffff74;
-      __this.fields._current.fields.key = (Il2CppObject *)pIVar11;
-      __this.fields._current.fields.value = (Il2CppObject *)pIVar12;
-      __this.fields._getEnumeratorRetType = uVar13;
-      __this.fields._36_4_ = uVar14;
-      bVar2 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                        (__this,(MethodInfo_3251160 *)&stack0xffffffffffffff78);
-      if ((char)bVar2 == '\0') {
-        __this_00.fields._version = in_stack_ffffffffffffff70;
-        __this_00.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff68;
-        __this_00.fields._index = in_stack_ffffffffffffff74;
-        __this_00.fields._current.fields.key = (Il2CppObject *)pIVar11;
-        __this_00.fields._current.fields.value = (Il2CppObject *)pIVar12;
-        __this_00.fields._getEnumeratorRetType = uVar13;
-        __this_00.fields._36_4_ = uVar14;
-        System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                  (__this_00,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-        goto label_0405b0a2;
-      }
-      pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xffffffffffffff78,MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-      pIVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
-                         ((System_Collections_Generic_Dictionary_object__object__o *)
-                          **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),pIVar4,MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-      if (pIVar4 == (Il2CppObject *)0x0) goto label_0405b1d9;
-      unaff_R13D = unaff_R13D + *(int *)&pIVar4[1].monitor;
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1d9:
-    il2cpp_runtime_helper_022b2c90();
-  }
-label_0405b1de:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1e3:
-    auVar10 = il2cpp_runtime_helper_022b2ca0();
-    if (auVar10._8_4_ != 1) {
-label_0405b257:
-      __this_02.fields._version = in_stack_ffffffffffffff70;
-      __this_02.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff68;
-      __this_02.fields._index = in_stack_ffffffffffffff74;
-      __this_02.fields._current.fields.key = (Il2CppObject *)pIVar11;
-      __this_02.fields._current.fields.value = (Il2CppObject *)pIVar12;
-      __this_02.fields._getEnumeratorRetType = uVar13;
-      __this_02.fields._36_4_ = uVar14;
-      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                (__this_02,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-      _Unwind_Resume(auVar10._0_8_);
-    }
-    plVar7 = (long *)__cxa_begin_catch(auVar10._0_8_);
-    lVar1 = *plVar7;
-    __cxa_end_catch();
-    __this_01.fields._version = in_stack_ffffffffffffff70;
-    __this_01.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff68;
-    __this_01.fields._index = in_stack_ffffffffffffff74;
-    __this_01.fields._current.fields.key = (Il2CppObject *)pIVar11;
-    __this_01.fields._current.fields.value = (Il2CppObject *)pIVar12;
-    __this_01.fields._getEnumeratorRetType = uVar13;
-    __this_01.fields._36_4_ = uVar14;
-    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-              (__this_01,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-    if (lVar1 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar1);
-      goto label_0405b257;
-    }
-label_0405b0a2:
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar5 = UnityEngine_Object__FindObjectsOfType_object_(MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    if (pSVar5 == (System_Object_array *)0x0) goto label_0405b1de;
-    uVar3 = (uint)pSVar5->max_length;
-    if (0 < (int)uVar3) {
-      uVar8 = 0;
-      iVar9 = 0;
-      while (uVar8 < uVar3) {
-        if ((UnityEngine_Cloth_o *)pSVar5->m_Items[(int)uVar8] == (UnityEngine_Cloth_o *)0x0)
-        goto label_0405b1de;
-        uVar3 = UnityEngine_Cloth__get_enabled
-                          ((UnityEngine_Cloth_o *)pSVar5->m_Items[(int)uVar8],(MethodInfo *)0x0);
-        iVar9 = iVar9 + (uVar3 & 0xff);
-        uVar8 = uVar8 + 1;
-        uVar3 = (uint)pSVar5->max_length;
-        if ((int)uVar3 <= (int)uVar8) goto label_0405b114;
-      }
-      goto label_0405b1e3;
-    }
-    iVar9 = 0;
-label_0405b114:
-    auStack_58._0_4_ = unaff_R13D;
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_58);
-    arg1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xffffffffffffff74);
-    in_stack_ffffffffffffff74 = iVar9;
-    if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      in_stack_ffffffffffffff74 = iVar9;
-    }
-    if (((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-         (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-       (__this_03 = System_Collections_Generic_Dictionary_object__object___get_Keys
-                              ((System_Collections_Generic_Dictionary_object__object__o *)
-                               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis),
-       __this_03 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
-      System_Collections_Generic_Dictionary_KeyCollection_object__object___get_Count(__this_03,MethodInfo_Int32_get_Count);
-      arg2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xffffffffffffff70);
-      pSVar6 = System_String__Format_3af7930("{0} cached cloths, {1} active cloths, {2} types cached",pIVar4,arg1,arg2,(MethodInfo *)0x0);
-      return pSVar6;
-    }
-  } while( true );
+  local_58[0].hasValue = false;
+  local_58[0]._1_3_ = 0;
+  local_58[0].value.fields.r = 0.0;
+  local_58[0].value.fields.g = 0.0;
+  local_58[0].value.fields.b = 0.0;
+  local_58[0].value.fields.a = 0.0;
+  pUVar1 = ClothFactory__GetCloth
+                     (reference,name,material,(System_Nullable_Color__o *)local_58,(MethodInfo *)0x0);
+  return pUVar1;
 }
 
 
 // ClothFactory$$GetHair
 // il2cpp: UnityEngine_GameObject_o* ClothFactory__GetHair (UnityEngine_GameObject_o* reference, System_String_o* name, UnityEngine_Material_o* material, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x405b290
+// 0x181da0ce0
 
 UnityEngine_GameObject_o *
 ClothFactory__GetHair
           (UnityEngine_GameObject_o *reference,System_String_o *name,UnityEngine_Material_o *material,
-          UnityEngine_Color_o color,MethodInfo *method)
+          UnityEngine_Color_o *color,MethodInfo *method)
+
+{
+  UnityEngine_GameObject_o *pUVar1;
+  System_Nullable_Color__Fields local_68;
+  System_Nullable_Color__Fields local_48 [2];
+  
+  if (Il2CppMethodInitialized_18434489a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_ctor);
+    Il2CppMethodInitialized_18434489a = '\x01';
+  }
+  local_48[0].hasValue = false;
+  local_48[0]._1_3_ = 0;
+  local_48[0].value.fields.r = 0.0;
+  local_48[0].value.fields.g = 0.0;
+  local_48[0].value.fields.b = 0.0;
+  local_68._0_8_ = *(undefined8 *)&color->fields;
+  local_68.value.fields.g = (color->fields).b;
+  local_68.value.fields.b = (color->fields).a;
+  local_48[0].value.fields.a = 0.0;
+  System_Nullable_Vector4____ctor
+            ((System_Nullable_Vector4__o *)local_48,(UnityEngine_Vector4_o *)&local_68,
+             (MethodInfo_AE2670 *)MethodInfo_System_Nullable_Color_ctor);
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+  }
+  local_68.value.fields.a = local_48[0].value.fields.a;
+  local_68.hasValue = local_48[0].hasValue;
+  local_68._1_3_ = local_48[0]._1_3_;
+  local_68.value.fields.r = local_48[0].value.fields.r;
+  local_68.value.fields.g = local_48[0].value.fields.g;
+  local_68.value.fields.b = local_48[0].value.fields.b;
+  pUVar1 = ClothFactory__GetCloth
+                     (reference,name,material,(System_Nullable_Color__o *)&local_68,(MethodInfo *)0x0);
+  return pUVar1;
+}
+
+
+// ClothFactory$$GetCloth
+// il2cpp: UnityEngine_GameObject_o* ClothFactory__GetCloth (UnityEngine_GameObject_o* reference, System_String_o* name, UnityEngine_Material_o* material, System_Nullable_Color__o color, const MethodInfo* method);
+// 0x181da01a0
+
+UnityEngine_GameObject_o *
+ClothFactory__GetCloth
+          (UnityEngine_GameObject_o *reference,System_String_o *name,UnityEngine_Material_o *material,
+          System_Nullable_Color__o *color,MethodInfo *method)
 
 {
   int32_t *piVar1;
   uint uVar2;
-  Il2CppClass *pIVar3;
-  System_Object_array *pSVar4;
-  long lVar5;
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  System_String_o *key;
-  bool_conflict bVar8;
-  UnityEngine_Object_o *x;
-  UnityEngine_Cloth_o *__this;
-  System_Collections_Generic_List_object__o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
-  UnityEngine_Renderer_o *pUVar9;
-  UnityEngine_Material_o *pUVar10;
-  Il2CppObject *pIVar11;
-  Il2CppClass *pIVar12;
-  System_Collections_Generic_Dictionary_object__object__o *__this_02;
-  UnityEngine_GameObject_o *pUVar13;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *pMVar14;
-  MethodInfo *extraout_RDX_04;
-  MethodInfo *extraout_RDX_05;
-  int index;
-  undefined4 in_XMM0_Dc;
-  undefined4 in_XMM0_Dd;
-  undefined4 in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  UnityEngine_Color_o value;
-  UnityEngine_Color_o value_00;
-  UnityEngine_Color_o value_01;
-  UnityEngine_Quaternion_o UVar15;
-  System_Collections_Generic_List_object__o *local_70;
-  UnityEngine_Material_o *local_68;
-  UnityEngine_GameObject_o *local_60;
-  undefined1 local_58 [16];
-  undefined1 local_48 [16];
-  System_String_o *local_38;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  Il2CppObject *pIVar4;
+  UnityEngine_Vector3_StaticFields *pUVar5;
+  UnityEngine_GameObject_array *pUVar6;
+  UnityEngine_Renderer_o *pUVar7;
+  UnityEngine_Transform_o *pUVar8;
+  undefined8 uVar9;
+  undefined8 uVar10;
+  undefined4 uVar11;
+  undefined4 uVar12;
+  undefined4 uVar13;
+  undefined4 uVar14;
+  MethodInfo *pMVar15;
+  bool bVar16;
+  System_Collections_Generic_List_GameObject__o *pSVar17;
+  System_Predicate_T__o *pSVar18;
+  UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields x;
+  ParentFollow_o *__this;
+  UnityEngine_SkinnedMeshRenderer_o *pUVar19;
+  UnityEngine_SkinnedMeshRenderer_o *__this_00;
+  UnityEngine_Transform_array *value;
+  UnityEngine_Transform_o *pUVar20;
+  UnityEngine_Material_o *pUVar21;
+  UnityEngine_Vector3_o *pUVar22;
+  UnityEngine_Quaternion_o *pUVar23;
+  Characters_BaseCharacter_o *value_00;
+  UnityEngine_Cloth_o *__this_01;
+  System_Collections_Generic_List_GameObject__o *local_res10;
+  UnityEngine_Vector3_Fields local_58;
+  UnityEngine_Color_o local_48;
+  float fStack_38;
   
-  local_48._8_4_ = in_XMM1_Dc;
-  local_48._0_8_ = color.fields._8_8_;
-  local_48._12_4_ = in_XMM1_Dd;
-  local_58._8_4_ = in_XMM0_Dc;
-  local_58._0_8_ = color.fields._0_8_;
-  local_58._12_4_ = in_XMM0_Dd;
-  if (g_data_057ac27b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_AddComponent_ParentFollow);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_GetComponent_Cloth);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParentFollow_GetComponent_ParentFollow);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponent_Renderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_RemoveAt);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac27b = '\x01';
+  if (Il2CppMethodInitialized_18434489b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_TryGetValue);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_ParentFollow);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Cloth);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Find);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_RemoveAll);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Predicate_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_ClothFactory_c_GetCloth_b__7_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_ClothFactory_c_GetCloth_b__7_1);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory_c);
+    Il2CppMethodInitialized_18434489b = '\x01';
   }
-  local_70 = (System_Collections_Generic_List_object__o *)0x0;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_res10 = (System_Collections_Generic_List_GameObject__o *)0x0;
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
   }
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar8 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      ((System_Collections_Generic_Dictionary_object__object__o *)
-                       **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)name,(Il2CppObject **)&local_70,
-                       MethodInfo_Boolean_TryGetValue);
-    if ((char)bVar8 == '\0') {
-      pMVar14 = extraout_RDX;
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pMVar14 = extraout_RDX_04;
+  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_ClothFactory->static_fields->clothCache;
+  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    bVar16 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                       (pSVar3,(Il2CppObject *)name,(Il2CppObject **)&local_res10,
+                        (MethodInfo_14769C0 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_TryGetValue);
+    if (!bVar16) {
+      pSVar17 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)pSVar17,
+                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+      local_res10 = pSVar17;
+      if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
       }
-      pUVar13 = ClothFactory__GenerateCloth(reference,name,pMVar14);
-      if ((pUVar13 != (UnityEngine_GameObject_o *)0x0) &&
-         (pUVar9 = (UnityEngine_Renderer_o *)
-                   UnityEngine_GameObject__GetComponent_object_(pUVar13,MethodInfo_Renderer_GetComponent_Renderer),
-         pUVar9 != (UnityEngine_Renderer_o *)0x0)) {
-        UnityEngine_Renderer__set_material(pUVar9,material,(MethodInfo *)0x0);
-        pUVar9 = (UnityEngine_Renderer_o *)UnityEngine_GameObject__GetComponent_object_(pUVar13,MethodInfo_Renderer_GetComponent_Renderer);
-        if ((pUVar9 != (UnityEngine_Renderer_o *)0x0) &&
-           (pUVar10 = UnityEngine_Renderer__get_material(pUVar9,(MethodInfo *)0x0), auVar7 = local_48,
-           auVar6 = local_58, pUVar10 != (UnityEngine_Material_o *)0x0)) {
-          value_00.fields.b = (float)local_48._0_4_;
-          value_00.fields.a = (float)local_48._4_4_;
-          value_00.fields.r = (float)local_58._0_4_;
-          value_00.fields.g = (float)local_58._4_4_;
-          local_58 = auVar6;
-          local_48 = auVar7;
-          UnityEngine_Material__set_color(pUVar10,value_00,(MethodInfo *)0x0);
-          pIVar11 = UnityEngine_GameObject__AddComponent_object_(pUVar13,MethodInfo_ParentFollow_AddComponent_ParentFollow);
-          if ((reference != (UnityEngine_GameObject_o *)0x0) &&
-             (pIVar12 = (Il2CppClass *)UnityEngine_GameObject__get_transform(reference,(MethodInfo *)0x0),
-             pIVar11 != (Il2CppObject *)0x0)) {
-            pIVar11[3].klass = pIVar12;
-            il2cpp_runtime_helper_022b4080(pIVar11 + 3);
-            if (pIVar12 != (Il2CppClass *)0x0) {
-              pIVar3 = pIVar11[2].klass;
-              UVar15 = UnityEngine_Transform__get_rotation
-                                 ((UnityEngine_Transform_o *)pIVar12,(MethodInfo *)0x0);
-              if (pIVar3 != (Il2CppClass *)0x0) {
-                UnityEngine_Transform__set_rotation
-                          ((UnityEngine_Transform_o *)pIVar3,UVar15,(MethodInfo *)0x0);
-                __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
-                System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_UnityEngine_GameObject);
-                lVar5 = MethodInfo_Void_Add;
-                if (__this_00 != (System_Collections_Generic_List_object__o *)0x0) {
-                  piVar1 = &(__this_00->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pSVar4 = (__this_00->fields)._items;
-                  if (pSVar4 != (System_Object_array *)0x0) {
-                    uVar2 = (__this_00->fields)._size;
-                    if (uVar2 < (uint)pSVar4->max_length) {
-                      (__this_00->fields)._size = uVar2 + 1;
-                      pSVar4->m_Items[(int)uVar2] = (Il2CppObject *)pUVar13;
-                      il2cpp_runtime_helper_022b4080(pSVar4->m_Items + (int)uVar2,pUVar13);
-                    }
-                    else {
-                      System_Collections_Generic_List_object___AddWithResize
-                                (__this_00,(Il2CppObject *)pUVar13,
-                                 *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
-                    }
-                    local_70 = __this_00;
-                    if ((System_Collections_Generic_Dictionary_object__object__o *)
-                        **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                        (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                      System_Collections_Generic_Dictionary_object__object___Add
-                                ((System_Collections_Generic_Dictionary_object__object__o *)
-                                 **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)name,
-                                 (Il2CppObject *)__this_00,MethodInfo_Void_Add);
-                      return pUVar13;
+      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_ClothFactory->static_fields->clothCache;
+      if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181da0965;
+      System_Collections_Generic_Dictionary_object__object___Add
+                (pSVar3,(Il2CppObject *)name,(Il2CppObject *)local_res10,
+                 (MethodInfo_146B4B0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_Add);
+    }
+    pSVar17 = local_res10;
+    if ((TypeInfo_ClothFactory_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory_c);
+    }
+    pSVar18 = (System_Predicate_T__o *)TypeInfo_ClothFactory_c->static_fields->__9__7_0;
+    if (pSVar18 == (System_Predicate_T__o *)0x0) {
+      if ((TypeInfo_ClothFactory_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory_c);
+      }
+      pIVar4 = (Il2CppObject *)TypeInfo_ClothFactory_c->static_fields->__9;
+      pSVar18 = (System_Predicate_T__o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Predicate_GameObject);
+      System_Predicate_object____ctor
+                ((System_Predicate_object__o *)pSVar18,pIVar4,
+                 (intptr_t)MethodInfo_ClothFactory_c_GetCloth_b__7_0,(MethodInfo_B61EB0 *)0x0);
+      TypeInfo_ClothFactory_c->static_fields->__9__7_0 = (System_Predicate_GameObject__o *)pSVar18;
+      Il2CppCodeGenWriteBarrier(&TypeInfo_ClothFactory_c->static_fields->__9__7_0,pSVar18);
+    }
+    if (pSVar17 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+      System_Collections_Generic_List_object___RemoveAll
+                ((System_Collections_Generic_List_object__o *)pSVar17,pSVar18,
+                 (MethodInfo_946210 *)MethodInfo_System_Collections_Generic_List_GameObject_RemoveAll);
+      pSVar17 = local_res10;
+      if ((TypeInfo_ClothFactory_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory_c);
+      }
+      pSVar18 = (System_Predicate_T__o *)TypeInfo_ClothFactory_c->static_fields->__9__7_1;
+      if (pSVar18 == (System_Predicate_T__o *)0x0) {
+        if ((TypeInfo_ClothFactory_c->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory_c);
+        }
+        pIVar4 = (Il2CppObject *)TypeInfo_ClothFactory_c->static_fields->__9;
+        pSVar18 = (System_Predicate_T__o *)
+                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Predicate_GameObject);
+        System_Predicate_object____ctor
+                  ((System_Predicate_object__o *)pSVar18,pIVar4,
+                   (intptr_t)MethodInfo_ClothFactory_c_GetCloth_b__7_1,(MethodInfo_B61EB0 *)0x0);
+        TypeInfo_ClothFactory_c->static_fields->__9__7_1 = (System_Predicate_GameObject__o *)pSVar18;
+        Il2CppCodeGenWriteBarrier(&TypeInfo_ClothFactory_c->static_fields->__9__7_1,pSVar18);
+      }
+      if (pSVar17 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+        x = (UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields)
+            System_Collections_Generic_List_object___Find
+                      ((System_Collections_Generic_List_T__o *)pSVar17,pSVar18,
+                       (MethodInfo_91E910 *)MethodInfo_System_Collections_Generic_List_GameObject_Find);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar16 = UnityEngine_Object__op_Equality
+                           ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar16) {
+          if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+          }
+          x = (UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields)
+              ClothFactory__GenerateCloth(reference,name,(MethodInfo *)0x0);
+          if (x == (UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields)0x0)
+          goto label_181da0965;
+          __this = UnityEngine_GameObject__AddComponent_object_
+                             ((UnityEngine_GameObject_o *)x,
+                              (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_ParentFollow
+                             );
+          pMVar15 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
+          if (local_res10 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_181da0965;
+          piVar1 = &(local_res10->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pUVar6 = (local_res10->fields)._items;
+          if (pUVar6 == (UnityEngine_GameObject_array *)0x0) goto label_181da0965;
+          uVar2 = (local_res10->fields)._size;
+          if (uVar2 < (uint)pUVar6->max_length) {
+            (local_res10->fields)._size = uVar2 + 1;
+            if ((uint)pUVar6->max_length <= uVar2) {
+              ThrowIndexOutOfRangeException();
+            }
+            *(UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields *)
+             (pUVar6->m_Items + (int)uVar2) = x;
+            Il2CppCodeGenWriteBarrier(pUVar6->m_Items + (int)uVar2,(void *)x);
+          }
+          else {
+            System_Collections_Generic_List_object___AddWithResize
+                      ((System_Collections_Generic_List_object__o *)local_res10,(Il2CppObject *)x,
+                       (MethodInfo_93DD50 *)pMVar15->klass->rgctx_data[0xe].method);
+          }
+          if (__this == (ParentFollow_o *)0x0) goto label_181da0965;
+        }
+        else {
+          if (x == (UnityEngine_Rendering_ProbeVolumeStreamableAsset_StreamableCellDesc_Fields)0x0)
+          goto label_181da0965;
+          __this = UnityEngine_GameObject__GetComponent_object_
+                             ((UnityEngine_GameObject_o *)x,
+                              (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_ParentFollow
+                             );
+          if (__this == (ParentFollow_o *)0x0) goto label_181da0965;
+          (__this->fields).isActiveInScene = true;
+          if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+          }
+          if (Il2CppMethodInitialized_18434489d == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+            Il2CppMethodInitialized_18434489d = '\x01';
+          }
+          if (reference == (UnityEngine_GameObject_o *)0x0) goto label_181da0965;
+          pUVar19 = UnityEngine_GameObject__GetComponent_object_
+                              (reference,
+                               (MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+          __this_00 = UnityEngine_GameObject__GetComponent_object_
+                                ((UnityEngine_GameObject_o *)x,
+                                 (MethodInfo_6F5650 *)
+                                 MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+          if (pUVar19 == (UnityEngine_SkinnedMeshRenderer_o *)0x0) goto label_181da0965;
+          value = UnityEngine_SkinnedMeshRenderer__get_bones(pUVar19,(MethodInfo *)0x0);
+          if (__this_00 == (UnityEngine_SkinnedMeshRenderer_o *)0x0) goto label_181da0965;
+          UnityEngine_SkinnedMeshRenderer__set_bones(__this_00,value,(MethodInfo *)0x0);
+          pUVar20 = UnityEngine_Component__get_transform
+                              ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_18433dbeb == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433dbeb = '\x01';
+          }
+          if (pUVar20 == (UnityEngine_Transform_o *)0x0) goto label_181da0965;
+          pUVar5 = TypeInfo_UnityEngine_Vector3->static_fields;
+          local_58.x = (pUVar5->oneVector).fields.x;
+          local_58.y = (pUVar5->oneVector).fields.y;
+          local_58.z = (pUVar5->oneVector).fields.z;
+          UnityEngine_Transform__set_localScale(pUVar20,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
+        }
+        uVar9 = *(undefined8 *)&(color->fields).field_0x1;
+        uVar10 = *(undefined8 *)((longlong)&(color->fields).value.fields.g + 1);
+        fStack_38 = (color->fields).value.fields.a;
+        local_48.fields.r._1_3_ = (undefined3)uVar9;
+        local_48.fields.g = (float)((ulonglong)uVar9 >> 0x18);
+        local_48.fields.b._0_1_ = (undefined1)((ulonglong)uVar9 >> 0x38);
+        local_48.fields.b._1_3_ = (undefined3)uVar10;
+        local_48.fields.a = (float)((ulonglong)uVar10 >> 0x18);
+        if (Il2CppMethodInitialized_1843448a3 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_GetValueOrDefault);
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Color_get_HasValue);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+          Il2CppMethodInitialized_1843448a3 = '\x01';
+        }
+        pUVar21 = (__this->fields).tintedMaterial;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar16 = UnityEngine_Object__op_Inequality
+                           ((UnityEngine_Object_o *)pUVar21,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar16) {
+          pUVar21 = (__this->fields).tintedMaterial;
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)pUVar21,(MethodInfo *)0x0);
+        }
+        pUVar7 = (UnityEngine_Renderer_o *)(__this->fields).ownRenderer;
+        if (pUVar7 != (UnityEngine_Renderer_o *)0x0) {
+          UnityEngine_Renderer__set_sharedMaterial(pUVar7,material,(MethodInfo *)0x0);
+          (__this->fields).tintedMaterial = (UnityEngine_Material_o *)0x0;
+          Il2CppCodeGenWriteBarrier(&(__this->fields).tintedMaterial,(void *)0x0);
+          if ((color->fields).hasValue != false) {
+            pUVar7 = (UnityEngine_Renderer_o *)(__this->fields).ownRenderer;
+            if (pUVar7 == (UnityEngine_Renderer_o *)0x0) goto label_181da0965;
+            pUVar21 = UnityEngine_Renderer__get_material(pUVar7,(MethodInfo *)0x0);
+            if (pUVar21 == (UnityEngine_Material_o *)0x0) goto label_181da0965;
+            local_48.fields.r = local_48.fields.g;
+            local_48.fields.g = local_48.fields.b;
+            local_48.fields.b = local_48.fields.a;
+            local_48.fields.a = fStack_38;
+            UnityEngine_Material__set_color(pUVar21,&local_48,(MethodInfo *)0x0);
+            pUVar7 = (UnityEngine_Renderer_o *)(__this->fields).ownRenderer;
+            if (pUVar7 == (UnityEngine_Renderer_o *)0x0) goto label_181da0965;
+            pUVar21 = UnityEngine_Renderer__get_sharedMaterial(pUVar7,(MethodInfo *)0x0);
+            (__this->fields).tintedMaterial = pUVar21;
+            Il2CppCodeGenWriteBarrier(&(__this->fields).tintedMaterial,pUVar21);
+          }
+          if (reference != (UnityEngine_GameObject_o *)0x0) {
+            pUVar20 = UnityEngine_GameObject__get_transform(reference,(MethodInfo *)0x0);
+            if (Il2CppMethodInitialized_1843448a5 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_UnityEngine_Component_GetComponentInParent_BaseCharacter);
+              Il2CppMethodInitialized_1843448a5 = '\x01';
+            }
+            (__this->fields).parent = pUVar20;
+            Il2CppCodeGenWriteBarrier(&(__this->fields).parent,pUVar20);
+            if (pUVar20 != (UnityEngine_Transform_o *)0x0) {
+              pUVar8 = (__this->fields).bTransform;
+              pUVar22 = UnityEngine_Transform__get_position
+                                  ((UnityEngine_Vector3_o *)&local_48,pUVar20,(MethodInfo *)0x0);
+              if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+                local_58.x = (pUVar22->fields).x;
+                local_58.y = (pUVar22->fields).y;
+                local_58.z = (pUVar22->fields).z;
+                UnityEngine_Transform__set_position
+                          (pUVar8,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
+                pUVar8 = (__this->fields).bTransform;
+                pUVar23 = UnityEngine_Transform__get_rotation
+                                    ((UnityEngine_Quaternion_o *)&local_48,pUVar20,(MethodInfo *)0x0);
+                if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+                  uVar11 = (pUVar23->fields).x;
+                  uVar12 = (pUVar23->fields).y;
+                  uVar13 = (pUVar23->fields).z;
+                  uVar14 = (pUVar23->fields).w;
+                  local_48.fields.r = (float)uVar11;
+                  local_48.fields.g = (float)uVar12;
+                  local_48.fields.b = (float)uVar13;
+                  local_48.fields.a = (float)uVar14;
+                  UnityEngine_Transform__set_rotation
+                            (pUVar8,(UnityEngine_Quaternion_o *)&local_48,(MethodInfo *)0x0);
+                  value_00 = UnityEngine_Component__GetComponentInParent_object__664f20
+                                       ((UnityEngine_Component_o *)pUVar20,
+                                        (MethodInfo_664F20 *)
+                                        MethodInfo_UnityEngine_Component_GetComponentInParent_BaseCharacter);
+                  (__this->fields).owner = value_00;
+                  Il2CppCodeGenWriteBarrier(&(__this->fields).owner,value_00);
+                  (__this->fields).appliedRenderStateVersion = -1;
+                  ParentFollow__FollowRenderState(__this,(MethodInfo *)0x0);
+                  pUVar19 = UnityEngine_GameObject__GetComponent_object_
+                                      ((UnityEngine_GameObject_o *)x,
+                                       (MethodInfo_6F5650 *)
+                                       MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+                  if (pUVar19 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+                    UnityEngine_Renderer__set_enabled
+                              ((UnityEngine_Renderer_o *)pUVar19,true,(MethodInfo *)0x0);
+                    __this_01 = UnityEngine_GameObject__GetComponent_object_
+                                          ((UnityEngine_GameObject_o *)x,
+                                           (MethodInfo_6F5650 *)
+                                           MethodInfo_UnityEngine_GameObject_GetComponent_Cloth);
+                    if (__this_01 != (UnityEngine_Cloth_o *)0x0) {
+                      UnityEngine_Cloth__set_enabled(__this_01,true,(MethodInfo *)0x0);
+                      return (UnityEngine_GameObject_o *)x;
                     }
                   }
                 }
@@ -2279,445 +797,279 @@ ClothFactory__GetHair
         }
       }
     }
-    else {
-      local_68 = material;
-      local_60 = reference;
-      local_38 = name;
-      if (local_70 != (System_Collections_Generic_List_object__o *)0x0) {
-        index = 0;
-        pMVar14 = extraout_RDX;
-        if (0 < (local_70->fields)._size) {
-          do {
-            x = (UnityEngine_Object_o *)
-                System_Collections_Generic_List_object___get_Item(local_70,index,MethodInfo_GameObject_get_Item);
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            bVar8 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-            if ((char)bVar8 == '\0') {
-              if ((x == (UnityEngine_Object_o *)0x0) ||
-                 (pIVar11 = UnityEngine_GameObject__GetComponent_object_
-                                      ((UnityEngine_GameObject_o *)x,MethodInfo_ParentFollow_GetComponent_ParentFollow),
-                 pIVar11 == (Il2CppObject *)0x0)) goto label_0405b98a;
-              pMVar14 = extraout_RDX_01;
-              if (*(char *)&pIVar11[2].monitor == '\0') {
-                *(undefined1 *)&pIVar11[2].monitor = 1;
-                pUVar9 = (UnityEngine_Renderer_o *)
-                         UnityEngine_GameObject__GetComponent_object_
-                                   ((UnityEngine_GameObject_o *)x,MethodInfo_Renderer_GetComponent_Renderer);
-                if (pUVar9 != (UnityEngine_Renderer_o *)0x0) {
-                  UnityEngine_Renderer__set_material(pUVar9,local_68,(MethodInfo *)0x0);
-                  pUVar9 = (UnityEngine_Renderer_o *)
-                           UnityEngine_GameObject__GetComponent_object_
-                                     ((UnityEngine_GameObject_o *)x,MethodInfo_Renderer_GetComponent_Renderer);
-                  pUVar13 = local_60;
-                  if ((pUVar9 != (UnityEngine_Renderer_o *)0x0) &&
-                     (pUVar10 = UnityEngine_Renderer__get_material(pUVar9,(MethodInfo *)0x0),
-                     auVar7 = local_48, auVar6 = local_58, pUVar10 != (UnityEngine_Material_o *)0x0)) {
-                    value.fields.b = (float)local_48._0_4_;
-                    value.fields.a = (float)local_48._4_4_;
-                    value.fields.r = (float)local_58._0_4_;
-                    value.fields.g = (float)local_58._4_4_;
-                    local_58 = auVar6;
-                    local_48 = auVar7;
-                    UnityEngine_Material__set_color(pUVar10,value,(MethodInfo *)0x0);
-                    __this = (UnityEngine_Cloth_o *)
-                             UnityEngine_GameObject__GetComponent_object_
-                                       ((UnityEngine_GameObject_o *)x,MethodInfo_Cloth_GetComponent_Cloth);
-                    if (__this != (UnityEngine_Cloth_o *)0x0) {
-                      UnityEngine_Cloth__set_enabled(__this,1,(MethodInfo *)0x0);
-                      pUVar9 = (UnityEngine_Renderer_o *)
-                               UnityEngine_GameObject__GetComponent_object_
-                                         ((UnityEngine_GameObject_o *)x,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-                      if (pUVar9 != (UnityEngine_Renderer_o *)0x0) {
-                        UnityEngine_Renderer__set_enabled(pUVar9,1,(MethodInfo *)0x0);
-                        pIVar11 = UnityEngine_GameObject__GetComponent_object_
-                                            ((UnityEngine_GameObject_o *)x,MethodInfo_ParentFollow_GetComponent_ParentFollow);
-                        if ((pUVar13 != (UnityEngine_GameObject_o *)0x0) &&
-                           (pIVar12 = (Il2CppClass *)
-                                      UnityEngine_GameObject__get_transform(pUVar13,(MethodInfo *)0x0),
-                           pIVar11 != (Il2CppObject *)0x0)) {
-                          pIVar11[3].klass = pIVar12;
-                          il2cpp_runtime_helper_022b4080(pIVar11 + 3);
-                          if (pIVar12 != (Il2CppClass *)0x0) {
-                            pIVar3 = pIVar11[2].klass;
-                            UVar15 = UnityEngine_Transform__get_rotation
-                                               ((UnityEngine_Transform_o *)pIVar12,(MethodInfo *)0x0);
-                            if (pIVar3 != (Il2CppClass *)0x0) {
-                              UnityEngine_Transform__set_rotation
-                                        ((UnityEngine_Transform_o *)pIVar3,UVar15,(MethodInfo *)0x0);
-                              pMVar14 = extraout_RDX_02;
-                              if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                                pMVar14 = extraout_RDX_03;
-                              }
-                              ClothFactory__ReapplyClothBones(pUVar13,(UnityEngine_GameObject_o *)x,pMVar14);
-                              return (UnityEngine_GameObject_o *)x;
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-                goto label_0405b98a;
-              }
-            }
-            else {
-              if (local_70 == (System_Collections_Generic_List_object__o *)0x0) goto label_0405b98a;
-              System_Collections_Generic_List_object___RemoveAt(local_70,index,MethodInfo_Void_RemoveAt);
-              index = index + -1;
-              pMVar14 = extraout_RDX_00;
-              if (index < 0) {
-                index = 0;
-              }
-            }
-            index = index + 1;
-            if (local_70 == (System_Collections_Generic_List_object__o *)0x0) goto label_0405b98a;
-          } while (index < (local_70->fields)._size);
-        }
-        if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pMVar14 = extraout_RDX_05;
-        }
-        key = local_38;
-        pUVar13 = local_60;
-        __this_01 = ClothFactory__GenerateCloth(local_60,local_38,pMVar14);
-        pUVar10 = local_68;
-        if ((__this_01 != (UnityEngine_GameObject_o *)0x0) &&
-           (pUVar9 = (UnityEngine_Renderer_o *)
-                     UnityEngine_GameObject__GetComponent_object_(__this_01,MethodInfo_Renderer_GetComponent_Renderer),
-           pUVar9 != (UnityEngine_Renderer_o *)0x0)) {
-          UnityEngine_Renderer__set_material(pUVar9,pUVar10,(MethodInfo *)0x0);
-          pUVar9 = (UnityEngine_Renderer_o *)
-                   UnityEngine_GameObject__GetComponent_object_(__this_01,MethodInfo_Renderer_GetComponent_Renderer);
-          if ((pUVar9 != (UnityEngine_Renderer_o *)0x0) &&
-             (pUVar10 = UnityEngine_Renderer__get_material(pUVar9,(MethodInfo *)0x0), auVar7 = local_48,
-             auVar6 = local_58, pUVar10 != (UnityEngine_Material_o *)0x0)) {
-            value_01.fields.b = (float)local_48._0_4_;
-            value_01.fields.a = (float)local_48._4_4_;
-            value_01.fields.r = (float)local_58._0_4_;
-            value_01.fields.g = (float)local_58._4_4_;
-            local_58 = auVar6;
-            local_48 = auVar7;
-            UnityEngine_Material__set_color(pUVar10,value_01,(MethodInfo *)0x0);
-            pIVar11 = UnityEngine_GameObject__AddComponent_object_(__this_01,MethodInfo_ParentFollow_AddComponent_ParentFollow);
-            if ((pUVar13 != (UnityEngine_GameObject_o *)0x0) &&
-               (pIVar12 = (Il2CppClass *)UnityEngine_GameObject__get_transform(pUVar13,(MethodInfo *)0x0),
-               pIVar11 != (Il2CppObject *)0x0)) {
-              pIVar11[3].klass = pIVar12;
-              il2cpp_runtime_helper_022b4080(pIVar11 + 3);
-              if (pIVar12 != (Il2CppClass *)0x0) {
-                pIVar3 = pIVar11[2].klass;
-                UVar15 = UnityEngine_Transform__get_rotation
-                                   ((UnityEngine_Transform_o *)pIVar12,(MethodInfo *)0x0);
-                if ((pIVar3 != (Il2CppClass *)0x0) &&
-                   (UnityEngine_Transform__set_rotation
-                              ((UnityEngine_Transform_o *)pIVar3,UVar15,(MethodInfo *)0x0),
-                   lVar5 = MethodInfo_Void_Add, local_70 != (System_Collections_Generic_List_object__o *)0x0)) {
-                  piVar1 = &(local_70->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pSVar4 = (local_70->fields)._items;
-                  if (pSVar4 != (System_Object_array *)0x0) {
-                    uVar2 = (local_70->fields)._size;
-                    if (uVar2 < (uint)pSVar4->max_length) {
-                      (local_70->fields)._size = uVar2 + 1;
-                      pSVar4->m_Items[(int)uVar2] = (Il2CppObject *)__this_01;
-                      il2cpp_runtime_helper_022b4080(pSVar4->m_Items + (int)uVar2,__this_01);
-                    }
-                    else {
-                      System_Collections_Generic_List_object___AddWithResize
-                                (local_70,(Il2CppObject *)__this_01,
-                                 *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
-                    }
-                    if ((System_Collections_Generic_Dictionary_object__object__o *)
-                        **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-                        (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-                      System_Collections_Generic_Dictionary_object__object___set_Item
-                                ((System_Collections_Generic_Dictionary_object__object__o *)
-                                 **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),(Il2CppObject *)key,
-                                 (Il2CppObject *)local_70,MethodInfo_Void_set_Item);
-                      return __this_01;
-                    }
-                  }
-                }
-              }
+  }
+label_181da0965:
+  ThrowNullReferenceException();
+}
+
+
+// ClothFactory$$GetDebugInfo
+// il2cpp: System_String_o* ClothFactory__GetDebugInfo (const MethodInfo* method);
+// 0x181da0980
+// eh: try 0x181da0ad4..0x181da0cca -> pad 0x183315a20 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181da0b55: mov rdx, qword ptr [rip + 0x2316664]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_Dispose
+// asm:   0x181da0b5c: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x181da0b61: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181da0b66: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181da0b6b: test rcx, rcx
+// asm:   0x181da0b6e: jne 0x181da0cca
+// asm:   0x181da0b74: mov edi, dword ptr [rsp + 0xd8]
+// asm:   0x181da0cca: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315a25: push rbp
+// asm:   0x183315a26: sub rsp, 0x30
+// asm:   0x183315a2a: mov rbp, rdx
+// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
+// asm:   0x183315a31: mov rcx, qword ptr [rax]
+// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x183315a38: movabs rax, 0
+// asm:   0x183315a42: add rsp, 0x30
+// asm:   0x183315a46: pop rbp
+// asm:   0x183315a47: ret 
+
+System_String_o * ClothFactory__GetDebugInfo(MethodInfo *method)
+
+{
+  System_Collections_Generic_Dictionary_string__List_GameObject___o *pSVar1;
+  System_Collections_Generic_Dictionary_object__object__o *__this;
+  bool bVar2;
+  Il2CppObject *pIVar3;
+  System_Object_array *pSVar4;
+  longlong lVar5;
+  Il2CppObject *arg1;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
+  Il2CppObject *arg2;
+  System_String_o *pSVar6;
+  uint uVar7;
+  int iVar8;
+  int iVar9;
+  int local_res10 [2];
+  int local_res18 [2];
+  int32_t local_res20 [2];
+  System_Collections_Generic_Dictionary_Enumerator_object__object__o local_80;
+  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_58;
+  
+  if (Il2CppMethodInitialized_18434489c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_get_Keys);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_get_Current
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_List_GameObject_get_Count
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_KeyValuePair_string_List_GameObject_get_Key);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Object_FindObjectsOfType_Cloth);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&"{0} cached cloths, {1} active cloths, {2} types cached");
+    Il2CppMethodInitialized_18434489c = '\x01';
+  }
+  local_80.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_80.fields._version = 0;
+  local_80.fields._index = 0;
+  local_80.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_80.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_80.fields._getEnumeratorRetType = 0;
+  local_80.fields._36_4_ = 0;
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+  }
+  pSVar1 = TypeInfo_ClothFactory->static_fields->clothCache;
+  if (pSVar1 != (System_Collections_Generic_Dictionary_string__List_GameObject___o *)0x0) {
+    iVar8 = 0;
+    local_res10[0] = 0;
+    System_Collections_Generic_Dictionary_PhotonNetwork_RaiseEventBatch__object___GetEnumerator
+              (&local_58,(System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+               (MethodInfo_13C1150 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_GetEnumerator);
+    local_80.fields._dictionary = local_58.fields._dictionary;
+    local_80.fields._version = local_58.fields._version;
+    local_80.fields._index = local_58.fields._index;
+    local_80.fields._current.fields.key = local_58.fields._current.fields.key;
+    local_80.fields._current.fields.value = local_58.fields._current.fields.value;
+    local_80.fields._getEnumeratorRetType = local_58.fields._getEnumeratorRetType;
+    local_80.fields._36_4_ = local_58.fields._36_4_;
+    while( true ) {
+      bVar2 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
+                        (&local_80,
+                         (MethodInfo_1585360 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_MoveNext
+                        );
+      pIVar3 = local_80.fields._current.fields.key;
+      if (!bVar2) break;
+      if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+      }
+      __this = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_ClothFactory->static_fields->clothCache;
+      if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pIVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         (__this,pIVar3,
+                          (MethodInfo_147A5B0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_get_Item);
+      if (pIVar3 == (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
+      }
+      iVar8 = iVar8 + *(int *)&pIVar3[1].monitor;
+      local_res10[0] = iVar8;
+    }
+    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_80,
+               MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_List_GameObject_Dispose);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    pSVar4 = UnityEngine_Object__FindObjectsOfType_object_
+                       ((MethodInfo_7453E0 *)MethodInfo_UnityEngine_Object_FindObjectsOfType_Cloth);
+    if (pSVar4 != (System_Object_array *)0x0) {
+      iVar9 = 0;
+      uVar7 = 0;
+      while( true ) {
+        if ((int)pSVar4->max_length <= (int)uVar7) {
+          local_res10[0] = iVar8;
+          pIVar3 = il2cpp_value_box(g_data_184354e08,local_res10);
+          local_res18[0] = iVar9;
+          arg1 = il2cpp_value_box(g_data_184354e08,local_res18);
+          if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
+          }
+          pSVar1 = TypeInfo_ClothFactory->static_fields->clothCache;
+          if (pSVar1 != (System_Collections_Generic_Dictionary_string__List_GameObject___o *)0x0) {
+            __this_00 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
+                        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
+                                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+                                   (MethodInfo_13C6500 *)
+                                   MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_get_Keys
+                                  );
+            if (__this_00 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+              local_res20[0] =
+                   System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___get_Count
+                             (__this_00,
+                              (MethodInfo_F21A00 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_List_GameObject_get_Count
+                             );
+              arg2 = il2cpp_value_box(g_data_184354e08,local_res20);
+              pSVar6 = System_String__Format_196d050("{0} cached cloths, {1} active cloths, {2} types cached",pIVar3,arg1,arg2,(MethodInfo *)0x0)
+              ;
+              return pSVar6;
             }
           }
+          ThrowNullReferenceException();
         }
+        if ((uint)pSVar4->max_length <= uVar7) {
+          ThrowIndexOutOfRangeException();
+        }
+        lVar5 = (longlong)(int)uVar7;
+        if ((UnityEngine_Cloth_o *)pSVar4->m_Items[lVar5] == (UnityEngine_Cloth_o *)0x0) break;
+        uVar7 = uVar7 + 1;
+        bVar2 = UnityEngine_Cloth__get_enabled
+                          ((UnityEngine_Cloth_o *)pSVar4->m_Items[lVar5],(MethodInfo *)0x0);
+        iVar9 = (iVar9 + 1) - (uint)!bVar2;
       }
     }
   }
-label_0405b98a:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac27d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_List_GameObject);
-    g_data_057ac27d = '\x01';
-  }
-  __this_02 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_List_GameObject);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this_02,MethodInfo_Dictionary_2_System_String_List_1_UnityEngine_GameObject);
-  **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) = __this_02;
-  pUVar13 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ClothFactory + 0xb8),__this_02);
-  return pUVar13;
+  ThrowNullReferenceException();
 }
 
 
 // ClothFactory$$ReapplyClothBones
 // il2cpp: void ClothFactory__ReapplyClothBones (UnityEngine_GameObject_o* reference, UnityEngine_GameObject_o* clothObject, const MethodInfo* method);
-// 0x405add0
+// 0x181da0da0
 
 void ClothFactory__ReapplyClothBones
                (UnityEngine_GameObject_o *reference,UnityEngine_GameObject_o *clothObject,MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_00;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  bool_conflict bVar2;
-  uint uVar3;
-  UnityEngine_SkinnedMeshRenderer_o *__this_03;
-  UnityEngine_SkinnedMeshRenderer_o *__this_04;
+  UnityEngine_Vector3_StaticFields *pUVar1;
+  UnityEngine_SkinnedMeshRenderer_o *__this;
+  UnityEngine_SkinnedMeshRenderer_o *__this_00;
   UnityEngine_Transform_array *value;
-  UnityEngine_Transform_o *__this_05;
-  Il2CppObject *pIVar4;
-  System_Object_array *pSVar5;
-  Il2CppObject *arg1;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_06;
-  Il2CppObject *arg2;
-  long *plVar6;
-  uint uVar7;
-  int iVar8;
-  undefined8 *unaff_R12;
-  int unaff_R13D;
-  undefined1 auVar9 [12];
-  undefined8 in_stack_ffffffffffffff40;
-  undefined4 in_stack_ffffffffffffff48;
-  int in_stack_ffffffffffffff4c;
-  Il2CppMethodPointer pIVar10;
-  Il2CppRGCTXData *pIVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined1 local_80 [16];
-  _union_231609 local_70 [3];
-  UnityEngine_GameObject_o *pUStack_58;
-  undefined8 *puStack_50;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_Vector3_Fields local_18;
   
-  if (g_data_057ac27c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    g_data_057ac27c = '\x01';
+  if (Il2CppMethodInitialized_18434489d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    Il2CppMethodInitialized_18434489d = '\x01';
   }
   if (reference != (UnityEngine_GameObject_o *)0x0) {
-    unaff_R12 = &MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer;
-    __this_03 = (UnityEngine_SkinnedMeshRenderer_o *)
-                UnityEngine_GameObject__GetComponent_object_(reference,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    if ((clothObject != (UnityEngine_GameObject_o *)0x0) &&
-       (__this_04 = (UnityEngine_SkinnedMeshRenderer_o *)
-                    UnityEngine_GameObject__GetComponent_object_(clothObject,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer),
-       __this_03 != (UnityEngine_SkinnedMeshRenderer_o *)0x0)) {
-      value = UnityEngine_SkinnedMeshRenderer__get_bones(__this_03,(MethodInfo *)0x0);
-      reference = (UnityEngine_GameObject_o *)0x0;
-      if (__this_04 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
-        UnityEngine_SkinnedMeshRenderer__set_bones(__this_04,value,(MethodInfo *)0x0);
-        __this_05 = UnityEngine_Component__get_transform
-                              ((UnityEngine_Component_o *)__this_04,(MethodInfo *)0x0);
-        if (g_data_057a6932 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a6932 = '\x01';
+    __this = UnityEngine_GameObject__GetComponent_object_
+                       (reference,
+                        (MethodInfo_6F5650 *)
+                        MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+    if (clothObject != (UnityEngine_GameObject_o *)0x0) {
+      __this_00 = UnityEngine_GameObject__GetComponent_object_
+                            (clothObject,
+                             (MethodInfo_6F5650 *)
+                             MethodInfo_UnityEngine_GameObject_GetComponent_SkinnedMeshRenderer);
+      if (__this != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+        value = UnityEngine_SkinnedMeshRenderer__get_bones(__this,(MethodInfo *)0x0);
+        if (__this_00 != (UnityEngine_SkinnedMeshRenderer_o *)0x0) {
+          UnityEngine_SkinnedMeshRenderer__set_bones(__this_00,value,(MethodInfo *)0x0);
+          __this_01 = UnityEngine_Component__get_transform
+                                ((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_18433dbeb == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433dbeb = '\x01';
+          }
+          if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+            pUVar1 = TypeInfo_UnityEngine_Vector3->static_fields;
+            local_18.x = (pUVar1->oneVector).fields.x;
+            local_18.y = (pUVar1->oneVector).fields.y;
+            local_18.z = (pUVar1->oneVector).fields.z;
+            UnityEngine_Transform__set_localScale
+                      (__this_01,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+            return;
+          }
         }
-        reference = (UnityEngine_GameObject_o *)0x0;
-        if (__this_05 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__set_localScale
-                    (__this_05,
-                     (UnityEngine_Vector3_o)
-                     *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),(MethodInfo *)0x0);
-          return;
-        }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUStack_58 = reference;
-  puStack_50 = unaff_R12;
-  if (g_data_057ac27a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"{0} cached cloths, {1} active cloths, {2} types cached");
-    g_data_057ac27a = '\x01';
-  }
-  uVar12 = 0;
-  uVar13 = 0;
-  pIVar10 = (Il2CppMethodPointer)0x0;
-  pIVar11 = (Il2CppRGCTXData *)0x0;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_80,
-               (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_List_1);
-    pIVar10 = (Il2CppMethodPointer)CONCAT44(local_80._4_4_,local_80._0_4_);
-    unaff_R13D = 0;
-    pIVar11 = (Il2CppRGCTXData *)local_80._8_8_;
-    uVar12 = local_70[0]._0_4_;
-    uVar13 = local_70[0]._4_4_;
-    while( true ) {
-      __this.fields._version = in_stack_ffffffffffffff48;
-      __this.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff40;
-      __this.fields._index = in_stack_ffffffffffffff4c;
-      __this.fields._current.fields.key = (Il2CppObject *)pIVar10;
-      __this.fields._current.fields.value = (Il2CppObject *)pIVar11;
-      __this.fields._getEnumeratorRetType = uVar12;
-      __this.fields._36_4_ = uVar13;
-      bVar2 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                        (__this,(MethodInfo_3251160 *)&stack0xffffffffffffff50);
-      if ((char)bVar2 == '\0') {
-        __this_00.fields._version = in_stack_ffffffffffffff48;
-        __this_00.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff40;
-        __this_00.fields._index = in_stack_ffffffffffffff4c;
-        __this_00.fields._current.fields.key = (Il2CppObject *)pIVar10;
-        __this_00.fields._current.fields.value = (Il2CppObject *)pIVar11;
-        __this_00.fields._getEnumeratorRetType = uVar12;
-        __this_00.fields._36_4_ = uVar13;
-        System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                  (__this_00,(MethodInfo_3251280 *)&stack0xffffffffffffff50);
-        goto label_0405b0a2;
-      }
-      pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xffffffffffffff50,MethodInfo_KeyValuePair_2_System_String_List_1_UnityEngine_GameObje);
-      if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-      pIVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
-                         ((System_Collections_Generic_Dictionary_object__object__o *)
-                          **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),pIVar4,MethodInfo_List_1_UnityEngine_GameObject_get_Item);
-      if (pIVar4 == (Il2CppObject *)0x0) goto label_0405b1d9;
-      unaff_R13D = unaff_R13D + *(int *)&pIVar4[1].monitor;
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1d9:
-    il2cpp_runtime_helper_022b2c90();
-  }
-label_0405b1de:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_0405b1e3:
-    auVar9 = il2cpp_runtime_helper_022b2ca0();
-    if (auVar9._8_4_ != 1) {
-label_0405b257:
-      __this_02.fields._version = in_stack_ffffffffffffff48;
-      __this_02.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff40;
-      __this_02.fields._index = in_stack_ffffffffffffff4c;
-      __this_02.fields._current.fields.key = (Il2CppObject *)pIVar10;
-      __this_02.fields._current.fields.value = (Il2CppObject *)pIVar11;
-      __this_02.fields._getEnumeratorRetType = uVar12;
-      __this_02.fields._36_4_ = uVar13;
-      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                (__this_02,(MethodInfo_3251280 *)&stack0xffffffffffffff50);
-      _Unwind_Resume(auVar9._0_8_);
-    }
-    plVar6 = (long *)__cxa_begin_catch(auVar9._0_8_);
-    lVar1 = *plVar6;
-    __cxa_end_catch();
-    __this_01.fields._version = in_stack_ffffffffffffff48;
-    __this_01.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff40;
-    __this_01.fields._index = in_stack_ffffffffffffff4c;
-    __this_01.fields._current.fields.key = (Il2CppObject *)pIVar10;
-    __this_01.fields._current.fields.value = (Il2CppObject *)pIVar11;
-    __this_01.fields._getEnumeratorRetType = uVar12;
-    __this_01.fields._36_4_ = uVar13;
-    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-              (__this_01,(MethodInfo_3251280 *)&stack0xffffffffffffff50);
-    if (lVar1 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar1);
-      goto label_0405b257;
-    }
-label_0405b0a2:
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar5 = UnityEngine_Object__FindObjectsOfType_object_(MethodInfo_Cloth_FindObjectsOfType_Cloth);
-    if (pSVar5 == (System_Object_array *)0x0) goto label_0405b1de;
-    uVar3 = (uint)pSVar5->max_length;
-    if (0 < (int)uVar3) {
-      uVar7 = 0;
-      iVar8 = 0;
-      while (uVar7 < uVar3) {
-        if ((UnityEngine_Cloth_o *)pSVar5->m_Items[(int)uVar7] == (UnityEngine_Cloth_o *)0x0)
-        goto label_0405b1de;
-        uVar3 = UnityEngine_Cloth__get_enabled
-                          ((UnityEngine_Cloth_o *)pSVar5->m_Items[(int)uVar7],(MethodInfo *)0x0);
-        iVar8 = iVar8 + (uVar3 & 0xff);
-        uVar7 = uVar7 + 1;
-        uVar3 = (uint)pSVar5->max_length;
-        if ((int)uVar3 <= (int)uVar7) goto label_0405b114;
-      }
-      goto label_0405b1e3;
-    }
-    iVar8 = 0;
-label_0405b114:
-    local_80._0_4_ = unaff_R13D;
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,local_80);
-    arg1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xffffffffffffff4c);
-    in_stack_ffffffffffffff4c = iVar8;
-    if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      in_stack_ffffffffffffff4c = iVar8;
-    }
-    if (((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ClothFactory + 0xb8) !=
-         (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-       (__this_06 = System_Collections_Generic_Dictionary_object__object___get_Keys
-                              ((System_Collections_Generic_Dictionary_object__object__o *)
-                               **(undefined8 **)(TypeInfo_ClothFactory + 0xb8),MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Lis),
-       __this_06 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
-      System_Collections_Generic_Dictionary_KeyCollection_object__object___get_Count(__this_06,MethodInfo_Int32_get_Count);
-      arg2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&stack0xffffffffffffff48);
-      System_String__Format_3af7930("{0} cached cloths, {1} active cloths, {2} types cached",pIVar4,arg1,arg2,(MethodInfo *)0x0);
-      return;
-    }
-  } while( true );
+  ThrowNullReferenceException();
 }
 
 
 // ClothFactory$$.cctor
 // il2cpp: void ClothFactory___cctor (const MethodInfo* method);
-// 0x405b990
+// 0x181da0eb0
 
 void ClothFactory___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this;
+  System_Collections_Generic_Dictionary_string__List_GameObject___o *__this;
   
-  if (g_data_057ac27d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_List_GameObject);
-    g_data_057ac27d = '\x01';
+  if (Il2CppMethodInitialized_18434489e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_List_GameObject);
+    Il2CppMethodInitialized_18434489e = '\x01';
   }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_List_GameObject);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this,MethodInfo_Dictionary_2_System_String_List_1_UnityEngine_GameObject);
-  **(undefined8 **)(TypeInfo_ClothFactory + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ClothFactory + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_List_GameObject);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1454140 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_List_GameObject_ctor);
+  TypeInfo_ClothFactory->static_fields->clothCache = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ClothFactory->static_fields->clothCache,__this);
   return;
 }
 

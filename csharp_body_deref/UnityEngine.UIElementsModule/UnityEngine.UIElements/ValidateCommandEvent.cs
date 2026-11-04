@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000178")]
+[Token(Token = "0x20001BC")]
 public class ValidateCommandEvent : CommandEventBase<ValidateCommandEvent>
 {
-	[Token(Token = "0x60009FD")]
-	[Address(RVA = "0x5029E50", Offset = "0x5029E50", VA = "0x5029E50")]
+	[Token(Token = "0x6000C01")]
+	[Address(RVA = "0x3271D40", Offset = "0x3270340", VA = "0x183271D40")]
 	static ValidateCommandEvent()
 	{
 	}
 
-	[Token(Token = "0x60009FE")]
-	[Address(RVA = "0x5029F20", Offset = "0x5029F20", VA = "0x5029F20")]
+	[Token(Token = "0x6000C02")]
+	[Address(RVA = "0x3271E20", Offset = "0x3270420", VA = "0x183271E20")]
 	public ValidateCommandEvent()
 	{
 	}

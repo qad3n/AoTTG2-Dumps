@@ -1,5 +1,5 @@
 // Type: CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic.Editor/CustomLogicVSCExtensionJsonDocsGenerator.cs
@@ -8,12 +8,10 @@
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Kind
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Kind (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282a50
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Kind
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Kind(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Kind_k__BackingField;
@@ -22,27 +20,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Kind
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Kind (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282a60
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Kind
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Kind(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Kind_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Kind_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Name
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282a70
+// 0x180573e90
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Name
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Name_k__BackingField;
@@ -51,27 +46,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Name
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282a80
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Name
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Name_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Name_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Description
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282a90
+// 0x1805852b0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Description
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -80,27 +72,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Description
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282aa0
+// 0x180ace2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Description
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_TypeParameters
 // il2cpp: System_Collections_Generic_List_string__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_TypeParameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282ab0
+// 0x180584c80
 
-System_Collections_Generic_List_string__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_TypeParameters
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_string__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_TypeParameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._TypeParameters_k__BackingField;
@@ -109,27 +98,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_TypeParameters
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_TypeParameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_string__o* value, const MethodInfo* method);
-// 0x4282ac0
+// 0x180584ca0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_TypeParameters
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_string__o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_TypeParameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_string__o* value, MethodInfo* method)
 
 {
   (__this->fields)._TypeParameters_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._TypeParameters_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._TypeParameters_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Extends
 // il2cpp: System_Collections_Generic_List_string__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Extends (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282ad0
+// 0x1805853f0
 
-System_Collections_Generic_List_string__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Extends
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_string__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Extends(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Extends_k__BackingField;
@@ -138,27 +124,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Extends
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Extends (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_string__o* value, const MethodInfo* method);
-// 0x4282ae0
+// 0x18058aa00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Extends
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_string__o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Extends(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_string__o* value, MethodInfo* method)
 
 {
   (__this->fields)._Extends_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Extends_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Extends_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Deprecated
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282af0
+// 0x180c8eec0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Deprecated
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Deprecated_k__BackingField;
@@ -167,190 +150,171 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Deprecated
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282b00
+// 0x1818be8a0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Deprecated
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Deprecated_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Deprecated_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Deprecated_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_InstanceFields
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282b10
+// 0x1805853c0
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceFields
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceFields(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields)._InstanceFields_k__BackingField;
+  return *(Unity_Properties_IProperty_TContainer__o **)
+          &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_InstanceFields
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* value, const MethodInfo* method);
-// 0x4282b20
+// 0x180e8f700
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceFields
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceFields(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* value, MethodInfo* method)
 
 {
-  (__this->fields)._InstanceFields_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._InstanceFields_k__BackingField);
+  *(Unity_Properties_IProperty_TContainer__o **)
+   &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position = value;
+  Il2CppCodeGenWriteBarrier((void **)&(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position,value)
+  ;
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_InstanceMethods
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282b30
+// 0x180c7fb50
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceMethods
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
-
-{
-  return (__this->fields)._InstanceMethods_k__BackingField;
-}
-
-
-// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_InstanceMethods
-// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, const MethodInfo* method);
-// 0x4282b40
-
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceMethods
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *value,
-               MethodInfo *method)
-
-{
-  (__this->fields)._InstanceMethods_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._InstanceMethods_k__BackingField);
-  return;
-}
-
-
-// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_StaticFields
-// il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282b50
-
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticFields
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
-
-{
-  return (__this->fields)._StaticFields_k__BackingField;
-}
-
-
-// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_StaticFields
-// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* value, const MethodInfo* method);
-// 0x4282b60
-
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticFields
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *value,
-               MethodInfo *method)
-
-{
-  (__this->fields)._StaticFields_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._StaticFields_k__BackingField);
-  return;
-}
-
-
-// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_StaticMethods
-// il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282b70
-
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticMethods
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_InstanceMethods(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._StaticMethods_k__BackingField;
 }
 
 
-// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_StaticMethods
-// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, const MethodInfo* method);
-// 0x4282b80
+// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_InstanceMethods
+// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, const MethodInfo* method);
+// 0x180f1db10
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticMethods
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_InstanceMethods(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, MethodInfo* method)
 
 {
   (__this->fields)._StaticMethods_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._StaticMethods_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._StaticMethods_k__BackingField,value);
+  return;
+}
+
+
+// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_StaticFields
+// il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
+// 0x1805853d0
+
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticFields(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
+
+{
+  return *(Unity_Properties_IProperty_TContainer__o **)&__this[1].fields;
+}
+
+
+// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_StaticFields
+// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* value, const MethodInfo* method);
+// 0x180f1d7f0
+
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticFields(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* value, MethodInfo* method)
+
+{
+  *(Unity_Properties_IProperty_TContainer__o **)&__this[1].fields = value;
+  Il2CppCodeGenWriteBarrier((void **)(__this + 1),value);
+  return;
+}
+
+
+// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_StaticMethods
+// il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
+// 0x18058a570
+
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_StaticMethods(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
+
+{
+  return (Unity_Properties_IProperty_TContainer__o *)(*(uint64_t *)((char *)__this + 0x78));
+}
+
+
+// CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_StaticMethods
+// il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, const MethodInfo* method);
+// 0x180a37140
+
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_StaticMethods(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* value, MethodInfo* method)
+
+{
+  (*(uint64_t *)((char *)__this + 0x78)) = (System_Collections_Generic_IEnumerator_IProperty_TContainer___o *)value;
+  Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)__this + 0x78)),value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$get_Constructors
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Constructors (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4282b90
+// 0x18152f220
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Constructors
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__get_Constructors(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields)._Constructors_k__BackingField;
+  return (Unity_Properties_IProperty_TContainer__o *)__this[1].fields.m_Properties.fields._list;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$set_Constructors
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Constructors (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o* value, const MethodInfo* method);
-// 0x4282ba0
+// 0x18152f2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Constructors
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__set_Constructors(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o* value, MethodInfo* method)
 
 {
-  (__this->fields)._Constructors_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Constructors_k__BackingField);
+  __this[1].fields.m_Properties.fields._list = (System_Collections_Generic_List_T__o *)value;
+  Il2CppCodeGenWriteBarrier((void **)&__this[1].fields.m_Properties,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.ClassDefinition$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, const MethodInfo* method);
-// 0x4281c70
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Label
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Label (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282bb0
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Label
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Label(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Label_k__BackingField;
@@ -359,26 +323,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Label
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Label
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Label (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282bc0
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Label
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Label(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Label_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Label_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Type
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Type (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282bd0
+// 0x180573e90
 
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Type
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Type(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Type_k__BackingField;
@@ -387,27 +349,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Type
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Type
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Type (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, const MethodInfo* method);
-// 0x4282be0
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Type
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Type(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Type_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Type_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Type_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Description
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282bf0
+// 0x1805852b0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Description
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -416,85 +375,74 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Descripti
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Description
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282c00
+// 0x180ace2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Description
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Readonly
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Readonly (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282c10
+// 0x180f1d480
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Readonly
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+bool
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Readonly(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(char)(__this->fields)._Readonly_k__BackingField);
+  return (__this->fields)._Readonly_k__BackingField;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Readonly
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Readonly (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, bool value, const MethodInfo* method);
-// 0x4282c20
+// 0x180f1d940
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Readonly
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               bool_conflict value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Readonly(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)&(__this->fields)._Readonly_k__BackingField = (char)value;
+  (__this->fields)._Readonly_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Private
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Private (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282c30
+// 0x181573470
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Private
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+bool
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Private(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),
-                  *(undefined1 *)((long)&(__this->fields)._Readonly_k__BackingField + 1));
+  return (__this->fields)._Private_k__BackingField;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Private
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Private (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, bool value, const MethodInfo* method);
-// 0x4282c40
+// 0x1815736c0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Private
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               bool_conflict value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Private(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)((long)&(__this->fields)._Readonly_k__BackingField + 1) = (char)value;
+  (__this->fields)._Private_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$get_Deprecated
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x4282c50
+// 0x1805853f0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Deprecated
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Deprecated_k__BackingField;
@@ -503,40 +451,38 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__get_Deprecate
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$set_Deprecated
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282c60
+// 0x18058aa00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Deprecated
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field__set_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Deprecated_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Deprecated_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Deprecated_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Field$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, const MethodInfo* method);
-// 0x42826b0
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this,MethodInfo *method
-               )
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_Label
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Label (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282c70
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Label
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Label(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Label_k__BackingField;
@@ -545,26 +491,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Label
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_Label
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Label (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282c80
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Label
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Label(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Label_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Label_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_ReturnType
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_ReturnType (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282c90
+// 0x180573e90
 
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_ReturnType
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_ReturnType(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._ReturnType_k__BackingField;
@@ -573,27 +517,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_ReturnTy
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_ReturnType
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_ReturnType (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, const MethodInfo* method);
-// 0x4282ca0
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_ReturnType
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_ReturnType(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, MethodInfo* method)
 
 {
   (__this->fields)._ReturnType_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._ReturnType_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._ReturnType_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_Description
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282cb0
+// 0x1805852b0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Description
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -602,26 +543,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Descript
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_Description
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282cc0
+// 0x180ace2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Description
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_Parameters
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Parameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282cd0
+// 0x180584c80
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Parameters
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Parameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Parameters_k__BackingField;
@@ -630,27 +569,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Paramete
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_Parameters
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Parameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* value, const MethodInfo* method);
-// 0x4282ce0
+// 0x180584ca0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Parameters
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Parameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* value, MethodInfo* method)
 
 {
   (__this->fields)._Parameters_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Parameters_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Parameters_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_Kind
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Kind (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282cf0
+// 0x1805853f0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Kind
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Kind(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Kind_k__BackingField;
@@ -659,26 +595,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Kind
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_Kind
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Kind (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282d00
+// 0x18058aa00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Kind
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Kind(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Kind_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Kind_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Kind_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$get_Deprecated
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x4282d10
+// 0x180c8eec0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Deprecated
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Deprecated_k__BackingField;
@@ -687,41 +621,38 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__get_Deprecat
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$set_Deprecated
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282d20
+// 0x1818be8a0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Deprecated
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method__set_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Deprecated_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Deprecated_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Deprecated_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Method$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, const MethodInfo* method);
-// 0x42827e0
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$get_Parameters
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Parameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, const MethodInfo* method);
-// 0x4282d30
+// 0x1808fb3a0
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Parameters
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Parameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Parameters_k__BackingField;
@@ -730,28 +661,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Par
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$set_Parameters
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Parameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* value, const MethodInfo* method);
-// 0x4282d40
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Parameters
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Parameters(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* value, MethodInfo* method)
 
 {
   (__this->fields)._Parameters_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Parameters_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$get_Description
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, const MethodInfo* method);
-// 0x4282d50
+// 0x180573e90
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Description
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -760,27 +687,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Des
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$set_Description
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282d60
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Description
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$get_Deprecated
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, const MethodInfo* method);
-// 0x4282d70
+// 0x1805852b0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Deprecated
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Deprecated_k__BackingField;
@@ -789,40 +713,38 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__get_Dep
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$set_Deprecated
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Deprecated (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282d80
+// 0x180ace2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Deprecated
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__set_Deprecated(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Deprecated_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Deprecated_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Deprecated_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Constructor$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, const MethodInfo* method);
-// 0x42828b0
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$get_Name
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282d90
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Name
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Name_k__BackingField;
@@ -831,26 +753,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Name
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$set_Name
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282da0
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Name
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Name_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$get_Type
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Type (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282db0
+// 0x180573e90
 
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Type
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,MethodInfo *method)
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Type(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Type_k__BackingField;
@@ -859,27 +779,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Type
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$set_Type
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Type (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, const MethodInfo* method);
-// 0x4282dc0
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Type
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Type(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Type_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Type_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Type_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$get_Description
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282dd0
+// 0x1805852b0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Description
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -888,100 +805,88 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_Descr
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$set_Description
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Description (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282de0
+// 0x180ace2f0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Description
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_Description(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$get_IsOptional
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsOptional (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282df0
+// 0x180f1d480
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsOptional
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,MethodInfo *method)
+bool
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsOptional(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(char)(__this->fields)._IsOptional_k__BackingField);
+  return (__this->fields)._IsOptional_k__BackingField;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$set_IsOptional
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsOptional (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, bool value, const MethodInfo* method);
-// 0x4282e00
+// 0x180f1d940
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsOptional
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               bool_conflict value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsOptional(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)&(__this->fields)._IsOptional_k__BackingField = (char)value;
+  (__this->fields)._IsOptional_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$get_IsVariadic
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsVariadic (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282e10
+// 0x181573470
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsVariadic
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,MethodInfo *method)
+bool
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__get_IsVariadic(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),
-                  *(undefined1 *)((long)&(__this->fields)._IsOptional_k__BackingField + 1));
+  return (__this->fields)._IsVariadic_k__BackingField;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$set_IsVariadic
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsVariadic (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, bool value, const MethodInfo* method);
-// 0x4282e20
+// 0x1815736c0
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsVariadic
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               bool_conflict value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__set_IsVariadic(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)((long)&(__this->fields)._IsOptional_k__BackingField + 1) = (char)value;
+  (__this->fields)._IsVariadic_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.Parameter$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, const MethodInfo* method);
-// 0x4282a40
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.JsonTypeReference$$get_Name
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, const MethodInfo* method);
-// 0x4282e30
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_Name
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *__this,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Name_k__BackingField;
@@ -990,27 +895,24 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__g
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.JsonTypeReference$$set_Name
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_Name (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x4282e40
+// 0x180b8ac00
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_Name
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *__this,
-               System_String_o *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_Name(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Name_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.JsonTypeReference$$get_TypeArguments
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_TypeArguments (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, const MethodInfo* method);
-// 0x4282e50
+// 0x180573e90
 
-System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_TypeArguments
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *__this,
-          MethodInfo *method)
+System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__get_TypeArguments(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._TypeArguments_k__BackingField;
@@ -1019,788 +921,280 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__g
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.JsonTypeReference$$set_TypeArguments
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_TypeArguments (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o* value, const MethodInfo* method);
-// 0x4282e60
+// 0x180c8de30
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_TypeArguments
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *__this,
-               System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-               *value,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__set_TypeArguments(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o* value, MethodInfo* method)
 
 {
   (__this->fields)._TypeArguments_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._TypeArguments_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._TypeArguments_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.JsonTypeReference$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, const MethodInfo* method);
-// 0x4282500
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *__this,
-               MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.<>c$$.cctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___cctor (const MethodInfo* method);
-// 0x4282e70
+// 0x182104720
 
 void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this;
   
-  if (g_data_057adc92 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adc92 = '\x01';
+  if (Il2CppMethodInitialized_184346a4d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
+    Il2CppMethodInitialized_184346a4d = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9,
+             __this);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.<>c$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, const MethodInfo* method);
-// 0x4282ee0
+// 0x18054c890
 
-void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ctor
-               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,MethodInfo *method)
+void
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ctor(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.<>c$$<NormalizeDescription>b__6_0
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_0 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, System_String_o* line, const MethodInfo* method);
-// 0x4282ef0
+// 0x181dd0430
 
-System_String_o *
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_0
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,System_String_o *line,
-          MethodInfo *method)
+System_String_o*
+CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_0(CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, System_String_o* line, MethodInfo* method)
 
 {
-  bool_conflict bVar1;
-  System_String_o *pSVar2;
-  undefined4 extraout_var;
+  System_String_o *pSVar1;
   
-  if (line != (System_String_o *)0x0) {
-    pSVar2 = System_String__Trim(line,(MethodInfo *)0x0);
-    return pSVar2;
+  if (x != (System_String_o *)0x0) {
+    pSVar1 = System_String__Trim(x,(MethodInfo *)0x0);
+    return pSVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  bVar1 = System_String__IsNullOrEmpty(line,(MethodInfo *)0x0);
-  return (System_String_o *)(CONCAT71((int7)(CONCAT44(extraout_var,bVar1) >> 8),(char)bVar1) ^ 1);
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.<>c$$<NormalizeDescription>b__6_1
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_1 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, System_String_o* line, const MethodInfo* method);
-// 0x4282f10
+// 0x181e9a800
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_1
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,System_String_o *line,
-          MethodInfo *method)
+bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___NormalizeDescription_b__6_1
+               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,
+               System_String_o *line,MethodInfo *method)
 
 {
-  uint uVar1;
+  bool bVar1;
   
-  uVar1 = System_String__IsNullOrEmpty(line,(MethodInfo *)0x0);
-  return uVar1 ^ 1;
+  bVar1 = System_String__IsNullOrEmpty(line,(MethodInfo *)0x0);
+  return !bVar1;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator.<>c$$<ConvertMethods>b__10_0
 // il2cpp: bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ConvertMethods_b__10_0 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o* __this, CustomLogic_Editor_Models_CLMethod_o* m, const MethodInfo* method);
-// 0x4282f20
+// 0x1821045a0
 
-bool_conflict
-CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ConvertMethods_b__10_0
-          (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,
-          CustomLogic_Editor_Models_CLMethod_o *m,MethodInfo *method)
+bool CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c___ConvertMethods_b__10_0
+               (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *__this,
+               CustomLogic_Editor_Models_CLMethod_o *m,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Xml_XmlDocument_c *pSVar2;
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder_o __this_00;
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder_o __this_01;
-  uint uVar3;
-  System_Xml_XmlDocument_o *__this_02;
-  Il2CppClass *__this_03;
-  System_String_o *pSVar4;
-  System_Xml_XmlNode_o *pSVar5;
-  System_Threading_Tasks_Task_o *pSVar6;
-  undefined8 uVar7;
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder_c *pSVar8;
-  System_String_o **ppSVar9;
-  System_Xml_XmlDocument_o *str1;
-  Il2CppClass *pIVar10;
-  undefined4 uVar11;
-  undefined4 uVar12;
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder_c *pSStack_b0;
-  Il2CppClass *pIStack_a8;
-  Il2CppType *pIStack_a0;
-  MethodInfo_24B95D0_RGCTXs *pMStack_98;
-  _union_215005 _Stack_90;
-  _union_14 _Stack_88;
-  uint32_t uStack_80;
-  uint16_t uStack_7c;
-  uint16_t uStack_7a;
-  uint16_t uStack_78;
-  uint8_t uStack_76;
-  uint8_t uStack_75;
-  undefined4 uStack_74;
-  uint32_t uStack_70;
-  uint16_t uStack_6c;
-  uint16_t uStack_6a;
-  uint32_t uStack_68;
-  uint16_t uStack_64;
-  uint16_t uStack_62;
-  uint16_t uStack_60;
-  uint8_t uStack_5e;
-  uint8_t uStack_5d;
-  undefined4 uStack_5c;
-  Il2CppClass *pIStack_50;
-  System_Xml_XmlDocument_o *pSStack_48;
-  undefined8 uStack_40;
-  System_Xml_XmlDocument_o *pSStack_38;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *pCStack_30;
+  System_String_o *__this_00;
+  bool bVar1;
   
-  if (g_data_057adc93 == '\0') {
-    ppSVar9 = &"__";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc93 = '\x01';
-    __this = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *)ppSVar9;
+  if (Il2CppMethodInitialized_184346a4e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"__");
+    Il2CppMethodInitialized_184346a4e = '\x01';
   }
-  if (m != (CustomLogic_Editor_Models_CLMethod_o *)0x0) {
-    pSVar4 = (m->fields)._Name_k__BackingField;
-    __this = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___c_o *)0x0;
-    if (pSVar4 != (System_String_o *)0x0) {
-      uVar3 = System_String__StartsWith(pSVar4,"__",(MethodInfo *)0x0);
-      return uVar3 ^ 1;
-    }
+  if ((m != (CustomLogic_Editor_Models_CLMethod_o *)0x0) &&
+     (__this_00 = (m->fields)._Name_k__BackingField, __this_00 != (System_String_o *)0x0)) {
+    bVar1 = System_String__StartsWith(__this_00,"__",(MethodInfo *)0x0);
+    return !bVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc94 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_XmlDocument);
-    g_data_057adc94 = '\x01';
-  }
-  __this_02 = (System_Xml_XmlDocument_o *)il2cpp_runtime_helper_023052d0(TypeInfo_XmlDocument);
-  uVar7 = 0;
-  str1 = __this_02;
-  System_Xml_XmlDocument___ctor(__this_02,(MethodInfo *)0x0);
-  if (__this_02 != (System_Xml_XmlDocument_o *)0x0) {
-    (*(__this_02->klass->vtable)._82_Load.methodPtr)
-              (__this_02,__this,(__this_02->klass->vtable)._82_Load.method);
-    return (bool_conflict)__this_02;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSStack_38 = __this_02;
-  pCStack_30 = __this;
-  if (g_data_057adc95 == '\0') {
-    uStack_40 = 0x42830a2;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_XmlDocumentUtils);
-    uStack_40 = 0x42830ae;
-    il2cpp_runtime_helper_023445d0(&"']");
-    uStack_40 = 0x42830ba;
-    il2cpp_runtime_helper_023445d0(&"//member[@name='");
-    g_data_057adc95 = '\x01';
-    iVar1 = *(int *)(TypeInfo_XmlDocumentUtils + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_XmlDocumentUtils + 0xe4);
-  }
-  if (iVar1 == 0) {
-    uStack_40 = 0x42830dd;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057adc94 == '\0') {
-    uStack_40 = 0x4283024;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_XmlDocument);
-    g_data_057adc94 = '\x01';
-  }
-  uStack_40 = 0x428303a;
-  __this_03 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_XmlDocument);
-  pSVar8 = (System_Runtime_CompilerServices_AsyncTaskMethodBuilder_c *)0x0;
-  uStack_40 = 0x4283047;
-  pIVar10 = __this_03;
-  System_Xml_XmlDocument___ctor((System_Xml_XmlDocument_o *)__this_03,(MethodInfo *)0x0);
-  if (__this_03 != (Il2CppClass *)0x0) {
-    pSVar2 = (__this_03->_1).image;
-    uStack_40 = 0x4283066;
-    (*(pSVar2->vtable)._82_Load.methodPtr)(__this_03,uVar7,(pSVar2->vtable)._82_Load.method);
-    uStack_40 = 0x4283084;
-    pSVar4 = System_String__Concat_3af7150
-                       ("//member[@name='",(System_String_o *)str1,"']",(MethodInfo *)0x0);
-    pSVar5 = System_Xml_XmlNode__SelectSingleNode((System_Xml_XmlNode_o *)__this_03,pSVar4,(MethodInfo *)0x0);
-    return (bool_conflict)pSVar5;
-  }
-  uStack_40 = 0x42830f4;
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_50 = __this_03;
-  pSStack_48 = str1;
-  uStack_40 = uVar7;
-  if (g_data_057adc96 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Start_XmlDocumentUtils_ResolveAndReplaceInheritDocN);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AsyncTaskMethodBuilder);
-    g_data_057adc96 = '\x01';
-  }
-  pIStack_a0 = (Il2CppType *)0x0;
-  pMStack_98 = (MethodInfo_24B95D0_RGCTXs *)0x0;
-  pSStack_b0 = (System_Runtime_CompilerServices_AsyncTaskMethodBuilder_c *)0x0;
-  pIStack_a8 = (Il2CppClass *)0x0;
-  uVar12 = 0;
-  _Stack_90.genericMethod = (void *)0x0;
-  if (*(int *)(TypeInfo_AsyncTaskMethodBuilder + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder__Create
-            ((System_Runtime_CompilerServices_AsyncTaskMethodBuilder_o *)&_Stack_88,(MethodInfo *)0x0);
-  uStack_60 = uStack_78;
-  uStack_5e = uStack_76;
-  uStack_5d = uStack_75;
-  uStack_5c = uStack_74;
-  uStack_70 = _Stack_88._0_4_;
-  uStack_6c = _Stack_88._4_2_;
-  uStack_6a = _Stack_88._6_2_;
-  uStack_68 = uStack_80;
-  uStack_64 = uStack_7c;
-  uStack_62 = uStack_7a;
-  il2cpp_runtime_helper_022b4080((MethodInfo *)&stack0xffffffffffffff38,0);
-  pIStack_a8 = pIVar10;
-  il2cpp_runtime_helper_022b4080(&pIStack_a8,pIVar10);
-  pSStack_b0 = pSVar8;
-  il2cpp_runtime_helper_022b4080(&pSStack_b0,pSVar8);
-  uVar11 = 0xffffffff;
-  __this_00.fields.m_builder.fields.m_coreState.fields.m_stateMachine._4_4_ = uVar12;
-  __this_00.fields.m_builder.fields.m_coreState.fields.m_stateMachine._0_4_ = 0xffffffff;
-  __this_00.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._0_4_ = _Stack_88._0_4_;
-  __this_00.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._4_2_ =
-       (uint16_t)_Stack_88._4_4_;
-  __this_00.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._6_2_ = SUB42(_Stack_88._4_4_,2)
-  ;
-  __this_00.fields.m_builder.fields.m_task._0_4_ = uStack_80;
-  __this_00.fields.m_builder.fields.m_task._4_2_ = (uint16_t)_uStack_7c;
-  __this_00.fields.m_builder.fields.m_task._6_2_ = SUB42(_uStack_7c,2);
-  System_Runtime_CompilerServices_AsyncTaskMethodBuilder__Start_XmlDocumentUtils__ResolveAndReplaceInheritDocNodeAsync_d__4_
-            (__this_00,
-             (CustomLogic_Editor_XmlDocumentUtils__ResolveAndReplaceInheritDocNodeAsync_d__4_o *)
-             &stack0xffffffffffffff38,(MethodInfo_24B95D0 *)&stack0xffffffffffffff30);
-  __this_01.fields.m_builder.fields.m_coreState.fields.m_stateMachine._4_4_ = uVar12;
-  __this_01.fields.m_builder.fields.m_coreState.fields.m_stateMachine._0_4_ = uVar11;
-  __this_01.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._0_4_ = _Stack_88._0_4_;
-  __this_01.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._4_2_ =
-       (uint16_t)_Stack_88._4_4_;
-  __this_01.fields.m_builder.fields.m_coreState.fields.m_defaultContextAction._6_2_ = SUB42(_Stack_88._4_4_,2)
-  ;
-  __this_01.fields.m_builder.fields.m_task._0_4_ = uStack_80;
-  __this_01.fields.m_builder.fields.m_task._4_2_ = (uint16_t)_uStack_7c;
-  __this_01.fields.m_builder.fields.m_task._6_2_ = SUB42(_uStack_7c,2);
-  pSVar6 = System_Runtime_CompilerServices_AsyncTaskMethodBuilder__get_Task
-                     (__this_01,(MethodInfo *)&stack0xffffffffffffff38);
-  return (bool_conflict)pSVar6;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$.ctor
 // il2cpp: void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ctor (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_array* allTypes, const MethodInfo* method);
-// 0x42811d0
+// 0x1820fcd80
 
 void CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ctor
                (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *__this,
                CustomLogic_Editor_Models_CLType_array *allTypes,MethodInfo *method)
 
 {
+  CustomLogic_Editor_Models_CLType_o *pCVar1;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  System_String_o *key;
+  Newtonsoft_Json_JsonSerializerSettings_o *__this_00;
+  Newtonsoft_Json_Serialization_DefaultContractResolver_o *__this_01;
+  Newtonsoft_Json_Serialization_CamelCaseNamingStrategy_o *__this_02;
   System_Collections_Generic_Dictionary_string__CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__o
-  **ppSVar1;
-  int *piVar2;
-  CustomLogic_Editor_Models_CLType_o *pCVar3;
-  System_String_o *pSVar4;
-  void *pvVar5;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  long lVar6;
-  MethodInfo_2522A10 *pMVar7;
-  bool_conflict bVar8;
-  Newtonsoft_Json_JsonSerializerSettings_o *pNVar9;
-  Newtonsoft_Json_Serialization_DefaultContractResolver_o *__this_00;
-  CustomLogic_Editor_Models_CLType_array *pCVar10;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar11;
+  *__this_03;
   CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *value;
-  Il2CppObject *pIVar12;
-  ulong uVar13;
-  System_Collections_Generic_List_string__o *pSVar14;
-  undefined8 *puVar15;
-  CustomLogic_Editor_Models_CLType_array *__this_01;
-  CustomLogic_Editor_Models_CLType_array *pCVar16;
-  CustomLogic_Editor_Models_CLConstructor_array *pCVar17;
-  CustomLogic_Editor_Models_CLProperty_array *pCVar18;
-  Il2CppClass *pIVar19;
-  System_String_array *pSVar20;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  System_Collections_Generic_List_object__o *__this_02;
-  MethodInfo *extraout_RDX;
-  MethodInfo *pMVar21;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  MethodInfo *method_05;
-  long lVar22;
-  uint uVar23;
-  CustomLogic_Editor_Models_CLType_array *pCVar24;
-  System_Collections_Generic_List_string__o *pSVar25;
-  CustomLogic_Editor_Models_CLType_array *pCVar26;
-  MethodInfo_2522A10 *pMVar27;
-  MethodInfo_2522A10 *pMVar28;
-  MethodInfo_2522A10 *pMVar29;
+  Il2CppObject *pIVar3;
+  Il2CppClass *__this_04;
+  uint uVar4;
   
-  if (g_data_057adc82 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CamelCaseNamingStrategy);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DefaultContractResolver);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_CustomLogic_Editor_CustomLogi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonSerializerSettings);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    g_data_057adc82 = '\x01';
+  if (Il2CppMethodInitialized_184346a3d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Newtonsoft_Json_Serialization_CamelCaseNamingStrategy);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Newtonsoft_Json_Serialization_DefaultContractResolver);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e5020
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e50f8
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               TypeInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Newtonsoft_Json_JsonSerializerSettings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    Il2CppMethodInitialized_184346a3d = '\x01';
   }
-  pNVar9 = (Newtonsoft_Json_JsonSerializerSettings_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JsonSerializerSettings);
-  Newtonsoft_Json_JsonSerializerSettings___ctor(pNVar9,(MethodInfo *)0x0);
-  __this_00 = (Newtonsoft_Json_Serialization_DefaultContractResolver_o *)il2cpp_runtime_helper_023052d0(TypeInfo_DefaultContractResolver);
-  Newtonsoft_Json_Serialization_DefaultContractResolver___ctor(__this_00,(MethodInfo *)0x0);
-  pCVar10 = (CustomLogic_Editor_Models_CLType_array *)il2cpp_runtime_helper_023052d0(TypeInfo_CamelCaseNamingStrategy);
-  pCVar24 = (CustomLogic_Editor_Models_CLType_array *)0x0;
-  pCVar26 = pCVar10;
-  Newtonsoft_Json_Serialization_CamelCaseNamingStrategy___ctor_3dc84d0
-            ((Newtonsoft_Json_Serialization_CamelCaseNamingStrategy_o *)pCVar10,(MethodInfo *)0x0);
-  if (__this_00 != (Newtonsoft_Json_Serialization_DefaultContractResolver_o *)0x0) {
-    pCVar26 = (CustomLogic_Editor_Models_CLType_array *)
-              &(__this_00->fields)._IgnoreIsSpecifiedMembers_k__BackingField;
-    *(CustomLogic_Editor_Models_CLType_array **)&(__this_00->fields)._IgnoreIsSpecifiedMembers_k__BackingField
-         = pCVar10;
-    il2cpp_runtime_helper_022b4080();
-    pCVar24 = pCVar10;
-    if (pNVar9 != (Newtonsoft_Json_JsonSerializerSettings_o *)0x0) {
-      (pNVar9->fields)._Converters_k__BackingField =
-           (System_Collections_Generic_IList_JsonConverter__o *)__this_00;
-      il2cpp_runtime_helper_022b4080(&(pNVar9->fields)._Converters_k__BackingField,__this_00);
-      Newtonsoft_Json_JsonSerializerSettings__set_NullValueHandling(pNVar9,1,(MethodInfo *)0x0);
-      Newtonsoft_Json_JsonSerializerSettings__set_ReferenceLoopHandling(pNVar9,1,(MethodInfo *)0x0);
-      (__this->fields)._settings = pNVar9;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._settings,pNVar9);
-      pSVar11 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_ClassDefinition);
-      System_Collections_Generic_Dictionary_object__object____ctor(pSVar11,MethodInfo_Dictionary_2_System_String_CustomLogic_Editor_CustomLogi);
-      ppSVar1 = &(__this->fields)._typeNameMap;
-      (__this->fields)._typeNameMap =
-           (System_Collections_Generic_Dictionary_string__CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__o
-            *)pSVar11;
-      il2cpp_runtime_helper_022b4080(ppSVar1);
-      System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-      pCVar26 = (CustomLogic_Editor_Models_CLType_array *)&__this->fields;
-      (__this->fields).AllTypes = allTypes;
-      pCVar24 = allTypes;
-      il2cpp_runtime_helper_022b4080();
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Newtonsoft_Json_JsonSerializerSettings);
+  Newtonsoft_Json_JsonSerializerSettings___ctor(__this_00,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Newtonsoft_Json_Serialization_DefaultContractResolver);
+  Newtonsoft_Json_Serialization_DefaultContractResolver___ctor(__this_01,(MethodInfo *)0x0);
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Newtonsoft_Json_Serialization_CamelCaseNamingStrategy);
+  Newtonsoft_Json_Serialization_CamelCaseNamingStrategy___ctor
+            ((System_Runtime_CompilerServices_IsReadOnlyAttribute_2_o *)__this_02,(MethodInfo *)0x0);
+  if (__this_01 != (Newtonsoft_Json_Serialization_DefaultContractResolver_o *)0x0) {
+    (__this_01->fields)._NamingStrategy_k__BackingField =
+         (Newtonsoft_Json_Serialization_NamingStrategy_o *)__this_02;
+    Il2CppCodeGenWriteBarrier(&(__this_01->fields)._NamingStrategy_k__BackingField,__this_02);
+    if (__this_00 != (Newtonsoft_Json_JsonSerializerSettings_o *)0x0) {
+      (__this_00->fields)._ContractResolver_k__BackingField =
+           (Newtonsoft_Json_Serialization_IContractResolver_o *)__this_01;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._ContractResolver_k__BackingField,__this_01);
+      Newtonsoft_Json_JsonSerializerSettings__set_NullValueHandling(__this_00,1,(MethodInfo *)0x0);
+      Newtonsoft_Json_JsonSerializerSettings__set_ReferenceLoopHandling(__this_00,1,(MethodInfo *)0x0);
+      (__this->fields)._settings = __this_00;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._settings,__this_00);
+      __this_03 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin
+                            );
+      System_Collections_Generic_Dictionary_object__object____ctor
+                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_03,
+                 (MethodInfo_1454140 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin
+                );
+      (__this->fields)._typeNameMap = __this_03;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._typeNameMap,__this_03);
+      CustomLogic_Editor_BaseCustomLogicDocsGenerator___ctor
+                ((Unity_Burst_BurstCompiler_FakeDelegate_o *)__this,(System_Reflection_MethodInfo_o *)allTypes
+                 ,(MethodInfo *)0x0);
       if (allTypes != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-        uVar13 = allTypes->max_length;
-        pCVar10 = pCVar24;
-        if (0 < (int)uVar13) {
-          uVar23 = 0;
-          pMVar21 = extraout_RDX;
-          do {
-            pCVar24 = pCVar10;
-            if ((uint)uVar13 <= uVar23) goto label_0428152b;
-            pCVar24 = (CustomLogic_Editor_Models_CLType_array *)allTypes->m_Items[(int)uVar23];
-            if (pCVar24 == (CustomLogic_Editor_Models_CLType_array *)0x0) goto label_04281526;
-            pCVar16 = (CustomLogic_Editor_Models_CLType_array *)*ppSVar1;
-            pCVar10 = (CustomLogic_Editor_Models_CLType_array *)pCVar24->max_length;
-            pCVar26 = (CustomLogic_Editor_Models_CLType_array *)__this;
-            value = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertToClassDefinition
-                              (__this,(CustomLogic_Editor_Models_CLType_o *)pCVar24,pMVar21);
-            if (pCVar16 == (CustomLogic_Editor_Models_CLType_array *)0x0) goto label_04281526;
-            System_Collections_Generic_Dictionary_object__object___set_Item
-                      ((System_Collections_Generic_Dictionary_object__object__o *)pCVar16,
-                       (Il2CppObject *)pCVar10,(Il2CppObject *)value,MethodInfo_Void_set_Item);
-            uVar23 = uVar23 + 1;
-            uVar13 = allTypes->max_length;
-            pMVar21 = extraout_RDX_00;
-            pCVar26 = pCVar16;
-          } while ((int)uVar23 < (int)uVar13);
+        for (uVar4 = 0; (int)uVar4 < (int)allTypes->max_length; uVar4 = uVar4 + 1) {
+          if ((uint)allTypes->max_length <= uVar4) goto label_1820fd045;
+          pCVar1 = allTypes->m_Items[(int)uVar4];
+          if (pCVar1 == (CustomLogic_Editor_Models_CLType_o *)0x0) goto label_1820fd04b;
+          pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._typeNameMap;
+          key = (pCVar1->fields)._Name_k__BackingField;
+          value = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertToClassDefinition
+                            (__this,pCVar1,(MethodInfo *)0x0);
+          if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1820fd04b;
+          System_Collections_Generic_Dictionary_object__object___set_Item
+                    (pSVar2,(Il2CppObject *)key,(Il2CppObject *)value,
+                     (MethodInfo_147A7F0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e50f8
+                    );
         }
-        if (0 < (int)uVar13) {
-          lVar22 = 0;
-          pCVar24 = pCVar10;
-          do {
-            if ((uint)uVar13 <= (uint)lVar22) goto label_0428152b;
-            pCVar3 = allTypes->m_Items[lVar22];
-            if ((pCVar3 == (CustomLogic_Editor_Models_CLType_o *)0x0) ||
-               (pCVar26 = (CustomLogic_Editor_Models_CLType_array *)*ppSVar1,
-               pCVar26 == (CustomLogic_Editor_Models_CLType_array *)0x0)) goto label_04281526;
-            pCVar10 = (CustomLogic_Editor_Models_CLType_array *)(pCVar3->fields)._Name_k__BackingField;
-            pIVar12 = System_Collections_Generic_Dictionary_object__object___get_Item
-                                ((System_Collections_Generic_Dictionary_object__object__o *)pCVar26,
-                                 (Il2CppObject *)pCVar10,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-            if ((*(undefined1 *)((long)&(pCVar3->fields)._IsStatic_k__BackingField + 2) != '\0') &&
-               ((pCVar3->fields)._Category_k__BackingField != (System_String_o *)0x0)) {
-              pCVar10 = (CustomLogic_Editor_Models_CLType_array *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-              pCVar24 = MethodInfo_List_1_System_String;
-              pCVar26 = pCVar10;
-              System_Collections_Generic_List_object____ctor
-                        ((System_Collections_Generic_List_object__o *)pCVar10,
-                         (MethodInfo_362B8B0 *)MethodInfo_List_1_System_String);
-              lVar6 = MethodInfo_Void_Add;
-              pSVar4 = (pCVar3->fields)._Category_k__BackingField;
-              if ((pSVar4 == (System_String_o *)0x0) ||
-                 (pCVar10 == (CustomLogic_Editor_Models_CLType_array *)0x0)) goto label_04281526;
-              pCVar24 = (CustomLogic_Editor_Models_CLType_array *)pSVar4[1].klass;
-              piVar2 = (int *)((long)&pCVar10->max_length + 4);
-              *piVar2 = *piVar2 + 1;
-              pSVar4 = ((CustomLogic_Editor_Models_CLType_Fields *)&pCVar10->bounds)->
-                       _ObsoleteMessage_k__BackingField;
-              if (pSVar4 == (System_String_o *)0x0) goto label_04281526;
-              uVar23 = *(uint *)&pCVar10->max_length;
-              if (uVar23 < *(uint *)&pSVar4[1].klass) {
-                *(uint *)&pCVar10->max_length = uVar23 + 1;
-                pCVar26 = (CustomLogic_Editor_Models_CLType_array *)(&pSVar4[1].monitor + (int)uVar23);
-                (&pSVar4[1].monitor)[(int)uVar23] = pCVar24;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                pCVar26 = pCVar10;
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pCVar10,(Il2CppObject *)pCVar24,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-              }
-              if (pIVar12 == (Il2CppObject *)0x0) goto label_04281526;
-              pCVar26 = (CustomLogic_Editor_Models_CLType_array *)(pIVar12 + 3);
-              pIVar12[3].klass = (Il2CppClass *)pCVar10;
-              il2cpp_runtime_helper_022b4080();
-            }
-            uVar23 = (uint)allTypes->max_length;
-            uVar13 = (ulong)uVar23;
-            lVar22 = lVar22 + 1;
-            pCVar24 = pCVar10;
-          } while ((int)lVar22 < (int)uVar23);
-        }
-        return;
-      }
-    }
-  }
-label_04281526:
-  il2cpp_runtime_helper_022b2c90();
-label_0428152b:
-  il2cpp_runtime_helper_022b2ca0();
-  pMVar21 = extraout_RDX_01;
-  pCVar10 = pCVar26;
-  if (g_data_057adc88 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClassDefinition);
-    pCVar10 = (CustomLogic_Editor_Models_CLType_array *)&MethodInfo_Int32_get_Count;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc88 = '\x01';
-    pMVar21 = extraout_RDX_02;
-  }
-  pCVar16 = pCVar24;
-  pSVar14 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ExtractTypeParameters
-                      ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar10,
-                       (CustomLogic_Editor_Models_CLType_o *)pCVar24,pMVar21);
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    pCVar10 = (CustomLogic_Editor_Models_CLType_array *)&"extension";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc85 = '\x01';
-  }
-  if (pCVar24 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-    if (*(char *)((long)&((Il2CppType *)pCVar24->m_Items)->bits + 3) == '\0') {
-      if ((char)((Il2CppType *)pCVar24->m_Items)->bits == '\0') {
-        puVar15 = &"class";
-      }
-      else {
-        puVar15 = &"extension";
-      }
-    }
-    else {
-      puVar15 = &"component";
-    }
-    pSVar4 = (System_String_o *)*puVar15;
-    __this_01 = (CustomLogic_Editor_Models_CLType_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ClassDefinition);
-    pCVar16 = (CustomLogic_Editor_Models_CLType_array *)0x0;
-    pCVar10 = __this_01;
-    System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-    if (__this_01 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-      ((CustomLogic_Editor_Models_CLType_Fields *)&__this_01->bounds)->_ObsoleteMessage_k__BackingField =
-           pSVar4;
-      il2cpp_runtime_helper_022b4080((CustomLogic_Editor_Models_CLType_Fields *)&__this_01->bounds,pSVar4);
-      pCVar10 = (CustomLogic_Editor_Models_CLType_array *)&__this_01->max_length;
-      __this_01->max_length = (il2cpp_array_size_t)pCVar24->max_length;
-      il2cpp_runtime_helper_022b4080();
-      pvVar5 = ((Il2CppType *)pCVar24->m_Items)->data;
-      if (pvVar5 == (void *)0x0) {
-        pCVar16 = (CustomLogic_Editor_Models_CLType_array *)0x0;
-      }
-      else {
-        pCVar16 = *(CustomLogic_Editor_Models_CLType_array **)((long)pvVar5 + 0x10);
-      }
-      if (pCVar26 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-        pCVar16 = (CustomLogic_Editor_Models_CLType_array *)
-                  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                            ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar10,
-                             (System_String_o *)pCVar16,method_00);
-        pCVar10 = (CustomLogic_Editor_Models_CLType_array *)__this_01->m_Items;
-        ((Il2CppType *)__this_01->m_Items)->data = pCVar16;
-        il2cpp_runtime_helper_022b4080();
-        if (pSVar14 != (System_Collections_Generic_List_string__o *)0x0) {
-          pSVar25 = (System_Collections_Generic_List_string__o *)0x0;
-          if (0 < (pSVar14->fields)._size) {
-            pSVar25 = pSVar14;
+        uVar4 = 0;
+        do {
+          if ((int)allTypes->max_length <= (int)uVar4) {
+            return;
           }
-          *(System_Collections_Generic_List_string__o **)&((Il2CppType *)__this_01->m_Items)->bits = pSVar25;
-          il2cpp_runtime_helper_022b4080(&((Il2CppType *)__this_01->m_Items)->bits);
-          *(System_String_array **)&((Il2CppType *)__this_01->m_Items)[1].bits =
-               (System_String_array *)pCVar24->bounds;
-          il2cpp_runtime_helper_022b4080(&((Il2CppType *)__this_01->m_Items)[1].bits);
-          pCVar17 = (CustomLogic_Editor_Models_CLConstructor_array *)
-                    CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
-                              ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar26,
-                               ((Il2CppType *)pCVar24->m_Items)[3].data,method_01);
-          ((Il2CppType *)__this_01->m_Items)[3].data = pCVar17;
-          il2cpp_runtime_helper_022b4080((Il2CppType *)__this_01->m_Items + 3,pCVar17);
-          pCVar18 = (CustomLogic_Editor_Models_CLProperty_array *)
-                    CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
-                              ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar26,
-                               ((Il2CppType *)pCVar24->m_Items)[4].data,method_02);
-          *(CustomLogic_Editor_Models_CLProperty_array **)((long)((Il2CppType *)__this_01->m_Items + 3) + 8) =
-               pCVar18;
-          il2cpp_runtime_helper_022b4080((CustomLogic_Editor_Models_CLProperty_array **)
-                             ((long)((Il2CppType *)__this_01->m_Items + 3) + 8),pCVar18);
-          pIVar19 = (Il2CppClass *)
-                    CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
-                              ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar26,
-                               *(CustomLogic_Editor_Models_CLProperty_array **)
-                                ((long)((Il2CppType *)pCVar24->m_Items + 3) + 8),method_03);
-          ((Il2CppType *)__this_01->m_Items)[2].data = pIVar19;
-          il2cpp_runtime_helper_022b4080((Il2CppType *)__this_01->m_Items + 2,pIVar19);
-          pIVar19 = (Il2CppClass *)
-                    CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
-                              ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar26,
-                               *(void **)((long)((Il2CppType *)pCVar24->m_Items + 4) + 8),method_04);
-          *(Il2CppClass **)((long)((Il2CppType *)__this_01->m_Items + 2) + 8) = pIVar19;
-          il2cpp_runtime_helper_022b4080((Il2CppClass **)((long)((Il2CppType *)__this_01->m_Items + 2) + 8),pIVar19);
-          pCVar18 = (CustomLogic_Editor_Models_CLProperty_array *)
-                    CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertConstructors
-                              ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar26,
-                               *(CustomLogic_Editor_Models_CLConstructor_array **)
-                                ((long)((Il2CppType *)pCVar24->m_Items + 2) + 8),method_05);
-          ((Il2CppType *)__this_01->m_Items)[4].data = pCVar18;
-          il2cpp_runtime_helper_022b4080((Il2CppType *)__this_01->m_Items + 4,pCVar18);
-          return;
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar26 = pCVar16;
-  if (g_data_057adc83 == '\0') {
-    il2cpp_runtime_helper_023445d0(&".json");
-    pCVar10 = (CustomLogic_Editor_Models_CLType_array *)&"vscode-json/";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc83 = '\x01';
-  }
-  if (pCVar16 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-    System_String__Concat_3af7150
-              ("vscode-json/",(System_String_o *)pCVar16->max_length,".json",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar24 = pCVar26;
-  if (g_data_057adc84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonConvert);
-    g_data_057adc84 = '\x01';
-  }
-  if ((pCVar26 != (CustomLogic_Editor_Models_CLType_array *)0x0) &&
-     (pSVar11 = ((Il2CppType *)pCVar10->m_Items)->data,
-     pSVar11 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    pIVar12 = System_Collections_Generic_Dictionary_object__object___get_Item
-                        (pSVar11,(Il2CppObject *)pCVar26->max_length,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    pNVar9 = (Newtonsoft_Json_JsonSerializerSettings_o *)pCVar10->max_length;
-    if (*(int *)(TypeInfo_JsonConvert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    Newtonsoft_Json_JsonConvert__SerializeObject_3d57b10(pIVar12,1,pNVar9,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar26 = pCVar24;
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    il2cpp_runtime_helper_023445d0(&"extension");
-    g_data_057adc85 = '\x01';
-  }
-  if (pCVar24 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-    if (*(char *)((long)&((Il2CppType *)pCVar24->m_Items)->bits + 3) != '\0') {
-      return;
-    }
-    if (*(char *)&((Il2CppType *)pCVar24->m_Items)->bits == '\0') {
-      return;
-    }
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
-  }
-  bVar8 = System_String__IsNullOrEmpty((System_String_o *)pCVar26,(MethodInfo *)0x0);
-  if ((char)bVar8 != '\0') {
-    return;
-  }
-  pMVar27 = (MethodInfo_2522A10 *)0x3;
-  pIVar12 = TypeInfo_string;
-  pSVar20 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar28 = "\r\n";
-  if (pSVar20 != (System_String_array *)0x0) {
-    pMVar7 = pMVar27;
-    if ((int)pSVar20->max_length != 0) {
-      pIVar12 = (Il2CppObject *)pSVar20->m_Items;
-      pSVar20->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar29 = "\r";
-      pMVar7 = pMVar28;
-      if (1 < (uint)pSVar20->max_length) {
-        pIVar12 = (Il2CppObject *)(pSVar20->m_Items + 1);
-        pSVar20->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar27 = "\n";
-        pMVar7 = pMVar29;
-        if (2 < (uint)pSVar20->max_length) {
-          pIVar12 = (Il2CppObject *)(pSVar20->m_Items + 2);
-          pSVar20->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
-          if (pCVar26 != (CustomLogic_Editor_Models_CLType_array *)0x0) {
-            pSVar20 = System_String__Split_3afab90((System_String_o *)pCVar26,pSVar20,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar22 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar22 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar22 + 8,selector);
-            }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar20,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar22 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar22 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar22 + 0x10,predicate);
-            }
-            pIVar12 = (Il2CppObject *)
-                      System_Linq_Enumerable__Where_object_
-                                ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                 MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar27 = MethodInfo_String_ToArray_String;
-            pSVar20 = (System_String_array *)
-                      System_Linq_Enumerable__ToArray_object_
-                                ((System_Collections_Generic_IEnumerable_TSource__o *)pIVar12,MethodInfo_String_ToArray_String);
-            if (pSVar20 != (System_String_array *)0x0) {
-              if (pSVar20->max_length == 0) {
-                return;
-              }
-              System_String__Join(" ",pSVar20,(MethodInfo *)0x0);
-              return;
-            }
+          if ((uint)allTypes->max_length <= uVar4) {
+label_1820fd045:
+            ThrowIndexOutOfRangeException();
           }
-          goto label_04281bd8;
-        }
+          pCVar1 = allTypes->m_Items[(int)uVar4];
+          if ((pCVar1 == (CustomLogic_Editor_Models_CLType_o *)0x0) ||
+             (pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                       (__this->fields)._typeNameMap,
+             pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
+          pIVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                             (pSVar2,(Il2CppObject *)(pCVar1->fields)._Name_k__BackingField,
+                              (MethodInfo_147A5B0 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e5020
+                             );
+          if (((pCVar1->fields)._InheritBaseMembers_k__BackingField != false) &&
+             ((pCVar1->fields)._BaseType_k__BackingField != (CustomLogic_Editor_Models_CLType_o *)0x0)) {
+            __this_04 = (Il2CppClass *)
+                        il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_LowLevelList_T__o *)__this_04,
+                       (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+            pCVar1 = (pCVar1->fields)._BaseType_k__BackingField;
+            if ((pCVar1 == (CustomLogic_Editor_Models_CLType_o *)0x0) || (__this_04 == (Il2CppClass *)0x0))
+            break;
+            il2cpp_runtime_helper_180012890(__this_04,(pCVar1->fields)._Name_k__BackingField,
+                          MethodInfo_System_Collections_Generic_List_string_Add);
+            if (pIVar3 == (Il2CppObject *)0x0) break;
+            pIVar3[3].klass = __this_04;
+            Il2CppCodeGenWriteBarrier(&pIVar3[3].klass,__this_04);
+          }
+          uVar4 = uVar4 + 1;
+        } while( true );
       }
     }
-    pMVar27 = pMVar7;
-    il2cpp_runtime_helper_022b2ca0();
   }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pIVar12 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar27 != (MethodInfo_2522A10 *)0x0) {
-    source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar27->parameters;
-    if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-       (source[1].monitor != (void *)0x0)) {
-      System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-      return;
-    }
-    __this_02 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor(__this_02,(MethodInfo_362B8B0 *)MethodInfo_List_1_System_String);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(pIVar12,(MethodInfo *)0x0);
-  return;
+label_1820fd04b:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$GetRelativeFilePath
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__GetRelativeFilePath (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_o* type, const MethodInfo* method);
-// 0x4281730
+// 0x1820fc490
 
 System_String_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__GetRelativeFilePath
@@ -1808,210 +1202,26 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__GetRelativeFilePath
           CustomLogic_Editor_Models_CLType_o *type,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Newtonsoft_Json_JsonSerializerSettings_o *settings;
-  long lVar1;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  MethodInfo_2522A10 *pMVar2;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  Il2CppObject *pIVar5;
-  System_String_array *pSVar6;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  System_Collections_Generic_List_TSource__o *pSVar7;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_String_o *extraout_RAX;
-  CustomLogic_Editor_Models_CLType_o *pCVar8;
-  CustomLogic_Editor_Models_CLType_o *pCVar9;
-  MethodInfo_2522A10 *pMVar10;
-  MethodInfo_2522A10 *pMVar11;
-  MethodInfo_2522A10 *pMVar12;
+  System_String_o *pSVar1;
   
-  pCVar8 = type;
-  if (g_data_057adc83 == '\0') {
-    il2cpp_runtime_helper_023445d0(&".json");
-    __this = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)&"vscode-json/";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc83 = '\x01';
+  if (Il2CppMethodInitialized_184346a3e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&".json");
+    il2cpp_codegen_initialize_runtime_metadata(&"vscode-json/");
+    Il2CppMethodInitialized_184346a3e = '\x01';
   }
   if (type != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    pSVar4 = System_String__Concat_3af7150
-                       ("vscode-json/",(type->fields)._Name_k__BackingField,".json",(MethodInfo *)0x0);
-    return pSVar4;
+    pSVar1 = System_String__Concat_1969b70
+                       ("vscode-json/",(type->fields)._Name_k__BackingField,".json",
+                        (MethodInfo *)0x0);
+    return pSVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar9 = pCVar8;
-  if (g_data_057adc84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonConvert);
-    g_data_057adc84 = '\x01';
-  }
-  if ((pCVar8 != (CustomLogic_Editor_Models_CLType_o *)0x0) &&
-     (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._typeNameMap,
-     __this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    pIVar5 = System_Collections_Generic_Dictionary_object__object___get_Item
-                       (__this_00,(Il2CppObject *)(pCVar8->fields)._Name_k__BackingField,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    settings = (__this->fields)._settings;
-    if (*(int *)(TypeInfo_JsonConvert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar4 = Newtonsoft_Json_JsonConvert__SerializeObject_3d57b10(pIVar5,1,settings,(MethodInfo *)0x0);
-    return pSVar4;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar8 = pCVar9;
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    il2cpp_runtime_helper_023445d0(&"extension");
-    g_data_057adc85 = '\x01';
-  }
-  if (pCVar9 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    if (*(char *)((long)&(pCVar9->fields)._IsStatic_k__BackingField + 3) != '\0') {
-      return "component";
-    }
-    if ((char)(pCVar9->fields)._IsStatic_k__BackingField != '\0') {
-      return "extension";
-    }
-    return "class";
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
-  }
-  bVar3 = System_String__IsNullOrEmpty((System_String_o *)pCVar8,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-label_04281baf:
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  pMVar10 = (MethodInfo_2522A10 *)0x3;
-  pIVar5 = TypeInfo_string;
-  pSVar6 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar11 = "\r\n";
-  if (pSVar6 != (System_String_array *)0x0) {
-    pMVar2 = pMVar10;
-    if ((int)pSVar6->max_length != 0) {
-      pIVar5 = (Il2CppObject *)pSVar6->m_Items;
-      pSVar6->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar12 = "\r";
-      pMVar2 = pMVar11;
-      if (1 < (uint)pSVar6->max_length) {
-        pIVar5 = (Il2CppObject *)(pSVar6->m_Items + 1);
-        pSVar6->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar10 = "\n";
-        pMVar2 = pMVar12;
-        if (2 < (uint)pSVar6->max_length) {
-          pIVar5 = (Il2CppObject *)(pSVar6->m_Items + 2);
-          pSVar6->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
-          if (pCVar8 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-            pSVar6 = System_String__Split_3afab90((System_String_o *)pCVar8,pSVar6,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar1 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar1 + 8,selector);
-            }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar6,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar1 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar1 + 0x10,predicate);
-            }
-            pIVar5 = (Il2CppObject *)
-                     System_Linq_Enumerable__Where_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar10 = MethodInfo_String_ToArray_String;
-            pSVar6 = (System_String_array *)
-                     System_Linq_Enumerable__ToArray_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)pIVar5,MethodInfo_String_ToArray_String);
-            if (pSVar6 != (System_String_array *)0x0) {
-              if (pSVar6->max_length != 0) {
-                pSVar4 = System_String__Join(" ",pSVar6,(MethodInfo *)0x0);
-                return pSVar4;
-              }
-              goto label_04281baf;
-            }
-          }
-          goto label_04281bd8;
-        }
-      }
-    }
-    pMVar10 = pMVar2;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pIVar5 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar10 == (MethodInfo_2522A10 *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor(pIVar5,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar10->parameters;
-  if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-     (source[1].monitor != (void *)0x0)) {
-    pSVar7 = System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-    return (System_String_o *)pSVar7;
-  }
-  __this_01 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(__this_01,MethodInfo_List_1_System_String);
-  return (System_String_o *)__this_01;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$Generate
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__Generate (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_o* type, const MethodInfo* method);
-// 0x4281790
+// 0x1820fc3f0
 
 System_String_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__Generate
@@ -2021,195 +1231,39 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__Generate
 {
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
   Newtonsoft_Json_JsonSerializerSettings_o *settings;
-  long lVar1;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  MethodInfo_2522A10 *pMVar2;
-  bool_conflict bVar3;
-  Il2CppObject *pIVar4;
-  System_String_o *pSVar5;
-  System_String_array *pSVar6;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  System_Collections_Generic_List_TSource__o *pSVar7;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_String_o *extraout_RAX;
-  CustomLogic_Editor_Models_CLType_o *pCVar8;
-  CustomLogic_Editor_Models_CLType_o *value;
-  MethodInfo_2522A10 *pMVar9;
-  MethodInfo_2522A10 *pMVar10;
-  MethodInfo_2522A10 *pMVar11;
+  Il2CppObject *value;
+  System_String_o *pSVar1;
   
-  pCVar8 = type;
-  if (g_data_057adc84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonConvert);
-    g_data_057adc84 = '\x01';
+  if (Il2CppMethodInitialized_184346a3f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e5020
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Newtonsoft_Json_JsonConvert);
+    Il2CppMethodInitialized_184346a3f = '\x01';
   }
   if ((type != (CustomLogic_Editor_Models_CLType_o *)0x0) &&
      (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._typeNameMap,
      __this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    pIVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
-                       (__this_00,(Il2CppObject *)(type->fields)._Name_k__BackingField,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
+    value = System_Collections_Generic_Dictionary_object__object___get_Item
+                      (__this_00,(Il2CppObject *)(type->fields)._Name_k__BackingField,
+                       (MethodInfo_147A5B0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefin_40e5020
+                      );
     settings = (__this->fields)._settings;
-    if (*(int *)(TypeInfo_JsonConvert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Newtonsoft_Json_JsonConvert->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Newtonsoft_Json_JsonConvert);
     }
-    pSVar5 = Newtonsoft_Json_JsonConvert__SerializeObject_3d57b10(pIVar4,1,settings,(MethodInfo *)0x0);
-    return pSVar5;
+    pSVar1 = Newtonsoft_Json_JsonConvert__SerializeObject_1bc9bf0(value,1,settings,(MethodInfo *)0x0);
+    return pSVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  value = pCVar8;
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    il2cpp_runtime_helper_023445d0(&"extension");
-    g_data_057adc85 = '\x01';
-  }
-  if (pCVar8 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    if (*(char *)((long)&(pCVar8->fields)._IsStatic_k__BackingField + 3) != '\0') {
-      return "component";
-    }
-    if ((char)(pCVar8->fields)._IsStatic_k__BackingField != '\0') {
-      return "extension";
-    }
-    return "class";
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
-  }
-  bVar3 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-label_04281baf:
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  pMVar9 = (MethodInfo_2522A10 *)0x3;
-  pIVar4 = TypeInfo_string;
-  pSVar6 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar10 = "\r\n";
-  if (pSVar6 != (System_String_array *)0x0) {
-    pMVar2 = pMVar9;
-    if ((int)pSVar6->max_length != 0) {
-      pIVar4 = (Il2CppObject *)pSVar6->m_Items;
-      pSVar6->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar11 = "\r";
-      pMVar2 = pMVar10;
-      if (1 < (uint)pSVar6->max_length) {
-        pIVar4 = (Il2CppObject *)(pSVar6->m_Items + 1);
-        pSVar6->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar9 = "\n";
-        pMVar2 = pMVar11;
-        if (2 < (uint)pSVar6->max_length) {
-          pIVar4 = (Il2CppObject *)(pSVar6->m_Items + 2);
-          pSVar6->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
-          if (value != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-            pSVar6 = System_String__Split_3afab90((System_String_o *)value,pSVar6,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar1 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar1 + 8,selector);
-            }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar6,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar1 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar1 + 0x10,predicate);
-            }
-            pIVar4 = (Il2CppObject *)
-                     System_Linq_Enumerable__Where_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar9 = MethodInfo_String_ToArray_String;
-            pSVar6 = (System_String_array *)
-                     System_Linq_Enumerable__ToArray_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)pIVar4,MethodInfo_String_ToArray_String);
-            if (pSVar6 != (System_String_array *)0x0) {
-              if (pSVar6->max_length != 0) {
-                pSVar5 = System_String__Join(" ",pSVar6,(MethodInfo *)0x0);
-                return pSVar5;
-              }
-              goto label_04281baf;
-            }
-          }
-          goto label_04281bd8;
-        }
-      }
-    }
-    pMVar9 = pMVar2;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pIVar4 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar9 == (MethodInfo_2522A10 *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor(pIVar4,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar9->parameters;
-  if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-     (source[1].monitor != (void *)0x0)) {
-    pSVar7 = System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-    return (System_String_o *)pSVar7;
-  }
-  __this_01 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(__this_01,MethodInfo_List_1_System_String);
-  return (System_String_o *)__this_01;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$DetermineKind
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__DetermineKind (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_o* clType, const MethodInfo* method);
-// 0x4281820
+// 0x1820fc2d0
 
 System_String_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__DetermineKind
@@ -2217,175 +1271,31 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__DetermineKind
           CustomLogic_Editor_Models_CLType_o *clType,MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  MethodInfo_2522A10 *pMVar2;
-  bool_conflict bVar3;
-  System_String_array *pSVar4;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  Il2CppObject *__this_00;
-  System_String_o *pSVar5;
-  System_Collections_Generic_List_TSource__o *pSVar6;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_String_o *extraout_RAX;
-  CustomLogic_Editor_Models_CLType_o *value;
-  MethodInfo_2522A10 *pMVar7;
-  MethodInfo_2522A10 *pMVar8;
-  MethodInfo_2522A10 *pMVar9;
+  System_String_o *pSVar1;
   
-  value = clType;
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    il2cpp_runtime_helper_023445d0(&"extension");
-    g_data_057adc85 = '\x01';
+  if (Il2CppMethodInitialized_184346a40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"class");
+    il2cpp_codegen_initialize_runtime_metadata(&"component");
+    il2cpp_codegen_initialize_runtime_metadata(&"extension");
+    Il2CppMethodInitialized_184346a40 = '\x01';
   }
   if (clType != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    if (*(char *)((long)&(clType->fields)._IsStatic_k__BackingField + 3) != '\0') {
-      return "component";
-    }
-    if ((char)(clType->fields)._IsStatic_k__BackingField != '\0') {
-      return "extension";
-    }
-    return "class";
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
-  }
-  bVar3 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-label_04281baf:
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  pMVar7 = (MethodInfo_2522A10 *)0x3;
-  __this_00 = TypeInfo_string;
-  pSVar4 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar8 = "\r\n";
-  if (pSVar4 != (System_String_array *)0x0) {
-    pMVar2 = pMVar7;
-    if ((int)pSVar4->max_length != 0) {
-      __this_00 = (Il2CppObject *)pSVar4->m_Items;
-      pSVar4->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar9 = "\r";
-      pMVar2 = pMVar8;
-      if (1 < (uint)pSVar4->max_length) {
-        __this_00 = (Il2CppObject *)(pSVar4->m_Items + 1);
-        pSVar4->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar7 = "\n";
-        pMVar2 = pMVar9;
-        if (2 < (uint)pSVar4->max_length) {
-          __this_00 = (Il2CppObject *)(pSVar4->m_Items + 2);
-          pSVar4->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
-          if (value != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-            pSVar4 = System_String__Split_3afab90((System_String_o *)value,pSVar4,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar1 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar1 + 8,selector);
-            }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar4,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar1 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar1 + 0x10,predicate);
-            }
-            __this_00 = (Il2CppObject *)
-                        System_Linq_Enumerable__Where_object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                   MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar7 = MethodInfo_String_ToArray_String;
-            pSVar4 = (System_String_array *)
-                     System_Linq_Enumerable__ToArray_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)__this_00,MethodInfo_String_ToArray_String);
-            if (pSVar4 != (System_String_array *)0x0) {
-              if (pSVar4->max_length != 0) {
-                pSVar5 = System_String__Join(" ",pSVar4,(MethodInfo *)0x0);
-                return pSVar5;
-              }
-              goto label_04281baf;
-            }
-          }
-          goto label_04281bd8;
-        }
+    if ((clType->fields)._IsComponent_k__BackingField == false) {
+      pSVar1 = "extension";
+      if ((clType->fields)._IsStatic_k__BackingField == false) {
+        pSVar1 = "class";
       }
+      return pSVar1;
     }
-    pMVar7 = pMVar2;
-    il2cpp_runtime_helper_022b2ca0();
+    return "component";
   }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    __this_00 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar7 == (MethodInfo_2522A10 *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor(__this_00,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar7->parameters;
-  if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-     (source[1].monitor != (void *)0x0)) {
-    pSVar6 = System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-    return (System_String_o *)pSVar6;
-  }
-  __this_01 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(__this_01,MethodInfo_List_1_System_String);
-  return (System_String_o *)__this_01;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$NormalizeDescription
 // il2cpp: System_String_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, System_String_o* description, const MethodInfo* method);
-// 0x42818a0
+// 0x1820fc4f0
 
 System_String_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
@@ -2393,157 +1303,152 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescriptio
           MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  MethodInfo_2522A10 *pMVar2;
-  bool_conflict bVar3;
-  System_String_array *pSVar4;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  Il2CppObject *__this_00;
-  System_String_o *pSVar5;
-  System_Collections_Generic_List_TSource__o *pSVar6;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_String_o *extraout_RAX;
-  MethodInfo_2522A10 *pMVar7;
-  MethodInfo_2522A10 *pMVar8;
-  MethodInfo_2522A10 *pMVar9;
+  Il2CppObject *pIVar1;
+  bool bVar2;
+  System_String_array *pSVar3;
+  System_Func_string__string__o *__this_00;
+  System_Collections_Generic_IEnumerable_TResult__o *source;
+  System_Func_string__bool__o *__this_01;
+  System_Collections_Generic_IEnumerable_TSource__o *source_00;
+  System_String_o *pSVar4;
   
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
+  if (Il2CppMethodInitialized_184346a41 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Select_string_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToArray_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Where_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_string_bool);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_NormalizeDescription_b__6_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_NormalizeDescription_b__6_1
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
+    il2cpp_codegen_initialize_runtime_metadata(&"\n");
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&"\r\n");
+    il2cpp_codegen_initialize_runtime_metadata(&"\r");
+    Il2CppMethodInitialized_184346a41 = '\x01';
   }
-  bVar3 = System_String__IsNullOrEmpty(description,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-label_04281baf:
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  bVar2 = System_String__IsNullOrEmpty(description,(MethodInfo *)0x0);
+  if (bVar2) {
+    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
-  pMVar7 = (MethodInfo_2522A10 *)0x3;
-  __this_00 = TypeInfo_string;
-  pSVar4 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar8 = "\r\n";
-  if (pSVar4 != (System_String_array *)0x0) {
-    pMVar2 = pMVar7;
-    if ((int)pSVar4->max_length != 0) {
-      __this_00 = (Il2CppObject *)pSVar4->m_Items;
-      pSVar4->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar9 = "\r";
-      pMVar2 = pMVar8;
-      if (1 < (uint)pSVar4->max_length) {
-        __this_00 = (Il2CppObject *)(pSVar4->m_Items + 1);
-        pSVar4->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar7 = "\n";
-        pMVar2 = pMVar9;
-        if (2 < (uint)pSVar4->max_length) {
-          __this_00 = (Il2CppObject *)(pSVar4->m_Items + 2);
-          pSVar4->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
+  pSVar3 = (System_String_array *)SZArrayNew(TypeInfo_string_array,3);
+  pSVar4 = "\r\n";
+  if (pSVar3 != (System_String_array *)0x0) {
+    if ((int)pSVar3->max_length != 0) {
+      pSVar3->m_Items[0] = "\r\n";
+      Il2CppCodeGenWriteBarrier(pSVar3->m_Items,pSVar4);
+      pSVar4 = "\r";
+      if (1 < (uint)pSVar3->max_length) {
+        pSVar3->m_Items[1] = "\r";
+        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 1,pSVar4);
+        pSVar4 = "\n";
+        if (2 < (uint)pSVar3->max_length) {
+          pSVar3->m_Items[2] = "\n";
+          Il2CppCodeGenWriteBarrier(pSVar3->m_Items + 2,pSVar4);
           if (description != (System_String_o *)0x0) {
-            pSVar4 = System_String__Split_3afab90(description,pSVar4,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
+            pSVar3 = System_String__Split_1971fe0(description,pSVar3,0,(MethodInfo *)0x0);
+            if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+                cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c
+                        );
             }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
+            __this_00 = TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields
+                        ->__9__6_0;
+            if (__this_00 == (System_Func_string__string__o *)0x0) {
+              if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+                  cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)
+                           TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
               }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar1 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar1 + 8,selector);
+              pIVar1 = (Il2CppObject *)
+                       TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->
+                       __9;
+              __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string_string);
+              System_Func_object__object____ctor
+                        ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,pIVar1,
+                         (intptr_t)
+                         MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_NormalizeDescription_b__6_0
+                         ,(MethodInfo_16E67D0 *)0x0);
+              TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9__6_0
+                   = __this_00;
+              Il2CppCodeGenWriteBarrier
+                        (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->
+                          static_fields->__9__6_0,__this_00);
             }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar4,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
+            source = System_Linq_Enumerable__Select_Vector3__object_
+                               ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar3,
+                                (System_Func_TSource__TResult__o *)__this_00,
+                                (MethodInfo_6C2170 *)MethodInfo_System_Linq_Enumerable_Select_string_string);
+            if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+                cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c
+                        );
             }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
+            __this_01 = TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields
+                        ->__9__6_1;
+            if (__this_01 == (System_Func_string__bool__o *)0x0) {
+              if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+                  cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)
+                           TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
               }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar1 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar1 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar1 + 0x10,predicate);
+              pIVar1 = (Il2CppObject *)
+                       TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->
+                       __9;
+              __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_string_bool);
+              System_Func_object__bool____ctor
+                        ((System_Predicate_object__o *)__this_01,pIVar1,
+                         (intptr_t)
+                         MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_NormalizeDescription_b__6_1
+                         ,(MethodInfo_B61EB0 *)0x0);
+              TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9__6_1
+                   = __this_01;
+              Il2CppCodeGenWriteBarrier
+                        (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->
+                          static_fields->__9__6_1,__this_01);
             }
-            __this_00 = (Il2CppObject *)
-                        System_Linq_Enumerable__Where_object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                   MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar7 = MethodInfo_String_ToArray_String;
-            pSVar4 = (System_String_array *)
+            source_00 = System_Linq_Enumerable__Where_float_
+                                  ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                                   (System_Func_TSource__bool__o *)__this_01,
+                                   (MethodInfo_6CA550 *)MethodInfo_System_Linq_Enumerable_Where_string);
+            pSVar3 = (System_String_array *)
                      System_Linq_Enumerable__ToArray_object_
-                               ((System_Collections_Generic_IEnumerable_TSource__o *)__this_00,MethodInfo_String_ToArray_String);
-            if (pSVar4 != (System_String_array *)0x0) {
-              if (pSVar4->max_length != 0) {
-                pSVar5 = System_String__Join(" ",pSVar4,(MethodInfo *)0x0);
-                return pSVar5;
+                               (source_00,
+                                (MethodInfo_6C7D90 *)MethodInfo_System_Linq_Enumerable_ToArray_string);
+            if (pSVar3 != (System_String_array *)0x0) {
+              if (pSVar3->max_length != 0) {
+                pSVar4 = System_String__Join(" ",pSVar3,(MethodInfo *)0x0);
+                return pSVar4;
               }
-              goto label_04281baf;
+              return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
             }
           }
-          goto label_04281bd8;
+          goto label_1820fc835;
         }
       }
     }
-    pMVar7 = pMVar2;
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    __this_00 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar7 == (MethodInfo_2522A10 *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor(__this_00,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar7->parameters;
-  if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-     (source[1].monitor != (void *)0x0)) {
-    pSVar6 = System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-    return (System_String_o *)pSVar6;
-  }
-  __this_01 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(__this_01,MethodInfo_List_1_System_String);
-  return (System_String_o *)__this_01;
+label_1820fc835:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ExtractTypeParameters
 // il2cpp: System_Collections_Generic_List_string__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ExtractTypeParameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_o* clType, const MethodInfo* method);
-// 0x4281be0
+// 0x1820fc350
 
 System_Collections_Generic_List_string__o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ExtractTypeParameters
@@ -2551,40 +1456,40 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ExtractTypeParamete
           CustomLogic_Editor_Models_CLType_o *clType,MethodInfo *method)
 
 {
-  System_Collections_Generic_IEnumerable_TSource__o *source;
+  System_String_array *source;
   System_Collections_Generic_List_string__o *pSVar1;
-  System_Collections_Generic_List_string__o *extraout_RAX;
   
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    __this = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
+  if (Il2CppMethodInitialized_184346a42 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToList_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    Il2CppMethodInitialized_184346a42 = '\x01';
   }
   if (clType != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    source = *(System_Collections_Generic_IEnumerable_TSource__o **)
-              &(clType->fields)._InheritBaseMembers_k__BackingField;
-    if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-       (source[1].monitor != (void *)0x0)) {
+    if (((clType->fields)._TypeParameters_k__BackingField != (System_String_array *)0x0) &&
+       (source = (clType->fields)._TypeParameters_k__BackingField, source->max_length != 0)) {
       pSVar1 = (System_Collections_Generic_List_string__o *)
-               System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
+               System_Linq_Enumerable__ToList_object_
+                         ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                          (MethodInfo_6C9C10 *)MethodInfo_System_Linq_Enumerable_ToList_string);
       return pSVar1;
     }
-    pSVar1 = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
+    pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
     System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)pSVar1,MethodInfo_List_1_System_String);
+              ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
     return pSVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  return extraout_RAX;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertToClassDefinition
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertToClassDefinition (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLType_o* clType, const MethodInfo* method);
-// 0x4281530
+// 0x1820fbc20
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820fbd36: jmp 0x1820fbd3f
+// asm:   0x1820fbd38: mov rsi, qword ptr [rip + 0x1fb39a1]  ; "component"
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertToClassDefinition
@@ -2592,329 +1497,180 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertToClassDefin
           CustomLogic_Editor_Models_CLType_o *clType,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  CustomLogic_Editor_Models_XmlInfo_o *pCVar2;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Newtonsoft_Json_JsonSerializerSettings_o *settings;
-  long lVar3;
-  System_Collections_Generic_IEnumerable_TSource__o *source;
-  MethodInfo_2522A10 *pMVar4;
-  bool_conflict bVar5;
-  System_Collections_Generic_List_string__o *pSVar6;
-  undefined8 *puVar7;
+  System_String_array *source;
+  CustomLogic_Editor_Models_XmlInfo_o *pCVar1;
+  CustomLogic_Editor_Models_CLConstructor_array *source_00;
+  System_Collections_Generic_List_string__o *__this_00;
   CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *__this_01;
-  CustomLogic_Editor_Models_CLType_o *pCVar8;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *pSVar9;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *pSVar10;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *pSVar11;
-  Il2CppObject *pIVar12;
-  System_String_array *pSVar13;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Func_TSource__bool__o *predicate;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *extraout_RAX;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  MethodInfo *method_05;
-  System_Collections_Generic_List_string__o *pSVar14;
-  CustomLogic_Editor_Models_CLType_o *pCVar15;
-  MethodInfo_2522A10 *pMVar16;
-  MethodInfo_2522A10 *pMVar17;
-  MethodInfo_2522A10 *pMVar18;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *pCVar19;
+  System_String_o *pSVar2;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *pSVar3;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *pSVar4;
+  System_Func_CLConstructor__CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *__this_02;
+  System_Collections_Generic_IEnumerable_TResult__o *source_01;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *__this_03;
   
-  pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)__this;
-  if (g_data_057adc88 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClassDefinition);
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)&MethodInfo_Int32_get_Count;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc88 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346a43 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Count);
+    Il2CppMethodInitialized_184346a43 = '\x01';
   }
-  pCVar8 = clType;
-  pSVar6 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ExtractTypeParameters
-                     ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar19,clType,method);
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)&"extension";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc85 = '\x01';
+  if (Il2CppMethodInitialized_184346a42 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_ToList_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    Il2CppMethodInitialized_184346a42 = '\x01';
   }
   if (clType != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    if (*(char *)((long)&(clType->fields)._IsStatic_k__BackingField + 3) == '\0') {
-      if ((char)(clType->fields)._IsStatic_k__BackingField == '\0') {
-        puVar7 = &"class";
-      }
-      else {
-        puVar7 = &"extension";
-      }
+    if (((clType->fields)._TypeParameters_k__BackingField == (System_String_array *)0x0) ||
+       (source = (clType->fields)._TypeParameters_k__BackingField, source->max_length == 0)) {
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
     }
     else {
-      puVar7 = &"component";
+      __this_00 = (System_Collections_Generic_List_string__o *)
+                  System_Linq_Enumerable__ToList_object_
+                            ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                             (MethodInfo_6C9C10 *)MethodInfo_System_Linq_Enumerable_ToList_string);
     }
-    pSVar1 = (System_String_o *)*puVar7;
-    __this_01 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-                il2cpp_runtime_helper_023052d0(TypeInfo_ClassDefinition);
-    pCVar8 = (CustomLogic_Editor_Models_CLType_o *)0x0;
-    pCVar19 = __this_01;
-    System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184346a40 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"class");
+      il2cpp_codegen_initialize_runtime_metadata(&"component");
+      il2cpp_codegen_initialize_runtime_metadata(&"extension");
+      Il2CppMethodInitialized_184346a40 = '\x01';
+    }
+    pSVar2 = "component";
+    if (((clType->fields)._IsComponent_k__BackingField == false) &&
+       (pSVar2 = "extension", (clType->fields)._IsStatic_k__BackingField == false)) {
+      pSVar2 = "class";
+    }
+    __this_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition
+                          );
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
     if (__this_01 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)0x0) {
-      (__this_01->fields)._Kind_k__BackingField = pSVar1;
-      il2cpp_runtime_helper_022b4080(&__this_01->fields,pSVar1);
-      pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-                &(__this_01->fields)._Name_k__BackingField;
-      (__this_01->fields)._Name_k__BackingField = (clType->fields)._Name_k__BackingField;
-      il2cpp_runtime_helper_022b4080();
-      pCVar2 = (clType->fields)._Info_k__BackingField;
-      if (pCVar2 == (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
-        pCVar8 = (CustomLogic_Editor_Models_CLType_o *)0x0;
-      }
-      else {
-        pCVar8 = (CustomLogic_Editor_Models_CLType_o *)(pCVar2->fields)._Summary_k__BackingField;
+      (__this_01->fields)._Kind_k__BackingField = pSVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Kind_k__BackingField,pSVar2);
+      pSVar2 = (clType->fields)._Name_k__BackingField;
+      (__this_01->fields)._Name_k__BackingField = pSVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Name_k__BackingField,pSVar2);
+      pCVar1 = (clType->fields)._Info_k__BackingField;
+      pSVar2 = (System_String_o *)0x0;
+      if (pCVar1 != (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
+        pSVar2 = (pCVar1->fields)._Summary_k__BackingField;
       }
       if (__this != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0) {
-        pCVar8 = (CustomLogic_Editor_Models_CLType_o *)
-                 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                           ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)pCVar19,
-                            (System_String_o *)pCVar8,method_00);
-        pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-                  &(__this_01->fields)._Description_k__BackingField;
-        (__this_01->fields)._Description_k__BackingField = (System_String_o *)pCVar8;
-        il2cpp_runtime_helper_022b4080();
-        if (pSVar6 != (System_Collections_Generic_List_string__o *)0x0) {
-          pSVar14 = (System_Collections_Generic_List_string__o *)0x0;
-          if (0 < (pSVar6->fields)._size) {
-            pSVar14 = pSVar6;
+        pSVar2 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
+                           (__this,pSVar2,(MethodInfo *)0x0);
+        (__this_01->fields)._Description_k__BackingField = pSVar2;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Description_k__BackingField,pSVar2);
+        if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+          if ((__this_00->fields)._size < 1) {
+            __this_00 = (System_Collections_Generic_List_string__o *)0x0;
           }
-          (__this_01->fields)._TypeParameters_k__BackingField = pSVar14;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._TypeParameters_k__BackingField);
-          (__this_01->fields)._Deprecated_k__BackingField = (clType->fields)._ObsoleteMessage_k__BackingField;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._Deprecated_k__BackingField);
-          pSVar9 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
-                             (__this,(CustomLogic_Editor_Models_CLProperty_array *)
-                                     (clType->fields)._Constructors_k__BackingField,method_01);
-          (__this_01->fields)._StaticFields_k__BackingField = pSVar9;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._StaticFields_k__BackingField,pSVar9);
-          pSVar10 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
-                              (__this,(CustomLogic_Editor_Models_CLMethod_array *)
-                                      (clType->fields)._InstanceProperties_k__BackingField,method_02);
-          (__this_01->fields)._StaticMethods_k__BackingField = pSVar10;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._StaticMethods_k__BackingField,pSVar10);
-          pSVar9 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
-                             (__this,(clType->fields)._StaticProperties_k__BackingField,method_03);
-          (__this_01->fields)._InstanceFields_k__BackingField = pSVar9;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._InstanceFields_k__BackingField,pSVar9);
-          pSVar10 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
-                              (__this,(clType->fields)._StaticMethods_k__BackingField,method_04);
-          (__this_01->fields)._InstanceMethods_k__BackingField = pSVar10;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._InstanceMethods_k__BackingField,pSVar10);
-          pSVar11 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertConstructors
-                              (__this,(CustomLogic_Editor_Models_CLConstructor_array *)
-                                      (clType->fields)._BaseType_k__BackingField,method_05);
-          (__this_01->fields)._Constructors_k__BackingField = pSVar11;
-          il2cpp_runtime_helper_022b4080(&(__this_01->fields)._Constructors_k__BackingField,pSVar11);
+          (__this_01->fields)._TypeParameters_k__BackingField = __this_00;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._TypeParameters_k__BackingField,__this_00);
+          pSVar2 = (clType->fields)._ObsoleteMessage_k__BackingField;
+          (__this_01->fields)._Deprecated_k__BackingField = pSVar2;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Deprecated_k__BackingField,pSVar2);
+          pSVar3 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
+                             (__this,(clType->fields)._StaticProperties_k__BackingField,(MethodInfo *)0x0);
+          (__this_01->fields)._StaticFields_k__BackingField = pSVar3;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._StaticFields_k__BackingField,pSVar3);
+          pSVar4 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
+                             (__this,(clType->fields)._StaticMethods_k__BackingField,(MethodInfo *)0x0);
+          (__this_01->fields)._StaticMethods_k__BackingField = pSVar4;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._StaticMethods_k__BackingField,pSVar4);
+          pSVar3 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
+                             (__this,(clType->fields)._InstanceProperties_k__BackingField,(MethodInfo *)0x0);
+          (__this_01->fields)._InstanceFields_k__BackingField = pSVar3;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._InstanceFields_k__BackingField,pSVar3);
+          pSVar4 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
+                             (__this,(clType->fields)._InstanceMethods_k__BackingField,(MethodInfo *)0x0);
+          (__this_01->fields)._InstanceMethods_k__BackingField = pSVar4;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._InstanceMethods_k__BackingField,pSVar4);
+          source_00 = (clType->fields)._Constructors_k__BackingField;
+          if (Il2CppMethodInitialized_184346a46 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertConstructors_b__11_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_System_Linq_Enumerable_Select_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       TypeInfo_System_Func_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_ctor
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                      );
+            Il2CppMethodInitialized_184346a46 = '\x01';
+          }
+          if ((source_00 == (CustomLogic_Editor_Models_CLConstructor_array *)0x0) ||
+             (source_00->max_length == 0)) {
+            __this_03 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                                  );
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_LowLevelList_T__o *)__this_03,
+                       (MethodInfo_92A240 *)
+                       MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_ctor
+                      );
+          }
+          else {
+            __this_02 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_System_Func_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                                  );
+            System_Func_object__object____ctor
+                      ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_02,
+                       (Il2CppObject *)__this,
+                       (intptr_t)
+                       MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertConstructors_b__11_0
+                       ,(MethodInfo_16E67D0 *)0x0);
+            source_01 = System_Linq_Enumerable__Select_Vector3__object_
+                                  ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
+                                   (System_Func_TSource__TResult__o *)__this_02,
+                                   (MethodInfo_6C2170 *)
+                                   MethodInfo_System_Linq_Enumerable_Select_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                                  );
+            __this_03 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o
+                         *)System_Linq_Enumerable__ToList_object_
+                                     ((System_Collections_Generic_IEnumerable_TSource__o *)source_01,
+                                      (MethodInfo_6C9C10 *)
+                                      MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                                     );
+          }
+          (__this_01->fields)._Constructors_k__BackingField = __this_03;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Constructors_k__BackingField,__this_03);
           return __this_01;
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar15 = pCVar8;
-  if (g_data_057adc83 == '\0') {
-    il2cpp_runtime_helper_023445d0(&".json");
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)&"vscode-json/";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc83 = '\x01';
-  }
-  if (pCVar8 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-              System_String__Concat_3af7150
-                        ("vscode-json/",(pCVar8->fields)._Name_k__BackingField,".json",(MethodInfo *)0x0);
-    return pCVar19;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar8 = pCVar15;
-  if (g_data_057adc84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonConvert);
-    g_data_057adc84 = '\x01';
-  }
-  if ((pCVar15 != (CustomLogic_Editor_Models_CLType_o *)0x0) &&
-     (__this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                  (pCVar19->fields)._Description_k__BackingField,
-     __this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    pIVar12 = System_Collections_Generic_Dictionary_object__object___get_Item
-                        (__this_00,(Il2CppObject *)(pCVar15->fields)._Name_k__BackingField,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition);
-    settings = (Newtonsoft_Json_JsonSerializerSettings_o *)(pCVar19->fields)._Name_k__BackingField;
-    if (*(int *)(TypeInfo_JsonConvert + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-              Newtonsoft_Json_JsonConvert__SerializeObject_3d57b10(pIVar12,1,settings,(MethodInfo *)0x0);
-    return pCVar19;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar15 = pCVar8;
-  if (g_data_057adc85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"class");
-    il2cpp_runtime_helper_023445d0(&"component");
-    il2cpp_runtime_helper_023445d0(&"extension");
-    g_data_057adc85 = '\x01';
-  }
-  if (pCVar8 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-    if (*(char *)((long)&(pCVar8->fields)._IsStatic_k__BackingField + 3) != '\0') {
-      return "component";
-    }
-    if ((char)(pCVar8->fields)._IsStatic_k__BackingField != '\0') {
-      return "extension";
-    }
-    return "class";
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Select_String_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_System_String_Where_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_string_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_NormalizeDescription_b__6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_NormalizeDescription_b__6_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    il2cpp_runtime_helper_023445d0(&"\r");
-    g_data_057adc86 = '\x01';
-  }
-  bVar5 = System_String__IsNullOrEmpty((System_String_o *)pCVar15,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-label_04281baf:
-    return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-           **(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  pMVar16 = (MethodInfo_2522A10 *)0x3;
-  pIVar12 = TypeInfo_string;
-  pSVar13 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pMVar17 = "\r\n";
-  if (pSVar13 != (System_String_array *)0x0) {
-    pMVar4 = pMVar16;
-    if ((int)pSVar13->max_length != 0) {
-      pIVar12 = (Il2CppObject *)pSVar13->m_Items;
-      pSVar13->m_Items[0] = (System_String_o *)"\r\n";
-      il2cpp_runtime_helper_022b4080();
-      pMVar18 = "\r";
-      pMVar4 = pMVar17;
-      if (1 < (uint)pSVar13->max_length) {
-        pIVar12 = (Il2CppObject *)(pSVar13->m_Items + 1);
-        pSVar13->m_Items[1] = (System_String_o *)"\r";
-        il2cpp_runtime_helper_022b4080();
-        pMVar16 = "\n";
-        pMVar4 = pMVar18;
-        if (2 < (uint)pSVar13->max_length) {
-          pIVar12 = (Il2CppObject *)(pSVar13->m_Items + 2);
-          pSVar13->m_Items[2] = (System_String_o *)"\n";
-          il2cpp_runtime_helper_022b4080();
-          if (pCVar15 != (CustomLogic_Editor_Models_CLType_o *)0x0) {
-            pSVar13 = System_String__Split_3afab90((System_String_o *)pCVar15,pSVar13,0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            else {
-              selector = *(System_Func_TSource__TResult__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-            }
-            if (selector == (System_Func_TSource__TResult__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_string);
-              System_Func_object__object____ctor();
-              lVar3 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__TResult__o **)(lVar3 + 8) = selector;
-              il2cpp_runtime_helper_022b4080(lVar3 + 8,selector);
-            }
-            source_00 = System_Linq_Enumerable__Select_object__object_
-                                  ((System_Collections_Generic_IEnumerable_TSource__o *)pSVar13,selector,
-                                   MethodInfo_IEnumerable_1_System_String_Select_String_String);
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            else {
-              predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-            }
-            if (predicate == (System_Func_TSource__bool__o *)0x0) {
-              if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_string_bool);
-              System_Func_object__bool____ctor();
-              lVar3 = *(long *)(TypeInfo_c + 0xb8);
-              *(System_Func_TSource__bool__o **)(lVar3 + 0x10) = predicate;
-              il2cpp_runtime_helper_022b4080(lVar3 + 0x10,predicate);
-            }
-            pIVar12 = (Il2CppObject *)
-                      System_Linq_Enumerable__Where_object_
-                                ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,predicate,
-                                 MethodInfo_IEnumerable_1_System_String_Where_String);
-            pMVar16 = MethodInfo_String_ToArray_String;
-            pSVar13 = (System_String_array *)
-                      System_Linq_Enumerable__ToArray_object_
-                                ((System_Collections_Generic_IEnumerable_TSource__o *)pIVar12,MethodInfo_String_ToArray_String);
-            if (pSVar13 != (System_String_array *)0x0) {
-              if (pSVar13->max_length != 0) {
-                pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-                          System_String__Join(" ",pSVar13,(MethodInfo *)0x0);
-                return pCVar19;
-              }
-              goto label_04281baf;
-            }
-          }
-          goto label_04281bd8;
-        }
-      }
-    }
-    pMVar16 = pMVar4;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04281bd8:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adc87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_ToList_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pIVar12 = (Il2CppObject *)&TypeInfo_List_string;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc87 = '\x01';
-  }
-  if (pMVar16 == (MethodInfo_2522A10 *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor(pIVar12,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  source = (System_Collections_Generic_IEnumerable_TSource__o *)pMVar16->parameters;
-  if ((source != (System_Collections_Generic_IEnumerable_TSource__o *)0x0) &&
-     (source[1].monitor != (void *)0x0)) {
-    pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-              System_Linq_Enumerable__ToList_object_(source,MethodInfo_List_1_System_String_ToList_String);
-    return pCVar19;
-  }
-  pCVar19 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition_o *)
-            il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pCVar19,MethodInfo_List_1_System_String);
-  return pCVar19;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertFields
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLProperty_array* properties, const MethodInfo* method);
-// 0x4281c80
+// 0x1820fb830
 
 System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
@@ -2922,41 +1678,66 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertFields
           CustomLogic_Editor_Models_CLProperty_array *properties,MethodInfo *method)
 
 {
-  System_Func_TSource__TResult__o *selector;
+  System_Func_CLProperty__CustomLogicVSCExtensionJsonDocsGenerator_Field__o *__this_00;
   System_Collections_Generic_IEnumerable_TResult__o *source;
   System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *pSVar1;
   
-  if (g_data_057adc89 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_Field_ConvertFi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CLProperty_Field);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Field);
-    g_data_057adc89 = '\x01';
+  if (Il2CppMethodInitialized_184346a44 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertFields_b__9_0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_Select_CLProperty_CustomLogicVSCExtensionJsonDocsGenerator_Field
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CLProperty_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field_ctor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+    Il2CppMethodInitialized_184346a44 = '\x01';
   }
   if ((properties != (CustomLogic_Editor_Models_CLProperty_array *)0x0) && (properties->max_length != 0)) {
-    selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CLProperty_Field);
-    System_Func_object__object____ctor();
-    source = System_Linq_Enumerable__Select_object__object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)properties,selector,MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension)
-    ;
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CLProperty_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+    System_Func_object__object____ctor
+              ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertFields_b__9_0,
+               (MethodInfo_16E67D0 *)0x0);
+    source = System_Linq_Enumerable__Select_Vector3__object_
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)properties,
+                        (System_Func_TSource__TResult__o *)__this_00,
+                        (MethodInfo_6C2170 *)
+                        MethodInfo_System_Linq_Enumerable_Select_CLProperty_CustomLogicVSCExtensionJsonDocsGenerator_Field
+                       );
     pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *)
              System_Linq_Enumerable__ToList_object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                        (MethodInfo_6C9C10 *)
+                        MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Field
+                       );
     return pSVar1;
   }
-  pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field__o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_List_Field);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pSVar1,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field)
+  ;
+  System_Collections_Generic_LowLevelList___Il2CppFullySharedGenericType____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Field_ctor);
   return pSVar1;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertMethods
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLMethod_array* methods, const MethodInfo* method);
-// 0x4281d80
+// 0x1820fb930
 
 System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
@@ -2964,65 +1745,109 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertMethods
           CustomLogic_Editor_Models_CLMethod_array *methods,MethodInfo *method)
 
 {
-  long lVar1;
-  System_Func_TSource__bool__o *predicate;
+  Il2CppObject *object;
+  System_Func_CLMethod__bool__o *__this_00;
   System_Collections_Generic_IEnumerable_TSource__o *source;
-  System_Func_TSource__TResult__o *selector;
+  System_Func_CLMethod__CustomLogicVSCExtensionJsonDocsGenerator_Method__o *__this_01;
   System_Collections_Generic_IEnumerable_TResult__o *source_00;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *pSVar2;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *pSVar1;
   
-  if (g_data_057adc8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_Method_ConvertM);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_Models_CLMethod_Where_C);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CLMethod_bool);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CLMethod_Method);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Method);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertMethods_b__10_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adc8a = '\x01';
+  if (Il2CppMethodInitialized_184346a45 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertMethods_b__10_1)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_Select_CLMethod_CustomLogicVSCExtensionJsonDocsGenerator_Method
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Where_CLMethod);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CLMethod_bool);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CLMethod_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method_ctor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_ConvertMethods_b__10_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
+    Il2CppMethodInitialized_184346a45 = '\x01';
   }
   if ((methods != (CustomLogic_Editor_Models_CLMethod_array *)0x0) && (methods->max_length != 0)) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
+    if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+        cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
     }
-    else {
-      predicate = *(System_Func_TSource__bool__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-    }
-    if (predicate == (System_Func_TSource__bool__o *)0x0) {
-      if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    __this_00 = TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->
+                __9__10_0;
+    if (__this_00 == (System_Func_CLMethod__bool__o *)0x0) {
+      if ((TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->_2).
+          cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c);
       }
-      predicate = (System_Func_TSource__bool__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CLMethod_bool);
-      System_Func_object__bool____ctor();
-      lVar1 = *(long *)(TypeInfo_c + 0xb8);
-      *(System_Func_TSource__bool__o **)(lVar1 + 0x18) = predicate;
-      il2cpp_runtime_helper_022b4080(lVar1 + 0x18,predicate);
+      object = (Il2CppObject *)
+               TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9;
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CLMethod_bool);
+      System_Func_object__bool____ctor
+                ((System_Predicate_object__o *)__this_00,object,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c_ConvertMethods_b__10_0
+                 ,(MethodInfo_B61EB0 *)0x0);
+      TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->__9__10_0 =
+           __this_00;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_c->static_fields->
+                  __9__10_0,__this_00);
     }
-    source = System_Linq_Enumerable__Where_object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)methods,predicate,MethodInfo_IEnumerable_1_CustomLogic_Editor_Models_CLMethod_Where_C);
-    selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CLMethod_Method);
-    System_Func_object__object____ctor();
-    source_00 = System_Linq_Enumerable__Select_object__object_(source,selector,MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    pSVar2 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *)
+    source = System_Linq_Enumerable__Where_float_
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)methods,
+                        (System_Func_TSource__bool__o *)__this_00,
+                        (MethodInfo_6CA550 *)MethodInfo_System_Linq_Enumerable_Where_CLMethod);
+    __this_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CLMethod_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+    System_Func_object__object____ctor
+              ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_01,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertMethods_b__10_1,
+               (MethodInfo_16E67D0 *)0x0);
+    source_00 = System_Linq_Enumerable__Select_Vector3__object_
+                          (source,(System_Func_TSource__TResult__o *)__this_01,
+                           (MethodInfo_6C2170 *)
+                           MethodInfo_System_Linq_Enumerable_Select_CLMethod_CustomLogicVSCExtensionJsonDocsGenerator_Method
+                          );
+    pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *)
              System_Linq_Enumerable__ToList_object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    return pSVar2;
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
+                        (MethodInfo_6C9C10 *)
+                        MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Method
+                       );
+    return pSVar1;
   }
-  pSVar2 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method__o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_List_Method);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method
+                     );
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pSVar2,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-  return pSVar2;
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Method_ctor);
+  return pSVar1;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertConstructors
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertConstructors (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLConstructor_array* constructors, const MethodInfo* method);
-// 0x4281f80
+// 0x1820fb730
 
 System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertConstructors
@@ -3030,42 +1855,74 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertConstructors
           CustomLogic_Editor_Models_CLConstructor_array *constructors,MethodInfo *method)
 
 {
-  System_Func_TSource__TResult__o *selector;
+  System_Func_CLConstructor__CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *__this_00;
   System_Collections_Generic_IEnumerable_TResult__o *source;
   System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *pSVar1;
   
-  if (g_data_057adc8b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_Con);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CLConstructor_Constructor);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Constructor);
-    g_data_057adc8b = '\x01';
+  if (Il2CppMethodInitialized_184346a46 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertConstructors_b__11_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_Select_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Constructor)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_ctor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor)
+    ;
+    Il2CppMethodInitialized_184346a46 = '\x01';
   }
   if ((constructors != (CustomLogic_Editor_Models_CLConstructor_array *)0x0) &&
      (constructors->max_length != 0)) {
-    selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CLConstructor_Constructor);
-    System_Func_object__object____ctor();
-    source = System_Linq_Enumerable__Select_object__object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)constructors,selector,
-                        MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                          );
+    System_Func_object__object____ctor
+              ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertConstructors_b__11_0
+               ,(MethodInfo_16E67D0 *)0x0);
+    source = System_Linq_Enumerable__Select_Vector3__object_
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)constructors,
+                        (System_Func_TSource__TResult__o *)__this_00,
+                        (MethodInfo_6C2170 *)
+                        MethodInfo_System_Linq_Enumerable_Select_CLConstructor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                       );
     pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *)
              System_Linq_Enumerable__ToList_object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                        (MethodInfo_6C9C10 *)
+                        MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                       );
     return pSVar1;
   }
-  pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor__o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_List_Constructor);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor
+                     );
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pSVar1,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_ctor
+            );
   return pSVar1;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertParameters
 // il2cpp: System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLParameter_array* parameters, const MethodInfo* method);
-// 0x4282080
+// 0x1820fbb20
 
 System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
@@ -3073,41 +1930,89 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
           CustomLogic_Editor_Models_CLParameter_array *parameters,MethodInfo *method)
 
 {
-  System_Func_TSource__TResult__o *selector;
+  System_Func_CLParameter__CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *__this_00;
   System_Collections_Generic_IEnumerable_TResult__o *source;
   System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *pSVar1;
   
-  if (g_data_057adc8c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_Conve);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CLParameter_Parameter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Parameter);
-    g_data_057adc8c = '\x01';
+  if (Il2CppMethodInitialized_184346a47 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertParameters_b__12_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_Select_CLParameter_CustomLogicVSCExtensionJsonDocsGenerator_Parameter
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Parameter);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CLParameter_CustomLogicVSCExtensionJsonDocsGenerator_Parameter);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_ctor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter);
+    Il2CppMethodInitialized_184346a47 = '\x01';
   }
   if ((parameters != (CustomLogic_Editor_Models_CLParameter_array *)0x0) && (parameters->max_length != 0)) {
-    selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CLParameter_Parameter);
-    System_Func_object__object____ctor();
-    source = System_Linq_Enumerable__Select_object__object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)parameters,selector,MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension)
-    ;
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CLParameter_CustomLogicVSCExtensionJsonDocsGenerator_Parameter
+                          );
+    System_Func_object__object____ctor
+              ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertParameters_b__12_0
+               ,(MethodInfo_16E67D0 *)0x0);
+    source = System_Linq_Enumerable__Select_Vector3__object_
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)parameters,
+                        (System_Func_TSource__TResult__o *)__this_00,
+                        (MethodInfo_6C2170 *)
+                        MethodInfo_System_Linq_Enumerable_Select_CLParameter_CustomLogicVSCExtensionJsonDocsGenerator_Parameter
+                       );
     pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *)
              System_Linq_Enumerable__ToList_object_
-                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+                       ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                        (MethodInfo_6C9C10 *)
+                        MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_Parameter
+                       );
     return pSVar1;
   }
-  pSVar1 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_List_Parameter);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter
+                     );
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pSVar1,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_ctor
+            );
   return pSVar1;
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$ConvertTypeReference
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_TypeReference_o* typeRef, const MethodInfo* method);
-// 0x4282180
+// 0x1820fbf70
+// asm: 17 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820fc23f: mov rax, rsi
+// asm:   0x1820fc27b: mov rdx, qword ptr [rip + 0x1f87fde]  ; "void"
+// asm:   0x1820fc282: lea rcx, [rdi + 0x10]
+// asm:   0x1820fc286: mov qword ptr [rdi + 0x10], rdx
+// asm:   0x1820fc28a: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1820fc28f: mov rcx, qword ptr [rip + 0x1f745c2]  ; TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+// asm:   0x1820fc296: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x1820fc29b: mov rdx, qword ptr [rip + 0x2004b36]  ; MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_ctor
+// asm:   0x1820fc2a2: mov rcx, rax
+// asm:   0x1820fc2a5: mov rbx, rax
+// asm:   0x1820fc2a8: call 0x18092a240  ; System_Collections_Generic_List_KeyValuePair_int__object_____ctor()
+// asm:   0x1820fc2ad: lea rcx, [rdi + 0x18]
+// asm:   0x1820fc2b1: mov qword ptr [rdi + 0x18], rbx
+// asm:   0x1820fc2b5: mov rdx, rbx
+// asm:   0x1820fc2b8: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1820fc2bd: mov rax, rdi
+// asm:   0x1820fc2c0: jmp 0x1820fc242
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
@@ -3115,156 +2020,188 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReferenc
           CustomLogic_Editor_Models_TypeReference_o *typeRef,MethodInfo *method)
 
 {
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_Fields *pCVar1;
   CustomLogic_Editor_Models_TypeReference_array *source;
-  bool_conflict bVar2;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *__this_00;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_Func_TSource__TResult__o *selector;
-  System_Collections_Generic_IEnumerable_TResult__o *source_00;
+  Il2CppClass *value;
+  System_String_o *value_00;
+  bool bVar1;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *pCVar2;
   System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *pSVar3;
+  System_Func_TypeReference__CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *__this_00;
+  System_Collections_Generic_IEnumerable_TResult__o *source_00;
   Il2CppObject *pIVar4;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *extraout_RAX;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o **ppSVar5;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_array *a;
+  System_String_o *pSVar5;
   
-  if (g_data_057adc8d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReferen);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_TypeReference_JsonTypeReference);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JsonTypeReference);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReferen);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_JsonTypeReference);
-    il2cpp_runtime_helper_023445d0(&"BuiltinClassInstance");
-    il2cpp_runtime_helper_023445d0(&"null");
-    il2cpp_runtime_helper_023445d0(&"void");
-    il2cpp_runtime_helper_023445d0(&"Object");
-    il2cpp_runtime_helper_023445d0(&"Void");
-    g_data_057adc8d = '\x01';
+  if (Il2CppMethodInitialized_184346a48 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertTypeReference);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_Select_TypeReference_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeRef
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_TypeReference_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_ctor
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_get_C
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_get_I
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&"BuiltinClassInstance");
+    il2cpp_codegen_initialize_runtime_metadata(&"null");
+    il2cpp_codegen_initialize_runtime_metadata(&"void");
+    il2cpp_codegen_initialize_runtime_metadata(&"Object");
+    il2cpp_codegen_initialize_runtime_metadata(&"Void");
+    Il2CppMethodInitialized_184346a48 = '\x01';
   }
   if (typeRef == (CustomLogic_Editor_Models_TypeReference_o *)0x0) {
-    __this_00 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                 *)il2cpp_runtime_helper_023052d0(TypeInfo_JsonTypeReference);
-    pSVar3 = __this_00;
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    if (__this_00 !=
-        (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *)0x0)
-    {
-      (__this_00->fields)._items = "void";
-      il2cpp_runtime_helper_022b4080(&__this_00->fields);
-      pSVar3 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                *)il2cpp_runtime_helper_023052d0(TypeInfo_List_JsonTypeReference);
+    pCVar2 = il2cpp_codegen_object_new
+                       ((Il2CppClass *)
+                        TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                       );
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pCVar2,(MethodInfo *)0x0);
+    pSVar5 = "void";
+    if (pCVar2 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)0x0) {
+      (pCVar2->fields)._Name_k__BackingField = "void";
+      Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._Name_k__BackingField,pSVar5);
+      pSVar3 = il2cpp_codegen_object_new
+                         ((Il2CppClass *)
+                          TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                         );
       System_Collections_Generic_List_object____ctor
-                ((System_Collections_Generic_List_object__o *)pSVar3,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-      ppSVar5 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                 **)&(__this_00->fields)._size;
-      *(System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o **)
-       &(__this_00->fields)._size = pSVar3;
-label_04282449:
-      il2cpp_runtime_helper_022b4080(ppSVar5,pSVar3);
-      return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
+                ((System_Collections_Generic_LowLevelList_T__o *)pSVar3,
+                 (MethodInfo_92A240 *)
+                 MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_ctor
+                );
+      (pCVar2->fields)._TypeArguments_k__BackingField = pSVar3;
+      Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._TypeArguments_k__BackingField,pSVar3);
+      return pCVar2;
     }
   }
   else {
-    a = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_array *)
-        (typeRef->fields).Name;
-    bVar2 = System_String__op_Equality((System_String_o *)a,"null",(MethodInfo *)0x0);
-    if (((char)bVar2 != '\0') ||
-       (bVar2 = System_String__op_Equality((System_String_o *)a,"Void",(MethodInfo *)0x0),
-       (char)bVar2 != '\0')) {
-      a = "void";
+    pSVar5 = (typeRef->fields).Name;
+    bVar1 = System_String__op_Equality(pSVar5,"null",(MethodInfo *)0x0);
+    if ((bVar1) || (bVar1 = System_String__op_Equality(pSVar5,"Void",(MethodInfo *)0x0), bVar1)
+       ) {
+      pSVar5 = "void";
     }
-    __this_00 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                 *)il2cpp_runtime_helper_023052d0(TypeInfo_JsonTypeReference);
-    pSVar3 = __this_00;
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    if (__this_00 !=
-        (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o *)0x0)
-    {
-      pCVar1 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_Fields *)
-               &__this_00->fields;
-      ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_Fields *)
-      &__this_00->fields)->_Name_k__BackingField = (System_String_o *)a;
-      il2cpp_runtime_helper_022b4080(pCVar1,a);
-      __this_01 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_JsonTypeReference);
-      System_Collections_Generic_List_object____ctor(__this_01,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-      ppSVar5 = &((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_Fields *)
-                 &__this_00->fields)->_TypeArguments_k__BackingField;
-      *(System_Collections_Generic_List_object__o **)&(__this_00->fields)._size = __this_01;
-      il2cpp_runtime_helper_022b4080(ppSVar5,__this_01);
-      bVar2 = System_String__op_Equality((System_String_o *)a,"BuiltinClassInstance",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        pCVar1->_Name_k__BackingField = "Object";
-        il2cpp_runtime_helper_022b4080(pCVar1);
+    pCVar2 = il2cpp_codegen_object_new
+                       ((Il2CppClass *)
+                        TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                       );
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pCVar2,(MethodInfo *)0x0);
+    if (pCVar2 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)0x0) {
+      (pCVar2->fields)._Name_k__BackingField = pSVar5;
+      Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._Name_k__BackingField,pSVar5);
+      pSVar3 = il2cpp_codegen_object_new
+                         ((Il2CppClass *)
+                          TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                         );
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)pSVar3,
+                 (MethodInfo_92A240 *)
+                 MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_ctor
+                );
+      (pCVar2->fields)._TypeArguments_k__BackingField = pSVar3;
+      Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._TypeArguments_k__BackingField,pSVar3);
+      bVar1 = System_String__op_Equality(pSVar5,"BuiltinClassInstance",(MethodInfo *)0x0);
+      value_00 = "Object";
+      if (bVar1) {
+        (pCVar2->fields)._Name_k__BackingField = "Object";
+        Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._Name_k__BackingField,value_00);
       }
-      source = (typeRef->fields).Arguments;
-      if (source == (CustomLogic_Editor_Models_TypeReference_array *)0x0) {
-        return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
-      }
-      if (source->max_length == 0) {
-        return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
-      }
-      selector = (System_Func_TSource__TResult__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_TypeReference_JsonTypeReference);
-      System_Func_object__object____ctor();
-      source_00 = System_Linq_Enumerable__Select_object__object_
-                            ((System_Collections_Generic_IEnumerable_TSource__o *)source,selector,MethodInfo_IEnumerable_1_CustomLogic_Editor_CustomLogicVSCExtension
-                            );
-      pSVar3 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                *)System_Linq_Enumerable__ToList_object_
-                            ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-      *ppSVar5 = pSVar3;
-      il2cpp_runtime_helper_022b4080(ppSVar5,pSVar3);
-      bVar2 = System_String__op_Equality((System_String_o *)a,"Object",(MethodInfo *)0x0);
-      if ((char)bVar2 == '\0') {
-        bVar2 = System_String__op_Equality((System_String_o *)a,"BuiltinClassInstance",(MethodInfo *)0x0);
-        if ((char)bVar2 == '\0') {
-          return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
-        }
-        pSVar3 = *ppSVar5;
-        if (pSVar3 == (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                       *)0x0) goto label_042824ef;
-        if ((pSVar3->fields)._size != 1) {
-          return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
-        }
-      }
-      else {
-        pSVar3 = *ppSVar5;
-        if (pSVar3 == (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                       *)0x0) goto label_042824ef;
-      }
-      pIVar4 = System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)pSVar3,0,MethodInfo_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReferen);
-      if (pIVar4 != (Il2CppObject *)0x0) {
-        if ((pIVar4[1].monitor != (void *)0x0) && (*(int *)((long)pIVar4[1].monitor + 0x18) != 0)) {
-          return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *)__this_00;
-        }
-        (__this_00->fields)._items =
-             (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_array *)
-             pIVar4[1].klass;
-        il2cpp_runtime_helper_022b4080(pCVar1);
+      if (((typeRef->fields).Arguments != (CustomLogic_Editor_Models_TypeReference_array *)0x0) &&
+         (source = (typeRef->fields).Arguments, source->max_length != 0)) {
+        __this_00 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)
+                               TypeInfo_System_Func_TypeReference_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                              );
+        System_Func_object__object____ctor
+                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this_00,(Il2CppObject *)__this
+                   ,(intptr_t)
+                    MethodInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_ConvertTypeReference
+                   ,(MethodInfo_16E67D0 *)0x0);
+        source_00 = System_Linq_Enumerable__Select_Vector3__object_
+                              ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                               (System_Func_TSource__TResult__o *)__this_00,
+                               (MethodInfo_6C2170 *)
+                               MethodInfo_System_Linq_Enumerable_Select_TypeReference_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeRef
+                              );
         pSVar3 = (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
-                  *)il2cpp_runtime_helper_023052d0(TypeInfo_List_JsonTypeReference);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_List_object__o *)pSVar3,MethodInfo_List_1_CustomLogic_Editor_CustomLogicVSCExtensionJsonDoc);
-        *(System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o **)
-         &(__this_00->fields)._size = pSVar3;
-        goto label_04282449;
+                  *)System_Linq_Enumerable__ToList_object_
+                              ((System_Collections_Generic_IEnumerable_TSource__o *)source_00,
+                               (MethodInfo_6C9C10 *)
+                               MethodInfo_System_Linq_Enumerable_ToList_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                              );
+        (pCVar2->fields)._TypeArguments_k__BackingField = pSVar3;
+        Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._TypeArguments_k__BackingField,pSVar3);
+        bVar1 = System_String__op_Equality(pSVar5,"Object",(MethodInfo *)0x0);
+        if (!bVar1) {
+          bVar1 = System_String__op_Equality(pSVar5,"BuiltinClassInstance",(MethodInfo *)0x0);
+          if (!bVar1) {
+            return pCVar2;
+          }
+          pSVar3 = (pCVar2->fields)._TypeArguments_k__BackingField;
+          if (pSVar3 == (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
+                         *)0x0) goto label_1820fc2c2;
+          if ((pSVar3->fields)._size != 1) {
+            return pCVar2;
+          }
+        }
+        pSVar3 = (pCVar2->fields)._TypeArguments_k__BackingField;
+        if ((pSVar3 == (System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference__o
+                        *)0x0) ||
+           (pIVar4 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                               ((System_Collections_Generic_List_object__o *)pSVar3,0,
+                                (MethodInfo_92B830 *)
+                                MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_get_I
+                               ), pIVar4 == (Il2CppObject *)0x0)) goto label_1820fc2c2;
+        if ((pIVar4[1].monitor == (void *)0x0) || (*(int *)((longlong)pIVar4[1].monitor + 0x18) == 0)) {
+          value = pIVar4[1].klass;
+          (pCVar2->fields)._Name_k__BackingField = (System_String_o *)value;
+          Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._Name_k__BackingField,value);
+          pSVar3 = il2cpp_codegen_object_new
+                             ((Il2CppClass *)
+                              TypeInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference
+                             );
+          System_Collections_Generic_List_object____ctor
+                    ((System_Collections_Generic_LowLevelList_T__o *)pSVar3,
+                     (MethodInfo_92A240 *)
+                     MethodInfo_System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_ctor
+                    );
+          (pCVar2->fields)._TypeArguments_k__BackingField = pSVar3;
+          Il2CppCodeGenWriteBarrier(&(pCVar2->fields)._TypeArguments_k__BackingField,pSVar3);
+        }
       }
+      return pCVar2;
     }
   }
-label_042824ef:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pSVar3,(MethodInfo *)0x0);
-  return extraout_RAX;
+label_1820fc2c2:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$<ConvertFields>b__9_0
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertFields_b__9_0 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLProperty_o* p, const MethodInfo* method);
-// 0x4282510
+// 0x1820fc910
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertFields_b__9_0
@@ -3273,93 +2210,83 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertFields_b__9
 
 {
   CustomLogic_Editor_Models_XmlInfo_o *pCVar1;
-  System_String_array *pSVar2;
-  bool_conflict bVar3;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *value;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *pCVar4;
-  System_String_o *pSVar5;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *pCVar6;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *extraout_RAX;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
+  System_String_array *value;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_String_o *pSVar4;
   CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *__this_00;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value_00;
   
-  __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)__this;
-  if (g_data_057adc8e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Field);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&", ");
-    __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)&"Refer to ";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc8e = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346a49 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&", ");
+    il2cpp_codegen_initialize_runtime_metadata(&"Refer to ");
+    Il2CppMethodInitialized_184346a49 = '\x01';
   }
   if (p != (CustomLogic_Editor_Models_CLProperty_o *)0x0) {
     pCVar1 = (p->fields)._Info_k__BackingField;
     if (pCVar1 == (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
-      pSVar5 = (System_String_o *)0x0;
+      pSVar3 = (System_String_o *)0x0;
     }
     else {
-      pSVar5 = (pCVar1->fields)._Summary_k__BackingField;
+      pSVar3 = (pCVar1->fields)._Summary_k__BackingField;
     }
     if (__this != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0) {
-      value = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)
-              CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                        ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)__this_00,pSVar5,
-                         method);
-      pSVar2 = (p->fields)._EnumNames_k__BackingField;
-      if ((pSVar2 != (System_String_array *)0x0) && (pSVar2->max_length != 0)) {
-        __this_00 = value;
-        bVar3 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-        pCVar4 = value;
-        if ((char)bVar3 == '\0') {
-          pCVar4 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)
-                   System_String__Concat_3ae5ba0((System_String_o *)value," ",(MethodInfo *)0x0);
-          __this_00 = value;
+      pSVar3 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
+                         (__this,pSVar3,(MethodInfo *)0x0);
+      if (((p->fields)._EnumNames_k__BackingField != (System_String_array *)0x0) &&
+         (((p->fields)._EnumNames_k__BackingField)->max_length != 0)) {
+        bVar2 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+        if (!bVar2) {
+          pSVar3 = System_String__Concat_1969e50(pSVar3," ",(MethodInfo *)0x0);
         }
-        pSVar2 = (p->fields)._EnumNames_k__BackingField;
-        if (pSVar2 == (System_String_array *)0x0) goto label_042826aa;
-        if ((int)pSVar2->max_length == 1) {
-          pSVar5 = pSVar2->m_Items[0];
+        value = (p->fields)._EnumNames_k__BackingField;
+        if (value == (System_String_array *)0x0) goto label_1820fcaaf;
+        if ((int)value->max_length == 1) {
+          if ((int)value->max_length == 0) {
+            ThrowIndexOutOfRangeException();
+          }
+          pSVar4 = value->m_Items[0];
         }
         else {
-          pSVar5 = System_String__Join(", ",pSVar2,(MethodInfo *)0x0);
+          pSVar4 = System_String__Join(", ",value,(MethodInfo *)0x0);
         }
-        value = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)
-                System_String__Concat_3af7150((System_String_o *)pCVar4,"Refer to ",pSVar5,(MethodInfo *)0x0)
-        ;
+        pSVar3 = System_String__Concat_1969b70(pSVar3,"Refer to ",pSVar4,(MethodInfo *)0x0);
       }
-      pCVar4 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)
-               il2cpp_runtime_helper_023052d0(TypeInfo_Field);
-      __this_00 = pCVar4;
-      System_Object___ctor((Il2CppObject *)pCVar4,(MethodInfo *)0x0);
-      if (pCVar4 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)0x0) {
-        (pCVar4->fields)._Label_k__BackingField = (p->fields)._Name_k__BackingField;
-        il2cpp_runtime_helper_022b4080(&pCVar4->fields);
-        pCVar6 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
-                           (__this,(p->fields)._Type_k__BackingField,method_00);
-        (pCVar4->fields)._Type_k__BackingField = pCVar6;
-        il2cpp_runtime_helper_022b4080(&(pCVar4->fields)._Type_k__BackingField,pCVar6);
-        (pCVar4->fields)._Description_k__BackingField = (System_String_o *)value;
-        il2cpp_runtime_helper_022b4080(&(pCVar4->fields)._Description_k__BackingField,value);
-        *(char *)&(pCVar4->fields)._Readonly_k__BackingField = (char)(p->fields)._IsReadonly_k__BackingField;
-        *(undefined1 *)((long)&(pCVar4->fields)._Readonly_k__BackingField + 1) = 0;
-        (pCVar4->fields)._Deprecated_k__BackingField = (p->fields)._ObsoleteMessage_k__BackingField;
-        il2cpp_runtime_helper_022b4080(&(pCVar4->fields)._Deprecated_k__BackingField);
-        return pCVar4;
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+      if (__this_00 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Field_o *)0x0) {
+        pSVar4 = (p->fields)._Name_k__BackingField;
+        (__this_00->fields)._Label_k__BackingField = pSVar4;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Label_k__BackingField,pSVar4);
+        value_00 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
+                             (__this,(p->fields)._Type_k__BackingField,(MethodInfo *)0x0);
+        (__this_00->fields)._Type_k__BackingField = value_00;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Type_k__BackingField,value_00);
+        (__this_00->fields)._Description_k__BackingField = pSVar3;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Description_k__BackingField,pSVar3);
+        (__this_00->fields)._Readonly_k__BackingField = (p->fields)._IsReadonly_k__BackingField;
+        (__this_00->fields)._Private_k__BackingField = false;
+        pSVar3 = (p->fields)._ObsoleteMessage_k__BackingField;
+        (__this_00->fields)._Deprecated_k__BackingField = pSVar3;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Deprecated_k__BackingField,pSVar3);
+        return __this_00;
       }
     }
   }
-label_042826aa:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  return extraout_RAX;
+label_1820fcaaf:
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$<ConvertMethods>b__10_1
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertMethods_b__10_1 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLMethod_o* m, const MethodInfo* method);
-// 0x42826c0
+// 0x1820fcac0
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertMethods_b__10_1
@@ -3369,67 +2296,62 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertMethods_b__
 {
   CustomLogic_Editor_Models_XmlInfo_o *pCVar1;
   CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this_00;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *pCVar2;
-  System_String_o *pSVar3;
-  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *pSVar4;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *extraout_RAX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *__this_01;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value;
+  System_String_o *pSVar2;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *value_00;
   
-  if (g_data_057adc8f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Method);
-    il2cpp_runtime_helper_023445d0(&"function");
-    g_data_057adc8f = '\x01';
+  if (Il2CppMethodInitialized_184346a4a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+    il2cpp_codegen_initialize_runtime_metadata(&"function");
+    Il2CppMethodInitialized_184346a4a = '\x01';
   }
-  __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_Method);
-  __this_01 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
   if ((m != (CustomLogic_Editor_Models_CLMethod_o *)0x0) &&
      (__this_00 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *)0x0)) {
-    (__this_00->fields)._Label_k__BackingField = (m->fields)._Name_k__BackingField;
-    il2cpp_runtime_helper_022b4080(&__this_00->fields);
-    pCVar2 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
-                       (__this,(m->fields)._ReturnType_k__BackingField,method_00);
-    __this_01 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Method_o *)
-                &(__this_00->fields)._ReturnType_k__BackingField;
-    (__this_00->fields)._ReturnType_k__BackingField = pCVar2;
-    il2cpp_runtime_helper_022b4080();
+    pSVar2 = (m->fields)._Name_k__BackingField;
+    (__this_00->fields)._Label_k__BackingField = pSVar2;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Label_k__BackingField,pSVar2);
+    value = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
+                      (__this,(m->fields)._ReturnType_k__BackingField,(MethodInfo *)0x0);
+    (__this_00->fields)._ReturnType_k__BackingField = value;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._ReturnType_k__BackingField,value);
     pCVar1 = (m->fields)._Info_k__BackingField;
     if (pCVar1 == (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
-      pSVar3 = (System_String_o *)0x0;
+      pSVar2 = (System_String_o *)0x0;
     }
     else {
-      pSVar3 = (pCVar1->fields)._Summary_k__BackingField;
+      pSVar2 = (pCVar1->fields)._Summary_k__BackingField;
     }
     if (__this != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0) {
-      pSVar3 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                         ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)__this_01,pSVar3,
-                          method_01);
-      (__this_00->fields)._Description_k__BackingField = pSVar3;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._Description_k__BackingField,pSVar3);
-      pSVar4 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
-                         (__this,(m->fields)._Parameters_k__BackingField,method_02);
-      (__this_00->fields)._Parameters_k__BackingField = pSVar4;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._Parameters_k__BackingField,pSVar4);
+      pSVar2 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
+                         (__this,pSVar2,(MethodInfo *)0x0);
+      (__this_00->fields)._Description_k__BackingField = pSVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Description_k__BackingField,pSVar2);
+      value_00 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
+                           (__this,(m->fields)._Parameters_k__BackingField,(MethodInfo *)0x0);
+      (__this_00->fields)._Parameters_k__BackingField = value_00;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Parameters_k__BackingField,value_00);
+      pSVar2 = "function";
       (__this_00->fields)._Kind_k__BackingField = "function";
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._Kind_k__BackingField);
-      (__this_00->fields)._Deprecated_k__BackingField = (m->fields)._ObsoleteMessage_k__BackingField;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._Deprecated_k__BackingField);
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Kind_k__BackingField,pSVar2);
+      pSVar2 = (m->fields)._ObsoleteMessage_k__BackingField;
+      (__this_00->fields)._Deprecated_k__BackingField = pSVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Deprecated_k__BackingField,pSVar2);
       return __this_00;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-  return extraout_RAX;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$<ConvertConstructors>b__11_0
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertConstructors_b__11_0 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLConstructor_o* c, const MethodInfo* method);
-// 0x42827f0
+// 0x1820fc840
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertConstructors_b__11_0
@@ -3438,61 +2360,52 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertConstructor
 
 {
   CustomLogic_Editor_Models_XmlInfo_o *pCVar1;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *__this_00;
-  CustomLogic_Editor_Models_CLType_array *pCVar2;
-  Newtonsoft_Json_JsonSerializerSettings_o *pNVar3;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *extraout_RAX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  System_String_o *description;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *__this_01;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *__this_00;
+  System_Collections_Generic_List_CustomLogicVSCExtensionJsonDocsGenerator_Parameter__o *value;
+  System_String_o *pSVar2;
   
-  if (g_data_057adc90 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Constructor);
-    g_data_057adc90 = '\x01';
+  if (Il2CppMethodInitialized_184346a4b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor);
+    Il2CppMethodInitialized_184346a4b = '\x01';
   }
-  __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_Constructor);
-  __this_01 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  if ((c != (CustomLogic_Editor_Models_CLConstructor_o *)0x0) &&
-     (__this_01 = __this,
-     pCVar2 = (CustomLogic_Editor_Models_CLType_array *)
-              CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
-                        (__this,(c->fields)._Parameters_k__BackingField,method_00),
-     __this_00 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0)) {
-    __this_01 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)&__this_00->fields;
-    (__this_00->fields).AllTypes = pCVar2;
-    il2cpp_runtime_helper_022b4080();
-    pCVar1 = (c->fields)._Info_k__BackingField;
-    if (pCVar1 == (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
-      description = (System_String_o *)0x0;
-    }
-    else {
-      description = (pCVar1->fields)._Summary_k__BackingField;
-    }
-    if (__this != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0) {
-      pNVar3 = (Newtonsoft_Json_JsonSerializerSettings_o *)
-               CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                         (__this_01,description,method_01);
-      (__this_00->fields)._settings = pNVar3;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._settings,pNVar3);
-      (__this_00->fields)._typeNameMap =
-           (System_Collections_Generic_Dictionary_string__CustomLogicVSCExtensionJsonDocsGenerator_ClassDefinition__o
-            *)(c->fields)._ObsoleteMessage_k__BackingField;
-      il2cpp_runtime_helper_022b4080(&(__this_00->fields)._typeNameMap);
-      return (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *)__this_00;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  if (c != (CustomLogic_Editor_Models_CLConstructor_o *)0x0) {
+    value = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertParameters
+                      (__this,(c->fields)._Parameters_k__BackingField,(MethodInfo *)0x0);
+    if (__this_00 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Constructor_o *)0x0) {
+      (__this_00->fields)._Parameters_k__BackingField = value;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Parameters_k__BackingField,value);
+      pCVar1 = (c->fields)._Info_k__BackingField;
+      if (pCVar1 == (CustomLogic_Editor_Models_XmlInfo_o *)0x0) {
+        pSVar2 = (System_String_o *)0x0;
+      }
+      else {
+        pSVar2 = (pCVar1->fields)._Summary_k__BackingField;
+      }
+      if (__this != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)0x0) {
+        pSVar2 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
+                           (__this,pSVar2,(MethodInfo *)0x0);
+        (__this_00->fields)._Description_k__BackingField = pSVar2;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Description_k__BackingField,pSVar2);
+        pSVar2 = (c->fields)._ObsoleteMessage_k__BackingField;
+        (__this_00->fields)._Deprecated_k__BackingField = pSVar2;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Deprecated_k__BackingField,pSVar2);
+        return __this_00;
+      }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-  return extraout_RAX;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.Editor.CustomLogicVSCExtensionJsonDocsGenerator$$<ConvertParameters>b__12_0
 // il2cpp: CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o* CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertParameters_b__12_0 (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o* __this, CustomLogic_Editor_Models_CLParameter_o* p, const MethodInfo* method);
-// 0x42828c0
+// 0x1820fcbf0
 
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *
 CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertParameters_b__12_0
@@ -3500,76 +2413,65 @@ CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator___ConvertParameters_
           CustomLogic_Editor_Models_CLParameter_o *p,MethodInfo *method)
 
 {
-  System_String_array *pSVar1;
-  bool_conflict bVar2;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *value;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *pCVar3;
-  System_String_o *str2;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *pCVar4;
-  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *extraout_RAX;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
+  System_String_array *value;
+  bool bVar1;
+  System_String_o *value_00;
+  System_String_o *pSVar2;
   CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *__this_00;
+  CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_JsonTypeReference_o *value_01;
   
-  __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)__this;
-  if (g_data_057adc91 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Parameter);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&", ");
-    __this_00 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)&"Refer to ";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adc91 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346a4c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter);
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&", ");
+    il2cpp_codegen_initialize_runtime_metadata(&"Refer to ");
+    Il2CppMethodInitialized_184346a4c = '\x01';
   }
   if (p != (CustomLogic_Editor_Models_CLParameter_o *)0x0) {
-    value = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)
-            CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
-                      ((CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_o *)__this_00,
-                       (p->fields)._Description_k__BackingField,method);
-    pSVar1 = (p->fields)._EnumNames_k__BackingField;
-    if ((pSVar1 != (System_String_array *)0x0) && (pSVar1->max_length != 0)) {
-      __this_00 = value;
-      bVar2 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-      pCVar3 = value;
-      if ((char)bVar2 == '\0') {
-        pCVar3 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)
-                 System_String__Concat_3ae5ba0((System_String_o *)value," ",(MethodInfo *)0x0);
-        __this_00 = value;
+    value_00 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__NormalizeDescription
+                         (__this,(p->fields)._Description_k__BackingField,(MethodInfo *)0x0);
+    if (((p->fields)._EnumNames_k__BackingField != (System_String_array *)0x0) &&
+       (((p->fields)._EnumNames_k__BackingField)->max_length != 0)) {
+      bVar1 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
+      if (!bVar1) {
+        value_00 = System_String__Concat_1969e50(value_00," ",(MethodInfo *)0x0);
       }
-      pSVar1 = (p->fields)._EnumNames_k__BackingField;
-      if (pSVar1 == (System_String_array *)0x0) goto label_04282a2e;
-      if ((int)pSVar1->max_length == 1) {
-        str2 = pSVar1->m_Items[0];
+      value = (p->fields)._EnumNames_k__BackingField;
+      if (value == (System_String_array *)0x0) goto label_1820fcd6b;
+      if ((int)value->max_length == 1) {
+        if ((int)value->max_length == 0) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar2 = value->m_Items[0];
       }
       else {
-        str2 = System_String__Join(", ",pSVar1,(MethodInfo *)0x0);
+        pSVar2 = System_String__Join(", ",value,(MethodInfo *)0x0);
       }
-      value = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)
-              System_String__Concat_3af7150((System_String_o *)pCVar3,"Refer to ",str2,(MethodInfo *)0x0);
+      value_00 = System_String__Concat_1969b70(value_00,"Refer to ",pSVar2,(MethodInfo *)0x0);
     }
-    pCVar3 = (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_Parameter);
-    __this_00 = pCVar3;
-    System_Object___ctor((Il2CppObject *)pCVar3,(MethodInfo *)0x0);
-    if (pCVar3 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)0x0) {
-      (pCVar3->fields)._Name_k__BackingField = (p->fields)._Name_k__BackingField;
-      il2cpp_runtime_helper_022b4080(&pCVar3->fields);
-      pCVar4 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
-                         (__this,(p->fields)._Type_k__BackingField,method_00);
-      (pCVar3->fields)._Type_k__BackingField = pCVar4;
-      il2cpp_runtime_helper_022b4080(&(pCVar3->fields)._Type_k__BackingField,pCVar4);
-      (pCVar3->fields)._Description_k__BackingField = (System_String_o *)value;
-      il2cpp_runtime_helper_022b4080(&(pCVar3->fields)._Description_k__BackingField,value);
-      *(char *)&(pCVar3->fields)._IsOptional_k__BackingField = (char)(p->fields)._IsOptional_k__BackingField;
-      *(undefined1 *)((long)&(pCVar3->fields)._IsOptional_k__BackingField + 1) =
-           *(undefined1 *)((long)&(p->fields)._IsOptional_k__BackingField + 1);
-      return pCVar3;
+    __this_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter);
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+    if (__this_00 != (CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator_Parameter_o *)0x0) {
+      pSVar2 = (p->fields)._Name_k__BackingField;
+      (__this_00->fields)._Name_k__BackingField = pSVar2;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Name_k__BackingField,pSVar2);
+      value_01 = CustomLogic_Editor_CustomLogicVSCExtensionJsonDocsGenerator__ConvertTypeReference
+                           (__this,(p->fields)._Type_k__BackingField,(MethodInfo *)0x0);
+      (__this_00->fields)._Type_k__BackingField = value_01;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Type_k__BackingField,value_01);
+      (__this_00->fields)._Description_k__BackingField = value_00;
+      Il2CppCodeGenWriteBarrier(&(__this_00->fields)._Description_k__BackingField,value_00);
+      (__this_00->fields)._IsOptional_k__BackingField = (p->fields)._IsOptional_k__BackingField;
+      (__this_00->fields)._IsVariadic_k__BackingField = (p->fields)._IsVariadic_k__BackingField;
+      return __this_00;
     }
   }
-label_04282a2e:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  return extraout_RAX;
+label_1820fcd6b:
+  ThrowNullReferenceException();
 }
 
 

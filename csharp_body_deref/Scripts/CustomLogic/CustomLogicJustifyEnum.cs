@@ -11,190 +11,190 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000390")]
+[Token(Token = "0x20004E0")]
 [CompilerGenerated]
 internal class CustomLogicJustifyEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000391")]
+	[Token(Token = "0x20004E1")]
 	public static class Factory
 	{
-		[Token(Token = "0x60021B2")]
-		[Address(RVA = "0x4080650", Offset = "0x4080650", VA = "0x4080650")]
+		[Token(Token = "0x6002AAE")]
+		[Address(RVA = "0x1FEF6A0", Offset = "0x1FEDCA0", VA = "0x181FEF6A0")]
 		public static CustomLogicJustifyEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000392")]
+	[Token(Token = "0x20004E2")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001092")]
+		[Token(Token = "0x40016C8")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x60021B3")]
-		[Address(RVA = "0x4080770", Offset = "0x4080770", VA = "0x4080770")]
+		[Token(Token = "0x6002AAF")]
+		[Address(RVA = "0x1FD9400", Offset = "0x1FD7A00", VA = "0x181FD9400")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B4")]
-		[Address(RVA = "0x40809E0", Offset = "0x40809E0", VA = "0x40809E0")]
+		[Token(Token = "0x6002AB0")]
+		[Address(RVA = "0x1FE2E40", Offset = "0x1FE1440", VA = "0x181FE2E40")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__FlexStart()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B5")]
-		[Address(RVA = "0x4080A80", Offset = "0x4080A80", VA = "0x4080A80")]
+		[Token(Token = "0x6002AB1")]
+		[Address(RVA = "0x1FE0AA0", Offset = "0x1FDF0A0", VA = "0x181FE0AA0")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__Center()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B6")]
-		[Address(RVA = "0x4080B20", Offset = "0x4080B20", VA = "0x4080B20")]
+		[Token(Token = "0x6002AB2")]
+		[Address(RVA = "0x1FE2DA0", Offset = "0x1FE13A0", VA = "0x181FE2DA0")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__FlexEnd()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B7")]
-		[Address(RVA = "0x4080BC0", Offset = "0x4080BC0", VA = "0x4080BC0")]
+		[Token(Token = "0x6002AB3")]
+		[Address(RVA = "0x1FE7580", Offset = "0x1FE5B80", VA = "0x181FE7580")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__SpaceBetween()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B8")]
-		[Address(RVA = "0x4080C60", Offset = "0x4080C60", VA = "0x4080C60")]
+		[Token(Token = "0x6002AB4")]
+		[Address(RVA = "0x1FE74E0", Offset = "0x1FE5AE0", VA = "0x181FE74E0")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__SpaceAround()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60021B9")]
-		[Address(RVA = "0x4080D00", Offset = "0x4080D00", VA = "0x4080D00")]
+		[Token(Token = "0x6002AB5")]
+		[Address(RVA = "0x1FE7620", Offset = "0x1FE5C20", VA = "0x181FE7620")]
 		public static CLPropertyBinding<CustomLogicJustifyEnum> __CreatePropertyBinding__SpaceEvenly()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000609")]
+	[Token(Token = "0x170006DC")]
 	public static int FlexStart
 	{
-		[Token(Token = "0x60021A8")]
-		[Address(RVA = "0x4080590", Offset = "0x4080590", VA = "0x4080590")]
+		[Token(Token = "0x6002AA4")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060A")]
+	[Token(Token = "0x170006DD")]
 	public static int Center
 	{
-		[Token(Token = "0x60021A9")]
-		[Address(RVA = "0x40805A0", Offset = "0x40805A0", VA = "0x40805A0")]
+		[Token(Token = "0x6002AA5")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060B")]
+	[Token(Token = "0x170006DE")]
 	public static int FlexEnd
 	{
-		[Token(Token = "0x60021AA")]
-		[Address(RVA = "0x40805B0", Offset = "0x40805B0", VA = "0x40805B0")]
+		[Token(Token = "0x6002AA6")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060C")]
+	[Token(Token = "0x170006DF")]
 	public static int SpaceBetween
 	{
-		[Token(Token = "0x60021AB")]
-		[Address(RVA = "0x40805C0", Offset = "0x40805C0", VA = "0x40805C0")]
+		[Token(Token = "0x6002AA7")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060D")]
+	[Token(Token = "0x170006E0")]
 	public static int SpaceAround
 	{
-		[Token(Token = "0x60021AC")]
-		[Address(RVA = "0x40805D0", Offset = "0x40805D0", VA = "0x40805D0")]
+		[Token(Token = "0x6002AA8")]
+		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060E")]
+	[Token(Token = "0x170006E1")]
 	public static int SpaceEvenly
 	{
-		[Token(Token = "0x60021AD")]
-		[Address(RVA = "0x40805E0", Offset = "0x40805E0", VA = "0x40805E0")]
+		[Token(Token = "0x6002AA9")]
+		[Address(RVA = "0x8680A0", Offset = "0x8666A0", VA = "0x1808680A0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700060F")]
+	[Token(Token = "0x170006E2")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60021AE")]
-		[Address(RVA = "0x40805F0", Offset = "0x40805F0", VA = "0x40805F0", Slot = "4")]
+		[Token(Token = "0x6002AAA")]
+		[Address(RVA = "0x1FEDFA0", Offset = "0x1FEC5A0", VA = "0x181FEDFA0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000610")]
+	[Token(Token = "0x170006E3")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x60021AF")]
-		[Address(RVA = "0x4080620", Offset = "0x4080620", VA = "0x4080620", Slot = "6")]
+		[Token(Token = "0x6002AAB")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000611")]
+	[Token(Token = "0x170006E4")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x60021B0")]
-		[Address(RVA = "0x4080630", Offset = "0x4080630", VA = "0x4080630", Slot = "7")]
+		[Token(Token = "0x6002AAC")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000612")]
+	[Token(Token = "0x170006E5")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x60021B1")]
-		[Address(RVA = "0x4080640", Offset = "0x4080640", VA = "0x4080640", Slot = "8")]
+		[Token(Token = "0x6002AAD")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60021A7")]
-	[Address(RVA = "0x4080520", Offset = "0x4080520", VA = "0x4080520")]
+	[Token(Token = "0x6002AA3")]
+	[Address(RVA = "0x1FEDF50", Offset = "0x1FEC550", VA = "0x181FEDF50")]
 	public CustomLogicJustifyEnum()
 	{
 	}

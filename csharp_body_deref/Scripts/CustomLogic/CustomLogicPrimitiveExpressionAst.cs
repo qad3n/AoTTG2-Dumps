@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000296")]
+[Token(Token = "0x20003E0")]
 internal class CustomLogicPrimitiveExpressionAst : CustomLogicBaseExpressionAst
 {
-	[Token(Token = "0x4000DDD")]
+	[Token(Token = "0x40013FB")]
 	[FieldOffset(Offset = "0x18")]
 	public object Value;
 
-	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x3FB8D10", Offset = "0x3FB8D10", VA = "0x3FB8D10")]
+	[Token(Token = "0x6001801")]
+	[Address(RVA = "0x1ED1D30", Offset = "0x1ED0330", VA = "0x181ED1D30")]
 	public CustomLogicPrimitiveExpressionAst(object value, int line)
 	{
 	}

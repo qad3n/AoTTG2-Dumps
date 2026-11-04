@@ -13,27 +13,27 @@ using UnityEngine.TextCore;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000082")]
+[Token(Token = "0x2000077")]
 public class TMP_SpriteGlyph : Glyph
 {
-	[Token(Token = "0x4000435")]
+	[Token(Token = "0x40003A2")]
 	[FieldOffset(Offset = "0x48")]
 	public Sprite sprite;
 
-	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x4C90450", Offset = "0x4C90450", VA = "0x4C90450")]
+	[Token(Token = "0x60003D8")]
+	[Address(RVA = "0x2D42A30", Offset = "0x2D41030", VA = "0x182D42A30")]
 	public TMP_SpriteGlyph()
 	{
 	}
 
-	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x4C90860", Offset = "0x4C90860", VA = "0x4C90860")]
+	[Token(Token = "0x60003D9")]
+	[Address(RVA = "0x2D429A0", Offset = "0x2D40FA0", VA = "0x182D429A0")]
 	public TMP_SpriteGlyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex)
 	{
 	}
 
-	[Token(Token = "0x600043B")]
-	[Address(RVA = "0x4C908F0", Offset = "0x4C908F0", VA = "0x4C908F0")]
+	[Token(Token = "0x60003DA")]
+	[Address(RVA = "0x2D428F0", Offset = "0x2D40EF0", VA = "0x182D428F0")]
 	public TMP_SpriteGlyph(uint index, GlyphMetrics metrics, GlyphRect glyphRect, float scale, int atlasIndex, Sprite sprite)
 	{
 	}

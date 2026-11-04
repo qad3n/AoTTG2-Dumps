@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x20000DF")]
 internal sealed class CollectionDebuggerProxy<T>
 {
 }

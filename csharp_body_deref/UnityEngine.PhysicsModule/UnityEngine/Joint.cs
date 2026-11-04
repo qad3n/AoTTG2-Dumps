@@ -10,10 +10,9 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000018")]
-[RequireComponent(typeof(Rigidbody))]
-[UnityEngine.NativeClass("Unity::Joint")]
+[Token(Token = "0x2000011")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/Joint.h")]
+[UnityEngine.NativeClass("Unity::Joint")]
 public class Joint : Component
 {
 }

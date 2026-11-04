@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003C0")]
+[Token(Token = "0x20003EF")]
 internal class ServerContextTerminatorSink : IMessageSink
 {
-	[Token(Token = "0x6001F0B")]
-	[Address(RVA = "0x3B92A00", Offset = "0x3B92A00", VA = "0x3B92A00", Slot = "4")]
+	[Token(Token = "0x6001F7A")]
+	[Address(RVA = "0x1A08590", Offset = "0x1A06B90", VA = "0x181A08590", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F0C")]
-	[Address(RVA = "0x3B92B40", Offset = "0x3B92B40", VA = "0x3B92B40", Slot = "5")]
+	[Token(Token = "0x6001F7B")]
+	[Address(RVA = "0x1A084D0", Offset = "0x1A06AD0", VA = "0x181A084D0", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F0D")]
-	[Address(RVA = "0x3B7AE90", Offset = "0x3B7AE90", VA = "0x3B7AE90")]
+	[Token(Token = "0x6001F7C")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ServerContextTerminatorSink()
 	{
 	}

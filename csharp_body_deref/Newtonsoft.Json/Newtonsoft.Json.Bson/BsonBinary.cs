@@ -17,14 +17,14 @@ internal class BsonBinary : BsonValue
 	public BsonBinaryType BinaryType
 	{
 		[Token(Token = "0x600101C")]
-		[Address(RVA = "0x3E5AB10", Offset = "0x3E5AB10", VA = "0x3E5AB10")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(BsonBinaryType);
 		}
 		[Token(Token = "0x600101D")]
-		[Address(RVA = "0x3E5AB20", Offset = "0x3E5AB20", VA = "0x3E5AB20")]
+		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -32,7 +32,7 @@ internal class BsonBinary : BsonValue
 	}
 
 	[Token(Token = "0x600101E")]
-	[Address(RVA = "0x3E5AB30", Offset = "0x3E5AB30", VA = "0x3E5AB30")]
+	[Address(RVA = "0x1CA9BC0", Offset = "0x1CA81C0", VA = "0x181CA9BC0")]
 	public BsonBinary(byte[] value, BsonBinaryType binaryType)
 	{
 	}

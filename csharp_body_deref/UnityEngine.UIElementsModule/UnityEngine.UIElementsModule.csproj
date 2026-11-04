@@ -27,14 +27,26 @@
     <Reference Include="UnityEngine.TextCoreTextEngineModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core">
       <HintPath>../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.HierarchyCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.InputLegacyModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.InputForUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll</HintPath>

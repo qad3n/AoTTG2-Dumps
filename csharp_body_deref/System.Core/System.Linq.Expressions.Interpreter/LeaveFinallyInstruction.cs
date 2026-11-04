@@ -19,8 +19,8 @@ internal sealed class LeaveFinallyInstruction : Instruction
 	[Token(Token = "0x17000178")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000641")]
-		[Address(RVA = "0x44C8F70", Offset = "0x44C8F70", VA = "0x44C8F70", Slot = "4")]
+		[Token(Token = "0x6000640")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -30,22 +30,22 @@ internal sealed class LeaveFinallyInstruction : Instruction
 	[Token(Token = "0x17000179")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000642")]
-		[Address(RVA = "0x44C8F80", Offset = "0x44C8F80", VA = "0x44C8F80", Slot = "9")]
+		[Token(Token = "0x6000641")]
+		[Address(RVA = "0x243C080", Offset = "0x243A680", VA = "0x18243C080", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000640")]
-	[Address(RVA = "0x44C8F60", Offset = "0x44C8F60", VA = "0x44C8F60")]
+	[Token(Token = "0x600063F")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private LeaveFinallyInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000643")]
-	[Address(RVA = "0x44C8FB0", Offset = "0x44C8FB0", VA = "0x44C8FB0", Slot = "8")]
+	[Token(Token = "0x6000642")]
+	[Address(RVA = "0x243BFC0", Offset = "0x243A5C0", VA = "0x18243BFC0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

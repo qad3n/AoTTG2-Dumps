@@ -11,20 +11,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000FD")]
+[Token(Token = "0x20000D3")]
+[Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 public interface IVolumeDebugSettings2 : IVolumeDebugSettings
 {
-	[Token(Token = "0x170000D1")]
+	[Token(Token = "0x170000BA")]
+	[Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths. #from(2023.2)")]
 	Type targetRenderPipeline
 	{
-		[Token(Token = "0x6000842")]
+		[Token(Token = "0x60007A3")]
 		get;
 	}
 
-	[Token(Token = "0x170000D2")]
+	[Token(Token = "0x170000BB")]
+	[Obsolete("This property is obsolete and kept only for not breaking user code. VolumeDebugSettings will use current pipeline when it needs to gather volume component types and paths. #from(2023.2)")]
 	List<(string, Type)> volumeComponentsPathAndType
 	{
-		[Token(Token = "0x6000843")]
+		[Token(Token = "0x60007A4")]
 		get;
 	}
 }

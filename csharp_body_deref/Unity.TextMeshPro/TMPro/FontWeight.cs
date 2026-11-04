@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000092")]
+[Token(Token = "0x2000088")]
 public enum FontWeight
 {
-	[Token(Token = "0x40004B7")]
+	[Token(Token = "0x4000427")]
 	Thin = 100,
-	[Token(Token = "0x40004B8")]
+	[Token(Token = "0x4000428")]
 	ExtraLight = 200,
-	[Token(Token = "0x40004B9")]
+	[Token(Token = "0x4000429")]
 	Light = 300,
-	[Token(Token = "0x40004BA")]
+	[Token(Token = "0x400042A")]
 	Regular = 400,
-	[Token(Token = "0x40004BB")]
+	[Token(Token = "0x400042B")]
 	Medium = 500,
-	[Token(Token = "0x40004BC")]
+	[Token(Token = "0x400042C")]
 	SemiBold = 600,
-	[Token(Token = "0x40004BD")]
+	[Token(Token = "0x400042D")]
 	Bold = 700,
-	[Token(Token = "0x40004BE")]
+	[Token(Token = "0x400042E")]
 	Heavy = 800,
-	[Token(Token = "0x40004BF")]
+	[Token(Token = "0x400042F")]
 	Black = 900
 }

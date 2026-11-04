@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x20000F6")]
 [CLSCompliant(false)]
 public interface IConvertible
 {
-	[Token(Token = "0x6000798")]
+	[Token(Token = "0x60007CA")]
 	TypeCode GetTypeCode();
 
-	[Token(Token = "0x6000799")]
+	[Token(Token = "0x60007CB")]
 	bool ToBoolean(IFormatProvider provider);
 
-	[Token(Token = "0x600079A")]
+	[Token(Token = "0x60007CC")]
 	char ToChar(IFormatProvider provider);
 
-	[Token(Token = "0x600079B")]
+	[Token(Token = "0x60007CD")]
 	sbyte ToSByte(IFormatProvider provider);
 
-	[Token(Token = "0x600079C")]
+	[Token(Token = "0x60007CE")]
 	byte ToByte(IFormatProvider provider);
 
-	[Token(Token = "0x600079D")]
+	[Token(Token = "0x60007CF")]
 	short ToInt16(IFormatProvider provider);
 
-	[Token(Token = "0x600079E")]
+	[Token(Token = "0x60007D0")]
 	ushort ToUInt16(IFormatProvider provider);
 
-	[Token(Token = "0x600079F")]
+	[Token(Token = "0x60007D1")]
 	int ToInt32(IFormatProvider provider);
 
-	[Token(Token = "0x60007A0")]
+	[Token(Token = "0x60007D2")]
 	uint ToUInt32(IFormatProvider provider);
 
-	[Token(Token = "0x60007A1")]
+	[Token(Token = "0x60007D3")]
 	long ToInt64(IFormatProvider provider);
 
-	[Token(Token = "0x60007A2")]
+	[Token(Token = "0x60007D4")]
 	ulong ToUInt64(IFormatProvider provider);
 
-	[Token(Token = "0x60007A3")]
+	[Token(Token = "0x60007D5")]
 	float ToSingle(IFormatProvider provider);
 
-	[Token(Token = "0x60007A4")]
+	[Token(Token = "0x60007D6")]
 	double ToDouble(IFormatProvider provider);
 
-	[Token(Token = "0x60007A5")]
+	[Token(Token = "0x60007D7")]
 	decimal ToDecimal(IFormatProvider provider);
 
-	[Token(Token = "0x60007A6")]
+	[Token(Token = "0x60007D8")]
 	DateTime ToDateTime(IFormatProvider provider);
 
-	[Token(Token = "0x60007A7")]
+	[Token(Token = "0x60007D9")]
 	string ToString(IFormatProvider provider);
 
-	[Token(Token = "0x60007A8")]
+	[Token(Token = "0x60007DA")]
 	object ToType(Type conversionType, IFormatProvider provider);
 }

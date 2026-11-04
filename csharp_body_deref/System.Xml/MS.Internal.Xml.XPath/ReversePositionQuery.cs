@@ -17,7 +17,7 @@ internal sealed class ReversePositionQuery : ForwardPositionQuery
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001BC1")]
-		[Address(RVA = "0x4786CD0", Offset = "0x4786CD0", VA = "0x4786CD0", Slot = "9")]
+		[Address(RVA = "0x26D1300", Offset = "0x26CF900", VA = "0x1826D1300", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -28,7 +28,7 @@ internal sealed class ReversePositionQuery : ForwardPositionQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001BC2")]
-		[Address(RVA = "0x4786D10", Offset = "0x4786D10", VA = "0x4786D10", Slot = "17")]
+		[Address(RVA = "0x26D1350", Offset = "0x26CF950", VA = "0x1826D1350", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -36,19 +36,19 @@ internal sealed class ReversePositionQuery : ForwardPositionQuery
 	}
 
 	[Token(Token = "0x6001BBE")]
-	[Address(RVA = "0x4786030", Offset = "0x4786030", VA = "0x4786030")]
+	[Address(RVA = "0x26D12E0", Offset = "0x26CF8E0", VA = "0x1826D12E0")]
 	public ReversePositionQuery(Query input)
 	{
 	}
 
 	[Token(Token = "0x6001BBF")]
-	[Address(RVA = "0x4786C70", Offset = "0x4786C70", VA = "0x4786C70")]
+	[Address(RVA = "0x26D12F0", Offset = "0x26CF8F0", VA = "0x1826D12F0")]
 	private ReversePositionQuery(ReversePositionQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001BC0")]
-	[Address(RVA = "0x4786C80", Offset = "0x4786C80", VA = "0x4786C80", Slot = "6")]
+	[Address(RVA = "0x26D1280", Offset = "0x26CF880", VA = "0x1826D1280", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x2000035")]
 public struct User
 {
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x400009E")]
 	[FieldOffset(Offset = "0x0")]
 	public long Id;
 
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x400009F")]
 	[FieldOffset(Offset = "0x8")]
 	public string Username;
 
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x10")]
 	public string Discriminator;
 
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000A1")]
 	[FieldOffset(Offset = "0x18")]
 	public string Avatar;
 
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000A2")]
 	[FieldOffset(Offset = "0x20")]
 	public bool Bot;
 }

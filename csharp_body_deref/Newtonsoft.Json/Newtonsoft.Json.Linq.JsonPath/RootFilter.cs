@@ -18,13 +18,13 @@ internal class RootFilter : PathFilter
 	public static readonly RootFilter Instance;
 
 	[Token(Token = "0x6000E7B")]
-	[Address(RVA = "0x3E3CBA0", Offset = "0x3E3CBA0", VA = "0x3E3CBA0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	private RootFilter()
 	{
 	}
 
 	[Token(Token = "0x6000E7C")]
-	[Address(RVA = "0x3E3CBB0", Offset = "0x3E3CBB0", VA = "0x3E3CBB0", Slot = "4")]
+	[Address(RVA = "0x1CA35E0", Offset = "0x1CA1BE0", VA = "0x181CA35E0", Slot = "4")]
 	public override IEnumerable<JToken> ExecuteFilter(JToken root, IEnumerable<JToken> current, JsonSelectSettings? settings)
 	{
 		return null;

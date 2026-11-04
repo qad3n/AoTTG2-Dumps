@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties.Internal;
 
-[Token(Token = "0x200006C")]
+[Token(Token = "0x200009E")]
 internal interface IPropertyBagRegister
 {
-	[Token(Token = "0x60001E2")]
+	[Token(Token = "0x6000267")]
 	void Register();
 }

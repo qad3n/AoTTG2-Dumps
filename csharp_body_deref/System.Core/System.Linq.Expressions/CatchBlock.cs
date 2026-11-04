@@ -18,8 +18,8 @@ public sealed class CatchBlock
 	[Token(Token = "0x1700006E")]
 	public ParameterExpression Variable
 	{
-		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x44B0050", Offset = "0x44B0050", VA = "0x44B0050")]
+		[Token(Token = "0x60002FF")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,8 +30,8 @@ public sealed class CatchBlock
 	[Token(Token = "0x1700006F")]
 	public Type Test
 	{
-		[Token(Token = "0x6000301")]
-		[Address(RVA = "0x44B0060", Offset = "0x44B0060", VA = "0x44B0060")]
+		[Token(Token = "0x6000300")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,8 +42,8 @@ public sealed class CatchBlock
 	[Token(Token = "0x17000070")]
 	public Expression Body
 	{
-		[Token(Token = "0x6000302")]
-		[Address(RVA = "0x44B0070", Offset = "0x44B0070", VA = "0x44B0070")]
+		[Token(Token = "0x6000301")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,8 +54,8 @@ public sealed class CatchBlock
 	[Token(Token = "0x17000071")]
 	public Expression Filter
 	{
-		[Token(Token = "0x6000303")]
-		[Address(RVA = "0x44B0080", Offset = "0x44B0080", VA = "0x44B0080")]
+		[Token(Token = "0x6000302")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -63,21 +63,21 @@ public sealed class CatchBlock
 		}
 	}
 
-	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x44AFFE0", Offset = "0x44AFFE0", VA = "0x44AFFE0")]
+	[Token(Token = "0x60002FE")]
+	[Address(RVA = "0x242B1A0", Offset = "0x24297A0", VA = "0x18242B1A0")]
 	internal CatchBlock(Type test, ParameterExpression variable, Expression body, Expression filter)
 	{
 	}
 
-	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x44B0090", Offset = "0x44B0090", VA = "0x44B0090", Slot = "3")]
+	[Token(Token = "0x6000303")]
+	[Address(RVA = "0x242B040", Offset = "0x2429640", VA = "0x18242B040", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000305")]
-	[Address(RVA = "0x44B0170", Offset = "0x44B0170", VA = "0x44B0170")]
+	[Token(Token = "0x6000304")]
+	[Address(RVA = "0x242B110", Offset = "0x2429710", VA = "0x18242B110")]
 	public CatchBlock Update(ParameterExpression variable, Expression filter, Expression body)
 	{
 		return null;

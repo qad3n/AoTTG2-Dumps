@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000C3")]
 public enum MultiplayerServerType
 {
-	[Token(Token = "0x4000442")]
+	[Token(Token = "0x40004CB")]
 	LAN,
-	[Token(Token = "0x4000443")]
+	[Token(Token = "0x40004CC")]
 	Cloud,
-	[Token(Token = "0x4000444")]
+	[Token(Token = "0x40004CD")]
 	Public
 }

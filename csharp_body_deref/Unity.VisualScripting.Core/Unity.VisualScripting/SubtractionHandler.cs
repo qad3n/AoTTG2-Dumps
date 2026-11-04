@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000134")]
 public sealed class SubtractionHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000CC1")]
-	[Address(RVA = "0x4D36B40", Offset = "0x4D36B40", VA = "0x4D36B40")]
+	[Token(Token = "0x6000CCB")]
+	[Address(RVA = "0x2E3D6D0", Offset = "0x2E3BCD0", VA = "0x182E3D6D0")]
 	public SubtractionHandler()
 	{
 	}

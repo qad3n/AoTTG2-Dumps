@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000228")]
+[Token(Token = "0x20002E7")]
 public class DebugUIHandlerObjectPopupField : DebugUIHandlerField<DebugUI.ObjectPopupField>
 {
-	[Token(Token = "0x40008A0")]
+	[Token(Token = "0x4000D72")]
 	[FieldOffset(Offset = "0x88")]
 	private int m_Index;
 
-	[Token(Token = "0x6000EE0")]
-	[Address(RVA = "0x4C15010", Offset = "0x4C15010", VA = "0x4C15010", Slot = "5")]
+	[Token(Token = "0x6001479")]
+	[Address(RVA = "0x2BAE7C0", Offset = "0x2BACDC0", VA = "0x182BAE7C0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000EE1")]
-	[Address(RVA = "0x4C15060", Offset = "0x4C15060", VA = "0x4C15060")]
+	[Token(Token = "0x600147A")]
+	[Address(RVA = "0x2BAE6A0", Offset = "0x2BACCA0", VA = "0x182BAE6A0")]
 	private void ChangeSelectedObject()
 	{
 	}
 
-	[Token(Token = "0x6000EE2")]
-	[Address(RVA = "0x4C15170", Offset = "0x4C15170", VA = "0x4C15170", Slot = "9")]
+	[Token(Token = "0x600147B")]
+	[Address(RVA = "0x2BAE7B0", Offset = "0x2BACDB0", VA = "0x182BAE7B0", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EE3")]
-	[Address(RVA = "0x4C15180", Offset = "0x4C15180", VA = "0x4C15180", Slot = "10")]
+	[Token(Token = "0x600147C")]
+	[Address(RVA = "0x2BAE7A0", Offset = "0x2BACDA0", VA = "0x182BAE7A0", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EE4")]
-	[Address(RVA = "0x4C15190", Offset = "0x4C15190", VA = "0x4C15190", Slot = "13")]
+	[Token(Token = "0x600147D")]
+	[Address(RVA = "0x2BAE820", Offset = "0x2BACE20", VA = "0x182BAE820", Slot = "13")]
 	public override void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6000EE5")]
-	[Address(RVA = "0x4C15260", Offset = "0x4C15260", VA = "0x4C15260")]
+	[Token(Token = "0x600147E")]
+	[Address(RVA = "0x2BAE8F0", Offset = "0x2BACEF0", VA = "0x182BAE8F0")]
 	public DebugUIHandlerObjectPopupField()
 	{
 	}

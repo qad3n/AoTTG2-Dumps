@@ -77,7 +77,7 @@ internal class BaseValidator
 	public XmlValidatingReaderImpl Reader
 	{
 		[Token(Token = "0x6000F66")]
-		[Address(RVA = "0x48414E0", Offset = "0x48414E0", VA = "0x48414E0")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
@@ -88,7 +88,7 @@ internal class BaseValidator
 	public XmlSchemaCollection SchemaCollection
 	{
 		[Token(Token = "0x6000F67")]
-		[Address(RVA = "0x48414F0", Offset = "0x48414F0", VA = "0x48414F0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -99,7 +99,7 @@ internal class BaseValidator
 	public XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000F68")]
-		[Address(RVA = "0x4841500", Offset = "0x4841500", VA = "0x4841500")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -110,7 +110,7 @@ internal class BaseValidator
 	public SchemaNames SchemaNames
 	{
 		[Token(Token = "0x6000F69")]
-		[Address(RVA = "0x48401D0", Offset = "0x48401D0", VA = "0x48401D0")]
+		[Address(RVA = "0x2779760", Offset = "0x2777D60", VA = "0x182779760")]
 		get
 		{
 			return null;
@@ -121,7 +121,7 @@ internal class BaseValidator
 	public PositionInfo PositionInfo
 	{
 		[Token(Token = "0x6000F6A")]
-		[Address(RVA = "0x4841510", Offset = "0x4841510", VA = "0x4841510")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
@@ -132,13 +132,13 @@ internal class BaseValidator
 	public XmlResolver XmlResolver
 	{
 		[Token(Token = "0x6000F6B")]
-		[Address(RVA = "0x4841520", Offset = "0x4841520", VA = "0x4841520")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F6C")]
-		[Address(RVA = "0x4841530", Offset = "0x4841530", VA = "0x4841530")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
@@ -148,13 +148,13 @@ internal class BaseValidator
 	public Uri BaseUri
 	{
 		[Token(Token = "0x6000F6D")]
-		[Address(RVA = "0x4841540", Offset = "0x4841540", VA = "0x4841540")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F6E")]
-		[Address(RVA = "0x4841550", Offset = "0x4841550", VA = "0x4841550")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
@@ -164,7 +164,7 @@ internal class BaseValidator
 	public ValidationEventHandler EventHandler
 	{
 		[Token(Token = "0x6000F6F")]
-		[Address(RVA = "0x4841560", Offset = "0x4841560", VA = "0x4841560")]
+		[Address(RVA = "0x27796E0", Offset = "0x2777CE0", VA = "0x1827796E0")]
 		get
 		{
 			return null;
@@ -175,7 +175,7 @@ internal class BaseValidator
 	public SchemaInfo SchemaInfo
 	{
 		[Token(Token = "0x6000F70")]
-		[Address(RVA = "0x4841620", Offset = "0x4841620", VA = "0x4841620")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
@@ -186,7 +186,7 @@ internal class BaseValidator
 	public IDtdInfo DtdInfo
 	{
 		[Token(Token = "0x6000F71")]
-		[Address(RVA = "0x4841630", Offset = "0x4841630", VA = "0x4841630")]
+		[Address(RVA = "0x2779810", Offset = "0x2777E10", VA = "0x182779810")]
 		set
 		{
 		}
@@ -196,7 +196,7 @@ internal class BaseValidator
 	public virtual bool PreserveWhitespace
 	{
 		[Token(Token = "0x6000F72")]
-		[Address(RVA = "0x4841710", Offset = "0x4841710", VA = "0x4841710", Slot = "4")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -204,110 +204,110 @@ internal class BaseValidator
 	}
 
 	[Token(Token = "0x6000F64")]
-	[Address(RVA = "0x4841410", Offset = "0x4841410", VA = "0x4841410")]
+	[Address(RVA = "0x2779610", Offset = "0x2777C10", VA = "0x182779610")]
 	public BaseValidator(BaseValidator other)
 	{
 	}
 
 	[Token(Token = "0x6000F65")]
-	[Address(RVA = "0x483FBE0", Offset = "0x483FBE0", VA = "0x483FBE0")]
+	[Address(RVA = "0x2779520", Offset = "0x2777B20", VA = "0x182779520")]
 	public BaseValidator(XmlValidatingReaderImpl reader, XmlSchemaCollection schemaCollection, IValidationEventHandling eventHandling)
 	{
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x4841720", Offset = "0x4841720", VA = "0x4841720", Slot = "5")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public virtual void Validate()
 	{
 	}
 
 	[Token(Token = "0x6000F74")]
-	[Address(RVA = "0x4841730", Offset = "0x4841730", VA = "0x4841730", Slot = "6")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	public virtual void CompleteValidation()
 	{
 	}
 
 	[Token(Token = "0x6000F75")]
-	[Address(RVA = "0x4841740", Offset = "0x4841740", VA = "0x4841740", Slot = "7")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
 	public virtual object FindId(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F76")]
-	[Address(RVA = "0x4841750", Offset = "0x4841750", VA = "0x4841750")]
+	[Address(RVA = "0x2779070", Offset = "0x2777670", VA = "0x182779070")]
 	public void ValidateText()
 	{
 	}
 
 	[Token(Token = "0x6000F77")]
-	[Address(RVA = "0x4841C50", Offset = "0x4841C50", VA = "0x4841C50")]
+	[Address(RVA = "0x27793D0", Offset = "0x27779D0", VA = "0x1827793D0")]
 	public void ValidateWhitespace()
 	{
 	}
 
 	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x4841BE0", Offset = "0x4841BE0", VA = "0x4841BE0")]
+	[Address(RVA = "0x2778A50", Offset = "0x2777050", VA = "0x182778A50")]
 	private void SaveTextValue(string value)
 	{
 	}
 
 	[Token(Token = "0x6000F79")]
-	[Address(RVA = "0x4841D80", Offset = "0x4841D80", VA = "0x4841D80")]
+	[Address(RVA = "0x2778BF0", Offset = "0x27771F0", VA = "0x182778BF0")]
 	protected void SendValidationEvent(string code)
 	{
 	}
 
 	[Token(Token = "0x6000F7A")]
-	[Address(RVA = "0x4841AF0", Offset = "0x4841AF0", VA = "0x4841AF0")]
+	[Address(RVA = "0x2778F60", Offset = "0x2777560", VA = "0x182778F60")]
 	protected void SendValidationEvent(string code, string[] args)
 	{
 	}
 
 	[Token(Token = "0x6000F7B")]
-	[Address(RVA = "0x4841A00", Offset = "0x4841A00", VA = "0x4841A00")]
+	[Address(RVA = "0x2778DC0", Offset = "0x27773C0", VA = "0x182778DC0")]
 	protected void SendValidationEvent(string code, string arg)
 	{
 	}
 
 	[Token(Token = "0x6000F7C")]
-	[Address(RVA = "0x4841DA0", Offset = "0x4841DA0", VA = "0x4841DA0")]
+	[Address(RVA = "0x2778D30", Offset = "0x2777330", VA = "0x182778D30")]
 	protected void SendValidationEvent(XmlSchemaException e)
 	{
 	}
 
 	[Token(Token = "0x6000F7D")]
-	[Address(RVA = "0x4841E80", Offset = "0x4841E80", VA = "0x4841E80")]
+	[Address(RVA = "0x2778C10", Offset = "0x2777210", VA = "0x182778C10")]
 	protected void SendValidationEvent(string code, string msg, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x6000F7E")]
-	[Address(RVA = "0x4841F70", Offset = "0x4841F70", VA = "0x4841F70")]
+	[Address(RVA = "0x2778AD0", Offset = "0x27770D0", VA = "0x182778AD0")]
 	protected void SendValidationEvent(string code, string[] args, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x4841DB0", Offset = "0x4841DB0", VA = "0x4841DB0")]
+	[Address(RVA = "0x2778ED0", Offset = "0x27774D0", VA = "0x182778ED0")]
 	protected void SendValidationEvent(XmlSchemaException e, XmlSeverityType severity)
 	{
 	}
 
 	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x4842060", Offset = "0x4842060", VA = "0x4842060")]
+	[Address(RVA = "0x27786D0", Offset = "0x2776CD0", VA = "0x1827786D0")]
 	protected static void ProcessEntity(SchemaInfo sinfo, string name, object sender, ValidationEventHandler eventhandler, string baseUri, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000F81")]
-	[Address(RVA = "0x4842230", Offset = "0x4842230", VA = "0x4842230")]
+	[Address(RVA = "0x27788A0", Offset = "0x2776EA0", VA = "0x1827788A0")]
 	protected static void ProcessEntity(SchemaInfo sinfo, string name, IValidationEventHandling eventHandling, string baseUriStr, int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x4842440", Offset = "0x4842440", VA = "0x4842440")]
+	[Address(RVA = "0x27784E0", Offset = "0x2776AE0", VA = "0x1827784E0")]
 	public static BaseValidator CreateInstance(ValidationType valType, XmlValidatingReaderImpl reader, XmlSchemaCollection schemaCollection, IValidationEventHandling eventHandling, bool processIdentityConstraints)
 	{
 		return null;

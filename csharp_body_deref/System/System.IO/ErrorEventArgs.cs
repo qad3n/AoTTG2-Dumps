@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200035F")]
+[Token(Token = "0x2000280")]
 public class ErrorEventArgs : EventArgs
 {
 }

@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 namespace UnityEngine.Internal;
 
 [Serializable]
-[Token(Token = "0x200029E")]
+[Token(Token = "0x20002FC")]
 public class ExcludeFromDocsAttribute : Attribute
 {
-	[Token(Token = "0x6000E0F")]
-	[Address(RVA = "0x4E18350", Offset = "0x4E18350", VA = "0x4E18350")]
+	[Token(Token = "0x6001218")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ExcludeFromDocsAttribute()
 	{
 	}

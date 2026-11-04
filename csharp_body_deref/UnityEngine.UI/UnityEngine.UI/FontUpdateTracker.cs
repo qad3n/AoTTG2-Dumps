@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001B")]
 public static class FontUpdateTracker
 {
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x4000067")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<Font, HashSet<Text>> m_Tracked;
 
-	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4EFCCA0", Offset = "0x4EFCCA0", VA = "0x4EFCCA0")]
+	[Token(Token = "0x60000DD")]
+	[Address(RVA = "0x306D520", Offset = "0x306BB20", VA = "0x18306D520")]
 	public static void TrackText(Text t)
 	{
 	}
 
-	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x4EFCEF0", Offset = "0x4EFCEF0", VA = "0x4EFCEF0")]
+	[Token(Token = "0x60000DE")]
+	[Address(RVA = "0x306D320", Offset = "0x306B920", VA = "0x18306D320")]
 	private static void RebuildForFont(Font f)
 	{
 	}
 
-	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x4EFD0B0", Offset = "0x4EFD0B0", VA = "0x4EFD0B0")]
+	[Token(Token = "0x60000DF")]
+	[Address(RVA = "0x306D770", Offset = "0x306BD70", VA = "0x18306D770")]
 	public static void UntrackText(Text t)
 	{
 	}

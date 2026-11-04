@@ -11,16 +11,16 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.Archive;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x200004A")]
 [UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct ArchiveFileInfo
 {
-	[Token(Token = "0x40000B3")]
+	[Token(Token = "0x40000E6")]
 	[FieldOffset(Offset = "0x0")]
 	public string Filename;
 
-	[Token(Token = "0x40000B4")]
+	[Token(Token = "0x40000E7")]
 	[FieldOffset(Offset = "0x8")]
 	public ulong FileSize;
 }

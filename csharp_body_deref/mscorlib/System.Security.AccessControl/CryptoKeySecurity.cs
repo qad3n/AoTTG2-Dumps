@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Security.AccessControl;
 
-[Token(Token = "0x2000334")]
+[Token(Token = "0x2000363")]
 public sealed class CryptoKeySecurity : NativeObjectSecurity
 {
 }

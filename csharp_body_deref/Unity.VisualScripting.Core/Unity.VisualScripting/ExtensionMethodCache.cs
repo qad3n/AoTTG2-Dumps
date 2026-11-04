@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000FD")]
 internal class ExtensionMethodCache
 {
-	[Token(Token = "0x40001CC")]
+	[Token(Token = "0x40001CA")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly MethodInfo[] Cache;
 
-	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x4CCEDF0", Offset = "0x4CCEDF0", VA = "0x4CCEDF0")]
+	[Token(Token = "0x60006AE")]
+	[Address(RVA = "0x2DD6240", Offset = "0x2DD4840", VA = "0x182DD6240")]
 	internal ExtensionMethodCache()
 	{
 	}

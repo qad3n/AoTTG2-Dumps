@@ -11,103 +11,103 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x2000698")]
+[Token(Token = "0x20007F3")]
 internal class LeaderboardPopup : BasePopup
 {
-	[Token(Token = "0x4002046")]
+	[Token(Token = "0x400281E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public StringSetting CurrentCategory;
 
-	[Token(Token = "0x4002047")]
+	[Token(Token = "0x400281F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	public StringSetting CurrentSubcategory;
 
-	[Token(Token = "0x17000C9C")]
+	[Token(Token = "0x17000DE2")]
 	protected override string Title
 	{
-		[Token(Token = "0x60041D1")]
-		[Address(RVA = "0x4305590", Offset = "0x4305590", VA = "0x4305590", Slot = "35")]
+		[Token(Token = "0x6004CC6")]
+		[Address(RVA = "0x228D440", Offset = "0x228BA40", VA = "0x18228D440", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C9D")]
+	[Token(Token = "0x17000DE3")]
 	protected override float Width
 	{
-		[Token(Token = "0x60041D2")]
-		[Address(RVA = "0x4305630", Offset = "0x4305630", VA = "0x4305630", Slot = "5")]
+		[Token(Token = "0x6004CC7")]
+		[Address(RVA = "0x21BB440", Offset = "0x21B9A40", VA = "0x1821BB440", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C9E")]
+	[Token(Token = "0x17000DE4")]
 	protected override float Height
 	{
-		[Token(Token = "0x60041D3")]
-		[Address(RVA = "0x4305640", Offset = "0x4305640", VA = "0x4305640", Slot = "6")]
+		[Token(Token = "0x6004CC8")]
+		[Address(RVA = "0x228D430", Offset = "0x228BA30", VA = "0x18228D430", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C9F")]
+	[Token(Token = "0x17000DE5")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x60041D4")]
-		[Address(RVA = "0x4305650", Offset = "0x4305650", VA = "0x4305650", Slot = "16")]
+		[Token(Token = "0x6004CC9")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CA0")]
+	[Token(Token = "0x17000DE6")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x60041D5")]
-		[Address(RVA = "0x4305660", Offset = "0x4305660", VA = "0x4305660", Slot = "19")]
+		[Token(Token = "0x6004CCA")]
+		[Address(RVA = "0x228D400", Offset = "0x228BA00", VA = "0x18228D400", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CA1")]
+	[Token(Token = "0x17000DE7")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x60041D6")]
-		[Address(RVA = "0x4305690", Offset = "0x4305690", VA = "0x4305690", Slot = "53")]
+		[Token(Token = "0x6004CCB")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60041D7")]
-	[Address(RVA = "0x43056A0", Offset = "0x43056A0", VA = "0x43056A0", Slot = "20")]
+	[Token(Token = "0x6004CCC")]
+	[Address(RVA = "0x228D0F0", Offset = "0x228B6F0", VA = "0x18228D0F0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60041D8")]
-	[Address(RVA = "0x4305820", Offset = "0x4305820", VA = "0x4305820", Slot = "27")]
+	[Token(Token = "0x6004CCD")]
+	[Address(RVA = "0x228D050", Offset = "0x228B650", VA = "0x18228D050", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x60041D9")]
-	[Address(RVA = "0x43058C0", Offset = "0x43058C0", VA = "0x43058C0")]
+	[Token(Token = "0x6004CCE")]
+	[Address(RVA = "0x228CFF0", Offset = "0x228B5F0", VA = "0x18228CFF0")]
 	private void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60041DA")]
-	[Address(RVA = "0x4305930", Offset = "0x4305930", VA = "0x4305930")]
+	[Token(Token = "0x6004CCF")]
+	[Address(RVA = "0x228D320", Offset = "0x228B920", VA = "0x18228D320")]
 	public LeaderboardPopup()
 	{
 	}

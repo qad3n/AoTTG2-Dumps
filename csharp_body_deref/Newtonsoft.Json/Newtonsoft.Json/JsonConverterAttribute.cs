@@ -23,7 +23,7 @@ public sealed class JsonConverterAttribute : Attribute
 	public Type ConverterType
 	{
 		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x3D59BB0", Offset = "0x3D59BB0", VA = "0x3D59BB0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -34,7 +34,7 @@ public sealed class JsonConverterAttribute : Attribute
 	public object[]? ConverterParameters
 	{
 		[Token(Token = "0x600008F")]
-		[Address(RVA = "0x3D59BC0", Offset = "0x3D59BC0", VA = "0x3D59BC0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -43,13 +43,13 @@ public sealed class JsonConverterAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000090")]
-	[Address(RVA = "0x3D59BD0", Offset = "0x3D59BD0", VA = "0x3D59BD0")]
+	[Address(RVA = "0x1BCD000", Offset = "0x1BCB600", VA = "0x181BCD000")]
 	public JsonConverterAttribute(Type converterType)
 	{
 	}
 
 	[Token(Token = "0x6000091")]
-	[Address(RVA = "0x3D59C70", Offset = "0x3D59C70", VA = "0x3D59C70")]
+	[Address(RVA = "0x1BCCF40", Offset = "0x1BCB540", VA = "0x181BCCF40")]
 	public JsonConverterAttribute(Type converterType, params object[] converterParameters)
 	{
 	}

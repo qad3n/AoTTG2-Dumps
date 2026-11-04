@@ -12,109 +12,109 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [Serializable]
-[Token(Token = "0x20005C3")]
+[Token(Token = "0x2000595")]
 [ComVisible(true)]
 public class StringInfo
 {
-	[Token(Token = "0x4001949")]
+	[Token(Token = "0x400176A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[OptionalField(VersionAdded = 2)]
 	private string m_str;
 
 	[NonSerialized]
-	[Token(Token = "0x400194A")]
+	[Token(Token = "0x400176B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private int[] m_indexes;
 
-	[Token(Token = "0x170006BF")]
+	[Token(Token = "0x1700064C")]
 	private int[] Indexes
 	{
-		[Token(Token = "0x6002D2D")]
-		[Address(RVA = "0x3C5EEB0", Offset = "0x3C5EEB0", VA = "0x3C5EEB0")]
+		[Token(Token = "0x6002A3A")]
+		[Address(RVA = "0x1AABC20", Offset = "0x1AAA220", VA = "0x181AABC20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006C0")]
+	[Token(Token = "0x1700064D")]
 	public string String
 	{
-		[Token(Token = "0x6002D2E")]
-		[Address(RVA = "0x3C5F050", Offset = "0x3C5F050", VA = "0x3C5F050")]
+		[Token(Token = "0x6002A3B")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002D2F")]
-		[Address(RVA = "0x3C5ECF0", Offset = "0x3C5ECF0", VA = "0x3C5ECF0")]
+		[Token(Token = "0x6002A3C")]
+		[Address(RVA = "0x1AABCD0", Offset = "0x1AAA2D0", VA = "0x181AABCD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170006C1")]
+	[Token(Token = "0x1700064E")]
 	public int LengthInTextElements
 	{
-		[Token(Token = "0x6002D30")]
-		[Address(RVA = "0x3C5F060", Offset = "0x3C5F060", VA = "0x3C5F060")]
+		[Token(Token = "0x6002A3D")]
+		[Address(RVA = "0x1AABC70", Offset = "0x1AAA270", VA = "0x181AABC70")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6002D27")]
-	[Address(RVA = "0x3C5EC80", Offset = "0x3C5EC80", VA = "0x3C5EC80")]
+	[Token(Token = "0x6002A34")]
+	[Address(RVA = "0x1AABB40", Offset = "0x1AAA140", VA = "0x181AABB40")]
 	public StringInfo()
 	{
 	}
 
-	[Token(Token = "0x6002D28")]
-	[Address(RVA = "0x3C5ECD0", Offset = "0x3C5ECD0", VA = "0x3C5ECD0")]
+	[Token(Token = "0x6002A35")]
+	[Address(RVA = "0x1AABA90", Offset = "0x1AAA090", VA = "0x181AABA90")]
 	public StringInfo(string value)
 	{
 	}
 
-	[Token(Token = "0x6002D29")]
-	[Address(RVA = "0x3C5ED90", Offset = "0x3C5ED90", VA = "0x3C5ED90")]
+	[Token(Token = "0x6002A36")]
+	[Address(RVA = "0x1AAB840", Offset = "0x1AA9E40", VA = "0x181AAB840")]
 	[OnDeserializing]
 	private void OnDeserializing(StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6002D2A")]
-	[Address(RVA = "0x3C5EDC0", Offset = "0x3C5EDC0", VA = "0x3C5EDC0")]
+	[Token(Token = "0x6002A37")]
+	[Address(RVA = "0x1AAB800", Offset = "0x1AA9E00", VA = "0x181AAB800")]
 	[OnDeserialized]
 	private void OnDeserialized(StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6002D2B")]
-	[Address(RVA = "0x3C5EDF0", Offset = "0x3C5EDF0", VA = "0x3C5EDF0", Slot = "0")]
+	[Token(Token = "0x6002A38")]
+	[Address(RVA = "0x1AAB660", Offset = "0x1AA9C60", VA = "0x181AAB660", Slot = "0")]
 	[ComVisible(false)]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002D2C")]
-	[Address(RVA = "0x3C5EE80", Offset = "0x3C5EE80", VA = "0x3C5EE80", Slot = "2")]
+	[Token(Token = "0x6002A39")]
+	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
 	[ComVisible(false)]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002D31")]
-	[Address(RVA = "0x3C5F0C0", Offset = "0x3C5F0C0", VA = "0x3C5F0C0")]
+	[Token(Token = "0x6002A3E")]
+	[Address(RVA = "0x1AAB6F0", Offset = "0x1AA9CF0", VA = "0x181AAB6F0")]
 	internal static int GetCurrentTextElementLen(string str, int index, int len, ref UnicodeCategory ucCurrent, ref int currentCharCount)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002D32")]
-	[Address(RVA = "0x3C5EF00", Offset = "0x3C5EF00", VA = "0x3C5EF00")]
+	[Token(Token = "0x6002A3F")]
+	[Address(RVA = "0x1AAB860", Offset = "0x1AA9E60", VA = "0x181AAB860")]
 	public static int[] ParseCombiningCharacters(string str)
 	{
 		return null;

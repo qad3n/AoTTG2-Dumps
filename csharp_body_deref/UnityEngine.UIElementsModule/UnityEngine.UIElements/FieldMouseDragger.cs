@@ -11,101 +11,101 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000201")]
+[Token(Token = "0x200024B")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public class FieldMouseDragger<T> : BaseFieldMouseDragger
 {
-	[Token(Token = "0x4000716")]
+	[Token(Token = "0x4000864")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly IValueField<T> m_DrivenField;
 
-	[Token(Token = "0x4000717")]
+	[Token(Token = "0x4000865")]
 	[FieldOffset(Offset = "0x0")]
 	private VisualElement m_DragElement;
 
-	[Token(Token = "0x4000718")]
+	[Token(Token = "0x4000866")]
 	[FieldOffset(Offset = "0x0")]
 	private Rect m_DragHotZone;
 
-	[Token(Token = "0x1700025F")]
+	[Token(Token = "0x170002EB")]
 	public bool dragging
 	{
-		[Token(Token = "0x6000CF3")]
+		[Token(Token = "0x6000F37")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000CF4")]
+		[Token(Token = "0x6000F38")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000260")]
+	[Token(Token = "0x170002EC")]
 	public T startValue
 	{
-		[Token(Token = "0x6000CF5")]
+		[Token(Token = "0x6000F39")]
 		[CompilerGenerated]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x6000CF6")]
+		[Token(Token = "0x6000F3A")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CF2")]
+	[Token(Token = "0x6000F36")]
 	public FieldMouseDragger(IValueField<T> drivenField)
 	{
 	}
 
-	[Token(Token = "0x6000CF7")]
+	[Token(Token = "0x6000F3B")]
 	public sealed override void SetDragZone(VisualElement dragElement, Rect hotZone)
 	{
 	}
 
-	[Token(Token = "0x6000CF8")]
+	[Token(Token = "0x6000F3C")]
 	private bool CanStartDrag(int button, Vector2 localPosition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CF9")]
+	[Token(Token = "0x6000F3D")]
 	private void UpdateValueOnPointerDown(PointerDownEvent evt)
 	{
 	}
 
-	[Token(Token = "0x6000CFA")]
+	[Token(Token = "0x6000F3E")]
 	private void ProcessDownEvent(EventBase evt)
 	{
 	}
 
-	[Token(Token = "0x6000CFB")]
+	[Token(Token = "0x6000F3F")]
 	private void UpdateValueOnPointerMove(PointerMoveEvent evt)
 	{
 	}
 
-	[Token(Token = "0x6000CFC")]
+	[Token(Token = "0x6000F40")]
 	private void ProcessMoveEvent(bool shiftKey, bool altKey, Vector2 deltaPosition)
 	{
 	}
 
-	[Token(Token = "0x6000CFD")]
+	[Token(Token = "0x6000F41")]
 	private void UpdateValueOnPointerUp(PointerUpEvent evt)
 	{
 	}
 
-	[Token(Token = "0x6000CFE")]
+	[Token(Token = "0x6000F42")]
 	private void ProcessUpEvent(EventBase evt, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000CFF")]
+	[Token(Token = "0x6000F43")]
 	private void UpdateValueOnKeyDown(KeyDownEvent evt)
 	{
 	}

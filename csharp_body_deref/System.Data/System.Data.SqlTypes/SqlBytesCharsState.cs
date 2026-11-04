@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x20000AC")]
 internal enum SqlBytesCharsState
 {
-	[Token(Token = "0x4000356")]
+	[Token(Token = "0x4000369")]
 	Null = 0,
-	[Token(Token = "0x4000357")]
+	[Token(Token = "0x400036A")]
 	Buffer = 1,
-	[Token(Token = "0x4000358")]
+	[Token(Token = "0x400036B")]
 	Stream = 3
 }

@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x2000019")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
 [VisibleToOtherModules]
 internal class PreventReadOnlyInstanceModificationAttribute : Attribute
 {
-	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4E9E3F0", Offset = "0x4E9E3F0", VA = "0x4E9E3F0")]
+	[Token(Token = "0x6000037")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public PreventReadOnlyInstanceModificationAttribute()
 	{
 	}

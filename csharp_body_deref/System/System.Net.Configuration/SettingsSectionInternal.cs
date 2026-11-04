@@ -12,171 +12,171 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20001E1")]
+[Token(Token = "0x200036E")]
 internal sealed class SettingsSectionInternal
 {
-	[Token(Token = "0x40009D8")]
+	[Token(Token = "0x4000E07")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly SettingsSectionInternal instance;
 
-	[Token(Token = "0x40009D9")]
+	[Token(Token = "0x4000E08")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly bool HttpListenerUnescapeRequestUrl;
 
-	[Token(Token = "0x40009DA")]
+	[Token(Token = "0x4000E09")]
 	[FieldOffset(Offset = "0x14")]
 	internal readonly IPProtectionLevel IPProtectionLevel;
 
-	[Token(Token = "0x170002BD")]
+	[Token(Token = "0x17000511")]
 	internal static SettingsSectionInternal Section
 	{
-		[Token(Token = "0x6000BAC")]
-		[Address(RVA = "0x49A4BA0", Offset = "0x49A4BA0", VA = "0x49A4BA0")]
+		[Token(Token = "0x6001768")]
+		[Address(RVA = "0x27F6BF0", Offset = "0x27F51F0", VA = "0x1827F6BF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170002BE")]
+	[Token(Token = "0x17000512")]
 	internal bool UseNagleAlgorithm
 	{
-		[Token(Token = "0x6000BAD")]
-		[Address(RVA = "0x49A4C10", Offset = "0x49A4C10", VA = "0x49A4C10")]
+		[Token(Token = "0x6001769")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000BAE")]
-		[Address(RVA = "0x49A4C20", Offset = "0x49A4C20", VA = "0x49A4C20")]
+		[Token(Token = "0x600176A")]
+		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002BF")]
+	[Token(Token = "0x17000513")]
 	internal bool Expect100Continue
 	{
-		[Token(Token = "0x6000BAF")]
-		[Address(RVA = "0x49A4C30", Offset = "0x49A4C30", VA = "0x49A4C30")]
+		[Token(Token = "0x600176B")]
+		[Address(RVA = "0xE8F450", Offset = "0xE8DA50", VA = "0x180E8F450")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000BB0")]
-		[Address(RVA = "0x49A4C40", Offset = "0x49A4C40", VA = "0x49A4C40")]
+		[Token(Token = "0x600176C")]
+		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C0")]
+	[Token(Token = "0x17000514")]
 	internal bool CheckCertificateName
 	{
-		[Token(Token = "0x6000BB1")]
-		[Address(RVA = "0x49A4C50", Offset = "0x49A4C50", VA = "0x49A4C50")]
+		[Token(Token = "0x600176D")]
+		[Address(RVA = "0xB15840", Offset = "0xB13E40", VA = "0x180B15840")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000BB2")]
-		[Address(RVA = "0x49A4C60", Offset = "0x49A4C60", VA = "0x49A4C60")]
+		[Token(Token = "0x600176E")]
+		[Address(RVA = "0x1CB9D80", Offset = "0x1CB8380", VA = "0x181CB9D80")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C1")]
+	[Token(Token = "0x17000515")]
 	internal int DnsRefreshTimeout
 	{
-		[Token(Token = "0x6000BB3")]
-		[Address(RVA = "0x49A4C70", Offset = "0x49A4C70", VA = "0x49A4C70")]
+		[Token(Token = "0x600176F")]
+		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000BB4")]
-		[Address(RVA = "0x49A4C80", Offset = "0x49A4C80", VA = "0x49A4C80")]
+		[Token(Token = "0x6001770")]
+		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C2")]
+	[Token(Token = "0x17000516")]
 	internal bool EnableDnsRoundRobin
 	{
-		[Token(Token = "0x6000BB5")]
-		[Address(RVA = "0x49A4C90", Offset = "0x49A4C90", VA = "0x49A4C90")]
+		[Token(Token = "0x6001771")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000BB6")]
-		[Address(RVA = "0x49A4CA0", Offset = "0x49A4CA0", VA = "0x49A4CA0")]
+		[Token(Token = "0x6001772")]
+		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C3")]
+	[Token(Token = "0x17000517")]
 	internal bool CheckCertificateRevocationList
 	{
-		[Token(Token = "0x6000BB7")]
-		[Address(RVA = "0x49A4CB0", Offset = "0x49A4CB0", VA = "0x49A4CB0")]
+		[Token(Token = "0x6001773")]
+		[Address(RVA = "0x1991920", Offset = "0x198FF20", VA = "0x181991920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000BB8")]
-		[Address(RVA = "0x49A4CC0", Offset = "0x49A4CC0", VA = "0x49A4CC0")]
+		[Token(Token = "0x6001774")]
+		[Address(RVA = "0x1991EB0", Offset = "0x19904B0", VA = "0x181991EB0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C4")]
+	[Token(Token = "0x17000518")]
 	internal EncryptionPolicy EncryptionPolicy
 	{
-		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x49A4CD0", Offset = "0x49A4CD0", VA = "0x49A4CD0")]
+		[Token(Token = "0x6001775")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		[CompilerGenerated]
 		get
 		{
 			return default(EncryptionPolicy);
 		}
-		[Token(Token = "0x6000BBA")]
-		[Address(RVA = "0x49A4CE0", Offset = "0x49A4CE0", VA = "0x49A4CE0")]
+		[Token(Token = "0x6001776")]
+		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002C5")]
+	[Token(Token = "0x17000519")]
 	internal bool Ipv6Enabled
 	{
-		[Token(Token = "0x6000BBB")]
-		[Address(RVA = "0x49A4CF0", Offset = "0x49A4CF0", VA = "0x49A4CF0")]
+		[Token(Token = "0x6001777")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000BBC")]
-	[Address(RVA = "0x49A4D00", Offset = "0x49A4D00", VA = "0x49A4D00")]
+	[Token(Token = "0x6001778")]
+	[Address(RVA = "0x27F6BD0", Offset = "0x27F51D0", VA = "0x1827F6BD0")]
 	public SettingsSectionInternal()
 	{
 	}

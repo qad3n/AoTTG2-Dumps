@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x2000598")]
+[Token(Token = "0x200056C")]
 [Flags]
 public enum CultureTypes
 {
-	[Token(Token = "0x400177A")]
+	[Token(Token = "0x40015CB")]
 	NeutralCultures = 1,
-	[Token(Token = "0x400177B")]
+	[Token(Token = "0x40015CC")]
 	SpecificCultures = 2,
-	[Token(Token = "0x400177C")]
+	[Token(Token = "0x40015CD")]
 	InstalledWin32Cultures = 4,
-	[Token(Token = "0x400177D")]
-	AllCultures = 7,
-	[Token(Token = "0x400177E")]
+	[Token(Token = "0x40015CE")]
+	AllCultures = NeutralCultures | SpecificCultures | InstalledWin32Cultures,
+	[Token(Token = "0x40015CF")]
 	UserCustomCulture = 8,
-	[Token(Token = "0x400177F")]
+	[Token(Token = "0x40015D0")]
 	ReplacementCultures = 0x10,
-	[Token(Token = "0x4001780")]
+	[Token(Token = "0x40015D1")]
 	[Obsolete("This value has been deprecated.  Please use other values in CultureTypes.")]
 	WindowsOnlyCultures = 0x20,
-	[Token(Token = "0x4001781")]
+	[Token(Token = "0x40015D2")]
 	[Obsolete("This value has been deprecated.  Please use other values in CultureTypes.")]
 	FrameworkCultures = 0x40
 }

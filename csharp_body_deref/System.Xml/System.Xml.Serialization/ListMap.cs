@@ -24,7 +24,7 @@ internal class ListMap : ObjectMap
 	public string ChoiceMember
 	{
 		[Token(Token = "0x6000EFE")]
-		[Address(RVA = "0x483C860", Offset = "0x483C860", VA = "0x483C860")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
@@ -34,61 +34,61 @@ internal class ListMap : ObjectMap
 	public XmlTypeMapElementInfoList ItemInfo
 	{
 		[Token(Token = "0x6000EFF")]
-		[Address(RVA = "0x483C870", Offset = "0x483C870", VA = "0x483C870")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F00")]
-		[Address(RVA = "0x483C880", Offset = "0x483C880", VA = "0x483C880")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F01")]
-	[Address(RVA = "0x4835230", Offset = "0x4835230", VA = "0x4835230")]
+	[Address(RVA = "0x277F3B0", Offset = "0x277D9B0", VA = "0x18277F3B0")]
 	public XmlTypeMapElementInfo FindElement(object ob, int index, object memberValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F02")]
-	[Address(RVA = "0x483C890", Offset = "0x483C890", VA = "0x483C890")]
+	[Address(RVA = "0x277F980", Offset = "0x277DF80", VA = "0x18277F980")]
 	public XmlTypeMapElementInfo FindElement(string elementName, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F03")]
-	[Address(RVA = "0x483CC50", Offset = "0x483CC50", VA = "0x483CC50")]
+	[Address(RVA = "0x277FB60", Offset = "0x277E160", VA = "0x18277FB60")]
 	public XmlTypeMapElementInfo FindTextElement()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F04")]
-	[Address(RVA = "0x4834FC0", Offset = "0x4834FC0", VA = "0x4834FC0")]
+	[Address(RVA = "0x277FD40", Offset = "0x277E340", VA = "0x18277FD40")]
 	public void GetArrayType(int itemCount, out string localName, out string ns)
 	{
 	}
 
 	[Token(Token = "0x6000F05")]
-	[Address(RVA = "0x483D020", Offset = "0x483D020", VA = "0x483D020", Slot = "0")]
+	[Address(RVA = "0x277F230", Offset = "0x277D830", VA = "0x18277F230", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F06")]
-	[Address(RVA = "0x483D180", Offset = "0x483D180", VA = "0x483D180", Slot = "2")]
+	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000F07")]
-	[Address(RVA = "0x483D190", Offset = "0x483D190", VA = "0x483D190")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ListMap()
 	{
 	}

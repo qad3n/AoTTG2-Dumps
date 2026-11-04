@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200008E")]
 public enum MouseButton
 {
-	[Token(Token = "0x4000126")]
+	[Token(Token = "0x4000124")]
 	Left,
-	[Token(Token = "0x4000127")]
+	[Token(Token = "0x4000125")]
 	Right,
-	[Token(Token = "0x4000128")]
+	[Token(Token = "0x4000126")]
 	Middle
 }

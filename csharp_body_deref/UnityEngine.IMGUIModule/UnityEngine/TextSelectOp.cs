@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200002B")]
+[Token(Token = "0x200002F")]
 internal enum TextSelectOp
 {
-	[Token(Token = "0x4000134")]
-	SelectLeft,
-	[Token(Token = "0x4000135")]
-	SelectRight,
-	[Token(Token = "0x4000136")]
-	SelectUp,
-	[Token(Token = "0x4000137")]
-	SelectDown,
-	[Token(Token = "0x4000138")]
-	SelectTextStart,
-	[Token(Token = "0x4000139")]
-	SelectTextEnd,
 	[Token(Token = "0x400013A")]
-	SelectPageUp,
+	SelectLeft,
 	[Token(Token = "0x400013B")]
-	SelectPageDown,
+	SelectRight,
 	[Token(Token = "0x400013C")]
-	ExpandSelectGraphicalLineStart,
+	SelectUp,
 	[Token(Token = "0x400013D")]
-	ExpandSelectGraphicalLineEnd,
+	SelectDown,
 	[Token(Token = "0x400013E")]
-	SelectGraphicalLineStart,
+	SelectTextStart,
 	[Token(Token = "0x400013F")]
-	SelectGraphicalLineEnd,
+	SelectTextEnd,
 	[Token(Token = "0x4000140")]
-	SelectWordLeft,
+	SelectPageUp,
 	[Token(Token = "0x4000141")]
-	SelectWordRight,
+	SelectPageDown,
 	[Token(Token = "0x4000142")]
-	SelectToEndOfPreviousWord,
+	ExpandSelectGraphicalLineStart,
 	[Token(Token = "0x4000143")]
-	SelectToStartOfNextWord,
+	ExpandSelectGraphicalLineEnd,
 	[Token(Token = "0x4000144")]
-	SelectParagraphBackward,
+	SelectGraphicalLineStart,
 	[Token(Token = "0x4000145")]
-	SelectParagraphForward,
+	SelectGraphicalLineEnd,
 	[Token(Token = "0x4000146")]
-	Copy,
+	SelectWordLeft,
 	[Token(Token = "0x4000147")]
-	SelectAll,
+	SelectWordRight,
 	[Token(Token = "0x4000148")]
+	SelectToEndOfPreviousWord,
+	[Token(Token = "0x4000149")]
+	SelectToStartOfNextWord,
+	[Token(Token = "0x400014A")]
+	SelectParagraphBackward,
+	[Token(Token = "0x400014B")]
+	SelectParagraphForward,
+	[Token(Token = "0x400014C")]
+	Copy,
+	[Token(Token = "0x400014D")]
+	SelectAll,
+	[Token(Token = "0x400014E")]
 	SelectNone
 }

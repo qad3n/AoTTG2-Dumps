@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x200007A")]
 public interface IEncoderDirect<B> : IEncoder, IDisposable
 {
-	[Token(Token = "0x60002C1")]
+	[Token(Token = "0x60002BF")]
 	void Input(B buf);
 }

@@ -10,10 +10,10 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000019")]
+[Token(Token = "0x200001A")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AvatarBuilder.bindings.h")]
-[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "MonoHumanLimit")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/HumanDescription.h")]
+[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "MonoHumanLimit")]
 public struct HumanLimit
 {
 	[Token(Token = "0x400004D")]

@@ -11,303 +11,303 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000465")]
+[Token(Token = "0x20005BB")]
 [CompilerGenerated]
 internal class CustomLogicConvertBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x2000466")]
+	[Token(Token = "0x20005BC")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002DDE")]
-		[Address(RVA = "0x4131EE0", Offset = "0x4131EE0", VA = "0x4131EE0")]
+		[Token(Token = "0x6003750")]
+		[Address(RVA = "0x20AAFA0", Offset = "0x20A95A0", VA = "0x1820AAFA0")]
 		public static CustomLogicConvertBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000467")]
+	[Token(Token = "0x20005BD")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001260")]
+		[Token(Token = "0x40018A0")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002DDF")]
-		[Address(RVA = "0x4132000", Offset = "0x4132000", VA = "0x4132000")]
+		[Token(Token = "0x6003751")]
+		[Address(RVA = "0x208F6B0", Offset = "0x208DCB0", VA = "0x18208F6B0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE0")]
-		[Address(RVA = "0x4132650", Offset = "0x4132650", VA = "0x4132650")]
+		[Token(Token = "0x6003752")]
+		[Address(RVA = "0x2099490", Offset = "0x2097A90", VA = "0x182099490")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__ToFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE1")]
-		[Address(RVA = "0x41327A0", Offset = "0x41327A0", VA = "0x41327A0")]
+		[Token(Token = "0x6003753")]
+		[Address(RVA = "0x20995B0", Offset = "0x2097BB0", VA = "0x1820995B0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__ToInt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE2")]
-		[Address(RVA = "0x41328F0", Offset = "0x41328F0", VA = "0x41328F0")]
+		[Token(Token = "0x6003754")]
+		[Address(RVA = "0x2099370", Offset = "0x2097970", VA = "0x182099370")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__ToBool()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE3")]
-		[Address(RVA = "0x4132A40", Offset = "0x4132A40", VA = "0x4132A40")]
+		[Token(Token = "0x6003755")]
+		[Address(RVA = "0x2099800", Offset = "0x2097E00", VA = "0x182099800")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__ToString()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE4")]
-		[Address(RVA = "0x4132B90", Offset = "0x4132B90", VA = "0x4132B90")]
+		[Token(Token = "0x6003756")]
+		[Address(RVA = "0x20964A0", Offset = "0x2094AA0", VA = "0x1820964A0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsFloat()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE5")]
-		[Address(RVA = "0x4132CE0", Offset = "0x4132CE0", VA = "0x4132CE0")]
+		[Token(Token = "0x6003757")]
+		[Address(RVA = "0x20965C0", Offset = "0x2094BC0", VA = "0x1820965C0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsInt()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE6")]
-		[Address(RVA = "0x4132E30", Offset = "0x4132E30", VA = "0x4132E30")]
+		[Token(Token = "0x6003758")]
+		[Address(RVA = "0x2096260", Offset = "0x2094860", VA = "0x182096260")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsBool()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE7")]
-		[Address(RVA = "0x4132F80", Offset = "0x4132F80", VA = "0x4132F80")]
+		[Token(Token = "0x6003759")]
+		[Address(RVA = "0x2096920", Offset = "0x2094F20", VA = "0x182096920")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsString()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE8")]
-		[Address(RVA = "0x41330D0", Offset = "0x41330D0", VA = "0x41330D0")]
+		[Token(Token = "0x600375A")]
+		[Address(RVA = "0x2096800", Offset = "0x2094E00", VA = "0x182096800")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsObject()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DE9")]
-		[Address(RVA = "0x4133220", Offset = "0x4133220", VA = "0x4133220")]
+		[Token(Token = "0x600375B")]
+		[Address(RVA = "0x20966E0", Offset = "0x2094CE0", VA = "0x1820966E0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsList()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DEA")]
-		[Address(RVA = "0x4133370", Offset = "0x4133370", VA = "0x4133370")]
+		[Token(Token = "0x600375C")]
+		[Address(RVA = "0x2096380", Offset = "0x2094980", VA = "0x182096380")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__IsDict()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DEB")]
-		[Address(RVA = "0x41334C0", Offset = "0x41334C0", VA = "0x41334C0")]
+		[Token(Token = "0x600375D")]
+		[Address(RVA = "0x2095DC0", Offset = "0x20943C0", VA = "0x182095DC0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__HasVariable()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DEC")]
-		[Address(RVA = "0x4133610", Offset = "0x4133610", VA = "0x4133610")]
+		[Token(Token = "0x600375E")]
+		[Address(RVA = "0x2095360", Offset = "0x2093960", VA = "0x182095360")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__DefineVariable()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DED")]
-		[Address(RVA = "0x4133760", Offset = "0x4133760", VA = "0x4133760")]
+		[Token(Token = "0x600375F")]
+		[Address(RVA = "0x2098380", Offset = "0x2096980", VA = "0x182098380")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__RemoveVariable()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DEE")]
-		[Address(RVA = "0x41338B0", Offset = "0x41338B0", VA = "0x41338B0")]
+		[Token(Token = "0x6003760")]
+		[Address(RVA = "0x2095CA0", Offset = "0x20942A0", VA = "0x182095CA0")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__HasMethod()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002DEF")]
-		[Address(RVA = "0x4133A00", Offset = "0x4133A00", VA = "0x4133A00")]
+		[Token(Token = "0x6003761")]
+		[Address(RVA = "0x2095B70", Offset = "0x2094170", VA = "0x182095B70")]
 		public static CLMethodBinding<CustomLogicConvertBuiltin> __CreateMethodBinding__GetType()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000900")]
+	[Token(Token = "0x170009F5")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002DDA")]
-		[Address(RVA = "0x4131E80", Offset = "0x4131E80", VA = "0x4131E80", Slot = "4")]
+		[Token(Token = "0x600374C")]
+		[Address(RVA = "0x209FF30", Offset = "0x209E530", VA = "0x18209FF30", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000901")]
+	[Token(Token = "0x170009F6")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002DDB")]
-		[Address(RVA = "0x4131EB0", Offset = "0x4131EB0", VA = "0x4131EB0", Slot = "6")]
+		[Token(Token = "0x600374D")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000902")]
+	[Token(Token = "0x170009F7")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002DDC")]
-		[Address(RVA = "0x4131EC0", Offset = "0x4131EC0", VA = "0x4131EC0", Slot = "7")]
+		[Token(Token = "0x600374E")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000903")]
+	[Token(Token = "0x170009F8")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002DDD")]
-		[Address(RVA = "0x4131ED0", Offset = "0x4131ED0", VA = "0x4131ED0", Slot = "8")]
+		[Token(Token = "0x600374F")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002DC9")]
-	[Address(RVA = "0x4131820", Offset = "0x4131820", VA = "0x4131820")]
+	[Token(Token = "0x600373B")]
+	[Address(RVA = "0x209FEE0", Offset = "0x209E4E0", VA = "0x18209FEE0")]
 	public CustomLogicConvertBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6002DCA")]
-	[Address(RVA = "0x4131890", Offset = "0x4131890", VA = "0x4131890")]
+	[Token(Token = "0x600373C")]
+	[Address(RVA = "0x209FB40", Offset = "0x209E140", VA = "0x18209FB40")]
 	public static float ToFloat(object value)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6002DCB")]
-	[Address(RVA = "0x4131980", Offset = "0x4131980", VA = "0x4131980")]
+	[Token(Token = "0x600373D")]
+	[Address(RVA = "0x209FCF0", Offset = "0x209E2F0", VA = "0x18209FCF0")]
 	public static int ToInt(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002DCC")]
-	[Address(RVA = "0x41319E0", Offset = "0x41319E0", VA = "0x41319E0")]
+	[Token(Token = "0x600373E")]
+	[Address(RVA = "0x209F9F0", Offset = "0x209DFF0", VA = "0x18209F9F0")]
 	public static bool ToBool(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DCD")]
-	[Address(RVA = "0x4131A90", Offset = "0x4131A90", VA = "0x4131A90")]
+	[Token(Token = "0x600373F")]
+	[Address(RVA = "0x209FDF0", Offset = "0x209E3F0", VA = "0x18209FDF0")]
 	public static string ToString(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DCE")]
-	[Address(RVA = "0x4131B30", Offset = "0x4131B30", VA = "0x4131B30")]
+	[Token(Token = "0x6003740")]
+	[Address(RVA = "0x209F7F0", Offset = "0x209DDF0", VA = "0x18209F7F0")]
 	public static bool IsFloat(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DCF")]
-	[Address(RVA = "0x4131B50", Offset = "0x4131B50", VA = "0x4131B50")]
+	[Token(Token = "0x6003741")]
+	[Address(RVA = "0x209F820", Offset = "0x209DE20", VA = "0x18209F820")]
 	public static bool IsInt(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD0")]
-	[Address(RVA = "0x4131B70", Offset = "0x4131B70", VA = "0x4131B70")]
+	[Token(Token = "0x6003742")]
+	[Address(RVA = "0x209F740", Offset = "0x209DD40", VA = "0x18209F740")]
 	public static bool IsBool(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD1")]
-	[Address(RVA = "0x4131B90", Offset = "0x4131B90", VA = "0x4131B90")]
+	[Token(Token = "0x6003743")]
+	[Address(RVA = "0x209F950", Offset = "0x209DF50", VA = "0x18209F950")]
 	public static bool IsString(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD2")]
-	[Address(RVA = "0x4131BB0", Offset = "0x4131BB0", VA = "0x4131BB0")]
+	[Token(Token = "0x6003744")]
+	[Address(RVA = "0x209F8D0", Offset = "0x209DED0", VA = "0x18209F8D0")]
 	public static bool IsObject(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD3")]
-	[Address(RVA = "0x4131C10", Offset = "0x4131C10", VA = "0x4131C10")]
+	[Token(Token = "0x6003745")]
+	[Address(RVA = "0x209F850", Offset = "0x209DE50", VA = "0x18209F850")]
 	public static bool IsList(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD4")]
-	[Address(RVA = "0x4131C70", Offset = "0x4131C70", VA = "0x4131C70")]
+	[Token(Token = "0x6003746")]
+	[Address(RVA = "0x209F770", Offset = "0x209DD70", VA = "0x18209F770")]
 	public static bool IsDict(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD5")]
-	[Address(RVA = "0x4131CD0", Offset = "0x4131CD0", VA = "0x4131CD0")]
+	[Token(Token = "0x6003747")]
+	[Address(RVA = "0x209F720", Offset = "0x209DD20", VA = "0x18209F720")]
 	public static bool HasVariable(CustomLogicClassInstance cInstance, string variableName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD6")]
-	[Address(RVA = "0x4131CF0", Offset = "0x4131CF0", VA = "0x4131CF0")]
+	[Token(Token = "0x6003748")]
+	[Address(RVA = "0x209F5F0", Offset = "0x209DBF0", VA = "0x18209F5F0")]
 	public static void DefineVariable(CustomLogicClassInstance cInstance, string variableName, object value)
 	{
 	}
 
-	[Token(Token = "0x6002DD7")]
-	[Address(RVA = "0x4131D60", Offset = "0x4131D60", VA = "0x4131D60")]
+	[Token(Token = "0x6003749")]
+	[Address(RVA = "0x209F980", Offset = "0x209DF80", VA = "0x18209F980")]
 	public static void RemoveVariable(CustomLogicClassInstance cInstance, string variableName)
 	{
 	}
 
-	[Token(Token = "0x6002DD8")]
-	[Address(RVA = "0x4131DD0", Offset = "0x4131DD0", VA = "0x4131DD0")]
+	[Token(Token = "0x600374A")]
+	[Address(RVA = "0x209F6A0", Offset = "0x209DCA0", VA = "0x18209F6A0")]
 	public static bool HasMethod(CustomLogicClassInstance cInstance, string methodName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002DD9")]
-	[Address(RVA = "0x4131E60", Offset = "0x4131E60", VA = "0x4131E60")]
+	[Token(Token = "0x600374B")]
+	[Address(RVA = "0x209F670", Offset = "0x209DC70", VA = "0x18209F670")]
 	public static string GetType(CustomLogicClassInstance cInstance)
 	{
 		return null;

@@ -14,50 +14,50 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000168")]
 public class StaticPropertyAccessor<TProperty> : IOptimizedAccessor
 {
-	[Token(Token = "0x4000847")]
+	[Token(Token = "0x4000845")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly PropertyInfo propertyInfo;
 
-	[Token(Token = "0x4000848")]
+	[Token(Token = "0x4000846")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TProperty> getter;
 
-	[Token(Token = "0x4000849")]
+	[Token(Token = "0x4000847")]
 	[FieldOffset(Offset = "0x0")]
 	private Action<TProperty> setter;
 
-	[Token(Token = "0x400084A")]
+	[Token(Token = "0x4000848")]
 	[FieldOffset(Offset = "0x0")]
 	private Type targetType;
 
-	[Token(Token = "0x6000E73")]
+	[Token(Token = "0x6000E7D")]
 	public StaticPropertyAccessor(PropertyInfo propertyInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E74")]
+	[Token(Token = "0x6000E7E")]
 	public void Compile()
 	{
 	}
 
-	[Token(Token = "0x6000E75")]
+	[Token(Token = "0x6000E7F")]
 	public object GetValue(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E76")]
+	[Token(Token = "0x6000E80")]
 	private object GetValueUnsafe(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E77")]
+	[Token(Token = "0x6000E81")]
 	public void SetValue(object target, object value)
 	{
 	}
 
-	[Token(Token = "0x6000E78")]
+	[Token(Token = "0x6000E82")]
 	private void SetValueUnsafe(object target, object value)
 	{
 	}

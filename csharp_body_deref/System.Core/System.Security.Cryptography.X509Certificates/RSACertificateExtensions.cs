@@ -13,7 +13,7 @@ namespace System.Security.Cryptography.X509Certificates;
 public static class RSACertificateExtensions
 {
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x4490FF0", Offset = "0x4490FF0", VA = "0x4490FF0")]
+	[Address(RVA = "0x24248A0", Offset = "0x2422EA0", VA = "0x1824248A0")]
 	public static RSA GetRSAPublicKey(this X509Certificate2 certificate)
 	{
 		return null;

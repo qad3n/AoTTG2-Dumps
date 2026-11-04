@@ -11,16 +11,16 @@ using Il2CppDummyDll;
 namespace System.Security.Principal;
 
 [Serializable]
-[Token(Token = "0x200032D")]
+[Token(Token = "0x200035C")]
 [ComVisible(true)]
 public enum WindowsAccountType
 {
-	[Token(Token = "0x4000E3F")]
+	[Token(Token = "0x4000E4C")]
 	Normal,
-	[Token(Token = "0x4000E40")]
+	[Token(Token = "0x4000E4D")]
 	Guest,
-	[Token(Token = "0x4000E41")]
+	[Token(Token = "0x4000E4E")]
 	System,
-	[Token(Token = "0x4000E42")]
+	[Token(Token = "0x4000E4F")]
 	Anonymous
 }

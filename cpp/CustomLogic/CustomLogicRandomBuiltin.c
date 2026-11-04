@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicRandomBuiltin
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicRandomBuiltin.cs
@@ -8,472 +8,126 @@
 
 // CustomLogic.CustomLogicRandomBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicRandomBuiltin_o* CustomLogic_CustomLogicRandomBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x424f350
+// 0x1820ab200
 
 CustomLogic_CustomLogicRandomBuiltin_o *
 CustomLogic_CustomLogicRandomBuiltin_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
-  int iVar1;
   Il2CppObject *obj;
-  long lVar2;
-  uint in_EAX;
-  uint uVar3;
-  uint32_t uVar4;
-  bool_conflict bVar5;
-  CustomLogic_CustomLogicRandomBuiltin_o *pCVar6;
-  il2cpp_array_size_t iVar7;
-  System_String_o *pSVar8;
-  System_String_o *pSVar9;
+  uint uVar1;
+  CustomLogic_CustomLogicRandomBuiltin_o *pCVar2;
+  System_String_o *pSVar3;
   System_String_o *str2;
-  System_Exception_o *pSVar10;
-  undefined8 uVar11;
+  System_String_o *str0;
+  Il2CppClass *klass;
   System_ArgumentException_o *__this;
-  System_Func_T__object____object__o *pSVar12;
-  System_Exception_o **ppSVar13;
-  MethodInfo *method_00;
-  System_String_o *unaff_R14;
-  undefined8 unaff_R15;
-  System_Exception_o *pSStack_30;
-  System_Exception_o *pSStack_28;
-  undefined8 uStack_18;
+  MethodInfo *lastManagedFrame;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057adb4a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_ConvertTo_Int32);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicRandomBuiltin);
-    g_data_057adb4a = '\x01';
+  if (Il2CppMethodInitialized_18434685c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin);
+    Il2CppMethodInitialized_18434685c = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
+  local_res8[0] = 0;
   if (args == (System_Object_array *)0x0) {
-    iVar7 = il2cpp_runtime_helper_022b2c90();
+    ThrowNullReferenceException();
   }
-  else {
-    iVar7 = args->max_length;
-    if (iVar7 == 0) {
-      pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicRandomBuiltin);
-      if (g_data_057adb45 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-        g_data_057adb45 = '\x01';
-      }
-      if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar6,method);
-      return pCVar6;
+  if (args->max_length == 0) {
+    pCVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin);
+    if (Il2CppMethodInitialized_184346857 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+      Il2CppMethodInitialized_184346857 = '\x01';
     }
-    if ((int)iVar7 == 1) {
+    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+    }
+    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar2,(MethodInfo *)0x0);
+    return pCVar2;
+  }
+  if ((int)args->max_length == 1) {
+    if ((int)args->max_length != 0) {
       obj = args->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
       }
-      method_00 = MethodInfo_Int32_ConvertTo_Int32;
-      uVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_(obj,(MethodInfo_24EE950 *)MethodInfo_Int32_ConvertTo_Int32);
-      pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicRandomBuiltin);
-      if (g_data_057adb46 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-        g_data_057adb46 = '\x01';
+      uVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                        (obj,(MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+      pCVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin);
+      if (Il2CppMethodInitialized_184346858 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+        Il2CppMethodInitialized_184346858 = '\x01';
       }
-      if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
       }
-      CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar6,method_00);
-      uVar3 = uVar3 << 0xd ^ uVar3;
-      uVar3 = uVar3 >> 0x11 ^ uVar3;
-      (pCVar6->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
-      *(undefined1 *)&(pCVar6->fields).UseInstanceRandom = 1;
-      return pCVar6;
+      CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)pCVar2,(MethodInfo *)0x0);
+      (pCVar2->fields).UseInstanceRandom = true;
+      uVar1 = uVar1 << 0xd ^ uVar1;
+      uVar1 = uVar1 >> 0x11 ^ uVar1;
+      (pCVar2->fields).Rand.fields.state = uVar1 << 5 ^ uVar1;
+      return pCVar2;
     }
+    ThrowIndexOutOfRangeException();
   }
-  uStack_18 = CONCAT44((int)iVar7,(uint)uStack_18);
-  pSVar8 = System_Int32__ToString((int)&uStack_18 + 4,(MethodInfo *)0x0);
-  pSVar9 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"No CustomLogicRandomBuiltin constructor found that takes ");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&" arguments");
-  pSVar10 = (System_Exception_o *)System_String__Concat_3af7150(pSVar9,pSVar8,str2,(MethodInfo *)0x0);
-  uVar11 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentException);
-  __this = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar11);
-  System_ArgumentException___ctor_3c12490(__this,(System_String_o *)pSVar10,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicRandomBuiltin_CreateInstance);
-  pSStack_30 = (System_Exception_o *)il2cpp_runtime_helper_022b2b10();
-  ppSVar13 = &pSStack_30;
-  pSStack_28 = pSVar10;
-  if (g_data_057adb4b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"RandomBool");
-    il2cpp_runtime_helper_023445d0(&"RandomDirection");
-    il2cpp_runtime_helper_023445d0(&"PerlinNoise");
-    il2cpp_runtime_helper_023445d0(&"RandomFloat");
-    il2cpp_runtime_helper_023445d0(&"RandomVector3");
-    il2cpp_runtime_helper_023445d0(&"RandomInt");
-    il2cpp_runtime_helper_023445d0(&"RandomSign");
-    g_data_057adb4b = '\x01';
-  }
-  uVar4 = _PrivateImplementationDetails___ComputeStringHash((System_String_o *)__this,(MethodInfo *)0x0);
-  if (uVar4 < 0x90354281) {
-    if (uVar4 == 0x82de4eee) {
-      bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomVector3",(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSStack_30 = pSStack_28;
-        if (g_data_057adb4f == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomVector3_b__5_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb4f = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        else {
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x20) = pSVar12;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x20,pSVar12);
-        }
-        pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return pCVar6;
-      }
-    }
-    else if (uVar4 == 0x885c07e3) {
-      bVar5 = System_String__op_Equality((System_String_o *)__this,"PerlinNoise",(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSStack_30 = pSStack_28;
-        if (g_data_057adb52 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PerlinNoise_b__8_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb52 = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-        }
-        else {
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-        }
-        if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x38) = pSVar12;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x38,pSVar12);
-        }
-        pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return pCVar6;
-      }
-    }
-    else if ((uVar4 == 0x90354280) &&
-            (bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomFloat",(MethodInfo *)0x0),
-            (char)bVar5 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057adb4d == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomFloat_b__3_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb4d = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-      }
-      else {
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-      }
-      if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x10) = pSVar12;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x10,pSVar12);
-      }
-      pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor
-                ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return pCVar6;
-    }
-  }
-  else if (uVar4 < 0xb5b881f8) {
-    if (uVar4 == 0x91b5efce) {
-      bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomBool",(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSStack_30 = pSStack_28;
-        if (g_data_057adb4e == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomBool_b__4_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb4e = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        else {
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x18) = pSVar12;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pSVar12);
-        }
-        pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return pCVar6;
-      }
-    }
-    else if ((uVar4 == 0xb5b881f7) &&
-            (bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomDirection",(MethodInfo *)0x0),
-            (char)bVar5 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057adb50 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomDirection_b__6_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb50 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      else {
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x28) = pSVar12;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x28,pSVar12);
-      }
-      pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor
-                ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return pCVar6;
-    }
-  }
-  else if (uVar4 == 0xfb77f8cf) {
-    bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomSign",(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057adb51 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomSign_b__7_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb51 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-      }
-      else {
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-      }
-      if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x30) = pSVar12;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x30,pSVar12);
-      }
-      pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor
-                ((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return pCVar6;
-    }
-  }
-  else if ((uVar4 == 0xfa877c5b) &&
-          (bVar5 = System_String__op_Equality((System_String_o *)__this,"RandomInt",(MethodInfo *)0x0),
-          (char)bVar5 != '\0')) {
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      ppSVar13 = (System_Exception_o **)&uStack_18;
-      pSVar10 = pSStack_28;
-    }
-    else {
-      ppSVar13 = (System_Exception_o **)&uStack_18;
-      pSVar10 = pSStack_28;
-    }
-    goto CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt;
-  }
-  pSVar8 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  pSVar9 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicRandomBuiltin not found");
-  unaff_R14 = System_String__Concat_3af7150(pSVar8,(System_String_o *)__this,pSVar9,(MethodInfo *)0x0);
-  uVar11 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  pSVar10 = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar11);
-  System_Exception___ctor_3cf6120(pSVar10,unaff_R14,(MethodInfo *)0x0);
-  uVar11 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  il2cpp_runtime_helper_022b2b10(pSVar10,uVar11);
-CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt:
-  *(undefined8 *)((long)ppSVar13 + -8) = unaff_R15;
-  *(System_String_o **)((long)ppSVar13 + -0x10) = unaff_R14;
-  *(System_Exception_o **)((long)ppSVar13 + -0x18) = pSVar10;
-  if (g_data_057adb4c == '\0') {
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f959;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f965;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f971;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f97d;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomInt_b__2_0);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f989;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4c = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
-  }
-  if (iVar1 == 0) {
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f9ac;
-    il2cpp_runtime_helper_02337ed0();
-    pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  else {
-    pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f8fb;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f917;
-    pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f931;
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 8) = pSVar12;
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f94b;
-    il2cpp_runtime_helper_022b4080(lVar2 + 8,pSVar12);
-  }
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f9d2;
-  pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x424f9ea;
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)pCVar6,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-  return pCVar6;
+  NullCheck(args);
+  local_res8[0] = (int32_t)args->max_length;
+  pSVar3 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+  str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+  str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicRandomBuiltin constructor found that takes ");
+  pSVar3 = System_String__Concat_1969b70(str0,pSVar3,str2,(MethodInfo *)0x0);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+  __this = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+  System_ArgumentException___ctor_1a77cc0(__this,pSVar3,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Factory_CreateInstance);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this,lastManagedFrame);
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$.cctor
 // il2cpp: void CustomLogic_CustomLogicRandomBuiltin_Bindings___c___cctor (const MethodInfo* method);
-// 0x4250380
+// 0x1820b53e0
 
 void CustomLogic_CustomLogicRandomBuiltin_Bindings___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *__this;
   
-  if (g_data_057adb54 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb54 = '\x01';
+  if (Il2CppMethodInitialized_184346866 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346866 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9,__this);
   return;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRandomBuiltin_Bindings___c___ctor (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, const MethodInfo* method);
-// 0x42503f0
+// 0x18054c890
 
-void CustomLogic_CustomLogicRandomBuiltin_Bindings___c___ctor
-               (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *__this,MethodInfo *method)
+void
+CustomLogic_CustomLogicRandomBuiltin_Bindings___c___ctor(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomInt>b__2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomInt_b__2_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x4250400
+// 0x1820b1fc0
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomInt_b__2_0
@@ -481,505 +135,59 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_string__object__o *pSVar2;
-  byte bVar3;
-  char cVar4;
-  uint uVar5;
+  int32_t minInclusive;
   int32_t maxExclusive;
-  bool_conflict bVar6;
-  Il2CppObject *pIVar7;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar8;
-  undefined8 uVar9;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar10;
-  uint uVar11;
-  long lVar12;
-  long lVar13;
-  CustomLogic_CustomLogicVector3Builtin_o *unaff_RBX;
-  MethodInfo *pMVar14;
-  MethodInfo *pMVar15;
-  MethodInfo *pMVar16;
-  undefined8 *unaff_R12;
-  ulong unaff_R14;
-  float fVar17;
-  undefined1 extraout_var [12];
-  undefined1 auVar18 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar19 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar20;
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  UnityEngine_Vector3_o value;
-  undefined1 auVar25 [16];
-  undefined8 uStack_d8;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_d0;
-  undefined1 auStack_c8 [8];
-  MethodInfo *pMStack_c0;
-  undefined1 auStack_b8 [16];
-  undefined8 uStack_a8;
-  long lStack_a0;
-  System_Object_array *pSStack_98;
-  undefined8 uStack_90;
-  long lStack_88;
-  undefined8 *puStack_80;
-  MethodInfo *pMStack_78;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_70;
-  undefined8 uStack_68;
-  undefined8 uStack_60;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_58;
-  undefined8 *puStack_50;
-  ulong uStack_48;
-  CustomLogic_CustomLogicRandomBuiltin_o *pCStack_40;
-  int iStack_2c;
-  undefined1 auVar24 [16];
+  Il2CppObject *pIVar1;
+  uint uVar2;
+  int32_t local_res18 [4];
   
-  pMVar14 = (MethodInfo *)__c;
-  if (g_data_057adb55 == '\0') {
-    pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250427;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_ConvertTo_Int32);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250433;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb55 = '\x01';
+  if (Il2CppMethodInitialized_184346867 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184346867 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      unaff_RBX = (CustomLogic_CustomLogicVector3Builtin_o *)__a->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250469;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_Int32_ConvertTo_Int32;
-      pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x425047c;
-      pMVar14 = MethodInfo_Int32_ConvertTo_Int32;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)unaff_RBX;
-      uVar5 = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                        ((Il2CppObject *)unaff_RBX,(MethodInfo_24EE950 *)MethodInfo_Int32_ConvertTo_Int32);
-      if (1 < (uint)__a->max_length) {
-        unaff_R14 = (ulong)uVar5;
-        __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a->m_Items[1];
-        pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250492;
-        pMVar14 = MethodInfo_Int32_ConvertTo_Int32;
-        maxExclusive = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
-                                 ((Il2CppObject *)__this,(MethodInfo_24EE950 *)MethodInfo_Int32_ConvertTo_Int32);
-        if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-          if ((char)(__c->fields).UseInstanceRandom == '\0') {
-            pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x42504d7;
-            iStack_2c = UnityEngine_Random__Range_4df2410(uVar5,maxExclusive,(MethodInfo *)0x0);
-          }
-          else {
-            uVar10 = (__c->fields).Rand.fields.state;
-            uVar11 = uVar10 << 0xd ^ uVar10;
-            uVar11 = uVar11 >> 0x11 ^ uVar11;
-            (__c->fields).Rand.fields.state = uVar11 << 5 ^ uVar11;
-            iStack_2c = (int)((ulong)(maxExclusive - uVar5) * (ulong)uVar10 >> 0x20) + uVar5;
-          }
-          pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x42504f0;
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&iStack_2c);
-          return pIVar7;
+  if (__a == (System_Object_array *)0x0) {
+label_1820b20c6:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    pIVar1 = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    minInclusive = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                             (pIVar1,(MethodInfo_66E9A0 *)
+                                     MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int);
+    if (1 < (uint)__a->max_length) {
+      maxExclusive = CustomLogic_CustomLogicEvaluator__ConvertTo_int_
+                               (__a->m_Items[1],
+                                (MethodInfo_66E9A0 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_int
+                               );
+      if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
+        if ((__c->fields).UseInstanceRandom == false) {
+          local_res18[0] = UnityEngine_Random__RandomRangeInt(minInclusive,maxExclusive,(MethodInfo *)0x0);
         }
-        goto label_04250502;
-      }
-    }
-    pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250502;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250502:
-  pCStack_40 = (CustomLogic_CustomLogicRandomBuiltin_o *)0x4250507;
-  auVar25 = il2cpp_runtime_helper_022b2c90();
-  lVar12 = auVar25._8_8_;
-  uStack_60 = auVar25._0_8_;
-  pMVar15 = pMVar14;
-  pCStack_58 = unaff_RBX;
-  puStack_50 = unaff_R12;
-  uStack_48 = unaff_R14;
-  pCStack_40 = __c;
-  if (g_data_057adb56 == '\0') {
-    uStack_68 = 0x4250533;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    uStack_68 = 0x425053f;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb56 = '\x01';
-  }
-  if (lVar12 != 0) {
-    if (*(int *)(lVar12 + 0x18) != 0) {
-      __c = *(CustomLogic_CustomLogicRandomBuiltin_o **)(lVar12 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        uStack_68 = 0x4250575;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_Single_ConvertTo_Single;
-      uStack_68 = 0x4250588;
-      pMVar15 = MethodInfo_Single_ConvertTo_Single;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__c;
-      fVar17 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__c,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_60 = CONCAT44(uStack_60._4_4_,fVar17);
-      if (1 < *(uint *)(lVar12 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar12 + 0x28);
-        uStack_68 = 0x42505a4;
-        pMVar15 = MethodInfo_Single_ConvertTo_Single;
-        fVar17 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar14 != (MethodInfo *)0x0) {
-          if (*(char *)((long)&pMVar14->parameters + 4) == '\0') {
-            uStack_68 = 0x4250607;
-            fVar17 = UnityEngine_Random__Range((float)uStack_60,fVar17,(MethodInfo *)0x0);
-          }
-          else {
-            uVar5 = *(uint *)&pMVar14->parameters;
-            uVar10 = uVar5 << 0xd ^ uVar5;
-            uVar10 = uVar10 >> 0x11 ^ uVar10;
-            *(uint *)&pMVar14->parameters = uVar10 << 5 ^ uVar10;
-            fVar17 = (fVar17 - (float)uStack_60) * ((float)(uVar5 >> 9 | 0x3f800000) + -1.0) +
-                     (float)uStack_60;
-          }
-          uStack_60 = CONCAT44(fVar17,(float)uStack_60);
-          uStack_68 = 0x4250625;
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_60 + 4);
-          return pIVar7;
+        else {
+          uVar2 = (__c->fields).Rand.fields.state << 0xd ^ (__c->fields).Rand.fields.state;
+          uVar2 = uVar2 >> 0x11 ^ uVar2;
+          local_res18[0] =
+               (int)((ulonglong)(uint)(maxExclusive - minInclusive) *
+                     (ulonglong)(__c->fields).Rand.fields.state >> 0x20) + minInclusive;
+          (__c->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
         }
-        goto label_04250636;
+        pIVar1 = il2cpp_value_box(g_data_184354e08,local_res18);
+        return pIVar1;
       }
-    }
-    uStack_68 = 0x4250636;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250636:
-  uStack_68 = 0x425063b;
-  uStack_68 = il2cpp_runtime_helper_022b2c90();
-  if (pMVar15 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar15->parameters + 4) == '\0') {
-      pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x4250672;
-      bVar6 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-      bVar3 = (byte)bVar6;
-    }
-    else {
-      uVar5 = *(uint *)&pMVar15->parameters;
-      uVar10 = uVar5 << 0xd ^ uVar5;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar15->parameters = uVar10 << 5 ^ uVar10;
-      bVar3 = (byte)uVar5 & 1;
-    }
-    uStack_68 = CONCAT17(bVar3,(undefined7)uStack_68);
-    pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x425068b;
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_68 + 7);
-    return pIVar7;
-  }
-  pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x4250692;
-  auVar25 = il2cpp_runtime_helper_022b2c90();
-  lVar13 = auVar25._8_8_;
-  uStack_90 = auVar25._0_8_;
-  pMVar16 = pMVar15;
-  lStack_88 = lVar12;
-  puStack_80 = unaff_R12;
-  pMStack_78 = pMVar14;
-  pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)__c;
-  if (g_data_057adb57 == '\0') {
-    pSStack_98 = (System_Object_array *)0x42506c3;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    pSStack_98 = (System_Object_array *)0x42506cf;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb57 = '\x01';
-  }
-  if (lVar13 != 0) {
-    pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)__c;
-    if (*(int *)(lVar13 + 0x18) != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)(lVar13 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        pSStack_98 = (System_Object_array *)0x42506fd;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      pSStack_98 = (System_Object_array *)0x4250710;
-      pMVar16 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      __c = (CustomLogic_CustomLogicRandomBuiltin_o *)
-            CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                      ((Il2CppObject *)pCVar8,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-      if (1 < *(uint *)(lVar13 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar13 + 0x28);
-        pSStack_98 = (System_Object_array *)0x4250726;
-        pMVar16 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-        pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                 CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           ((Il2CppObject *)__this,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-        if (pMVar15 != (MethodInfo *)0x0) {
-          pCVar8 = CustomLogic_CustomLogicRandomBuiltin__RandomVector3
-                             ((CustomLogic_CustomLogicRandomBuiltin_o *)pMVar15,
-                              (CustomLogic_CustomLogicVector3Builtin_o *)__c,pCVar8,method);
-          return (Il2CppObject *)pCVar8;
-        }
-        goto label_04250749;
-      }
-    }
-    __c = (CustomLogic_CustomLogicRandomBuiltin_o *)pCVar8;
-    pSStack_98 = (System_Object_array *)0x4250749;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250749:
-  pSStack_98 = (System_Object_array *)0x425074e;
-  auVar25 = il2cpp_runtime_helper_022b2c90();
-  pCVar8 = auVar25._8_8_;
-  uStack_a8 = auVar25._0_8_;
-  pMVar14 = pMVar16;
-  lStack_a0 = lVar13;
-  pSStack_98 = (System_Object_array *)pMVar15;
-  if (g_data_057adb58 == '\0') {
-    auStack_b8._8_8_ = 0x425076f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertTo_Boolean);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    auStack_b8._8_8_ = 0x425077b;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb58 = '\x01';
-  }
-  if (pCVar8 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-label_042507e0:
-    auStack_b8._8_8_ = 0x42507e5;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar2 = (pCVar8->fields).Variables;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_string__object__o *)0x0) {
-      cVar4 = '\0';
-joined_r0x042507de:
-      if (pMVar16 == (MethodInfo *)0x0) goto label_042507e0;
-      pSStack_98 = __a;
-      if (g_data_057adb48 == '\0') {
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424efe0;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057adb48 = '\x01';
-      }
-      if (*(char *)((long)&pMVar16->parameters + 4) == '\0') {
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f041;
-        auVar25._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar25._4_12_ = extraout_var;
-        if (*(char *)((long)&pMVar16->parameters + 4) != '\0') goto label_0424f04b;
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f23b;
-        _auStack_c8 = auVar25;
-        fVar17 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auStack_b8._4_4_ = extraout_var_01._0_4_;
-        auVar25 = _auStack_c8;
-        if (*(char *)((long)&pMVar16->parameters + 4) == '\0') {
-          auStack_b8._0_4_ = fVar17;
-          auStack_b8._8_4_ = extraout_var_01._4_4_;
-          auStack_b8._12_4_ = extraout_var_01._8_4_;
-          pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f269;
-          fVar17 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-          auVar21._4_4_ = extraout_var_02._0_4_;
-          auVar21._0_4_ = fVar17;
-          auVar21._8_4_ = extraout_var_02._4_4_;
-          auVar21._12_4_ = extraout_var_02._8_4_;
-          auVar24._8_4_ = auStack_c8._4_4_;
-          auVar24._0_8_ = auStack_c8;
-          auVar24._12_4_ = auStack_b8._4_4_;
-          auVar23._8_8_ = auVar24._8_8_;
-          auVar23._0_4_ = auStack_c8._0_4_;
-          auVar23._4_4_ = auStack_b8._0_4_;
-          auStack_b8 = auVar23;
-          auVar25 = _auStack_c8;
-          goto joined_r0x0424f27e;
-        }
-      }
-      else {
-        uVar5 = *(uint *)&pMVar16->parameters;
-        uVar10 = uVar5 << 0xd ^ uVar5;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar16->parameters = uVar10 << 5 ^ uVar10;
-        fVar17 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-        auVar25 = ZEXT416((uint)(fVar17 + fVar17 + -1.0));
-label_0424f04b:
-        uVar5 = *(uint *)&pMVar16->parameters;
-        uVar10 = uVar5 << 0xd ^ uVar5;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar16->parameters = uVar10 << 5 ^ uVar10;
-        fVar17 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-        fVar17 = fVar17 + fVar17 + -1.0;
-        auStack_b8._4_4_ = 0;
-      }
-      uVar5 = *(uint *)&pMVar16->parameters;
-      uVar10 = uVar5 << 0xd ^ uVar5;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar16->parameters = uVar10 << 5 ^ uVar10;
-      fVar20 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-      auVar21 = ZEXT416((uint)(fVar20 + fVar20 + -1.0));
-      auVar22._0_8_ = auVar25._0_8_;
-      auVar22._8_4_ = auVar25._4_4_;
-      auVar22._12_4_ = auStack_b8._4_4_;
-      auStack_b8._8_8_ = auVar22._8_8_;
-      auStack_b8._0_4_ = auVar25._0_4_;
-      auStack_b8._4_4_ = fVar17;
-joined_r0x0424f27e:
-      if (cVar4 != '\0') {
-        auStack_b8._4_4_ = 0;
-        auStack_b8._0_4_ = auVar25._0_4_;
-      }
-      stack0xffffffffffffff3c = auStack_c8._4_12_;
-      auStack_c8._0_4_ = auVar21._0_4_;
-      if (g_data_057a6845 == '\0') {
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1e4;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        auVar21 = ZEXT416((uint)auStack_c8._0_4_);
-        g_data_057a6845 = '\x01';
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      if (iVar1 == 0) {
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f211;
-        il2cpp_runtime_helper_02337ed0();
-        auVar21 = ZEXT416((uint)auStack_c8._0_4_);
-      }
-      auVar18._4_12_ = auVar21._4_12_;
-      fVar17 = auVar21._0_4_ * auVar21._0_4_ +
-               auStack_b8._4_4_ * auStack_b8._4_4_ + auStack_b8._0_4_ * auStack_b8._0_4_;
-      if (fVar17 < 0.0) {
-        pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f180;
-        auVar18._0_4_ = sqrtf(fVar17);
-        auVar18._4_12_ = extraout_var_00;
-        auVar21 = ZEXT416((uint)auStack_c8._0_4_);
-        fVar17 = auVar18._0_4_;
-      }
-      else {
-        auVar18._0_4_ = SQRT(fVar17);
-        fVar17 = auVar18._0_4_;
-      }
-      if (1e-05 < fVar17) {
-        auVar19._0_4_ = auVar18._0_4_;
-        auStack_c8._0_4_ = auVar21._0_4_ / auVar19._0_4_;
-        auVar19._8_4_ = auVar18._8_4_;
-        auVar19._12_4_ = auVar18._12_4_;
-        auVar19._4_4_ = auVar19._0_4_;
-        auStack_b8 = divps(auStack_b8,auVar19);
-      }
-      else {
-        if (g_data_057a65d5 == '\0') {
-          pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f14e;
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-        auStack_b8._8_8_ = 0;
-        auStack_b8._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-        auStack_c8._0_4_ = (int)(*(ulong **)(TypeInfo_Vector3 + 0xb8))[1];
-      }
-      pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1b7;
-      pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-      auVar25 = auStack_b8;
-      pCStack_d0 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1ce;
-      value.fields.z = (float)auStack_c8._0_4_;
-      value.fields.x = (float)auStack_b8._0_4_;
-      value.fields.y = (float)auStack_b8._4_4_;
-      auStack_b8 = auVar25;
-      CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar8,value,(MethodInfo *)0x0);
-      return (Il2CppObject *)pCVar8;
-    }
-    if ((int)pSVar2 != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)&(pCVar8->fields)._containsTypeOverride;
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        auStack_b8._8_8_ = 0x42507b0;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      auStack_b8._8_8_ = 0x42507c2;
-      pMVar14 = MethodInfo_Boolean_ConvertTo_Boolean;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      bVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        ((Il2CppObject *)pCVar8,(MethodInfo_24EE570 *)MethodInfo_Boolean_ConvertTo_Boolean);
-      cVar4 = (char)bVar6;
-      goto joined_r0x042507de;
+      goto label_1820b20c6;
     }
   }
-  auStack_b8._8_8_ = 0x42507ea;
-  uVar9 = il2cpp_runtime_helper_022b2ca0();
-  auStack_b8._8_8_ = uVar9;
-  if (pMVar14 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar14->parameters + 4) == '\0') {
-      auStack_b8._0_8_ = 0x4250822;
-      uVar5 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-    }
-    else {
-      uVar5 = *(uint *)&pMVar14->parameters;
-      uVar10 = uVar5 << 0xd ^ uVar5;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar14->parameters = uVar10 << 5 ^ uVar10;
-      uVar5 = (uint)((byte)uVar5 & 1);
-    }
-    auStack_b8._12_4_ = (uVar5 & 0xff) * 2 + -1;
-    auStack_b8._0_8_ = 0x4250844;
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_b8 + 0xc);
-    return pIVar7;
-  }
-  auStack_b8._0_8_ = 0x425084b;
-  auVar25 = il2cpp_runtime_helper_022b2c90();
-  lVar12 = auVar25._8_8_;
-  uStack_d8 = auVar25._0_8_;
-  auStack_b8._0_8_ = __c;
-  pMStack_c0 = pMVar16;
-  auStack_c8 = (undefined1  [8])unaff_R12;
-  pMVar15 = pMVar14;
-  pCStack_d0 = pCVar8;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar12 != 0) {
-    if (*(int *)(lVar12 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar12 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pMVar15 = MethodInfo_Single_ConvertTo_Single;
-      fVar17 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_d8 = CONCAT44(uStack_d8._4_4_,fVar17);
-      if (1 < *(uint *)(lVar12 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar12 + 0x28);
-        pMVar15 = MethodInfo_Single_ConvertTo_Single;
-        fVar17 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar14 != (MethodInfo *)0x0) {
-          fVar17 = UnityEngine_Mathf__PerlinNoise((float)uStack_d8,fVar17,(MethodInfo *)0x0);
-          uStack_d8 = CONCAT44(fVar17,(float)uStack_d8);
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_d8 + 4);
-          return pIVar7;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar15);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar15);
-  return extraout_RAX_00;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomFloat>b__3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomFloat_b__3_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x4250510
+// 0x1820b1e90
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomFloat_b__3_0
@@ -987,413 +195,60 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_string__object__o *pSVar2;
-  byte bVar3;
-  char cVar4;
-  bool_conflict bVar5;
-  uint uVar6;
-  undefined8 in_RAX;
-  Il2CppObject *pIVar7;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar8;
-  undefined8 uVar9;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar10;
-  long extraout_RDX;
-  long lVar11;
-  MethodInfo *pMVar12;
-  MethodInfo *pMVar13;
-  undefined8 *unaff_R12;
-  CustomLogic_CustomLogicVector3Builtin_o *unaff_R15;
-  float fVar14;
-  undefined1 extraout_var [12];
-  undefined1 auVar15 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar16 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar17;
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  UnityEngine_Vector3_o value;
-  undefined1 auVar22 [16];
-  undefined8 uStack_a0;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_98;
-  undefined1 auStack_90 [8];
-  MethodInfo *pMStack_88;
-  undefined1 auStack_80 [16];
-  undefined8 uStack_70;
-  long lStack_68;
-  undefined8 uStack_30;
-  undefined8 uStack_28;
-  undefined1 auVar21 [16];
+  uint uVar1;
+  uint uVar2;
+  Il2CppObject *pIVar3;
+  float minInclusive;
+  float maxInclusive;
+  float local_res18 [4];
   
-  pMVar12 = (MethodInfo *)__c;
-  uStack_28 = in_RAX;
-  if (g_data_057adb56 == '\0') {
-    uStack_30 = 0x4250533;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    uStack_30 = 0x425053f;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb56 = '\x01';
+  if (Il2CppMethodInitialized_184346868 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184346868 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      unaff_R15 = (CustomLogic_CustomLogicVector3Builtin_o *)__a->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        uStack_30 = 0x4250575;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_Single_ConvertTo_Single;
-      uStack_30 = 0x4250588;
-      pMVar12 = MethodInfo_Single_ConvertTo_Single;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)unaff_R15;
-      fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)unaff_R15,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_28 = CONCAT44(uStack_28._4_4_,fVar14);
-      if (1 < (uint)__a->max_length) {
-        __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a->m_Items[1];
-        uStack_30 = 0x42505a4;
-        pMVar12 = MethodInfo_Single_ConvertTo_Single;
-        fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-          if ((char)(__c->fields).UseInstanceRandom == '\0') {
-            uStack_30 = 0x4250607;
-            fVar14 = UnityEngine_Random__Range((float)uStack_28,fVar14,(MethodInfo *)0x0);
-          }
-          else {
-            uVar6 = (__c->fields).Rand.fields.state;
-            uVar10 = uVar6 << 0xd ^ uVar6;
-            uVar10 = uVar10 >> 0x11 ^ uVar10;
-            (__c->fields).Rand.fields.state = uVar10 << 5 ^ uVar10;
-            fVar14 = (fVar14 - (float)uStack_28) * ((float)(uVar6 >> 9 | 0x3f800000) + -1.0) +
-                     (float)uStack_28;
-          }
-          uStack_28 = CONCAT44(fVar14,(float)uStack_28);
-          uStack_30 = 0x4250625;
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_28 + 4);
-          return pIVar7;
+  if (__a == (System_Object_array *)0x0) {
+label_1820b1fad:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    pIVar3 = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
+    }
+    minInclusive = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                             (pIVar3,(MethodInfo_66ED40 *)
+                                     MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    if (1 < (uint)__a->max_length) {
+      maxInclusive = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                               (__a->m_Items[1],
+                                (MethodInfo_66ED40 *)
+                                MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+      if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
+        if ((__c->fields).UseInstanceRandom == false) {
+          local_res18[0] = UnityEngine_Random__Range(minInclusive,maxInclusive,(MethodInfo *)0x0);
         }
-        goto label_04250636;
-      }
-    }
-    uStack_30 = 0x4250636;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250636:
-  uStack_30 = 0x425063b;
-  uStack_30 = il2cpp_runtime_helper_022b2c90();
-  if (pMVar12 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar12->parameters + 4) == '\0') {
-      bVar5 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-      bVar3 = (byte)bVar5;
-    }
-    else {
-      uVar6 = *(uint *)&pMVar12->parameters;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar12->parameters = uVar10 << 5 ^ uVar10;
-      bVar3 = (byte)uVar6 & 1;
-    }
-    uStack_30 = CONCAT17(bVar3,(undefined7)uStack_30);
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_30 + 7);
-    return pIVar7;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pMVar13 = pMVar12;
-  if (g_data_057adb57 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb57 = '\x01';
-  }
-  if (extraout_RDX != 0) {
-    pCVar8 = unaff_R15;
-    if (*(int *)(extraout_RDX + 0x18) != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)(extraout_RDX + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      pMVar13 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      unaff_R15 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                  CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                            ((Il2CppObject *)pCVar8,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-      if (1 < *(uint *)(extraout_RDX + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(extraout_RDX + 0x28);
-        pMVar13 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-        pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                 CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           ((Il2CppObject *)__this,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-        if (pMVar12 != (MethodInfo *)0x0) {
-          pCVar8 = CustomLogic_CustomLogicRandomBuiltin__RandomVector3
-                             ((CustomLogic_CustomLogicRandomBuiltin_o *)pMVar12,unaff_R15,pCVar8,method);
-          return (Il2CppObject *)pCVar8;
+        else {
+          uVar1 = (__c->fields).Rand.fields.state;
+          uVar2 = uVar1 << 0xd ^ uVar1;
+          uVar2 = uVar2 >> 0x11 ^ uVar2;
+          (__c->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
+          local_res18[0] =
+               ((float)(uVar1 >> 9 | 0x3f800000) - 1.0) * (maxInclusive - minInclusive) + minInclusive;
         }
-        goto label_04250749;
+        pIVar3 = il2cpp_value_box(g_data_184354e38,local_res18);
+        return pIVar3;
       }
-    }
-    unaff_R15 = pCVar8;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250749:
-  auVar22 = il2cpp_runtime_helper_022b2c90();
-  pCVar8 = auVar22._8_8_;
-  uStack_70 = auVar22._0_8_;
-  pMVar12 = pMVar13;
-  lStack_68 = extraout_RDX;
-  if (g_data_057adb58 == '\0') {
-    auStack_80._8_8_ = 0x425076f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertTo_Boolean);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    auStack_80._8_8_ = 0x425077b;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb58 = '\x01';
-  }
-  if (pCVar8 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-label_042507e0:
-    auStack_80._8_8_ = 0x42507e5;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar2 = (pCVar8->fields).Variables;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_string__object__o *)0x0) {
-      cVar4 = '\0';
-joined_r0x042507de:
-      if (pMVar13 == (MethodInfo *)0x0) goto label_042507e0;
-      if (g_data_057adb48 == '\0') {
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424efe0;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057adb48 = '\x01';
-      }
-      if (*(char *)((long)&pMVar13->parameters + 4) == '\0') {
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f041;
-        auVar22._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar22._4_12_ = extraout_var;
-        if (*(char *)((long)&pMVar13->parameters + 4) != '\0') goto label_0424f04b;
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f23b;
-        _auStack_90 = auVar22;
-        fVar14 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auStack_80._4_4_ = extraout_var_01._0_4_;
-        auVar22 = _auStack_90;
-        if (*(char *)((long)&pMVar13->parameters + 4) == '\0') {
-          auStack_80._0_4_ = fVar14;
-          auStack_80._8_4_ = extraout_var_01._4_4_;
-          auStack_80._12_4_ = extraout_var_01._8_4_;
-          pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f269;
-          fVar14 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-          auVar18._4_4_ = extraout_var_02._0_4_;
-          auVar18._0_4_ = fVar14;
-          auVar18._8_4_ = extraout_var_02._4_4_;
-          auVar18._12_4_ = extraout_var_02._8_4_;
-          auVar21._8_4_ = auStack_90._4_4_;
-          auVar21._0_8_ = auStack_90;
-          auVar21._12_4_ = auStack_80._4_4_;
-          auVar20._8_8_ = auVar21._8_8_;
-          auVar20._0_4_ = auStack_90._0_4_;
-          auVar20._4_4_ = auStack_80._0_4_;
-          auStack_80 = auVar20;
-          auVar22 = _auStack_90;
-          goto joined_r0x0424f27e;
-        }
-      }
-      else {
-        uVar6 = *(uint *)&pMVar13->parameters;
-        uVar10 = uVar6 << 0xd ^ uVar6;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar13->parameters = uVar10 << 5 ^ uVar10;
-        fVar14 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-        auVar22 = ZEXT416((uint)(fVar14 + fVar14 + -1.0));
-label_0424f04b:
-        uVar6 = *(uint *)&pMVar13->parameters;
-        uVar10 = uVar6 << 0xd ^ uVar6;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar13->parameters = uVar10 << 5 ^ uVar10;
-        fVar14 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-        fVar14 = fVar14 + fVar14 + -1.0;
-        auStack_80._4_4_ = 0;
-      }
-      uVar6 = *(uint *)&pMVar13->parameters;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar13->parameters = uVar10 << 5 ^ uVar10;
-      fVar17 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-      auVar18 = ZEXT416((uint)(fVar17 + fVar17 + -1.0));
-      auVar19._0_8_ = auVar22._0_8_;
-      auVar19._8_4_ = auVar22._4_4_;
-      auVar19._12_4_ = auStack_80._4_4_;
-      auStack_80._8_8_ = auVar19._8_8_;
-      auStack_80._0_4_ = auVar22._0_4_;
-      auStack_80._4_4_ = fVar14;
-joined_r0x0424f27e:
-      if (cVar4 != '\0') {
-        auStack_80._4_4_ = 0;
-        auStack_80._0_4_ = auVar22._0_4_;
-      }
-      stack0xffffffffffffff74 = auStack_90._4_12_;
-      auStack_90._0_4_ = auVar18._0_4_;
-      if (g_data_057a6845 == '\0') {
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1e4;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        auVar18 = ZEXT416((uint)auStack_90._0_4_);
-        g_data_057a6845 = '\x01';
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      if (iVar1 == 0) {
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f211;
-        il2cpp_runtime_helper_02337ed0();
-        auVar18 = ZEXT416((uint)auStack_90._0_4_);
-      }
-      auVar15._4_12_ = auVar18._4_12_;
-      fVar14 = auVar18._0_4_ * auVar18._0_4_ +
-               auStack_80._4_4_ * auStack_80._4_4_ + auStack_80._0_4_ * auStack_80._0_4_;
-      if (fVar14 < 0.0) {
-        pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f180;
-        auVar15._0_4_ = sqrtf(fVar14);
-        auVar15._4_12_ = extraout_var_00;
-        auVar18 = ZEXT416((uint)auStack_90._0_4_);
-        fVar14 = auVar15._0_4_;
-      }
-      else {
-        auVar15._0_4_ = SQRT(fVar14);
-        fVar14 = auVar15._0_4_;
-      }
-      if (1e-05 < fVar14) {
-        auVar16._0_4_ = auVar15._0_4_;
-        auStack_90._0_4_ = auVar18._0_4_ / auVar16._0_4_;
-        auVar16._8_4_ = auVar15._8_4_;
-        auVar16._12_4_ = auVar15._12_4_;
-        auVar16._4_4_ = auVar16._0_4_;
-        auStack_80 = divps(auStack_80,auVar16);
-      }
-      else {
-        if (g_data_057a65d5 == '\0') {
-          pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f14e;
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-        auStack_80._8_8_ = 0;
-        auStack_80._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-        auStack_90._0_4_ = (int)(*(ulong **)(TypeInfo_Vector3 + 0xb8))[1];
-      }
-      pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1b7;
-      pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-      auVar22 = auStack_80;
-      pCStack_98 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1ce;
-      value.fields.z = (float)auStack_90._0_4_;
-      value.fields.x = (float)auStack_80._0_4_;
-      value.fields.y = (float)auStack_80._4_4_;
-      auStack_80 = auVar22;
-      CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar8,value,(MethodInfo *)0x0);
-      return (Il2CppObject *)pCVar8;
-    }
-    if ((int)pSVar2 != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)&(pCVar8->fields)._containsTypeOverride;
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        auStack_80._8_8_ = 0x42507b0;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      auStack_80._8_8_ = 0x42507c2;
-      pMVar12 = MethodInfo_Boolean_ConvertTo_Boolean;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      bVar5 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        ((Il2CppObject *)pCVar8,(MethodInfo_24EE570 *)MethodInfo_Boolean_ConvertTo_Boolean);
-      cVar4 = (char)bVar5;
-      goto joined_r0x042507de;
+      goto label_1820b1fad;
     }
   }
-  auStack_80._8_8_ = 0x42507ea;
-  uVar9 = il2cpp_runtime_helper_022b2ca0();
-  auStack_80._8_8_ = uVar9;
-  if (pMVar12 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar12->parameters + 4) == '\0') {
-      auStack_80._0_8_ = 0x4250822;
-      uVar6 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-    }
-    else {
-      uVar6 = *(uint *)&pMVar12->parameters;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar12->parameters = uVar10 << 5 ^ uVar10;
-      uVar6 = (uint)((byte)uVar6 & 1);
-    }
-    auStack_80._12_4_ = (uVar6 & 0xff) * 2 + -1;
-    auStack_80._0_8_ = 0x4250844;
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_80 + 0xc);
-    return pIVar7;
-  }
-  auStack_80._0_8_ = 0x425084b;
-  auVar22 = il2cpp_runtime_helper_022b2c90();
-  lVar11 = auVar22._8_8_;
-  uStack_a0 = auVar22._0_8_;
-  auStack_80._0_8_ = unaff_R15;
-  pMStack_88 = pMVar13;
-  auStack_90 = (undefined1  [8])unaff_R12;
-  pMVar13 = pMVar12;
-  pCStack_98 = pCVar8;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar11 != 0) {
-    if (*(int *)(lVar11 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar11 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pMVar13 = MethodInfo_Single_ConvertTo_Single;
-      fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_a0 = CONCAT44(uStack_a0._4_4_,fVar14);
-      if (1 < *(uint *)(lVar11 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar11 + 0x28);
-        pMVar13 = MethodInfo_Single_ConvertTo_Single;
-        fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar12 != (MethodInfo *)0x0) {
-          fVar14 = UnityEngine_Mathf__PerlinNoise((float)uStack_a0,fVar14,(MethodInfo *)0x0);
-          uStack_a0 = CONCAT44(fVar14,(float)uStack_a0);
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_a0 + 4);
-          return pIVar7;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar13);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar13);
-  return extraout_RAX_00;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomBool>b__4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomBool_b__4_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x4250640
+// 0x1820b1d90
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomBool_b__4_0
@@ -1401,355 +256,32 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_string__object__o *pSVar2;
-  byte bVar3;
-  char cVar4;
-  bool_conflict bVar5;
-  uint uVar6;
-  undefined8 in_RAX;
-  Il2CppObject *pIVar7;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar8;
-  undefined8 uVar9;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar10;
-  long extraout_RDX;
-  long lVar11;
-  MethodInfo *pMVar12;
-  MethodInfo *pMVar13;
-  undefined8 *unaff_R12;
-  CustomLogic_CustomLogicVector3Builtin_o *unaff_R15;
-  float fVar14;
-  undefined1 extraout_var [12];
-  undefined1 auVar15 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar16 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar17;
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  UnityEngine_Vector3_o value;
-  undefined1 auVar22 [16];
-  undefined8 uStack_78;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_70;
-  undefined1 auStack_68 [8];
-  MethodInfo *pMStack_60;
-  undefined1 auStack_58 [16];
-  undefined8 uStack_48;
-  long lStack_40;
-  undefined8 uStack_8;
-  undefined1 auVar21 [16];
+  uint uVar1;
+  uint uVar2;
+  Il2CppObject *pIVar3;
+  undefined1 local_res10 [24];
   
   if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-    uStack_8 = in_RAX;
-    if ((char)(__c->fields).UseInstanceRandom == '\0') {
-      bVar5 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-      bVar3 = (byte)bVar5;
+    if ((__c->fields).UseInstanceRandom == false) {
+      local_res10[0] = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
     }
     else {
-      uVar6 = (__c->fields).Rand.fields.state;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      (__c->fields).Rand.fields.state = uVar10 << 5 ^ uVar10;
-      bVar3 = (byte)uVar6 & 1;
+      uVar1 = (__c->fields).Rand.fields.state;
+      uVar2 = uVar1 << 0xd ^ uVar1;
+      uVar2 = uVar2 >> 0x11 ^ uVar2;
+      (__c->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
+      local_res10[0] = (byte)uVar1 & 1;
     }
-    uStack_8 = CONCAT17(bVar3,(undefined7)uStack_8);
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_8 + 7);
-    return pIVar7;
+    pIVar3 = il2cpp_value_box(g_data_184354de8,local_res10);
+    return pIVar3;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pMVar12 = (MethodInfo *)__c;
-  if (g_data_057adb57 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb57 = '\x01';
-  }
-  if (extraout_RDX != 0) {
-    pCVar8 = unaff_R15;
-    if (*(int *)(extraout_RDX + 0x18) != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)(extraout_RDX + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      pMVar12 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      unaff_R15 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                  CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                            ((Il2CppObject *)pCVar8,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-      if (1 < *(uint *)(extraout_RDX + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(extraout_RDX + 0x28);
-        pMVar12 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-        pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                 CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           ((Il2CppObject *)__this,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-        if ((MethodInfo *)__c != (MethodInfo *)0x0) {
-          pCVar8 = CustomLogic_CustomLogicRandomBuiltin__RandomVector3(__c,unaff_R15,pCVar8,method);
-          return (Il2CppObject *)pCVar8;
-        }
-        goto label_04250749;
-      }
-    }
-    unaff_R15 = pCVar8;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250749:
-  auVar22 = il2cpp_runtime_helper_022b2c90();
-  pCVar8 = auVar22._8_8_;
-  uStack_48 = auVar22._0_8_;
-  pMVar13 = pMVar12;
-  lStack_40 = extraout_RDX;
-  if (g_data_057adb58 == '\0') {
-    auStack_58._8_8_ = 0x425076f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertTo_Boolean);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    auStack_58._8_8_ = 0x425077b;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb58 = '\x01';
-  }
-  if (pCVar8 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-label_042507e0:
-    auStack_58._8_8_ = 0x42507e5;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar2 = (pCVar8->fields).Variables;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_string__object__o *)0x0) {
-      cVar4 = '\0';
-joined_r0x042507de:
-      if (pMVar12 == (MethodInfo *)0x0) goto label_042507e0;
-      if (g_data_057adb48 == '\0') {
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424efe0;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057adb48 = '\x01';
-      }
-      if (*(char *)((long)&pMVar12->parameters + 4) == '\0') {
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f041;
-        auVar22._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar22._4_12_ = extraout_var;
-        if (*(char *)((long)&pMVar12->parameters + 4) != '\0') goto label_0424f04b;
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f23b;
-        _auStack_68 = auVar22;
-        fVar14 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auStack_58._4_4_ = extraout_var_01._0_4_;
-        auVar22 = _auStack_68;
-        if (*(char *)((long)&pMVar12->parameters + 4) == '\0') {
-          auStack_58._0_4_ = fVar14;
-          auStack_58._8_4_ = extraout_var_01._4_4_;
-          auStack_58._12_4_ = extraout_var_01._8_4_;
-          pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f269;
-          fVar14 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-          auVar18._4_4_ = extraout_var_02._0_4_;
-          auVar18._0_4_ = fVar14;
-          auVar18._8_4_ = extraout_var_02._4_4_;
-          auVar18._12_4_ = extraout_var_02._8_4_;
-          auVar21._8_4_ = auStack_68._4_4_;
-          auVar21._0_8_ = auStack_68;
-          auVar21._12_4_ = auStack_58._4_4_;
-          auVar20._8_8_ = auVar21._8_8_;
-          auVar20._0_4_ = auStack_68._0_4_;
-          auVar20._4_4_ = auStack_58._0_4_;
-          auStack_58 = auVar20;
-          auVar22 = _auStack_68;
-          goto joined_r0x0424f27e;
-        }
-      }
-      else {
-        uVar6 = *(uint *)&pMVar12->parameters;
-        uVar10 = uVar6 << 0xd ^ uVar6;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar12->parameters = uVar10 << 5 ^ uVar10;
-        fVar14 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-        auVar22 = ZEXT416((uint)(fVar14 + fVar14 + -1.0));
-label_0424f04b:
-        uVar6 = *(uint *)&pMVar12->parameters;
-        uVar10 = uVar6 << 0xd ^ uVar6;
-        uVar10 = uVar10 >> 0x11 ^ uVar10;
-        *(uint *)&pMVar12->parameters = uVar10 << 5 ^ uVar10;
-        fVar14 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-        fVar14 = fVar14 + fVar14 + -1.0;
-        auStack_58._4_4_ = 0;
-      }
-      uVar6 = *(uint *)&pMVar12->parameters;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar12->parameters = uVar10 << 5 ^ uVar10;
-      fVar17 = (float)(uVar6 >> 9 | 0x3f800000) + -1.0;
-      auVar18 = ZEXT416((uint)(fVar17 + fVar17 + -1.0));
-      auVar19._0_8_ = auVar22._0_8_;
-      auVar19._8_4_ = auVar22._4_4_;
-      auVar19._12_4_ = auStack_58._4_4_;
-      auStack_58._8_8_ = auVar19._8_8_;
-      auStack_58._0_4_ = auVar22._0_4_;
-      auStack_58._4_4_ = fVar14;
-joined_r0x0424f27e:
-      if (cVar4 != '\0') {
-        auStack_58._4_4_ = 0;
-        auStack_58._0_4_ = auVar22._0_4_;
-      }
-      stack0xffffffffffffff9c = auStack_68._4_12_;
-      auStack_68._0_4_ = auVar18._0_4_;
-      if (g_data_057a6845 == '\0') {
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1e4;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        auVar18 = ZEXT416((uint)auStack_68._0_4_);
-        g_data_057a6845 = '\x01';
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      if (iVar1 == 0) {
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f211;
-        il2cpp_runtime_helper_02337ed0();
-        auVar18 = ZEXT416((uint)auStack_68._0_4_);
-      }
-      auVar15._4_12_ = auVar18._4_12_;
-      fVar14 = auVar18._0_4_ * auVar18._0_4_ +
-               auStack_58._4_4_ * auStack_58._4_4_ + auStack_58._0_4_ * auStack_58._0_4_;
-      if (fVar14 < 0.0) {
-        pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f180;
-        auVar15._0_4_ = sqrtf(fVar14);
-        auVar15._4_12_ = extraout_var_00;
-        auVar18 = ZEXT416((uint)auStack_68._0_4_);
-        fVar14 = auVar15._0_4_;
-      }
-      else {
-        auVar15._0_4_ = SQRT(fVar14);
-        fVar14 = auVar15._0_4_;
-      }
-      if (1e-05 < fVar14) {
-        auVar16._0_4_ = auVar15._0_4_;
-        auStack_68._0_4_ = auVar18._0_4_ / auVar16._0_4_;
-        auVar16._8_4_ = auVar15._8_4_;
-        auVar16._12_4_ = auVar15._12_4_;
-        auVar16._4_4_ = auVar16._0_4_;
-        auStack_58 = divps(auStack_58,auVar16);
-      }
-      else {
-        if (g_data_057a65d5 == '\0') {
-          pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f14e;
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-        auStack_58._8_8_ = 0;
-        auStack_58._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-        auStack_68._0_4_ = (int)(*(ulong **)(TypeInfo_Vector3 + 0xb8))[1];
-      }
-      pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1b7;
-      pCVar8 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-      auVar22 = auStack_58;
-      pCStack_70 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1ce;
-      value.fields.z = (float)auStack_68._0_4_;
-      value.fields.x = (float)auStack_58._0_4_;
-      value.fields.y = (float)auStack_58._4_4_;
-      auStack_58 = auVar22;
-      CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar8,value,(MethodInfo *)0x0);
-      return (Il2CppObject *)pCVar8;
-    }
-    if ((int)pSVar2 != 0) {
-      pCVar8 = *(CustomLogic_CustomLogicVector3Builtin_o **)&(pCVar8->fields)._containsTypeOverride;
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        auStack_58._8_8_ = 0x42507b0;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      auStack_58._8_8_ = 0x42507c2;
-      pMVar13 = MethodInfo_Boolean_ConvertTo_Boolean;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar8;
-      bVar5 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        ((Il2CppObject *)pCVar8,(MethodInfo_24EE570 *)MethodInfo_Boolean_ConvertTo_Boolean);
-      cVar4 = (char)bVar5;
-      goto joined_r0x042507de;
-    }
-  }
-  auStack_58._8_8_ = 0x42507ea;
-  uVar9 = il2cpp_runtime_helper_022b2ca0();
-  auStack_58._8_8_ = uVar9;
-  if (pMVar13 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar13->parameters + 4) == '\0') {
-      auStack_58._0_8_ = 0x4250822;
-      uVar6 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-    }
-    else {
-      uVar6 = *(uint *)&pMVar13->parameters;
-      uVar10 = uVar6 << 0xd ^ uVar6;
-      uVar10 = uVar10 >> 0x11 ^ uVar10;
-      *(uint *)&pMVar13->parameters = uVar10 << 5 ^ uVar10;
-      uVar6 = (uint)((byte)uVar6 & 1);
-    }
-    auStack_58._12_4_ = (uVar6 & 0xff) * 2 + -1;
-    auStack_58._0_8_ = 0x4250844;
-    pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_58 + 0xc);
-    return pIVar7;
-  }
-  auStack_58._0_8_ = 0x425084b;
-  auVar22 = il2cpp_runtime_helper_022b2c90();
-  lVar11 = auVar22._8_8_;
-  uStack_78 = auVar22._0_8_;
-  auStack_58._0_8_ = unaff_R15;
-  pMStack_60 = pMVar12;
-  auStack_68 = (undefined1  [8])unaff_R12;
-  pMVar12 = pMVar13;
-  pCStack_70 = pCVar8;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar11 != 0) {
-    if (*(int *)(lVar11 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar11 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pMVar12 = MethodInfo_Single_ConvertTo_Single;
-      fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_78 = CONCAT44(uStack_78._4_4_,fVar14);
-      if (1 < *(uint *)(lVar11 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar11 + 0x28);
-        pMVar12 = MethodInfo_Single_ConvertTo_Single;
-        fVar14 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar13 != (MethodInfo *)0x0) {
-          fVar14 = UnityEngine_Mathf__PerlinNoise((float)uStack_78,fVar14,(MethodInfo *)0x0);
-          uStack_78 = CONCAT44(fVar14,(float)uStack_78);
-          pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_78 + 4);
-          return pIVar7;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar12);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar12);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomVector3>b__5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomVector3_b__5_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x42506a0
+// 0x1820b2150
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomVector3_b__5_0
@@ -1757,333 +289,47 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_string__object__o *pSVar2;
-  char cVar3;
-  uint uVar5;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar6;
-  undefined8 uVar7;
-  Il2CppObject *pIVar8;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar9;
-  long lVar10;
-  MethodInfo *pMVar11;
-  MethodInfo *pMVar12;
-  undefined8 *unaff_R12;
-  CustomLogic_CustomLogicVector3Builtin_o *unaff_R15;
-  float fVar13;
-  undefined1 extraout_var [12];
-  undefined1 auVar14 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar15 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar16;
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  UnityEngine_Vector3_o value;
-  undefined1 auVar21 [16];
-  undefined8 uStack_70;
-  CustomLogic_CustomLogicVector3Builtin_o *pCStack_68;
-  undefined1 auStack_60 [8];
-  MethodInfo *pMStack_58;
-  undefined1 auStack_50 [16];
-  undefined8 uStack_40;
-  System_Object_array *pSStack_38;
-  bool_conflict bVar4;
-  undefined1 auVar20 [16];
+  Il2CppObject *obj;
+  CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
+  CustomLogic_CustomLogicVector3Builtin_o *b;
   
-  pMVar11 = (MethodInfo *)__c;
-  if (g_data_057adb57 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb57 = '\x01';
+  if (Il2CppMethodInitialized_184346869 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184346869 = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    pCVar6 = unaff_R15;
-    if ((int)__a->max_length != 0) {
-      pCVar6 = (CustomLogic_CustomLogicVector3Builtin_o *)__a->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      unaff_R12 = &MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      pMVar11 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar6;
-      unaff_R15 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                  CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                            ((Il2CppObject *)pCVar6,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-      if (1 < (uint)__a->max_length) {
-        __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a->m_Items[1];
-        pMVar11 = MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu;
-        pCVar6 = (CustomLogic_CustomLogicVector3Builtin_o *)
-                 CustomLogic_CustomLogicEvaluator__ConvertTo_object_
-                           ((Il2CppObject *)__this,(MethodInfo_24EEB40 *)MethodInfo_CustomLogicVector3Builtin_ConvertTo_CustomLogicVector3Bu);
-        if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-          pCVar6 = CustomLogic_CustomLogicRandomBuiltin__RandomVector3(__c,unaff_R15,pCVar6,method);
-          return (Il2CppObject *)pCVar6;
-        }
-        goto label_04250749;
-      }
+  if (__a == (System_Object_array *)0x0) {
+label_1820b21fe:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    unaff_R15 = pCVar6;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250749:
-  auVar21 = il2cpp_runtime_helper_022b2c90();
-  pCVar6 = auVar21._8_8_;
-  uStack_40 = auVar21._0_8_;
-  pMVar12 = pMVar11;
-  pSStack_38 = __a;
-  if (g_data_057adb58 == '\0') {
-    auStack_50._8_8_ = 0x425076f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertTo_Boolean);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    auStack_50._8_8_ = 0x425077b;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb58 = '\x01';
-  }
-  if (pCVar6 == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) {
-label_042507e0:
-    auStack_50._8_8_ = 0x42507e5;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar2 = (pCVar6->fields).Variables;
-    if (pSVar2 == (System_Collections_Generic_Dictionary_string__object__o *)0x0) {
-      cVar3 = '\0';
-joined_r0x042507de:
-      if (pMVar11 == (MethodInfo *)0x0) goto label_042507e0;
-      if (g_data_057adb48 == '\0') {
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424efe0;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057adb48 = '\x01';
+    pCVar1 = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                       (obj,(MethodInfo_66EB70 *)
+                            MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+    if (1 < (uint)__a->max_length) {
+      b = CustomLogic_CustomLogicEvaluator__ConvertTo_object_
+                    (__a->m_Items[1],
+                     (MethodInfo_66EB70 *)
+                     MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_CustomLogicVector3Builtin);
+      if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
+        pCVar1 = CustomLogic_CustomLogicRandomBuiltin__RandomVector3(__c,pCVar1,b,(MethodInfo *)0x0);
+        return (Il2CppObject *)pCVar1;
       }
-      if (*(char *)((long)&pMVar11->parameters + 4) == '\0') {
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f041;
-        auVar21._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar21._4_12_ = extraout_var;
-        if (*(char *)((long)&pMVar11->parameters + 4) != '\0') goto label_0424f04b;
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f23b;
-        _auStack_60 = auVar21;
-        fVar13 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auStack_50._4_4_ = extraout_var_01._0_4_;
-        auVar21 = _auStack_60;
-        if (*(char *)((long)&pMVar11->parameters + 4) == '\0') {
-          auStack_50._0_4_ = fVar13;
-          auStack_50._8_4_ = extraout_var_01._4_4_;
-          auStack_50._12_4_ = extraout_var_01._8_4_;
-          pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f269;
-          fVar13 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-          auVar17._4_4_ = extraout_var_02._0_4_;
-          auVar17._0_4_ = fVar13;
-          auVar17._8_4_ = extraout_var_02._4_4_;
-          auVar17._12_4_ = extraout_var_02._8_4_;
-          auVar20._8_4_ = auStack_60._4_4_;
-          auVar20._0_8_ = auStack_60;
-          auVar20._12_4_ = auStack_50._4_4_;
-          auVar19._8_8_ = auVar20._8_8_;
-          auVar19._0_4_ = auStack_60._0_4_;
-          auVar19._4_4_ = auStack_50._0_4_;
-          auStack_50 = auVar19;
-          auVar21 = _auStack_60;
-          goto joined_r0x0424f27e;
-        }
-      }
-      else {
-        uVar5 = *(uint *)&pMVar11->parameters;
-        uVar9 = uVar5 << 0xd ^ uVar5;
-        uVar9 = uVar9 >> 0x11 ^ uVar9;
-        *(uint *)&pMVar11->parameters = uVar9 << 5 ^ uVar9;
-        fVar13 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-        auVar21 = ZEXT416((uint)(fVar13 + fVar13 + -1.0));
-label_0424f04b:
-        uVar5 = *(uint *)&pMVar11->parameters;
-        uVar9 = uVar5 << 0xd ^ uVar5;
-        uVar9 = uVar9 >> 0x11 ^ uVar9;
-        *(uint *)&pMVar11->parameters = uVar9 << 5 ^ uVar9;
-        fVar13 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-        fVar13 = fVar13 + fVar13 + -1.0;
-        auStack_50._4_4_ = 0;
-      }
-      uVar5 = *(uint *)&pMVar11->parameters;
-      uVar9 = uVar5 << 0xd ^ uVar5;
-      uVar9 = uVar9 >> 0x11 ^ uVar9;
-      *(uint *)&pMVar11->parameters = uVar9 << 5 ^ uVar9;
-      fVar16 = (float)(uVar5 >> 9 | 0x3f800000) + -1.0;
-      auVar17 = ZEXT416((uint)(fVar16 + fVar16 + -1.0));
-      auVar18._0_8_ = auVar21._0_8_;
-      auVar18._8_4_ = auVar21._4_4_;
-      auVar18._12_4_ = auStack_50._4_4_;
-      auStack_50._8_8_ = auVar18._8_8_;
-      auStack_50._0_4_ = auVar21._0_4_;
-      auStack_50._4_4_ = fVar13;
-joined_r0x0424f27e:
-      if (cVar3 != '\0') {
-        auStack_50._4_4_ = 0;
-        auStack_50._0_4_ = auVar21._0_4_;
-      }
-      stack0xffffffffffffffa4 = auStack_60._4_12_;
-      auStack_60._0_4_ = auVar17._0_4_;
-      if (g_data_057a6845 == '\0') {
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1e4;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        auVar17 = ZEXT416((uint)auStack_60._0_4_);
-        g_data_057a6845 = '\x01';
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      if (iVar1 == 0) {
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f211;
-        il2cpp_runtime_helper_02337ed0();
-        auVar17 = ZEXT416((uint)auStack_60._0_4_);
-      }
-      auVar14._4_12_ = auVar17._4_12_;
-      fVar13 = auVar17._0_4_ * auVar17._0_4_ +
-               auStack_50._4_4_ * auStack_50._4_4_ + auStack_50._0_4_ * auStack_50._0_4_;
-      if (fVar13 < 0.0) {
-        pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f180;
-        auVar14._0_4_ = sqrtf(fVar13);
-        auVar14._4_12_ = extraout_var_00;
-        auVar17 = ZEXT416((uint)auStack_60._0_4_);
-        fVar13 = auVar14._0_4_;
-      }
-      else {
-        auVar14._0_4_ = SQRT(fVar13);
-        fVar13 = auVar14._0_4_;
-      }
-      if (1e-05 < fVar13) {
-        auVar15._0_4_ = auVar14._0_4_;
-        auStack_60._0_4_ = auVar17._0_4_ / auVar15._0_4_;
-        auVar15._8_4_ = auVar14._8_4_;
-        auVar15._12_4_ = auVar14._12_4_;
-        auVar15._4_4_ = auVar15._0_4_;
-        auStack_50 = divps(auStack_50,auVar15);
-      }
-      else {
-        if (g_data_057a65d5 == '\0') {
-          pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f14e;
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-        auStack_50._8_8_ = 0;
-        auStack_50._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-        auStack_60._0_4_ = (int)(*(ulong **)(TypeInfo_Vector3 + 0xb8))[1];
-      }
-      pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1b7;
-      pCVar6 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-      auVar21 = auStack_50;
-      pCStack_68 = (CustomLogic_CustomLogicVector3Builtin_o *)0x424f1ce;
-      value.fields.z = (float)auStack_60._0_4_;
-      value.fields.x = (float)auStack_50._0_4_;
-      value.fields.y = (float)auStack_50._4_4_;
-      auStack_50 = auVar21;
-      CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar6,value,(MethodInfo *)0x0);
-      return (Il2CppObject *)pCVar6;
-    }
-    if ((int)pSVar2 != 0) {
-      pCVar6 = *(CustomLogic_CustomLogicVector3Builtin_o **)&(pCVar6->fields)._containsTypeOverride;
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        auStack_50._8_8_ = 0x42507b0;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      auStack_50._8_8_ = 0x42507c2;
-      pMVar12 = MethodInfo_Boolean_ConvertTo_Boolean;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)pCVar6;
-      bVar4 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        ((Il2CppObject *)pCVar6,(MethodInfo_24EE570 *)MethodInfo_Boolean_ConvertTo_Boolean);
-      cVar3 = (char)bVar4;
-      goto joined_r0x042507de;
+      goto label_1820b21fe;
     }
   }
-  auStack_50._8_8_ = 0x42507ea;
-  uVar7 = il2cpp_runtime_helper_022b2ca0();
-  auStack_50._8_8_ = uVar7;
-  if (pMVar12 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar12->parameters + 4) == '\0') {
-      auStack_50._0_8_ = 0x4250822;
-      uVar5 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-    }
-    else {
-      uVar5 = *(uint *)&pMVar12->parameters;
-      uVar9 = uVar5 << 0xd ^ uVar5;
-      uVar9 = uVar9 >> 0x11 ^ uVar9;
-      *(uint *)&pMVar12->parameters = uVar9 << 5 ^ uVar9;
-      uVar5 = (uint)((byte)uVar5 & 1);
-    }
-    auStack_50._12_4_ = (uVar5 & 0xff) * 2 + -1;
-    auStack_50._0_8_ = 0x4250844;
-    pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_50 + 0xc);
-    return pIVar8;
-  }
-  auStack_50._0_8_ = 0x425084b;
-  auVar21 = il2cpp_runtime_helper_022b2c90();
-  lVar10 = auVar21._8_8_;
-  uStack_70 = auVar21._0_8_;
-  auStack_50._0_8_ = unaff_R15;
-  pMStack_58 = pMVar11;
-  auStack_60 = (undefined1  [8])unaff_R12;
-  pMVar11 = pMVar12;
-  pCStack_68 = pCVar6;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar10 != 0) {
-    if (*(int *)(lVar10 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar10 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pMVar11 = MethodInfo_Single_ConvertTo_Single;
-      fVar13 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_70 = CONCAT44(uStack_70._4_4_,fVar13);
-      if (1 < *(uint *)(lVar10 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar10 + 0x28);
-        pMVar11 = MethodInfo_Single_ConvertTo_Single;
-        fVar13 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar12 != (MethodInfo *)0x0) {
-          fVar13 = UnityEngine_Mathf__PerlinNoise((float)uStack_70,fVar13,(MethodInfo *)0x0);
-          uStack_70 = CONCAT44(fVar13,(float)uStack_70);
-          pIVar8 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_70 + 4);
-          return pIVar8;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar11);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,pMVar11);
-  return extraout_RAX_00;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomDirection>b__6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomDirection_b__6_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x4250750
+// 0x1820b1df0
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomDirection_b__6_0
@@ -2091,279 +337,40 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  char cVar2;
-  uint uVar4;
-  CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  undefined8 uVar5;
-  Il2CppObject *pIVar6;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar7;
-  long lVar8;
-  MethodInfo *pMVar9;
-  MethodInfo *method_00;
-  undefined8 unaff_R15;
-  float fVar10;
-  undefined1 extraout_var [12];
-  undefined1 auVar11 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar12 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar13;
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  UnityEngine_Vector3_o value;
-  undefined1 auVar17 [16];
-  undefined8 uStack_48;
-  System_Object_array *pSStack_40;
-  undefined1 auStack_28 [16];
-  undefined8 uStack_20;
-  bool_conflict bVar3;
+  Il2CppObject *obj;
+  bool _flat;
+  CustomLogic_CustomLogicVector3Builtin_o *pCVar1;
   
-  pMVar9 = (MethodInfo *)__c;
-  if (g_data_057adb58 == '\0') {
-    uStack_20 = 0x425076f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ConvertTo_Boolean);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    uStack_20 = 0x425077b;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb58 = '\x01';
+  if (Il2CppMethodInitialized_18434686a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_18434686a = '\x01';
   }
-  if (__a == (System_Object_array *)0x0) {
-label_042507e0:
-    uStack_20 = 0x42507e5;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (__a->max_length == 0) {
-      cVar2 = '\0';
-joined_r0x042507de:
-      if (__c == (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) goto label_042507e0;
-      if (g_data_057adb48 == '\0') {
-        pSStack_40 = (System_Object_array *)0x424efe0;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057adb48 = '\x01';
+  if (__a != (System_Object_array *)0x0) {
+    _flat = false;
+    if (__a->max_length != 0) {
+      if ((int)__a->max_length == 0) {
+        ThrowIndexOutOfRangeException();
       }
-      if ((char)(__c->fields).UseInstanceRandom == '\0') {
-        pSStack_40 = (System_Object_array *)0x424f041;
-        auVar17._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar17._4_12_ = extraout_var;
-        if ((char)(__c->fields).UseInstanceRandom != '\0') goto label_0424f04b;
-        pSStack_40 = (System_Object_array *)0x424f23b;
-        fVar10 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auStack_28._0_4_ = extraout_var_01._0_4_;
-        if ((char)(__c->fields).UseInstanceRandom == '\0') {
-          auStack_28._4_4_ = auStack_28._0_4_;
-          auStack_28._0_4_ = fVar10;
-          uStack_20._0_4_ = extraout_var_01._4_4_;
-          uStack_20._4_4_ = extraout_var_01._8_4_;
-          pSStack_40 = (System_Object_array *)0x424f269;
-          fVar10 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-          auVar14._4_4_ = extraout_var_02._0_4_;
-          auVar14._0_4_ = fVar10;
-          auVar14._8_4_ = extraout_var_02._4_4_;
-          auVar14._12_4_ = extraout_var_02._8_4_;
-          auVar16._8_4_ = extraout_var._0_4_;
-          auVar16._0_8_ = auVar17._0_8_;
-          auVar16._12_4_ = auStack_28._4_4_;
-          uStack_20 = auVar16._8_8_;
-          auStack_28._4_4_ = auStack_28._0_4_;
-          auStack_28._0_4_ = auVar17._0_4_;
-          goto joined_r0x0424f27e;
-        }
+      obj = __a->m_Items[0];
+      if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
       }
-      else {
-        uVar4 = (__c->fields).Rand.fields.state;
-        uVar7 = uVar4 << 0xd ^ uVar4;
-        uVar7 = uVar7 >> 0x11 ^ uVar7;
-        (__c->fields).Rand.fields.state = uVar7 << 5 ^ uVar7;
-        fVar10 = (float)(uVar4 >> 9 | 0x3f800000) + -1.0;
-        auVar17 = ZEXT416((uint)(fVar10 + fVar10 + -1.0));
-label_0424f04b:
-        uVar4 = (__c->fields).Rand.fields.state;
-        uVar7 = uVar4 << 0xd ^ uVar4;
-        uVar7 = uVar7 >> 0x11 ^ uVar7;
-        (__c->fields).Rand.fields.state = uVar7 << 5 ^ uVar7;
-        fVar10 = (float)(uVar4 >> 9 | 0x3f800000) + -1.0;
-        fVar10 = fVar10 + fVar10 + -1.0;
-        auStack_28._0_4_ = 0;
-      }
-      uVar4 = (__c->fields).Rand.fields.state;
-      uVar7 = uVar4 << 0xd ^ uVar4;
-      uVar7 = uVar7 >> 0x11 ^ uVar7;
-      (__c->fields).Rand.fields.state = uVar7 << 5 ^ uVar7;
-      fVar13 = (float)(uVar4 >> 9 | 0x3f800000) + -1.0;
-      auVar14 = ZEXT416((uint)(fVar13 + fVar13 + -1.0));
-      auVar15._0_8_ = auVar17._0_8_;
-      auVar15._8_4_ = auVar17._4_4_;
-      auVar15._12_4_ = auStack_28._0_4_;
-      uStack_20 = auVar15._8_8_;
-      auStack_28._0_4_ = auVar17._0_4_;
-      auStack_28._4_4_ = fVar10;
-joined_r0x0424f27e:
-      if (cVar2 != '\0') {
-        auStack_28._4_4_ = 0;
-        auStack_28._0_4_ = auVar17._0_4_;
-      }
-      uVar4 = auVar14._0_4_;
-      if (g_data_057a6845 == '\0') {
-        pSStack_40 = (System_Object_array *)0x424f1e4;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        auVar14 = ZEXT416(uVar4);
-        g_data_057a6845 = '\x01';
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-      }
-      if (iVar1 == 0) {
-        pSStack_40 = (System_Object_array *)0x424f211;
-        il2cpp_runtime_helper_02337ed0();
-        auVar14 = ZEXT416(uVar4);
-      }
-      auVar11._4_12_ = auVar14._4_12_;
-      fVar10 = auVar14._0_4_ * auVar14._0_4_ +
-               auStack_28._4_4_ * auStack_28._4_4_ + auStack_28._0_4_ * auStack_28._0_4_;
-      if (fVar10 < 0.0) {
-        pSStack_40 = (System_Object_array *)0x424f180;
-        auVar11._0_4_ = sqrtf(fVar10);
-        auVar11._4_12_ = extraout_var_00;
-        auVar14 = ZEXT416(uVar4);
-        fVar10 = auVar11._0_4_;
-      }
-      else {
-        auVar11._0_4_ = SQRT(fVar10);
-        fVar10 = auVar11._0_4_;
-      }
-      if (1e-05 < fVar10) {
-        auVar12._0_4_ = auVar11._0_4_;
-        fVar10 = auVar14._0_4_ / auVar12._0_4_;
-        auVar12._8_4_ = auVar11._8_4_;
-        auVar12._12_4_ = auVar11._12_4_;
-        auVar12._4_4_ = auVar12._0_4_;
-        auStack_28 = divps(auStack_28,auVar12);
-      }
-      else {
-        if (g_data_057a65d5 == '\0') {
-          pSStack_40 = (System_Object_array *)0x424f14e;
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
-        }
-        uStack_20 = 0;
-        auStack_28._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-        fVar10 = *(float *)(*(ulong **)(TypeInfo_Vector3 + 0xb8) + 1);
-      }
-      pSStack_40 = (System_Object_array *)0x424f1b7;
-      __this_00 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-      auVar17 = auStack_28;
-      pSStack_40 = (System_Object_array *)0x424f1ce;
-      value.fields.z = fVar10;
-      auStack_28._4_4_ = (undefined4)(auStack_28._0_8_ >> 0x20);
-      value.fields.x = (float)auStack_28._0_4_;
-      value.fields.y = (float)auStack_28._4_4_;
-      auStack_28 = auVar17;
-      CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(__this_00,value,(MethodInfo *)0x0);
-      return (Il2CppObject *)__this_00;
+      _flat = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
+                        (obj,(MethodInfo_66E400 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_bool);
     }
-    if ((int)__a->max_length != 0) {
-      __a = (System_Object_array *)__a->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        uStack_20 = 0x42507b0;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      uStack_20 = 0x42507c2;
-      pMVar9 = MethodInfo_Boolean_ConvertTo_Boolean;
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a;
-      bVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_bool_
-                        ((Il2CppObject *)__a,(MethodInfo_24EE570 *)MethodInfo_Boolean_ConvertTo_Boolean);
-      cVar2 = (char)bVar3;
-      goto joined_r0x042507de;
+    if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
+      pCVar1 = CustomLogic_CustomLogicRandomBuiltin__RandomDirection(__c,_flat,(MethodInfo *)0x0);
+      return (Il2CppObject *)pCVar1;
     }
   }
-  uStack_20 = 0x42507ea;
-  uVar5 = il2cpp_runtime_helper_022b2ca0();
-  uStack_20 = uVar5;
-  if (pMVar9 != (MethodInfo *)0x0) {
-    if (*(char *)((long)&pMVar9->parameters + 4) == '\0') {
-      auStack_28._0_8_ = 0x4250822;
-      uVar4 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-    }
-    else {
-      uVar4 = *(uint *)&pMVar9->parameters;
-      uVar7 = uVar4 << 0xd ^ uVar4;
-      uVar7 = uVar7 >> 0x11 ^ uVar7;
-      *(uint *)&pMVar9->parameters = uVar7 << 5 ^ uVar7;
-      uVar4 = (uint)((byte)uVar4 & 1);
-    }
-    uStack_20._4_4_ = (uVar4 & 0xff) * 2 + -1;
-    auStack_28._0_8_ = 0x4250844;
-    pIVar6 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,(long)&uStack_20 + 4);
-    return pIVar6;
-  }
-  auVar17 = il2cpp_runtime_helper_022b2c90();
-  lVar8 = auVar17._8_8_;
-  uStack_48 = auVar17._0_8_;
-  auStack_28._0_8_ = unaff_R15;
-  method_00 = pMVar9;
-  pSStack_40 = __a;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar8 != 0) {
-    if (*(int *)(lVar8 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar8 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      method_00 = MethodInfo_Single_ConvertTo_Single;
-      fVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                         ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_48 = CONCAT44(uStack_48._4_4_,fVar10);
-      if (1 < *(uint *)(lVar8 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar8 + 0x28);
-        method_00 = MethodInfo_Single_ConvertTo_Single;
-        fVar10 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                           ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (pMVar9 != (MethodInfo *)0x0) {
-          fVar10 = UnityEngine_Mathf__PerlinNoise((float)uStack_48,fVar10,(MethodInfo *)0x0);
-          uStack_48 = CONCAT44(fVar10,(float)uStack_48);
-          pIVar6 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_48 + 4);
-          return pIVar6;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__RandomSign>b__7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomSign_b__7_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x42507f0
+// 0x1820b20e0
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__RandomSign_b__7_0
@@ -2371,90 +378,34 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Rando
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  Il2CppObject *pIVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  uint uVar3;
-  long lVar4;
-  MethodInfo *method_00;
-  float fVar5;
-  undefined1 auVar6 [16];
-  undefined8 uStack_30;
-  undefined1 auStack_4 [4];
+  uint uVar1;
+  uint uVar2;
+  Il2CppObject *pIVar3;
+  bool bVar4;
+  int local_res10 [6];
   
   if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-    if ((char)(__c->fields).UseInstanceRandom == '\0') {
-      Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
+    if ((__c->fields).UseInstanceRandom == false) {
+      bVar4 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
     }
     else {
-      uVar3 = (__c->fields).Rand.fields.state;
-      uVar3 = uVar3 << 0xd ^ uVar3;
-      uVar3 = uVar3 >> 0x11 ^ uVar3;
-      (__c->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+      uVar1 = (__c->fields).Rand.fields.state;
+      uVar2 = uVar1 << 0xd ^ uVar1;
+      uVar2 = uVar2 >> 0x11 ^ uVar2;
+      (__c->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
+      bVar4 = (bool)((byte)uVar1 & 1);
     }
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_4);
-    return pIVar2;
+    local_res10[0] = (uint)bVar4 * 2 + -1;
+    pIVar3 = il2cpp_value_box(g_data_184354e08,local_res10);
+    return pIVar3;
   }
-  auVar6 = il2cpp_runtime_helper_022b2c90();
-  lVar4 = auVar6._8_8_;
-  uStack_30 = auVar6._0_8_;
-  method_00 = (MethodInfo *)__c;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
-  }
-  if (lVar4 != 0) {
-    if (*(int *)(lVar4 + 0x18) != 0) {
-      __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar4 + 0x20);
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      method_00 = MethodInfo_Single_ConvertTo_Single;
-      fVar5 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_30 = CONCAT44(uStack_30._4_4_,fVar5);
-      if (1 < *(uint *)(lVar4 + 0x18)) {
-        __this = *(CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o **)(lVar4 + 0x28);
-        method_00 = MethodInfo_Single_ConvertTo_Single;
-        fVar5 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                          ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if ((MethodInfo *)__c != (MethodInfo *)0x0) {
-          fVar5 = UnityEngine_Mathf__PerlinNoise((float)uStack_30,fVar5,(MethodInfo *)0x0);
-          uStack_30 = CONCAT44(fVar5,(float)uStack_30);
-          pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_30 + 4);
-          return pIVar2;
-        }
-        goto label_04250920;
-      }
-    }
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings.<>c$$<__CreateMethodBinding__PerlinNoise>b__8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__PerlinNoise_b__8_0 (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicRandomBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x4250850
+// 0x1820b1890
 
 Il2CppObject *
 CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__PerlinNoise_b__8_0
@@ -2462,889 +413,979 @@ CustomLogic_CustomLogicRandomBuiltin_Bindings___c_____CreateMethodBinding__Perli
           CustomLogic_CustomLogicRandomBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  undefined8 in_RAX;
-  Il2CppObject *pIVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  MethodInfo *method_00;
-  float fVar3;
-  undefined8 uStack_28;
+  Il2CppObject *pIVar1;
+  float x;
+  float y;
+  float local_res18 [4];
   
-  method_00 = (MethodInfo *)__c;
-  uStack_28 = in_RAX;
-  if (g_data_057adb59 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb59 = '\x01';
+  if (Il2CppMethodInitialized_18434686b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_18434686b = '\x01';
   }
-  if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length != 0) {
-      __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a->m_Items[0];
-      if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      method_00 = MethodInfo_Single_ConvertTo_Single;
-      fVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                        ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-      uStack_28 = CONCAT44(uStack_28._4_4_,fVar3);
-      if (1 < (uint)__a->max_length) {
-        __this = (CustomLogic_CustomLogicRandomBuiltin_Bindings___c_o *)__a->m_Items[1];
-        method_00 = MethodInfo_Single_ConvertTo_Single;
-        fVar3 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
-                          ((Il2CppObject *)__this,(MethodInfo_24EED20 *)MethodInfo_Single_ConvertTo_Single);
-        if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
-          fVar3 = UnityEngine_Mathf__PerlinNoise((float)uStack_28,fVar3,(MethodInfo *)0x0);
-          uStack_28 = CONCAT44(fVar3,(float)uStack_28);
-          pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_28 + 4);
-          return pIVar2;
-        }
-        goto label_04250920;
-      }
+  if (__a == (System_Object_array *)0x0) {
+label_1820b1965:
+    ThrowNullReferenceException();
+  }
+  if ((int)__a->max_length != 0) {
+    pIVar1 = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-    il2cpp_runtime_helper_022b2ca0();
+    x = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                  (pIVar1,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    if (1 < (uint)__a->max_length) {
+      y = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                    (__a->m_Items[1],
+                     (MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+      if (__c != (CustomLogic_CustomLogicRandomBuiltin_o *)0x0) {
+        local_res18[0] = UnityEngine_Mathf__PerlinNoise(x,y,(MethodInfo *)0x0);
+        pIVar1 = il2cpp_value_box(g_data_184354e38,local_res18);
+        return pIVar1;
+      }
+      goto label_1820b1965;
+    }
   }
-label_04250920:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb5a = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method_00);
-  return extraout_RAX_00;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicRandomBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x424f530
+// 0x18208ed90
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
+  Il2CppObject *pIVar1;
+  bool bVar2;
   uint32_t uVar3;
-  bool_conflict bVar4;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
+  System_String_o *pSVar4;
   System_String_o *str0;
-  System_String_o *str2;
-  undefined8 uVar5;
-  System_Func_T__object____object__o *pSVar6;
-  CustomLogic_CLMethodBinding_T__o *pCVar7;
-  System_Exception_o *unaff_RBX;
-  System_String_o *unaff_R14;
-  undefined8 unaff_R15;
-  undefined1 auStack_18 [8];
+  Il2CppClass *klass;
+  System_Exception_o *__this_01;
+  MethodInfo *lastManagedFrame;
+  System_Func_CustomLogicRandomBuiltin__object____object__o **targetAddress;
   
-  if (g_data_057adb4b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"RandomBool");
-    il2cpp_runtime_helper_023445d0(&"RandomDirection");
-    il2cpp_runtime_helper_023445d0(&"PerlinNoise");
-    il2cpp_runtime_helper_023445d0(&"RandomFloat");
-    il2cpp_runtime_helper_023445d0(&"RandomVector3");
-    il2cpp_runtime_helper_023445d0(&"RandomInt");
-    il2cpp_runtime_helper_023445d0(&"RandomSign");
-    g_data_057adb4b = '\x01';
+  if (Il2CppMethodInitialized_18434685d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomBool");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomDirection");
+    il2cpp_codegen_initialize_runtime_metadata(&"PerlinNoise");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomFloat");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomVector3");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomInt");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomSign");
+    Il2CppMethodInitialized_18434685d = '\x01';
   }
   uVar3 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
   if (uVar3 < 0x90354281) {
     if (uVar3 == 0x82de4eee) {
-      bVar4 = System_String__op_Equality(name,"RandomVector3",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057adb4f == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomVector3_b__5_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb4f = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        else {
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x20) = pSVar6;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x20,pSVar6);
-        }
-        pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+      bVar2 = System_String__op_Equality(name,"RandomVector3",(MethodInfo *)0x0);
+      if (!bVar2) goto label_18208f643;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
       }
+      if (Il2CppMethodInitialized_184346861 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomVector3_b__5_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+        Il2CppMethodInitialized_184346861 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0;
+      if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomVector3_b__5_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0 =
+           (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0;
     }
     else if (uVar3 == 0x885c07e3) {
-      bVar4 = System_String__op_Equality(name,"PerlinNoise",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057adb52 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PerlinNoise_b__8_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb52 = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-        }
-        else {
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-        }
-        if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x38) = pSVar6;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x38,pSVar6);
-        }
-        pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+      bVar2 = System_String__op_Equality(name,"PerlinNoise",(MethodInfo *)0x0);
+      if (!bVar2) goto label_18208f643;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
       }
+      if (Il2CppMethodInitialized_184346864 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__PerlinNoise_b__8_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+        Il2CppMethodInitialized_184346864 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0;
+      if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__PerlinNoise_b__8_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0 =
+           (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0;
     }
-    else if ((uVar3 == 0x90354280) &&
-            (bVar4 = System_String__op_Equality(name,"RandomFloat",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    else {
+      if (uVar3 != 0x90354280) goto label_18208f643;
+      bVar2 = System_String__op_Equality(name,"RandomFloat",(MethodInfo *)0x0);
+      if (!bVar2) goto label_18208f643;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
       }
-      if (g_data_057adb4d == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomFloat_b__3_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb4d = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
+      if (Il2CppMethodInitialized_18434685f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomFloat_b__3_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+        Il2CppMethodInitialized_18434685f = '\x01';
       }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
       }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0;
+      if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
       }
-      else {
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-      }
-      if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x10) = pSVar6;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x10,pSVar6);
-      }
-      pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+      pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomFloat_b__3_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0 =
+           (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0;
     }
   }
   else if (uVar3 < 0xb5b881f8) {
     if (uVar3 == 0x91b5efce) {
-      bVar4 = System_String__op_Equality(name,"RandomBool",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057adb4e == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomBool_b__4_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057adb4e = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        else {
-          pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x18) = pSVar6;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pSVar6);
-        }
-        pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+      bVar2 = System_String__op_Equality(name,"RandomBool",(MethodInfo *)0x0);
+      if (!bVar2) goto label_18208f643;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
       }
+      if (Il2CppMethodInitialized_184346860 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomBool_b__4_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+        Il2CppMethodInitialized_184346860 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0;
+      if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      }
+      pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomBool_b__4_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0 =
+           (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0;
     }
-    else if ((uVar3 == 0xb5b881f7) &&
-            (bVar4 = System_String__op_Equality(name,"RandomDirection",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    else {
+      if (uVar3 != 0xb5b881f7) goto label_18208f643;
+      bVar2 = System_String__op_Equality(name,"RandomDirection",(MethodInfo *)0x0);
+      if (!bVar2) goto label_18208f643;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
       }
-      if (g_data_057adb50 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomDirection_b__6_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb50 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
+      if (Il2CppMethodInitialized_184346862 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomDirection_b__6_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+        Il2CppMethodInitialized_184346862 = '\x01';
       }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
       }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0;
+      if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+      if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
       }
-      else {
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x28) = pSVar6;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x28,pSVar6);
-      }
-      pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar7;
-    }
-  }
-  else if (uVar3 == 0xfb77f8cf) {
-    bVar4 = System_String__op_Equality(name,"RandomSign",(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057adb51 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomSign_b__7_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057adb51 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-      }
-      else {
-        pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-      }
-      if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x30) = pSVar6;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x30,pSVar6);
-      }
-      pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+      pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+      __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomDirection_b__6_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0 =
+           (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0;
     }
   }
-  else if ((uVar3 == 0xfa877c5b) &&
-          (bVar4 = System_String__op_Equality(name,"RandomInt",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  else if (uVar3 == 0xfa877c5b) {
+    bVar2 = System_String__op_Equality(name,"RandomInt",(MethodInfo *)0x0);
+    if (!bVar2) goto label_18208f643;
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings)
+      ;
     }
-    goto CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt;
-  }
-  str0 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicRandomBuiltin not found");
-  unaff_R14 = System_String__Concat_3af7150(str0,name,str2,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  unaff_RBX = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  System_Exception___ctor_3cf6120(unaff_RBX,unaff_R14,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  il2cpp_runtime_helper_022b2b10(unaff_RBX,uVar5);
-  register0x00000020 = (BADSPACEBASE *)auStack_18;
-CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt:
-  *(undefined8 *)((long)register0x00000020 + -8) = unaff_R15;
-  *(System_String_o **)((long)register0x00000020 + -0x10) = unaff_R14;
-  *(System_Exception_o **)((long)register0x00000020 + -0x18) = unaff_RBX;
-  if (g_data_057adb4c == '\0') {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f959;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f965;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f971;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f97d;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomInt_b__2_0);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f989;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4c = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+    if (Il2CppMethodInitialized_18434685e == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomInt_b__2_0
+                );
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      Il2CppMethodInitialized_18434685e = '\x01';
+    }
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    }
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0;
+    if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    }
+    pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,pIVar1,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomInt_b__2_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0;
   }
   else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
-  }
-  if (iVar1 == 0) {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f9ac;
-    il2cpp_runtime_helper_02337ed0();
-    pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  else {
-    pSVar6 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  if (pSVar6 == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f8fb;
-      il2cpp_runtime_helper_02337ed0();
+    if (uVar3 != 0xfb77f8cf) {
+label_18208f643:
+      pSVar4 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicRandomBuiltin not found");
+      str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+      pSVar4 = System_String__Concat_1969b70(str0,name,pSVar4,(MethodInfo *)0x0);
+      klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+      __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+      System_Exception___ctor_1b6abf0(__this_01,pSVar4,(MethodInfo *)0x0);
+      lastManagedFrame =
+           il2cpp_codegen_get_runtime_metadata
+                     (&MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_CreateMemberBinding);
+      il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
     }
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f917;
-    pSVar6 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f931;
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 8) = pSVar6;
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f94b;
-    il2cpp_runtime_helper_022b4080(lVar2 + 8,pSVar6);
+    bVar2 = System_String__op_Equality(name,"RandomSign",(MethodInfo *)0x0);
+    if (!bVar2) goto label_18208f643;
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings)
+      ;
+    }
+    if (Il2CppMethodInitialized_184346863 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&
+                 MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomSign_b__7_0
+                );
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+      Il2CppMethodInitialized_184346863 = '\x01';
+    }
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    }
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0;
+    if (__this != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_18208f614;
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    }
+    pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,pIVar1,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomSign_b__7_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    targetAddress = &TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0;
   }
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f9d2;
-  pCVar7 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x424f9ea;
-  CustomLogic_CLMethodBinding_object____ctor(pCVar7,pSVar6,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-  return (CustomLogic_ICLMemberBinding_o *)pCVar7;
+  Il2CppCodeGenWriteBarrier(targetAddress,__this);
+label_18208f614:
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_ICLMemberBinding_o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomInt
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt (const MethodInfo* method);
-// 0x424f8b0
+// 0x182098020
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomInt(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb4c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomInt_b__2_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4c = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434685e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomInt_b__2_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_18434685e = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 8) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 8,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomInt_b__2_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__2_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomFloat
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomFloat (const MethodInfo* method);
-// 0x424fa00
+// 0x182097f00
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomFloat(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb4d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomFloat_b__3_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4d = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434685f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomFloat_b__3_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_18434685f = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x10) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x10,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomFloat_b__3_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__3_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomBool
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomBool (const MethodInfo* method);
-// 0x424fb50
+// 0x182097cc0
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomBool(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb4e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomBool_b__4_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4e = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184346860 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomBool_b__4_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346860 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x18) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x18,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomBool_b__4_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__4_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomVector3
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomVector3 (const MethodInfo* method);
-// 0x424fca0
+// 0x182098260
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomVector3(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb4f == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomVector3_b__5_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb4f = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184346861 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomVector3_b__5_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346861 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x20) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x20,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomVector3_b__5_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__5_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomDirection
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomDirection (const MethodInfo* method);
-// 0x424fdf0
+// 0x182097de0
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomDirection(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb50 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomDirection_b__6_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb50 = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184346862 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomDirection_b__6_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346862 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x28) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x28,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomDirection_b__6_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__6_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__RandomSign
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomSign (const MethodInfo* method);
-// 0x424ff40
+// 0x182098140
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__RandomSign(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb51 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__RandomSign_b__7_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb51 = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184346863 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomSign_b__7_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346863 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x30);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x30) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x30,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__RandomSign_b__7_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__7_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$__CreateMethodBinding__PerlinNoise
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o* CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__PerlinNoise (const MethodInfo* method);
-// 0x4250090
+// 0x182097820
 
 CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *
 CustomLogic_CustomLogicRandomBuiltin_Bindings____CreateMethodBinding__PerlinNoise(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb52 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PerlinNoise_b__8_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb52 = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184346864 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__PerlinNoise_b__8_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
+    Il2CppMethodInitialized_184346864 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c)
+    ;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x38);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicRandomBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x38) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x38,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicRandomBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c___CreateMethodBinding__PerlinNoise_b__8_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0 =
+         (System_Func_CustomLogicRandomBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings_c->static_fields->__9__8_0,__this);
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicRandomBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicRandomBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicRandomBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicRandomBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x42501e0
+// 0x18209a930
 
 void CustomLogic_CustomLogicRandomBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_object__o *__this;
-  Il2CppObject *__this_00;
+  System_Collections_Generic_HashSet_string__o *__this;
   
-  if (g_data_057adb53 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    il2cpp_runtime_helper_023445d0(&"RandomBool");
-    il2cpp_runtime_helper_023445d0(&"RandomDirection");
-    il2cpp_runtime_helper_023445d0(&"PerlinNoise");
-    il2cpp_runtime_helper_023445d0(&"RandomFloat");
-    il2cpp_runtime_helper_023445d0(&"RandomVector3");
-    il2cpp_runtime_helper_023445d0(&"RandomInt");
-    il2cpp_runtime_helper_023445d0(&"RandomSign");
-    g_data_057adb53 = '\x01';
+  if (Il2CppMethodInitialized_184346865 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomBool");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomDirection");
+    il2cpp_codegen_initialize_runtime_metadata(&"PerlinNoise");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomFloat");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomVector3");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomInt");
+    il2cpp_codegen_initialize_runtime_metadata(&"RandomSign");
+    Il2CppMethodInitialized_184346865 = '\x01';
   }
-  __this = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  System_Collections_Generic_HashSet_object____ctor(__this,MethodInfo_HashSet_1_System_String);
-  if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomInt",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomFloat",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomBool",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomVector3",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomDirection",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"RandomSign",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"PerlinNoise",MethodInfo_Boolean_Add);
-    **(undefined8 **)(TypeInfo_Bindings + 0xb8) = __this;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_Bindings + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomInt",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomFloat",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomBool",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomVector3",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomDirection",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"RandomSign",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PerlinNoise",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->static_fields->MemberNames = __this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicRandomBuiltin_Bindings->static_fields->MemberNames,__this);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adb54 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb54 = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this_00;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this_00);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRandomBuiltin___ctor (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424ec50
+// 0x1820aa590
 
 void CustomLogic_CustomLogicRandomBuiltin___ctor
                (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057adb45 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb45 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if (Il2CppMethodInitialized_184346857 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_184346857 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method);
-    return;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,method);
+  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicRandomBuiltin___ctor (CustomLogic_CustomLogicRandomBuiltin_o* __this, int32_t seed, const MethodInfo* method);
-// 0x424ecb0
+// 0x1820aa510
 
-void CustomLogic_CustomLogicRandomBuiltin___ctor_414ecb0
+void CustomLogic_CustomLogicRandomBuiltin___ctor_20aa510
                (CustomLogic_CustomLogicRandomBuiltin_o *__this,int32_t seed,MethodInfo *method)
 
 {
   uint uVar1;
-  int32_t iVar2;
-  undefined4 in_register_00000034;
   
-  iVar2 = seed;
-  if (g_data_057adb46 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057adb46 = '\x01';
+  if (Il2CppMethodInitialized_184346858 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_184346858 = '\x01';
   }
-  if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
-  CustomLogic_BuiltinClassInstance___ctor
-            ((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)CONCAT44(in_register_00000034,iVar2));
+  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).UseInstanceRandom = true;
   uVar1 = seed << 0xd ^ seed;
   uVar1 = uVar1 >> 0x11 ^ uVar1;
   (__this->fields).Rand.fields.state = uVar1 << 5 ^ uVar1;
-  *(undefined1 *)&(__this->fields).UseInstanceRandom = 1;
   return;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomInt
 // il2cpp: int32_t CustomLogic_CustomLogicRandomBuiltin__RandomInt (CustomLogic_CustomLogicRandomBuiltin_o* __this, int32_t min, int32_t max, const MethodInfo* method);
-// 0x424ed20
+// 0x1820aa2a0
 
 int32_t CustomLogic_CustomLogicRandomBuiltin__RandomInt
                   (CustomLogic_CustomLogicRandomBuiltin_o *__this,int32_t min,int32_t max,MethodInfo *method)
 
 {
   uint uVar1;
-  int32_t iVar2;
-  uint uVar3;
+  uint uVar2;
+  int32_t iVar3;
   
-  if ((char)(__this->fields).UseInstanceRandom != '\0') {
+  if ((__this->fields).UseInstanceRandom != false) {
     uVar1 = (__this->fields).Rand.fields.state;
-    uVar3 = uVar1 << 0xd ^ uVar1;
-    uVar3 = uVar3 >> 0x11 ^ uVar3;
-    (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
-    return (int)((ulong)(uint)(max - min) * (ulong)uVar1 >> 0x20) + min;
+    uVar2 = (__this->fields).Rand.fields.state << 0xd ^ (__this->fields).Rand.fields.state;
+    uVar2 = uVar2 >> 0x11 ^ uVar2;
+    (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
+    return (int)((ulonglong)(uint)(max - min) * (ulonglong)uVar1 >> 0x20) + min;
   }
-  iVar2 = UnityEngine_Random__Range_4df2410(min,max,(MethodInfo *)0x0);
-  return iVar2;
+  iVar3 = UnityEngine_Random__RandomRangeInt(min,max,(MethodInfo *)0x0);
+  return iVar3;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomFloat
 // il2cpp: float CustomLogic_CustomLogicRandomBuiltin__RandomFloat (CustomLogic_CustomLogicRandomBuiltin_o* __this, float min, float max, const MethodInfo* method);
-// 0x424ed60
+// 0x1820aa240
 
 float CustomLogic_CustomLogicRandomBuiltin__RandomFloat
                 (CustomLogic_CustomLogicRandomBuiltin_o *__this,float min,float max,MethodInfo *method)
@@ -3354,12 +1395,12 @@ float CustomLogic_CustomLogicRandomBuiltin__RandomFloat
   uint uVar2;
   float fVar3;
   
-  if ((char)(__this->fields).UseInstanceRandom != '\0') {
+  if ((__this->fields).UseInstanceRandom != false) {
     uVar1 = (__this->fields).Rand.fields.state;
     uVar2 = uVar1 << 0xd ^ uVar1;
     uVar2 = uVar2 >> 0x11 ^ uVar2;
     (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
-    return (max - min) * ((float)(uVar1 >> 9 | 0x3f800000) + -1.0) + min;
+    return ((float)(uVar1 >> 9 | 0x3f800000) - 1.0) * (max - min) + min;
   }
   fVar3 = UnityEngine_Random__Range(min,max,(MethodInfo *)0x0);
   return fVar3;
@@ -3368,23 +1409,22 @@ float CustomLogic_CustomLogicRandomBuiltin__RandomFloat
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomBool
 // il2cpp: bool CustomLogic_CustomLogicRandomBuiltin__RandomBool (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424edb0
+// 0x1820a9f90
 
-bool_conflict
-CustomLogic_CustomLogicRandomBuiltin__RandomBool
-          (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
+bool CustomLogic_CustomLogicRandomBuiltin__RandomBool
+               (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
 
 {
   uint uVar1;
-  bool_conflict bVar2;
+  bool bVar2;
   uint uVar3;
   
-  if ((char)(__this->fields).UseInstanceRandom != '\0') {
+  if ((__this->fields).UseInstanceRandom != false) {
     uVar1 = (__this->fields).Rand.fields.state;
     uVar3 = uVar1 << 0xd ^ uVar1;
     uVar3 = uVar3 >> 0x11 ^ uVar3;
     (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
-    return uVar1 & 0xffffff01;
+    return (bool)((byte)uVar1 & 1);
   }
   bVar2 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
   return bVar2;
@@ -3393,7 +1433,7 @@ CustomLogic_CustomLogicRandomBuiltin__RandomBool
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomVector3
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicRandomBuiltin__RandomVector3 (CustomLogic_CustomLogicRandomBuiltin_o* __this, CustomLogic_CustomLogicVector3Builtin_o* a, CustomLogic_CustomLogicVector3Builtin_o* b, const MethodInfo* method);
-// 0x424ede0
+// 0x1820aa340
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicRandomBuiltin__RandomVector3
@@ -3402,365 +1442,202 @@ CustomLogic_CustomLogicRandomBuiltin__RandomVector3
 
 {
   float fVar1;
-  int iVar2;
-  CustomLogic_CustomLogicVector3Builtin_o *pCVar3;
-  uint uVar4;
-  char cVar5;
-  CustomLogic_CustomLogicRandomBuiltin_o *pCVar6;
-  undefined4 uVar9;
-  undefined1 extraout_var [12];
-  undefined1 auVar7 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar8 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
-  float fVar10;
-  uint uVar11;
-  undefined1 auVar12 [16];
-  float fVar13;
-  undefined1 auVar14 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  UnityEngine_Vector3_o value;
-  UnityEngine_Vector3_o value_00;
-  undefined8 local_70;
-  float local_3c;
-  undefined1 auVar15 [16];
+  uint uVar2;
+  uint uVar3;
+  CustomLogic_CustomLogicVector3Builtin_o *__this_00;
+  float fVar4;
+  float fVar5;
+  UnityEngine_Vector3_o local_48 [5];
   
-  pCVar3 = a;
-  pCVar6 = __this;
-  if (g_data_057adb47 == '\0') {
-    pCVar6 = (CustomLogic_CustomLogicRandomBuiltin_o *)&TypeInfo_CustomLogicVector3Builtin;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb47 = '\x01';
+  if (Il2CppMethodInitialized_184346859 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+    Il2CppMethodInitialized_184346859 = '\x01';
   }
-  cVar5 = (char)pCVar3;
-  if ((a == (CustomLogic_CustomLogicVector3Builtin_o *)0x0) ||
-     (b == (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057adb48 == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057adb48 = '\x01';
-    }
-    if ((char)(pCVar6->fields).UseInstanceRandom == '\0') {
-      auVar16._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-      auVar16._4_12_ = extraout_var;
-      if ((char)(pCVar6->fields).UseInstanceRandom != '\0') goto label_0424f04b;
-      fVar10 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-      uVar9 = extraout_var_01._0_4_;
-      if ((char)(pCVar6->fields).UseInstanceRandom == '\0') {
-        fVar13 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-        auVar12._4_4_ = extraout_var_02._0_4_;
-        auVar12._0_4_ = fVar13;
-        auVar12._8_4_ = extraout_var_02._4_4_;
-        auVar12._12_4_ = extraout_var_02._8_4_;
-        auVar17._8_4_ = extraout_var._0_4_;
-        auVar17._0_8_ = auVar16._0_8_;
-        auVar17._12_4_ = uVar9;
-        auVar14._8_8_ = auVar17._8_8_;
-        auVar14._4_4_ = fVar10;
-        auVar14._0_4_ = auVar16._0_4_;
-        goto joined_r0x0424f27e;
-      }
+  if ((a != (CustomLogic_CustomLogicVector3Builtin_o *)0x0) &&
+     (b != (CustomLogic_CustomLogicVector3Builtin_o *)0x0)) {
+    fVar4 = (a->fields).Value.fields.x;
+    fVar5 = (b->fields).Value.fields.x;
+    if ((__this->fields).UseInstanceRandom == false) {
+      fVar4 = UnityEngine_Random__Range(fVar4,fVar5,(MethodInfo *)0x0);
     }
     else {
-      uVar11 = (pCVar6->fields).Rand.fields.state;
-      uVar4 = uVar11 << 0xd ^ uVar11;
-      uVar4 = uVar4 >> 0x11 ^ uVar4;
-      (pCVar6->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-      fVar10 = (float)(uVar11 >> 9 | 0x3f800000) + -1.0;
-      auVar16 = ZEXT416((uint)(fVar10 + fVar10 + -1.0));
-label_0424f04b:
-      uVar11 = (pCVar6->fields).Rand.fields.state;
-      uVar4 = uVar11 << 0xd ^ uVar11;
-      uVar4 = uVar4 >> 0x11 ^ uVar4;
-      (pCVar6->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-      fVar10 = (float)(uVar11 >> 9 | 0x3f800000) + -1.0;
-      fVar10 = fVar10 + fVar10 + -1.0;
-      uVar9 = 0;
+      uVar2 = (__this->fields).Rand.fields.state;
+      uVar3 = uVar2 << 0xd ^ uVar2;
+      uVar3 = uVar3 >> 0x11 ^ uVar3;
+      (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+      fVar4 = ((float)(uVar2 >> 9 | 0x3f800000) - 1.0) * (fVar5 - fVar4) + fVar4;
     }
-    uVar11 = (pCVar6->fields).Rand.fields.state;
-    uVar4 = uVar11 << 0xd ^ uVar11;
-    uVar4 = uVar4 >> 0x11 ^ uVar4;
-    (pCVar6->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-    fVar13 = (float)(uVar11 >> 9 | 0x3f800000) + -1.0;
-    auVar12 = ZEXT416((uint)(fVar13 + fVar13 + -1.0));
-    auVar15._0_8_ = auVar16._0_8_;
-    auVar15._8_4_ = auVar16._4_4_;
-    auVar15._12_4_ = uVar9;
-    auVar14._8_8_ = auVar15._8_8_;
-    auVar14._0_4_ = auVar16._0_4_;
-    auVar14._4_4_ = fVar10;
-joined_r0x0424f27e:
-    if (cVar5 != '\0') {
-      auVar14._4_4_ = 0;
-      auVar14._0_4_ = auVar16._0_4_;
-    }
-    uVar11 = auVar12._0_4_;
-    if (g_data_057a6845 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-      auVar12 = ZEXT416(uVar11);
-      g_data_057a6845 = '\x01';
-      iVar2 = *(int *)(TypeInfo_Math + 0xe4);
-    }
-    else {
-      iVar2 = *(int *)(TypeInfo_Math + 0xe4);
-    }
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      auVar12 = ZEXT416(uVar11);
-    }
-    auVar7._4_12_ = auVar12._4_12_;
-    fVar10 = auVar12._0_4_ * auVar12._0_4_ + auVar14._4_4_ * auVar14._4_4_ + auVar14._0_4_ * auVar14._0_4_;
-    if (fVar10 < 0.0) {
-      auVar7._0_4_ = sqrtf(fVar10);
-      auVar7._4_12_ = extraout_var_00;
-      auVar12 = ZEXT416(uVar11);
-      fVar10 = auVar7._0_4_;
-    }
-    else {
-      auVar7._0_4_ = SQRT(fVar10);
-      fVar10 = auVar7._0_4_;
-    }
-    if (1e-05 < fVar10) {
-      auVar8._0_4_ = auVar7._0_4_;
-      fVar10 = auVar12._0_4_ / auVar8._0_4_;
-      auVar8._8_4_ = auVar7._8_4_;
-      auVar8._12_4_ = auVar7._12_4_;
-      auVar8._4_4_ = auVar8._0_4_;
-      auVar16 = divps(auVar14,auVar8);
-      local_70 = auVar16._0_8_;
-    }
-    else {
-      if (g_data_057a65d5 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-        g_data_057a65d5 = '\x01';
-      }
-      local_70 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-      fVar10 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-    }
-    pCVar3 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-    value_00.fields.z = fVar10;
-    value_00.fields.x = (float)(undefined4)local_70;
-    value_00.fields.y = (float)local_70._4_4_;
-    CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar3,value_00,(MethodInfo *)0x0);
-    return pCVar3;
-  }
-  fVar10 = (a->fields).Value.fields.x;
-  fVar13 = (b->fields).Value.fields.x;
-  if ((char)(__this->fields).UseInstanceRandom == '\0') {
-    fVar10 = UnityEngine_Random__Range(fVar10,fVar13,(MethodInfo *)0x0);
-    fVar13 = (a->fields).Value.fields.y;
+    fVar5 = (a->fields).Value.fields.y;
     fVar1 = (b->fields).Value.fields.y;
-    if ((char)(__this->fields).UseInstanceRandom != '\0') goto label_0424ee9e;
-    fVar13 = UnityEngine_Random__Range(fVar13,fVar1,(MethodInfo *)0x0);
-    local_3c = (a->fields).Value.fields.z;
-    fVar1 = (b->fields).Value.fields.z;
-    if ((char)(__this->fields).UseInstanceRandom == '\0') {
-      local_3c = UnityEngine_Random__Range(local_3c,fVar1,(MethodInfo *)0x0);
-      goto label_0424ef26;
+    if ((__this->fields).UseInstanceRandom == false) {
+      fVar5 = UnityEngine_Random__Range(fVar5,fVar1,(MethodInfo *)0x0);
     }
-  }
-  else {
-    uVar11 = (__this->fields).Rand.fields.state;
-    uVar4 = uVar11 << 0xd ^ uVar11;
-    uVar4 = uVar4 >> 0x11 ^ uVar4;
-    (__this->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-    fVar10 = (fVar13 - fVar10) * ((float)(uVar11 >> 9 | 0x3f800000) + -1.0) + fVar10;
-    fVar13 = (a->fields).Value.fields.y;
-    fVar1 = (b->fields).Value.fields.y;
-label_0424ee9e:
-    uVar11 = (__this->fields).Rand.fields.state;
-    uVar4 = uVar11 << 0xd ^ uVar11;
-    uVar4 = uVar4 >> 0x11 ^ uVar4;
-    (__this->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-    fVar13 = (fVar1 - fVar13) * ((float)(uVar11 >> 9 | 0x3f800000) + -1.0) + fVar13;
-    local_3c = (a->fields).Value.fields.z;
+    else {
+      uVar2 = (__this->fields).Rand.fields.state;
+      uVar3 = uVar2 << 0xd ^ uVar2;
+      uVar3 = uVar3 >> 0x11 ^ uVar3;
+      (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+      fVar5 = ((float)(uVar2 >> 9 | 0x3f800000) - 1.0) * (fVar1 - fVar5) + fVar5;
+    }
+    local_48[0].fields.z = (a->fields).Value.fields.z;
     fVar1 = (b->fields).Value.fields.z;
+    if ((__this->fields).UseInstanceRandom == false) {
+      local_48[0].fields.z = UnityEngine_Random__Range(local_48[0].fields.z,fVar1,(MethodInfo *)0x0);
+    }
+    else {
+      uVar2 = (__this->fields).Rand.fields.state;
+      uVar3 = uVar2 << 0xd ^ uVar2;
+      uVar3 = uVar3 >> 0x11 ^ uVar3;
+      (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+      local_48[0].fields.z =
+           ((float)(uVar2 >> 9 | 0x3f800000) - 1.0) * (fVar1 - local_48[0].fields.z) + local_48[0].fields.z;
+    }
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+    local_48[0].fields.x = fVar4;
+    local_48[0].fields.y = fVar5;
+    CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0(__this_00,local_48,(MethodInfo *)0x0);
+    return __this_00;
   }
-  uVar11 = (__this->fields).Rand.fields.state;
-  uVar4 = uVar11 << 0xd ^ uVar11;
-  uVar4 = uVar4 >> 0x11 ^ uVar4;
-  (__this->fields).Rand.fields.state = uVar4 << 5 ^ uVar4;
-  local_3c = (fVar1 - local_3c) * ((float)(uVar11 >> 9 | 0x3f800000) + -1.0) + local_3c;
-label_0424ef26:
-  value.fields.y = fVar13;
-  value.fields.x = fVar10;
-  pCVar3 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-  value.fields.z = local_3c;
-  CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(pCVar3,value,(MethodInfo *)0x0);
-  return pCVar3;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomDirection
 // il2cpp: CustomLogic_CustomLogicVector3Builtin_o* CustomLogic_CustomLogicRandomBuiltin__RandomDirection (CustomLogic_CustomLogicRandomBuiltin_o* __this, bool _flat, const MethodInfo* method);
-// 0x424efc0
+// 0x1820a9fd0
 
 CustomLogic_CustomLogicVector3Builtin_o *
 CustomLogic_CustomLogicRandomBuiltin__RandomDirection
-          (CustomLogic_CustomLogicRandomBuiltin_o *__this,bool_conflict _flat,MethodInfo *method)
+          (CustomLogic_CustomLogicRandomBuiltin_o *__this,bool _flat,MethodInfo *method)
 
 {
-  int iVar1;
+  uint uVar1;
+  UnityEngine_Vector3_StaticFields *pUVar2;
+  uint uVar3;
   CustomLogic_CustomLogicVector3Builtin_o *__this_00;
-  uint uVar2;
-  float fVar3;
-  undefined4 uVar6;
-  undefined1 extraout_var [12];
-  undefined1 auVar4 [16];
-  undefined1 extraout_var_00 [12];
-  undefined1 auVar5 [16];
-  undefined1 extraout_var_01 [12];
-  undefined1 extraout_var_02 [12];
+  float fVar4;
+  double dVar5;
+  float fVar6;
   float fVar7;
-  uint uVar8;
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  UnityEngine_Vector3_o value;
-  undefined8 uStack_28;
-  undefined1 auVar11 [16];
+  undefined8 uVar8;
+  float fVar9;
+  UnityEngine_Vector3_Fields local_58 [6];
   
-  if (g_data_057adb48 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adb48 = '\x01';
+  if (Il2CppMethodInitialized_18434685a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+    Il2CppMethodInitialized_18434685a = '\x01';
   }
-  if ((char)(__this->fields).UseInstanceRandom == '\0') {
-    auVar12._0_4_ = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-    auVar12._4_12_ = extraout_var;
-    if ((char)(__this->fields).UseInstanceRandom != '\0') goto label_0424f04b;
-    fVar3 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-    uVar6 = extraout_var_01._0_4_;
-    if ((char)(__this->fields).UseInstanceRandom == '\0') {
-      fVar7 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
-      auVar9._4_4_ = extraout_var_02._0_4_;
-      auVar9._0_4_ = fVar7;
-      auVar9._8_4_ = extraout_var_02._4_4_;
-      auVar9._12_4_ = extraout_var_02._8_4_;
-      auVar13._8_4_ = extraout_var._0_4_;
-      auVar13._0_8_ = auVar12._0_8_;
-      auVar13._12_4_ = uVar6;
-      auVar10._8_8_ = auVar13._8_8_;
-      auVar10._4_4_ = fVar3;
-      auVar10._0_4_ = auVar12._0_4_;
-      goto joined_r0x0424f27e;
-    }
+  if ((__this->fields).UseInstanceRandom == false) {
+    fVar7 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
   }
   else {
-    uVar8 = (__this->fields).Rand.fields.state;
-    uVar2 = uVar8 << 0xd ^ uVar8;
-    uVar2 = uVar2 >> 0x11 ^ uVar2;
-    (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
-    fVar3 = (float)(uVar8 >> 9 | 0x3f800000) + -1.0;
-    auVar12 = ZEXT416((uint)(fVar3 + fVar3 + -1.0));
-label_0424f04b:
-    uVar8 = (__this->fields).Rand.fields.state;
-    uVar2 = uVar8 << 0xd ^ uVar8;
-    uVar2 = uVar2 >> 0x11 ^ uVar2;
-    (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
-    fVar3 = (float)(uVar8 >> 9 | 0x3f800000) + -1.0;
-    fVar3 = fVar3 + fVar3 + -1.0;
-    uVar6 = 0;
+    uVar1 = (__this->fields).Rand.fields.state;
+    uVar3 = uVar1 << 0xd ^ uVar1;
+    uVar3 = uVar3 >> 0x11 ^ uVar3;
+    (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+    fVar7 = (float)(uVar1 >> 9 | 0x3f800000) - 1.0;
+    fVar7 = (fVar7 + fVar7) - 1.0;
   }
-  uVar8 = (__this->fields).Rand.fields.state;
-  uVar2 = uVar8 << 0xd ^ uVar8;
-  uVar2 = uVar2 >> 0x11 ^ uVar2;
-  (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
-  fVar7 = (float)(uVar8 >> 9 | 0x3f800000) + -1.0;
-  auVar9 = ZEXT416((uint)(fVar7 + fVar7 + -1.0));
-  auVar11._0_8_ = auVar12._0_8_;
-  auVar11._8_4_ = auVar12._4_4_;
-  auVar11._12_4_ = uVar6;
-  auVar10._8_8_ = auVar11._8_8_;
-  auVar10._0_4_ = auVar12._0_4_;
-  auVar10._4_4_ = fVar3;
-joined_r0x0424f27e:
-  if ((char)_flat != '\0') {
-    auVar10._4_4_ = 0;
-    auVar10._0_4_ = auVar12._0_4_;
-  }
-  uVar8 = auVar9._0_4_;
-  if (g_data_057a6845 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-    auVar9 = ZEXT416(uVar8);
-    g_data_057a6845 = '\x01';
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
+  if ((__this->fields).UseInstanceRandom == false) {
+    fVar6 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
   }
   else {
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
+    uVar1 = (__this->fields).Rand.fields.state;
+    uVar3 = uVar1 << 0xd ^ uVar1;
+    uVar3 = uVar3 >> 0x11 ^ uVar3;
+    (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+    fVar6 = (float)(uVar1 >> 9 | 0x3f800000) - 1.0;
+    fVar6 = (fVar6 + fVar6) - 1.0;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    auVar9 = ZEXT416(uVar8);
-  }
-  auVar4._4_12_ = auVar9._4_12_;
-  fVar3 = auVar9._0_4_ * auVar9._0_4_ + auVar10._4_4_ * auVar10._4_4_ + auVar10._0_4_ * auVar10._0_4_;
-  if (fVar3 < 0.0) {
-    auVar4._0_4_ = sqrtf(fVar3);
-    auVar4._4_12_ = extraout_var_00;
-    auVar9 = ZEXT416(uVar8);
-    fVar3 = auVar4._0_4_;
+  if ((__this->fields).UseInstanceRandom == false) {
+    fVar9 = UnityEngine_Random__Range(-1.0,1.0,(MethodInfo *)0x0);
   }
   else {
-    auVar4._0_4_ = SQRT(fVar3);
-    fVar3 = auVar4._0_4_;
+    uVar1 = (__this->fields).Rand.fields.state;
+    uVar3 = uVar1 << 0xd ^ uVar1;
+    uVar3 = uVar3 >> 0x11 ^ uVar3;
+    (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
+    fVar9 = (float)(uVar1 >> 9 | 0x3f800000) - 1.0;
+    fVar9 = (fVar9 + fVar9) - 1.0;
   }
-  if (1e-05 < fVar3) {
-    auVar5._0_4_ = auVar4._0_4_;
-    fVar3 = auVar9._0_4_ / auVar5._0_4_;
-    auVar5._8_4_ = auVar4._8_4_;
-    auVar5._12_4_ = auVar4._12_4_;
-    auVar5._4_4_ = auVar5._0_4_;
-    auVar12 = divps(auVar10,auVar5);
-    uStack_28 = auVar12._0_8_;
+  if (_flat) {
+    fVar6 = 0.0;
+  }
+  if (Il2CppMethodInitialized_18433de5f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433de5f = '\x01';
+  }
+  if (Il2CppMethodInitialized_18433de59 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_18433de59 = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  dVar5 = (double)(fVar6 * fVar6 + fVar7 * fVar7 + fVar9 * fVar9);
+  if (dVar5 < 0.0) {
+    dVar5 = sqrt(dVar5);
   }
   else {
-    if (g_data_057a65d5 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-      g_data_057a65d5 = '\x01';
-    }
-    uStack_28 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-    fVar3 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
+    dVar5 = SQRT(dVar5);
   }
-  __this_00 = (CustomLogic_CustomLogicVector3Builtin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicVector3Builtin);
-  value.fields.z = fVar3;
-  value.fields.x = (float)(undefined4)uStack_28;
-  value.fields.y = (float)uStack_28._4_4_;
-  CustomLogic_CustomLogicVector3Builtin___ctor_3fd3330(__this_00,value,(MethodInfo *)0x0);
+  fVar4 = (float)dVar5;
+  if (fVar4 <= 1e-05) {
+    pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar7 = (pUVar2->zeroVector).fields.x;
+    fVar6 = (pUVar2->zeroVector).fields.y;
+    fVar9 = (pUVar2->zeroVector).fields.z;
+  }
+  else {
+    fVar7 = fVar7 / fVar4;
+    fVar6 = fVar6 / fVar4;
+    fVar9 = fVar9 / fVar4;
+  }
+  uVar8._4_4_ = fVar6;
+  uVar8._0_4_ = fVar7;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicVector3Builtin);
+  local_58[0]._0_8_ = uVar8;
+  local_58[0].z = fVar9;
+  CustomLogic_CustomLogicVector3Builtin___ctor_1ed7cc0
+            (__this_00,(UnityEngine_Vector3_o *)local_58,(MethodInfo *)0x0);
   return __this_00;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$RandomSign
 // il2cpp: int32_t CustomLogic_CustomLogicRandomBuiltin__RandomSign (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424f290
+// 0x1820aa2f0
 
 int32_t CustomLogic_CustomLogicRandomBuiltin__RandomSign
                   (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
+  uint uVar1;
   uint uVar2;
-  uint uVar3;
+  int32_t iVar3;
+  bool bVar4;
   
-  if ((char)(__this->fields).UseInstanceRandom != '\0') {
-    uVar2 = (__this->fields).Rand.fields.state;
-    uVar3 = uVar2 << 0xd ^ uVar2;
-    uVar3 = uVar3 >> 0x11 ^ uVar3;
-    (__this->fields).Rand.fields.state = uVar3 << 5 ^ uVar3;
-    bVar1 = (byte)uVar2 & 1;
-    return (uint)bVar1 + (uint)bVar1 + -1;
+  if ((__this->fields).UseInstanceRandom == false) {
+    bVar4 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
   }
-  uVar2 = Utility_RandomGen__GetRandomBool((MethodInfo *)0x0);
-  return (uVar2 & 0xff) * 2 + -1;
+  else {
+    uVar1 = (__this->fields).Rand.fields.state;
+    uVar2 = uVar1 << 0xd ^ uVar1;
+    uVar2 = uVar2 >> 0x11 ^ uVar2;
+    (__this->fields).Rand.fields.state = uVar2 << 5 ^ uVar2;
+    bVar4 = (bool)((byte)uVar1 & 1);
+  }
+  iVar3 = -1;
+  if (bVar4 != false) {
+    iVar3 = 1;
+  }
+  return iVar3;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$PerlinNoise
 // il2cpp: float CustomLogic_CustomLogicRandomBuiltin__PerlinNoise (CustomLogic_CustomLogicRandomBuiltin_o* __this, float x, float y, const MethodInfo* method);
-// 0x424f2e0
+// 0x1820a9f80
 
 float CustomLogic_CustomLogicRandomBuiltin__PerlinNoise
                 (CustomLogic_CustomLogicRandomBuiltin_o *__this,float x,float y,MethodInfo *method)
@@ -3775,16 +1652,16 @@ float CustomLogic_CustomLogicRandomBuiltin__PerlinNoise
 
 // CustomLogic.CustomLogicRandomBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicRandomBuiltin__get_ClassName (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424f2f0
+// 0x1820aa5e0
 
 System_String_o *
 CustomLogic_CustomLogicRandomBuiltin__get_ClassName
           (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adb49 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Random");
-    g_data_057adb49 = '\x01';
+  if (Il2CppMethodInitialized_18434685b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Random");
+    Il2CppMethodInitialized_18434685b = '\x01';
   }
   return "Random";
 }
@@ -3792,44 +1669,37 @@ CustomLogic_CustomLogicRandomBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicRandomBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicRandomBuiltin__get_IsAbstract (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424f320
+// 0x180668280
 
-bool_conflict
-CustomLogic_CustomLogicRandomBuiltin__get_IsAbstract
-          (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicRandomBuiltin__get_IsAbstract(CustomLogic_CustomLogicRandomBuiltin_o* __this, MethodInfo* method)
 
 {
-  return 0;
+  return false;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicRandomBuiltin__get_IsStatic (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424f330
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicRandomBuiltin__get_IsStatic
-          (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicRandomBuiltin__get_IsStatic(CustomLogic_CustomLogicRandomBuiltin_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicRandomBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicRandomBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicRandomBuiltin_o* __this, const MethodInfo* method);
-// 0x424f340
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicRandomBuiltin__get_InheritBaseMembers
-          (CustomLogic_CustomLogicRandomBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicRandomBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicRandomBuiltin_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 

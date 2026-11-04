@@ -11,28 +11,28 @@ using UnityEngine.Scripting;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x2000021")]
-[DebuggerDisplay("Value = {Value}; Count = {Count}")]
+[Token(Token = "0x200002C")]
 [UnityEngine.Scripting.UsedByNativeCode]
+[DebuggerDisplay("Value = {Value}; Count = {Count}")]
 public struct ProfilerRecorderSample
 {
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x400005E")]
 	[FieldOffset(Offset = "0x0")]
 	private long value;
 
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x400005F")]
 	[FieldOffset(Offset = "0x8")]
 	private long count;
 
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000060")]
 	[FieldOffset(Offset = "0x10")]
 	private long refValue;
 
-	[Token(Token = "0x17000004")]
+	[Token(Token = "0x1700000B")]
 	public long Count
 	{
-		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x4DAC330", Offset = "0x4DAC330", VA = "0x4DAC330")]
+		[Token(Token = "0x6000080")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		get
 		{
 			return default(long);

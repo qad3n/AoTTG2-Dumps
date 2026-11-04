@@ -12,7 +12,7 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B2")]
+[Token(Token = "0x20004E2")]
 internal sealed class RuntimeResourceSet : ResourceSet, IEnumerable
 {
 	[Token(Token = "0x4001367")]
@@ -34,82 +34,82 @@ internal sealed class RuntimeResourceSet : ResourceSet, IEnumerable
 	[FieldOffset(Offset = "0x40")]
 	private bool _haveReadFromReader;
 
-	[Token(Token = "0x6002347")]
-	[Address(RVA = "0x3BC4840", Offset = "0x3BC4840", VA = "0x3BC4840")]
+	[Token(Token = "0x60023C9")]
+	[Address(RVA = "0x1A55710", Offset = "0x1A53D10", VA = "0x181A55710")]
 	internal RuntimeResourceSet(string fileName)
 	{
 	}
 
-	[Token(Token = "0x6002348")]
-	[Address(RVA = "0x3BC4990", Offset = "0x3BC4990", VA = "0x3BC4990")]
+	[Token(Token = "0x60023CA")]
+	[Address(RVA = "0x1A55610", Offset = "0x1A53C10", VA = "0x181A55610")]
 	internal RuntimeResourceSet(Stream stream)
 	{
 	}
 
-	[Token(Token = "0x6002349")]
-	[Address(RVA = "0x3BC4AB0", Offset = "0x3BC4AB0", VA = "0x3BC4AB0", Slot = "6")]
+	[Token(Token = "0x60023CB")]
+	[Address(RVA = "0x1A54710", Offset = "0x1A52D10", VA = "0x181A54710", Slot = "6")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x600234A")]
-	[Address(RVA = "0x3BC4C50", Offset = "0x3BC4C50", VA = "0x3BC4C50", Slot = "7")]
+	[Token(Token = "0x60023CC")]
+	[Address(RVA = "0x1A548F0", Offset = "0x1A52EF0", VA = "0x181A548F0", Slot = "7")]
 	public override IDictionaryEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600234B")]
-	[Address(RVA = "0x3BC4D60", Offset = "0x3BC4D60", VA = "0x3BC4D60", Slot = "5")]
+	[Token(Token = "0x60023CD")]
+	[Address(RVA = "0x1A548F0", Offset = "0x1A52EF0", VA = "0x181A548F0", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600234C")]
-	[Address(RVA = "0x3BC4C60", Offset = "0x3BC4C60", VA = "0x3BC4C60")]
+	[Token(Token = "0x60023CE")]
+	[Address(RVA = "0x1A54850", Offset = "0x1A52E50", VA = "0x181A54850")]
 	private IDictionaryEnumerator GetEnumeratorHelper()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600234D")]
-	[Address(RVA = "0x3BC4D70", Offset = "0x3BC4D70", VA = "0x3BC4D70", Slot = "8")]
+	[Token(Token = "0x60023CF")]
+	[Address(RVA = "0x1A55420", Offset = "0x1A53A20", VA = "0x181A55420", Slot = "8")]
 	public override string GetString(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600234E")]
-	[Address(RVA = "0x3BC5940", Offset = "0x3BC5940", VA = "0x3BC5940", Slot = "9")]
+	[Token(Token = "0x60023D0")]
+	[Address(RVA = "0x1A553E0", Offset = "0x1A539E0", VA = "0x181A553E0", Slot = "9")]
 	public override string GetString(string key, bool ignoreCase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600234F")]
-	[Address(RVA = "0x3BC5970", Offset = "0x3BC5970", VA = "0x3BC5970", Slot = "10")]
+	[Token(Token = "0x60023D1")]
+	[Address(RVA = "0x1A54900", Offset = "0x1A52F00", VA = "0x181A54900", Slot = "10")]
 	public override object GetObject(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002350")]
-	[Address(RVA = "0x3BC5980", Offset = "0x3BC5980", VA = "0x3BC5980", Slot = "11")]
+	[Token(Token = "0x60023D2")]
+	[Address(RVA = "0x1A553C0", Offset = "0x1A539C0", VA = "0x181A553C0", Slot = "11")]
 	public override object GetObject(string key, bool ignoreCase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002351")]
-	[Address(RVA = "0x3BC4DA0", Offset = "0x3BC4DA0", VA = "0x3BC4DA0")]
+	[Token(Token = "0x60023D3")]
+	[Address(RVA = "0x1A54920", Offset = "0x1A52F20", VA = "0x181A54920")]
 	private object GetObject(string key, bool ignoreCase, bool isString)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002352")]
-	[Address(RVA = "0x3BC5990", Offset = "0x3BC5990", VA = "0x3BC5990")]
+	[Token(Token = "0x60023D4")]
+	[Address(RVA = "0x1A55460", Offset = "0x1A53A60", VA = "0x181A55460")]
 	private object ResolveResourceLocator(System.Resources.ResourceLocator resLocation, string key, Dictionary<string, System.Resources.ResourceLocator> copyOfCache, bool keyInWrongCase)
 	{
 		return null;

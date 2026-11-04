@@ -11,54 +11,54 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x200005A")]
+[Token(Token = "0x2000082")]
 internal sealed class SafePasswordHandle : SafeHandle
 {
 	[Token(Token = "0x17000036")]
 	public override bool IsInvalid
 	{
-		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x3AF30A0", Offset = "0x3AF30A0", VA = "0x3AF30A0", Slot = "5")]
+		[Token(Token = "0x6000253")]
+		[Address(RVA = "0x1967F30", Offset = "0x1966530", VA = "0x181967F30", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000211")]
-	[Address(RVA = "0x3AF2E90", Offset = "0x3AF2E90", VA = "0x3AF2E90")]
+	[Token(Token = "0x600024E")]
+	[Address(RVA = "0x1967CF0", Offset = "0x19662F0", VA = "0x181967CF0")]
 	private IntPtr CreateHandle(string password)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x6000212")]
-	[Address(RVA = "0x3AF2F00", Offset = "0x3AF2F00", VA = "0x3AF2F00")]
+	[Token(Token = "0x600024F")]
+	[Address(RVA = "0x1967DA0", Offset = "0x19663A0", VA = "0x181967DA0")]
 	private void FreeHandle()
 	{
 	}
 
-	[Token(Token = "0x6000213")]
-	[Address(RVA = "0x3AF2F60", Offset = "0x3AF2F60", VA = "0x3AF2F60")]
+	[Token(Token = "0x6000250")]
+	[Address(RVA = "0x1967EC0", Offset = "0x19664C0", VA = "0x181967EC0")]
 	public SafePasswordHandle(string password)
 	{
 	}
 
-	[Token(Token = "0x6000214")]
-	[Address(RVA = "0x3AF2FD0", Offset = "0x3AF2FD0", VA = "0x3AF2FD0", Slot = "7")]
+	[Token(Token = "0x6000251")]
+	[Address(RVA = "0x1967E40", Offset = "0x1966440", VA = "0x181967E40", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000215")]
-	[Address(RVA = "0x3AF3040", Offset = "0x3AF3040", VA = "0x3AF3040", Slot = "6")]
+	[Token(Token = "0x6000252")]
+	[Address(RVA = "0x1967D40", Offset = "0x1966340", VA = "0x181967D40", Slot = "6")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000217")]
-	[Address(RVA = "0x3AF30C0", Offset = "0x3AF30C0", VA = "0x3AF30C0")]
+	[Token(Token = "0x6000254")]
+	[Address(RVA = "0x1967DF0", Offset = "0x19663F0", VA = "0x181967DF0")]
 	internal string Mono_DangerousGetString()
 	{
 		return null;

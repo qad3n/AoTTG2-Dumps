@@ -11,17 +11,18 @@ using Il2CppDummyDll;
 namespace UnityEngine.UIElements;
 
 [Serializable]
-[Token(Token = "0x20003E5")]
+[Token(Token = "0x2000493")]
+[HelpURL("UIE-tss")]
 public class ThemeStyleSheet : StyleSheet
 {
-	[Token(Token = "0x600189B")]
-	[Address(RVA = "0x4F4F700", Offset = "0x4F4F700", VA = "0x4F4F700", Slot = "4")]
+	[Token(Token = "0x6002333")]
+	[Address(RVA = "0x3137950", Offset = "0x3135F50", VA = "0x183137950", Slot = "4")]
 	internal override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600189C")]
-	[Address(RVA = "0x4F4F720", Offset = "0x4F4F720", VA = "0x4F4F720")]
+	[Token(Token = "0x6002334")]
+	[Address(RVA = "0x3137980", Offset = "0x3135F80", VA = "0x183137980")]
 	public ThemeStyleSheet()
 	{
 	}

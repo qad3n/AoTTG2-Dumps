@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000022")]
+[Token(Token = "0x2000025")]
 internal sealed class GUIWordWrapSizer : GUILayoutEntry
 {
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x40000DE")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly GUIContent m_Content;
 
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x40000DF")]
 	[FieldOffset(Offset = "0x50")]
 	private readonly float m_ForcedMinHeight;
 
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x40000E0")]
 	[FieldOffset(Offset = "0x54")]
 	private readonly float m_ForcedMaxHeight;
 
-	[Token(Token = "0x6000222")]
-	[Address(RVA = "0x4E5DCE0", Offset = "0x4E5DCE0", VA = "0x4E5DCE0")]
+	[Token(Token = "0x6000276")]
+	[Address(RVA = "0x2FA97C0", Offset = "0x2FA7DC0", VA = "0x182FA97C0")]
 	public GUIWordWrapSizer(GUIStyle style, GUIContent content, GUILayoutOption[] options)
 	{
 	}
 
-	[Token(Token = "0x6000223")]
-	[Address(RVA = "0x4E5DDB0", Offset = "0x4E5DDB0", VA = "0x4E5DDB0", Slot = "8")]
+	[Token(Token = "0x6000277")]
+	[Address(RVA = "0x2FA9700", Offset = "0x2FA7D00", VA = "0x182FA9700", Slot = "8")]
 	public override void CalcWidth()
 	{
 	}
 
-	[Token(Token = "0x6000224")]
-	[Address(RVA = "0x4E5DE60", Offset = "0x4E5DE60", VA = "0x4E5DE60", Slot = "9")]
+	[Token(Token = "0x6000278")]
+	[Address(RVA = "0x2FA9620", Offset = "0x2FA7C20", VA = "0x182FA9620", Slot = "9")]
 	public override void CalcHeight()
 	{
 	}

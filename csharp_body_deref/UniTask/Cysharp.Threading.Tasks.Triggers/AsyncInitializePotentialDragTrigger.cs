@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000210")]
+[Token(Token = "0x2000213")]
 [DisallowMultipleComponent]
 public sealed class AsyncInitializePotentialDragTrigger : AsyncTriggerBase<PointerEventData>, IInitializePotentialDragHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C1C")]
-	[Address(RVA = "0x4A167E0", Offset = "0x4A167E0", VA = "0x4A167E0", Slot = "5")]
+	[Token(Token = "0x6000C40")]
+	[Address(RVA = "0x292F8B0", Offset = "0x292DEB0", VA = "0x18292F8B0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIInitializePotentialDragHandler_002EOnInitializePotentialDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C1D")]
-	[Address(RVA = "0x4A16830", Offset = "0x4A16830", VA = "0x4A16830")]
+	[Token(Token = "0x6000C41")]
+	[Address(RVA = "0x292F590", Offset = "0x292DB90", VA = "0x18292F590")]
 	public IAsyncOnInitializePotentialDragHandler GetOnInitializePotentialDragAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C1E")]
-	[Address(RVA = "0x4A168A0", Offset = "0x4A168A0", VA = "0x4A168A0")]
+	[Token(Token = "0x6000C42")]
+	[Address(RVA = "0x292F600", Offset = "0x292DC00", VA = "0x18292F600")]
 	public IAsyncOnInitializePotentialDragHandler GetOnInitializePotentialDragAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C1F")]
-	[Address(RVA = "0x4A16910", Offset = "0x4A16910", VA = "0x4A16910")]
+	[Token(Token = "0x6000C43")]
+	[Address(RVA = "0x292F790", Offset = "0x292DD90", VA = "0x18292F790")]
 	public UniTask<PointerEventData> OnInitializePotentialDragAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C20")]
-	[Address(RVA = "0x4A16A10", Offset = "0x4A16A10", VA = "0x4A16A10")]
+	[Token(Token = "0x6000C44")]
+	[Address(RVA = "0x292F680", Offset = "0x292DC80", VA = "0x18292F680")]
 	public UniTask<PointerEventData> OnInitializePotentialDragAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C21")]
-	[Address(RVA = "0x4A16B20", Offset = "0x4A16B20", VA = "0x4A16B20")]
+	[Token(Token = "0x6000C45")]
+	[Address(RVA = "0x292F900", Offset = "0x292DF00", VA = "0x18292F900")]
 	public AsyncInitializePotentialDragTrigger()
 	{
 	}

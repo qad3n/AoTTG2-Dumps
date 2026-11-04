@@ -1,5 +1,5 @@
 // Type: Settings.SetSettingsContainerNoPresets
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/SetSettingsContainerNoPresets.cs
@@ -7,29 +7,26 @@
 // --------------------------------
 
 // Settings.SetSettingsContainerNoPresets<object>$$get_AllowPresets
-// il2cpp: bool Settings_SetSettingsContainerNoPresets_object___get_AllowPresets (Settings_SetSettingsContainerNoPresets_T__o* __this, const MethodInfo_39E0250* method);
-// 0x3ae0250
+// il2cpp: bool Settings_SetSettingsContainerNoPresets_object___get_AllowPresets (Settings_SetSettingsContainerNoPresets_T__o* __this, const MethodInfo_668280* method);
+// 0x180668280
 
-bool_conflict
-Settings_SetSettingsContainerNoPresets_object___get_AllowPresets
-          (Settings_SetSettingsContainerNoPresets_T__o *__this,MethodInfo_39E0250 *method)
+bool
+Settings_SetSettingsContainerNoPresets_object___get_AllowPresets(Settings_SetSettingsContainerNoPresets_T__o* __this, MethodInfo_668280* method)
 
 {
-  return 0;
+  return false;
 }
 
 
 // Settings.SetSettingsContainerNoPresets<object>$$.ctor
-// il2cpp: void Settings_SetSettingsContainerNoPresets_object____ctor (Settings_SetSettingsContainerNoPresets_T__o* __this, const MethodInfo_39E0260* method);
-// 0x3ae0260
+// il2cpp: void Settings_SetSettingsContainerNoPresets_object____ctor (Settings_SetSettingsContainerNoPresets_T__o* __this, const MethodInfo_C8E5B0* method);
+// 0x180c8e5b0
 
-void Settings_SetSettingsContainerNoPresets_object____ctor
-               (Settings_SetSettingsContainerNoPresets_T__o *__this,MethodInfo_39E0260 *method)
+void
+Settings_SetSettingsContainerNoPresets_object____ctor(Settings_SetSettingsContainerNoPresets_T__o* __this, MethodInfo_C8E5B0* method)
 
 {
-  Settings_SetSettingsContainer_object____ctor
-            ((Settings_SetSettingsContainer_T__o *)__this,
-             (MethodInfo_39E1470 *)method->klass->rgctx_data->_0_Settings_SetSettingsContainer_T___ctor);
+  il2cpp_runtime_helper_1800c4240(__this,method->klass->rgctx_data->_0_Settings_SetSettingsContainer_T___ctor);
   return;
 }
 

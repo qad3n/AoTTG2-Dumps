@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x2000681")]
+[Token(Token = "0x2000655")]
 public abstract class MemoryManager<T>
 {
-	[Token(Token = "0x6003353")]
+	[Token(Token = "0x600306D")]
 	public abstract Span<T> GetSpan();
 
-	[Token(Token = "0x6003354")]
+	[Token(Token = "0x600306E")]
 	public abstract MemoryHandle Pin(int elementIndex = 0);
 
-	[Token(Token = "0x6003355")]
+	[Token(Token = "0x600306F")]
 	protected internal virtual bool TryGetArray(out ArraySegment<T> segment)
 	{
 		return default(bool);

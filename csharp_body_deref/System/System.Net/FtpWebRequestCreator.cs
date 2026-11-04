@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000132")]
+[Token(Token = "0x20002BA")]
 internal class FtpWebRequestCreator : IWebRequestCreate
 {
-	[Token(Token = "0x600078A")]
-	[Address(RVA = "0x495D240", Offset = "0x495D240", VA = "0x495D240")]
+	[Token(Token = "0x6001349")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal FtpWebRequestCreator()
 	{
 	}
 
-	[Token(Token = "0x600078B")]
-	[Address(RVA = "0x495D250", Offset = "0x495D250", VA = "0x495D250", Slot = "4")]
+	[Token(Token = "0x600134A")]
+	[Address(RVA = "0x27CC1B0", Offset = "0x27CA7B0", VA = "0x1827CC1B0", Slot = "4")]
 	public WebRequest Create(Uri uri)
 	{
 		return null;

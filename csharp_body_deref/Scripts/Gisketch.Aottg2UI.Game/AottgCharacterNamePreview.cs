@@ -13,49 +13,49 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200018B")]
+[Token(Token = "0x2000291")]
 internal sealed class AottgCharacterNamePreview : AottgComponent
 {
-	[Token(Token = "0x4000889")]
+	[Token(Token = "0x4000D2A")]
 	private const string NodeType = "CharacterNamePreview";
 
-	[Token(Token = "0x400088A")]
+	[Token(Token = "0x4000D2B")]
 	internal const float LabelFontSize = 20f;
 
-	[Token(Token = "0x400088B")]
+	[Token(Token = "0x4000D2C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x400088C")]
+	[Token(Token = "0x4000D2D")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly bool _liveDialog;
 
-	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x4401D00", Offset = "0x4401D00", VA = "0x4401D00")]
+	[Token(Token = "0x6000F97")]
+	[Address(RVA = "0x1DF8510", Offset = "0x1DF6B10", VA = "0x181DF8510")]
 	static AottgCharacterNamePreview()
 	{
 	}
 
-	[Token(Token = "0x60008E4")]
-	[Address(RVA = "0x4401BE0", Offset = "0x4401BE0", VA = "0x4401BE0")]
+	[Token(Token = "0x6000F98")]
+	[Address(RVA = "0x1B44DB0", Offset = "0x1B433B0", VA = "0x181B44DB0")]
 	public AottgCharacterNamePreview(string id, bool liveDialog = false)
 	{
 	}
 
-	[Token(Token = "0x60008E5")]
-	[Address(RVA = "0x4401DC0", Offset = "0x4401DC0", VA = "0x4401DC0", Slot = "4")]
+	[Token(Token = "0x6000F99")]
+	[Address(RVA = "0x1DF8220", Offset = "0x1DF6820", VA = "0x181DF8220", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x4401F70", Offset = "0x4401F70", VA = "0x4401F70")]
+	[Token(Token = "0x6000F9A")]
+	[Address(RVA = "0x1DF8400", Offset = "0x1DF6A00", VA = "0x181DF8400")]
 	public static void Refresh(GameObject source)
 	{
 	}
 
-	[Token(Token = "0x60008E7")]
-	[Address(RVA = "0x4402610", Offset = "0x4402610", VA = "0x4402610")]
+	[Token(Token = "0x6000F9B")]
+	[Address(RVA = "0x1DF7FE0", Offset = "0x1DF65E0", VA = "0x181DF7FE0")]
 	private static bool BuildPreview(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

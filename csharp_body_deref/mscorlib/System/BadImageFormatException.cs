@@ -11,72 +11,72 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000096")]
+[Token(Token = "0x20000BF")]
 public class BadImageFormatException : SystemException
 {
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x40002A4")]
 	[FieldOffset(Offset = "0x90")]
 	private string _fileName;
 
-	[Token(Token = "0x40001FC")]
+	[Token(Token = "0x40002A5")]
 	[FieldOffset(Offset = "0x98")]
 	private string _fusionLog;
 
 	[Token(Token = "0x17000063")]
 	public override string Message
 	{
-		[Token(Token = "0x6000425")]
-		[Address(RVA = "0x3C14490", Offset = "0x3C14490", VA = "0x3C14490", Slot = "5")]
+		[Token(Token = "0x6000458")]
+		[Address(RVA = "0x1A78C40", Offset = "0x1A77240", VA = "0x181A78C40", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600041F")]
-	[Address(RVA = "0x3C14220", Offset = "0x3C14220", VA = "0x3C14220")]
+	[Token(Token = "0x6000452")]
+	[Address(RVA = "0x1A78BF0", Offset = "0x1A771F0", VA = "0x181A78BF0")]
 	public BadImageFormatException()
 	{
 	}
 
-	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x3C14260", Offset = "0x3C14260", VA = "0x3C14260")]
+	[Token(Token = "0x6000453")]
+	[Address(RVA = "0x1A78B90", Offset = "0x1A77190", VA = "0x181A78B90")]
 	public BadImageFormatException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x3C14280", Offset = "0x3C14280", VA = "0x3C14280")]
+	[Token(Token = "0x6000454")]
+	[Address(RVA = "0x1A78B70", Offset = "0x1A77170", VA = "0x181A78B70")]
 	public BadImageFormatException(string message, Exception inner)
 	{
 	}
 
-	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x3C142A0", Offset = "0x3C142A0", VA = "0x3C142A0")]
+	[Token(Token = "0x6000455")]
+	[Address(RVA = "0x1A78BB0", Offset = "0x1A771B0", VA = "0x181A78BB0")]
 	public BadImageFormatException(string message, string fileName)
 	{
 	}
 
-	[Token(Token = "0x6000423")]
-	[Address(RVA = "0x3C142E0", Offset = "0x3C142E0", VA = "0x3C142E0")]
+	[Token(Token = "0x6000456")]
+	[Address(RVA = "0x1A78AA0", Offset = "0x1A770A0", VA = "0x181A78AA0")]
 	protected BadImageFormatException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x3C143A0", Offset = "0x3C143A0", VA = "0x3C143A0", Slot = "11")]
+	[Token(Token = "0x6000457")]
+	[Address(RVA = "0x1A78730", Offset = "0x1A76D30", VA = "0x181A78730", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x3C14510", Offset = "0x3C14510", VA = "0x3C14510")]
+	[Token(Token = "0x6000459")]
+	[Address(RVA = "0x1A78820", Offset = "0x1A76E20", VA = "0x181A78820")]
 	private void SetMessageField()
 	{
 	}
 
-	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x3C14580", Offset = "0x3C14580", VA = "0x3C14580", Slot = "3")]
+	[Token(Token = "0x600045A")]
+	[Address(RVA = "0x1A788B0", Offset = "0x1A76EB0", VA = "0x181A788B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

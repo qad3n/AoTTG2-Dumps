@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000026")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationPosePlayable.bindings.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationPosePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[Token(Token = "0x2000027")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationPosePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationPosePlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationPosePlayable.bindings.h")]
 internal struct AnimationPosePlayable : IEquatable<AnimationPosePlayable>
 {
 	[Token(Token = "0x4000061")]
@@ -29,21 +29,21 @@ internal struct AnimationPosePlayable : IEquatable<AnimationPosePlayable>
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationPosePlayable m_NullPlayable;
 
-	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x4DA6B70", Offset = "0x4DA6B70", VA = "0x4DA6B70")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x2EAC180", Offset = "0x2EAA780", VA = "0x182EAC180")]
 	internal AnimationPosePlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x4DA6C60", Offset = "0x4DA6C60", VA = "0x4DA6C60", Slot = "5")]
+	[Token(Token = "0x60000C3")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x4DA6C70", Offset = "0x4DA6C70", VA = "0x4DA6C70", Slot = "4")]
+	[Token(Token = "0x60000C4")]
+	[Address(RVA = "0x2EABFA0", Offset = "0x2EAA5A0", VA = "0x182EABFA0", Slot = "4")]
 	public bool Equals(AnimationPosePlayable other)
 	{
 		return default(bool);

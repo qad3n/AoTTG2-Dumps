@@ -74,7 +74,7 @@ public struct Touch
 	public int fingerId
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4E6ED60", Offset = "0x4E6ED60", VA = "0x4E6ED60")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(int);
@@ -85,13 +85,13 @@ public struct Touch
 	public Vector2 position
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4E6ED70", Offset = "0x4E6ED70", VA = "0x4E6ED70")]
+		[Address(RVA = "0x2FC65B0", Offset = "0x2FC4BB0", VA = "0x182FC65B0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4E6ED80", Offset = "0x4E6ED80", VA = "0x4E6ED80")]
+		[Address(RVA = "0x1B943B0", Offset = "0x1B929B0", VA = "0x181B943B0")]
 		set
 		{
 		}
@@ -101,13 +101,13 @@ public struct Touch
 	public Vector2 rawPosition
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4E6ED90", Offset = "0x4E6ED90", VA = "0x4E6ED90")]
+		[Address(RVA = "0x2FC65F0", Offset = "0x2FC4BF0", VA = "0x182FC65F0")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4E6EDA0", Offset = "0x4E6EDA0", VA = "0x4E6EDA0")]
+		[Address(RVA = "0x2FC6610", Offset = "0x2FC4C10", VA = "0x182FC6610")]
 		set
 		{
 		}
@@ -117,13 +117,13 @@ public struct Touch
 	public Vector2 deltaPosition
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4E6EDB0", Offset = "0x4E6EDB0", VA = "0x4E6EDB0")]
+		[Address(RVA = "0x155C710", Offset = "0x155AD10", VA = "0x18155C710")]
 		get
 		{
 			return default(Vector2);
 		}
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4E6EDC0", Offset = "0x4E6EDC0", VA = "0x4E6EDC0")]
+		[Address(RVA = "0x2FC3080", Offset = "0x2FC1680", VA = "0x182FC3080")]
 		set
 		{
 		}
@@ -133,7 +133,7 @@ public struct Touch
 	public float deltaTime
 	{
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4E6EDD0", Offset = "0x4E6EDD0", VA = "0x4E6EDD0")]
+		[Address(RVA = "0x2E8CC00", Offset = "0x2E8B200", VA = "0x182E8CC00")]
 		get
 		{
 			return default(float);
@@ -144,7 +144,7 @@ public struct Touch
 	public int tapCount
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4E6EDE0", Offset = "0x4E6EDE0", VA = "0x4E6EDE0")]
+		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
 		get
 		{
 			return default(int);
@@ -155,7 +155,7 @@ public struct Touch
 	public TouchPhase phase
 	{
 		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4E6EDF0", Offset = "0x4E6EDF0", VA = "0x4E6EDF0")]
+		[Address(RVA = "0x1CC78C0", Offset = "0x1CC5EC0", VA = "0x181CC78C0")]
 		get
 		{
 			return default(TouchPhase);
@@ -166,7 +166,7 @@ public struct Touch
 	public float pressure
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4E6EE00", Offset = "0x4E6EE00", VA = "0x4E6EE00")]
+		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
 		get
 		{
 			return default(float);
@@ -177,7 +177,7 @@ public struct Touch
 	public float maximumPossiblePressure
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4E6EE10", Offset = "0x4E6EE10", VA = "0x4E6EE10")]
+		[Address(RVA = "0x2E8CBF0", Offset = "0x2E8B1F0", VA = "0x182E8CBF0")]
 		get
 		{
 			return default(float);
@@ -188,7 +188,7 @@ public struct Touch
 	public TouchType type
 	{
 		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4E6EE20", Offset = "0x4E6EE20", VA = "0x4E6EE20")]
+		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
 		get
 		{
 			return default(TouchType);
@@ -199,7 +199,7 @@ public struct Touch
 	public float altitudeAngle
 	{
 		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4E6EE30", Offset = "0x4E6EE30", VA = "0x4E6EE30")]
+		[Address(RVA = "0x2FC6590", Offset = "0x2FC4B90", VA = "0x182FC6590")]
 		get
 		{
 			return default(float);
@@ -210,7 +210,7 @@ public struct Touch
 	public float azimuthAngle
 	{
 		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4E6EE40", Offset = "0x4E6EE40", VA = "0x4E6EE40")]
+		[Address(RVA = "0x2FC65A0", Offset = "0x2FC4BA0", VA = "0x182FC65A0")]
 		get
 		{
 			return default(float);
@@ -221,7 +221,7 @@ public struct Touch
 	public float radius
 	{
 		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4E6EE50", Offset = "0x4E6EE50", VA = "0x4E6EE50")]
+		[Address(RVA = "0x2FC65E0", Offset = "0x2FC4BE0", VA = "0x182FC65E0")]
 		get
 		{
 			return default(float);
@@ -232,7 +232,7 @@ public struct Touch
 	public float radiusVariance
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4E6EE60", Offset = "0x4E6EE60", VA = "0x4E6EE60")]
+		[Address(RVA = "0x2FC65D0", Offset = "0x2FC4BD0", VA = "0x182FC65D0")]
 		get
 		{
 			return default(float);

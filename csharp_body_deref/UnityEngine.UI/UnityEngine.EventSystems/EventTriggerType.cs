@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000B6")]
+[Token(Token = "0x20000B7")]
 public enum EventTriggerType
 {
-	[Token(Token = "0x40002F1")]
+	[Token(Token = "0x4000312")]
 	PointerEnter,
-	[Token(Token = "0x40002F2")]
+	[Token(Token = "0x4000313")]
 	PointerExit,
-	[Token(Token = "0x40002F3")]
+	[Token(Token = "0x4000314")]
 	PointerDown,
-	[Token(Token = "0x40002F4")]
+	[Token(Token = "0x4000315")]
 	PointerUp,
-	[Token(Token = "0x40002F5")]
+	[Token(Token = "0x4000316")]
 	PointerClick,
-	[Token(Token = "0x40002F6")]
+	[Token(Token = "0x4000317")]
 	Drag,
-	[Token(Token = "0x40002F7")]
+	[Token(Token = "0x4000318")]
 	Drop,
-	[Token(Token = "0x40002F8")]
+	[Token(Token = "0x4000319")]
 	Scroll,
-	[Token(Token = "0x40002F9")]
+	[Token(Token = "0x400031A")]
 	UpdateSelected,
-	[Token(Token = "0x40002FA")]
+	[Token(Token = "0x400031B")]
 	Select,
-	[Token(Token = "0x40002FB")]
+	[Token(Token = "0x400031C")]
 	Deselect,
-	[Token(Token = "0x40002FC")]
+	[Token(Token = "0x400031D")]
 	Move,
-	[Token(Token = "0x40002FD")]
+	[Token(Token = "0x400031E")]
 	InitializePotentialDrag,
-	[Token(Token = "0x40002FE")]
+	[Token(Token = "0x400031F")]
 	BeginDrag,
-	[Token(Token = "0x40002FF")]
+	[Token(Token = "0x4000320")]
 	EndDrag,
-	[Token(Token = "0x4000300")]
+	[Token(Token = "0x4000321")]
 	Submit,
-	[Token(Token = "0x4000301")]
+	[Token(Token = "0x4000322")]
 	Cancel
 }

@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000158")]
+[Token(Token = "0x20002E0")]
 internal class BufferOffsetSize
 {
-	[Token(Token = "0x40006EC")]
+	[Token(Token = "0x4000B02")]
 	[FieldOffset(Offset = "0x10")]
 	internal byte[] Buffer;
 
-	[Token(Token = "0x40006ED")]
+	[Token(Token = "0x4000B03")]
 	[FieldOffset(Offset = "0x18")]
 	internal int Offset;
 
-	[Token(Token = "0x40006EE")]
+	[Token(Token = "0x4000B04")]
 	[FieldOffset(Offset = "0x1C")]
 	internal int Size;
 
-	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x49651F0", Offset = "0x49651F0", VA = "0x49651F0")]
+	[Token(Token = "0x6001425")]
+	[Address(RVA = "0x27C01B0", Offset = "0x27BE7B0", VA = "0x1827C01B0")]
 	internal BufferOffsetSize(byte[] buffer, int offset, int size, bool copyBuffer)
 	{
 	}
 
-	[Token(Token = "0x6000866")]
-	[Address(RVA = "0x49652A0", Offset = "0x49652A0", VA = "0x49652A0")]
+	[Token(Token = "0x6001426")]
+	[Address(RVA = "0x27C00F0", Offset = "0x27BE6F0", VA = "0x1827C00F0")]
 	internal BufferOffsetSize(byte[] buffer, bool copyBuffer)
 	{
 	}

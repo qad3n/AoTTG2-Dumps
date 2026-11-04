@@ -12,213 +12,213 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200005D")]
 public static class EventHooks
 {
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x400008E")]
 	public const string Custom = "Custom";
 
-	[Token(Token = "0x4000093")]
+	[Token(Token = "0x400008F")]
 	public const string OnGUI = "OnGUI";
 
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x4000090")]
 	public const string OnApplicationFocus = "OnApplicationFocus";
 
-	[Token(Token = "0x4000095")]
+	[Token(Token = "0x4000091")]
 	public const string OnApplicationLostFocus = "OnApplicationLostFocus";
 
-	[Token(Token = "0x4000096")]
+	[Token(Token = "0x4000092")]
 	public const string OnApplicationPause = "OnApplicationPause";
 
-	[Token(Token = "0x4000097")]
+	[Token(Token = "0x4000093")]
 	public const string OnApplicationResume = "OnApplicationResume";
 
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x4000094")]
 	public const string OnApplicationQuit = "OnApplicationQuit";
 
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x4000095")]
 	public const string OnEnable = "OnEnable";
 
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x4000096")]
 	public const string Start = "Start";
 
-	[Token(Token = "0x400009B")]
+	[Token(Token = "0x4000097")]
 	public const string Update = "Update";
 
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x4000098")]
 	public const string FixedUpdate = "FixedUpdate";
 
-	[Token(Token = "0x400009D")]
+	[Token(Token = "0x4000099")]
 	public const string LateUpdate = "LateUpdate";
 
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x400009A")]
 	public const string OnDisable = "OnDisable";
 
-	[Token(Token = "0x400009F")]
+	[Token(Token = "0x400009B")]
 	public const string OnDestroy = "OnDestroy";
 
-	[Token(Token = "0x40000A0")]
+	[Token(Token = "0x400009C")]
 	public const string AnimationEvent = "AnimationEvent";
 
-	[Token(Token = "0x40000A1")]
+	[Token(Token = "0x400009D")]
 	public const string UnityEvent = "UnityEvent";
 
-	[Token(Token = "0x40000A2")]
+	[Token(Token = "0x400009E")]
 	public const string OnDrawGizmos = "OnDrawGizmos";
 
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x400009F")]
 	public const string OnDrawGizmosSelected = "OnDrawGizmosSelected";
 
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x40000A0")]
 	public const string OnPointerEnter = "OnPointerEnter";
 
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40000A1")]
 	public const string OnPointerExit = "OnPointerExit";
 
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000A2")]
 	public const string OnPointerDown = "OnPointerDown";
 
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000A3")]
 	public const string OnPointerUp = "OnPointerUp";
 
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40000A4")]
 	public const string OnPointerClick = "OnPointerClick";
 
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40000A5")]
 	public const string OnBeginDrag = "OnBeginDrag";
 
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000A6")]
 	public const string OnDrag = "OnDrag";
 
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000A7")]
 	public const string OnEndDrag = "OnEndDrag";
 
-	[Token(Token = "0x40000AC")]
+	[Token(Token = "0x40000A8")]
 	public const string OnDrop = "OnDrop";
 
-	[Token(Token = "0x40000AD")]
+	[Token(Token = "0x40000A9")]
 	public const string OnScroll = "OnScroll";
 
-	[Token(Token = "0x40000AE")]
+	[Token(Token = "0x40000AA")]
 	public const string OnSelect = "OnSelect";
 
-	[Token(Token = "0x40000AF")]
+	[Token(Token = "0x40000AB")]
 	public const string OnDeselect = "OnDeselect";
 
-	[Token(Token = "0x40000B0")]
+	[Token(Token = "0x40000AC")]
 	public const string OnSubmit = "OnSubmit";
 
-	[Token(Token = "0x40000B1")]
+	[Token(Token = "0x40000AD")]
 	public const string OnCancel = "OnCancel";
 
-	[Token(Token = "0x40000B2")]
+	[Token(Token = "0x40000AE")]
 	public const string OnMove = "OnMove";
 
-	[Token(Token = "0x40000B3")]
+	[Token(Token = "0x40000AF")]
 	public const string OnBecameInvisible = "OnBecameInvisible";
 
-	[Token(Token = "0x40000B4")]
+	[Token(Token = "0x40000B0")]
 	public const string OnBecameVisible = "OnBecameVisible";
 
-	[Token(Token = "0x40000B5")]
+	[Token(Token = "0x40000B1")]
 	public const string OnCollisionEnter = "OnCollisionEnter";
 
-	[Token(Token = "0x40000B6")]
+	[Token(Token = "0x40000B2")]
 	public const string OnCollisionExit = "OnCollisionExit";
 
-	[Token(Token = "0x40000B7")]
+	[Token(Token = "0x40000B3")]
 	public const string OnCollisionStay = "OnCollisionStay";
 
-	[Token(Token = "0x40000B8")]
+	[Token(Token = "0x40000B4")]
 	public const string OnCollisionEnter2D = "OnCollisionEnter2D";
 
-	[Token(Token = "0x40000B9")]
+	[Token(Token = "0x40000B5")]
 	public const string OnCollisionExit2D = "OnCollisionExit2D";
 
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000B6")]
 	public const string OnCollisionStay2D = "OnCollisionStay2D";
 
-	[Token(Token = "0x40000BB")]
+	[Token(Token = "0x40000B7")]
 	public const string OnControllerColliderHit = "OnControllerColliderHit";
 
-	[Token(Token = "0x40000BC")]
+	[Token(Token = "0x40000B8")]
 	public const string OnJointBreak = "OnJointBreak";
 
-	[Token(Token = "0x40000BD")]
+	[Token(Token = "0x40000B9")]
 	public const string OnJointBreak2D = "OnJointBreak2D";
 
-	[Token(Token = "0x40000BE")]
+	[Token(Token = "0x40000BA")]
 	public const string OnMouseDown = "OnMouseDown";
 
-	[Token(Token = "0x40000BF")]
+	[Token(Token = "0x40000BB")]
 	public const string OnMouseDrag = "OnMouseDrag";
 
-	[Token(Token = "0x40000C0")]
+	[Token(Token = "0x40000BC")]
 	public const string OnMouseEnter = "OnMouseEnter";
 
-	[Token(Token = "0x40000C1")]
+	[Token(Token = "0x40000BD")]
 	public const string OnMouseExit = "OnMouseExit";
 
-	[Token(Token = "0x40000C2")]
+	[Token(Token = "0x40000BE")]
 	public const string OnMouseOver = "OnMouseOver";
 
-	[Token(Token = "0x40000C3")]
+	[Token(Token = "0x40000BF")]
 	public const string OnMouseUp = "OnMouseUp";
 
-	[Token(Token = "0x40000C4")]
+	[Token(Token = "0x40000C0")]
 	public const string OnMouseUpAsButton = "OnMouseUpAsButton";
 
-	[Token(Token = "0x40000C5")]
+	[Token(Token = "0x40000C1")]
 	public const string OnParticleCollision = "OnParticleCollision";
 
-	[Token(Token = "0x40000C6")]
+	[Token(Token = "0x40000C2")]
 	public const string OnTransformChildrenChanged = "OnTransformChildrenChanged";
 
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x40000C3")]
 	public const string OnTransformParentChanged = "OnTransformParentChanged";
 
-	[Token(Token = "0x40000C8")]
+	[Token(Token = "0x40000C4")]
 	public const string OnTriggerEnter = "OnTriggerEnter";
 
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000C5")]
 	public const string OnTriggerExit = "OnTriggerExit";
 
-	[Token(Token = "0x40000CA")]
+	[Token(Token = "0x40000C6")]
 	public const string OnTriggerStay = "OnTriggerStay";
 
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000C7")]
 	public const string OnTriggerEnter2D = "OnTriggerEnter2D";
 
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000C8")]
 	public const string OnTriggerExit2D = "OnTriggerExit2D";
 
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000C9")]
 	public const string OnTriggerStay2D = "OnTriggerStay2D";
 
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000CA")]
 	public const string OnAnimatorMove = "OnAnimatorMove";
 
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40000CB")]
 	public const string OnAnimatorIK = "OnAnimatorIK";
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000CC")]
 	public const string OnButtonClick = "OnButtonClick";
 
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40000CD")]
 	public const string OnToggleValueChanged = "OnToggleValueChanged";
 
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x40000CE")]
 	public const string OnSliderValueChanged = "OnSliderValueChanged";
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x40000CF")]
 	public const string OnScrollbarValueChanged = "OnScrollbarValueChanged";
 
-	[Token(Token = "0x40000D4")]
+	[Token(Token = "0x40000D0")]
 	public const string OnDropdownValueChanged = "OnDropdownValueChanged";
 
-	[Token(Token = "0x40000D5")]
+	[Token(Token = "0x40000D1")]
 	public const string OnInputFieldValueChanged = "OnInputFieldValueChanged";
 
-	[Token(Token = "0x40000D6")]
+	[Token(Token = "0x40000D2")]
 	public const string OnInputFieldEndEdit = "OnInputFieldEndEdit";
 
-	[Token(Token = "0x40000D7")]
+	[Token(Token = "0x40000D3")]
 	public const string OnScrollRectValueChanged = "OnScrollRectValueChanged";
 }

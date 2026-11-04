@@ -16,46 +16,46 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000018")]
 public class GuidCollection<T> : KeyedCollection<Guid, T>, IKeyedCollection<Guid, T>, ICollection<T>, IEnumerable<T>, IEnumerable where T : IIdentifiable
 {
-	[Token(Token = "0x600008A")]
+	[Token(Token = "0x600008E")]
 	protected override Guid GetKeyForItem(T item)
 	{
 		return default(Guid);
 	}
 
-	[Token(Token = "0x600008B")]
+	[Token(Token = "0x600008F")]
 	protected override void InsertItem(int index, T item)
 	{
 	}
 
-	[Token(Token = "0x600008C")]
+	[Token(Token = "0x6000090")]
 	protected override void SetItem(int index, T item)
 	{
 	}
 
-	[Token(Token = "0x600008D")]
+	[Token(Token = "0x6000091")]
 	public new bool TryGetValue(Guid key, out T value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600008E")]
+	[Token(Token = "0x6000092")]
 	public GuidCollection()
 	{
 	}
 
-	[Token(Token = "0x600008F")]
+	[Token(Token = "0x6000093")]
 	private T Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EGuid_002CT_003E_002Eget_Item(Guid key)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000090")]
+	[Token(Token = "0x6000094")]
 	private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EGuid_002CT_003E_002EContains(Guid key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000091")]
+	[Token(Token = "0x6000095")]
 	private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EGuid_002CT_003E_002ERemove(Guid key)
 	{
 		return default(bool);

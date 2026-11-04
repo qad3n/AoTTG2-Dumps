@@ -142,17 +142,22 @@ public class JsonSerializer
 	[FieldOffset(Offset = "0xD0")]
 	private bool _dateFormatStringSet;
 
+	[Token(Token = "0x40000BD")]
+	[FieldOffset(Offset = "0xD8")]
+	[CompilerGenerated]
+	private EventHandler<Newtonsoft.Json.Serialization.ErrorEventArgs>? m_Error;
+
 	[Token(Token = "0x17000042")]
 	public virtual IReferenceResolver? ReferenceResolver
 	{
 		[Token(Token = "0x600014C")]
-		[Address(RVA = "0x3D628B0", Offset = "0x3D628B0", VA = "0x3D628B0", Slot = "6")]
+		[Address(RVA = "0x1BD6EF0", Offset = "0x1BD54F0", VA = "0x181BD6EF0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600014D")]
-		[Address(RVA = "0x3D629B0", Offset = "0x3D629B0", VA = "0x3D629B0", Slot = "7")]
+		[Address(RVA = "0x1BD91E0", Offset = "0x1BD77E0", VA = "0x181BD91E0", Slot = "7")]
 		set
 		{
 		}
@@ -163,13 +168,13 @@ public class JsonSerializer
 	public virtual SerializationBinder Binder
 	{
 		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x3D62A30", Offset = "0x3D62A30", VA = "0x3D62A30", Slot = "8")]
+		[Address(RVA = "0x1BD83D0", Offset = "0x1BD69D0", VA = "0x181BD83D0", Slot = "8")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x3D62B10", Offset = "0x3D62B10", VA = "0x3D62B10", Slot = "9")]
+		[Address(RVA = "0x1BD8900", Offset = "0x1BD6F00", VA = "0x181BD8900", Slot = "9")]
 		set
 		{
 		}
@@ -179,13 +184,13 @@ public class JsonSerializer
 	public virtual ISerializationBinder SerializationBinder
 	{
 		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x3D62C00", Offset = "0x3D62C00", VA = "0x3D62C00", Slot = "10")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570", Slot = "10")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000151")]
-		[Address(RVA = "0x3D62C10", Offset = "0x3D62C10", VA = "0x3D62C10", Slot = "11")]
+		[Address(RVA = "0x1BD9270", Offset = "0x1BD7870", VA = "0x181BD9270", Slot = "11")]
 		set
 		{
 		}
@@ -195,13 +200,13 @@ public class JsonSerializer
 	public virtual ITraceWriter? TraceWriter
 	{
 		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x3D62C90", Offset = "0x3D62C90", VA = "0x3D62C90", Slot = "12")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50", Slot = "12")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000153")]
-		[Address(RVA = "0x3D62CA0", Offset = "0x3D62CA0", VA = "0x3D62CA0", Slot = "13")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10", Slot = "13")]
 		set
 		{
 		}
@@ -211,13 +216,13 @@ public class JsonSerializer
 	public virtual IEqualityComparer? EqualityComparer
 	{
 		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x3D62CB0", Offset = "0x3D62CB0", VA = "0x3D62CB0", Slot = "14")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x3D62CC0", Offset = "0x3D62CC0", VA = "0x3D62CC0", Slot = "15")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "15")]
 		set
 		{
 		}
@@ -227,13 +232,13 @@ public class JsonSerializer
 	public virtual TypeNameHandling TypeNameHandling
 	{
 		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x3D62CD0", Offset = "0x3D62CD0", VA = "0x3D62CD0", Slot = "16")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "16")]
 		get
 		{
 			return default(TypeNameHandling);
 		}
 		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x3D62CE0", Offset = "0x3D62CE0", VA = "0x3D62CE0", Slot = "17")]
+		[Address(RVA = "0x1BD9440", Offset = "0x1BD7A40", VA = "0x181BD9440", Slot = "17")]
 		set
 		{
 		}
@@ -244,13 +249,13 @@ public class JsonSerializer
 	public virtual FormatterAssemblyStyle TypeNameAssemblyFormat
 	{
 		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x3D62D40", Offset = "0x3D62D40", VA = "0x3D62D40", Slot = "18")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "18")]
 		get
 		{
 			return default(FormatterAssemblyStyle);
 		}
 		[Token(Token = "0x6000159")]
-		[Address(RVA = "0x3D62D50", Offset = "0x3D62D50", VA = "0x3D62D50", Slot = "19")]
+		[Address(RVA = "0x1BD93D0", Offset = "0x1BD79D0", VA = "0x181BD93D0", Slot = "19")]
 		set
 		{
 		}
@@ -260,13 +265,13 @@ public class JsonSerializer
 	public virtual TypeNameAssemblyFormatHandling TypeNameAssemblyFormatHandling
 	{
 		[Token(Token = "0x600015A")]
-		[Address(RVA = "0x3D62DB0", Offset = "0x3D62DB0", VA = "0x3D62DB0", Slot = "20")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "20")]
 		get
 		{
 			return default(TypeNameAssemblyFormatHandling);
 		}
 		[Token(Token = "0x600015B")]
-		[Address(RVA = "0x3D62DC0", Offset = "0x3D62DC0", VA = "0x3D62DC0", Slot = "21")]
+		[Address(RVA = "0x1BD9360", Offset = "0x1BD7960", VA = "0x181BD9360", Slot = "21")]
 		set
 		{
 		}
@@ -276,13 +281,13 @@ public class JsonSerializer
 	public virtual PreserveReferencesHandling PreserveReferencesHandling
 	{
 		[Token(Token = "0x600015C")]
-		[Address(RVA = "0x3D62E20", Offset = "0x3D62E20", VA = "0x3D62E20", Slot = "22")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "22")]
 		get
 		{
 			return default(PreserveReferencesHandling);
 		}
 		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x3D62E30", Offset = "0x3D62E30", VA = "0x3D62E30", Slot = "23")]
+		[Address(RVA = "0x1BD9100", Offset = "0x1BD7700", VA = "0x181BD9100", Slot = "23")]
 		set
 		{
 		}
@@ -292,13 +297,13 @@ public class JsonSerializer
 	public virtual ReferenceLoopHandling ReferenceLoopHandling
 	{
 		[Token(Token = "0x600015E")]
-		[Address(RVA = "0x3D62E90", Offset = "0x3D62E90", VA = "0x3D62E90", Slot = "24")]
+		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0", Slot = "24")]
 		get
 		{
 			return default(ReferenceLoopHandling);
 		}
 		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x3D62EA0", Offset = "0x3D62EA0", VA = "0x3D62EA0", Slot = "25")]
+		[Address(RVA = "0x1BD9170", Offset = "0x1BD7770", VA = "0x181BD9170", Slot = "25")]
 		set
 		{
 		}
@@ -308,13 +313,13 @@ public class JsonSerializer
 	public virtual MissingMemberHandling MissingMemberHandling
 	{
 		[Token(Token = "0x6000160")]
-		[Address(RVA = "0x3D62F00", Offset = "0x3D62F00", VA = "0x3D62F00", Slot = "26")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "26")]
 		get
 		{
 			return default(MissingMemberHandling);
 		}
 		[Token(Token = "0x6000161")]
-		[Address(RVA = "0x3D62F10", Offset = "0x3D62F10", VA = "0x3D62F10", Slot = "27")]
+		[Address(RVA = "0x1BD8FB0", Offset = "0x1BD75B0", VA = "0x181BD8FB0", Slot = "27")]
 		set
 		{
 		}
@@ -324,13 +329,13 @@ public class JsonSerializer
 	public virtual NullValueHandling NullValueHandling
 	{
 		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x3D62F70", Offset = "0x3D62F70", VA = "0x3D62F70", Slot = "28")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030", Slot = "28")]
 		get
 		{
 			return default(NullValueHandling);
 		}
 		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x3D62F80", Offset = "0x3D62F80", VA = "0x3D62F80", Slot = "29")]
+		[Address(RVA = "0x1BD9020", Offset = "0x1BD7620", VA = "0x181BD9020", Slot = "29")]
 		set
 		{
 		}
@@ -340,13 +345,13 @@ public class JsonSerializer
 	public virtual DefaultValueHandling DefaultValueHandling
 	{
 		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x3D62FE0", Offset = "0x3D62FE0", VA = "0x3D62FE0", Slot = "30")]
+		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080", Slot = "30")]
 		get
 		{
 			return default(DefaultValueHandling);
 		}
 		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x3D62FF0", Offset = "0x3D62FF0", VA = "0x3D62FF0", Slot = "31")]
+		[Address(RVA = "0x1BD8CF0", Offset = "0x1BD72F0", VA = "0x181BD8CF0", Slot = "31")]
 		set
 		{
 		}
@@ -356,13 +361,13 @@ public class JsonSerializer
 	public virtual ObjectCreationHandling ObjectCreationHandling
 	{
 		[Token(Token = "0x6000166")]
-		[Address(RVA = "0x3D63050", Offset = "0x3D63050", VA = "0x3D63050", Slot = "32")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280", Slot = "32")]
 		get
 		{
 			return default(ObjectCreationHandling);
 		}
 		[Token(Token = "0x6000167")]
-		[Address(RVA = "0x3D63060", Offset = "0x3D63060", VA = "0x3D63060", Slot = "33")]
+		[Address(RVA = "0x1BD9090", Offset = "0x1BD7690", VA = "0x181BD9090", Slot = "33")]
 		set
 		{
 		}
@@ -372,13 +377,13 @@ public class JsonSerializer
 	public virtual ConstructorHandling ConstructorHandling
 	{
 		[Token(Token = "0x6000168")]
-		[Address(RVA = "0x3D630C0", Offset = "0x3D630C0", VA = "0x3D630C0", Slot = "34")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60", Slot = "34")]
 		get
 		{
 			return default(ConstructorHandling);
 		}
 		[Token(Token = "0x6000169")]
-		[Address(RVA = "0x3D630D0", Offset = "0x3D630D0", VA = "0x3D630D0", Slot = "35")]
+		[Address(RVA = "0x1BD8A60", Offset = "0x1BD7060", VA = "0x181BD8A60", Slot = "35")]
 		set
 		{
 		}
@@ -388,13 +393,13 @@ public class JsonSerializer
 	public virtual MetadataPropertyHandling MetadataPropertyHandling
 	{
 		[Token(Token = "0x600016A")]
-		[Address(RVA = "0x3D63130", Offset = "0x3D63130", VA = "0x3D63130", Slot = "36")]
+		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0", Slot = "36")]
 		get
 		{
 			return default(MetadataPropertyHandling);
 		}
 		[Token(Token = "0x600016B")]
-		[Address(RVA = "0x3D63140", Offset = "0x3D63140", VA = "0x3D63140", Slot = "37")]
+		[Address(RVA = "0x1BD8F40", Offset = "0x1BD7540", VA = "0x181BD8F40", Slot = "37")]
 		set
 		{
 		}
@@ -404,7 +409,7 @@ public class JsonSerializer
 	public virtual JsonConverterCollection Converters
 	{
 		[Token(Token = "0x600016C")]
-		[Address(RVA = "0x3D631A0", Offset = "0x3D631A0", VA = "0x3D631A0", Slot = "38")]
+		[Address(RVA = "0x1BD8510", Offset = "0x1BD6B10", VA = "0x181BD8510", Slot = "38")]
 		get
 		{
 			return null;
@@ -415,13 +420,13 @@ public class JsonSerializer
 	public virtual IContractResolver ContractResolver
 	{
 		[Token(Token = "0x600016D")]
-		[Address(RVA = "0x3D63240", Offset = "0x3D63240", VA = "0x3D63240", Slot = "39")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "39")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600016E")]
-		[Address(RVA = "0x3D63250", Offset = "0x3D63250", VA = "0x3D63250", Slot = "40")]
+		[Address(RVA = "0x1BD8AF0", Offset = "0x1BD70F0", VA = "0x181BD8AF0", Slot = "40")]
 		set
 		{
 		}
@@ -431,13 +436,13 @@ public class JsonSerializer
 	public virtual StreamingContext Context
 	{
 		[Token(Token = "0x600016F")]
-		[Address(RVA = "0x3D63330", Offset = "0x3D63330", VA = "0x3D63330", Slot = "41")]
+		[Address(RVA = "0x1BD8500", Offset = "0x1BD6B00", VA = "0x181BD8500", Slot = "41")]
 		get
 		{
 			return default(StreamingContext);
 		}
 		[Token(Token = "0x6000170")]
-		[Address(RVA = "0x3D63340", Offset = "0x3D63340", VA = "0x3D63340", Slot = "42")]
+		[Address(RVA = "0x1BD8AD0", Offset = "0x1BD70D0", VA = "0x181BD8AD0", Slot = "42")]
 		set
 		{
 		}
@@ -447,13 +452,13 @@ public class JsonSerializer
 	public virtual Formatting Formatting
 	{
 		[Token(Token = "0x6000171")]
-		[Address(RVA = "0x3D63360", Offset = "0x3D63360", VA = "0x3D63360", Slot = "43")]
+		[Address(RVA = "0x1BD87D0", Offset = "0x1BD6DD0", VA = "0x181BD87D0", Slot = "43")]
 		get
 		{
 			return default(Formatting);
 		}
 		[Token(Token = "0x6000172")]
-		[Address(RVA = "0x3D63390", Offset = "0x3D63390", VA = "0x3D63390", Slot = "44")]
+		[Address(RVA = "0x1BD8E20", Offset = "0x1BD7420", VA = "0x181BD8E20", Slot = "44")]
 		set
 		{
 		}
@@ -463,13 +468,13 @@ public class JsonSerializer
 	public virtual DateFormatHandling DateFormatHandling
 	{
 		[Token(Token = "0x6000173")]
-		[Address(RVA = "0x3D633E0", Offset = "0x3D633E0", VA = "0x3D633E0", Slot = "45")]
+		[Address(RVA = "0x1BD8610", Offset = "0x1BD6C10", VA = "0x181BD8610", Slot = "45")]
 		get
 		{
 			return default(DateFormatHandling);
 		}
 		[Token(Token = "0x6000174")]
-		[Address(RVA = "0x3D63410", Offset = "0x3D63410", VA = "0x3D63410", Slot = "46")]
+		[Address(RVA = "0x1BD8BA0", Offset = "0x1BD71A0", VA = "0x181BD8BA0", Slot = "46")]
 		set
 		{
 		}
@@ -479,13 +484,13 @@ public class JsonSerializer
 	public virtual DateTimeZoneHandling DateTimeZoneHandling
 	{
 		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x3D63470", Offset = "0x3D63470", VA = "0x3D63470", Slot = "47")]
+		[Address(RVA = "0x1BD86F0", Offset = "0x1BD6CF0", VA = "0x181BD86F0", Slot = "47")]
 		get
 		{
 			return default(DateTimeZoneHandling);
 		}
 		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x3D634C0", Offset = "0x3D634C0", VA = "0x3D634C0", Slot = "48")]
+		[Address(RVA = "0x1BD8C90", Offset = "0x1BD7290", VA = "0x181BD8C90", Slot = "48")]
 		set
 		{
 		}
@@ -495,13 +500,13 @@ public class JsonSerializer
 	public virtual DateParseHandling DateParseHandling
 	{
 		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x3D63520", Offset = "0x3D63520", VA = "0x3D63520", Slot = "49")]
+		[Address(RVA = "0x1BD8690", Offset = "0x1BD6C90", VA = "0x181BD8690", Slot = "49")]
 		get
 		{
 			return default(DateParseHandling);
 		}
 		[Token(Token = "0x6000178")]
-		[Address(RVA = "0x3D63570", Offset = "0x3D63570", VA = "0x3D63570", Slot = "50")]
+		[Address(RVA = "0x1BD8C30", Offset = "0x1BD7230", VA = "0x181BD8C30", Slot = "50")]
 		set
 		{
 		}
@@ -511,13 +516,13 @@ public class JsonSerializer
 	public virtual FloatParseHandling FloatParseHandling
 	{
 		[Token(Token = "0x6000179")]
-		[Address(RVA = "0x3D635D0", Offset = "0x3D635D0", VA = "0x3D635D0", Slot = "51")]
+		[Address(RVA = "0x1BD8790", Offset = "0x1BD6D90", VA = "0x181BD8790", Slot = "51")]
 		get
 		{
 			return default(FloatParseHandling);
 		}
 		[Token(Token = "0x600017A")]
-		[Address(RVA = "0x3D63600", Offset = "0x3D63600", VA = "0x3D63600", Slot = "52")]
+		[Address(RVA = "0x1BD8DC0", Offset = "0x1BD73C0", VA = "0x181BD8DC0", Slot = "52")]
 		set
 		{
 		}
@@ -527,13 +532,13 @@ public class JsonSerializer
 	public virtual FloatFormatHandling FloatFormatHandling
 	{
 		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x3D63660", Offset = "0x3D63660", VA = "0x3D63660", Slot = "53")]
+		[Address(RVA = "0x1BD8750", Offset = "0x1BD6D50", VA = "0x181BD8750", Slot = "53")]
 		get
 		{
 			return default(FloatFormatHandling);
 		}
 		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x3D63690", Offset = "0x3D63690", VA = "0x3D63690", Slot = "54")]
+		[Address(RVA = "0x1BD8D60", Offset = "0x1BD7360", VA = "0x181BD8D60", Slot = "54")]
 		set
 		{
 		}
@@ -543,13 +548,13 @@ public class JsonSerializer
 	public virtual StringEscapeHandling StringEscapeHandling
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x3D636F0", Offset = "0x3D636F0", VA = "0x3D636F0", Slot = "55")]
+		[Address(RVA = "0x1BD8810", Offset = "0x1BD6E10", VA = "0x181BD8810", Slot = "55")]
 		get
 		{
 			return default(StringEscapeHandling);
 		}
 		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x3D63720", Offset = "0x3D63720", VA = "0x3D63720", Slot = "56")]
+		[Address(RVA = "0x1BD9300", Offset = "0x1BD7900", VA = "0x181BD9300", Slot = "56")]
 		set
 		{
 		}
@@ -559,13 +564,13 @@ public class JsonSerializer
 	public virtual string DateFormatString
 	{
 		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x3D63780", Offset = "0x3D63780", VA = "0x3D63780", Slot = "57")]
+		[Address(RVA = "0x1BD8650", Offset = "0x1BD6C50", VA = "0x181BD8650", Slot = "57")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x3D637D0", Offset = "0x3D637D0", VA = "0x3D637D0", Slot = "58")]
+		[Address(RVA = "0x1BD8C00", Offset = "0x1BD7200", VA = "0x181BD8C00", Slot = "58")]
 		set
 		{
 		}
@@ -575,13 +580,13 @@ public class JsonSerializer
 	public virtual CultureInfo Culture
 	{
 		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x3D637F0", Offset = "0x3D637F0", VA = "0x3D637F0", Slot = "59")]
+		[Address(RVA = "0x1BD85A0", Offset = "0x1BD6BA0", VA = "0x181BD85A0", Slot = "59")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x3D63860", Offset = "0x3D63860", VA = "0x3D63860", Slot = "60")]
+		[Address(RVA = "0x1537500", Offset = "0x1535B00", VA = "0x181537500", Slot = "60")]
 		set
 		{
 		}
@@ -591,13 +596,13 @@ public class JsonSerializer
 	public virtual int? MaxDepth
 	{
 		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x3D63880", Offset = "0x3D63880", VA = "0x3D63880", Slot = "61")]
+		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10", Slot = "61")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x3D63890", Offset = "0x3D63890", VA = "0x3D63890", Slot = "62")]
+		[Address(RVA = "0x1BD8E80", Offset = "0x1BD7480", VA = "0x181BD8E80", Slot = "62")]
 		set
 		{
 		}
@@ -607,13 +612,13 @@ public class JsonSerializer
 	public virtual bool CheckAdditionalContent
 	{
 		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x3D63950", Offset = "0x3D63950", VA = "0x3D63950", Slot = "63")]
+		[Address(RVA = "0x1BD84C0", Offset = "0x1BD6AC0", VA = "0x181BD84C0", Slot = "63")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x3D63980", Offset = "0x3D63980", VA = "0x3D63980", Slot = "64")]
+		[Address(RVA = "0x1BD8A00", Offset = "0x1BD7000", VA = "0x181BD8A00", Slot = "64")]
 		set
 		{
 		}
@@ -623,13 +628,13 @@ public class JsonSerializer
 	public virtual event EventHandler<Newtonsoft.Json.Serialization.ErrorEventArgs>? Error
 	{
 		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x3D62750", Offset = "0x3D62750", VA = "0x3D62750", Slot = "4")]
+		[Address(RVA = "0x1BD8320", Offset = "0x1BD6920", VA = "0x181BD8320", Slot = "4")]
 		[CompilerGenerated]
 		add
 		{
 		}
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x3D62800", Offset = "0x3D62800", VA = "0x3D62800", Slot = "5")]
+		[Address(RVA = "0x1BD8850", Offset = "0x1BD6E50", VA = "0x181BD8850", Slot = "5")]
 		[CompilerGenerated]
 		remove
 		{
@@ -637,74 +642,74 @@ public class JsonSerializer
 	}
 
 	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x3D58820", Offset = "0x3D58820", VA = "0x3D58820")]
+	[Address(RVA = "0x1BD6F60", Offset = "0x1BD5560", VA = "0x181BD6F60")]
 	internal bool IsCheckAdditionalContentSet()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x3D639E0", Offset = "0x3D639E0", VA = "0x3D639E0")]
+	[Address(RVA = "0x1BD81C0", Offset = "0x1BD67C0", VA = "0x181BD81C0")]
 	public JsonSerializer()
 	{
 	}
 
 	[Token(Token = "0x6000189")]
-	[Address(RVA = "0x3D63B40", Offset = "0x3D63B40", VA = "0x3D63B40")]
+	[Address(RVA = "0x1BD6800", Offset = "0x1BD4E00", VA = "0x181BD6800")]
 	public static JsonSerializer Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600018A")]
-	[Address(RVA = "0x3D63B80", Offset = "0x3D63B80", VA = "0x3D63B80")]
+	[Address(RVA = "0x1BD6650", Offset = "0x1BD4C50", VA = "0x181BD6650")]
 	public static JsonSerializer Create(JsonSerializerSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600018B")]
-	[Address(RVA = "0x3D64510", Offset = "0x3D64510", VA = "0x3D64510")]
+	[Address(RVA = "0x1BD6340", Offset = "0x1BD4940", VA = "0x181BD6340")]
 	public static JsonSerializer CreateDefault()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600018C")]
-	[Address(RVA = "0x3D58050", Offset = "0x3D58050", VA = "0x3D58050")]
+	[Address(RVA = "0x1BD6580", Offset = "0x1BD4B80", VA = "0x181BD6580")]
 	public static JsonSerializer CreateDefault(JsonSerializerSettings? settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x3D63BE0", Offset = "0x3D63BE0", VA = "0x3D63BE0")]
+	[Address(RVA = "0x1BD5A80", Offset = "0x1BD4080", VA = "0x181BD5A80")]
 	private static void ApplySerializerSettings(JsonSerializer serializer, JsonSerializerSettings settings)
 	{
 	}
 
 	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x3D648D0", Offset = "0x3D648D0", VA = "0x3D648D0")]
+	[Address(RVA = "0x1BD72F0", Offset = "0x1BD58F0", VA = "0x181BD72F0")]
 	[DebuggerStepThrough]
 	public void Populate(TextReader reader, object target)
 	{
 	}
 
 	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x3D58D60", Offset = "0x3D58D60", VA = "0x3D58D60")]
+	[Address(RVA = "0x1BD72D0", Offset = "0x1BD58D0", VA = "0x181BD72D0")]
 	[DebuggerStepThrough]
 	public void Populate(JsonReader reader, object target)
 	{
 	}
 
 	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x3D64950", Offset = "0x3D64950", VA = "0x3D64950", Slot = "65")]
+	[Address(RVA = "0x1BD6FC0", Offset = "0x1BD55C0", VA = "0x181BD6FC0", Slot = "65")]
 	internal virtual void PopulateInternal(JsonReader reader, object target)
 	{
 	}
 
 	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x3D655A0", Offset = "0x3D655A0", VA = "0x3D655A0")]
+	[Address(RVA = "0x1BD6CA0", Offset = "0x1BD52A0", VA = "0x181BD6CA0")]
 	[DebuggerStepThrough]
 	public object Deserialize(JsonReader reader)
 	{
@@ -712,7 +717,7 @@ public class JsonSerializer
 	}
 
 	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x3D655C0", Offset = "0x3D655C0", VA = "0x3D655C0")]
+	[Address(RVA = "0x1BD6CE0", Offset = "0x1BD52E0", VA = "0x181BD6CE0")]
 	[DebuggerStepThrough]
 	public object Deserialize(TextReader reader, Type objectType)
 	{
@@ -727,7 +732,7 @@ public class JsonSerializer
 	}
 
 	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x3D589B0", Offset = "0x3D589B0", VA = "0x3D589B0")]
+	[Address(RVA = "0x1BD6CC0", Offset = "0x1BD52C0", VA = "0x181BD6CC0")]
 	[DebuggerStepThrough]
 	public object? Deserialize(JsonReader reader, Type? objectType)
 	{
@@ -735,84 +740,84 @@ public class JsonSerializer
 	}
 
 	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x3D65640", Offset = "0x3D65640", VA = "0x3D65640", Slot = "66")]
+	[Address(RVA = "0x1BD6990", Offset = "0x1BD4F90", VA = "0x181BD6990", Slot = "66")]
 	internal virtual object? DeserializeInternal(JsonReader reader, Type? objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x3D64C20", Offset = "0x3D64C20", VA = "0x3D64C20")]
+	[Address(RVA = "0x1BD7D40", Offset = "0x1BD6340", VA = "0x181BD7D40")]
 	internal void SetupReader(JsonReader reader, out CultureInfo? previousCulture, out DateTimeZoneHandling? previousDateTimeZoneHandling, out DateParseHandling? previousDateParseHandling, out FloatParseHandling? previousFloatParseHandling, out int? previousMaxDepth, out string? previousDateFormatString)
 	{
 	}
 
 	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x3D65280", Offset = "0x3D65280", VA = "0x3D65280")]
+	[Address(RVA = "0x1BD7360", Offset = "0x1BD5960", VA = "0x181BD7360")]
 	private void ResetReader(JsonReader reader, CultureInfo? previousCulture, DateTimeZoneHandling? previousDateTimeZoneHandling, DateParseHandling? previousDateParseHandling, FloatParseHandling? previousFloatParseHandling, int? previousMaxDepth, string? previousDateFormatString)
 	{
 	}
 
 	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x3D65920", Offset = "0x3D65920", VA = "0x3D65920")]
+	[Address(RVA = "0x1BD7C90", Offset = "0x1BD6290", VA = "0x181BD7C90")]
 	public void Serialize(TextWriter textWriter, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x3D58340", Offset = "0x3D58340", VA = "0x3D58340")]
+	[Address(RVA = "0x1BD7C70", Offset = "0x1BD6270", VA = "0x181BD7C70")]
 	public void Serialize(JsonWriter jsonWriter, object? value, Type? objectType)
 	{
 	}
 
 	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x3D659C0", Offset = "0x3D659C0", VA = "0x3D659C0")]
+	[Address(RVA = "0x1BD7BF0", Offset = "0x1BD61F0", VA = "0x181BD7BF0")]
 	public void Serialize(TextWriter textWriter, object? value, Type objectType)
 	{
 	}
 
 	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x3D659A0", Offset = "0x3D659A0", VA = "0x3D659A0")]
+	[Address(RVA = "0x1BD7D10", Offset = "0x1BD6310", VA = "0x181BD7D10")]
 	public void Serialize(JsonWriter jsonWriter, object? value)
 	{
 	}
 
 	[Token(Token = "0x600019C")]
-	[Address(RVA = "0x3D65200", Offset = "0x3D65200", VA = "0x3D65200")]
+	[Address(RVA = "0x1BD65C0", Offset = "0x1BD4BC0", VA = "0x181BD65C0")]
 	private TraceJsonReader CreateTraceJsonReader(JsonReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019D")]
-	[Address(RVA = "0x3D65A40", Offset = "0x3D65A40", VA = "0x3D65A40", Slot = "67")]
+	[Address(RVA = "0x1BD7650", Offset = "0x1BD5C50", VA = "0x181BD7650", Slot = "67")]
 	internal virtual void SerializeInternal(JsonWriter jsonWriter, object? value, Type? objectType)
 	{
 	}
 
 	[Token(Token = "0x600019E")]
-	[Address(RVA = "0x3D62930", Offset = "0x3D62930", VA = "0x3D62930")]
+	[Address(RVA = "0x1BD6EF0", Offset = "0x1BD54F0", VA = "0x181BD6EF0")]
 	internal IReferenceResolver GetReferenceResolver()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x3D66150", Offset = "0x3D66150", VA = "0x3D66150")]
+	[Address(RVA = "0x1BD6D50", Offset = "0x1BD5350", VA = "0x181BD6D50")]
 	internal JsonConverter GetMatchingConverter(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x3D66160", Offset = "0x3D66160", VA = "0x3D66160")]
+	[Address(RVA = "0x1BD6E20", Offset = "0x1BD5420", VA = "0x181BD6E20")]
 	internal static JsonConverter GetMatchingConverter(IList<JsonConverter>? converters, Type objectType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x3D662E0", Offset = "0x3D662E0", VA = "0x3D662E0")]
+	[Address(RVA = "0x1BD6FA0", Offset = "0x1BD55A0", VA = "0x181BD6FA0")]
 	internal void OnError(Newtonsoft.Json.Serialization.ErrorEventArgs e)
 	{
 	}

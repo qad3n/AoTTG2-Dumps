@@ -24,7 +24,7 @@ public abstract class XmlSchemaContentModel : XmlSchemaAnnotated
 	}
 
 	[Token(Token = "0x60015DE")]
-	[Address(RVA = "0x4720790", Offset = "0x4720790", VA = "0x4720790")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSchemaContentModel()
 	{
 	}

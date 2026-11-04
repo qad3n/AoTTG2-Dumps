@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003AE")]
+[Token(Token = "0x20003DD")]
 [ComVisible(true)]
 public interface IMessageCtrl
 {

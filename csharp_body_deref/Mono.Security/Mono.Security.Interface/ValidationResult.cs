@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x2000029")]
+[Token(Token = "0x200003B")]
 public class ValidationResult
 {
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000D1")]
 	[FieldOffset(Offset = "0x10")]
 	private bool trusted;
 
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000D2")]
 	[FieldOffset(Offset = "0x11")]
 	private bool user_denied;
 
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000D3")]
 	[FieldOffset(Offset = "0x14")]
 	private int error_code;
 
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000D4")]
 	[FieldOffset(Offset = "0x18")]
 	private MonoSslPolicyErrors? policy_errors;
 
-	[Token(Token = "0x1700005D")]
+	[Token(Token = "0x17000060")]
 	public bool Trusted
 	{
-		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x3ABC120", Offset = "0x3ABC120", VA = "0x3ABC120")]
+		[Token(Token = "0x6000145")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700005E")]
+	[Token(Token = "0x17000061")]
 	public bool UserDenied
 	{
-		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x3ABC130", Offset = "0x3ABC130", VA = "0x3ABC130")]
+		[Token(Token = "0x6000146")]
+		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3ABC0E0", Offset = "0x3ABC0E0", VA = "0x3ABC0E0")]
+	[Token(Token = "0x6000144")]
+	[Address(RVA = "0x193F2B0", Offset = "0x193D8B0", VA = "0x18193F2B0")]
 	public ValidationResult(bool trusted, bool user_denied, int error_code, MonoSslPolicyErrors? policy_errors)
 	{
 	}

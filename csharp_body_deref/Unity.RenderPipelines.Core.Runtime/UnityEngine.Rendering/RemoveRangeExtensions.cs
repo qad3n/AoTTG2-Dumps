@@ -13,10 +13,10 @@ using JetBrains.Annotations;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000094")]
+[Token(Token = "0x2000062")]
 public static class RemoveRangeExtensions
 {
-	[Token(Token = "0x6000648")]
+	[Token(Token = "0x6000569")]
 	[CollectionAccess(CollectionAccessType.ModifyExistingContent)]
 	[MustUseReturnValue]
 	public static bool TryRemoveElementsInRange<TValue>([DisallowNull] this IList<TValue> list, int index, int count, [NotNullWhen(false)] out Exception error)

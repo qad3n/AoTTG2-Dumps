@@ -9,59 +9,59 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000FE")]
+[Token(Token = "0x20000D4")]
 public class MousePositionDebug
 {
-	[Token(Token = "0x4000360")]
+	[Token(Token = "0x40002AB")]
 	[FieldOffset(Offset = "0x0")]
 	private static MousePositionDebug s_Instance;
 
-	[Token(Token = "0x170000D3")]
+	[Token(Token = "0x170000BC")]
 	public static MousePositionDebug instance
 	{
-		[Token(Token = "0x6000844")]
-		[Address(RVA = "0x4BAD400", Offset = "0x4BAD400", VA = "0x4BAD400")]
+		[Token(Token = "0x60007A5")]
+		[Address(RVA = "0x2AE3700", Offset = "0x2AE1D00", VA = "0x182AE3700")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000845")]
-	[Address(RVA = "0x4BAD4A0", Offset = "0x4BAD4A0", VA = "0x4BAD4A0")]
+	[Token(Token = "0x60007A6")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Build()
 	{
 	}
 
-	[Token(Token = "0x6000846")]
-	[Address(RVA = "0x4BAD4B0", Offset = "0x4BAD4B0", VA = "0x4BAD4B0")]
+	[Token(Token = "0x60007A7")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Cleanup()
 	{
 	}
 
-	[Token(Token = "0x6000847")]
-	[Address(RVA = "0x4BAD4C0", Offset = "0x4BAD4C0", VA = "0x4BAD4C0")]
+	[Token(Token = "0x60007A8")]
+	[Address(RVA = "0x2AE36D0", Offset = "0x2AE1CD0", VA = "0x182AE36D0")]
 	public Vector2 GetMousePosition(float ScreenHeight, bool sceneView)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000848")]
-	[Address(RVA = "0x4BAD4D0", Offset = "0x4BAD4D0", VA = "0x4BAD4D0")]
+	[Token(Token = "0x60007A9")]
+	[Address(RVA = "0x2AE36D0", Offset = "0x2AE1CD0", VA = "0x182AE36D0")]
 	private Vector2 GetInputMousePosition()
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000849")]
-	[Address(RVA = "0x4BAD4E0", Offset = "0x4BAD4E0", VA = "0x4BAD4E0")]
+	[Token(Token = "0x60007AA")]
+	[Address(RVA = "0xA3A940", Offset = "0xA38F40", VA = "0x180A3A940")]
 	public Vector2 GetMouseClickPosition(float ScreenHeight)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x600084A")]
-	[Address(RVA = "0x4BAD490", Offset = "0x4BAD490", VA = "0x4BAD490")]
+	[Token(Token = "0x60007AB")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public MousePositionDebug()
 	{
 	}

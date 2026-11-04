@@ -9,49 +9,50 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001A7")]
+[Token(Token = "0x20001EE")]
+[EventCategory(EventCategory.PointerDown)]
 public class MouseDownEvent : MouseEventBase<MouseDownEvent>
 {
-	[Token(Token = "0x6000B3F")]
-	[Address(RVA = "0x50325E0", Offset = "0x50325E0", VA = "0x50325E0")]
+	[Token(Token = "0x6000D5E")]
+	[Address(RVA = "0x3267900", Offset = "0x3265F00", VA = "0x183267900")]
 	static MouseDownEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B40")]
-	[Address(RVA = "0x50326B0", Offset = "0x50326B0", VA = "0x50326B0", Slot = "13")]
+	[Token(Token = "0x6000D5F")]
+	[Address(RVA = "0x3267800", Offset = "0x3265E00", VA = "0x183267800", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000B41")]
-	[Address(RVA = "0x50326F0", Offset = "0x50326F0", VA = "0x50326F0")]
+	[Token(Token = "0x6000D60")]
+	[Address(RVA = "0x3267870", Offset = "0x3265E70", VA = "0x183267870")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000B42")]
-	[Address(RVA = "0x5032700", Offset = "0x5032700", VA = "0x5032700")]
+	[Token(Token = "0x6000D61")]
+	[Address(RVA = "0x32679E0", Offset = "0x3265FE0", VA = "0x1832679E0")]
 	public MouseDownEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B43")]
-	[Address(RVA = "0x5032740", Offset = "0x5032740", VA = "0x5032740")]
+	[Token(Token = "0x6000D62")]
+	[Address(RVA = "0x32678C0", Offset = "0x3265EC0", VA = "0x1832678C0")]
 	private static MouseDownEvent MakeFromPointerEvent(IPointerEvent pointerEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B44")]
-	[Address(RVA = "0x50329B0", Offset = "0x50329B0", VA = "0x50329B0")]
+	[Token(Token = "0x6000D63")]
+	[Address(RVA = "0x3267720", Offset = "0x3265D20", VA = "0x183267720")]
 	internal static MouseDownEvent GetPooled(PointerDownEvent pointerEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B45")]
-	[Address(RVA = "0x5032A10", Offset = "0x5032A10", VA = "0x5032A10")]
+	[Token(Token = "0x6000D64")]
+	[Address(RVA = "0x3267790", Offset = "0x3265D90", VA = "0x183267790")]
 	internal static MouseDownEvent GetPooled(PointerMoveEvent pointerEvent)
 	{
 		return null;

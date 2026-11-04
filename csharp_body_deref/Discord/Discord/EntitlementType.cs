@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000034")]
+[Token(Token = "0x2000032")]
 public enum EntitlementType
 {
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x400008F")]
 	Purchase = 1,
-	[Token(Token = "0x4000095")]
+	[Token(Token = "0x4000090")]
 	PremiumSubscription,
-	[Token(Token = "0x4000096")]
+	[Token(Token = "0x4000091")]
 	DeveloperGift,
-	[Token(Token = "0x4000097")]
+	[Token(Token = "0x4000092")]
 	TestModePurchase,
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x4000093")]
 	FreePurchase,
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x4000094")]
 	UserGift,
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x4000095")]
 	PremiumPurchase
 }

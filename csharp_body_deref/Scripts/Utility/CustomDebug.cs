@@ -15,46 +15,46 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x200071B")]
+[Token(Token = "0x20008A0")]
 public class CustomDebug : MonoBehaviour
 {
-	[Token(Token = "0x200071C")]
+	[Token(Token = "0x20008A1")]
 	[CompilerGenerated]
 	private sealed class _003CDrawLineCoroutine_003Ed__17 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400223C")]
+		[Token(Token = "0x4002AFB")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400223D")]
+		[Token(Token = "0x4002AFC")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400223E")]
+		[Token(Token = "0x4002AFD")]
 		[FieldOffset(Offset = "0x20")]
 		public Vector3 start;
 
-		[Token(Token = "0x400223F")]
+		[Token(Token = "0x4002AFE")]
 		[FieldOffset(Offset = "0x2C")]
 		public Vector3 end;
 
-		[Token(Token = "0x4002240")]
+		[Token(Token = "0x4002AFF")]
 		[FieldOffset(Offset = "0x38")]
 		public Color color;
 
-		[Token(Token = "0x4002241")]
+		[Token(Token = "0x4002B00")]
 		[FieldOffset(Offset = "0x48")]
 		public float duration;
 
-		[Token(Token = "0x4002242")]
+		[Token(Token = "0x4002B01")]
 		[FieldOffset(Offset = "0x50")]
 		private GameObject _003ClineObj_003E5__2;
 
-		[Token(Token = "0x17000DA4")]
+		[Token(Token = "0x17000F05")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004636")]
-			[Address(RVA = "0x43842C0", Offset = "0x43842C0", VA = "0x43842C0", Slot = "4")]
+			[Token(Token = "0x6005292")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -62,11 +62,11 @@ public class CustomDebug : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000DA5")]
+		[Token(Token = "0x17000F06")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004638")]
-			[Address(RVA = "0x4384310", Offset = "0x4384310", VA = "0x4384310", Slot = "7")]
+			[Token(Token = "0x6005294")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -74,84 +74,84 @@ public class CustomDebug : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6004633")]
-		[Address(RVA = "0x4383F90", Offset = "0x4383F90", VA = "0x4383F90")]
+		[Token(Token = "0x600528F")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CDrawLineCoroutine_003Ed__17(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004634")]
-		[Address(RVA = "0x4384050", Offset = "0x4384050", VA = "0x4384050", Slot = "5")]
+		[Token(Token = "0x6005290")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004635")]
-		[Address(RVA = "0x4384060", Offset = "0x4384060", VA = "0x4384060", Slot = "6")]
+		[Token(Token = "0x6005291")]
+		[Address(RVA = "0x233FA50", Offset = "0x233E050", VA = "0x18233FA50", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004637")]
-		[Address(RVA = "0x43842D0", Offset = "0x43842D0", VA = "0x43842D0", Slot = "8")]
+		[Token(Token = "0x6005293")]
+		[Address(RVA = "0x233FCC0", Offset = "0x233E2C0", VA = "0x18233FCC0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200071D")]
+	[Token(Token = "0x20008A2")]
 	[CompilerGenerated]
 	private sealed class _003CSpawnPrimitiveCoroutine_003Ed__18 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002243")]
+		[Token(Token = "0x4002B02")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002244")]
+		[Token(Token = "0x4002B03")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002245")]
+		[Token(Token = "0x4002B04")]
 		[FieldOffset(Offset = "0x20")]
 		public CustomDebug _003C_003E4__this;
 
-		[Token(Token = "0x4002246")]
+		[Token(Token = "0x4002B05")]
 		[FieldOffset(Offset = "0x28")]
 		public PrimitiveType type;
 
-		[Token(Token = "0x4002247")]
+		[Token(Token = "0x4002B06")]
 		[FieldOffset(Offset = "0x2C")]
 		public Vector3 position;
 
-		[Token(Token = "0x4002248")]
+		[Token(Token = "0x4002B07")]
 		[FieldOffset(Offset = "0x38")]
 		public Quaternion Rotation;
 
-		[Token(Token = "0x4002249")]
+		[Token(Token = "0x4002B08")]
 		[FieldOffset(Offset = "0x48")]
 		public Vector3 size;
 
-		[Token(Token = "0x400224A")]
+		[Token(Token = "0x4002B09")]
 		[FieldOffset(Offset = "0x54")]
 		public Color color;
 
-		[Token(Token = "0x400224B")]
+		[Token(Token = "0x4002B0A")]
 		[FieldOffset(Offset = "0x64")]
 		public float duration;
 
-		[Token(Token = "0x400224C")]
+		[Token(Token = "0x4002B0B")]
 		[FieldOffset(Offset = "0x68")]
 		private GameObject _003Cobj_003E5__2;
 
-		[Token(Token = "0x17000DA6")]
+		[Token(Token = "0x17000F07")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600463C")]
-			[Address(RVA = "0x4384490", Offset = "0x4384490", VA = "0x4384490", Slot = "4")]
+			[Token(Token = "0x6005298")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -159,11 +159,11 @@ public class CustomDebug : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000DA7")]
+		[Token(Token = "0x17000F08")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600463E")]
-			[Address(RVA = "0x43844E0", Offset = "0x43844E0", VA = "0x43844E0", Slot = "7")]
+			[Token(Token = "0x600529A")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -171,172 +171,172 @@ public class CustomDebug : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6004639")]
-		[Address(RVA = "0x4383FB0", Offset = "0x4383FB0", VA = "0x4383FB0")]
+		[Token(Token = "0x6005295")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CSpawnPrimitiveCoroutine_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600463A")]
-		[Address(RVA = "0x4384320", Offset = "0x4384320", VA = "0x4384320", Slot = "5")]
+		[Token(Token = "0x6005296")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600463B")]
-		[Address(RVA = "0x4384330", Offset = "0x4384330", VA = "0x4384330", Slot = "6")]
+		[Token(Token = "0x6005297")]
+		[Address(RVA = "0x2340370", Offset = "0x233E970", VA = "0x182340370", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600463D")]
-		[Address(RVA = "0x43844A0", Offset = "0x43844A0", VA = "0x43844A0", Slot = "8")]
+		[Token(Token = "0x6005299")]
+		[Address(RVA = "0x2340510", Offset = "0x233EB10", VA = "0x182340510", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400223A")]
+	[Token(Token = "0x4002AF9")]
 	[FieldOffset(Offset = "0x0")]
 	private static CustomDebug _instance;
 
-	[Token(Token = "0x400223B")]
+	[Token(Token = "0x4002AFA")]
 	[FieldOffset(Offset = "0x20")]
 	private Dictionary<string, GameObject> _debugObjects;
 
-	[Token(Token = "0x600461F")]
-	[Address(RVA = "0x43821B0", Offset = "0x43821B0", VA = "0x43821B0")]
+	[Token(Token = "0x600527B")]
+	[Address(RVA = "0x23331E0", Offset = "0x23317E0", VA = "0x1823331E0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004620")]
-	[Address(RVA = "0x4382220", Offset = "0x4382220", VA = "0x4382220")]
+	[Token(Token = "0x600527C")]
+	[Address(RVA = "0x2333260", Offset = "0x2331860", VA = "0x182333260")]
 	public static void RemoveDebugVisual(string name)
 	{
 	}
 
-	[Token(Token = "0x6004621")]
-	[Address(RVA = "0x4382350", Offset = "0x4382350", VA = "0x4382350")]
+	[Token(Token = "0x600527D")]
+	[Address(RVA = "0x23330B0", Offset = "0x23316B0", VA = "0x1823330B0")]
 	public static string DrawRay(Vector3 origin, Vector3 direction, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004622")]
-	[Address(RVA = "0x4382640", Offset = "0x4382640", VA = "0x4382640")]
+	[Token(Token = "0x600527E")]
+	[Address(RVA = "0x2332E40", Offset = "0x2331440", VA = "0x182332E40")]
 	public static string DrawLine(Vector3 start, Vector3 end, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004623")]
-	[Address(RVA = "0x4382750", Offset = "0x4382750", VA = "0x4382750")]
+	[Token(Token = "0x600527F")]
+	[Address(RVA = "0x2333DD0", Offset = "0x23323D0", VA = "0x182333DD0")]
 	public static string SpawnCube(Vector3 position, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004624")]
-	[Address(RVA = "0x4382B10", Offset = "0x4382B10", VA = "0x4382B10")]
+	[Token(Token = "0x6005280")]
+	[Address(RVA = "0x2334780", Offset = "0x2332D80", VA = "0x182334780")]
 	public static string SpawnSphere(Vector3 position, float radius, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004625")]
-	[Address(RVA = "0x4382C50", Offset = "0x4382C50", VA = "0x4382C50")]
+	[Token(Token = "0x6005281")]
+	[Address(RVA = "0x2334140", Offset = "0x2332740", VA = "0x182334140")]
 	public static string SpawnCylinder(Vector3 position, float radius, float height, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004626")]
-	[Address(RVA = "0x4382D90", Offset = "0x4382D90", VA = "0x4382D90")]
+	[Token(Token = "0x6005282")]
+	[Address(RVA = "0x2333A90", Offset = "0x2332090", VA = "0x182333A90")]
 	public static string SpawnCapsule(Vector3 position, float radius, float height, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004627")]
-	[Address(RVA = "0x4382ED0", Offset = "0x4382ED0", VA = "0x4382ED0")]
+	[Token(Token = "0x6005283")]
+	[Address(RVA = "0x2333390", Offset = "0x2331990", VA = "0x182333390")]
 	public static string SpawnCapsuleCollder(CapsuleCollider capsule, Color color, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004628")]
-	[Address(RVA = "0x43833F0", Offset = "0x43833F0", VA = "0x43833F0")]
+	[Token(Token = "0x6005284")]
+	[Address(RVA = "0x2332F60", Offset = "0x2331560", VA = "0x182332F60")]
 	public static void DrawRay(Vector3 origin, Vector3 direction, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x6004629")]
-	[Address(RVA = "0x4383610", Offset = "0x4383610", VA = "0x4383610")]
+	[Token(Token = "0x6005285")]
+	[Address(RVA = "0x2332D10", Offset = "0x2331310", VA = "0x182332D10")]
 	public static void DrawLine(Vector3 start, Vector3 end, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x600462A")]
-	[Address(RVA = "0x4383770", Offset = "0x4383770", VA = "0x4383770")]
+	[Token(Token = "0x6005286")]
+	[Address(RVA = "0x2333F70", Offset = "0x2332570", VA = "0x182333F70")]
 	public static void SpawnCube(Vector3 position, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x600462B")]
-	[Address(RVA = "0x4383A50", Offset = "0x4383A50", VA = "0x4383A50")]
+	[Token(Token = "0x6005287")]
+	[Address(RVA = "0x23348F0", Offset = "0x2332EF0", VA = "0x1823348F0")]
 	public static void SpawnSphere(Vector3 position, float radius, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x600462C")]
-	[Address(RVA = "0x4383C10", Offset = "0x4383C10", VA = "0x4383C10")]
+	[Token(Token = "0x6005288")]
+	[Address(RVA = "0x23342D0", Offset = "0x23328D0", VA = "0x1823342D0")]
 	public static void SpawnCylinder(Vector3 position, float radius, float height, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x600462D")]
-	[Address(RVA = "0x4383DD0", Offset = "0x4383DD0", VA = "0x4383DD0")]
+	[Token(Token = "0x6005289")]
+	[Address(RVA = "0x2333C20", Offset = "0x2332220", VA = "0x182333C20")]
 	public static void SpawnCapsule(Vector3 position, float radius, float height, Color color, float duration = 1f)
 	{
 	}
 
-	[Token(Token = "0x600462E")]
-	[Address(RVA = "0x4383550", Offset = "0x4383550", VA = "0x4383550")]
+	[Token(Token = "0x600528A")]
+	[Address(RVA = "0x2332A90", Offset = "0x2331090", VA = "0x182332A90")]
 	[IteratorStateMachine(typeof(_003CDrawLineCoroutine_003Ed__17))]
 	private IEnumerator DrawLineCoroutine(Vector3 start, Vector3 end, Color color, float duration)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600462F")]
-	[Address(RVA = "0x4383950", Offset = "0x4383950", VA = "0x4383950")]
+	[Token(Token = "0x600528B")]
+	[Address(RVA = "0x2334480", Offset = "0x2332A80", VA = "0x182334480")]
 	[IteratorStateMachine(typeof(_003CSpawnPrimitiveCoroutine_003Ed__18))]
 	private IEnumerator SpawnPrimitiveCoroutine(PrimitiveType type, Vector3 position, Quaternion Rotation, Vector3 size, Color color, float duration)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004630")]
-	[Address(RVA = "0x4382460", Offset = "0x4382460", VA = "0x4382460")]
+	[Token(Token = "0x600528C")]
+	[Address(RVA = "0x2332B20", Offset = "0x2331120", VA = "0x182332B20")]
 	private GameObject DrawLineObject(Vector3 start, Vector3 end, Color color, float duration)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004631")]
-	[Address(RVA = "0x43828D0", Offset = "0x43828D0", VA = "0x43828D0")]
+	[Token(Token = "0x600528D")]
+	[Address(RVA = "0x2334540", Offset = "0x2332B40", VA = "0x182334540")]
 	private GameObject SpawnPrimitiveObject(PrimitiveType type, Vector3 position, Quaternion Rotation, Vector3 size, Color color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004632")]
-	[Address(RVA = "0x4383FD0", Offset = "0x4383FD0", VA = "0x4383FD0")]
+	[Token(Token = "0x600528E")]
+	[Address(RVA = "0x2334AA0", Offset = "0x23330A0", VA = "0x182334AA0")]
 	public CustomDebug()
 	{
 	}

@@ -11,45 +11,45 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004A2")]
+[Token(Token = "0x200059B")]
 internal class ImplicitPool<T> where T : class
 {
-	[Token(Token = "0x4000E47")]
+	[Token(Token = "0x40013DF")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int m_StartCapacity;
 
-	[Token(Token = "0x4000E48")]
+	[Token(Token = "0x40013E0")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int m_MaxCapacity;
 
-	[Token(Token = "0x4000E49")]
+	[Token(Token = "0x40013E1")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<T> m_CreateAction;
 
-	[Token(Token = "0x4000E4A")]
+	[Token(Token = "0x40013E2")]
 	[FieldOffset(Offset = "0x0")]
 	private Action<T> m_ResetAction;
 
-	[Token(Token = "0x4000E4B")]
+	[Token(Token = "0x40013E3")]
 	[FieldOffset(Offset = "0x0")]
 	private List<T> m_List;
 
-	[Token(Token = "0x4000E4C")]
+	[Token(Token = "0x40013E4")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_UsedCount;
 
-	[Token(Token = "0x6001CD6")]
+	[Token(Token = "0x60029DD")]
 	public ImplicitPool(Func<T> createAction, Action<T> resetAction, int startCapacity, int maxCapacity)
 	{
 	}
 
-	[Token(Token = "0x6001CD7")]
+	[Token(Token = "0x60029DE")]
 	public T Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001CD8")]
+	[Token(Token = "0x60029DF")]
 	public void ReturnAll()
 	{
 	}

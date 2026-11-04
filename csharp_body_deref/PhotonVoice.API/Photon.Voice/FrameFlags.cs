@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200007A")]
+[Token(Token = "0x2000078")]
 public enum FrameFlags : byte
 {
-	[Token(Token = "0x40001F4")]
+	[Token(Token = "0x40001EF")]
 	Config = 1,
-	[Token(Token = "0x40001F5")]
+	[Token(Token = "0x40001F0")]
 	KeyFrame = 2,
-	[Token(Token = "0x40001F6")]
+	[Token(Token = "0x40001F1")]
 	PartialFrame = 4,
-	[Token(Token = "0x40001F7")]
+	[Token(Token = "0x40001F2")]
 	EndOfStream = 8,
-	[Token(Token = "0x40001F8")]
+	[Token(Token = "0x40001F3")]
 	FragNotBeg = 16,
-	[Token(Token = "0x40001F9")]
+	[Token(Token = "0x40001F4")]
 	FragNotEnd = 32,
-	[Token(Token = "0x40001FA")]
+	[Token(Token = "0x40001F5")]
 	FEC = 64,
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x40001F6")]
 	MaskFrag = 48
 }

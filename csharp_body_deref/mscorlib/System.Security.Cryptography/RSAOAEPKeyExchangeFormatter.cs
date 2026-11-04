@@ -10,107 +10,107 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002FB")]
+[Token(Token = "0x200032A")]
 [ComVisible(true)]
 public class RSAOAEPKeyExchangeFormatter : AsymmetricKeyExchangeFormatter
 {
-	[Token(Token = "0x4000D62")]
+	[Token(Token = "0x4000D6F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private byte[] ParameterValue;
 
-	[Token(Token = "0x4000D63")]
+	[Token(Token = "0x4000D70")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private RSA _rsaKey;
 
-	[Token(Token = "0x4000D64")]
+	[Token(Token = "0x4000D71")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private bool? _rsaOverridesEncrypt;
 
-	[Token(Token = "0x4000D65")]
+	[Token(Token = "0x4000D72")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private RandomNumberGenerator RngValue;
 
-	[Token(Token = "0x170002CF")]
+	[Token(Token = "0x170002D1")]
 	public byte[] Parameter
 	{
-		[Token(Token = "0x6001A2B")]
-		[Address(RVA = "0x3B42DB0", Offset = "0x3B42DB0", VA = "0x3B42DB0")]
+		[Token(Token = "0x6001A93")]
+		[Address(RVA = "0x19C4FA0", Offset = "0x19C35A0", VA = "0x1819C4FA0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001A2C")]
-		[Address(RVA = "0x3B42E20", Offset = "0x3B42E20", VA = "0x3B42E20")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170002D0")]
-	public override string Parameters
-	{
-		[Token(Token = "0x6001A2D")]
-		[Address(RVA = "0x3B42EE0", Offset = "0x3B42EE0", VA = "0x3B42EE0", Slot = "4")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170002D1")]
-	public RandomNumberGenerator Rng
-	{
-		[Token(Token = "0x6001A2E")]
-		[Address(RVA = "0x3B42EF0", Offset = "0x3B42EF0", VA = "0x3B42EF0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6001A2F")]
-		[Address(RVA = "0x3B42F00", Offset = "0x3B42F00", VA = "0x3B42F00")]
+		[Token(Token = "0x6001A94")]
+		[Address(RVA = "0x19C5020", Offset = "0x19C3620", VA = "0x1819C5020")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170002D2")]
+	public override string Parameters
+	{
+		[Token(Token = "0x6001A95")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170002D3")]
+	public RandomNumberGenerator Rng
+	{
+		[Token(Token = "0x6001A96")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6001A97")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170002D4")]
 	private bool OverridesEncrypt
 	{
-		[Token(Token = "0x6001A33")]
-		[Address(RVA = "0x3B43260", Offset = "0x3B43260", VA = "0x3B43260")]
+		[Token(Token = "0x6001A9B")]
+		[Address(RVA = "0x19C4DA0", Offset = "0x19C33A0", VA = "0x1819C4DA0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001A29")]
-	[Address(RVA = "0x3B42DA0", Offset = "0x3B42DA0", VA = "0x3B42DA0")]
+	[Token(Token = "0x6001A91")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public RSAOAEPKeyExchangeFormatter()
 	{
 	}
 
-	[Token(Token = "0x6001A2A")]
-	[Address(RVA = "0x3B410F0", Offset = "0x3B410F0", VA = "0x3B410F0")]
+	[Token(Token = "0x6001A92")]
+	[Address(RVA = "0x19C4C90", Offset = "0x19C3290", VA = "0x1819C4C90")]
 	public RSAOAEPKeyExchangeFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001A30")]
-	[Address(RVA = "0x3B42F10", Offset = "0x3B42F10", VA = "0x3B42F10", Slot = "5")]
+	[Token(Token = "0x6001A98")]
+	[Address(RVA = "0x19C4B80", Offset = "0x19C3180", VA = "0x1819C4B80", Slot = "5")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001A31")]
-	[Address(RVA = "0x3B42FF0", Offset = "0x3B42FF0", VA = "0x3B42FF0", Slot = "6")]
+	[Token(Token = "0x6001A99")]
+	[Address(RVA = "0x19C4940", Offset = "0x19C2F40", VA = "0x1819C4940", Slot = "6")]
 	public override byte[] CreateKeyExchange(byte[] rgbData)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A32")]
-	[Address(RVA = "0x3B434D0", Offset = "0x3B434D0", VA = "0x3B434D0", Slot = "7")]
+	[Token(Token = "0x6001A9A")]
+	[Address(RVA = "0x19C4B60", Offset = "0x19C3160", VA = "0x1819C4B60", Slot = "7")]
 	public override byte[] CreateKeyExchange(byte[] rgbData, Type symAlgType)
 	{
 		return null;

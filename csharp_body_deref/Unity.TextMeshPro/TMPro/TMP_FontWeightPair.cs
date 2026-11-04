@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000037")]
 public struct TMP_FontWeightPair
 {
-	[Token(Token = "0x400020F")]
+	[Token(Token = "0x4000148")]
 	[FieldOffset(Offset = "0x0")]
 	public TMP_FontAsset regularTypeface;
 
-	[Token(Token = "0x4000210")]
+	[Token(Token = "0x4000149")]
 	[FieldOffset(Offset = "0x8")]
 	public TMP_FontAsset italicTypeface;
 }

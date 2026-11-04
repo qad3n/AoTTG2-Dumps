@@ -19,8 +19,8 @@ public sealed class RuntimeVariablesExpression : Expression
 	[Token(Token = "0x170000E6")]
 	public ReadOnlyCollection<ParameterExpression> Variables
 	{
-		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x44C0140", Offset = "0x44C0140", VA = "0x44C0140")]
+		[Token(Token = "0x60004D9")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{

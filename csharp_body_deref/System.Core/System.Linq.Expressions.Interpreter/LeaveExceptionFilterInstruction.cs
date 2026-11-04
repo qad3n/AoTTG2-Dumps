@@ -20,8 +20,8 @@ internal sealed class LeaveExceptionFilterInstruction : Instruction
 	[Token(Token = "0x17000181")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000657")]
-		[Address(RVA = "0x44C9460", Offset = "0x44C9460", VA = "0x44C9460", Slot = "9")]
+		[Token(Token = "0x6000656")]
+		[Address(RVA = "0x243BC80", Offset = "0x243A280", VA = "0x18243BC80", Slot = "9")]
 		get
 		{
 			return null;
@@ -31,22 +31,22 @@ internal sealed class LeaveExceptionFilterInstruction : Instruction
 	[Token(Token = "0x17000182")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000658")]
-		[Address(RVA = "0x44C9490", Offset = "0x44C9490", VA = "0x44C9490", Slot = "4")]
+		[Token(Token = "0x6000657")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x44C9450", Offset = "0x44C9450", VA = "0x44C9450")]
+	[Token(Token = "0x6000655")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private LeaveExceptionFilterInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x44C94A0", Offset = "0x44C94A0", VA = "0x44C94A0", Slot = "8")]
+	[Token(Token = "0x6000658")]
+	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

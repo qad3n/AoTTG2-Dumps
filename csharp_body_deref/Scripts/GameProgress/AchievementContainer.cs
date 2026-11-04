@@ -10,22 +10,22 @@ using Settings;
 
 namespace GameProgress;
 
-[Token(Token = "0x20001EA")]
+[Token(Token = "0x20002FB")]
 internal class AchievementContainer : BaseSettingsContainer
 {
-	[Token(Token = "0x4000A5B")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000F36")]
+	[FieldOffset(Offset = "0x30")]
 	public ListSetting<AchievementItem> AchievementItems;
 
-	[Token(Token = "0x6000B79")]
-	[Address(RVA = "0x4438630", Offset = "0x4438630", VA = "0x4438630")]
+	[Token(Token = "0x6001285")]
+	[Address(RVA = "0x1E27B50", Offset = "0x1E26150", VA = "0x181E27B50")]
 	public AchievementCount GetAchievementCount()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B7A")]
-	[Address(RVA = "0x4438B20", Offset = "0x4438B20", VA = "0x4438B20")]
+	[Token(Token = "0x6001286")]
+	[Address(RVA = "0x1E27E20", Offset = "0x1E26420", VA = "0x181E27E20")]
 	public AchievementContainer()
 	{
 	}

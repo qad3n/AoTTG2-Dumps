@@ -12,21 +12,21 @@ using UnityEngine.Scripting;
 namespace UnityEngine.VFX;
 
 [Serializable]
-[Token(Token = "0x2000008")]
+[Token(Token = "0x200000A")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public abstract class VFXSpawnerCallbacks : ScriptableObject
 {
-	[Token(Token = "0x600000F")]
+	[Token(Token = "0x6000017")]
 	public abstract void OnPlay(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent);
 
-	[Token(Token = "0x6000010")]
+	[Token(Token = "0x6000018")]
 	public abstract void OnUpdate(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent);
 
-	[Token(Token = "0x6000011")]
+	[Token(Token = "0x6000019")]
 	public abstract void OnStop(VFXSpawnerState state, VFXExpressionValues vfxValues, VisualEffect vfxComponent);
 
-	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x5109CE0", Offset = "0x5109CE0", VA = "0x5109CE0")]
+	[Token(Token = "0x600001A")]
+	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
 	protected VFXSpawnerCallbacks()
 	{
 	}

@@ -10,76 +10,76 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x2000019")]
 public struct YGConfig : IDisposable, IEquatable<YGConfig>
 {
-	[Token(Token = "0x400008E")]
+	[Token(Token = "0x4000089")]
 	[FieldOffset(Offset = "0x0")]
 	internal IntPtr _configPtr;
 
 	[Token(Token = "0x1700002C")]
 	public bool IsNull
 	{
-		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x3A25B30", Offset = "0x3A25B30", VA = "0x3A25B30")]
+		[Token(Token = "0x600006F")]
+		[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000072")]
-	[Address(RVA = "0x3A1E6A0", Offset = "0x3A1E6A0", VA = "0x3A1E6A0")]
+	[Token(Token = "0x6000070")]
+	[Address(RVA = "0x187DF70", Offset = "0x187C570", VA = "0x18187DF70")]
 	public static YGConfig GetDefaultConfig()
 	{
 		return default(YGConfig);
 	}
 
-	[Token(Token = "0x6000073")]
-	[Address(RVA = "0x3A25B40", Offset = "0x3A25B40", VA = "0x3A25B40")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x187DFE0", Offset = "0x187C5E0", VA = "0x18187DFE0")]
 	public void Instantiate()
 	{
 	}
 
-	[Token(Token = "0x6000074")]
-	[Address(RVA = "0x3A25EF0", Offset = "0x3A25EF0", VA = "0x3A25EF0", Slot = "4")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x187DE30", Offset = "0x187C430", VA = "0x18187DE30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000075")]
-	[Address(RVA = "0x3A25EE0", Offset = "0x3A25EE0", VA = "0x3A25EE0", Slot = "5")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x187DED0", Offset = "0x187C4D0", VA = "0x18187DED0", Slot = "5")]
 	public bool Equals(YGConfig other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x3A25A10", Offset = "0x3A25A10", VA = "0x3A25A10")]
+	[Token(Token = "0x6000074")]
+	[Address(RVA = "0x187E180", Offset = "0x187C780", VA = "0x18187E180")]
 	public void SetExperimentalFeatures(ExperimentalFeatureFlags experimentalFeatures)
 	{
 	}
 
-	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x3A260F0", Offset = "0x3A260F0", VA = "0x3A260F0")]
+	[Token(Token = "0x6000075")]
+	[Address(RVA = "0x187DEE0", Offset = "0x187C4E0", VA = "0x18187DEE0")]
 	public void Free()
 	{
 	}
 
-	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x3A25720", Offset = "0x3A25720", VA = "0x3A25720")]
+	[Token(Token = "0x6000076")]
+	[Address(RVA = "0x187E1D0", Offset = "0x187C7D0", VA = "0x18187E1D0")]
 	public void SetPointScaleFactor(float enabled)
 	{
 	}
 
-	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x3A25850", Offset = "0x3A25850", VA = "0x3A25850")]
+	[Token(Token = "0x6000077")]
+	[Address(RVA = "0x187E050", Offset = "0x187C650", VA = "0x18187E050")]
 	public void SetErrata(Errata errata)
 	{
 	}
 
-	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x3A26170", Offset = "0x3A26170", VA = "0x3A26170")]
+	[Token(Token = "0x6000078")]
+	[Address(RVA = "0x187E0E0", Offset = "0x187C6E0", VA = "0x18187E0E0")]
 	public void SetExperimentalFeatureEnabled(ExperimentalFeature feature, bool enabled)
 	{
 	}

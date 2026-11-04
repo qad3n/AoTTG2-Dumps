@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000217")]
+[Token(Token = "0x2000248")]
 [ComVisible(true)]
 public sealed class Mutex : WaitHandle
 {

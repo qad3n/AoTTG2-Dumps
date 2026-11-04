@@ -14,25 +14,25 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000DA")]
 public static class ManualPool<T> where T : class
 {
-	[Token(Token = "0x400014A")]
+	[Token(Token = "0x4000148")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object @lock;
 
-	[Token(Token = "0x400014B")]
+	[Token(Token = "0x4000149")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Stack<T> free;
 
-	[Token(Token = "0x400014C")]
+	[Token(Token = "0x400014A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly HashSet<T> busy;
 
-	[Token(Token = "0x600051B")]
+	[Token(Token = "0x6000525")]
 	public static T New(Func<T> constructor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600051C")]
+	[Token(Token = "0x6000526")]
 	public static void Free(T item)
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Utility.CoroutineWithData
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/CoroutineWithData.cs
@@ -8,13 +8,14 @@
 
 // Utility.CoroutineWithData.<Run>d__8$$.ctor
 // il2cpp: void Utility_CoroutineWithData__Run_d__8___ctor (Utility_CoroutineWithData__Run_d__8_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x448c620
+// 0x180573ef0
 
-void Utility_CoroutineWithData__Run_d__8___ctor
-               (Utility_CoroutineWithData__Run_d__8_o *__this,int32_t __1__state,MethodInfo *method)
+void
+Utility_CoroutineWithData__Run_d__8___ctor(Utility_CoroutineWithData__Run_d__8_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -22,10 +23,10 @@ void Utility_CoroutineWithData__Run_d__8___ctor
 
 // Utility.CoroutineWithData.<Run>d__8$$System.IDisposable.Dispose
 // il2cpp: void Utility_CoroutineWithData__Run_d__8__System_IDisposable_Dispose (Utility_CoroutineWithData__Run_d__8_o* __this, const MethodInfo* method);
-// 0x448c640
+// 0x180547020
 
-void Utility_CoroutineWithData__Run_d__8__System_IDisposable_Dispose
-               (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
+void
+Utility_CoroutineWithData__Run_d__8__System_IDisposable_Dispose(Utility_CoroutineWithData__Run_d__8_o* __this, MethodInfo* method)
 
 {
   return;
@@ -34,103 +35,54 @@ void Utility_CoroutineWithData__Run_d__8__System_IDisposable_Dispose
 
 // Utility.CoroutineWithData.<Run>d__8$$MoveNext
 // il2cpp: bool Utility_CoroutineWithData__Run_d__8__MoveNext (Utility_CoroutineWithData__Run_d__8_o* __this, const MethodInfo* method);
-// 0x448c650
+// 0x182340140
 
-bool_conflict
-Utility_CoroutineWithData__Run_d__8__MoveNext
-          (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
+bool Utility_CoroutineWithData__Run_d__8__MoveNext
+               (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
 
 {
-  ushort uVar1;
-  ushort uVar2;
-  Utility_CoroutineWithData_o *pUVar3;
-  Utility_CoroutineWithData__Run_d__8_c *pUVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  System_Collections_IEnumerator_o *pSVar6;
-  System_Collections_IEnumerator_c *pSVar7;
-  char cVar8;
-  VirtualInvokeData *pVVar9;
-  Il2CppObject *pIVar10;
-  undefined8 uVar11;
-  long *plVar12;
-  long lVar13;
-  Utility_CoroutineWithData__Run_d__8_o *pUVar14;
+  Utility_CoroutineWithData_o *pUVar1;
+  void *pvVar2;
+  Il2CppObject *pIVar3;
   
-  plVar12 = (long *)__this;
-  if (g_data_057ae8e4 == '\0') {
-    plVar12 = &TypeInfo_IEnumerator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae8e4 = '\x01';
+  if (Il2CppMethodInitialized_184347816 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    Il2CppMethodInitialized_184347816 = '\x01';
   }
   if (1 < (uint)(__this->fields).__1__state) {
-    return 0;
+    return false;
   }
-  pUVar3 = (__this->fields).__4__this;
+  pUVar1 = (__this->fields).__4__this;
   (__this->fields).__1__state = -1;
-  if ((pUVar3 != (Utility_CoroutineWithData_o *)0x0) &&
-     (pUVar14 = (Utility_CoroutineWithData__Run_d__8_o *)(pUVar3->fields)._target,
-     pUVar14 != (Utility_CoroutineWithData__Run_d__8_o *)0x0)) {
-    pUVar4 = pUVar14->klass;
-    uVar1._0_1_ = (pUVar4->_2).rank;
-    uVar1._1_1_ = (pUVar4->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar5 = (pUVar4->_1).interfaceOffsets;
-      lVar13 = 0;
-      do {
-        if (*(long *)((long)&pIVar5->interfaceType + lVar13) == TypeInfo_IEnumerator) {
-          pVVar9 = &(pUVar4->vtable)._0_Equals + *(int *)((long)&pIVar5->offset + lVar13);
-          goto label_0448c701;
-        }
-        lVar13 = lVar13 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar13);
+  if ((pUVar1 != (Utility_CoroutineWithData_o *)0x0) &&
+     (pIVar3 = (Il2CppObject *)(pUVar1->fields)._target, pIVar3 != (Il2CppObject *)0x0)) {
+    pvVar2 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar3);
+    if ((char)pvVar2 == '\0') {
+      (pUVar1->fields).Done = true;
+      return false;
     }
-    pVVar9 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pUVar14,TypeInfo_IEnumerator,0);
-label_0448c701:
-    cVar8 = (*pVVar9->methodPtr)(pUVar14,pVVar9->method);
-    if (cVar8 == '\0') {
-      *(undefined1 *)&(pUVar3->fields).Done = 1;
-      return 0;
-    }
-    pSVar6 = (pUVar3->fields)._target;
-    plVar12 = (long *)pUVar14;
-    if (pSVar6 != (System_Collections_IEnumerator_o *)0x0) {
-      pSVar7 = pSVar6->klass;
-      uVar2._0_1_ = (pSVar7->_2).rank;
-      uVar2._1_1_ = (pSVar7->_2).minimumAlignment;
-      if ((ulong)uVar2 != 0) {
-        pIVar5 = (pSVar7->_1).interfaceOffsets;
-        lVar13 = 0;
-        do {
-          if (*(long *)((long)&pIVar5->interfaceType + lVar13) == TypeInfo_IEnumerator) {
-            pVVar9 = pSVar7->vtable + (*(int *)((long)&pIVar5->offset + lVar13) + 1);
-            goto label_0448c783;
-          }
-          lVar13 = lVar13 + 0x10;
-        } while ((ulong)uVar2 << 4 != lVar13);
-      }
-      pVVar9 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar6,TypeInfo_IEnumerator,1);
-label_0448c783:
-      pIVar10 = (Il2CppObject *)(*pVVar9->methodPtr)(pSVar6,pVVar9->method);
-      (pUVar3->fields).Result = pIVar10;
-      il2cpp_runtime_helper_022b4080(&(pUVar3->fields).Result,pIVar10);
-      (__this->fields).__2__current = (pUVar3->fields).Result;
-      uVar11 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current);
+    pIVar3 = (Il2CppObject *)(pUVar1->fields)._target;
+    if (pIVar3 != (Il2CppObject *)0x0) {
+      pIVar3 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar3);
+      (pUVar1->fields).Result = pIVar3;
+      Il2CppCodeGenWriteBarrier(&(pUVar1->fields).Result,pIVar3);
+      pIVar3 = (pUVar1->fields).Result;
+      (__this->fields).__2__current = pIVar3;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar3);
       (__this->fields).__1__state = 1;
-      return (bool_conflict)CONCAT71((int7)((ulong)uVar11 >> 8),1);
+      return true;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  return (bool_conflict)(((Utility_CoroutineWithData__Run_d__8_o *)plVar12)->fields).__2__current;
+  ThrowNullReferenceException();
 }
 
 
 // Utility.CoroutineWithData.<Run>d__8$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Utility_CoroutineWithData__Run_d__8__System_Collections_Generic_IEnumerator_System_Object__get_Current (Utility_CoroutineWithData__Run_d__8_o* __this, const MethodInfo* method);
-// 0x448c7d0
+// 0x180573e90
 
-Il2CppObject *
-Utility_CoroutineWithData__Run_d__8__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
+Il2CppObject*
+Utility_CoroutineWithData__Run_d__8__System_Collections_Generic_IEnumerator_System_Object__get_Current(Utility_CoroutineWithData__Run_d__8_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -139,31 +91,32 @@ Utility_CoroutineWithData__Run_d__8__System_Collections_Generic_IEnumerator_Syst
 
 // Utility.CoroutineWithData.<Run>d__8$$System.Collections.IEnumerator.Reset
 // il2cpp: void Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_Reset (Utility_CoroutineWithData__Run_d__8_o* __this, const MethodInfo* method);
-// 0x448c7e0
+// 0x182340220
 
 void Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_Reset
                (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_Utility_CoroutineWithData_Run_d__8_System_Collections_IEnumerator_Reset);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // Utility.CoroutineWithData.<Run>d__8$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_get_Current (Utility_CoroutineWithData__Run_d__8_o* __this, const MethodInfo* method);
-// 0x448c820
+// 0x180573e90
 
-Il2CppObject *
-Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_get_Current
-          (Utility_CoroutineWithData__Run_d__8_o *__this,MethodInfo *method)
+Il2CppObject*
+Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_get_Current(Utility_CoroutineWithData__Run_d__8_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -172,10 +125,10 @@ Utility_CoroutineWithData__Run_d__8__System_Collections_IEnumerator_get_Current
 
 // Utility.CoroutineWithData$$get_Coroutine
 // il2cpp: UnityEngine_Coroutine_o* Utility_CoroutineWithData__get_Coroutine (Utility_CoroutineWithData_o* __this, const MethodInfo* method);
-// 0x448c4e0
+// 0x1808fb3a0
 
-UnityEngine_Coroutine_o *
-Utility_CoroutineWithData__get_Coroutine(Utility_CoroutineWithData_o *__this,MethodInfo *method)
+UnityEngine_Coroutine_o*
+Utility_CoroutineWithData__get_Coroutine(Utility_CoroutineWithData_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Coroutine_k__BackingField;
@@ -184,110 +137,76 @@ Utility_CoroutineWithData__get_Coroutine(Utility_CoroutineWithData_o *__this,Met
 
 // Utility.CoroutineWithData$$set_Coroutine
 // il2cpp: void Utility_CoroutineWithData__set_Coroutine (Utility_CoroutineWithData_o* __this, UnityEngine_Coroutine_o* value, const MethodInfo* method);
-// 0x448c4f0
+// 0x180b8ac00
 
-void Utility_CoroutineWithData__set_Coroutine
-               (Utility_CoroutineWithData_o *__this,UnityEngine_Coroutine_o *value,MethodInfo *method)
+void
+Utility_CoroutineWithData__set_Coroutine(Utility_CoroutineWithData_o* __this, UnityEngine_Coroutine_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Coroutine_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Coroutine_k__BackingField,value);
   return;
 }
 
 
 // Utility.CoroutineWithData$$.ctor
 // il2cpp: void Utility_CoroutineWithData___ctor (Utility_CoroutineWithData_o* __this, UnityEngine_MonoBehaviour_o* owner, System_Collections_IEnumerator_o* target, const MethodInfo* method);
-// 0x448c500
+// 0x1823329d0
 
 void Utility_CoroutineWithData___ctor
                (Utility_CoroutineWithData_o *__this,UnityEngine_MonoBehaviour_o *owner,
                System_Collections_IEnumerator_o *target,MethodInfo *method)
 
 {
-  Il2CppClass *__this_00;
-  UnityEngine_Coroutine_o *pUVar1;
-  Il2CppObject *__this_01;
-  undefined4 uVar2;
-  Il2CppClass *pIVar3;
-  Il2CppObject *__this_02;
+  Utility_CoroutineWithData__Run_d__8_o *routine;
+  UnityEngine_Coroutine_o *value;
   
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields)._target = target;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._target);
-  if (g_data_057ae8e3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Run_d__8);
-    g_data_057ae8e3 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._target,target);
+  if (Il2CppMethodInitialized_184347815 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CoroutineWithData_Run_d__8);
+    Il2CppMethodInitialized_184347815 = '\x01';
   }
-  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_Run_d__8);
-  pIVar3 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->_1).name = 0;
-  if (__this_00 != (Il2CppClass *)0x0) {
-    pIVar3 = (Il2CppClass *)&(__this_00->_1).byval_arg;
-    (__this_00->_1).byval_arg.data = __this;
-    il2cpp_runtime_helper_022b4080();
-    if (owner != (UnityEngine_MonoBehaviour_o *)0x0) {
-      pUVar1 = UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                         (owner,(System_Collections_IEnumerator_o *)__this_00,(MethodInfo *)0x0);
-      (__this->fields)._Coroutine_k__BackingField = pUVar1;
-      il2cpp_runtime_helper_022b4080(&__this->fields,pUVar1);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae8e3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Run_d__8);
-    g_data_057ae8e3 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_Run_d__8);
-  uVar2 = 0;
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = pIVar3;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar3);
+  routine = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_CoroutineWithData_Run_d__8);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+  (routine->fields).__1__state = 0;
+  (routine->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+  if (owner != (UnityEngine_MonoBehaviour_o *)0x0) {
+    value = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                      (owner,(System_Collections_IEnumerator_o *)routine,(MethodInfo *)0x0);
+    (__this->fields)._Coroutine_k__BackingField = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._Coroutine_k__BackingField,value);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_02[1].klass = uVar2;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Utility.CoroutineWithData$$Run
 // il2cpp: System_Collections_IEnumerator_o* Utility_CoroutineWithData__Run (Utility_CoroutineWithData_o* __this, const MethodInfo* method);
-// 0x448c5b0
+// 0x182332960
 
 System_Collections_IEnumerator_o *
 Utility_CoroutineWithData__Run(Utility_CoroutineWithData_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  Utility_CoroutineWithData__Run_d__8_o *__this_00;
   
-  if (g_data_057ae8e3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Run_d__8);
-    g_data_057ae8e3 = '\x01';
+  if (Il2CppMethodInitialized_184347815 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CoroutineWithData_Run_d__8);
+    Il2CppMethodInitialized_184347815 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_Run_d__8);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_CoroutineWithData_Run_d__8);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 

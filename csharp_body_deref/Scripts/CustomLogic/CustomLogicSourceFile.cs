@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200048F")]
+[Token(Token = "0x20005E6")]
 public class CustomLogicSourceFile
 {
-	[Token(Token = "0x17000945")]
+	[Token(Token = "0x17000A3C")]
 	public string Name
 	{
-		[Token(Token = "0x600306C")]
-		[Address(RVA = "0x4165200", Offset = "0x4165200", VA = "0x4165200")]
+		[Token(Token = "0x60039ED")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public class CustomLogicSourceFile
 		}
 	}
 
-	[Token(Token = "0x17000946")]
+	[Token(Token = "0x17000A3D")]
 	public string Content
 	{
-		[Token(Token = "0x600306D")]
-		[Address(RVA = "0x4165210", Offset = "0x4165210", VA = "0x4165210")]
+		[Token(Token = "0x60039EE")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,11 +37,11 @@ public class CustomLogicSourceFile
 		}
 	}
 
-	[Token(Token = "0x17000947")]
+	[Token(Token = "0x17000A3E")]
 	public CustomLogicSourceType Type
 	{
-		[Token(Token = "0x600306E")]
-		[Address(RVA = "0x4165220", Offset = "0x4165220", VA = "0x4165220")]
+		[Token(Token = "0x60039EF")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,79 +49,79 @@ public class CustomLogicSourceFile
 		}
 	}
 
-	[Token(Token = "0x17000948")]
+	[Token(Token = "0x17000A3F")]
 	public int StartLine
 	{
-		[Token(Token = "0x600306F")]
-		[Address(RVA = "0x4165230", Offset = "0x4165230", VA = "0x4165230")]
+		[Token(Token = "0x60039F0")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6003070")]
-		[Address(RVA = "0x4165240", Offset = "0x4165240", VA = "0x4165240")]
+		[Token(Token = "0x60039F1")]
+		[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000949")]
+	[Token(Token = "0x17000A40")]
 	public int EndLine
 	{
-		[Token(Token = "0x6003071")]
-		[Address(RVA = "0x4165250", Offset = "0x4165250", VA = "0x4165250")]
+		[Token(Token = "0x60039F2")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6003072")]
-		[Address(RVA = "0x4165260", Offset = "0x4165260", VA = "0x4165260")]
+		[Token(Token = "0x60039F3")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700094A")]
+	[Token(Token = "0x17000A41")]
 	public int MapLogicOffset
 	{
-		[Token(Token = "0x6003073")]
-		[Address(RVA = "0x4165270", Offset = "0x4165270", VA = "0x4165270")]
+		[Token(Token = "0x60039F4")]
+		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6003074")]
-		[Address(RVA = "0x4165280", Offset = "0x4165280", VA = "0x4165280")]
+		[Token(Token = "0x60039F5")]
+		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700094B")]
+	[Token(Token = "0x17000A42")]
 	public int LineCount
 	{
-		[Token(Token = "0x6003077")]
-		[Address(RVA = "0x415B600", Offset = "0x415B600", VA = "0x415B600")]
+		[Token(Token = "0x60039F8")]
+		[Address(RVA = "0x20E8590", Offset = "0x20E6B90", VA = "0x1820E8590")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003075")]
-	[Address(RVA = "0x4160070", Offset = "0x4160070", VA = "0x4160070")]
+	[Token(Token = "0x60039F6")]
+	[Address(RVA = "0x20E8530", Offset = "0x20E6B30", VA = "0x1820E8530")]
 	public CustomLogicSourceFile(string name, string content, CustomLogicSourceType type)
 	{
 	}
 
-	[Token(Token = "0x6003076")]
-	[Address(RVA = "0x41618A0", Offset = "0x41618A0", VA = "0x41618A0")]
+	[Token(Token = "0x60039F7")]
+	[Address(RVA = "0x20E84D0", Offset = "0x20E6AD0", VA = "0x1820E84D0")]
 	public CustomLogicSourceFile(string name, string content, CustomLogicSourceType type, int mapLogicOffset)
 	{
 	}

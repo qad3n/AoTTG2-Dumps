@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000165")]
+[Token(Token = "0x20001F3")]
 public static class AottgExternalLinkStateKeys
 {
-	[Token(Token = "0x40007C9")]
+	[Token(Token = "0x4000A6D")]
 	public const string Url = "externalLink.url";
 
-	[Token(Token = "0x40007CA")]
+	[Token(Token = "0x4000A6E")]
 	public const string Confirm = "externalLink.confirm";
 }

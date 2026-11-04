@@ -9,181 +9,181 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x2000220")]
 public interface IPointerEvent
 {
-	[Token(Token = "0x17000222")]
+	[Token(Token = "0x170002A3")]
 	int pointerId
 	{
-		[Token(Token = "0x6000C00")]
+		[Token(Token = "0x6000E2F")]
 		get;
 	}
 
-	[Token(Token = "0x17000223")]
+	[Token(Token = "0x170002A4")]
 	string pointerType
 	{
-		[Token(Token = "0x6000C01")]
+		[Token(Token = "0x6000E30")]
 		get;
 	}
 
-	[Token(Token = "0x17000224")]
+	[Token(Token = "0x170002A5")]
 	bool isPrimary
 	{
-		[Token(Token = "0x6000C02")]
+		[Token(Token = "0x6000E31")]
 		get;
 	}
 
-	[Token(Token = "0x17000225")]
+	[Token(Token = "0x170002A6")]
 	int button
 	{
-		[Token(Token = "0x6000C03")]
+		[Token(Token = "0x6000E32")]
 		get;
 	}
 
-	[Token(Token = "0x17000226")]
+	[Token(Token = "0x170002A7")]
 	int pressedButtons
 	{
-		[Token(Token = "0x6000C04")]
+		[Token(Token = "0x6000E33")]
 		get;
 	}
 
-	[Token(Token = "0x17000227")]
+	[Token(Token = "0x170002A8")]
 	Vector3 position
 	{
-		[Token(Token = "0x6000C05")]
+		[Token(Token = "0x6000E34")]
 		get;
 	}
 
-	[Token(Token = "0x17000228")]
+	[Token(Token = "0x170002A9")]
 	Vector3 localPosition
 	{
-		[Token(Token = "0x6000C06")]
+		[Token(Token = "0x6000E35")]
 		get;
 	}
 
-	[Token(Token = "0x17000229")]
+	[Token(Token = "0x170002AA")]
 	Vector3 deltaPosition
 	{
-		[Token(Token = "0x6000C07")]
+		[Token(Token = "0x6000E36")]
 		get;
 	}
 
-	[Token(Token = "0x1700022A")]
+	[Token(Token = "0x170002AB")]
 	float deltaTime
 	{
-		[Token(Token = "0x6000C08")]
+		[Token(Token = "0x6000E37")]
 		get;
 	}
 
-	[Token(Token = "0x1700022B")]
+	[Token(Token = "0x170002AC")]
 	int clickCount
 	{
-		[Token(Token = "0x6000C09")]
+		[Token(Token = "0x6000E38")]
 		get;
 	}
 
-	[Token(Token = "0x1700022C")]
+	[Token(Token = "0x170002AD")]
 	float pressure
 	{
-		[Token(Token = "0x6000C0A")]
+		[Token(Token = "0x6000E39")]
 		get;
 	}
 
-	[Token(Token = "0x1700022D")]
+	[Token(Token = "0x170002AE")]
 	float tangentialPressure
 	{
-		[Token(Token = "0x6000C0B")]
+		[Token(Token = "0x6000E3A")]
 		get;
 	}
 
-	[Token(Token = "0x1700022E")]
+	[Token(Token = "0x170002AF")]
 	float altitudeAngle
 	{
-		[Token(Token = "0x6000C0C")]
+		[Token(Token = "0x6000E3B")]
 		get;
 	}
 
-	[Token(Token = "0x1700022F")]
+	[Token(Token = "0x170002B0")]
 	float azimuthAngle
 	{
-		[Token(Token = "0x6000C0D")]
+		[Token(Token = "0x6000E3C")]
 		get;
 	}
 
-	[Token(Token = "0x17000230")]
+	[Token(Token = "0x170002B1")]
 	float twist
 	{
-		[Token(Token = "0x6000C0E")]
+		[Token(Token = "0x6000E3D")]
 		get;
 	}
 
-	[Token(Token = "0x17000231")]
+	[Token(Token = "0x170002B2")]
 	Vector2 tilt
 	{
-		[Token(Token = "0x6000C0F")]
+		[Token(Token = "0x6000E3E")]
 		get;
 	}
 
-	[Token(Token = "0x17000232")]
+	[Token(Token = "0x170002B3")]
 	PenStatus penStatus
 	{
-		[Token(Token = "0x6000C10")]
+		[Token(Token = "0x6000E3F")]
 		get;
 	}
 
-	[Token(Token = "0x17000233")]
+	[Token(Token = "0x170002B4")]
 	Vector2 radius
 	{
-		[Token(Token = "0x6000C11")]
+		[Token(Token = "0x6000E40")]
 		get;
 	}
 
-	[Token(Token = "0x17000234")]
+	[Token(Token = "0x170002B5")]
 	Vector2 radiusVariance
 	{
-		[Token(Token = "0x6000C12")]
+		[Token(Token = "0x6000E41")]
 		get;
 	}
 
-	[Token(Token = "0x17000235")]
+	[Token(Token = "0x170002B6")]
 	EventModifiers modifiers
 	{
-		[Token(Token = "0x6000C13")]
+		[Token(Token = "0x6000E42")]
 		get;
 	}
 
-	[Token(Token = "0x17000236")]
+	[Token(Token = "0x170002B7")]
 	bool shiftKey
 	{
-		[Token(Token = "0x6000C14")]
+		[Token(Token = "0x6000E43")]
 		get;
 	}
 
-	[Token(Token = "0x17000237")]
+	[Token(Token = "0x170002B8")]
 	bool ctrlKey
 	{
-		[Token(Token = "0x6000C15")]
+		[Token(Token = "0x6000E44")]
 		get;
 	}
 
-	[Token(Token = "0x17000238")]
+	[Token(Token = "0x170002B9")]
 	bool commandKey
 	{
-		[Token(Token = "0x6000C16")]
+		[Token(Token = "0x6000E45")]
 		get;
 	}
 
-	[Token(Token = "0x17000239")]
+	[Token(Token = "0x170002BA")]
 	bool altKey
 	{
-		[Token(Token = "0x6000C17")]
+		[Token(Token = "0x6000E46")]
 		get;
 	}
 
-	[Token(Token = "0x1700023A")]
+	[Token(Token = "0x170002BB")]
 	bool actionKey
 	{
-		[Token(Token = "0x6000C18")]
+		[Token(Token = "0x6000E47")]
 		get;
 	}
 }

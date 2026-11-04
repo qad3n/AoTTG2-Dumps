@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200007B")]
+[Token(Token = "0x2000079")]
 public interface IEncoder : IDisposable
 {
 	[Token(Token = "0x170000BC")]
 	string Error
 	{
-		[Token(Token = "0x60002BC")]
+		[Token(Token = "0x60002BA")]
 		get;
 	}
 
 	[Token(Token = "0x170000BD")]
 	Action<ArraySegment<byte>, FrameFlags> Output
 	{
-		[Token(Token = "0x60002BD")]
+		[Token(Token = "0x60002BB")]
 		set;
 	}
 
-	[Token(Token = "0x60002BE")]
+	[Token(Token = "0x60002BC")]
 	ArraySegment<byte> DequeueOutput(out FrameFlags flags);
 
-	[Token(Token = "0x60002BF")]
+	[Token(Token = "0x60002BD")]
 	void EndOfStream();
 
-	[Token(Token = "0x60002C0")]
+	[Token(Token = "0x60002BE")]
 	I GetPlatformAPI<I>() where I : class;
 }

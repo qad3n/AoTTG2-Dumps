@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000FB")]
+[Token(Token = "0x2000123")]
 public class OverflowException : ArithmeticException
 {
-	[Token(Token = "0x6000943")]
-	[Address(RVA = "0x3CC92F0", Offset = "0x3CC92F0", VA = "0x3CC92F0")]
+	[Token(Token = "0x600097E")]
+	[Address(RVA = "0x1B45C20", Offset = "0x1B44220", VA = "0x181B45C20")]
 	public OverflowException()
 	{
 	}
 
-	[Token(Token = "0x6000944")]
-	[Address(RVA = "0x3CC9330", Offset = "0x3CC9330", VA = "0x3CC9330")]
+	[Token(Token = "0x600097F")]
+	[Address(RVA = "0x1B45C00", Offset = "0x1B44200", VA = "0x181B45C00")]
 	public OverflowException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000945")]
-	[Address(RVA = "0x3CC9350", Offset = "0x3CC9350", VA = "0x3CC9350")]
+	[Token(Token = "0x6000980")]
+	[Address(RVA = "0x1B45C70", Offset = "0x1B44270", VA = "0x181B45C70")]
 	public OverflowException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6000946")]
-	[Address(RVA = "0x3CC9370", Offset = "0x3CC9370", VA = "0x3CC9370")]
+	[Token(Token = "0x6000981")]
+	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
 	protected OverflowException(SerializationInfo info, StreamingContext context)
 	{
 	}

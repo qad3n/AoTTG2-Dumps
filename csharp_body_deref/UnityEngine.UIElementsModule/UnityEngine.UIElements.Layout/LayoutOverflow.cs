@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000524")]
+[Token(Token = "0x2000618")]
 internal enum LayoutOverflow
 {
-	[Token(Token = "0x4001158")]
+	[Token(Token = "0x40016D1")]
 	Visible,
-	[Token(Token = "0x4001159")]
+	[Token(Token = "0x40016D2")]
 	Hidden,
-	[Token(Token = "0x400115A")]
+	[Token(Token = "0x40016D3")]
 	Scroll
 }

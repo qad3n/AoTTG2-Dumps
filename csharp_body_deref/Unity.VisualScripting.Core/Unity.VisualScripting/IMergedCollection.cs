@@ -15,9 +15,9 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200001A")]
 public interface IMergedCollection<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 {
-	[Token(Token = "0x6000097")]
+	[Token(Token = "0x600009B")]
 	bool Includes<TI>() where TI : T;
 
-	[Token(Token = "0x6000098")]
+	[Token(Token = "0x600009C")]
 	bool Includes(Type elementType);
 }

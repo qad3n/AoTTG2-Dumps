@@ -9,109 +9,109 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000037")]
 public class Type3Message : MessageBase
 {
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x40000A9")]
 	[FieldOffset(Offset = "0x18")]
 	private NtlmAuthLevel _level;
 
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x40000AA")]
 	[FieldOffset(Offset = "0x20")]
 	private byte[] _challenge;
 
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40000AB")]
 	[FieldOffset(Offset = "0x28")]
 	private string _host;
 
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000AC")]
 	[FieldOffset(Offset = "0x30")]
 	private string _domain;
 
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000AD")]
 	[FieldOffset(Offset = "0x38")]
 	private string _username;
 
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40000AE")]
 	[FieldOffset(Offset = "0x40")]
 	private string _password;
 
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40000AF")]
 	[FieldOffset(Offset = "0x48")]
 	private Type2Message _type2;
 
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000B0")]
 	[FieldOffset(Offset = "0x50")]
 	private byte[] _lm;
 
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000B1")]
 	[FieldOffset(Offset = "0x58")]
 	private byte[] _nt;
 
-	[Token(Token = "0x17000058")]
+	[Token(Token = "0x1700005B")]
 	public string Domain
 	{
-		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x3ABB370", Offset = "0x3ABB370", VA = "0x3ABB370")]
+		[Token(Token = "0x6000138")]
+		[Address(RVA = "0x193F230", Offset = "0x193D830", VA = "0x18193F230")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000059")]
+	[Token(Token = "0x1700005C")]
 	public string Password
 	{
-		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x3ABB3F0", Offset = "0x3ABB3F0", VA = "0x3ABB3F0")]
+		[Token(Token = "0x6000139")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700005A")]
+	[Token(Token = "0x1700005D")]
 	public string Username
 	{
-		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x3ABB400", Offset = "0x3ABB400", VA = "0x3ABB400")]
+		[Token(Token = "0x600013A")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3ABAFF0", Offset = "0x3ABAFF0", VA = "0x3ABAFF0")]
+	[Token(Token = "0x6000136")]
+	[Address(RVA = "0x193EFA0", Offset = "0x193D5A0", VA = "0x18193EFA0")]
 	public Type3Message(Type2Message type2)
 	{
 	}
 
-	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x3ABB2A0", Offset = "0x3ABB2A0", VA = "0x3ABB2A0", Slot = "1")]
+	[Token(Token = "0x6000137")]
+	[Address(RVA = "0x193E740", Offset = "0x193CD40", VA = "0x18193E740", Slot = "1")]
 	~Type3Message()
 	{
 	}
 
-	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x3ABB410", Offset = "0x3ABB410", VA = "0x3ABB410", Slot = "4")]
+	[Token(Token = "0x600013B")]
+	[Address(RVA = "0x193E3F0", Offset = "0x193C9F0", VA = "0x18193E3F0", Slot = "4")]
 	protected override void Decode(byte[] message)
 	{
 	}
 
-	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3ABB820", Offset = "0x3ABB820", VA = "0x3ABB820")]
+	[Token(Token = "0x600013C")]
+	[Address(RVA = "0x193E380", Offset = "0x193C980", VA = "0x18193E380")]
 	private string DecodeString(byte[] buffer, int offset, int len)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x3ABB880", Offset = "0x3ABB880", VA = "0x3ABB880")]
+	[Token(Token = "0x600013D")]
+	[Address(RVA = "0x193E6B0", Offset = "0x193CCB0", VA = "0x18193E6B0")]
 	private byte[] EncodeString(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x3ABB910", Offset = "0x3ABB910", VA = "0x3ABB910", Slot = "5")]
+	[Token(Token = "0x600013E")]
+	[Address(RVA = "0x193E7F0", Offset = "0x193CDF0", VA = "0x18193E7F0", Slot = "5")]
 	public override byte[] GetBytes()
 	{
 		return null;

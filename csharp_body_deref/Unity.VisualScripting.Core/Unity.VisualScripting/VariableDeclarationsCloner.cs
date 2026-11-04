@@ -13,32 +13,32 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001D5")]
 public sealed class VariableDeclarationsCloner : Cloner<VariableDeclarations>
 {
-	[Token(Token = "0x400094C")]
+	[Token(Token = "0x400094A")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly VariableDeclarationsCloner instance;
 
-	[Token(Token = "0x6001135")]
-	[Address(RVA = "0x4D670A0", Offset = "0x4D670A0", VA = "0x4D670A0", Slot = "9")]
+	[Token(Token = "0x6001142")]
+	[Address(RVA = "0x2E5AE10", Offset = "0x2E59410", VA = "0x182E5AE10", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001136")]
-	[Address(RVA = "0x4D67110", Offset = "0x4D67110", VA = "0x4D67110", Slot = "11")]
+	[Token(Token = "0x6001143")]
+	[Address(RVA = "0x2E5ABA0", Offset = "0x2E591A0", VA = "0x182E5ABA0", Slot = "11")]
 	public override VariableDeclarations ConstructClone(Type type, VariableDeclarations original)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001137")]
-	[Address(RVA = "0x4D671D0", Offset = "0x4D671D0", VA = "0x4D671D0", Slot = "12")]
+	[Token(Token = "0x6001144")]
+	[Address(RVA = "0x2E5ABF0", Offset = "0x2E591F0", VA = "0x182E5ABF0", Slot = "12")]
 	public override void FillClone(Type type, ref VariableDeclarations clone, VariableDeclarations original, CloningContext context)
 	{
 	}
 
-	[Token(Token = "0x6001138")]
-	[Address(RVA = "0x4D67520", Offset = "0x4D67520", VA = "0x4D67520")]
+	[Token(Token = "0x6001145")]
+	[Address(RVA = "0x2E5AF10", Offset = "0x2E59510", VA = "0x182E5AF10")]
 	public VariableDeclarationsCloner()
 	{
 	}

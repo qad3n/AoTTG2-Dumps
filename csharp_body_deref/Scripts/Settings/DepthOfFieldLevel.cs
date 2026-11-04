@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200007D")]
+[Token(Token = "0x2000099")]
 public enum DepthOfFieldLevel
 {
-	[Token(Token = "0x40002A2")]
+	[Token(Token = "0x4000309")]
 	Off,
-	[Token(Token = "0x40002A3")]
+	[Token(Token = "0x400030A")]
 	Low,
-	[Token(Token = "0x40002A4")]
+	[Token(Token = "0x400030B")]
 	Medium,
-	[Token(Token = "0x40002A5")]
+	[Token(Token = "0x400030C")]
 	High
 }

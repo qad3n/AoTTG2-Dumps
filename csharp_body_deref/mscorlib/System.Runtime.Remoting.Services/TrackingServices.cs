@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Services;
 
-[Token(Token = "0x200035A")]
+[Token(Token = "0x2000389")]
 [ComVisible(true)]
 public class TrackingServices
 {
-	[Token(Token = "0x4000ECA")]
+	[Token(Token = "0x4000ED7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static ArrayList _handlers;
 
-	[Token(Token = "0x6001CEA")]
-	[Address(RVA = "0x3B70FC0", Offset = "0x3B70FC0", VA = "0x3B70FC0")]
+	[Token(Token = "0x6001D59")]
+	[Address(RVA = "0x1A09BE0", Offset = "0x1A081E0", VA = "0x181A09BE0")]
 	internal static void NotifyMarshaledObject(object obj, ObjRef or)
 	{
 	}
 
-	[Token(Token = "0x6001CEB")]
-	[Address(RVA = "0x3B71330", Offset = "0x3B71330", VA = "0x3B71330")]
+	[Token(Token = "0x6001D5A")]
+	[Address(RVA = "0x1A09F30", Offset = "0x1A08530", VA = "0x181A09F30")]
 	internal static void NotifyUnmarshaledObject(object obj, ObjRef or)
 	{
 	}
 
-	[Token(Token = "0x6001CEC")]
-	[Address(RVA = "0x3B716A0", Offset = "0x3B716A0", VA = "0x3B716A0")]
+	[Token(Token = "0x6001D5B")]
+	[Address(RVA = "0x1A098A0", Offset = "0x1A07EA0", VA = "0x181A098A0")]
 	internal static void NotifyDisconnectedObject(object obj)
 	{
 	}

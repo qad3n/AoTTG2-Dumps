@@ -30,18 +30,18 @@ internal class GroupedEnumerable<TSource, TKey, TElement> : IEnumerable<IGroupin
 	[FieldOffset(Offset = "0x0")]
 	private IEqualityComparer<TKey> comparer;
 
-	[Token(Token = "0x600018E")]
+	[Token(Token = "0x600018D")]
 	public GroupedEnumerable(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
 	{
 	}
 
-	[Token(Token = "0x600018F")]
+	[Token(Token = "0x600018E")]
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000190")]
+	[Token(Token = "0x600018F")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

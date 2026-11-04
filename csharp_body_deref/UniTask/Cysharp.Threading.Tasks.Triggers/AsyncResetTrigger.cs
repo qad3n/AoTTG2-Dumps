@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x2000203")]
 [DisallowMultipleComponent]
 public sealed class AsyncResetTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000BE4")]
-	[Address(RVA = "0x4A14C00", Offset = "0x4A14C00", VA = "0x4A14C00")]
+	[Token(Token = "0x6000C08")]
+	[Address(RVA = "0x2937D50", Offset = "0x2936350", VA = "0x182937D50")]
 	private void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000BE5")]
-	[Address(RVA = "0x4A14C70", Offset = "0x4A14C70", VA = "0x4A14C70")]
+	[Token(Token = "0x6000C09")]
+	[Address(RVA = "0x2937AC0", Offset = "0x29360C0", VA = "0x182937AC0")]
 	public IAsyncResetHandler GetResetAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE6")]
-	[Address(RVA = "0x4A14CE0", Offset = "0x4A14CE0", VA = "0x4A14CE0")]
+	[Token(Token = "0x6000C0A")]
+	[Address(RVA = "0x2937A40", Offset = "0x2936040", VA = "0x182937A40")]
 	public IAsyncResetHandler GetResetAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE7")]
-	[Address(RVA = "0x4A14D50", Offset = "0x4A14D50", VA = "0x4A14D50")]
+	[Token(Token = "0x6000C0B")]
+	[Address(RVA = "0x2937C40", Offset = "0x2936240", VA = "0x182937C40")]
 	public UniTask ResetAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x4A14E40", Offset = "0x4A14E40", VA = "0x4A14E40")]
+	[Token(Token = "0x6000C0C")]
+	[Address(RVA = "0x2937B30", Offset = "0x2936130", VA = "0x182937B30")]
 	public UniTask ResetAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x4A14F30", Offset = "0x4A14F30", VA = "0x4A14F30")]
+	[Token(Token = "0x6000C0D")]
+	[Address(RVA = "0x2937DC0", Offset = "0x29363C0", VA = "0x182937DC0")]
 	public AsyncResetTrigger()
 	{
 	}

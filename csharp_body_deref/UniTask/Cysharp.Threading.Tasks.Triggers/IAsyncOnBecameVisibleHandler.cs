@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001A3")]
+[Token(Token = "0x20001A6")]
 public interface IAsyncOnBecameVisibleHandler
 {
-	[Token(Token = "0x6000AA1")]
+	[Token(Token = "0x6000AC5")]
 	UniTask OnBecameVisibleAsync();
 }

@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnDropdownValueChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x600045C")]
-	[Address(RVA = "0x4CB6A70", Offset = "0x4CB6A70", VA = "0x4CB6A70")]
+	[Token(Token = "0x6000466")]
+	[Address(RVA = "0x2DBDE10", Offset = "0x2DBC410", VA = "0x182DBDE10")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600045D")]
-	[Address(RVA = "0x4CB6B30", Offset = "0x4CB6B30", VA = "0x4CB6B30")]
+	[Token(Token = "0x6000467")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnDropdownValueChangedMessageListener()
 	{
 	}

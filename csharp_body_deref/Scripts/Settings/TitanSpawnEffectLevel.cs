@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000082")]
+[Token(Token = "0x200009E")]
 public enum TitanSpawnEffectLevel
 {
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x4000320")]
 	Off,
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x4000321")]
 	Quarter,
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x4000322")]
 	Half,
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x4000323")]
 	Full
 }

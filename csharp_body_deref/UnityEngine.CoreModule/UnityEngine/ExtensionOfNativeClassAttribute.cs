@@ -7,17 +7,19 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200016B")]
+[Token(Token = "0x200019F")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, Inherited = true)]
 internal sealed class ExtensionOfNativeClassAttribute : Attribute
 {
-	[Token(Token = "0x6000A36")]
-	[Address(RVA = "0x4DFB450", Offset = "0x4DFB450", VA = "0x4DFB450")]
+	[Token(Token = "0x6000D7C")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ExtensionOfNativeClassAttribute()
 	{
 	}

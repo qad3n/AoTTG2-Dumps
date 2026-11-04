@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Security;
 
-[Token(Token = "0x200029E")]
+[Token(Token = "0x20002CD")]
 public interface ISecurityEncodable
 {
-	[Token(Token = "0x6001761")]
+	[Token(Token = "0x60017C9")]
 	SecurityElement ToXml();
 }

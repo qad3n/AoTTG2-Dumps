@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Collections.ObjectModel.KeyedCollection
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,138 +12,135 @@ using Il2CppDummyDll;
 namespace System.Collections.ObjectModel;
 
 [Serializable]
-[Token(Token = "0x2000636")]
+[Token(Token = "0x200060A")]
 [DebuggerDisplay("Count = {Count}")]
 [DebuggerTypeProxy(typeof(System.Collections.Generic.CollectionDebugView<>))]
 public abstract class KeyedCollection<TKey, TItem> : Collection<TItem>
 {
-	[Token(Token = "0x4001AFD")]
-	private const int defaultThreshold = 0;
-
-	[Token(Token = "0x4001AFE")]
+	[Token(Token = "0x4001909")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly IEqualityComparer<TKey> comparer;
 
-	[Token(Token = "0x4001AFF")]
+	[Token(Token = "0x400190A")]
 	[FieldOffset(Offset = "0x0")]
 	private Dictionary<TKey, TItem> dict;
 
-	[Token(Token = "0x4001B00")]
+	[Token(Token = "0x400190B")]
 	[FieldOffset(Offset = "0x0")]
 	private int keyCount;
 
-	[Token(Token = "0x4001B01")]
+	[Token(Token = "0x400190C")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int threshold;
 
-	[Token(Token = "0x170007D9")]
+	[Token(Token = "0x17000768")]
 	private new List<TItem> Items
 	{
-		[Token(Token = "0x6003132")]
+		[Token(Token = "0x6002E45")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170007DA")]
+	[Token(Token = "0x17000769")]
 	public TItem this[TKey key]
 	{
-		[Token(Token = "0x6003133")]
+		[Token(Token = "0x6002E46")]
 		get
 		{
 			return (TItem)null;
 		}
 	}
 
-	[Token(Token = "0x170007DB")]
+	[Token(Token = "0x1700076A")]
 	protected IDictionary<TKey, TItem> Dictionary
 	{
-		[Token(Token = "0x6003138")]
+		[Token(Token = "0x6002E4B")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600312F")]
+	[Token(Token = "0x6002E42")]
 	protected KeyedCollection()
 	{
 	}
 
-	[Token(Token = "0x6003130")]
+	[Token(Token = "0x6002E43")]
 	protected KeyedCollection(IEqualityComparer<TKey> comparer)
 	{
 	}
 
-	[Token(Token = "0x6003131")]
+	[Token(Token = "0x6002E44")]
 	protected KeyedCollection(IEqualityComparer<TKey> comparer, int dictionaryCreationThreshold)
 	{
 	}
 
-	[Token(Token = "0x6003134")]
+	[Token(Token = "0x6002E47")]
 	public bool Contains(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003135")]
+	[Token(Token = "0x6002E48")]
 	public bool TryGetValue(TKey key, out TItem item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003136")]
+	[Token(Token = "0x6002E49")]
 	private bool ContainsItem(TItem item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003137")]
+	[Token(Token = "0x6002E4A")]
 	public bool Remove(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003139")]
+	[Token(Token = "0x6002E4C")]
 	protected void ChangeItemKey(TItem item, TKey newKey)
 	{
 	}
 
-	[Token(Token = "0x600313A")]
+	[Token(Token = "0x6002E4D")]
 	protected override void ClearItems()
 	{
 	}
 
-	[Token(Token = "0x600313B")]
+	[Token(Token = "0x6002E4E")]
 	protected abstract TKey GetKeyForItem(TItem item);
 
-	[Token(Token = "0x600313C")]
+	[Token(Token = "0x6002E4F")]
 	protected override void InsertItem(int index, TItem item)
 	{
 	}
 
-	[Token(Token = "0x600313D")]
+	[Token(Token = "0x6002E50")]
 	protected override void RemoveItem(int index)
 	{
 	}
 
-	[Token(Token = "0x600313E")]
+	[Token(Token = "0x6002E51")]
 	protected override void SetItem(int index, TItem item)
 	{
 	}
 
-	[Token(Token = "0x600313F")]
+	[Token(Token = "0x6002E52")]
 	private void AddKey(TKey key, TItem item)
 	{
 	}
 
-	[Token(Token = "0x6003140")]
+	[Token(Token = "0x6002E53")]
 	private void CreateDictionary()
 	{
 	}
 
-	[Token(Token = "0x6003141")]
+	[Token(Token = "0x6002E54")]
 	private void RemoveKey(TKey key)
 	{
 	}

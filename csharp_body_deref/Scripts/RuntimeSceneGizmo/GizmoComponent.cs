@@ -12,20 +12,20 @@ namespace RuntimeSceneGizmo;
 [Token(Token = "0x200005B")]
 public enum GizmoComponent
 {
-	[Token(Token = "0x40001CC")]
+	[Token(Token = "0x40001D8")]
 	None = -1,
-	[Token(Token = "0x40001CD")]
+	[Token(Token = "0x40001D9")]
 	Center,
-	[Token(Token = "0x40001CE")]
+	[Token(Token = "0x40001DA")]
 	XNegative,
-	[Token(Token = "0x40001CF")]
+	[Token(Token = "0x40001DB")]
 	XPositive,
-	[Token(Token = "0x40001D0")]
+	[Token(Token = "0x40001DC")]
 	YNegative,
-	[Token(Token = "0x40001D1")]
+	[Token(Token = "0x40001DD")]
 	YPositive,
-	[Token(Token = "0x40001D2")]
+	[Token(Token = "0x40001DE")]
 	ZNegative,
-	[Token(Token = "0x40001D3")]
+	[Token(Token = "0x40001DF")]
 	ZPositive
 }

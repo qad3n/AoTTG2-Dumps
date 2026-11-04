@@ -12,60 +12,60 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000682")]
+[Token(Token = "0x20007DD")]
 internal class DuelPlayPanel : DuelCategoryPanel
 {
-	[Token(Token = "0x4001FFD")]
+	[Token(Token = "0x40027D5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private List<Transform> _rows;
 
-	[Token(Token = "0x4001FFE")]
+	[Token(Token = "0x40027D6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private Transform _header;
 
-	[Token(Token = "0x4001FFF")]
+	[Token(Token = "0x40027D7")]
 	private const float MaxSyncDelay = 0.2f;
 
-	[Token(Token = "0x4002000")]
+	[Token(Token = "0x40027D8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private float _currentSyncDelay;
 
-	[Token(Token = "0x17000C7B")]
+	[Token(Token = "0x17000DC1")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004141")]
-		[Address(RVA = "0x42FAAE0", Offset = "0x42FAAE0", VA = "0x42FAAE0", Slot = "11")]
+		[Token(Token = "0x6004C36")]
+		[Address(RVA = "0x20B9980", Offset = "0x20B7F80", VA = "0x1820B9980", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C7C")]
+	[Token(Token = "0x17000DC2")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004142")]
-		[Address(RVA = "0x42FAAF0", Offset = "0x42FAAF0", VA = "0x42FAAF0", Slot = "9")]
+		[Token(Token = "0x6004C37")]
+		[Address(RVA = "0x1B9BE70", Offset = "0x1B9A470", VA = "0x181B9BE70", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6004143")]
-	[Address(RVA = "0x42FAB00", Offset = "0x42FAB00", VA = "0x42FAB00", Slot = "20")]
+	[Token(Token = "0x6004C38")]
+	[Address(RVA = "0x2278860", Offset = "0x2276E60", VA = "0x182278860", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004144")]
-	[Address(RVA = "0x42FAB10", Offset = "0x42FAB10", VA = "0x42FAB10")]
+	[Token(Token = "0x6004C39")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Sync()
 	{
 	}
 
-	[Token(Token = "0x6004145")]
-	[Address(RVA = "0x42FAB20", Offset = "0x42FAB20", VA = "0x42FAB20")]
+	[Token(Token = "0x6004C3A")]
+	[Address(RVA = "0x2278870", Offset = "0x2276E70", VA = "0x182278870")]
 	public DuelPlayPanel()
 	{
 	}

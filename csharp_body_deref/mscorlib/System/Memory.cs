@@ -12,27 +12,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E8")]
-[DebuggerTypeProxy(typeof(System.MemoryDebugView<>))]
+[Token(Token = "0x2000110")]
 [DebuggerDisplay("{ToString(),raw}")]
+[DebuggerTypeProxy(typeof(System.MemoryDebugView<>))]
 public readonly struct Memory<T> : IEquatable<Memory<T>>
 {
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x4000410")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly object _object;
 
-	[Token(Token = "0x400038C")]
+	[Token(Token = "0x4000411")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _index;
 
-	[Token(Token = "0x400038D")]
+	[Token(Token = "0x4000412")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _length;
 
 	[Token(Token = "0x17000095")]
 	public static Memory<T> Empty
 	{
-		[Token(Token = "0x600088B")]
+		[Token(Token = "0x60008C0")]
 		get
 		{
 			return default(Memory<T>);
@@ -42,7 +42,7 @@ public readonly struct Memory<T> : IEquatable<Memory<T>>
 	[Token(Token = "0x17000096")]
 	public int Length
 	{
-		[Token(Token = "0x600088C")]
+		[Token(Token = "0x60008C1")]
 		get
 		{
 			return default(int);
@@ -53,7 +53,7 @@ public readonly struct Memory<T> : IEquatable<Memory<T>>
 	public Span<T> Span
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000890")]
+		[Token(Token = "0x60008C5")]
 		get
 		{
 			return default(Span<T>);
@@ -61,98 +61,98 @@ public readonly struct Memory<T> : IEquatable<Memory<T>>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000885")]
+	[Token(Token = "0x60008BA")]
 	public Memory(T[] array)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000886")]
+	[Token(Token = "0x60008BB")]
 	public Memory(T[] array, int start, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000887")]
+	[Token(Token = "0x60008BC")]
 	internal Memory(object obj, int start, int length)
 	{
 	}
 
-	[Token(Token = "0x6000888")]
+	[Token(Token = "0x60008BD")]
 	public static implicit operator Memory<T>(T[] array)
 	{
 		return default(Memory<T>);
 	}
 
-	[Token(Token = "0x6000889")]
+	[Token(Token = "0x60008BE")]
 	public static implicit operator Memory<T>(ArraySegment<T> segment)
 	{
 		return default(Memory<T>);
 	}
 
-	[Token(Token = "0x600088A")]
+	[Token(Token = "0x60008BF")]
 	public static implicit operator ReadOnlyMemory<T>(Memory<T> memory)
 	{
 		return default(ReadOnlyMemory<T>);
 	}
 
-	[Token(Token = "0x600088D")]
+	[Token(Token = "0x60008C2")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600088E")]
+	[Token(Token = "0x60008C3")]
 	public Memory<T> Slice(int start)
 	{
 		return default(Memory<T>);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600088F")]
+	[Token(Token = "0x60008C4")]
 	public Memory<T> Slice(int start, int length)
 	{
 		return default(Memory<T>);
 	}
 
-	[Token(Token = "0x6000891")]
+	[Token(Token = "0x60008C6")]
 	public MemoryHandle Pin()
 	{
 		return default(MemoryHandle);
 	}
 
-	[Token(Token = "0x6000892")]
+	[Token(Token = "0x60008C7")]
 	public T[] ToArray()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000893")]
+	[Token(Token = "0x60008C8")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000894")]
+	[Token(Token = "0x60008C9")]
 	public bool Equals(Memory<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000895")]
+	[Token(Token = "0x60008CA")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000896")]
+	[Token(Token = "0x60008CB")]
 	private static int CombineHashCodes(int left, int right)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000897")]
+	[Token(Token = "0x60008CC")]
 	private static int CombineHashCodes(int h1, int h2, int h3)
 	{
 		return default(int);

@@ -252,21 +252,21 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000AE5")]
-	[Address(RVA = "0x3E05E90", Offset = "0x3E05E90", VA = "0x3E05E90")]
+	[Address(RVA = "0x1C55240", Offset = "0x1C53840", VA = "0x181C55240")]
 	public static IJEnumerable<JProperty> Properties(this IEnumerable<JObject> source)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AE6")]
-	[Address(RVA = "0x3E05FE0", Offset = "0x3E05FE0", VA = "0x3E05FE0")]
+	[Address(RVA = "0x1C55530", Offset = "0x1C53B30", VA = "0x181C55530")]
 	public static IJEnumerable<JToken> Values(this IEnumerable<JToken> source, object? key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AE7")]
-	[Address(RVA = "0x3E060A0", Offset = "0x3E060A0", VA = "0x3E060A0")]
+	[Address(RVA = "0x1C555B0", Offset = "0x1C53BB0", VA = "0x181C555B0")]
 	public static IJEnumerable<JToken> Values(this IEnumerable<JToken> source)
 	{
 		return null;
@@ -329,7 +329,7 @@ public static class Extensions
 	}
 
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x3E06060", Offset = "0x3E06060", VA = "0x3E06060")]
+	[Address(RVA = "0x1C55000", Offset = "0x1C53600", VA = "0x181C55000")]
 	public static IJEnumerable<JToken> AsJEnumerable(this IEnumerable<JToken> source)
 	{
 		return null;

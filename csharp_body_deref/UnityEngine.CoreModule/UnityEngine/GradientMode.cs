@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200011B")]
+[Token(Token = "0x2000140")]
 public enum GradientMode
 {
-	[Token(Token = "0x40004C0")]
+	[Token(Token = "0x4000527")]
 	Blend,
-	[Token(Token = "0x40004C1")]
+	[Token(Token = "0x4000528")]
 	Fixed,
-	[Token(Token = "0x40004C2")]
+	[Token(Token = "0x4000529")]
 	PerceptualBlend
 }

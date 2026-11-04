@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000253")]
+[Token(Token = "0x2000256")]
 internal class EmptyObserver<T> : IObserver<T>
 {
-	[Token(Token = "0x40006AC")]
+	[Token(Token = "0x40006BF")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly EmptyObserver<T> Instance;
 
-	[Token(Token = "0x6000D3F")]
+	[Token(Token = "0x6000D63")]
 	private EmptyObserver()
 	{
 	}
 
-	[Token(Token = "0x6000D40")]
+	[Token(Token = "0x6000D64")]
 	public void OnCompleted()
 	{
 	}
 
-	[Token(Token = "0x6000D41")]
+	[Token(Token = "0x6000D65")]
 	public void OnError(Exception error)
 	{
 	}
 
-	[Token(Token = "0x6000D42")]
+	[Token(Token = "0x6000D66")]
 	public void OnNext(T value)
 	{
 	}

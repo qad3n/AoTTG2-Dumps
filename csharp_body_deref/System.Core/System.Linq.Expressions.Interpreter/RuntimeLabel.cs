@@ -24,14 +24,14 @@ internal readonly struct RuntimeLabel
 	[FieldOffset(Offset = "0x8")]
 	public readonly int ContinuationStackDepth;
 
-	[Token(Token = "0x60005E3")]
-	[Address(RVA = "0x44C5980", Offset = "0x44C5980", VA = "0x44C5980")]
+	[Token(Token = "0x60005E2")]
+	[Address(RVA = "0x243EA00", Offset = "0x243D000", VA = "0x18243EA00")]
 	public RuntimeLabel(int index, int continuationStackDepth, int stackDepth)
 	{
 	}
 
-	[Token(Token = "0x60005E4")]
-	[Address(RVA = "0x44C5990", Offset = "0x44C5990", VA = "0x44C5990", Slot = "3")]
+	[Token(Token = "0x60005E3")]
+	[Address(RVA = "0x243E920", Offset = "0x243CF20", VA = "0x18243E920", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

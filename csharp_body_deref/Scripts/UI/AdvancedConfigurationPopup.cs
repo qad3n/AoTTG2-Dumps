@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.AdvancedConfigurationPopup
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/UI/AdvancedConfigurationPopup.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,160 +12,160 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x200067E")]
+[Token(Token = "0x20007D9")]
 internal class AdvancedConfigurationPopup : BasePopup
 {
-	[Token(Token = "0x4001FF0")]
+	[Token(Token = "0x40027C8")]
 	private const float KeyWidth = 140f;
 
-	[Token(Token = "0x4001FF1")]
+	[Token(Token = "0x40027C9")]
 	private const float UrlWidth = 280f;
 
-	[Token(Token = "0x4001FF2")]
+	[Token(Token = "0x40027CA")]
 	private const float SecretValueWidth = 280f;
 
-	[Token(Token = "0x4001FF3")]
+	[Token(Token = "0x40027CB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Transform _serviceRowsContainer;
 
-	[Token(Token = "0x4001FF4")]
+	[Token(Token = "0x40027CC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private Transform _secretRowsContainer;
 
-	[Token(Token = "0x17000C73")]
+	[Token(Token = "0x17000DB9")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004126")]
-		[Address(RVA = "0x42F8EE0", Offset = "0x42F8EE0", VA = "0x42F8EE0", Slot = "35")]
+		[Token(Token = "0x6004C1B")]
+		[Address(RVA = "0x2278780", Offset = "0x2276D80", VA = "0x182278780", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C74")]
+	[Token(Token = "0x17000DBA")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004127")]
-		[Address(RVA = "0x42F8F80", Offset = "0x42F8F80", VA = "0x42F8F80", Slot = "5")]
+		[Token(Token = "0x6004C1C")]
+		[Address(RVA = "0x2278820", Offset = "0x2276E20", VA = "0x182278820", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C75")]
+	[Token(Token = "0x17000DBB")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004128")]
-		[Address(RVA = "0x42F8F90", Offset = "0x42F8F90", VA = "0x42F8F90", Slot = "6")]
+		[Token(Token = "0x6004C1D")]
+		[Address(RVA = "0x2278770", Offset = "0x2276D70", VA = "0x182278770", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C76")]
+	[Token(Token = "0x17000DBC")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004129")]
-		[Address(RVA = "0x42F8FA0", Offset = "0x42F8FA0", VA = "0x42F8FA0", Slot = "11")]
+		[Token(Token = "0x6004C1E")]
+		[Address(RVA = "0x2182AB0", Offset = "0x21810B0", VA = "0x182182AB0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C77")]
+	[Token(Token = "0x17000DBD")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x600412A")]
-		[Address(RVA = "0x42F8FB0", Offset = "0x42F8FB0", VA = "0x42F8FB0", Slot = "15")]
+		[Token(Token = "0x6004C1F")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C78")]
+	[Token(Token = "0x17000DBE")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x600412B")]
-		[Address(RVA = "0x42F8FC0", Offset = "0x42F8FC0", VA = "0x42F8FC0", Slot = "53")]
+		[Token(Token = "0x6004C20")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600412C")]
-	[Address(RVA = "0x42F8FD0", Offset = "0x42F8FD0", VA = "0x42F8FD0", Slot = "20")]
+	[Token(Token = "0x6004C21")]
+	[Address(RVA = "0x2277B10", Offset = "0x2276110", VA = "0x182277B10", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600412D")]
-	[Address(RVA = "0x42F9B40", Offset = "0x42F9B40", VA = "0x42F9B40")]
+	[Token(Token = "0x6004C22")]
+	[Address(RVA = "0x2276D80", Offset = "0x2275380", VA = "0x182276D80")]
 	private void CreateHeaderLabel(Transform parent, ElementStyle style, string text, float width)
 	{
 	}
 
-	[Token(Token = "0x600412E")]
-	[Address(RVA = "0x42F9BE0", Offset = "0x42F9BE0", VA = "0x42F9BE0")]
+	[Token(Token = "0x6004C23")]
+	[Address(RVA = "0x2277160", Offset = "0x2275760", VA = "0x182277160")]
 	private void CreateServiceRow(StringSetting keySetting, StringSetting urlSetting)
 	{
 	}
 
-	[Token(Token = "0x600412F")]
-	[Address(RVA = "0x42F9EC0", Offset = "0x42F9EC0", VA = "0x42F9EC0")]
+	[Token(Token = "0x6004C24")]
+	[Address(RVA = "0x2276E20", Offset = "0x2275420", VA = "0x182276E20")]
 	private void CreateSecretRow(StringSetting keySetting, StringSetting valueSetting)
 	{
 	}
 
-	[Token(Token = "0x6004130")]
-	[Address(RVA = "0x42FA1B0", Offset = "0x42FA1B0", VA = "0x42FA1B0")]
+	[Token(Token = "0x6004C25")]
+	[Address(RVA = "0x2277960", Offset = "0x2275F60", VA = "0x182277960")]
 	private void SetDeleteButtonColors(GameObject deleteButton)
 	{
 	}
 
-	[Token(Token = "0x6004131")]
-	[Address(RVA = "0x42FA370", Offset = "0x42FA370", VA = "0x42FA370")]
+	[Token(Token = "0x6004C26")]
+	[Address(RVA = "0x22785D0", Offset = "0x2276BD0", VA = "0x1822785D0")]
 	private void ValidateUrl(StringSetting urlSetting)
 	{
 	}
 
-	[Token(Token = "0x6004132")]
-	[Address(RVA = "0x42FA500", Offset = "0x42FA500", VA = "0x42FA500")]
+	[Token(Token = "0x6004C27")]
+	[Address(RVA = "0x22775B0", Offset = "0x2275BB0", VA = "0x1822775B0")]
 	private void OnAddServiceClick()
 	{
 	}
 
-	[Token(Token = "0x6004133")]
-	[Address(RVA = "0x42FA620", Offset = "0x42FA620", VA = "0x42FA620")]
+	[Token(Token = "0x6004C28")]
+	[Address(RVA = "0x22777B0", Offset = "0x2275DB0", VA = "0x1822777B0")]
 	private void OnRemoveServiceClick(GameObject row, StringSetting keySetting, StringSetting urlSetting)
 	{
 	}
 
-	[Token(Token = "0x6004134")]
-	[Address(RVA = "0x42FA710", Offset = "0x42FA710", VA = "0x42FA710")]
+	[Token(Token = "0x6004C29")]
+	[Address(RVA = "0x2277490", Offset = "0x2275A90", VA = "0x182277490")]
 	private void OnAddSecretClick()
 	{
 	}
 
-	[Token(Token = "0x6004135")]
-	[Address(RVA = "0x42FA830", Offset = "0x42FA830", VA = "0x42FA830")]
+	[Token(Token = "0x6004C2A")]
+	[Address(RVA = "0x22776D0", Offset = "0x2275CD0", VA = "0x1822776D0")]
 	private void OnRemoveSecretClick(GameObject row, StringSetting keySetting, StringSetting valueSetting)
 	{
 	}
 
-	[Token(Token = "0x6004136")]
-	[Address(RVA = "0x42FA920", Offset = "0x42FA920", VA = "0x42FA920")]
+	[Token(Token = "0x6004C2B")]
+	[Address(RVA = "0x2277890", Offset = "0x2275E90", VA = "0x182277890")]
 	private void OnSaveButtonClick()
 	{
 	}
 
-	[Token(Token = "0x6004137")]
-	[Address(RVA = "0x42FAA00", Offset = "0x42FAA00", VA = "0x42FAA00")]
+	[Token(Token = "0x6004C2C")]
+	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
 	public AdvancedConfigurationPopup()
 	{
 	}

@@ -11,16 +11,16 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001C")]
+[Token(Token = "0x200001F")]
 [AttributeUsage(AttributeTargets.Method)]
 public class GUITargetAttribute : Attribute
 {
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000BC")]
 	[FieldOffset(Offset = "0x10")]
 	internal int displayMask;
 
-	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x4E5B050", Offset = "0x4E5B050", VA = "0x4E5B050")]
+	[Token(Token = "0x600020D")]
+	[Address(RVA = "0x2F97040", Offset = "0x2F95640", VA = "0x182F97040")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static int GetGUITargetAttrValue(Type klass, string methodName)
 	{

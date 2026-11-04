@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000014")]
 public enum QueryTriggerInteraction
 {
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x4000033")]
 	UseGlobal,
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x4000034")]
 	Ignore,
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x4000035")]
 	Collide
 }

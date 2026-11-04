@@ -12,118 +12,118 @@ using Il2CppDummyDll;
 namespace System.Security.Policy;
 
 [Serializable]
-[Token(Token = "0x20002B3")]
+[Token(Token = "0x20002E2")]
 [ComVisible(true)]
 [System.MonoTODO("Serialization format not compatible with .NET")]
 public sealed class Evidence : ICollection, IEnumerable
 {
-	[Token(Token = "0x20002B4")]
+	[Token(Token = "0x20002E3")]
 	private class EvidenceEnumerator : IEnumerator
 	{
-		[Token(Token = "0x4000C58")]
+		[Token(Token = "0x4000C65")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private IEnumerator currentEnum;
 
-		[Token(Token = "0x4000C59")]
+		[Token(Token = "0x4000C66")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private IEnumerator hostEnum;
 
-		[Token(Token = "0x4000C5A")]
+		[Token(Token = "0x4000C67")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private IEnumerator assemblyEnum;
 
-		[Token(Token = "0x1700026C")]
+		[Token(Token = "0x1700026E")]
 		public object Current
 		{
-			[Token(Token = "0x60017E6")]
-			[Address(RVA = "0x3B23850", Offset = "0x3B23850", VA = "0x3B23850", Slot = "5")]
+			[Token(Token = "0x600184E")]
+			[Address(RVA = "0x19921E0", Offset = "0x19907E0", VA = "0x1819921E0", Slot = "5")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60017E3")]
-		[Address(RVA = "0x3B23570", Offset = "0x3B23570", VA = "0x3B23570")]
+		[Token(Token = "0x600184B")]
+		[Address(RVA = "0x1992180", Offset = "0x1990780", VA = "0x181992180")]
 		public EvidenceEnumerator(IEnumerator hostenum, IEnumerator assemblyenum)
 		{
 		}
 
-		[Token(Token = "0x60017E4")]
-		[Address(RVA = "0x3B235C0", Offset = "0x3B235C0", VA = "0x3B235C0", Slot = "4")]
+		[Token(Token = "0x600184C")]
+		[Address(RVA = "0x1992060", Offset = "0x1990660", VA = "0x181992060", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60017E5")]
-		[Address(RVA = "0x3B23710", Offset = "0x3B23710", VA = "0x3B23710", Slot = "6")]
+		[Token(Token = "0x600184D")]
+		[Address(RVA = "0x19920F0", Offset = "0x19906F0", VA = "0x1819920F0", Slot = "6")]
 		public void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000C55")]
+	[Token(Token = "0x4000C62")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private bool _locked;
 
-	[Token(Token = "0x4000C56")]
+	[Token(Token = "0x4000C63")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private ArrayList hostEvidenceList;
 
-	[Token(Token = "0x4000C57")]
+	[Token(Token = "0x4000C64")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private ArrayList assemblyEvidenceList;
 
-	[Token(Token = "0x17000269")]
+	[Token(Token = "0x1700026B")]
 	[Obsolete]
 	public int Count
 	{
-		[Token(Token = "0x60017DE")]
-		[Address(RVA = "0x3B23360", Offset = "0x3B23360", VA = "0x3B23360", Slot = "5")]
+		[Token(Token = "0x6001846")]
+		[Address(RVA = "0x19923B0", Offset = "0x19909B0", VA = "0x1819923B0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700026A")]
+	[Token(Token = "0x1700026C")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x60017DF")]
-		[Address(RVA = "0x3B233C0", Offset = "0x3B233C0", VA = "0x3B233C0", Slot = "7")]
+		[Token(Token = "0x6001847")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700026B")]
+	[Token(Token = "0x1700026D")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x60017E0")]
-		[Address(RVA = "0x3B233D0", Offset = "0x3B233D0", VA = "0x3B233D0", Slot = "6")]
+		[Token(Token = "0x6001848")]
+		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017DD")]
-	[Address(RVA = "0x3B23350", Offset = "0x3B23350", VA = "0x3B23350")]
+	[Token(Token = "0x6001845")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public Evidence()
 	{
 	}
 
-	[Token(Token = "0x60017E1")]
-	[Address(RVA = "0x3B233E0", Offset = "0x3B233E0", VA = "0x3B233E0", Slot = "4")]
+	[Token(Token = "0x6001849")]
+	[Address(RVA = "0x1992230", Offset = "0x1990830", VA = "0x181992230", Slot = "4")]
 	[Obsolete]
 	public void CopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x60017E2")]
-	[Address(RVA = "0x3B234A0", Offset = "0x3B234A0", VA = "0x3B234A0", Slot = "8")]
+	[Token(Token = "0x600184A")]
+	[Address(RVA = "0x19922E0", Offset = "0x19908E0", VA = "0x1819922E0", Slot = "8")]
 	[Obsolete]
 	public IEnumerator GetEnumerator()
 	{

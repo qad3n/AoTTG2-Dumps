@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20001B7")]
+[Token(Token = "0x200033F")]
 internal enum ReadState
 {
-	[Token(Token = "0x40008CC")]
+	[Token(Token = "0x4000CE2")]
 	None,
-	[Token(Token = "0x40008CD")]
+	[Token(Token = "0x4000CE3")]
 	Status,
-	[Token(Token = "0x40008CE")]
+	[Token(Token = "0x4000CE4")]
 	Headers,
-	[Token(Token = "0x40008CF")]
+	[Token(Token = "0x4000CE5")]
 	Content,
-	[Token(Token = "0x40008D0")]
+	[Token(Token = "0x4000CE6")]
 	Aborted
 }

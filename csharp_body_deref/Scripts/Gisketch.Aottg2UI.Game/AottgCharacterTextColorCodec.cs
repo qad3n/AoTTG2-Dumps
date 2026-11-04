@@ -12,172 +12,172 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000192")]
+[Token(Token = "0x2000298")]
 internal static class AottgCharacterTextColorCodec
 {
-	[Token(Token = "0x2000193")]
+	[Token(Token = "0x2000299")]
 	public sealed class Document
 	{
-		[Token(Token = "0x40008BC")]
+		[Token(Token = "0x4000D5F")]
 		[FieldOffset(Offset = "0x10")]
 		public string Text;
 
-		[Token(Token = "0x40008BD")]
+		[Token(Token = "0x4000D60")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly List<string> Colors;
 
-		[Token(Token = "0x6000953")]
-		[Address(RVA = "0x440C550", Offset = "0x440C550", VA = "0x440C550")]
+		[Token(Token = "0x600100A")]
+		[Address(RVA = "0x1E0BB90", Offset = "0x1E0A190", VA = "0x181E0BB90")]
 		public Document()
 		{
 		}
 	}
 
-	[Token(Token = "0x40008BB")]
+	[Token(Token = "0x4000D5E")]
 	public const string White = "FFFFFF";
 
-	[Token(Token = "0x600093E")]
-	[Address(RVA = "0x4401070", Offset = "0x4401070", VA = "0x4401070")]
+	[Token(Token = "0x6000FF5")]
+	[Address(RVA = "0x1DFF000", Offset = "0x1DFD600", VA = "0x181DFF000")]
 	public static Document Parse(string serialized)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600093F")]
-	[Address(RVA = "0x4408E20", Offset = "0x4408E20", VA = "0x4408E20")]
+	[Token(Token = "0x6000FF6")]
+	[Address(RVA = "0x1DFF290", Offset = "0x1DFD890", VA = "0x181DFF290")]
 	public static string Plain(string serialized)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000940")]
-	[Address(RVA = "0x440C790", Offset = "0x440C790", VA = "0x440C790")]
+	[Token(Token = "0x6000FF7")]
+	[Address(RVA = "0x1DFE3B0", Offset = "0x1DFC9B0", VA = "0x181DFE3B0")]
 	public static string FromEditableRaw(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000941")]
-	[Address(RVA = "0x440CCD0", Offset = "0x440CCD0", VA = "0x440CCD0")]
+	[Token(Token = "0x6000FF8")]
+	[Address(RVA = "0x1DFFF70", Offset = "0x1DFE570", VA = "0x181DFFF70")]
 	public static bool TryImport(string value, out Document document)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000942")]
-	[Address(RVA = "0x440C820", Offset = "0x440C820", VA = "0x440C820")]
+	[Token(Token = "0x6000FF9")]
+	[Address(RVA = "0x1DFFC50", Offset = "0x1DFE250", VA = "0x181DFFC50")]
 	public static bool TryImport(string value, Document existing, out Document document, out string trailingColor, out bool colorsVisibleText)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000943")]
-	[Address(RVA = "0x4401320", Offset = "0x4401320", VA = "0x4401320")]
+	[Token(Token = "0x6000FFA")]
+	[Address(RVA = "0x1DFFA30", Offset = "0x1DFE030", VA = "0x181DFFA30")]
 	public static string Serialize(string text, IList<string> colors)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000944")]
-	[Address(RVA = "0x440D200", Offset = "0x440D200", VA = "0x440D200")]
+	[Token(Token = "0x6000FFB")]
+	[Address(RVA = "0x1DFF890", Offset = "0x1DFDE90", VA = "0x181DFF890")]
 	public static string SerializeGradient(string text, IList<string> stops)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000945")]
-	[Address(RVA = "0x440D930", Offset = "0x440D930", VA = "0x440D930")]
+	[Token(Token = "0x6000FFC")]
+	[Address(RVA = "0x1DFF2B0", Offset = "0x1DFD8B0", VA = "0x181DFF2B0")]
 	public static string Retarget(string previousSerialized, string nextText)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000946")]
-	[Address(RVA = "0x44049C0", Offset = "0x44049C0", VA = "0x44049C0")]
+	[Token(Token = "0x6000FFD")]
+	[Address(RVA = "0x1DFF680", Offset = "0x1DFDC80", VA = "0x181DFF680")]
 	public static string RichText(string text, IList<string> colors)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000947")]
-	[Address(RVA = "0x440D070", Offset = "0x440D070", VA = "0x440D070")]
+	[Token(Token = "0x6000FFE")]
+	[Address(RVA = "0x1DFEE00", Offset = "0x1DFD400", VA = "0x181DFEE00")]
 	public static string NormalizeRgb(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000948")]
-	[Address(RVA = "0x440D3F0", Offset = "0x440D3F0", VA = "0x440D3F0")]
+	[Token(Token = "0x6000FFF")]
+	[Address(RVA = "0x1DFE6E0", Offset = "0x1DFCCE0", VA = "0x181DFE6E0")]
 	private static string GradientColor(int index, int length, IList<string> stops)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000949")]
-	[Address(RVA = "0x440DF20", Offset = "0x440DF20", VA = "0x440DF20")]
+	[Token(Token = "0x6001000")]
+	[Address(RVA = "0x1DFEF60", Offset = "0x1DFD560", VA = "0x181DFEF60")]
 	private static Color ParseRgb(string value)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x600094A")]
-	[Address(RVA = "0x440DEB0", Offset = "0x440DEB0", VA = "0x440DEB0")]
+	[Token(Token = "0x6001001")]
+	[Address(RVA = "0x1DFED70", Offset = "0x1DFD370", VA = "0x181DFED70")]
 	private static bool IsRgb(string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x440C5D0", Offset = "0x440C5D0", VA = "0x440C5D0")]
+	[Token(Token = "0x6001002")]
+	[Address(RVA = "0x1DFE9B0", Offset = "0x1DFCFB0", VA = "0x181DFE9B0")]
 	private static bool IsColorTag(string text, int index, out string color)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600094C")]
-	[Address(RVA = "0x440CD10", Offset = "0x440CD10", VA = "0x440CD10")]
+	[Token(Token = "0x6001003")]
+	[Address(RVA = "0x1DFEB70", Offset = "0x1DFD170", VA = "0x181DFEB70")]
 	private static bool IsImportColorTag(string text, int index, out string color, out int length)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600094D")]
-	[Address(RVA = "0x440DFC0", Offset = "0x440DFC0", VA = "0x440DFC0")]
+	[Token(Token = "0x6001004")]
+	[Address(RVA = "0x1DFEAB0", Offset = "0x1DFD0B0", VA = "0x181DFEAB0")]
 	private static bool IsHexRange(string text, int start, int count)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x440E030", Offset = "0x440E030", VA = "0x440E030")]
+	[Token(Token = "0x6001005")]
+	[Address(RVA = "0x1DFE040", Offset = "0x1DFC640", VA = "0x181DFE040")]
 	private static string ExpandRgb(string rgb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600094F")]
-	[Address(RVA = "0x440CFF0", Offset = "0x440CFF0", VA = "0x440CFF0")]
+	[Token(Token = "0x6001006")]
+	[Address(RVA = "0x1DFDFA0", Offset = "0x1DFC5A0", VA = "0x181DFDFA0")]
 	private static string ExistingColor(Document existing, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000950")]
-	[Address(RVA = "0x440DD60", Offset = "0x440DD60", VA = "0x440DD60")]
+	[Token(Token = "0x6001007")]
+	[Address(RVA = "0x1DFDEC0", Offset = "0x1DFC4C0", VA = "0x181DFDEC0")]
 	private static string EditColor(Document previous, int prefix, int suffix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000951")]
-	[Address(RVA = "0x440DFA0", Offset = "0x440DFA0", VA = "0x440DFA0")]
+	[Token(Token = "0x6001008")]
+	[Address(RVA = "0x1DFEB40", Offset = "0x1DFD140", VA = "0x181DFEB40")]
 	private static bool IsHex(char c)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000952")]
-	[Address(RVA = "0x440DE20", Offset = "0x440DE20", VA = "0x440DE20")]
+	[Token(Token = "0x6001009")]
+	[Address(RVA = "0x1DFDE20", Offset = "0x1DFC420", VA = "0x181DFDE20")]
 	private static void AppendEscaped(StringBuilder builder, char c)
 	{
 	}

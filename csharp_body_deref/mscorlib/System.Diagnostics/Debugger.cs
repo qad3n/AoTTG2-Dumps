@@ -11,32 +11,32 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005E5")]
+[Token(Token = "0x20005B7")]
 [ComVisible(true)]
 public sealed class Debugger
 {
-	[Token(Token = "0x4001A0A")]
+	[Token(Token = "0x4001826")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly string DefaultCategory;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002E63")]
-	[Address(RVA = "0x3C7A760", Offset = "0x3C7A760", VA = "0x3C7A760")]
+	[Token(Token = "0x6002B70")]
+	[Address(RVA = "0x1948290", Offset = "0x1946890", VA = "0x181948290")]
 	public static extern bool IsLogging();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002E64")]
-	[Address(RVA = "0x3C7A770", Offset = "0x3C7A770", VA = "0x3C7A770")]
+	[Token(Token = "0x6002B71")]
+	[Address(RVA = "0x1A703C0", Offset = "0x1A6E9C0", VA = "0x181A703C0")]
 	private static extern void Log_icall(int level, ref string category, ref string message);
 
-	[Token(Token = "0x6002E65")]
-	[Address(RVA = "0x3C7A780", Offset = "0x3C7A780", VA = "0x3C7A780")]
+	[Token(Token = "0x6002B72")]
+	[Address(RVA = "0x1ABF760", Offset = "0x1ABDD60", VA = "0x181ABF760")]
 	public static void Log(int level, string category, string message)
 	{
 	}
 
-	[Token(Token = "0x6002E66")]
-	[Address(RVA = "0x3C7A7E0", Offset = "0x3C7A7E0", VA = "0x3C7A7E0")]
+	[Token(Token = "0x6002B73")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public static void NotifyOfCrossThreadDependency()
 	{
 	}

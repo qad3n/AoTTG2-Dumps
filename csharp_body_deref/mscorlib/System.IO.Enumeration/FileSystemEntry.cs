@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.IO.Enumeration.FileSystemEntry
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,158 +10,115 @@ using Il2CppDummyDll;
 
 namespace System.IO.Enumeration;
 
-[Token(Token = "0x2000584")]
+[Token(Token = "0x20006AD")]
 public ref struct FileSystemEntry
 {
-	[Token(Token = "0x400172C")]
+	[Token(Token = "0x4001B13")]
 	[FieldOffset(Offset = "0x0")]
-	internal global::Interop.Sys.DirectoryEntry _directoryEntry;
+	internal unsafe global::Interop.NtDll.FILE_FULL_DIR_INFORMATION* _info;
 
-	[Token(Token = "0x400172D")]
-	[FieldOffset(Offset = "0x10")]
-	private System.IO.FileStatus _status;
-
-	[Token(Token = "0x400172E")]
-	[FieldOffset(Offset = "0x88")]
-	private Span<char> _pathBuffer;
-
-	[Token(Token = "0x400172F")]
-	[FieldOffset(Offset = "0x98")]
-	private ReadOnlySpan<char> _fullPath;
-
-	[Token(Token = "0x4001730")]
-	[FieldOffset(Offset = "0xA8")]
-	private ReadOnlySpan<char> _fileName;
-
-	[Token(Token = "0x4001731")]
-	[FieldOffset(Offset = "0xB8")]
-	private unsafe fixed char _fileNameBuffer[256];
-
-	[Token(Token = "0x4001732")]
-	[FieldOffset(Offset = "0x2B8")]
-	private FileAttributes _initialAttributes;
-
-	[Token(Token = "0x17000632")]
-	private ReadOnlySpan<char> FullPath
-	{
-		[Token(Token = "0x6002AFD")]
-		[Address(RVA = "0x3C38010", Offset = "0x3C38010", VA = "0x3C38010")]
-		get
-		{
-			return default(ReadOnlySpan<char>);
-		}
-	}
-
-	[Token(Token = "0x17000633")]
-	public ReadOnlySpan<char> FileName
-	{
-		[Token(Token = "0x6002AFE")]
-		[Address(RVA = "0x3C381B0", Offset = "0x3C381B0", VA = "0x3C381B0")]
-		get
-		{
-			return default(ReadOnlySpan<char>);
-		}
-	}
-
-	[Token(Token = "0x17000634")]
+	[Token(Token = "0x1700084A")]
 	public ReadOnlySpan<char> Directory
 	{
-		[Token(Token = "0x6002AFF")]
-		[Address(RVA = "0x3C38220", Offset = "0x3C38220", VA = "0x3C38220")]
+		[Token(Token = "0x60033DF")]
+		[Address(RVA = "0xADC2D0", Offset = "0xADA8D0", VA = "0x180ADC2D0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x6002B00")]
-		[Address(RVA = "0x3C38230", Offset = "0x3C38230", VA = "0x3C38230")]
+		[Token(Token = "0x60033E0")]
+		[Address(RVA = "0x1B040E0", Offset = "0x1B026E0", VA = "0x181B040E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000635")]
+	[Token(Token = "0x1700084B")]
 	public ReadOnlySpan<char> RootDirectory
 	{
-		[Token(Token = "0x6002B01")]
-		[Address(RVA = "0x3C38240", Offset = "0x3C38240", VA = "0x3C38240")]
+		[Token(Token = "0x60033E1")]
+		[Address(RVA = "0x8E7990", Offset = "0x8E5F90", VA = "0x1808E7990")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x6002B02")]
-		[Address(RVA = "0x3C38250", Offset = "0x3C38250", VA = "0x3C38250")]
+		[Token(Token = "0x60033E2")]
+		[Address(RVA = "0x111C9E0", Offset = "0x111AFE0", VA = "0x18111C9E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000636")]
+	[Token(Token = "0x1700084C")]
 	public ReadOnlySpan<char> OriginalRootDirectory
 	{
-		[Token(Token = "0x6002B03")]
-		[Address(RVA = "0x3C38260", Offset = "0x3C38260", VA = "0x3C38260")]
+		[Token(Token = "0x60033E3")]
+		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(ReadOnlySpan<char>);
 		}
-		[Token(Token = "0x6002B04")]
-		[Address(RVA = "0x3C38270", Offset = "0x3C38270", VA = "0x3C38270")]
+		[Token(Token = "0x60033E4")]
+		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000637")]
+	[Token(Token = "0x1700084D")]
+	public ReadOnlySpan<char> FileName
+	{
+		[Token(Token = "0x60033E5")]
+		[Address(RVA = "0x1B04090", Offset = "0x1B02690", VA = "0x181B04090")]
+		get
+		{
+			return default(ReadOnlySpan<char>);
+		}
+	}
+
+	[Token(Token = "0x1700084E")]
 	public FileAttributes Attributes
 	{
-		[Token(Token = "0x6002B05")]
-		[Address(RVA = "0x3C38280", Offset = "0x3C38280", VA = "0x3C38280")]
+		[Token(Token = "0x60033E6")]
+		[Address(RVA = "0x1B04070", Offset = "0x1B02670", VA = "0x181B04070")]
 		get
 		{
 			return default(FileAttributes);
 		}
 	}
 
-	[Token(Token = "0x17000638")]
+	[Token(Token = "0x1700084F")]
 	public bool IsDirectory
 	{
-		[Token(Token = "0x6002B06")]
-		[Address(RVA = "0x3C382C0", Offset = "0x3C382C0", VA = "0x3C382C0")]
+		[Token(Token = "0x60033E7")]
+		[Address(RVA = "0x1B040C0", Offset = "0x1B026C0", VA = "0x181B040C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002AFC")]
-	[Address(RVA = "0x3C37D20", Offset = "0x3C37D20", VA = "0x3C37D20")]
-	internal static FileAttributes Initialize(ref FileSystemEntry entry, global::Interop.Sys.DirectoryEntry directoryEntry, ReadOnlySpan<char> directory, ReadOnlySpan<char> rootDirectory, ReadOnlySpan<char> originalRootDirectory, Span<char> pathBuffer)
+	[Token(Token = "0x60033DE")]
+	[Address(RVA = "0x1B03E00", Offset = "0x1B02400", VA = "0x181B03E00")]
+	internal unsafe static void Initialize(ref FileSystemEntry entry, global::Interop.NtDll.FILE_FULL_DIR_INFORMATION* info, ReadOnlySpan<char> directory, ReadOnlySpan<char> rootDirectory, ReadOnlySpan<char> originalRootDirectory)
 	{
-		return default(FileAttributes);
 	}
 
-	[Token(Token = "0x6002B07")]
-	[Address(RVA = "0x3C382D0", Offset = "0x3C382D0", VA = "0x3C382D0")]
+	[Token(Token = "0x60033E8")]
+	[Address(RVA = "0x1B03E20", Offset = "0x1B02420", VA = "0x181B03E20")]
 	public FileSystemInfo ToFileSystemInfo()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B08")]
-	[Address(RVA = "0x3C38380", Offset = "0x3C38380", VA = "0x3C38380")]
-	public string ToFullPath()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6002B09")]
-	[Address(RVA = "0x3C383A0", Offset = "0x3C383A0", VA = "0x3C383A0")]
+	[Token(Token = "0x60033E9")]
+	[Address(RVA = "0x1B03EC0", Offset = "0x1B024C0", VA = "0x181B03EC0")]
 	public string ToSpecifiedFullPath()
 	{
 		return null;

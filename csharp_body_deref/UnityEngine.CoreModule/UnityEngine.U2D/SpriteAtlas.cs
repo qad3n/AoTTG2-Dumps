@@ -12,20 +12,20 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.U2D;
 
-[Token(Token = "0x20001B4")]
-[UnityEngine.Bindings.NativeType(Header = "Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
+[Token(Token = "0x2000403")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/SpriteFrame.h")]
+[UnityEngine.Bindings.NativeType(Header = "Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
 public class SpriteAtlas : Object
 {
-	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x4E0E060", Offset = "0x4E0E060", VA = "0x4E0E060")]
-	public bool CanBindTo([UnityEngine.Bindings.NotNull("ArgumentNullException")] Sprite sprite)
+	[Token(Token = "0x6001818")]
+	[Address(RVA = "0x2F79F60", Offset = "0x2F78560", VA = "0x182F79F60")]
+	public bool CanBindTo([UnityEngine.Bindings.NotNull] Sprite sprite)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x4E0E190", Offset = "0x4E0E190", VA = "0x4E0E190")]
+	[Token(Token = "0x6001819")]
+	[Address(RVA = "0x2F79F10", Offset = "0x2F78510", VA = "0x182F79F10")]
 	private static extern bool CanBindTo_Injected(IntPtr _unity_self, IntPtr sprite);
 }

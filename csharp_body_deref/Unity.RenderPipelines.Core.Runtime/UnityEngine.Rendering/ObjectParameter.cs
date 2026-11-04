@@ -14,60 +14,60 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000206")]
+[Token(Token = "0x2000224")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class ObjectParameter<T> : VolumeParameter<T>
 {
-	[Token(Token = "0x170001A9")]
+	[Token(Token = "0x170001FA")]
 	internal ReadOnlyCollection<VolumeParameter> parameters
 	{
-		[Token(Token = "0x6000E0B")]
+		[Token(Token = "0x6000F6A")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000E0C")]
+		[Token(Token = "0x6000F6B")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001AA")]
+	[Token(Token = "0x170001FB")]
 	public sealed override bool overrideState
 	{
-		[Token(Token = "0x6000E0D")]
+		[Token(Token = "0x6000F6C")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000E0E")]
+		[Token(Token = "0x6000F6D")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x170001FC")]
 	public sealed override T value
 	{
-		[Token(Token = "0x6000E0F")]
+		[Token(Token = "0x6000F6E")]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x6000E10")]
+		[Token(Token = "0x6000F6F")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000E11")]
+	[Token(Token = "0x6000F70")]
 	public ObjectParameter(T value)
 	{
 	}
 
-	[Token(Token = "0x6000E12")]
+	[Token(Token = "0x6000F71")]
 	internal override void Interp(VolumeParameter from, VolumeParameter to, float t)
 	{
 	}

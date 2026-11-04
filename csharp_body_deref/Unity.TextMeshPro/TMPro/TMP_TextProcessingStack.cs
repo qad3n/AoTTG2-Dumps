@@ -10,136 +10,136 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x200009C")]
 [DebuggerDisplay("Item count = {m_Count}")]
 public struct TMP_TextProcessingStack<T>
 {
-	[Token(Token = "0x40005E8")]
+	[Token(Token = "0x4000575")]
 	[FieldOffset(Offset = "0x0")]
 	public T[] itemStack;
 
-	[Token(Token = "0x40005E9")]
+	[Token(Token = "0x4000576")]
 	[FieldOffset(Offset = "0x0")]
 	public int index;
 
-	[Token(Token = "0x40005EA")]
+	[Token(Token = "0x4000577")]
 	[FieldOffset(Offset = "0x0")]
 	private T m_DefaultItem;
 
-	[Token(Token = "0x40005EB")]
+	[Token(Token = "0x4000578")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Capacity;
 
-	[Token(Token = "0x40005EC")]
+	[Token(Token = "0x4000579")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_RolloverSize;
 
-	[Token(Token = "0x40005ED")]
+	[Token(Token = "0x400057A")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Count;
 
-	[Token(Token = "0x40005EE")]
+	[Token(Token = "0x400057B")]
 	private const int k_DefaultCapacity = 4;
 
-	[Token(Token = "0x1700016E")]
+	[Token(Token = "0x17000184")]
 	public int Count
 	{
-		[Token(Token = "0x600060B")]
+		[Token(Token = "0x60005E6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700016F")]
+	[Token(Token = "0x17000185")]
 	public T current
 	{
-		[Token(Token = "0x600060C")]
+		[Token(Token = "0x60005E7")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x17000186")]
 	public int rolloverSize
 	{
-		[Token(Token = "0x600060D")]
+		[Token(Token = "0x60005E8")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600060E")]
+		[Token(Token = "0x60005E9")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000608")]
+	[Token(Token = "0x60005E3")]
 	public TMP_TextProcessingStack(T[] stack)
 	{
 	}
 
-	[Token(Token = "0x6000609")]
+	[Token(Token = "0x60005E4")]
 	public TMP_TextProcessingStack(int capacity)
 	{
 	}
 
-	[Token(Token = "0x600060A")]
+	[Token(Token = "0x60005E5")]
 	public TMP_TextProcessingStack(int capacity, int rolloverSize)
 	{
 	}
 
-	[Token(Token = "0x600060F")]
+	[Token(Token = "0x60005EA")]
 	internal static void SetDefault(TMP_TextProcessingStack<T>[] stack, T item)
 	{
 	}
 
-	[Token(Token = "0x6000610")]
+	[Token(Token = "0x60005EB")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000611")]
+	[Token(Token = "0x60005EC")]
 	public void SetDefault(T item)
 	{
 	}
 
-	[Token(Token = "0x6000612")]
+	[Token(Token = "0x60005ED")]
 	public void Add(T item)
 	{
 	}
 
-	[Token(Token = "0x6000613")]
+	[Token(Token = "0x60005EE")]
 	public T Remove()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000614")]
+	[Token(Token = "0x60005EF")]
 	public void Push(T item)
 	{
 	}
 
-	[Token(Token = "0x6000615")]
+	[Token(Token = "0x60005F0")]
 	public T Pop()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000616")]
+	[Token(Token = "0x60005F1")]
 	public T Peek()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000617")]
+	[Token(Token = "0x60005F2")]
 	public T CurrentItem()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000618")]
+	[Token(Token = "0x60005F3")]
 	public T PreviousItem()
 	{
 		return (T)null;

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x20000F9")]
+[Token(Token = "0x200011A")]
 public struct RoleSpriteDefinition
 {
-	[Token(Token = "0x40005F3")]
+	[Token(Token = "0x4000692")]
 	[FieldOffset(Offset = "0x0")]
 	public string RoleName;
 
-	[Token(Token = "0x40005F4")]
+	[Token(Token = "0x4000693")]
 	[FieldOffset(Offset = "0x8")]
 	public int SpriteIndex;
 
-	[Token(Token = "0x600050A")]
-	[Address(RVA = "0x42314B0", Offset = "0x42314B0", VA = "0x42314B0")]
+	[Token(Token = "0x60005A9")]
+	[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
 	public RoleSpriteDefinition(string roleName, int spriteIndex)
 	{
 	}

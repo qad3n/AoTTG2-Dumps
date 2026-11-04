@@ -10,20 +10,20 @@ using UnityEngine.Bindings;
 
 namespace Unity.IO.LowLevel.Unsafe;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000045")]
 [UnityEngine.Bindings.NativeHeader("Runtime/File/AsyncReadManagerMetrics.h")]
 public enum ProcessingState
 {
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x40000C5")]
 	Unknown,
-	[Token(Token = "0x4000093")]
+	[Token(Token = "0x40000C6")]
 	InQueue,
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x40000C7")]
 	Reading,
-	[Token(Token = "0x4000095")]
+	[Token(Token = "0x40000C8")]
 	Completed,
-	[Token(Token = "0x4000096")]
+	[Token(Token = "0x40000C9")]
 	Failed,
-	[Token(Token = "0x4000097")]
+	[Token(Token = "0x40000CA")]
 	Canceled
 }

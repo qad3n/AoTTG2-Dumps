@@ -10,109 +10,109 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000313")]
+[Token(Token = "0x2000342")]
 [ComVisible(true)]
 public sealed class CryptoAPITransform : ICryptoTransform, IDisposable
 {
-	[Token(Token = "0x4000DD9")]
+	[Token(Token = "0x4000DE6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private bool m_disposed;
 
-	[Token(Token = "0x170002E8")]
+	[Token(Token = "0x170002EA")]
 	public bool CanReuseTransform
 	{
-		[Token(Token = "0x6001AE8")]
-		[Address(RVA = "0x3B4CB30", Offset = "0x3B4CB30", VA = "0x3B4CB30", Slot = "7")]
+		[Token(Token = "0x6001B50")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002E9")]
+	[Token(Token = "0x170002EB")]
 	public bool CanTransformMultipleBlocks
 	{
-		[Token(Token = "0x6001AE9")]
-		[Address(RVA = "0x3B4CB40", Offset = "0x3B4CB40", VA = "0x3B4CB40", Slot = "6")]
+		[Token(Token = "0x6001B51")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170002EA")]
+	[Token(Token = "0x170002EC")]
 	public int InputBlockSize
 	{
-		[Token(Token = "0x6001AEA")]
-		[Address(RVA = "0x3B4CB50", Offset = "0x3B4CB50", VA = "0x3B4CB50", Slot = "4")]
+		[Token(Token = "0x6001B52")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002EB")]
+	[Token(Token = "0x170002ED")]
 	public IntPtr KeyHandle
 	{
-		[Token(Token = "0x6001AEB")]
-		[Address(RVA = "0x3B4CB60", Offset = "0x3B4CB60", VA = "0x3B4CB60")]
+		[Token(Token = "0x6001B53")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x170002EC")]
+	[Token(Token = "0x170002EE")]
 	public int OutputBlockSize
 	{
-		[Token(Token = "0x6001AEC")]
-		[Address(RVA = "0x3B4CB70", Offset = "0x3B4CB70", VA = "0x3B4CB70", Slot = "5")]
+		[Token(Token = "0x6001B54")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001AE7")]
-	[Address(RVA = "0x3B4CB10", Offset = "0x3B4CB10", VA = "0x3B4CB10")]
+	[Token(Token = "0x6001B4F")]
+	[Address(RVA = "0x1917200", Offset = "0x1915800", VA = "0x181917200")]
 	internal CryptoAPITransform()
 	{
 	}
 
-	[Token(Token = "0x6001AED")]
-	[Address(RVA = "0x3B4CB80", Offset = "0x3B4CB80", VA = "0x3B4CB80", Slot = "10")]
+	[Token(Token = "0x6001B55")]
+	[Address(RVA = "0x19B9B80", Offset = "0x19B8180", VA = "0x1819B9B80", Slot = "10")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001AEE")]
-	[Address(RVA = "0x3B4CC10", Offset = "0x3B4CC10", VA = "0x3B4CC10")]
+	[Token(Token = "0x6001B56")]
+	[Address(RVA = "0x19B9B70", Offset = "0x19B8170", VA = "0x1819B9B70")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001AEF")]
-	[Address(RVA = "0x3B4CC00", Offset = "0x3B4CC00", VA = "0x3B4CC00")]
+	[Token(Token = "0x6001B57")]
+	[Address(RVA = "0x19B9B70", Offset = "0x19B8170", VA = "0x1819B9B70")]
 	private void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001AF0")]
-	[Address(RVA = "0x3B4CC20", Offset = "0x3B4CC20", VA = "0x3B4CC20", Slot = "8")]
+	[Token(Token = "0x6001B58")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
 	public int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001AF1")]
-	[Address(RVA = "0x3B4CC30", Offset = "0x3B4CC30", VA = "0x3B4CC30", Slot = "9")]
+	[Token(Token = "0x6001B59")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
 	public byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AF2")]
-	[Address(RVA = "0x3B4CC40", Offset = "0x3B4CC40", VA = "0x3B4CC40")]
+	[Token(Token = "0x6001B5A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[ComVisible(false)]
 	public void Reset()
 	{

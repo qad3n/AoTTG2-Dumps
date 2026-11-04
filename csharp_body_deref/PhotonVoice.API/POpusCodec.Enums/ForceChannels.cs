@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000C")]
 public enum ForceChannels
 {
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x400003E")]
 	NoForce = -1000,
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x400003F")]
 	Mono = 1,
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000040")]
 	Stereo = 2
 }

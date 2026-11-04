@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x20000B3")]
 public enum TextContainerAnchors
 {
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x400062B")]
 	TopLeft,
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x400062C")]
 	Top,
-	[Token(Token = "0x4000021")]
+	[Token(Token = "0x400062D")]
 	TopRight,
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x400062E")]
 	Left,
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x400062F")]
 	Middle,
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x4000630")]
 	Right,
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x4000631")]
 	BottomLeft,
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x4000632")]
 	Bottom,
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x4000633")]
 	BottomRight,
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x4000634")]
 	Custom
 }

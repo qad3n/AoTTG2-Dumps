@@ -12,14 +12,14 @@ namespace System.Linq.Expressions;
 [Token(Token = "0x20000B9")]
 internal sealed class ByRefParameterExpression : TypedParameterExpression
 {
-	[Token(Token = "0x60004D4")]
-	[Address(RVA = "0x44BFF80", Offset = "0x44BFF80", VA = "0x44BFF80")]
+	[Token(Token = "0x60004D3")]
+	[Address(RVA = "0x242A530", Offset = "0x2428B30", VA = "0x18242A530")]
 	internal ByRefParameterExpression(Type type, string name)
 	{
 	}
 
-	[Token(Token = "0x60004D5")]
-	[Address(RVA = "0x44C0120", Offset = "0x44C0120", VA = "0x44C0120", Slot = "10")]
+	[Token(Token = "0x60004D4")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 	internal override bool GetIsByRef()
 	{
 		return default(bool);

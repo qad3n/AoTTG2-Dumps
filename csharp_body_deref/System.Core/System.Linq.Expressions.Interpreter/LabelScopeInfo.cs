@@ -27,36 +27,36 @@ internal sealed class LabelScopeInfo
 	[Token(Token = "0x170001C5")]
 	internal bool CanJumpInto
 	{
-		[Token(Token = "0x6000813")]
-		[Address(RVA = "0x44DBF80", Offset = "0x44DBF80", VA = "0x44DBF80")]
+		[Token(Token = "0x6000812")]
+		[Address(RVA = "0x2450D70", Offset = "0x244F370", VA = "0x182450D70")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x44DC0A0", Offset = "0x44DC0A0", VA = "0x44DC0A0")]
+	[Token(Token = "0x6000811")]
+	[Address(RVA = "0x2450D20", Offset = "0x244F320", VA = "0x182450D20")]
 	internal LabelScopeInfo(LabelScopeInfo parent, LabelScopeKind kind)
 	{
 	}
 
-	[Token(Token = "0x6000814")]
-	[Address(RVA = "0x44DBA40", Offset = "0x44DBA40", VA = "0x44DBA40")]
+	[Token(Token = "0x6000813")]
+	[Address(RVA = "0x2450C30", Offset = "0x244F230", VA = "0x182450C30")]
 	internal bool ContainsTarget(LabelTarget target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000815")]
-	[Address(RVA = "0x44DC0D0", Offset = "0x44DC0D0", VA = "0x44DC0D0")]
+	[Token(Token = "0x6000814")]
+	[Address(RVA = "0x2450C90", Offset = "0x244F290", VA = "0x182450C90")]
 	internal bool TryGetLabelInfo(LabelTarget target, out LabelInfo info)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000816")]
-	[Address(RVA = "0x44DBBC0", Offset = "0x44DBBC0", VA = "0x44DBBC0")]
+	[Token(Token = "0x6000815")]
+	[Address(RVA = "0x2450B70", Offset = "0x244F170", VA = "0x182450B70")]
 	internal void AddLabelInfo(LabelTarget target, LabelInfo info)
 	{
 	}

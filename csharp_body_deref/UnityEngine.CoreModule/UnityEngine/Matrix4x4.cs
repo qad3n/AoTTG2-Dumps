@@ -1,13 +1,12 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Matrix4x4
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
 using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using Unity.IL2CPP.CompilerServices;
 using UnityEngine.Bindings;
@@ -15,430 +14,577 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200011E")]
-[UnityEngine.NativeClass("Matrix4x4f")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Math/MathScripting.h")]
-[Il2CppEagerStaticClassConstruction]
-[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+[Token(Token = "0x2000144")]
 [UnityEngine.Bindings.NativeType(Header = "Runtime/Math/Matrix4x4.h")]
+[UnityEngine.Scripting.RequiredByNativeCode(Optional = true, GenerateProxy = true)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Math/MathScripting.h")]
+[UnityEngine.NativeClass("Matrix4x4f")]
+[Il2CppEagerStaticClassConstruction]
 public struct Matrix4x4 : IEquatable<Matrix4x4>, IFormattable
 {
-	[Token(Token = "0x40004CA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4000532")]
+	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Bindings.NativeName("m_Data[0]")]
 	public float m00;
 
-	[Token(Token = "0x40004CB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
+	[Token(Token = "0x4000533")]
+	[FieldOffset(Offset = "0x4")]
 	[UnityEngine.Bindings.NativeName("m_Data[1]")]
 	public float m10;
 
-	[Token(Token = "0x40004CC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+	[Token(Token = "0x4000534")]
+	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Bindings.NativeName("m_Data[2]")]
 	public float m20;
 
-	[Token(Token = "0x40004CD")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
+	[Token(Token = "0x4000535")]
+	[FieldOffset(Offset = "0xC")]
 	[UnityEngine.Bindings.NativeName("m_Data[3]")]
 	public float m30;
 
-	[Token(Token = "0x40004CE")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x4000536")]
+	[FieldOffset(Offset = "0x10")]
 	[UnityEngine.Bindings.NativeName("m_Data[4]")]
 	public float m01;
 
-	[Token(Token = "0x40004CF")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
+	[Token(Token = "0x4000537")]
+	[FieldOffset(Offset = "0x14")]
 	[UnityEngine.Bindings.NativeName("m_Data[5]")]
 	public float m11;
 
-	[Token(Token = "0x40004D0")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000538")]
+	[FieldOffset(Offset = "0x18")]
 	[UnityEngine.Bindings.NativeName("m_Data[6]")]
 	public float m21;
 
-	[Token(Token = "0x40004D1")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x4000539")]
+	[FieldOffset(Offset = "0x1C")]
 	[UnityEngine.Bindings.NativeName("m_Data[7]")]
 	public float m31;
 
-	[Token(Token = "0x40004D2")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x400053A")]
+	[FieldOffset(Offset = "0x20")]
 	[UnityEngine.Bindings.NativeName("m_Data[8]")]
 	public float m02;
 
-	[Token(Token = "0x40004D3")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
+	[Token(Token = "0x400053B")]
+	[FieldOffset(Offset = "0x24")]
 	[UnityEngine.Bindings.NativeName("m_Data[9]")]
 	public float m12;
 
-	[Token(Token = "0x40004D4")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x400053C")]
+	[FieldOffset(Offset = "0x28")]
 	[UnityEngine.Bindings.NativeName("m_Data[10]")]
 	public float m22;
 
-	[Token(Token = "0x40004D5")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
+	[Token(Token = "0x400053D")]
+	[FieldOffset(Offset = "0x2C")]
 	[UnityEngine.Bindings.NativeName("m_Data[11]")]
 	public float m32;
 
-	[Token(Token = "0x40004D6")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x400053E")]
+	[FieldOffset(Offset = "0x30")]
 	[UnityEngine.Bindings.NativeName("m_Data[12]")]
 	public float m03;
 
-	[Token(Token = "0x40004D7")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x34")]
+	[Token(Token = "0x400053F")]
+	[FieldOffset(Offset = "0x34")]
 	[UnityEngine.Bindings.NativeName("m_Data[13]")]
 	public float m13;
 
-	[Token(Token = "0x40004D8")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000540")]
+	[FieldOffset(Offset = "0x38")]
 	[UnityEngine.Bindings.NativeName("m_Data[14]")]
 	public float m23;
 
-	[Token(Token = "0x40004D9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4000541")]
+	[FieldOffset(Offset = "0x3C")]
 	[UnityEngine.Bindings.NativeName("m_Data[15]")]
 	public float m33;
 
-	[Token(Token = "0x40004DA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+	[Token(Token = "0x4000542")]
+	[FieldOffset(Offset = "0x0")]
 	private static readonly Matrix4x4 zeroMatrix;
 
-	[Token(Token = "0x40004DB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000543")]
+	[FieldOffset(Offset = "0x40")]
 	private static readonly Matrix4x4 identityMatrix;
 
-	[Token(Token = "0x17000177")]
-	public Vector3 lossyScale
+	[Token(Token = "0x170001D5")]
+	public readonly Quaternion rotation
 	{
-		[Token(Token = "0x60007B8")]
-		[Address(RVA = "0x4DE77F0", Offset = "0x4DE77F0", VA = "0x4DE77F0")]
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A68")]
+		[Address(RVA = "0x2F07320", Offset = "0x2F05920", VA = "0x182F07320")]
+		get
+		{
+			return default(Quaternion);
+		}
+	}
+
+	[Token(Token = "0x170001D6")]
+	public readonly Vector3 lossyScale
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A69")]
+		[Address(RVA = "0x2F072B0", Offset = "0x2F058B0", VA = "0x182F072B0")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x17000178")]
-	public FrustumPlanes decomposeProjection
+	[Token(Token = "0x170001D7")]
+	public readonly float determinant
 	{
-		[Token(Token = "0x60007B9")]
-		[Address(RVA = "0x4DE7840", Offset = "0x4DE7840", VA = "0x4DE7840")]
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A6A")]
+		[Address(RVA = "0x2F05CE0", Offset = "0x2F042E0", VA = "0x182F05CE0")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x170001D8")]
+	public readonly FrustumPlanes decomposeProjection
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A6B")]
+		[Address(RVA = "0x2F071E0", Offset = "0x2F057E0", VA = "0x182F071E0")]
 		get
 		{
 			return default(FrustumPlanes);
 		}
 	}
 
-	[Token(Token = "0x17000179")]
-	public Matrix4x4 inverse
+	[Token(Token = "0x170001D9")]
+	public readonly Matrix4x4 inverse
 	{
-		[Token(Token = "0x60007BE")]
-		[Address(RVA = "0x4DE7BB0", Offset = "0x4DE7BB0", VA = "0x4DE7BB0")]
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A73")]
+		[Address(RVA = "0x2F062D0", Offset = "0x2F048D0", VA = "0x182F062D0")]
 		get
 		{
 			return default(Matrix4x4);
 		}
 	}
 
-	[Token(Token = "0x1700017A")]
+	[Token(Token = "0x170001DA")]
+	public readonly Matrix4x4 transpose
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A75")]
+		[Address(RVA = "0x2F07380", Offset = "0x2F05980", VA = "0x182F07380")]
+		get
+		{
+			return default(Matrix4x4);
+		}
+	}
+
+	[Token(Token = "0x170001DB")]
 	public float this[int row, int column]
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60007C5")]
-		[Address(RVA = "0x4DE8280", Offset = "0x4DE8280", VA = "0x4DE8280")]
-		get
+		[Token(Token = "0x6000A7D")]
+		[Address(RVA = "0x2F071D0", Offset = "0x2F057D0", VA = "0x182F071D0")]
+		readonly get
 		{
 			return default(float);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0x4DE8390", Offset = "0x4DE8390", VA = "0x4DE8390")]
+		[Token(Token = "0x6000A7E")]
+		[Address(RVA = "0x2F07570", Offset = "0x2F05B70", VA = "0x182F07570")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700017B")]
+	[Token(Token = "0x170001DC")]
 	public float this[int index]
 	{
-		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x4DE8290", Offset = "0x4DE8290", VA = "0x4DE8290")]
-		get
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A7F")]
+		[Address(RVA = "0x1DB9080", Offset = "0x1DB7680", VA = "0x181DB9080")]
+		readonly get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x4DE83A0", Offset = "0x4DE83A0", VA = "0x4DE83A0")]
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A80")]
+		[Address(RVA = "0x1DB91E0", Offset = "0x1DB77E0", VA = "0x181DB91E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700017C")]
-	public static Matrix4x4 identity
+	[Token(Token = "0x170001DD")]
+	public static Matrix4x4 zero
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60007D7")]
-		[Address(RVA = "0x4DE8E00", Offset = "0x4DE8E00", VA = "0x4DE8E00")]
+		[Token(Token = "0x6000A92")]
+		[Address(RVA = "0x2F07410", Offset = "0x2F05A10", VA = "0x182F07410")]
 		get
 		{
 			return default(Matrix4x4);
 		}
 	}
 
-	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x4DE76C0", Offset = "0x4DE76C0", VA = "0x4DE76C0")]
+	[Token(Token = "0x170001DE")]
+	public static Matrix4x4 identity
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x6000A93")]
+		[Address(RVA = "0x2F07250", Offset = "0x2F05850", VA = "0x182F07250")]
+		get
+		{
+			return default(Matrix4x4);
+		}
+	}
+
+	[Token(Token = "0x6000A64")]
+	[Address(RVA = "0x2F05E30", Offset = "0x2F04430", VA = "0x182F05E30")]
 	[UnityEngine.Bindings.ThreadSafe]
-	private Vector3 GetLossyScale()
+	private readonly Quaternion GetRotation()
+	{
+		return default(Quaternion);
+	}
+
+	[Token(Token = "0x6000A65")]
+	[Address(RVA = "0x2F05D70", Offset = "0x2F04370", VA = "0x182F05D70")]
+	[UnityEngine.Bindings.ThreadSafe]
+	private readonly Vector3 GetLossyScale()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x4DE7750", Offset = "0x4DE7750", VA = "0x4DE7750")]
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000A66")]
+	[Address(RVA = "0x2F05CE0", Offset = "0x2F042E0", VA = "0x182F05CE0")]
 	[UnityEngine.Bindings.ThreadSafe]
-	private FrustumPlanes DecomposeProjection()
+	private readonly extern float GetDeterminant();
+
+	[Token(Token = "0x6000A67")]
+	[Address(RVA = "0x2F059D0", Offset = "0x2F03FD0", VA = "0x182F059D0")]
+	[UnityEngine.Bindings.ThreadSafe]
+	private readonly FrustumPlanes DecomposeProjection()
 	{
 		return default(FrustumPlanes);
 	}
 
-	[Token(Token = "0x60007BA")]
-	[Address(RVA = "0x4DE78C0", Offset = "0x4DE78C0", VA = "0x4DE78C0")]
+	[Token(Token = "0x6000A6C")]
+	[Address(RVA = "0x2F06170", Offset = "0x2F04770", VA = "0x182F06170")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::TRS", IsThreadSafe = true)]
+	private static Matrix4x4 Internal_TRS(in Vector3 pos, in Quaternion q, in Vector3 s)
+	{
+		return default(Matrix4x4);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A6D")]
+	[Address(RVA = "0x2F068E0", Offset = "0x2F04EE0", VA = "0x182F068E0")]
 	public static Matrix4x4 TRS(Vector3 pos, Quaternion q, Vector3 s)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007BB")]
-	[Address(RVA = "0x4DE79B0", Offset = "0x4DE79B0", VA = "0x4DE79B0")]
-	public void SetTRS(Vector3 pos, Quaternion q, Vector3 s)
-	{
-	}
-
-	[Token(Token = "0x60007BC")]
-	[Address(RVA = "0x4DE7A70", Offset = "0x4DE7A70", VA = "0x4DE7A70")]
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000A6E")]
+	[Address(RVA = "0x2F05F70", Offset = "0x2F04570", VA = "0x182F05F70")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Inverse3DAffine", IsThreadSafe = true)]
+	private static extern bool Internal_Inverse3DAffine(in Matrix4x4 input, ref Matrix4x4 result);
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A6F")]
+	[Address(RVA = "0x2F06280", Offset = "0x2F04880", VA = "0x182F06280")]
 	public static bool Inverse3DAffine(Matrix4x4 input, ref Matrix4x4 result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007BD")]
-	[Address(RVA = "0x4DE7AF0", Offset = "0x4DE7AF0", VA = "0x4DE7AF0")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A70")]
+	[Address(RVA = "0x2F05F70", Offset = "0x2F04570", VA = "0x182F05F70")]
+	public static bool Inverse3DAffine(in Matrix4x4 input, ref Matrix4x4 result)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000A71")]
+	[Address(RVA = "0x2F06010", Offset = "0x2F04610", VA = "0x182F06010")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Inverse", IsThreadSafe = true)]
+	private static Matrix4x4 Internal_Inverse(in Matrix4x4 m)
+	{
+		return default(Matrix4x4);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A72")]
+	[Address(RVA = "0x2F062D0", Offset = "0x2F048D0", VA = "0x182F062D0")]
 	public static Matrix4x4 Inverse(Matrix4x4 m)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007BF")]
-	[Address(RVA = "0x4DE7C90", Offset = "0x4DE7C90", VA = "0x4DE7C90")]
+	[Token(Token = "0x6000A74")]
+	[Address(RVA = "0x2F06220", Offset = "0x2F04820", VA = "0x182F06220")]
+	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Transpose", IsThreadSafe = true)]
+	private static Matrix4x4 Internal_Transpose(in Matrix4x4 m)
+	{
+		return default(Matrix4x4);
+	}
+
+	[Token(Token = "0x6000A76")]
+	[Address(RVA = "0x2F065E0", Offset = "0x2F04BE0", VA = "0x182F065E0")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Ortho", IsThreadSafe = true)]
 	public static Matrix4x4 Ortho(float left, float right, float bottom, float top, float zNear, float zFar)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007C0")]
-	[Address(RVA = "0x4DE7DE0", Offset = "0x4DE7DE0", VA = "0x4DE7DE0")]
+	[Token(Token = "0x6000A77")]
+	[Address(RVA = "0x2F06710", Offset = "0x2F04D10", VA = "0x182F06710")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Perspective", IsThreadSafe = true)]
 	public static Matrix4x4 Perspective(float fov, float aspect, float zNear, float zFar)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007C1")]
-	[Address(RVA = "0x4DE7EF0", Offset = "0x4DE7EF0", VA = "0x4DE7EF0")]
+	[Token(Token = "0x6000A78")]
+	[Address(RVA = "0x2F060C0", Offset = "0x2F046C0", VA = "0x182F060C0")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::LookAt", IsThreadSafe = true)]
+	private static Matrix4x4 Internal_LookAt(in Vector3 from, in Vector3 to, in Vector3 up)
+	{
+		return default(Matrix4x4);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A79")]
+	[Address(RVA = "0x2F06360", Offset = "0x2F04960", VA = "0x182F06360")]
 	public static Matrix4x4 LookAt(Vector3 from, Vector3 to, Vector3 up)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007C2")]
-	[Address(RVA = "0x4DE7FE0", Offset = "0x4DE7FE0", VA = "0x4DE7FE0")]
+	[Token(Token = "0x6000A7A")]
+	[Address(RVA = "0x2F05C30", Offset = "0x2F04230", VA = "0x182F05C30")]
 	[UnityEngine.Bindings.FreeFunction("MatrixScripting::Frustum", IsThreadSafe = true)]
 	public static Matrix4x4 Frustum(float left, float right, float bottom, float top, float zNear, float zFar)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007C3")]
-	[Address(RVA = "0x4DE8130", Offset = "0x4DE8130", VA = "0x4DE8130")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A7B")]
+	[Address(RVA = "0x2F05B60", Offset = "0x2F04160", VA = "0x182F05B60")]
 	public static Matrix4x4 Frustum(FrustumPlanes fp)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007C4")]
-	[Address(RVA = "0x4DE8260", Offset = "0x4DE8260", VA = "0x4DE8260")]
+	[Token(Token = "0x6000A7C")]
+	[Address(RVA = "0x2F07160", Offset = "0x2F05760", VA = "0x182F07160")]
 	public Matrix4x4(Vector4 column0, Vector4 column1, Vector4 column2, Vector4 column3)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007C9")]
-	[Address(RVA = "0x4DE84A0", Offset = "0x4DE84A0", VA = "0x4DE84A0", Slot = "2")]
-	public override int GetHashCode()
+	[Token(Token = "0x6000A81")]
+	[Address(RVA = "0xAC9650", Offset = "0xAC7C50", VA = "0x180AC9650", Slot = "2")]
+	public override readonly int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007CA")]
-	[Address(RVA = "0x4DE8700", Offset = "0x4DE8700", VA = "0x4DE8700", Slot = "0")]
-	public override bool Equals(object other)
+	[Token(Token = "0x6000A82")]
+	[Address(RVA = "0x2F05A30", Offset = "0x2F04030", VA = "0x182F05A30", Slot = "0")]
+	public override readonly bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007CB")]
-	[Address(RVA = "0x4DE87F0", Offset = "0x4DE87F0", VA = "0x4DE87F0", Slot = "4")]
-	public bool Equals(Matrix4x4 other)
+	[Token(Token = "0x6000A83")]
+	[Address(RVA = "0x5BBA50", Offset = "0x5BA050", VA = "0x1805BBA50", Slot = "4")]
+	public readonly bool Equals(Matrix4x4 other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007CC")]
-	[Address(RVA = "0x4DE8850", Offset = "0x4DE8850", VA = "0x4DE8850")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A84")]
+	[Address(RVA = "0x5BBA50", Offset = "0x5BA050", VA = "0x1805BBA50")]
+	public readonly bool Equals(in Matrix4x4 other)
+	{
+		return default(bool);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A85")]
+	[Address(RVA = "0x1E9BB40", Offset = "0x1E9A140", VA = "0x181E9BB40")]
 	public static Matrix4x4 operator *(Matrix4x4 lhs, Matrix4x4 rhs)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007CD")]
-	[Address(RVA = "0x4DE8980", Offset = "0x4DE8980", VA = "0x4DE8980")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A86")]
+	[Address(RVA = "0x2F07470", Offset = "0x2F05A70", VA = "0x182F07470")]
 	public static Vector4 operator *(Matrix4x4 lhs, Vector4 vector)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x60007CE")]
-	[Address(RVA = "0x4DE8630", Offset = "0x4DE8630", VA = "0x4DE8630")]
-	public Vector4 GetColumn(int index)
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A87")]
+	[Address(RVA = "0x5BBB60", Offset = "0x5BA160", VA = "0x1805BBB60")]
+	public readonly Vector4 GetColumn(int index)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x4DE8A00", Offset = "0x4DE8A00", VA = "0x4DE8A00")]
-	public Vector4 GetRow(int index)
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A88")]
+	[Address(RVA = "0x2F05E80", Offset = "0x2F04480", VA = "0x182F05E80")]
+	public readonly Vector4 GetRow(int index)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x4DE8AD0", Offset = "0x4DE8AD0", VA = "0x4DE8AD0")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A89")]
+	[Address(RVA = "0x2F05DC0", Offset = "0x2F043C0", VA = "0x182F05DC0")]
+	public readonly Vector3 GetPosition()
+	{
+		return default(Vector3);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8A")]
+	[Address(RVA = "0x2F067E0", Offset = "0x2F04DE0", VA = "0x182F067E0")]
+	public void SetColumn(int index, Vector4 column)
+	{
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8B")]
+	[Address(RVA = "0x2F06870", Offset = "0x2F04E70", VA = "0x182F06870")]
 	public void SetRow(int index, Vector4 row)
 	{
 	}
 
-	[Token(Token = "0x60007D1")]
-	[Address(RVA = "0x4DE8B30", Offset = "0x4DE8B30", VA = "0x4DE8B30")]
-	public Vector3 MultiplyPoint(Vector3 point)
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8C")]
+	[Address(RVA = "0x2F063F0", Offset = "0x2F049F0", VA = "0x182F063F0")]
+	public readonly Vector3 MultiplyPoint(Vector3 point)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x4DE8BD0", Offset = "0x4DE8BD0", VA = "0x4DE8BD0")]
-	public Vector3 MultiplyPoint3x4(Vector3 point)
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8D")]
+	[Address(RVA = "0x1E9BAA0", Offset = "0x1E9A0A0", VA = "0x181E9BAA0")]
+	public readonly Vector3 MultiplyPoint3x4(Vector3 point)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60007D3")]
-	[Address(RVA = "0x4DE8C30", Offset = "0x4DE8C30", VA = "0x4DE8C30")]
-	public Vector3 MultiplyVector(Vector3 vector)
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8E")]
+	[Address(RVA = "0x2F064D0", Offset = "0x2F04AD0", VA = "0x182F064D0")]
+	public readonly Vector3 MultiplyVector(Vector3 vector)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60007D4")]
-	[Address(RVA = "0x4DE8C90", Offset = "0x4DE8C90", VA = "0x4DE8C90")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A8F")]
+	[Address(RVA = "0x2F067A0", Offset = "0x2F04DA0", VA = "0x182F067A0")]
 	public static Matrix4x4 Scale(Vector3 vector)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007D5")]
-	[Address(RVA = "0x4DE8CC0", Offset = "0x4DE8CC0", VA = "0x4DE8CC0")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A90")]
+	[Address(RVA = "0x2F07070", Offset = "0x2F05670", VA = "0x182F07070")]
 	public static Matrix4x4 Translate(Vector3 vector)
 	{
 		return default(Matrix4x4);
 	}
 
-	[Token(Token = "0x60007D6")]
-	[Address(RVA = "0x4DE8D00", Offset = "0x4DE8D00", VA = "0x4DE8D00")]
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x6000A91")]
+	[Address(RVA = "0x2D490C0", Offset = "0x2D476C0", VA = "0x182D490C0")]
 	public static Matrix4x4 Rotate(Quaternion q)
 	{
 		return default(Matrix4x4);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x4DE8E60", Offset = "0x4DE8E60", VA = "0x4DE8E60", Slot = "3")]
-	public override string ToString()
+	[Token(Token = "0x6000A94")]
+	[Address(RVA = "0x2F06970", Offset = "0x2F04F70", VA = "0x182F06970", Slot = "3")]
+	public override readonly string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x4DE8E70", Offset = "0x4DE8E70", VA = "0x4DE8E70", Slot = "5")]
-	public string ToString(string format, IFormatProvider formatProvider)
+	[Token(Token = "0x6000A95")]
+	[Address(RVA = "0x2F06980", Offset = "0x2F04F80", VA = "0x182F06980", Slot = "5")]
+	public readonly string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x4DE7710", Offset = "0x4DE7710", VA = "0x4DE7710")]
+	[Token(Token = "0x6000A97")]
+	[Address(RVA = "0x2F05DE0", Offset = "0x2F043E0", VA = "0x182F05DE0")]
+	private static extern void GetRotation_Injected(ref Matrix4x4 _unity_self, out Quaternion ret);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6000A98")]
+	[Address(RVA = "0x2F05D20", Offset = "0x2F04320", VA = "0x182F05D20")]
 	private static extern void GetLossyScale_Injected(ref Matrix4x4 _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007DC")]
-	[Address(RVA = "0x4DE77B0", Offset = "0x4DE77B0", VA = "0x4DE77B0")]
+	[Token(Token = "0x6000A99")]
+	[Address(RVA = "0x2F05980", Offset = "0x2F03F80", VA = "0x182F05980")]
 	private static extern void DecomposeProjection_Injected(ref Matrix4x4 _unity_self, out FrustumPlanes ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007DD")]
-	[Address(RVA = "0x4DE7960", Offset = "0x4DE7960", VA = "0x4DE7960")]
-	private static extern void TRS_Injected([In] ref Vector3 pos, [In] ref Quaternion q, [In] ref Vector3 s, out Matrix4x4 ret);
+	[Token(Token = "0x6000A9A")]
+	[Address(RVA = "0x2F06120", Offset = "0x2F04720", VA = "0x182F06120")]
+	private static extern void Internal_TRS_Injected(in Vector3 pos, in Quaternion q, in Vector3 s, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007DE")]
-	[Address(RVA = "0x4DE7AB0", Offset = "0x4DE7AB0", VA = "0x4DE7AB0")]
-	private static extern bool Inverse3DAffine_Injected([In] ref Matrix4x4 input, ref Matrix4x4 result);
+	[Token(Token = "0x6000A9B")]
+	[Address(RVA = "0x2F05FC0", Offset = "0x2F045C0", VA = "0x182F05FC0")]
+	private static extern void Internal_Inverse_Injected(in Matrix4x4 m, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007DF")]
-	[Address(RVA = "0x4DE7B70", Offset = "0x4DE7B70", VA = "0x4DE7B70")]
-	private static extern void Inverse_Injected([In] ref Matrix4x4 m, out Matrix4x4 ret);
+	[Token(Token = "0x6000A9C")]
+	[Address(RVA = "0x2F061D0", Offset = "0x2F047D0", VA = "0x182F061D0")]
+	private static extern void Internal_Transpose_Injected(in Matrix4x4 m, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007E0")]
-	[Address(RVA = "0x4DE7D50", Offset = "0x4DE7D50", VA = "0x4DE7D50")]
+	[Token(Token = "0x6000A9D")]
+	[Address(RVA = "0x2F06560", Offset = "0x2F04B60", VA = "0x182F06560")]
 	private static extern void Ortho_Injected(float left, float right, float bottom, float top, float zNear, float zFar, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007E1")]
-	[Address(RVA = "0x4DE7E80", Offset = "0x4DE7E80", VA = "0x4DE7E80")]
+	[Token(Token = "0x6000A9E")]
+	[Address(RVA = "0x2F06690", Offset = "0x2F04C90", VA = "0x182F06690")]
 	private static extern void Perspective_Injected(float fov, float aspect, float zNear, float zFar, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x4DE7F90", Offset = "0x4DE7F90", VA = "0x4DE7F90")]
-	private static extern void LookAt_Injected([In] ref Vector3 from, [In] ref Vector3 to, [In] ref Vector3 up, out Matrix4x4 ret);
+	[Token(Token = "0x6000A9F")]
+	[Address(RVA = "0x2F06070", Offset = "0x2F04670", VA = "0x182F06070")]
+	private static extern void Internal_LookAt_Injected(in Vector3 from, in Vector3 to, in Vector3 up, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x4DE80A0", Offset = "0x4DE80A0", VA = "0x4DE80A0")]
+	[Token(Token = "0x6000AA0")]
+	[Address(RVA = "0x2F05AE0", Offset = "0x2F040E0", VA = "0x182F05AE0")]
 	private static extern void Frustum_Injected(float left, float right, float bottom, float top, float zNear, float zFar, out Matrix4x4 ret);
 }

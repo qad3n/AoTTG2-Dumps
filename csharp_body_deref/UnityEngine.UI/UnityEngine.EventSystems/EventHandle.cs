@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x200009C")]
+[Token(Token = "0x200009E")]
 [Flags]
 public enum EventHandle
 {
-	[Token(Token = "0x40002D9")]
+	[Token(Token = "0x40002FC")]
 	Unused = 0,
-	[Token(Token = "0x40002DA")]
+	[Token(Token = "0x40002FD")]
 	Used = 1
 }

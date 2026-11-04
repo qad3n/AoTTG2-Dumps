@@ -14,7 +14,7 @@ namespace ExitGames.Client.Photon;
 public class InvalidDataException : Exception
 {
 	[Token(Token = "0x6000239")]
-	[Address(RVA = "0x3E7B290", Offset = "0x3E7B290", VA = "0x3E7B290")]
+	[Address(RVA = "0x1CCE2D0", Offset = "0x1CCC8D0", VA = "0x181CCE2D0")]
 	public InvalidDataException(string message)
 	{
 	}

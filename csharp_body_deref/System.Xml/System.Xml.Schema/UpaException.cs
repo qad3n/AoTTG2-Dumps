@@ -24,7 +24,7 @@ internal class UpaException : Exception
 	public object Particle1
 	{
 		[Token(Token = "0x6000FC2")]
-		[Address(RVA = "0x4845200", Offset = "0x4845200", VA = "0x4845200")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class UpaException : Exception
 	public object Particle2
 	{
 		[Token(Token = "0x6000FC3")]
-		[Address(RVA = "0x4845210", Offset = "0x4845210", VA = "0x4845210")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		get
 		{
 			return null;
@@ -43,7 +43,7 @@ internal class UpaException : Exception
 	}
 
 	[Token(Token = "0x6000FC1")]
-	[Address(RVA = "0x4845180", Offset = "0x4845180", VA = "0x4845180")]
+	[Address(RVA = "0x2786900", Offset = "0x2784F00", VA = "0x182786900")]
 	public UpaException(object particle1, object particle2)
 	{
 	}

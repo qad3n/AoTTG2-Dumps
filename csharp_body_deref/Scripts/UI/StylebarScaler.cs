@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20005E9")]
+[Token(Token = "0x200073E")]
 internal class StylebarScaler : IgnoreScaler
 {
-	[Token(Token = "0x6003C34")]
-	[Address(RVA = "0x428E580", Offset = "0x428E580", VA = "0x428E580", Slot = "5")]
+	[Token(Token = "0x60046E9")]
+	[Address(RVA = "0x221A900", Offset = "0x2218F00", VA = "0x18221A900", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x6003C35")]
-	[Address(RVA = "0x428E650", Offset = "0x428E650", VA = "0x428E650")]
+	[Token(Token = "0x60046EA")]
+	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
 	public StylebarScaler()
 	{
 	}

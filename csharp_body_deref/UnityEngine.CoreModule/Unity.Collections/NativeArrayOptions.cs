@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x2000044")]
+[Token(Token = "0x2000058")]
 public enum NativeArrayOptions
 {
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x4000100")]
 	UninitializedMemory,
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x4000101")]
 	ClearMemory
 }

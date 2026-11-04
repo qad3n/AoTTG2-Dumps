@@ -13,64 +13,65 @@ using UnityEngine;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000084")]
+[Token(Token = "0x2000079")]
+[TMPro.TMPHelpURL("StyleSheets")]
 [ExcludeFromPreset]
 public class TMP_StyleSheet : ScriptableObject
 {
-	[Token(Token = "0x400043F")]
+	[Token(Token = "0x40003AA")]
 	[FieldOffset(Offset = "0x18")]
 	[SerializeField]
 	private List<TMP_Style> m_StyleList;
 
-	[Token(Token = "0x4000440")]
+	[Token(Token = "0x40003AB")]
 	[FieldOffset(Offset = "0x20")]
 	private Dictionary<int, TMP_Style> m_StyleLookupDictionary;
 
-	[Token(Token = "0x170000F0")]
+	[Token(Token = "0x170000F1")]
 	internal List<TMP_Style> styles
 	{
-		[Token(Token = "0x6000447")]
-		[Address(RVA = "0x4C90EE0", Offset = "0x4C90EE0", VA = "0x4C90EE0")]
+		[Token(Token = "0x60003E6")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000448")]
-	[Address(RVA = "0x4C90EF0", Offset = "0x4C90EF0", VA = "0x4C90EF0")]
+	[Token(Token = "0x60003E7")]
+	[Address(RVA = "0x2D42F20", Offset = "0x2D41520", VA = "0x182D42F20")]
 	private void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000449")]
-	[Address(RVA = "0x4C91250", Offset = "0x4C91250", VA = "0x4C91250")]
+	[Token(Token = "0x60003E8")]
+	[Address(RVA = "0x2D42AF0", Offset = "0x2D410F0", VA = "0x182D42AF0")]
 	public TMP_Style GetStyle(int hashCode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600044A")]
-	[Address(RVA = "0x4C912D0", Offset = "0x4C912D0", VA = "0x4C912D0")]
+	[Token(Token = "0x60003E9")]
+	[Address(RVA = "0x2D42A40", Offset = "0x2D41040", VA = "0x182D42A40")]
 	public TMP_Style GetStyle(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x4C913B0", Offset = "0x4C913B0", VA = "0x4C913B0")]
+	[Token(Token = "0x60003EA")]
+	[Address(RVA = "0x2D42F20", Offset = "0x2D41520", VA = "0x182D42F20")]
 	public void RefreshStyles()
 	{
 	}
 
-	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x4C90F00", Offset = "0x4C90F00", VA = "0x4C90F00")]
+	[Token(Token = "0x60003EB")]
+	[Address(RVA = "0x2D42B80", Offset = "0x2D41180", VA = "0x182D42B80")]
 	private void LoadStyleDictionaryInternal()
 	{
 	}
 
-	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x4C913C0", Offset = "0x4C913C0", VA = "0x4C913C0")]
+	[Token(Token = "0x60003EC")]
+	[Address(RVA = "0x2D42F30", Offset = "0x2D41530", VA = "0x182D42F30")]
 	public TMP_StyleSheet()
 	{
 	}

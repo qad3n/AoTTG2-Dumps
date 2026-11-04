@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002AC")]
+[Token(Token = "0x2000326")]
 [Flags]
 public enum ColorWriteMask
 {
-	[Token(Token = "0x400072C")]
+	[Token(Token = "0x400085C")]
 	Alpha = 1,
-	[Token(Token = "0x400072D")]
+	[Token(Token = "0x400085D")]
 	Blue = 2,
-	[Token(Token = "0x400072E")]
+	[Token(Token = "0x400085E")]
 	Green = 4,
-	[Token(Token = "0x400072F")]
+	[Token(Token = "0x400085F")]
 	Red = 8,
-	[Token(Token = "0x4000730")]
-	All = 0xF
+	[Token(Token = "0x4000860")]
+	All = Alpha | Blue | Green | Red
 }

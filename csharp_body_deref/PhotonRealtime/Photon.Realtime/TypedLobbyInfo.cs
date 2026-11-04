@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x2000036")]
 public class TypedLobbyInfo : TypedLobby
 {
-	[Token(Token = "0x40001BF")]
-	[FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x40001BA")]
+	[FieldOffset(Offset = "0x20")]
 	public int PlayerCount;
 
-	[Token(Token = "0x40001C0")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x40001BB")]
+	[FieldOffset(Offset = "0x24")]
 	public int RoomCount;
 
-	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3ECF250", Offset = "0x3ECF250", VA = "0x3ECF250", Slot = "3")]
+	[Token(Token = "0x600013B")]
+	[Address(RVA = "0x1D26B60", Offset = "0x1D25160", VA = "0x181D26B60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3ECA990", Offset = "0x3ECA990", VA = "0x3ECA990")]
+	[Token(Token = "0x600013C")]
+	[Address(RVA = "0x1D26D60", Offset = "0x1D25360", VA = "0x181D26D60")]
 	public TypedLobbyInfo()
 	{
 	}

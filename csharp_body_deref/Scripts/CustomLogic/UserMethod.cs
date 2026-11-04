@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002AA")]
+[Token(Token = "0x20003F5")]
 internal class UserMethod
 {
-	[Token(Token = "0x4000DF8")]
+	[Token(Token = "0x4001418")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly CustomLogicClassInstance Owner;
 
-	[Token(Token = "0x4000DF9")]
+	[Token(Token = "0x4001419")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly CustomLogicMethodDefinitionAst Ast;
 
-	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x3FB98B0", Offset = "0x3FB98B0", VA = "0x3FB98B0")]
+	[Token(Token = "0x600183F")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public UserMethod(CustomLogicClassInstance owner, CustomLogicMethodDefinitionAst ast)
 	{
 	}
 
-	[Token(Token = "0x6000FBE")]
-	[Address(RVA = "0x3FB98F0", Offset = "0x3FB98F0", VA = "0x3FB98F0")]
+	[Token(Token = "0x6001840")]
+	[Address(RVA = "0x1EE3F70", Offset = "0x1EE2570", VA = "0x181EE3F70")]
 	public object Call(params object[] parameterValues)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBF")]
-	[Address(RVA = "0x3FB9900", Offset = "0x3FB9900", VA = "0x3FB9900")]
+	[Token(Token = "0x6001841")]
+	[Address(RVA = "0x1EE3F60", Offset = "0x1EE2560", VA = "0x181EE3F60")]
 	public object Call(CustomLogicEvaluator evaluator, params object[] parameterValues)
 	{
 		return null;

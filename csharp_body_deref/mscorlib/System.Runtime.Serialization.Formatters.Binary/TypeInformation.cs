@@ -9,56 +9,56 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000420")]
+[Token(Token = "0x200044F")]
 internal sealed class TypeInformation
 {
-	[Token(Token = "0x400118A")]
+	[Token(Token = "0x400118C")]
 	[FieldOffset(Offset = "0x10")]
 	private string fullTypeName;
 
-	[Token(Token = "0x400118B")]
+	[Token(Token = "0x400118D")]
 	[FieldOffset(Offset = "0x18")]
 	private string assemblyString;
 
-	[Token(Token = "0x400118C")]
+	[Token(Token = "0x400118E")]
 	[FieldOffset(Offset = "0x20")]
 	private bool hasTypeForwardedFrom;
 
-	[Token(Token = "0x1700044F")]
+	[Token(Token = "0x17000451")]
 	internal string FullTypeName
 	{
-		[Token(Token = "0x600210C")]
-		[Address(RVA = "0x3BADE60", Offset = "0x3BADE60", VA = "0x3BADE60")]
+		[Token(Token = "0x600217B")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000450")]
+	[Token(Token = "0x17000452")]
 	internal string AssemblyString
 	{
-		[Token(Token = "0x600210D")]
-		[Address(RVA = "0x3BADE70", Offset = "0x3BADE70", VA = "0x3BADE70")]
+		[Token(Token = "0x600217C")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000451")]
+	[Token(Token = "0x17000453")]
 	internal bool HasTypeForwardedFrom
 	{
-		[Token(Token = "0x600210E")]
-		[Address(RVA = "0x3BADE80", Offset = "0x3BADE80", VA = "0x3BADE80")]
+		[Token(Token = "0x600217D")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600210F")]
-	[Address(RVA = "0x3BA90E0", Offset = "0x3BA90E0", VA = "0x3BA90E0")]
+	[Token(Token = "0x600217E")]
+	[Address(RVA = "0x1A1E5E0", Offset = "0x1A1CBE0", VA = "0x181A1E5E0")]
 	internal TypeInformation(string fullTypeName, string assemblyString, bool hasTypeForwardedFrom)
 	{
 	}

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200007D")]
+[Token(Token = "0x2000099")]
 public enum PrimitiveType
 {
-	[Token(Token = "0x4000118")]
+	[Token(Token = "0x400015F")]
 	Sphere,
-	[Token(Token = "0x4000119")]
+	[Token(Token = "0x4000160")]
 	Capsule,
-	[Token(Token = "0x400011A")]
+	[Token(Token = "0x4000161")]
 	Cylinder,
-	[Token(Token = "0x400011B")]
+	[Token(Token = "0x4000162")]
 	Cube,
-	[Token(Token = "0x400011C")]
+	[Token(Token = "0x4000163")]
 	Plane,
-	[Token(Token = "0x400011D")]
+	[Token(Token = "0x4000164")]
 	Quad
 }

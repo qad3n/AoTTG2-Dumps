@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x2000569")]
+[Token(Token = "0x2000664")]
 internal class MultiColumnHeaderColumnMoveLocationPreview : VisualElement
 {
-	[Token(Token = "0x400129E")]
+	[Token(Token = "0x4001858")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x400129F")]
+	[Token(Token = "0x4001859")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly string visualUssClassName;
 
-	[Token(Token = "0x600212E")]
-	[Address(RVA = "0x4FD59D0", Offset = "0x4FD59D0", VA = "0x4FD59D0")]
+	[Token(Token = "0x6002EC2")]
+	[Address(RVA = "0x3203ED0", Offset = "0x32024D0", VA = "0x183203ED0")]
 	public MultiColumnHeaderColumnMoveLocationPreview()
 	{
 	}

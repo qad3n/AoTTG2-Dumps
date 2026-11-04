@@ -12,343 +12,53 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x2000099")]
+[Token(Token = "0x200009B")]
 public class PointerEventData : BaseEventData
 {
-	[Token(Token = "0x200009A")]
+	[Token(Token = "0x200009C")]
 	public enum InputButton
 	{
-		[Token(Token = "0x40002D0")]
+		[Token(Token = "0x40002F3")]
 		Left,
-		[Token(Token = "0x40002D1")]
+		[Token(Token = "0x40002F4")]
 		Right,
-		[Token(Token = "0x40002D2")]
+		[Token(Token = "0x40002F5")]
 		Middle
 	}
 
-	[Token(Token = "0x200009B")]
+	[Token(Token = "0x200009D")]
 	public enum FramePressState
 	{
-		[Token(Token = "0x40002D4")]
+		[Token(Token = "0x40002F7")]
 		Pressed,
-		[Token(Token = "0x40002D5")]
+		[Token(Token = "0x40002F8")]
 		Released,
-		[Token(Token = "0x40002D6")]
+		[Token(Token = "0x40002F9")]
 		PressedAndReleased,
-		[Token(Token = "0x40002D7")]
+		[Token(Token = "0x40002FA")]
 		NotChanged
 	}
 
-	[Token(Token = "0x40002AE")]
+	[Token(Token = "0x40002D1")]
 	[FieldOffset(Offset = "0x28")]
 	private GameObject m_PointerPress;
 
-	[Token(Token = "0x40002B5")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x40002D8")]
+	[FieldOffset(Offset = "0x130")]
 	public List<GameObject> hovered;
 
-	[Token(Token = "0x17000191")]
+	[Token(Token = "0x170001A1")]
 	public GameObject pointerEnter
 	{
-		[Token(Token = "0x60005F4")]
-		[Address(RVA = "0x50F5240", Offset = "0x50F5240", VA = "0x50F5240")]
+		[Token(Token = "0x600063B")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005F5")]
-		[Address(RVA = "0x50F5250", Offset = "0x50F5250", VA = "0x50F5250")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000192")]
-	public GameObject lastPress
-	{
-		[Token(Token = "0x60005F6")]
-		[Address(RVA = "0x50F5260", Offset = "0x50F5260", VA = "0x50F5260")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60005F7")]
-		[Address(RVA = "0x50F5270", Offset = "0x50F5270", VA = "0x50F5270")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000193")]
-	public GameObject rawPointerPress
-	{
-		[Token(Token = "0x60005F8")]
-		[Address(RVA = "0x50F5280", Offset = "0x50F5280", VA = "0x50F5280")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60005F9")]
-		[Address(RVA = "0x50F5290", Offset = "0x50F5290", VA = "0x50F5290")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000194")]
-	public GameObject pointerDrag
-	{
-		[Token(Token = "0x60005FA")]
-		[Address(RVA = "0x50F52A0", Offset = "0x50F52A0", VA = "0x50F52A0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60005FB")]
-		[Address(RVA = "0x50F52B0", Offset = "0x50F52B0", VA = "0x50F52B0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000195")]
-	public GameObject pointerClick
-	{
-		[Token(Token = "0x60005FC")]
-		[Address(RVA = "0x50F52C0", Offset = "0x50F52C0", VA = "0x50F52C0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60005FD")]
-		[Address(RVA = "0x50F52D0", Offset = "0x50F52D0", VA = "0x50F52D0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000196")]
-	public RaycastResult pointerCurrentRaycast
-	{
-		[Token(Token = "0x60005FE")]
-		[Address(RVA = "0x50F52E0", Offset = "0x50F52E0", VA = "0x50F52E0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(RaycastResult);
-		}
-		[Token(Token = "0x60005FF")]
-		[Address(RVA = "0x50F5320", Offset = "0x50F5320", VA = "0x50F5320")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000197")]
-	public RaycastResult pointerPressRaycast
-	{
-		[Token(Token = "0x6000600")]
-		[Address(RVA = "0x50F5360", Offset = "0x50F5360", VA = "0x50F5360")]
-		[CompilerGenerated]
-		get
-		{
-			return default(RaycastResult);
-		}
-		[Token(Token = "0x6000601")]
-		[Address(RVA = "0x50F53A0", Offset = "0x50F53A0", VA = "0x50F53A0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000198")]
-	public bool eligibleForClick
-	{
-		[Token(Token = "0x6000602")]
-		[Address(RVA = "0x50F53F0", Offset = "0x50F53F0", VA = "0x50F53F0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6000603")]
-		[Address(RVA = "0x50F5400", Offset = "0x50F5400", VA = "0x50F5400")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000199")]
-	public int displayIndex
-	{
-		[Token(Token = "0x6000604")]
-		[Address(RVA = "0x50F5410", Offset = "0x50F5410", VA = "0x50F5410")]
-		[CompilerGenerated]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000605")]
-		[Address(RVA = "0x50F5420", Offset = "0x50F5420", VA = "0x50F5420")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019A")]
-	public int pointerId
-	{
-		[Token(Token = "0x6000606")]
-		[Address(RVA = "0x50F5430", Offset = "0x50F5430", VA = "0x50F5430")]
-		[CompilerGenerated]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000607")]
-		[Address(RVA = "0x50F5440", Offset = "0x50F5440", VA = "0x50F5440")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019B")]
-	public Vector2 position
-	{
-		[Token(Token = "0x6000608")]
-		[Address(RVA = "0x50F5450", Offset = "0x50F5450", VA = "0x50F5450")]
-		[CompilerGenerated]
-		get
-		{
-			return default(Vector2);
-		}
-		[Token(Token = "0x6000609")]
-		[Address(RVA = "0x50F5460", Offset = "0x50F5460", VA = "0x50F5460")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019C")]
-	public Vector2 delta
-	{
-		[Token(Token = "0x600060A")]
-		[Address(RVA = "0x50F5470", Offset = "0x50F5470", VA = "0x50F5470")]
-		[CompilerGenerated]
-		get
-		{
-			return default(Vector2);
-		}
-		[Token(Token = "0x600060B")]
-		[Address(RVA = "0x50F5480", Offset = "0x50F5480", VA = "0x50F5480")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019D")]
-	public Vector2 pressPosition
-	{
-		[Token(Token = "0x600060C")]
-		[Address(RVA = "0x50F5490", Offset = "0x50F5490", VA = "0x50F5490")]
-		[CompilerGenerated]
-		get
-		{
-			return default(Vector2);
-		}
-		[Token(Token = "0x600060D")]
-		[Address(RVA = "0x50F54A0", Offset = "0x50F54A0", VA = "0x50F54A0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019E")]
-	[Obsolete("Use either pointerCurrentRaycast.worldPosition or pointerPressRaycast.worldPosition")]
-	public Vector3 worldPosition
-	{
-		[Token(Token = "0x600060E")]
-		[Address(RVA = "0x50F54B0", Offset = "0x50F54B0", VA = "0x50F54B0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(Vector3);
-		}
-		[Token(Token = "0x600060F")]
-		[Address(RVA = "0x50F54D0", Offset = "0x50F54D0", VA = "0x50F54D0")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700019F")]
-	[Obsolete("Use either pointerCurrentRaycast.worldNormal or pointerPressRaycast.worldNormal")]
-	public Vector3 worldNormal
-	{
-		[Token(Token = "0x6000610")]
-		[Address(RVA = "0x50F54E0", Offset = "0x50F54E0", VA = "0x50F54E0")]
-		[CompilerGenerated]
-		get
-		{
-			return default(Vector3);
-		}
-		[Token(Token = "0x6000611")]
-		[Address(RVA = "0x50F5500", Offset = "0x50F5500", VA = "0x50F5500")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A0")]
-	public float clickTime
-	{
-		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x50F5510", Offset = "0x50F5510", VA = "0x50F5510")]
-		[CompilerGenerated]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x50F5520", Offset = "0x50F5520", VA = "0x50F5520")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170001A1")]
-	public int clickCount
-	{
-		[Token(Token = "0x6000614")]
-		[Address(RVA = "0x50F5530", Offset = "0x50F5530", VA = "0x50F5530")]
-		[CompilerGenerated]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000615")]
-		[Address(RVA = "0x50F5540", Offset = "0x50F5540", VA = "0x50F5540")]
+		[Token(Token = "0x600063C")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -356,35 +66,35 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A2")]
-	public Vector2 scrollDelta
+	public GameObject lastPress
 	{
-		[Token(Token = "0x6000616")]
-		[Address(RVA = "0x50F5550", Offset = "0x50F5550", VA = "0x50F5550")]
+		[Token(Token = "0x600063D")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(Vector2);
+			return null;
 		}
-		[Token(Token = "0x6000617")]
-		[Address(RVA = "0x50F5560", Offset = "0x50F5560", VA = "0x50F5560")]
+		[Token(Token = "0x600063E")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
-		set
+		private set
 		{
 		}
 	}
 
 	[Token(Token = "0x170001A3")]
-	public bool useDragThreshold
+	public GameObject rawPointerPress
 	{
-		[Token(Token = "0x6000618")]
-		[Address(RVA = "0x50F5570", Offset = "0x50F5570", VA = "0x50F5570")]
+		[Token(Token = "0x600063F")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
-		[Token(Token = "0x6000619")]
-		[Address(RVA = "0x50F5580", Offset = "0x50F5580", VA = "0x50F5580")]
+		[Token(Token = "0x6000640")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -392,17 +102,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A4")]
-	public bool dragging
+	public GameObject pointerDrag
 	{
-		[Token(Token = "0x600061A")]
-		[Address(RVA = "0x50F5590", Offset = "0x50F5590", VA = "0x50F5590")]
+		[Token(Token = "0x6000641")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
-		[Token(Token = "0x600061B")]
-		[Address(RVA = "0x50F55A0", Offset = "0x50F55A0", VA = "0x50F55A0")]
+		[Token(Token = "0x6000642")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		[CompilerGenerated]
 		set
 		{
@@ -410,17 +120,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A5")]
-	public InputButton button
+	public GameObject pointerClick
 	{
-		[Token(Token = "0x600061C")]
-		[Address(RVA = "0x50F55B0", Offset = "0x50F55B0", VA = "0x50F55B0")]
+		[Token(Token = "0x6000643")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		[CompilerGenerated]
 		get
 		{
-			return default(InputButton);
+			return null;
 		}
-		[Token(Token = "0x600061D")]
-		[Address(RVA = "0x50F55C0", Offset = "0x50F55C0", VA = "0x50F55C0")]
+		[Token(Token = "0x6000644")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		[CompilerGenerated]
 		set
 		{
@@ -428,17 +138,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A6")]
-	public float pressure
+	public RaycastResult pointerCurrentRaycast
 	{
-		[Token(Token = "0x600061E")]
-		[Address(RVA = "0x50F55D0", Offset = "0x50F55D0", VA = "0x50F55D0")]
+		[Token(Token = "0x6000645")]
+		[Address(RVA = "0x32FBAE0", Offset = "0x32FA0E0", VA = "0x1832FBAE0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(float);
+			return default(RaycastResult);
 		}
-		[Token(Token = "0x600061F")]
-		[Address(RVA = "0x50F55E0", Offset = "0x50F55E0", VA = "0x50F55E0")]
+		[Token(Token = "0x6000646")]
+		[Address(RVA = "0x32FBE30", Offset = "0x32FA430", VA = "0x1832FBE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -446,17 +156,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A7")]
-	public float tangentialPressure
+	public RaycastResult pointerPressRaycast
 	{
-		[Token(Token = "0x6000620")]
-		[Address(RVA = "0x50F55F0", Offset = "0x50F55F0", VA = "0x50F55F0")]
+		[Token(Token = "0x6000647")]
+		[Address(RVA = "0x32FBB40", Offset = "0x32FA140", VA = "0x1832FBB40")]
 		[CompilerGenerated]
 		get
 		{
-			return default(float);
+			return default(RaycastResult);
 		}
-		[Token(Token = "0x6000621")]
-		[Address(RVA = "0x50F5600", Offset = "0x50F5600", VA = "0x50F5600")]
+		[Token(Token = "0x6000648")]
+		[Address(RVA = "0x32FBE90", Offset = "0x32FA490", VA = "0x1832FBE90")]
 		[CompilerGenerated]
 		set
 		{
@@ -464,17 +174,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A8")]
-	public float altitudeAngle
+	public bool eligibleForClick
 	{
-		[Token(Token = "0x6000622")]
-		[Address(RVA = "0x50F5610", Offset = "0x50F5610", VA = "0x50F5610")]
+		[Token(Token = "0x6000649")]
+		[Address(RVA = "0x32FBA10", Offset = "0x32FA010", VA = "0x1832FBA10")]
 		[CompilerGenerated]
 		get
 		{
-			return default(float);
+			return default(bool);
 		}
-		[Token(Token = "0x6000623")]
-		[Address(RVA = "0x50F5620", Offset = "0x50F5620", VA = "0x50F5620")]
+		[Token(Token = "0x600064A")]
+		[Address(RVA = "0x32FBE00", Offset = "0x32FA400", VA = "0x1832FBE00")]
 		[CompilerGenerated]
 		set
 		{
@@ -482,17 +192,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001A9")]
-	public float azimuthAngle
+	public int displayIndex
 	{
-		[Token(Token = "0x6000624")]
-		[Address(RVA = "0x50F5630", Offset = "0x50F5630", VA = "0x50F5630")]
+		[Token(Token = "0x600064B")]
+		[Address(RVA = "0x32FB9F0", Offset = "0x32F9FF0", VA = "0x1832FB9F0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(float);
+			return default(int);
 		}
-		[Token(Token = "0x6000625")]
-		[Address(RVA = "0x50F5640", Offset = "0x50F5640", VA = "0x50F5640")]
+		[Token(Token = "0x600064C")]
+		[Address(RVA = "0x32FBDE0", Offset = "0x32FA3E0", VA = "0x1832FBDE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -500,17 +210,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AA")]
-	public float twist
+	public int pointerId
 	{
-		[Token(Token = "0x6000626")]
-		[Address(RVA = "0x50F5650", Offset = "0x50F5650", VA = "0x50F5650")]
+		[Token(Token = "0x600064D")]
+		[Address(RVA = "0x32FBB30", Offset = "0x32FA130", VA = "0x1832FBB30")]
 		[CompilerGenerated]
 		get
 		{
-			return default(float);
+			return default(int);
 		}
-		[Token(Token = "0x6000627")]
-		[Address(RVA = "0x50F5660", Offset = "0x50F5660", VA = "0x50F5660")]
+		[Token(Token = "0x600064E")]
+		[Address(RVA = "0x32FBE80", Offset = "0x32FA480", VA = "0x1832FBE80")]
 		[CompilerGenerated]
 		set
 		{
@@ -518,17 +228,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AB")]
-	public Vector2 tilt
+	public Vector2 position
 	{
-		[Token(Token = "0x6000628")]
-		[Address(RVA = "0x50F5670", Offset = "0x50F5670", VA = "0x50F5670")]
+		[Token(Token = "0x600064F")]
+		[Address(RVA = "0x32FBB90", Offset = "0x32FA190", VA = "0x1832FBB90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
-		[Token(Token = "0x6000629")]
-		[Address(RVA = "0x50F5680", Offset = "0x50F5680", VA = "0x50F5680")]
+		[Token(Token = "0x6000650")]
+		[Address(RVA = "0x32FBF80", Offset = "0x32FA580", VA = "0x1832FBF80")]
 		[CompilerGenerated]
 		set
 		{
@@ -536,17 +246,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AC")]
-	public PenStatus penStatus
+	public Vector2 delta
 	{
-		[Token(Token = "0x600062A")]
-		[Address(RVA = "0x50F5690", Offset = "0x50F5690", VA = "0x50F5690")]
+		[Token(Token = "0x6000651")]
+		[Address(RVA = "0x32FB9D0", Offset = "0x32F9FD0", VA = "0x1832FB9D0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(PenStatus);
+			return default(Vector2);
 		}
-		[Token(Token = "0x600062B")]
-		[Address(RVA = "0x50F56A0", Offset = "0x50F56A0", VA = "0x50F56A0")]
+		[Token(Token = "0x6000652")]
+		[Address(RVA = "0x32FBDD0", Offset = "0x32FA3D0", VA = "0x1832FBDD0")]
 		[CompilerGenerated]
 		set
 		{
@@ -554,17 +264,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AD")]
-	public Vector2 radius
+	public Vector2 pressPosition
 	{
-		[Token(Token = "0x600062C")]
-		[Address(RVA = "0x50F56B0", Offset = "0x50F56B0", VA = "0x50F56B0")]
+		[Token(Token = "0x6000653")]
+		[Address(RVA = "0x32FBC50", Offset = "0x32FA250", VA = "0x1832FBC50")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
-		[Token(Token = "0x600062D")]
-		[Address(RVA = "0x50F56C0", Offset = "0x50F56C0", VA = "0x50F56C0")]
+		[Token(Token = "0x6000654")]
+		[Address(RVA = "0x32FBF90", Offset = "0x32FA590", VA = "0x1832FBF90")]
 		[CompilerGenerated]
 		set
 		{
@@ -572,17 +282,18 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AE")]
-	public Vector2 radiusVariance
+	[Obsolete("Use either pointerCurrentRaycast.worldPosition or pointerPressRaycast.worldPosition")]
+	public Vector3 worldPosition
 	{
-		[Token(Token = "0x600062E")]
-		[Address(RVA = "0x50F56D0", Offset = "0x50F56D0", VA = "0x50F56D0")]
+		[Token(Token = "0x6000655")]
+		[Address(RVA = "0x32FBD60", Offset = "0x32FA360", VA = "0x1832FBD60")]
 		[CompilerGenerated]
 		get
 		{
-			return default(Vector2);
+			return default(Vector3);
 		}
-		[Token(Token = "0x600062F")]
-		[Address(RVA = "0x50F56E0", Offset = "0x50F56E0", VA = "0x50F56E0")]
+		[Token(Token = "0x6000656")]
+		[Address(RVA = "0x32FC040", Offset = "0x32FA640", VA = "0x1832FC040")]
 		[CompilerGenerated]
 		set
 		{
@@ -590,17 +301,18 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001AF")]
-	public bool fullyExited
+	[Obsolete("Use either pointerCurrentRaycast.worldNormal or pointerPressRaycast.worldNormal")]
+	public Vector3 worldNormal
 	{
-		[Token(Token = "0x6000630")]
-		[Address(RVA = "0x50F56F0", Offset = "0x50F56F0", VA = "0x50F56F0")]
+		[Token(Token = "0x6000657")]
+		[Address(RVA = "0x32FBD40", Offset = "0x32FA340", VA = "0x1832FBD40")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return default(Vector3);
 		}
-		[Token(Token = "0x6000631")]
-		[Address(RVA = "0x50F5700", Offset = "0x50F5700", VA = "0x50F5700")]
+		[Token(Token = "0x6000658")]
+		[Address(RVA = "0x32FC020", Offset = "0x32FA620", VA = "0x1832FC020")]
 		[CompilerGenerated]
 		set
 		{
@@ -608,17 +320,17 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001B0")]
-	public bool reentered
+	public float clickTime
 	{
-		[Token(Token = "0x6000632")]
-		[Address(RVA = "0x50F5710", Offset = "0x50F5710", VA = "0x50F5710")]
+		[Token(Token = "0x6000659")]
+		[Address(RVA = "0x32FB9C0", Offset = "0x32F9FC0", VA = "0x1832FB9C0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return default(float);
 		}
-		[Token(Token = "0x6000633")]
-		[Address(RVA = "0x50F5720", Offset = "0x50F5720", VA = "0x50F5720")]
+		[Token(Token = "0x600065A")]
+		[Address(RVA = "0x32FBDC0", Offset = "0x32FA3C0", VA = "0x1832FBDC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -626,65 +338,353 @@ public class PointerEventData : BaseEventData
 	}
 
 	[Token(Token = "0x170001B1")]
-	public Camera enterEventCamera
+	public int clickCount
 	{
-		[Token(Token = "0x6000637")]
-		[Address(RVA = "0x50F58D0", Offset = "0x50F58D0", VA = "0x50F58D0")]
+		[Token(Token = "0x600065B")]
+		[Address(RVA = "0x2602C40", Offset = "0x2601240", VA = "0x182602C40")]
+		[CompilerGenerated]
 		get
 		{
-			return null;
+			return default(int);
 		}
-	}
-
-	[Token(Token = "0x170001B2")]
-	public Camera pressEventCamera
-	{
-		[Token(Token = "0x6000638")]
-		[Address(RVA = "0x50F5960", Offset = "0x50F5960", VA = "0x50F5960")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170001B3")]
-	public GameObject pointerPress
-	{
-		[Token(Token = "0x6000639")]
-		[Address(RVA = "0x50F59F0", Offset = "0x50F59F0", VA = "0x50F59F0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x50F5A00", Offset = "0x50F5A00", VA = "0x50F5A00")]
+		[Token(Token = "0x600065C")]
+		[Address(RVA = "0x32FBDB0", Offset = "0x32FA3B0", VA = "0x1832FBDB0")]
+		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x50F5730", Offset = "0x50F5730", VA = "0x50F5730")]
+	[Token(Token = "0x170001B2")]
+	public Vector2 scrollDelta
+	{
+		[Token(Token = "0x600065D")]
+		[Address(RVA = "0x32FBCD0", Offset = "0x32FA2D0", VA = "0x1832FBCD0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x600065E")]
+		[Address(RVA = "0x32FBFE0", Offset = "0x32FA5E0", VA = "0x1832FBFE0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B3")]
+	public bool useDragThreshold
+	{
+		[Token(Token = "0x600065F")]
+		[Address(RVA = "0x32FBD30", Offset = "0x32FA330", VA = "0x1832FBD30")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000660")]
+		[Address(RVA = "0x319B010", Offset = "0x3199610", VA = "0x18319B010")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B4")]
+	public bool dragging
+	{
+		[Token(Token = "0x6000661")]
+		[Address(RVA = "0x32FBA00", Offset = "0x32FA000", VA = "0x1832FBA00")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000662")]
+		[Address(RVA = "0x32FBDF0", Offset = "0x32FA3F0", VA = "0x1832FBDF0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B5")]
+	public InputButton button
+	{
+		[Token(Token = "0x6000663")]
+		[Address(RVA = "0x2D07410", Offset = "0x2D05A10", VA = "0x182D07410")]
+		[CompilerGenerated]
+		get
+		{
+			return default(InputButton);
+		}
+		[Token(Token = "0x6000664")]
+		[Address(RVA = "0x32FBDA0", Offset = "0x32FA3A0", VA = "0x1832FBDA0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B6")]
+	public float pressure
+	{
+		[Token(Token = "0x6000665")]
+		[Address(RVA = "0x32FBC70", Offset = "0x32FA270", VA = "0x1832FBC70")]
+		[CompilerGenerated]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000666")]
+		[Address(RVA = "0x32FBFA0", Offset = "0x32FA5A0", VA = "0x1832FBFA0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B7")]
+	public float tangentialPressure
+	{
+		[Token(Token = "0x6000667")]
+		[Address(RVA = "0x32FBCF0", Offset = "0x32FA2F0", VA = "0x1832FBCF0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000668")]
+		[Address(RVA = "0x32FBFF0", Offset = "0x32FA5F0", VA = "0x1832FBFF0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B8")]
+	public float altitudeAngle
+	{
+		[Token(Token = "0x6000669")]
+		[Address(RVA = "0x32FB9B0", Offset = "0x32F9FB0", VA = "0x1832FB9B0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x600066A")]
+		[Address(RVA = "0x32FBD80", Offset = "0x32FA380", VA = "0x1832FBD80")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001B9")]
+	public float azimuthAngle
+	{
+		[Token(Token = "0x600066B")]
+		[Address(RVA = "0x2AF7E10", Offset = "0x2AF6410", VA = "0x182AF7E10")]
+		[CompilerGenerated]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x600066C")]
+		[Address(RVA = "0x32FBD90", Offset = "0x32FA390", VA = "0x1832FBD90")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BA")]
+	public float twist
+	{
+		[Token(Token = "0x600066D")]
+		[Address(RVA = "0x32FBD20", Offset = "0x32FA320", VA = "0x1832FBD20")]
+		[CompilerGenerated]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x600066E")]
+		[Address(RVA = "0x32FC010", Offset = "0x32FA610", VA = "0x1832FC010")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BB")]
+	public Vector2 tilt
+	{
+		[Token(Token = "0x600066F")]
+		[Address(RVA = "0x32FBD00", Offset = "0x32FA300", VA = "0x1832FBD00")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000670")]
+		[Address(RVA = "0x32FC000", Offset = "0x32FA600", VA = "0x1832FC000")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BC")]
+	public PenStatus penStatus
+	{
+		[Token(Token = "0x6000671")]
+		[Address(RVA = "0x32FBAD0", Offset = "0x32FA0D0", VA = "0x1832FBAD0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(PenStatus);
+		}
+		[Token(Token = "0x6000672")]
+		[Address(RVA = "0x32FBE20", Offset = "0x32FA420", VA = "0x1832FBE20")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BD")]
+	public Vector2 radius
+	{
+		[Token(Token = "0x6000673")]
+		[Address(RVA = "0x32FBCA0", Offset = "0x32FA2A0", VA = "0x1832FBCA0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000674")]
+		[Address(RVA = "0x32FBFC0", Offset = "0x32FA5C0", VA = "0x1832FBFC0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BE")]
+	public Vector2 radiusVariance
+	{
+		[Token(Token = "0x6000675")]
+		[Address(RVA = "0x32FBC80", Offset = "0x32FA280", VA = "0x1832FBC80")]
+		[CompilerGenerated]
+		get
+		{
+			return default(Vector2);
+		}
+		[Token(Token = "0x6000676")]
+		[Address(RVA = "0x32FBFB0", Offset = "0x32FA5B0", VA = "0x1832FBFB0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001BF")]
+	public bool fullyExited
+	{
+		[Token(Token = "0x6000677")]
+		[Address(RVA = "0x32FBAC0", Offset = "0x32FA0C0", VA = "0x1832FBAC0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000678")]
+		[Address(RVA = "0x32FBE10", Offset = "0x32FA410", VA = "0x1832FBE10")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001C0")]
+	public bool reentered
+	{
+		[Token(Token = "0x6000679")]
+		[Address(RVA = "0x32FBCC0", Offset = "0x32FA2C0", VA = "0x1832FBCC0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x600067A")]
+		[Address(RVA = "0x32FBFD0", Offset = "0x32FA5D0", VA = "0x1832FBFD0")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x170001C1")]
+	public Camera enterEventCamera
+	{
+		[Token(Token = "0x600067E")]
+		[Address(RVA = "0x32FBA20", Offset = "0x32FA020", VA = "0x1832FBA20")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170001C2")]
+	public Camera pressEventCamera
+	{
+		[Token(Token = "0x600067F")]
+		[Address(RVA = "0x32FBBB0", Offset = "0x32FA1B0", VA = "0x1832FBBB0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170001C3")]
+	public GameObject pointerPress
+	{
+		[Token(Token = "0x6000680")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000681")]
+		[Address(RVA = "0x32FBEF0", Offset = "0x32FA4F0", VA = "0x1832FBEF0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x600067B")]
+	[Address(RVA = "0x32FB750", Offset = "0x32F9D50", VA = "0x1832FB750")]
 	public PointerEventData(EventSystem eventSystem)
 	{
 	}
 
-	[Token(Token = "0x6000635")]
-	[Address(RVA = "0x50F5890", Offset = "0x50F5890", VA = "0x50F5890")]
+	[Token(Token = "0x600067C")]
+	[Address(RVA = "0x32FB010", Offset = "0x32F9610", VA = "0x1832FB010")]
 	public bool IsPointerMoving()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x50F58B0", Offset = "0x50F58B0", VA = "0x50F58B0")]
+	[Token(Token = "0x600067D")]
+	[Address(RVA = "0x32FB040", Offset = "0x32F9640", VA = "0x1832FB040")]
 	public bool IsScrolling()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600063B")]
-	[Address(RVA = "0x50F5A80", Offset = "0x50F5A80", VA = "0x50F5A80", Slot = "3")]
+	[Token(Token = "0x6000682")]
+	[Address(RVA = "0x32FB070", Offset = "0x32F9670", VA = "0x1832FB070", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

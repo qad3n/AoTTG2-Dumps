@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000027")]
+[Token(Token = "0x2000025")]
 public class OpJoinRandomRoomParams
 {
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x10")]
 	public Hashtable ExpectedCustomRoomProperties;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x18")]
 	public byte ExpectedMaxPlayers;
 
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x40000DB")]
 	[FieldOffset(Offset = "0x19")]
 	public MatchmakingMode MatchingType;
 
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x20")]
 	public TypedLobby TypedLobby;
 
-	[Token(Token = "0x40000E2")]
+	[Token(Token = "0x40000DD")]
 	[FieldOffset(Offset = "0x28")]
 	public string SqlLobbyFilter;
 
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x40000DE")]
 	[FieldOffset(Offset = "0x30")]
 	public string[] ExpectedUsers;
 
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x3EC1A50", Offset = "0x3EC1A50", VA = "0x3EC1A50")]
+	[Token(Token = "0x600011B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public OpJoinRandomRoomParams()
 	{
 	}

@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Metadata;
 
-[Token(Token = "0x2000392")]
+[Token(Token = "0x20003C1")]
 [AttributeUsage(AttributeTargets.Parameter)]
 [ComVisible(true)]
 public sealed class SoapParameterAttribute : SoapAttribute
 {
-	[Token(Token = "0x6001DD8")]
-	[Address(RVA = "0x3B845E0", Offset = "0x3B845E0", VA = "0x3B845E0")]
+	[Token(Token = "0x6001E47")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public SoapParameterAttribute()
 	{
 	}

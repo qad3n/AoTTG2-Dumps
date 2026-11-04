@@ -16,108 +16,108 @@ namespace Unity.VisualScripting;
 [SerializationVersion("A", new Type[] { })]
 public sealed class VariableDeclarations : IEnumerable<VariableDeclaration>, IEnumerable, ISpecifiesCloner
 {
-	[Token(Token = "0x4000949")]
+	[Token(Token = "0x4000947")]
 	[FieldOffset(Offset = "0x10")]
 	public VariableKind Kind;
 
-	[Token(Token = "0x400094A")]
+	[Token(Token = "0x4000948")]
 	[FieldOffset(Offset = "0x18")]
 	[Serialize]
 	[InspectorWide(true)]
 	private VariableDeclarationCollection collection;
 
-	[Token(Token = "0x400094B")]
+	[Token(Token = "0x4000949")]
 	[FieldOffset(Offset = "0x20")]
 	internal Action OnVariableChanged;
 
-	[Token(Token = "0x170001EB")]
+	[Token(Token = "0x170001EE")]
 	public object this[[InspectorVariableName(ActionDirection.Any)] string variable]
 	{
-		[Token(Token = "0x6001129")]
-		[Address(RVA = "0x4D66270", Offset = "0x4D66270", VA = "0x4D66270")]
+		[Token(Token = "0x6001136")]
+		[Address(RVA = "0x2E5B590", Offset = "0x2E59B90", VA = "0x182E5B590")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600112A")]
-		[Address(RVA = "0x4D66280", Offset = "0x4D66280", VA = "0x4D66280")]
+		[Token(Token = "0x6001137")]
+		[Address(RVA = "0x2E5B330", Offset = "0x2E59930", VA = "0x182E5B330")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001EC")]
+	[Token(Token = "0x170001EF")]
 	private ICloner Unity_002EVisualScripting_002EISpecifiesCloner_002Ecloner
 	{
-		[Token(Token = "0x6001134")]
-		[Address(RVA = "0x4D67030", Offset = "0x4D67030", VA = "0x4D67030", Slot = "6")]
+		[Token(Token = "0x6001141")]
+		[Address(RVA = "0x2E5B4B0", Offset = "0x2E59AB0", VA = "0x182E5B4B0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001128")]
-	[Address(RVA = "0x4D66120", Offset = "0x4D66120", VA = "0x4D66120")]
+	[Token(Token = "0x6001135")]
+	[Address(RVA = "0x2E5B500", Offset = "0x2E59B00", VA = "0x182E5B500")]
 	public VariableDeclarations()
 	{
 	}
 
-	[Token(Token = "0x600112B")]
-	[Address(RVA = "0x4D66D20", Offset = "0x4D66D20", VA = "0x4D66D20")]
+	[Token(Token = "0x6001138")]
+	[Address(RVA = "0x2E5B330", Offset = "0x2E59930", VA = "0x182E5B330")]
 	public void Set([InspectorVariableName(ActionDirection.Set)] string variable, object value)
 	{
 	}
 
-	[Token(Token = "0x600112C")]
-	[Address(RVA = "0x4D66C20", Offset = "0x4D66C20", VA = "0x4D66C20")]
+	[Token(Token = "0x6001139")]
+	[Address(RVA = "0x2E5B0B0", Offset = "0x2E596B0", VA = "0x182E5B0B0")]
 	public object Get([InspectorVariableName(ActionDirection.Get)] string variable)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600112D")]
+	[Token(Token = "0x600113A")]
 	public T Get<T>([InspectorVariableName(ActionDirection.Get)] string variable)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x4D66E50", Offset = "0x4D66E50", VA = "0x4D66E50")]
+	[Token(Token = "0x600113B")]
+	[Address(RVA = "0x2E5B1F0", Offset = "0x2E597F0", VA = "0x182E5B1F0")]
 	public object Get([InspectorVariableName(ActionDirection.Get)] string variable, Type expectedType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600112F")]
-	[Address(RVA = "0x4D66EC0", Offset = "0x4D66EC0", VA = "0x4D66EC0")]
+	[Token(Token = "0x600113C")]
+	[Address(RVA = "0x2E5AF50", Offset = "0x2E59550", VA = "0x182E5AF50")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001130")]
-	[Address(RVA = "0x4D661B0", Offset = "0x4D661B0", VA = "0x4D661B0")]
+	[Token(Token = "0x600113D")]
+	[Address(RVA = "0x2E5B270", Offset = "0x2E59870", VA = "0x182E5B270")]
 	public bool IsDefined([InspectorVariableName(ActionDirection.Any)] string variable)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x4D66F00", Offset = "0x4D66F00", VA = "0x4D66F00")]
+	[Token(Token = "0x600113E")]
+	[Address(RVA = "0x2E5AFA0", Offset = "0x2E595A0", VA = "0x182E5AFA0")]
 	public VariableDeclaration GetDeclaration(string variable)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x4D66290", Offset = "0x4D66290", VA = "0x4D66290", Slot = "4")]
+	[Token(Token = "0x600113F")]
+	[Address(RVA = "0x2E5B060", Offset = "0x2E59660", VA = "0x182E5B060", Slot = "4")]
 	public IEnumerator<VariableDeclaration> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001133")]
-	[Address(RVA = "0x4D66FA0", Offset = "0x4D66FA0", VA = "0x4D66FA0", Slot = "5")]
+	[Token(Token = "0x6001140")]
+	[Address(RVA = "0x2E5B460", Offset = "0x2E59A60", VA = "0x182E5B460", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

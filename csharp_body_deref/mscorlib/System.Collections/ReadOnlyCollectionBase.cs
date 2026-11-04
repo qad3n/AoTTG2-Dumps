@@ -10,72 +10,72 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x200060E")]
+[Token(Token = "0x20005E2")]
 public abstract class ReadOnlyCollectionBase : ICollection, IEnumerable
 {
-	[Token(Token = "0x4001A71")]
+	[Token(Token = "0x400188C")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList _list;
 
-	[Token(Token = "0x1700074C")]
+	[Token(Token = "0x170006DB")]
 	protected ArrayList InnerList
 	{
-		[Token(Token = "0x6002F38")]
-		[Address(RVA = "0x3C80DD0", Offset = "0x3C80DD0", VA = "0x3C80DD0")]
+		[Token(Token = "0x6002C49")]
+		[Address(RVA = "0x1AC44A0", Offset = "0x1AC2AA0", VA = "0x181AC44A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700074D")]
+	[Token(Token = "0x170006DC")]
 	public virtual int Count
 	{
-		[Token(Token = "0x6002F39")]
-		[Address(RVA = "0x3C80E50", Offset = "0x3C80E50", VA = "0x3C80E50", Slot = "9")]
+		[Token(Token = "0x6002C4A")]
+		[Address(RVA = "0x1AC4410", Offset = "0x1AC2A10", VA = "0x181AC4410", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700074E")]
+	[Token(Token = "0x170006DD")]
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
-		[Token(Token = "0x6002F3A")]
-		[Address(RVA = "0x3C80ED0", Offset = "0x3C80ED0", VA = "0x3C80ED0", Slot = "7")]
+		[Token(Token = "0x6002C4B")]
+		[Address(RVA = "0x1AC42F0", Offset = "0x1AC28F0", VA = "0x181AC42F0", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700074F")]
+	[Token(Token = "0x170006DE")]
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
-		[Token(Token = "0x6002F3B")]
-		[Address(RVA = "0x3C80F50", Offset = "0x3C80F50", VA = "0x3C80F50", Slot = "6")]
+		[Token(Token = "0x6002C4C")]
+		[Address(RVA = "0x1AC4380", Offset = "0x1AC2980", VA = "0x181AC4380", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002F3C")]
-	[Address(RVA = "0x3C80FD0", Offset = "0x3C80FD0", VA = "0x3C80FD0", Slot = "4")]
+	[Token(Token = "0x6002C4D")]
+	[Address(RVA = "0x1AC4240", Offset = "0x1AC2840", VA = "0x181AC4240", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6002F3D")]
-	[Address(RVA = "0x3C81070", Offset = "0x3C81070", VA = "0x3C81070", Slot = "10")]
+	[Token(Token = "0x6002C4E")]
+	[Address(RVA = "0x1AC41B0", Offset = "0x1AC27B0", VA = "0x181AC41B0", Slot = "10")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002F3E")]
-	[Address(RVA = "0x3C810F0", Offset = "0x3C810F0", VA = "0x3C810F0")]
+	[Token(Token = "0x6002C4F")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ReadOnlyCollectionBase()
 	{
 	}

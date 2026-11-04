@@ -7,39 +7,41 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
 [Serializable]
-[Token(Token = "0x2000051")]
+[Token(Token = "0x2000087")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal class SerializedVirtualizationData
 {
-	[Token(Token = "0x4000157")]
+	[Token(Token = "0x400025A")]
 	[FieldOffset(Offset = "0x10")]
 	public Vector2 scrollOffset;
 
-	[Token(Token = "0x4000158")]
+	[Token(Token = "0x400025B")]
 	[FieldOffset(Offset = "0x18")]
 	public int firstVisibleIndex;
 
-	[Token(Token = "0x4000159")]
+	[Token(Token = "0x400025C")]
 	[FieldOffset(Offset = "0x1C")]
 	public float contentPadding;
 
-	[Token(Token = "0x400015A")]
+	[Token(Token = "0x400025D")]
 	[FieldOffset(Offset = "0x20")]
 	public float contentHeight;
 
-	[Token(Token = "0x400015B")]
+	[Token(Token = "0x400025E")]
 	[FieldOffset(Offset = "0x24")]
 	public int anchoredItemIndex;
 
-	[Token(Token = "0x400015C")]
+	[Token(Token = "0x400025F")]
 	[FieldOffset(Offset = "0x28")]
 	public float anchorOffset;
 
-	[Token(Token = "0x60002C0")]
-	[Address(RVA = "0x4F278C0", Offset = "0x4F278C0", VA = "0x4F278C0")]
+	[Token(Token = "0x6000462")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public SerializedVirtualizationData()
 	{
 	}

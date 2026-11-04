@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x200001B")]
 public static class TMP_Compatibility
 {
-	[Token(Token = "0x200002B")]
+	[Token(Token = "0x200001C")]
 	public enum AnchorPositions
 	{
-		[Token(Token = "0x4000159")]
+		[Token(Token = "0x4000076")]
 		TopLeft,
-		[Token(Token = "0x400015A")]
+		[Token(Token = "0x4000077")]
 		Top,
-		[Token(Token = "0x400015B")]
+		[Token(Token = "0x4000078")]
 		TopRight,
-		[Token(Token = "0x400015C")]
+		[Token(Token = "0x4000079")]
 		Left,
-		[Token(Token = "0x400015D")]
+		[Token(Token = "0x400007A")]
 		Center,
-		[Token(Token = "0x400015E")]
+		[Token(Token = "0x400007B")]
 		Right,
-		[Token(Token = "0x400015F")]
+		[Token(Token = "0x400007C")]
 		BottomLeft,
-		[Token(Token = "0x4000160")]
+		[Token(Token = "0x400007D")]
 		Bottom,
-		[Token(Token = "0x4000161")]
+		[Token(Token = "0x400007E")]
 		BottomRight,
-		[Token(Token = "0x4000162")]
+		[Token(Token = "0x400007F")]
 		BaseLine,
-		[Token(Token = "0x4000163")]
+		[Token(Token = "0x4000080")]
 		None
 	}
 
-	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x4C45580", Offset = "0x4C45580", VA = "0x4C45580")]
+	[Token(Token = "0x6000081")]
+	[Address(RVA = "0x2CDFF20", Offset = "0x2CDE520", VA = "0x182CDFF20")]
 	public static TextAlignmentOptions ConvertTextAlignmentEnumValues(TextAlignmentOptions oldValue)
 	{
 		return default(TextAlignmentOptions);

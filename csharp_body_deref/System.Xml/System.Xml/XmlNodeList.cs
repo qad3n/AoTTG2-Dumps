@@ -26,7 +26,7 @@ public abstract class XmlNodeList : IEnumerable, IDisposable
 	public virtual XmlNode this[int i]
 	{
 		[Token(Token = "0x60009B5")]
-		[Address(RVA = "0x47DF320", Offset = "0x47DF320", VA = "0x47DF320", Slot = "9")]
+		[Address(RVA = "0x19C4B60", Offset = "0x19C3160", VA = "0x1819C4B60", Slot = "9")]
 		get
 		{
 			return null;
@@ -40,19 +40,19 @@ public abstract class XmlNodeList : IEnumerable, IDisposable
 	public abstract IEnumerator GetEnumerator();
 
 	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x47DF340", Offset = "0x47DF340", VA = "0x47DF340", Slot = "5")]
+	[Address(RVA = "0x209B220", Offset = "0x2099820", VA = "0x18209B220", Slot = "5")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x47DF360", Offset = "0x47DF360", VA = "0x47DF360", Slot = "10")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected virtual void PrivateDisposeNodeList()
 	{
 	}
 
 	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x47DF370", Offset = "0x47DF370", VA = "0x47DF370")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlNodeList()
 	{
 	}

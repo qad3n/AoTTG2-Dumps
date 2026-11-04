@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x2000042")]
 internal delegate void DataRowCreatedEventHandler(object sender, DataRow r);

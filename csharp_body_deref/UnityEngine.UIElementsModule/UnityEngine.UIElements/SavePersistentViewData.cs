@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000240")]
+[Token(Token = "0x20002BC")]
 internal delegate void SavePersistentViewData();

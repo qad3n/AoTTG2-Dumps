@@ -10,15 +10,15 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x200000D")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct UICharInfo
 {
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400003F")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector2 cursorPos;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x4000040")]
 	[FieldOffset(Offset = "0x8")]
 	public float charWidth;
 }

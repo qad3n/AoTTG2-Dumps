@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Layout.LayoutState
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,34 +10,38 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200052B")]
+[Token(Token = "0x2000622")]
 internal struct LayoutState
 {
-	[Token(Token = "0x400116B")]
+	[Token(Token = "0x4001706")]
 	[FieldOffset(Offset = "0x0")]
 	public IntPtr measureFunctionCallback;
 
-	[Token(Token = "0x400116C")]
+	[Token(Token = "0x4001707")]
 	[FieldOffset(Offset = "0x8")]
 	public IntPtr baselineFunctionCallback;
 
-	[Token(Token = "0x400116D")]
+	[Token(Token = "0x4001708")]
 	[FieldOffset(Offset = "0x10")]
+	public IntPtr unusedExceptionPointer;
+
+	[Token(Token = "0x4001709")]
+	[FieldOffset(Offset = "0x18")]
 	public uint depth;
 
-	[Token(Token = "0x400116E")]
-	[FieldOffset(Offset = "0x14")]
+	[Token(Token = "0x400170A")]
+	[FieldOffset(Offset = "0x1C")]
 	public uint currentGenerationCount;
 
-	[Token(Token = "0x400116F")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x400170B")]
+	[FieldOffset(Offset = "0x20")]
 	public bool error;
 
-	[Token(Token = "0x170007FB")]
+	[Token(Token = "0x17000B0E")]
 	public static LayoutState Default
 	{
-		[Token(Token = "0x6001F68")]
-		[Address(RVA = "0x4FBC5D0", Offset = "0x4FBC5D0", VA = "0x4FBC5D0")]
+		[Token(Token = "0x6002CBA")]
+		[Address(RVA = "0x31C2E40", Offset = "0x31C1440", VA = "0x1831C2E40")]
 		get
 		{
 			return default(LayoutState);

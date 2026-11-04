@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice.IOS;
 
-[Token(Token = "0x20000B0")]
+[Token(Token = "0x20000B2")]
 public enum AudioSessionCategoryOption
 {
-	[Token(Token = "0x40002DD")]
+	[Token(Token = "0x40002E6")]
 	MixWithOthers = 1,
-	[Token(Token = "0x40002DE")]
+	[Token(Token = "0x40002E7")]
 	DuckOthers = 2,
-	[Token(Token = "0x40002DF")]
+	[Token(Token = "0x40002E8")]
 	AllowBluetooth = 4,
-	[Token(Token = "0x40002E0")]
+	[Token(Token = "0x40002E9")]
 	DefaultToSpeaker = 8
 }

@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200012E")]
 public class OrHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000C4C")]
-	[Address(RVA = "0x4D2EF70", Offset = "0x4D2EF70", VA = "0x4D2EF70")]
+	[Token(Token = "0x6000C56")]
+	[Address(RVA = "0x2E1D4D0", Offset = "0x2E1BAD0", VA = "0x182E1D4D0")]
 	public OrHandler()
 	{
 	}

@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x2000599")]
+[Token(Token = "0x200056D")]
 [Flags]
 internal enum MonthNameStyles
 {
-	[Token(Token = "0x4001783")]
+	[Token(Token = "0x40015D4")]
 	Regular = 0,
-	[Token(Token = "0x4001784")]
+	[Token(Token = "0x40015D5")]
 	Genitive = 1,
-	[Token(Token = "0x4001785")]
+	[Token(Token = "0x40015D6")]
 	LeapYear = 2
 }

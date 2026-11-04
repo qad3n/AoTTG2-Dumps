@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004E1")]
+[Token(Token = "0x200063A")]
 internal abstract class RechargeableUseable : ExtendedUseable
 {
-	[Token(Token = "0x40015B1")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4001C23")]
+	[FieldOffset(Offset = "0x40")]
 	public float ReduceCooldownAmount;
 
-	[Token(Token = "0x60033B8")]
-	[Address(RVA = "0x41A9220", Offset = "0x41A9220", VA = "0x41A9220")]
+	[Token(Token = "0x6003D9A")]
+	[Address(RVA = "0x211CF80", Offset = "0x211B580", VA = "0x18211CF80")]
 	public RechargeableUseable(BaseCharacter owner, float reduceCooldownAmount = 0f)
 	{
 	}
 
-	[Token(Token = "0x60033B9")]
-	[Address(RVA = "0x41A9280", Offset = "0x41A9280", VA = "0x41A9280")]
+	[Token(Token = "0x6003D9B")]
+	[Address(RVA = "0x211CF70", Offset = "0x211B570", VA = "0x18211CF70")]
 	public void ReduceCooldown()
 	{
 	}

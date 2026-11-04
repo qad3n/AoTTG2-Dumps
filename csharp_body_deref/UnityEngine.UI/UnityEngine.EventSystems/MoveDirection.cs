@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000C2")]
+[Token(Token = "0x20000C4")]
 public enum MoveDirection
 {
-	[Token(Token = "0x400033E")]
+	[Token(Token = "0x4000363")]
 	Left,
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x4000364")]
 	Up,
-	[Token(Token = "0x4000340")]
+	[Token(Token = "0x4000365")]
 	Right,
-	[Token(Token = "0x4000341")]
+	[Token(Token = "0x4000366")]
 	Down,
-	[Token(Token = "0x4000342")]
+	[Token(Token = "0x4000367")]
 	None
 }

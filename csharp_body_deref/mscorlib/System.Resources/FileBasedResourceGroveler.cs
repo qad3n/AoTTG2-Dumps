@@ -12,35 +12,35 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B6")]
+[Token(Token = "0x20004E6")]
 internal class FileBasedResourceGroveler : System.Resources.IResourceGroveler
 {
 	[Token(Token = "0x4001371")]
 	[FieldOffset(Offset = "0x10")]
 	private ResourceManager.ResourceManagerMediator _mediator;
 
-	[Token(Token = "0x6002361")]
-	[Address(RVA = "0x3BC6140", Offset = "0x3BC6140", VA = "0x3BC6140")]
+	[Token(Token = "0x60023E3")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public FileBasedResourceGroveler(ResourceManager.ResourceManagerMediator mediator)
 	{
 	}
 
-	[Token(Token = "0x6002362")]
-	[Address(RVA = "0x3BC6170", Offset = "0x3BC6170", VA = "0x3BC6170", Slot = "4")]
+	[Token(Token = "0x60023E4")]
+	[Address(RVA = "0x1A45F00", Offset = "0x1A44500", VA = "0x181A45F00", Slot = "4")]
 	public ResourceSet GrovelForResourceSet(CultureInfo culture, Dictionary<string, ResourceSet> localResourceSets, bool tryParents, bool createIfNotExists, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002363")]
-	[Address(RVA = "0x3BC6410", Offset = "0x3BC6410", VA = "0x3BC6410")]
+	[Token(Token = "0x60023E5")]
+	[Address(RVA = "0x1A45E40", Offset = "0x1A44440", VA = "0x181A45E40")]
 	private string FindResourceFile(CultureInfo culture, string fileName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002364")]
-	[Address(RVA = "0x3BC64C0", Offset = "0x3BC64C0", VA = "0x3BC64C0")]
+	[Token(Token = "0x60023E6")]
+	[Address(RVA = "0x1A45A70", Offset = "0x1A44070", VA = "0x181A45A70")]
 	private ResourceSet CreateResourceSet(string file)
 	{
 		return null;

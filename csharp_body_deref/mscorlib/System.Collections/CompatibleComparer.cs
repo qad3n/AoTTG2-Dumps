@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x2000607")]
+[Token(Token = "0x20005DB")]
 internal sealed class CompatibleComparer : IEqualityComparer
 {
-	[Token(Token = "0x4001A61")]
+	[Token(Token = "0x400187C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly IHashCodeProvider _hcp;
 
-	[Token(Token = "0x4001A62")]
+	[Token(Token = "0x400187D")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly IComparer _comparer;
 
-	[Token(Token = "0x1700073E")]
+	[Token(Token = "0x170006CB")]
 	internal IHashCodeProvider HashCodeProvider
 	{
-		[Token(Token = "0x6002EFD")]
-		[Address(RVA = "0x3C7EBA0", Offset = "0x3C7EBA0", VA = "0x3C7EBA0")]
+		[Token(Token = "0x6002C0C")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700073F")]
+	[Token(Token = "0x170006CC")]
 	internal IComparer Comparer
 	{
-		[Token(Token = "0x6002EFE")]
-		[Address(RVA = "0x3C7EBB0", Offset = "0x3C7EBB0", VA = "0x3C7EBB0")]
+		[Token(Token = "0x6002C0D")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002EFC")]
-	[Address(RVA = "0x3C7EB60", Offset = "0x3C7EB60", VA = "0x3C7EB60")]
+	[Token(Token = "0x6002C0B")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	internal CompatibleComparer(IHashCodeProvider hashCodeProvider, IComparer comparer)
 	{
 	}
 
-	[Token(Token = "0x6002EFF")]
-	[Address(RVA = "0x3C7EBC0", Offset = "0x3C7EBC0", VA = "0x3C7EBC0", Slot = "4")]
+	[Token(Token = "0x6002C0E")]
+	[Address(RVA = "0x1AB9510", Offset = "0x1AB7B10", VA = "0x181AB9510", Slot = "4")]
 	public new bool Equals(object a, object b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002F00")]
-	[Address(RVA = "0x3C7EBD0", Offset = "0x3C7EBD0", VA = "0x3C7EBD0")]
+	[Token(Token = "0x6002C0F")]
+	[Address(RVA = "0x1AB9350", Offset = "0x1AB7950", VA = "0x181AB9350")]
 	public int Compare(object a, object b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002F01")]
-	[Address(RVA = "0x3C7ED90", Offset = "0x3C7ED90", VA = "0x3C7ED90", Slot = "5")]
+	[Token(Token = "0x6002C10")]
+	[Address(RVA = "0x1AB96A0", Offset = "0x1AB7CA0", VA = "0x181AB96A0", Slot = "5")]
 	public int GetHashCode(object obj)
 	{
 		return default(int);

@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001A3")]
+[Token(Token = "0x20002A9")]
 internal struct AottgGuildPresetDefinition
 {
-	[Token(Token = "0x4000928")]
+	[Token(Token = "0x4000DCF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public readonly string Id;
 
-	[Token(Token = "0x4000929")]
+	[Token(Token = "0x4000DD0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public readonly string Label;
 
-	[Token(Token = "0x400092A")]
+	[Token(Token = "0x4000DD1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly AottgGuildPresetKind Kind;
 
-	[Token(Token = "0x400092B")]
+	[Token(Token = "0x4000DD2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public readonly string Sprite;
 
-	[Token(Token = "0x400092C")]
+	[Token(Token = "0x4000DD3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public readonly float ImageScale;
 
-	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x4419950", Offset = "0x4419950", VA = "0x4419950")]
+	[Token(Token = "0x60010A5")]
+	[Address(RVA = "0x1E12D20", Offset = "0x1E11320", VA = "0x181E12D20")]
 	public AottgGuildPresetDefinition(string id, string label, AottgGuildPresetKind kind, [Optional] string sprite, float imageScale = 1f)
 	{
 	}

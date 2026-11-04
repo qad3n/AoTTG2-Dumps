@@ -11,60 +11,60 @@ using SimpleJSONFixed;
 
 namespace Utility;
 
-[Token(Token = "0x2000727")]
+[Token(Token = "0x20008B2")]
 internal class CSVCompression
 {
-	[Token(Token = "0x4002279")]
+	[Token(Token = "0x4002B3C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly char[] Alphabet;
 
-	[Token(Token = "0x600467E")]
-	[Address(RVA = "0x4389B90", Offset = "0x4389B90", VA = "0x4389B90")]
+	[Token(Token = "0x60052F7")]
+	[Address(RVA = "0x232DB40", Offset = "0x232C140", VA = "0x18232DB40")]
 	public static object[] Compress(string source, int deltaRows, char containerDelimiter = ';', char rowDelimiter = ',')
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600467F")]
-	[Address(RVA = "0x438A570", Offset = "0x438A570", VA = "0x438A570")]
+	[Token(Token = "0x60052F8")]
+	[Address(RVA = "0x232E500", Offset = "0x232CB00", VA = "0x18232E500")]
 	public static string Decompress(byte[] source, JSONNode symbolTable, int deltaRows, char containerDelimiter = ';', char rowDelimiter = ',')
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004680")]
-	[Address(RVA = "0x438A340", Offset = "0x438A340", VA = "0x438A340")]
+	[Token(Token = "0x60052F9")]
+	[Address(RVA = "0x232D260", Offset = "0x232B860", VA = "0x18232D260")]
 	private static void CompressDelta(string[][] outputArr, int deltaRows)
 	{
 	}
 
-	[Token(Token = "0x6004681")]
-	[Address(RVA = "0x438ABD0", Offset = "0x438ABD0", VA = "0x438ABD0")]
+	[Token(Token = "0x60052FA")]
+	[Address(RVA = "0x232D420", Offset = "0x232BA20", VA = "0x18232D420")]
 	private static void CompressSymbol(string[][] outputArr, Dictionary<string, string> symbolTable)
 	{
 	}
 
-	[Token(Token = "0x6004682")]
-	[Address(RVA = "0x438A9B0", Offset = "0x438A9B0", VA = "0x438A9B0")]
+	[Token(Token = "0x60052FB")]
+	[Address(RVA = "0x232E1F0", Offset = "0x232C7F0", VA = "0x18232E1F0")]
 	private static void DecompressDelta(string[][] outputArr, int deltaRows)
 	{
 	}
 
-	[Token(Token = "0x6004683")]
-	[Address(RVA = "0x438B850", Offset = "0x438B850", VA = "0x438B850")]
+	[Token(Token = "0x60052FC")]
+	[Address(RVA = "0x232E3A0", Offset = "0x232C9A0", VA = "0x18232E3A0")]
 	private static void DecompressSymbol(string[][] outputArr, JSONNode symbolTable)
 	{
 	}
 
-	[Token(Token = "0x6004684")]
-	[Address(RVA = "0x438B550", Offset = "0x438B550", VA = "0x438B550")]
+	[Token(Token = "0x60052FD")]
+	[Address(RVA = "0x232E8F0", Offset = "0x232CEF0", VA = "0x18232E8F0")]
 	private static string ToBase62(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004685")]
-	[Address(RVA = "0x438B9E0", Offset = "0x438B9E0", VA = "0x438B9E0")]
+	[Token(Token = "0x60052FE")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CSVCompression()
 	{
 	}

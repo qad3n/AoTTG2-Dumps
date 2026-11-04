@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000194")]
+[Token(Token = "0x2000197")]
 [DisallowMultipleComponent]
 public sealed class AsyncLateUpdateTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000A6A")]
-	[Address(RVA = "0x4A09150", Offset = "0x4A09150", VA = "0x4A09150")]
+	[Token(Token = "0x6000A8E")]
+	[Address(RVA = "0x2930FD0", Offset = "0x292F5D0", VA = "0x182930FD0")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000A6B")]
-	[Address(RVA = "0x4A091C0", Offset = "0x4A091C0", VA = "0x4A091C0")]
+	[Token(Token = "0x6000A8F")]
+	[Address(RVA = "0x2930CC0", Offset = "0x292F2C0", VA = "0x182930CC0")]
 	public IAsyncLateUpdateHandler GetLateUpdateAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A6C")]
-	[Address(RVA = "0x4A09230", Offset = "0x4A09230", VA = "0x4A09230")]
+	[Token(Token = "0x6000A90")]
+	[Address(RVA = "0x2930D30", Offset = "0x292F330", VA = "0x182930D30")]
 	public IAsyncLateUpdateHandler GetLateUpdateAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x4A092A0", Offset = "0x4A092A0", VA = "0x4A092A0")]
+	[Token(Token = "0x6000A91")]
+	[Address(RVA = "0x2930DB0", Offset = "0x292F3B0", VA = "0x182930DB0")]
 	public UniTask LateUpdateAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x4A09390", Offset = "0x4A09390", VA = "0x4A09390")]
+	[Token(Token = "0x6000A92")]
+	[Address(RVA = "0x2930EC0", Offset = "0x292F4C0", VA = "0x182930EC0")]
 	public UniTask LateUpdateAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000A6F")]
-	[Address(RVA = "0x4A09480", Offset = "0x4A09480", VA = "0x4A09480")]
+	[Token(Token = "0x6000A93")]
+	[Address(RVA = "0x2931040", Offset = "0x292F640", VA = "0x182931040")]
 	public AsyncLateUpdateTrigger()
 	{
 	}

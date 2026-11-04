@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.BoxCollider
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,64 +10,69 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
 using UnityEngine.Bindings;
-using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000015")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x2000007")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/BoxCollider.h")]
+[RequireComponent(typeof(Transform))]
 public class BoxCollider : Collider
 {
-	[Token(Token = "0x17000034")]
+	[Token(Token = "0x1700000D")]
 	public Vector3 center
 	{
-		[Token(Token = "0x600010E")]
-		[Address(RVA = "0x4E82160", Offset = "0x4E82160", VA = "0x4E82160")]
+		[Token(Token = "0x6000012")]
+		[Address(RVA = "0x2FDBE20", Offset = "0x2FDA420", VA = "0x182FDBE20")]
 		get
 		{
 			return default(Vector3);
 		}
-		[Token(Token = "0x600010F")]
-		[Address(RVA = "0x4E82260", Offset = "0x4E82260", VA = "0x4E82260")]
+		[Token(Token = "0x6000013")]
+		[Address(RVA = "0x2FDC000", Offset = "0x2FDA600", VA = "0x182FDC000")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000035")]
+	[Token(Token = "0x1700000E")]
 	public Vector3 size
 	{
-		[Token(Token = "0x6000110")]
-		[Address(RVA = "0x4E82350", Offset = "0x4E82350", VA = "0x4E82350")]
+		[Token(Token = "0x6000014")]
+		[Address(RVA = "0x2FDBF10", Offset = "0x2FDA510", VA = "0x182FDBF10")]
 		get
 		{
 			return default(Vector3);
 		}
-		[Token(Token = "0x6000111")]
-		[Address(RVA = "0x4E82450", Offset = "0x4E82450", VA = "0x4E82450")]
+		[Token(Token = "0x6000015")]
+		[Address(RVA = "0x2FDC0E0", Offset = "0x2FDA6E0", VA = "0x182FDC0E0")]
 		set
 		{
 		}
+	}
+
+	[Token(Token = "0x6000016")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
+	public BoxCollider()
+	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x4E82220", Offset = "0x4E82220", VA = "0x4E82220")]
+	[Token(Token = "0x6000017")]
+	[Address(RVA = "0x2FDBDD0", Offset = "0x2FDA3D0", VA = "0x182FDBDD0")]
 	private static extern void get_center_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x4E82310", Offset = "0x4E82310", VA = "0x4E82310")]
+	[Token(Token = "0x6000018")]
+	[Address(RVA = "0x2FDBFB0", Offset = "0x2FDA5B0", VA = "0x182FDBFB0")]
 	private static extern void set_center_Injected(IntPtr _unity_self, [In] ref Vector3 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x4E82410", Offset = "0x4E82410", VA = "0x4E82410")]
+	[Token(Token = "0x6000019")]
+	[Address(RVA = "0x2FDBEC0", Offset = "0x2FDA4C0", VA = "0x182FDBEC0")]
 	private static extern void get_size_Injected(IntPtr _unity_self, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x4E82500", Offset = "0x4E82500", VA = "0x4E82500")]
+	[Token(Token = "0x600001A")]
+	[Address(RVA = "0x2FDC090", Offset = "0x2FDA690", VA = "0x182FDC090")]
 	private static extern void set_size_Injected(IntPtr _unity_self, [In] ref Vector3 value);
 }

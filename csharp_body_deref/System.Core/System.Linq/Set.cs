@@ -49,29 +49,29 @@ internal class Set<TElement>
 	[FieldOffset(Offset = "0x0")]
 	private IEqualityComparer<TElement> comparer;
 
-	[Token(Token = "0x6000189")]
+	[Token(Token = "0x6000188")]
 	public Set(IEqualityComparer<TElement> comparer)
 	{
 	}
 
-	[Token(Token = "0x600018A")]
+	[Token(Token = "0x6000189")]
 	public bool Add(TElement value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600018B")]
+	[Token(Token = "0x600018A")]
 	private bool Find(TElement value, bool add)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600018C")]
+	[Token(Token = "0x600018B")]
 	private void Resize()
 	{
 	}
 
-	[Token(Token = "0x600018D")]
+	[Token(Token = "0x600018C")]
 	internal int InternalGetHashCode(TElement value)
 	{
 		return default(int);

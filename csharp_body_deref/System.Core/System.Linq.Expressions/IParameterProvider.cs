@@ -15,10 +15,10 @@ internal interface IParameterProvider
 	[Token(Token = "0x1700008B")]
 	int ParameterCount
 	{
-		[Token(Token = "0x60003FD")]
+		[Token(Token = "0x60003FC")]
 		get;
 	}
 
-	[Token(Token = "0x60003FC")]
+	[Token(Token = "0x60003FB")]
 	ParameterExpression GetParameter(int index);
 }

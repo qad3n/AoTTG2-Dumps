@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002ED")]
+[Token(Token = "0x200031C")]
 [ComVisible(true)]
 public class PKCS1MaskGenerationMethod : MaskGenerationMethod
 {
-	[Token(Token = "0x4000D27")]
+	[Token(Token = "0x4000D34")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string HashNameValue;
 
-	[Token(Token = "0x170002BA")]
+	[Token(Token = "0x170002BC")]
 	public string HashName
 	{
-		[Token(Token = "0x6001977")]
-		[Address(RVA = "0x3B35D00", Offset = "0x3B35D00", VA = "0x3B35D00")]
+		[Token(Token = "0x60019DF")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001978")]
-		[Address(RVA = "0x3B35D10", Offset = "0x3B35D10", VA = "0x3B35D10")]
+		[Token(Token = "0x60019E0")]
+		[Address(RVA = "0x19ABFC0", Offset = "0x19AA5C0", VA = "0x1819ABFC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001976")]
-	[Address(RVA = "0x3B35CB0", Offset = "0x3B35CB0", VA = "0x3B35CB0")]
+	[Token(Token = "0x60019DE")]
+	[Address(RVA = "0x19ABF70", Offset = "0x19AA570", VA = "0x1819ABF70")]
 	public PKCS1MaskGenerationMethod()
 	{
 	}
 
-	[Token(Token = "0x6001979")]
-	[Address(RVA = "0x3B35D80", Offset = "0x3B35D80", VA = "0x3B35D80", Slot = "4")]
+	[Token(Token = "0x60019E1")]
+	[Address(RVA = "0x19ABEF0", Offset = "0x19AA4F0", VA = "0x1819ABEF0", Slot = "4")]
 	public override byte[] GenerateMask(byte[] rgbSeed, int cbReturn)
 	{
 		return null;

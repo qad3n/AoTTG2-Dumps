@@ -14,23 +14,23 @@ using Il2CppDummyDll;
 namespace Cysharp.Threading.Tasks.CompilerServices;
 
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x2000257")]
+[Token(Token = "0x200025A")]
 public struct AsyncUniTaskMethodBuilder
 {
-	[Token(Token = "0x40006B1")]
+	[Token(Token = "0x40006C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IStateMachineRunnerPromise runnerPromise;
 
-	[Token(Token = "0x40006B2")]
+	[Token(Token = "0x40006C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private Exception ex;
 
-	[Token(Token = "0x17000080")]
+	[Token(Token = "0x17000082")]
 	public UniTask Task
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000D56")]
-		[Address(RVA = "0x4A1F640", Offset = "0x4A1F640", VA = "0x4A1F640")]
+		[Token(Token = "0x6000D7A")]
+		[Address(RVA = "0x293E040", Offset = "0x293C640", VA = "0x18293E040")]
 		[DebuggerHidden]
 		get
 		{
@@ -39,8 +39,8 @@ public struct AsyncUniTaskMethodBuilder
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D55")]
-	[Address(RVA = "0x4A1F630", Offset = "0x4A1F630", VA = "0x4A1F630")]
+	[Token(Token = "0x6000D79")]
+	[Address(RVA = "0x8ED540", Offset = "0x8EBB40", VA = "0x1808ED540")]
 	[DebuggerHidden]
 	public static AsyncUniTaskMethodBuilder Create()
 	{
@@ -48,70 +48,70 @@ public struct AsyncUniTaskMethodBuilder
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D57")]
-	[Address(RVA = "0x4A1F750", Offset = "0x4A1F750", VA = "0x4A1F750")]
+	[Token(Token = "0x6000D7B")]
+	[Address(RVA = "0x293DF80", Offset = "0x293C580", VA = "0x18293DF80")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D58")]
-	[Address(RVA = "0x4A1F820", Offset = "0x4A1F820", VA = "0x4A1F820")]
+	[Token(Token = "0x6000D7C")]
+	[Address(RVA = "0x293DFF0", Offset = "0x293C5F0", VA = "0x18293DFF0")]
 	[DebuggerHidden]
 	public void SetResult()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D59")]
+	[Token(Token = "0x6000D7D")]
 	[DebuggerHidden]
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D5A")]
+	[Token(Token = "0x6000D7E")]
 	[DebuggerHidden]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D5B")]
+	[Token(Token = "0x6000D7F")]
 	[DebuggerHidden]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x6000D5C")]
-	[Address(RVA = "0x49F53A0", Offset = "0x49F53A0", VA = "0x49F53A0")]
+	[Token(Token = "0x6000D80")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[DebuggerHidden]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
 }
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x2000258")]
+[Token(Token = "0x200025B")]
 public struct AsyncUniTaskMethodBuilder<T>
 {
-	[Token(Token = "0x40006B3")]
+	[Token(Token = "0x40006C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IStateMachineRunnerPromise<T> runnerPromise;
 
-	[Token(Token = "0x40006B4")]
+	[Token(Token = "0x40006C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private Exception ex;
 
-	[Token(Token = "0x40006B5")]
+	[Token(Token = "0x40006C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private T result;
 
-	[Token(Token = "0x17000081")]
+	[Token(Token = "0x17000083")]
 	public UniTask<T> Task
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000D5E")]
+		[Token(Token = "0x6000D82")]
 		[DebuggerHidden]
 		get
 		{
@@ -120,7 +120,7 @@ public struct AsyncUniTaskMethodBuilder<T>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D5D")]
+	[Token(Token = "0x6000D81")]
 	[DebuggerHidden]
 	public static AsyncUniTaskMethodBuilder<T> Create()
 	{
@@ -128,41 +128,41 @@ public struct AsyncUniTaskMethodBuilder<T>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D5F")]
+	[Token(Token = "0x6000D83")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D60")]
+	[Token(Token = "0x6000D84")]
 	[DebuggerHidden]
 	public void SetResult(T result)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D61")]
+	[Token(Token = "0x6000D85")]
 	[DebuggerHidden]
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D62")]
+	[Token(Token = "0x6000D86")]
 	[DebuggerHidden]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D63")]
+	[Token(Token = "0x6000D87")]
 	[DebuggerHidden]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x6000D64")]
+	[Token(Token = "0x6000D88")]
 	[DebuggerHidden]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{

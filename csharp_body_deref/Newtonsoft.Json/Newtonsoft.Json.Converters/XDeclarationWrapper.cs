@@ -19,7 +19,7 @@ internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration, IXmlNode
 	internal XDeclaration Declaration
 	{
 		[Token(Token = "0x6000F52")]
-		[Address(RVA = "0x3E498E0", Offset = "0x3E498E0", VA = "0x3E498E0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,7 +31,7 @@ internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration, IXmlNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000F54")]
-		[Address(RVA = "0x3E49960", Offset = "0x3E49960", VA = "0x3E49960", Slot = "14")]
+		[Address(RVA = "0x1CB0BF0", Offset = "0x1CAF1F0", VA = "0x181CB0BF0", Slot = "14")]
 		get
 		{
 			return default(XmlNodeType);
@@ -42,7 +42,7 @@ internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration, IXmlNode
 	public string? Version
 	{
 		[Token(Token = "0x6000F55")]
-		[Address(RVA = "0x3E49970", Offset = "0x3E49970", VA = "0x3E49970", Slot = "23")]
+		[Address(RVA = "0x1CB0C20", Offset = "0x1CAF220", VA = "0x181CB0C20", Slot = "23")]
 		get
 		{
 			return null;
@@ -53,13 +53,13 @@ internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration, IXmlNode
 	public string? Encoding
 	{
 		[Token(Token = "0x6000F56")]
-		[Address(RVA = "0x3E49990", Offset = "0x3E49990", VA = "0x3E49990", Slot = "24")]
+		[Address(RVA = "0x1CB0BD0", Offset = "0x1CAF1D0", VA = "0x181CB0BD0", Slot = "24")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F57")]
-		[Address(RVA = "0x3E499B0", Offset = "0x3E499B0", VA = "0x3E499B0", Slot = "25")]
+		[Address(RVA = "0x1CB0C40", Offset = "0x1CAF240", VA = "0x181CB0C40", Slot = "25")]
 		set
 		{
 		}
@@ -69,20 +69,20 @@ internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration, IXmlNode
 	public string? Standalone
 	{
 		[Token(Token = "0x6000F58")]
-		[Address(RVA = "0x3E499D0", Offset = "0x3E499D0", VA = "0x3E499D0", Slot = "26")]
+		[Address(RVA = "0x1CB0C00", Offset = "0x1CAF200", VA = "0x181CB0C00", Slot = "26")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F59")]
-		[Address(RVA = "0x3E499F0", Offset = "0x3E499F0", VA = "0x3E499F0", Slot = "27")]
+		[Address(RVA = "0x1CB0C70", Offset = "0x1CAF270", VA = "0x181CB0C70", Slot = "27")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F53")]
-	[Address(RVA = "0x3E498F0", Offset = "0x3E498F0", VA = "0x3E498F0")]
+	[Address(RVA = "0x1CB0B80", Offset = "0x1CAF180", VA = "0x181CB0B80")]
 	public XDeclarationWrapper(XDeclaration declaration)
 	{
 	}

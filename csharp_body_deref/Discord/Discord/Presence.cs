@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000041")]
+[Token(Token = "0x200003F")]
 public struct Presence
 {
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000C4")]
 	[FieldOffset(Offset = "0x0")]
 	public Status Status;
 
-	[Token(Token = "0x40000CA")]
+	[Token(Token = "0x40000C5")]
 	[FieldOffset(Offset = "0x8")]
 	public Activity Activity;
 }

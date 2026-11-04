@@ -15,13 +15,13 @@ namespace Newtonsoft.Json;
 public sealed class JsonDictionaryAttribute : JsonContainerAttribute
 {
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x3D59CE0", Offset = "0x3D59CE0", VA = "0x3D59CE0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public JsonDictionaryAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x3D59CF0", Offset = "0x3D59CF0", VA = "0x3D59CF0")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public JsonDictionaryAttribute(string id)
 	{
 	}

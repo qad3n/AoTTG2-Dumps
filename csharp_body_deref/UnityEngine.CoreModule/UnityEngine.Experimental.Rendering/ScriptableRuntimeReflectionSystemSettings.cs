@@ -12,31 +12,31 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x200034E")]
+[Token(Token = "0x20003F5")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/ScriptableRuntimeReflectionSystem.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public static class ScriptableRuntimeReflectionSystemSettings
 {
-	[Token(Token = "0x4000AA7")]
+	[Token(Token = "0x4000D2E")]
 	[FieldOffset(Offset = "0x0")]
 	private static ScriptableRuntimeReflectionSystemWrapper s_Instance;
 
-	[Token(Token = "0x170002C9")]
+	[Token(Token = "0x170003D2")]
 	private static IScriptableRuntimeReflectionSystem Internal_ScriptableRuntimeReflectionSystemSettings_system
 	{
-		[Token(Token = "0x60011A4")]
-		[Address(RVA = "0x4E3AB50", Offset = "0x4E3AB50", VA = "0x4E3AB50")]
+		[Token(Token = "0x60017E0")]
+		[Address(RVA = "0x2F79950", Offset = "0x2F77F50", VA = "0x182F79950")]
 		[UnityEngine.Scripting.RequiredByNativeCode]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002CA")]
+	[Token(Token = "0x170003D3")]
 	private static ScriptableRuntimeReflectionSystemWrapper Internal_ScriptableRuntimeReflectionSystemSettings_instance
 	{
-		[Token(Token = "0x60011A5")]
-		[Address(RVA = "0x4E3ACF0", Offset = "0x4E3ACF0", VA = "0x4E3ACF0")]
+		[Token(Token = "0x60017E1")]
+		[Address(RVA = "0x2F79900", Offset = "0x2F77F00", VA = "0x182F79900")]
 		[UnityEngine.Scripting.RequiredByNativeCode]
 		get
 		{
@@ -45,8 +45,8 @@ public static class ScriptableRuntimeReflectionSystemSettings
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60011A6")]
-	[Address(RVA = "0x4E3AD60", Offset = "0x4E3AD60", VA = "0x4E3AD60")]
+	[Token(Token = "0x60017E2")]
+	[Address(RVA = "0x2F79850", Offset = "0x2F77E50", VA = "0x182F79850")]
 	[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
 	[UnityEngine.Bindings.StaticAccessor("ScriptableRuntimeReflectionSystem", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	private static extern void ScriptingDirtyReflectionSystemInstance();

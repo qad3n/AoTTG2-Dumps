@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomSkins.SkyboxCustomSkinLoader
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/CustomSkins/SkyboxCustomSkinLoader.c
 // Prior real C# source (older reference): Assets/Scripts/CustomSkins/CustomSkinLoaders/SkyboxCustomSkinLoader.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,38 +15,38 @@ using UnityEngine;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200024D")]
+[Token(Token = "0x2000367")]
 internal class SkyboxCustomSkinLoader : BaseCustomSkinLoader
 {
-	[Token(Token = "0x200024E")]
+	[Token(Token = "0x2000368")]
 	[CompilerGenerated]
-	private sealed class _003CLoadSkinsFromRPC_003Ed__3 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CLoadSkinsFromRPC_003Ed__4 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000C99")]
+		[Token(Token = "0x40011C7")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000C9A")]
+		[Token(Token = "0x40011C8")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000C9B")]
+		[Token(Token = "0x40011C9")]
 		[FieldOffset(Offset = "0x20")]
 		public SkyboxCustomSkinLoader _003C_003E4__this;
 
-		[Token(Token = "0x4000C9C")]
+		[Token(Token = "0x40011CA")]
 		[FieldOffset(Offset = "0x28")]
 		public object[] data;
 
-		[Token(Token = "0x4000C9D")]
+		[Token(Token = "0x40011CB")]
 		[FieldOffset(Offset = "0x30")]
 		private List<int>.Enumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x170001BC")]
+		[Token(Token = "0x17000253")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000E35")]
-			[Address(RVA = "0x3F92A50", Offset = "0x3F92A50", VA = "0x3F92A50", Slot = "4")]
+			[Token(Token = "0x6001597")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,11 +54,11 @@ internal class SkyboxCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x170001BD")]
+		[Token(Token = "0x17000254")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000E37")]
-			[Address(RVA = "0x3F92AA0", Offset = "0x3F92AA0", VA = "0x3F92AA0", Slot = "7")]
+			[Token(Token = "0x6001599")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,80 +66,87 @@ internal class SkyboxCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x6000E31")]
-		[Address(RVA = "0x3F92250", Offset = "0x3F92250", VA = "0x3F92250")]
+		[Token(Token = "0x6001593")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CLoadSkinsFromRPC_003Ed__3(int _003C_003E1__state)
+		public _003CLoadSkinsFromRPC_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000E32")]
-		[Address(RVA = "0x3F92520", Offset = "0x3F92520", VA = "0x3F92520", Slot = "5")]
+		[Token(Token = "0x6001594")]
+		[Address(RVA = "0x1E99A80", Offset = "0x1E98080", VA = "0x181E99A80", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000E33")]
-		[Address(RVA = "0x3F92570", Offset = "0x3F92570", VA = "0x3F92570", Slot = "6")]
+		[Token(Token = "0x6001595")]
+		[Address(RVA = "0x1E99740", Offset = "0x1E97D40", VA = "0x181E99740", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000E34")]
-		[Address(RVA = "0x3F92A10", Offset = "0x3F92A10", VA = "0x3F92A10")]
+		[Token(Token = "0x6001596")]
+		[Address(RVA = "0x1E99B10", Offset = "0x1E98110", VA = "0x181E99B10")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000E36")]
-		[Address(RVA = "0x3F92A60", Offset = "0x3F92A60", VA = "0x3F92A60", Slot = "8")]
+		[Token(Token = "0x6001598")]
+		[Address(RVA = "0x1E99A40", Offset = "0x1E98040", VA = "0x181E99A40", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000C98")]
+	[Token(Token = "0x40011C6")]
 	[FieldOffset(Offset = "0x0")]
 	public static Material SkyboxMaterial;
 
-	[Token(Token = "0x170001BB")]
+	[Token(Token = "0x17000252")]
 	protected override string RendererIdPrefix
 	{
-		[Token(Token = "0x6000E2C")]
-		[Address(RVA = "0x3F921A0", Offset = "0x3F921A0", VA = "0x3F921A0", Slot = "4")]
+		[Token(Token = "0x600158D")]
+		[Address(RVA = "0x1E943D0", Offset = "0x1E929D0", VA = "0x181E943D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E2D")]
-	[Address(RVA = "0x3F921D0", Offset = "0x3F921D0", VA = "0x3F921D0", Slot = "6")]
-	[IteratorStateMachine(typeof(_003CLoadSkinsFromRPC_003Ed__3))]
+	[Token(Token = "0x600158E")]
+	[Address(RVA = "0x1E93FE0", Offset = "0x1E925E0", VA = "0x181E93FE0")]
+	public static Material CreateSkyboxMaterial()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600158F")]
+	[Address(RVA = "0x1E94270", Offset = "0x1E92870", VA = "0x181E94270", Slot = "7")]
+	[IteratorStateMachine(typeof(_003CLoadSkinsFromRPC_003Ed__4))]
 	public override IEnumerator LoadSkinsFromRPC(object[] data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2E")]
-	[Address(RVA = "0x3F92270", Offset = "0x3F92270", VA = "0x3F92270", Slot = "5")]
+	[Token(Token = "0x6001590")]
+	[Address(RVA = "0x1E94090", Offset = "0x1E92690", VA = "0x181E94090", Slot = "6")]
 	protected override BaseCustomSkinPart GetCustomSkinPart(int partId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2F")]
-	[Address(RVA = "0x3F923C0", Offset = "0x3F923C0", VA = "0x3F923C0")]
+	[Token(Token = "0x6001591")]
+	[Address(RVA = "0x1E94300", Offset = "0x1E92900", VA = "0x181E94300")]
 	public string PartIdToTextureName(SkyboxCustomSkinPartId partId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E30")]
-	[Address(RVA = "0x3F924B0", Offset = "0x3F924B0", VA = "0x3F924B0")]
+	[Token(Token = "0x6001592")]
+	[Address(RVA = "0x1E94380", Offset = "0x1E92980", VA = "0x181E94380")]
 	public SkyboxCustomSkinLoader()
 	{
 	}

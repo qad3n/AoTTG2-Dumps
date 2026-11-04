@@ -34,7 +34,7 @@ public abstract class XPathNodeIterator : ICloneable, IEnumerable
 		public virtual object Current
 		{
 			[Token(Token = "0x6000CA6")]
-			[Address(RVA = "0x4808210", Offset = "0x4808210", VA = "0x4808210", Slot = "7")]
+			[Address(RVA = "0x273CE50", Offset = "0x273B450", VA = "0x18273CE50", Slot = "7")]
 			get
 			{
 				return null;
@@ -42,20 +42,20 @@ public abstract class XPathNodeIterator : ICloneable, IEnumerable
 		}
 
 		[Token(Token = "0x6000CA5")]
-		[Address(RVA = "0x48081B0", Offset = "0x48081B0", VA = "0x48081B0")]
+		[Address(RVA = "0x273CE00", Offset = "0x273B400", VA = "0x18273CE00")]
 		public Enumerator(XPathNodeIterator original)
 		{
 		}
 
 		[Token(Token = "0x6000CA7")]
-		[Address(RVA = "0x4808370", Offset = "0x4808370", VA = "0x4808370", Slot = "8")]
+		[Address(RVA = "0x273CD70", Offset = "0x273B370", VA = "0x18273CD70", Slot = "8")]
 		public virtual bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000CA8")]
-		[Address(RVA = "0x4808400", Offset = "0x4808400", VA = "0x4808400", Slot = "9")]
+		[Address(RVA = "0xC7D670", Offset = "0xC7BC70", VA = "0x180C7D670", Slot = "9")]
 		public virtual void Reset()
 		{
 		}
@@ -83,7 +83,7 @@ public abstract class XPathNodeIterator : ICloneable, IEnumerable
 	public virtual int Count
 	{
 		[Token(Token = "0x6000CA2")]
-		[Address(RVA = "0x48080C0", Offset = "0x48080C0", VA = "0x48080C0", Slot = "10")]
+		[Address(RVA = "0x274B720", Offset = "0x2749D20", VA = "0x18274B720", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -91,7 +91,7 @@ public abstract class XPathNodeIterator : ICloneable, IEnumerable
 	}
 
 	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x48080A0", Offset = "0x48080A0", VA = "0x48080A0", Slot = "4")]
+	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00", Slot = "4")]
 	private object System_002EICloneable_002EClone()
 	{
 		return null;
@@ -104,14 +104,14 @@ public abstract class XPathNodeIterator : ICloneable, IEnumerable
 	public abstract bool MoveNext();
 
 	[Token(Token = "0x6000CA3")]
-	[Address(RVA = "0x4808130", Offset = "0x4808130", VA = "0x4808130", Slot = "11")]
+	[Address(RVA = "0x274B690", Offset = "0x2749C90", VA = "0x18274B690", Slot = "11")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CA4")]
-	[Address(RVA = "0x4808200", Offset = "0x4808200", VA = "0x4808200")]
+	[Address(RVA = "0x274B710", Offset = "0x2749D10", VA = "0x18274B710")]
 	protected XPathNodeIterator()
 	{
 	}

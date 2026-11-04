@@ -10,40 +10,40 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000055")]
+[Token(Token = "0x2000053")]
 public class DecoderConfigFrame : IDisposable
 {
-	[Token(Token = "0x400014B")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x10")]
 	private ILogger logger;
 
-	[Token(Token = "0x400014C")]
+	[Token(Token = "0x4000147")]
 	[FieldOffset(Offset = "0x18")]
 	private IDecoder decoder;
 
-	[Token(Token = "0x400014D")]
+	[Token(Token = "0x4000148")]
 	[FieldOffset(Offset = "0x20")]
 	private FrameBuffer configFrame;
 
-	[Token(Token = "0x400014E")]
+	[Token(Token = "0x4000149")]
 	[FieldOffset(Offset = "0x58")]
 	private bool configFrameDecoded;
 
-	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x3F1B320", Offset = "0x3F1B320", VA = "0x3F1B320")]
+	[Token(Token = "0x60001B7")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public DecoderConfigFrame(ILogger logger, IDecoder decoder)
 	{
 	}
 
-	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x3F1B360", Offset = "0x3F1B360", VA = "0x3F1B360")]
+	[Token(Token = "0x60001B8")]
+	[Address(RVA = "0x1D68A30", Offset = "0x1D67030", VA = "0x181D68A30")]
 	public bool TryConfigure(ref FrameBuffer buf, bool decoderReady)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x3F1B8C0", Offset = "0x3F1B8C0", VA = "0x3F1B8C0", Slot = "4")]
+	[Token(Token = "0x60001B9")]
+	[Address(RVA = "0x1D689E0", Offset = "0x1D66FE0", VA = "0x181D689E0", Slot = "4")]
 	public void Dispose()
 	{
 	}

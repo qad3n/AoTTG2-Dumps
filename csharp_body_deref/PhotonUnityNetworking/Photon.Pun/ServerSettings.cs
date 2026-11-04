@@ -14,41 +14,41 @@ using UnityEngine;
 namespace Photon.Pun;
 
 [Serializable]
-[Token(Token = "0x2000026")]
+[Token(Token = "0x2000024")]
 [HelpURL("https://doc.photonengine.com/en-us/pun/v2/getting-started/initial-setup")]
 public class ServerSettings : ScriptableObject
 {
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x40000CD")]
 	[FieldOffset(Offset = "0x18")]
 	[Tooltip("Core Photon Server/Cloud settings.")]
 	public AppSettings AppSettings;
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x40000CE")]
 	[FieldOffset(Offset = "0x20")]
 	[Tooltip("Developer build override for Best Region.")]
 	public string DevRegion;
 
-	[Token(Token = "0x40000D4")]
+	[Token(Token = "0x40000CF")]
 	[FieldOffset(Offset = "0x28")]
 	[Tooltip("Log output by PUN.")]
 	public PunLogLevel PunLogging;
 
-	[Token(Token = "0x40000D5")]
+	[Token(Token = "0x40000D0")]
 	[FieldOffset(Offset = "0x2C")]
 	[Tooltip("Logs additional info for debugging.")]
 	public bool EnableSupportLogger;
 
-	[Token(Token = "0x40000D6")]
+	[Token(Token = "0x40000D1")]
 	[FieldOffset(Offset = "0x2D")]
 	[Tooltip("Enables apps to keep the connection without focus.")]
 	public bool RunInBackground;
 
-	[Token(Token = "0x40000D7")]
+	[Token(Token = "0x40000D2")]
 	[FieldOffset(Offset = "0x2E")]
 	[Tooltip("Simulates an online connection.\nPUN can be used as usual.")]
 	public bool StartInOfflineMode;
 
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x40000D3")]
 	[FieldOffset(Offset = "0x30")]
 	[Tooltip("RPC name list.\nUsed as shortcut when sending calls.")]
 	public List<string> RpcList;
@@ -56,42 +56,42 @@ public class ServerSettings : ScriptableObject
 	[Token(Token = "0x17000047")]
 	public static string BestRegionSummaryInPreferences
 	{
-		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x3F0E970", Offset = "0x3F0E970", VA = "0x3F0E970")]
+		[Token(Token = "0x6000181")]
+		[Address(RVA = "0x1D67B10", Offset = "0x1D66110", VA = "0x181D67B10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x3F0E850", Offset = "0x3F0E850", VA = "0x3F0E850")]
+	[Token(Token = "0x600017F")]
+	[Address(RVA = "0x1D67A10", Offset = "0x1D66010", VA = "0x181D67A10")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
-	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x3F0E8D0", Offset = "0x3F0E8D0", VA = "0x3F0E8D0")]
+	[Token(Token = "0x6000180")]
+	[Address(RVA = "0x1D11290", Offset = "0x1D0F890", VA = "0x181D11290")]
 	public static bool IsAppId(string val)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x3F0E9D0", Offset = "0x3F0E9D0", VA = "0x3F0E9D0")]
+	[Token(Token = "0x6000182")]
+	[Address(RVA = "0x1D67960", Offset = "0x1D65F60", VA = "0x181D67960")]
 	public static void ResetBestRegionCodeInPreferences()
 	{
 	}
 
-	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x3F0EA30", Offset = "0x3F0EA30", VA = "0x3F0EA30", Slot = "3")]
+	[Token(Token = "0x6000183")]
+	[Address(RVA = "0x1D679B0", Offset = "0x1D65FB0", VA = "0x181D679B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x3F0EA80", Offset = "0x3F0EA80", VA = "0x3F0EA80")]
+	[Token(Token = "0x6000184")]
+	[Address(RVA = "0x1D67A90", Offset = "0x1D66090", VA = "0x181D67A90")]
 	public ServerSettings()
 	{
 	}

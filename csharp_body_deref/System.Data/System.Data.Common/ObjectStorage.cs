@@ -14,219 +14,219 @@ using Il2CppDummyDll;
 
 namespace System.Data.Common;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x20000C1")]
 internal sealed class ObjectStorage : DataStorage
 {
-	[Token(Token = "0x20000C6")]
+	[Token(Token = "0x20000C2")]
 	private enum Families
 	{
-		[Token(Token = "0x4000471")]
+		[Token(Token = "0x4000434")]
 		DATETIME,
-		[Token(Token = "0x4000472")]
+		[Token(Token = "0x4000435")]
 		NUMBER,
-		[Token(Token = "0x4000473")]
+		[Token(Token = "0x4000436")]
 		STRING,
-		[Token(Token = "0x4000474")]
+		[Token(Token = "0x4000437")]
 		BOOLEAN,
-		[Token(Token = "0x4000475")]
+		[Token(Token = "0x4000438")]
 		ARRAY
 	}
 
-	[Token(Token = "0x20000C7")]
+	[Token(Token = "0x20000C3")]
 	private class TempAssemblyComparer : IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>>
 	{
-		[Token(Token = "0x4000476")]
+		[Token(Token = "0x4000439")]
 		[FieldOffset(Offset = "0x0")]
 		internal static readonly IEqualityComparer<KeyValuePair<Type, XmlRootAttribute>> s_default;
 
-		[Token(Token = "0x6000BF1")]
-		[Address(RVA = "0x4637030", Offset = "0x4637030", VA = "0x4637030")]
+		[Token(Token = "0x6000B31")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		private TempAssemblyComparer()
 		{
 		}
 
-		[Token(Token = "0x6000BF2")]
-		[Address(RVA = "0x4637040", Offset = "0x4637040", VA = "0x4637040", Slot = "4")]
+		[Token(Token = "0x6000B32")]
+		[Address(RVA = "0x259D2C0", Offset = "0x259B8C0", VA = "0x18259D2C0", Slot = "4")]
 		public bool Equals(KeyValuePair<Type, XmlRootAttribute> x, KeyValuePair<Type, XmlRootAttribute> y)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000BF3")]
-		[Address(RVA = "0x4637160", Offset = "0x4637160", VA = "0x4637160", Slot = "5")]
+		[Token(Token = "0x6000B33")]
+		[Address(RVA = "0x259D440", Offset = "0x259BA40", VA = "0x18259D440", Slot = "5")]
 		public int GetHashCode(KeyValuePair<Type, XmlRootAttribute> obj)
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x400046A")]
+	[Token(Token = "0x400042D")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object s_defaultValue;
 
-	[Token(Token = "0x400046B")]
+	[Token(Token = "0x400042E")]
 	[FieldOffset(Offset = "0x50")]
 	private object[] _values;
 
-	[Token(Token = "0x400046C")]
+	[Token(Token = "0x400042F")]
 	[FieldOffset(Offset = "0x58")]
 	private readonly bool _implementsIXmlSerializable;
 
-	[Token(Token = "0x400046D")]
+	[Token(Token = "0x4000430")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly object s_tempAssemblyCacheLock;
 
-	[Token(Token = "0x400046E")]
+	[Token(Token = "0x4000431")]
 	[FieldOffset(Offset = "0x10")]
 	private static Dictionary<KeyValuePair<Type, XmlRootAttribute>, XmlSerializer> s_tempAssemblyCache;
 
-	[Token(Token = "0x400046F")]
+	[Token(Token = "0x4000432")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly XmlSerializerFactory s_serializerFactory;
 
-	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x46255F0", Offset = "0x46255F0", VA = "0x46255F0")]
+	[Token(Token = "0x6000B1A")]
+	[Address(RVA = "0x255FF40", Offset = "0x255E540", VA = "0x18255FF40")]
 	internal ObjectStorage(DataColumn column, Type type)
 	{
 	}
 
-	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x4631D20", Offset = "0x4631D20", VA = "0x4631D20", Slot = "4")]
+	[Token(Token = "0x6000B1B")]
+	[Address(RVA = "0x255CB50", Offset = "0x255B150", VA = "0x18255CB50", Slot = "4")]
 	public override object Aggregate(int[] records, AggregateType kind)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BDC")]
-	[Address(RVA = "0x4631D50", Offset = "0x4631D50", VA = "0x4631D50", Slot = "5")]
+	[Token(Token = "0x6000B1C")]
+	[Address(RVA = "0x255D240", Offset = "0x255B840", VA = "0x18255D240", Slot = "5")]
 	public override int Compare(int recordNo1, int recordNo2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000BDD")]
-	[Address(RVA = "0x4632370", Offset = "0x4632370", VA = "0x4632370", Slot = "6")]
+	[Token(Token = "0x6000B1D")]
+	[Address(RVA = "0x255CCD0", Offset = "0x255B2D0", VA = "0x18255CCD0", Slot = "6")]
 	public override int CompareValueTo(int recordNo1, object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000BDE")]
-	[Address(RVA = "0x4632540", Offset = "0x4632540", VA = "0x4632540")]
+	[Token(Token = "0x6000B1E")]
+	[Address(RVA = "0x255CB90", Offset = "0x255B190", VA = "0x18255CB90")]
 	private int CompareTo(object valueNo1, object valueNo2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000BDF")]
-	[Address(RVA = "0x4631F00", Offset = "0x4631F00", VA = "0x4631F00")]
+	[Token(Token = "0x6000B1F")]
+	[Address(RVA = "0x255CE50", Offset = "0x255B450", VA = "0x18255CE50")]
 	private int CompareWithFamilies(object valueNo1, object valueNo2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000BE0")]
-	[Address(RVA = "0x4632810", Offset = "0x4632810", VA = "0x4632810", Slot = "8")]
+	[Token(Token = "0x6000B20")]
+	[Address(RVA = "0x255E690", Offset = "0x255CC90", VA = "0x18255E690", Slot = "8")]
 	public override void Copy(int recordNo1, int recordNo2)
 	{
 	}
 
-	[Token(Token = "0x6000BE1")]
-	[Address(RVA = "0x4632890", Offset = "0x4632890", VA = "0x4632890", Slot = "9")]
+	[Token(Token = "0x6000B21")]
+	[Address(RVA = "0x255EF60", Offset = "0x255D560", VA = "0x18255EF60", Slot = "9")]
 	public override object Get(int recordNo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE2")]
-	[Address(RVA = "0x4632730", Offset = "0x4632730", VA = "0x4632730")]
+	[Token(Token = "0x6000B22")]
+	[Address(RVA = "0x255E760", Offset = "0x255CD60", VA = "0x18255E760")]
 	private Families GetFamily(Type dataType)
 	{
 		return default(Families);
 	}
 
-	[Token(Token = "0x6000BE3")]
-	[Address(RVA = "0x46328C0", Offset = "0x46328C0", VA = "0x46328C0", Slot = "11")]
+	[Token(Token = "0x6000B23")]
+	[Address(RVA = "0x255EFA0", Offset = "0x255D5A0", VA = "0x18255EFA0", Slot = "11")]
 	public override bool IsNull(int record)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000BE4")]
-	[Address(RVA = "0x46328F0", Offset = "0x46328F0", VA = "0x46328F0", Slot = "12")]
+	[Token(Token = "0x6000B24")]
+	[Address(RVA = "0x255F300", Offset = "0x255D900", VA = "0x18255F300", Slot = "12")]
 	public override void Set(int recordNo, object value)
 	{
 	}
 
-	[Token(Token = "0x6000BE5")]
-	[Address(RVA = "0x46330D0", Offset = "0x46330D0", VA = "0x46330D0", Slot = "13")]
+	[Token(Token = "0x6000B25")]
+	[Address(RVA = "0x255EFD0", Offset = "0x255D5D0", VA = "0x18255EFD0", Slot = "13")]
 	public override void SetCapacity(int capacity)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000BE6")]
-	[Address(RVA = "0x4633180", Offset = "0x4633180", VA = "0x4633180", Slot = "14")]
+	[Token(Token = "0x6000B26")]
+	[Address(RVA = "0x255D9D0", Offset = "0x255BFD0", VA = "0x18255D9D0", Slot = "14")]
 	public override object ConvertXmlToObject(string s)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000BE7")]
-	[Address(RVA = "0x46337C0", Offset = "0x46337C0", VA = "0x46337C0", Slot = "15")]
+	[Token(Token = "0x6000B27")]
+	[Address(RVA = "0x255DE10", Offset = "0x255C410", VA = "0x18255DE10", Slot = "15")]
 	public override object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x4636210", Offset = "0x4636210", VA = "0x4636210", Slot = "16")]
+	[Token(Token = "0x6000B28")]
+	[Address(RVA = "0x255D490", Offset = "0x255BA90", VA = "0x18255D490", Slot = "16")]
 	public override string ConvertObjectToXml(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x4636950", Offset = "0x4636950", VA = "0x4636950", Slot = "17")]
+	[Token(Token = "0x6000B29")]
+	[Address(RVA = "0x255D360", Offset = "0x255B960", VA = "0x18255D360", Slot = "17")]
 	public override void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib)
 	{
 	}
 
-	[Token(Token = "0x6000BEA")]
-	[Address(RVA = "0x4636AC0", Offset = "0x4636AC0", VA = "0x4636AC0", Slot = "18")]
+	[Token(Token = "0x6000B2A")]
+	[Address(RVA = "0x255E720", Offset = "0x255CD20", VA = "0x18255E720", Slot = "18")]
 	protected override object GetEmptyStorage(int recordCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BEB")]
-	[Address(RVA = "0x4636B00", Offset = "0x4636B00", VA = "0x4636B00", Slot = "19")]
+	[Token(Token = "0x6000B2B")]
+	[Address(RVA = "0x255E420", Offset = "0x255CA20", VA = "0x18255E420", Slot = "19")]
 	protected override void CopyValue(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
-	[Token(Token = "0x6000BEC")]
-	[Address(RVA = "0x4636D40", Offset = "0x4636D40", VA = "0x4636D40", Slot = "20")]
+	[Token(Token = "0x6000B2C")]
+	[Address(RVA = "0x255F0A0", Offset = "0x255D6A0", VA = "0x18255F0A0", Slot = "20")]
 	protected override void SetStorage(object store, BitArray nullbits)
 	{
 	}
 
-	[Token(Token = "0x6000BED")]
-	[Address(RVA = "0x46270C0", Offset = "0x46270C0", VA = "0x46270C0")]
+	[Token(Token = "0x6000B2D")]
+	[Address(RVA = "0x255FD20", Offset = "0x255E320", VA = "0x18255FD20")]
 	internal static void VerifyIDynamicMetaObjectProvider(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000BEE")]
-	[Address(RVA = "0x4633750", Offset = "0x4633750", VA = "0x4633750")]
+	[Token(Token = "0x6000B2E")]
+	[Address(RVA = "0x255E8A0", Offset = "0x255CEA0", VA = "0x18255E8A0")]
 	internal static XmlSerializer GetXmlSerializer(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BEF")]
-	[Address(RVA = "0x4635A60", Offset = "0x4635A60", VA = "0x4635A60")]
+	[Token(Token = "0x6000B2F")]
+	[Address(RVA = "0x255E920", Offset = "0x255CF20", VA = "0x18255E920")]
 	internal static XmlSerializer GetXmlSerializer(Type type, XmlRootAttribute attribute)
 	{
 		return null;

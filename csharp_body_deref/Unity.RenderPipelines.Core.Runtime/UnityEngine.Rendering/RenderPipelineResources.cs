@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200016C")]
+[Token(Token = "0x2000167")]
 public abstract class RenderPipelineResources : ScriptableObject
 {
-	[Token(Token = "0x17000137")]
+	[Token(Token = "0x17000155")]
 	protected virtual string packagePath
 	{
-		[Token(Token = "0x6000AC5")]
-		[Address(RVA = "0x4BDEA20", Offset = "0x4BDEA20", VA = "0x4BDEA20", Slot = "4")]
+		[Token(Token = "0x6000B65")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000138")]
+	[Token(Token = "0x17000156")]
 	internal string packagePath_Internal
 	{
-		[Token(Token = "0x6000AC6")]
-		[Address(RVA = "0x4BDEA30", Offset = "0x4BDEA30", VA = "0x4BDEA30")]
+		[Token(Token = "0x6000B66")]
+		[Address(RVA = "0x1B47C10", Offset = "0x1B46210", VA = "0x181B47C10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x4BDEA50", Offset = "0x4BDEA50", VA = "0x4BDEA50")]
+	[Token(Token = "0x6000B67")]
+	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
 	protected RenderPipelineResources()
 	{
 	}

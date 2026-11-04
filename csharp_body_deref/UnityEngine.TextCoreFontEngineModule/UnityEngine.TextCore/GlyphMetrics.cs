@@ -19,39 +19,39 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 {
 	[Token(Token = "0x4000021")]
 	[FieldOffset(Offset = "0x0")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("width")]
+	[SerializeField]
 	private float m_Width;
 
 	[Token(Token = "0x4000022")]
 	[FieldOffset(Offset = "0x4")]
-	[UnityEngine.Bindings.NativeName("height")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("height")]
 	private float m_Height;
 
 	[Token(Token = "0x4000023")]
 	[FieldOffset(Offset = "0x8")]
-	[UnityEngine.Bindings.NativeName("horizontalBearingX")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("horizontalBearingX")]
 	private float m_HorizontalBearingX;
 
 	[Token(Token = "0x4000024")]
 	[FieldOffset(Offset = "0xC")]
-	[UnityEngine.Bindings.NativeName("horizontalBearingY")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("horizontalBearingY")]
 	private float m_HorizontalBearingY;
 
 	[Token(Token = "0x4000025")]
 	[FieldOffset(Offset = "0x10")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("horizontalAdvance")]
+	[SerializeField]
 	private float m_HorizontalAdvance;
 
 	[Token(Token = "0x1700001A")]
 	public float width
 	{
-		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x4EA3560", Offset = "0x4EA3560", VA = "0x4EA3560")]
+		[Token(Token = "0x6000024")]
+		[Address(RVA = "0x2ECC6C0", Offset = "0x2ECACC0", VA = "0x182ECC6C0")]
 		get
 		{
 			return default(float);
@@ -61,8 +61,8 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	[Token(Token = "0x1700001B")]
 	public float height
 	{
-		[Token(Token = "0x6000032")]
-		[Address(RVA = "0x4EA3570", Offset = "0x4EA3570", VA = "0x4EA3570")]
+		[Token(Token = "0x6000025")]
+		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
 		get
 		{
 			return default(float);
@@ -72,8 +72,8 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	[Token(Token = "0x1700001C")]
 	public float horizontalBearingX
 	{
-		[Token(Token = "0x6000033")]
-		[Address(RVA = "0x4EA3580", Offset = "0x4EA3580", VA = "0x4EA3580")]
+		[Token(Token = "0x6000026")]
+		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
 		get
 		{
 			return default(float);
@@ -83,8 +83,8 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	[Token(Token = "0x1700001D")]
 	public float horizontalBearingY
 	{
-		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4EA3590", Offset = "0x4EA3590", VA = "0x4EA3590")]
+		[Token(Token = "0x6000027")]
+		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
 		get
 		{
 			return default(float);
@@ -94,36 +94,36 @@ public struct GlyphMetrics : IEquatable<GlyphMetrics>
 	[Token(Token = "0x1700001E")]
 	public float horizontalAdvance
 	{
-		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4EA35A0", Offset = "0x4EA35A0", VA = "0x4EA35A0")]
+		[Token(Token = "0x6000028")]
+		[Address(RVA = "0x2EAE470", Offset = "0x2EACA70", VA = "0x182EAE470")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4EA35B0", Offset = "0x4EA35B0", VA = "0x4EA35B0")]
+	[Token(Token = "0x6000029")]
+	[Address(RVA = "0x3002820", Offset = "0x3000E20", VA = "0x183002820")]
 	public GlyphMetrics(float width, float height, float bearingX, float bearingY, float advance)
 	{
 	}
 
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x4EA35D0", Offset = "0x4EA35D0", VA = "0x4EA35D0", Slot = "2")]
+	[Token(Token = "0x600002A")]
+	[Address(RVA = "0x30027C0", Offset = "0x3000DC0", VA = "0x1830027C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000038")]
-	[Address(RVA = "0x4EA3630", Offset = "0x4EA3630", VA = "0x4EA3630", Slot = "0")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x3002750", Offset = "0x3000D50", VA = "0x183002750", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000039")]
-	[Address(RVA = "0x4EA3690", Offset = "0x4EA3690", VA = "0x4EA3690", Slot = "4")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x30026C0", Offset = "0x3000CC0", VA = "0x1830026C0", Slot = "4")]
 	public bool Equals(GlyphMetrics other)
 	{
 		return default(bool);

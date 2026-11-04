@@ -11,79 +11,79 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000182")]
+[Token(Token = "0x20001AD")]
 internal class DelegateSerializationHolder : ISerializable, IObjectReference
 {
 	[Serializable]
-	[Token(Token = "0x2000183")]
+	[Token(Token = "0x20001AE")]
 	private class DelegateEntry
 	{
-		[Token(Token = "0x4000697")]
+		[Token(Token = "0x40006FB")]
 		[FieldOffset(Offset = "0x10")]
 		private string type;
 
-		[Token(Token = "0x4000698")]
+		[Token(Token = "0x40006FC")]
 		[FieldOffset(Offset = "0x18")]
 		private string assembly;
 
-		[Token(Token = "0x4000699")]
+		[Token(Token = "0x40006FD")]
 		[FieldOffset(Offset = "0x20")]
 		private object target;
 
-		[Token(Token = "0x400069A")]
+		[Token(Token = "0x40006FE")]
 		[FieldOffset(Offset = "0x28")]
 		private string targetTypeAssembly;
 
-		[Token(Token = "0x400069B")]
+		[Token(Token = "0x40006FF")]
 		[FieldOffset(Offset = "0x30")]
 		private string targetTypeName;
 
-		[Token(Token = "0x400069C")]
+		[Token(Token = "0x4000700")]
 		[FieldOffset(Offset = "0x38")]
 		private string methodName;
 
-		[Token(Token = "0x400069D")]
+		[Token(Token = "0x4000701")]
 		[FieldOffset(Offset = "0x40")]
 		public DelegateEntry delegateEntry;
 
-		[Token(Token = "0x6000F8D")]
-		[Address(RVA = "0x3D0C5D0", Offset = "0x3D0C5D0", VA = "0x3D0C5D0")]
+		[Token(Token = "0x6000FE3")]
+		[Address(RVA = "0x1B7DEA0", Offset = "0x1B7C4A0", VA = "0x181B7DEA0")]
 		public DelegateEntry(Delegate del, string targetLabel)
 		{
 		}
 
-		[Token(Token = "0x6000F8E")]
-		[Address(RVA = "0x3D0C390", Offset = "0x3D0C390", VA = "0x3D0C390")]
+		[Token(Token = "0x6000FE4")]
+		[Address(RVA = "0x1B7DBF0", Offset = "0x1B7C1F0", VA = "0x181B7DBF0")]
 		public Delegate DeserializeDelegate(SerializationInfo info, int index)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000696")]
+	[Token(Token = "0x40006FA")]
 	[FieldOffset(Offset = "0x10")]
 	private Delegate _delegate;
 
-	[Token(Token = "0x6000F89")]
-	[Address(RVA = "0x3D0C100", Offset = "0x3D0C100", VA = "0x3D0C100")]
+	[Token(Token = "0x6000FDF")]
+	[Address(RVA = "0x1B7E300", Offset = "0x1B7C900", VA = "0x181B7E300")]
 	private DelegateSerializationHolder(SerializationInfo info, StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6000F8A")]
-	[Address(RVA = "0x3D0BC50", Offset = "0x3D0BC50", VA = "0x3D0BC50")]
+	[Token(Token = "0x6000FE0")]
+	[Address(RVA = "0x1B7E080", Offset = "0x1B7C680", VA = "0x181B7E080")]
 	public static void GetDelegateData(Delegate instance, SerializationInfo info, StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6000F8B")]
-	[Address(RVA = "0x3D0C790", Offset = "0x3D0C790", VA = "0x3D0C790", Slot = "4")]
+	[Token(Token = "0x6000FE1")]
+	[Address(RVA = "0x1B7E2C0", Offset = "0x1B7C8C0", VA = "0x181B7E2C0", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000F8C")]
-	[Address(RVA = "0x3D0C7D0", Offset = "0x3D0C7D0", VA = "0x3D0C7D0", Slot = "5")]
+	[Token(Token = "0x6000FE2")]
+	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
 	public object GetRealObject(StreamingContext context)
 	{
 		return null;

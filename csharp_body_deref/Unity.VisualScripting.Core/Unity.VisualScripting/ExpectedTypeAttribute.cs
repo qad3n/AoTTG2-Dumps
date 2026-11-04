@@ -15,11 +15,11 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public sealed class ExpectedTypeAttribute : Attribute
 {
-	[Token(Token = "0x1700005E")]
+	[Token(Token = "0x1700005F")]
 	public Type type
 	{
-		[Token(Token = "0x60001D9")]
-		[Address(RVA = "0x4CA3990", Offset = "0x4CA3990", VA = "0x4CA3990")]
+		[Token(Token = "0x60001DD")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,8 +27,8 @@ public sealed class ExpectedTypeAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x4CA3850", Offset = "0x4CA3850", VA = "0x4CA3850")]
+	[Token(Token = "0x60001DC")]
+	[Address(RVA = "0x2DA7830", Offset = "0x2DA5E30", VA = "0x182DA7830")]
 	public ExpectedTypeAttribute(Type type)
 	{
 	}

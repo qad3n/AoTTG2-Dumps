@@ -11,21 +11,21 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000E6")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x2000107")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/ColorGamut.h")]
+[UnityEngine.Scripting.UsedByNativeCode]
 public enum TransferFunction
 {
-	[Token(Token = "0x400027F")]
+	[Token(Token = "0x40002D6")]
 	Unknown = -1,
-	[Token(Token = "0x4000280")]
+	[Token(Token = "0x40002D7")]
 	sRGB,
-	[Token(Token = "0x4000281")]
+	[Token(Token = "0x40002D8")]
 	BT1886,
-	[Token(Token = "0x4000282")]
+	[Token(Token = "0x40002D9")]
 	PQ,
-	[Token(Token = "0x4000283")]
+	[Token(Token = "0x40002DA")]
 	Linear,
-	[Token(Token = "0x4000284")]
+	[Token(Token = "0x40002DB")]
 	Gamma22
 }

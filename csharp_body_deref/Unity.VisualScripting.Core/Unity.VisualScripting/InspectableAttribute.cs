@@ -15,26 +15,26 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public sealed class InspectableAttribute : Attribute, IInspectableAttribute
 {
-	[Token(Token = "0x17000061")]
+	[Token(Token = "0x17000062")]
 	public int order
 	{
-		[Token(Token = "0x60001DF")]
-		[Address(RVA = "0x4CA39F0", Offset = "0x4CA39F0", VA = "0x4CA39F0", Slot = "7")]
+		[Token(Token = "0x60001E3")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60001E0")]
-		[Address(RVA = "0x4CA3A00", Offset = "0x4CA3A00", VA = "0x4CA3A00")]
+		[Token(Token = "0x60001E4")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x4CA39E0", Offset = "0x4CA39E0", VA = "0x4CA39E0")]
+	[Token(Token = "0x60001E2")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public InspectableAttribute()
 	{
 	}

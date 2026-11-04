@@ -10,24 +10,24 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x2000042")]
+[Token(Token = "0x2000056")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public enum Allocator
 {
-	[Token(Token = "0x40000B8")]
+	[Token(Token = "0x40000ED")]
 	Invalid = 0,
-	[Token(Token = "0x40000B9")]
+	[Token(Token = "0x40000EE")]
 	None = 1,
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000EF")]
 	Temp = 2,
-	[Token(Token = "0x40000BB")]
+	[Token(Token = "0x40000F0")]
 	TempJob = 3,
-	[Token(Token = "0x40000BC")]
+	[Token(Token = "0x40000F1")]
 	Persistent = 4,
-	[Token(Token = "0x40000BD")]
+	[Token(Token = "0x40000F2")]
 	AudioKernel = 5,
-	[Token(Token = "0x40000BE")]
+	[Token(Token = "0x40000F3")]
 	Domain = 6,
-	[Token(Token = "0x40000BF")]
+	[Token(Token = "0x40000F4")]
 	FirstUserIndex = 64
 }

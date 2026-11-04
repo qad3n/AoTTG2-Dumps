@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200030F")]
+[Token(Token = "0x2000372")]
 [Flags]
 public enum BatchCullingFlags
 {
-	[Token(Token = "0x400098E")]
+	[Token(Token = "0x4000A04")]
 	None = 0,
-	[Token(Token = "0x400098F")]
+	[Token(Token = "0x4000A05")]
 	CullLightmappedShadowCasters = 1
 }

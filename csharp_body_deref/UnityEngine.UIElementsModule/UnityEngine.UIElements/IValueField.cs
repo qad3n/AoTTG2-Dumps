@@ -10,25 +10,25 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000114")]
+[Token(Token = "0x200015E")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public interface IValueField<T>
 {
-	[Token(Token = "0x1700014D")]
+	[Token(Token = "0x170001DE")]
 	T value
 	{
-		[Token(Token = "0x6000756")]
+		[Token(Token = "0x6000A14")]
 		get;
-		[Token(Token = "0x6000757")]
+		[Token(Token = "0x6000A15")]
 		set;
 	}
 
-	[Token(Token = "0x6000758")]
+	[Token(Token = "0x6000A16")]
 	void ApplyInputDeviceDelta(Vector3 delta, DeltaSpeed speed, T startValue);
 
-	[Token(Token = "0x6000759")]
+	[Token(Token = "0x6000A17")]
 	void StartDragging();
 
-	[Token(Token = "0x600075A")]
+	[Token(Token = "0x6000A18")]
 	void StopDragging();
 }

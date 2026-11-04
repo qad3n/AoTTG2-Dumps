@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x200052D")]
+[Token(Token = "0x2000624")]
 internal abstract class HierarchyTraversal
 {
-	[Token(Token = "0x6001F6B")]
-	[Address(RVA = "0x4FBC6C0", Offset = "0x4FBC6C0", VA = "0x4FBC6C0", Slot = "4")]
+	[Token(Token = "0x6002CBD")]
+	[Address(RVA = "0x31B8AC0", Offset = "0x31B70C0", VA = "0x1831B8AC0", Slot = "4")]
 	public virtual void Traverse(VisualElement element)
 	{
 	}
 
-	[Token(Token = "0x6001F6C")]
+	[Token(Token = "0x6002CBE")]
 	public abstract void TraverseRecursive(VisualElement element, int depth);
 
-	[Token(Token = "0x6001F6D")]
-	[Address(RVA = "0x4FBC6E0", Offset = "0x4FBC6E0", VA = "0x4FBC6E0")]
+	[Token(Token = "0x6002CBF")]
+	[Address(RVA = "0x31B89F0", Offset = "0x31B6FF0", VA = "0x1831B89F0")]
 	protected void Recurse(VisualElement element, int depth)
 	{
 	}
 
-	[Token(Token = "0x6001F6E")]
-	[Address(RVA = "0x4FBC7C0", Offset = "0x4FBC7C0", VA = "0x4FBC7C0")]
+	[Token(Token = "0x6002CC0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected HierarchyTraversal()
 	{
 	}

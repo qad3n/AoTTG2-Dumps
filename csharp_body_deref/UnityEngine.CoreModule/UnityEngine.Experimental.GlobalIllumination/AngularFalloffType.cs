@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x200033B")]
+[Token(Token = "0x20003E2")]
 public enum AngularFalloffType : byte
 {
-	[Token(Token = "0x4000A52")]
+	[Token(Token = "0x4000CD9")]
 	LUT,
-	[Token(Token = "0x4000A53")]
+	[Token(Token = "0x4000CDA")]
 	AnalyticAndInnerAngle
 }

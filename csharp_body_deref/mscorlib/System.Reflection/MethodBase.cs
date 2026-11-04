@@ -12,65 +12,32 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x20004E6")]
+[Token(Token = "0x2000516")]
 public abstract class MethodBase : MemberInfo
 {
-	[Token(Token = "0x170004B8")]
+	[Token(Token = "0x170004BB")]
 	public abstract MethodAttributes Attributes
 	{
-		[Token(Token = "0x600243E")]
+		[Token(Token = "0x60024C0")]
 		get;
 	}
 
-	[Token(Token = "0x170004B9")]
+	[Token(Token = "0x170004BC")]
 	public virtual CallingConventions CallingConvention
 	{
-		[Token(Token = "0x6002440")]
-		[Address(RVA = "0x3BD2A80", Offset = "0x3BD2A80", VA = "0x3BD2A80", Slot = "19")]
+		[Token(Token = "0x60024C2")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "19")]
 		get
 		{
 			return default(CallingConventions);
 		}
 	}
 
-	[Token(Token = "0x170004BA")]
+	[Token(Token = "0x170004BD")]
 	public bool IsAbstract
 	{
-		[Token(Token = "0x6002441")]
-		[Address(RVA = "0x3BD2A90", Offset = "0x3BD2A90", VA = "0x3BD2A90", Slot = "20")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170004BB")]
-	public bool IsConstructor
-	{
-		[Token(Token = "0x6002442")]
-		[Address(RVA = "0x3BD2AB0", Offset = "0x3BD2AB0", VA = "0x3BD2AB0", Slot = "21")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170004BC")]
-	public bool IsFinal
-	{
-		[Token(Token = "0x6002443")]
-		[Address(RVA = "0x3BD2B60", Offset = "0x3BD2B60", VA = "0x3BD2B60", Slot = "22")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x170004BD")]
-	public bool IsSpecialName
-	{
-		[Token(Token = "0x6002444")]
-		[Address(RVA = "0x3BD2B80", Offset = "0x3BD2B80", VA = "0x3BD2B80", Slot = "23")]
+		[Token(Token = "0x60024C3")]
+		[Address(RVA = "0x1A4AA30", Offset = "0x1A49030", VA = "0x181A4AA30", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -78,10 +45,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004BE")]
-	public bool IsStatic
+	public bool IsConstructor
 	{
-		[Token(Token = "0x6002445")]
-		[Address(RVA = "0x3BD2B40", Offset = "0x3BD2B40", VA = "0x3BD2B40", Slot = "24")]
+		[Token(Token = "0x60024C4")]
+		[Address(RVA = "0x1A4AA60", Offset = "0x1A49060", VA = "0x181A4AA60", Slot = "21")]
 		get
 		{
 			return default(bool);
@@ -89,10 +56,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004BF")]
-	public bool IsVirtual
+	public bool IsFinal
 	{
-		[Token(Token = "0x6002446")]
-		[Address(RVA = "0x3BD2BA0", Offset = "0x3BD2BA0", VA = "0x3BD2BA0", Slot = "25")]
+		[Token(Token = "0x60024C5")]
+		[Address(RVA = "0x1A4AAF0", Offset = "0x1A490F0", VA = "0x181A4AAF0", Slot = "22")]
 		get
 		{
 			return default(bool);
@@ -100,10 +67,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004C0")]
-	public bool IsPublic
+	public bool IsSpecialName
 	{
-		[Token(Token = "0x6002447")]
-		[Address(RVA = "0x3BD2BC0", Offset = "0x3BD2BC0", VA = "0x3BD2BC0", Slot = "26")]
+		[Token(Token = "0x60024C6")]
+		[Address(RVA = "0x1A4AB70", Offset = "0x1A49170", VA = "0x181A4AB70", Slot = "23")]
 		get
 		{
 			return default(bool);
@@ -111,10 +78,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004C1")]
-	public virtual bool IsGenericMethod
+	public bool IsStatic
 	{
-		[Token(Token = "0x6002448")]
-		[Address(RVA = "0x3BD2BE0", Offset = "0x3BD2BE0", VA = "0x3BD2BE0", Slot = "27")]
+		[Token(Token = "0x60024C7")]
+		[Address(RVA = "0x1A4ABA0", Offset = "0x1A491A0", VA = "0x181A4ABA0", Slot = "24")]
 		get
 		{
 			return default(bool);
@@ -122,10 +89,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004C2")]
-	public virtual bool IsGenericMethodDefinition
+	public bool IsVirtual
 	{
-		[Token(Token = "0x6002449")]
-		[Address(RVA = "0x3BD2BF0", Offset = "0x3BD2BF0", VA = "0x3BD2BF0", Slot = "28")]
+		[Token(Token = "0x60024C8")]
+		[Address(RVA = "0x1A4ABC0", Offset = "0x1A491C0", VA = "0x181A4ABC0", Slot = "25")]
 		get
 		{
 			return default(bool);
@@ -133,10 +100,10 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004C3")]
-	public virtual bool ContainsGenericParameters
+	public bool IsPublic
 	{
-		[Token(Token = "0x600244B")]
-		[Address(RVA = "0x3BD2C50", Offset = "0x3BD2C50", VA = "0x3BD2C50", Slot = "30")]
+		[Token(Token = "0x60024C9")]
+		[Address(RVA = "0x1A4AB10", Offset = "0x1A49110", VA = "0x181A4AB10", Slot = "26")]
 		get
 		{
 			return default(bool);
@@ -144,44 +111,77 @@ public abstract class MethodBase : MemberInfo
 	}
 
 	[Token(Token = "0x170004C4")]
-	public abstract RuntimeMethodHandle MethodHandle
+	public virtual bool IsGenericMethod
 	{
-		[Token(Token = "0x600244E")]
-		get;
-	}
-
-	[Token(Token = "0x170004C5")]
-	public virtual bool IsSecurityCritical
-	{
-		[Token(Token = "0x600244F")]
-		[Address(RVA = "0x3BD2C90", Offset = "0x3BD2C90", VA = "0x3BD2C90", Slot = "34")]
+		[Token(Token = "0x60024CA")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "27")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600243C")]
-	[Address(RVA = "0x3BD0750", Offset = "0x3BD0750", VA = "0x3BD0750")]
+	[Token(Token = "0x170004C5")]
+	public virtual bool IsGenericMethodDefinition
+	{
+		[Token(Token = "0x60024CB")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "28")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170004C6")]
+	public virtual bool ContainsGenericParameters
+	{
+		[Token(Token = "0x60024CD")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "30")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x170004C7")]
+	public abstract RuntimeMethodHandle MethodHandle
+	{
+		[Token(Token = "0x60024D0")]
+		get;
+	}
+
+	[Token(Token = "0x170004C8")]
+	public virtual bool IsSecurityCritical
+	{
+		[Token(Token = "0x60024D1")]
+		[Address(RVA = "0x1A4AB40", Offset = "0x1A49140", VA = "0x181A4AB40", Slot = "34")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x60024BE")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected MethodBase()
 	{
 	}
 
-	[Token(Token = "0x600243D")]
+	[Token(Token = "0x60024BF")]
 	public abstract ParameterInfo[] GetParameters();
 
-	[Token(Token = "0x600243F")]
+	[Token(Token = "0x60024C1")]
 	public abstract MethodImplAttributes GetMethodImplementationFlags();
 
-	[Token(Token = "0x600244A")]
-	[Address(RVA = "0x3BD2C00", Offset = "0x3BD2C00", VA = "0x3BD2C00", Slot = "29")]
+	[Token(Token = "0x60024CC")]
+	[Address(RVA = "0x1A4A610", Offset = "0x1A48C10", VA = "0x181A4A610", Slot = "29")]
 	public virtual Type[] GetGenericArguments()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600244C")]
-	[Address(RVA = "0x3BD2C60", Offset = "0x3BD2C60", VA = "0x3BD2C60", Slot = "31")]
+	[Token(Token = "0x60024CE")]
+	[Address(RVA = "0x1A4A9F0", Offset = "0x1A48FF0", VA = "0x181A4A9F0", Slot = "31")]
 	[DebuggerHidden]
 	[DebuggerStepThrough]
 	public object Invoke(object obj, object[] parameters)
@@ -189,81 +189,81 @@ public abstract class MethodBase : MemberInfo
 		return null;
 	}
 
-	[Token(Token = "0x600244D")]
+	[Token(Token = "0x60024CF")]
 	public abstract object Invoke(object obj, BindingFlags invokeAttr, Binder binder, object[] parameters, CultureInfo culture);
 
-	[Token(Token = "0x6002450")]
-	[Address(RVA = "0x3BD07B0", Offset = "0x3BD07B0", VA = "0x3BD07B0", Slot = "0")]
+	[Token(Token = "0x60024D2")]
+	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002451")]
-	[Address(RVA = "0x3BD07D0", Offset = "0x3BD07D0", VA = "0x3BD07D0", Slot = "2")]
+	[Token(Token = "0x60024D3")]
+	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002452")]
-	[Address(RVA = "0x3BD27D0", Offset = "0x3BD27D0", VA = "0x3BD27D0")]
+	[Token(Token = "0x60024D4")]
+	[Address(RVA = "0x1A4ABE0", Offset = "0x1A491E0", VA = "0x181A4ABE0")]
 	public static bool operator ==(MethodBase left, MethodBase right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002453")]
-	[Address(RVA = "0x3BD27C0", Offset = "0x3BD27C0", VA = "0x3BD27C0")]
+	[Token(Token = "0x60024D5")]
+	[Address(RVA = "0x1A4AE30", Offset = "0x1A49430", VA = "0x181A4AE30")]
 	public static bool operator !=(MethodBase left, MethodBase right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002454")]
-	[Address(RVA = "0x3BD2D20", Offset = "0x3BD2D20", VA = "0x3BD2D20", Slot = "35")]
+	[Token(Token = "0x60024D6")]
+	[Address(RVA = "0x1A4A9D0", Offset = "0x1A48FD0", VA = "0x181A4A9D0", Slot = "35")]
 	internal virtual ParameterInfo[] GetParametersInternal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002455")]
-	[Address(RVA = "0x3BD2D40", Offset = "0x3BD2D40", VA = "0x3BD2D40", Slot = "36")]
+	[Token(Token = "0x60024D7")]
+	[Address(RVA = "0x1A4A9A0", Offset = "0x1A48FA0", VA = "0x181A4A9A0", Slot = "36")]
 	internal virtual int GetParametersCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002456")]
-	[Address(RVA = "0x3BD2D60", Offset = "0x3BD2D60", VA = "0x3BD2D60", Slot = "37")]
+	[Token(Token = "0x60024D8")]
+	[Address(RVA = "0x1A4A500", Offset = "0x1A48B00", VA = "0x181A4A500", Slot = "37")]
 	internal virtual string FormatNameAndSig(bool serialization)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002457")]
-	[Address(RVA = "0x3BD3090", Offset = "0x3BD3090", VA = "0x3BD3090", Slot = "38")]
+	[Token(Token = "0x60024D9")]
+	[Address(RVA = "0x1A4A890", Offset = "0x1A48E90", VA = "0x181A4A890", Slot = "38")]
 	internal virtual Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002458")]
-	[Address(RVA = "0x3BD31C0", Offset = "0x3BD31C0", VA = "0x3BD31C0", Slot = "39")]
+	[Token(Token = "0x60024DA")]
+	[Address(RVA = "0x1A4A9D0", Offset = "0x1A48FD0", VA = "0x181A4A9D0", Slot = "39")]
 	internal virtual ParameterInfo[] GetParametersNoCopy()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002459")]
-	[Address(RVA = "0x3BD31E0", Offset = "0x3BD31E0", VA = "0x3BD31E0")]
+	[Token(Token = "0x60024DB")]
+	[Address(RVA = "0x1A4A660", Offset = "0x1A48C60", VA = "0x181A4A660")]
 	public static MethodBase GetMethodFromHandle(RuntimeMethodHandle handle)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600245A")]
-	[Address(RVA = "0x3BD2E80", Offset = "0x3BD2E80", VA = "0x3BD2E80")]
+	[Token(Token = "0x60024DC")]
+	[Address(RVA = "0x1A4A310", Offset = "0x1A48910", VA = "0x181A4A310")]
 	internal static string ConstructParameters(Type[] parameterTypes, CallingConventions callingConvention, bool serialization)
 	{
 		return null;

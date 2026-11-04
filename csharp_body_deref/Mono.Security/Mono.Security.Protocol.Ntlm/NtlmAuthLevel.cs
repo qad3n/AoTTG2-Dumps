@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Protocol.Ntlm;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x2000032")]
 public enum NtlmAuthLevel
 {
-	[Token(Token = "0x400008E")]
+	[Token(Token = "0x4000094")]
 	LM_and_NTLM,
-	[Token(Token = "0x400008F")]
+	[Token(Token = "0x4000095")]
 	LM_and_NTLM_and_try_NTLMv2_Session,
-	[Token(Token = "0x4000090")]
+	[Token(Token = "0x4000096")]
 	NTLM_only,
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x4000097")]
 	NTLMv2_only
 }

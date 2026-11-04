@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Lifetime;
 
 [Serializable]
-[Token(Token = "0x2000365")]
+[Token(Token = "0x2000394")]
 [ComVisible(true)]
 public enum LeaseState
 {
-	[Token(Token = "0x4000EE7")]
+	[Token(Token = "0x4000EF4")]
 	Null,
-	[Token(Token = "0x4000EE8")]
+	[Token(Token = "0x4000EF5")]
 	Initial,
-	[Token(Token = "0x4000EE9")]
+	[Token(Token = "0x4000EF6")]
 	Active,
-	[Token(Token = "0x4000EEA")]
+	[Token(Token = "0x4000EF7")]
 	Renewing,
-	[Token(Token = "0x4000EEB")]
+	[Token(Token = "0x4000EF8")]
 	Expired
 }

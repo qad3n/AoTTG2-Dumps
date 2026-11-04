@@ -11,18 +11,18 @@ using UnityEngine;
 
 namespace Projectiles;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x2000104")]
 internal class ProjectileSpawner : MonoBehaviour
 {
-	[Token(Token = "0x6000454")]
-	[Address(RVA = "0x41084E0", Offset = "0x41084E0", VA = "0x41084E0")]
+	[Token(Token = "0x60004ED")]
+	[Address(RVA = "0x20CE3F0", Offset = "0x20CC9F0", VA = "0x1820CE3F0")]
 	public static BaseProjectile Spawn(string name, Vector3 position, Quaternion rotation, Vector3 velocity, Vector3 gravity, float liveTime, int charViewId, string team, [Optional] object[] settings)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000455")]
-	[Address(RVA = "0x4108650", Offset = "0x4108650", VA = "0x4108650")]
+	[Token(Token = "0x60004EE")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ProjectileSpawner()
 	{
 	}

@@ -10,55 +10,55 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x200002A")]
 public class EventCode
 {
-	[Token(Token = "0x400011A")]
+	[Token(Token = "0x4000115")]
 	public const byte GameList = 230;
 
-	[Token(Token = "0x400011B")]
+	[Token(Token = "0x4000116")]
 	public const byte GameListUpdate = 229;
 
-	[Token(Token = "0x400011C")]
+	[Token(Token = "0x4000117")]
 	public const byte QueueState = 228;
 
-	[Token(Token = "0x400011D")]
+	[Token(Token = "0x4000118")]
 	public const byte Match = 227;
 
-	[Token(Token = "0x400011E")]
+	[Token(Token = "0x4000119")]
 	public const byte AppStats = 226;
 
-	[Token(Token = "0x400011F")]
+	[Token(Token = "0x400011A")]
 	public const byte LobbyStats = 224;
 
-	[Token(Token = "0x4000120")]
+	[Token(Token = "0x400011B")]
 	[Obsolete("TCP routing was removed after becoming obsolete.")]
 	public const byte AzureNodeInfo = 210;
 
-	[Token(Token = "0x4000121")]
-	public const byte Join = byte.MaxValue;
+	[Token(Token = "0x400011C")]
+	public const byte Join = 255;
 
-	[Token(Token = "0x4000122")]
+	[Token(Token = "0x400011D")]
 	public const byte Leave = 254;
 
-	[Token(Token = "0x4000123")]
+	[Token(Token = "0x400011E")]
 	public const byte PropertiesChanged = 253;
 
-	[Token(Token = "0x4000124")]
+	[Token(Token = "0x400011F")]
 	[Obsolete("Use PropertiesChanged now.")]
 	public const byte SetProperties = 253;
 
-	[Token(Token = "0x4000125")]
+	[Token(Token = "0x4000120")]
 	public const byte ErrorInfo = 251;
 
-	[Token(Token = "0x4000126")]
+	[Token(Token = "0x4000121")]
 	public const byte CacheSliceChanged = 250;
 
-	[Token(Token = "0x4000127")]
+	[Token(Token = "0x4000122")]
 	public const byte AuthEvent = 223;
 
-	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x3ECEED0", Offset = "0x3ECEED0", VA = "0x3ECEED0")]
+	[Token(Token = "0x6000120")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EventCode()
 	{
 	}

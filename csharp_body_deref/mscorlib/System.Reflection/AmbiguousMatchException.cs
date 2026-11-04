@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x20004C0")]
+[Token(Token = "0x20004F0")]
 public sealed class AmbiguousMatchException : SystemException
 {
-	[Token(Token = "0x60023CD")]
-	[Address(RVA = "0x3BD0400", Offset = "0x3BD0400", VA = "0x3BD0400")]
+	[Token(Token = "0x600244F")]
+	[Address(RVA = "0x1A3EC20", Offset = "0x1A3D220", VA = "0x181A3EC20")]
 	public AmbiguousMatchException()
 	{
 	}
 
-	[Token(Token = "0x60023CE")]
-	[Address(RVA = "0x3BD0440", Offset = "0x3BD0440", VA = "0x3BD0440")]
+	[Token(Token = "0x6002450")]
+	[Address(RVA = "0x1A3EC00", Offset = "0x1A3D200", VA = "0x181A3EC00")]
 	public AmbiguousMatchException(string message)
 	{
 	}
 
-	[Token(Token = "0x60023CF")]
-	[Address(RVA = "0x3BD0460", Offset = "0x3BD0460", VA = "0x3BD0460")]
+	[Token(Token = "0x6002451")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	internal AmbiguousMatchException(SerializationInfo info, StreamingContext context)
 	{
 	}

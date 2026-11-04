@@ -10,51 +10,51 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200006C")]
+[Token(Token = "0x2000080")]
 [AottgDialog("aottg-search-palette")]
 public sealed class AottgSearchPaletteDialog : AottgDialog
 {
-	[Token(Token = "0x1700005D")]
+	[Token(Token = "0x17000081")]
 	protected override string Title
 	{
-		[Token(Token = "0x60002E0")]
-		[Address(RVA = "0x3A61270", Offset = "0x3A61270", VA = "0x3A61270", Slot = "4")]
+		[Token(Token = "0x60003C6")]
+		[Address(RVA = "0x18C6B20", Offset = "0x18C5120", VA = "0x1818C6B20", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700005E")]
+	[Token(Token = "0x17000082")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x60002E1")]
-		[Address(RVA = "0x3A612A0", Offset = "0x3A612A0", VA = "0x3A612A0", Slot = "5")]
+		[Token(Token = "0x60003C7")]
+		[Address(RVA = "0x18C6AF0", Offset = "0x18C50F0", VA = "0x1818C6AF0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700005F")]
+	[Token(Token = "0x17000083")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60002E2")]
-		[Address(RVA = "0x3A612D0", Offset = "0x3A612D0", VA = "0x3A612D0", Slot = "14")]
+		[Token(Token = "0x60003C8")]
+		[Address(RVA = "0x18C69E0", Offset = "0x18C4FE0", VA = "0x1818C69E0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x3A61460", Offset = "0x3A61460", VA = "0x3A61460", Slot = "19")]
+	[Token(Token = "0x60003C9")]
+	[Address(RVA = "0x18C6860", Offset = "0x18C4E60", VA = "0x1818C6860", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x3A61590", Offset = "0x3A61590", VA = "0x3A61590")]
+	[Token(Token = "0x60003CA")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public AottgSearchPaletteDialog()
 	{
 	}

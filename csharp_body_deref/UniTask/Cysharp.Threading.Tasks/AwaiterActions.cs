@@ -12,16 +12,16 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x20000FD")]
+[Token(Token = "0x2000111")]
 internal static class AwaiterActions
 {
-	[Token(Token = "0x40003F2")]
+	[Token(Token = "0x4000426")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Action<object> InvokeContinuationDelegate;
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x49E9760", Offset = "0x49E9760", VA = "0x49E9760")]
+	[Token(Token = "0x60006AD")]
+	[Address(RVA = "0x2908270", Offset = "0x2906870", VA = "0x182908270")]
 	[DebuggerHidden]
 	private static void Continuation(object state)
 	{

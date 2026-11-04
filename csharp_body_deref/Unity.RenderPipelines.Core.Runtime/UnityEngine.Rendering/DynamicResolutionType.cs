@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000080")]
+[Token(Token = "0x2000049")]
 public enum DynamicResolutionType : byte
 {
-	[Token(Token = "0x40001FD")]
+	[Token(Token = "0x4000109")]
 	Software,
-	[Token(Token = "0x40001FE")]
+	[Token(Token = "0x400010A")]
 	Hardware
 }

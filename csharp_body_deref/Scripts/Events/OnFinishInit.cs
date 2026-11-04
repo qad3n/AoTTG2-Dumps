@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace Events;
 
-[Token(Token = "0x2000711")]
+[Token(Token = "0x2000894")]
 public delegate void OnFinishInit();

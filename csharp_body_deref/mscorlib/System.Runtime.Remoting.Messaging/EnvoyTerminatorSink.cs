@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x20003A8")]
+[Token(Token = "0x20003D7")]
 internal class EnvoyTerminatorSink : IMessageSink
 {
-	[Token(Token = "0x4000F71")]
+	[Token(Token = "0x4000F7B")]
 	[FieldOffset(Offset = "0x0")]
 	public static System.Runtime.Remoting.Messaging.EnvoyTerminatorSink Instance;
 
-	[Token(Token = "0x6001E59")]
-	[Address(RVA = "0x3B8CDA0", Offset = "0x3B8CDA0", VA = "0x3B8CDA0", Slot = "4")]
+	[Token(Token = "0x6001EC8")]
+	[Address(RVA = "0x19FAAE0", Offset = "0x19F90E0", VA = "0x1819FAAE0", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E5A")]
-	[Address(RVA = "0x3B8CE60", Offset = "0x3B8CE60", VA = "0x3B8CE60", Slot = "5")]
+	[Token(Token = "0x6001EC9")]
+	[Address(RVA = "0x19FAA60", Offset = "0x19F9060", VA = "0x1819FAA60", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E5B")]
-	[Address(RVA = "0x3B8CF30", Offset = "0x3B8CF30", VA = "0x3B8CF30")]
+	[Token(Token = "0x6001ECA")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EnvoyTerminatorSink()
 	{
 	}

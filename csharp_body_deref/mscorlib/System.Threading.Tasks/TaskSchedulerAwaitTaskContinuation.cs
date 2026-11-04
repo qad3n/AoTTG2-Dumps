@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000252")]
+[Token(Token = "0x2000282")]
 internal sealed class TaskSchedulerAwaitTaskContinuation : System.Threading.Tasks.AwaitTaskContinuation
 {
-	[Token(Token = "0x4000AED")]
+	[Token(Token = "0x4000B37")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly TaskScheduler m_scheduler;
 
-	[Token(Token = "0x60014B2")]
-	[Address(RVA = "0x3D45880", Offset = "0x3D45880", VA = "0x3D45880")]
+	[Token(Token = "0x600151E")]
+	[Address(RVA = "0x1BB4070", Offset = "0x1BB2670", VA = "0x181BB4070")]
 	internal TaskSchedulerAwaitTaskContinuation(TaskScheduler scheduler, Action action, bool flowExecutionContext)
 	{
 	}
 
-	[Token(Token = "0x60014B3")]
-	[Address(RVA = "0x3D4B950", Offset = "0x3D4B950", VA = "0x3D4B950", Slot = "4")]
+	[Token(Token = "0x600151F")]
+	[Address(RVA = "0x1BB62E0", Offset = "0x1BB48E0", VA = "0x181BB62E0", Slot = "4")]
 	internal sealed override void Run(Task ignored, bool canInlineContinuationTask)
 	{
 	}

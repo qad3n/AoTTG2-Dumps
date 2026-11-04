@@ -25,14 +25,14 @@ public class InputDevices
 {
 	[Token(Token = "0x4000040")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<InputDevice> deviceConnected;
 
 	[Token(Token = "0x4000041")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<InputDevice> deviceDisconnected;
 
 	[Token(Token = "0x4000042")]
@@ -42,7 +42,7 @@ public class InputDevices
 	private static Action<InputDevice> deviceConfigChanged;
 
 	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x510C7E0", Offset = "0x510C7E0", VA = "0x510C7E0")]
+	[Address(RVA = "0x33132D0", Offset = "0x33118D0", VA = "0x1833132D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeConnectionEvent(ulong deviceId, ConnectionChangeType change)
 	{

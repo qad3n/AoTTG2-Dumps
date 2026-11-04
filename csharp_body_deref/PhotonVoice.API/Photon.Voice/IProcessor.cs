@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200008E")]
+[Token(Token = "0x200008C")]
 public interface IProcessor<T> : IDisposable
 {
-	[Token(Token = "0x60002F7")]
+	[Token(Token = "0x60002F5")]
 	T[] Process(T[] buf);
 }

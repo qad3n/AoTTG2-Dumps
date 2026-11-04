@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200011A")]
+[Token(Token = "0x2000118")]
 public interface IRejectPromise
 {
-	[Token(Token = "0x60006CF")]
+	[Token(Token = "0x60006CD")]
 	bool TrySetException(Exception exception);
 }

@@ -10,17 +10,17 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x2000024")]
 public class OnStartDelete : MonoBehaviour
 {
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3F0AA00", Offset = "0x3F0AA00", VA = "0x3F0AA00")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x1D54BE0", Offset = "0x1D531E0", VA = "0x181D54BE0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3F0AA60", Offset = "0x3F0AA60", VA = "0x3F0AA60")]
+	[Token(Token = "0x60000C1")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public OnStartDelete()
 	{
 	}

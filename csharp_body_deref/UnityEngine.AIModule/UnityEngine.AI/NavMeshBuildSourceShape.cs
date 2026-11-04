@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AI;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000E")]
 public enum NavMeshBuildSourceShape
 {
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x4000019")]
 	Mesh,
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x400001A")]
 	Terrain,
-	[Token(Token = "0x4000014")]
+	[Token(Token = "0x400001B")]
 	Box,
-	[Token(Token = "0x4000015")]
+	[Token(Token = "0x400001C")]
 	Sphere,
-	[Token(Token = "0x4000016")]
+	[Token(Token = "0x400001D")]
 	Capsule,
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x400001E")]
 	ModifierBox
 }

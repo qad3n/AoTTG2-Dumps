@@ -30,7 +30,7 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlSchemaObjectCollection BaseTypes
 	{
 		[Token(Token = "0x600177A")]
-		[Address(RVA = "0x4733090", Offset = "0x4733090", VA = "0x4733090")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
@@ -42,13 +42,13 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlQualifiedName[] MemberTypes
 	{
 		[Token(Token = "0x600177B")]
-		[Address(RVA = "0x47330A0", Offset = "0x47330A0", VA = "0x47330A0")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600177C")]
-		[Address(RVA = "0x47330B0", Offset = "0x47330B0", VA = "0x47330B0")]
+		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
 		set
 		{
 		}
@@ -59,7 +59,7 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType[] BaseMemberTypes
 	{
 		[Token(Token = "0x600177D")]
-		[Address(RVA = "0x47330C0", Offset = "0x47330C0", VA = "0x47330C0")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
@@ -67,20 +67,20 @@ public class XmlSchemaSimpleTypeUnion : XmlSchemaSimpleTypeContent
 	}
 
 	[Token(Token = "0x600177E")]
-	[Address(RVA = "0x47330D0", Offset = "0x47330D0", VA = "0x47330D0")]
+	[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
 	internal void SetBaseMemberTypes(XmlSchemaSimpleType[] baseMemberTypes)
 	{
 	}
 
 	[Token(Token = "0x600177F")]
-	[Address(RVA = "0x47330E0", Offset = "0x47330E0", VA = "0x47330E0", Slot = "13")]
+	[Address(RVA = "0x267F260", Offset = "0x267D860", VA = "0x18267F260", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001780")]
-	[Address(RVA = "0x4733280", Offset = "0x4733280", VA = "0x4733280")]
+	[Address(RVA = "0x267F430", Offset = "0x267DA30", VA = "0x18267F430")]
 	public XmlSchemaSimpleTypeUnion()
 	{
 	}

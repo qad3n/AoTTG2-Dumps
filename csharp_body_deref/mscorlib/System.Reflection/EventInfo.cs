@@ -12,102 +12,102 @@ using Mono;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x20004D7")]
+[Token(Token = "0x2000507")]
 public abstract class EventInfo : MemberInfo
 {
-	[Token(Token = "0x20004D8")]
+	[Token(Token = "0x2000508")]
 	private delegate void AddEventAdapter(object _this, Delegate dele);
 
 	[Token(Token = "0x40013DF")]
 	[FieldOffset(Offset = "0x10")]
 	private AddEventAdapter cached_add_event;
 
-	[Token(Token = "0x170004A2")]
+	[Token(Token = "0x170004A5")]
 	public override MemberTypes MemberType
 	{
-		[Token(Token = "0x60023F4")]
-		[Address(RVA = "0x3BD0A30", Offset = "0x3BD0A30", VA = "0x3BD0A30", Slot = "7")]
+		[Token(Token = "0x6002476")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "7")]
 		get
 		{
 			return default(MemberTypes);
 		}
 	}
 
-	[Token(Token = "0x170004A3")]
+	[Token(Token = "0x170004A6")]
 	public virtual Type EventHandlerType
 	{
-		[Token(Token = "0x60023FA")]
-		[Address(RVA = "0x3BD0A80", Offset = "0x3BD0A80", VA = "0x3BD0A80", Slot = "21")]
+		[Token(Token = "0x600247C")]
+		[Address(RVA = "0x1A44600", Offset = "0x1A42C00", VA = "0x181A44600", Slot = "21")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60023F3")]
-	[Address(RVA = "0x3BD0A10", Offset = "0x3BD0A10", VA = "0x3BD0A10")]
+	[Token(Token = "0x6002475")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected EventInfo()
 	{
 	}
 
-	[Token(Token = "0x60023F5")]
-	[Address(RVA = "0x3BD0A40", Offset = "0x3BD0A40", VA = "0x3BD0A40", Slot = "16")]
+	[Token(Token = "0x6002477")]
+	[Address(RVA = "0x1A40D00", Offset = "0x1A3F300", VA = "0x181A40D00", Slot = "16")]
 	public MethodInfo GetAddMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023F6")]
-	[Address(RVA = "0x3BD0A60", Offset = "0x3BD0A60", VA = "0x3BD0A60", Slot = "17")]
+	[Token(Token = "0x6002478")]
+	[Address(RVA = "0x19EADB0", Offset = "0x19E93B0", VA = "0x1819EADB0", Slot = "17")]
 	public MethodInfo GetRemoveMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023F7")]
+	[Token(Token = "0x6002479")]
 	public abstract MethodInfo GetAddMethod(bool nonPublic);
 
-	[Token(Token = "0x60023F8")]
+	[Token(Token = "0x600247A")]
 	public abstract MethodInfo GetRemoveMethod(bool nonPublic);
 
-	[Token(Token = "0x60023F9")]
+	[Token(Token = "0x600247B")]
 	public abstract MethodInfo GetRaiseMethod(bool nonPublic);
 
-	[Token(Token = "0x60023FB")]
-	[Address(RVA = "0x3BD0B90", Offset = "0x3BD0B90", VA = "0x3BD0B90", Slot = "0")]
+	[Token(Token = "0x600247D")]
+	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60023FC")]
-	[Address(RVA = "0x3BD0BB0", Offset = "0x3BD0BB0", VA = "0x3BD0BB0", Slot = "2")]
+	[Token(Token = "0x600247E")]
+	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023FD")]
-	[Address(RVA = "0x3BD0BD0", Offset = "0x3BD0BD0", VA = "0x3BD0BD0")]
+	[Token(Token = "0x600247F")]
+	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
 	public static bool operator ==(EventInfo left, EventInfo right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60023FE")]
-	[Address(RVA = "0x3BD0C00", Offset = "0x3BD0C00", VA = "0x3BD0C00")]
+	[Token(Token = "0x6002480")]
+	[Address(RVA = "0x1A44730", Offset = "0x1A42D30", VA = "0x181A44730")]
 	public static bool operator !=(EventInfo left, EventInfo right)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60023FF")]
-	[Address(RVA = "0x3BD0C30", Offset = "0x3BD0C30", VA = "0x3BD0C30")]
+	[Token(Token = "0x6002481")]
+	[Address(RVA = "0x1A44720", Offset = "0x1A42D20", VA = "0x181A44720")]
 	private static extern EventInfo internal_from_handle_type(IntPtr event_handle, IntPtr type_handle);
 
-	[Token(Token = "0x6002400")]
-	[Address(RVA = "0x3BD0C40", Offset = "0x3BD0C40", VA = "0x3BD0C40")]
+	[Token(Token = "0x6002482")]
+	[Address(RVA = "0x1A44550", Offset = "0x1A42B50", VA = "0x181A44550")]
 	internal static EventInfo GetEventFromHandle(Mono.RuntimeEventHandle handle, RuntimeTypeHandle reflectedType)
 	{
 		return null;

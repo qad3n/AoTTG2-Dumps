@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000222")]
+[Token(Token = "0x2000334")]
 internal enum GizmoMode
 {
-	[Token(Token = "0x4000B98")]
+	[Token(Token = "0x400107F")]
 	Center,
-	[Token(Token = "0x4000B99")]
+	[Token(Token = "0x4001080")]
 	Local
 }

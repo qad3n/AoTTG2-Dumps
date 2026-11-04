@@ -10,185 +10,185 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002EC")]
+[Token(Token = "0x200031B")]
 [ComVisible(true)]
 public class PasswordDeriveBytes : DeriveBytes
 {
-	[Token(Token = "0x4000D1E")]
+	[Token(Token = "0x4000D2B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int _extraCount;
 
-	[Token(Token = "0x4000D1F")]
+	[Token(Token = "0x4000D2C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	private int _prefix;
 
-	[Token(Token = "0x4000D20")]
+	[Token(Token = "0x4000D2D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private int _iterations;
 
-	[Token(Token = "0x4000D21")]
+	[Token(Token = "0x4000D2E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private byte[] _baseValue;
 
-	[Token(Token = "0x4000D22")]
+	[Token(Token = "0x4000D2F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private byte[] _extra;
 
-	[Token(Token = "0x4000D23")]
+	[Token(Token = "0x4000D30")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private byte[] _salt;
 
-	[Token(Token = "0x4000D24")]
+	[Token(Token = "0x4000D31")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private string _hashName;
 
-	[Token(Token = "0x4000D25")]
+	[Token(Token = "0x4000D32")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private byte[] _password;
 
-	[Token(Token = "0x4000D26")]
+	[Token(Token = "0x4000D33")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private HashAlgorithm _hash;
 
-	[Token(Token = "0x170002B7")]
+	[Token(Token = "0x170002B9")]
 	public string HashName
 	{
-		[Token(Token = "0x6001969")]
-		[Address(RVA = "0x3B34FB0", Offset = "0x3B34FB0", VA = "0x3B34FB0")]
+		[Token(Token = "0x60019D1")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600196A")]
-		[Address(RVA = "0x3B34E20", Offset = "0x3B34E20", VA = "0x3B34E20")]
+		[Token(Token = "0x60019D2")]
+		[Address(RVA = "0x19AD510", Offset = "0x19ABB10", VA = "0x1819AD510")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002B8")]
+	[Token(Token = "0x170002BA")]
 	public int IterationCount
 	{
-		[Token(Token = "0x600196B")]
-		[Address(RVA = "0x3B34FC0", Offset = "0x3B34FC0", VA = "0x3B34FC0")]
+		[Token(Token = "0x60019D3")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x600196C")]
-		[Address(RVA = "0x3B34B80", Offset = "0x3B34B80", VA = "0x3B34B80")]
+		[Token(Token = "0x60019D4")]
+		[Address(RVA = "0x19AD6E0", Offset = "0x19ABCE0", VA = "0x1819AD6E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002B9")]
+	[Token(Token = "0x170002BB")]
 	public byte[] Salt
 	{
-		[Token(Token = "0x600196D")]
-		[Address(RVA = "0x3B34FD0", Offset = "0x3B34FD0", VA = "0x3B34FD0")]
+		[Token(Token = "0x60019D5")]
+		[Address(RVA = "0x19AD490", Offset = "0x19ABA90", VA = "0x1819AD490")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600196E")]
-		[Address(RVA = "0x3B34CA0", Offset = "0x3B34CA0", VA = "0x3B34CA0")]
+		[Token(Token = "0x60019D6")]
+		[Address(RVA = "0x19AD820", Offset = "0x19ABE20", VA = "0x1819AD820")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001961")]
-	[Address(RVA = "0x3B34600", Offset = "0x3B34600", VA = "0x3B34600")]
+	[Token(Token = "0x60019C9")]
+	[Address(RVA = "0x19AD2D0", Offset = "0x19AB8D0", VA = "0x1819AD2D0")]
 	public PasswordDeriveBytes(string strPassword, byte[] rgbSalt)
 	{
 	}
 
-	[Token(Token = "0x6001962")]
-	[Address(RVA = "0x3B34730", Offset = "0x3B34730", VA = "0x3B34730")]
+	[Token(Token = "0x60019CA")]
+	[Address(RVA = "0x19ACDB0", Offset = "0x19AB3B0", VA = "0x1819ACDB0")]
 	public PasswordDeriveBytes(byte[] password, byte[] salt)
 	{
 	}
 
-	[Token(Token = "0x6001963")]
-	[Address(RVA = "0x3B348C0", Offset = "0x3B348C0", VA = "0x3B348C0")]
+	[Token(Token = "0x60019CB")]
+	[Address(RVA = "0x19ACCE0", Offset = "0x19AB2E0", VA = "0x1819ACCE0")]
 	public PasswordDeriveBytes(string strPassword, byte[] rgbSalt, string strHashName, int iterations)
 	{
 	}
 
-	[Token(Token = "0x6001964")]
-	[Address(RVA = "0x3B34A40", Offset = "0x3B34A40", VA = "0x3B34A40")]
+	[Token(Token = "0x60019CC")]
+	[Address(RVA = "0x19ACF30", Offset = "0x19AB530", VA = "0x1819ACF30")]
 	public PasswordDeriveBytes(byte[] password, byte[] salt, string hashName, int iterations)
 	{
 	}
 
-	[Token(Token = "0x6001965")]
-	[Address(RVA = "0x3B346D0", Offset = "0x3B346D0", VA = "0x3B346D0")]
+	[Token(Token = "0x60019CD")]
+	[Address(RVA = "0x19AD3B0", Offset = "0x19AB9B0", VA = "0x1819AD3B0")]
 	public PasswordDeriveBytes(string strPassword, byte[] rgbSalt, CspParameters cspParams)
 	{
 	}
 
-	[Token(Token = "0x6001966")]
-	[Address(RVA = "0x3B34830", Offset = "0x3B34830", VA = "0x3B34830")]
+	[Token(Token = "0x60019CE")]
+	[Address(RVA = "0x19AD420", Offset = "0x19ABA20", VA = "0x1819AD420")]
 	public PasswordDeriveBytes(byte[] password, byte[] salt, CspParameters cspParams)
 	{
 	}
 
-	[Token(Token = "0x6001967")]
-	[Address(RVA = "0x3B34970", Offset = "0x3B34970", VA = "0x3B34970")]
+	[Token(Token = "0x60019CF")]
+	[Address(RVA = "0x19ACE90", Offset = "0x19AB490", VA = "0x1819ACE90")]
 	public PasswordDeriveBytes(string strPassword, byte[] rgbSalt, string strHashName, int iterations, CspParameters cspParams)
 	{
 	}
 
-	[Token(Token = "0x6001968")]
-	[Address(RVA = "0x3B34B20", Offset = "0x3B34B20", VA = "0x3B34B20")]
+	[Token(Token = "0x60019D0")]
+	[Address(RVA = "0x19AD000", Offset = "0x19AB600", VA = "0x1819AD000")]
 	public PasswordDeriveBytes(byte[] password, byte[] salt, string hashName, int iterations, CspParameters cspParams)
 	{
 	}
 
-	[Token(Token = "0x600196F")]
-	[Address(RVA = "0x3B35040", Offset = "0x3B35040", VA = "0x3B35040", Slot = "5")]
+	[Token(Token = "0x60019D7")]
+	[Address(RVA = "0x19AC920", Offset = "0x19AAF20", VA = "0x1819AC920", Slot = "5")]
 	[Obsolete("Rfc2898DeriveBytes replaces PasswordDeriveBytes for deriving key material from a password and is preferred in new applications.")]
 	public override byte[] GetBytes(int cb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001970")]
-	[Address(RVA = "0x3B35950", Offset = "0x3B35950", VA = "0x3B35950", Slot = "6")]
+	[Token(Token = "0x60019D8")]
+	[Address(RVA = "0x19ACCA0", Offset = "0x19AB2A0", VA = "0x1819ACCA0", Slot = "6")]
 	public override void Reset()
 	{
 	}
 
-	[Token(Token = "0x6001971")]
-	[Address(RVA = "0x3B35990", Offset = "0x3B35990", VA = "0x3B35990", Slot = "7")]
+	[Token(Token = "0x60019D9")]
+	[Address(RVA = "0x19AC830", Offset = "0x19AAE30", VA = "0x1819AC830", Slot = "7")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001972")]
-	[Address(RVA = "0x3B35A70", Offset = "0x3B35A70", VA = "0x3B35A70")]
+	[Token(Token = "0x60019DA")]
+	[Address(RVA = "0x19AC770", Offset = "0x19AAD70", VA = "0x1819AC770")]
 	public byte[] CryptDeriveKey(string algname, string alghashname, int keySize, byte[] rgbIV)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001973")]
-	[Address(RVA = "0x3B351C0", Offset = "0x3B351C0", VA = "0x3B351C0")]
+	[Token(Token = "0x60019DB")]
+	[Address(RVA = "0x19AC030", Offset = "0x19AA630", VA = "0x1819AC030")]
 	private byte[] ComputeBaseValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001974")]
-	[Address(RVA = "0x3B353A0", Offset = "0x3B353A0", VA = "0x3B353A0")]
+	[Token(Token = "0x60019DC")]
+	[Address(RVA = "0x19AC320", Offset = "0x19AA920", VA = "0x1819AC320")]
 	private byte[] ComputeBytes(int cb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001975")]
-	[Address(RVA = "0x3B35B00", Offset = "0x3B35B00", VA = "0x3B35B00")]
+	[Token(Token = "0x60019DD")]
+	[Address(RVA = "0x19ACAC0", Offset = "0x19AB0C0", VA = "0x1819ACAC0")]
 	private void HashPrefix(CryptoStream cs)
 	{
 	}

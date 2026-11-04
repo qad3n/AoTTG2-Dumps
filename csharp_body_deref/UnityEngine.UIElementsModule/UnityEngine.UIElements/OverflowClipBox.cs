@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200039B")]
+[Token(Token = "0x200043D")]
 public enum OverflowClipBox
 {
-	[Token(Token = "0x4000AC3")]
+	[Token(Token = "0x4000E11")]
 	PaddingBox,
-	[Token(Token = "0x4000AC4")]
+	[Token(Token = "0x4000E12")]
 	ContentBox
 }

@@ -12,12 +12,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x2000082")]
 [EditorBrowsable(EditorBrowsableState.Never)]
 [Obsolete("Use IMeshModifier instead", true)]
 public interface IVertexModifier
 {
-	[Token(Token = "0x6000532")]
+	[Token(Token = "0x600053E")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("use IMeshModifier.ModifyMesh (VertexHelper verts)  instead", true)]
 	void ModifyVertices(List<UIVertex> verts);

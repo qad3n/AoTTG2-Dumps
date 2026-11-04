@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200053A")]
+[Token(Token = "0x2000663")]
 internal static class Error
 {
-	[Token(Token = "0x60027EC")]
-	[Address(RVA = "0x3BE9EC0", Offset = "0x3BE9EC0", VA = "0x3BE9EC0")]
+	[Token(Token = "0x60030BB")]
+	[Address(RVA = "0x1ACD8D0", Offset = "0x1ACBED0", VA = "0x181ACD8D0")]
 	internal static Exception GetStreamIsClosed()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60027ED")]
-	[Address(RVA = "0x3BE9F20", Offset = "0x3BE9F20", VA = "0x3BE9F20")]
+	[Token(Token = "0x60030BC")]
+	[Address(RVA = "0x1ACD810", Offset = "0x1ACBE10", VA = "0x181ACD810")]
 	internal static Exception GetEndOfFile()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60027EE")]
-	[Address(RVA = "0x3BE9F80", Offset = "0x3BE9F80", VA = "0x3BE9F80")]
+	[Token(Token = "0x60030BD")]
+	[Address(RVA = "0x1ACD870", Offset = "0x1ACBE70", VA = "0x181ACD870")]
 	internal static Exception GetReadNotSupported()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60027EF")]
-	[Address(RVA = "0x3BE9FE0", Offset = "0x3BE9FE0", VA = "0x3BE9FE0")]
+	[Token(Token = "0x60030BE")]
+	[Address(RVA = "0x1ACD930", Offset = "0x1ACBF30", VA = "0x181ACD930")]
 	internal static Exception GetWriteNotSupported()
 	{
 		return null;

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000010")]
 internal enum StateInfoIndex
 {
 	[Token(Token = "0x400002C")]

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000034")]
 internal class DeviceEnumeratorSingleDevice : DeviceEnumeratorBase
 {
-	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x3F19EC0", Offset = "0x3F19EC0", VA = "0x3F19EC0")]
+	[Token(Token = "0x6000120")]
+	[Address(RVA = "0x1D68EC0", Offset = "0x1D674C0", VA = "0x181D68EC0")]
 	public DeviceEnumeratorSingleDevice(ILogger logger, string deviceName)
 	{
 	}
 
-	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x3F1A0C0", Offset = "0x3F1A0C0", VA = "0x3F1A0C0", Slot = "14")]
+	[Token(Token = "0x6000121")]
+	[Address(RVA = "0x1D68E60", Offset = "0x1D67460", VA = "0x181D68E60", Slot = "14")]
 	public override void Refresh()
 	{
 	}
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3F1A0E0", Offset = "0x3F1A0E0", VA = "0x3F1A0E0", Slot = "15")]
+	[Token(Token = "0x6000122")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
 	public override void Dispose()
 	{
 	}

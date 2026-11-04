@@ -28,7 +28,7 @@ internal class Datatype_byte : Datatype_short
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x600118D")]
-		[Address(RVA = "0x4863470", Offset = "0x4863470", VA = "0x4863470", Slot = "18")]
+		[Address(RVA = "0x279C830", Offset = "0x279AE30", VA = "0x18279C830", Slot = "18")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class Datatype_byte : Datatype_short
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600118E")]
-		[Address(RVA = "0x48634E0", Offset = "0x48634E0", VA = "0x48634E0", Slot = "8")]
+		[Address(RVA = "0x24067E0", Offset = "0x2404DE0", VA = "0x1824067E0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -50,7 +50,7 @@ internal class Datatype_byte : Datatype_short
 	public override Type ValueType
 	{
 		[Token(Token = "0x6001190")]
-		[Address(RVA = "0x4863550", Offset = "0x4863550", VA = "0x4863550", Slot = "4")]
+		[Address(RVA = "0x279C8D0", Offset = "0x279AED0", VA = "0x18279C8D0", Slot = "4")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ internal class Datatype_byte : Datatype_short
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x6001191")]
-		[Address(RVA = "0x48635C0", Offset = "0x48635C0", VA = "0x48635C0", Slot = "26")]
+		[Address(RVA = "0x279C880", Offset = "0x279AE80", VA = "0x18279C880", Slot = "26")]
 		get
 		{
 			return null;
@@ -69,21 +69,21 @@ internal class Datatype_byte : Datatype_short
 	}
 
 	[Token(Token = "0x600118F")]
-	[Address(RVA = "0x48634F0", Offset = "0x48634F0", VA = "0x48634F0", Slot = "14")]
+	[Address(RVA = "0x279C470", Offset = "0x279AA70", VA = "0x18279C470", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001192")]
-	[Address(RVA = "0x4863630", Offset = "0x4863630", VA = "0x4863630", Slot = "16")]
+	[Address(RVA = "0x279C4D0", Offset = "0x279AAD0", VA = "0x18279C4D0", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001193")]
-	[Address(RVA = "0x4855BA0", Offset = "0x4855BA0", VA = "0x4855BA0")]
+	[Address(RVA = "0x279C7B0", Offset = "0x279ADB0", VA = "0x18279C7B0")]
 	public Datatype_byte()
 	{
 	}

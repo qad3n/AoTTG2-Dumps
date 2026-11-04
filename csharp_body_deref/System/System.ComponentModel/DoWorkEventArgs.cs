@@ -9,48 +9,48 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002FB")]
+[Token(Token = "0x2000206")]
 public class DoWorkEventArgs : CancelEventArgs
 {
-	[Token(Token = "0x4000E51")]
+	[Token(Token = "0x4000788")]
 	[FieldOffset(Offset = "0x18")]
 	private object result;
 
-	[Token(Token = "0x4000E52")]
+	[Token(Token = "0x4000789")]
 	[FieldOffset(Offset = "0x20")]
 	private object argument;
 
-	[Token(Token = "0x1700045C")]
+	[Token(Token = "0x170002CB")]
 	[SRDescription("Argument passed into the worker handler from BackgroundWorker.RunWorkerAsync.")]
 	public object Argument
 	{
-		[Token(Token = "0x6001344")]
-		[Address(RVA = "0x48B1DF0", Offset = "0x48B1DF0", VA = "0x48B1DF0")]
+		[Token(Token = "0x6000D8C")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700045D")]
+	[Token(Token = "0x170002CC")]
 	[SRDescription("Result from the worker function.")]
 	public object Result
 	{
-		[Token(Token = "0x6001345")]
-		[Address(RVA = "0x48B1E00", Offset = "0x48B1E00", VA = "0x48B1E00")]
+		[Token(Token = "0x6000D8D")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001346")]
-		[Address(RVA = "0x48B1E10", Offset = "0x48B1E10", VA = "0x48B1E10")]
+		[Token(Token = "0x6000D8E")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001343")]
-	[Address(RVA = "0x48B1D80", Offset = "0x48B1D80", VA = "0x48B1D80")]
+	[Token(Token = "0x6000D8B")]
+	[Address(RVA = "0x28B25A0", Offset = "0x28B0BA0", VA = "0x1828B25A0")]
 	public DoWorkEventArgs(object argument)
 	{
 	}

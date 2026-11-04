@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A7")]
+[Token(Token = "0x20000A9")]
 public interface IEndDragHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000645")]
+	[Token(Token = "0x600068C")]
 	void OnEndDrag(PointerEventData eventData);
 }

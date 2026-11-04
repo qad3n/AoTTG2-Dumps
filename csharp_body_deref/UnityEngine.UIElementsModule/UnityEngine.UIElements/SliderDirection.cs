@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x200007D")]
 public enum SliderDirection
 {
-	[Token(Token = "0x400011C")]
+	[Token(Token = "0x400020E")]
 	Horizontal,
-	[Token(Token = "0x400011D")]
+	[Token(Token = "0x400020F")]
 	Vertical
 }

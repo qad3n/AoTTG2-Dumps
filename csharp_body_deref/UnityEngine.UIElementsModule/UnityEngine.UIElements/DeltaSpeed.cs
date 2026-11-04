@@ -10,14 +10,14 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000113")]
+[Token(Token = "0x200015D")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public enum DeltaSpeed
 {
-	[Token(Token = "0x4000498")]
+	[Token(Token = "0x4000669")]
 	Fast,
-	[Token(Token = "0x4000499")]
+	[Token(Token = "0x400066A")]
 	Normal,
-	[Token(Token = "0x400049A")]
+	[Token(Token = "0x400066B")]
 	Slow
 }

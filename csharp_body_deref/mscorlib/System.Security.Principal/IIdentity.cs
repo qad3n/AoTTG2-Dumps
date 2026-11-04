@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.Security.Principal;
 
-[Token(Token = "0x200032A")]
+[Token(Token = "0x2000359")]
 public interface IIdentity
 {
-	[Token(Token = "0x1700031A")]
+	[Token(Token = "0x1700031C")]
 	string Name
 	{
-		[Token(Token = "0x6001BC6")]
+		[Token(Token = "0x6001C34")]
 		get;
 	}
 
-	[Token(Token = "0x1700031B")]
+	[Token(Token = "0x1700031D")]
 	string AuthenticationType
 	{
-		[Token(Token = "0x6001BC7")]
+		[Token(Token = "0x6001C35")]
 		get;
 	}
 }

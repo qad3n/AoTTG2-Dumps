@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000167")]
+[Token(Token = "0x2000191")]
 internal enum TypeNameFormatFlags
 {
-	[Token(Token = "0x4000567")]
+	[Token(Token = "0x40005C8")]
 	FormatBasic = 0,
-	[Token(Token = "0x4000568")]
+	[Token(Token = "0x40005C9")]
 	FormatNamespace = 1,
-	[Token(Token = "0x4000569")]
+	[Token(Token = "0x40005CA")]
 	FormatFullInst = 2,
-	[Token(Token = "0x400056A")]
+	[Token(Token = "0x40005CB")]
 	FormatAssembly = 4,
-	[Token(Token = "0x400056B")]
+	[Token(Token = "0x40005CC")]
 	FormatSignature = 8,
-	[Token(Token = "0x400056C")]
+	[Token(Token = "0x40005CD")]
 	FormatNoVersion = 16,
-	[Token(Token = "0x400056D")]
+	[Token(Token = "0x40005CE")]
 	FormatAngleBrackets = 64,
-	[Token(Token = "0x400056E")]
+	[Token(Token = "0x40005CF")]
 	FormatStubInfo = 128,
-	[Token(Token = "0x400056F")]
+	[Token(Token = "0x40005D0")]
 	FormatGenericParam = 256,
-	[Token(Token = "0x4000570")]
+	[Token(Token = "0x40005D1")]
 	FormatSerialization = 259
 }

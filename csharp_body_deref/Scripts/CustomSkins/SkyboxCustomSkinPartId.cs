@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200024F")]
+[Token(Token = "0x2000369")]
 public enum SkyboxCustomSkinPartId
 {
-	[Token(Token = "0x4000C9F")]
+	[Token(Token = "0x40011CD")]
 	Front,
-	[Token(Token = "0x4000CA0")]
+	[Token(Token = "0x40011CE")]
 	Back,
-	[Token(Token = "0x4000CA1")]
+	[Token(Token = "0x40011CF")]
 	Left,
-	[Token(Token = "0x4000CA2")]
+	[Token(Token = "0x40011D0")]
 	Right,
-	[Token(Token = "0x4000CA3")]
+	[Token(Token = "0x40011D1")]
 	Up,
-	[Token(Token = "0x4000CA4")]
+	[Token(Token = "0x40011D2")]
 	Down
 }

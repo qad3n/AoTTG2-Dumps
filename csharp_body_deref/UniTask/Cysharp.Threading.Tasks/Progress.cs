@@ -12,36 +12,66 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000069")]
+[Token(Token = "0x2000067")]
 public static class Progress
 {
-	[Token(Token = "0x200006A")]
+	[Token(Token = "0x2000068")]
 	private sealed class NullProgress<T> : IProgress<T>
 	{
-		[Token(Token = "0x40000E0")]
+		[Token(Token = "0x40000DB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static readonly IProgress<T> Instance;
 
-		[Token(Token = "0x6000168")]
+		[Token(Token = "0x6000166")]
 		private NullProgress()
 		{
 		}
 
-		[Token(Token = "0x6000169")]
+		[Token(Token = "0x6000167")]
 		public void Report(T value)
 		{
 		}
 	}
 
-	[Token(Token = "0x200006B")]
+	[Token(Token = "0x2000069")]
 	private sealed class AnonymousProgress<T> : IProgress<T>
 	{
-		[Token(Token = "0x40000E1")]
+		[Token(Token = "0x40000DC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly Action<T> action;
 
-		[Token(Token = "0x600016B")]
+		[Token(Token = "0x6000169")]
 		public AnonymousProgress(Action<T> action)
+		{
+		}
+
+		[Token(Token = "0x600016A")]
+		public void Report(T value)
+		{
+		}
+	}
+
+	[Token(Token = "0x200006A")]
+	private sealed class OnlyValueChangedProgress<T> : IProgress<T>
+	{
+		[Token(Token = "0x40000DD")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+		private readonly Action<T> action;
+
+		[Token(Token = "0x40000DE")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+		private readonly IEqualityComparer<T> comparer;
+
+		[Token(Token = "0x40000DF")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+		private bool isFirstCall;
+
+		[Token(Token = "0x40000E0")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+		private T latestValue;
+
+		[Token(Token = "0x600016B")]
+		public OnlyValueChangedProgress(Action<T> action, IEqualityComparer<T> comparer)
 		{
 		}
 
@@ -51,43 +81,13 @@ public static class Progress
 		}
 	}
 
-	[Token(Token = "0x200006C")]
-	private sealed class OnlyValueChangedProgress<T> : IProgress<T>
-	{
-		[Token(Token = "0x40000E2")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private readonly Action<T> action;
-
-		[Token(Token = "0x40000E3")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private readonly IEqualityComparer<T> comparer;
-
-		[Token(Token = "0x40000E4")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private bool isFirstCall;
-
-		[Token(Token = "0x40000E5")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
-		private T latestValue;
-
-		[Token(Token = "0x600016D")]
-		public OnlyValueChangedProgress(Action<T> action, IEqualityComparer<T> comparer)
-		{
-		}
-
-		[Token(Token = "0x600016E")]
-		public void Report(T value)
-		{
-		}
-	}
-
-	[Token(Token = "0x6000166")]
+	[Token(Token = "0x6000164")]
 	public static IProgress<T> Create<T>(Action<T> handler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000167")]
+	[Token(Token = "0x6000165")]
 	public static IProgress<T> CreateOnlyValueChanged<T>(Action<T> handler, [Optional] IEqualityComparer<T> comparer)
 	{
 		return null;

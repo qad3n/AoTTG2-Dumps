@@ -11,48 +11,48 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200067D")]
+[Token(Token = "0x20007D8")]
 internal class InputFieldKeyboardNav : MonoBehaviour
 {
-	[Token(Token = "0x4001FED")]
+	[Token(Token = "0x40027C5")]
 	[FieldOffset(Offset = "0x20")]
 	private InputField _field;
 
-	[Token(Token = "0x4001FEE")]
+	[Token(Token = "0x40027C6")]
 	[FieldOffset(Offset = "0x28")]
 	private Selectable _next;
 
-	[Token(Token = "0x4001FEF")]
+	[Token(Token = "0x40027C7")]
 	[FieldOffset(Offset = "0x30")]
 	private Selectable _previous;
 
-	[Token(Token = "0x6004121")]
-	[Address(RVA = "0x42F6C10", Offset = "0x42F6C10", VA = "0x42F6C10")]
+	[Token(Token = "0x6004C16")]
+	[Address(RVA = "0x223AC80", Offset = "0x2239280", VA = "0x18223AC80")]
 	public void Setup(InputField field, Selectable next, Selectable previous)
 	{
 	}
 
-	[Token(Token = "0x6004122")]
-	[Address(RVA = "0x42F8930", Offset = "0x42F8930", VA = "0x42F8930")]
+	[Token(Token = "0x6004C17")]
+	[Address(RVA = "0x2279F10", Offset = "0x2278510", VA = "0x182279F10")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6004123")]
-	[Address(RVA = "0x42F8B40", Offset = "0x42F8B40", VA = "0x42F8B40")]
+	[Token(Token = "0x6004C18")]
+	[Address(RVA = "0x2279AF0", Offset = "0x22780F0", VA = "0x182279AF0")]
 	private void DeleteWord(bool forward)
 	{
 	}
 
-	[Token(Token = "0x6004124")]
-	[Address(RVA = "0x42F8D10", Offset = "0x42F8D10", VA = "0x42F8D10")]
+	[Token(Token = "0x6004C19")]
+	[Address(RVA = "0x2279DB0", Offset = "0x22783B0", VA = "0x182279DB0")]
 	private static int FindWordBoundary(string text, int index, bool forward)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004125")]
-	[Address(RVA = "0x42F8ED0", Offset = "0x42F8ED0", VA = "0x42F8ED0")]
+	[Token(Token = "0x6004C1A")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public InputFieldKeyboardNav()
 	{
 	}

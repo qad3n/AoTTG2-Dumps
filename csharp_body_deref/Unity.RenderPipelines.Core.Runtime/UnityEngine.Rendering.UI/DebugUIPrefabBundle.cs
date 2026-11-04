@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering.UI;
 
 [Serializable]
-[Token(Token = "0x2000213")]
+[Token(Token = "0x20002D2")]
 public class DebugUIPrefabBundle
 {
-	[Token(Token = "0x4000856")]
+	[Token(Token = "0x4000D28")]
 	[FieldOffset(Offset = "0x10")]
 	public string type;
 
-	[Token(Token = "0x4000857")]
+	[Token(Token = "0x4000D29")]
 	[FieldOffset(Offset = "0x18")]
 	public RectTransform prefab;
 
-	[Token(Token = "0x6000E58")]
-	[Address(RVA = "0x4C0EF50", Offset = "0x4C0EF50", VA = "0x4C0EF50")]
+	[Token(Token = "0x60013F0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DebugUIPrefabBundle()
 	{
 	}

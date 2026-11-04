@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200023E")]
+[Token(Token = "0x20002B9")]
 internal delegate long TimeMsFunction();

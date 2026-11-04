@@ -20,7 +20,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x6001195")]
-		[Address(RVA = "0x48638E0", Offset = "0x48638E0", VA = "0x48638E0", Slot = "18")]
+		[Address(RVA = "0x27A0650", Offset = "0x279EC50", VA = "0x1827A0650", Slot = "18")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001196")]
-		[Address(RVA = "0x4863950", Offset = "0x4863950", VA = "0x4863950", Slot = "8")]
+		[Address(RVA = "0x232BB30", Offset = "0x232A130", VA = "0x18232BB30", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -42,7 +42,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	internal override bool HasValueFacets
 	{
 		[Token(Token = "0x6001197")]
-		[Address(RVA = "0x4863960", Offset = "0x4863960", VA = "0x4863960", Slot = "11")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -50,7 +50,7 @@ internal class Datatype_nonNegativeInteger : Datatype_integer
 	}
 
 	[Token(Token = "0x6001198")]
-	[Address(RVA = "0x48576D0", Offset = "0x48576D0", VA = "0x48576D0")]
+	[Address(RVA = "0x279FE30", Offset = "0x279E430", VA = "0x18279FE30")]
 	public Datatype_nonNegativeInteger()
 	{
 	}

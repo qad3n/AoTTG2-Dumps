@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002CB")]
+[Token(Token = "0x200034A")]
 public enum SynchronisationStageFlags
 {
-	[Token(Token = "0x400080A")]
+	[Token(Token = "0x4000978")]
 	VertexProcessing = 1,
-	[Token(Token = "0x400080B")]
+	[Token(Token = "0x4000979")]
 	PixelProcessing = 2,
-	[Token(Token = "0x400080C")]
+	[Token(Token = "0x400097A")]
 	ComputeProcessing = 4,
-	[Token(Token = "0x400080D")]
+	[Token(Token = "0x400097B")]
 	AllGPUOperations = 7
 }

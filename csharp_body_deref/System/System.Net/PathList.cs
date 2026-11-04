@@ -11,99 +11,99 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x2000176")]
+[Token(Token = "0x20002FE")]
 internal class PathList
 {
 	[Serializable]
-	[Token(Token = "0x2000177")]
+	[Token(Token = "0x20002FF")]
 	private class PathListComparer : IComparer
 	{
-		[Token(Token = "0x400077A")]
+		[Token(Token = "0x4000B90")]
 		[FieldOffset(Offset = "0x0")]
 		internal static readonly PathListComparer StaticInstance;
 
-		[Token(Token = "0x6000915")]
-		[Address(RVA = "0x4976210", Offset = "0x4976210", VA = "0x4976210", Slot = "4")]
+		[Token(Token = "0x60014D5")]
+		[Address(RVA = "0x27D0EF0", Offset = "0x27CF4F0", VA = "0x1827D0EF0", Slot = "4")]
 		private int System_002ECollections_002EIComparer_002ECompare(object ol, object or)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000916")]
-		[Address(RVA = "0x4976420", Offset = "0x4976420", VA = "0x4976420")]
+		[Token(Token = "0x60014D6")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public PathListComparer()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000779")]
+	[Token(Token = "0x4000B8F")]
 	[FieldOffset(Offset = "0x10")]
 	private SortedList m_list;
 
-	[Token(Token = "0x1700020D")]
+	[Token(Token = "0x17000462")]
 	public int Count
 	{
-		[Token(Token = "0x600090E")]
-		[Address(RVA = "0x4973820", Offset = "0x4973820", VA = "0x4973820")]
+		[Token(Token = "0x60014CE")]
+		[Address(RVA = "0x1AB8940", Offset = "0x1AB6F40", VA = "0x181AB8940")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700020E")]
+	[Token(Token = "0x17000463")]
 	public ICollection Values
 	{
-		[Token(Token = "0x6000910")]
-		[Address(RVA = "0x4973630", Offset = "0x4973630", VA = "0x4973630")]
+		[Token(Token = "0x60014D0")]
+		[Address(RVA = "0x1A1F360", Offset = "0x1A1D960", VA = "0x181A1F360")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020F")]
+	[Token(Token = "0x17000464")]
 	public object this[string s]
 	{
-		[Token(Token = "0x6000911")]
-		[Address(RVA = "0x4971890", Offset = "0x4971890", VA = "0x4971890")]
+		[Token(Token = "0x60014D1")]
+		[Address(RVA = "0x27D1560", Offset = "0x27CFB60", VA = "0x1827D1560")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000912")]
-		[Address(RVA = "0x49718C0", Offset = "0x49718C0", VA = "0x49718C0")]
+		[Token(Token = "0x60014D2")]
+		[Address(RVA = "0x27D1590", Offset = "0x27CFB90", VA = "0x1827D1590")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000210")]
+	[Token(Token = "0x17000465")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x6000914")]
-		[Address(RVA = "0x4971860", Offset = "0x4971860", VA = "0x4971860")]
+		[Token(Token = "0x60014D4")]
+		[Address(RVA = "0x197BE90", Offset = "0x197A490", VA = "0x18197BE90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600090D")]
-	[Address(RVA = "0x49712A0", Offset = "0x49712A0", VA = "0x49712A0")]
+	[Token(Token = "0x60014CD")]
+	[Address(RVA = "0x27D14A0", Offset = "0x27CFAA0", VA = "0x1827D14A0")]
 	public PathList()
 	{
 	}
 
-	[Token(Token = "0x600090F")]
-	[Address(RVA = "0x4971340", Offset = "0x4971340", VA = "0x4971340")]
+	[Token(Token = "0x60014CF")]
+	[Address(RVA = "0x27D1180", Offset = "0x27CF780", VA = "0x1827D1180")]
 	public int GetCookiesCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000913")]
-	[Address(RVA = "0x49756D0", Offset = "0x49756D0", VA = "0x49756D0")]
+	[Token(Token = "0x60014D3")]
+	[Address(RVA = "0x19244D0", Offset = "0x1922AD0", VA = "0x1819244D0")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;

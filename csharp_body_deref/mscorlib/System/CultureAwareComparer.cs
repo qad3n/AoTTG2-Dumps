@@ -12,72 +12,72 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200010E")]
+[Token(Token = "0x2000136")]
 public sealed class CultureAwareComparer : StringComparer, ISerializable
 {
-	[Token(Token = "0x40003CB")]
+	[Token(Token = "0x4000446")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly CompareInfo _compareInfo;
 
-	[Token(Token = "0x40003CC")]
+	[Token(Token = "0x4000447")]
 	[FieldOffset(Offset = "0x18")]
 	private CompareOptions _options;
 
-	[Token(Token = "0x6000A0F")]
-	[Address(RVA = "0x3CD0E60", Offset = "0x3CD0E60", VA = "0x3CD0E60")]
+	[Token(Token = "0x6000A54")]
+	[Address(RVA = "0x1B43B80", Offset = "0x1B42180", VA = "0x181B43B80")]
 	internal CultureAwareComparer(CultureInfo culture, CompareOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A10")]
-	[Address(RVA = "0x3CD1480", Offset = "0x3CD1480", VA = "0x3CD1480")]
+	[Token(Token = "0x6000A55")]
+	[Address(RVA = "0x1B43ED0", Offset = "0x1B424D0", VA = "0x181B43ED0")]
 	internal CultureAwareComparer(CompareInfo compareInfo, CompareOptions options)
 	{
 	}
 
-	[Token(Token = "0x6000A11")]
-	[Address(RVA = "0x3CD1550", Offset = "0x3CD1550", VA = "0x3CD1550")]
+	[Token(Token = "0x6000A56")]
+	[Address(RVA = "0x1B43C80", Offset = "0x1B42280", VA = "0x181B43C80")]
 	private CultureAwareComparer(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000A12")]
-	[Address(RVA = "0x3CD17A0", Offset = "0x3CD17A0", VA = "0x3CD17A0", Slot = "10")]
+	[Token(Token = "0x6000A57")]
+	[Address(RVA = "0x1B438A0", Offset = "0x1B41EA0", VA = "0x181B438A0", Slot = "10")]
 	public override int Compare(string x, string y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A13")]
-	[Address(RVA = "0x3CD17F0", Offset = "0x3CD17F0", VA = "0x3CD17F0", Slot = "11")]
+	[Token(Token = "0x6000A58")]
+	[Address(RVA = "0x1B43900", Offset = "0x1B41F00", VA = "0x181B43900", Slot = "11")]
 	public override bool Equals(string x, string y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A14")]
-	[Address(RVA = "0x3CD1840", Offset = "0x3CD1840", VA = "0x3CD1840", Slot = "12")]
+	[Token(Token = "0x6000A59")]
+	[Address(RVA = "0x1B43A30", Offset = "0x1B42030", VA = "0x181B43A30", Slot = "12")]
 	public override int GetHashCode(string obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A15")]
-	[Address(RVA = "0x3CD18B0", Offset = "0x3CD18B0", VA = "0x3CD18B0", Slot = "0")]
+	[Token(Token = "0x6000A5A")]
+	[Address(RVA = "0x1B43960", Offset = "0x1B41F60", VA = "0x181B43960", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A16")]
-	[Address(RVA = "0x3CD1940", Offset = "0x3CD1940", VA = "0x3CD1940", Slot = "2")]
+	[Token(Token = "0x6000A5B")]
+	[Address(RVA = "0x1B439F0", Offset = "0x1B41FF0", VA = "0x181B439F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A17")]
-	[Address(RVA = "0x3CD1970", Offset = "0x3CD1970", VA = "0x3CD1970", Slot = "13")]
+	[Token(Token = "0x6000A5C")]
+	[Address(RVA = "0x1B43AB0", Offset = "0x1B420B0", VA = "0x181B43AB0", Slot = "13")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

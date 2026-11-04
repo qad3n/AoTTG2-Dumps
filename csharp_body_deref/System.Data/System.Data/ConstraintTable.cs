@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200008C")]
+[Token(Token = "0x2000096")]
 internal sealed class ConstraintTable
 {
-	[Token(Token = "0x40002D6")]
+	[Token(Token = "0x40002E9")]
 	[FieldOffset(Offset = "0x10")]
 	public DataTable table;
 
-	[Token(Token = "0x40002D7")]
+	[Token(Token = "0x40002EA")]
 	[FieldOffset(Offset = "0x18")]
 	public XmlSchemaIdentityConstraint constraint;
 
-	[Token(Token = "0x60007F5")]
-	[Address(RVA = "0x45CDA10", Offset = "0x45CDA10", VA = "0x45CDA10")]
+	[Token(Token = "0x6000814")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public ConstraintTable(DataTable t, XmlSchemaIdentityConstraint c)
 	{
 	}

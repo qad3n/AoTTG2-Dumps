@@ -18,7 +18,7 @@ public class XmlElementAttributes : CollectionBase
 	public XmlElementAttribute this[int index]
 	{
 		[Token(Token = "0x6000D4D")]
-		[Address(RVA = "0x4815720", Offset = "0x4815720", VA = "0x4815720")]
+		[Address(RVA = "0x275E8D0", Offset = "0x275CED0", VA = "0x18275E8D0")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ public class XmlElementAttributes : CollectionBase
 	internal int Order
 	{
 		[Token(Token = "0x6000D50")]
-		[Address(RVA = "0x4813D50", Offset = "0x4813D50", VA = "0x4813D50")]
+		[Address(RVA = "0x275E980", Offset = "0x275CF80", VA = "0x18275E980")]
 		get
 		{
 			return default(int);
@@ -37,20 +37,20 @@ public class XmlElementAttributes : CollectionBase
 	}
 
 	[Token(Token = "0x6000D4E")]
-	[Address(RVA = "0x4812CA0", Offset = "0x4812CA0", VA = "0x4812CA0")]
+	[Address(RVA = "0x275E860", Offset = "0x275CE60", VA = "0x18275E860")]
 	public int Add(XmlElementAttribute attribute)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000D4F")]
-	[Address(RVA = "0x4812E20", Offset = "0x4812E20", VA = "0x4812E20")]
+	[Address(RVA = "0x275E640", Offset = "0x275CC40", VA = "0x18275E640")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}
 
 	[Token(Token = "0x6000D51")]
-	[Address(RVA = "0x48123F0", Offset = "0x48123F0", VA = "0x48123F0")]
+	[Address(RVA = "0x1924500", Offset = "0x1922B00", VA = "0x181924500")]
 	public XmlElementAttributes()
 	{
 	}

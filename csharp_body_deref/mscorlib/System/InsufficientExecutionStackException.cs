@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000D9")]
+[Token(Token = "0x2000101")]
 public sealed class InsufficientExecutionStackException : SystemException
 {
-	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x3CB2250", Offset = "0x3CB2250", VA = "0x3CB2250")]
+	[Token(Token = "0x60007E9")]
+	[Address(RVA = "0x1B27DD0", Offset = "0x1B263D0", VA = "0x181B27DD0")]
 	public InsufficientExecutionStackException()
 	{
 	}
 
-	[Token(Token = "0x60007B8")]
-	[Address(RVA = "0x3CB2290", Offset = "0x3CB2290", VA = "0x3CB2290")]
+	[Token(Token = "0x60007EA")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	internal InsufficientExecutionStackException(SerializationInfo info, StreamingContext context)
 	{
 	}

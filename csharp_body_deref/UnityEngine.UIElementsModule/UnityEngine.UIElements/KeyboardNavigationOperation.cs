@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000222")]
+[Token(Token = "0x2000299")]
 public enum KeyboardNavigationOperation
 {
-	[Token(Token = "0x40007AA")]
+	[Token(Token = "0x40009C8")]
 	None,
-	[Token(Token = "0x40007AB")]
+	[Token(Token = "0x40009C9")]
 	SelectAll,
-	[Token(Token = "0x40007AC")]
+	[Token(Token = "0x40009CA")]
 	Cancel,
-	[Token(Token = "0x40007AD")]
+	[Token(Token = "0x40009CB")]
 	Submit,
-	[Token(Token = "0x40007AE")]
+	[Token(Token = "0x40009CC")]
 	Previous,
-	[Token(Token = "0x40007AF")]
+	[Token(Token = "0x40009CD")]
 	Next,
-	[Token(Token = "0x40007B0")]
+	[Token(Token = "0x40009CE")]
 	MoveRight,
-	[Token(Token = "0x40007B1")]
+	[Token(Token = "0x40009CF")]
 	MoveLeft,
-	[Token(Token = "0x40007B2")]
+	[Token(Token = "0x40009D0")]
 	PageUp,
-	[Token(Token = "0x40007B3")]
+	[Token(Token = "0x40009D1")]
 	PageDown,
-	[Token(Token = "0x40007B4")]
+	[Token(Token = "0x40009D2")]
 	Begin,
-	[Token(Token = "0x40007B5")]
+	[Token(Token = "0x40009D3")]
 	End
 }

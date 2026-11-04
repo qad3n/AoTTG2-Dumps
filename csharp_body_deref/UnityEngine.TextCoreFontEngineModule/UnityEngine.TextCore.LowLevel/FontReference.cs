@@ -7,28 +7,30 @@
 // ===============================================================
 using System.Diagnostics;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 using UnityEngine.Scripting;
 
 namespace UnityEngine.TextCore.LowLevel;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000C")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.TextCoreTextEngineModule" })]
 [DebuggerDisplay("{familyName} - {styleName}")]
 [UnityEngine.Scripting.UsedByNativeCode]
 internal struct FontReference
 {
-	[Token(Token = "0x400005B")]
+	[Token(Token = "0x400006D")]
 	[FieldOffset(Offset = "0x0")]
 	public string familyName;
 
-	[Token(Token = "0x400005C")]
+	[Token(Token = "0x400006E")]
 	[FieldOffset(Offset = "0x8")]
 	public string styleName;
 
-	[Token(Token = "0x400005D")]
+	[Token(Token = "0x400006F")]
 	[FieldOffset(Offset = "0x10")]
 	public int faceIndex;
 
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x4000070")]
 	[FieldOffset(Offset = "0x18")]
 	public string filePath;
 }

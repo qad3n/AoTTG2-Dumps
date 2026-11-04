@@ -70,90 +70,90 @@ internal sealed class QueryBuilder
 	private int _parseDepth;
 
 	[Token(Token = "0x6001BAC")]
-	[Address(RVA = "0x4784EF0", Offset = "0x4784EF0", VA = "0x4784EF0")]
+	[Address(RVA = "0x26D0C70", Offset = "0x26CF270", VA = "0x1826D0C70")]
 	private void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001BAD")]
-	[Address(RVA = "0x4784F00", Offset = "0x4784F00", VA = "0x4784F00")]
+	[Address(RVA = "0x26CF000", Offset = "0x26CD600", VA = "0x1826CF000")]
 	private Query ProcessAxis(Axis root, Flags flags, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BAE")]
-	[Address(RVA = "0x4785A50", Offset = "0x4785A50", VA = "0x4785A50")]
+	[Address(RVA = "0x26CEDF0", Offset = "0x26CD3F0", VA = "0x1826CEDF0")]
 	private static bool CanBeNumber(Query q)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001BAF")]
-	[Address(RVA = "0x4785AA0", Offset = "0x4785AA0", VA = "0x4785AA0")]
+	[Address(RVA = "0x26CF870", Offset = "0x26CDE70", VA = "0x1826CF870")]
 	private Query ProcessFilter(Filter root, Flags flags, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB0")]
-	[Address(RVA = "0x4786040", Offset = "0x4786040", VA = "0x4786040")]
+	[Address(RVA = "0x26D09B0", Offset = "0x26CEFB0", VA = "0x1826D09B0")]
 	private Query ProcessOperator(Operator root, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB1")]
-	[Address(RVA = "0x4786240", Offset = "0x4786240", VA = "0x4786240")]
+	[Address(RVA = "0x26D0BB0", Offset = "0x26CF1B0", VA = "0x1826D0BB0")]
 	private Query ProcessVariable(Variable root)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB2")]
-	[Address(RVA = "0x4786300", Offset = "0x4786300", VA = "0x4786300")]
+	[Address(RVA = "0x26CFDD0", Offset = "0x26CE3D0", VA = "0x1826CFDD0")]
 	private Query ProcessFunction(Function root, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB3")]
-	[Address(RVA = "0x47867A0", Offset = "0x47867A0", VA = "0x47867A0")]
+	[Address(RVA = "0x26CEE40", Offset = "0x26CD440", VA = "0x1826CEE40")]
 	private List<Query> ProcessArguments(List<AstNode> args, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB4")]
-	[Address(RVA = "0x47856A0", Offset = "0x47856A0", VA = "0x47856A0")]
+	[Address(RVA = "0x26D0360", Offset = "0x26CE960", VA = "0x1826D0360")]
 	private Query ProcessNode(AstNode root, Flags flags, out Props props)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB5")]
-	[Address(RVA = "0x4786980", Offset = "0x4786980", VA = "0x4786980")]
+	[Address(RVA = "0x26CECE0", Offset = "0x26CD2E0", VA = "0x1826CECE0")]
 	private Query Build(AstNode root, string query)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB6")]
-	[Address(RVA = "0x47869D0", Offset = "0x47869D0", VA = "0x47869D0")]
+	[Address(RVA = "0x26CEC40", Offset = "0x26CD240", VA = "0x1826CEC40")]
 	internal Query Build(string query, bool allowVar, bool allowKey)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB7")]
-	[Address(RVA = "0x4786BA0", Offset = "0x4786BA0", VA = "0x4786BA0")]
+	[Address(RVA = "0x26CED40", Offset = "0x26CD340", VA = "0x1826CED40")]
 	internal Query Build(string query, out bool needContext)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001BB8")]
-	[Address(RVA = "0x4786C50", Offset = "0x4786C50", VA = "0x4786C50")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public QueryBuilder()
 	{
 	}

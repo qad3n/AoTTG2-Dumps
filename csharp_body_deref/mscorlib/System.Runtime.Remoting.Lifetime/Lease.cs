@@ -10,116 +10,116 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x2000361")]
+[Token(Token = "0x2000390")]
 internal class Lease : MarshalByRefObject, ILease
 {
-	[Token(Token = "0x2000362")]
+	[Token(Token = "0x2000391")]
 	private delegate TimeSpan RenewalDelegate(ILease lease);
 
-	[Token(Token = "0x4000EDB")]
+	[Token(Token = "0x4000EE8")]
 	[FieldOffset(Offset = "0x18")]
 	private DateTime _leaseExpireTime;
 
-	[Token(Token = "0x4000EDC")]
+	[Token(Token = "0x4000EE9")]
 	[FieldOffset(Offset = "0x20")]
 	private LeaseState _currentState;
 
-	[Token(Token = "0x4000EDD")]
+	[Token(Token = "0x4000EEA")]
 	[FieldOffset(Offset = "0x28")]
 	private TimeSpan _initialLeaseTime;
 
-	[Token(Token = "0x4000EDE")]
+	[Token(Token = "0x4000EEB")]
 	[FieldOffset(Offset = "0x30")]
 	private TimeSpan _renewOnCallTime;
 
-	[Token(Token = "0x4000EDF")]
+	[Token(Token = "0x4000EEC")]
 	[FieldOffset(Offset = "0x38")]
 	private TimeSpan _sponsorshipTimeout;
 
-	[Token(Token = "0x4000EE0")]
+	[Token(Token = "0x4000EED")]
 	[FieldOffset(Offset = "0x40")]
 	private ArrayList _sponsors;
 
-	[Token(Token = "0x4000EE1")]
+	[Token(Token = "0x4000EEE")]
 	[FieldOffset(Offset = "0x48")]
 	private Queue _renewingSponsors;
 
-	[Token(Token = "0x4000EE2")]
+	[Token(Token = "0x4000EEF")]
 	[FieldOffset(Offset = "0x50")]
 	private RenewalDelegate _renewalDelegate;
 
-	[Token(Token = "0x1700035B")]
+	[Token(Token = "0x1700035D")]
 	public TimeSpan CurrentLeaseTime
 	{
-		[Token(Token = "0x6001D19")]
-		[Address(RVA = "0x3B77370", Offset = "0x3B77370", VA = "0x3B77370", Slot = "6")]
+		[Token(Token = "0x6001D88")]
+		[Address(RVA = "0x19FCDF0", Offset = "0x19FB3F0", VA = "0x1819FCDF0", Slot = "6")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x1700035C")]
+	[Token(Token = "0x1700035E")]
 	public LeaseState CurrentState
 	{
-		[Token(Token = "0x6001D1A")]
-		[Address(RVA = "0x3B773D0", Offset = "0x3B773D0", VA = "0x3B773D0", Slot = "7")]
+		[Token(Token = "0x6001D89")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "7")]
 		get
 		{
 			return default(LeaseState);
 		}
 	}
 
-	[Token(Token = "0x1700035D")]
+	[Token(Token = "0x1700035F")]
 	public TimeSpan RenewOnCallTime
 	{
-		[Token(Token = "0x6001D1C")]
-		[Address(RVA = "0x3B773F0", Offset = "0x3B773F0", VA = "0x3B773F0", Slot = "8")]
+		[Token(Token = "0x6001D8B")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "8")]
 		get
 		{
 			return default(TimeSpan);
 		}
 	}
 
-	[Token(Token = "0x6001D18")]
-	[Address(RVA = "0x3B771C0", Offset = "0x3B771C0", VA = "0x3B771C0")]
+	[Token(Token = "0x6001D87")]
+	[Address(RVA = "0x19FCC80", Offset = "0x19FB280", VA = "0x1819FCC80")]
 	public Lease()
 	{
 	}
 
-	[Token(Token = "0x6001D1B")]
-	[Address(RVA = "0x3B773E0", Offset = "0x3B773E0", VA = "0x3B773E0")]
+	[Token(Token = "0x6001D8A")]
+	[Address(RVA = "0x19FBFD0", Offset = "0x19FA5D0", VA = "0x1819FBFD0")]
 	public void Activate()
 	{
 	}
 
-	[Token(Token = "0x6001D1D")]
-	[Address(RVA = "0x3B77400", Offset = "0x3B77400", VA = "0x3B77400", Slot = "9")]
+	[Token(Token = "0x6001D8C")]
+	[Address(RVA = "0x19FC8B0", Offset = "0x19FAEB0", VA = "0x1819FC8B0", Slot = "9")]
 	public TimeSpan Renew(TimeSpan renewalTime)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x6001D1E")]
-	[Address(RVA = "0x3B774E0", Offset = "0x3B774E0", VA = "0x3B774E0", Slot = "10")]
+	[Token(Token = "0x6001D8D")]
+	[Address(RVA = "0x19FC980", Offset = "0x19FAF80", VA = "0x1819FC980", Slot = "10")]
 	public void Unregister(ISponsor obj)
 	{
 	}
 
-	[Token(Token = "0x6001D1F")]
-	[Address(RVA = "0x3B77650", Offset = "0x3B77650", VA = "0x3B77650")]
+	[Token(Token = "0x6001D8E")]
+	[Address(RVA = "0x19FCAD0", Offset = "0x19FB0D0", VA = "0x1819FCAD0")]
 	internal void UpdateState()
 	{
 	}
 
-	[Token(Token = "0x6001D20")]
-	[Address(RVA = "0x3B77830", Offset = "0x3B77830", VA = "0x3B77830")]
+	[Token(Token = "0x6001D8F")]
+	[Address(RVA = "0x19FBFE0", Offset = "0x19FA5E0", VA = "0x1819FBFE0")]
 	private void CheckNextSponsor()
 	{
 	}
 
-	[Token(Token = "0x6001D21")]
-	[Address(RVA = "0x3B77BF0", Offset = "0x3B77BF0", VA = "0x3B77BF0")]
+	[Token(Token = "0x6001D90")]
+	[Address(RVA = "0x19FC340", Offset = "0x19FA940", VA = "0x1819FC340")]
 	private void ProcessSponsorResponse(object state, bool timedOut)
 	{
 	}

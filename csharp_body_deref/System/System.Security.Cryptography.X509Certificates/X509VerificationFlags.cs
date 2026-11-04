@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000F4")]
+[Token(Token = "0x2000134")]
 [Flags]
 public enum X509VerificationFlags
 {
-	[Token(Token = "0x40004B8")]
+	[Token(Token = "0x400058A")]
 	NoFlag = 0,
-	[Token(Token = "0x40004B9")]
+	[Token(Token = "0x400058B")]
 	IgnoreNotTimeValid = 1,
-	[Token(Token = "0x40004BA")]
+	[Token(Token = "0x400058C")]
 	IgnoreCtlNotTimeValid = 2,
-	[Token(Token = "0x40004BB")]
+	[Token(Token = "0x400058D")]
 	IgnoreNotTimeNested = 4,
-	[Token(Token = "0x40004BC")]
+	[Token(Token = "0x400058E")]
 	IgnoreInvalidBasicConstraints = 8,
-	[Token(Token = "0x40004BD")]
+	[Token(Token = "0x400058F")]
 	AllowUnknownCertificateAuthority = 0x10,
-	[Token(Token = "0x40004BE")]
+	[Token(Token = "0x4000590")]
 	IgnoreWrongUsage = 0x20,
-	[Token(Token = "0x40004BF")]
+	[Token(Token = "0x4000591")]
 	IgnoreInvalidName = 0x40,
-	[Token(Token = "0x40004C0")]
+	[Token(Token = "0x4000592")]
 	IgnoreInvalidPolicy = 0x80,
-	[Token(Token = "0x40004C1")]
+	[Token(Token = "0x4000593")]
 	IgnoreEndRevocationUnknown = 0x100,
-	[Token(Token = "0x40004C2")]
+	[Token(Token = "0x4000594")]
 	IgnoreCtlSignerRevocationUnknown = 0x200,
-	[Token(Token = "0x40004C3")]
+	[Token(Token = "0x4000595")]
 	IgnoreCertificateAuthorityRevocationUnknown = 0x400,
-	[Token(Token = "0x40004C4")]
+	[Token(Token = "0x4000596")]
 	IgnoreRootRevocationUnknown = 0x800,
-	[Token(Token = "0x40004C5")]
-	AllFlags = 0xFFF
+	[Token(Token = "0x4000597")]
+	AllFlags = IgnoreNotTimeValid | IgnoreCtlNotTimeValid | IgnoreNotTimeNested | IgnoreInvalidBasicConstraints | AllowUnknownCertificateAuthority | IgnoreWrongUsage | IgnoreInvalidName | IgnoreInvalidPolicy | IgnoreEndRevocationUnknown | IgnoreCtlSignerRevocationUnknown | IgnoreCertificateAuthorityRevocationUnknown | IgnoreRootRevocationUnknown
 }

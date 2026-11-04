@@ -12,113 +12,113 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x200051A")]
+[Token(Token = "0x200054A")]
+[ClassInterface(ClassInterfaceType.None)]
 [ComDefaultInterface(typeof(_ParameterInfo))]
 [ComVisible(true)]
-[ClassInterface(ClassInterfaceType.None)]
 internal class RuntimeParameterInfo : ParameterInfo
 {
-	[Token(Token = "0x400154C")]
+	[Token(Token = "0x400154B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	internal MarshalAsAttribute marshalAs;
 
-	[Token(Token = "0x17000584")]
+	[Token(Token = "0x17000587")]
 	public override object DefaultValue
 	{
-		[Token(Token = "0x60026EB")]
-		[Address(RVA = "0x3BE52E0", Offset = "0x3BE52E0", VA = "0x3BE52E0", Slot = "13")]
+		[Token(Token = "0x600276E")]
+		[Address(RVA = "0x1A717C0", Offset = "0x1A6FDC0", VA = "0x181A717C0", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000585")]
+	[Token(Token = "0x17000588")]
 	public override bool HasDefaultValue
 	{
-		[Token(Token = "0x60026F2")]
-		[Address(RVA = "0x3BE5FB0", Offset = "0x3BE5FB0", VA = "0x3BE5FB0", Slot = "14")]
+		[Token(Token = "0x6002775")]
+		[Address(RVA = "0x1A71AE0", Offset = "0x1A700E0", VA = "0x181A71AE0", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60026E7")]
-	[Address(RVA = "0x3BE5030", Offset = "0x3BE5030", VA = "0x3BE5030")]
+	[Token(Token = "0x600276A")]
+	[Address(RVA = "0x1A71550", Offset = "0x1A6FB50", VA = "0x181A71550")]
 	internal RuntimeParameterInfo(string name, Type type, int position, int attrs, object defaultValue, MemberInfo member, MarshalAsAttribute marshalAs)
 	{
 	}
 
-	[Token(Token = "0x60026E8")]
-	[Address(RVA = "0x3BE1FC0", Offset = "0x3BE1FC0", VA = "0x3BE1FC0")]
+	[Token(Token = "0x600276B")]
+	[Address(RVA = "0x1A706C0", Offset = "0x1A6ECC0", VA = "0x181A706C0")]
 	internal static void FormatParameters(StringBuilder sb, ParameterInfo[] p, CallingConventions callingConvention, bool serialization)
 	{
 	}
 
-	[Token(Token = "0x60026E9")]
-	[Address(RVA = "0x3BE50D0", Offset = "0x3BE50D0", VA = "0x3BE50D0")]
+	[Token(Token = "0x600276C")]
+	[Address(RVA = "0x1A71660", Offset = "0x1A6FC60", VA = "0x181A71660")]
 	internal RuntimeParameterInfo(ParameterInfo pinfo, MemberInfo member)
 	{
 	}
 
-	[Token(Token = "0x60026EA")]
-	[Address(RVA = "0x3BE5260", Offset = "0x3BE5260", VA = "0x3BE5260")]
+	[Token(Token = "0x600276D")]
+	[Address(RVA = "0x1A715E0", Offset = "0x1A6FBE0", VA = "0x181A715E0")]
 	internal RuntimeParameterInfo(Type type, MemberInfo member, MarshalAsAttribute marshalAs)
 	{
 	}
 
-	[Token(Token = "0x60026EC")]
-	[Address(RVA = "0x3BE55E0", Offset = "0x3BE55E0", VA = "0x3BE55E0", Slot = "16")]
+	[Token(Token = "0x600276F")]
+	[Address(RVA = "0x1A70920", Offset = "0x1A6EF20", VA = "0x181A70920", Slot = "16")]
 	public override object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026ED")]
-	[Address(RVA = "0x3BE5630", Offset = "0x3BE5630", VA = "0x3BE5630", Slot = "17")]
+	[Token(Token = "0x6002770")]
+	[Address(RVA = "0x1A708C0", Offset = "0x1A6EEC0", VA = "0x181A708C0", Slot = "17")]
 	public override object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026EE")]
-	[Address(RVA = "0x3BE51A0", Offset = "0x3BE51A0", VA = "0x3BE51A0")]
+	[Token(Token = "0x6002771")]
+	[Address(RVA = "0x1A70970", Offset = "0x1A6EF70", VA = "0x181A70970")]
 	internal object GetDefaultValueImpl(ParameterInfo pinfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026EF")]
-	[Address(RVA = "0x3BE5690", Offset = "0x3BE5690", VA = "0x3BE5690", Slot = "15")]
+	[Token(Token = "0x6002772")]
+	[Address(RVA = "0x1A712A0", Offset = "0x1A6F8A0", VA = "0x181A712A0", Slot = "15")]
 	public override bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60026F0")]
-	[Address(RVA = "0x3BE56F0", Offset = "0x3BE56F0", VA = "0x3BE56F0")]
+	[Token(Token = "0x6002773")]
+	[Address(RVA = "0x1A70FE0", Offset = "0x1A6F5E0", VA = "0x181A70FE0")]
 	internal object[] GetPseudoCustomAttributes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026F1")]
-	[Address(RVA = "0x3BE59B0", Offset = "0x3BE59B0", VA = "0x3BE59B0")]
+	[Token(Token = "0x6002774")]
+	[Address(RVA = "0x1A70A20", Offset = "0x1A6F020", VA = "0x181A70A20")]
 	internal CustomAttributeData[] GetPseudoCustomAttributesData()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026F3")]
-	[Address(RVA = "0x3BE60B0", Offset = "0x3BE60B0", VA = "0x3BE60B0")]
+	[Token(Token = "0x6002776")]
+	[Address(RVA = "0x1A71310", Offset = "0x1A6F910", VA = "0x181A71310")]
 	internal static ParameterInfo New(ParameterInfo pinfo, MemberInfo member)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60026F4")]
-	[Address(RVA = "0x3BE1C40", Offset = "0x3BE1C40", VA = "0x3BE1C40")]
+	[Token(Token = "0x6002777")]
+	[Address(RVA = "0x1A714A0", Offset = "0x1A6FAA0", VA = "0x181A714A0")]
 	internal static ParameterInfo New(Type type, MemberInfo member, MarshalAsAttribute marshalAs)
 	{
 		return null;

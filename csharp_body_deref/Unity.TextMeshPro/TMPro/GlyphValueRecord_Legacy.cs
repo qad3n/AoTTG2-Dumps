@@ -12,33 +12,33 @@ using UnityEngine.TextCore.LowLevel;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000039")]
 public struct GlyphValueRecord_Legacy
 {
-	[Token(Token = "0x4000214")]
+	[Token(Token = "0x400014D")]
 	[FieldOffset(Offset = "0x0")]
 	public float xPlacement;
 
-	[Token(Token = "0x4000215")]
+	[Token(Token = "0x400014E")]
 	[FieldOffset(Offset = "0x4")]
 	public float yPlacement;
 
-	[Token(Token = "0x4000216")]
+	[Token(Token = "0x400014F")]
 	[FieldOffset(Offset = "0x8")]
 	public float xAdvance;
 
-	[Token(Token = "0x4000217")]
+	[Token(Token = "0x4000150")]
 	[FieldOffset(Offset = "0xC")]
 	public float yAdvance;
 
-	[Token(Token = "0x600023D")]
-	[Address(RVA = "0x4C564B0", Offset = "0x4C564B0", VA = "0x4C564B0")]
+	[Token(Token = "0x60001A5")]
+	[Address(RVA = "0x2CF4560", Offset = "0x2CF2B60", VA = "0x182CF4560")]
 	internal GlyphValueRecord_Legacy(GlyphValueRecord valueRecord)
 	{
 	}
 
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x4C56510", Offset = "0x4C56510", VA = "0x4C56510")]
+	[Token(Token = "0x60001A6")]
+	[Address(RVA = "0x2CF45C0", Offset = "0x2CF2BC0", VA = "0x182CF45C0")]
 	public static GlyphValueRecord_Legacy operator +(GlyphValueRecord_Legacy a, GlyphValueRecord_Legacy b)
 	{
 		return default(GlyphValueRecord_Legacy);

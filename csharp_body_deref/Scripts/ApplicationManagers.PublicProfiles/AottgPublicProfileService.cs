@@ -17,102 +17,102 @@ using UnityEngine;
 
 namespace ApplicationManagers.PublicProfiles;
 
-[Token(Token = "0x20007A0")]
+[Token(Token = "0x200092B")]
 public sealed class AottgPublicProfileService : MonoBehaviour
 {
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20007A2")]
+	[Token(Token = "0x200092D")]
 	[CompilerGenerated]
 	private struct _003CFetchProfileAsync_003Ed__7 : IAsyncStateMachine
 	{
-		[Token(Token = "0x40024DC")]
+		[Token(Token = "0x4002DAA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x40024DD")]
+		[Token(Token = "0x4002DAB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x40024DE")]
+		[Token(Token = "0x4002DAC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public string accountId;
 
-		[Token(Token = "0x40024DF")]
+		[Token(Token = "0x4002DAD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public Action<AottgQueryFetchResult<AottgPublicProfile>> onComplete;
 
-		[Token(Token = "0x40024E0")]
+		[Token(Token = "0x4002DAE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private UniTask<AottgApiResult>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x60049A1")]
-		[Address(RVA = "0x43C47F0", Offset = "0x43C47F0", VA = "0x43C47F0", Slot = "4")]
+		[Token(Token = "0x6005619")]
+		[Address(RVA = "0x2373330", Offset = "0x2371930", VA = "0x182373330", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60049A2")]
-		[Address(RVA = "0x43C5170", Offset = "0x43C5170", VA = "0x43C5170", Slot = "5")]
+		[Token(Token = "0x600561A")]
+		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x40024D9")]
+	[Token(Token = "0x4002DA7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static AottgPublicProfileService _instance;
 
-	[Token(Token = "0x40024DA")]
+	[Token(Token = "0x4002DA8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private AottgQueryCache<string, AottgPublicProfile> _cache;
 
-	[Token(Token = "0x6004997")]
-	[Address(RVA = "0x43C3F30", Offset = "0x43C3F30", VA = "0x43C3F30")]
+	[Token(Token = "0x600560F")]
+	[Address(RVA = "0x2367C20", Offset = "0x2366220", VA = "0x182367C20")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004998")]
-	[Address(RVA = "0x43C4270", Offset = "0x43C4270", VA = "0x43C4270")]
+	[Token(Token = "0x6005610")]
+	[Address(RVA = "0x2367A60", Offset = "0x2366060", VA = "0x182367A60")]
 	public static void GetProfile(string accountId, Action<AottgPublicProfileFetchResponse> onResult)
 	{
 	}
 
-	[Token(Token = "0x6004999")]
-	[Address(RVA = "0x43C4440", Offset = "0x43C4440", VA = "0x43C4440")]
+	[Token(Token = "0x6005611")]
+	[Address(RVA = "0x23677D0", Offset = "0x2365DD0", VA = "0x1823677D0")]
 	public static void ClearSessionCache()
 	{
 	}
 
-	[Token(Token = "0x600499A")]
-	[Address(RVA = "0x43C4500", Offset = "0x43C4500", VA = "0x43C4500")]
+	[Token(Token = "0x6005612")]
+	[Address(RVA = "0x23676E0", Offset = "0x2365CE0", VA = "0x1823676E0")]
 	public static void ClearProfile(string accountId)
 	{
 	}
 
-	[Token(Token = "0x600499B")]
-	[Address(RVA = "0x43C45E0", Offset = "0x43C45E0", VA = "0x43C45E0")]
+	[Token(Token = "0x6005613")]
+	[Address(RVA = "0x2367970", Offset = "0x2365F70", VA = "0x182367970")]
 	private void FetchProfile(string accountId, Action<AottgQueryFetchResult<AottgPublicProfile>> onComplete)
 	{
 	}
 
-	[Token(Token = "0x600499C")]
-	[Address(RVA = "0x43C4600", Offset = "0x43C4600", VA = "0x43C4600")]
+	[Token(Token = "0x6005614")]
+	[Address(RVA = "0x2367880", Offset = "0x2365E80", VA = "0x182367880")]
 	[AsyncStateMachine(typeof(_003CFetchProfileAsync_003Ed__7))]
 	private UniTask FetchProfileAsync(string accountId, Action<AottgQueryFetchResult<AottgPublicProfile>> onComplete)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x600499D")]
-	[Address(RVA = "0x43C46C0", Offset = "0x43C46C0", VA = "0x43C46C0")]
+	[Token(Token = "0x6005615")]
+	[Address(RVA = "0x2367E00", Offset = "0x2366400", VA = "0x182367E00")]
 	private static void InvokeProfileResult(AottgQueryResult<AottgPublicProfile> result, Action<AottgPublicProfileFetchResponse> onResult)
 	{
 	}
 
-	[Token(Token = "0x600499E")]
-	[Address(RVA = "0x43C47D0", Offset = "0x43C47D0", VA = "0x43C47D0")]
+	[Token(Token = "0x6005616")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgPublicProfileService()
 	{
 	}

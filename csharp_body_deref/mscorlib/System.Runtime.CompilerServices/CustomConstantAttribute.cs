@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x200046F")]
+[Token(Token = "0x200049E")]
 [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, Inherited = false)]
 public abstract class CustomConstantAttribute : Attribute
 {
-	[Token(Token = "0x1700046A")]
+	[Token(Token = "0x1700046D")]
 	public abstract object Value
 	{
-		[Token(Token = "0x6002269")]
+		[Token(Token = "0x60022E9")]
 		get;
 	}
 
-	[Token(Token = "0x600226A")]
-	[Address(RVA = "0x3BC0D20", Offset = "0x3BC0D20", VA = "0x3BC0D20")]
+	[Token(Token = "0x60022EA")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	protected CustomConstantAttribute()
 	{
 	}

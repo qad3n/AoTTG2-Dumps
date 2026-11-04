@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000150")]
+[Token(Token = "0x200017A")]
 internal static class AppContextSwitches
 {
-	[Token(Token = "0x4000512")]
+	[Token(Token = "0x4000576")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly bool SetActorAsReferenceWhenCopyingClaimsIdentity;
 
-	[Token(Token = "0x4000513")]
+	[Token(Token = "0x4000577")]
 	[FieldOffset(Offset = "0x1")]
 	public static readonly bool NoAsyncCurrentCulture;
 
-	[Token(Token = "0x4000514")]
+	[Token(Token = "0x4000578")]
 	[FieldOffset(Offset = "0x2")]
 	public static readonly bool EnforceJapaneseEraYearRanges;
 
-	[Token(Token = "0x4000515")]
+	[Token(Token = "0x4000579")]
 	[FieldOffset(Offset = "0x3")]
 	public static readonly bool FormatJapaneseFirstYearAsANumber;
 
-	[Token(Token = "0x4000516")]
+	[Token(Token = "0x400057A")]
 	[FieldOffset(Offset = "0x4")]
 	public static readonly bool EnforceLegacyJapaneseDateParsing;
 }

@@ -210,14 +210,14 @@ public abstract class PeerBase
 	public string ServerAddress
 	{
 		[Token(Token = "0x6000112")]
-		[Address(RVA = "0x3E6EAD0", Offset = "0x3E6EAD0", VA = "0x3E6EAD0")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000113")]
-		[Address(RVA = "0x3E6EAE0", Offset = "0x3E6EAE0", VA = "0x3E6EAE0")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -228,14 +228,14 @@ public abstract class PeerBase
 	public string ProxyServerAddress
 	{
 		[Token(Token = "0x6000114")]
-		[Address(RVA = "0x3E6EAF0", Offset = "0x3E6EAF0", VA = "0x3E6EAF0")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000115")]
-		[Address(RVA = "0x3E6EB00", Offset = "0x3E6EB00", VA = "0x3E6EB00")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -246,7 +246,7 @@ public abstract class PeerBase
 	internal IPhotonPeerListener Listener
 	{
 		[Token(Token = "0x6000116")]
-		[Address(RVA = "0x3E61DF0", Offset = "0x3E61DF0", VA = "0x3E61DF0")]
+		[Address(RVA = "0x1A4D270", Offset = "0x1A4B870", VA = "0x181A4D270")]
 		get
 		{
 			return null;
@@ -257,7 +257,7 @@ public abstract class PeerBase
 	public DebugLevel debugOut
 	{
 		[Token(Token = "0x6000117")]
-		[Address(RVA = "0x3E61ED0", Offset = "0x3E61ED0", VA = "0x3E61ED0")]
+		[Address(RVA = "0x1CCD8C0", Offset = "0x1CCBEC0", VA = "0x181CCD8C0")]
 		get
 		{
 			return default(DebugLevel);
@@ -268,7 +268,7 @@ public abstract class PeerBase
 	internal int DisconnectTimeout
 	{
 		[Token(Token = "0x6000118")]
-		[Address(RVA = "0x3E68280", Offset = "0x3E68280", VA = "0x3E68280")]
+		[Address(RVA = "0x1CCD7D0", Offset = "0x1CCBDD0", VA = "0x181CCD7D0")]
 		get
 		{
 			return default(int);
@@ -279,7 +279,7 @@ public abstract class PeerBase
 	internal int timePingInterval
 	{
 		[Token(Token = "0x6000119")]
-		[Address(RVA = "0x3E66E10", Offset = "0x3E66E10", VA = "0x3E66E10")]
+		[Address(RVA = "0x1CCD980", Offset = "0x1CCBF80", VA = "0x181CCD980")]
 		get
 		{
 			return default(int);
@@ -290,7 +290,7 @@ public abstract class PeerBase
 	internal byte ChannelCount
 	{
 		[Token(Token = "0x600011A")]
-		[Address(RVA = "0x3E60690", Offset = "0x3E60690", VA = "0x3E60690")]
+		[Address(RVA = "0x1CCD7B0", Offset = "0x1CCBDB0", VA = "0x181CCD7B0")]
 		get
 		{
 			return default(byte);
@@ -301,7 +301,7 @@ public abstract class PeerBase
 	internal long BytesOut
 	{
 		[Token(Token = "0x600011B")]
-		[Address(RVA = "0x3E6EB10", Offset = "0x3E6EB10", VA = "0x3E6EB10")]
+		[Address(RVA = "0x1CCD7A0", Offset = "0x1CCBDA0", VA = "0x181CCD7A0")]
 		get
 		{
 			return default(long);
@@ -312,7 +312,7 @@ public abstract class PeerBase
 	internal long BytesIn
 	{
 		[Token(Token = "0x600011C")]
-		[Address(RVA = "0x3E6EB20", Offset = "0x3E6EB20", VA = "0x3E6EB20")]
+		[Address(RVA = "0x1CCD790", Offset = "0x1CCBD90", VA = "0x181CCD790")]
 		get
 		{
 			return default(long);
@@ -337,7 +337,7 @@ public abstract class PeerBase
 	internal virtual int SentReliableCommandsCount
 	{
 		[Token(Token = "0x600011F")]
-		[Address(RVA = "0x3E6EB30", Offset = "0x3E6EB30", VA = "0x3E6EB30", Slot = "6")]
+		[Address(RVA = "0xB62B40", Offset = "0xB61140", VA = "0x180B62B40", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -348,7 +348,7 @@ public abstract class PeerBase
 	public virtual string PeerID
 	{
 		[Token(Token = "0x6000120")]
-		[Address(RVA = "0x3E6EB40", Offset = "0x3E6EB40", VA = "0x3E6EB40", Slot = "7")]
+		[Address(RVA = "0x1CCD820", Offset = "0x1CCBE20", VA = "0x181CCD820", Slot = "7")]
 		get
 		{
 			return null;
@@ -359,7 +359,7 @@ public abstract class PeerBase
 	internal int timeInt
 	{
 		[Token(Token = "0x6000121")]
-		[Address(RVA = "0x3E65480", Offset = "0x3E65480", VA = "0x3E65480")]
+		[Address(RVA = "0x1CCD950", Offset = "0x1CCBF50", VA = "0x181CCD950")]
 		get
 		{
 			return default(int);
@@ -370,7 +370,7 @@ public abstract class PeerBase
 	internal static int outgoingStreamBufferSize
 	{
 		[Token(Token = "0x6000122")]
-		[Address(RVA = "0x3E6EB60", Offset = "0x3E6EB60", VA = "0x3E6EB60")]
+		[Address(RVA = "0x1CCD900", Offset = "0x1CCBF00", VA = "0x181CCD900")]
 		get
 		{
 			return default(int);
@@ -381,7 +381,7 @@ public abstract class PeerBase
 	internal int mtu
 	{
 		[Token(Token = "0x6000123")]
-		[Address(RVA = "0x3E60670", Offset = "0x3E60670", VA = "0x3E60670")]
+		[Address(RVA = "0x1CCD8E0", Offset = "0x1CCBEE0", VA = "0x181CCD8E0")]
 		get
 		{
 			return default(int);
@@ -392,7 +392,7 @@ public abstract class PeerBase
 	protected internal bool IsIpv6
 	{
 		[Token(Token = "0x6000124")]
-		[Address(RVA = "0x3E6EBD0", Offset = "0x3E6EBD0", VA = "0x3E6EBD0")]
+		[Address(RVA = "0x1CCD7F0", Offset = "0x1CCBDF0", VA = "0x181CCD7F0")]
 		get
 		{
 			return default(bool);
@@ -403,7 +403,7 @@ public abstract class PeerBase
 	public NetworkSimulationSet NetworkSimulationSettings
 	{
 		[Token(Token = "0x6000144")]
-		[Address(RVA = "0x3E611D0", Offset = "0x3E611D0", VA = "0x3E611D0")]
+		[Address(RVA = "0x1CCD810", Offset = "0x1CCBE10", VA = "0x181CCD810")]
 		get
 		{
 			return null;
@@ -414,7 +414,7 @@ public abstract class PeerBase
 	internal bool TrafficStatsEnabled
 	{
 		[Token(Token = "0x6000148")]
-		[Address(RVA = "0x3E60970", Offset = "0x3E60970", VA = "0x3E60970")]
+		[Address(RVA = "0x1CCD840", Offset = "0x1CCBE40", VA = "0x181CCD840")]
 		get
 		{
 			return default(bool);
@@ -425,7 +425,7 @@ public abstract class PeerBase
 	internal TrafficStats TrafficStatsIncoming
 	{
 		[Token(Token = "0x6000149")]
-		[Address(RVA = "0x3E68FB0", Offset = "0x3E68FB0", VA = "0x3E68FB0")]
+		[Address(RVA = "0x1CCD880", Offset = "0x1CCBE80", VA = "0x181CCD880")]
 		get
 		{
 			return null;
@@ -436,7 +436,7 @@ public abstract class PeerBase
 	internal TrafficStats TrafficStatsOutgoing
 	{
 		[Token(Token = "0x600014A")]
-		[Address(RVA = "0x3E60990", Offset = "0x3E60990", VA = "0x3E60990")]
+		[Address(RVA = "0x1CCD8A0", Offset = "0x1CCBEA0", VA = "0x181CCD8A0")]
 		get
 		{
 			return null;
@@ -447,7 +447,7 @@ public abstract class PeerBase
 	internal TrafficStatsGameLevel TrafficStatsGameLevel
 	{
 		[Token(Token = "0x600014B")]
-		[Address(RVA = "0x3E67040", Offset = "0x3E67040", VA = "0x3E67040")]
+		[Address(RVA = "0x1CCD860", Offset = "0x1CCBE60", VA = "0x181CCD860")]
 		get
 		{
 			return null;
@@ -455,26 +455,26 @@ public abstract class PeerBase
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x3E5F9B0", Offset = "0x3E5F9B0", VA = "0x3E5F9B0")]
+	[Address(RVA = "0x1CCD500", Offset = "0x1CCBB00", VA = "0x181CCD500")]
 	protected PeerBase()
 	{
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x3E67290", Offset = "0x3E67290", VA = "0x3E67290")]
+	[Address(RVA = "0x1CCAE00", Offset = "0x1CC9400", VA = "0x181CCAE00")]
 	public static StreamBuffer MessageBufferPoolGet()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3E67480", Offset = "0x3E67480", VA = "0x3E67480")]
+	[Address(RVA = "0x1CCAFB0", Offset = "0x1CC95B0", VA = "0x181CCAFB0")]
 	public static void MessageBufferPoolPut(StreamBuffer buff)
 	{
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x3E602A0", Offset = "0x3E602A0", VA = "0x3E602A0", Slot = "8")]
+	[Address(RVA = "0x1CCBA40", Offset = "0x1CCA040", VA = "0x181CCBA40", Slot = "8")]
 	internal virtual void Reset()
 	{
 	}
@@ -483,28 +483,28 @@ public abstract class PeerBase
 	internal abstract bool Connect(string serverAddress, string proxyServerAddress, string appID, object photonToken);
 
 	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x3E6EBF0", Offset = "0x3E6EBF0", VA = "0x3E6EBF0")]
+	[Address(RVA = "0x1CCA810", Offset = "0x1CC8E10", VA = "0x181CCA810")]
 	private string GetHttpKeyValueString(Dictionary<string, string> dic)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x3E69FE0", Offset = "0x3E69FE0", VA = "0x3E69FE0")]
+	[Address(RVA = "0x1CCC9B0", Offset = "0x1CCAFB0", VA = "0x181CCC9B0")]
 	internal byte[] WriteInitRequest()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x3E6EF00", Offset = "0x3E6EF00", VA = "0x3E6EF00")]
+	[Address(RVA = "0x1CCCFE0", Offset = "0x1CCB5E0", VA = "0x181CCCFE0")]
 	private byte[] WriteInitV3()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x3E6F300", Offset = "0x3E6F300", VA = "0x3E6F300")]
+	[Address(RVA = "0x1CCB510", Offset = "0x1CC9B10", VA = "0x181CCB510")]
 	internal string PepareWebSocketUrl(string serverAddress, string appId, object photonToken)
 	{
 		return null;
@@ -514,7 +514,7 @@ public abstract class PeerBase
 	public abstract void OnConnect();
 
 	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x3E6F490", Offset = "0x3E6F490", VA = "0x3E6F490")]
+	[Address(RVA = "0x1CCAA40", Offset = "0x1CC9040", VA = "0x181CCAA40")]
 	internal void InitCallback()
 	{
 	}
@@ -535,21 +535,21 @@ public abstract class PeerBase
 	internal abstract bool EnqueuePhotonMessage(StreamBuffer opBytes, SendOptions sendParams);
 
 	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x3E6F560", Offset = "0x3E6F560", VA = "0x3E6F560")]
+	[Address(RVA = "0x1CCC440", Offset = "0x1CCAA40", VA = "0x181CCC440")]
 	internal StreamBuffer SerializeOperationToMessage(byte opCode, Dictionary<byte, object> parameters, EgMessageType messageType, bool encrypt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x3E6F810", Offset = "0x3E6F810", VA = "0x3E6F810")]
+	[Address(RVA = "0x1CCC6B0", Offset = "0x1CCACB0", VA = "0x181CCC6B0")]
 	internal StreamBuffer SerializeOperationToMessage(byte opCode, ParameterDictionary parameters, EgMessageType messageType, bool encrypt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x3E6FAC0", Offset = "0x3E6FAC0", VA = "0x3E6FAC0")]
+	[Address(RVA = "0x1CCC180", Offset = "0x1CCA780", VA = "0x181CCC180")]
 	internal StreamBuffer SerializeMessageToMessage(object message, bool encrypt)
 	{
 		return null;
@@ -559,7 +559,7 @@ public abstract class PeerBase
 	internal abstract bool SendOutgoingCommands();
 
 	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x3E6FDA0", Offset = "0x3E6FDA0", VA = "0x3E6FDA0", Slot = "17")]
+	[Address(RVA = "0x795DE0", Offset = "0x7943E0", VA = "0x180795DE0", Slot = "17")]
 	internal virtual bool SendAcksOnly()
 	{
 		return default(bool);
@@ -572,69 +572,69 @@ public abstract class PeerBase
 	internal abstract bool DispatchIncomingCommands();
 
 	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x3E6FDB0", Offset = "0x3E6FDB0", VA = "0x3E6FDB0", Slot = "20")]
+	[Address(RVA = "0x1CC9160", Offset = "0x1CC7760", VA = "0x181CC9160", Slot = "20")]
 	internal virtual bool DeserializeMessageAndCallback(StreamBuffer stream)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3E69540", Offset = "0x3E69540", VA = "0x3E69540")]
+	[Address(RVA = "0x1CCC920", Offset = "0x1CCAF20", VA = "0x181CCC920")]
 	internal void UpdateRoundTripTimeAndVariance(int lastRoundtripTime)
 	{
 	}
 
 	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3E710A0", Offset = "0x3E710A0", VA = "0x3E710A0")]
+	[Address(RVA = "0x1CCA1C0", Offset = "0x1CC87C0", VA = "0x181CCA1C0")]
 	internal bool ExchangeKeysForEncryption(object lockObject)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3E70E30", Offset = "0x3E70E30", VA = "0x3E70E30")]
+	[Address(RVA = "0x1CC8EF0", Offset = "0x1CC74F0", VA = "0x181CC8EF0")]
 	internal void DeriveSharedKey(OperationResponse operationResponse)
 	{
 	}
 
 	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3E717D0", Offset = "0x3E717D0", VA = "0x3E717D0", Slot = "21")]
+	[Address(RVA = "0x1CCAAC0", Offset = "0x1CC90C0", VA = "0x181CCAAC0", Slot = "21")]
 	internal virtual void InitEncryption(byte[] secret)
 	{
 	}
 
 	[Token(Token = "0x6000141")]
-	[Address(RVA = "0x3E695C0", Offset = "0x3E695C0", VA = "0x3E695C0")]
+	[Address(RVA = "0x1CC9E00", Offset = "0x1CC8400", VA = "0x181CC9E00")]
 	internal void EnqueueActionForDispatch(MyAction action)
 	{
 	}
 
 	[Token(Token = "0x6000142")]
-	[Address(RVA = "0x3E61EF0", Offset = "0x3E61EF0", VA = "0x3E61EF0")]
+	[Address(RVA = "0x1CC9ED0", Offset = "0x1CC84D0", VA = "0x181CC9ED0")]
 	internal void EnqueueDebugReturn(DebugLevel level, string debugReturn)
 	{
 	}
 
 	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x3E61BA0", Offset = "0x3E61BA0", VA = "0x3E61BA0")]
+	[Address(RVA = "0x1CCA050", Offset = "0x1CC8650", VA = "0x181CCA050")]
 	internal void EnqueueStatusCallback(StatusCode statusValue)
 	{
 	}
 
 	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x3E67ED0", Offset = "0x3E67ED0", VA = "0x3E67ED0")]
+	[Address(RVA = "0x1CCBDE0", Offset = "0x1CCA3E0", VA = "0x181CCBDE0")]
 	internal void SendNetworkSimulated(byte[] dataToSend)
 	{
 	}
 
 	[Token(Token = "0x6000146")]
-	[Address(RVA = "0x3E6B520", Offset = "0x3E6B520", VA = "0x3E6B520")]
+	[Address(RVA = "0x1CCB6A0", Offset = "0x1CC9CA0", VA = "0x181CCB6A0")]
 	internal void ReceiveNetworkSimulated(byte[] dataReceived)
 	{
 	}
 
 	[Token(Token = "0x6000147")]
-	[Address(RVA = "0x3E71C90", Offset = "0x3E71C90", VA = "0x3E71C90")]
+	[Address(RVA = "0x1CCB100", Offset = "0x1CC9700", VA = "0x181CCB100")]
 	protected internal void NetworkSimRun()
 	{
 	}

@@ -12,85 +12,85 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002A3")]
+[Token(Token = "0x20003EE")]
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
 [Conditional("UNITY_EDITOR")]
 internal class CLTypeAttribute : CLBaseAttribute
 {
-	[Token(Token = "0x170001E1")]
+	[Token(Token = "0x17000296")]
 	public bool Abstract
 	{
-		[Token(Token = "0x6000FA3")]
-		[Address(RVA = "0x3FB93E0", Offset = "0x3FB93E0", VA = "0x3FB93E0")]
+		[Token(Token = "0x6001825")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000FA4")]
-		[Address(RVA = "0x3FB93F0", Offset = "0x3FB93F0", VA = "0x3FB93F0")]
+		[Token(Token = "0x6001826")]
+		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E2")]
+	[Token(Token = "0x17000297")]
 	public bool InheritBaseMembers
 	{
-		[Token(Token = "0x6000FA5")]
-		[Address(RVA = "0x3FB9400", Offset = "0x3FB9400", VA = "0x3FB9400")]
+		[Token(Token = "0x6001827")]
+		[Address(RVA = "0x1991920", Offset = "0x198FF20", VA = "0x181991920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000FA6")]
-		[Address(RVA = "0x3FB9410", Offset = "0x3FB9410", VA = "0x3FB9410")]
+		[Token(Token = "0x6001828")]
+		[Address(RVA = "0x1991EB0", Offset = "0x19904B0", VA = "0x181991EB0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E3")]
+	[Token(Token = "0x17000298")]
 	public string[] TypeParameters
 	{
-		[Token(Token = "0x6000FA7")]
-		[Address(RVA = "0x3FB9420", Offset = "0x3FB9420", VA = "0x3FB9420")]
+		[Token(Token = "0x6001829")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x3FB9430", Offset = "0x3FB9430", VA = "0x3FB9430")]
+		[Token(Token = "0x600182A")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E4")]
+	[Token(Token = "0x17000299")]
 	public bool IsComponent
 	{
-		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x3FB9440", Offset = "0x3FB9440", VA = "0x3FB9440")]
+		[Token(Token = "0x600182B")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x3FB9450", Offset = "0x3FB9450", VA = "0x3FB9450")]
+		[Token(Token = "0x600182C")]
+		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000FAB")]
-	[Address(RVA = "0x3FB9460", Offset = "0x3FB9460", VA = "0x3FB9460")]
+	[Token(Token = "0x600182D")]
+	[Address(RVA = "0x1ECD950", Offset = "0x1ECBF50", VA = "0x181ECD950")]
 	public CLTypeAttribute()
 	{
 	}

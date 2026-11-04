@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001CA")]
+[Token(Token = "0x20001CD")]
 [DisallowMultipleComponent]
 public sealed class AsyncMouseEnterTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x4A0EE40", Offset = "0x4A0EE40", VA = "0x4A0EE40")]
+	[Token(Token = "0x6000B4B")]
+	[Address(RVA = "0x2931B10", Offset = "0x2930110", VA = "0x182931B10")]
 	private void OnMouseEnter()
 	{
 	}
 
-	[Token(Token = "0x6000B28")]
-	[Address(RVA = "0x4A0EEB0", Offset = "0x4A0EEB0", VA = "0x4A0EEB0")]
+	[Token(Token = "0x6000B4C")]
+	[Address(RVA = "0x2931800", Offset = "0x292FE00", VA = "0x182931800")]
 	public IAsyncOnMouseEnterHandler GetOnMouseEnterAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B29")]
-	[Address(RVA = "0x4A0EF20", Offset = "0x4A0EF20", VA = "0x4A0EF20")]
+	[Token(Token = "0x6000B4D")]
+	[Address(RVA = "0x2931870", Offset = "0x292FE70", VA = "0x182931870")]
 	public IAsyncOnMouseEnterHandler GetOnMouseEnterAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B2A")]
-	[Address(RVA = "0x4A0EF90", Offset = "0x4A0EF90", VA = "0x4A0EF90")]
+	[Token(Token = "0x6000B4E")]
+	[Address(RVA = "0x29318F0", Offset = "0x292FEF0", VA = "0x1829318F0")]
 	public UniTask OnMouseEnterAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B2B")]
-	[Address(RVA = "0x4A0F080", Offset = "0x4A0F080", VA = "0x4A0F080")]
+	[Token(Token = "0x6000B4F")]
+	[Address(RVA = "0x2931A00", Offset = "0x2930000", VA = "0x182931A00")]
 	public UniTask OnMouseEnterAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B2C")]
-	[Address(RVA = "0x4A0F170", Offset = "0x4A0F170", VA = "0x4A0F170")]
+	[Token(Token = "0x6000B50")]
+	[Address(RVA = "0x2931B80", Offset = "0x2930180", VA = "0x182931B80")]
 	public AsyncMouseEnterTrigger()
 	{
 	}

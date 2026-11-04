@@ -13,14 +13,14 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000DD")]
 public struct ProfilingScope : IDisposable
 {
-	[Token(Token = "0x600052B")]
-	[Address(RVA = "0x4CB9F40", Offset = "0x4CB9F40", VA = "0x4CB9F40")]
+	[Token(Token = "0x6000535")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public ProfilingScope(string name)
 	{
 	}
 
-	[Token(Token = "0x600052C")]
-	[Address(RVA = "0x4CB9F50", Offset = "0x4CB9F50", VA = "0x4CB9F50", Slot = "4")]
+	[Token(Token = "0x6000536")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void Dispose()
 	{
 	}

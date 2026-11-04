@@ -11,37 +11,37 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x200034F")]
+[Token(Token = "0x20003F6")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal class ScriptableRuntimeReflectionSystemWrapper
 {
-	[Token(Token = "0x170002CB")]
+	[Token(Token = "0x170003D4")]
 	internal IScriptableRuntimeReflectionSystem implementation
 	{
-		[Token(Token = "0x60011A8")]
-		[Address(RVA = "0x4E3AE10", Offset = "0x4E3AE10", VA = "0x4E3AE10")]
+		[Token(Token = "0x60017E4")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60011A9")]
-		[Address(RVA = "0x4E3AE20", Offset = "0x4E3AE20", VA = "0x4E3AE20")]
+		[Token(Token = "0x60017E5")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60011AA")]
-	[Address(RVA = "0x4E3AE30", Offset = "0x4E3AE30", VA = "0x4E3AE30")]
+	[Token(Token = "0x60017E6")]
+	[Address(RVA = "0x2F79AE0", Offset = "0x2F780E0", VA = "0x182F79AE0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(out bool result)
 	{
 	}
 
-	[Token(Token = "0x60011AB")]
-	[Address(RVA = "0x4E3AE00", Offset = "0x4E3AE00", VA = "0x4E3AE00")]
+	[Token(Token = "0x60017E7")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ScriptableRuntimeReflectionSystemWrapper()
 	{
 	}

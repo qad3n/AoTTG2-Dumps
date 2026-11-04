@@ -1,5 +1,5 @@
 // Type: UI.DuelPlayPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/DuelPlayPanel.cs
@@ -8,9 +8,10 @@
 
 // UI.DuelPlayPanel$$get_VerticalSpacing
 // il2cpp: float UI_DuelPlayPanel__get_VerticalSpacing (UI_DuelPlayPanel_o* __this, const MethodInfo* method);
-// 0x43faae0
+// 0x1820b9980
 
-float UI_DuelPlayPanel__get_VerticalSpacing(UI_DuelPlayPanel_o *__this,MethodInfo *method)
+float
+UI_DuelPlayPanel__get_VerticalSpacing(UI_DuelPlayPanel_o* __this, MethodInfo* method)
 
 {
   return 10.0;
@@ -19,9 +20,10 @@ float UI_DuelPlayPanel__get_VerticalSpacing(UI_DuelPlayPanel_o *__this,MethodInf
 
 // UI.DuelPlayPanel$$get_VerticalPadding
 // il2cpp: int32_t UI_DuelPlayPanel__get_VerticalPadding (UI_DuelPlayPanel_o* __this, const MethodInfo* method);
-// 0x43faaf0
+// 0x181b9be70
 
-int32_t UI_DuelPlayPanel__get_VerticalPadding(UI_DuelPlayPanel_o *__this,MethodInfo *method)
+int32_t
+UI_DuelPlayPanel__get_VerticalPadding(UI_DuelPlayPanel_o* __this, MethodInfo* method)
 
 {
   return 0xf;
@@ -30,9 +32,10 @@ int32_t UI_DuelPlayPanel__get_VerticalPadding(UI_DuelPlayPanel_o *__this,MethodI
 
 // UI.DuelPlayPanel$$Setup
 // il2cpp: void UI_DuelPlayPanel__Setup (UI_DuelPlayPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x43fab00
+// 0x182278860
 
-void UI_DuelPlayPanel__Setup(UI_DuelPlayPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
+void
+UI_DuelPlayPanel__Setup(UI_DuelPlayPanel_o* __this, UI_BasePanel_o* parent, MethodInfo* method)
 
 {
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
@@ -42,9 +45,10 @@ void UI_DuelPlayPanel__Setup(UI_DuelPlayPanel_o *__this,UI_BasePanel_o *parent,M
 
 // UI.DuelPlayPanel$$Sync
 // il2cpp: void UI_DuelPlayPanel__Sync (UI_DuelPlayPanel_o* __this, const MethodInfo* method);
-// 0x43fab10
+// 0x180547020
 
-void UI_DuelPlayPanel__Sync(UI_DuelPlayPanel_o *__this,MethodInfo *method)
+void
+UI_DuelPlayPanel__Sync(UI_DuelPlayPanel_o* __this, MethodInfo* method)
 
 {
   return;
@@ -53,25 +57,26 @@ void UI_DuelPlayPanel__Sync(UI_DuelPlayPanel_o *__this,MethodInfo *method)
 
 // UI.DuelPlayPanel$$.ctor
 // il2cpp: void UI_DuelPlayPanel___ctor (UI_DuelPlayPanel_o* __this, const MethodInfo* method);
-// 0x43fab20
+// 0x182278870
 
 void UI_DuelPlayPanel___ctor(UI_DuelPlayPanel_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_Transform__o *__this_00;
   
-  if (g_data_057ae55d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_Transform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Transform);
-    g_data_057ae55d = '\x01';
+  if (Il2CppMethodInitialized_1843473ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Transform_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Transform);
+    Il2CppMethodInitialized_1843473ee = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_Transform__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Transform);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_UnityEngine_Transform);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Transform);
+  System_Collections_Generic_LowLevelList___Il2CppFullySharedGenericType____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Transform_ctor);
   (__this->fields)._rows = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._rows);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._rows,__this_00);
   (__this->fields)._currentSyncDelay = 0.2;
-  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
+  UI_CategoryPanel___ctor((UI_TopLeftHUD_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

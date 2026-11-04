@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetNameDialog
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgSkinSetNameDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,94 +13,101 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000131")]
+[Token(Token = "0x20001A3")]
 [AottgDialog("setting-skin-set-name")]
 public sealed class AottgSkinSetNameDialog : AottgDialog
 {
-	[Token(Token = "0x40006F2")]
+	[Token(Token = "0x40008D0")]
 	public const string Id = "setting-skin-set-name";
 
-	[Token(Token = "0x40006F3")]
+	[Token(Token = "0x40008D1")]
 	private const string InputId = "setting-skin-set-name-input";
 
-	[Token(Token = "0x170000F4")]
+	[Token(Token = "0x1700011B")]
 	protected override string Title
 	{
-		[Token(Token = "0x600065B")]
-		[Address(RVA = "0x4365E60", Offset = "0x4365E60", VA = "0x4365E60", Slot = "4")]
+		[Token(Token = "0x60008F0")]
+		[Address(RVA = "0x239F4A0", Offset = "0x239DAA0", VA = "0x18239F4A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F5")]
+	[Token(Token = "0x1700011C")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x600065C")]
-		[Address(RVA = "0x4365F80", Offset = "0x4365F80", VA = "0x4365F80", Slot = "12")]
+		[Token(Token = "0x60008F1")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000F6")]
+	[Token(Token = "0x1700011D")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x600065D")]
-		[Address(RVA = "0x4365F90", Offset = "0x4365F90", VA = "0x4365F90", Slot = "14")]
+		[Token(Token = "0x60008F2")]
+		[Address(RVA = "0x239F3A0", Offset = "0x239D9A0", VA = "0x18239F3A0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F7")]
+	[Token(Token = "0x1700011E")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x4366060", Offset = "0x4366060", VA = "0x4366060", Slot = "16")]
+		[Token(Token = "0x60008F3")]
+		[Address(RVA = "0x239F2B0", Offset = "0x239D8B0", VA = "0x18239F2B0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x4366120", Offset = "0x4366120", VA = "0x4366120", Slot = "19")]
+	[Token(Token = "0x60008F4")]
+	[Address(RVA = "0x239EBD0", Offset = "0x239D1D0", VA = "0x18239EBD0", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x43662D0", Offset = "0x43662D0", VA = "0x43662D0", Slot = "20")]
+	[Token(Token = "0x60008F5")]
+	[Address(RVA = "0x239EDC0", Offset = "0x239D3C0", VA = "0x18239EDC0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x4365EF0", Offset = "0x4365EF0", VA = "0x4365EF0")]
+	[Token(Token = "0x60008F6")]
+	[Address(RVA = "0x239F190", Offset = "0x239D790", VA = "0x18239F190")]
 	private static string TitleText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x43663A0", Offset = "0x43663A0", VA = "0x43663A0")]
+	[Token(Token = "0x60008F7")]
+	[Address(RVA = "0x239F130", Offset = "0x239D730", VA = "0x18239F130")]
+	private static string Text(string key, string fallback)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60008F8")]
+	[Address(RVA = "0x239F080", Offset = "0x239D680", VA = "0x18239F080")]
 	private static void Save(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x4366460", Offset = "0x4366460", VA = "0x4366460")]
+	[Token(Token = "0x60008F9")]
+	[Address(RVA = "0x239EEC0", Offset = "0x239D4C0", VA = "0x18239EEC0")]
 	private static string InputText(GameObject source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x4366630", Offset = "0x4366630", VA = "0x4366630")]
+	[Token(Token = "0x60008FA")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgSkinSetNameDialog()
 	{
 	}

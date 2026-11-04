@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ConstrainedExecution;
 
-[Token(Token = "0x200045F")]
+[Token(Token = "0x200048E")]
 public enum Consistency
 {
-	[Token(Token = "0x40012EA")]
-	MayCorruptProcess,
-	[Token(Token = "0x40012EB")]
-	MayCorruptAppDomain,
 	[Token(Token = "0x40012EC")]
-	MayCorruptInstance,
+	MayCorruptProcess,
 	[Token(Token = "0x40012ED")]
+	MayCorruptAppDomain,
+	[Token(Token = "0x40012EE")]
+	MayCorruptInstance,
+	[Token(Token = "0x40012EF")]
 	WillNotCorruptState
 }

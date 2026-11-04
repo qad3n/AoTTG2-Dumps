@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000137")]
+[Token(Token = "0x200015F")]
 public interface IServiceProvider
 {
-	[Token(Token = "0x6000C3A")]
+	[Token(Token = "0x6000C84")]
 	object GetService(Type serviceType);
 }

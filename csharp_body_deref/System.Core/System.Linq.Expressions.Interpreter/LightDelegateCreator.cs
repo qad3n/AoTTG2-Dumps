@@ -20,8 +20,8 @@ internal sealed class LightDelegateCreator
 	[Token(Token = "0x170001D3")]
 	internal Interpreter Interpreter
 	{
-		[Token(Token = "0x60008F2")]
-		[Address(RVA = "0x44F2340", Offset = "0x44F2340", VA = "0x44F2340")]
+		[Token(Token = "0x60008F1")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,21 +29,21 @@ internal sealed class LightDelegateCreator
 		}
 	}
 
-	[Token(Token = "0x60008F1")]
-	[Address(RVA = "0x44F2300", Offset = "0x44F2300", VA = "0x44F2300")]
+	[Token(Token = "0x60008F0")]
+	[Address(RVA = "0x19DB2A0", Offset = "0x19D98A0", VA = "0x1819DB2A0")]
 	internal LightDelegateCreator(Interpreter interpreter, LambdaExpression lambda)
 	{
 	}
 
-	[Token(Token = "0x60008F3")]
-	[Address(RVA = "0x44F2350", Offset = "0x44F2350", VA = "0x44F2350")]
+	[Token(Token = "0x60008F2")]
+	[Address(RVA = "0x2470960", Offset = "0x246EF60", VA = "0x182470960")]
 	public Delegate CreateDelegate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F4")]
-	[Address(RVA = "0x44F2360", Offset = "0x44F2360", VA = "0x44F2360")]
+	[Token(Token = "0x60008F3")]
+	[Address(RVA = "0x2470970", Offset = "0x246EF70", VA = "0x182470970")]
 	internal Delegate CreateDelegate(IStrongBox[] closure)
 	{
 		return null;

@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x2000471")]
+[Token(Token = "0x20004A0")]
 [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, Inherited = false)]
 public sealed class DecimalConstantAttribute : Attribute
 {
-	[Token(Token = "0x40012FD")]
+	[Token(Token = "0x40012FF")]
 	[FieldOffset(Offset = "0x10")]
 	private decimal _dec;
 
-	[Token(Token = "0x1700046C")]
+	[Token(Token = "0x1700046F")]
 	public decimal Value
 	{
-		[Token(Token = "0x600226D")]
-		[Address(RVA = "0x3BC0DF0", Offset = "0x3BC0DF0", VA = "0x3BC0DF0")]
+		[Token(Token = "0x60022ED")]
+		[Address(RVA = "0x561300", Offset = "0x55F900", VA = "0x180561300")]
 		get
 		{
-			return default(decimal);
+			return 0m;
 		}
 	}
 
-	[Token(Token = "0x600226C")]
-	[Address(RVA = "0x3BC0D80", Offset = "0x3BC0D80", VA = "0x3BC0D80")]
+	[Token(Token = "0x60022EC")]
+	[Address(RVA = "0x1A29B40", Offset = "0x1A28140", VA = "0x181A29B40")]
 	[CLSCompliant(false)]
 	public DecimalConstantAttribute(byte scale, byte sign, uint hi, uint mid, uint low)
 	{

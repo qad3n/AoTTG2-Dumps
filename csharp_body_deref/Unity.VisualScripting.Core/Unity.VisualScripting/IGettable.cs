@@ -12,6 +12,6 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001AB")]
 public interface IGettable
 {
-	[Token(Token = "0x600102E")]
+	[Token(Token = "0x600103B")]
 	object GetValue();
 }

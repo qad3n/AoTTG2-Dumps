@@ -11,49 +11,49 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000144")]
+[Token(Token = "0x2000146")]
 public class InstanceFieldAccessor<TTarget, TField> : IOptimizedAccessor
 {
-	[Token(Token = "0x400081A")]
+	[Token(Token = "0x4000818")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly FieldInfo fieldInfo;
 
-	[Token(Token = "0x400081B")]
+	[Token(Token = "0x4000819")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TTarget, TField> getter;
 
-	[Token(Token = "0x400081C")]
+	[Token(Token = "0x400081A")]
 	[FieldOffset(Offset = "0x0")]
 	private Action<TTarget, TField> setter;
 
-	[Token(Token = "0x6000D73")]
+	[Token(Token = "0x6000D88")]
 	public InstanceFieldAccessor(FieldInfo fieldInfo)
 	{
 	}
 
-	[Token(Token = "0x6000D74")]
+	[Token(Token = "0x6000D89")]
 	public void Compile()
 	{
 	}
 
-	[Token(Token = "0x6000D75")]
+	[Token(Token = "0x6000D8A")]
 	public object GetValue(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D76")]
+	[Token(Token = "0x6000D8B")]
 	private object GetValueUnsafe(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D77")]
+	[Token(Token = "0x6000D8C")]
 	public void SetValue(object target, object value)
 	{
 	}
 
-	[Token(Token = "0x6000D78")]
+	[Token(Token = "0x6000D8D")]
 	private void SetValueUnsafe(object target, object value)
 	{
 	}

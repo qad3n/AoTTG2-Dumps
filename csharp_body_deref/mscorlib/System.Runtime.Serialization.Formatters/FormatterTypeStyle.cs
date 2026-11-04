@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters;
 
-[Token(Token = "0x20003F3")]
+[Token(Token = "0x2000422")]
 public enum FormatterTypeStyle
 {
-	[Token(Token = "0x4001039")]
-	TypesWhenNeeded,
-	[Token(Token = "0x400103A")]
-	TypesAlways,
 	[Token(Token = "0x400103B")]
+	TypesWhenNeeded,
+	[Token(Token = "0x400103C")]
+	TypesAlways,
+	[Token(Token = "0x400103D")]
 	XsdString
 }

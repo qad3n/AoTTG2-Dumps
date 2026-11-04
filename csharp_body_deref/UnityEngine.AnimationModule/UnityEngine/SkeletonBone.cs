@@ -11,10 +11,10 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000018")]
+[Token(Token = "0x2000019")]
+[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "MonoSkeletonBone")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/HumanDescription.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "MonoSkeletonBone")]
 public struct SkeletonBone
 {
 	[Token(Token = "0x4000048")]

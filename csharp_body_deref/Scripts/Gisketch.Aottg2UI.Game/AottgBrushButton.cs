@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgBrushButton
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgBrushButton.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,36 +12,40 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x20002E3")]
 public sealed class AottgBrushButton : AottgComponent
 {
-	[Token(Token = "0x40009E6")]
+	[Token(Token = "0x4000EAA")]
 	private const string Brush = "UI/Sprites/Elements/Brush";
 
-	[Token(Token = "0x40009E7")]
+	[Token(Token = "0x4000EAB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly AottgBrushSidePanelOption _option;
 
-	[Token(Token = "0x40009E8")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000EAC")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private readonly GisketchMotionDefinition _enter;
 
-	[Token(Token = "0x40009E9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000EAD")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private readonly string _style;
 
-	[Token(Token = "0x40009EA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000EAE")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private readonly bool _hideSearch;
 
-	[Token(Token = "0x6000B1E")]
-	[Address(RVA = "0x44330B0", Offset = "0x44330B0", VA = "0x44330B0")]
-	public AottgBrushButton(AottgBrushSidePanelOption option, [Optional] GisketchMotionDefinition enter, string style = "mainMenuBrushButton", bool hideSearch = false)
+	[Token(Token = "0x4000EAF")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	private readonly string _id;
+
+	[Token(Token = "0x6001210")]
+	[Address(RVA = "0x1E28FF0", Offset = "0x1E275F0", VA = "0x181E28FF0")]
+	public AottgBrushButton(AottgBrushSidePanelOption option, [Optional] GisketchMotionDefinition enter, [Optional][DefaultParameterValue("mainMenuBrushButton")] string style, [Optional][DefaultParameterValue(false)] bool hideSearch, [Optional] string id)
 	{
 	}
 
-	[Token(Token = "0x6000B1F")]
-	[Address(RVA = "0x4433120", Offset = "0x4433120", VA = "0x4433120", Slot = "4")]
+	[Token(Token = "0x6001211")]
+	[Address(RVA = "0x1E28DC0", Offset = "0x1E273C0", VA = "0x181E28DC0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}

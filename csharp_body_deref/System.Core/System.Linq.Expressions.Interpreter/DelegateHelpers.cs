@@ -12,8 +12,8 @@ namespace System.Linq.Expressions.Interpreter;
 [Token(Token = "0x2000245")]
 internal static class DelegateHelpers
 {
-	[Token(Token = "0x6000B2E")]
-	[Address(RVA = "0x44F3460", Offset = "0x44F3460", VA = "0x44F3460")]
+	[Token(Token = "0x6000B2D")]
+	[Address(RVA = "0x246A4C0", Offset = "0x2468AC0", VA = "0x18246A4C0")]
 	internal static Type MakeDelegate(Type[] types)
 	{
 		return null;

@@ -18,8 +18,8 @@ public sealed class DefaultExpression : Expression
 	[Token(Token = "0x17000080")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000323")]
-		[Address(RVA = "0x44B0CA0", Offset = "0x44B0CA0", VA = "0x44B0CA0", Slot = "5")]
+		[Token(Token = "0x6000322")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,22 +30,22 @@ public sealed class DefaultExpression : Expression
 	[Token(Token = "0x17000081")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000324")]
-		[Address(RVA = "0x44B0CB0", Offset = "0x44B0CB0", VA = "0x44B0CB0", Slot = "4")]
+		[Token(Token = "0x6000323")]
+		[Address(RVA = "0x242C510", Offset = "0x242AB10", VA = "0x18242C510", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x44B0C30", Offset = "0x44B0C30", VA = "0x44B0C30")]
+	[Token(Token = "0x6000321")]
+	[Address(RVA = "0x242C4A0", Offset = "0x242AAA0", VA = "0x18242C4A0")]
 	internal DefaultExpression(Type type)
 	{
 	}
 
-	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x44B0CC0", Offset = "0x44B0CC0", VA = "0x44B0CC0", Slot = "9")]
+	[Token(Token = "0x6000324")]
+	[Address(RVA = "0x242C470", Offset = "0x242AA70", VA = "0x18242C470", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;

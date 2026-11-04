@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001D5")]
+[Token(Token = "0x2000200")]
 [Flags]
 public enum ThreadState
 {
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000997")]
 	Running = 0,
-	[Token(Token = "0x4000937")]
+	[Token(Token = "0x4000998")]
 	StopRequested = 1,
-	[Token(Token = "0x4000938")]
+	[Token(Token = "0x4000999")]
 	SuspendRequested = 2,
-	[Token(Token = "0x4000939")]
+	[Token(Token = "0x400099A")]
 	Background = 4,
-	[Token(Token = "0x400093A")]
+	[Token(Token = "0x400099B")]
 	Unstarted = 8,
-	[Token(Token = "0x400093B")]
+	[Token(Token = "0x400099C")]
 	Stopped = 0x10,
-	[Token(Token = "0x400093C")]
+	[Token(Token = "0x400099D")]
 	WaitSleepJoin = 0x20,
-	[Token(Token = "0x400093D")]
+	[Token(Token = "0x400099E")]
 	Suspended = 0x40,
-	[Token(Token = "0x400093E")]
+	[Token(Token = "0x400099F")]
 	AbortRequested = 0x80,
-	[Token(Token = "0x400093F")]
+	[Token(Token = "0x40009A0")]
 	Aborted = 0x100
 }

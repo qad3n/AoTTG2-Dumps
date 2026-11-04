@@ -15,7 +15,7 @@ internal class IdentityFunction<TElement>
 	[Token(Token = "0x1700002D")]
 	public static Func<TElement, TElement> Instance
 	{
-		[Token(Token = "0x600015F")]
+		[Token(Token = "0x600015E")]
 		get
 		{
 			return null;

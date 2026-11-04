@@ -10,19 +10,19 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000187")]
+[Token(Token = "0x200018A")]
 [DisallowMultipleComponent]
 public sealed class AsyncAwakeTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x60009DC")]
-	[Address(RVA = "0x4A05E90", Offset = "0x4A05E90", VA = "0x4A05E90")]
+	[Token(Token = "0x6000A00")]
+	[Address(RVA = "0x2929360", Offset = "0x2927960", VA = "0x182929360")]
 	public UniTask AwakeAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x60009DD")]
-	[Address(RVA = "0x4A089C0", Offset = "0x4A089C0", VA = "0x4A089C0")]
+	[Token(Token = "0x6000A01")]
+	[Address(RVA = "0x29294C0", Offset = "0x2927AC0", VA = "0x1829294C0")]
 	public AsyncAwakeTrigger()
 	{
 	}

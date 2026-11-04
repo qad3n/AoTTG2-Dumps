@@ -12,32 +12,32 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000068")]
+[Token(Token = "0x2000066")]
 internal sealed class RealtimePlayerLoopTimer : PlayerLoopTimer
 {
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x30")]
 	private ValueStopwatch stopwatch;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x38")]
 	private long intervalTicks;
 
-	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x49D90B0", Offset = "0x49D90B0", VA = "0x49D90B0")]
+	[Token(Token = "0x6000161")]
+	[Address(RVA = "0x2911C60", Offset = "0x2910260", VA = "0x182911C60")]
 	public RealtimePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x49D98A0", Offset = "0x49D98A0", VA = "0x49D98A0", Slot = "7")]
+	[Token(Token = "0x6000162")]
+	[Address(RVA = "0x2911B50", Offset = "0x2910150", VA = "0x182911B50", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x49D9900", Offset = "0x49D9900", VA = "0x49D9900", Slot = "6")]
+	[Token(Token = "0x6000163")]
+	[Address(RVA = "0x2911BB0", Offset = "0x29101B0", VA = "0x182911BB0", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

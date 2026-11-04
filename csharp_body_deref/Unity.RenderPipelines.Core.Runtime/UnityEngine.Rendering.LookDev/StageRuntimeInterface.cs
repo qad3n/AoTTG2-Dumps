@@ -10,55 +10,55 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.LookDev;
 
-[Token(Token = "0x2000210")]
+[Token(Token = "0x20002CF")]
 public class StageRuntimeInterface
 {
-	[Token(Token = "0x400084B")]
+	[Token(Token = "0x4000D1D")]
 	[FieldOffset(Offset = "0x10")]
 	private Func<bool, GameObject> m_AddGameObject;
 
-	[Token(Token = "0x400084C")]
+	[Token(Token = "0x4000D1E")]
 	[FieldOffset(Offset = "0x18")]
 	private Func<Camera> m_GetCamera;
 
-	[Token(Token = "0x400084D")]
+	[Token(Token = "0x4000D1F")]
 	[FieldOffset(Offset = "0x20")]
 	private Func<Light> m_GetSunLight;
 
-	[Token(Token = "0x400084E")]
+	[Token(Token = "0x4000D20")]
 	[FieldOffset(Offset = "0x28")]
 	public object SRPData;
 
-	[Token(Token = "0x170001AF")]
+	[Token(Token = "0x1700026D")]
 	public Camera camera
 	{
-		[Token(Token = "0x6000E47")]
-		[Address(RVA = "0x4C0E100", Offset = "0x4C0E100", VA = "0x4C0E100")]
+		[Token(Token = "0x60013DF")]
+		[Address(RVA = "0x2952A50", Offset = "0x2951050", VA = "0x182952A50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001B0")]
+	[Token(Token = "0x1700026E")]
 	public Light sunLight
 	{
-		[Token(Token = "0x6000E48")]
-		[Address(RVA = "0x4C0E120", Offset = "0x4C0E120", VA = "0x4C0E120")]
+		[Token(Token = "0x60013E0")]
+		[Address(RVA = "0x18F79C0", Offset = "0x18F5FC0", VA = "0x1818F79C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E45")]
-	[Address(RVA = "0x4C0E080", Offset = "0x4C0E080", VA = "0x4C0E080")]
+	[Token(Token = "0x60013DD")]
+	[Address(RVA = "0xE56DE0", Offset = "0xE553E0", VA = "0x180E56DE0")]
 	public StageRuntimeInterface(Func<bool, GameObject> AddGameObject, Func<Camera> GetCamera, Func<Light> GetSunLight)
 	{
 	}
 
-	[Token(Token = "0x6000E46")]
-	[Address(RVA = "0x4C0E0E0", Offset = "0x4C0E0E0", VA = "0x4C0E0E0")]
+	[Token(Token = "0x60013DE")]
+	[Address(RVA = "0x221B0D0", Offset = "0x22196D0", VA = "0x18221B0D0")]
 	public GameObject AddGameObject(bool persistent = false)
 	{
 		return null;

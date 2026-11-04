@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace Photon.Chat;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000007")]
 public enum ChatDisconnectCause
 {
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000037")]
 	None,
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000038")]
 	ExceptionOnConnect,
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000039")]
 	DisconnectByServerLogic,
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x400003A")]
 	DisconnectByServerReasonUnknown,
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x400003B")]
 	ServerTimeout,
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x400003C")]
 	ClientTimeout,
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x400003D")]
 	Exception,
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x400003E")]
 	InvalidAuthentication,
-	[Token(Token = "0x4000044")]
+	[Token(Token = "0x400003F")]
 	MaxCcuReached,
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000040")]
 	InvalidRegion,
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x4000041")]
 	OperationNotAllowedInCurrentState,
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x4000042")]
 	CustomAuthenticationFailed,
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000043")]
 	AuthenticationTicketExpired,
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x4000044")]
 	DisconnectByClientLogic
 }

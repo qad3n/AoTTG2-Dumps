@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200020C")]
+[Token(Token = "0x2000272")]
 public enum PanelScreenMatchMode
 {
-	[Token(Token = "0x4000746")]
+	[Token(Token = "0x4000913")]
 	MatchWidthOrHeight,
-	[Token(Token = "0x4000747")]
+	[Token(Token = "0x4000914")]
 	Shrink,
-	[Token(Token = "0x4000748")]
+	[Token(Token = "0x4000915")]
 	Expand
 }

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x200003C")]
 public interface ICertificateValidator
 {
 }

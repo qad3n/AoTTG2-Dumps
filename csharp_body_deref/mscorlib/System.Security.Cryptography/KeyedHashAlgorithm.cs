@@ -10,51 +10,51 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002E7")]
+[Token(Token = "0x2000316")]
 [ComVisible(true)]
 public abstract class KeyedHashAlgorithm : HashAlgorithm
 {
-	[Token(Token = "0x4000D13")]
+	[Token(Token = "0x4000D20")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	protected byte[] KeyValue;
 
-	[Token(Token = "0x170002AF")]
+	[Token(Token = "0x170002B1")]
 	public virtual byte[] Key
 	{
-		[Token(Token = "0x6001940")]
-		[Address(RVA = "0x3B33260", Offset = "0x3B33260", VA = "0x3B33260", Slot = "23")]
+		[Token(Token = "0x60019A8")]
+		[Address(RVA = "0x19AB2E0", Offset = "0x19A98E0", VA = "0x1819AB2E0", Slot = "23")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001941")]
-		[Address(RVA = "0x3B332E0", Offset = "0x3B332E0", VA = "0x3B332E0", Slot = "24")]
+		[Token(Token = "0x60019A9")]
+		[Address(RVA = "0x19AB360", Offset = "0x19A9960", VA = "0x1819AB360", Slot = "24")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600193E")]
-	[Address(RVA = "0x3B32910", Offset = "0x3B32910", VA = "0x3B32910")]
+	[Token(Token = "0x60019A6")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected KeyedHashAlgorithm()
 	{
 	}
 
-	[Token(Token = "0x600193F")]
-	[Address(RVA = "0x3B32730", Offset = "0x3B32730", VA = "0x3B32730", Slot = "13")]
+	[Token(Token = "0x60019A7")]
+	[Address(RVA = "0x19AB290", Offset = "0x19A9890", VA = "0x1819AB290", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001942")]
-	[Address(RVA = "0x3B333F0", Offset = "0x3B333F0", VA = "0x3B333F0")]
+	[Token(Token = "0x60019AA")]
+	[Address(RVA = "0x19AB240", Offset = "0x19A9840", VA = "0x1819AB240")]
 	public new static KeyedHashAlgorithm Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001943")]
-	[Address(RVA = "0x3B33480", Offset = "0x3B33480", VA = "0x3B33480")]
+	[Token(Token = "0x60019AB")]
+	[Address(RVA = "0x19AB1A0", Offset = "0x19A97A0", VA = "0x1819AB1A0")]
 	public new static KeyedHashAlgorithm Create(string algName)
 	{
 		return null;

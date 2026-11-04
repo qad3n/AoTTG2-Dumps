@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000159")]
-[GenerateHLSL(PackingRules.Exact, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@15.0.7\\Runtime\\PostProcessing\\HDROutputDefines.cs")]
+[Token(Token = "0x200014E")]
+[GenerateHLSL(PackingRules.Exact, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@6c7e6aba313a\\Runtime\\PostProcessing\\HDROutputDefines.cs")]
 public enum HDREncoding
 {
-	[Token(Token = "0x40005EF")]
+	[Token(Token = "0x400064F")]
 	Linear = 3,
-	[Token(Token = "0x40005F0")]
+	[Token(Token = "0x4000650")]
 	PQ = 2,
-	[Token(Token = "0x40005F1")]
+	[Token(Token = "0x4000651")]
 	Gamma22 = 4,
-	[Token(Token = "0x40005F2")]
+	[Token(Token = "0x4000652")]
 	sRGB = 0
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.DynamicArrayExtensions
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000079")]
+[Token(Token = "0x2000041")]
 public static class DynamicArrayExtensions
 {
-	[Token(Token = "0x60005C8")]
-	private static int Partition<T>(T[] data, int left, int right) where T : IComparable<T>, new()
+	[Token(Token = "0x60004D7")]
+	private static int Partition<T>(Span<T> data, int left, int right) where T : IComparable<T>, new()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005C9")]
-	private static void QuickSort<T>(T[] data, int left, int right) where T : IComparable<T>, new()
+	[Token(Token = "0x60004D8")]
+	private static void QuickSort<T>(Span<T> data, int left, int right) where T : IComparable<T>, new()
 	{
 	}
 
-	[Token(Token = "0x60005CA")]
-	private static int Partition<T>(T[] data, int left, int right, DynamicArray<T>.SortComparer comparer) where T : new()
+	[Token(Token = "0x60004D9")]
+	private static int Partition<T>(Span<T> data, int left, int right, DynamicArray<T>.SortComparer comparer) where T : new()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005CB")]
-	private static void QuickSort<T>(T[] data, int left, int right, DynamicArray<T>.SortComparer comparer) where T : new()
+	[Token(Token = "0x60004DA")]
+	private static void QuickSort<T>(Span<T> data, int left, int right, DynamicArray<T>.SortComparer comparer) where T : new()
 	{
 	}
 
-	[Token(Token = "0x60005CC")]
+	[Token(Token = "0x60004DB")]
 	public static void QuickSort<T>(this DynamicArray<T> array) where T : IComparable<T>, new()
 	{
 	}
 
-	[Token(Token = "0x60005CD")]
+	[Token(Token = "0x60004DC")]
 	public static void QuickSort<T>(this DynamicArray<T> array, DynamicArray<T>.SortComparer comparer) where T : new()
 	{
 	}

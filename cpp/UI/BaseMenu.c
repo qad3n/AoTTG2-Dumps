@@ -1,5 +1,5 @@
 // Type: UI.BaseMenu
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/BaseMenu.cs
@@ -8,13 +8,14 @@
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$.ctor
 // il2cpp: void UI_BaseMenu__WaitAndApplyScale_d__17___ctor (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x4324320
+// 0x180573ef0
 
-void UI_BaseMenu__WaitAndApplyScale_d__17___ctor
-               (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,int32_t __1__state,MethodInfo *method)
+void
+UI_BaseMenu__WaitAndApplyScale_d__17___ctor(UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -22,10 +23,10 @@ void UI_BaseMenu__WaitAndApplyScale_d__17___ctor
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$System.IDisposable.Dispose
 // il2cpp: void UI_BaseMenu__WaitAndApplyScale_d__17__System_IDisposable_Dispose (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, const MethodInfo* method);
-// 0x43250e0
+// 0x180547020
 
-void UI_BaseMenu__WaitAndApplyScale_d__17__System_IDisposable_Dispose
-               (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
+void
+UI_BaseMenu__WaitAndApplyScale_d__17__System_IDisposable_Dispose(UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, MethodInfo* method)
 
 {
   return;
@@ -34,131 +35,133 @@ void UI_BaseMenu__WaitAndApplyScale_d__17__System_IDisposable_Dispose
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$MoveNext
 // il2cpp: bool UI_BaseMenu__WaitAndApplyScale_d__17__MoveNext (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, const MethodInfo* method);
-// 0x43250f0
+// 0x1821d0f40
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d106d: nop dword ptr [rax]
 
-bool_conflict
-UI_BaseMenu__WaitAndApplyScale_d__17__MoveNext
-          (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
+bool UI_BaseMenu__WaitAndApplyScale_d__17__MoveNext
+               (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  long lVar2;
+  UI_BaseMenu_o *__this_00;
+  Settings_UISettings_o *pSVar2;
+  Settings_FloatSetting_o *pSVar3;
   UnityEngine_Vector2_o value;
-  uint uVar3;
-  UnityEngine_UI_CanvasScaler_o *__this_00;
-  Il2CppObject *pIVar4;
-  UnityEngine_Transform_o *__this_01;
+  UnityEngine_RectTransform_o *__this_01;
+  UnityEngine_Vector3_o *pUVar4;
   System_Object_array *pSVar5;
-  uint uVar6;
-  bool_conflict bVar7;
-  UI_BaseMenu_o *pUVar8;
-  UI_BaseMenu_o *__this_02;
-  float fVar9;
-  UnityEngine_Vector3_o UVar10;
+  Il2CppObject *pIVar6;
+  UnityEngine_UI_CanvasScaler_o *__this_02;
+  uint uVar7;
+  float fVar8;
+  UnityEngine_Vector3_o local_28 [2];
   
-  pUVar8 = (UI_BaseMenu_o *)__this;
-  if (g_data_057ae016 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CanvasScaler_GetComponent_CanvasScaler);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseScaler_GetComponentsInChildren_BaseScaler);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    pUVar8 = (UI_BaseMenu_o *)&TypeInfo_WaitForEndOfFrame;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae016 = '\x01';
+  if (Il2CppMethodInitialized_184346eb7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CanvasScaler);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_BaseScaler);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
+    Il2CppMethodInitialized_184346eb7 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  __this_02 = (__this->fields).__4__this;
-  if (iVar1 == 2) {
+  __this_00 = (__this->fields).__4__this;
+  if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
-    if ((__this_02 == (UI_BaseMenu_o *)0x0) ||
-       (pUVar8 = __this_02,
-       __this_01 = (UnityEngine_Transform_o *)
-                   UnityEngine_Component__GetComponent_object_
-                             ((UnityEngine_Component_o *)__this_02,MethodInfo_RectTransform_GetComponent_RectTransform),
-       __this_01 == (UnityEngine_Transform_o *)0x0)) {
-label_04325356:
-      il2cpp_runtime_helper_022b2c90();
-      __this_02 = pUVar8;
-label_0432535b:
-      il2cpp_runtime_helper_022b2ca0();
-      return (bool_conflict)(__this_02->fields).m_CancellationTokenSource;
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->UISettings;
+    if ((pSVar2 != (Settings_UISettings_o *)0x0) &&
+       (pSVar3 = (pSVar2->fields).UIMasterScale, pSVar3 != (Settings_FloatSetting_o *)0x0)) {
+      fVar8 = 1.0 / (pSVar3->fields)._value;
+      if ((((__this->fields).sceneName == 4) ||
+          ((((__this->fields).sceneName == 3 || ((__this->fields).sceneName == 5)) ||
+           ((__this->fields).sceneName == 6)))) || ((__this->fields).sceneName == 7)) {
+        fVar8 = 1.0;
+      }
+      if (__this_00 != (UI_BaseMenu_o *)0x0) {
+        __this_02 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)__this_00,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_CanvasScaler
+                              );
+        if (__this_02 != (UnityEngine_UI_CanvasScaler_o *)0x0) {
+          value.fields.y = fVar8 * 1080.0;
+          value.fields.x = fVar8 * 1920.0;
+          UnityEngine_UI_CanvasScaler__set_referenceResolution(__this_02,value,(MethodInfo *)0x0);
+          pIVar6 = (Il2CppObject *)
+                   il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+          UnityEngine_WaitForEndOfFrame___ctor
+                    ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar6,(MethodInfo *)0x0);
+          (__this->fields).__2__current = pIVar6;
+          Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar6);
+          (__this->fields).__1__state = 1;
+          return true;
+        }
+      }
     }
-    UVar10 = UnityEngine_Transform__get_localScale(__this_01,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0(UVar10.fields.x,UVar10.fields.z);
-    }
-    *(float *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x38) = UVar10.fields.x;
-    pSVar5 = UnityEngine_Component__GetComponentsInChildren_object_
-                       ((UnityEngine_Component_o *)__this_02,1,MethodInfo_BaseScaler_GetComponentsInChildren_BaseScaler);
-    pUVar8 = __this_02;
-    if (pSVar5 == (System_Object_array *)0x0) goto label_04325356;
-    uVar3 = (uint)pSVar5->max_length;
-    uVar6 = 0;
-    if ((int)uVar3 < 1) {
-      return 0;
-    }
-    do {
-      if (uVar3 <= uVar6) goto label_0432535b;
-      __this_02 = (UI_BaseMenu_o *)pSVar5->m_Items[(int)uVar6];
-      pUVar8 = __this_02;
-      if (__this_02 == (UI_BaseMenu_o *)0x0) goto label_04325356;
-      (*(((UI_BaseMenu__WaitAndApplyScale_d__17_c *)__this_02->klass)->vtable)._5_System_IDisposable_Dispose.
-        methodPtr)(__this_02,
-                   (((UI_BaseMenu__WaitAndApplyScale_d__17_c *)__this_02->klass)->vtable).
-                   _5_System_IDisposable_Dispose.method);
-      uVar6 = uVar6 + 1;
-      uVar3 = (uint)pSVar5->max_length;
-    } while ((int)uVar6 < (int)uVar3);
-label_0432530c:
-    bVar7 = 0;
   }
   else {
     if (iVar1 == 1) {
       (__this->fields).__1__state = -1;
-      pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-      UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
-      (__this->fields).__2__current = pIVar4;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
+      pIVar6 = (Il2CppObject *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+      UnityEngine_WaitForEndOfFrame___ctor
+                ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar6,(MethodInfo *)0x0);
+      (__this->fields).__2__current = pIVar6;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar6);
       (__this->fields).__1__state = 2;
+      return true;
     }
-    else {
-      if (iVar1 != 0) goto label_0432530c;
-      (__this->fields).__1__state = -1;
-      lVar2 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x28);
-      if ((lVar2 == 0) || (lVar2 = *(long *)(lVar2 + 0x40), lVar2 == 0)) goto label_04325356;
-      fVar9 = 1.0;
-      if (4 < (__this->fields).sceneName - 3U) {
-        fVar9 = 1.0 / *(float *)(lVar2 + 0x14);
+    if (iVar1 != 2) {
+      return false;
+    }
+    (__this->fields).__1__state = -1;
+    if ((__this_00 != (UI_BaseMenu_o *)0x0) &&
+       (__this_01 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)__this_00,
+                               (MethodInfo_6651A0 *)
+                               MethodInfo_UnityEngine_Component_GetComponent_RectTransform),
+       __this_01 != (UnityEngine_RectTransform_o *)0x0)) {
+      pUVar4 = UnityEngine_Transform__get_localScale
+                         (local_28,(UnityEngine_Transform_o *)__this_01,(MethodInfo *)0x0);
+      fVar8 = (pUVar4->fields).x;
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
       }
-      if ((__this_02 == (UI_BaseMenu_o *)0x0) ||
-         (__this_00 = (UnityEngine_UI_CanvasScaler_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_02,MethodInfo_CanvasScaler_GetComponent_CanvasScaler), pUVar8 = __this_02,
-         __this_00 == (UnityEngine_UI_CanvasScaler_o *)0x0)) goto label_04325356;
-      value.fields.y = fVar9 * 1080.0;
-      value.fields.x = fVar9 * 1920.0;
-      UnityEngine_UI_CanvasScaler__set_referenceResolution(__this_00,value,(MethodInfo *)0x0);
-      pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-      UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
-      (__this->fields).__2__current = pIVar4;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
-      (__this->fields).__1__state = 1;
+      TypeInfo_UI_UIManager->static_fields->CurrentCanvasScale = fVar8;
+      pSVar5 = UnityEngine_Component__GetComponentsInChildren_object_
+                         ((UnityEngine_Component_o *)__this_00,true,
+                          (MethodInfo_665440 *)
+                          MethodInfo_UnityEngine_Component_GetComponentsInChildren_BaseScaler);
+      if (pSVar5 != (System_Object_array *)0x0) {
+        uVar7 = 0;
+        while( true ) {
+          if ((int)pSVar5->max_length <= (int)uVar7) {
+            return false;
+          }
+          if ((uint)pSVar5->max_length <= uVar7) {
+            ThrowIndexOutOfRangeException();
+          }
+          pIVar6 = pSVar5->m_Items[(int)uVar7];
+          if (pIVar6 == (Il2CppObject *)0x0) break;
+          (*pIVar6->klass->vtable[5].methodPtr)(pIVar6,pIVar6->klass->vtable[5].method);
+          uVar7 = uVar7 + 1;
+        }
+      }
     }
-    bVar7 = (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
   }
-  return bVar7;
+  ThrowNullReferenceException();
 }
 
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, const MethodInfo* method);
-// 0x4325360
+// 0x180573e90
 
-Il2CppObject *
-UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -167,31 +170,32 @@ UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_Generic_IEnumerator_Sys
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_Reset (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, const MethodInfo* method);
-// 0x4325370
+// 0x1821d11e0
 
 void UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_Reset
                (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_UI_BaseMenu_WaitAndApplyScale_d__17_System_Collections_IEnumerator_Reset);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.BaseMenu.<WaitAndApplyScale>d__17$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_get_Current (UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, const MethodInfo* method);
-// 0x43253b0
+// 0x180573e90
 
-Il2CppObject *
-UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_get_Current
-          (UI_BaseMenu__WaitAndApplyScale_d__17_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_get_Current(UI_BaseMenu__WaitAndApplyScale_d__17_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -200,966 +204,700 @@ UI_BaseMenu__WaitAndApplyScale_d__17__System_Collections_IEnumerator_get_Current
 
 // UI.BaseMenu$$Setup
 // il2cpp: void UI_BaseMenu__Setup (UI_BaseMenu_o* __this, const MethodInfo* method);
-// 0x4324200
+// 0x1821b8ea0
 
-void UI_BaseMenu__Setup(UI_BaseMenu_o *__this,MethodInfo *method)
+void
+UI_BaseMenu__Setup(UI_BaseMenu_o* __this, MethodInfo* method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 in_RDX;
-  
-  vtableDispatch = (__this->klass->vtable)._5_SetupPopups.methodPtr;
-  (*vtableDispatch)(__this,(__this->klass->vtable)._5_SetupPopups.method,in_RDX,vtableDispatch);
+  (*(__this->klass->vtable)._5_Cancel.methodPtr)(__this,(__this->klass->vtable)._5_Cancel.method);
   return;
 }
 
 
 // UI.BaseMenu$$ApplyScale
 // il2cpp: void UI_BaseMenu__ApplyScale (UI_BaseMenu_o* __this, int32_t sceneName, const MethodInfo* method);
-// 0x4324220
+// 0x1821b8150
 
 void UI_BaseMenu__ApplyScale(UI_BaseMenu_o *__this,int32_t sceneName,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  Il2CppObject *__this_00;
-  undefined4 uVar2;
-  undefined4 uVar3;
-  Il2CppObject *pIVar4;
+  UI_BaseMenu__WaitAndApplyScale_d__17_o *routine;
   
-  if (g_data_057ae012 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndApplyScale_d__17);
-    g_data_057ae012 = '\x01';
+  if (Il2CppMethodInitialized_184346eb3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_BaseMenu_WaitAndApplyScale_d__17);
+    Il2CppMethodInitialized_184346eb3 = '\x01';
   }
-  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndApplyScale_d__17);
-  uVar2 = 0;
-  pIVar4 = pIVar1;
-  System_Object___ctor(pIVar1,(MethodInfo *)0x0);
-  *(undefined4 *)&pIVar1[1].klass = 0;
-  if (pIVar1 != (Il2CppObject *)0x0) {
-    pIVar1[2].monitor = __this;
-    il2cpp_runtime_helper_022b4080(&pIVar1[2].monitor,__this);
-    *(int32_t *)&pIVar1[2].klass = sceneName;
-    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-              ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pIVar1,
-               (MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae012 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndApplyScale_d__17);
-    g_data_057ae012 = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndApplyScale_d__17);
-  uVar3 = 0;
-  pIVar1 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].monitor = pIVar4;
-    il2cpp_runtime_helper_022b4080(&__this_00[2].monitor,pIVar4);
-    *(undefined4 *)&__this_00[2].klass = uVar2;
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(pIVar1,(MethodInfo *)0x0);
-  *(undefined4 *)&pIVar1[1].klass = uVar3;
+  routine = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_BaseMenu_WaitAndApplyScale_d__17);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+  (routine->fields).__1__state = 0;
+  (routine->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+  (routine->fields).sceneName = sceneName;
+  UnityEngine_MonoBehaviour__StartCoroutine_Auto
+            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+             (MethodInfo *)0x0);
   return;
 }
 
 
 // UI.BaseMenu$$WaitAndApplyScale
 // il2cpp: System_Collections_IEnumerator_o* UI_BaseMenu__WaitAndApplyScale (UI_BaseMenu_o* __this, int32_t sceneName, const MethodInfo* method);
-// 0x43242a0
+// 0x1821b8ec0
 
 System_Collections_IEnumerator_o *
 UI_BaseMenu__WaitAndApplyScale(UI_BaseMenu_o *__this,int32_t sceneName,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  UI_BaseMenu__WaitAndApplyScale_d__17_o *__this_00;
   
-  if (g_data_057ae012 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndApplyScale_d__17);
-    g_data_057ae012 = '\x01';
+  if (Il2CppMethodInitialized_184346eb3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_BaseMenu_WaitAndApplyScale_d__17);
+    Il2CppMethodInitialized_184346eb3 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndApplyScale_d__17);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].monitor = __this;
-    il2cpp_runtime_helper_022b4080(&__this_00[2].monitor,__this);
-    *(int32_t *)&__this_00[2].klass = sceneName;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_BaseMenu_WaitAndApplyScale_d__17);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  (__this_00->fields).sceneName = sceneName;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.BaseMenu$$SetupPopups
 // il2cpp: void UI_BaseMenu__SetupPopups (UI_BaseMenu_o* __this, const MethodInfo* method);
-// 0x4324340
+// 0x1821b82f0
 
 void UI_BaseMenu__SetupPopups(UI_BaseMenu_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
   uint uVar2;
-  System_Object_array *pSVar3;
-  System_Collections_Generic_List_BasePopup__o *__this_00;
-  long lVar4;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  bool_conflict bVar5;
-  UI_BaseMenu_o *__this_05;
-  UnityEngine_GameObject_o *pUVar6;
-  UI_TooltipPopup_o *pUVar7;
-  UnityEngine_Component_o *pUVar8;
-  UI_MessagePopup_o *pUVar9;
-  UI_ConfirmPopup_o *pUVar10;
-  UI_ExternalLinkPopup_o *pUVar11;
-  UI_ColorPickPopup_o *pUVar12;
-  UI_Vector3Popup_o *pUVar13;
-  UI_ExportPopup_o *pUVar14;
-  UI_ImportPopup_o *pUVar15;
-  UI_NewImportPopup_o *pUVar16;
-  UI_KeybindPopup_o *pUVar17;
-  UI_SetNamePopup_o *pUVar18;
-  UI_SelectListPopup_o *pUVar19;
-  UI_IconPickPopup_o *pUVar20;
-  UI_RoleSpritePickPopup_o *pUVar21;
-  UnityEngine_Object_o *x;
-  long *plVar22;
-  undefined1 auVar23 [12];
-  System_Collections_Generic_List_T__o *pSVar24;
-  Il2CppMethodPointer pIVar25;
-  Il2CppObject *pIVar26;
+  System_Collections_Generic_List_BasePopup__o *pSVar3;
+  UI_BasePopup_array *pUVar4;
+  MethodInfo *pMVar5;
+  bool bVar6;
+  UnityEngine_Transform_o *pUVar7;
+  UnityEngine_GameObject_o *pUVar8;
+  UI_TooltipPopup_o *pUVar9;
+  UI_MessagePopup_o *pUVar10;
+  UI_ConfirmPopup_o *pUVar11;
+  UI_ExternalLinkPopup_o *pUVar12;
+  UI_ColorPickPopup_o *pUVar13;
+  UI_Vector3Popup_o *pUVar14;
+  UI_ExportPopup_o *pUVar15;
+  UI_ImportPopup_o *pUVar16;
+  UI_NewImportPopup_o *pUVar17;
+  UI_KeybindPopup_o *pUVar18;
+  UI_SetNamePopup_o *pUVar19;
+  UI_SelectListPopup_o *pUVar20;
+  UI_IconPickPopup_o *pUVar21;
+  UI_RoleSpritePickPopup_o *pUVar22;
+  Gisketch_Aottg2UI_Game_AottgExternalLinkDialogHost_o *x;
   
-  if (g_data_057ae013 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgExternalLinkDialogHost_GetComponent_AottgExternalLi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ColorPickPopup_GetComponent_ColorPickPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ConfirmPopup_GetComponent_ConfirmPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ExportPopup_GetComponent_ExportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ExternalLinkPopup_GetComponent_ExternalLinkPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IconPickPopup_GetComponent_IconPickPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ImportPopup_GetComponent_ImportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeybindPopup_GetComponent_KeybindPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MessagePopup_GetComponent_MessagePopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NewImportPopup_GetComponent_NewImportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RoleSpritePickPopup_GetComponent_RoleSpritePickPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SelectListPopup_GetComponent_SelectListPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SetNamePopup_GetComponent_SetNamePopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Vector3Popup_GetComponent_Vector3Popup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ColorPickPopup_CreateDefaultPopup_ColorPickPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ConfirmPopup_CreateDefaultPopup_ConfirmPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ExportPopup_CreateDefaultPopup_ExportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ExternalLinkPopup_CreateDefaultPopup_ExternalLinkPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IconPickPopup_CreateDefaultPopup_IconPickPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ImportPopup_CreateDefaultPopup_ImportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeybindPopup_CreateDefaultPopup_KeybindPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MessagePopup_CreateDefaultPopup_MessagePopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NewImportPopup_CreateDefaultPopup_NewImportPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RoleSpritePickPopup_CreateDefaultPopup_RoleSpritePickPop);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SelectListPopup_CreateDefaultPopup_SelectListPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SetNamePopup_CreateDefaultPopup_SetNamePopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Vector3Popup_CreateDefaultPopup_Vector3Popup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_CreateTooltipPopup_TooltipPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgExternalLinkDialogHost_AddComponent_AottgExternalLi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TooltipPopup_GetComponent_TooltipPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae013 = '\x01';
+  if (Il2CppMethodInitialized_184346eb4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_AottgExternalLinkDialogHost);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ColorPickPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ConfirmPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ExportPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_ExternalLinkPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_IconPickPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ImportPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_KeybindPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MessagePopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_NewImportPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_RoleSpritePickPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_SelectListPopup)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_SetNamePopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_Vector3Popup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_ElementFactory_CreateDefaultPopup_ColorPickPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_ConfirmPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_ExportPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_ElementFactory_CreateDefaultPopup_ExternalLinkPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_IconPickPopup)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_ImportPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_KeybindPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_MessagePopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_ElementFactory_CreateDefaultPopup_NewImportPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_ElementFactory_CreateDefaultPopup_RoleSpritePickPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_ElementFactory_CreateDefaultPopup_SelectListPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_SetNamePopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateDefaultPopup_Vector3Popup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_ElementFactory_CreateTooltipPopup_TooltipPopup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_AottgExternalLinkDialogHost);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_TooltipPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_BasePopup_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346eb4 = '\x01';
   }
-  __this_05 = (UI_BaseMenu_o *)
-              UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  pUVar6 = UI_ElementFactory__CreateTooltipPopup_object_((UnityEngine_Transform_o *)__this_05,0,MethodInfo_GameObject_CreateTooltipPopup_TooltipPopup);
-  if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar7 = (UI_TooltipPopup_o *)UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_TooltipPopup_GetComponent_TooltipPopup);
-    (__this->fields).TooltipPopup = pUVar7;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).TooltipPopup);
-    __this_05 = (UI_BaseMenu_o *)
-                UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    pUVar8 = (UnityEngine_Component_o *)
-             UI_ElementFactory__CreateDefaultPopup_object_
-                       ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_MessagePopup_CreateDefaultPopup_MessagePopup);
-    if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-      pUVar9 = (UI_MessagePopup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_MessagePopup_GetComponent_MessagePopup);
-      (__this->fields).MessagePopup = pUVar9;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).MessagePopup);
-      __this_05 = (UI_BaseMenu_o *)
-                  UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      pUVar8 = (UnityEngine_Component_o *)
-               UI_ElementFactory__CreateDefaultPopup_object_
-                         ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_ConfirmPopup_CreateDefaultPopup_ConfirmPopup);
-      if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-        pUVar10 = (UI_ConfirmPopup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_ConfirmPopup_GetComponent_ConfirmPopup);
-        (__this->fields).ConfirmPopup = pUVar10;
-        il2cpp_runtime_helper_022b4080(&(__this->fields).ConfirmPopup);
-        __this_05 = (UI_BaseMenu_o *)
-                    UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        pUVar8 = (UnityEngine_Component_o *)
-                 UI_ElementFactory__CreateDefaultPopup_object_
-                           ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_ExternalLinkPopup_CreateDefaultPopup_ExternalLinkPopup);
-        if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-          pUVar11 = (UI_ExternalLinkPopup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_ExternalLinkPopup_GetComponent_ExternalLinkPopup)
-          ;
-          (__this->fields).ExternalLinkPopup = pUVar11;
-          il2cpp_runtime_helper_022b4080(&(__this->fields).ExternalLinkPopup);
-          __this_05 = (UI_BaseMenu_o *)
-                      UnityEngine_Component__get_transform
-                                ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-          pUVar8 = (UnityEngine_Component_o *)
-                   UI_ElementFactory__CreateDefaultPopup_object_
-                             ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_ColorPickPopup_CreateDefaultPopup_ColorPickPopup);
-          if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-            pUVar12 = (UI_ColorPickPopup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_ColorPickPopup_GetComponent_ColorPickPopup);
-            (__this->fields).ColorPickPopup = pUVar12;
-            il2cpp_runtime_helper_022b4080(&(__this->fields).ColorPickPopup);
-            __this_05 = (UI_BaseMenu_o *)
-                        UnityEngine_Component__get_transform
-                                  ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-            pUVar8 = (UnityEngine_Component_o *)
-                     UI_ElementFactory__CreateDefaultPopup_object_
-                               ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_Vector3Popup_CreateDefaultPopup_Vector3Popup);
-            if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-              pUVar13 = (UI_Vector3Popup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_Vector3Popup_GetComponent_Vector3Popup);
-              (__this->fields).Vector3Popup = pUVar13;
-              il2cpp_runtime_helper_022b4080(&(__this->fields).Vector3Popup);
-              __this_05 = (UI_BaseMenu_o *)
-                          UnityEngine_Component__get_transform
-                                    ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-              pUVar8 = (UnityEngine_Component_o *)
-                       UI_ElementFactory__CreateDefaultPopup_object_
-                                 ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_ExportPopup_CreateDefaultPopup_ExportPopup);
-              if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                pUVar14 = (UI_ExportPopup_o *)UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_ExportPopup_GetComponent_ExportPopup)
-                ;
-                (__this->fields).ExportPopup = pUVar14;
-                il2cpp_runtime_helper_022b4080(&(__this->fields).ExportPopup);
-                __this_05 = (UI_BaseMenu_o *)
-                            UnityEngine_Component__get_transform
-                                      ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                pUVar8 = (UnityEngine_Component_o *)
-                         UI_ElementFactory__CreateDefaultPopup_object_
-                                   ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_ImportPopup_CreateDefaultPopup_ImportPopup);
-                if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                  pUVar15 = (UI_ImportPopup_o *)
-                            UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_ImportPopup_GetComponent_ImportPopup);
-                  (__this->fields).ImportPopup = pUVar15;
-                  il2cpp_runtime_helper_022b4080(&(__this->fields).ImportPopup);
-                  __this_05 = (UI_BaseMenu_o *)
-                              UnityEngine_Component__get_transform
-                                        ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                  pUVar8 = (UnityEngine_Component_o *)
-                           UI_ElementFactory__CreateDefaultPopup_object_
-                                     ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_NewImportPopup_CreateDefaultPopup_NewImportPopup);
-                  if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                    pUVar16 = (UI_NewImportPopup_o *)
-                              UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_NewImportPopup_GetComponent_NewImportPopup);
-                    (__this->fields).NewImportPopup = pUVar16;
-                    il2cpp_runtime_helper_022b4080(&(__this->fields).NewImportPopup);
-                    __this_05 = (UI_BaseMenu_o *)
-                                UnityEngine_Component__get_transform
-                                          ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                    pUVar8 = (UnityEngine_Component_o *)
-                             UI_ElementFactory__CreateDefaultPopup_object_
-                                       ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_KeybindPopup_CreateDefaultPopup_KeybindPopup);
-                    if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                      pUVar17 = (UI_KeybindPopup_o *)
-                                UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_KeybindPopup_GetComponent_KeybindPopup);
-                      (__this->fields).KeybindPopup = pUVar17;
-                      il2cpp_runtime_helper_022b4080(&(__this->fields).KeybindPopup);
-                      __this_05 = (UI_BaseMenu_o *)
-                                  UnityEngine_Component__get_transform
-                                            ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                      pUVar8 = (UnityEngine_Component_o *)
-                               UI_ElementFactory__CreateDefaultPopup_object_
-                                         ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_SetNamePopup_CreateDefaultPopup_SetNamePopup);
-                      if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                        pUVar18 = (UI_SetNamePopup_o *)
-                                  UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_SetNamePopup_GetComponent_SetNamePopup);
-                        (__this->fields).SetNamePopup = pUVar18;
-                        il2cpp_runtime_helper_022b4080(&(__this->fields).SetNamePopup);
-                        __this_05 = (UI_BaseMenu_o *)
-                                    UnityEngine_Component__get_transform
-                                              ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                        pUVar8 = (UnityEngine_Component_o *)
-                                 UI_ElementFactory__CreateDefaultPopup_object_
-                                           ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_SelectListPopup_CreateDefaultPopup_SelectListPopup);
-                        if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                          pUVar19 = (UI_SelectListPopup_o *)
-                                    UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_SelectListPopup_GetComponent_SelectListPopup);
-                          (__this->fields).SelectListPopup = pUVar19;
-                          il2cpp_runtime_helper_022b4080(&(__this->fields).SelectListPopup);
-                          __this_05 = (UI_BaseMenu_o *)
-                                      UnityEngine_Component__get_transform
-                                                ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                          pUVar8 = (UnityEngine_Component_o *)
-                                   UI_ElementFactory__CreateDefaultPopup_object_
-                                             ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_IconPickPopup_CreateDefaultPopup_IconPickPopup);
-                          if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                            pUVar20 = (UI_IconPickPopup_o *)
-                                      UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_IconPickPopup_GetComponent_IconPickPopup);
-                            (__this->fields).IconPickPopup = pUVar20;
-                            il2cpp_runtime_helper_022b4080(&(__this->fields).IconPickPopup);
-                            __this_05 = (UI_BaseMenu_o *)
-                                        UnityEngine_Component__get_transform
-                                                  ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                            pUVar8 = (UnityEngine_Component_o *)
-                                     UI_ElementFactory__CreateDefaultPopup_object_
-                                               ((UnityEngine_Transform_o *)__this_05,0,MethodInfo_RoleSpritePickPopup_CreateDefaultPopup_RoleSpritePickPop);
-                            if (pUVar8 != (UnityEngine_Component_o *)0x0) {
-                              pUVar21 = (UI_RoleSpritePickPopup_o *)
-                                        UnityEngine_Component__GetComponent_object_(pUVar8,MethodInfo_RoleSpritePickPopup_GetComponent_RoleSpritePickPopup);
-                              (__this->fields).RoleSpritePickPopup = pUVar21;
-                              il2cpp_runtime_helper_022b4080(&(__this->fields).RoleSpritePickPopup,pUVar21);
-                              x = (UnityEngine_Object_o *)
-                                  UnityEngine_Component__GetComponent_object_
-                                            ((UnityEngine_Component_o *)__this,MethodInfo_AottgExternalLinkDialogHost_GetComponent_AottgExternalLi);
-                              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                              }
-                              bVar5 = UnityEngine_Object__op_Equality
-                                                (x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                              if ((char)bVar5 != '\0') {
-                                __this_05 = __this;
-                                pUVar6 = UnityEngine_Component__get_gameObject
-                                                   ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                                if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_04324f02;
-                                UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_AottgExternalLinkDialogHost_AddComponent_AottgExternalLi);
-                              }
-                              lVar4 = MethodInfo_Void_Add;
-                              __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                              if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                pUVar7 = (__this->fields).TooltipPopup;
-                                piVar1 = (int32_t *)((long)&(__this_05->fields).m_CancellationTokenSource + 4)
-                                ;
-                                *piVar1 = *piVar1 + 1;
-                                pSVar3 = (System_Object_array *)(__this_05->fields).m_CachedPtr;
-                                if (pSVar3 != (System_Object_array *)0x0) {
-                                  uVar2 = *(uint *)&(__this_05->fields).m_CancellationTokenSource;
-                                  if (uVar2 < (uint)pSVar3->max_length) {
-                                    *(uint *)&(__this_05->fields).m_CancellationTokenSource = uVar2 + 1;
-                                    pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar7;
-                                    il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                    __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                    lVar4 = MethodInfo_Void_Add;
-                                  }
-                                  else {
-                                    System_Collections_Generic_List_object___AddWithResize
-                                              ((System_Collections_Generic_List_object__o *)__this_05,
-                                               (Il2CppObject *)pUVar7,
-                                               *(MethodInfo_362C220 **)
-                                                (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) + 0x70));
-                                    __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                    lVar4 = MethodInfo_Void_Add;
-                                  }
-                                  MethodInfo_Void_Add = lVar4;
-                                  if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                    pUVar9 = (__this->fields).MessagePopup;
-                                    piVar1 = (int32_t *)
-                                             ((long)&(__this_05->fields).m_CancellationTokenSource + 4);
-                                    *piVar1 = *piVar1 + 1;
-                                    pSVar3 = (System_Object_array *)(__this_05->fields).m_CachedPtr;
-                                    if (pSVar3 != (System_Object_array *)0x0) {
-                                      uVar2 = *(uint *)&(__this_05->fields).m_CancellationTokenSource;
-                                      if (uVar2 < (uint)pSVar3->max_length) {
-                                        *(uint *)&(__this_05->fields).m_CancellationTokenSource = uVar2 + 1;
-                                        pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar9;
-                                        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                        __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                        lVar4 = MethodInfo_Void_Add;
-                                      }
-                                      else {
-                                        System_Collections_Generic_List_object___AddWithResize
-                                                  ((System_Collections_Generic_List_object__o *)__this_05,
-                                                   (Il2CppObject *)pUVar9,
-                                                   *(MethodInfo_362C220 **)
-                                                    (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) + 0x70));
-                                        __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                        lVar4 = MethodInfo_Void_Add;
-                                      }
-                                      MethodInfo_Void_Add = lVar4;
-                                      if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                        pUVar10 = (__this->fields).ConfirmPopup;
-                                        piVar1 = (int32_t *)
-                                                 ((long)&(__this_05->fields).m_CancellationTokenSource + 4);
-                                        *piVar1 = *piVar1 + 1;
-                                        pSVar3 = (System_Object_array *)(__this_05->fields).m_CachedPtr;
-                                        if (pSVar3 != (System_Object_array *)0x0) {
-                                          uVar2 = *(uint *)&(__this_05->fields).m_CancellationTokenSource;
-                                          if (uVar2 < (uint)pSVar3->max_length) {
-                                            *(uint *)&(__this_05->fields).m_CancellationTokenSource =
-                                                 uVar2 + 1;
-                                            pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar10;
-                                            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                            __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                            lVar4 = MethodInfo_Void_Add;
-                                          }
-                                          else {
-                                            System_Collections_Generic_List_object___AddWithResize
-                                                      ((System_Collections_Generic_List_object__o *)__this_05,
-                                                       (Il2CppObject *)pUVar10,
-                                                       *(MethodInfo_362C220 **)
-                                                        (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) + 0x70));
-                                            __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                            lVar4 = MethodInfo_Void_Add;
-                                          }
-                                          MethodInfo_Void_Add = lVar4;
-                                          if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                            pUVar11 = (__this->fields).ExternalLinkPopup;
-                                            piVar1 = (int32_t *)
-                                                     ((long)&(__this_05->fields).m_CancellationTokenSource + 4
-                                                     );
-                                            *piVar1 = *piVar1 + 1;
-                                            pSVar3 = (System_Object_array *)(__this_05->fields).m_CachedPtr;
-                                            if (pSVar3 != (System_Object_array *)0x0) {
-                                              uVar2 = *(uint *)&(__this_05->fields).m_CancellationTokenSource;
-                                              if (uVar2 < (uint)pSVar3->max_length) {
-                                                *(uint *)&(__this_05->fields).m_CancellationTokenSource =
-                                                     uVar2 + 1;
-                                                pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar11;
-                                                il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                lVar4 = MethodInfo_Void_Add;
-                                              }
-                                              else {
-                                                System_Collections_Generic_List_object___AddWithResize
-                                                          ((System_Collections_Generic_List_object__o *)
-                                                           __this_05,(Il2CppObject *)pUVar11,
-                                                           *(MethodInfo_362C220 **)
-                                                            (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) + 0x70)
-                                                          );
-                                                __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                lVar4 = MethodInfo_Void_Add;
-                                              }
-                                              MethodInfo_Void_Add = lVar4;
-                                              if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                pUVar12 = (__this->fields).ColorPickPopup;
-                                                piVar1 = (int32_t *)
-                                                         ((long)&(__this_05->fields).m_CancellationTokenSource
-                                                         + 4);
-                                                *piVar1 = *piVar1 + 1;
-                                                pSVar3 = (System_Object_array *)
-                                                         (__this_05->fields).m_CachedPtr;
-                                                if (pSVar3 != (System_Object_array *)0x0) {
-                                                  uVar2 = *(uint *)&(__this_05->fields).
-                                                                    m_CancellationTokenSource;
-                                                  if (uVar2 < (uint)pSVar3->max_length) {
-                                                    *(uint *)&(__this_05->fields).m_CancellationTokenSource =
-                                                         uVar2 + 1;
-                                                    pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar12;
-                                                    il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                    __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                    lVar4 = MethodInfo_Void_Add;
-                                                  }
-                                                  else {
-                                                    System_Collections_Generic_List_object___AddWithResize
-                                                              ((System_Collections_Generic_List_object__o *)
-                                                               __this_05,(Il2CppObject *)pUVar12,
-                                                               *(MethodInfo_362C220 **)
-                                                                (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) +
-                                                                0x70));
-                                                    __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                    lVar4 = MethodInfo_Void_Add;
-                                                  }
-                                                  MethodInfo_Void_Add = lVar4;
-                                                  if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                    pUVar13 = (__this->fields).Vector3Popup;
-                                                    piVar1 = (int32_t *)
-                                                             ((long)&(__this_05->fields).
-                                                                     m_CancellationTokenSource + 4);
-                                                    *piVar1 = *piVar1 + 1;
-                                                    pSVar3 = (System_Object_array *)
-                                                             (__this_05->fields).m_CachedPtr;
-                                                    if (pSVar3 != (System_Object_array *)0x0) {
-                                                      uVar2 = *(uint *)&(__this_05->fields).
-                                                                        m_CancellationTokenSource;
-                                                      if (uVar2 < (uint)pSVar3->max_length) {
-                                                        *(uint *)&(__this_05->fields).
-                                                                  m_CancellationTokenSource = uVar2 + 1;
-                                                        pSVar3->m_Items[(int)uVar2] = (Il2CppObject *)pUVar13;
-                                                        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                        __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                        lVar4 = MethodInfo_Void_Add;
-                                                      }
-                                                      else {
-                                                        System_Collections_Generic_List_object___AddWithResize
-                                                                  ((System_Collections_Generic_List_object__o
-                                                                    *)__this_05,(Il2CppObject *)pUVar13,
-                                                                   *(MethodInfo_362C220 **)
-                                                                    (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                    + 0x70));
-                                                        __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                        lVar4 = MethodInfo_Void_Add;
-                                                      }
-                                                      MethodInfo_Void_Add = lVar4;
-                                                      if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                        pUVar14 = (__this->fields).ExportPopup;
-                                                        piVar1 = (int32_t *)
-                                                                 ((long)&(__this_05->fields).
-                                                                         m_CancellationTokenSource + 4);
-                                                        *piVar1 = *piVar1 + 1;
-                                                        pSVar3 = (System_Object_array *)
-                                                                 (__this_05->fields).m_CachedPtr;
-                                                        if (pSVar3 != (System_Object_array *)0x0) {
-                                                          uVar2 = *(uint *)&(__this_05->fields).
-                                                                            m_CancellationTokenSource;
-                                                          if (uVar2 < (uint)pSVar3->max_length) {
-                                                            *(uint *)&(__this_05->fields).
-                                                                      m_CancellationTokenSource = uVar2 + 1;
-                                                            pSVar3->m_Items[(int)uVar2] =
-                                                                 (Il2CppObject *)pUVar14;
-                                                            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                            __this_05 = (UI_BaseMenu_o *)
-                                                                        (__this->fields)._popups;
-                                                            lVar4 = MethodInfo_Void_Add;
-                                                          }
-                                                          else {
-                                                                                                                        
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar14,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar15 = (__this->fields).ImportPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar15;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar15,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar16 = (__this->fields).NewImportPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar16;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar16,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar17 = (__this->fields).KeybindPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar17;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar17,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar18 = (__this->fields).SetNamePopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar18;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar18,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar19 = (__this->fields).SelectListPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar19;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar19,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar20 = (__this->fields).IconPickPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar20;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             __this_05 = (UI_BaseMenu_o *)
-                                                                         (__this->fields)._popups;
-                                                             lVar4 = MethodInfo_Void_Add;
-                                                           }
-                                                           else {
-                                                                                                                          
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar20,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       __this_05 = (UI_BaseMenu_o *)(__this->fields)._popups;
-                                                       lVar4 = MethodInfo_Void_Add;
-                                                       }
-                                                       MethodInfo_Void_Add = lVar4;
-                                                       if (__this_05 != (UI_BaseMenu_o *)0x0) {
-                                                         pUVar21 = (__this->fields).RoleSpritePickPopup;
-                                                         piVar1 = (int32_t *)
-                                                                  ((long)&(__this_05->fields).
-                                                                          m_CancellationTokenSource + 4);
-                                                         *piVar1 = *piVar1 + 1;
-                                                         pSVar3 = (System_Object_array *)
-                                                                  (__this_05->fields).m_CachedPtr;
-                                                         if (pSVar3 != (System_Object_array *)0x0) {
-                                                           uVar2 = *(uint *)&(__this_05->fields).
-                                                                             m_CancellationTokenSource;
-                                                           if (uVar2 < (uint)pSVar3->max_length) {
-                                                             *(uint *)&(__this_05->fields).
-                                                                       m_CancellationTokenSource = uVar2 + 1;
-                                                             pSVar3->m_Items[(int)uVar2] =
-                                                                  (Il2CppObject *)pUVar21;
-                                                             il2cpp_runtime_helper_022b4080(pSVar3->m_Items + (int)uVar2);
-                                                             return;
-                                                           }
-                                                                                                                      
-                                                       System_Collections_Generic_List_object___AddWithResize
-                                                                 ((System_Collections_Generic_List_object__o *
-                                                                  )__this_05,(Il2CppObject *)pUVar21,
-                                                                  *(MethodInfo_362C220 **)
-                                                                   (*(long *)(*(long *)(lVar4 + 0x20) + 0xc0)
-                                                                   + 0x70));
-                                                       return;
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
+  pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  pUVar8 = UI_ElementFactory__CreateTooltipPopup_object_
+                     (pUVar7,false,
+                      (MethodInfo_6ABCF0 *)MethodInfo_UI_ElementFactory_CreateTooltipPopup_TooltipPopup);
+  if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
+    pUVar9 = UnityEngine_GameObject__GetComponent_object_
+                       (pUVar8,(MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_TooltipPopup);
+    (__this->fields).TooltipPopup = pUVar9;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).TooltipPopup,pUVar9);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar10 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_MessagePopup);
+    if (pUVar10 == (UI_MessagePopup_o *)0x0) goto label_1821b8e88;
+    pUVar10 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar10,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_MessagePopup);
+    (__this->fields).MessagePopup = pUVar10;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).MessagePopup,pUVar10);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar11 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_ConfirmPopup);
+    if (pUVar11 == (UI_ConfirmPopup_o *)0x0) goto label_1821b8e88;
+    pUVar11 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar11,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ConfirmPopup);
+    (__this->fields).ConfirmPopup = pUVar11;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ConfirmPopup,pUVar11);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar12 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)
+                         MethodInfo_UI_ElementFactory_CreateDefaultPopup_ExternalLinkPopup);
+    if (pUVar12 == (UI_ExternalLinkPopup_o *)0x0) goto label_1821b8e88;
+    pUVar12 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar12,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ExternalLinkPopup)
+    ;
+    (__this->fields).ExternalLinkPopup = pUVar12;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ExternalLinkPopup,pUVar12);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar13 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_ColorPickPopup);
+    if (pUVar13 == (UI_ColorPickPopup_o *)0x0) goto label_1821b8e88;
+    pUVar13 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar13,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ColorPickPopup);
+    (__this->fields).ColorPickPopup = pUVar13;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ColorPickPopup,pUVar13);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar14 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_Vector3Popup);
+    if (pUVar14 == (UI_Vector3Popup_o *)0x0) goto label_1821b8e88;
+    pUVar14 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar14,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_Vector3Popup);
+    (__this->fields).Vector3Popup = pUVar14;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).Vector3Popup,pUVar14);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar15 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_ExportPopup);
+    if (pUVar15 == (UI_ExportPopup_o *)0x0) goto label_1821b8e88;
+    pUVar15 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar15,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ExportPopup);
+    (__this->fields).ExportPopup = pUVar15;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ExportPopup,pUVar15);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar16 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_ImportPopup);
+    if (pUVar16 == (UI_ImportPopup_o *)0x0) goto label_1821b8e88;
+    pUVar16 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar16,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ImportPopup);
+    (__this->fields).ImportPopup = pUVar16;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ImportPopup,pUVar16);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar17 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_NewImportPopup);
+    if (pUVar17 == (UI_NewImportPopup_o *)0x0) goto label_1821b8e88;
+    pUVar17 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar17,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_NewImportPopup);
+    (__this->fields).NewImportPopup = pUVar17;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).NewImportPopup,pUVar17);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar18 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_KeybindPopup);
+    if (pUVar18 == (UI_KeybindPopup_o *)0x0) goto label_1821b8e88;
+    pUVar18 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar18,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_KeybindPopup);
+    (__this->fields).KeybindPopup = pUVar18;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).KeybindPopup,pUVar18);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar19 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_SetNamePopup);
+    if (pUVar19 == (UI_SetNamePopup_o *)0x0) goto label_1821b8e88;
+    pUVar19 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar19,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_SetNamePopup);
+    (__this->fields).SetNamePopup = pUVar19;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).SetNamePopup,pUVar19);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar20 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_SelectListPopup)
+    ;
+    if (pUVar20 == (UI_SelectListPopup_o *)0x0) goto label_1821b8e88;
+    pUVar20 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar20,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_SelectListPopup);
+    (__this->fields).SelectListPopup = pUVar20;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).SelectListPopup,pUVar20);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar21 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)MethodInfo_UI_ElementFactory_CreateDefaultPopup_IconPickPopup);
+    if (pUVar21 == (UI_IconPickPopup_o *)0x0) goto label_1821b8e88;
+    pUVar21 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar21,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_IconPickPopup);
+    (__this->fields).IconPickPopup = pUVar21;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).IconPickPopup,pUVar21);
+    pUVar7 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    pUVar22 = UI_ElementFactory__CreateHeadedPanel_object_
+                        (pUVar7,false,
+                         (MethodInfo_6ABA40 *)
+                         MethodInfo_UI_ElementFactory_CreateDefaultPopup_RoleSpritePickPopup);
+    if (pUVar22 == (UI_RoleSpritePickPopup_o *)0x0) goto label_1821b8e88;
+    pUVar22 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar22,
+                         (MethodInfo_6651A0 *)
+                         MethodInfo_UnityEngine_Component_GetComponent_RoleSpritePickPopup);
+    (__this->fields).RoleSpritePickPopup = pUVar22;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).RoleSpritePickPopup,pUVar22);
+    x = UnityEngine_Component__GetComponent_object_
+                  ((UnityEngine_Component_o *)__this,
+                   (MethodInfo_6651A0 *)
+                   MethodInfo_UnityEngine_Component_GetComponent_AottgExternalLinkDialogHost);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar6 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar6) {
+      pUVar8 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+      if (pUVar8 == (UnityEngine_GameObject_o *)0x0) goto label_1821b8e88;
+      UnityEngine_GameObject__AddComponent_object_
+                (pUVar8,(MethodInfo_6F4D60 *)
+                        MethodInfo_UnityEngine_GameObject_AddComponent_AottgExternalLinkDialogHost);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar9 = (__this->fields).TooltipPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar9;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar9);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar9,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar10 = (__this->fields).MessagePopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar10;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar10);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar10,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar11 = (__this->fields).ConfirmPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar11;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar11);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar11,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar12 = (__this->fields).ExternalLinkPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar12;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar12);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar12,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar13 = (__this->fields).ColorPickPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar13;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar13);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar13,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar14 = (__this->fields).Vector3Popup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar14;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar14);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar14,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar15 = (__this->fields).ExportPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar15;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar15);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar15,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar16 = (__this->fields).ImportPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar16;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar16);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar16,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar17 = (__this->fields).NewImportPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar17;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar17);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar17,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar18 = (__this->fields).KeybindPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar18;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar18);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar18,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar19 = (__this->fields).SetNamePopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar19;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar19);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar19,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar20 = (__this->fields).SelectListPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar20;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar20);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar20,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 == (System_Collections_Generic_List_BasePopup__o *)0x0) goto label_1821b8e88;
+    pUVar21 = (__this->fields).IconPickPopup;
+    piVar1 = &(pSVar3->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pUVar4 = (pSVar3->fields)._items;
+    if (pUVar4 == (UI_BasePopup_array *)0x0) goto label_1821b8e88;
+    uVar2 = (pSVar3->fields)._size;
+    if (uVar2 < (uint)pUVar4->max_length) {
+      (pSVar3->fields)._size = uVar2 + 1;
+      if ((uint)pUVar4->max_length <= uVar2) goto label_1821b8e8e;
+      pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar21;
+      Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar21);
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar21,
+                 (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+    }
+    pMVar5 = MethodInfo_System_Collections_Generic_List_BasePopup_Add;
+    pSVar3 = (__this->fields)._popups;
+    if (pSVar3 != (System_Collections_Generic_List_BasePopup__o *)0x0) {
+      pUVar22 = (__this->fields).RoleSpritePickPopup;
+      piVar1 = &(pSVar3->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pUVar4 = (pSVar3->fields)._items;
+      if (pUVar4 != (UI_BasePopup_array *)0x0) {
+        uVar2 = (pSVar3->fields)._size;
+        if ((uint)pUVar4->max_length <= uVar2) {
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)pSVar3,(Il2CppObject *)pUVar22,
+                     (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+          return;
         }
+        (pSVar3->fields)._size = uVar2 + 1;
+        if (uVar2 < (uint)pUVar4->max_length) {
+          pUVar4->m_Items[(int)uVar2] = (UI_BasePopup_o *)pUVar22;
+          Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,pUVar22);
+          return;
+        }
+label_1821b8e8e:
+        ThrowIndexOutOfRangeException();
       }
     }
   }
-label_04324f02:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae014 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BasePopup_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UI_BasePopup_GetEnumerator);
-    g_data_057ae014 = '\x01';
-  }
-  pSVar24 = (System_Collections_Generic_List_T__o *)0x0;
-  pIVar25 = (Il2CppMethodPointer)0x0;
-  pIVar26 = (Il2CppObject *)0x0;
-  __this_00 = (__this_05->fields)._popups;
-  if (__this_00 != (System_Collections_Generic_List_BasePopup__o *)0x0) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)&stack0xffffffffffffffc0,
-               (System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_T_Enumerator_UI_BasePopup_GetEnumerator);
-    while( true ) {
-      __this_01.fields._8_8_ = pIVar25;
-      __this_01.fields._list = pSVar24;
-      __this_01.fields._current = pIVar26;
-      bVar5 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_321A1D0 *)&stack0xffffffffffffffc0);
-      if ((char)bVar5 == '\0') {
-        __this_02.fields._8_8_ = pIVar25;
-        __this_02.fields._list = pSVar24;
-        __this_02.fields._current = pIVar26;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffffc0);
-        return;
-      }
-      if (pIVar26 == (Il2CppObject *)0x0) break;
-      (*pIVar26->klass->vtable[0x16].methodPtr)(pIVar26,pIVar26->klass->vtable[0x16].method);
-    }
-    il2cpp_runtime_helper_022b2c90();
-  }
-  auVar23 = il2cpp_runtime_helper_022b2c90();
-  if (auVar23._8_4_ == 1) {
-    plVar22 = (long *)__cxa_begin_catch(auVar23._0_8_);
-    lVar4 = *plVar22;
-    __cxa_end_catch();
-    __this_03.fields._8_8_ = pIVar25;
-    __this_03.fields._list = pSVar24;
-    __this_03.fields._current = pIVar26;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffffc0);
-    if (lVar4 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar4);
-  }
-  __this_04.fields._8_8_ = pIVar25;
-  __this_04.fields._list = pSVar24;
-  __this_04.fields._current = pIVar26;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_321A1C0 *)&stack0xffffffffffffffc0);
-  _Unwind_Resume(auVar23._0_8_);
+label_1821b8e88:
+  ThrowNullReferenceException();
 }
 
 
 // UI.BaseMenu$$HideAllPopups
 // il2cpp: void UI_BaseMenu__HideAllPopups (UI_BaseMenu_o* __this, const MethodInfo* method);
-// 0x4324f10
+// 0x1821b81d0
+// eh: try 0x1821b8270..0x1821b82d9 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821b826f: nop 
+// asm:   0x1821b82b2: mov rdx, qword ptr [rip + 0x1ebda3f]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_Dispose
+// asm:   0x1821b82b9: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1821b82be: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821b82c3: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1821b82c8: test rcx, rcx
+// asm:   0x1821b82cb: jne 0x1821b82d9
+// asm:   0x1821b82d9: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 void UI_BaseMenu__HideAllPopups(UI_BaseMenu_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_BasePopup__o *__this_00;
-  long lVar1;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  bool_conflict bVar2;
-  long *plVar3;
-  undefined1 auVar4 [12];
-  System_Collections_Generic_List_T__o *pSVar5;
-  Il2CppMethodPointer pIVar6;
-  Il2CppObject *pIVar7;
+  bool bVar1;
+  undefined1 local_40 [16];
+  Il2CppObject *local_30;
+  System_Collections_Generic_List_Enumerator_object__o local_28;
   
-  if (g_data_057ae014 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BasePopup_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UI_BasePopup_GetEnumerator);
-    g_data_057ae014 = '\x01';
+  if (Il2CppMethodInitialized_184346eb5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BasePopup_GetEnumerator);
+    Il2CppMethodInitialized_184346eb5 = '\x01';
   }
-  pSVar5 = (System_Collections_Generic_List_T__o *)0x0;
-  pIVar6 = (Il2CppMethodPointer)0x0;
-  pIVar7 = (Il2CppObject *)0x0;
+  local_28.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_28.fields._index = 0;
+  local_28.fields._version = 0;
+  local_28.fields._current = (Il2CppObject *)0x0;
   __this_00 = (__this->fields)._popups;
   if (__this_00 != (System_Collections_Generic_List_BasePopup__o *)0x0) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)&stack0xffffffffffffffd8,
-               (System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_T_Enumerator_UI_BasePopup_GetEnumerator);
+    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_40,
+               (System_Collections_Generic_List_T__o *)__this_00,
+               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_BasePopup_GetEnumerator);
+    local_28.fields._list = (System_Collections_Generic_List_T__o *)local_40._0_8_;
+    local_28.fields._index = local_40._8_4_;
+    local_28.fields._version = local_40._12_4_;
+    local_28.fields._current = local_30;
+    local_40._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    local_40._8_8_ = &local_28;
     while( true ) {
-      __this_01.fields._8_8_ = pIVar6;
-      __this_01.fields._list = pSVar5;
-      __this_01.fields._current = pIVar7;
-      bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_321A1D0 *)&stack0xffffffffffffffd8);
-      if ((char)bVar2 == '\0') {
-        __this_02.fields._8_8_ = pIVar6;
-        __this_02.fields._list = pSVar5;
-        __this_02.fields._current = pIVar7;
+      bVar1 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                        (&local_28,
+                         (MethodInfo_153A2A0 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_MoveNext);
+      if (!bVar1) {
         System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffffd8);
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
+                   MethodInfo_System_Collections_Generic_List_Enumerator_BasePopup_Dispose);
         return;
       }
-      if (pIVar7 == (Il2CppObject *)0x0) break;
-      (*pIVar7->klass->vtable[0x16].methodPtr)(pIVar7,pIVar7->klass->vtable[0x16].method);
+      if (local_28.fields._current == (Il2CppObject *)0x0) break;
+      (*(local_28.fields._current)->klass->vtable[0x16].methodPtr)
+                (local_28.fields._current,(local_28.fields._current)->klass->vtable[0x16].method);
     }
-    il2cpp_runtime_helper_022b2c90();
+    ThrowNullReferenceException();
   }
-  auVar4 = il2cpp_runtime_helper_022b2c90();
-  if (auVar4._8_4_ == 1) {
-    plVar3 = (long *)__cxa_begin_catch(auVar4._0_8_);
-    lVar1 = *plVar3;
-    __cxa_end_catch();
-    __this_03.fields._8_8_ = pIVar6;
-    __this_03.fields._list = pSVar5;
-    __this_03.fields._current = pIVar7;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffffd8);
-    if (lVar1 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar1);
-  }
-  __this_04.fields._8_8_ = pIVar6;
-  __this_04.fields._list = pSVar5;
-  __this_04.fields._current = pIVar7;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_321A1C0 *)&stack0xffffffffffffffd8);
-  _Unwind_Resume(auVar4._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // UI.BaseMenu$$.ctor
 // il2cpp: void UI_BaseMenu___ctor (UI_BaseMenu_o* __this, const MethodInfo* method);
-// 0x4325060
+// 0x1821b8f40
 
 void UI_BaseMenu___ctor(UI_BaseMenu_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_List_BasePopup__o *__this_00;
   
-  if (g_data_057ae015 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UI_BasePopup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_BasePopup);
-    g_data_057ae015 = '\x01';
+  if (Il2CppMethodInitialized_184346eb6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_BasePopup_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_BasePopup);
+    Il2CppMethodInitialized_184346eb6 = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_BasePopup__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_BasePopup);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_BasePopup);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_UI_BasePopup);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_BasePopup_ctor);
   (__this->fields)._popups = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._popups);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._popups,__this_00);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

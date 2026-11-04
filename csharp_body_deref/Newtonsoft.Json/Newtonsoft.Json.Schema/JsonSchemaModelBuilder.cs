@@ -28,58 +28,58 @@ internal class JsonSchemaModelBuilder
 	private JsonSchemaNode _node;
 
 	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x3E028B0", Offset = "0x3E028B0", VA = "0x3E028B0")]
+	[Address(RVA = "0x1C5DC50", Offset = "0x1C5C250", VA = "0x181C5DC50")]
 	public JsonSchemaModel Build(JsonSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x3E02A00", Offset = "0x3E02A00", VA = "0x3E02A00")]
+	[Address(RVA = "0x1C5CF80", Offset = "0x1C5B580", VA = "0x181C5CF80")]
 	public JsonSchemaNode AddSchema(JsonSchemaNode existingNode, JsonSchema schema)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AAE")]
-	[Address(RVA = "0x3E04020", Offset = "0x3E04020", VA = "0x3E04020")]
+	[Address(RVA = "0x1C5CB00", Offset = "0x1C5B100", VA = "0x181C5CB00")]
 	public void AddProperties(IDictionary<string, JsonSchema> source, IDictionary<string, JsonSchemaNode> target)
 	{
 	}
 
 	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0x3E04500", Offset = "0x3E04500", VA = "0x3E04500")]
+	[Address(RVA = "0x1C5CE10", Offset = "0x1C5B410", VA = "0x181C5CE10")]
 	public void AddProperty(IDictionary<string, JsonSchemaNode> target, string propertyName, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0x3E04370", Offset = "0x3E04370", VA = "0x3E04370")]
+	[Address(RVA = "0x1C5C9C0", Offset = "0x1C5AFC0", VA = "0x181C5C9C0")]
 	public void AddItem(JsonSchemaNode parentNode, int index, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x3E044D0", Offset = "0x3E044D0", VA = "0x3E044D0")]
+	[Address(RVA = "0x1C5C980", Offset = "0x1C5AF80", VA = "0x181C5C980")]
 	public void AddAdditionalProperties(JsonSchemaNode parentNode, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0x3E044A0", Offset = "0x3E044A0", VA = "0x3E044A0")]
+	[Address(RVA = "0x1C5C940", Offset = "0x1C5AF40", VA = "0x181C5C940")]
 	public void AddAdditionalItems(JsonSchemaNode parentNode, JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x3E031C0", Offset = "0x3E031C0", VA = "0x3E031C0")]
+	[Address(RVA = "0x1C5D5D0", Offset = "0x1C5BBD0", VA = "0x181C5D5D0")]
 	private JsonSchemaModel BuildNodeModel(JsonSchemaNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x3E04650", Offset = "0x3E04650", VA = "0x3E04650")]
+	[Address(RVA = "0x1C5DD50", Offset = "0x1C5C350", VA = "0x181C5DD50")]
 	public JsonSchemaModelBuilder()
 	{
 	}

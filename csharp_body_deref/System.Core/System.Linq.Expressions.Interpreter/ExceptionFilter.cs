@@ -24,8 +24,8 @@ internal sealed class ExceptionFilter
 	[FieldOffset(Offset = "0x18")]
 	public readonly int EndIndex;
 
-	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x44DEAA0", Offset = "0x44DEAA0", VA = "0x44DEAA0")]
+	[Token(Token = "0x6000861")]
+	[Address(RVA = "0x19AB170", Offset = "0x19A9770", VA = "0x1819AB170")]
 	internal ExceptionFilter(int labelIndex, int start, int end)
 	{
 	}

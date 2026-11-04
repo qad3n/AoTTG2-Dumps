@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200027D")]
+[Token(Token = "0x2000188")]
 [AttributeUsage(AttributeTargets.Property)]
 public sealed class DataObjectFieldAttribute : Attribute
 {
-	[Token(Token = "0x17000379")]
+	[Token(Token = "0x170001E8")]
 	public bool IsIdentity
 	{
-		[Token(Token = "0x6000FA7")]
-		[Address(RVA = "0x488E840", Offset = "0x488E840", VA = "0x488E840")]
+		[Token(Token = "0x60009EF")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public sealed class DataObjectFieldAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700037A")]
+	[Token(Token = "0x170001E9")]
 	public bool IsNullable
 	{
-		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x488E850", Offset = "0x488E850", VA = "0x488E850")]
+		[Token(Token = "0x60009F0")]
+		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,11 +38,11 @@ public sealed class DataObjectFieldAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700037B")]
+	[Token(Token = "0x170001EA")]
 	public int Length
 	{
-		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x488E860", Offset = "0x488E860", VA = "0x488E860")]
+		[Token(Token = "0x60009F1")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,11 +50,11 @@ public sealed class DataObjectFieldAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700037C")]
+	[Token(Token = "0x170001EB")]
 	public bool PrimaryKey
 	{
-		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x488E870", Offset = "0x488E870", VA = "0x488E870")]
+		[Token(Token = "0x60009F2")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,39 +62,39 @@ public sealed class DataObjectFieldAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000FA3")]
-	[Address(RVA = "0x488E760", Offset = "0x488E760", VA = "0x488E760")]
+	[Token(Token = "0x60009EB")]
+	[Address(RVA = "0x289A280", Offset = "0x2898880", VA = "0x18289A280")]
 	public DataObjectFieldAttribute(bool primaryKey)
 	{
 	}
 
-	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x488E7D0", Offset = "0x488E7D0", VA = "0x488E7D0")]
+	[Token(Token = "0x60009EC")]
+	[Address(RVA = "0x289A230", Offset = "0x2898830", VA = "0x18289A230")]
 	public DataObjectFieldAttribute(bool primaryKey, bool isIdentity)
 	{
 	}
 
-	[Token(Token = "0x6000FA5")]
-	[Address(RVA = "0x488E800", Offset = "0x488E800", VA = "0x488E800")]
+	[Token(Token = "0x60009ED")]
+	[Address(RVA = "0x289A2C0", Offset = "0x28988C0", VA = "0x18289A2C0")]
 	public DataObjectFieldAttribute(bool primaryKey, bool isIdentity, bool isNullable)
 	{
 	}
 
-	[Token(Token = "0x6000FA6")]
-	[Address(RVA = "0x488E790", Offset = "0x488E790", VA = "0x488E790")]
+	[Token(Token = "0x60009EE")]
+	[Address(RVA = "0x289A300", Offset = "0x2898900", VA = "0x18289A300")]
 	public DataObjectFieldAttribute(bool primaryKey, bool isIdentity, bool isNullable, int length)
 	{
 	}
 
-	[Token(Token = "0x6000FAB")]
-	[Address(RVA = "0x488E880", Offset = "0x488E880", VA = "0x488E880", Slot = "0")]
+	[Token(Token = "0x60009F3")]
+	[Address(RVA = "0x289A190", Offset = "0x2898790", VA = "0x18289A190", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FAC")]
-	[Address(RVA = "0x488E940", Offset = "0x488E940", VA = "0x488E940", Slot = "2")]
+	[Token(Token = "0x60009F4")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

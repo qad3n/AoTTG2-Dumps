@@ -19,14 +19,14 @@ public class DiagnosticsTraceWriter : ITraceWriter
 	public TraceLevel LevelFilter
 	{
 		[Token(Token = "0x60007AE")]
-		[Address(RVA = "0x3DD6440", Offset = "0x3DD6440", VA = "0x3DD6440", Slot = "4")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TraceLevel);
 		}
 		[Token(Token = "0x60007AF")]
-		[Address(RVA = "0x3DD6450", Offset = "0x3DD6450", VA = "0x3DD6450")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		set
 		{
@@ -34,20 +34,20 @@ public class DiagnosticsTraceWriter : ITraceWriter
 	}
 
 	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x3DD6460", Offset = "0x3DD6460", VA = "0x3DD6460")]
+	[Address(RVA = "0x1C3D610", Offset = "0x1C3BC10", VA = "0x181C3D610")]
 	private TraceEventType GetTraceEventType(TraceLevel level)
 	{
 		return default(TraceEventType);
 	}
 
 	[Token(Token = "0x60007B1")]
-	[Address(RVA = "0x3DD64C0", Offset = "0x3DD64C0", VA = "0x3DD64C0", Slot = "5")]
+	[Address(RVA = "0x1C3D6B0", Offset = "0x1C3BCB0", VA = "0x181C3D6B0", Slot = "5")]
 	public void Trace(TraceLevel level, string message, Exception? ex)
 	{
 	}
 
 	[Token(Token = "0x60007B2")]
-	[Address(RVA = "0x3DD6A10", Offset = "0x3DD6A10", VA = "0x3DD6A10")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DiagnosticsTraceWriter()
 	{
 	}

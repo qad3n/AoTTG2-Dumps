@@ -14,20 +14,20 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("Visual Scripting/Listeners/Animator Message Listener")]
 public sealed class AnimatorMessageListener : MonoBehaviour
 {
-	[Token(Token = "0x600040C")]
-	[Address(RVA = "0x4CB4670", Offset = "0x4CB4670", VA = "0x4CB4670")]
+	[Token(Token = "0x6000416")]
+	[Address(RVA = "0x2D990D0", Offset = "0x2D976D0", VA = "0x182D990D0")]
 	private void OnAnimatorMove()
 	{
 	}
 
-	[Token(Token = "0x600040D")]
-	[Address(RVA = "0x4CB46E0", Offset = "0x4CB46E0", VA = "0x4CB46E0")]
+	[Token(Token = "0x6000417")]
+	[Address(RVA = "0x2D99040", Offset = "0x2D97640", VA = "0x182D99040")]
 	private void OnAnimatorIK(int layerIndex)
 	{
 	}
 
-	[Token(Token = "0x600040E")]
-	[Address(RVA = "0x4CB4770", Offset = "0x4CB4770", VA = "0x4CB4770")]
+	[Token(Token = "0x6000418")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AnimatorMessageListener()
 	{
 	}

@@ -26,7 +26,7 @@ internal class CompiledXpathExpr : XPathExpression
 		public override string DefaultNamespace
 		{
 			[Token(Token = "0x6001AAF")]
-			[Address(RVA = "0x4779CB0", Offset = "0x4779CB0", VA = "0x4779CB0", Slot = "9")]
+			[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "9")]
 			get
 			{
 				return null;
@@ -37,7 +37,7 @@ internal class CompiledXpathExpr : XPathExpression
 		public override bool Whitespace
 		{
 			[Token(Token = "0x6001AB3")]
-			[Address(RVA = "0x4779E70", Offset = "0x4779E70", VA = "0x4779E70", Slot = "20")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "20")]
 			get
 			{
 				return default(bool);
@@ -45,34 +45,34 @@ internal class CompiledXpathExpr : XPathExpression
 		}
 
 		[Token(Token = "0x6001AAE")]
-		[Address(RVA = "0x4779C80", Offset = "0x4779C80", VA = "0x4779C80")]
+		[Address(RVA = "0x26C42A0", Offset = "0x26C28A0", VA = "0x1826C42A0")]
 		public UndefinedXsltContext(IXmlNamespaceResolver nsResolver)
 		{
 		}
 
 		[Token(Token = "0x6001AB0")]
-		[Address(RVA = "0x4779CD0", Offset = "0x4779CD0", VA = "0x4779CD0", Slot = "16")]
+		[Address(RVA = "0x26C4100", Offset = "0x26C2700", VA = "0x1826C4100", Slot = "16")]
 		public override string LookupNamespace(string prefix)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001AB1")]
-		[Address(RVA = "0x4779DF0", Offset = "0x4779DF0", VA = "0x4779DF0", Slot = "18")]
+		[Address(RVA = "0x26C4260", Offset = "0x26C2860", VA = "0x1826C4260", Slot = "18")]
 		public override IXsltContextVariable ResolveVariable(string prefix, string name)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001AB2")]
-		[Address(RVA = "0x4779E30", Offset = "0x4779E30", VA = "0x4779E30", Slot = "19")]
+		[Address(RVA = "0x26C4220", Offset = "0x26C2820", VA = "0x1826C4220", Slot = "19")]
 		public override IXsltContextFunction ResolveFunction(string prefix, string name, XPathResultType[] ArgTypes)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6001AB4")]
-		[Address(RVA = "0x4779E80", Offset = "0x4779E80", VA = "0x4779E80", Slot = "21")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "21")]
 		public override bool PreserveWhitespace(XPathNavigator node)
 		{
 			return default(bool);
@@ -95,7 +95,7 @@ internal class CompiledXpathExpr : XPathExpression
 	internal Query QueryTree
 	{
 		[Token(Token = "0x6001AAC")]
-		[Address(RVA = "0x4779B20", Offset = "0x4779B20", VA = "0x4779B20")]
+		[Address(RVA = "0x26B6EC0", Offset = "0x26B54C0", VA = "0x1826B6EC0")]
 		get
 		{
 			return null;
@@ -103,13 +103,13 @@ internal class CompiledXpathExpr : XPathExpression
 	}
 
 	[Token(Token = "0x6001AAB")]
-	[Address(RVA = "0x4779AD0", Offset = "0x4779AD0", VA = "0x4779AD0")]
+	[Address(RVA = "0x26B6E70", Offset = "0x26B5470", VA = "0x1826B6E70")]
 	internal CompiledXpathExpr(Query query, string expression, bool needContext)
 	{
 	}
 
 	[Token(Token = "0x6001AAD")]
-	[Address(RVA = "0x4779B60", Offset = "0x4779B60", VA = "0x4779B60", Slot = "4")]
+	[Address(RVA = "0x26B6D40", Offset = "0x26B5340", VA = "0x1826B6D40", Slot = "4")]
 	public override void SetContext(IXmlNamespaceResolver nsResolver)
 	{
 	}

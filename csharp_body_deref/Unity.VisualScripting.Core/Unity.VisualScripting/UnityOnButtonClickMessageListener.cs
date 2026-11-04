@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnButtonClickMessageListener : MessageListener
 {
-	[Token(Token = "0x6000459")]
-	[Address(RVA = "0x4CB6950", Offset = "0x4CB6950", VA = "0x4CB6950")]
+	[Token(Token = "0x6000463")]
+	[Address(RVA = "0x2DBD6C0", Offset = "0x2DBBCC0", VA = "0x182DBD6C0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600045A")]
-	[Address(RVA = "0x4CB69F0", Offset = "0x4CB69F0", VA = "0x4CB69F0")]
+	[Token(Token = "0x6000464")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnButtonClickMessageListener()
 	{
 	}

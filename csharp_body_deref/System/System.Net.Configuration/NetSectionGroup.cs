@@ -10,94 +10,94 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200039B")]
+[Token(Token = "0x20003F6")]
 public sealed class NetSectionGroup : ConfigurationSectionGroup
 {
-	[Token(Token = "0x1700055E")]
+	[Token(Token = "0x170005C8")]
 	public AuthenticationModulesSection AuthenticationModules
 	{
-		[Token(Token = "0x60017EA")]
-		[Address(RVA = "0x48F4640", Offset = "0x48F4640", VA = "0x48F4640")]
+		[Token(Token = "0x6001A8E")]
+		[Address(RVA = "0x282B4D0", Offset = "0x2829AD0", VA = "0x18282B4D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055F")]
+	[Token(Token = "0x170005C9")]
 	public ConnectionManagementSection ConnectionManagement
 	{
-		[Token(Token = "0x60017EB")]
-		[Address(RVA = "0x48F4670", Offset = "0x48F4670", VA = "0x48F4670")]
+		[Token(Token = "0x6001A8F")]
+		[Address(RVA = "0x282B500", Offset = "0x2829B00", VA = "0x18282B500")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000560")]
+	[Token(Token = "0x170005CA")]
 	public DefaultProxySection DefaultProxy
 	{
-		[Token(Token = "0x60017EC")]
-		[Address(RVA = "0x48F46A0", Offset = "0x48F46A0", VA = "0x48F46A0")]
+		[Token(Token = "0x6001A90")]
+		[Address(RVA = "0x282B530", Offset = "0x2829B30", VA = "0x18282B530")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000561")]
+	[Token(Token = "0x170005CB")]
 	public MailSettingsSectionGroup MailSettings
 	{
-		[Token(Token = "0x60017ED")]
-		[Address(RVA = "0x48F46D0", Offset = "0x48F46D0", VA = "0x48F46D0")]
+		[Token(Token = "0x6001A91")]
+		[Address(RVA = "0x282B560", Offset = "0x2829B60", VA = "0x18282B560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000562")]
+	[Token(Token = "0x170005CC")]
 	public RequestCachingSection RequestCaching
 	{
-		[Token(Token = "0x60017EE")]
-		[Address(RVA = "0x48F4700", Offset = "0x48F4700", VA = "0x48F4700")]
+		[Token(Token = "0x6001A92")]
+		[Address(RVA = "0x282B590", Offset = "0x2829B90", VA = "0x18282B590")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000563")]
+	[Token(Token = "0x170005CD")]
 	public SettingsSection Settings
 	{
-		[Token(Token = "0x60017EF")]
-		[Address(RVA = "0x48F4730", Offset = "0x48F4730", VA = "0x48F4730")]
+		[Token(Token = "0x6001A93")]
+		[Address(RVA = "0x282B5C0", Offset = "0x2829BC0", VA = "0x18282B5C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000564")]
+	[Token(Token = "0x170005CE")]
 	public WebRequestModulesSection WebRequestModules
 	{
-		[Token(Token = "0x60017F0")]
-		[Address(RVA = "0x48F4760", Offset = "0x48F4760", VA = "0x48F4760")]
+		[Token(Token = "0x6001A94")]
+		[Address(RVA = "0x282B5F0", Offset = "0x2829BF0", VA = "0x18282B5F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017E9")]
-	[Address(RVA = "0x48F4610", Offset = "0x48F4610", VA = "0x48F4610")]
+	[Token(Token = "0x6001A8D")]
+	[Address(RVA = "0x282B4A0", Offset = "0x2829AA0", VA = "0x18282B4A0")]
 	public NetSectionGroup()
 	{
 	}
 
-	[Token(Token = "0x60017F1")]
-	[Address(RVA = "0x48F4790", Offset = "0x48F4790", VA = "0x48F4790")]
+	[Token(Token = "0x6001A95")]
+	[Address(RVA = "0x282B470", Offset = "0x2829A70", VA = "0x18282B470")]
 	public static NetSectionGroup GetSectionGroup(System.Configuration.Configuration config)
 	{
 		return null;

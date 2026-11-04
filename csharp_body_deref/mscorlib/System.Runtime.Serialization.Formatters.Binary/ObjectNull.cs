@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000414")]
+[Token(Token = "0x2000443")]
 internal sealed class ObjectNull
 {
-	[Token(Token = "0x40010EE")]
+	[Token(Token = "0x40010F0")]
 	[FieldOffset(Offset = "0x10")]
 	internal int nullCount;
 
-	[Token(Token = "0x6002080")]
-	[Address(RVA = "0x3BA4E80", Offset = "0x3BA4E80", VA = "0x3BA4E80")]
+	[Token(Token = "0x60020EF")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal ObjectNull()
 	{
 	}
 
-	[Token(Token = "0x6002081")]
-	[Address(RVA = "0x3BA4E90", Offset = "0x3BA4E90", VA = "0x3BA4E90")]
+	[Token(Token = "0x60020F0")]
+	[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 	internal void SetNullCount(int nullCount)
 	{
 	}
 
-	[Token(Token = "0x6002082")]
-	[Address(RVA = "0x3BA4EA0", Offset = "0x3BA4EA0", VA = "0x3BA4EA0", Slot = "4")]
+	[Token(Token = "0x60020F1")]
+	[Address(RVA = "0x1A1B510", Offset = "0x1A19B10", VA = "0x181A1B510", Slot = "4")]
 	public void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x6002083")]
-	[Address(RVA = "0x3BA4F90", Offset = "0x3BA4F90", VA = "0x3BA4F90")]
+	[Token(Token = "0x60020F2")]
+	[Address(RVA = "0x1A1B4A0", Offset = "0x1A19AA0", VA = "0x181A1B4A0")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input, System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
 	{
 	}
 
-	[Token(Token = "0x6002084")]
-	[Address(RVA = "0x3BA4FE0", Offset = "0x3BA4FE0", VA = "0x3BA4FE0")]
+	[Token(Token = "0x60020F3")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Dump()
 	{
 	}

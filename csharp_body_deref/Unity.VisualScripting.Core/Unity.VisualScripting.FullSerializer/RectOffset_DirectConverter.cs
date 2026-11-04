@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001F4")]
+[Token(Token = "0x20001E4")]
 public class RectOffset_DirectConverter : fsDirectConverter<RectOffset>
 {
-	[Token(Token = "0x60011E7")]
-	[Address(RVA = "0x4D78590", Offset = "0x4D78590", VA = "0x4D78590", Slot = "10")]
+	[Token(Token = "0x6001191")]
+	[Address(RVA = "0x2E54450", Offset = "0x2E52A50", VA = "0x182E54450", Slot = "10")]
 	protected override fsResult DoSerialize(RectOffset model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011E8")]
-	[Address(RVA = "0x4D78890", Offset = "0x4D78890", VA = "0x4D78890", Slot = "11")]
+	[Token(Token = "0x6001192")]
+	[Address(RVA = "0x2E54150", Offset = "0x2E52750", VA = "0x182E54150", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref RectOffset model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011E9")]
-	[Address(RVA = "0x4D78C30", Offset = "0x4D78C30", VA = "0x4D78C30", Slot = "4")]
+	[Token(Token = "0x6001193")]
+	[Address(RVA = "0x2E54100", Offset = "0x2E52700", VA = "0x182E54100", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011EA")]
-	[Address(RVA = "0x4D78C70", Offset = "0x4D78C70", VA = "0x4D78C70")]
+	[Token(Token = "0x6001194")]
+	[Address(RVA = "0x2E546A0", Offset = "0x2E52CA0", VA = "0x182E546A0")]
 	public RectOffset_DirectConverter()
 	{
 	}

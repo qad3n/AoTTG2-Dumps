@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnDropMessageListener : MessageListener, IDropHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x4CB7690", Offset = "0x4CB7690", VA = "0x4CB7690", Slot = "4")]
+	[Token(Token = "0x6000483")]
+	[Address(RVA = "0x2DBDD80", Offset = "0x2DBC380", VA = "0x182DBDD80", Slot = "4")]
 	public void OnDrop(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x4CB7720", Offset = "0x4CB7720", VA = "0x4CB7720")]
+	[Token(Token = "0x6000484")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnDropMessageListener()
 	{
 	}

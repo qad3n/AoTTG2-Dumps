@@ -10,23 +10,23 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x200002C")]
 internal class SliderState
 {
-	[Token(Token = "0x4000108")]
+	[Token(Token = "0x400010E")]
 	[FieldOffset(Offset = "0x10")]
 	public float dragStartPos;
 
-	[Token(Token = "0x4000109")]
+	[Token(Token = "0x400010F")]
 	[FieldOffset(Offset = "0x14")]
 	public float dragStartValue;
 
-	[Token(Token = "0x400010A")]
+	[Token(Token = "0x4000110")]
 	[FieldOffset(Offset = "0x18")]
 	public bool isDragging;
 
-	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x4E619A0", Offset = "0x4E619A0", VA = "0x4E619A0")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public SliderState()
 	{

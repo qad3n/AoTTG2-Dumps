@@ -18,8 +18,8 @@ public sealed class ElementInit : IArgumentProvider
 	[Token(Token = "0x17000082")]
 	public MethodInfo AddMethod
 	{
-		[Token(Token = "0x6000326")]
-		[Address(RVA = "0x44B0CF0", Offset = "0x44B0CF0", VA = "0x44B0CF0")]
+		[Token(Token = "0x6000325")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,8 +30,8 @@ public sealed class ElementInit : IArgumentProvider
 	[Token(Token = "0x17000083")]
 	public ReadOnlyCollection<Expression> Arguments
 	{
-		[Token(Token = "0x6000327")]
-		[Address(RVA = "0x44B0D00", Offset = "0x44B0D00", VA = "0x44B0D00")]
+		[Token(Token = "0x6000326")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,16 +42,16 @@ public sealed class ElementInit : IArgumentProvider
 	[Token(Token = "0x17000084")]
 	public int ArgumentCount
 	{
-		[Token(Token = "0x6000329")]
-		[Address(RVA = "0x44B0D60", Offset = "0x44B0D60", VA = "0x44B0D60", Slot = "5")]
+		[Token(Token = "0x6000328")]
+		[Address(RVA = "0x242D670", Offset = "0x242BC70", VA = "0x18242D670", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x44B0D10", Offset = "0x44B0D10", VA = "0x44B0D10", Slot = "4")]
+	[Token(Token = "0x6000327")]
+	[Address(RVA = "0x242D610", Offset = "0x242BC10", VA = "0x18242D610", Slot = "4")]
 	public Expression GetArgument(int index)
 	{
 		return null;

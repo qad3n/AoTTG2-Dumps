@@ -21,5 +21,5 @@ public enum DefaultValueHandling
 	[Token(Token = "0x400001E")]
 	Populate = 2,
 	[Token(Token = "0x400001F")]
-	IgnoreAndPopulate = 3
+	IgnoreAndPopulate = Ignore | Populate
 }

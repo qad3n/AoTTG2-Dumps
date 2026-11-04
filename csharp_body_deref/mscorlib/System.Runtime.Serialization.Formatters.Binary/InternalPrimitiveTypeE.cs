@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000400")]
+[Token(Token = "0x200042F")]
 internal enum InternalPrimitiveTypeE
 {
-	[Token(Token = "0x4001096")]
-	Invalid,
-	[Token(Token = "0x4001097")]
-	Boolean,
 	[Token(Token = "0x4001098")]
-	Byte,
+	Invalid,
 	[Token(Token = "0x4001099")]
-	Char,
+	Boolean,
 	[Token(Token = "0x400109A")]
-	Currency,
+	Byte,
 	[Token(Token = "0x400109B")]
-	Decimal,
+	Char,
 	[Token(Token = "0x400109C")]
-	Double,
+	Currency,
 	[Token(Token = "0x400109D")]
-	Int16,
+	Decimal,
 	[Token(Token = "0x400109E")]
-	Int32,
+	Double,
 	[Token(Token = "0x400109F")]
-	Int64,
+	Int16,
 	[Token(Token = "0x40010A0")]
-	SByte,
+	Int32,
 	[Token(Token = "0x40010A1")]
-	Single,
+	Int64,
 	[Token(Token = "0x40010A2")]
-	TimeSpan,
+	SByte,
 	[Token(Token = "0x40010A3")]
-	DateTime,
+	Single,
 	[Token(Token = "0x40010A4")]
-	UInt16,
+	TimeSpan,
 	[Token(Token = "0x40010A5")]
-	UInt32,
+	DateTime,
 	[Token(Token = "0x40010A6")]
-	UInt64,
+	UInt16,
 	[Token(Token = "0x40010A7")]
-	Null,
+	UInt32,
 	[Token(Token = "0x40010A8")]
+	UInt64,
+	[Token(Token = "0x40010A9")]
+	Null,
+	[Token(Token = "0x40010AA")]
 	String
 }

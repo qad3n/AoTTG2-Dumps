@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002DD")]
+[Token(Token = "0x200030C")]
 [ComVisible(true)]
 public class DSASignatureDeformatter : AsymmetricSignatureDeformatter
 {
-	[Token(Token = "0x4000D06")]
+	[Token(Token = "0x4000D13")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private DSA _dsaKey;
 
-	[Token(Token = "0x4000D07")]
+	[Token(Token = "0x4000D14")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string _oid;
 
-	[Token(Token = "0x600190B")]
-	[Address(RVA = "0x3B313C0", Offset = "0x3B313C0", VA = "0x3B313C0")]
+	[Token(Token = "0x6001973")]
+	[Address(RVA = "0x19A52C0", Offset = "0x19A38C0", VA = "0x1819A52C0")]
 	public DSASignatureDeformatter()
 	{
 	}
 
-	[Token(Token = "0x600190C")]
-	[Address(RVA = "0x3B31440", Offset = "0x3B31440", VA = "0x3B31440")]
+	[Token(Token = "0x6001974")]
+	[Address(RVA = "0x19A5150", Offset = "0x19A3750", VA = "0x1819A5150")]
 	public DSASignatureDeformatter(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x600190D")]
-	[Address(RVA = "0x3B31590", Offset = "0x3B31590", VA = "0x3B31590", Slot = "4")]
+	[Token(Token = "0x6001975")]
+	[Address(RVA = "0x19A4F10", Offset = "0x19A3510", VA = "0x1819A4F10", Slot = "4")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x600190E")]
-	[Address(RVA = "0x3B31670", Offset = "0x3B31670", VA = "0x3B31670", Slot = "5")]
+	[Token(Token = "0x6001976")]
+	[Address(RVA = "0x19A4E50", Offset = "0x19A3450", VA = "0x1819A4E50", Slot = "5")]
 	public override void SetHashAlgorithm(string strName)
 	{
 	}
 
-	[Token(Token = "0x600190F")]
-	[Address(RVA = "0x3B31730", Offset = "0x3B31730", VA = "0x3B31730", Slot = "7")]
+	[Token(Token = "0x6001977")]
+	[Address(RVA = "0x19A5020", Offset = "0x19A3620", VA = "0x1819A5020", Slot = "7")]
 	public override bool VerifySignature(byte[] rgbHash, byte[] rgbSignature)
 	{
 		return default(bool);

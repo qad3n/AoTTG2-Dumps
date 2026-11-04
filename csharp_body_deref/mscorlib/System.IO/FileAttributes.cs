@@ -9,40 +9,40 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000566")]
+[Token(Token = "0x200068E")]
 [Flags]
 public enum FileAttributes
 {
-	[Token(Token = "0x4001680")]
+	[Token(Token = "0x4001A5E")]
 	ReadOnly = 1,
-	[Token(Token = "0x4001681")]
+	[Token(Token = "0x4001A5F")]
 	Hidden = 2,
-	[Token(Token = "0x4001682")]
+	[Token(Token = "0x4001A60")]
 	System = 4,
-	[Token(Token = "0x4001683")]
+	[Token(Token = "0x4001A61")]
 	Directory = 0x10,
-	[Token(Token = "0x4001684")]
+	[Token(Token = "0x4001A62")]
 	Archive = 0x20,
-	[Token(Token = "0x4001685")]
+	[Token(Token = "0x4001A63")]
 	Device = 0x40,
-	[Token(Token = "0x4001686")]
+	[Token(Token = "0x4001A64")]
 	Normal = 0x80,
-	[Token(Token = "0x4001687")]
+	[Token(Token = "0x4001A65")]
 	Temporary = 0x100,
-	[Token(Token = "0x4001688")]
+	[Token(Token = "0x4001A66")]
 	SparseFile = 0x200,
-	[Token(Token = "0x4001689")]
+	[Token(Token = "0x4001A67")]
 	ReparsePoint = 0x400,
-	[Token(Token = "0x400168A")]
+	[Token(Token = "0x4001A68")]
 	Compressed = 0x800,
-	[Token(Token = "0x400168B")]
+	[Token(Token = "0x4001A69")]
 	Offline = 0x1000,
-	[Token(Token = "0x400168C")]
+	[Token(Token = "0x4001A6A")]
 	NotContentIndexed = 0x2000,
-	[Token(Token = "0x400168D")]
+	[Token(Token = "0x4001A6B")]
 	Encrypted = 0x4000,
-	[Token(Token = "0x400168E")]
+	[Token(Token = "0x4001A6C")]
 	IntegrityStream = 0x8000,
-	[Token(Token = "0x400168F")]
+	[Token(Token = "0x4001A6D")]
 	NoScrubData = 0x20000
 }

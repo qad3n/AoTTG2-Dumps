@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000168")]
+[Token(Token = "0x2000192")]
 internal enum TypeNameKind
 {
-	[Token(Token = "0x4000572")]
+	[Token(Token = "0x40005D3")]
 	Name,
-	[Token(Token = "0x4000573")]
+	[Token(Token = "0x40005D4")]
 	ToString,
-	[Token(Token = "0x4000574")]
+	[Token(Token = "0x40005D5")]
 	SerializationName,
-	[Token(Token = "0x4000575")]
+	[Token(Token = "0x40005D6")]
 	FullName
 }

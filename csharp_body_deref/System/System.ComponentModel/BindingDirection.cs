@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200026C")]
+[Token(Token = "0x2000177")]
 public enum BindingDirection
 {
-	[Token(Token = "0x4000D13")]
+	[Token(Token = "0x400064A")]
 	OneWay,
-	[Token(Token = "0x4000D14")]
+	[Token(Token = "0x400064B")]
 	TwoWay
 }

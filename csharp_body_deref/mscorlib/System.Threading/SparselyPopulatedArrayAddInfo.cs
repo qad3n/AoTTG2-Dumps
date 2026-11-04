@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001EA")]
+[Token(Token = "0x2000215")]
 internal struct SparselyPopulatedArrayAddInfo<T> where T : class
 {
-	[Token(Token = "0x400097D")]
+	[Token(Token = "0x40009D0")]
 	[FieldOffset(Offset = "0x0")]
 	private System.Threading.SparselyPopulatedArrayFragment<T> _source;
 
-	[Token(Token = "0x400097E")]
+	[Token(Token = "0x40009D1")]
 	[FieldOffset(Offset = "0x0")]
 	private int _index;
 
-	[Token(Token = "0x170001AA")]
+	[Token(Token = "0x170001AC")]
 	internal System.Threading.SparselyPopulatedArrayFragment<T> Source
 	{
-		[Token(Token = "0x60011E8")]
+		[Token(Token = "0x6001243")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x170001AD")]
 	internal int Index
 	{
-		[Token(Token = "0x60011E9")]
+		[Token(Token = "0x6001244")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60011E7")]
+	[Token(Token = "0x6001242")]
 	internal SparselyPopulatedArrayAddInfo(System.Threading.SparselyPopulatedArrayFragment<T> source, int index)
 	{
 	}

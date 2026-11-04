@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000081")]
+[Token(Token = "0x200009D")]
 public enum WeatherEffectLevel
 {
-	[Token(Token = "0x40002B4")]
+	[Token(Token = "0x400031B")]
 	Off,
-	[Token(Token = "0x40002B5")]
+	[Token(Token = "0x400031C")]
 	Low,
-	[Token(Token = "0x40002B6")]
+	[Token(Token = "0x400031D")]
 	Medium,
-	[Token(Token = "0x40002B7")]
+	[Token(Token = "0x400031E")]
 	High
 }

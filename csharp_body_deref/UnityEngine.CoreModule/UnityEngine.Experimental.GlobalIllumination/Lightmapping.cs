@@ -12,46 +12,46 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x2000345")]
+[Token(Token = "0x20003EC")]
 public static class Lightmapping
 {
-	[Token(Token = "0x2000346")]
+	[Token(Token = "0x20003ED")]
 	public delegate void RequestLightsDelegate(Light[] requests, NativeArray<LightDataGI> lightsOutput);
 
-	[Token(Token = "0x4000AA0")]
+	[Token(Token = "0x4000D27")]
 	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static readonly RequestLightsDelegate s_DefaultDelegate;
 
-	[Token(Token = "0x4000AA1")]
+	[Token(Token = "0x4000D28")]
 	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static RequestLightsDelegate s_RequestLightsDelegate;
 
-	[Token(Token = "0x600118D")]
-	[Address(RVA = "0x4E39D50", Offset = "0x4E39D50", VA = "0x4E39D50")]
+	[Token(Token = "0x60017C9")]
+	[Address(RVA = "0x2F79530", Offset = "0x2F77B30", VA = "0x182F79530")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void SetDelegate(RequestLightsDelegate del)
 	{
 	}
 
-	[Token(Token = "0x600118E")]
-	[Address(RVA = "0x4E39E00", Offset = "0x4E39E00", VA = "0x4E39E00")]
+	[Token(Token = "0x60017CA")]
+	[Address(RVA = "0x2F793A0", Offset = "0x2F779A0", VA = "0x182F793A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static RequestLightsDelegate GetDelegate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600118F")]
-	[Address(RVA = "0x4E39E70", Offset = "0x4E39E70", VA = "0x4E39E70")]
+	[Token(Token = "0x60017CB")]
+	[Address(RVA = "0x2F794C0", Offset = "0x2F77AC0", VA = "0x182F794C0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void ResetDelegate()
 	{
 	}
 
-	[Token(Token = "0x6001190")]
-	[Address(RVA = "0x4E39EC0", Offset = "0x4E39EC0", VA = "0x4E39EC0")]
+	[Token(Token = "0x60017CC")]
+	[Address(RVA = "0x2F793F0", Offset = "0x2F779F0", VA = "0x182F793F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RequestLights(Light[] lights, IntPtr outLightsPtr, int outLightsCount)
 	{

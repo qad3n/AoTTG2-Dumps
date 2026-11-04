@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005EB")]
+[Token(Token = "0x20005BD")]
 [Flags]
 public enum EventKeywords : long
 {
-	[Token(Token = "0x4001A28")]
+	[Token(Token = "0x4001842")]
 	None = 0L,
-	[Token(Token = "0x4001A29")]
+	[Token(Token = "0x4001843")]
 	All = -1L,
-	[Token(Token = "0x4001A2A")]
+	[Token(Token = "0x4001844")]
 	MicrosoftTelemetry = 0x2000000000000L,
-	[Token(Token = "0x4001A2B")]
-	WdiContext = 0x2000000000000L,
-	[Token(Token = "0x4001A2C")]
+	[Token(Token = "0x4001845")]
+	WdiContext = MicrosoftTelemetry,
+	[Token(Token = "0x4001846")]
 	WdiDiagnostic = 0x4000000000000L,
-	[Token(Token = "0x4001A2D")]
+	[Token(Token = "0x4001847")]
 	Sqm = 0x8000000000000L,
-	[Token(Token = "0x4001A2E")]
+	[Token(Token = "0x4001848")]
 	AuditFailure = 0x10000000000000L,
-	[Token(Token = "0x4001A2F")]
+	[Token(Token = "0x4001849")]
 	AuditSuccess = 0x20000000000000L,
-	[Token(Token = "0x4001A30")]
-	CorrelationHint = 0x10000000000000L,
-	[Token(Token = "0x4001A31")]
+	[Token(Token = "0x400184A")]
+	CorrelationHint = AuditFailure,
+	[Token(Token = "0x400184B")]
 	EventLogClassic = 0x80000000000000L
 }

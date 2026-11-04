@@ -11,100 +11,100 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003E4")]
+[Token(Token = "0x2000537")]
 [CompilerGenerated]
 internal class CustomLogicUnityComponentEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20003E5")]
+	[Token(Token = "0x2000538")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002773")]
-		[Address(RVA = "0x40AF500", Offset = "0x40AF500", VA = "0x40AF500")]
+		[Token(Token = "0x6003095")]
+		[Address(RVA = "0x2017BA0", Offset = "0x20161A0", VA = "0x182017BA0")]
 		public static CustomLogicUnityComponentEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003E6")]
+	[Token(Token = "0x2000539")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40010BE")]
+		[Token(Token = "0x40016F5")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002774")]
-		[Address(RVA = "0x40AF620", Offset = "0x40AF620", VA = "0x40AF620")]
+		[Token(Token = "0x6003096")]
+		[Address(RVA = "0x1FFAB50", Offset = "0x1FF9150", VA = "0x181FFAB50")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002775")]
-		[Address(RVA = "0x40AF700", Offset = "0x40AF700", VA = "0x40AF700")]
+		[Token(Token = "0x6003097")]
+		[Address(RVA = "0x2008A50", Offset = "0x2007050", VA = "0x182008A50")]
 		public static CLPropertyBinding<CustomLogicUnityComponentEnum> __CreatePropertyBinding__VideoPlayer()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700081A")]
+	[Token(Token = "0x170008FB")]
 	public static string VideoPlayer
 	{
-		[Token(Token = "0x600276E")]
-		[Address(RVA = "0x40AF470", Offset = "0x40AF470", VA = "0x40AF470")]
+		[Token(Token = "0x6003090")]
+		[Address(RVA = "0x1FFF250", Offset = "0x1FFD850", VA = "0x181FFF250")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700081B")]
+	[Token(Token = "0x170008FC")]
 	public override string ClassName
 	{
-		[Token(Token = "0x600276F")]
-		[Address(RVA = "0x40AF4A0", Offset = "0x40AF4A0", VA = "0x40AF4A0", Slot = "4")]
+		[Token(Token = "0x6003091")]
+		[Address(RVA = "0x2016470", Offset = "0x2014A70", VA = "0x182016470", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700081C")]
+	[Token(Token = "0x170008FD")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002770")]
-		[Address(RVA = "0x40AF4D0", Offset = "0x40AF4D0", VA = "0x40AF4D0", Slot = "6")]
+		[Token(Token = "0x6003092")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700081D")]
+	[Token(Token = "0x170008FE")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002771")]
-		[Address(RVA = "0x40AF4E0", Offset = "0x40AF4E0", VA = "0x40AF4E0", Slot = "7")]
+		[Token(Token = "0x6003093")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700081E")]
+	[Token(Token = "0x170008FF")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002772")]
-		[Address(RVA = "0x40AF4F0", Offset = "0x40AF4F0", VA = "0x40AF4F0", Slot = "8")]
+		[Token(Token = "0x6003094")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600276D")]
-	[Address(RVA = "0x40AF400", Offset = "0x40AF400", VA = "0x40AF400")]
+	[Token(Token = "0x600308F")]
+	[Address(RVA = "0x2016420", Offset = "0x2014A20", VA = "0x182016420")]
 	public CustomLogicUnityComponentEnum()
 	{
 	}

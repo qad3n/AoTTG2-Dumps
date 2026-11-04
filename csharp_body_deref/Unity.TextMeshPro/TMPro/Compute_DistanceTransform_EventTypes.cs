@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x20000A3")]
 public enum Compute_DistanceTransform_EventTypes
 {
-	[Token(Token = "0x400008A")]
+	[Token(Token = "0x400059B")]
 	Processing,
-	[Token(Token = "0x400008B")]
+	[Token(Token = "0x400059C")]
 	Completed
 }

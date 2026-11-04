@@ -11,19 +11,19 @@ using Unity.Collections;
 
 namespace UnityEngine.ParticleSystemJobs;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200001E")]
 [DefaultMember("Item")]
 public struct ParticleSystemNativeArray3
 {
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x400007F")]
 	[FieldOffset(Offset = "0x0")]
 	public NativeArray<float> x;
 
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000080")]
 	[FieldOffset(Offset = "0x10")]
 	public NativeArray<float> y;
 
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000081")]
 	[FieldOffset(Offset = "0x20")]
 	public NativeArray<float> z;
 }

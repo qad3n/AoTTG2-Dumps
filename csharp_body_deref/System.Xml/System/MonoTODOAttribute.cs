@@ -7,7 +7,7 @@ namespace System;
 internal class MonoTODOAttribute : Attribute
 {
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4678450", Offset = "0x4678450", VA = "0x4678450")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public MonoTODOAttribute()
 	{
 	}

@@ -9,63 +9,63 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000701")]
+[Token(Token = "0x2000880")]
 internal static class UILanguages
 {
-	[Token(Token = "0x40021B8")]
+	[Token(Token = "0x4002A50")]
 	public const string Arabic = "العربية";
 
-	[Token(Token = "0x40021B9")]
+	[Token(Token = "0x4002A51")]
 	public const string BrazilianPortuguese = "PT-BR";
 
-	[Token(Token = "0x40021BA")]
+	[Token(Token = "0x4002A52")]
 	public const string Chinese = "简体中文";
 
-	[Token(Token = "0x40021BB")]
+	[Token(Token = "0x4002A53")]
 	public const string Czech = "Čeština";
 
-	[Token(Token = "0x40021BC")]
+	[Token(Token = "0x4002A54")]
 	public const string Dutch = "Dutch";
 
-	[Token(Token = "0x40021BD")]
+	[Token(Token = "0x4002A55")]
 	public const string English = "English";
 
-	[Token(Token = "0x40021BE")]
+	[Token(Token = "0x4002A56")]
 	public const string French = "Français";
 
-	[Token(Token = "0x40021BF")]
+	[Token(Token = "0x4002A57")]
 	public const string German = "Deutsch";
 
-	[Token(Token = "0x40021C0")]
+	[Token(Token = "0x4002A58")]
 	public const string Greek = "Ελληνικά";
 
-	[Token(Token = "0x40021C1")]
+	[Token(Token = "0x4002A59")]
 	public const string Indonesian = "Indonesian";
 
-	[Token(Token = "0x40021C2")]
+	[Token(Token = "0x4002A5A")]
 	public const string Italian = "Italiano";
 
-	[Token(Token = "0x40021C3")]
+	[Token(Token = "0x4002A5B")]
 	public const string Japanese = "日本語";
 
-	[Token(Token = "0x40021C4")]
+	[Token(Token = "0x4002A5C")]
 	public const string Korean = "한국어";
 
-	[Token(Token = "0x40021C5")]
+	[Token(Token = "0x4002A5D")]
 	public const string Polish = "Polski";
 
-	[Token(Token = "0x40021C6")]
+	[Token(Token = "0x4002A5E")]
 	public const string Russian = "Russian";
 
-	[Token(Token = "0x40021C7")]
+	[Token(Token = "0x4002A5F")]
 	public const string Spanish = "Español";
 
-	[Token(Token = "0x40021C8")]
+	[Token(Token = "0x4002A60")]
 	public const string TraditionalChinese = "繁體中文";
 
-	[Token(Token = "0x40021C9")]
+	[Token(Token = "0x4002A61")]
 	public const string Turkish = "Türkçe";
 
-	[Token(Token = "0x40021CA")]
+	[Token(Token = "0x4002A62")]
 	public const string Ukrainian = "Українська";
 }

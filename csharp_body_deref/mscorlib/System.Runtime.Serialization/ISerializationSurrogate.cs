@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003D1")]
+[Token(Token = "0x2000400")]
 public interface ISerializationSurrogate
 {
-	[Token(Token = "0x6001F43")]
+	[Token(Token = "0x6001FB2")]
 	void GetObjectData(object obj, SerializationInfo info, StreamingContext context);
 
-	[Token(Token = "0x6001F44")]
+	[Token(Token = "0x6001FB3")]
 	object SetObjectData(object obj, SerializationInfo info, StreamingContext context, ISurrogateSelector selector);
 }

@@ -11,29 +11,29 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Styling;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x2000026")]
 public static class GisketchSpriteLoader
 {
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, Sprite> Cache;
 
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3A35050", Offset = "0x3A35050", VA = "0x3A35050")]
+	[Token(Token = "0x600012C")]
+	[Address(RVA = "0x188A710", Offset = "0x1888D10", VA = "0x18188A710")]
 	public static Sprite Load(string resourcePath)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3A35370", Offset = "0x3A35370", VA = "0x3A35370")]
+	[Token(Token = "0x600012D")]
+	[Address(RVA = "0x188AC50", Offset = "0x1889250", VA = "0x18188AC50")]
 	public static bool TryGetCached(string resourcePath, out Sprite sprite)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x3A35450", Offset = "0x3A35450", VA = "0x3A35450")]
+	[Token(Token = "0x600012E")]
+	[Address(RVA = "0x188AB80", Offset = "0x1889180", VA = "0x18188AB80")]
 	public static void Store(string resourcePath, Sprite sprite)
 	{
 	}

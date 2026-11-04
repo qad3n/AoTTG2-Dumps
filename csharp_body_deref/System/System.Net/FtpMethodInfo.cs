@@ -9,88 +9,88 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200012D")]
+[Token(Token = "0x20002B5")]
 internal class FtpMethodInfo
 {
-	[Token(Token = "0x40005EC")]
+	[Token(Token = "0x4000A02")]
 	[FieldOffset(Offset = "0x10")]
 	internal string Method;
 
-	[Token(Token = "0x40005ED")]
+	[Token(Token = "0x4000A03")]
 	[FieldOffset(Offset = "0x18")]
 	internal FtpOperation Operation;
 
-	[Token(Token = "0x40005EE")]
+	[Token(Token = "0x4000A04")]
 	[FieldOffset(Offset = "0x1C")]
 	internal FtpMethodFlags Flags;
 
-	[Token(Token = "0x40005EF")]
+	[Token(Token = "0x4000A05")]
 	[FieldOffset(Offset = "0x20")]
 	internal string HttpCommand;
 
-	[Token(Token = "0x40005F0")]
+	[Token(Token = "0x4000A06")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly FtpMethodInfo[] s_knownMethodInfo;
 
-	[Token(Token = "0x17000182")]
+	[Token(Token = "0x170003D7")]
 	internal bool IsCommandOnly
 	{
-		[Token(Token = "0x6000752")]
-		[Address(RVA = "0x4953140", Offset = "0x4953140", VA = "0x4953140")]
+		[Token(Token = "0x6001311")]
+		[Address(RVA = "0x28F8E70", Offset = "0x28F7470", VA = "0x1828F8E70")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000183")]
+	[Token(Token = "0x170003D8")]
 	internal bool IsUpload
 	{
-		[Token(Token = "0x6000753")]
-		[Address(RVA = "0x4954130", Offset = "0x4954130", VA = "0x4954130")]
+		[Token(Token = "0x6001312")]
+		[Address(RVA = "0x28F8E80", Offset = "0x28F7480", VA = "0x1828F8E80")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000184")]
+	[Token(Token = "0x170003D9")]
 	internal bool IsDownload
 	{
-		[Token(Token = "0x6000754")]
-		[Address(RVA = "0x4954140", Offset = "0x4954140", VA = "0x4954140")]
+		[Token(Token = "0x6001313")]
+		[Address(RVA = "0x25D0F30", Offset = "0x25CF530", VA = "0x1825D0F30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000185")]
+	[Token(Token = "0x170003DA")]
 	internal bool ShouldParseForResponseUri
 	{
-		[Token(Token = "0x6000755")]
-		[Address(RVA = "0x4951200", Offset = "0x4951200", VA = "0x4951200")]
+		[Token(Token = "0x6001314")]
+		[Address(RVA = "0x28F8E90", Offset = "0x28F7490", VA = "0x1828F8E90")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000750")]
-	[Address(RVA = "0x4955920", Offset = "0x4955920", VA = "0x4955920")]
+	[Token(Token = "0x600130F")]
+	[Address(RVA = "0x28F8E20", Offset = "0x28F7420", VA = "0x1828F8E20")]
 	internal FtpMethodInfo(string method, FtpOperation operation, FtpMethodFlags flags, string httpCommand)
 	{
 	}
 
-	[Token(Token = "0x6000751")]
-	[Address(RVA = "0x4952F90", Offset = "0x4952F90", VA = "0x4952F90")]
+	[Token(Token = "0x6001310")]
+	[Address(RVA = "0x28F8570", Offset = "0x28F6B70", VA = "0x1828F8570")]
 	internal bool HasFlag(FtpMethodFlags flags)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000756")]
-	[Address(RVA = "0x4955980", Offset = "0x4955980", VA = "0x4955980")]
+	[Token(Token = "0x6001315")]
+	[Address(RVA = "0x28F8410", Offset = "0x28F6A10", VA = "0x1828F8410")]
 	internal static FtpMethodInfo GetMethodInfo(string method)
 	{
 		return null;

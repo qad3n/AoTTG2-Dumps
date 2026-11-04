@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001F0")]
+[Token(Token = "0x20001F3")]
 [DisallowMultipleComponent]
 public sealed class AsyncTriggerEnterTrigger : AsyncTriggerBase<Collider>
 {
-	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x4A13020", Offset = "0x4A13020", VA = "0x4A13020")]
+	[Token(Token = "0x6000BD0")]
+	[Address(RVA = "0x2939D40", Offset = "0x2938340", VA = "0x182939D40")]
 	private void OnTriggerEnter(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x4A13070", Offset = "0x4A13070", VA = "0x4A13070")]
+	[Token(Token = "0x6000BD1")]
+	[Address(RVA = "0x2939A20", Offset = "0x2938020", VA = "0x182939A20")]
 	public IAsyncOnTriggerEnterHandler GetOnTriggerEnterAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x4A130E0", Offset = "0x4A130E0", VA = "0x4A130E0")]
+	[Token(Token = "0x6000BD2")]
+	[Address(RVA = "0x2939A90", Offset = "0x2938090", VA = "0x182939A90")]
 	public IAsyncOnTriggerEnterHandler GetOnTriggerEnterAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BAF")]
-	[Address(RVA = "0x4A13150", Offset = "0x4A13150", VA = "0x4A13150")]
+	[Token(Token = "0x6000BD3")]
+	[Address(RVA = "0x2939B10", Offset = "0x2938110", VA = "0x182939B10")]
 	public UniTask<Collider> OnTriggerEnterAsync()
 	{
 		return default(UniTask<Collider>);
 	}
 
-	[Token(Token = "0x6000BB0")]
-	[Address(RVA = "0x4A13250", Offset = "0x4A13250", VA = "0x4A13250")]
+	[Token(Token = "0x6000BD4")]
+	[Address(RVA = "0x2939C30", Offset = "0x2938230", VA = "0x182939C30")]
 	public UniTask<Collider> OnTriggerEnterAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collider>);
 	}
 
-	[Token(Token = "0x6000BB1")]
-	[Address(RVA = "0x4A13360", Offset = "0x4A13360", VA = "0x4A13360")]
+	[Token(Token = "0x6000BD5")]
+	[Address(RVA = "0x2939D90", Offset = "0x2938390", VA = "0x182939D90")]
 	public AsyncTriggerEnterTrigger()
 	{
 	}

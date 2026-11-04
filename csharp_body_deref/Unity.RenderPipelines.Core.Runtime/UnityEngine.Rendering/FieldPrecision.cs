@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200016F")]
+[Token(Token = "0x2000186")]
 public enum FieldPrecision
 {
-	[Token(Token = "0x400065D")]
+	[Token(Token = "0x40007A2")]
 	Half,
-	[Token(Token = "0x400065E")]
+	[Token(Token = "0x40007A3")]
 	Real,
-	[Token(Token = "0x400065F")]
+	[Token(Token = "0x40007A4")]
 	Default
 }

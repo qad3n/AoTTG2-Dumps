@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000EE")]
+[Token(Token = "0x2000116")]
 public sealed class MulticastNotSupportedException : SystemException
 {
-	[Token(Token = "0x60008B5")]
-	[Address(RVA = "0x3CB9350", Offset = "0x3CB9350", VA = "0x3CB9350")]
+	[Token(Token = "0x60008F0")]
+	[Address(RVA = "0x1B2E320", Offset = "0x1B2C920", VA = "0x181B2E320")]
 	public MulticastNotSupportedException()
 	{
 	}
 
-	[Token(Token = "0x60008B6")]
-	[Address(RVA = "0x3CB9390", Offset = "0x3CB9390", VA = "0x3CB9390")]
+	[Token(Token = "0x60008F1")]
+	[Address(RVA = "0x1B2E370", Offset = "0x1B2C970", VA = "0x181B2E370")]
 	public MulticastNotSupportedException(string message)
 	{
 	}
 
-	[Token(Token = "0x60008B7")]
-	[Address(RVA = "0x3CB93B0", Offset = "0x3CB93B0", VA = "0x3CB93B0")]
+	[Token(Token = "0x60008F2")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	internal MulticastNotSupportedException(SerializationInfo info, StreamingContext context)
 	{
 	}

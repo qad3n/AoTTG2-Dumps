@@ -10,74 +10,74 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000047")]
+[Token(Token = "0x2000048")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorTextAreaAttribute : Attribute
 {
-	[Token(Token = "0x4000058")]
+	[Token(Token = "0x4000054")]
 	[FieldOffset(Offset = "0x10")]
 	private float? _minLines;
 
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x4000055")]
 	[FieldOffset(Offset = "0x18")]
 	private float? _maxLines;
 
-	[Token(Token = "0x1700006B")]
+	[Token(Token = "0x1700006C")]
 	public float minLines
 	{
-		[Token(Token = "0x60001FA")]
-		[Address(RVA = "0x4CA3C70", Offset = "0x4CA3C70", VA = "0x4CA3C70")]
+		[Token(Token = "0x60001FF")]
+		[Address(RVA = "0x2DB1950", Offset = "0x2DAFF50", VA = "0x182DB1950")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001FB")]
-		[Address(RVA = "0x4CA3CA0", Offset = "0x4CA3CA0", VA = "0x4CA3CA0")]
+		[Token(Token = "0x6000200")]
+		[Address(RVA = "0x2DB19F0", Offset = "0x2DAFFF0", VA = "0x182DB19F0")]
 		set
 		{
-		}
-	}
-
-	[Token(Token = "0x1700006C")]
-	public bool hasMinLines
-	{
-		[Token(Token = "0x60001FC")]
-		[Address(RVA = "0x4CA3D00", Offset = "0x4CA3D00", VA = "0x4CA3D00")]
-		get
-		{
-			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1700006D")]
-	public float maxLines
+	public bool hasMinLines
 	{
-		[Token(Token = "0x60001FD")]
-		[Address(RVA = "0x4CA3D30", Offset = "0x4CA3D30", VA = "0x4CA3D30")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x60001FE")]
-		[Address(RVA = "0x4CA3D60", Offset = "0x4CA3D60", VA = "0x4CA3D60")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700006E")]
-	public bool hasMaxLines
-	{
-		[Token(Token = "0x60001FF")]
-		[Address(RVA = "0x4CA3DC0", Offset = "0x4CA3DC0", VA = "0x4CA3DC0")]
+		[Token(Token = "0x6000201")]
+		[Address(RVA = "0x2DB18D0", Offset = "0x2DAFED0", VA = "0x182DB18D0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x4CA3DF0", Offset = "0x4CA3DF0", VA = "0x4CA3DF0")]
+	[Token(Token = "0x1700006E")]
+	public float maxLines
+	{
+		[Token(Token = "0x6000202")]
+		[Address(RVA = "0x2DB1910", Offset = "0x2DAFF10", VA = "0x182DB1910")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000203")]
+		[Address(RVA = "0x2DB1990", Offset = "0x2DAFF90", VA = "0x182DB1990")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006F")]
+	public bool hasMaxLines
+	{
+		[Token(Token = "0x6000204")]
+		[Address(RVA = "0x2DB1890", Offset = "0x2DAFE90", VA = "0x182DB1890")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6000205")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public InspectorTextAreaAttribute()
 	{
 	}

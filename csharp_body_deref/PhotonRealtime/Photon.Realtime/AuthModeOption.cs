@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x2000037")]
 public enum AuthModeOption
 {
-	[Token(Token = "0x40001C2")]
+	[Token(Token = "0x40001BD")]
 	Auth,
-	[Token(Token = "0x40001C3")]
+	[Token(Token = "0x40001BE")]
 	AuthOnce,
-	[Token(Token = "0x40001C4")]
+	[Token(Token = "0x40001BF")]
 	AuthOnceWss
 }

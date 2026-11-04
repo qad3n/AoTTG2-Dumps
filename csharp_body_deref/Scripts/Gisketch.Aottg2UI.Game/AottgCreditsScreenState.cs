@@ -11,46 +11,46 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200015C")]
+[Token(Token = "0x20001EB")]
 internal static class AottgCreditsScreenState
 {
-	[Token(Token = "0x17000118")]
+	[Token(Token = "0x17000153")]
 	public static AottgCreditsResponse Credits
 	{
-		[Token(Token = "0x60007AA")]
-		[Address(RVA = "0x43E9CA0", Offset = "0x43E9CA0", VA = "0x43E9CA0")]
+		[Token(Token = "0x6000B44")]
+		[Address(RVA = "0x23AA440", Offset = "0x23A8A40", VA = "0x1823AA440")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60007AB")]
-		[Address(RVA = "0x43E9CE0", Offset = "0x43E9CE0", VA = "0x43E9CE0")]
+		[Token(Token = "0x6000B45")]
+		[Address(RVA = "0x23AA530", Offset = "0x23A8B30", VA = "0x1823AA530")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000119")]
+	[Token(Token = "0x17000154")]
 	public static bool HasCategories
 	{
-		[Token(Token = "0x60007AC")]
-		[Address(RVA = "0x43E84B0", Offset = "0x43E84B0", VA = "0x43E84B0")]
+		[Token(Token = "0x6000B46")]
+		[Address(RVA = "0x23AA480", Offset = "0x23A8A80", VA = "0x1823AA480")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60007AD")]
-	[Address(RVA = "0x43E9D30", Offset = "0x43E9D30", VA = "0x43E9D30")]
+	[Token(Token = "0x6000B47")]
+	[Address(RVA = "0x23AA3E0", Offset = "0x23A89E0", VA = "0x1823AA3E0")]
 	public static void Set(AottgCreditsResponse credits)
 	{
 	}
 
-	[Token(Token = "0x60007AE")]
-	[Address(RVA = "0x43E9D80", Offset = "0x43E9D80", VA = "0x43E9D80")]
+	[Token(Token = "0x6000B48")]
+	[Address(RVA = "0x23AA390", Offset = "0x23A8990", VA = "0x1823AA390")]
 	public static void Clear()
 	{
 	}

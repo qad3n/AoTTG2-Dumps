@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002EF")]
+[Token(Token = "0x20001FA")]
 internal class ArraySubsetEnumerator : IEnumerator
 {
-	[Token(Token = "0x4000E2A")]
+	[Token(Token = "0x4000761")]
 	[FieldOffset(Offset = "0x10")]
 	private Array array;
 
-	[Token(Token = "0x4000E2B")]
+	[Token(Token = "0x4000762")]
 	[FieldOffset(Offset = "0x18")]
 	private int total;
 
-	[Token(Token = "0x4000E2C")]
+	[Token(Token = "0x4000763")]
 	[FieldOffset(Offset = "0x1C")]
 	private int current;
 
-	[Token(Token = "0x17000439")]
+	[Token(Token = "0x170002A8")]
 	public object Current
 	{
-		[Token(Token = "0x60012E7")]
-		[Address(RVA = "0x48ACF00", Offset = "0x48ACF00", VA = "0x48ACF00", Slot = "5")]
+		[Token(Token = "0x6000D2F")]
+		[Address(RVA = "0x28AD980", Offset = "0x28ABF80", VA = "0x1828AD980", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60012E4")]
-	[Address(RVA = "0x48ACE90", Offset = "0x48ACE90", VA = "0x48ACE90")]
+	[Token(Token = "0x6000D2C")]
+	[Address(RVA = "0x2892520", Offset = "0x2890B20", VA = "0x182892520")]
 	public ArraySubsetEnumerator(Array array, int count)
 	{
 	}
 
-	[Token(Token = "0x60012E5")]
-	[Address(RVA = "0x48ACED0", Offset = "0x48ACED0", VA = "0x48ACED0", Slot = "4")]
+	[Token(Token = "0x6000D2D")]
+	[Address(RVA = "0x2892500", Offset = "0x2890B00", VA = "0x182892500", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60012E6")]
-	[Address(RVA = "0x48ACEF0", Offset = "0x48ACEF0", VA = "0x48ACEF0", Slot = "6")]
+	[Token(Token = "0x6000D2E")]
+	[Address(RVA = "0x27C0AE0", Offset = "0x27BF0E0", VA = "0x1827C0AE0", Slot = "6")]
 	public void Reset()
 	{
 	}

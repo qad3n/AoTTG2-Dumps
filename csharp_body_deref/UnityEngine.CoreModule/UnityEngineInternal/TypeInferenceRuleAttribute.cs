@@ -11,7 +11,7 @@ using Il2CppDummyDll;
 namespace UnityEngineInternal;
 
 [Serializable]
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000008")]
 [AttributeUsage(AttributeTargets.Method)]
 public class TypeInferenceRuleAttribute : Attribute
 {
@@ -19,20 +19,20 @@ public class TypeInferenceRuleAttribute : Attribute
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _rule;
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4DAB7C0", Offset = "0x4DAB7C0", VA = "0x4DAB7C0")]
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x2ED6260", Offset = "0x2ED4860", VA = "0x182ED6260")]
 	public TypeInferenceRuleAttribute(TypeInferenceRules rule)
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x4DAB840", Offset = "0x4DAB840", VA = "0x4DAB840")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public TypeInferenceRuleAttribute(string rule)
 	{
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4DAB870", Offset = "0x4DAB870", VA = "0x4DAB870", Slot = "3")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000170")]
+[Token(Token = "0x20001A4")]
 public enum InspectorSortDirection
 {
-	[Token(Token = "0x400058F")]
+	[Token(Token = "0x4000620")]
 	Ascending,
-	[Token(Token = "0x4000590")]
+	[Token(Token = "0x4000621")]
 	Descending
 }

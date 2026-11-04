@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x20001E6")]
 public interface IAsyncOnRectTransformRemovedHandler
 {
-	[Token(Token = "0x6000B81")]
+	[Token(Token = "0x6000BA5")]
 	UniTask OnRectTransformRemovedAsync();
 }

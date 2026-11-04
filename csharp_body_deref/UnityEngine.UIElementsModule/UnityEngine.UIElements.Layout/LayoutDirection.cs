@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200051C")]
+[Token(Token = "0x2000610")]
 internal enum LayoutDirection
 {
-	[Token(Token = "0x4001131")]
+	[Token(Token = "0x40016AA")]
 	Inherit,
-	[Token(Token = "0x4001132")]
+	[Token(Token = "0x40016AB")]
 	LTR,
-	[Token(Token = "0x4001133")]
+	[Token(Token = "0x40016AC")]
 	RTL
 }

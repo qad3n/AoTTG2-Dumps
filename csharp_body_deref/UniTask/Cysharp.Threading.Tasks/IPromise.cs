@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200011C")]
+[Token(Token = "0x200011A")]
 public interface IPromise<T> : IResolvePromise<T>, IRejectPromise, ICancelPromise
 {
 }
-[Token(Token = "0x200011D")]
+[Token(Token = "0x200011B")]
 public interface IPromise : IResolvePromise, IRejectPromise, ICancelPromise
 {
 }

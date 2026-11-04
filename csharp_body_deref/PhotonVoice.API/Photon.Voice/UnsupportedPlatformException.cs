@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000082")]
+[Token(Token = "0x2000080")]
 internal class UnsupportedPlatformException : Exception
 {
-	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x3F2F340", Offset = "0x3F2F340", VA = "0x3F2F340")]
+	[Token(Token = "0x60002C8")]
+	[Address(RVA = "0x1D76CA0", Offset = "0x1D752A0", VA = "0x181D76CA0")]
 	public UnsupportedPlatformException(string subject, [Optional] string platform)
 	{
 	}

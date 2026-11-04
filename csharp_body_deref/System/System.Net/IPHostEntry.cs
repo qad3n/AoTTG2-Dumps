@@ -9,69 +9,69 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000140")]
+[Token(Token = "0x20002C8")]
 public class IPHostEntry
 {
-	[Token(Token = "0x4000687")]
+	[Token(Token = "0x4000A9D")]
 	[FieldOffset(Offset = "0x10")]
 	private string hostName;
 
-	[Token(Token = "0x4000688")]
+	[Token(Token = "0x4000A9E")]
 	[FieldOffset(Offset = "0x18")]
 	private string[] aliases;
 
-	[Token(Token = "0x4000689")]
+	[Token(Token = "0x4000A9F")]
 	[FieldOffset(Offset = "0x20")]
 	private IPAddress[] addressList;
 
-	[Token(Token = "0x400068A")]
+	[Token(Token = "0x4000AA0")]
 	[FieldOffset(Offset = "0x28")]
 	internal bool isTrustedHost;
 
-	[Token(Token = "0x170001B0")]
+	[Token(Token = "0x17000405")]
 	public string HostName
 	{
-		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x495E070", Offset = "0x495E070", VA = "0x495E070")]
+		[Token(Token = "0x6001386")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x495E080", Offset = "0x495E080", VA = "0x495E080")]
+		[Token(Token = "0x6001387")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001B1")]
+	[Token(Token = "0x17000406")]
 	public string[] Aliases
 	{
-		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0x495E090", Offset = "0x495E090", VA = "0x495E090")]
+		[Token(Token = "0x6001388")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001B2")]
+	[Token(Token = "0x17000407")]
 	public IPAddress[] AddressList
 	{
-		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x495E0A0", Offset = "0x495E0A0", VA = "0x495E0A0")]
+		[Token(Token = "0x6001389")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60007CB")]
-		[Address(RVA = "0x495E0B0", Offset = "0x495E0B0", VA = "0x495E0B0")]
+		[Token(Token = "0x600138A")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60007CC")]
-	[Address(RVA = "0x495E0C0", Offset = "0x495E0C0", VA = "0x495E0C0")]
+	[Token(Token = "0x600138B")]
+	[Address(RVA = "0x18CB390", Offset = "0x18C9990", VA = "0x1818CB390")]
 	public IPHostEntry()
 	{
 	}

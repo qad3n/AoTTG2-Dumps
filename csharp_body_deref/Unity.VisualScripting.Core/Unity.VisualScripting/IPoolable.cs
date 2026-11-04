@@ -12,9 +12,9 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000D7")]
 public interface IPoolable
 {
-	[Token(Token = "0x6000514")]
+	[Token(Token = "0x600051E")]
 	void New();
 
-	[Token(Token = "0x6000515")]
+	[Token(Token = "0x600051F")]
 	void Free();
 }

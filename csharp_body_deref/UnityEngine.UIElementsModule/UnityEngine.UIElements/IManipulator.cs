@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000226")]
+[Token(Token = "0x200029D")]
 public interface IManipulator
 {
-	[Token(Token = "0x170002A3")]
+	[Token(Token = "0x1700038C")]
 	VisualElement target
 	{
-		[Token(Token = "0x6000E1B")]
+		[Token(Token = "0x60011B3")]
 		set;
 	}
 }

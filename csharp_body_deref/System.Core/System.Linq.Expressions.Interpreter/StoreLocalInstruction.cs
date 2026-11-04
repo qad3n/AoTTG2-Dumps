@@ -15,8 +15,8 @@ internal sealed class StoreLocalInstruction : LocalAccessInstruction, IBoxableIn
 	[Token(Token = "0x170001E0")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000965")]
-		[Address(RVA = "0x44F6310", Offset = "0x44F6310", VA = "0x44F6310", Slot = "4")]
+		[Token(Token = "0x6000964")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -26,29 +26,29 @@ internal sealed class StoreLocalInstruction : LocalAccessInstruction, IBoxableIn
 	[Token(Token = "0x170001E1")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000966")]
-		[Address(RVA = "0x44F6320", Offset = "0x44F6320", VA = "0x44F6320", Slot = "9")]
+		[Token(Token = "0x6000965")]
+		[Address(RVA = "0x247E9E0", Offset = "0x247CFE0", VA = "0x18247E9E0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000964")]
-	[Address(RVA = "0x44F62F0", Offset = "0x44F62F0", VA = "0x44F62F0")]
+	[Token(Token = "0x6000963")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	internal StoreLocalInstruction(int index)
 	{
 	}
 
-	[Token(Token = "0x6000967")]
-	[Address(RVA = "0x44F6350", Offset = "0x44F6350", VA = "0x44F6350", Slot = "8")]
+	[Token(Token = "0x6000966")]
+	[Address(RVA = "0x247E940", Offset = "0x247CF40", VA = "0x18247E940", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000968")]
-	[Address(RVA = "0x44F63D0", Offset = "0x44F63D0", VA = "0x44F63D0", Slot = "11")]
+	[Token(Token = "0x6000967")]
+	[Address(RVA = "0x247E8D0", Offset = "0x247CED0", VA = "0x18247E8D0", Slot = "11")]
 	public Instruction BoxIfIndexMatches(int index)
 	{
 		return null;

@@ -10,29 +10,29 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x200050D")]
+[Token(Token = "0x2000667")]
 internal class FlareItem : SimpleUseable
 {
-	[Token(Token = "0x40017AB")]
+	[Token(Token = "0x4001E37")]
 	[FieldOffset(Offset = "0x38")]
 	private Color _color;
 
-	[Token(Token = "0x40017AC")]
+	[Token(Token = "0x4001E38")]
 	[FieldOffset(Offset = "0x48")]
 	private float Speed;
 
-	[Token(Token = "0x40017AD")]
+	[Token(Token = "0x4001E39")]
 	[FieldOffset(Offset = "0x4C")]
 	private Vector3 Gravity;
 
-	[Token(Token = "0x6003541")]
-	[Address(RVA = "0x41E6520", Offset = "0x41E6520", VA = "0x41E6520")]
+	[Token(Token = "0x6003F6E")]
+	[Address(RVA = "0x2146ED0", Offset = "0x21454D0", VA = "0x182146ED0")]
 	public FlareItem(BaseCharacter owner, string name, Color color, float cooldown)
 	{
 	}
 
-	[Token(Token = "0x6003542")]
-	[Address(RVA = "0x41E65E0", Offset = "0x41E65E0", VA = "0x41E65E0", Slot = "9")]
+	[Token(Token = "0x6003F6F")]
+	[Address(RVA = "0x2146A20", Offset = "0x2145020", VA = "0x182146A20", Slot = "9")]
 	protected override void Activate()
 	{
 	}

@@ -11,48 +11,48 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000047")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorRangeAttribute : Attribute
 {
-	[Token(Token = "0x17000069")]
+	[Token(Token = "0x1700006A")]
 	public float min
 	{
-		[Token(Token = "0x60001F6")]
-		[Address(RVA = "0x4CA3C30", Offset = "0x4CA3C30", VA = "0x4CA3C30")]
+		[Token(Token = "0x60001FB")]
+		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001F7")]
-		[Address(RVA = "0x4CA3C40", Offset = "0x4CA3C40", VA = "0x4CA3C40")]
+		[Token(Token = "0x60001FC")]
+		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700006A")]
+	[Token(Token = "0x1700006B")]
 	public float max
 	{
-		[Token(Token = "0x60001F8")]
-		[Address(RVA = "0x4CA3C50", Offset = "0x4CA3C50", VA = "0x4CA3C50")]
+		[Token(Token = "0x60001FD")]
+		[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001F9")]
-		[Address(RVA = "0x4CA3C60", Offset = "0x4CA3C60", VA = "0x4CA3C60")]
+		[Token(Token = "0x60001FE")]
+		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x4CA3BF0", Offset = "0x4CA3BF0", VA = "0x4CA3BF0")]
+	[Token(Token = "0x60001FA")]
+	[Address(RVA = "0x2DB1850", Offset = "0x2DAFE50", VA = "0x182DB1850")]
 	public InspectorRangeAttribute(float min, float max)
 	{
 	}

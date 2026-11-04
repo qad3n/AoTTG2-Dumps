@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x2000335")]
+[Token(Token = "0x200030C")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct ScriptPlayableOutput
 {
-	[Token(Token = "0x4000A2E")]
+	[Token(Token = "0x40007B8")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableOutputHandle m_Handle;
 }

@@ -10,38 +10,38 @@ using UnityEngine;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x20001A0")]
+[Token(Token = "0x20001A2")]
 [Singleton(Name = "VisualScripting CoroutineRunner", Automatic = true, Persistent = true)]
 [AddComponentMenu("")]
 [DisableAnnotation]
 [IncludeInSettings(false)]
 public sealed class CoroutineRunner : MonoBehaviour, ISingleton
 {
-	[Token(Token = "0x170001CB")]
+	[Token(Token = "0x170001CE")]
 	public static CoroutineRunner instance
 	{
-		[Token(Token = "0x600100C")]
-		[Address(RVA = "0x4D5E110", Offset = "0x4D5E110", VA = "0x4D5E110")]
+		[Token(Token = "0x6001022")]
+		[Address(RVA = "0x2E50530", Offset = "0x2E4EB30", VA = "0x182E50530")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600100A")]
-	[Address(RVA = "0x4D5E040", Offset = "0x4D5E040", VA = "0x4D5E040")]
+	[Token(Token = "0x6001020")]
+	[Address(RVA = "0x2E50460", Offset = "0x2E4EA60", VA = "0x182E50460")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x600100B")]
-	[Address(RVA = "0x4D5E0A0", Offset = "0x4D5E0A0", VA = "0x4D5E0A0")]
+	[Token(Token = "0x6001021")]
+	[Address(RVA = "0x2E504C0", Offset = "0x2E4EAC0", VA = "0x182E504C0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600100D")]
-	[Address(RVA = "0x4D5E190", Offset = "0x4D5E190", VA = "0x4D5E190")]
+	[Token(Token = "0x6001023")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public CoroutineRunner()
 	{
 	}

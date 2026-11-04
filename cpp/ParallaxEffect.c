@@ -1,5 +1,5 @@
 // Type: ParallaxEffect
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ParallaxEffect.cs
@@ -8,300 +8,237 @@
 
 // ParallaxEffect$$Awake
 // il2cpp: void ParallaxEffect__Awake (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x4064150
+// 0x181dab910
 
 void ParallaxEffect__Awake(ParallaxEffect_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  int32_t iVar2;
-  int32_t iVar3;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector3_StaticFields *pUVar3;
   int32_t iVar4;
   int32_t iVar5;
   UnityEngine_RectTransform_o *pUVar6;
-  UnityEngine_RectTransform_o **ppUVar7;
-  uint uVar8;
-  UnityEngine_Vector2_o UVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  UnityEngine_Vector3_o UVar13;
-  UnityEngine_Vector2_o UStack_80;
+  UnityEngine_Vector3_Fields local_28 [2];
   
-  if (g_data_057ac2b0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    g_data_057ac2b0 = '\x01';
+  if (Il2CppMethodInitialized_1843448df == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+    Il2CppMethodInitialized_1843448df = '\x01';
   }
-  pUVar6 = (UnityEngine_RectTransform_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_RectTransform_GetComponent_RectTransform);
-  ppUVar7 = &(__this->fields).rectTransform;
+  pUVar6 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
   (__this->fields).rectTransform = pUVar6;
-  il2cpp_runtime_helper_022b4080();
+  Il2CppCodeGenWriteBarrier(&(__this->fields).rectTransform,pUVar6);
   pUVar6 = (__this->fields).rectTransform;
-  if (g_data_057a6932 == '\0') {
-    ppUVar7 = (UnityEngine_RectTransform_o **)&TypeInfo_Vector3;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a6932 = '\x01';
+  if (Il2CppMethodInitialized_18433dbeb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433dbeb = '\x01';
   }
+  local_28[0].z = (__this->fields).scale;
+  pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar1 = (pUVar3->oneVector).fields.x;
+  uVar2 = (pUVar3->oneVector).fields.y;
+  local_28[0].x = (float)uVar1 * local_28[0].z;
+  local_28[0].y = (float)uVar2 * local_28[0].z;
   if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
-    fVar10 = (__this->fields).scale;
-    uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc);
-    UVar13.fields.x = fVar10 * (float)uVar1;
-    UVar13.fields.y = fVar10 * (float)((ulong)uVar1 >> 0x20);
-    UVar13.fields.z = fVar10 * *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x14);
-    UnityEngine_Transform__set_localScale((UnityEngine_Transform_o *)pUVar6,UVar13,(MethodInfo *)0x0);
-    iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-    iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-    (__this->fields).lastValidMousePosition.fields.x = (float)iVar2 * 0.5;
-    (__this->fields).lastValidMousePosition.fields.y = (float)iVar3 * 0.5;
+    local_28[0].z = local_28[0].z * (pUVar3->oneVector).fields.z;
+    UnityEngine_Transform__set_localScale
+              ((UnityEngine_Transform_o *)pUVar6,(UnityEngine_Vector3_o *)local_28,(MethodInfo *)0x0);
+    iVar4 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+    iVar5 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+    (__this->fields).lastValidMousePosition.fields.x = (float)iVar4 * 0.5;
+    (__this->fields).lastValidMousePosition.fields.y = (float)iVar5 * 0.5;
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  UVar13 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
-  if (0.0 <= UVar13.fields.x) {
-    iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-    UStack_80.fields.y = UVar13.fields.y;
-    if ((UVar13.fields.x <= (float)iVar2) && (0.0 <= UStack_80.fields.y)) {
-      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-      if (UStack_80.fields.y <= (float)iVar2) {
-        ppUVar7[8] = (UnityEngine_RectTransform_o *)UVar13.fields._0_8_;
-        UStack_80.fields = (UnityEngine_Vector2_Fields)UVar13.fields._0_8_;
-        goto label_04064286;
-      }
-    }
-  }
-  UStack_80.fields = (UnityEngine_Vector2_Fields)ppUVar7[8];
-label_04064286:
-  fVar10 = *(float *)(ppUVar7 + 5);
-  iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  fVar12 = *(float *)(ppUVar7 + 5);
-  iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  iVar4 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  iVar5 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  pUVar6 = ppUVar7[7];
-  if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
-    fVar11 = (fVar10 + -1.0) * (float)(iVar2 / 2);
-    fVar12 = (fVar12 + -1.0) * (float)(iVar3 / 2);
-    UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar6,(MethodInfo *)0x0);
-    fVar10 = *(float *)((long)ppUVar7 + 0x24);
-    UStack_80.fields.y =
-         ((fVar12 + fVar12) * (UStack_80.fields.y / (float)iVar5) - fVar12) * *(float *)(ppUVar7 + 4);
-    UStack_80.fields.x =
-         ((UStack_80.fields.x / (float)iVar4) * (fVar11 + fVar11) - fVar11) * *(float *)(ppUVar7 + 4);
-    fVar12 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-    UVar9 = UnityEngine_Vector2__SmoothDamp_4def270
-                      (UVar9,UStack_80,(UnityEngine_Vector2_o *)((long)ppUVar7 + 0x2c),fVar10,INFINITY,fVar12,
-                       (MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchoredPosition(pUVar6,UVar9,(MethodInfo *)0x0);
-    pUVar6 = ppUVar7[7];
-    if (pUVar6 != (UnityEngine_RectTransform_o *)0x0) {
-      UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar6,(MethodInfo *)0x0);
-      fVar10 = *(float *)(ppUVar7 + 5);
-      iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-      fVar12 = (float)(iVar2 / 2) * (fVar10 + -1.0);
-      fVar10 = *(float *)(ppUVar7 + 5);
-      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-      fVar11 = (float)(iVar2 / 2) * (fVar10 + -1.0);
-      UStack_80.fields.x = UVar9.fields.x;
-      UStack_80.fields.y = UVar9.fields.y;
-      fVar10 = fVar12;
-      if (UStack_80.fields.x <= fVar12) {
-        fVar10 = UStack_80.fields.x;
-      }
-      uVar8 = -(uint)(-fVar12 <= UStack_80.fields.x);
-      UVar9.fields.x = (float)(~uVar8 & (uint)-fVar12 | (uint)fVar10 & uVar8);
-      fVar10 = fVar11;
-      if (UStack_80.fields.y <= fVar11) {
-        fVar10 = UStack_80.fields.y;
-      }
-      uVar8 = -(uint)(-fVar11 <= UStack_80.fields.y);
-      UVar9.fields.y = (float)(~uVar8 & (uint)-fVar11 | (uint)fVar10 & uVar8);
-      UnityEngine_RectTransform__set_anchoredPosition(pUVar6,UVar9,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ParallaxEffect$$Update
 // il2cpp: void ParallaxEffect__Update (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x4064230
+// 0x181dabc70
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dabf27: movaps xmm0, xmm1
 
 void ParallaxEffect__Update(ParallaxEffect_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_RectTransform_o *pUVar1;
-  int32_t iVar2;
+  float fVar1;
+  float smoothTime;
+  UnityEngine_RectTransform_o *pUVar2;
   int32_t iVar3;
   int32_t iVar4;
-  int32_t iVar5;
-  uint uVar6;
-  float fVar7;
+  UnityEngine_Vector3_o *pUVar5;
+  UnityEngine_Vector2_o UVar6;
+  UnityEngine_Vector2_Fields UVar7;
   float fVar8;
-  UnityEngine_Vector2_o UVar9;
+  float fVar9;
   float fVar10;
-  float fVar11;
-  UnityEngine_Vector3_o UVar12;
-  UnityEngine_Vector2_Fields UStack_68;
+  UnityEngine_Vector2_Fields UVar11;
+  float fVar12;
+  float fVar13;
+  float fVar14;
+  UnityEngine_Vector2_Fields local_res8;
+  UnityEngine_Vector2_Fields local_res18 [2];
+  UnityEngine_Vector3_o local_a8 [13];
   
-  UVar12 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
-  if (0.0 <= UVar12.fields.x) {
-    iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-    UStack_68.y = UVar12.fields.y;
-    if ((UVar12.fields.x <= (float)iVar2) && (0.0 <= UStack_68.y)) {
-      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-      if (UStack_68.y <= (float)iVar2) {
-        (__this->fields).lastValidMousePosition.fields = UVar12.fields._0_8_;
-        UStack_68 = UVar12.fields._0_8_;
-        goto label_04064286;
-      }
+  pUVar5 = UnityEngine_Input__get_mousePosition(local_a8,(MethodInfo *)0x0);
+  fVar8 = (pUVar5->fields).x;
+  if (0.0 <= fVar8) {
+    fVar14 = (pUVar5->fields).y;
+    iVar3 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+    if (((fVar8 <= (float)iVar3) && (0.0 <= fVar14)) &&
+       (iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0), fVar14 <= (float)iVar3)) {
+      (__this->fields).lastValidMousePosition.fields.x = fVar8;
+      (__this->fields).lastValidMousePosition.fields.y = fVar14;
+      goto label_181dabd1b;
     }
   }
-  UStack_68 = (__this->fields).lastValidMousePosition.fields;
-label_04064286:
-  fVar7 = (__this->fields).scale;
-  iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  fVar8 = (__this->fields).scale;
+  fVar8 = (__this->fields).lastValidMousePosition.fields.x;
+  fVar14 = (__this->fields).lastValidMousePosition.fields.y;
+label_181dabd1b:
+  fVar9 = (__this->fields).scale;
+  iVar3 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  fVar12 = (float)(iVar3 / 2) * (fVar9 - 1.0);
+  fVar9 = (__this->fields).scale;
   iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  iVar4 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  iVar5 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  pUVar1 = (__this->fields).rectTransform;
-  if (pUVar1 != (UnityEngine_RectTransform_o *)0x0) {
-    fVar10 = (fVar7 + -1.0) * (float)(iVar2 / 2);
-    fVar11 = (fVar8 + -1.0) * (float)(iVar3 / 2);
-    UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar1,(MethodInfo *)0x0);
-    fVar7 = (__this->fields).parallaxIntensity;
-    fVar8 = (__this->fields).smoothTime;
-    UStack_68.y = ((fVar11 + fVar11) * (UStack_68.y / (float)iVar5) - fVar11) * fVar7;
-    UStack_68.x = ((UStack_68.x / (float)iVar4) * (fVar10 + fVar10) - fVar10) * fVar7;
-    fVar7 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-    UVar9 = UnityEngine_Vector2__SmoothDamp_4def270
-                      (UVar9,UStack_68,&(__this->fields).currentVelocity,fVar8,INFINITY,fVar7,
-                       (MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchoredPosition(pUVar1,UVar9,(MethodInfo *)0x0);
-    pUVar1 = (__this->fields).rectTransform;
-    if (pUVar1 != (UnityEngine_RectTransform_o *)0x0) {
-      UVar9 = UnityEngine_RectTransform__get_anchoredPosition(pUVar1,(MethodInfo *)0x0);
-      fVar7 = (__this->fields).scale;
-      iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-      fVar8 = (float)(iVar2 / 2) * (fVar7 + -1.0);
-      fVar7 = (__this->fields).scale;
-      iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-      fVar10 = (float)(iVar2 / 2) * (fVar7 + -1.0);
-      UStack_68.x = UVar9.fields.x;
-      UStack_68.y = UVar9.fields.y;
-      fVar7 = fVar8;
-      if (UStack_68.x <= fVar8) {
-        fVar7 = UStack_68.x;
+  fVar13 = (float)(iVar3 / 2) * (fVar9 - 1.0);
+  fVar9 = -fVar12;
+  fVar10 = -fVar13;
+  iVar3 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  iVar4 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  pUVar2 = (__this->fields).rectTransform;
+  if (pUVar2 != (UnityEngine_RectTransform_o *)0x0) {
+    local_res18[0] =
+         (UnityEngine_Vector2_Fields)UnityEngine_RectTransform__get_anchoredPosition(pUVar2,(MethodInfo *)0x0)
+    ;
+    fVar1 = (__this->fields).parallaxIntensity;
+    smoothTime = (__this->fields).smoothTime;
+    local_res8.y = (((fVar14 - 0.0) / ((float)iVar4 - 0.0)) * (fVar13 - fVar10) + fVar10) * fVar1;
+    local_res8.x = (((fVar8 - 0.0) / ((float)iVar3 - 0.0)) * (fVar12 - fVar9) + fVar9) * fVar1;
+    fVar8 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+    UVar6 = UnityEngine_Vector2__SmoothDamp_2f0b1f0
+                      ((UnityEngine_Vector2_o *)local_res18,(UnityEngine_Vector2_o *)&local_res8,
+                       &(__this->fields).currentVelocity,smoothTime,INFINITY,fVar8,(MethodInfo *)0x0);
+    UnityEngine_RectTransform__set_anchoredPosition(pUVar2,UVar6,(MethodInfo *)0x0);
+    pUVar2 = (__this->fields).rectTransform;
+    if (pUVar2 != (UnityEngine_RectTransform_o *)0x0) {
+      UVar7 = (UnityEngine_Vector2_Fields)
+              UnityEngine_RectTransform__get_anchoredPosition(pUVar2,(MethodInfo *)0x0);
+      fVar8 = (__this->fields).scale;
+      local_res8.y = UVar7.y;
+      fVar14 = local_res8.y;
+      local_res8 = UVar7;
+      iVar3 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+      UVar11.x = (float)(iVar3 / 2) * (fVar8 - 1.0);
+      UVar11.y = 0.0;
+      fVar8 = (__this->fields).scale;
+      iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+      fVar8 = (float)(iVar3 / 2) * (fVar8 - 1.0);
+      if (UVar7.x < -UVar11.x) {
+        UVar11.y = 0.0;
+        UVar11.x = -UVar11.x;
       }
-      uVar6 = -(uint)(-fVar8 <= UStack_68.x);
-      UVar9.fields.x = (float)(~uVar6 & (uint)-fVar8 | (uint)fVar7 & uVar6);
-      fVar7 = fVar10;
-      if (UStack_68.y <= fVar10) {
-        fVar7 = UStack_68.y;
+      else if (UVar7.x <= UVar11.x) {
+        UVar11 = UVar7;
       }
-      uVar6 = -(uint)(-fVar10 <= UStack_68.y);
-      UVar9.fields.y = (float)(~uVar6 & (uint)-fVar10 | (uint)fVar7 & uVar6);
-      UnityEngine_RectTransform__set_anchoredPosition(pUVar1,UVar9,(MethodInfo *)0x0);
+      fVar9 = -fVar8;
+      if ((fVar9 <= fVar14) && (fVar9 = fVar8, fVar14 <= fVar8)) {
+        fVar9 = fVar14;
+      }
+      UVar6.fields.x = UVar11.x;
+      UVar6.fields.y = fVar9;
+      UnityEngine_RectTransform__set_anchoredPosition(pUVar2,UVar6,(MethodInfo *)0x0);
       return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ParallaxEffect$$GetConstrainedTargetPosition
 // il2cpp: UnityEngine_Vector2_o ParallaxEffect__GetConstrainedTargetPosition (ParallaxEffect_o* __this, UnityEngine_Vector2_o mousePosition, const MethodInfo* method);
-// 0x4064500
+// 0x181dabb00
 
 UnityEngine_Vector2_o
 ParallaxEffect__GetConstrainedTargetPosition
           (ParallaxEffect_o *__this,UnityEngine_Vector2_o mousePosition,MethodInfo *method)
 
 {
-  UnityEngine_Vector2_o UVar1;
-  int32_t iVar2;
-  int32_t iVar3;
+  int32_t iVar1;
+  float fVar2;
+  float fVar3;
   float fVar4;
   float fVar5;
-  float local_18;
-  float fStack_14;
+  UnityEngine_Vector2_Fields UVar6;
+  float fStackX_c;
   
-  fVar5 = (__this->fields).scale;
-  iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  fVar4 = (float)(iVar2 / 2) * (fVar5 + -1.0);
-  fVar5 = (__this->fields).scale;
-  iVar2 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  fVar5 = (float)(iVar2 / 2) * (fVar5 + -1.0);
-  iVar2 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  local_18 = mousePosition.fields.x;
-  fStack_14 = mousePosition.fields.y;
-  iVar3 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  UVar1.fields.y = (fVar5 + fVar5) * (fStack_14 / (float)iVar3) - fVar5;
-  UVar1.fields.x = (local_18 / (float)iVar2) * (fVar4 + fVar4) - fVar4;
-  return (UnityEngine_Vector2_o)UVar1.fields;
+  fVar2 = (__this->fields).scale;
+  iVar1 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  fVar4 = (float)(iVar1 / 2) * (fVar2 - 1.0);
+  fVar2 = (__this->fields).scale;
+  iVar1 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  fVar5 = (float)(iVar1 / 2) * (fVar2 - 1.0);
+  fVar2 = -fVar4;
+  fVar3 = -fVar5;
+  iVar1 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
+  UVar6.x = ((mousePosition.fields.x - 0.0) / ((float)iVar1 - 0.0)) * (fVar4 - fVar2) + fVar2;
+  fStackX_c = mousePosition.fields.y;
+  iVar1 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
+  UVar6.y = ((fStackX_c - 0.0) / ((float)iVar1 - 0.0)) * (fVar5 - fVar3) + fVar3;
+  return (UnityEngine_Vector2_o)UVar6;
 }
 
 
 // ParallaxEffect$$ClampPosition
 // il2cpp: UnityEngine_Vector2_o ParallaxEffect__ClampPosition (ParallaxEffect_o* __this, UnityEngine_Vector2_o position, const MethodInfo* method);
-// 0x4064600
+// 0x181daba20
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dabad1: movaps xmm0, xmm1
 
 UnityEngine_Vector2_o
 ParallaxEffect__ClampPosition(ParallaxEffect_o *__this,UnityEngine_Vector2_o position,MethodInfo *method)
 
 {
   int32_t iVar1;
-  uint uVar2;
+  float fVar2;
   float fVar3;
   UnityEngine_Vector2_Fields UVar4;
-  float fVar5;
-  float fVar6;
-  float local_18;
-  float fStack_14;
+  UnityEngine_Vector2_Fields UVar5;
+  float fStackX_c;
   
-  fVar6 = (__this->fields).scale;
+  fVar2 = (__this->fields).scale;
   iVar1 = UnityEngine_Screen__get_width((MethodInfo *)0x0);
-  fVar3 = (float)(iVar1 / 2) * (fVar6 + -1.0);
-  fVar6 = (__this->fields).scale;
+  UVar4.x = (float)(iVar1 / 2) * (fVar2 - 1.0);
+  UVar4.y = 0.0;
+  fVar2 = (__this->fields).scale;
   iVar1 = UnityEngine_Screen__get_height((MethodInfo *)0x0);
-  fVar5 = (float)(iVar1 / 2) * (fVar6 + -1.0);
-  local_18 = position.fields.x;
-  fStack_14 = position.fields.y;
-  fVar6 = fVar3;
-  if (local_18 <= fVar3) {
-    fVar6 = local_18;
+  fVar2 = (float)(iVar1 / 2) * (fVar2 - 1.0);
+  if (position.fields.x < -UVar4.x) {
+    UVar4.y = 0.0;
+    UVar4.x = -UVar4.x;
   }
-  uVar2 = -(uint)(-fVar3 <= local_18);
-  UVar4.x = (float)(~uVar2 & (uint)-fVar3 | (uint)fVar6 & uVar2);
-  fVar6 = fVar5;
-  if (fStack_14 <= fVar5) {
-    fVar6 = fStack_14;
+  else if (position.fields.x <= UVar4.x) {
+    UVar4 = position.fields;
   }
-  uVar2 = -(uint)(-fVar5 <= fStack_14);
-  UVar4.y = (float)(~uVar2 & (uint)-fVar5 | (uint)fVar6 & uVar2);
-  return (UnityEngine_Vector2_o)UVar4;
+  fVar3 = -fVar2;
+  fStackX_c = position.fields.y;
+  if ((fVar3 <= fStackX_c) && (fVar3 = fVar2, fStackX_c <= fVar2)) {
+    fVar3 = fStackX_c;
+  }
+  UVar5.x = UVar4.x;
+  UVar5.y = fVar3;
+  return (UnityEngine_Vector2_o)UVar5;
 }
 
 
 // ParallaxEffect$$MapRange
 // il2cpp: float ParallaxEffect__MapRange (ParallaxEffect_o* __this, float value, float fromSource, float toSource, float fromTarget, float toTarget, const MethodInfo* method);
-// 0x40646d0
+// 0x181dabc40
 
-float ParallaxEffect__MapRange
-                (ParallaxEffect_o *__this,float value,float fromSource,float toSource,float fromTarget,
-                float toTarget,MethodInfo *method)
+float
+ParallaxEffect__MapRange(ParallaxEffect_o* __this, float value, float fromSource, float toSource, float fromTarget, float toTarget, MethodInfo* method)
 
 {
   return ((value - fromSource) / (toSource - fromSource)) * (toTarget - fromTarget) + fromTarget;
@@ -310,7 +247,7 @@ float ParallaxEffect__MapRange
 
 // ParallaxEffect$$.ctor
 // il2cpp: void ParallaxEffect___ctor (ParallaxEffect_o* __this, const MethodInfo* method);
-// 0x40646f0
+// 0x181dabf80
 
 void ParallaxEffect___ctor(ParallaxEffect_o *__this,MethodInfo *method)
 

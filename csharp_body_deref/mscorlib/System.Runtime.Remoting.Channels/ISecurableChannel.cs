@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x2000383")]
+[Token(Token = "0x20003B2")]
 public interface ISecurableChannel
 {
-	[Token(Token = "0x17000379")]
+	[Token(Token = "0x1700037B")]
 	bool IsSecured
 	{
-		[Token(Token = "0x6001DA9")]
+		[Token(Token = "0x6001E18")]
 		set;
 	}
 }

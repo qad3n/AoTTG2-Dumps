@@ -10,12 +10,12 @@ using UnityEngine;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000079")]
+[Token(Token = "0x2000078")]
 public enum GraphSource
 {
-	[Token(Token = "0x4000118")]
+	[Token(Token = "0x4000115")]
 	Embed,
-	[Token(Token = "0x4000119")]
+	[Token(Token = "0x4000116")]
 	[InspectorName("Graph")]
 	Macro
 }

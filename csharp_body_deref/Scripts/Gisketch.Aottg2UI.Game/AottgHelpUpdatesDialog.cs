@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgHelpUpdatesDialog
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgHelpUpdatesDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,137 +12,137 @@ using SimpleJSONFixed;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000151")]
+[Token(Token = "0x20001DB")]
 [AottgDialog("help-updates")]
 public sealed class AottgHelpUpdatesDialog : AottgDialog
 {
-	[Token(Token = "0x4000788")]
+	[Token(Token = "0x4000A06")]
 	public const string Id = "help-updates";
 
-	[Token(Token = "0x17000111")]
+	[Token(Token = "0x17000146")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000767")]
-		[Address(RVA = "0x43E39A0", Offset = "0x43E39A0", VA = "0x43E39A0", Slot = "4")]
+		[Token(Token = "0x6000AD1")]
+		[Address(RVA = "0x23B3330", Offset = "0x23B1930", VA = "0x1823B3330", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000112")]
+	[Token(Token = "0x17000147")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x6000768")]
-		[Address(RVA = "0x43E39D0", Offset = "0x43E39D0", VA = "0x43E39D0", Slot = "5")]
+		[Token(Token = "0x6000AD2")]
+		[Address(RVA = "0x23B3300", Offset = "0x23B1900", VA = "0x1823B3300", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000113")]
+	[Token(Token = "0x17000148")]
 	protected override AottgButtonVariant Variant
 	{
-		[Token(Token = "0x6000769")]
-		[Address(RVA = "0x43E3A00", Offset = "0x43E3A00", VA = "0x43E3A00", Slot = "13")]
+		[Token(Token = "0x6000AD3")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "14")]
 		get
 		{
 			return default(AottgButtonVariant);
 		}
 	}
 
-	[Token(Token = "0x17000114")]
+	[Token(Token = "0x17000149")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x600076A")]
-		[Address(RVA = "0x43E3A10", Offset = "0x43E3A10", VA = "0x43E3A10", Slot = "14")]
+		[Token(Token = "0x6000AD4")]
+		[Address(RVA = "0x23B31D0", Offset = "0x23B17D0", VA = "0x1823B31D0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000115")]
+	[Token(Token = "0x1700014A")]
 	protected override GisketchLayoutDefinition BodyLayout
 	{
-		[Token(Token = "0x600076B")]
-		[Address(RVA = "0x43E3B10", Offset = "0x43E3B10", VA = "0x43E3B10", Slot = "16")]
+		[Token(Token = "0x6000AD5")]
+		[Address(RVA = "0x23B30E0", Offset = "0x23B16E0", VA = "0x1823B30E0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600076C")]
-	[Address(RVA = "0x43E3BD0", Offset = "0x43E3BD0", VA = "0x43E3BD0", Slot = "19")]
+	[Token(Token = "0x6000AD6")]
+	[Address(RVA = "0x23B1610", Offset = "0x23AFC10", VA = "0x1823B1610", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x600076D")]
-	[Address(RVA = "0x43E4170", Offset = "0x43E4170", VA = "0x43E4170", Slot = "20")]
+	[Token(Token = "0x6000AD7")]
+	[Address(RVA = "0x23B1830", Offset = "0x23AFE30", VA = "0x1823B1830", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x600076E")]
-	[Address(RVA = "0x43E3CF0", Offset = "0x43E3CF0", VA = "0x43E3CF0")]
+	[Token(Token = "0x6000AD8")]
+	[Address(RVA = "0x23B1E00", Offset = "0x23B0400", VA = "0x1823B1E00")]
 	private static void BuildLatestCard(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x600076F")]
-	[Address(RVA = "0x43E41D0", Offset = "0x43E41D0", VA = "0x43E41D0")]
+	[Token(Token = "0x6000AD9")]
+	[Address(RVA = "0x23B25C0", Offset = "0x23B0BC0", VA = "0x1823B25C0")]
 	private static void BuildLatestReady(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x6000770")]
-	[Address(RVA = "0x43E4450", Offset = "0x43E4450", VA = "0x43E4450")]
+	[Token(Token = "0x6000ADA")]
+	[Address(RVA = "0x23B2340", Offset = "0x23B0940", VA = "0x1823B2340")]
 	private static void BuildLatestLoading(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x6000771")]
-	[Address(RVA = "0x43E46D0", Offset = "0x43E46D0", VA = "0x43E46D0")]
+	[Token(Token = "0x6000ADB")]
+	[Address(RVA = "0x23B2A60", Offset = "0x23B1060", VA = "0x1823B2A60")]
 	private static void BuildPreviewSkeleton(AottgUi ui, string idPrefix)
 	{
 	}
 
-	[Token(Token = "0x6000772")]
-	[Address(RVA = "0x43E4B70", Offset = "0x43E4B70", VA = "0x43E4B70")]
+	[Token(Token = "0x6000ADC")]
+	[Address(RVA = "0x23B20C0", Offset = "0x23B06C0", VA = "0x1823B20C0")]
 	private static void BuildLatestError(AottgUi card)
 	{
 	}
 
-	[Token(Token = "0x6000773")]
-	[Address(RVA = "0x43E4DF0", Offset = "0x43E4DF0", VA = "0x43E4DF0")]
-	private static void BuildLatestState(AottgUi card, string visibleKey, string text, string id)
+	[Token(Token = "0x6000ADD")]
+	[Address(RVA = "0x23B2840", Offset = "0x23B0E40", VA = "0x1823B2840")]
+	private static void BuildLatestState(AottgUi card, string visibleKey, string textKey, string text, string id)
 	{
 	}
 
-	[Token(Token = "0x6000774")]
-	[Address(RVA = "0x43E3F30", Offset = "0x43E3F30", VA = "0x43E3F30")]
+	[Token(Token = "0x6000ADE")]
+	[Address(RVA = "0x23B1B40", Offset = "0x23B0140", VA = "0x1823B1B40")]
 	private static void BuildHelp(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000775")]
-	[Address(RVA = "0x43E5000", Offset = "0x43E5000", VA = "0x43E5000")]
+	[Token(Token = "0x6000ADF")]
+	[Address(RVA = "0x23B18B0", Offset = "0x23AFEB0", VA = "0x1823B18B0")]
 	private static void BuildHelpLink(AottgUi help, JSONNode node, int index)
 	{
 	}
 
-	[Token(Token = "0x6000776")]
-	[Address(RVA = "0x43E5170", Offset = "0x43E5170", VA = "0x43E5170")]
+	[Token(Token = "0x6000AE0")]
+	[Address(RVA = "0x23B3000", Offset = "0x23B1600", VA = "0x1823B3000")]
 	private static string HelpIcon(string title)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000777")]
-	[Address(RVA = "0x43E5260", Offset = "0x43E5260", VA = "0x43E5260")]
+	[Token(Token = "0x6000AE1")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgHelpUpdatesDialog()
 	{
 	}

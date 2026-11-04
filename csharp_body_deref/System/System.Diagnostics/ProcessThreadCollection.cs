@@ -11,7 +11,7 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000D7")]
+[Token(Token = "0x2000117")]
 [DefaultMember("Item")]
 public class ProcessThreadCollection : ReadOnlyCollectionBase
 {

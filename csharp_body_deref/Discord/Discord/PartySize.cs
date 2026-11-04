@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200003D")]
+[Token(Token = "0x200003B")]
 public struct PartySize
 {
-	[Token(Token = "0x40000B6")]
+	[Token(Token = "0x40000B1")]
 	[FieldOffset(Offset = "0x0")]
 	public int CurrentSize;
 
-	[Token(Token = "0x40000B7")]
+	[Token(Token = "0x40000B2")]
 	[FieldOffset(Offset = "0x4")]
 	public int MaxSize;
 }

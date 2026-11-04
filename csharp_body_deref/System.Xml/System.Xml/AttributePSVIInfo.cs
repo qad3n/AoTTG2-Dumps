@@ -30,13 +30,13 @@ internal class AttributePSVIInfo
 	internal XmlSchemaInfo attributeSchemaInfo;
 
 	[Token(Token = "0x60006FE")]
-	[Address(RVA = "0x47BD6D0", Offset = "0x47BD6D0", VA = "0x47BD6D0")]
+	[Address(RVA = "0x2704140", Offset = "0x2702740", VA = "0x182704140")]
 	internal AttributePSVIInfo()
 	{
 	}
 
 	[Token(Token = "0x60006FF")]
-	[Address(RVA = "0x47BD740", Offset = "0x47BD740", VA = "0x47BD740")]
+	[Address(RVA = "0x27040C0", Offset = "0x27026C0", VA = "0x1827040C0")]
 	internal void Reset()
 	{
 	}

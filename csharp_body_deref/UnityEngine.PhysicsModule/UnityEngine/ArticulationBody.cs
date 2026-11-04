@@ -10,8 +10,9 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
-[UnityEngine.NativeClass("Unity::ArticulationBody")]
+[Token(Token = "0x2000006")]
+[RequireComponent(typeof(Transform))]
+[UnityEngine.NativeClass("Physics::ArticulationBody")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/ArticulationBody.h")]
 public class ArticulationBody : Behaviour
 {

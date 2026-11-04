@@ -9,36 +9,37 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000044")]
 [AddComponentMenu("Layout/Horizontal Layout Group", 150)]
+[UnityEngine.UGUIHelpURL("HorizontalLayoutGroup")]
 public class HorizontalLayoutGroup : HorizontalOrVerticalLayoutGroup
 {
-	[Token(Token = "0x6000296")]
-	[Address(RVA = "0x50CF9D0", Offset = "0x50CF9D0", VA = "0x50CF9D0")]
+	[Token(Token = "0x600029F")]
+	[Address(RVA = "0x32C4F90", Offset = "0x32C3590", VA = "0x1832C4F90")]
 	protected HorizontalLayoutGroup()
 	{
 	}
 
-	[Token(Token = "0x6000297")]
-	[Address(RVA = "0x50CF9F0", Offset = "0x50CF9F0", VA = "0x50CF9F0", Slot = "28")]
+	[Token(Token = "0x60002A0")]
+	[Address(RVA = "0x32C4F30", Offset = "0x32C3530", VA = "0x1832C4F30", Slot = "28")]
 	public override void CalculateLayoutInputHorizontal()
 	{
 	}
 
-	[Token(Token = "0x6000298")]
-	[Address(RVA = "0x50CFE60", Offset = "0x50CFE60", VA = "0x50CFE60", Slot = "29")]
+	[Token(Token = "0x60002A1")]
+	[Address(RVA = "0x32C4F60", Offset = "0x32C3560", VA = "0x1832C4F60", Slot = "29")]
 	public override void CalculateLayoutInputVertical()
 	{
 	}
 
-	[Token(Token = "0x6000299")]
-	[Address(RVA = "0x50CFE70", Offset = "0x50CFE70", VA = "0x50CFE70", Slot = "37")]
+	[Token(Token = "0x60002A2")]
+	[Address(RVA = "0x32C4F70", Offset = "0x32C3570", VA = "0x1832C4F70", Slot = "37")]
 	public override void SetLayoutHorizontal()
 	{
 	}
 
-	[Token(Token = "0x600029A")]
-	[Address(RVA = "0x50D0900", Offset = "0x50D0900", VA = "0x50D0900", Slot = "38")]
+	[Token(Token = "0x60002A3")]
+	[Address(RVA = "0x32C4F80", Offset = "0x32C3580", VA = "0x1832C4F80", Slot = "38")]
 	public override void SetLayoutVertical()
 	{
 	}

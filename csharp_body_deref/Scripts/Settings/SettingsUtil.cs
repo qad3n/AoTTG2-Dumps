@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000AB")]
+[Token(Token = "0x20000E6")]
 internal class SettingsUtil
 {
-	[Token(Token = "0x6000364")]
-	[Address(RVA = "0x40FCC70", Offset = "0x40FCC70", VA = "0x40FCC70")]
+	[Token(Token = "0x60004A4")]
+	[Address(RVA = "0x1F26EE0", Offset = "0x1F254E0", VA = "0x181F26EE0")]
 	public static void SetSettingValue(BaseSetting setting, SettingType type, object value)
 	{
 	}
 
-	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x40FD150", Offset = "0x40FD150", VA = "0x40FD150")]
+	[Token(Token = "0x60004A5")]
+	[Address(RVA = "0x1F26B50", Offset = "0x1F25150", VA = "0x181F26B50")]
 	public static SettingType GetSettingType(BaseSetting setting)
 	{
 		return default(SettingType);
 	}
 
-	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x40FD4A0", Offset = "0x40FD4A0", VA = "0x40FD4A0")]
+	[Token(Token = "0x60004A6")]
+	[Address(RVA = "0x1F26B00", Offset = "0x1F25100", VA = "0x181F26B00")]
 	public static object DeserializeValueFromJson(SettingType type, string json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x40FD4E0", Offset = "0x40FD4E0", VA = "0x40FD4E0")]
+	[Token(Token = "0x60004A7")]
+	[Address(RVA = "0x1F266E0", Offset = "0x1F24CE0", VA = "0x181F266E0")]
 	public static BaseSetting CreateBaseSetting(SettingType type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x40FDB40", Offset = "0x40FDB40", VA = "0x40FDB40")]
+	[Token(Token = "0x60004A8")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public SettingsUtil()
 	{
 	}

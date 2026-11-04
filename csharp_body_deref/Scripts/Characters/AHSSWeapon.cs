@@ -10,40 +10,40 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000530")]
+[Token(Token = "0x200068A")]
 internal class AHSSWeapon : AmmoWeapon
 {
-	[Token(Token = "0x4001831")]
-	[FieldOffset(Offset = "0x4C")]
+	[Token(Token = "0x4001ECE")]
+	[FieldOffset(Offset = "0x50")]
 	protected Vector3 _target;
 
-	[Token(Token = "0x6003620")]
-	[Address(RVA = "0x41F98A0", Offset = "0x41F98A0", VA = "0x41F98A0")]
+	[Token(Token = "0x600405E")]
+	[Address(RVA = "0x21633E0", Offset = "0x21619E0", VA = "0x1821633E0")]
 	public AHSSWeapon(BaseCharacter owner, int ammo, int ammoPerRound, float cooldown)
 	{
 	}
 
-	[Token(Token = "0x6003621")]
-	[Address(RVA = "0x41F9960", Offset = "0x41F9960", VA = "0x41F9960", Slot = "15")]
+	[Token(Token = "0x600405F")]
+	[Address(RVA = "0x2163250", Offset = "0x2161850", VA = "0x182163250", Slot = "15")]
 	protected override float GetActiveTime()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003622")]
-	[Address(RVA = "0x41F9A50", Offset = "0x41F9A50", VA = "0x41F9A50", Slot = "9")]
+	[Token(Token = "0x6004060")]
+	[Address(RVA = "0x21625D0", Offset = "0x2160BD0", VA = "0x1821625D0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6003623")]
-	[Address(RVA = "0x41F9AD0", Offset = "0x41F9AD0", VA = "0x41F9AD0", Slot = "10")]
+	[Token(Token = "0x6004061")]
+	[Address(RVA = "0x2162670", Offset = "0x2160C70", VA = "0x182162670", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6003624")]
-	[Address(RVA = "0x41FA5A0", Offset = "0x41FA5A0", VA = "0x41FA5A0")]
+	[Token(Token = "0x6004062")]
+	[Address(RVA = "0x2163310", Offset = "0x2161910", VA = "0x182163310")]
 	public void HandleUI()
 	{
 	}

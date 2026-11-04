@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.LowLevel;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000011")]
 [Flags]
 public enum FontFeatureLookupFlags
 {
-	[Token(Token = "0x400006E")]
+	[Token(Token = "0x4000086")]
 	None = 0,
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x4000087")]
 	IgnoreLigatures = 4,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x4000088")]
 	IgnoreSpacingAdjustments = 0x100
 }

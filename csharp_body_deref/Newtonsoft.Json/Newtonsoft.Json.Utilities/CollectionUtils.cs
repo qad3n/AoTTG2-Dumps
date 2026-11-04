@@ -36,21 +36,21 @@ internal static class CollectionUtils
 	}
 
 	[Token(Token = "0x6000507")]
-	[Address(RVA = "0x3DABC40", Offset = "0x3DABC40", VA = "0x3DABC40")]
+	[Address(RVA = "0x1C1A520", Offset = "0x1C18B20", VA = "0x181C1A520")]
 	public static bool IsDictionaryType(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000508")]
-	[Address(RVA = "0x3DABF10", Offset = "0x3DABF10", VA = "0x3DABF10")]
+	[Address(RVA = "0x1C1A790", Offset = "0x1C18D90", VA = "0x181C1A790")]
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000509")]
-	[Address(RVA = "0x3DAC020", Offset = "0x3DAC020", VA = "0x3DAC020")]
+	[Address(RVA = "0x1C1A890", Offset = "0x1C18E90", VA = "0x181C1A890")]
 	public static ConstructorInfo ResolveEnumerableCollectionConstructor(Type collectionType, Type collectionItemType, Type constructorArgumentType)
 	{
 		return null;
@@ -104,27 +104,27 @@ internal static class CollectionUtils
 	}
 
 	[Token(Token = "0x6000512")]
-	[Address(RVA = "0x3DAC370", Offset = "0x3DAC370", VA = "0x3DAC370")]
+	[Address(RVA = "0x1C1A1C0", Offset = "0x1C187C0", VA = "0x181C1A1C0")]
 	private static IList<int> GetDimensions(IList values, int dimensionsCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000513")]
-	[Address(RVA = "0x3DAC6B0", Offset = "0x3DAC6B0", VA = "0x3DAC6B0")]
+	[Address(RVA = "0x1C19F90", Offset = "0x1C18590", VA = "0x181C19F90")]
 	private static void CopyFromJaggedToMultidimensionalArray(IList values, Array multidimensionalArray, int[] indices)
 	{
 	}
 
 	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x3DAC960", Offset = "0x3DAC960", VA = "0x3DAC960")]
+	[Address(RVA = "0x1C1A6A0", Offset = "0x1C18CA0", VA = "0x181C1A6A0")]
 	private static object JaggedArrayGetValue(IList values, int[] indices)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x3DACAC0", Offset = "0x3DACAC0", VA = "0x3DACAC0")]
+	[Address(RVA = "0x1C1AB20", Offset = "0x1C19120", VA = "0x181C1AB20")]
 	public static Array ToMultidimensionalArray(IList values, Type type, int rank)
 	{
 		return null;

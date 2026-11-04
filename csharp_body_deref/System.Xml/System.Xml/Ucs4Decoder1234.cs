@@ -13,14 +13,14 @@ namespace System.Xml;
 internal class Ucs4Decoder1234 : Ucs4Decoder
 {
 	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x47FF130", Offset = "0x47FF130", VA = "0x47FF130", Slot = "14")]
+	[Address(RVA = "0x27450D0", Offset = "0x27436D0", VA = "0x1827450D0", Slot = "14")]
 	internal override int GetFullChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x47FE620", Offset = "0x47FE620", VA = "0x47FE620")]
+	[Address(RVA = "0x2745360", Offset = "0x2743960", VA = "0x182745360")]
 	public Ucs4Decoder1234()
 	{
 	}

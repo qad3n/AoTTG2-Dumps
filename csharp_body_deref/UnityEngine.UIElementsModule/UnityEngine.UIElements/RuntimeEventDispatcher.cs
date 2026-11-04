@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200020F")]
+[Token(Token = "0x2000278")]
 internal static class RuntimeEventDispatcher
 {
-	[Token(Token = "0x6000D97")]
-	[Address(RVA = "0x5044950", Offset = "0x5044950", VA = "0x5044950")]
+	[Token(Token = "0x60010E1")]
+	[Address(RVA = "0x3284150", Offset = "0x3282750", VA = "0x183284150")]
 	public static EventDispatcher Create()
 	{
 		return null;

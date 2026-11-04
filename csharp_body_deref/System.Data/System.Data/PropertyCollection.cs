@@ -12,23 +12,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200006F")]
+[Token(Token = "0x2000079")]
 public class PropertyCollection : Hashtable, ICloneable
 {
-	[Token(Token = "0x60006D7")]
-	[Address(RVA = "0x45BD1E0", Offset = "0x45BD1E0", VA = "0x45BD1E0")]
+	[Token(Token = "0x60006F6")]
+	[Address(RVA = "0x25235C0", Offset = "0x2521BC0", VA = "0x1825235C0")]
 	public PropertyCollection()
 	{
 	}
 
-	[Token(Token = "0x60006D8")]
-	[Address(RVA = "0x45BD1F0", Offset = "0x45BD1F0", VA = "0x45BD1F0")]
+	[Token(Token = "0x60006F7")]
+	[Address(RVA = "0x25235D0", Offset = "0x2521BD0", VA = "0x1825235D0")]
 	protected PropertyCollection(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60006D9")]
-	[Address(RVA = "0x45BD200", Offset = "0x45BD200", VA = "0x45BD200", Slot = "25")]
+	[Token(Token = "0x60006F8")]
+	[Address(RVA = "0x2523390", Offset = "0x2521990", VA = "0x182523390", Slot = "25")]
 	public override object Clone()
 	{
 		return null;

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 public interface IAsyncReactiveProperty<T> : IReadOnlyAsyncReactiveProperty<T>, IUniTaskAsyncEnumerable<T>
 {
 	[Token(Token = "0x17000005")]
 	new T Value
 	{
-		[Token(Token = "0x600001A")]
+		[Token(Token = "0x6000018")]
 		get;
-		[Token(Token = "0x600001B")]
+		[Token(Token = "0x6000019")]
 		set;
 	}
 }

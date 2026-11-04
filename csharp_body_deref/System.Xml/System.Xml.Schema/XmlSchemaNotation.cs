@@ -34,13 +34,13 @@ public class XmlSchemaNotation : XmlSchemaAnnotated
 	public string Name
 	{
 		[Token(Token = "0x60016B6")]
-		[Address(RVA = "0x4725680", Offset = "0x4725680", VA = "0x4725680")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016B7")]
-		[Address(RVA = "0x4725690", Offset = "0x4725690", VA = "0x4725690")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		set
 		{
 		}
@@ -51,13 +51,13 @@ public class XmlSchemaNotation : XmlSchemaAnnotated
 	public string Public
 	{
 		[Token(Token = "0x60016B8")]
-		[Address(RVA = "0x47256A0", Offset = "0x47256A0", VA = "0x47256A0")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016B9")]
-		[Address(RVA = "0x47256B0", Offset = "0x47256B0", VA = "0x47256B0")]
+		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
 		set
 		{
 		}
@@ -68,13 +68,13 @@ public class XmlSchemaNotation : XmlSchemaAnnotated
 	public string System
 	{
 		[Token(Token = "0x60016BA")]
-		[Address(RVA = "0x47256C0", Offset = "0x47256C0", VA = "0x47256C0")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016BB")]
-		[Address(RVA = "0x47256D0", Offset = "0x47256D0", VA = "0x47256D0")]
+		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
 		set
 		{
 		}
@@ -85,13 +85,13 @@ public class XmlSchemaNotation : XmlSchemaAnnotated
 	internal XmlQualifiedName QualifiedName
 	{
 		[Token(Token = "0x60016BC")]
-		[Address(RVA = "0x47256E0", Offset = "0x47256E0", VA = "0x47256E0")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016BD")]
-		[Address(RVA = "0x47256F0", Offset = "0x47256F0", VA = "0x47256F0")]
+		[Address(RVA = "0xB48790", Offset = "0xB46D90", VA = "0x180B48790")]
 		set
 		{
 		}
@@ -102,20 +102,20 @@ public class XmlSchemaNotation : XmlSchemaAnnotated
 	internal override string NameAttribute
 	{
 		[Token(Token = "0x60016BE")]
-		[Address(RVA = "0x4725700", Offset = "0x4725700", VA = "0x4725700", Slot = "11")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016BF")]
-		[Address(RVA = "0x4725710", Offset = "0x4725710", VA = "0x4725710", Slot = "12")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "12")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60016C0")]
-	[Address(RVA = "0x4725720", Offset = "0x4725720", VA = "0x4725720")]
+	[Address(RVA = "0x266CD40", Offset = "0x266B340", VA = "0x18266CD40")]
 	public XmlSchemaNotation()
 	{
 	}

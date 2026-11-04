@@ -11,146 +11,146 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x200009B")]
 public readonly struct GisketchUIColorPickerValue
 {
-	[Token(Token = "0x40002B8")]
+	[Token(Token = "0x4000348")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public readonly byte R;
 
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x4000349")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1")]
 	public readonly byte G;
 
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x400034A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	public readonly byte B;
 
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x400034B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3")]
 	public readonly byte A;
 
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x400034C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	public readonly float H;
 
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x400034D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public readonly float S;
 
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x400034E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	public readonly float V;
 
-	[Token(Token = "0x1700006B")]
+	[Token(Token = "0x17000093")]
 	public Color32 Color32
 	{
-		[Token(Token = "0x6000397")]
-		[Address(RVA = "0x3A70530", Offset = "0x3A70530", VA = "0x3A70530")]
+		[Token(Token = "0x60004A9")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		get
 		{
 			return default(Color32);
 		}
 	}
 
-	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x3A6F040", Offset = "0x3A6F040", VA = "0x3A6F040")]
+	[Token(Token = "0x60004A7")]
+	[Address(RVA = "0x18F0D90", Offset = "0x18EF390", VA = "0x1818F0D90")]
 	public GisketchUIColorPickerValue(byte r, byte g, byte b, byte a)
 	{
 	}
 
-	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x3A706A0", Offset = "0x3A706A0", VA = "0x3A706A0")]
+	[Token(Token = "0x60004A8")]
+	[Address(RVA = "0x18F0E30", Offset = "0x18EF430", VA = "0x1818F0E30")]
 	private GisketchUIColorPickerValue(byte r, byte g, byte b, byte a, float h, float s, float v)
 	{
 	}
 
-	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x3A6B560", Offset = "0x3A6B560", VA = "0x3A6B560")]
+	[Token(Token = "0x60004AA")]
+	[Address(RVA = "0x18F0820", Offset = "0x18EEE20", VA = "0x1818F0820")]
 	public string ToHex(bool alpha)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000399")]
-	[Address(RVA = "0x3A6FEB0", Offset = "0x3A6FEB0", VA = "0x3A6FEB0")]
+	[Token(Token = "0x60004AB")]
+	[Address(RVA = "0x18F0D00", Offset = "0x18EF300", VA = "0x1818F0D00")]
 	public GisketchUIColorPickerValue WithRgb(byte r, byte g, byte b)
 	{
 		return default(GisketchUIColorPickerValue);
 	}
 
-	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x3A70730", Offset = "0x3A70730", VA = "0x3A70730")]
+	[Token(Token = "0x60004AC")]
+	[Address(RVA = "0x18F0C60", Offset = "0x18EF260", VA = "0x1818F0C60")]
 	public GisketchUIColorPickerValue WithAlpha(byte a)
 	{
 		return default(GisketchUIColorPickerValue);
 	}
 
-	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x3A707F0", Offset = "0x3A707F0", VA = "0x3A707F0")]
+	[Token(Token = "0x60004AD")]
+	[Address(RVA = "0x18F0CC0", Offset = "0x18EF2C0", VA = "0x1818F0CC0")]
 	public GisketchUIColorPickerValue WithHue(float h)
 	{
 		return default(GisketchUIColorPickerValue);
 	}
 
-	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x3A70A00", Offset = "0x3A70A00", VA = "0x3A70A00")]
+	[Token(Token = "0x60004AE")]
+	[Address(RVA = "0x18F0D50", Offset = "0x18EF350", VA = "0x1818F0D50")]
 	public GisketchUIColorPickerValue WithSaturationValue(float s, float v)
 	{
 		return default(GisketchUIColorPickerValue);
 	}
 
-	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x3A70900", Offset = "0x3A70900", VA = "0x3A70900")]
+	[Token(Token = "0x60004AF")]
+	[Address(RVA = "0x18F0470", Offset = "0x18EEA70", VA = "0x1818F0470")]
 	public static GisketchUIColorPickerValue FromHsv(float h, float s, float v, byte a)
 	{
 		return default(GisketchUIColorPickerValue);
 	}
 
-	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x3A6A4A0", Offset = "0x3A6A4A0", VA = "0x3A6A4A0")]
+	[Token(Token = "0x60004B0")]
+	[Address(RVA = "0x18F0640", Offset = "0x18EEC40", VA = "0x1818F0640")]
 	public static string Normalize(string text, bool alpha, [Optional] string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x3A70120", Offset = "0x3A70120", VA = "0x3A70120")]
+	[Token(Token = "0x60004B1")]
+	[Address(RVA = "0x18F0320", Offset = "0x18EE920", VA = "0x1818F0320")]
 	public static string FilterHexInput(string text, bool alpha)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x3A6EDC0", Offset = "0x3A6EDC0", VA = "0x3A6EDC0")]
+	[Token(Token = "0x60004B2")]
+	[Address(RVA = "0x18F09A0", Offset = "0x18EEFA0", VA = "0x1818F09A0")]
 	public static bool TryParse(string text, bool alpha, out GisketchUIColorPickerValue value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x3A70540", Offset = "0x3A70540", VA = "0x3A70540")]
+	[Token(Token = "0x60004B3")]
+	[Address(RVA = "0x18F08E0", Offset = "0x18EEEE0", VA = "0x1818F08E0")]
 	public static bool TryParseByte(string text, out byte value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003A2")]
-	[Address(RVA = "0x3A70670", Offset = "0x3A70670", VA = "0x3A70670")]
+	[Token(Token = "0x60004B4")]
+	[Address(RVA = "0x18F07C0", Offset = "0x18EEDC0", VA = "0x1818F07C0")]
 	private static Color ToColor(byte r, byte g, byte b, byte a)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x3A70C30", Offset = "0x3A70C30", VA = "0x3A70C30")]
+	[Token(Token = "0x60004B5")]
+	[Address(RVA = "0x18F0700", Offset = "0x18EED00", VA = "0x1818F0700")]
 	private static byte ParseByte(string value, int start)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x3A70B00", Offset = "0x3A70B00", VA = "0x3A70B00")]
+	[Token(Token = "0x60004B6")]
+	[Address(RVA = "0x18F0790", Offset = "0x18EED90", VA = "0x1818F0790")]
 	private static byte ToByte(float value)
 	{
 		return default(byte);

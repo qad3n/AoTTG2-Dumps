@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x2000372")]
+[Token(Token = "0x20003A1")]
 [ComVisible(true)]
 public interface IContributeEnvoySink
 {
-	[Token(Token = "0x6001D76")]
+	[Token(Token = "0x6001DE5")]
 	IMessageSink GetEnvoySink(MarshalByRefObject obj, IMessageSink nextSink);
 }

@@ -10,74 +10,74 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x20001F2")]
 public class fsPrimitiveConverter : fsConverter
 {
-	[Token(Token = "0x60011AB")]
-	[Address(RVA = "0x4D70600", Offset = "0x4D70600", VA = "0x4D70600", Slot = "9")]
+	[Token(Token = "0x60011DF")]
+	[Address(RVA = "0x2E6C2A0", Offset = "0x2E6A8A0", VA = "0x182E6C2A0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011AC")]
-	[Address(RVA = "0x4D70700", Offset = "0x4D70700", VA = "0x4D70700", Slot = "5")]
+	[Token(Token = "0x60011E0")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "5")]
 	public override bool RequestCycleSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011AD")]
-	[Address(RVA = "0x4D70710", Offset = "0x4D70710", VA = "0x4D70710", Slot = "6")]
+	[Token(Token = "0x60011E1")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "6")]
 	public override bool RequestInheritanceSupport(Type storageType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011AE")]
-	[Address(RVA = "0x4D70720", Offset = "0x4D70720", VA = "0x4D70720", Slot = "7")]
+	[Token(Token = "0x60011E2")]
+	[Address(RVA = "0x2E6CBB0", Offset = "0x2E6B1B0", VA = "0x182E6CBB0", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011AF")]
-	[Address(RVA = "0x4D711C0", Offset = "0x4D711C0", VA = "0x4D711C0", Slot = "8")]
+	[Token(Token = "0x60011E3")]
+	[Address(RVA = "0x2E6C3A0", Offset = "0x2E6A9A0", VA = "0x182E6C3A0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData storage, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011B0")]
-	[Address(RVA = "0x4D70D60", Offset = "0x4D70D60", VA = "0x4D70D60")]
+	[Token(Token = "0x60011E4")]
+	[Address(RVA = "0x2E6D340", Offset = "0x2E6B940", VA = "0x182E6D340")]
 	private static bool UseBool(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011B1")]
-	[Address(RVA = "0x4D70E00", Offset = "0x4D70E00", VA = "0x4D70E00")]
+	[Token(Token = "0x60011E5")]
+	[Address(RVA = "0x2E6D480", Offset = "0x2E6BA80", VA = "0x182E6D480")]
 	private static bool UseInt64(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011B2")]
-	[Address(RVA = "0x4D70FF0", Offset = "0x4D70FF0", VA = "0x4D70FF0")]
+	[Token(Token = "0x60011E6")]
+	[Address(RVA = "0x2E6D390", Offset = "0x2E6B990", VA = "0x182E6D390")]
 	private static bool UseDouble(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011B3")]
-	[Address(RVA = "0x4D71130", Offset = "0x4D71130", VA = "0x4D71130")]
+	[Token(Token = "0x60011E7")]
+	[Address(RVA = "0x2E6D680", Offset = "0x2E6BC80", VA = "0x182E6D680")]
 	private static bool UseString(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011B4")]
-	[Address(RVA = "0x4D71AA0", Offset = "0x4D71AA0", VA = "0x4D71AA0")]
+	[Token(Token = "0x60011E8")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public fsPrimitiveConverter()
 	{
 	}

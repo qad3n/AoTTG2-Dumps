@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200006D")]
+[Token(Token = "0x2000034")]
 [AttributeUsage(AttributeTargets.Field)]
 public class HideInDebugUIAttribute : Attribute
 {
-	[Token(Token = "0x6000581")]
-	[Address(RVA = "0x4B96540", Offset = "0x4B96540", VA = "0x4B96540")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public HideInDebugUIAttribute()
 	{
 	}

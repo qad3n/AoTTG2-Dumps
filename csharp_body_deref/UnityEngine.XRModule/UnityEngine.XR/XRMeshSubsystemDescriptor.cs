@@ -11,14 +11,14 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x200001F")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x2000020")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/XRPrefix.h")]
 [UnityEngine.Bindings.NativeType(Header = "Modules/XR/Subsystems/Planes/XRMeshSubsystemDescriptor.h")]
+[UnityEngine.Scripting.UsedByNativeCode]
 public class XRMeshSubsystemDescriptor : IntegratedSubsystemDescriptor<XRMeshSubsystem>
 {
-	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x510DD40", Offset = "0x510DD40", VA = "0x510DD40")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x3315530", Offset = "0x3313B30", VA = "0x183315530")]
 	public XRMeshSubsystemDescriptor()
 	{
 	}

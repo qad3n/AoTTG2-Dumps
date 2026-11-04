@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x20004FD")]
+[Token(Token = "0x200052D")]
 public sealed class TargetParameterCountException : ApplicationException
 {
-	[Token(Token = "0x6002557")]
-	[Address(RVA = "0x3BD79A0", Offset = "0x3BD79A0", VA = "0x3BD79A0")]
+	[Token(Token = "0x60025D9")]
+	[Address(RVA = "0x1A57FD0", Offset = "0x1A565D0", VA = "0x181A57FD0")]
 	public TargetParameterCountException()
 	{
 	}
 
-	[Token(Token = "0x6002558")]
-	[Address(RVA = "0x3BD79E0", Offset = "0x3BD79E0", VA = "0x3BD79E0")]
+	[Token(Token = "0x60025DA")]
+	[Address(RVA = "0x1A57FB0", Offset = "0x1A565B0", VA = "0x181A57FB0")]
 	public TargetParameterCountException(string message)
 	{
 	}
 
-	[Token(Token = "0x6002559")]
-	[Address(RVA = "0x3BD7A00", Offset = "0x3BD7A00", VA = "0x3BD7A00")]
+	[Token(Token = "0x60025DB")]
+	[Address(RVA = "0x1A464A0", Offset = "0x1A44AA0", VA = "0x181A464A0")]
 	internal TargetParameterCountException(SerializationInfo info, StreamingContext context)
 	{
 	}

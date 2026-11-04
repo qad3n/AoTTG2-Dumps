@@ -14,51 +14,51 @@ using UnityEngine.Scripting.APIUpdating;
 namespace UnityEngine.U2D;
 
 [Serializable]
-[Token(Token = "0x20001B2")]
-[UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
+[Token(Token = "0x2000401")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataMarshalling.h")]
-[MovedFrom("UnityEngine.Experimental.U2D")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "ScriptingSpriteBone")]
+[MovedFrom("UnityEngine.Experimental.U2D")]
+[UnityEngine.Bindings.NativeHeader("Runtime/2D/Common/SpriteDataAccess.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct SpriteBone
 {
-	[Token(Token = "0x4000621")]
+	[Token(Token = "0x4000E08")]
 	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Bindings.NativeName("name")]
 	[SerializeField]
 	private string m_Name;
 
-	[Token(Token = "0x4000622")]
+	[Token(Token = "0x4000E09")]
 	[FieldOffset(Offset = "0x8")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("guid")]
+	[SerializeField]
 	private string m_Guid;
 
-	[Token(Token = "0x4000623")]
+	[Token(Token = "0x4000E0A")]
 	[FieldOffset(Offset = "0x10")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("position")]
+	[SerializeField]
 	private Vector3 m_Position;
 
-	[Token(Token = "0x4000624")]
+	[Token(Token = "0x4000E0B")]
 	[FieldOffset(Offset = "0x1C")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("rotation")]
+	[SerializeField]
 	private Quaternion m_Rotation;
 
-	[Token(Token = "0x4000625")]
+	[Token(Token = "0x4000E0C")]
 	[FieldOffset(Offset = "0x2C")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("length")]
+	[SerializeField]
 	private float m_Length;
 
-	[Token(Token = "0x4000626")]
+	[Token(Token = "0x4000E0D")]
 	[FieldOffset(Offset = "0x30")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("parentId")]
+	[SerializeField]
 	private int m_ParentId;
 
-	[Token(Token = "0x4000627")]
+	[Token(Token = "0x4000E0E")]
 	[FieldOffset(Offset = "0x34")]
 	[UnityEngine.Bindings.NativeName("color")]
 	[SerializeField]

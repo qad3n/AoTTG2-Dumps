@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000524")]
+[Token(Token = "0x200067E")]
 internal class EscapeSpecial : RechargeableUseable
 {
-	[Token(Token = "0x170009F3")]
+	[Token(Token = "0x17000B27")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60035E4")]
-		[Address(RVA = "0x41F5680", Offset = "0x41F5680", VA = "0x41F5680", Slot = "14")]
+		[Token(Token = "0x6004022")]
+		[Address(RVA = "0x216A4B0", Offset = "0x2168AB0", VA = "0x18216A4B0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60035E5")]
-	[Address(RVA = "0x41E40C0", Offset = "0x41E40C0", VA = "0x41E40C0")]
+	[Token(Token = "0x6004023")]
+	[Address(RVA = "0x216E430", Offset = "0x216CA30", VA = "0x18216E430")]
 	public EscapeSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60035E6")]
-	[Address(RVA = "0x41F5690", Offset = "0x41F5690", VA = "0x41F5690", Slot = "6")]
+	[Token(Token = "0x6004024")]
+	[Address(RVA = "0x216C980", Offset = "0x216AF80", VA = "0x18216C980", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60035E7")]
-	[Address(RVA = "0x41F5740", Offset = "0x41F5740", VA = "0x41F5740", Slot = "9")]
+	[Token(Token = "0x6004025")]
+	[Address(RVA = "0x216C6D0", Offset = "0x216ACD0", VA = "0x18216C6D0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60035E8")]
-	[Address(RVA = "0x41F59E0", Offset = "0x41F59E0", VA = "0x41F59E0", Slot = "10")]
+	[Token(Token = "0x6004026")]
+	[Address(RVA = "0x216CA40", Offset = "0x216B040", VA = "0x18216CA40", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

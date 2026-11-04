@@ -13,25 +13,25 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000D8")]
 public static class ListPool<T>
 {
-	[Token(Token = "0x4000147")]
+	[Token(Token = "0x4000145")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object @lock;
 
-	[Token(Token = "0x4000148")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Stack<List<T>> free;
 
-	[Token(Token = "0x4000149")]
+	[Token(Token = "0x4000147")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly HashSet<List<T>> busy;
 
-	[Token(Token = "0x6000516")]
+	[Token(Token = "0x6000520")]
 	public static List<T> New()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000517")]
+	[Token(Token = "0x6000521")]
 	public static void Free(List<T> list)
 	{
 	}

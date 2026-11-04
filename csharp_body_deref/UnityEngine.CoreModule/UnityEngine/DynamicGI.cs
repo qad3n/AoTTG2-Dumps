@@ -11,12 +11,12 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x20000C0")]
 [UnityEngine.Bindings.NativeHeader("Runtime/GI/DynamicGI.h")]
 public sealed class DynamicGI
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000257")]
-	[Address(RVA = "0x4DBB790", Offset = "0x4DBB790", VA = "0x4DBB790")]
+	[Token(Token = "0x600041C")]
+	[Address(RVA = "0x2EC4D30", Offset = "0x2EC3330", VA = "0x182EC4D30")]
 	public static extern void UpdateEnvironment();
 }

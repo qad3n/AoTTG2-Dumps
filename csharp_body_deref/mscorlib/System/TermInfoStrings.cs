@@ -9,797 +9,797 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A5")]
+[Token(Token = "0x20001D0")]
 internal enum TermInfoStrings
 {
-	[Token(Token = "0x4000722")]
-	BackTab,
-	[Token(Token = "0x4000723")]
-	Bell,
-	[Token(Token = "0x4000724")]
-	CarriageReturn,
-	[Token(Token = "0x4000725")]
-	ChangeScrollRegion,
-	[Token(Token = "0x4000726")]
-	ClearAllTabs,
-	[Token(Token = "0x4000727")]
-	ClearScreen,
-	[Token(Token = "0x4000728")]
-	ClrEol,
-	[Token(Token = "0x4000729")]
-	ClrEos,
-	[Token(Token = "0x400072A")]
-	ColumnAddress,
-	[Token(Token = "0x400072B")]
-	CommandCharacter,
-	[Token(Token = "0x400072C")]
-	CursorAddress,
-	[Token(Token = "0x400072D")]
-	CursorDown,
-	[Token(Token = "0x400072E")]
-	CursorHome,
-	[Token(Token = "0x400072F")]
-	CursorInvisible,
-	[Token(Token = "0x4000730")]
-	CursorLeft,
-	[Token(Token = "0x4000731")]
-	CursorMemAddress,
-	[Token(Token = "0x4000732")]
-	CursorNormal,
-	[Token(Token = "0x4000733")]
-	CursorRight,
-	[Token(Token = "0x4000734")]
-	CursorToLl,
-	[Token(Token = "0x4000735")]
-	CursorUp,
-	[Token(Token = "0x4000736")]
-	CursorVisible,
-	[Token(Token = "0x4000737")]
-	DeleteCharacter,
-	[Token(Token = "0x4000738")]
-	DeleteLine,
-	[Token(Token = "0x4000739")]
-	DisStatusLine,
-	[Token(Token = "0x400073A")]
-	DownHalfLine,
-	[Token(Token = "0x400073B")]
-	EnterAltCharsetMode,
-	[Token(Token = "0x400073C")]
-	EnterBlinkMode,
-	[Token(Token = "0x400073D")]
-	EnterBoldMode,
-	[Token(Token = "0x400073E")]
-	EnterCaMode,
-	[Token(Token = "0x400073F")]
-	EnterDeleteMode,
-	[Token(Token = "0x4000740")]
-	EnterDimMode,
-	[Token(Token = "0x4000741")]
-	EnterInsertMode,
-	[Token(Token = "0x4000742")]
-	EnterSecureMode,
-	[Token(Token = "0x4000743")]
-	EnterProtectedMode,
-	[Token(Token = "0x4000744")]
-	EnterReverseMode,
-	[Token(Token = "0x4000745")]
-	EnterStandoutMode,
-	[Token(Token = "0x4000746")]
-	EnterUnderlineMode,
-	[Token(Token = "0x4000747")]
-	EraseChars,
-	[Token(Token = "0x4000748")]
-	ExitAltCharsetMode,
-	[Token(Token = "0x4000749")]
-	ExitAttributeMode,
-	[Token(Token = "0x400074A")]
-	ExitCaMode,
-	[Token(Token = "0x400074B")]
-	ExitDeleteMode,
-	[Token(Token = "0x400074C")]
-	ExitInsertMode,
-	[Token(Token = "0x400074D")]
-	ExitStandoutMode,
-	[Token(Token = "0x400074E")]
-	ExitUnderlineMode,
-	[Token(Token = "0x400074F")]
-	FlashScreen,
-	[Token(Token = "0x4000750")]
-	FormFeed,
-	[Token(Token = "0x4000751")]
-	FromStatusLine,
-	[Token(Token = "0x4000752")]
-	Init1string,
-	[Token(Token = "0x4000753")]
-	Init2string,
-	[Token(Token = "0x4000754")]
-	Init3string,
-	[Token(Token = "0x4000755")]
-	InitFile,
-	[Token(Token = "0x4000756")]
-	InsertCharacter,
-	[Token(Token = "0x4000757")]
-	InsertLine,
-	[Token(Token = "0x4000758")]
-	InsertPadding,
-	[Token(Token = "0x4000759")]
-	KeyBackspace,
-	[Token(Token = "0x400075A")]
-	KeyCatab,
-	[Token(Token = "0x400075B")]
-	KeyClear,
-	[Token(Token = "0x400075C")]
-	KeyCtab,
-	[Token(Token = "0x400075D")]
-	KeyDc,
-	[Token(Token = "0x400075E")]
-	KeyDl,
-	[Token(Token = "0x400075F")]
-	KeyDown,
-	[Token(Token = "0x4000760")]
-	KeyEic,
-	[Token(Token = "0x4000761")]
-	KeyEol,
-	[Token(Token = "0x4000762")]
-	KeyEos,
-	[Token(Token = "0x4000763")]
-	KeyF0,
-	[Token(Token = "0x4000764")]
-	KeyF1,
-	[Token(Token = "0x4000765")]
-	KeyF10,
-	[Token(Token = "0x4000766")]
-	KeyF2,
-	[Token(Token = "0x4000767")]
-	KeyF3,
-	[Token(Token = "0x4000768")]
-	KeyF4,
-	[Token(Token = "0x4000769")]
-	KeyF5,
-	[Token(Token = "0x400076A")]
-	KeyF6,
-	[Token(Token = "0x400076B")]
-	KeyF7,
-	[Token(Token = "0x400076C")]
-	KeyF8,
-	[Token(Token = "0x400076D")]
-	KeyF9,
-	[Token(Token = "0x400076E")]
-	KeyHome,
-	[Token(Token = "0x400076F")]
-	KeyIc,
-	[Token(Token = "0x4000770")]
-	KeyIl,
-	[Token(Token = "0x4000771")]
-	KeyLeft,
-	[Token(Token = "0x4000772")]
-	KeyLl,
-	[Token(Token = "0x4000773")]
-	KeyNpage,
-	[Token(Token = "0x4000774")]
-	KeyPpage,
-	[Token(Token = "0x4000775")]
-	KeyRight,
-	[Token(Token = "0x4000776")]
-	KeySf,
-	[Token(Token = "0x4000777")]
-	KeySr,
-	[Token(Token = "0x4000778")]
-	KeyStab,
-	[Token(Token = "0x4000779")]
-	KeyUp,
-	[Token(Token = "0x400077A")]
-	KeypadLocal,
-	[Token(Token = "0x400077B")]
-	KeypadXmit,
-	[Token(Token = "0x400077C")]
-	LabF0,
-	[Token(Token = "0x400077D")]
-	LabF1,
-	[Token(Token = "0x400077E")]
-	LabF10,
-	[Token(Token = "0x400077F")]
-	LabF2,
-	[Token(Token = "0x4000780")]
-	LabF3,
-	[Token(Token = "0x4000781")]
-	LabF4,
-	[Token(Token = "0x4000782")]
-	LabF5,
-	[Token(Token = "0x4000783")]
-	LabF6,
-	[Token(Token = "0x4000784")]
-	LabF7,
-	[Token(Token = "0x4000785")]
-	LabF8,
 	[Token(Token = "0x4000786")]
-	LabF9,
+	BackTab,
 	[Token(Token = "0x4000787")]
-	MetaOff,
+	Bell,
 	[Token(Token = "0x4000788")]
-	MetaOn,
+	CarriageReturn,
 	[Token(Token = "0x4000789")]
-	Newline,
+	ChangeScrollRegion,
 	[Token(Token = "0x400078A")]
-	PadChar,
+	ClearAllTabs,
 	[Token(Token = "0x400078B")]
-	ParmDch,
+	ClearScreen,
 	[Token(Token = "0x400078C")]
-	ParmDeleteLine,
+	ClrEol,
 	[Token(Token = "0x400078D")]
-	ParmDownCursor,
+	ClrEos,
 	[Token(Token = "0x400078E")]
-	ParmIch,
+	ColumnAddress,
 	[Token(Token = "0x400078F")]
-	ParmIndex,
+	CommandCharacter,
 	[Token(Token = "0x4000790")]
-	ParmInsertLine,
+	CursorAddress,
 	[Token(Token = "0x4000791")]
-	ParmLeftCursor,
+	CursorDown,
 	[Token(Token = "0x4000792")]
-	ParmRightCursor,
+	CursorHome,
 	[Token(Token = "0x4000793")]
-	ParmRindex,
+	CursorInvisible,
 	[Token(Token = "0x4000794")]
-	ParmUpCursor,
+	CursorLeft,
 	[Token(Token = "0x4000795")]
-	PkeyKey,
+	CursorMemAddress,
 	[Token(Token = "0x4000796")]
-	PkeyLocal,
+	CursorNormal,
 	[Token(Token = "0x4000797")]
-	PkeyXmit,
+	CursorRight,
 	[Token(Token = "0x4000798")]
-	PrintScreen,
+	CursorToLl,
 	[Token(Token = "0x4000799")]
-	PrtrOff,
+	CursorUp,
 	[Token(Token = "0x400079A")]
-	PrtrOn,
+	CursorVisible,
 	[Token(Token = "0x400079B")]
-	RepeatChar,
+	DeleteCharacter,
 	[Token(Token = "0x400079C")]
-	Reset1string,
+	DeleteLine,
 	[Token(Token = "0x400079D")]
-	Reset2string,
+	DisStatusLine,
 	[Token(Token = "0x400079E")]
-	Reset3string,
+	DownHalfLine,
 	[Token(Token = "0x400079F")]
-	ResetFile,
+	EnterAltCharsetMode,
 	[Token(Token = "0x40007A0")]
-	RestoreCursor,
+	EnterBlinkMode,
 	[Token(Token = "0x40007A1")]
-	RowAddress,
+	EnterBoldMode,
 	[Token(Token = "0x40007A2")]
-	SaveCursor,
+	EnterCaMode,
 	[Token(Token = "0x40007A3")]
-	ScrollForward,
+	EnterDeleteMode,
 	[Token(Token = "0x40007A4")]
-	ScrollReverse,
+	EnterDimMode,
 	[Token(Token = "0x40007A5")]
-	SetAttributes,
+	EnterInsertMode,
 	[Token(Token = "0x40007A6")]
-	SetTab,
+	EnterSecureMode,
 	[Token(Token = "0x40007A7")]
-	SetWindow,
+	EnterProtectedMode,
 	[Token(Token = "0x40007A8")]
-	Tab,
+	EnterReverseMode,
 	[Token(Token = "0x40007A9")]
-	ToStatusLine,
+	EnterStandoutMode,
 	[Token(Token = "0x40007AA")]
-	UnderlineChar,
+	EnterUnderlineMode,
 	[Token(Token = "0x40007AB")]
-	UpHalfLine,
+	EraseChars,
 	[Token(Token = "0x40007AC")]
-	InitProg,
+	ExitAltCharsetMode,
 	[Token(Token = "0x40007AD")]
-	KeyA1,
+	ExitAttributeMode,
 	[Token(Token = "0x40007AE")]
-	KeyA3,
+	ExitCaMode,
 	[Token(Token = "0x40007AF")]
-	KeyB2,
+	ExitDeleteMode,
 	[Token(Token = "0x40007B0")]
-	KeyC1,
+	ExitInsertMode,
 	[Token(Token = "0x40007B1")]
-	KeyC3,
+	ExitStandoutMode,
 	[Token(Token = "0x40007B2")]
-	PrtrNon,
+	ExitUnderlineMode,
 	[Token(Token = "0x40007B3")]
-	CharPadding,
+	FlashScreen,
 	[Token(Token = "0x40007B4")]
-	AcsChars,
+	FormFeed,
 	[Token(Token = "0x40007B5")]
-	PlabNorm,
+	FromStatusLine,
 	[Token(Token = "0x40007B6")]
-	KeyBtab,
+	Init1string,
 	[Token(Token = "0x40007B7")]
-	EnterXonMode,
+	Init2string,
 	[Token(Token = "0x40007B8")]
-	ExitXonMode,
+	Init3string,
 	[Token(Token = "0x40007B9")]
-	EnterAmMode,
+	InitFile,
 	[Token(Token = "0x40007BA")]
-	ExitAmMode,
+	InsertCharacter,
 	[Token(Token = "0x40007BB")]
-	XonCharacter,
+	InsertLine,
 	[Token(Token = "0x40007BC")]
-	XoffCharacter,
+	InsertPadding,
 	[Token(Token = "0x40007BD")]
-	EnaAcs,
+	KeyBackspace,
 	[Token(Token = "0x40007BE")]
-	LabelOn,
+	KeyCatab,
 	[Token(Token = "0x40007BF")]
-	LabelOff,
+	KeyClear,
 	[Token(Token = "0x40007C0")]
-	KeyBeg,
+	KeyCtab,
 	[Token(Token = "0x40007C1")]
-	KeyCancel,
+	KeyDc,
 	[Token(Token = "0x40007C2")]
-	KeyClose,
+	KeyDl,
 	[Token(Token = "0x40007C3")]
-	KeyCommand,
+	KeyDown,
 	[Token(Token = "0x40007C4")]
-	KeyCopy,
+	KeyEic,
 	[Token(Token = "0x40007C5")]
-	KeyCreate,
+	KeyEol,
 	[Token(Token = "0x40007C6")]
-	KeyEnd,
+	KeyEos,
 	[Token(Token = "0x40007C7")]
-	KeyEnter,
+	KeyF0,
 	[Token(Token = "0x40007C8")]
-	KeyExit,
+	KeyF1,
 	[Token(Token = "0x40007C9")]
-	KeyFind,
+	KeyF10,
 	[Token(Token = "0x40007CA")]
-	KeyHelp,
+	KeyF2,
 	[Token(Token = "0x40007CB")]
-	KeyMark,
+	KeyF3,
 	[Token(Token = "0x40007CC")]
-	KeyMessage,
+	KeyF4,
 	[Token(Token = "0x40007CD")]
-	KeyMove,
+	KeyF5,
 	[Token(Token = "0x40007CE")]
-	KeyNext,
+	KeyF6,
 	[Token(Token = "0x40007CF")]
-	KeyOpen,
+	KeyF7,
 	[Token(Token = "0x40007D0")]
-	KeyOptions,
+	KeyF8,
 	[Token(Token = "0x40007D1")]
-	KeyPrevious,
+	KeyF9,
 	[Token(Token = "0x40007D2")]
-	KeyPrint,
+	KeyHome,
 	[Token(Token = "0x40007D3")]
-	KeyRedo,
+	KeyIc,
 	[Token(Token = "0x40007D4")]
-	KeyReference,
+	KeyIl,
 	[Token(Token = "0x40007D5")]
-	KeyRefresh,
+	KeyLeft,
 	[Token(Token = "0x40007D6")]
-	KeyReplace,
+	KeyLl,
 	[Token(Token = "0x40007D7")]
-	KeyRestart,
+	KeyNpage,
 	[Token(Token = "0x40007D8")]
-	KeyResume,
+	KeyPpage,
 	[Token(Token = "0x40007D9")]
-	KeySave,
+	KeyRight,
 	[Token(Token = "0x40007DA")]
-	KeySuspend,
+	KeySf,
 	[Token(Token = "0x40007DB")]
-	KeyUndo,
+	KeySr,
 	[Token(Token = "0x40007DC")]
-	KeySbeg,
+	KeyStab,
 	[Token(Token = "0x40007DD")]
-	KeyScancel,
+	KeyUp,
 	[Token(Token = "0x40007DE")]
-	KeyScommand,
+	KeypadLocal,
 	[Token(Token = "0x40007DF")]
-	KeyScopy,
+	KeypadXmit,
 	[Token(Token = "0x40007E0")]
-	KeyScreate,
+	LabF0,
 	[Token(Token = "0x40007E1")]
-	KeySdc,
+	LabF1,
 	[Token(Token = "0x40007E2")]
-	KeySdl,
+	LabF10,
 	[Token(Token = "0x40007E3")]
-	KeySelect,
+	LabF2,
 	[Token(Token = "0x40007E4")]
-	KeySend,
+	LabF3,
 	[Token(Token = "0x40007E5")]
-	KeySeol,
+	LabF4,
 	[Token(Token = "0x40007E6")]
-	KeySexit,
+	LabF5,
 	[Token(Token = "0x40007E7")]
-	KeySfind,
+	LabF6,
 	[Token(Token = "0x40007E8")]
-	KeyShelp,
+	LabF7,
 	[Token(Token = "0x40007E9")]
-	KeyShome,
+	LabF8,
 	[Token(Token = "0x40007EA")]
-	KeySic,
+	LabF9,
 	[Token(Token = "0x40007EB")]
-	KeySleft,
+	MetaOff,
 	[Token(Token = "0x40007EC")]
-	KeySmessage,
+	MetaOn,
 	[Token(Token = "0x40007ED")]
-	KeySmove,
+	Newline,
 	[Token(Token = "0x40007EE")]
-	KeySnext,
+	PadChar,
 	[Token(Token = "0x40007EF")]
-	KeySoptions,
+	ParmDch,
 	[Token(Token = "0x40007F0")]
-	KeySprevious,
+	ParmDeleteLine,
 	[Token(Token = "0x40007F1")]
-	KeySprint,
+	ParmDownCursor,
 	[Token(Token = "0x40007F2")]
-	KeySredo,
+	ParmIch,
 	[Token(Token = "0x40007F3")]
-	KeySreplace,
+	ParmIndex,
 	[Token(Token = "0x40007F4")]
-	KeySright,
+	ParmInsertLine,
 	[Token(Token = "0x40007F5")]
-	KeySrsume,
+	ParmLeftCursor,
 	[Token(Token = "0x40007F6")]
-	KeySsave,
+	ParmRightCursor,
 	[Token(Token = "0x40007F7")]
-	KeySsuspend,
+	ParmRindex,
 	[Token(Token = "0x40007F8")]
-	KeySundo,
+	ParmUpCursor,
 	[Token(Token = "0x40007F9")]
-	ReqForInput,
+	PkeyKey,
 	[Token(Token = "0x40007FA")]
-	KeyF11,
+	PkeyLocal,
 	[Token(Token = "0x40007FB")]
-	KeyF12,
+	PkeyXmit,
 	[Token(Token = "0x40007FC")]
-	KeyF13,
+	PrintScreen,
 	[Token(Token = "0x40007FD")]
-	KeyF14,
+	PrtrOff,
 	[Token(Token = "0x40007FE")]
-	KeyF15,
+	PrtrOn,
 	[Token(Token = "0x40007FF")]
-	KeyF16,
+	RepeatChar,
 	[Token(Token = "0x4000800")]
-	KeyF17,
+	Reset1string,
 	[Token(Token = "0x4000801")]
-	KeyF18,
+	Reset2string,
 	[Token(Token = "0x4000802")]
-	KeyF19,
+	Reset3string,
 	[Token(Token = "0x4000803")]
-	KeyF20,
+	ResetFile,
 	[Token(Token = "0x4000804")]
-	KeyF21,
+	RestoreCursor,
 	[Token(Token = "0x4000805")]
-	KeyF22,
+	RowAddress,
 	[Token(Token = "0x4000806")]
-	KeyF23,
+	SaveCursor,
 	[Token(Token = "0x4000807")]
-	KeyF24,
+	ScrollForward,
 	[Token(Token = "0x4000808")]
-	KeyF25,
+	ScrollReverse,
 	[Token(Token = "0x4000809")]
-	KeyF26,
+	SetAttributes,
 	[Token(Token = "0x400080A")]
-	KeyF27,
+	SetTab,
 	[Token(Token = "0x400080B")]
-	KeyF28,
+	SetWindow,
 	[Token(Token = "0x400080C")]
-	KeyF29,
+	Tab,
 	[Token(Token = "0x400080D")]
-	KeyF30,
+	ToStatusLine,
 	[Token(Token = "0x400080E")]
-	KeyF31,
+	UnderlineChar,
 	[Token(Token = "0x400080F")]
-	KeyF32,
+	UpHalfLine,
 	[Token(Token = "0x4000810")]
-	KeyF33,
+	InitProg,
 	[Token(Token = "0x4000811")]
-	KeyF34,
+	KeyA1,
 	[Token(Token = "0x4000812")]
-	KeyF35,
+	KeyA3,
 	[Token(Token = "0x4000813")]
-	KeyF36,
+	KeyB2,
 	[Token(Token = "0x4000814")]
-	KeyF37,
+	KeyC1,
 	[Token(Token = "0x4000815")]
-	KeyF38,
+	KeyC3,
 	[Token(Token = "0x4000816")]
-	KeyF39,
+	PrtrNon,
 	[Token(Token = "0x4000817")]
-	KeyF40,
+	CharPadding,
 	[Token(Token = "0x4000818")]
-	KeyF41,
+	AcsChars,
 	[Token(Token = "0x4000819")]
-	KeyF42,
+	PlabNorm,
 	[Token(Token = "0x400081A")]
-	KeyF43,
+	KeyBtab,
 	[Token(Token = "0x400081B")]
-	KeyF44,
+	EnterXonMode,
 	[Token(Token = "0x400081C")]
-	KeyF45,
+	ExitXonMode,
 	[Token(Token = "0x400081D")]
-	KeyF46,
+	EnterAmMode,
 	[Token(Token = "0x400081E")]
-	KeyF47,
+	ExitAmMode,
 	[Token(Token = "0x400081F")]
-	KeyF48,
+	XonCharacter,
 	[Token(Token = "0x4000820")]
-	KeyF49,
+	XoffCharacter,
 	[Token(Token = "0x4000821")]
-	KeyF50,
+	EnaAcs,
 	[Token(Token = "0x4000822")]
-	KeyF51,
+	LabelOn,
 	[Token(Token = "0x4000823")]
-	KeyF52,
+	LabelOff,
 	[Token(Token = "0x4000824")]
-	KeyF53,
+	KeyBeg,
 	[Token(Token = "0x4000825")]
-	KeyF54,
+	KeyCancel,
 	[Token(Token = "0x4000826")]
-	KeyF55,
+	KeyClose,
 	[Token(Token = "0x4000827")]
-	KeyF56,
+	KeyCommand,
 	[Token(Token = "0x4000828")]
-	KeyF57,
+	KeyCopy,
 	[Token(Token = "0x4000829")]
-	KeyF58,
+	KeyCreate,
 	[Token(Token = "0x400082A")]
-	KeyF59,
+	KeyEnd,
 	[Token(Token = "0x400082B")]
-	KeyF60,
+	KeyEnter,
 	[Token(Token = "0x400082C")]
-	KeyF61,
+	KeyExit,
 	[Token(Token = "0x400082D")]
-	KeyF62,
+	KeyFind,
 	[Token(Token = "0x400082E")]
-	KeyF63,
+	KeyHelp,
 	[Token(Token = "0x400082F")]
-	ClrBol,
+	KeyMark,
 	[Token(Token = "0x4000830")]
-	ClearMargins,
+	KeyMessage,
 	[Token(Token = "0x4000831")]
-	SetLeftMargin,
+	KeyMove,
 	[Token(Token = "0x4000832")]
-	SetRightMargin,
+	KeyNext,
 	[Token(Token = "0x4000833")]
-	LabelFormat,
+	KeyOpen,
 	[Token(Token = "0x4000834")]
-	SetClock,
+	KeyOptions,
 	[Token(Token = "0x4000835")]
-	DisplayClock,
+	KeyPrevious,
 	[Token(Token = "0x4000836")]
-	RemoveClock,
+	KeyPrint,
 	[Token(Token = "0x4000837")]
-	CreateWindow,
+	KeyRedo,
 	[Token(Token = "0x4000838")]
-	GotoWindow,
+	KeyReference,
 	[Token(Token = "0x4000839")]
-	Hangup,
+	KeyRefresh,
 	[Token(Token = "0x400083A")]
-	DialPhone,
+	KeyReplace,
 	[Token(Token = "0x400083B")]
-	QuickDial,
+	KeyRestart,
 	[Token(Token = "0x400083C")]
-	Tone,
+	KeyResume,
 	[Token(Token = "0x400083D")]
-	Pulse,
+	KeySave,
 	[Token(Token = "0x400083E")]
-	FlashHook,
+	KeySuspend,
 	[Token(Token = "0x400083F")]
-	FixedPause,
+	KeyUndo,
 	[Token(Token = "0x4000840")]
-	WaitTone,
+	KeySbeg,
 	[Token(Token = "0x4000841")]
-	User0,
+	KeyScancel,
 	[Token(Token = "0x4000842")]
-	User1,
+	KeyScommand,
 	[Token(Token = "0x4000843")]
-	User2,
+	KeyScopy,
 	[Token(Token = "0x4000844")]
-	User3,
+	KeyScreate,
 	[Token(Token = "0x4000845")]
-	User4,
+	KeySdc,
 	[Token(Token = "0x4000846")]
-	User5,
+	KeySdl,
 	[Token(Token = "0x4000847")]
-	User6,
+	KeySelect,
 	[Token(Token = "0x4000848")]
-	User7,
+	KeySend,
 	[Token(Token = "0x4000849")]
-	User8,
+	KeySeol,
 	[Token(Token = "0x400084A")]
-	User9,
+	KeySexit,
 	[Token(Token = "0x400084B")]
-	OrigPair,
+	KeySfind,
 	[Token(Token = "0x400084C")]
-	OrigColors,
+	KeyShelp,
 	[Token(Token = "0x400084D")]
-	InitializeColor,
+	KeyShome,
 	[Token(Token = "0x400084E")]
-	InitializePair,
+	KeySic,
 	[Token(Token = "0x400084F")]
-	SetColorPair,
+	KeySleft,
 	[Token(Token = "0x4000850")]
-	SetForeground,
+	KeySmessage,
 	[Token(Token = "0x4000851")]
-	SetBackground,
+	KeySmove,
 	[Token(Token = "0x4000852")]
-	ChangeCharPitch,
+	KeySnext,
 	[Token(Token = "0x4000853")]
-	ChangeLinePitch,
+	KeySoptions,
 	[Token(Token = "0x4000854")]
-	ChangeResHorz,
+	KeySprevious,
 	[Token(Token = "0x4000855")]
-	ChangeResVert,
+	KeySprint,
 	[Token(Token = "0x4000856")]
-	DefineChar,
+	KeySredo,
 	[Token(Token = "0x4000857")]
-	EnterDoublewideMode,
+	KeySreplace,
 	[Token(Token = "0x4000858")]
-	EnterDraftQuality,
+	KeySright,
 	[Token(Token = "0x4000859")]
-	EnterItalicsMode,
+	KeySrsume,
 	[Token(Token = "0x400085A")]
-	EnterLeftwardMode,
+	KeySsave,
 	[Token(Token = "0x400085B")]
-	EnterMicroMode,
+	KeySsuspend,
 	[Token(Token = "0x400085C")]
-	EnterNearLetterQuality,
+	KeySundo,
 	[Token(Token = "0x400085D")]
-	EnterNormalQuality,
+	ReqForInput,
 	[Token(Token = "0x400085E")]
-	EnterShadowMode,
+	KeyF11,
 	[Token(Token = "0x400085F")]
-	EnterSubscriptMode,
+	KeyF12,
 	[Token(Token = "0x4000860")]
-	EnterSuperscriptMode,
+	KeyF13,
 	[Token(Token = "0x4000861")]
-	EnterUpwardMode,
+	KeyF14,
 	[Token(Token = "0x4000862")]
-	ExitDoublewideMode,
+	KeyF15,
 	[Token(Token = "0x4000863")]
-	ExitItalicsMode,
+	KeyF16,
 	[Token(Token = "0x4000864")]
-	ExitLeftwardMode,
+	KeyF17,
 	[Token(Token = "0x4000865")]
-	ExitMicroMode,
+	KeyF18,
 	[Token(Token = "0x4000866")]
-	ExitShadowMode,
+	KeyF19,
 	[Token(Token = "0x4000867")]
-	ExitSubscriptMode,
+	KeyF20,
 	[Token(Token = "0x4000868")]
-	ExitSuperscriptMode,
+	KeyF21,
 	[Token(Token = "0x4000869")]
-	ExitUpwardMode,
+	KeyF22,
 	[Token(Token = "0x400086A")]
-	MicroColumnAddress,
+	KeyF23,
 	[Token(Token = "0x400086B")]
-	MicroDown,
+	KeyF24,
 	[Token(Token = "0x400086C")]
-	MicroLeft,
+	KeyF25,
 	[Token(Token = "0x400086D")]
-	MicroRight,
+	KeyF26,
 	[Token(Token = "0x400086E")]
-	MicroRowAddress,
+	KeyF27,
 	[Token(Token = "0x400086F")]
-	MicroUp,
+	KeyF28,
 	[Token(Token = "0x4000870")]
-	OrderOfPins,
+	KeyF29,
 	[Token(Token = "0x4000871")]
-	ParmDownMicro,
+	KeyF30,
 	[Token(Token = "0x4000872")]
-	ParmLeftMicro,
+	KeyF31,
 	[Token(Token = "0x4000873")]
-	ParmRightMicro,
+	KeyF32,
 	[Token(Token = "0x4000874")]
-	ParmUpMicro,
+	KeyF33,
 	[Token(Token = "0x4000875")]
-	SelectCharSet,
+	KeyF34,
 	[Token(Token = "0x4000876")]
-	SetBottomMargin,
+	KeyF35,
 	[Token(Token = "0x4000877")]
-	SetBottomMarginParm,
+	KeyF36,
 	[Token(Token = "0x4000878")]
-	SetLeftMarginParm,
+	KeyF37,
 	[Token(Token = "0x4000879")]
-	SetRightMarginParm,
+	KeyF38,
 	[Token(Token = "0x400087A")]
-	SetTopMargin,
+	KeyF39,
 	[Token(Token = "0x400087B")]
-	SetTopMarginParm,
+	KeyF40,
 	[Token(Token = "0x400087C")]
-	StartBitImage,
+	KeyF41,
 	[Token(Token = "0x400087D")]
-	StartCharSetDef,
+	KeyF42,
 	[Token(Token = "0x400087E")]
-	StopBitImage,
+	KeyF43,
 	[Token(Token = "0x400087F")]
-	StopCharSetDef,
+	KeyF44,
 	[Token(Token = "0x4000880")]
-	SubscriptCharacters,
+	KeyF45,
 	[Token(Token = "0x4000881")]
-	SuperscriptCharacters,
+	KeyF46,
 	[Token(Token = "0x4000882")]
-	TheseCauseCr,
+	KeyF47,
 	[Token(Token = "0x4000883")]
-	ZeroMotion,
+	KeyF48,
 	[Token(Token = "0x4000884")]
-	CharSetNames,
+	KeyF49,
 	[Token(Token = "0x4000885")]
-	KeyMouse,
+	KeyF50,
 	[Token(Token = "0x4000886")]
-	MouseInfo,
+	KeyF51,
 	[Token(Token = "0x4000887")]
-	ReqMousePos,
+	KeyF52,
 	[Token(Token = "0x4000888")]
-	GetMouse,
+	KeyF53,
 	[Token(Token = "0x4000889")]
-	SetAForeground,
+	KeyF54,
 	[Token(Token = "0x400088A")]
-	SetABackground,
+	KeyF55,
 	[Token(Token = "0x400088B")]
-	PkeyPlab,
+	KeyF56,
 	[Token(Token = "0x400088C")]
-	DeviceType,
+	KeyF57,
 	[Token(Token = "0x400088D")]
-	CodeSetInit,
+	KeyF58,
 	[Token(Token = "0x400088E")]
-	Set0DesSeq,
+	KeyF59,
 	[Token(Token = "0x400088F")]
-	Set1DesSeq,
+	KeyF60,
 	[Token(Token = "0x4000890")]
-	Set2DesSeq,
+	KeyF61,
 	[Token(Token = "0x4000891")]
-	Set3DesSeq,
+	KeyF62,
 	[Token(Token = "0x4000892")]
-	SetLrMargin,
+	KeyF63,
 	[Token(Token = "0x4000893")]
-	SetTbMargin,
+	ClrBol,
 	[Token(Token = "0x4000894")]
-	BitImageRepeat,
+	ClearMargins,
 	[Token(Token = "0x4000895")]
-	BitImageNewline,
+	SetLeftMargin,
 	[Token(Token = "0x4000896")]
-	BitImageCarriageReturn,
+	SetRightMargin,
 	[Token(Token = "0x4000897")]
-	ColorNames,
+	LabelFormat,
 	[Token(Token = "0x4000898")]
-	DefineBitImageRegion,
+	SetClock,
 	[Token(Token = "0x4000899")]
-	EndBitImageRegion,
+	DisplayClock,
 	[Token(Token = "0x400089A")]
-	SetColorBand,
+	RemoveClock,
 	[Token(Token = "0x400089B")]
-	SetPageLength,
+	CreateWindow,
 	[Token(Token = "0x400089C")]
-	DisplayPcChar,
+	GotoWindow,
 	[Token(Token = "0x400089D")]
-	EnterPcCharsetMode,
+	Hangup,
 	[Token(Token = "0x400089E")]
-	ExitPcCharsetMode,
+	DialPhone,
 	[Token(Token = "0x400089F")]
-	EnterScancodeMode,
+	QuickDial,
 	[Token(Token = "0x40008A0")]
-	ExitScancodeMode,
+	Tone,
 	[Token(Token = "0x40008A1")]
-	PcTermOptions,
+	Pulse,
 	[Token(Token = "0x40008A2")]
-	ScancodeEscape,
+	FlashHook,
 	[Token(Token = "0x40008A3")]
-	AltScancodeEsc,
+	FixedPause,
 	[Token(Token = "0x40008A4")]
-	EnterHorizontalHlMode,
+	WaitTone,
 	[Token(Token = "0x40008A5")]
-	EnterLeftHlMode,
+	User0,
 	[Token(Token = "0x40008A6")]
-	EnterLowHlMode,
+	User1,
 	[Token(Token = "0x40008A7")]
-	EnterRightHlMode,
+	User2,
 	[Token(Token = "0x40008A8")]
-	EnterTopHlMode,
+	User3,
 	[Token(Token = "0x40008A9")]
-	EnterVerticalHlMode,
+	User4,
 	[Token(Token = "0x40008AA")]
-	SetAAttributes,
+	User5,
 	[Token(Token = "0x40008AB")]
-	SetPglenInch,
+	User6,
 	[Token(Token = "0x40008AC")]
+	User7,
+	[Token(Token = "0x40008AD")]
+	User8,
+	[Token(Token = "0x40008AE")]
+	User9,
+	[Token(Token = "0x40008AF")]
+	OrigPair,
+	[Token(Token = "0x40008B0")]
+	OrigColors,
+	[Token(Token = "0x40008B1")]
+	InitializeColor,
+	[Token(Token = "0x40008B2")]
+	InitializePair,
+	[Token(Token = "0x40008B3")]
+	SetColorPair,
+	[Token(Token = "0x40008B4")]
+	SetForeground,
+	[Token(Token = "0x40008B5")]
+	SetBackground,
+	[Token(Token = "0x40008B6")]
+	ChangeCharPitch,
+	[Token(Token = "0x40008B7")]
+	ChangeLinePitch,
+	[Token(Token = "0x40008B8")]
+	ChangeResHorz,
+	[Token(Token = "0x40008B9")]
+	ChangeResVert,
+	[Token(Token = "0x40008BA")]
+	DefineChar,
+	[Token(Token = "0x40008BB")]
+	EnterDoublewideMode,
+	[Token(Token = "0x40008BC")]
+	EnterDraftQuality,
+	[Token(Token = "0x40008BD")]
+	EnterItalicsMode,
+	[Token(Token = "0x40008BE")]
+	EnterLeftwardMode,
+	[Token(Token = "0x40008BF")]
+	EnterMicroMode,
+	[Token(Token = "0x40008C0")]
+	EnterNearLetterQuality,
+	[Token(Token = "0x40008C1")]
+	EnterNormalQuality,
+	[Token(Token = "0x40008C2")]
+	EnterShadowMode,
+	[Token(Token = "0x40008C3")]
+	EnterSubscriptMode,
+	[Token(Token = "0x40008C4")]
+	EnterSuperscriptMode,
+	[Token(Token = "0x40008C5")]
+	EnterUpwardMode,
+	[Token(Token = "0x40008C6")]
+	ExitDoublewideMode,
+	[Token(Token = "0x40008C7")]
+	ExitItalicsMode,
+	[Token(Token = "0x40008C8")]
+	ExitLeftwardMode,
+	[Token(Token = "0x40008C9")]
+	ExitMicroMode,
+	[Token(Token = "0x40008CA")]
+	ExitShadowMode,
+	[Token(Token = "0x40008CB")]
+	ExitSubscriptMode,
+	[Token(Token = "0x40008CC")]
+	ExitSuperscriptMode,
+	[Token(Token = "0x40008CD")]
+	ExitUpwardMode,
+	[Token(Token = "0x40008CE")]
+	MicroColumnAddress,
+	[Token(Token = "0x40008CF")]
+	MicroDown,
+	[Token(Token = "0x40008D0")]
+	MicroLeft,
+	[Token(Token = "0x40008D1")]
+	MicroRight,
+	[Token(Token = "0x40008D2")]
+	MicroRowAddress,
+	[Token(Token = "0x40008D3")]
+	MicroUp,
+	[Token(Token = "0x40008D4")]
+	OrderOfPins,
+	[Token(Token = "0x40008D5")]
+	ParmDownMicro,
+	[Token(Token = "0x40008D6")]
+	ParmLeftMicro,
+	[Token(Token = "0x40008D7")]
+	ParmRightMicro,
+	[Token(Token = "0x40008D8")]
+	ParmUpMicro,
+	[Token(Token = "0x40008D9")]
+	SelectCharSet,
+	[Token(Token = "0x40008DA")]
+	SetBottomMargin,
+	[Token(Token = "0x40008DB")]
+	SetBottomMarginParm,
+	[Token(Token = "0x40008DC")]
+	SetLeftMarginParm,
+	[Token(Token = "0x40008DD")]
+	SetRightMarginParm,
+	[Token(Token = "0x40008DE")]
+	SetTopMargin,
+	[Token(Token = "0x40008DF")]
+	SetTopMarginParm,
+	[Token(Token = "0x40008E0")]
+	StartBitImage,
+	[Token(Token = "0x40008E1")]
+	StartCharSetDef,
+	[Token(Token = "0x40008E2")]
+	StopBitImage,
+	[Token(Token = "0x40008E3")]
+	StopCharSetDef,
+	[Token(Token = "0x40008E4")]
+	SubscriptCharacters,
+	[Token(Token = "0x40008E5")]
+	SuperscriptCharacters,
+	[Token(Token = "0x40008E6")]
+	TheseCauseCr,
+	[Token(Token = "0x40008E7")]
+	ZeroMotion,
+	[Token(Token = "0x40008E8")]
+	CharSetNames,
+	[Token(Token = "0x40008E9")]
+	KeyMouse,
+	[Token(Token = "0x40008EA")]
+	MouseInfo,
+	[Token(Token = "0x40008EB")]
+	ReqMousePos,
+	[Token(Token = "0x40008EC")]
+	GetMouse,
+	[Token(Token = "0x40008ED")]
+	SetAForeground,
+	[Token(Token = "0x40008EE")]
+	SetABackground,
+	[Token(Token = "0x40008EF")]
+	PkeyPlab,
+	[Token(Token = "0x40008F0")]
+	DeviceType,
+	[Token(Token = "0x40008F1")]
+	CodeSetInit,
+	[Token(Token = "0x40008F2")]
+	Set0DesSeq,
+	[Token(Token = "0x40008F3")]
+	Set1DesSeq,
+	[Token(Token = "0x40008F4")]
+	Set2DesSeq,
+	[Token(Token = "0x40008F5")]
+	Set3DesSeq,
+	[Token(Token = "0x40008F6")]
+	SetLrMargin,
+	[Token(Token = "0x40008F7")]
+	SetTbMargin,
+	[Token(Token = "0x40008F8")]
+	BitImageRepeat,
+	[Token(Token = "0x40008F9")]
+	BitImageNewline,
+	[Token(Token = "0x40008FA")]
+	BitImageCarriageReturn,
+	[Token(Token = "0x40008FB")]
+	ColorNames,
+	[Token(Token = "0x40008FC")]
+	DefineBitImageRegion,
+	[Token(Token = "0x40008FD")]
+	EndBitImageRegion,
+	[Token(Token = "0x40008FE")]
+	SetColorBand,
+	[Token(Token = "0x40008FF")]
+	SetPageLength,
+	[Token(Token = "0x4000900")]
+	DisplayPcChar,
+	[Token(Token = "0x4000901")]
+	EnterPcCharsetMode,
+	[Token(Token = "0x4000902")]
+	ExitPcCharsetMode,
+	[Token(Token = "0x4000903")]
+	EnterScancodeMode,
+	[Token(Token = "0x4000904")]
+	ExitScancodeMode,
+	[Token(Token = "0x4000905")]
+	PcTermOptions,
+	[Token(Token = "0x4000906")]
+	ScancodeEscape,
+	[Token(Token = "0x4000907")]
+	AltScancodeEsc,
+	[Token(Token = "0x4000908")]
+	EnterHorizontalHlMode,
+	[Token(Token = "0x4000909")]
+	EnterLeftHlMode,
+	[Token(Token = "0x400090A")]
+	EnterLowHlMode,
+	[Token(Token = "0x400090B")]
+	EnterRightHlMode,
+	[Token(Token = "0x400090C")]
+	EnterTopHlMode,
+	[Token(Token = "0x400090D")]
+	EnterVerticalHlMode,
+	[Token(Token = "0x400090E")]
+	SetAAttributes,
+	[Token(Token = "0x400090F")]
+	SetPglenInch,
+	[Token(Token = "0x4000910")]
 	Last
 }

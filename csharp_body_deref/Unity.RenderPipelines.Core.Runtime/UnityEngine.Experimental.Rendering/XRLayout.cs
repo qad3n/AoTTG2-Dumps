@@ -10,52 +10,52 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x2000013")]
+[Token(Token = "0x200000B")]
 public class XRLayout
 {
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<(Camera, XRPass)> m_ActivePasses;
 
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x4B73520", Offset = "0x4B73520", VA = "0x4B73520")]
+	[Token(Token = "0x600002A")]
+	[Address(RVA = "0x2AC8C00", Offset = "0x2AC7200", VA = "0x182AC8C00")]
 	public void AddCamera(Camera camera, bool enableXR)
 	{
 	}
 
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x4B741B0", Offset = "0x4B741B0", VA = "0x4B741B0")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x2AC95F0", Offset = "0x2AC7BF0", VA = "0x182AC95F0")]
 	public void ReconfigurePass(XRPass xrPass, Camera camera)
 	{
 	}
 
-	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x4B746F0", Offset = "0x4B746F0", VA = "0x4B746F0")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 	public List<(Camera, XRPass)> GetActivePasses()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x4B740B0", Offset = "0x4B740B0", VA = "0x4B740B0")]
+	[Token(Token = "0x600002D")]
+	[Address(RVA = "0x2AC8E40", Offset = "0x2AC7440", VA = "0x182AC8E40")]
 	internal void AddPass(Camera camera, XRPass xrPass)
 	{
 	}
 
-	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x4B74700", Offset = "0x4B74700", VA = "0x4B74700")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x2AC8F80", Offset = "0x2AC7580", VA = "0x182AC8F80")]
 	internal void Clear()
 	{
 	}
 
-	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x4B74840", Offset = "0x4B74840", VA = "0x4B74840")]
+	[Token(Token = "0x600002F")]
+	[Address(RVA = "0x2AC90B0", Offset = "0x2AC76B0", VA = "0x182AC90B0")]
 	internal void LogDebugInfo()
 	{
 	}
 
-	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x4B74EE0", Offset = "0x4B74EE0", VA = "0x4B74EE0")]
+	[Token(Token = "0x6000030")]
+	[Address(RVA = "0x2AC96A0", Offset = "0x2AC7CA0", VA = "0x182AC96A0")]
 	public XRLayout()
 	{
 	}

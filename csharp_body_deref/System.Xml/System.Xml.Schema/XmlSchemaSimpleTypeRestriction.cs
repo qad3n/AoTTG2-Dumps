@@ -30,13 +30,13 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlQualifiedName BaseTypeName
 	{
 		[Token(Token = "0x6001773")]
-		[Address(RVA = "0x4732E80", Offset = "0x4732E80", VA = "0x4732E80")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001774")]
-		[Address(RVA = "0x4732E90", Offset = "0x4732E90", VA = "0x4732E90")]
+		[Address(RVA = "0x267F1B0", Offset = "0x267D7B0", VA = "0x18267F1B0")]
 		set
 		{
 		}
@@ -47,13 +47,13 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlSchemaSimpleType BaseType
 	{
 		[Token(Token = "0x6001775")]
-		[Address(RVA = "0x4732F20", Offset = "0x4732F20", VA = "0x4732F20")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001776")]
-		[Address(RVA = "0x4732F30", Offset = "0x4732F30", VA = "0x4732F30")]
+		[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140")]
 		set
 		{
 		}
@@ -75,7 +75,7 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	public XmlSchemaObjectCollection Facets
 	{
 		[Token(Token = "0x6001777")]
-		[Address(RVA = "0x4732F40", Offset = "0x4732F40", VA = "0x4732F40")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
@@ -83,14 +83,14 @@ public class XmlSchemaSimpleTypeRestriction : XmlSchemaSimpleTypeContent
 	}
 
 	[Token(Token = "0x6001778")]
-	[Address(RVA = "0x4732F50", Offset = "0x4732F50", VA = "0x4732F50", Slot = "13")]
+	[Address(RVA = "0x267EFD0", Offset = "0x267D5D0", VA = "0x18267EFD0", Slot = "13")]
 	internal override XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001779")]
-	[Address(RVA = "0x4732FF0", Offset = "0x4732FF0", VA = "0x4732FF0")]
+	[Address(RVA = "0x267F100", Offset = "0x267D700", VA = "0x18267F100")]
 	public XmlSchemaSimpleTypeRestriction()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.IMGUIContainer
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,282 +14,328 @@ using Unity.Properties;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200021A")]
+[Token(Token = "0x2000290")]
 public class IMGUIContainer : VisualElement, IDisposable
 {
-	[Token(Token = "0x200021B")]
+	[Token(Token = "0x2000291")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<IMGUIContainer, UxmlTraits>
 	{
-		[Token(Token = "0x6000DFB")]
-		[Address(RVA = "0x504BC00", Offset = "0x504BC00", VA = "0x504BC00")]
+		[Token(Token = "0x6001194")]
+		[Address(RVA = "0x32BC7B0", Offset = "0x32BADB0", VA = "0x1832BC7B0")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x200021C")]
+	[Token(Token = "0x2000292")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : VisualElement.UxmlTraits
 	{
-		[Token(Token = "0x6000DFC")]
-		[Address(RVA = "0x504BC40", Offset = "0x504BC40", VA = "0x504BC40")]
+		[Token(Token = "0x6001195")]
+		[Address(RVA = "0x32BC7F0", Offset = "0x32BADF0", VA = "0x1832BC7F0")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x200021D")]
+	[Token(Token = "0x2000293")]
+	internal struct UITKScope : IDisposable
+	{
+		[Token(Token = "0x40009B9")]
+		[FieldOffset(Offset = "0x0")]
+		private bool wasUITK;
+
+		[Token(Token = "0x6001196")]
+		[Address(RVA = "0x32BC350", Offset = "0x32BA950", VA = "0x1832BC350")]
+		public UITKScope()
+		{
+		}
+
+		[Token(Token = "0x6001197")]
+		[Address(RVA = "0x32BC2B0", Offset = "0x32BA8B0", VA = "0x1832BC2B0", Slot = "4")]
+		public void Dispose()
+		{
+		}
+	}
+
+	[Token(Token = "0x2000294")]
+	internal struct NotUITKScope : IDisposable
+	{
+		[Token(Token = "0x40009BA")]
+		[FieldOffset(Offset = "0x0")]
+		private bool wasUITK;
+
+		[Token(Token = "0x6001198")]
+		[Address(RVA = "0x32B0F20", Offset = "0x32AF520", VA = "0x1832B0F20")]
+		public NotUITKScope()
+		{
+		}
+
+		[Token(Token = "0x6001199")]
+		[Address(RVA = "0x32B0E80", Offset = "0x32AF480", VA = "0x1832B0E80", Slot = "4")]
+		public void Dispose()
+		{
+		}
+	}
+
+	[Token(Token = "0x2000295")]
 	private struct GUIGlobals
 	{
-		[Token(Token = "0x400079E")]
+		[Token(Token = "0x40009BB")]
 		[FieldOffset(Offset = "0x0")]
 		public Matrix4x4 matrix;
 
-		[Token(Token = "0x400079F")]
+		[Token(Token = "0x40009BC")]
 		[FieldOffset(Offset = "0x40")]
 		public Color color;
 
-		[Token(Token = "0x40007A0")]
+		[Token(Token = "0x40009BD")]
 		[FieldOffset(Offset = "0x50")]
 		public Color contentColor;
 
-		[Token(Token = "0x40007A1")]
+		[Token(Token = "0x40009BE")]
 		[FieldOffset(Offset = "0x60")]
 		public Color backgroundColor;
 
-		[Token(Token = "0x40007A2")]
+		[Token(Token = "0x40009BF")]
 		[FieldOffset(Offset = "0x70")]
 		public bool enabled;
 
-		[Token(Token = "0x40007A3")]
+		[Token(Token = "0x40009C0")]
 		[FieldOffset(Offset = "0x71")]
 		public bool changed;
 
-		[Token(Token = "0x40007A4")]
+		[Token(Token = "0x40009C1")]
 		[FieldOffset(Offset = "0x74")]
 		public int displayIndex;
+
+		[Token(Token = "0x40009C2")]
+		[FieldOffset(Offset = "0x78")]
+		public float pixelsPerPoint;
 	}
 
-	[Token(Token = "0x4000782")]
+	[Token(Token = "0x400099D")]
 	[FieldOffset(Offset = "0x0")]
-	internal static readonly DataBindingProperty cullingEnabledProperty;
+	internal static readonly BindingId cullingEnabledProperty;
 
-	[Token(Token = "0x4000783")]
-	[FieldOffset(Offset = "0xA0")]
-	internal static readonly DataBindingProperty contextTypeProperty;
+	[Token(Token = "0x400099E")]
+	[FieldOffset(Offset = "0x98")]
+	internal static readonly BindingId contextTypeProperty;
 
-	[Token(Token = "0x4000784")]
-	[FieldOffset(Offset = "0x3D8")]
+	[Token(Token = "0x400099F")]
+	[FieldOffset(Offset = "0x2C8")]
 	private Action m_OnGUIHandler;
 
-	[Token(Token = "0x4000785")]
-	[FieldOffset(Offset = "0x3E0")]
+	[Token(Token = "0x40009A0")]
+	[FieldOffset(Offset = "0x2D0")]
 	private UnityEngine.ObjectGUIState m_ObjectGUIState;
 
-	[Token(Token = "0x4000786")]
-	[FieldOffset(Offset = "0x3E8")]
+	[Token(Token = "0x40009A1")]
+	[FieldOffset(Offset = "0x2D8")]
 	internal bool useOwnerObjectGUIState;
 
-	[Token(Token = "0x4000788")]
-	[FieldOffset(Offset = "0x3FC")]
+	[Token(Token = "0x40009A3")]
+	[FieldOffset(Offset = "0x2EC")]
 	private bool m_CullingEnabled;
 
-	[Token(Token = "0x4000789")]
-	[FieldOffset(Offset = "0x3FD")]
+	[Token(Token = "0x40009A4")]
+	[FieldOffset(Offset = "0x2ED")]
 	private bool m_IsFocusDelegated;
 
-	[Token(Token = "0x400078A")]
-	[FieldOffset(Offset = "0x3FE")]
+	[Token(Token = "0x40009A5")]
+	[FieldOffset(Offset = "0x2EE")]
 	private bool m_RefreshCachedLayout;
 
-	[Token(Token = "0x400078B")]
-	[FieldOffset(Offset = "0x400")]
+	[Token(Token = "0x40009A6")]
+	[FieldOffset(Offset = "0x2F0")]
 	private GUILayoutUtility.LayoutCache m_Cache;
 
-	[Token(Token = "0x400078C")]
-	[FieldOffset(Offset = "0x408")]
+	[Token(Token = "0x40009A7")]
+	[FieldOffset(Offset = "0x2F8")]
 	private Rect m_CachedClippingRect;
 
-	[Token(Token = "0x400078D")]
-	[FieldOffset(Offset = "0x418")]
+	[Token(Token = "0x40009A8")]
+	[FieldOffset(Offset = "0x308")]
 	private Matrix4x4 m_CachedTransform;
 
-	[Token(Token = "0x400078E")]
-	[FieldOffset(Offset = "0x458")]
+	[Token(Token = "0x40009A9")]
+	[FieldOffset(Offset = "0x348")]
 	private ContextType m_ContextType;
 
-	[Token(Token = "0x400078F")]
-	[FieldOffset(Offset = "0x45C")]
+	[Token(Token = "0x40009AA")]
+	[FieldOffset(Offset = "0x34C")]
 	private bool lostFocus;
 
-	[Token(Token = "0x4000790")]
-	[FieldOffset(Offset = "0x45D")]
+	[Token(Token = "0x40009AB")]
+	[FieldOffset(Offset = "0x34D")]
 	private bool receivedFocus;
 
-	[Token(Token = "0x4000791")]
-	[FieldOffset(Offset = "0x460")]
+	[Token(Token = "0x40009AC")]
+	[FieldOffset(Offset = "0x350")]
 	private FocusChangeDirection focusChangeDirection;
 
-	[Token(Token = "0x4000792")]
-	[FieldOffset(Offset = "0x468")]
+	[Token(Token = "0x40009AD")]
+	[FieldOffset(Offset = "0x358")]
 	private bool hasFocusableControls;
 
-	[Token(Token = "0x4000793")]
-	[FieldOffset(Offset = "0x46C")]
+	[Token(Token = "0x40009AE")]
+	[FieldOffset(Offset = "0x35C")]
 	private int newKeyboardFocusControlID;
 
-	[Token(Token = "0x4000795")]
-	[FieldOffset(Offset = "0x140")]
+	[Token(Token = "0x40009B0")]
+	[FieldOffset(Offset = "0x130")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x4000796")]
-	[FieldOffset(Offset = "0x148")]
+	[Token(Token = "0x40009B1")]
+	[FieldOffset(Offset = "0x138")]
 	internal static readonly string ussFoldoutChildDepthClassName;
 
-	[Token(Token = "0x4000797")]
-	[FieldOffset(Offset = "0x150")]
+	[Token(Token = "0x40009B2")]
+	[FieldOffset(Offset = "0x140")]
 	internal static readonly List<string> ussFoldoutChildDepthClassNames;
 
-	[Token(Token = "0x4000798")]
-	[FieldOffset(Offset = "0x474")]
+	[Token(Token = "0x40009B3")]
+	[FieldOffset(Offset = "0x364")]
 	private GUIGlobals m_GUIGlobals;
 
-	[Token(Token = "0x4000799")]
-	[FieldOffset(Offset = "0x158")]
+	[Token(Token = "0x40009B4")]
+	[FieldOffset(Offset = "0x148")]
 	private static readonly ProfilerMarker k_OnGUIMarker;
 
-	[Token(Token = "0x400079A")]
-	[FieldOffset(Offset = "0x160")]
+	[Token(Token = "0x40009B5")]
+	[FieldOffset(Offset = "0x150")]
 	private static readonly ProfilerMarker k_ImmediateCallbackMarker;
 
-	[Token(Token = "0x400079B")]
-	[FieldOffset(Offset = "0x168")]
+	[Token(Token = "0x40009B6")]
+	[FieldOffset(Offset = "0x158")]
 	private static Event s_DefaultMeasureEvent;
 
-	[Token(Token = "0x400079C")]
-	[FieldOffset(Offset = "0x170")]
+	[Token(Token = "0x40009B7")]
+	[FieldOffset(Offset = "0x160")]
 	private static Event s_MeasureEvent;
 
-	[Token(Token = "0x400079D")]
-	[FieldOffset(Offset = "0x178")]
+	[Token(Token = "0x40009B8")]
+	[FieldOffset(Offset = "0x168")]
 	private static Event s_CurrentEvent;
 
-	[Token(Token = "0x17000294")]
+	[Token(Token = "0x1700037F")]
 	public Action onGUIHandler
 	{
-		[Token(Token = "0x6000DCF")]
-		[Address(RVA = "0x5047700", Offset = "0x5047700", VA = "0x5047700")]
+		[Token(Token = "0x600116A")]
+		[Address(RVA = "0x3279CF0", Offset = "0x32782F0", VA = "0x183279CF0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000DD0")]
-		[Address(RVA = "0x5047710", Offset = "0x5047710", VA = "0x5047710")]
+		[Token(Token = "0x600116B")]
+		[Address(RVA = "0x3279E20", Offset = "0x3278420", VA = "0x183279E20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000295")]
+	[Token(Token = "0x17000380")]
 	internal UnityEngine.ObjectGUIState guiState
 	{
-		[Token(Token = "0x6000DD1")]
-		[Address(RVA = "0x5047770", Offset = "0x5047770", VA = "0x5047770")]
+		[Token(Token = "0x600116C")]
+		[Address(RVA = "0x3279BC0", Offset = "0x32781C0", VA = "0x183279BC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000296")]
+	[Token(Token = "0x17000381")]
 	internal Rect lastWorldClip
 	{
-		[Token(Token = "0x6000DD2")]
-		[Address(RVA = "0x5047820", Offset = "0x5047820", VA = "0x5047820")]
+		[Token(Token = "0x600116D")]
+		[Address(RVA = "0x3279C80", Offset = "0x3278280", VA = "0x183279C80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
-		[Token(Token = "0x6000DD3")]
-		[Address(RVA = "0x5047840", Offset = "0x5047840", VA = "0x5047840")]
+		[Token(Token = "0x600116E")]
+		[Address(RVA = "0x3279E10", Offset = "0x3278410", VA = "0x183279E10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000297")]
+	[Token(Token = "0x17000382")]
 	[CreateProperty]
 	public bool cullingEnabled
 	{
-		[Token(Token = "0x6000DD4")]
-		[Address(RVA = "0x5047850", Offset = "0x5047850", VA = "0x5047850")]
+		[Token(Token = "0x600116F")]
+		[Address(RVA = "0x3279BB0", Offset = "0x32781B0", VA = "0x183279BB0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000DD5")]
-		[Address(RVA = "0x5047860", Offset = "0x5047860", VA = "0x5047860")]
+		[Token(Token = "0x6001170")]
+		[Address(RVA = "0x3279D80", Offset = "0x3278380", VA = "0x183279D80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000298")]
+	[Token(Token = "0x17000383")]
 	private GUILayoutUtility.LayoutCache cache
 	{
-		[Token(Token = "0x6000DD6")]
-		[Address(RVA = "0x5047930", Offset = "0x5047930", VA = "0x5047930")]
+		[Token(Token = "0x6001171")]
+		[Address(RVA = "0x3279B00", Offset = "0x3278100", VA = "0x183279B00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000299")]
+	[Token(Token = "0x17000384")]
 	private float layoutMeasuredWidth
 	{
-		[Token(Token = "0x6000DD7")]
-		[Address(RVA = "0x50479C0", Offset = "0x50479C0", VA = "0x50479C0")]
+		[Token(Token = "0x6001172")]
+		[Address(RVA = "0x3279CC0", Offset = "0x32782C0", VA = "0x183279CC0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700029A")]
+	[Token(Token = "0x17000385")]
 	private float layoutMeasuredHeight
 	{
-		[Token(Token = "0x6000DD8")]
-		[Address(RVA = "0x5047A60", Offset = "0x5047A60", VA = "0x5047A60")]
+		[Token(Token = "0x6001173")]
+		[Address(RVA = "0x3279C90", Offset = "0x3278290", VA = "0x183279C90")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700029B")]
+	[Token(Token = "0x17000386")]
 	[CreateProperty]
 	public ContextType contextType
 	{
-		[Token(Token = "0x6000DD9")]
-		[Address(RVA = "0x5047B00", Offset = "0x5047B00", VA = "0x5047B00")]
+		[Token(Token = "0x6001174")]
+		[Address(RVA = "0x323A0A0", Offset = "0x32386A0", VA = "0x18323A0A0")]
 		get
 		{
 			return default(ContextType);
 		}
-		[Token(Token = "0x6000DDA")]
-		[Address(RVA = "0x5047B10", Offset = "0x5047B10", VA = "0x5047B10")]
+		[Token(Token = "0x6001175")]
+		[Address(RVA = "0x3279D00", Offset = "0x3278300", VA = "0x183279D00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700029C")]
+	[Token(Token = "0x17000387")]
 	internal bool focusOnlyIfHasFocusableControls
 	{
-		[Token(Token = "0x6000DDB")]
-		[Address(RVA = "0x5047BB0", Offset = "0x5047BB0", VA = "0x5047BB0")]
+		[Token(Token = "0x6001176")]
+		[Address(RVA = "0x31D1E30", Offset = "0x31D0430", VA = "0x1831D1E30")]
 		[CompilerGenerated]
 		get
 		{
@@ -297,220 +343,209 @@ public class IMGUIContainer : VisualElement, IDisposable
 		}
 	}
 
-	[Token(Token = "0x1700029D")]
+	[Token(Token = "0x17000388")]
 	public override bool canGrabFocus
 	{
-		[Token(Token = "0x6000DDC")]
-		[Address(RVA = "0x5047BC0", Offset = "0x5047BC0", VA = "0x5047BC0", Slot = "14")]
+		[Token(Token = "0x6001177")]
+		[Address(RVA = "0x3279B80", Offset = "0x3278180", VA = "0x183279B80", Slot = "18")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000DDD")]
-	[Address(RVA = "0x5047BE0", Offset = "0x5047BE0", VA = "0x5047BE0")]
+	[Token(Token = "0x6001178")]
+	[Address(RVA = "0x3279060", Offset = "0x3277660", VA = "0x183279060")]
 	static IMGUIContainer()
 	{
 	}
 
-	[Token(Token = "0x6000DDE")]
-	[Address(RVA = "0x5048140", Offset = "0x5048140", VA = "0x5048140")]
+	[Token(Token = "0x6001179")]
+	[Address(RVA = "0x3279AF0", Offset = "0x32780F0", VA = "0x183279AF0")]
 	public IMGUIContainer()
 	{
 	}
 
-	[Token(Token = "0x6000DDF")]
-	[Address(RVA = "0x5048150", Offset = "0x5048150", VA = "0x5048150")]
+	[Token(Token = "0x600117A")]
+	[Address(RVA = "0x3279760", Offset = "0x3277D60", VA = "0x183279760")]
 	public IMGUIContainer(Action onGUIHandler)
 	{
 	}
 
-	[Token(Token = "0x6000DE0")]
-	[Address(RVA = "0x5048560", Offset = "0x5048560", VA = "0x5048560")]
+	[Token(Token = "0x600117B")]
+	[Address(RVA = "0x3278500", Offset = "0x3276B00", VA = "0x183278500")]
 	private void OnGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
-	[Token(Token = "0x6000DE1")]
-	[Address(RVA = "0x5048620", Offset = "0x5048620", VA = "0x5048620")]
+	[Token(Token = "0x600117C")]
+	[Address(RVA = "0x32787E0", Offset = "0x3276DE0", VA = "0x1832787E0")]
 	private void SaveGlobals()
 	{
 	}
 
-	[Token(Token = "0x6000DE2")]
-	[Address(RVA = "0x5048740", Offset = "0x5048740", VA = "0x5048740")]
+	[Token(Token = "0x600117D")]
+	[Address(RVA = "0x3278660", Offset = "0x3276C60", VA = "0x183278660")]
 	private void RestoreGlobals()
 	{
 	}
 
-	[Token(Token = "0x6000DE3")]
-	[Address(RVA = "0x5048880", Offset = "0x5048880", VA = "0x5048880")]
+	[Token(Token = "0x600117E")]
+	[Address(RVA = "0x3275D10", Offset = "0x3274310", VA = "0x183275D10")]
 	private void DoOnGUI(Event evt, Matrix4x4 parentTransform, Rect clippingRect, bool isComputingLayout, Rect layoutSize, Action onGUIHandler, bool canAffectFocus = true)
 	{
 	}
 
-	[Token(Token = "0x6000DE4")]
-	[Address(RVA = "0x50499B0", Offset = "0x50499B0", VA = "0x50499B0")]
+	[Token(Token = "0x600117F")]
+	[Address(RVA = "0x32784E0", Offset = "0x3276AE0", VA = "0x1832784E0")]
 	public void MarkDirtyLayout()
 	{
 	}
 
-	[Token(Token = "0x6000DE5")]
-	[Address(RVA = "0x50499D0", Offset = "0x50499D0", VA = "0x50499D0")]
-	private void ProcessEvent(EventBase evt)
-	{
-	}
-
-	[Token(Token = "0x6000DE6")]
-	[Address(RVA = "0x5049E00", Offset = "0x5049E00", VA = "0x5049E00")]
+	[Token(Token = "0x6001180")]
+	[Address(RVA = "0x32754D0", Offset = "0x3273AD0", VA = "0x1832754D0")]
 	private void DoIMGUIRepaint()
 	{
 	}
 
-	[Token(Token = "0x6000DE7")]
-	[Address(RVA = "0x5049B60", Offset = "0x5049B60", VA = "0x5049B60")]
+	[Token(Token = "0x6001181")]
+	[Address(RVA = "0x3278A00", Offset = "0x3277000", VA = "0x183278A00")]
 	internal bool SendEventToIMGUI(EventBase evt, bool canAffectFocus = true, bool verifyBounds = true)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DE8")]
-	[Address(RVA = "0x504A670", Offset = "0x504A670", VA = "0x504A670")]
+	[Token(Token = "0x6001182")]
+	[Address(RVA = "0x3278920", Offset = "0x3276F20", VA = "0x183278920")]
 	private bool SendEventToIMGUIRaw(EventBase evt, bool canAffectFocus, bool verifyBounds)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DE9")]
-	[Address(RVA = "0x504A860", Offset = "0x504A860", VA = "0x504A860")]
+	[Token(Token = "0x6001183")]
+	[Address(RVA = "0x3278E10", Offset = "0x3277410", VA = "0x183278E10")]
 	private bool VerifyBounds(EventBase evt)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DEA")]
-	[Address(RVA = "0x504A9B0", Offset = "0x504A9B0", VA = "0x504A9B0")]
+	[Token(Token = "0x6001184")]
+	[Address(RVA = "0x3277F00", Offset = "0x3276500", VA = "0x183277F00")]
 	private bool IsContainerCapturingTheMouse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DEB")]
-	[Address(RVA = "0x504AAE0", Offset = "0x504AAE0", VA = "0x504AAE0")]
+	[Token(Token = "0x6001185")]
+	[Address(RVA = "0x3278300", Offset = "0x3276900", VA = "0x183278300")]
 	private bool IsLocalEvent(EventBase evt)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x504ACD0", Offset = "0x504ACD0", VA = "0x504ACD0")]
+	[Token(Token = "0x6001186")]
+	[Address(RVA = "0x3278120", Offset = "0x3276720", VA = "0x183278120")]
 	private bool IsEventInsideLocalWindow(EventBase evt)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x504AE80", Offset = "0x504AE80", VA = "0x504AE80")]
+	[Token(Token = "0x6001187")]
+	[Address(RVA = "0x3278030", Offset = "0x3276630", VA = "0x183278030")]
 	private static bool IsDockAreaMouseUp(EventBase evt)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x504A8E0", Offset = "0x504A8E0", VA = "0x504A8E0")]
+	[Token(Token = "0x6001188")]
+	[Address(RVA = "0x3277840", Offset = "0x3275E40", VA = "0x183277840")]
 	internal bool HandleIMGUIEvent(Event e, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x504AFB0", Offset = "0x504AFB0", VA = "0x504AFB0")]
+	[Token(Token = "0x6001189")]
+	[Address(RVA = "0x32775D0", Offset = "0x3275BD0", VA = "0x1832775D0")]
 	internal bool HandleIMGUIEvent(Event e, Action onGUIHandler, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x504A280", Offset = "0x504A280", VA = "0x504A280")]
+	[Token(Token = "0x600118A")]
+	[Address(RVA = "0x3277AA0", Offset = "0x32760A0", VA = "0x183277AA0")]
 	private bool HandleIMGUIEvent(Event e, Matrix4x4 worldTransform, Rect clippingRect, Action onGUIHandler, bool canAffectFocus)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x504B3C0", Offset = "0x504B3C0", VA = "0x504B3C0", Slot = "9")]
-	[EventInterest(EventInterestOptionsInternal.TriggeredByOS)]
+	[Token(Token = "0x600118B")]
+	[Address(RVA = "0x25EACE0", Offset = "0x25E92E0", VA = "0x1825EACE0", Slot = "9")]
 	[EventInterest(new Type[]
 	{
 		typeof(NavigationMoveEvent),
 		typeof(NavigationSubmitEvent),
-		typeof(NavigationCancelEvent)
-	})]
-	protected override void ExecuteDefaultActionAtTarget(EventBase evt)
-	{
-	}
-
-	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x504B400", Offset = "0x504B400", VA = "0x504B400", Slot = "11")]
-	[EventInterest(new Type[]
-	{
-		typeof(NavigationMoveEvent),
-		typeof(NavigationSubmitEvent),
-		typeof(NavigationCancelEvent)
-	})]
-	[EventInterest(EventInterestOptionsInternal.TriggeredByOS)]
-	internal override void ExecuteDefaultActionDisabledAtTarget(EventBase evt)
-	{
-	}
-
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x504B440", Offset = "0x504B440", VA = "0x504B440", Slot = "10")]
-	[EventInterest(new Type[]
-	{
+		typeof(NavigationCancelEvent),
 		typeof(BlurEvent),
 		typeof(FocusEvent),
 		typeof(DetachFromPanelEvent),
 		typeof(AttachToPanelEvent)
 	})]
-	protected override void ExecuteDefaultAction(EventBase evt)
+	[EventInterest(EventInterestOptionsInternal.TriggeredByOS)]
+	internal override void HandleEventBubbleUpDisabled(EventBase evt)
 	{
 	}
 
-	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x504B710", Offset = "0x504B710", VA = "0x504B710")]
+	[Token(Token = "0x600118C")]
+	[Address(RVA = "0x3277000", Offset = "0x3275600", VA = "0x183277000", Slot = "8")]
+	[EventInterest(EventInterestOptionsInternal.TriggeredByOS)]
+	[EventInterest(new Type[]
+	{
+		typeof(NavigationMoveEvent),
+		typeof(NavigationSubmitEvent),
+		typeof(NavigationCancelEvent),
+		typeof(BlurEvent),
+		typeof(FocusEvent),
+		typeof(DetachFromPanelEvent),
+		typeof(AttachToPanelEvent)
+	})]
+	protected override void HandleEventBubbleUp(EventBase evt)
+	{
+	}
+
+	[Token(Token = "0x600118D")]
+	[Address(RVA = "0x3278C80", Offset = "0x3277280", VA = "0x183278C80")]
 	private void SetFoldoutDepthClass()
 	{
 	}
 
-	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x504B890", Offset = "0x504B890", VA = "0x504B890", Slot = "96")]
+	[Token(Token = "0x600118E")]
+	[Address(RVA = "0x3275910", Offset = "0x3273F10", VA = "0x183275910", Slot = "137")]
 	protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x504AF70", Offset = "0x504AF70", VA = "0x504AF70")]
+	[Token(Token = "0x600118F")]
+	[Address(RVA = "0x3276D60", Offset = "0x3275360", VA = "0x183276D60")]
 	private Rect GetCurrentClipRect()
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x504B070", Offset = "0x504B070", VA = "0x504B070")]
+	[Token(Token = "0x6001190")]
+	[Address(RVA = "0x3276E50", Offset = "0x3275450", VA = "0x183276E50")]
 	private static void GetCurrentTransformAndClip(IMGUIContainer container, Event evt, out Matrix4x4 transform, out Rect clipRect)
 	{
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x504BB60", Offset = "0x504BB60", VA = "0x504BB60", Slot = "98")]
+	[Token(Token = "0x6001191")]
+	[Address(RVA = "0x3275450", Offset = "0x3273A50", VA = "0x183275450", Slot = "141")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x504BBD0", Offset = "0x504BBD0", VA = "0x504BBD0", Slot = "99")]
+	[Token(Token = "0x6001192")]
+	[Address(RVA = "0x32754B0", Offset = "0x3273AB0", VA = "0x1832754B0", Slot = "142")]
 	protected virtual void Dispose(bool disposeManaged)
 	{
 	}

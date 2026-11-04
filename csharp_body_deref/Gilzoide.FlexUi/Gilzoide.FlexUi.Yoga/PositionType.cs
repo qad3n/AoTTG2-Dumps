@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 public enum PositionType
 {
-	[Token(Token = "0x400007A")]
+	[Token(Token = "0x4000075")]
 	Static,
-	[Token(Token = "0x400007B")]
+	[Token(Token = "0x4000076")]
 	Relative,
-	[Token(Token = "0x400007C")]
+	[Token(Token = "0x4000077")]
 	Absolute
 }

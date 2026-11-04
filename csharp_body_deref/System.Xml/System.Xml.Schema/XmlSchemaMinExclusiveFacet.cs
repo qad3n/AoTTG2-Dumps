@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaMinExclusiveFacet : XmlSchemaFacet
 {
 	[Token(Token = "0x6001665")]
-	[Address(RVA = "0x4724CC0", Offset = "0x4724CC0", VA = "0x4724CC0")]
+	[Address(RVA = "0x266CCE0", Offset = "0x266B2E0", VA = "0x18266CCE0")]
 	public XmlSchemaMinExclusiveFacet()
 	{
 	}

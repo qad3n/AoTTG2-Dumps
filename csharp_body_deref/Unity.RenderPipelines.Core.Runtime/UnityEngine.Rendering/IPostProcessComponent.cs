@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200015A")]
+[Token(Token = "0x200014F")]
 public interface IPostProcessComponent
 {
-	[Token(Token = "0x6000A77")]
+	[Token(Token = "0x6000AF7")]
 	bool IsActive();
 
-	[Token(Token = "0x6000A78")]
-	[Address(RVA = "0x4BD4770", Offset = "0x4BD4770", VA = "0x4BD4770", Slot = "1")]
-	[Obsolete("Unused #from(2023.1)", false)]
+	[Token(Token = "0x6000AF8")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "1")]
+	[Obsolete("Unused #from(2023.1)")]
 	bool IsTileCompatible()
 	{
 		return default(bool);

@@ -21,7 +21,7 @@ internal sealed class XPathEmptyIterator : ResetableIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C1A")]
-		[Address(RVA = "0x478A940", Offset = "0x478A940", VA = "0x478A940", Slot = "8")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ internal sealed class XPathEmptyIterator : ResetableIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C1B")]
-		[Address(RVA = "0x478A950", Offset = "0x478A950", VA = "0x478A950", Slot = "9")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -43,7 +43,7 @@ internal sealed class XPathEmptyIterator : ResetableIterator
 	public override int Count
 	{
 		[Token(Token = "0x6001C1C")]
-		[Address(RVA = "0x478A960", Offset = "0x478A960", VA = "0x478A960", Slot = "10")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -51,27 +51,27 @@ internal sealed class XPathEmptyIterator : ResetableIterator
 	}
 
 	[Token(Token = "0x6001C18")]
-	[Address(RVA = "0x478A910", Offset = "0x478A910", VA = "0x478A910")]
+	[Address(RVA = "0x26D1150", Offset = "0x26CF750", VA = "0x1826D1150")]
 	private XPathEmptyIterator()
 	{
 	}
 
 	[Token(Token = "0x6001C19")]
-	[Address(RVA = "0x478A930", Offset = "0x478A930", VA = "0x478A930", Slot = "6")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C1D")]
-	[Address(RVA = "0x478A970", Offset = "0x478A970", VA = "0x478A970", Slot = "7")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001C1E")]
-	[Address(RVA = "0x478A980", Offset = "0x478A980", VA = "0x478A980", Slot = "12")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
 	public override void Reset()
 	{
 	}

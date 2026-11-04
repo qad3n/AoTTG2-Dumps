@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x2000028")]
 public class ActorProperties
 {
-	[Token(Token = "0x400010C")]
-	public const byte PlayerName = byte.MaxValue;
+	[Token(Token = "0x4000107")]
+	public const byte PlayerName = 255;
 
-	[Token(Token = "0x400010D")]
+	[Token(Token = "0x4000108")]
 	public const byte IsInactive = 254;
 
-	[Token(Token = "0x400010E")]
+	[Token(Token = "0x4000109")]
 	public const byte UserId = 253;
 
-	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3ECEEB0", Offset = "0x3ECEEB0", VA = "0x3ECEEB0")]
+	[Token(Token = "0x600011E")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ActorProperties()
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000527")]
+[Token(Token = "0x200061B")]
 internal enum LayoutUnit
 {
-	[Token(Token = "0x4001161")]
+	[Token(Token = "0x40016DA")]
 	Undefined,
-	[Token(Token = "0x4001162")]
+	[Token(Token = "0x40016DB")]
 	Point,
-	[Token(Token = "0x4001163")]
+	[Token(Token = "0x40016DC")]
 	Percent,
-	[Token(Token = "0x4001164")]
+	[Token(Token = "0x40016DD")]
 	Auto
 }

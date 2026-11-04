@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A8")]
+[Token(Token = "0x2000320")]
 public enum RenderBufferStoreAction
 {
-	[Token(Token = "0x4000715")]
+	[Token(Token = "0x4000814")]
 	Store,
-	[Token(Token = "0x4000716")]
+	[Token(Token = "0x4000815")]
 	Resolve,
-	[Token(Token = "0x4000717")]
+	[Token(Token = "0x4000816")]
 	StoreAndResolve,
-	[Token(Token = "0x4000718")]
+	[Token(Token = "0x4000817")]
 	DontCare
 }

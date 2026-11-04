@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D5")]
+[Token(Token = "0x20000F7")]
 public enum LightRenderMode
 {
-	[Token(Token = "0x4000230")]
+	[Token(Token = "0x400028D")]
 	Auto,
-	[Token(Token = "0x4000231")]
+	[Token(Token = "0x400028E")]
 	ForcePixel,
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x400028F")]
 	ForceVertex
 }

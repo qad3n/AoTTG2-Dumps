@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003FF")]
+[Token(Token = "0x20004C6")]
 internal interface IUIElementsUtility
 {
-	[Token(Token = "0x60019FD")]
+	[Token(Token = "0x60025AD")]
 	bool TakeCapture();
 
-	[Token(Token = "0x60019FE")]
+	[Token(Token = "0x60025AE")]
 	bool ReleaseCapture();
 
-	[Token(Token = "0x60019FF")]
+	[Token(Token = "0x60025AF")]
 	bool ProcessEvent(int instanceID, IntPtr nativeEventPtr, ref bool eventHandled);
 
-	[Token(Token = "0x6001A00")]
+	[Token(Token = "0x60025B0")]
 	bool CleanupRoots();
 
-	[Token(Token = "0x6001A01")]
+	[Token(Token = "0x60025B1")]
 	bool EndContainerGUIFromException(Exception exception);
 
-	[Token(Token = "0x6001A02")]
+	[Token(Token = "0x60025B2")]
 	bool MakeCurrentIMGUIContainerDirty();
 }

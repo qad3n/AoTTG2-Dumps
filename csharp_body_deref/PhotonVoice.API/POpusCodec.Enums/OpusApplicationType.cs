@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x200000D")]
 public enum OpusApplicationType
 {
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x4000042")]
 	Voip = 2048,
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000043")]
 	Audio = 2049,
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x4000044")]
 	RestrictedLowDelay = 2051
 }

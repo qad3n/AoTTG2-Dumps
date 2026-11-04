@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000220")]
+[Token(Token = "0x2000223")]
 [DisallowMultipleComponent]
 public sealed class AsyncSelectTrigger : AsyncTriggerBase<BaseEventData>, ISelectHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C54")]
-	[Address(RVA = "0x4A183E0", Offset = "0x4A183E0", VA = "0x4A183E0", Slot = "5")]
+	[Token(Token = "0x6000C78")]
+	[Address(RVA = "0x29384D0", Offset = "0x2936AD0", VA = "0x1829384D0", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EISelectHandler_002EOnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C55")]
-	[Address(RVA = "0x4A18430", Offset = "0x4A18430", VA = "0x4A18430")]
+	[Token(Token = "0x6000C79")]
+	[Address(RVA = "0x2938230", Offset = "0x2936830", VA = "0x182938230")]
 	public IAsyncOnSelectHandler GetOnSelectAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C56")]
-	[Address(RVA = "0x4A184A0", Offset = "0x4A184A0", VA = "0x4A184A0")]
+	[Token(Token = "0x6000C7A")]
+	[Address(RVA = "0x29381B0", Offset = "0x29367B0", VA = "0x1829381B0")]
 	public IAsyncOnSelectHandler GetOnSelectAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C57")]
-	[Address(RVA = "0x4A18510", Offset = "0x4A18510", VA = "0x4A18510")]
+	[Token(Token = "0x6000C7B")]
+	[Address(RVA = "0x29383B0", Offset = "0x29369B0", VA = "0x1829383B0")]
 	public UniTask<BaseEventData> OnSelectAsync()
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
-	[Token(Token = "0x6000C58")]
-	[Address(RVA = "0x4A18610", Offset = "0x4A18610", VA = "0x4A18610")]
+	[Token(Token = "0x6000C7C")]
+	[Address(RVA = "0x29382A0", Offset = "0x29368A0", VA = "0x1829382A0")]
 	public UniTask<BaseEventData> OnSelectAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
-	[Token(Token = "0x6000C59")]
-	[Address(RVA = "0x4A18720", Offset = "0x4A18720", VA = "0x4A18720")]
+	[Token(Token = "0x6000C7D")]
+	[Address(RVA = "0x2938520", Offset = "0x2936B20", VA = "0x182938520")]
 	public AsyncSelectTrigger()
 	{
 	}

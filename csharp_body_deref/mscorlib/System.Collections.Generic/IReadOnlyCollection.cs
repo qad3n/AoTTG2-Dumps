@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200064F")]
+[Token(Token = "0x2000623")]
 public interface IReadOnlyCollection<out T> : IEnumerable<T>, IEnumerable
 {
-	[Token(Token = "0x17000821")]
+	[Token(Token = "0x170007B0")]
 	int Count
 	{
-		[Token(Token = "0x600320A")]
+		[Token(Token = "0x6002F1F")]
 		get;
 	}
 }

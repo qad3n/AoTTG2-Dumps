@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003AF")]
+[Token(Token = "0x20003DE")]
 [ComVisible(true)]
 public interface IMessageSink
 {
-	[Token(Token = "0x6001E6F")]
+	[Token(Token = "0x6001EDE")]
 	IMessage SyncProcessMessage(IMessage msg);
 
-	[Token(Token = "0x6001E70")]
+	[Token(Token = "0x6001EDF")]
 	IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink);
 }

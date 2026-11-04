@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000005")]
 internal class AndroidJavaRunnableProxy : AndroidJavaProxy
 {
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x20")]
 	private AndroidJavaRunnable mRunnable;
 
-	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x4D99820", Offset = "0x4D99820", VA = "0x4D99820")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x2EA4660", Offset = "0x2EA2C60", VA = "0x182EA4660")]
 	public AndroidJavaRunnableProxy(AndroidJavaRunnable runnable)
 	{
 	}
 
-	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x4D999C0", Offset = "0x4D999C0", VA = "0x4D999C0")]
+	[Token(Token = "0x600000A")]
+	[Address(RVA = "0x2EA4730", Offset = "0x2EA2D30", VA = "0x182EA4730")]
 	public void run()
 	{
 	}
 
-	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x4D999E0", Offset = "0x4D999E0", VA = "0x4D999E0", Slot = "6")]
+	[Token(Token = "0x600000B")]
+	[Address(RVA = "0x2EA45B0", Offset = "0x2EA2BB0", VA = "0x182EA45B0", Slot = "6")]
 	public override IntPtr Invoke(string methodName, IntPtr javaArgs)
 	{
 		return default(IntPtr);

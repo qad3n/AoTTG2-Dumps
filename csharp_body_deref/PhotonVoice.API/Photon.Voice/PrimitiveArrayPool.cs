@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000043")]
 public class PrimitiveArrayPool<T> : ObjectPool<T[], int>
 {
-	[Token(Token = "0x6000178")]
+	[Token(Token = "0x6000176")]
 	public PrimitiveArrayPool(int capacity, string name)
 	{
 	}
 
-	[Token(Token = "0x6000179")]
+	[Token(Token = "0x6000177")]
 	public PrimitiveArrayPool(int capacity, string name, int info)
 	{
 	}
 
-	[Token(Token = "0x600017A")]
+	[Token(Token = "0x6000178")]
 	protected override T[] createObject(int info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600017B")]
+	[Token(Token = "0x6000179")]
 	protected override void destroyObject(T[] obj)
 	{
 	}
 
-	[Token(Token = "0x600017C")]
+	[Token(Token = "0x600017A")]
 	protected override bool infosMatch(int i0, int i1)
 	{
 		return default(bool);

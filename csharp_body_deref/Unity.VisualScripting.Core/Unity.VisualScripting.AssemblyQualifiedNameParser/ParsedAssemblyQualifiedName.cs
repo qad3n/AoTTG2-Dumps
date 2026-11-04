@@ -17,84 +17,42 @@ public class ParsedAssemblyQualifiedName
 	[Token(Token = "0x2000227")]
 	private class Block
 	{
-		[Token(Token = "0x40009F6")]
+		[Token(Token = "0x40009F4")]
 		[FieldOffset(Offset = "0x10")]
 		internal int startIndex;
 
-		[Token(Token = "0x40009F7")]
+		[Token(Token = "0x40009F5")]
 		[FieldOffset(Offset = "0x14")]
 		internal int endIndex;
 
-		[Token(Token = "0x40009F8")]
+		[Token(Token = "0x40009F6")]
 		[FieldOffset(Offset = "0x18")]
 		internal int level;
 
-		[Token(Token = "0x40009F9")]
+		[Token(Token = "0x40009F7")]
 		[FieldOffset(Offset = "0x20")]
 		internal Block parentBlock;
 
-		[Token(Token = "0x40009FA")]
+		[Token(Token = "0x40009F8")]
 		[FieldOffset(Offset = "0x28")]
 		internal readonly List<Block> innerBlocks;
 
-		[Token(Token = "0x40009FB")]
+		[Token(Token = "0x40009F9")]
 		[FieldOffset(Offset = "0x30")]
 		internal ParsedAssemblyQualifiedName parsedAssemblyQualifiedName;
 
-		[Token(Token = "0x6001337")]
-		[Address(RVA = "0x4D8F050", Offset = "0x4D8F050", VA = "0x4D8F050")]
+		[Token(Token = "0x6001344")]
+		[Address(RVA = "0x2E6F440", Offset = "0x2E6DA40", VA = "0x182E6F440")]
 		public Block()
 		{
 		}
 	}
 
-	[Token(Token = "0x1700021E")]
+	[Token(Token = "0x17000221")]
 	public string AssemblyDescriptionString
 	{
-		[Token(Token = "0x6001329")]
-		[Address(RVA = "0x4D8E8B0", Offset = "0x4D8E8B0", VA = "0x4D8E8B0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700021F")]
-	public string TypeName
-	{
-		[Token(Token = "0x600132A")]
-		[Address(RVA = "0x4D8E8C0", Offset = "0x4D8E8C0", VA = "0x4D8E8C0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600132B")]
-		[Address(RVA = "0x4D8E8D0", Offset = "0x4D8E8D0", VA = "0x4D8E8D0")]
-		[CompilerGenerated]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000220")]
-	public string ShortAssemblyName
-	{
-		[Token(Token = "0x600132C")]
-		[Address(RVA = "0x4D8E8E0", Offset = "0x4D8E8E0", VA = "0x4D8E8E0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000221")]
-	public string Version
-	{
-		[Token(Token = "0x600132D")]
-		[Address(RVA = "0x4D8E8F0", Offset = "0x4D8E8F0", VA = "0x4D8E8F0")]
+		[Token(Token = "0x6001336")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -103,22 +61,28 @@ public class ParsedAssemblyQualifiedName
 	}
 
 	[Token(Token = "0x17000222")]
-	public string Culture
+	public string TypeName
 	{
-		[Token(Token = "0x600132E")]
-		[Address(RVA = "0x4D8E900", Offset = "0x4D8E900", VA = "0x4D8E900")]
+		[Token(Token = "0x6001337")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
+		[Token(Token = "0x6001338")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		[CompilerGenerated]
+		private set
+		{
+		}
 	}
 
 	[Token(Token = "0x17000223")]
-	public string PublicKeyToken
+	public string ShortAssemblyName
 	{
-		[Token(Token = "0x600132F")]
-		[Address(RVA = "0x4D8E910", Offset = "0x4D8E910", VA = "0x4D8E910")]
+		[Token(Token = "0x6001339")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -127,10 +91,10 @@ public class ParsedAssemblyQualifiedName
 	}
 
 	[Token(Token = "0x17000224")]
-	public List<ParsedAssemblyQualifiedName> GenericParameters
+	public string Version
 	{
-		[Token(Token = "0x6001330")]
-		[Address(RVA = "0x4D8E920", Offset = "0x4D8E920", VA = "0x4D8E920")]
+		[Token(Token = "0x600133A")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -139,10 +103,46 @@ public class ParsedAssemblyQualifiedName
 	}
 
 	[Token(Token = "0x17000225")]
+	public string Culture
+	{
+		[Token(Token = "0x600133B")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000226")]
+	public string PublicKeyToken
+	{
+		[Token(Token = "0x600133C")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000227")]
+	public List<ParsedAssemblyQualifiedName> GenericParameters
+	{
+		[Token(Token = "0x600133D")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000228")]
 	public int GenericParameterCount
 	{
-		[Token(Token = "0x6001331")]
-		[Address(RVA = "0x4D8E930", Offset = "0x4D8E930", VA = "0x4D8E930")]
+		[Token(Token = "0x600133E")]
+		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -150,34 +150,34 @@ public class ParsedAssemblyQualifiedName
 		}
 	}
 
-	[Token(Token = "0x6001332")]
-	[Address(RVA = "0x4D8E940", Offset = "0x4D8E940", VA = "0x4D8E940")]
+	[Token(Token = "0x600133F")]
+	[Address(RVA = "0x2E6F9F0", Offset = "0x2E6DFF0", VA = "0x182E6F9F0")]
 	public ParsedAssemblyQualifiedName(string AssemblyQualifiedName)
 	{
 	}
 
-	[Token(Token = "0x6001333")]
-	[Address(RVA = "0x4D8F0D0", Offset = "0x4D8F0D0", VA = "0x4D8F0D0")]
+	[Token(Token = "0x6001340")]
+	[Address(RVA = "0x2E6F530", Offset = "0x2E6DB30", VA = "0x182E6F530")]
 	private static string LookForPairThenRemove(List<string> strings, string Name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001334")]
-	[Address(RVA = "0x4D8F1D0", Offset = "0x4D8F1D0", VA = "0x4D8F1D0")]
+	[Token(Token = "0x6001341")]
+	[Address(RVA = "0x2E6F620", Offset = "0x2E6DC20", VA = "0x182E6F620")]
 	public void Replace(string oldTypeName, string newTypeName)
 	{
 	}
 
-	[Token(Token = "0x6001335")]
-	[Address(RVA = "0x4D8F350", Offset = "0x4D8F350", VA = "0x4D8F350")]
+	[Token(Token = "0x6001342")]
+	[Address(RVA = "0x2E6F770", Offset = "0x2E6DD70", VA = "0x182E6F770")]
 	private string ToString(bool includeAssemblyDescription)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001336")]
-	[Address(RVA = "0x4D8F5F0", Offset = "0x4D8F5F0", VA = "0x4D8F5F0", Slot = "3")]
+	[Token(Token = "0x6001343")]
+	[Address(RVA = "0x2E6F9E0", Offset = "0x2E6DFE0", VA = "0x182E6F9E0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

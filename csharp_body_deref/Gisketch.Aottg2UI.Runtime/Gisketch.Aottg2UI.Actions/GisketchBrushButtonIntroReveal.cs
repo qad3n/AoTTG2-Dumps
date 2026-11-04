@@ -12,40 +12,40 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000CF")]
 public sealed class GisketchBrushButtonIntroReveal : MonoBehaviour
 {
-	[Token(Token = "0x4000384")]
+	[Token(Token = "0x400043C")]
 	[FieldOffset(Offset = "0x20")]
 	private RectTransform _mask;
 
-	[Token(Token = "0x4000385")]
+	[Token(Token = "0x400043D")]
 	[FieldOffset(Offset = "0x28")]
 	private RectTransform _content;
 
-	[Token(Token = "0x4000386")]
+	[Token(Token = "0x400043E")]
 	[FieldOffset(Offset = "0x30")]
 	private Mask _maskComponent;
 
-	[Token(Token = "0x4000387")]
+	[Token(Token = "0x400043F")]
 	[FieldOffset(Offset = "0x38")]
 	private Image _maskImage;
 
-	[Token(Token = "0x6000514")]
-	[Address(RVA = "0x3A92AF0", Offset = "0x3A92AF0", VA = "0x3A92AF0")]
+	[Token(Token = "0x6000665")]
+	[Address(RVA = "0x18FCB80", Offset = "0x18FB180", VA = "0x1818FCB80")]
 	public void Setup(RectTransform mask, RectTransform content, Sprite brushSprite)
 	{
 	}
 
-	[Token(Token = "0x6000515")]
-	[Address(RVA = "0x3A92D10", Offset = "0x3A92D10", VA = "0x3A92D10")]
+	[Token(Token = "0x6000666")]
+	[Address(RVA = "0x18FC7E0", Offset = "0x18FADE0", VA = "0x1818FC7E0")]
 	public Tween Play(float duration)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000516")]
-	[Address(RVA = "0x3A93060", Offset = "0x3A93060", VA = "0x3A93060")]
+	[Token(Token = "0x6000667")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchBrushButtonIntroReveal()
 	{
 	}

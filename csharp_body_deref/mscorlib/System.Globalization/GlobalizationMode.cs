@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005B9")]
+[Token(Token = "0x200058B")]
 internal static class GlobalizationMode
 {
-	[Token(Token = "0x17000688")]
+	[Token(Token = "0x17000615")]
 	internal static bool Invariant
 	{
-		[Token(Token = "0x6002C66")]
-		[Address(RVA = "0x3C54E20", Offset = "0x3C54E20", VA = "0x3C54E20")]
+		[Token(Token = "0x6002973")]
+		[Address(RVA = "0x1AA4120", Offset = "0x1AA2720", VA = "0x181AA4120")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal static class GlobalizationMode
 		}
 	}
 
-	[Token(Token = "0x6002C67")]
-	[Address(RVA = "0x3C54E90", Offset = "0x3C54E90", VA = "0x3C54E90")]
+	[Token(Token = "0x6002974")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 	private static bool GetGlobalizationInvariantMode()
 	{
 		return default(bool);

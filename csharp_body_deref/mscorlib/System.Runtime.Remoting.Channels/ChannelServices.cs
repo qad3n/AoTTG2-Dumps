@@ -13,111 +13,111 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x2000377")]
+[Token(Token = "0x20003A6")]
 [ComVisible(true)]
 public sealed class ChannelServices
 {
-	[Token(Token = "0x4000F06")]
+	[Token(Token = "0x4000F13")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static ArrayList registeredChannels;
 
-	[Token(Token = "0x4000F07")]
+	[Token(Token = "0x4000F14")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static ArrayList delayedClientChannels;
 
-	[Token(Token = "0x4000F08")]
+	[Token(Token = "0x4000F15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static System.Runtime.Remoting.Contexts.CrossContextChannel _crossContextSink;
 
-	[Token(Token = "0x4000F09")]
+	[Token(Token = "0x4000F16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal static string CrossContextUrl;
 
-	[Token(Token = "0x4000F0A")]
+	[Token(Token = "0x4000F17")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private static IList oldStartModeTypes;
 
-	[Token(Token = "0x1700036E")]
+	[Token(Token = "0x17000370")]
 	internal static System.Runtime.Remoting.Contexts.CrossContextChannel CrossContextChannel
 	{
-		[Token(Token = "0x6001D7C")]
-		[Address(RVA = "0x3B7D480", Offset = "0x3B7D480", VA = "0x3B7D480")]
+		[Token(Token = "0x6001DEB")]
+		[Address(RVA = "0x19F40F0", Offset = "0x19F26F0", VA = "0x1819F40F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D7D")]
-	[Address(RVA = "0x3B7D4F0", Offset = "0x3B7D4F0", VA = "0x3B7D4F0")]
+	[Token(Token = "0x6001DEC")]
+	[Address(RVA = "0x19F1B00", Offset = "0x19F0100", VA = "0x1819F1B00")]
 	internal static IMessageSink CreateClientChannelSinkChain(string url, object remoteChannelData, out string objectUri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D7E")]
-	[Address(RVA = "0x3B7DF30", Offset = "0x3B7DF30", VA = "0x3B7DF30")]
+	[Token(Token = "0x6001DED")]
+	[Address(RVA = "0x19F19F0", Offset = "0x19EFFF0", VA = "0x1819F19F0")]
 	internal static IMessageSink CreateClientChannelSinkChain(IChannelSender sender, string url, object[] channelDataArray, out string objectUri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D7F")]
-	[Address(RVA = "0x3B7E170", Offset = "0x3B7E170", VA = "0x3B7E170")]
+	[Token(Token = "0x6001DEE")]
+	[Address(RVA = "0x19F3C10", Offset = "0x19F2210", VA = "0x1819F3C10")]
 	[Obsolete("Use RegisterChannel(IChannel,Boolean)")]
 	public static void RegisterChannel(IChannel chnl)
 	{
 	}
 
-	[Token(Token = "0x6001D80")]
-	[Address(RVA = "0x3B7E1D0", Offset = "0x3B7E1D0", VA = "0x3B7E1D0")]
+	[Token(Token = "0x6001DEF")]
+	[Address(RVA = "0x19F35E0", Offset = "0x19F1BE0", VA = "0x1819F35E0")]
 	public static void RegisterChannel(IChannel chnl, bool ensureSecurity)
 	{
 	}
 
-	[Token(Token = "0x6001D81")]
-	[Address(RVA = "0x3B7EC60", Offset = "0x3B7EC60", VA = "0x3B7EC60")]
+	[Token(Token = "0x6001DF0")]
+	[Address(RVA = "0x19F2760", Offset = "0x19F0D60", VA = "0x1819F2760")]
 	internal static void RegisterChannelConfig(System.Runtime.Remoting.ChannelData channel)
 	{
 	}
 
-	[Token(Token = "0x6001D82")]
-	[Address(RVA = "0x3B7FB40", Offset = "0x3B7FB40", VA = "0x3B7FB40")]
+	[Token(Token = "0x6001DF1")]
+	[Address(RVA = "0x19F20C0", Offset = "0x19F06C0", VA = "0x1819F20C0")]
 	private static object CreateProvider(System.Runtime.Remoting.ProviderData prov)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D83")]
-	[Address(RVA = "0x3B7FE50", Offset = "0x3B7FE50", VA = "0x3B7FE50")]
+	[Token(Token = "0x6001DF2")]
+	[Address(RVA = "0x19F3C60", Offset = "0x19F2260", VA = "0x1819F3C60")]
 	public static IMessage SyncDispatchMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D84")]
-	[Address(RVA = "0x3B7FEF0", Offset = "0x3B7FEF0", VA = "0x3B7FEF0")]
+	[Token(Token = "0x6001DF3")]
+	[Address(RVA = "0x19F1680", Offset = "0x19EFC80", VA = "0x1819F1680")]
 	private static ReturnMessage CheckIncomingMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D85")]
-	[Address(RVA = "0x3B80170", Offset = "0x3B80170", VA = "0x3B80170")]
+	[Token(Token = "0x6001DF4")]
+	[Address(RVA = "0x19F1880", Offset = "0x19EFE80", VA = "0x1819F1880")]
 	internal static IMessage CheckReturnMessage(IMessage callMsg, IMessage retMsg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D86")]
-	[Address(RVA = "0x3B80360", Offset = "0x3B80360", VA = "0x3B80360")]
+	[Token(Token = "0x6001DF5")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110")]
 	private static bool IsLocalCall(IMessage callMsg)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D87")]
-	[Address(RVA = "0x3B804B0", Offset = "0x3B804B0", VA = "0x3B804B0")]
+	[Token(Token = "0x6001DF6")]
+	[Address(RVA = "0x19F23E0", Offset = "0x19F09E0", VA = "0x1819F23E0")]
 	internal static object[] GetCurrentChannelInfo()
 	{
 		return null;

@@ -19,20 +19,20 @@ public class ReflectionAttributeProvider : IAttributeProvider
 	private readonly object _attributeProvider;
 
 	[Token(Token = "0x600098E")]
-	[Address(RVA = "0x3DF4F00", Offset = "0x3DF4F00", VA = "0x3DF4F00")]
+	[Address(RVA = "0x1C6C290", Offset = "0x1C6A890", VA = "0x181C6C290")]
 	public ReflectionAttributeProvider(object attributeProvider)
 	{
 	}
 
 	[Token(Token = "0x600098F")]
-	[Address(RVA = "0x3DF4F60", Offset = "0x3DF4F60", VA = "0x3DF4F60", Slot = "4")]
+	[Address(RVA = "0x1C6C230", Offset = "0x1C6A830", VA = "0x181C6C230", Slot = "4")]
 	public IList<Attribute> GetAttributes(bool inherit)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000990")]
-	[Address(RVA = "0x3DF4FC0", Offset = "0x3DF4FC0", VA = "0x3DF4FC0", Slot = "5")]
+	[Address(RVA = "0x1C6C1C0", Offset = "0x1C6A7C0", VA = "0x181C6C1C0", Slot = "5")]
 	public IList<Attribute> GetAttributes(Type attributeType, bool inherit)
 	{
 		return null;

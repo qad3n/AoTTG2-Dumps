@@ -16,343 +16,343 @@ using Mono.Security.Interface;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x2000239")]
+[Token(Token = "0x20003D1")]
 public class SslStream : AuthenticatedStream
 {
-	[Token(Token = "0x4000C8A")]
+	[Token(Token = "0x40010DD")]
 	[FieldOffset(Offset = "0x38")]
 	private MobileTlsProvider provider;
 
-	[Token(Token = "0x4000C8B")]
+	[Token(Token = "0x40010DE")]
 	[FieldOffset(Offset = "0x40")]
 	private MonoTlsSettings settings;
 
-	[Token(Token = "0x4000C8C")]
+	[Token(Token = "0x40010DF")]
 	[FieldOffset(Offset = "0x48")]
 	private RemoteCertificateValidationCallback validationCallback;
 
-	[Token(Token = "0x4000C8D")]
+	[Token(Token = "0x40010E0")]
 	[FieldOffset(Offset = "0x50")]
 	private LocalCertificateSelectionCallback selectionCallback;
 
-	[Token(Token = "0x4000C8E")]
+	[Token(Token = "0x40010E1")]
 	[FieldOffset(Offset = "0x58")]
 	private MobileAuthenticatedStream impl;
 
-	[Token(Token = "0x4000C8F")]
+	[Token(Token = "0x40010E2")]
 	[FieldOffset(Offset = "0x60")]
 	private bool explicitSettings;
 
-	[Token(Token = "0x1700031D")]
+	[Token(Token = "0x17000575")]
 	internal MobileAuthenticatedStream Impl
 	{
-		[Token(Token = "0x6000DD5")]
-		[Address(RVA = "0x49CA910", Offset = "0x49CA910", VA = "0x49CA910")]
+		[Token(Token = "0x60019B5")]
+		[Address(RVA = "0x281B680", Offset = "0x2819C80", VA = "0x18281B680")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700031E")]
+	[Token(Token = "0x17000576")]
 	internal string InternalTargetHost
 	{
-		[Token(Token = "0x6000DD6")]
-		[Address(RVA = "0x49CA9D0", Offset = "0x49CA9D0", VA = "0x49CA9D0")]
+		[Token(Token = "0x60019B6")]
+		[Address(RVA = "0x281B6F0", Offset = "0x2819CF0", VA = "0x18281B6F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700031F")]
+	[Token(Token = "0x17000577")]
 	public override bool IsAuthenticated
 	{
-		[Token(Token = "0x6000DE3")]
-		[Address(RVA = "0x49CB1E0", Offset = "0x49CB1E0", VA = "0x49CB1E0", Slot = "38")]
+		[Token(Token = "0x60019C3")]
+		[Address(RVA = "0x281B760", Offset = "0x2819D60", VA = "0x18281B760", Slot = "38")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000320")]
+	[Token(Token = "0x17000578")]
 	public virtual X509Certificate LocalCertificate
 	{
-		[Token(Token = "0x6000DE4")]
-		[Address(RVA = "0x49CB250", Offset = "0x49CB250", VA = "0x49CB250", Slot = "43")]
+		[Token(Token = "0x60019C4")]
+		[Address(RVA = "0x281B860", Offset = "0x2819E60", VA = "0x18281B860", Slot = "43")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000321")]
+	[Token(Token = "0x17000579")]
 	public override bool CanSeek
 	{
-		[Token(Token = "0x6000DE5")]
-		[Address(RVA = "0x49CB2B0", Offset = "0x49CB2B0", VA = "0x49CB2B0", Slot = "8")]
+		[Token(Token = "0x60019C5")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000322")]
+	[Token(Token = "0x1700057A")]
 	public override bool CanRead
 	{
-		[Token(Token = "0x6000DE6")]
-		[Address(RVA = "0x49CB2C0", Offset = "0x49CB2C0", VA = "0x49CB2C0", Slot = "7")]
+		[Token(Token = "0x60019C6")]
+		[Address(RVA = "0x281B640", Offset = "0x2819C40", VA = "0x18281B640", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000323")]
+	[Token(Token = "0x1700057B")]
 	public override bool CanTimeout
 	{
-		[Token(Token = "0x6000DE7")]
-		[Address(RVA = "0x49CB2E0", Offset = "0x49CB2E0", VA = "0x49CB2E0", Slot = "9")]
+		[Token(Token = "0x60019C7")]
+		[Address(RVA = "0x2493550", Offset = "0x2491B50", VA = "0x182493550", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000324")]
+	[Token(Token = "0x1700057C")]
 	public override bool CanWrite
 	{
-		[Token(Token = "0x6000DE8")]
-		[Address(RVA = "0x49CB310", Offset = "0x49CB310", VA = "0x49CB310", Slot = "10")]
+		[Token(Token = "0x60019C8")]
+		[Address(RVA = "0x281B660", Offset = "0x2819C60", VA = "0x18281B660", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000325")]
+	[Token(Token = "0x1700057D")]
 	public override int ReadTimeout
 	{
-		[Token(Token = "0x6000DE9")]
-		[Address(RVA = "0x49CB330", Offset = "0x49CB330", VA = "0x49CB330", Slot = "14")]
+		[Token(Token = "0x60019C9")]
+		[Address(RVA = "0x281B950", Offset = "0x2819F50", VA = "0x18281B950", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000DEA")]
-		[Address(RVA = "0x49CB3A0", Offset = "0x49CB3A0", VA = "0x49CB3A0", Slot = "15")]
+		[Token(Token = "0x60019CA")]
+		[Address(RVA = "0x281BAB0", Offset = "0x281A0B0", VA = "0x18281BAB0", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000326")]
+	[Token(Token = "0x1700057E")]
 	public override int WriteTimeout
 	{
-		[Token(Token = "0x6000DEB")]
-		[Address(RVA = "0x49CB410", Offset = "0x49CB410", VA = "0x49CB410", Slot = "16")]
+		[Token(Token = "0x60019CB")]
+		[Address(RVA = "0x281B9D0", Offset = "0x2819FD0", VA = "0x18281B9D0", Slot = "16")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000DEC")]
-		[Address(RVA = "0x49CB480", Offset = "0x49CB480", VA = "0x49CB480", Slot = "17")]
+		[Token(Token = "0x60019CC")]
+		[Address(RVA = "0x281BB30", Offset = "0x281A130", VA = "0x18281BB30", Slot = "17")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000327")]
+	[Token(Token = "0x1700057F")]
 	public override long Length
 	{
-		[Token(Token = "0x6000DED")]
-		[Address(RVA = "0x49CB4F0", Offset = "0x49CB4F0", VA = "0x49CB4F0", Slot = "11")]
+		[Token(Token = "0x60019CD")]
+		[Address(RVA = "0x281B7E0", Offset = "0x2819DE0", VA = "0x18281B7E0", Slot = "11")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x17000328")]
+	[Token(Token = "0x17000580")]
 	public override long Position
 	{
-		[Token(Token = "0x6000DEE")]
-		[Address(RVA = "0x49CB560", Offset = "0x49CB560", VA = "0x49CB560", Slot = "12")]
+		[Token(Token = "0x60019CE")]
+		[Address(RVA = "0x281B8D0", Offset = "0x2819ED0", VA = "0x18281B8D0", Slot = "12")]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6000DEF")]
-		[Address(RVA = "0x49CB5D0", Offset = "0x49CB5D0", VA = "0x49CB5D0", Slot = "13")]
+		[Token(Token = "0x60019CF")]
+		[Address(RVA = "0x281BA50", Offset = "0x281A050", VA = "0x18281BA50", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000DD7")]
-	[Address(RVA = "0x49CAA30", Offset = "0x49CAA30", VA = "0x49CAA30")]
+	[Token(Token = "0x60019B7")]
+	[Address(RVA = "0x281ABF0", Offset = "0x28191F0", VA = "0x18281ABF0")]
 	private static MobileTlsProvider GetProvider()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DD8")]
-	[Address(RVA = "0x49C7700", Offset = "0x49C7700", VA = "0x49C7700")]
+	[Token(Token = "0x60019B8")]
+	[Address(RVA = "0x281B330", Offset = "0x2819930", VA = "0x18281B330")]
 	public SslStream(Stream innerStream)
 	{
 	}
 
-	[Token(Token = "0x6000DD9")]
-	[Address(RVA = "0x49CAA90", Offset = "0x49CAA90", VA = "0x49CAA90")]
+	[Token(Token = "0x60019B9")]
+	[Address(RVA = "0x281B3F0", Offset = "0x28199F0", VA = "0x18281B3F0")]
 	public SslStream(Stream innerStream, bool leaveInnerStreamOpen)
 	{
 	}
 
-	[Token(Token = "0x6000DDA")]
-	[Address(RVA = "0x49CAB70", Offset = "0x49CAB70", VA = "0x49CAB70")]
+	[Token(Token = "0x60019BA")]
+	[Address(RVA = "0x281B3D0", Offset = "0x28199D0", VA = "0x18281B3D0")]
 	public SslStream(Stream innerStream, bool leaveInnerStreamOpen, RemoteCertificateValidationCallback userCertificateValidationCallback)
 	{
 	}
 
-	[Token(Token = "0x6000DDB")]
-	[Address(RVA = "0x49CAB80", Offset = "0x49CAB80", VA = "0x49CAB80")]
+	[Token(Token = "0x60019BB")]
+	[Address(RVA = "0x281B4A0", Offset = "0x2819AA0", VA = "0x18281B4A0")]
 	public SslStream(Stream innerStream, bool leaveInnerStreamOpen, RemoteCertificateValidationCallback userCertificateValidationCallback, LocalCertificateSelectionCallback userCertificateSelectionCallback)
 	{
 	}
 
-	[Token(Token = "0x6000DDC")]
-	[Address(RVA = "0x49CAF40", Offset = "0x49CAF40", VA = "0x49CAF40")]
+	[Token(Token = "0x60019BC")]
+	[Address(RVA = "0x281B1E0", Offset = "0x28197E0", VA = "0x18281B1E0")]
 	internal SslStream(Stream innerStream, bool leaveInnerStreamOpen, MonoTlsProvider provider, MonoTlsSettings settings)
 	{
 	}
 
-	[Token(Token = "0x6000DDD")]
-	[Address(RVA = "0x49CAC80", Offset = "0x49CAC80", VA = "0x49CAC80")]
+	[Token(Token = "0x60019BD")]
+	[Address(RVA = "0x281AF70", Offset = "0x2819570", VA = "0x18281AF70")]
 	private void SetAndVerifyValidationCallback(RemoteCertificateValidationCallback callback)
 	{
 	}
 
-	[Token(Token = "0x6000DDE")]
-	[Address(RVA = "0x49CAD80", Offset = "0x49CAD80", VA = "0x49CAD80")]
+	[Token(Token = "0x60019BE")]
+	[Address(RVA = "0x281ADC0", Offset = "0x28193C0", VA = "0x18281ADC0")]
 	private void SetAndVerifySelectionCallback(LocalCertificateSelectionCallback callback)
 	{
 	}
 
-	[Token(Token = "0x6000DDF")]
-	[Address(RVA = "0x49CB090", Offset = "0x49CB090", VA = "0x49CB090", Slot = "39")]
+	[Token(Token = "0x60019BF")]
+	[Address(RVA = "0x281A820", Offset = "0x2818E20", VA = "0x18281A820", Slot = "39")]
 	public virtual void AuthenticateAsClient(string targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, bool checkCertificateRevocation)
 	{
 	}
 
-	[Token(Token = "0x6000DE0")]
-	[Address(RVA = "0x49CB0F0", Offset = "0x49CB0F0", VA = "0x49CB0F0", Slot = "40")]
+	[Token(Token = "0x60019C0")]
+	[Address(RVA = "0x281A8A0", Offset = "0x2818EA0", VA = "0x18281A8A0", Slot = "40")]
 	public virtual IAsyncResult BeginAuthenticateAsClient(string targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, bool checkCertificateRevocation, AsyncCallback asyncCallback, object asyncState)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DE1")]
-	[Address(RVA = "0x49CB170", Offset = "0x49CB170", VA = "0x49CB170", Slot = "41")]
+	[Token(Token = "0x60019C1")]
+	[Address(RVA = "0x198B260", Offset = "0x1989860", VA = "0x18198B260", Slot = "41")]
 	public virtual void EndAuthenticateAsClient(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x6000DE2")]
-	[Address(RVA = "0x49CB180", Offset = "0x49CB180", VA = "0x49CB180", Slot = "42")]
+	[Token(Token = "0x60019C2")]
+	[Address(RVA = "0x281A7A0", Offset = "0x2818DA0", VA = "0x18281A7A0", Slot = "42")]
 	public virtual Task AuthenticateAsClientAsync(string targetHost, X509CertificateCollection clientCertificates, SslProtocols enabledSslProtocols, bool checkCertificateRevocation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x49CB630", Offset = "0x49CB630", VA = "0x49CB630", Slot = "31")]
+	[Token(Token = "0x60019D0")]
+	[Address(RVA = "0x281B060", Offset = "0x2819660", VA = "0x18281B060", Slot = "31")]
 	public override void SetLength(long value)
 	{
 	}
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x49CB6A0", Offset = "0x49CB6A0", VA = "0x49CB6A0", Slot = "30")]
+	[Token(Token = "0x60019D1")]
+	[Address(RVA = "0x281AD60", Offset = "0x2819360", VA = "0x18281AD60", Slot = "30")]
 	public override long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x49CB700", Offset = "0x49CB700", VA = "0x49CB700", Slot = "21")]
+	[Token(Token = "0x60019D2")]
+	[Address(RVA = "0x281ABC0", Offset = "0x28191C0", VA = "0x18281ABC0", Slot = "21")]
 	public override Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x49CB730", Offset = "0x49CB730", VA = "0x49CB730", Slot = "20")]
+	[Token(Token = "0x60019D3")]
+	[Address(RVA = "0x2491AB0", Offset = "0x24900B0", VA = "0x182491AB0", Slot = "20")]
 	public override void Flush()
 	{
 	}
 
-	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x49CA970", Offset = "0x49CA970", VA = "0x49CA970")]
+	[Token(Token = "0x60019D4")]
+	[Address(RVA = "0x281AA60", Offset = "0x2819060", VA = "0x18281AA60")]
 	private void CheckDisposed()
 	{
 	}
 
-	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x49CB760", Offset = "0x49CB760", VA = "0x49CB760", Slot = "19")]
+	[Token(Token = "0x60019D5")]
+	[Address(RVA = "0x281AAD0", Offset = "0x28190D0", VA = "0x18281AAD0", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x49CB810", Offset = "0x49CB810", VA = "0x49CB810", Slot = "32")]
+	[Token(Token = "0x60019D6")]
+	[Address(RVA = "0x281ACE0", Offset = "0x28192E0", VA = "0x18281ACE0", Slot = "32")]
 	public override int Read(byte[] buffer, int offset, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x49CB880", Offset = "0x49CB880", VA = "0x49CB880", Slot = "35")]
+	[Token(Token = "0x60019D7")]
+	[Address(RVA = "0x281B160", Offset = "0x2819760", VA = "0x18281B160", Slot = "35")]
 	public override void Write(byte[] buffer, int offset, int count)
 	{
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x49CB8F0", Offset = "0x49CB8F0", VA = "0x49CB8F0", Slot = "24")]
+	[Token(Token = "0x60019D8")]
+	[Address(RVA = "0x281AC60", Offset = "0x2819260", VA = "0x18281AC60", Slot = "24")]
 	public override Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x49CB960", Offset = "0x49CB960", VA = "0x49CB960", Slot = "28")]
+	[Token(Token = "0x60019D9")]
+	[Address(RVA = "0x281B0E0", Offset = "0x28196E0", VA = "0x18281B0E0", Slot = "28")]
 	public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x49CB9D0", Offset = "0x49CB9D0", VA = "0x49CB9D0", Slot = "22")]
+	[Token(Token = "0x60019DA")]
+	[Address(RVA = "0x281A940", Offset = "0x2818F40", VA = "0x18281A940", Slot = "22")]
 	public override IAsyncResult BeginRead(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFB")]
-	[Address(RVA = "0x49CBA50", Offset = "0x49CBA50", VA = "0x49CBA50", Slot = "23")]
+	[Token(Token = "0x60019DB")]
+	[Address(RVA = "0x281AB80", Offset = "0x2819180", VA = "0x18281AB80", Slot = "23")]
 	public override int EndRead(IAsyncResult asyncResult)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DFC")]
-	[Address(RVA = "0x49CBA90", Offset = "0x49CBA90", VA = "0x49CBA90", Slot = "26")]
+	[Token(Token = "0x60019DC")]
+	[Address(RVA = "0x281A9D0", Offset = "0x2818FD0", VA = "0x18281A9D0", Slot = "26")]
 	public override IAsyncResult BeginWrite(byte[] buffer, int offset, int count, AsyncCallback callback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFD")]
-	[Address(RVA = "0x49CBB10", Offset = "0x49CBB10", VA = "0x49CBB10", Slot = "27")]
+	[Token(Token = "0x60019DD")]
+	[Address(RVA = "0x198B260", Offset = "0x1989860", VA = "0x18198B260", Slot = "27")]
 	public override void EndWrite(IAsyncResult asyncResult)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000DC")]
+[Token(Token = "0x20000FD")]
 public enum ShadowObjectsFilter
 {
-	[Token(Token = "0x400024D")]
+	[Token(Token = "0x40002A4")]
 	AllObjects,
-	[Token(Token = "0x400024E")]
+	[Token(Token = "0x40002A5")]
 	DynamicOnly,
-	[Token(Token = "0x400024F")]
+	[Token(Token = "0x40002A6")]
 	StaticOnly
 }

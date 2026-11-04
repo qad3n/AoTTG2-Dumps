@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 namespace System.Runtime.Serialization;
 
 [Serializable]
-[Token(Token = "0x20003E2")]
+[Token(Token = "0x2000411")]
 internal class FixupHolderList
 {
-	[Token(Token = "0x4001005")]
+	[Token(Token = "0x400100B")]
 	[FieldOffset(Offset = "0x10")]
 	internal System.Runtime.Serialization.FixupHolder[] m_values;
 
-	[Token(Token = "0x4001006")]
+	[Token(Token = "0x400100C")]
 	[FieldOffset(Offset = "0x18")]
 	internal int m_count;
 
-	[Token(Token = "0x6001FCB")]
-	[Address(RVA = "0x3B9D8C0", Offset = "0x3B9D8C0", VA = "0x3B9D8C0")]
+	[Token(Token = "0x600203A")]
+	[Address(RVA = "0x1A11E40", Offset = "0x1A10440", VA = "0x181A11E40")]
 	internal FixupHolderList()
 	{
 	}
 
-	[Token(Token = "0x6001FCC")]
-	[Address(RVA = "0x3B9DB30", Offset = "0x3B9DB30", VA = "0x3B9DB30")]
+	[Token(Token = "0x600203B")]
+	[Address(RVA = "0x1A11DD0", Offset = "0x1A103D0", VA = "0x181A11DD0")]
 	internal FixupHolderList(int startingSize)
 	{
 	}
 
-	[Token(Token = "0x6001FCD")]
-	[Address(RVA = "0x3B9DB90", Offset = "0x3B9DB90", VA = "0x3B9DB90", Slot = "4")]
+	[Token(Token = "0x600203C")]
+	[Address(RVA = "0x1A11C40", Offset = "0x1A10240", VA = "0x181A11C40", Slot = "4")]
 	internal virtual void Add(System.Runtime.Serialization.FixupHolder fixup)
 	{
 	}
 
-	[Token(Token = "0x6001FCE")]
-	[Address(RVA = "0x3B9DCB0", Offset = "0x3B9DCB0", VA = "0x3B9DCB0")]
+	[Token(Token = "0x600203D")]
+	[Address(RVA = "0x1A11D40", Offset = "0x1A10340", VA = "0x181A11D40")]
 	private void EnlargeArray()
 	{
 	}

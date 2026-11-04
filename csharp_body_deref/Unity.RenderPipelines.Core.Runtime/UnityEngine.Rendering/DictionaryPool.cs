@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200008F")]
+[Token(Token = "0x2000059")]
 public static class DictionaryPool<TKey, TValue>
 {
-	[Token(Token = "0x4000227")]
+	[Token(Token = "0x4000148")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ObjectPool<Dictionary<TKey, TValue>> s_Pool;
 
-	[Token(Token = "0x6000624")]
+	[Token(Token = "0x600053B")]
 	public static Dictionary<TKey, TValue> Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000625")]
+	[Token(Token = "0x600053C")]
 	public static ObjectPool<Dictionary<TKey, TValue>>.PooledObject Get(out Dictionary<TKey, TValue> value)
 	{
 		return default(ObjectPool<Dictionary<TKey, TValue>>.PooledObject);
 	}
 
-	[Token(Token = "0x6000626")]
+	[Token(Token = "0x600053D")]
 	public static void Release(Dictionary<TKey, TValue> toRelease)
 	{
 	}

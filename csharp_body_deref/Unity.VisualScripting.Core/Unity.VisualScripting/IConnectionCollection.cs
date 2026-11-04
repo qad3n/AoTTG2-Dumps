@@ -14,23 +14,23 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000033")]
 public interface IConnectionCollection<TConnection, TSource, TDestination> : ICollection<TConnection>, IEnumerable<TConnection>, IEnumerable where TConnection : IConnection<TSource, TDestination>
 {
-	[Token(Token = "0x17000057")]
+	[Token(Token = "0x17000058")]
 	IEnumerable<TConnection> this[TSource source]
 	{
-		[Token(Token = "0x60001C3")]
+		[Token(Token = "0x60001C7")]
 		get;
 	}
 
-	[Token(Token = "0x17000058")]
+	[Token(Token = "0x17000059")]
 	IEnumerable<TConnection> this[TDestination destination]
 	{
-		[Token(Token = "0x60001C4")]
+		[Token(Token = "0x60001C8")]
 		get;
 	}
 
-	[Token(Token = "0x60001C5")]
+	[Token(Token = "0x60001C9")]
 	IEnumerable<TConnection> WithSource(TSource source);
 
-	[Token(Token = "0x60001C6")]
+	[Token(Token = "0x60001CA")]
 	IEnumerable<TConnection> WithDestination(TDestination destination);
 }

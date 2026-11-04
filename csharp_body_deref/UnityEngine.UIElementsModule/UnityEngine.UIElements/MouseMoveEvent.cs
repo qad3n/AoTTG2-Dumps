@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001AB")]
+[Token(Token = "0x20001F2")]
 [EventCategory(EventCategory.PointerMove)]
 public class MouseMoveEvent : MouseEventBase<MouseMoveEvent>
 {
-	[Token(Token = "0x6000B54")]
-	[Address(RVA = "0x5033140", Offset = "0x5033140", VA = "0x5033140")]
+	[Token(Token = "0x6000D73")]
+	[Address(RVA = "0x32689A0", Offset = "0x3266FA0", VA = "0x1832689A0")]
 	static MouseMoveEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x5033210", Offset = "0x5033210", VA = "0x5033210", Slot = "13")]
+	[Token(Token = "0x6000D74")]
+	[Address(RVA = "0x32688E0", Offset = "0x3266EE0", VA = "0x1832688E0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000B56")]
-	[Address(RVA = "0x5033250", Offset = "0x5033250", VA = "0x5033250")]
+	[Token(Token = "0x6000D75")]
+	[Address(RVA = "0x3268950", Offset = "0x3266F50", VA = "0x183268950")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000B57")]
-	[Address(RVA = "0x5033260", Offset = "0x5033260", VA = "0x5033260")]
+	[Token(Token = "0x6000D76")]
+	[Address(RVA = "0x3268A80", Offset = "0x3267080", VA = "0x183268A80")]
 	public MouseMoveEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x50332A0", Offset = "0x50332A0", VA = "0x50332A0")]
+	[Token(Token = "0x6000D77")]
+	[Address(RVA = "0x32688A0", Offset = "0x3266EA0", VA = "0x1832688A0")]
 	internal static MouseMoveEvent GetPooled(PointerMoveEvent pointerEvent)
 	{
 		return null;

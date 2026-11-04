@@ -51,7 +51,7 @@ internal abstract class AstNode
 	}
 
 	[Token(Token = "0x6001A53")]
-	[Address(RVA = "0x4777990", Offset = "0x4777990", VA = "0x4777990")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AstNode()
 	{
 	}

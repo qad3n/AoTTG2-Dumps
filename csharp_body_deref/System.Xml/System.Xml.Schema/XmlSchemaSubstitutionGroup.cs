@@ -27,7 +27,7 @@ internal class XmlSchemaSubstitutionGroup : XmlSchemaObject
 	internal ArrayList Members
 	{
 		[Token(Token = "0x6001781")]
-		[Address(RVA = "0x47332E0", Offset = "0x47332E0", VA = "0x47332E0")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -39,20 +39,20 @@ internal class XmlSchemaSubstitutionGroup : XmlSchemaObject
 	internal XmlQualifiedName Examplar
 	{
 		[Token(Token = "0x6001782")]
-		[Address(RVA = "0x47332F0", Offset = "0x47332F0", VA = "0x47332F0")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001783")]
-		[Address(RVA = "0x4733300", Offset = "0x4733300", VA = "0x4733300")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001784")]
-	[Address(RVA = "0x4733310", Offset = "0x4733310", VA = "0x4733310")]
+	[Address(RVA = "0x267F730", Offset = "0x267DD30", VA = "0x18267F730")]
 	public XmlSchemaSubstitutionGroup()
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000101")]
+[Token(Token = "0x2000140")]
 public enum ScrollViewMode
 {
-	[Token(Token = "0x4000411")]
+	[Token(Token = "0x400058C")]
 	Vertical,
-	[Token(Token = "0x4000412")]
+	[Token(Token = "0x400058D")]
 	Horizontal,
-	[Token(Token = "0x4000413")]
+	[Token(Token = "0x400058E")]
 	VerticalAndHorizontal
 }

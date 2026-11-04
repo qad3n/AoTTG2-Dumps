@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000198")]
+[Token(Token = "0x200019B")]
 [DisallowMultipleComponent]
 public sealed class AsyncAnimatorMoveTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000A78")]
-	[Address(RVA = "0x4A09800", Offset = "0x4A09800", VA = "0x4A09800")]
+	[Token(Token = "0x6000A9C")]
+	[Address(RVA = "0x29283C0", Offset = "0x29269C0", VA = "0x1829283C0")]
 	private void OnAnimatorMove()
 	{
 	}
 
-	[Token(Token = "0x6000A79")]
-	[Address(RVA = "0x4A09870", Offset = "0x4A09870", VA = "0x4A09870")]
+	[Token(Token = "0x6000A9D")]
+	[Address(RVA = "0x29280B0", Offset = "0x29266B0", VA = "0x1829280B0")]
 	public IAsyncOnAnimatorMoveHandler GetOnAnimatorMoveAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A7A")]
-	[Address(RVA = "0x4A098E0", Offset = "0x4A098E0", VA = "0x4A098E0")]
+	[Token(Token = "0x6000A9E")]
+	[Address(RVA = "0x2928120", Offset = "0x2926720", VA = "0x182928120")]
 	public IAsyncOnAnimatorMoveHandler GetOnAnimatorMoveAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A7B")]
-	[Address(RVA = "0x4A09950", Offset = "0x4A09950", VA = "0x4A09950")]
+	[Token(Token = "0x6000A9F")]
+	[Address(RVA = "0x29281A0", Offset = "0x29267A0", VA = "0x1829281A0")]
 	public UniTask OnAnimatorMoveAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000A7C")]
-	[Address(RVA = "0x4A09A40", Offset = "0x4A09A40", VA = "0x4A09A40")]
+	[Token(Token = "0x6000AA0")]
+	[Address(RVA = "0x29282B0", Offset = "0x29268B0", VA = "0x1829282B0")]
 	public UniTask OnAnimatorMoveAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000A7D")]
-	[Address(RVA = "0x4A09B30", Offset = "0x4A09B30", VA = "0x4A09B30")]
+	[Token(Token = "0x6000AA1")]
+	[Address(RVA = "0x2928430", Offset = "0x2926A30", VA = "0x182928430")]
 	public AsyncAnimatorMoveTrigger()
 	{
 	}

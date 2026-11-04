@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001FE")]
+[Token(Token = "0x2000205")]
 public abstract class fsConverter : fsBaseConverter
 {
-	[Token(Token = "0x600120F")]
+	[Token(Token = "0x6001247")]
 	public abstract bool CanProcess(Type type);
 
-	[Token(Token = "0x6001210")]
-	[Address(RVA = "0x4D69670", Offset = "0x4D69670", VA = "0x4D69670")]
+	[Token(Token = "0x6001248")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected fsConverter()
 	{
 	}

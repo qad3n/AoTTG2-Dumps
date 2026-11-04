@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Settings.AdvancedSettings
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Settings/AdvancedSettings.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,71 +12,71 @@ namespace Settings;
 [Token(Token = "0x2000065")]
 internal class AdvancedSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x40001FB")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000207")]
+	[FieldOffset(Offset = "0x38")]
 	public BoolSetting ServicesEnabled;
 
-	[Token(Token = "0x40001FC")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4000208")]
+	[FieldOffset(Offset = "0x40")]
 	public ListSetting<StringSetting> ServiceKeys;
 
-	[Token(Token = "0x40001FD")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x4000209")]
+	[FieldOffset(Offset = "0x48")]
 	public ListSetting<StringSetting> ServiceUrls;
 
-	[Token(Token = "0x40001FE")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x400020A")]
+	[FieldOffset(Offset = "0x50")]
 	public ListSetting<StringSetting> SecretKeys;
 
-	[Token(Token = "0x40001FF")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400020B")]
+	[FieldOffset(Offset = "0x58")]
 	public ListSetting<StringSetting> SecretValues;
 
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x17000087")]
 	protected override string FileName
 	{
-		[Token(Token = "0x60002FF")]
-		[Address(RVA = "0x3F84E70", Offset = "0x3F84E70", VA = "0x3F84E70", Slot = "14")]
+		[Token(Token = "0x600030F")]
+		[Address(RVA = "0x1DB9AC0", Offset = "0x1DB80C0", VA = "0x181DB9AC0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000086")]
+	[Token(Token = "0x17000088")]
 	protected override bool Encrypted
 	{
-		[Token(Token = "0x6000300")]
-		[Address(RVA = "0x3F84EA0", Offset = "0x3F84EA0", VA = "0x3F84EA0", Slot = "15")]
+		[Token(Token = "0x6000310")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000301")]
-	[Address(RVA = "0x3F84EB0", Offset = "0x3F84EB0", VA = "0x3F84EB0", Slot = "12")]
+	[Token(Token = "0x6000311")]
+	[Address(RVA = "0x1DB98D0", Offset = "0x1DB7ED0", VA = "0x181DB98D0", Slot = "13")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000302")]
-	[Address(RVA = "0x3F84F40", Offset = "0x3F84F40", VA = "0x3F84F40")]
+	[Token(Token = "0x6000312")]
+	[Address(RVA = "0x1DB9790", Offset = "0x1DB7D90", VA = "0x181DB9790")]
 	public bool TryGetServiceUrl(string key, out string url)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000303")]
-	[Address(RVA = "0x3F85080", Offset = "0x3F85080", VA = "0x3F85080")]
+	[Token(Token = "0x6000313")]
+	[Address(RVA = "0x1DB9650", Offset = "0x1DB7C50", VA = "0x181DB9650")]
 	public bool TryGetSecretValue(string key, out string value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000304")]
-	[Address(RVA = "0x3F851C0", Offset = "0x3F851C0", VA = "0x3F851C0")]
+	[Token(Token = "0x6000314")]
+	[Address(RVA = "0x1DB9980", Offset = "0x1DB7F80", VA = "0x181DB9980")]
 	public AdvancedSettings()
 	{
 	}

@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001FF")]
+[Token(Token = "0x2000206")]
 public enum fsDataType
 {
-	[Token(Token = "0x4000988")]
+	[Token(Token = "0x4000998")]
 	Array,
-	[Token(Token = "0x4000989")]
+	[Token(Token = "0x4000999")]
 	Object,
-	[Token(Token = "0x400098A")]
+	[Token(Token = "0x400099A")]
 	Double,
-	[Token(Token = "0x400098B")]
+	[Token(Token = "0x400099B")]
 	Int64,
-	[Token(Token = "0x400098C")]
+	[Token(Token = "0x400099C")]
 	Boolean,
-	[Token(Token = "0x400098D")]
+	[Token(Token = "0x400099D")]
 	String,
-	[Token(Token = "0x400098E")]
+	[Token(Token = "0x400099E")]
 	Null
 }

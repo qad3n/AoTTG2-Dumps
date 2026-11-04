@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x2000626")]
+[Token(Token = "0x20005FA")]
 [Obsolete("Please use IEqualityComparer instead.")]
 public interface IHashCodeProvider
 {
-	[Token(Token = "0x600307A")]
+	[Token(Token = "0x6002D8D")]
 	int GetHashCode(object obj);
 }

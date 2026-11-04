@@ -13,6 +13,6 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000CF")]
 public interface IAotStubbable
 {
-	[Token(Token = "0x60004FF")]
+	[Token(Token = "0x6000509")]
 	IEnumerable<object> GetAotStubs(HashSet<object> visited);
 }

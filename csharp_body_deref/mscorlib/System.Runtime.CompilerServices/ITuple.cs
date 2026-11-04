@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000479")]
+[Token(Token = "0x20004A8")]
 [DefaultMember("Item")]
 public interface ITuple
 {
-	[Token(Token = "0x17000471")]
+	[Token(Token = "0x17000474")]
 	int Length
 	{
-		[Token(Token = "0x600227D")]
+		[Token(Token = "0x60022FD")]
 		get;
 	}
 }

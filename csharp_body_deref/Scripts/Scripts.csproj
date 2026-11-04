@@ -33,14 +33,14 @@
     <Reference Include="PhotonRealtime">
       <HintPath>../../dumps/il2cpp/DummyDll/PhotonRealtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>../../dumps/il2cpp/DummyDll/Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="StandardAssets.Effects">
-      <HintPath>../../dumps/il2cpp/DummyDll/StandardAssets.Effects.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.PhysicsModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.AnimationModule.dll</HintPath>
@@ -57,8 +57,14 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
     <Reference Include="DOTween">
       <HintPath>../../dumps/il2cpp/DummyDll/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Gilzoide.FlexUi">
+      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
     </Reference>
     <Reference Include="PhotonVoice.PUN">
       <HintPath>../../dumps/il2cpp/DummyDll/PhotonVoice.PUN.dll</HintPath>
@@ -89,9 +95,6 @@
     </Reference>
     <Reference Include="Photon3Unity3D">
       <HintPath>../../dumps/il2cpp/DummyDll/Photon3Unity3D.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="PhotonUnityNetworking.Utilities">
       <HintPath>../../dumps/il2cpp/DummyDll/PhotonUnityNetworking.Utilities.dll</HintPath>

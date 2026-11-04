@@ -10,21 +10,21 @@ using Unity.Collections.LowLevel.Unsafe;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x200005D")]
 [NativeContainer]
 internal struct NativeArrayDispose
 {
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x400010D")]
 	[FieldOffset(Offset = "0x0")]
 	[NativeDisableUnsafePtrRestriction]
 	internal unsafe void* m_Buffer;
 
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x400010E")]
 	[FieldOffset(Offset = "0x8")]
 	internal Allocator m_AllocatorLabel;
 
-	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x4DAD610", Offset = "0x4DAD610", VA = "0x4DAD610")]
+	[Token(Token = "0x600012E")]
+	[Address(RVA = "0x2ECD8E0", Offset = "0x2ECBEE0", VA = "0x182ECD8E0")]
 	public void Dispose()
 	{
 	}

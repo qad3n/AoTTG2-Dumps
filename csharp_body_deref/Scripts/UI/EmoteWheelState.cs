@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000635")]
+[Token(Token = "0x2000790")]
 public enum EmoteWheelState
 {
-	[Token(Token = "0x4001DEB")]
+	[Token(Token = "0x40025A0")]
 	Text,
-	[Token(Token = "0x4001DEC")]
+	[Token(Token = "0x40025A1")]
 	Emoji,
-	[Token(Token = "0x4001DED")]
+	[Token(Token = "0x40025A2")]
 	Action
 }

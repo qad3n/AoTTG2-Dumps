@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x2000018")]
 internal enum CollisionPairHeaderFlags : ushort
 {
-	[Token(Token = "0x400005D")]
+	[Token(Token = "0x400004D")]
 	RemovedActor = 1,
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x400004E")]
 	RemovedOtherActor
 }

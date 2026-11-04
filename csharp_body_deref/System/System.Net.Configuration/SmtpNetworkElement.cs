@@ -10,156 +10,156 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x2000399")]
+[Token(Token = "0x20003F4")]
 public sealed class SmtpNetworkElement : ConfigurationElement
 {
-	[Token(Token = "0x17000553")]
+	[Token(Token = "0x170005BD")]
 	public string ClientDomain
 	{
-		[Token(Token = "0x60017D3")]
-		[Address(RVA = "0x48F41F0", Offset = "0x48F41F0", VA = "0x48F41F0")]
+		[Token(Token = "0x6001A77")]
+		[Address(RVA = "0x282C160", Offset = "0x282A760", VA = "0x18282C160")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017D4")]
-		[Address(RVA = "0x48F4220", Offset = "0x48F4220", VA = "0x48F4220")]
+		[Token(Token = "0x6001A78")]
+		[Address(RVA = "0x282C310", Offset = "0x282A910", VA = "0x18282C310")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000554")]
+	[Token(Token = "0x170005BE")]
 	public bool DefaultCredentials
 	{
-		[Token(Token = "0x60017D5")]
-		[Address(RVA = "0x48F4250", Offset = "0x48F4250", VA = "0x48F4250")]
+		[Token(Token = "0x6001A79")]
+		[Address(RVA = "0x282C190", Offset = "0x282A790", VA = "0x18282C190")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60017D6")]
-		[Address(RVA = "0x48F4280", Offset = "0x48F4280", VA = "0x48F4280")]
+		[Token(Token = "0x6001A7A")]
+		[Address(RVA = "0x282C340", Offset = "0x282A940", VA = "0x18282C340")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000555")]
+	[Token(Token = "0x170005BF")]
 	public bool EnableSsl
 	{
-		[Token(Token = "0x60017D7")]
-		[Address(RVA = "0x48F42B0", Offset = "0x48F42B0", VA = "0x48F42B0")]
+		[Token(Token = "0x6001A7B")]
+		[Address(RVA = "0x282C1C0", Offset = "0x282A7C0", VA = "0x18282C1C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60017D8")]
-		[Address(RVA = "0x48F42E0", Offset = "0x48F42E0", VA = "0x48F42E0")]
+		[Token(Token = "0x6001A7C")]
+		[Address(RVA = "0x282C370", Offset = "0x282A970", VA = "0x18282C370")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000556")]
+	[Token(Token = "0x170005C0")]
 	public string Host
 	{
-		[Token(Token = "0x60017D9")]
-		[Address(RVA = "0x48F4310", Offset = "0x48F4310", VA = "0x48F4310")]
+		[Token(Token = "0x6001A7D")]
+		[Address(RVA = "0x282C1F0", Offset = "0x282A7F0", VA = "0x18282C1F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017DA")]
-		[Address(RVA = "0x48F4340", Offset = "0x48F4340", VA = "0x48F4340")]
+		[Token(Token = "0x6001A7E")]
+		[Address(RVA = "0x282C3A0", Offset = "0x282A9A0", VA = "0x18282C3A0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000557")]
+	[Token(Token = "0x170005C1")]
 	public string Password
 	{
-		[Token(Token = "0x60017DB")]
-		[Address(RVA = "0x48F4370", Offset = "0x48F4370", VA = "0x48F4370")]
+		[Token(Token = "0x6001A7F")]
+		[Address(RVA = "0x282C220", Offset = "0x282A820", VA = "0x18282C220")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017DC")]
-		[Address(RVA = "0x48F43A0", Offset = "0x48F43A0", VA = "0x48F43A0")]
+		[Token(Token = "0x6001A80")]
+		[Address(RVA = "0x282C3D0", Offset = "0x282A9D0", VA = "0x18282C3D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000558")]
+	[Token(Token = "0x170005C2")]
 	public int Port
 	{
-		[Token(Token = "0x60017DD")]
-		[Address(RVA = "0x48F43D0", Offset = "0x48F43D0", VA = "0x48F43D0")]
+		[Token(Token = "0x6001A81")]
+		[Address(RVA = "0x282C250", Offset = "0x282A850", VA = "0x18282C250")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60017DE")]
-		[Address(RVA = "0x48F4400", Offset = "0x48F4400", VA = "0x48F4400")]
+		[Token(Token = "0x6001A82")]
+		[Address(RVA = "0x282C400", Offset = "0x282AA00", VA = "0x18282C400")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000559")]
+	[Token(Token = "0x170005C3")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60017DF")]
-		[Address(RVA = "0x48F4430", Offset = "0x48F4430", VA = "0x48F4430", Slot = "4")]
+		[Token(Token = "0x6001A83")]
+		[Address(RVA = "0x282C280", Offset = "0x282A880", VA = "0x18282C280", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700055A")]
+	[Token(Token = "0x170005C4")]
 	public string TargetName
 	{
-		[Token(Token = "0x60017E0")]
-		[Address(RVA = "0x48F4460", Offset = "0x48F4460", VA = "0x48F4460")]
+		[Token(Token = "0x6001A84")]
+		[Address(RVA = "0x282C2B0", Offset = "0x282A8B0", VA = "0x18282C2B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017E1")]
-		[Address(RVA = "0x48F4490", Offset = "0x48F4490", VA = "0x48F4490")]
+		[Token(Token = "0x6001A85")]
+		[Address(RVA = "0x282C430", Offset = "0x282AA30", VA = "0x18282C430")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700055B")]
+	[Token(Token = "0x170005C5")]
 	public string UserName
 	{
-		[Token(Token = "0x60017E2")]
-		[Address(RVA = "0x48F44C0", Offset = "0x48F44C0", VA = "0x48F44C0")]
+		[Token(Token = "0x6001A86")]
+		[Address(RVA = "0x282C2E0", Offset = "0x282A8E0", VA = "0x18282C2E0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017E3")]
-		[Address(RVA = "0x48F44F0", Offset = "0x48F44F0", VA = "0x48F44F0")]
+		[Token(Token = "0x6001A87")]
+		[Address(RVA = "0x282C460", Offset = "0x282AA60", VA = "0x18282C460")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60017D2")]
-	[Address(RVA = "0x48F41C0", Offset = "0x48F41C0", VA = "0x48F41C0")]
+	[Token(Token = "0x6001A76")]
+	[Address(RVA = "0x282C130", Offset = "0x282A730", VA = "0x18282C130")]
 	public SmtpNetworkElement()
 	{
 	}
 
-	[Token(Token = "0x60017E4")]
-	[Address(RVA = "0x48F4520", Offset = "0x48F4520", VA = "0x48F4520", Slot = "8")]
+	[Token(Token = "0x6001A88")]
+	[Address(RVA = "0x282C100", Offset = "0x282A700", VA = "0x18282C100", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

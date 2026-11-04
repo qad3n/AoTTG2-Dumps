@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001FC")]
+[Token(Token = "0x20001FF")]
 [DisallowMultipleComponent]
 public sealed class AsyncValidateTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000BD6")]
-	[Address(RVA = "0x4A14520", Offset = "0x4A14520", VA = "0x4A14520")]
+	[Token(Token = "0x6000BFA")]
+	[Address(RVA = "0x293F470", Offset = "0x293DA70", VA = "0x18293F470")]
 	private void OnValidate()
 	{
 	}
 
-	[Token(Token = "0x6000BD7")]
-	[Address(RVA = "0x4A14590", Offset = "0x4A14590", VA = "0x4A14590")]
+	[Token(Token = "0x6000BFB")]
+	[Address(RVA = "0x293F1E0", Offset = "0x293D7E0", VA = "0x18293F1E0")]
 	public IAsyncOnValidateHandler GetOnValidateAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BD8")]
-	[Address(RVA = "0x4A14600", Offset = "0x4A14600", VA = "0x4A14600")]
+	[Token(Token = "0x6000BFC")]
+	[Address(RVA = "0x293F160", Offset = "0x293D760", VA = "0x18293F160")]
 	public IAsyncOnValidateHandler GetOnValidateAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BD9")]
-	[Address(RVA = "0x4A14670", Offset = "0x4A14670", VA = "0x4A14670")]
+	[Token(Token = "0x6000BFD")]
+	[Address(RVA = "0x293F250", Offset = "0x293D850", VA = "0x18293F250")]
 	public UniTask OnValidateAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BDA")]
-	[Address(RVA = "0x4A14760", Offset = "0x4A14760", VA = "0x4A14760")]
+	[Token(Token = "0x6000BFE")]
+	[Address(RVA = "0x293F360", Offset = "0x293D960", VA = "0x18293F360")]
 	public UniTask OnValidateAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x4A14850", Offset = "0x4A14850", VA = "0x4A14850")]
+	[Token(Token = "0x6000BFF")]
+	[Address(RVA = "0x293F4E0", Offset = "0x293DAE0", VA = "0x18293F4E0")]
 	public AsyncValidateTrigger()
 	{
 	}

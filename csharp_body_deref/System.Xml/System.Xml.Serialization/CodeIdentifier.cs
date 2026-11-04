@@ -18,28 +18,28 @@ public class CodeIdentifier
 	internal static CodeDomProvider csharp;
 
 	[Token(Token = "0x6000CA9")]
-	[Address(RVA = "0x4808410", Offset = "0x4808410", VA = "0x4808410")]
+	[Address(RVA = "0x273C7C0", Offset = "0x273ADC0", VA = "0x18273C7C0")]
 	public static string MakePascal(string identifier)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAA")]
-	[Address(RVA = "0x4808590", Offset = "0x4808590", VA = "0x4808590")]
+	[Address(RVA = "0x273CB00", Offset = "0x273B100", VA = "0x18273CB00")]
 	public static string MakeValid(string identifier)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CAB")]
-	[Address(RVA = "0x4808810", Offset = "0x4808810", VA = "0x4808810")]
+	[Address(RVA = "0x273C6F0", Offset = "0x273ACF0", VA = "0x18273C6F0")]
 	private static bool IsValidStart(char c)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000CAC")]
-	[Address(RVA = "0x48087C0", Offset = "0x48087C0", VA = "0x48087C0")]
+	[Address(RVA = "0x273C730", Offset = "0x273AD30", VA = "0x18273C730")]
 	private static bool IsValid(char c)
 	{
 		return default(bool);

@@ -11,16 +11,16 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x200027F")]
+[Token(Token = "0x20003C7")]
 public class MapScriptDefaultTiledMaterial : MapScriptBaseMaterial
 {
-	[Token(Token = "0x4000D90")]
+	[Token(Token = "0x40013A7")]
 	[FieldOffset(Offset = "0x20")]
 	[Order(3)]
 	public Vector2 Tiling;
 
-	[Token(Token = "0x6000F51")]
-	[Address(RVA = "0x3FB6350", Offset = "0x3FB6350", VA = "0x3FB6350")]
+	[Token(Token = "0x60017C9")]
+	[Address(RVA = "0x1ED9F10", Offset = "0x1ED8510", VA = "0x181ED9F10")]
 	public MapScriptDefaultTiledMaterial()
 	{
 	}

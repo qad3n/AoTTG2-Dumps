@@ -1,63 +1,68 @@
 // Type: ApplicationManagers.MusicPlaylist
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/ApplicationManagers/MusicPlaylist.cs
 // Prior real C# source (older reference): Assets/Scripts/ApplicationManagers/MusicManager.cs
 // --------------------------------
 
 // ApplicationManagers.MusicPlaylist$$.ctor
 // il2cpp: void ApplicationManagers_MusicPlaylist___ctor (ApplicationManagers_MusicPlaylist_o* __this, const MethodInfo* method);
-// 0x44bddf0
+// 0x18054c890
 
-void ApplicationManagers_MusicPlaylist___ctor(ApplicationManagers_MusicPlaylist_o *__this,MethodInfo *method)
+void
+ApplicationManagers_MusicPlaylist___ctor(ApplicationManagers_MusicPlaylist_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.MusicPlaylist$$.cctor
 // il2cpp: void ApplicationManagers_MusicPlaylist___cctor (const MethodInfo* method);
-// 0x44bde00
+// 0x182354f60
 
 void ApplicationManagers_MusicPlaylist___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aea79 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MusicPlaylist);
-    il2cpp_runtime_helper_023445d0(&"Menu");
-    il2cpp_runtime_helper_023445d0(&"Boss");
-    il2cpp_runtime_helper_023445d0(&"Default");
-    il2cpp_runtime_helper_023445d0(&"Ambient");
-    il2cpp_runtime_helper_023445d0(&"Racing");
-    il2cpp_runtime_helper_023445d0(&"Peaceful");
-    il2cpp_runtime_helper_023445d0(&"Battle");
-    g_data_057aea79 = '\x01';
+  if (Il2CppMethodInitialized_1843479ae == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MusicPlaylist);
+    il2cpp_codegen_initialize_runtime_metadata(&"Menu");
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"Boss");
+    il2cpp_codegen_initialize_runtime_metadata(&"Default");
+    il2cpp_codegen_initialize_runtime_metadata(&"Ambient");
+    il2cpp_codegen_initialize_runtime_metadata(&"Racing");
+    il2cpp_codegen_initialize_runtime_metadata(&"Peaceful");
+    il2cpp_codegen_initialize_runtime_metadata(&"Battle");
+    Il2CppMethodInitialized_1843479ae = '\x01';
   }
-  **(undefined8 **)(TypeInfo_MusicPlaylist + 0xb8) = "Menu";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_MusicPlaylist + 0xb8),"Menu");
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "Default";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Peaceful";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Ambient";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "Battle";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "Boss";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
-  lVar1 = *(long *)(TypeInfo_MusicPlaylist + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "Racing";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None = "None";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->None,"None");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Menu = "Menu";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Menu,"Menu");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default = "Default";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Default,"Default");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Peaceful = "Peaceful";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Peaceful,"Peaceful");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Ambient = "Ambient";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Ambient,"Ambient");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle = "Battle";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Battle,"Battle");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Boss = "Boss";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Boss,"Boss");
+  TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Racing = "Racing";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_MusicPlaylist->static_fields->Racing,"Racing");
   return;
 }
 

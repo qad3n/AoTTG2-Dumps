@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200015D")]
+[Token(Token = "0x20001EC")]
 internal static class AottgCreditsStateKeys
 {
-	[Token(Token = "0x40007A9")]
+	[Token(Token = "0x4000A4D")]
 	public const string Loading = "credits.loading";
 
-	[Token(Token = "0x40007AA")]
+	[Token(Token = "0x4000A4E")]
 	public const string Ready = "credits.ready";
 
-	[Token(Token = "0x40007AB")]
+	[Token(Token = "0x4000A4F")]
 	public const string Empty = "credits.empty";
 
-	[Token(Token = "0x40007AC")]
+	[Token(Token = "0x4000A50")]
 	public const string Failed = "credits.failed";
 
-	[Token(Token = "0x40007AD")]
+	[Token(Token = "0x4000A51")]
 	public const string Refreshing = "credits.refreshing";
 
-	[Token(Token = "0x40007AE")]
+	[Token(Token = "0x4000A52")]
 	public const string Error = "credits.error";
 }

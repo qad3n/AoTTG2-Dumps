@@ -1,5 +1,5 @@
 // Type: UI.AboutHelpPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/AboutHelpPanel.cs
@@ -8,58 +8,52 @@
 
 // UI.AboutHelpPanel.<>c__DisplayClass3_0$$.ctor
 // il2cpp: void UI_AboutHelpPanel___c__DisplayClass3_0___ctor (UI_AboutHelpPanel___c__DisplayClass3_0_o* __this, const MethodInfo* method);
-// 0x43f0820
+// 0x18054c890
 
-void UI_AboutHelpPanel___c__DisplayClass3_0___ctor
-               (UI_AboutHelpPanel___c__DisplayClass3_0_o *__this,MethodInfo *method)
+void
+UI_AboutHelpPanel___c__DisplayClass3_0___ctor(UI_AboutHelpPanel___c__DisplayClass3_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.AboutHelpPanel.<>c__DisplayClass3_0$$<CreateLink>b__0
 // il2cpp: void UI_AboutHelpPanel___c__DisplayClass3_0___CreateLink_b__0 (UI_AboutHelpPanel___c__DisplayClass3_0_o* __this, const MethodInfo* method);
-// 0x43f0840
+// 0x1822837d0
 
 void UI_AboutHelpPanel___c__DisplayClass3_0___CreateLink_b__0
                (UI_AboutHelpPanel___c__DisplayClass3_0_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
+  UI_BaseMenu_o *pUVar1;
+  UI_ExternalLinkPopup_o *__this_00;
   
-  if (g_data_057ae51c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    g_data_057ae51c = '\x01';
-    iVar1 = *(int *)(TypeInfo_UIManager + 0xe4);
+  if (Il2CppMethodInitialized_1843473ad == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    Il2CppMethodInitialized_1843473ad = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_UIManager + 0xe4);
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-  }
-  else {
-    lVar2 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-  }
-  if ((lVar2 != 0) && (*(UI_ExternalLinkPopup_o **)(lVar2 + 0x40) != (UI_ExternalLinkPopup_o *)0x0)) {
-    UI_ExternalLinkPopup__Show
-              (*(UI_ExternalLinkPopup_o **)(lVar2 + 0x40),(__this->fields).link,(MethodInfo *)0x0);
+  pUVar1 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if ((pUVar1 != (UI_BaseMenu_o *)0x0) &&
+     (__this_00 = (pUVar1->fields).ExternalLinkPopup, __this_00 != (UI_ExternalLinkPopup_o *)0x0)) {
+    UI_ExternalLinkPopup__Show(__this_00,(__this->fields).link,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.AboutHelpPanel$$get_VerticalSpacing
 // il2cpp: float UI_AboutHelpPanel__get_VerticalSpacing (UI_AboutHelpPanel_o* __this, const MethodInfo* method);
-// 0x43f03f0
+// 0x1820b9980
 
-float UI_AboutHelpPanel__get_VerticalSpacing(UI_AboutHelpPanel_o *__this,MethodInfo *method)
+float
+UI_AboutHelpPanel__get_VerticalSpacing(UI_AboutHelpPanel_o* __this, MethodInfo* method)
 
 {
   return 10.0;
@@ -68,191 +62,151 @@ float UI_AboutHelpPanel__get_VerticalSpacing(UI_AboutHelpPanel_o *__this,MethodI
 
 // UI.AboutHelpPanel$$Setup
 // il2cpp: void UI_AboutHelpPanel__Setup (UI_AboutHelpPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x43f0400
+// 0x18226e420
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18226e608: movss xmm7, dword ptr [rip + 0x10ea6d4]
+// asm:   0x18226e806: movaps xmm6, xmmword ptr [rsp + 0x100]
+// asm:   0x18226e80e: mov rdi, qword ptr [rsp + 0x140]
+// asm:   0x18226e816: mov rsi, qword ptr [rsp + 0x138]
+// asm:   0x18226e81e: mov rbp, qword ptr [rsp + 0x130]
+// asm:   0x18226e826: movaps xmm7, xmmword ptr [rsp + 0xf0]
 
 void UI_AboutHelpPanel__Setup(UI_AboutHelpPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_00;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_01;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_02;
-  char cVar1;
-  bool_conflict bVar2;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  bool bVar2;
   System_String_o *pSVar3;
-  UI_ElementStyle_o *__this_03;
-  long *plVar4;
-  System_String_o *pSVar5;
-  System_String_o *link;
-  UnityEngine_Transform_o *__this_04;
-  UnityEngine_GameObject_o *__this_05;
-  UnityEngine_Transform_o *pUVar6;
-  UnityEngine_Events_UnityAction_o *onClick;
-  System_String_o *str1;
-  SimpleJSONFixed_JSONNode_o *pSVar7;
-  MethodInfo *in_R8;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields aKeyValue;
-  Il2CppMethodPointer pIVar8;
-  Il2CppMethodPointer pIVar9;
-  InvokerMethod pIVar10;
-  char *pcVar11;
-  Il2CppClass *pIVar12;
-  Il2CppType *pIVar13;
-  Il2CppType **ppIVar14;
-  _union_13 _Var15;
-  _union_14 _Var16;
-  Il2CppMethodPointer pIStack_78;
-  Il2CppMethodPointer pIStack_70;
-  InvokerMethod pIStack_68;
-  char *pcStack_60;
-  Il2CppClass *pIStack_58;
-  Il2CppType *pIStack_50;
-  Il2CppType **ppIStack_48;
-  _union_13 _Stack_40;
-  _union_14 _Stack_38;
+  UI_ElementStyle_o *__this_00;
+  undefined8 *puVar4;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar5;
+  SimpleJSONFixed_JSONNode_o *pSVar6;
+  System_Xml_Schema_XmlSchema_o *pSVar7;
+  System_String_o *value;
+  UI_AboutHelpPanel___c__DisplayClass3_0_o *object;
+  UnityEngine_GameObject_o *__this_01;
+  UnityEngine_Transform_o *parent_00;
+  UnityEngine_Events_UnityAction_o *__this_02;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_f8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_a8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_98;
+  undefined1 local_88 [112];
   
-  if (g_data_057ae51a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscInfo);
-    il2cpp_runtime_helper_023445d0(&"Error loading data.");
-    il2cpp_runtime_helper_023445d0(&"Title");
-    il2cpp_runtime_helper_023445d0(&"Link");
-    g_data_057ae51a = '\x01';
+  if (Il2CppMethodInitialized_1843473ab == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MiscInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&"Error loading data.");
+    il2cpp_codegen_initialize_runtime_metadata(&"Title");
+    il2cpp_codegen_initialize_runtime_metadata(&"Link");
+    Il2CppMethodInitialized_1843473ab = '\x01';
   }
+  local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_f8.type = 0;
+  local_f8._4_4_ = 0;
+  local_f8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_f8.m_Object.fields._version = 0;
+  local_f8.m_Object.fields._index = 0;
+  local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._getEnumeratorRetType = 0;
+  local_f8.m_Object.fields._36_4_ = 0;
+  local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_f8.m_Array.fields._index = 0;
+  local_f8.m_Array.fields._version = 0;
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
-  pSVar3 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+  pSVar3 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  __this_03 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  link = (System_String_o *)0x0;
-  UI_ElementStyle___ctor(__this_03,0x18,100.0,20.0,pSVar3,(MethodInfo *)0x0);
-  pSVar3 = *(System_String_o **)(*(long *)(TypeInfo_MiscInfo + 0xb8) + 8);
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+  UI_ElementStyle___ctor(__this_00,0x18,100.0,20.0,pSVar3,(MethodInfo *)0x0);
+  pSVar6 = TypeInfo_ApplicationManagers_MiscInfo->static_fields->Help;
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
-                    ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    UI_ElementFactory__CreateDefaultLabel
-              ((__this->fields).SinglePanel,__this_03,"Error loading data.",0,4,(MethodInfo *)0x0);
+  bVar2 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar6,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    pSVar6 = TypeInfo_ApplicationManagers_MiscInfo->static_fields->Help;
+    if (pSVar6 == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_18226e844:
+      ThrowNullReferenceException();
+    }
+    puVar4 = (undefined8 *)(*(pSVar6->klass->vtable)._32_unknown.methodPtr)(local_88);
+    local_f8._0_8_ = *puVar4;
+    local_f8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar4[1];
+    local_f8.m_Object.fields._8_8_ = puVar4[2];
+    local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar4[3];
+    local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar4[4];
+    local_f8.m_Object.fields._32_8_ = puVar4[5];
+    local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar4[6];
+    local_f8.m_Array.fields._8_8_ = puVar4[7];
+    local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar4[8];
+    bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                      ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+    if (bVar2) {
+      do {
+        pSVar5 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                           (&local_98,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_f8,(MethodInfo *)0x0);
+        pSVar3 = (pSVar5->fields).key;
+        pSVar6 = (pSVar5->fields).value;
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+        }
+        local_a8.fields.key = pSVar3;
+        local_a8.fields.value = pSVar6;
+        pSVar6 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_a8,(MethodInfo *)0x0);
+        if ((pSVar6 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (pSVar7 = (*(pSVar6->klass->vtable)._7_get_Item.methodPtr)
+                               (pSVar6,(MethodInfo *)"Title"),
+           pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0)) goto label_18226e844;
+        pSVar1 = pSVar7->klass;
+        pSVar3 = (System_String_o *)
+                 (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                           (pSVar7,(UnityEngine_GameObject_o *)
+                                   (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+        pSVar7 = (*(pSVar6->klass->vtable)._7_get_Item.methodPtr)(pSVar6,(MethodInfo *)"Link");
+        if (pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18226e844;
+        pSVar1 = pSVar7->klass;
+        value = (System_String_o *)
+                (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                          (pSVar7,(UnityEngine_GameObject_o *)
+                                  (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+        if (Il2CppMethodInitialized_1843473ac == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_UI_AboutHelpPanel_c__DisplayClass3_0_CreateLink_b__0);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_AboutHelpPanel_c__DisplayClass3_0);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+          il2cpp_codegen_initialize_runtime_metadata(&" ");
+          il2cpp_codegen_initialize_runtime_metadata(&":");
+          Il2CppMethodInitialized_1843473ac = '\x01';
+        }
+        object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_AboutHelpPanel_c__DisplayClass3_0);
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+        if (object == (UI_AboutHelpPanel___c__DisplayClass3_0_o *)0x0) goto label_18226e844;
+        (object->fields).link = value;
+        Il2CppCodeGenWriteBarrier(&(object->fields).link,value);
+        __this_01 = UI_ElementFactory__CreateHorizontalGroup
+                              ((__this->fields).SinglePanel,5.0,0,(MethodInfo *)0x0);
+        if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_18226e844;
+        parent_00 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+        pSVar3 = System_String__Concat_1969b70
+                           (" ",pSVar3,":",(MethodInfo *)0x0);
+        UI_ElementFactory__CreateDefaultLabel(parent_00,__this_00,pSVar3,0,4,(MethodInfo *)0x0);
+        pSVar3 = (object->fields).link;
+        __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+        UnityEngine_Events_UnityAction___ctor
+                  ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_02,(Il2CppObject *)object,
+                   (intptr_t)MethodInfo_UI_AboutHelpPanel_c__DisplayClass3_0_CreateLink_b__0,(MethodInfo *)0x0
+                  );
+        UI_ElementFactory__CreateLinkButton(parent_00,__this_00,pSVar3,__this_02,(MethodInfo *)0x0);
+        bVar2 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                          ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+      } while (bVar2);
+    }
   }
   else {
-    pSVar7 = *(SimpleJSONFixed_JSONNode_o **)(*(long *)(TypeInfo_MiscInfo + 0xb8) + 8);
-    aKeyValue.value = pSVar7;
-    aKeyValue.key = pSVar3;
-    if (pSVar7 == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_043f06b4:
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae51b == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateLink_b__0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass3_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-        il2cpp_runtime_helper_023445d0(&" ");
-        il2cpp_runtime_helper_023445d0(&":");
-        g_data_057ae51b = '\x01';
-      }
-      __this_04 = (UnityEngine_Transform_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass3_0);
-      pUVar6 = __this_04;
-      System_Object___ctor((Il2CppObject *)__this_04,(MethodInfo *)0x0);
-      if (__this_04 != (UnityEngine_Transform_o *)0x0) {
-        (__this_04->fields).m_CachedPtr = (intptr_t)link;
-        il2cpp_runtime_helper_022b4080(&__this_04->fields);
-        pUVar6 = aKeyValue.key[1].monitor;
-        __this_05 = UI_ElementFactory__CreateHorizontalGroup(pUVar6,5.0,0,(MethodInfo *)0x0);
-        if (__this_05 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar6 = UnityEngine_GameObject__get_transform(__this_05,(MethodInfo *)0x0);
-          pSVar3 = System_String__Concat_3af7150(" ",str1,":",(MethodInfo *)0x0);
-          UI_ElementFactory__CreateDefaultLabel
-                    (pUVar6,(UI_ElementStyle_o *)aKeyValue.value,pSVar3,0,4,(MethodInfo *)0x0);
-          pSVar3 = (System_String_o *)(__this_04->fields).m_CachedPtr;
-          onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-          UnityEngine_Events_UnityAction___ctor();
-          UI_ElementFactory__CreateLinkButton
-                    (pUVar6,(UI_ElementStyle_o *)aKeyValue.value,pSVar3,onClick,(MethodInfo *)0x0);
-          return;
-        }
-      }
-      il2cpp_runtime_helper_022b2c90();
-      System_Object___ctor((Il2CppObject *)pUVar6,(MethodInfo *)0x0);
-      return;
-    }
-    (*(pSVar7->klass->vtable)._32_unknown.methodPtr)
-              (&pIStack_78,pSVar7,(pSVar7->klass->vtable)._32_unknown.method);
-    __this_00.fields.m_Object.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)pIStack_70;
-    __this_00.fields._0_8_ = pIStack_78;
-    __this_00.fields.m_Object.fields._8_8_ = pIStack_68;
-    __this_00.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pcStack_60;
-    __this_00.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIStack_58;
-    __this_00.fields.m_Object.fields._32_8_ = pIStack_50;
-    __this_00.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)ppIStack_48;
-    __this_00.fields.m_Array.fields._8_8_ = _Stack_40.rgctx_data;
-    __this_00.fields.m_Array.fields._current = _Stack_38.genericMethod;
-    bVar2 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_00,(MethodInfo *)&stack0xffffffffffffff38);
-    cVar1 = (char)bVar2;
-    pIVar8 = pIStack_78;
-    pIVar9 = pIStack_70;
-    pIVar10 = pIStack_68;
-    pcVar11 = pcStack_60;
-    pIVar12 = pIStack_58;
-    pIVar13 = pIStack_50;
-    ppIVar14 = ppIStack_48;
-    _Var15 = _Stack_40;
-    _Var16 = _Stack_38;
-    while (cVar1 != '\0') {
-      __this_01.fields.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)pIVar9;
-      __this_01.fields._0_8_ = pIVar8;
-      __this_01.fields.m_Object.fields._8_8_ = pIVar10;
-      __this_01.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pcVar11;
-      __this_01.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar12;
-      __this_01.fields.m_Object.fields._32_8_ = pIVar13;
-      __this_01.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)ppIVar14;
-      __this_01.fields.m_Array.fields._8_8_ = _Var15.rgctx_data;
-      __this_01.fields.m_Array.fields._current = _Var16.genericMethod;
-      aKeyValue = (System_Collections_Generic_KeyValuePair_string__JSONNode__Fields)
-                  SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                            (__this_01,(MethodInfo *)&stack0xffffffffffffff38);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar3 = (System_String_o *)
-               SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0
-                         ((System_Collections_Generic_KeyValuePair_string__JSONNode__o)aKeyValue,
-                          (MethodInfo *)0x0);
-      if (pSVar3 == (System_String_o *)0x0) goto label_043f06b4;
-      pSVar7 = "Title";
-      pSVar5 = pSVar3;
-      plVar4 = (long *)(*(((SimpleJSONFixed_JSONNode_c *)pSVar3->klass)->vtable)._7_get_Item.methodPtr)
-                                 (pSVar3,"Title",
-                                  (((SimpleJSONFixed_JSONNode_c *)pSVar3->klass)->vtable)._7_get_Item.method);
-      aKeyValue.value = pSVar7;
-      aKeyValue.key = pSVar5;
-      if (plVar4 == (long *)0x0) goto label_043f06b4;
-      link = (System_String_o *)*plVar4;
-      pSVar5 = (System_String_o *)(*(code *)link[0x13].klass)(plVar4,link[0x13].monitor);
-      pSVar7 = "Link";
-      plVar4 = (long *)(*(((SimpleJSONFixed_JSONNode_c *)pSVar3->klass)->vtable)._7_get_Item.methodPtr)
-                                 (pSVar3,"Link",
-                                  (((SimpleJSONFixed_JSONNode_c *)pSVar3->klass)->vtable)._7_get_Item.method);
-      aKeyValue.value = pSVar7;
-      aKeyValue.key = pSVar3;
-      if (plVar4 == (long *)0x0) goto label_043f06b4;
-      link = (System_String_o *)(**(code **)(*plVar4 + 0x1c8))(plVar4,*(undefined8 *)(*plVar4 + 0x1d0));
-      UI_AboutHelpPanel__CreateLink(__this,__this_03,pSVar5,link,in_R8);
-      __this_02.fields.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)pIVar9;
-      __this_02.fields._0_8_ = pIVar8;
-      __this_02.fields.m_Object.fields._8_8_ = pIVar10;
-      __this_02.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pcVar11;
-      __this_02.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar12;
-      __this_02.fields.m_Object.fields._32_8_ = pIVar13;
-      __this_02.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)ppIVar14;
-      __this_02.fields.m_Array.fields._8_8_ = _Var15.rgctx_data;
-      __this_02.fields.m_Array.fields._current = _Var16.genericMethod;
-      bVar2 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_02,(MethodInfo *)&stack0xffffffffffffff38);
-      cVar1 = (char)bVar2;
-    }
+    UI_ElementFactory__CreateDefaultLabel
+              ((__this->fields).SinglePanel,__this_00,"Error loading data.",0,4,(MethodInfo *)0x0);
   }
   return;
 }
@@ -260,60 +214,63 @@ label_043f06b4:
 
 // UI.AboutHelpPanel$$CreateLink
 // il2cpp: void UI_AboutHelpPanel__CreateLink (UI_AboutHelpPanel_o* __this, UI_ElementStyle_o* style, System_String_o* title, System_String_o* link, const MethodInfo* method);
-// 0x43f06c0
+// 0x18226e2b0
 
 void UI_AboutHelpPanel__CreateLink
                (UI_AboutHelpPanel_o *__this,UI_ElementStyle_o *style,System_String_o *title,
                System_String_o *link,MethodInfo *method)
 
 {
-  UnityEngine_Transform_o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
-  UnityEngine_Transform_o *pUVar1;
-  System_String_o *pSVar2;
-  UnityEngine_Events_UnityAction_o *onClick;
+  UI_AboutHelpPanel___c__DisplayClass3_0_o *object;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *parent;
+  System_String_o *pSVar1;
+  UnityEngine_Events_UnityAction_o *__this_01;
   
-  if (g_data_057ae51b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateLink_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass3_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&":");
-    g_data_057ae51b = '\x01';
+  if (Il2CppMethodInitialized_1843473ac == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_AboutHelpPanel_c__DisplayClass3_0_CreateLink_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_AboutHelpPanel_c__DisplayClass3_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&":");
+    Il2CppMethodInitialized_1843473ac = '\x01';
   }
-  __this_00 = (UnityEngine_Transform_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass3_0);
-  pUVar1 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-    (__this_00->fields).m_CachedPtr = (intptr_t)link;
-    il2cpp_runtime_helper_022b4080(&__this_00->fields);
-    pUVar1 = (__this->fields).SinglePanel;
-    __this_01 = UI_ElementFactory__CreateHorizontalGroup(pUVar1,5.0,0,(MethodInfo *)0x0);
-    if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar1 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
-      pSVar2 = System_String__Concat_3af7150(" ",title,":",(MethodInfo *)0x0);
-      UI_ElementFactory__CreateDefaultLabel(pUVar1,style,pSVar2,0,4,(MethodInfo *)0x0);
-      pSVar2 = (System_String_o *)(__this_00->fields).m_CachedPtr;
-      onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      UnityEngine_Events_UnityAction___ctor();
-      UI_ElementFactory__CreateLinkButton(pUVar1,style,pSVar2,onClick,(MethodInfo *)0x0);
+  object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_AboutHelpPanel_c__DisplayClass3_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object != (UI_AboutHelpPanel___c__DisplayClass3_0_o *)0x0) {
+    (object->fields).link = link;
+    Il2CppCodeGenWriteBarrier(&(object->fields).link,link);
+    __this_00 = UI_ElementFactory__CreateHorizontalGroup((__this->fields).SinglePanel,5.0,0,(MethodInfo *)0x0)
+    ;
+    if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+      parent = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+      pSVar1 = System_String__Concat_1969b70
+                         (" ",title,":",(MethodInfo *)0x0);
+      UI_ElementFactory__CreateDefaultLabel(parent,style,pSVar1,0,4,(MethodInfo *)0x0);
+      pSVar1 = (object->fields).link;
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+      UnityEngine_Events_UnityAction___ctor
+                ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_01,(Il2CppObject *)object,
+                 (intptr_t)MethodInfo_UI_AboutHelpPanel_c__DisplayClass3_0_CreateLink_b__0,(MethodInfo *)0x0);
+      UI_ElementFactory__CreateLinkButton(parent,style,pSVar1,__this_01,(MethodInfo *)0x0);
       return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar1,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.AboutHelpPanel$$.ctor
 // il2cpp: void UI_AboutHelpPanel___ctor (UI_AboutHelpPanel_o* __this, const MethodInfo* method);
-// 0x43f0830
+// 0x181da8ae0
 
-void UI_AboutHelpPanel___ctor(UI_AboutHelpPanel_o *__this,MethodInfo *method)
+void
+UI_AboutHelpPanel___ctor(UI_AboutHelpPanel_o* __this, MethodInfo* method)
 
 {
-  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
+  UI_CategoryPanel___ctor((UI_TopLeftHUD_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

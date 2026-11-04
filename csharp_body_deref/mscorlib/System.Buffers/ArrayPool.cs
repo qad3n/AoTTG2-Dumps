@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x200067C")]
+[Token(Token = "0x2000650")]
 public abstract class ArrayPool<T>
 {
-	[Token(Token = "0x1700084C")]
+	[Token(Token = "0x170007DB")]
 	public static ArrayPool<T> Shared
 	{
-		[Token(Token = "0x6003343")]
+		[Token(Token = "0x600305D")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,13 +24,13 @@ public abstract class ArrayPool<T>
 		}
 	}
 
-	[Token(Token = "0x6003344")]
+	[Token(Token = "0x600305E")]
 	public abstract T[] Rent(int minimumLength);
 
-	[Token(Token = "0x6003345")]
+	[Token(Token = "0x600305F")]
 	public abstract void Return(T[] array, bool clearArray = false);
 
-	[Token(Token = "0x6003346")]
+	[Token(Token = "0x6003060")]
 	protected ArrayPool()
 	{
 	}

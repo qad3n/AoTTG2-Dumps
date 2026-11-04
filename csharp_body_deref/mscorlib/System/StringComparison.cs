@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000112")]
+[Token(Token = "0x200013A")]
 public enum StringComparison
 {
-	[Token(Token = "0x40003CF")]
+	[Token(Token = "0x400044A")]
 	CurrentCulture,
-	[Token(Token = "0x40003D0")]
+	[Token(Token = "0x400044B")]
 	CurrentCultureIgnoreCase,
-	[Token(Token = "0x40003D1")]
+	[Token(Token = "0x400044C")]
 	InvariantCulture,
-	[Token(Token = "0x40003D2")]
+	[Token(Token = "0x400044D")]
 	InvariantCultureIgnoreCase,
-	[Token(Token = "0x40003D3")]
+	[Token(Token = "0x400044E")]
 	Ordinal,
-	[Token(Token = "0x40003D4")]
+	[Token(Token = "0x400044F")]
 	OrdinalIgnoreCase
 }

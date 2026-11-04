@@ -9,48 +9,48 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x200054F")]
+[Token(Token = "0x2000645")]
 internal struct ExpressionMultiplier
 {
-	[Token(Token = "0x400125C")]
+	[Token(Token = "0x4001809")]
 	public const int Infinity = 100;
 
-	[Token(Token = "0x400125D")]
+	[Token(Token = "0x400180A")]
 	[FieldOffset(Offset = "0x0")]
 	private ExpressionMultiplierType m_Type;
 
-	[Token(Token = "0x400125E")]
+	[Token(Token = "0x400180B")]
 	[FieldOffset(Offset = "0x4")]
 	public int min;
 
-	[Token(Token = "0x400125F")]
+	[Token(Token = "0x400180C")]
 	[FieldOffset(Offset = "0x8")]
 	public int max;
 
-	[Token(Token = "0x1700085C")]
+	[Token(Token = "0x17000B79")]
 	public ExpressionMultiplierType type
 	{
-		[Token(Token = "0x600206F")]
-		[Address(RVA = "0x4FCEA00", Offset = "0x4FCEA00", VA = "0x4FCEA00")]
+		[Token(Token = "0x6002DDB")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(ExpressionMultiplierType);
 		}
-		[Token(Token = "0x6002070")]
-		[Address(RVA = "0x4FD0830", Offset = "0x4FD0830", VA = "0x4FD0830")]
+		[Token(Token = "0x6002DDC")]
+		[Address(RVA = "0x31ECF40", Offset = "0x31EB540", VA = "0x1831ECF40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002071")]
-	[Address(RVA = "0x4FD07D0", Offset = "0x4FD07D0", VA = "0x4FD07D0")]
+	[Token(Token = "0x6002DDD")]
+	[Address(RVA = "0x31ECF20", Offset = "0x31EB520", VA = "0x1831ECF20")]
 	public ExpressionMultiplier(ExpressionMultiplierType type = ExpressionMultiplierType.None)
 	{
 	}
 
-	[Token(Token = "0x6002072")]
-	[Address(RVA = "0x4FD0890", Offset = "0x4FD0890", VA = "0x4FD0890")]
+	[Token(Token = "0x6002DDE")]
+	[Address(RVA = "0x31ECEA0", Offset = "0x31EB4A0", VA = "0x1831ECEA0")]
 	private void SetType(ExpressionMultiplierType value)
 	{
 	}

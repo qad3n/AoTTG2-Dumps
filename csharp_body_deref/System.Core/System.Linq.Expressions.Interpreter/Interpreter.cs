@@ -37,8 +37,8 @@ internal sealed class Interpreter
 	[Token(Token = "0x170001BE")]
 	internal string Name
 	{
-		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x44DB110", Offset = "0x44DB110", VA = "0x44DB110")]
+		[Token(Token = "0x60007FA")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,8 +49,8 @@ internal sealed class Interpreter
 	[Token(Token = "0x170001BF")]
 	internal int LocalCount
 	{
-		[Token(Token = "0x60007FC")]
-		[Address(RVA = "0x44DB120", Offset = "0x44DB120", VA = "0x44DB120")]
+		[Token(Token = "0x60007FB")]
+		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
 		[CompilerGenerated]
 		get
 		{
@@ -61,8 +61,8 @@ internal sealed class Interpreter
 	[Token(Token = "0x170001C0")]
 	internal int ClosureSize
 	{
-		[Token(Token = "0x60007FD")]
-		[Address(RVA = "0x44DB130", Offset = "0x44DB130", VA = "0x44DB130")]
+		[Token(Token = "0x60007FC")]
+		[Address(RVA = "0x244FCB0", Offset = "0x244E2B0", VA = "0x18244FCB0")]
 		get
 		{
 			return default(int);
@@ -72,8 +72,8 @@ internal sealed class Interpreter
 	[Token(Token = "0x170001C1")]
 	internal InstructionArray Instructions
 	{
-		[Token(Token = "0x60007FE")]
-		[Address(RVA = "0x44DB170", Offset = "0x44DB170", VA = "0x44DB170")]
+		[Token(Token = "0x60007FD")]
+		[Address(RVA = "0x152F080", Offset = "0x152D680", VA = "0x18152F080")]
 		get
 		{
 			return default(InstructionArray);
@@ -83,8 +83,8 @@ internal sealed class Interpreter
 	[Token(Token = "0x170001C2")]
 	internal Dictionary<ParameterExpression, LocalVariable> ClosureVariables
 	{
-		[Token(Token = "0x60007FF")]
-		[Address(RVA = "0x44DB190", Offset = "0x44DB190", VA = "0x44DB190")]
+		[Token(Token = "0x60007FE")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		[CompilerGenerated]
 		get
 		{
@@ -92,15 +92,15 @@ internal sealed class Interpreter
 		}
 	}
 
-	[Token(Token = "0x60007FA")]
-	[Address(RVA = "0x44DB050", Offset = "0x44DB050", VA = "0x44DB050")]
+	[Token(Token = "0x60007F9")]
+	[Address(RVA = "0x244FC00", Offset = "0x244E200", VA = "0x18244FC00")]
 	internal Interpreter(string name, LocalVariables locals, InstructionArray instructions, DebugInfo[] debugInfos)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000800")]
-	[Address(RVA = "0x44DB1A0", Offset = "0x44DB1A0", VA = "0x44DB1A0")]
+	[Token(Token = "0x60007FF")]
+	[Address(RVA = "0x244FB10", Offset = "0x244E110", VA = "0x18244FB10")]
 	public void Run(InterpretedFrame frame)
 	{
 	}

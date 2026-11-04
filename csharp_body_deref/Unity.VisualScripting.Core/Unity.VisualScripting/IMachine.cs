@@ -13,19 +13,19 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000CA")]
 public interface IMachine : IGraphRoot, IGraphParent, IGraphNester, IAotStubbable
 {
-	[Token(Token = "0x170000FC")]
+	[Token(Token = "0x170000FF")]
 	IGraphData graphData
 	{
-		[Token(Token = "0x60004C4")]
+		[Token(Token = "0x60004CE")]
 		get;
-		[Token(Token = "0x60004C5")]
+		[Token(Token = "0x60004CF")]
 		set;
 	}
 
-	[Token(Token = "0x170000FD")]
+	[Token(Token = "0x17000100")]
 	GameObject threadSafeGameObject
 	{
-		[Token(Token = "0x60004C6")]
+		[Token(Token = "0x60004D0")]
 		get;
 	}
 }

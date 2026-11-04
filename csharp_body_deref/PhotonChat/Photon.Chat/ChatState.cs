@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace Photon.Chat;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000010")]
 public enum ChatState
 {
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40000A4")]
 	Uninitialized,
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000A5")]
 	ConnectingToNameServer,
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000A6")]
 	ConnectedToNameServer,
-	[Token(Token = "0x40000AC")]
+	[Token(Token = "0x40000A7")]
 	Authenticating,
-	[Token(Token = "0x40000AD")]
+	[Token(Token = "0x40000A8")]
 	Authenticated,
-	[Token(Token = "0x40000AE")]
+	[Token(Token = "0x40000A9")]
 	DisconnectingFromNameServer,
-	[Token(Token = "0x40000AF")]
+	[Token(Token = "0x40000AA")]
 	ConnectingToFrontEnd,
-	[Token(Token = "0x40000B0")]
+	[Token(Token = "0x40000AB")]
 	ConnectedToFrontEnd,
-	[Token(Token = "0x40000B1")]
+	[Token(Token = "0x40000AC")]
 	DisconnectingFromFrontEnd,
-	[Token(Token = "0x40000B2")]
+	[Token(Token = "0x40000AD")]
 	QueuedComingFromFrontEnd,
-	[Token(Token = "0x40000B3")]
+	[Token(Token = "0x40000AE")]
 	Disconnecting,
-	[Token(Token = "0x40000B4")]
+	[Token(Token = "0x40000AF")]
 	Disconnected,
-	[Token(Token = "0x40000B5")]
+	[Token(Token = "0x40000B0")]
 	ConnectWithFallbackProtocol
 }

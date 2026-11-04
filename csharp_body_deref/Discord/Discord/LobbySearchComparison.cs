@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200002D")]
 public enum LobbySearchComparison
 {
-	[Token(Token = "0x400007D")]
+	[Token(Token = "0x4000078")]
 	LessThanOrEqual = -2,
-	[Token(Token = "0x400007E")]
+	[Token(Token = "0x4000079")]
 	LessThan,
-	[Token(Token = "0x400007F")]
+	[Token(Token = "0x400007A")]
 	Equal,
-	[Token(Token = "0x4000080")]
+	[Token(Token = "0x400007B")]
 	GreaterThan,
-	[Token(Token = "0x4000081")]
+	[Token(Token = "0x400007C")]
 	GreaterThanOrEqual,
-	[Token(Token = "0x4000082")]
+	[Token(Token = "0x400007D")]
 	NotEqual
 }

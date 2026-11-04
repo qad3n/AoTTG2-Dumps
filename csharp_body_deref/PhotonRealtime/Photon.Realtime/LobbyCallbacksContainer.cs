@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x200001D")]
 internal class LobbyCallbacksContainer : List<ILobbyCallbacks>, ILobbyCallbacks
 {
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000C6")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly LoadBalancingClient client;
 
-	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x3EBF510", Offset = "0x3EBF510", VA = "0x3EBF510")]
+	[Token(Token = "0x60000F0")]
+	[Address(RVA = "0x1D23D10", Offset = "0x1D22310", VA = "0x181D23D10")]
 	public LobbyCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
-	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x3EC7720", Offset = "0x3EC7720", VA = "0x3EC7720", Slot = "35")]
+	[Token(Token = "0x60000F1")]
+	[Address(RVA = "0x1D23650", Offset = "0x1D21C50", VA = "0x181D23650", Slot = "35")]
 	public void OnJoinedLobby()
 	{
 	}
 
-	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x3EC7900", Offset = "0x3EC7900", VA = "0x3EC7900", Slot = "36")]
+	[Token(Token = "0x60000F2")]
+	[Address(RVA = "0x1D237F0", Offset = "0x1D21DF0", VA = "0x181D237F0", Slot = "36")]
 	public void OnLeftLobby()
 	{
 	}
 
-	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x3EC7520", Offset = "0x3EC7520", VA = "0x3EC7520", Slot = "37")]
+	[Token(Token = "0x60000F3")]
+	[Address(RVA = "0x1D23B50", Offset = "0x1D22150", VA = "0x181D23B50", Slot = "37")]
 	public void OnRoomListUpdate(List<RoomInfo> roomList)
 	{
 	}
 
-	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x3ECAA00", Offset = "0x3ECAA00", VA = "0x3ECAA00", Slot = "38")]
+	[Token(Token = "0x60000F4")]
+	[Address(RVA = "0x1D23990", Offset = "0x1D21F90", VA = "0x181D23990", Slot = "38")]
 	public void OnLobbyStatisticsUpdate(List<TypedLobbyInfo> lobbyStatistics)
 	{
 	}

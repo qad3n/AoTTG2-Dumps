@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x20000AB")]
 public sealed class SafeProcessHandle : SafeHandleZeroOrMinusOneIsInvalid
 {
-	[Token(Token = "0x400015A")]
+	[Token(Token = "0x4000200")]
 	[FieldOffset(Offset = "0x0")]
 	internal static SafeProcessHandle InvalidHandle;
 
-	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x4530A70", Offset = "0x4530A70", VA = "0x4530A70")]
+	[Token(Token = "0x6000334")]
+	[Address(RVA = "0x2840EC0", Offset = "0x283F4C0", VA = "0x182840EC0")]
 	internal SafeProcessHandle(IntPtr handle)
 	{
 	}
 
-	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x4530920", Offset = "0x4530920", VA = "0x4530920")]
+	[Token(Token = "0x6000335")]
+	[Address(RVA = "0x2840EF0", Offset = "0x283F4F0", VA = "0x182840EF0")]
 	public SafeProcessHandle(IntPtr existingHandle, bool ownsHandle)
 	{
 	}
 
-	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x4530AA0", Offset = "0x4530AA0", VA = "0x4530AA0", Slot = "7")]
+	[Token(Token = "0x6000336")]
+	[Address(RVA = "0x2840E30", Offset = "0x283F430", VA = "0x182840E30", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);

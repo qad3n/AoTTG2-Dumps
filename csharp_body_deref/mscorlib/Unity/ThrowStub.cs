@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Unity;
 
-[Token(Token = "0x20006C2")]
+[Token(Token = "0x20006F3")]
 internal sealed class ThrowStub : ObjectDisposedException
 {
-	[Token(Token = "0x6003371")]
-	[Address(RVA = "0x3C8F740", Offset = "0x3C8F740", VA = "0x3C8F740")]
+	[Token(Token = "0x600341B")]
+	[Address(RVA = "0x1B06310", Offset = "0x1B04910", VA = "0x181B06310")]
 	public static void ThrowNotSupportedException()
 	{
 	}

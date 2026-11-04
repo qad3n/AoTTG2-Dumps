@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A6")]
+[Token(Token = "0x2000448")]
 public enum BackgroundPositionKeyword
 {
-	[Token(Token = "0x4000AF2")]
+	[Token(Token = "0x4000E42")]
 	Center,
-	[Token(Token = "0x4000AF3")]
+	[Token(Token = "0x4000E43")]
 	Top,
-	[Token(Token = "0x4000AF4")]
+	[Token(Token = "0x4000E44")]
 	Bottom,
-	[Token(Token = "0x4000AF5")]
+	[Token(Token = "0x4000E45")]
 	Left,
-	[Token(Token = "0x4000AF6")]
+	[Token(Token = "0x4000E46")]
 	Right
 }

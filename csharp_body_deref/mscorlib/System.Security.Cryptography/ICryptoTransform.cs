@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002E6")]
+[Token(Token = "0x2000315")]
 [ComVisible(true)]
 public interface ICryptoTransform : IDisposable
 {
-	[Token(Token = "0x170002AB")]
+	[Token(Token = "0x170002AD")]
 	int InputBlockSize
 	{
-		[Token(Token = "0x6001938")]
-		get;
-	}
-
-	[Token(Token = "0x170002AC")]
-	int OutputBlockSize
-	{
-		[Token(Token = "0x6001939")]
-		get;
-	}
-
-	[Token(Token = "0x170002AD")]
-	bool CanTransformMultipleBlocks
-	{
-		[Token(Token = "0x600193A")]
+		[Token(Token = "0x60019A0")]
 		get;
 	}
 
 	[Token(Token = "0x170002AE")]
-	bool CanReuseTransform
+	int OutputBlockSize
 	{
-		[Token(Token = "0x600193B")]
+		[Token(Token = "0x60019A1")]
 		get;
 	}
 
-	[Token(Token = "0x600193C")]
+	[Token(Token = "0x170002AF")]
+	bool CanTransformMultipleBlocks
+	{
+		[Token(Token = "0x60019A2")]
+		get;
+	}
+
+	[Token(Token = "0x170002B0")]
+	bool CanReuseTransform
+	{
+		[Token(Token = "0x60019A3")]
+		get;
+	}
+
+	[Token(Token = "0x60019A4")]
 	int TransformBlock(byte[] inputBuffer, int inputOffset, int inputCount, byte[] outputBuffer, int outputOffset);
 
-	[Token(Token = "0x600193D")]
+	[Token(Token = "0x60019A5")]
 	byte[] TransformFinalBlock(byte[] inputBuffer, int inputOffset, int inputCount);
 }

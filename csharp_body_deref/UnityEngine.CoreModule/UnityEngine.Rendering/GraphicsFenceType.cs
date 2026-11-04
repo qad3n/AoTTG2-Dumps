@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002CC")]
+[Token(Token = "0x200034B")]
 public enum GraphicsFenceType
 {
-	[Token(Token = "0x400080F")]
+	[Token(Token = "0x400097D")]
 	AsyncQueueSynchronisation,
-	[Token(Token = "0x4000810")]
+	[Token(Token = "0x400097E")]
 	CPUSynchronisation
 }

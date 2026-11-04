@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000020")]
-public struct TagAttribute
+[Token(Token = "0x20000B1")]
+internal struct TagAttribute
 {
-	[Token(Token = "0x4000109")]
+	[Token(Token = "0x4000620")]
 	[FieldOffset(Offset = "0x0")]
 	public int startIndex;
 
-	[Token(Token = "0x400010A")]
+	[Token(Token = "0x4000621")]
 	[FieldOffset(Offset = "0x4")]
 	public int length;
 
-	[Token(Token = "0x400010B")]
+	[Token(Token = "0x4000622")]
 	[FieldOffset(Offset = "0x8")]
 	public int hashCode;
 }

@@ -18,21 +18,21 @@ public static class DOCurve
 	public static class CubicBezier
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x2354270", Offset = "0x2354270", VA = "0x2354270")]
+		[Address(RVA = "0x547660", Offset = "0x545C60", VA = "0x180547660")]
 		public static Vector3 GetPointOnSegment(Vector3 startPoint, Vector3 startControlPoint, Vector3 endPoint, Vector3 endControlPoint, float factor)
 		{
 			return default(Vector3);
 		}
 
 		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x2354350", Offset = "0x2354350", VA = "0x2354350")]
+		[Address(RVA = "0x547730", Offset = "0x545D30", VA = "0x180547730")]
 		public static Vector3[] GetSegmentPointCloud(Vector3 startPoint, Vector3 startControlPoint, Vector3 endPoint, Vector3 endControlPoint, int resolution = 10)
 		{
 			return null;
 		}
 
 		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x2354500", Offset = "0x2354500", VA = "0x2354500")]
+		[Address(RVA = "0x5479C0", Offset = "0x545FC0", VA = "0x1805479C0")]
 		public static void GetSegmentPointCloud(List<Vector3> addToList, Vector3 startPoint, Vector3 startControlPoint, Vector3 endPoint, Vector3 endControlPoint, int resolution = 10)
 		{
 		}

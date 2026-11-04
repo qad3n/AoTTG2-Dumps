@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000C7")]
+[Token(Token = "0x20000EC")]
 internal static class GisketchSearchFocus
 {
-	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x3A99370", Offset = "0x3A99370", VA = "0x3A99370")]
+	[Token(Token = "0x6000723")]
+	[Address(RVA = "0x19064D0", Offset = "0x1904AD0", VA = "0x1819064D0")]
 	public static void Focus(GameObject target)
 	{
 	}

@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001E5")]
+[Token(Token = "0x2000227")]
 internal class CachedInvokableCall<T> : InvokableCall<T>
 {
-	[Token(Token = "0x4000688")]
+	[Token(Token = "0x400071F")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly T m_Arg1;
 
-	[Token(Token = "0x6000D44")]
+	[Token(Token = "0x6001123")]
 	public CachedInvokableCall(Object target, MethodInfo theFunction, T argument)
 	{
 	}
 
-	[Token(Token = "0x6000D45")]
+	[Token(Token = "0x6001124")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D46")]
+	[Token(Token = "0x6001125")]
 	public override void Invoke(T arg0)
 	{
 	}

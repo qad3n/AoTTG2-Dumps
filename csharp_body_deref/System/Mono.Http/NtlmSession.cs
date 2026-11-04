@@ -14,18 +14,18 @@ namespace Mono.Http;
 [Token(Token = "0x2000068")]
 internal class NtlmSession
 {
-	[Token(Token = "0x400012C")]
+	[Token(Token = "0x400012E")]
 	[FieldOffset(Offset = "0x10")]
 	private MessageBase message;
 
-	[Token(Token = "0x600016F")]
-	[Address(RVA = "0x452B760", Offset = "0x452B760", VA = "0x452B760")]
+	[Token(Token = "0x6000179")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public NtlmSession()
 	{
 	}
 
-	[Token(Token = "0x6000170")]
-	[Address(RVA = "0x452B770", Offset = "0x452B770", VA = "0x452B770")]
+	[Token(Token = "0x600017A")]
+	[Address(RVA = "0x249EA20", Offset = "0x249D020", VA = "0x18249EA20")]
 	public Authorization Authenticate(string challenge, WebRequest webRequest, ICredentials credentials)
 	{
 		return null;

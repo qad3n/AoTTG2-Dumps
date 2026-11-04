@@ -9,185 +9,185 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000016")]
 public struct TMP_Offset
 {
-	[Token(Token = "0x400011C")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x0")]
 	private float m_Left;
 
-	[Token(Token = "0x400011D")]
+	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x4")]
 	private float m_Right;
 
-	[Token(Token = "0x400011E")]
+	[Token(Token = "0x400003B")]
 	[FieldOffset(Offset = "0x8")]
 	private float m_Top;
 
-	[Token(Token = "0x400011F")]
+	[Token(Token = "0x400003C")]
 	[FieldOffset(Offset = "0xC")]
 	private float m_Bottom;
 
-	[Token(Token = "0x4000120")]
+	[Token(Token = "0x400003D")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly TMP_Offset k_ZeroOffset;
 
-	[Token(Token = "0x17000025")]
+	[Token(Token = "0x17000019")]
 	public float left
 	{
-		[Token(Token = "0x6000127")]
-		[Address(RVA = "0x4C44CA0", Offset = "0x4C44CA0", VA = "0x4C44CA0")]
+		[Token(Token = "0x6000061")]
+		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x4C44CB0", Offset = "0x4C44CB0", VA = "0x4C44CB0")]
+		[Token(Token = "0x6000062")]
+		[Address(RVA = "0x2CDDC80", Offset = "0x2CDC280", VA = "0x182CDDC80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000026")]
+	[Token(Token = "0x1700001A")]
 	public float right
 	{
-		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x4C44CC0", Offset = "0x4C44CC0", VA = "0x4C44CC0")]
+		[Token(Token = "0x6000063")]
+		[Address(RVA = "0x562BB0", Offset = "0x5611B0", VA = "0x180562BB0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x4C44CD0", Offset = "0x4C44CD0", VA = "0x4C44CD0")]
+		[Token(Token = "0x6000064")]
+		[Address(RVA = "0x2CDDC90", Offset = "0x2CDC290", VA = "0x182CDDC90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000027")]
+	[Token(Token = "0x1700001B")]
 	public float top
 	{
-		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x4C44CE0", Offset = "0x4C44CE0", VA = "0x4C44CE0")]
+		[Token(Token = "0x6000065")]
+		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x4C44CF0", Offset = "0x4C44CF0", VA = "0x4C44CF0")]
+		[Token(Token = "0x6000066")]
+		[Address(RVA = "0x2CDDA10", Offset = "0x2CDC010", VA = "0x182CDDA10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000028")]
+	[Token(Token = "0x1700001C")]
 	public float bottom
 	{
-		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x4C44D00", Offset = "0x4C44D00", VA = "0x4C44D00")]
+		[Token(Token = "0x6000067")]
+		[Address(RVA = "0x562B80", Offset = "0x561180", VA = "0x180562B80")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x4C44D10", Offset = "0x4C44D10", VA = "0x4C44D10")]
+		[Token(Token = "0x6000068")]
+		[Address(RVA = "0x2A3A8E0", Offset = "0x2A38EE0", VA = "0x182A3A8E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000029")]
+	[Token(Token = "0x1700001D")]
 	public float horizontal
 	{
-		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x4C44D20", Offset = "0x4C44D20", VA = "0x4C44D20")]
+		[Token(Token = "0x6000069")]
+		[Address(RVA = "0x562BA0", Offset = "0x5611A0", VA = "0x180562BA0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x4C44D30", Offset = "0x4C44D30", VA = "0x4C44D30")]
+		[Token(Token = "0x600006A")]
+		[Address(RVA = "0x2A727B0", Offset = "0x2A70DB0", VA = "0x182A727B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700002A")]
+	[Token(Token = "0x1700001E")]
 	public float vertical
 	{
-		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x4C44D40", Offset = "0x4C44D40", VA = "0x4C44D40")]
+		[Token(Token = "0x600006B")]
+		[Address(RVA = "0x562B90", Offset = "0x561190", VA = "0x180562B90")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x4C44D50", Offset = "0x4C44D50", VA = "0x4C44D50")]
+		[Token(Token = "0x600006C")]
+		[Address(RVA = "0x2CF4200", Offset = "0x2CF2800", VA = "0x182CF4200")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700002B")]
+	[Token(Token = "0x1700001F")]
 	public static TMP_Offset zero
 	{
-		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x4C44D60", Offset = "0x4C44D60", VA = "0x4C44D60")]
+		[Token(Token = "0x600006D")]
+		[Address(RVA = "0x2CF4100", Offset = "0x2CF2700", VA = "0x182CF4100")]
 		get
 		{
 			return default(TMP_Offset);
 		}
 	}
 
-	[Token(Token = "0x6000134")]
-	[Address(RVA = "0x4C44DB0", Offset = "0x4C44DB0", VA = "0x4C44DB0")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
 	public TMP_Offset(float left, float right, float top, float bottom)
 	{
 	}
 
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x4C44DD0", Offset = "0x4C44DD0", VA = "0x4C44DD0")]
+	[Token(Token = "0x600006F")]
+	[Address(RVA = "0x2CF40E0", Offset = "0x2CF26E0", VA = "0x182CF40E0")]
 	public TMP_Offset(float horizontal, float vertical)
 	{
 	}
 
-	[Token(Token = "0x6000136")]
-	[Address(RVA = "0x4C44DF0", Offset = "0x4C44DF0", VA = "0x4C44DF0")]
+	[Token(Token = "0x6000070")]
+	[Address(RVA = "0x25B49C0", Offset = "0x25B2FC0", VA = "0x1825B49C0")]
 	public static bool operator ==(TMP_Offset lhs, TMP_Offset rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x4C44E30", Offset = "0x4C44E30", VA = "0x4C44E30")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x2CF4160", Offset = "0x2CF2760", VA = "0x182CF4160")]
 	public static bool operator !=(TMP_Offset lhs, TMP_Offset rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x4C44F20", Offset = "0x4C44F20", VA = "0x4C44F20")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x29C7CF0", Offset = "0x29C62F0", VA = "0x1829C7CF0")]
 	public static TMP_Offset operator *(TMP_Offset a, float b)
 	{
 		return default(TMP_Offset);
 	}
 
-	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x4C44F30", Offset = "0x4C44F30", VA = "0x4C44F30", Slot = "2")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x2CF4050", Offset = "0x2CF2650", VA = "0x182CF4050", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x4C44F80", Offset = "0x4C44F80", VA = "0x4C44F80", Slot = "0")]
+	[Token(Token = "0x6000074")]
+	[Address(RVA = "0x2CF3FF0", Offset = "0x2CF25F0", VA = "0x182CF3FF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x4C44FE0", Offset = "0x4C44FE0", VA = "0x4C44FE0")]
+	[Token(Token = "0x6000075")]
+	[Address(RVA = "0x2CF3F70", Offset = "0x2CF2570", VA = "0x182CF3F70")]
 	public bool Equals(TMP_Offset other)
 	{
 		return default(bool);

@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000017")]
+[Token(Token = "0x2000015")]
 [VisibleToOtherModules]
 internal enum StaticAccessorType
 {
-	[Token(Token = "0x400001D")]
+	[Token(Token = "0x400001B")]
 	Dot,
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x400001C")]
 	Arrow,
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x400001D")]
 	DoubleColon,
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x400001E")]
 	ArrowWithDefaultReturnIfNull
 }

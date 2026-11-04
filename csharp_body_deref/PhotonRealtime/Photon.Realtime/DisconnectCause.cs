@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000B")]
 public enum DisconnectCause
 {
-	[Token(Token = "0x4000068")]
+	[Token(Token = "0x4000063")]
 	None,
-	[Token(Token = "0x4000069")]
+	[Token(Token = "0x4000064")]
 	ExceptionOnConnect,
-	[Token(Token = "0x400006A")]
+	[Token(Token = "0x4000065")]
 	DnsExceptionOnConnect,
-	[Token(Token = "0x400006B")]
+	[Token(Token = "0x4000066")]
 	ServerAddressInvalid,
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x4000067")]
 	Exception,
-	[Token(Token = "0x400006D")]
+	[Token(Token = "0x4000068")]
 	SendException,
-	[Token(Token = "0x400006E")]
+	[Token(Token = "0x4000069")]
 	ReceiveException,
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400006A")]
 	ServerTimeout,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x400006B")]
 	ClientTimeout,
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x400006C")]
 	DisconnectByServerLogic,
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x400006D")]
 	DisconnectByServerReasonUnknown,
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400006E")]
 	InvalidAuthentication,
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400006F")]
 	CustomAuthenticationFailed,
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000070")]
 	AuthenticationTicketExpired,
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000071")]
 	MaxCcuReached,
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000072")]
 	InvalidRegion,
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x4000073")]
 	OperationNotAllowedInCurrentState,
-	[Token(Token = "0x4000079")]
+	[Token(Token = "0x4000074")]
 	DisconnectByClientLogic,
-	[Token(Token = "0x400007A")]
+	[Token(Token = "0x4000075")]
 	DisconnectByOperationLimit,
-	[Token(Token = "0x400007B")]
+	[Token(Token = "0x4000076")]
 	DisconnectByDisconnectMessage,
-	[Token(Token = "0x400007C")]
+	[Token(Token = "0x4000077")]
 	ApplicationQuit
 }

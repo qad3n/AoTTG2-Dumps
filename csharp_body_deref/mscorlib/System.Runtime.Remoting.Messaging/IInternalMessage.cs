@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003AC")]
+[Token(Token = "0x20003DB")]
 internal interface IInternalMessage
 {
-	[Token(Token = "0x170003BC")]
+	[Token(Token = "0x170003BE")]
 	System.Runtime.Remoting.Identity TargetIdentity
 	{
-		[Token(Token = "0x6001E6A")]
+		[Token(Token = "0x6001ED9")]
 		get;
-		[Token(Token = "0x6001E6B")]
+		[Token(Token = "0x6001EDA")]
 		set;
 	}
 
-	[Token(Token = "0x170003BD")]
+	[Token(Token = "0x170003BF")]
 	string Uri
 	{
-		[Token(Token = "0x6001E6C")]
+		[Token(Token = "0x6001EDB")]
 		get;
-		[Token(Token = "0x6001E6D")]
+		[Token(Token = "0x6001EDC")]
 		set;
 	}
 }

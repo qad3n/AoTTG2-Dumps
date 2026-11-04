@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002C5")]
+[Token(Token = "0x20002F4")]
 public enum RSAEncryptionPaddingMode
 {
-	[Token(Token = "0x4000CC6")]
+	[Token(Token = "0x4000CD3")]
 	Pkcs1,
-	[Token(Token = "0x4000CC7")]
+	[Token(Token = "0x4000CD4")]
 	Oaep
 }

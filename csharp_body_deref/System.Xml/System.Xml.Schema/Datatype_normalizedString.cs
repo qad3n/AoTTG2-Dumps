@@ -16,7 +16,7 @@ internal class Datatype_normalizedString : Datatype_string
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600113D")]
-		[Address(RVA = "0x48618D0", Offset = "0x48618D0", VA = "0x48618D0", Slot = "8")]
+		[Address(RVA = "0x26C39F0", Offset = "0x26C1FF0", VA = "0x1826C39F0", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -27,7 +27,7 @@ internal class Datatype_normalizedString : Datatype_string
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x600113E")]
-		[Address(RVA = "0x48618E0", Offset = "0x48618E0", VA = "0x48618E0", Slot = "19")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -38,7 +38,7 @@ internal class Datatype_normalizedString : Datatype_string
 	internal override bool HasValueFacets
 	{
 		[Token(Token = "0x600113F")]
-		[Address(RVA = "0x48618F0", Offset = "0x48618F0", VA = "0x48618F0", Slot = "11")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -46,7 +46,7 @@ internal class Datatype_normalizedString : Datatype_string
 	}
 
 	[Token(Token = "0x6001140")]
-	[Address(RVA = "0x48576F0", Offset = "0x48576F0", VA = "0x48576F0")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_normalizedString()
 	{
 	}

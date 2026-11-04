@@ -25,25 +25,25 @@ public static class TerrainCallbacks
 
 	[Token(Token = "0x4000001")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static HeightmapChangedCallback heightmapChanged;
 
 	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x8")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static TextureChangedCallback textureChanged;
 
-	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4E9F9E0", Offset = "0x4E9F9E0", VA = "0x4E9F9E0")]
+	[Token(Token = "0x6000011")]
+	[Address(RVA = "0x2FF8BD0", Offset = "0x2FF71D0", VA = "0x182FF8BD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeHeightmapChangedCallback(TerrainData terrainData, RectInt heightRegion, bool synched)
 	{
 	}
 
-	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x4E9FB80", Offset = "0x4E9FB80", VA = "0x4E9FB80")]
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x2FF8D30", Offset = "0x2FF7330", VA = "0x182FF8D30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void InvokeTextureChangedCallback(TerrainData terrainData, string textureName, RectInt texelRegion, bool synched)
 	{

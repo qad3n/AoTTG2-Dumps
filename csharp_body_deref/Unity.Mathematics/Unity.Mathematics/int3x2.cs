@@ -13,27 +13,27 @@ using Unity.IL2CPP.CompilerServices;
 namespace Unity.Mathematics;
 
 [Serializable]
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000046")]
 [Unity.IL2CPP.CompilerServices.Il2CppEagerStaticClassConstruction]
 public struct int3x2 : IEquatable<int3x2>, IFormattable
 {
-	[Token(Token = "0x4000106")]
+	[Token(Token = "0x400010D")]
 	[FieldOffset(Offset = "0x0")]
 	public int3 c0;
 
-	[Token(Token = "0x4000107")]
+	[Token(Token = "0x400010E")]
 	[FieldOffset(Offset = "0xC")]
 	public int3 c1;
 
-	[Token(Token = "0x4000108")]
+	[Token(Token = "0x400010F")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly int3x2 zero;
 
 	[Token(Token = "0x17000846")]
 	public unsafe ref int3 this[int index]
 	{
-		[Token(Token = "0x6001A90")]
-		[Address(RVA = "0x4AE8200", Offset = "0x4AE8200", VA = "0x4AE8200")]
+		[Token(Token = "0x6001B03")]
+		[Address(RVA = "0x841BD0", Offset = "0x8401D0", VA = "0x180841BD0")]
 		get
 		{
 			return ref *(int3*)null;
@@ -41,580 +41,580 @@ public struct int3x2 : IEquatable<int3x2>, IFormattable
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A4B")]
-	[Address(RVA = "0x4AE6A80", Offset = "0x4AE6A80", VA = "0x4AE6A80")]
+	[Token(Token = "0x6001ABE")]
+	[Address(RVA = "0x565080", Offset = "0x563680", VA = "0x180565080")]
 	public int3x2(int3 c0, int3 c1)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A4C")]
-	[Address(RVA = "0x4AE6A90", Offset = "0x4AE6A90", VA = "0x4AE6A90")]
+	[Token(Token = "0x6001ABF")]
+	[Address(RVA = "0x2A2D3D0", Offset = "0x2A2B9D0", VA = "0x182A2D3D0")]
 	public int3x2(int m00, int m01, int m10, int m11, int m20, int m21)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A4D")]
-	[Address(RVA = "0x4AE6AB0", Offset = "0x4AE6AB0", VA = "0x4AE6AB0")]
+	[Token(Token = "0x6001AC0")]
+	[Address(RVA = "0x2A2D570", Offset = "0x2A2BB70", VA = "0x182A2D570")]
 	public int3x2(int v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A4E")]
-	[Address(RVA = "0x4AE6AD0", Offset = "0x4AE6AD0", VA = "0x4AE6AD0")]
+	[Token(Token = "0x6001AC1")]
+	[Address(RVA = "0x2A2D3F0", Offset = "0x2A2B9F0", VA = "0x182A2D3F0")]
 	public int3x2(bool v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A4F")]
-	[Address(RVA = "0x4AE6AF0", Offset = "0x4AE6AF0", VA = "0x4AE6AF0")]
+	[Token(Token = "0x6001AC2")]
+	[Address(RVA = "0x2A2D430", Offset = "0x2A2BA30", VA = "0x182A2D430")]
 	public int3x2(bool3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A50")]
-	[Address(RVA = "0x4AE6B50", Offset = "0x4AE6B50", VA = "0x4AE6B50")]
+	[Token(Token = "0x6001AC3")]
+	[Address(RVA = "0x2A2D570", Offset = "0x2A2BB70", VA = "0x182A2D570")]
 	public int3x2(uint v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A51")]
-	[Address(RVA = "0x4AE6B70", Offset = "0x4AE6B70", VA = "0x4AE6B70")]
+	[Token(Token = "0x6001AC4")]
+	[Address(RVA = "0x2A2D530", Offset = "0x2A2BB30", VA = "0x182A2D530")]
 	public int3x2(uint3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A52")]
-	[Address(RVA = "0x4AE6B90", Offset = "0x4AE6B90", VA = "0x4AE6B90")]
+	[Token(Token = "0x6001AC5")]
+	[Address(RVA = "0x2AA2020", Offset = "0x2AA0620", VA = "0x182AA2020")]
 	public int3x2(float v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A53")]
-	[Address(RVA = "0x4AE6BB0", Offset = "0x4AE6BB0", VA = "0x4AE6BB0")]
+	[Token(Token = "0x6001AC6")]
+	[Address(RVA = "0x2AA2050", Offset = "0x2AA0650", VA = "0x182AA2050")]
 	public int3x2(float3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A54")]
-	[Address(RVA = "0x4AE6C00", Offset = "0x4AE6C00", VA = "0x4AE6C00")]
+	[Token(Token = "0x6001AC7")]
+	[Address(RVA = "0x2AA2080", Offset = "0x2AA0680", VA = "0x182AA2080")]
 	public int3x2(double v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A55")]
-	[Address(RVA = "0x4AE6C20", Offset = "0x4AE6C20", VA = "0x4AE6C20")]
+	[Token(Token = "0x6001AC8")]
+	[Address(RVA = "0x2AA1FF0", Offset = "0x2AA05F0", VA = "0x182AA1FF0")]
 	public int3x2(double3x2 v)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A56")]
-	[Address(RVA = "0x4AE6C60", Offset = "0x4AE6C60", VA = "0x4AE6C60")]
+	[Token(Token = "0x6001AC9")]
+	[Address(RVA = "0x29EAFD0", Offset = "0x29E95D0", VA = "0x1829EAFD0")]
 	public static implicit operator int3x2(int v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A57")]
-	[Address(RVA = "0x4AE6C80", Offset = "0x4AE6C80", VA = "0x4AE6C80")]
+	[Token(Token = "0x6001ACA")]
+	[Address(RVA = "0x29EAFF0", Offset = "0x29E95F0", VA = "0x1829EAFF0")]
 	public static explicit operator int3x2(bool v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A58")]
-	[Address(RVA = "0x4AE6CB0", Offset = "0x4AE6CB0", VA = "0x4AE6CB0")]
+	[Token(Token = "0x6001ACB")]
+	[Address(RVA = "0x29EB030", Offset = "0x29E9630", VA = "0x1829EB030")]
 	public static explicit operator int3x2(bool3x2 v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A59")]
-	[Address(RVA = "0x4AE6D10", Offset = "0x4AE6D10", VA = "0x4AE6D10")]
+	[Token(Token = "0x6001ACC")]
+	[Address(RVA = "0x29EAFD0", Offset = "0x29E95D0", VA = "0x1829EAFD0")]
 	public static explicit operator int3x2(uint v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5A")]
-	[Address(RVA = "0x4AE6D30", Offset = "0x4AE6D30", VA = "0x4AE6D30")]
+	[Token(Token = "0x6001ACD")]
+	[Address(RVA = "0x29EAED0", Offset = "0x29E94D0", VA = "0x1829EAED0")]
 	public static explicit operator int3x2(uint3x2 v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5B")]
-	[Address(RVA = "0x4AE6D60", Offset = "0x4AE6D60", VA = "0x4AE6D60")]
+	[Token(Token = "0x6001ACE")]
+	[Address(RVA = "0x29EB0A0", Offset = "0x29E96A0", VA = "0x1829EB0A0")]
 	public static explicit operator int3x2(float v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5C")]
-	[Address(RVA = "0x4AE6D80", Offset = "0x4AE6D80", VA = "0x4AE6D80")]
+	[Token(Token = "0x6001ACF")]
+	[Address(RVA = "0x29EAF40", Offset = "0x29E9540", VA = "0x1829EAF40")]
 	public static explicit operator int3x2(float3x2 v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5D")]
-	[Address(RVA = "0x4AE6DD0", Offset = "0x4AE6DD0", VA = "0x4AE6DD0")]
+	[Token(Token = "0x6001AD0")]
+	[Address(RVA = "0x29EB0E0", Offset = "0x29E96E0", VA = "0x1829EB0E0")]
 	public static explicit operator int3x2(double v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5E")]
-	[Address(RVA = "0x4AE6DF0", Offset = "0x4AE6DF0", VA = "0x4AE6DF0")]
+	[Token(Token = "0x6001AD1")]
+	[Address(RVA = "0x29EAE80", Offset = "0x29E9480", VA = "0x1829EAE80")]
 	public static explicit operator int3x2(double3x2 v)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A5F")]
-	[Address(RVA = "0x4AE6E40", Offset = "0x4AE6E40", VA = "0x4AE6E40")]
+	[Token(Token = "0x6001AD2")]
+	[Address(RVA = "0x2A2E480", Offset = "0x2A2CA80", VA = "0x182A2E480")]
 	public static int3x2 operator *(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A60")]
-	[Address(RVA = "0x4AE6EB0", Offset = "0x4AE6EB0", VA = "0x4AE6EB0")]
+	[Token(Token = "0x6001AD3")]
+	[Address(RVA = "0x2A2E4E0", Offset = "0x2A2CAE0", VA = "0x182A2E4E0")]
 	public static int3x2 operator *(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A61")]
-	[Address(RVA = "0x4AE6F10", Offset = "0x4AE6F10", VA = "0x4AE6F10")]
+	[Token(Token = "0x6001AD4")]
+	[Address(RVA = "0x2A2E540", Offset = "0x2A2CB40", VA = "0x182A2E540")]
 	public static int3x2 operator *(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A62")]
-	[Address(RVA = "0x4AE6F70", Offset = "0x4AE6F70", VA = "0x4AE6F70")]
+	[Token(Token = "0x6001AD5")]
+	[Address(RVA = "0x2AA2100", Offset = "0x2AA0700", VA = "0x182AA2100")]
 	public static int3x2 operator +(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A63")]
-	[Address(RVA = "0x4AE6FE0", Offset = "0x4AE6FE0", VA = "0x4AE6FE0")]
+	[Token(Token = "0x6001AD6")]
+	[Address(RVA = "0x2AA20B0", Offset = "0x2AA06B0", VA = "0x182AA20B0")]
 	public static int3x2 operator +(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A64")]
-	[Address(RVA = "0x4AE7030", Offset = "0x4AE7030", VA = "0x4AE7030")]
+	[Token(Token = "0x6001AD7")]
+	[Address(RVA = "0x2AA2150", Offset = "0x2AA0750", VA = "0x182AA2150")]
 	public static int3x2 operator +(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A65")]
-	[Address(RVA = "0x4AE7080", Offset = "0x4AE7080", VA = "0x4AE7080")]
+	[Token(Token = "0x6001AD8")]
+	[Address(RVA = "0x2AA28A0", Offset = "0x2AA0EA0", VA = "0x182AA28A0")]
 	public static int3x2 operator -(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A66")]
-	[Address(RVA = "0x4AE70F0", Offset = "0x4AE70F0", VA = "0x4AE70F0")]
+	[Token(Token = "0x6001AD9")]
+	[Address(RVA = "0x2AA28F0", Offset = "0x2AA0EF0", VA = "0x182AA28F0")]
 	public static int3x2 operator -(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A67")]
-	[Address(RVA = "0x4AE7150", Offset = "0x4AE7150", VA = "0x4AE7150")]
+	[Token(Token = "0x6001ADA")]
+	[Address(RVA = "0x2AA2850", Offset = "0x2AA0E50", VA = "0x182AA2850")]
 	public static int3x2 operator -(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A68")]
-	[Address(RVA = "0x4AE71A0", Offset = "0x4AE71A0", VA = "0x4AE71A0")]
+	[Token(Token = "0x6001ADB")]
+	[Address(RVA = "0x2AA2200", Offset = "0x2AA0800", VA = "0x182AA2200")]
 	public static int3x2 operator /(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A69")]
-	[Address(RVA = "0x4AE7230", Offset = "0x4AE7230", VA = "0x4AE7230")]
+	[Token(Token = "0x6001ADC")]
+	[Address(RVA = "0x2AA21A0", Offset = "0x2AA07A0", VA = "0x182AA21A0")]
 	public static int3x2 operator /(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6A")]
-	[Address(RVA = "0x4AE72A0", Offset = "0x4AE72A0", VA = "0x4AE72A0")]
+	[Token(Token = "0x6001ADD")]
+	[Address(RVA = "0x2AA2270", Offset = "0x2AA0870", VA = "0x182AA2270")]
 	public static int3x2 operator /(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6B")]
-	[Address(RVA = "0x4AE7310", Offset = "0x4AE7310", VA = "0x4AE7310")]
+	[Token(Token = "0x6001ADE")]
+	[Address(RVA = "0x2AA26D0", Offset = "0x2AA0CD0", VA = "0x182AA26D0")]
 	public static int3x2 operator %(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6C")]
-	[Address(RVA = "0x4AE73A0", Offset = "0x4AE73A0", VA = "0x4AE73A0")]
+	[Token(Token = "0x6001ADF")]
+	[Address(RVA = "0x2AA27A0", Offset = "0x2AA0DA0", VA = "0x182AA27A0")]
 	public static int3x2 operator %(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6D")]
-	[Address(RVA = "0x4AE7410", Offset = "0x4AE7410", VA = "0x4AE7410")]
+	[Token(Token = "0x6001AE0")]
+	[Address(RVA = "0x2AA2740", Offset = "0x2AA0D40", VA = "0x182AA2740")]
 	public static int3x2 operator %(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6E")]
-	[Address(RVA = "0x4AE7480", Offset = "0x4AE7480", VA = "0x4AE7480")]
+	[Token(Token = "0x6001AE1")]
+	[Address(RVA = "0x2A2DF70", Offset = "0x2A2C570", VA = "0x182A2DF70")]
 	public static int3x2 operator ++(int3x2 val)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A6F")]
-	[Address(RVA = "0x4AE74F0", Offset = "0x4AE74F0", VA = "0x4AE74F0")]
+	[Token(Token = "0x6001AE2")]
+	[Address(RVA = "0x2A2D960", Offset = "0x2A2BF60", VA = "0x182A2D960")]
 	public static int3x2 operator --(int3x2 val)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A70")]
-	[Address(RVA = "0x4AE7550", Offset = "0x4AE7550", VA = "0x4AE7550")]
+	[Token(Token = "0x6001AE3")]
+	[Address(RVA = "0x2AA2620", Offset = "0x2AA0C20", VA = "0x182AA2620")]
 	public static bool3x2 operator <(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A71")]
-	[Address(RVA = "0x4AE75E0", Offset = "0x4AE75E0", VA = "0x4AE75E0")]
+	[Token(Token = "0x6001AE4")]
+	[Address(RVA = "0x2AA2680", Offset = "0x2AA0C80", VA = "0x182AA2680")]
 	public static bool3x2 operator <(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A72")]
-	[Address(RVA = "0x4AE7650", Offset = "0x4AE7650", VA = "0x4AE7650")]
+	[Token(Token = "0x6001AE5")]
+	[Address(RVA = "0x2AA25D0", Offset = "0x2AA0BD0", VA = "0x182AA25D0")]
 	public static bool3x2 operator <(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A73")]
-	[Address(RVA = "0x4AE76C0", Offset = "0x4AE76C0", VA = "0x4AE76C0")]
+	[Token(Token = "0x6001AE6")]
+	[Address(RVA = "0x2AA2570", Offset = "0x2AA0B70", VA = "0x182AA2570")]
 	public static bool3x2 operator <=(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A74")]
-	[Address(RVA = "0x4AE7750", Offset = "0x4AE7750", VA = "0x4AE7750")]
+	[Token(Token = "0x6001AE7")]
+	[Address(RVA = "0x2AA2520", Offset = "0x2AA0B20", VA = "0x182AA2520")]
 	public static bool3x2 operator <=(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A75")]
-	[Address(RVA = "0x4AE77C0", Offset = "0x4AE77C0", VA = "0x4AE77C0")]
+	[Token(Token = "0x6001AE8")]
+	[Address(RVA = "0x2AA24D0", Offset = "0x2AA0AD0", VA = "0x182AA24D0")]
 	public static bool3x2 operator <=(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A76")]
-	[Address(RVA = "0x4AE7830", Offset = "0x4AE7830", VA = "0x4AE7830")]
+	[Token(Token = "0x6001AE9")]
+	[Address(RVA = "0x2AA23D0", Offset = "0x2AA09D0", VA = "0x182AA23D0")]
 	public static bool3x2 operator >(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A77")]
-	[Address(RVA = "0x4AE78C0", Offset = "0x4AE78C0", VA = "0x4AE78C0")]
+	[Token(Token = "0x6001AEA")]
+	[Address(RVA = "0x2AA2430", Offset = "0x2AA0A30", VA = "0x182AA2430")]
 	public static bool3x2 operator >(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A78")]
-	[Address(RVA = "0x4AE7930", Offset = "0x4AE7930", VA = "0x4AE7930")]
+	[Token(Token = "0x6001AEB")]
+	[Address(RVA = "0x2AA2480", Offset = "0x2AA0A80", VA = "0x182AA2480")]
 	public static bool3x2 operator >(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A79")]
-	[Address(RVA = "0x4AE79A0", Offset = "0x4AE79A0", VA = "0x4AE79A0")]
+	[Token(Token = "0x6001AEC")]
+	[Address(RVA = "0x2AA2320", Offset = "0x2AA0920", VA = "0x182AA2320")]
 	public static bool3x2 operator >=(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7A")]
-	[Address(RVA = "0x4AE7A30", Offset = "0x4AE7A30", VA = "0x4AE7A30")]
+	[Token(Token = "0x6001AED")]
+	[Address(RVA = "0x2AA2380", Offset = "0x2AA0980", VA = "0x182AA2380")]
 	public static bool3x2 operator >=(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7B")]
-	[Address(RVA = "0x4AE7AA0", Offset = "0x4AE7AA0", VA = "0x4AE7AA0")]
+	[Token(Token = "0x6001AEE")]
+	[Address(RVA = "0x2AA22D0", Offset = "0x2AA08D0", VA = "0x182AA22D0")]
 	public static bool3x2 operator >=(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7C")]
-	[Address(RVA = "0x4AE7B10", Offset = "0x4AE7B10", VA = "0x4AE7B10")]
+	[Token(Token = "0x6001AEF")]
+	[Address(RVA = "0x2A2E760", Offset = "0x2A2CD60", VA = "0x182A2E760")]
 	public static int3x2 operator -(int3x2 val)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7D")]
-	[Address(RVA = "0x4AE7B60", Offset = "0x4AE7B60", VA = "0x4AE7B60")]
+	[Token(Token = "0x6001AF0")]
+	[Address(RVA = "0x2A2E7A0", Offset = "0x2A2CDA0", VA = "0x182A2E7A0")]
 	public static int3x2 operator +(int3x2 val)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7E")]
-	[Address(RVA = "0x4AE7B90", Offset = "0x4AE7B90", VA = "0x4AE7B90")]
+	[Token(Token = "0x6001AF1")]
+	[Address(RVA = "0x2A2E0E0", Offset = "0x2A2C6E0", VA = "0x182A2E0E0")]
 	public static int3x2 operator <<(int3x2 x, int n)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A7F")]
-	[Address(RVA = "0x4AE7BF0", Offset = "0x4AE7BF0", VA = "0x4AE7BF0")]
+	[Token(Token = "0x6001AF2")]
+	[Address(RVA = "0x2AA2800", Offset = "0x2AA0E00", VA = "0x182AA2800")]
 	public static int3x2 operator >>(int3x2 x, int n)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A80")]
-	[Address(RVA = "0x4AE7C50", Offset = "0x4AE7C50", VA = "0x4AE7C50")]
+	[Token(Token = "0x6001AF3")]
+	[Address(RVA = "0x2A2DB20", Offset = "0x2A2C120", VA = "0x182A2DB20")]
 	public static bool3x2 operator ==(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A81")]
-	[Address(RVA = "0x4AE7CE0", Offset = "0x4AE7CE0", VA = "0x4AE7CE0")]
+	[Token(Token = "0x6001AF4")]
+	[Address(RVA = "0x2A2DB80", Offset = "0x2A2C180", VA = "0x182A2DB80")]
 	public static bool3x2 operator ==(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A82")]
-	[Address(RVA = "0x4AE7D50", Offset = "0x4AE7D50", VA = "0x4AE7D50")]
+	[Token(Token = "0x6001AF5")]
+	[Address(RVA = "0x2A2DBD0", Offset = "0x2A2C1D0", VA = "0x182A2DBD0")]
 	public static bool3x2 operator ==(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A83")]
-	[Address(RVA = "0x4AE7DC0", Offset = "0x4AE7DC0", VA = "0x4AE7DC0")]
+	[Token(Token = "0x6001AF6")]
+	[Address(RVA = "0x2A2E080", Offset = "0x2A2C680", VA = "0x182A2E080")]
 	public static bool3x2 operator !=(int3x2 lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A84")]
-	[Address(RVA = "0x4AE7E50", Offset = "0x4AE7E50", VA = "0x4AE7E50")]
+	[Token(Token = "0x6001AF7")]
+	[Address(RVA = "0x2A2E030", Offset = "0x2A2C630", VA = "0x182A2E030")]
 	public static bool3x2 operator !=(int3x2 lhs, int rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A85")]
-	[Address(RVA = "0x4AE7EC0", Offset = "0x4AE7EC0", VA = "0x4AE7EC0")]
+	[Token(Token = "0x6001AF8")]
+	[Address(RVA = "0x2A2DFE0", Offset = "0x2A2C5E0", VA = "0x182A2DFE0")]
 	public static bool3x2 operator !=(int lhs, int3x2 rhs)
 	{
 		return default(bool3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A86")]
-	[Address(RVA = "0x4AE7F30", Offset = "0x4AE7F30", VA = "0x4AE7F30")]
+	[Token(Token = "0x6001AF9")]
+	[Address(RVA = "0x2A2E5A0", Offset = "0x2A2CBA0", VA = "0x182A2E5A0")]
 	public static int3x2 operator ~(int3x2 val)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A87")]
-	[Address(RVA = "0x4AE7F60", Offset = "0x4AE7F60", VA = "0x4AE7F60")]
+	[Token(Token = "0x6001AFA")]
+	[Address(RVA = "0x2A2D820", Offset = "0x2A2BE20", VA = "0x182A2D820")]
 	public static int3x2 operator &(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A88")]
-	[Address(RVA = "0x4AE7FA0", Offset = "0x4AE7FA0", VA = "0x4AE7FA0")]
+	[Token(Token = "0x6001AFB")]
+	[Address(RVA = "0x2A2D7D0", Offset = "0x2A2BDD0", VA = "0x182A2D7D0")]
 	public static int3x2 operator &(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A89")]
-	[Address(RVA = "0x4AE7FF0", Offset = "0x4AE7FF0", VA = "0x4AE7FF0")]
+	[Token(Token = "0x6001AFC")]
+	[Address(RVA = "0x2A2D780", Offset = "0x2A2BD80", VA = "0x182A2D780")]
 	public static int3x2 operator &(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8A")]
-	[Address(RVA = "0x4AE8040", Offset = "0x4AE8040", VA = "0x4AE8040")]
+	[Token(Token = "0x6001AFD")]
+	[Address(RVA = "0x2A2D910", Offset = "0x2A2BF10", VA = "0x182A2D910")]
 	public static int3x2 operator |(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8B")]
-	[Address(RVA = "0x4AE8080", Offset = "0x4AE8080", VA = "0x4AE8080")]
+	[Token(Token = "0x6001AFE")]
+	[Address(RVA = "0x2A2D870", Offset = "0x2A2BE70", VA = "0x182A2D870")]
 	public static int3x2 operator |(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8C")]
-	[Address(RVA = "0x4AE80D0", Offset = "0x4AE80D0", VA = "0x4AE80D0")]
+	[Token(Token = "0x6001AFF")]
+	[Address(RVA = "0x2A2D8C0", Offset = "0x2A2BEC0", VA = "0x182A2D8C0")]
 	public static int3x2 operator |(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8D")]
-	[Address(RVA = "0x4AE8120", Offset = "0x4AE8120", VA = "0x4AE8120")]
+	[Token(Token = "0x6001B00")]
+	[Address(RVA = "0x2A2DC20", Offset = "0x2A2C220", VA = "0x182A2DC20")]
 	public static int3x2 operator ^(int3x2 lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8E")]
-	[Address(RVA = "0x4AE8160", Offset = "0x4AE8160", VA = "0x4AE8160")]
+	[Token(Token = "0x6001B01")]
+	[Address(RVA = "0x2A2DC70", Offset = "0x2A2C270", VA = "0x182A2DC70")]
 	public static int3x2 operator ^(int3x2 lhs, int rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A8F")]
-	[Address(RVA = "0x4AE81B0", Offset = "0x4AE81B0", VA = "0x4AE81B0")]
+	[Token(Token = "0x6001B02")]
+	[Address(RVA = "0x2A2DCC0", Offset = "0x2A2C2C0", VA = "0x182A2DCC0")]
 	public static int3x2 operator ^(int lhs, int3x2 rhs)
 	{
 		return default(int3x2);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A91")]
-	[Address(RVA = "0x4AE8210", Offset = "0x4AE8210", VA = "0x4AE8210", Slot = "4")]
+	[Token(Token = "0x6001B04")]
+	[Address(RVA = "0x2A2CD80", Offset = "0x2A2B380", VA = "0x182A2CD80", Slot = "4")]
 	public bool Equals(int3x2 rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001A92")]
-	[Address(RVA = "0x4AE8250", Offset = "0x4AE8250", VA = "0x4AE8250", Slot = "0")]
+	[Token(Token = "0x6001B05")]
+	[Address(RVA = "0x2AA1900", Offset = "0x2A9FF00", VA = "0x182AA1900", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A93")]
-	[Address(RVA = "0x4AE82E0", Offset = "0x4AE82E0", VA = "0x4AE82E0", Slot = "2")]
+	[Token(Token = "0x6001B06")]
+	[Address(RVA = "0x2AA19E0", Offset = "0x2A9FFE0", VA = "0x182AA19E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A94")]
-	[Address(RVA = "0x4AE8350", Offset = "0x4AE8350", VA = "0x4AE8350", Slot = "3")]
+	[Token(Token = "0x6001B07")]
+	[Address(RVA = "0x2AA1D20", Offset = "0x2AA0320", VA = "0x182AA1D20", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001A95")]
-	[Address(RVA = "0x4AE85C0", Offset = "0x4AE85C0", VA = "0x4AE85C0", Slot = "5")]
+	[Token(Token = "0x6001B08")]
+	[Address(RVA = "0x2AA1A70", Offset = "0x2AA0070", VA = "0x182AA1A70", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;

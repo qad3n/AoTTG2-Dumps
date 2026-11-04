@@ -1,366 +1,304 @@
 // Type: Characters.BasicTitanSetup
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Characters/BasicTitanSetup.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Titan/BasicTitanSetup.cs
 // --------------------------------
 
 // Characters.BasicTitanSetup$$Init
 // il2cpp: void Characters_BasicTitanSetup__Init (const MethodInfo* method);
-// 0x431f0c0
+// 0x18219eef0
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18219f667: nop word ptr [rax + rax]
+// asm:   0x18219f6f0: mov ebx, r13d
+// asm:   0x18219f6f3: nop dword ptr [rax]
+// asm:   0x18219f6f7: nop word ptr [rax + rax]
 
 void Characters_BasicTitanSetup__Init(MethodInfo *method)
 
 {
   int32_t *piVar1;
-  System_Object_array *pSVar2;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
-  System_Collections_Generic_List_int__o *__this;
-  System_Int32_array *pSVar4;
-  System_Single_array *pSVar5;
-  Settings_IntSetting_o *pSVar6;
-  Settings_StringSetting_o *__this_00;
-  Settings_ColorSetting_o *pSVar7;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar8;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar9;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar10;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar11;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar12;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar13;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar14;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar15;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar16;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar17;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar18;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar19;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar20;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar21;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar22;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar23;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar24;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar25;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar26;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar27;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar28;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields SVar29;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_01;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_02;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_03;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_04;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_05;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_06;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_07;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_08;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_09;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_10;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_11;
-  undefined4 uVar30;
-  uint uVar31;
-  uint b;
-  uint a;
-  bool_conflict bVar32;
-  int32_t iVar33;
-  System_String_o *pSVar34;
-  long *plVar35;
-  System_String_o *pSVar36;
-  long *plVar37;
-  SimpleJSONFixed_JSONNode_o *pSVar38;
-  Il2CppObject *pIVar39;
-  long lVar40;
-  Il2CppObject *item;
-  System_Collections_Generic_List_object__o *pSVar41;
-  System_Collections_Generic_List_float__o *__this_12;
-  Settings_TitanCustomSet_o *pSVar42;
-  UnityEngine_Component_o *__this_13;
-  UnityEngine_Transform_o *pUVar43;
-  Settings_TitanCustomSet_o *pSVar44;
-  byte bVar45;
-  Il2CppClass *pIVar46;
-  Il2CppClass *pIVar47;
-  long lVar48;
-  Settings_TitanCustomSet_o *__this_14;
-  int iVar49;
-  SimpleJSONFixed_JSONNode_o *pSVar50;
-  MethodInfo_24E7B40 **list;
-  char cVar51;
-  System_Collections_Generic_HashSet_int__o *in_R8;
-  MethodInfo_3104DF0 **unaff_R12;
-  long *unaff_R13;
-  System_String_o **unaff_R14;
-  long *unaff_R15;
-  float fVar52;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__Fields aKeyValue;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o SVar53;
-  UnityEngine_Vector3_o UVar54;
-  UnityEngine_Quaternion_o value;
-  undefined8 in_stack_fffffffffffffe50;
-  long in_stack_fffffffffffffe58;
-  Il2CppMethodPointer pIVar55;
-  Il2CppMethodPointer pIVar56;
-  InvokerMethod pIVar57;
-  char *pcVar58;
-  Il2CppClass *pIVar59;
-  Il2CppType *pIVar60;
-  Il2CppMethodPointer pIStack_150;
-  Il2CppMethodPointer pIStack_148;
-  InvokerMethod pIStack_140;
-  char *pcStack_138;
-  Il2CppClass *pIStack_130;
-  Il2CppType *pIStack_128;
-  SimpleJSONFixed_JSONNode_o *pSStack_120;
-  System_String_o *pSStack_108;
-  MethodInfo_3104DF0 **ppMStack_100;
-  System_Collections_Generic_List_object__o *pSStack_f8;
-  System_Collections_Generic_HashSet_int__o *pSStack_f0;
-  MethodInfo *pMStack_e8;
-  SimpleJSONFixed_JSONNode_o *pSStack_e0;
-  undefined4 in_stack_ffffffffffffff28;
-  uint uVar61;
-  uint uVar62;
-  uint in_stack_ffffffffffffff34;
-  Il2CppMethodPointer local_78;
-  Il2CppMethodPointer pIStack_70;
-  InvokerMethod local_68;
-  char *pcStack_60;
-  Il2CppClass *local_58;
-  Il2CppType *pIStack_50;
-  SimpleJSONFixed_JSONNode_o *local_48;
+  uint uVar2;
+  System_Collections_Generic_List_Color255__o *__this;
+  Utility_Color255_array *pUVar3;
+  System_Collections_Generic_List_int__o *pSVar4;
+  MethodInfo *pMVar5;
+  bool bVar6;
+  int32_t iVar7;
+  int32_t tryEnd;
+  int32_t finallyStart;
+  int32_t finallyEnd;
+  System_String_o *pSVar8;
+  SimpleJSONFixed_JSONNode_o *pSVar9;
+  System_Xml_Schema_XmlSchema_o *pSVar10;
+  undefined8 uVar11;
+  longlong *plVar12;
+  undefined8 *puVar13;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar14;
+  Utility_Color255_o *__this_00;
+  System_Collections_Generic_HashSet_int__o *__this_01;
+  int item;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_f8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_a8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_98;
+  undefined1 local_88 [96];
   
-  if (g_data_057adfef == '\0') {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f0ea;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f0f6;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f102;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f10e;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f11a;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Contains);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f126;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_Int32);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f132;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_int);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f13e;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f14a;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f156;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f162;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f16e;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f17a;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f186;
-    il2cpp_runtime_helper_023445d0(&"HeadCount");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f192;
-    il2cpp_runtime_helper_023445d0(&"TitanSetupInfo");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f19e;
-    il2cpp_runtime_helper_023445d0(&"BodyCount");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f1aa;
-    il2cpp_runtime_helper_023445d0(&"HairColors");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f1b6;
-    il2cpp_runtime_helper_023445d0(&"EyeCount");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f1c2;
-    il2cpp_runtime_helper_023445d0(&"AIExcludedEyes");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f1ce;
-    il2cpp_runtime_helper_023445d0(&"HairF");
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f1da;
-    il2cpp_runtime_helper_023445d0(&"HairM");
-    g_data_057adfef = '\x01';
+  if (Il2CppMethodInitialized_184346e38 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color255_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"HeadCount");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanSetupInfo");
+    il2cpp_codegen_initialize_runtime_metadata(&"BodyCount");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairColors");
+    il2cpp_codegen_initialize_runtime_metadata(&"EyeCount");
+    il2cpp_codegen_initialize_runtime_metadata(&"AIExcludedEyes");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairF");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairM");
+    Il2CppMethodInitialized_184346e38 = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f229;
-    il2cpp_runtime_helper_02337ed0();
+  local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_f8.type = 0;
+  local_f8._4_4_ = 0;
+  local_f8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_f8.m_Object.fields._version = 0;
+  local_f8.m_Object.fields._index = 0;
+  local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._getEnumeratorRetType = 0;
+  local_f8.m_Object.fields._36_4_ = 0;
+  local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_f8.m_Array.fields._index = 0;
+  local_f8.m_Array.fields._version = 0;
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  pSVar34 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x10);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f24f;
-    il2cpp_runtime_helper_02337ed0();
+  pSVar8 = TypeInfo_Utility_ResourcePaths->static_fields->CharacterData;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f263;
-  pSVar34 = ApplicationManagers_ResourceManager__TryLoadText(pSVar34,"TitanSetupInfo",(MethodInfo *)0x0);
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f26d;
-  pSVar34 = (System_String_o *)SimpleJSONFixed_JSON__Parse(pSVar34,(MethodInfo *)0x0);
-  SVar16.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar16.key = pSVar34;
-  SVar15.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar15.key = pSVar34;
-  SVar14.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar14.key = pSVar34;
-  SVar13.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar13.key = pSVar34;
-  SVar12.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar12.key = pSVar34;
-  SVar11.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar11.key = pSVar34;
-  SVar10.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar10.key = pSVar34;
-  SVar9.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar9.key = pSVar34;
-  SVar8.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar8.key = pSVar34;
-  aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  aKeyValue.key = pSVar34;
-  if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f289;
-    il2cpp_runtime_helper_02337ed0();
+  pSVar8 = ApplicationManagers_ResourceManager__TryLoadText(pSVar8,"TitanSetupInfo",(MethodInfo *)0x0);
+  pSVar9 = SimpleJSONFixed_JSON__Parse(pSVar8,(MethodInfo *)0x0);
+  if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
   }
-  **(undefined8 **)(TypeInfo_BasicTitanSetup + 0xb8) = pSVar34;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f2aa;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BasicTitanSetup + 0xb8),pSVar34);
-  plVar35 = (long *)**(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-  if (plVar35 != (long *)0x0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f2db;
-    plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))(plVar35,"BodyCount",*(undefined8 *)(*plVar35 + 0x1b0));
-    aKeyValue = SVar8;
-    if (plVar35 != (long *)0x0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f2f7;
-      uVar30 = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-      plVar35 = *(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-      *(undefined4 *)(plVar35 + 1) = uVar30;
-      plVar35 = (long *)*plVar35;
-      aKeyValue = SVar9;
-      if (plVar35 != (long *)0x0) {
-        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f32b;
-        plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))
-                                    (plVar35,"HeadCount",*(undefined8 *)(*plVar35 + 0x1b0));
-        aKeyValue = SVar10;
-        if (plVar35 != (long *)0x0) {
-          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f347;
-          uVar30 = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-          plVar35 = *(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-          *(undefined4 *)((long)plVar35 + 0xc) = uVar30;
-          plVar35 = (long *)*plVar35;
-          aKeyValue = SVar11;
-          if (plVar35 != (long *)0x0) {
-            pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f37b;
-            plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))
-                                        (plVar35,"EyeCount",*(undefined8 *)(*plVar35 + 0x1b0));
-            aKeyValue = SVar12;
-            if (plVar35 != (long *)0x0) {
-              pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f397;
-              uVar30 = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-              plVar35 = *(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-              *(undefined4 *)(plVar35 + 2) = uVar30;
-              plVar35 = (long *)*plVar35;
-              aKeyValue = SVar13;
-              if (plVar35 != (long *)0x0) {
-                unaff_R14 = &"HairM";
-                pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f3cb;
-                plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))
-                                            (plVar35,"HairM",*(undefined8 *)(*plVar35 + 0x1b0));
-                aKeyValue = SVar14;
-                if (plVar35 != (long *)0x0) {
-                  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f3e7;
-                  uVar30 = (**(code **)(*plVar35 + 0x1e8))(plVar35,*(undefined8 *)(*plVar35 + 0x1f0));
-                  plVar35 = *(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-                  *(undefined4 *)((long)plVar35 + 0x14) = uVar30;
-                  plVar35 = (long *)*plVar35;
-                  aKeyValue = SVar15;
-                  if (plVar35 != (long *)0x0) {
-                    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f41b;
-                    plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))
-                                                (plVar35,"HairF",*(undefined8 *)(*plVar35 + 0x1b0));
-                    aKeyValue = SVar16;
-                    if (plVar35 != (long *)0x0) {
-                      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f437;
-                      uVar30 = (**(code **)(*plVar35 + 0x1e8))(plVar35);
-                      lVar48 = TypeInfo_BasicTitanSetup;
-                      *(undefined4 *)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x18) = uVar30;
-                      pSVar34 = (System_String_o *)0x0;
-                      unaff_R13 = &MethodInfo_Void_Add;
-                      unaff_R12 = &MethodInfo_Void_set_Item;
-                      uVar62 = 0;
-                      iVar49 = *(int *)(lVar48 + 0xe4);
-                      while( true ) {
-                        if (iVar49 == 0) {
-                          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f475;
-                          il2cpp_runtime_helper_02337ed0();
-                          lVar48 = TypeInfo_BasicTitanSetup;
-                        }
-                        SVar18.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-                        SVar18.key = pSVar34;
-                        SVar17.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-                        SVar17.key = pSVar34;
-                        aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-                        aKeyValue.key = pSVar34;
-                        if (*(int *)(*(long *)(lVar48 + 0xb8) + 0x14) <= (int)pSVar34) {
-                          pSVar34 = (System_String_o *)0x0;
-                          unaff_R14 = (System_String_o **)&stack0xffffffffffffff2c;
-                          uVar61 = 0;
-                          iVar49 = *(int *)(lVar48 + 0xe4);
-                          goto joined_r0x0431f5ef;
-                        }
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f495;
-                        pSVar36 = System_Int32__ToString((int32_t)&stack0xffffffffffffff30,(MethodInfo *)0x0);
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f4a2;
-                        unaff_R15 = (long *)System_String__Concat_3ae5ba0
-                                                      ("HairM",pSVar36,(MethodInfo *)0x0);
-                        if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-                          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f4b7;
-                          il2cpp_runtime_helper_02337ed0();
-                        }
-                        lVar48 = MethodInfo_Void_Add;
-                        pSVar41 = *(System_Collections_Generic_List_object__o **)
-                                   (*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x28);
-                        if (pSVar41 == (System_Collections_Generic_List_object__o *)0x0) break;
-                        piVar1 = &(pSVar41->fields)._version;
-                        *piVar1 = *piVar1 + 1;
-                        pSVar2 = (pSVar41->fields)._items;
-                        aKeyValue = SVar17;
-                        if (pSVar2 == (System_Object_array *)0x0) break;
-                        uVar61 = (pSVar41->fields)._size;
-                        if (uVar61 < (uint)pSVar2->max_length) {
-                          (pSVar41->fields)._size = uVar61 + 1;
-                          pSVar2->m_Items[(int)uVar61] = (Il2CppObject *)unaff_R15;
-                          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f508;
-                          il2cpp_runtime_helper_022b4080(pSVar2->m_Items + (int)uVar61,unaff_R15);
-                        }
-                        else {
-                          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f527;
-                          System_Collections_Generic_List_object___AddWithResize
-                                    (pSVar41,(Il2CppObject *)unaff_R15,
-                                     *(MethodInfo_362C220 **)
-                                      (*(long *)(*(long *)(lVar48 + 0x20) + 0xc0) + 0x70));
-                        }
-                        plVar35 = (long *)**(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-                        aKeyValue = SVar18;
-                        if (plVar35 == (long *)0x0) break;
-                        pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)
-                                 (*(long **)(TypeInfo_BasicTitanSetup + 0xb8))[4];
-                        aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)pSVar3;
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f555;
-                        plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))
-                                                    (plVar35,"HairM",*(undefined8 *)(*plVar35 + 0x1b0));
-                        if (plVar35 == (long *)0x0) break;
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f575;
-                        pSVar34 = (System_String_o *)
-                                  (**(code **)(*plVar35 + 0x188))
-                                            (plVar35,uVar62,*(undefined8 *)(*plVar35 + 400));
-                        aKeyValue.key = pSVar34;
-                        if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-                          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f590;
-                          il2cpp_runtime_helper_02337ed0();
-                        }
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f59a;
-                        pSVar34 = SimpleJSONFixed_JSONNode__op_Implicit_3f79b00
-                                            ((SimpleJSONFixed_JSONNode_o *)pSVar34,(MethodInfo *)0x0);
-                        if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-                        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f5b5;
-                        System_Collections_Generic_Dictionary_object__object___set_Item
-                                  (pSVar3,(Il2CppObject *)unaff_R15,(Il2CppObject *)pSVar34,MethodInfo_Void_set_Item);
-                        uVar62 = uVar62 + 1;
-                        pSVar34 = (System_String_o *)(ulong)uVar62;
-                        iVar49 = *(int *)(TypeInfo_BasicTitanSetup + 0xe4);
-                        lVar48 = TypeInfo_BasicTitanSetup;
-                      }
-                    }
+  TypeInfo_Characters_BasicTitanSetup->static_fields->Info = pSVar9;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->Info,pSVar9);
+  pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+  if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+     (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)(pSVar9,(MethodInfo *)"BodyCount"),
+     pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+    iVar7 = (*(code *)*(MethodInfo **)((longlong)&((Il2CppClass *)pSVar10->klass)->vtable[34].method + 8))
+                      (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+    TypeInfo_Characters_BasicTitanSetup->static_fields->BodyCount = iVar7;
+    pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+    if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+       (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)(pSVar9,(MethodInfo *)"HeadCount")
+       , pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+      iVar7 = (*(code *)*(MethodInfo **)((longlong)&((Il2CppClass *)pSVar10->klass)->vtable[34].method + 8))
+                        (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+      TypeInfo_Characters_BasicTitanSetup->static_fields->HeadCount = iVar7;
+      pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+      if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+         (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                              (pSVar9,(MethodInfo *)"EyeCount"),
+         pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+        iVar7 = (*(code *)*(MethodInfo **)((longlong)&((Il2CppClass *)pSVar10->klass)->vtable[34].method + 8))
+                          (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+        TypeInfo_Characters_BasicTitanSetup->static_fields->EyeCount = iVar7;
+        pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+        if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+           (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                (pSVar9,(MethodInfo *)"HairM"),
+           pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+          uVar11 = (*(pSVar10->klass->vtable)._11_get_NameAttribute.methodPtr)
+                             (pSVar10,*(MethodInfo **)
+                                       ((longlong)&(pSVar10->klass->vtable)._11_get_NameAttribute + 8));
+          TypeInfo_Characters_BasicTitanSetup->static_fields->HairMCount = (int32_t)uVar11;
+          pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+          if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+             (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                  (pSVar9,(MethodInfo *)"HairF"),
+             pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+            uVar11 = (*(pSVar10->klass->vtable)._11_get_NameAttribute.methodPtr)
+                               (pSVar10,*(MethodInfo **)
+                                         ((longlong)&(pSVar10->klass->vtable)._11_get_NameAttribute + 8));
+            TypeInfo_Characters_BasicTitanSetup->static_fields->HairFCount = (int32_t)uVar11;
+            Characters_BasicTitanSetup__LoadHairs("HairM",(MethodInfo *)0x0);
+            Characters_BasicTitanSetup__LoadHairs("HairF",(MethodInfo *)0x0);
+            pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+            if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+               ((pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                     (pSVar9,(MethodInfo *)"HairColors"),
+                pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0 &&
+                (plVar12 = (longlong *)
+                           (*(code *)*(MethodInfo **)
+                                      ((longlong)&((Il2CppClass *)pSVar10->klass)->vtable[44].method + 8))
+                                     (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[45].method),
+                plVar12 != (longlong *)0x0)))) {
+              puVar13 = (undefined8 *)(**(code **)(*plVar12 + 0x338))(local_88);
+              local_f8._0_8_ = *puVar13;
+              local_f8.m_Object.fields._dictionary =
+                   (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar13[1];
+              local_f8.m_Object.fields._8_8_ = puVar13[2];
+              local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar13[3];
+              local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar13[4];
+              local_f8.m_Object.fields._32_8_ = puVar13[5];
+              local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar13[6];
+              local_f8.m_Array.fields._8_8_ = puVar13[7];
+              local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar13[8];
+              bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+              item = 0;
+              if (bVar6) {
+                do {
+                  pSVar14 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                                      (&local_98,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_f8,
+                                       (MethodInfo *)0x0);
+                  pSVar8 = (pSVar14->fields).key;
+                  pSVar9 = (pSVar14->fields).value;
+                  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
                   }
+                  local_a8.fields.key = pSVar8;
+                  local_a8.fields.value = pSVar9;
+                  pSVar9 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_a8,(MethodInfo *)0x0);
+                  if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+                  }
+                  if (pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_18219f7d5;
+                  __this = TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairColors;
+                  pSVar10 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)(pSVar9,(MethodInfo *)0x0);
+                  if (pSVar10 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18219f7d5;
+                  iVar7 = (*(code *)((Il2CppClass *)pSVar10->klass)->vtable[35].methodPtr)
+                                    (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+                  pSVar10 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)(pSVar9,(MethodInfo *)0x1);
+                  if (pSVar10 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18219f7d5;
+                  tryEnd = (*(code *)((Il2CppClass *)pSVar10->klass)->vtable[35].methodPtr)
+                                     (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+                  pSVar10 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)(pSVar9,(MethodInfo *)0x2);
+                  if (pSVar10 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18219f7d5;
+                  finallyStart = (*(code *)((Il2CppClass *)pSVar10->klass)->vtable[35].methodPtr)
+                                           (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+                  pSVar10 = (*(pSVar9->klass->vtable)._5_get_Item.methodPtr)(pSVar9,(MethodInfo *)0x3);
+                  if (pSVar10 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18219f7d5;
+                  finallyEnd = (*(code *)((Il2CppClass *)pSVar10->klass)->vtable[35].methodPtr)
+                                         (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[35].method);
+                  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+                  Utility_Color255___ctor
+                            ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)__this_00,iVar7,tryEnd,
+                             finallyStart,finallyEnd,(MethodInfo *)0x0);
+                  pMVar5 = MethodInfo_System_Collections_Generic_List_Color255_Add;
+                  if (__this == (System_Collections_Generic_List_Color255__o *)0x0) goto label_18219f7d5;
+                  piVar1 = &(__this->fields)._version;
+                  *piVar1 = *piVar1 + 1;
+                  pUVar3 = (__this->fields)._items;
+                  if (pUVar3 == (Utility_Color255_array *)0x0) goto label_18219f7d5;
+                  uVar2 = (__this->fields)._size;
+                  if (uVar2 < (uint)pUVar3->max_length) {
+                    (__this->fields)._size = uVar2 + 1;
+                    if ((uint)pUVar3->max_length <= uVar2) {
+                      ThrowIndexOutOfRangeException();
+                    }
+                    pUVar3->m_Items[(int)uVar2] = __this_00;
+                    Il2CppCodeGenWriteBarrier(pUVar3->m_Items + (int)uVar2,__this_00);
+                  }
+                  else {
+                    System_Collections_Generic_List_object___AddWithResize
+                              ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)__this_00,
+                               (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+                  }
+                  bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                    ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+                } while (bVar6);
+              }
+              __this_01 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+              System_Collections_Generic_HashSet_int____ctor
+                        (__this_01,
+                         (MethodInfo_176CDF0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor);
+              if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+              }
+              pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+              if (((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+                  (pSVar10 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)
+                                       (pSVar9,(MethodInfo *)"AIExcludedEyes"),
+                  pSVar10 != (System_Xml_Schema_XmlSchema_o *)0x0)) &&
+                 (plVar12 = (longlong *)
+                            (*(code *)*(MethodInfo **)
+                                       ((longlong)&((Il2CppClass *)pSVar10->klass)->vtable[44].method + 8))
+                                      (pSVar10,((Il2CppClass *)pSVar10->klass)->vtable[45].method),
+                 plVar12 != (longlong *)0x0)) {
+                puVar13 = (undefined8 *)(**(code **)(*plVar12 + 0x338))(local_88);
+                local_f8._0_8_ = *puVar13;
+                local_f8.m_Object.fields._dictionary =
+                     (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar13[1];
+                local_f8.m_Object.fields._8_8_ = puVar13[2];
+                local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar13[3];
+                local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar13[4];
+                local_f8.m_Object.fields._32_8_ = puVar13[5];
+                local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar13[6];
+                local_f8.m_Array.fields._8_8_ = puVar13[7];
+                local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar13[8];
+                bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                  ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+                if (bVar6) {
+                  do {
+                    pSVar14 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                                        (&local_98,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_f8,
+                                         (MethodInfo *)0x0);
+                    pSVar8 = (pSVar14->fields).key;
+                    pSVar9 = (pSVar14->fields).value;
+                    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+                    }
+                    local_a8.fields.key = pSVar8;
+                    local_a8.fields.value = pSVar9;
+                    pSVar9 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_a8,(MethodInfo *)0x0);
+                    if ((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+                       (iVar7 = (*(pSVar9->klass->vtable)._35_get_AsInt.methodPtr)
+                                          (pSVar9,(pSVar9->klass->vtable)._35_get_AsInt.method),
+                       __this_01 == (System_Collections_Generic_HashSet_int__o *)0x0)) goto label_18219f7d5;
+                    System_Collections_Generic_HashSet_int___Add
+                              (__this_01,iVar7,
+                               (MethodInfo_1757D20 *)MethodInfo_System_Collections_Generic_HashSet_int_Add);
+                    bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                      ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0
+                                      );
+                  } while (bVar6);
                 }
+                do {
+                  if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+                  }
+                  if (TypeInfo_Characters_BasicTitanSetup->static_fields->EyeCount <= item) {
+                    return;
+                  }
+                  if (__this_01 == (System_Collections_Generic_HashSet_int__o *)0x0) break;
+                  bVar6 = System_Collections_Generic_HashSet_int___Contains
+                                    ((System_Collections_Generic_HashSet_T__o *)__this_01,item,
+                                     (MethodInfo_1759C90 *)
+                                     MethodInfo_System_Collections_Generic_HashSet_int_Contains);
+                  if (!bVar6) {
+                    if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+                    }
+                    pSVar4 = TypeInfo_Characters_BasicTitanSetup->static_fields->AIEyes;
+                    if (pSVar4 == (System_Collections_Generic_List_int__o *)0x0) break;
+                    il2cpp_runtime_helper_180026690(pSVar4,item,MethodInfo_System_Collections_Generic_List_int_Add);
+                  }
+                  item = item + 1;
+                } while( true );
               }
             }
           }
@@ -368,1381 +306,421 @@ void Characters_BasicTitanSetup__Init(MethodInfo *method)
       }
     }
   }
-label_0431fd1b:
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fd20;
-  pIVar39 = (Il2CppObject *)il2cpp_runtime_helper_022b2c90();
-  goto label_0431fd20;
-joined_r0x0431f5ef:
-  if (iVar49 == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f605;
-    il2cpp_runtime_helper_02337ed0();
-    lVar48 = TypeInfo_BasicTitanSetup;
-  }
-  plVar35 = &TypeInfo_BasicTitanSetup;
-  SVar23.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar23.key = pSVar34;
-  SVar22.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar22.key = pSVar34;
-  aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  aKeyValue.key = pSVar34;
-  SVar21.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar21.key = pSVar34;
-  SVar20.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar20.key = pSVar34;
-  SVar19.value = (SimpleJSONFixed_JSONNode_o *)&TypeInfo_BasicTitanSetup;
-  SVar19.key = pSVar34;
-  if (*(int *)(*(long *)(lVar48 + 0xb8) + 0x18) <= (int)pSVar34) {
-    if (*(int *)(lVar48 + 0xe4) == 0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f782;
-      il2cpp_runtime_helper_02337ed0();
-      lVar48 = TypeInfo_BasicTitanSetup;
-    }
-    plVar37 = (long *)**(long **)(lVar48 + 0xb8);
-    if (plVar37 != (long *)0x0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f7b3;
-      plVar37 = (long *)(**(code **)(*plVar37 + 0x1a8))
-                                  (plVar37,"HairColors",*(undefined8 *)(*plVar37 + 0x1b0));
-      aKeyValue = SVar22;
-      if (plVar37 != (long *)0x0) {
-        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f7cf;
-        plVar37 = (long *)(**(code **)(*plVar37 + 0x408))(plVar37,*(undefined8 *)(*plVar37 + 0x410));
-        aKeyValue = SVar23;
-        if (plVar37 != (long *)0x0) {
-          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f7f0;
-          (**(code **)(*plVar37 + 0x338))(&local_78,plVar37,*(undefined8 *)(*plVar37 + 0x340));
-          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f837;
-          __this_05.fields._4_4_ = uVar61;
-          __this_05.fields.type = in_stack_ffffffffffffff28;
-          __this_05.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-          __this_05.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-          __this_05.fields.m_Object.fields._8_8_ = local_78;
-          __this_05.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_70;
-          __this_05.fields.m_Object.fields._current.fields.value = (Il2CppObject *)local_68;
-          __this_05.fields.m_Object.fields._32_8_ = pcStack_60;
-          __this_05.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)local_58;
-          __this_05.fields.m_Array.fields._8_8_ = pIStack_50;
-          __this_05.fields.m_Array.fields._current = local_48;
-          pIVar55 = local_78;
-          pIVar56 = pIStack_70;
-          pIVar57 = local_68;
-          pcVar58 = pcStack_60;
-          pIVar47 = local_58;
-          pIVar60 = pIStack_50;
-          pSVar50 = local_48;
-          bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
-                             (__this_05,(MethodInfo *)&stack0xffffffffffffff38);
-          if ((char)bVar32 == '\0') goto label_0431fa3e;
-          unaff_R15 = (long *)&stack0xffffffffffffff38;
-          goto label_0431f87c;
-        }
-      }
-    }
-    goto label_0431fd1b;
-  }
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f623;
-  pSVar36 = System_Int32__ToString((int32_t)unaff_R14,(MethodInfo *)0x0);
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f637;
-  unaff_R15 = (long *)System_String__Concat_3ae5ba0("HairF",pSVar36,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f64c;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar48 = MethodInfo_Void_Add;
-  pSVar41 = *(System_Collections_Generic_List_object__o **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x28);
-  aKeyValue = SVar19;
-  if (pSVar41 == (System_Collections_Generic_List_object__o *)0x0) goto label_0431fd1b;
-  piVar1 = &(pSVar41->fields)._version;
-  *piVar1 = *piVar1 + 1;
-  pSVar2 = (pSVar41->fields)._items;
-  aKeyValue = SVar20;
-  if (pSVar2 == (System_Object_array *)0x0) goto label_0431fd1b;
-  uVar31 = (pSVar41->fields)._size;
-  if (uVar31 < (uint)pSVar2->max_length) {
-    (pSVar41->fields)._size = uVar31 + 1;
-    pSVar2->m_Items[(int)uVar31] = (Il2CppObject *)unaff_R15;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f69d;
-    il2cpp_runtime_helper_022b4080(pSVar2->m_Items + (int)uVar31,unaff_R15);
-  }
-  else {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f6b7;
-    System_Collections_Generic_List_object___AddWithResize
-              (pSVar41,(Il2CppObject *)unaff_R15,
-               *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar48 + 0x20) + 0xc0) + 0x70));
-  }
-  plVar35 = (long *)**(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-  aKeyValue = SVar21;
-  if (plVar35 == (long *)0x0) goto label_0431fd1b;
-  pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)(*(long **)(TypeInfo_BasicTitanSetup + 0xb8))[4];
-  aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)pSVar3;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f6ec;
-  plVar35 = (long *)(**(code **)(*plVar35 + 0x1a8))(plVar35,"HairF",*(undefined8 *)(*plVar35 + 0x1b0));
-  if (plVar35 == (long *)0x0) goto label_0431fd1b;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f70c;
-  pSVar34 = (System_String_o *)(**(code **)(*plVar35 + 0x188))(plVar35,uVar61,*(undefined8 *)(*plVar35 + 400))
-  ;
-  aKeyValue.key = pSVar34;
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f727;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f731;
-  pSVar34 = SimpleJSONFixed_JSONNode__op_Implicit_3f79b00
-                      ((SimpleJSONFixed_JSONNode_o *)pSVar34,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_0431fd1b;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f74c;
-  System_Collections_Generic_Dictionary_object__object___set_Item
-            (pSVar3,(Il2CppObject *)unaff_R15,(Il2CppObject *)pSVar34,MethodInfo_Void_set_Item);
-  uVar61 = uVar61 + 1;
-  pSVar34 = (System_String_o *)(ulong)uVar61;
-  iVar49 = *(int *)(TypeInfo_BasicTitanSetup + 0xe4);
-  lVar48 = TypeInfo_BasicTitanSetup;
-  goto joined_r0x0431f5ef;
-  while( true ) {
-    unaff_R13 = *(long **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x38);
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f8f9;
-    plVar35 = (long *)(*(pSVar38->klass->vtable)._5_get_Item.methodPtr)
-                                (pSVar38,0,(pSVar38->klass->vtable)._5_get_Item.method);
-    aKeyValue = SVar24;
-    if (plVar35 == (long *)0x0) goto label_0431fd1b;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f915;
-    in_stack_ffffffffffffff34 = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-    SVar25.value = pSVar38;
-    SVar25.key = (System_String_o *)(ulong)in_stack_ffffffffffffff34;
-    aKeyValue.key = (System_String_o *)(ulong)in_stack_ffffffffffffff34;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f930;
-    plVar35 = (long *)(*(pSVar38->klass->vtable)._5_get_Item.methodPtr)
-                                (pSVar38,1,(pSVar38->klass->vtable)._5_get_Item.method);
-    if (plVar35 == (long *)0x0) goto label_0431fd1b;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f950;
-    uVar31 = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-    unaff_R12 = (MethodInfo_3104DF0 **)(ulong)uVar31;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f96c;
-    plVar35 = (long *)(*(pSVar38->klass->vtable)._5_get_Item.methodPtr)
-                                (pSVar38,2,(pSVar38->klass->vtable)._5_get_Item.method);
-    aKeyValue = SVar25;
-    if (plVar35 == (long *)0x0) goto label_0431fd1b;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f988;
-    b = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-    pSVar34 = (System_String_o *)(ulong)b;
-    aKeyValue.key = pSVar34;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f9a3;
-    plVar35 = (long *)(*(pSVar38->klass->vtable)._5_get_Item.methodPtr)
-                                (pSVar38,3,(pSVar38->klass->vtable)._5_get_Item.method);
-    if (plVar35 == (long *)0x0) goto label_0431fd1b;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f9bf;
-    a = (**(code **)(*plVar35 + 0x368))(plVar35,*(undefined8 *)(*plVar35 + 0x370));
-    unaff_R14 = (System_String_o **)(ulong)a;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f9d1;
-    plVar35 = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-    SVar26.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-    SVar26.key = pSVar34;
-    aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f9eb;
-    in_R8 = (System_Collections_Generic_HashSet_int__o *)unaff_R14;
-    Utility_Color255___ctor
-              ((Utility_Color255_o *)plVar35,in_stack_ffffffffffffff34,uVar31,b,a,(MethodInfo *)0x0);
-    lVar48 = MethodInfo_Void_Add;
-    if ((System_Collections_Generic_List_object__o *)unaff_R13 ==
-        (System_Collections_Generic_List_object__o *)0x0) goto label_0431fd1b;
-    piVar1 = &(((System_Collections_Generic_List_object__o *)unaff_R13)->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar2 = (((System_Collections_Generic_List_object__o *)unaff_R13)->fields)._items;
-    aKeyValue = SVar26;
-    if (pSVar2 == (System_Object_array *)0x0) goto label_0431fd1b;
-    uVar31 = (((System_Collections_Generic_List_object__o *)unaff_R13)->fields)._size;
-    if (uVar31 < (uint)pSVar2->max_length) {
-      (((System_Collections_Generic_List_object__o *)unaff_R13)->fields)._size = uVar31 + 1;
-      pSVar2->m_Items[(int)uVar31] = (Il2CppObject *)plVar35;
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fa39;
-      il2cpp_runtime_helper_022b4080(pSVar2->m_Items + (int)uVar31,plVar35);
-    }
-    else {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f86a;
-      System_Collections_Generic_List_object___AddWithResize
-                ((System_Collections_Generic_List_object__o *)unaff_R13,(Il2CppObject *)plVar35,
-                 *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar48 + 0x20) + 0xc0) + 0x70));
-    }
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f874;
-    __this_06.fields._4_4_ = uVar61;
-    __this_06.fields.type = in_stack_ffffffffffffff28;
-    __this_06.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-    __this_06.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-    __this_06.fields.m_Object.fields._8_8_ = pIVar55;
-    __this_06.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-    __this_06.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-    __this_06.fields.m_Object.fields._32_8_ = pcVar58;
-    __this_06.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar47;
-    __this_06.fields.m_Array.fields._8_8_ = pIVar60;
-    __this_06.fields.m_Array.fields._current = pSVar50;
-    bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_06,(MethodInfo *)unaff_R15);
-    if ((char)bVar32 == '\0') break;
-label_0431f87c:
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f886;
-    __this_07.fields._4_4_ = uVar61;
-    __this_07.fields.type = in_stack_ffffffffffffff28;
-    __this_07.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-    __this_07.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-    __this_07.fields.m_Object.fields._8_8_ = pIVar55;
-    __this_07.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-    __this_07.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-    __this_07.fields.m_Object.fields._32_8_ = pcVar58;
-    __this_07.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar47;
-    __this_07.fields.m_Array.fields._8_8_ = pIVar60;
-    __this_07.fields.m_Array.fields._current = pSVar50;
-    SVar53 = SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_07,(MethodInfo *)unaff_R15);
-    if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f8a4;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f8b1;
-    pSVar38 = SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar53,(MethodInfo *)0x0);
-    SVar24.value = pSVar38;
-    SVar24.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-    aKeyValue.value = pSVar38;
-    aKeyValue.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-    if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431f8cc;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (pSVar38 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_0431fd1b;
-  }
-label_0431fa3e:
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fa4d;
-  unaff_R14 = (System_String_o **)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_int);
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fa62;
-  System_Collections_Generic_HashSet_int____ctor
-            ((System_Collections_Generic_HashSet_int__o *)unaff_R14,MethodInfo_HashSet_1_System_Int32);
-  SVar28.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-  SVar28.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-  SVar27.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-  SVar27.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-  aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-  aKeyValue.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-  if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fa7a;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  plVar37 = (long *)**(long **)(TypeInfo_BasicTitanSetup + 0xb8);
-  if (plVar37 == (long *)0x0) goto label_0431fd1b;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431faaa;
-  plVar37 = (long *)(**(code **)(*plVar37 + 0x1a8))(plVar37,"AIExcludedEyes",*(undefined8 *)(*plVar37 + 0x1b0));
-  aKeyValue = SVar27;
-  if (plVar37 == (long *)0x0) goto label_0431fd1b;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fac6;
-  plVar37 = (long *)(**(code **)(*plVar37 + 0x408))(plVar37,*(undefined8 *)(*plVar37 + 0x410));
-  aKeyValue = SVar28;
-  if (plVar37 == (long *)0x0) goto label_0431fd1b;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fae7;
-  (**(code **)(*plVar37 + 0x338))(&local_78,plVar37,*(undefined8 *)(*plVar37 + 0x340));
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fb2e;
-  __this_08.fields._4_4_ = uVar61;
-  __this_08.fields.type = in_stack_ffffffffffffff28;
-  __this_08.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-  __this_08.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-  __this_08.fields.m_Object.fields._8_8_ = local_78;
-  __this_08.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_70;
-  __this_08.fields.m_Object.fields._current.fields.value = (Il2CppObject *)local_68;
-  __this_08.fields.m_Object.fields._32_8_ = pcStack_60;
-  __this_08.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)local_58;
-  __this_08.fields.m_Array.fields._8_8_ = pIStack_50;
-  __this_08.fields.m_Array.fields._current = local_48;
-  bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_08,(MethodInfo *)&stack0xffffffffffffff38);
-  if ((char)bVar32 == '\0') {
-label_0431fbbd:
-    if ((System_Collections_Generic_HashSet_int__o *)unaff_R14 !=
-        (System_Collections_Generic_HashSet_int__o *)0x0) {
-      pSVar50 = (SimpleJSONFixed_JSONNode_o *)0x0;
-      unaff_R15 = &MethodInfo_Void_Add;
-      iVar49 = *(int *)(TypeInfo_BasicTitanSetup + 0xe4);
-      do {
-        if (iVar49 == 0) {
-          pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fc21;
-          il2cpp_runtime_helper_02337ed0();
-        }
-        iVar49 = (int)pSVar50;
-        if (*(int *)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x10) <= iVar49) {
-          return;
-        }
-        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fc42;
-        bVar32 = System_Collections_Generic_HashSet_int___Contains
-                           ((System_Collections_Generic_HashSet_int__o *)unaff_R14,iVar49,MethodInfo_Boolean_Contains);
-        if ((char)bVar32 == '\0') {
-          SVar29.value = pSVar50;
-          SVar29.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-          aKeyValue.value = pSVar50;
-          aKeyValue.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-          if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-            pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fc5e;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          lVar48 = MethodInfo_Void_Add;
-          __this = *(System_Collections_Generic_List_int__o **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x30);
-          unaff_R12 = (MethodInfo_3104DF0 **)&MethodInfo_Boolean_Contains;
-          if (__this == (System_Collections_Generic_List_int__o *)0x0) goto label_0431fd1b;
-          piVar1 = &(__this->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pSVar4 = (__this->fields)._items;
-          aKeyValue = SVar29;
-          if (pSVar4 == (System_Int32_array *)0x0) goto label_0431fd1b;
-          uVar62 = (__this->fields)._size;
-          if (uVar62 < (uint)pSVar4->max_length) {
-            (__this->fields)._size = uVar62 + 1;
-            pSVar4->m_Items[(int)uVar62] = iVar49;
-          }
-          else {
-            pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fc06;
-            System_Collections_Generic_List_int___AddWithResize
-                      (__this,iVar49,
-                       *(MethodInfo_35FDFF0 **)(*(long *)(*(long *)(lVar48 + 0x20) + 0xc0) + 0x70));
-          }
-        }
-        pSVar50 = (SimpleJSONFixed_JSONNode_o *)(ulong)(iVar49 + 1);
-        iVar49 = *(int *)(TypeInfo_BasicTitanSetup + 0xe4);
-      } while( true );
-    }
-    aKeyValue.value = (SimpleJSONFixed_JSONNode_o *)plVar35;
-    aKeyValue.key = (System_String_o *)&TypeInfo_BasicTitanSetup;
-    if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fcbd;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (*(int *)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x10) < 1) {
-      return;
-    }
-    goto label_0431fd1b;
-  }
-  if ((System_Collections_Generic_HashSet_int__o *)unaff_R14 !=
-      (System_Collections_Generic_HashSet_int__o *)0x0) {
-    unaff_R15 = (long *)&stack0xffffffffffffff38;
-    pIVar55 = local_78;
-    pIVar56 = pIStack_70;
-    pIVar57 = local_68;
-    pcVar58 = pcStack_60;
-    pIVar47 = local_58;
-    pIVar60 = pIStack_50;
-    pSVar50 = local_48;
-    do {
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fb5a;
-      __this_09.fields._4_4_ = uVar61;
-      __this_09.fields.type = in_stack_ffffffffffffff28;
-      __this_09.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-      __this_09.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-      __this_09.fields.m_Object.fields._8_8_ = pIVar55;
-      __this_09.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-      __this_09.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-      __this_09.fields.m_Object.fields._32_8_ = pcVar58;
-      __this_09.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar47;
-      __this_09.fields.m_Array.fields._8_8_ = pIVar60;
-      __this_09.fields.m_Array.fields._current = pSVar50;
-      aKeyValue = (System_Collections_Generic_KeyValuePair_string__JSONNode__Fields)
-                  SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_09,(MethodInfo *)unaff_R15);
-      plVar35 = (long *)aKeyValue.value;
-      if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-        pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fb78;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fb85;
-      pSVar38 = SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0
-                          ((System_Collections_Generic_KeyValuePair_string__JSONNode__o)aKeyValue,
-                           (MethodInfo *)0x0);
-      unaff_R12 = (MethodInfo_3104DF0 **)&MethodInfo_Boolean_Add;
-      if (pSVar38 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_0431fd1b;
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fba1;
-      iVar33 = (*(pSVar38->klass->vtable)._35_get_AsInt.methodPtr)
-                         (pSVar38,(pSVar38->klass->vtable)._35_get_AsInt.method);
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fbaf;
-      System_Collections_Generic_HashSet_int___Add
-                ((System_Collections_Generic_HashSet_int__o *)unaff_R14,iVar33,MethodInfo_Boolean_Add);
-      pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fbb9;
-      __this_10.fields._4_4_ = uVar61;
-      __this_10.fields.type = in_stack_ffffffffffffff28;
-      __this_10.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-      __this_10.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-      __this_10.fields.m_Object.fields._8_8_ = pIVar55;
-      __this_10.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-      __this_10.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-      __this_10.fields.m_Object.fields._32_8_ = pcVar58;
-      __this_10.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar47;
-      __this_10.fields.m_Array.fields._8_8_ = pIVar60;
-      __this_10.fields.m_Array.fields._current = pSVar50;
-      bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_10,(MethodInfo *)unaff_R15);
-    } while ((char)bVar32 != '\0');
-    goto label_0431fbbd;
-  }
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fceb;
-  __this_11.fields._4_4_ = uVar61;
-  __this_11.fields.type = in_stack_ffffffffffffff28;
-  __this_11.fields.m_Object.fields._dictionary._0_4_ = uVar62;
-  __this_11.fields.m_Object.fields._dictionary._4_4_ = in_stack_ffffffffffffff34;
-  __this_11.fields.m_Object.fields._8_8_ = local_78;
-  __this_11.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_70;
-  __this_11.fields.m_Object.fields._current.fields.value = (Il2CppObject *)local_68;
-  __this_11.fields.m_Object.fields._32_8_ = pcStack_60;
-  __this_11.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)local_58;
-  __this_11.fields.m_Array.fields._8_8_ = pIStack_50;
-  __this_11.fields.m_Array.fields._current = local_48;
-  aKeyValue = (System_Collections_Generic_KeyValuePair_string__JSONNode__Fields)
-              SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                        (__this_11,(MethodInfo *)&stack0xffffffffffffff38);
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fd09;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fd16;
-  pIVar39 = (Il2CppObject *)
-            SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0
-                      ((System_Collections_Generic_KeyValuePair_string__JSONNode__o)aKeyValue,
-                       (MethodInfo *)0x0);
-  if (pIVar39 == (Il2CppObject *)0x0) goto label_0431fd1b;
-label_0431fd20:
-  pIVar47 = pIVar39->klass;
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fd33;
-  (*pIVar47->vtable[0x23].methodPtr)(pIVar39,pIVar47->vtable[0x23].method);
-  pSStack_e0 = (SimpleJSONFixed_JSONNode_o *)0x431fd38;
-  il2cpp_runtime_helper_022b2c90();
-  ppMStack_100 = unaff_R12;
-  pSStack_f8 = (System_Collections_Generic_List_object__o *)unaff_R13;
-  pSStack_f0 = (System_Collections_Generic_HashSet_int__o *)unaff_R14;
-  pMStack_e8 = (MethodInfo *)unaff_R15;
-  if (g_data_057adff0 == '\0') {
-    pSStack_108 = aKeyValue.key;
-    pSStack_e0 = aKeyValue.value;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterData);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_JSONNode_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Single);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_float);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"Chance");
-    il2cpp_runtime_helper_023445d0(&"Body");
-    il2cpp_runtime_helper_023445d0(&"Titan");
-    il2cpp_runtime_helper_023445d0(&"Head");
-    il2cpp_runtime_helper_023445d0(&"Default");
-    il2cpp_runtime_helper_023445d0(&"BodyHeadCombos");
-    aKeyValue.value = pSStack_e0;
-    aKeyValue.key = pSStack_108;
-    g_data_057adff0 = '\x01';
-  }
-  pSStack_e0 = aKeyValue.value;
-  pSStack_108 = aKeyValue.key;
-  pSVar50 = (SimpleJSONFixed_JSONNode_o *)0x0;
-  pIVar59 = (Il2CppClass *)0x0;
-  pIVar60 = (Il2CppType *)0x0;
-  pIVar57 = (InvokerMethod)0x0;
-  pcVar58 = (char *)0x0;
-  pIVar55 = (Il2CppMethodPointer)0x0;
-  pIVar56 = (Il2CppMethodPointer)0x0;
-  lVar40 = il2cpp_runtime_helper_022b2a40(TypeInfo_int);
-  cVar51 = (char)in_R8;
-  lVar48 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x50);
-  pIVar46 = pIVar47;
-  item = pIVar39;
-  if (((lVar48 == 0) || (lVar48 = *(long *)(lVar48 + 0x50), lVar48 == 0)) ||
-     (lVar48 = *(long *)(lVar48 + 0xa0), lVar48 == 0)) goto label_043202d7;
-  if (*(char *)(lVar48 + 0x11) != '\0') {
-    if (lVar40 == 0) goto label_043202d7;
-    iVar49 = *(int *)(lVar40 + 0x18);
-    if (iVar49 != 0) {
-      *(undefined4 *)(lVar40 + 0x20) = 0;
-      uVar30 = 0;
-      if (iVar49 != 1) goto label_043202bf;
-    }
-    goto label_043202dc;
-  }
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar32 = SimpleJSONFixed_JSONNode__op_Equality
-                     ((SimpleJSONFixed_JSONNode_o *)pIVar39,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar32 == '\0') {
-label_0431ff88:
-    cVar51 = (char)in_R8;
-    pIVar46 = pIVar47;
-    item = (Il2CppObject *)0x0;
-    if (pIVar39 == (Il2CppObject *)0x0) goto label_043202d7;
-    item = (Il2CppObject *)
-           (*pIVar39->klass->vtable[7].methodPtr)(pIVar39,"BodyHeadCombos",pIVar39->klass->vtable[7].method);
-    pSVar41 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_object);
-    System_Collections_Generic_List_object____ctor(pSVar41,MethodInfo_List_1_System_Object);
-    __this_12 = (System_Collections_Generic_List_float__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_float);
-    System_Collections_Generic_List_float____ctor(__this_12,MethodInfo_List_1_System_Single);
-    cVar51 = (char)in_R8;
-    pIVar46 = pIVar47;
-    in_stack_fffffffffffffe58 = lVar40;
-    if (item == (Il2CppObject *)0x0) goto label_043202d7;
-    (*item->klass->vtable[0x20].methodPtr)(&pIStack_150,item,item->klass->vtable[0x20].method);
-    __this_01.fields.m_Object.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)lVar40;
-    __this_01.fields._0_8_ = in_stack_fffffffffffffe50;
-    __this_01.fields.m_Object.fields._8_8_ = pIStack_150;
-    __this_01.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_148;
-    __this_01.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIStack_140;
-    __this_01.fields.m_Object.fields._32_8_ = pcStack_138;
-    __this_01.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIStack_130;
-    __this_01.fields.m_Array.fields._8_8_ = pIStack_128;
-    __this_01.fields.m_Array.fields._current = pSStack_120;
-    bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_01,(MethodInfo *)&stack0xfffffffffffffe60);
-    cVar51 = (char)in_R8;
-    bVar45 = (byte)pIVar47;
-    pIVar55 = pIStack_150;
-    pIVar56 = pIStack_148;
-    pIVar57 = pIStack_140;
-    pcVar58 = pcStack_138;
-    pIVar59 = pIStack_130;
-    pIVar60 = pIStack_128;
-    pSVar50 = pSStack_120;
-    if ((char)bVar32 == '\0') {
-label_043201d9:
-      pIVar46 = pIVar47;
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pIVar46 = pIVar47;
-      }
-      pIVar39 = Utility_Util__GetRandomFromWeightedList(pSVar41,__this_12,(MethodInfo *)0x0);
-      in_stack_fffffffffffffe58 = lVar40;
-      if (pIVar39 == (Il2CppObject *)0x0) goto label_043202d7;
-      bVar45 = (TypeInfo_JSONNode->_2).naturalAligment;
-      pIVar46 = (Il2CppClass *)(ulong)bVar45;
-      if ((bVar45 <= (pIVar39->klass->_2).naturalAligment) &&
-         ((pIVar39->klass->_2).typeHierarchy[(long)((long)&pIVar46[-1].vtable[0xfe].method + 7)] ==
-          TypeInfo_JSONNode)) {
-        plVar35 = (long *)(*pIVar39->klass->vtable[7].methodPtr)
-                                    (pIVar39,"Body",pIVar39->klass->vtable[7].method);
-        item = pIVar39;
-        if (plVar35 == (long *)0x0) goto label_043202d7;
-        pIVar46 = (Il2CppClass *)*plVar35;
-        uVar30 = (*pIVar46->vtable[0x23].methodPtr)(plVar35,pIVar46->vtable[0x23].method);
-        iVar49 = (int)pIVar46;
-        if (lVar40 == 0) goto label_043202d7;
-        if (*(int *)(lVar40 + 0x18) != 0) {
-          *(undefined4 *)(lVar40 + 0x20) = uVar30;
-          plVar35 = (long *)(*pIVar39->klass->vtable[7].methodPtr)
-                                      (pIVar39,"Head",pIVar39->klass->vtable[7].method);
-          if (plVar35 == (long *)0x0) goto label_043202d7;
-          lVar48 = *plVar35;
-          uVar30 = (**(code **)(lVar48 + 0x368))(plVar35,*(undefined8 *)(lVar48 + 0x370));
-          iVar49 = (int)lVar48;
-          if (1 < *(uint *)(lVar40 + 0x18)) {
-label_043202bf:
-            *(undefined4 *)(lVar40 + 0x24) = uVar30;
-            return;
-          }
-        }
-        goto label_043202dc;
-      }
-      goto label_043202e1;
-    }
-    if (pSVar41 != (System_Collections_Generic_List_object__o *)0x0) {
-      do {
-        __this_03.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)lVar40;
-        __this_03.fields._0_8_ = in_stack_fffffffffffffe50;
-        __this_03.fields.m_Object.fields._8_8_ = pIVar55;
-        __this_03.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-        __this_03.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-        __this_03.fields.m_Object.fields._32_8_ = pcVar58;
-        __this_03.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar59;
-        __this_03.fields.m_Array.fields._8_8_ = pIVar60;
-        __this_03.fields.m_Array.fields._current = pSVar50;
-        SVar53 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                           (__this_03,(MethodInfo *)&stack0xfffffffffffffe60);
-        if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        item = (Il2CppObject *)SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar53,(MethodInfo *)0x0);
-        pIVar46 = MethodInfo_Void_Add;
-        cVar51 = (char)in_R8;
-        piVar1 = &(pSVar41->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar2 = (pSVar41->fields)._items;
-        in_stack_fffffffffffffe58 = lVar40;
-        if (pSVar2 == (System_Object_array *)0x0) goto label_043202d7;
-        uVar62 = (pSVar41->fields)._size;
-        if (uVar62 < (uint)pSVar2->max_length) {
-          pIVar46 = (Il2CppClass *)(ulong)(uVar62 + 1);
-          (pSVar41->fields)._size = uVar62 + 1;
-          pSVar2->m_Items[(int)uVar62] = item;
-          il2cpp_runtime_helper_022b4080(pSVar2->m_Items + (int)uVar62,item);
-          cVar51 = (char)in_R8;
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar41,item,
-                     *(MethodInfo_362C220 **)(*(long *)((long)(pIVar46->_1).byval_arg.data + 0xc0) + 0x70));
-          cVar51 = (char)in_R8;
-        }
-        in_stack_fffffffffffffe58 = lVar40;
-        if (item == (Il2CppObject *)0x0) goto label_043202d7;
-        plVar35 = (long *)(*item->klass->vtable[7].methodPtr)(item,"Chance",item->klass->vtable[7].method)
-        ;
-        cVar51 = (char)in_R8;
-        in_stack_fffffffffffffe58 = lVar40;
-        if (plVar35 == (long *)0x0) goto label_043202d7;
-        pIVar46 = (Il2CppClass *)*plVar35;
-        fVar52 = (float)(*pIVar46->vtable[0x25].methodPtr)(plVar35,pIVar46->vtable[0x25].method);
-        pIVar47 = MethodInfo_Void_Add;
-        cVar51 = (char)in_R8;
-        in_stack_fffffffffffffe58 = lVar40;
-        if (__this_12 == (System_Collections_Generic_List_float__o *)0x0) goto label_043202d7;
-        piVar1 = &(__this_12->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_12->fields)._items;
-        pIVar46 = pIVar47;
-        if (pSVar5 == (System_Single_array *)0x0) goto label_043202d7;
-        uVar62 = (__this_12->fields)._size;
-        if (uVar62 < (uint)pSVar5->max_length) {
-          pIVar47 = (Il2CppClass *)(ulong)(uVar62 + 1);
-          (__this_12->fields)._size = uVar62 + 1;
-          pSVar5->m_Items[(int)uVar62] = fVar52;
-        }
-        else {
-          System_Collections_Generic_List_float___AddWithResize
-                    (__this_12,fVar52,
-                     *(MethodInfo_36649C0 **)(*(long *)((long)(pIVar47->_1).byval_arg.data + 0xc0) + 0x70));
-        }
-        __this_02.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)lVar40;
-        __this_02.fields._0_8_ = in_stack_fffffffffffffe50;
-        __this_02.fields.m_Object.fields._8_8_ = pIVar55;
-        __this_02.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar56;
-        __this_02.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar57;
-        __this_02.fields.m_Object.fields._32_8_ = pcVar58;
-        __this_02.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar59;
-        __this_02.fields.m_Array.fields._8_8_ = pIVar60;
-        __this_02.fields.m_Array.fields._current = pSVar50;
-        bVar32 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
-                           (__this_02,(MethodInfo *)&stack0xfffffffffffffe60);
-        cVar51 = (char)in_R8;
-      } while ((char)bVar32 != '\0');
-      goto label_043201d9;
-    }
-  }
-  else {
-    if (*(int *)(TypeInfo_CharacterData + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    cVar51 = (char)in_R8;
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_CharacterData + 0xb8) + 8)
+label_18219f7d5:
+  ThrowNullReferenceException();
+}
+
+
+// Characters.BasicTitanSetup$$LoadHairs
+// il2cpp: void Characters_BasicTitanSetup__LoadHairs (System_String_o* key, const MethodInfo* method);
+// 0x18219f7e0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18219f983: nop dword ptr [rax]
+// asm:   0x18219f987: nop word ptr [rax + rax]
+
+void Characters_BasicTitanSetup__LoadHairs(System_String_o *key,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  System_Collections_Generic_List_string__o *pSVar2;
+  System_String_array *pSVar3;
+  System_Collections_Generic_Dictionary_object__object__o *__this;
+  bool bVar4;
+  System_Collections_Generic_HashSet_string__o *__this_00;
+  MethodInfo *pMVar5;
+  System_Xml_Schema_XmlSchema_o *pSVar6;
+  undefined8 *puVar7;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar8;
+  SimpleJSONFixed_JSONNode_o *pSVar9;
+  System_String_o *pSVar10;
+  System_String_o *value;
+  uint uVar11;
+  uint local_res8 [2];
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_d8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_88;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_78;
+  undefined1 local_68 [96];
+  
+  if (Il2CppMethodInitialized_184346e39 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitanSetup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Contains)
     ;
-    pIVar46 = pIVar47;
-    item = (Il2CppObject *)&TypeInfo_CharacterData;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pIVar39 = System_Collections_Generic_Dictionary_object__object___get_Item
-                          (pSVar3,"Titan",MethodInfo_JSONNode_get_Item);
-      cVar51 = (char)in_R8;
-      pIVar46 = pIVar47;
-      if (pIVar39 != (Il2CppObject *)0x0) {
-        pIVar47 = pIVar39->klass;
-        pIVar39 = (Il2CppObject *)
-                  (*pIVar47->vtable[7].methodPtr)(pIVar39,"Default",pIVar47->vtable[7].method);
-        goto label_0431ff88;
-      }
-    }
-label_043202d7:
-    iVar49 = (int)pIVar46;
-    il2cpp_runtime_helper_022b2c90();
-    pIVar39 = item;
-label_043202dc:
-    bVar45 = (byte)iVar49;
-    il2cpp_runtime_helper_022b2ca0();
-    lVar40 = in_stack_fffffffffffffe58;
-label_043202e1:
-    il2cpp_runtime_helper_022b2fd0(pIVar39);
-    pIStack_150 = pIVar55;
-    pIStack_148 = pIVar56;
-    pIStack_140 = pIVar57;
-    pcStack_138 = pcVar58;
-    pIStack_130 = pIVar59;
-    pIStack_128 = pIVar60;
-    pSStack_120 = pSVar50;
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&"AIExcluded");
+    Il2CppMethodInitialized_184346e39 = '\x01';
   }
-  __this_04.fields.m_Object.fields._dictionary =
-       (System_Collections_Generic_Dictionary_TKey__TValue__o *)lVar40;
-  __this_04.fields._0_8_ = in_stack_fffffffffffffe50;
-  __this_04.fields.m_Object.fields._8_8_ = pIStack_150;
-  __this_04.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_148;
-  __this_04.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIStack_140;
-  __this_04.fields.m_Object.fields._32_8_ = pcStack_138;
-  __this_04.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIStack_130;
-  __this_04.fields.m_Array.fields._8_8_ = pIStack_128;
-  __this_04.fields.m_Array.fields._current = pSStack_120;
-  SVar53 = SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_04,(MethodInfo *)&stack0xfffffffffffffe60);
-  iVar33 = (int32_t)SVar53.fields.value;
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_d8.type = 0;
+  local_d8._4_4_ = 0;
+  local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_d8.m_Object.fields._version = 0;
+  local_d8.m_Object.fields._index = 0;
+  local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_res8[0] = 0;
+  local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_d8.m_Object.fields._getEnumeratorRetType = 0;
+  local_d8.m_Object.fields._36_4_ = 0;
+  local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_d8.m_Array.fields._index = 0;
+  local_d8.m_Array.fields._version = 0;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this_00,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
   }
-  SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar53,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adff1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Color255_GetRandomItem_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_GetRandomItem_Int32);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_GetRandomItem_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscExtensions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TitanCustomSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057adff1 = '\x01';
-  }
-  pSVar42 = (Settings_TitanCustomSet_o *)il2cpp_runtime_helper_023052d0(TypeInfo_TitanCustomSet);
-  pSVar44 = (Settings_TitanCustomSet_o *)0x0;
-  list = (MethodInfo_24E7B40 **)pSVar42;
-  Settings_TitanCustomSet___ctor(pSVar42,(MethodInfo *)0x0);
-  if (pSVar42 != (Settings_TitanCustomSet_o *)0x0) {
-    pSVar6 = (pSVar42->fields).Head;
-    list = (MethodInfo_24E7B40 **)0x0;
-    if (pSVar6 != (Settings_IntSetting_o *)0x0) {
-      Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar6,iVar33,MethodInfo_Void_set_Value);
-      __this_00 = (pSVar42->fields).Hair;
-      if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x28);
-      if (*(int *)(TypeInfo_MiscExtensions + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar44 = MethodInfo_String_GetRandomItem_String;
-      pIVar39 = MiscExtensions__GetRandomItem_object_
-                          ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583990 *)MethodInfo_String_GetRandomItem_String);
-      if (__this_00 != (Settings_StringSetting_o *)0x0) {
-        bVar45 = 0xa8;
-        Settings_TypedSetting_object___set_Value((Settings_TypedSetting_T__o *)__this_00,pIVar39,MethodInfo_Void_set_Value)
-        ;
-        pSVar7 = (pSVar42->fields).HairColor;
-        list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x38);
-        pSVar44 = MethodInfo_Color255_GetRandomItem_Color255;
-        pIVar39 = MiscExtensions__GetRandomItem_object_
-                            ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583990 *)MethodInfo_Color255_GetRandomItem_Color255);
-        if (pSVar7 != (Settings_ColorSetting_o *)0x0) {
-          Settings_TypedSetting_object___set_Value((Settings_TypedSetting_T__o *)pSVar7,pIVar39,MethodInfo_Void_set_Value);
-          pSVar6 = (pSVar42->fields).Eye;
-          list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x30);
-          pSVar44 = MethodInfo_Int32_GetRandomItem_Int32;
-          iVar33 = MiscExtensions__GetRandomItem_int_
-                             ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583420 *)MethodInfo_Int32_GetRandomItem_Int32)
-          ;
-          if (pSVar6 != (Settings_IntSetting_o *)0x0) {
-            Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar6,iVar33,MethodInfo_Void_set_Value);
-            uVar62 = UnityEngine_Random__Range_4df2410(0xa0,0x100,(MethodInfo *)0x0);
-            pSVar7 = (pSVar42->fields).SkinColor;
-            pSVar42 = (Settings_TitanCustomSet_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-            pSVar44 = (Settings_TitanCustomSet_o *)(ulong)uVar62;
-            cVar51 = -1;
-            list = (MethodInfo_24E7B40 **)pSVar42;
-            Utility_Color255___ctor((Utility_Color255_o *)pSVar42,uVar62,uVar62,uVar62,0xff,(MethodInfo *)0x0)
-            ;
-            bVar45 = (byte)uVar62;
-            if (pSVar7 != (Settings_ColorSetting_o *)0x0) {
-              Settings_TypedSetting_object___set_Value
-                        ((Settings_TypedSetting_T__o *)pSVar7,(Il2CppObject *)pSVar42,MethodInfo_Void_set_Value);
-              return;
-            }
-          }
+  pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+  pMVar5 = (MethodInfo *)System_String__Concat_1969e50("AIExcluded",key,(MethodInfo *)0x0);
+  if ((pSVar9 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
+     (pSVar6 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)(pSVar9,pMVar5),
+     pSVar6 != (System_Xml_Schema_XmlSchema_o *)0x0)) {
+    puVar7 = (undefined8 *)(**(code **)&((Il2CppClass *)pSVar6->klass)->vtable[32].methodPtr)(local_68);
+    local_d8._0_8_ = *puVar7;
+    local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar7[1];
+    local_d8.m_Object.fields._8_8_ = puVar7[2];
+    local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar7[3];
+    local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar7[4];
+    local_d8.m_Object.fields._32_8_ = puVar7[5];
+    local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar7[6];
+    local_d8.m_Array.fields._8_8_ = puVar7[7];
+    local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar7[8];
+    bVar4 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                      ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
+    if (bVar4) {
+      do {
+        pSVar8 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                           (&local_78,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_d8,(MethodInfo *)0x0);
+        pSVar10 = (pSVar8->fields).key;
+        pSVar9 = (pSVar8->fields).value;
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
         }
+        local_88.fields.key = pSVar10;
+        local_88.fields.value = pSVar9;
+        pSVar9 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_88,(MethodInfo *)0x0);
+        if ((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (pSVar10 = (*(pSVar9->klass->vtable)._9_get_Value.methodPtr)
+                                (pSVar9,(pSVar9->klass->vtable)._9_get_Value.method),
+           __this_00 == (System_Collections_Generic_HashSet_string__o *)0x0)) goto label_18219fc83;
+        System_Collections_Generic_HashSet_object___Add
+                  ((System_Collections_Generic_HashSet_object__o *)__this_00,(Il2CppObject *)pSVar10,
+                   (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+        bVar4 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                          ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
+      } while (bVar4);
+    }
+    uVar11 = 0;
+    while( true ) {
+      local_res8[0] = uVar11;
+      if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
       }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adff3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BoxCollider_GetComponent_BoxCollider);
-    list = &MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adff3 = '\x01';
-  }
-  if (pSVar44 != (Settings_TitanCustomSet_o *)0x0) {
-    if (bVar45 == 0) {
-      pSVar42 = (Settings_TitanCustomSet_o *)
-                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar44,MethodInfo_BoxCollider_GetComponent_BoxCollider);
-      list = (MethodInfo_24E7B40 **)pSVar44;
-      if (((__this_14 == (Settings_TitanCustomSet_o *)0x0) ||
-          (list = (MethodInfo_24E7B40 **)__this_14,
-          __this_13 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_14,MethodInfo_BoxCollider_GetComponent_BoxCollider),
-          pSVar42 == (Settings_TitanCustomSet_o *)0x0)) ||
-         (list = (MethodInfo_24E7B40 **)pSVar42,
-         UVar54 = UnityEngine_BoxCollider__get_center((UnityEngine_BoxCollider_o *)pSVar42,(MethodInfo *)0x0),
-         __this_13 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_BoxCollider__set_center((UnityEngine_BoxCollider_o *)__this_13,UVar54,(MethodInfo *)0x0);
-      UVar54 = UnityEngine_BoxCollider__get_size((UnityEngine_BoxCollider_o *)pSVar42,(MethodInfo *)0x0);
-      UnityEngine_BoxCollider__set_size((UnityEngine_BoxCollider_o *)__this_13,UVar54,(MethodInfo *)0x0);
-    }
-    else {
-      pSVar42 = (Settings_TitanCustomSet_o *)
-                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar44,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider);
-      list = (MethodInfo_24E7B40 **)pSVar44;
-      if (((__this_14 == (Settings_TitanCustomSet_o *)0x0) ||
-          (list = (MethodInfo_24E7B40 **)__this_14,
-          __this_13 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_14,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider),
-          pSVar42 == (Settings_TitanCustomSet_o *)0x0)) ||
-         (list = (MethodInfo_24E7B40 **)pSVar42,
-         UVar54 = UnityEngine_CapsuleCollider__get_center
-                            ((UnityEngine_CapsuleCollider_o *)pSVar42,(MethodInfo *)0x0),
-         __this_13 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_CapsuleCollider__set_center
-                ((UnityEngine_CapsuleCollider_o *)__this_13,UVar54,(MethodInfo *)0x0);
-      fVar52 = UnityEngine_CapsuleCollider__get_radius
-                         ((UnityEngine_CapsuleCollider_o *)pSVar42,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_radius
-                ((UnityEngine_CapsuleCollider_o *)__this_13,fVar52,(MethodInfo *)0x0);
-      fVar52 = UnityEngine_CapsuleCollider__get_height
-                         ((UnityEngine_CapsuleCollider_o *)pSVar42,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_height
-                ((UnityEngine_CapsuleCollider_o *)__this_13,fVar52,(MethodInfo *)0x0);
-    }
-    if (cVar51 == '\0') {
-      return;
-    }
-    pUVar43 = UnityEngine_Component__get_transform(__this_13,(MethodInfo *)0x0);
-    list = (MethodInfo_24E7B40 **)pSVar42;
-    pSVar44 = (Settings_TitanCustomSet_o *)
-              UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar42,(MethodInfo *)0x0);
-    if ((pSVar44 != (Settings_TitanCustomSet_o *)0x0) &&
-       (UVar54 = UnityEngine_Transform__get_localPosition
-                           ((UnityEngine_Transform_o *)pSVar44,(MethodInfo *)0x0),
-       list = (MethodInfo_24E7B40 **)pSVar44, pUVar43 != (UnityEngine_Transform_o *)0x0)) {
-      UnityEngine_Transform__set_localPosition(pUVar43,UVar54,(MethodInfo *)0x0);
-      pUVar43 = UnityEngine_Component__get_transform(__this_13,(MethodInfo *)0x0);
-      list = (MethodInfo_24E7B40 **)pSVar42;
-      pSVar44 = (Settings_TitanCustomSet_o *)
-                UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar42,(MethodInfo *)0x0);
-      if ((pSVar44 != (Settings_TitanCustomSet_o *)0x0) &&
-         (value = UnityEngine_Transform__get_localRotation
-                            ((UnityEngine_Transform_o *)pSVar44,(MethodInfo *)0x0),
-         list = (MethodInfo_24E7B40 **)pSVar44, pUVar43 != (UnityEngine_Transform_o *)0x0)) {
-        UnityEngine_Transform__set_localRotation(pUVar43,value,(MethodInfo *)0x0);
-        pUVar43 = UnityEngine_Component__get_transform(__this_13,(MethodInfo *)0x0);
-        pSVar44 = (Settings_TitanCustomSet_o *)
-                  UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar42,(MethodInfo *)0x0);
-        list = (MethodInfo_24E7B40 **)pSVar42;
-        if ((pSVar44 != (Settings_TitanCustomSet_o *)0x0) &&
-           (UVar54 = UnityEngine_Transform__get_localScale
-                               ((UnityEngine_Transform_o *)pSVar44,(MethodInfo *)0x0),
-           list = (MethodInfo_24E7B40 **)pSVar44, pUVar43 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__set_localScale(pUVar43,UVar54,(MethodInfo *)0x0);
-          return;
+      pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+      if ((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+         (pSVar6 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)(pSVar9,(MethodInfo *)key),
+         pSVar6 == (System_Xml_Schema_XmlSchema_o *)0x0)) break;
+      pSVar6 = (*(pSVar6->klass->vtable)._11_get_NameAttribute.methodPtr)
+                         (pSVar6,(pSVar6->klass->vtable)._11_get_NameAttribute.method);
+      if ((int)pSVar6 <= (int)uVar11) {
+        return;
+      }
+      pSVar10 = System_Int32__ToString((int32_t *)local_res8,(MethodInfo *)0x0);
+      pSVar10 = System_String__Concat_1969e50(key,pSVar10,(MethodInfo *)0x0);
+      if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+      }
+      pSVar9 = TypeInfo_Characters_BasicTitanSetup->static_fields->Info;
+      if ((pSVar9 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+         (pSVar6 = (*(pSVar9->klass->vtable)._7_get_Item.methodPtr)(pSVar9,(MethodInfo *)key),
+         pSVar6 == (System_Xml_Schema_XmlSchema_o *)0x0)) break;
+      pSVar9 = (SimpleJSONFixed_JSONNode_o *)
+               (*(pSVar6->klass->vtable)._5_OnRemove.methodPtr)
+                         (pSVar6,(System_Type_o *)(ulonglong)local_res8[0],
+                          (pSVar6->klass->vtable)._5_OnRemove.method);
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      value = SimpleJSONFixed_JSONNode__op_Implicit_1dc4450(pSVar9,(MethodInfo *)0x0);
+      pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+      pSVar2 = TypeInfo_Characters_BasicTitanSetup->static_fields->AllHairs;
+      if (pSVar2 == (System_Collections_Generic_List_string__o *)0x0) break;
+      piVar1 = &(pSVar2->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar3 = (pSVar2->fields)._items;
+      if (pSVar3 == (System_String_array *)0x0) break;
+      uVar11 = (pSVar2->fields)._size;
+      if (uVar11 < (uint)pSVar3->max_length) {
+        (pSVar2->fields)._size = uVar11 + 1;
+        if ((uint)pSVar3->max_length <= uVar11) {
+          ThrowIndexOutOfRangeException();
         }
+        pSVar3->m_Items[(int)uVar11] = pSVar10;
+        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar11,pSVar10);
       }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)pSVar2,(Il2CppObject *)pSVar10,
+                   (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+      }
+      __this = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_Characters_BasicTitanSetup->static_fields->HairPrefabs;
+      if ((__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+         (System_Collections_Generic_Dictionary_object__object___set_Item
+                    (__this,(Il2CppObject *)pSVar10,(Il2CppObject *)value,
+                     (MethodInfo_147A7F0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item),
+         __this_00 == (System_Collections_Generic_HashSet_string__o *)0x0)) break;
+      bVar4 = System_Collections_Generic_HashSet_object___Contains
+                        ((System_Collections_Generic_HashSet_object__o *)__this_00,(Il2CppObject *)value,
+                         (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+      if (!bVar4) {
+        if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+        }
+        pSVar2 = TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairs;
+        if (pSVar2 == (System_Collections_Generic_List_string__o *)0x0) break;
+        il2cpp_runtime_helper_180012890(pSVar2,pSVar10,MethodInfo_System_Collections_Generic_List_string_Add);
+      }
+      uVar11 = local_res8[0] + 1;
     }
   }
-label_04320752:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)list,(MethodInfo *)0x0);
-  return;
+label_18219fc83:
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanSetup$$GetRandomBodyHeadCombo
 // il2cpp: System_Int32_array* Characters_BasicTitanSetup__GetRandomBodyHeadCombo (SimpleJSONFixed_JSONNode_o* node, const MethodInfo* method);
-// 0x431fd40
+// 0x18219e960
 
 System_Int32_array *
 Characters_BasicTitanSetup__GetRandomBodyHeadCombo(SimpleJSONFixed_JSONNode_o *node,MethodInfo *method)
 
 {
   int32_t *piVar1;
+  byte bVar2;
+  uint uVar3;
+  Settings_InGameSet_o *pSVar4;
+  Settings_InGameTitanSettings_o *pSVar5;
+  Settings_BoolSetting_o *pSVar6;
   System_Collections_Generic_Dictionary_object__object__o *__this;
-  System_Object_array *pSVar2;
-  System_Single_array *pSVar3;
-  Settings_TypedSetting_T__o *pSVar4;
-  Settings_TypedSetting_int__o *__this_00;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_01;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_02;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_03;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_04;
-  bool_conflict bVar5;
-  int32_t iVar6;
-  uint uVar7;
-  System_Int32_array *pSVar8;
-  Il2CppObject *pIVar9;
-  System_Collections_Generic_List_object__o *__this_05;
-  System_Collections_Generic_List_float__o *__this_06;
-  long *plVar10;
-  System_Int32_array *pSVar11;
-  Il2CppObject *pIVar12;
-  System_Int32_array *__this_07;
-  UnityEngine_Component_o *__this_08;
-  System_Int32_array *extraout_RAX;
-  System_Int32_array *extraout_RAX_00;
-  UnityEngine_Transform_o *pUVar13;
-  System_Int32_array *extraout_RAX_01;
-  System_Int32_array *extraout_RAX_02;
-  byte bVar14;
-  int iVar15;
-  Il2CppClass *in_RCX;
-  Il2CppClass *pIVar16;
-  long lVar17;
-  System_Int32_array *__this_09;
-  MethodInfo_24E7B40 **list;
-  char cVar18;
-  undefined8 in_R8;
-  float fVar19;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o SVar20;
-  UnityEngine_Vector3_o UVar21;
-  UnityEngine_Quaternion_o value;
-  undefined8 in_stack_ffffffffffffff28;
-  System_Int32_array *in_stack_ffffffffffffff30;
-  Il2CppMethodPointer pIVar22;
-  Il2CppMethodPointer pIVar23;
-  InvokerMethod pIVar24;
-  char *pcVar25;
-  Il2CppClass *pIVar26;
-  Il2CppType *pIVar27;
-  SimpleJSONFixed_JSONNode_o *pSVar28;
-  Il2CppMethodPointer local_78;
-  Il2CppMethodPointer pIStack_70;
-  InvokerMethod local_68;
-  char *pcStack_60;
-  Il2CppClass *local_58;
-  Il2CppType *pIStack_50;
-  SimpleJSONFixed_JSONNode_o *local_48;
+  System_Object_array *pSVar7;
+  System_Single_array *pSVar8;
+  Il2CppClass *pIVar9;
+  System_String_o *pSVar10;
+  MethodInfo *pMVar11;
+  bool bVar12;
+  int32_t iVar13;
+  System_Int32_array *pSVar14;
+  SimpleJSONFixed_JSONNode_o *pSVar15;
+  System_Xml_Schema_XmlSchema_o *pSVar16;
+  System_Collections_Generic_List_object__o *__this_00;
+  System_Collections_Generic_List_float__o *__this_01;
+  undefined8 *puVar17;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar18;
+  Il2CppObject *pIVar19;
+  longlong *plVar20;
+  float item;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_d8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_88;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_78;
+  undefined1 local_68 [96];
   
-  if (g_data_057adff0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterData);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_JSONNode_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Single);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_float);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"Chance");
-    il2cpp_runtime_helper_023445d0(&"Body");
-    il2cpp_runtime_helper_023445d0(&"Titan");
-    il2cpp_runtime_helper_023445d0(&"Head");
-    il2cpp_runtime_helper_023445d0(&"Default");
-    il2cpp_runtime_helper_023445d0(&"BodyHeadCombos");
-    g_data_057adff0 = '\x01';
+  if (Il2CppMethodInitialized_184346e3a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_CharacterData);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_JSONNode_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_int_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_float_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_object_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_float_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&"Chance");
+    il2cpp_codegen_initialize_runtime_metadata(&"Body");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titan");
+    il2cpp_codegen_initialize_runtime_metadata(&"Head");
+    il2cpp_codegen_initialize_runtime_metadata(&"Default");
+    il2cpp_codegen_initialize_runtime_metadata(&"BodyHeadCombos");
+    Il2CppMethodInitialized_184346e3a = '\x01';
   }
-  pSVar28 = (SimpleJSONFixed_JSONNode_o *)0x0;
-  pIVar26 = (Il2CppClass *)0x0;
-  pIVar27 = (Il2CppType *)0x0;
-  pIVar24 = (InvokerMethod)0x0;
-  pcVar25 = (char *)0x0;
-  pIVar22 = (Il2CppMethodPointer)0x0;
-  pIVar23 = (Il2CppMethodPointer)0x0;
-  pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_int);
-  cVar18 = (char)in_R8;
-  lVar17 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x50);
-  pIVar16 = in_RCX;
-  pIVar12 = (Il2CppObject *)node;
-  if (((lVar17 == 0) || (lVar17 = *(long *)(lVar17 + 0x50), lVar17 == 0)) ||
-     (lVar17 = *(long *)(lVar17 + 0xa0), lVar17 == 0)) goto label_043202d7;
-  if (*(char *)(lVar17 + 0x11) != '\0') {
-    if (pSVar8 == (System_Int32_array *)0x0) goto label_043202d7;
-    iVar15 = (int)pSVar8->max_length;
-    if (iVar15 != 0) {
-      pSVar8->m_Items[0] = 0;
-      iVar6 = 0;
-      if (iVar15 != 1) goto label_043202bf;
+  local_d8.type = 0;
+  local_d8._4_4_ = 0;
+  local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_d8.m_Object.fields._version = 0;
+  local_d8.m_Object.fields._index = 0;
+  local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_d8.m_Object.fields._getEnumeratorRetType = 0;
+  local_d8.m_Object.fields._36_4_ = 0;
+  local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_d8.m_Array.fields._index = 0;
+  local_d8.m_Array.fields._version = 0;
+  pSVar14 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,2);
+  pSVar4 = TypeInfo_Settings_SettingsManager->static_fields->InGameCurrent;
+  if (((pSVar4 == (Settings_InGameSet_o *)0x0) ||
+      (pSVar5 = (pSVar4->fields).Titan, pSVar5 == (Settings_InGameTitanSettings_o *)0x0)) ||
+     (pSVar6 = (pSVar5->fields).TitanStandardModels, pSVar6 == (Settings_BoolSetting_o *)0x0))
+  goto label_18219eed3;
+  if ((pSVar6->fields)._value == false) {
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
     }
-    goto label_043202dc;
-  }
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = SimpleJSONFixed_JSONNode__op_Equality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 == '\0') {
-label_0431ff88:
-    cVar18 = (char)in_R8;
-    pIVar16 = in_RCX;
-    pIVar12 = (Il2CppObject *)0x0;
-    if (node == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_043202d7;
-    pIVar12 = (Il2CppObject *)
-              (*(node->klass->vtable)._7_get_Item.methodPtr)
-                        (node,"BodyHeadCombos",(node->klass->vtable)._7_get_Item.method);
-    __this_05 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_object);
-    System_Collections_Generic_List_object____ctor(__this_05,MethodInfo_List_1_System_Object);
-    __this_06 = (System_Collections_Generic_List_float__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_float);
-    System_Collections_Generic_List_float____ctor(__this_06,MethodInfo_List_1_System_Single);
-    cVar18 = (char)in_R8;
-    pIVar16 = in_RCX;
-    in_stack_ffffffffffffff30 = pSVar8;
-    if (pIVar12 == (Il2CppObject *)0x0) goto label_043202d7;
-    (*pIVar12->klass->vtable[0x20].methodPtr)(&local_78,pIVar12,pIVar12->klass->vtable[0x20].method);
-    __this_01.fields.m_Object.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar8;
-    __this_01.fields._0_8_ = in_stack_ffffffffffffff28;
-    __this_01.fields.m_Object.fields._8_8_ = local_78;
-    __this_01.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_70;
-    __this_01.fields.m_Object.fields._current.fields.value = (Il2CppObject *)local_68;
-    __this_01.fields.m_Object.fields._32_8_ = pcStack_60;
-    __this_01.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)local_58;
-    __this_01.fields.m_Array.fields._8_8_ = pIStack_50;
-    __this_01.fields.m_Array.fields._current = local_48;
-    bVar5 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_01,(MethodInfo *)&stack0xffffffffffffff38);
-    cVar18 = (char)in_R8;
-    bVar14 = (byte)in_RCX;
-    pIVar22 = local_78;
-    pIVar23 = pIStack_70;
-    pIVar24 = local_68;
-    pcVar25 = pcStack_60;
-    pIVar26 = local_58;
-    pIVar27 = pIStack_50;
-    pSVar28 = local_48;
-    if ((char)bVar5 == '\0') {
-label_043201d9:
-      pIVar16 = in_RCX;
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pIVar16 = in_RCX;
+    bVar12 = SimpleJSONFixed_JSONNode__op_Equality(node,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    if (bVar12) {
+      if ((TypeInfo_Characters_CharacterData->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_CharacterData);
       }
+      __this = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_Characters_CharacterData->static_fields->TitanAIInfos;
+      if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_18219eed3;
+      pSVar15 = System_Collections_Generic_Dictionary_object__object___get_Item
+                          (__this,(Il2CppObject *)"Titan",
+                           (MethodInfo_147A5B0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_string_JSONNode_get_Item);
+      if (pSVar15 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_18219eed3;
       node = (SimpleJSONFixed_JSONNode_o *)
-             Utility_Util__GetRandomFromWeightedList(__this_05,__this_06,(MethodInfo *)0x0);
-      in_stack_ffffffffffffff30 = pSVar8;
-      if ((Il2CppObject *)node == (Il2CppObject *)0x0) goto label_043202d7;
-      bVar14 = (TypeInfo_JSONNode->_2).naturalAligment;
-      pIVar16 = (Il2CppClass *)(ulong)bVar14;
-      if ((bVar14 <= (((Il2CppObject *)node)->klass->_2).naturalAligment) &&
-         ((((Il2CppObject *)node)->klass->_2).typeHierarchy
-          [(long)((long)&pIVar16[-1].vtable[0xfe].method + 7)] == TypeInfo_JSONNode)) {
-        plVar10 = (long *)(*((Il2CppObject *)node)->klass->vtable[7].methodPtr)
-                                    (node,"Body",((Il2CppObject *)node)->klass->vtable[7].method);
-        pIVar12 = (Il2CppObject *)node;
-        if (plVar10 == (long *)0x0) goto label_043202d7;
-        pIVar16 = (Il2CppClass *)*plVar10;
-        iVar6 = (*pIVar16->vtable[0x23].methodPtr)(plVar10,pIVar16->vtable[0x23].method);
-        iVar15 = (int)pIVar16;
-        if (pSVar8 == (System_Int32_array *)0x0) goto label_043202d7;
-        if ((int)pSVar8->max_length != 0) {
-          pSVar8->m_Items[0] = iVar6;
-          plVar10 = (long *)(*((Il2CppObject *)node)->klass->vtable[7].methodPtr)
-                                      (node,"Head",((Il2CppObject *)node)->klass->vtable[7].method);
-          if (plVar10 == (long *)0x0) goto label_043202d7;
-          lVar17 = *plVar10;
-          iVar6 = (**(code **)(lVar17 + 0x368))(plVar10,*(undefined8 *)(lVar17 + 0x370));
-          iVar15 = (int)lVar17;
-          if (1 < (uint)pSVar8->max_length) {
-label_043202bf:
-            pSVar8->m_Items[1] = iVar6;
-            return pSVar8;
-          }
-        }
-        goto label_043202dc;
-      }
-      goto label_043202e1;
+             (*(pSVar15->klass->vtable)._7_get_Item.methodPtr)(pSVar15,(MethodInfo *)"Default");
     }
-    if (__this_05 != (System_Collections_Generic_List_object__o *)0x0) {
+    if ((System_Xml_Schema_XmlSchema_o *)node == (System_Xml_Schema_XmlSchema_o *)0x0) {
+label_18219eed3:
+      ThrowNullReferenceException();
+    }
+    pSVar16 = (*(((System_Xml_Schema_XmlSchema_o *)node)->klass->vtable)._7_get_IdAttribute.methodPtr)
+                        (node,(MethodInfo *)"BodyHeadCombos");
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_object);
+    System_Collections_Generic_List_object____ctor
+              ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_object_ctor);
+    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_float);
+    System_Collections_Generic_List_float____ctor
+              ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_float_ctor);
+    if (pSVar16 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_18219eed3;
+    puVar17 = (undefined8 *)(**(code **)&((Il2CppClass *)pSVar16->klass)->vtable[32].methodPtr)(local_68);
+    local_d8._0_8_ = *puVar17;
+    local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar17[1]
+    ;
+    local_d8.m_Object.fields._8_8_ = puVar17[2];
+    local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar17[3];
+    local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar17[4];
+    local_d8.m_Object.fields._32_8_ = puVar17[5];
+    local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar17[6];
+    local_d8.m_Array.fields._8_8_ = puVar17[7];
+    local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar17[8];
+    bVar12 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                       ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
+    if (bVar12) {
       do {
-        __this_03.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar8;
-        __this_03.fields._0_8_ = in_stack_ffffffffffffff28;
-        __this_03.fields.m_Object.fields._8_8_ = pIVar22;
-        __this_03.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar23;
-        __this_03.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar24;
-        __this_03.fields.m_Object.fields._32_8_ = pcVar25;
-        __this_03.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar26;
-        __this_03.fields.m_Array.fields._8_8_ = pIVar27;
-        __this_03.fields.m_Array.fields._current = pSVar28;
-        SVar20 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
-                           (__this_03,(MethodInfo *)&stack0xffffffffffffff38);
-        if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-          il2cpp_runtime_helper_02337ed0();
+        pSVar18 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                            (&local_78,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_d8,(MethodInfo *)0x0);
+        pSVar10 = (pSVar18->fields).key;
+        pSVar15 = (pSVar18->fields).value;
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
         }
-        pIVar12 = (Il2CppObject *)SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar20,(MethodInfo *)0x0);
-        pIVar16 = MethodInfo_Void_Add;
-        cVar18 = (char)in_R8;
-        piVar1 = &(__this_05->fields)._version;
+        local_88.fields.key = pSVar10;
+        local_88.fields.value = pSVar15;
+        pIVar19 = (Il2CppObject *)SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_88,(MethodInfo *)0x0);
+        pMVar11 = MethodInfo_System_Collections_Generic_List_object_Add;
+        if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) goto label_18219eed3;
+        piVar1 = &(__this_00->fields)._version;
         *piVar1 = *piVar1 + 1;
-        pSVar2 = (__this_05->fields)._items;
-        in_stack_ffffffffffffff30 = pSVar8;
-        if (pSVar2 == (System_Object_array *)0x0) goto label_043202d7;
-        uVar7 = (__this_05->fields)._size;
-        if (uVar7 < (uint)pSVar2->max_length) {
-          pIVar16 = (Il2CppClass *)(ulong)(uVar7 + 1);
-          (__this_05->fields)._size = uVar7 + 1;
-          pSVar2->m_Items[(int)uVar7] = pIVar12;
-          il2cpp_runtime_helper_022b4080(pSVar2->m_Items + (int)uVar7,pIVar12);
-          cVar18 = (char)in_R8;
+        pSVar7 = (__this_00->fields)._items;
+        if (pSVar7 == (System_Object_array *)0x0) goto label_18219eed3;
+        uVar3 = (__this_00->fields)._size;
+        if (uVar3 < (uint)pSVar7->max_length) {
+          (__this_00->fields)._size = uVar3 + 1;
+          if ((uint)pSVar7->max_length <= uVar3) goto label_18219eee5;
+          pSVar7->m_Items[(int)uVar3] = pIVar19;
+          Il2CppCodeGenWriteBarrier(pSVar7->m_Items + (int)uVar3,pIVar19);
         }
         else {
           System_Collections_Generic_List_object___AddWithResize
-                    (__this_05,pIVar12,
-                     *(MethodInfo_362C220 **)(*(long *)((long)(pIVar16->_1).byval_arg.data + 0xc0) + 0x70));
-          cVar18 = (char)in_R8;
+                    (__this_00,pIVar19,(MethodInfo_93DD50 *)pMVar11->klass->rgctx_data[0xe].method);
         }
-        in_stack_ffffffffffffff30 = pSVar8;
-        if (pIVar12 == (Il2CppObject *)0x0) goto label_043202d7;
-        plVar10 = (long *)(*pIVar12->klass->vtable[7].methodPtr)
-                                    (pIVar12,"Chance",pIVar12->klass->vtable[7].method);
-        cVar18 = (char)in_R8;
-        in_stack_ffffffffffffff30 = pSVar8;
-        if (plVar10 == (long *)0x0) goto label_043202d7;
-        pIVar16 = (Il2CppClass *)*plVar10;
-        fVar19 = (float)(*pIVar16->vtable[0x25].methodPtr)(plVar10,pIVar16->vtable[0x25].method);
-        in_RCX = MethodInfo_Void_Add;
-        cVar18 = (char)in_R8;
-        in_stack_ffffffffffffff30 = pSVar8;
-        if (__this_06 == (System_Collections_Generic_List_float__o *)0x0) goto label_043202d7;
-        piVar1 = &(__this_06->fields)._version;
+        if (pIVar19 == (Il2CppObject *)0x0) goto label_18219eed3;
+        plVar20 = (longlong *)
+                  (*pIVar19->klass->vtable[7].methodPtr)
+                            (pIVar19,"Chance",pIVar19->klass->vtable[7].method);
+        if (plVar20 == (longlong *)0x0) goto label_18219eed3;
+        item = (float)(**(code **)(*plVar20 + 0x388))(plVar20,*(undefined8 *)(*plVar20 + 0x390));
+        pMVar11 = MethodInfo_System_Collections_Generic_List_float_Add;
+        if (__this_01 == (System_Collections_Generic_List_float__o *)0x0) goto label_18219eed3;
+        piVar1 = &(__this_01->fields)._version;
         *piVar1 = *piVar1 + 1;
-        pSVar3 = (__this_06->fields)._items;
-        pIVar16 = in_RCX;
-        if (pSVar3 == (System_Single_array *)0x0) goto label_043202d7;
-        uVar7 = (__this_06->fields)._size;
-        if (uVar7 < (uint)pSVar3->max_length) {
-          in_RCX = (Il2CppClass *)(ulong)(uVar7 + 1);
-          (__this_06->fields)._size = uVar7 + 1;
-          pSVar3->m_Items[(int)uVar7] = fVar19;
+        pSVar8 = (__this_01->fields)._items;
+        if (pSVar8 == (System_Single_array *)0x0) goto label_18219eed3;
+        uVar3 = (__this_01->fields)._size;
+        if (uVar3 < (uint)pSVar8->max_length) {
+          (__this_01->fields)._size = uVar3 + 1;
+          if ((uint)pSVar8->max_length <= uVar3) goto label_18219eee5;
+          pSVar8->m_Items[(int)uVar3] = item;
         }
         else {
           System_Collections_Generic_List_float___AddWithResize
-                    (__this_06,fVar19,
-                     *(MethodInfo_36649C0 **)(*(long *)((long)(in_RCX->_1).byval_arg.data + 0xc0) + 0x70));
+                    (__this_01,item,(MethodInfo_973B40 *)pMVar11->klass->rgctx_data[0xe].method);
         }
-        __this_02.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar8;
-        __this_02.fields._0_8_ = in_stack_ffffffffffffff28;
-        __this_02.fields.m_Object.fields._8_8_ = pIVar22;
-        __this_02.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIVar23;
-        __this_02.fields.m_Object.fields._current.fields.value = (Il2CppObject *)pIVar24;
-        __this_02.fields.m_Object.fields._32_8_ = pcVar25;
-        __this_02.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)pIVar26;
-        __this_02.fields.m_Array.fields._8_8_ = pIVar27;
-        __this_02.fields.m_Array.fields._current = pSVar28;
-        bVar5 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext
-                          (__this_02,(MethodInfo *)&stack0xffffffffffffff38);
-        cVar18 = (char)in_R8;
-      } while ((char)bVar5 != '\0');
-      goto label_043201d9;
+        bVar12 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                           ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
+      } while (bVar12);
     }
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+    }
+    pIVar19 = Utility_Util__GetRandomFromWeightedList(__this_00,__this_01,(MethodInfo *)0x0);
+    if (pIVar19 == (Il2CppObject *)0x0) goto label_18219eed3;
+    pIVar9 = pIVar19->klass;
+    bVar2 = (TypeInfo_SimpleJSONFixed_JSONNode->_2).typeHierarchyDepth;
+    if (((pIVar9->_2).typeHierarchyDepth < bVar2) ||
+       ((pIVar9->_2).typeHierarchy[(ulonglong)bVar2 - 1] != (Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode))
+    {
+      il2cpp_codegen_raise_invalid_cast_exception(pIVar19,TypeInfo_SimpleJSONFixed_JSONNode);
+    }
+    plVar20 = (longlong *)
+              (*pIVar9->vtable[7].methodPtr)(pIVar19,"Body",pIVar9->vtable[7].method);
+    if (plVar20 == (longlong *)0x0) goto label_18219eed3;
+    iVar13 = (**(code **)(*plVar20 + 0x368))(plVar20,*(undefined8 *)(*plVar20 + 0x370));
+    if (pSVar14 == (System_Int32_array *)0x0) goto label_18219eed3;
+    if ((int)pSVar14->max_length == 0) goto label_18219eee5;
+    pSVar14->m_Items[0] = iVar13;
+    plVar20 = (longlong *)
+              (*pIVar19->klass->vtable[7].methodPtr)
+                        (pIVar19,"Head",pIVar19->klass->vtable[7].method);
+    if (plVar20 == (longlong *)0x0) goto label_18219eed3;
+    iVar13 = (**(code **)(*plVar20 + 0x368))(plVar20,*(undefined8 *)(*plVar20 + 0x370));
   }
   else {
-    if (*(int *)(TypeInfo_CharacterData + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    cVar18 = (char)in_R8;
-    __this = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_CharacterData + 0xb8) + 8)
-    ;
-    pIVar16 = in_RCX;
-    pIVar12 = (Il2CppObject *)&TypeInfo_CharacterData;
-    if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pIVar9 = System_Collections_Generic_Dictionary_object__object___get_Item
-                         (__this,"Titan",MethodInfo_JSONNode_get_Item);
-      cVar18 = (char)in_R8;
-      pIVar16 = in_RCX;
-      pIVar12 = (Il2CppObject *)&TypeInfo_CharacterData;
-      if (pIVar9 != (Il2CppObject *)0x0) {
-        in_RCX = pIVar9->klass;
-        node = (SimpleJSONFixed_JSONNode_o *)
-               (*in_RCX->vtable[7].methodPtr)(pIVar9,"Default",in_RCX->vtable[7].method);
-        goto label_0431ff88;
-      }
-    }
-label_043202d7:
-    iVar15 = (int)pIVar16;
-    il2cpp_runtime_helper_022b2c90();
-    node = (SimpleJSONFixed_JSONNode_o *)pIVar12;
-label_043202dc:
-    bVar14 = (byte)iVar15;
-    il2cpp_runtime_helper_022b2ca0();
-    pSVar8 = in_stack_ffffffffffffff30;
-label_043202e1:
-    il2cpp_runtime_helper_022b2fd0(node);
-    local_78 = pIVar22;
-    pIStack_70 = pIVar23;
-    local_68 = pIVar24;
-    pcStack_60 = pcVar25;
-    local_58 = pIVar26;
-    pIStack_50 = pIVar27;
-    local_48 = pSVar28;
+    if (pSVar14 == (System_Int32_array *)0x0) goto label_18219eed3;
+    if ((int)pSVar14->max_length == 0) goto label_18219eee5;
+    iVar13 = 0;
+    pSVar14->m_Items[0] = 0;
   }
-  __this_04.fields.m_Object.fields._dictionary =
-       (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar8;
-  __this_04.fields._0_8_ = in_stack_ffffffffffffff28;
-  __this_04.fields.m_Object.fields._8_8_ = local_78;
-  __this_04.fields.m_Object.fields._current.fields.key = (Il2CppObject *)pIStack_70;
-  __this_04.fields.m_Object.fields._current.fields.value = (Il2CppObject *)local_68;
-  __this_04.fields.m_Object.fields._32_8_ = pcStack_60;
-  __this_04.fields.m_Array.fields._list = (System_Collections_Generic_List_T__o *)local_58;
-  __this_04.fields.m_Array.fields._8_8_ = pIStack_50;
-  __this_04.fields.m_Array.fields._current = local_48;
-  SVar20 = SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_04,(MethodInfo *)&stack0xffffffffffffff38);
-  iVar6 = (int32_t)SVar20.fields.value;
-  if (*(int *)&(TypeInfo_JSONNode->_2).field_0x1c == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (1 < (uint)pSVar14->max_length) {
+    pSVar14->m_Items[1] = iVar13;
+    return pSVar14;
   }
-  SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar20,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adff1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Color255_GetRandomItem_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_GetRandomItem_Int32);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_GetRandomItem_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscExtensions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TitanCustomSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057adff1 = '\x01';
-  }
-  pSVar11 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_TitanCustomSet);
-  pSVar8 = (System_Int32_array *)0x0;
-  list = (MethodInfo_24E7B40 **)pSVar11;
-  Settings_TitanCustomSet___ctor((Settings_TitanCustomSet_o *)pSVar11,(MethodInfo *)0x0);
-  if (pSVar11 != (System_Int32_array *)0x0) {
-    list = (MethodInfo_24E7B40 **)0x0;
-    if (*(Settings_TypedSetting_int__o **)(pSVar11->m_Items + 6) != (Settings_TypedSetting_int__o *)0x0) {
-      Settings_TypedSetting_int___set_Value
-                (*(Settings_TypedSetting_int__o **)(pSVar11->m_Items + 6),iVar6,MethodInfo_Void_set_Value);
-      pSVar4 = *(Settings_TypedSetting_T__o **)(pSVar11->m_Items + 0xc);
-      if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x28);
-      if (*(int *)(TypeInfo_MiscExtensions + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar8 = MethodInfo_String_GetRandomItem_String;
-      pIVar12 = MiscExtensions__GetRandomItem_object_
-                          ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583990 *)MethodInfo_String_GetRandomItem_String);
-      if (pSVar4 != (Settings_TypedSetting_T__o *)0x0) {
-        bVar14 = 0xa8;
-        Settings_TypedSetting_object___set_Value(pSVar4,pIVar12,MethodInfo_Void_set_Value);
-        pSVar4 = *(Settings_TypedSetting_T__o **)(pSVar11->m_Items + 0x10);
-        list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x38);
-        pSVar8 = MethodInfo_Color255_GetRandomItem_Color255;
-        pIVar12 = MiscExtensions__GetRandomItem_object_
-                            ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583990 *)MethodInfo_Color255_GetRandomItem_Color255);
-        if (pSVar4 != (Settings_TypedSetting_T__o *)0x0) {
-          Settings_TypedSetting_object___set_Value(pSVar4,pIVar12,MethodInfo_Void_set_Value);
-          __this_00 = *(Settings_TypedSetting_int__o **)(pSVar11->m_Items + 10);
-          list = *(MethodInfo_24E7B40 ***)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x30);
-          pSVar8 = MethodInfo_Int32_GetRandomItem_Int32;
-          iVar6 = MiscExtensions__GetRandomItem_int_
-                            ((System_Collections_Generic_List_T__o *)list,(MethodInfo_2583420 *)MethodInfo_Int32_GetRandomItem_Int32);
-          if (__this_00 != (Settings_TypedSetting_int__o *)0x0) {
-            Settings_TypedSetting_int___set_Value(__this_00,iVar6,MethodInfo_Void_set_Value);
-            uVar7 = UnityEngine_Random__Range_4df2410(0xa0,0x100,(MethodInfo *)0x0);
-            pSVar4 = *(Settings_TypedSetting_T__o **)(pSVar11->m_Items + 0xe);
-            __this_07 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-            pSVar8 = (System_Int32_array *)(ulong)uVar7;
-            cVar18 = -1;
-            list = (MethodInfo_24E7B40 **)__this_07;
-            Utility_Color255___ctor((Utility_Color255_o *)__this_07,uVar7,uVar7,uVar7,0xff,(MethodInfo *)0x0);
-            bVar14 = (byte)uVar7;
-            if (pSVar4 != (Settings_TypedSetting_T__o *)0x0) {
-              Settings_TypedSetting_object___set_Value(pSVar4,(Il2CppObject *)__this_07,MethodInfo_Void_set_Value);
-              return pSVar11;
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adff3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BoxCollider_GetComponent_BoxCollider);
-    list = &MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adff3 = '\x01';
-  }
-  if (pSVar8 != (System_Int32_array *)0x0) {
-    if (bVar14 == 0) {
-      pSVar11 = (System_Int32_array *)
-                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar8,MethodInfo_BoxCollider_GetComponent_BoxCollider);
-      list = (MethodInfo_24E7B40 **)pSVar8;
-      if (((__this_09 == (System_Int32_array *)0x0) ||
-          (list = (MethodInfo_24E7B40 **)__this_09,
-          __this_08 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_09,MethodInfo_BoxCollider_GetComponent_BoxCollider),
-          pSVar11 == (System_Int32_array *)0x0)) ||
-         (list = (MethodInfo_24E7B40 **)pSVar11,
-         UVar21 = UnityEngine_BoxCollider__get_center((UnityEngine_BoxCollider_o *)pSVar11,(MethodInfo *)0x0),
-         __this_08 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_BoxCollider__set_center((UnityEngine_BoxCollider_o *)__this_08,UVar21,(MethodInfo *)0x0);
-      UVar21 = UnityEngine_BoxCollider__get_size((UnityEngine_BoxCollider_o *)pSVar11,(MethodInfo *)0x0);
-      UnityEngine_BoxCollider__set_size((UnityEngine_BoxCollider_o *)__this_08,UVar21,(MethodInfo *)0x0);
-      pSVar8 = extraout_RAX_00;
-    }
-    else {
-      pSVar11 = (System_Int32_array *)
-                UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar8,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider);
-      list = (MethodInfo_24E7B40 **)pSVar8;
-      if (((__this_09 == (System_Int32_array *)0x0) ||
-          (list = (MethodInfo_24E7B40 **)__this_09,
-          __this_08 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_09,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider),
-          pSVar11 == (System_Int32_array *)0x0)) ||
-         (list = (MethodInfo_24E7B40 **)pSVar11,
-         UVar21 = UnityEngine_CapsuleCollider__get_center
-                            ((UnityEngine_CapsuleCollider_o *)pSVar11,(MethodInfo *)0x0),
-         __this_08 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_CapsuleCollider__set_center
-                ((UnityEngine_CapsuleCollider_o *)__this_08,UVar21,(MethodInfo *)0x0);
-      fVar19 = UnityEngine_CapsuleCollider__get_radius
-                         ((UnityEngine_CapsuleCollider_o *)pSVar11,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_radius
-                ((UnityEngine_CapsuleCollider_o *)__this_08,fVar19,(MethodInfo *)0x0);
-      fVar19 = UnityEngine_CapsuleCollider__get_height
-                         ((UnityEngine_CapsuleCollider_o *)pSVar11,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_height
-                ((UnityEngine_CapsuleCollider_o *)__this_08,fVar19,(MethodInfo *)0x0);
-      pSVar8 = extraout_RAX;
-    }
-    if (cVar18 == '\0') {
-      return pSVar8;
-    }
-    pUVar13 = UnityEngine_Component__get_transform(__this_08,(MethodInfo *)0x0);
-    list = (MethodInfo_24E7B40 **)pSVar11;
-    pSVar8 = (System_Int32_array *)
-             UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar11,(MethodInfo *)0x0);
-    if ((pSVar8 != (System_Int32_array *)0x0) &&
-       (UVar21 = UnityEngine_Transform__get_localPosition((UnityEngine_Transform_o *)pSVar8,(MethodInfo *)0x0)
-       , list = (MethodInfo_24E7B40 **)pSVar8, pUVar13 != (UnityEngine_Transform_o *)0x0)) {
-      UnityEngine_Transform__set_localPosition(pUVar13,UVar21,(MethodInfo *)0x0);
-      pUVar13 = UnityEngine_Component__get_transform(__this_08,(MethodInfo *)0x0);
-      list = (MethodInfo_24E7B40 **)pSVar11;
-      pSVar8 = (System_Int32_array *)
-               UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar11,(MethodInfo *)0x0);
-      if ((pSVar8 != (System_Int32_array *)0x0) &&
-         (value = UnityEngine_Transform__get_localRotation
-                            ((UnityEngine_Transform_o *)pSVar8,(MethodInfo *)0x0),
-         list = (MethodInfo_24E7B40 **)pSVar8, pUVar13 != (UnityEngine_Transform_o *)0x0)) {
-        UnityEngine_Transform__set_localRotation(pUVar13,value,(MethodInfo *)0x0);
-        pUVar13 = UnityEngine_Component__get_transform(__this_08,(MethodInfo *)0x0);
-        pSVar8 = (System_Int32_array *)
-                 UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar11,(MethodInfo *)0x0);
-        list = (MethodInfo_24E7B40 **)pSVar11;
-        if ((pSVar8 != (System_Int32_array *)0x0) &&
-           (UVar21 = UnityEngine_Transform__get_localScale
-                               ((UnityEngine_Transform_o *)pSVar8,(MethodInfo *)0x0),
-           list = (MethodInfo_24E7B40 **)pSVar8, pUVar13 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__set_localScale(pUVar13,UVar21,(MethodInfo *)0x0);
-          return extraout_RAX_01;
-        }
-      }
-    }
-  }
-label_04320752:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)list,(MethodInfo *)0x0);
-  return extraout_RAX_02;
+label_18219eee5:
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Characters.BasicTitanSetup$$CreateRandomSet
 // il2cpp: Settings_TitanCustomSet_o* Characters_BasicTitanSetup__CreateRandomSet (Characters_BasicTitanSetup_o* __this, int32_t headPrefab, const MethodInfo* method);
-// 0x4320330
+// 0x18219e720
 
 Settings_TitanCustomSet_o *
 Characters_BasicTitanSetup__CreateRandomSet
@@ -1751,680 +729,885 @@ Characters_BasicTitanSetup__CreateRandomSet
 {
   Settings_IntSetting_o *pSVar1;
   Settings_StringSetting_o *__this_00;
+  System_Collections_Generic_List_string__o *items;
   Settings_ColorSetting_o *pSVar2;
-  int32_t value;
-  uint r;
-  Settings_TitanCustomSet_o *pSVar3;
-  Il2CppObject *pIVar4;
+  int32_t iVar3;
   Settings_TitanCustomSet_o *__this_01;
-  UnityEngine_Component_o *__this_02;
-  Settings_TitanCustomSet_o *extraout_RAX;
-  Settings_TitanCustomSet_o *extraout_RAX_00;
-  UnityEngine_Transform_o *pUVar5;
-  Settings_TitanCustomSet_o *pSVar6;
-  Settings_TitanCustomSet_o *extraout_RAX_01;
-  Settings_TitanCustomSet_o *extraout_RAX_02;
-  char in_CL;
-  Settings_TitanCustomSet_o *__this_03;
-  Settings_TitanCustomSet_o *pSVar7;
-  char in_R8B;
-  float fVar8;
-  UnityEngine_Vector3_o UVar9;
-  UnityEngine_Quaternion_o value_00;
+  System_String_o *value;
+  Utility_Color255_o *pUVar4;
   
-  if (g_data_057adff1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Color255_GetRandomItem_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_GetRandomItem_Int32);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_GetRandomItem_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscExtensions);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TitanCustomSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057adff1 = '\x01';
+  if (Il2CppMethodInitialized_184346e3b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_MiscExtensions_GetRandomItem_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_MiscExtensions_GetRandomItem_int);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_MiscExtensions_GetRandomItem_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MiscExtensions);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_TitanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184346e3b = '\x01';
   }
-  pSVar3 = (Settings_TitanCustomSet_o *)il2cpp_runtime_helper_023052d0(TypeInfo_TitanCustomSet);
-  pSVar6 = (Settings_TitanCustomSet_o *)0x0;
-  pSVar7 = pSVar3;
-  Settings_TitanCustomSet___ctor(pSVar3,(MethodInfo *)0x0);
-  if (pSVar3 != (Settings_TitanCustomSet_o *)0x0) {
-    pSVar1 = (pSVar3->fields).Head;
-    pSVar7 = (Settings_TitanCustomSet_o *)0x0;
-    if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-      Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar1,headPrefab,MethodInfo_Void_set_Value);
-      __this_00 = (pSVar3->fields).Hair;
-      if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar7 = *(Settings_TitanCustomSet_o **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x28);
-      if (*(int *)(TypeInfo_MiscExtensions + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar6 = MethodInfo_String_GetRandomItem_String;
-      pIVar4 = MiscExtensions__GetRandomItem_object_
-                         ((System_Collections_Generic_List_T__o *)pSVar7,(MethodInfo_2583990 *)MethodInfo_String_GetRandomItem_String);
-      if (__this_00 != (Settings_StringSetting_o *)0x0) {
-        in_CL = -0x58;
-        Settings_TypedSetting_object___set_Value((Settings_TypedSetting_T__o *)__this_00,pIVar4,MethodInfo_Void_set_Value);
-        pSVar2 = (pSVar3->fields).HairColor;
-        pSVar7 = *(Settings_TitanCustomSet_o **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x38);
-        pSVar6 = MethodInfo_Color255_GetRandomItem_Color255;
-        pIVar4 = MiscExtensions__GetRandomItem_object_
-                           ((System_Collections_Generic_List_T__o *)pSVar7,(MethodInfo_2583990 *)MethodInfo_Color255_GetRandomItem_Color255)
-        ;
-        if (pSVar2 != (Settings_ColorSetting_o *)0x0) {
-          Settings_TypedSetting_object___set_Value((Settings_TypedSetting_T__o *)pSVar2,pIVar4,MethodInfo_Void_set_Value);
-          pSVar1 = (pSVar3->fields).Eye;
-          pSVar7 = *(Settings_TitanCustomSet_o **)(*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x30);
-          pSVar6 = MethodInfo_Int32_GetRandomItem_Int32;
-          value = MiscExtensions__GetRandomItem_int_
-                            ((System_Collections_Generic_List_T__o *)pSVar7,(MethodInfo_2583420 *)MethodInfo_Int32_GetRandomItem_Int32
-                            );
-          if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-            Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar1,value,MethodInfo_Void_set_Value);
-            r = UnityEngine_Random__Range_4df2410(0xa0,0x100,(MethodInfo *)0x0);
-            pSVar2 = (pSVar3->fields).SkinColor;
-            __this_01 = (Settings_TitanCustomSet_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-            pSVar6 = (Settings_TitanCustomSet_o *)(ulong)r;
-            in_R8B = -1;
-            pSVar7 = __this_01;
-            Utility_Color255___ctor((Utility_Color255_o *)__this_01,r,r,r,0xff,(MethodInfo *)0x0);
-            in_CL = (char)r;
-            if (pSVar2 != (Settings_ColorSetting_o *)0x0) {
-              Settings_TypedSetting_object___set_Value
-                        ((Settings_TypedSetting_T__o *)pSVar2,(Il2CppObject *)__this_01,MethodInfo_Void_set_Value);
-              return pSVar3;
-            }
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_TitanCustomSet);
+  Settings_TitanCustomSet___ctor(__this_01,(MethodInfo *)0x0);
+  if ((__this_01 != (Settings_TitanCustomSet_o *)0x0) &&
+     (pSVar1 = (__this_01->fields).Head, pSVar1 != (Settings_IntSetting_o *)0x0)) {
+    Settings_TypedSetting_int___set_Value
+              ((Settings_TypedSetting_int__o *)pSVar1,headPrefab,
+               (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+    __this_00 = (__this_01->fields).Hair;
+    if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+    }
+    items = TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairs;
+    if ((TypeInfo_MiscExtensions->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MiscExtensions);
+    }
+    value = Utility_RandomGen__ChooseRandom_object_
+                      ((System_Collections_Generic_List_T__o *)items,
+                       (MethodInfo_732DC0 *)MethodInfo_MiscExtensions_GetRandomItem_string);
+    if (__this_00 != (Settings_StringSetting_o *)0x0) {
+      Settings_TypedSetting_object___set_Value
+                ((Settings_TypedSetting_T__o *)__this_00,(Il2CppObject *)value,
+                 (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+      pSVar2 = (__this_01->fields).HairColor;
+      pUVar4 = Utility_RandomGen__ChooseRandom_object_
+                         ((System_Collections_Generic_List_T__o *)
+                          TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairColors,
+                          (MethodInfo_732DC0 *)MethodInfo_MiscExtensions_GetRandomItem_Color255);
+      if (pSVar2 != (Settings_ColorSetting_o *)0x0) {
+        Settings_TypedSetting_object___set_Value
+                  ((Settings_TypedSetting_T__o *)pSVar2,(Il2CppObject *)pUVar4,
+                   (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
+        pSVar1 = (__this_01->fields).Eye;
+        iVar3 = MiscExtensions__GetRandomItem_int_
+                          ((System_Collections_Generic_List_T__o *)
+                           TypeInfo_Characters_BasicTitanSetup->static_fields->AIEyes,
+                           (MethodInfo_732D60 *)MethodInfo_MiscExtensions_GetRandomItem_int);
+        if (pSVar1 != (Settings_IntSetting_o *)0x0) {
+          Settings_TypedSetting_int___set_Value
+                    ((Settings_TypedSetting_int__o *)pSVar1,iVar3,
+                     (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+          iVar3 = UnityEngine_Random__RandomRangeInt(0xa0,0x100,(MethodInfo *)0x0);
+          pSVar2 = (__this_01->fields).SkinColor;
+          pUVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+          Utility_Color255___ctor
+                    ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar4,iVar3,iVar3,iVar3,0xff,
+                     (MethodInfo *)0x0);
+          if (pSVar2 != (Settings_ColorSetting_o *)0x0) {
+            Settings_TypedSetting_object___set_Value
+                      ((Settings_TypedSetting_T__o *)pSVar2,(Il2CppObject *)pUVar4,
+                       (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_Color255_set_Value);
+            return __this_01;
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adff3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BoxCollider_GetComponent_BoxCollider);
-    pSVar7 = (Settings_TitanCustomSet_o *)&MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adff3 = '\x01';
-  }
-  if (pSVar6 != (Settings_TitanCustomSet_o *)0x0) {
-    if (in_CL == '\0') {
-      pSVar3 = (Settings_TitanCustomSet_o *)
-               UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar6,MethodInfo_BoxCollider_GetComponent_BoxCollider);
-      pSVar7 = pSVar6;
-      if (((__this_03 == (Settings_TitanCustomSet_o *)0x0) ||
-          (pSVar7 = __this_03,
-          __this_02 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_03,MethodInfo_BoxCollider_GetComponent_BoxCollider),
-          pSVar3 == (Settings_TitanCustomSet_o *)0x0)) ||
-         (pSVar7 = pSVar3,
-         UVar9 = UnityEngine_BoxCollider__get_center((UnityEngine_BoxCollider_o *)pSVar3,(MethodInfo *)0x0),
-         __this_02 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_BoxCollider__set_center((UnityEngine_BoxCollider_o *)__this_02,UVar9,(MethodInfo *)0x0);
-      UVar9 = UnityEngine_BoxCollider__get_size((UnityEngine_BoxCollider_o *)pSVar3,(MethodInfo *)0x0);
-      UnityEngine_BoxCollider__set_size((UnityEngine_BoxCollider_o *)__this_02,UVar9,(MethodInfo *)0x0);
-      pSVar7 = extraout_RAX_00;
-    }
-    else {
-      pSVar3 = (Settings_TitanCustomSet_o *)
-               UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar6,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider);
-      pSVar7 = pSVar6;
-      if (((__this_03 == (Settings_TitanCustomSet_o *)0x0) ||
-          (pSVar7 = __this_03,
-          __this_02 = (UnityEngine_Component_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)__this_03,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider),
-          pSVar3 == (Settings_TitanCustomSet_o *)0x0)) ||
-         (pSVar7 = pSVar3,
-         UVar9 = UnityEngine_CapsuleCollider__get_center
-                           ((UnityEngine_CapsuleCollider_o *)pSVar3,(MethodInfo *)0x0),
-         __this_02 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_CapsuleCollider__set_center
-                ((UnityEngine_CapsuleCollider_o *)__this_02,UVar9,(MethodInfo *)0x0);
-      fVar8 = UnityEngine_CapsuleCollider__get_radius
-                        ((UnityEngine_CapsuleCollider_o *)pSVar3,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_radius
-                ((UnityEngine_CapsuleCollider_o *)__this_02,fVar8,(MethodInfo *)0x0);
-      fVar8 = UnityEngine_CapsuleCollider__get_height
-                        ((UnityEngine_CapsuleCollider_o *)pSVar3,(MethodInfo *)0x0);
-      UnityEngine_CapsuleCollider__set_height
-                ((UnityEngine_CapsuleCollider_o *)__this_02,fVar8,(MethodInfo *)0x0);
-      pSVar7 = extraout_RAX;
-    }
-    if (in_R8B == '\0') {
-      return pSVar7;
-    }
-    pUVar5 = UnityEngine_Component__get_transform(__this_02,(MethodInfo *)0x0);
-    pSVar7 = pSVar3;
-    pSVar6 = (Settings_TitanCustomSet_o *)
-             UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar3,(MethodInfo *)0x0);
-    if ((pSVar6 != (Settings_TitanCustomSet_o *)0x0) &&
-       (UVar9 = UnityEngine_Transform__get_localPosition((UnityEngine_Transform_o *)pSVar6,(MethodInfo *)0x0),
-       pSVar7 = pSVar6, pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-      UnityEngine_Transform__set_localPosition(pUVar5,UVar9,(MethodInfo *)0x0);
-      pUVar5 = UnityEngine_Component__get_transform(__this_02,(MethodInfo *)0x0);
-      pSVar7 = pSVar3;
-      pSVar6 = (Settings_TitanCustomSet_o *)
-               UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar3,(MethodInfo *)0x0);
-      if ((pSVar6 != (Settings_TitanCustomSet_o *)0x0) &&
-         (value_00 = UnityEngine_Transform__get_localRotation
-                               ((UnityEngine_Transform_o *)pSVar6,(MethodInfo *)0x0), pSVar7 = pSVar6,
-         pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-        UnityEngine_Transform__set_localRotation(pUVar5,value_00,(MethodInfo *)0x0);
-        pUVar5 = UnityEngine_Component__get_transform(__this_02,(MethodInfo *)0x0);
-        pSVar6 = (Settings_TitanCustomSet_o *)
-                 UnityEngine_Component__get_transform((UnityEngine_Component_o *)pSVar3,(MethodInfo *)0x0);
-        pSVar7 = pSVar3;
-        if ((pSVar6 != (Settings_TitanCustomSet_o *)0x0) &&
-           (UVar9 = UnityEngine_Transform__get_localScale((UnityEngine_Transform_o *)pSVar6,(MethodInfo *)0x0)
-           , pSVar7 = pSVar6, pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__set_localScale(pUVar5,UVar9,(MethodInfo *)0x0);
-          return extraout_RAX_01;
-        }
-      }
-    }
-  }
-label_04320752:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)pSVar7,(MethodInfo *)0x0);
-  return extraout_RAX_02;
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanSetup$$Load
 // il2cpp: void Characters_BasicTitanSetup__Load (Characters_BasicTitanSetup_o* __this, Settings_TitanCustomSet_o* set, const MethodInfo* method);
-// 0x4313010
+// 0x18219fc90
+// eh: try 0x1821a0ea0..0x1821a0fd2 -> pad 0x183320de0 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 21 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821a004d: nop dword ptr [rax]
+// asm:   0x1821a02ac: nop dword ptr [rax]
+// asm:   0x1821a0f35: mov rdx, qword ptr [rip + 0x1eeba8c]  ; MethodInfo_System_Collections_Generic_List_Enumerator_Material_Dispose
+// asm:   0x1821a0f3c: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1821a0f41: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821a0f46: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x1821a0f4b: test rcx, rcx
+// asm:   0x1821a0f4e: jne 0x1821a0fd2
+// asm:   0x1821a0f54: mov r14, qword ptr [rsp + 0xc0]
+// asm:   0x1821a0fd2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183320de0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183320de5: push rbp
+// asm:   0x183320de6: sub rsp, 0x20
+// asm:   0x183320dea: mov rbp, rdx
+// asm:   0x183320ded: mov rax, qword ptr [rbp + 0x88]
+// asm:   0x183320df4: mov rcx, qword ptr [rax]
+// asm:   0x183320df7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x183320dfb: movabs rax, 0
+// asm:   0x183320e05: add rsp, 0x20
+// asm:   0x183320e09: pop rbp
+// asm:   0x183320e0a: ret 
 
 void Characters_BasicTitanSetup__Load
                (Characters_BasicTitanSetup_o *__this,Settings_TitanCustomSet_o *set,MethodInfo *method)
 
 {
-  Settings_IntSetting_o *pSVar1;
-  Settings_ColorSetting_o *pSVar2;
-  Utility_Color255_o *pUVar3;
-  Settings_StringSetting_o *pSVar4;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar5;
-  undefined1 auVar6 [16];
-  int index;
-  uint uVar7;
-  bool_conflict bVar8;
-  UnityEngine_Transform_o *pUVar9;
-  Characters_BasicTitanSetup_o *pCVar10;
-  UnityEngine_Renderer_o *pUVar11;
-  UnityEngine_Material_o *pUVar12;
-  UnityEngine_Transform_o *pUVar13;
-  UnityEngine_Object_o *obj;
-  System_String_o *pSVar14;
-  UnityEngine_GameObject_o *pUVar15;
-  System_Object_array *pSVar16;
-  System_String_o *pSVar17;
-  Characters_BaseTitan_o *__this_00;
-  UnityEngine_Transform_o *pUVar18;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  undefined4 uVar10;
+  undefined4 uVar11;
+  undefined4 uVar12;
+  undefined4 uVar13;
+  undefined4 uVar14;
+  undefined4 uVar15;
+  undefined4 uVar16;
+  undefined4 uVar17;
+  undefined4 uVar18;
+  undefined4 uVar19;
+  undefined4 uVar20;
+  undefined4 uVar21;
+  undefined4 uVar22;
+  undefined4 uVar23;
+  undefined4 uVar24;
+  undefined4 uVar25;
+  undefined4 uVar26;
+  undefined4 uVar27;
+  undefined4 uVar28;
+  undefined4 uVar29;
+  undefined4 uVar30;
+  System_Collections_Generic_HashSet_Material__o *collection;
+  System_Collections_Generic_HashSet_BallotBox_Ballot__o *__this_00;
+  System_Collections_Generic_HashSet_object__o *pSVar31;
+  Settings_ColorSetting_o *pSVar32;
+  Utility_Color255_o *pUVar33;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar34;
+  UnityEngine_Vector3_StaticFields *pUVar35;
   UnityEngine_Renderer_o *__this_01;
+  undefined4 uVar36;
+  undefined4 uVar37;
+  undefined4 uVar38;
+  undefined4 uVar39;
+  undefined4 uVar40;
+  undefined4 uVar41;
+  undefined4 uVar42;
+  undefined4 uVar43;
+  undefined4 uVar44;
+  undefined4 uVar45;
+  undefined4 uVar46;
+  undefined4 uVar47;
+  undefined4 uVar48;
+  undefined4 uVar49;
+  undefined4 uVar50;
+  undefined4 uVar51;
+  undefined4 uVar52;
+  undefined4 uVar53;
+  undefined4 uVar54;
+  undefined4 uVar55;
+  undefined4 uVar56;
+  undefined4 uVar57;
+  undefined4 uVar58;
+  undefined4 uVar59;
+  Il2CppObject *x;
+  bool bVar60;
+  int index;
+  UnityEngine_Transform_o *pUVar61;
+  UnityEngine_Transform_o *pUVar62;
+  UnityEngine_SkinnedMeshRenderer_o *pUVar63;
+  UnityEngine_Material_o *pUVar64;
+  UnityEngine_Color_o *pUVar65;
+  UnityEngine_Object_o *pUVar66;
+  System_String_o *pSVar67;
+  System_String_o *pSVar68;
+  UnityEngine_GameObject_o *pUVar69;
+  UnityEngine_Quaternion_o *pUVar70;
+  System_Object_array *pSVar71;
+  System_String_o *pSVar72;
   UnityEngine_SkinnedMeshRenderer_o *__this_02;
-  UnityEngine_SkinnedMeshRenderer_o *__this_03;
-  UnityEngine_Mesh_o *pUVar19;
-  UnityEngine_BoxCollider_o *__this_04;
+  UnityEngine_Mesh_o *pUVar73;
+  UnityEngine_CapsuleCollider_o *__this_03;
+  UnityEngine_CapsuleCollider_o *__this_04;
+  UnityEngine_Vector3_o *pUVar74;
+  UnityEngine_Transform_o *pUVar75;
+  UnityEngine_Transform_o *pUVar76;
+  UnityEngine_BoxCollider_o *pUVar77;
+  UnityEngine_BoxCollider_o *pUVar78;
   UnityEngine_MeshFilter_o *__this_05;
   UnityEngine_MeshFilter_o *__this_06;
-  Characters_BasicTitanComponentCache_o *__this_07;
-  uint uVar20;
-  Characters_BasicTitanSetup_o *pCVar21;
-  MethodInfo *in_R9;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  undefined1 auVar22 [16];
-  UnityEngine_Vector3_o UVar23;
-  UnityEngine_Color_o UVar24;
-  UnityEngine_Quaternion_o UVar25;
-  int32_t local_70;
-  int32_t local_6c;
-  undefined1 local_68 [16];
-  Characters_BasicTitanSetup_o *local_50;
-  undefined1 local_48 [16];
+  UnityEngine_MeshRenderer_o *__this_07;
+  Characters_BaseCharacter_o *__this_08;
+  UnityEngine_Object_o *pUVar79;
+  uint uVar80;
+  float fVar81;
+  int32_t local_res20 [2];
+  undefined1 local_98 [12];
+  float fStack_8c;
+  UnityEngine_Transform_o *local_88 [2];
+  int32_t local_78 [2];
+  System_Collections_Generic_List_Enumerator_T__o local_70;
+  System_Collections_Generic_List_Enumerator_object__o local_58;
+  UnityEngine_Material_o *local_40;
+  System_Collections_Generic_List_Material__o *local_38;
   
-  if (g_data_057adff2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MeshFilter_GetComponent_MeshFilter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MeshRenderer_GetComponent_MeshRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BoxCollider_AddComponent_BoxCollider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponentsInChildren_Renderer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetupMaterials);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Color255_get_Value);
-    il2cpp_runtime_helper_023445d0(&"EyesHurtbox");
-    il2cpp_runtime_helper_023445d0(&"TitanHeadCollider");
-    il2cpp_runtime_helper_023445d0(&"TitanEyes");
-    il2cpp_runtime_helper_023445d0(&"Eyes");
-    il2cpp_runtime_helper_023445d0(&"Bone");
-    il2cpp_runtime_helper_023445d0(&"Titans/Hairs/Prefabs/");
-    il2cpp_runtime_helper_023445d0(&"Nose");
-    il2cpp_runtime_helper_023445d0(&"Titans/Heads/Prefabs/");
-    il2cpp_runtime_helper_023445d0(&"TitanHead");
-    il2cpp_runtime_helper_023445d0(&"Body");
-    il2cpp_runtime_helper_023445d0(&"Head");
-    il2cpp_runtime_helper_023445d0(&"Eye");
-    il2cpp_runtime_helper_023445d0(&"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head");
-    il2cpp_runtime_helper_023445d0(&"HairSocket");
-    g_data_057adff2 = '\x01';
+  if (Il2CppMethodInitialized_184346e3c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MeshFilter);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_SkinnedMeshRenderer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Material_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Material_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_Material_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_BoxCollider);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Material_Contains);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSetupMaterials);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Material_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Material_ctor_40be668);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Material);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_Color255_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"EyesHurtbox");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanHeadCollider");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanEyes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Eyes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Bone");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titans/Hairs/Prefabs/");
+    il2cpp_codegen_initialize_runtime_metadata(&"Nose");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titans/Heads/Prefabs/");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanHead");
+    il2cpp_codegen_initialize_runtime_metadata(&"Body");
+    il2cpp_codegen_initialize_runtime_metadata(&"Head");
+    il2cpp_codegen_initialize_runtime_metadata(&"Eye");
+    il2cpp_codegen_initialize_runtime_metadata(&"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairSocket");
+    Il2CppMethodInitialized_184346e3c = '\x01';
   }
-  local_70 = 0;
-  local_6c = 0;
-  pUVar9 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
-      (pCVar10 = (Characters_BasicTitanSetup_o *)
-                 UnityEngine_Transform__Find(pUVar9,"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head",(MethodInfo *)0x0),
-      set != (Settings_TitanCustomSet_o *)0x0)) &&
-     (pSVar1 = (set->fields).Head, pSVar1 != (Settings_IntSetting_o *)0x0)) {
-    local_70 = (pSVar1->fields)._value;
-    pSVar2 = (set->fields).SkinColor;
-    if ((pSVar2 != (Settings_ColorSetting_o *)0x0) &&
-       (pUVar3 = (pSVar2->fields)._value, pUVar3 != (Utility_Color255_o *)0x0)) {
-      UVar24 = Utility_Color255__ToColor(pUVar3,(MethodInfo *)0x0);
-      local_68._8_4_ = extraout_XMM0_Dc;
-      local_68._0_8_ = UVar24.fields._0_8_;
-      local_68._12_4_ = extraout_XMM0_Dd;
-      local_48._8_4_ = in_XMM1_Dc;
-      local_48._0_8_ = UVar24.fields._8_8_;
-      local_48._12_4_ = in_XMM1_Dd;
-      pUVar9 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
-          ((pUVar9 = UnityEngine_Transform__Find(pUVar9,"Body",(MethodInfo *)0x0),
-           pUVar9 != (UnityEngine_Transform_o *)0x0 &&
-           (pUVar11 = (UnityEngine_Renderer_o *)
-                      UnityEngine_Component__GetComponent_object_
-                                ((UnityEngine_Component_o *)pUVar9,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer),
-           pUVar11 != (UnityEngine_Renderer_o *)0x0)))) &&
-         (pUVar12 = UnityEngine_Renderer__get_material(pUVar11,(MethodInfo *)0x0), auVar6 = local_48,
-         auVar22 = local_68, pUVar12 != (UnityEngine_Material_o *)0x0)) {
-        UVar24.fields.b = (float)local_48._0_4_;
-        UVar24.fields.a = (float)local_48._4_4_;
-        UVar24.fields.r = (float)local_68._0_4_;
-        UVar24.fields.g = (float)local_68._4_4_;
-        local_68 = auVar22;
-        local_48 = auVar6;
-        UnityEngine_Material__set_color(pUVar12,UVar24,(MethodInfo *)0x0);
-        if ((pCVar10 != (Characters_BasicTitanSetup_o *)0x0) &&
-           (pUVar9 = UnityEngine_Transform__Find
-                               ((UnityEngine_Transform_o *)pCVar10,"HairSocket",(MethodInfo *)0x0),
-           pUVar9 != (UnityEngine_Transform_o *)0x0)) {
-          local_68._0_8_ = __this;
-          index = UnityEngine_Transform__get_childCount(pUVar9,(MethodInfo *)0x0);
-          while (index = index + -1, -1 < index) {
-            pUVar13 = UnityEngine_Transform__GetChild(pUVar9,index,(MethodInfo *)0x0);
-            if (pUVar13 == (UnityEngine_Transform_o *)0x0) goto label_04313cf0;
-            obj = (UnityEngine_Object_o *)
-                  UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar13,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+  local_res20[0] = 0;
+  local_78[0] = 0;
+  local_58.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_58.fields._index = 0;
+  local_58.fields._version = 0;
+  local_58.fields._current = (Il2CppObject *)0x0;
+  collection = (__this->fields)._ownedMaterials;
+  local_38 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Material);
+  System_Collections_Generic_List_object____ctor_94fb10
+            ((System_Collections_Generic_List_object__o *)local_38,
+             (System_Collections_Generic_IEnumerable_T__o *)collection,
+             (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_Material_ctor_40be668);
+  __this_00 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._ownedMaterials;
+  if (__this_00 == (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
+label_1821a0fc0:
+    ThrowNullReferenceException();
+  }
+  System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+            (__this_00,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Clear);
+  pUVar61 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if ((pUVar61 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar61 = UnityEngine_Transform__Find(pUVar61,"Amarture_VER2/Core/Controller.Body/hip/spine/chest/neck/head",(MethodInfo *)0x0),
+     local_88[0] = pUVar61, set == (Settings_TitanCustomSet_o *)0x0)) goto label_1821a0fc0;
+  local_res20[0] = Settings_TitanCustomSet__GetHead(set,(MethodInfo *)0x0);
+  pUVar62 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if ((pUVar62 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar62 = UnityEngine_Transform__Find(pUVar62,"Body",(MethodInfo *)0x0),
+     pUVar62 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  pUVar63 = UnityEngine_Component__GetComponent_object_
+                      ((UnityEngine_Component_o *)pUVar62,
+                       (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_SkinnedMeshRenderer)
+  ;
+  if (Il2CppMethodInitialized_184346e3d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+    Il2CppMethodInitialized_184346e3d = '\x01';
+  }
+  if (pUVar63 == (UnityEngine_SkinnedMeshRenderer_o *)0x0) goto label_1821a0fc0;
+  pUVar64 = UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)pUVar63,(MethodInfo *)0x0);
+  pSVar31 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._ownedMaterials;
+  local_40 = pUVar64;
+  if (pSVar31 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821a0fc0;
+  System_Collections_Generic_HashSet_object___Add
+            (pSVar31,(Il2CppObject *)pUVar64,
+             (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+  pSVar32 = (set->fields).SkinColor;
+  if (((pSVar32 == (Settings_ColorSetting_o *)0x0) ||
+      (pUVar33 = (pSVar32->fields)._value, pUVar33 == (Utility_Color255_o *)0x0)) ||
+     (pUVar65 = Utility_Color255__ToColor((UnityEngine_Color_o *)local_98,pUVar33,(MethodInfo *)0x0),
+     pUVar64 == (UnityEngine_Material_o *)0x0)) goto label_1821a0fc0;
+  uVar36 = (pUVar65->fields).r;
+  uVar37 = (pUVar65->fields).g;
+  uVar38 = (pUVar65->fields).b;
+  uVar39 = (pUVar65->fields).a;
+  local_98._0_4_ = uVar36;
+  local_98._4_4_ = uVar37;
+  local_98._8_4_ = uVar38;
+  fStack_8c = (float)uVar39;
+  UnityEngine_Material__set_color(pUVar64,(UnityEngine_Color_o *)local_98,(MethodInfo *)0x0);
+  if ((pUVar61 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar61 = UnityEngine_Transform__Find(pUVar61,"HairSocket",(MethodInfo *)0x0),
+     pUVar61 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  index = UnityEngine_Transform__get_childCount(pUVar61,(MethodInfo *)0x0);
+  while (index = index + -1, -1 < index) {
+    pUVar62 = UnityEngine_Transform__GetChild(pUVar61,index,(MethodInfo *)0x0);
+    if (pUVar62 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+    pUVar66 = (UnityEngine_Object_o *)
+              UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar62,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    UnityEngine_Object__DestroyImmediate_2f1fb90(pUVar66,(MethodInfo *)0x0);
+  }
+  pSVar67 = Settings_TitanCustomSet__GetHair(set,(MethodInfo *)0x0);
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+  }
+  pSVar72 = TypeInfo_Utility_ResourcePaths->static_fields->Characters;
+  if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+  }
+  pSVar34 = (System_Collections_Generic_Dictionary_object__object__o *)
+            TypeInfo_Characters_BasicTitanSetup->static_fields->HairPrefabs;
+  if (pSVar34 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1821a0fc0;
+  pSVar68 = System_Collections_Generic_Dictionary_object__object___get_Item
+                      (pSVar34,(Il2CppObject *)pSVar67,
+                       (MethodInfo_147A5B0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+  pSVar68 = System_String__Concat_1969e50("Titans/Hairs/Prefabs/",pSVar68,(MethodInfo *)0x0);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  pUVar69 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                      (pSVar72,pSVar68,true,
+                       (MethodInfo_795F00 *)
+                       MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+  if ((pUVar69 == (UnityEngine_GameObject_o *)0x0) ||
+     (pUVar62 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0),
+     pUVar62 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  UnityEngine_Transform__SetParent(pUVar62,pUVar61,(MethodInfo *)0x0);
+  pUVar61 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_18433dbea == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433dbea = '\x01';
+  }
+  if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+  pUVar35 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar1 = (pUVar35->zeroVector).fields.x;
+  uVar16 = (pUVar35->zeroVector).fields.y;
+  local_98._8_4_ = (pUVar35->zeroVector).fields.z;
+  local_98._0_4_ = uVar1;
+  local_98._4_4_ = uVar16;
+  UnityEngine_Transform__set_localPosition(pUVar61,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar61 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+  local_98._0_4_ = -1.5707964;
+  local_98._4_4_ = 0.0;
+  local_98._8_4_ = 0.0;
+  pUVar70 = UnityEngine_Quaternion__Internal_FromEulerRad
+                      ((UnityEngine_Quaternion_o *)&local_70,(UnityEngine_Vector3_o *)local_98,
+                       (MethodInfo *)0x0);
+  if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+  uVar40 = (pUVar70->fields).x;
+  uVar41 = (pUVar70->fields).y;
+  uVar42 = (pUVar70->fields).z;
+  uVar43 = (pUVar70->fields).w;
+  local_98._0_4_ = uVar40;
+  local_98._4_4_ = uVar41;
+  local_98._8_4_ = uVar42;
+  fStack_8c = (float)uVar43;
+  UnityEngine_Transform__set_localRotation(pUVar61,(UnityEngine_Quaternion_o *)local_98,(MethodInfo *)0x0);
+  pUVar61 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_18433dbeb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433dbeb = '\x01';
+  }
+  if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+  pUVar35 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar2 = (pUVar35->oneVector).fields.x;
+  uVar17 = (pUVar35->oneVector).fields.y;
+  local_98._8_4_ = (pUVar35->oneVector).fields.z;
+  local_98._0_4_ = uVar2;
+  local_98._4_4_ = uVar17;
+  UnityEngine_Transform__set_localScale(pUVar61,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pSVar71 = UnityEngine_GameObject__GetComponentsInChildren_object__6f5810
+                      (pUVar69,(MethodInfo_6F5810 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_Renderer);
+  if (pSVar71 == (System_Object_array *)0x0) goto label_1821a0fc0;
+  for (uVar80 = 0; (int)uVar80 < (int)pSVar71->max_length; uVar80 = uVar80 + 1) {
+    if ((uint)pSVar71->max_length <= uVar80) {
+      ThrowIndexOutOfRangeException();
+    }
+    __this_01 = (UnityEngine_Renderer_o *)pSVar71->m_Items[(int)uVar80];
+    if ((TypeInfo_Characters_BasicTitanSetup->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_BasicTitanSetup);
+    }
+    pSVar34 = (System_Collections_Generic_Dictionary_object__object__o *)
+              TypeInfo_Characters_BasicTitanSetup->static_fields->HairPrefabs;
+    if (pSVar34 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1821a0fc0;
+    pSVar72 = System_Collections_Generic_Dictionary_object__object___get_Item
+                        (pSVar34,(Il2CppObject *)pSVar67,
+                         (MethodInfo_147A5B0 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_string_get_Item);
+    if ((TypeInfo_Characters_HumanSetupMaterials->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetupMaterials);
+    }
+    pUVar64 = Characters_HumanSetupMaterials__GetHairMaterial(pSVar72,(MethodInfo *)0x0);
+    if (__this_01 == (UnityEngine_Renderer_o *)0x0) goto label_1821a0fc0;
+    UnityEngine_Renderer__set_sharedMaterial(__this_01,pUVar64,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184346e3d == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+      Il2CppMethodInitialized_184346e3d = '\x01';
+    }
+    pUVar64 = UnityEngine_Renderer__get_material(__this_01,(MethodInfo *)0x0);
+    pSVar31 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._ownedMaterials;
+    if (pSVar31 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1821a0fc0;
+    System_Collections_Generic_HashSet_object___Add
+              (pSVar31,(Il2CppObject *)pUVar64,
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+    pSVar32 = (set->fields).HairColor;
+    if (((pSVar32 == (Settings_ColorSetting_o *)0x0) ||
+        (pUVar33 = (pSVar32->fields)._value, pUVar33 == (Utility_Color255_o *)0x0)) ||
+       (pUVar65 = Utility_Color255__ToColor((UnityEngine_Color_o *)&local_70,pUVar33,(MethodInfo *)0x0),
+       pUVar64 == (UnityEngine_Material_o *)0x0)) goto label_1821a0fc0;
+    uVar44 = (pUVar65->fields).r;
+    uVar45 = (pUVar65->fields).g;
+    uVar46 = (pUVar65->fields).b;
+    uVar47 = (pUVar65->fields).a;
+    local_98._0_4_ = uVar44;
+    local_98._4_4_ = uVar45;
+    local_98._8_4_ = uVar46;
+    fStack_8c = (float)uVar47;
+    UnityEngine_Material__set_color(pUVar64,(UnityEngine_Color_o *)local_98,(MethodInfo *)0x0);
+  }
+  pSVar67 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+  pSVar67 = System_String__Concat_1969e50("TitanHead",pSVar67,(MethodInfo *)0x0);
+  pUVar61 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+  pUVar61 = UnityEngine_Transform__Find(pUVar61,"Head",(MethodInfo *)0x0);
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+  }
+  pSVar72 = TypeInfo_Utility_ResourcePaths->static_fields->Characters;
+  pSVar67 = System_String__Concat_1969e50("Titans/Heads/Prefabs/",pSVar67,(MethodInfo *)0x0);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  pUVar66 = ApplicationManagers_ResourceManager__LoadAsset(pSVar72,pSVar67,true,(MethodInfo *)0x0);
+  if (pUVar66 == (UnityEngine_Object_o *)0x0) goto label_1821a0fc0;
+  pUVar79 = (UnityEngine_Object_o *)0x0;
+  if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+    pUVar79 = pUVar66;
+  }
+  if (pUVar79 == (UnityEngine_Object_o *)0x0) {
+    il2cpp_codegen_raise_invalid_cast_exception(pUVar66);
+  }
+  pUVar79 = (UnityEngine_Object_o *)0x0;
+  if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+    pUVar79 = pUVar66;
+  }
+  pUVar62 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pUVar79,(MethodInfo *)0x0);
+  if ((pUVar61 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar63 = UnityEngine_Component__GetComponent_object_
+                          ((UnityEngine_Component_o *)pUVar61,
+                           (MethodInfo_6651A0 *)
+                           MethodInfo_UnityEngine_Component_GetComponent_SkinnedMeshRenderer),
+     pUVar63 == (UnityEngine_SkinnedMeshRenderer_o *)0x0)) goto label_1821a0fc0;
+  UnityEngine_Renderer__set_sharedMaterial((UnityEngine_Renderer_o *)pUVar63,local_40,(MethodInfo *)0x0);
+  pUVar63 = UnityEngine_Component__GetComponent_object_
+                      ((UnityEngine_Component_o *)pUVar61,
+                       (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_SkinnedMeshRenderer)
+  ;
+  if ((pUVar62 == (UnityEngine_Transform_o *)0x0) ||
+     ((__this_02 = UnityEngine_Component__GetComponent_object_
+                             ((UnityEngine_Component_o *)pUVar62,
+                              (MethodInfo_6651A0 *)
+                              MethodInfo_UnityEngine_Component_GetComponent_SkinnedMeshRenderer),
+      __this_02 == (UnityEngine_SkinnedMeshRenderer_o *)0x0 ||
+      (pUVar73 = UnityEngine_SkinnedMeshRenderer__get_sharedMesh(__this_02,(MethodInfo *)0x0),
+      pUVar63 == (UnityEngine_SkinnedMeshRenderer_o *)0x0)))) goto label_1821a0fc0;
+  UnityEngine_SkinnedMeshRenderer__set_sharedMesh(pUVar63,pUVar73,(MethodInfo *)0x0);
+  pSVar67 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+  pSVar72 = System_String__Concat_1969e50("TitanHeadCollider",pSVar67,(MethodInfo *)0x0);
+  pSVar67 = TypeInfo_Utility_ResourcePaths->static_fields->Characters;
+  pSVar72 = System_String__Concat_1969e50("Titans/Heads/Prefabs/",pSVar72,(MethodInfo *)0x0);
+  pUVar66 = ApplicationManagers_ResourceManager__LoadAsset(pSVar67,pSVar72,true,(MethodInfo *)0x0);
+  if (pUVar66 == (UnityEngine_Object_o *)0x0) goto label_1821a0fc0;
+  pUVar79 = (UnityEngine_Object_o *)0x0;
+  if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+    pUVar79 = pUVar66;
+  }
+  if (pUVar79 == (UnityEngine_Object_o *)0x0) {
+    il2cpp_codegen_raise_invalid_cast_exception(pUVar66);
+  }
+  pUVar79 = (UnityEngine_Object_o *)0x0;
+  if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+    pUVar79 = pUVar66;
+  }
+  pUVar61 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pUVar79,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184346e3f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider)
+    ;
+    Il2CppMethodInitialized_184346e3f = '\x01';
+  }
+  if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fc0;
+  __this_03 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)pUVar61,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider);
+  pUVar62 = local_88[0];
+  __this_04 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)local_88[0],
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider);
+  if ((__this_03 == (UnityEngine_CapsuleCollider_o *)0x0) ||
+     (pUVar74 = UnityEngine_CapsuleCollider__get_center
+                          ((UnityEngine_Vector3_o *)local_88,__this_03,(MethodInfo *)0x0),
+     __this_04 == (UnityEngine_CapsuleCollider_o *)0x0)) goto label_1821a0fc0;
+  uVar3 = (pUVar74->fields).x;
+  uVar18 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar3;
+  local_98._4_4_ = uVar18;
+  UnityEngine_CapsuleCollider__set_center(__this_04,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  fVar81 = UnityEngine_CapsuleCollider__get_radius(__this_03,(MethodInfo *)0x0);
+  UnityEngine_CapsuleCollider__set_radius(__this_04,fVar81,(MethodInfo *)0x0);
+  fVar81 = UnityEngine_CapsuleCollider__get_height(__this_03,(MethodInfo *)0x0);
+  UnityEngine_CapsuleCollider__set_height(__this_04,fVar81,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Transform__Find(pUVar61,"Bone",(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Transform__Find(pUVar62,"Bone",(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184346e3f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider)
+    ;
+    Il2CppMethodInitialized_184346e3f = '\x01';
+  }
+  if ((((pUVar75 == (UnityEngine_Transform_o *)0x0) ||
+       (pUVar77 = UnityEngine_Component__GetComponent_object_
+                            ((UnityEngine_Component_o *)pUVar75,
+                             (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider),
+       pUVar76 == (UnityEngine_Transform_o *)0x0)) ||
+      (pUVar78 = UnityEngine_Component__GetComponent_object_
+                           ((UnityEngine_Component_o *)pUVar76,
+                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider),
+      pUVar77 == (UnityEngine_BoxCollider_o *)0x0)) ||
+     (pUVar74 = UnityEngine_BoxCollider__get_center
+                          ((UnityEngine_Vector3_o *)local_88,pUVar77,(MethodInfo *)0x0),
+     pUVar78 == (UnityEngine_BoxCollider_o *)0x0)) goto label_1821a0fc0;
+  uVar4 = (pUVar74->fields).x;
+  uVar19 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar4;
+  local_98._4_4_ = uVar19;
+  UnityEngine_BoxCollider__set_center(pUVar78,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar74 = UnityEngine_BoxCollider__get_size((UnityEngine_Vector3_o *)local_88,pUVar77,(MethodInfo *)0x0);
+  uVar5 = (pUVar74->fields).x;
+  uVar20 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar5;
+  local_98._4_4_ = uVar20;
+  UnityEngine_BoxCollider__set_size(pUVar78,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Transform__Find(pUVar61,"EyesHurtbox",(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Transform__Find(pUVar62,"EyesHurtbox",(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184346e3f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider)
+    ;
+    Il2CppMethodInitialized_184346e3f = '\x01';
+  }
+  if (((pUVar75 == (UnityEngine_Transform_o *)0x0) ||
+      (pUVar77 = UnityEngine_Component__GetComponent_object_
+                           ((UnityEngine_Component_o *)pUVar75,
+                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider),
+      pUVar76 == (UnityEngine_Transform_o *)0x0)) ||
+     ((pUVar78 = UnityEngine_Component__GetComponent_object_
+                           ((UnityEngine_Component_o *)pUVar76,
+                            (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider),
+      pUVar77 == (UnityEngine_BoxCollider_o *)0x0 ||
+      (pUVar74 = UnityEngine_BoxCollider__get_center
+                           ((UnityEngine_Vector3_o *)local_88,pUVar77,(MethodInfo *)0x0),
+      pUVar78 == (UnityEngine_BoxCollider_o *)0x0)))) goto label_1821a0fc0;
+  uVar6 = (pUVar74->fields).x;
+  uVar21 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar6;
+  local_98._4_4_ = uVar21;
+  UnityEngine_BoxCollider__set_center(pUVar78,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar74 = UnityEngine_BoxCollider__get_size((UnityEngine_Vector3_o *)local_88,pUVar77,(MethodInfo *)0x0);
+  uVar7 = (pUVar74->fields).x;
+  uVar22 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar7;
+  local_98._4_4_ = uVar22;
+  UnityEngine_BoxCollider__set_size(pUVar78,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar78,(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar77,(MethodInfo *)0x0);
+  if ((pUVar76 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar74 = UnityEngine_Transform__get_localPosition
+                          ((UnityEngine_Vector3_o *)local_88,pUVar76,(MethodInfo *)0x0),
+     pUVar75 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  uVar8 = (pUVar74->fields).x;
+  uVar23 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar8;
+  local_98._4_4_ = uVar23;
+  UnityEngine_Transform__set_localPosition(pUVar75,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar78,(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar77,(MethodInfo *)0x0);
+  if ((pUVar76 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar70 = UnityEngine_Transform__get_localRotation
+                          ((UnityEngine_Quaternion_o *)&local_70,pUVar76,(MethodInfo *)0x0),
+     pUVar75 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  uVar48 = (pUVar70->fields).x;
+  uVar49 = (pUVar70->fields).y;
+  uVar50 = (pUVar70->fields).z;
+  uVar51 = (pUVar70->fields).w;
+  local_98._0_4_ = uVar48;
+  local_98._4_4_ = uVar49;
+  local_98._8_4_ = uVar50;
+  fStack_8c = (float)uVar51;
+  UnityEngine_Transform__set_localRotation(pUVar75,(UnityEngine_Quaternion_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar78,(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pUVar77,(MethodInfo *)0x0);
+  if ((pUVar76 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar74 = UnityEngine_Transform__get_localScale
+                          ((UnityEngine_Vector3_o *)local_88,pUVar76,(MethodInfo *)0x0),
+     pUVar75 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  uVar9 = (pUVar74->fields).x;
+  uVar24 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar9;
+  local_98._4_4_ = uVar24;
+  UnityEngine_Transform__set_localScale(pUVar75,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Transform__Find(pUVar61,"HairSocket",(MethodInfo *)0x0);
+  pUVar76 = UnityEngine_Transform__Find(pUVar62,"HairSocket",(MethodInfo *)0x0);
+  if ((pUVar75 == (UnityEngine_Transform_o *)0x0) ||
+     (pUVar74 = UnityEngine_Transform__get_localPosition
+                          ((UnityEngine_Vector3_o *)local_88,pUVar75,(MethodInfo *)0x0),
+     pUVar76 == (UnityEngine_Transform_o *)0x0)) goto label_1821a0fc0;
+  uVar10 = (pUVar74->fields).x;
+  uVar25 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar10;
+  local_98._4_4_ = uVar25;
+  UnityEngine_Transform__set_localPosition(pUVar76,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar70 = UnityEngine_Transform__get_localRotation
+                      ((UnityEngine_Quaternion_o *)&local_70,pUVar75,(MethodInfo *)0x0);
+  uVar52 = (pUVar70->fields).x;
+  uVar53 = (pUVar70->fields).y;
+  uVar54 = (pUVar70->fields).z;
+  uVar55 = (pUVar70->fields).w;
+  local_98._0_4_ = uVar52;
+  local_98._4_4_ = uVar53;
+  local_98._8_4_ = uVar54;
+  fStack_8c = (float)uVar55;
+  UnityEngine_Transform__set_localRotation(pUVar76,(UnityEngine_Quaternion_o *)local_98,(MethodInfo *)0x0);
+  pUVar74 = UnityEngine_Transform__get_localScale((UnityEngine_Vector3_o *)local_88,pUVar75,(MethodInfo *)0x0)
+  ;
+  uVar11 = (pUVar74->fields).x;
+  uVar26 = (pUVar74->fields).y;
+  local_98._8_4_ = (pUVar74->fields).z;
+  local_98._0_4_ = uVar11;
+  local_98._4_4_ = uVar26;
+  UnityEngine_Transform__set_localScale(pUVar76,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  pUVar75 = UnityEngine_Transform__Find(pUVar61,"Nose",(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar60 = UnityEngine_Object__op_Inequality
+                     ((UnityEngine_Object_o *)pUVar75,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar60) {
+    pUVar61 = UnityEngine_Transform__Find(pUVar61,"Nose",(MethodInfo *)0x0);
+    pUVar69 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+    UnityEngine_GameObject___ctor_2f1ad20(pUVar69,(MethodInfo *)0x0);
+    if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+    }
+    if (pUVar69 == (UnityEngine_GameObject_o *)0x0) goto label_1821a0fe1;
+    UnityEngine_GameObject__set_layer
+              (pUVar69,TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox,(MethodInfo *)0x0);
+    pUVar75 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+    if (pUVar75 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fe1;
+    UnityEngine_Transform__SetParent(pUVar75,pUVar62,(MethodInfo *)0x0);
+    pUVar75 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+    if (pUVar61 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fe1;
+    pUVar74 = UnityEngine_Transform__get_localPosition
+                        ((UnityEngine_Vector3_o *)local_88,pUVar61,(MethodInfo *)0x0);
+    if (pUVar75 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fe1;
+    uVar12 = (pUVar74->fields).x;
+    uVar27 = (pUVar74->fields).y;
+    local_98._8_4_ = (pUVar74->fields).z;
+    local_98._0_4_ = uVar12;
+    local_98._4_4_ = uVar27;
+    UnityEngine_Transform__set_localPosition(pUVar75,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+    pUVar75 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+    pUVar70 = UnityEngine_Transform__get_localRotation
+                        ((UnityEngine_Quaternion_o *)&local_70,pUVar61,(MethodInfo *)0x0);
+    if (pUVar75 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fe1;
+    uVar56 = (pUVar70->fields).x;
+    uVar57 = (pUVar70->fields).y;
+    uVar58 = (pUVar70->fields).z;
+    uVar59 = (pUVar70->fields).w;
+    local_98._0_4_ = uVar56;
+    local_98._4_4_ = uVar57;
+    local_98._8_4_ = uVar58;
+    fStack_8c = (float)uVar59;
+    UnityEngine_Transform__set_localRotation(pUVar75,(UnityEngine_Quaternion_o *)local_98,(MethodInfo *)0x0);
+    pUVar75 = UnityEngine_GameObject__get_transform(pUVar69,(MethodInfo *)0x0);
+    pUVar74 = UnityEngine_Transform__get_localScale
+                        ((UnityEngine_Vector3_o *)local_88,pUVar61,(MethodInfo *)0x0);
+    if (pUVar75 == (UnityEngine_Transform_o *)0x0) goto label_1821a0fe1;
+    uVar13 = (pUVar74->fields).x;
+    uVar28 = (pUVar74->fields).y;
+    local_98._8_4_ = (pUVar74->fields).z;
+    local_98._0_4_ = uVar13;
+    local_98._4_4_ = uVar28;
+    UnityEngine_Transform__set_localScale(pUVar75,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+    pUVar77 = UnityEngine_GameObject__AddComponent_object_
+                        (pUVar69,(MethodInfo_6F4D60 *)
+                                 MethodInfo_UnityEngine_GameObject_AddComponent_BoxCollider);
+    if (Il2CppMethodInitialized_18433dbea == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433dbea = '\x01';
+    }
+    if (pUVar77 == (UnityEngine_BoxCollider_o *)0x0) goto label_1821a0fe1;
+    pUVar35 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar14 = (pUVar35->zeroVector).fields.x;
+    uVar29 = (pUVar35->zeroVector).fields.y;
+    local_98._8_4_ = (pUVar35->zeroVector).fields.z;
+    local_98._0_4_ = uVar14;
+    local_98._4_4_ = uVar29;
+    UnityEngine_BoxCollider__set_center(pUVar77,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433dbeb == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433dbeb = '\x01';
+    }
+    pUVar35 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar15 = (pUVar35->oneVector).fields.x;
+    uVar30 = (pUVar35->oneVector).fields.y;
+    local_98._8_4_ = (pUVar35->oneVector).fields.z;
+    local_98._0_4_ = uVar15;
+    local_98._4_4_ = uVar30;
+    UnityEngine_BoxCollider__set_size(pUVar77,(UnityEngine_Vector3_o *)local_98,(MethodInfo *)0x0);
+  }
+  pSVar67 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+  pSVar67 = System_String__Concat_1969e50("TitanEyes",pSVar67,(MethodInfo *)0x0);
+  local_78[0] = Settings_TitanCustomSet__GetEye(set,(MethodInfo *)0x0);
+  pUVar61 = UnityEngine_Transform__Find(pUVar62,"Eyes",(MethodInfo *)0x0);
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
+  }
+  pSVar72 = TypeInfo_Utility_ResourcePaths->static_fields->Characters;
+  pSVar67 = System_String__Concat_1969e50("Titans/Heads/Prefabs/",pSVar67,(MethodInfo *)0x0);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  pUVar66 = ApplicationManagers_ResourceManager__LoadAsset(pSVar72,pSVar67,true,(MethodInfo *)0x0);
+  if (pUVar66 != (UnityEngine_Object_o *)0x0) {
+    pUVar79 = (UnityEngine_Object_o *)0x0;
+    if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+      pUVar79 = pUVar66;
+    }
+    if (pUVar79 == (UnityEngine_Object_o *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar66);
+    }
+    pUVar79 = (UnityEngine_Object_o *)0x0;
+    if (pUVar66->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_GameObject) {
+      pUVar79 = pUVar66;
+    }
+    pUVar62 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pUVar79,(MethodInfo *)0x0);
+    if (pUVar61 != (UnityEngine_Transform_o *)0x0) {
+      __this_05 = UnityEngine_Component__GetComponent_object_
+                            ((UnityEngine_Component_o *)pUVar61,
+                             (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_MeshFilter);
+      if (pUVar62 != (UnityEngine_Transform_o *)0x0) {
+        __this_06 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar62,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_MeshFilter);
+        if (__this_06 != (UnityEngine_MeshFilter_o *)0x0) {
+          pUVar73 = UnityEngine_MeshFilter__get_sharedMesh(__this_06,(MethodInfo *)0x0);
+          if (__this_05 != (UnityEngine_MeshFilter_o *)0x0) {
+            UnityEngine_MeshFilter__set_sharedMesh(__this_05,pUVar73,(MethodInfo *)0x0);
+            __this_07 = UnityEngine_Component__GetComponent_object_
+                                  ((UnityEngine_Component_o *)pUVar61,
+                                   (MethodInfo_6651A0 *)
+                                   MethodInfo_UnityEngine_Component_GetComponent_MeshRenderer);
+            pSVar67 = System_Int32__ToString(local_78,(MethodInfo *)0x0);
+            pSVar67 = System_String__Concat_1969e50("Eye",pSVar67,(MethodInfo *)0x0);
+            if ((TypeInfo_Characters_HumanSetupMaterials->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetupMaterials);
             }
-            UnityEngine_Object__DestroyImmediate_4e01e00(obj,(MethodInfo *)0x0);
-          }
-          local_50 = pCVar10;
-          if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar17 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8);
-          if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar4 = (set->fields).Hair;
-          if ((pSVar4 != (Settings_StringSetting_o *)0x0) &&
-             (pSVar5 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                        (*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x20),
-             pSVar5 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-            pSVar14 = (System_String_o *)
-                      System_Collections_Generic_Dictionary_object__object___get_Item
-                                (pSVar5,(Il2CppObject *)(pSVar4->fields)._value,MethodInfo_String_get_Item);
-            pSVar14 = System_String__Concat_3ae5ba0("Titans/Hairs/Prefabs/",pSVar14,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pUVar15 = (UnityEngine_GameObject_o *)
-                      ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                                (pSVar17,pSVar14,1,MethodInfo_GameObject_InstantiateAsset_GameObject);
-            if ((pUVar15 != (UnityEngine_GameObject_o *)0x0) &&
-               (pUVar13 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0),
-               pUVar13 != (UnityEngine_Transform_o *)0x0)) {
-              UnityEngine_Transform__SetParent(pUVar13,pUVar9,(MethodInfo *)0x0);
-              pUVar9 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-              if (g_data_057a65d5 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                g_data_057a65d5 = '\x01';
-              }
-              if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                UnityEngine_Transform__set_localPosition
-                          (pUVar9,(UnityEngine_Vector3_o)
-                                  **(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),(MethodInfo *)0x0);
-                pUVar9 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-                UVar25 = UnityEngine_Quaternion__Internal_FromEulerRad
-                                   ((UnityEngine_Vector3_o)ZEXT812(0xbfc90fdb),(MethodInfo *)0x0);
-                if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                  UnityEngine_Transform__set_localRotation(pUVar9,UVar25,(MethodInfo *)0x0);
-                  pUVar9 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-                  if (g_data_057a6932 == '\0') {
-                    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                    g_data_057a6932 = '\x01';
+            pUVar64 = Characters_HumanSetupMaterials__GetTitanEyeMaterial(pSVar67,(MethodInfo *)0x0);
+            if (__this_07 != (UnityEngine_MeshRenderer_o *)0x0) {
+              UnityEngine_Renderer__set_sharedMaterial
+                        ((UnityEngine_Renderer_o *)__this_07,pUVar64,(MethodInfo *)0x0);
+              if (local_38 != (System_Collections_Generic_List_Material__o *)0x0) {
+                System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                          (&local_70,(System_Collections_Generic_List_T__o *)local_38,
+                           (MethodInfo_91F180 *)
+                           MethodInfo_System_Collections_Generic_List_Material_GetEnumerator);
+                local_58.fields._list = local_70.fields._list;
+                local_58.fields._index = local_70.fields._index;
+                local_58.fields._version = local_70.fields._version;
+                local_58.fields._current = local_70.fields._current;
+                local_98._0_4_ = 0.0;
+                local_98._4_4_ = 0.0;
+                unique0x1000291c = &local_58;
+                while( true ) {
+                  bVar60 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                     (&local_58,
+                                      (MethodInfo_153A2A0 *)
+                                      MethodInfo_System_Collections_Generic_List_Enumerator_Material_MoveNext)
+                  ;
+                  x = local_58.fields._current;
+                  if (!bVar60) break;
+                  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                   }
-                  if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                    UnityEngine_Transform__set_localScale
-                              (pUVar9,(UnityEngine_Vector3_o)
-                                      *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                               (MethodInfo *)0x0);
-                    pSVar16 = UnityEngine_GameObject__GetComponentsInChildren_object__255ab00
-                                        (pUVar15,MethodInfo_Renderer_GetComponentsInChildren_Renderer);
-                    if (pSVar16 != (System_Object_array *)0x0) {
-                      uVar7 = (uint)pSVar16->max_length;
-                      if (0 < (int)uVar7) {
-                        uVar20 = 0;
-                        do {
-                          if (uVar7 <= uVar20) goto label_04313cf5;
-                          pUVar11 = (UnityEngine_Renderer_o *)pSVar16->m_Items[(int)uVar20];
-                          if (*(int *)(TypeInfo_BasicTitanSetup + 0xe4) == 0) {
-                            il2cpp_runtime_helper_02337ed0();
-                          }
-                          pSVar4 = (set->fields).Hair;
-                          if ((pSVar4 == (Settings_StringSetting_o *)0x0) ||
-                             (pSVar5 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                                        (*(long *)(TypeInfo_BasicTitanSetup + 0xb8) + 0x20),
-                             pSVar5 == (System_Collections_Generic_Dictionary_object__object__o *)0x0))
-                          goto label_04313cf0;
-                          pSVar17 = (System_String_o *)
-                                    System_Collections_Generic_Dictionary_object__object___get_Item
-                                              (pSVar5,(Il2CppObject *)(pSVar4->fields)._value,MethodInfo_String_get_Item);
-                          if (*(int *)(TypeInfo_HumanSetupMaterials + 0xe4) == 0) {
-                            il2cpp_runtime_helper_02337ed0();
-                          }
-                          pUVar12 = Characters_HumanSetupMaterials__GetHairMaterial(pSVar17,(MethodInfo *)0x0)
-                          ;
-                          if (pUVar11 == (UnityEngine_Renderer_o *)0x0) goto label_04313cf0;
-                          UnityEngine_Renderer__set_material(pUVar11,pUVar12,(MethodInfo *)0x0);
-                          pUVar12 = UnityEngine_Renderer__get_material(pUVar11,(MethodInfo *)0x0);
-                          pSVar2 = (set->fields).HairColor;
-                          if (((pSVar2 == (Settings_ColorSetting_o *)0x0) ||
-                              (pUVar3 = (pSVar2->fields)._value, pUVar3 == (Utility_Color255_o *)0x0)) ||
-                             (UVar24 = Utility_Color255__ToColor(pUVar3,(MethodInfo *)0x0),
-                             pUVar12 == (UnityEngine_Material_o *)0x0)) goto label_04313cf0;
-                          UnityEngine_Material__set_color(pUVar12,UVar24,(MethodInfo *)0x0);
-                          uVar20 = uVar20 + 1;
-                          uVar7 = (uint)pSVar16->max_length;
-                        } while ((int)uVar20 < (int)uVar7);
+                  bVar60 = UnityEngine_Object__op_Inequality
+                                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
+                  ;
+                  if (bVar60) {
+                    pSVar31 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._ownedMaterials
+                    ;
+                    if (pSVar31 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+                      ThrowNullReferenceException();
+                    }
+                    bVar60 = System_Collections_Generic_HashSet_object___Contains
+                                       (pSVar31,x,
+                                        (MethodInfo_1759E40 *)
+                                        MethodInfo_System_Collections_Generic_HashSet_Material_Contains);
+                    if (!bVar60) {
+                      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
                       }
-                      pSVar17 = System_Int32__ToString((int32_t)&local_70,(MethodInfo *)0x0);
-                      pSVar17 = System_String__Concat_3ae5ba0("TitanHead",pSVar17,(MethodInfo *)0x0);
-                      pUVar9 = UnityEngine_Component__get_transform
-                                         ((UnityEngine_Component_o *)local_68._0_8_,(MethodInfo *)0x0);
-                      if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                        pUVar9 = UnityEngine_Transform__Find(pUVar9,"Head",(MethodInfo *)0x0);
-                        if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-                          il2cpp_runtime_helper_02337ed0();
-                        }
-                        pSVar14 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8);
-                        pSVar17 = System_String__Concat_3ae5ba0("Titans/Heads/Prefabs/",pSVar17,(MethodInfo *)0x0);
-                        if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-                          il2cpp_runtime_helper_02337ed0();
-                        }
-                        __this_00 = (Characters_BaseTitan_o *)
-                                    ApplicationManagers_ResourceManager__LoadAsset
-                                              (pSVar14,pSVar17,1,(MethodInfo *)0x0);
-                        if (__this_00 != (Characters_BaseTitan_o *)0x0) {
-                          if (__this_00->klass != TypeInfo_GameObject) goto label_04313cfa;
-                          pUVar13 = UnityEngine_GameObject__get_transform
-                                              ((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0);
-                          if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                            pUVar11 = (UnityEngine_Renderer_o *)
-                                      UnityEngine_Component__GetComponent_object_
-                                                ((UnityEngine_Component_o *)pUVar9,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-                            pUVar18 = UnityEngine_Component__get_transform
-                                                ((UnityEngine_Component_o *)local_68._0_8_,(MethodInfo *)0x0);
-                            if (((pUVar18 != (UnityEngine_Transform_o *)0x0) &&
-                                (pUVar18 = UnityEngine_Transform__Find(pUVar18,"Body",(MethodInfo *)0x0)
-                                , pUVar18 != (UnityEngine_Transform_o *)0x0)) &&
-                               ((__this_01 = (UnityEngine_Renderer_o *)
-                                             UnityEngine_Component__GetComponent_object_
-                                                       ((UnityEngine_Component_o *)pUVar18,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer),
-                                __this_01 != (UnityEngine_Renderer_o *)0x0 &&
-                                (pUVar12 = UnityEngine_Renderer__get_material(__this_01,(MethodInfo *)0x0),
-                                pUVar11 != (UnityEngine_Renderer_o *)0x0)))) {
-                              UnityEngine_Renderer__set_material(pUVar11,pUVar12,(MethodInfo *)0x0);
-                              __this_02 = (UnityEngine_SkinnedMeshRenderer_o *)
-                                          UnityEngine_Component__GetComponent_object_
-                                                    ((UnityEngine_Component_o *)pUVar9,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer);
-                              if (((pUVar13 != (UnityEngine_Transform_o *)0x0) &&
-                                  (__this_03 = (UnityEngine_SkinnedMeshRenderer_o *)
-                                               UnityEngine_Component__GetComponent_object_
-                                                         ((UnityEngine_Component_o *)pUVar13,MethodInfo_SkinnedMeshRenderer_GetComponent_SkinnedMeshRenderer),
-                                  pCVar10 = local_50, __this_03 != (UnityEngine_SkinnedMeshRenderer_o *)0x0))
-                                 && (pUVar19 = UnityEngine_SkinnedMeshRenderer__get_sharedMesh
-                                                         (__this_03,(MethodInfo *)0x0),
-                                    __this_02 != (UnityEngine_SkinnedMeshRenderer_o *)0x0)) {
-                                UnityEngine_SkinnedMeshRenderer__set_sharedMesh
-                                          (__this_02,pUVar19,(MethodInfo *)0x0);
-                                pSVar17 = System_Int32__ToString((int32_t)&local_70,(MethodInfo *)0x0);
-                                pSVar14 = System_String__Concat_3ae5ba0
-                                                    ("TitanHeadCollider",pSVar17,(MethodInfo *)0x0);
-                                pSVar17 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8);
-                                pSVar14 = System_String__Concat_3ae5ba0
-                                                    ("Titans/Heads/Prefabs/",pSVar14,(MethodInfo *)0x0);
-                                __this_00 = (Characters_BaseTitan_o *)
-                                            ApplicationManagers_ResourceManager__LoadAsset
-                                                      (pSVar17,pSVar14,1,(MethodInfo *)0x0);
-                                if (__this_00 != (Characters_BaseTitan_o *)0x0) {
-                                  if (__this_00->klass != TypeInfo_GameObject) goto label_04313cfa;
-                                  pUVar9 = UnityEngine_GameObject__get_transform
-                                                     ((UnityEngine_GameObject_o *)__this_00,(MethodInfo *)0x0)
-                                  ;
-                                  Characters_BasicTitanSetup__CopyColliders
-                                            ((Characters_BasicTitanSetup_o *)__this_00,pUVar9,
-                                             (UnityEngine_Transform_o *)pCVar10,1,0,in_R9);
-                                  if (pUVar9 != (UnityEngine_Transform_o *)0x0) {
-                                    pUVar13 = UnityEngine_Transform__Find
-                                                        (pUVar9,"Bone",(MethodInfo *)0x0);
-                                    pCVar21 = pCVar10;
-                                    pUVar18 = UnityEngine_Transform__Find
-                                                        ((UnityEngine_Transform_o *)pCVar10,"Bone",
-                                                         (MethodInfo *)0x0);
-                                    Characters_BasicTitanSetup__CopyColliders
-                                              (pCVar21,pUVar13,pUVar18,0,0,in_R9);
-                                    pUVar13 = UnityEngine_Transform__Find
-                                                        (pUVar9,"EyesHurtbox",(MethodInfo *)0x0);
-                                    pCVar21 = pCVar10;
-                                    pUVar18 = UnityEngine_Transform__Find
-                                                        ((UnityEngine_Transform_o *)pCVar10,"EyesHurtbox",
-                                                         (MethodInfo *)0x0);
-                                    Characters_BasicTitanSetup__CopyColliders
-                                              (pCVar21,pUVar13,pUVar18,0,1,in_R9);
-                                    pUVar13 = UnityEngine_Transform__Find
-                                                        (pUVar9,"HairSocket",(MethodInfo *)0x0);
-                                    pUVar18 = UnityEngine_Transform__Find
-                                                        ((UnityEngine_Transform_o *)pCVar10,"HairSocket",
-                                                         (MethodInfo *)0x0);
-                                    if ((pUVar13 != (UnityEngine_Transform_o *)0x0) &&
-                                       (UVar23 = UnityEngine_Transform__get_localPosition
-                                                           (pUVar13,(MethodInfo *)0x0),
-                                       pUVar18 != (UnityEngine_Transform_o *)0x0)) {
-                                      UnityEngine_Transform__set_localPosition
-                                                (pUVar18,UVar23,(MethodInfo *)0x0);
-                                      UVar25 = UnityEngine_Transform__get_localRotation
-                                                         (pUVar13,(MethodInfo *)0x0);
-                                      UnityEngine_Transform__set_localRotation
-                                                (pUVar18,UVar25,(MethodInfo *)0x0);
-                                      UVar23 = UnityEngine_Transform__get_localScale
-                                                         (pUVar13,(MethodInfo *)0x0);
-                                      UnityEngine_Transform__set_localScale(pUVar18,UVar23,(MethodInfo *)0x0);
-                                      pUVar13 = UnityEngine_Transform__Find
-                                                          (pUVar9,"Nose",(MethodInfo *)0x0);
-                                      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                                        il2cpp_runtime_helper_02337ed0();
-                                      }
-                                      bVar8 = UnityEngine_Object__op_Inequality
-                                                        ((UnityEngine_Object_o *)pUVar13,
-                                                         (UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                                      if ((char)bVar8 == '\0') {
-label_04313b41:
-                                        pSVar17 = System_Int32__ToString((int32_t)&local_70,(MethodInfo *)0x0)
-                                        ;
-                                        pSVar17 = System_String__Concat_3ae5ba0
-                                                            ("TitanEyes",pSVar17,(MethodInfo *)0x0);
-                                        pSVar1 = (set->fields).Eye;
-                                        if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-                                          local_6c = (pSVar1->fields)._value;
-                                          pUVar9 = UnityEngine_Transform__Find
-                                                             ((UnityEngine_Transform_o *)pCVar10,"Eyes",
-                                                              (MethodInfo *)0x0);
-                                          if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-                                            il2cpp_runtime_helper_02337ed0();
-                                          }
-                                          pSVar14 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8);
-                                          pSVar17 = System_String__Concat_3ae5ba0
-                                                              ("Titans/Heads/Prefabs/",pSVar17,(MethodInfo *)0x0);
-                                          if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-                                            il2cpp_runtime_helper_02337ed0();
-                                          }
-                                          __this_00 = (Characters_BaseTitan_o *)
-                                                      ApplicationManagers_ResourceManager__LoadAsset
-                                                                (pSVar14,pSVar17,1,(MethodInfo *)0x0);
-                                          if (__this_00 != (Characters_BaseTitan_o *)0x0) {
-                                            if (__this_00->klass != TypeInfo_GameObject) goto label_04313cfa;
-                                            pUVar13 = UnityEngine_GameObject__get_transform
-                                                                ((UnityEngine_GameObject_o *)__this_00,
-                                                                 (MethodInfo *)0x0);
-                                            if ((((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
-                                                 (__this_05 = (UnityEngine_MeshFilter_o *)
-                                                              UnityEngine_Component__GetComponent_object_
-                                                                        ((UnityEngine_Component_o *)pUVar9,
-                                                                         MethodInfo_MeshFilter_GetComponent_MeshFilter),
-                                                 pUVar13 != (UnityEngine_Transform_o *)0x0)) &&
-                                                (__this_06 = (UnityEngine_MeshFilter_o *)
-                                                             UnityEngine_Component__GetComponent_object_
-                                                                       ((UnityEngine_Component_o *)pUVar13,
-                                                                        MethodInfo_MeshFilter_GetComponent_MeshFilter),
-                                                __this_06 != (UnityEngine_MeshFilter_o *)0x0)) &&
-                                               (pUVar19 = UnityEngine_MeshFilter__get_sharedMesh
-                                                                    (__this_06,(MethodInfo *)0x0),
-                                               __this_05 != (UnityEngine_MeshFilter_o *)0x0)) {
-                                              UnityEngine_MeshFilter__set_sharedMesh
-                                                        (__this_05,pUVar19,(MethodInfo *)0x0);
-                                              pUVar11 = (UnityEngine_Renderer_o *)
-                                                        UnityEngine_Component__GetComponent_object_
-                                                                  ((UnityEngine_Component_o *)pUVar9,
-                                                                   MethodInfo_MeshRenderer_GetComponent_MeshRenderer);
-                                              pSVar17 = System_Int32__ToString
-                                                                  ((int32_t)&local_6c,(MethodInfo *)0x0);
-                                              pSVar17 = System_String__Concat_3ae5ba0
-                                                                  ("Eye",pSVar17,(MethodInfo *)0x0);
-                                              if (*(int *)(TypeInfo_HumanSetupMaterials + 0xe4) == 0) {
-                                                il2cpp_runtime_helper_02337ed0();
-                                              }
-                                              pUVar12 = Characters_HumanSetupMaterials__GetTitanEyeMaterial
-                                                                  (pSVar17,(MethodInfo *)0x0);
-                                              if (pUVar11 != (UnityEngine_Renderer_o *)0x0) {
-                                                UnityEngine_Renderer__set_material
-                                                          (pUVar11,pUVar12,(MethodInfo *)0x0);
-                                                return;
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                      else {
-                                        pUVar9 = UnityEngine_Transform__Find
-                                                           (pUVar9,"Nose",(MethodInfo *)0x0);
-                                        pUVar15 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject)
-                                        ;
-                                        UnityEngine_GameObject___ctor_4dfc3c0(pUVar15,(MethodInfo *)0x0);
-                                        if (*(int *)(TypeInfo_PhysicsLayer + 0xe4) == 0) {
-                                          il2cpp_runtime_helper_02337ed0();
-                                        }
-                                        if (pUVar15 != (UnityEngine_GameObject_o *)0x0) {
-                                          UnityEngine_GameObject__set_layer
-                                                    (pUVar15,*(int32_t *)
-                                                              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x14),
-                                                     (MethodInfo *)0x0);
-                                          pUVar13 = UnityEngine_GameObject__get_transform
-                                                              (pUVar15,(MethodInfo *)0x0);
-                                          if (pUVar13 != (UnityEngine_Transform_o *)0x0) {
-                                            UnityEngine_Transform__SetParent
-                                                      (pUVar13,(UnityEngine_Transform_o *)pCVar10,
-                                                       (MethodInfo *)0x0);
-                                            pUVar13 = UnityEngine_GameObject__get_transform
-                                                                (pUVar15,(MethodInfo *)0x0);
-                                            if ((pUVar9 != (UnityEngine_Transform_o *)0x0) &&
-                                               (UVar23 = UnityEngine_Transform__get_localPosition
-                                                                   (pUVar9,(MethodInfo *)0x0),
-                                               pUVar13 != (UnityEngine_Transform_o *)0x0)) {
-                                              UnityEngine_Transform__set_localPosition
-                                                        (pUVar13,UVar23,(MethodInfo *)0x0);
-                                              pUVar13 = UnityEngine_GameObject__get_transform
-                                                                  (pUVar15,(MethodInfo *)0x0);
-                                              UVar25 = UnityEngine_Transform__get_localRotation
-                                                                 (pUVar9,(MethodInfo *)0x0);
-                                              if (pUVar13 != (UnityEngine_Transform_o *)0x0) {
-                                                UnityEngine_Transform__set_localRotation
-                                                          (pUVar13,UVar25,(MethodInfo *)0x0);
-                                                pUVar13 = UnityEngine_GameObject__get_transform
-                                                                    (pUVar15,(MethodInfo *)0x0);
-                                                UVar23 = UnityEngine_Transform__get_localScale
-                                                                   (pUVar9,(MethodInfo *)0x0);
-                                                if (pUVar13 != (UnityEngine_Transform_o *)0x0) {
-                                                  UnityEngine_Transform__set_localScale
-                                                            (pUVar13,UVar23,(MethodInfo *)0x0);
-                                                  __this_04 = (UnityEngine_BoxCollider_o *)
-                                                              UnityEngine_GameObject__AddComponent_object_
-                                                                        (pUVar15,MethodInfo_BoxCollider_AddComponent_BoxCollider);
-                                                  if (g_data_057a65d5 == '\0') {
-                                                    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                                                    g_data_057a65d5 = '\x01';
-                                                  }
-                                                  if (__this_04 != (UnityEngine_BoxCollider_o *)0x0) {
-                                                    UnityEngine_BoxCollider__set_center
-                                                              (__this_04,
-                                                               (UnityEngine_Vector3_o)
-                                                               **(UnityEngine_Vector3_Fields **)
-                                                                 (TypeInfo_Vector3 + 0xb8),(MethodInfo *)0x0);
-                                                    if (g_data_057a6932 == '\0') {
-                                                      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                                                      g_data_057a6932 = '\x01';
-                                                    }
-                                                    UnityEngine_BoxCollider__set_size
-                                                              (__this_04,
-                                                               (UnityEngine_Vector3_o)
-                                                               *(UnityEngine_Vector3_Fields *)
-                                                                (*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                                                               (MethodInfo *)0x0);
-                                                    goto label_04313b41;
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
+                      UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)x,(MethodInfo *)0x0);
                     }
                   }
                 }
+                System_Collections_Generic_List_Enumerator_object___Dispose
+                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_58,
+                           MethodInfo_System_Collections_Generic_List_Enumerator_Material_Dispose);
+                __this_08 = UnityEngine_Component__GetComponent_object_
+                                      ((UnityEngine_Component_o *)__this,
+                                       (MethodInfo_6651A0 *)
+                                       MethodInfo_UnityEngine_Component_GetComponent_BaseCharacter);
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                bVar60 = UnityEngine_Object__op_Inequality
+                                   ((UnityEngine_Object_o *)__this_08,(UnityEngine_Object_o *)0x0,
+                                    (MethodInfo *)0x0);
+                if (bVar60) {
+                  if (__this_08 == (Characters_BaseCharacter_o *)0x0) goto label_1821a0fe1;
+                  Characters_BaseCharacter__RefreshRenderers(__this_08,(MethodInfo *)0x0);
+                }
+                return;
               }
             }
           }
@@ -2432,140 +1615,278 @@ label_04313b41:
       }
     }
   }
-label_04313cf0:
-  il2cpp_runtime_helper_022b2c90();
-label_04313cf5:
-  __this_00 = (Characters_BaseTitan_o *)il2cpp_runtime_helper_022b2ca0();
-label_04313cfa:
-  il2cpp_runtime_helper_022b2fd0();
-  if (g_data_057adfba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanComponentCache);
-    g_data_057adfba = '\x01';
+label_1821a0fe1:
+  ThrowNullReferenceException();
+}
+
+
+// Characters.BasicTitanSetup$$OwnInstance
+// il2cpp: UnityEngine_Material_o* Characters_BasicTitanSetup__OwnInstance (Characters_BasicTitanSetup_o* __this, UnityEngine_Renderer_o* renderer, const MethodInfo* method);
+// 0x1821a1160
+
+UnityEngine_Material_o *
+Characters_BasicTitanSetup__OwnInstance
+          (Characters_BasicTitanSetup_o *__this,UnityEngine_Renderer_o *renderer,MethodInfo *method)
+
+{
+  System_Collections_Generic_HashSet_object__o *__this_00;
+  UnityEngine_Material_o *item;
+  
+  if (Il2CppMethodInitialized_184346e3d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+    Il2CppMethodInitialized_184346e3d = '\x01';
   }
-  pUVar15 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-  auVar22 = il2cpp_runtime_helper_023052d0(TypeInfo_BasicTitanComponentCache);
-  __this_07 = auVar22._0_8_;
-  Characters_BasicTitanComponentCache___ctor(__this_07,pUVar15,auVar22._8_8_);
-  *(Characters_BasicTitanComponentCache_o **)&(__this_00->fields)._furthestCoreLocalPosition.fields =
-       __this_07;
-  il2cpp_runtime_helper_022b4080(&(__this_00->fields)._furthestCoreLocalPosition,__this_07);
-  Characters_BaseTitan__CreateCache
-            (__this_00,
-             *(Utility_BaseComponentCache_o **)&(__this_00->fields)._furthestCoreLocalPosition.fields,
-             (MethodInfo *)0x0);
-  return;
+  if (renderer != (UnityEngine_Renderer_o *)0x0) {
+    item = UnityEngine_Renderer__get_material(renderer,(MethodInfo *)0x0);
+    __this_00 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._ownedMaterials;
+    if (__this_00 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+      System_Collections_Generic_HashSet_object___Add
+                (__this_00,(Il2CppObject *)item,
+                 (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_Material_Add);
+      return item;
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Characters.BasicTitanSetup$$OnDestroy
+// il2cpp: void Characters_BasicTitanSetup__OnDestroy (Characters_BasicTitanSetup_o* __this, const MethodInfo* method);
+// 0x1821a1000
+// eh: try 0x1821a10b0..0x1821a1111 -> pad 0x183315930 catch Il2CppExceptionWrapper
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821a10af: nop 
+// asm:   0x1821a1122: mov rdx, qword ptr [rip + 0x1eeb5ff]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_Dispose
+// asm:   0x1821a1129: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1821a112e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821a1133: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1821a1138: test rcx, rcx
+// asm:   0x1821a113b: jne 0x1821a1148
+// asm:   0x1821a1148: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
+
+void Characters_BasicTitanSetup__OnDestroy(Characters_BasicTitanSetup_o *__this,MethodInfo *method)
+
+{
+  System_Collections_Generic_HashSet_Vector2Int__o *__this_00;
+  Il2CppObject *x;
+  bool bVar1;
+  undefined1 local_40 [16];
+  UnityEngine_Object_o *local_30;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_28;
+  
+  if (Il2CppMethodInitialized_184346e3e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Material_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346e3e = '\x01';
+  }
+  local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_28.fields._index = 0;
+  local_28.fields._version = 0;
+  local_28.fields._current = (Il2CppObject *)0x0;
+  __this_00 = (System_Collections_Generic_HashSet_Vector2Int__o *)(__this->fields)._ownedMaterials;
+  if (__this_00 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0) {
+    System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+              ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_40,__this_00,
+               (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_Material_GetEnumerator);
+    local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)local_40._0_8_;
+    local_28.fields._index = local_40._8_4_;
+    local_28.fields._version = local_40._12_4_;
+    local_28.fields._current = (Il2CppObject *)local_30;
+    local_40._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+    local_40._8_8_ = &local_28;
+    while( true ) {
+      bVar1 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                        (&local_28,
+                         (MethodInfo_15381F0 *)
+                         MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_MoveNext);
+      x = local_28.fields._current;
+      if (!bVar1) break;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar1 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)x,(MethodInfo *)0x0);
+      }
+    }
+    System_Collections_Generic_HashSet_Enumerator_object___Dispose
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
+               MethodInfo_System_Collections_Generic_HashSet_Enumerator_Material_Dispose);
+    return;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanSetup$$CopyColliders
 // il2cpp: void Characters_BasicTitanSetup__CopyColliders (Characters_BasicTitanSetup_o* __this, UnityEngine_Transform_o* from, UnityEngine_Transform_o* to, bool capsule, bool moveTransform, const MethodInfo* method);
-// 0x4320560
+// 0x18219e490
 
 void Characters_BasicTitanSetup__CopyColliders
                (Characters_BasicTitanSetup_o *__this,UnityEngine_Transform_o *from,UnityEngine_Transform_o *to
-               ,bool_conflict capsule,bool_conflict moveTransform,MethodInfo *method)
+               ,bool capsule,bool moveTransform,MethodInfo *method)
 
 {
-  Characters_BasicTitanSetup_o *__this_00;
-  UnityEngine_Component_o *__this_01;
-  UnityEngine_Transform_o *pUVar1;
-  Characters_BasicTitanSetup_o *pCVar2;
-  float fVar3;
-  UnityEngine_Vector3_o UVar4;
-  UnityEngine_Quaternion_o value;
+  UnityEngine_BoxCollider_o *__this_00;
+  UnityEngine_BoxCollider_o *__this_01;
+  UnityEngine_Vector3_o *pUVar1;
+  UnityEngine_Transform_o *pUVar2;
+  UnityEngine_Transform_o *pUVar3;
+  UnityEngine_Quaternion_o *pUVar4;
+  float fVar5;
+  UnityEngine_Vector3_Fields local_48;
+  UnityEngine_Quaternion_Fields local_38;
   
-  if (g_data_057adff3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BoxCollider_GetComponent_BoxCollider);
-    __this = (Characters_BasicTitanSetup_o *)&MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adff3 = '\x01';
+  if (Il2CppMethodInitialized_184346e3f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider)
+    ;
+    Il2CppMethodInitialized_184346e3f = '\x01';
   }
   if (from != (UnityEngine_Transform_o *)0x0) {
-    if ((char)capsule == '\0') {
-      __this_00 = (Characters_BasicTitanSetup_o *)
-                  UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)from,MethodInfo_BoxCollider_GetComponent_BoxCollider);
-      __this = (Characters_BasicTitanSetup_o *)from;
+    if (capsule) {
+      __this_00 = (UnityEngine_BoxCollider_o *)
+                  UnityEngine_Component__GetComponent_object_
+                            ((UnityEngine_Component_o *)from,
+                             (MethodInfo_6651A0 *)
+                             MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider);
       if (((to == (UnityEngine_Transform_o *)0x0) ||
-          (__this_01 = (UnityEngine_Component_o *)
-                       UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)to,MethodInfo_BoxCollider_GetComponent_BoxCollider)
-          , __this = (Characters_BasicTitanSetup_o *)to, __this_00 == (Characters_BasicTitanSetup_o *)0x0)) ||
-         (__this = __this_00,
-         UVar4 = UnityEngine_BoxCollider__get_center((UnityEngine_BoxCollider_o *)__this_00,(MethodInfo *)0x0)
-         , __this_01 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
-      UnityEngine_BoxCollider__set_center((UnityEngine_BoxCollider_o *)__this_01,UVar4,(MethodInfo *)0x0);
-      UVar4 = UnityEngine_BoxCollider__get_size((UnityEngine_BoxCollider_o *)__this_00,(MethodInfo *)0x0);
-      UnityEngine_BoxCollider__set_size((UnityEngine_BoxCollider_o *)__this_01,UVar4,(MethodInfo *)0x0);
-    }
-    else {
-      __this_00 = (Characters_BasicTitanSetup_o *)
-                  UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)from,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider);
-      __this = (Characters_BasicTitanSetup_o *)from;
-      if (((to == (UnityEngine_Transform_o *)0x0) ||
-          (__this_01 = (UnityEngine_Component_o *)
-                       UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)to,MethodInfo_CapsuleCollider_GetComponent_CapsuleCollider)
-          , __this = (Characters_BasicTitanSetup_o *)to, __this_00 == (Characters_BasicTitanSetup_o *)0x0)) ||
-         (__this = __this_00,
-         UVar4 = UnityEngine_CapsuleCollider__get_center
-                           ((UnityEngine_CapsuleCollider_o *)__this_00,(MethodInfo *)0x0),
-         __this_01 == (UnityEngine_Component_o *)0x0)) goto label_04320752;
+          (__this_01 = (UnityEngine_BoxCollider_o *)
+                       UnityEngine_Component__GetComponent_object_
+                                 ((UnityEngine_Component_o *)to,
+                                  (MethodInfo_6651A0 *)
+                                  MethodInfo_UnityEngine_Component_GetComponent_CapsuleCollider),
+          __this_00 == (UnityEngine_BoxCollider_o *)0x0)) ||
+         (pUVar1 = UnityEngine_CapsuleCollider__get_center
+                             ((UnityEngine_Vector3_o *)&local_38,(UnityEngine_CapsuleCollider_o *)__this_00,
+                              (MethodInfo *)0x0), __this_01 == (UnityEngine_BoxCollider_o *)0x0))
+      goto label_18219e718;
+      local_48.x = (pUVar1->fields).x;
+      local_48.y = (pUVar1->fields).y;
+      local_48.z = (pUVar1->fields).z;
       UnityEngine_CapsuleCollider__set_center
-                ((UnityEngine_CapsuleCollider_o *)__this_01,UVar4,(MethodInfo *)0x0);
-      fVar3 = UnityEngine_CapsuleCollider__get_radius
+                ((UnityEngine_CapsuleCollider_o *)__this_01,(UnityEngine_Vector3_o *)&local_48,
+                 (MethodInfo *)0x0);
+      fVar5 = UnityEngine_CapsuleCollider__get_radius
                         ((UnityEngine_CapsuleCollider_o *)__this_00,(MethodInfo *)0x0);
       UnityEngine_CapsuleCollider__set_radius
-                ((UnityEngine_CapsuleCollider_o *)__this_01,fVar3,(MethodInfo *)0x0);
-      fVar3 = UnityEngine_CapsuleCollider__get_height
+                ((UnityEngine_CapsuleCollider_o *)__this_01,fVar5,(MethodInfo *)0x0);
+      fVar5 = UnityEngine_CapsuleCollider__get_height
                         ((UnityEngine_CapsuleCollider_o *)__this_00,(MethodInfo *)0x0);
       UnityEngine_CapsuleCollider__set_height
-                ((UnityEngine_CapsuleCollider_o *)__this_01,fVar3,(MethodInfo *)0x0);
+                ((UnityEngine_CapsuleCollider_o *)__this_01,fVar5,(MethodInfo *)0x0);
     }
-    if ((char)moveTransform == '\0') {
+    else {
+      __this_00 = UnityEngine_Component__GetComponent_object_
+                            ((UnityEngine_Component_o *)from,
+                             (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BoxCollider);
+      if (((to == (UnityEngine_Transform_o *)0x0) ||
+          (__this_01 = UnityEngine_Component__GetComponent_object_
+                                 ((UnityEngine_Component_o *)to,
+                                  (MethodInfo_6651A0 *)
+                                  MethodInfo_UnityEngine_Component_GetComponent_BoxCollider),
+          __this_00 == (UnityEngine_BoxCollider_o *)0x0)) ||
+         (pUVar1 = UnityEngine_BoxCollider__get_center
+                             ((UnityEngine_Vector3_o *)&local_38,__this_00,(MethodInfo *)0x0),
+         __this_01 == (UnityEngine_BoxCollider_o *)0x0)) goto label_18219e718;
+      local_48.x = (pUVar1->fields).x;
+      local_48.y = (pUVar1->fields).y;
+      local_48.z = (pUVar1->fields).z;
+      UnityEngine_BoxCollider__set_center(__this_01,(UnityEngine_Vector3_o *)&local_48,(MethodInfo *)0x0);
+      pUVar1 = UnityEngine_BoxCollider__get_size
+                         ((UnityEngine_Vector3_o *)&local_38,__this_00,(MethodInfo *)0x0);
+      local_48.x = (pUVar1->fields).x;
+      local_48.y = (pUVar1->fields).y;
+      local_48.z = (pUVar1->fields).z;
+      UnityEngine_BoxCollider__set_size(__this_01,(UnityEngine_Vector3_o *)&local_48,(MethodInfo *)0x0);
+    }
+    if (!moveTransform) {
       return;
     }
-    pUVar1 = UnityEngine_Component__get_transform(__this_01,(MethodInfo *)0x0);
-    __this = __this_00;
-    pCVar2 = (Characters_BasicTitanSetup_o *)
-             UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-    if ((pCVar2 != (Characters_BasicTitanSetup_o *)0x0) &&
-       (UVar4 = UnityEngine_Transform__get_localPosition((UnityEngine_Transform_o *)pCVar2,(MethodInfo *)0x0),
-       __this = pCVar2, pUVar1 != (UnityEngine_Transform_o *)0x0)) {
-      UnityEngine_Transform__set_localPosition(pUVar1,UVar4,(MethodInfo *)0x0);
-      pUVar1 = UnityEngine_Component__get_transform(__this_01,(MethodInfo *)0x0);
-      __this = __this_00;
-      pCVar2 = (Characters_BasicTitanSetup_o *)
-               UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-      if ((pCVar2 != (Characters_BasicTitanSetup_o *)0x0) &&
-         (value = UnityEngine_Transform__get_localRotation
-                            ((UnityEngine_Transform_o *)pCVar2,(MethodInfo *)0x0), __this = pCVar2,
-         pUVar1 != (UnityEngine_Transform_o *)0x0)) {
-        UnityEngine_Transform__set_localRotation(pUVar1,value,(MethodInfo *)0x0);
-        pUVar1 = UnityEngine_Component__get_transform(__this_01,(MethodInfo *)0x0);
-        pCVar2 = (Characters_BasicTitanSetup_o *)
-                 UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
-        __this = __this_00;
-        if ((pCVar2 != (Characters_BasicTitanSetup_o *)0x0) &&
-           (UVar4 = UnityEngine_Transform__get_localScale((UnityEngine_Transform_o *)pCVar2,(MethodInfo *)0x0)
-           , __this = pCVar2, pUVar1 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__set_localScale(pUVar1,UVar4,(MethodInfo *)0x0);
+    pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+    pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    if ((pUVar3 != (UnityEngine_Transform_o *)0x0) &&
+       (pUVar1 = UnityEngine_Transform__get_localPosition
+                           ((UnityEngine_Vector3_o *)&local_38,pUVar3,(MethodInfo *)0x0),
+       pUVar2 != (UnityEngine_Transform_o *)0x0)) {
+      local_48.x = (pUVar1->fields).x;
+      local_48.y = (pUVar1->fields).y;
+      local_48.z = (pUVar1->fields).z;
+      UnityEngine_Transform__set_localPosition(pUVar2,(UnityEngine_Vector3_o *)&local_48,(MethodInfo *)0x0);
+      pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+      pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+      if ((pUVar3 != (UnityEngine_Transform_o *)0x0) &&
+         (pUVar4 = UnityEngine_Transform__get_localRotation
+                             ((UnityEngine_Quaternion_o *)&local_38,pUVar3,(MethodInfo *)0x0),
+         pUVar2 != (UnityEngine_Transform_o *)0x0)) {
+        local_38.x = (pUVar4->fields).x;
+        local_38.y = (pUVar4->fields).y;
+        local_38.z = (pUVar4->fields).z;
+        local_38.w = (pUVar4->fields).w;
+        UnityEngine_Transform__set_localRotation
+                  (pUVar2,(UnityEngine_Quaternion_o *)&local_38,(MethodInfo *)0x0);
+        pUVar2 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+        pUVar3 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+        if ((pUVar3 != (UnityEngine_Transform_o *)0x0) &&
+           (pUVar1 = UnityEngine_Transform__get_localScale
+                               ((UnityEngine_Vector3_o *)&local_38,pUVar3,(MethodInfo *)0x0),
+           pUVar2 != (UnityEngine_Transform_o *)0x0)) {
+          local_48.x = (pUVar1->fields).x;
+          local_48.y = (pUVar1->fields).y;
+          local_48.z = (pUVar1->fields).z;
+          UnityEngine_Transform__set_localScale(pUVar2,(UnityEngine_Vector3_o *)&local_48,(MethodInfo *)0x0);
           return;
         }
       }
     }
   }
-label_04320752:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
-  return;
+label_18219e718:
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanSetup$$.ctor
 // il2cpp: void Characters_BasicTitanSetup___ctor (Characters_BasicTitanSetup_o* __this, const MethodInfo* method);
-// 0x4320760
+// 0x1821a13d0
 
 void Characters_BasicTitanSetup___ctor(Characters_BasicTitanSetup_o *__this,MethodInfo *method)
 
 {
+  System_Collections_Generic_HashSet_Material__o *__this_00;
+  
+  if (Il2CppMethodInitialized_184346e40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_Material_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_Material);
+    Il2CppMethodInitialized_184346e40 = '\x01';
+  }
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_Material);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this_00,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_Material_ctor);
+  (__this->fields)._ownedMaterials = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._ownedMaterials,__this_00);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -2573,48 +1894,60 @@ void Characters_BasicTitanSetup___ctor(Characters_BasicTitanSetup_o *__this,Meth
 
 // Characters.BasicTitanSetup$$.cctor
 // il2cpp: void Characters_BasicTitanSetup___cctor (const MethodInfo* method);
-// 0x4320770
+// 0x1821a11d0
 
 void Characters_BasicTitanSetup___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  System_Collections_Generic_List_object__o *pSVar2;
+  System_Collections_Generic_Dictionary_string__string__o *__this;
+  System_Collections_Generic_List_string__o *pSVar1;
   System_Collections_Generic_List_int__o *__this_00;
+  System_Collections_Generic_List_Color255__o *__this_01;
   
-  if (g_data_057adff4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Utility_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Int32);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_int);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Color255);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    g_data_057adff4 = '\x01';
+  if (Il2CppMethodInitialized_184346e41 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitanSetup);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_Color255_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_int_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    Il2CppMethodInitialized_184346e41 = '\x01';
   }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this,MethodInfo_Dictionary_2_System_String_System_String);
-  lVar1 = *(long *)(TypeInfo_BasicTitanSetup + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x20) = __this;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20,__this);
-  pSVar2 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(pSVar2,MethodInfo_List_1_System_String);
-  lVar1 = *(long *)(TypeInfo_BasicTitanSetup + 0xb8);
-  *(System_Collections_Generic_List_object__o **)(lVar1 + 0x28) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28,pSVar2);
-  __this_00 = (System_Collections_Generic_List_int__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_int);
-  System_Collections_Generic_List_int____ctor(__this_00,MethodInfo_List_1_System_Int32);
-  lVar1 = *(long *)(TypeInfo_BasicTitanSetup + 0xb8);
-  *(System_Collections_Generic_List_int__o **)(lVar1 + 0x30) = __this_00;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30,__this_00);
-  pSVar2 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Color255);
-  System_Collections_Generic_List_object____ctor(pSVar2,MethodInfo_List_1_Utility_Color255);
-  lVar1 = *(long *)(TypeInfo_BasicTitanSetup + 0xb8);
-  *(System_Collections_Generic_List_object__o **)(lVar1 + 0x38) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x38,pSVar2);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+  TypeInfo_Characters_BasicTitanSetup->static_fields->HairPrefabs = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->HairPrefabs,__this);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  TypeInfo_Characters_BasicTitanSetup->static_fields->AllHairs = pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->AllHairs,pSVar1);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)pSVar1,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairs = pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairs,pSVar1);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_int);
+  System_Collections_Generic_List_int____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_int_ctor);
+  TypeInfo_Characters_BasicTitanSetup->static_fields->AIEyes = __this_00;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->AIEyes,__this_00);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Color255);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Color255_ctor);
+  TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairColors = __this_01;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_BasicTitanSetup->static_fields->AIHairColors,__this_01);
   return;
 }
 

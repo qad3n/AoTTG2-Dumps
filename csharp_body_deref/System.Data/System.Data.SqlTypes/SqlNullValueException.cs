@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace System.Data.SqlTypes;
 
 [Serializable]
-[Token(Token = "0x20000B2")]
+[Token(Token = "0x20000BC")]
 public sealed class SqlNullValueException : SqlTypeException
 {
-	[Token(Token = "0x6000ACD")]
-	[Address(RVA = "0x4604550", Offset = "0x4604550", VA = "0x4604550")]
+	[Token(Token = "0x6000AEC")]
+	[Address(RVA = "0x2578490", Offset = "0x2576A90", VA = "0x182578490")]
 	public SqlNullValueException()
 	{
 	}
 
-	[Token(Token = "0x6000ACE")]
-	[Address(RVA = "0x461D2E0", Offset = "0x461D2E0", VA = "0x461D2E0")]
+	[Token(Token = "0x6000AED")]
+	[Address(RVA = "0x25785E0", Offset = "0x2576BE0", VA = "0x1825785E0")]
 	public SqlNullValueException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000ACF")]
-	[Address(RVA = "0x461D2C0", Offset = "0x461D2C0", VA = "0x461D2C0")]
+	[Token(Token = "0x6000AEE")]
+	[Address(RVA = "0x25784C0", Offset = "0x2576AC0", VA = "0x1825784C0")]
 	public SqlNullValueException(string message, Exception e)
 	{
 	}
 
-	[Token(Token = "0x6000AD0")]
-	[Address(RVA = "0x461D300", Offset = "0x461D300", VA = "0x461D300")]
+	[Token(Token = "0x6000AEF")]
+	[Address(RVA = "0x25784E0", Offset = "0x2576AE0", VA = "0x1825784E0")]
 	private SqlNullValueException(SerializationInfo si, StreamingContext sc)
 	{
 	}
 
-	[Token(Token = "0x6000AD1")]
-	[Address(RVA = "0x461D340", Offset = "0x461D340", VA = "0x461D340")]
+	[Token(Token = "0x6000AF0")]
+	[Address(RVA = "0x25783B0", Offset = "0x25769B0", VA = "0x1825783B0")]
 	private static SerializationInfo SqlNullValueExceptionSerialization(SerializationInfo si, StreamingContext sc)
 	{
 		return null;

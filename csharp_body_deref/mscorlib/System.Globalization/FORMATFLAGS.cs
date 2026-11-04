@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x200059D")]
+[Token(Token = "0x2000571")]
 internal enum FORMATFLAGS
 {
-	[Token(Token = "0x40017E5")]
+	[Token(Token = "0x4001636")]
 	None = 0,
-	[Token(Token = "0x40017E6")]
+	[Token(Token = "0x4001637")]
 	UseGenitiveMonth = 1,
-	[Token(Token = "0x40017E7")]
+	[Token(Token = "0x4001638")]
 	UseLeapYearMonth = 2,
-	[Token(Token = "0x40017E8")]
+	[Token(Token = "0x4001639")]
 	UseSpacesInMonthNames = 4,
-	[Token(Token = "0x40017E9")]
+	[Token(Token = "0x400163A")]
 	UseHebrewParsing = 8,
-	[Token(Token = "0x40017EA")]
+	[Token(Token = "0x400163B")]
 	UseSpacesInDayNames = 0x10,
-	[Token(Token = "0x40017EB")]
+	[Token(Token = "0x400163C")]
 	UseDigitPrefixInTokens = 0x20
 }

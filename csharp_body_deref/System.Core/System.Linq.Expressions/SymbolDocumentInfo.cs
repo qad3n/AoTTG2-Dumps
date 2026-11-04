@@ -20,8 +20,8 @@ public class SymbolDocumentInfo
 	[Token(Token = "0x17000127")]
 	public string FileName
 	{
-		[Token(Token = "0x6000560")]
-		[Address(RVA = "0x44C0220", Offset = "0x44C0220", VA = "0x44C0220")]
+		[Token(Token = "0x600055F")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{

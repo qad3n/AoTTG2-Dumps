@@ -1,5 +1,5 @@
 // Type: Characters.AmmoWeapon
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/AmmoWeapon.cs
@@ -8,83 +8,77 @@
 
 // Characters.AmmoWeapon$$.ctor
 // il2cpp: void Characters_AmmoWeapon___ctor (Characters_AmmoWeapon_o* __this, Characters_BaseCharacter_o* owner, int32_t ammo, int32_t round, float cooldown, const MethodInfo* method);
-// 0x42f9900
+// 0x1821633e0
 
 void Characters_AmmoWeapon___ctor
                (Characters_AmmoWeapon_o *__this,Characters_BaseCharacter_o *owner,int32_t ammo,int32_t round,
                float cooldown,MethodInfo *method)
 
 {
-  int iVar1;
+  int32_t *piVar1;
   
-  iVar1 = 0;
-  Characters_ExtendedUseable___ctor((Characters_ExtendedUseable_o *)__this,owner,(MethodInfo *)0x0);
+  Characters_ExtendedUseable___ctor((Characters_SimpleUseable_o *)__this,owner,(MethodInfo *)0x0);
+  (__this->fields).Cooldown = cooldown;
   (__this->fields).AmmoLeft = ammo;
   (__this->fields).MaxAmmo = ammo;
   (__this->fields).RoundLeft = round;
   (__this->fields).MaxRound = round;
-  (__this->fields).Cooldown = cooldown;
-  if (round == -1) {
-    (__this->fields).RoundLeft = ammo;
+  if (round != -1) {
+    piVar1 = &(__this->fields).AmmoLeft;
+    *piVar1 = *piVar1 - round;
+    return;
   }
-  else {
-    iVar1 = ammo - round;
-  }
-  (__this->fields).AmmoLeft = iVar1;
+  (__this->fields).RoundLeft = ammo;
+  (__this->fields).AmmoLeft = 0;
   return;
 }
 
 
 // Characters.AmmoWeapon$$NeedRefill
 // il2cpp: bool Characters_AmmoWeapon__NeedRefill (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa690
+// 0x182164680
 
-bool_conflict Characters_AmmoWeapon__NeedRefill(Characters_AmmoWeapon_o *__this,MethodInfo *method)
+bool Characters_AmmoWeapon__NeedRefill(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  bool_conflict in_EAX;
-  int iVar2;
   
-  iVar1 = (__this->fields).MaxRound;
-  iVar2 = (__this->fields).RoundLeft;
-  if (iVar1 != -1) {
-    in_EAX = CONCAT31((int3)((uint)in_EAX >> 8),1);
-    if (iVar2 < iVar1) {
-      return in_EAX;
+  iVar1 = (__this->fields).RoundLeft;
+  if ((__this->fields).MaxRound != -1) {
+    if (iVar1 < (__this->fields).MaxRound) {
+      return true;
     }
-    iVar2 = iVar2 + (__this->fields).AmmoLeft;
+    iVar1 = iVar1 + (__this->fields).AmmoLeft;
   }
-  return CONCAT31((int3)((uint)in_EAX >> 8),iVar2 < (__this->fields).MaxAmmo);
+  return iVar1 < (__this->fields).MaxAmmo;
 }
 
 
 // Characters.AmmoWeapon$$Reload
 // il2cpp: void Characters_AmmoWeapon__Reload (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa6b0
+// 0x1821646c0
 
 void Characters_AmmoWeapon__Reload(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
+  int32_t *piVar1;
   int iVar2;
   int iVar3;
-  int iVar4;
   
-  iVar3 = (__this->fields).MaxRound;
-  if (iVar3 != -1) {
-    iVar1 = (__this->fields).AmmoLeft;
-    iVar2 = (__this->fields).RoundLeft;
-    iVar3 = iVar3 - iVar2;
-    if (iVar1 < iVar3) {
-      iVar3 = iVar1;
+  if ((__this->fields).MaxRound != -1) {
+    iVar3 = (__this->fields).MaxRound - (__this->fields).RoundLeft;
+    iVar2 = (__this->fields).AmmoLeft;
+    if (iVar2 <= iVar3) {
+      iVar3 = iVar2;
     }
-    iVar4 = 0;
-    if (-1 < iVar3) {
-      iVar4 = iVar3;
+    iVar2 = 0;
+    if (0 < iVar3) {
+      iVar2 = iVar3;
     }
-    (__this->fields).AmmoLeft = iVar1 - iVar4;
-    (__this->fields).RoundLeft = iVar4 + iVar2;
+    piVar1 = &(__this->fields).AmmoLeft;
+    *piVar1 = *piVar1 - iVar2;
+    piVar1 = &(__this->fields).RoundLeft;
+    *piVar1 = *piVar1 + iVar2;
   }
   return;
 }
@@ -92,41 +86,35 @@ void Characters_AmmoWeapon__Reload(Characters_AmmoWeapon_o *__this,MethodInfo *m
 
 // Characters.AmmoWeapon$$Reset
 // il2cpp: void Characters_AmmoWeapon__Reset (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa6e0
+// 0x1821646f0
 
 void Characters_AmmoWeapon__Reset(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  int iVar2;
-  int iVar3;
-  
-  iVar1 = (__this->fields).MaxAmmo;
-  iVar2 = (__this->fields).MaxRound;
-  iVar3 = iVar1 - iVar2;
-  if (iVar2 == -1) {
-    iVar2 = iVar1;
-    iVar3 = 0;
+  if ((__this->fields).MaxRound != -1) {
+    (__this->fields).AmmoLeft = (__this->fields).MaxAmmo - (__this->fields).MaxRound;
+    (__this->fields).RoundLeft = (__this->fields).MaxRound;
+    return;
   }
-  (__this->fields).AmmoLeft = iVar3;
-  (__this->fields).RoundLeft = iVar2;
+  (__this->fields).AmmoLeft = 0;
+  (__this->fields).RoundLeft = (__this->fields).MaxAmmo;
   return;
 }
 
 
 // Characters.AmmoWeapon$$OnUse
 // il2cpp: void Characters_AmmoWeapon__OnUse (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa700
+// 0x1821646a0
 
 void Characters_AmmoWeapon__OnUse(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
+  int32_t *piVar1;
   
   Characters_BaseUseable__OnUse((Characters_BaseUseable_o *)__this,(MethodInfo *)0x0);
-  iVar1 = (__this->fields).RoundLeft;
-  if (-1 < iVar1) {
-    (__this->fields).RoundLeft = iVar1 + -1;
+  if (-1 < (__this->fields).RoundLeft) {
+    piVar1 = &(__this->fields).RoundLeft;
+    *piVar1 = *piVar1 + -1;
   }
   return;
 }
@@ -134,34 +122,35 @@ void Characters_AmmoWeapon__OnUse(Characters_AmmoWeapon_o *__this,MethodInfo *me
 
 // Characters.AmmoWeapon$$CanUse
 // il2cpp: bool Characters_AmmoWeapon__CanUse (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa720
+// 0x182164620
 
-bool_conflict Characters_AmmoWeapon__CanUse(Characters_AmmoWeapon_o *__this,MethodInfo *method)
+bool Characters_AmmoWeapon__CanUse(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  bool_conflict bVar2;
+  bool bVar1;
   
-  bVar2 = Characters_BaseUseable__CanUse((Characters_BaseUseable_o *)__this,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    iVar1 = (__this->fields).RoundLeft;
-    return CONCAT31((int3)((uint)iVar1 >> 8),iVar1 == -1 || 0 < iVar1);
+  bVar1 = Characters_BaseUseable__CanUse((Characters_BaseUseable_o *)__this,(MethodInfo *)0x0);
+  if (!bVar1) {
+    return false;
   }
-  return 0;
+  if (0 < (__this->fields).RoundLeft) {
+    return true;
+  }
+  return (__this->fields).RoundLeft == -1;
 }
 
 
 // Characters.AmmoWeapon$$HasDurability
 // il2cpp: bool Characters_AmmoWeapon__HasDurability (Characters_AmmoWeapon_o* __this, const MethodInfo* method);
-// 0x42fa750
+// 0x182164660
 
-bool_conflict Characters_AmmoWeapon__HasDurability(Characters_AmmoWeapon_o *__this,MethodInfo *method)
+bool Characters_AmmoWeapon__HasDurability(Characters_AmmoWeapon_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  iVar1 = (__this->fields).RoundLeft;
-  return CONCAT31((int3)((uint)iVar1 >> 8),iVar1 == -1 || 0 < iVar1);
+  if (0 < (__this->fields).RoundLeft) {
+    return true;
+  }
+  return (__this->fields).RoundLeft == -1;
 }
 
 

@@ -9,104 +9,104 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200027B")]
+[Token(Token = "0x2000186")]
 public abstract class CustomTypeDescriptor : ICustomTypeDescriptor
 {
-	[Token(Token = "0x4000D31")]
+	[Token(Token = "0x4000668")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly ICustomTypeDescriptor _parent;
 
-	[Token(Token = "0x6000F8E")]
-	[Address(RVA = "0x488DBA0", Offset = "0x488DBA0", VA = "0x488DBA0")]
+	[Token(Token = "0x60009D6")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected CustomTypeDescriptor()
 	{
 	}
 
-	[Token(Token = "0x6000F8F")]
-	[Address(RVA = "0x488DBB0", Offset = "0x488DBB0", VA = "0x488DBB0")]
+	[Token(Token = "0x60009D7")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	protected CustomTypeDescriptor(ICustomTypeDescriptor parent)
 	{
 	}
 
-	[Token(Token = "0x6000F90")]
-	[Address(RVA = "0x488DBE0", Offset = "0x488DBE0", VA = "0x488DBE0", Slot = "16")]
+	[Token(Token = "0x60009D8")]
+	[Address(RVA = "0x2899680", Offset = "0x2897C80", VA = "0x182899680", Slot = "16")]
 	public virtual AttributeCollection GetAttributes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F91")]
-	[Address(RVA = "0x488DCB0", Offset = "0x488DCB0", VA = "0x488DCB0", Slot = "17")]
+	[Token(Token = "0x60009D9")]
+	[Address(RVA = "0x2899770", Offset = "0x2897D70", VA = "0x182899770", Slot = "17")]
 	public virtual string GetClassName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F92")]
-	[Address(RVA = "0x488DD50", Offset = "0x488DD50", VA = "0x488DD50", Slot = "18")]
+	[Token(Token = "0x60009DA")]
+	[Address(RVA = "0x28997C0", Offset = "0x2897DC0", VA = "0x1828997C0", Slot = "18")]
 	public virtual string GetComponentName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F93")]
-	[Address(RVA = "0x488DDF0", Offset = "0x488DDF0", VA = "0x488DDF0", Slot = "19")]
+	[Token(Token = "0x60009DB")]
+	[Address(RVA = "0x2899810", Offset = "0x2897E10", VA = "0x182899810", Slot = "19")]
 	public virtual TypeConverter GetConverter()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F94")]
-	[Address(RVA = "0x488DEC0", Offset = "0x488DEC0", VA = "0x488DEC0", Slot = "20")]
+	[Token(Token = "0x60009DC")]
+	[Address(RVA = "0x2899910", Offset = "0x2897F10", VA = "0x182899910", Slot = "20")]
 	public virtual EventDescriptor GetDefaultEvent()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F95")]
-	[Address(RVA = "0x488DF60", Offset = "0x488DF60", VA = "0x488DF60", Slot = "21")]
+	[Token(Token = "0x60009DD")]
+	[Address(RVA = "0x28999D0", Offset = "0x2897FD0", VA = "0x1828999D0", Slot = "21")]
 	public virtual PropertyDescriptor GetDefaultProperty()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x488E000", Offset = "0x488E000", VA = "0x488E000", Slot = "22")]
+	[Token(Token = "0x60009DE")]
+	[Address(RVA = "0x2899A90", Offset = "0x2898090", VA = "0x182899A90", Slot = "22")]
 	public virtual object GetEditor(Type editorBaseType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F97")]
-	[Address(RVA = "0x488E0C0", Offset = "0x488E0C0", VA = "0x488E0C0", Slot = "23")]
+	[Token(Token = "0x60009DF")]
+	[Address(RVA = "0x2899AF0", Offset = "0x28980F0", VA = "0x182899AF0", Slot = "23")]
 	public virtual EventDescriptorCollection GetEvents()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F98")]
-	[Address(RVA = "0x488E1A0", Offset = "0x488E1A0", VA = "0x488E1A0", Slot = "24")]
+	[Token(Token = "0x60009E0")]
+	[Address(RVA = "0x2899C00", Offset = "0x2898200", VA = "0x182899C00", Slot = "24")]
 	public virtual EventDescriptorCollection GetEvents(Attribute[] attributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F99")]
-	[Address(RVA = "0x488E290", Offset = "0x488E290", VA = "0x488E290", Slot = "25")]
+	[Token(Token = "0x60009E1")]
+	[Address(RVA = "0x2899E20", Offset = "0x2898420", VA = "0x182899E20", Slot = "25")]
 	public virtual PropertyDescriptorCollection GetProperties()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F9A")]
-	[Address(RVA = "0x488E370", Offset = "0x488E370", VA = "0x488E370", Slot = "26")]
+	[Token(Token = "0x60009E2")]
+	[Address(RVA = "0x2899D10", Offset = "0x2898310", VA = "0x182899D10", Slot = "26")]
 	public virtual PropertyDescriptorCollection GetProperties(Attribute[] attributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F9B")]
-	[Address(RVA = "0x488E460", Offset = "0x488E460", VA = "0x488E460", Slot = "27")]
+	[Token(Token = "0x60009E3")]
+	[Address(RVA = "0x2899F30", Offset = "0x2898530", VA = "0x182899F30", Slot = "27")]
 	public virtual object GetPropertyOwner(PropertyDescriptor pd)
 	{
 		return null;

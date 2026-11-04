@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x200002B")]
 public enum RelationshipType
 {
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400006E")]
 	None,
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400006F")]
 	Friend,
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000070")]
 	Blocked,
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000071")]
 	PendingIncoming,
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000072")]
 	PendingOutgoing,
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x4000073")]
 	Implicit
 }

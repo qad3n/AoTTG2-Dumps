@@ -12,8 +12,8 @@ namespace System.Linq.Expressions.Interpreter;
 [Token(Token = "0x20000E7")]
 internal static class ConvertHelper
 {
-	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x44C5350", Offset = "0x44C5350", VA = "0x44C5350")]
+	[Token(Token = "0x60005E1")]
+	[Address(RVA = "0x242BA20", Offset = "0x242A020", VA = "0x18242BA20")]
 	public static int ToInt32NoNull(object val)
 	{
 		return default(int);

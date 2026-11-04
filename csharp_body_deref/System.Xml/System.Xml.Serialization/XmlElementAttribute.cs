@@ -47,7 +47,7 @@ public class XmlElementAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D45")]
-		[Address(RVA = "0x4815520", Offset = "0x4815520", VA = "0x4815520")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ public class XmlElementAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D46")]
-		[Address(RVA = "0x4815550", Offset = "0x4815550", VA = "0x4815550")]
+		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
 		get
 		{
 			return null;
@@ -69,7 +69,7 @@ public class XmlElementAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D47")]
-		[Address(RVA = "0x4815580", Offset = "0x4815580", VA = "0x4815580")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -80,7 +80,7 @@ public class XmlElementAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D48")]
-		[Address(RVA = "0x4815590", Offset = "0x4815590", VA = "0x4815590")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -91,7 +91,7 @@ public class XmlElementAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D49")]
-		[Address(RVA = "0x48155A0", Offset = "0x48155A0", VA = "0x48155A0")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
 		get
 		{
 			return default(bool);
@@ -102,7 +102,7 @@ public class XmlElementAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000D4A")]
-		[Address(RVA = "0x48155B0", Offset = "0x48155B0", VA = "0x48155B0")]
+		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
 		get
 		{
 			return default(int);
@@ -113,7 +113,7 @@ public class XmlElementAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000D4B")]
-		[Address(RVA = "0x48155C0", Offset = "0x48155C0", VA = "0x48155C0")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -121,19 +121,19 @@ public class XmlElementAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D43")]
-	[Address(RVA = "0x4815490", Offset = "0x4815490", VA = "0x4815490")]
+	[Address(RVA = "0x275E600", Offset = "0x275CC00", VA = "0x18275E600")]
 	public XmlElementAttribute(string elementName)
 	{
 	}
 
 	[Token(Token = "0x6000D44")]
-	[Address(RVA = "0x48154D0", Offset = "0x48154D0", VA = "0x48154D0")]
+	[Address(RVA = "0x275E5A0", Offset = "0x275CBA0", VA = "0x18275E5A0")]
 	public XmlElementAttribute(string elementName, Type type)
 	{
 	}
 
 	[Token(Token = "0x6000D4C")]
-	[Address(RVA = "0x48155D0", Offset = "0x48155D0", VA = "0x48155D0")]
+	[Address(RVA = "0x275E440", Offset = "0x275CA40", VA = "0x18275E440")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

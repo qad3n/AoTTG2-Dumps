@@ -11,9 +11,9 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200011B")]
+[Token(Token = "0x2000142")]
 internal interface ITupleInternal : ITuple
 {
-	[Token(Token = "0x6000A63")]
+	[Token(Token = "0x6000AA7")]
 	string ToString(StringBuilder sb);
 }

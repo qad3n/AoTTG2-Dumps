@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Controllers;
 
-[Token(Token = "0x20004C7")]
+[Token(Token = "0x200061C")]
 public enum TitanAIState
 {
-	[Token(Token = "0x4001505")]
+	[Token(Token = "0x4001B57")]
 	Idle,
-	[Token(Token = "0x4001506")]
+	[Token(Token = "0x4001B58")]
 	Wander,
-	[Token(Token = "0x4001507")]
+	[Token(Token = "0x4001B59")]
 	SitIdle,
-	[Token(Token = "0x4001508")]
+	[Token(Token = "0x4001B5A")]
 	MoveToEnemy,
-	[Token(Token = "0x4001509")]
+	[Token(Token = "0x4001B5B")]
 	MoveToPosition,
-	[Token(Token = "0x400150A")]
+	[Token(Token = "0x4001B5C")]
 	Action,
-	[Token(Token = "0x400150B")]
+	[Token(Token = "0x4001B5D")]
 	WaitAttack,
-	[Token(Token = "0x400150C")]
+	[Token(Token = "0x4001B5E")]
 	ForcedIdle
 }

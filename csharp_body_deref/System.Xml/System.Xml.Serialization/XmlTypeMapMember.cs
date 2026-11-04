@@ -57,13 +57,13 @@ internal class XmlTypeMapMember
 	public string Name
 	{
 		[Token(Token = "0x6000E9E")]
-		[Address(RVA = "0x4838210", Offset = "0x4838210", VA = "0x4838210")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E9F")]
-		[Address(RVA = "0x4838220", Offset = "0x4838220", VA = "0x4838220")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
@@ -73,13 +73,13 @@ internal class XmlTypeMapMember
 	public object DefaultValue
 	{
 		[Token(Token = "0x6000EA0")]
-		[Address(RVA = "0x4838230", Offset = "0x4838230", VA = "0x4838230")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EA1")]
-		[Address(RVA = "0x4838240", Offset = "0x4838240", VA = "0x4838240")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		set
 		{
 		}
@@ -89,13 +89,13 @@ internal class XmlTypeMapMember
 	public TypeData TypeData
 	{
 		[Token(Token = "0x6000EA8")]
-		[Address(RVA = "0x4838920", Offset = "0x4838920", VA = "0x4838920")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000EA9")]
-		[Address(RVA = "0x4838930", Offset = "0x4838930", VA = "0x4838930")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		set
 		{
 		}
@@ -105,13 +105,13 @@ internal class XmlTypeMapMember
 	public int Index
 	{
 		[Token(Token = "0x6000EAA")]
-		[Address(RVA = "0x4838940", Offset = "0x4838940", VA = "0x4838940")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x4838950", Offset = "0x4838950", VA = "0x4838950")]
+		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
 		set
 		{
 		}
@@ -121,13 +121,13 @@ internal class XmlTypeMapMember
 	public int GlobalIndex
 	{
 		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x4838960", Offset = "0x4838960", VA = "0x4838960")]
+		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x4838970", Offset = "0x4838970", VA = "0x4838970")]
+		[Address(RVA = "0xD23F80", Offset = "0xD22580", VA = "0x180D23F80")]
 		set
 		{
 		}
@@ -137,13 +137,13 @@ internal class XmlTypeMapMember
 	public bool IsOptionalValueType
 	{
 		[Token(Token = "0x6000EAE")]
-		[Address(RVA = "0x4834510", Offset = "0x4834510", VA = "0x4834510")]
+		[Address(RVA = "0x1A16070", Offset = "0x1A14670", VA = "0x181A16070")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x4838980", Offset = "0x4838980", VA = "0x4838980")]
+		[Address(RVA = "0x278EEB0", Offset = "0x278D4B0", VA = "0x18278EEB0")]
 		set
 		{
 		}
@@ -153,78 +153,78 @@ internal class XmlTypeMapMember
 	public bool IsReturnValue
 	{
 		[Token(Token = "0x6000EB0")]
-		[Address(RVA = "0x48389B0", Offset = "0x48389B0", VA = "0x48389B0")]
+		[Address(RVA = "0x1A16050", Offset = "0x1A14650", VA = "0x181A16050")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EB1")]
-		[Address(RVA = "0x48389C0", Offset = "0x48389C0", VA = "0x48389C0")]
+		[Address(RVA = "0x278EED0", Offset = "0x278D4D0", VA = "0x18278EED0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000E9D")]
-	[Address(RVA = "0x48381A0", Offset = "0x48381A0", VA = "0x48381A0")]
+	[Address(RVA = "0x278EE30", Offset = "0x278D430", VA = "0x18278EE30")]
 	public XmlTypeMapMember()
 	{
 	}
 
 	[Token(Token = "0x6000EA2")]
-	[Address(RVA = "0x4838250", Offset = "0x4838250", VA = "0x4838250")]
+	[Address(RVA = "0x278E6B0", Offset = "0x278CCB0", VA = "0x18278E6B0")]
 	public bool IsReadOnly(Type type)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EA3")]
-	[Address(RVA = "0x4838550", Offset = "0x4838550", VA = "0x4838550")]
+	[Address(RVA = "0x278E270", Offset = "0x278C870", VA = "0x18278E270")]
 	public static object GetValue(object ob, string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x4830710", Offset = "0x4830710", VA = "0x4830710")]
+	[Address(RVA = "0x278E100", Offset = "0x278C700", VA = "0x18278E100")]
 	public object GetValue(object ob)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x4838690", Offset = "0x4838690", VA = "0x4838690")]
+	[Address(RVA = "0x278EAD0", Offset = "0x278D0D0", VA = "0x18278EAD0")]
 	public void SetValue(object ob, object value)
 	{
 	}
 
 	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x48387D0", Offset = "0x48387D0", VA = "0x48387D0")]
+	[Address(RVA = "0x278EC70", Offset = "0x278D270", VA = "0x18278EC70")]
 	public static void SetValue(object ob, string name, object value)
 	{
 	}
 
 	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x48382F0", Offset = "0x48382F0", VA = "0x48382F0")]
+	[Address(RVA = "0x278E410", Offset = "0x278CA10", VA = "0x18278E410")]
 	private void InitMember(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000EB2")]
-	[Address(RVA = "0x48389F0", Offset = "0x48389F0", VA = "0x48389F0")]
+	[Address(RVA = "0x278DD80", Offset = "0x278C380", VA = "0x18278DD80")]
 	public void CheckOptionalValueType(Type type)
 	{
 	}
 
 	[Token(Token = "0x6000EB3")]
-	[Address(RVA = "0x4834520", Offset = "0x4834520", VA = "0x4834520")]
+	[Address(RVA = "0x278DE00", Offset = "0x278C400", VA = "0x18278DE00")]
 	public bool GetValueSpecified(object ob)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000EB4")]
-	[Address(RVA = "0x4838A60", Offset = "0x4838A60", VA = "0x4838A60")]
+	[Address(RVA = "0x278E790", Offset = "0x278CD90", VA = "0x18278E790")]
 	public void SetValueSpecified(object ob, bool value)
 	{
 	}

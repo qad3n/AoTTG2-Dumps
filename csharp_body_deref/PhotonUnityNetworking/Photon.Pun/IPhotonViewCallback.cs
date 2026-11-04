@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000008")]
 public interface IPhotonViewCallback
 {
 }

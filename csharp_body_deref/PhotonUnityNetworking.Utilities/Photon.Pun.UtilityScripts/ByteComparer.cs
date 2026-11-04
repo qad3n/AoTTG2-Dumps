@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 public class ByteComparer : IComparer<byte>
 {
-	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x3EFD090", Offset = "0x3EFD090", VA = "0x3EFD090", Slot = "4")]
+	[Token(Token = "0x600001A")]
+	[Address(RVA = "0x1D4FDE0", Offset = "0x1D4E3E0", VA = "0x181D4FDE0", Slot = "4")]
 	public int Compare(byte x, byte y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x3EFCE40", Offset = "0x3EFCE40", VA = "0x3EFCE40")]
+	[Token(Token = "0x600001B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ByteComparer()
 	{
 	}

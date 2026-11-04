@@ -1,5 +1,5 @@
 // Type: Map.MapObjectCollideWith
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapObjectCollideWith.cs
@@ -8,52 +8,48 @@
 
 // Map.MapObjectCollideWith$$.cctor
 // il2cpp: void Map_MapObjectCollideWith___cctor (const MethodInfo* method);
-// 0x40b1bb0
+// 0x181eb4a80
 
 void Map_MapObjectCollideWith___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057ac4cc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapObjectCollideWith);
-    il2cpp_runtime_helper_023445d0(&"Hitboxes");
-    il2cpp_runtime_helper_023445d0(&"Characters");
-    il2cpp_runtime_helper_023445d0(&"MapEditor");
-    il2cpp_runtime_helper_023445d0(&"Titans");
-    il2cpp_runtime_helper_023445d0(&"Entities");
-    il2cpp_runtime_helper_023445d0(&"All");
-    il2cpp_runtime_helper_023445d0(&"Projectiles");
-    il2cpp_runtime_helper_023445d0(&"Humans");
-    il2cpp_runtime_helper_023445d0(&"MapObjects");
-    g_data_057ac4cc = '\x01';
+  if (Il2CppMethodInitialized_1843450df == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectCollideWith);
+    il2cpp_codegen_initialize_runtime_metadata(&"Hitboxes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Characters");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapEditor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titans");
+    il2cpp_codegen_initialize_runtime_metadata(&"Entities");
+    il2cpp_codegen_initialize_runtime_metadata(&"All");
+    il2cpp_codegen_initialize_runtime_metadata(&"Projectiles");
+    il2cpp_codegen_initialize_runtime_metadata(&"Humans");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapObjects");
+    Il2CppMethodInitialized_1843450df = '\x01';
   }
-  **(undefined8 **)(TypeInfo_MapObjectCollideWith + 0xb8) = "All";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_MapObjectCollideWith + 0xb8),"All");
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "MapObjects";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Characters";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Titans";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "Humans";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "Projectiles";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "Entities";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x38) = "Hitboxes";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x38);
-  lVar1 = *(long *)(TypeInfo_MapObjectCollideWith + 0xb8);
-  *(undefined8 *)(lVar1 + 0x40) = "MapEditor";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x40);
+  TypeInfo_Map_MapObjectCollideWith->static_fields->All = "All";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectCollideWith->static_fields->All,"All");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->MapObjects = "MapObjects";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Map_MapObjectCollideWith->static_fields->MapObjects,"MapObjects");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Characters = "Characters";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Map_MapObjectCollideWith->static_fields->Characters,"Characters");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Titans = "Titans";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectCollideWith->static_fields->Titans,"Titans");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Humans = "Humans";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectCollideWith->static_fields->Humans,"Humans");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Projectiles = "Projectiles";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Map_MapObjectCollideWith->static_fields->Projectiles,"Projectiles");
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Entities = "Entities";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectCollideWith->static_fields->Entities,"Entities")
+  ;
+  TypeInfo_Map_MapObjectCollideWith->static_fields->Hitboxes = "Hitboxes";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_MapObjectCollideWith->static_fields->Hitboxes,"Hitboxes")
+  ;
+  TypeInfo_Map_MapObjectCollideWith->static_fields->MapEditor = "MapEditor";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Map_MapObjectCollideWith->static_fields->MapEditor,"MapEditor");
   return;
 }
 

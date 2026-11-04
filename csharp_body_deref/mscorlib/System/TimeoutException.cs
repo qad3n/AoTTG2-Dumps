@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200011A")]
+[Token(Token = "0x2000141")]
 public class TimeoutException : SystemException
 {
-	[Token(Token = "0x6000A60")]
-	[Address(RVA = "0x3CD3070", Offset = "0x3CD3070", VA = "0x3CD3070")]
+	[Token(Token = "0x6000AA4")]
+	[Address(RVA = "0x1B4FFD0", Offset = "0x1B4E5D0", VA = "0x181B4FFD0")]
 	public TimeoutException()
 	{
 	}
 
-	[Token(Token = "0x6000A61")]
-	[Address(RVA = "0x3CD3120", Offset = "0x3CD3120", VA = "0x3CD3120")]
+	[Token(Token = "0x6000AA5")]
+	[Address(RVA = "0x1B50060", Offset = "0x1B4E660", VA = "0x181B50060")]
 	public TimeoutException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000A62")]
-	[Address(RVA = "0x3CD3180", Offset = "0x3CD3180", VA = "0x3CD3180")]
+	[Token(Token = "0x6000AA6")]
+	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
 	protected TimeoutException(SerializationInfo info, StreamingContext context)
 	{
 	}

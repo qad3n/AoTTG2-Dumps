@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000030")]
 internal sealed class ProfilerRecorderDebugView
 {
 }

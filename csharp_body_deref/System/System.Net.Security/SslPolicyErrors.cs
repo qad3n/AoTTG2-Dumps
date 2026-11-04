@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x2000236")]
+[Token(Token = "0x20003CE")]
 [Flags]
 public enum SslPolicyErrors
 {
-	[Token(Token = "0x4000C86")]
+	[Token(Token = "0x40010D9")]
 	None = 0,
-	[Token(Token = "0x4000C87")]
+	[Token(Token = "0x40010DA")]
 	RemoteCertificateNotAvailable = 1,
-	[Token(Token = "0x4000C88")]
+	[Token(Token = "0x40010DB")]
 	RemoteCertificateNameMismatch = 2,
-	[Token(Token = "0x4000C89")]
+	[Token(Token = "0x40010DC")]
 	RemoteCertificateChainErrors = 4
 }

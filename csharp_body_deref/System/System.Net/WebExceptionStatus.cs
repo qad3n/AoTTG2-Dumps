@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200014E")]
+[Token(Token = "0x20002D6")]
 public enum WebExceptionStatus
 {
-	[Token(Token = "0x40006A8")]
+	[Token(Token = "0x4000ABE")]
 	Success,
-	[Token(Token = "0x40006A9")]
+	[Token(Token = "0x4000ABF")]
 	NameResolutionFailure,
-	[Token(Token = "0x40006AA")]
+	[Token(Token = "0x4000AC0")]
 	ConnectFailure,
-	[Token(Token = "0x40006AB")]
+	[Token(Token = "0x4000AC1")]
 	ReceiveFailure,
-	[Token(Token = "0x40006AC")]
+	[Token(Token = "0x4000AC2")]
 	SendFailure,
-	[Token(Token = "0x40006AD")]
+	[Token(Token = "0x4000AC3")]
 	PipelineFailure,
-	[Token(Token = "0x40006AE")]
+	[Token(Token = "0x4000AC4")]
 	RequestCanceled,
-	[Token(Token = "0x40006AF")]
+	[Token(Token = "0x4000AC5")]
 	ProtocolError,
-	[Token(Token = "0x40006B0")]
+	[Token(Token = "0x4000AC6")]
 	ConnectionClosed,
-	[Token(Token = "0x40006B1")]
+	[Token(Token = "0x4000AC7")]
 	TrustFailure,
-	[Token(Token = "0x40006B2")]
+	[Token(Token = "0x4000AC8")]
 	SecureChannelFailure,
-	[Token(Token = "0x40006B3")]
+	[Token(Token = "0x4000AC9")]
 	ServerProtocolViolation,
-	[Token(Token = "0x40006B4")]
+	[Token(Token = "0x4000ACA")]
 	KeepAliveFailure,
-	[Token(Token = "0x40006B5")]
+	[Token(Token = "0x4000ACB")]
 	Pending,
-	[Token(Token = "0x40006B6")]
+	[Token(Token = "0x4000ACC")]
 	Timeout,
-	[Token(Token = "0x40006B7")]
+	[Token(Token = "0x4000ACD")]
 	ProxyNameResolutionFailure,
-	[Token(Token = "0x40006B8")]
+	[Token(Token = "0x4000ACE")]
 	UnknownError,
-	[Token(Token = "0x40006B9")]
+	[Token(Token = "0x4000ACF")]
 	MessageLengthLimitExceeded,
-	[Token(Token = "0x40006BA")]
+	[Token(Token = "0x4000AD0")]
 	CacheEntryNotFound,
-	[Token(Token = "0x40006BB")]
+	[Token(Token = "0x4000AD1")]
 	RequestProhibitedByCachePolicy,
-	[Token(Token = "0x40006BC")]
+	[Token(Token = "0x4000AD2")]
 	RequestProhibitedByProxy
 }

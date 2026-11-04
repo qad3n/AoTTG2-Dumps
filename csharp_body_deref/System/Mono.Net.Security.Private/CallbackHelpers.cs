@@ -14,15 +14,15 @@ namespace Mono.Net.Security.Private;
 [Token(Token = "0x2000065")]
 internal static class CallbackHelpers
 {
-	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x452B640", Offset = "0x452B640", VA = "0x452B640")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x2490080", Offset = "0x248E680", VA = "0x182490080")]
 	internal static MonoRemoteCertificateValidationCallback PublicToMono(RemoteCertificateValidationCallback callback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x4524D40", Offset = "0x4524D40", VA = "0x4524D40")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x248FFC0", Offset = "0x248E5C0", VA = "0x18248FFC0")]
 	internal static LocalCertSelectionCallback MonoToInternal(MonoLocalCertificateSelectionCallback callback)
 	{
 		return null;

@@ -9,66 +9,66 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006C8")]
+[Token(Token = "0x2000826")]
 internal class MapEditorErrorPopup : ExportPopup
 {
-	[Token(Token = "0x17000D36")]
+	[Token(Token = "0x17000E7E")]
 	protected override string Title
 	{
-		[Token(Token = "0x60043A5")]
-		[Address(RVA = "0x43265D0", Offset = "0x43265D0", VA = "0x43265D0", Slot = "35")]
+		[Token(Token = "0x6004EB1")]
+		[Address(RVA = "0x22AD450", Offset = "0x22ABA50", VA = "0x1822AD450", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D37")]
+	[Token(Token = "0x17000E7F")]
 	protected override float Width
 	{
-		[Token(Token = "0x60043A6")]
-		[Address(RVA = "0x4326600", Offset = "0x4326600", VA = "0x4326600", Slot = "5")]
+		[Token(Token = "0x6004EB2")]
+		[Address(RVA = "0x210FB90", Offset = "0x210E190", VA = "0x18210FB90", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D38")]
+	[Token(Token = "0x17000E80")]
 	protected override float Height
 	{
-		[Token(Token = "0x60043A7")]
-		[Address(RVA = "0x4326610", Offset = "0x4326610", VA = "0x4326610", Slot = "6")]
+		[Token(Token = "0x6004EB3")]
+		[Address(RVA = "0x21D8200", Offset = "0x21D6800", VA = "0x1821D8200", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D39")]
+	[Token(Token = "0x17000E81")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x60043A8")]
-		[Address(RVA = "0x4326620", Offset = "0x4326620", VA = "0x4326620", Slot = "9")]
+		[Token(Token = "0x6004EB4")]
+		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000D3A")]
+	[Token(Token = "0x17000E82")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x60043A9")]
-		[Address(RVA = "0x4326630", Offset = "0x4326630", VA = "0x4326630", Slot = "10")]
+		[Token(Token = "0x6004EB5")]
+		[Address(RVA = "0x847040", Offset = "0x845640", VA = "0x180847040", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60043AA")]
-	[Address(RVA = "0x4326640", Offset = "0x4326640", VA = "0x4326640")]
+	[Token(Token = "0x6004EB6")]
+	[Address(RVA = "0x22AD440", Offset = "0x22ABA40", VA = "0x1822AD440")]
 	public MapEditorErrorPopup()
 	{
 	}

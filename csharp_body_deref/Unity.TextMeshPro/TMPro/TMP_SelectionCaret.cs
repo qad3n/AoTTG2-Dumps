@@ -11,24 +11,25 @@ using UnityEngine.UI;
 
 namespace TMPro;
 
-[Token(Token = "0x2000078")]
+[Token(Token = "0x200006D")]
 [RequireComponent(typeof(CanvasRenderer))]
+[TMPro.TMPHelpURL("index")]
 public class TMP_SelectionCaret : MaskableGraphic
 {
-	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x4C8AC50", Offset = "0x4C8AC50", VA = "0x4C8AC50", Slot = "59")]
+	[Token(Token = "0x6000361")]
+	[Address(RVA = "0x2D3E470", Offset = "0x2D3CA70", VA = "0x182D3E470", Slot = "59")]
 	public override void Cull(Rect clipRect, bool validRect)
 	{
 	}
 
-	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x4C8ACF0", Offset = "0x4C8ACF0", VA = "0x4C8ACF0", Slot = "41")]
+	[Token(Token = "0x6000362")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "41")]
 	protected override void UpdateGeometry()
 	{
 	}
 
-	[Token(Token = "0x60003CC")]
-	[Address(RVA = "0x4C8AD00", Offset = "0x4C8AD00", VA = "0x4C8AD00")]
+	[Token(Token = "0x6000363")]
+	[Address(RVA = "0x23BE660", Offset = "0x23BCC60", VA = "0x1823BE660")]
 	public TMP_SelectionCaret()
 	{
 	}

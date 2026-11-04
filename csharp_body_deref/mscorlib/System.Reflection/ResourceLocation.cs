@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F3")]
+[Token(Token = "0x2000523")]
 [Flags]
 public enum ResourceLocation
 {

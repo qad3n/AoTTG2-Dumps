@@ -12,174 +12,174 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20005BB")]
+[Token(Token = "0x200058D")]
 internal class CalendarData
 {
-	[Token(Token = "0x40018EA")]
+	[Token(Token = "0x400170B")]
 	internal const int MAX_CALENDARS = 23;
 
-	[Token(Token = "0x40018EB")]
+	[Token(Token = "0x400170C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal string sNativeName;
 
-	[Token(Token = "0x40018EC")]
+	[Token(Token = "0x400170D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal string[] saShortDates;
 
-	[Token(Token = "0x40018ED")]
+	[Token(Token = "0x400170E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	internal string[] saYearMonths;
 
-	[Token(Token = "0x40018EE")]
+	[Token(Token = "0x400170F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	internal string[] saLongDates;
 
-	[Token(Token = "0x40018EF")]
+	[Token(Token = "0x4001710")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	internal string sMonthDay;
 
-	[Token(Token = "0x40018F0")]
+	[Token(Token = "0x4001711")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	internal string[] saEraNames;
 
-	[Token(Token = "0x40018F1")]
+	[Token(Token = "0x4001712")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	internal string[] saAbbrevEraNames;
 
-	[Token(Token = "0x40018F2")]
+	[Token(Token = "0x4001713")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	internal string[] saAbbrevEnglishEraNames;
 
-	[Token(Token = "0x40018F3")]
+	[Token(Token = "0x4001714")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	internal string[] saDayNames;
 
-	[Token(Token = "0x40018F4")]
+	[Token(Token = "0x4001715")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	internal string[] saAbbrevDayNames;
 
-	[Token(Token = "0x40018F5")]
+	[Token(Token = "0x4001716")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	internal string[] saSuperShortDayNames;
 
-	[Token(Token = "0x40018F6")]
+	[Token(Token = "0x4001717")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	internal string[] saMonthNames;
 
-	[Token(Token = "0x40018F7")]
+	[Token(Token = "0x4001718")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	internal string[] saAbbrevMonthNames;
 
-	[Token(Token = "0x40018F8")]
+	[Token(Token = "0x4001719")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	internal string[] saMonthGenitiveNames;
 
-	[Token(Token = "0x40018F9")]
+	[Token(Token = "0x400171A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	internal string[] saAbbrevMonthGenitiveNames;
 
-	[Token(Token = "0x40018FA")]
+	[Token(Token = "0x400171B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	internal string[] saLeapYearMonthNames;
 
-	[Token(Token = "0x40018FB")]
+	[Token(Token = "0x400171C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	internal int iTwoDigitYearMax;
 
-	[Token(Token = "0x40018FC")]
+	[Token(Token = "0x400171D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x94")]
 	internal int iCurrentEra;
 
-	[Token(Token = "0x40018FD")]
+	[Token(Token = "0x400171E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	internal bool bUseUserOverrides;
 
-	[Token(Token = "0x40018FE")]
+	[Token(Token = "0x400171F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	internal static System.Globalization.CalendarData Invariant;
 
-	[Token(Token = "0x40018FF")]
+	[Token(Token = "0x4001720")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static string[] HEBREW_MONTH_NAMES;
 
-	[Token(Token = "0x4001900")]
+	[Token(Token = "0x4001721")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static string[] HEBREW_LEAP_MONTH_NAMES;
 
-	[Token(Token = "0x6002C8A")]
-	[Address(RVA = "0x3C55870", Offset = "0x3C55870", VA = "0x3C55870")]
+	[Token(Token = "0x6002997")]
+	[Address(RVA = "0x1A95FF0", Offset = "0x1A945F0", VA = "0x181A95FF0")]
 	private CalendarData()
 	{
 	}
 
-	[Token(Token = "0x6002C8B")]
-	[Address(RVA = "0x3C55890", Offset = "0x3C55890", VA = "0x3C55890")]
+	[Token(Token = "0x6002998")]
+	[Address(RVA = "0x1A94860", Offset = "0x1A92E60", VA = "0x181A94860")]
 	static CalendarData()
 	{
 	}
 
-	[Token(Token = "0x6002C8C")]
-	[Address(RVA = "0x3C569A0", Offset = "0x3C569A0", VA = "0x3C569A0")]
+	[Token(Token = "0x6002999")]
+	[Address(RVA = "0x1A958B0", Offset = "0x1A93EB0", VA = "0x181A958B0")]
 	internal CalendarData(string localeName, int calendarId, bool bUseUserOverrides)
 	{
 	}
 
-	[Token(Token = "0x6002C8D")]
-	[Address(RVA = "0x3C57200", Offset = "0x3C57200", VA = "0x3C57200")]
+	[Token(Token = "0x600299A")]
+	[Address(RVA = "0x1A943B0", Offset = "0x1A929B0", VA = "0x181A943B0")]
 	private void InitializeEraNames(string localeName, int calendarId)
 	{
 	}
 
-	[Token(Token = "0x6002C8E")]
-	[Address(RVA = "0x3C57BC0", Offset = "0x3C57BC0", VA = "0x3C57BC0")]
+	[Token(Token = "0x600299B")]
+	[Address(RVA = "0x1A93E20", Offset = "0x1A92420", VA = "0x181A93E20")]
 	private static string[] GetJapaneseEraNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C8F")]
-	[Address(RVA = "0x3C57A90", Offset = "0x3C57A90", VA = "0x3C57A90")]
+	[Token(Token = "0x600299C")]
+	[Address(RVA = "0x1A93C50", Offset = "0x1A92250", VA = "0x181A93C50")]
 	private static string[] GetJapaneseEnglishEraNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C90")]
-	[Address(RVA = "0x3C576C0", Offset = "0x3C576C0", VA = "0x3C576C0")]
+	[Token(Token = "0x600299D")]
+	[Address(RVA = "0x1A93FF0", Offset = "0x1A925F0", VA = "0x181A93FF0")]
 	private void InitializeAbbreviatedEraNames(string localeName, int calendarId)
 	{
 	}
 
-	[Token(Token = "0x6002C91")]
-	[Address(RVA = "0x3C55190", Offset = "0x3C55190", VA = "0x3C55190")]
+	[Token(Token = "0x600299E")]
+	[Address(RVA = "0x1A93A60", Offset = "0x1A92060", VA = "0x181A93A60")]
 	internal static System.Globalization.CalendarData GetCalendarData(int calendarId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C92")]
-	[Address(RVA = "0x3C57CF0", Offset = "0x3C57CF0", VA = "0x3C57CF0")]
+	[Token(Token = "0x600299F")]
+	[Address(RVA = "0x1A938D0", Offset = "0x1A91ED0", VA = "0x181A938D0")]
 	private static string CalendarIdToCultureName(int calendarId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C93")]
-	[Address(RVA = "0x3C55860", Offset = "0x3C55860", VA = "0x3C55860")]
+	[Token(Token = "0x60029A0")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0")]
 	public static int nativeGetTwoDigitYearMax(int calID)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002C94")]
-	[Address(RVA = "0x3C57120", Offset = "0x3C57120", VA = "0x3C57120")]
+	[Token(Token = "0x60029A1")]
+	[Address(RVA = "0x1A96020", Offset = "0x1A94620", VA = "0x181A96020")]
 	private static bool nativeGetCalendarData(System.Globalization.CalendarData data, string localeName, int calendarId)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002C95")]
-	[Address(RVA = "0x3C57DB0", Offset = "0x3C57DB0", VA = "0x3C57DB0")]
+	[Token(Token = "0x60029A2")]
+	[Address(RVA = "0x1A96010", Offset = "0x1A94610", VA = "0x181A96010")]
 	private extern bool fill_calendar_data(string localeName, int datetimeIndex);
 }

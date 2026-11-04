@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Numerics.Hashing;
 
-[Token(Token = "0x2000537")]
+[Token(Token = "0x2000567")]
 internal static class HashHelpers
 {
-	[Token(Token = "0x40015B1")]
+	[Token(Token = "0x40015B0")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly int RandomSeed;
 
-	[Token(Token = "0x60027E4")]
-	[Address(RVA = "0x3BE9D10", Offset = "0x3BE9D10", VA = "0x3BE9D10")]
+	[Token(Token = "0x6002867")]
+	[Address(RVA = "0x1A69EB0", Offset = "0x1A684B0", VA = "0x181A69EB0")]
 	public static int Combine(int h1, int h2)
 	{
 		return default(int);

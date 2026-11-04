@@ -21,7 +21,7 @@ public class XmlSchemaObjectEnumerator : IEnumerator
 	public XmlSchemaObject Current
 	{
 		[Token(Token = "0x60016E7")]
-		[Address(RVA = "0x4725E80", Offset = "0x4725E80", VA = "0x4725E80")]
+		[Address(RVA = "0x2675950", Offset = "0x2673F50", VA = "0x182675950")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ public class XmlSchemaObjectEnumerator : IEnumerator
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
 		[Token(Token = "0x60016EA")]
-		[Address(RVA = "0x4726090", Offset = "0x4726090", VA = "0x4726090", Slot = "5")]
+		[Address(RVA = "0x2675900", Offset = "0x2673F00", VA = "0x182675900", Slot = "5")]
 		get
 		{
 			return null;
@@ -40,26 +40,26 @@ public class XmlSchemaObjectEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x60016E5")]
-	[Address(RVA = "0x4725DC0", Offset = "0x4725DC0", VA = "0x4725DC0")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	internal XmlSchemaObjectEnumerator(IEnumerator enumerator)
 	{
 	}
 
 	[Token(Token = "0x60016E6")]
-	[Address(RVA = "0x4725DF0", Offset = "0x4725DF0", VA = "0x4725DF0")]
+	[Address(RVA = "0x2675810", Offset = "0x2673E10", VA = "0x182675810")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60016E8")]
-	[Address(RVA = "0x4725F60", Offset = "0x4725F60", VA = "0x4725F60", Slot = "6")]
+	[Address(RVA = "0x26758B0", Offset = "0x2673EB0", VA = "0x1826758B0", Slot = "6")]
 	private void System_002ECollections_002EIEnumerator_002EReset()
 	{
 	}
 
 	[Token(Token = "0x60016E9")]
-	[Address(RVA = "0x4726000", Offset = "0x4726000", VA = "0x4726000", Slot = "4")]
+	[Address(RVA = "0x2675860", Offset = "0x2673E60", VA = "0x182675860", Slot = "4")]
 	private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 	{
 		return default(bool);

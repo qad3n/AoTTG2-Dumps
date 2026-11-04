@@ -10,55 +10,55 @@ using Il2CppDummyDll;
 
 namespace Controllers;
 
-[Token(Token = "0x20004CB")]
+[Token(Token = "0x2000622")]
 internal class HumanAIState
 {
-	[Token(Token = "0x400152B")]
+	[Token(Token = "0x4001B8E")]
 	[FieldOffset(Offset = "0x10")]
 	protected Human Human;
 
-	[Token(Token = "0x400152C")]
+	[Token(Token = "0x4001B8F")]
 	[FieldOffset(Offset = "0x18")]
 	protected HumanAIController Controller;
 
-	[Token(Token = "0x170009A7")]
+	[Token(Token = "0x17000AAC")]
 	public virtual string Name
 	{
-		[Token(Token = "0x60032A3")]
-		[Address(RVA = "0x4197440", Offset = "0x4197440", VA = "0x4197440", Slot = "4")]
+		[Token(Token = "0x6003C59")]
+		[Address(RVA = "0x2117A20", Offset = "0x2116020", VA = "0x182117A20", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60032A4")]
-	[Address(RVA = "0x4197470", Offset = "0x4197470", VA = "0x4197470", Slot = "5")]
+	[Token(Token = "0x6003C5A")]
+	[Address(RVA = "0x2117930", Offset = "0x2115F30", VA = "0x182117930", Slot = "5")]
 	public virtual HumanAIState Init(Human human)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60032A5")]
-	[Address(RVA = "0x4197540", Offset = "0x4197540", VA = "0x4197540", Slot = "6")]
+	[Token(Token = "0x6003C5B")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	public virtual void OnStateEntry()
 	{
 	}
 
-	[Token(Token = "0x60032A6")]
-	[Address(RVA = "0x4197550", Offset = "0x4197550", VA = "0x4197550", Slot = "7")]
+	[Token(Token = "0x6003C5C")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	public virtual void Action()
 	{
 	}
 
-	[Token(Token = "0x60032A7")]
-	[Address(RVA = "0x4197560", Offset = "0x4197560", VA = "0x4197560", Slot = "8")]
+	[Token(Token = "0x6003C5D")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public virtual void OnStateExit()
 	{
 	}
 
-	[Token(Token = "0x60032A8")]
-	[Address(RVA = "0x4197570", Offset = "0x4197570", VA = "0x4197570")]
+	[Token(Token = "0x6003C5E")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public HumanAIState()
 	{
 	}

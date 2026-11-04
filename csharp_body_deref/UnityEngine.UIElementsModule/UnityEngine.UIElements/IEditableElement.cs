@@ -7,23 +7,27 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000A9")]
+[Token(Token = "0x20000E7")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal interface IEditableElement
 {
-	[Token(Token = "0x170000A3")]
+	[Token(Token = "0x1700010C")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal Action editingStarted
 	{
-		[Token(Token = "0x6000477")]
+		[Token(Token = "0x6000659")]
 		get;
 	}
 
-	[Token(Token = "0x170000A4")]
+	[Token(Token = "0x1700010D")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal Action editingEnded
 	{
-		[Token(Token = "0x6000478")]
+		[Token(Token = "0x600065A")]
 		get;
 	}
 }

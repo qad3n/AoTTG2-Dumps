@@ -1,155 +1,170 @@
 // Type: UI.KeybindPopup
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/KeybindPopup.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/KeybindPopup.cs
 // --------------------------------
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$.ctor
-// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__19___ctor (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x434f4b0
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$.ctor
+// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x180573ef0
 
-void UI_KeybindPopup__WaitAndUpdateSetting_d__19___ctor
-               (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,int32_t __1__state,MethodInfo *method)
+void
+UI_KeybindPopup__WaitAndUpdateSetting_d__21___ctor(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$System.IDisposable.Dispose
-// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_IDisposable_Dispose (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, const MethodInfo* method);
-// 0x434f720
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.IDisposable.Dispose
+// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
+// 0x180547020
 
-void UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_IDisposable_Dispose
-               (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,MethodInfo *method)
+void
+UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_IDisposable_Dispose(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
 
 {
   return;
 }
 
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$MoveNext
-// il2cpp: bool UI_KeybindPopup__WaitAndUpdateSetting_d__19__MoveNext (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, const MethodInfo* method);
-// 0x434f730
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$MoveNext
+// il2cpp: bool UI_KeybindPopup__WaitAndUpdateSetting_d__21__MoveNext (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
+// 0x1821d14e0
 
-bool_conflict
-UI_KeybindPopup__WaitAndUpdateSetting_d__19__MoveNext
-          (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,MethodInfo *method)
+bool UI_KeybindPopup__WaitAndUpdateSetting_d__21__MoveNext
+               (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  Il2CppObject *__this_00;
-  undefined8 uVar2;
-  UI_KeybindPopup_o *__this_01;
+  UI_KeybindPopup_o *__this_00;
+  Il2CppObject *__this_01;
   
-  if (g_data_057ae12e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitForEndOfFrame);
-    g_data_057ae12e = '\x01';
+  if (Il2CppMethodInitialized_184346f2b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
+    Il2CppMethodInitialized_184346f2b = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 == 1) {
-    __this_01 = (__this->fields).__4__this;
+  if (iVar1 == 0) {
     (__this->fields).__1__state = -1;
-    if (__this_01 == (UI_KeybindPopup_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      return (bool_conflict)(__this_01->fields).m_CancellationTokenSource;
-    }
-    UI_KeybindPopup__UpdateSetting(__this_01,method);
-  }
-  else if (iVar1 == 0) {
-    (__this->fields).__1__state = -1;
-    __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)__this_00,(MethodInfo *)0x0);
-    (__this->fields).__2__current = __this_00;
-    uVar2 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,__this_00);
+    __this_01 = (Il2CppObject *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+    UnityEngine_WaitForEndOfFrame___ctor
+              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_01,(MethodInfo *)0x0);
+    (__this->fields).__2__current = __this_01;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,__this_01);
     (__this->fields).__1__state = 1;
-    return (bool_conflict)CONCAT71((int7)((ulong)uVar2 >> 8),1);
+    return true;
   }
-  return 0;
+  if (iVar1 == 1) {
+    __this_00 = (__this->fields).__4__this;
+    (__this->fields).__1__state = -1;
+    if (__this_00 == (UI_KeybindPopup_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    UI_KeybindPopup__UpdateSetting(__this_00,(MethodInfo *)0x0);
+  }
+  return false;
 }
 
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, const MethodInfo* method);
-// 0x434f7d0
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
+// 0x180573e90
 
-Il2CppObject *
-UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$System.Collections.IEnumerator.Reset
-// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_IEnumerator_Reset (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, const MethodInfo* method);
-// 0x434f7e0
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.IEnumerator.Reset
+// il2cpp: void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_Reset (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
+// 0x1821d1580
 
-void UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_IEnumerator_Reset
-               (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,MethodInfo *method)
+void UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_Reset
+               (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21_System_Collections_IEnumerator_Reset)
+  ;
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// UI.KeybindPopup.<WaitAndUpdateSetting>d__19$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_IEnumerator_get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o* __this, const MethodInfo* method);
-// 0x434f820
+// UI.KeybindPopup.<WaitAndUpdateSetting>d__21$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_Current (UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, const MethodInfo* method);
+// 0x180573e90
 
-Il2CppObject *
-UI_KeybindPopup__WaitAndUpdateSetting_d__19__System_Collections_IEnumerator_get_Current
-          (UI_KeybindPopup__WaitAndUpdateSetting_d__19_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_KeybindPopup__WaitAndUpdateSetting_d__21__System_Collections_IEnumerator_get_Current(UI_KeybindPopup__WaitAndUpdateSetting_d__21_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
+}
+
+
+// UI.KeybindPopup$$get_EscapeBehavior
+// il2cpp: int32_t UI_KeybindPopup__get_EscapeBehavior (UI_KeybindPopup_o* __this, const MethodInfo* method);
+// 0x180564040
+
+int32_t
+UI_KeybindPopup__get_EscapeBehavior(UI_KeybindPopup_o* __this, MethodInfo* method)
+
+{
+  return 1;
 }
 
 
 // UI.KeybindPopup$$get_Title
 // il2cpp: System_String_o* UI_KeybindPopup__get_Title (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434ee30
+// 0x1821c57b0
 
 System_String_o * UI_KeybindPopup__get_Title(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
   
-  if (g_data_057ae127 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&"KeybindPopup");
-    il2cpp_runtime_helper_023445d0(&"Title");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae127 = '\x01';
+  if (Il2CppMethodInitialized_184346f24 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"KeybindPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"Title");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184346f24 = '\x01';
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
   pSVar1 = UI_UIManager__GetLocale
-                     ("SettingsPopup","KeybindPopup","Title","","",(MethodInfo *)0x0);
+                     ("SettingsPopup","KeybindPopup","Title","",
+                      "",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // UI.KeybindPopup$$get_Width
 // il2cpp: float UI_KeybindPopup__get_Width (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434eed0
+// 0x1821c1230
 
-float UI_KeybindPopup__get_Width(UI_KeybindPopup_o *__this,MethodInfo *method)
+float
+UI_KeybindPopup__get_Width(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
   return 300.0;
@@ -158,9 +173,10 @@ float UI_KeybindPopup__get_Width(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 // UI.KeybindPopup$$get_Height
 // il2cpp: float UI_KeybindPopup__get_Height (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434eee0
+// 0x182182bd0
 
-float UI_KeybindPopup__get_Height(UI_KeybindPopup_o *__this,MethodInfo *method)
+float
+UI_KeybindPopup__get_Height(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
   return 250.0;
@@ -169,9 +185,10 @@ float UI_KeybindPopup__get_Height(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 // UI.KeybindPopup$$get_VerticalSpacing
 // il2cpp: float UI_KeybindPopup__get_VerticalSpacing (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434eef0
+// 0x182182ab0
 
-float UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o *__this,MethodInfo *method)
+float
+UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
   return 15.0;
@@ -180,9 +197,10 @@ float UI_KeybindPopup__get_VerticalSpacing(UI_KeybindPopup_o *__this,MethodInfo 
 
 // UI.KeybindPopup$$get_VerticalPadding
 // il2cpp: int32_t UI_KeybindPopup__get_VerticalPadding (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434ef00
+// 0x1821bb430
 
-int32_t UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o *__this,MethodInfo *method)
+int32_t
+UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
   return 0x1e;
@@ -191,9 +209,10 @@ int32_t UI_KeybindPopup__get_VerticalPadding(UI_KeybindPopup_o *__this,MethodInf
 
 // UI.KeybindPopup$$get_PanelAlignment
 // il2cpp: int32_t UI_KeybindPopup__get_PanelAlignment (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434ef10
+// 0x180846f40
 
-int32_t UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o *__this,MethodInfo *method)
+int32_t
+UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
   return 4;
@@ -202,620 +221,348 @@ int32_t UI_KeybindPopup__get_PanelAlignment(UI_KeybindPopup_o *__this,MethodInfo
 
 // UI.KeybindPopup$$Setup
 // il2cpp: void UI_KeybindPopup__Setup (UI_KeybindPopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x434ef20
+// 0x1821c50e0
 
 void UI_KeybindPopup__Setup(UI_KeybindPopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
   UnityEngine_Transform_o *pUVar1;
-  Il2CppRGCTXData *pIVar2;
-  long *plVar3;
   int32_t fontSize;
-  bool_conflict bVar4;
-  System_String_o *pSVar5;
+  System_String_o *pSVar2;
   UI_ElementStyle_o *__this_00;
-  UnityEngine_Events_UnityAction_o *pUVar6;
-  UnityEngine_GameObject_o *pUVar7;
-  UnityEngine_UI_Text_o *pUVar8;
-  Settings_InputKey_o *pSVar9;
-  Il2CppObject *__this_01;
-  UnityEngine_Component_o *pUVar10;
-  undefined8 uVar11;
-  MethodInfo *extraout_RDX;
-  undefined4 uVar12;
-  MethodInfo *method_00;
-  Il2CppClass *__this_02;
-  Il2CppObject *pIVar13;
-  UnityEngine_Component_o *__this_03;
+  UnityEngine_Events_UnityAction_o *pUVar3;
+  UnityEngine_GameObject_o *pUVar4;
+  UnityEngine_UI_Text_o *value;
+  Settings_InputKey_o *__this_01;
   
-  if (g_data_057ae128 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InputKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__17_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__17_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&"KeybindPopup");
-    il2cpp_runtime_helper_023445d0(&"Unbind");
-    il2cpp_runtime_helper_023445d0(&"CurrentKey");
-    il2cpp_runtime_helper_023445d0(&":");
-    il2cpp_runtime_helper_023445d0(&"Cancel");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae128 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346f25 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_InputKey);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_KeybindPopup_Setup_b__19_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_KeybindPopup_Setup_b__19_1);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"KeybindPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"Unbind");
+    il2cpp_codegen_initialize_runtime_metadata(&"CurrentKey");
+    il2cpp_codegen_initialize_runtime_metadata(&":");
+    il2cpp_codegen_initialize_runtime_metadata(&"Cancel");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184346f25 = '\x01';
   }
-  UI_PromptPopup__Setup((UI_PromptPopup_o *)__this,parent,method);
+  UI_PromptPopup__Setup((UI_PromptPopup_o *)__this,parent,(MethodInfo *)0x0);
   fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
                        (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
-  pSVar5 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+  pSVar2 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  __this_00 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(__this_00,fontSize,120.0,20.0,pSVar5,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+  UI_ElementStyle___ctor(__this_00,fontSize,120.0,20.0,pSVar2,(MethodInfo *)0x0);
   pUVar1 = (__this->fields).BottomBar;
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
-  pSVar5 = UI_UIManager__GetLocale
-                     ("SettingsPopup","KeybindPopup","Unbind","","",(MethodInfo *)0x0);
-  pUVar6 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-  UnityEngine_Events_UnityAction___ctor();
-  UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar5,0.0,pUVar6,(MethodInfo *)0x0);
+  pSVar2 = UI_UIManager__GetLocale
+                     ("SettingsPopup","KeybindPopup","Unbind","",
+                      "",(MethodInfo *)0x0);
+  pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar3,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_0,(MethodInfo *)0x0);
+  UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar2,0.0,pUVar3,(MethodInfo *)0x0);
   pUVar1 = (__this->fields).BottomBar;
-  pSVar5 = UI_UIManager__GetLocaleCommon("Cancel",(MethodInfo *)0x0);
-  pUVar6 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-  UnityEngine_Events_UnityAction___ctor();
-  UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar5,0.0,pUVar6,(MethodInfo *)0x0);
-  __this_02 = (Il2CppClass *)(__this->fields).SinglePanel;
-  pSVar5 = UI_UIManager__GetLocale
-                     ("SettingsPopup","KeybindPopup","CurrentKey","","",(MethodInfo *)0x0);
-  pSVar5 = System_String__Concat_3ae5ba0(pSVar5,":",(MethodInfo *)0x0);
-  pUVar7 = UI_ElementFactory__CreateDefaultLabel
-                     ((UnityEngine_Transform_o *)__this_02,__this_00,pSVar5,0,4,(MethodInfo *)0x0);
-  if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
-    UnityEngine_GameObject__GetComponent_object_(pUVar7,MethodInfo_Text_GetComponent_Text);
-    __this_02 = (Il2CppClass *)(__this->fields).SinglePanel;
-    pUVar7 = UI_ElementFactory__CreateDefaultLabel
-                       ((UnityEngine_Transform_o *)__this_02,__this_00,
-                        (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),0,4,(MethodInfo *)0x0);
-    if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
-      pUVar8 = (UnityEngine_UI_Text_o *)UnityEngine_GameObject__GetComponent_object_(pUVar7,MethodInfo_Text_GetComponent_Text);
-      (__this->fields)._displayLabel = pUVar8;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._displayLabel);
-      pSVar9 = (Settings_InputKey_o *)il2cpp_runtime_helper_023052d0(TypeInfo_InputKey);
-      Settings_InputKey___ctor(pSVar9,(MethodInfo *)0x0);
-      (__this->fields)._buffer = pSVar9;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._buffer,pSVar9);
+  pSVar2 = UI_UIManager__GetLocaleCommon("Cancel",(MethodInfo *)0x0);
+  pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar3,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_UI_KeybindPopup_Setup_b__19_1,(MethodInfo *)0x0);
+  UI_ElementFactory__CreateTextButton(pUVar1,__this_00,pSVar2,0.0,pUVar3,(MethodInfo *)0x0);
+  pUVar1 = (__this->fields).SinglePanel;
+  pSVar2 = UI_UIManager__GetLocale
+                     ("SettingsPopup","KeybindPopup","CurrentKey","",
+                      "",(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_1969e50(pSVar2,":",(MethodInfo *)0x0);
+  pUVar4 = UI_ElementFactory__CreateDefaultLabel(pUVar1,__this_00,pSVar2,0,4,(MethodInfo *)0x0);
+  if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+    UnityEngine_GameObject__GetComponent_object_
+              (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    pUVar4 = UI_ElementFactory__CreateDefaultLabel
+                       ((__this->fields).SinglePanel,__this_00,
+                        (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),0,4,(MethodInfo *)0x0);
+    if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+      value = UnityEngine_GameObject__GetComponent_object_
+                        (pUVar4,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+      (__this->fields)._displayLabel = value;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._displayLabel,value);
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_InputKey);
+      Settings_InputKey___ctor(__this_01,(MethodInfo *)0x0);
+      (__this->fields)._buffer = __this_01;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._buffer,__this_01);
       return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae129 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Mouse0");
-    g_data_057ae129 = '\x01';
-  }
-  if (((__this_02->_1).implementedInterfaces == (Il2CppClass **)0x0) ||
-     (*(char *)&(__this_02->_2).typeHierarchy != '\0')) {
-    return;
-  }
-  pIVar13 = (Il2CppObject *)0x0;
-  if (__this_02->rgctx_data != (Il2CppRGCTXData *)0x0) {
-    bVar4 = Settings_InputKey__ReadNextInput((Settings_InputKey_o *)__this_02->rgctx_data,(MethodInfo *)0x0);
-    if ((char)bVar4 == '\0') {
-      return;
-    }
-    *(undefined1 *)&(__this_02->_2).typeHierarchy = 1;
-    pIVar2 = __this_02->rgctx_data;
-    pIVar13 = (Il2CppObject *)0x0;
-    if (pIVar2 != (Il2CppRGCTXData *)0x0) {
-      pSVar5 = (System_String_o *)
-               (*pIVar2->klass->vtable[3].methodPtr)(pIVar2,pIVar2->klass->vtable[3].method);
-      method_00 = "Mouse0";
-      bVar4 = System_String__op_Equality(pSVar5,(System_String_o *)"Mouse0",(MethodInfo *)0x0);
-      if ((char)bVar4 == '\0') {
-        UI_KeybindPopup__UpdateSetting((UI_KeybindPopup_o *)__this_02,method_00);
-        return;
-      }
-      if (g_data_057ae12a == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndUpdateSetting_d__19);
-        g_data_057ae12a = '\x01';
-      }
-      __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndUpdateSetting_d__19);
-      pIVar13 = __this_01;
-      System_Object___ctor(__this_01,(MethodInfo *)0x0);
-      *(undefined4 *)&__this_01[1].klass = 0;
-      if (__this_01 != (Il2CppObject *)0x0) {
-        __this_01[2].klass = __this_02;
-        il2cpp_runtime_helper_022b4080(__this_01 + 2,__this_02);
-        UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                  ((UnityEngine_MonoBehaviour_o *)__this_02,(System_Collections_IEnumerator_o *)__this_01,
-                   (MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae12a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndUpdateSetting_d__19);
-    g_data_057ae12a = '\x01';
-  }
-  pUVar10 = (UnityEngine_Component_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndUpdateSetting_d__19);
-  uVar12 = 0;
-  __this_03 = pUVar10;
-  System_Object___ctor((Il2CppObject *)pUVar10,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar10->fields).m_CachedPtr = 0;
-  if (pUVar10 == (UnityEngine_Component_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    pUVar10 = (UnityEngine_Component_o *)__this_03[8].klass;
-    if (pUVar10 != (UnityEngine_Component_o *)0x0) {
-      pSVar9 = (Settings_InputKey_o *)__this_03[7].klass;
-      uVar12 = SUB84((pUVar10->klass->vtable)._3_ToString.method,0);
-      pSVar5 = (System_String_o *)(*(pUVar10->klass->vtable)._3_ToString.methodPtr)();
-      if (pSVar9 != (Settings_InputKey_o *)0x0) {
-        Settings_InputKey__LoadFromString(pSVar9,pSVar5,(MethodInfo *)0x0);
-        uVar12 = SUB84(pSVar5,0);
-        pUVar10 = (UnityEngine_Component_o *)__this_03[7].klass;
-        if (pUVar10 != (UnityEngine_Component_o *)0x0) {
-          plVar3 = __this_03[7].monitor;
-          uVar12 = SUB84((pUVar10->klass->vtable)._3_ToString.method,0);
-          uVar11 = (*(pUVar10->klass->vtable)._3_ToString.methodPtr)();
-          if (plVar3 != (long *)0x0) {
-            (**(code **)(*plVar3 + 0x5e8))(plVar3,uVar11,*(undefined8 *)(*plVar3 + 0x5f0));
-            uVar12 = 0;
-            pUVar7 = UnityEngine_Component__get_gameObject(__this_03,(MethodInfo *)0x0);
-            pUVar10 = __this_03;
-            if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
-              UnityEngine_GameObject__SetActive(pUVar7,0,(MethodInfo *)0x0);
-              return;
-            }
-          }
-        }
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor((Il2CppObject *)pUVar10,(MethodInfo *)0x0);
-    *(undefined4 *)&(pUVar10->fields).m_CachedPtr = uVar12;
-    return;
-  }
-  pUVar10[1].monitor = pIVar13;
-  il2cpp_runtime_helper_022b4080(&pUVar10[1].monitor,pIVar13);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.KeybindPopup$$Update
 // il2cpp: void UI_KeybindPopup__Update (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f260
+// 0x1821c5620
 
 void UI_KeybindPopup__Update(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
   Settings_InputKey_o *pSVar1;
-  long *plVar2;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  Il2CppObject *__this_00;
-  UnityEngine_Component_o *pUVar5;
-  undefined8 uVar6;
-  UnityEngine_GameObject_o *__this_01;
-  undefined4 uVar7;
-  MethodInfo *method_00;
-  Il2CppObject *pIVar8;
-  UnityEngine_Component_o *__this_02;
+  bool bVar2;
+  System_String_o *a;
+  UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *routine;
   
-  if (g_data_057ae129 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Mouse0");
-    g_data_057ae129 = '\x01';
+  if (Il2CppMethodInitialized_184346f26 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Mouse0");
+    Il2CppMethodInitialized_184346f26 = '\x01';
   }
-  if (((__this->fields)._setting == (Settings_InputKey_o *)0x0) || ((char)(__this->fields)._isDone != '\0')) {
+  if (((__this->fields)._setting == (Settings_InputKey_o *)0x0) || ((__this->fields)._isDone != false)) {
     return;
   }
   pSVar1 = (__this->fields)._buffer;
-  pIVar8 = (Il2CppObject *)0x0;
   if (pSVar1 != (Settings_InputKey_o *)0x0) {
-    bVar3 = Settings_InputKey__ReadNextInput(pSVar1,(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
+    bVar2 = Settings_InputKey__ReadNextInput(pSVar1,(MethodInfo *)0x0);
+    if (!bVar2) {
       return;
     }
-    *(undefined1 *)&(__this->fields)._isDone = 1;
     pSVar1 = (__this->fields)._buffer;
-    pIVar8 = (Il2CppObject *)0x0;
+    (__this->fields)._isDone = true;
     if (pSVar1 != (Settings_InputKey_o *)0x0) {
-      pSVar4 = (System_String_o *)
-               (*(pSVar1->klass->vtable)._3_ToString.methodPtr)
-                         (pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
-      method_00 = "Mouse0";
-      bVar3 = System_String__op_Equality(pSVar4,(System_String_o *)"Mouse0",(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') {
-        UI_KeybindPopup__UpdateSetting(__this,method_00);
-        return;
-      }
-      if (g_data_057ae12a == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndUpdateSetting_d__19);
-        g_data_057ae12a = '\x01';
-      }
-      __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndUpdateSetting_d__19);
-      pIVar8 = __this_00;
-      System_Object___ctor(__this_00,(MethodInfo *)0x0);
-      *(undefined4 *)&__this_00[1].klass = 0;
-      if (__this_00 != (Il2CppObject *)0x0) {
-        __this_00[2].klass = (Il2CppClass *)__this;
-        il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-        UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                  ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
+      a = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)(pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
+      bVar2 = System_String__op_Equality(a,"Mouse0",(MethodInfo *)0x0);
+      if (bVar2) {
+        if (Il2CppMethodInitialized_184346f27 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+          Il2CppMethodInitialized_184346f27 = '\x01';
+        }
+        routine = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+        (routine->fields).__1__state = 0;
+        (routine->fields).__4__this = __this;
+        Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+        UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                  ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
                    (MethodInfo *)0x0);
         return;
       }
+      UI_KeybindPopup__UpdateSetting(__this,(MethodInfo *)0x0);
+      return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae12a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndUpdateSetting_d__19);
-    g_data_057ae12a = '\x01';
-  }
-  pUVar5 = (UnityEngine_Component_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndUpdateSetting_d__19);
-  uVar7 = 0;
-  __this_02 = pUVar5;
-  System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar5->fields).m_CachedPtr = 0;
-  if (pUVar5 == (UnityEngine_Component_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    pUVar5 = (UnityEngine_Component_o *)__this_02[8].klass;
-    if (pUVar5 != (UnityEngine_Component_o *)0x0) {
-      pSVar1 = (Settings_InputKey_o *)__this_02[7].klass;
-      uVar7 = SUB84((pUVar5->klass->vtable)._3_ToString.method,0);
-      pSVar4 = (System_String_o *)(*(pUVar5->klass->vtable)._3_ToString.methodPtr)();
-      if (pSVar1 != (Settings_InputKey_o *)0x0) {
-        Settings_InputKey__LoadFromString(pSVar1,pSVar4,(MethodInfo *)0x0);
-        uVar7 = SUB84(pSVar4,0);
-        pUVar5 = (UnityEngine_Component_o *)__this_02[7].klass;
-        if (pUVar5 != (UnityEngine_Component_o *)0x0) {
-          plVar2 = __this_02[7].monitor;
-          uVar7 = SUB84((pUVar5->klass->vtable)._3_ToString.method,0);
-          uVar6 = (*(pUVar5->klass->vtable)._3_ToString.methodPtr)();
-          if (plVar2 != (long *)0x0) {
-            (**(code **)(*plVar2 + 0x5e8))(plVar2,uVar6,*(undefined8 *)(*plVar2 + 0x5f0));
-            uVar7 = 0;
-            __this_01 = UnityEngine_Component__get_gameObject(__this_02,(MethodInfo *)0x0);
-            pUVar5 = __this_02;
-            if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-              UnityEngine_GameObject__SetActive(__this_01,0,(MethodInfo *)0x0);
-              return;
-            }
-          }
-        }
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
-    *(undefined4 *)&(pUVar5->fields).m_CachedPtr = uVar7;
-    return;
-  }
-  pUVar5[1].monitor = pIVar8;
-  il2cpp_runtime_helper_022b4080(&pUVar5[1].monitor,pIVar8);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.KeybindPopup$$WaitAndUpdateSetting
 // il2cpp: System_Collections_IEnumerator_o* UI_KeybindPopup__WaitAndUpdateSetting (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f390
+// 0x1821c5740
 
 System_Collections_IEnumerator_o *
 UI_KeybindPopup__WaitAndUpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  Settings_InputKey_o *__this_00;
-  long *plVar1;
-  UnityEngine_Component_o *pUVar2;
-  System_String_o *serializedKey;
-  undefined8 uVar3;
-  UnityEngine_GameObject_o *__this_01;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  System_Collections_IEnumerator_o *extraout_RAX_00;
-  undefined4 uVar4;
-  UnityEngine_Component_o *__this_02;
+  UI_KeybindPopup__WaitAndUpdateSetting_d__21_o *__this_00;
   
-  if (g_data_057ae12a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndUpdateSetting_d__19);
-    g_data_057ae12a = '\x01';
+  if (Il2CppMethodInitialized_184346f27 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+    Il2CppMethodInitialized_184346f27 = '\x01';
   }
-  pUVar2 = (UnityEngine_Component_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndUpdateSetting_d__19);
-  uVar4 = 0;
-  __this_02 = pUVar2;
-  System_Object___ctor((Il2CppObject *)pUVar2,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar2->fields).m_CachedPtr = 0;
-  if (pUVar2 != (UnityEngine_Component_o *)0x0) {
-    pUVar2[1].monitor = __this;
-    il2cpp_runtime_helper_022b4080(&pUVar2[1].monitor,__this);
-    return (System_Collections_IEnumerator_o *)pUVar2;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = (UnityEngine_Component_o *)__this_02[8].klass;
-  if (pUVar2 != (UnityEngine_Component_o *)0x0) {
-    __this_00 = (Settings_InputKey_o *)__this_02[7].klass;
-    uVar4 = SUB84((pUVar2->klass->vtable)._3_ToString.method,0);
-    serializedKey = (System_String_o *)(*(pUVar2->klass->vtable)._3_ToString.methodPtr)();
-    if (__this_00 != (Settings_InputKey_o *)0x0) {
-      Settings_InputKey__LoadFromString(__this_00,serializedKey,(MethodInfo *)0x0);
-      uVar4 = SUB84(serializedKey,0);
-      pUVar2 = (UnityEngine_Component_o *)__this_02[7].klass;
-      if (pUVar2 != (UnityEngine_Component_o *)0x0) {
-        plVar1 = __this_02[7].monitor;
-        uVar4 = SUB84((pUVar2->klass->vtable)._3_ToString.method,0);
-        uVar3 = (*(pUVar2->klass->vtable)._3_ToString.methodPtr)();
-        if (plVar1 != (long *)0x0) {
-          (**(code **)(*plVar1 + 0x5e8))(plVar1,uVar3,*(undefined8 *)(*plVar1 + 0x5f0));
-          uVar4 = 0;
-          __this_01 = UnityEngine_Component__get_gameObject(__this_02,(MethodInfo *)0x0);
-          pUVar2 = __this_02;
-          if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-            UnityEngine_GameObject__SetActive(__this_01,0,(MethodInfo *)0x0);
-            return extraout_RAX;
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar2,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar2->fields).m_CachedPtr = uVar4;
-  return extraout_RAX_00;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_KeybindPopup_WaitAndUpdateSetting_d__21);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.KeybindPopup$$UpdateSetting
 // il2cpp: void UI_KeybindPopup__UpdateSetting (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f400
+// 0x1821c5560
 
 void UI_KeybindPopup__UpdateSetting(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
+  Settings_InputKey_o *pSVar1;
   Settings_InputKey_o *__this_00;
-  UnityEngine_UI_Text_o *pUVar1;
-  System_String_o *serializedKey;
-  undefined8 uVar2;
+  UnityEngine_UI_Text_o *pUVar2;
+  System_String_o *pSVar3;
   UnityEngine_GameObject_o *__this_01;
-  undefined4 uVar3;
-  UI_KeybindPopup_o *__this_02;
   
-  uVar3 = SUB84(method,0);
-  __this_02 = (UI_KeybindPopup_o *)(__this->fields)._buffer;
-  if (__this_02 != (UI_KeybindPopup_o *)0x0) {
+  pSVar1 = (__this->fields)._buffer;
+  if (pSVar1 != (Settings_InputKey_o *)0x0) {
     __this_00 = (__this->fields)._setting;
-    uVar3 = SUB84((__this_02->klass->vtable)._3_ToString.method,0);
-    serializedKey = (System_String_o *)(*(__this_02->klass->vtable)._3_ToString.methodPtr)();
+    pSVar3 = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)
+                       (pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
     if (__this_00 != (Settings_InputKey_o *)0x0) {
-      Settings_InputKey__LoadFromString(__this_00,serializedKey,(MethodInfo *)0x0);
-      uVar3 = SUB84(serializedKey,0);
-      __this_02 = (UI_KeybindPopup_o *)(__this->fields)._setting;
-      if (__this_02 != (UI_KeybindPopup_o *)0x0) {
-        pUVar1 = (__this->fields)._settingLabel;
-        uVar3 = SUB84((__this_02->klass->vtable)._3_ToString.method,0);
-        uVar2 = (*(__this_02->klass->vtable)._3_ToString.methodPtr)();
-        if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-          (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                    (pUVar1,uVar2,(pUVar1->klass->vtable)._75_set_text.method);
-          uVar3 = 0;
+      Settings_InputKey__LoadFromString(__this_00,pSVar3,(MethodInfo *)0x0);
+      pSVar1 = (__this->fields)._setting;
+      if (pSVar1 != (Settings_InputKey_o *)0x0) {
+        pUVar2 = (__this->fields)._settingLabel;
+        pSVar3 = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)
+                           (pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
+        if (pUVar2 != (UnityEngine_UI_Text_o *)0x0) {
+          (*(pUVar2->klass->vtable)._75_set_text.methodPtr)
+                    (pUVar2,pSVar3,(pUVar2->klass->vtable)._75_set_text.method);
           __this_01 = UnityEngine_Component__get_gameObject
                                 ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-          __this_02 = __this;
           if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-            UnityEngine_GameObject__SetActive(__this_01,0,(MethodInfo *)0x0);
+            UnityEngine_GameObject__SetActive(__this_01,false,(MethodInfo *)0x0);
             return;
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_02->fields).m_CachedPtr = uVar3;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.KeybindPopup$$Show
 // il2cpp: void UI_KeybindPopup__Show (UI_KeybindPopup_o* __this, Settings_InputKey_o* setting, UnityEngine_UI_Text_o* label, const MethodInfo* method);
-// 0x434f4d0
+// 0x1821c5410
 
 void UI_KeybindPopup__Show
                (UI_KeybindPopup_o *__this,Settings_InputKey_o *setting,UnityEngine_UI_Text_o *label,
                MethodInfo *method)
 
 {
-  UnityEngine_UI_Text_o *pUVar1;
-  Settings_InputKey_o *__this_00;
-  bool_conflict bVar2;
-  UnityEngine_GameObject_o *__this_01;
-  undefined8 uVar3;
+  Settings_InputKey_o *pSVar1;
+  UnityEngine_UI_Text_o *pUVar2;
+  bool bVar3;
+  UnityEngine_GameObject_o *__this_00;
   System_String_o *pSVar4;
-  UnityEngine_UI_Text_o *pUVar5;
-  MethodInfo *pMVar6;
-  UI_KeybindPopup_o *pUVar7;
-  UI_TooltipPopup_o *__this_02;
-  undefined1 auStack_68 [32];
-  UnityEngine_Transform_o *pUStack_48;
-  undefined4 uStack_40;
-  UI_KeybindPopup_o *pUStack_38;
   
-  pUVar5 = (UnityEngine_UI_Text_o *)0x0;
-  pUVar7 = __this;
-  __this_01 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-    pMVar6 = (MethodInfo *)0x0;
-    bVar2 = UnityEngine_GameObject__get_activeSelf(__this_01,(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
+  __this_00 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+    bVar3 = UnityEngine_GameObject__get_activeSelf(__this_00,(MethodInfo *)0x0);
+    if (bVar3) {
       return;
     }
-    UI_BasePopup__Show((UI_BasePopup_o *)__this,pMVar6);
+    UI_BasePopup__Show((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
     (__this->fields)._setting = setting;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._setting,setting);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._setting,setting);
     (__this->fields)._settingLabel = label;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._settingLabel);
-    pUVar7 = (UI_KeybindPopup_o *)(__this->fields)._setting;
-    pUVar5 = label;
-    if (pUVar7 != (UI_KeybindPopup_o *)0x0) {
-      pUVar1 = (__this->fields)._displayLabel;
-      pUVar5 = (UnityEngine_UI_Text_o *)(pUVar7->klass->vtable)._3_ToString.method;
-      uVar3 = (*(pUVar7->klass->vtable)._3_ToString.methodPtr)();
-      if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-        (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                  (pUVar1,uVar3,(pUVar1->klass->vtable)._75_set_text.method);
-        *(undefined1 *)&(__this->fields)._isDone = 0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._settingLabel,label);
+    pSVar1 = (__this->fields)._setting;
+    if (pSVar1 != (Settings_InputKey_o *)0x0) {
+      pUVar2 = (__this->fields)._displayLabel;
+      pSVar4 = (*(pSVar1->klass->vtable)._3_ToString.methodPtr)
+                         (pSVar1,(pSVar1->klass->vtable)._3_ToString.method);
+      if (pUVar2 != (UnityEngine_UI_Text_o *)0x0) {
+        (*(pUVar2->klass->vtable)._75_set_text.methodPtr)
+                  (pUVar2,pSVar4,(pUVar2->klass->vtable)._75_set_text.method);
+        (__this->fields)._isDone = false;
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUStack_38 = __this;
-  if (g_data_057ae12b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SpecialKey);
-    il2cpp_runtime_helper_023445d0(&"Unbind");
-    g_data_057ae12b = '\x01';
-  }
-  bVar2 = System_String__op_Equality((System_String_o *)pUVar5,"Unbind",(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-label_0434f663:
-    *(undefined1 *)&(pUVar7->fields)._isDone = 1;
-    (*(pUVar7->klass->vtable)._22_Hide.methodPtr)(pUVar7,(pUVar7->klass->vtable)._22_Hide.method);
-    return;
-  }
-  __this_00 = (pUVar7->fields)._setting;
-  auStack_68._24_8_ = TypeInfo_SpecialKey;
-  pUStack_48 = (UnityEngine_Transform_o *)0xffffffffffffffff;
-  uStack_40 = 0;
-  __this_02 = (UI_TooltipPopup_o *)(auStack_68 + 0x18);
-  pMVar6 = (MethodInfo *)0x0;
-  pSVar4 = System_Enum__ToString((System_Enum_o *)__this_02,(MethodInfo *)0x0);
-  if (__this_00 != (Settings_InputKey_o *)0x0) {
-    Settings_InputKey__LoadFromString(__this_00,pSVar4,(MethodInfo *)0x0);
-    pUVar5 = (pUVar7->fields)._settingLabel;
-    auStack_68._0_8_ = TypeInfo_SpecialKey;
-    auStack_68._8_8_ = (void *)0xffffffffffffffff;
-    auStack_68._16_4_ = 0;
-    __this_02 = (UI_TooltipPopup_o *)auStack_68;
-    pMVar6 = (MethodInfo *)0x0;
-    pSVar4 = System_Enum__ToString((System_Enum_o *)__this_02,(MethodInfo *)0x0);
-    if (pUVar5 != (UnityEngine_UI_Text_o *)0x0) {
-      (*(pUVar5->klass->vtable)._75_set_text.methodPtr)
-                (pUVar5,pSVar4,(pUVar5->klass->vtable)._75_set_text.method);
-      goto label_0434f663;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  UI_BasePopup___ctor(__this_02,pMVar6);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.KeybindPopup$$OnButtonClick
 // il2cpp: void UI_KeybindPopup__OnButtonClick (UI_KeybindPopup_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x434f580
+// 0x1821c4fd0
 
 void UI_KeybindPopup__OnButtonClick(UI_KeybindPopup_o *__this,System_String_o *name,MethodInfo *method)
 
 {
   Settings_InputKey_o *__this_00;
   UnityEngine_UI_Text_o *pUVar1;
-  bool_conflict bVar2;
-  System_String_o *pSVar3;
-  MethodInfo *method_00;
-  UI_TooltipPopup_o *__this_01;
-  undefined1 local_50 [32];
-  UnityEngine_Transform_o *local_30;
+  UI_KeybindPopup_c *pUVar2;
+  bool bVar3;
+  System_String_o *pSVar4;
+  System_Enum_o local_38;
   undefined4 local_28;
+  System_Enum_o local_20;
+  undefined4 local_10;
   
-  if (g_data_057ae12b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SpecialKey);
-    il2cpp_runtime_helper_023445d0(&"Unbind");
-    g_data_057ae12b = '\x01';
+  if (Il2CppMethodInitialized_184346f28 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SpecialKey);
+    il2cpp_codegen_initialize_runtime_metadata(&"Unbind");
+    Il2CppMethodInitialized_184346f28 = '\x01';
   }
-  bVar2 = System_String__op_Equality(name,"Unbind",(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar3 = System_String__op_Equality(name,"Unbind",(MethodInfo *)0x0);
+  if (bVar3) {
     __this_00 = (__this->fields)._setting;
-    local_50._24_8_ = TypeInfo_SpecialKey;
-    local_30 = (UnityEngine_Transform_o *)0xffffffffffffffff;
+    local_38.klass = (System_Enum_c *)TypeInfo_Settings_SpecialKey;
+    local_38.monitor = &g_data_ffffffffffffffff;
     local_28 = 0;
-    __this_01 = (UI_TooltipPopup_o *)(local_50 + 0x18);
-    method_00 = (MethodInfo *)0x0;
-    pSVar3 = System_Enum__ToString((System_Enum_o *)__this_01,(MethodInfo *)0x0);
+    pSVar4 = System_Enum__ToString(&local_38,(MethodInfo *)0x0);
     if (__this_00 != (Settings_InputKey_o *)0x0) {
-      Settings_InputKey__LoadFromString(__this_00,pSVar3,(MethodInfo *)0x0);
+      Settings_InputKey__LoadFromString(__this_00,pSVar4,(MethodInfo *)0x0);
       pUVar1 = (__this->fields)._settingLabel;
-      local_50._0_8_ = TypeInfo_SpecialKey;
-      local_50._8_8_ = (void *)0xffffffffffffffff;
-      local_50._16_4_ = 0;
-      __this_01 = (UI_TooltipPopup_o *)local_50;
-      method_00 = (MethodInfo *)0x0;
-      pSVar3 = System_Enum__ToString((System_Enum_o *)__this_01,(MethodInfo *)0x0);
+      local_20.klass = (System_Enum_c *)TypeInfo_Settings_SpecialKey;
+      local_20.monitor = &g_data_ffffffffffffffff;
+      local_10 = 0;
+      pSVar4 = System_Enum__ToString(&local_20,(MethodInfo *)0x0);
       if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
         (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                  (pUVar1,pSVar3,(pUVar1->klass->vtable)._75_set_text.method);
-        goto label_0434f663;
+                  (pUVar1,pSVar4,(pUVar1->klass->vtable)._75_set_text.method);
+        goto label_1821c50b1;
       }
     }
-    il2cpp_runtime_helper_022b2c90();
-    UI_BasePopup___ctor(__this_01,method_00);
-    return;
+    ThrowNullReferenceException();
   }
-label_0434f663:
-  *(undefined1 *)&(__this->fields)._isDone = 1;
-  (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
+label_1821c50b1:
+  pUVar2 = __this->klass;
+  (__this->fields)._isDone = true;
+  (*(pUVar2->vtable)._22_Hide.methodPtr)(__this,(pUVar2->vtable)._22_Hide.method);
   return;
 }
 
 
 // UI.KeybindPopup$$.ctor
 // il2cpp: void UI_KeybindPopup___ctor (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f690
+// 0x1821c11a0
 
-void UI_KeybindPopup___ctor(UI_TooltipPopup_o *__this,MethodInfo *method)
+void
+UI_KeybindPopup___ctor(UI_KeybindPopup_o* __this, MethodInfo* method)
 
 {
-  UI_BasePopup___ctor(__this,method);
+  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.KeybindPopup$$<Setup>b__17_0
-// il2cpp: void UI_KeybindPopup___Setup_b__17_0 (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f6a0
+// UI.KeybindPopup$$<Setup>b__19_0
+// il2cpp: void UI_KeybindPopup___Setup_b__19_0 (UI_KeybindPopup_o* __this, const MethodInfo* method);
+// 0x1821c54e0
 
-void UI_KeybindPopup___Setup_b__17_0(UI_KeybindPopup_o *__this,MethodInfo *method)
+void UI_KeybindPopup___Setup_b__19_0(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae12c == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Unbind");
-    g_data_057ae12c = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_184346f29 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Unbind");
+    Il2CppMethodInitialized_184346f29 = '\x01';
   }
-  UI_KeybindPopup__OnButtonClick(__this,"Unbind",in_RDX);
+  UI_KeybindPopup__OnButtonClick(__this,"Unbind",(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.KeybindPopup$$<Setup>b__17_1
-// il2cpp: void UI_KeybindPopup___Setup_b__17_1 (UI_KeybindPopup_o* __this, const MethodInfo* method);
-// 0x434f6e0
+// UI.KeybindPopup$$<Setup>b__19_1
+// il2cpp: void UI_KeybindPopup___Setup_b__19_1 (UI_KeybindPopup_o* __this, const MethodInfo* method);
+// 0x1821c5520
 
-void UI_KeybindPopup___Setup_b__17_1(UI_KeybindPopup_o *__this,MethodInfo *method)
+void UI_KeybindPopup___Setup_b__19_1(UI_KeybindPopup_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae12d == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Cancel");
-    g_data_057ae12d = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_184346f2a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Cancel");
+    Il2CppMethodInitialized_184346f2a = '\x01';
   }
-  UI_KeybindPopup__OnButtonClick(__this,"Cancel",in_RDX);
+  UI_KeybindPopup__OnButtonClick(__this,"Cancel",(MethodInfo *)0x0);
   return;
 }
 

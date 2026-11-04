@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200013A")]
+[Token(Token = "0x2000162")]
 public enum ConsoleColor
 {
-	[Token(Token = "0x400044F")]
+	[Token(Token = "0x40004AC")]
 	Black,
-	[Token(Token = "0x4000450")]
+	[Token(Token = "0x40004AD")]
 	DarkBlue,
-	[Token(Token = "0x4000451")]
+	[Token(Token = "0x40004AE")]
 	DarkGreen,
-	[Token(Token = "0x4000452")]
+	[Token(Token = "0x40004AF")]
 	DarkCyan,
-	[Token(Token = "0x4000453")]
+	[Token(Token = "0x40004B0")]
 	DarkRed,
-	[Token(Token = "0x4000454")]
+	[Token(Token = "0x40004B1")]
 	DarkMagenta,
-	[Token(Token = "0x4000455")]
+	[Token(Token = "0x40004B2")]
 	DarkYellow,
-	[Token(Token = "0x4000456")]
+	[Token(Token = "0x40004B3")]
 	Gray,
-	[Token(Token = "0x4000457")]
+	[Token(Token = "0x40004B4")]
 	DarkGray,
-	[Token(Token = "0x4000458")]
+	[Token(Token = "0x40004B5")]
 	Blue,
-	[Token(Token = "0x4000459")]
+	[Token(Token = "0x40004B6")]
 	Green,
-	[Token(Token = "0x400045A")]
+	[Token(Token = "0x40004B7")]
 	Cyan,
-	[Token(Token = "0x400045B")]
+	[Token(Token = "0x40004B8")]
 	Red,
-	[Token(Token = "0x400045C")]
+	[Token(Token = "0x40004B9")]
 	Magenta,
-	[Token(Token = "0x400045D")]
+	[Token(Token = "0x40004BA")]
 	Yellow,
-	[Token(Token = "0x400045E")]
+	[Token(Token = "0x40004BB")]
 	White
 }

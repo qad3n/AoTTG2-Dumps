@@ -18,7 +18,7 @@ public class JPropertyDescriptor : PropertyDescriptor
 	public override Type ComponentType
 	{
 		[Token(Token = "0x6000C72")]
-		[Address(RVA = "0x3E1B160", Offset = "0x3E1B160", VA = "0x3E1B160", Slot = "17")]
+		[Address(RVA = "0x1C795E0", Offset = "0x1C77BE0", VA = "0x181C795E0", Slot = "17")]
 		get
 		{
 			return null;
@@ -29,7 +29,7 @@ public class JPropertyDescriptor : PropertyDescriptor
 	public override bool IsReadOnly
 	{
 		[Token(Token = "0x6000C73")]
-		[Address(RVA = "0x3E1B1C0", Offset = "0x3E1B1C0", VA = "0x3E1B1C0", Slot = "20")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "20")]
 		get
 		{
 			return default(bool);
@@ -40,7 +40,7 @@ public class JPropertyDescriptor : PropertyDescriptor
 	public override Type PropertyType
 	{
 		[Token(Token = "0x6000C74")]
-		[Address(RVA = "0x3E1B1D0", Offset = "0x3E1B1D0", VA = "0x3E1B1D0", Slot = "21")]
+		[Address(RVA = "0x1C79630", Offset = "0x1C77C30", VA = "0x181C79630", Slot = "21")]
 		get
 		{
 			return null;
@@ -51,7 +51,7 @@ public class JPropertyDescriptor : PropertyDescriptor
 	protected override int NameHashCode
 	{
 		[Token(Token = "0x6000C75")]
-		[Address(RVA = "0x3E1B210", Offset = "0x3E1B210", VA = "0x3E1B210", Slot = "11")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -59,46 +59,46 @@ public class JPropertyDescriptor : PropertyDescriptor
 	}
 
 	[Token(Token = "0x6000C6B")]
-	[Address(RVA = "0x3E171E0", Offset = "0x3E171E0", VA = "0x3E171E0")]
+	[Address(RVA = "0x1C795D0", Offset = "0x1C77BD0", VA = "0x181C795D0")]
 	public JPropertyDescriptor(string name)
 	{
 	}
 
 	[Token(Token = "0x6000C6C")]
-	[Address(RVA = "0x3E1AEE0", Offset = "0x3E1AEE0", VA = "0x3E1AEE0")]
+	[Address(RVA = "0x1C79390", Offset = "0x1C77990", VA = "0x181C79390")]
 	private static JObject CastInstance(object instance)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C6D")]
-	[Address(RVA = "0x3E1AF40", Offset = "0x3E1AF40", VA = "0x3E1AF40", Slot = "23")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "23")]
 	public override bool CanResetValue(object component)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C6E")]
-	[Address(RVA = "0x3E1AF50", Offset = "0x3E1AF50", VA = "0x3E1AF50", Slot = "26")]
+	[Address(RVA = "0x1C79410", Offset = "0x1C77A10", VA = "0x181C79410", Slot = "26")]
 	public override object? GetValue(object? component)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C6F")]
-	[Address(RVA = "0x3E1B030", Offset = "0x3E1B030", VA = "0x3E1B030", Slot = "29")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "29")]
 	public override void ResetValue(object component)
 	{
 	}
 
 	[Token(Token = "0x6000C70")]
-	[Address(RVA = "0x3E1B040", Offset = "0x3E1B040", VA = "0x3E1B040", Slot = "30")]
+	[Address(RVA = "0x1C794B0", Offset = "0x1C77AB0", VA = "0x181C794B0", Slot = "30")]
 	public override void SetValue(object? component, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000C71")]
-	[Address(RVA = "0x3E1B150", Offset = "0x3E1B150", VA = "0x3E1B150", Slot = "31")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "31")]
 	public override bool ShouldSerializeValue(object component)
 	{
 		return default(bool);

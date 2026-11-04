@@ -20,7 +20,7 @@ public class XComment : XNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x468CCD0", Offset = "0x468CCD0", VA = "0x468CCD0", Slot = "7")]
+		[Address(RVA = "0x846F50", Offset = "0x845550", VA = "0x180846F50", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -31,38 +31,38 @@ public class XComment : XNode
 	public string Value
 	{
 		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x468CCE0", Offset = "0x468CCE0", VA = "0x468CCE0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x468CCF0", Offset = "0x468CCF0", VA = "0x468CCF0")]
+		[Address(RVA = "0x25E60F0", Offset = "0x25E46F0", VA = "0x1825E60F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x468CBC0", Offset = "0x468CBC0", VA = "0x468CBC0")]
+	[Address(RVA = "0x25E6070", Offset = "0x25E4670", VA = "0x1825E6070")]
 	public XComment(string value)
 	{
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x468CC50", Offset = "0x468CC50", VA = "0x468CC50")]
+	[Address(RVA = "0x25E5FF0", Offset = "0x25E45F0", VA = "0x1825E5FF0")]
 	public XComment(XComment other)
 	{
 	}
 
 	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x468CF20", Offset = "0x468CF20", VA = "0x468CF20", Slot = "8")]
+	[Address(RVA = "0x25E5F70", Offset = "0x25E4570", VA = "0x1825E5F70", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x468CF90", Offset = "0x468CF90", VA = "0x468CF90", Slot = "10")]
+	[Address(RVA = "0x25E5EC0", Offset = "0x25E44C0", VA = "0x1825E5EC0", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;

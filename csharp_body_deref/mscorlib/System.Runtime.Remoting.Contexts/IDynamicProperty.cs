@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x2000376")]
+[Token(Token = "0x20003A5")]
 [ComVisible(true)]
 public interface IDynamicProperty
 {
-	[Token(Token = "0x1700036D")]
+	[Token(Token = "0x1700036F")]
 	string Name
 	{
-		[Token(Token = "0x6001D7B")]
+		[Token(Token = "0x6001DEA")]
 		get;
 	}
 }

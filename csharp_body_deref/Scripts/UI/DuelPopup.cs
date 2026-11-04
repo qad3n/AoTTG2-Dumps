@@ -10,123 +10,123 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000683")]
+[Token(Token = "0x20007DE")]
 internal class DuelPopup : BasePopup
 {
-	[Token(Token = "0x4002001")]
+	[Token(Token = "0x40027D9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public string LocaleCategory;
 
-	[Token(Token = "0x17000C7D")]
+	[Token(Token = "0x17000DC3")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004146")]
-		[Address(RVA = "0x42FABA0", Offset = "0x42FABA0", VA = "0x42FABA0", Slot = "35")]
+		[Token(Token = "0x6004C3B")]
+		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C7E")]
+	[Token(Token = "0x17000DC4")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004147")]
-		[Address(RVA = "0x42FABC0", Offset = "0x42FABC0", VA = "0x42FABC0", Slot = "5")]
+		[Token(Token = "0x6004C3C")]
+		[Address(RVA = "0x210FA90", Offset = "0x210E090", VA = "0x18210FA90", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C7F")]
+	[Token(Token = "0x17000DC5")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004148")]
-		[Address(RVA = "0x42FABD0", Offset = "0x42FABD0", VA = "0x42FABD0", Slot = "6")]
+		[Token(Token = "0x6004C3D")]
+		[Address(RVA = "0x21BB440", Offset = "0x21B9A40", VA = "0x1821BB440", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C80")]
+	[Token(Token = "0x17000DC6")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x6004149")]
-		[Address(RVA = "0x42FABE0", Offset = "0x42FABE0", VA = "0x42FABE0", Slot = "16")]
+		[Token(Token = "0x6004C3E")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C81")]
+	[Token(Token = "0x17000DC7")]
 	protected override bool CategoryButtons
 	{
-		[Token(Token = "0x600414A")]
-		[Address(RVA = "0x42FABF0", Offset = "0x42FABF0", VA = "0x42FABF0", Slot = "42")]
+		[Token(Token = "0x6004C3F")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C82")]
+	[Token(Token = "0x17000DC8")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x600414B")]
-		[Address(RVA = "0x42FAC00", Offset = "0x42FAC00", VA = "0x42FAC00", Slot = "19")]
+		[Token(Token = "0x6004C40")]
+		[Address(RVA = "0x2279170", Offset = "0x2277770", VA = "0x182279170", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600414C")]
-	[Address(RVA = "0x42FAC30", Offset = "0x42FAC30", VA = "0x42FAC30", Slot = "20")]
+	[Token(Token = "0x6004C41")]
+	[Address(RVA = "0x2278EB0", Offset = "0x22774B0", VA = "0x182278EB0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600414D")]
-	[Address(RVA = "0x42FAD80", Offset = "0x42FAD80", VA = "0x42FAD80", Slot = "21")]
+	[Token(Token = "0x6004C42")]
+	[Address(RVA = "0x2278FF0", Offset = "0x22775F0", VA = "0x182278FF0", Slot = "21")]
 	public override void Show()
 	{
 	}
 
-	[Token(Token = "0x600414E")]
-	[Address(RVA = "0x42FAD90", Offset = "0x42FAD90", VA = "0x42FAD90", Slot = "44")]
+	[Token(Token = "0x6004C43")]
+	[Address(RVA = "0x2278C10", Offset = "0x2277210", VA = "0x182278C10", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x600414F")]
-	[Address(RVA = "0x42FB040", Offset = "0x42FB040", VA = "0x42FB040", Slot = "27")]
+	[Token(Token = "0x6004C44")]
+	[Address(RVA = "0x22789E0", Offset = "0x2276FE0", VA = "0x1822789E0", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x6004150")]
-	[Address(RVA = "0x42FB130", Offset = "0x42FB130", VA = "0x42FB130", Slot = "25")]
+	[Token(Token = "0x6004C45")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890", Slot = "25")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x6004151")]
-	[Address(RVA = "0x42FAC50", Offset = "0x42FAC50", VA = "0x42FAC50")]
+	[Token(Token = "0x6004C46")]
+	[Address(RVA = "0x2278AD0", Offset = "0x22770D0", VA = "0x182278AD0")]
 	private void SetupBottomButtons()
 	{
 	}
 
-	[Token(Token = "0x6004152")]
-	[Address(RVA = "0x42FB140", Offset = "0x42FB140", VA = "0x42FB140")]
+	[Token(Token = "0x6004C47")]
+	[Address(RVA = "0x22788F0", Offset = "0x2276EF0", VA = "0x1822788F0")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x6004153")]
-	[Address(RVA = "0x42FB220", Offset = "0x42FB220", VA = "0x42FB220")]
+	[Token(Token = "0x6004C48")]
+	[Address(RVA = "0x2279110", Offset = "0x2277710", VA = "0x182279110")]
 	public DuelPopup()
 	{
 	}

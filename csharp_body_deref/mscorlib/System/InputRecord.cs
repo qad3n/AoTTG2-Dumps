@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001B7")]
+[Token(Token = "0x20001E2")]
 internal struct InputRecord
 {
-	[Token(Token = "0x40008D9")]
+	[Token(Token = "0x400093D")]
 	[FieldOffset(Offset = "0x0")]
 	public short EventType;
 
-	[Token(Token = "0x40008DA")]
+	[Token(Token = "0x400093E")]
 	[FieldOffset(Offset = "0x2")]
 	public bool KeyDown;
 
-	[Token(Token = "0x40008DB")]
+	[Token(Token = "0x400093F")]
 	[FieldOffset(Offset = "0x4")]
 	public short RepeatCount;
 
-	[Token(Token = "0x40008DC")]
+	[Token(Token = "0x4000940")]
 	[FieldOffset(Offset = "0x6")]
 	public short VirtualKeyCode;
 
-	[Token(Token = "0x40008DD")]
+	[Token(Token = "0x4000941")]
 	[FieldOffset(Offset = "0x8")]
 	public short VirtualScanCode;
 
-	[Token(Token = "0x40008DE")]
+	[Token(Token = "0x4000942")]
 	[FieldOffset(Offset = "0xA")]
 	public char Character;
 
-	[Token(Token = "0x40008DF")]
+	[Token(Token = "0x4000943")]
 	[FieldOffset(Offset = "0xC")]
 	public int ControlKeyState;
 
-	[Token(Token = "0x40008E0")]
+	[Token(Token = "0x4000944")]
 	[FieldOffset(Offset = "0x10")]
 	private int pad1;
 
-	[Token(Token = "0x40008E1")]
+	[Token(Token = "0x4000945")]
 	[FieldOffset(Offset = "0x14")]
 	private bool pad2;
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C7")]
+[Token(Token = "0x2000342")]
 public enum CommandBufferExecutionFlags
 {
-	[Token(Token = "0x40007F4")]
+	[Token(Token = "0x4000940")]
 	None = 0,
-	[Token(Token = "0x40007F5")]
+	[Token(Token = "0x4000941")]
 	AsyncCompute = 2
 }

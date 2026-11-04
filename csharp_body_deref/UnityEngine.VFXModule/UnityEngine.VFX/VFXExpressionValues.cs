@@ -14,23 +14,23 @@ using UnityEngine.Scripting;
 namespace UnityEngine.VFX;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000003")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x2000005")]
 [UnityEngine.Bindings.NativeType(Header = "Modules/VFX/Public/VFXExpressionValues.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public class VFXExpressionValues
 {
-	[Token(Token = "0x4000004")]
+	[Token(Token = "0x4000009")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal IntPtr m_Ptr;
 
-	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x5109C20", Offset = "0x5109C20", VA = "0x5109C20")]
+	[Token(Token = "0x600000D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	private VFXExpressionValues()
 	{
 	}
 
-	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x5109C30", Offset = "0x5109C30", VA = "0x5109C30")]
+	[Token(Token = "0x600000E")]
+	[Address(RVA = "0x33104A0", Offset = "0x330EAA0", VA = "0x1833104A0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static VFXExpressionValues CreateExpressionValuesWrapper(IntPtr ptr)
 	{

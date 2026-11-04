@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace EZhex1991.EZSoftBone;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000003")]
 public class EZNestedEditorAttribute : PropertyAttribute
 {
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x2392240", Offset = "0x2392240", VA = "0x2392240")]
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
 	public EZNestedEditorAttribute()
 	{
 	}

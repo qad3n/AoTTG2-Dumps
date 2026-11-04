@@ -15,92 +15,97 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000196")]
 public abstract class LudiqScriptableObject : ScriptableObject, ISerializationCallbackReceiver
 {
-	[Token(Token = "0x40008D0")]
+	[Token(Token = "0x40008CE")]
 	[FieldOffset(Offset = "0x18")]
 	[SerializeField]
 	[DoNotSerialize]
 	protected SerializationData _data;
 
+	[Token(Token = "0x40008CF")]
+	[FieldOffset(Offset = "0x28")]
+	[CompilerGenerated]
+	private Action m_OnDestroyActions;
+
 	[Token(Token = "0x14000012")]
 	internal event Action OnDestroyActions
 	{
-		[Token(Token = "0x6000FC1")]
-		[Address(RVA = "0x4D5CC10", Offset = "0x4D5CC10", VA = "0x4D5CC10")]
+		[Token(Token = "0x6000FCC")]
+		[Address(RVA = "0x2E2F480", Offset = "0x2E2DA80", VA = "0x182E2F480")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000FC2")]
-		[Address(RVA = "0x4D5CCA0", Offset = "0x4D5CCA0", VA = "0x4D5CCA0")]
+		[Token(Token = "0x6000FCD")]
+		[Address(RVA = "0x2E2F520", Offset = "0x2E2DB20", VA = "0x182E2F520")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000FC3")]
-	[Address(RVA = "0x4D5CD30", Offset = "0x4D5CD30", VA = "0x4D5CD30", Slot = "4")]
+	[Token(Token = "0x6000FCE")]
+	[Address(RVA = "0x2E2F2C0", Offset = "0x2E2D8C0", VA = "0x182E2F2C0", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x4D5D050", Offset = "0x4D5D050", VA = "0x4D5D050", Slot = "5")]
+	[Token(Token = "0x6000FCF")]
+	[Address(RVA = "0x2E2F0D0", Offset = "0x2E2D6D0", VA = "0x182E2F0D0", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC5")]
-	[Address(RVA = "0x4D5D370", Offset = "0x4D5D370", VA = "0x4D5D370", Slot = "6")]
+	[Token(Token = "0x6000FD0")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	protected virtual void OnBeforeSerialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC6")]
-	[Address(RVA = "0x4D5D380", Offset = "0x4D5D380", VA = "0x4D5D380", Slot = "7")]
+	[Token(Token = "0x6000FD1")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	protected virtual void OnAfterSerialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC7")]
-	[Address(RVA = "0x4D5D390", Offset = "0x4D5D390", VA = "0x4D5D390", Slot = "8")]
+	[Token(Token = "0x6000FD2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	protected virtual void OnBeforeDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC8")]
-	[Address(RVA = "0x4D57890", Offset = "0x4D57890", VA = "0x4D57890", Slot = "9")]
+	[Token(Token = "0x6000FD3")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	protected virtual void OnAfterDeserialize()
 	{
 	}
 
-	[Token(Token = "0x6000FC9")]
-	[Address(RVA = "0x4D5D3A0", Offset = "0x4D5D3A0", VA = "0x4D5D3A0", Slot = "10")]
+	[Token(Token = "0x6000FD4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected virtual void OnPostDeserializeInEditor()
 	{
 	}
 
-	[Token(Token = "0x6000FCA")]
-	[Address(RVA = "0x4D5D3B0", Offset = "0x4D5D3B0", VA = "0x4D5D3B0")]
+	[Token(Token = "0x6000FD5")]
+	[Address(RVA = "0x2E2F0B0", Offset = "0x2E2D6B0", VA = "0x182E2F0B0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000FCB")]
-	[Address(RVA = "0x4D58360", Offset = "0x4D58360", VA = "0x4D58360", Slot = "11")]
+	[Token(Token = "0x6000FD6")]
+	[Address(RVA = "0x2E2DB50", Offset = "0x2E2C150", VA = "0x182E2DB50", Slot = "11")]
 	protected virtual void ShowData()
 	{
 	}
 
-	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x4D5D3D0", Offset = "0x4D5D3D0", VA = "0x4D5D3D0", Slot = "3")]
+	[Token(Token = "0x6000FD7")]
+	[Address(RVA = "0x2E2ECF0", Offset = "0x2E2D2F0", VA = "0x182E2ECF0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FCD")]
-	[Address(RVA = "0x4D58410", Offset = "0x4D58410", VA = "0x4D58410")]
+	[Token(Token = "0x6000FD8")]
+	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
 	protected LudiqScriptableObject()
 	{
 	}

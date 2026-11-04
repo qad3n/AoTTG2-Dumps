@@ -27,39 +27,39 @@ internal class ReflectionHelper
 	private static readonly ParameterModifier[] empty_modifiers;
 
 	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x4809C90", Offset = "0x4809C90", VA = "0x4809C90")]
+	[Address(RVA = "0x273DAE0", Offset = "0x273C0E0", VA = "0x18273DAE0")]
 	public void RegisterSchemaType(XmlTypeMapping map, string xmlType, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x4809D40", Offset = "0x4809D40", VA = "0x4809D40")]
+	[Address(RVA = "0x273D910", Offset = "0x273BF10", VA = "0x18273D910")]
 	public XmlTypeMapping GetRegisteredSchemaType(string xmlType, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CCF")]
-	[Address(RVA = "0x4809DF0", Offset = "0x4809DF0", VA = "0x4809DF0")]
+	[Address(RVA = "0x273D9E0", Offset = "0x273BFE0", VA = "0x18273D9E0")]
 	public void RegisterClrType(XmlTypeMapping map, Type type, string ns)
 	{
 	}
 
 	[Token(Token = "0x6000CD0")]
-	[Address(RVA = "0x4809F10", Offset = "0x4809F10", VA = "0x4809F10")]
+	[Address(RVA = "0x273D7E0", Offset = "0x273BDE0", VA = "0x18273D7E0")]
 	public XmlTypeMapping GetRegisteredClrType(Type type, string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x480A040", Offset = "0x480A040", VA = "0x480A040")]
+	[Address(RVA = "0x273D430", Offset = "0x273BA30", VA = "0x18273D430")]
 	public static void CheckSerializableType(Type type, bool allowPrivateConstructors)
 	{
 	}
 
 	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x480A3E0", Offset = "0x480A3E0", VA = "0x480A3E0")]
+	[Address(RVA = "0x273DBF0", Offset = "0x273C1F0", VA = "0x18273DBF0")]
 	public ReflectionHelper()
 	{
 	}

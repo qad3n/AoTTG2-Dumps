@@ -28,7 +28,7 @@ internal readonly struct StringReference
 	public char this[int i]
 	{
 		[Token(Token = "0x60006F8")]
-		[Address(RVA = "0x3DC69D0", Offset = "0x3DC69D0", VA = "0x3DC69D0")]
+		[Address(RVA = "0x1C52490", Offset = "0x1C50A90", VA = "0x181C52490")]
 		get
 		{
 			return default(char);
@@ -39,7 +39,7 @@ internal readonly struct StringReference
 	public char[] Chars
 	{
 		[Token(Token = "0x60006F9")]
-		[Address(RVA = "0x3DC6A00", Offset = "0x3DC6A00", VA = "0x3DC6A00")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return null;
@@ -50,7 +50,7 @@ internal readonly struct StringReference
 	public int StartIndex
 	{
 		[Token(Token = "0x60006FA")]
-		[Address(RVA = "0x3DC6A10", Offset = "0x3DC6A10", VA = "0x3DC6A10")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
 		get
 		{
 			return default(int);
@@ -61,7 +61,7 @@ internal readonly struct StringReference
 	public int Length
 	{
 		[Token(Token = "0x60006FB")]
-		[Address(RVA = "0x3DC6A20", Offset = "0x3DC6A20", VA = "0x3DC6A20")]
+		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
 		get
 		{
 			return default(int);
@@ -69,13 +69,13 @@ internal readonly struct StringReference
 	}
 
 	[Token(Token = "0x60006FC")]
-	[Address(RVA = "0x3DC6A30", Offset = "0x3DC6A30", VA = "0x3DC6A30")]
+	[Address(RVA = "0xA44EA0", Offset = "0xA434A0", VA = "0x180A44EA0")]
 	public StringReference(char[] chars, int startIndex, int length)
 	{
 	}
 
 	[Token(Token = "0x60006FD")]
-	[Address(RVA = "0x3DC6A50", Offset = "0x3DC6A50", VA = "0x3DC6A50", Slot = "3")]
+	[Address(RVA = "0x1C52460", Offset = "0x1C50A60", VA = "0x181C52460", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

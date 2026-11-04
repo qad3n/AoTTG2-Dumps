@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000DA")]
+[Token(Token = "0x200011A")]
 [AttributeUsage(AttributeTargets.All)]
 public class MonitoringDescriptionAttribute : DescriptionAttribute
 {
-	[Token(Token = "0x170000EB")]
+	[Token(Token = "0x17000124")]
 	public override string Description
 	{
-		[Token(Token = "0x60004F5")]
-		[Address(RVA = "0x492C4E0", Offset = "0x492C4E0", VA = "0x492C4E0", Slot = "7")]
+		[Token(Token = "0x60006D5")]
+		[Address(RVA = "0x2863D80", Offset = "0x2862380", VA = "0x182863D80", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x492C480", Offset = "0x492C480", VA = "0x492C480")]
+	[Token(Token = "0x60006D4")]
+	[Address(RVA = "0x2863D20", Offset = "0x2862320", VA = "0x182863D20")]
 	public MonitoringDescriptionAttribute(string description)
 	{
 	}

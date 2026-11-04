@@ -7,26 +7,28 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
 [Serializable]
-[Token(Token = "0x2000459")]
+[Token(Token = "0x200052F")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
 internal struct GradientSettings
 {
-	[Token(Token = "0x4000CFD")]
+	[Token(Token = "0x400118A")]
 	[FieldOffset(Offset = "0x0")]
 	public GradientType gradientType;
 
-	[Token(Token = "0x4000CFE")]
+	[Token(Token = "0x400118B")]
 	[FieldOffset(Offset = "0x4")]
 	public AddressMode addressMode;
 
-	[Token(Token = "0x4000CFF")]
+	[Token(Token = "0x400118C")]
 	[FieldOffset(Offset = "0x8")]
 	public Vector2 radialFocus;
 
-	[Token(Token = "0x4000D00")]
+	[Token(Token = "0x400118D")]
 	[FieldOffset(Offset = "0x10")]
 	public RectInt location;
 }

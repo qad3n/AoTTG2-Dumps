@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D2")]
+[Token(Token = "0x20000F3")]
 [Flags]
 public enum CameraType
 {
-	[Token(Token = "0x4000219")]
+	[Token(Token = "0x400026F")]
 	Game = 1,
-	[Token(Token = "0x400021A")]
+	[Token(Token = "0x4000270")]
 	SceneView = 2,
-	[Token(Token = "0x400021B")]
+	[Token(Token = "0x4000271")]
 	Preview = 4,
-	[Token(Token = "0x400021C")]
+	[Token(Token = "0x4000272")]
 	VR = 8,
-	[Token(Token = "0x400021D")]
+	[Token(Token = "0x4000273")]
 	Reflection = 0x10
 }

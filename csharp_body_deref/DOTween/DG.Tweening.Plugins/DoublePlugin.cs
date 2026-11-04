@@ -17,57 +17,57 @@ namespace DG.Tweening.Plugins;
 public class DoublePlugin : ABSTweenPlugin<double, double, NoOptions>
 {
 	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x23721B0", Offset = "0x23721B0", VA = "0x23721B0", Slot = "4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public override void Reset(TweenerCore<double, double, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002D4")]
-	[Address(RVA = "0x23721C0", Offset = "0x23721C0", VA = "0x23721C0", Slot = "5")]
+	[Address(RVA = "0x568BB0", Offset = "0x5671B0", VA = "0x180568BB0", Slot = "5")]
 	public override void SetFrom(TweenerCore<double, double, NoOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002D5")]
-	[Address(RVA = "0x2372260", Offset = "0x2372260", VA = "0x2372260", Slot = "6")]
+	[Address(RVA = "0x568C40", Offset = "0x567240", VA = "0x180568C40", Slot = "6")]
 	public override void SetFrom(TweenerCore<double, double, NoOptions> t, double fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002D6")]
-	[Address(RVA = "0x2372300", Offset = "0x2372300", VA = "0x2372300", Slot = "7")]
+	[Address(RVA = "0x568A00", Offset = "0x567000", VA = "0x180568A00", Slot = "7")]
 	public override double ConvertToStartValue(TweenerCore<double, double, NoOptions> t, double value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x2372310", Offset = "0x2372310", VA = "0x2372310", Slot = "8")]
+	[Address(RVA = "0x568CE0", Offset = "0x5672E0", VA = "0x180568CE0", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<double, double, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x2372340", Offset = "0x2372340", VA = "0x2372340", Slot = "9")]
+	[Address(RVA = "0x568B80", Offset = "0x567180", VA = "0x180568B80", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<double, double, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002D9")]
-	[Address(RVA = "0x2372370", Offset = "0x2372370", VA = "0x2372370", Slot = "10")]
+	[Address(RVA = "0x568B60", Offset = "0x567160", VA = "0x180568B60", Slot = "10")]
 	public override float GetSpeedBasedDuration(NoOptions options, float unitsXSecond, double changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x23723A0", Offset = "0x23723A0", VA = "0x23723A0", Slot = "11")]
+	[Address(RVA = "0x568A10", Offset = "0x567010", VA = "0x180568A10", Slot = "11")]
 	public override void EvaluateAndApply(NoOptions options, Tween t, bool isRelative, DOGetter<double> getter, DOSetter<double> setter, float elapsed, double startValue, double changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x60002DB")]
-	[Address(RVA = "0x23724B0", Offset = "0x23724B0", VA = "0x23724B0")]
+	[Address(RVA = "0x568D10", Offset = "0x567310", VA = "0x180568D10")]
 	public DoublePlugin()
 	{
 	}

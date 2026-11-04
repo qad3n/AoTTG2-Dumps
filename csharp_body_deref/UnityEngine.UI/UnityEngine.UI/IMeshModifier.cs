@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000085")]
+[Token(Token = "0x2000083")]
 public interface IMeshModifier
 {
-	[Token(Token = "0x6000533")]
+	[Token(Token = "0x600053F")]
 	[Obsolete("use IMeshModifier.ModifyMesh (VertexHelper verts) instead", false)]
 	void ModifyMesh(Mesh mesh);
 
-	[Token(Token = "0x6000534")]
+	[Token(Token = "0x6000540")]
 	void ModifyMesh(VertexHelper verts);
 }

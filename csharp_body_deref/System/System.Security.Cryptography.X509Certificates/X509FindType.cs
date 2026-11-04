@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000EE")]
+[Token(Token = "0x200012E")]
 public enum X509FindType
 {
-	[Token(Token = "0x400048A")]
+	[Token(Token = "0x400055C")]
 	FindByThumbprint,
-	[Token(Token = "0x400048B")]
+	[Token(Token = "0x400055D")]
 	FindBySubjectName,
-	[Token(Token = "0x400048C")]
+	[Token(Token = "0x400055E")]
 	FindBySubjectDistinguishedName,
-	[Token(Token = "0x400048D")]
+	[Token(Token = "0x400055F")]
 	FindByIssuerName,
-	[Token(Token = "0x400048E")]
+	[Token(Token = "0x4000560")]
 	FindByIssuerDistinguishedName,
-	[Token(Token = "0x400048F")]
+	[Token(Token = "0x4000561")]
 	FindBySerialNumber,
-	[Token(Token = "0x4000490")]
+	[Token(Token = "0x4000562")]
 	FindByTimeValid,
-	[Token(Token = "0x4000491")]
+	[Token(Token = "0x4000563")]
 	FindByTimeNotYetValid,
-	[Token(Token = "0x4000492")]
+	[Token(Token = "0x4000564")]
 	FindByTimeExpired,
-	[Token(Token = "0x4000493")]
+	[Token(Token = "0x4000565")]
 	FindByTemplateName,
-	[Token(Token = "0x4000494")]
+	[Token(Token = "0x4000566")]
 	FindByApplicationPolicy,
-	[Token(Token = "0x4000495")]
+	[Token(Token = "0x4000567")]
 	FindByCertificatePolicy,
-	[Token(Token = "0x4000496")]
+	[Token(Token = "0x4000568")]
 	FindByExtension,
-	[Token(Token = "0x4000497")]
+	[Token(Token = "0x4000569")]
 	FindByKeyUsage,
-	[Token(Token = "0x4000498")]
+	[Token(Token = "0x400056A")]
 	FindBySubjectKeyIdentifier
 }

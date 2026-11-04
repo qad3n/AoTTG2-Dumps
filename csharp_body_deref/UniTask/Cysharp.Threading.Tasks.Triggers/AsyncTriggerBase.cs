@@ -14,190 +14,190 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200018C")]
+[Token(Token = "0x200018F")]
 public abstract class AsyncTriggerBase<T> : MonoBehaviour, IUniTaskAsyncEnumerable<T>
 {
-	[Token(Token = "0x200018D")]
+	[Token(Token = "0x2000190")]
 	private sealed class AsyncTriggerEnumerator : MoveNextSource, IUniTaskAsyncEnumerator<T>, IUniTaskAsyncDisposable, ITriggerHandler<T>
 	{
-		[Token(Token = "0x400062A")]
+		[Token(Token = "0x400063D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private static Action<object> cancellationCallback;
 
-		[Token(Token = "0x400062B")]
+		[Token(Token = "0x400063E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly AsyncTriggerBase<T> parent;
 
-		[Token(Token = "0x400062C")]
+		[Token(Token = "0x400063F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationToken cancellationToken;
 
-		[Token(Token = "0x400062D")]
+		[Token(Token = "0x4000640")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationTokenRegistration registration;
 
-		[Token(Token = "0x400062E")]
+		[Token(Token = "0x4000641")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private bool called;
 
-		[Token(Token = "0x400062F")]
+		[Token(Token = "0x4000642")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private bool isDisposed;
 
-		[Token(Token = "0x1700006F")]
+		[Token(Token = "0x17000071")]
 		public T Current
 		{
-			[Token(Token = "0x60009F8")]
+			[Token(Token = "0x6000A1C")]
 			[CompilerGenerated]
 			get
 			{
 				return (T)null;
 			}
-			[Token(Token = "0x60009F9")]
+			[Token(Token = "0x6000A1D")]
 			[CompilerGenerated]
 			private set
 			{
 			}
 		}
 
-		[Token(Token = "0x17000070")]
+		[Token(Token = "0x17000072")]
 		private ITriggerHandler<T> Cysharp_002EThreading_002ETasks_002EITriggerHandler_003CT_003E_002EPrev
 		{
-			[Token(Token = "0x60009FA")]
+			[Token(Token = "0x6000A1E")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x60009FB")]
+			[Token(Token = "0x6000A1F")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x17000071")]
+		[Token(Token = "0x17000073")]
 		private ITriggerHandler<T> Cysharp_002EThreading_002ETasks_002EITriggerHandler_003CT_003E_002ENext
 		{
-			[Token(Token = "0x60009FC")]
+			[Token(Token = "0x6000A20")]
 			[CompilerGenerated]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x60009FD")]
+			[Token(Token = "0x6000A21")]
 			[CompilerGenerated]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x60009F2")]
+		[Token(Token = "0x6000A16")]
 		public AsyncTriggerEnumerator(AsyncTriggerBase<T> parent, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x60009F3")]
+		[Token(Token = "0x6000A17")]
 		public void OnCanceled([Optional] CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x60009F4")]
+		[Token(Token = "0x6000A18")]
 		public void OnNext(T value)
 		{
 		}
 
-		[Token(Token = "0x60009F5")]
+		[Token(Token = "0x6000A19")]
 		public void OnCompleted()
 		{
 		}
 
-		[Token(Token = "0x60009F6")]
+		[Token(Token = "0x6000A1A")]
 		public void OnError(Exception ex)
 		{
 		}
 
-		[Token(Token = "0x60009F7")]
+		[Token(Token = "0x6000A1B")]
 		private static void CancellationCallback(object state)
 		{
 		}
 
-		[Token(Token = "0x60009FE")]
+		[Token(Token = "0x6000A22")]
 		public UniTask<bool> MoveNextAsync()
 		{
 			return default(UniTask<bool>);
 		}
 
-		[Token(Token = "0x60009FF")]
+		[Token(Token = "0x6000A23")]
 		public UniTask DisposeAsync()
 		{
 			return default(UniTask);
 		}
 	}
 
-	[Token(Token = "0x200018E")]
+	[Token(Token = "0x2000191")]
 	private class AwakeMonitor : IPlayerLoopItem
 	{
-		[Token(Token = "0x4000633")]
+		[Token(Token = "0x4000646")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly AsyncTriggerBase<T> trigger;
 
-		[Token(Token = "0x6000A01")]
+		[Token(Token = "0x6000A25")]
 		public AwakeMonitor(AsyncTriggerBase<T> trigger)
 		{
 		}
 
-		[Token(Token = "0x6000A02")]
+		[Token(Token = "0x6000A26")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x4000627")]
+	[Token(Token = "0x400063A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private TriggerEvent<T> triggerEvent;
 
-	[Token(Token = "0x4000628")]
+	[Token(Token = "0x400063B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	protected internal bool calledAwake;
 
-	[Token(Token = "0x4000629")]
+	[Token(Token = "0x400063C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	protected internal bool calledDestroy;
 
-	[Token(Token = "0x60009EB")]
+	[Token(Token = "0x6000A0F")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60009EC")]
+	[Token(Token = "0x6000A10")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60009ED")]
+	[Token(Token = "0x6000A11")]
 	internal void AddHandler(ITriggerHandler<T> handler)
 	{
 	}
 
-	[Token(Token = "0x60009EE")]
+	[Token(Token = "0x6000A12")]
 	internal void RemoveHandler(ITriggerHandler<T> handler)
 	{
 	}
 
-	[Token(Token = "0x60009EF")]
+	[Token(Token = "0x6000A13")]
 	protected void RaiseEvent(T value)
 	{
 	}
 
-	[Token(Token = "0x60009F0")]
+	[Token(Token = "0x6000A14")]
 	public IUniTaskAsyncEnumerator<T> GetAsyncEnumerator([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F1")]
+	[Token(Token = "0x6000A15")]
 	protected AsyncTriggerBase()
 	{
 	}

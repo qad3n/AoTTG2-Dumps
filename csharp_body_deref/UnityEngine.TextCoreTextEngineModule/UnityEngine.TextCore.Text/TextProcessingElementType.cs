@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x200006A")]
 internal enum TextProcessingElementType
 {
-	[Token(Token = "0x4000323")]
+	[Token(Token = "0x4000477")]
 	Undefined,
-	[Token(Token = "0x4000324")]
+	[Token(Token = "0x4000478")]
 	TextCharacterElement,
-	[Token(Token = "0x4000325")]
+	[Token(Token = "0x4000479")]
 	TextMarkupElement
 }

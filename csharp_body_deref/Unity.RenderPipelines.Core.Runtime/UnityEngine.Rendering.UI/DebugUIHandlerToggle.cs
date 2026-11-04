@@ -10,64 +10,64 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x200022F")]
+[Token(Token = "0x20002EF")]
 public class DebugUIHandlerToggle : DebugUIHandlerWidget
 {
-	[Token(Token = "0x40008B6")]
+	[Token(Token = "0x4000D8D")]
 	[FieldOffset(Offset = "0x60")]
 	public Text nameLabel;
 
-	[Token(Token = "0x40008B7")]
+	[Token(Token = "0x4000D8E")]
 	[FieldOffset(Offset = "0x68")]
 	public Toggle valueToggle;
 
-	[Token(Token = "0x40008B8")]
+	[Token(Token = "0x4000D8F")]
 	[FieldOffset(Offset = "0x70")]
 	public Image checkmarkImage;
 
-	[Token(Token = "0x40008B9")]
+	[Token(Token = "0x4000D90")]
 	[FieldOffset(Offset = "0x78")]
 	protected internal DebugUI.BoolField m_Field;
 
-	[Token(Token = "0x6000F08")]
-	[Address(RVA = "0x4C16D10", Offset = "0x4C16D10", VA = "0x4C16D10", Slot = "5")]
+	[Token(Token = "0x60014AB")]
+	[Address(RVA = "0x2BB1740", Offset = "0x2BAFD40", VA = "0x182BB1740", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000F09")]
-	[Address(RVA = "0x4C16E30", Offset = "0x4C16E30", VA = "0x4C16E30")]
+	[Token(Token = "0x60014AC")]
+	[Address(RVA = "0x2BB1710", Offset = "0x2BAFD10", VA = "0x182BB1710")]
 	private void OnToggleValueChanged(bool value)
 	{
 	}
 
-	[Token(Token = "0x6000F0A")]
-	[Address(RVA = "0x4C16E60", Offset = "0x4C16E60", VA = "0x4C16E60", Slot = "6")]
+	[Token(Token = "0x60014AD")]
+	[Address(RVA = "0x2BADE20", Offset = "0x2BAC420", VA = "0x182BADE20", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F0B")]
-	[Address(RVA = "0x4C16EC0", Offset = "0x4C16EC0", VA = "0x4C16EC0", Slot = "7")]
+	[Token(Token = "0x60014AE")]
+	[Address(RVA = "0x2BADDB0", Offset = "0x2BAC3B0", VA = "0x182BADDB0", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
-	[Token(Token = "0x6000F0C")]
-	[Address(RVA = "0x4C16F20", Offset = "0x4C16F20", VA = "0x4C16F20", Slot = "8")]
+	[Token(Token = "0x60014AF")]
+	[Address(RVA = "0x2BB1690", Offset = "0x2BAFC90", VA = "0x182BB1690", Slot = "8")]
 	public override void OnAction()
 	{
 	}
 
-	[Token(Token = "0x6000F0D")]
-	[Address(RVA = "0x4C16FA0", Offset = "0x4C16FA0", VA = "0x4C16FA0", Slot = "13")]
+	[Token(Token = "0x60014B0")]
+	[Address(RVA = "0x2BB1870", Offset = "0x2BAFE70", VA = "0x182BB1870", Slot = "13")]
 	protected internal virtual void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6000F0E")]
-	[Address(RVA = "0x4C17040", Offset = "0x4C17040", VA = "0x4C17040")]
+	[Token(Token = "0x60014B1")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerToggle()
 	{
 	}

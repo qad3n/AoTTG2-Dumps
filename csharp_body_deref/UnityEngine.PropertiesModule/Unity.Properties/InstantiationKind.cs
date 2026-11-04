@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x2000063")]
 public enum InstantiationKind
 {
-	[Token(Token = "0x40000FF")]
+	[Token(Token = "0x4000089")]
 	Activator,
-	[Token(Token = "0x4000100")]
+	[Token(Token = "0x400008A")]
 	PropertyBagOverride,
-	[Token(Token = "0x4000101")]
+	[Token(Token = "0x400008B")]
 	NotInstantiatable
 }

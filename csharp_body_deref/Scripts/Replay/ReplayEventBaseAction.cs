@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000D0")]
+[Token(Token = "0x20000F0")]
 public enum ReplayEventBaseAction
 {
-	[Token(Token = "0x400050F")]
+	[Token(Token = "0x40005AF")]
 	Spawn,
-	[Token(Token = "0x4000510")]
+	[Token(Token = "0x40005B0")]
 	Despawn,
-	[Token(Token = "0x4000511")]
+	[Token(Token = "0x40005B1")]
 	State
 }

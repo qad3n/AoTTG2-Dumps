@@ -13,25 +13,25 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x2000331")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/PlayableGraph.bindings.h")]
+[Token(Token = "0x2000308")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/PlayableGraph.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableOutput.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct PlayableGraph
 {
-	[Token(Token = "0x4000A24")]
+	[Token(Token = "0x40007AE")]
 	[FieldOffset(Offset = "0x0")]
 	internal IntPtr m_Handle;
 
-	[Token(Token = "0x4000A25")]
+	[Token(Token = "0x40007AF")]
 	[FieldOffset(Offset = "0x8")]
 	internal uint m_Version;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600115B")]
-	[Address(RVA = "0x4E37FB0", Offset = "0x4E37FB0", VA = "0x4E37FB0")]
+	[Token(Token = "0x600123A")]
+	[Address(RVA = "0x2F4D920", Offset = "0x2F4BF20", VA = "0x182F4D920")]
 	[UnityEngine.Bindings.FreeFunction("PlayableGraphBindings::SetTimeUpdateMode", HasExplicitThis = true, ThrowsException = true)]
 	public extern void SetTimeUpdateMode(DirectorUpdateMode value);
 }

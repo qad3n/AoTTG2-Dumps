@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200008B")]
+[Token(Token = "0x20000B4")]
 public class ArgumentNullException : ArgumentException
 {
-	[Token(Token = "0x60003E1")]
-	[Address(RVA = "0x3C13900", Offset = "0x3C13900", VA = "0x3C13900")]
+	[Token(Token = "0x6000414")]
+	[Address(RVA = "0x1A77F90", Offset = "0x1A76590", VA = "0x181A77F90")]
 	public ArgumentNullException()
 	{
 	}
 
-	[Token(Token = "0x60003E2")]
-	[Address(RVA = "0x3C0AD60", Offset = "0x3C0AD60", VA = "0x3C0AD60")]
+	[Token(Token = "0x6000415")]
+	[Address(RVA = "0x1A77F20", Offset = "0x1A76520", VA = "0x181A77F20")]
 	public ArgumentNullException(string paramName)
 	{
 	}
 
-	[Token(Token = "0x60003E3")]
-	[Address(RVA = "0x3C13940", Offset = "0x3C13940", VA = "0x3C13940")]
+	[Token(Token = "0x6000416")]
+	[Address(RVA = "0x1A77FE0", Offset = "0x1A765E0", VA = "0x181A77FE0")]
 	public ArgumentNullException(string paramName, string message)
 	{
 	}
 
-	[Token(Token = "0x60003E4")]
-	[Address(RVA = "0x3C13980", Offset = "0x3C13980", VA = "0x3C13980")]
+	[Token(Token = "0x6000417")]
+	[Address(RVA = "0x1A77DC0", Offset = "0x1A763C0", VA = "0x181A77DC0")]
 	protected ArgumentNullException(SerializationInfo info, StreamingContext context)
 	{
 	}

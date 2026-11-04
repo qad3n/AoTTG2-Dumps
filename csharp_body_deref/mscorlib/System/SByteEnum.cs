@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000185")]
+[Token(Token = "0x20001B0")]
 internal enum SByteEnum : sbyte
 {
 

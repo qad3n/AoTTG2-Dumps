@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks.Sources;
 
-[Token(Token = "0x2000264")]
+[Token(Token = "0x2000294")]
 [Flags]
 public enum ValueTaskSourceOnCompletedFlags
 {
-	[Token(Token = "0x4000B1E")]
+	[Token(Token = "0x4000B67")]
 	None = 0,
-	[Token(Token = "0x4000B1F")]
+	[Token(Token = "0x4000B68")]
 	UseSchedulingContext = 1,
-	[Token(Token = "0x4000B20")]
+	[Token(Token = "0x4000B69")]
 	FlowExecutionContext = 2
 }

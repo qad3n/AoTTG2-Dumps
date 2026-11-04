@@ -13,10 +13,10 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000023")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationMotionXToDeltaPlayable.bindings.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationMotionXToDeltaPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[Token(Token = "0x2000024")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationMotionXToDeltaPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationMotionXToDeltaPlayable.bindings.h")]
 internal struct AnimationMotionXToDeltaPlayable : IEquatable<AnimationMotionXToDeltaPlayable>
 {
 	[Token(Token = "0x400005C")]
@@ -27,21 +27,21 @@ internal struct AnimationMotionXToDeltaPlayable : IEquatable<AnimationMotionXToD
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationMotionXToDeltaPlayable m_NullPlayable;
 
-	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x4DA6730", Offset = "0x4DA6730", VA = "0x4DA6730")]
+	[Token(Token = "0x60000BA")]
+	[Address(RVA = "0x2EABC00", Offset = "0x2EAA200", VA = "0x182EABC00")]
 	private AnimationMotionXToDeltaPlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000AE")]
-	[Address(RVA = "0x4DA6820", Offset = "0x4DA6820", VA = "0x4DA6820", Slot = "5")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x4DA6830", Offset = "0x4DA6830", VA = "0x4DA6830", Slot = "4")]
+	[Token(Token = "0x60000BC")]
+	[Address(RVA = "0x2EABA20", Offset = "0x2EAA020", VA = "0x182EABA20", Slot = "4")]
 	public bool Equals(AnimationMotionXToDeltaPlayable other)
 	{
 		return default(bool);

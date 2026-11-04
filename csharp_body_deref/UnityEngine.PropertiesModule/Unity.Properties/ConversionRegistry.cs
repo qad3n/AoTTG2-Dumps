@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Unity.Properties.ConversionRegistry
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -8,104 +8,76 @@
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x200005B")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 internal readonly struct ConversionRegistry : IEqualityComparer<ConversionRegistry>
 {
-	[Token(Token = "0x2000029")]
-	private class ConverterKeyComparer : IEqualityComparer<ConverterKey>
-	{
-		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x4E86AC0", Offset = "0x4E86AC0", VA = "0x4E86AC0", Slot = "4")]
-		public bool Equals(ConverterKey x, ConverterKey y)
-		{
-			return default(bool);
-		}
-
-		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x4E86B40", Offset = "0x4E86B40", VA = "0x4E86B40", Slot = "5")]
-		public int GetHashCode(ConverterKey obj)
-		{
-			return default(int);
-		}
-
-		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x4E86AB0", Offset = "0x4E86AB0", VA = "0x4E86AB0")]
-		public ConverterKeyComparer()
-		{
-		}
-	}
-
-	[Token(Token = "0x200002A")]
-	private readonly struct ConverterKey
-	{
-		[Token(Token = "0x4000032")]
-		[FieldOffset(Offset = "0x0")]
-		public readonly Type SourceType;
-
-		[Token(Token = "0x4000033")]
-		[FieldOffset(Offset = "0x8")]
-		public readonly Type DestinationType;
-
-		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x4E867F0", Offset = "0x4E867F0", VA = "0x4E867F0")]
-		public ConverterKey(Type source, Type destination)
-		{
-		}
-	}
-
-	[Token(Token = "0x4000030")]
-	[FieldOffset(Offset = "0x0")]
-	private static readonly ConverterKeyComparer Comparer;
-
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000083")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Dictionary<ConverterKey, Delegate> m_Converters;
 
-	[Token(Token = "0x6000076")]
-	[Address(RVA = "0x4E86650", Offset = "0x4E86650", VA = "0x4E86650")]
+	[Token(Token = "0x4000084")]
+	[FieldOffset(Offset = "0x8")]
+	private readonly Dictionary<ConverterKey, Func<Delegate>> m_LazyConverters;
+
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x2FEA480", Offset = "0x2FE8A80", VA = "0x182FEA480")]
 	private ConversionRegistry(Dictionary<ConverterKey, Delegate> storage)
 	{
 	}
 
-	[Token(Token = "0x6000077")]
-	[Address(RVA = "0x4E86660", Offset = "0x4E86660", VA = "0x4E86660")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x2FE9F40", Offset = "0x2FE8540", VA = "0x182FE9F40")]
 	public static ConversionRegistry Create()
 	{
 		return default(ConversionRegistry);
 	}
 
-	[Token(Token = "0x6000078")]
-	[Address(RVA = "0x4E86700", Offset = "0x4E86700", VA = "0x4E86700")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x2FEA360", Offset = "0x2FE8960", VA = "0x182FEA360")]
 	public void Register(Type source, Type destination, Delegate converter)
 	{
 	}
 
-	[Token(Token = "0x6000079")]
-	[Address(RVA = "0x4E86820", Offset = "0x4E86820", VA = "0x4E86820")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x2FEA270", Offset = "0x2FE8870", VA = "0x182FEA270")]
+	public void LazyRegister(Type source, Type destination, Func<Delegate> converter)
+	{
+	}
+
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x2FE9D10", Offset = "0x2FE8310", VA = "0x182FE9D10")]
+	public void Apply(ConversionRegistry registry)
+	{
+	}
+
+	[Token(Token = "0x6000159")]
+	[Address(RVA = "0x2FEA020", Offset = "0x2FE8620", VA = "0x182FEA020")]
 	public Delegate GetConverter(Type source, Type destination)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007A")]
-	[Address(RVA = "0x4E868D0", Offset = "0x4E868D0", VA = "0x4E868D0")]
+	[Token(Token = "0x600015A")]
+	[Address(RVA = "0x2FEA450", Offset = "0x2FE8A50", VA = "0x182FEA450")]
 	public bool TryGetConverter(Type source, Type destination, out Delegate converter)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x4E86A00", Offset = "0x4E86A00", VA = "0x4E86A00", Slot = "4")]
+	[Token(Token = "0x600015B")]
+	[Address(RVA = "0x2FEA010", Offset = "0x2FE8610", VA = "0x182FEA010", Slot = "4")]
 	public bool Equals(ConversionRegistry x, ConversionRegistry y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x4E86A10", Offset = "0x4E86A10", VA = "0x4E86A10", Slot = "5")]
+	[Token(Token = "0x600015C")]
+	[Address(RVA = "0x2FEA240", Offset = "0x2FE8840", VA = "0x182FEA240", Slot = "5")]
 	public int GetHashCode(ConversionRegistry obj)
 	{
 		return default(int);

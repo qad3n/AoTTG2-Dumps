@@ -17,7 +17,7 @@ internal sealed class SafeBrotliEncoderHandle : SafeHandle
 	public override bool IsInvalid
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x4664990", Offset = "0x4664990", VA = "0x4664990", Slot = "5")]
+		[Address(RVA = "0x2498690", Offset = "0x2496C90", VA = "0x182498690", Slot = "5")]
 		get
 		{
 			return default(bool);
@@ -25,13 +25,13 @@ internal sealed class SafeBrotliEncoderHandle : SafeHandle
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x465F700", Offset = "0x465F700", VA = "0x465F700")]
+	[Address(RVA = "0x1967BE0", Offset = "0x19661E0", VA = "0x181967BE0")]
 	public SafeBrotliEncoderHandle()
 	{
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x4664980", Offset = "0x4664980", VA = "0x4664980", Slot = "7")]
+	[Address(RVA = "0x25B8C30", Offset = "0x25B7230", VA = "0x1825B8C30", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);

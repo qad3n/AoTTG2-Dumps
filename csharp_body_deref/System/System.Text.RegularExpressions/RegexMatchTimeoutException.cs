@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 namespace System.Text.RegularExpressions;
 
 [Serializable]
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x20000F5")]
 public class RegexMatchTimeoutException : TimeoutException, ISerializable
 {
-	[Token(Token = "0x170000AE")]
+	[Token(Token = "0x170000E7")]
 	public string Input
 	{
-		[Token(Token = "0x60003CC")]
-		[Address(RVA = "0x4917900", Offset = "0x4917900", VA = "0x4917900")]
+		[Token(Token = "0x60005A9")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,11 +27,11 @@ public class RegexMatchTimeoutException : TimeoutException, ISerializable
 		}
 	}
 
-	[Token(Token = "0x170000AF")]
+	[Token(Token = "0x170000E8")]
 	public string Pattern
 	{
-		[Token(Token = "0x60003CD")]
-		[Address(RVA = "0x4917910", Offset = "0x4917910", VA = "0x4917910")]
+		[Token(Token = "0x60005AA")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,11 +39,11 @@ public class RegexMatchTimeoutException : TimeoutException, ISerializable
 		}
 	}
 
-	[Token(Token = "0x170000B0")]
+	[Token(Token = "0x170000E9")]
 	public TimeSpan MatchTimeout
 	{
-		[Token(Token = "0x60003CE")]
-		[Address(RVA = "0x4917920", Offset = "0x4917920", VA = "0x4917920")]
+		[Token(Token = "0x60005AB")]
+		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
 		[CompilerGenerated]
 		get
 		{
@@ -51,26 +51,26 @@ public class RegexMatchTimeoutException : TimeoutException, ISerializable
 		}
 	}
 
-	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x49174E0", Offset = "0x49174E0", VA = "0x49174E0")]
+	[Token(Token = "0x60005A5")]
+	[Address(RVA = "0x2867DB0", Offset = "0x28663B0", VA = "0x182867DB0")]
 	public RegexMatchTimeoutException(string regexInput, string regexPattern, TimeSpan matchTimeout)
 	{
 	}
 
-	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x49175F0", Offset = "0x49175F0", VA = "0x49175F0")]
+	[Token(Token = "0x60005A6")]
+	[Address(RVA = "0x2868020", Offset = "0x2866620", VA = "0x182868020")]
 	public RegexMatchTimeoutException()
 	{
 	}
 
-	[Token(Token = "0x60003CA")]
-	[Address(RVA = "0x49176A0", Offset = "0x49176A0", VA = "0x49176A0")]
+	[Token(Token = "0x60005A7")]
+	[Address(RVA = "0x2867EB0", Offset = "0x28664B0", VA = "0x182867EB0")]
 	protected RegexMatchTimeoutException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60003CB")]
-	[Address(RVA = "0x4917810", Offset = "0x4917810", VA = "0x4917810", Slot = "4")]
+	[Token(Token = "0x60005A8")]
+	[Address(RVA = "0x2867CC0", Offset = "0x28662C0", VA = "0x182867CC0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

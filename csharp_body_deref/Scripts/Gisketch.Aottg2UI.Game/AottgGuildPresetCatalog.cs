@@ -10,34 +10,34 @@ using PatreonEffects;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001A4")]
+[Token(Token = "0x20002AA")]
 internal static class AottgGuildPresetCatalog
 {
-	[Token(Token = "0x400092D")]
+	[Token(Token = "0x4000DD4")]
 	public const string Custom = "Custom";
 
-	[Token(Token = "0x400092E")]
+	[Token(Token = "0x4000DD5")]
 	public const string Team = "aottg2_developer_team";
 
-	[Token(Token = "0x400092F")]
+	[Token(Token = "0x4000DD6")]
 	public const string Supporter = "supporter";
 
-	[Token(Token = "0x60009E9")]
-	[Address(RVA = "0x44199B0", Offset = "0x44199B0", VA = "0x44199B0")]
+	[Token(Token = "0x60010A6")]
+	[Address(RVA = "0x1E12060", Offset = "0x1E10660", VA = "0x181E12060")]
 	public static bool TryGet(string id, out AottgGuildPresetDefinition definition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x4419B60", Offset = "0x4419B60", VA = "0x4419B60")]
+	[Token(Token = "0x60010A7")]
+	[Address(RVA = "0x1E11F30", Offset = "0x1E10530", VA = "0x181E11F30")]
 	public static string Label(string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009EB")]
-	[Address(RVA = "0x4419BA0", Offset = "0x4419BA0", VA = "0x4419BA0")]
+	[Token(Token = "0x60010A8")]
+	[Address(RVA = "0x1E11F70", Offset = "0x1E10570", VA = "0x181E11F70")]
 	public static NameEffectSettings SupporterShimmer()
 	{
 		return null;

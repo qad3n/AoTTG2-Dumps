@@ -1,400 +1,323 @@
 // Type: Gisketch.Aottg2UI.Game.AottgChangelogDialogState
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgChangelogDialogState.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_LatestVersion
 // il2cpp: ApplicationManagers_Changelog_LatestChangelogVersionResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_LatestVersion (const MethodInfo* method);
-// 0x44ddf10
+// 0x1823a4a20
 
 ApplicationManagers_Changelog_LatestChangelogVersionResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_LatestVersion(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebb0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb0 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c7f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c7f = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(ApplicationManagers_Changelog_LatestChangelogVersionResponse_o **)
-            (*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 8);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(ApplicationManagers_Changelog_LatestChangelogVersionResponse_o **)
-          (*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 8);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _LatestVersion_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_LatestVersion
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_LatestVersion (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o* value, const MethodInfo* method);
-// 0x44ddf80
+// 0x1823a4ff0
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_LatestVersion
                (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o *value,MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aebb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb1 = '\x01';
+  if (Il2CppMethodInitialized_184347c80 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c80 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar1 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(ApplicationManagers_Changelog_LatestChangelogVersionResponse_o **)(lVar1 + 8) = value;
-  il2cpp_runtime_helper_022b4080(lVar1 + 8,value);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_LatestVersion_k__BackingField =
+       value;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _LatestVersion_k__BackingField,value);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_LatestPreviewEntry
 // il2cpp: ApplicationManagers_Changelog_ChangelogEntryResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_LatestPreviewEntry (const MethodInfo* method);
-// 0x44ddfe0
+// 0x1823a49d0
 
 ApplicationManagers_Changelog_ChangelogEntryResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_LatestPreviewEntry(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebb2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb2 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c81 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c81 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10)
-    ;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _LatestPreviewEntry_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_LatestPreviewEntry
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_LatestPreviewEntry (ApplicationManagers_Changelog_ChangelogEntryResponse_o* value, const MethodInfo* method);
-// 0x44de050
+// 0x1823a4f80
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_LatestPreviewEntry
                (ApplicationManagers_Changelog_ChangelogEntryResponse_o *value,MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aebb3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb3 = '\x01';
+  if (Il2CppMethodInitialized_184347c82 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c82 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar1 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(lVar1 + 0x10) = value;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10,value);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+  _LatestPreviewEntry_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _LatestPreviewEntry_k__BackingField,value);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_ReaderEntry
 // il2cpp: ApplicationManagers_Changelog_ChangelogEntryResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderEntry (const MethodInfo* method);
-// 0x44de0b0
+// 0x1823a4d80
 
 ApplicationManagers_Changelog_ChangelogEntryResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderEntry(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebb4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb4 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c83 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c83 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x18)
-    ;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x18);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _ReaderEntry_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_ReaderEntry
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderEntry (ApplicationManagers_Changelog_ChangelogEntryResponse_o* value, const MethodInfo* method);
-// 0x44de120
+// 0x1823a5060
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderEntry
                (ApplicationManagers_Changelog_ChangelogEntryResponse_o *value,MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aebb5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb5 = '\x01';
+  if (Il2CppMethodInitialized_184347c84 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c84 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar1 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(lVar1 + 0x18) = value;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18,value);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderEntry_k__BackingField =
+       value;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _ReaderEntry_k__BackingField,value);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_ReaderMode
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderMode (const MethodInfo* method);
-// 0x44de180
+// 0x1823a4dd0
 
 int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderMode(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebb6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb6 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c85 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c85 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderMode_k__BackingField
+  ;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_ReaderMode
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderMode (int32_t value, const MethodInfo* method);
-// 0x44de1f0
+// 0x1823a50d0
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderMode(int32_t value,MethodInfo *method)
 
 {
-  if (g_data_057aebb7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb7 = '\x01';
+  if (Il2CppMethodInitialized_184347c86 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c86 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20) = value;
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_ReaderShowsNewUpdate
-// il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderShowsNewUpdate (const MethodInfo* method);
-// 0x44de240
-
-bool_conflict Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_ReaderShowsNewUpdate(MethodInfo *method)
-
-{
-  int iVar1;
-  
-  if (g_data_057aebb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb8 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 != 0) {
-    return (bool_conflict)
-           CONCAT71((int7)((ulong)*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) >> 8),
-                    *(undefined1 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x24));
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return (bool_conflict)
-         CONCAT71((int7)((ulong)*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) >> 8),
-                  *(undefined1 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x24));
-}
-
-
-// Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_ReaderShowsNewUpdate
-// il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderShowsNewUpdate (bool value, const MethodInfo* method);
-// 0x44de2b0
-
-void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_ReaderShowsNewUpdate
-               (bool_conflict value,MethodInfo *method)
-
-{
-  if (g_data_057aebb9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebb9 = '\x01';
-  }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  *(char *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x24) = (char)value;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderMode_k__BackingField =
+       value;
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_SelectedEntryId
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_SelectedEntryId (const MethodInfo* method);
-// 0x44de300
+// 0x1823a4e20
 
 System_String_o * Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_SelectedEntryId(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebba = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c87 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c87 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(System_String_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x28);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(System_String_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x28);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _SelectedEntryId_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_SelectedEntryId
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_SelectedEntryId (System_String_o* value, const MethodInfo* method);
-// 0x44de370
+// 0x1823a5130
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_SelectedEntryId
                (System_String_o *value,MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aebbb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebbb = '\x01';
+  if (Il2CppMethodInitialized_184347c88 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c88 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar1 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(System_String_o **)(lVar1 + 0x28) = value;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28,value);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_SelectedEntryId_k__BackingField =
+       value;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _SelectedEntryId_k__BackingField,value);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HistoryPage
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPage (const MethodInfo* method);
-// 0x44de3d0
+// 0x1823a4930
 
 int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPage(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebbc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebbc = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c89 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c89 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x30);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x30);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _HistoryPage_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_HistoryPage
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_HistoryPage (int32_t value, const MethodInfo* method);
-// 0x44de440
+// 0x1823a4ec0
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_HistoryPage(int32_t value,MethodInfo *method)
 
 {
-  if (g_data_057aebbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebbd = '\x01';
+  if (Il2CppMethodInitialized_184347c8a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8a = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x30) = value;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryPage_k__BackingField =
+       value;
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HistoryTotal
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryTotal (const MethodInfo* method);
-// 0x44de490
+// 0x1823a4980
 
 int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryTotal(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebbe == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebbe = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c8b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8b = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x34);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x34);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _HistoryTotal_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_HistoryTotal
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_HistoryTotal (int32_t value, const MethodInfo* method);
-// 0x44de500
+// 0x1823a4f20
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_HistoryTotal(int32_t value,MethodInfo *method)
 
 {
-  if (g_data_057aebbf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebbf = '\x01';
+  if (Il2CppMethodInitialized_184347c8c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8c = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x34) = value;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryTotal_k__BackingField =
+       value;
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HistoryPageSize
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPageSize (const MethodInfo* method);
-// 0x44de550
+// 0x180847040
 
-int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPageSize(MethodInfo *method)
+int32_t
+Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPageSize(MethodInfo* method)
 
 {
   return 0x14;
@@ -403,1359 +326,727 @@ int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryPageSize(Me
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HistoryEntries
 // il2cpp: System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryEntries (const MethodInfo* method);
-// 0x44de560
+// 0x1823a48e0
 
 System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HistoryEntries(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebc0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc0 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c8d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8d = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return (System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *)
-           **(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  }
-  il2cpp_runtime_helper_02337ed0();
   return (System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *)
-         **(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
+         TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_SelectedHistoryIndex
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_SelectedHistoryIndex (const MethodInfo* method);
-// 0x44de5d0
+// 0x1823a4e70
 
 int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_SelectedHistoryIndex(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebc1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc1 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c8e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8e = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 != 0) {
-    return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
-  }
-  il2cpp_runtime_helper_02337ed0();
-  return *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
+  return TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+         _SelectedHistoryIndex_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$set_SelectedHistoryIndex
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_SelectedHistoryIndex (int32_t value, const MethodInfo* method);
-// 0x44de640
+// 0x1823a51a0
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__set_SelectedHistoryIndex
                (int32_t value,MethodInfo *method)
 
 {
-  if (g_data_057aebc2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc2 = '\x01';
+  if (Il2CppMethodInitialized_184347c8f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c8f = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = value;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+  _SelectedHistoryIndex_k__BackingField = value;
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HasMoreHistory
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory (const MethodInfo* method);
-// 0x44de690
+// 0x1823a4820
 
-bool_conflict Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(MethodInfo *method)
 
 {
   int iVar1;
-  long lVar2;
-  int unaff_EBP;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar2;
   
-  if (g_data_057aebc3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057aebc3 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044de6af;
-label_044de719:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = **(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (lVar2 != 0) goto label_044de6be;
-label_044de730:
-    il2cpp_runtime_helper_022b2c90();
+  if (Il2CppMethodInitialized_184347c90 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    Il2CppMethodInitialized_184347c90 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044de719;
-label_044de6af:
-    lVar2 = **(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (lVar2 == 0) goto label_044de730;
-label_044de6be:
-    unaff_EBP = *(int *)(lVar2 + 0x18);
-    if (g_data_057aeca6 != '\0') {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-      goto joined_r0x044de74e;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  pSVar2 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar2 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    iVar1 = (pSVar2->fields)._size;
+    if (Il2CppMethodInitialized_184347d3f == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d3f = '\x01';
     }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    return iVar1 < TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+                   _HistoryTotal_k__BackingField;
   }
-  il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-  g_data_057aeca6 = '\x01';
-  iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-joined_r0x044de74e:
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  return (bool_conflict)
-         CONCAT71((int7)((ulong)*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) >> 8),
-                  unaff_EBP < *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x34));
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_HasHistory
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasHistory (const MethodInfo* method);
-// 0x44de760
+// 0x1823a47b0
 
-bool_conflict Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasHistory(MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasHistory(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  Il2CppMethodPointer pIVar3;
-  bool_conflict bVar4;
-  MethodInfo *method_00;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar1;
   
-  if (g_data_057aebc4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057aebc4 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
+  if (Il2CppMethodInitialized_184347c91 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    Il2CppMethodInitialized_184347c91 = '\x01';
   }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer;
+  pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar1 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    return 0 < (pSVar1->fields)._size;
   }
-  else {
-    lVar2 = *(long *)((MethodInfo *)((long)TypeInfo_AottgChangelogDialogState + 0xb0))->virtualMethodPointer;
-  }
-  if (lVar2 != 0) {
-    return (bool_conflict)CONCAT71((int7)((ulong)lVar2 >> 8),0 < *(int *)(lVar2 + 0x18));
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebc5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057aebc5 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aeca7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  else {
-    iVar1 = *(int *)((long)&((MethodInfo *)((long)TypeInfo_AottgChangelogDialogState + 0xb0))->parameters + 4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer + 0x38);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer + 0x38);
-  }
-  if (iVar1 < 0) {
-    return 0;
-  }
-  if (*(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aeca7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pIVar3 = TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer;
-    lVar2 = *(long *)pIVar3;
-    method_00 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    pIVar3 = TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer;
-    lVar2 = *(long *)pIVar3;
-    method_00 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = method_00;
-  if (lVar2 == 0) {
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (*(int *)(pIVar3 + 0x38) + 1 < *(int *)(lVar2 + 0x18)) {
-      return (bool_conflict)CONCAT71((int7)((ulong)pIVar3 >> 8),1);
-    }
-    if (*(int *)((long)&method_00[2].parameters + 4) != 0) {
-      bVar4 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(method_00);
-      return bVar4;
-    }
-  }
-  il2cpp_runtime_helper_02337ed0();
-  bVar4 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(method_00);
-  return bVar4;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_CanGoPrevious
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoPrevious (const MethodInfo* method);
-// 0x44de7f0
+// 0x1823a45c0
 
-bool_conflict Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoPrevious(MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoPrevious(MethodInfo *method)
 
 {
   int iVar1;
-  Il2CppMethodPointer pIVar2;
-  long lVar3;
-  bool_conflict bVar4;
-  MethodInfo *method_00;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar2;
   
-  if (g_data_057aebc5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057aebc5 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
+  if (Il2CppMethodInitialized_184347c92 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    Il2CppMethodInitialized_184347c92 = '\x01';
   }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
   }
-  if (g_data_057aeca7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    iVar1 = *(int *)((long)&((MethodInfo *)((long)TypeInfo_AottgChangelogDialogState + 0xb0))->parameters + 4);
+  if (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+      _SelectedHistoryIndex_k__BackingField < 0) {
+    return false;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer + 0x38);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer + 0x38);
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
   }
-  if (iVar1 < 0) {
-    return 0;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (*(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aeca7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[2].parameters + 4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pIVar2 = TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer;
-    lVar3 = *(long *)pIVar2;
-    method_00 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    pIVar2 = TypeInfo_AottgChangelogDialogState[2].virtualMethodPointer;
-    lVar3 = *(long *)pIVar2;
-    method_00 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = method_00;
-  if (lVar3 == 0) {
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (*(int *)(pIVar2 + 0x38) + 1 < *(int *)(lVar3 + 0x18)) {
-      return (bool_conflict)CONCAT71((int7)((ulong)pIVar2 >> 8),1);
+  pSVar2 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar2 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    if (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+        _SelectedHistoryIndex_k__BackingField + 1 < (pSVar2->fields)._size) {
+      return true;
     }
-    if (*(int *)((long)&method_00[2].parameters + 4) != 0) {
-      bVar4 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(method_00);
-      return bVar4;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    if (Il2CppMethodInitialized_184347c90 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+      Il2CppMethodInitialized_184347c90 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    pSVar2 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar2 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+      iVar1 = (pSVar2->fields)._size;
+      if (Il2CppMethodInitialized_184347d3f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState)
+        ;
+        Il2CppMethodInitialized_184347d3f = '\x01';
+      }
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      }
+      return iVar1 < TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+                     _HistoryTotal_k__BackingField;
     }
   }
-  il2cpp_runtime_helper_02337ed0();
-  bVar4 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_HasMoreHistory(method_00);
-  return bVar4;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_CanGoNext
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoNext (const MethodInfo* method);
-// 0x44de990
+// 0x1823a4540
 
-bool_conflict Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoNext(MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_CanGoNext(MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057aebc6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc6 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c93 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c93 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
   }
-  if (g_data_057aeca7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  return (bool_conflict)
-         CONCAT71((int7)((ulong)*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) >> 8),
-                  0 < *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38));
+  return 0 < TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+             _SelectedHistoryIndex_k__BackingField;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_PreviousSummary
 // il2cpp: ApplicationManagers_Changelog_ChangelogSummaryResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_PreviousSummary (const MethodInfo* method);
-// 0x44dea30
+// 0x1823a4bc0
 
 ApplicationManagers_Changelog_ChangelogSummaryResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_PreviousSummary(MethodInfo *method)
 
 {
-  int iVar1;
-  undefined8 *puVar2;
-  System_String_o *pSVar3;
-  bool_conflict bVar4;
-  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar5;
-  undefined4 extraout_var;
-  System_Collections_Generic_List_object__o *pSVar6;
-  long lVar7;
-  long lVar8;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar1;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar2;
   
-  if (g_data_057aebc7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebc7 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044deb49;
-label_044dea58:
-    if (g_data_057aeca7 != '\0') goto label_044dea65;
-label_044deb5b:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044deb7e;
-label_044dea75:
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
+  if (Il2CppMethodInitialized_184347c94 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    Il2CppMethodInitialized_184347c94 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dea58;
-label_044deb49:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca7 == '\0') goto label_044deb5b;
-label_044dea65:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dea75;
-label_044deb7e:
-    il2cpp_runtime_helper_02337ed0();
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 < 0) {
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  if (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+      _SelectedHistoryIndex_k__BackingField < 0) {
     return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca7 == '\0') goto label_044debb3;
-label_044deaa0:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044deab0;
-label_044debd6:
-    il2cpp_runtime_helper_02337ed0();
-    puVar2 = *(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar6 = (System_Collections_Generic_List_object__o *)*puVar2;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    if (g_data_057aeca7 != '\0') goto label_044deaa0;
-label_044debb3:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044debd6;
-label_044deab0:
-    puVar2 = *(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar6 = (System_Collections_Generic_List_object__o *)*puVar2;
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
   }
-  if (pSVar6 != (System_Collections_Generic_List_object__o *)0x0) {
-    if ((pSVar6->fields)._size <= *(int *)(puVar2 + 7) + 1) {
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar1 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    if ((pSVar1->fields)._size <=
+        TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+        _SelectedHistoryIndex_k__BackingField + 1) {
       return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
     }
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar6 = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-      if (g_data_057aeca7 == '\0') goto label_044dec12;
-label_044deaec:
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    else {
-      if (g_data_057aeca7 != '\0') goto label_044deaec;
-label_044dec12:
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aeca7 = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (Il2CppMethodInitialized_184347d40 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d40 = '\x01';
     }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    if (pSVar6 != (System_Collections_Generic_List_object__o *)0x0) {
-      pAVar5 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-               System_Collections_Generic_List_object___get_Item
-                         (pSVar6,*(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) + 1,MethodInfo_ChangelogSummaryResponse_get_Item);
-      return pAVar5;
+    if (pSVar1 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+      pAVar2 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar1,
+                          TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+                          _SelectedHistoryIndex_k__BackingField + 1,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+      return pAVar2;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebc8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebc8 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044ded79;
-label_044dec98:
-    if (g_data_057aebc6 != '\0') goto label_044deca5;
-label_044ded8b:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc6 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044dedae;
-label_044decb5:
-    if (g_data_057aeca7 != '\0') goto label_044decc2;
-label_044dedc0:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044dede3;
-label_044decd2:
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dec98;
-label_044ded79:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aebc6 == '\0') goto label_044ded8b;
-label_044deca5:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044decb5;
-label_044dedae:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca7 == '\0') goto label_044dedc0;
-label_044decc2:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044decd2;
-label_044dede3:
-    il2cpp_runtime_helper_02337ed0();
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
-  }
-  if (iVar1 < 1) {
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
-  }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar6 = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (g_data_057aeca7 == '\0') goto label_044dee25;
-label_044ded07:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    pSVar6 = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (g_data_057aeca7 != '\0') goto label_044ded07;
-label_044dee25:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  lVar7 = TypeInfo_AottgChangelogDialogState;
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar7 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = lVar7;
-  if (pSVar6 != (System_Collections_Generic_List_object__o *)0x0) {
-    pAVar5 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-             System_Collections_Generic_List_object___get_Item
-                       (pSVar6,*(int *)(*(long *)(lVar7 + 0xb8) + 0x38) + -1,MethodInfo_ChangelogSummaryResponse_get_Item);
-    return pAVar5;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebc9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044defc3;
-label_044dee8b:
-    if (g_data_057aeca8 != '\0') goto label_044dee98;
-label_044defd5:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca8 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dee8b;
-label_044defc3:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca8 == '\0') goto label_044defd5;
-label_044dee98:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar8 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(long *)(lVar8 + 8) = lVar7;
-  il2cpp_runtime_helper_022b4080(lVar8 + 8,lVar7);
-  if (g_data_057aeca9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df028;
-label_044deedc:
-    pAVar5 = *(ApplicationManagers_Changelog_ChangelogSummaryResponse_o **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar3 = (pAVar5->fields)._Id_k__BackingField;
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044deedc;
-label_044df028:
-    il2cpp_runtime_helper_02337ed0();
-    pAVar5 = *(ApplicationManagers_Changelog_ChangelogSummaryResponse_o **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar3 = (pAVar5->fields)._Id_k__BackingField;
-  }
-  if (pSVar3 == (System_String_o *)0x0) {
-    return pAVar5;
-  }
-  if (lVar7 == 0) goto label_044def4e;
-  pSVar3 = *(System_String_o **)(lVar7 + 0x18);
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca9 == '\0') goto label_044df09e;
-label_044def11:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044def21;
-label_044df0c1:
-    il2cpp_runtime_helper_02337ed0();
-    lVar7 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar8 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    if (g_data_057aeca9 != '\0') goto label_044def11;
-label_044df09e:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df0c1;
-label_044def21:
-    lVar7 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar8 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = lVar8;
-  if (lVar7 == 0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aebca == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aebca = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (g_data_057aecaa == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aecaa = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    lVar7 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    *(long *)(lVar7 + 0x10) = lVar8;
-    pAVar5 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-             il2cpp_runtime_helper_022b4080(lVar7 + 0x10,lVar8);
-    return pAVar5;
-  }
-  bVar4 = System_String__op_Inequality(pSVar3,*(System_String_o **)(lVar7 + 0x10),(MethodInfo *)0x0);
-  if ((char)bVar4 == '\0') {
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)CONCAT44(extraout_var,bVar4);
-  }
-label_044def4e:
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aecaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecaa = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar7 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(undefined8 *)(lVar7 + 0x10) = 0;
-  pAVar5 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)il2cpp_runtime_helper_022b4080(lVar7 + 0x10,0);
-  return pAVar5;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$get_NextLoadedSummary
 // il2cpp: ApplicationManagers_Changelog_ChangelogSummaryResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_NextLoadedSummary (const MethodInfo* method);
-// 0x44dec70
+// 0x1823a4a70
 
 ApplicationManagers_Changelog_ChangelogSummaryResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__get_NextLoadedSummary(MethodInfo *method)
 
 {
-  int iVar1;
-  System_String_o *pSVar2;
-  bool_conflict bVar3;
-  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar4;
-  undefined4 extraout_var;
-  System_Collections_Generic_List_object__o *__this;
-  long lVar5;
-  long lVar6;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *__this;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar1;
   
-  if (g_data_057aebc8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebc8 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044ded79;
-label_044dec98:
-    if (g_data_057aebc6 != '\0') goto label_044deca5;
-label_044ded8b:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc6 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044dedae;
-label_044decb5:
-    if (g_data_057aeca7 != '\0') goto label_044decc2;
-label_044dedc0:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044dede3;
-label_044decd2:
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
+  if (Il2CppMethodInitialized_184347c95 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    Il2CppMethodInitialized_184347c95 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dec98;
-label_044ded79:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aebc6 == '\0') goto label_044ded8b;
-label_044deca5:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044decb5;
-label_044dedae:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca7 == '\0') goto label_044dedc0;
-label_044decc2:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044decd2;
-label_044dede3:
-    il2cpp_runtime_helper_02337ed0();
-    iVar1 = *(int *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 < 1) {
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
+  if (Il2CppMethodInitialized_184347c93 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c93 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (g_data_057aeca7 == '\0') goto label_044dee25;
-label_044ded07:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    __this = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (g_data_057aeca7 != '\0') goto label_044ded07;
-label_044dee25:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca7 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347d40 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d40 = '\x01';
   }
-  lVar5 = TypeInfo_AottgChangelogDialogState;
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar5 = TypeInfo_AottgChangelogDialogState;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  TypeInfo_AottgChangelogDialogState = lVar5;
-  if (__this != (System_Collections_Generic_List_object__o *)0x0) {
-    pAVar4 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-             System_Collections_Generic_List_object___get_Item
-                       (__this,*(int *)(*(long *)(lVar5 + 0xb8) + 0x38) + -1,MethodInfo_ChangelogSummaryResponse_get_Item);
-    return pAVar4;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebc9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044defc3;
-label_044dee8b:
-    if (g_data_057aeca8 != '\0') goto label_044dee98;
-label_044defd5:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca8 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dee8b;
-label_044defc3:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca8 == '\0') goto label_044defd5;
-label_044dee98:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar6 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(long *)(lVar6 + 8) = lVar5;
-  il2cpp_runtime_helper_022b4080(lVar6 + 8,lVar5);
-  if (g_data_057aeca9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df028;
-label_044deedc:
-    pAVar4 = *(ApplicationManagers_Changelog_ChangelogSummaryResponse_o **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar2 = (pAVar4->fields)._Id_k__BackingField;
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044deedc;
-label_044df028:
-    il2cpp_runtime_helper_02337ed0();
-    pAVar4 = *(ApplicationManagers_Changelog_ChangelogSummaryResponse_o **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    pSVar2 = (pAVar4->fields)._Id_k__BackingField;
-  }
-  if (pSVar2 == (System_String_o *)0x0) {
-    return pAVar4;
-  }
-  if (lVar5 == 0) goto label_044def4e;
-  pSVar2 = *(System_String_o **)(lVar5 + 0x18);
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca9 == '\0') goto label_044df09e;
-label_044def11:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044def21;
-label_044df0c1:
-    il2cpp_runtime_helper_02337ed0();
-    lVar5 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar6 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    if (g_data_057aeca9 != '\0') goto label_044def11;
-label_044df09e:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df0c1;
-label_044def21:
-    lVar5 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar6 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = lVar6;
-  if (lVar5 == 0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aebca == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aebca = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (0 < TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+          _SelectedHistoryIndex_k__BackingField) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    __this = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (Il2CppMethodInitialized_184347d40 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d40 = '\x01';
     }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    if (g_data_057aecaa == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aecaa = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    if (__this != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+      pAVar1 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)__this,
+                          TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+                          _SelectedHistoryIndex_k__BackingField + -1,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+      return pAVar1;
     }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    lVar5 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    *(long *)(lVar5 + 0x10) = lVar6;
-    pAVar4 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-             il2cpp_runtime_helper_022b4080(lVar5 + 0x10,lVar6);
-    return pAVar4;
+    ThrowNullReferenceException();
   }
-  bVar3 = System_String__op_Inequality(pSVar2,*(System_String_o **)(lVar5 + 0x10),(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)CONCAT44(extraout_var,bVar3);
-  }
-label_044def4e:
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aecaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecaa = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar5 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(undefined8 *)(lVar5 + 0x10) = 0;
-  pAVar4 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)il2cpp_runtime_helper_022b4080(lVar5 + 0x10,0);
-  return pAVar4;
+  return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$SetLatestVersion
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetLatestVersion (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o* latestVersion, const MethodInfo* method);
-// 0x44dee60
+// 0x1823a4100
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823a425a: mov rcx, qword ptr [rip + 0x1d1ca77]  ; TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetLatestVersion
                (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o *latestVersion,
                MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
   System_String_o *a;
-  bool_conflict bVar3;
-  long lVar4;
+  ApplicationManagers_Changelog_ChangelogEntryResponse_o *pAVar1;
+  bool bVar2;
   
-  if (g_data_057aebc9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebc9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044dee8b;
-label_044defc3:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca8 != '\0') goto label_044dee98;
-label_044defd5:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca8 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c96 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c96 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044defc3;
-label_044dee8b:
-    if (g_data_057aeca8 == '\0') goto label_044defd5;
-label_044dee98:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347d41 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d41 = '\x01';
   }
-  lVar2 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(ApplicationManagers_Changelog_LatestChangelogVersionResponse_o **)(lVar2 + 8) = latestVersion;
-  il2cpp_runtime_helper_022b4080(lVar2 + 8,latestVersion);
-  if (g_data_057aeca9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044deedc;
-label_044df028:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df028;
-label_044deedc:
-    lVar2 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_LatestVersion_k__BackingField =
+       latestVersion;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _LatestVersion_k__BackingField,latestVersion);
+  if (Il2CppMethodInitialized_184347d42 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d42 = '\x01';
   }
-  if (lVar2 == 0) {
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  if (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+      _LatestPreviewEntry_k__BackingField == (ApplicationManagers_Changelog_ChangelogEntryResponse_o *)0x0) {
     return;
   }
-  if (latestVersion == (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o *)0x0)
-  goto label_044def4e;
-  a = (latestVersion->fields)._Id_k__BackingField;
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeca9 != '\0') goto label_044def11;
-label_044df09e:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aeca9 = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044def21;
-label_044df0c1:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar4 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    if (g_data_057aeca9 == '\0') goto label_044df09e;
-label_044def11:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df0c1;
-label_044def21:
-    lVar2 = *(long *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x10);
-    lVar4 = TypeInfo_AottgChangelogDialogState;
-  }
-  TypeInfo_AottgChangelogDialogState = lVar4;
-  if (lVar2 == 0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aebca == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aebca = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (latestVersion != (ApplicationManagers_Changelog_LatestChangelogVersionResponse_o *)0x0) {
+    a = (latestVersion->fields)._Id_k__BackingField;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    if (Il2CppMethodInitialized_184347d42 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d42 = '\x01';
     }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    if (g_data_057aecaa == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      g_data_057aecaa = '\x01';
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    pAVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+             _LatestPreviewEntry_k__BackingField;
+    if (pAVar1 == (ApplicationManagers_Changelog_ChangelogEntryResponse_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    else {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+    bVar2 = System_String__op_Inequality(a,(pAVar1->fields)._Id_k__BackingField,(MethodInfo *)0x0);
+    if (!bVar2) {
+      return;
     }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    lVar2 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    *(long *)(lVar2 + 0x10) = lVar4;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x10,lVar4);
-    return;
   }
-  bVar3 = System_String__op_Inequality(a,*(System_String_o **)(lVar2 + 0x10),(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    return;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-label_044def4e:
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aecaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecaa = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar2 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(undefined8 *)(lVar2 + 0x10) = 0;
-  il2cpp_runtime_helper_022b4080(lVar2 + 0x10,0);
+  il2cpp_runtime_helper_1823a35e0(0,0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$SetLatestPreview
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetLatestPreview (ApplicationManagers_Changelog_ChangelogEntryResponse_o* entry, const MethodInfo* method);
-// 0x44df0f0
+// 0x1823a4060
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetLatestPreview
                (ApplicationManagers_Changelog_ChangelogEntryResponse_o *entry,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  
-  if (g_data_057aebca == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebca = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c97 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c97 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347d43 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d43 = '\x01';
   }
-  if (g_data_057aecaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecaa = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar2 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(lVar2 + 0x10) = entry;
-  il2cpp_runtime_helper_022b4080(lVar2 + 0x10,entry);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+  _LatestPreviewEntry_k__BackingField = entry;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _LatestPreviewEntry_k__BackingField,entry);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$SetReader
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetReader (int32_t mode, ApplicationManagers_Changelog_ChangelogEntryResponse_o* entry, const MethodInfo* method);
-// 0x44df1b0
+// 0x1823a4290
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SetReader
                (int32_t mode,ApplicationManagers_Changelog_ChangelogEntryResponse_o *entry,MethodInfo *method)
 
 {
-  int iVar1;
-  System_String_o *id;
-  int32_t iVar2;
-  MethodInfo *method_00;
-  long lVar3;
+  System_String_o *value;
   
-  if (g_data_057aebcb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebcb = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044df1dd;
-label_044df338:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aecab != '\0') goto label_044df1ea;
-label_044df34a:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecab = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044df1fa;
-label_044df36d:
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = TypeInfo_AottgChangelogDialogState;
-    *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20) = mode;
-    if (g_data_057aecac != '\0') goto label_044df211;
-label_044df38c:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecac = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    lVar3 = TypeInfo_AottgChangelogDialogState;
+  if (Il2CppMethodInitialized_184347c98 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c98 = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  if (Il2CppMethodInitialized_184347d44 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d44 = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderMode_k__BackingField = mode
+  ;
+  if (Il2CppMethodInitialized_184347d45 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d45 = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderEntry_k__BackingField =
+       entry;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _ReaderEntry_k__BackingField,entry);
+  if (entry == (ApplicationManagers_Changelog_ChangelogEntryResponse_o *)0x0) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    if (Il2CppMethodInitialized_184347c3e == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347c3e = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    value = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+            _SelectedEntryId_k__BackingField;
   }
   else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df338;
-label_044df1dd:
-    if (g_data_057aecab == '\0') goto label_044df34a;
-label_044df1ea:
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df36d;
-label_044df1fa:
-    lVar3 = TypeInfo_AottgChangelogDialogState;
-    *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20) = mode;
-    if (g_data_057aecac == '\0') goto label_044df38c;
-label_044df211:
-    iVar1 = *(int *)(lVar3 + 0xe4);
+    value = (entry->fields)._Id_k__BackingField;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = TypeInfo_AottgChangelogDialogState;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar3 = *(long *)(lVar3 + 0xb8);
-  *(ApplicationManagers_Changelog_ChangelogEntryResponse_o **)(lVar3 + 0x18) = entry;
-  il2cpp_runtime_helper_022b4080(lVar3 + 0x18,entry);
-  if (entry != (ApplicationManagers_Changelog_ChangelogEntryResponse_o *)0x0) {
-    method_00 = (MethodInfo *)(entry->fields)._Id_k__BackingField;
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    goto joined_r0x044df3f2;
+  if (Il2CppMethodInitialized_184347d46 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d46 = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae852 != '\0') goto label_044df3cd;
-label_044df4cb:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057ae852 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    if (g_data_057ae852 == '\0') goto label_044df4cb;
-label_044df3cd:
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_SelectedEntryId_k__BackingField =
+       value;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _SelectedEntryId_k__BackingField,value);
+  if (Il2CppMethodInitialized_184347c3e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c3e = '\x01';
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  method_00 = *(MethodInfo **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x28);
-  iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-joined_r0x044df3f2:
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (g_data_057aecad == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecad = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar3 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(MethodInfo **)(lVar3 + 0x28) = method_00;
-  il2cpp_runtime_helper_022b4080(lVar3 + 0x28);
-  if (g_data_057ae852 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057ae852 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    id = *(System_String_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x28);
-  }
-  else {
-    id = *(System_String_o **)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x28);
-  }
-  if (g_data_057aebd0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebd0 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  iVar2 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId(id,method_00);
-  if (g_data_057aecb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecb1 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = iVar2;
+  Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SelectHistoryId
+            (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+             _SelectedEntryId_k__BackingField,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$ClearReader
-// il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__ClearReader (int32_t mode, System_String_o* selectedEntryId, bool newUpdateTitle, const MethodInfo* method);
-// 0x44df5a0
+// il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__ClearReader (int32_t mode, System_String_o* selectedEntryId, const MethodInfo* method);
+// 0x1823a3a30
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__ClearReader
-               (int32_t mode,System_String_o *selectedEntryId,bool_conflict newUpdateTitle,MethodInfo *method)
+               (int32_t mode,System_String_o *selectedEntryId,MethodInfo *method)
 
 {
-  int iVar1;
-  int32_t iVar2;
-  MethodInfo *method_00;
-  long lVar3;
-  
-  if (g_data_057aebcc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebcc = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c99 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c99 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347d44 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d44 = '\x01';
   }
-  if (g_data_057aecab == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecab = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderMode_k__BackingField = mode
+  ;
+  if (Il2CppMethodInitialized_184347d45 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d45 = '\x01';
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  lVar3 = TypeInfo_AottgChangelogDialogState;
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x20) = mode;
-  if (g_data_057aecae == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecae = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    lVar3 = TypeInfo_AottgChangelogDialogState;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_ReaderEntry_k__BackingField =
+       (ApplicationManagers_Changelog_ChangelogEntryResponse_o *)0x0;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _ReaderEntry_k__BackingField,(void *)0x0);
+  if (Il2CppMethodInitialized_184347d46 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347d46 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(lVar3 + 0xe4);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = TypeInfo_AottgChangelogDialogState;
-    *(byte *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x24) = mode == 0 & (byte)newUpdateTitle;
-  }
-  else {
-    *(byte *)(*(long *)(lVar3 + 0xb8) + 0x24) = mode == 0 & (byte)newUpdateTitle;
-  }
-  if (g_data_057aecac == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecac = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    lVar3 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    iVar1 = *(int *)(lVar3 + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = TypeInfo_AottgChangelogDialogState;
-  }
-  lVar3 = *(long *)(lVar3 + 0xb8);
-  *(undefined8 *)(lVar3 + 0x18) = 0;
-  il2cpp_runtime_helper_022b4080(lVar3 + 0x18,0);
-  if (g_data_057aecad == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecad = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  lVar3 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(System_String_o **)(lVar3 + 0x28) = selectedEntryId;
-  method_00 = (MethodInfo *)selectedEntryId;
-  il2cpp_runtime_helper_022b4080(lVar3 + 0x28);
-  if (g_data_057aebd0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebd0 = '\x01';
-  }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  iVar2 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId(selectedEntryId,method_00);
-  if (g_data_057aecb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecb1 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = iVar2;
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_SelectedEntryId_k__BackingField =
+       selectedEntryId;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+              _SelectedEntryId_k__BackingField,selectedEntryId);
+  Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SelectHistoryId(selectedEntryId,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$ResetHistory
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__ResetHistory (const MethodInfo* method);
-// 0x44df840
+// 0x1823a3d60
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__ResetHistory(MethodInfo *method)
 
 {
+  int32_t *piVar1;
   int32_t length;
-  int iVar1;
-  long lVar2;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar2;
   
-  if (g_data_057aebcd == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    g_data_057aebcd = '\x01';
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) goto label_044df94a;
-label_044df865:
-    lVar2 = **(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (lVar2 != 0) goto label_044df878;
-label_044df965:
-    il2cpp_runtime_helper_022b2c90();
+  if (Il2CppMethodInitialized_184347c9a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_Clear);
+    Il2CppMethodInitialized_184347c9a = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) != 0) goto label_044df865;
-label_044df94a:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = **(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (lVar2 == 0) goto label_044df965;
-label_044df878:
-    *(int *)(lVar2 + 0x1c) = *(int *)(lVar2 + 0x1c) + 1;
-    length = *(int32_t *)(lVar2 + 0x18);
-    *(undefined4 *)(lVar2 + 0x18) = 0;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+  }
+  pSVar2 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar2 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    length = (pSVar2->fields)._size;
+    piVar1 = &(pSVar2->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (pSVar2->fields)._size = 0;
     if (0 < length) {
-      System_Array__Clear(*(System_Array_o **)(lVar2 + 0x10),0,length,(MethodInfo *)0x0);
+      System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
     }
-    if (g_data_057aecaf != '\0') {
-      iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-      lVar2 = TypeInfo_AottgChangelogDialogState;
-      goto joined_r0x044df987;
+    if (Il2CppMethodInitialized_184347d47 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d47 = '\x01';
     }
-  }
-  il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-  g_data_057aecaf = '\x01';
-  iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-  lVar2 = TypeInfo_AottgChangelogDialogState;
-joined_r0x044df987:
-  TypeInfo_AottgChangelogDialogState = lVar2;
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = TypeInfo_AottgChangelogDialogState;
-    *(undefined4 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x30) = 0;
-  }
-  else {
-    *(undefined4 *)(*(long *)(lVar2 + 0xb8) + 0x30) = 0;
-  }
-  if (g_data_057aecb0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecb0 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    lVar2 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    iVar1 = *(int *)(lVar2 + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = TypeInfo_AottgChangelogDialogState;
-    *(undefined4 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x34) = 0;
-  }
-  else {
-    *(undefined4 *)(*(long *)(lVar2 + 0xb8) + 0x34) = 0;
-  }
-  if (g_data_057aecb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecb1 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
-    lVar2 = TypeInfo_AottgChangelogDialogState;
-  }
-  else {
-    iVar1 = *(int *)(lVar2 + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    *(undefined4 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = 0xffffffff;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryPage_k__BackingField = 0
+    ;
+    if (Il2CppMethodInitialized_184347d48 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d48 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryTotal_k__BackingField =
+         0;
+    if (Il2CppMethodInitialized_184347d49 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d49 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+    _SelectedHistoryIndex_k__BackingField = -1;
     return;
   }
-  *(undefined4 *)(*(long *)(lVar2 + 0xb8) + 0x38) = 0xffffffff;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$AppendHistory
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__AppendHistory (ApplicationManagers_Changelog_PublicChangelogListResponse_o* list, const MethodInfo* method);
-// 0x44dfa30
+// 0x1823a3650
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823a379f: nop 
+// asm:   0x1823a382f: nop 
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__AppendHistory
                (ApplicationManagers_Changelog_PublicChangelogListResponse_o *list,MethodInfo *method)
@@ -1763,532 +1054,390 @@ void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__AppendHistory
 {
   int32_t *piVar1;
   ushort uVar2;
-  ushort uVar3;
-  uint uVar4;
-  System_Collections_Generic_List_object__c *pSVar5;
-  System_Object_array *pSVar6;
-  System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__c *pSVar7;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar8;
-  System_String_o *id;
-  undefined8 uVar9;
-  int iVar10;
-  int32_t iVar11;
-  bool_conflict bVar12;
-  Il2CppObject *pIVar13;
-  Il2CppMethodPointer *ppIVar14;
-  System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *pSVar15;
-  MethodInfo *method_00;
-  System_Collections_Generic_List_object__o *pSVar16;
-  System_Collections_Generic_List_object__o *__this;
-  System_Collections_Generic_List_object__o *pSVar17;
-  long lVar18;
-  int iVar19;
-  ulong uVar20;
+  uint uVar3;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar4;
+  Il2CppObject *pIVar5;
+  Il2CppClass *pIVar6;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar7;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_array *pAVar8;
+  MethodInfo *pMVar9;
+  int32_t iVar10;
+  VirtualInvokeData *pVVar11;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *item;
+  ushort uVar12;
+  int iVar13;
   
-  pSVar16 = (System_Collections_Generic_List_object__o *)list;
-  if (g_data_057aebce == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IReadOnlyCollection_ChangelogSummaryResponse);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IReadOnlyList_ChangelogSummaryResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSVar16 = (System_Collections_Generic_List_object__o *)&MethodInfo_Void_Clear;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aebce = '\x01';
+  if (Il2CppMethodInitialized_184347c9b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_IReadOnlyCollection_ChangelogSummaryResponse);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_Clear);
+    Il2CppMethodInitialized_184347c9b = '\x01';
   }
   if (list == (ApplicationManagers_Changelog_PublicChangelogListResponse_o *)0x0) {
     return;
   }
   if ((list->fields)._Page_k__BackingField < 2) {
-    if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    lVar18 = **(long **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-    pSVar16 = TypeInfo_AottgChangelogDialogState;
-    if (lVar18 != 0) {
-      *(int *)(lVar18 + 0x1c) = *(int *)(lVar18 + 0x1c) + 1;
-      iVar10 = *(int *)(lVar18 + 0x18);
-      *(undefined4 *)(lVar18 + 0x18) = 0;
-      if (0 < iVar10) {
-        System_Array__Clear(*(System_Array_o **)(lVar18 + 0x10),0,iVar10,(MethodInfo *)0x0);
-      }
-      if (g_data_057aecb1 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-        g_data_057aecb1 = '\x01';
-        iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-      }
-      else {
-        iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-      }
-      if (iVar10 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar16 = TypeInfo_AottgChangelogDialogState;
-      *(undefined4 *)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x38) = 0xffffffff;
-      goto label_044dfb12;
+    pSVar4 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar4 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) goto label_1823a3a1a;
+    iVar13 = (pSVar4->fields)._size;
+    piVar1 = &(pSVar4->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (pSVar4->fields)._size = 0;
+    if (0 < iVar13) {
+      System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar13,(MethodInfo *)0x0);
     }
+    if (Il2CppMethodInitialized_184347d49 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d49 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+    _SelectedHistoryIndex_k__BackingField = -1;
   }
-  else {
-label_044dfb12:
-    pSVar15 = (list->fields)._Entries_k__BackingField;
-    if (pSVar15 != (System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *)0x0) {
-      uVar20 = 0;
-label_044dfc6e:
+  iVar13 = 0;
+  while (pIVar5 = (Il2CppObject *)(list->fields)._Entries_k__BackingField, pIVar5 != (Il2CppObject *)0x0) {
+    pIVar6 = pIVar5->klass;
+    uVar2 = (pIVar6->_2).interface_offsets_count;
+    if (uVar2 != 0) {
+      pIVar7 = (pIVar6->_1).interfaceOffsets;
+      uVar12 = 0;
       do {
-        pSVar7 = pSVar15->klass;
-        uVar3._0_1_ = (pSVar7->_2).rank;
-        uVar3._1_1_ = (pSVar7->_2).minimumAlignment;
-        if ((ulong)uVar3 != 0) {
-          pIVar8 = (pSVar7->_1).interfaceOffsets;
-          lVar18 = 0;
-          do {
-            if (*(long *)((long)&pIVar8->interfaceType + lVar18) == TypeInfo_IReadOnlyCollection_ChangelogSummaryResponse) {
-              ppIVar14 = &pSVar7->vtable[*(int *)((long)&pIVar8->offset + lVar18)].methodPtr;
-              goto label_044dfcc3;
-            }
-            lVar18 = lVar18 + 0x10;
-          } while ((ulong)uVar3 << 4 != lVar18);
+        if (pIVar7[uVar12].interfaceType ==
+            (Il2CppClass *)TypeInfo_System_Collections_Generic_IReadOnlyCollection_ChangelogSummaryResponse) {
+          pVVar11 = pIVar6->vtable + pIVar7[uVar12].offset;
+          goto label_1823a37c6;
         }
-        ppIVar14 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pSVar15,TypeInfo_IReadOnlyCollection_ChangelogSummaryResponse,0);
-label_044dfcc3:
-        method_00 = (MethodInfo *)ppIVar14[1];
-        iVar10 = (**ppIVar14)(pSVar15);
-        iVar19 = (int)uVar20;
-        if (iVar10 <= iVar19) {
-          iVar11 = (list->fields)._Page_k__BackingField;
-          if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057aecaf == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-            g_data_057aecaf = '\x01';
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-          }
-          else {
-            iVar10 = (((System_Collections_Generic_List_object__o *)((long)TypeInfo_AottgChangelogDialogState + 200))->fields).
-                     _version;
-          }
-          if (iVar10 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar16 = TypeInfo_AottgChangelogDialogState;
-          *(int32_t *)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x30) = iVar11;
-          iVar11 = (list->fields)._Total_k__BackingField;
-          if (g_data_057aecb0 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-            g_data_057aecb0 = '\x01';
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-            pSVar16 = TypeInfo_AottgChangelogDialogState;
-          }
-          else {
-            iVar10 = pSVar16[5].fields._version;
-          }
-          if (iVar10 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            pSVar16 = TypeInfo_AottgChangelogDialogState;
-            *(int32_t *)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x34) = iVar11;
-          }
-          else {
-            *(int32_t *)
-             (*(long *)&(((System_Collections_Generic_List_object__o *)((long)pSVar16 + 0xa0))->fields)._size
-             + 0x34) = iVar11;
-          }
-          if (g_data_057ae852 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-            g_data_057ae852 = '\x01';
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-            pSVar16 = TypeInfo_AottgChangelogDialogState;
-          }
-          else {
-            iVar10 = pSVar16[5].fields._version;
-          }
-          if (iVar10 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            id = *(System_String_o **)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x28);
-            pSVar16 = TypeInfo_AottgChangelogDialogState;
-          }
-          else {
-            id = *(System_String_o **)(*(long *)&pSVar16[4].fields._size + 0x28);
-          }
-          if (g_data_057aebd0 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-            g_data_057aebd0 = '\x01';
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-          }
-          else {
-            iVar10 = pSVar16[5].fields._version;
-          }
-          if (iVar10 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          iVar11 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId(id,method_00);
-          if (g_data_057aecb1 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-            g_data_057aecb1 = '\x01';
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-          }
-          else {
-            iVar10 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-          }
-          if (iVar10 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          *(int32_t *)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x38) = iVar11;
-          return;
-        }
-        if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar17 = (System_Collections_Generic_List_object__o *)(list->fields)._Entries_k__BackingField;
-        pSVar16 = TypeInfo_AottgChangelogDialogState;
-        if (pSVar17 == (System_Collections_Generic_List_object__o *)0x0) break;
-        __this = (System_Collections_Generic_List_object__o *)**(undefined8 **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-        pSVar5 = pSVar17->klass;
-        uVar2._0_1_ = (pSVar5->_2).rank;
-        uVar2._1_1_ = (pSVar5->_2).minimumAlignment;
-        if ((ulong)uVar2 != 0) {
-          pIVar8 = (pSVar5->_1).interfaceOffsets;
-          lVar18 = 0;
-          do {
-            if (*(long *)((long)&pIVar8->interfaceType + lVar18) == TypeInfo_IReadOnlyList_ChangelogSummaryResponse) {
-              ppIVar14 = &(&(pSVar5->vtable)._0_Equals)[*(int *)((long)&pIVar8->offset + lVar18)].methodPtr;
-              goto label_044dfc03;
-            }
-            lVar18 = lVar18 + 0x10;
-          } while ((ulong)uVar2 << 4 != lVar18);
-        }
-        ppIVar14 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pSVar17,TypeInfo_IReadOnlyList_ChangelogSummaryResponse,0);
-label_044dfc03:
-        pIVar13 = (Il2CppObject *)(**ppIVar14)(pSVar17,uVar20,(MethodInfo *)ppIVar14[1]);
-        lVar18 = MethodInfo_Void_Add;
-        pSVar16 = pSVar17;
-        if (__this == (System_Collections_Generic_List_object__o *)0x0) break;
-        piVar1 = &(__this->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar6 = (__this->fields)._items;
-        if (pSVar6 == (System_Object_array *)0x0) break;
-        uVar4 = (__this->fields)._size;
-        if (uVar4 < (uint)pSVar6->max_length) {
-          (__this->fields)._size = uVar4 + 1;
-          pSVar16 = (System_Collections_Generic_List_object__o *)(pSVar6->m_Items + (int)uVar4);
-          pSVar6->m_Items[(int)uVar4] = pIVar13;
-          il2cpp_runtime_helper_022b4080();
-          uVar20 = (ulong)(iVar19 + 1);
-          pSVar15 = (list->fields)._Entries_k__BackingField;
-          if (pSVar15 == (System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *)0x0) break;
-          goto label_044dfc6e;
-        }
-        System_Collections_Generic_List_object___AddWithResize
-                  (__this,pIVar13,*(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar18 + 0x20) + 0xc0) + 0x70))
+        uVar12 = uVar12 + 1;
+      } while (uVar12 < uVar2);
+    }
+    pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar5,(Il2CppClass *)
+                                TypeInfo_System_Collections_Generic_IReadOnlyCollection_ChangelogSummaryResponse
+                         ,0);
+label_1823a37c6:
+    iVar10 = (*pVVar11->methodPtr)(pIVar5,pVVar11->method);
+    if (iVar10 <= iVar13) {
+      iVar10 = (list->fields)._Page_k__BackingField;
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      }
+      if (Il2CppMethodInitialized_184347d47 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState)
         ;
-        uVar20 = (ulong)(iVar19 + 1);
-        pSVar15 = (list->fields)._Entries_k__BackingField;
-        pSVar16 = __this;
-      } while (pSVar15 != (System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse__o *)0x0);
-    }
-  }
-  iVar10 = (int)pSVar16;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebcf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebcf = '\x01';
-  }
-  if (-1 < iVar10) {
-    if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar16 = (System_Collections_Generic_List_object__o *)**(long **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-    pSVar17 = TypeInfo_AottgChangelogDialogState;
-    if (pSVar16 == (System_Collections_Generic_List_object__o *)0x0) {
-label_044dffc2:
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057aebd1 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-        g_data_057aebd1 = '\x01';
+        Il2CppMethodInitialized_184347d47 = '\x01';
       }
-      iVar10 = 0;
-      bVar12 = System_String__IsNullOrEmpty((System_String_o *)pSVar17,(MethodInfo *)0x0);
-      if ((char)bVar12 != '\0') {
-        return;
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
       }
-      iVar19 = TypeInfo_AottgChangelogDialogState[5].fields._version;
-      while( true ) {
-        if (iVar19 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar16 = (System_Collections_Generic_List_object__o *)**(long **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-        if (pSVar16 == (System_Collections_Generic_List_object__o *)0x0) break;
-        if ((pSVar16->fields)._size <= iVar10) {
-          return;
-        }
-        if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar16 = (System_Collections_Generic_List_object__o *)**(long **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-          if (pSVar16 == (System_Collections_Generic_List_object__o *)0x0) break;
-        }
-        pIVar13 = System_Collections_Generic_List_object___get_Item(pSVar16,iVar10,MethodInfo_ChangelogSummaryResponse_get_Item);
-        if ((pIVar13 != (Il2CppObject *)0x0) &&
-           (bVar12 = System_String__op_Equality
-                               ((System_String_o *)pIVar13[1].klass,(System_String_o *)pSVar17,
-                                (MethodInfo *)0x0), (char)bVar12 != '\0')) {
-          return;
-        }
-        iVar10 = iVar10 + 1;
-        iVar19 = TypeInfo_AottgChangelogDialogState[5].fields._version;
+      TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryPage_k__BackingField =
+           iVar10;
+      iVar10 = (list->fields)._Total_k__BackingField;
+      if (Il2CppMethodInitialized_184347d48 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState)
+        ;
+        Il2CppMethodInitialized_184347d48 = '\x01';
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057aebd2 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_List_ChangelogSummaryResponse);
-        g_data_057aebd2 = '\x01';
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
       }
-      pSVar16 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ChangelogSummaryResponse);
-      System_Collections_Generic_List_object____ctor(pSVar16,MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-      **(undefined8 **)&TypeInfo_AottgChangelogDialogState[4].fields._size = pSVar16;
-      uVar9._0_4_ = TypeInfo_AottgChangelogDialogState[4].fields._size;
-      uVar9._4_4_ = TypeInfo_AottgChangelogDialogState[4].fields._version;
-      il2cpp_runtime_helper_022b4080(uVar9,pSVar16);
-      *(undefined4 *)(*(long *)&TypeInfo_AottgChangelogDialogState[4].fields._size + 0x38) = 0xffffffff;
+      TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->_HistoryTotal_k__BackingField
+           = iVar10;
+      if (Il2CppMethodInitialized_184347c3e == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState)
+        ;
+        Il2CppMethodInitialized_184347c3e = '\x01';
+      }
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      }
+      Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SelectHistoryId
+                (TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+                 _SelectedEntryId_k__BackingField,(MethodInfo *)0x0);
       return;
     }
-    if (iVar10 < (pSVar16->fields)._size) {
-      if (TypeInfo_AottgChangelogDialogState[5].fields._version == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar16 = (System_Collections_Generic_List_object__o *)**(long **)&TypeInfo_AottgChangelogDialogState[4].fields._size;
-        if (pSVar16 == (System_Collections_Generic_List_object__o *)0x0) goto label_044dffc2;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    pIVar5 = (Il2CppObject *)(list->fields)._Entries_k__BackingField;
+    if (pIVar5 == (Il2CppObject *)0x0) break;
+    pIVar6 = pIVar5->klass;
+    pSVar4 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    uVar2 = (pIVar6->_2).interface_offsets_count;
+    if (uVar2 != 0) {
+      pIVar7 = (pIVar6->_1).interfaceOffsets;
+      uVar12 = 0;
+      do {
+        if (pIVar7[uVar12].interfaceType ==
+            (Il2CppClass *)TypeInfo_System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse) {
+          pVVar11 = pIVar6->vtable + pIVar7[uVar12].offset;
+          goto label_1823a3856;
+        }
+        uVar12 = uVar12 + 1;
+      } while (uVar12 < uVar2);
+    }
+    pVVar11 = GetInterfaceInvokeDataFromVTableSlowPath
+                        (pIVar5,(Il2CppClass *)
+                                TypeInfo_System_Collections_Generic_IReadOnlyList_ChangelogSummaryResponse,0);
+label_1823a3856:
+    item = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
+           (*pVVar11->methodPtr)(pIVar5,iVar13,pVVar11->method);
+    pMVar9 = MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_Add;
+    if (pSVar4 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) break;
+    piVar1 = &(pSVar4->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pAVar8 = (pSVar4->fields)._items;
+    if (pAVar8 == (ApplicationManagers_Changelog_ChangelogSummaryResponse_array *)0x0) break;
+    uVar3 = (pSVar4->fields)._size;
+    if (uVar3 < (uint)pAVar8->max_length) {
+      (pSVar4->fields)._size = uVar3 + 1;
+      if ((uint)pAVar8->max_length <= uVar3) {
+        ThrowIndexOutOfRangeException();
       }
-      System_Collections_Generic_List_object___get_Item(pSVar16,iVar10,MethodInfo_ChangelogSummaryResponse_get_Item);
-      return;
+      pAVar8->m_Items[(int)uVar3] = item;
+      Il2CppCodeGenWriteBarrier(pAVar8->m_Items + (int)uVar3,item);
+      iVar13 = iVar13 + 1;
+    }
+    else {
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)pSVar4,(Il2CppObject *)item,
+                 (MethodInfo_93DD50 *)pMVar9->klass->rgctx_data[0xe].method);
+      iVar13 = iVar13 + 1;
     }
   }
-  return;
+label_1823a3a1a:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$HistoryAt
 // il2cpp: ApplicationManagers_Changelog_ChangelogSummaryResponse_o* Gisketch_Aottg2UI_Game_AottgChangelogDialogState__HistoryAt (int32_t index, const MethodInfo* method);
-// 0x44dff10
+// 0x1823a3b90
 
 ApplicationManagers_Changelog_ChangelogSummaryResponse_o *
 Gisketch_Aottg2UI_Game_AottgChangelogDialogState__HistoryAt(int32_t index,MethodInfo *method)
 
 {
-  int iVar1;
-  System_String_Fields SVar2;
-  bool_conflict bVar3;
-  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar4;
-  Il2CppObject *pIVar5;
-  System_Collections_Generic_List_object__o *pSVar6;
-  uint index_00;
-  System_String_o *value;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar1;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar2;
   
-  if (g_data_057aebcf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebcf = '\x01';
+  if (Il2CppMethodInitialized_184347c9c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    Il2CppMethodInitialized_184347c9c = '\x01';
   }
   if (index < 0) {
     return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
   }
-  if (*(int *)((long)&TypeInfo_AottgChangelogDialogState[9].monitor + 4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  pSVar6 = *(System_Collections_Generic_List_object__o **)TypeInfo_AottgChangelogDialogState[7].fields;
-  value = TypeInfo_AottgChangelogDialogState;
-  if (pSVar6 == (System_Collections_Generic_List_object__o *)0x0) {
-label_044dffc2:
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aebd1 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-      g_data_057aebd1 = '\x01';
+  pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+  if (pSVar1 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+    if ((pSVar1->fields)._size <= index) {
+      return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
     }
-    index_00 = 0;
-    bVar3 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)&g_data_ffffffff;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[9].monitor + 4);
-    while( true ) {
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar6 = *(System_Collections_Generic_List_object__o **)TypeInfo_AottgChangelogDialogState[7].fields;
-      if (pSVar6 == (System_Collections_Generic_List_object__o *)0x0) break;
-      if ((pSVar6->fields)._size <= (int)index_00) {
-        return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)&g_data_ffffffff;
-      }
-      if (*(int *)((long)&TypeInfo_AottgChangelogDialogState[9].monitor + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar6 = *(System_Collections_Generic_List_object__o **)TypeInfo_AottgChangelogDialogState[7].fields;
-        if (pSVar6 == (System_Collections_Generic_List_object__o *)0x0) break;
-      }
-      pIVar5 = System_Collections_Generic_List_object___get_Item(pSVar6,index_00,MethodInfo_ChangelogSummaryResponse_get_Item);
-      if ((pIVar5 != (Il2CppObject *)0x0) &&
-         (bVar3 = System_String__op_Equality((System_String_o *)pIVar5[1].klass,value,(MethodInfo *)0x0),
-         (char)bVar3 != '\0')) {
-        return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)(ulong)index_00;
-      }
-      index_00 = index_00 + 1;
-      iVar1 = *(int *)((long)&TypeInfo_AottgChangelogDialogState[9].monitor + 4);
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar1 != (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+      pAVar2 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar1,index,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+      return pAVar2;
     }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aebd2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_List_ChangelogSummaryResponse);
-      g_data_057aebd2 = '\x01';
-    }
-    pSVar6 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ChangelogSummaryResponse);
-    System_Collections_Generic_List_object____ctor(pSVar6,MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-    *(System_Collections_Generic_List_object__o **)TypeInfo_AottgChangelogDialogState[7].fields = pSVar6;
-    il2cpp_runtime_helper_022b4080(TypeInfo_AottgChangelogDialogState[7].fields,pSVar6);
-    SVar2 = TypeInfo_AottgChangelogDialogState[7].fields;
-    *(undefined4 *)&((ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)((long)SVar2 + 0x38))->klass
-         = 0xffffffff;
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)SVar2;
   }
-  if ((pSVar6->fields)._size <= index) {
-    return (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0;
-  }
-  if (*(int *)((long)&TypeInfo_AottgChangelogDialogState[9].monitor + 4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar6 = *(System_Collections_Generic_List_object__o **)TypeInfo_AottgChangelogDialogState[7].fields;
-    if (pSVar6 == (System_Collections_Generic_List_object__o *)0x0) goto label_044dffc2;
-  }
-  pAVar4 = (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)
-           System_Collections_Generic_List_object___get_Item(pSVar6,index,MethodInfo_ChangelogSummaryResponse_get_Item);
-  return pAVar4;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$SelectHistoryId
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SelectHistoryId (System_String_o* id, const MethodInfo* method);
-// 0x44df500
+// 0x1823a3ed0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823a3ffb: mov rax, qword ptr [rip + 0x1d1ccd6]  ; TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState__SelectHistoryId(System_String_o *id,MethodInfo *method)
 
 {
-  int iVar1;
-  int32_t iVar2;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar1;
+  bool bVar2;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar3;
+  int32_t index;
   
-  if (g_data_057aebd0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aebd0 = '\x01';
+  if (Il2CppMethodInitialized_184347c9d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    Il2CppMethodInitialized_184347c9d = '\x01';
   }
-  if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
   }
-  iVar2 = Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId(id,method);
-  if (g_data_057aecb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    g_data_057aecb1 = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  if (Il2CppMethodInitialized_184347c9e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    Il2CppMethodInitialized_184347c9e = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  bVar2 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
+  if (bVar2) {
+    index = -1;
+label_1823a4002:
+    if (Il2CppMethodInitialized_184347d49 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+      Il2CppMethodInitialized_184347d49 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+    _SelectedHistoryIndex_k__BackingField = index;
+    return;
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  *(int32_t *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = iVar2;
-  return;
+  index = 0;
+  do {
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar1 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) {
+label_1823a4052:
+      ThrowNullReferenceException();
+    }
+    if ((pSVar1->fields)._size <= index) {
+      index = -1;
+      goto label_1823a4002;
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    }
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar1 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) goto label_1823a4052;
+    pAVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                       ((System_Collections_Generic_List_object__o *)pSVar1,index,
+                        (MethodInfo_92B830 *)
+                        MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    if ((pAVar3 != (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0) &&
+       (bVar2 = System_String__op_Equality((pAVar3->fields)._Id_k__BackingField,id,(MethodInfo *)0x0), bVar2))
+    goto label_1823a4002;
+    index = index + 1;
+  } while( true );
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$IndexOfHistoryId
 // il2cpp: int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId (System_String_o* id, const MethodInfo* method);
-// 0x44dffd0
+// 0x1823a3c50
 
 int32_t Gisketch_Aottg2UI_Game_AottgChangelogDialogState__IndexOfHistoryId
                   (System_String_o *id,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  bool_conflict bVar3;
-  Il2CppObject *pIVar4;
-  System_Collections_Generic_List_object__o *pSVar5;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *pSVar1;
+  bool bVar2;
+  ApplicationManagers_Changelog_ChangelogSummaryResponse_o *pAVar3;
   int index;
   
-  if (g_data_057aebd1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ChangelogSummaryResponse_get_Item);
-    g_data_057aebd1 = '\x01';
+  if (Il2CppMethodInitialized_184347c9e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    Il2CppMethodInitialized_184347c9e = '\x01';
   }
-  index = 0;
-  bVar3 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  bVar2 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
+  if (bVar2) {
     return -1;
   }
-  iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
+  index = 0;
   while( true ) {
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    pSVar5 = (System_Collections_Generic_List_object__o *)**(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-    if (pSVar5 == (System_Collections_Generic_List_object__o *)0x0) break;
-    if ((pSVar5->fields)._size <= index) {
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar1 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) break;
+    if ((pSVar1->fields)._size <= index) {
       return -1;
     }
-    if (*(int *)(TypeInfo_AottgChangelogDialogState + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar5 = (System_Collections_Generic_List_object__o *)**(long **)(TypeInfo_AottgChangelogDialogState + 0xb8);
-      if (pSVar5 == (System_Collections_Generic_List_object__o *)0x0) break;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
     }
-    pIVar4 = System_Collections_Generic_List_object___get_Item(pSVar5,index,MethodInfo_ChangelogSummaryResponse_get_Item);
-    if ((pIVar4 != (Il2CppObject *)0x0) &&
-       (bVar3 = System_String__op_Equality((System_String_o *)pIVar4[1].klass,id,(MethodInfo *)0x0),
-       (char)bVar3 != '\0')) {
+    pSVar1 = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History;
+    if (pSVar1 == (System_Collections_Generic_List_ChangelogSummaryResponse__o *)0x0) break;
+    pAVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                       ((System_Collections_Generic_List_object__o *)pSVar1,index,
+                        (MethodInfo_92B830 *)
+                        MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_get_Item);
+    if ((pAVar3 != (ApplicationManagers_Changelog_ChangelogSummaryResponse_o *)0x0) &&
+       (bVar2 = System_String__op_Equality((pAVar3->fields)._Id_k__BackingField,id,(MethodInfo *)0x0), bVar2))
+    {
       return index;
     }
     index = index + 1;
-    iVar1 = *(int *)(TypeInfo_AottgChangelogDialogState + 0xe4);
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebd2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_ChangelogSummaryResponse);
-    g_data_057aebd2 = '\x01';
-  }
-  pSVar5 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ChangelogSummaryResponse);
-  System_Collections_Generic_List_object____ctor(pSVar5,MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-  **(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8) = pSVar5;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgChangelogDialogState + 0xb8),pSVar5);
-  lVar2 = *(long *)(TypeInfo_AottgChangelogDialogState + 0xb8);
-  *(undefined4 *)(lVar2 + 0x38) = 0xffffffff;
-  return (int32_t)lVar2;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogDialogState$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogDialogState___cctor (const MethodInfo* method);
-// 0x44e00e0
+// 0x1823a44a0
 
 void Gisketch_Aottg2UI_Game_AottgChangelogDialogState___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_List_object__o *__this;
+  System_Collections_Generic_List_ChangelogSummaryResponse__o *__this;
   
-  if (g_data_057aebd2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogDialogState);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_ChangelogSummaryResponse);
-    g_data_057aebd2 = '\x01';
+  if (Il2CppMethodInitialized_184347c9f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_ChangelogSummaryResponse);
+    Il2CppMethodInitialized_184347c9f = '\x01';
   }
-  __this = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_ChangelogSummaryResponse);
-  System_Collections_Generic_List_object____ctor(__this,MethodInfo_List_1_ApplicationManagers_Changelog_ChangelogSummaryRes);
-  **(undefined8 **)(TypeInfo_AottgChangelogDialogState + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgChangelogDialogState + 0xb8),__this);
-  *(undefined4 *)(*(long *)(TypeInfo_AottgChangelogDialogState + 0xb8) + 0x38) = 0xffffffff;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_ChangelogSummaryResponse);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_ChangelogSummaryResponse_ctor);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->History,__this);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogDialogState->static_fields->
+  _SelectedHistoryIndex_k__BackingField = -1;
   return;
 }
 

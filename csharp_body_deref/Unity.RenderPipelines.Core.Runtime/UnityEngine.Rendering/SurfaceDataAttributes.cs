@@ -10,42 +10,42 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000171")]
+[Token(Token = "0x2000188")]
 [AttributeUsage(AttributeTargets.Field)]
 public class SurfaceDataAttributes : Attribute
 {
-	[Token(Token = "0x400066A")]
+	[Token(Token = "0x40007AF")]
 	[FieldOffset(Offset = "0x10")]
 	public string[] displayNames;
 
-	[Token(Token = "0x400066B")]
+	[Token(Token = "0x40007B0")]
 	[FieldOffset(Offset = "0x18")]
 	public bool isDirection;
 
-	[Token(Token = "0x400066C")]
+	[Token(Token = "0x40007B1")]
 	[FieldOffset(Offset = "0x19")]
 	public bool sRGBDisplay;
 
-	[Token(Token = "0x400066D")]
+	[Token(Token = "0x40007B2")]
 	[FieldOffset(Offset = "0x1C")]
 	public FieldPrecision precision;
 
-	[Token(Token = "0x400066E")]
+	[Token(Token = "0x40007B3")]
 	[FieldOffset(Offset = "0x20")]
 	public bool checkIsNormalized;
 
-	[Token(Token = "0x400066F")]
+	[Token(Token = "0x40007B4")]
 	[FieldOffset(Offset = "0x28")]
 	public string preprocessor;
 
-	[Token(Token = "0x6000AC9")]
-	[Address(RVA = "0x4BDEAE0", Offset = "0x4BDEAE0", VA = "0x4BDEAE0")]
+	[Token(Token = "0x6000BAD")]
+	[Address(RVA = "0x2B4A640", Offset = "0x2B48C40", VA = "0x182B4A640")]
 	public SurfaceDataAttributes(string displayName = "", bool isDirection = false, bool sRGBDisplay = false, FieldPrecision precision = FieldPrecision.Default, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}
 
-	[Token(Token = "0x6000ACA")]
-	[Address(RVA = "0x4BDEBB0", Offset = "0x4BDEBB0", VA = "0x4BDEBB0")]
+	[Token(Token = "0x6000BAE")]
+	[Address(RVA = "0x2B4A700", Offset = "0x2B48D00", VA = "0x182B4A700")]
 	public SurfaceDataAttributes(string[] displayNames, bool isDirection = false, bool sRGBDisplay = false, FieldPrecision precision = FieldPrecision.Default, bool checkIsNormalized = false, string preprocessor = "")
 	{
 	}

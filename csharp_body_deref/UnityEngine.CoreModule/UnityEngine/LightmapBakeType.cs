@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D8")]
+[Token(Token = "0x20000FA")]
 [Flags]
 public enum LightmapBakeType
 {
-	[Token(Token = "0x400023C")]
+	[Token(Token = "0x4000299")]
 	Realtime = 4,
-	[Token(Token = "0x400023D")]
+	[Token(Token = "0x400029A")]
 	Baked = 2,
-	[Token(Token = "0x400023E")]
+	[Token(Token = "0x400029B")]
 	Mixed = 1
 }

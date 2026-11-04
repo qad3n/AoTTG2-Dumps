@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200046E")]
+[Token(Token = "0x2000548")]
 public class VisualElementFocusChangeDirection : FocusChangeDirection
 {
-	[Token(Token = "0x4000D51")]
+	[Token(Token = "0x40011EE")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly VisualElementFocusChangeDirection s_Left;
 
-	[Token(Token = "0x4000D52")]
+	[Token(Token = "0x40011EF")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly VisualElementFocusChangeDirection s_Right;
 
-	[Token(Token = "0x17000747")]
+	[Token(Token = "0x17000A2F")]
 	public static FocusChangeDirection left
 	{
-		[Token(Token = "0x6001B91")]
-		[Address(RVA = "0x4F75FE0", Offset = "0x4F75FE0", VA = "0x4F75FE0")]
+		[Token(Token = "0x60027F4")]
+		[Address(RVA = "0x3167BA0", Offset = "0x31661A0", VA = "0x183167BA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000748")]
+	[Token(Token = "0x17000A30")]
 	public static FocusChangeDirection right
 	{
-		[Token(Token = "0x6001B92")]
-		[Address(RVA = "0x4F76050", Offset = "0x4F76050", VA = "0x4F76050")]
+		[Token(Token = "0x60027F5")]
+		[Address(RVA = "0x3167BF0", Offset = "0x31661F0", VA = "0x183167BF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001B93")]
-	[Address(RVA = "0x4F760C0", Offset = "0x4F760C0", VA = "0x4F760C0")]
+	[Token(Token = "0x60027F6")]
+	[Address(RVA = "0x3167B40", Offset = "0x3166140", VA = "0x183167B40")]
 	protected VisualElementFocusChangeDirection(int value)
 	{
 	}

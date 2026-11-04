@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000E5")]
 public static class INotifyValueChangedExtensions
 {
-	[Token(Token = "0x6000457")]
+	[Token(Token = "0x6000656")]
 	public static bool RegisterValueChangedCallback<T>(this INotifyValueChanged<T> control, EventCallback<ChangeEvent<T>> callback)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000458")]
+	[Token(Token = "0x6000657")]
 	public static bool UnregisterValueChangedCallback<T>(this INotifyValueChanged<T> control, EventCallback<ChangeEvent<T>> callback)
 	{
 		return default(bool);

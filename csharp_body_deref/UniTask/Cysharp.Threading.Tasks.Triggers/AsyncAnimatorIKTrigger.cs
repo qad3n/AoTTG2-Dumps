@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000196")]
+[Token(Token = "0x2000199")]
 [DisallowMultipleComponent]
 public sealed class AsyncAnimatorIKTrigger : AsyncTriggerBase<int>
 {
-	[Token(Token = "0x6000A71")]
-	[Address(RVA = "0x4A094C0", Offset = "0x4A094C0", VA = "0x4A094C0")]
+	[Token(Token = "0x6000A95")]
+	[Address(RVA = "0x2928020", Offset = "0x2926620", VA = "0x182928020")]
 	private void OnAnimatorIK(int layerIndex)
 	{
 	}
 
-	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x4A09500", Offset = "0x4A09500", VA = "0x4A09500")]
+	[Token(Token = "0x6000A96")]
+	[Address(RVA = "0x2927D10", Offset = "0x2926310", VA = "0x182927D10")]
 	public IAsyncOnAnimatorIKHandler GetOnAnimatorIKAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A73")]
-	[Address(RVA = "0x4A09570", Offset = "0x4A09570", VA = "0x4A09570")]
+	[Token(Token = "0x6000A97")]
+	[Address(RVA = "0x2927D80", Offset = "0x2926380", VA = "0x182927D80")]
 	public IAsyncOnAnimatorIKHandler GetOnAnimatorIKAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A74")]
-	[Address(RVA = "0x4A095E0", Offset = "0x4A095E0", VA = "0x4A095E0")]
+	[Token(Token = "0x6000A98")]
+	[Address(RVA = "0x2927E00", Offset = "0x2926400", VA = "0x182927E00")]
 	public UniTask<int> OnAnimatorIKAsync()
 	{
 		return default(UniTask<int>);
 	}
 
-	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x4A096D0", Offset = "0x4A096D0", VA = "0x4A096D0")]
+	[Token(Token = "0x6000A99")]
+	[Address(RVA = "0x2927F10", Offset = "0x2926510", VA = "0x182927F10")]
 	public UniTask<int> OnAnimatorIKAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<int>);
 	}
 
-	[Token(Token = "0x6000A76")]
-	[Address(RVA = "0x4A097C0", Offset = "0x4A097C0", VA = "0x4A097C0")]
+	[Token(Token = "0x6000A9A")]
+	[Address(RVA = "0x2928070", Offset = "0x2926670", VA = "0x182928070")]
 	public AsyncAnimatorIKTrigger()
 	{
 	}

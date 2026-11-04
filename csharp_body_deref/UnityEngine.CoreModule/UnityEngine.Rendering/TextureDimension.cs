@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C1")]
+[Token(Token = "0x200033C")]
 public enum TextureDimension
 {
-	[Token(Token = "0x40007D4")]
+	[Token(Token = "0x400091F")]
 	Unknown = -1,
-	[Token(Token = "0x40007D5")]
+	[Token(Token = "0x4000920")]
 	None,
-	[Token(Token = "0x40007D6")]
+	[Token(Token = "0x4000921")]
 	Any,
-	[Token(Token = "0x40007D7")]
+	[Token(Token = "0x4000922")]
 	Tex2D,
-	[Token(Token = "0x40007D8")]
+	[Token(Token = "0x4000923")]
 	Tex3D,
-	[Token(Token = "0x40007D9")]
+	[Token(Token = "0x4000924")]
 	Cube,
-	[Token(Token = "0x40007DA")]
+	[Token(Token = "0x4000925")]
 	Tex2DArray,
-	[Token(Token = "0x40007DB")]
+	[Token(Token = "0x4000926")]
 	CubeArray
 }

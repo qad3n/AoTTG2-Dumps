@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200002B")]
+[Token(Token = "0x2000029")]
 public interface IAudioOut<T>
 {
 	[Token(Token = "0x17000035")]
 	bool IsPlaying
 	{
-		[Token(Token = "0x60000D4")]
+		[Token(Token = "0x60000D2")]
 		get;
 	}
 
 	[Token(Token = "0x17000036")]
 	int Lag
 	{
-		[Token(Token = "0x60000DA")]
+		[Token(Token = "0x60000D8")]
 		get;
 	}
 
-	[Token(Token = "0x60000D5")]
+	[Token(Token = "0x60000D3")]
 	void Start(int frequency, int channels, int frameSamplesPerChannel);
 
-	[Token(Token = "0x60000D6")]
+	[Token(Token = "0x60000D4")]
 	void Flush();
 
-	[Token(Token = "0x60000D7")]
+	[Token(Token = "0x60000D5")]
 	void Stop();
 
-	[Token(Token = "0x60000D8")]
+	[Token(Token = "0x60000D6")]
 	void Push(T[] frame);
 
-	[Token(Token = "0x60000D9")]
+	[Token(Token = "0x60000D7")]
 	void Service();
 }

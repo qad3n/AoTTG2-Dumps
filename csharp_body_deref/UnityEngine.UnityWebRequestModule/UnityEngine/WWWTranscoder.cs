@@ -51,55 +51,55 @@ internal class WWWTranscoder
 	private static byte[] qpForbidden;
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x5105390", Offset = "0x5105390", VA = "0x5105390")]
+	[Address(RVA = "0x330E690", Offset = "0x330CC90", VA = "0x18330E690")]
 	private static byte Hex2Byte(byte[] b, int offset)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x5105440", Offset = "0x5105440", VA = "0x5105440")]
+	[Address(RVA = "0x330DE90", Offset = "0x330C490", VA = "0x18330DE90")]
 	private static void Byte2Hex(byte b, byte[] hexChars, out byte byte0, out byte byte1)
 	{
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x5105480", Offset = "0x5105480", VA = "0x5105480")]
+	[Address(RVA = "0x330E780", Offset = "0x330CD80", VA = "0x18330E780")]
 	public static byte[] URLEncode(byte[] toEncode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x51054E0", Offset = "0x51054E0", VA = "0x51054E0")]
+	[Address(RVA = "0x330E270", Offset = "0x330C870", VA = "0x18330E270")]
 	public static byte[] Encode(byte[] input, byte escapeChar, byte[] space, byte[] forbidden, bool uppercase)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x5105A10", Offset = "0x5105A10", VA = "0x5105A10")]
+	[Address(RVA = "0x330DED0", Offset = "0x330C4D0", VA = "0x18330DED0")]
 	private static bool ByteArrayContains(byte[] array, byte b)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x5104FD0", Offset = "0x5104FD0", VA = "0x5104FD0")]
+	[Address(RVA = "0x330E710", Offset = "0x330CD10", VA = "0x18330E710")]
 	public static byte[] URLDecode(byte[] toEncode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x5105EB0", Offset = "0x5105EB0", VA = "0x5105EB0")]
+	[Address(RVA = "0x330DF20", Offset = "0x330C520", VA = "0x18330DF20")]
 	private static bool ByteSubArrayEquals(byte[] array, int index, byte[] comperand)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x5105A40", Offset = "0x5105A40", VA = "0x5105A40")]
+	[Address(RVA = "0x330DFB0", Offset = "0x330C5B0", VA = "0x18330DFB0")]
 	public static byte[] Decode(byte[] input, byte escapeChar, byte[] space)
 	{
 		return null;

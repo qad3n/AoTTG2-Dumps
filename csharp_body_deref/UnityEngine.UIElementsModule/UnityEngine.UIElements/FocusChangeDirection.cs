@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000203")]
+[Token(Token = "0x2000257")]
 public class FocusChangeDirection : IDisposable
 {
-	[Token(Token = "0x4000726")]
+	[Token(Token = "0x4000897")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly int m_Value;
 
-	[Token(Token = "0x17000267")]
+	[Token(Token = "0x1700030C")]
 	public static FocusChangeDirection unspecified
 	{
-		[Token(Token = "0x6000D14")]
-		[Address(RVA = "0x503E9D0", Offset = "0x503E9D0", VA = "0x503E9D0")]
+		[Token(Token = "0x6000F94")]
+		[Address(RVA = "0x32629B0", Offset = "0x3260FB0", VA = "0x1832629B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,11 +30,11 @@ public class FocusChangeDirection : IDisposable
 		}
 	}
 
-	[Token(Token = "0x17000268")]
+	[Token(Token = "0x1700030D")]
 	public static FocusChangeDirection none
 	{
-		[Token(Token = "0x6000D15")]
-		[Address(RVA = "0x503EA40", Offset = "0x503EA40", VA = "0x503EA40")]
+		[Token(Token = "0x6000F95")]
+		[Address(RVA = "0x3262960", Offset = "0x3260F60", VA = "0x183262960")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,11 +42,11 @@ public class FocusChangeDirection : IDisposable
 		}
 	}
 
-	[Token(Token = "0x17000269")]
+	[Token(Token = "0x1700030E")]
 	protected static FocusChangeDirection lastValue
 	{
-		[Token(Token = "0x6000D16")]
-		[Address(RVA = "0x503EAB0", Offset = "0x503EAB0", VA = "0x503EAB0")]
+		[Token(Token = "0x6000F96")]
+		[Address(RVA = "0x3262910", Offset = "0x3260F10", VA = "0x183262910")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,33 +54,33 @@ public class FocusChangeDirection : IDisposable
 		}
 	}
 
-	[Token(Token = "0x6000D17")]
-	[Address(RVA = "0x503EB20", Offset = "0x503EB20", VA = "0x503EB20")]
+	[Token(Token = "0x6000F97")]
+	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 	protected FocusChangeDirection(int value)
 	{
 	}
 
-	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x503EB40", Offset = "0x503EB40", VA = "0x503EB40")]
+	[Token(Token = "0x6000F98")]
+	[Address(RVA = "0x3262A00", Offset = "0x3261000", VA = "0x183262A00")]
 	public static implicit operator int(FocusChangeDirection fcd)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x503EB50", Offset = "0x503EB50", VA = "0x503EB50", Slot = "4")]
+	[Token(Token = "0x6000F99")]
+	[Address(RVA = "0x21B8EA0", Offset = "0x21B74A0", VA = "0x1821B8EA0", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
-	[Token(Token = "0x6000D1A")]
-	[Address(RVA = "0x503EB70", Offset = "0x503EB70", VA = "0x503EB70", Slot = "5")]
+	[Token(Token = "0x6000F9A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	protected virtual void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000D1B")]
-	[Address(RVA = "0x503EB80", Offset = "0x503EB80", VA = "0x503EB80", Slot = "6")]
+	[Token(Token = "0x6000F9B")]
+	[Address(RVA = "0x32627B0", Offset = "0x3260DB0", VA = "0x1832627B0", Slot = "6")]
 	internal virtual void ApplyTo(FocusController focusController, Focusable f)
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000571")]
+[Token(Token = "0x20006E3")]
 internal enum PopupAnimation
 {
-	[Token(Token = "0x4001ADF")]
+	[Token(Token = "0x4002294")]
 	None,
-	[Token(Token = "0x4001AE0")]
+	[Token(Token = "0x4002295")]
 	Fade,
-	[Token(Token = "0x4001AE1")]
+	[Token(Token = "0x4002296")]
 	Tween,
-	[Token(Token = "0x4001AE2")]
+	[Token(Token = "0x4002297")]
 	KillPopup
 }

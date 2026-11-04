@@ -21,5 +21,5 @@ public enum PreserveReferencesHandling
 	[Token(Token = "0x4000340")]
 	Arrays = 2,
 	[Token(Token = "0x4000341")]
-	All = 3
+	All = Objects | Arrays
 }

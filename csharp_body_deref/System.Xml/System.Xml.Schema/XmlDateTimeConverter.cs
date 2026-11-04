@@ -13,97 +13,97 @@ namespace System.Xml.Schema;
 internal class XmlDateTimeConverter : XmlBaseConverter
 {
 	[Token(Token = "0x60018E7")]
-	[Address(RVA = "0x474BE20", Offset = "0x474BE20", VA = "0x474BE20")]
+	[Address(RVA = "0x2694600", Offset = "0x2692C00", VA = "0x182694600")]
 	protected XmlDateTimeConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x60018E8")]
-	[Address(RVA = "0x474BE80", Offset = "0x474BE80", VA = "0x474BE80")]
+	[Address(RVA = "0x26931E0", Offset = "0x26917E0", VA = "0x1826931E0")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018E9")]
-	[Address(RVA = "0x474BF10", Offset = "0x474BF10", VA = "0x474BF10", Slot = "37")]
+	[Address(RVA = "0x26938A0", Offset = "0x2691EA0", VA = "0x1826938A0", Slot = "37")]
 	public override DateTime ToDateTime(DateTimeOffset value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018EA")]
-	[Address(RVA = "0x474BF60", Offset = "0x474BF60", VA = "0x474BF60", Slot = "38")]
+	[Address(RVA = "0x2693900", Offset = "0x2691F00", VA = "0x182693900", Slot = "38")]
 	public override DateTime ToDateTime(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018EB")]
-	[Address(RVA = "0x474C140", Offset = "0x474C140", VA = "0x474C140", Slot = "39")]
+	[Address(RVA = "0x2693B10", Offset = "0x2692110", VA = "0x182693B10", Slot = "39")]
 	public override DateTime ToDateTime(object value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018EC")]
-	[Address(RVA = "0x474C490", Offset = "0x474C490", VA = "0x474C490", Slot = "40")]
+	[Address(RVA = "0x2693640", Offset = "0x2691C40", VA = "0x182693640", Slot = "40")]
 	public override DateTimeOffset ToDateTimeOffset(DateTime value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x60018ED")]
-	[Address(RVA = "0x474C4C0", Offset = "0x474C4C0", VA = "0x474C4C0", Slot = "41")]
+	[Address(RVA = "0x2693670", Offset = "0x2691C70", VA = "0x182693670", Slot = "41")]
 	public override DateTimeOffset ToDateTimeOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x60018EE")]
-	[Address(RVA = "0x474C6A0", Offset = "0x474C6A0", VA = "0x474C6A0", Slot = "42")]
+	[Address(RVA = "0x2693270", Offset = "0x2691870", VA = "0x182693270", Slot = "42")]
 	public override DateTimeOffset ToDateTimeOffset(object value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x60018EF")]
-	[Address(RVA = "0x474CA00", Offset = "0x474CA00", VA = "0x474CA00", Slot = "49")]
+	[Address(RVA = "0x26940B0", Offset = "0x26926B0", VA = "0x1826940B0", Slot = "49")]
 	public override string ToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F0")]
-	[Address(RVA = "0x474CB90", Offset = "0x474CB90", VA = "0x474CB90", Slot = "50")]
+	[Address(RVA = "0x2693EA0", Offset = "0x26924A0", VA = "0x182693EA0", Slot = "50")]
 	public override string ToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F1")]
-	[Address(RVA = "0x474CD20", Offset = "0x474CD20", VA = "0x474CD20", Slot = "52")]
+	[Address(RVA = "0x2694270", Offset = "0x2692870", VA = "0x182694270", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F2")]
-	[Address(RVA = "0x474D040", Offset = "0x474D040", VA = "0x474D040", Slot = "58")]
+	[Address(RVA = "0x2692E30", Offset = "0x2691430", VA = "0x182692E30", Slot = "58")]
 	public override object ChangeType(DateTime value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F3")]
-	[Address(RVA = "0x474D3B0", Offset = "0x474D3B0", VA = "0x474D3B0", Slot = "59")]
+	[Address(RVA = "0x26921C0", Offset = "0x26907C0", VA = "0x1826921C0", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018F4")]
-	[Address(RVA = "0x474D730", Offset = "0x474D730", VA = "0x474D730", Slot = "61")]
+	[Address(RVA = "0x26925A0", Offset = "0x2690BA0", VA = "0x1826925A0", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

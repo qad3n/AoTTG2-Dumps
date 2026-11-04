@@ -36,7 +36,7 @@ internal class ForwardAxis
 	internal DoubleLinkAxis RootNode
 	{
 		[Token(Token = "0x6000F3B")]
-		[Address(RVA = "0x483EDC0", Offset = "0x483EDC0", VA = "0x483EDC0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -47,7 +47,7 @@ internal class ForwardAxis
 	internal DoubleLinkAxis TopNode
 	{
 		[Token(Token = "0x6000F3C")]
-		[Address(RVA = "0x483EDD0", Offset = "0x483EDD0", VA = "0x483EDD0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ internal class ForwardAxis
 	internal bool IsAttribute
 	{
 		[Token(Token = "0x6000F3D")]
-		[Address(RVA = "0x483EDE0", Offset = "0x483EDE0", VA = "0x483EDE0")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
@@ -69,7 +69,7 @@ internal class ForwardAxis
 	internal bool IsDss
 	{
 		[Token(Token = "0x6000F3E")]
-		[Address(RVA = "0x483EDF0", Offset = "0x483EDF0", VA = "0x483EDF0")]
+		[Address(RVA = "0x1991920", Offset = "0x198FF20", VA = "0x181991920")]
 		get
 		{
 			return default(bool);
@@ -80,7 +80,7 @@ internal class ForwardAxis
 	internal bool IsSelfAxis
 	{
 		[Token(Token = "0x6000F3F")]
-		[Address(RVA = "0x483EE00", Offset = "0x483EE00", VA = "0x483EE00")]
+		[Address(RVA = "0x277E510", Offset = "0x277CB10", VA = "0x18277E510")]
 		get
 		{
 			return default(bool);
@@ -88,7 +88,7 @@ internal class ForwardAxis
 	}
 
 	[Token(Token = "0x6000F40")]
-	[Address(RVA = "0x483EE10", Offset = "0x483EE10", VA = "0x483EE10")]
+	[Address(RVA = "0x277E380", Offset = "0x277C980", VA = "0x18277E380")]
 	public ForwardAxis(DoubleLinkAxis axis, bool isdesorself)
 	{
 	}

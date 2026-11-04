@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000284")]
+[Token(Token = "0x200018F")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class DefaultPropertyAttribute : Attribute
 {
-	[Token(Token = "0x4000D47")]
+	[Token(Token = "0x400067E")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly DefaultPropertyAttribute Default;
 
-	[Token(Token = "0x17000383")]
+	[Token(Token = "0x170001F2")]
 	public string Name
 	{
-		[Token(Token = "0x6000FCD")]
-		[Address(RVA = "0x488FBC0", Offset = "0x488FBC0", VA = "0x488FBC0")]
+		[Token(Token = "0x6000A15")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,21 +30,21 @@ public sealed class DefaultPropertyAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x488FB90", Offset = "0x488FB90", VA = "0x488FB90")]
+	[Token(Token = "0x6000A14")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public DefaultPropertyAttribute(string name)
 	{
 	}
 
-	[Token(Token = "0x6000FCE")]
-	[Address(RVA = "0x488FBD0", Offset = "0x488FBD0", VA = "0x488FBD0", Slot = "0")]
+	[Token(Token = "0x6000A16")]
+	[Address(RVA = "0x289B460", Offset = "0x2899A60", VA = "0x18289B460", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FCF")]
-	[Address(RVA = "0x488FC40", Offset = "0x488FC40", VA = "0x488FC40", Slot = "2")]
+	[Token(Token = "0x6000A17")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -11,37 +11,37 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000095")]
+[Token(Token = "0x2000063")]
 public class SerializableEnum
 {
-	[Token(Token = "0x400022E")]
+	[Token(Token = "0x4000156")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	private string m_EnumValueAsString;
 
-	[Token(Token = "0x400022F")]
+	[Token(Token = "0x4000157")]
 	[FieldOffset(Offset = "0x18")]
 	[SerializeField]
 	private string m_EnumTypeAsString;
 
-	[Token(Token = "0x17000067")]
+	[Token(Token = "0x17000047")]
 	public Enum value
 	{
-		[Token(Token = "0x6000649")]
-		[Address(RVA = "0x4B99600", Offset = "0x4B99600", VA = "0x4B99600")]
+		[Token(Token = "0x600056A")]
+		[Address(RVA = "0x2AE54A0", Offset = "0x2AE3AA0", VA = "0x182AE54A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600064A")]
-		[Address(RVA = "0x4B99710", Offset = "0x4B99710", VA = "0x4B99710")]
+		[Token(Token = "0x600056B")]
+		[Address(RVA = "0x2AE55B0", Offset = "0x2AE3BB0", VA = "0x182AE55B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x4B99750", Offset = "0x4B99750", VA = "0x4B99750")]
+	[Token(Token = "0x600056C")]
+	[Address(RVA = "0x2AE5410", Offset = "0x2AE3A10", VA = "0x182AE5410")]
 	public SerializableEnum(Type enumType)
 	{
 	}

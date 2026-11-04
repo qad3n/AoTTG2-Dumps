@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001EB")]
+[Token(Token = "0x200022D")]
 public delegate void UnityAction();
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x200022F")]
 public delegate void UnityAction<T0>(T0 arg0);
-[Token(Token = "0x20001EF")]
+[Token(Token = "0x2000231")]
 public delegate void UnityAction<T0, T1>(T0 arg0, T1 arg1);
-[Token(Token = "0x20001F1")]
+[Token(Token = "0x2000233")]
 public delegate void UnityAction<T0, T1, T2>(T0 arg0, T1 arg1, T2 arg2);
-[Token(Token = "0x20001F3")]
+[Token(Token = "0x2000235")]
 public delegate void UnityAction<T0, T1, T2, T3>(T0 arg0, T1 arg1, T2 arg2, T3 arg3);

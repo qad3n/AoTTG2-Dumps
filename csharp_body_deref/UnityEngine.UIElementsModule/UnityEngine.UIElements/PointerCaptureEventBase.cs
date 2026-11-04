@@ -10,53 +10,53 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200016B")]
+[Token(Token = "0x20001AF")]
 [EventCategory(EventCategory.Pointer)]
-public abstract class PointerCaptureEventBase<T> : EventBase<T>, IPointerCaptureEventInternal where T : PointerCaptureEventBase<T>, new()
+public abstract class PointerCaptureEventBase<T> : EventBase<T> where T : PointerCaptureEventBase<T>, new()
 {
-	[Token(Token = "0x170001BC")]
+	[Token(Token = "0x17000241")]
 	private IEventHandler relatedTarget
 	{
-		[Token(Token = "0x60009CC")]
+		[Token(Token = "0x6000BCE")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001BD")]
+	[Token(Token = "0x17000242")]
 	public int pointerId
 	{
-		[Token(Token = "0x60009CD")]
+		[Token(Token = "0x6000BCF")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60009CE")]
+		[Token(Token = "0x6000BD0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60009CF")]
+	[Token(Token = "0x6000BD1")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x60009D0")]
+	[Token(Token = "0x6000BD2")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x60009D1")]
+	[Token(Token = "0x6000BD3")]
 	public static T GetPooled(IEventHandler target, IEventHandler relatedTarget, int pointerId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009D2")]
+	[Token(Token = "0x6000BD4")]
 	protected PointerCaptureEventBase()
 	{
 	}

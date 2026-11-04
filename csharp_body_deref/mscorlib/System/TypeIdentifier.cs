@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A7")]
+[Token(Token = "0x20001D2")]
 internal interface TypeIdentifier : System.TypeName, IEquatable<System.TypeName>
 {
-	[Token(Token = "0x1700017B")]
+	[Token(Token = "0x1700017D")]
 	string InternalName
 	{
-		[Token(Token = "0x6001064")]
+		[Token(Token = "0x60010BB")]
 		get;
 	}
 }

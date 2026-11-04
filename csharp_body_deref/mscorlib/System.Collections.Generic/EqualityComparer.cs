@@ -11,62 +11,62 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000671")]
+[Token(Token = "0x2000645")]
 [System.Runtime.CompilerServices.TypeDependency("System.Collections.Generic.ObjectEqualityComparer`1")]
 public abstract class EqualityComparer<T> : IEqualityComparer, IEqualityComparer<T>
 {
-	[Token(Token = "0x4001B70")]
+	[Token(Token = "0x4001972")]
 	[FieldOffset(Offset = "0x0")]
 	private static EqualityComparer<T> defaultComparer;
 
-	[Token(Token = "0x1700084B")]
+	[Token(Token = "0x170007DA")]
 	public static EqualityComparer<T> Default
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6003304")]
+		[Token(Token = "0x600301E")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003305")]
+	[Token(Token = "0x600301F")]
 	private static EqualityComparer<T> CreateComparer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003306")]
+	[Token(Token = "0x6003020")]
 	public abstract bool Equals(T x, T y);
 
-	[Token(Token = "0x6003307")]
+	[Token(Token = "0x6003021")]
 	public abstract int GetHashCode(T obj);
 
-	[Token(Token = "0x6003308")]
+	[Token(Token = "0x6003022")]
 	internal virtual int IndexOf(T[] array, T value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003309")]
+	[Token(Token = "0x6003023")]
 	internal virtual int LastIndexOf(T[] array, T value, int startIndex, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600330A")]
+	[Token(Token = "0x6003024")]
 	private int System_002ECollections_002EIEqualityComparer_002EGetHashCode(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600330B")]
+	[Token(Token = "0x6003025")]
 	private bool System_002ECollections_002EIEqualityComparer_002EEquals(object x, object y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600330C")]
+	[Token(Token = "0x6003026")]
 	protected EqualityComparer()
 	{
 	}

@@ -12,31 +12,31 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002A0")]
+[Token(Token = "0x20003EB")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Method)]
 internal class CLMethodAttribute : CLBaseAttribute
 {
-	[Token(Token = "0x170001DB")]
+	[Token(Token = "0x17000290")]
 	public string[] ReturnTypeArguments
 	{
-		[Token(Token = "0x6000F94")]
-		[Address(RVA = "0x3FB9270", Offset = "0x3FB9270", VA = "0x3FB9270")]
+		[Token(Token = "0x6001816")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000F95")]
-		[Address(RVA = "0x3FB9280", Offset = "0x3FB9280", VA = "0x3FB9280")]
+		[Token(Token = "0x6001817")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000F96")]
-	[Address(RVA = "0x3FB9290", Offset = "0x3FB9290", VA = "0x3FB9290")]
+	[Token(Token = "0x6001818")]
+	[Address(RVA = "0x1ECD490", Offset = "0x1ECBA90", VA = "0x181ECD490")]
 	public CLMethodAttribute()
 	{
 	}

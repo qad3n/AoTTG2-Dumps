@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000208")]
+[Token(Token = "0x2000226")]
 public class AnimationCurveParameter : VolumeParameter<AnimationCurve>
 {
-	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x4C0C670", Offset = "0x4C0C670", VA = "0x4C0C670")]
+	[Token(Token = "0x6000F77")]
+	[Address(RVA = "0x2B4FD80", Offset = "0x2B4E380", VA = "0x182B4FD80")]
 	public AnimationCurveParameter(AnimationCurve value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000E19")]
-	[Address(RVA = "0x4C0C6C0", Offset = "0x4C0C6C0", VA = "0x4C0C6C0", Slot = "16")]
+	[Token(Token = "0x6000F78")]
+	[Address(RVA = "0x2B4FCA0", Offset = "0x2B4E2A0", VA = "0x182B4FCA0", Slot = "16")]
 	public override void Interp(AnimationCurve lhsCurve, AnimationCurve rhsCurve, float t)
 	{
 	}
 
-	[Token(Token = "0x6000E1A")]
-	[Address(RVA = "0x4C0C700", Offset = "0x4C0C700", VA = "0x4C0C700", Slot = "8")]
+	[Token(Token = "0x6000F79")]
+	[Address(RVA = "0x2B4FCF0", Offset = "0x2B4E2F0", VA = "0x182B4FCF0", Slot = "8")]
 	public override void SetValue(VolumeParameter parameter)
 	{
 	}
 
-	[Token(Token = "0x6000E1B")]
-	[Address(RVA = "0x4C0C780", Offset = "0x4C0C780", VA = "0x4C0C780", Slot = "12")]
+	[Token(Token = "0x6000F7A")]
+	[Address(RVA = "0x2B4FB10", Offset = "0x2B4E110", VA = "0x182B4FB10", Slot = "12")]
 	public override object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E1C")]
-	[Address(RVA = "0x4C0C870", Offset = "0x4C0C870", VA = "0x4C0C870", Slot = "2")]
+	[Token(Token = "0x6000F7B")]
+	[Address(RVA = "0x2B4FC10", Offset = "0x2B4E210", VA = "0x182B4FC10", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

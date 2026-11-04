@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x2000079")]
 public abstract class AottgComponent
 {
-	[Token(Token = "0x60002A8")]
+	[Token(Token = "0x6000385")]
 	public abstract void Build(AottgUi ui);
 
-	[Token(Token = "0x60002A9")]
-	[Address(RVA = "0x3A5DF90", Offset = "0x3A5DF90", VA = "0x3A5DF90")]
+	[Token(Token = "0x6000386")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AottgComponent()
 	{
 	}

@@ -11,104 +11,104 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000196")]
+[Token(Token = "0x20001AD")]
 public struct SHCoefficients : IEquatable<SHCoefficients>
 {
-	[Token(Token = "0x400070E")]
+	[Token(Token = "0x4000856")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector4 SHAr;
 
-	[Token(Token = "0x400070F")]
+	[Token(Token = "0x4000857")]
 	[FieldOffset(Offset = "0x10")]
 	public Vector4 SHAg;
 
-	[Token(Token = "0x4000710")]
+	[Token(Token = "0x4000858")]
 	[FieldOffset(Offset = "0x20")]
 	public Vector4 SHAb;
 
-	[Token(Token = "0x4000711")]
+	[Token(Token = "0x4000859")]
 	[FieldOffset(Offset = "0x30")]
 	public Vector4 SHBr;
 
-	[Token(Token = "0x4000712")]
+	[Token(Token = "0x400085A")]
 	[FieldOffset(Offset = "0x40")]
 	public Vector4 SHBg;
 
-	[Token(Token = "0x4000713")]
+	[Token(Token = "0x400085B")]
 	[FieldOffset(Offset = "0x50")]
 	public Vector4 SHBb;
 
-	[Token(Token = "0x4000714")]
+	[Token(Token = "0x400085C")]
 	[FieldOffset(Offset = "0x60")]
 	public Vector4 SHC;
 
-	[Token(Token = "0x4000715")]
+	[Token(Token = "0x400085D")]
 	[FieldOffset(Offset = "0x70")]
 	public Vector4 ProbesOcclusion;
 
-	[Token(Token = "0x6000BA5")]
-	[Address(RVA = "0x4BEE640", Offset = "0x4BEE640", VA = "0x4BEE640")]
+	[Token(Token = "0x6000CBE")]
+	[Address(RVA = "0x2B49DF0", Offset = "0x2B483F0", VA = "0x182B49DF0")]
 	public SHCoefficients(SphericalHarmonicsL2 sh)
 	{
 	}
 
-	[Token(Token = "0x6000BA6")]
-	[Address(RVA = "0x4BEEE90", Offset = "0x4BEEE90", VA = "0x4BEEE90")]
+	[Token(Token = "0x6000CBF")]
+	[Address(RVA = "0x2B49D80", Offset = "0x2B48380", VA = "0x182B49D80")]
 	public SHCoefficients(SphericalHarmonicsL2 sh, Vector4 probesOcclusion)
 	{
 	}
 
-	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x4BEECF0", Offset = "0x4BEECF0", VA = "0x4BEECF0")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x2B49B50", Offset = "0x2B48150", VA = "0x182B49B50")]
 	private static Vector4 GetSHA(SphericalHarmonicsL2 sh, int i)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000BA8")]
-	[Address(RVA = "0x4BEED90", Offset = "0x4BEED90", VA = "0x4BEED90")]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x2B49C30", Offset = "0x2B48230", VA = "0x182B49C30")]
 	private static Vector4 GetSHB(SphericalHarmonicsL2 sh, int i)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000BA9")]
-	[Address(RVA = "0x4BEEE20", Offset = "0x4BEEE20", VA = "0x4BEEE20")]
+	[Token(Token = "0x6000CC2")]
+	[Address(RVA = "0x2B49CF0", Offset = "0x2B482F0", VA = "0x182B49CF0")]
 	private static Vector4 GetSHC(SphericalHarmonicsL2 sh)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000BAA")]
-	[Address(RVA = "0x4BEEF30", Offset = "0x4BEEF30", VA = "0x4BEEF30", Slot = "4")]
+	[Token(Token = "0x6000CC3")]
+	[Address(RVA = "0x2B495D0", Offset = "0x2B47BD0", VA = "0x182B495D0", Slot = "4")]
 	public bool Equals(SHCoefficients other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000BAB")]
-	[Address(RVA = "0x4BEF210", Offset = "0x4BEF210", VA = "0x4BEF210", Slot = "0")]
+	[Token(Token = "0x6000CC4")]
+	[Address(RVA = "0x2B498E0", Offset = "0x2B47EE0", VA = "0x182B498E0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000BAC")]
-	[Address(RVA = "0x4BEF340", Offset = "0x4BEF340", VA = "0x4BEF340", Slot = "2")]
+	[Token(Token = "0x6000CC5")]
+	[Address(RVA = "0x2B499E0", Offset = "0x2B47FE0", VA = "0x182B499E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000BAD")]
-	[Address(RVA = "0x4BEF4B0", Offset = "0x4BEF4B0", VA = "0x4BEF4B0")]
+	[Token(Token = "0x6000CC6")]
+	[Address(RVA = "0x2B4A390", Offset = "0x2B48990", VA = "0x182B4A390")]
 	public static bool operator ==(SHCoefficients left, SHCoefficients right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000BAE")]
-	[Address(RVA = "0x4BEF540", Offset = "0x4BEF540", VA = "0x4BEF540")]
+	[Token(Token = "0x6000CC7")]
+	[Address(RVA = "0x2B4A3F0", Offset = "0x2B489F0", VA = "0x182B4A3F0")]
 	public static bool operator !=(SHCoefficients left, SHCoefficients right)
 	{
 		return default(bool);

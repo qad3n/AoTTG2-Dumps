@@ -1,331 +1,329 @@
 // Type: Characters.HumanAnimations
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Characters/HumanAnimations.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/HumanAnimations.cs
 // --------------------------------
 
 // Characters.HumanAnimations$$.ctor
 // il2cpp: void Characters_HumanAnimations___ctor (Characters_HumanAnimations_o* __this, const MethodInfo* method);
-// 0x42dee70
+// 0x18054c890
 
-void Characters_HumanAnimations___ctor(Characters_HumanAnimations_o *__this,MethodInfo *method)
+void
+Characters_HumanAnimations___ctor(Characters_HumanAnimations_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Characters.HumanAnimations$$.cctor
 // il2cpp: void Characters_HumanAnimations___cctor (const MethodInfo* method);
-// 0x42dee80
+// 0x182150460
 
 void Characters_HumanAnimations___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057ade5a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    il2cpp_runtime_helper_023445d0(&"Armature|attack1_hook_r1");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_AHSS_M");
-    il2cpp_runtime_helper_023445d0(&"Armature|changeBlade_air");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shooth_both");
-    il2cpp_runtime_helper_023445d0(&"Armature|run");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_TS_F");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_hook_both");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_hook_L");
-    il2cpp_runtime_helper_023445d0(&"Armature|run_TS");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_sasha");
-    il2cpp_runtime_helper_023445d0(&"Armature|emote_salute");
-    il2cpp_runtime_helper_023445d0(&"Armature|air2");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_petra");
-    il2cpp_runtime_helper_023445d0(&"Armature|horse_idle");
-    il2cpp_runtime_helper_023445d0(&"Armature|TS_shoot_L");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack_3_2");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack4");
-    il2cpp_runtime_helper_023445d0(&"Armature|run_sasha");
-    il2cpp_runtime_helper_023445d0(&"Armature|emote_no");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_hook_l");
-    il2cpp_runtime_helper_023445d0(&"Armature|slide");
-    il2cpp_runtime_helper_023445d0(&"Armature|changeBlade");
-    il2cpp_runtime_helper_023445d0(&"Armature|walking");
-    il2cpp_runtime_helper_023445d0(&"Armature|emote_wave");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_AHSS_F");
-    il2cpp_runtime_helper_023445d0(&"Armature|dash");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shoot_air_R");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_reload_both");
-    il2cpp_runtime_helper_023445d0(&"Armature|air2_left");
-    il2cpp_runtime_helper_023445d0(&"Armature|horse_getoff");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shooth_air_both");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_hook");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_armin");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_shift_0");
-    il2cpp_runtime_helper_023445d0(&"Armature|jump");
-    il2cpp_runtime_helper_023445d0(&"Armature|air2_backward");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_hook_R");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_rise");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack1_hook_l2");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shoot_air_L");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack1");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_F");
-    il2cpp_runtime_helper_023445d0(&"Armature|grabbed_jean");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_levi");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack1_hook_r2");
-    il2cpp_runtime_helper_023445d0(&"Armature|TS_shoot_air_L");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shoot_L");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_marco_0");
-    il2cpp_runtime_helper_023445d0(&"Armature|onWall");
-    il2cpp_runtime_helper_023445d0(&"Armature|TS_shoot_R");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_TS_M");
-    il2cpp_runtime_helper_023445d0(&"Armature|horse_run");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_reload_air_both");
-    il2cpp_runtime_helper_023445d0(&"Armature|toRoof");
-    il2cpp_runtime_helper_023445d0(&"Armature|dodge");
-    il2cpp_runtime_helper_023445d0(&"Armature|TS_shoot_air_R");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_hook_r_just");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_hook_l_just");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_hook_r");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack_3_1");
-    il2cpp_runtime_helper_023445d0(&"Armature|emote_yes");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_fall");
-    il2cpp_runtime_helper_023445d0(&"Armature|air2_right");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack1_hook_l1");
-    il2cpp_runtime_helper_023445d0(&"Armature|resupply");
-    il2cpp_runtime_helper_023445d0(&"Armature|AHSS_shoot_R");
-    il2cpp_runtime_helper_023445d0(&"Armature|special_marco_1");
-    il2cpp_runtime_helper_023445d0(&"Armature|dash_land");
-    il2cpp_runtime_helper_023445d0(&"Armature|wallrun");
-    il2cpp_runtime_helper_023445d0(&"Armature|idle_M");
-    il2cpp_runtime_helper_023445d0(&"Armature|attack2");
-    il2cpp_runtime_helper_023445d0(&"Armature|air_release");
-    il2cpp_runtime_helper_023445d0(&"Armature|horse_geton");
-    il2cpp_runtime_helper_023445d0(&"Armature|grabbed");
-    g_data_057ade5a = '\x01';
+  if (Il2CppMethodInitialized_184346c5b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanAnimations);
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack1_hook_r1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_AHSS_M");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|changeBlade_air");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shooth_both");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|run");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_TS_F");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_hook_both");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_hook_L");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|run_TS");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_sasha");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|emote_salute");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_petra");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|horse_idle");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|TS_shoot_L");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack_3_2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack4");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|run_sasha");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|emote_no");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hook_l");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|slide");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|changeBlade");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|walking");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|emote_wave");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_AHSS_F");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|dash");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|hood_pull");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shoot_air_R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_reload_both");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air2_left");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|horse_getoff");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shooth_air_both");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hook");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_armin");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_shift_0");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|jump");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air2_backward");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_hook_R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hood_pull");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_rise");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack1_hook_l2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shoot_air_L");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_F");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|grabbed_jean");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_levi");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack1_hook_r2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|TS_shoot_air_L");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shoot_L");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_marco_0");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|onWall");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|TS_shoot_R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_TS_M");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|horse_run");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_reload_air_both");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|toRoof");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|dodge");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|TS_shoot_air_R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hook_r_just");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hook_l_just");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_hook_r");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack_3_1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|emote_yes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_fall");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air2_right");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack1_hook_l1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|resupply");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|AHSS_shoot_R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|special_marco_1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|dash_land");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|wallrun");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|idle_M");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|attack2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|air_release");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|horse_geton");
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature|grabbed");
+    Il2CppMethodInitialized_184346c5b = '\x01';
   }
-  **(undefined8 **)(TypeInfo_HumanAnimations + 0xb8) = "Armature|horse_geton";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_HumanAnimations + 0xb8),"Armature|horse_geton");
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "Armature|horse_getoff";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Armature|horse_idle";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Armature|horse_run";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "Armature|idle_F";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "Armature|idle_M";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "Armature|idle_AHSS_F";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x38) = "Armature|idle_AHSS_M";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x38);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x40) = "Armature|idle_TS_F";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x40);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x48) = "Armature|idle_TS_M";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x48);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x50) = "Armature|jump";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x50);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x58) = "Armature|run";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x58);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x60) = "Armature|run_TS";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x60);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x68) = "Armature|run_sasha";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x68);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x70) = "Armature|dodge";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x70);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x78) = "Armature|dash_land";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x78);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x80) = "Armature|slide";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x80);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x88) = "Armature|grabbed";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x88);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x90) = "Armature|dash";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x90);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x98) = "Armature|resupply";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x98);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xa0) = "Armature|toRoof";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xa0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xa8) = "Armature|wallrun";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xa8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xb0) = "Armature|onWall";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xb0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xb8) = "Armature|changeBlade";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xb8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xc0) = "Armature|changeBlade_air";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xc0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 200) = "Armature|AHSS_hook_both";
-  il2cpp_runtime_helper_022b4080(lVar1 + 200);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xd0) = "Armature|AHSS_hook_L";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xd0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xd8) = "Armature|AHSS_hook_R";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xd8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xe0) = "Armature|AHSS_shoot_R";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xe0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xe8) = "Armature|AHSS_shoot_L";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xe8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xf0) = "Armature|AHSS_shooth_both";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xf0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0xf8) = "Armature|AHSS_shoot_air_R";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0xf8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x100) = "Armature|AHSS_shoot_air_L";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x100);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x108) = "Armature|AHSS_shooth_air_both";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x108);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x110) = "Armature|AHSS_reload_both";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x110);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x118) = "Armature|AHSS_reload_air_both";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x118);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x120) = "Armature|TS_shoot_R";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x120);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x128) = "Armature|TS_shoot_L";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x128);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x130) = "Armature|TS_shoot_air_R";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x130);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x138) = "Armature|TS_shoot_air_L";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x138);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x140) = "Armature|air_hook_l_just";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x140);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x148) = "Armature|air_hook_r_just";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x148);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x150) = "Armature|air_hook_l";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x150);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x158) = "Armature|air_hook_r";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x158);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x160) = "Armature|air_hook";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x160);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x168) = "Armature|air_release";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x168);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x170) = "Armature|air_fall";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x170);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x178) = "Armature|air_rise";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x178);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x180) = "Armature|air2";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x180);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x188) = "Armature|air2_right";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x188);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 400) = "Armature|air2_left";
-  il2cpp_runtime_helper_022b4080(lVar1 + 400);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x198) = "Armature|air2_backward";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x198);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1a0) = "Armature|attack1_hook_l1";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1a0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1a8) = "Armature|attack1_hook_l2";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1a8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1b0) = "Armature|attack1_hook_r1";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1b0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1b8) = "Armature|attack1_hook_r2";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1b8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1c0) = "Armature|attack1";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1c0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1c8) = "Armature|attack2";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1c8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1d0) = "Armature|attack4";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1d0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1d8) = "Armature|special_armin";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1d8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1e0) = "Armature|special_marco_0";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1e0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1e8) = "Armature|special_marco_1";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1e8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1f0) = "Armature|special_sasha";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1f0);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x1f8) = "Armature|attack_3_1";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x1f8);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x200) = "Armature|attack_3_2";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x200);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x208) = "Armature|special_levi";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x208);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x210) = "Armature|special_petra";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x210);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x218) = "Armature|grabbed_jean";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x218);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x220) = "Armature|special_shift_0";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x220);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x228) = "Armature|emote_salute";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x228);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x230) = "Armature|emote_no";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x230);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x238) = "Armature|emote_yes";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x238);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x240) = "Armature|emote_wave";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x240);
-  lVar1 = *(long *)(TypeInfo_HumanAnimations + 0xb8);
-  *(undefined8 *)(lVar1 + 0x248) = "Armature|walking";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x248);
+  TypeInfo_Characters_HumanAnimations->static_fields->HorseMount = "Armature|horse_geton";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HorseMount,"Armature|horse_geton");
+  TypeInfo_Characters_HumanAnimations->static_fields->HorseDismount = "Armature|horse_getoff";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HorseDismount,"Armature|horse_getoff");
+  TypeInfo_Characters_HumanAnimations->static_fields->HorseIdle = "Armature|horse_idle";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HorseIdle,"Armature|horse_idle");
+  TypeInfo_Characters_HumanAnimations->static_fields->HorseRun = "Armature|horse_run";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HorseRun,"Armature|horse_run");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleF = "Armature|idle_F";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->IdleF,"Armature|idle_F");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleM = "Armature|idle_M";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->IdleM,"Armature|idle_M");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleAHSSM = "Armature|idle_AHSS_F";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->IdleAHSSM,"Armature|idle_AHSS_F");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleAHSSF = "Armature|idle_AHSS_M";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->IdleAHSSF,"Armature|idle_AHSS_M");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleTSF = "Armature|idle_TS_F";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->IdleTSF,"Armature|idle_TS_F");
+  TypeInfo_Characters_HumanAnimations->static_fields->IdleTSM = "Armature|idle_TS_M";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->IdleTSM,"Armature|idle_TS_M");
+  TypeInfo_Characters_HumanAnimations->static_fields->Jump = "Armature|jump";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Jump,"Armature|jump");
+  TypeInfo_Characters_HumanAnimations->static_fields->Run = "Armature|run";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Run,"Armature|run");
+  TypeInfo_Characters_HumanAnimations->static_fields->RunTS = "Armature|run_TS";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->RunTS,"Armature|run_TS");
+  TypeInfo_Characters_HumanAnimations->static_fields->RunBuffed = "Armature|run_sasha";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->RunBuffed,"Armature|run_sasha");
+  TypeInfo_Characters_HumanAnimations->static_fields->Dodge = "Armature|dodge";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Dodge,"Armature|dodge");
+  TypeInfo_Characters_HumanAnimations->static_fields->Land = "Armature|dash_land";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Land,"Armature|dash_land");
+  TypeInfo_Characters_HumanAnimations->static_fields->Slide = "Armature|slide";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Slide,"Armature|slide");
+  TypeInfo_Characters_HumanAnimations->static_fields->Grabbed = "Armature|grabbed";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Grabbed,"Armature|grabbed");
+  TypeInfo_Characters_HumanAnimations->static_fields->Dash = "Armature|dash";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Dash,"Armature|dash");
+  TypeInfo_Characters_HumanAnimations->static_fields->Refill = "Armature|resupply";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Refill,"Armature|resupply")
+  ;
+  TypeInfo_Characters_HumanAnimations->static_fields->ToRoof = "Armature|toRoof";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->ToRoof,"Armature|toRoof")
+  ;
+  TypeInfo_Characters_HumanAnimations->static_fields->WallRun = "Armature|wallrun";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->WallRun,"Armature|wallrun");
+  TypeInfo_Characters_HumanAnimations->static_fields->OnWall = "Armature|onWall";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->OnWall,"Armature|onWall")
+  ;
+  TypeInfo_Characters_HumanAnimations->static_fields->ChangeBlade = "Armature|changeBlade";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->ChangeBlade,"Armature|changeBlade");
+  TypeInfo_Characters_HumanAnimations->static_fields->ChangeBladeAir = "Armature|changeBlade_air";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->ChangeBladeAir,"Armature|changeBlade_air");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardBoth = "Armature|AHSS_hook_both";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardBoth,"Armature|AHSS_hook_both");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardL = "Armature|AHSS_hook_L";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardL,"Armature|AHSS_hook_L");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardR = "Armature|AHSS_hook_R";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSHookForwardR,"Armature|AHSS_hook_R");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootR = "Armature|AHSS_shoot_R";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootR,"Armature|AHSS_shoot_R");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootL = "Armature|AHSS_shoot_L";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootL,"Armature|AHSS_shoot_L");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootBoth = "Armature|AHSS_shooth_both";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootBoth,"Armature|AHSS_shooth_both");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootRAir = "Armature|AHSS_shoot_air_R";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootRAir,"Armature|AHSS_shoot_air_R");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootLAir = "Armature|AHSS_shoot_air_L";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootLAir,"Armature|AHSS_shoot_air_L");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootBothAir = "Armature|AHSS_shooth_air_both";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSShootBothAir,"Armature|AHSS_shooth_air_both");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSGunReloadBoth = "Armature|AHSS_reload_both";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSGunReloadBoth,"Armature|AHSS_reload_both");
+  TypeInfo_Characters_HumanAnimations->static_fields->AHSSGunReloadBothAir = "Armature|AHSS_reload_air_both";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AHSSGunReloadBothAir,"Armature|AHSS_reload_air_both");
+  TypeInfo_Characters_HumanAnimations->static_fields->TSShootR = "Armature|TS_shoot_R";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->TSShootR,"Armature|TS_shoot_R");
+  TypeInfo_Characters_HumanAnimations->static_fields->TSShootL = "Armature|TS_shoot_L";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->TSShootL,"Armature|TS_shoot_L");
+  TypeInfo_Characters_HumanAnimations->static_fields->TSShootRAir = "Armature|TS_shoot_air_R";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->TSShootRAir,"Armature|TS_shoot_air_R");
+  TypeInfo_Characters_HumanAnimations->static_fields->TSShootLAir = "Armature|TS_shoot_air_L";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->TSShootLAir,"Armature|TS_shoot_air_L");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirHookLJust = "Armature|air_hook_l_just";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirHookLJust,"Armature|air_hook_l_just");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirHookRJust = "Armature|air_hook_r_just";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirHookRJust,"Armature|air_hook_r_just");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirHookL = "Armature|air_hook_l";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirHookL,"Armature|air_hook_l");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirHookR = "Armature|air_hook_r";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirHookR,"Armature|air_hook_r");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirHook = "Armature|air_hook";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirHook,"Armature|air_hook");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirRelease = "Armature|air_release";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirRelease,"Armature|air_release");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirFall = "Armature|air_fall";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirFall,"Armature|air_fall");
+  TypeInfo_Characters_HumanAnimations->static_fields->AirRise = "Armature|air_rise";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->AirRise,"Armature|air_rise");
+  TypeInfo_Characters_HumanAnimations->static_fields->Air2 = "Armature|air2";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Air2,"Armature|air2");
+  TypeInfo_Characters_HumanAnimations->static_fields->Air2Right = "Armature|air2_right";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Air2Right,"Armature|air2_right");
+  TypeInfo_Characters_HumanAnimations->static_fields->Air2Left = "Armature|air2_left";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Air2Left,"Armature|air2_left");
+  TypeInfo_Characters_HumanAnimations->static_fields->Air2Backward = "Armature|air2_backward";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Air2Backward,"Armature|air2_backward");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookL1 = "Armature|attack1_hook_l1";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookL1,"Armature|attack1_hook_l1");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookL2 = "Armature|attack1_hook_l2";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookL2,"Armature|attack1_hook_l2");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookR1 = "Armature|attack1_hook_r1";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookR1,"Armature|attack1_hook_r1");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookR2 = "Armature|attack1_hook_r2";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack1HookR2,"Armature|attack1_hook_r2");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack1 = "Armature|attack1";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack1,"Armature|attack1");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack2 = "Armature|attack2";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack2,"Armature|attack2");
+  TypeInfo_Characters_HumanAnimations->static_fields->Attack4 = "Armature|attack4";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->Attack4,"Armature|attack4");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialArmin = "Armature|special_armin";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialArmin,"Armature|special_armin");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialMarco0 = "Armature|special_marco_0";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialMarco0,"Armature|special_marco_0");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialMarco1 = "Armature|special_marco_1";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialMarco1,"Armature|special_marco_1");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialSasha = "Armature|special_sasha";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialSasha,"Armature|special_sasha");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialMikasa1 = "Armature|attack_3_1";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialMikasa1,"Armature|attack_3_1");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialMikasa2 = "Armature|attack_3_2";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialMikasa2,"Armature|attack_3_2");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi = "Armature|special_levi";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,"Armature|special_levi");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialPetra = "Armature|special_petra";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialPetra,"Armature|special_petra");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialJean = "Armature|grabbed_jean";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialJean,"Armature|grabbed_jean");
+  TypeInfo_Characters_HumanAnimations->static_fields->SpecialShifter = "Armature|special_shift_0";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->SpecialShifter,"Armature|special_shift_0");
+  TypeInfo_Characters_HumanAnimations->static_fields->EmoteSalute = "Armature|emote_salute";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->EmoteSalute,"Armature|emote_salute");
+  TypeInfo_Characters_HumanAnimations->static_fields->EmoteNo = "Armature|emote_no";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->EmoteNo,"Armature|emote_no");
+  TypeInfo_Characters_HumanAnimations->static_fields->EmoteYes = "Armature|emote_yes";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->EmoteYes,"Armature|emote_yes");
+  TypeInfo_Characters_HumanAnimations->static_fields->EmoteWave = "Armature|emote_wave";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->EmoteWave,"Armature|emote_wave");
+  TypeInfo_Characters_HumanAnimations->static_fields->Walk = "Armature|walking";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Characters_HumanAnimations->static_fields->Walk,"Armature|walking");
+  TypeInfo_Characters_HumanAnimations->static_fields->HoodPull = "Armature|hood_pull";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HoodPull,"Armature|hood_pull");
+  TypeInfo_Characters_HumanAnimations->static_fields->HoodPullAir = "Armature|air_hood_pull";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Characters_HumanAnimations->static_fields->HoodPullAir,"Armature|air_hood_pull");
   return;
 }
 

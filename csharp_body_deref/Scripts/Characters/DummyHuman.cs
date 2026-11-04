@@ -15,30 +15,30 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004EE")]
+[Token(Token = "0x2000647")]
 internal class DummyHuman : DummyCharacter
 {
-	[Token(Token = "0x20004F1")]
+	[Token(Token = "0x200064A")]
 	[CompilerGenerated]
 	private sealed class _003CLoadSkinCoroutine_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40015E8")]
+		[Token(Token = "0x4001C5A")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40015E9")]
+		[Token(Token = "0x4001C5B")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40015EA")]
+		[Token(Token = "0x4001C5C")]
 		[FieldOffset(Offset = "0x20")]
 		public DummyHuman _003C_003E4__this;
 
-		[Token(Token = "0x170009C4")]
+		[Token(Token = "0x17000AD7")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60033FF")]
-			[Address(RVA = "0x41B0AD0", Offset = "0x41B0AD0", VA = "0x41B0AD0", Slot = "4")]
+			[Token(Token = "0x6003DE5")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -46,11 +46,11 @@ internal class DummyHuman : DummyCharacter
 			}
 		}
 
-		[Token(Token = "0x170009C5")]
+		[Token(Token = "0x17000AD8")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003401")]
-			[Address(RVA = "0x41B0B20", Offset = "0x41B0B20", VA = "0x41B0B20", Slot = "7")]
+			[Token(Token = "0x6003DE7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -58,93 +58,93 @@ internal class DummyHuman : DummyCharacter
 			}
 		}
 
-		[Token(Token = "0x60033FC")]
-		[Address(RVA = "0x41AE380", Offset = "0x41AE380", VA = "0x41AE380")]
+		[Token(Token = "0x6003DE2")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CLoadSkinCoroutine_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60033FD")]
-		[Address(RVA = "0x41AE560", Offset = "0x41AE560", VA = "0x41AE560", Slot = "5")]
+		[Token(Token = "0x6003DE3")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60033FE")]
-		[Address(RVA = "0x41AE570", Offset = "0x41AE570", VA = "0x41AE570", Slot = "6")]
+		[Token(Token = "0x6003DE4")]
+		[Address(RVA = "0x211D250", Offset = "0x211B850", VA = "0x18211D250", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003400")]
-		[Address(RVA = "0x41B0AE0", Offset = "0x41B0AE0", VA = "0x41B0AE0", Slot = "8")]
+		[Token(Token = "0x6003DE6")]
+		[Address(RVA = "0x211EAA0", Offset = "0x211D0A0", VA = "0x18211EAA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40015DE")]
+	[Token(Token = "0x4001C50")]
 	[FieldOffset(Offset = "0x30")]
 	public HumanComponentCache Cache;
 
-	[Token(Token = "0x40015DF")]
+	[Token(Token = "0x4001C51")]
 	[FieldOffset(Offset = "0x38")]
 	public HumanSetup Setup;
 
-	[Token(Token = "0x40015E0")]
+	[Token(Token = "0x4001C52")]
 	[FieldOffset(Offset = "0x40")]
 	private HumanCustomSkinLoader _customSkinLoader;
 
-	[Token(Token = "0x40015E1")]
+	[Token(Token = "0x4001C53")]
 	[FieldOffset(Offset = "0x48")]
 	private bool _isLoadingSkins;
 
-	[Token(Token = "0x60033F0")]
-	[Address(RVA = "0x41ADC80", Offset = "0x41ADC80", VA = "0x41ADC80", Slot = "4")]
+	[Token(Token = "0x6003DD6")]
+	[Address(RVA = "0x2116D70", Offset = "0x2115370", VA = "0x182116D70", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60033F1")]
-	[Address(RVA = "0x41ADEB0", Offset = "0x41ADEB0", VA = "0x41ADEB0")]
+	[Token(Token = "0x6003DD7")]
+	[Address(RVA = "0x2117520", Offset = "0x2115B20", VA = "0x182117520")]
 	protected void Start()
 	{
 	}
 
-	[Token(Token = "0x60033F2")]
-	[Address(RVA = "0x41ADF60", Offset = "0x41ADF60", VA = "0x41ADF60", Slot = "5")]
+	[Token(Token = "0x6003DD8")]
+	[Address(RVA = "0x2117290", Offset = "0x2115890", VA = "0x182117290", Slot = "5")]
 	protected override string GetIdleAnimation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033F3")]
-	[Address(RVA = "0x41AE070", Offset = "0x41AE070", VA = "0x41AE070", Slot = "6")]
+	[Token(Token = "0x6003DD9")]
+	[Address(RVA = "0x2116FA0", Offset = "0x21155A0", VA = "0x182116FA0", Slot = "6")]
 	protected override string GetEmoteAnimation(string emote)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033F4")]
-	[Address(RVA = "0x41AE280", Offset = "0x41AE280", VA = "0x41AE280")]
+	[Token(Token = "0x6003DDA")]
+	[Address(RVA = "0x21174A0", Offset = "0x2115AA0", VA = "0x1821174A0")]
 	public void LoadSkin()
 	{
 	}
 
-	[Token(Token = "0x60033F5")]
-	[Address(RVA = "0x41AE310", Offset = "0x41AE310", VA = "0x41AE310")]
+	[Token(Token = "0x6003DDB")]
+	[Address(RVA = "0x2117430", Offset = "0x2115A30", VA = "0x182117430")]
 	[IteratorStateMachine(typeof(_003CLoadSkinCoroutine_003Ed__9))]
 	private IEnumerator LoadSkinCoroutine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033F6")]
-	[Address(RVA = "0x41AE3A0", Offset = "0x41AE3A0", VA = "0x41AE3A0")]
+	[Token(Token = "0x6003DDC")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DummyHuman()
 	{
 	}

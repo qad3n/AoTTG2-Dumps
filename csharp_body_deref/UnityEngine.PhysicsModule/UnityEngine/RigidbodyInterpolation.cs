@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000020")]
 public enum RigidbodyInterpolation
 {
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x4000082")]
 	None,
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x4000083")]
 	Interpolate,
-	[Token(Token = "0x4000014")]
+	[Token(Token = "0x4000084")]
 	Extrapolate
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200009A")]
+[Token(Token = "0x2000091")]
 public enum TextElementType : byte
 {
-	[Token(Token = "0x40005B8")]
+	[Token(Token = "0x4000533")]
 	Character = 1,
-	[Token(Token = "0x40005B9")]
+	[Token(Token = "0x4000534")]
 	Sprite
 }

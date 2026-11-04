@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200007D")]
+[Token(Token = "0x2000087")]
 public enum SchemaSerializationMode
 {
-	[Token(Token = "0x400029C")]
+	[Token(Token = "0x40002AF")]
 	IncludeSchema = 1,
-	[Token(Token = "0x400029D")]
+	[Token(Token = "0x40002B0")]
 	ExcludeSchema
 }

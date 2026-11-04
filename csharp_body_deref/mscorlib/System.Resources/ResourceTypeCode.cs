@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B1")]
+[Token(Token = "0x20004E1")]
 internal enum ResourceTypeCode
 {
 	[Token(Token = "0x4001352")]
@@ -47,7 +47,7 @@ internal enum ResourceTypeCode
 	[Token(Token = "0x4001362")]
 	TimeSpan = 16,
 	[Token(Token = "0x4001363")]
-	LastPrimitive = 16,
+	LastPrimitive = TimeSpan,
 	[Token(Token = "0x4001364")]
 	ByteArray = 32,
 	[Token(Token = "0x4001365")]

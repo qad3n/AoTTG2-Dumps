@@ -15,18 +15,18 @@ internal struct ArrayBuilder<T>
 	[FieldOffset(Offset = "0x0")]
 	private int _count;
 
-	[Token(Token = "0x6000CDC")]
+	[Token(Token = "0x6000CDB")]
 	public ArrayBuilder(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6000CDD")]
+	[Token(Token = "0x6000CDC")]
 	public T[] ToArray()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CDE")]
+	[Token(Token = "0x6000CDD")]
 	public void UncheckedAdd(T item)
 	{
 	}

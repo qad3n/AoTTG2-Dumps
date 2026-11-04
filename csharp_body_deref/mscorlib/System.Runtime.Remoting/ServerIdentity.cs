@@ -12,106 +12,106 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200034D")]
+[Token(Token = "0x200037C")]
 internal abstract class ServerIdentity : System.Runtime.Remoting.Identity
 {
-	[Token(Token = "0x4000EAD")]
+	[Token(Token = "0x4000EBA")]
 	[FieldOffset(Offset = "0x48")]
 	protected Type _objectType;
 
-	[Token(Token = "0x4000EAE")]
+	[Token(Token = "0x4000EBB")]
 	[FieldOffset(Offset = "0x50")]
 	protected MarshalByRefObject _serverObject;
 
-	[Token(Token = "0x4000EAF")]
+	[Token(Token = "0x4000EBC")]
 	[FieldOffset(Offset = "0x58")]
 	protected IMessageSink _serverSink;
 
-	[Token(Token = "0x4000EB0")]
+	[Token(Token = "0x4000EBD")]
 	[FieldOffset(Offset = "0x60")]
 	protected Context _context;
 
-	[Token(Token = "0x4000EB1")]
+	[Token(Token = "0x4000EBE")]
 	[FieldOffset(Offset = "0x68")]
 	protected System.Runtime.Remoting.Lifetime.Lease _lease;
 
-	[Token(Token = "0x17000345")]
+	[Token(Token = "0x17000347")]
 	public Type ObjectType
 	{
-		[Token(Token = "0x6001CA9")]
-		[Address(RVA = "0x3B6F160", Offset = "0x3B6F160", VA = "0x3B6F160")]
+		[Token(Token = "0x6001D18")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000346")]
+	[Token(Token = "0x17000348")]
 	public System.Runtime.Remoting.Lifetime.Lease Lease
 	{
-		[Token(Token = "0x6001CAE")]
-		[Address(RVA = "0x3B6F3E0", Offset = "0x3B6F3E0", VA = "0x3B6F3E0")]
+		[Token(Token = "0x6001D1D")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000347")]
+	[Token(Token = "0x17000349")]
 	public Context Context
 	{
-		[Token(Token = "0x6001CAF")]
-		[Address(RVA = "0x3B6F3F0", Offset = "0x3B6F3F0", VA = "0x3B6F3F0")]
+		[Token(Token = "0x6001D1E")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001CB0")]
-		[Address(RVA = "0x3B6F400", Offset = "0x3B6F400", VA = "0x3B6F400")]
+		[Token(Token = "0x6001D1F")]
+		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001CA8")]
-	[Address(RVA = "0x3B6F100", Offset = "0x3B6F100", VA = "0x3B6F100")]
+	[Token(Token = "0x6001D17")]
+	[Address(RVA = "0x19E67A0", Offset = "0x19E4DA0", VA = "0x1819E67A0")]
 	public ServerIdentity(string objectUri, Context context, Type objectType)
 	{
 	}
 
-	[Token(Token = "0x6001CAA")]
-	[Address(RVA = "0x3B6C810", Offset = "0x3B6C810", VA = "0x3B6C810")]
+	[Token(Token = "0x6001D19")]
+	[Address(RVA = "0x19E65C0", Offset = "0x19E4BC0", VA = "0x1819E65C0")]
 	public void StartTrackingLifetime(ILease lease)
 	{
 	}
 
-	[Token(Token = "0x6001CAB")]
-	[Address(RVA = "0x3B6F170", Offset = "0x3B6F170", VA = "0x3B6F170", Slot = "5")]
+	[Token(Token = "0x6001D1A")]
+	[Address(RVA = "0x19E65B0", Offset = "0x19E4BB0", VA = "0x1819E65B0", Slot = "5")]
 	public virtual void OnLifetimeExpired()
 	{
 	}
 
-	[Token(Token = "0x6001CAC")]
-	[Address(RVA = "0x3B6F220", Offset = "0x3B6F220", VA = "0x3B6F220", Slot = "4")]
+	[Token(Token = "0x6001D1B")]
+	[Address(RVA = "0x19E6320", Offset = "0x19E4920", VA = "0x1819E6320", Slot = "4")]
 	public override ObjRef CreateObjRef(Type requestedType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001CAD")]
-	[Address(RVA = "0x3B6E350", Offset = "0x3B6E350", VA = "0x3B6E350")]
+	[Token(Token = "0x6001D1C")]
+	[Address(RVA = "0x19E62A0", Offset = "0x19E48A0", VA = "0x1819E62A0")]
 	public void AttachServerObject(MarshalByRefObject serverObject, Context context)
 	{
 	}
 
-	[Token(Token = "0x6001CB1")]
+	[Token(Token = "0x6001D20")]
 	public abstract IMessage SyncObjectProcessMessage(IMessage msg);
 
-	[Token(Token = "0x6001CB2")]
+	[Token(Token = "0x6001D21")]
 	public abstract IMessageCtrl AsyncObjectProcessMessage(IMessage msg, IMessageSink replySink);
 
-	[Token(Token = "0x6001CB3")]
-	[Address(RVA = "0x3B6F180", Offset = "0x3B6F180", VA = "0x3B6F180")]
+	[Token(Token = "0x6001D22")]
+	[Address(RVA = "0x19E6510", Offset = "0x19E4B10", VA = "0x1819E6510")]
 	protected void DisposeServerObject()
 	{
 	}

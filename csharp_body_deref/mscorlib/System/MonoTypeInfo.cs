@@ -12,19 +12,19 @@ using Il2CppDummyDll;
 namespace System;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000178")]
+[Token(Token = "0x20001A3")]
 internal class MonoTypeInfo
 {
-	[Token(Token = "0x400065A")]
+	[Token(Token = "0x40006BE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public string full_name;
 
-	[Token(Token = "0x400065B")]
+	[Token(Token = "0x40006BF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public System.Reflection.RuntimeConstructorInfo default_ctor;
 
-	[Token(Token = "0x6000F3E")]
-	[Address(RVA = "0x3D074A0", Offset = "0x3D074A0", VA = "0x3D074A0")]
+	[Token(Token = "0x6000F92")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public MonoTypeInfo()
 	{
 	}

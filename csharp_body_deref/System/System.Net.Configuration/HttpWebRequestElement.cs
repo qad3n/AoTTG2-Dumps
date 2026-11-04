@@ -10,92 +10,92 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x2000395")]
+[Token(Token = "0x20003F0")]
 public sealed class HttpWebRequestElement : ConfigurationElement
 {
-	[Token(Token = "0x17000545")]
+	[Token(Token = "0x170005AF")]
 	public int MaximumErrorResponseLength
 	{
-		[Token(Token = "0x60017B8")]
-		[Address(RVA = "0x48F3CE0", Offset = "0x48F3CE0", VA = "0x48F3CE0")]
+		[Token(Token = "0x6001A5C")]
+		[Address(RVA = "0x282B0E0", Offset = "0x28296E0", VA = "0x18282B0E0")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60017B9")]
-		[Address(RVA = "0x48F3D10", Offset = "0x48F3D10", VA = "0x48F3D10")]
+		[Token(Token = "0x6001A5D")]
+		[Address(RVA = "0x282B1D0", Offset = "0x28297D0", VA = "0x18282B1D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000546")]
+	[Token(Token = "0x170005B0")]
 	public int MaximumResponseHeadersLength
 	{
-		[Token(Token = "0x60017BA")]
-		[Address(RVA = "0x48F3D40", Offset = "0x48F3D40", VA = "0x48F3D40")]
+		[Token(Token = "0x6001A5E")]
+		[Address(RVA = "0x282B110", Offset = "0x2829710", VA = "0x18282B110")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60017BB")]
-		[Address(RVA = "0x48F3D70", Offset = "0x48F3D70", VA = "0x48F3D70")]
+		[Token(Token = "0x6001A5F")]
+		[Address(RVA = "0x282B200", Offset = "0x2829800", VA = "0x18282B200")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000547")]
+	[Token(Token = "0x170005B1")]
 	public int MaximumUnauthorizedUploadLength
 	{
-		[Token(Token = "0x60017BC")]
-		[Address(RVA = "0x48F3DA0", Offset = "0x48F3DA0", VA = "0x48F3DA0")]
+		[Token(Token = "0x6001A60")]
+		[Address(RVA = "0x282B140", Offset = "0x2829740", VA = "0x18282B140")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60017BD")]
-		[Address(RVA = "0x48F3DD0", Offset = "0x48F3DD0", VA = "0x48F3DD0")]
+		[Token(Token = "0x6001A61")]
+		[Address(RVA = "0x282B230", Offset = "0x2829830", VA = "0x18282B230")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000548")]
+	[Token(Token = "0x170005B2")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60017BE")]
-		[Address(RVA = "0x48F3E00", Offset = "0x48F3E00", VA = "0x48F3E00", Slot = "4")]
+		[Token(Token = "0x6001A62")]
+		[Address(RVA = "0x282B170", Offset = "0x2829770", VA = "0x18282B170", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000549")]
+	[Token(Token = "0x170005B3")]
 	public bool UseUnsafeHeaderParsing
 	{
-		[Token(Token = "0x60017BF")]
-		[Address(RVA = "0x48F3E30", Offset = "0x48F3E30", VA = "0x48F3E30")]
+		[Token(Token = "0x6001A63")]
+		[Address(RVA = "0x282B1A0", Offset = "0x28297A0", VA = "0x18282B1A0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60017C0")]
-		[Address(RVA = "0x48F3E60", Offset = "0x48F3E60", VA = "0x48F3E60")]
+		[Token(Token = "0x6001A64")]
+		[Address(RVA = "0x282B260", Offset = "0x2829860", VA = "0x18282B260")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60017B7")]
-	[Address(RVA = "0x48F3CB0", Offset = "0x48F3CB0", VA = "0x48F3CB0")]
+	[Token(Token = "0x6001A5B")]
+	[Address(RVA = "0x282B0B0", Offset = "0x28296B0", VA = "0x18282B0B0")]
 	public HttpWebRequestElement()
 	{
 	}
 
-	[Token(Token = "0x60017C1")]
-	[Address(RVA = "0x48F3E90", Offset = "0x48F3E90", VA = "0x48F3E90", Slot = "8")]
+	[Token(Token = "0x6001A65")]
+	[Address(RVA = "0x282B080", Offset = "0x2829680", VA = "0x18282B080", Slot = "8")]
 	protected override void PostDeserialize()
 	{
 	}

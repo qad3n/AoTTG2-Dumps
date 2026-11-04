@@ -12,111 +12,111 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x2000175")]
+[Token(Token = "0x20002FD")]
 public class CookieContainer
 {
-	[Token(Token = "0x4000772")]
+	[Token(Token = "0x4000B88")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly HeaderVariantInfo[] HeaderInfo;
 
-	[Token(Token = "0x4000773")]
+	[Token(Token = "0x4000B89")]
 	[FieldOffset(Offset = "0x10")]
 	private Hashtable m_domainTable;
 
-	[Token(Token = "0x4000774")]
+	[Token(Token = "0x4000B8A")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_maxCookieSize;
 
-	[Token(Token = "0x4000775")]
+	[Token(Token = "0x4000B8B")]
 	[FieldOffset(Offset = "0x1C")]
 	private int m_maxCookies;
 
-	[Token(Token = "0x4000776")]
+	[Token(Token = "0x4000B8C")]
 	[FieldOffset(Offset = "0x20")]
 	private int m_maxCookiesPerDomain;
 
-	[Token(Token = "0x4000777")]
+	[Token(Token = "0x4000B8D")]
 	[FieldOffset(Offset = "0x24")]
 	private int m_count;
 
-	[Token(Token = "0x4000778")]
+	[Token(Token = "0x4000B8E")]
 	[FieldOffset(Offset = "0x28")]
 	private string m_fqdnMyDomain;
 
-	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x4970800", Offset = "0x4970800", VA = "0x4970800")]
+	[Token(Token = "0x60014C0")]
+	[Address(RVA = "0x27C4F80", Offset = "0x27C3580", VA = "0x1827C4F80")]
 	public CookieContainer()
 	{
 	}
 
-	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x4970900", Offset = "0x4970900", VA = "0x4970900")]
+	[Token(Token = "0x60014C1")]
+	[Address(RVA = "0x27C1960", Offset = "0x27BFF60", VA = "0x1827C1960")]
 	private void AddRemoveDomain(string key, PathList value)
 	{
 	}
 
-	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x4970A40", Offset = "0x4970A40", VA = "0x4970A40")]
+	[Token(Token = "0x60014C2")]
+	[Address(RVA = "0x27C1A90", Offset = "0x27C0090", VA = "0x1827C1A90")]
 	internal void Add(Cookie cookie, bool throwOnError)
 	{
 	}
 
-	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x49719C0", Offset = "0x49719C0", VA = "0x49719C0")]
+	[Token(Token = "0x60014C3")]
+	[Address(RVA = "0x27C22B0", Offset = "0x27C08B0", VA = "0x1827C22B0")]
 	private bool AgeCookies(string domain)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x4973660", Offset = "0x4973660", VA = "0x4973660")]
+	[Token(Token = "0x60014C4")]
+	[Address(RVA = "0x27C4000", Offset = "0x27C2600", VA = "0x1827C4000")]
 	private int ExpireCollection(CookieCollection cc)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000905")]
-	[Address(RVA = "0x4973850", Offset = "0x4973850", VA = "0x4973850")]
+	[Token(Token = "0x60014C5")]
+	[Address(RVA = "0x27C49C0", Offset = "0x27C2FC0", VA = "0x1827C49C0")]
 	internal bool IsLocalDomain(string host)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000906")]
-	[Address(RVA = "0x4973D00", Offset = "0x4973D00", VA = "0x4973D00")]
+	[Token(Token = "0x60014C6")]
+	[Address(RVA = "0x27C3880", Offset = "0x27C1E80", VA = "0x1827C3880")]
 	internal CookieCollection CookieCutter(Uri uri, string headerName, string setCookieHeader, bool isThrow)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000907")]
-	[Address(RVA = "0x49746C0", Offset = "0x49746C0", VA = "0x49746C0")]
+	[Token(Token = "0x60014C7")]
+	[Address(RVA = "0x27C4580", Offset = "0x27C2B80", VA = "0x1827C4580")]
 	internal CookieCollection InternalGetCookies(Uri uri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000908")]
-	[Address(RVA = "0x4974C00", Offset = "0x4974C00", VA = "0x4974C00")]
+	[Token(Token = "0x60014C8")]
+	[Address(RVA = "0x27C3170", Offset = "0x27C1770", VA = "0x1827C3170")]
 	private void BuildCookieCollectionFromDomainMatches(Uri uri, bool isSecure, int port, CookieCollection cookies, List<string> domainAttribute, bool matchOnlyPlainCookie)
 	{
 	}
 
-	[Token(Token = "0x6000909")]
-	[Address(RVA = "0x4975700", Offset = "0x4975700", VA = "0x4975700")]
+	[Token(Token = "0x60014C9")]
+	[Address(RVA = "0x27C4C70", Offset = "0x27C3270", VA = "0x1827C4C70")]
 	private void MergeUpdateCollections(CookieCollection destination, CookieCollection source, int port, bool isSecure, bool isPlainOnly)
 	{
 	}
 
-	[Token(Token = "0x600090A")]
-	[Address(RVA = "0x4975C00", Offset = "0x4975C00", VA = "0x4975C00")]
+	[Token(Token = "0x60014CA")]
+	[Address(RVA = "0x27C4160", Offset = "0x27C2760", VA = "0x1827C4160")]
 	public string GetCookieHeader(Uri uri)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600090B")]
-	[Address(RVA = "0x4975CC0", Offset = "0x4975CC0", VA = "0x4975CC0")]
+	[Token(Token = "0x60014CB")]
+	[Address(RVA = "0x27C4230", Offset = "0x27C2830", VA = "0x1827C4230")]
 	internal string GetCookieHeader(Uri uri, out string optCookie2)
 	{
 		return null;

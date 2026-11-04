@@ -10,20 +10,20 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200011A")]
+[Token(Token = "0x200013F")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct GradientAlphaKey
 {
-	[Token(Token = "0x40004BD")]
+	[Token(Token = "0x4000524")]
 	[FieldOffset(Offset = "0x0")]
 	public float alpha;
 
-	[Token(Token = "0x40004BE")]
+	[Token(Token = "0x4000525")]
 	[FieldOffset(Offset = "0x4")]
 	public float time;
 
-	[Token(Token = "0x60007A1")]
-	[Address(RVA = "0x4DE6E50", Offset = "0x4DE6E50", VA = "0x4DE6E50")]
+	[Token(Token = "0x6000A41")]
+	[Address(RVA = "0x1028C00", Offset = "0x1027200", VA = "0x181028C00")]
 	public GradientAlphaKey(float alpha, float time)
 	{
 	}

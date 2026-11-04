@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200016F")]
+[Token(Token = "0x2000172")]
 public interface IAsyncValueChangedEventHandler<T> : IDisposable
 {
-	[Token(Token = "0x60008DC")]
+	[Token(Token = "0x6000900")]
 	UniTask<T> OnValueChangedAsync();
 }

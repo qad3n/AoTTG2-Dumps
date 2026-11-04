@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000139")]
+[Token(Token = "0x20002C1")]
 internal class SystemNetworkCredential : NetworkCredential
 {
-	[Token(Token = "0x4000636")]
+	[Token(Token = "0x4000A4C")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly SystemNetworkCredential defaultCredential;
 
-	[Token(Token = "0x60007BC")]
-	[Address(RVA = "0x495DE80", Offset = "0x495DE80", VA = "0x495DE80")]
+	[Token(Token = "0x600137B")]
+	[Address(RVA = "0x27D06D0", Offset = "0x27CECD0", VA = "0x1827D06D0")]
 	private SystemNetworkCredential()
 	{
 	}

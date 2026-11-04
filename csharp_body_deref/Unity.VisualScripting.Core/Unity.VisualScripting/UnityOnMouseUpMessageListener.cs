@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnMouseUpMessageListener : MessageListener
 {
-	[Token(Token = "0x6000445")]
-	[Address(RVA = "0x4CB6370", Offset = "0x4CB6370", VA = "0x4CB6370")]
+	[Token(Token = "0x600044F")]
+	[Address(RVA = "0x2DBE650", Offset = "0x2DBCC50", VA = "0x182DBE650")]
 	private void OnMouseUp()
 	{
 	}
 
-	[Token(Token = "0x6000446")]
-	[Address(RVA = "0x4CB63E0", Offset = "0x4CB63E0", VA = "0x4CB63E0")]
+	[Token(Token = "0x6000450")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnMouseUpMessageListener()
 	{
 	}

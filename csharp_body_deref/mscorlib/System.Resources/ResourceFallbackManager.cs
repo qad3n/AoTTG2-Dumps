@@ -14,10 +14,10 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004AF")]
+[Token(Token = "0x20004DF")]
 internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 {
-	[Token(Token = "0x20004B0")]
+	[Token(Token = "0x20004E0")]
 	[CompilerGenerated]
 	private sealed class _003CGetEnumerator_003Ed__5 : IEnumerator<CultureInfo>, IDisposable, IEnumerator
 	{
@@ -41,11 +41,11 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 		[FieldOffset(Offset = "0x30")]
 		private CultureInfo _003CcurrentCulture_003E5__3;
 
-		[Token(Token = "0x17000488")]
+		[Token(Token = "0x1700048B")]
 		private CultureInfo System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EGlobalization_002ECultureInfo_003E_002ECurrent
 		{
-			[Token(Token = "0x6002344")]
-			[Address(RVA = "0x3BC47E0", Offset = "0x3BC47E0", VA = "0x3BC47E0", Slot = "4")]
+			[Token(Token = "0x60023C6")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,11 +53,11 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 			}
 		}
 
-		[Token(Token = "0x17000489")]
+		[Token(Token = "0x1700048C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6002346")]
-			[Address(RVA = "0x3BC4830", Offset = "0x3BC4830", VA = "0x3BC4830", Slot = "7")]
+			[Token(Token = "0x60023C8")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,29 +65,29 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 			}
 		}
 
-		[Token(Token = "0x6002341")]
-		[Address(RVA = "0x3BC4590", Offset = "0x3BC4590", VA = "0x3BC4590")]
+		[Token(Token = "0x60023C3")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CGetEnumerator_003Ed__5(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6002342")]
-		[Address(RVA = "0x3BC45B0", Offset = "0x3BC45B0", VA = "0x3BC45B0", Slot = "5")]
+		[Token(Token = "0x60023C4")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6002343")]
-		[Address(RVA = "0x3BC45C0", Offset = "0x3BC45C0", VA = "0x3BC45C0", Slot = "6")]
+		[Token(Token = "0x60023C5")]
+		[Address(RVA = "0x1A58890", Offset = "0x1A56E90", VA = "0x181A58890", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6002345")]
-		[Address(RVA = "0x3BC47F0", Offset = "0x3BC47F0", VA = "0x3BC47F0", Slot = "8")]
+		[Token(Token = "0x60023C7")]
+		[Address(RVA = "0x1A58AE0", Offset = "0x1A570E0", VA = "0x181A58AE0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -106,21 +106,21 @@ internal class ResourceFallbackManager : IEnumerable<CultureInfo>, IEnumerable
 	[FieldOffset(Offset = "0x20")]
 	private bool m_useParents;
 
-	[Token(Token = "0x600233E")]
-	[Address(RVA = "0x3BC4410", Offset = "0x3BC4410", VA = "0x3BC4410")]
+	[Token(Token = "0x60023C0")]
+	[Address(RVA = "0x1A4CF70", Offset = "0x1A4B570", VA = "0x181A4CF70")]
 	internal ResourceFallbackManager(CultureInfo startingCulture, CultureInfo neutralResourcesCulture, bool useParents)
 	{
 	}
 
-	[Token(Token = "0x600233F")]
-	[Address(RVA = "0x3BC44B0", Offset = "0x3BC44B0", VA = "0x3BC44B0", Slot = "5")]
+	[Token(Token = "0x60023C1")]
+	[Address(RVA = "0x1A4CF00", Offset = "0x1A4B500", VA = "0x181A4CF00", Slot = "5")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002340")]
-	[Address(RVA = "0x3BC4520", Offset = "0x3BC4520", VA = "0x3BC4520", Slot = "4")]
+	[Token(Token = "0x60023C2")]
+	[Address(RVA = "0x1A4CF00", Offset = "0x1A4B500", VA = "0x181A4CF00", Slot = "4")]
 	[IteratorStateMachine(typeof(_003CGetEnumerator_003Ed__5))]
 	public IEnumerator<CultureInfo> GetEnumerator()
 	{

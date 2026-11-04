@@ -11,154 +11,154 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003A5")]
+[Token(Token = "0x20004F5")]
 [CompilerGenerated]
 internal class CustomLogicPhysicMaterialCombineEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20003A6")]
+	[Token(Token = "0x20004F6")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002277")]
-		[Address(RVA = "0x4086B60", Offset = "0x4086B60", VA = "0x4086B60")]
+		[Token(Token = "0x6002B79")]
+		[Address(RVA = "0x1FF0280", Offset = "0x1FEE880", VA = "0x181FF0280")]
 		public static CustomLogicPhysicMaterialCombineEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003A7")]
+	[Token(Token = "0x20004F7")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40010A3")]
+		[Token(Token = "0x40016D9")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002278")]
-		[Address(RVA = "0x4086C80", Offset = "0x4086C80", VA = "0x4086C80")]
+		[Token(Token = "0x6002B7A")]
+		[Address(RVA = "0x1FD87C0", Offset = "0x1FD6DC0", VA = "0x181FD87C0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002279")]
-		[Address(RVA = "0x4086E60", Offset = "0x4086E60", VA = "0x4086E60")]
+		[Token(Token = "0x6002B7B")]
+		[Address(RVA = "0x1FE5B40", Offset = "0x1FE4140", VA = "0x181FE5B40")]
 		public static CLPropertyBinding<CustomLogicPhysicMaterialCombineEnum> __CreatePropertyBinding__Minimum()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600227A")]
-		[Address(RVA = "0x4086F00", Offset = "0x4086F00", VA = "0x4086F00")]
+		[Token(Token = "0x6002B7C")]
+		[Address(RVA = "0x1FE5BE0", Offset = "0x1FE41E0", VA = "0x181FE5BE0")]
 		public static CLPropertyBinding<CustomLogicPhysicMaterialCombineEnum> __CreatePropertyBinding__Multiply()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600227B")]
-		[Address(RVA = "0x4086FA0", Offset = "0x4086FA0", VA = "0x4086FA0")]
+		[Token(Token = "0x6002B7D")]
+		[Address(RVA = "0x1FE55A0", Offset = "0x1FE3BA0", VA = "0x181FE55A0")]
 		public static CLPropertyBinding<CustomLogicPhysicMaterialCombineEnum> __CreatePropertyBinding__Maximum()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600227C")]
-		[Address(RVA = "0x4087040", Offset = "0x4087040", VA = "0x4087040")]
+		[Token(Token = "0x6002B7E")]
+		[Address(RVA = "0x1FE05A0", Offset = "0x1FDEBA0", VA = "0x181FE05A0")]
 		public static CLPropertyBinding<CustomLogicPhysicMaterialCombineEnum> __CreatePropertyBinding__Average()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000654")]
+	[Token(Token = "0x17000729")]
 	public static int Minimum
 	{
-		[Token(Token = "0x600226F")]
-		[Address(RVA = "0x4086AC0", Offset = "0x4086AC0", VA = "0x4086AC0")]
+		[Token(Token = "0x6002B71")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000655")]
+	[Token(Token = "0x1700072A")]
 	public static int Multiply
 	{
-		[Token(Token = "0x6002270")]
-		[Address(RVA = "0x4086AD0", Offset = "0x4086AD0", VA = "0x4086AD0")]
+		[Token(Token = "0x6002B72")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000656")]
+	[Token(Token = "0x1700072B")]
 	public static int Maximum
 	{
-		[Token(Token = "0x6002271")]
-		[Address(RVA = "0x4086AE0", Offset = "0x4086AE0", VA = "0x4086AE0")]
+		[Token(Token = "0x6002B73")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000657")]
+	[Token(Token = "0x1700072C")]
 	public static int Average
 	{
-		[Token(Token = "0x6002272")]
-		[Address(RVA = "0x4086AF0", Offset = "0x4086AF0", VA = "0x4086AF0")]
+		[Token(Token = "0x6002B74")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000658")]
+	[Token(Token = "0x1700072D")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002273")]
-		[Address(RVA = "0x4086B00", Offset = "0x4086B00", VA = "0x4086B00", Slot = "4")]
+		[Token(Token = "0x6002B75")]
+		[Address(RVA = "0x1FEEAC0", Offset = "0x1FED0C0", VA = "0x181FEEAC0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000659")]
+	[Token(Token = "0x1700072E")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002274")]
-		[Address(RVA = "0x4086B30", Offset = "0x4086B30", VA = "0x4086B30", Slot = "6")]
+		[Token(Token = "0x6002B76")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700065A")]
+	[Token(Token = "0x1700072F")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002275")]
-		[Address(RVA = "0x4086B40", Offset = "0x4086B40", VA = "0x4086B40", Slot = "7")]
+		[Token(Token = "0x6002B77")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700065B")]
+	[Token(Token = "0x17000730")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002276")]
-		[Address(RVA = "0x4086B50", Offset = "0x4086B50", VA = "0x4086B50", Slot = "8")]
+		[Token(Token = "0x6002B78")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600226E")]
-	[Address(RVA = "0x4086A50", Offset = "0x4086A50", VA = "0x4086A50")]
+	[Token(Token = "0x6002B70")]
+	[Address(RVA = "0x1FEEA70", Offset = "0x1FED070", VA = "0x181FEEA70")]
 	public CustomLogicPhysicMaterialCombineEnum()
 	{
 	}

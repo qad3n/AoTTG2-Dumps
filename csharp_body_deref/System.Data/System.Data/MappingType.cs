@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000069")]
+[Token(Token = "0x2000073")]
 public enum MappingType
 {
-	[Token(Token = "0x4000242")]
+	[Token(Token = "0x4000255")]
 	Element = 1,
-	[Token(Token = "0x4000243")]
+	[Token(Token = "0x4000256")]
 	Attribute,
-	[Token(Token = "0x4000244")]
+	[Token(Token = "0x4000257")]
 	SimpleContent,
-	[Token(Token = "0x4000245")]
+	[Token(Token = "0x4000258")]
 	Hidden
 }

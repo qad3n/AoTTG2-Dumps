@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000197")]
+[Token(Token = "0x200019A")]
 public interface IAsyncOnAnimatorMoveHandler
 {
-	[Token(Token = "0x6000A77")]
+	[Token(Token = "0x6000A9B")]
 	UniTask OnAnimatorMoveAsync();
 }

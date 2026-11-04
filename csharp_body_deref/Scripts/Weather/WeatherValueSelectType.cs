@@ -12,12 +12,12 @@ namespace Weather;
 [Token(Token = "0x2000039")]
 public enum WeatherValueSelectType
 {
-	[Token(Token = "0x4000130")]
+	[Token(Token = "0x400013B")]
 	None,
-	[Token(Token = "0x4000131")]
+	[Token(Token = "0x400013C")]
 	Constant,
-	[Token(Token = "0x4000132")]
+	[Token(Token = "0x400013D")]
 	RandomBetween,
-	[Token(Token = "0x4000133")]
+	[Token(Token = "0x400013E")]
 	RandomFromList
 }

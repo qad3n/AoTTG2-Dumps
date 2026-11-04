@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000260")]
+[Token(Token = "0x200016B")]
 public class AddingNewEventArgs : EventArgs
 {
-	[Token(Token = "0x1700034C")]
+	[Token(Token = "0x170001BB")]
 	public object NewObject
 	{
-		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x4883370", Offset = "0x4883370", VA = "0x4883370")]
+		[Token(Token = "0x6000918")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000ED1")]
-		[Address(RVA = "0x4883380", Offset = "0x4883380", VA = "0x4883380")]
+		[Token(Token = "0x6000919")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x4883290", Offset = "0x4883290", VA = "0x4883290")]
+	[Token(Token = "0x6000916")]
+	[Address(RVA = "0x28775A0", Offset = "0x2875BA0", VA = "0x1828775A0")]
 	public AddingNewEventArgs()
 	{
 	}
 
-	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x4883300", Offset = "0x4883300", VA = "0x4883300")]
+	[Token(Token = "0x6000917")]
+	[Address(RVA = "0x2877530", Offset = "0x2875B30", VA = "0x182877530")]
 	public AddingNewEventArgs(object newObject)
 	{
 	}

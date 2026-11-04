@@ -1,5 +1,5 @@
 // Type: PhotonExtensions
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/PhotonExtensions.cs
@@ -8,972 +8,425 @@
 
 // PhotonExtensions$$SetCustomProperty
 // il2cpp: void PhotonExtensions__SetCustomProperty (Photon_Realtime_Player_o* player, System_String_o* key, Il2CppObject* value, const MethodInfo* method);
-// 0x40675f0
+// 0x181dad0f0
 
 void PhotonExtensions__SetCustomProperty
                (Photon_Realtime_Player_o *player,System_String_o *key,Il2CppObject *value,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  ExitGames_Client_Photon_Hashtable_o *pEVar3;
+  bool bVar1;
+  Unity_VisualScripting_Namespace_o *a;
+  ExitGames_Client_Photon_Hashtable_o *pEVar2;
   
-  if (g_data_057ac2c5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Hashtable);
-    g_data_057ac2c5 = '\x01';
+  if (Il2CppMethodInitialized_1843448f6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ExitGames_Client_Photon_Hashtable);
+    Il2CppMethodInitialized_1843448f6 = '\x01';
   }
-  if (g_data_057ac2c7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
-  if (player == (Photon_Realtime_Player_o *)0x0) goto label_0406770b;
-  __this = *(System_Collections_Generic_Dictionary_object__object__o **)
-            &(player->fields)._IsInactive_k__BackingField;
-  if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_0406770b;
-  bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                    (__this,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-  if ((char)bVar1 == '\0') goto label_04067710;
-  pEVar3 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-  if (pEVar3 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_0406770b;
-  pIVar2 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar3,(Il2CppObject *)key,(MethodInfo *)0x0);
-  if (pIVar2 != value) {
-    do {
-      pEVar3 = (ExitGames_Client_Photon_Hashtable_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Hashtable);
-      ExitGames_Client_Photon_Hashtable___ctor(pEVar3,(MethodInfo *)0x0);
-      if (pEVar3 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        System_Collections_Generic_Dictionary_object__object___Add
-                  ((System_Collections_Generic_Dictionary_object__object__o *)pEVar3,(Il2CppObject *)key,value
-                   ,MethodInfo_Void_Add);
-        Photon_Realtime_Player__SetCustomProperties
-                  (player,pEVar3,(ExitGames_Client_Photon_Hashtable_o *)0x0,(Photon_Realtime_WebFlags_o *)0x0,
-                   (MethodInfo *)0x0);
-        return;
-      }
-label_0406770b:
-      il2cpp_runtime_helper_022b2c90();
-label_04067710:
-    } while (value != (Il2CppObject *)0x0);
+  if ((player != (Photon_Realtime_Player_o *)0x0) &&
+     (pEVar2 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar2,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar1) {
+      pEVar2 = (player->fields)._CustomProperties_k__BackingField;
+      if (pEVar2 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dad206;
+      a = (Unity_VisualScripting_Namespace_o *)
+          ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)key,(MethodInfo *)0x0);
+    }
+    else {
+      a = (Unity_VisualScripting_Namespace_o *)0x0;
+    }
+    bVar1 = Unity_VisualScripting_Namespace__op_Equality
+                      (a,(Unity_VisualScripting_Namespace_o *)value,(MethodInfo *)0x0);
+    if (!bVar1) {
+      pEVar2 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ExitGames_Client_Photon_Hashtable);
+      ExitGames_Client_Photon_Hashtable___ctor(pEVar2,(MethodInfo *)0x0);
+      if (pEVar2 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dad206;
+      System_Collections_Generic_Dictionary_object__object___Add
+                ((System_Collections_Generic_Dictionary_object__object__o *)pEVar2,(Il2CppObject *)key,value,
+                 (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_object_object_Add);
+      Photon_Realtime_Player__SetCustomProperties
+                (player,pEVar2,(ExitGames_Client_Photon_Hashtable_o *)0x0,(Photon_Realtime_WebFlags_o *)0x0,
+                 (MethodInfo *)0x0);
+    }
+    return;
   }
-  return;
+label_181dad206:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$SetCustomProperties
 // il2cpp: void PhotonExtensions__SetCustomProperties (Photon_Realtime_Player_o* player, System_Collections_Generic_Dictionary_string__object__o* dictionary, const MethodInfo* method);
-// 0x40677b0
+// 0x181dace40
+// eh: try 0x181dacf70..0x181dad0e1 -> pad 0x183315a20 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 20 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dad04e: mov rdx, qword ptr [rip + 0x231052b]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_Dispose
+// asm:   0x181dad055: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x181dad05a: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181dad05f: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181dad064: test rcx, rcx
+// asm:   0x181dad067: jne 0x181dad0e1
+// asm:   0x181dad069: mov rdi, qword ptr [rsp + 0xa0]
+// asm:   0x181dad071: mov rsi, qword ptr [rsp + 0xa8]
+// asm:   0x181dad0e1: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315a25: push rbp
+// asm:   0x183315a26: sub rsp, 0x30
+// asm:   0x183315a2a: mov rbp, rdx
+// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
+// asm:   0x183315a31: mov rcx, qword ptr [rax]
+// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x183315a38: movabs rax, 0
+// asm:   0x183315a42: add rsp, 0x30
+// asm:   0x183315a46: pop rbp
+// asm:   0x183315a47: ret 
 
 void PhotonExtensions__SetCustomProperties
                (Photon_Realtime_Player_o *player,
                System_Collections_Generic_Dictionary_string__object__o *dictionary,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  Il2CppObject *key;
+  bool bVar2;
+  int32_t iVar3;
   ExitGames_Client_Photon_Hashtable_o *__this;
-  long lVar2;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_00;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_01;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_02;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_03;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_04;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_05;
-  bool_conflict bVar3;
-  int32_t iVar4;
-  ExitGames_Client_Photon_Hashtable_o *pEVar5;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_06;
-  Il2CppObject *pIVar6;
-  Il2CppObject *pIVar7;
-  long *plVar8;
-  MethodInfo_3251B20 *unaff_R12;
-  undefined1 auVar9 [12];
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *pSVar10;
-  Il2CppType *pIVar11;
-  Il2CppObject *pIVar12;
-  Il2CppObject *pIVar13;
-  ExitGames_Client_Photon_Hashtable_o *local_50;
-  undefined1 local_48 [16];
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
+  Unity_VisualScripting_Namespace_o *b;
+  Unity_VisualScripting_Namespace_o *a;
+  undefined1 local_60 [16];
+  Il2CppObject *local_50;
+  undefined1 local_48 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_40;
   Il2CppObject *local_38;
   
-  if (g_data_057ac2c6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Sys);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Hashtable);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-    g_data_057ac2c6 = '\x01';
+  if (Il2CppMethodInitialized_1843448f7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_object_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_object_get_Keys);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_Dispose
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_MoveNext
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_get_Current
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ExitGames_Client_Photon_Hashtable);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_object_GetEnumerator);
+    Il2CppMethodInitialized_1843448f7 = '\x01';
   }
-  pSVar10 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)0x0;
-  pIVar11 = (Il2CppType *)0x0;
-  pIVar12 = (Il2CppObject *)0x0;
-  pEVar5 = (ExitGames_Client_Photon_Hashtable_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Hashtable);
-  ExitGames_Client_Photon_Hashtable___ctor(pEVar5,(MethodInfo *)0x0);
-  if ((dictionary == (System_Collections_Generic_Dictionary_string__object__o *)0x0) ||
-     (__this_06 = System_Collections_Generic_Dictionary_object__object___get_Keys
-                            ((System_Collections_Generic_Dictionary_object__object__o *)dictionary,
-                             MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Sys),
-     __this_06 == (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0))
-  goto label_04067aed;
-  System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
-            ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)local_48,
-             __this_06,MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-  local_50 = pEVar5;
-  if (player == (Photon_Realtime_Player_o *)0x0) {
-    __this_01.fields._index = local_48._8_4_;
-    __this_01.fields._version = local_48._12_4_;
-    __this_01.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_48._0_8_;
-    __this_01.fields._currentKey = local_38;
-    bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                      (__this_01,(MethodInfo_3251B20 *)&stack0xffffffffffffff98);
-    pSVar10 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)local_48._0_8_
-    ;
-    pIVar11 = (Il2CppType *)local_48._8_8_;
-    pIVar12 = local_38;
-    if ((char)bVar3 == '\0') {
-label_04067a86:
-      __this_03.fields._8_8_ = pIVar11;
-      __this_03.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10;
-      __this_03.fields._currentKey = pIVar12;
-      System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                (__this_03,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-      goto label_04067a98;
-    }
-    System_Collections_Generic_Dictionary_object__object___get_Item
-              ((System_Collections_Generic_Dictionary_object__object__o *)dictionary,local_38,MethodInfo_Object_get_Item);
-    pSVar10 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)local_48._0_8_
-    ;
-    pIVar11 = (Il2CppType *)local_48._8_8_;
-    pIVar13 = local_38;
-    if (g_data_057ac2c7 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      g_data_057ac2c7 = '\x01';
-      pSVar10 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)
-                local_48._0_8_;
-      pIVar11 = (Il2CppType *)local_48._8_8_;
-      pIVar13 = local_38;
-    }
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar10 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)local_48._0_8_
-    ;
-    pIVar11 = (Il2CppType *)local_48._8_8_;
-    pIVar13 = local_38;
-    unaff_R12 = (MethodInfo_3251B20 *)&stack0xffffffffffffff98;
-    if (pEVar5 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-label_040678e0:
-      while (pIVar13 = local_38, __this_00.fields._8_8_ = pIVar11,
-            __this_00.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10,
-            __this_00.fields._currentKey = pIVar13,
-            bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                              (__this_00,(MethodInfo_3251B20 *)&stack0xffffffffffffff98), pIVar12 = pIVar13,
-            (char)bVar3 != '\0') {
-        pIVar6 = System_Collections_Generic_Dictionary_object__object___get_Item
-                           ((System_Collections_Generic_Dictionary_object__object__o *)dictionary,pIVar13,
-                            MethodInfo_Object_get_Item);
-        if (g_data_057ac2c7 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-          g_data_057ac2c7 = '\x01';
+  local_48 = (undefined1  [8])0x0;
+  pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_38 = (Il2CppObject *)0x0;
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ExitGames_Client_Photon_Hashtable);
+  ExitGames_Client_Photon_Hashtable___ctor(__this,(MethodInfo *)0x0);
+  if (dictionary != (System_Collections_Generic_Dictionary_string__object__o *)0x0) {
+    __this_00 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
+                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)dictionary,
+                           (MethodInfo_13C6500 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_string_object_get_Keys);
+    if (__this_00 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_60,
+                 __this_00,
+                 (MethodInfo_F1E4D0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_object_GetEnumerator);
+      local_48 = (undefined1  [8])local_60._0_8_;
+      pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60._8_8_;
+      local_38 = local_50;
+      local_60._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_60._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48;
+      while( true ) {
+        bVar2 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
+                          ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
+                           local_48,(MethodInfo_156BDD0 *)
+                                    MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_MoveNext
+                          );
+        key = local_38;
+        if (!bVar2) break;
+        b = (Unity_VisualScripting_Namespace_o *)
+            System_Collections_Generic_Dictionary_object__object___get_Item
+                      ((System_Collections_Generic_Dictionary_object__object__o *)dictionary,local_38,
+                       (MethodInfo_147A5B0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_object_get_Item);
+        if (Il2CppMethodInitialized_1843448f8 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+          Il2CppMethodInitialized_1843448f8 = '\x01';
         }
-        pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                  &(player->fields)._IsInactive_k__BackingField;
-        if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067ade;
-        bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                          (pSVar1,pIVar13,MethodInfo_Boolean_ContainsKey);
-        if ((char)bVar3 == '\0') goto label_04067970;
-        __this = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-        if (__this == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067ae3;
-        pIVar7 = ExitGames_Client_Photon_Hashtable__get_Item(__this,pIVar13,(MethodInfo *)0x0);
-        local_38 = pIVar12;
-        if (pIVar7 != pIVar6) goto label_0406797b;
+        if (player == (Photon_Realtime_Player_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+        if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,key,
+                           (MethodInfo_1455450 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+        if (bVar2) {
+          pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+          if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          a = (Unity_VisualScripting_Namespace_o *)
+              ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,key,(MethodInfo *)0x0);
+        }
+        else {
+          a = (Unity_VisualScripting_Namespace_o *)0x0;
+        }
+        bVar2 = Unity_VisualScripting_Namespace__op_Equality(a,b,(MethodInfo *)0x0);
+        if (!bVar2) {
+          if (__this == (ExitGames_Client_Photon_Hashtable_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          System_Collections_Generic_Dictionary_object__object___Add
+                    ((System_Collections_Generic_Dictionary_object__object__o *)__this,key,(Il2CppObject *)b,
+                     (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_object_object_Add)
+          ;
+        }
       }
-      goto label_04067a86;
-    }
-  }
-  do {
-    __this_02.fields._8_8_ = pIVar11;
-    __this_02.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10;
-    __this_02.fields._currentKey = pIVar13;
-    bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                      (__this_02,unaff_R12);
-    pIVar12 = pIVar13;
-    if ((char)bVar3 == '\0') goto label_04067a86;
-    pIVar6 = System_Collections_Generic_Dictionary_object__object___get_Item
-                       ((System_Collections_Generic_Dictionary_object__object__o *)dictionary,pIVar13,
-                        MethodInfo_Object_get_Item);
-    if (g_data_057ac2c7 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      g_data_057ac2c7 = '\x01';
-    }
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player->fields)._IsInactive_k__BackingField;
-    if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067ade;
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey(pSVar1,pIVar13,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar3 == '\0') {
-      pIVar7 = (Il2CppObject *)0x0;
-    }
-    else {
-      pEVar5 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-      if (pEVar5 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067ae3;
-      pIVar7 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar5,pIVar13,(MethodInfo *)0x0);
-    }
-    pIVar13 = pIVar12;
-  } while (pIVar7 == pIVar6);
-  goto label_04067ae8;
-label_04067970:
-  local_38 = pIVar12;
-  if (pIVar6 != (Il2CppObject *)0x0) {
-label_0406797b:
-    System_Collections_Generic_Dictionary_object__object___Add
-              ((System_Collections_Generic_Dictionary_object__object__o *)pEVar5,pIVar13,pIVar6,MethodInfo_Void_Add);
-    local_38 = pIVar12;
-  }
-  goto label_040678e0;
-label_04067ade:
-  il2cpp_runtime_helper_022b2c90();
-label_04067ae3:
-  il2cpp_runtime_helper_022b2c90();
-label_04067ae8:
-  il2cpp_runtime_helper_022b2c90();
-label_04067aed:
-  do {
-    auVar9 = il2cpp_runtime_helper_022b2c90();
-    if (auVar9._8_4_ != 1) {
-label_04067ba7:
-      __this_05.fields._8_8_ = pIVar11;
-      __this_05.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10;
-      __this_05.fields._currentKey = pIVar12;
       System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                (__this_05,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-      _Unwind_Resume(auVar9._0_8_);
-    }
-    plVar8 = (long *)__cxa_begin_catch(auVar9._0_8_);
-    lVar2 = *plVar8;
-    __cxa_end_catch();
-    __this_04.fields._8_8_ = pIVar11;
-    __this_04.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar10;
-    __this_04.fields._currentKey = pIVar12;
-    System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-              (__this_04,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-    if (lVar2 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar2);
-      goto label_04067ba7;
-    }
-label_04067a98:
-    if (local_50 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      iVar4 = System_Collections_Generic_Dictionary_object__object___get_Count
-                        ((System_Collections_Generic_Dictionary_object__object__o *)local_50,MethodInfo_Int32_get_Count);
-      if (iVar4 < 1) {
-        return;
-      }
-      if (player != (Photon_Realtime_Player_o *)0x0) {
-        Photon_Realtime_Player__SetCustomProperties
-                  (player,local_50,(ExitGames_Client_Photon_Hashtable_o *)0x0,
-                   (Photon_Realtime_WebFlags_o *)0x0,(MethodInfo *)0x0);
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48,
+                 MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_object_Dispose
+                );
+      if (__this != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
+        iVar3 = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___get_Count
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+                           (MethodInfo_13CDEB0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_object_object_get_Count);
+        if (0 < iVar3) {
+          if (player == (Photon_Realtime_Player_o *)0x0) goto label_181dad0c5;
+          Photon_Realtime_Player__SetCustomProperties
+                    (player,__this,(ExitGames_Client_Photon_Hashtable_o *)0x0,
+                     (Photon_Realtime_WebFlags_o *)0x0,(MethodInfo *)0x0);
+        }
         return;
       }
     }
-  } while( true );
+  }
+label_181dad0c5:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetCustomProperty
 // il2cpp: Il2CppObject* PhotonExtensions__GetCustomProperty (Photon_Realtime_Player_o* player, System_String_o* key, const MethodInfo* method);
-// 0x4067730
+// 0x181dac6c0
 
 Il2CppObject *
 PhotonExtensions__GetCustomProperty(Photon_Realtime_Player_o *player,System_String_o *key,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  ExitGames_Client_Photon_Hashtable_o *__this;
-  long lVar2;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_00;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_01;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_02;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_03;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_04;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_05;
-  bool_conflict bVar3;
-  int32_t iVar4;
-  Il2CppObject *pIVar5;
-  ExitGames_Client_Photon_Hashtable_o *pEVar6;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_06;
-  Il2CppObject *pIVar7;
-  Il2CppObject *pIVar8;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  long *plVar9;
-  System_Collections_Generic_Dictionary_object__object__o *__this_07;
-  Photon_Realtime_Player_o *__this_08;
-  MethodInfo_3251B20 *unaff_R12;
-  undefined1 auVar10 [12];
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *pSVar11;
-  Il2CppType *pIVar12;
-  Il2CppObject *pIVar13;
-  ExitGames_Client_Photon_Hashtable_o *pEStack_68;
-  undefined1 auStack_60 [16];
-  Il2CppObject *pIStack_50;
-  Il2CppRGCTXData *pIStack_48;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  bool bVar2;
+  Il2CppObject *pIVar3;
   
-  __this_07 = (System_Collections_Generic_Dictionary_object__object__o *)key;
-  __this_08 = player;
-  if (g_data_057ac2c7 == '\0') {
-    __this_08 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
-  if (player != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player->fields)._IsInactive_k__BackingField;
-    __this_08 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      __this_07 = (System_Collections_Generic_Dictionary_object__object__o *)key;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return (Il2CppObject *)0x0;
-      }
-      pEVar6 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-      __this_08 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar6 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar5 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar6,(Il2CppObject *)key,(MethodInfo *)0x0);
-        return pIVar5;
-      }
+  if ((player != (Photon_Realtime_Player_o *)0x0) &&
+     (pEVar1 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (!bVar2) {
+      return (Il2CppObject *)0x0;
+    }
+    pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+    if (pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
+      pIVar3 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      return pIVar3;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_48 = (Il2CppRGCTXData *)player;
-  if (g_data_057ac2c6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Sys);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Hashtable);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-    g_data_057ac2c6 = '\x01';
-  }
-  pSVar11 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)0x0;
-  pIVar12 = (Il2CppType *)0x0;
-  pIVar5 = (Il2CppObject *)0x0;
-  pEVar6 = (ExitGames_Client_Photon_Hashtable_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Hashtable);
-  ExitGames_Client_Photon_Hashtable___ctor(pEVar6,(MethodInfo *)0x0);
-  if ((__this_07 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
-     (__this_06 = System_Collections_Generic_Dictionary_object__object___get_Keys(__this_07,MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Sys),
-     __this_06 == (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0))
-  goto label_04067aed;
-  System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
-            ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)auStack_60,
-             __this_06,MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-  pEStack_68 = pEVar6;
-  if (__this_08 == (Photon_Realtime_Player_o *)0x0) {
-    __this_01.fields._index = auStack_60._8_4_;
-    __this_01.fields._version = auStack_60._12_4_;
-    __this_01.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)auStack_60._0_8_;
-    __this_01.fields._currentKey = pIStack_50;
-    bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                      (__this_01,(MethodInfo_3251B20 *)&stack0xffffffffffffff80);
-    pSVar11 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)
-              auStack_60._0_8_;
-    pIVar12 = (Il2CppType *)auStack_60._8_8_;
-    pIVar5 = pIStack_50;
-    if ((char)bVar3 == '\0') {
-label_04067a86:
-      __this_03.fields._8_8_ = pIVar12;
-      __this_03.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-      __this_03.fields._currentKey = pIVar5;
-      System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                (__this_03,(MethodInfo_3251B10 *)&stack0xffffffffffffff80);
-      goto label_04067a98;
-    }
-    System_Collections_Generic_Dictionary_object__object___get_Item(__this_07,pIStack_50,MethodInfo_Object_get_Item);
-    pSVar11 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)
-              auStack_60._0_8_;
-    pIVar12 = (Il2CppType *)auStack_60._8_8_;
-    pIVar13 = pIStack_50;
-    if (g_data_057ac2c7 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      g_data_057ac2c7 = '\x01';
-      pSVar11 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)
-                auStack_60._0_8_;
-      pIVar12 = (Il2CppType *)auStack_60._8_8_;
-      pIVar13 = pIStack_50;
-    }
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar11 = (System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__c *)
-              auStack_60._0_8_;
-    pIVar12 = (Il2CppType *)auStack_60._8_8_;
-    pIVar13 = pIStack_50;
-    unaff_R12 = (MethodInfo_3251B20 *)&stack0xffffffffffffff80;
-    if (pEVar6 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-label_040678e0:
-      while (pIVar13 = pIStack_50, __this_00.fields._8_8_ = pIVar12,
-            __this_00.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
-            __this_00.fields._currentKey = pIVar13,
-            bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                              (__this_00,(MethodInfo_3251B20 *)&stack0xffffffffffffff80), pIVar5 = pIVar13,
-            (char)bVar3 != '\0') {
-        pIVar7 = System_Collections_Generic_Dictionary_object__object___get_Item
-                           (__this_07,pIVar13,MethodInfo_Object_get_Item);
-        if (g_data_057ac2c7 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-          g_data_057ac2c7 = '\x01';
-        }
-        pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                  &(__this_08->fields)._IsInactive_k__BackingField;
-        if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067ade;
-        bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                          (pSVar1,pIVar13,MethodInfo_Boolean_ContainsKey);
-        if ((char)bVar3 == '\0') goto label_04067970;
-        __this = *(ExitGames_Client_Photon_Hashtable_o **)&(__this_08->fields)._IsInactive_k__BackingField;
-        if (__this == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067ae3;
-        pIVar8 = ExitGames_Client_Photon_Hashtable__get_Item(__this,pIVar13,(MethodInfo *)0x0);
-        pIStack_50 = pIVar5;
-        if (pIVar8 != pIVar7) goto label_0406797b;
-      }
-      goto label_04067a86;
-    }
-  }
-  do {
-    __this_02.fields._8_8_ = pIVar12;
-    __this_02.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-    __this_02.fields._currentKey = pIVar13;
-    bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                      (__this_02,unaff_R12);
-    pIVar5 = pIVar13;
-    if ((char)bVar3 == '\0') goto label_04067a86;
-    pIVar7 = System_Collections_Generic_Dictionary_object__object___get_Item(__this_07,pIVar13,MethodInfo_Object_get_Item);
-    if (g_data_057ac2c7 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      g_data_057ac2c7 = '\x01';
-    }
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(__this_08->fields)._IsInactive_k__BackingField;
-    if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067ade;
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey(pSVar1,pIVar13,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar3 == '\0') {
-      pIVar8 = (Il2CppObject *)0x0;
-    }
-    else {
-      pEVar6 = *(ExitGames_Client_Photon_Hashtable_o **)&(__this_08->fields)._IsInactive_k__BackingField;
-      if (pEVar6 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067ae3;
-      pIVar8 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar6,pIVar13,(MethodInfo *)0x0);
-    }
-    pIVar13 = pIVar5;
-  } while (pIVar8 == pIVar7);
-  goto label_04067ae8;
-label_04067970:
-  pIStack_50 = pIVar5;
-  if (pIVar7 != (Il2CppObject *)0x0) {
-label_0406797b:
-    System_Collections_Generic_Dictionary_object__object___Add
-              ((System_Collections_Generic_Dictionary_object__object__o *)pEVar6,pIVar13,pIVar7,MethodInfo_Void_Add);
-    pIStack_50 = pIVar5;
-  }
-  goto label_040678e0;
-label_04067ade:
-  il2cpp_runtime_helper_022b2c90();
-label_04067ae3:
-  il2cpp_runtime_helper_022b2c90();
-label_04067ae8:
-  il2cpp_runtime_helper_022b2c90();
-label_04067aed:
-  do {
-    auVar10 = il2cpp_runtime_helper_022b2c90();
-    if (auVar10._8_4_ != 1) {
-label_04067ba7:
-      __this_05.fields._8_8_ = pIVar12;
-      __this_05.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-      __this_05.fields._currentKey = pIVar5;
-      System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                (__this_05,(MethodInfo_3251B10 *)&stack0xffffffffffffff80);
-      _Unwind_Resume(auVar10._0_8_);
-    }
-    plVar9 = (long *)__cxa_begin_catch(auVar10._0_8_);
-    lVar2 = *plVar9;
-    __cxa_end_catch();
-    __this_04.fields._8_8_ = pIVar12;
-    __this_04.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-    __this_04.fields._currentKey = pIVar5;
-    System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-              (__this_04,(MethodInfo_3251B10 *)&stack0xffffffffffffff80);
-    if (lVar2 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar2);
-      goto label_04067ba7;
-    }
-label_04067a98:
-    if (pEStack_68 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      iVar4 = System_Collections_Generic_Dictionary_object__object___get_Count
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pEStack_68,MethodInfo_Int32_get_Count);
-      if (iVar4 < 1) {
-        return (Il2CppObject *)CONCAT44(extraout_var,iVar4);
-      }
-      if (__this_08 != (Photon_Realtime_Player_o *)0x0) {
-        bVar3 = Photon_Realtime_Player__SetCustomProperties
-                          (__this_08,pEStack_68,(ExitGames_Client_Photon_Hashtable_o *)0x0,
-                           (Photon_Realtime_WebFlags_o *)0x0,(MethodInfo *)0x0);
-        return (Il2CppObject *)CONCAT44(extraout_var_00,bVar3);
-      }
-    }
-  } while( true );
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetIntProperty
 // il2cpp: int32_t PhotonExtensions__GetIntProperty (Photon_Realtime_Player_o* player, System_String_o* key, int32_t defaultValue, const MethodInfo* method);
-// 0x4067be0
+// 0x181dac820
 
 int32_t PhotonExtensions__GetIntProperty
                   (Photon_Realtime_Player_o *player,System_String_o *key,int32_t defaultValue,
                   MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  ExitGames_Client_Photon_Hashtable_o *pEVar2;
-  bool_conflict bVar3;
-  uint uVar4;
-  Il2CppObject *pIVar5;
-  int32_t *piVar6;
-  char *pcVar7;
-  System_String_o *pSVar8;
-  undefined8 extraout_RDX;
-  System_String_o *extraout_RDX_00;
-  System_String_o *pSVar9;
-  Photon_Realtime_Player_o *pPVar10;
-  Photon_Realtime_Player_o *pPVar11;
-  int32_t iVar12;
-  System_String_o *unaff_R15;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  bool bVar2;
+  Il2CppObject *obj;
+  int32_t *piVar3;
+  Il2CppObject *pIVar4;
   
-  pSVar8 = key;
-  pPVar10 = player;
-  if (g_data_057ac2c7 == '\0') {
-    pPVar10 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
-  if (player != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player->fields)._IsInactive_k__BackingField;
-    pPVar10 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar8 = key;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return defaultValue;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-      pPVar10 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar5 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)key,(MethodInfo *)0x0);
-        if (pIVar5 == (Il2CppObject *)0x0) {
-          return defaultValue;
+  if ((player != (Photon_Realtime_Player_o *)0x0) &&
+     (pEVar1 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
+      pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dac8e0;
+      obj = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar4 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354e08) {
+          pIVar4 = obj;
         }
-        if (pIVar5->klass != g_data_057b9bb8) {
-          return defaultValue;
+        if (pIVar4 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class == (g_data_184354e08->_1).element_class) {
+            piVar3 = il2cpp_object_unbox(obj);
+            return *piVar3;
+          }
+          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e08);
         }
-        piVar6 = (int32_t *)il2cpp_runtime_helper_02305440(pIVar5);
-        return *piVar6;
       }
     }
+    return defaultValue;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar9 = pSVar8;
-  pPVar11 = pPVar10;
-  if (g_data_057ac2c7 == '\0') {
-    pPVar11 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
-  }
-  if (pPVar10 != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(pPVar10->fields)._IsInactive_k__BackingField;
-    pPVar11 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar9 = pSVar8;
-      uVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)pSVar8,MethodInfo_Boolean_ContainsKey);
-      pIVar5 = (Il2CppObject *)(ulong)uVar4;
-      if ((char)uVar4 == '\0') {
-label_04067cfa:
-        return (int32_t)pIVar5;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(pPVar10->fields)._IsInactive_k__BackingField;
-      pPVar11 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar5 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)pSVar8,(MethodInfo *)0x0);
-        if ((pIVar5 != (Il2CppObject *)0x0) && (pIVar5->klass == g_data_057b9be8)) {
-          pIVar5 = (Il2CppObject *)il2cpp_runtime_helper_02305440(pIVar5);
-        }
-        goto label_04067cfa;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  iVar12 = (int32_t)extraout_RDX;
-  pSVar8 = pSVar9;
-  pPVar10 = pPVar11;
-  if (g_data_057ac2c7 == '\0') {
-    pPVar10 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
-  }
-  if (pPVar11 != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(pPVar11->fields)._IsInactive_k__BackingField;
-    pPVar10 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar8 = pSVar9;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)pSVar9,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return iVar12;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(pPVar11->fields)._IsInactive_k__BackingField;
-      pPVar10 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar5 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)pSVar9,(MethodInfo *)0x0);
-        if (pIVar5 == (Il2CppObject *)0x0) {
-          return iVar12;
-        }
-        if (pIVar5->klass != g_data_057b9b98) {
-          return iVar12;
-        }
-        pcVar7 = (char *)il2cpp_runtime_helper_02305440(pIVar5);
-        return (int32_t)CONCAT71((int7)((ulong)extraout_RDX >> 8),*pcVar7 != '\0');
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac2c8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RoleSpriteHelpers);
-    g_data_057ac2c8 = '\x01';
-    if (g_data_057ac2c7 != '\0') goto label_04067dd7;
-label_04067e6c:
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    g_data_057ac2c7 = '\x01';
-    if (pPVar10 == (Photon_Realtime_Player_o *)0x0) goto label_04067e88;
-label_04067de0:
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(pPVar10->fields)._IsInactive_k__BackingField;
-    if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067e88;
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar1,(Il2CppObject *)pSVar8,MethodInfo_Boolean_ContainsKey);
-    pSVar9 = extraout_RDX_00;
-    if ((char)bVar3 == '\0') goto label_04067e31;
-    pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(pPVar10->fields)._IsInactive_k__BackingField;
-    if (pEVar2 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067e88;
-    unaff_R15 = (System_String_o *)
-                ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)pSVar8,(MethodInfo *)0x0);
-    if ((unaff_R15 == (System_String_o *)0x0) || ((Il2CppClass *)unaff_R15->klass != g_data_057b9c00))
-    goto label_04067e31;
-  }
-  else {
-    if (g_data_057ac2c7 == '\0') goto label_04067e6c;
-label_04067dd7:
-    if (pPVar10 != (Photon_Realtime_Player_o *)0x0) goto label_04067de0;
-label_04067e88:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  pSVar9 = unaff_R15;
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = System_String__op_Equality
-                    (pSVar8,(System_String_o *)**(undefined8 **)(TypeInfo_PlayerProperty + 0xb8),(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = System_String__op_Equality
-                      (pSVar8,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 8),(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
-label_04067e31:
-      return (int32_t)pSVar9;
-    }
-  }
-  if (*(int *)(TypeInfo_RoleSpriteHelpers + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar8 = PatreonEffects_RoleSpriteHelpers__SanitizePlayerText(pPVar10,pSVar9,(MethodInfo *)0x0);
-  return (int32_t)pSVar8;
+label_181dac8e0:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetFloatProperty
 // il2cpp: float PhotonExtensions__GetFloatProperty (Photon_Realtime_Player_o* player, System_String_o* key, float defaultValue, const MethodInfo* method);
-// 0x4067c70
+// 0x181dac740
 
 float PhotonExtensions__GetFloatProperty
                 (Photon_Realtime_Player_o *player,System_String_o *key,float defaultValue,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  ExitGames_Client_Photon_Hashtable_o *pEVar2;
-  bool_conflict bVar3;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  bool bVar2;
+  Il2CppObject *obj;
+  float *pfVar3;
   Il2CppObject *pIVar4;
-  float *pfVar5;
-  System_String_o *key_00;
-  System_String_o *a;
-  Photon_Realtime_Player_o *pPVar6;
-  Photon_Realtime_Player_o *player_00;
-  System_String_o *unaff_R15;
-  float extraout_XMM0_Da;
-  float extraout_XMM0_Da_00;
-  float fVar7;
-  float extraout_XMM0_Da_01;
-  float extraout_XMM0_Da_02;
-  float extraout_XMM0_Da_03;
-  float extraout_XMM0_Da_04;
   
-  key_00 = key;
-  pPVar6 = player;
-  if (g_data_057ac2c7 == '\0') {
-    pPVar6 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
-  if (player != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player->fields)._IsInactive_k__BackingField;
-    pPVar6 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      key_00 = key;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return defaultValue;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-      pPVar6 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar4 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)key,(MethodInfo *)0x0);
-        if (pIVar4 == (Il2CppObject *)0x0) {
-          return defaultValue;
+  if ((player != (Photon_Realtime_Player_o *)0x0) &&
+     (pEVar1 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
+      pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dac803;
+      obj = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar4 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354e38) {
+          pIVar4 = obj;
         }
-        if (pIVar4->klass != g_data_057b9be8) {
-          return defaultValue;
+        if (pIVar4 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class == (g_data_184354e38->_1).element_class) {
+            pfVar3 = il2cpp_object_unbox(obj);
+            return *pfVar3;
+          }
+          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354e38);
         }
-        pfVar5 = (float *)il2cpp_runtime_helper_02305440(pIVar4);
-        return *pfVar5;
       }
     }
+    return defaultValue;
   }
-  il2cpp_runtime_helper_022b2c90();
-  a = key_00;
-  player_00 = pPVar6;
-  if (g_data_057ac2c7 == '\0') {
-    player_00 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
-  }
-  if (pPVar6 != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(pPVar6->fields)._IsInactive_k__BackingField;
-    player_00 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      a = key_00;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)key_00,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return extraout_XMM0_Da;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(pPVar6->fields)._IsInactive_k__BackingField;
-      player_00 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar4 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)key_00,(MethodInfo *)0x0);
-        if (pIVar4 == (Il2CppObject *)0x0) {
-          return extraout_XMM0_Da_00;
-        }
-        if (pIVar4->klass != g_data_057b9b98) {
-          return extraout_XMM0_Da_00;
-        }
-        fVar7 = (float)il2cpp_runtime_helper_02305440(pIVar4);
-        return fVar7;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac2c8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RoleSpriteHelpers);
-    g_data_057ac2c8 = '\x01';
-  }
-  if (g_data_057ac2c7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    g_data_057ac2c7 = '\x01';
-  }
-  if ((player_00 != (Photon_Realtime_Player_o *)0x0) &&
-     (pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                &(player_00->fields)._IsInactive_k__BackingField,
-     pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar1,(Il2CppObject *)a,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar3 == '\0') {
-      return extraout_XMM0_Da_01;
-    }
-    pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(player_00->fields)._IsInactive_k__BackingField;
-    if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      unaff_R15 = (System_String_o *)
-                  ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)a,(MethodInfo *)0x0);
-      if (unaff_R15 == (System_String_o *)0x0) {
-        return extraout_XMM0_Da_02;
-      }
-      if ((Il2CppClass *)unaff_R15->klass != g_data_057b9c00) {
-        return extraout_XMM0_Da_02;
-      }
-      goto label_04067e8d;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_04067e8d:
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = System_String__op_Equality
-                    (a,(System_String_o *)**(undefined8 **)(TypeInfo_PlayerProperty + 0xb8),(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = System_String__op_Equality
-                      (a,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 8),(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
-      return extraout_XMM0_Da_03;
-    }
-  }
-  if (*(int *)(TypeInfo_RoleSpriteHelpers + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  PatreonEffects_RoleSpriteHelpers__SanitizePlayerText(player_00,unaff_R15,(MethodInfo *)0x0);
-  return extraout_XMM0_Da_04;
+label_181dac803:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetBoolProperty
 // il2cpp: bool PhotonExtensions__GetBoolProperty (Photon_Realtime_Player_o* player, System_String_o* key, bool defaultValue, const MethodInfo* method);
-// 0x4067d10
+// 0x181dac500
 
-bool_conflict
-PhotonExtensions__GetBoolProperty
-          (Photon_Realtime_Player_o *player,System_String_o *key,bool_conflict defaultValue,MethodInfo *method
-          )
+bool PhotonExtensions__GetBoolProperty
+               (Photon_Realtime_Player_o *player,System_String_o *key,bool defaultValue,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  ExitGames_Client_Photon_Hashtable_o *pEVar2;
-  bool_conflict bVar3;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  bool bVar2;
+  Il2CppObject *obj;
+  undefined1 *puVar3;
   Il2CppObject *pIVar4;
-  char *pcVar5;
-  System_String_o *pSVar6;
-  System_String_o *extraout_RDX;
-  Photon_Realtime_Player_o *player_00;
-  System_String_o *text;
-  System_String_o *unaff_R15;
   
-  pSVar6 = key;
-  player_00 = player;
-  if (g_data_057ac2c7 == '\0') {
-    player_00 = (Photon_Realtime_Player_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
-  if (player != (Photon_Realtime_Player_o *)0x0) {
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player->fields)._IsInactive_k__BackingField;
-    player_00 = (Photon_Realtime_Player_o *)0x0;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar6 = key;
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar1,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar3 == '\0') {
-        return defaultValue;
-      }
-      pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-      player_00 = (Photon_Realtime_Player_o *)0x0;
-      if (pEVar2 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pIVar4 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)key,(MethodInfo *)0x0);
-        if (pIVar4 == (Il2CppObject *)0x0) {
-          return defaultValue;
+  if ((player != (Photon_Realtime_Player_o *)0x0) &&
+     (pEVar1 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
+      pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dac5c4;
+      obj = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar4 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354de8) {
+          pIVar4 = obj;
         }
-        if (pIVar4->klass != g_data_057b9b98) {
-          return defaultValue;
+        if (pIVar4 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class == (g_data_184354de8->_1).element_class) {
+            puVar3 = il2cpp_object_unbox(obj);
+            return (bool)*puVar3;
+          }
+          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354de8);
         }
-        pcVar5 = (char *)il2cpp_runtime_helper_02305440(pIVar4);
-        return CONCAT31((int3)((uint)defaultValue >> 8),*pcVar5 != '\0');
       }
     }
+    return defaultValue;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac2c8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RoleSpriteHelpers);
-    g_data_057ac2c8 = '\x01';
-    if (g_data_057ac2c7 != '\0') goto label_04067dd7;
-label_04067e6c:
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    g_data_057ac2c7 = '\x01';
-    if (player_00 == (Photon_Realtime_Player_o *)0x0) goto label_04067e88;
-label_04067de0:
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)
-              &(player_00->fields)._IsInactive_k__BackingField;
-    if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_04067e88;
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar1,(Il2CppObject *)pSVar6,MethodInfo_Boolean_ContainsKey);
-    text = extraout_RDX;
-    if ((char)bVar3 == '\0') goto label_04067e31;
-    pEVar2 = *(ExitGames_Client_Photon_Hashtable_o **)&(player_00->fields)._IsInactive_k__BackingField;
-    if (pEVar2 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_04067e88;
-    unaff_R15 = (System_String_o *)
-                ExitGames_Client_Photon_Hashtable__get_Item(pEVar2,(Il2CppObject *)pSVar6,(MethodInfo *)0x0);
-    if ((unaff_R15 == (System_String_o *)0x0) || ((Il2CppClass *)unaff_R15->klass != g_data_057b9c00))
-    goto label_04067e31;
-  }
-  else {
-    if (g_data_057ac2c7 == '\0') goto label_04067e6c;
-label_04067dd7:
-    if (player_00 != (Photon_Realtime_Player_o *)0x0) goto label_04067de0;
-label_04067e88:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  text = unaff_R15;
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = System_String__op_Equality
-                    (pSVar6,(System_String_o *)**(undefined8 **)(TypeInfo_PlayerProperty + 0xb8),(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = System_String__op_Equality
-                      (pSVar6,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 8),(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
-label_04067e31:
-      return (bool_conflict)text;
-    }
-  }
-  if (*(int *)(TypeInfo_RoleSpriteHelpers + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar6 = PatreonEffects_RoleSpriteHelpers__SanitizePlayerText(player_00,text,(MethodInfo *)0x0);
-  return (bool_conflict)pSVar6;
+label_181dac5c4:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetStringProperty
 // il2cpp: System_String_o* PhotonExtensions__GetStringProperty (Photon_Realtime_Player_o* player, System_String_o* key, System_String_o* defaultValue, const MethodInfo* method);
-// 0x4067db0
+// 0x181dacc10
 
 System_String_o *
 PhotonExtensions__GetStringProperty
@@ -981,249 +434,203 @@ PhotonExtensions__GetStringProperty
           MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  ExitGames_Client_Photon_Hashtable_o *__this_00;
-  bool_conflict bVar1;
-  System_String_o *pSVar2;
-  System_String_o *unaff_R15;
+  ExitGames_Client_Photon_Hashtable_o *pEVar1;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_String_o *pSVar4;
   
-  if (g_data_057ac2c8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RoleSpriteHelpers);
-    g_data_057ac2c8 = '\x01';
+  if (Il2CppMethodInitialized_1843448f9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_RoleSpriteHelpers);
+    Il2CppMethodInitialized_1843448f9 = '\x01';
   }
-  if (g_data_057ac2c7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    g_data_057ac2c7 = '\x01';
+  if (Il2CppMethodInitialized_1843448f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448f8 = '\x01';
   }
   if ((player != (Photon_Realtime_Player_o *)0x0) &&
-     (__this = *(System_Collections_Generic_Dictionary_object__object__o **)
-                &(player->fields)._IsInactive_k__BackingField,
-     __this != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) {
-    bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (__this,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar1 == '\0') {
-      return defaultValue;
-    }
-    __this_00 = *(ExitGames_Client_Photon_Hashtable_o **)&(player->fields)._IsInactive_k__BackingField;
-    if (__this_00 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      unaff_R15 = (System_String_o *)
-                  ExitGames_Client_Photon_Hashtable__get_Item(__this_00,(Il2CppObject *)key,(MethodInfo *)0x0)
-      ;
-      if (unaff_R15 == (System_String_o *)0x0) {
-        return defaultValue;
+     (pEVar1 = (player->fields)._CustomProperties_k__BackingField,
+     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
+      pEVar1 = (player->fields)._CustomProperties_k__BackingField;
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dacd9b;
+      pSVar3 = (System_String_o *)
+               ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (pSVar3 != (System_String_o *)0x0) {
+        pSVar4 = (System_String_o *)0x0;
+        if ((Il2CppClass *)pSVar3->klass == g_data_184354e50) {
+          pSVar4 = pSVar3;
+        }
+        if (pSVar4 != (System_String_o *)0x0) {
+          pSVar4 = (System_String_o *)0x0;
+          if ((Il2CppClass *)pSVar3->klass == g_data_184354e50) {
+            pSVar4 = pSVar3;
+          }
+          if (pSVar4 == (System_String_o *)0x0) {
+            il2cpp_codegen_raise_invalid_cast_exception(pSVar3);
+          }
+          if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
+          }
+          bVar2 = System_String__op_Equality
+                            (key,TypeInfo_GameManagers_PlayerProperty->static_fields->Name,(MethodInfo *)0x0);
+          if (!bVar2) {
+            if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
+            }
+            bVar2 = System_String__op_Equality
+                              (key,TypeInfo_GameManagers_PlayerProperty->static_fields->Guild,
+                               (MethodInfo *)0x0);
+            if (!bVar2) {
+              return pSVar4;
+            }
+          }
+          if ((TypeInfo_PatreonEffects_RoleSpriteHelpers->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_RoleSpriteHelpers);
+          }
+          pSVar3 = PatreonEffects_RoleSpriteHelpers__SanitizePlayerText(player,pSVar4,(MethodInfo *)0x0);
+          return pSVar3;
+        }
       }
-      if ((Il2CppClass *)unaff_R15->klass != g_data_057b9c00) {
-        return defaultValue;
-      }
-      goto label_04067e8d;
     }
+    return defaultValue;
   }
-  il2cpp_runtime_helper_022b2c90();
-label_04067e8d:
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = System_String__op_Equality
-                    (key,(System_String_o *)**(undefined8 **)(TypeInfo_PlayerProperty + 0xb8),(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar1 = System_String__op_Equality
-                      (key,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 8),(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return unaff_R15;
-    }
-  }
-  if (*(int *)(TypeInfo_RoleSpriteHelpers + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar2 = PatreonEffects_RoleSpriteHelpers__SanitizePlayerText(player,unaff_R15,(MethodInfo *)0x0);
-  return pSVar2;
+label_181dacd9b:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetStringProperty
 // il2cpp: System_String_o* PhotonExtensions__GetStringProperty (Photon_Realtime_RoomInfo_o* room, System_String_o* key, System_String_o* defaultValue, const MethodInfo* method);
-// 0x4067f30
+// 0x181dacb40
 
 System_String_o *
-PhotonExtensions__GetStringProperty_3f67f30
+PhotonExtensions__GetStringProperty_1dacb40
           (Photon_Realtime_RoomInfo_o *room,System_String_o *key,System_String_o *defaultValue,
           MethodInfo *method)
 
 {
   ExitGames_Client_Photon_Hashtable_o *pEVar1;
-  bool_conflict bVar2;
+  bool bVar2;
   System_String_o *pSVar3;
-  Il2CppObject *pIVar4;
-  char *pcVar5;
-  undefined4 extraout_var;
-  ulong extraout_RDX;
-  Photon_Realtime_RoomInfo_o *pPVar6;
-  Photon_Realtime_RoomInfo_o *player;
-  System_String_o *pSVar7;
+  System_String_o *pSVar4;
   
-  pSVar3 = key;
-  pPVar6 = room;
-  if (g_data_057ac2c9 == '\0') {
-    pPVar6 = (Photon_Realtime_RoomInfo_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2c9 = '\x01';
+  if (Il2CppMethodInitialized_1843448fa == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448fa = '\x01';
   }
-  if (room != (Photon_Realtime_RoomInfo_o *)0x0) {
-    pEVar1 = (room->fields).customProperties;
-    pPVar6 = (Photon_Realtime_RoomInfo_o *)0x0;
-    if (pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      pSVar3 = key;
-      bVar2 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pEVar1,(Il2CppObject *)key
-                         ,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar2 == '\0') {
-        return defaultValue;
-      }
+  if ((room != (Photon_Realtime_RoomInfo_o *)0x0) &&
+     (pEVar1 = (room->fields).customProperties, pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
       pEVar1 = (room->fields).customProperties;
-      pPVar6 = (Photon_Realtime_RoomInfo_o *)0x0;
-      if (pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-        pSVar3 = (System_String_o *)
-                 ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
-        if (pSVar3 == (System_String_o *)0x0) {
-          return defaultValue;
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dacbf7;
+      pSVar3 = (System_String_o *)
+               ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (pSVar3 != (System_String_o *)0x0) {
+        pSVar4 = (System_String_o *)0x0;
+        if ((Il2CppClass *)pSVar3->klass == g_data_184354e50) {
+          pSVar4 = pSVar3;
         }
-        if ((Il2CppClass *)pSVar3->klass != g_data_057b9c00) {
-          return defaultValue;
-        }
-        return pSVar3;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar7 = (System_String_o *)(extraout_RDX & 0xffffffff);
-  player = pPVar6;
-  if (g_data_057ac2ca == '\0') {
-    player = (Photon_Realtime_RoomInfo_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2ca = '\x01';
-  }
-  if (pPVar6 != (Photon_Realtime_RoomInfo_o *)0x0) {
-    pEVar1 = (pPVar6->fields).customProperties;
-    player = (Photon_Realtime_RoomInfo_o *)0x0;
-    if (pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0) {
-      bVar2 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pEVar1,
-                         (Il2CppObject *)pSVar3,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar2 != '\0') {
-        pEVar1 = (pPVar6->fields).customProperties;
-        player = (Photon_Realtime_RoomInfo_o *)0x0;
-        if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_0406804c;
-        pIVar4 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)pSVar3,(MethodInfo *)0x0);
-        if ((pIVar4 != (Il2CppObject *)0x0) && (pIVar4->klass == g_data_057b9b98)) {
-          pcVar5 = (char *)il2cpp_runtime_helper_02305440(pIVar4);
-          pSVar7 = (System_String_o *)CONCAT71((int7)((ulong)pSVar7 >> 8),*pcVar5 != '\0');
+        if (pSVar4 != (System_String_o *)0x0) {
+          pSVar4 = (System_String_o *)0x0;
+          if ((Il2CppClass *)pSVar3->klass == g_data_184354e50) {
+            pSVar4 = pSVar3;
+          }
+          if (pSVar4 != (System_String_o *)0x0) {
+            return pSVar4;
+          }
+          il2cpp_codegen_raise_invalid_cast_exception(pSVar3);
         }
       }
-      return pSVar7;
     }
+    return defaultValue;
   }
-label_0406804c:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac2cb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"null");
-    g_data_057ac2cb = '\x01';
-  }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar3 = PhotonExtensions__GetStringProperty
-                     ((Photon_Realtime_Player_o *)player,
-                      *(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x70),"null",method);
-  bVar2 = System_String__op_Inequality(pSVar3,"null",(MethodInfo *)0x0);
-  return (System_String_o *)CONCAT44(extraout_var,bVar2);
+label_181dacbf7:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$GetBoolProperty
 // il2cpp: bool PhotonExtensions__GetBoolProperty (Photon_Realtime_RoomInfo_o* room, System_String_o* key, bool defaultValue, const MethodInfo* method);
-// 0x4067fc0
+// 0x181dac5e0
 
-bool_conflict
-PhotonExtensions__GetBoolProperty_3f67fc0
-          (Photon_Realtime_RoomInfo_o *room,System_String_o *key,bool_conflict defaultValue,MethodInfo *method
-          )
+bool PhotonExtensions__GetBoolProperty_1dac5e0
+               (Photon_Realtime_RoomInfo_o *room,System_String_o *key,bool defaultValue,MethodInfo *method)
 
 {
   ExitGames_Client_Photon_Hashtable_o *pEVar1;
-  bool_conflict bVar2;
-  Il2CppObject *pIVar3;
-  char *pcVar4;
-  System_String_o *a;
-  Photon_Realtime_RoomInfo_o *player;
+  bool bVar2;
+  Il2CppObject *obj;
+  undefined1 *puVar3;
+  Il2CppObject *pIVar4;
   
-  player = room;
-  if (g_data_057ac2ca == '\0') {
-    player = (Photon_Realtime_RoomInfo_o *)&MethodInfo_Boolean_ContainsKey;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2ca = '\x01';
+  if (Il2CppMethodInitialized_1843448fb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    Il2CppMethodInitialized_1843448fb = '\x01';
   }
   if ((room != (Photon_Realtime_RoomInfo_o *)0x0) &&
-     (pEVar1 = (room->fields).customProperties, player = (Photon_Realtime_RoomInfo_o *)0x0,
-     pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
-    bVar2 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      ((System_Collections_Generic_Dictionary_object__object__o *)pEVar1,(Il2CppObject *)key,
-                       MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar2 != '\0') {
+     (pEVar1 = (room->fields).customProperties, pEVar1 != (ExitGames_Client_Photon_Hashtable_o *)0x0)) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pEVar1,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_object_object_ContainsKey);
+    if (bVar2) {
       pEVar1 = (room->fields).customProperties;
-      player = (Photon_Realtime_RoomInfo_o *)0x0;
-      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_0406804c;
-      pIVar3 = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
-      if ((pIVar3 != (Il2CppObject *)0x0) && (pIVar3->klass == g_data_057b9b98)) {
-        pcVar4 = (char *)il2cpp_runtime_helper_02305440(pIVar3);
-        defaultValue = CONCAT31((int3)((uint)defaultValue >> 8),*pcVar4 != '\0');
+      if (pEVar1 == (ExitGames_Client_Photon_Hashtable_o *)0x0) goto label_181dac6a4;
+      obj = ExitGames_Client_Photon_Hashtable__get_Item(pEVar1,(Il2CppObject *)key,(MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar4 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354de8) {
+          pIVar4 = obj;
+        }
+        if (pIVar4 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class == (g_data_184354de8->_1).element_class) {
+            puVar3 = il2cpp_object_unbox(obj);
+            return (bool)*puVar3;
+          }
+          il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354de8);
+        }
       }
     }
     return defaultValue;
   }
-label_0406804c:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac2cb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"null");
-    g_data_057ac2cb = '\x01';
-  }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  a = PhotonExtensions__GetStringProperty
-                ((Photon_Realtime_Player_o *)player,
-                 *(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x70),"null",method);
-  bVar2 = System_String__op_Inequality(a,"null",(MethodInfo *)0x0);
-  return bVar2;
+label_181dac6a4:
+  ThrowNullReferenceException();
 }
 
 
 // PhotonExtensions$$HasSpawnPoint
 // il2cpp: bool PhotonExtensions__HasSpawnPoint (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x4068060
+// 0x181dacdb0
 
-bool_conflict PhotonExtensions__HasSpawnPoint(Photon_Realtime_Player_o *player,MethodInfo *method)
+bool PhotonExtensions__HasSpawnPoint(Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   System_String_o *a;
-  MethodInfo *in_RCX;
   
-  if (g_data_057ac2cb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"null");
-    g_data_057ac2cb = '\x01';
+  if (Il2CppMethodInitialized_1843448fc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&"null");
+    Il2CppMethodInitialized_1843448fc = '\x01';
   }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
   }
   a = PhotonExtensions__GetStringProperty
-                (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x70),"null",in_RCX);
+                (player,TypeInfo_GameManagers_PlayerProperty->static_fields->SpawnPoint,"null",
+                 (MethodInfo *)0x0);
   bVar1 = System_String__op_Inequality(a,"null",(MethodInfo *)0x0);
   return bVar1;
 }
@@ -1231,133 +638,109 @@ bool_conflict PhotonExtensions__HasSpawnPoint(Photon_Realtime_Player_o *player,M
 
 // PhotonExtensions$$GetSpawnPoint
 // il2cpp: UnityEngine_Vector3_o PhotonExtensions__GetSpawnPoint (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x40680e0
+// 0x181dac8f0
 
-UnityEngine_Vector3_o PhotonExtensions__GetSpawnPoint(Photon_Realtime_Player_o *player,MethodInfo *method)
+UnityEngine_Vector3_o *
+PhotonExtensions__GetSpawnPoint
+          (UnityEngine_Vector3_o *__return_storage_ptr__,Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
+  uint32_t uVar1;
+  UnityEngine_Vector3_StaticFields *pUVar2;
   System_Collections_Generic_Dictionary_int__object__o *__this;
-  long lVar1;
-  undefined8 uVar2;
-  bool_conflict bVar3;
   int32_t key;
   System_String_o *__this_00;
-  System_String_array *pSVar4;
   UnityEngine_Transform_o *__this_01;
-  System_Type_o *pSVar5;
-  MethodInfo *in_RCX;
-  System_RuntimeTypeHandle_o handle;
+  UnityEngine_Vector3_o *pUVar3;
+  System_String_array *pSVar4;
+  GameManagers_PlayerProperty_c *klass;
+  bool bVar5;
   float fVar6;
-  undefined4 extraout_XMM0_Db;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 extraout_XMM0_Dd;
-  float in_XMM1_Da;
-  UnityEngine_Vector3_o UVar7;
-  UnityEngine_Vector3_o UVar8;
-  UnityEngine_Vector3_o UVar9;
-  Il2CppObject *local_40;
-  float local_38;
-  undefined8 local_28;
-  undefined8 uStack_20;
+  float fVar7;
+  float fVar8;
+  Il2CppObject *local_res8;
+  UnityEngine_Vector3_o local_38 [4];
   
-  if (g_data_057ac2cc == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"0,0,0");
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac2cc = '\x01';
+  if (Il2CppMethodInitialized_1843448fd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_TryGetValue);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&"0,0,0");
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_1843448fd = '\x01';
   }
-  local_40 = (Il2CppObject *)0x0;
-  if (g_data_057a65d5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-    g_data_057a65d5 = '\x01';
+  bVar5 = g_data_18433dbea == '\0';
+  (__return_storage_ptr__->fields).x = 0.0;
+  (__return_storage_ptr__->fields).y = 0.0;
+  (__return_storage_ptr__->fields).z = 0.0;
+  local_res8 = (Il2CppObject *)0x0;
+  if (bVar5) {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    g_data_18433dbea = '\x01';
   }
-  local_28 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-  uStack_20 = 0;
-  local_38 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  klass = TypeInfo_GameManagers_PlayerProperty;
+  pUVar2 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar1 = (TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor;
+  fVar7 = (pUVar2->zeroVector).fields.y;
+  fVar6 = (pUVar2->zeroVector).fields.z;
+  (__return_storage_ptr__->fields).x = (pUVar2->zeroVector).fields.x;
+  (__return_storage_ptr__->fields).y = fVar7;
+  (__return_storage_ptr__->fields).z = fVar6;
+  if (uVar1 == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)klass);
+    klass = TypeInfo_GameManagers_PlayerProperty;
   }
   __this_00 = PhotonExtensions__GetStringProperty
-                        (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x70),"0,0,0",
-                         in_RCX);
+                        (player,klass->static_fields->SpawnPoint,"0,0,0",(MethodInfo *)0x0);
   if (__this_00 != (System_String_o *)0x0) {
-    bVar3 = System_String__Contains(__this_00,",",(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
-      if (*(int *)(TypeInfo_MapLoader + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this = (System_Collections_Generic_Dictionary_int__object__o *)**(undefined8 **)(TypeInfo_MapLoader + 0xb8);
-      key = System_Int32__Parse(__this_00,(MethodInfo *)0x0);
-      if (__this != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
-        bVar3 = System_Collections_Generic_Dictionary_int__object___TryGetValue
-                          (__this,key,&local_40,MethodInfo_Boolean_TryGetValue);
-        if ((char)bVar3 == '\0') {
-label_040682dc:
-          UVar8.fields.y = local_28._4_4_;
-          UVar8.fields.x = (float)local_28;
-          UVar8.fields.z = local_38;
-          return (UnityEngine_Vector3_o)UVar8.fields;
+    bVar5 = System_String__Contains(__this_00,",",(MethodInfo *)0x0);
+    if (bVar5) {
+      pSVar4 = System_String__Split(__this_00,0x2c,0,(MethodInfo *)0x0);
+      if (pSVar4 != (System_String_array *)0x0) {
+        if ((((int)pSVar4->max_length != 0) &&
+            (fVar6 = System_Single__Parse(pSVar4->m_Items[0],(MethodInfo *)0x0), 1 < (uint)pSVar4->max_length)
+            ) && (fVar7 = System_Single__Parse(pSVar4->m_Items[1],(MethodInfo *)0x0),
+                 2 < (uint)pSVar4->max_length)) {
+          fVar8 = System_Single__Parse(pSVar4->m_Items[2],(MethodInfo *)0x0);
+          (__return_storage_ptr__->fields).z = fVar8;
+          (__return_storage_ptr__->fields).x = fVar6;
+          (__return_storage_ptr__->fields).y = fVar7;
+          return __return_storage_ptr__;
         }
-        in_XMM1_Da = local_38;
-        if ((local_40 != (Il2CppObject *)0x0) && (local_40[1].monitor != (UnityEngine_GameObject_o *)0x0)) {
-          __this_01 = UnityEngine_GameObject__get_transform(local_40[1].monitor,(MethodInfo *)0x0);
-          if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-            UVar8 = UnityEngine_Transform__get_position(__this_01,(MethodInfo *)0x0);
-            local_38 = UVar8.fields.z;
-            local_28._0_4_ = UVar8.fields.x;
-            local_28._4_4_ = UVar8.fields.y;
-            goto label_040682dc;
-          }
-        }
+        ThrowIndexOutOfRangeException();
       }
     }
     else {
-      pSVar4 = System_String__Split(__this_00,0x2c,0,(MethodInfo *)0x0);
-      if (pSVar4 != (System_String_array *)0x0) {
-        if ((int)pSVar4->max_length != 0) {
-          fVar6 = System_Single__Parse(pSVar4->m_Items[0],(MethodInfo *)0x0);
-          local_28 = CONCAT44(extraout_XMM0_Db,fVar6);
-          uStack_20 = CONCAT44(extraout_XMM0_Dd,extraout_XMM0_Dc);
-          if (1 < (uint)pSVar4->max_length) {
-            local_38 = System_Single__Parse(pSVar4->m_Items[1],(MethodInfo *)0x0);
-            if (2 < (uint)pSVar4->max_length) {
-              fVar6 = System_Single__Parse(pSVar4->m_Items[2],(MethodInfo *)0x0);
-              UVar7.fields.y = local_38;
-              UVar7.fields.x = (float)local_28;
-              UVar7.fields.z = fVar6;
-              return (UnityEngine_Vector3_o)UVar7.fields;
-            }
-          }
+      if ((TypeInfo_Map_MapLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapLoader);
+      }
+      __this = (System_Collections_Generic_Dictionary_int__object__o *)
+               TypeInfo_Map_MapLoader->static_fields->IdToMapObject;
+      key = System_Int32__Parse(__this_00,(MethodInfo *)0x0);
+      if (__this != (System_Collections_Generic_Dictionary_int__object__o *)0x0) {
+        bVar5 = System_Collections_Generic_Dictionary_int__object___TryGetValue
+                          (__this,key,&local_res8,
+                           (MethodInfo_141F4E0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_int_MapObject_TryGetValue);
+        if (!bVar5) {
+          return __return_storage_ptr__;
         }
-        goto label_040682e9;
+        if (((local_res8 != (Il2CppObject *)0x0) && (local_res8[1].monitor != (UnityEngine_GameObject_o *)0x0)
+            ) && (__this_01 = UnityEngine_GameObject__get_transform(local_res8[1].monitor,(MethodInfo *)0x0),
+                 __this_01 != (UnityEngine_Transform_o *)0x0)) {
+          pUVar3 = UnityEngine_Transform__get_position(local_38,__this_01,(MethodInfo *)0x0);
+          fVar7 = (pUVar3->fields).y;
+          fVar6 = (pUVar3->fields).z;
+          (__return_storage_ptr__->fields).x = (pUVar3->fields).x;
+          (__return_storage_ptr__->fields).y = fVar7;
+          (__return_storage_ptr__->fields).z = fVar6;
+          return __return_storage_ptr__;
+        }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_040682e9:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057ac2cd == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ReflectionExtensions);
-    g_data_057ac2cd = '\x01';
-  }
-  handle.fields.value = (System_RuntimeTypeHandle_Fields)(g_data_057b9bb8 + 0x20);
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar5 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_ReflectionExtensions + 0xb8) = pSVar5;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ReflectionExtensions + 0xb8));
-  pSVar5 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)(g_data_057b9be8 + 0x20),(MethodInfo *)0x0)
-  ;
-  lVar1 = *(long *)(TypeInfo_ReflectionExtensions + 0xb8);
-  *(System_Type_o **)(lVar1 + 8) = pSVar5;
-  uVar2 = il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar5);
-  UVar9.fields.z = in_XMM1_Da;
-  UVar9.fields.x = (float)(int)uVar2;
-  UVar9.fields.y = (float)(int)((ulong)uVar2 >> 0x20);
-  return (UnityEngine_Vector3_o)UVar9.fields;
+  ThrowNullReferenceException();
 }
 
 

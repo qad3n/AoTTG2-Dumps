@@ -6,32 +6,34 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003E0")]
+[Token(Token = "0x200048D")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal struct StyleVariable
 {
-	[Token(Token = "0x4000BAF")]
+	[Token(Token = "0x4000F2A")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly string name;
 
-	[Token(Token = "0x4000BB0")]
+	[Token(Token = "0x4000F2B")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly StyleSheet sheet;
 
-	[Token(Token = "0x4000BB1")]
+	[Token(Token = "0x4000F2C")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly StyleValueHandle[] handles;
 
-	[Token(Token = "0x6001880")]
-	[Address(RVA = "0x4F4E020", Offset = "0x4F4E020", VA = "0x4F4E020")]
+	[Token(Token = "0x6002317")]
+	[Address(RVA = "0x1046250", Offset = "0x1044850", VA = "0x181046250")]
 	public StyleVariable(string name, StyleSheet sheet, StyleValueHandle[] handles)
 	{
 	}
 
-	[Token(Token = "0x6001881")]
-	[Address(RVA = "0x4F4E060", Offset = "0x4F4E060", VA = "0x4F4E060", Slot = "2")]
+	[Token(Token = "0x6002318")]
+	[Address(RVA = "0x312EC30", Offset = "0x312D230", VA = "0x18312EC30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

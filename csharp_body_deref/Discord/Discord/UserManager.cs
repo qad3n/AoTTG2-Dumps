@@ -12,80 +12,85 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x2000081")]
 public class UserManager
 {
-	[Token(Token = "0x2000084")]
+	[Token(Token = "0x2000082")]
 	internal struct FFIEvents
 	{
-		[Token(Token = "0x2000085")]
+		[Token(Token = "0x2000083")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate void CurrentUserUpdateHandler(IntPtr ptr);
 
-		[Token(Token = "0x4000161")]
+		[Token(Token = "0x400015C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		internal CurrentUserUpdateHandler OnCurrentUserUpdate;
 	}
 
-	[Token(Token = "0x2000086")]
+	[Token(Token = "0x2000084")]
 	internal struct FFIMethods
 	{
-		[Token(Token = "0x2000087")]
+		[Token(Token = "0x2000085")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result GetCurrentUserMethod(IntPtr methodsPtr, ref User currentUser);
 
-		[Token(Token = "0x2000088")]
+		[Token(Token = "0x2000086")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate void GetUserCallback(IntPtr ptr, Result result, ref User user);
 
-		[Token(Token = "0x2000089")]
+		[Token(Token = "0x2000087")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate void GetUserMethod(IntPtr methodsPtr, long userId, IntPtr callbackData, GetUserCallback callback);
 
-		[Token(Token = "0x200008A")]
+		[Token(Token = "0x2000088")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result GetCurrentUserPremiumTypeMethod(IntPtr methodsPtr, ref PremiumType premiumType);
 
-		[Token(Token = "0x200008B")]
+		[Token(Token = "0x2000089")]
 		[UnmanagedFunctionPointer(CallingConvention.Winapi)]
 		internal delegate Result CurrentUserHasFlagMethod(IntPtr methodsPtr, UserFlag flag, ref bool hasFlag);
 
-		[Token(Token = "0x4000162")]
+		[Token(Token = "0x400015D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		internal GetCurrentUserMethod GetCurrentUser;
 
-		[Token(Token = "0x4000163")]
+		[Token(Token = "0x400015E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		internal GetUserMethod GetUser;
 
-		[Token(Token = "0x4000164")]
+		[Token(Token = "0x400015F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		internal GetCurrentUserPremiumTypeMethod GetCurrentUserPremiumType;
 
-		[Token(Token = "0x4000165")]
+		[Token(Token = "0x4000160")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		internal CurrentUserHasFlagMethod CurrentUserHasFlag;
 	}
 
-	[Token(Token = "0x200008C")]
+	[Token(Token = "0x200008A")]
 	public delegate void GetUserHandler(Result result, ref User user);
 
-	[Token(Token = "0x200008D")]
+	[Token(Token = "0x200008B")]
 	public delegate void CurrentUserUpdateHandler();
 
-	[Token(Token = "0x400015E")]
+	[Token(Token = "0x4000159")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private IntPtr MethodsPtr;
 
-	[Token(Token = "0x400015F")]
+	[Token(Token = "0x400015A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private object MethodsStructure;
+
+	[Token(Token = "0x400015B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
+	[CompilerGenerated]
+	private CurrentUserUpdateHandler m_OnCurrentUserUpdate;
 
 	[Token(Token = "0x17000007")]
 	private FFIMethods Methods
 	{
-		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x2335CA0", Offset = "0x2335CA0", VA = "0x2335CA0")]
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x53CA00", Offset = "0x53B000", VA = "0x18053CA00")]
 		get
 		{
 			return default(FFIMethods);
@@ -95,68 +100,68 @@ public class UserManager
 	[Token(Token = "0x14000005")]
 	public event CurrentUserUpdateHandler OnCurrentUserUpdate
 	{
-		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x2335DB0", Offset = "0x2335DB0", VA = "0x2335DB0")]
+		[Token(Token = "0x6000154")]
+		[Address(RVA = "0x53C960", Offset = "0x53AF60", VA = "0x18053C960")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000157")]
-		[Address(RVA = "0x2335E40", Offset = "0x2335E40", VA = "0x2335E40")]
+		[Token(Token = "0x6000155")]
+		[Address(RVA = "0x53CB10", Offset = "0x53B110", VA = "0x18053CB10")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x2332190", Offset = "0x2332190", VA = "0x2332190")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x53C770", Offset = "0x53AD70", VA = "0x18053C770")]
 	internal UserManager(IntPtr ptr, IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
-	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x2335ED0", Offset = "0x2335ED0", VA = "0x2335ED0")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x53C530", Offset = "0x53AB30", VA = "0x18053C530")]
 	private void InitEvents(IntPtr eventsPtr, ref FFIEvents events)
 	{
 	}
 
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x23360A0", Offset = "0x23360A0", VA = "0x23360A0")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x53C230", Offset = "0x53A830", VA = "0x18053C230")]
 	public User GetCurrentUser()
 	{
 		return default(User);
 	}
 
-	[Token(Token = "0x600015B")]
-	[Address(RVA = "0x2335AB0", Offset = "0x2335AB0", VA = "0x2335AB0")]
+	[Token(Token = "0x6000159")]
+	[Address(RVA = "0x53C2D0", Offset = "0x53A8D0", VA = "0x18053C2D0")]
 	[MonoPInvokeCallback]
 	private static void GetUserCallbackImpl(IntPtr ptr, Result result, ref User user)
 	{
 	}
 
-	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x2336150", Offset = "0x2336150", VA = "0x2336150")]
+	[Token(Token = "0x600015A")]
+	[Address(RVA = "0x53C3F0", Offset = "0x53A9F0", VA = "0x18053C3F0")]
 	public void GetUser(long userId, GetUserHandler callback)
 	{
 	}
 
-	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x2336340", Offset = "0x2336340", VA = "0x2336340")]
+	[Token(Token = "0x600015B")]
+	[Address(RVA = "0x53C190", Offset = "0x53A790", VA = "0x18053C190")]
 	public PremiumType GetCurrentUserPremiumType()
 	{
 		return default(PremiumType);
 	}
 
-	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x23363D0", Offset = "0x23363D0", VA = "0x23363D0")]
+	[Token(Token = "0x600015C")]
+	[Address(RVA = "0x53C0E0", Offset = "0x53A6E0", VA = "0x18053C0E0")]
 	public bool CurrentUserHasFlag(UserFlag flag)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x2335BA0", Offset = "0x2335BA0", VA = "0x2335BA0")]
+	[Token(Token = "0x600015D")]
+	[Address(RVA = "0x53C660", Offset = "0x53AC60", VA = "0x18053C660")]
 	[MonoPInvokeCallback]
 	private static void OnCurrentUserUpdateImpl(IntPtr ptr)
 	{

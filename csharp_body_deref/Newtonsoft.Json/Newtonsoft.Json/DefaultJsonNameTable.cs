@@ -28,7 +28,7 @@ public class DefaultJsonNameTable : JsonNameTable
 		internal Entry Next;
 
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x3D54D50", Offset = "0x3D54D50", VA = "0x3D54D50")]
+		[Address(RVA = "0x1BC8210", Offset = "0x1BC6810", VA = "0x181BC8210")]
 		internal Entry(string value, int hashCode, Entry next)
 		{
 		}
@@ -51,46 +51,46 @@ public class DefaultJsonNameTable : JsonNameTable
 	private int _mask;
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x3D54680", Offset = "0x3D54680", VA = "0x3D54680")]
+	[Address(RVA = "0x1BC8170", Offset = "0x1BC6770", VA = "0x181BC8170")]
 	static DefaultJsonNameTable()
 	{
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x3D546C0", Offset = "0x3D546C0", VA = "0x3D546C0")]
+	[Address(RVA = "0x1BC81B0", Offset = "0x1BC67B0", VA = "0x181BC81B0")]
 	public DefaultJsonNameTable()
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x3D54730", Offset = "0x3D54730", VA = "0x3D54730", Slot = "4")]
+	[Address(RVA = "0x1BC7DA0", Offset = "0x1BC63A0", VA = "0x181BC7DA0", Slot = "4")]
 	public override string Get(char[] key, int start, int length)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x3D54A60", Offset = "0x3D54A60", VA = "0x3D54A60")]
+	[Address(RVA = "0x1BC7BE0", Offset = "0x1BC61E0", VA = "0x181BC7BE0")]
 	public string Add(string key)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000011")]
-	[Address(RVA = "0x3D54C10", Offset = "0x3D54C10", VA = "0x3D54C10")]
+	[Address(RVA = "0x1BC7970", Offset = "0x1BC5F70", VA = "0x181BC7970")]
 	private string AddEntry(string str, int hashCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x3D54DA0", Offset = "0x3D54DA0", VA = "0x3D54DA0")]
+	[Address(RVA = "0x1BC7F90", Offset = "0x1BC6590", VA = "0x181BC7F90")]
 	private void Grow()
 	{
 	}
 
 	[Token(Token = "0x6000013")]
-	[Address(RVA = "0x3D549B0", Offset = "0x3D549B0", VA = "0x3D549B0")]
+	[Address(RVA = "0x1BC80F0", Offset = "0x1BC66F0", VA = "0x181BC80F0")]
 	private static bool TextEquals(string str1, char[] str2, int str2Start, int str2Length)
 	{
 		return default(bool);

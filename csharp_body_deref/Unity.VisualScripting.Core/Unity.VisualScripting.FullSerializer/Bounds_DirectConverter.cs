@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x20001DE")]
 public class Bounds_DirectConverter : fsDirectConverter<Bounds>
 {
-	[Token(Token = "0x60011CE")]
-	[Address(RVA = "0x4D742C0", Offset = "0x4D742C0", VA = "0x4D742C0", Slot = "10")]
+	[Token(Token = "0x6001178")]
+	[Address(RVA = "0x2E4F850", Offset = "0x2E4DE50", VA = "0x182E4F850", Slot = "10")]
 	protected override fsResult DoSerialize(Bounds model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011CF")]
-	[Address(RVA = "0x4D74470", Offset = "0x4D74470", VA = "0x4D74470", Slot = "11")]
+	[Token(Token = "0x6001179")]
+	[Address(RVA = "0x2E4F670", Offset = "0x2E4DC70", VA = "0x182E4F670", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Bounds model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011D0")]
-	[Address(RVA = "0x4D74690", Offset = "0x4D74690", VA = "0x4D74690", Slot = "4")]
+	[Token(Token = "0x600117A")]
+	[Address(RVA = "0x2E4F620", Offset = "0x2E4DC20", VA = "0x182E4F620", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011D1")]
-	[Address(RVA = "0x4D746E0", Offset = "0x4D746E0", VA = "0x4D746E0")]
+	[Token(Token = "0x600117B")]
+	[Address(RVA = "0x2E4F9E0", Offset = "0x2E4DFE0", VA = "0x182E4F9E0")]
 	public Bounds_DirectConverter()
 	{
 	}

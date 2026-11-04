@@ -11,71 +11,71 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x2000368")]
+[Token(Token = "0x2000397")]
 internal class DynamicPropertyCollection
 {
-	[Token(Token = "0x2000369")]
+	[Token(Token = "0x2000398")]
 	private class DynamicPropertyReg
 	{
-		[Token(Token = "0x4000F01")]
+		[Token(Token = "0x4000F0E")]
 		[FieldOffset(Offset = "0x10")]
 		public IDynamicProperty Property;
 
-		[Token(Token = "0x4000F02")]
+		[Token(Token = "0x4000F0F")]
 		[FieldOffset(Offset = "0x18")]
 		public IDynamicMessageSink Sink;
 
-		[Token(Token = "0x6001D64")]
-		[Address(RVA = "0x3B7C640", Offset = "0x3B7C640", VA = "0x3B7C640")]
+		[Token(Token = "0x6001DD3")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public DynamicPropertyReg()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000F00")]
+	[Token(Token = "0x4000F0D")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList _properties;
 
-	[Token(Token = "0x1700036B")]
+	[Token(Token = "0x1700036D")]
 	public bool HasProperties
 	{
-		[Token(Token = "0x6001D5E")]
-		[Address(RVA = "0x3B79290", Offset = "0x3B79290", VA = "0x3B79290")]
+		[Token(Token = "0x6001DCD")]
+		[Address(RVA = "0x19FAA30", Offset = "0x19F9030", VA = "0x1819FAA30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001D5F")]
-	[Address(RVA = "0x3B79610", Offset = "0x3B79610", VA = "0x3B79610")]
+	[Token(Token = "0x6001DCE")]
+	[Address(RVA = "0x19FA650", Offset = "0x19F8C50", VA = "0x1819FA650")]
 	public bool RegisterDynamicProperty(IDynamicProperty prop)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D60")]
-	[Address(RVA = "0x3B79A00", Offset = "0x3B79A00", VA = "0x3B79A00")]
+	[Token(Token = "0x6001DCF")]
+	[Address(RVA = "0x19FA880", Offset = "0x19F8E80", VA = "0x1819FA880")]
 	public bool UnregisterDynamicProperty(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D61")]
-	[Address(RVA = "0x3B79D10", Offset = "0x3B79D10", VA = "0x3B79D10")]
+	[Token(Token = "0x6001DD0")]
+	[Address(RVA = "0x19FA210", Offset = "0x19F8810", VA = "0x1819FA210")]
 	public void NotifyMessage(bool start, IMessage msg, bool client_site, bool async)
 	{
 	}
 
-	[Token(Token = "0x6001D62")]
-	[Address(RVA = "0x3B7C4B0", Offset = "0x3B7C4B0", VA = "0x3B7C4B0")]
+	[Token(Token = "0x6001DD1")]
+	[Address(RVA = "0x19FA0E0", Offset = "0x19F86E0", VA = "0x1819FA0E0")]
 	private int FindProperty(string name)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001D63")]
-	[Address(RVA = "0x3B79B80", Offset = "0x3B79B80", VA = "0x3B79B80")]
+	[Token(Token = "0x6001DD2")]
+	[Address(RVA = "0x19FA9C0", Offset = "0x19F8FC0", VA = "0x1819FA9C0")]
 	public DynamicPropertyCollection()
 	{
 	}

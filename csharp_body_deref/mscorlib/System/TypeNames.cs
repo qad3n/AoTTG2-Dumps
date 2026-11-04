@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A8")]
+[Token(Token = "0x20001D3")]
 internal class TypeNames
 {
-	[Token(Token = "0x20001A9")]
+	[Token(Token = "0x20001D4")]
 	internal abstract class ATypeName : System.TypeName, IEquatable<System.TypeName>
 	{
-		[Token(Token = "0x1700017C")]
+		[Token(Token = "0x1700017E")]
 		public abstract string DisplayName
 		{
-			[Token(Token = "0x6001065")]
+			[Token(Token = "0x60010BC")]
 			get;
 		}
 
-		[Token(Token = "0x6001066")]
-		[Address(RVA = "0x3D1B4B0", Offset = "0x3D1B4B0", VA = "0x3D1B4B0", Slot = "5")]
+		[Token(Token = "0x60010BD")]
+		[Address(RVA = "0x1B7A5B0", Offset = "0x1B78BB0", VA = "0x181B7A5B0", Slot = "5")]
 		public bool Equals(System.TypeName other)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001067")]
-		[Address(RVA = "0x3D1B580", Offset = "0x3D1B580", VA = "0x3D1B580", Slot = "2")]
+		[Token(Token = "0x60010BE")]
+		[Address(RVA = "0x1B7A790", Offset = "0x1B78D90", VA = "0x181B7A790", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6001068")]
-		[Address(RVA = "0x3D1B5C0", Offset = "0x3D1B5C0", VA = "0x3D1B5C0", Slot = "0")]
+		[Token(Token = "0x60010BF")]
+		[Address(RVA = "0x1B7A690", Offset = "0x1B78C90", VA = "0x181B7A690", Slot = "0")]
 		public override bool Equals(object other)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6001069")]
-		[Address(RVA = "0x3D1B6C0", Offset = "0x3D1B6C0", VA = "0x3D1B6C0")]
+		[Token(Token = "0x60010C0")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 		protected ATypeName()
 		{
 		}

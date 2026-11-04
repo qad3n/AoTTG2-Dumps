@@ -13,57 +13,57 @@ using UnityEngine.Bindings;
 namespace UnityEngine.Scripting;
 
 [Token(Token = "0x200001D")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Interface, Inherited = false)]
 [VisibleToOtherModules]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Interface, Inherited = false)]
 internal class RequiredByNativeCodeAttribute : Attribute
 {
-	[Token(Token = "0x17000018")]
+	[Token(Token = "0x17000016")]
 	public string Name
 	{
-		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x4E9E4B0", Offset = "0x4E9E4B0", VA = "0x4E9E4B0")]
+		[Token(Token = "0x600003F")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x17000017")]
 	public bool Optional
 	{
-		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x4E9E4C0", Offset = "0x4E9E4C0", VA = "0x4E9E4C0")]
+		[Token(Token = "0x6000040")]
+		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x17000018")]
 	public bool GenerateProxy
 	{
-		[Token(Token = "0x6000045")]
-		[Address(RVA = "0x4E9E4D0", Offset = "0x4E9E4D0", VA = "0x4E9E4D0")]
+		[Token(Token = "0x6000041")]
+		[Address(RVA = "0x18C3360", Offset = "0x18C1960", VA = "0x1818C3360")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x4E9E450", Offset = "0x4E9E450", VA = "0x4E9E450")]
+	[Token(Token = "0x600003C")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public RequiredByNativeCodeAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4E9E460", Offset = "0x4E9E460", VA = "0x4E9E460")]
+	[Token(Token = "0x600003D")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public RequiredByNativeCodeAttribute(string name)
 	{
 	}
 
-	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4E9E490", Offset = "0x4E9E490", VA = "0x4E9E490")]
+	[Token(Token = "0x600003E")]
+	[Address(RVA = "0x2FF7430", Offset = "0x2FF5A30", VA = "0x182FF7430")]
 	public RequiredByNativeCodeAttribute(bool optional)
 	{
 	}

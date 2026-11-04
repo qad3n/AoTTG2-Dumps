@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200016D")]
+[Token(Token = "0x2000184")]
 public enum PackingRules
 {
-	[Token(Token = "0x4000655")]
+	[Token(Token = "0x400079A")]
 	Exact,
-	[Token(Token = "0x4000656")]
+	[Token(Token = "0x400079B")]
 	Aggressive
 }

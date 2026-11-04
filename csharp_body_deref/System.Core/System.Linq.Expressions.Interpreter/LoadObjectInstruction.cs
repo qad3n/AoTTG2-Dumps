@@ -19,8 +19,8 @@ internal sealed class LoadObjectInstruction : Instruction
 	[Token(Token = "0x17000226")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000AAA")]
-		[Address(RVA = "0x45022A0", Offset = "0x45022A0", VA = "0x45022A0", Slot = "5")]
+		[Token(Token = "0x6000AA9")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -30,29 +30,29 @@ internal sealed class LoadObjectInstruction : Instruction
 	[Token(Token = "0x17000227")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000AAB")]
-		[Address(RVA = "0x45022B0", Offset = "0x45022B0", VA = "0x45022B0", Slot = "9")]
+		[Token(Token = "0x6000AAA")]
+		[Address(RVA = "0x2472E20", Offset = "0x2471420", VA = "0x182472E20", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x4502270", Offset = "0x4502270", VA = "0x4502270")]
+	[Token(Token = "0x6000AA8")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	internal LoadObjectInstruction(object value)
 	{
 	}
 
-	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x45022E0", Offset = "0x45022E0", VA = "0x45022E0", Slot = "8")]
+	[Token(Token = "0x6000AAB")]
+	[Address(RVA = "0x2472D00", Offset = "0x2471300", VA = "0x182472D00", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x4502360", Offset = "0x4502360", VA = "0x4502360", Slot = "3")]
+	[Token(Token = "0x6000AAC")]
+	[Address(RVA = "0x2472D90", Offset = "0x2471390", VA = "0x182472D90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

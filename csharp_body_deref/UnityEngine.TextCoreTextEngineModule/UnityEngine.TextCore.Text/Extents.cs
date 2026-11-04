@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x2000023")]
 internal struct Extents
 {
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x40000E0")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector2 min;
 
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x40000E1")]
 	[FieldOffset(Offset = "0x8")]
 	public Vector2 max;
 
-	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4EB34B0", Offset = "0x4EB34B0", VA = "0x4EB34B0", Slot = "3")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x3003360", Offset = "0x3001960", VA = "0x183003360", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

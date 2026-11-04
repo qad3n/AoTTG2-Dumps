@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x20000A1")]
+[Token(Token = "0x200009D")]
 public enum CaretPosition
 {
-	[Token(Token = "0x40005F0")]
+	[Token(Token = "0x400057D")]
 	None,
-	[Token(Token = "0x40005F1")]
+	[Token(Token = "0x400057E")]
 	Left,
-	[Token(Token = "0x40005F2")]
+	[Token(Token = "0x400057F")]
 	Right
 }

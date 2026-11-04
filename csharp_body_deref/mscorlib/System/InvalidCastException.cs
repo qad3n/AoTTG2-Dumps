@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000DD")]
+[Token(Token = "0x2000105")]
 public class InvalidCastException : SystemException
 {
-	[Token(Token = "0x6000819")]
-	[Address(RVA = "0x3CB6A40", Offset = "0x3CB6A40", VA = "0x3CB6A40")]
+	[Token(Token = "0x600084B")]
+	[Address(RVA = "0x1B2ADE0", Offset = "0x1B293E0", VA = "0x181B2ADE0")]
 	public InvalidCastException()
 	{
 	}
 
-	[Token(Token = "0x600081A")]
-	[Address(RVA = "0x3CB4190", Offset = "0x3CB4190", VA = "0x3CB4190")]
+	[Token(Token = "0x600084C")]
+	[Address(RVA = "0x1B2AE30", Offset = "0x1B29430", VA = "0x181B2AE30")]
 	public InvalidCastException(string message)
 	{
 	}
 
-	[Token(Token = "0x600081B")]
-	[Address(RVA = "0x3CB6A80", Offset = "0x3CB6A80", VA = "0x3CB6A80")]
+	[Token(Token = "0x600084D")]
+	[Address(RVA = "0x1B2ADC0", Offset = "0x1B293C0", VA = "0x181B2ADC0")]
 	public InvalidCastException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x600081C")]
-	[Address(RVA = "0x3CB6AA0", Offset = "0x3CB6AA0", VA = "0x3CB6AA0")]
+	[Token(Token = "0x600084E")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected InvalidCastException(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200006D")]
+[Token(Token = "0x2000077")]
 public enum MissingSchemaAction
 {
-	[Token(Token = "0x400024F")]
+	[Token(Token = "0x4000262")]
 	Add = 1,
-	[Token(Token = "0x4000250")]
+	[Token(Token = "0x4000263")]
 	Ignore,
-	[Token(Token = "0x4000251")]
+	[Token(Token = "0x4000264")]
 	Error,
-	[Token(Token = "0x4000252")]
+	[Token(Token = "0x4000265")]
 	AddWithKey
 }

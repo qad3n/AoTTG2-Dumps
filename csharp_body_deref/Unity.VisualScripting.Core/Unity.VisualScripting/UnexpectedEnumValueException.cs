@@ -14,23 +14,23 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000067")]
 public class UnexpectedEnumValueException<T> : Exception
 {
-	[Token(Token = "0x1700009B")]
+	[Token(Token = "0x1700009D")]
 	public T Value
 	{
-		[Token(Token = "0x60002BC")]
+		[Token(Token = "0x60002C1")]
 		[CompilerGenerated]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x60002BD")]
+		[Token(Token = "0x60002C2")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60002BB")]
+	[Token(Token = "0x60002C0")]
 	public UnexpectedEnumValueException(T value)
 	{
 	}

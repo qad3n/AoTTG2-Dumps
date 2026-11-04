@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 namespace System.Security.Cryptography;
 
 [Serializable]
-[Token(Token = "0x2000310")]
+[Token(Token = "0x200033F")]
 internal enum CspAlgorithmType
 {
-	[Token(Token = "0x4000D90")]
+	[Token(Token = "0x4000D9D")]
 	Rsa,
-	[Token(Token = "0x4000D91")]
+	[Token(Token = "0x4000D9E")]
 	Dss
 }

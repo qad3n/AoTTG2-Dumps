@@ -15,45 +15,45 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000161")]
 public sealed class StaticFunctionInvoker<TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000841")]
+	[Token(Token = "0x400083F")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TResult> invoke;
 
-	[Token(Token = "0x6000E3F")]
+	[Token(Token = "0x6000E49")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E40")]
+	[Token(Token = "0x6000E4A")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E41")]
+	[Token(Token = "0x6000E4B")]
 	public override object Invoke(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E42")]
+	[Token(Token = "0x6000E4C")]
 	public object InvokeUnsafe(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E43")]
+	[Token(Token = "0x6000E4D")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E44")]
+	[Token(Token = "0x6000E4E")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E45")]
+	[Token(Token = "0x6000E4F")]
 	protected override void CreateDelegate()
 	{
 	}
@@ -61,45 +61,45 @@ public sealed class StaticFunctionInvoker<TResult> : StaticFunctionInvokerBase<T
 [Token(Token = "0x2000162")]
 public sealed class StaticFunctionInvoker<TParam0, TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000842")]
+	[Token(Token = "0x4000840")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TParam0, TResult> invoke;
 
-	[Token(Token = "0x6000E47")]
+	[Token(Token = "0x6000E51")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E48")]
+	[Token(Token = "0x6000E52")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E49")]
+	[Token(Token = "0x6000E53")]
 	public override object Invoke(object target, object arg0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4A")]
+	[Token(Token = "0x6000E54")]
 	public object InvokeUnsafe(object target, object arg0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4B")]
+	[Token(Token = "0x6000E55")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E4C")]
+	[Token(Token = "0x6000E56")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E4D")]
+	[Token(Token = "0x6000E57")]
 	protected override void CreateDelegate()
 	{
 	}
@@ -107,45 +107,45 @@ public sealed class StaticFunctionInvoker<TParam0, TResult> : StaticFunctionInvo
 [Token(Token = "0x2000163")]
 public sealed class StaticFunctionInvoker<TParam0, TParam1, TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000843")]
+	[Token(Token = "0x4000841")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TParam0, TParam1, TResult> invoke;
 
-	[Token(Token = "0x6000E4F")]
+	[Token(Token = "0x6000E59")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E50")]
+	[Token(Token = "0x6000E5A")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E51")]
+	[Token(Token = "0x6000E5B")]
 	public override object Invoke(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E52")]
+	[Token(Token = "0x6000E5C")]
 	public object InvokeUnsafe(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E53")]
+	[Token(Token = "0x6000E5D")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E54")]
+	[Token(Token = "0x6000E5E")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E55")]
+	[Token(Token = "0x6000E5F")]
 	protected override void CreateDelegate()
 	{
 	}
@@ -153,45 +153,45 @@ public sealed class StaticFunctionInvoker<TParam0, TParam1, TResult> : StaticFun
 [Token(Token = "0x2000164")]
 public sealed class StaticFunctionInvoker<TParam0, TParam1, TParam2, TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000844")]
+	[Token(Token = "0x4000842")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TParam0, TParam1, TParam2, TResult> invoke;
 
-	[Token(Token = "0x6000E57")]
+	[Token(Token = "0x6000E61")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E58")]
+	[Token(Token = "0x6000E62")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E59")]
+	[Token(Token = "0x6000E63")]
 	public override object Invoke(object target, object arg0, object arg1, object arg2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E5A")]
+	[Token(Token = "0x6000E64")]
 	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E5B")]
+	[Token(Token = "0x6000E65")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E5C")]
+	[Token(Token = "0x6000E66")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E5D")]
+	[Token(Token = "0x6000E67")]
 	protected override void CreateDelegate()
 	{
 	}
@@ -199,45 +199,45 @@ public sealed class StaticFunctionInvoker<TParam0, TParam1, TParam2, TResult> : 
 [Token(Token = "0x2000165")]
 public sealed class StaticFunctionInvoker<TParam0, TParam1, TParam2, TParam3, TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000845")]
+	[Token(Token = "0x4000843")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TParam0, TParam1, TParam2, TParam3, TResult> invoke;
 
-	[Token(Token = "0x6000E5F")]
+	[Token(Token = "0x6000E69")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E60")]
+	[Token(Token = "0x6000E6A")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E61")]
+	[Token(Token = "0x6000E6B")]
 	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E62")]
+	[Token(Token = "0x6000E6C")]
 	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E63")]
+	[Token(Token = "0x6000E6D")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E64")]
+	[Token(Token = "0x6000E6E")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E65")]
+	[Token(Token = "0x6000E6F")]
 	protected override void CreateDelegate()
 	{
 	}
@@ -245,45 +245,45 @@ public sealed class StaticFunctionInvoker<TParam0, TParam1, TParam2, TParam3, TR
 [Token(Token = "0x2000166")]
 public sealed class StaticFunctionInvoker<TParam0, TParam1, TParam2, TParam3, TParam4, TResult> : StaticFunctionInvokerBase<TResult>
 {
-	[Token(Token = "0x4000846")]
+	[Token(Token = "0x4000844")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TParam0, TParam1, TParam2, TParam3, TParam4, TResult> invoke;
 
-	[Token(Token = "0x6000E67")]
+	[Token(Token = "0x6000E71")]
 	public StaticFunctionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E68")]
+	[Token(Token = "0x6000E72")]
 	public override object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E69")]
+	[Token(Token = "0x6000E73")]
 	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E6A")]
+	[Token(Token = "0x6000E74")]
 	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E6B")]
+	[Token(Token = "0x6000E75")]
 	protected override Type[] GetParameterTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E6C")]
+	[Token(Token = "0x6000E76")]
 	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
 	{
 	}
 
-	[Token(Token = "0x6000E6D")]
+	[Token(Token = "0x6000E77")]
 	protected override void CreateDelegate()
 	{
 	}

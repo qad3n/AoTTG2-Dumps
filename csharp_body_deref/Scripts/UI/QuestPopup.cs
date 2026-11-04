@@ -12,138 +12,138 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20006AB")]
+[Token(Token = "0x2000806")]
 internal class QuestPopup : BasePopup
 {
-	[Token(Token = "0x400208A")]
+	[Token(Token = "0x400285E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	public StringSetting TierSelection;
 
-	[Token(Token = "0x400208B")]
+	[Token(Token = "0x400285F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	public StringSetting CompletedSelection;
 
-	[Token(Token = "0x17000CDE")]
+	[Token(Token = "0x17000E24")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004281")]
-		[Address(RVA = "0x4312340", Offset = "0x4312340", VA = "0x4312340", Slot = "35")]
+		[Token(Token = "0x6004D75")]
+		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CDF")]
+	[Token(Token = "0x17000E25")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004282")]
-		[Address(RVA = "0x4312360", Offset = "0x4312360", VA = "0x4312360", Slot = "5")]
+		[Token(Token = "0x6004D76")]
+		[Address(RVA = "0x229A1F0", Offset = "0x22987F0", VA = "0x18229A1F0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE0")]
+	[Token(Token = "0x17000E26")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004283")]
-		[Address(RVA = "0x4312370", Offset = "0x4312370", VA = "0x4312370", Slot = "6")]
+		[Token(Token = "0x6004D77")]
+		[Address(RVA = "0x229A1E0", Offset = "0x22987E0", VA = "0x18229A1E0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CE1")]
+	[Token(Token = "0x17000E27")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x6004284")]
-		[Address(RVA = "0x4312380", Offset = "0x4312380", VA = "0x4312380", Slot = "16")]
+		[Token(Token = "0x6004D78")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CE2")]
+	[Token(Token = "0x17000E28")]
 	protected override bool CategoryButtons
 	{
-		[Token(Token = "0x6004285")]
-		[Address(RVA = "0x4312390", Offset = "0x4312390", VA = "0x4312390", Slot = "42")]
+		[Token(Token = "0x6004D79")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CE3")]
+	[Token(Token = "0x17000E29")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x6004286")]
-		[Address(RVA = "0x43123A0", Offset = "0x43123A0", VA = "0x43123A0", Slot = "19")]
+		[Token(Token = "0x6004D7A")]
+		[Address(RVA = "0x229A1B0", Offset = "0x22987B0", VA = "0x18229A1B0", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CE4")]
+	[Token(Token = "0x17000E2A")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x6004287")]
-		[Address(RVA = "0x43123D0", Offset = "0x43123D0", VA = "0x43123D0", Slot = "53")]
+		[Token(Token = "0x6004D7B")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004288")]
-	[Address(RVA = "0x43123E0", Offset = "0x43123E0", VA = "0x43123E0", Slot = "20")]
+	[Token(Token = "0x6004D7C")]
+	[Address(RVA = "0x229A0B0", Offset = "0x22986B0", VA = "0x18229A0B0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004289")]
-	[Address(RVA = "0x430FDA0", Offset = "0x430FDA0", VA = "0x430FDA0")]
+	[Token(Token = "0x6004D7D")]
+	[Address(RVA = "0x2299650", Offset = "0x2297C50", VA = "0x182299650")]
 	public void CreateAchievementDropdowns(Transform panel)
 	{
 	}
 
-	[Token(Token = "0x600428A")]
-	[Address(RVA = "0x4312640", Offset = "0x4312640", VA = "0x4312640", Slot = "44")]
+	[Token(Token = "0x6004D7E")]
+	[Address(RVA = "0x2299D50", Offset = "0x2298350", VA = "0x182299D50", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x600428B")]
-	[Address(RVA = "0x43129D0", Offset = "0x43129D0", VA = "0x43129D0", Slot = "27")]
+	[Token(Token = "0x6004D7F")]
+	[Address(RVA = "0x22999F0", Offset = "0x2297FF0", VA = "0x1822999F0", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x600428C")]
-	[Address(RVA = "0x4312B10", Offset = "0x4312B10", VA = "0x4312B10", Slot = "25")]
+	[Token(Token = "0x6004D80")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890", Slot = "25")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x600428D")]
-	[Address(RVA = "0x4312400", Offset = "0x4312400", VA = "0x4312400")]
+	[Token(Token = "0x6004D81")]
+	[Address(RVA = "0x2299B30", Offset = "0x2298130", VA = "0x182299B30")]
 	private void SetupBottomButtons()
 	{
 	}
 
-	[Token(Token = "0x600428E")]
-	[Address(RVA = "0x4312B30", Offset = "0x4312B30", VA = "0x4312B30")]
+	[Token(Token = "0x6004D82")]
+	[Address(RVA = "0x2299990", Offset = "0x2297F90", VA = "0x182299990")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x600428F")]
-	[Address(RVA = "0x4312BA0", Offset = "0x4312BA0", VA = "0x4312BA0")]
+	[Token(Token = "0x6004D83")]
+	[Address(RVA = "0x229A0E0", Offset = "0x22986E0", VA = "0x18229A0E0")]
 	public QuestPopup()
 	{
 	}

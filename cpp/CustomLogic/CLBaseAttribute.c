@@ -1,5 +1,5 @@
 // Type: CustomLogic.CLBaseAttribute
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CLBaseAttribute.cs
@@ -8,10 +8,10 @@
 
 // CustomLogic.CLBaseAttribute$$get_Name
 // il2cpp: System_String_o* CustomLogic_CLBaseAttribute__get_Name (CustomLogic_CLBaseAttribute_o* __this, const MethodInfo* method);
-// 0x40b9160
+// 0x1808fb3a0
 
-System_String_o *
-CustomLogic_CLBaseAttribute__get_Name(CustomLogic_CLBaseAttribute_o *__this,MethodInfo *method)
+System_String_o*
+CustomLogic_CLBaseAttribute__get_Name(CustomLogic_CLBaseAttribute_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Name_k__BackingField;
@@ -20,87 +20,84 @@ CustomLogic_CLBaseAttribute__get_Name(CustomLogic_CLBaseAttribute_o *__this,Meth
 
 // CustomLogic.CLBaseAttribute$$set_Name
 // il2cpp: void CustomLogic_CLBaseAttribute__set_Name (CustomLogic_CLBaseAttribute_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x40b9170
+// 0x180b8ac00
 
-void CustomLogic_CLBaseAttribute__set_Name
-               (CustomLogic_CLBaseAttribute_o *__this,System_String_o *value,MethodInfo *method)
+void
+CustomLogic_CLBaseAttribute__set_Name(CustomLogic_CLBaseAttribute_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Name_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,value);
   return;
 }
 
 
 // CustomLogic.CLBaseAttribute$$get_Static
 // il2cpp: bool CustomLogic_CLBaseAttribute__get_Static (CustomLogic_CLBaseAttribute_o* __this, const MethodInfo* method);
-// 0x40b9180
+// 0x18111ad30
 
-bool_conflict
-CustomLogic_CLBaseAttribute__get_Static(CustomLogic_CLBaseAttribute_o *__this,MethodInfo *method)
+bool
+CustomLogic_CLBaseAttribute__get_Static(CustomLogic_CLBaseAttribute_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(char)(__this->fields)._Static_k__BackingField);
+  return (__this->fields)._Static_k__BackingField;
 }
 
 
 // CustomLogic.CLBaseAttribute$$set_Static
 // il2cpp: void CustomLogic_CLBaseAttribute__set_Static (CustomLogic_CLBaseAttribute_o* __this, bool value, const MethodInfo* method);
-// 0x40b9190
+// 0x18111c9f0
 
-void CustomLogic_CLBaseAttribute__set_Static
-               (CustomLogic_CLBaseAttribute_o *__this,bool_conflict value,MethodInfo *method)
+void
+CustomLogic_CLBaseAttribute__set_Static(CustomLogic_CLBaseAttribute_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)&(__this->fields)._Static_k__BackingField = (char)value;
+  (__this->fields)._Static_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.CLBaseAttribute$$get_Hybrid
 // il2cpp: bool CustomLogic_CLBaseAttribute__get_Hybrid (CustomLogic_CLBaseAttribute_o* __this, const MethodInfo* method);
-// 0x40b91a0
+// 0x180e8f450
 
-bool_conflict
-CustomLogic_CLBaseAttribute__get_Hybrid(CustomLogic_CLBaseAttribute_o *__this,MethodInfo *method)
+bool
+CustomLogic_CLBaseAttribute__get_Hybrid(CustomLogic_CLBaseAttribute_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),
-                  *(undefined1 *)((long)&(__this->fields)._Static_k__BackingField + 1));
+  return (__this->fields)._Hybrid_k__BackingField;
 }
 
 
 // CustomLogic.CLBaseAttribute$$set_Hybrid
 // il2cpp: void CustomLogic_CLBaseAttribute__set_Hybrid (CustomLogic_CLBaseAttribute_o* __this, bool value, const MethodInfo* method);
-// 0x40b91b0
+// 0x1818c3360
 
-void CustomLogic_CLBaseAttribute__set_Hybrid
-               (CustomLogic_CLBaseAttribute_o *__this,bool_conflict value,MethodInfo *method)
+void
+CustomLogic_CLBaseAttribute__set_Hybrid(CustomLogic_CLBaseAttribute_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)((long)&(__this->fields)._Static_k__BackingField + 1) = (char)value;
+  (__this->fields)._Hybrid_k__BackingField = value;
   return;
 }
 
 
 // CustomLogic.CLBaseAttribute$$.ctor
 // il2cpp: void CustomLogic_CLBaseAttribute___ctor (CustomLogic_CLBaseAttribute_o* __this, const MethodInfo* method);
-// 0x40b91c0
+// 0x181ecd490
 
-void CustomLogic_CLBaseAttribute___ctor(CustomLogic_CLBaseAttribute_o *__this,MethodInfo *method)
+void
+CustomLogic_CLBaseAttribute___ctor(CustomLogic_CLBaseAttribute_o* __this, MethodInfo* method)
 
 {
-  if (g_data_057ac506 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ac506 = '\x01';
+  if (Il2CppMethodInitialized_18434513f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_18434513f = '\x01';
   }
   (__this->fields)._Name_k__BackingField = "";
-  il2cpp_runtime_helper_022b4080(&__this->fields);
-  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Name_k__BackingField,"");
+  System_Attribute___ctor
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

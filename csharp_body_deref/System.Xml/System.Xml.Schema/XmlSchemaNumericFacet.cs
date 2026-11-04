@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public abstract class XmlSchemaNumericFacet : XmlSchemaFacet
 {
 	[Token(Token = "0x600165F")]
-	[Address(RVA = "0x4724C10", Offset = "0x4724C10", VA = "0x4724C10")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSchemaNumericFacet()
 	{
 	}

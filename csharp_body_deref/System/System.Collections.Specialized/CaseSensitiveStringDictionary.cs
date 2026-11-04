@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Specialized;
 
-[Token(Token = "0x2000343")]
+[Token(Token = "0x200024E")]
 [DefaultMember("Item")]
 internal class CaseSensitiveStringDictionary : StringDictionary
 {
-	[Token(Token = "0x60015C3")]
-	[Address(RVA = "0x48E7A70", Offset = "0x48E7A70", VA = "0x48E7A70")]
+	[Token(Token = "0x600100A")]
+	[Address(RVA = "0x28CBDF0", Offset = "0x28CA3F0", VA = "0x1828CBDF0")]
 	public CaseSensitiveStringDictionary()
 	{
 	}
 
-	[Token(Token = "0x60015C4")]
-	[Address(RVA = "0x48E7AD0", Offset = "0x48E7AD0", VA = "0x48E7AD0", Slot = "5")]
+	[Token(Token = "0x600100B")]
+	[Address(RVA = "0x28CBD70", Offset = "0x28CA370", VA = "0x1828CBD70", Slot = "5")]
 	public override void Add(string key, string value)
 	{
 	}

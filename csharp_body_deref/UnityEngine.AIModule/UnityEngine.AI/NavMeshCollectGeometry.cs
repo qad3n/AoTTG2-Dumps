@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.AI;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000F")]
 public enum NavMeshCollectGeometry
 {
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x4000020")]
 	RenderMeshes,
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000021")]
 	PhysicsColliders
 }

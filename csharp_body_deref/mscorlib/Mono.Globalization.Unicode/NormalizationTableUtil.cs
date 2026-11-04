@@ -9,44 +9,44 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x2000057")]
 internal class NormalizationTableUtil
 {
-	[Token(Token = "0x4000100")]
+	[Token(Token = "0x4000182")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Prop;
 
-	[Token(Token = "0x4000101")]
+	[Token(Token = "0x4000183")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Map;
 
-	[Token(Token = "0x4000102")]
+	[Token(Token = "0x4000184")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Combining;
 
-	[Token(Token = "0x4000103")]
+	[Token(Token = "0x4000185")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Composite;
 
-	[Token(Token = "0x4000104")]
+	[Token(Token = "0x4000186")]
 	[FieldOffset(Offset = "0x20")]
 	public static readonly Mono.Globalization.Unicode.CodePointIndexer Helper;
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3AD3FF0", Offset = "0x3AD3FF0", VA = "0x3AD3FF0")]
+	[Token(Token = "0x60000DC")]
+	[Address(RVA = "0x194BA70", Offset = "0x194A070", VA = "0x18194BA70")]
 	static NormalizationTableUtil()
 	{
 	}
 
-	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x3AD4380", Offset = "0x3AD4380", VA = "0x3AD4380")]
+	[Token(Token = "0x60000DD")]
+	[Address(RVA = "0x194BA00", Offset = "0x194A000", VA = "0x18194BA00")]
 	public static int PropIdx(int cp)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3AD4450", Offset = "0x3AD4450", VA = "0x3AD4450")]
+	[Token(Token = "0x60000DE")]
+	[Address(RVA = "0x194B990", Offset = "0x1949F90", VA = "0x18194B990")]
 	public static int MapIdx(int cp)
 	{
 		return default(int);

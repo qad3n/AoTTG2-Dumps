@@ -33,7 +33,7 @@ public sealed class DataMemberAttribute : Attribute
 	public string Name
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4678310", Offset = "0x4678310", VA = "0x4678310")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -44,7 +44,7 @@ public sealed class DataMemberAttribute : Attribute
 	public int Order
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4678320", Offset = "0x4678320", VA = "0x4678320")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(int);
@@ -55,7 +55,7 @@ public sealed class DataMemberAttribute : Attribute
 	public bool IsRequired
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4678330", Offset = "0x4678330", VA = "0x4678330")]
+		[Address(RVA = "0xE5A3F0", Offset = "0xE589F0", VA = "0x180E5A3F0")]
 		get
 		{
 			return default(bool);
@@ -66,7 +66,7 @@ public sealed class DataMemberAttribute : Attribute
 	public bool EmitDefaultValue
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4678340", Offset = "0x4678340", VA = "0x4678340")]
+		[Address(RVA = "0x12B36C0", Offset = "0x12B1CC0", VA = "0x1812B36C0")]
 		get
 		{
 			return default(bool);

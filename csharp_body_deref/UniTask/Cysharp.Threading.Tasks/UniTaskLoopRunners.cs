@@ -9,165 +9,165 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200003E")]
+[Token(Token = "0x200003C")]
 public static class UniTaskLoopRunners
 {
-	[Token(Token = "0x200003F")]
+	[Token(Token = "0x200003D")]
 	public struct UniTaskLoopRunnerInitialization
 	{
 	}
 
-	[Token(Token = "0x2000040")]
+	[Token(Token = "0x200003E")]
 	public struct UniTaskLoopRunnerEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x2000041")]
+	[Token(Token = "0x200003F")]
 	public struct UniTaskLoopRunnerFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000042")]
+	[Token(Token = "0x2000040")]
 	public struct UniTaskLoopRunnerPreUpdate
 	{
 	}
 
-	[Token(Token = "0x2000043")]
+	[Token(Token = "0x2000041")]
 	public struct UniTaskLoopRunnerUpdate
 	{
 	}
 
-	[Token(Token = "0x2000044")]
+	[Token(Token = "0x2000042")]
 	public struct UniTaskLoopRunnerPreLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000045")]
+	[Token(Token = "0x2000043")]
 	public struct UniTaskLoopRunnerPostLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000046")]
+	[Token(Token = "0x2000044")]
 	public struct UniTaskLoopRunnerLastInitialization
 	{
 	}
 
-	[Token(Token = "0x2000047")]
+	[Token(Token = "0x2000045")]
 	public struct UniTaskLoopRunnerLastEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x2000048")]
+	[Token(Token = "0x2000046")]
 	public struct UniTaskLoopRunnerLastFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000049")]
+	[Token(Token = "0x2000047")]
 	public struct UniTaskLoopRunnerLastPreUpdate
 	{
 	}
 
-	[Token(Token = "0x200004A")]
+	[Token(Token = "0x2000048")]
 	public struct UniTaskLoopRunnerLastUpdate
 	{
 	}
 
-	[Token(Token = "0x200004B")]
+	[Token(Token = "0x2000049")]
 	public struct UniTaskLoopRunnerLastPreLateUpdate
 	{
 	}
 
-	[Token(Token = "0x200004C")]
+	[Token(Token = "0x200004A")]
 	public struct UniTaskLoopRunnerLastPostLateUpdate
 	{
 	}
 
-	[Token(Token = "0x200004D")]
+	[Token(Token = "0x200004B")]
 	public struct UniTaskLoopRunnerYieldInitialization
 	{
 	}
 
-	[Token(Token = "0x200004E")]
+	[Token(Token = "0x200004C")]
 	public struct UniTaskLoopRunnerYieldEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x200004F")]
+	[Token(Token = "0x200004D")]
 	public struct UniTaskLoopRunnerYieldFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000050")]
+	[Token(Token = "0x200004E")]
 	public struct UniTaskLoopRunnerYieldPreUpdate
 	{
 	}
 
-	[Token(Token = "0x2000051")]
+	[Token(Token = "0x200004F")]
 	public struct UniTaskLoopRunnerYieldUpdate
 	{
 	}
 
-	[Token(Token = "0x2000052")]
+	[Token(Token = "0x2000050")]
 	public struct UniTaskLoopRunnerYieldPreLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000053")]
+	[Token(Token = "0x2000051")]
 	public struct UniTaskLoopRunnerYieldPostLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000054")]
+	[Token(Token = "0x2000052")]
 	public struct UniTaskLoopRunnerLastYieldInitialization
 	{
 	}
 
-	[Token(Token = "0x2000055")]
+	[Token(Token = "0x2000053")]
 	public struct UniTaskLoopRunnerLastYieldEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x2000056")]
+	[Token(Token = "0x2000054")]
 	public struct UniTaskLoopRunnerLastYieldFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000057")]
+	[Token(Token = "0x2000055")]
 	public struct UniTaskLoopRunnerLastYieldPreUpdate
 	{
 	}
 
-	[Token(Token = "0x2000058")]
+	[Token(Token = "0x2000056")]
 	public struct UniTaskLoopRunnerLastYieldUpdate
 	{
 	}
 
-	[Token(Token = "0x2000059")]
+	[Token(Token = "0x2000057")]
 	public struct UniTaskLoopRunnerLastYieldPreLateUpdate
 	{
 	}
 
-	[Token(Token = "0x200005A")]
+	[Token(Token = "0x2000058")]
 	public struct UniTaskLoopRunnerLastYieldPostLateUpdate
 	{
 	}
 
-	[Token(Token = "0x200005B")]
+	[Token(Token = "0x2000059")]
 	public struct UniTaskLoopRunnerTimeUpdate
 	{
 	}
 
-	[Token(Token = "0x200005C")]
+	[Token(Token = "0x200005A")]
 	public struct UniTaskLoopRunnerLastTimeUpdate
 	{
 	}
 
-	[Token(Token = "0x200005D")]
+	[Token(Token = "0x200005B")]
 	public struct UniTaskLoopRunnerYieldTimeUpdate
 	{
 	}
 
-	[Token(Token = "0x200005E")]
+	[Token(Token = "0x200005C")]
 	public struct UniTaskLoopRunnerLastYieldTimeUpdate
 	{
 	}

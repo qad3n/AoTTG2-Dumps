@@ -10,131 +10,131 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000B2")]
+[Token(Token = "0x20000F2")]
 internal ref struct RegexFCD
 {
-	[Token(Token = "0x4000314")]
+	[Token(Token = "0x40003E6")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly List<RegexFC> _fcStack;
 
-	[Token(Token = "0x4000315")]
+	[Token(Token = "0x40003E7")]
 	[FieldOffset(Offset = "0x8")]
 	private System.Collections.Generic.ValueListBuilder<int> _intStack;
 
-	[Token(Token = "0x4000316")]
+	[Token(Token = "0x40003E8")]
 	[FieldOffset(Offset = "0x28")]
 	private bool _skipAllChildren;
 
-	[Token(Token = "0x4000317")]
+	[Token(Token = "0x40003E9")]
 	[FieldOffset(Offset = "0x29")]
 	private bool _skipchild;
 
-	[Token(Token = "0x4000318")]
+	[Token(Token = "0x40003EA")]
 	[FieldOffset(Offset = "0x2A")]
 	private bool _failed;
 
-	[Token(Token = "0x6000389")]
-	[Address(RVA = "0x4912200", Offset = "0x4912200", VA = "0x4912200")]
+	[Token(Token = "0x6000566")]
+	[Address(RVA = "0x2858130", Offset = "0x2856730", VA = "0x182858130")]
 	private RegexFCD(Span<int> intStack)
 	{
 	}
 
-	[Token(Token = "0x600038A")]
-	[Address(RVA = "0x49122C0", Offset = "0x49122C0", VA = "0x49122C0")]
+	[Token(Token = "0x6000567")]
+	[Address(RVA = "0x28575D0", Offset = "0x2855BD0", VA = "0x1828575D0")]
 	public static RegexPrefix? FirstChars(RegexTree t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x4912790", Offset = "0x4912790", VA = "0x4912790")]
+	[Token(Token = "0x6000568")]
+	[Address(RVA = "0x2857A90", Offset = "0x2856090", VA = "0x182857A90")]
 	public static RegexPrefix Prefix(RegexTree tree)
 	{
 		return default(RegexPrefix);
 	}
 
-	[Token(Token = "0x600038C")]
-	[Address(RVA = "0x4912AF0", Offset = "0x4912AF0", VA = "0x4912AF0")]
+	[Token(Token = "0x6000569")]
+	[Address(RVA = "0x2856B00", Offset = "0x2855100", VA = "0x182856B00")]
 	public static int Anchors(RegexTree tree)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600038D")]
-	[Address(RVA = "0x4912CA0", Offset = "0x4912CA0", VA = "0x4912CA0")]
+	[Token(Token = "0x600056A")]
+	[Address(RVA = "0x2856A80", Offset = "0x2855080", VA = "0x182856A80")]
 	private static int AnchorFromType(int type)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x4912CF0", Offset = "0x4912CF0", VA = "0x4912CF0")]
+	[Token(Token = "0x600056B")]
+	[Address(RVA = "0x2857DB0", Offset = "0x28563B0", VA = "0x182857DB0")]
 	private void PushInt(int i)
 	{
 	}
 
-	[Token(Token = "0x600038F")]
-	[Address(RVA = "0x4912DA0", Offset = "0x4912DA0", VA = "0x4912DA0")]
+	[Token(Token = "0x600056C")]
+	[Address(RVA = "0x2857950", Offset = "0x2855F50", VA = "0x182857950")]
 	private bool IntIsEmpty()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000390")]
-	[Address(RVA = "0x4912DD0", Offset = "0x4912DD0", VA = "0x4912DD0")]
+	[Token(Token = "0x600056D")]
+	[Address(RVA = "0x2857A40", Offset = "0x2856040", VA = "0x182857A40")]
 	private int PopInt()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000391")]
-	[Address(RVA = "0x4912E10", Offset = "0x4912E10", VA = "0x4912E10")]
+	[Token(Token = "0x600056E")]
+	[Address(RVA = "0x2857D00", Offset = "0x2856300", VA = "0x182857D00")]
 	private void PushFC(RegexFC fc)
 	{
 	}
 
-	[Token(Token = "0x6000392")]
-	[Address(RVA = "0x4912EB0", Offset = "0x4912EB0", VA = "0x4912EB0")]
+	[Token(Token = "0x600056F")]
+	[Address(RVA = "0x2857590", Offset = "0x2855B90", VA = "0x182857590")]
 	private bool FCIsEmpty()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000393")]
-	[Address(RVA = "0x4912EF0", Offset = "0x4912EF0", VA = "0x4912EF0")]
+	[Token(Token = "0x6000570")]
+	[Address(RVA = "0x2857990", Offset = "0x2855F90", VA = "0x182857990")]
 	private RegexFC PopFC()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000394")]
-	[Address(RVA = "0x4912FB0", Offset = "0x4912FB0", VA = "0x4912FB0")]
+	[Token(Token = "0x6000571")]
+	[Address(RVA = "0x28580D0", Offset = "0x28566D0", VA = "0x1828580D0")]
 	private RegexFC TopFC()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x4912700", Offset = "0x4912700", VA = "0x4912700")]
+	[Token(Token = "0x6000572")]
+	[Address(RVA = "0x2857440", Offset = "0x2855A40", VA = "0x182857440")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x4912520", Offset = "0x4912520", VA = "0x4912520")]
+	[Token(Token = "0x6000573")]
+	[Address(RVA = "0x2857E50", Offset = "0x2856450", VA = "0x182857E50")]
 	private RegexFC RegexFCFromRegexTree(RegexTree tree)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x4913660", Offset = "0x4913660", VA = "0x4913660")]
+	[Token(Token = "0x6000574")]
+	[Address(RVA = "0x27F1A70", Offset = "0x27F0070", VA = "0x1827F1A70")]
 	private void SkipChild()
 	{
 	}
 
-	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x4913000", Offset = "0x4913000", VA = "0x4913000")]
+	[Token(Token = "0x6000575")]
+	[Address(RVA = "0x2856CE0", Offset = "0x28552E0", VA = "0x182856CE0")]
 	private void CalculateFC(int NodeType, RegexNode node, int CurIndex)
 	{
 	}

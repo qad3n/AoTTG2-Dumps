@@ -13,25 +13,25 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000D1")]
 public static class ArrayPool<T>
 {
-	[Token(Token = "0x400013B")]
+	[Token(Token = "0x4000139")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object @lock;
 
-	[Token(Token = "0x400013C")]
+	[Token(Token = "0x400013A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<int, Stack<T[]>> free;
 
-	[Token(Token = "0x400013D")]
+	[Token(Token = "0x400013B")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly HashSet<T[]> busy;
 
-	[Token(Token = "0x6000504")]
+	[Token(Token = "0x600050E")]
 	public static T[] New(int length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000505")]
+	[Token(Token = "0x600050F")]
 	public static void Free(T[] array)
 	{
 	}

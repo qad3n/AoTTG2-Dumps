@@ -12,20 +12,20 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001AA")]
 public class AnalyticsIdentifier
 {
-	[Token(Token = "0x40008F0")]
+	[Token(Token = "0x40008EE")]
 	[FieldOffset(Offset = "0x10")]
 	public string Identifier;
 
-	[Token(Token = "0x40008F1")]
+	[Token(Token = "0x40008EF")]
 	[FieldOffset(Offset = "0x18")]
 	public string Namespace;
 
-	[Token(Token = "0x40008F2")]
+	[Token(Token = "0x40008F0")]
 	[FieldOffset(Offset = "0x20")]
 	public int Hashcode;
 
-	[Token(Token = "0x600102D")]
-	[Address(RVA = "0x4D60350", Offset = "0x4D60350", VA = "0x4D60350")]
+	[Token(Token = "0x600103A")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public AnalyticsIdentifier()
 	{
 	}

@@ -13,7 +13,7 @@ namespace System.Runtime.CompilerServices;
 [Token(Token = "0x2000256")]
 internal sealed class TrueReadOnlyCollection<T> : ReadOnlyCollection<T>
 {
-	[Token(Token = "0x6000B9F")]
+	[Token(Token = "0x6000B9E")]
 	public TrueReadOnlyCollection(params T[] list)
 	{
 	}

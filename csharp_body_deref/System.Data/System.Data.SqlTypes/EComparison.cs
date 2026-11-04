@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x20000B0")]
+[Token(Token = "0x20000BA")]
 internal enum EComparison
 {
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x400041C")]
 	LT,
-	[Token(Token = "0x400040A")]
+	[Token(Token = "0x400041D")]
 	LE,
-	[Token(Token = "0x400040B")]
+	[Token(Token = "0x400041E")]
 	EQ,
-	[Token(Token = "0x400040C")]
+	[Token(Token = "0x400041F")]
 	GE,
-	[Token(Token = "0x400040D")]
+	[Token(Token = "0x4000420")]
 	GT,
-	[Token(Token = "0x400040E")]
+	[Token(Token = "0x4000421")]
 	NE
 }

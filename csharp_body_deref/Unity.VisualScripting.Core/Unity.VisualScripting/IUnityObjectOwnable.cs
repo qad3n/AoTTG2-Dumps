@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000194")]
 public interface IUnityObjectOwnable
 {
-	[Token(Token = "0x170001BB")]
+	[Token(Token = "0x170001BE")]
 	Object owner
 	{
-		[Token(Token = "0x6000FB6")]
+		[Token(Token = "0x6000FC1")]
 		get;
-		[Token(Token = "0x6000FB7")]
+		[Token(Token = "0x6000FC2")]
 		set;
 	}
 }

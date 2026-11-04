@@ -12,59 +12,59 @@ using Il2CppDummyDll;
 namespace Cysharp.Threading.Tasks;
 
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x2000037")]
+[Token(Token = "0x2000034")]
 public readonly struct UniTaskCancelableAsyncEnumerable<T>
 {
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000038")]
+	[Token(Token = "0x2000035")]
 	public readonly struct Enumerator
 	{
-		[Token(Token = "0x4000096")]
+		[Token(Token = "0x400008E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly IUniTaskAsyncEnumerator<T> enumerator;
 
 		[Token(Token = "0x17000024")]
 		public T Current
 		{
-			[Token(Token = "0x600011C")]
+			[Token(Token = "0x6000114")]
 			get
 			{
 				return (T)null;
 			}
 		}
 
-		[Token(Token = "0x600011B")]
+		[Token(Token = "0x6000113")]
 		internal Enumerator(IUniTaskAsyncEnumerator<T> enumerator)
 		{
 		}
 
-		[Token(Token = "0x600011D")]
+		[Token(Token = "0x6000115")]
 		public UniTask<bool> MoveNextAsync()
 		{
 			return default(UniTask<bool>);
 		}
 
-		[Token(Token = "0x600011E")]
+		[Token(Token = "0x6000116")]
 		public UniTask DisposeAsync()
 		{
 			return default(UniTask);
 		}
 	}
 
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x400008C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly IUniTaskAsyncEnumerable<T> enumerable;
 
-	[Token(Token = "0x4000095")]
+	[Token(Token = "0x400008D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x6000119")]
+	[Token(Token = "0x6000111")]
 	internal UniTaskCancelableAsyncEnumerable(IUniTaskAsyncEnumerable<T> enumerable, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x600011A")]
+	[Token(Token = "0x6000112")]
 	public Enumerator GetAsyncEnumerator()
 	{
 		return default(Enumerator);

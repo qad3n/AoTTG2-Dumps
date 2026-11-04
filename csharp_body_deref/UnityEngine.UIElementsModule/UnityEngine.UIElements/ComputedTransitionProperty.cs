@@ -11,22 +11,22 @@ using UnityEngine.UIElements.StyleSheets;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000272")]
+[Token(Token = "0x20002F6")]
 internal struct ComputedTransitionProperty
 {
-	[Token(Token = "0x400090B")]
+	[Token(Token = "0x4000B7C")]
 	[FieldOffset(Offset = "0x0")]
 	public StylePropertyId id;
 
-	[Token(Token = "0x400090C")]
+	[Token(Token = "0x4000B7D")]
 	[FieldOffset(Offset = "0x4")]
 	public int durationMs;
 
-	[Token(Token = "0x400090D")]
+	[Token(Token = "0x4000B7E")]
 	[FieldOffset(Offset = "0x8")]
 	public int delayMs;
 
-	[Token(Token = "0x400090E")]
+	[Token(Token = "0x4000B7F")]
 	[FieldOffset(Offset = "0x10")]
 	public Func<float, float> easingCurve;
 }

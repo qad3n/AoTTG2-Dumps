@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000256")]
+[Token(Token = "0x2000161")]
 public interface IContainer : IDisposable
 {
-	[Token(Token = "0x17000341")]
+	[Token(Token = "0x170001B0")]
 	ComponentCollection Components
 	{
-		[Token(Token = "0x6000EA2")]
+		[Token(Token = "0x60008EA")]
 		get;
 	}
 
-	[Token(Token = "0x6000EA0")]
+	[Token(Token = "0x60008E8")]
 	void Add(IComponent component);
 
-	[Token(Token = "0x6000EA1")]
+	[Token(Token = "0x60008E9")]
 	void Add(IComponent component, string name);
 
-	[Token(Token = "0x6000EA3")]
+	[Token(Token = "0x60008EB")]
 	void Remove(IComponent component);
 }

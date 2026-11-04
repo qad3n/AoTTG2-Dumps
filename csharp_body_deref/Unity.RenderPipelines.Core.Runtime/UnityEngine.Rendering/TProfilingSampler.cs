@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000FF")]
+[Token(Token = "0x20000D5")]
 internal class TProfilingSampler<TEnum> : ProfilingSampler where TEnum : Enum
 {
-	[Token(Token = "0x4000361")]
+	[Token(Token = "0x40002AC")]
 	[FieldOffset(Offset = "0x0")]
 	internal static Dictionary<TEnum, TProfilingSampler<TEnum>> samples;
 
-	[Token(Token = "0x600084B")]
+	[Token(Token = "0x60007AC")]
 	static TProfilingSampler()
 	{
 	}
 
-	[Token(Token = "0x600084C")]
+	[Token(Token = "0x60007AD")]
 	public TProfilingSampler(string name)
 	{
 	}

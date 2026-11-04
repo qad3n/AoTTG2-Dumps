@@ -11,31 +11,31 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000D2")]
 [UnityEngine.Bindings.StaticAccessor("ScalableBufferManager::GetInstance()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/ScalableBufferManager.h")]
 public static class ScalableBufferManager
 {
-	[Token(Token = "0x170000A2")]
+	[Token(Token = "0x170000C6")]
 	public static extern float widthScaleFactor
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000363")]
-		[Address(RVA = "0x4DC3A70", Offset = "0x4DC3A70", VA = "0x4DC3A70")]
+		[Token(Token = "0x60004A2")]
+		[Address(RVA = "0x2ED3B40", Offset = "0x2ED2140", VA = "0x182ED3B40")]
 		get;
 	}
 
-	[Token(Token = "0x170000A3")]
+	[Token(Token = "0x170000C7")]
 	public static extern float heightScaleFactor
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x4DC3AA0", Offset = "0x4DC3AA0", VA = "0x4DC3AA0")]
+		[Token(Token = "0x60004A3")]
+		[Address(RVA = "0x2ED3B10", Offset = "0x2ED2110", VA = "0x182ED3B10")]
 		get;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000365")]
-	[Address(RVA = "0x4DC3AD0", Offset = "0x4DC3AD0", VA = "0x4DC3AD0")]
+	[Token(Token = "0x60004A4")]
+	[Address(RVA = "0x2ED3AC0", Offset = "0x2ED20C0", VA = "0x182ED3AC0")]
 	public static extern void ResizeBuffers(float widthScale, float heightScale);
 }

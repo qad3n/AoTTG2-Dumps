@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200002B")]
 internal class ConstraintEnumerator
 {
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x40000FA")]
 	[FieldOffset(Offset = "0x10")]
 	private IEnumerator _tables;
 
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x40000FB")]
 	[FieldOffset(Offset = "0x18")]
 	private IEnumerator _constraints;
 
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x40000FC")]
 	[FieldOffset(Offset = "0x20")]
 	private Constraint _currentObject;
 
-	[Token(Token = "0x1700000F")]
+	[Token(Token = "0x17000085")]
 	protected Constraint CurrentObject
 	{
-		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x4538010", Offset = "0x4538010", VA = "0x4538010")]
+		[Token(Token = "0x600038E")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4537BF0", Offset = "0x4537BF0", VA = "0x4537BF0")]
+	[Token(Token = "0x600038A")]
+	[Address(RVA = "0x24E9F10", Offset = "0x24E8510", VA = "0x1824E9F10")]
 	public ConstraintEnumerator(DataSet dataSet)
 	{
 	}
 
-	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4537C60", Offset = "0x4537C60", VA = "0x4537C60")]
+	[Token(Token = "0x600038B")]
+	[Address(RVA = "0x24E9CE0", Offset = "0x24E82E0", VA = "0x1824E9CE0")]
 	public bool GetNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4537FF0", Offset = "0x4537FF0", VA = "0x4537FF0")]
+	[Token(Token = "0x600038C")]
+	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 	public Constraint GetConstraint()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000063")]
-	[Address(RVA = "0x4538000", Offset = "0x4538000", VA = "0x4538000", Slot = "4")]
+	[Token(Token = "0x600038D")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "4")]
 	protected virtual bool IsValidCandidate(Constraint constraint)
 	{
 		return default(bool);

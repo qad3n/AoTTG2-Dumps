@@ -16,91 +16,91 @@ namespace Unity.VisualScripting;
 [SerializationVersion("A", new Type[] { })]
 public sealed class GraphGroup : GraphElement<IGraph>
 {
-	[Token(Token = "0x4000120")]
+	[Token(Token = "0x400011E")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	public static readonly Color defaultColor;
 
-	[Token(Token = "0x170000F6")]
+	[Token(Token = "0x170000F9")]
 	[Serialize]
 	public Rect position
 	{
-		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x4CB45B0", Offset = "0x4CB45B0", VA = "0x4CB45B0")]
+		[Token(Token = "0x600040D")]
+		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Rect);
 		}
-		[Token(Token = "0x6000404")]
-		[Address(RVA = "0x4CB45C0", Offset = "0x4CB45C0", VA = "0x4CB45C0")]
+		[Token(Token = "0x600040E")]
+		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000F7")]
+	[Token(Token = "0x170000FA")]
 	[Serialize]
 	public string label
 	{
-		[Token(Token = "0x6000405")]
-		[Address(RVA = "0x4CB45D0", Offset = "0x4CB45D0", VA = "0x4CB45D0")]
+		[Token(Token = "0x600040F")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000406")]
-		[Address(RVA = "0x4CB45E0", Offset = "0x4CB45E0", VA = "0x4CB45E0")]
+		[Token(Token = "0x6000410")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000F8")]
+	[Token(Token = "0x170000FB")]
 	[Serialize]
 	[InspectorTextArea(minLines = 1f, maxLines = 10f)]
 	public string comment
 	{
-		[Token(Token = "0x6000407")]
-		[Address(RVA = "0x4CB45F0", Offset = "0x4CB45F0", VA = "0x4CB45F0")]
+		[Token(Token = "0x6000411")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000408")]
-		[Address(RVA = "0x4CB4600", Offset = "0x4CB4600", VA = "0x4CB4600")]
+		[Token(Token = "0x6000412")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000F9")]
+	[Token(Token = "0x170000FC")]
 	[Serialize]
 	[Inspectable]
 	public Color color
 	{
-		[Token(Token = "0x6000409")]
-		[Address(RVA = "0x4CB4610", Offset = "0x4CB4610", VA = "0x4CB4610")]
+		[Token(Token = "0x6000413")]
+		[Address(RVA = "0x1C5E410", Offset = "0x1C5CA10", VA = "0x181C5E410")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Color);
 		}
-		[Token(Token = "0x600040A")]
-		[Address(RVA = "0x4CB4620", Offset = "0x4CB4620", VA = "0x4CB4620")]
+		[Token(Token = "0x6000414")]
+		[Address(RVA = "0x1C5E490", Offset = "0x1C5CA90", VA = "0x181C5E490")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x4CB4510", Offset = "0x4CB4510", VA = "0x4CB4510")]
+	[Token(Token = "0x600040C")]
+	[Address(RVA = "0x2DA8570", Offset = "0x2DA6B70", VA = "0x182DA8570")]
 	public GraphGroup()
 	{
 	}

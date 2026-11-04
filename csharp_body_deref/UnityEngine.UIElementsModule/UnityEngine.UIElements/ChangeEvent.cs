@@ -10,64 +10,64 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x20001B9")]
 [EventCategory(EventCategory.ChangeValue)]
 public class ChangeEvent<T> : EventBase<ChangeEvent<T>>
 {
-	[Token(Token = "0x170001BE")]
+	[Token(Token = "0x17000243")]
 	public T previousValue
 	{
-		[Token(Token = "0x60009EA")]
+		[Token(Token = "0x6000BEE")]
 		[CompilerGenerated]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x60009EB")]
+		[Token(Token = "0x6000BEF")]
 		[CompilerGenerated]
 		protected set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001BF")]
+	[Token(Token = "0x17000244")]
 	public T newValue
 	{
-		[Token(Token = "0x60009EC")]
+		[Token(Token = "0x6000BF0")]
 		[CompilerGenerated]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x60009ED")]
+		[Token(Token = "0x6000BF1")]
 		[CompilerGenerated]
 		protected set
 		{
 		}
 	}
 
-	[Token(Token = "0x60009E9")]
+	[Token(Token = "0x6000BED")]
 	static ChangeEvent()
 	{
 	}
 
-	[Token(Token = "0x60009EE")]
+	[Token(Token = "0x6000BF2")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x60009EF")]
+	[Token(Token = "0x6000BF3")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x60009F0")]
+	[Token(Token = "0x6000BF4")]
 	public static ChangeEvent<T> GetPooled(T previousValue, T newValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009F1")]
+	[Token(Token = "0x6000BF5")]
 	public ChangeEvent()
 	{
 	}

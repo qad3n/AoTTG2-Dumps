@@ -10,103 +10,106 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000377")]
+[Serializable]
+[Token(Token = "0x2000417")]
 public struct StyleEnum<T> : IStyleValue<T>, IEquatable<StyleEnum<T>> where T : struct, IConvertible
 {
-	[Token(Token = "0x4000A7A")]
+	[Token(Token = "0x4000DC4")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T m_Value;
 
-	[Token(Token = "0x4000A7B")]
+	[Token(Token = "0x4000DC5")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private StyleKeyword m_Keyword;
 
-	[Token(Token = "0x17000639")]
+	[Token(Token = "0x170008CB")]
 	public T value
 	{
-		[Token(Token = "0x6001647")]
+		[Token(Token = "0x6002004")]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x6001648")]
+		[Token(Token = "0x6002005")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700063A")]
+	[Token(Token = "0x170008CC")]
 	public StyleKeyword keyword
 	{
-		[Token(Token = "0x6001649")]
+		[Token(Token = "0x6002006")]
 		get
 		{
 			return default(StyleKeyword);
 		}
-		[Token(Token = "0x600164A")]
+		[Token(Token = "0x6002007")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600164B")]
+	[Token(Token = "0x6002008")]
 	public StyleEnum(T v)
 	{
 	}
 
-	[Token(Token = "0x600164C")]
+	[Token(Token = "0x6002009")]
 	public StyleEnum(StyleKeyword keyword)
 	{
 	}
 
-	[Token(Token = "0x600164D")]
+	[Token(Token = "0x600200A")]
 	internal StyleEnum(T v, StyleKeyword keyword)
 	{
 	}
 
-	[Token(Token = "0x600164E")]
+	[Token(Token = "0x600200B")]
 	public static bool operator ==(StyleEnum<T> lhs, StyleEnum<T> rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600164F")]
+	[Token(Token = "0x600200C")]
 	public static bool operator !=(StyleEnum<T> lhs, StyleEnum<T> rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001650")]
+	[Token(Token = "0x600200D")]
 	public static implicit operator StyleEnum<T>(StyleKeyword keyword)
 	{
 		return default(StyleEnum<T>);
 	}
 
-	[Token(Token = "0x6001651")]
+	[Token(Token = "0x600200E")]
 	public static implicit operator StyleEnum<T>(T v)
 	{
 		return default(StyleEnum<T>);
 	}
 
-	[Token(Token = "0x6001652")]
+	[Token(Token = "0x600200F")]
 	public bool Equals(StyleEnum<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001653")]
+	[Token(Token = "0x6002010")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001654")]
+	[Token(Token = "0x6002011")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001655")]
+	[Token(Token = "0x6002012")]
 	public override string ToString()
 	{
 		return null;

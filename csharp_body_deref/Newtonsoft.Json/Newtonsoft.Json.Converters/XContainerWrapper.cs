@@ -22,7 +22,7 @@ internal class XContainerWrapper : XObjectWrapper
 	private XContainer Container
 	{
 		[Token(Token = "0x6000F81")]
-		[Address(RVA = "0x3E4B980", Offset = "0x3E4B980", VA = "0x3E4B980")]
+		[Address(RVA = "0x1CB09E0", Offset = "0x1CAEFE0", VA = "0x181CB09E0")]
 		get
 		{
 			return null;
@@ -33,7 +33,7 @@ internal class XContainerWrapper : XObjectWrapper
 	public override List<IXmlNode> ChildNodes
 	{
 		[Token(Token = "0x6000F83")]
-		[Address(RVA = "0x3E49E00", Offset = "0x3E49E00", VA = "0x3E49E00", Slot = "16")]
+		[Address(RVA = "0x1CB06C0", Offset = "0x1CAECC0", VA = "0x181CB06C0", Slot = "16")]
 		get
 		{
 			return null;
@@ -44,7 +44,7 @@ internal class XContainerWrapper : XObjectWrapper
 	protected virtual bool HasChildNodes
 	{
 		[Token(Token = "0x6000F84")]
-		[Address(RVA = "0x3E4A3C0", Offset = "0x3E4A3C0", VA = "0x3E4A3C0", Slot = "23")]
+		[Address(RVA = "0x1CB0A50", Offset = "0x1CAF050", VA = "0x181CB0A50", Slot = "23")]
 		get
 		{
 			return default(bool);
@@ -55,7 +55,7 @@ internal class XContainerWrapper : XObjectWrapper
 	public override IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F85")]
-		[Address(RVA = "0x3E4B9E0", Offset = "0x3E4B9E0", VA = "0x3E4B9E0", Slot = "18")]
+		[Address(RVA = "0x1CB0AD0", Offset = "0x1CAF0D0", VA = "0x181CB0AD0", Slot = "18")]
 		get
 		{
 			return null;
@@ -63,20 +63,20 @@ internal class XContainerWrapper : XObjectWrapper
 	}
 
 	[Token(Token = "0x6000F82")]
-	[Address(RVA = "0x3E49B90", Offset = "0x3E49B90", VA = "0x3E49B90")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public XContainerWrapper(XContainer container)
 	{
 	}
 
 	[Token(Token = "0x6000F86")]
-	[Address(RVA = "0x3E4B230", Offset = "0x3E4B230", VA = "0x3E4B230")]
+	[Address(RVA = "0x1CB03D0", Offset = "0x1CAE9D0", VA = "0x181CB03D0")]
 	internal static IXmlNode WrapNode(XObject node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F87")]
-	[Address(RVA = "0x3E4AE60", Offset = "0x3E4AE60", VA = "0x3E4AE60", Slot = "21")]
+	[Address(RVA = "0x1CB02E0", Offset = "0x1CAE8E0", VA = "0x181CB02E0", Slot = "21")]
 	public override IXmlNode AppendChild(IXmlNode newChild)
 	{
 		return null;

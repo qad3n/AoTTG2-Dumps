@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000A7")]
 public interface IInitializePotentialDragHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000643")]
+	[Token(Token = "0x600068A")]
 	void OnInitializePotentialDrag(PointerEventData eventData);
 }

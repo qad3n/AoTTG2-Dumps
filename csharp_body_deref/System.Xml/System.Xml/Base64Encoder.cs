@@ -25,7 +25,7 @@ internal abstract class Base64Encoder
 	private char[] charsLine;
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4678580", Offset = "0x4678580", VA = "0x4678580")]
+	[Address(RVA = "0x25CC530", Offset = "0x25CAB30", VA = "0x1825CC530")]
 	internal Base64Encoder()
 	{
 	}
@@ -34,13 +34,13 @@ internal abstract class Base64Encoder
 	internal abstract void WriteChars(char[] chars, int index, int count);
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x46785E0", Offset = "0x46785E0", VA = "0x46785E0")]
+	[Address(RVA = "0x25CC0D0", Offset = "0x25CA6D0", VA = "0x1825CC0D0")]
 	internal void Encode(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x4678900", Offset = "0x4678900", VA = "0x4678900")]
+	[Address(RVA = "0x25CC470", Offset = "0x25CAA70", VA = "0x1825CC470")]
 	internal void Flush()
 	{
 	}

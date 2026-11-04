@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004ED")]
+[Token(Token = "0x200051D")]
 [DefaultMember("Item")]
 public readonly struct ParameterModifier
 {

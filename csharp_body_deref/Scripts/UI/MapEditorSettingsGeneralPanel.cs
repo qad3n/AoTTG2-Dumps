@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006D5")]
+[Token(Token = "0x200084D")]
 internal class MapEditorSettingsGeneralPanel : CategoryPanel
 {
-	[Token(Token = "0x17000D50")]
+	[Token(Token = "0x17000EAB")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x600443F")]
-		[Address(RVA = "0x4337C50", Offset = "0x4337C50", VA = "0x4337C50", Slot = "13")]
+		[Token(Token = "0x6005041")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6004440")]
-	[Address(RVA = "0x4337C60", Offset = "0x4337C60", VA = "0x4337C60", Slot = "20")]
+	[Token(Token = "0x6005042")]
+	[Address(RVA = "0x22D1D40", Offset = "0x22D0340", VA = "0x1822D1D40", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004441")]
-	[Address(RVA = "0x4338310", Offset = "0x4338310", VA = "0x4338310")]
+	[Token(Token = "0x6005043")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public MapEditorSettingsGeneralPanel()
 	{
 	}

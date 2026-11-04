@@ -26,7 +26,7 @@ public class XmlSchemaChoice : XmlSchemaGroupBase
 	public override XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x6001576")]
-		[Address(RVA = "0x471F8F0", Offset = "0x471F8F0", VA = "0x471F8F0", Slot = "16")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0", Slot = "16")]
 		get
 		{
 			return null;
@@ -37,7 +37,7 @@ public class XmlSchemaChoice : XmlSchemaGroupBase
 	internal override bool IsEmpty
 	{
 		[Token(Token = "0x6001577")]
-		[Address(RVA = "0x471F900", Offset = "0x471F900", VA = "0x471F900", Slot = "14")]
+		[Address(RVA = "0x26666F0", Offset = "0x2664CF0", VA = "0x1826666F0", Slot = "14")]
 		get
 		{
 			return default(bool);
@@ -45,13 +45,13 @@ public class XmlSchemaChoice : XmlSchemaGroupBase
 	}
 
 	[Token(Token = "0x6001578")]
-	[Address(RVA = "0x471F910", Offset = "0x471F910", VA = "0x471F910", Slot = "17")]
+	[Address(RVA = "0xCDB690", Offset = "0xCD9C90", VA = "0x180CDB690", Slot = "17")]
 	internal override void SetItems(XmlSchemaObjectCollection newItems)
 	{
 	}
 
 	[Token(Token = "0x6001579")]
-	[Address(RVA = "0x471F920", Offset = "0x471F920", VA = "0x471F920")]
+	[Address(RVA = "0x2666650", Offset = "0x2664C50", VA = "0x182666650")]
 	public XmlSchemaChoice()
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x2000352")]
+[Token(Token = "0x20003FA")]
 public enum DefaultFormat
 {
-	[Token(Token = "0x4000AC0")]
+	[Token(Token = "0x4000D57")]
 	LDR,
-	[Token(Token = "0x4000AC1")]
+	[Token(Token = "0x4000D58")]
 	HDR,
-	[Token(Token = "0x4000AC2")]
+	[Token(Token = "0x4000D59")]
 	DepthStencil,
-	[Token(Token = "0x4000AC3")]
+	[Token(Token = "0x4000D5A")]
 	Shadow,
-	[Token(Token = "0x4000AC4")]
+	[Token(Token = "0x4000D5B")]
 	Video
 }

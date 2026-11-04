@@ -10,68 +10,68 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x200008D")]
 internal sealed class Listeners<TElem> where TElem : class
 {
-	[Token(Token = "0x2000084")]
+	[Token(Token = "0x200008E")]
 	internal delegate void Action<T1, T2, T3, T4>(T1 arg1, T2 arg2, T3 arg3, T4 arg4);
 
-	[Token(Token = "0x2000085")]
+	[Token(Token = "0x200008F")]
 	internal delegate TResult Func<T1, TResult>(T1 arg1);
 
-	[Token(Token = "0x40002B3")]
+	[Token(Token = "0x40002C6")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly List<TElem> _listeners;
 
-	[Token(Token = "0x40002B4")]
+	[Token(Token = "0x40002C7")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Func<TElem, bool> _filter;
 
-	[Token(Token = "0x40002B5")]
+	[Token(Token = "0x40002C8")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _objectID;
 
-	[Token(Token = "0x40002B6")]
+	[Token(Token = "0x40002C9")]
 	[FieldOffset(Offset = "0x0")]
 	private int _listenerReaderCount;
 
-	[Token(Token = "0x17000137")]
+	[Token(Token = "0x1700013A")]
 	internal bool HasListeners
 	{
-		[Token(Token = "0x6000794")]
+		[Token(Token = "0x60007B3")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000793")]
+	[Token(Token = "0x60007B2")]
 	internal Listeners(int ObjectID, Func<TElem, bool> notifyFilter)
 	{
 	}
 
-	[Token(Token = "0x6000795")]
+	[Token(Token = "0x60007B4")]
 	internal void Add(TElem listener)
 	{
 	}
 
-	[Token(Token = "0x6000796")]
+	[Token(Token = "0x60007B5")]
 	internal int IndexOfReference(TElem listener)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000797")]
+	[Token(Token = "0x60007B6")]
 	internal void Remove(TElem listener)
 	{
 	}
 
-	[Token(Token = "0x6000798")]
+	[Token(Token = "0x60007B7")]
 	internal void Notify<T1, T2, T3>(T1 arg1, T2 arg2, T3 arg3, Action<TElem, T1, T2, T3> action)
 	{
 	}
 
-	[Token(Token = "0x6000799")]
+	[Token(Token = "0x60007B8")]
 	private void RemoveNullListeners(int nullIndex)
 	{
 	}

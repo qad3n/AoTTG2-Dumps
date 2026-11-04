@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000030")]
 public interface IUniTaskAsyncDisposable
 {
-	[Token(Token = "0x6000113")]
+	[Token(Token = "0x600010B")]
 	UniTask DisposeAsync();
 }

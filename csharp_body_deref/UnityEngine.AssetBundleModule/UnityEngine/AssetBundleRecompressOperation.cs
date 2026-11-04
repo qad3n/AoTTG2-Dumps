@@ -13,7 +13,7 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000005")]
 [UnityEngine.Bindings.NativeHeader("Modules/AssetBundle/Public/AssetBundleRecompressOperation.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class AssetBundleRecompressOperation : AsyncOperation

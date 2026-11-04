@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000041")]
+[Token(Token = "0x2000042")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorActionDirectionAttribute : Attribute
 {
-	[Token(Token = "0x17000064")]
+	[Token(Token = "0x17000065")]
 	public ActionDirection direction
 	{
-		[Token(Token = "0x60001E6")]
-		[Address(RVA = "0x4CA3A90", Offset = "0x4CA3A90", VA = "0x4CA3A90")]
+		[Token(Token = "0x60001EB")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActionDirection);
 		}
-		[Token(Token = "0x60001E7")]
-		[Address(RVA = "0x4CA3AA0", Offset = "0x4CA3AA0", VA = "0x4CA3AA0")]
+		[Token(Token = "0x60001EC")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x4CA3A70", Offset = "0x4CA3A70", VA = "0x4CA3A70")]
+	[Token(Token = "0x60001EA")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public InspectorActionDirectionAttribute(ActionDirection direction)
 	{
 	}

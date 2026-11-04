@@ -25,7 +25,7 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001C6C")]
-		[Address(RVA = "0x478F0D0", Offset = "0x478F0D0", VA = "0x478F0D0", Slot = "8")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
 		get
 		{
 			return null;
@@ -36,7 +36,7 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001C6D")]
-		[Address(RVA = "0x478F0E0", Offset = "0x478F0E0", VA = "0x478F0E0", Slot = "9")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -44,13 +44,13 @@ internal abstract class XPathDocumentBaseIterator : XPathNodeIterator
 	}
 
 	[Token(Token = "0x6001C6A")]
-	[Address(RVA = "0x478EF10", Offset = "0x478EF10", VA = "0x478EF10")]
+	[Address(RVA = "0x26D4F50", Offset = "0x26D3550", VA = "0x1826D4F50")]
 	protected XPathDocumentBaseIterator(XPathDocumentNavigator ctxt)
 	{
 	}
 
 	[Token(Token = "0x6001C6B")]
-	[Address(RVA = "0x478F040", Offset = "0x478F040", VA = "0x478F040")]
+	[Address(RVA = "0x26D5000", Offset = "0x26D3600", VA = "0x1826D5000")]
 	protected XPathDocumentBaseIterator(XPathDocumentBaseIterator iter)
 	{
 	}

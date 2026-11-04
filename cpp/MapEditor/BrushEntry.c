@@ -1,5 +1,5 @@
 // Type: MapEditor.BrushEntry
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/MapEditor/BrushEntry.cs
@@ -8,22 +8,23 @@
 
 // MapEditor.BrushEntry$$.ctor
 // il2cpp: void MapEditor_BrushEntry___ctor (MapEditor_BrushEntry_o* __this, const MethodInfo* method);
-// 0x4333170
+// 0x1820b5940
 
 void MapEditor_BrushEntry___ctor(MapEditor_BrushEntry_o *__this,MethodInfo *method)
 
 {
-  Utility_Color255_o *pUVar1;
-  long lVar2;
+  float fVar1;
+  System_String_o *pSVar2;
+  Utility_Color255_o *pUVar3;
   
-  if (g_data_057ae08b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapObjectCollideMode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapObjectCollideWith);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapObjectShader);
-    il2cpp_runtime_helper_023445d0(&"Misc/None");
-    il2cpp_runtime_helper_023445d0(&"Default");
-    g_data_057ae08b = '\x01';
+  if (Il2CppMethodInitialized_1843469a3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectCollideMode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectCollideWith);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapObjectShader);
+    il2cpp_codegen_initialize_runtime_metadata(&"Misc/None");
+    il2cpp_codegen_initialize_runtime_metadata(&"Default");
+    Il2CppMethodInitialized_1843469a3 = '\x01';
   }
   (__this->fields).Weight = 1.0;
   (__this->fields).ScaleMin = 1.0;
@@ -36,48 +37,55 @@ void MapEditor_BrushEntry___ctor(MapEditor_BrushEntry_o *__this,MethodInfo *meth
   (__this->fields).ScaleZMin = 1.0;
   (__this->fields).ScaleZMax = 1.0;
   (__this->fields).RotYMax = 360.0;
-  *(undefined2 *)&(__this->fields).Active = 0x101;
-  *(undefined1 *)((long)&(__this->fields).Active + 2) = 1;
-  if (*(int *)(TypeInfo_MapObjectCollideMode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  (__this->fields).Active = true;
+  (__this->fields).Static = true;
+  (__this->fields).Visible = true;
+  if ((TypeInfo_Map_MapObjectCollideMode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapObjectCollideMode);
   }
-  *(undefined8 *)&(__this->fields).Visible = **(undefined8 **)(TypeInfo_MapObjectCollideMode + 0xb8);
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Visible);
-  if (*(int *)(TypeInfo_MapObjectCollideWith + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pSVar2 = TypeInfo_Map_MapObjectCollideMode->static_fields->Physical;
+  (__this->fields).CollideMode = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CollideMode,pSVar2);
+  if ((TypeInfo_Map_MapObjectCollideWith->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapObjectCollideWith);
   }
-  (__this->fields).CollideMode = *(System_String_o **)(*(long *)(TypeInfo_MapObjectCollideWith + 0xb8) + 0x30);
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CollideMode);
-  (__this->fields).CollideWith = "Default";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CollideWith);
-  if (*(int *)(TypeInfo_MapObjectShader + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pSVar2 = TypeInfo_Map_MapObjectCollideWith->static_fields->Entities;
+  (__this->fields).CollideWith = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CollideWith,pSVar2);
+  (__this->fields).PhysicsMaterial = "Default";
+  Il2CppCodeGenWriteBarrier(&(__this->fields).PhysicsMaterial,"Default");
+  if ((TypeInfo_Map_MapObjectShader->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapObjectShader);
   }
-  (__this->fields).PhysicsMaterial = (System_String_o *)**(undefined8 **)(TypeInfo_MapObjectShader + 0xb8);
-  il2cpp_runtime_helper_022b4080(&(__this->fields).PhysicsMaterial);
-  pUVar1 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-  Utility_Color255___ctor_4388b90(pUVar1,(MethodInfo *)0x0);
-  (__this->fields).Shader = (System_String_o *)pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Shader);
-  pUVar1 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-  Utility_Color255___ctor_4388b90(pUVar1,(MethodInfo *)0x0);
-  (__this->fields).Color = pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Color,pUVar1);
-  (__this->fields).ReflectColor = "Misc/None";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ReflectColor);
-  if (g_data_057a9c86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-    g_data_057a9c86 = '\x01';
+  pSVar2 = TypeInfo_Map_MapObjectShader->static_fields->Default;
+  (__this->fields).Shader = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Shader,pSVar2);
+  pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor_2332720(pUVar3,(MethodInfo *)0x0);
+  (__this->fields).Color = pUVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Color,pUVar3);
+  pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor_2332720(pUVar3,(MethodInfo *)0x0);
+  (__this->fields).ReflectColor = pUVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ReflectColor,pUVar3);
+  (__this->fields).Texture = "Misc/None";
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Texture,"Misc/None");
+  if (Il2CppMethodInitialized_184341f36 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+    Il2CppMethodInitialized_184341f36 = '\x01';
   }
-  lVar2 = TypeInfo_Vector2;
-  (__this->fields).Texture = *(System_String_o **)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8);
-  if (g_data_057a694c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-    g_data_057a694c = '\x01';
-    lVar2 = TypeInfo_Vector2;
+  fVar1 = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.x;
+  (__this->fields).Tiling.fields.y = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.y;
+  (__this->fields).Tiling.fields.x = fVar1;
+  if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+    Il2CppMethodInitialized_18433e3c9 = '\x01';
   }
-  (__this->fields).Tiling.fields = **(UnityEngine_Vector2_Fields **)(lVar2 + 0xb8);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  fVar1 = (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.x;
+  (__this->fields).Offset.fields.y = (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.y;
+  (__this->fields).Offset.fields.x = fVar1;
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

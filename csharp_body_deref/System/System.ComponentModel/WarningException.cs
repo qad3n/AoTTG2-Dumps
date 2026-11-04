@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 namespace System.ComponentModel;
 
 [Serializable]
-[Token(Token = "0x20002E2")]
+[Token(Token = "0x20001ED")]
 public class WarningException : SystemException
 {
-	[Token(Token = "0x17000431")]
+	[Token(Token = "0x170002A0")]
 	public string HelpUrl
 	{
-		[Token(Token = "0x60012C1")]
-		[Address(RVA = "0x48AC8A0", Offset = "0x48AC8A0", VA = "0x48AC8A0")]
+		[Token(Token = "0x6000D09")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,11 +27,11 @@ public class WarningException : SystemException
 		}
 	}
 
-	[Token(Token = "0x17000432")]
+	[Token(Token = "0x170002A1")]
 	public string HelpTopic
 	{
-		[Token(Token = "0x60012C2")]
-		[Address(RVA = "0x48AC8B0", Offset = "0x48AC8B0", VA = "0x48AC8B0")]
+		[Token(Token = "0x6000D0A")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,44 +39,44 @@ public class WarningException : SystemException
 		}
 	}
 
-	[Token(Token = "0x60012BB")]
-	[Address(RVA = "0x48AC5F0", Offset = "0x48AC5F0", VA = "0x48AC5F0")]
+	[Token(Token = "0x6000D03")]
+	[Address(RVA = "0x28CB2C0", Offset = "0x28C98C0", VA = "0x1828CB2C0")]
 	public WarningException()
 	{
 	}
 
-	[Token(Token = "0x60012BC")]
-	[Address(RVA = "0x48AC690", Offset = "0x48AC690", VA = "0x48AC690")]
+	[Token(Token = "0x6000D04")]
+	[Address(RVA = "0x28CB580", Offset = "0x28C9B80", VA = "0x1828CB580")]
 	public WarningException(string message)
 	{
 	}
 
-	[Token(Token = "0x60012BD")]
-	[Address(RVA = "0x48AC6E0", Offset = "0x48AC6E0", VA = "0x48AC6E0")]
+	[Token(Token = "0x6000D05")]
+	[Address(RVA = "0x28CB520", Offset = "0x28C9B20", VA = "0x1828CB520")]
 	public WarningException(string message, string helpUrl)
 	{
 	}
 
-	[Token(Token = "0x60012BE")]
-	[Address(RVA = "0x48AC730", Offset = "0x48AC730", VA = "0x48AC730")]
+	[Token(Token = "0x6000D06")]
+	[Address(RVA = "0x19E0110", Offset = "0x19DE710", VA = "0x1819E0110")]
 	public WarningException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60012BF")]
-	[Address(RVA = "0x48AC640", Offset = "0x48AC640", VA = "0x48AC640")]
+	[Token(Token = "0x6000D07")]
+	[Address(RVA = "0x28CB310", Offset = "0x28C9910", VA = "0x1828CB310")]
 	public WarningException(string message, string helpUrl, string helpTopic)
 	{
 	}
 
-	[Token(Token = "0x60012C0")]
-	[Address(RVA = "0x48AC740", Offset = "0x48AC740", VA = "0x48AC740")]
+	[Token(Token = "0x6000D08")]
+	[Address(RVA = "0x28CB370", Offset = "0x28C9970", VA = "0x1828CB370")]
 	protected WarningException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60012C3")]
-	[Address(RVA = "0x48AC8C0", Offset = "0x48AC8C0", VA = "0x48AC8C0", Slot = "11")]
+	[Token(Token = "0x6000D0B")]
+	[Address(RVA = "0x28CB210", Offset = "0x28C9810", VA = "0x1828CB210", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -17,13 +17,13 @@ internal class XmlTextWriterBase64Encoder : Base64Encoder
 	private XmlTextEncoder xmlTextEncoder;
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4678A30", Offset = "0x4678A30", VA = "0x4678A30")]
+	[Address(RVA = "0x25D5B90", Offset = "0x25D4190", VA = "0x1825D5B90")]
 	internal XmlTextWriterBase64Encoder(XmlTextEncoder xmlTextEncoder)
 	{
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4678AA0", Offset = "0x4678AA0", VA = "0x4678AA0", Slot = "4")]
+	[Address(RVA = "0x25E1FD0", Offset = "0x25E05D0", VA = "0x1825E1FD0", Slot = "4")]
 	internal override void WriteChars(char[] chars, int index, int count)
 	{
 	}

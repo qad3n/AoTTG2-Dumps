@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.EntryProcessor
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,335 +9,312 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Unity.Collections;
-using Unity.Profiling;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x200049A")]
+[Token(Token = "0x2000593")]
 internal class EntryProcessor
 {
-	[Token(Token = "0x200049B")]
+	[Token(Token = "0x2000594")]
 	private struct MaskMesh
 	{
-		[Token(Token = "0x4000E0E")]
+		[Token(Token = "0x40013A5")]
 		[FieldOffset(Offset = "0x0")]
 		public NativeSlice<Vertex> vertices;
 
-		[Token(Token = "0x4000E0F")]
+		[Token(Token = "0x40013A6")]
 		[FieldOffset(Offset = "0x10")]
 		public NativeSlice<ushort> indices;
 
-		[Token(Token = "0x4000E10")]
+		[Token(Token = "0x40013A7")]
 		[FieldOffset(Offset = "0x20")]
 		public int indexOffset;
 	}
 
-	[Token(Token = "0x4000DE3")]
-	[FieldOffset(Offset = "0x0")]
-	private static readonly ProfilerMarker k_ProcessHeadEntriesMarker;
-
-	[Token(Token = "0x4000DE4")]
-	[FieldOffset(Offset = "0x8")]
-	private static readonly ProfilerMarker k_ProcessTailEntriesMarker;
-
-	[Token(Token = "0x4000DE5")]
+	[Token(Token = "0x400137F")]
 	[FieldOffset(Offset = "0x10")]
 	private EntryPreProcessor m_PreProcessor;
 
-	[Token(Token = "0x4000DE6")]
+	[Token(Token = "0x4001380")]
 	[FieldOffset(Offset = "0x18")]
-	private RenderChain m_RenderChain;
+	private RenderTreeManager m_RenderTreeManager;
 
-	[Token(Token = "0x4000DE7")]
+	[Token(Token = "0x4001381")]
 	[FieldOffset(Offset = "0x20")]
-	private VisualElement m_CurrentElement;
+	private RenderData m_CurrentRenderData;
 
-	[Token(Token = "0x4000DE8")]
+	[Token(Token = "0x4001382")]
 	[FieldOffset(Offset = "0x28")]
 	private int m_MaskDepth;
 
-	[Token(Token = "0x4000DE9")]
+	[Token(Token = "0x4001383")]
 	[FieldOffset(Offset = "0x2C")]
 	private int m_MaskDepthPopped;
 
-	[Token(Token = "0x4000DEA")]
+	[Token(Token = "0x4001384")]
 	[FieldOffset(Offset = "0x30")]
 	private int m_MaskDepthPushed;
 
-	[Token(Token = "0x4000DEB")]
+	[Token(Token = "0x4001385")]
 	[FieldOffset(Offset = "0x34")]
 	private int m_StencilRef;
 
-	[Token(Token = "0x4000DEC")]
+	[Token(Token = "0x4001386")]
 	[FieldOffset(Offset = "0x38")]
 	private int m_StencilRefPopped;
 
-	[Token(Token = "0x4000DED")]
+	[Token(Token = "0x4001387")]
 	[FieldOffset(Offset = "0x3C")]
 	private int m_StencilRefPushed;
 
-	[Token(Token = "0x4000DEE")]
+	[Token(Token = "0x4001388")]
 	[FieldOffset(Offset = "0x40")]
 	private BMPAlloc m_ClipRectId;
 
-	[Token(Token = "0x4000DEF")]
+	[Token(Token = "0x4001389")]
 	[FieldOffset(Offset = "0x48")]
 	private BMPAlloc m_ClipRectIdPopped;
 
-	[Token(Token = "0x4000DF0")]
+	[Token(Token = "0x400138A")]
 	[FieldOffset(Offset = "0x50")]
 	private BMPAlloc m_ClipRectIdPushed;
 
-	[Token(Token = "0x4000DF1")]
+	[Token(Token = "0x400138B")]
 	[FieldOffset(Offset = "0x58")]
 	private bool m_IsDrawingMask;
 
-	[Token(Token = "0x4000DF2")]
+	[Token(Token = "0x400138C")]
 	[FieldOffset(Offset = "0x60")]
 	private Stack<MaskMesh> m_MaskMeshes;
 
-	[Token(Token = "0x4000DF3")]
+	[Token(Token = "0x400138D")]
 	[FieldOffset(Offset = "0x68")]
 	private bool m_VertexDataComputed;
 
-	[Token(Token = "0x4000DF4")]
+	[Token(Token = "0x400138E")]
 	[FieldOffset(Offset = "0x6C")]
 	private Matrix4x4 m_Transform;
 
-	[Token(Token = "0x4000DF5")]
+	[Token(Token = "0x400138F")]
 	[FieldOffset(Offset = "0xAC")]
 	private Color32 m_TransformData;
 
-	[Token(Token = "0x4000DF6")]
+	[Token(Token = "0x4001390")]
 	[FieldOffset(Offset = "0xB0")]
 	private Color32 m_OpacityData;
 
-	[Token(Token = "0x4000DF7")]
+	[Token(Token = "0x4001391")]
 	[FieldOffset(Offset = "0xB4")]
 	private Color32 m_TextCoreSettingsPage;
 
-	[Token(Token = "0x4000DF8")]
+	[Token(Token = "0x4001392")]
 	[FieldOffset(Offset = "0xB8")]
 	private MeshHandle m_Mesh;
 
-	[Token(Token = "0x4000DF9")]
+	[Token(Token = "0x4001393")]
 	[FieldOffset(Offset = "0xC0")]
 	private NativeSlice<Vertex> m_Verts;
 
-	[Token(Token = "0x4000DFA")]
+	[Token(Token = "0x4001394")]
 	[FieldOffset(Offset = "0xD0")]
 	private NativeSlice<ushort> m_Indices;
 
-	[Token(Token = "0x4000DFB")]
+	[Token(Token = "0x4001395")]
 	[FieldOffset(Offset = "0xE0")]
 	private ushort m_IndexOffset;
 
-	[Token(Token = "0x4000DFC")]
+	[Token(Token = "0x4001396")]
 	[FieldOffset(Offset = "0xE4")]
+	private int m_AllocVertexCount;
+
+	[Token(Token = "0x4001397")]
+	[FieldOffset(Offset = "0xE8")]
+	private int m_AllocIndex;
+
+	[Token(Token = "0x4001398")]
+	[FieldOffset(Offset = "0xEC")]
 	private int m_VertsFilled;
 
-	[Token(Token = "0x4000DFD")]
-	[FieldOffset(Offset = "0xE8")]
+	[Token(Token = "0x4001399")]
+	[FieldOffset(Offset = "0xF0")]
 	private int m_IndicesFilled;
 
-	[Token(Token = "0x4000DFE")]
-	[FieldOffset(Offset = "0xEC")]
+	[Token(Token = "0x400139A")]
+	[FieldOffset(Offset = "0xF4")]
 	private VertexFlags m_RenderType;
 
-	[Token(Token = "0x4000DFF")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x400139B")]
+	[FieldOffset(Offset = "0xF8")]
 	private bool m_RemapUVs;
 
-	[Token(Token = "0x4000E00")]
-	[FieldOffset(Offset = "0xF4")]
+	[Token(Token = "0x400139C")]
+	[FieldOffset(Offset = "0xFC")]
 	private Rect m_AtlasRect;
 
-	[Token(Token = "0x4000E01")]
-	[FieldOffset(Offset = "0x104")]
+	[Token(Token = "0x400139D")]
+	[FieldOffset(Offset = "0x10C")]
 	private int m_GradientSettingIndexOffset;
 
-	[Token(Token = "0x4000E02")]
-	[FieldOffset(Offset = "0x108")]
+	[Token(Token = "0x400139E")]
+	[FieldOffset(Offset = "0x110")]
 	private bool m_IsTail;
 
-	[Token(Token = "0x4000E03")]
-	[FieldOffset(Offset = "0x109")]
-	private bool m_Fails;
-
-	[Token(Token = "0x4000E04")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x400139F")]
+	[FieldOffset(Offset = "0x118")]
 	private RenderChainCommand m_FirstCommand;
 
-	[Token(Token = "0x4000E05")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x40013A0")]
+	[FieldOffset(Offset = "0x120")]
 	private RenderChainCommand m_LastCommand;
 
-	[Token(Token = "0x4000E0A")]
-	[FieldOffset(Offset = "0x10")]
-	private static Material s_blitMaterial_LinearToGamma;
-
-	[Token(Token = "0x4000E0B")]
-	[FieldOffset(Offset = "0x18")]
-	private static Material s_blitMaterial_GammaToLinear;
-
-	[Token(Token = "0x4000E0C")]
-	[FieldOffset(Offset = "0x20")]
-	private static Material s_blitMaterial_NoChange;
-
-	[Token(Token = "0x4000E0D")]
-	[FieldOffset(Offset = "0x28")]
-	private static Shader s_blitShader;
-
-	[Token(Token = "0x17000764")]
+	[Token(Token = "0x17000A5E")]
 	public RenderChainCommand firstHeadCommand
 	{
-		[Token(Token = "0x6001C93")]
-		[Address(RVA = "0x4F86FC0", Offset = "0x4F86FC0", VA = "0x4F86FC0")]
+		[Token(Token = "0x600299D")]
+		[Address(RVA = "0x2CE6A00", Offset = "0x2CE5000", VA = "0x182CE6A00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C94")]
-		[Address(RVA = "0x4F86FD0", Offset = "0x4F86FD0", VA = "0x4F86FD0")]
+		[Token(Token = "0x600299E")]
+		[Address(RVA = "0x3182970", Offset = "0x3180F70", VA = "0x183182970")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000765")]
+	[Token(Token = "0x17000A5F")]
 	public RenderChainCommand lastHeadCommand
 	{
-		[Token(Token = "0x6001C95")]
-		[Address(RVA = "0x4F86FF0", Offset = "0x4F86FF0", VA = "0x4F86FF0")]
+		[Token(Token = "0x600299F")]
+		[Address(RVA = "0x2CF3C00", Offset = "0x2CF2200", VA = "0x182CF3C00")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C96")]
-		[Address(RVA = "0x4F87000", Offset = "0x4F87000", VA = "0x4F87000")]
+		[Token(Token = "0x60029A0")]
+		[Address(RVA = "0x24C0B20", Offset = "0x24BF120", VA = "0x1824C0B20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000766")]
+	[Token(Token = "0x17000A60")]
 	public RenderChainCommand firstTailCommand
 	{
-		[Token(Token = "0x6001C97")]
-		[Address(RVA = "0x4F87020", Offset = "0x4F87020", VA = "0x4F87020")]
+		[Token(Token = "0x60029A1")]
+		[Address(RVA = "0xA29AC0", Offset = "0xA280C0", VA = "0x180A29AC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C98")]
-		[Address(RVA = "0x4F87030", Offset = "0x4F87030", VA = "0x4F87030")]
+		[Token(Token = "0x60029A2")]
+		[Address(RVA = "0x306D1A0", Offset = "0x306B7A0", VA = "0x18306D1A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000767")]
+	[Token(Token = "0x17000A61")]
 	public RenderChainCommand lastTailCommand
 	{
-		[Token(Token = "0x6001C99")]
-		[Address(RVA = "0x4F87050", Offset = "0x4F87050", VA = "0x4F87050")]
+		[Token(Token = "0x60029A3")]
+		[Address(RVA = "0x1D1FA50", Offset = "0x1D1E050", VA = "0x181D1FA50")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001C9A")]
-		[Address(RVA = "0x4F87060", Offset = "0x4F87060", VA = "0x4F87060")]
+		[Token(Token = "0x60029A4")]
+		[Address(RVA = "0x1D1FE00", Offset = "0x1D1E400", VA = "0x181D1FE00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001C9B")]
-	[Address(RVA = "0x4F87080", Offset = "0x4F87080", VA = "0x4F87080")]
-	public void Init(Entry root, RenderChain renderChain, VisualElement ve)
+	[Token(Token = "0x60029A5")]
+	[Address(RVA = "0x31806E0", Offset = "0x317ECE0", VA = "0x1831806E0")]
+	public void Init(Entry root, RenderTreeManager renderTreeManager, RenderData renderData)
 	{
 	}
 
-	[Token(Token = "0x6001C9C")]
-	[Address(RVA = "0x4F87910", Offset = "0x4F87910", VA = "0x4F87910")]
-	public void ProcessHead(ref ChainBuilderStats stats)
+	[Token(Token = "0x60029A6")]
+	[Address(RVA = "0x317FF40", Offset = "0x317E540", VA = "0x18317FF40")]
+	public void ClearReferences()
 	{
 	}
 
-	[Token(Token = "0x6001C9D")]
-	[Address(RVA = "0x4F88B40", Offset = "0x4F88B40", VA = "0x4F88B40")]
-	public void ProcessTail(ref ChainBuilderStats stats)
+	[Token(Token = "0x60029A7")]
+	[Address(RVA = "0x3180C00", Offset = "0x317F200", VA = "0x183180C00")]
+	public void ProcessHead()
 	{
 	}
 
-	[Token(Token = "0x6001C9E")]
-	[Address(RVA = "0x4F87C10", Offset = "0x4F87C10", VA = "0x4F87C10")]
+	[Token(Token = "0x60029A8")]
+	[Address(RVA = "0x3182500", Offset = "0x3180B00", VA = "0x183182500")]
+	public void ProcessTail()
+	{
+	}
+
+	[Token(Token = "0x60029A9")]
+	[Address(RVA = "0x3181BB0", Offset = "0x31801B0", VA = "0x183181BB0")]
 	private void ProcessRange(int first, int last)
 	{
 	}
 
-	[Token(Token = "0x6001C9F")]
-	[Address(RVA = "0x4F88D20", Offset = "0x4F88D20", VA = "0x4F88D20")]
+	[Token(Token = "0x60029AA")]
+	[Address(RVA = "0x3180CD0", Offset = "0x317F2D0", VA = "0x183180CD0")]
 	private void ProcessMeshEntry(Entry entry, TextureId textureId)
 	{
 	}
 
-	[Token(Token = "0x6001CA0")]
-	[Address(RVA = "0x4F89890", Offset = "0x4F89890", VA = "0x4F89890")]
+	[Token(Token = "0x60029AB")]
+	[Address(RVA = "0x3180200", Offset = "0x317E800", VA = "0x183180200")]
 	private void DrawReverseMask()
 	{
 	}
 
-	[Token(Token = "0x6001CA1")]
-	[Address(RVA = "0x4F8A0A0", Offset = "0x4F8A0A0", VA = "0x4F8A0A0")]
+	[Token(Token = "0x60029AC")]
+	[Address(RVA = "0x3180070", Offset = "0x317E670", VA = "0x183180070")]
 	private RenderChainCommand CreateMeshDrawCommand(MeshHandle mesh, int indexCount, int indexOffset, Material material, TextureId texture)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6001CA2")]
-	[Address(RVA = "0x4F8A230", Offset = "0x4F8A230", VA = "0x4F8A230")]
+	[Token(Token = "0x60029AD")]
+	[Address(RVA = "0x31761C0", Offset = "0x31747C0", VA = "0x1831761C0")]
 	private void AppendCommand(RenderChainCommand next)
 	{
 	}
 
-	[Token(Token = "0x6001CA3")]
-	[Address(RVA = "0x4F87A50", Offset = "0x4F87A50", VA = "0x4F87A50")]
-	private void ProcessFirstAlloc(List<EntryPreProcessor.AllocSize> allocList, ref MeshHandle mesh, ref ChainBuilderStats stats)
+	[Token(Token = "0x60029AE")]
+	[Address(RVA = "0x31809C0", Offset = "0x317EFC0", VA = "0x1831809C0")]
+	private void ProcessFirstAlloc(List<EntryPreProcessor.AllocSize> allocList, ref MeshHandle mesh)
 	{
 	}
 
-	[Token(Token = "0x6001CA4")]
-	[Address(RVA = "0x4F8A2C0", Offset = "0x4F8A2C0", VA = "0x4F8A2C0")]
+	[Token(Token = "0x60029AF")]
+	[Address(RVA = "0x31816C0", Offset = "0x317FCC0", VA = "0x1831816C0")]
+	private void ProcessNextAlloc()
+	{
+	}
+
+	[Token(Token = "0x60029B0")]
+	[Address(RVA = "0x3182670", Offset = "0x3180C70", VA = "0x183182670")]
 	private static void UpdateOrAllocate(ref MeshHandle data, int vertexCount, int indexCount, UIRenderDevice device, out NativeSlice<Vertex> verts, out NativeSlice<ushort> indices, out ushort indexOffset, ref ChainBuilderStats stats)
 	{
 	}
 
-	[Token(Token = "0x6001CA5")]
-	[Address(RVA = "0x4F8A3C0", Offset = "0x4F8A3C0", VA = "0x4F8A3C0")]
-	private static Material CreateBlitShader(float colorConversion)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6001CA6")]
-	[Address(RVA = "0x4F89D80", Offset = "0x4F89D80", VA = "0x4F89D80")]
-	private static Material GetBlitMaterial(VisualElement.RenderTargetMode mode)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6001CA7")]
-	[Address(RVA = "0x4F8A5C0", Offset = "0x4F8A5C0", VA = "0x4F8A5C0")]
+	[Token(Token = "0x60029B1")]
+	[Address(RVA = "0x3182790", Offset = "0x3180D90", VA = "0x183182790")]
 	public EntryProcessor()
 	{
 	}

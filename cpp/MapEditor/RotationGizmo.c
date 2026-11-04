@@ -1,79 +1,124 @@
 // Type: MapEditor.RotationGizmo
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/MapEditor/RotationGizmo.cs
 // Prior real C# source (older reference): Assets/Scripts/MapEditor/Gizmos/RotationGIzmo.cs
 // --------------------------------
 
+// MapEditor.RotationGizmo.<>c$$.cctor
+// il2cpp: void MapEditor_RotationGizmo___c___cctor (const MethodInfo* method);
+// 0x182201810
+
+void MapEditor_RotationGizmo___c___cctor(MethodInfo *method)
+
+{
+  MapEditor_RotationGizmo___c_o *__this;
+  
+  if (Il2CppMethodInitialized_184347048 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MapEditor_RotationGizmo_c);
+    Il2CppMethodInitialized_184347048 = '\x01';
+  }
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_MapEditor_RotationGizmo_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9,__this);
+  return;
+}
+
+
+// MapEditor.RotationGizmo.<>c$$.ctor
+// il2cpp: void MapEditor_RotationGizmo___c___ctor (MapEditor_RotationGizmo___c_o* __this, const MethodInfo* method);
+// 0x18054c890
+
+void
+MapEditor_RotationGizmo___c___ctor(MapEditor_RotationGizmo___c_o* __this, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// MapEditor.RotationGizmo.<>c$$<RotateSelectedObjects>b__16_0
+// il2cpp: int32_t MapEditor_RotationGizmo___c___RotateSelectedObjects_b__16_0 (MapEditor_RotationGizmo___c_o* __this, Map_MapObject_o* o, const MethodInfo* method);
+// 0x181e7b690
+
+int32_t
+MapEditor_RotationGizmo___c___RotateSelectedObjects_b__16_0(MapEditor_RotationGizmo___c_o* __this, Map_MapObject_o* o, MethodInfo* method)
+
+{
+  Map_MapScriptBaseObject_o *pMVar1;
+  
+  if ((o != (Map_MapObject_o *)0x0) &&
+     (pMVar1 = (o->fields).ScriptObject, pMVar1 != (Map_MapScriptBaseObject_o *)0x0)) {
+    return (pMVar1->fields).Id;
+  }
+  ThrowNullReferenceException();
+}
+
+
 // MapEditor.RotationGizmo$$Create
 // il2cpp: MapEditor_RotationGizmo_o* MapEditor_RotationGizmo__Create (const MethodInfo* method);
-// 0x4457e10
+// 0x1821fb060
 
 MapEditor_RotationGizmo_o * MapEditor_RotationGizmo__Create(MethodInfo *method)
 
 {
-  System_String_c *x;
-  bool_conflict bVar1;
-  UnityEngine_GameObject_o *__this;
-  MapEditor_RotationGizmo_o *pMVar2;
-  undefined4 extraout_var;
   System_String_o *path;
+  UnityEngine_GameObject_o *__this;
+  MapEditor_RotationGizmo_o *pMVar1;
   
-  if (g_data_057ae737 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RotationGizmo_AddComponent_RotationGizmo);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"Gizmos/RotationGizmo");
-    g_data_057ae737 = '\x01';
+  if (Il2CppMethodInitialized_18434703f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_RotationGizmo);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"Gizmos/RotationGizmo");
+    Il2CppMethodInitialized_18434703f = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  path = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x38);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  path = TypeInfo_Utility_ResourcePaths->static_fields->Map;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  __this = (UnityEngine_GameObject_o *)
-           ApplicationManagers_ResourceManager__InstantiateAsset_object_(path,"Gizmos/RotationGizmo",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
+  __this = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                     (path,"Gizmos/RotationGizmo",false,
+                      (MethodInfo_795F00 *)
+                      MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
   if (__this != (UnityEngine_GameObject_o *)0x0) {
-    pMVar2 = (MapEditor_RotationGizmo_o *)UnityEngine_GameObject__AddComponent_object_(__this,MethodInfo_RotationGizmo_AddComponent_RotationGizmo);
-    UnityEngine_GameObject__SetActive(__this,0,(MethodInfo *)0x0);
-    return pMVar2;
+    pMVar1 = UnityEngine_GameObject__AddComponent_object_
+                       (__this,(MethodInfo_6F4D60 *)
+                               MethodInfo_UnityEngine_GameObject_AddComponent_RotationGizmo);
+    UnityEngine_GameObject__SetActive(__this,false,(MethodInfo *)0x0);
+    return pMVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae738 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae738 = '\x01';
-  }
-  x = path[6].klass;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  return (MapEditor_RotationGizmo_o *)CONCAT44(extraout_var,bVar1);
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$IsActive
 // il2cpp: bool MapEditor_RotationGizmo__IsActive (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x4457f00
+// 0x1821fb240
 
-bool_conflict MapEditor_RotationGizmo__IsActive(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
+bool MapEditor_RotationGizmo__IsActive(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Transform_o *x;
-  bool_conflict bVar1;
+  bool bVar1;
   
-  if (g_data_057ae738 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae738 = '\x01';
+  if (Il2CppMethodInitialized_184347040 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184347040 = '\x01';
   }
   x = (__this->fields)._activeCircle;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
@@ -83,76 +128,65 @@ bool_conflict MapEditor_RotationGizmo__IsActive(MapEditor_RotationGizmo_o *__thi
 
 // MapEditor.RotationGizmo$$Awake
 // il2cpp: void MapEditor_RotationGizmo__Awake (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x4457f50
+// 0x1821faf30
 
 void MapEditor_RotationGizmo__Awake(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Transform_o *pUVar1;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  MethodInfo *method_05;
-  MapEditor_RotationGizmo_o *__this_00;
-  MapEditor_RotationGizmo_o *pMVar2;
+  UnityEngine_Color_Fields local_18;
   
-  if (g_data_057ae739 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"CircleY");
-    il2cpp_runtime_helper_023445d0(&"CircleZ");
-    il2cpp_runtime_helper_023445d0(&"CircleX");
-    g_data_057ae739 = '\x01';
+  if (Il2CppMethodInitialized_184347041 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"CircleY");
+    il2cpp_codegen_initialize_runtime_metadata(&"CircleZ");
+    il2cpp_codegen_initialize_runtime_metadata(&"CircleX");
+    Il2CppMethodInitialized_184347041 = '\x01';
   }
   MapEditor_BaseGizmo__Awake((MapEditor_BaseGizmo_o *)__this,(MethodInfo *)0x0);
   pUVar1 = (__this->fields)._transform;
   if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
     pUVar1 = UnityEngine_Transform__Find(pUVar1,"CircleX",(MethodInfo *)0x0);
     (__this->fields)._circleX = pUVar1;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._circleX,pUVar1);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._circleX,pUVar1);
     pUVar1 = (__this->fields)._transform;
     if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
       pUVar1 = UnityEngine_Transform__Find(pUVar1,"CircleY",(MethodInfo *)0x0);
       (__this->fields)._circleY = pUVar1;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._circleY,pUVar1);
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._circleY,pUVar1);
       pUVar1 = (__this->fields)._transform;
       if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
         pUVar1 = UnityEngine_Transform__Find(pUVar1,"CircleZ",(MethodInfo *)0x0);
-        pMVar2 = (MapEditor_RotationGizmo_o *)&(__this->fields)._circleZ;
         (__this->fields)._circleZ = pUVar1;
-        il2cpp_runtime_helper_022b4080(pMVar2,pUVar1);
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._circleZ,pUVar1);
+        local_18.r = (__this->fields).CircleXColor.fields.r;
+        local_18.g = (__this->fields).CircleXColor.fields.g;
+        local_18.b = (__this->fields).CircleXColor.fields.b;
+        local_18.a = (__this->fields).CircleXColor.fields.a;
         MapEditor_RotationGizmo__SetCircleColor
-                  (pMVar2,(__this->fields)._circleX,(UnityEngine_Color_o)(__this->fields).CircleXColor.fields,
-                   method_00);
+                  (__this,(__this->fields)._circleX,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+        local_18.r = (__this->fields).CircleYColor.fields.r;
+        local_18.g = (__this->fields).CircleYColor.fields.g;
+        local_18.b = (__this->fields).CircleYColor.fields.b;
+        local_18.a = (__this->fields).CircleYColor.fields.a;
         MapEditor_RotationGizmo__SetCircleColor
-                  (pMVar2,(__this->fields)._circleY,(UnityEngine_Color_o)(__this->fields).CircleYColor.fields,
-                   method_01);
+                  (__this,(__this->fields)._circleY,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+        local_18.r = (__this->fields).CircleZColor.fields.r;
+        local_18.g = (__this->fields).CircleZColor.fields.g;
+        local_18.b = (__this->fields).CircleZColor.fields.b;
+        local_18.a = (__this->fields).CircleZColor.fields.a;
         MapEditor_RotationGizmo__SetCircleColor
-                  (pMVar2,(__this->fields)._circleZ,(UnityEngine_Color_o)(__this->fields).CircleZColor.fields,
-                   method_02);
+                  (__this,(__this->fields)._circleZ,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
         return;
       }
     }
   }
-  __this_00 = (MapEditor_RotationGizmo_o *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  pMVar2 = __this_00;
-  MapEditor_RotationGizmo__SetCircleColor
-            (__this_00,(__this_00->fields)._circleX,
-             (UnityEngine_Color_o)(__this_00->fields).CircleXColor.fields,method_03);
-  MapEditor_RotationGizmo__SetCircleColor
-            (pMVar2,(__this_00->fields)._circleY,(UnityEngine_Color_o)(__this_00->fields).CircleYColor.fields,
-             method_04);
-  MapEditor_RotationGizmo__SetCircleColor
-            (pMVar2,(__this_00->fields)._circleZ,(UnityEngine_Color_o)(__this_00->fields).CircleZColor.fields,
-             method_05);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$OnSelectionChange
 // il2cpp: void MapEditor_RotationGizmo__OnSelectionChange (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x44580b0
+// 0x1821fb2a0
 
 void MapEditor_RotationGizmo__OnSelectionChange(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
@@ -160,44 +194,14 @@ void MapEditor_RotationGizmo__OnSelectionChange(MapEditor_RotationGizmo_o *__thi
   GameManagers_MapEditorGameManager_o *pGVar1;
   System_Collections_Generic_HashSet_MapObject__o *pSVar2;
   MapEditor_BaseGizmo_o *x;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  long lVar3;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  bool_conflict bVar4;
-  UnityEngine_GameObject_o *pUVar5;
-  UnityEngine_Transform_o *__this_05;
-  UnityEngine_Transform_o *pUVar6;
-  long *plVar7;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MapEditor_RotationGizmo_o *pMVar8;
-  float fVar9;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dd;
-  undefined1 auVar10 [16];
-  UnityEngine_Quaternion_o value;
-  undefined1 auVar11 [12];
-  UnityEngine_Vector3_o UVar12;
-  undefined1 in_stack_ffffffffffffff60 [12];
-  float in_stack_ffffffffffffff6c;
-  Il2CppRGCTXData *pIVar13;
-  undefined1 auStack_70 [8];
-  float fStack_68;
-  float fStack_64;
-  System_Collections_Generic_HashSet_Enumerator_T__o SStack_58;
-  MapEditor_RotationGizmo_o *pMStack_40;
+  bool bVar3;
+  UnityEngine_GameObject_o *pUVar4;
   
-  pMVar8 = __this;
-  if (g_data_057ae73a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    pMVar8 = (MapEditor_RotationGizmo_o *)&TypeInfo_Object;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae73a = '\x01';
+  if (Il2CppMethodInitialized_184347042 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_MapObject_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184347042 = '\x01';
   }
   pGVar1 = (__this->fields)._gameManager;
   if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
@@ -205,1872 +209,871 @@ void MapEditor_RotationGizmo__OnSelectionChange(MapEditor_RotationGizmo_o *__thi
      pSVar2 != (System_Collections_Generic_HashSet_MapObject__o *)0x0)) {
     if (0 < (pSVar2->fields)._count) {
       x = (pGVar1->fields).CurrentGizmo;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      bVar4 = UnityEngine_Object__op_Equality
+      bVar3 = UnityEngine_Object__op_Equality
                         ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)__this,(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        pMVar8 = __this;
-        pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-          method_03 = (MethodInfo *)0x1;
-          UnityEngine_GameObject__SetActive(pUVar5,1,(MethodInfo *)0x0);
-          pMVar8 = __this;
-          MapEditor_RotationGizmo__ResetCenter(__this,method_03);
-          MapEditor_RotationGizmo__SetCircleColor
-                    (pMVar8,(__this->fields)._circleX,
-                     (UnityEngine_Color_o)(__this->fields).CircleXColor.fields,method_00);
-          MapEditor_RotationGizmo__SetCircleColor
-                    (pMVar8,(__this->fields)._circleY,
-                     (UnityEngine_Color_o)(__this->fields).CircleYColor.fields,method_01);
-          MapEditor_RotationGizmo__SetCircleColor
-                    (pMVar8,(__this->fields)._circleZ,
-                     (UnityEngine_Color_o)(__this->fields).CircleZColor.fields,method_02);
+      if (bVar3) {
+        pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+          UnityEngine_GameObject__SetActive(pUVar4,true,(MethodInfo *)0x0);
+          MapEditor_RotationGizmo__ResetCenter(__this,(MethodInfo *)0x0);
+          MapEditor_RotationGizmo__ResetColors(__this,(MethodInfo *)0x0);
           return;
         }
-        goto label_044581be;
+        goto label_1821fb37c;
       }
     }
-    pMVar8 = __this;
-    pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-      UnityEngine_GameObject__SetActive(pUVar5,0,(MethodInfo *)0x0);
+    pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
+      UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
       return;
     }
   }
-label_044581be:
-  il2cpp_runtime_helper_022b2c90();
-  pMStack_40 = __this;
-  if (g_data_057ae73e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057ae73e = '\x01';
-  }
-  pIVar13 = (Il2CppRGCTXData *)0x0;
-  pUVar6 = (pMVar8->fields)._transform;
-  if (g_data_057a6843 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-    g_data_057a6843 = '\x01';
-  }
-  if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-    UnityEngine_Transform__set_rotation
-              (pUVar6,(UnityEngine_Quaternion_o)**(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8),
-               (MethodInfo *)0x0);
-    pGVar1 = (pMVar8->fields)._gameManager;
-    if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-       (__this_00 = (System_Collections_Generic_HashSet_object__o *)(pGVar1->fields).SelectedObjects,
-       __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-      System_Collections_Generic_HashSet_object___GetEnumerator(&SStack_58,__this_00,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-      in_stack_ffffffffffffff6c = 0.0;
-      _auStack_70 = ZEXT816(0);
-      pIVar13 = (Il2CppRGCTXData *)SStack_58.fields._set;
-      while( true ) {
-        __this_01.fields._version = (int32_t)in_stack_ffffffffffffff6c;
-        __this_01.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff60._0_8_;
-        __this_01.fields._index = in_stack_ffffffffffffff60._8_4_;
-        __this_01.fields._current = (Il2CppObject *)pIVar13;
-        bVar4 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                          (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffff70);
-        if ((char)bVar4 == '\0') {
-          __this_02.fields._version = (int32_t)in_stack_ffffffffffffff6c;
-          __this_02.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff60._0_8_;
-          __this_02.fields._index = in_stack_ffffffffffffff60._8_4_;
-          __this_02.fields._current = (Il2CppObject *)pIVar13;
-          System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                    (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-          goto label_044583e6;
-        }
-        pGVar1 = (pMVar8->fields)._gameManager;
-        if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) break;
-        if ((pGVar1->fields).CurrentGizmoMode == 1) {
-          pSVar2 = (pGVar1->fields).SelectedObjects;
-          if (pSVar2 == (System_Collections_Generic_HashSet_MapObject__o *)0x0) goto label_0445844b;
-          if ((pSVar2->fields)._count != 1) goto label_04458380;
-          if (SStack_58.fields._current == (Il2CppObject *)0x0) goto label_04458450;
-          if (SStack_58.fields._current[1].monitor == (UnityEngine_GameObject_o *)0x0) goto label_04458455;
-          pUVar6 = (pMVar8->fields)._transform;
-          __this_05 = UnityEngine_GameObject__get_transform
-                                (SStack_58.fields._current[1].monitor,(MethodInfo *)0x0);
-          if (__this_05 == (UnityEngine_Transform_o *)0x0) goto label_0445845a;
-          value = UnityEngine_Transform__get_rotation(__this_05,(MethodInfo *)0x0);
-          if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_rotation(pUVar6,value,(MethodInfo *)0x0);
-            goto label_04458389;
-          }
-          goto label_0445845f;
-        }
-label_04458380:
-        if (SStack_58.fields._current == (Il2CppObject *)0x0) goto label_04458446;
-label_04458389:
-        if (SStack_58.fields._current[1].monitor == (UnityEngine_GameObject_o *)0x0) {
-          il2cpp_runtime_helper_022b2c90();
-          break;
-        }
-        pUVar6 = UnityEngine_GameObject__get_transform(SStack_58.fields._current[1].monitor,(MethodInfo *)0x0)
-        ;
-        if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_04458441;
-        UVar12 = UnityEngine_Transform__get_position(pUVar6,(MethodInfo *)0x0);
-        auStack_70._0_4_ = (float)auStack_70._0_4_ + UVar12.fields.x;
-        auStack_70._4_4_ = (float)auStack_70._4_4_ + UVar12.fields.y;
-        fStack_68 = fStack_68 + extraout_XMM0_Dc;
-        fStack_64 = fStack_64 + extraout_XMM0_Dd;
-        in_stack_ffffffffffffff6c = in_stack_ffffffffffffff6c + UVar12.fields.z;
-      }
-      il2cpp_runtime_helper_022b2c90();
-label_04458441:
-      il2cpp_runtime_helper_022b2c90();
-label_04458446:
-      il2cpp_runtime_helper_022b2c90();
-label_0445844b:
-      il2cpp_runtime_helper_022b2c90();
-label_04458450:
-      il2cpp_runtime_helper_022b2c90();
-label_04458455:
-      il2cpp_runtime_helper_022b2c90();
-label_0445845a:
-      il2cpp_runtime_helper_022b2c90();
-label_0445845f:
-      il2cpp_runtime_helper_022b2c90();
-    }
-  }
-  do {
-    auVar11 = il2cpp_runtime_helper_022b2c90();
-    if (auVar11._8_4_ != 1) {
-label_04458553:
-      __this_04.fields._version = (int32_t)in_stack_ffffffffffffff6c;
-      __this_04.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff60._0_8_;
-      __this_04.fields._index = in_stack_ffffffffffffff60._8_4_;
-      __this_04.fields._current = (Il2CppObject *)pIVar13;
-      System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-      _Unwind_Resume(auVar11._0_8_);
-    }
-    plVar7 = (long *)__cxa_begin_catch(auVar11._0_8_);
-    lVar3 = *plVar7;
-    __cxa_end_catch();
-    __this_03.fields._version = (int32_t)in_stack_ffffffffffffff6c;
-    __this_03.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff60._0_8_;
-    __this_03.fields._index = in_stack_ffffffffffffff60._8_4_;
-    __this_03.fields._current = (Il2CppObject *)pIVar13;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-    if (lVar3 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar3);
-      goto label_04458553;
-    }
-label_044583e6:
-    pGVar1 = (pMVar8->fields)._gameManager;
-    if (((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-        (pSVar2 = (pGVar1->fields).SelectedObjects,
-        pSVar2 != (System_Collections_Generic_HashSet_MapObject__o *)0x0)) &&
-       (pUVar6 = (pMVar8->fields)._transform, pUVar6 != (UnityEngine_Transform_o *)0x0)) {
-      fVar9 = (float)(pSVar2->fields)._count;
-      UVar12.fields.z = in_stack_ffffffffffffff6c / fVar9;
-      auVar10._4_4_ = fVar9;
-      auVar10._0_4_ = fVar9;
-      auVar10._8_8_ = 0;
-      auVar10 = divps(_auStack_70,auVar10);
-      UVar12.fields.x = (float)(int)auVar10._0_8_;
-      UVar12.fields.y = (float)(int)((ulong)auVar10._0_8_ >> 0x20);
-      UnityEngine_Transform__set_position(pUVar6,UVar12,(MethodInfo *)0x0);
-      return;
-    }
-  } while( true );
+label_1821fb37c:
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$Update
 // il2cpp: void MapEditor_RotationGizmo__Update (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x4458590
+// 0x1821fbb30
 
 void MapEditor_RotationGizmo__Update(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
   undefined4 uVar1;
-  float fVar2;
-  undefined4 uVar4;
-  undefined4 uVar5;
-  ulong uVar3;
-  int iVar6;
-  long lVar7;
-  UI_MapEditorMenu_o *pUVar8;
-  UnityEngine_Camera_o *__this_00;
-  UnityEngine_Object_o *pUVar9;
-  System_Collections_Generic_HashSet_object__o *__this_01;
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  double dVar12;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_05;
-  UnityEngine_Ray_o ray;
-  UnityEngine_RaycastHit_o __this_06;
-  UnityEngine_RaycastHit_o __this_07;
-  undefined1 auVar13 [16];
-  float fVar14;
-  bool_conflict bVar15;
-  UnityEngine_LayerMask_o mask;
-  uint uVar16;
-  System_Int32_array *pSVar17;
-  UnityEngine_Transform_o *pUVar18;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  Il2CppMethodPointer pIVar4;
+  Il2CppMethodPointer pIVar5;
+  InvokerMethod pIVar6;
+  float fVar10;
+  Settings_InputSettings_o *pSVar11;
+  Settings_MapEditorInputSettings_o *pSVar12;
+  Settings_KeybindSetting_o *__this_00;
+  Cameras_BaseCamera_o *pCVar13;
+  GameManagers_MapEditorGameManager_o *pGVar14;
+  UnityEngine_Camera_o *pUVar15;
+  UnityEngine_Vector3_StaticFields *pUVar16;
+  Settings_MapEditorSettings_o *pSVar17;
+  Settings_FloatSetting_o *pSVar18;
+  UI_MapEditorMenu_o *pUVar19;
+  bool bVar20;
+  UnityEngine_LayerMask_o UVar21;
   System_Collections_Generic_List_MapObject__o *mapObjects;
-  System_Object_array *pSVar19;
-  UnityEngine_Material_o *__this_08;
-  long *plVar20;
+  MapEditor_TransformPositionRotationCommand_o *__this_01;
+  UnityEngine_Vector3_o *pUVar22;
+  UnityEngine_Ray_o *pUVar23;
+  System_Int32_array *layers;
+  UnityEngine_Collider_o *__this_02;
+  UnityEngine_Transform_o *pUVar24;
   MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  MethodInfo *method_05;
-  MethodInfo *method_06;
-  System_Int32_array *unaff_RBX;
-  System_Int32_array *method_07;
-  GameManagers_MapEditorGameManager_o *pGVar21;
-  MethodInfo *pMVar22;
-  System_Int32_array *method_08;
-  long lVar23;
-  System_Int32_array *unaff_R12;
-  System_Object_array *unaff_R14;
-  Il2CppRGCTXData *y;
-  uint uVar24;
   float fVar25;
   float fVar26;
   float fVar27;
   float fVar28;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dc_00;
-  undefined4 extraout_XMM0_Dc_01;
-  undefined4 extraout_XMM0_Dc_02;
-  undefined4 extraout_XMM0_Dc_03;
-  undefined4 extraout_XMM0_Dc_04;
-  float extraout_XMM0_Dd;
-  float extraout_XMM0_Dd_00;
-  undefined4 extraout_XMM0_Dd_01;
-  undefined4 uVar29;
-  undefined4 extraout_XMM0_Dd_02;
-  undefined4 extraout_XMM0_Dd_03;
-  undefined4 extraout_XMM0_Dd_04;
-  float in_XMM1_Da;
-  undefined4 in_XMM1_Db;
-  undefined4 in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
+  float fVar29;
+  float fVar30;
+  float fVar31;
   float fVar32;
-  undefined1 in_XMM2 [16];
-  undefined1 auVar30 [16];
-  undefined1 auVar31 [16];
-  float in_XMM3_Da;
   float fVar33;
-  undefined1 in_XMM4 [16];
-  undefined1 auVar34 [16];
-  float fVar35;
-  float fVar36;
-  float fVar37;
-  float fVar38;
-  float fVar39;
-  UnityEngine_Color_o value;
-  undefined1 auVar40 [12];
-  UnityEngine_Vector3_o UVar41;
-  UnityEngine_Vector3_o UVar42;
-  UnityEngine_Vector3_o point;
-  UnityEngine_Vector3_o to;
-  UnityEngine_Vector3_o axis;
-  UnityEngine_Vector3_o axis_00;
-  undefined4 in_stack_fffffffffffffde0;
-  _union_332950 _Var43;
-  Il2CppType **ppIStack_1e0;
-  _union_332950 a_Stack_1d0 [2];
-  long lStack_1c0;
-  System_Int32_array *pSStack_1b8;
-  Il2CppRGCTXData *pIStack_1b0;
-  undefined8 uStack_1a8;
-  System_Int32_array *pSStack_1a0;
-  System_Int32_array *pSStack_198;
-  System_Object_array *pSStack_190;
-  MapEditor_RotationGizmo_o *pMStack_188;
-  undefined8 uStack_180;
-  float fStack_170;
-  undefined4 uStack_16c;
-  undefined4 uStack_168;
-  undefined4 uStack_164;
-  System_Int32_array *pSStack_160;
-  System_Object_array *pSStack_158;
-  MapEditor_RotationGizmo_o *pMStack_150;
-  undefined8 uVar44;
-  undefined8 uVar45;
-  undefined8 uVar46;
-  undefined4 in_stack_fffffffffffffed0;
-  undefined4 in_stack_fffffffffffffed4;
-  undefined4 in_stack_fffffffffffffed8;
-  undefined4 in_stack_fffffffffffffedc;
-  int32_t in_stack_fffffffffffffee0;
-  undefined1 auStack_108 [16];
-  float fStack_e8;
-  undefined1 auStack_c8 [8];
-  float fStack_c0;
-  float fStack_bc;
-  float fStack_b8;
-  float fStack_b4;
-  float fStack_a8;
-  float fStack_a4;
-  float fStack_a0;
-  float fStack_9c;
-  undefined1 auStack_98 [8];
-  _union_13 _Stack_90;
-  undefined8 uStack_88;
-  undefined8 uStack_80;
-  undefined1 auStack_78 [28];
-  float fStack_5c;
-  float fStack_58;
-  int32_t aiStack_54 [3];
-  undefined1 auStack_48 [24];
+  float fVar34;
+  UnityEngine_Vector3_Fields local_158;
+  undefined1 local_148 [8];
+  Il2CppMethodPointer pIStack_140;
+  InvokerMethod local_138;
+  UnityEngine_Vector3_o local_128;
+  Il2CppType **local_118;
+  _union_13 _Stack_110;
+  _union_14 local_108;
+  uint32_t uStack_100;
+  float fStack_fc;
+  float fStack_f8;
+  undefined8 uStack_f4;
+  undefined8 local_dc;
+  UnityEngine_Ray_o local_d0 [7];
   
-  fStack_e8 = in_XMM1_Da;
-  auStack_108 = in_XMM2;
-  if (g_data_057ae73b == '\0') {
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585bd;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585c9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Map_MapObject);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585d5;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_MapObject);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585e1;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585ed;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44585f9;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Physics);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458605;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458611;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x445861d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TransformPositionRotationCommand);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458629;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_get_Value);
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458635;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    g_data_057ae73b = '\x01';
-    fStack_e8 = in_XMM1_Da;
-    auStack_108 = in_XMM2;
+  if (Il2CppMethodInitialized_184347043 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_int_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MapEditor_TransformPositionRotationCommand);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    Il2CppMethodInitialized_184347043 = '\x01';
   }
-  fStack_58 = 0.0;
-  aiStack_54[0] = 0;
-  aiStack_54[1] = 0;
-  auStack_78._16_8_ = (Il2CppArrayBounds *)0x0;
-  auStack_78._24_4_ = 0;
-  fStack_5c = 0.0;
-  auStack_78._0_8_ = (Il2CppClass *)0x0;
-  auStack_78._8_8_ = (Il2CppMethodPointer)0x0;
-  method_07 = (System_Int32_array *)0x0;
-  pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458661;
-  method_08 = (System_Int32_array *)__this;
+  local_108.genericMethod = (void *)0x0;
+  uStack_100 = 0;
+  local_118 = (Il2CppType **)0x0;
+  _Stack_110.rgctx_data = (Il2CppRGCTXData *)0x0;
+  fStack_fc = 0.0;
+  fStack_f8 = 0.0;
+  uStack_f4._0_4_ = 0.0;
+  uStack_f4._4_4_ = (UnityEngine_EntityId_Fields)0x0;
   MapEditor_BaseGizmo__Update((MapEditor_BaseGizmo_o *)__this,(MethodInfo *)0x0);
-  lVar23 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x38);
-  if ((lVar23 != 0) && (lVar23 = *(long *)(lVar23 + 0x50), lVar23 != 0)) {
-    lVar7 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-    unaff_R12 = *(System_Int32_array **)(lVar23 + 0x78);
-    unaff_RBX = (System_Int32_array *)(__this->fields)._activeCircle;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      pMStack_150 = (MapEditor_RotationGizmo_o *)0x44586c5;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    unaff_R14 = (System_Object_array *)&(__this->fields)._activeCircle;
-    method_07 = (System_Int32_array *)0x0;
-    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44586d8;
-    method_08 = unaff_RBX;
-    bVar15 = UnityEngine_Object__op_Equality
-                       ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar15 == '\0') {
-      if (unaff_R12 != (System_Int32_array *)0x0) {
-        method_07 = (System_Int32_array *)0x0;
-        pMStack_150 = (MapEditor_RotationGizmo_o *)0x445890a;
-        method_08 = unaff_R12;
-        bVar15 = Settings_KeybindSetting__GetKey((Settings_KeybindSetting_o *)unaff_R12,0,(MethodInfo *)0x0);
-        if ((char)bVar15 == '\0') {
-          pGVar21 = (__this->fields)._gameManager;
-          if (pGVar21 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_044591c0;
-          unaff_R12 = (System_Int32_array *)(pGVar21->fields).SelectedObjects;
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458a7b;
-          mapObjects = (System_Collections_Generic_List_MapObject__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_MapObject);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458a93;
-          System_Collections_Generic_List_object____ctor_362ba10
-                    ((System_Collections_Generic_List_object__o *)mapObjects,
-                     (System_Collections_Generic_IEnumerable_T__o *)unaff_R12,MethodInfo_List_1_Map_MapObject);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458aa2;
-          unaff_RBX = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_TransformPositionRotationCommand);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458ab2;
-          MapEditor_TransformPositionRotationCommand___ctor
-                    ((MapEditor_TransformPositionRotationCommand_o *)unaff_RBX,mapObjects,(MethodInfo *)0x0);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458ac4;
-          GameManagers_MapEditorGameManager__NewCommand
-                    (pGVar21,(MapEditor_BaseCommand_o *)unaff_RBX,1,(MethodInfo *)0x0);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458ad9;
-          MapEditor_RotationGizmo__SetCircleColor
-                    ((MapEditor_RotationGizmo_o *)pGVar21,(__this->fields)._circleX,
-                     (UnityEngine_Color_o)(__this->fields).CircleXColor.fields,method_04);
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458aee;
-          MapEditor_RotationGizmo__SetCircleColor
-                    ((MapEditor_RotationGizmo_o *)pGVar21,(__this->fields)._circleY,
-                     (UnityEngine_Color_o)(__this->fields).CircleYColor.fields,method_05);
-          fVar2 = (__this->fields).CircleZColor.fields.b;
-          uVar5 = (__this->fields).CircleZColor.fields.a;
-          in_XMM1_Dc = 0;
-          in_XMM1_Dd = 0;
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458b09;
-          MapEditor_RotationGizmo__SetCircleColor
-                    ((MapEditor_RotationGizmo_o *)pGVar21,(__this->fields)._circleZ,
-                     (UnityEngine_Color_o)(__this->fields).CircleZColor.fields,method_06);
-          (__this->fields)._activeCircle = (UnityEngine_Transform_o *)0x0;
-          method_07 = (System_Int32_array *)0x0;
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458b1e;
-          method_08 = (System_Int32_array *)unaff_R14;
-          il2cpp_runtime_helper_022b4080();
-          pGVar21 = (__this->fields)._gameManager;
-          fStack_e8 = fVar2;
-          in_XMM1_Db = uVar5;
-joined_r0x04458b25:
-          if (pGVar21 != (GameManagers_MapEditorGameManager_o *)0x0) {
-            *(undefined1 *)&(pGVar21->fields).IgnoreNextSelect = 1;
-            return;
-          }
+  pSVar11 = TypeInfo_Settings_SettingsManager->static_fields->InputSettings;
+  if ((pSVar11 == (Settings_InputSettings_o *)0x0) ||
+     (pSVar12 = (pSVar11->fields).MapEditor, pSVar12 == (Settings_MapEditorInputSettings_o *)0x0))
+  goto label_1821fc3b0;
+  __this_00 = (pSVar12->fields).Select;
+  pUVar24 = (__this->fields)._activeCircle;
+  pCVar13 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar20 = UnityEngine_Object__op_Equality
+                     ((UnityEngine_Object_o *)pUVar24,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar20) {
+    pUVar19 = (__this->fields)._menu;
+    if (pUVar19 == (UI_MapEditorMenu_o *)0x0) goto label_1821fc3b0;
+    if ((pUVar19->fields).IsMouseUI == false) {
+      if (__this_00 == (Settings_KeybindSetting_o *)0x0) goto label_1821fc3b0;
+      bVar20 = Settings_KeybindSetting__GetKeyDown(__this_00,false,(MethodInfo *)0x0);
+      if (bVar20) {
+        if (pCVar13 == (Cameras_BaseCamera_o *)0x0) goto label_1821fc3b0;
+        pUVar15 = (pCVar13->fields).Camera;
+        pUVar22 = UnityEngine_Input__get_mousePosition(&local_128,(MethodInfo *)0x0);
+        if (pUVar15 == (UnityEngine_Camera_o *)0x0) goto label_1821fc3b0;
+        local_148 = *(undefined1 (*) [8])&pUVar22->fields;
+        pIStack_140 = (Il2CppMethodPointer)CONCAT44(pIStack_140._4_4_,(pUVar22->fields).z);
+        pUVar23 = UnityEngine_Camera__ScreenPointToRay_2ebdb10
+                            (local_d0,pUVar15,(UnityEngine_Vector3_o *)local_148,(MethodInfo *)0x0);
+        pIVar4 = *(Il2CppMethodPointer *)&(pUVar23->fields).m_Origin.fields;
+        pIVar5 = *(Il2CppMethodPointer *)&(pUVar23->fields).m_Origin.fields.z;
+        pIVar6 = *(InvokerMethod *)&(pUVar23->fields).m_Direction.fields.y;
+        layers = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,1);
+        if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
         }
-        else if (lVar7 != 0) {
-          pSVar17 = *(System_Int32_array **)(lVar7 + 0x20);
-          method_08 = (System_Int32_array *)0x0;
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458926;
-          UVar41 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
-          fStack_e8 = UVar41.fields.z;
-          unaff_RBX = (System_Int32_array *)0x0;
-          if (pSVar17 != (System_Int32_array *)0x0) {
-            pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458941;
-            UnityEngine_Camera__ScreenPointToRay_4db37e0
-                      ((UnityEngine_Ray_o *)auStack_c8,(UnityEngine_Camera_o *)pSVar17,UVar41,
-                       (MethodInfo *)0x0);
-            fVar27 = fStack_b8;
-            fVar28 = fStack_bc;
-            fVar14 = fStack_c0;
-            uStack_88._4_4_ = auStack_c8._4_4_;
-            uStack_88._0_4_ = auStack_c8._0_4_;
-            uVar1 = (__this->fields)._previousMousePoint.fields.x;
-            uVar4 = (__this->fields)._previousMousePoint.fields.y;
-            uStack_80._0_4_ = 0.0;
-            uStack_80._4_2_ = 0;
-            uStack_80._6_2_ = 0;
-            fVar35 = (float)uVar1 - (float)auStack_c8._0_4_;
-            fVar36 = (float)uVar4 - (float)auStack_c8._4_4_;
-            fVar33 = (__this->fields)._previousMousePoint.fields.z - fStack_c0;
-            in_XMM4 = ZEXT416((uint)fVar33);
-            uVar5 = 0;
-            fVar2 = fStack_b4;
-            if (g_data_057ac31a == '\0') {
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x44589b6;
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-              in_XMM4._4_4_ = 0;
-              in_XMM4._0_4_ = fVar33;
-              in_XMM4._8_4_ = uVar5;
-              in_XMM4._12_4_ = 0;
-              g_data_057ac31a = '\x01';
-            }
-            fVar25 = fVar2 * fVar2 + fVar27 * fVar27 + fVar28 * fVar28;
-            fStack_e8 = in_XMM4._0_4_ * in_XMM4._0_4_ + fVar36 * fVar36 + fVar35 * fVar35;
-            unaff_RBX = (System_Int32_array *)&TypeInfo_Math;
-            if (*(int *)((long)&TypeInfo_Math[2].parameters + 4) == 0) {
-              auStack_98._0_4_ = fVar25;
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458b3e;
-              il2cpp_runtime_helper_02337ed0();
-              in_XMM4._4_4_ = 0;
-              in_XMM4._0_4_ = fVar33;
-              in_XMM4._8_4_ = uVar5;
-              in_XMM4._12_4_ = 0;
-              fVar25 = (float)auStack_98._0_4_ * fStack_e8;
-              if (0.0 <= fVar25) goto label_04458a41;
-label_04458b72:
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458b77;
-              fVar25 = sqrtf(fVar25);
-              in_XMM4._4_4_ = 0;
-              in_XMM4._0_4_ = fVar33;
-              in_XMM4._8_4_ = uVar5;
-              in_XMM4._12_4_ = 0;
-              method_07 = pSVar17;
-              pMVar22 = TypeInfo_Math;
-            }
-            else {
-              fVar25 = fVar25 * fStack_e8;
-              if (fVar25 < 0.0) goto label_04458b72;
-label_04458a41:
-              fVar33 = in_XMM4._0_4_;
-              fVar25 = SQRT(fVar25);
-              method_07 = pSVar17;
-              pMVar22 = TypeInfo_Math;
-            }
-            auStack_108 = ZEXT416((uint)fVar2);
-            fVar37 = 0.0;
-            in_XMM3_Da = fVar28;
-            TypeInfo_Math = pMVar22;
-            if (1e-15 <= fVar25) {
-              fVar25 = (fVar33 * fVar2 + fVar36 * fVar27 + fVar35 * fVar28) / fVar25;
-              fVar33 = 1.0;
-              if (fVar25 <= 1.0) {
-                fVar33 = fVar25;
-              }
-              uVar16 = ~-(uint)(-1.0 <= fVar25) & 0xbf800000 | (uint)fVar33 & -(uint)(-1.0 <= fVar25);
-              in_XMM4 = ZEXT416(uVar16);
-              if (*(int *)((long)&pMVar22[2].parameters + 4) == 0) {
-                uVar5 = 0;
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458bee;
-                il2cpp_runtime_helper_02337ed0();
-                in_XMM4._4_4_ = 0;
-                in_XMM4._0_4_ = uVar16;
-                in_XMM4._8_4_ = uVar5;
-                in_XMM4._12_4_ = 0;
-              }
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458bff;
-              dVar12 = acos((double)in_XMM4._0_4_,pMVar22);
-              fVar37 = (float)dVar12 * 57.29578;
-            }
-            if (g_data_057a6841 == '\0') {
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x445909d;
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-              g_data_057a6841 = '\x01';
-              iVar6 = *(int *)((long)&TypeInfo_Math[2].parameters + 4);
-            }
-            else {
-              iVar6 = *(int *)((long)&TypeInfo_Math[2].parameters + 4);
-            }
-            if (iVar6 == 0) {
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x44590c5;
-              il2cpp_runtime_helper_02337ed0();
-            }
-            fVar37 = fVar37 * 0.017453292;
-            in_XMM1_Db = 0;
-            in_XMM1_Dc = 0;
-            in_XMM1_Dd = 0;
-            fVar33 = 0.0;
-            fVar35 = 0.0;
-            if (fStack_e8 < 0.0) {
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458c55;
-              fVar36 = sqrtf(fStack_e8);
-              fVar33 = extraout_XMM0_Dc;
-              fVar35 = extraout_XMM0_Dd;
-            }
-            else {
-              fVar36 = SQRT(fStack_e8);
-            }
-            pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458c68;
-            fStack_a8 = cosf(fVar37);
-            method_08 = (System_Int32_array *)0x0;
-            if (*(UnityEngine_Transform_o **)unaff_R14 != (UnityEngine_Transform_o *)0x0) {
-              method_07 = (System_Int32_array *)0x0;
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458c84;
-              UVar41 = UnityEngine_Transform__get_position
-                                 (*(UnityEngine_Transform_o **)unaff_R14,(MethodInfo *)0x0);
-              uVar3._0_4_ = (__this->fields)._previousMousePoint.fields.x;
-              uVar3._4_4_ = (__this->fields)._previousMousePoint.fields.y;
-              auVar34._8_8_ = 0;
-              auVar34._0_8_ = uVar3;
-              fStack_e8 = (__this->fields)._previousMousePoint.fields.z;
-              _Stack_90._0_4_ = extraout_XMM0_Dc_00;
-              auStack_98 = (undefined1  [8])UVar41.fields._0_8_;
-              _Stack_90._4_4_ = extraout_XMM0_Dd_00;
-              fVar25 = UVar41.fields.x;
-              fVar37 = UVar41.fields.y;
-              uVar5 = extraout_XMM0_Dc_00;
-              uVar29 = extraout_XMM0_Dd_00;
-              if (g_data_057a6845 == '\0') {
-                uVar5 = 0;
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458cc4;
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-                auVar34._4_4_ = uVar3._4_4_;
-                auVar34._0_4_ = (undefined4)uVar3;
-                auVar34._8_4_ = uVar5;
-                auVar34._12_4_ = 0;
-                g_data_057a6845 = '\x01';
-                fVar25 = (float)auStack_98._0_4_;
-                fVar37 = (float)auStack_98._4_4_;
-                uVar5 = _Stack_90._0_4_;
-                uVar29 = _Stack_90._4_4_;
-              }
-              fVar36 = fVar36 / fStack_a8;
-              fVar25 = auVar34._0_4_ - fVar25;
-              fVar37 = auVar34._4_4_ - fVar37;
-              fVar32 = auVar34._8_4_ - (float)uVar5;
-              fStack_e8 = fStack_e8 - UVar41.fields.z;
-              if (*(int *)((long)&TypeInfo_Math[2].parameters + 4) == 0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458d1a;
-                il2cpp_runtime_helper_02337ed0();
-              }
-              uVar5 = 0;
-              uVar3._0_4_ = 0;
-              fVar26 = fStack_e8 * fStack_e8 + fVar37 * fVar37 + fVar25 * fVar25;
-              if (fVar26 < 0.0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458d73;
-                fStack_a8 = fVar36;
-                fStack_a4 = fVar36;
-                fStack_a0 = fVar33;
-                fStack_9c = fVar35;
-                fVar26 = sqrtf(fVar26);
-                uVar5 = extraout_XMM0_Dc_01;
-                uVar3._0_4_ = extraout_XMM0_Dd_01;
-                fVar38 = fStack_a8;
-                fVar39 = fStack_a4;
-                fVar33 = fStack_a0;
-                fVar35 = fStack_9c;
-              }
-              else {
-                fVar26 = SQRT(fVar26);
-                fVar38 = fVar36;
-                fVar39 = fVar36;
-              }
-              fVar2 = fVar2 * fVar36;
-              if (fVar26 <= 1e-05) {
-                if (g_data_057a65d5 == '\0') {
-                  pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458de4;
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                  g_data_057a65d5 = '\x01';
-                }
-                uVar44 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-                uVar5 = (undefined4)uVar44;
-                uVar3._0_4_ = (undefined4)((ulong)uVar44 >> 0x20);
-                fStack_e8 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-              }
-              else {
-                fStack_e8 = fStack_e8 / fVar26;
-                auVar13._4_4_ = fVar37;
-                auVar13._0_4_ = fVar25;
-                auVar13._8_4_ = fVar32;
-                auVar13._12_4_ = auVar34._12_4_ - (float)uVar29;
-                auVar10._4_4_ = fVar26;
-                auVar10._0_4_ = fVar26;
-                auVar10._8_4_ = uVar5;
-                auVar10._12_4_ = (undefined4)uVar3;
-                auVar34 = divps(auVar13,auVar10);
-                uVar5 = auVar34._0_4_;
-                uVar3._0_4_ = auVar34._4_4_;
-              }
-              uStack_88._0_4_ = (float)(undefined4)uStack_88 + fVar28 * fVar38;
-              uStack_88._4_4_ = (float)uStack_88._4_4_ + fVar27 * fVar39;
-              uStack_80._0_4_ = (float)uStack_80 + fVar33 * 0.0;
-              uStack_80._4_4_ = uStack_80._4_4_ + fVar35 * 0.0;
-              uVar3._4_4_ = (undefined4)uStack_88;
-              uVar29 = uStack_88._4_4_;
-              fVar33 = (float)uStack_80;
-              fVar28 = uStack_80._4_4_;
-              if (g_data_057a6845 == '\0') {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458e53;
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-                g_data_057a6845 = '\x01';
-                uVar3._4_4_ = (undefined4)uStack_88;
-                uVar29 = uStack_88._4_4_;
-                fVar33 = (float)uStack_80;
-                fVar28 = uStack_80._4_4_;
-              }
-              auVar30._0_4_ = (float)uVar3._4_4_ - (float)auStack_98._0_4_;
-              auVar30._4_4_ = (float)uVar29 - (float)auStack_98._4_4_;
-              auVar30._8_4_ = fVar33 - (float)_Stack_90._0_4_;
-              auVar30._12_4_ = fVar28 - (float)_Stack_90._4_4_;
-              in_XMM3_Da = (fVar14 + fVar2) - UVar41.fields.z;
-              if (*(int *)((long)&TypeInfo_Math[2].parameters + 4) == 0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458e98;
-                il2cpp_runtime_helper_02337ed0();
-              }
-              uVar3._4_4_ = 0;
-              uVar29 = 0;
-              fVar33 = in_XMM3_Da * in_XMM3_Da + auVar30._4_4_ * auVar30._4_4_ + auVar30._0_4_ * auVar30._0_4_
-              ;
-              if (fVar33 < 0.0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458f27;
-                fVar33 = sqrtf(fVar33);
-                uVar3._4_4_ = extraout_XMM0_Dc_02;
-                uVar29 = extraout_XMM0_Dd_02;
-                if (fVar33 <= 1e-05) goto label_04458ed4;
-label_04458f3b:
-                in_XMM3_Da = in_XMM3_Da / fVar33;
-                auVar11._4_4_ = fVar33;
-                auVar11._0_4_ = fVar33;
-                auVar11._8_4_ = uVar3._4_4_;
-                auVar11._12_4_ = uVar29;
-                auStack_108 = divps(auVar30,auVar11);
-              }
-              else {
-                fVar33 = SQRT(fVar33);
-                if (1e-05 < fVar33) goto label_04458f3b;
-label_04458ed4:
-                if (g_data_057a65d5 == '\0') {
-                  pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458ee9;
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-                  g_data_057a65d5 = '\x01';
-                }
-                auStack_108._8_8_ = 0;
-                auStack_108._0_8_ = **(ulong **)(TypeInfo_Vector3 + 0xb8);
-                in_XMM3_Da = *(float *)(*(ulong **)(TypeInfo_Vector3 + 0xb8) + 1);
-              }
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458f59;
-              UVar42 = MapEditor_RotationGizmo__GetAxis(__this,(MethodInfo *)method_07);
-              in_XMM4._0_8_ = UVar42.fields._0_8_;
-              in_XMM4._8_4_ = extraout_XMM0_Dc_03;
-              in_XMM4._12_4_ = extraout_XMM0_Dd_03;
-              fVar33 = UVar42.fields.z;
-              if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458f85;
-                fStack_a8 = UVar42.fields.z;
-                il2cpp_runtime_helper_02337ed0();
-                fVar33 = fStack_a8;
-              }
-              UVar42.fields.y = (float)(undefined4)uVar3;
-              UVar42.fields.x = (float)uVar5;
-              in_XMM1_Db = 0;
-              in_XMM1_Dc = 0;
-              in_XMM1_Dd = 0;
-              to.fields._0_8_ = auStack_108._0_8_;
-              method_08 = (System_Int32_array *)0x0;
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458fb0;
-              UVar42.fields.z = fStack_e8;
-              to.fields.z = in_XMM3_Da;
-              axis_00.fields.z = fVar33;
-              axis_00.fields.x = (float)(int)in_XMM4._0_8_;
-              axis_00.fields.y = (float)(int)(in_XMM4._0_8_ >> 0x20);
-              fVar33 = Utility_Util__SignedAngle(UVar42,to,axis_00,(MethodInfo *)0x0);
-              pGVar21 = (__this->fields)._gameManager;
-              if (pGVar21 != (GameManagers_MapEditorGameManager_o *)0x0) {
-                if ((char)(pGVar21->fields).Snap != '\0') {
-                  lVar23 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x78);
-                  if ((lVar23 == 0) || (lVar23 = *(long *)(lVar23 + 0x58), lVar23 == 0)) goto label_044591c0;
-                  fVar28 = *(float *)(lVar23 + 0x14);
-                  fVar27 = fVar33 + (__this->fields)._currentAngle;
-                  (__this->fields)._currentAngle = fVar27;
-                  fVar33 = 0.0;
-                  if (fVar28 < ABS(fVar27)) {
-                    fVar27 = fVar27 / fVar28;
-                    pMVar22 = (MethodInfo *)auStack_c8;
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x445903f;
-                    dVar12 = modf((double)fVar27,(double *)pMVar22,(MethodInfo *)method_07);
-                    if (0.0 <= fVar27) {
-                      if ((dVar12 != 0.5) || (NAN(dVar12))) {
-                        pMStack_150 = (MapEditor_RotationGizmo_o *)0x4459126;
-                        fVar33 = floorf(fVar27 + 0.5);
-                      }
-                      else {
-                        fVar33 = (float)(double)CONCAT44(auStack_c8._4_4_,auStack_c8._0_4_);
-                        if (((long)(double)CONCAT44(auStack_c8._4_4_,auStack_c8._0_4_) & 1U) != 0) {
-                          fVar33 = fVar33 + 1.0;
-                        }
-                      }
-                    }
-                    else if ((dVar12 != -0.5) || (NAN(dVar12))) {
-                      pMStack_150 = (MapEditor_RotationGizmo_o *)0x4459114;
-                      fVar33 = ceilf(fVar27 + -0.5);
-                    }
-                    else {
-                      fVar33 = (float)(double)CONCAT44(auStack_c8._4_4_,auStack_c8._0_4_);
-                      if (((long)(double)CONCAT44(auStack_c8._4_4_,auStack_c8._0_4_) & 1U) != 0) {
-                        fVar33 = fVar33 + -1.0;
-                      }
-                    }
-                    fVar33 = fVar33 * fVar28;
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4459144;
-                    fVar28 = fmodf((__this->fields)._currentAngle,fVar28,pMVar22);
-                    (__this->fields)._currentAngle = fVar28;
-                  }
-                }
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4459155;
-                UVar42 = MapEditor_RotationGizmo__GetAxis(__this,(MethodInfo *)method_07);
-                auVar34 = _auStack_98;
-                in_XMM3_Da = UVar42.fields.z;
-                auVar31._0_8_ = UVar42.fields._0_8_;
-                auVar31._8_4_ = extraout_XMM0_Dc_04;
-                auVar31._12_4_ = extraout_XMM0_Dd_04;
-                in_XMM1_Db = 0;
-                in_XMM1_Dc = 0;
-                in_XMM1_Dd = 0;
-                in_XMM4 = ZEXT416((uint)fVar33);
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4459177;
-                UVar41.fields.x = (float)auStack_98._0_4_;
-                UVar41.fields.y = (float)auStack_98._4_4_;
-                auStack_108._8_8_ = auVar31._8_8_;
-                auStack_108._0_8_ = auVar31._0_8_;
-                _auStack_98 = auVar34;
-                MapEditor_RotationGizmo__RotateSelectedObjects
-                          (__this,UVar41,UVar42,fVar33,(MethodInfo *)method_07);
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x445917f;
-                method_08 = (System_Int32_array *)__this;
-                MapEditor_RotationGizmo__ResetCenter(__this,(MethodInfo *)method_07);
-                *(_union_14 *)&(__this->fields)._previousMousePoint.fields = uStack_88;
-                (__this->fields)._previousMousePoint.fields.z = fVar14 + fVar2;
-                pGVar21 = (__this->fields)._gameManager;
-                fStack_e8 = UVar41.fields.z;
-                goto joined_r0x04458b25;
-              }
-            }
-          }
+        if (layers == (System_Int32_array *)0x0) goto label_1821fc3b0;
+        if ((int)layers->max_length == 0) {
+          ThrowIndexOutOfRangeException();
+        }
+        layers->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorGizmo;
+        UVar21 = Utility_PhysicsLayer__GetMask(layers,(MethodInfo *)0x0);
+        UVar21 = UnityEngine_LayerMask__op_Implicit((int32_t)UVar21.fields.m_Mask,(MethodInfo *)0x0);
+        if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
+        }
+        local_148 = (undefined1  [8])pIVar4;
+        pIStack_140 = pIVar5;
+        local_138 = pIVar6;
+        bVar20 = UnityEngine_Physics__Raycast_2fe5050
+                           ((UnityEngine_Ray_o *)local_148,(UnityEngine_RaycastHit_o *)&local_118,100000.0,
+                            (int32_t)UVar21.fields.m_Mask,(MethodInfo *)0x0);
+        if (bVar20) {
+          __this_02 = UnityEngine_RaycastHit__get_collider
+                                ((UnityEngine_RaycastHit_o *)&local_118,(MethodInfo *)0x0);
+          if (__this_02 == (UnityEngine_Collider_o *)0x0) goto label_1821fc3b0;
+          pUVar24 = UnityEngine_Component__get_transform
+                              ((UnityEngine_Component_o *)__this_02,(MethodInfo *)0x0);
+          if (pUVar24 == (UnityEngine_Transform_o *)0x0) goto label_1821fc3b0;
+          pUVar24 = UnityEngine_Transform__GetParent(pUVar24,(MethodInfo *)0x0);
+          (__this->fields)._activeCircle = pUVar24;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._activeCircle,pUVar24);
+          MapEditor_RotationGizmo__ResetColors(__this,(MethodInfo *)0x0);
+          local_148 = *(undefined1 (*) [8])&(__this->fields).SelectedColor.fields;
+          pIStack_140 = *(Il2CppMethodPointer *)&(__this->fields).SelectedColor.fields.b;
+          MapEditor_RotationGizmo__SetCircleColor
+                    (__this,(__this->fields)._activeCircle,(UnityEngine_Color_o *)local_148,(MethodInfo *)0x0)
+          ;
+          pUVar22 = UnityEngine_RaycastHit__get_point
+                              ((UnityEngine_Vector3_o *)local_148,(UnityEngine_RaycastHit_o *)&local_118,
+                               (MethodInfo *)0x0);
+          fVar33 = (pUVar22->fields).z;
+          fVar10 = (pUVar22->fields).y;
+          (__this->fields)._previousMousePoint.fields.x = (pUVar22->fields).x;
+          (__this->fields)._previousMousePoint.fields.y = fVar10;
+          (__this->fields)._previousMousePoint.fields.z = fVar33;
+          pGVar14 = (__this->fields)._gameManager;
+          if (pGVar14 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1821fc3b0;
+          GameManagers_MapEditorGameManager__SetupTemporaryPhysicalParenting(pGVar14,(MethodInfo *)0x0);
         }
       }
+    }
+    (__this->fields)._currentAngle = 0.0;
+  }
+  else {
+    if (__this_00 == (Settings_KeybindSetting_o *)0x0) goto label_1821fc3b0;
+    bVar20 = Settings_KeybindSetting__GetKey(__this_00,false,(MethodInfo *)0x0);
+    if (bVar20) {
+      if (pCVar13 == (Cameras_BaseCamera_o *)0x0) goto label_1821fc3b0;
+      pUVar15 = (pCVar13->fields).Camera;
+      pUVar22 = UnityEngine_Input__get_mousePosition((UnityEngine_Vector3_o *)local_148,(MethodInfo *)0x0);
+      if (pUVar15 == (UnityEngine_Camera_o *)0x0) goto label_1821fc3b0;
+      local_158.x = (pUVar22->fields).x;
+      local_158.y = (pUVar22->fields).y;
+      local_158.z = (pUVar22->fields).z;
+      pUVar23 = UnityEngine_Camera__ScreenPointToRay_2ebdb10
+                          (local_d0,pUVar15,(UnityEngine_Vector3_o *)&local_158,(MethodInfo *)0x0);
+      uVar1 = (__this->fields)._previousMousePoint.fields.x;
+      uVar7 = (__this->fields)._previousMousePoint.fields.y;
+      uVar2 = (pUVar23->fields).m_Origin.fields.x;
+      uVar8 = (pUVar23->fields).m_Origin.fields.y;
+      local_128.fields._0_8_ = *(undefined8 *)&(pUVar23->fields).m_Direction.fields;
+      fVar29 = (float)local_128.fields._0_8_;
+      local_158._0_8_ = CONCAT44((float)uVar7 - (float)uVar8,(float)uVar1 - (float)uVar2);
+      fVar33 = (pUVar23->fields).m_Origin.fields.z;
+      fVar10 = (pUVar23->fields).m_Direction.fields.z;
+      local_158.z = (__this->fields)._previousMousePoint.fields.z - fVar33;
+      pIStack_140 = (Il2CppMethodPointer)CONCAT44(pIStack_140._4_4_,local_158.z);
+      local_148 = (undefined1  [8])local_158._0_8_;
+      local_128.fields.z = fVar10;
+      local_dc = (Il2CppClass *)local_128.fields._0_8_;
+      fVar25 = (float)il2cpp_runtime_helper_181d9e200(&local_128,&local_158);
+      fVar26 = (float)il2cpp_runtime_helper_180546a40(local_148,0);
+      fVar25 = (float)il2cpp_runtime_helper_1804f54c0(fVar25 * 0.017453292);
+      pUVar24 = (__this->fields)._activeCircle;
+      fVar26 = fVar26 / fVar25;
+      if (pUVar24 == (UnityEngine_Transform_o *)0x0) goto label_1821fc3b0;
+      fVar32 = local_dc._4_4_ * fVar26 + (float)uVar8;
+      fVar34 = fVar29 * fVar26 + (float)uVar2;
+      fVar33 = fVar10 * fVar26 + fVar33;
+      pUVar22 = UnityEngine_Transform__get_position
+                          ((UnityEngine_Vector3_o *)local_148,pUVar24,(MethodInfo *)0x0);
+      uVar3 = (__this->fields)._previousMousePoint.fields.x;
+      uVar9 = (__this->fields)._previousMousePoint.fields.y;
+      pIVar4 = *(Il2CppMethodPointer *)&pUVar22->fields;
+      fVar30 = (float)((ulonglong)pIVar4 >> 0x20);
+      fVar10 = (pUVar22->fields).z;
+      fVar25 = (float)uVar3 - SUB84(pIVar4,0);
+      fVar26 = (float)uVar9 - fVar30;
+      fVar29 = (__this->fields)._previousMousePoint.fields.z - fVar10;
+      local_158.y = fVar26;
+      local_158.x = fVar25;
+      local_158.z = fVar29;
+      if (Il2CppMethodInitialized_18433de5f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+        Il2CppMethodInitialized_18433de5f = '\x01';
+      }
+      fVar27 = (float)il2cpp_runtime_helper_180546a40(&local_158,0);
+      if (fVar27 <= 1e-05) {
+        pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
+        fVar25 = (pUVar16->zeroVector).fields.x;
+        fVar26 = (pUVar16->zeroVector).fields.y;
+        fVar29 = (pUVar16->zeroVector).fields.z;
+      }
+      else {
+        fVar25 = fVar25 / fVar27;
+        fVar26 = fVar26 / fVar27;
+        fVar29 = fVar29 / fVar27;
+      }
+      fVar31 = fVar33 - fVar10;
+      fVar30 = fVar32 - fVar30;
+      fVar27 = fVar34 - SUB84(pIVar4,0);
+      local_158.y = fVar30;
+      local_158.x = fVar27;
+      local_158.z = fVar31;
+      if (Il2CppMethodInitialized_18433de5f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+        Il2CppMethodInitialized_18433de5f = '\x01';
+      }
+      fVar28 = (float)il2cpp_runtime_helper_180546a40(&local_158,0);
+      if (fVar28 <= 1e-05) {
+        pUVar16 = TypeInfo_UnityEngine_Vector3->static_fields;
+        fVar27 = (pUVar16->zeroVector).fields.x;
+        fVar30 = (pUVar16->zeroVector).fields.y;
+        fVar31 = (pUVar16->zeroVector).fields.z;
+      }
+      else {
+        fVar27 = fVar27 / fVar28;
+        fVar30 = fVar30 / fVar28;
+        fVar31 = fVar31 / fVar28;
+      }
+      pUVar22 = MapEditor_RotationGizmo__GetAxis((UnityEngine_Vector3_o *)local_148,__this,(MethodInfo *)0x0);
+      pIVar5 = *(Il2CppMethodPointer *)&pUVar22->fields;
+      fVar28 = (pUVar22->fields).z;
+      if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      }
+      method_00 = (MethodInfo *)local_148;
+      pIStack_140 = (Il2CppMethodPointer)CONCAT44(pIStack_140._4_4_,fVar28);
+      local_128.fields._0_8_ = CONCAT44(fVar30,fVar27);
+      local_158._0_8_ = CONCAT44(fVar26,fVar25);
+      local_158.z = fVar29;
+      local_148 = (undefined1  [8])pIVar5;
+      local_128.fields.z = fVar31;
+      fVar25 = Utility_Util__SignedAngle
+                         ((UnityEngine_Vector3_o *)&local_158,&local_128,(UnityEngine_Vector3_o *)method_00,
+                          (MethodInfo *)0x0);
+      pGVar14 = (__this->fields)._gameManager;
+      if (pGVar14 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1821fc3b0;
+      if ((pGVar14->fields).Snap != false) {
+        pSVar17 = TypeInfo_Settings_SettingsManager->static_fields->MapEditorSettings;
+        if ((pSVar17 == (Settings_MapEditorSettings_o *)0x0) ||
+           (pSVar18 = (pSVar17->fields).SnapRotate, pSVar18 == (Settings_FloatSetting_o *)0x0))
+        goto label_1821fc3b0;
+        fVar25 = fVar25 + (__this->fields)._currentAngle;
+        fVar26 = (pSVar18->fields)._value;
+        (__this->fields)._currentAngle = fVar25;
+        if (ABS(fVar25) <= fVar26) {
+          fVar25 = 0.0;
+        }
+        else {
+          fVar25 = (float)il2cpp_runtime_helper_180012930(fVar25 / fVar26);
+          fVar25 = fVar25 * fVar26;
+          fVar26 = il2cpp_runtime_helper_1804f41a0((__this->fields)._currentAngle,fVar26,method_00);
+          (__this->fields)._currentAngle = fVar26;
+        }
+      }
+      pUVar22 = MapEditor_RotationGizmo__GetAxis(&local_128,__this,(MethodInfo *)0x0);
+      local_148 = *(undefined1 (*) [8])&pUVar22->fields;
+      pIStack_140 = (Il2CppMethodPointer)CONCAT44(pIStack_140._4_4_,(pUVar22->fields).z);
+      local_158._0_8_ = pIVar4;
+      local_158.z = fVar10;
+      MapEditor_RotationGizmo__RotateSelectedObjects
+                (__this,(UnityEngine_Vector3_o *)&local_158,(UnityEngine_Vector3_o *)local_148,fVar25,
+                 (MethodInfo *)0x0);
+      MapEditor_RotationGizmo__ResetCenter(__this,(MethodInfo *)0x0);
+      (__this->fields)._previousMousePoint.fields.x = fVar34;
+      (__this->fields)._previousMousePoint.fields.y = fVar32;
+      (__this->fields)._previousMousePoint.fields.z = fVar33;
     }
     else {
-      pUVar8 = (__this->fields)._menu;
-      if (pUVar8 != (UI_MapEditorMenu_o *)0x0) {
-        if ((char)(pUVar8->fields).IsMouseUI != '\0') {
-label_044588e5:
-          (__this->fields)._currentAngle = 0.0;
-          return;
-        }
-        if (unaff_R12 != (System_Int32_array *)0x0) {
-          method_07 = (System_Int32_array *)0x0;
-          pMStack_150 = (MapEditor_RotationGizmo_o *)0x445870f;
-          method_08 = unaff_R12;
-          bVar15 = Settings_KeybindSetting__GetKeyDown
-                             ((Settings_KeybindSetting_o *)unaff_R12,0,(MethodInfo *)0x0);
-          if ((char)bVar15 == '\0') goto label_044588e5;
-          if (lVar7 != 0) {
-            __this_00 = *(UnityEngine_Camera_o **)(lVar7 + 0x20);
-            method_08 = (System_Int32_array *)0x0;
-            pMStack_150 = (MapEditor_RotationGizmo_o *)0x445872b;
-            UVar41 = UnityEngine_Input__get_mousePosition((MethodInfo *)0x0);
-            fStack_e8 = UVar41.fields.z;
-            unaff_RBX = (System_Int32_array *)0x0;
-            if (__this_00 != (UnityEngine_Camera_o *)0x0) {
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458746;
-              UnityEngine_Camera__ScreenPointToRay_4db37e0
-                        ((UnityEngine_Ray_o *)auStack_48,__this_00,UVar41,(MethodInfo *)0x0);
-              fStack_b8 = (float)auStack_48._16_8_;
-              fStack_b4 = SUB84(auStack_48._16_8_,4);
-              auStack_c8._0_4_ = auStack_48._0_4_;
-              auStack_c8._4_4_ = auStack_48._4_4_;
-              fStack_c0 = (float)auStack_48._8_4_;
-              fStack_bc = (float)auStack_48._12_4_;
-              method_07 = (System_Int32_array *)0x1;
-              pMStack_150 = (MapEditor_RotationGizmo_o *)0x445877a;
-              unaff_RBX = (System_Int32_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_int);
-              if (*(int *)((long)TypeInfo_PhysicsLayer->m_Items + 0xc4) == 0) {
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458796;
-                il2cpp_runtime_helper_02337ed0();
-              }
-              method_08 = TypeInfo_PhysicsLayer;
-              if (unaff_RBX != (System_Int32_array *)0x0) {
-                if ((int)unaff_RBX->max_length == 0) goto label_044591c5;
-                unaff_RBX->m_Items[0] = *(int32_t *)(*(long *)((long)TypeInfo_PhysicsLayer->m_Items + 0x98) + 0x44);
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x44587c4;
-                mask = Utility_PhysicsLayer__GetMask(unaff_RBX,(MethodInfo *)0x0);
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x44587cd;
-                uVar16 = UnityEngine_LayerMask__op_Implicit(mask,(MethodInfo *)0x0);
-                unaff_RBX = (System_Int32_array *)(ulong)uVar16;
-                if (*(int *)(TypeInfo_Physics + 0xe4) == 0) {
-                  pMStack_150 = (MapEditor_RotationGizmo_o *)0x44587e7;
-                  il2cpp_runtime_helper_02337ed0();
-                }
-                uVar46 = CONCAT44(fStack_b4,fStack_b8);
-                uVar44 = CONCAT44(auStack_c8._4_4_,auStack_c8._0_4_);
-                uVar45 = CONCAT44(fStack_bc,fStack_c0);
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458819;
-                ray.fields.m_Origin.fields.z = fStack_c0;
-                ray.fields.m_Direction.fields.x = fStack_bc;
-                ray.fields.m_Origin.fields.x = (float)auStack_c8._0_4_;
-                ray.fields.m_Origin.fields.y = (float)auStack_c8._4_4_;
-                ray.fields.m_Direction.fields.y = fStack_b8;
-                ray.fields.m_Direction.fields.z = fStack_b4;
-                bVar15 = UnityEngine_Physics__Raycast_4e78080
-                                   (ray,(UnityEngine_RaycastHit_o *)auStack_78,100000.0,uVar16,
-                                    (MethodInfo *)0x0);
-                if ((char)bVar15 == '\0') goto label_044588e5;
-                method_08 = (System_Int32_array *)auStack_78;
-                method_07 = (System_Int32_array *)0x0;
-                pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458830;
-                __this_06.fields.m_Point.fields.z = (float)(int)uVar45;
-                __this_06.fields.m_Normal.fields.x = (float)(int)((ulong)uVar45 >> 0x20);
-                __this_06.fields.m_Point.fields.x = (float)(int)uVar44;
-                __this_06.fields.m_Point.fields.y = (float)(int)((ulong)uVar44 >> 0x20);
-                __this_06.fields.m_Normal.fields.y = (float)(int)uVar46;
-                __this_06.fields.m_Normal.fields.z = (float)(int)((ulong)uVar46 >> 0x20);
-                __this_06.fields.m_FaceID = in_stack_fffffffffffffed0;
-                __this_06.fields.m_Distance = (float)in_stack_fffffffffffffed4;
-                __this_06.fields.m_UV.fields.x = (float)in_stack_fffffffffffffed8;
-                __this_06.fields.m_UV.fields.y = (float)in_stack_fffffffffffffedc;
-                __this_06.fields.m_Collider = in_stack_fffffffffffffee0;
-                pSVar17 = (System_Int32_array *)
-                          UnityEngine_RaycastHit__get_collider(__this_06,(MethodInfo *)method_08);
-                if (pSVar17 != (System_Int32_array *)0x0) {
-                  method_07 = (System_Int32_array *)0x0;
-                  pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458843;
-                  pUVar18 = UnityEngine_Component__get_transform
-                                      ((UnityEngine_Component_o *)pSVar17,(MethodInfo *)0x0);
-                  method_08 = pSVar17;
-                  if (pUVar18 != (UnityEngine_Transform_o *)0x0) {
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458856;
-                    pUVar18 = UnityEngine_Transform__get_parent(pUVar18,(MethodInfo *)0x0);
-                    (__this->fields)._activeCircle = pUVar18;
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458868;
-                    il2cpp_runtime_helper_022b4080(unaff_R14,pUVar18);
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x445887d;
-                    MapEditor_RotationGizmo__SetCircleColor
-                              ((MapEditor_RotationGizmo_o *)unaff_R14,(__this->fields)._circleX,
-                               (UnityEngine_Color_o)(__this->fields).CircleXColor.fields,method_00);
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x4458892;
-                    MapEditor_RotationGizmo__SetCircleColor
-                              ((MapEditor_RotationGizmo_o *)unaff_R14,(__this->fields)._circleY,
-                               (UnityEngine_Color_o)(__this->fields).CircleYColor.fields,method_01);
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44588ad;
-                    MapEditor_RotationGizmo__SetCircleColor
-                              ((MapEditor_RotationGizmo_o *)unaff_R14,(__this->fields)._circleZ,
-                               (UnityEngine_Color_o)(__this->fields).CircleZColor.fields,method_02);
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44588c5;
-                    MapEditor_RotationGizmo__SetCircleColor
-                              ((MapEditor_RotationGizmo_o *)unaff_R14,(__this->fields)._activeCircle,
-                               (UnityEngine_Color_o)(__this->fields).SelectedColor.fields,method_03);
-                    pMStack_150 = (MapEditor_RotationGizmo_o *)0x44588d4;
-                    __this_07.fields.m_Point.fields.z = (float)(int)uVar45;
-                    __this_07.fields.m_Normal.fields.x = (float)(int)((ulong)uVar45 >> 0x20);
-                    __this_07.fields.m_Point.fields.x = (float)(int)uVar44;
-                    __this_07.fields.m_Point.fields.y = (float)(int)((ulong)uVar44 >> 0x20);
-                    __this_07.fields.m_Normal.fields.y = (float)(int)uVar46;
-                    __this_07.fields.m_Normal.fields.z = (float)(int)((ulong)uVar46 >> 0x20);
-                    __this_07.fields.m_FaceID = in_stack_fffffffffffffed0;
-                    __this_07.fields.m_Distance = (float)in_stack_fffffffffffffed4;
-                    __this_07.fields.m_UV.fields.x = (float)in_stack_fffffffffffffed8;
-                    __this_07.fields.m_UV.fields.y = (float)in_stack_fffffffffffffedc;
-                    __this_07.fields.m_Collider = in_stack_fffffffffffffee0;
-                    UVar41 = UnityEngine_RaycastHit__get_point(__this_07,(MethodInfo *)auStack_78);
-                    (__this->fields)._previousMousePoint.fields.x = (float)(int)UVar41.fields._0_8_;
-                    (__this->fields)._previousMousePoint.fields.y =
-                         (float)(int)((ulong)UVar41.fields._0_8_ >> 0x20);
-                    (__this->fields)._previousMousePoint.fields.z = UVar41.fields.z;
-                    goto label_044588e5;
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+      pGVar14 = (__this->fields)._gameManager;
+      if (pGVar14 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1821fc3b0;
+      GameManagers_MapEditorGameManager__TeardownTemporaryPhysicalParenting(pGVar14,(MethodInfo *)0x0);
+      pGVar14 = (__this->fields)._gameManager;
+      if (pGVar14 == (GameManagers_MapEditorGameManager_o *)0x0) goto label_1821fc3b0;
+      mapObjects = GameManagers_MapEditorGameManager__GetSelectedObjectsForTransformCommand
+                             (pGVar14,(MethodInfo *)0x0);
+      __this_01 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_MapEditor_TransformPositionRotationCommand);
+      MapEditor_TransformPositionRotationCommand___ctor(__this_01,mapObjects,(MethodInfo *)0x0);
+      GameManagers_MapEditorGameManager__NewCommand
+                (pGVar14,(MapEditor_BaseCommand_o *)__this_01,true,(MethodInfo *)0x0);
+      MapEditor_RotationGizmo__ResetColors(__this,(MethodInfo *)0x0);
+      (__this->fields)._activeCircle = (UnityEngine_Transform_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._activeCircle,(void *)0x0);
     }
-  }
-label_044591c0:
-  pMStack_150 = (MapEditor_RotationGizmo_o *)0x44591c5;
-  il2cpp_runtime_helper_022b2c90();
-label_044591c5:
-  pMStack_150 = (MapEditor_RotationGizmo_o *)0x44591ca;
-  uStack_180 = il2cpp_runtime_helper_022b2ca0();
-  fStack_170 = fStack_e8;
-  uStack_16c = in_XMM1_Db;
-  uStack_168 = in_XMM1_Dc;
-  uStack_164 = in_XMM1_Dd;
-  pSStack_160 = unaff_RBX;
-  pSStack_158 = unaff_R14;
-  pMStack_150 = __this;
-  if (g_data_057ae73f == '\0') {
-    method_08 = (System_Int32_array *)&MethodInfo_Renderer_GetComponentsInChildren_Renderer;
-    pMStack_188 = (MapEditor_RotationGizmo_o *)0x44591fa;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae73f = '\x01';
-  }
-  if (method_07 != (System_Int32_array *)0x0) {
-    pMStack_188 = (MapEditor_RotationGizmo_o *)0x445921c;
-    pSVar17 = method_07;
-    pSVar19 = UnityEngine_Component__GetComponentsInChildren_object__24e8500
-                        ((UnityEngine_Component_o *)method_07,MethodInfo_Renderer_GetComponentsInChildren_Renderer);
-    method_08 = pSVar17;
-    if (pSVar19 != (System_Object_array *)0x0) {
-      uVar16 = (uint)pSVar19->max_length;
-      if (0 < (int)uVar16) {
-        __this = (MapEditor_RotationGizmo_o *)0x0;
-        do {
-          uVar24 = (uint)__this;
-          method_08 = pSVar17;
-          unaff_R14 = pSVar19;
-          if (uVar16 <= uVar24) goto label_0445929e;
-          method_07 = (System_Int32_array *)pSVar19->m_Items[(int)uVar24];
-          if (method_07 == (System_Int32_array *)0x0) goto label_04459299;
-          pMStack_188 = (MapEditor_RotationGizmo_o *)0x445924c;
-          method_08 = method_07;
-          __this_08 = UnityEngine_Renderer__get_material
-                                ((UnityEngine_Renderer_o *)method_07,(MethodInfo *)0x0);
-          if (__this_08 == (UnityEngine_Material_o *)0x0) goto label_04459299;
-          value.fields.a = (float)uStack_16c;
-          value.fields.b = fStack_170;
-          pMStack_188 = (MapEditor_RotationGizmo_o *)0x4459264;
-          value.fields.r = (float)(undefined4)uStack_180;
-          value.fields.g = (float)uStack_180._4_4_;
-          fStack_e8 = fStack_170;
-          UnityEngine_Material__set_color(__this_08,value,(MethodInfo *)0x0);
-          pMStack_188 = (MapEditor_RotationGizmo_o *)0x445926e;
-          method_08 = method_07;
-          pSVar17 = (System_Int32_array *)
-                    UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)method_07,(MethodInfo *)0x0);
-          if (pSVar17 == (System_Int32_array *)0x0) goto label_04459299;
-          pMStack_188 = (MapEditor_RotationGizmo_o *)0x4459282;
-          UnityEngine_Material__set_renderQueue((UnityEngine_Material_o *)pSVar17,0xc27,(MethodInfo *)0x0);
-          __this = (MapEditor_RotationGizmo_o *)(ulong)(uVar24 + 1);
-          uVar16 = (uint)pSVar19->max_length;
-        } while ((int)(uVar24 + 1) < (int)uVar16);
-      }
-      return;
+    pGVar14 = (__this->fields)._gameManager;
+    if (pGVar14 == (GameManagers_MapEditorGameManager_o *)0x0) {
+label_1821fc3b0:
+      ThrowNullReferenceException();
     }
+    (pGVar14->fields).IgnoreNextSelect = true;
   }
-label_04459299:
-  pMStack_188 = (MapEditor_RotationGizmo_o *)0x445929e;
-  il2cpp_runtime_helper_022b2c90();
-label_0445929e:
-  pMStack_188 = (MapEditor_RotationGizmo_o *)0x44592a3;
-  uStack_1a8 = il2cpp_runtime_helper_022b2ca0();
-  pSStack_1a0 = method_07;
-  pSStack_198 = unaff_R12;
-  pSStack_190 = unaff_R14;
-  pMStack_188 = __this;
-  if (g_data_057ae73c == '\0') {
-    pIStack_1b0 = (Il2CppRGCTXData *)0x44592d0;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae73c = '\x01';
-  }
-  y = ((_union_13 *)((long)method_08->m_Items + 0x18))->rgctx_data;
-  pUVar9 = *(UnityEngine_Object_o **)((long)method_08->m_Items + 0x70);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    pIStack_1b0 = (Il2CppRGCTXData *)0x44592fb;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pIStack_1b0 = (Il2CppRGCTXData *)0x4459308;
-  bVar15 = UnityEngine_Object__op_Equality(pUVar9,(UnityEngine_Object_o *)y,(MethodInfo *)0x0);
-  if ((char)bVar15 == '\0') {
-    y = ((_union_14 *)((long)method_08->m_Items + 0x20))->genericMethod;
-    pUVar9 = *(UnityEngine_Object_o **)((long)method_08->m_Items + 0x70);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      pIStack_1b0 = (Il2CppRGCTXData *)0x4459344;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pIStack_1b0 = (Il2CppRGCTXData *)0x4459351;
-    bVar15 = UnityEngine_Object__op_Equality(pUVar9,(UnityEngine_Object_o *)y,(MethodInfo *)0x0);
-    pUVar18 = *(UnityEngine_Transform_o **)((long)method_08->m_Items + 8);
-    if (pUVar18 != (UnityEngine_Transform_o *)0x0) {
-      if ((char)bVar15 == '\0') {
-        UnityEngine_Transform__get_forward(pUVar18,(MethodInfo *)0x0);
-        return;
-      }
-      UnityEngine_Transform__get_up(pUVar18,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  else if (*(UnityEngine_Transform_o **)((long)method_08->m_Items + 8) != (UnityEngine_Transform_o *)0x0) {
-    UnityEngine_Transform__get_right
-              (*(UnityEngine_Transform_o **)((long)method_08->m_Items + 8),(MethodInfo *)0x0);
-    return;
-  }
-  lVar23 = 0;
-  pIStack_1b0 = (Il2CppRGCTXData *)0x4459381;
-  uVar44 = il2cpp_runtime_helper_022b2c90();
-  fVar2 = in_XMM4._0_4_;
-  pSStack_1b8 = method_08;
-  pIStack_1b0 = y;
-  if (g_data_057ae73d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    g_data_057ae73d = '\x01';
-  }
-  _Var43.genericMethod = (Il2CppObject *)0x0;
-  if ((*(long *)(lVar23 + 0x20) != 0) &&
-     (__this_01 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(lVar23 + 0x20) + 0x38),
-     __this_01 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)a_Stack_1d0,__this_01,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    _Var43 = a_Stack_1d0[0];
-    while( true ) {
-      __this_02.fields._set._4_4_ = fStack_e8;
-      __this_02.fields._set._0_4_ = in_stack_fffffffffffffde0;
-      __this_02.fields._index = (int32_t)in_XMM3_Da;
-      __this_02.fields._version = (int32_t)fVar2;
-      __this_02.fields._current = _Var43.genericMethod;
-      bVar15 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                         (__this_02,(MethodInfo_3219C40 *)&stack0xfffffffffffffdf0);
-      if ((char)bVar15 == '\0') {
-        __this_03.fields._set._4_4_ = fStack_e8;
-        __this_03.fields._set._0_4_ = in_stack_fffffffffffffde0;
-        __this_03.fields._index = (int32_t)in_XMM3_Da;
-        __this_03.fields._version = (int32_t)fVar2;
-        __this_03.fields._current = _Var43.genericMethod;
-        System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                  (__this_03,(MethodInfo_3219C30 *)&stack0xfffffffffffffdf0);
-        return;
-      }
-      if (lStack_1c0 == 0) break;
-      if (*(UnityEngine_GameObject_o **)(lStack_1c0 + 0x18) == (UnityEngine_GameObject_o *)0x0)
-      goto label_044594d7;
-      pUVar18 = UnityEngine_GameObject__get_transform
-                          (*(UnityEngine_GameObject_o **)(lStack_1c0 + 0x18),(MethodInfo *)0x0);
-      if (pUVar18 == (UnityEngine_Transform_o *)0x0) goto label_044594dc;
-      ppIStack_1e0 = auStack_108._0_8_;
-      point.fields.z = fStack_e8;
-      point.fields.x = (float)(int)uVar44;
-      point.fields.y = (float)(int)((ulong)uVar44 >> 0x20);
-      axis.fields.z = in_XMM3_Da;
-      axis.fields._0_8_ = ppIStack_1e0;
-      UnityEngine_Transform__RotateAround(pUVar18,point,axis,fVar2,(MethodInfo *)0x0);
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_044594d7:
-    il2cpp_runtime_helper_022b2c90();
-label_044594dc:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  auVar40 = il2cpp_runtime_helper_022b2c90();
-  if (auVar40._8_4_ == 1) {
-    plVar20 = (long *)__cxa_begin_catch(auVar40._0_8_);
-    lVar23 = *plVar20;
-    __cxa_end_catch();
-    __this_04.fields._set._4_4_ = fStack_e8;
-    __this_04.fields._set._0_4_ = in_stack_fffffffffffffde0;
-    __this_04.fields._index = (int32_t)in_XMM3_Da;
-    __this_04.fields._version = (int32_t)fVar2;
-    __this_04.fields._current = _Var43.genericMethod;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_04,(MethodInfo_3219C30 *)&stack0xfffffffffffffdf0);
-    if (lVar23 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar23);
-  }
-  __this_05.fields._set._4_4_ = fStack_e8;
-  __this_05.fields._set._0_4_ = in_stack_fffffffffffffde0;
-  __this_05.fields._index = (int32_t)in_XMM3_Da;
-  __this_05.fields._version = (int32_t)fVar2;
-  __this_05.fields._current = _Var43.genericMethod;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_05,(MethodInfo_3219C30 *)&stack0xfffffffffffffdf0);
-  _Unwind_Resume(auVar40._0_8_);
+  return;
 }
 
 
 // MapEditor.RotationGizmo$$GetAxis
 // il2cpp: UnityEngine_Vector3_o MapEditor_RotationGizmo__GetAxis (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x44592b0
+// 0x1821fb150
 
-UnityEngine_Vector3_o MapEditor_RotationGizmo__GetAxis(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
+UnityEngine_Vector3_o *
+MapEditor_RotationGizmo__GetAxis
+          (UnityEngine_Vector3_o *__return_storage_ptr__,MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_Transform_o *pUVar1;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  undefined8 uVar2;
-  bool_conflict bVar3;
-  UnityEngine_Transform_o *pUVar4;
-  long *plVar5;
-  long lVar6;
-  undefined4 extraout_XMM0_Da;
-  undefined4 uVar7;
-  undefined4 extraout_XMM0_Da_00;
-  undefined4 extraout_XMM0_Db;
-  undefined4 uVar8;
-  undefined4 extraout_XMM0_Db_00;
-  float in_XMM1_Da;
-  undefined4 in_XMM2_Da;
-  undefined4 in_XMM2_Db;
-  float in_XMM3_Da;
-  float in_XMM4_Da;
-  undefined1 auVar10 [12];
-  UnityEngine_Vector3_Fields UVar11;
-  UnityEngine_Vector3_o point;
-  UnityEngine_Vector3_o UVar12;
-  UnityEngine_Vector3_o axis;
-  undefined4 in_stack_ffffffffffffff60;
-  float fVar13;
-  _union_332950 _Var14;
-  _union_332950 a_Stack_50 [2];
-  long lStack_40;
-  MapEditor_RotationGizmo_o *pMStack_38;
-  UnityEngine_Transform_o *pUStack_30;
-  float fVar9;
+  float fVar1;
+  UnityEngine_Transform_o *pUVar2;
+  UnityEngine_Transform_o *pUVar3;
+  float fVar4;
+  bool bVar5;
+  UnityEngine_Vector3_o *pUVar6;
+  UnityEngine_Vector3_o local_38 [2];
   
-  if (g_data_057ae73c == '\0') {
-    pUStack_30 = (UnityEngine_Transform_o *)0x44592d0;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae73c = '\x01';
+  if (Il2CppMethodInitialized_184347044 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184347044 = '\x01';
   }
-  pUVar4 = (__this->fields)._circleX;
-  pUVar1 = (__this->fields)._activeCircle;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    pUStack_30 = (UnityEngine_Transform_o *)0x44592fb;
-    il2cpp_runtime_helper_02337ed0();
+  pUVar2 = (__this->fields)._activeCircle;
+  pUVar3 = (__this->fields)._circleX;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pUStack_30 = (UnityEngine_Transform_o *)0x4459308;
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)pUVar4,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    pUVar4 = (__this->fields)._circleY;
-    pUVar1 = (__this->fields)._activeCircle;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      pUStack_30 = (UnityEngine_Transform_o *)0x4459344;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pUStack_30 = (UnityEngine_Transform_o *)0x4459351;
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)pUVar4,(MethodInfo *)0x0);
-    pUVar1 = (__this->fields)._transform;
-    if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
-      if ((char)bVar3 != '\0') {
-        UVar11 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_up(pUVar1,(MethodInfo *)0x0);
-        return (UnityEngine_Vector3_o)UVar11;
-      }
-      UVar11 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_forward(pUVar1,(MethodInfo *)0x0);
-      return (UnityEngine_Vector3_o)UVar11;
-    }
+  bVar5 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)pUVar3,(MethodInfo *)0x0);
+  if (bVar5) {
+    pUVar2 = (__this->fields)._transform;
+    if (pUVar2 == (UnityEngine_Transform_o *)0x0) goto label_1821fb22e;
+    pUVar6 = UnityEngine_Transform__get_right(local_38,pUVar2,(MethodInfo *)0x0);
   }
   else {
-    pUVar1 = (__this->fields)._transform;
-    if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
-      UVar11 = (UnityEngine_Vector3_Fields)UnityEngine_Transform__get_right(pUVar1,(MethodInfo *)0x0);
-      return (UnityEngine_Vector3_o)UVar11;
+    pUVar2 = (__this->fields)._activeCircle;
+    pUVar3 = (__this->fields)._circleY;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar5 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)pUVar3,(MethodInfo *)0x0);
+    pUVar2 = (__this->fields)._transform;
+    if (pUVar2 == (UnityEngine_Transform_o *)0x0) {
+label_1821fb22e:
+      ThrowNullReferenceException();
+    }
+    if (bVar5) {
+      pUVar6 = UnityEngine_Transform__get_up(local_38,pUVar2,(MethodInfo *)0x0);
+    }
+    else {
+      pUVar6 = UnityEngine_Transform__get_forward(local_38,pUVar2,(MethodInfo *)0x0);
     }
   }
-  lVar6 = 0;
-  pUStack_30 = (UnityEngine_Transform_o *)0x4459381;
-  uVar2 = il2cpp_runtime_helper_022b2c90();
-  fVar9 = in_XMM1_Da;
-  pMStack_38 = __this;
-  pUStack_30 = pUVar4;
-  if (g_data_057ae73d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    g_data_057ae73d = '\x01';
-  }
-  _Var14.genericMethod = (Il2CppObject *)0x0;
-  if ((*(long *)(lVar6 + 0x20) != 0) &&
-     (__this_00 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(lVar6 + 0x20) + 0x38),
-     __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)a_Stack_50,__this_00,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    _Var14 = a_Stack_50[0];
-    while (__this_01.fields._set._4_4_ = fVar9, __this_01.fields._set._0_4_ = in_stack_ffffffffffffff60,
-          __this_01.fields._index = (int32_t)in_XMM3_Da, __this_01.fields._version = (int32_t)in_XMM4_Da,
-          __this_01.fields._current = _Var14.genericMethod,
-          bVar3 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                            (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffff70), (char)bVar3 != '\0') {
-      if (lStack_40 == 0) {
-        il2cpp_runtime_helper_022b2c90();
-label_044594d7:
-        il2cpp_runtime_helper_022b2c90();
-label_044594dc:
-        il2cpp_runtime_helper_022b2c90();
-        goto label_044594e1;
-      }
-      if (*(UnityEngine_GameObject_o **)(lStack_40 + 0x18) == (UnityEngine_GameObject_o *)0x0)
-      goto label_044594d7;
-      pUVar4 = UnityEngine_GameObject__get_transform
-                         (*(UnityEngine_GameObject_o **)(lStack_40 + 0x18),(MethodInfo *)0x0);
-      if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_044594dc;
-      axis.fields.y = (float)in_XMM2_Db;
-      axis.fields.x = (float)in_XMM2_Da;
-      point.fields.z = fVar9;
-      point.fields.x = (float)(int)uVar2;
-      point.fields.y = (float)(int)((ulong)uVar2 >> 0x20);
-      axis.fields.z = in_XMM3_Da;
-      fVar13 = fVar9;
-      UnityEngine_Transform__RotateAround(pUVar4,point,axis,in_XMM4_Da,(MethodInfo *)0x0);
-      in_XMM1_Da = fVar9;
-      fVar9 = fVar13;
-    }
-    __this_02.fields._set._4_4_ = fVar9;
-    __this_02.fields._set._0_4_ = in_stack_ffffffffffffff60;
-    __this_02.fields._index = (int32_t)in_XMM3_Da;
-    __this_02.fields._version = (int32_t)in_XMM4_Da;
-    __this_02.fields._current = _Var14.genericMethod;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-    uVar7 = extraout_XMM0_Da;
-    uVar8 = extraout_XMM0_Db;
-label_044594ca:
-    UVar12.fields.y = (float)uVar8;
-    UVar12.fields.x = (float)uVar7;
-    UVar12.fields.z = in_XMM1_Da;
-    return (UnityEngine_Vector3_o)UVar12.fields;
-  }
-label_044594e1:
-  auVar10 = il2cpp_runtime_helper_022b2c90();
-  if (auVar10._8_4_ == 1) {
-    plVar5 = (long *)__cxa_begin_catch(auVar10._0_8_);
-    lVar6 = *plVar5;
-    __cxa_end_catch();
-    __this_03.fields._set._4_4_ = fVar9;
-    __this_03.fields._set._0_4_ = in_stack_ffffffffffffff60;
-    __this_03.fields._index = (int32_t)in_XMM3_Da;
-    __this_03.fields._version = (int32_t)in_XMM4_Da;
-    __this_03.fields._current = _Var14.genericMethod;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-    uVar7 = extraout_XMM0_Da_00;
-    uVar8 = extraout_XMM0_Db_00;
-    if (lVar6 == 0) goto label_044594ca;
-    il2cpp_runtime_helper_022fefe0(lVar6);
-  }
-  __this_04.fields._set._4_4_ = fVar9;
-  __this_04.fields._set._0_4_ = in_stack_ffffffffffffff60;
-  __this_04.fields._index = (int32_t)in_XMM3_Da;
-  __this_04.fields._version = (int32_t)in_XMM4_Da;
-  __this_04.fields._current = _Var14.genericMethod;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffff70);
-  _Unwind_Resume(auVar10._0_8_);
+  fVar4 = (pUVar6->fields).y;
+  fVar1 = (pUVar6->fields).z;
+  (__return_storage_ptr__->fields).x = (pUVar6->fields).x;
+  (__return_storage_ptr__->fields).y = fVar4;
+  (__return_storage_ptr__->fields).z = fVar1;
+  return __return_storage_ptr__;
 }
 
 
 // MapEditor.RotationGizmo$$RotateSelectedObjects
 // il2cpp: void MapEditor_RotationGizmo__RotateSelectedObjects (MapEditor_RotationGizmo_o* __this, UnityEngine_Vector3_o center, UnityEngine_Vector3_o axis, float angle, const MethodInfo* method);
-// 0x4459390
+// 0x1821fb740
+// eh: try 0x1821fb940..0x1821fba32 -> pad 0x183327470 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821fb9ed: mov rdx, qword ptr [rip + 0x1e8f834]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose
+// asm:   0x1821fb9f4: mov rcx, qword ptr [rsp + 0x68]
+// asm:   0x1821fb9f9: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821fb9fe: mov rcx, qword ptr [rsp + 0x60]
+// asm:   0x1821fba03: test rcx, rcx
+// asm:   0x1821fba06: jne 0x1821fba32
+// asm:   0x1821fba32: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183327470: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183327475: push rbp
+// asm:   0x183327476: sub rsp, 0x30
+// asm:   0x18332747a: mov rbp, rdx
+// asm:   0x18332747d: mov rax, qword ptr [rbp + 0x30]
+// asm:   0x183327481: mov rcx, qword ptr [rax]
+// asm:   0x183327484: mov qword ptr [rbp + 0x60], rcx
+// asm:   0x183327488: movabs rax, 0
+// asm:   0x183327492: add rsp, 0x30
+// asm:   0x183327496: pop rbp
+// asm:   0x183327497: ret 
 
 void MapEditor_RotationGizmo__RotateSelectedObjects
-               (MapEditor_RotationGizmo_o *__this,UnityEngine_Vector3_o center,UnityEngine_Vector3_o axis,
+               (MapEditor_RotationGizmo_o *__this,UnityEngine_Vector3_o *center,UnityEngine_Vector3_o *axis,
                float angle,MethodInfo *method)
 
 {
   GameManagers_MapEditorGameManager_o *pGVar1;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  long lVar2;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  bool_conflict bVar3;
-  UnityEngine_Transform_o *__this_05;
-  long *plVar4;
-  float fVar5;
-  float fVar6;
-  undefined1 auVar7 [12];
-  UnityEngine_Vector3_o point;
-  UnityEngine_Vector3_o axis_00;
-  undefined4 in_stack_ffffffffffffff88;
-  _union_332950 _Var8;
-  _union_332950 local_28 [2];
-  long local_18;
+  System_Collections_Generic_HashSet_MapObject__o *source;
+  Il2CppObject *pIVar2;
+  System_Collections_Generic_HashSet_Vector2Int__o *__this_00;
+  UnityEngine_GameObject_o *__this_01;
+  bool bVar3;
+  Newtonsoft_Json_Serialization_ObjectConstructor_T__o *__this_02;
+  System_Collections_Generic_IEnumerable_TResult__o *collection;
+  System_Collections_Generic_HashSet_int__o *__this_03;
+  UnityEngine_Transform_o *__this_04;
+  UnityEngine_Vector3_Fields local_98;
+  UnityEngine_Vector3_Fields local_88;
+  undefined1 local_78 [16];
+  Map_MapObject_o *local_68;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_60 [2];
   
-  fVar6 = axis.fields.z;
-  fVar5 = center.fields.z;
-  if (g_data_057ae73d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    g_data_057ae73d = '\x01';
+  if (Il2CppMethodInitialized_184347045 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Linq_Enumerable_Select_MapObject_int);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_MapObject_int);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_int_ctor_40dc988);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_int);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_MapEditor_RotationGizmo_c_RotateSelectedObjects_b__16_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MapEditor_RotationGizmo_c);
+    Il2CppMethodInitialized_184347045 = '\x01';
   }
-  _Var8.genericMethod = (Il2CppObject *)0x0;
+  local_60[0].fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_60[0].fields._index = 0;
+  local_60[0].fields._version = 0;
+  local_60[0].fields._current = (Il2CppObject *)0x0;
   pGVar1 = (__this->fields)._gameManager;
-  if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-     (__this_00 = (System_Collections_Generic_HashSet_object__o *)(pGVar1->fields).SelectedObjects,
-     __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_28,__this_00,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    _Var8 = local_28[0];
-    while( true ) {
-      __this_01.fields._set._4_4_ = fVar5;
-      __this_01.fields._set._0_4_ = in_stack_ffffffffffffff88;
-      __this_01.fields._index = (int32_t)fVar6;
-      __this_01.fields._version = (int32_t)angle;
-      __this_01.fields._current = _Var8.genericMethod;
-      bVar3 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffff98);
-      if ((char)bVar3 == '\0') {
-        __this_02.fields._set._4_4_ = fVar5;
-        __this_02.fields._set._0_4_ = in_stack_ffffffffffffff88;
-        __this_02.fields._index = (int32_t)fVar6;
-        __this_02.fields._version = (int32_t)angle;
-        __this_02.fields._current = _Var8.genericMethod;
-        System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffff98);
-        return;
+  if (pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) {
+    source = (pGVar1->fields).SelectedObjects;
+    if ((TypeInfo_MapEditor_RotationGizmo_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MapEditor_RotationGizmo_c);
+    }
+    __this_02 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
+                TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9__16_0;
+    if (__this_02 == (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)0x0) {
+      if ((TypeInfo_MapEditor_RotationGizmo_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MapEditor_RotationGizmo_c);
       }
-      if (local_18 == 0) break;
-      if (*(UnityEngine_GameObject_o **)(local_18 + 0x18) == (UnityEngine_GameObject_o *)0x0)
-      goto label_044594d7;
-      __this_05 = UnityEngine_GameObject__get_transform
-                            (*(UnityEngine_GameObject_o **)(local_18 + 0x18),(MethodInfo *)0x0);
-      if (__this_05 == (UnityEngine_Transform_o *)0x0) goto label_044594dc;
-      point.fields.z = fVar5;
-      point.fields.x = (float)(int)center.fields._0_8_;
-      point.fields.y = (float)(int)((ulong)center.fields._0_8_ >> 0x20);
-      axis_00.fields.z = fVar6;
-      axis_00.fields.x = (float)(int)axis.fields._0_8_;
-      axis_00.fields.y = (float)(int)((ulong)axis.fields._0_8_ >> 0x20);
-      UnityEngine_Transform__RotateAround(__this_05,point,axis_00,angle,(MethodInfo *)0x0);
+      pIVar2 = (Il2CppObject *)TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9;
+      __this_02 = (Newtonsoft_Json_Serialization_ObjectConstructor_T__o *)
+                  il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_MapObject_int);
+      System_Func_object__int____ctor
+                (__this_02,pIVar2,(intptr_t)MethodInfo_MapEditor_RotationGizmo_c_RotateSelectedObjects_b__16_0
+                 ,(MethodInfo_AF4D50 *)0x0);
+      TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9__16_0 =
+           (System_Func_MapObject__int__o *)__this_02;
+      Il2CppCodeGenWriteBarrier(&TypeInfo_MapEditor_RotationGizmo_c->static_fields->__9__16_0,__this_02);
     }
-    il2cpp_runtime_helper_022b2c90();
-label_044594d7:
-    il2cpp_runtime_helper_022b2c90();
-label_044594dc:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  auVar7 = il2cpp_runtime_helper_022b2c90();
-  if (auVar7._8_4_ == 1) {
-    plVar4 = (long *)__cxa_begin_catch(auVar7._0_8_);
-    lVar2 = *plVar4;
-    __cxa_end_catch();
-    __this_03.fields._set._4_4_ = fVar5;
-    __this_03.fields._set._0_4_ = in_stack_ffffffffffffff88;
-    __this_03.fields._index = (int32_t)fVar6;
-    __this_03.fields._version = (int32_t)angle;
-    __this_03.fields._current = _Var8.genericMethod;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffff98);
-    if (lVar2 == 0) {
-      return;
+    collection = System_Linq_Enumerable__Select_Vector3__object_
+                           ((System_Collections_Generic_IEnumerable_TSource__o *)source,
+                            (System_Func_TSource__TResult__o *)__this_02,
+                            (MethodInfo_6C2170 *)MethodInfo_System_Linq_Enumerable_Select_MapObject_int);
+    __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_int);
+    System_Collections_Generic_HashSet_int____ctor_176c3b0
+              (__this_03,(System_Collections_Generic_IEnumerable_T__o *)collection,
+               (MethodInfo_176C3B0 *)MethodInfo_System_Collections_Generic_HashSet_int_ctor_40dc988);
+    pGVar1 = (__this->fields)._gameManager;
+    if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
+       (__this_00 = (System_Collections_Generic_HashSet_Vector2Int__o *)(pGVar1->fields).SelectedObjects,
+       __this_00 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0)) {
+      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_78,__this_00,
+                 (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
+      local_60[0].fields._set = (System_Collections_Generic_HashSet_T__o *)local_78._0_8_;
+      local_60[0].fields._index = local_78._8_4_;
+      local_60[0].fields._version = local_78._12_4_;
+      local_60[0].fields._current = (Il2CppObject *)local_68;
+      local_78._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+      local_78._8_8_ = local_60;
+      while( true ) {
+        do {
+          bVar3 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                            (local_60,(MethodInfo_15381F0 *)
+                                      MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_MoveNext
+                            );
+          pIVar2 = local_60[0].fields._current;
+          if (!bVar3) {
+            System_Collections_Generic_HashSet_Enumerator_object___Dispose
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60,
+                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose);
+            return;
+          }
+          bVar3 = MapEditor_BaseGizmo__HasSelectedAncestor
+                            ((Map_MapObject_o *)local_60[0].fields._current,__this_03,(MethodInfo *)0x0);
+        } while (bVar3);
+        if ((Map_MapObject_o *)pIVar2 == (Map_MapObject_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        __this_01 = ((Map_MapObject_Fields *)((longlong)pIVar2 + 0x10))->GameObject;
+        if (__this_01 == (UnityEngine_GameObject_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        __this_04 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+        if (__this_04 == (UnityEngine_Transform_o *)0x0) break;
+        local_98.x = (axis->fields).x;
+        local_98.y = (axis->fields).y;
+        local_98.z = (axis->fields).z;
+        local_88.x = (center->fields).x;
+        local_88.y = (center->fields).y;
+        local_88.z = (center->fields).z;
+        UnityEngine_Transform__RotateAround
+                  (__this_04,(UnityEngine_Vector3_o *)&local_88,(UnityEngine_Vector3_o *)&local_98,angle,
+                   (MethodInfo *)0x0);
+      }
+      ThrowNullReferenceException();
     }
-    il2cpp_runtime_helper_022fefe0(lVar2);
   }
-  __this_04.fields._set._4_4_ = fVar5;
-  __this_04.fields._set._0_4_ = in_stack_ffffffffffffff88;
-  __this_04.fields._index = (int32_t)fVar6;
-  __this_04.fields._version = (int32_t)angle;
-  __this_04.fields._current = _Var8.genericMethod;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffff98);
-  _Unwind_Resume(auVar7._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$ResetCenter
 // il2cpp: void MapEditor_RotationGizmo__ResetCenter (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x44581d0
+// 0x1821fb390
+// eh: try 0x1821fb4b9..0x1821fb6c7 -> pad 0x183326990 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 23 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821fb4cc: nop dword ptr [rax]
+// asm:   0x1821fb5e8: mov rdx, qword ptr [rip + 0x1e8fc39]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose
+// asm:   0x1821fb5ef: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x1821fb5f4: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821fb5f9: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1821fb5fe: test rcx, rcx
+// asm:   0x1821fb601: jne 0x1821fb6c7
+// asm:   0x1821fb607: mov rsi, qword ptr [rsp + 0x100]
+// asm:   0x1821fb60f: movss xmm8, dword ptr [rsp + 0x28]
+// asm:   0x1821fb616: movss xmm7, dword ptr [rsp + 0x24]
+// asm:   0x1821fb61c: movss xmm6, dword ptr [rsp + 0x20]
+// asm:   0x1821fb6c7: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183326990: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183326995: push rbp
+// asm:   0x183326996: sub rsp, 0x20
+// asm:   0x18332699a: mov rbp, rdx
+// asm:   0x18332699d: mov rax, qword ptr [rbp + 0x70]
+// asm:   0x1833269a1: mov rcx, qword ptr [rax]
+// asm:   0x1833269a4: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x1833269a8: movabs rax, 0
+// asm:   0x1833269b2: add rsp, 0x20
+// asm:   0x1833269b6: pop rbp
+// asm:   0x1833269b7: ret 
 
 void MapEditor_RotationGizmo__ResetCenter(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
-  GameManagers_MapEditorGameManager_o *pGVar1;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  System_Collections_Generic_HashSet_MapObject__o *pSVar2;
-  long lVar3;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  bool_conflict bVar4;
-  UnityEngine_Transform_o *__this_05;
-  UnityEngine_Transform_o *pUVar5;
-  long *plVar6;
-  float fVar7;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dd;
-  undefined1 auVar8 [16];
-  UnityEngine_Quaternion_o value;
-  undefined1 auVar9 [12];
-  UnityEngine_Vector3_o UVar10;
-  undefined1 in_stack_ffffffffffffff78 [12];
-  float in_stack_ffffffffffffff84;
-  Il2CppRGCTXData *pIVar11;
-  undefined1 local_58 [8];
-  float fStack_50;
-  float fStack_4c;
-  System_Collections_Generic_HashSet_Enumerator_T__o local_40;
+  UnityEngine_Quaternion_StaticFields *pUVar1;
+  GameManagers_MapEditorGameManager_o *pGVar2;
+  System_Collections_Generic_HashSet_Vector2Int__o *__this_00;
+  System_Collections_Generic_HashSet_MapObject__o *pSVar3;
+  float fVar4;
+  Il2CppObject *pIVar5;
+  bool bVar6;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_Quaternion_o *pUVar7;
+  UnityEngine_Transform_o *pUVar8;
+  UnityEngine_Vector3_o *pUVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  UnityEngine_Vector3_Fields local_d8;
+  undefined1 local_c8 [16];
+  System_Collections_Generic_HashSet_Enumerator_T__o local_b8;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_a0;
+  UnityEngine_Quaternion_Fields local_78;
+  UnityEngine_Vector3_o local_68 [6];
   
-  if (g_data_057ae73e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057ae73e = '\x01';
+  if (Il2CppMethodInitialized_184347046 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_MapObject_get_Count);
+    Il2CppMethodInitialized_184347046 = '\x01';
   }
-  pIVar11 = (Il2CppRGCTXData *)0x0;
-  pUVar5 = (__this->fields)._transform;
-  if (g_data_057a6843 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-    g_data_057a6843 = '\x01';
+  local_b8.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_b8.fields._index = 0;
+  local_b8.fields._version = 0;
+  local_b8.fields._current = (Il2CppObject *)0x0;
+  local_d8.x = 0.0;
+  local_d8.y = 0.0;
+  local_d8.z = 0.0;
+  pUVar8 = (__this->fields)._transform;
+  if (Il2CppMethodInitialized_18433de5b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+    Il2CppMethodInitialized_18433de5b = '\x01';
   }
-  if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
-    UnityEngine_Transform__set_rotation
-              (pUVar5,(UnityEngine_Quaternion_o)**(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8),
-               (MethodInfo *)0x0);
-    pGVar1 = (__this->fields)._gameManager;
-    if ((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-       (__this_00 = (System_Collections_Generic_HashSet_object__o *)(pGVar1->fields).SelectedObjects,
-       __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-      System_Collections_Generic_HashSet_object___GetEnumerator(&local_40,__this_00,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-      in_stack_ffffffffffffff84 = 0.0;
-      _local_58 = ZEXT816(0);
-      pIVar11 = (Il2CppRGCTXData *)local_40.fields._set;
+  if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+    pUVar1 = TypeInfo_UnityEngine_Quaternion->static_fields;
+    local_c8._0_4_ = (pUVar1->identityQuaternion).fields.x;
+    local_c8._4_4_ = (pUVar1->identityQuaternion).fields.y;
+    local_c8._8_8_ = *(undefined8 *)&(pUVar1->identityQuaternion).fields.z;
+    UnityEngine_Transform__set_rotation(pUVar8,(UnityEngine_Quaternion_o *)local_c8,(MethodInfo *)0x0);
+    pGVar2 = (__this->fields)._gameManager;
+    if ((pGVar2 != (GameManagers_MapEditorGameManager_o *)0x0) &&
+       (__this_00 = (System_Collections_Generic_HashSet_Vector2Int__o *)(pGVar2->fields).SelectedObjects,
+       __this_00 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0)) {
+      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+                (&local_a0,__this_00,
+                 (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_MapObject_GetEnumerator);
+      local_b8.fields._set = local_a0.fields._set;
+      local_b8.fields._index = local_a0.fields._index;
+      local_b8.fields._version = local_a0.fields._version;
+      local_b8.fields._current = local_a0.fields._current;
+      local_c8._0_4_ = 0.0;
+      local_c8._4_4_ = 0.0;
+      fVar11 = local_d8.x;
+      fVar12 = local_d8.y;
+      local_c8._8_8_ = &local_b8;
       while( true ) {
-        __this_01.fields._version = (int32_t)in_stack_ffffffffffffff84;
-        __this_01.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff78._0_8_;
-        __this_01.fields._index = in_stack_ffffffffffffff78._8_4_;
-        __this_01.fields._current = (Il2CppObject *)pIVar11;
-        bVar4 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                          (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffff88);
-        if ((char)bVar4 == '\0') {
-          __this_02.fields._version = (int32_t)in_stack_ffffffffffffff84;
-          __this_02.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff78._0_8_;
-          __this_02.fields._index = in_stack_ffffffffffffff78._8_4_;
-          __this_02.fields._current = (Il2CppObject *)pIVar11;
-          System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                    (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffff88);
-          goto label_044583e6;
+        fVar4 = local_d8.z;
+        bVar6 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                          (&local_b8,
+                           (MethodInfo_15381F0 *)
+                           MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_MoveNext);
+        pIVar5 = local_b8.fields._current;
+        if (!bVar6) break;
+        pGVar2 = (__this->fields)._gameManager;
+        if (pGVar2 == (GameManagers_MapEditorGameManager_o *)0x0) {
+          ThrowNullReferenceException();
         }
-        pGVar1 = (__this->fields)._gameManager;
-        if (pGVar1 == (GameManagers_MapEditorGameManager_o *)0x0) break;
-        if ((pGVar1->fields).CurrentGizmoMode == 1) {
-          pSVar2 = (pGVar1->fields).SelectedObjects;
-          if (pSVar2 == (System_Collections_Generic_HashSet_MapObject__o *)0x0) goto label_0445844b;
-          if ((pSVar2->fields)._count != 1) goto label_04458380;
-          if (local_40.fields._current == (Il2CppObject *)0x0) goto label_04458450;
-          if (local_40.fields._current[1].monitor == (UnityEngine_GameObject_o *)0x0) goto label_04458455;
-          pUVar5 = (__this->fields)._transform;
-          __this_05 = UnityEngine_GameObject__get_transform
-                                (local_40.fields._current[1].monitor,(MethodInfo *)0x0);
-          if (__this_05 == (UnityEngine_Transform_o *)0x0) goto label_0445845a;
-          value = UnityEngine_Transform__get_rotation(__this_05,(MethodInfo *)0x0);
-          if (pUVar5 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__set_rotation(pUVar5,value,(MethodInfo *)0x0);
-            goto label_04458389;
+        if ((pGVar2->fields).CurrentGizmoMode == 1) {
+          pSVar3 = (pGVar2->fields).SelectedObjects;
+          if (pSVar3 == (System_Collections_Generic_HashSet_MapObject__o *)0x0) {
+            ThrowNullReferenceException();
           }
-          goto label_0445845f;
+          if ((pSVar3->fields)._count != 1) goto label_1821fb577;
+          if (local_b8.fields._current == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (local_b8.fields._current[1].monitor == (UnityEngine_GameObject_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pUVar8 = (__this->fields)._transform;
+          __this_01 = UnityEngine_GameObject__get_transform
+                                (local_b8.fields._current[1].monitor,(MethodInfo *)0x0);
+          if (__this_01 == (UnityEngine_Transform_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pUVar7 = UnityEngine_Transform__get_rotation
+                             ((UnityEngine_Quaternion_o *)&local_a0,__this_01,(MethodInfo *)0x0);
+          if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          local_78.x = (pUVar7->fields).x;
+          local_78.y = (pUVar7->fields).y;
+          local_78.z = (pUVar7->fields).z;
+          local_78.w = (pUVar7->fields).w;
+          UnityEngine_Transform__set_rotation(pUVar8,(UnityEngine_Quaternion_o *)&local_78,(MethodInfo *)0x0);
         }
-label_04458380:
-        if (local_40.fields._current == (Il2CppObject *)0x0) goto label_04458446;
-label_04458389:
-        if (local_40.fields._current[1].monitor == (UnityEngine_GameObject_o *)0x0) {
-          il2cpp_runtime_helper_022b2c90();
-          break;
+        else {
+label_1821fb577:
+          if (local_b8.fields._current == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
         }
-        pUVar5 = UnityEngine_GameObject__get_transform(local_40.fields._current[1].monitor,(MethodInfo *)0x0);
-        if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_04458441;
-        UVar10 = UnityEngine_Transform__get_position(pUVar5,(MethodInfo *)0x0);
-        local_58._0_4_ = (float)local_58._0_4_ + UVar10.fields.x;
-        local_58._4_4_ = (float)local_58._4_4_ + UVar10.fields.y;
-        fStack_50 = fStack_50 + extraout_XMM0_Dc;
-        fStack_4c = fStack_4c + extraout_XMM0_Dd;
-        in_stack_ffffffffffffff84 = in_stack_ffffffffffffff84 + UVar10.fields.z;
+        if (pIVar5[1].monitor == (UnityEngine_GameObject_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pUVar8 = UnityEngine_GameObject__get_transform(pIVar5[1].monitor,(MethodInfo *)0x0);
+        if (pUVar8 == (UnityEngine_Transform_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pUVar9 = UnityEngine_Transform__get_position(local_68,pUVar8,(MethodInfo *)0x0);
+        fVar11 = fVar11 + (pUVar9->fields).x;
+        fVar12 = fVar12 + (pUVar9->fields).y;
+        local_d8.y = fVar12;
+        local_d8.x = fVar11;
+        local_d8.z = fVar4 + (pUVar9->fields).z;
       }
-      il2cpp_runtime_helper_022b2c90();
-label_04458441:
-      il2cpp_runtime_helper_022b2c90();
-label_04458446:
-      il2cpp_runtime_helper_022b2c90();
-label_0445844b:
-      il2cpp_runtime_helper_022b2c90();
-label_04458450:
-      il2cpp_runtime_helper_022b2c90();
-label_04458455:
-      il2cpp_runtime_helper_022b2c90();
-label_0445845a:
-      il2cpp_runtime_helper_022b2c90();
-label_0445845f:
-      il2cpp_runtime_helper_022b2c90();
+      System_Collections_Generic_HashSet_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_b8,
+                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_MapObject_Dispose);
+      pGVar2 = (__this->fields)._gameManager;
+      if ((pGVar2 != (GameManagers_MapEditorGameManager_o *)0x0) &&
+         (pSVar3 = (pGVar2->fields).SelectedObjects,
+         pSVar3 != (System_Collections_Generic_HashSet_MapObject__o *)0x0)) {
+        fVar10 = (float)(pSVar3->fields)._count;
+        pUVar8 = (__this->fields)._transform;
+        if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+          local_d8.y = fVar12 / fVar10;
+          local_d8.x = fVar11 / fVar10;
+          local_d8.z = fVar4 / fVar10;
+          UnityEngine_Transform__set_position(pUVar8,(UnityEngine_Vector3_o *)&local_d8,(MethodInfo *)0x0);
+          return;
+        }
+      }
     }
   }
-  do {
-    auVar9 = il2cpp_runtime_helper_022b2c90();
-    if (auVar9._8_4_ != 1) {
-label_04458553:
-      __this_04.fields._version = (int32_t)in_stack_ffffffffffffff84;
-      __this_04.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff78._0_8_;
-      __this_04.fields._index = in_stack_ffffffffffffff78._8_4_;
-      __this_04.fields._current = (Il2CppObject *)pIVar11;
-      System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffff88);
-      _Unwind_Resume(auVar9._0_8_);
-    }
-    plVar6 = (long *)__cxa_begin_catch(auVar9._0_8_);
-    lVar3 = *plVar6;
-    __cxa_end_catch();
-    __this_03.fields._version = (int32_t)in_stack_ffffffffffffff84;
-    __this_03.fields._set = (System_Collections_Generic_HashSet_T__o *)in_stack_ffffffffffffff78._0_8_;
-    __this_03.fields._index = in_stack_ffffffffffffff78._8_4_;
-    __this_03.fields._current = (Il2CppObject *)pIVar11;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffff88);
-    if (lVar3 != 0) {
-      il2cpp_runtime_helper_022fefe0(lVar3);
-      goto label_04458553;
-    }
-label_044583e6:
-    pGVar1 = (__this->fields)._gameManager;
-    if (((pGVar1 != (GameManagers_MapEditorGameManager_o *)0x0) &&
-        (pSVar2 = (pGVar1->fields).SelectedObjects,
-        pSVar2 != (System_Collections_Generic_HashSet_MapObject__o *)0x0)) &&
-       (pUVar5 = (__this->fields)._transform, pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-      fVar7 = (float)(pSVar2->fields)._count;
-      UVar10.fields.z = in_stack_ffffffffffffff84 / fVar7;
-      auVar8._4_4_ = fVar7;
-      auVar8._0_4_ = fVar7;
-      auVar8._8_8_ = 0;
-      auVar8 = divps(_local_58,auVar8);
-      UVar10.fields.x = (float)(int)auVar8._0_8_;
-      UVar10.fields.y = (float)(int)((ulong)auVar8._0_8_ >> 0x20);
-      UnityEngine_Transform__set_position(pUVar5,UVar10,(MethodInfo *)0x0);
-      return;
-    }
-  } while( true );
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$ResetColors
 // il2cpp: void MapEditor_RotationGizmo__ResetColors (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x4458060
+// 0x1821fb6d0
 
 void MapEditor_RotationGizmo__ResetColors(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MapEditor_RotationGizmo_o *__this_00;
+  UnityEngine_Color_Fields local_18;
   
-  __this_00 = __this;
+  local_18.r = (__this->fields).CircleXColor.fields.r;
+  local_18.g = (__this->fields).CircleXColor.fields.g;
+  local_18.b = (__this->fields).CircleXColor.fields.b;
+  local_18.a = (__this->fields).CircleXColor.fields.a;
   MapEditor_RotationGizmo__SetCircleColor
-            (__this,(__this->fields)._circleX,(UnityEngine_Color_o)(__this->fields).CircleXColor.fields,in_RDX
-            );
+            (__this,(__this->fields)._circleX,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+  local_18.r = (__this->fields).CircleYColor.fields.r;
+  local_18.g = (__this->fields).CircleYColor.fields.g;
+  local_18.b = (__this->fields).CircleYColor.fields.b;
+  local_18.a = (__this->fields).CircleYColor.fields.a;
   MapEditor_RotationGizmo__SetCircleColor
-            (__this_00,(__this->fields)._circleY,(UnityEngine_Color_o)(__this->fields).CircleYColor.fields,
-             method_00);
+            (__this,(__this->fields)._circleY,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+  local_18.r = (__this->fields).CircleZColor.fields.r;
+  local_18.g = (__this->fields).CircleZColor.fields.g;
+  local_18.b = (__this->fields).CircleZColor.fields.b;
+  local_18.a = (__this->fields).CircleZColor.fields.a;
   MapEditor_RotationGizmo__SetCircleColor
-            (__this_00,(__this->fields)._circleZ,(UnityEngine_Color_o)(__this->fields).CircleZColor.fields,
-             method_01);
+            (__this,(__this->fields)._circleZ,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
   return;
 }
 
 
 // MapEditor.RotationGizmo$$SetCircleColor
 // il2cpp: void MapEditor_RotationGizmo__SetCircleColor (MapEditor_RotationGizmo_o* __this, UnityEngine_Transform_o* line, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x44591d0
+// 0x1821fba40
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821fba9e: nop 
 
 void MapEditor_RotationGizmo__SetCircleColor
-               (MapEditor_RotationGizmo_o *__this,UnityEngine_Transform_o *line,UnityEngine_Color_o color,
+               (MapEditor_RotationGizmo_o *__this,UnityEngine_Transform_o *line,UnityEngine_Color_o *color,
                MethodInfo *method)
 
 {
-  UnityEngine_Transform_o *pUVar1;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  undefined8 uVar2;
+  UnityEngine_Renderer_o *__this_00;
+  System_Object_array *pSVar1;
+  UnityEngine_Material_o *pUVar2;
   uint uVar3;
-  bool_conflict bVar4;
-  System_Object_array *pSVar5;
-  UnityEngine_Material_o *__this_05;
-  MapEditor_RotationGizmo_o *__this_06;
-  UnityEngine_Transform_o *pUVar6;
-  long *plVar7;
-  long lVar8;
-  uint uVar9;
-  float fVar10;
-  float fVar11;
-  undefined4 in_XMM2_Da;
-  undefined4 in_XMM2_Db;
-  float in_XMM3_Da;
-  float in_XMM4_Da;
-  undefined1 auVar12 [12];
-  UnityEngine_Vector3_o point;
-  UnityEngine_Vector3_o axis;
-  undefined4 in_stack_ffffffffffffff28;
-  _union_332950 _Var13;
-  _union_332950 a_Stack_88 [2];
-  long lStack_78;
-  MapEditor_RotationGizmo_o *pMStack_70;
-  UnityEngine_Transform_o *pUStack_68;
-  undefined8 uStack_60;
-  MapEditor_RotationGizmo_o *pMStack_58;
+  UnityEngine_Color_Fields local_18;
   
-  fVar10 = color.fields.b;
-  fVar11 = fVar10;
-  if (g_data_057ae73f == '\0') {
-    __this = (MapEditor_RotationGizmo_o *)&MethodInfo_Renderer_GetComponentsInChildren_Renderer;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae73f = '\x01';
+  if (Il2CppMethodInitialized_184347047 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponentsInChildren_Renderer);
+    Il2CppMethodInitialized_184347047 = '\x01';
   }
-  if ((line != (UnityEngine_Transform_o *)0x0) &&
-     (__this_06 = (MapEditor_RotationGizmo_o *)line,
-     pSVar5 = UnityEngine_Component__GetComponentsInChildren_object__24e8500
-                        ((UnityEngine_Component_o *)line,MethodInfo_Renderer_GetComponentsInChildren_Renderer), __this = __this_06,
-     pSVar5 != (System_Object_array *)0x0)) {
-    uVar3 = (uint)pSVar5->max_length;
-    if (0 < (int)uVar3) {
-      uVar9 = 0;
-      do {
-        __this = __this_06;
-        if (uVar3 <= uVar9) goto label_0445929e;
-        line = (UnityEngine_Transform_o *)pSVar5->m_Items[(int)uVar9];
-        if (((MapEditor_RotationGizmo_o *)line == (MapEditor_RotationGizmo_o *)0x0) ||
-           (__this = (MapEditor_RotationGizmo_o *)line,
-           __this_05 = UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)line,(MethodInfo *)0x0),
-           __this_05 == (UnityEngine_Material_o *)0x0)) goto label_04459299;
-        fVar11 = fVar10;
-        UnityEngine_Material__set_color(__this_05,color,(MethodInfo *)0x0);
-        __this = (MapEditor_RotationGizmo_o *)line;
-        __this_06 = (MapEditor_RotationGizmo_o *)
-                    UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)line,(MethodInfo *)0x0);
-        if (__this_06 == (MapEditor_RotationGizmo_o *)0x0) goto label_04459299;
-        UnityEngine_Material__set_renderQueue((UnityEngine_Material_o *)__this_06,0xc27,(MethodInfo *)0x0);
-        uVar9 = uVar9 + 1;
-        uVar3 = (uint)pSVar5->max_length;
-      } while ((int)uVar9 < (int)uVar3);
-    }
-    return;
-  }
-label_04459299:
-  il2cpp_runtime_helper_022b2c90();
-label_0445929e:
-  uStack_60 = il2cpp_runtime_helper_022b2ca0();
-  pMStack_58 = (MapEditor_RotationGizmo_o *)line;
-  if (g_data_057ae73c == '\0') {
-    pUStack_68 = (UnityEngine_Transform_o *)0x44592d0;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae73c = '\x01';
-  }
-  pUVar6 = (__this->fields)._circleX;
-  pUVar1 = (__this->fields)._activeCircle;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    pUStack_68 = (UnityEngine_Transform_o *)0x44592fb;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pUStack_68 = (UnityEngine_Transform_o *)0x4459308;
-  bVar4 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)pUVar6,(MethodInfo *)0x0);
-  if ((char)bVar4 == '\0') {
-    pUVar6 = (__this->fields)._circleY;
-    pUVar1 = (__this->fields)._activeCircle;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      pUStack_68 = (UnityEngine_Transform_o *)0x4459344;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pUStack_68 = (UnityEngine_Transform_o *)0x4459351;
-    bVar4 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)pUVar6,(MethodInfo *)0x0);
-    pUVar1 = (__this->fields)._transform;
-    if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
-      if ((char)bVar4 == '\0') {
-        UnityEngine_Transform__get_forward(pUVar1,(MethodInfo *)0x0);
-        return;
+  if (line != (UnityEngine_Transform_o *)0x0) {
+    pSVar1 = UnityEngine_Component__GetComponentsInChildren_object__665370
+                       ((UnityEngine_Component_o *)line,
+                        (MethodInfo_665370 *)MethodInfo_UnityEngine_Component_GetComponentsInChildren_Renderer
+                       );
+    if (pSVar1 != (System_Object_array *)0x0) {
+      uVar3 = 0;
+      while( true ) {
+        if ((int)pSVar1->max_length <= (int)uVar3) {
+          return;
+        }
+        if ((uint)pSVar1->max_length <= uVar3) {
+          ThrowIndexOutOfRangeException();
+        }
+        __this_00 = (UnityEngine_Renderer_o *)pSVar1->m_Items[(int)uVar3];
+        if (__this_00 == (UnityEngine_Renderer_o *)0x0) break;
+        pUVar2 = UnityEngine_Renderer__get_material(__this_00,(MethodInfo *)0x0);
+        if (pUVar2 == (UnityEngine_Material_o *)0x0) break;
+        local_18.r = (color->fields).r;
+        local_18.g = (color->fields).g;
+        local_18.b = (color->fields).b;
+        local_18.a = (color->fields).a;
+        UnityEngine_Material__set_color(pUVar2,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
+        pUVar2 = UnityEngine_Renderer__get_material(__this_00,(MethodInfo *)0x0);
+        if (pUVar2 == (UnityEngine_Material_o *)0x0) break;
+        UnityEngine_Material__set_renderQueue(pUVar2,0x1267,(MethodInfo *)0x0);
+        uVar3 = uVar3 + 1;
       }
-      UnityEngine_Transform__get_up(pUVar1,(MethodInfo *)0x0);
-      return;
     }
   }
-  else {
-    pUVar1 = (__this->fields)._transform;
-    if (pUVar1 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__get_right(pUVar1,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  lVar8 = 0;
-  pUStack_68 = (UnityEngine_Transform_o *)0x4459381;
-  uVar2 = il2cpp_runtime_helper_022b2c90();
-  pMStack_70 = __this;
-  pUStack_68 = pUVar6;
-  if (g_data_057ae73d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    g_data_057ae73d = '\x01';
-  }
-  _Var13.genericMethod = (Il2CppObject *)0x0;
-  if ((*(long *)(lVar8 + 0x20) != 0) &&
-     (__this_00 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(lVar8 + 0x20) + 0x38),
-     __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)a_Stack_88,__this_00,MethodInfo_HashSet_1_T_Enumerator_Map_MapObject_GetEnumerator);
-    _Var13 = a_Stack_88[0];
-    while( true ) {
-      __this_01.fields._set._4_4_ = fVar11;
-      __this_01.fields._set._0_4_ = in_stack_ffffffffffffff28;
-      __this_01.fields._index = (int32_t)in_XMM3_Da;
-      __this_01.fields._version = (int32_t)in_XMM4_Da;
-      __this_01.fields._current = _Var13.genericMethod;
-      bVar4 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffff38);
-      if ((char)bVar4 == '\0') {
-        __this_02.fields._set._4_4_ = fVar11;
-        __this_02.fields._set._0_4_ = in_stack_ffffffffffffff28;
-        __this_02.fields._index = (int32_t)in_XMM3_Da;
-        __this_02.fields._version = (int32_t)in_XMM4_Da;
-        __this_02.fields._current = _Var13.genericMethod;
-        System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffff38);
-        return;
-      }
-      if (lStack_78 == 0) break;
-      if (*(UnityEngine_GameObject_o **)(lStack_78 + 0x18) == (UnityEngine_GameObject_o *)0x0)
-      goto label_044594d7;
-      pUVar6 = UnityEngine_GameObject__get_transform
-                         (*(UnityEngine_GameObject_o **)(lStack_78 + 0x18),(MethodInfo *)0x0);
-      if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_044594dc;
-      axis.fields.y = (float)in_XMM2_Db;
-      axis.fields.x = (float)in_XMM2_Da;
-      point.fields.z = fVar11;
-      point.fields.x = (float)(int)uVar2;
-      point.fields.y = (float)(int)((ulong)uVar2 >> 0x20);
-      axis.fields.z = in_XMM3_Da;
-      UnityEngine_Transform__RotateAround(pUVar6,point,axis,in_XMM4_Da,(MethodInfo *)0x0);
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_044594d7:
-    il2cpp_runtime_helper_022b2c90();
-label_044594dc:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  auVar12 = il2cpp_runtime_helper_022b2c90();
-  if (auVar12._8_4_ == 1) {
-    plVar7 = (long *)__cxa_begin_catch(auVar12._0_8_);
-    lVar8 = *plVar7;
-    __cxa_end_catch();
-    __this_03.fields._set._4_4_ = fVar11;
-    __this_03.fields._set._0_4_ = in_stack_ffffffffffffff28;
-    __this_03.fields._index = (int32_t)in_XMM3_Da;
-    __this_03.fields._version = (int32_t)in_XMM4_Da;
-    __this_03.fields._current = _Var13.genericMethod;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffff38);
-    if (lVar8 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar8);
-  }
-  __this_04.fields._set._4_4_ = fVar11;
-  __this_04.fields._set._0_4_ = in_stack_ffffffffffffff28;
-  __this_04.fields._index = (int32_t)in_XMM3_Da;
-  __this_04.fields._version = (int32_t)in_XMM4_Da;
-  __this_04.fields._current = _Var13.genericMethod;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffff38);
-  _Unwind_Resume(auVar12._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.RotationGizmo$$.ctor
 // il2cpp: void MapEditor_RotationGizmo___ctor (MapEditor_RotationGizmo_o* __this, const MethodInfo* method);
-// 0x4459590
+// 0x1821fc3c0
 
 void MapEditor_RotationGizmo___ctor(MapEditor_RotationGizmo_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_Color_Fields UVar1;
-  undefined8 uVar2;
-  
-  uVar2 = g_data_00d19fc0;
-  UVar1.b = (float)(int)g_data_00d19fc0;
-  UVar1.r = (float)(int)uVar2;
-  UVar1.g = (float)(int)((ulong)uVar2 >> 0x20);
-  UVar1.a = g_data_00d19fc0._4_4_;
-  (__this->fields).SelectedColor.fields = UVar1;
+  (__this->fields).SelectedColor.fields.r = 1.0;
+  (__this->fields).CircleXColor.fields.b = 0.0;
+  (__this->fields).CircleZColor.fields.g = 0.0;
+  (__this->fields).SelectedColor.fields.g = 1.0;
+  (__this->fields).SelectedColor.fields.b = 1.0;
+  (__this->fields).SelectedColor.fields.a = 1.0;
   (__this->fields).CircleXColor.fields.r = 1.0;
   (__this->fields).CircleXColor.fields.g = 0.0;
-  (__this->fields).CircleXColor.fields.b = 0.0;
   (__this->fields).CircleXColor.fields.a = 1.0;
   (__this->fields).CircleYColor.fields.r = 1.0;
   (__this->fields).CircleYColor.fields.g = 0.92156863;
   (__this->fields).CircleYColor.fields.b = 0.015686275;
-  (__this->fields).CircleYColor.fields.a = 1.0;
-  (__this->fields).CircleZColor.fields.r = 0.0;
-  (__this->fields).CircleZColor.fields.g = 0.0;
-  (__this->fields).CircleZColor.fields.b = (float)(int)uVar2;
-  (__this->fields).CircleZColor.fields.a = (float)(int)((ulong)uVar2 >> 0x20);
-  MapEditor_BaseGizmo___ctor((MapEditor_BaseGizmo_o *)__this,(MethodInfo *)0x0);
+  *(undefined8 *)&(__this->fields).CircleYColor.fields.a = 0x3f800000;
+  (__this->fields).CircleZColor.fields.b = 1.0;
+  (__this->fields).CircleZColor.fields.a = 1.0;
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

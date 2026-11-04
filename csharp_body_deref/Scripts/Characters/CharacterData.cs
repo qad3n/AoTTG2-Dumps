@@ -12,56 +12,56 @@ using SimpleJSONFixed;
 
 namespace Characters;
 
-[Token(Token = "0x20004E3")]
+[Token(Token = "0x200063C")]
 internal class CharacterData
 {
-	[Token(Token = "0x40015B2")]
+	[Token(Token = "0x4001C24")]
 	[FieldOffset(Offset = "0x0")]
 	public static JSONNode HumanWeaponInfo;
 
-	[Token(Token = "0x40015B3")]
+	[Token(Token = "0x4001C25")]
 	[FieldOffset(Offset = "0x8")]
 	public static Dictionary<string, JSONNode> TitanAIInfos;
 
-	[Token(Token = "0x40015B4")]
+	[Token(Token = "0x4001C26")]
 	[FieldOffset(Offset = "0x10")]
 	public static Dictionary<string, Dictionary<string, TitanAttackInfo>> TitanAttackInfos;
 
-	[Token(Token = "0x60033BD")]
-	[Address(RVA = "0x41A9370", Offset = "0x41A9370", VA = "0x41A9370")]
+	[Token(Token = "0x6003D9F")]
+	[Address(RVA = "0x2113F70", Offset = "0x2112570", VA = "0x182113F70")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60033BE")]
-	[Address(RVA = "0x41A9710", Offset = "0x41A9710", VA = "0x41A9710")]
+	[Token(Token = "0x6003DA0")]
+	[Address(RVA = "0x21142F0", Offset = "0x21128F0", VA = "0x1821142F0")]
 	private static Dictionary<string, TitanAttackInfo> LoadTitanAttackInfos(JSONNode info, string keyframeFile)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033BF")]
-	[Address(RVA = "0x41A9A70", Offset = "0x41A9A70", VA = "0x41A9A70")]
+	[Token(Token = "0x6003DA1")]
+	[Address(RVA = "0x21139C0", Offset = "0x2111FC0", VA = "0x1821139C0")]
 	public static JSONNode GetTitanAI(GameDifficulty difficulty, string titanType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C0")]
-	[Address(RVA = "0x41AA180", Offset = "0x41AA180", VA = "0x41AA180")]
+	[Token(Token = "0x6003DA2")]
+	[Address(RVA = "0x21136C0", Offset = "0x2111CC0", VA = "0x1821136C0")]
 	public static JSONNode GetShifterAI(GameDifficulty difficulty, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C1")]
-	[Address(RVA = "0x41A9F00", Offset = "0x41A9F00", VA = "0x41A9F00")]
+	[Token(Token = "0x6003DA3")]
+	[Address(RVA = "0x21134D0", Offset = "0x2111AD0", VA = "0x1821134D0")]
 	private static void CopyNode(JSONNode current, JSONNode copy)
 	{
 	}
 
-	[Token(Token = "0x60033C2")]
-	[Address(RVA = "0x41AA480", Offset = "0x41AA480", VA = "0x41AA480")]
+	[Token(Token = "0x6003DA4")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CharacterData()
 	{
 	}

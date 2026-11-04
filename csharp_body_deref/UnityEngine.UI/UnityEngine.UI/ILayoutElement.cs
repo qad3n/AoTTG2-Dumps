@@ -9,61 +9,61 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000048")]
+[Token(Token = "0x2000046")]
 public interface ILayoutElement
 {
-	[Token(Token = "0x170000B6")]
+	[Token(Token = "0x170000B7")]
 	float minWidth
 	{
-		[Token(Token = "0x60002B1")]
-		get;
-	}
-
-	[Token(Token = "0x170000B7")]
-	float preferredWidth
-	{
-		[Token(Token = "0x60002B2")]
+		[Token(Token = "0x60002BA")]
 		get;
 	}
 
 	[Token(Token = "0x170000B8")]
-	float flexibleWidth
+	float preferredWidth
 	{
-		[Token(Token = "0x60002B3")]
+		[Token(Token = "0x60002BB")]
 		get;
 	}
 
 	[Token(Token = "0x170000B9")]
-	float minHeight
+	float flexibleWidth
 	{
-		[Token(Token = "0x60002B4")]
+		[Token(Token = "0x60002BC")]
 		get;
 	}
 
 	[Token(Token = "0x170000BA")]
-	float preferredHeight
+	float minHeight
 	{
-		[Token(Token = "0x60002B5")]
+		[Token(Token = "0x60002BD")]
 		get;
 	}
 
 	[Token(Token = "0x170000BB")]
-	float flexibleHeight
+	float preferredHeight
 	{
-		[Token(Token = "0x60002B6")]
+		[Token(Token = "0x60002BE")]
 		get;
 	}
 
 	[Token(Token = "0x170000BC")]
-	int layoutPriority
+	float flexibleHeight
 	{
-		[Token(Token = "0x60002B7")]
+		[Token(Token = "0x60002BF")]
 		get;
 	}
 
-	[Token(Token = "0x60002AF")]
+	[Token(Token = "0x170000BD")]
+	int layoutPriority
+	{
+		[Token(Token = "0x60002C0")]
+		get;
+	}
+
+	[Token(Token = "0x60002B8")]
 	void CalculateLayoutInputHorizontal();
 
-	[Token(Token = "0x60002B0")]
+	[Token(Token = "0x60002B9")]
 	void CalculateLayoutInputVertical();
 }

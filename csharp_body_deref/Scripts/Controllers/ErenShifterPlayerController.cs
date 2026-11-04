@@ -11,31 +11,31 @@ using Settings;
 
 namespace Controllers;
 
-[Token(Token = "0x20004C9")]
+[Token(Token = "0x200061E")]
 internal class ErenShifterPlayerController : BasePlayerController
 {
-	[Token(Token = "0x4001512")]
+	[Token(Token = "0x4001B64")]
 	[FieldOffset(Offset = "0x58")]
 	protected ErenShifter _shifter;
 
-	[Token(Token = "0x4001513")]
+	[Token(Token = "0x4001B65")]
 	[FieldOffset(Offset = "0x60")]
 	protected ErenShifterInputSettings _shifterInput;
 
-	[Token(Token = "0x600326C")]
-	[Address(RVA = "0x4192D70", Offset = "0x4192D70", VA = "0x4192D70", Slot = "4")]
+	[Token(Token = "0x6003C07")]
+	[Address(RVA = "0x20FD670", Offset = "0x20FBC70", VA = "0x1820FD670", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x600326D")]
-	[Address(RVA = "0x4192EE0", Offset = "0x4192EE0", VA = "0x4192EE0", Slot = "7")]
+	[Token(Token = "0x6003C08")]
+	[Address(RVA = "0x20FD7E0", Offset = "0x20FBDE0", VA = "0x1820FD7E0", Slot = "7")]
 	protected override void UpdateActionInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x600326E")]
-	[Address(RVA = "0x41935B0", Offset = "0x41935B0", VA = "0x41935B0")]
+	[Token(Token = "0x6003C09")]
+	[Address(RVA = "0x20F04E0", Offset = "0x20EEAE0", VA = "0x1820F04E0")]
 	public ErenShifterPlayerController()
 	{
 	}

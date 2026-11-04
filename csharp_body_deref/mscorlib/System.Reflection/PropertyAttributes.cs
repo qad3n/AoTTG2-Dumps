@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F0")]
+[Token(Token = "0x2000520")]
 [Flags]
 public enum PropertyAttributes
 {
@@ -28,5 +28,5 @@ public enum PropertyAttributes
 	[Token(Token = "0x4001462")]
 	Reserved4 = 0x8000,
 	[Token(Token = "0x4001463")]
-	ReservedMask = 0xF400
+	ReservedMask = RTSpecialName | HasDefault | Reserved2 | Reserved3 | Reserved4
 }

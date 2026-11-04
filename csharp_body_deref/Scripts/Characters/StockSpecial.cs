@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200052D")]
+[Token(Token = "0x2000687")]
 internal class StockSpecial : BaseHoldAttackSpecial
 {
-	[Token(Token = "0x600360D")]
-	[Address(RVA = "0x41F8F70", Offset = "0x41F8F70", VA = "0x41F8F70")]
+	[Token(Token = "0x600404B")]
+	[Address(RVA = "0x2177570", Offset = "0x2175B70", VA = "0x182177570")]
 	public StockSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x600360E")]
-	[Address(RVA = "0x41F8F80", Offset = "0x41F8F80", VA = "0x41F8F80", Slot = "6")]
+	[Token(Token = "0x600404C")]
+	[Address(RVA = "0x21774F0", Offset = "0x2175AF0", VA = "0x1821774F0", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600360F")]
-	[Address(RVA = "0x41F8FC0", Offset = "0x41F8FC0", VA = "0x41F8FC0")]
+	[Token(Token = "0x600404D")]
+	[Address(RVA = "0x2177550", Offset = "0x2175B50", VA = "0x182177550")]
 	public void FalseAttack()
 	{
 	}
 
-	[Token(Token = "0x6003610")]
-	[Address(RVA = "0x41F8FE0", Offset = "0x41F8FE0", VA = "0x41F8FE0", Slot = "9")]
+	[Token(Token = "0x600404E")]
+	[Address(RVA = "0x21773E0", Offset = "0x21759E0", VA = "0x1821773E0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6003611")]
-	[Address(RVA = "0x41F9050", Offset = "0x41F9050", VA = "0x41F9050", Slot = "16")]
+	[Token(Token = "0x600404F")]
+	[Address(RVA = "0x2177460", Offset = "0x2175A60", VA = "0x182177460", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6003612")]
-	[Address(RVA = "0x41F90D0", Offset = "0x41F90D0", VA = "0x41F90D0", Slot = "10")]
+	[Token(Token = "0x6004050")]
+	[Address(RVA = "0x2177530", Offset = "0x2175B30", VA = "0x182177530", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

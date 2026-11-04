@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro.SpriteAssetUtilities;
 
-[Token(Token = "0x20000A7")]
+[Token(Token = "0x20000B9")]
 public enum SpriteAssetImportFormats
 {
-	[Token(Token = "0x400060E")]
+	[Token(Token = "0x400069A")]
 	None,
-	[Token(Token = "0x400060F")]
+	[Token(Token = "0x400069B")]
 	TexturePackerJsonArray
 }

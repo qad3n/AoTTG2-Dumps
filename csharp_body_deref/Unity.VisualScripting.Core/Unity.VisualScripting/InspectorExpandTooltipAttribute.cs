@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000044")]
+[Token(Token = "0x2000045")]
 [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorExpandTooltipAttribute : Attribute
 {
-	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x4CA3B10", Offset = "0x4CA3B10", VA = "0x4CA3B10")]
+	[Token(Token = "0x60001F1")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public InspectorExpandTooltipAttribute()
 	{
 	}

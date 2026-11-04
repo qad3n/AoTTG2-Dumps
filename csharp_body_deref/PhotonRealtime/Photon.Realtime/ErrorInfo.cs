@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000022")]
+[Token(Token = "0x2000020")]
 public class ErrorInfo
 {
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000C9")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly string Info;
 
-	[Token(Token = "0x60000FB")]
-	[Address(RVA = "0x3ECAC00", Offset = "0x3ECAC00", VA = "0x3ECAC00")]
+	[Token(Token = "0x60000F9")]
+	[Address(RVA = "0x1D14630", Offset = "0x1D12C30", VA = "0x181D14630")]
 	public ErrorInfo(EventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3ECB8D0", Offset = "0x3ECB8D0", VA = "0x3ECB8D0", Slot = "3")]
+	[Token(Token = "0x60000FA")]
+	[Address(RVA = "0x1D145F0", Offset = "0x1D12BF0", VA = "0x181D145F0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

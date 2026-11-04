@@ -12,69 +12,69 @@ using UnityEngine.Events;
 
 namespace TMPro;
 
-[Token(Token = "0x2000071")]
+[Token(Token = "0x2000065")]
 internal class TMP_ObjectPool<T> where T : new()
 {
-	[Token(Token = "0x4000301")]
+	[Token(Token = "0x400024C")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Stack<T> m_Stack;
 
-	[Token(Token = "0x4000302")]
+	[Token(Token = "0x400024D")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly UnityAction<T> m_ActionOnGet;
 
-	[Token(Token = "0x4000303")]
+	[Token(Token = "0x400024E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly UnityAction<T> m_ActionOnRelease;
 
-	[Token(Token = "0x170000BA")]
+	[Token(Token = "0x170000B8")]
 	public int countAll
 	{
-		[Token(Token = "0x60003B9")]
+		[Token(Token = "0x6000346")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60003BA")]
+		[Token(Token = "0x6000347")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BB")]
+	[Token(Token = "0x170000B9")]
 	public int countActive
 	{
-		[Token(Token = "0x60003BB")]
+		[Token(Token = "0x6000348")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000BC")]
+	[Token(Token = "0x170000BA")]
 	public int countInactive
 	{
-		[Token(Token = "0x60003BC")]
+		[Token(Token = "0x6000349")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60003BD")]
+	[Token(Token = "0x600034A")]
 	public TMP_ObjectPool(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease)
 	{
 	}
 
-	[Token(Token = "0x60003BE")]
+	[Token(Token = "0x600034B")]
 	public T Get()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60003BF")]
+	[Token(Token = "0x600034C")]
 	public void Release(T element)
 	{
 	}

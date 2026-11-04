@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007CB")]
+[Token(Token = "0x2000958")]
 public sealed class AottgApiTransportResponse
 {
-	[Token(Token = "0x400256F")]
+	[Token(Token = "0x4002E41")]
 	[FieldOffset(Offset = "0x10")]
 	public AottgApiTransportResult Result;
 
-	[Token(Token = "0x4002570")]
+	[Token(Token = "0x4002E42")]
 	[FieldOffset(Offset = "0x18")]
 	public long StatusCode;
 
-	[Token(Token = "0x4002571")]
+	[Token(Token = "0x4002E43")]
 	[FieldOffset(Offset = "0x20")]
 	public string Text;
 
-	[Token(Token = "0x4002572")]
+	[Token(Token = "0x4002E44")]
 	[FieldOffset(Offset = "0x28")]
 	public string Error;
 
-	[Token(Token = "0x6004AA1")]
-	[Address(RVA = "0x43CEF00", Offset = "0x43CEF00", VA = "0x43CEF00")]
+	[Token(Token = "0x600571A")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public AottgApiTransportResponse()
 	{
 	}

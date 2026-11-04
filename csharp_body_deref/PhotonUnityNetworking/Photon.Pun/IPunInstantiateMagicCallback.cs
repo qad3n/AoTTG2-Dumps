@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000E")]
 public interface IPunInstantiateMagicCallback
 {
-	[Token(Token = "0x600000E")]
+	[Token(Token = "0x600000C")]
 	void OnPhotonInstantiate(PhotonMessageInfo info);
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000113")]
+[Token(Token = "0x200010C")]
 internal enum WhenEachState : byte
 {
-	[Token(Token = "0x4000421")]
+	[Token(Token = "0x4000412")]
 	NotRunning,
-	[Token(Token = "0x4000422")]
+	[Token(Token = "0x4000413")]
 	Running,
-	[Token(Token = "0x4000423")]
+	[Token(Token = "0x4000414")]
 	Completed
 }

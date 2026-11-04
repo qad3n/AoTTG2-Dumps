@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200005A")]
+[Token(Token = "0x2000058")]
 internal static class Misc
 {
-	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x50D8060", Offset = "0x50D8060", VA = "0x50D8060")]
+	[Token(Token = "0x600036C")]
+	[Address(RVA = "0x32DA270", Offset = "0x32D8870", VA = "0x1832DA270")]
 	public static void Destroy(Object obj)
 	{
 	}
 
-	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x50D8180", Offset = "0x50D8180", VA = "0x50D8180")]
+	[Token(Token = "0x600036D")]
+	[Address(RVA = "0x32DA1B0", Offset = "0x32D87B0", VA = "0x1832DA1B0")]
 	public static void DestroyImmediate(Object obj)
 	{
 	}

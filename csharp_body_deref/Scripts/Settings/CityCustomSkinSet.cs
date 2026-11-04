@@ -12,31 +12,31 @@ namespace Settings;
 [Token(Token = "0x2000067")]
 internal class CityCustomSkinSet : BaseSetSetting
 {
-	[Token(Token = "0x4000203")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x400020F")]
+	[FieldOffset(Offset = "0x48")]
 	public ListSetting<StringSetting> Houses;
 
-	[Token(Token = "0x4000204")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000210")]
+	[FieldOffset(Offset = "0x50")]
 	public StringSetting Ground;
 
-	[Token(Token = "0x4000205")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000211")]
+	[FieldOffset(Offset = "0x58")]
 	public StringSetting Wall;
 
-	[Token(Token = "0x4000206")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000212")]
+	[FieldOffset(Offset = "0x60")]
 	public StringSetting Gate;
 
-	[Token(Token = "0x6000309")]
-	[Address(RVA = "0x3F852F0", Offset = "0x3F852F0", VA = "0x3F852F0", Slot = "12")]
+	[Token(Token = "0x6000319")]
+	[Address(RVA = "0x1DBA180", Offset = "0x1DB8780", VA = "0x181DBA180", Slot = "13")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600030A")]
-	[Address(RVA = "0x3F85340", Offset = "0x3F85340", VA = "0x3F85340")]
+	[Token(Token = "0x600031A")]
+	[Address(RVA = "0x1DBA1E0", Offset = "0x1DB87E0", VA = "0x181DBA1E0")]
 	public CityCustomSkinSet()
 	{
 	}

@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine.TextCore.LowLevel;
 
 [Token(Token = "0x2000007")]
-[UnityEngine.Scripting.UsedByNativeCode]
 [Flags]
+[UnityEngine.Scripting.UsedByNativeCode]
 public enum GlyphLoadFlags
 {
 	[Token(Token = "0x400002D")]

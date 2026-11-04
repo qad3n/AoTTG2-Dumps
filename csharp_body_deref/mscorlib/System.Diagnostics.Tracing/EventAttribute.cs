@@ -10,56 +10,56 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005EC")]
+[Token(Token = "0x20005BE")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class EventAttribute : Attribute
 {
-	[Token(Token = "0x17000712")]
+	[Token(Token = "0x1700069F")]
 	private int EventId
 	{
-		[Token(Token = "0x6002E86")]
-		[Address(RVA = "0x3C7C450", Offset = "0x3C7C450", VA = "0x3C7C450")]
+		[Token(Token = "0x6002B93")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000713")]
+	[Token(Token = "0x170006A0")]
 	public EventLevel Level
 	{
-		[Token(Token = "0x6002E87")]
-		[Address(RVA = "0x3C7C460", Offset = "0x3C7C460", VA = "0x3C7C460")]
+		[Token(Token = "0x6002B94")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000714")]
+	[Token(Token = "0x170006A1")]
 	public EventKeywords Keywords
 	{
-		[Token(Token = "0x6002E88")]
-		[Address(RVA = "0x3C7C470", Offset = "0x3C7C470", VA = "0x3C7C470")]
+		[Token(Token = "0x6002B95")]
+		[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000715")]
+	[Token(Token = "0x170006A2")]
 	public string Message
 	{
-		[Token(Token = "0x6002E89")]
-		[Address(RVA = "0x3C7C480", Offset = "0x3C7C480", VA = "0x3C7C480")]
+		[Token(Token = "0x6002B96")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002E85")]
-	[Address(RVA = "0x3C7C430", Offset = "0x3C7C430", VA = "0x3C7C430")]
+	[Token(Token = "0x6002B92")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public EventAttribute(int eventId)
 	{
 	}

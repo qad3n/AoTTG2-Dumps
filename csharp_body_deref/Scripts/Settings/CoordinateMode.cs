@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x20000EE")]
 public enum CoordinateMode
 {
-	[Token(Token = "0x4000505")]
+	[Token(Token = "0x40005A5")]
 	Off,
-	[Token(Token = "0x4000506")]
+	[Token(Token = "0x40005A6")]
 	Minimap,
-	[Token(Token = "0x4000507")]
+	[Token(Token = "0x40005A7")]
 	BottomRight
 }

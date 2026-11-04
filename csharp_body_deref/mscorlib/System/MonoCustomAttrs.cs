@@ -12,190 +12,190 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000192")]
+[Token(Token = "0x20001BD")]
 internal static class MonoCustomAttrs
 {
-	[Token(Token = "0x2000193")]
+	[Token(Token = "0x20001BE")]
 	private class AttributeInfo
 	{
-		[Token(Token = "0x40006B3")]
+		[Token(Token = "0x4000717")]
 		[FieldOffset(Offset = "0x10")]
 		private AttributeUsageAttribute _usage;
 
-		[Token(Token = "0x40006B4")]
+		[Token(Token = "0x4000718")]
 		[FieldOffset(Offset = "0x18")]
 		private int _inheritanceLevel;
 
-		[Token(Token = "0x1700016F")]
+		[Token(Token = "0x17000171")]
 		public AttributeUsageAttribute Usage
 		{
-			[Token(Token = "0x6000FC8")]
-			[Address(RVA = "0x3D113C0", Offset = "0x3D113C0", VA = "0x3D113C0")]
+			[Token(Token = "0x600101F")]
+			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000170")]
+		[Token(Token = "0x17000172")]
 		public int InheritanceLevel
 		{
-			[Token(Token = "0x6000FC9")]
-			[Address(RVA = "0x3D113D0", Offset = "0x3D113D0", VA = "0x3D113D0")]
+			[Token(Token = "0x6001020")]
+			[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x6000FC7")]
-		[Address(RVA = "0x3D0E690", Offset = "0x3D0E690", VA = "0x3D0E690")]
+		[Token(Token = "0x600101E")]
+		[Address(RVA = "0x1B7BED0", Offset = "0x1B7A4D0", VA = "0x181B7BED0")]
 		public AttributeInfo(AttributeUsageAttribute usage, int inheritanceLevel)
 		{
 		}
 	}
 
-	[Token(Token = "0x40006B0")]
+	[Token(Token = "0x4000714")]
 	[FieldOffset(Offset = "0x0")]
 	private static Assembly corlib;
 
-	[Token(Token = "0x40006B1")]
+	[Token(Token = "0x4000715")]
 	[ThreadStatic]
 	private static Dictionary<Type, AttributeUsageAttribute> usage_cache;
 
-	[Token(Token = "0x40006B2")]
+	[Token(Token = "0x4000716")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly AttributeUsageAttribute DefaultAttributeUsage;
 
-	[Token(Token = "0x6000FB2")]
-	[Address(RVA = "0x3D0CC80", Offset = "0x3D0CC80", VA = "0x3D0CC80")]
+	[Token(Token = "0x6001009")]
+	[Address(RVA = "0x1B86170", Offset = "0x1B84770", VA = "0x181B86170")]
 	private static bool IsUserCattrProvider(object obj)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FB3")]
-	[Address(RVA = "0x3D0CE40", Offset = "0x3D0CE40", VA = "0x3D0CE40")]
+	[Token(Token = "0x600100A")]
+	[Address(RVA = "0x1B84810", Offset = "0x1B82E10", VA = "0x181B84810")]
 	internal static extern Attribute[] GetCustomAttributesInternal(ICustomAttributeProvider obj, Type attributeType, bool pseudoAttrs);
 
-	[Token(Token = "0x6000FB4")]
-	[Address(RVA = "0x3D0CE50", Offset = "0x3D0CE50", VA = "0x3D0CE50")]
+	[Token(Token = "0x600100B")]
+	[Address(RVA = "0x1B85BC0", Offset = "0x1B841C0", VA = "0x181B85BC0")]
 	internal static object[] GetPseudoCustomAttributes(ICustomAttributeProvider obj, Type attributeType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FB5")]
-	[Address(RVA = "0x3D0D1C0", Offset = "0x3D0D1C0", VA = "0x3D0D1C0")]
+	[Token(Token = "0x600100C")]
+	[Address(RVA = "0x1B85A20", Offset = "0x1B84020", VA = "0x181B85A20")]
 	private static object[] GetPseudoCustomAttributes(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FB6")]
-	[Address(RVA = "0x3D0D350", Offset = "0x3D0D350", VA = "0x3D0D350")]
+	[Token(Token = "0x600100D")]
+	[Address(RVA = "0x1B83640", Offset = "0x1B81C40", VA = "0x181B83640")]
 	internal static object[] GetCustomAttributesBase(ICustomAttributeProvider obj, Type attributeType, bool inheritedOnly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FB7")]
-	[Address(RVA = "0x3D0D540", Offset = "0x3D0D540", VA = "0x3D0D540")]
+	[Token(Token = "0x600100E")]
+	[Address(RVA = "0x1B84820", Offset = "0x1B82E20", VA = "0x181B84820")]
 	internal static object[] GetCustomAttributes(ICustomAttributeProvider obj, Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FB8")]
-	[Address(RVA = "0x3D0E6B0", Offset = "0x3D0E6B0", VA = "0x3D0E6B0")]
+	[Token(Token = "0x600100F")]
+	[Address(RVA = "0x1B85350", Offset = "0x1B83950", VA = "0x181B85350")]
 	internal static object[] GetCustomAttributes(ICustomAttributeProvider obj, bool inherit)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FB9")]
-	[Address(RVA = "0x3D0E820", Offset = "0x3D0E820", VA = "0x3D0E820")]
+	[Token(Token = "0x6001010")]
+	[Address(RVA = "0x1B83990", Offset = "0x1B81F90", VA = "0x181B83990")]
 	private static extern CustomAttributeData[] GetCustomAttributesDataInternal(ICustomAttributeProvider obj);
 
-	[Token(Token = "0x6000FBA")]
-	[Address(RVA = "0x3D0E830", Offset = "0x3D0E830", VA = "0x3D0E830")]
+	[Token(Token = "0x6001011")]
+	[Address(RVA = "0x1B846E0", Offset = "0x1B82CE0", VA = "0x181B846E0")]
 	internal static IList<CustomAttributeData> GetCustomAttributesData(ICustomAttributeProvider obj, bool inherit = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBB")]
-	[Address(RVA = "0x3D0EB80", Offset = "0x3D0EB80", VA = "0x3D0EB80")]
+	[Token(Token = "0x6001012")]
+	[Address(RVA = "0x1B839A0", Offset = "0x1B81FA0", VA = "0x181B839A0")]
 	internal static IList<CustomAttributeData> GetCustomAttributesData(ICustomAttributeProvider obj, Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBC")]
-	[Address(RVA = "0x3D0E940", Offset = "0x3D0E940", VA = "0x3D0E940")]
+	[Token(Token = "0x6001013")]
+	[Address(RVA = "0x1B83820", Offset = "0x1B81E20", VA = "0x181B83820")]
 	internal static IList<CustomAttributeData> GetCustomAttributesDataBase(ICustomAttributeProvider obj, Type attributeType, bool inheritedOnly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x3D10310", Offset = "0x3D10310", VA = "0x3D10310")]
+	[Token(Token = "0x6001014")]
+	[Address(RVA = "0x1B854D0", Offset = "0x1B83AD0", VA = "0x181B854D0")]
 	internal static CustomAttributeData[] GetPseudoCustomAttributesData(ICustomAttributeProvider obj, Type attributeType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBE")]
-	[Address(RVA = "0x3D10690", Offset = "0x3D10690", VA = "0x3D10690")]
+	[Token(Token = "0x6001015")]
+	[Address(RVA = "0x1B857B0", Offset = "0x1B83DB0", VA = "0x181B857B0")]
 	private static CustomAttributeData[] GetPseudoCustomAttributesData(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FBF")]
-	[Address(RVA = "0x3D108F0", Offset = "0x3D108F0", VA = "0x3D108F0")]
+	[Token(Token = "0x6001016")]
+	[Address(RVA = "0x1B85EA0", Offset = "0x1B844A0", VA = "0x181B85EA0")]
 	internal static bool IsDefined(ICustomAttributeProvider obj, Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FC0")]
-	[Address(RVA = "0x3D10BD0", Offset = "0x3D10BD0", VA = "0x3D10BD0")]
+	[Token(Token = "0x6001017")]
+	[Address(RVA = "0x1B85E90", Offset = "0x1B84490", VA = "0x181B85E90")]
 	internal static extern bool IsDefinedInternal(ICustomAttributeProvider obj, Type AttributeType);
 
-	[Token(Token = "0x6000FC1")]
-	[Address(RVA = "0x3D10BE0", Offset = "0x3D10BE0", VA = "0x3D10BE0")]
+	[Token(Token = "0x6001018")]
+	[Address(RVA = "0x1B82EA0", Offset = "0x1B814A0", VA = "0x181B82EA0")]
 	private static PropertyInfo GetBasePropertyDefinition(System.Reflection.RuntimePropertyInfo property)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FC2")]
-	[Address(RVA = "0x3D10F00", Offset = "0x3D10F00", VA = "0x3D10F00")]
+	[Token(Token = "0x6001019")]
+	[Address(RVA = "0x1B82C70", Offset = "0x1B81270", VA = "0x181B82C70")]
 	private static EventInfo GetBaseEventDefinition(System.Reflection.RuntimeEventInfo evt)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FC3")]
-	[Address(RVA = "0x3D0E150", Offset = "0x3D0E150", VA = "0x3D0E150")]
+	[Token(Token = "0x600101A")]
+	[Address(RVA = "0x1B831C0", Offset = "0x1B817C0", VA = "0x181B831C0")]
 	private static ICustomAttributeProvider GetBase(ICustomAttributeProvider obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FC4")]
-	[Address(RVA = "0x3D11110", Offset = "0x3D11110", VA = "0x3D11110")]
+	[Token(Token = "0x600101B")]
+	[Address(RVA = "0x1B86370", Offset = "0x1B84970", VA = "0x181B86370")]
 	private static AttributeUsageAttribute RetrieveAttributeUsageNoCache(Type attributeType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FC5")]
-	[Address(RVA = "0x3D0E4E0", Offset = "0x3D0E4E0", VA = "0x3D0E4E0")]
+	[Token(Token = "0x600101C")]
+	[Address(RVA = "0x1B865D0", Offset = "0x1B84BD0", VA = "0x181B865D0")]
 	private static AttributeUsageAttribute RetrieveAttributeUsage(Type attributeType)
 	{
 		return null;

@@ -42,13 +42,13 @@ public abstract class XmlSchemaObject
 	public int LineNumber
 	{
 		[Token(Token = "0x60016C1")]
-		[Address(RVA = "0x4725790", Offset = "0x4725790", VA = "0x4725790")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60016C2")]
-		[Address(RVA = "0x47257A0", Offset = "0x47257A0", VA = "0x47257A0")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		set
 		{
 		}
@@ -59,13 +59,13 @@ public abstract class XmlSchemaObject
 	public int LinePosition
 	{
 		[Token(Token = "0x60016C3")]
-		[Address(RVA = "0x47257B0", Offset = "0x47257B0", VA = "0x47257B0")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60016C4")]
-		[Address(RVA = "0x47257C0", Offset = "0x47257C0", VA = "0x47257C0")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		set
 		{
 		}
@@ -76,13 +76,13 @@ public abstract class XmlSchemaObject
 	public string SourceUri
 	{
 		[Token(Token = "0x60016C5")]
-		[Address(RVA = "0x47257D0", Offset = "0x47257D0", VA = "0x47257D0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016C6")]
-		[Address(RVA = "0x47257E0", Offset = "0x47257E0", VA = "0x47257E0")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
@@ -93,13 +93,13 @@ public abstract class XmlSchemaObject
 	public XmlSchemaObject Parent
 	{
 		[Token(Token = "0x60016C7")]
-		[Address(RVA = "0x47257F0", Offset = "0x47257F0", VA = "0x47257F0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016C8")]
-		[Address(RVA = "0x4725800", Offset = "0x4725800", VA = "0x4725800")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		set
 		{
 		}
@@ -110,13 +110,13 @@ public abstract class XmlSchemaObject
 	public XmlSerializerNamespaces Namespaces
 	{
 		[Token(Token = "0x60016C9")]
-		[Address(RVA = "0x471C850", Offset = "0x471C850", VA = "0x471C850")]
+		[Address(RVA = "0x266D310", Offset = "0x266B910", VA = "0x18266D310")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016CA")]
-		[Address(RVA = "0x4725810", Offset = "0x4725810", VA = "0x4725810")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
@@ -127,13 +127,13 @@ public abstract class XmlSchemaObject
 	internal virtual string IdAttribute
 	{
 		[Token(Token = "0x60016CE")]
-		[Address(RVA = "0x4725850", Offset = "0x4725850", VA = "0x4725850", Slot = "7")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016CF")]
-		[Address(RVA = "0x4725860", Offset = "0x4725860", VA = "0x4725860", Slot = "8")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 		set
 		{
 		}
@@ -144,13 +144,13 @@ public abstract class XmlSchemaObject
 	internal virtual string NameAttribute
 	{
 		[Token(Token = "0x60016D2")]
-		[Address(RVA = "0x4725890", Offset = "0x4725890", VA = "0x4725890", Slot = "11")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60016D3")]
-		[Address(RVA = "0x47258A0", Offset = "0x47258A0", VA = "0x47258A0", Slot = "12")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "12")]
 		set
 		{
 		}
@@ -161,57 +161,57 @@ public abstract class XmlSchemaObject
 	internal bool IsProcessing
 	{
 		[Token(Token = "0x60016D4")]
-		[Address(RVA = "0x47258B0", Offset = "0x47258B0", VA = "0x47258B0")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60016D5")]
-		[Address(RVA = "0x47258C0", Offset = "0x47258C0", VA = "0x47258C0")]
+		[Address(RVA = "0xACE1A0", Offset = "0xACC7A0", VA = "0x180ACE1A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60016CB")]
-	[Address(RVA = "0x4725820", Offset = "0x4725820", VA = "0x4725820", Slot = "4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	internal virtual void OnAdd(XmlSchemaObjectCollection container, object item)
 	{
 	}
 
 	[Token(Token = "0x60016CC")]
-	[Address(RVA = "0x4725830", Offset = "0x4725830", VA = "0x4725830", Slot = "5")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	internal virtual void OnRemove(XmlSchemaObjectCollection container, object item)
 	{
 	}
 
 	[Token(Token = "0x60016CD")]
-	[Address(RVA = "0x4725840", Offset = "0x4725840", VA = "0x4725840", Slot = "6")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	internal virtual void OnClear(XmlSchemaObjectCollection container)
 	{
 	}
 
 	[Token(Token = "0x60016D0")]
-	[Address(RVA = "0x4725870", Offset = "0x4725870", VA = "0x4725870", Slot = "9")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	internal virtual void SetUnhandledAttributes(XmlAttribute[] moreAttributes)
 	{
 	}
 
 	[Token(Token = "0x60016D1")]
-	[Address(RVA = "0x4725880", Offset = "0x4725880", VA = "0x4725880", Slot = "10")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	internal virtual void AddAnnotation(XmlSchemaAnnotation annotation)
 	{
 	}
 
 	[Token(Token = "0x60016D6")]
-	[Address(RVA = "0x47258D0", Offset = "0x47258D0", VA = "0x47258D0", Slot = "13")]
+	[Address(RVA = "0x266D290", Offset = "0x266B890", VA = "0x18266D290", Slot = "13")]
 	internal virtual XmlSchemaObject Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60016D7")]
-	[Address(RVA = "0x471BD70", Offset = "0x471BD70", VA = "0x471BD70")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSchemaObject()
 	{
 	}

@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Services;
 
-[Token(Token = "0x2000359")]
+[Token(Token = "0x2000388")]
 [ComVisible(true)]
 public interface ITrackingHandler
 {
-	[Token(Token = "0x6001CE7")]
+	[Token(Token = "0x6001D56")]
 	void DisconnectedObject(object obj);
 
-	[Token(Token = "0x6001CE8")]
+	[Token(Token = "0x6001D57")]
 	void MarshaledObject(object obj, ObjRef or);
 
-	[Token(Token = "0x6001CE9")]
+	[Token(Token = "0x6001D58")]
 	void UnmarshaledObject(object obj, ObjRef or);
 }

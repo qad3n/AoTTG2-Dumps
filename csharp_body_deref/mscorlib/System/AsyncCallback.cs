@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000093")]
+[Token(Token = "0x20000BC")]
 public delegate void AsyncCallback(IAsyncResult ar);

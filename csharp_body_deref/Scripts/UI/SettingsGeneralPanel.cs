@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006E8")]
+[Token(Token = "0x2000867")]
 internal class SettingsGeneralPanel : SettingsCategoryPanel
 {
-	[Token(Token = "0x17000D6E")]
+	[Token(Token = "0x17000ECE")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x60044CB")]
-		[Address(RVA = "0x4342AE0", Offset = "0x4342AE0", VA = "0x4342AE0", Slot = "15")]
+		[Token(Token = "0x6005104")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60044CC")]
-	[Address(RVA = "0x4342AF0", Offset = "0x4342AF0", VA = "0x4342AF0", Slot = "20")]
+	[Token(Token = "0x6005105")]
+	[Address(RVA = "0x22E1220", Offset = "0x22DF820", VA = "0x1822E1220", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044CD")]
-	[Address(RVA = "0x4343D20", Offset = "0x4343D20", VA = "0x4343D20")]
+	[Token(Token = "0x6005106")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public SettingsGeneralPanel()
 	{
 	}

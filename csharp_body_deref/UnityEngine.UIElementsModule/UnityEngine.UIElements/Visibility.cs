@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A3")]
+[Token(Token = "0x2000445")]
 public enum Visibility
 {
-	[Token(Token = "0x4000AE9")]
+	[Token(Token = "0x4000E37")]
 	Visible,
-	[Token(Token = "0x4000AEA")]
+	[Token(Token = "0x4000E38")]
 	Hidden
 }

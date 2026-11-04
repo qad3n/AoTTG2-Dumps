@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200019C")]
+[Token(Token = "0x200019F")]
 [DisallowMultipleComponent]
 public sealed class AsyncApplicationPauseTrigger : AsyncTriggerBase<bool>
 {
-	[Token(Token = "0x6000A86")]
-	[Address(RVA = "0x4A09EB0", Offset = "0x4A09EB0", VA = "0x4A09EB0")]
+	[Token(Token = "0x6000AAA")]
+	[Address(RVA = "0x2928B20", Offset = "0x2927120", VA = "0x182928B20")]
 	private void OnApplicationPause(bool pauseStatus)
 	{
 	}
 
-	[Token(Token = "0x6000A87")]
-	[Address(RVA = "0x4A09EF0", Offset = "0x4A09EF0", VA = "0x4A09EF0")]
+	[Token(Token = "0x6000AAB")]
+	[Address(RVA = "0x2928890", Offset = "0x2926E90", VA = "0x182928890")]
 	public IAsyncOnApplicationPauseHandler GetOnApplicationPauseAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A88")]
-	[Address(RVA = "0x4A09F60", Offset = "0x4A09F60", VA = "0x4A09F60")]
+	[Token(Token = "0x6000AAC")]
+	[Address(RVA = "0x2928810", Offset = "0x2926E10", VA = "0x182928810")]
 	public IAsyncOnApplicationPauseHandler GetOnApplicationPauseAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A89")]
-	[Address(RVA = "0x4A09FD0", Offset = "0x4A09FD0", VA = "0x4A09FD0")]
+	[Token(Token = "0x6000AAD")]
+	[Address(RVA = "0x2928A10", Offset = "0x2927010", VA = "0x182928A10")]
 	public UniTask<bool> OnApplicationPauseAsync()
 	{
 		return default(UniTask<bool>);
 	}
 
-	[Token(Token = "0x6000A8A")]
-	[Address(RVA = "0x4A0A0C0", Offset = "0x4A0A0C0", VA = "0x4A0A0C0")]
+	[Token(Token = "0x6000AAE")]
+	[Address(RVA = "0x2928900", Offset = "0x2926F00", VA = "0x182928900")]
 	public UniTask<bool> OnApplicationPauseAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<bool>);
 	}
 
-	[Token(Token = "0x6000A8B")]
-	[Address(RVA = "0x4A0A1B0", Offset = "0x4A0A1B0", VA = "0x4A0A1B0")]
+	[Token(Token = "0x6000AAF")]
+	[Address(RVA = "0x2928B70", Offset = "0x2927170", VA = "0x182928B70")]
 	public AsyncApplicationPauseTrigger()
 	{
 	}

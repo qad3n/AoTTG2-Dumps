@@ -12,32 +12,32 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001F7")]
+[Token(Token = "0x2000215")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class NoInterpColorParameter : VolumeParameter<Color>
 {
-	[Token(Token = "0x4000837")]
-	[FieldOffset(Offset = "0x24")]
+	[Token(Token = "0x40009A8")]
+	[FieldOffset(Offset = "0x28")]
 	public bool hdr;
 
 	[NonSerialized]
-	[Token(Token = "0x4000838")]
-	[FieldOffset(Offset = "0x25")]
+	[Token(Token = "0x40009A9")]
+	[FieldOffset(Offset = "0x29")]
 	public bool showAlpha;
 
 	[NonSerialized]
-	[Token(Token = "0x4000839")]
-	[FieldOffset(Offset = "0x26")]
+	[Token(Token = "0x40009AA")]
+	[FieldOffset(Offset = "0x2A")]
 	public bool showEyeDropper;
 
-	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x4C0B8E0", Offset = "0x4C0B8E0", VA = "0x4C0B8E0")]
+	[Token(Token = "0x6000F4E")]
+	[Address(RVA = "0x2B5F4B0", Offset = "0x2B5DAB0", VA = "0x182B5F4B0")]
 	public NoInterpColorParameter(Color value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x4C0B940", Offset = "0x4C0B940", VA = "0x4C0B940")]
+	[Token(Token = "0x6000F4F")]
+	[Address(RVA = "0x2B5F520", Offset = "0x2B5DB20", VA = "0x182B5F520")]
 	public NoInterpColorParameter(Color value, bool hdr, bool showAlpha, bool showEyeDropper, bool overrideState = false)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000003")]
+[Token(Token = "0x2000009")]
 public interface ISubsystemDescriptor
 {
-	[Token(Token = "0x17000001")]
+	[Token(Token = "0x17000004")]
 	string id
 	{
-		[Token(Token = "0x6000001")]
+		[Token(Token = "0x600000F")]
 		get;
 	}
 }

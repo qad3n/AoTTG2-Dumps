@@ -22,26 +22,26 @@ internal class DocumentXPathNodeIterator_ElemChildren : DocumentXPathNodeIterato
 	protected string nsAtom;
 
 	[Token(Token = "0x60007A6")]
-	[Address(RVA = "0x47C6540", Offset = "0x47C6540", VA = "0x47C6540")]
+	[Address(RVA = "0x270AC60", Offset = "0x2709260", VA = "0x18270AC60")]
 	internal DocumentXPathNodeIterator_ElemChildren(DocumentXPathNavigator nav, string localNameAtom, string nsAtom)
 	{
 	}
 
 	[Token(Token = "0x60007A7")]
-	[Address(RVA = "0x47C72C0", Offset = "0x47C72C0", VA = "0x47C72C0")]
+	[Address(RVA = "0x270ACB0", Offset = "0x27092B0", VA = "0x18270ACB0")]
 	internal DocumentXPathNodeIterator_ElemChildren(DocumentXPathNodeIterator_ElemChildren other)
 	{
 	}
 
 	[Token(Token = "0x60007A8")]
-	[Address(RVA = "0x47C7310", Offset = "0x47C7310", VA = "0x47C7310", Slot = "6")]
+	[Address(RVA = "0x270AD00", Offset = "0x2709300", VA = "0x18270AD00", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007A9")]
-	[Address(RVA = "0x47C7390", Offset = "0x47C7390", VA = "0x47C7390", Slot = "12")]
+	[Address(RVA = "0x270AD90", Offset = "0x2709390", VA = "0x18270AD90", Slot = "12")]
 	protected override bool Match(XmlNode node)
 	{
 		return default(bool);

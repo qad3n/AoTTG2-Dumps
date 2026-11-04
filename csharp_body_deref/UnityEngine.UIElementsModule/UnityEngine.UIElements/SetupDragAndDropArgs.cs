@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000151")]
-internal readonly struct SetupDragAndDropArgs
+[Token(Token = "0x2000196")]
+public readonly struct SetupDragAndDropArgs
 {
-	[Token(Token = "0x40005DD")]
+	[Token(Token = "0x400070A")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly VisualElement draggedElement;
 
-	[Token(Token = "0x40005DE")]
+	[Token(Token = "0x400070B")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly IEnumerable<int> selectedIds;
 
-	[Token(Token = "0x40005DF")]
+	[Token(Token = "0x400070C")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly StartDragArgs startDragArgs;
 
-	[Token(Token = "0x6000962")]
-	[Address(RVA = "0x501DB70", Offset = "0x501DB70", VA = "0x501DB70")]
+	[Token(Token = "0x6000B57")]
+	[Address(RVA = "0x3248990", Offset = "0x3246F90", VA = "0x183248990")]
 	internal SetupDragAndDropArgs(VisualElement draggedElement, IEnumerable<int> selectedIds, StartDragArgs startDragArgs)
 	{
 	}

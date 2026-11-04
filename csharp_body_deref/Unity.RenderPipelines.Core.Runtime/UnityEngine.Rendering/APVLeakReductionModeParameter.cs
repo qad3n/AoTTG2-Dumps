@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000150")]
+[Token(Token = "0x2000144")]
 public sealed class APVLeakReductionModeParameter : VolumeParameter<APVLeakReductionMode>
 {
-	[Token(Token = "0x6000A62")]
-	[Address(RVA = "0x4BD3670", Offset = "0x4BD3670", VA = "0x4BD3670")]
+	[Token(Token = "0x6000AE0")]
+	[Address(RVA = "0x2B1F400", Offset = "0x2B1DA00", VA = "0x182B1F400")]
 	public APVLeakReductionModeParameter(APVLeakReductionMode value, bool overrideState = false)
 	{
 	}

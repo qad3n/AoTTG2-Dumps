@@ -13,8 +13,8 @@ namespace System.Linq.Expressions.Interpreter;
 [Token(Token = "0x2000248")]
 internal static class ExceptionHelpers
 {
-	[Token(Token = "0x6000B34")]
-	[Address(RVA = "0x44F1E00", Offset = "0x44F1E00", VA = "0x44F1E00")]
+	[Token(Token = "0x6000B33")]
+	[Address(RVA = "0x246C6B0", Offset = "0x246ACB0", VA = "0x18246C6B0")]
 	public static void UnwrapAndRethrow(TargetInvocationException exception)
 	{
 	}

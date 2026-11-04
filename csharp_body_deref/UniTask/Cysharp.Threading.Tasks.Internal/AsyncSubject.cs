@@ -10,125 +10,125 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000250")]
+[Token(Token = "0x2000253")]
 internal sealed class AsyncSubject<T> : IObservable<T>, IObserver<T>
 {
-	[Token(Token = "0x2000251")]
+	[Token(Token = "0x2000254")]
 	private class Subscription : IDisposable
 	{
-		[Token(Token = "0x40006A8")]
+		[Token(Token = "0x40006BB")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly object gate;
 
-		[Token(Token = "0x40006A9")]
+		[Token(Token = "0x40006BC")]
 		[FieldOffset(Offset = "0x0")]
 		private AsyncSubject<T> parent;
 
-		[Token(Token = "0x40006AA")]
+		[Token(Token = "0x40006BD")]
 		[FieldOffset(Offset = "0x0")]
 		private IObserver<T> unsubscribeTarget;
 
-		[Token(Token = "0x6000D37")]
+		[Token(Token = "0x6000D5B")]
 		public Subscription(AsyncSubject<T> parent, IObserver<T> unsubscribeTarget)
 		{
 		}
 
-		[Token(Token = "0x6000D38")]
+		[Token(Token = "0x6000D5C")]
 		public void Dispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x40006A1")]
+	[Token(Token = "0x40006B4")]
 	[FieldOffset(Offset = "0x0")]
 	private object observerLock;
 
-	[Token(Token = "0x40006A2")]
+	[Token(Token = "0x40006B5")]
 	[FieldOffset(Offset = "0x0")]
 	private T lastValue;
 
-	[Token(Token = "0x40006A3")]
+	[Token(Token = "0x40006B6")]
 	[FieldOffset(Offset = "0x0")]
 	private bool hasValue;
 
-	[Token(Token = "0x40006A4")]
+	[Token(Token = "0x40006B7")]
 	[FieldOffset(Offset = "0x0")]
 	private bool isStopped;
 
-	[Token(Token = "0x40006A5")]
+	[Token(Token = "0x40006B8")]
 	[FieldOffset(Offset = "0x0")]
 	private bool isDisposed;
 
-	[Token(Token = "0x40006A6")]
+	[Token(Token = "0x40006B9")]
 	[FieldOffset(Offset = "0x0")]
 	private Exception lastError;
 
-	[Token(Token = "0x40006A7")]
+	[Token(Token = "0x40006BA")]
 	[FieldOffset(Offset = "0x0")]
 	private IObserver<T> outObserver;
 
-	[Token(Token = "0x1700007C")]
+	[Token(Token = "0x1700007E")]
 	public T Value
 	{
-		[Token(Token = "0x6000D2D")]
+		[Token(Token = "0x6000D51")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x1700007D")]
+	[Token(Token = "0x1700007F")]
 	public bool HasObservers
 	{
-		[Token(Token = "0x6000D2E")]
+		[Token(Token = "0x6000D52")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700007E")]
+	[Token(Token = "0x17000080")]
 	public bool IsCompleted
 	{
-		[Token(Token = "0x6000D2F")]
+		[Token(Token = "0x6000D53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000D30")]
+	[Token(Token = "0x6000D54")]
 	public void OnCompleted()
 	{
 	}
 
-	[Token(Token = "0x6000D31")]
+	[Token(Token = "0x6000D55")]
 	public void OnError(Exception error)
 	{
 	}
 
-	[Token(Token = "0x6000D32")]
+	[Token(Token = "0x6000D56")]
 	public void OnNext(T value)
 	{
 	}
 
-	[Token(Token = "0x6000D33")]
+	[Token(Token = "0x6000D57")]
 	public IDisposable Subscribe(IObserver<T> observer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D34")]
+	[Token(Token = "0x6000D58")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000D35")]
+	[Token(Token = "0x6000D59")]
 	private void ThrowIfDisposed()
 	{
 	}
 
-	[Token(Token = "0x6000D36")]
+	[Token(Token = "0x6000D5A")]
 	public AsyncSubject()
 	{
 	}

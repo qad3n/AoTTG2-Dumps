@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x20000A4")]
 public interface IPointerUpHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000640")]
+	[Token(Token = "0x6000687")]
 	void OnPointerUp(PointerEventData eventData);
 }

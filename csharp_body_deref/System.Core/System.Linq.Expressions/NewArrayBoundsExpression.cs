@@ -16,16 +16,16 @@ internal sealed class NewArrayBoundsExpression : NewArrayExpression
 	[Token(Token = "0x170000DE")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60004C9")]
-		[Address(RVA = "0x44BF750", Offset = "0x44BF750", VA = "0x44BF750", Slot = "4")]
+		[Token(Token = "0x60004C8")]
+		[Address(RVA = "0x243D900", Offset = "0x243BF00", VA = "0x18243D900", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
 		}
 	}
 
-	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x44BF670", Offset = "0x44BF670", VA = "0x44BF670")]
+	[Token(Token = "0x60004C7")]
+	[Address(RVA = "0x243D8F0", Offset = "0x243BEF0", VA = "0x18243D8F0")]
 	internal NewArrayBoundsExpression(Type type, ReadOnlyCollection<Expression> expressions)
 	{
 	}

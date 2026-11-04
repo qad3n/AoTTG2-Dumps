@@ -120,62 +120,62 @@ internal struct DateTimeParser
 	private const short MaxFractionDigits = 7;
 
 	[Token(Token = "0x600054D")]
-	[Address(RVA = "0x3DB13F0", Offset = "0x3DB13F0", VA = "0x3DB13F0")]
+	[Address(RVA = "0x1C1FB80", Offset = "0x1C1E180", VA = "0x181C1FB80")]
 	static DateTimeParser()
 	{
 	}
 
 	[Token(Token = "0x600054E")]
-	[Address(RVA = "0x3DB1660", Offset = "0x3DB1660", VA = "0x3DB1660")]
+	[Address(RVA = "0x1C1FA70", Offset = "0x1C1E070", VA = "0x181C1FA70")]
 	public bool Parse(char[] text, int startIndex, int length)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600054F")]
-	[Address(RVA = "0x3DB17F0", Offset = "0x3DB17F0", VA = "0x3DB17F0")]
+	[Address(RVA = "0x1C1F1E0", Offset = "0x1C1D7E0", VA = "0x181C1F1E0")]
 	private bool ParseDate(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000550")]
-	[Address(RVA = "0x3DB1A90", Offset = "0x3DB1A90", VA = "0x3DB1A90")]
+	[Address(RVA = "0x1C1F440", Offset = "0x1C1DA40", VA = "0x181C1F440")]
 	private bool ParseTimeAndZoneAndWhitespace(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000551")]
-	[Address(RVA = "0x3DB1C50", Offset = "0x3DB1C50", VA = "0x3DB1C50")]
+	[Address(RVA = "0x1C1F4C0", Offset = "0x1C1DAC0", VA = "0x181C1F4C0")]
 	private bool ParseTime(ref int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000552")]
-	[Address(RVA = "0x3DB2180", Offset = "0x3DB2180", VA = "0x3DB2180")]
+	[Address(RVA = "0x1C1F840", Offset = "0x1C1DE40", VA = "0x181C1F840")]
 	private bool ParseZone(int start)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000553")]
-	[Address(RVA = "0x3DB1B20", Offset = "0x3DB1B20", VA = "0x3DB1B20")]
+	[Address(RVA = "0x1C1F090", Offset = "0x1C1D690", VA = "0x181C1F090")]
 	private bool Parse4Digit(int start, out int num)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000554")]
-	[Address(RVA = "0x3DB1BE0", Offset = "0x3DB1BE0", VA = "0x3DB1BE0")]
+	[Address(RVA = "0x1C1F010", Offset = "0x1C1D610", VA = "0x181C1F010")]
 	private bool Parse2Digit(int start, out int num)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000555")]
-	[Address(RVA = "0x3DB1A60", Offset = "0x3DB1A60", VA = "0x3DB1A60")]
+	[Address(RVA = "0x1C1F1A0", Offset = "0x1C1D7A0", VA = "0x181C1F1A0")]
 	private bool ParseChar(int start, char ch)
 	{
 		return default(bool);

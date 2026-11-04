@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x2000035")]
 internal class DeviceEnumeratorNotSupported : DeviceEnumeratorBase
 {
-	[Token(Token = "0x40000F3")]
+	[Token(Token = "0x40000EE")]
 	[FieldOffset(Offset = "0x30")]
 	private string message;
 
 	[Token(Token = "0x1700004A")]
 	public override bool IsSupported
 	{
-		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x3F1A0F0", Offset = "0x3F1A0F0", VA = "0x3F1A0F0", Slot = "11")]
+		[Token(Token = "0x6000123")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -30,28 +30,28 @@ internal class DeviceEnumeratorNotSupported : DeviceEnumeratorBase
 	[Token(Token = "0x1700004B")]
 	public override string Error
 	{
-		[Token(Token = "0x6000128")]
-		[Address(RVA = "0x3F1A150", Offset = "0x3F1A150", VA = "0x3F1A150", Slot = "12")]
+		[Token(Token = "0x6000126")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "12")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x3F1A100", Offset = "0x3F1A100", VA = "0x3F1A100")]
+	[Token(Token = "0x6000124")]
+	[Address(RVA = "0x1D68E80", Offset = "0x1D67480", VA = "0x181D68E80")]
 	public DeviceEnumeratorNotSupported(ILogger logger, string message)
 	{
 	}
 
-	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3F1A130", Offset = "0x3F1A130", VA = "0x3F1A130", Slot = "14")]
+	[Token(Token = "0x6000125")]
+	[Address(RVA = "0x1D68E60", Offset = "0x1D67460", VA = "0x181D68E60", Slot = "14")]
 	public override void Refresh()
 	{
 	}
 
-	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x3F1A160", Offset = "0x3F1A160", VA = "0x3F1A160", Slot = "15")]
+	[Token(Token = "0x6000127")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "15")]
 	public override void Dispose()
 	{
 	}

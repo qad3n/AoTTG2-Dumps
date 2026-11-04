@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000174")]
+[Token(Token = "0x200019F")]
 internal static class CompatibilitySwitches
 {
-	[Token(Token = "0x4000622")]
+	[Token(Token = "0x4000686")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly bool IsAppEarlierThanWindowsPhone8;
 }

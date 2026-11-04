@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000016")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [UnityEngine.Bindings.NativeType(Header = "Modules/XR/Subsystems/Display/XRDisplaySubsystemDescriptor.h")]
 public class XRDisplaySubsystemDescriptor : IntegratedSubsystemDescriptor<XRDisplaySubsystem>
 {
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x510D210", Offset = "0x510D210", VA = "0x510D210")]
+	[Token(Token = "0x6000053")]
+	[Address(RVA = "0x3313DE0", Offset = "0x33123E0", VA = "0x183313DE0")]
 	public XRDisplaySubsystemDescriptor()
 	{
 	}

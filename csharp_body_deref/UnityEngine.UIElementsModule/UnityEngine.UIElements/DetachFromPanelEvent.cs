@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001CE")]
+[Token(Token = "0x2000215")]
 public class DetachFromPanelEvent : PanelChangedEventBase<DetachFromPanelEvent>
 {
-	[Token(Token = "0x6000BE2")]
-	[Address(RVA = "0x5036900", Offset = "0x5036900", VA = "0x5036900")]
+	[Token(Token = "0x6000E03")]
+	[Address(RVA = "0x3259D20", Offset = "0x3258320", VA = "0x183259D20")]
 	static DetachFromPanelEvent()
 	{
 	}
 
-	[Token(Token = "0x6000BE3")]
-	[Address(RVA = "0x50369D0", Offset = "0x50369D0", VA = "0x50369D0")]
+	[Token(Token = "0x6000E04")]
+	[Address(RVA = "0x3259E00", Offset = "0x3258400", VA = "0x183259E00")]
 	public DetachFromPanelEvent()
 	{
 	}

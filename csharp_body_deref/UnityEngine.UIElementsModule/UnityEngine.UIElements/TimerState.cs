@@ -11,72 +11,72 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200025F")]
+[Token(Token = "0x20002E3")]
 public struct TimerState : IEquatable<TimerState>
 {
-	[Token(Token = "0x17000305")]
+	[Token(Token = "0x170003FB")]
 	public long start
 	{
-		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x5077420", Offset = "0x5077420", VA = "0x5077420")]
+		[Token(Token = "0x600139F")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x5077430", Offset = "0x5077430", VA = "0x5077430")]
+		[Token(Token = "0x60013A0")]
+		[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000306")]
+	[Token(Token = "0x170003FC")]
 	public long now
 	{
-		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x5077440", Offset = "0x5077440", VA = "0x5077440")]
+		[Token(Token = "0x60013A1")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x5077450", Offset = "0x5077450", VA = "0x5077450")]
+		[Token(Token = "0x60013A2")]
+		[Address(RVA = "0x1B943D0", Offset = "0x1B929D0", VA = "0x181B943D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000307")]
+	[Token(Token = "0x170003FD")]
 	public long deltaTime
 	{
-		[Token(Token = "0x6000FAC")]
-		[Address(RVA = "0x5077460", Offset = "0x5077460", VA = "0x5077460")]
+		[Token(Token = "0x60013A3")]
+		[Address(RVA = "0x32B8650", Offset = "0x32B6C50", VA = "0x1832B8650")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x6000FAD")]
-	[Address(RVA = "0x5077470", Offset = "0x5077470", VA = "0x5077470", Slot = "0")]
+	[Token(Token = "0x60013A4")]
+	[Address(RVA = "0x32B8520", Offset = "0x32B6B20", VA = "0x1832B8520", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FAE")]
-	[Address(RVA = "0x50774E0", Offset = "0x50774E0", VA = "0x50774E0", Slot = "4")]
+	[Token(Token = "0x60013A5")]
+	[Address(RVA = "0x32B84F0", Offset = "0x32B6AF0", VA = "0x1832B84F0", Slot = "4")]
 	public bool Equals(TimerState other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FAF")]
-	[Address(RVA = "0x50774F0", Offset = "0x50774F0", VA = "0x50774F0", Slot = "2")]
+	[Token(Token = "0x60013A6")]
+	[Address(RVA = "0x32B85D0", Offset = "0x32B6BD0", VA = "0x1832B85D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

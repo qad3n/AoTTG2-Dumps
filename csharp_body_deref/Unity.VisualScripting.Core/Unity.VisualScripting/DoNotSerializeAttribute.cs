@@ -14,8 +14,8 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public sealed class DoNotSerializeAttribute : Attribute
 {
-	[Token(Token = "0x6000F6B")]
-	[Address(RVA = "0x4D58420", Offset = "0x4D58420", VA = "0x4D58420")]
+	[Token(Token = "0x6000F75")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DoNotSerializeAttribute()
 	{
 	}

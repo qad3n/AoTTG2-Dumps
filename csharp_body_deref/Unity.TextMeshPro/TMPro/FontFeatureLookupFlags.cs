@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200004E")]
+[Token(Token = "0x2000044")]
 [Flags]
 public enum FontFeatureLookupFlags
 {
-	[Token(Token = "0x400022E")]
+	[Token(Token = "0x4000176")]
 	None = 0,
-	[Token(Token = "0x400022F")]
+	[Token(Token = "0x4000177")]
 	IgnoreLigatures = 4,
-	[Token(Token = "0x4000230")]
+	[Token(Token = "0x4000178")]
 	IgnoreSpacingAdjustments = 0x100
 }

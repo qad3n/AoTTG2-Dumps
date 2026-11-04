@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200010A")]
+[Token(Token = "0x2000132")]
 internal sealed class SpanDebugView<T>
 {
 }

@@ -15,121 +15,121 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x20001A5")]
+[Token(Token = "0x200032D")]
 internal class MonoChunkStream : WebReadStream
 {
-	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20001A6")]
+	[StructLayout(LayoutKind.Auto)]
+	[Token(Token = "0x200032E")]
 	[CompilerGenerated]
 	private struct _003CProcessReadAsync_003Ed__7 : IAsyncStateMachine
 	{
-		[Token(Token = "0x400085F")]
+		[Token(Token = "0x4000C75")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000860")]
+		[Token(Token = "0x4000C76")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder<int> _003C_003Et__builder;
 
-		[Token(Token = "0x4000861")]
+		[Token(Token = "0x4000C77")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x4000862")]
+		[Token(Token = "0x4000C78")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public MonoChunkStream _003C_003E4__this;
 
-		[Token(Token = "0x4000863")]
+		[Token(Token = "0x4000C79")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public byte[] buffer;
 
-		[Token(Token = "0x4000864")]
+		[Token(Token = "0x4000C7A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public int offset;
 
-		[Token(Token = "0x4000865")]
+		[Token(Token = "0x4000C7B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 		public int size;
 
-		[Token(Token = "0x4000866")]
+		[Token(Token = "0x4000C7C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private byte[] _003CmoreBytes_003E5__2;
 
-		[Token(Token = "0x4000867")]
+		[Token(Token = "0x4000C7D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6000A47")]
-		[Address(RVA = "0x498B640", Offset = "0x498B640", VA = "0x498B640", Slot = "4")]
+		[Token(Token = "0x6001608")]
+		[Address(RVA = "0x27EF030", Offset = "0x27ED630", VA = "0x1827EF030", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6000A48")]
-		[Address(RVA = "0x498BB80", Offset = "0x498BB80", VA = "0x498BB80", Slot = "5")]
+		[Token(Token = "0x6001609")]
+		[Address(RVA = "0x27EF420", Offset = "0x27EDA20", VA = "0x1827EF420", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20001A7")]
+	[StructLayout(LayoutKind.Auto)]
+	[Token(Token = "0x200032F")]
 	[CompilerGenerated]
 	private struct _003CFinishReading_003Ed__8 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4000868")]
+		[Token(Token = "0x4000C7E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4000869")]
+		[Token(Token = "0x4000C7F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400086A")]
+		[Token(Token = "0x4000C80")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public MonoChunkStream _003C_003E4__this;
 
-		[Token(Token = "0x400086B")]
+		[Token(Token = "0x4000C81")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x400086C")]
+		[Token(Token = "0x4000C82")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x400086D")]
+		[Token(Token = "0x4000C83")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private byte[] _003Cbuffer_003E5__2;
 
-		[Token(Token = "0x400086E")]
+		[Token(Token = "0x4000C84")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6000A49")]
-		[Address(RVA = "0x498BBF0", Offset = "0x498BBF0", VA = "0x498BBF0", Slot = "4")]
+		[Token(Token = "0x600160A")]
+		[Address(RVA = "0x27EC260", Offset = "0x27EA860", VA = "0x1827EC260", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6000A4A")]
-		[Address(RVA = "0x498C2E0", Offset = "0x498C2E0", VA = "0x498C2E0", Slot = "5")]
+		[Token(Token = "0x600160B")]
+		[Address(RVA = "0x27EC6C0", Offset = "0x27EACC0", VA = "0x1827EC6C0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x400085D")]
+	[Token(Token = "0x4000C73")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	[CompilerGenerated]
 	private readonly WebHeaderCollection _003CHeaders_003Ek__BackingField;
 
-	[Token(Token = "0x1700025F")]
+	[Token(Token = "0x170004B5")]
 	protected MonoChunkParser Decoder
 	{
-		[Token(Token = "0x6000A41")]
-		[Address(RVA = "0x498B2B0", Offset = "0x498B2B0", VA = "0x498B2B0")]
+		[Token(Token = "0x6001602")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		[CompilerGenerated]
 		get
 		{
@@ -137,30 +137,30 @@ internal class MonoChunkStream : WebReadStream
 		}
 	}
 
-	[Token(Token = "0x6000A42")]
-	[Address(RVA = "0x498B2C0", Offset = "0x498B2C0", VA = "0x498B2C0")]
+	[Token(Token = "0x6001603")]
+	[Address(RVA = "0x27E7C90", Offset = "0x27E6290", VA = "0x1827E7C90")]
 	public MonoChunkStream(WebOperation operation, Stream innerStream, WebHeaderCollection headers)
 	{
 	}
 
-	[Token(Token = "0x6000A43")]
-	[Address(RVA = "0x498B350", Offset = "0x498B350", VA = "0x498B350", Slot = "38")]
+	[Token(Token = "0x6001604")]
+	[Address(RVA = "0x27E7AD0", Offset = "0x27E60D0", VA = "0x1827E7AD0", Slot = "38")]
 	[AsyncStateMachine(typeof(_003CProcessReadAsync_003Ed__7))]
 	protected override Task<int> ProcessReadAsync(byte[] buffer, int offset, int size, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A44")]
-	[Address(RVA = "0x498B4C0", Offset = "0x498B4C0", VA = "0x498B4C0", Slot = "39")]
+	[Token(Token = "0x6001605")]
+	[Address(RVA = "0x27E79C0", Offset = "0x27E5FC0", VA = "0x1827E79C0", Slot = "39")]
 	[AsyncStateMachine(typeof(_003CFinishReading_003Ed__8))]
 	internal override Task FinishReading(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A45")]
-	[Address(RVA = "0x498B5D0", Offset = "0x498B5D0", VA = "0x498B5D0")]
+	[Token(Token = "0x6001606")]
+	[Address(RVA = "0x27E7C10", Offset = "0x27E6210", VA = "0x1827E7C10")]
 	private static void ThrowExpectingChunkTrailer()
 	{
 	}

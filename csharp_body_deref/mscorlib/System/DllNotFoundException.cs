@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000A7")]
+[Token(Token = "0x20000CF")]
 public class DllNotFoundException : TypeLoadException
 {
-	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x3C99A30", Offset = "0x3C99A30", VA = "0x3C99A30")]
+	[Token(Token = "0x60006A1")]
+	[Address(RVA = "0x1B21A90", Offset = "0x1B20090", VA = "0x181B21A90")]
 	public DllNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x3C99A70", Offset = "0x3C99A70", VA = "0x3C99A70")]
+	[Token(Token = "0x60006A2")]
+	[Address(RVA = "0x1B21A70", Offset = "0x1B20070", VA = "0x181B21A70")]
 	public DllNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000674")]
-	[Address(RVA = "0x3C99A90", Offset = "0x3C99A90", VA = "0x3C99A90")]
+	[Token(Token = "0x60006A3")]
+	[Address(RVA = "0x1B21A50", Offset = "0x1B20050", VA = "0x181B21A50")]
 	protected DllNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}

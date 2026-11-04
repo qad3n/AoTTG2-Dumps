@@ -1,11 +1,10 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Gizmos
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
-using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -14,141 +13,71 @@ using UnityEngine.Internal;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000A1")]
+[Token(Token = "0x20000C2")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Gizmos/Gizmos.bindings.h")]
 [UnityEngine.Bindings.StaticAccessor("GizmoBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 public sealed class Gizmos
 {
-	[Token(Token = "0x17000092")]
+	[Token(Token = "0x170000AF")]
 	public static Color color
 	{
-		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x4DBF720", Offset = "0x4DBF720", VA = "0x4DBF720")]
+		[Token(Token = "0x6000422")]
+		[Address(RVA = "0x2EC87C0", Offset = "0x2EC6DC0", VA = "0x182EC87C0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000093")]
-	public static Matrix4x4 matrix
-	{
-		[Token(Token = "0x60002F0")]
-		[Address(RVA = "0x4DBF7A0", Offset = "0x4DBF7A0", VA = "0x4DBF7A0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x4DBF1B0", Offset = "0x4DBF1B0", VA = "0x4DBF1B0")]
+	[Token(Token = "0x600041E")]
+	[Address(RVA = "0x2EC85F0", Offset = "0x2EC6BF0", VA = "0x182EC85F0")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static void DrawLine(Vector3 from, Vector3 to)
 	{
 	}
 
-	[Token(Token = "0x60002E9")]
-	[Address(RVA = "0x4DBF240", Offset = "0x4DBF240", VA = "0x4DBF240")]
+	[Token(Token = "0x600041F")]
+	[Address(RVA = "0x2EC8730", Offset = "0x2EC6D30", VA = "0x182EC8730")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static void DrawWireSphere(Vector3 center, float radius)
 	{
 	}
 
-	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x4DBF2E0", Offset = "0x4DBF2E0", VA = "0x4DBF2E0")]
+	[Token(Token = "0x6000420")]
+	[Address(RVA = "0x2EC8690", Offset = "0x2EC6C90", VA = "0x182EC8690")]
 	[UnityEngine.Bindings.NativeThrows]
 	public static void DrawSphere(Vector3 center, float radius)
 	{
 	}
 
-	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x4DBF380", Offset = "0x4DBF380", VA = "0x4DBF380")]
+	[Token(Token = "0x6000421")]
+	[Address(RVA = "0x2EC8400", Offset = "0x2EC6A00", VA = "0x182EC8400")]
 	[UnityEngine.Bindings.NativeThrows]
-	public static void DrawWireCube(Vector3 center, Vector3 size)
-	{
-	}
-
-	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x4DBF410", Offset = "0x4DBF410", VA = "0x4DBF410")]
-	[UnityEngine.Bindings.NativeThrows]
-	public static void DrawCube(Vector3 center, Vector3 size)
-	{
-	}
-
-	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x4DBF4A0", Offset = "0x4DBF4A0", VA = "0x4DBF4A0")]
-	[UnityEngine.Bindings.NativeThrows]
-	public static void DrawMesh(Mesh mesh, int submeshIndex, [DefaultValue("Vector3.zero")] Vector3 position, [DefaultValue("Quaternion.identity")] Quaternion rotation, [DefaultValue("Vector3.one")] Vector3 scale)
-	{
-	}
-
-	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x4DBF5E0", Offset = "0x4DBF5E0", VA = "0x4DBF5E0")]
-	[UnityEngine.Bindings.NativeThrows]
-	public static void DrawWireMesh(Mesh mesh, int submeshIndex, [DefaultValue("Vector3.zero")] Vector3 position, [DefaultValue("Quaternion.identity")] Quaternion rotation, [DefaultValue("Vector3.one")] Vector3 scale)
-	{
-	}
-
-	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x4DBF810", Offset = "0x4DBF810", VA = "0x4DBF810")]
-	[ExcludeFromDocs]
-	public static void DrawMesh(Mesh mesh)
-	{
-	}
-
-	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x4DBF9A0", Offset = "0x4DBF9A0", VA = "0x4DBF9A0")]
-	public static void DrawMesh(Mesh mesh, [DefaultValue("Vector3.zero")] Vector3 position, [DefaultValue("Quaternion.identity")] Quaternion rotation, [DefaultValue("Vector3.one")] Vector3 scale)
-	{
-	}
-
-	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x4DBFA90", Offset = "0x4DBFA90", VA = "0x4DBFA90")]
-	public static void DrawWireMesh(Mesh mesh, [DefaultValue("Vector3.zero")] Vector3 position, [DefaultValue("Quaternion.identity")] Quaternion rotation, [DefaultValue("Vector3.one")] Vector3 scale)
+	public static void DrawIcon(Vector3 center, string name, [DefaultValue("true")] bool allowScaling, [DefaultValue("Color(255,255,255,255)")] Color tint)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x4DBF200", Offset = "0x4DBF200", VA = "0x4DBF200")]
+	[Token(Token = "0x6000423")]
+	[Address(RVA = "0x2EC85A0", Offset = "0x2EC6BA0", VA = "0x182EC85A0")]
 	private static extern void DrawLine_Injected([In] ref Vector3 from, [In] ref Vector3 to);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x4DBF290", Offset = "0x4DBF290", VA = "0x4DBF290")]
+	[Token(Token = "0x6000424")]
+	[Address(RVA = "0x2EC86E0", Offset = "0x2EC6CE0", VA = "0x182EC86E0")]
 	private static extern void DrawWireSphere_Injected([In] ref Vector3 center, float radius);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x4DBF330", Offset = "0x4DBF330", VA = "0x4DBF330")]
+	[Token(Token = "0x6000425")]
+	[Address(RVA = "0x2EC8640", Offset = "0x2EC6C40", VA = "0x182EC8640")]
 	private static extern void DrawSphere_Injected([In] ref Vector3 center, float radius);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x4DBF3D0", Offset = "0x4DBF3D0", VA = "0x4DBF3D0")]
-	private static extern void DrawWireCube_Injected([In] ref Vector3 center, [In] ref Vector3 size);
+	[Token(Token = "0x6000426")]
+	[Address(RVA = "0x2EC83B0", Offset = "0x2EC69B0", VA = "0x182EC83B0")]
+	private static extern void DrawIcon_Injected([In] ref Vector3 center, ref ManagedSpanWrapper name, [DefaultValue("true")] bool allowScaling, [In][DefaultValue("Color(255,255,255,255)")] ref Color tint);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x4DBF460", Offset = "0x4DBF460", VA = "0x4DBF460")]
-	private static extern void DrawCube_Injected([In] ref Vector3 center, [In] ref Vector3 size);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x4DBF590", Offset = "0x4DBF590", VA = "0x4DBF590")]
-	private static extern void DrawMesh_Injected(IntPtr mesh, int submeshIndex, [In][DefaultValue("Vector3.zero")] ref Vector3 position, [In][DefaultValue("Quaternion.identity")] ref Quaternion rotation, [In][DefaultValue("Vector3.one")] ref Vector3 scale);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x4DBF6D0", Offset = "0x4DBF6D0", VA = "0x4DBF6D0")]
-	private static extern void DrawWireMesh_Injected(IntPtr mesh, int submeshIndex, [In][DefaultValue("Vector3.zero")] ref Vector3 position, [In][DefaultValue("Quaternion.identity")] ref Quaternion rotation, [In][DefaultValue("Vector3.one")] ref Vector3 scale);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x4DBF770", Offset = "0x4DBF770", VA = "0x4DBF770")]
+	[Token(Token = "0x6000427")]
+	[Address(RVA = "0x2EC8780", Offset = "0x2EC6D80", VA = "0x182EC8780")]
 	private static extern void set_color_Injected([In] ref Color value);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x4DBF7E0", Offset = "0x4DBF7E0", VA = "0x4DBF7E0")]
-	private static extern void set_matrix_Injected([In] ref Matrix4x4 value);
 }

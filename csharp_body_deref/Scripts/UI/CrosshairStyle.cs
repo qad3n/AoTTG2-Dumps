@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20005DC")]
+[Token(Token = "0x2000730")]
 public enum CrosshairStyle
 {
-	[Token(Token = "0x4001C66")]
+	[Token(Token = "0x40023F2")]
 	Default,
-	[Token(Token = "0x4001C67")]
+	[Token(Token = "0x40023F3")]
 	Square,
-	[Token(Token = "0x4001C68")]
+	[Token(Token = "0x40023F4")]
 	Plus,
-	[Token(Token = "0x4001C69")]
+	[Token(Token = "0x40023F5")]
 	Target,
-	[Token(Token = "0x4001C6A")]
+	[Token(Token = "0x40023F6")]
 	Dot
 }

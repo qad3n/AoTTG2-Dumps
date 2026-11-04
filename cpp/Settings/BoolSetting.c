@@ -1,5 +1,5 @@
 // Type: Settings.BoolSetting
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/BoolSetting.cs
@@ -8,94 +8,85 @@
 
 // Settings.BoolSetting$$.ctor
 // il2cpp: void Settings_BoolSetting___ctor (Settings_BoolSetting_o* __this, const MethodInfo* method);
-// 0x41fd7c0
+// 0x181f11c30
 
 void Settings_BoolSetting___ctor(Settings_BoolSetting_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ad895 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad895 = '\x01';
+  if (Il2CppMethodInitialized_184345489 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_184345489 = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)__this,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)__this,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   return;
 }
 
 
 // Settings.BoolSetting$$.ctor
 // il2cpp: void Settings_BoolSetting___ctor (Settings_BoolSetting_o* __this, bool defaultValue, const MethodInfo* method);
-// 0x41f3960
+// 0x181f11be0
 
-void Settings_BoolSetting___ctor_40f3960
-               (Settings_BoolSetting_o *__this,bool_conflict defaultValue,MethodInfo *method)
+void Settings_BoolSetting___ctor_1f11be0(Settings_BoolSetting_o *__this,bool defaultValue,MethodInfo *method)
 
 {
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0
-            ((Settings_TypedSetting_bool__o *)__this,defaultValue & 0xff,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)__this,defaultValue,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   return;
 }
 
 
 // Settings.BoolSetting$$DeserializeFromJsonObject
 // il2cpp: void Settings_BoolSetting__DeserializeFromJsonObject (Settings_BoolSetting_o* __this, SimpleJSONFixed_JSONNode_o* json, const MethodInfo* method);
-// 0x41ff580
+// 0x181f11b00
 
 void Settings_BoolSetting__DeserializeFromJsonObject
                (Settings_BoolSetting_o *__this,SimpleJSONFixed_JSONNode_o *json,MethodInfo *method)
 
 {
-  byte bVar1;
-  SimpleJSONFixed_JSONBool_o *__this_00;
-  MethodInfo_2A23E90 **ppMVar2;
+  bool value;
   
-  ppMVar2 = (MethodInfo_2A23E90 **)__this;
-  if (g_data_057ad897 == '\0') {
-    ppMVar2 = &MethodInfo_Void_set_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ad897 = '\x01';
+  if (Il2CppMethodInitialized_18434548b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_set_Value);
+    Il2CppMethodInitialized_18434548b = '\x01';
   }
   if (json != (SimpleJSONFixed_JSONNode_o *)0x0) {
-    bVar1 = (*(json->klass->vtable)._39_get_AsBool.methodPtr)
+    value = (*(json->klass->vtable)._39_get_AsBool.methodPtr)
                       (json,(json->klass->vtable)._39_get_AsBool.method);
-    Settings_TypedSetting_bool___set_Value((Settings_TypedSetting_bool__o *)__this,(uint)bVar1,MethodInfo_Void_set_Value);
+    Settings_TypedSetting_bool___set_Value
+              ((Settings_TypedSetting_bool__o *)__this,value,
+               (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad898 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONBool);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    g_data_057ad898 = '\x01';
-  }
-  bVar1 = *(byte *)((long)&(((Settings_BoolSetting_o *)ppMVar2)->fields).DefaultValue + 1);
-  __this_00 = (SimpleJSONFixed_JSONBool_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONBool);
-  SimpleJSONFixed_JSONBool___ctor(__this_00,(uint)bVar1,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Settings.BoolSetting$$SerializeToJsonObject
 // il2cpp: SimpleJSONFixed_JSONNode_o* Settings_BoolSetting__SerializeToJsonObject (Settings_BoolSetting_o* __this, const MethodInfo* method);
-// 0x41ff5e0
+// 0x181f11b70
 
 SimpleJSONFixed_JSONNode_o *
 Settings_BoolSetting__SerializeToJsonObject(Settings_BoolSetting_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
+  bool aData;
   SimpleJSONFixed_JSONBool_o *__this_00;
   
-  if (g_data_057ad898 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONBool);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    g_data_057ad898 = '\x01';
+  if (Il2CppMethodInitialized_18434548c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONBool);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    Il2CppMethodInitialized_18434548c = '\x01';
   }
-  bVar1 = *(byte *)((long)&(__this->fields).DefaultValue + 1);
-  __this_00 = (SimpleJSONFixed_JSONBool_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONBool);
-  SimpleJSONFixed_JSONBool___ctor(__this_00,(uint)bVar1,(MethodInfo *)0x0);
+  aData = (__this->fields)._value;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONBool);
+  SimpleJSONFixed_JSONBool___ctor(__this_00,aData,(MethodInfo *)0x0);
   return (SimpleJSONFixed_JSONNode_o *)__this_00;
 }
 

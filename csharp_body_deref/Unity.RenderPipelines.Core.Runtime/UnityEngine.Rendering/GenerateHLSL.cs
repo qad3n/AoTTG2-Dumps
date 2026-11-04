@@ -12,52 +12,52 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000170")]
+[Token(Token = "0x2000187")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum)]
 public class GenerateHLSL : Attribute
 {
-	[Token(Token = "0x4000660")]
+	[Token(Token = "0x40007A5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public PackingRules packingRules;
 
-	[Token(Token = "0x4000661")]
+	[Token(Token = "0x40007A6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	public bool containsPackedFields;
 
-	[Token(Token = "0x4000662")]
+	[Token(Token = "0x40007A7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x15")]
 	public bool needAccessors;
 
-	[Token(Token = "0x4000663")]
+	[Token(Token = "0x40007A8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x16")]
 	public bool needSetters;
 
-	[Token(Token = "0x4000664")]
+	[Token(Token = "0x40007A9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x17")]
 	public bool needParamDebug;
 
-	[Token(Token = "0x4000665")]
+	[Token(Token = "0x40007AA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public int paramDefinesStart;
 
-	[Token(Token = "0x4000666")]
+	[Token(Token = "0x40007AB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	public bool omitStructDeclaration;
 
-	[Token(Token = "0x4000667")]
+	[Token(Token = "0x40007AC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1D")]
 	public bool generateCBuffer;
 
-	[Token(Token = "0x4000668")]
+	[Token(Token = "0x40007AD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public int constantRegister;
 
-	[Token(Token = "0x4000669")]
+	[Token(Token = "0x40007AE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public string sourcePath;
 
-	[Token(Token = "0x6000AC8")]
-	[Address(RVA = "0x4BDEA60", Offset = "0x4BDEA60", VA = "0x4BDEA60")]
+	[Token(Token = "0x6000BAC")]
+	[Address(RVA = "0x2B40AB0", Offset = "0x2B3F0B0", VA = "0x182B40AB0")]
 	public GenerateHLSL([Optional][DefaultParameterValue(0)] PackingRules rules, [Optional][DefaultParameterValue(true)] bool needAccessors, [Optional][DefaultParameterValue(false)] bool needSetters, [Optional][DefaultParameterValue(false)] bool needParamDebug, [Optional][DefaultParameterValue(1)] int paramDefinesStart, [Optional][DefaultParameterValue(false)] bool omitStructDeclaration, [Optional][DefaultParameterValue(false)] bool containsPackedFields, [Optional][DefaultParameterValue(false)] bool generateCBuffer, [Optional][DefaultParameterValue(-1)] int constantRegister, [Optional][CallerFilePath] string sourcePath)
 	{
 	}

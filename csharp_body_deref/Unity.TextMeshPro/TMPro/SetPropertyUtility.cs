@@ -11,29 +11,29 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x2000063")]
+[Token(Token = "0x2000057")]
 internal static class SetPropertyUtility
 {
-	[Token(Token = "0x6000382")]
-	[Address(RVA = "0x4C84090", Offset = "0x4C84090", VA = "0x4C84090")]
+	[Token(Token = "0x600030F")]
+	[Address(RVA = "0x2D33AD0", Offset = "0x2D320D0", VA = "0x182D33AD0")]
 	public static bool SetColor(ref Color currentValue, Color newValue)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000383")]
+	[Token(Token = "0x6000310")]
 	public static bool SetEquatableStruct<T>(ref T currentValue, T newValue) where T : IEquatable<T>
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000384")]
+	[Token(Token = "0x6000311")]
 	public static bool SetStruct<T>(ref T currentValue, T newValue) where T : struct
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000385")]
+	[Token(Token = "0x6000312")]
 	public static bool SetClass<T>(ref T currentValue, T newValue) where T : class
 	{
 		return default(bool);

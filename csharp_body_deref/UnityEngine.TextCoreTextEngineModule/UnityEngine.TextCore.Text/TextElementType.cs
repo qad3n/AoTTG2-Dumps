@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x2000043")]
 public enum TextElementType : byte
 {
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x40001E0")]
 	Character = 1,
-	[Token(Token = "0x40000DB")]
+	[Token(Token = "0x40001E1")]
 	Sprite
 }

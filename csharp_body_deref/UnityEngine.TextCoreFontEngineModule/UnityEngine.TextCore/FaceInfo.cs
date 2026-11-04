@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.FaceInfo
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -37,9 +37,9 @@ public struct FaceInfo
 
 	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x18")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("pointSize")]
-	private int m_PointSize;
+	[SerializeField]
+	private float m_PointSize;
 
 	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x1C")]
@@ -49,20 +49,20 @@ public struct FaceInfo
 
 	[Token(Token = "0x4000006")]
 	[FieldOffset(Offset = "0x20")]
-	[UnityEngine.Bindings.NativeName("unitsPerEM")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("unitsPerEM")]
 	private int m_UnitsPerEM;
 
 	[Token(Token = "0x4000007")]
 	[FieldOffset(Offset = "0x24")]
-	[UnityEngine.Bindings.NativeName("lineHeight")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("lineHeight")]
 	private float m_LineHeight;
 
 	[Token(Token = "0x4000008")]
 	[FieldOffset(Offset = "0x28")]
-	[UnityEngine.Bindings.NativeName("ascentLine")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("ascentLine")]
 	private float m_AscentLine;
 
 	[Token(Token = "0x4000009")]
@@ -91,8 +91,8 @@ public struct FaceInfo
 
 	[Token(Token = "0x400000D")]
 	[FieldOffset(Offset = "0x3C")]
-	[UnityEngine.Bindings.NativeName("superscriptOffset")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("superscriptOffset")]
 	private float m_SuperscriptOffset;
 
 	[Token(Token = "0x400000E")]
@@ -109,8 +109,8 @@ public struct FaceInfo
 
 	[Token(Token = "0x4000010")]
 	[FieldOffset(Offset = "0x48")]
-	[UnityEngine.Bindings.NativeName("subscriptSize")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("subscriptSize")]
 	private float m_SubscriptSize;
 
 	[Token(Token = "0x4000011")]
@@ -127,8 +127,8 @@ public struct FaceInfo
 
 	[Token(Token = "0x4000013")]
 	[FieldOffset(Offset = "0x54")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("strikethroughOffset")]
+	[SerializeField]
 	private float m_StrikethroughOffset;
 
 	[Token(Token = "0x4000014")]
@@ -144,10 +144,11 @@ public struct FaceInfo
 	private float m_TabWidth;
 
 	[Token(Token = "0x17000001")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.TextCoreTextEngineModule" })]
 	internal int faceIndex
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4EA30F0", Offset = "0x4EA30F0", VA = "0x4EA30F0")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(int);
@@ -158,279 +159,221 @@ public struct FaceInfo
 	public string familyName
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4EA3100", Offset = "0x4EA3100", VA = "0x4EA3100")]
+		[Address(RVA = "0x1B943C0", Offset = "0x1B929C0", VA = "0x181B943C0")]
 		get
 		{
 			return null;
-		}
-		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x4EA3110", Offset = "0x4EA3110", VA = "0x4EA3110")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000003")]
 	public string styleName
 	{
-		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x4EA3120", Offset = "0x4EA3120", VA = "0x4EA3120")]
+		[Token(Token = "0x6000003")]
+		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4EA3130", Offset = "0x4EA3130", VA = "0x4EA3130")]
-		set
-		{
-		}
 	}
 
 	[Token(Token = "0x17000004")]
-	public int pointSize
+	public float pointSize
 	{
-		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4EA3140", Offset = "0x4EA3140", VA = "0x4EA3140")]
+		[Token(Token = "0x6000004")]
+		[Address(RVA = "0x2E82BD0", Offset = "0x2E811D0", VA = "0x182E82BD0")]
 		get
 		{
-			return default(int);
-		}
-		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x4EA3150", Offset = "0x4EA3150", VA = "0x4EA3150")]
-		set
-		{
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000005")]
 	public float scale
 	{
-		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4EA3160", Offset = "0x4EA3160", VA = "0x4EA3160")]
+		[Token(Token = "0x6000005")]
+		[Address(RVA = "0x2E8CC00", Offset = "0x2E8B200", VA = "0x182E8CC00")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x4EA3170", Offset = "0x4EA3170", VA = "0x4EA3170")]
+		[Token(Token = "0x6000006")]
+		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000006")]
-	public float lineHeight
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.TextCoreTextEngineModule" })]
+	internal int unitsPerEM
 	{
-		[Token(Token = "0x600000A")]
-		[Address(RVA = "0x4EA3180", Offset = "0x4EA3180", VA = "0x4EA3180")]
+		[Token(Token = "0x6000007")]
+		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
 		get
 		{
-			return default(float);
+			return default(int);
 		}
-		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x4EA3190", Offset = "0x4EA3190", VA = "0x4EA3190")]
+		[Token(Token = "0x6000008")]
+		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000007")]
-	public float ascentLine
+	public float lineHeight
 	{
-		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x4EA31A0", Offset = "0x4EA31A0", VA = "0x4EA31A0")]
+		[Token(Token = "0x6000009")]
+		[Address(RVA = "0x2F2DDD0", Offset = "0x2F2C3D0", VA = "0x182F2DDD0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4EA31B0", Offset = "0x4EA31B0", VA = "0x4EA31B0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000008")]
-	public float capLine
+	public float ascentLine
 	{
-		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x4EA31C0", Offset = "0x4EA31C0", VA = "0x4EA31C0")]
+		[Token(Token = "0x600000A")]
+		[Address(RVA = "0x2FFD2A0", Offset = "0x2FFB8A0", VA = "0x182FFD2A0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x600000F")]
-		[Address(RVA = "0x4EA31D0", Offset = "0x4EA31D0", VA = "0x4EA31D0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000009")]
-	public float meanLine
+	public float capLine
 	{
-		[Token(Token = "0x6000010")]
-		[Address(RVA = "0x4EA31E0", Offset = "0x4EA31E0", VA = "0x4EA31E0")]
+		[Token(Token = "0x600000B")]
+		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4EA31F0", Offset = "0x4EA31F0", VA = "0x4EA31F0")]
+		[Token(Token = "0x600000C")]
+		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700000A")]
-	public float baseline
+	public float meanLine
 	{
-		[Token(Token = "0x6000012")]
-		[Address(RVA = "0x4EA3200", Offset = "0x4EA3200", VA = "0x4EA3200")]
+		[Token(Token = "0x600000D")]
+		[Address(RVA = "0x2E8CBF0", Offset = "0x2E8B1F0", VA = "0x182E8CBF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000013")]
-		[Address(RVA = "0x4EA3210", Offset = "0x4EA3210", VA = "0x4EA3210")]
+		[Token(Token = "0x600000E")]
+		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700000B")]
-	public float descentLine
+	public float baseline
 	{
-		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4EA3220", Offset = "0x4EA3220", VA = "0x4EA3220")]
+		[Token(Token = "0x600000F")]
+		[Address(RVA = "0x2FC65E0", Offset = "0x2FC4BE0", VA = "0x182FC65E0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x4EA3230", Offset = "0x4EA3230", VA = "0x4EA3230")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700000C")]
-	public float superscriptOffset
+	public float descentLine
 	{
-		[Token(Token = "0x6000016")]
-		[Address(RVA = "0x4EA3240", Offset = "0x4EA3240", VA = "0x4EA3240")]
+		[Token(Token = "0x6000010")]
+		[Address(RVA = "0x2FC65D0", Offset = "0x2FC4BD0", VA = "0x182FC65D0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x6000017")]
-		[Address(RVA = "0x4EA3250", Offset = "0x4EA3250", VA = "0x4EA3250")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700000D")]
-	public float superscriptSize
+	public float superscriptOffset
 	{
-		[Token(Token = "0x6000018")]
-		[Address(RVA = "0x4EA3260", Offset = "0x4EA3260", VA = "0x4EA3260")]
+		[Token(Token = "0x6000011")]
+		[Address(RVA = "0x2FC6590", Offset = "0x2FC4B90", VA = "0x182FC6590")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x6000019")]
-		[Address(RVA = "0x4EA3270", Offset = "0x4EA3270", VA = "0x4EA3270")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700000E")]
-	public float subscriptOffset
+	public float superscriptSize
 	{
-		[Token(Token = "0x600001A")]
-		[Address(RVA = "0x4EA3280", Offset = "0x4EA3280", VA = "0x4EA3280")]
+		[Token(Token = "0x6000012")]
+		[Address(RVA = "0x2FC65A0", Offset = "0x2FC4BA0", VA = "0x182FC65A0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x600001B")]
-		[Address(RVA = "0x4EA3290", Offset = "0x4EA3290", VA = "0x4EA3290")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x1700000F")]
-	public float subscriptSize
+	public float subscriptOffset
 	{
-		[Token(Token = "0x600001C")]
-		[Address(RVA = "0x4EA32A0", Offset = "0x4EA32A0", VA = "0x4EA32A0")]
+		[Token(Token = "0x6000013")]
+		[Address(RVA = "0x2FFD2C0", Offset = "0x2FFB8C0", VA = "0x182FFD2C0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x600001D")]
-		[Address(RVA = "0x4EA32B0", Offset = "0x4EA32B0", VA = "0x4EA32B0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000010")]
-	public float underlineOffset
+	public float subscriptSize
 	{
-		[Token(Token = "0x600001E")]
-		[Address(RVA = "0x4EA32C0", Offset = "0x4EA32C0", VA = "0x4EA32C0")]
+		[Token(Token = "0x6000014")]
+		[Address(RVA = "0x2FFD2D0", Offset = "0x2FFB8D0", VA = "0x182FFD2D0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x4EA32D0", Offset = "0x4EA32D0", VA = "0x4EA32D0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000011")]
-	public float underlineThickness
+	public float underlineOffset
 	{
-		[Token(Token = "0x6000020")]
-		[Address(RVA = "0x4EA32E0", Offset = "0x4EA32E0", VA = "0x4EA32E0")]
+		[Token(Token = "0x6000015")]
+		[Address(RVA = "0x2FFD2F0", Offset = "0x2FFB8F0", VA = "0x182FFD2F0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x6000021")]
-		[Address(RVA = "0x4EA32F0", Offset = "0x4EA32F0", VA = "0x4EA32F0")]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000012")]
-	public float strikethroughOffset
+	public float underlineThickness
 	{
-		[Token(Token = "0x6000022")]
-		[Address(RVA = "0x4EA3300", Offset = "0x4EA3300", VA = "0x4EA3300")]
+		[Token(Token = "0x6000016")]
+		[Address(RVA = "0x2FFD300", Offset = "0x2FFB900", VA = "0x182FFD300")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x4EA3310", Offset = "0x4EA3310", VA = "0x4EA3310")]
-		set
-		{
-		}
 	}
 
 	[Token(Token = "0x17000013")]
-	public float strikethroughThickness
+	public float strikethroughOffset
 	{
-		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x4EA3320", Offset = "0x4EA3320", VA = "0x4EA3320")]
+		[Token(Token = "0x6000017")]
+		[Address(RVA = "0x2FFD2B0", Offset = "0x2FFB8B0", VA = "0x182FFD2B0")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000018")]
+		[Address(RVA = "0x2D45F10", Offset = "0x2D44510", VA = "0x182D45F10")]
 		set
 		{
 		}
@@ -439,16 +382,11 @@ public struct FaceInfo
 	[Token(Token = "0x17000014")]
 	public float tabWidth
 	{
-		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x4EA3330", Offset = "0x4EA3330", VA = "0x4EA3330")]
+		[Token(Token = "0x6000019")]
+		[Address(RVA = "0x2FFD2E0", Offset = "0x2FFB8E0", VA = "0x182FFD2E0")]
 		get
 		{
 			return default(float);
-		}
-		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x4EA3340", Offset = "0x4EA3340", VA = "0x4EA3340")]
-		set
-		{
 		}
 	}
 }

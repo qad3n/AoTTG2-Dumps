@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A9")]
+[Token(Token = "0x20000AB")]
 public interface IScrollHandler : IEventSystemHandler
 {
-	[Token(Token = "0x6000647")]
+	[Token(Token = "0x600068E")]
 	void OnScroll(PointerEventData eventData);
 }

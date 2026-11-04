@@ -19,20 +19,20 @@ public struct GlyphRect : IEquatable<GlyphRect>
 {
 	[Token(Token = "0x400001C")]
 	[FieldOffset(Offset = "0x0")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("x")]
+	[SerializeField]
 	private int m_X;
 
 	[Token(Token = "0x400001D")]
 	[FieldOffset(Offset = "0x4")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("y")]
+	[SerializeField]
 	private int m_Y;
 
 	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x8")]
-	[SerializeField]
 	[UnityEngine.Bindings.NativeName("width")]
+	[SerializeField]
 	private int m_Width;
 
 	[Token(Token = "0x400001F")]
@@ -48,8 +48,8 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	[Token(Token = "0x17000015")]
 	public int x
 	{
-		[Token(Token = "0x6000027")]
-		[Address(RVA = "0x4EA3350", Offset = "0x4EA3350", VA = "0x4EA3350")]
+		[Token(Token = "0x600001A")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(int);
@@ -59,8 +59,8 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	[Token(Token = "0x17000016")]
 	public int y
 	{
-		[Token(Token = "0x6000028")]
-		[Address(RVA = "0x4EA3360", Offset = "0x4EA3360", VA = "0x4EA3360")]
+		[Token(Token = "0x600001B")]
+		[Address(RVA = "0xD161B0", Offset = "0xD147B0", VA = "0x180D161B0")]
 		get
 		{
 			return default(int);
@@ -70,8 +70,8 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	[Token(Token = "0x17000017")]
 	public int width
 	{
-		[Token(Token = "0x6000029")]
-		[Address(RVA = "0x4EA3370", Offset = "0x4EA3370", VA = "0x4EA3370")]
+		[Token(Token = "0x600001C")]
+		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
 		get
 		{
 			return default(int);
@@ -81,8 +81,8 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	[Token(Token = "0x17000018")]
 	public int height
 	{
-		[Token(Token = "0x600002A")]
-		[Address(RVA = "0x4EA3380", Offset = "0x4EA3380", VA = "0x4EA3380")]
+		[Token(Token = "0x600001D")]
+		[Address(RVA = "0xAC8B50", Offset = "0xAC7150", VA = "0x180AC8B50")]
 		get
 		{
 			return default(int);
@@ -92,36 +92,36 @@ public struct GlyphRect : IEquatable<GlyphRect>
 	[Token(Token = "0x17000019")]
 	public static GlyphRect zero
 	{
-		[Token(Token = "0x600002B")]
-		[Address(RVA = "0x4EA3390", Offset = "0x4EA3390", VA = "0x4EA3390")]
+		[Token(Token = "0x600001E")]
+		[Address(RVA = "0x3002B90", Offset = "0x3001190", VA = "0x183002B90")]
 		get
 		{
 			return default(GlyphRect);
 		}
 	}
 
-	[Token(Token = "0x600002C")]
-	[Address(RVA = "0x4EA33E0", Offset = "0x4EA33E0", VA = "0x4EA33E0")]
+	[Token(Token = "0x600001F")]
+	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
 	public GlyphRect(int x, int y, int width, int height)
 	{
 	}
 
-	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x4EA33F0", Offset = "0x4EA33F0", VA = "0x4EA33F0", Slot = "2")]
+	[Token(Token = "0x6000020")]
+	[Address(RVA = "0x3002B00", Offset = "0x3001100", VA = "0x183002B00", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x4EA3440", Offset = "0x4EA3440", VA = "0x4EA3440", Slot = "0")]
+	[Token(Token = "0x6000021")]
+	[Address(RVA = "0x3002AA0", Offset = "0x30010A0", VA = "0x183002AA0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x4EA34A0", Offset = "0x4EA34A0", VA = "0x4EA34A0", Slot = "4")]
+	[Token(Token = "0x6000022")]
+	[Address(RVA = "0x3002A20", Offset = "0x3001020", VA = "0x183002A20", Slot = "4")]
 	public bool Equals(GlyphRect other)
 	{
 		return default(bool);

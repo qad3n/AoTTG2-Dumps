@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000132")]
-[AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
+[Token(Token = "0x200015E")]
+[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 public sealed class MultilineAttribute : PropertyAttribute
 {
-	[Token(Token = "0x4000522")]
-	[FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x40005A9")]
+	[FieldOffset(Offset = "0x18")]
 	public readonly int lines;
 
-	[Token(Token = "0x6000930")]
-	[Address(RVA = "0x4DF1FB0", Offset = "0x4DF1FB0", VA = "0x4DF1FB0")]
+	[Token(Token = "0x6000C3E")]
+	[Address(RVA = "0x2F1E0A0", Offset = "0x2F1C6A0", VA = "0x182F1E0A0")]
 	public MultilineAttribute()
 	{
 	}

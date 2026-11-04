@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000055")]
+[Token(Token = "0x2000062")]
 internal enum ValueType
 {
-	[Token(Token = "0x40001B5")]
+	[Token(Token = "0x40001FD")]
 	Unknown = -1,
-	[Token(Token = "0x40001B6")]
+	[Token(Token = "0x40001FE")]
 	Null,
-	[Token(Token = "0x40001B7")]
+	[Token(Token = "0x40001FF")]
 	Bool,
-	[Token(Token = "0x40001B8")]
+	[Token(Token = "0x4000200")]
 	Numeric,
-	[Token(Token = "0x40001B9")]
+	[Token(Token = "0x4000201")]
 	Str,
-	[Token(Token = "0x40001BA")]
+	[Token(Token = "0x4000202")]
 	Float,
-	[Token(Token = "0x40001BB")]
+	[Token(Token = "0x4000203")]
 	Decimal,
-	[Token(Token = "0x40001BC")]
+	[Token(Token = "0x4000204")]
 	Object,
-	[Token(Token = "0x40001BD")]
+	[Token(Token = "0x4000205")]
 	Date
 }

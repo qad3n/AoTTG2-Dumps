@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x2000045")]
 internal struct TextVertex
 {
-	[Token(Token = "0x40000E2")]
+	[Token(Token = "0x40001E8")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector3 position;
 
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x40001E9")]
 	[FieldOffset(Offset = "0xC")]
 	public Vector4 uv;
 
-	[Token(Token = "0x40000E4")]
+	[Token(Token = "0x40001EA")]
 	[FieldOffset(Offset = "0x1C")]
 	public Vector2 uv2;
 
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x40001EB")]
 	[FieldOffset(Offset = "0x24")]
 	public Color32 color;
 }

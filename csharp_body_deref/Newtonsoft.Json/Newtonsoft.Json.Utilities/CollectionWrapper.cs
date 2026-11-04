@@ -57,18 +57,18 @@ internal class CollectionWrapper<T> : ICollection<T>, IEnumerable<T>, IEnumerabl
 		}
 	}
 
-	[Token(Token = "0x170000B0")]
-	private object? System_002ECollections_002EIList_002EItem
+	// C# has no syntax for parameterized property 'System.Collections.IList.Item'.
+	// Its 'property:' attributes below are ignored by the compiler (CS0657).
+	[property: Token(Token = "0x170000B0")]
+	[Token(Token = "0x600052B")]
+	private object? System_002ECollections_002EIList_002Eget_Item(int index)
 	{
-		[Token(Token = "0x600052B")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600052C")]
-		set
-		{
-		}
+		return null;
+	}
+
+	[Token(Token = "0x600052C")]
+	private void System_002ECollections_002EIList_002Eset_Item(int index, object? value)
+	{
 	}
 
 	[Token(Token = "0x170000B1")]

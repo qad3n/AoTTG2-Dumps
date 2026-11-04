@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000206")]
+[Token(Token = "0x2000257")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct TimeUpdate
 {
-	[Token(Token = "0x2000207")]
+	[Token(Token = "0x2000258")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct WaitForLastPresentationAndUpdateTime
 	{

@@ -24,7 +24,7 @@ internal class SafeBag
 	public string BagOID
 	{
 		[Token(Token = "0x6000042")]
-		[Address(RVA = "0x3AA1AB0", Offset = "0x3AA1AB0", VA = "0x3AA1AB0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class SafeBag
 	public ASN1 ASN1
 	{
 		[Token(Token = "0x6000043")]
-		[Address(RVA = "0x3AA1AC0", Offset = "0x3AA1AC0", VA = "0x3AA1AC0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -43,7 +43,7 @@ internal class SafeBag
 	}
 
 	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x3AA1A70", Offset = "0x3AA1A70", VA = "0x3AA1A70")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public SafeBag(string bagOID, ASN1 asn1)
 	{
 	}

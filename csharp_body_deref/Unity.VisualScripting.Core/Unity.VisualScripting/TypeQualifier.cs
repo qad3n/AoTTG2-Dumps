@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000174")]
 public enum TypeQualifier
 {
-	[Token(Token = "0x400088D")]
+	[Token(Token = "0x400088B")]
 	Name,
-	[Token(Token = "0x400088E")]
+	[Token(Token = "0x400088C")]
 	Namespace,
-	[Token(Token = "0x400088F")]
+	[Token(Token = "0x400088D")]
 	GlobalNamespace
 }

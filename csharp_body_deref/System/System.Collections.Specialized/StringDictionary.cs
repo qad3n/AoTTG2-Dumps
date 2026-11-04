@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 namespace System.Collections.Specialized;
 
 [Serializable]
-[Token(Token = "0x200033D")]
+[Token(Token = "0x2000248")]
 [DefaultMember("Item")]
 public class StringDictionary : IEnumerable
 {
-	[Token(Token = "0x4000EFA")]
+	[Token(Token = "0x4000831")]
 	[FieldOffset(Offset = "0x10")]
 	internal Hashtable contents;
 
-	[Token(Token = "0x60015A5")]
-	[Address(RVA = "0x48E66E0", Offset = "0x48E66E0", VA = "0x48E66E0")]
+	[Token(Token = "0x6000FEC")]
+	[Address(RVA = "0x28CBDF0", Offset = "0x28CA3F0", VA = "0x1828CBDF0")]
 	public StringDictionary()
 	{
 	}
 
-	[Token(Token = "0x60015A6")]
-	[Address(RVA = "0x48E6740", Offset = "0x48E6740", VA = "0x48E6740", Slot = "5")]
+	[Token(Token = "0x6000FED")]
+	[Address(RVA = "0x28DC580", Offset = "0x28DAB80", VA = "0x1828DC580", Slot = "5")]
 	public virtual void Add(string key, string value)
 	{
 	}
 
-	[Token(Token = "0x60015A7")]
-	[Address(RVA = "0x48E67D0", Offset = "0x48E67D0", VA = "0x48E67D0", Slot = "6")]
+	[Token(Token = "0x6000FEE")]
+	[Address(RVA = "0x2547410", Offset = "0x2545A10", VA = "0x182547410", Slot = "6")]
 	public virtual IEnumerator GetEnumerator()
 	{
 		return null;

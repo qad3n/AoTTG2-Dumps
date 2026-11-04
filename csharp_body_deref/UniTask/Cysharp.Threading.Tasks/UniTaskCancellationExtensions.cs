@@ -11,25 +11,25 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000074")]
+[Token(Token = "0x2000072")]
 public static class UniTaskCancellationExtensions
 {
-	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x49DA830", Offset = "0x49DA830", VA = "0x49DA830")]
+	[Token(Token = "0x6000197")]
+	[Address(RVA = "0x291A610", Offset = "0x2918C10", VA = "0x18291A610")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this MonoBehaviour monoBehaviour)
 	{
 		return default(CancellationToken);
 	}
 
-	[Token(Token = "0x600019A")]
-	[Address(RVA = "0x49DA850", Offset = "0x49DA850", VA = "0x49DA850")]
+	[Token(Token = "0x6000198")]
+	[Address(RVA = "0x291A6C0", Offset = "0x2918CC0", VA = "0x18291A6C0")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this GameObject gameObject)
 	{
 		return default(CancellationToken);
 	}
 
-	[Token(Token = "0x600019B")]
-	[Address(RVA = "0x49DA870", Offset = "0x49DA870", VA = "0x49DA870")]
+	[Token(Token = "0x6000199")]
+	[Address(RVA = "0x291A630", Offset = "0x2918C30", VA = "0x18291A630")]
 	public static CancellationToken GetCancellationTokenOnDestroy(this Component component)
 	{
 		return default(CancellationToken);

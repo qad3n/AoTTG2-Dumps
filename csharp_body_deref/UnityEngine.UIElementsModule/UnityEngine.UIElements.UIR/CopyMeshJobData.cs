@@ -10,34 +10,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004A6")]
+[Token(Token = "0x200059F")]
 internal struct CopyMeshJobData
 {
-	[Token(Token = "0x4000E6D")]
+	[Token(Token = "0x4001409")]
 	[FieldOffset(Offset = "0x0")]
 	public IntPtr vertSrc;
 
-	[Token(Token = "0x4000E6E")]
+	[Token(Token = "0x400140A")]
 	[FieldOffset(Offset = "0x8")]
 	public IntPtr vertDst;
 
-	[Token(Token = "0x4000E6F")]
+	[Token(Token = "0x400140B")]
 	[FieldOffset(Offset = "0x10")]
 	public int vertCount;
 
-	[Token(Token = "0x4000E70")]
+	[Token(Token = "0x400140C")]
 	[FieldOffset(Offset = "0x18")]
 	public IntPtr indexSrc;
 
-	[Token(Token = "0x4000E71")]
+	[Token(Token = "0x400140D")]
 	[FieldOffset(Offset = "0x20")]
 	public IntPtr indexDst;
 
-	[Token(Token = "0x4000E72")]
+	[Token(Token = "0x400140E")]
 	[FieldOffset(Offset = "0x28")]
 	public int indexCount;
 
-	[Token(Token = "0x4000E73")]
+	[Token(Token = "0x400140F")]
 	[FieldOffset(Offset = "0x2C")]
 	public int indexOffset;
 }

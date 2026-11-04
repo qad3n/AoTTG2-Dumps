@@ -12,13 +12,13 @@ using UnityEngine;
 
 namespace Gilzoide.FlexUi;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
 public class NaNIsDisabledAttribute : PropertyAttribute
 {
-	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x3A25FD0", Offset = "0x3A25FD0", VA = "0x3A25FD0")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
 	public NaNIsDisabledAttribute()
 	{
 	}

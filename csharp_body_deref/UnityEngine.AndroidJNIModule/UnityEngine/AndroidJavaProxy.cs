@@ -10,94 +10,94 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000006")]
 public class AndroidJavaProxy
 {
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly AndroidJavaClass javaInterface;
 
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x4000006")]
 	[FieldOffset(Offset = "0x18")]
 	internal IntPtr proxyObject;
 
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x4000007")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly GlobalJavaObjectRef s_JavaLangSystemClass;
 
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x4000008")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly IntPtr s_HashCodeMethodID;
 
-	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4D99940", Offset = "0x4D99940", VA = "0x4D99940")]
+	[Token(Token = "0x600000C")]
+	[Address(RVA = "0x2EA4350", Offset = "0x2EA2950", VA = "0x182EA4350")]
 	public AndroidJavaProxy(string javaInterface)
 	{
 	}
 
-	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x4D99F20", Offset = "0x4D99F20", VA = "0x4D99F20")]
+	[Token(Token = "0x600000D")]
+	[Address(RVA = "0x2EA43D0", Offset = "0x2EA29D0", VA = "0x182EA43D0")]
 	public AndroidJavaProxy(AndroidJavaClass javaInterface)
 	{
 	}
 
-	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x4D99F60", Offset = "0x4D99F60", VA = "0x4D99F60", Slot = "1")]
+	[Token(Token = "0x600000E")]
+	[Address(RVA = "0x2EA3180", Offset = "0x2EA1780", VA = "0x182EA3180", Slot = "1")]
 	~AndroidJavaProxy()
 	{
 	}
 
-	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x4D9A020", Offset = "0x4D9A020", VA = "0x4D9A020", Slot = "4")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x2EA32E0", Offset = "0x2EA18E0", VA = "0x182EA32E0", Slot = "4")]
 	public virtual AndroidJavaObject Invoke(string methodName, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4D9B970", Offset = "0x4D9B970", VA = "0x4D9B970", Slot = "5")]
+	[Token(Token = "0x6000010")]
+	[Address(RVA = "0x2EA3C70", Offset = "0x2EA2270", VA = "0x182EA3C70", Slot = "5")]
 	public virtual AndroidJavaObject Invoke(string methodName, AndroidJavaObject[] javaArgs)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x4D99A70", Offset = "0x4D99A70", VA = "0x4D99A70", Slot = "6")]
+	[Token(Token = "0x6000011")]
+	[Address(RVA = "0x2EA3E30", Offset = "0x2EA2430", VA = "0x182EA3E30", Slot = "6")]
 	public virtual IntPtr Invoke(string methodName, IntPtr javaArgs)
 	{
 		return default(IntPtr);
 	}
 
-	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x4D9CDB0", Offset = "0x4D9CDB0", VA = "0x4D9CDB0", Slot = "7")]
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x2EA4410", Offset = "0x2EA2A10", VA = "0x182EA4410", Slot = "7")]
 	public virtual bool equals(AndroidJavaObject obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x4D9CE10", Offset = "0x4D9CE10", VA = "0x4D9CE10", Slot = "8")]
+	[Token(Token = "0x6000013")]
+	[Address(RVA = "0x2EA4470", Offset = "0x2EA2A70", VA = "0x182EA4470", Slot = "8")]
 	public virtual int hashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x4D9CF60", Offset = "0x4D9CF60", VA = "0x4D9CF60", Slot = "9")]
+	[Token(Token = "0x6000014")]
+	[Address(RVA = "0x2EA4550", Offset = "0x2EA2B50", VA = "0x182EA4550", Slot = "9")]
 	public virtual string toString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x4D9CFC0", Offset = "0x4D9CFC0", VA = "0x4D9CFC0")]
+	[Token(Token = "0x6000015")]
+	[Address(RVA = "0x2EA3200", Offset = "0x2EA1800", VA = "0x182EA3200")]
 	internal AndroidJavaObject GetProxyObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4D9B7A0", Offset = "0x4D9B7A0", VA = "0x4D9B7A0")]
+	[Token(Token = "0x6000016")]
+	[Address(RVA = "0x2EA3220", Offset = "0x2EA1820", VA = "0x182EA3220")]
 	internal IntPtr GetRawProxy()
 	{
 		return default(IntPtr);

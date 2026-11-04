@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000F0")]
+[Token(Token = "0x2000130")]
 public enum X509NameType
 {
-	[Token(Token = "0x40004A5")]
+	[Token(Token = "0x4000577")]
 	SimpleName,
-	[Token(Token = "0x40004A6")]
+	[Token(Token = "0x4000578")]
 	EmailName,
-	[Token(Token = "0x40004A7")]
+	[Token(Token = "0x4000579")]
 	UpnName,
-	[Token(Token = "0x40004A8")]
+	[Token(Token = "0x400057A")]
 	DnsName,
-	[Token(Token = "0x40004A9")]
+	[Token(Token = "0x400057B")]
 	DnsFromAlternativeName,
-	[Token(Token = "0x40004AA")]
+	[Token(Token = "0x400057C")]
 	UrlName
 }

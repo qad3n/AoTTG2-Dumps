@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicAnnieAnimationEnum
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicAnnieAnimationEnum.cs
@@ -8,2912 +8,2775 @@
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicAnnieAnimationEnum_o* CustomLogic_CustomLogicAnnieAnimationEnum_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x4146fe0
+// 0x181fa4780
 
 CustomLogic_CustomLogicAnnieAnimationEnum_o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Factory__CreateInstance
           (System_Object_array *args,MethodInfo *method)
 
 {
-  uint in_EAX;
-  uint32_t uVar1;
-  bool_conflict bVar2;
   CustomLogic_BuiltinClassInstance_o *__this;
-  System_String_o *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o *pSVar1;
   System_String_o *str2;
-  undefined8 uVar5;
+  System_String_o *str0;
+  Il2CppClass *klass;
   System_ArgumentException_o *__this_00;
-  undefined8 *puVar6;
-  System_ArgumentException_o *pSVar7;
-  System_Func_T__object__o *pSVar8;
-  CustomLogic_CustomLogicAnnieAnimationEnum_o *pCVar9;
-  undefined8 **ppuVar10;
-  undefined8 *puStack_30;
-  System_ArgumentException_o *pSStack_28;
-  System_String_o *pSStack_20;
-  undefined8 uStack_18;
+  MethodInfo *lastManagedFrame;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057acbc8 == '\0') {
-    pSStack_20 = (System_String_o *)0x4146ffc;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicAnnieAnimationEnum);
-    g_data_057acbc8 = '\x01';
+  if (Il2CppMethodInitialized_1843458fa == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum);
+    Il2CppMethodInitialized_1843458fa = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
-  if (args == (System_Object_array *)0x0) {
-    pSStack_20 = (System_String_o *)0x4147077;
-    il2cpp_runtime_helper_022b2c90();
+  local_res8[0] = 0;
+  if (args != (System_Object_array *)0x0) {
+    if (args->max_length == 0) {
+      __this = (CustomLogic_BuiltinClassInstance_o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum);
+      if (Il2CppMethodInitialized_1843458d6 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+        Il2CppMethodInitialized_1843458d6 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+      }
+      CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
+      return (CustomLogic_CustomLogicAnnieAnimationEnum_o *)__this;
+    }
+    NullCheck(args);
+    local_res8[0] = (int32_t)args->max_length;
+    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicAnnieAnimationEnum constructor found that takes ");
+    pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_1a77cc0(__this_00,pSVar1,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Factory_CreateInstance);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  else if (args->max_length == 0) {
-    pSStack_20 = (System_String_o *)0x4147026;
-    __this = (CustomLogic_BuiltinClassInstance_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicAnnieAnimationEnum);
-    if (g_data_057acba4 == '\0') {
-      pSStack_20 = (System_String_o *)0x414703e;
-      il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-      g_data_057acba4 = '\x01';
-    }
-    if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-      pSStack_20 = (System_String_o *)0x414705d;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_20 = (System_String_o *)0x4147067;
-    CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
-    return (CustomLogic_CustomLogicAnnieAnimationEnum_o *)__this;
-  }
-  pSStack_20 = (System_String_o *)0x414707f;
-  il2cpp_runtime_helper_01f681a0(args);
-  uStack_18 = CONCAT44((int)args->max_length,(uint)uStack_18);
-  pSStack_20 = (System_String_o *)0x4147092;
-  pSVar3 = System_Int32__ToString((int)&uStack_18 + 4,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41470a1;
-  pSVar4 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"No CustomLogicAnnieAnimationEnum constructor found that takes ");
-  pSStack_20 = (System_String_o *)0x41470b0;
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&" arguments");
-  pSStack_20 = (System_String_o *)0x41470c0;
-  pSVar3 = System_String__Concat_3af7150(pSVar4,pSVar3,str2,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41470cf;
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentException);
-  pSStack_20 = (System_String_o *)0x41470d7;
-  __this_00 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  pSStack_20 = (System_String_o *)0x41470e7;
-  System_ArgumentException___ctor_3c12490(__this_00,pSVar3,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41470f3;
-  il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicAnnieAnimationEnum_CreateInstance);
-  pSStack_20 = (System_String_o *)0x41470fe;
-  pSVar7 = __this_00;
-  puStack_30 = (undefined8 *)il2cpp_runtime_helper_022b2b10();
-  ppuVar10 = &puStack_30;
-  pSStack_28 = __this_00;
-  pSStack_20 = pSVar3;
-  if (g_data_057acbc9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Run");
-    il2cpp_runtime_helper_023445d0(&"EmoteWave");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomLeft");
-    il2cpp_runtime_helper_023445d0(&"Die");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadL");
-    il2cpp_runtime_helper_023445d0(&"AttackComboBlind");
-    il2cpp_runtime_helper_023445d0(&"AttackCombo");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontL");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadR");
-    il2cpp_runtime_helper_023445d0(&"EmoteTaunt");
-    il2cpp_runtime_helper_023445d0(&"AttackStomp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomRight");
-    il2cpp_runtime_helper_023445d0(&"Land");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpLeft");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidRight");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushBack");
-    il2cpp_runtime_helper_023445d0(&"Jump");
-    il2cpp_runtime_helper_023445d0(&"Stun");
-    il2cpp_runtime_helper_023445d0(&"AttackSwing");
-    il2cpp_runtime_helper_023445d0(&"EmoteSalute");
-    il2cpp_runtime_helper_023445d0(&"SitIdle");
-    il2cpp_runtime_helper_023445d0(&"AttackBite");
-    il2cpp_runtime_helper_023445d0(&"AttackHead");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpRight");
-    il2cpp_runtime_helper_023445d0(&"Walk");
-    il2cpp_runtime_helper_023445d0(&"SitFall");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUp");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontR");
-    il2cpp_runtime_helper_023445d0(&"Idle");
-    il2cpp_runtime_helper_023445d0(&"Fall");
-    il2cpp_runtime_helper_023445d0(&"AttackKick");
-    il2cpp_runtime_helper_023445d0(&"SitUp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidLeft");
-    il2cpp_runtime_helper_023445d0(&"EmoteRoar");
-    g_data_057acbc9 = '\x01';
-  }
-  uVar1 = _PrivateImplementationDetails___ComputeStringHash((System_String_o *)pSVar7,(MethodInfo *)0x0);
-  if (uVar1 < 0x5376547a) {
-    if (uVar1 < 0x350e21b3) {
-      if (uVar1 < 0x12a6a2bb) {
-        if (uVar1 < 0xab017f0) {
-          if (uVar1 == 0x228de11) {
-            bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"EmoteTaunt",(MethodInfo *)0x0);
-            if ((char)bVar2 != '\0') {
-              puVar6 = &TypeInfo_Bindings;
-              if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-                puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-              }
-              puStack_30 = puVar6;
-              if (g_data_057acbe9 == '\0') {
-                il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteTaunt_g____getter_3);
-                il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-                g_data_057acbe9 = '\x01';
-              }
-              pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              System_Func_object__object____ctor();
-              pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              CustomLogic_CLPropertyBinding_object____ctor
-                        ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0
-                         ,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              return pCVar9;
-            }
-          }
-          else if (uVar1 == 0xab017ef) {
-            bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabUpLeft",(MethodInfo *)0x0);
-            if ((char)bVar2 != '\0') {
-              puVar6 = &TypeInfo_Bindings;
-              if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-                puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-              }
-              puStack_30 = puVar6;
-              if (g_data_057acbe2 == '\0') {
-                il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpLeft_g____ge);
-                il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-                g_data_057acbe2 = '\x01';
-              }
-              pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              System_Func_object__object____ctor();
-              pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              CustomLogic_CLPropertyBinding_object____ctor
-                        ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0
-                         ,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              return pCVar9;
-            }
-          }
-        }
-        else if (uVar1 == 0xe1ef32d) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Jump",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbcd == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Jump_g____getter_5_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbcd = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-        else if (uVar1 == 0x12a6a2ba) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabBottomRight",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbde == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomRight_g);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbde = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-      }
-      else if (uVar1 < 0x2cfd24da) {
-        if (uVar1 == 0x22ccd730) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Walk",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbcc == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Walk_g____getter_4_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbcc = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-        else if (uVar1 == 0x2cfd24d9) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabBottomLeft",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbdd == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomLeft_g);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbdd = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-      }
-      else if (uVar1 == 0x324d8372) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"EmoteWave",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbea == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteWave_g____getter_34);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbea = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0x350e21b2) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBrushFrontL",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbd9 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontL_g____g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd9 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 < 0x3d692a72) {
-      if (uVar1 < 0x38122e2c) {
-        if (uVar1 == 0x371c1522) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackStomp",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbe5 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackStomp_g____getter);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbe5 = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-        else if (uVar1 == 0x38122e2b) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackHead",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbe6 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackHead_g____getter_3);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbe6 = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-      }
-      else if (uVar1 == 0x3acb63d7) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBite",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbe7 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBite_g____getter_3);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe7 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0x3d692a71) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Die",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbd0 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Die_g____getter_8_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd0 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 < 0x45516aab) {
-      if (uVar1 == 0x44831a08) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackComboBlind",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbd6 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackComboBlind_g____ge);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd6 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0x45516aaa) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"SitUp",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbd4 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitUp_g____getter_12_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd4 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 == 0x45aa17b3) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Idle",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        ppuVar10 = (undefined8 **)&uStack_18;
-        pSVar7 = pSStack_28;
-        pSVar3 = pSStack_20;
-        goto CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle;
-      }
-    }
-    else if (uVar1 == 0x470e3e08) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBrushFrontR",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbda == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontR_g____g);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbda = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-    else if (uVar1 == 0x53765479) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackCombo",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbd5 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackCombo_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd5 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-  }
-  else if (uVar1 < 0x93e6a9c5) {
-    if (uVar1 < 0x8006ece1) {
-      if (uVar1 < 0x76917343) {
-        if (uVar1 == 0x5d992b41) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Stun",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbd1 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Stun_g____getter_9_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbd1 = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-        else if (uVar1 == 0x76917342) {
-          bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabUp",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puVar6 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            puStack_30 = puVar6;
-            if (g_data_057acbe1 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUp_g____getter);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbe1 = '\x01';
-            }
-            pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                       MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return pCVar9;
-          }
-        }
-      }
-      else if (uVar1 == 0x8006ece0) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabUpRight",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbe3 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpRight_g____g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe3 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0x7b00bc80) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Fall",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbce == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Fall_g____getter_6_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbce = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 < 0x912e23bf) {
-      if (uVar1 == 0x8d57e66a) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Run",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbcb == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Run_g____getter_3_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbcb = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0x912e23be) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"SitFall",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbd2 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitFall_g____getter_10_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd2 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 == 0x92d2a9f1) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackSwing",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbd7 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackSwing_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd7 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-    else if (uVar1 == 0x93e6a9c4) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBrushBack",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbd8 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushBack_g____get);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd8 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-  }
-  else if (uVar1 < 0xc8f30ee8) {
-    if (uVar1 < 0xc35fd7d4) {
-      if (uVar1 == 0xbd457b0a) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabMidLeft",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbdf == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidLeft_g____g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbdf = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-      else if (uVar1 == 0xc35fd7d3) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"EmoteSalute",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057acbe8 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteSalute_g____getter);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe8 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return pCVar9;
-        }
-      }
-    }
-    else if (uVar1 == 0xc6f75897) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"EmoteRoar",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbeb == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteRoar_g____getter_35);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbeb = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-    else if (uVar1 == 0xc8f30ee7) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackKick",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbe4 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackKick_g____getter_2);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbe4 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-  }
-  else if (uVar1 < 0xe308a058) {
-    if (uVar1 == 0xdecfe799) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBrushHeadR",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbdc == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadR_g____ge);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbdc = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-    else if (uVar1 == 0xe308a057) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackGrabMidRight",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057acbe0 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidRight_g);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbe0 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return pCVar9;
-      }
-    }
-  }
-  else if (uVar1 == 0xe6b2342d) {
-    bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"SitIdle",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057acbd3 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitIdle_g____getter_11_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbd3 = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return pCVar9;
-    }
-  }
-  else if (uVar1 == 0xee1682bc) {
-    bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"Land",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057acbcf == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Land_g____getter_7_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbcf = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return pCVar9;
-    }
-  }
-  else if (uVar1 == 0xf8d01087) {
-    bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"AttackBrushHeadL",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057acbdb == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadL_g____ge);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbdb = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return pCVar9;
-    }
-  }
-  pSVar3 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  pSVar4 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAnnieAnimationEnum not found");
-  pSVar3 = System_String__Concat_3af7150(pSVar3,(System_String_o *)pSVar7,pSVar4,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  pSVar7 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  System_Exception___ctor_3cf6120((System_Exception_o *)pSVar7,pSVar3,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  puVar6 = (undefined8 *)il2cpp_runtime_helper_022b2b10(pSVar7,uVar5);
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle:
-  *(System_String_o **)((long)ppuVar10 + -8) = pSVar3;
-  *(System_ArgumentException_o **)((long)ppuVar10 + -0x10) = pSVar7;
-  *(undefined8 **)((long)ppuVar10 + -0x18) = puVar6;
-  if (g_data_057acbca == '\0') {
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147de9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Idle_g____getter_2_0);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147df5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e01;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e0d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbca = '\x01';
-  }
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e23;
-  pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e3c;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e4b;
-  pCVar9 = (CustomLogic_CustomLogicAnnieAnimationEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x4147e65;
-  CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return pCVar9;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x4147100
+// 0x181f81800
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings__CreateMemberBinding
           (System_String_o *name,MethodInfo *method)
 
 {
-  uint32_t uVar1;
-  bool_conflict bVar2;
+  bool bVar1;
+  uint32_t uVar2;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
+  System_String_o *pSVar3;
   System_String_o *str0;
-  System_String_o *str2;
-  undefined8 uVar3;
-  undefined8 *puVar4;
-  System_Func_T__object__o *pSVar5;
-  CustomLogic_CLPropertyBinding_T__o *pCVar6;
-  System_Exception_o *unaff_RBX;
-  System_String_o *unaff_R14;
-  undefined8 *puStack_18;
+  Il2CppClass *klass;
+  System_Exception_o *__this_01;
+  MethodInfo *pMVar4;
   
-  if (g_data_057acbc9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Run");
-    il2cpp_runtime_helper_023445d0(&"EmoteWave");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomLeft");
-    il2cpp_runtime_helper_023445d0(&"Die");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadL");
-    il2cpp_runtime_helper_023445d0(&"AttackComboBlind");
-    il2cpp_runtime_helper_023445d0(&"AttackCombo");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontL");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadR");
-    il2cpp_runtime_helper_023445d0(&"EmoteTaunt");
-    il2cpp_runtime_helper_023445d0(&"AttackStomp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomRight");
-    il2cpp_runtime_helper_023445d0(&"Land");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpLeft");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidRight");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushBack");
-    il2cpp_runtime_helper_023445d0(&"Jump");
-    il2cpp_runtime_helper_023445d0(&"Stun");
-    il2cpp_runtime_helper_023445d0(&"AttackSwing");
-    il2cpp_runtime_helper_023445d0(&"EmoteSalute");
-    il2cpp_runtime_helper_023445d0(&"SitIdle");
-    il2cpp_runtime_helper_023445d0(&"AttackBite");
-    il2cpp_runtime_helper_023445d0(&"AttackHead");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpRight");
-    il2cpp_runtime_helper_023445d0(&"Walk");
-    il2cpp_runtime_helper_023445d0(&"SitFall");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUp");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontR");
-    il2cpp_runtime_helper_023445d0(&"Idle");
-    il2cpp_runtime_helper_023445d0(&"Fall");
-    il2cpp_runtime_helper_023445d0(&"AttackKick");
-    il2cpp_runtime_helper_023445d0(&"SitUp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidLeft");
-    il2cpp_runtime_helper_023445d0(&"EmoteRoar");
-    g_data_057acbc9 = '\x01';
+  if (Il2CppMethodInitialized_1843458fb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"Run");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteWave");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBottomLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"Die");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushHeadL");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackComboBlind");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackCombo");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushFrontL");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushHeadR");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteTaunt");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackStomp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBottomRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"Land");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUpLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabMidRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushBack");
+    il2cpp_codegen_initialize_runtime_metadata(&"Jump");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stun");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackSwing");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteSalute");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitIdle");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBite");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackHead");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUpRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"Walk");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitFall");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushFrontR");
+    il2cpp_codegen_initialize_runtime_metadata(&"Idle");
+    il2cpp_codegen_initialize_runtime_metadata(&"Fall");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackKick");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitUp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabMidLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteRoar");
+    Il2CppMethodInitialized_1843458fb = '\x01';
   }
-  uVar1 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar1 < 0x5376547a) {
-    if (uVar1 < 0x350e21b3) {
-      if (uVar1 < 0x12a6a2bb) {
-        if (uVar1 < 0xab017f0) {
-          if (uVar1 == 0x228de11) {
-            bVar2 = System_String__op_Equality(name,"EmoteTaunt",(MethodInfo *)0x0);
-            if ((char)bVar2 != '\0') {
-              puStack_18 = &TypeInfo_Bindings;
-              if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-                puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+  uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
+  if (uVar2 < 0x5376547a) {
+    if (uVar2 < 0x350e21b3) {
+      if (uVar2 < 0x12a6a2bb) {
+        if (uVar2 < 0xab017f0) {
+          if (uVar2 == 0x228de11) {
+            bVar1 = System_String__op_Equality(name,"EmoteTaunt",(MethodInfo *)0x0);
+            if (bVar1) {
+              if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                  == 0) {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
               }
-              if (g_data_057acbe9 == '\0') {
-                il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteTaunt_g____getter_3);
-                il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-                il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-                g_data_057acbe9 = '\x01';
+              if (Il2CppMethodInitialized_18434591b == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&
+                           MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteTaunt_g____gett
+                          );
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+                Il2CppMethodInitialized_18434591b = '\x01';
               }
-              pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              System_Func_object__object____ctor();
-              pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              CustomLogic_CLPropertyBinding_object____ctor
-                        (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+              __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                       il2cpp_codegen_object_new
+                                 ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              pMVar4 = 
+              MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteTaunt_g____gett
+              ;
+              goto label_181f82dd4;
             }
           }
-          else if ((uVar1 == 0xab017ef) &&
-                  (bVar2 = System_String__op_Equality(name,"AttackGrabUpLeft",(MethodInfo *)0x0),
-                  (char)bVar2 != '\0')) {
-            puStack_18 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+          else if (uVar2 == 0xab017ef) {
+            bVar1 = System_String__op_Equality(name,"AttackGrabUpLeft",(MethodInfo *)0x0);
+            if (bVar1) {
+              if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                  == 0) {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+              }
+              if (Il2CppMethodInitialized_184345914 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&
+                           MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpLeft_g
+                          );
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+                Il2CppMethodInitialized_184345914 = '\x01';
+              }
+              __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                       il2cpp_codegen_object_new
+                                 ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              pMVar4 = 
+              MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpLeft_g
+              ;
+              goto label_181f82dd4;
             }
-            if (g_data_057acbe2 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpLeft_g____ge);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbe2 = '\x01';
-            }
-            pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return (CustomLogic_ICLMemberBinding_o *)pCVar6;
           }
         }
-        else if (uVar1 == 0xe1ef32d) {
-          bVar2 = System_String__op_Equality(name,"Jump",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puStack_18 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+        else if (uVar2 == 0xe1ef32d) {
+          bVar1 = System_String__op_Equality(name,"Jump",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
             }
-            if (g_data_057acbcd == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Jump_g____getter_5_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbcd = '\x01';
+            if (Il2CppMethodInitialized_1843458ff == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Jump_g____getter_5_0
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_1843458ff = '\x01';
             }
-            pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Jump_g____getter_5_0
+            ;
+            goto label_181f82dd4;
           }
         }
-        else if ((uVar1 == 0x12a6a2ba) &&
-                (bVar2 = System_String__op_Equality(name,"AttackGrabBottomRight",(MethodInfo *)0x0), (char)bVar2 != '\0')
-                ) {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+        else if (uVar2 == 0x12a6a2ba) {
+          bVar1 = System_String__op_Equality(name,"AttackGrabBottomRight",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+            }
+            if (Il2CppMethodInitialized_184345910 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomRigh
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_184345910 = '\x01';
+            }
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomRigh
+            ;
+            goto label_181f82dd4;
           }
-          if (g_data_057acbde == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomRight_g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbde = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
         }
       }
-      else if (uVar1 < 0x2cfd24da) {
-        if (uVar1 == 0x22ccd730) {
-          bVar2 = System_String__op_Equality(name,"Walk",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puStack_18 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 < 0x2cfd24da) {
+        if (uVar2 == 0x22ccd730) {
+          bVar1 = System_String__op_Equality(name,"Walk",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
             }
-            if (g_data_057acbcc == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Walk_g____getter_4_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbcc = '\x01';
+            if (Il2CppMethodInitialized_1843458fe == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Walk_g____getter_4_0
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_1843458fe = '\x01';
             }
-            pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Walk_g____getter_4_0
+            ;
+            goto label_181f82dd4;
           }
         }
-        else if ((uVar1 == 0x2cfd24d9) &&
-                (bVar2 = System_String__op_Equality(name,"AttackGrabBottomLeft",(MethodInfo *)0x0), (char)bVar2 != '\0')
-                ) {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+        else if (uVar2 == 0x2cfd24d9) {
+          bVar1 = System_String__op_Equality(name,"AttackGrabBottomLeft",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+            }
+            if (Il2CppMethodInitialized_18434590f == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomLeft
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_18434590f = '\x01';
+            }
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomLeft
+            ;
+            goto label_181f82dd4;
           }
-          if (g_data_057acbdd == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomLeft_g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbdd = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
         }
       }
-      else if (uVar1 == 0x324d8372) {
-        bVar2 = System_String__op_Equality(name,"EmoteWave",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0x324d8372) {
+        bVar1 = System_String__op_Equality(name,"EmoteWave",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
           }
-          if (g_data_057acbea == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteWave_g____getter_34);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbea = '\x01';
+          if (Il2CppMethodInitialized_18434591c == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteWave_g____gette
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_18434591c = '\x01';
           }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteWave_g____gette
+          ;
+          goto label_181f82dd4;
         }
       }
-      else if ((uVar1 == 0x350e21b2) &&
-              (bVar2 = System_String__op_Equality(name,"AttackBrushFrontL",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0x350e21b2) {
+        bVar1 = System_String__op_Equality(name,"AttackBrushFrontL",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_18434590b == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontL_g
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_18434590b = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontL_g
+          ;
+          goto label_181f82dd4;
         }
-        if (g_data_057acbd9 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontL_g____g);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd9 = '\x01';
+      }
+      goto label_181f82e16;
+    }
+    if (uVar2 < 0x3d692a72) {
+      if (uVar2 < 0x38122e2c) {
+        if (uVar2 == 0x371c1522) {
+          bVar1 = System_String__op_Equality(name,"AttackStomp",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+            }
+            if (Il2CppMethodInitialized_184345917 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackStomp_g____get
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_184345917 = '\x01';
+            }
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackStomp_g____get
+            ;
+            goto label_181f82dd4;
+          }
         }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+        else if (uVar2 == 0x38122e2b) {
+          bVar1 = System_String__op_Equality(name,"AttackHead",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+            }
+            if (Il2CppMethodInitialized_184345918 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackHead_g____gett
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_184345918 = '\x01';
+            }
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackHead_g____gett
+            ;
+            goto label_181f82dd4;
+          }
+        }
+      }
+      else if (uVar2 == 0x3acb63d7) {
+        bVar1 = System_String__op_Equality(name,"AttackBite",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345919 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBite_g____gett
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345919 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBite_g____gett
+          ;
+          goto label_181f82dd4;
+        }
+      }
+      else if (uVar2 == 0x3d692a71) {
+        bVar1 = System_String__op_Equality(name,"Die",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345902 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Die_g____getter_8_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345902 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Die_g____getter_8_0
+          ;
+          goto label_181f82dd4;
+        }
       }
     }
-    else if (uVar1 < 0x3d692a72) {
-      if (uVar1 < 0x38122e2c) {
-        if (uVar1 == 0x371c1522) {
-          bVar2 = System_String__op_Equality(name,"AttackStomp",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puStack_18 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 < 0x45516aab) {
+      if (uVar2 == 0x44831a08) {
+        bVar1 = System_String__op_Equality(name,"AttackComboBlind",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345908 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackComboBlind_g
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345908 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackComboBlind_g
+          ;
+          goto label_181f82dd4;
+        }
+      }
+      else if (uVar2 == 0x45516aaa) {
+        bVar1 = System_String__op_Equality(name,"SitUp",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345906 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitUp_g____getter_12
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345906 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitUp_g____getter_12
+          ;
+          goto label_181f82dd4;
+        }
+      }
+    }
+    else if (uVar2 == 0x45aa17b3) {
+      bVar1 = System_String__op_Equality(name,"Idle",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_1843458fc == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Idle_g____getter_2_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_1843458fc = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Idle_g____getter_2_0
+        ;
+        goto label_181f82dd4;
+      }
+    }
+    else if (uVar2 == 0x470e3e08) {
+      bVar1 = System_String__op_Equality(name,"AttackBrushFrontR",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_18434590c == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontR_g
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_18434590c = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontR_g
+        ;
+        goto label_181f82dd4;
+      }
+    }
+    else if (uVar2 == 0x53765479) {
+      bVar1 = System_String__op_Equality(name,"AttackCombo",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_184345907 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackCombo_g____get
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_184345907 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackCombo_g____get
+        ;
+        goto label_181f82dd4;
+      }
+    }
+    goto label_181f82e16;
+  }
+  if (uVar2 < 0x93e6a9c5) {
+    if (uVar2 < 0x8006ece1) {
+      if (uVar2 < 0x76917343) {
+        if (uVar2 == 0x5d992b41) {
+          bVar1 = System_String__op_Equality(name,"Stun",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
             }
-            if (g_data_057acbe5 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackStomp_g____getter);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbe5 = '\x01';
+            if (Il2CppMethodInitialized_184345903 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Stun_g____getter_9_0
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_184345903 = '\x01';
             }
-            pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Stun_g____getter_9_0
+            ;
+            goto label_181f82dd4;
           }
         }
-        else if ((uVar1 == 0x38122e2b) &&
-                (bVar2 = System_String__op_Equality(name,"AttackHead",(MethodInfo *)0x0), (char)bVar2 != '\0')
-                ) {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+        else if (uVar2 == 0x76917342) {
+          bVar1 = System_String__op_Equality(name,"AttackGrabUp",(MethodInfo *)0x0);
+          if (bVar1) {
+            if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor
+                == 0) {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+            }
+            if (Il2CppMethodInitialized_184345913 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUp_g____ge
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+              Il2CppMethodInitialized_184345913 = '\x01';
+            }
+            __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                     il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            pMVar4 = 
+            MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUp_g____ge
+            ;
+            goto label_181f82dd4;
           }
-          if (g_data_057acbe6 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackHead_g____getter_3);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe6 = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
         }
       }
-      else if (uVar1 == 0x3acb63d7) {
-        bVar2 = System_String__op_Equality(name,"AttackBite",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0x7b00bc80) {
+        bVar1 = System_String__op_Equality(name,"Fall",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
           }
-          if (g_data_057acbe7 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBite_g____getter_3);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe7 = '\x01';
+          if (Il2CppMethodInitialized_184345900 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Fall_g____getter_6_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345900 = '\x01';
           }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Fall_g____getter_6_0
+          ;
+          goto label_181f82dd4;
         }
       }
-      else if ((uVar1 == 0x3d692a71) &&
-              (bVar2 = System_String__op_Equality(name,"Die",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0x8006ece0) {
+        bVar1 = System_String__op_Equality(name,"AttackGrabUpRight",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345915 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpRight_g
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345915 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpRight_g
+          ;
+          goto label_181f82dd4;
         }
-        if (g_data_057acbd0 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Die_g____getter_8_0);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd0 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
       }
     }
-    else if (uVar1 < 0x45516aab) {
-      if (uVar1 == 0x44831a08) {
-        bVar2 = System_String__op_Equality(name,"AttackComboBlind",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 < 0x912e23bf) {
+      if (uVar2 == 0x8d57e66a) {
+        bVar1 = System_String__op_Equality(name,"Run",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
           }
-          if (g_data_057acbd6 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackComboBlind_g____ge);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbd6 = '\x01';
+          if (Il2CppMethodInitialized_1843458fd == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Run_g____getter_3_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_1843458fd = '\x01';
           }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Run_g____getter_3_0
+          ;
+          goto label_181f82dd4;
         }
       }
-      else if ((uVar1 == 0x45516aaa) &&
-              (bVar2 = System_String__op_Equality(name,"SitUp",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0x912e23be) {
+        bVar1 = System_String__op_Equality(name,"SitFall",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345904 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitFall_g____getter
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345904 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitFall_g____getter
+          ;
+          goto label_181f82dd4;
         }
-        if (g_data_057acbd4 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitUp_g____getter_12_0);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd4 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
       }
     }
-    else if (uVar1 == 0x45aa17b3) {
-      bVar2 = System_String__op_Equality(name,"Idle",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar4 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar4 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 == 0x92d2a9f1) {
+      bVar1 = System_String__op_Equality(name,"AttackSwing",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
         }
-        goto CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle;
+        if (Il2CppMethodInitialized_184345909 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackSwing_g____get
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_184345909 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackSwing_g____get
+        ;
+        goto label_181f82dd4;
       }
     }
-    else if (uVar1 == 0x470e3e08) {
-      bVar2 = System_String__op_Equality(name,"AttackBrushFrontR",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 == 0x93e6a9c4) {
+      bVar1 = System_String__op_Equality(name,"AttackBrushBack",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
         }
-        if (g_data_057acbda == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontR_g____g);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbda = '\x01';
+        if (Il2CppMethodInitialized_18434590a == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushBack_g
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_18434590a = '\x01';
         }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushBack_g
+        ;
+        goto label_181f82dd4;
       }
     }
-    else if ((uVar1 == 0x53765479) &&
-            (bVar2 = System_String__op_Equality(name,"AttackCombo",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    goto label_181f82e16;
+  }
+  if (uVar2 < 0xc8f30ee8) {
+    if (uVar2 < 0xc35fd7d4) {
+      if (uVar2 == 0xbd457b0a) {
+        bVar1 = System_String__op_Equality(name,"AttackGrabMidLeft",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345911 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidLeft_g
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_184345911 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidLeft_g
+          ;
+          goto label_181f82dd4;
+        }
       }
-      if (g_data_057acbd5 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackCombo_g____getter);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbd5 = '\x01';
+      else if (uVar2 == 0xc35fd7d3) {
+        bVar1 = System_String__op_Equality(name,"EmoteSalute",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_18434591a == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteSalute_g____get
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+            Il2CppMethodInitialized_18434591a = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteSalute_g____get
+          ;
+          goto label_181f82dd4;
+        }
       }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    }
+    else if (uVar2 == 0xc6f75897) {
+      bVar1 = System_String__op_Equality(name,"EmoteRoar",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_18434591d == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteRoar_g____gette
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_18434591d = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteRoar_g____gette
+        ;
+        goto label_181f82dd4;
+      }
+    }
+    else if (uVar2 == 0xc8f30ee7) {
+      bVar1 = System_String__op_Equality(name,"AttackKick",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_184345916 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackKick_g____gett
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_184345916 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackKick_g____gett
+        ;
+        goto label_181f82dd4;
+      }
+    }
+  }
+  else if (uVar2 < 0xe308a058) {
+    if (uVar2 == 0xdecfe799) {
+      bVar1 = System_String__op_Equality(name,"AttackBrushHeadR",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_18434590e == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadR_g
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_18434590e = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadR_g
+        ;
+        goto label_181f82dd4;
+      }
+    }
+    else if (uVar2 == 0xe308a057) {
+      bVar1 = System_String__op_Equality(name,"AttackGrabMidRight",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_184345912 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidRight_g
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+          Il2CppMethodInitialized_184345912 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidRight_g
+        ;
+        goto label_181f82dd4;
+      }
+    }
+  }
+  else if (uVar2 == 0xe6b2342d) {
+    bVar1 = System_String__op_Equality(name,"SitIdle",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+      }
+      if (Il2CppMethodInitialized_184345905 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitIdle_g____getter
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+        ;
+        Il2CppMethodInitialized_184345905 = '\x01';
+      }
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitIdle_g____getter
+      ;
+label_181f82dd4:
+      System_Func_object__object____ctor
+                (__this,(Il2CppObject *)0x0,(intptr_t)pMVar4,(MethodInfo_16E67D0 *)0x0);
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
       CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+                ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+                 (System_Action_T__object__o *)0x0,
+                 (MethodInfo_12B8EE0 *)
+                 MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+      return (CustomLogic_ICLMemberBinding_o *)__this_00;
     }
   }
-  else if (uVar1 < 0x93e6a9c5) {
-    if (uVar1 < 0x8006ece1) {
-      if (uVar1 < 0x76917343) {
-        if (uVar1 == 0x5d992b41) {
-          bVar2 = System_String__op_Equality(name,"Stun",(MethodInfo *)0x0);
-          if ((char)bVar2 != '\0') {
-            puStack_18 = &TypeInfo_Bindings;
-            if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-              puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-            }
-            if (g_data_057acbd1 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Stun_g____getter_9_0);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-              g_data_057acbd1 = '\x01';
-            }
-            pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            System_Func_object__object____ctor();
-            pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            CustomLogic_CLPropertyBinding_object____ctor
-                      (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-          }
-        }
-        else if ((uVar1 == 0x76917342) &&
-                (bVar2 = System_String__op_Equality(name,"AttackGrabUp",(MethodInfo *)0x0), (char)bVar2 != '\0')
-                ) {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057acbe1 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUp_g____getter);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe1 = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-        }
+  else if (uVar2 == 0xee1682bc) {
+    bVar1 = System_String__op_Equality(name,"Land",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
       }
-      else if (uVar1 == 0x8006ece0) {
-        bVar2 = System_String__op_Equality(name,"AttackGrabUpRight",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057acbe3 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpRight_g____g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbe3 = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-        }
+      if (Il2CppMethodInitialized_184345901 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Land_g____getter_7_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+        ;
+        Il2CppMethodInitialized_184345901 = '\x01';
       }
-      else if ((uVar1 == 0x7b00bc80) &&
-              (bVar2 = System_String__op_Equality(name,"Fall",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbce == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Fall_g____getter_6_0);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbce = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-      }
-    }
-    else if (uVar1 < 0x912e23bf) {
-      if (uVar1 == 0x8d57e66a) {
-        bVar2 = System_String__op_Equality(name,"Run",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057acbcb == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Run_g____getter_3_0);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbcb = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-        }
-      }
-      else if ((uVar1 == 0x912e23be) &&
-              (bVar2 = System_String__op_Equality(name,"SitFall",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbd2 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitFall_g____getter_10_0);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd2 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-      }
-    }
-    else if (uVar1 == 0x92d2a9f1) {
-      bVar2 = System_String__op_Equality(name,"AttackSwing",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbd7 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackSwing_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbd7 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-      }
-    }
-    else if ((uVar1 == 0x93e6a9c4) &&
-            (bVar2 = System_String__op_Equality(name,"AttackBrushBack",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acbd8 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushBack_g____get);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbd8 = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Land_g____getter_7_0
+      ;
+      goto label_181f82dd4;
     }
   }
-  else if (uVar1 < 0xc8f30ee8) {
-    if (uVar1 < 0xc35fd7d4) {
-      if (uVar1 == 0xbd457b0a) {
-        bVar2 = System_String__op_Equality(name,"AttackGrabMidLeft",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057acbdf == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidLeft_g____g);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-            g_data_057acbdf = '\x01';
-          }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-        }
+  else if (uVar2 == 0xf8d01087) {
+    bVar1 = System_String__op_Equality(name,"AttackBrushHeadL",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
       }
-      else if ((uVar1 == 0xc35fd7d3) &&
-              (bVar2 = System_String__op_Equality(name,"EmoteSalute",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbe8 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteSalute_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbe8 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+      if (Il2CppMethodInitialized_18434590d == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadL_g
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+        ;
+        Il2CppMethodInitialized_18434590d = '\x01';
       }
-    }
-    else if (uVar1 == 0xc6f75897) {
-      bVar2 = System_String__op_Equality(name,"EmoteRoar",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbeb == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteRoar_g____getter_35);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbeb = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-      }
-    }
-    else if ((uVar1 == 0xc8f30ee7) &&
-            (bVar2 = System_String__op_Equality(name,"AttackKick",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acbe4 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackKick_g____getter_2);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbe4 = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadL_g
+      ;
+      goto label_181f82dd4;
     }
   }
-  else if (uVar1 < 0xe308a058) {
-    if (uVar1 == 0xdecfe799) {
-      bVar2 = System_String__op_Equality(name,"AttackBrushHeadR",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057acbdc == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadR_g____ge);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-          g_data_057acbdc = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-      }
-    }
-    else if ((uVar1 == 0xe308a057) &&
-            (bVar2 = System_String__op_Equality(name,"AttackGrabMidRight",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acbe0 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidRight_g);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbe0 = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-    }
-  }
-  else if (uVar1 == 0xe6b2342d) {
-    bVar2 = System_String__op_Equality(name,"SitIdle",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acbd3 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitIdle_g____getter_11_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbd3 = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-    }
-  }
-  else if (uVar1 == 0xee1682bc) {
-    bVar2 = System_String__op_Equality(name,"Land",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acbcf == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Land_g____getter_7_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-        g_data_057acbcf = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-    }
-  }
-  else if ((uVar1 == 0xf8d01087) &&
-          (bVar2 = System_String__op_Equality(name,"AttackBrushHeadL",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-    puStack_18 = &TypeInfo_Bindings;
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-    }
-    if (g_data_057acbdb == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadL_g____ge);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-      g_data_057acbdb = '\x01';
-    }
-    pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    System_Func_object__object____ctor();
-    pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    CustomLogic_CLPropertyBinding_object____ctor(pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum)
-    ;
-    return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-  }
-  str0 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAnnieAnimationEnum not found");
-  unaff_R14 = System_String__Concat_3af7150(str0,name,str2,(MethodInfo *)0x0);
-  uVar3 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  unaff_RBX = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar3);
-  System_Exception___ctor_3cf6120(unaff_RBX,unaff_R14,(MethodInfo *)0x0);
-  uVar3 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  puVar4 = (undefined8 *)il2cpp_runtime_helper_022b2b10(unaff_RBX,uVar3);
-  register0x00000020 = (BADSPACEBASE *)&puStack_18;
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle:
-  *(System_String_o **)((long)register0x00000020 + -8) = unaff_R14;
-  *(System_Exception_o **)((long)register0x00000020 + -0x10) = unaff_RBX;
-  *(undefined8 **)((long)register0x00000020 + -0x18) = puVar4;
-  if (g_data_057acbca == '\0') {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147de9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Idle_g____getter_2_0);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147df5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e01;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e0d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbca = '\x01';
-  }
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e23;
-  pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e3c;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e4b;
-  pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4147e65;
-  CustomLogic_CLPropertyBinding_object____ctor(pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+label_181f82e16:
+  pSVar3 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicAnnieAnimationEnum not found");
+  str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  pSVar3 = System_String__Concat_1969b70(str0,name,pSVar3,(MethodInfo *)0x0);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+  __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_1b6abf0(__this_01,pSVar3,(MethodInfo *)0x0);
+  pMVar4 = il2cpp_codegen_get_runtime_metadata
+                     (&MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,pMVar4);
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Idle
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle (const MethodInfo* method);
-// 0x4147dd0
+// 0x181f97fc0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Idle(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbca == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Idle_g____getter_2_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbca = '\x01';
+  if (Il2CppMethodInitialized_1843458fc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Idle_g____getter_2_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_1843458fc = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Idle_g____getter_2_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Run
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Run (const MethodInfo* method);
-// 0x4147e70
+// 0x181f9aa40
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Run(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbcb == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Run_g____getter_3_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbcb = '\x01';
+  if (Il2CppMethodInitialized_1843458fd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Run_g____getter_3_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_1843458fd = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Run_g____getter_3_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Walk
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Walk (const MethodInfo* method);
-// 0x4147f10
+// 0x181f9c520
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Walk(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbcc == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Walk_g____getter_4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbcc = '\x01';
+  if (Il2CppMethodInitialized_1843458fe == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Walk_g____getter_4_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_1843458fe = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Walk_g____getter_4_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Jump
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Jump (const MethodInfo* method);
-// 0x4147fb0
+// 0x181f984c0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Jump(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbcd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Jump_g____getter_5_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbcd = '\x01';
+  if (Il2CppMethodInitialized_1843458ff == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Jump_g____getter_5_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_1843458ff = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Jump_g____getter_5_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Fall
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Fall (const MethodInfo* method);
-// 0x4148050
+// 0x181f96e90
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Fall(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbce == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Fall_g____getter_6_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbce = '\x01';
+  if (Il2CppMethodInitialized_184345900 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Fall_g____getter_6_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345900 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Fall_g____getter_6_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Land
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Land (const MethodInfo* method);
-// 0x41480f0
+// 0x181f986a0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Land(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbcf == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Land_g____getter_7_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbcf = '\x01';
+  if (Il2CppMethodInitialized_184345901 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Land_g____getter_7_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345901 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Land_g____getter_7_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Die
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Die (const MethodInfo* method);
-// 0x4148190
+// 0x181f96670
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Die(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Die_g____getter_8_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd0 = '\x01';
+  if (Il2CppMethodInitialized_184345902 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Die_g____getter_8_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345902 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Die_g____getter_8_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__Stun
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Stun (const MethodInfo* method);
-// 0x4148230
+// 0x181f9b8f0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__Stun(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Stun_g____getter_9_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd1 = '\x01';
+  if (Il2CppMethodInitialized_184345903 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Stun_g____getter_9_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345903 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__Stun_g____getter_9_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__SitFall
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitFall (const MethodInfo* method);
-// 0x41482d0
+// 0x181f9ae50
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitFall(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitFall_g____getter_10_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd2 = '\x01';
+  if (Il2CppMethodInitialized_184345904 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitFall_g____getter
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345904 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitFall_g____getter
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__SitIdle
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitIdle (const MethodInfo* method);
-// 0x4148370
+// 0x181f9aef0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitIdle(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitIdle_g____getter_11_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd3 = '\x01';
+  if (Il2CppMethodInitialized_184345905 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitIdle_g____getter
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345905 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitIdle_g____getter
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__SitUp
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitUp (const MethodInfo* method);
-// 0x4148410
+// 0x181f9af90
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__SitUp(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__SitUp_g____getter_12_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd4 = '\x01';
+  if (Il2CppMethodInitialized_184345906 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitUp_g____getter_12
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345906 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__SitUp_g____getter_12
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackCombo
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackCombo (const MethodInfo* method);
-// 0x41484b0
+// 0x181f94410
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackCombo(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackCombo_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd5 = '\x01';
+  if (Il2CppMethodInitialized_184345907 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackCombo_g____get
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345907 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackCombo_g____get
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackComboBlind
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackComboBlind (const MethodInfo* method);
-// 0x4148550
+// 0x181f94370
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackComboBlind
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackComboBlind_g____ge);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd6 = '\x01';
+  if (Il2CppMethodInitialized_184345908 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackComboBlind_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345908 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackComboBlind_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackSwing
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackSwing (const MethodInfo* method);
-// 0x41485f0
+// 0x181f94e10
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackSwing(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackSwing_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd7 = '\x01';
+  if (Il2CppMethodInitialized_184345909 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackSwing_g____get
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345909 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackSwing_g____get
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBrushBack
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushBack (const MethodInfo* method);
-// 0x4148690
+// 0x181f94050
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushBack
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushBack_g____get);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd8 = '\x01';
+  if (Il2CppMethodInitialized_18434590a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushBack_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590a = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushBack_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBrushFrontL
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushFrontL (const MethodInfo* method);
-// 0x4148730
+// 0x181f940f0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushFrontL
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbd9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontL_g____g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbd9 = '\x01';
+  if (Il2CppMethodInitialized_18434590b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontL_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590b = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontL_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBrushFrontR
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushFrontR (const MethodInfo* method);
-// 0x41487d0
+// 0x181f94190
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushFrontR
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbda == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushFrontR_g____g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbda = '\x01';
+  if (Il2CppMethodInitialized_18434590c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontR_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590c = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushFrontR_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBrushHeadL
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushHeadL (const MethodInfo* method);
-// 0x4148870
+// 0x181f94230
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushHeadL
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbdb == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadL_g____ge);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbdb = '\x01';
+  if (Il2CppMethodInitialized_18434590d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadL_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590d = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadL_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBrushHeadR
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushHeadR (const MethodInfo* method);
-// 0x4148910
+// 0x181f942d0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBrushHeadR
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbdc == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBrushHeadR_g____ge);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbdc = '\x01';
+  if (Il2CppMethodInitialized_18434590e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadR_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590e = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBrushHeadR_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabBottomLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabBottomLeft (const MethodInfo* method);
-// 0x41489b0
+// 0x181f94550
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabBottomLeft
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbdd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomLeft_g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbdd = '\x01';
+  if (Il2CppMethodInitialized_18434590f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomLeft
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434590f = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomLeft
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabBottomRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabBottomRight (const MethodInfo* method);
-// 0x4148a50
+// 0x181f945f0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabBottomRight
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbde == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabBottomRight_g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbde = '\x01';
+  if (Il2CppMethodInitialized_184345910 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomRigh
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345910 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabBottomRigh
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabMidLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabMidLeft (const MethodInfo* method);
-// 0x4148af0
+// 0x181f94690
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabMidLeft
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbdf == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidLeft_g____g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbdf = '\x01';
+  if (Il2CppMethodInitialized_184345911 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidLeft_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345911 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidLeft_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabMidRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabMidRight (const MethodInfo* method);
-// 0x4148b90
+// 0x181f94730
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabMidRight
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabMidRight_g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe0 = '\x01';
+  if (Il2CppMethodInitialized_184345912 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidRight_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345912 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabMidRight_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabUp
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUp (const MethodInfo* method);
-// 0x4148c30
+// 0x181f94910
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUp(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUp_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe1 = '\x01';
+  if (Il2CppMethodInitialized_184345913 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUp_g____ge
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345913 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUp_g____ge
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabUpLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUpLeft (const MethodInfo* method);
-// 0x4148cd0
+// 0x181f947d0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUpLeft
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpLeft_g____ge);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe2 = '\x01';
+  if (Il2CppMethodInitialized_184345914 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpLeft_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345914 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpLeft_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackGrabUpRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUpRight (const MethodInfo* method);
-// 0x4148d70
+// 0x181f94870
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackGrabUpRight
           (MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackGrabUpRight_g____g);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe3 = '\x01';
+  if (Il2CppMethodInitialized_184345915 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpRight_g
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345915 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackGrabUpRight_g
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackKick
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackKick (const MethodInfo* method);
-// 0x4148e10
+// 0x181f94af0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackKick(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackKick_g____getter_2);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe4 = '\x01';
+  if (Il2CppMethodInitialized_184345916 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackKick_g____gett
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345916 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackKick_g____gett
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackStomp
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackStomp (const MethodInfo* method);
-// 0x4148eb0
+// 0x181f94d70
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackStomp(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackStomp_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe5 = '\x01';
+  if (Il2CppMethodInitialized_184345917 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackStomp_g____get
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345917 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackStomp_g____get
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackHead
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackHead (const MethodInfo* method);
-// 0x4148f50
+// 0x181f949b0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackHead(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackHead_g____getter_3);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe6 = '\x01';
+  if (Il2CppMethodInitialized_184345918 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackHead_g____gett
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345918 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackHead_g____gett
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__AttackBite
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBite (const MethodInfo* method);
-// 0x4148ff0
+// 0x181f93fb0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__AttackBite(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__AttackBite_g____getter_3);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe7 = '\x01';
+  if (Il2CppMethodInitialized_184345919 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBite_g____gett
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_184345919 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__AttackBite_g____gett
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__EmoteSalute
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteSalute (const MethodInfo* method);
-// 0x4149090
+// 0x181f96a30
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteSalute(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteSalute_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe8 = '\x01';
+  if (Il2CppMethodInitialized_18434591a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteSalute_g____get
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434591a = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteSalute_g____get
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__EmoteTaunt
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteTaunt (const MethodInfo* method);
-// 0x4149130
+// 0x181f96ad0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteTaunt(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbe9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteTaunt_g____getter_3);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbe9 = '\x01';
+  if (Il2CppMethodInitialized_18434591b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteTaunt_g____gett
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434591b = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteTaunt_g____gett
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__EmoteWave
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteWave (const MethodInfo* method);
-// 0x41491d0
+// 0x181f96b70
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteWave(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbea == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteWave_g____getter_34);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbea = '\x01';
+  if (Il2CppMethodInitialized_18434591c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteWave_g____gette
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434591c = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteWave_g____gette
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$__CreatePropertyBinding__EmoteRoar
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteRoar (const MethodInfo* method);
-// 0x4149270
+// 0x181f968f0
 
 CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *
 CustomLogic_CustomLogicAnnieAnimationEnum_Bindings____CreatePropertyBinding__EmoteRoar(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this;
+  System_Func_CustomLogicAnnieAnimationEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *__this_00;
   
-  if (g_data_057acbeb == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__EmoteRoar_g____getter_35);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-    g_data_057acbeb = '\x01';
+  if (Il2CppMethodInitialized_18434591d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteRoar_g____gette
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object);
+    Il2CppMethodInitialized_18434591d = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAnnieAnimationEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAnnieAnimationEnum_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___CreatePropertyBinding__EmoteRoar_g____gette
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAnnieAnimationEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAnnieAnimationEnum_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___cctor (const MethodInfo* method);
-// 0x4149310
+// 0x181f9ef90
 
 void CustomLogic_CustomLogicAnnieAnimationEnum_Bindings___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_object__o *__this;
+  System_Collections_Generic_HashSet_string__o *__this;
   
-  if (g_data_057acbec == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    il2cpp_runtime_helper_023445d0(&"Run");
-    il2cpp_runtime_helper_023445d0(&"EmoteWave");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomLeft");
-    il2cpp_runtime_helper_023445d0(&"Die");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadL");
-    il2cpp_runtime_helper_023445d0(&"AttackComboBlind");
-    il2cpp_runtime_helper_023445d0(&"AttackCombo");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontL");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushHeadR");
-    il2cpp_runtime_helper_023445d0(&"EmoteTaunt");
-    il2cpp_runtime_helper_023445d0(&"AttackStomp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabBottomRight");
-    il2cpp_runtime_helper_023445d0(&"Land");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpLeft");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidRight");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushBack");
-    il2cpp_runtime_helper_023445d0(&"Jump");
-    il2cpp_runtime_helper_023445d0(&"Stun");
-    il2cpp_runtime_helper_023445d0(&"AttackSwing");
-    il2cpp_runtime_helper_023445d0(&"EmoteSalute");
-    il2cpp_runtime_helper_023445d0(&"SitIdle");
-    il2cpp_runtime_helper_023445d0(&"AttackBite");
-    il2cpp_runtime_helper_023445d0(&"AttackHead");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUpRight");
-    il2cpp_runtime_helper_023445d0(&"Walk");
-    il2cpp_runtime_helper_023445d0(&"SitFall");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabUp");
-    il2cpp_runtime_helper_023445d0(&"AttackBrushFrontR");
-    il2cpp_runtime_helper_023445d0(&"Idle");
-    il2cpp_runtime_helper_023445d0(&"Fall");
-    il2cpp_runtime_helper_023445d0(&"AttackKick");
-    il2cpp_runtime_helper_023445d0(&"SitUp");
-    il2cpp_runtime_helper_023445d0(&"AttackGrabMidLeft");
-    il2cpp_runtime_helper_023445d0(&"EmoteRoar");
-    g_data_057acbec = '\x01';
+  if (Il2CppMethodInitialized_18434591e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"Run");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteWave");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBottomLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"Die");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushHeadL");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackComboBlind");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackCombo");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushFrontL");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushHeadR");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteTaunt");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackStomp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabBottomRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"Land");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUpLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabMidRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushBack");
+    il2cpp_codegen_initialize_runtime_metadata(&"Jump");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stun");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackSwing");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteSalute");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitIdle");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBite");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackHead");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUpRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"Walk");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitFall");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabUp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBrushFrontR");
+    il2cpp_codegen_initialize_runtime_metadata(&"Idle");
+    il2cpp_codegen_initialize_runtime_metadata(&"Fall");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackKick");
+    il2cpp_codegen_initialize_runtime_metadata(&"SitUp");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackGrabMidLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"EmoteRoar");
+    Il2CppMethodInitialized_18434591e = '\x01';
   }
-  __this = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  System_Collections_Generic_HashSet_object____ctor(__this,MethodInfo_HashSet_1_System_String);
-  if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add(__this,"Idle",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Run",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Walk",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Jump",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Fall",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Land",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Die",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"Stun",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"SitFall",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"SitIdle",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"SitUp",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackCombo",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackComboBlind",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackSwing",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBrushBack",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBrushFrontL",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBrushFrontR",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBrushHeadL",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBrushHeadR",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabBottomLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabBottomRight",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabMidLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabMidRight",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabUp",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabUpLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackGrabUpRight",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackKick",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackStomp",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackHead",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"AttackBite",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"EmoteSalute",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"EmoteTaunt",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"EmoteWave",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"EmoteRoar",MethodInfo_Boolean_Add);
-    **(undefined8 **)(TypeInfo_Bindings + 0xb8) = __this;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_Bindings + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Idle",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Run",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Walk",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Jump",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Fall",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Land",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Die",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Stun",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SitFall",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SitIdle",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"SitUp",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackCombo",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackComboBlind",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackSwing",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBrushBack",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBrushFrontL",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBrushFrontR",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBrushHeadL",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBrushHeadR",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabBottomLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabBottomRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabMidLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabMidRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabUp",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabUpLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackGrabUpRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackKick",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackStomp",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackHead",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"AttackBite",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"EmoteSalute",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"EmoteTaunt",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"EmoteWave",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"EmoteRoar",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->static_fields->MemberNames = __this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAnnieAnimationEnum_Bindings->static_fields->MemberNames,__this
+              );
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057acba5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_idle");
-    g_data_057acba5 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Idle>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Idle_g____getter_2_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149820
+// 0x181f8ea60
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Idle_g____getter_2_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Idle_g____getter_2_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acba5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_idle");
-    g_data_057acba5 = '\x01';
+  if (Il2CppMethodInitialized_1843458d7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_idle");
+    Il2CppMethodInitialized_1843458d7 = '\x01';
   }
   return "Armature_FemT|ft_idle";
 }
@@ -2921,16 +2784,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Id
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Run>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Run_g____getter_3_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149850
+// 0x181f90940
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Run_g____getter_3_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Run_g____getter_3_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acba6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_run");
-    g_data_057acba6 = '\x01';
+  if (Il2CppMethodInitialized_1843458d8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_run");
+    Il2CppMethodInitialized_1843458d8 = '\x01';
   }
   return "Armature_FemT|ft_run";
 }
@@ -2938,16 +2800,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Ru
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Walk>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Walk_g____getter_4_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149880
+// 0x181f919a0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Walk_g____getter_4_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Walk_g____getter_4_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acba7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_walk");
-    g_data_057acba7 = '\x01';
+  if (Il2CppMethodInitialized_1843458d9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_walk");
+    Il2CppMethodInitialized_1843458d9 = '\x01';
   }
   return "Armature_FemT|ft_walk";
 }
@@ -2955,16 +2816,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Wa
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Jump>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Jump_g____getter_5_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x41498b0
+// 0x181f8ec60
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Jump_g____getter_5_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Jump_g____getter_5_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acba8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_start");
-    g_data_057acba8 = '\x01';
+  if (Il2CppMethodInitialized_1843458da == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_start");
+    Il2CppMethodInitialized_1843458da = '\x01';
   }
   return "Armature_FemT|ft_jump_start";
 }
@@ -2972,16 +2832,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Ju
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Fall>g____getter|6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Fall_g____getter_6_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x41498e0
+// 0x181f8e1e0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Fall_g____getter_6_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Fall_g____getter_6_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acba9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_air");
-    g_data_057acba9 = '\x01';
+  if (Il2CppMethodInitialized_1843458db == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_air");
+    Il2CppMethodInitialized_1843458db = '\x01';
   }
   return "Armature_FemT|ft_jump_air";
 }
@@ -2989,16 +2848,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Fa
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Land>g____getter|7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Land_g____getter_7_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149910
+// 0x181f8ecc0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Land_g____getter_7_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Land_g____getter_7_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_land");
-    g_data_057acbaa = '\x01';
+  if (Il2CppMethodInitialized_1843458dc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_land");
+    Il2CppMethodInitialized_1843458dc = '\x01';
   }
   return "Armature_FemT|ft_jump_land";
 }
@@ -3006,16 +2864,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__La
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Die>g____getter|8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Die_g____getter_8_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149940
+// 0x181f8df20
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Die_g____getter_8_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Die_g____getter_8_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbab == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_die_shifter");
-    g_data_057acbab = '\x01';
+  if (Il2CppMethodInitialized_1843458dd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_die_shifter");
+    Il2CppMethodInitialized_1843458dd = '\x01';
   }
   return "Armature_FemT|ft_die_shifter";
 }
@@ -3023,16 +2880,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Di
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__Stun>g____getter|9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Stun_g____getter_9_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149970
+// 0x181f911f0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Stun_g____getter_9_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Stun_g____getter_9_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbac == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_hit_titan");
-    g_data_057acbac = '\x01';
+  if (Il2CppMethodInitialized_1843458de == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_hit_titan");
+    Il2CppMethodInitialized_1843458de = '\x01';
   }
   return "Armature_FemT|ft_hit_titan";
 }
@@ -3040,16 +2896,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__St
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__SitFall>g____getter|10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitFall_g____getter_10_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x41499a0
+// 0x181f90b70
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitFall_g____getter_10_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitFall_g____getter_10_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbad == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt");
-    g_data_057acbad = '\x01';
+  if (Il2CppMethodInitialized_1843458df == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt");
+    Il2CppMethodInitialized_1843458df = '\x01';
   }
   return "Armature_FemT|ft_legHurt";
 }
@@ -3057,16 +2912,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Si
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__SitIdle>g____getter|11_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitIdle_g____getter_11_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x41499d0
+// 0x181f90ba0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitIdle_g____getter_11_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitIdle_g____getter_11_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbae == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt_loop");
-    g_data_057acbae = '\x01';
+  if (Il2CppMethodInitialized_1843458e0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt_loop");
+    Il2CppMethodInitialized_1843458e0 = '\x01';
   }
   return "Armature_FemT|ft_legHurt_loop";
 }
@@ -3074,16 +2928,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Si
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__SitUp>g____getter|12_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitUp_g____getter_12_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149a00
+// 0x181f90bd0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitUp_g____getter_12_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__SitUp_g____getter_12_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbaf == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt_getup");
-    g_data_057acbaf = '\x01';
+  if (Il2CppMethodInitialized_1843458e1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt_getup");
+    Il2CppMethodInitialized_1843458e1 = '\x01';
   }
   return "Armature_FemT|ft_legHurt_getup";
 }
@@ -3091,16 +2944,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Si
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackCombo>g____getter|13_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackCombo_g____getter_13_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149a30
+// 0x181f8cfd0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackCombo_g____getter_13_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackCombo_g____getter_13_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_combo_full");
-    g_data_057acbb0 = '\x01';
+  if (Il2CppMethodInitialized_1843458e2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_combo_full");
+    Il2CppMethodInitialized_1843458e2 = '\x01';
   }
   return "Armature_FemT|ft_attack_combo_full";
 }
@@ -3108,16 +2960,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackComboBlind>g____getter|14_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackComboBlind_g____getter_14_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149a60
+// 0x181f8cfa0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackComboBlind_g____getter_14_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackComboBlind_g____getter_14_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_combo_blind_full");
-    g_data_057acbb1 = '\x01';
+  if (Il2CppMethodInitialized_1843458e3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_combo_blind_full");
+    Il2CppMethodInitialized_1843458e3 = '\x01';
   }
   return "Armature_FemT|ft_attack_combo_blind_full";
 }
@@ -3125,16 +2976,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackSwing>g____getter|15_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackSwing_g____getter_15_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149a90
+// 0x181f8d3c0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackSwing_g____getter_15_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackSwing_g____getter_15_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_front");
-    g_data_057acbb2 = '\x01';
+  if (Il2CppMethodInitialized_1843458e4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_front");
+    Il2CppMethodInitialized_1843458e4 = '\x01';
   }
   return "Armature_FemT|ft_attack_front";
 }
@@ -3142,16 +2992,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBrushBack>g____getter|16_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushBack_g____getter_16_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149ac0
+// 0x181f8ceb0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushBack_g____getter_16_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushBack_g____getter_16_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_back");
-    g_data_057acbb3 = '\x01';
+  if (Il2CppMethodInitialized_1843458e5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_back");
+    Il2CppMethodInitialized_1843458e5 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_back";
 }
@@ -3159,16 +3008,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBrushFrontL>g____getter|17_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontL_g____getter_17_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149af0
+// 0x181f8cee0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontL_g____getter_17_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontL_g____getter_17_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_front_left");
-    g_data_057acbb4 = '\x01';
+  if (Il2CppMethodInitialized_1843458e6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_front_left");
+    Il2CppMethodInitialized_1843458e6 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_front_left";
 }
@@ -3176,16 +3024,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBrushFrontR>g____getter|18_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontR_g____getter_18_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149b20
+// 0x181f8cf10
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontR_g____getter_18_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushFrontR_g____getter_18_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_front_right");
-    g_data_057acbb5 = '\x01';
+  if (Il2CppMethodInitialized_1843458e7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_front_right");
+    Il2CppMethodInitialized_1843458e7 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_front_right";
 }
@@ -3193,16 +3040,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBrushHeadL>g____getter|19_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadL_g____getter_19_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149b50
+// 0x181f8cf40
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadL_g____getter_19_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadL_g____getter_19_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_head_b_l");
-    g_data_057acbb6 = '\x01';
+  if (Il2CppMethodInitialized_1843458e8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_head_b_l");
+    Il2CppMethodInitialized_1843458e8 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_head_b_l";
 }
@@ -3210,16 +3056,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBrushHeadR>g____getter|20_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadR_g____getter_20_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149b80
+// 0x181f8cf70
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadR_g____getter_20_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBrushHeadR_g____getter_20_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_head_b_r");
-    g_data_057acbb7 = '\x01';
+  if (Il2CppMethodInitialized_1843458e9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_head_b_r");
+    Il2CppMethodInitialized_1843458e9 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_head_b_r";
 }
@@ -3227,16 +3072,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabBottomLeft>g____getter|21_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomLeft_g____getter_21_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149bb0
+// 0x181f8d030
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomLeft_g____getter_21_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomLeft_g____getter_21_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_bottom_left");
-    g_data_057acbb8 = '\x01';
+  if (Il2CppMethodInitialized_1843458ea == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_bottom_left");
+    Il2CppMethodInitialized_1843458ea = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_bottom_left";
 }
@@ -3244,16 +3088,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabBottomRight>g____getter|22_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomRight_g____getter_22_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149be0
+// 0x181f8d060
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomRight_g____getter_22_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabBottomRight_g____getter_22_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbb9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_bottom_right");
-    g_data_057acbb9 = '\x01';
+  if (Il2CppMethodInitialized_1843458eb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_bottom_right");
+    Il2CppMethodInitialized_1843458eb = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_bottom_right";
 }
@@ -3261,16 +3104,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabMidLeft>g____getter|23_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidLeft_g____getter_23_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149c10
+// 0x181f8d090
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidLeft_g____getter_23_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidLeft_g____getter_23_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbba == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_mid_left");
-    g_data_057acbba = '\x01';
+  if (Il2CppMethodInitialized_1843458ec == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_mid_left");
+    Il2CppMethodInitialized_1843458ec = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_mid_left";
 }
@@ -3278,16 +3120,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabMidRight>g____getter|24_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidRight_g____getter_24_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149c40
+// 0x181f8d0c0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidRight_g____getter_24_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabMidRight_g____getter_24_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbbb == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_mid_right");
-    g_data_057acbbb = '\x01';
+  if (Il2CppMethodInitialized_1843458ed == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_mid_right");
+    Il2CppMethodInitialized_1843458ed = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_mid_right";
 }
@@ -3295,16 +3136,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabUp>g____getter|25_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUp_g____getter_25_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149c70
+// 0x181f8d150
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUp_g____getter_25_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUp_g____getter_25_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbbc == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up");
-    g_data_057acbbc = '\x01';
+  if (Il2CppMethodInitialized_1843458ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up");
+    Il2CppMethodInitialized_1843458ee = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up";
 }
@@ -3312,16 +3152,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabUpLeft>g____getter|26_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpLeft_g____getter_26_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149ca0
+// 0x181f8d0f0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpLeft_g____getter_26_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpLeft_g____getter_26_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up_left");
-    g_data_057acbbd = '\x01';
+  if (Il2CppMethodInitialized_1843458ef == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up_left");
+    Il2CppMethodInitialized_1843458ef = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up_left";
 }
@@ -3329,16 +3168,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackGrabUpRight>g____getter|27_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpRight_g____getter_27_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149cd0
+// 0x181f8d120
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpRight_g____getter_27_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackGrabUpRight_g____getter_27_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbbe == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up_right");
-    g_data_057acbbe = '\x01';
+  if (Il2CppMethodInitialized_1843458f0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up_right");
+    Il2CppMethodInitialized_1843458f0 = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up_right";
 }
@@ -3346,16 +3184,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackKick>g____getter|28_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackKick_g____getter_28_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149d00
+// 0x181f8d1e0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackKick_g____getter_28_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackKick_g____getter_28_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbbf == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep");
-    g_data_057acbbf = '\x01';
+  if (Il2CppMethodInitialized_1843458f1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep");
+    Il2CppMethodInitialized_1843458f1 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep";
 }
@@ -3363,16 +3200,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackStomp>g____getter|29_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackStomp_g____getter_29_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149d30
+// 0x181f8d390
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackStomp_g____getter_29_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackStomp_g____getter_29_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_core");
-    g_data_057acbc0 = '\x01';
+  if (Il2CppMethodInitialized_1843458f2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_core");
+    Il2CppMethodInitialized_1843458f2 = '\x01';
   }
   return "Armature_FemT|ft_attack_core";
 }
@@ -3380,16 +3216,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackHead>g____getter|30_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackHead_g____getter_30_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149d60
+// 0x181f8d180
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackHead_g____getter_30_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackHead_g____getter_30_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_head");
-    g_data_057acbc1 = '\x01';
+  if (Il2CppMethodInitialized_1843458f3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_head");
+    Il2CppMethodInitialized_1843458f3 = '\x01';
   }
   return "Armature_FemT|ft_attack_head";
 }
@@ -3397,16 +3232,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__AttackBite>g____getter|31_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBite_g____getter_31_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149d90
+// 0x181f8ce80
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBite_g____getter_31_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__AttackBite_g____getter_31_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_bite");
-    g_data_057acbc2 = '\x01';
+  if (Il2CppMethodInitialized_1843458f4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_bite");
+    Il2CppMethodInitialized_1843458f4 = '\x01';
   }
   return "Armature_FemT|ft_attack_bite";
 }
@@ -3414,16 +3248,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__At
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__EmoteSalute>g____getter|32_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteSalute_g____getter_32_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149dc0
+// 0x181f8e010
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteSalute_g____getter_32_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteSalute_g____getter_32_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_salute");
-    g_data_057acbc3 = '\x01';
+  if (Il2CppMethodInitialized_1843458f5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_salute");
+    Il2CppMethodInitialized_1843458f5 = '\x01';
   }
   return "Armature_FemT|ft_emote_salute";
 }
@@ -3431,16 +3264,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Em
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__EmoteTaunt>g____getter|33_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteTaunt_g____getter_33_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149df0
+// 0x181f8e040
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteTaunt_g____getter_33_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteTaunt_g____getter_33_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_taunt");
-    g_data_057acbc4 = '\x01';
+  if (Il2CppMethodInitialized_1843458f6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_taunt");
+    Il2CppMethodInitialized_1843458f6 = '\x01';
   }
   return "Armature_FemT|ft_emote_taunt";
 }
@@ -3448,16 +3280,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Em
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__EmoteWave>g____getter|34_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteWave_g____getter_34_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149e20
+// 0x181f8e070
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteWave_g____getter_34_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteWave_g____getter_34_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_wave");
-    g_data_057acbc5 = '\x01';
+  if (Il2CppMethodInitialized_1843458f7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_wave");
+    Il2CppMethodInitialized_1843458f7 = '\x01';
   }
   return "Armature_FemT|ft_emote_wave";
 }
@@ -3465,16 +3296,15 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Em
 
 // CustomLogic.CustomLogicAnnieAnimationEnum.Bindings$$<__CreatePropertyBinding__EmoteRoar>g____getter|35_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteRoar_g____getter_35_0 (CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, const MethodInfo* method);
-// 0x4149e50
+// 0x181f8dfe0
 
-Il2CppObject *
-CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteRoar_g____getter_35_0
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__EmoteRoar_g____getter_35_0(CustomLogic_CustomLogicAnnieAnimationEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057acbc6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_mad1");
-    g_data_057acbc6 = '\x01';
+  if (Il2CppMethodInitialized_1843458f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_mad1");
+    Il2CppMethodInitialized_1843458f8 = '\x01';
   }
   return "Armature_FemT|ft_mad1";
 }
@@ -3482,27 +3312,19 @@ CustomLogic_CustomLogicAnnieAnimationEnum_Bindings_____CreatePropertyBinding__Em
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$.ctor
 // il2cpp: void CustomLogic_CustomLogicAnnieAnimationEnum___ctor (CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, const MethodInfo* method);
-// 0x41468b0
+// 0x181f9f6d0
 
 void CustomLogic_CustomLogicAnnieAnimationEnum___ctor
                (CustomLogic_CustomLogicAnnieAnimationEnum_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057acba4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057acba4 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if (Il2CppMethodInitialized_1843458d6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_1843458d6 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_02337ed0();
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -3510,14 +3332,14 @@ void CustomLogic_CustomLogicAnnieAnimationEnum___ctor
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Idle
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Idle (const MethodInfo* method);
-// 0x4146920
+// 0x181f8ea60
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Idle(MethodInfo *method)
 
 {
-  if (g_data_057acba5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_idle");
-    g_data_057acba5 = '\x01';
+  if (Il2CppMethodInitialized_1843458d7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_idle");
+    Il2CppMethodInitialized_1843458d7 = '\x01';
   }
   return "Armature_FemT|ft_idle";
 }
@@ -3525,14 +3347,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Idle(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Run
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Run (const MethodInfo* method);
-// 0x4146950
+// 0x181f90940
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Run(MethodInfo *method)
 
 {
-  if (g_data_057acba6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_run");
-    g_data_057acba6 = '\x01';
+  if (Il2CppMethodInitialized_1843458d8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_run");
+    Il2CppMethodInitialized_1843458d8 = '\x01';
   }
   return "Armature_FemT|ft_run";
 }
@@ -3540,14 +3362,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Run(MethodInfo 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Walk
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Walk (const MethodInfo* method);
-// 0x4146980
+// 0x181f919a0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Walk(MethodInfo *method)
 
 {
-  if (g_data_057acba7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_walk");
-    g_data_057acba7 = '\x01';
+  if (Il2CppMethodInitialized_1843458d9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_walk");
+    Il2CppMethodInitialized_1843458d9 = '\x01';
   }
   return "Armature_FemT|ft_walk";
 }
@@ -3555,14 +3377,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Walk(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Jump
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Jump (const MethodInfo* method);
-// 0x41469b0
+// 0x181f8ec60
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Jump(MethodInfo *method)
 
 {
-  if (g_data_057acba8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_start");
-    g_data_057acba8 = '\x01';
+  if (Il2CppMethodInitialized_1843458da == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_start");
+    Il2CppMethodInitialized_1843458da = '\x01';
   }
   return "Armature_FemT|ft_jump_start";
 }
@@ -3570,14 +3392,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Jump(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Fall
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Fall (const MethodInfo* method);
-// 0x41469e0
+// 0x181f8e1e0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Fall(MethodInfo *method)
 
 {
-  if (g_data_057acba9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_air");
-    g_data_057acba9 = '\x01';
+  if (Il2CppMethodInitialized_1843458db == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_air");
+    Il2CppMethodInitialized_1843458db = '\x01';
   }
   return "Armature_FemT|ft_jump_air";
 }
@@ -3585,14 +3407,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Fall(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Land
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Land (const MethodInfo* method);
-// 0x4146a10
+// 0x181f8ecc0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Land(MethodInfo *method)
 
 {
-  if (g_data_057acbaa == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_jump_land");
-    g_data_057acbaa = '\x01';
+  if (Il2CppMethodInitialized_1843458dc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_jump_land");
+    Il2CppMethodInitialized_1843458dc = '\x01';
   }
   return "Armature_FemT|ft_jump_land";
 }
@@ -3600,14 +3422,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Land(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Die
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Die (const MethodInfo* method);
-// 0x4146a40
+// 0x181f8df20
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Die(MethodInfo *method)
 
 {
-  if (g_data_057acbab == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_die_shifter");
-    g_data_057acbab = '\x01';
+  if (Il2CppMethodInitialized_1843458dd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_die_shifter");
+    Il2CppMethodInitialized_1843458dd = '\x01';
   }
   return "Armature_FemT|ft_die_shifter";
 }
@@ -3615,14 +3437,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Die(MethodInfo 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_Stun
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_Stun (const MethodInfo* method);
-// 0x4146a70
+// 0x181f911f0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Stun(MethodInfo *method)
 
 {
-  if (g_data_057acbac == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_hit_titan");
-    g_data_057acbac = '\x01';
+  if (Il2CppMethodInitialized_1843458de == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_hit_titan");
+    Il2CppMethodInitialized_1843458de = '\x01';
   }
   return "Armature_FemT|ft_hit_titan";
 }
@@ -3630,14 +3452,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_Stun(MethodInfo
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_SitFall
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_SitFall (const MethodInfo* method);
-// 0x4146aa0
+// 0x181f90b70
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitFall(MethodInfo *method)
 
 {
-  if (g_data_057acbad == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt");
-    g_data_057acbad = '\x01';
+  if (Il2CppMethodInitialized_1843458df == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt");
+    Il2CppMethodInitialized_1843458df = '\x01';
   }
   return "Armature_FemT|ft_legHurt";
 }
@@ -3645,14 +3467,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitFall(MethodI
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_SitIdle
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_SitIdle (const MethodInfo* method);
-// 0x4146ad0
+// 0x181f90ba0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitIdle(MethodInfo *method)
 
 {
-  if (g_data_057acbae == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt_loop");
-    g_data_057acbae = '\x01';
+  if (Il2CppMethodInitialized_1843458e0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt_loop");
+    Il2CppMethodInitialized_1843458e0 = '\x01';
   }
   return "Armature_FemT|ft_legHurt_loop";
 }
@@ -3660,14 +3482,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitIdle(MethodI
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_SitUp
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_SitUp (const MethodInfo* method);
-// 0x4146b00
+// 0x181f90bd0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitUp(MethodInfo *method)
 
 {
-  if (g_data_057acbaf == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_legHurt_getup");
-    g_data_057acbaf = '\x01';
+  if (Il2CppMethodInitialized_1843458e1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_legHurt_getup");
+    Il2CppMethodInitialized_1843458e1 = '\x01';
   }
   return "Armature_FemT|ft_legHurt_getup";
 }
@@ -3675,14 +3497,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_SitUp(MethodInf
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackCombo
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackCombo (const MethodInfo* method);
-// 0x4146b30
+// 0x181f8cfd0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackCombo(MethodInfo *method)
 
 {
-  if (g_data_057acbb0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_combo_full");
-    g_data_057acbb0 = '\x01';
+  if (Il2CppMethodInitialized_1843458e2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_combo_full");
+    Il2CppMethodInitialized_1843458e2 = '\x01';
   }
   return "Armature_FemT|ft_attack_combo_full";
 }
@@ -3690,14 +3512,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackCombo(Met
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackComboBlind
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackComboBlind (const MethodInfo* method);
-// 0x4146b60
+// 0x181f8cfa0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackComboBlind(MethodInfo *method)
 
 {
-  if (g_data_057acbb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_combo_blind_full");
-    g_data_057acbb1 = '\x01';
+  if (Il2CppMethodInitialized_1843458e3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_combo_blind_full");
+    Il2CppMethodInitialized_1843458e3 = '\x01';
   }
   return "Armature_FemT|ft_attack_combo_blind_full";
 }
@@ -3705,14 +3527,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackComboBlin
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackSwing
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackSwing (const MethodInfo* method);
-// 0x4146b90
+// 0x181f8d3c0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackSwing(MethodInfo *method)
 
 {
-  if (g_data_057acbb2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_front");
-    g_data_057acbb2 = '\x01';
+  if (Il2CppMethodInitialized_1843458e4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_front");
+    Il2CppMethodInitialized_1843458e4 = '\x01';
   }
   return "Armature_FemT|ft_attack_front";
 }
@@ -3720,14 +3542,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackSwing(Met
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBrushBack
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushBack (const MethodInfo* method);
-// 0x4146bc0
+// 0x181f8ceb0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushBack(MethodInfo *method)
 
 {
-  if (g_data_057acbb3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_back");
-    g_data_057acbb3 = '\x01';
+  if (Il2CppMethodInitialized_1843458e5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_back");
+    Il2CppMethodInitialized_1843458e5 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_back";
 }
@@ -3735,14 +3557,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushBack
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBrushFrontL
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFrontL (const MethodInfo* method);
-// 0x4146bf0
+// 0x181f8cee0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFrontL(MethodInfo *method)
 
 {
-  if (g_data_057acbb4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_front_left");
-    g_data_057acbb4 = '\x01';
+  if (Il2CppMethodInitialized_1843458e6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_front_left");
+    Il2CppMethodInitialized_1843458e6 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_front_left";
 }
@@ -3750,14 +3572,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFron
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBrushFrontR
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFrontR (const MethodInfo* method);
-// 0x4146c20
+// 0x181f8cf10
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFrontR(MethodInfo *method)
 
 {
-  if (g_data_057acbb5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_front_right");
-    g_data_057acbb5 = '\x01';
+  if (Il2CppMethodInitialized_1843458e7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_front_right");
+    Il2CppMethodInitialized_1843458e7 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_front_right";
 }
@@ -3765,14 +3587,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushFron
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBrushHeadL
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHeadL (const MethodInfo* method);
-// 0x4146c50
+// 0x181f8cf40
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHeadL(MethodInfo *method)
 
 {
-  if (g_data_057acbb6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_head_b_l");
-    g_data_057acbb6 = '\x01';
+  if (Il2CppMethodInitialized_1843458e8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_head_b_l");
+    Il2CppMethodInitialized_1843458e8 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_head_b_l";
 }
@@ -3780,14 +3602,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHead
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBrushHeadR
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHeadR (const MethodInfo* method);
-// 0x4146c80
+// 0x181f8cf70
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHeadR(MethodInfo *method)
 
 {
-  if (g_data_057acbb7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep_head_b_r");
-    g_data_057acbb7 = '\x01';
+  if (Il2CppMethodInitialized_1843458e9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep_head_b_r");
+    Il2CppMethodInitialized_1843458e9 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep_head_b_r";
 }
@@ -3795,14 +3617,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBrushHead
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabBottomLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBottomLeft (const MethodInfo* method);
-// 0x4146cb0
+// 0x181f8d030
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBottomLeft(MethodInfo *method)
 
 {
-  if (g_data_057acbb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_bottom_left");
-    g_data_057acbb8 = '\x01';
+  if (Il2CppMethodInitialized_1843458ea == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_bottom_left");
+    Il2CppMethodInitialized_1843458ea = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_bottom_left";
 }
@@ -3810,14 +3632,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBotto
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabBottomRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBottomRight (const MethodInfo* method);
-// 0x4146ce0
+// 0x181f8d060
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBottomRight(MethodInfo *method)
 
 {
-  if (g_data_057acbb9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_bottom_right");
-    g_data_057acbb9 = '\x01';
+  if (Il2CppMethodInitialized_1843458eb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_bottom_right");
+    Il2CppMethodInitialized_1843458eb = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_bottom_right";
 }
@@ -3825,14 +3647,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabBotto
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabMidLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidLeft (const MethodInfo* method);
-// 0x4146d10
+// 0x181f8d090
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidLeft(MethodInfo *method)
 
 {
-  if (g_data_057acbba == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_mid_left");
-    g_data_057acbba = '\x01';
+  if (Il2CppMethodInitialized_1843458ec == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_mid_left");
+    Il2CppMethodInitialized_1843458ec = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_mid_left";
 }
@@ -3840,14 +3662,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidLe
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabMidRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidRight (const MethodInfo* method);
-// 0x4146d40
+// 0x181f8d0c0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidRight(MethodInfo *method)
 
 {
-  if (g_data_057acbbb == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_mid_right");
-    g_data_057acbbb = '\x01';
+  if (Il2CppMethodInitialized_1843458ed == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_mid_right");
+    Il2CppMethodInitialized_1843458ed = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_mid_right";
 }
@@ -3855,14 +3677,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabMidRi
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabUp
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUp (const MethodInfo* method);
-// 0x4146d70
+// 0x181f8d150
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUp(MethodInfo *method)
 
 {
-  if (g_data_057acbbc == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up");
-    g_data_057acbbc = '\x01';
+  if (Il2CppMethodInitialized_1843458ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up");
+    Il2CppMethodInitialized_1843458ee = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up";
 }
@@ -3870,14 +3692,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUp(Me
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabUpLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpLeft (const MethodInfo* method);
-// 0x4146da0
+// 0x181f8d0f0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpLeft(MethodInfo *method)
 
 {
-  if (g_data_057acbbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up_left");
-    g_data_057acbbd = '\x01';
+  if (Il2CppMethodInitialized_1843458ef == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up_left");
+    Il2CppMethodInitialized_1843458ef = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up_left";
 }
@@ -3885,14 +3707,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpLef
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackGrabUpRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpRight (const MethodInfo* method);
-// 0x4146dd0
+// 0x181f8d120
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpRight(MethodInfo *method)
 
 {
-  if (g_data_057acbbe == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_grab_up_right");
-    g_data_057acbbe = '\x01';
+  if (Il2CppMethodInitialized_1843458f0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_grab_up_right");
+    Il2CppMethodInitialized_1843458f0 = '\x01';
   }
   return "Armature_FemT|ft_attack_grab_up_right";
 }
@@ -3900,14 +3722,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackGrabUpRig
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackKick
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackKick (const MethodInfo* method);
-// 0x4146e00
+// 0x181f8d1e0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackKick(MethodInfo *method)
 
 {
-  if (g_data_057acbbf == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_sweep");
-    g_data_057acbbf = '\x01';
+  if (Il2CppMethodInitialized_1843458f1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_sweep");
+    Il2CppMethodInitialized_1843458f1 = '\x01';
   }
   return "Armature_FemT|ft_attack_sweep";
 }
@@ -3915,14 +3737,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackKick(Meth
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackStomp
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackStomp (const MethodInfo* method);
-// 0x4146e30
+// 0x181f8d390
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackStomp(MethodInfo *method)
 
 {
-  if (g_data_057acbc0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_core");
-    g_data_057acbc0 = '\x01';
+  if (Il2CppMethodInitialized_1843458f2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_core");
+    Il2CppMethodInitialized_1843458f2 = '\x01';
   }
   return "Armature_FemT|ft_attack_core";
 }
@@ -3930,14 +3752,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackStomp(Met
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackHead
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackHead (const MethodInfo* method);
-// 0x4146e60
+// 0x181f8d180
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackHead(MethodInfo *method)
 
 {
-  if (g_data_057acbc1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_head");
-    g_data_057acbc1 = '\x01';
+  if (Il2CppMethodInitialized_1843458f3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_head");
+    Il2CppMethodInitialized_1843458f3 = '\x01';
   }
   return "Armature_FemT|ft_attack_head";
 }
@@ -3945,14 +3767,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackHead(Meth
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_AttackBite
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBite (const MethodInfo* method);
-// 0x4146e90
+// 0x181f8ce80
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBite(MethodInfo *method)
 
 {
-  if (g_data_057acbc2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_attack_bite");
-    g_data_057acbc2 = '\x01';
+  if (Il2CppMethodInitialized_1843458f4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_attack_bite");
+    Il2CppMethodInitialized_1843458f4 = '\x01';
   }
   return "Armature_FemT|ft_attack_bite";
 }
@@ -3960,14 +3782,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_AttackBite(Meth
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_EmoteSalute
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteSalute (const MethodInfo* method);
-// 0x4146ec0
+// 0x181f8e010
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteSalute(MethodInfo *method)
 
 {
-  if (g_data_057acbc3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_salute");
-    g_data_057acbc3 = '\x01';
+  if (Il2CppMethodInitialized_1843458f5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_salute");
+    Il2CppMethodInitialized_1843458f5 = '\x01';
   }
   return "Armature_FemT|ft_emote_salute";
 }
@@ -3975,14 +3797,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteSalute(Met
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_EmoteTaunt
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteTaunt (const MethodInfo* method);
-// 0x4146ef0
+// 0x181f8e040
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteTaunt(MethodInfo *method)
 
 {
-  if (g_data_057acbc4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_taunt");
-    g_data_057acbc4 = '\x01';
+  if (Il2CppMethodInitialized_1843458f6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_taunt");
+    Il2CppMethodInitialized_1843458f6 = '\x01';
   }
   return "Armature_FemT|ft_emote_taunt";
 }
@@ -3990,14 +3812,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteTaunt(Meth
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_EmoteWave
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteWave (const MethodInfo* method);
-// 0x4146f20
+// 0x181f8e070
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteWave(MethodInfo *method)
 
 {
-  if (g_data_057acbc5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_emote_wave");
-    g_data_057acbc5 = '\x01';
+  if (Il2CppMethodInitialized_1843458f7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_emote_wave");
+    Il2CppMethodInitialized_1843458f7 = '\x01';
   }
   return "Armature_FemT|ft_emote_wave";
 }
@@ -4005,14 +3827,14 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteWave(Metho
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_EmoteRoar
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteRoar (const MethodInfo* method);
-// 0x4146f50
+// 0x181f8dfe0
 
 System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteRoar(MethodInfo *method)
 
 {
-  if (g_data_057acbc6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Armature_FemT|ft_mad1");
-    g_data_057acbc6 = '\x01';
+  if (Il2CppMethodInitialized_1843458f8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Armature_FemT|ft_mad1");
+    Il2CppMethodInitialized_1843458f8 = '\x01';
   }
   return "Armature_FemT|ft_mad1";
 }
@@ -4020,16 +3842,16 @@ System_String_o * CustomLogic_CustomLogicAnnieAnimationEnum__get_EmoteRoar(Metho
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicAnnieAnimationEnum__get_ClassName (CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, const MethodInfo* method);
-// 0x4146f80
+// 0x181f9f720
 
 System_String_o *
 CustomLogic_CustomLogicAnnieAnimationEnum__get_ClassName
           (CustomLogic_CustomLogicAnnieAnimationEnum_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057acbc7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AnnieAnimationEnum");
-    g_data_057acbc7 = '\x01';
+  if (Il2CppMethodInitialized_1843458f9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"AnnieAnimationEnum");
+    Il2CppMethodInitialized_1843458f9 = '\x01';
   }
   return "AnnieAnimationEnum";
 }
@@ -4037,46 +3859,37 @@ CustomLogic_CustomLogicAnnieAnimationEnum__get_ClassName
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicAnnieAnimationEnum__get_IsAbstract (CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, const MethodInfo* method);
-// 0x4146fb0
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAnnieAnimationEnum__get_IsAbstract
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAnnieAnimationEnum__get_IsAbstract(CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicAnnieAnimationEnum__get_IsStatic (CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, const MethodInfo* method);
-// 0x4146fc0
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAnnieAnimationEnum__get_IsStatic
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAnnieAnimationEnum__get_IsStatic(CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicAnnieAnimationEnum$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicAnnieAnimationEnum__get_InheritBaseMembers (CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, const MethodInfo* method);
-// 0x4146fd0
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAnnieAnimationEnum__get_InheritBaseMembers
-          (CustomLogic_CustomLogicAnnieAnimationEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAnnieAnimationEnum__get_InheritBaseMembers(CustomLogic_CustomLogicAnnieAnimationEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 

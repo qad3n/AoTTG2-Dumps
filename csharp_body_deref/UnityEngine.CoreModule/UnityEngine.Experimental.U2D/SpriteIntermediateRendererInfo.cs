@@ -12,68 +12,68 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.U2D;
 
-[Token(Token = "0x2000336")]
+[Token(Token = "0x20003FE")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/Renderer/SpriteRendererGroup.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal struct SpriteIntermediateRendererInfo
 {
-	[Token(Token = "0x4000A2F")]
+	[Token(Token = "0x4000DF9")]
 	[FieldOffset(Offset = "0x0")]
 	public int SpriteID;
 
-	[Token(Token = "0x4000A30")]
+	[Token(Token = "0x4000DFA")]
 	[FieldOffset(Offset = "0x4")]
 	public int TextureID;
 
-	[Token(Token = "0x4000A31")]
+	[Token(Token = "0x4000DFB")]
 	[FieldOffset(Offset = "0x8")]
 	public int MaterialID;
 
-	[Token(Token = "0x4000A32")]
+	[Token(Token = "0x4000DFC")]
 	[FieldOffset(Offset = "0xC")]
 	public Color Color;
 
-	[Token(Token = "0x4000A33")]
+	[Token(Token = "0x4000DFD")]
 	[FieldOffset(Offset = "0x1C")]
 	public Matrix4x4 Transform;
 
-	[Token(Token = "0x4000A34")]
+	[Token(Token = "0x4000DFE")]
 	[FieldOffset(Offset = "0x5C")]
 	public Bounds Bounds;
 
-	[Token(Token = "0x4000A35")]
+	[Token(Token = "0x4000DFF")]
 	[FieldOffset(Offset = "0x74")]
 	public int Layer;
 
-	[Token(Token = "0x4000A36")]
+	[Token(Token = "0x4000E00")]
 	[FieldOffset(Offset = "0x78")]
 	public int SortingLayer;
 
-	[Token(Token = "0x4000A37")]
+	[Token(Token = "0x4000E01")]
 	[FieldOffset(Offset = "0x7C")]
 	public int SortingOrder;
 
-	[Token(Token = "0x4000A38")]
+	[Token(Token = "0x4000E02")]
 	[FieldOffset(Offset = "0x80")]
 	public ulong SceneCullingMask;
 
-	[Token(Token = "0x4000A39")]
+	[Token(Token = "0x4000E03")]
 	[FieldOffset(Offset = "0x88")]
 	public IntPtr IndexData;
 
-	[Token(Token = "0x4000A3A")]
+	[Token(Token = "0x4000E04")]
 	[FieldOffset(Offset = "0x90")]
 	public IntPtr VertexData;
 
-	[Token(Token = "0x4000A3B")]
+	[Token(Token = "0x4000E05")]
 	[FieldOffset(Offset = "0x98")]
 	public int IndexCount;
 
-	[Token(Token = "0x4000A3C")]
+	[Token(Token = "0x4000E06")]
 	[FieldOffset(Offset = "0x9C")]
 	public int VertexCount;
 
-	[Token(Token = "0x4000A3D")]
+	[Token(Token = "0x4000E07")]
 	[FieldOffset(Offset = "0xA0")]
 	public int ShaderChannelMask;
 }

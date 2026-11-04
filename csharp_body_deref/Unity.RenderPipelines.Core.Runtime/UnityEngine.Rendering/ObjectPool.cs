@@ -13,101 +13,101 @@ using UnityEngine.Events;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000087")]
+[Token(Token = "0x2000051")]
 public class ObjectPool<T> where T : new()
 {
-	[Token(Token = "0x2000088")]
+	[Token(Token = "0x2000052")]
 	public struct PooledObject : IDisposable
 	{
-		[Token(Token = "0x400021F")]
+		[Token(Token = "0x4000140")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly T m_ToReturn;
 
-		[Token(Token = "0x4000220")]
+		[Token(Token = "0x4000141")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly ObjectPool<T> m_Pool;
 
-		[Token(Token = "0x600060C")]
+		[Token(Token = "0x6000523")]
 		internal PooledObject(T value, ObjectPool<T> pool)
 		{
 		}
 
-		[Token(Token = "0x600060D")]
+		[Token(Token = "0x6000524")]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x400021A")]
+	[Token(Token = "0x400013B")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Stack<T> m_Stack;
 
-	[Token(Token = "0x400021B")]
+	[Token(Token = "0x400013C")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly UnityAction<T> m_ActionOnGet;
 
-	[Token(Token = "0x400021C")]
+	[Token(Token = "0x400013D")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly UnityAction<T> m_ActionOnRelease;
 
-	[Token(Token = "0x400021D")]
+	[Token(Token = "0x400013E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly bool m_CollectionCheck;
 
-	[Token(Token = "0x17000061")]
+	[Token(Token = "0x17000040")]
 	public int countAll
 	{
-		[Token(Token = "0x6000604")]
+		[Token(Token = "0x600051B")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000605")]
+		[Token(Token = "0x600051C")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000062")]
+	[Token(Token = "0x17000041")]
 	public int countActive
 	{
-		[Token(Token = "0x6000606")]
+		[Token(Token = "0x600051D")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000063")]
+	[Token(Token = "0x17000042")]
 	public int countInactive
 	{
-		[Token(Token = "0x6000607")]
+		[Token(Token = "0x600051E")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000608")]
+	[Token(Token = "0x600051F")]
 	public ObjectPool(UnityAction<T> actionOnGet, UnityAction<T> actionOnRelease, bool collectionCheck = true)
 	{
 	}
 
-	[Token(Token = "0x6000609")]
+	[Token(Token = "0x6000520")]
 	public T Get()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600060A")]
+	[Token(Token = "0x6000521")]
 	public PooledObject Get(out T v)
 	{
 		return default(PooledObject);
 	}
 
-	[Token(Token = "0x600060B")]
+	[Token(Token = "0x6000522")]
 	public void Release(T element)
 	{
 	}

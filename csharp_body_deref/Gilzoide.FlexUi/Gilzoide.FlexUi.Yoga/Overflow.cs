@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000013")]
 public enum Overflow
 {
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000071")]
 	Visible,
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000072")]
 	Hidden,
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x4000073")]
 	Scroll
 }

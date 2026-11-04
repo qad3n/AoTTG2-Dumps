@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000128")]
+[Token(Token = "0x200014F")]
 public class UnhandledExceptionEventArgs : EventArgs
 {
-	[Token(Token = "0x4000422")]
+	[Token(Token = "0x400047F")]
 	[FieldOffset(Offset = "0x10")]
 	private object _exception;
 
-	[Token(Token = "0x4000423")]
+	[Token(Token = "0x4000480")]
 	[FieldOffset(Offset = "0x18")]
 	private bool _isTerminating;
 
-	[Token(Token = "0x170000FE")]
+	[Token(Token = "0x170000FF")]
 	public object ExceptionObject
 	{
-		[Token(Token = "0x6000B93")]
-		[Address(RVA = "0x3CDA2E0", Offset = "0x3CDA2E0", VA = "0x3CDA2E0")]
+		[Token(Token = "0x6000BD9")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000FF")]
+	[Token(Token = "0x17000100")]
 	public bool IsTerminating
 	{
-		[Token(Token = "0x6000B94")]
-		[Address(RVA = "0x3CDA2F0", Offset = "0x3CDA2F0", VA = "0x3CDA2F0")]
+		[Token(Token = "0x6000BDA")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x3CDA270", Offset = "0x3CDA270", VA = "0x3CDA270")]
+	[Token(Token = "0x6000BD8")]
+	[Address(RVA = "0x1B57C70", Offset = "0x1B56270", VA = "0x181B57C70")]
 	public UnhandledExceptionEventArgs(object exception, bool isTerminating)
 	{
 	}

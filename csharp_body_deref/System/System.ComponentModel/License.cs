@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002AE")]
+[Token(Token = "0x20001B9")]
 public abstract class License : IDisposable
 {
-	[Token(Token = "0x170003C4")]
+	[Token(Token = "0x17000233")]
 	public abstract string LicenseKey
 	{
-		[Token(Token = "0x60010D5")]
+		[Token(Token = "0x6000B1D")]
 		get;
 	}
 
-	[Token(Token = "0x60010D6")]
+	[Token(Token = "0x6000B1E")]
 	public abstract void Dispose();
 
-	[Token(Token = "0x60010D7")]
-	[Address(RVA = "0x48954E0", Offset = "0x48954E0", VA = "0x48954E0")]
+	[Token(Token = "0x6000B1F")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected License()
 	{
 	}

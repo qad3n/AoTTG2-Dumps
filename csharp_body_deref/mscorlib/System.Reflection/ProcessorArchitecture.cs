@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004EF")]
+[Token(Token = "0x200051F")]
 public enum ProcessorArchitecture
 {
 	[Token(Token = "0x4001455")]

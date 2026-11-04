@@ -12,8 +12,8 @@ namespace System.Linq.Expressions.Interpreter;
 [Token(Token = "0x2000190")]
 internal sealed class RethrowException : Exception
 {
-	[Token(Token = "0x600086E")]
-	[Address(RVA = "0x44DF230", Offset = "0x44DF230", VA = "0x44DF230")]
+	[Token(Token = "0x600086D")]
+	[Address(RVA = "0x2465680", Offset = "0x2463C80", VA = "0x182465680")]
 	public RethrowException()
 	{
 	}

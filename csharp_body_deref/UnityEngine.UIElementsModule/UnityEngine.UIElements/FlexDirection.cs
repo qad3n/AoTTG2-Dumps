@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200039C")]
+[Token(Token = "0x200043E")]
 public enum FlexDirection
 {
-	[Token(Token = "0x4000AC6")]
+	[Token(Token = "0x4000E14")]
 	Column,
-	[Token(Token = "0x4000AC7")]
+	[Token(Token = "0x4000E15")]
 	ColumnReverse,
-	[Token(Token = "0x4000AC8")]
+	[Token(Token = "0x4000E16")]
 	Row,
-	[Token(Token = "0x4000AC9")]
+	[Token(Token = "0x4000E17")]
 	RowReverse
 }

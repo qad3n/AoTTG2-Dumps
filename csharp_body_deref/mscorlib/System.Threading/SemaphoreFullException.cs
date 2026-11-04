@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x20001D1")]
+[Token(Token = "0x20001FC")]
 public class SemaphoreFullException : SystemException
 {
-	[Token(Token = "0x600116C")]
-	[Address(RVA = "0x3D283A0", Offset = "0x3D283A0", VA = "0x3D283A0")]
+	[Token(Token = "0x60011C7")]
+	[Address(RVA = "0x1BA3190", Offset = "0x1BA1790", VA = "0x181BA3190")]
 	public SemaphoreFullException()
 	{
 	}
 
-	[Token(Token = "0x600116D")]
-	[Address(RVA = "0x3D283E0", Offset = "0x3D283E0", VA = "0x3D283E0")]
+	[Token(Token = "0x60011C8")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected SemaphoreFullException(SerializationInfo info, StreamingContext context)
 	{
 	}

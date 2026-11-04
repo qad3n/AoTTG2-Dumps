@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200024A")]
+[Token(Token = "0x2000155")]
 public static class AsyncOperationManager
 {
-	[Token(Token = "0x17000330")]
+	[Token(Token = "0x1700019F")]
 	[EditorBrowsable(EditorBrowsableState.Advanced)]
 	public static SynchronizationContext SynchronizationContext
 	{
-		[Token(Token = "0x6000E4A")]
-		[Address(RVA = "0x4880160", Offset = "0x4880160", VA = "0x4880160")]
+		[Token(Token = "0x6000892")]
+		[Address(RVA = "0x2879520", Offset = "0x2877B20", VA = "0x182879520")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000E4B")]
-		[Address(RVA = "0x48801D0", Offset = "0x48801D0", VA = "0x48801D0")]
+		[Token(Token = "0x6000893")]
+		[Address(RVA = "0x2879590", Offset = "0x2877B90", VA = "0x182879590")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000E49")]
-	[Address(RVA = "0x48800F0", Offset = "0x48800F0", VA = "0x48800F0")]
+	[Token(Token = "0x6000891")]
+	[Address(RVA = "0x2879420", Offset = "0x2877A20", VA = "0x182879420")]
 	public static AsyncOperation CreateOperation(object userSuppliedState)
 	{
 		return null;

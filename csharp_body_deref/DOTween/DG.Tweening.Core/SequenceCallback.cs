@@ -13,7 +13,7 @@ namespace DG.Tweening.Core;
 internal class SequenceCallback : ABSSequentiable
 {
 	[Token(Token = "0x6000430")]
-	[Address(RVA = "0x2386EC0", Offset = "0x2386EC0", VA = "0x2386EC0")]
+	[Address(RVA = "0x57AF40", Offset = "0x579540", VA = "0x18057AF40")]
 	public SequenceCallback(float sequencedPosition, TweenCallback callback)
 	{
 	}

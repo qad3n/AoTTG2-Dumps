@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000013")]
+[Token(Token = "0x200002F")]
 public class DataColumnChangeEventArgs : EventArgs
 {
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x40000FF")]
 	[FieldOffset(Offset = "0x10")]
 	private DataColumn _column;
 
-	[Token(Token = "0x400004E")]
+	[Token(Token = "0x4000100")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly DataRow _003CRow_003Ek__BackingField;
 
-	[Token(Token = "0x17000045")]
+	[Token(Token = "0x17000086")]
 	public object ProposedValue
 	{
-		[Token(Token = "0x6000103")]
-		[Address(RVA = "0x4543460", Offset = "0x4543460", VA = "0x4543460")]
+		[Token(Token = "0x6000398")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000104")]
-		[Address(RVA = "0x4543470", Offset = "0x4543470", VA = "0x4543470")]
+		[Token(Token = "0x6000399")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x4543360", Offset = "0x4543360", VA = "0x4543360")]
+	[Token(Token = "0x6000396")]
+	[Address(RVA = "0x24EA460", Offset = "0x24E8A60", VA = "0x1824EA460")]
 	internal DataColumnChangeEventArgs(DataRow row)
 	{
 	}
 
-	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x45433D0", Offset = "0x45433D0", VA = "0x45433D0")]
+	[Token(Token = "0x6000397")]
+	[Address(RVA = "0x24EA4D0", Offset = "0x24E8AD0", VA = "0x1824EA4D0")]
 	public DataColumnChangeEventArgs(DataRow row, DataColumn column, object value)
 	{
 	}
 
-	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x4543480", Offset = "0x4543480", VA = "0x4543480")]
+	[Token(Token = "0x600039A")]
+	[Address(RVA = "0x24EA420", Offset = "0x24E8A20", VA = "0x1824EA420")]
 	internal void InitializeColumnChangeEvent(DataColumn column, object value)
 	{
 	}

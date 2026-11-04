@@ -10,23 +10,23 @@ using Photon.Realtime;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 public static class ScoreExtensions
 {
-	[Token(Token = "0x600007F")]
-	[Address(RVA = "0x3F07260", Offset = "0x3F07260", VA = "0x3F07260")]
+	[Token(Token = "0x600007D")]
+	[Address(RVA = "0x1D5D6D0", Offset = "0x1D5BCD0", VA = "0x181D5D6D0")]
 	public static void SetScore(this Player player, int newScore)
 	{
 	}
 
-	[Token(Token = "0x6000080")]
-	[Address(RVA = "0x3F07310", Offset = "0x3F07310", VA = "0x3F07310")]
+	[Token(Token = "0x600007E")]
+	[Address(RVA = "0x1D5D4C0", Offset = "0x1D5BAC0", VA = "0x181D5D4C0")]
 	public static void AddScore(this Player player, int scoreToAddToCurrent)
 	{
 	}
 
-	[Token(Token = "0x6000081")]
-	[Address(RVA = "0x3F073D0", Offset = "0x3F073D0", VA = "0x3F073D0")]
+	[Token(Token = "0x600007F")]
+	[Address(RVA = "0x1D5D620", Offset = "0x1D5BC20", VA = "0x181D5D620")]
 	public static int GetScore(this Player player)
 	{
 		return default(int);

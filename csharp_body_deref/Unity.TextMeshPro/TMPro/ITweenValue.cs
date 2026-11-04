@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x200001D")]
 internal interface ITweenValue
 {
-	[Token(Token = "0x1700002C")]
+	[Token(Token = "0x17000020")]
 	bool ignoreTimeScale
 	{
-		[Token(Token = "0x6000149")]
+		[Token(Token = "0x6000083")]
 		get;
 	}
 
-	[Token(Token = "0x1700002D")]
+	[Token(Token = "0x17000021")]
 	float duration
 	{
-		[Token(Token = "0x600014A")]
+		[Token(Token = "0x6000084")]
 		get;
 	}
 
-	[Token(Token = "0x6000148")]
+	[Token(Token = "0x6000082")]
 	void TweenValue(float floatPercentage);
 
-	[Token(Token = "0x600014B")]
+	[Token(Token = "0x6000085")]
 	bool ValidTarget();
 }

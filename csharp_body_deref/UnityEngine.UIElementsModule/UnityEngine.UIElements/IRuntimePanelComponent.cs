@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000244")]
+[Token(Token = "0x20002C0")]
 internal interface IRuntimePanelComponent
 {
-	[Token(Token = "0x170002E7")]
+	[Token(Token = "0x170003D2")]
 	IPanel panel
 	{
-		[Token(Token = "0x6000EFA")]
+		[Token(Token = "0x60012B5")]
 		set;
 	}
 }

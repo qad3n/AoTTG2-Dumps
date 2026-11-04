@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Utility.Algorithms;
 
-[Token(Token = "0x200074F")]
+[Token(Token = "0x20008D8")]
 internal class GZipAlgorithm : CompressionAlgorithm
 {
-	[Token(Token = "0x6004763")]
-	[Address(RVA = "0x4398B00", Offset = "0x4398B00", VA = "0x4398B00", Slot = "4")]
+	[Token(Token = "0x60053CB")]
+	[Address(RVA = "0x2339B30", Offset = "0x2338130", VA = "0x182339B30", Slot = "4")]
 	public override byte[] Compress(byte[] data, CompressionLevel level = CompressionLevel.Fastest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004764")]
-	[Address(RVA = "0x4398F70", Offset = "0x4398F70", VA = "0x4398F70", Slot = "5")]
+	[Token(Token = "0x60053CC")]
+	[Address(RVA = "0x2339D10", Offset = "0x2338310", VA = "0x182339D10", Slot = "5")]
 	public override byte[] Decompress(byte[] data, int bufferSize = 4096, long maxSize = 10485760L)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004765")]
-	[Address(RVA = "0x4399620", Offset = "0x4399620", VA = "0x4399620")]
+	[Token(Token = "0x60053CD")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public GZipAlgorithm()
 	{
 	}

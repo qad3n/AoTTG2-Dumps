@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000DF")]
+[Token(Token = "0x2000100")]
 public enum AnisotropicFiltering
 {
-	[Token(Token = "0x400025C")]
+	[Token(Token = "0x40002B3")]
 	Disable,
-	[Token(Token = "0x400025D")]
+	[Token(Token = "0x40002B4")]
 	Enable,
-	[Token(Token = "0x400025E")]
+	[Token(Token = "0x40002B5")]
 	ForceEnable
 }

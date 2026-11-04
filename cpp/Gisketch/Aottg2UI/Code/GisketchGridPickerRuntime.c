@@ -1,1182 +1,1079 @@
 // Type: Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Code/GisketchGridPickerRuntime.cs
 // Prior real C# source: none
 // --------------------------------
 
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.CardSlot$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* __this, UnityEngine_GameObject_o* root, UnityEngine_RectTransform_o* rect, UnityEngine_UI_Button_o* button, UnityEngine_UI_Image_o* thumbnail, TMPro_TextMeshProUGUI_o* label, const MethodInfo* method);
+// 0x1818cb310
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot___ctor
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *__this,
+               UnityEngine_GameObject_o *root,UnityEngine_RectTransform_o *rect,
+               UnityEngine_UI_Button_o *button,UnityEngine_UI_Image_o *thumbnail,
+               TMPro_TextMeshProUGUI_o *label,MethodInfo *method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).Root = root;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Root,root);
+  (__this->fields).Rect = rect;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Rect,rect);
+  (__this->fields).Button = button;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Button,button);
+  (__this->fields).Thumbnail = thumbnail;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Thumbnail,thumbnail);
+  (__this->fields).Label = label;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Label,label);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.ThumbnailTarget$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailTarget___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailTarget_o* __this, const MethodInfo* method);
+// 0x180528540
+
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailTarget___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailTarget_o* __this, MethodInfo* method)
+
+{
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.CardSlotHost$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlotHost___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlotHost_o* __this, const MethodInfo* method);
+// 0x180528540
+
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlotHost___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlotHost_o* __this, MethodInfo* method)
+
+{
+  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.ThumbnailLoad$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o __this, UnityEngine_UI_Image_o* image, System_String_o* resourcePath, int32_t generation, const MethodInfo* method);
-// 0x3b68020
+// 0x181046380
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad___ctor
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o __this,
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *__this,
                UnityEngine_UI_Image_o *image,System_String_o *resourcePath,int32_t generation,
                MethodInfo *method)
 
 {
-  undefined4 in_register_00000014;
-  
-  image->klass = (UnityEngine_UI_Image_c *)resourcePath;
-  il2cpp_runtime_helper_022b4080();
-  image->monitor = (void *)CONCAT44(in_register_00000014,generation);
-  il2cpp_runtime_helper_022b4080(&image->monitor,(void *)CONCAT44(in_register_00000014,generation));
-  *(int *)&(image->fields).m_CachedPtr = (int)method;
+  (__this->fields).Image = image;
+  Il2CppCodeGenWriteBarrier((void **)__this,image);
+  (__this->fields).ResourcePath = resourcePath;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ResourcePath,resourcePath);
+  (__this->fields).Generation = generation;
   return;
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass20_0$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o* __this, const MethodInfo* method);
-// 0x3b673e0
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass33_0$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x18054c890
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0___ctor
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o *__this,
-               MethodInfo *method)
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass20_0$$<CreateCard>b__0
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0___CreateCard_b__0 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o* __this, const MethodInfo* method);
-// 0x3b683d0
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass33_0$$<BindCardSlot>b__0
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0___BindCardSlot_b__0 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1818d9e20
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0___CreateCard_b__0
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o *__this,
-               MethodInfo *method)
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0___BindCardSlot_b__0(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o* __this, MethodInfo* method)
 
 {
-  uint uVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar1;
   Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
   System_Action_GisketchActionContext__GisketchGridPickerItem__o *pSVar3;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar4;
   UnityEngine_Object_o *__this_00;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar4;
-  code *vtableDispatch;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_03;
-  Gisketch_Aottg2UI_Actions_GisketchActionContext_o __this_04;
-  bool_conflict bVar5;
-  System_String_o *gameObject;
-  long *plVar6;
-  undefined8 extraout_RDX;
-  MethodInfo *pMVar7;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o *pGVar8;
-  long lVar9;
-  undefined8 unaff_R15;
-  undefined4 uVar10;
-  undefined8 uVar11;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 in_XMM1_Da;
-  undefined1 auVar12 [12];
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar13;
-  undefined4 uVar14;
-  undefined4 uVar15;
-  System_String_o *in_stack_ffffffffffffff30;
-  undefined4 in_stack_ffffffffffffff48;
-  undefined4 in_stack_ffffffffffffff4c;
-  undefined4 in_stack_ffffffffffffff50;
-  undefined4 in_stack_ffffffffffffff54;
-  undefined4 in_stack_ffffffffffffff58;
-  undefined4 in_stack_ffffffffffffff5c;
-  undefined4 in_stack_ffffffffffffff60;
-  undefined4 in_stack_ffffffffffffff64;
-  System_String_o SStack_78;
-  undefined8 uStack_60;
-  System_String_c *pSStack_58;
-  void *pvStack_50;
-  System_String_Fields SStack_48;
-  undefined8 uStack_40;
-  System_String_o *pSStack_38;
-  System_String_o *pSStack_30;
-  System_String_o *pSStack_28;
-  System_String_o *pSStack_20;
+  System_String_o *elementId;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_68;
+  undefined4 local_48;
+  undefined4 uStack_44;
+  undefined4 uStack_40;
+  undefined4 uStack_3c;
+  undefined4 local_38;
+  undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined4 uStack_2c;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 local_18;
+  undefined4 uStack_14;
+  int32_t iStack_10;
+  undefined4 uStack_c;
   
-  pGVar13 = (__this->fields).__4__this;
-  pGVar8 = __this;
-  if ((pGVar13 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) &&
-     (pGVar2 = (pGVar13->fields)._definition,
+  pGVar1 = (__this->fields).__4__this;
+  if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) &&
+     (pGVar2 = (pGVar1->fields)._definition,
      pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)) {
     pSVar3 = (pGVar2->fields).Select;
     if (pSVar3 == (System_Action_GisketchActionContext__GisketchGridPickerItem__o *)0x0) {
       return;
     }
-    __this_00 = (UnityEngine_Object_o *)(__this->fields).card;
-    pGVar8 = (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass20_0_o *)0x0;
-    if (__this_00 != (UnityEngine_Object_o *)0x0) {
-      gameObject = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
-      SStack_78.fields._stringLength = 0;
-      SStack_78.fields._firstChar = 0;
-      SStack_78.fields._6_2_ = 0;
-      uStack_60 = 0;
-      SStack_78.klass = (System_String_c *)0x0;
-      SStack_78.monitor = (void *)0x0;
-      __this_04.fields.ElementId._4_4_ = in_stack_ffffffffffffff4c;
-      __this_04.fields.ElementId._0_4_ = in_stack_ffffffffffffff48;
-      __this_04.fields.GameObject._0_4_ = in_stack_ffffffffffffff50;
-      __this_04.fields.GameObject._4_4_ = in_stack_ffffffffffffff54;
-      __this_04.fields.Node._0_4_ = in_stack_ffffffffffffff58;
-      __this_04.fields.Node._4_4_ = in_stack_ffffffffffffff5c;
-      __this_04.fields.InputSource = in_stack_ffffffffffffff60;
-      __this_04.fields._28_4_ = in_stack_ffffffffffffff64;
-      Gisketch_Aottg2UI_Actions_GisketchActionContext___ctor
-                (__this_04,&SStack_78,(UnityEngine_GameObject_o *)gameObject,
-                 (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)(__this->fields).card,(MethodInfo *)0x0);
-      pSStack_38 = (__this->fields).item.fields.Key;
-      pSStack_30 = (__this->fields).item.fields.Label;
-      pSStack_28 = (__this->fields).item.fields.Sprite;
-      pSStack_20 = (__this->fields).item.fields.Keywords;
-      pSStack_58 = SStack_78.klass;
-      pvStack_50 = SStack_78.monitor;
-      SStack_48 = SStack_78.fields;
-      uStack_40 = uStack_60;
-      (*(code *)(pSVar3->fields).invoke_impl)((pSVar3->fields).method_code,(pSVar3->fields).method);
-      return;
-    }
-  }
-  uVar11 = il2cpp_runtime_helper_022b2c90();
-  uVar14 = extraout_XMM0_Dc;
-  uVar15 = extraout_XMM0_Dd;
-  if (cRam00000000057a9dbb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    cRam00000000057a9dbb = '\x01';
-  }
-  pGVar13 = (pGVar8->fields).__4__this;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pGVar13,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    return;
-  }
-  pGVar4 = (pGVar8->fields).__4__this;
-  if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-    uVar10 = (**(code **)&pGVar4->klass[1]._2.field_count)();
-    pGVar4 = (pGVar8->fields).__4__this;
-    if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-      vtableDispatch = *(code **)&pGVar4->klass[1]._2.naturalAligment;
-      (*vtableDispatch)
-                (uVar10,in_XMM1_Da,pGVar4,pGVar4->klass[1].vtable._0_Equals.methodPtr,extraout_RDX,
-                 vtableDispatch);
-      return;
-    }
-  }
-  pMVar7 = (MethodInfo *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  uVar1 = *(uint *)&pMVar7->invoker_method;
-  if ((uVar1 & 0xfffffffe) == 0xfffffffc) {
-    if ((uVar1 != 1) && (uVar1 != 0xfffffffc)) goto label_03b685bc;
-  }
-  else if (uVar1 != 1) {
-    return;
-  }
-  if (g_data_057a9dbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    g_data_057a9dbd = '\x01';
-  }
-  *(undefined4 *)&pMVar7->invoker_method = 0xfffffffd;
-  __this_03.fields._8_8_ = pGVar8;
-  __this_03.fields._list = (System_Collections_Generic_List_T__o *)pGVar13;
-  __this_03.fields._current.fields.Key = (System_String_o *)unaff_R15;
-  __this_03.fields._current.fields.Label._0_4_ = (int)uVar11;
-  __this_03.fields._current.fields.Label._4_4_ = (int)((ulong)uVar11 >> 0x20);
-  __this_03.fields._current.fields.Sprite._0_4_ = uVar14;
-  __this_03.fields._current.fields.Sprite._4_4_ = uVar15;
-  __this_03.fields._current.fields.Keywords = in_stack_ffffffffffffff30;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-            (__this_03,(MethodInfo_3213FB0 *)&pMVar7->slot);
-label_03b685bc:
-  lVar9 = 0;
-  while( true ) {
-    *(undefined4 *)&pMVar7->invoker_method = 0xffffffff;
-    __this_01.fields._detail = (System_String_o *)pGVar8;
-    __this_01.fields._area = (System_String_o *)pGVar13;
-    __this_01.fields._startMs = unaff_R15;
-    __this_01.fields._enabled = (int)uVar11;
-    __this_01.fields._hotLoop = (bool_conflict)((ulong)uVar11 >> 0x20);
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_01,(MethodInfo *)&pMVar7->return_type);
-    if (lVar9 == 0) {
-      return;
-    }
-    auVar12 = il2cpp_runtime_helper_022fefe0(lVar9);
-    if (auVar12._8_4_ != 1) break;
-    plVar6 = (long *)__cxa_begin_catch(auVar12._0_8_);
-    lVar9 = *plVar6;
-    __cxa_end_catch();
-    pMVar7 = (MethodInfo *)&pMVar7->return_type;
-  }
-  *(undefined4 *)&pMVar7->field7_0x38 = 0xffffffff;
-  __this_02.fields._detail = (System_String_o *)pGVar8;
-  __this_02.fields._area = (System_String_o *)pGVar13;
-  __this_02.fields._startMs = unaff_R15;
-  __this_02.fields._enabled = (int)uVar11;
-  __this_02.fields._hotLoop = (bool_conflict)((ulong)uVar11 >> 0x20);
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)&pMVar7->slot);
-  _Unwind_Resume(auVar12._0_8_);
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass25_0$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0_o* __this, const MethodInfo* method);
-// 0x3b682d0
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0___ctor
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0_o *__this,
-               MethodInfo *method)
-
-{
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass25_0$$<FadeIn>b__0
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0___FadeIn_b__0 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0_o* __this, float value, const MethodInfo* method);
-// 0x3b684b0
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0___FadeIn_b__0
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass25_0_o *__this,float value,
-               MethodInfo *method)
-
-{
-  uint uVar1;
-  UnityEngine_UI_Image_o *pUVar2;
-  Il2CppMethodPointer vtableDispatch;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_02;
-  bool_conflict bVar3;
-  long *plVar4;
-  undefined8 extraout_RDX;
-  MethodInfo *pMVar5;
-  long lVar6;
-  undefined8 unaff_R15;
-  undefined4 uVar7;
-  bool_conflict in_XMM0_Db;
-  undefined4 in_XMM0_Dc;
-  undefined4 in_XMM0_Dd;
-  undefined4 in_XMM1_Da;
-  undefined1 auVar8 [12];
-  UnityEngine_UI_Image_o *x;
-  System_String_o *in_stack_ffffffffffffffe8;
-  
-  if (cRam00000000057a9dbb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    cRam00000000057a9dbb = '\x01';
-  }
-  x = (__this->fields).image;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    return;
-  }
-  pUVar2 = (__this->fields).image;
-  if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
-    uVar7 = (*(pUVar2->klass->vtable)._22_get_color.methodPtr)();
-    pUVar2 = (__this->fields).image;
-    if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
-      vtableDispatch = (pUVar2->klass->vtable)._23_set_color.methodPtr;
-      (*vtableDispatch)
-                (uVar7,in_XMM1_Da,pUVar2,(pUVar2->klass->vtable)._23_set_color.method,extraout_RDX,
-                 vtableDispatch);
-      return;
-    }
-  }
-  pMVar5 = (MethodInfo *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  uVar1 = *(uint *)&pMVar5->invoker_method;
-  if ((uVar1 & 0xfffffffe) == 0xfffffffc) {
-    if ((uVar1 != 1) && (uVar1 != 0xfffffffc)) goto label_03b685bc;
-  }
-  else if (uVar1 != 1) {
-    return;
-  }
-  if (g_data_057a9dbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    g_data_057a9dbd = '\x01';
-  }
-  *(undefined4 *)&pMVar5->invoker_method = 0xfffffffd;
-  __this_02.fields._8_8_ = __this;
-  __this_02.fields._list = (System_Collections_Generic_List_T__o *)x;
-  __this_02.fields._current.fields.Key = (System_String_o *)unaff_R15;
-  __this_02.fields._current.fields.Label._0_4_ = value;
-  __this_02.fields._current.fields.Label._4_4_ = in_XMM0_Db;
-  __this_02.fields._current.fields.Sprite._0_4_ = in_XMM0_Dc;
-  __this_02.fields._current.fields.Sprite._4_4_ = in_XMM0_Dd;
-  __this_02.fields._current.fields.Keywords = in_stack_ffffffffffffffe8;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-            (__this_02,(MethodInfo_3213FB0 *)&pMVar5->slot);
-label_03b685bc:
-  lVar6 = 0;
-  while( true ) {
-    *(undefined4 *)&pMVar5->invoker_method = 0xffffffff;
-    __this_00.fields._detail = (System_String_o *)__this;
-    __this_00.fields._area = (System_String_o *)x;
-    __this_00.fields._startMs = unaff_R15;
-    __this_00.fields._enabled = (bool_conflict)value;
-    __this_00.fields._hotLoop = in_XMM0_Db;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_00,(MethodInfo *)&pMVar5->return_type);
-    if (lVar6 == 0) {
-      return;
-    }
-    auVar8 = il2cpp_runtime_helper_022fefe0(lVar6);
-    if (auVar8._8_4_ != 1) break;
-    plVar4 = (long *)__cxa_begin_catch(auVar8._0_8_);
-    lVar6 = *plVar4;
-    __cxa_end_catch();
-    pMVar5 = (MethodInfo *)&pMVar5->return_type;
-  }
-  *(undefined4 *)&pMVar5->field7_0x38 = 0xffffffff;
-  __this_01.fields._detail = (System_String_o *)__this;
-  __this_01.fields._area = (System_String_o *)x;
-  __this_01.fields._startMs = unaff_R15;
-  __this_01.fields._enabled = (bool_conflict)value;
-  __this_01.fields._hotLoop = in_XMM0_Db;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_01,(MethodInfo *)&pMVar5->slot);
-  _Unwind_Resume(auVar8._0_8_);
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x3b66200
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17___ctor
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,
-               int32_t __1__state,MethodInfo *method)
-
-{
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  (__this->fields).__1__state = __1__state;
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$System.IDisposable.Dispose
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_IDisposable_Dispose (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68560
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_IDisposable_Dispose
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,
-               MethodInfo *method)
-
-{
-  uint uVar1;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_02;
-  long *plVar2;
-  undefined8 unaff_RBX;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *method_00;
-  undefined8 unaff_R14;
-  long lVar3;
-  undefined8 unaff_R15;
-  undefined1 auVar4 [12];
-  undefined8 unaff_retaddr;
-  undefined1 in_stack_00000008 [16];
-  
-  uVar1 = (__this->fields).__1__state;
-  if ((uVar1 & 0xfffffffe) == 0xfffffffc) {
-    if ((uVar1 != 1) && (uVar1 != 0xfffffffc)) goto label_03b685bc;
-  }
-  else if (uVar1 != 1) {
-    return;
-  }
-  if (g_data_057a9dbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    g_data_057a9dbd = '\x01';
-  }
-  (__this->fields).__1__state = -3;
-  __this_02.fields._index = (int)unaff_R14;
-  __this_02.fields._version = (int)((ulong)unaff_R14 >> 0x20);
-  __this_02.fields._list = (System_Collections_Generic_List_T__o *)unaff_RBX;
-  __this_02.fields._current.fields.Key = (System_String_o *)unaff_R15;
-  __this_02.fields._current.fields.Label = (System_String_o *)unaff_retaddr;
-  __this_02.fields._current.fields._16_16_ = in_stack_00000008;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-            (__this_02,(MethodInfo_3213FB0 *)&(__this->fields).__7__wrap3);
-label_03b685bc:
-  lVar3 = 0;
-  while( true ) {
-    (__this->fields).__1__state = -1;
-    method_00 = &(__this->fields).__7__wrap1;
-    __this_00.fields._detail = (System_String_o *)unaff_R14;
-    __this_00.fields._area = (System_String_o *)unaff_RBX;
-    __this_00.fields._startMs = unaff_R15;
-    __this_00.fields._24_8_ = unaff_retaddr;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_00,(MethodInfo *)method_00);
-    if (lVar3 == 0) {
-      return;
-    }
-    auVar4 = il2cpp_runtime_helper_022fefe0(lVar3);
-    if (auVar4._8_4_ != 1) break;
-    plVar2 = (long *)__cxa_begin_catch(auVar4._0_8_);
-    lVar3 = *plVar2;
-    __cxa_end_catch();
-    __this = (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *)method_00;
-  }
-  *(undefined4 *)&(__this->fields).__7__wrap1.fields._startMs = 0xffffffff;
-  __this_01.fields._detail = (System_String_o *)unaff_R14;
-  __this_01.fields._area = (System_String_o *)unaff_RBX;
-  __this_01.fields._startMs = unaff_R15;
-  __this_01.fields._24_8_ = unaff_retaddr;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_01,(MethodInfo *)&(__this->fields).__7__wrap3);
-  _Unwind_Resume(auVar4._0_8_);
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$MoveNext
-// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__MoveNext (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68640
-
-bool_conflict
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__MoveNext
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,MethodInfo *method)
-
-{
-  uint uVar1;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *pGVar2;
-  int iVar3;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this_00;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar4;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *pGVar5;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_02;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_03;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_04;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o __this_05;
-  undefined1 uVar6;
-  undefined1 uVar7;
-  bool_conflict bVar8;
-  bool_conflict extraout_EAX;
-  System_String_o *pSVar9;
-  System_Collections_Generic_List_GisketchGridPickerItem__o *__this_06;
-  System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar10;
-  MethodInfo *pMVar11;
-  System_String_o *pSVar12;
-  undefined8 uVar13;
-  long *plVar14;
-  long lVar15;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *pGVar16;
-  MethodInfo *pMVar17;
-  int32_t *piVar18;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o *method_02;
-  undefined1 auVar19 [12];
-  System_String_o *in_stack_ffffffffffffff18;
-  System_String_o *in_stack_ffffffffffffff20;
-  System_String_o *in_stack_ffffffffffffff28;
-  System_String_o *in_stack_ffffffffffffff30;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *in_stack_ffffffffffffff38;
-  undefined4 in_stack_ffffffffffffff40;
-  int iVar20;
-  undefined4 in_stack_ffffffffffffff48;
-  undefined4 in_stack_ffffffffffffff4c;
-  undefined4 uStack_b0;
-  undefined4 uStack_ac;
-  undefined4 uStack_a8;
-  undefined4 uStack_a4;
-  bool_conflict bStack_a0;
-  bool_conflict bStack_9c;
-  System_Collections_Generic_List_Enumerator_T__o SStack_88;
-  undefined4 uStack_70;
-  undefined4 uStack_6c;
-  undefined4 uStack_68;
-  undefined4 uStack_64;
-  undefined4 uStack_60;
-  undefined4 uStack_5c;
-  
-  if (g_data_057a9dbc == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchGridPickerItem_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_Gisketch_Aottg2UI_Code_GisketchGridP);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&" complete built=");
-    il2cpp_runtime_helper_023445d0(&" query='");
-    il2cpp_runtime_helper_023445d0(&"'");
-    il2cpp_runtime_helper_023445d0(&" total=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.BuildCards");
-    il2cpp_runtime_helper_023445d0(&" filtered=");
-    il2cpp_runtime_helper_023445d0(&" yield built=");
-    g_data_057a9dbc = '\x01';
-  }
-  iVar20 = 0;
-  iVar3 = (__this->fields).__1__state;
-  __this_00 = (__this->fields).__4__this;
-  pGVar16 = __this;
-  if (iVar3 == 1) {
-    (__this->fields).__1__state = -4;
-    if (__this_00 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-      __this_02.fields._8_8_ = in_stack_ffffffffffffff20;
-      __this_02.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff18;
-      __this_02.fields._current.fields.Key = in_stack_ffffffffffffff28;
-      __this_02.fields._current.fields.Label = in_stack_ffffffffffffff30;
-      __this_02.fields._current.fields.Sprite = (System_String_o *)in_stack_ffffffffffffff38;
-      __this_02.fields._current.fields.Keywords._0_4_ = in_stack_ffffffffffffff40;
-      __this_02.fields._current.fields.Keywords._4_4_ = 0;
-      pMVar11 = MethodInfo_Boolean_MoveNext;
-      bVar8 = System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___MoveNext
-                        (__this_02,(MethodInfo_3213FC0 *)&(__this->fields).__7__wrap3);
-      uVar7 = true;
-      uVar6 = true;
-      if ((char)bVar8 != '\0') goto label_03b68c49;
-joined_r0x03b6877b:
-      if (g_data_057a9dbd == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-        g_data_057a9dbd = '\x01';
-        uVar6 = uVar7;
+    pGVar4 = (__this->fields).slot;
+    if ((pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+       (__this_00 = (UnityEngine_Object_o *)(pGVar4->fields).Root, __this_00 != (UnityEngine_Object_o *)0x0))
+    {
+      elementId = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+      pGVar4 = (__this->fields).slot;
+      if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+        local_68.fields.ElementId = (System_String_o *)0x0;
+        local_68.fields.GameObject = (UnityEngine_GameObject_o *)0x0;
+        local_68.fields.Node = (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0;
+        local_68.fields.InputSource = 0;
+        local_68.fields._28_4_ = 0;
+        Gisketch_Aottg2UI_Actions_GisketchActionContext___ctor
+                  (&local_68,elementId,(pGVar4->fields).Root,
+                   (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0,(MethodInfo *)0x0);
+        local_48 = *(undefined4 *)&(__this->fields).item.fields.Key;
+        uStack_44 = *(undefined4 *)((longlong)&(__this->fields).item.fields.Key + 4);
+        uStack_40 = *(undefined4 *)&(__this->fields).item.fields.Label;
+        uStack_3c = *(undefined4 *)((longlong)&(__this->fields).item.fields.Label + 4);
+        local_38 = *(undefined4 *)&(__this->fields).item.fields.Sprite;
+        uStack_34 = *(undefined4 *)((longlong)&(__this->fields).item.fields.Sprite + 4);
+        uStack_30 = *(undefined4 *)&(__this->fields).item.fields.Keywords;
+        uStack_2c = *(undefined4 *)((longlong)&(__this->fields).item.fields.Keywords + 4);
+        local_28 = local_68.fields.ElementId._0_4_;
+        uStack_24 = local_68.fields.ElementId._4_4_;
+        uStack_20 = local_68.fields.GameObject._0_4_;
+        uStack_1c = local_68.fields.GameObject._4_4_;
+        local_18 = local_68.fields.Node._0_4_;
+        uStack_14 = local_68.fields.Node._4_4_;
+        iStack_10 = local_68.fields.InputSource;
+        uStack_c = local_68.fields._28_4_;
+        (*(code *)(pSVar3->fields).invoke_impl)
+                  ((pSVar3->fields).method_code,&local_28,&local_48,(pSVar3->fields).method);
+        return;
       }
-      method_02 = &(__this->fields).__7__wrap3;
-      ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_Fields *)((long)pGVar16 + 0x10))->
-      __1__state = -3;
-      __this_04.fields._8_8_ = in_stack_ffffffffffffff20;
-      __this_04.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff18;
-      __this_04.fields._current.fields.Key = in_stack_ffffffffffffff28;
-      __this_04.fields._current.fields.Label = in_stack_ffffffffffffff30;
-      __this_04.fields._current.fields.Sprite = (System_String_o *)in_stack_ffffffffffffff38;
-      __this_04.fields._current.fields.Keywords._0_4_ = in_stack_ffffffffffffff40;
-      __this_04.fields._current.fields.Keywords._4_4_ = iVar20;
-      method = MethodInfo_Void_Dispose;
-      System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-                (__this_04,(MethodInfo_3213FB0 *)method_02);
-      (__this->fields).__7__wrap3.fields._current.fields.Sprite = (System_String_o *)0x0;
-      (__this->fields).__7__wrap3.fields._current.fields.Keywords = (System_String_o *)0x0;
-      (__this->fields).__7__wrap3.fields._current.fields.Key = (System_String_o *)0x0;
-      (__this->fields).__7__wrap3.fields._current.fields.Label = (System_String_o *)0x0;
-      (method_02->fields)._list = (System_Collections_Generic_List_T__o *)0x0;
-      (__this->fields).__7__wrap3.fields._index = 0;
-      (__this->fields).__7__wrap3.fields._version = 0;
-      if (!(bool)uVar6) {
-        (__this_00->fields)._build = (UnityEngine_Coroutine_o *)0x0;
-        il2cpp_runtime_helper_022b4080(&(__this_00->fields)._build);
-        pGVar4 = (__this_00->fields)._definition;
-        if (pGVar4 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-          pGVar10 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)
-                     (g_data_057b9c00 + 0xb8);
-        }
-        else {
-          pGVar10 = &pGVar4->fields;
-        }
-        pSVar9 = pGVar10->Id;
-        pSVar12 = System_Int32__ToString((int)__this + 0x48,(MethodInfo *)0x0);
-        pSVar9 = System_String__Concat_3af7150(pSVar9," complete built=",pSVar12,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar9,(MethodInfo *)0x0);
-        ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_Fields *)((long)pGVar16 + 0x10))
-        ->__1__state = -1;
-        __this_01.fields._detail = in_stack_ffffffffffffff20;
-        __this_01.fields._area = in_stack_ffffffffffffff18;
-        __this_01.fields._startMs = (int64_t)in_stack_ffffffffffffff28;
-        __this_01.fields._24_8_ = in_stack_ffffffffffffff30;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-                  (__this_01,(MethodInfo *)((long)pGVar16 + 0x28U));
-        *(int64_t *)((long)pGVar16 + 0x38) = 0;
-        *(undefined8 *)((long)pGVar16 + 0x40) = 0;
-        ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_Fields *)
-        &((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_Fields *)((long)pGVar16 + 0x28U)
-         )->__1__state)->_area = (System_String_o *)0x0;
-        *(System_String_o **)((long)pGVar16 + 0x30) = (System_String_o *)0x0;
-        return 0;
-      }
-      il2cpp_runtime_helper_022b2c90();
-      goto label_03b68c1c;
     }
-label_03b689c5:
-    piVar18 = &(__this->fields)._built_5__3;
-    pGVar2 = &(__this->fields).__7__wrap3.fields._current;
-    in_stack_ffffffffffffff38 = __this;
-    do {
-      __this_03.fields._8_8_ = in_stack_ffffffffffffff20;
-      __this_03.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff18;
-      __this_03.fields._current.fields.Key = in_stack_ffffffffffffff28;
-      __this_03.fields._current.fields.Label = in_stack_ffffffffffffff30;
-      __this_03.fields._current.fields.Sprite = (System_String_o *)in_stack_ffffffffffffff38;
-      __this_03.fields._current.fields.Keywords._0_4_ = in_stack_ffffffffffffff40;
-      __this_03.fields._current.fields.Keywords._4_4_ = iVar20;
-      bVar8 = System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___MoveNext
-                        (__this_03,(MethodInfo_3213FC0 *)&(__this->fields).__7__wrap3);
-      if ((char)bVar8 == '\0') {
-        uVar7 = false;
-        uVar6 = false;
-        pGVar16 = in_stack_ffffffffffffff38;
-        goto joined_r0x03b6877b;
-      }
-      in_stack_ffffffffffffff18 = (pGVar2->fields).Key;
-      in_stack_ffffffffffffff20 = (__this->fields).__7__wrap3.fields._current.fields.Label;
-      in_stack_ffffffffffffff28 = (__this->fields).__7__wrap3.fields._current.fields.Sprite;
-      in_stack_ffffffffffffff30 = (__this->fields).__7__wrap3.fields._current.fields.Keywords;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard
-                (__this_00,(Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)pGVar2->fields,*piVar18,method_01)
-      ;
-      iVar20 = *piVar18;
-      uVar1 = iVar20 + 1;
-      *piVar18 = uVar1;
-    } while (((int)uVar1 < 0x18) || (iVar20 + (uVar1 / 0xc) * -0xc != -1));
-    pGVar4 = (__this_00->fields)._definition;
-    if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      pGVar10 = &pGVar4->fields;
-      goto label_03b68b91;
-    }
-label_03b68b7c:
-    pGVar10 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-label_03b68b91:
-    pSVar9 = pGVar10->Id;
-    pSVar12 = System_Int32__ToString((int32_t)piVar18,(MethodInfo *)0x0);
-    pSVar9 = System_String__Concat_3af7150(pSVar9," yield built=",pSVar12,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar9,(MethodInfo *)0x0);
-    (in_stack_ffffffffffffff38->fields).__2__current = (Il2CppObject *)0x0;
-    uVar13 = il2cpp_runtime_helper_022b4080(&(in_stack_ffffffffffffff38->fields).__2__current,0);
-    (in_stack_ffffffffffffff38->fields).__1__state = 1;
-    return (bool_conflict)CONCAT71((int7)((ulong)uVar13 >> 8),1);
+    ThrowNullReferenceException();
   }
-  if (iVar3 != 0) {
-    return 0;
-  }
-  (__this->fields).__1__state = -1;
-  if (__this_00 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-label_03b68c1c:
-    il2cpp_runtime_helper_022b2c90();
-label_03b68c26:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b68c2b:
-    pMVar17 = method;
-    il2cpp_runtime_helper_022b2ca0();
-label_03b68c30:
-    il2cpp_runtime_helper_022b2c90();
-label_03b68c3a:
-    pMVar11 = pMVar17;
-    il2cpp_runtime_helper_022b2ca0();
-label_03b68c3f:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    pGVar4 = (__this_00->fields)._definition;
-    if (pGVar4 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      pGVar10 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    }
-    else {
-      pGVar10 = &pGVar4->fields;
-    }
-    pSVar9 = System_String__Concat_3af7470
-                       (pGVar10->Id," query='",(__this_00->fields)._query,"'",(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    piVar18 = (int32_t *)&"GridPicker.BuildCards";
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)&stack0xffffffffffffff48,
-               "GridPicker.BuildCards",pSVar9,(MethodInfo *)0x0);
-    *(undefined4 *)&(__this->fields).__7__wrap1.fields._startMs = uStack_a8;
-    *(undefined4 *)((long)&(__this->fields).__7__wrap1.fields._startMs + 4) = uStack_a4;
-    (__this->fields).__7__wrap1.fields._enabled = bStack_a0;
-    (__this->fields).__7__wrap1.fields._hotLoop = bStack_9c;
-    *(undefined4 *)&(__this->fields).__7__wrap1.fields._area = in_stack_ffffffffffffff48;
-    *(undefined4 *)((long)&(__this->fields).__7__wrap1.fields._area + 4) = in_stack_ffffffffffffff4c;
-    *(undefined4 *)&(__this->fields).__7__wrap1.fields._detail = uStack_b0;
-    *(undefined4 *)((long)&(__this->fields).__7__wrap1.fields._detail + 4) = uStack_ac;
-    pMVar11 = (MethodInfo *)0x0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__7__wrap1);
-    (__this->fields).__1__state = -3;
-    __this_06 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilteredItems(__this_00,pMVar11);
-    method = (MethodInfo *)&g_data_00000005;
-    values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-    pGVar4 = (__this_00->fields)._definition;
-    if (pGVar4 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      pGVar10 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-      if (values != (System_String_array *)0x0) goto label_03b68865;
-label_03b68b77:
-      il2cpp_runtime_helper_022b2c90();
-      goto label_03b68b7c;
-    }
-    pGVar10 = &pGVar4->fields;
-    if (values == (System_String_array *)0x0) goto label_03b68b77;
-label_03b68865:
-    if ((int)values->max_length == 0) goto label_03b68c26;
-    method = (MethodInfo *)pGVar10->Id;
-    values->m_Items[0] = (System_String_o *)method;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    pMVar17 = " filtered=";
-    if ((uint)values->max_length < 2) goto label_03b68c2b;
-    values->m_Items[1] = (System_String_o *)" filtered=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    if (__this_06 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) goto label_03b68c30;
-    iVar20 = (__this_06->fields)._size;
-    pMVar17 = (MethodInfo *)0x0;
-    pMVar11 = (MethodInfo *)System_Int32__ToString((int32_t)&stack0xffffffffffffff44,(MethodInfo *)0x0);
-    if ((uint)values->max_length < 3) goto label_03b68c3a;
-    values->m_Items[2] = (System_String_o *)pMVar11;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b68c3f;
-    values->m_Items[3] = " total=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    pGVar4 = (__this_00->fields)._definition;
-    iVar20 = 0;
-    if ((pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
-       (pGVar5 = (pGVar4->fields).Items, iVar20 = 0,
-       pGVar5 != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
-      iVar20 = (int)pGVar5->max_length;
-    }
-    pMVar11 = (MethodInfo *)0x0;
-    pSVar9 = System_Int32__ToString((int32_t)&stack0xffffffffffffff44,(MethodInfo *)0x0);
-    if (4 < (uint)values->max_length) {
-      values->m_Items[4] = pSVar9;
-      il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-      pSVar9 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar9,(MethodInfo *)0x0);
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__UpdateHeight
-                (__this_00,(__this_06->fields)._size,method_00);
-      (__this->fields)._built_5__3 = 0;
-      System_Collections_Generic_List_GisketchGridPickerItem___GetEnumerator
-                (&SStack_88,__this_06,MethodInfo_List_1_T_Enumerator_Gisketch_Aottg2UI_Code_GisketchGridP);
-      *(undefined4 *)&(__this->fields).__7__wrap3.fields._current.fields.Sprite = uStack_68;
-      *(undefined4 *)((long)&(__this->fields).__7__wrap3.fields._current.fields.Sprite + 4) = uStack_64;
-      *(undefined4 *)&(__this->fields).__7__wrap3.fields._current.fields.Keywords = uStack_60;
-      *(undefined4 *)((long)&(__this->fields).__7__wrap3.fields._current.fields.Keywords + 4) = uStack_5c;
-      *(undefined4 *)&(__this->fields).__7__wrap3.fields._current.fields.Key = SStack_88.fields._current._0_4_
-      ;
-      *(undefined4 *)((long)&(__this->fields).__7__wrap3.fields._current.fields.Key + 4) =
-           SStack_88.fields._current._4_4_;
-      *(undefined4 *)&(__this->fields).__7__wrap3.fields._current.fields.Label = uStack_70;
-      *(undefined4 *)((long)&(__this->fields).__7__wrap3.fields._current.fields.Label + 4) = uStack_6c;
-      *(undefined4 *)&(__this->fields).__7__wrap3.fields._list = SStack_88.fields._list._0_4_;
-      *(undefined4 *)((long)&(__this->fields).__7__wrap3.fields._list + 4) = SStack_88.fields._list._4_4_;
-      (__this->fields).__7__wrap3.fields._index = SStack_88.fields._index;
-      (__this->fields).__7__wrap3.fields._version = SStack_88.fields._version;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).__7__wrap3,0);
-      (__this->fields).__1__state = -4;
-      in_stack_ffffffffffffff48 = SStack_88.fields._list._0_4_;
-      in_stack_ffffffffffffff4c = SStack_88.fields._list._4_4_;
-      goto label_03b689c5;
-    }
-  }
-  il2cpp_runtime_helper_022b2ca0();
-  __this = pGVar16;
-label_03b68c49:
-  auVar19 = il2cpp_runtime_helper_022b2c90();
-  uVar13 = auVar19._0_8_;
-  if (auVar19._8_4_ == 1) {
-    plVar14 = (long *)__cxa_begin_catch(uVar13);
-    lVar15 = *plVar14;
-    __cxa_end_catch();
-    if (lVar15 == 0) {
-      return 0;
-    }
-    Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_IDisposable_Dispose
-              (__this,pMVar11);
-    uVar13 = il2cpp_runtime_helper_022fefe0(lVar15);
-    if (lVar15 != 0) {
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_IDisposable_Dispose
-                (__this,pMVar11);
-      lVar15 = il2cpp_runtime_helper_022fefe0(lVar15);
-      il2cpp_runtime_helper_01f66400();
-      if (g_data_057a9dbd == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-        g_data_057a9dbd = '\x01';
-      }
-      *(undefined4 *)(lVar15 + 0x10) = 0xfffffffd;
-      __this_05.fields._8_8_ = in_stack_ffffffffffffff28;
-      __this_05.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff20;
-      __this_05.fields._current.fields.Key = in_stack_ffffffffffffff30;
-      __this_05.fields._current.fields.Label = (System_String_o *)__this;
-      __this_05.fields._current.fields.Sprite._0_4_ = in_stack_ffffffffffffff40;
-      __this_05.fields._current.fields.Sprite._4_4_ = iVar20;
-      __this_05.fields._current.fields.Keywords._0_4_ = in_stack_ffffffffffffff48;
-      __this_05.fields._current.fields.Keywords._4_4_ = in_stack_ffffffffffffff4c;
-      System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-                (__this_05,(MethodInfo_3213FB0 *)(lVar15 + 0x50));
-      return extraout_EAX;
-    }
-  }
-  _Unwind_Resume(uVar13);
+  ThrowNullReferenceException();
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$<>m__Finally1
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17____m__Finally1 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68d50
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass41_0$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o* __this, const MethodInfo* method);
+// 0x18054c890
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17____m__Finally1
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o* __this, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass41_0$$<BindStaticCard>b__0
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0___BindStaticCard_b__0 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o* __this, const MethodInfo* method);
+// 0x1818d9e20
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0___BindStaticCard_b__0
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o *__this,
                MethodInfo *method)
 
 {
-  undefined1 in_stack_00000008 [32];
-  
-  (__this->fields).__1__state = -1;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o)in_stack_00000008,
-             (MethodInfo *)&(__this->fields).__7__wrap1);
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$<>m__Finally2
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17____m__Finally2 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68d10
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17____m__Finally2
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,
-               MethodInfo *method)
-
-{
-  undefined1 in_stack_00000008 [48];
-  
-  if (g_data_057a9dbd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    g_data_057a9dbd = '\x01';
-  }
-  (__this->fields).__1__state = -3;
-  System_Collections_Generic_List_Enumerator_GisketchGridPickerItem___Dispose
-            ((System_Collections_Generic_List_Enumerator_GisketchGridPickerItem__o)in_stack_00000008,
-             (MethodInfo_3213FB0 *)&(__this->fields).__7__wrap3);
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68d70
-
-Il2CppObject *
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,MethodInfo *method)
-
-{
-  return (__this->fields).__2__current;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$System.Collections.IEnumerator.Reset
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_IEnumerator_Reset (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68d80
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_IEnumerator_Reset
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,
-               MethodInfo *method)
-
-{
-  undefined8 uVar1;
-  System_NotSupportedException_o *__this_00;
-  
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
-  System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__17$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_IEnumerator_get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o* __this, const MethodInfo* method);
-// 0x3b68dc0
-
-Il2CppObject *
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17__System_Collections_IEnumerator_get_Current
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__17_o *__this,MethodInfo *method)
-
-{
-  return (__this->fields).__2__current;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x3b68050
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23___ctor
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,
-               int32_t __1__state,MethodInfo *method)
-
-{
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  (__this->fields).__1__state = __1__state;
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$System.IDisposable.Dispose
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_IDisposable_Dispose (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, const MethodInfo* method);
-// 0x3b68dd0
-
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_IDisposable_Dispose
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,
-               MethodInfo *method)
-
-{
-  return;
-}
-
-
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$MoveNext
-// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__MoveNext (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, const MethodInfo* method);
-// 0x3b68de0
-
-bool_conflict
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__MoveNext
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,MethodInfo *method
-          )
-
-{
-  uint uVar1;
-  int iVar2;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar3;
-  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *__this_00;
-  System_String_o *pSVar4;
-  UnityEngine_UI_Image_o *__this_01;
-  bool_conflict bVar5;
-  UnityEngine_ResourceRequest_o *pUVar6;
-  MethodInfo *method_00;
-  UnityEngine_UI_Image_o *unaff_RBX;
-  UnityEngine_UI_Image_o *pUVar7;
-  UnityEngine_Sprite_o *pUStack_68;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o GStack_60;
-  undefined4 uStack_48;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  System_Action_GisketchActionContext__GisketchGridPickerItem__o *pSVar3;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar4;
+  UnityEngine_Object_o *__this_00;
+  System_String_o *elementId;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_68;
+  undefined4 local_48;
   undefined4 uStack_44;
   undefined4 uStack_40;
   undefined4 uStack_3c;
-  int32_t iStack_38;
+  undefined4 local_38;
   undefined4 uStack_34;
+  undefined4 uStack_30;
+  undefined4 uStack_2c;
+  undefined4 local_28;
+  undefined4 uStack_24;
+  undefined4 uStack_20;
+  undefined4 uStack_1c;
+  undefined4 local_18;
+  undefined4 uStack_14;
+  int32_t iStack_10;
+  undefined4 uStack_c;
   
-  pUVar7 = (UnityEngine_UI_Image_o *)__this;
-  if (g_data_057a9dbe == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSpriteLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchGridPickerRuntime_ThumbnailLoad_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ResourceRequest_LoadAsync_Sprite);
-    pUVar7 = (UnityEngine_UI_Image_o *)&TypeInfo_Sprite;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a9dbe = '\x01';
-  }
-  pUStack_68 = (UnityEngine_Sprite_o *)0x0;
-  uVar1 = (__this->fields).__1__state;
-  if (4 < uVar1) {
-    return 0;
-  }
-  pGVar3 = (__this->fields).__4__this;
-  switch(uVar1) {
-  case 0:
-    (__this->fields).__1__state = -1;
-    (__this->fields).__2__current = (Il2CppObject *)0x0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
-    (__this->fields).__1__state = 1;
-label_03b691a0:
-    return (bool_conflict)CONCAT71((int7)((ulong)unaff_RBX >> 8),1);
-  case 1:
-    (__this->fields).__1__state = -1;
-    (__this->fields)._index_5__2 = 0;
-    break;
-  case 2:
-    (__this->fields).__1__state = -1;
-    break;
-  case 3:
-    (__this->fields).__1__state = -1;
-    if (pGVar3 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) goto label_03b691b3;
-    iVar2 = (__this->fields).generation;
-    if ((iVar2 == (pGVar3->fields)._thumbnailGeneration) &&
-       ((__this->fields)._load_5__3.fields.Generation == iVar2)) {
-      pUVar7 = (__this->fields)._load_5__3.fields.Image;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar5 = UnityEngine_Object__op_Equality
-                        ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar5 == '\0') {
-        pUVar6 = (__this->fields)._request_5__4;
-        pUVar7 = (UnityEngine_UI_Image_o *)0x0;
-        if (pUVar6 == (UnityEngine_ResourceRequest_o *)0x0) goto label_03b691b3;
-        pUVar7 = (UnityEngine_UI_Image_o *)UnityEngine_ResourceRequest__get_asset(pUVar6,(MethodInfo *)0x0);
-        unaff_RBX = (UnityEngine_UI_Image_o *)0x0;
-        if ((pUVar7 != (UnityEngine_UI_Image_o *)0x0) &&
-           (unaff_RBX = (UnityEngine_UI_Image_o *)0x0, pUVar7->klass == TypeInfo_Sprite)) {
-          unaff_RBX = pUVar7;
-        }
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pUVar7 = unaff_RBX;
-        bVar5 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar5 == '\0') {
-          pSVar4 = (__this->fields)._load_5__3.fields.ResourcePath;
-          if (*(int *)(TypeInfo_GisketchSpriteLoader + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Store
-                    (pSVar4,(UnityEngine_Sprite_o *)unaff_RBX,(MethodInfo *)0x0);
-          __this_01 = (__this->fields)._load_5__3.fields.Image;
-          pUVar7 = (UnityEngine_UI_Image_o *)0x0;
-          if (__this_01 != (UnityEngine_UI_Image_o *)0x0) {
-            pUVar7 = unaff_RBX;
-            UnityEngine_UI_Image__set_sprite(__this_01,(UnityEngine_Sprite_o *)unaff_RBX,(MethodInfo *)0x0);
-            Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FadeIn
-                      ((__this->fields)._load_5__3.fields.Image,(MethodInfo *)pUVar7);
-            (__this->fields).__2__current = (Il2CppObject *)0x0;
-            il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
-            (__this->fields).__1__state = 4;
-            goto label_03b691a0;
-          }
-          goto label_03b691b3;
-        }
+  pGVar1 = (__this->fields).__4__this;
+  if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) &&
+     (pGVar2 = (pGVar1->fields)._definition,
+     pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)) {
+    pSVar3 = (pGVar2->fields).Select;
+    if (pSVar3 == (System_Action_GisketchActionContext__GisketchGridPickerItem__o *)0x0) {
+      return;
+    }
+    pGVar4 = (__this->fields).slot;
+    if ((pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+       (__this_00 = (UnityEngine_Object_o *)(pGVar4->fields).Root, __this_00 != (UnityEngine_Object_o *)0x0))
+    {
+      elementId = UnityEngine_Object__get_name(__this_00,(MethodInfo *)0x0);
+      pGVar4 = (__this->fields).slot;
+      if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+        local_68.fields.ElementId = (System_String_o *)0x0;
+        local_68.fields.GameObject = (UnityEngine_GameObject_o *)0x0;
+        local_68.fields.Node = (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0;
+        local_68.fields.InputSource = 0;
+        local_68.fields._28_4_ = 0;
+        Gisketch_Aottg2UI_Actions_GisketchActionContext___ctor
+                  (&local_68,elementId,(pGVar4->fields).Root,
+                   (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0,(MethodInfo *)0x0);
+        local_48 = *(undefined4 *)&(__this->fields).item.fields.Key;
+        uStack_44 = *(undefined4 *)((longlong)&(__this->fields).item.fields.Key + 4);
+        uStack_40 = *(undefined4 *)&(__this->fields).item.fields.Label;
+        uStack_3c = *(undefined4 *)((longlong)&(__this->fields).item.fields.Label + 4);
+        local_38 = *(undefined4 *)&(__this->fields).item.fields.Sprite;
+        uStack_34 = *(undefined4 *)((longlong)&(__this->fields).item.fields.Sprite + 4);
+        uStack_30 = *(undefined4 *)&(__this->fields).item.fields.Keywords;
+        uStack_2c = *(undefined4 *)((longlong)&(__this->fields).item.fields.Keywords + 4);
+        local_28 = local_68.fields.ElementId._0_4_;
+        uStack_24 = local_68.fields.ElementId._4_4_;
+        uStack_20 = local_68.fields.GameObject._0_4_;
+        uStack_1c = local_68.fields.GameObject._4_4_;
+        local_18 = local_68.fields.Node._0_4_;
+        uStack_14 = local_68.fields.Node._4_4_;
+        iStack_10 = local_68.fields.InputSource;
+        uStack_c = local_68.fields._28_4_;
+        (*(code *)(pSVar3->fields).invoke_impl)
+                  ((pSVar3->fields).method_code,&local_28,&local_48,(pSVar3->fields).method);
+        return;
       }
     }
-    goto label_03b68fa7;
-  case 4:
-    (__this->fields).__1__state = -1;
-    pUVar7 = (UnityEngine_UI_Image_o *)&(__this->fields)._request_5__4;
-    (__this->fields)._load_5__3.fields.Image = (UnityEngine_UI_Image_o *)0x0;
-    (__this->fields)._load_5__3.fields.ResourcePath = (System_String_o *)0x0;
-    *(undefined8 *)&(__this->fields)._load_5__3.fields.Generation = 0;
-    (__this->fields)._request_5__4 = (UnityEngine_ResourceRequest_o *)0x0;
-    il2cpp_runtime_helper_022b4080(pUVar7,0);
+    ThrowNullReferenceException();
   }
-  if (pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-label_03b68fa7:
-    if ((__this->fields).generation != (pGVar3->fields)._thumbnailGeneration) {
-      return 0;
-    }
-    unaff_RBX = (UnityEngine_UI_Image_o *)&(__this->fields)._load_5__3;
-    __this_00 = (pGVar3->fields)._thumbnailLoads;
-    while (__this_00 != (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
-      iVar2 = (__this->fields)._index_5__2;
-      if ((__this_00->fields)._size <= iVar2) {
-        if ((pGVar3->fields)._build == (UnityEngine_Coroutine_o *)0x0) {
-          (pGVar3->fields)._thumbnailLoader = (UnityEngine_Coroutine_o *)0x0;
-          il2cpp_runtime_helper_022b4080(&(pGVar3->fields)._thumbnailLoader,0);
-          return 0;
-        }
-        (__this->fields).__2__current = (Il2CppObject *)0x0;
-        il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
-        (__this->fields).__1__state = 2;
-        goto label_03b691a0;
-      }
-      (__this->fields)._index_5__2 = iVar2 + 1;
-      System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad___get_Item
-                (&GStack_60,__this_00,iVar2,MethodInfo_GisketchGridPickerRuntime_ThumbnailLoad_get_Item);
-      iStack_38 = GStack_60.fields.Generation;
-      uStack_34 = GStack_60.fields._20_4_;
-      uStack_48 = GStack_60.fields.Image._0_4_;
-      uStack_44 = GStack_60.fields.Image._4_4_;
-      uStack_40 = GStack_60.fields.ResourcePath._0_4_;
-      uStack_3c = GStack_60.fields.ResourcePath._4_4_;
-      (__this->fields)._load_5__3.fields.Generation = GStack_60.fields.Generation;
-      *(undefined4 *)&(__this->fields)._load_5__3.fields.field_0x14 = GStack_60.fields._20_4_;
-      *(undefined4 *)
-       &(((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *)unaff_RBX)->fields).Image =
-           GStack_60.fields.Image._0_4_;
-      *(undefined4 *)((long)&(__this->fields)._load_5__3.fields.Image + 4) = GStack_60.fields.Image._4_4_;
-      *(undefined4 *)&(__this->fields)._load_5__3.fields.ResourcePath = GStack_60.fields.ResourcePath._0_4_;
-      *(undefined4 *)((long)&(__this->fields)._load_5__3.fields.ResourcePath + 4) =
-           GStack_60.fields.ResourcePath._4_4_;
-      pUVar7 = unaff_RBX;
-      il2cpp_runtime_helper_022b4080();
-      if ((__this->fields)._load_5__3.fields.Generation == (__this->fields).generation) {
-        pUVar7 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *)unaff_RBX)->fields).
-                 Image;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar5 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar5 == '\0') {
-          pSVar4 = (__this->fields)._load_5__3.fields.ResourcePath;
-          if (*(int *)(TypeInfo_GisketchSpriteLoader + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar5 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__TryGetCached
-                            (pSVar4,&pUStack_68,(MethodInfo *)0x0);
-          if ((char)bVar5 == '\0') {
-            pUVar6 = UnityEngine_Resources__LoadAsync_object_
-                               ((__this->fields)._load_5__3.fields.ResourcePath,MethodInfo_ResourceRequest_LoadAsync_Sprite);
-            (__this->fields)._request_5__4 = pUVar6;
-            il2cpp_runtime_helper_022b4080(&(__this->fields)._request_5__4,pUVar6);
-            (__this->fields).__2__current = (Il2CppObject *)(__this->fields)._request_5__4;
-            il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current);
-            (__this->fields).__1__state = 3;
-            goto label_03b691a0;
-          }
-          pUVar7 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *)unaff_RBX)->fields).
-                   Image;
-          Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded(pUVar7,pUStack_68,method_00);
-        }
-      }
-      if ((__this->fields).generation != (pGVar3->fields)._thumbnailGeneration) {
-        return 0;
-      }
-      __this_00 = (pGVar3->fields)._thumbnailLoads;
-    }
-  }
-label_03b691b3:
-  il2cpp_runtime_helper_022b2c90();
-  return (bool_conflict)(pUVar7->fields).m_CancellationTokenSource;
+  ThrowNullReferenceException();
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, const MethodInfo* method);
-// 0x3b691c0
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass57_0$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o* __this, const MethodInfo* method);
+// 0x18054c890
 
-Il2CppObject *
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,MethodInfo *method
-          )
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o* __this, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<>c__DisplayClass57_0$$<FadeIn>b__0
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0___FadeIn_b__0 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o* __this, float value, const MethodInfo* method);
+// 0x1818da190
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0___FadeIn_b__0
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o *__this,float value,
+               MethodInfo *method)
+
+{
+  int iVar1;
+  UnityEngine_UI_Image_o *pUVar2;
+  System_String_o *b;
+  bool bVar3;
+  UnityEngine_Object_o *x;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *pUVar4;
+  UnityEngine_Color_o local_38;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o local_28 [2];
+  
+  if (Il2CppMethodInitialized_1843420d4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420d4 = '\x01';
+  }
+  pUVar2 = (__this->fields).image;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    return;
+  }
+  pUVar2 = (__this->fields).image;
+  b = (__this->fields).resourcePath;
+  iVar1 = (__this->fields).generation;
+  if (Il2CppMethodInitialized_1843420ce == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420ce = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    if (pUVar2 == (UnityEngine_UI_Image_o *)0x0) goto label_1818da33a;
+    x = (UnityEngine_Object_o *)
+        UnityEngine_Component__GetComponent_object_
+                  ((UnityEngine_Component_o *)pUVar2,
+                   (MethodInfo_6651A0 *)
+                   MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+  }
+  else {
+    x = (UnityEngine_Object_o *)0x0;
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar3) {
+    if (x == (UnityEngine_Object_o *)0x0) goto label_1818da33a;
+    if ((int)(*(uint64_t *)((char *)x + 0x28)) != iVar1) {
+      return;
+    }
+    bVar3 = System_String__Equals_196c550((*(uint64_t *)((char *)x + 0x20)),b,4,(MethodInfo *)0x0);
+    if (!bVar3) {
+      return;
+    }
+  }
+  pUVar2 = (__this->fields).image;
+  if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
+    pUVar4 = (*(pUVar2->klass->vtable)._22_get_color.methodPtr)
+                       (local_28,pUVar2,(pUVar2->klass->vtable)._22_get_color.method);
+    pUVar2 = (__this->fields).image;
+    if (pUVar2 != (UnityEngine_UI_Image_o *)0x0) {
+      local_38.fields.r = *(float *)&(pUVar4->fields).m_Ptr;
+      local_38.fields.g = *(float *)((longlong)&(pUVar4->fields).m_Ptr + 4);
+      local_38.fields.b = (float)(pUVar4->fields).m_Count;
+      local_38.fields.a = value;
+      (*(pUVar2->klass->vtable)._23_set_color.methodPtr)
+                (pUVar2,&local_38,(pUVar2->klass->vtable)._23_set_color.method);
+      return;
+    }
+  }
+label_1818da33a:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x180573ef0
+
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, int32_t __1__state, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = __1__state;
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$System.IDisposable.Dispose
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_IDisposable_Dispose (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x1818d96c0
+// asm: 9 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818d96ea: mov rcx, qword ptr [rsp + 0x50]
+// asm:   0x1818d96ef: mov dword ptr [rcx + 0x10], 0xffffffff
+// asm:   0x1818d96f6: add rcx, 0x28
+// asm:   0x1818d96fa: xor edx, edx
+// asm:   0x1818d96fc: call 0x1818d8cc0  ; Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose()
+// asm:   0x1818d9701: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1818d9706: test rcx, rcx
+// asm:   0x1818d9709: jne 0x1818d9710
+// asm:   0x1818d9710: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_IDisposable_Dispose
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *__this,
+               MethodInfo *method)
+
+{
+  int iVar1;
+  
+  iVar1 = (__this->fields).__1__state;
+  if ((iVar1 == -3) || (iVar1 == 1)) {
+    (__this->fields).__1__state = -1;
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
+              (&(__this->fields).__7__wrap1,(MethodInfo *)0x0);
+  }
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$MoveNext
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__MoveNext (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x1818d90b0
+// eh: try 0x1818d917f..0x1818d9668 -> pad 0x183315a20 (+2 call sites) catch Il2CppExceptionWrapper
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818d9348: mov eax, r14d
+// asm:   0x1818d93bd: nop dword ptr [rax]
+// asm:   0x1818d9601: xor al, al
+// asm:   0x1818d9603: mov byte ptr [rsp + 0xa0], al
+// asm:   0x1818d960a: jmp 0x1818d961e
+// asm:   0x1818d960c: mov rbx, qword ptr [rsp + 0x38]
+// asm:   0x1818d9611: test rbx, rbx
+// asm:   0x1818d9614: jne 0x1818d9668
+// asm:   0x1818d9616: movzx eax, byte ptr [rsp + 0xa0]
+// asm:   0x1818d9668: lea rcx, [rsp + 0x40]
+// asm:   0x1818d966d: call 0x1818bffe0  ; il2cpp_runtime_helper_1818bffe0()
+// asm:   0x1818d9672: mov rcx, rbx
+// asm:   0x1818d9675: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315a20: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315a25: push rbp
+// asm:   0x183315a26: sub rsp, 0x30
+// asm:   0x183315a2a: mov rbp, rdx
+// asm:   0x183315a2d: mov rax, qword ptr [rbp + 0x30]
+// asm:   0x183315a31: mov rcx, qword ptr [rax]
+// asm:   0x183315a34: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x183315a38: movabs rax, 0
+// asm:   0x183315a42: add rsp, 0x30
+// asm:   0x183315a46: pop rbp
+// asm:   0x183315a47: ret 
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__MoveNext
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *__this,
+               MethodInfo *method)
+
+{
+  int iVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this_00;
+  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar3;
+  System_String_o *pSVar4;
+  System_String_array *values;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar5;
+  System_String_o *pSVar6;
+  uint uVar7;
+  int iVar8;
+  int32_t local_res20 [2];
+  undefined1 local_38 [24];
+  System_String_o *pSStack_20;
+  
+  if (Il2CppMethodInitialized_1843420d5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&" complete built=");
+    il2cpp_codegen_initialize_runtime_metadata(&" query='");
+    il2cpp_codegen_initialize_runtime_metadata(&"'");
+    il2cpp_codegen_initialize_runtime_metadata(&" total=");
+    il2cpp_codegen_initialize_runtime_metadata(&"GridPicker.BuildCards");
+    il2cpp_codegen_initialize_runtime_metadata(&" filtered=");
+    il2cpp_codegen_initialize_runtime_metadata(&" yield built=");
+    Il2CppMethodInitialized_1843420d5 = '\x01';
+  }
+  iVar8 = 0;
+  local_res20[0] = 0;
+  iVar1 = (__this->fields).__1__state;
+  __this_00 = (__this->fields).__4__this;
+  if (iVar1 == 0) {
+    (__this->fields).__1__state = -1;
+    if (__this_00 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if ((__this_00->fields)._definition ==
+        (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_184354e50 + 0xb8);
+    }
+    else {
+      pGVar5 = &((__this_00->fields)._definition)->fields;
+    }
+    pSVar4 = System_String__Concat_1969590
+                       (pGVar5->Id," query='",(__this_00->fields)._query,"'",
+                        (MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    }
+    local_38._0_8_ = (System_String_o *)0x0;
+    local_38._8_8_ = (System_String_o *)0x0;
+    local_38._16_8_ = (System_String_o *)0x0;
+    pSStack_20 = (System_String_o *)0x0;
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope___ctor
+              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)local_38,"GridPicker.BuildCards",
+               pSVar4,(MethodInfo *)0x0);
+    (__this->fields).__7__wrap1.fields._area = (System_String_o *)local_38._0_8_;
+    (__this->fields).__7__wrap1.fields._detail = (System_String_o *)local_38._8_8_;
+    (__this->fields).__7__wrap1.fields._startMs = local_38._16_8_;
+    *(System_String_o **)&(__this->fields).__7__wrap1.fields._enabled = pSStack_20;
+    Il2CppCodeGenWriteBarrier((void **)&(__this->fields).__7__wrap1,(void *)0x0);
+    (__this->fields).__1__state = -3;
+    values = (System_String_array *)SZArrayNew(TypeInfo_string_array,5);
+    if ((__this_00->fields)._definition ==
+        (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_184354e50 + 0xb8);
+    }
+    else {
+      pGVar5 = &((__this_00->fields)._definition)->fields;
+    }
+    if (values == (System_String_array *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if ((int)values->max_length == 0) {
+      ThrowIndexOutOfRangeException();
+    }
+    pSVar4 = pGVar5->Id;
+    values->m_Items[0] = pSVar4;
+    Il2CppCodeGenWriteBarrier(values->m_Items,pSVar4);
+    pSVar4 = " filtered=";
+    if ((uint)values->max_length < 2) {
+      ThrowIndexOutOfRangeException();
+    }
+    values->m_Items[1] = " filtered=";
+    Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar4);
+    pSVar2 = (__this_00->fields)._filtered;
+    if (pSVar2 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_res20[0] = (pSVar2->fields)._size;
+    pSVar4 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+    if ((uint)values->max_length < 3) {
+      ThrowIndexOutOfRangeException();
+    }
+    values->m_Items[2] = pSVar4;
+    Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar4);
+    pSVar4 = " total=";
+    if ((uint)values->max_length < 4) {
+      ThrowIndexOutOfRangeException();
+    }
+    values->m_Items[3] = " total=";
+    Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar4);
+    if (((__this_00->fields)._definition !=
+         (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
+       (pGVar3 = (__this_00->fields)._definition,
+       (pGVar3->fields).Items != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
+      iVar8 = (int)((pGVar3->fields).Items)->max_length;
+    }
+    local_res20[0] = iVar8;
+    pSVar4 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+    if ((uint)values->max_length < 5) {
+      ThrowIndexOutOfRangeException();
+    }
+    values->m_Items[4] = pSVar4;
+    Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar4);
+    pSVar4 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar4,(MethodInfo *)0x0);
+    (__this->fields)._i_5__3 = 0;
+    while( true ) {
+      if (__this_00 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar2 = (__this_00->fields)._filtered;
+      if (pSVar2 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if ((pSVar2->fields)._size <= (__this->fields)._i_5__3) break;
+      System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState___get_Item
+                ((UnityEngine_UIElements_Internal_MultiColumnCollectionHeader_ViewState_ColumnState_o *)
+                 local_38,(System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o
+                           *)(__this_00->fields)._filtered,(__this->fields)._i_5__3,
+                 (MethodInfo_94FF20 *)
+                 MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard
+                (__this_00,(Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *)local_38,
+                 (__this->fields)._i_5__3,(MethodInfo *)0x0);
+      if ((0x17 < (__this->fields)._i_5__3 + 1) &&
+         (uVar7 = (__this->fields)._i_5__3 + 1, uVar7 == (uVar7 / 0xc) * 0xc)) {
+        if ((__this_00->fields)._definition ==
+            (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+          pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)
+                    (g_data_184354e50 + 0xb8);
+        }
+        else {
+          pGVar5 = &((__this_00->fields)._definition)->fields;
+        }
+        pSVar4 = pGVar5->Id;
+        local_res20[0] = (__this->fields)._i_5__3 + 1;
+        pSVar6 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+        pSVar4 = System_String__Concat_1969b70(pSVar4," yield built=",pSVar6,(MethodInfo *)0x0);
+        if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+        }
+        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar4,(MethodInfo *)0x0);
+        (__this->fields).__2__current = (Il2CppObject *)0x0;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+        (__this->fields).__1__state = 1;
+        return true;
+      }
+label_1818d93c0:
+      local_res20[0] = (__this->fields)._i_5__3;
+      (__this->fields)._i_5__3 = local_res20[0] + 1;
+    }
+    (__this_00->fields)._build = (UnityEngine_Coroutine_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this_00->fields)._build,(void *)0x0);
+    if ((__this_00->fields)._definition ==
+        (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_184354e50 + 0xb8);
+    }
+    else {
+      pGVar5 = &((__this_00->fields)._definition)->fields;
+    }
+    pSVar2 = (__this_00->fields)._filtered;
+    if (pSVar2 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar4 = pGVar5->Id;
+    local_res20[0] = (pSVar2->fields)._size;
+    pSVar6 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+    pSVar4 = System_String__Concat_1969b70(pSVar4," complete built=",pSVar6,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    }
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.BuildCards",pSVar4,(MethodInfo *)0x0);
+    (__this->fields).__1__state = -1;
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
+              (&(__this->fields).__7__wrap1,(MethodInfo *)0x0);
+    (__this->fields).__7__wrap1.fields._area = (System_String_o *)0x0;
+    (__this->fields).__7__wrap1.fields._detail = (System_String_o *)0x0;
+    (__this->fields).__7__wrap1.fields._startMs = 0;
+    (__this->fields).__7__wrap1.fields._enabled = false;
+    (__this->fields).__7__wrap1.fields._hotLoop = false;
+    *(undefined6 *)&(__this->fields).__7__wrap1.fields.field_0x1a = 0;
+  }
+  else if (iVar1 == 1) {
+    (__this->fields).__1__state = -3;
+    goto label_1818d93c0;
+  }
+  return false;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$<>m__Finally1
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31____m__Finally1 (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x1818d9720
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31____m__Finally1
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *__this,
+               MethodInfo *method)
+
+{
+  (__this->fields).__1__state = -1;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
+            (&(__this->fields).__7__wrap1,(MethodInfo *)0x0);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x180573e90
+
+Il2CppObject*
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$System.Collections.IEnumerator.Reset
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_IEnumerator_Reset (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, const MethodInfo* method);
-// 0x3b691d0
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$System.Collections.IEnumerator.Reset
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_IEnumerator_Reset (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x1818d9680
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_IEnumerator_Reset
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_IEnumerator_Reset
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *__this,
                MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_BuildCards_d__31_System_Collections_IEnumerator
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<BuildCards>d__31$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_IEnumerator_get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, const MethodInfo* method);
+// 0x180573e90
+
+Il2CppObject*
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31__System_Collections_IEnumerator_get_Current(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o* __this, MethodInfo* method)
+
+{
+  return (__this->fields).__2__current;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x180573ef0
+
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54___ctor(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, int32_t __1__state, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__23$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_IEnumerator_get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o* __this, const MethodInfo* method);
-// 0x3b69210
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$System.IDisposable.Dispose
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_IDisposable_Dispose (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, const MethodInfo* method);
+// 0x180547020
 
-Il2CppObject *
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_Collections_IEnumerator_get_Current
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23_o *__this,MethodInfo *method
-          )
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_IDisposable_Dispose(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, MethodInfo* method)
+
+{
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$MoveNext
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__MoveNext (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, const MethodInfo* method);
+// 0x1818d9740
+// asm: 21 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818d9bde: mov rdx, qword ptr [rip + 0x2806aab]  ; MethodInfo_UnityEngine_Resources_LoadAsync_Sprite
+// asm:   0x1818d9be5: mov rcx, qword ptr [rdi + 0x38]
+// asm:   0x1818d9be9: call 0x180796570  ; UnityEngine_Resources__LoadAsync_object_()
+// asm:   0x1818d9bee: lea rcx, [rdi + 0x48]
+// asm:   0x1818d9bf2: mov qword ptr [rdi + 0x48], rax
+// asm:   0x1818d9bf6: mov rdx, rax
+// asm:   0x1818d9bf9: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1818d9bfe: mov rdx, qword ptr [rdi + 0x48]
+// asm:   0x1818d9c02: lea rcx, [rdi + 0x18]
+// asm:   0x1818d9c06: mov qword ptr [rdi + 0x18], rdx
+// asm:   0x1818d9c0a: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1818d9c0f: mov dword ptr [rdi + 0x10], 3
+// asm:   0x1818d9c16: jmp 0x1818d9ab9
+// asm:   0x1818d9c1b: lea rcx, [rdi + 0x18]
+// asm:   0x1818d9c1f: mov qword ptr [rdi + 0x18], r15
+// asm:   0x1818d9c23: xor edx, edx
+// asm:   0x1818d9c25: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1818d9c2a: mov dword ptr [rdi + 0x10], 2
+// asm:   0x1818d9c31: jmp 0x1818d9ab9
+// asm:   0x1818d9c4d: xor al, al
+// asm:   0x1818d9c4f: jmp 0x1818d9abb
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__MoveNext
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o *__this,
+               MethodInfo *method)
+
+{
+  int iVar1;
+  int32_t iVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGVar3;
+  UnityEngine_AssetBundleRequest_o *__this_00;
+  UnityEngine_UI_Image_o *pUVar4;
+  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *pSVar5;
+  System_String_o *pSVar6;
+  bool bVar7;
+  UnityEngine_Object_o *pUVar8;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o *object;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *pUVar9;
+  DG_Tweening_TweenCallback_float__o *__this_01;
+  DG_Tweening_Tweener_o *pDVar10;
+  UnityEngine_ResourceRequest_o *pUVar11;
+  UnityEngine_Object_o *x;
+  UnityEngine_Sprite_o *local_res8;
+  UnityEngine_Color_o local_48;
+  undefined1 local_38 [32];
+  
+  if (Il2CppMethodInitialized_1843420d6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Resources_LoadAsync_Sprite);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Sprite);
+    Il2CppMethodInitialized_1843420d6 = '\x01';
+  }
+  iVar1 = (__this->fields).__1__state;
+  pGVar3 = (__this->fields).__4__this;
+  local_res8 = (UnityEngine_Sprite_o *)0x0;
+  if (iVar1 == 0) {
+    (__this->fields).__1__state = -1;
+    (__this->fields).__2__current = (Il2CppObject *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+    (__this->fields).__1__state = 1;
+    return true;
+  }
+  if (iVar1 == 1) {
+    (__this->fields)._index_5__2 = 0;
+label_1818d9ae0:
+    (__this->fields).__1__state = -1;
+  }
+  else {
+    if (iVar1 == 2) goto label_1818d9ae0;
+    if (iVar1 == 3) {
+      local_38._0_8_ = (__this->fields)._load_5__3.fields.Image;
+      local_38._8_8_ = (__this->fields)._load_5__3.fields.ResourcePath;
+      local_38._16_8_ = *(undefined8 *)&(__this->fields)._load_5__3.fields.Generation;
+      (__this->fields).__1__state = -1;
+      bVar7 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent
+                        ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *)local_38,
+                         (__this->fields).generation,(MethodInfo *)0x0);
+      if (bVar7) {
+        __this_00 = (UnityEngine_AssetBundleRequest_o *)(__this->fields)._request_5__4;
+        if (__this_00 == (UnityEngine_AssetBundleRequest_o *)0x0) goto label_1818d9c7c;
+        pUVar8 = UnityEngine_AssetBundleRequest__get_asset(__this_00,(MethodInfo *)0x0);
+        x = (UnityEngine_Object_o *)0x0;
+        if ((pUVar8 != (UnityEngine_Object_o *)0x0) &&
+           (pUVar8->klass == (UnityEngine_Object_c *)TypeInfo_UnityEngine_Sprite)) {
+          x = pUVar8;
+        }
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar7 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar7) {
+          pSVar6 = (__this->fields)._load_5__3.fields.ResourcePath;
+          if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
+          }
+          Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Store
+                    (pSVar6,(UnityEngine_Sprite_o *)x,(MethodInfo *)0x0);
+          pUVar4 = (__this->fields)._load_5__3.fields.Image;
+          if (pUVar4 != (UnityEngine_UI_Image_o *)0x0) {
+            UnityEngine_UI_Image__set_sprite(pUVar4,(UnityEngine_Sprite_o *)x,(MethodInfo *)0x0);
+            pUVar4 = (__this->fields)._load_5__3.fields.Image;
+            pSVar6 = (__this->fields)._load_5__3.fields.ResourcePath;
+            iVar2 = (__this->fields).generation;
+            if (Il2CppMethodInitialized_1843420cd == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver);
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_DG_Tweening_TweenCallback_float);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&MethodInfo_DG_Tweening_TweenSettingsExtensions_SetUpdate_Tweener);
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&
+                         MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0_FadeIn_b__0
+                        );
+              il2cpp_codegen_initialize_runtime_metadata
+                        (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0);
+              Il2CppMethodInitialized_1843420cd = '\x01';
+            }
+            object = il2cpp_codegen_object_new
+                               ((Il2CppClass *)
+                                TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0)
+            ;
+            System_Configuration_ConfigurationCollectionAttribute___ctor
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0)
+            ;
+            if (object != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o *)0x0) {
+              (object->fields).image = pUVar4;
+              Il2CppCodeGenWriteBarrier(&(object->fields).image,pUVar4);
+              (object->fields).resourcePath = pSVar6;
+              Il2CppCodeGenWriteBarrier(&(object->fields).resourcePath,pSVar6);
+              pUVar4 = (object->fields).image;
+              (object->fields).generation = iVar2;
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+              }
+              bVar7 = UnityEngine_Object__op_Equality
+                                ((UnityEngine_Object_o *)pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
+              ;
+              if (bVar7) {
+label_1818d9aa3:
+                (__this->fields).__2__current = (Il2CppObject *)0x0;
+                Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+                (__this->fields).__1__state = 4;
+                return true;
+              }
+              pUVar4 = (object->fields).image;
+              if (pUVar4 != (UnityEngine_UI_Image_o *)0x0) {
+                pUVar9 = (*(pUVar4->klass->vtable)._22_get_color.methodPtr)
+                                   ((Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *)local_38
+                                    ,pUVar4,(pUVar4->klass->vtable)._22_get_color.method);
+                pUVar4 = (object->fields).image;
+                if (pUVar4 != (UnityEngine_UI_Image_o *)0x0) {
+                  local_48.fields.r = *(float *)&(pUVar9->fields).m_Ptr;
+                  local_48.fields.g = *(float *)((longlong)&(pUVar9->fields).m_Ptr + 4);
+                  local_48.fields.b = (float)(pUVar9->fields).m_Count;
+                  local_48.fields.a = 0.0;
+                  (*(pUVar4->klass->vtable)._23_set_color.methodPtr)
+                            (pUVar4,&local_48,(pUVar4->klass->vtable)._23_set_color.method);
+                  __this_01 = il2cpp_codegen_object_new
+                                        ((Il2CppClass *)TypeInfo_DG_Tweening_TweenCallback_float);
+                  DG_Tweening_TweenCallback_float____ctor
+                            ((DG_Tweening_Core_DOSetter_float__o *)__this_01,(Il2CppObject *)object,
+                             (intptr_t)
+                             MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0_FadeIn_b__0
+                             ,(MethodInfo_E5A750 *)0x0);
+                  pDVar10 = DG_Tweening_DOVirtual__Float(0.0,1.0,0.12,__this_01,(MethodInfo *)0x0);
+                  pDVar10 = DG_Tweening_TweenSettingsExtensions__SetUpdate_object_
+                                      ((Il2CppObject *)pDVar10,true,
+                                       (MethodInfo_7CA3D0 *)
+                                       MethodInfo_DG_Tweening_TweenSettingsExtensions_SetUpdate_Tweener);
+                  if ((TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver->_2).
+                      cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init
+                              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver);
+                  }
+                  Gisketch_Aottg2UI_Tweening_GisketchMotionDriver__Track
+                            ((DG_Tweening_Tween_o *)pDVar10,false,(MethodInfo *)0x0);
+                  goto label_1818d9aa3;
+                }
+              }
+            }
+          }
+          goto label_1818d9c7c;
+        }
+      }
+    }
+    else {
+      if (iVar1 != 4) {
+        return false;
+      }
+      (__this->fields).__1__state = -1;
+      (__this->fields)._load_5__3.fields.Image = (UnityEngine_UI_Image_o *)0x0;
+      (__this->fields)._load_5__3.fields.ResourcePath = (System_String_o *)0x0;
+      *(undefined8 *)&(__this->fields)._load_5__3.fields.Generation = 0;
+      (__this->fields)._request_5__4 = (UnityEngine_ResourceRequest_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._request_5__4,(void *)0x0);
+    }
+  }
+  if (pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
+    while ((__this->fields).generation == (pGVar3->fields)._thumbnailGeneration) {
+      pSVar5 = (pGVar3->fields)._thumbnailLoads;
+      if (pSVar5 == (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0)
+      goto label_1818d9c7c;
+      if (((pSVar5->fields)._size <= (__this->fields)._index_5__2) &&
+         ((pGVar3->fields)._build == (UnityEngine_Coroutine_o *)0x0)) break;
+      pSVar5 = (pGVar3->fields)._thumbnailLoads;
+      if ((pSVar5->fields)._size <= (__this->fields)._index_5__2) {
+        (__this->fields).__2__current = (Il2CppObject *)0x0;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+        (__this->fields).__1__state = 2;
+        return true;
+      }
+      iVar1 = (__this->fields)._index_5__2;
+      (__this->fields)._index_5__2 = iVar1 + 1;
+      System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo___get_Item
+                ((UnityEngine_UIElements_UIR_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo_o *)
+                 local_38,(System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo__o
+                           *)pSVar5,iVar1,
+                 (MethodInfo_93C010 *)
+                 MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_get_Item);
+      (__this->fields)._load_5__3.fields.Image = (UnityEngine_UI_Image_o *)local_38._0_8_;
+      (__this->fields)._load_5__3.fields.ResourcePath = (System_String_o *)local_38._8_8_;
+      *(undefined8 *)&(__this->fields)._load_5__3.fields.Generation = local_38._16_8_;
+      Il2CppCodeGenWriteBarrier((void **)&(__this->fields)._load_5__3,(void *)0x0);
+      local_38._0_8_ = (__this->fields)._load_5__3.fields.Image;
+      local_38._8_8_ = (__this->fields)._load_5__3.fields.ResourcePath;
+      local_38._16_8_ = *(undefined8 *)&(__this->fields)._load_5__3.fields.Generation;
+      bVar7 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent
+                        ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *)local_38,
+                         (__this->fields).generation,(MethodInfo *)0x0);
+      if (bVar7) {
+        pSVar6 = (__this->fields)._load_5__3.fields.ResourcePath;
+        if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
+        }
+        bVar7 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__TryGetCached
+                          (pSVar6,&local_res8,(MethodInfo *)0x0);
+        if (!bVar7) {
+          pUVar11 = UnityEngine_Resources__LoadAsync_object_
+                              ((__this->fields)._load_5__3.fields.ResourcePath,
+                               (MethodInfo_796570 *)MethodInfo_UnityEngine_Resources_LoadAsync_Sprite);
+          (__this->fields)._request_5__4 = pUVar11;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._request_5__4,pUVar11);
+          pUVar11 = (__this->fields)._request_5__4;
+          (__this->fields).__2__current = (Il2CppObject *)pUVar11;
+          Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pUVar11);
+          (__this->fields).__1__state = 3;
+          return true;
+        }
+        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded
+                  ((__this->fields)._load_5__3.fields.Image,local_res8,(MethodInfo *)0x0);
+      }
+    }
+    if ((__this->fields).generation == (pGVar3->fields)._thumbnailGeneration) {
+      (pGVar3->fields)._thumbnailLoader = (UnityEngine_Coroutine_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(pGVar3->fields)._thumbnailLoader,(void *)0x0);
+    }
+    return false;
+  }
+label_1818d9c7c:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, const MethodInfo* method);
+// 0x180573e90
+
+Il2CppObject*
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_Generic_IEnumerator_System_Object__get_Current(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, MethodInfo* method)
+
+{
+  return (__this->fields).__2__current;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$System.Collections.IEnumerator.Reset
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_IEnumerator_Reset (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, const MethodInfo* method);
+// 0x1818d9c90
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_IEnumerator_Reset
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o *__this,
+               MethodInfo *method)
+
+{
+  Il2CppClass *klass;
+  System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
+  
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
+  System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_LoadThumbnails_d__54_System_Collections_IEnumer
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime.<LoadThumbnails>d__54$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_IEnumerator_get_Current (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, const MethodInfo* method);
+// 0x180573e90
+
+Il2CppObject*
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54__System_Collections_IEnumerator_get_Current(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1185,26 +1082,163 @@ Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__23__System_C
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$get_Id
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_Id (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b652f0
+// 0x1818cf2e0
 
 System_String_o *
 Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_Id
           (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
+  if ((__this->fields)._definition != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    return (((__this->fields)._definition)->fields).Id;
+  }
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$get_IsVirtualized
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_IsVirtualized (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818cf310
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_IsVirtualized
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  return (__this->fields)._virtualized;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$get_LiveCardCount
+// il2cpp: int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_LiveCardCount (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818cf320
+
+int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__get_LiveCardCount
+                  (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *pGVar1;
+  System_Collections_Generic_List_GameObject__o *pSVar2;
+  bool bVar3;
+  int32_t iVar4;
+  
+  if (Il2CppMethodInitialized_1843420b4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420b4 = '\x01';
+  }
+  if ((__this->fields)._virtualized != false) {
+    pGVar1 = (__this->fields)._virtualContent;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar3 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pGVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
+      pGVar1 = (__this->fields)._virtualContent;
+      if (pGVar1 != (Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *)0x0) {
+        iVar4 = Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime__get_LiveSlotCount
+                          (pGVar1,(MethodInfo *)0x0);
+        return iVar4;
+      }
+      goto label_1818cf3b2;
+    }
+  }
+  pSVar2 = (__this->fields)._cards;
+  if (pSVar2 != (System_Collections_Generic_List_GameObject__o *)0x0) {
+    return (pSVar2->fields)._size;
+  }
+label_1818cf3b2:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.get_ItemCount
+// il2cpp: int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_get_ItemCount (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818cd610
+
+int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_get_ItemCount
+                  (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar1;
+  
+  if (Il2CppMethodInitialized_1843420b5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    Il2CppMethodInitialized_1843420b5 = '\x01';
+  }
+  pSVar1 = (__this->fields)._filtered;
+  if (pSVar1 != (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+    return (pSVar1->fields)._size;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.get_Metrics
+// il2cpp: Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentMetrics_o Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_get_Metrics (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818cd650
+
+Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentMetrics_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_get_Metrics
+          (Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentMetrics_o *__return_storage_ptr__,
+          Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  float viewportHeight;
+  float itemWidth;
+  float itemHeight;
+  int32_t columns;
   Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
   
   pGVar1 = (__this->fields)._definition;
   if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    return (pGVar1->fields).Id;
+    columns = (pGVar1->fields).Columns;
+    viewportHeight = (pGVar1->fields).ViewportHeight;
+    itemWidth = (pGVar1->fields).ItemWidth;
+    itemHeight = (pGVar1->fields).ItemHeight;
+    (__return_storage_ptr__->fields).Mode = 0;
+    (__return_storage_ptr__->fields).Columns = 0;
+    (__return_storage_ptr__->fields).ItemWidth = 0.0;
+    (__return_storage_ptr__->fields).ItemHeight = 0.0;
+    (__return_storage_ptr__->fields).Gap = 0.0;
+    (__return_storage_ptr__->fields).ViewportHeight = 0.0;
+    (__return_storage_ptr__->fields).VirtualizationThreshold = 0;
+    (__return_storage_ptr__->fields).OverscanRows = 0;
+    Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentMetrics___ctor
+              (__return_storage_ptr__,1,itemWidth,itemHeight,10.0,viewportHeight,columns,0x50,2,
+               (MethodInfo *)0x0);
+    return __return_storage_ptr__;
   }
-  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Setup (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o* definition, Gisketch_Aottg2UI_Styling_GisketchTheme_o* theme, const MethodInfo* method);
-// 0x3b649b0
+// 0x1818ce850
+// eh: try 0x1818ce991..0x1818cedb3 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818ce92e: mov rbx, qword ptr [rip + 0x27d6d13]  ; "null"
+// asm:   0x1818ced2b: xor edx, edx
+// asm:   0x1818ced2d: lea rcx, [rsp + 0x48]
+// asm:   0x1818ced32: call 0x1818d8cc0  ; Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose()
+// asm:   0x1818ced37: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1818ced3c: test rcx, rcx
+// asm:   0x1818ced3f: jne 0x1818cedb3
+// asm:   0x1818cedb3: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Setup
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
@@ -1212,2453 +1246,2530 @@ void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Setup
                Gisketch_Aottg2UI_Styling_GisketchTheme_o *theme,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o **ppGVar1;
-  int32_t *piVar2;
+  int iVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
   UnityEngine_Vector2_o value;
-  System_String_o *detail;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *pGVar3;
-  long lVar4;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar5;
+  UnityEngine_GameObject_o *pUVar3;
+  Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *value_00;
+  UnityEngine_UI_GridLayoutGroup_o *__this_00;
   System_String_array *values;
-  System_String_o *pSVar6;
-  UnityEngine_GameObject_o *pUVar7;
-  UnityEngine_UI_GridLayoutGroup_o *__this_03;
-  long *plVar8;
-  MethodInfo *method_00;
-  float fVar9;
-  undefined1 auVar10 [12];
-  undefined1 in_stack_ffffffffffffff78 [12];
-  undefined4 uVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  bool_conflict bVar15;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_50;
+  System_String_o *pSVar4;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar5;
+  System_String_o *detail;
+  int32_t local_res10 [2];
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_60;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_40;
   
-  if (g_data_057a9dad == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GridLayoutGroup_AddComponent_GridLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_AddComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&"x");
-    il2cpp_runtime_helper_023445d0(&" item=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.Setup");
-    il2cpp_runtime_helper_023445d0(&" columns=");
-    il2cpp_runtime_helper_023445d0(&"null");
-    il2cpp_runtime_helper_023445d0(&" items=");
-    g_data_057a9dad = '\x01';
+  if (Il2CppMethodInitialized_1843420b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchVirtualContentRuntime);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"x");
+    il2cpp_codegen_initialize_runtime_metadata(&" item=");
+    il2cpp_codegen_initialize_runtime_metadata(&"GridPicker.Setup");
+    il2cpp_codegen_initialize_runtime_metadata(&" virtualized=");
+    il2cpp_codegen_initialize_runtime_metadata(&" columns=");
+    il2cpp_codegen_initialize_runtime_metadata(&"null");
+    il2cpp_codegen_initialize_runtime_metadata(&" items=");
+    Il2CppMethodInitialized_1843420b6 = '\x01';
   }
-  pSVar6 = "GridPicker.Setup";
-  uVar11 = 0;
-  if (definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar5 = (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *)&"null";
+  pSVar4 = "GridPicker.Setup";
+  local_40.fields._area = (System_String_o *)0x0;
+  local_40.fields._detail = (System_String_o *)0x0;
+  local_40.fields._startMs._0_4_ = 0;
+  local_40.fields._startMs._4_2_ = 0;
+  local_40.fields._startMs._6_2_ = 0;
+  local_40.fields._enabled = false;
+  local_40.fields._hotLoop = false;
+  local_40.fields._26_6_ = 0;
+  local_res10[0] = 0;
+  detail = "null";
+  if (definition != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    detail = (definition->fields).Id;
   }
-  else {
-    pGVar5 = &definition->fields;
+  if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog)
+    ;
   }
-  detail = pGVar5->Id;
-  if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time(&local_50,pSVar6,detail,(MethodInfo *)0x0);
-  ppGVar1 = &(__this->fields)._definition;
+  local_60.fields._area = (System_String_o *)0x0;
+  local_60.fields._detail = (System_String_o *)0x0;
+  local_60.fields._startMs._0_4_ = 0;
+  local_60.fields._startMs._4_2_ = 0;
+  local_60.fields._startMs._6_2_ = 0;
+  local_60.fields._enabled = false;
+  local_60.fields._hotLoop = false;
+  local_60.fields._26_6_ = 0;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope___ctor(&local_60,pSVar4,detail,(MethodInfo *)0x0);
+  local_40.fields._area = local_60.fields._area;
+  local_40.fields._detail = local_60.fields._detail;
+  local_40.fields._startMs = local_60.fields._startMs;
+  local_40.fields._enabled = local_60.fields._enabled;
+  local_40.fields._hotLoop = local_60.fields._hotLoop;
+  local_40.fields._26_6_ = local_60.fields._26_6_;
+  local_60.fields._area = (System_String_o *)0x0;
+  local_60.fields._detail = (System_String_o *)&local_40;
   (__this->fields)._definition = definition;
-  il2cpp_runtime_helper_022b4080(ppGVar1,definition);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._definition,definition);
   (__this->fields)._theme = theme;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._theme,theme);
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  if (*ppGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    if (values != (System_String_array *)0x0) goto label_03b64b16;
-label_03b64d99:
-    il2cpp_runtime_helper_022b2c90();
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-label_03b64d9e:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64da3:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64da8:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dad:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64db2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b64db7:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dbc:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dc1:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dc6:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dcb:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b64dd0:
-    il2cpp_runtime_helper_022b2c90();
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._theme,theme);
+  if (((__this->fields)._definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)
+     || (pGVar2 = (__this->fields)._definition,
+        (pGVar2->fields).Items == (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
+    (__this->fields)._virtualized = false;
   }
   else {
-    pGVar5 = &(*ppGVar1)->fields;
-    if (values == (System_String_array *)0x0) goto label_03b64d99;
-label_03b64b16:
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((int)values->max_length == 0) goto label_03b64d9e;
-    values->m_Items[0] = pGVar5->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 2) goto label_03b64da3;
-    values->m_Items[1] = " items=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    uVar11 = 0;
-    if ((*ppGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
-       (pGVar3 = ((*ppGVar1)->fields).Items, uVar11 = 0,
-       pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
-      uVar11 = (undefined4)pGVar3->max_length;
-    }
-    pSVar6 = System_Int32__ToString((int32_t)&stack0xffffffffffffff84,(MethodInfo *)0x0);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 3) goto label_03b64da8;
-    values->m_Items[2] = pSVar6;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 4) goto label_03b64dad;
-    values->m_Items[3] = " columns=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if (definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b64db2;
-    piVar2 = &(definition->fields).Columns;
-    pSVar6 = System_Int32__ToString((int32_t)piVar2,(MethodInfo *)0x0);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 5) goto label_03b64db7;
-    values->m_Items[4] = pSVar6;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 6) goto label_03b64dbc;
-    values->m_Items[5] = " item=";
-    fVar9 = (float)il2cpp_runtime_helper_022b4080(values->m_Items + 5);
-    pSVar6 = System_Single__ToString(fVar9,(MethodInfo *)&(definition->fields).ItemWidth);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 7) goto label_03b64dc1;
-    values->m_Items[6] = pSVar6;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 6);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 8) goto label_03b64dc6;
-    values->m_Items[7] = "x";
-    fVar9 = (float)il2cpp_runtime_helper_022b4080(values->m_Items + 7);
-    pSVar6 = System_Single__ToString(fVar9,(MethodInfo *)&(definition->fields).ItemHeight);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if ((uint)values->max_length < 9) goto label_03b64dcb;
-    values->m_Items[8] = pSVar6;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 8);
-    pSVar6 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    uVar12 = local_50.fields._area._0_4_;
-    uVar13 = local_50.fields._area._4_4_;
-    uVar14 = local_50.fields._detail._0_4_;
-    bVar15 = local_50.fields._detail._4_4_;
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      uVar12 = local_50.fields._area._0_4_;
-      uVar13 = local_50.fields._area._4_4_;
-      uVar14 = local_50.fields._detail._0_4_;
-      bVar15 = local_50.fields._detail._4_4_;
-    }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.Setup",pSVar6,(MethodInfo *)0x0);
-    pUVar7 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-    if (pUVar7 == (UnityEngine_GameObject_o *)0x0) goto label_03b64dd0;
-    __this_03 = (UnityEngine_UI_GridLayoutGroup_o *)
-                UnityEngine_GameObject__AddComponent_object_(pUVar7,MethodInfo_GridLayoutGroup_AddComponent_GridLayoutGroup);
-    if (__this_03 != (UnityEngine_UI_GridLayoutGroup_o *)0x0) {
-      value.fields.x = (definition->fields).ItemWidth;
-      value.fields.y = (definition->fields).ItemHeight;
-      UnityEngine_UI_GridLayoutGroup__set_cellSize(__this_03,value,(MethodInfo *)0x0);
-      UnityEngine_UI_GridLayoutGroup__set_spacing
-                (__this_03,(UnityEngine_Vector2_o)0x4120000041200000,(MethodInfo *)0x0);
-      UnityEngine_UI_GridLayoutGroup__set_constraint(__this_03,1,(MethodInfo *)0x0);
-      UnityEngine_UI_GridLayoutGroup__set_constraintCount(__this_03,*piVar2,(MethodInfo *)0x0);
-      UnityEngine_UI_GridLayoutGroup__set_startAxis(__this_03,0,(MethodInfo *)0x0);
-      UnityEngine_UI_LayoutGroup__set_childAlignment
-                ((UnityEngine_UI_LayoutGroup_o *)__this_03,0,(MethodInfo *)0x0);
-      pUVar7 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (pUVar7 != (UnityEngine_GameObject_o *)0x0) {
-        method_00 = MethodInfo_LayoutElement_AddComponent_LayoutElement;
-        UnityEngine_GameObject__AddComponent_object_(pUVar7,(MethodInfo_255A020 *)MethodInfo_LayoutElement_AddComponent_LayoutElement);
-        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild(__this,method_00);
-        __this_00.fields._detail._4_4_ = uVar11;
-        __this_00.fields._0_12_ = in_stack_ffffffffffffff78;
-        __this_00.fields._startMs._0_4_ = uVar12;
-        __this_00.fields._startMs._4_4_ = uVar13;
-        __this_00.fields._enabled = uVar14;
-        __this_00.fields._hotLoop = bVar15;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-                  (__this_00,(MethodInfo *)&stack0xffffffffffffff88);
-        return;
+    iVar1 = (int)((pGVar2->fields).Items)->max_length;
+    (__this->fields)._virtualized = 0x4f < iVar1;
+    if (0x4f < iVar1) {
+      pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+      if (pUVar3 == (UnityEngine_GameObject_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      goto label_03b64dda;
+      value_00 = UnityEngine_GameObject__AddComponent_object_
+                           (pUVar3,(MethodInfo_6F4D60 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_GisketchVirtualContentRuntime
+                           );
+      (__this->fields)._virtualContent = value_00;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._virtualContent,value_00);
+      goto label_1818cead1;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_03b64dda:
-  auVar10 = il2cpp_runtime_helper_022b2c90();
-  if (auVar10._8_4_ == 1) {
-    plVar8 = (long *)__cxa_begin_catch(auVar10._0_8_);
-    lVar4 = *plVar8;
-    __cxa_end_catch();
-    __this_01.fields._detail._4_4_ = uVar11;
-    __this_01.fields._0_12_ = in_stack_ffffffffffffff78;
-    __this_01.fields._startMs._0_4_ = uVar12;
-    __this_01.fields._startMs._4_4_ = uVar13;
-    __this_01.fields._enabled = uVar14;
-    __this_01.fields._hotLoop = bVar15;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_01,(MethodInfo *)&stack0xffffffffffffff88);
-    if (lVar4 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar4);
+  if (Il2CppMethodInitialized_1843420bc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GridLayoutGroup);
+    Il2CppMethodInitialized_1843420bc = '\x01';
   }
-  __this_02.fields._detail._4_4_ = uVar11;
-  __this_02.fields._0_12_ = in_stack_ffffffffffffff78;
-  __this_02.fields._startMs._0_4_ = uVar12;
-  __this_02.fields._startMs._4_4_ = uVar13;
-  __this_02.fields._enabled = uVar14;
-  __this_02.fields._hotLoop = bVar15;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_02,(MethodInfo *)&stack0xffffffffffffff88);
-  _Unwind_Resume(auVar10._0_8_);
+  pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (pUVar3 == (UnityEngine_GameObject_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  __this_00 = UnityEngine_GameObject__AddComponent_object_
+                        (pUVar3,(MethodInfo_6F4D60 *)
+                                MethodInfo_UnityEngine_GameObject_AddComponent_GridLayoutGroup);
+  if (definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (__this_00 == (UnityEngine_UI_GridLayoutGroup_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  value.fields.y = (definition->fields).ItemHeight;
+  value.fields.x = (definition->fields).ItemWidth;
+  UnityEngine_UI_GridLayoutGroup__set_cellSize(__this_00,value,(MethodInfo *)0x0);
+  UnityEngine_UI_GridLayoutGroup__set_spacing
+            (__this_00,(UnityEngine_Vector2_o)0x4120000041200000,(MethodInfo *)0x0);
+  UnityEngine_UI_GridLayoutGroup__set_constraint(__this_00,1,(MethodInfo *)0x0);
+  UnityEngine_UI_GridLayoutGroup__set_constraintCount
+            (__this_00,(definition->fields).Columns,(MethodInfo *)0x0);
+  UnityEngine_UI_GridLayoutGroup__set_startAxis(__this_00,0,(MethodInfo *)0x0);
+  UnityEngine_UI_LayoutGroup__set_childAlignment
+            ((UnityEngine_UI_LayoutGroup_o *)__this_00,0,(MethodInfo *)0x0);
+label_1818cead1:
+  pUVar3 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (pUVar3 == (UnityEngine_GameObject_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  UnityEngine_GameObject__AddComponent_object_
+            (pUVar3,(MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+  values = (System_String_array *)SZArrayNew(TypeInfo_string_array,0xb);
+  if ((__this->fields)._definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    pGVar5 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_184354e50 + 0xb8);
+  }
+  else {
+    pGVar5 = &((__this->fields)._definition)->fields;
+  }
+  if (values == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)values->max_length == 0) {
+    ThrowIndexOutOfRangeException();
+  }
+  pSVar4 = pGVar5->Id;
+  values->m_Items[0] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items,pSVar4);
+  pSVar4 = " items=";
+  if ((uint)values->max_length < 2) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[1] = " items=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar4);
+  if (((__this->fields)._definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)
+     || (pGVar2 = (__this->fields)._definition,
+        (pGVar2->fields).Items == (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
+    local_res10[0] = 0;
+  }
+  else {
+    local_res10[0] = (int32_t)((pGVar2->fields).Items)->max_length;
+  }
+  pSVar4 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 3) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[2] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar4);
+  pSVar4 = " columns=";
+  if ((uint)values->max_length < 4) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[3] = " columns=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar4);
+  if (definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  pSVar4 = System_Int32__ToString(&(definition->fields).Columns,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 5) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[4] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar4);
+  pSVar4 = " item=";
+  if ((uint)values->max_length < 6) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[5] = " item=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 5,pSVar4);
+  pSVar4 = System_Single__ToString(&(definition->fields).ItemWidth,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 7) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[6] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 6,pSVar4);
+  pSVar4 = "x";
+  if ((uint)values->max_length < 8) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[7] = "x";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 7,pSVar4);
+  pSVar4 = System_Single__ToString(&(definition->fields).ItemHeight,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 9) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[8] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 8,pSVar4);
+  pSVar4 = " virtualized=";
+  if ((uint)values->max_length < 10) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[9] = " virtualized=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 9,pSVar4);
+  if ((g_data_184354de8->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354de8);
+  }
+  pSVar4 = System_Boolean__ToString(&(__this->fields)._virtualized,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 0xb) {
+    ThrowIndexOutOfRangeException();
+  }
+  values->m_Items[10] = pSVar4;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 10,pSVar4);
+  pSVar4 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog)
+    ;
+  }
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark("GridPicker.Setup",pSVar4,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild(__this,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(&local_40,(MethodInfo *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$SetQuery
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetQuery (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, System_String_o* query, const MethodInfo* method);
-// 0x3b65320
+// 0x1818ce370
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetQuery
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,System_String_o *query,
                MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
+  UnityEngine_UI_ScrollRect_o *__this_00;
   
+  if (Il2CppMethodInitialized_1843420b7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponentInParent_ScrollRect);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420b7 = '\x01';
+  }
   if (query == (System_String_o *)0x0) {
-    query = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+    query = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
-  bVar1 = System_String__Equals_3af50f0((__this->fields)._query,query,5,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    return;
+  bVar1 = System_String__Equals_196c550((__this->fields)._query,query,5,(MethodInfo *)0x0);
+  if (!bVar1) {
+    (__this->fields)._query = query;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._query,query);
+    Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild(__this,(MethodInfo *)0x0);
+    __this_00 = UnityEngine_Component__GetComponentInParent_object__664f20
+                          ((UnityEngine_Component_o *)__this,
+                           (MethodInfo_664F20 *)
+                           MethodInfo_UnityEngine_Component_GetComponentInParent_ScrollRect);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar1 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar1) {
+      if (__this_00 == (UnityEngine_UI_ScrollRect_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      (*(__this_00->klass->vtable)._41_StopMovement.methodPtr)
+                (__this_00,(__this_00->klass->vtable)._41_StopMovement.method);
+      UnityEngine_UI_ScrollRect__set_verticalNormalizedPosition(__this_00,1.0,(MethodInfo *)0x0);
+    }
   }
-  (__this->fields)._query = query;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._query);
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild(__this,(MethodInfo *)query);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Rebuild
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b65b50
+// 0x1818cdbb0
+// eh: try 0x1818cdedb..0x1818ce247 -> pad 0x183325110 (+4 call sites) catch Il2CppExceptionWrapper
+// asm: 41 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818ce01c: mov rdx, qword ptr [rip + 0x27b24c5]  ; MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose
+// asm:   0x1818ce023: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1818ce028: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1818ce02d: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x1818ce032: test rcx, rcx
+// asm:   0x1818ce035: jne 0x1818ce213
+// asm:   0x1818ce03b: xor r15d, r15d
+// asm:   0x1818ce03e: mov rsi, qword ptr [rsp + 0xc0]
+// asm:   0x1818ce046: mov rdi, qword ptr [rsp + 0x48]
+// asm:   0x1818ce171: nop 
+// asm:   0x1818ce1d5: nop 
+// asm:   0x1818ce1e4: xor edx, edx
+// asm:   0x1818ce1e6: mov rcx, qword ptr [rsp + 0x48]
+// asm:   0x1818ce1eb: call 0x1818d8cc0  ; Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose()
+// asm:   0x1818ce1f0: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x1818ce1f5: test rcx, rcx
+// asm:   0x1818ce1f8: jne 0x1818ce247
+// asm:   0x1818ce213: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x1818ce247: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183320de0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183320de5: push rbp
+// asm:   0x183320de6: sub rsp, 0x20
+// asm:   0x183320dea: mov rbp, rdx
+// asm:   0x183320ded: mov rax, qword ptr [rbp + 0x88]
+// asm:   0x183320df4: mov rcx, qword ptr [rax]
+// asm:   0x183320df7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x183320dfb: movabs rax, 0
+// asm:   0x183320e05: add rsp, 0x20
+// asm:   0x183320e09: pop rbp
+// asm:   0x183320e0a: ret 
+// asm:   0x183325110: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183325115: push rbp
+// asm:   0x183325116: sub rsp, 0x20
+// asm:   0x18332511a: mov rbp, rdx
+// asm:   0x18332511d: mov rax, qword ptr [rbp + 0x90]
+// asm:   0x183325124: mov rcx, qword ptr [rax]
+// asm:   0x183325127: mov qword ptr [rbp + 0x40], rcx
+// asm:   0x18332512b: movabs rax, 0
+// asm:   0x183325135: add rsp, 0x20
+// asm:   0x183325139: pop rbp
+// asm:   0x18332513a: ret 
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Rebuild
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  UnityEngine_Coroutine_o **ppUVar2;
+  int iVar2;
   int32_t iVar3;
-  int length;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar4;
-  System_Collections_Generic_List_GameObject__o *pSVar5;
+  System_Collections_Generic_List_GameObject__o *pSVar4;
+  Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *pGVar5;
   System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *pSVar6;
-  long lVar7;
-  System_Collections_Generic_List_Enumerator_object__o __this_00;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_03;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_04;
-  bool_conflict bVar8;
+  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar7;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar8;
+  System_String_Fields obj;
+  bool bVar9;
   System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar9;
   System_String_o *pSVar10;
-  Il2CppObject *pIVar11;
-  UnityEngine_Coroutine_o *pUVar12;
-  long *plVar13;
-  undefined8 unaff_R12;
-  undefined1 auVar14 [12];
-  undefined1 in_stack_ffffffffffffff48 [12];
-  int32_t iVar15;
-  System_Collections_Generic_List_T__o *pSVar16;
-  Il2CppRGCTXData *pIVar17;
-  System_Collections_Generic_List_T__o *local_78;
-  Il2CppRGCTXData *pIStack_70;
-  _union_249689 local_68;
-  _union_14 _Stack_60;
-  undefined1 local_50 [32];
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *routine;
+  UnityEngine_Coroutine_o *pUVar11;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o *routine_00;
+  System_Collections_IEnumerator_o *routine_01;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar12;
+  int32_t local_res18 [2];
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_98;
+  undefined8 local_78;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *local_70;
+  System_String_o local_68;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_50;
   
-  if (g_data_057a9dae == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_GameObject_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&" query='");
-    il2cpp_runtime_helper_023445d0(&"' oldCards=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.Rebuild");
-    g_data_057a9dae = '\x01';
+  if (Il2CppMethodInitialized_1843420b8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&" query='");
+    il2cpp_codegen_initialize_runtime_metadata(&"' oldCards=");
+    il2cpp_codegen_initialize_runtime_metadata(&"GridPicker.Rebuild");
+    il2cpp_codegen_initialize_runtime_metadata(&" virtualSlots=");
+    Il2CppMethodInitialized_1843420b8 = '\x01';
   }
-  local_68.genericMethod = (UnityEngine_Object_o *)0x0;
-  _Stack_60.genericMethod = (char *)0x0;
-  local_78 = (System_Collections_Generic_List_T__o *)0x0;
-  pIStack_70 = (Il2CppRGCTXData *)0x0;
-  iVar15 = 0;
-  pSVar16 = (System_Collections_Generic_List_T__o *)0x0;
-  pIVar17 = (Il2CppRGCTXData *)0x0;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  pGVar4 = (__this->fields)._definition;
-  if (pGVar4 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar9 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    if (values != (System_String_array *)0x0) goto label_03b65c68;
-label_03b66002:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66007:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b6600c:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66011:
-    il2cpp_runtime_helper_022b2c90();
-    il2cpp_runtime_helper_022fefe0(unaff_R12);
-label_03b6601e:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66023:
-    il2cpp_runtime_helper_022b2c90();
+  local_50.fields._area = (System_String_o *)0x0;
+  local_50.fields._detail = (System_String_o *)0x0;
+  local_50.fields._startMs = 0;
+  local_50.fields._enabled = false;
+  local_50.fields._hotLoop = false;
+  local_50.fields._26_6_ = 0;
+  local_res18[0] = 0;
+  local_68.klass = (System_String_c *)0x0;
+  local_68.monitor = (void *)0x0;
+  local_68.fields._stringLength = 0;
+  local_68.fields._firstChar = 0;
+  local_68.fields._6_2_ = 0;
+  values = (System_String_array *)SZArrayNew(TypeInfo_string_array,7);
+  if ((__this->fields)._definition == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    pGVar12 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_184354e50 + 0xb8);
   }
   else {
-    pGVar9 = &pGVar4->fields;
-    if (values == (System_String_array *)0x0) goto label_03b66002;
-label_03b65c68:
-    if ((int)values->max_length == 0) goto label_03b66007;
-    values->m_Items[0] = pGVar9->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b66007;
-    values->m_Items[1] = " query='";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    if ((uint)values->max_length < 3) goto label_03b66007;
-    values->m_Items[2] = (__this->fields)._query;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b66007;
-    values->m_Items[3] = "' oldCards=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    pSVar5 = (__this->fields)._cards;
-    if (pSVar5 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_03b66002;
-    iVar15 = (pSVar5->fields)._size;
-    pSVar10 = System_Int32__ToString((int32_t)&stack0xffffffffffffff54,(MethodInfo *)0x0);
-    if ((uint)values->max_length < 5) goto label_03b66007;
-    values->m_Items[4] = pSVar10;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    pSVar10 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pGVar12 = &((__this->fields)._definition)->fields;
+  }
+  if (values == (System_String_array *)0x0) goto label_1818ce253;
+  if ((int)values->max_length == 0) goto label_1818ce24d;
+  pSVar10 = pGVar12->Id;
+  values->m_Items[0] = pSVar10;
+  Il2CppCodeGenWriteBarrier(values->m_Items,pSVar10);
+  pSVar10 = " query='";
+  if ((uint)values->max_length < 2) goto label_1818ce24d;
+  values->m_Items[1] = " query='";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar10);
+  if ((uint)values->max_length < 3) goto label_1818ce24d;
+  pSVar10 = (__this->fields)._query;
+  values->m_Items[2] = pSVar10;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 2,pSVar10);
+  pSVar10 = "' oldCards=";
+  if ((uint)values->max_length < 4) goto label_1818ce24d;
+  values->m_Items[3] = "' oldCards=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar10);
+  pSVar4 = (__this->fields)._cards;
+  if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_1818ce253;
+  local_res18[0] = (pSVar4->fields)._size;
+  pSVar10 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+  if ((uint)values->max_length < 5) goto label_1818ce24d;
+  values->m_Items[4] = pSVar10;
+  Il2CppCodeGenWriteBarrier(values->m_Items + 4,pSVar10);
+  pSVar10 = " virtualSlots=";
+  if ((uint)values->max_length < 6) goto label_1818ce24d;
+  values->m_Items[5] = " virtualSlots=";
+  Il2CppCodeGenWriteBarrier(values->m_Items + 5,pSVar10);
+  if (Il2CppMethodInitialized_1843420b4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GameObject_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420b4 = '\x01';
+  }
+  if ((__this->fields)._virtualized == false) {
+label_1818cde32:
+    pSVar4 = (__this->fields)._cards;
+    if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) {
+label_1818ce253:
+      ThrowNullReferenceException();
     }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)local_50,"GridPicker.Rebuild",pSVar10,
-               (MethodInfo *)0x0);
-    local_68.genericMethod = (void *)local_50._16_8_;
-    _Stack_60 = (_union_14)local_50._24_8_;
-    local_78 = (System_Collections_Generic_List_T__o *)local_50._0_8_;
-    pIStack_70 = (Il2CppRGCTXData *)local_50._8_8_;
+    local_res18[0] = (pSVar4->fields)._size;
+  }
+  else {
+    pGVar5 = (__this->fields)._virtualContent;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar9 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar9) goto label_1818cde32;
+    pGVar5 = (__this->fields)._virtualContent;
+    if (pGVar5 == (Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *)0x0) goto label_1818ce253;
+    local_res18[0] =
+         Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime__get_LiveSlotCount
+                   (pGVar5,(MethodInfo *)0x0);
+  }
+  pSVar10 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+  if (6 < (uint)values->max_length) {
+    values->m_Items[6] = pSVar10;
+    Il2CppCodeGenWriteBarrier(values->m_Items + 6,pSVar10);
+    pSVar10 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    }
+    local_98.fields._area = (System_String_o *)0x0;
+    local_98.fields._detail = (System_String_o *)0x0;
+    local_98.fields._startMs._0_4_ = 0;
+    local_98.fields._startMs._4_2_ = 0;
+    local_98.fields._startMs._6_2_ = 0;
+    local_98.fields._enabled = false;
+    local_98.fields._hotLoop = false;
+    local_98.fields._26_6_ = 0;
+    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope___ctor
+              (&local_98,"GridPicker.Rebuild",pSVar10,(MethodInfo *)0x0);
+    local_50.fields._area = local_98.fields._area;
+    local_50.fields._detail = local_98.fields._detail;
+    local_50.fields._startMs = local_98.fields._startMs;
+    local_50.fields._enabled = local_98.fields._enabled;
+    local_50.fields._hotLoop = local_98.fields._hotLoop;
+    local_50.fields._26_6_ = local_98.fields._26_6_;
+    local_78 = 0;
     piVar1 = &(__this->fields)._thumbnailGeneration;
     *piVar1 = *piVar1 + 1;
-    pUVar12 = (__this->fields)._build;
-    if (pUVar12 != (UnityEngine_Coroutine_o *)0x0) {
-      UnityEngine_MonoBehaviour__StopCoroutine_4dfdad0
-                ((UnityEngine_MonoBehaviour_o *)__this,pUVar12,(MethodInfo *)0x0);
+    local_70 = &local_50;
+    if ((__this->fields)._build != (UnityEngine_Coroutine_o *)0x0) {
+      UnityEngine_MonoBehaviour__StopCoroutine_2f1d820
+                ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields)._build,(MethodInfo *)0x0);
     }
-    pUVar12 = (__this->fields)._thumbnailLoader;
-    if (pUVar12 != (UnityEngine_Coroutine_o *)0x0) {
-      UnityEngine_MonoBehaviour__StopCoroutine_4dfdad0
-                ((UnityEngine_MonoBehaviour_o *)__this,pUVar12,(MethodInfo *)0x0);
+    if ((__this->fields)._thumbnailLoader != (UnityEngine_Coroutine_o *)0x0) {
+      UnityEngine_MonoBehaviour__StopCoroutine_2f1d820
+                ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields)._thumbnailLoader,(MethodInfo *)0x0);
     }
+    (__this->fields)._build = (UnityEngine_Coroutine_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._build,(void *)0x0);
+    (__this->fields)._thumbnailLoader = (UnityEngine_Coroutine_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,(void *)0x0);
     pSVar6 = (__this->fields)._thumbnailLoads;
-    if (pSVar6 == (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0)
-    goto label_03b6600c;
+    if (pSVar6 == (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
+      ThrowNullReferenceException();
+    }
     piVar1 = &(pSVar6->fields)._version;
     *piVar1 = *piVar1 + 1;
-    iVar3 = (pSVar6->fields)._size;
+    iVar2 = (pSVar6->fields)._size;
     (pSVar6->fields)._size = 0;
-    if (0 < iVar3) {
-      System_Array__Clear((System_Array_o *)(pSVar6->fields)._items,0,iVar3,(MethodInfo *)0x0);
+    if (0 < iVar2) {
+      System_Array__Clear((System_Array_o *)(pSVar6->fields)._items,0,iVar2,(MethodInfo *)0x0);
     }
-    pSVar5 = (__this->fields)._cards;
-    if (pSVar5 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_03b66011;
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_50,
-               (System_Collections_Generic_List_object__o *)pSVar5,MethodInfo_List_1_T_Enumerator_UnityEngine_GameObject_GetEnumerator);
-    ppUVar2 = &(__this->fields)._thumbnailLoader;
-    pSVar16 = (System_Collections_Generic_List_T__o *)local_50._0_8_;
-    pIVar17 = (Il2CppRGCTXData *)local_50._8_8_;
-    while (__this_00.fields._version = iVar15,
-          __this_00.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff48._0_8_,
-          __this_00.fields._index = in_stack_ffffffffffffff48._8_4_,
-          __this_00.fields._current = (Il2CppObject *)pSVar16,
-          bVar8 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                            (__this_00,(MethodInfo_321A1D0 *)&stack0xffffffffffffff58), (char)bVar8 != '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilterItems(__this,(MethodInfo *)0x0);
+    pSVar7 = (__this->fields)._filtered;
+    if (pSVar7 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__UpdateHeight
+              (__this,(pSVar7->fields)._size,(MethodInfo *)0x0);
+    if ((__this->fields)._virtualized == false) {
+      pSVar4 = (__this->fields)._cards;
+      if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) {
+        ThrowNullReferenceException();
       }
-      UnityEngine_Object__Destroy_4e01c60((UnityEngine_Object_o *)local_50._16_8_,(MethodInfo *)0x0);
-    }
-    __this_01.fields._version = iVar15;
-    __this_01.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff48._0_8_;
-    __this_01.fields._index = in_stack_ffffffffffffff48._8_4_;
-    __this_01.fields._current = (Il2CppObject *)pSVar16;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_01,(MethodInfo_321A1C0 *)&stack0xffffffffffffff58);
-    pSVar5 = (__this->fields)._cards;
-    if (pSVar5 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_03b6601e;
-    piVar1 = &(pSVar5->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    length = (pSVar5->fields)._size;
-    (pSVar5->fields)._size = 0;
-    if (0 < length) {
-      System_Array__Clear((System_Array_o *)(pSVar5->fields)._items,0,length,(MethodInfo *)0x0);
-    }
-    if (g_data_057a9daf == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_BuildCards_d__17);
-      g_data_057a9daf = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_BuildCards_d__17);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 0;
-    if (pIVar11 == (Il2CppObject *)0x0) goto label_03b66023;
-    pIVar11[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,__this);
-    pUVar12 = UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                        ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pIVar11,
-                         (MethodInfo *)0x0);
-    (__this->fields)._build = pUVar12;
-    il2cpp_runtime_helper_022b4080();
-    pGVar4 = (__this->fields)._definition;
-    if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      if ((char)(pGVar4->fields).LazyLoadThumbnails == '\0') {
-label_03b65fc6:
-        __this_02.fields._detail._4_4_ = iVar15;
-        __this_02.fields._0_12_ = in_stack_ffffffffffffff48;
-        __this_02.fields._startMs = (int64_t)pSVar16;
-        __this_02.fields._24_8_ = pIVar17;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)&local_78);
-        return;
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)&local_98,
+                 (System_Collections_Generic_List_T__o *)pSVar4,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_GameObject_GetEnumerator);
+      local_68.klass = (System_String_c *)local_98.fields._area;
+      local_68.monitor = local_98.fields._detail;
+      local_68.fields._stringLength = (undefined4)local_98.fields._startMs;
+      local_68.fields._firstChar = local_98.fields._startMs._4_2_;
+      local_68.fields._6_2_ = local_98.fields._startMs._6_2_;
+      local_98.fields._area = (System_String_o *)0x0;
+      local_98.fields._detail = &local_68;
+      while( true ) {
+        bVar9 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                          ((System_Collections_Generic_List_Enumerator_object__o *)&local_68,
+                           (MethodInfo_153A2A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_MoveNext);
+        obj = local_68.fields;
+        if (!bVar9) break;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)obj,(MethodInfo *)0x0);
       }
-      iVar3 = (__this->fields)._thumbnailGeneration;
-      if (g_data_057a9db5 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_LoadThumbnails_d__23);
-        g_data_057a9db5 = '\x01';
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_68,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_GameObject_Dispose);
+      pSVar4 = (__this->fields)._cards;
+      if (pSVar4 == (System_Collections_Generic_List_GameObject__o *)0x0) {
+        ThrowNullReferenceException();
       }
-      pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadThumbnails_d__23);
-      System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-      *(undefined4 *)&pIVar11[1].klass = 0;
-      if (pIVar11 != (Il2CppObject *)0x0) {
-        pIVar11[2].klass = (Il2CppClass *)__this;
-        il2cpp_runtime_helper_022b4080(pIVar11 + 2,__this);
-        *(int32_t *)&pIVar11[2].monitor = iVar3;
-        pUVar12 = UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pIVar11
-                             ,(MethodInfo *)0x0);
-        *ppUVar2 = pUVar12;
-        il2cpp_runtime_helper_022b4080(ppUVar2,pUVar12);
-        goto label_03b65fc6;
+      piVar1 = &(pSVar4->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      iVar2 = (pSVar4->fields)._size;
+      (pSVar4->fields)._size = 0;
+      if (0 < iVar2) {
+        System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,iVar2,(MethodInfo *)0x0);
       }
-      goto label_03b6602d;
+      if (Il2CppMethodInitialized_1843420b9 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_BuildCards_d__31);
+        Il2CppMethodInitialized_1843420b9 = '\x01';
+      }
+      routine = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_BuildCards_d__31);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+      (routine->fields).__1__state = 0;
+      if (routine == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      (routine->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+      pUVar11 = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+                           (MethodInfo *)0x0);
+      (__this->fields)._build = pUVar11;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._build,pUVar11);
+      pGVar8 = (__this->fields)._definition;
+      if (pGVar8 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if ((pGVar8->fields).LazyLoadThumbnails != false) {
+        iVar3 = (__this->fields)._thumbnailGeneration;
+        if (Il2CppMethodInitialized_1843420ca == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_LoadThumbnails_d__54);
+          Il2CppMethodInitialized_1843420ca = '\x01';
+        }
+        routine_00 = il2cpp_codegen_object_new
+                               ((Il2CppClass *)
+                                TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_LoadThumbnails_d__54
+                               );
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine_00,(MethodInfo *)0x0)
+        ;
+        (routine_00->fields).__1__state = 0;
+        if (routine_00 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        (routine_00->fields).__4__this = __this;
+        Il2CppCodeGenWriteBarrier(&(routine_00->fields).__4__this,__this);
+        (routine_00->fields).generation = iVar3;
+        pUVar11 = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                            ((UnityEngine_MonoBehaviour_o *)__this,
+                             (System_Collections_IEnumerator_o *)routine_00,(MethodInfo *)0x0);
+        (__this->fields)._thumbnailLoader = pUVar11;
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,pUVar11);
+      }
+      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(&local_50,(MethodInfo *)0x0);
     }
+    else {
+      pGVar5 = (__this->fields)._virtualContent;
+      if (pGVar5 == (Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      Gisketch_Aottg2UI_Virtualization_GisketchVirtualContentRuntime__Setup
+                (pGVar5,(Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_o *)__this,
+                 (MethodInfo *)0x0);
+      pGVar8 = (__this->fields)._definition;
+      if (pGVar8 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if ((pGVar8->fields).LazyLoadThumbnails != false) {
+        routine_01 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails
+                               (__this,(__this->fields)._thumbnailGeneration,(MethodInfo *)0x0);
+        pUVar11 = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                            ((UnityEngine_MonoBehaviour_o *)__this,routine_01,(MethodInfo *)0x0);
+        (__this->fields)._thumbnailLoader = pUVar11;
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,pUVar11);
+      }
+      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(&local_50,(MethodInfo *)0x0);
+    }
+    return;
   }
-  il2cpp_runtime_helper_022b2c90();
-label_03b6602d:
-  auVar14 = il2cpp_runtime_helper_022b2c90();
-  if (auVar14._8_4_ == 1) {
-    plVar13 = (long *)__cxa_begin_catch(auVar14._0_8_);
-    lVar7 = *plVar13;
-    __cxa_end_catch();
-    __this_03.fields._detail._4_4_ = iVar15;
-    __this_03.fields._0_12_ = in_stack_ffffffffffffff48;
-    __this_03.fields._startMs = (int64_t)pSVar16;
-    __this_03.fields._24_8_ = pIVar17;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_03,(MethodInfo *)&local_78);
-    if (lVar7 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar7);
+label_1818ce24d:
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$StopBuilds
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__StopBuilds (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818cef50
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__StopBuilds
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  if ((__this->fields)._build != (UnityEngine_Coroutine_o *)0x0) {
+    UnityEngine_MonoBehaviour__StopCoroutine_2f1d820
+              ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields)._build,(MethodInfo *)0x0);
   }
-  __this_04.fields._detail._4_4_ = iVar15;
-  __this_04.fields._0_12_ = in_stack_ffffffffffffff48;
-  __this_04.fields._startMs = (int64_t)pSVar16;
-  __this_04.fields._24_8_ = pIVar17;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_04,(MethodInfo *)&local_78);
-  _Unwind_Resume(auVar14._0_8_);
+  if ((__this->fields)._thumbnailLoader != (UnityEngine_Coroutine_o *)0x0) {
+    UnityEngine_MonoBehaviour__StopCoroutine_2f1d820
+              ((UnityEngine_MonoBehaviour_o *)__this,(__this->fields)._thumbnailLoader,(MethodInfo *)0x0);
+  }
+  (__this->fields)._build = (UnityEngine_Coroutine_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._build,(void *)0x0);
+  (__this->fields)._thumbnailLoader = (UnityEngine_Coroutine_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,(void *)0x0);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$BuildCards
 // il2cpp: System_Collections_IEnumerator_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b66110
+// 0x1818cb900
 
 System_Collections_IEnumerator_o *
 Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards
           (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
-  Il2CppClass *__this_00;
-  Il2CppObject *__this_01;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  undefined4 uVar2;
-  Il2CppClass *pIVar3;
-  Il2CppObject *__this_02;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildCards_d__31_o *__this_00;
   
-  if (g_data_057a9daf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuildCards_d__17);
-    g_data_057a9daf = '\x01';
+  if (Il2CppMethodInitialized_1843420b9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_BuildCards_d__31);
+    Il2CppMethodInitialized_1843420b9 = '\x01';
   }
-  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_BuildCards_d__17);
-  uVar1 = 0;
-  pIVar3 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->_1).name = 0;
-  if (__this_00 != (Il2CppClass *)0x0) {
-    (__this_00->_1).byval_arg.data = __this;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a9db5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadThumbnails_d__23);
-    g_data_057a9db5 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadThumbnails_d__23);
-  uVar2 = 0;
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = pIVar3;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar3);
-    *(undefined4 *)&__this_01[2].monitor = uVar1;
-    return (System_Collections_IEnumerator_o *)__this_01;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_02[1].klass = uVar2;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_BuildCards_d__31);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
-// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$FilteredItems
-// il2cpp: System_Collections_Generic_List_GisketchGridPickerItem__o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilteredItems (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b66220
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$FilterItems
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilterItems (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818ccea0
 
-System_Collections_Generic_List_GisketchGridPickerItem__o *
-Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilteredItems
-          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FilterItems
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *pGVar1;
-  int *piVar2;
-  int32_t *piVar3;
-  Il2CppArrayBounds *pIVar4;
-  byte bVar5;
-  ushort uVar6;
-  uint uVar7;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar8;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *pGVar9;
-  Il2CppArrayBounds *pIVar10;
-  System_Collections_Generic_List_T__c *pSVar11;
-  Il2CppMethodPointer vtableDispatch;
-  System_Collections_Generic_List_object__o *__this_00;
-  System_Object_array *pSVar12;
-  System_Nullable_float__o stainScaleOverride;
-  UnityEngine_Events_UnityEvent_o *__this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_03;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_04;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item;
-  System_RuntimeTypeHandle_o handle;
-  bool_conflict bVar13;
-  int32_t iVar14;
-  System_String_array *__this_05;
+  int32_t *piVar1;
+  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar3;
+  System_String_o *value;
+  System_String_o *value_00;
+  System_String_o *value_01;
+  System_String_o *pSVar4;
+  bool bVar5;
+  int32_t iVar6;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *pGVar7;
   System_String_array *values;
-  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar15;
-  Il2CppObject *pIVar16;
-  System_String_array *pSVar17;
-  char **ppcVar18;
-  System_String_o *pSVar19;
-  System_String_o *pSVar20;
-  System_Type_array *pSVar21;
-  System_Type_o *pSVar22;
-  long lVar23;
-  UnityEngine_GameObject_o *pUVar24;
-  UnityEngine_Transform_o *pUVar25;
-  UnityEngine_Transform_o *pUVar26;
-  UnityEngine_RectTransform_o *pUVar27;
-  UnityEngine_UI_Selectable_o *pUVar28;
-  Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *pGVar29;
-  UnityEngine_UI_Image_o *image;
-  UnityEngine_Material_o *pUVar30;
-  Il2CppClass *pIVar31;
-  Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *__this_06;
-  UnityEngine_Events_UnityAction_o *call;
-  System_Collections_Generic_List_GisketchGridPickerItem__o *extraout_RAX;
-  undefined8 uVar32;
-  long *plVar33;
-  System_Collections_Generic_List_GisketchGridPickerItem__o *extraout_RAX_00;
-  long lVar34;
-  undefined8 extraout_RDX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  System_String_array *pSVar35;
-  System_String_array *unaff_RBP;
-  void **ppvVar36;
-  int iVar37;
-  int iVar38;
-  System_String_array *method_02;
-  System_String_array *pSVar39;
-  MethodInfo_24E7B40 *pMVar40;
-  MethodInfo *pMVar41;
-  MethodInfo_24E7B40 **__this_07;
-  System_String_array *unaff_R12;
-  System_String_o *unaff_R13;
-  System_String_o **unaff_R14;
-  ulong unaff_R15;
-  float fVar42;
-  float fVar43;
-  UnityEngine_Color_o UVar44;
-  undefined1 auVar45 [12];
-  System_String_o *in_stack_fffffffffffffe68;
-  System_String_o *in_stack_fffffffffffffe70;
-  System_String_o *in_stack_fffffffffffffe78;
-  System_String_o *in_stack_fffffffffffffe80;
-  int iStack_16c;
-  void **ppvStack_168;
-  Il2CppObject *pIStack_160;
-  UnityEngine_RectTransform_o *pUStack_158;
-  System_String_array *pSStack_150;
-  UnityEngine_UI_Selectable_o *pUStack_148;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *pGStack_140;
-  undefined1 auStack_138 [44];
-  undefined4 uStack_10c;
-  undefined4 uStack_108;
-  undefined4 uStack_104;
-  _union_13 _Stack_100;
-  _union_14 _Stack_f8;
-  System_String_array *pSStack_f0;
-  System_String_array *pSStack_e8;
-  System_String_o *pSStack_e0;
-  System_String_array *pSStack_d8;
-  ulong uStack_d0;
-  System_String_array *pSStack_c8;
-  float fStack_b8;
-  float fStack_b4;
-  undefined8 uStack_b0;
-  undefined8 uStack_a8;
-  undefined8 uStack_a0;
-  undefined4 local_50;
-  undefined4 uStack_4c;
-  il2cpp_array_lower_bound_t iStack_48;
-  undefined4 uStack_44;
-  undefined4 local_40;
-  undefined4 uStack_3c;
-  il2cpp_array_lower_bound_t iStack_38;
-  undefined4 uStack_34;
-  float __x;
+  System_String_o *pSVar8;
+  uint uVar9;
+  System_String_o *local_48;
+  System_String_o *local_40;
+  System_String_o *local_38;
+  System_String_o *local_30;
   
-  if (g_data_057a9db0 == '\0') {
-    uStack_a0 = (System_String_array *)0x3b66248;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    uStack_a0 = (System_String_array *)0x3b66254;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Gisketch_Aottg2UI_Code_GisketchGridPickerItem);
-    uStack_a0 = (System_String_array *)0x3b66260;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GisketchGridPickerItem);
-    uStack_a0 = (System_String_array *)0x3b6626c;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    uStack_a0 = (System_String_array *)0x3b66278;
-    il2cpp_runtime_helper_023445d0(&" ");
-    g_data_057a9db0 = '\x01';
+  if (Il2CppMethodInitialized_1843420ba == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    Il2CppMethodInitialized_1843420ba = '\x01';
   }
-  uStack_a0 = (System_String_array *)0x3b6628e;
-  __this_05 = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GisketchGridPickerItem);
-  uStack_a0 = (System_String_array *)0x3b662a3;
-  method_02 = MethodInfo_List_1_Gisketch_Aottg2UI_Code_GisketchGridPickerItem;
-  pSVar17 = __this_05;
-  System_Collections_Generic_List_GisketchGridPickerItem____ctor
-            ((System_Collections_Generic_List_GisketchGridPickerItem__o *)__this_05,
-             (MethodInfo_35E6930 *)MethodInfo_List_1_Gisketch_Aottg2UI_Code_GisketchGridPickerItem);
-  pGVar8 = (__this->fields)._definition;
-  pSVar35 = __this_05;
-  if ((pGVar8 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
-     (pGVar9 = (pGVar8->fields).Items, pGVar9 != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0))
-  {
-    if ((int)pGVar9->max_length < 1) {
-      return (System_Collections_Generic_List_GisketchGridPickerItem__o *)__this_05;
+  pSVar2 = (__this->fields)._filtered;
+  if (pSVar2 != (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+    iVar6 = (pSVar2->fields)._size;
+    piVar1 = &(pSVar2->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    (pSVar2->fields)._size = 0;
+    if (0 < iVar6) {
+      System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,iVar6,(MethodInfo *)0x0);
     }
-    unaff_R14 = &pGVar9->m_Items[0].fields.Keywords;
-    unaff_R15 = 0;
-    if ((pGVar9->max_length & 0xffffffff) != 0) {
+    pGVar3 = (__this->fields)._definition;
+    if (pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      pGVar7 = (pGVar3->fields).Items;
+      if (pGVar7 == (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0) {
+        pGVar7 = (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)
+                 SZArrayNew(TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array,0);
+        if (pGVar7 == (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0) goto label_1818cd124;
+      }
+      uVar9 = 0;
       do {
-        pGVar1 = (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *)(unaff_R14 + -3);
-        pSVar35 = (System_String_array *)pGVar1->Key;
-        unaff_R12 = (System_String_array *)unaff_R14[-2];
-        pSVar19 = unaff_R14[-1];
-        unaff_R13 = *unaff_R14;
-        method_02 = (System_String_array *)&g_data_00000005;
-        uStack_a0 = (System_String_array *)0x3b66366;
-        pSVar17 = TypeInfo_string;
-        values = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-        if (values == (System_String_array *)0x0) goto label_03b664f8;
-        unaff_RBP = values;
-        if ((int)values->max_length == 0) break;
-        pSVar17 = (System_String_array *)values->m_Items;
-        values->m_Items[0] = (System_String_o *)unaff_R12;
-        uStack_a0 = (System_String_array *)0x3b6638c;
-        method_02 = unaff_R12;
-        il2cpp_runtime_helper_022b4080();
-        pSVar39 = " ";
-        if ((uint)values->max_length < 2) break;
-        pSVar17 = (System_String_array *)(values->m_Items + 1);
-        values->m_Items[1] = (System_String_o *)" ";
-        uStack_a0 = (System_String_array *)0x3b663ad;
-        il2cpp_runtime_helper_022b4080();
-        method_02 = pSVar39;
-        if ((uint)values->max_length < 3) break;
-        pSVar17 = (System_String_array *)(values->m_Items + 2);
-        values->m_Items[2] = (System_String_o *)pSVar35;
-        uStack_a0 = (System_String_array *)0x3b663c7;
-        method_02 = pSVar35;
-        il2cpp_runtime_helper_022b4080();
-        pSVar39 = " ";
-        if ((uint)values->max_length < 4) break;
-        pSVar17 = (System_String_array *)(values->m_Items + 3);
-        values->m_Items[3] = (System_String_o *)" ";
-        uStack_a0 = (System_String_array *)0x3b663e8;
-        il2cpp_runtime_helper_022b4080();
-        method_02 = pSVar39;
-        if ((uint)values->max_length < 5) break;
-        values->m_Items[4] = unaff_R13;
-        uStack_a0 = (System_String_array *)0x3b66405;
-        il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-        method_02 = (System_String_array *)0x0;
-        uStack_a0 = (System_String_array *)0x3b6640f;
-        pSVar17 = values;
-        pSVar20 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-        if (pSVar20 == (System_String_o *)0x0) goto label_03b664f8;
-        uStack_a0 = (System_String_array *)0x3b66422;
-        unaff_RBP = (System_String_array *)System_String__Trim(pSVar20,(MethodInfo *)0x0);
-        pSVar17 = (System_String_array *)(__this->fields)._query;
-        method_02 = (System_String_array *)0x0;
-        uStack_a0 = (System_String_array *)0x3b66435;
-        bVar13 = System_String__IsNullOrWhiteSpace((System_String_o *)pSVar17,(MethodInfo *)0x0);
-        if ((char)bVar13 == '\0') {
-          if (unaff_RBP == (System_String_array *)0x0) goto label_03b664f8;
-          method_02 = (System_String_array *)(__this->fields)._query;
-          uStack_a0 = (System_String_array *)0x3b6645a;
-          pSVar17 = unaff_RBP;
-          iVar14 = System_String__IndexOf_3afbe10
-                             ((System_String_o *)unaff_RBP,(System_String_o *)method_02,5,(MethodInfo *)0x0);
-          if (-1 < iVar14) goto label_03b66462;
+        if ((int)pGVar7->max_length <= (int)uVar9) {
+          return;
+        }
+        if ((uint)pGVar7->max_length <= uVar9) {
+label_1818cd11e:
+          ThrowIndexOutOfRangeException();
+        }
+        value = pGVar7->m_Items[(int)uVar9].fields.Keywords;
+        value_00 = pGVar7->m_Items[(int)uVar9].fields.Key;
+        value_01 = pGVar7->m_Items[(int)uVar9].fields.Label;
+        pSVar4 = pGVar7->m_Items[(int)uVar9].fields.Sprite;
+        values = (System_String_array *)SZArrayNew(TypeInfo_string_array,5);
+        if (values == (System_String_array *)0x0) break;
+        if ((int)values->max_length == 0) goto label_1818cd11e;
+        values->m_Items[0] = value_01;
+        Il2CppCodeGenWriteBarrier(values->m_Items,value_01);
+        pSVar8 = " ";
+        if ((uint)values->max_length < 2) goto label_1818cd11e;
+        values->m_Items[1] = " ";
+        Il2CppCodeGenWriteBarrier(values->m_Items + 1,pSVar8);
+        if ((uint)values->max_length < 3) goto label_1818cd11e;
+        values->m_Items[2] = value_00;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 2,value_00);
+        pSVar8 = " ";
+        if ((uint)values->max_length < 4) goto label_1818cd11e;
+        values->m_Items[3] = " ";
+        Il2CppCodeGenWriteBarrier(values->m_Items + 3,pSVar8);
+        if ((uint)values->max_length < 5) goto label_1818cd11e;
+        values->m_Items[4] = value;
+        Il2CppCodeGenWriteBarrier(values->m_Items + 4,value);
+        pSVar8 = System_String__Concat_1969830(values,(MethodInfo *)0x0);
+        if (pSVar8 == (System_String_o *)0x0) break;
+        pSVar8 = System_String__Trim(pSVar8,(MethodInfo *)0x0);
+        bVar5 = System_String__IsNullOrWhiteSpace((__this->fields)._query,(MethodInfo *)0x0);
+        if (bVar5) {
+label_1818cd0b2:
+          pSVar2 = (__this->fields)._filtered;
+          if (pSVar2 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) break;
+          local_48 = value_00;
+          local_40 = value_01;
+          local_38 = pSVar4;
+          local_30 = value;
+          il2cpp_runtime_helper_18003ecd0(pSVar2,&local_48,MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_Add
+                       );
         }
         else {
-label_03b66462:
-          lVar23 = MethodInfo_Void_Add;
-          pSVar17 = __this_05;
-          if (__this_05 == (System_String_array *)0x0) goto label_03b664f8;
-          piVar2 = (int *)((long)&__this_05->max_length + 4);
-          *piVar2 = *piVar2 + 1;
-          pIVar10 = __this_05->bounds;
-          if (pIVar10 == (Il2CppArrayBounds *)0x0) goto label_03b664f8;
-          uVar7 = *(uint *)&__this_05->max_length;
-          lVar34 = (long)(int)uVar7;
-          if (uVar7 < (uint)pIVar10[1].lower_bound) {
-            *(uint *)&__this_05->max_length = uVar7 + 1;
-            pSVar17 = (System_String_array *)(pIVar10 + lVar34 * 2 + 2);
-            local_50 = SUB84(pSVar35,0);
-            uStack_4c = (undefined4)((ulong)pSVar35 >> 0x20);
-            iStack_48 = (il2cpp_array_lower_bound_t)unaff_R12;
-            uStack_44 = (undefined4)((ulong)unaff_R12 >> 0x20);
-            local_40 = SUB84(pSVar19,0);
-            uStack_3c = (undefined4)((ulong)pSVar19 >> 0x20);
-            iStack_38 = (il2cpp_array_lower_bound_t)unaff_R13;
-            uStack_34 = (undefined4)((ulong)unaff_R13 >> 0x20);
-            pIVar4 = pIVar10 + lVar34 * 2 + 3;
-            *(undefined4 *)&pIVar4->length = local_40;
-            *(undefined4 *)((long)&pIVar4->length + 4) = uStack_3c;
-            pIVar4->lower_bound = iStack_38;
-            *(undefined4 *)&pIVar4->field_0xc = uStack_34;
-            pIVar10 = pIVar10 + lVar34 * 2 + 2;
-            *(undefined4 *)&pIVar10->length = local_50;
-            *(undefined4 *)((long)&pIVar10->length + 4) = uStack_4c;
-            pIVar10->lower_bound = iStack_48;
-            *(undefined4 *)&pIVar10->field_0xc = uStack_44;
-            method_02 = (System_String_array *)0x0;
-            uStack_a0 = (System_String_array *)0x3b664da;
-            il2cpp_runtime_helper_022b4080();
-          }
-          else {
-            method_02 = *(System_String_array **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70);
-            uStack_a0 = (System_String_array *)0x3b66317;
-            item.fields.Keywords = unaff_R13;
-            item.fields.Key = pGVar1->Key;
-            item.fields.Label = pGVar1->Label;
-            item.fields.Sprite = pGVar1->Sprite;
-            System_Collections_Generic_List_GisketchGridPickerItem___AddWithResize
-                      ((System_Collections_Generic_List_GisketchGridPickerItem__o *)__this_05,item,
-                       (MethodInfo_35E7350 *)method_02);
+          if (pSVar8 == (System_String_o *)0x0) break;
+          iVar6 = System_String__IndexOf_196de90(pSVar8,(__this->fields)._query,5,(MethodInfo *)0x0);
+          if (-1 < iVar6) goto label_1818cd0b2;
+        }
+        uVar9 = uVar9 + 1;
+      } while( true );
+    }
+  }
+label_1818cd124:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$BindCardSlot
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BindCardSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* slot, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, int32_t index, const MethodInfo* method);
+// 0x1818cb480
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818cb5cd: mov rax, qword ptr [rip + 0x27b0ac4]  ; "item"
+// asm:   0x1818cb5d4: jmp 0x1818cb60b
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BindCardSlot
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
+               Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *slot,
+               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *item,int32_t index,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar1;
+  UnityEngine_GameObject_o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  UnityEngine_Object_o *__this_01;
+  TMPro_TextMeshProUGUI_o *pTVar3;
+  UnityEngine_UI_Button_o *pUVar4;
+  UnityEngine_UI_Button_ButtonClickedEvent_o *__this_02;
+  UnityEngine_Events_UnityEvent_o *__this_03;
+  bool bVar5;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o *object;
+  System_String_o *pSVar6;
+  System_String_o *pSVar7;
+  System_String_o *pSVar8;
+  UnityEngine_Events_UnityAction_o *__this_04;
+  System_Collections_IEnumerator_o *routine;
+  UnityEngine_Coroutine_o *value;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o local_48;
+  
+  if (Il2CppMethodInitialized_1843420bb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass33_0_BindCardSlot_b__0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass33_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"-item-");
+    Il2CppMethodInitialized_1843420bb = '\x01';
+  }
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass33_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass33_0_o *)0x0) {
+    (object->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+    (object->fields).slot = slot;
+    Il2CppCodeGenWriteBarrier(&(object->fields).slot,slot);
+    pSVar8 = (item->fields).Label;
+    pSVar6 = (item->fields).Sprite;
+    pSVar7 = (item->fields).Keywords;
+    (object->fields).item.fields.Key = (item->fields).Key;
+    (object->fields).item.fields.Label = pSVar8;
+    (object->fields).item.fields.Sprite = pSVar6;
+    (object->fields).item.fields.Keywords = pSVar7;
+    Il2CppCodeGenWriteBarrier((void **)&(object->fields).item,(void *)0x0);
+    if ((object->fields).slot == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+      return;
+    }
+    pGVar1 = (object->fields).slot;
+    if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+       (__this_00 = (pGVar1->fields).Root, __this_00 != (UnityEngine_GameObject_o *)0x0)) {
+      UnityEngine_GameObject__SetActive(__this_00,true,(MethodInfo *)0x0);
+      pGVar1 = (object->fields).slot;
+      if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+         (pGVar2 = (__this->fields)._definition,
+         pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)) {
+        __this_01 = (UnityEngine_Object_o *)(pGVar1->fields).Root;
+        pSVar8 = (pGVar2->fields).Id;
+        pSVar6 = (object->fields).item.fields.Key;
+        if (Il2CppMethodInitialized_1843420d0 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&"item");
+          il2cpp_codegen_initialize_runtime_metadata(&" ");
+          il2cpp_codegen_initialize_runtime_metadata(&"-");
+          Il2CppMethodInitialized_1843420d0 = '\x01';
+        }
+        bVar5 = System_String__IsNullOrEmpty(pSVar6,(MethodInfo *)0x0);
+        pSVar7 = "item";
+        if (!bVar5) {
+          if ((pSVar6 == (System_String_o *)0x0) ||
+             (pSVar6 = System_String__Replace_1970e80
+                                 (pSVar6," ","-",(MethodInfo *)0x0),
+             pSVar6 == (System_String_o *)0x0)) goto label_1818cb782;
+          pSVar7 = System_String__ToLowerInvariant(pSVar6,(MethodInfo *)0x0);
+        }
+        pSVar8 = System_String__Concat_1969b70(pSVar8,"-item-",pSVar7,(MethodInfo *)0x0);
+        if (__this_01 != (UnityEngine_Object_o *)0x0) {
+          UnityEngine_Object__set_name(__this_01,pSVar8,(MethodInfo *)0x0);
+          pGVar1 = (object->fields).slot;
+          if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+             (pTVar3 = (pGVar1->fields).Label, pTVar3 != (TMPro_TextMeshProUGUI_o *)0x0)) {
+            (*(pTVar3->klass->vtable)._66_set_text.methodPtr)
+                      (pTVar3,(object->fields).item.fields.Label,(pTVar3->klass->vtable)._66_set_text.method);
+            pGVar1 = (object->fields).slot;
+            if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+               ((pUVar4 = (pGVar1->fields).Button, pUVar4 != (UnityEngine_UI_Button_o *)0x0 &&
+                (__this_02 = (pUVar4->fields).m_OnClick,
+                __this_02 != (UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0)))) {
+              UnityEngine_Events_UnityEventBase__RemoveAllListeners
+                        ((UnityEngine_Events_UnityEventBase_o *)__this_02,(MethodInfo *)0x0);
+              pGVar1 = (object->fields).slot;
+              if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+                 (pUVar4 = (pGVar1->fields).Button, pUVar4 != (UnityEngine_UI_Button_o *)0x0)) {
+                __this_03 = (UnityEngine_Events_UnityEvent_o *)(pUVar4->fields).m_OnClick;
+                __this_04 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                UnityEngine_Events_UnityAction___ctor
+                          ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_04,(Il2CppObject *)object,
+                           (intptr_t)
+                           MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass33_0_BindCardSlot_b__0
+                           ,(MethodInfo *)0x0);
+                if (__this_03 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+                  UnityEngine_Events_UnityEvent__AddListener(__this_03,__this_04,(MethodInfo *)0x0);
+                  pGVar1 = (object->fields).slot;
+                  if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+                    local_48.fields.Key = (object->fields).item.fields.Key;
+                    local_48.fields.Label = (object->fields).item.fields.Label;
+                    local_48.fields.Sprite = (object->fields).item.fields.Sprite;
+                    local_48.fields.Keywords = (object->fields).item.fields.Keywords;
+                    Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetThumbnail
+                              (__this,(pGVar1->fields).Thumbnail,&local_48,
+                               (__this->fields)._thumbnailGeneration,(MethodInfo *)0x0);
+                    pGVar2 = (__this->fields)._definition;
+                    if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+                      if ((pGVar2->fields).LazyLoadThumbnails == false) {
+                        return;
+                      }
+                      if ((__this->fields)._thumbnailLoader != (UnityEngine_Coroutine_o *)0x0) {
+                        return;
+                      }
+                      routine = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails
+                                          (__this,(__this->fields)._thumbnailGeneration,(MethodInfo *)0x0);
+                      value = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                                        ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
+                      (__this->fields)._thumbnailLoader = value;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,value);
+                      return;
+                    }
+                  }
+                }
+              }
+            }
           }
         }
-        unaff_R15 = unaff_R15 + 1;
-        uVar7 = (uint)pGVar9->max_length;
-        unaff_R14 = unaff_R14 + 4;
-        if ((long)(int)uVar7 <= (long)unaff_R15) {
-          return (System_Collections_Generic_List_GisketchGridPickerItem__o *)__this_05;
-        }
-      } while (unaff_R15 < uVar7);
-    }
-    uStack_a0 = (System_String_array *)0x3b664f8;
-    il2cpp_runtime_helper_022b2ca0();
-  }
-label_03b664f8:
-  uStack_a0 = (System_String_array *)0x3b664fd;
-  il2cpp_runtime_helper_022b2c90();
-  iVar37 = (int)method_02;
-  pSStack_f0 = (System_String_array *)((ulong)method_02 & 0xffffffff);
-  __this_07 = (MethodInfo_24E7B40 **)pSVar17;
-  iVar38 = iVar37;
-  uStack_b0 = pSVar35;
-  uStack_a8 = unaff_R14;
-  uStack_a0 = unaff_RBP;
-  if (g_data_057a9db1 == '\0') {
-    __this_07 = &MethodInfo_LayoutElement_GetComponent_LayoutElement;
-    pSStack_c8 = (System_String_array *)0x3b66522;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a9db1 = '\x01';
-  }
-  if ((System_Collections_Generic_List_T__c *)pSVar17->m_Items[0] !=
-      (System_Collections_Generic_List_T__c *)0x0) {
-    fVar43 = (float)*(int *)&(((System_Collections_Generic_List_T__c *)pSVar17->m_Items[0])->_1).byval_arg.
-                             data;
-    fVar42 = (float)iVar37;
-    if (g_data_057a690d == '\0') {
-      pSStack_c8 = (System_String_array *)0x3b66560;
-      fStack_b8 = (float)iVar37;
-      fStack_b4 = fVar43;
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-      g_data_057a690d = '\x01';
-      fVar42 = fStack_b8;
-      fVar43 = fStack_b4;
-    }
-    __x = fVar42 / fVar43;
-    if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-      pSStack_c8 = (System_String_array *)0x3b66595;
-      fStack_b8 = fVar42 / fVar43;
-      il2cpp_runtime_helper_02337ed0();
-      __x = fStack_b8;
-    }
-    pSStack_c8 = (System_String_array *)0x3b665a0;
-    fVar42 = ceilf(__x);
-    unaff_RBP = (System_String_array *)0x1;
-    if (0 < (int)fVar42) {
-      unaff_RBP = (System_String_array *)(ulong)(uint)(int)fVar42;
-    }
-    pSStack_c8 = (System_String_array *)0x3b665c0;
-    pMVar40 = MethodInfo_LayoutElement_GetComponent_LayoutElement;
-    __this_07 = (MethodInfo_24E7B40 **)pSVar17;
-    pSStack_f0 = (System_String_array *)
-                 UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pSVar17,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    iVar38 = (int)pMVar40;
-    pSVar11 = (System_Collections_Generic_List_T__c *)pSVar17->m_Items[0];
-    if ((pSVar11 != (System_Collections_Generic_List_T__c *)0x0) && (pSStack_f0 != (System_String_array *)0x0)
-       ) {
-      iVar37 = *(int *)&(pSVar11->_1).byval_arg.data;
-      pIVar31 = (pSStack_f0->obj).klass;
-      iVar38 = (int)pIVar31->vtable[0x24].method;
-      pSStack_c8 = (System_String_array *)0x3b66611;
-      __this_07 = (MethodInfo_24E7B40 **)pSStack_f0;
-      (*pIVar31->vtable[0x24].methodPtr)
-                ((float)(iVar37 + -1) * 10.0 +
-                 (float)iVar37 * *(float *)((long)&(pSVar11->_1).byval_arg.data + 4));
-      if ((System_Collections_Generic_List_T__c *)pSVar17->m_Items[0] !=
-          (System_Collections_Generic_List_T__c *)0x0) {
-        pIVar31 = (pSStack_f0->obj).klass;
-        vtableDispatch = pIVar31->vtable[0x26].methodPtr;
-        pSVar15 = (System_Collections_Generic_List_GisketchGridPickerItem__o *)
-                  (*vtableDispatch)
-                            ((float)((int)unaff_RBP + -1) * 10.0 +
-                             (float)(int)unaff_RBP *
-                             (float)(((System_Collections_Generic_List_T__c *)pSVar17->m_Items[0])->_1).
-                                    byval_arg.bits,pSStack_f0,pIVar31->vtable[0x26].method,extraout_RDX,
-                             vtableDispatch);
-        return pSVar15;
       }
     }
   }
-  pSStack_c8 = (System_String_array *)0x3b6665f;
-  il2cpp_runtime_helper_022b2c90();
-  iStack_16c = iVar38;
-  pSStack_e8 = unaff_R12;
-  pSStack_e0 = unaff_R13;
-  pSStack_d8 = pSVar17;
-  uStack_d0 = unaff_R15;
-  pSStack_c8 = unaff_RBP;
-  if (g_data_057a9db2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_AddComponent_Button);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSurfaceMaterial);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateCard_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass20_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"-item-");
-    il2cpp_runtime_helper_023445d0(&"] ");
-    il2cpp_runtime_helper_023445d0(&"gridPickerItem");
-    il2cpp_runtime_helper_023445d0(&"[");
-    il2cpp_runtime_helper_023445d0(&"shadow");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.CreateCard");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Button Face");
-    g_data_057a9db2 = '\x01';
+label_1818cb782:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$AddGridLayout
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__AddGridLayout (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o* definition, const MethodInfo* method);
+// 0x1818cb3a0
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__AddGridLayout
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
+               Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *definition,MethodInfo *method)
+
+{
+  UnityEngine_Vector2_o value;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_UI_GridLayoutGroup_o *__this_01;
+  
+  if (Il2CppMethodInitialized_1843420bc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GridLayoutGroup);
+    Il2CppMethodInitialized_1843420bc = '\x01';
   }
-  auStack_138._16_8_ = (Il2CppRGCTXData *)0x0;
-  auStack_138._24_8_ = (char *)0x0;
-  auStack_138._0_8_ = (Il2CppMethodPointer)0x0;
-  auStack_138._8_8_ = (Il2CppMethodPointer)0x0;
-  pIVar16 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass20_0);
-  System_Object___ctor(pIVar16,(MethodInfo *)0x0);
-  if (pIVar16 == (Il2CppObject *)0x0) {
-label_03b66f77:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f7c:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f81:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f86:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f8b:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f90:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f95:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9a:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9f:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa4:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa9:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fae:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb3:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb8:
-    fVar42 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66fbd:
-    il2cpp_runtime_helper_022b2c90(fVar42);
-label_03b66fc2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fc7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fcc:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd1:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd6:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66fdb:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe0:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe5:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fea:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fef:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66ff4:
-    fVar42 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66ff9:
-    il2cpp_runtime_helper_022b2c90(fVar42);
-label_03b66ffe:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67003:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67008:
-    il2cpp_runtime_helper_022b2c90();
-label_03b6700d:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pIVar16[1].klass = (Il2CppClass *)__this_07;
-    il2cpp_runtime_helper_022b4080(pIVar16 + 1,__this_07);
-    ppvVar36 = &pIVar16[1].monitor;
-    *(undefined4 *)&pIVar16[2].monitor = (undefined4)uStack_a8;
-    *(undefined4 *)((long)&pIVar16[2].monitor + 4) = uStack_a8._4_4_;
-    *(undefined4 *)&pIVar16[3].klass = (undefined4)uStack_a0;
-    *(undefined4 *)((long)&pIVar16[3].klass + 4) = uStack_a0._4_4_;
-    *(float *)&pIVar16[1].monitor = fStack_b8;
-    *(float *)((long)&pIVar16[1].monitor + 4) = fStack_b4;
-    *(undefined4 *)&pIVar16[2].klass = (undefined4)uStack_b0;
-    *(undefined4 *)((long)&pIVar16[2].klass + 4) = uStack_b0._4_4_;
-    il2cpp_runtime_helper_022b4080(ppvVar36,0);
-    pSVar17 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-    if ((System_Collections_Generic_List_T__c *)((System_String_array *)__this_07)->m_Items[0] ==
-        (System_Collections_Generic_List_T__c *)0x0) {
-      ppcVar18 = *(char ***)(g_data_057b9c00 + 0xb8);
-    }
-    else {
-      ppcVar18 = &(((System_Collections_Generic_List_T__c *)((System_String_array *)__this_07)->m_Items[0])->
-                  _1).name;
-    }
-    if (pSVar17 == (System_String_array *)0x0) goto label_03b66f77;
-    if ((int)pSVar17->max_length == 0) goto label_03b66f7c;
-    pSVar17->m_Items[0] = (System_String_o *)*ppcVar18;
-    il2cpp_runtime_helper_022b4080(pSVar17->m_Items);
-    if ((uint)pSVar17->max_length < 2) goto label_03b66f7c;
-    pSVar17->m_Items[1] = "[";
-    il2cpp_runtime_helper_022b4080(pSVar17->m_Items + 1);
-    pSVar19 = System_Int32__ToString((int32_t)&iStack_16c,(MethodInfo *)0x0);
-    if ((uint)pSVar17->max_length < 3) goto label_03b66f7c;
-    pSVar17->m_Items[2] = pSVar19;
-    il2cpp_runtime_helper_022b4080(pSVar17->m_Items + 2);
-    if ((uint)pSVar17->max_length < 4) goto label_03b66f7c;
-    pSVar17->m_Items[3] = "] ";
-    il2cpp_runtime_helper_022b4080(pSVar17->m_Items + 3);
-    if ((uint)pSVar17->max_length < 5) goto label_03b66f7c;
-    pSVar17->m_Items[4] = *ppvVar36;
-    il2cpp_runtime_helper_022b4080(pSVar17->m_Items + 4);
-    pSVar19 = System_String__Concat_3af7570(pSVar17,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pMVar41 = "GridPicker.CreateCard";
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)(auStack_138 + 0x28),
-               (System_String_o *)"GridPicker.CreateCard",pSVar19,(MethodInfo *)0x0);
-    auStack_138._16_8_ = _Stack_100;
-    auStack_138._24_8_ = _Stack_f8;
-    auStack_138._4_4_ = uStack_10c;
-    auStack_138._0_4_ = auStack_138._40_4_;
-    auStack_138._12_4_ = uStack_104;
-    auStack_138._8_4_ = uStack_108;
-    if ((System_Collections_Generic_List_T__c *)((System_String_array *)__this_07)->m_Items[0] ==
-        (System_Collections_Generic_List_T__c *)0x0) goto label_03b66f81;
-    pSVar19 = (System_String_o *)
-              (((System_Collections_Generic_List_T__c *)((System_String_array *)__this_07)->m_Items[0])->_1).
-              name;
-    pSVar20 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId(*ppvVar36,pMVar41);
-    pSVar19 = System_String__Concat_3af7150(pSVar19,"-item-",pSVar20,(MethodInfo *)0x0);
-    pIStack_160 = pIVar16;
-    pGStack_140 = (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *)ppvVar36;
-    pSVar21 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar22 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (pSVar21 == (System_Type_array *)0x0) goto label_03b66f86;
-    if ((pSVar22 == (System_Type_o *)0x0) || (lVar23 = il2cpp_runtime_helper_023051f0(pSVar22), lVar23 != 0)) {
-      if ((int)pSVar21->max_length == 0) goto label_03b66f8b;
-      pSVar21->m_Items[0] = pSVar22;
-      il2cpp_runtime_helper_022b4080(pSVar21->m_Items,pSVar22);
-      pUVar24 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      UnityEngine_GameObject___ctor_4dfc440(pUVar24,pSVar19,pSVar21,(MethodInfo *)0x0);
-      ppvVar36 = &pIStack_160[3].monitor;
-      pIStack_160[3].monitor = pUVar24;
-      il2cpp_runtime_helper_022b4080(ppvVar36);
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66f90;
-      pUVar25 = UnityEngine_GameObject__get_transform(*ppvVar36,(MethodInfo *)0x0);
-      pUVar26 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_07,(MethodInfo *)0x0);
-      if (pUVar25 == (UnityEngine_Transform_o *)0x0) goto label_03b66f95;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar25,pUVar26,0,(MethodInfo *)0x0);
-      lVar23 = MethodInfo_Void_Add;
-      __this_00 = (System_Collections_Generic_List_object__o *)((System_String_array *)__this_07)->m_Items[2];
-      if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) goto label_03b66f9a;
-      pIVar16 = *ppvVar36;
-      piVar3 = &(__this_00->fields)._version;
-      *piVar3 = *piVar3 + 1;
-      pSVar12 = (__this_00->fields)._items;
-      if (pSVar12 == (System_Object_array *)0x0) goto label_03b66f9f;
-      uVar7 = (__this_00->fields)._size;
-      if (uVar7 < (uint)pSVar12->max_length) {
-        (__this_00->fields)._size = uVar7 + 1;
-        pSVar12->m_Items[(int)uVar7] = pIVar16;
-        il2cpp_runtime_helper_022b4080(pSVar12->m_Items + (int)uVar7);
-      }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  (__this_00,pIVar16,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar23 + 0x20) + 0xc0) + 0x70));
-      }
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fa4;
-      pUVar27 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(*ppvVar36,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      if ((System_Collections_Generic_List_T__c *)((System_String_array *)__this_07)->m_Items[0] ==
-          (System_Collections_Generic_List_T__c *)0x0) goto label_03b66fa9;
-      if (pUVar27 == (UnityEngine_RectTransform_o *)0x0) goto label_03b66fae;
-      UnityEngine_RectTransform__set_sizeDelta
-                (pUVar27,(UnityEngine_Vector2_o)
-                         *(UnityEngine_Vector2_Fields *)
-                          ((long)&(((System_Collections_Generic_List_T__c *)
-                                   ((System_String_array *)__this_07)->m_Items[0])->_1).byval_arg.data + 4),
-                 (MethodInfo *)0x0);
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fb3;
-      pIVar16 = UnityEngine_GameObject__AddComponent_object_(*ppvVar36,MethodInfo_Image_AddComponent_Image);
-      if ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)((System_String_array *)__this_07)->m_Items[1] ==
-          (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fb8;
-      UVar44 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)
-                          ((System_String_array *)__this_07)->m_Items[1],"shadow",
-                          (UnityEngine_Color_o)(ZEXT816(0x3ea3d70a00000000) << 0x40),(MethodInfo *)0x0);
-      fVar42 = UVar44.fields.r;
-      if (pIVar16 == (Il2CppObject *)0x0) goto label_03b66fbd;
-      (*pIVar16->klass->vtable[0x17].methodPtr)(fVar42,UVar44.fields.b,pIVar16);
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fc2;
-      pUVar28 = (UnityEngine_UI_Selectable_o *)
-                UnityEngine_GameObject__AddComponent_object_(*ppvVar36,MethodInfo_Button_AddComponent_Button);
-      if (pUVar28 == (UnityEngine_UI_Selectable_o *)0x0) goto label_03b66fc7;
-      pUStack_148 = pUVar28;
-      UnityEngine_UI_Selectable__set_transition(pUVar28,0,(MethodInfo *)0x0);
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fcc;
-      UnityEngine_GameObject__AddComponent_object_(*ppvVar36,MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-      ppvStack_168 = ppvVar36;
-      pSVar21 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-      pSVar22 = System_Type__GetTypeFromHandle(TypeRef_RectTransform,(MethodInfo *)0x0);
-      if (pSVar21 == (System_Type_array *)0x0) goto label_03b66fd1;
-      if ((pSVar22 != (System_Type_o *)0x0) && (lVar23 = il2cpp_runtime_helper_023051f0(pSVar22), lVar23 == 0))
-      goto label_03b67021;
-      if ((int)pSVar21->max_length == 0) goto label_03b66fd6;
-      pSVar21->m_Items[0] = pSVar22;
-      il2cpp_runtime_helper_022b4080(pSVar21->m_Items,pSVar22);
-      pUVar24 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      ppvVar36 = ppvStack_168;
-      UnityEngine_GameObject___ctor_4dfc440(pUVar24,"AoTTG Button Face",pSVar21,(MethodInfo *)0x0);
-      if (pUVar24 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fdb;
-      pUVar25 = UnityEngine_GameObject__get_transform(pUVar24,(MethodInfo *)0x0);
-      if (*ppvVar36 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fe0;
-      pUVar26 = UnityEngine_GameObject__get_transform(*ppvVar36,(MethodInfo *)0x0);
-      if (pUVar25 == (UnityEngine_Transform_o *)0x0) goto label_03b66fe5;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar25,pUVar26,0,(MethodInfo *)0x0);
-      pMVar41 = MethodInfo_RectTransform_GetComponent_RectTransform;
-      pUVar27 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(pUVar24,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch(pUVar27,pMVar41);
-      if ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)((System_String_array *)__this_07)->m_Items[1] ==
-          (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fea;
-      pGVar29 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetStyle
-                          ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)
-                           ((System_String_array *)__this_07)->m_Items[1],"gridPickerItem",(MethodInfo *)0x0);
-      image = (UnityEngine_UI_Image_o *)UnityEngine_GameObject__AddComponent_object_(pUVar24,MethodInfo_Image_AddComponent_Image);
-      if (pGVar29 == (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) goto label_03b66fef;
-      if ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)((System_String_array *)__this_07)->m_Items[1] ==
-          (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66ff4;
-      UVar44.fields.b = 1.0;
-      UVar44.fields.a = 1.0;
-      UVar44.fields.r = 1.0;
-      UVar44.fields.g = 1.0;
-      UVar44 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)
-                          ((System_String_array *)__this_07)->m_Items[1],(pGVar29->fields).background,UVar44,
-                          (MethodInfo *)0x0);
-      fVar42 = UVar44.fields.r;
-      if (image == (UnityEngine_UI_Image_o *)0x0) goto label_03b66ff9;
-      pUStack_158 = pUVar27;
-      pSStack_150 = (System_String_array *)__this_07;
-      (*(image->klass->vtable)._23_set_color.methodPtr)
-                (fVar42,UVar44.fields.b,image,(image->klass->vtable)._23_set_color.method);
-      fVar42 = (float)(pGVar29->fields).wornStainScale.fields.hasValue;
-      bVar5 = *(byte *)((long)&(pGVar29->fields).wornStainScale.fields.value + 1);
-      uVar6 = *(ushort *)((long)&(pGVar29->fields).textured.fields.hasValue + 2);
-      stainScaleOverride.fields = *(System_Nullable_float__Fields *)&(pGVar29->fields).textured.fields.value;
-      if (*(int *)(TypeInfo_GisketchSurfaceMaterial + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pUVar30 = Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial__Instance
-                          (fVar42,(uint)bVar5,(uint)(0xff < uVar6 || (char)uVar6 == '\0'),stainScaleOverride,0
-                           ,0,(MethodInfo *)0x0);
-      (*(image->klass->vtable)._33_set_material.methodPtr)
-                (image,pUVar30,(image->klass->vtable)._33_set_material.method);
-      pIVar16 = UnityEngine_GameObject__AddComponent_object_(pUVar24,MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-      pUVar28 = pUStack_148;
-      pSVar17 = pSStack_150;
-      pIVar31 = (Il2CppClass *)(*(image->klass->vtable)._32_get_material.methodPtr)(image);
-      if (pIVar16 == (Il2CppObject *)0x0) goto label_03b66ffe;
-      pIVar16[2].klass = pIVar31;
-      il2cpp_runtime_helper_022b4080(pIVar16 + 2,pIVar31);
-      UnityEngine_UI_Selectable__set_targetGraphic
-                (pUVar28,(UnityEngine_UI_Graphic_o *)image,(MethodInfo *)0x0);
-      if (*ppvStack_168 == (UnityEngine_GameObject_o *)0x0) goto label_03b67003;
-      __this_06 = (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)
-                  UnityEngine_GameObject__AddComponent_object_(*ppvStack_168,MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-      if (__this_06 == (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)0x0) goto label_03b67008;
-      Gisketch_Aottg2UI_Tweening_GisketchButtonRelief__Setup
-                (__this_06,image,pUStack_158,(float)(pGVar29->fields).wornStainScale.fields.hasValue,
-                 (UnityEngine_UI_RectMask2D_o *)0x0,(System_Nullable_float__o)(pGVar29->fields).relief.fields,
-                 (MethodInfo *)0x0);
-      pUVar25 = UnityEngine_GameObject__get_transform(pUVar24,(MethodInfo *)0x0);
-      pGVar1 = pGStack_140;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
-                ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)pSVar17,pUVar25,
-                 (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*pGStack_140,method_00);
-      pUVar25 = UnityEngine_GameObject__get_transform(pUVar24,(MethodInfo *)0x0);
-      in_stack_fffffffffffffe68 = pGVar1->Key;
-      in_stack_fffffffffffffe70 = pGVar1->Label;
-      in_stack_fffffffffffffe78 = pGVar1->Sprite;
-      in_stack_fffffffffffffe80 = pGVar1->Keywords;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
-                ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)pSVar17,pUVar25,
-                 (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*pGVar1,method_01);
-      __this_01 = (UnityEngine_Events_UnityEvent_o *)(pUVar28->fields).m_CanvasGroupCache;
-      call = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      UnityEngine_Events_UnityAction___ctor();
-      if (__this_01 != (UnityEngine_Events_UnityEvent_o *)0x0) {
-        UnityEngine_Events_UnityEvent__AddListener(__this_01,call,(MethodInfo *)0x0);
-        __this_02.fields._detail = in_stack_fffffffffffffe70;
-        __this_02.fields._area = in_stack_fffffffffffffe68;
-        __this_02.fields._startMs = (int64_t)in_stack_fffffffffffffe78;
-        __this_02.fields._24_8_ = in_stack_fffffffffffffe80;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)auStack_138);
-        return extraout_RAX;
-      }
-      goto label_03b6700d;
+  __this_00 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+    __this_01 = UnityEngine_GameObject__AddComponent_object_
+                          (__this_00,
+                           (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_GridLayoutGroup
+                          );
+    if ((definition != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
+       (__this_01 != (UnityEngine_UI_GridLayoutGroup_o *)0x0)) {
+      value.fields.y = (definition->fields).ItemHeight;
+      value.fields.x = (definition->fields).ItemWidth;
+      UnityEngine_UI_GridLayoutGroup__set_cellSize(__this_01,value,(MethodInfo *)0x0);
+      UnityEngine_UI_GridLayoutGroup__set_spacing
+                (__this_01,(UnityEngine_Vector2_o)0x4120000041200000,(MethodInfo *)0x0);
+      UnityEngine_UI_GridLayoutGroup__set_constraint(__this_01,1,(MethodInfo *)0x0);
+      UnityEngine_UI_GridLayoutGroup__set_constraintCount
+                (__this_01,(definition->fields).Columns,(MethodInfo *)0x0);
+      UnityEngine_UI_GridLayoutGroup__set_startAxis(__this_01,0,(MethodInfo *)0x0);
+      UnityEngine_UI_LayoutGroup__set_childAlignment
+                ((UnityEngine_UI_LayoutGroup_o *)__this_01,0,(MethodInfo *)0x0);
+      return;
     }
   }
-  uVar32 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(uVar32);
-label_03b67021:
-  uVar32 = il2cpp_runtime_helper_0231b270();
-  auVar45 = il2cpp_runtime_helper_022b2b10(uVar32);
-  if (auVar45._8_4_ == 1) {
-    plVar33 = (long *)__cxa_begin_catch(auVar45._0_8_);
-    lVar23 = *plVar33;
-    __cxa_end_catch();
-    __this_03.fields._detail = in_stack_fffffffffffffe70;
-    __this_03.fields._area = in_stack_fffffffffffffe68;
-    __this_03.fields._startMs = (int64_t)in_stack_fffffffffffffe78;
-    __this_03.fields._24_8_ = in_stack_fffffffffffffe80;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_03,(MethodInfo *)auStack_138);
-    if (lVar23 == 0) {
-      return extraout_RAX_00;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar23);
-  }
-  __this_04.fields._detail = in_stack_fffffffffffffe70;
-  __this_04.fields._area = in_stack_fffffffffffffe68;
-  __this_04.fields._startMs = (int64_t)in_stack_fffffffffffffe78;
-  __this_04.fields._24_8_ = in_stack_fffffffffffffe80;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_04,(MethodInfo *)auStack_138);
-  _Unwind_Resume(auVar45._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$UpdateHeight
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__UpdateHeight (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t count, const MethodInfo* method);
-// 0x3b66500
+// 0x1818cefb0
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__UpdateHeight
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t count,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  byte bVar2;
-  ushort uVar3;
+  int iVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  bool bVar3;
   int iVar4;
-  uint uVar5;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar6;
-  Il2CppMethodPointer vtableDispatch;
-  void *pvVar7;
-  System_Collections_Generic_List_object__o *__this_00;
-  System_Object_array *pSVar8;
-  Gisketch_Aottg2UI_Styling_GisketchTheme_o *pGVar9;
-  System_Nullable_float__o stainScaleOverride;
-  UnityEngine_Events_UnityEvent_o *__this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_03;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_04;
-  System_RuntimeTypeHandle_o handle;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *pGVar10;
-  Il2CppClass *pIVar11;
-  Il2CppObject *pIVar12;
-  System_String_array *values;
-  undefined8 *puVar13;
-  System_String_o *pSVar14;
-  System_String_o *str2;
-  System_Type_array *pSVar15;
-  System_Type_o *pSVar16;
-  long lVar17;
-  UnityEngine_GameObject_o *pUVar18;
-  UnityEngine_Transform_o *pUVar19;
-  UnityEngine_Transform_o *pUVar20;
-  UnityEngine_RectTransform_o *pUVar21;
-  UnityEngine_UI_Selectable_o *pUVar22;
-  Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *pGVar23;
-  UnityEngine_UI_Image_o *image;
-  UnityEngine_Material_o *pUVar24;
-  Il2CppClass *pIVar25;
-  Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *__this_05;
-  UnityEngine_Events_UnityAction_o *call;
-  undefined8 uVar26;
-  long *plVar27;
-  undefined8 extraout_RDX;
+  UnityEngine_UI_LayoutElement_o *pUVar5;
+  Gilzoide_FlexUi_FlexLayout_o *__this_00;
+  Gilzoide_FlexUi_Yoga_YGValue_o value;
+  uint uVar6;
+  float value_00;
+  double dVar7;
   MethodInfo *method_00;
-  MethodInfo *method_01;
-  undefined8 unaff_RBX;
-  int iVar28;
-  undefined8 unaff_RBP;
-  void **ppvVar29;
-  int32_t iVar30;
-  MethodInfo_24E7B40 *pMVar31;
-  MethodInfo *pMVar32;
-  MethodInfo_24E7B40 **__this_06;
-  undefined8 unaff_R14;
-  float fVar33;
-  UnityEngine_Color_o UVar34;
-  undefined1 auVar35 [12];
-  System_String_o *in_stack_ffffffffffffff00;
-  System_String_o *in_stack_ffffffffffffff08;
-  System_String_o *in_stack_ffffffffffffff10;
-  System_String_o *in_stack_ffffffffffffff18;
-  int32_t iStack_d4;
-  void **ppvStack_d0;
-  Il2CppObject *pIStack_c8;
-  UnityEngine_RectTransform_o *pUStack_c0;
-  Il2CppClass *pIStack_b8;
-  UnityEngine_UI_Selectable_o *pUStack_b0;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *pGStack_a8;
-  undefined8 uStack_a0;
-  undefined8 uStack_98;
-  _union_13 _Stack_90;
-  _union_14 _Stack_88;
-  undefined1 auStack_78 [32];
-  Il2CppClass *pIStack_58;
-  float local_20;
-  float local_1c;
   
-  pIVar11 = (Il2CppClass *)(ulong)(uint)count;
-  __this_06 = (MethodInfo_24E7B40 **)__this;
-  iVar30 = count;
-  if (g_data_057a9db1 == '\0') {
-    __this_06 = &MethodInfo_LayoutElement_GetComponent_LayoutElement;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a9db1 = '\x01';
+  if (Il2CppMethodInitialized_1843420bd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_FlexLayout);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gilzoide_FlexUi_Yoga_YGValue);
+    Il2CppMethodInitialized_1843420bd = '\x01';
   }
-  pGVar6 = (__this->fields)._definition;
-  if (pGVar6 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    fVar33 = (float)(pGVar6->fields).Columns;
-    if (g_data_057a690d == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-      g_data_057a690d = '\x01';
-      local_20 = (float)count;
-      local_1c = fVar33;
-    }
-    fVar33 = (float)count / fVar33;
-    if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      local_20 = fVar33;
-    }
-    fVar33 = ceilf(fVar33);
-    iVar28 = 1;
-    if (0 < (int)fVar33) {
-      iVar28 = (int)fVar33;
-    }
-    pMVar31 = MethodInfo_LayoutElement_GetComponent_LayoutElement;
-    __this_06 = (MethodInfo_24E7B40 **)__this;
-    pIVar11 = (Il2CppClass *)
-              UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    iVar30 = (int32_t)pMVar31;
-    pGVar6 = (__this->fields)._definition;
-    if ((pGVar6 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
-       (pIVar11 != (Il2CppClass *)0x0)) {
-      iVar4 = (pGVar6->fields).Columns;
-      pIVar25 = (pIVar11->_1).image;
-      iVar30 = (int32_t)pIVar25->vtable[0x24].method;
-      __this_06 = (MethodInfo_24E7B40 **)pIVar11;
-      (*pIVar25->vtable[0x24].methodPtr)
-                ((float)(iVar4 + -1) * 10.0 + (float)iVar4 * (pGVar6->fields).ItemWidth);
-      pGVar6 = (__this->fields)._definition;
-      if (pGVar6 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-        pIVar25 = (pIVar11->_1).image;
-        vtableDispatch = pIVar25->vtable[0x26].methodPtr;
-        (*vtableDispatch)
-                  ((float)(iVar28 + -1) * 10.0 + (float)iVar28 * (pGVar6->fields).ItemHeight,pIVar11,
-                   pIVar25->vtable[0x26].method,extraout_RDX,vtableDispatch);
+  pUVar5 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_LayoutElement);
+  pGVar2 = (__this->fields)._definition;
+  if ((pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
+     (pUVar5 != (UnityEngine_UI_LayoutElement_o *)0x0)) {
+    uVar6 = (pGVar2->fields).Columns - 1;
+    method_00 = (MethodInfo *)(ulonglong)uVar6;
+    (*(pUVar5->klass->vtable)._36_set_preferredWidth.methodPtr)
+              (pUVar5,(float)(pGVar2->fields).Columns * (pGVar2->fields).ItemWidth + (float)(int)uVar6 * 10.0,
+               (pUVar5->klass->vtable)._36_set_preferredWidth.method);
+    pGVar2 = (__this->fields)._definition;
+    if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      iVar1 = (pGVar2->fields).Columns;
+      if (Il2CppMethodInitialized_18433df29 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+        Il2CppMethodInitialized_18433df29 = '\x01';
+      }
+      if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+      }
+      dVar7 = il2cpp_runtime_helper_1804f45c0((double)((float)count / (float)iVar1),method_00);
+      pGVar2 = (__this->fields)._definition;
+      if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+        iVar1 = (int)dVar7 + -1;
+        iVar4 = 0;
+        if (-1 < iVar1) {
+          iVar4 = iVar1;
+        }
+        (*(pUVar5->klass->vtable)._38_set_preferredHeight.methodPtr)
+                  (pUVar5,(float)(int)dVar7 * (pGVar2->fields).ItemHeight + (float)iVar4 * 10.0,
+                   (pUVar5->klass->vtable)._38_set_preferredHeight.method);
+        __this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)__this,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_FlexLayout);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar3 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar3) {
+          value_00 = (*(pUVar5->klass->vtable)._37_get_preferredHeight.methodPtr)
+                               (pUVar5,(pUVar5->klass->vtable)._37_get_preferredHeight.method);
+          if ((TypeInfo_Gilzoide_FlexUi_Yoga_YGValue->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gilzoide_FlexUi_Yoga_YGValue);
+          }
+          value = Gilzoide_FlexUi_Yoga_YGValue__op_Implicit(value_00,(MethodInfo *)0x0);
+          if (__this_00 == (Gilzoide_FlexUi_FlexLayout_o *)0x0) goto label_1818cf1a7;
+          Gilzoide_FlexUi_FlexLayout__set_Height(__this_00,value,(MethodInfo *)0x0);
+        }
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  iStack_d4 = iVar30;
-  pIStack_58 = pIVar11;
-  if (g_data_057a9db2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_AddComponent_Button);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSurfaceMaterial);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateCard_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass20_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"-item-");
-    il2cpp_runtime_helper_023445d0(&"] ");
-    il2cpp_runtime_helper_023445d0(&"gridPickerItem");
-    il2cpp_runtime_helper_023445d0(&"[");
-    il2cpp_runtime_helper_023445d0(&"shadow");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.CreateCard");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Button Face");
-    g_data_057a9db2 = '\x01';
-  }
-  _Stack_90.rgctx_data = (Il2CppRGCTXData *)0x0;
-  _Stack_88.genericMethod = (char *)0x0;
-  uStack_a0 = (Il2CppMethodPointer)0x0;
-  uStack_98 = (Il2CppMethodPointer)0x0;
-  pIVar12 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass20_0);
-  System_Object___ctor(pIVar12,(MethodInfo *)0x0);
-  if (pIVar12 == (Il2CppObject *)0x0) {
-label_03b66f77:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f7c:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f81:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f86:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f8b:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f90:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f95:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9a:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9f:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa4:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa9:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fae:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb3:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb8:
-    fVar33 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66fbd:
-    il2cpp_runtime_helper_022b2c90(fVar33);
-label_03b66fc2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fc7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fcc:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd1:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd6:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66fdb:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe0:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe5:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fea:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fef:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66ff4:
-    fVar33 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66ff9:
-    il2cpp_runtime_helper_022b2c90(fVar33);
-label_03b66ffe:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67003:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67008:
-    il2cpp_runtime_helper_022b2c90();
-label_03b6700d:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pIVar12[1].klass = (Il2CppClass *)__this_06;
-    il2cpp_runtime_helper_022b4080(pIVar12 + 1,__this_06);
-    ppvVar29 = &pIVar12[1].monitor;
-    *(int *)&pIVar12[2].monitor = (int)unaff_R14;
-    *(int *)((long)&pIVar12[2].monitor + 4) = (int)((ulong)unaff_R14 >> 0x20);
-    *(int *)&pIVar12[3].klass = (int)unaff_RBP;
-    *(int *)((long)&pIVar12[3].klass + 4) = (int)((ulong)unaff_RBP >> 0x20);
-    *(float *)&pIVar12[1].monitor = local_20;
-    *(float *)((long)&pIVar12[1].monitor + 4) = local_1c;
-    *(int *)&pIVar12[2].klass = (int)unaff_RBX;
-    *(int *)((long)&pIVar12[2].klass + 4) = (int)((ulong)unaff_RBX >> 0x20);
-    il2cpp_runtime_helper_022b4080(ppvVar29,0);
-    values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-    pvVar7 = (((Il2CppClass *)__this_06)->_1).byval_arg.data;
-    if (pvVar7 == (void *)0x0) {
-      puVar13 = *(undefined8 **)(g_data_057b9c00 + 0xb8);
+label_1818cf1a7:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$HeightFor
+// il2cpp: float Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__HeightFor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t count, const MethodInfo* method);
+// 0x1818cd6d0
+
+float Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__HeightFor
+                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t count,MethodInfo *method)
+
+{
+  int iVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  int iVar3;
+  undefined4 in_register_00000014;
+  MethodInfo *method_00;
+  double dVar4;
+  
+  method_00 = (MethodInfo *)CONCAT44(in_register_00000014,count);
+  pGVar2 = (__this->fields)._definition;
+  if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    iVar1 = (pGVar2->fields).Columns;
+    if (Il2CppMethodInitialized_18433df29 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_18433df29 = '\x01';
     }
-    else {
-      puVar13 = (undefined8 *)((long)pvVar7 + 0x10);
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
     }
-    if (values == (System_String_array *)0x0) goto label_03b66f77;
-    if ((int)values->max_length == 0) goto label_03b66f7c;
-    values->m_Items[0] = (System_String_o *)*puVar13;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b66f7c;
-    values->m_Items[1] = "[";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    pSVar14 = System_Int32__ToString((int32_t)&iStack_d4,(MethodInfo *)0x0);
-    if ((uint)values->max_length < 3) goto label_03b66f7c;
-    values->m_Items[2] = pSVar14;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b66f7c;
-    values->m_Items[3] = "] ";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    if ((uint)values->max_length < 5) goto label_03b66f7c;
-    values->m_Items[4] = *ppvVar29;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    pSVar14 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pMVar32 = "GridPicker.CreateCard";
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)auStack_78,
-               (System_String_o *)"GridPicker.CreateCard",pSVar14,(MethodInfo *)0x0);
-    _Stack_90 = (_union_13)auStack_78._16_8_;
-    _Stack_88 = (_union_14)auStack_78._24_8_;
-    uStack_a0 = (Il2CppMethodPointer)CONCAT44(auStack_78._4_4_,auStack_78._0_4_);
-    uStack_98 = (Il2CppMethodPointer)CONCAT44(auStack_78._12_4_,auStack_78._8_4_);
-    pvVar7 = (((Il2CppClass *)__this_06)->_1).byval_arg.data;
-    if (pvVar7 == (void *)0x0) goto label_03b66f81;
-    pSVar14 = *(System_String_o **)((long)pvVar7 + 0x10);
-    str2 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId(*ppvVar29,pMVar32);
-    pSVar14 = System_String__Concat_3af7150(pSVar14,"-item-",str2,(MethodInfo *)0x0);
-    pIStack_c8 = pIVar12;
-    pGStack_a8 = (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *)ppvVar29;
-    pSVar15 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar16 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (pSVar15 == (System_Type_array *)0x0) goto label_03b66f86;
-    if ((pSVar16 == (System_Type_o *)0x0) || (lVar17 = il2cpp_runtime_helper_023051f0(pSVar16), lVar17 != 0)) {
-      if ((int)pSVar15->max_length == 0) goto label_03b66f8b;
-      pSVar15->m_Items[0] = pSVar16;
-      il2cpp_runtime_helper_022b4080(pSVar15->m_Items,pSVar16);
-      pUVar18 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      UnityEngine_GameObject___ctor_4dfc440(pUVar18,pSVar14,pSVar15,(MethodInfo *)0x0);
-      ppvVar29 = &pIStack_c8[3].monitor;
-      pIStack_c8[3].monitor = pUVar18;
-      il2cpp_runtime_helper_022b4080(ppvVar29);
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66f90;
-      pUVar19 = UnityEngine_GameObject__get_transform(*ppvVar29,(MethodInfo *)0x0);
-      pUVar20 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_06,(MethodInfo *)0x0);
-      if (pUVar19 == (UnityEngine_Transform_o *)0x0) goto label_03b66f95;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar19,pUVar20,0,(MethodInfo *)0x0);
-      lVar17 = MethodInfo_Void_Add;
-      __this_00 = (((Il2CppClass *)__this_06)->_1).this_arg.data;
-      if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) goto label_03b66f9a;
-      pIVar12 = *ppvVar29;
-      piVar1 = &(__this_00->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar8 = (__this_00->fields)._items;
-      if (pSVar8 == (System_Object_array *)0x0) goto label_03b66f9f;
-      uVar5 = (__this_00->fields)._size;
-      if (uVar5 < (uint)pSVar8->max_length) {
-        (__this_00->fields)._size = uVar5 + 1;
-        pSVar8->m_Items[(int)uVar5] = pIVar12;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items + (int)uVar5);
+    dVar4 = il2cpp_runtime_helper_1804f45c0((double)((float)count / (float)iVar1),method_00);
+    pGVar2 = (__this->fields)._definition;
+    if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+      iVar1 = (int)dVar4 + -1;
+      iVar3 = 0;
+      if (-1 < iVar1) {
+        iVar3 = iVar1;
       }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  (__this_00,pIVar12,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar17 + 0x20) + 0xc0) + 0x70));
-      }
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fa4;
-      pUVar21 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(*ppvVar29,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      pvVar7 = (((Il2CppClass *)__this_06)->_1).byval_arg.data;
-      if (pvVar7 == (void *)0x0) goto label_03b66fa9;
-      if (pUVar21 == (UnityEngine_RectTransform_o *)0x0) goto label_03b66fae;
-      UnityEngine_RectTransform__set_sizeDelta
-                (pUVar21,(UnityEngine_Vector2_o)*(UnityEngine_Vector2_Fields *)((long)pvVar7 + 0x24),
-                 (MethodInfo *)0x0);
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fb3;
-      pIVar12 = UnityEngine_GameObject__AddComponent_object_(*ppvVar29,MethodInfo_Image_AddComponent_Image);
-      pGVar9 = *(Gisketch_Aottg2UI_Styling_GisketchTheme_o **)&(((Il2CppClass *)__this_06)->_1).byval_arg.bits
-      ;
-      if (pGVar9 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fb8;
-      UVar34 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         (pGVar9,"shadow",(UnityEngine_Color_o)(ZEXT816(0x3ea3d70a00000000) << 0x40),
-                          (MethodInfo *)0x0);
-      fVar33 = UVar34.fields.r;
-      if (pIVar12 == (Il2CppObject *)0x0) goto label_03b66fbd;
-      (*pIVar12->klass->vtable[0x17].methodPtr)(fVar33,UVar34.fields.b,pIVar12);
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fc2;
-      pUVar22 = (UnityEngine_UI_Selectable_o *)
-                UnityEngine_GameObject__AddComponent_object_(*ppvVar29,MethodInfo_Button_AddComponent_Button);
-      if (pUVar22 == (UnityEngine_UI_Selectable_o *)0x0) goto label_03b66fc7;
-      pUStack_b0 = pUVar22;
-      UnityEngine_UI_Selectable__set_transition(pUVar22,0,(MethodInfo *)0x0);
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fcc;
-      UnityEngine_GameObject__AddComponent_object_(*ppvVar29,MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-      ppvStack_d0 = ppvVar29;
-      pSVar15 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-      pSVar16 = System_Type__GetTypeFromHandle(TypeRef_RectTransform,(MethodInfo *)0x0);
-      if (pSVar15 == (System_Type_array *)0x0) goto label_03b66fd1;
-      if ((pSVar16 != (System_Type_o *)0x0) && (lVar17 = il2cpp_runtime_helper_023051f0(pSVar16), lVar17 == 0))
-      goto label_03b67021;
-      if ((int)pSVar15->max_length == 0) goto label_03b66fd6;
-      pSVar15->m_Items[0] = pSVar16;
-      il2cpp_runtime_helper_022b4080(pSVar15->m_Items,pSVar16);
-      pUVar18 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      ppvVar29 = ppvStack_d0;
-      UnityEngine_GameObject___ctor_4dfc440(pUVar18,"AoTTG Button Face",pSVar15,(MethodInfo *)0x0);
-      if (pUVar18 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fdb;
-      pUVar19 = UnityEngine_GameObject__get_transform(pUVar18,(MethodInfo *)0x0);
-      if (*ppvVar29 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fe0;
-      pUVar20 = UnityEngine_GameObject__get_transform(*ppvVar29,(MethodInfo *)0x0);
-      if (pUVar19 == (UnityEngine_Transform_o *)0x0) goto label_03b66fe5;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar19,pUVar20,0,(MethodInfo *)0x0);
-      pMVar32 = MethodInfo_RectTransform_GetComponent_RectTransform;
-      pUVar21 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(pUVar18,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch(pUVar21,pMVar32);
-      pGVar9 = *(Gisketch_Aottg2UI_Styling_GisketchTheme_o **)&(((Il2CppClass *)__this_06)->_1).byval_arg.bits
-      ;
-      if (pGVar9 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fea;
-      pGVar23 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetStyle(pGVar9,"gridPickerItem",(MethodInfo *)0x0);
-      image = (UnityEngine_UI_Image_o *)UnityEngine_GameObject__AddComponent_object_(pUVar18,MethodInfo_Image_AddComponent_Image);
-      if (pGVar23 == (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) goto label_03b66fef;
-      pGVar9 = *(Gisketch_Aottg2UI_Styling_GisketchTheme_o **)&(((Il2CppClass *)__this_06)->_1).byval_arg.bits
-      ;
-      if (pGVar9 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66ff4;
-      UVar34.fields.b = 1.0;
-      UVar34.fields.a = 1.0;
-      UVar34.fields.r = 1.0;
-      UVar34.fields.g = 1.0;
-      UVar34 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         (pGVar9,(pGVar23->fields).background,UVar34,(MethodInfo *)0x0);
-      fVar33 = UVar34.fields.r;
-      if (image == (UnityEngine_UI_Image_o *)0x0) goto label_03b66ff9;
-      pUStack_c0 = pUVar21;
-      pIStack_b8 = (Il2CppClass *)__this_06;
-      (*(image->klass->vtable)._23_set_color.methodPtr)
-                (fVar33,UVar34.fields.b,image,(image->klass->vtable)._23_set_color.method);
-      fVar33 = (float)(pGVar23->fields).wornStainScale.fields.hasValue;
-      bVar2 = *(byte *)((long)&(pGVar23->fields).wornStainScale.fields.value + 1);
-      uVar3 = *(ushort *)((long)&(pGVar23->fields).textured.fields.hasValue + 2);
-      stainScaleOverride.fields = *(System_Nullable_float__Fields *)&(pGVar23->fields).textured.fields.value;
-      if (*(int *)(TypeInfo_GisketchSurfaceMaterial + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pUVar24 = Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial__Instance
-                          (fVar33,(uint)bVar2,(uint)(0xff < uVar3 || (char)uVar3 == '\0'),stainScaleOverride,0
-                           ,0,(MethodInfo *)0x0);
-      (*(image->klass->vtable)._33_set_material.methodPtr)
-                (image,pUVar24,(image->klass->vtable)._33_set_material.method);
-      pIVar12 = UnityEngine_GameObject__AddComponent_object_(pUVar18,MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-      pUVar22 = pUStack_b0;
-      pIVar11 = pIStack_b8;
-      pIVar25 = (Il2CppClass *)(*(image->klass->vtable)._32_get_material.methodPtr)(image);
-      if (pIVar12 == (Il2CppObject *)0x0) goto label_03b66ffe;
-      pIVar12[2].klass = pIVar25;
-      il2cpp_runtime_helper_022b4080(pIVar12 + 2,pIVar25);
-      UnityEngine_UI_Selectable__set_targetGraphic
-                (pUVar22,(UnityEngine_UI_Graphic_o *)image,(MethodInfo *)0x0);
-      if (*ppvStack_d0 == (UnityEngine_GameObject_o *)0x0) goto label_03b67003;
-      __this_05 = (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)
-                  UnityEngine_GameObject__AddComponent_object_(*ppvStack_d0,MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-      if (__this_05 == (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)0x0) goto label_03b67008;
-      Gisketch_Aottg2UI_Tweening_GisketchButtonRelief__Setup
-                (__this_05,image,pUStack_c0,(float)(pGVar23->fields).wornStainScale.fields.hasValue,
-                 (UnityEngine_UI_RectMask2D_o *)0x0,(System_Nullable_float__o)(pGVar23->fields).relief.fields,
-                 (MethodInfo *)0x0);
-      pUVar19 = UnityEngine_GameObject__get_transform(pUVar18,(MethodInfo *)0x0);
-      pGVar10 = pGStack_a8;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
-                ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)pIVar11,pUVar19,
-                 (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*pGStack_a8,method_00);
-      pUVar19 = UnityEngine_GameObject__get_transform(pUVar18,(MethodInfo *)0x0);
-      in_stack_ffffffffffffff00 = pGVar10->Key;
-      in_stack_ffffffffffffff08 = pGVar10->Label;
-      in_stack_ffffffffffffff10 = pGVar10->Sprite;
-      in_stack_ffffffffffffff18 = pGVar10->Keywords;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
-                ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)pIVar11,pUVar19,
-                 (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*pGVar10,method_01);
-      __this_01 = (UnityEngine_Events_UnityEvent_o *)(pUVar22->fields).m_CanvasGroupCache;
-      call = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      UnityEngine_Events_UnityAction___ctor();
-      if (__this_01 != (UnityEngine_Events_UnityEvent_o *)0x0) {
-        UnityEngine_Events_UnityEvent__AddListener(__this_01,call,(MethodInfo *)0x0);
-        __this_02.fields._detail = in_stack_ffffffffffffff08;
-        __this_02.fields._area = in_stack_ffffffffffffff00;
-        __this_02.fields._startMs = (int64_t)in_stack_ffffffffffffff10;
-        __this_02.fields._24_8_ = in_stack_ffffffffffffff18;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)&uStack_a0);
-        return;
-      }
-      goto label_03b6700d;
+      return (float)(int)dVar4 * (pGVar2->fields).ItemHeight + (float)iVar3 * 10.0;
     }
   }
-  uVar26 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(uVar26);
-label_03b67021:
-  uVar26 = il2cpp_runtime_helper_0231b270();
-  auVar35 = il2cpp_runtime_helper_022b2b10(uVar26);
-  if (auVar35._8_4_ == 1) {
-    plVar27 = (long *)__cxa_begin_catch(auVar35._0_8_);
-    lVar17 = *plVar27;
-    __cxa_end_catch();
-    __this_03.fields._detail = in_stack_ffffffffffffff08;
-    __this_03.fields._area = in_stack_ffffffffffffff00;
-    __this_03.fields._startMs = (int64_t)in_stack_ffffffffffffff10;
-    __this_03.fields._24_8_ = in_stack_ffffffffffffff18;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_03,(MethodInfo *)&uStack_a0);
-    if (lVar17 == 0) {
-      return;
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$RowCount
+// il2cpp: int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__RowCount (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t count, const MethodInfo* method);
+// 0x1818ce260
+
+int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__RowCount
+                  (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t count,MethodInfo *method
+                  )
+
+{
+  int iVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  undefined4 in_register_00000014;
+  double dVar3;
+  float fVar4;
+  
+  pGVar2 = (__this->fields)._definition;
+  if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    iVar1 = (pGVar2->fields).Columns;
+    fVar4 = (float)count;
+    if (Il2CppMethodInitialized_18433df29 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_18433df29 = '\x01';
     }
-    il2cpp_runtime_helper_022fefe0(lVar17);
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+    }
+    dVar3 = il2cpp_runtime_helper_1804f45c0((double)(fVar4 / (float)iVar1),(MethodInfo *)CONCAT44(in_register_00000014,count));
+    return (int)dVar3;
   }
-  __this_04.fields._detail = in_stack_ffffffffffffff08;
-  __this_04.fields._area = in_stack_ffffffffffffff00;
-  __this_04.fields._startMs = (int64_t)in_stack_ffffffffffffff10;
-  __this_04.fields._24_8_ = in_stack_ffffffffffffff18;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_04,(MethodInfo *)&uStack_a0);
-  _Unwind_Resume(auVar35._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$CreateCard
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, int32_t index, const MethodInfo* method);
-// 0x3b66660
+// il2cpp: UnityEngine_GameObject_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, int32_t index, const MethodInfo* method);
+// 0x1818cc860
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818cc8fe: mov rax, qword ptr [rip + 0x27af793]  ; "item"
+// asm:   0x1818cc905: jmp 0x1818cc93c
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
-               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item,int32_t index,MethodInfo *method)
+UnityEngine_GameObject_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCard
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
+          Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *item,int32_t index,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  UnityEngine_Vector2_o value;
-  byte bVar2;
-  ushort uVar3;
-  uint uVar4;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar5;
+  uint uVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar3;
   System_Collections_Generic_List_GameObject__o *__this_00;
-  UnityEngine_GameObject_array *pUVar6;
-  Gisketch_Aottg2UI_Styling_GisketchTheme_o *pGVar7;
-  System_Nullable_float__o stainScaleOverride;
+  UnityEngine_GameObject_o *item_00;
+  UnityEngine_GameObject_array *pUVar4;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar5;
+  TMPro_TextMeshProUGUI_o *pTVar6;
+  UnityEngine_UI_Button_o *pUVar7;
   UnityEngine_Events_UnityEvent_o *__this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_03;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_04;
-  System_RuntimeTypeHandle_o handle;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this_05;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *pGVar8;
-  Il2CppObject *pIVar9;
-  System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar10;
+  MethodInfo *pMVar8;
+  bool bVar9;
+  System_String_o *pSVar10;
   System_String_o *pSVar11;
-  System_String_o *str2;
-  System_Type_array *pSVar12;
-  System_Type_o *pSVar13;
-  long lVar14;
-  UnityEngine_GameObject_o *pUVar15;
-  UnityEngine_Transform_o *pUVar16;
-  UnityEngine_Transform_o *pUVar17;
-  UnityEngine_RectTransform_o *pUVar18;
-  UnityEngine_UI_Selectable_o *pUVar19;
-  Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *pGVar20;
-  UnityEngine_UI_Image_o *image;
-  UnityEngine_Material_o *pUVar21;
-  Il2CppClass *pIVar22;
-  Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *__this_06;
-  UnityEngine_Events_UnityAction_o *call;
-  undefined8 uVar23;
-  long *plVar24;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  void **ppvVar25;
-  MethodInfo *pMVar26;
-  float fVar27;
-  UnityEngine_Color_o UVar28;
-  undefined1 auVar29 [12];
-  System_String_o *in_stack_ffffffffffffff28;
-  System_String_o *in_stack_ffffffffffffff30;
-  System_String_o *in_stack_ffffffffffffff38;
-  System_String_o *in_stack_ffffffffffffff40;
-  int32_t local_ac;
-  void **local_a8;
-  Il2CppObject *local_a0;
-  UnityEngine_RectTransform_o *local_98;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *local_90;
-  UnityEngine_UI_Selectable_o *local_88;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *local_80;
-  undefined8 local_78;
-  undefined8 uStack_70;
-  _union_13 local_68;
-  _union_14 _Stack_60;
-  undefined1 local_50 [32];
+  System_String_o *pSVar12;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *value;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o *object;
+  UnityEngine_Events_UnityAction_o *__this_02;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o local_28;
   
-  local_ac = index;
-  if (g_data_057a9db2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_AddComponent_Button);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSurfaceMaterial);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateCard_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass20_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"-item-");
-    il2cpp_runtime_helper_023445d0(&"] ");
-    il2cpp_runtime_helper_023445d0(&"gridPickerItem");
-    il2cpp_runtime_helper_023445d0(&"[");
-    il2cpp_runtime_helper_023445d0(&"shadow");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.CreateCard");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Button Face");
-    g_data_057a9db2 = '\x01';
+  if (Il2CppMethodInitialized_1843420be == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&"-item-");
+    Il2CppMethodInitialized_1843420be = '\x01';
   }
-  local_68.rgctx_data = (Il2CppRGCTXData *)0x0;
-  _Stack_60.genericMethod = (char *)0x0;
-  local_78 = (Il2CppMethodPointer)0x0;
-  uStack_70 = (Il2CppMethodPointer)0x0;
-  pIVar9 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass20_0);
-  System_Object___ctor(pIVar9,(MethodInfo *)0x0);
-  if (pIVar9 == (Il2CppObject *)0x0) {
-label_03b66f77:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f7c:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f81:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f86:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f8b:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66f90:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f95:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9a:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66f9f:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa4:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fa9:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fae:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb3:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fb8:
-    fVar27 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66fbd:
-    il2cpp_runtime_helper_022b2c90(fVar27);
-label_03b66fc2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fc7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fcc:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd1:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fd6:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b66fdb:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe0:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fe5:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fea:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66fef:
-    il2cpp_runtime_helper_022b2c90();
-label_03b66ff4:
-    fVar27 = (float)il2cpp_runtime_helper_022b2c90();
-label_03b66ff9:
-    il2cpp_runtime_helper_022b2c90(fVar27);
-label_03b66ffe:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67003:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67008:
-    il2cpp_runtime_helper_022b2c90();
-label_03b6700d:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pIVar9[1].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(pIVar9 + 1,__this);
-    ppvVar25 = &pIVar9[1].monitor;
-    *(undefined4 *)&pIVar9[2].monitor = item.fields.Sprite._0_4_;
-    *(undefined4 *)((long)&pIVar9[2].monitor + 4) = item.fields.Sprite._4_4_;
-    *(undefined4 *)&pIVar9[3].klass = item.fields.Keywords._0_4_;
-    *(undefined4 *)((long)&pIVar9[3].klass + 4) = item.fields.Keywords._4_4_;
-    *(undefined4 *)&pIVar9[1].monitor = item.fields.Key._0_4_;
-    *(undefined4 *)((long)&pIVar9[1].monitor + 4) = item.fields.Key._4_4_;
-    *(undefined4 *)&pIVar9[2].klass = item.fields.Label._0_4_;
-    *(undefined4 *)((long)&pIVar9[2].klass + 4) = item.fields.Label._4_4_;
-    il2cpp_runtime_helper_022b4080(ppvVar25,0);
-    values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-    pGVar5 = (__this->fields)._definition;
-    if (pGVar5 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      pGVar10 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
+  pGVar3 = (__this->fields)._definition;
+  if (pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    pSVar12 = (pGVar3->fields).Id;
+    pSVar10 = (item->fields).Key;
+    if (Il2CppMethodInitialized_1843420d0 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"item");
+      il2cpp_codegen_initialize_runtime_metadata(&" ");
+      il2cpp_codegen_initialize_runtime_metadata(&"-");
+      Il2CppMethodInitialized_1843420d0 = '\x01';
     }
-    else {
-      pGVar10 = &pGVar5->fields;
+    bVar9 = System_String__IsNullOrEmpty(pSVar10,(MethodInfo *)0x0);
+    pSVar11 = "item";
+    if (!bVar9) {
+      if ((pSVar10 == (System_String_o *)0x0) ||
+         (pSVar10 = System_String__Replace_1970e80
+                              (pSVar10," ","-",(MethodInfo *)0x0),
+         pSVar10 == (System_String_o *)0x0)) goto label_1818ccb46;
+      pSVar11 = System_String__ToLowerInvariant(pSVar10,(MethodInfo *)0x0);
     }
-    if (values == (System_String_array *)0x0) goto label_03b66f77;
-    if ((int)values->max_length == 0) goto label_03b66f7c;
-    values->m_Items[0] = pGVar10->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b66f7c;
-    values->m_Items[1] = "[";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    pSVar11 = System_Int32__ToString((int32_t)&local_ac,(MethodInfo *)0x0);
-    if ((uint)values->max_length < 3) goto label_03b66f7c;
-    values->m_Items[2] = pSVar11;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b66f7c;
-    values->m_Items[3] = "] ";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    if ((uint)values->max_length < 5) goto label_03b66f7c;
-    values->m_Items[4] = *ppvVar25;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    pSVar11 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pMVar26 = "GridPicker.CreateCard";
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)local_50,
-               (System_String_o *)"GridPicker.CreateCard",pSVar11,(MethodInfo *)0x0);
-    local_68 = (_union_13)local_50._16_8_;
-    _Stack_60 = (_union_14)local_50._24_8_;
-    local_78 = (Il2CppMethodPointer)CONCAT44(local_50._4_4_,local_50._0_4_);
-    uStack_70 = (Il2CppMethodPointer)CONCAT44(local_50._12_4_,local_50._8_4_);
-    pGVar5 = (__this->fields)._definition;
-    if (pGVar5 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b66f81;
-    pSVar11 = (pGVar5->fields).Id;
-    str2 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId(*ppvVar25,pMVar26);
-    pSVar11 = System_String__Concat_3af7150(pSVar11,"-item-",str2,(MethodInfo *)0x0);
-    local_a0 = pIVar9;
-    local_80 = (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_Fields *)ppvVar25;
-    pSVar12 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar13 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (pSVar12 == (System_Type_array *)0x0) goto label_03b66f86;
-    if ((pSVar13 == (System_Type_o *)0x0) || (lVar14 = il2cpp_runtime_helper_023051f0(pSVar13), lVar14 != 0)) {
-      if ((int)pSVar12->max_length == 0) goto label_03b66f8b;
-      pSVar12->m_Items[0] = pSVar13;
-      il2cpp_runtime_helper_022b4080(pSVar12->m_Items,pSVar13);
-      pUVar15 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      UnityEngine_GameObject___ctor_4dfc440(pUVar15,pSVar11,pSVar12,(MethodInfo *)0x0);
-      ppvVar25 = &local_a0[3].monitor;
-      local_a0[3].monitor = pUVar15;
-      il2cpp_runtime_helper_022b4080(ppvVar25);
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66f90;
-      pUVar16 = UnityEngine_GameObject__get_transform(*ppvVar25,(MethodInfo *)0x0);
-      pUVar17 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (pUVar16 == (UnityEngine_Transform_o *)0x0) goto label_03b66f95;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar16,pUVar17,0,(MethodInfo *)0x0);
-      lVar14 = MethodInfo_Void_Add;
-      __this_00 = (__this->fields)._cards;
-      if (__this_00 == (System_Collections_Generic_List_GameObject__o *)0x0) goto label_03b66f9a;
-      pUVar15 = *ppvVar25;
+    pSVar12 = System_String__Concat_1969b70(pSVar12,"-item-",pSVar11,(MethodInfo *)0x0);
+    value = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCardObject
+                      (__this,pSVar12,(MethodInfo *)0x0);
+    pMVar8 = MethodInfo_System_Collections_Generic_List_GameObject_Add;
+    if ((value != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+       (__this_00 = (__this->fields)._cards, __this_00 != (System_Collections_Generic_List_GameObject__o *)0x0
+       )) {
+      item_00 = (value->fields).Root;
       piVar1 = &(__this_00->fields)._version;
       *piVar1 = *piVar1 + 1;
-      pUVar6 = (__this_00->fields)._items;
-      if (pUVar6 == (UnityEngine_GameObject_array *)0x0) goto label_03b66f9f;
-      uVar4 = (__this_00->fields)._size;
-      if (uVar4 < (uint)pUVar6->max_length) {
-        (__this_00->fields)._size = uVar4 + 1;
-        pUVar6->m_Items[(int)uVar4] = pUVar15;
-        il2cpp_runtime_helper_022b4080(pUVar6->m_Items + (int)uVar4);
+      pUVar4 = (__this_00->fields)._items;
+      if (pUVar4 != (UnityEngine_GameObject_array *)0x0) {
+        uVar2 = (__this_00->fields)._size;
+        if (uVar2 < (uint)pUVar4->max_length) {
+          (__this_00->fields)._size = uVar2 + 1;
+          if ((uint)pUVar4->max_length <= uVar2) {
+            ThrowIndexOutOfRangeException();
+          }
+          pUVar4->m_Items[(int)uVar2] = item_00;
+          Il2CppCodeGenWriteBarrier(pUVar4->m_Items + (int)uVar2,item_00);
+        }
+        else {
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)item_00,
+                     (MethodInfo_93DD50 *)pMVar8->klass->rgctx_data[0xe].method);
+        }
+        if (Il2CppMethodInitialized_1843420c1 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0_BindStaticCard_b__0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+          Il2CppMethodInitialized_1843420c1 = '\x01';
+        }
+        object = il2cpp_codegen_object_new
+                           ((Il2CppClass *)
+                            TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0);
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+        if (object != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o *)0x0) {
+          (object->fields).__4__this = __this;
+          Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+          (object->fields).slot = value;
+          Il2CppCodeGenWriteBarrier(&(object->fields).slot,value);
+          pSVar12 = (item->fields).Label;
+          pSVar10 = (item->fields).Sprite;
+          pSVar11 = (item->fields).Keywords;
+          (object->fields).item.fields.Key = (item->fields).Key;
+          (object->fields).item.fields.Label = pSVar12;
+          (object->fields).item.fields.Sprite = pSVar10;
+          (object->fields).item.fields.Keywords = pSVar11;
+          Il2CppCodeGenWriteBarrier((void **)&(object->fields).item,(void *)0x0);
+          pGVar5 = (object->fields).slot;
+          if ((pGVar5 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+             (pTVar6 = (pGVar5->fields).Label, pTVar6 != (TMPro_TextMeshProUGUI_o *)0x0)) {
+            (*(pTVar6->klass->vtable)._66_set_text.methodPtr)
+                      (pTVar6,(object->fields).item.fields.Label,(pTVar6->klass->vtable)._66_set_text.method);
+            pGVar5 = (object->fields).slot;
+            if ((pGVar5 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+               (pUVar7 = (pGVar5->fields).Button, pUVar7 != (UnityEngine_UI_Button_o *)0x0)) {
+              __this_01 = (UnityEngine_Events_UnityEvent_o *)(pUVar7->fields).m_OnClick;
+              __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+              UnityEngine_Events_UnityAction___ctor
+                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_02,(Il2CppObject *)object,
+                         (intptr_t)
+                         MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0_BindStaticCard_b__0
+                         ,(MethodInfo *)0x0);
+              if (__this_01 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+                UnityEngine_Events_UnityEvent__AddListener(__this_01,__this_02,(MethodInfo *)0x0);
+                pGVar5 = (object->fields).slot;
+                if (pGVar5 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+                  local_28.fields.Key = (object->fields).item.fields.Key;
+                  local_28.fields.Label = (object->fields).item.fields.Label;
+                  local_28.fields.Sprite = (object->fields).item.fields.Sprite;
+                  local_28.fields.Keywords = (object->fields).item.fields.Keywords;
+                  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetThumbnail
+                            (__this,(pGVar5->fields).Thumbnail,&local_28,(__this->fields)._thumbnailGeneration
+                             ,(MethodInfo *)0x0);
+                  return (value->fields).Root;
+                }
+              }
+            }
+          }
+        }
       }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pUVar15,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar14 + 0x20) + 0xc0) + 0x70));
+    }
+  }
+label_1818ccb46:
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$CreateSlot
+// il2cpp: Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t index, const MethodInfo* method);
+// 0x1818ccb60
+
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateSlot
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t index,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
+  UnityEngine_GameObject_o *pUVar2;
+  System_String_o *str2;
+  System_String_o *pSVar3;
+  Il2CppClass *value;
+  UnityEngine_UI_LayoutElement_o *pUVar4;
+  Il2CppObject *pIVar5;
+  int32_t local_res10 [6];
+  
+  local_res10[0] = index;
+  if (Il2CppMethodInitialized_1843420bf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_CardSlotHost);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&"-slot-");
+    Il2CppMethodInitialized_1843420bf = '\x01';
+  }
+  pGVar1 = (__this->fields)._definition;
+  if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    pSVar3 = (pGVar1->fields).Id;
+    str2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+    pSVar3 = System_String__Concat_1969b70(pSVar3,"-slot-",str2,(MethodInfo *)0x0);
+    value = (Il2CppClass *)
+            Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCardObject
+                      (__this,pSVar3,(MethodInfo *)0x0);
+    if ((value != (Il2CppClass *)0x0) &&
+       (pUVar2 = ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_Fields *)&(value->_1).name)->Root
+       , pUVar2 != (UnityEngine_GameObject_o *)0x0)) {
+      pUVar4 = UnityEngine_GameObject__AddComponent_object_
+                         (pUVar2,(MethodInfo_6F4D60 *)
+                                 MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+      if (pUVar4 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+        (*(pUVar4->klass->vtable)._28_set_ignoreLayout.methodPtr)
+                  (pUVar4,true,(pUVar4->klass->vtable)._28_set_ignoreLayout.method);
+        pUVar2 = ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_Fields *)&(value->_1).name)->Root
+        ;
+        if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+          pIVar5 = UnityEngine_GameObject__AddComponent_object_
+                             (pUVar2,(MethodInfo_6F4D60 *)
+                                     MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_CardSlotHost
+                             );
+          if (pIVar5 != (Il2CppObject *)0x0) {
+            pIVar5[2].klass = value;
+            Il2CppCodeGenWriteBarrier(&pIVar5[2].klass,value);
+            return (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)value;
+          }
+        }
       }
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fa4;
-      pUVar18 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(*ppvVar25,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      pGVar5 = (__this->fields)._definition;
-      if (pGVar5 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b66fa9;
-      if (pUVar18 == (UnityEngine_RectTransform_o *)0x0) goto label_03b66fae;
-      value.fields.x = (pGVar5->fields).ItemWidth;
-      value.fields.y = (pGVar5->fields).ItemHeight;
-      UnityEngine_RectTransform__set_sizeDelta(pUVar18,value,(MethodInfo *)0x0);
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fb3;
-      pIVar9 = UnityEngine_GameObject__AddComponent_object_(*ppvVar25,MethodInfo_Image_AddComponent_Image);
-      pGVar7 = (__this->fields)._theme;
-      if (pGVar7 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fb8;
-      UVar28 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         (pGVar7,"shadow",(UnityEngine_Color_o)(ZEXT816(0x3ea3d70a00000000) << 0x40),
-                          (MethodInfo *)0x0);
-      fVar27 = UVar28.fields.r;
-      if (pIVar9 == (Il2CppObject *)0x0) goto label_03b66fbd;
-      (*pIVar9->klass->vtable[0x17].methodPtr)(fVar27,UVar28.fields.b,pIVar9);
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fc2;
-      pUVar19 = (UnityEngine_UI_Selectable_o *)
-                UnityEngine_GameObject__AddComponent_object_(*ppvVar25,MethodInfo_Button_AddComponent_Button);
-      if (pUVar19 == (UnityEngine_UI_Selectable_o *)0x0) goto label_03b66fc7;
-      local_88 = pUVar19;
-      UnityEngine_UI_Selectable__set_transition(pUVar19,0,(MethodInfo *)0x0);
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fcc;
-      UnityEngine_GameObject__AddComponent_object_(*ppvVar25,MethodInfo_GisketchDisabledSelectableOpacity_AddComponent_GisketchD);
-      local_a8 = ppvVar25;
-      pSVar12 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-      pSVar13 = System_Type__GetTypeFromHandle(TypeRef_RectTransform,(MethodInfo *)0x0);
-      if (pSVar12 == (System_Type_array *)0x0) goto label_03b66fd1;
-      if ((pSVar13 != (System_Type_o *)0x0) && (lVar14 = il2cpp_runtime_helper_023051f0(pSVar13), lVar14 == 0))
-      goto label_03b67021;
-      if ((int)pSVar12->max_length == 0) goto label_03b66fd6;
-      pSVar12->m_Items[0] = pSVar13;
-      il2cpp_runtime_helper_022b4080(pSVar12->m_Items,pSVar13);
-      pUVar15 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      ppvVar25 = local_a8;
-      UnityEngine_GameObject___ctor_4dfc440(pUVar15,"AoTTG Button Face",pSVar12,(MethodInfo *)0x0);
-      if (pUVar15 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fdb;
-      pUVar16 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-      if (*ppvVar25 == (UnityEngine_GameObject_o *)0x0) goto label_03b66fe0;
-      pUVar17 = UnityEngine_GameObject__get_transform(*ppvVar25,(MethodInfo *)0x0);
-      if (pUVar16 == (UnityEngine_Transform_o *)0x0) goto label_03b66fe5;
-      UnityEngine_Transform__SetParent_4e09e30(pUVar16,pUVar17,0,(MethodInfo *)0x0);
-      pMVar26 = MethodInfo_RectTransform_GetComponent_RectTransform;
-      pUVar18 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(pUVar15,(MethodInfo_255A0F0 *)MethodInfo_RectTransform_GetComponent_RectTransform);
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch(pUVar18,pMVar26);
-      pGVar7 = (__this->fields)._theme;
-      if (pGVar7 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66fea;
-      pGVar20 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetStyle(pGVar7,"gridPickerItem",(MethodInfo *)0x0);
-      image = (UnityEngine_UI_Image_o *)UnityEngine_GameObject__AddComponent_object_(pUVar15,MethodInfo_Image_AddComponent_Image);
-      if (pGVar20 == (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) goto label_03b66fef;
-      pGVar7 = (__this->fields)._theme;
-      if (pGVar7 == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b66ff4;
-      UVar28.fields.b = 1.0;
-      UVar28.fields.a = 1.0;
-      UVar28.fields.r = 1.0;
-      UVar28.fields.g = 1.0;
-      UVar28 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                         (pGVar7,(pGVar20->fields).background,UVar28,(MethodInfo *)0x0);
-      fVar27 = UVar28.fields.r;
-      if (image == (UnityEngine_UI_Image_o *)0x0) goto label_03b66ff9;
-      local_98 = pUVar18;
-      local_90 = __this;
-      (*(image->klass->vtable)._23_set_color.methodPtr)
-                (fVar27,UVar28.fields.b,image,(image->klass->vtable)._23_set_color.method);
-      fVar27 = (float)(pGVar20->fields).wornStainScale.fields.hasValue;
-      bVar2 = *(byte *)((long)&(pGVar20->fields).wornStainScale.fields.value + 1);
-      uVar3 = *(ushort *)((long)&(pGVar20->fields).textured.fields.hasValue + 2);
-      stainScaleOverride.fields = *(System_Nullable_float__Fields *)&(pGVar20->fields).textured.fields.value;
-      if (*(int *)(TypeInfo_GisketchSurfaceMaterial + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$CreateCardObject
+// il2cpp: Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCardObject (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, System_String_o* name, const MethodInfo* method);
+// 0x1818cc030
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818cc536: mov r8, rbx
+// asm:   0x1818cc766: mov r14, rdi
+
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCardObject
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,System_String_o *name,MethodInfo *method
+          )
+
+{
+  System_Nullable_bool__Fields SVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar2;
+  Gisketch_Aottg2UI_Styling_GisketchTheme_o *pGVar3;
+  Il2CppType *handle;
+  UnityEngine_UI_Button_o *value;
+  ushort uVar4;
+  System_Type_array *pSVar5;
+  System_Type_o *pSVar6;
+  Il2CppObject *pIVar7;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *pUVar8;
+  UnityEngine_Transform_o *pUVar9;
+  UnityEngine_UI_Image_o *pUVar10;
+  UnityEngine_Color_o *pUVar11;
+  UnityEngine_GameObject_o *__this_01;
+  UnityEngine_RectTransform_o *__this_02;
+  Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *pGVar12;
+  UnityEngine_Material_o *pUVar13;
+  Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterialOwner_o *pGVar14;
+  Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *__this_03;
+  UnityEngine_UI_Image_o *value_00;
+  TMPro_TextMeshProUGUI_o *value_01;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *__this_04;
+  System_Nullable_float__Fields SVar15;
+  System_String_o *token;
+  ushort uVar16;
+  UnityEngine_Vector2_o value_02;
+  float fVar17;
+  System_Nullable_float__Fields local_res10 [2];
+  System_Nullable_float__Fields local_res20;
+  UnityEngine_UI_Button_o *local_98;
+  undefined8 uStack_90;
+  UnityEngine_RectTransform_o *local_88;
+  UnityEngine_Color_Fields local_78;
+  UnityEngine_Color_o local_68 [3];
+  
+  if (Il2CppMethodInitialized_1843420c0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_Button);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchButtonRelief);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchDisabledSelectableOpacity);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchSurfaceMaterialOwner);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_float_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_float_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"gridPickerItem");
+    il2cpp_codegen_initialize_runtime_metadata(&"shadow");
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Button Face");
+    Il2CppMethodInitialized_1843420c0 = '\x01';
+  }
+  uVar4 = 1;
+  uVar16 = 1;
+  pSVar5 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,1);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  }
+  pSVar6 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (pSVar5 != (System_Type_array *)0x0) {
+    if ((pSVar6 != (System_Type_o *)0x0) &&
+       (pIVar7 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar6,(((pSVar5->obj).klass)->_1).element_class),
+       pIVar7 == (Il2CppObject *)0x0)) {
+      pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
+    }
+    if ((int)pSVar5->max_length == 0) {
+label_1818cc84f:
+      ThrowIndexOutOfRangeException();
+    }
+    pSVar5->m_Items[0] = pSVar6;
+    Il2CppCodeGenWriteBarrier(pSVar5->m_Items,pSVar6);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+    UnityEngine_GameObject___ctor_2f1abe0(__this_00,name,pSVar5,(MethodInfo *)0x0);
+    if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+      pUVar8 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+      pUVar9 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+      if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+        UnityEngine_Transform__SetParent_2f5a7e0(pUVar8,pUVar9,false,(MethodInfo *)0x0);
+        local_88 = UnityEngine_GameObject__GetComponent_object_
+                             (__this_00,
+                              (MethodInfo_6F5650 *)
+                              MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+        pGVar2 = (__this->fields)._definition;
+        if ((pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
+           (local_88 != (UnityEngine_RectTransform_o *)0x0)) {
+          value_02.fields.y = (pGVar2->fields).ItemHeight;
+          value_02.fields.x = (pGVar2->fields).ItemWidth;
+          UnityEngine_RectTransform__set_sizeDelta(local_88,value_02,(MethodInfo *)0x0);
+          pUVar10 = UnityEngine_GameObject__AddComponent_object_
+                              (__this_00,
+                               (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+          pGVar3 = (__this->fields)._theme;
+          if (pGVar3 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
+            local_98 = (UnityEngine_UI_Button_o *)0x0;
+            uStack_90._0_4_ = 0.0;
+            uStack_90._4_4_ = 0.32;
+            pUVar11 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                                ((UnityEngine_Color_o *)&local_78,pGVar3,"shadow",
+                                 (UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+            if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
+              local_98._0_4_ = (pUVar11->fields).r;
+              local_98._4_4_ = (pUVar11->fields).g;
+              uStack_90._0_4_ = (pUVar11->fields).b;
+              uStack_90._4_4_ = (pUVar11->fields).a;
+              (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                        (pUVar10,(UnityEngine_Color_o *)&local_98,
+                         (pUVar10->klass->vtable)._23_set_color.method);
+              local_98 = UnityEngine_GameObject__AddComponent_object_
+                                   (__this_00,
+                                    (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Button
+                                   );
+              if (local_98 != (UnityEngine_UI_Button_o *)0x0) {
+                UnityEngine_UI_Selectable__set_transition
+                          ((UnityEngine_UI_Selectable_o *)local_98,0,(MethodInfo *)0x0);
+                UnityEngine_GameObject__AddComponent_object_
+                          (__this_00,
+                           (MethodInfo_6F4D60 *)
+                           MethodInfo_UnityEngine_GameObject_AddComponent_GisketchDisabledSelectableOpacity);
+                pSVar5 = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,1);
+                pSVar6 = System_Type__GetTypeFromHandle
+                                   ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_RectTransform,
+                                    (MethodInfo *)0x0);
+                if (pSVar5 != (System_Type_array *)0x0) {
+                  if ((pSVar6 != (System_Type_o *)0x0) &&
+                     (pIVar7 = il2cpp_vm_Object_IsInst
+                                         ((Il2CppObject *)pSVar6,(((pSVar5->obj).klass)->_1).element_class),
+                     pIVar7 == (Il2CppObject *)0x0)) {
+                    pIVar7 = il2cpp_codegen_get_array_type_mismatch_exception();
+                    il2cpp_codegen_raise_exception(pIVar7,(MethodInfo *)0x0);
+                  }
+                  if ((int)pSVar5->max_length == 0) goto label_1818cc84f;
+                  pSVar5->m_Items[0] = pSVar6;
+                  Il2CppCodeGenWriteBarrier(pSVar5->m_Items,pSVar6);
+                  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+                  UnityEngine_GameObject___ctor_2f1abe0
+                            (__this_01,"AoTTG Button Face",pSVar5,(MethodInfo *)0x0);
+                  if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
+                    pUVar8 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+                    pUVar9 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+                    if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+                      UnityEngine_Transform__SetParent_2f5a7e0(pUVar8,pUVar9,false,(MethodInfo *)0x0);
+                      __this_02 = UnityEngine_GameObject__GetComponent_object_
+                                            (__this_01,
+                                             (MethodInfo_6F5650 *)
+                                             MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+                      if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+                        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                        Il2CppMethodInitialized_18433e3c9 = '\x01';
+                      }
+                      if (__this_02 != (UnityEngine_RectTransform_o *)0x0) {
+                        UnityEngine_RectTransform__set_anchorMin
+                                  (__this_02,
+                                   (UnityEngine_Vector2_o)
+                                   (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+                                   (MethodInfo *)0x0);
+                        if (Il2CppMethodInitialized_184341f36 == '\0') {
+                          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                          Il2CppMethodInitialized_184341f36 = '\x01';
+                        }
+                        UnityEngine_RectTransform__set_anchorMax
+                                  (__this_02,
+                                   (UnityEngine_Vector2_o)
+                                   (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
+                                   (MethodInfo *)0x0);
+                        if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+                          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                          Il2CppMethodInitialized_18433e3c9 = '\x01';
+                        }
+                        UnityEngine_RectTransform__set_offsetMin
+                                  (__this_02,
+                                   (UnityEngine_Vector2_o)
+                                   (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+                                   (MethodInfo *)0x0);
+                        if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+                          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                          Il2CppMethodInitialized_18433e3c9 = '\x01';
+                        }
+                        UnityEngine_RectTransform__set_offsetMax
+                                  (__this_02,
+                                   (UnityEngine_Vector2_o)
+                                   (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+                                   (MethodInfo *)0x0);
+                        pGVar3 = (__this->fields)._theme;
+                        if (pGVar3 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
+                          pGVar12 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetStyle
+                                              (pGVar3,"gridPickerItem",(MethodInfo *)0x0);
+                          pUVar10 = UnityEngine_GameObject__AddComponent_object_
+                                              (__this_01,
+                                               (MethodInfo_6F4D60 *)
+                                               MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+                          pGVar3 = (__this->fields)._theme;
+                          token = (System_String_o *)0x0;
+                          if (pGVar12 != (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) {
+                            token = (pGVar12->fields).background;
+                          }
+                          if (pGVar3 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
+                            local_78.r = 1.0;
+                            local_78.g = 1.0;
+                            local_78.b = 1.0;
+                            local_78.a = 1.0;
+                            pUVar11 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                                                (local_68,pGVar3,token,(UnityEngine_Color_o *)&local_78,
+                                                 (MethodInfo *)0x0);
+                            if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
+                              local_78.r = (pUVar11->fields).r;
+                              local_78.g = (pUVar11->fields).g;
+                              local_78.b = (pUVar11->fields).b;
+                              local_78.a = (pUVar11->fields).a;
+                              (*(pUVar10->klass->vtable)._23_set_color.methodPtr)
+                                        (pUVar10,(UnityEngine_Color_o *)&local_78,
+                                         (pUVar10->klass->vtable)._23_set_color.method);
+                              if (pGVar12 == (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) {
+                                fVar17 = 0.0;
+                                local_res10[0] =
+                                     (System_Nullable_float__Fields)
+                                     ((ulonglong)(uint)local_res10[0].value << 0x20);
+                                local_res20.hasValue = false;
+                                local_res20._1_3_ = 0;
+                                local_res20.value = 0.0;
+                                System_Nullable_float____ctor
+                                          ((System_Nullable_float__o *)&local_res20,0.0,
+                                           (MethodInfo_AE2920 *)MethodInfo_System_Nullable_float_ctor);
+                                SVar15 = local_res20;
+                              }
+                              else {
+                                fVar17 = (pGVar12->fields).relief.fields.value;
+                                local_res10[0]._1_3_ = 0;
+                                local_res10[0].hasValue = (pGVar12->fields).reliefGradient.fields.value;
+                                SVar1 = (pGVar12->fields).worn.fields;
+                                if (SVar1.hasValue != false) {
+                                  uVar4 = (ushort)SVar1 >> 8;
+                                }
+                                SVar15 = (pGVar12->fields).wornStainScale.fields;
+                                uVar16 = uVar4;
+                              }
+                              if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial->_2).
+                                  cctor_finished_or_no_cctor == 0) {
+                                il2cpp_codegen_runtime_class_init
+                                          ((Il2CppClass *)
+                                           TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial);
+                              }
+                              pUVar13 = Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial__Instance
+                                                  (fVar17,local_res10[0]._0_4_ != 0,uVar16 != 0,
+                                                   (System_Nullable_float__o)SVar15,false,false,
+                                                   (MethodInfo *)0x0);
+                              (*(pUVar10->klass->vtable)._33_set_material.methodPtr)
+                                        (pUVar10,pUVar13,(pUVar10->klass->vtable)._33_set_material.method);
+                              pGVar14 = UnityEngine_GameObject__AddComponent_object_
+                                                  (__this_01,
+                                                   (MethodInfo_6F4D60 *)
+                                                   MethodInfo_UnityEngine_GameObject_AddComponent_GisketchSurfaceMaterialOwner
+                                                  );
+                              pUVar13 = (*(pUVar10->klass->vtable)._32_get_material.methodPtr)
+                                                  (pUVar10,(pUVar10->klass->vtable)._32_get_material.method);
+                              if (pGVar14 != (Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterialOwner_o *)0x0)
+                              {
+                                (pGVar14->fields)._material = pUVar13;
+                                Il2CppCodeGenWriteBarrier(&(pGVar14->fields)._material,pUVar13);
+                                value = local_98;
+                                UnityEngine_UI_Selectable__set_targetGraphic
+                                          ((UnityEngine_UI_Selectable_o *)local_98,
+                                           (UnityEngine_UI_Graphic_o *)pUVar10,(MethodInfo *)0x0);
+                                __this_03 = UnityEngine_GameObject__AddComponent_object_
+                                                      (__this_00,
+                                                       (MethodInfo_6F4D60 *)
+                                                       MethodInfo_UnityEngine_GameObject_AddComponent_GisketchButtonRelief
+                                                      );
+                                if (pGVar12 == (Gisketch_Aottg2UI_Data_GisketchStyleDefinition_o *)0x0) {
+                                  local_res10[0].hasValue = false;
+                                  local_res10[0]._1_3_ = 0;
+                                  local_res10[0].value = 0.0;
+                                  fVar17 = 0.0;
+                                  System_Nullable_float____ctor
+                                            ((System_Nullable_float__o *)local_res10,0.0,
+                                             (MethodInfo_AE2920 *)MethodInfo_System_Nullable_float_ctor);
+                                  SVar15 = local_res10[0];
+                                }
+                                else {
+                                  fVar17 = (pGVar12->fields).relief.fields.value;
+                                  SVar15 = (pGVar12->fields).pressDepth.fields;
+                                }
+                                value_00 = (UnityEngine_UI_Image_o *)0x0;
+                                if (__this_03 != (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)0x0) {
+                                  Gisketch_Aottg2UI_Tweening_GisketchButtonRelief__Setup
+                                            (__this_03,pUVar10,__this_02,fVar17,
+                                             (UnityEngine_UI_RectMask2D_o *)0x0,
+                                             (System_Nullable_float__o)SVar15,(MethodInfo *)0x0);
+                                  pGVar2 = (__this->fields)._definition;
+                                  if (pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o
+                                                 *)0x0) {
+                                    if ((0.0 < (pGVar2->fields).ThumbnailWidth) &&
+                                       (0.0 < (pGVar2->fields).ThumbnailHeight)) {
+                                      pUVar8 = UnityEngine_GameObject__get_transform
+                                                         (__this_01,(MethodInfo *)0x0);
+                                      value_00 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
+                                                           (__this,pUVar8,(MethodInfo *)0x0);
+                                    }
+                                    pUVar8 = UnityEngine_GameObject__get_transform
+                                                       (__this_01,(MethodInfo *)0x0);
+                                    value_01 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
+                                                         (__this,pUVar8,(MethodInfo *)0x0);
+                                    __this_04 = il2cpp_codegen_object_new
+                                                          ((Il2CppClass *)
+                                                                                                                      
+                                                       TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot
+                                                       );
+                                    System_Object___ctor
+                                              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)
+                                               __this_04,(MethodInfo *)0x0);
+                                    (__this_04->fields).Root = __this_00;
+                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields).Root,__this_00);
+                                    (__this_04->fields).Rect = local_88;
+                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields).Rect,local_88);
+                                    (__this_04->fields).Button = value;
+                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields).Button,value);
+                                    (__this_04->fields).Thumbnail = value_00;
+                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields).Thumbnail,value_00);
+                                    (__this_04->fields).Label = value_01;
+                                    Il2CppCodeGenWriteBarrier(&(__this_04->fields).Label,value_01);
+                                    return __this_04;
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
-      pUVar21 = Gisketch_Aottg2UI_Styling_GisketchSurfaceMaterial__Instance
-                          (fVar27,(uint)bVar2,(uint)(0xff < uVar3 || (char)uVar3 == '\0'),stainScaleOverride,0
-                           ,0,(MethodInfo *)0x0);
-      (*(image->klass->vtable)._33_set_material.methodPtr)
-                (image,pUVar21,(image->klass->vtable)._33_set_material.method);
-      pIVar9 = UnityEngine_GameObject__AddComponent_object_(pUVar15,MethodInfo_GisketchSurfaceMaterialOwner_AddComponent_GisketchSurfac);
-      pUVar19 = local_88;
-      __this_05 = local_90;
-      pIVar22 = (Il2CppClass *)(*(image->klass->vtable)._32_get_material.methodPtr)(image);
-      if (pIVar9 == (Il2CppObject *)0x0) goto label_03b66ffe;
-      pIVar9[2].klass = pIVar22;
-      il2cpp_runtime_helper_022b4080(pIVar9 + 2,pIVar22);
-      UnityEngine_UI_Selectable__set_targetGraphic
-                (pUVar19,(UnityEngine_UI_Graphic_o *)image,(MethodInfo *)0x0);
-      if (*local_a8 == (UnityEngine_GameObject_o *)0x0) goto label_03b67003;
-      __this_06 = (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)
-                  UnityEngine_GameObject__AddComponent_object_(*local_a8,MethodInfo_GisketchButtonRelief_AddComponent_GisketchButtonRelief);
-      if (__this_06 == (Gisketch_Aottg2UI_Tweening_GisketchButtonRelief_o *)0x0) goto label_03b67008;
-      Gisketch_Aottg2UI_Tweening_GisketchButtonRelief__Setup
-                (__this_06,image,local_98,(float)(pGVar20->fields).wornStainScale.fields.hasValue,
-                 (UnityEngine_UI_RectMask2D_o *)0x0,(System_Nullable_float__o)(pGVar20->fields).relief.fields,
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$BindStaticCard
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BindStaticCard (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* slot, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, const MethodInfo* method);
+// 0x1818cb790
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BindStaticCard
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,
+               Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *slot,
+               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *item,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar1;
+  TMPro_TextMeshProUGUI_o *pTVar2;
+  UnityEngine_UI_Button_o *pUVar3;
+  UnityEngine_Events_UnityEvent_o *__this_00;
+  System_String_o *pSVar4;
+  System_String_o *pSVar5;
+  System_String_o *pSVar6;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o *object;
+  UnityEngine_Events_UnityAction_o *__this_01;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o local_48;
+  
+  if (Il2CppMethodInitialized_1843420c1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0_BindStaticCard_b__0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    Il2CppMethodInitialized_1843420c1 = '\x01';
+  }
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass41_0_o *)0x0) {
+    (object->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+    (object->fields).slot = slot;
+    Il2CppCodeGenWriteBarrier(&(object->fields).slot,slot);
+    pSVar4 = (item->fields).Label;
+    pSVar5 = (item->fields).Sprite;
+    pSVar6 = (item->fields).Keywords;
+    (object->fields).item.fields.Key = (item->fields).Key;
+    (object->fields).item.fields.Label = pSVar4;
+    (object->fields).item.fields.Sprite = pSVar5;
+    (object->fields).item.fields.Keywords = pSVar6;
+    Il2CppCodeGenWriteBarrier((void **)&(object->fields).item,(void *)0x0);
+    pGVar1 = (object->fields).slot;
+    if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+       (pTVar2 = (pGVar1->fields).Label, pTVar2 != (TMPro_TextMeshProUGUI_o *)0x0)) {
+      (*(pTVar2->klass->vtable)._66_set_text.methodPtr)
+                (pTVar2,(object->fields).item.fields.Label,(pTVar2->klass->vtable)._66_set_text.method);
+      pGVar1 = (object->fields).slot;
+      if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) &&
+         (pUVar3 = (pGVar1->fields).Button, pUVar3 != (UnityEngine_UI_Button_o *)0x0)) {
+        __this_00 = (UnityEngine_Events_UnityEvent_o *)(pUVar3->fields).m_OnClick;
+        __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+        UnityEngine_Events_UnityAction___ctor
+                  ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_01,(Il2CppObject *)object,
+                   (intptr_t)
+                   MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass41_0_BindStaticCard_b__0
+                   ,(MethodInfo *)0x0);
+        if (__this_00 != (UnityEngine_Events_UnityEvent_o *)0x0) {
+          UnityEngine_Events_UnityEvent__AddListener(__this_00,__this_01,(MethodInfo *)0x0);
+          pGVar1 = (object->fields).slot;
+          if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+            local_48.fields.Key = (object->fields).item.fields.Key;
+            local_48.fields.Label = (object->fields).item.fields.Label;
+            local_48.fields.Sprite = (object->fields).item.fields.Sprite;
+            local_48.fields.Keywords = (object->fields).item.fields.Keywords;
+            Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetThumbnail
+                      (__this,(pGVar1->fields).Thumbnail,&local_48,(__this->fields)._thumbnailGeneration,
+                       (MethodInfo *)0x0);
+            return;
+          }
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.CreateSlot
+// il2cpp: UnityEngine_GameObject_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_CreateSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_Transform_o* parent, int32_t slotIndex, const MethodInfo* method);
+// 0x1818cd200
+
+UnityEngine_GameObject_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_CreateSlot
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_Transform_o *parent,
+          int32_t slotIndex,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
+  UnityEngine_GameObject_o *pUVar2;
+  System_String_o *str2;
+  System_String_o *pSVar3;
+  Il2CppClass *value;
+  UnityEngine_UI_LayoutElement_o *pUVar4;
+  Il2CppObject *pIVar5;
+  int32_t local_res18 [4];
+  
+  local_res18[0] = slotIndex;
+  if (Il2CppMethodInitialized_1843420bf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_CardSlotHost);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&"-slot-");
+    Il2CppMethodInitialized_1843420bf = '\x01';
+  }
+  pGVar1 = (__this->fields)._definition;
+  if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    pSVar3 = (pGVar1->fields).Id;
+    str2 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+    pSVar3 = System_String__Concat_1969b70(pSVar3,"-slot-",str2,(MethodInfo *)0x0);
+    value = (Il2CppClass *)
+            Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__CreateCardObject
+                      (__this,pSVar3,(MethodInfo *)0x0);
+    if ((value != (Il2CppClass *)0x0) &&
+       (pUVar2 = ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_Fields *)&(value->_1).name)->Root
+       , pUVar2 != (UnityEngine_GameObject_o *)0x0)) {
+      pUVar4 = UnityEngine_GameObject__AddComponent_object_
+                         (pUVar2,(MethodInfo_6F4D60 *)
+                                 MethodInfo_UnityEngine_GameObject_AddComponent_LayoutElement);
+      if (pUVar4 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+        (*(pUVar4->klass->vtable)._28_set_ignoreLayout.methodPtr)
+                  (pUVar4,true,(pUVar4->klass->vtable)._28_set_ignoreLayout.method);
+        pUVar2 = ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_Fields *)&(value->_1).name)->Root
+        ;
+        if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+          pIVar5 = UnityEngine_GameObject__AddComponent_object_
+                             (pUVar2,(MethodInfo_6F4D60 *)
+                                     MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_CardSlotHost
+                             );
+          if (pIVar5 != (Il2CppObject *)0x0) {
+            pIVar5[2].klass = value;
+            Il2CppCodeGenWriteBarrier(&pIVar5[2].klass,value);
+            return ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_Fields *)&(value->_1).name)->
+                   Root;
+          }
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.ItemId
+// il2cpp: System_String_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_ItemId (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t itemIndex, const MethodInfo* method);
+// 0x1818cd300
+
+System_String_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_ItemId
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t itemIndex,MethodInfo *method)
+
+{
+  System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
+  System_String_o *str2;
+  System_String_o *pSVar2;
+  System_String_o *local_28 [4];
+  
+  if (Il2CppMethodInitialized_1843420c2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&"-item-");
+    Il2CppMethodInitialized_1843420c2 = '\x01';
+  }
+  if (-1 < itemIndex) {
+    __this_00 = (System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *)
+                (__this->fields)._filtered;
+    if (__this_00 !=
+        (System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *)0x0) {
+      if ((__this_00->fields)._size <= itemIndex) goto label_1818cd3ae;
+      pGVar1 = (__this->fields)._definition;
+      if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+        pSVar2 = (pGVar1->fields).Id;
+        System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState___get_Item
+                  ((UnityEngine_UIElements_Internal_MultiColumnCollectionHeader_ViewState_ColumnState_o *)
+                   local_28,__this_00,itemIndex,
+                   (MethodInfo_94FF20 *)
+                   MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+        str2 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId(local_28[0],(MethodInfo *)0x0);
+        pSVar2 = System_String__Concat_1969b70(pSVar2,"-item-",str2,(MethodInfo *)0x0);
+        return pSVar2;
+      }
+    }
+    ThrowNullReferenceException();
+  }
+label_1818cd3ae:
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.BindSlot
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_BindSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_GameObject_o* slotRoot, int32_t itemIndex, const MethodInfo* method);
+// 0x1818cd130
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_BindSlot
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_GameObject_o *slotRoot,
+               int32_t itemIndex,MethodInfo *method)
+
+{
+  System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *slot;
+  UnityEngine_UIElements_Internal_MultiColumnCollectionHeader_ViewState_ColumnState_o local_28;
+  
+  if (Il2CppMethodInitialized_1843420c3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+    Il2CppMethodInitialized_1843420c3 = '\x01';
+  }
+  slot = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Slot(slotRoot,(MethodInfo *)0x0);
+  if ((slot != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) && (-1 < itemIndex)) {
+    __this_00 = (System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *)
+                (__this->fields)._filtered;
+    if (__this_00 ==
+        (System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if (itemIndex < (__this_00->fields)._size) {
+      System_Collections_Generic_List_MultiColumnCollectionHeader_ViewState_ColumnState___get_Item
+                (&local_28,__this_00,itemIndex,
+                 (MethodInfo_94FF20 *)
+                 MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Item);
+      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BindCardSlot
+                (__this,slot,(Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *)&local_28,itemIndex,
                  (MethodInfo *)0x0);
-      pUVar16 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-      pGVar8 = local_80;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
-                (__this_05,pUVar16,(Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*local_80,method_00);
-      pUVar16 = UnityEngine_GameObject__get_transform(pUVar15,(MethodInfo *)0x0);
-      in_stack_ffffffffffffff28 = pGVar8->Key;
-      in_stack_ffffffffffffff30 = pGVar8->Label;
-      in_stack_ffffffffffffff38 = pGVar8->Sprite;
-      in_stack_ffffffffffffff40 = pGVar8->Keywords;
-      Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
-                (__this_05,pUVar16,(Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o)*pGVar8,method_01);
-      __this_01 = (UnityEngine_Events_UnityEvent_o *)(pUVar19->fields).m_CanvasGroupCache;
-      call = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      UnityEngine_Events_UnityAction___ctor();
-      if (__this_01 != (UnityEngine_Events_UnityEvent_o *)0x0) {
-        UnityEngine_Events_UnityEvent__AddListener(__this_01,call,(MethodInfo *)0x0);
-        __this_02.fields._detail = in_stack_ffffffffffffff30;
-        __this_02.fields._area = in_stack_ffffffffffffff28;
-        __this_02.fields._startMs = (int64_t)in_stack_ffffffffffffff38;
-        __this_02.fields._24_8_ = in_stack_ffffffffffffff40;
-        Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)&local_78);
-        return;
-      }
-      goto label_03b6700d;
     }
   }
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(uVar23);
-label_03b67021:
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  auVar29 = il2cpp_runtime_helper_022b2b10(uVar23);
-  if (auVar29._8_4_ == 1) {
-    plVar24 = (long *)__cxa_begin_catch(auVar29._0_8_);
-    lVar14 = *plVar24;
-    __cxa_end_catch();
-    __this_03.fields._detail = in_stack_ffffffffffffff30;
-    __this_03.fields._area = in_stack_ffffffffffffff28;
-    __this_03.fields._startMs = (int64_t)in_stack_ffffffffffffff38;
-    __this_03.fields._24_8_ = in_stack_ffffffffffffff40;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_03,(MethodInfo *)&local_78);
-    if (lVar14 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar14);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.UnbindSlot
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_UnbindSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_GameObject_o* slotRoot, const MethodInfo* method);
+// 0x1818cd5d0
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_UnbindSlot
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_GameObject_o *slotRoot,
+               MethodInfo *method)
+
+{
+  UnityEngine_UI_Button_o *pUVar1;
+  UnityEngine_UI_Button_ButtonClickedEvent_o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *pGVar2;
+  
+  pGVar2 = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Slot(slotRoot,(MethodInfo *)0x0);
+  if (pGVar2 == (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0) {
+    return;
   }
-  __this_04.fields._detail = in_stack_ffffffffffffff30;
-  __this_04.fields._area = in_stack_ffffffffffffff28;
-  __this_04.fields._startMs = (int64_t)in_stack_ffffffffffffff38;
-  __this_04.fields._24_8_ = in_stack_ffffffffffffff40;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_04,(MethodInfo *)&local_78);
-  _Unwind_Resume(auVar29._0_8_);
+  pUVar1 = (pGVar2->fields).Button;
+  if ((pUVar1 != (UnityEngine_UI_Button_o *)0x0) &&
+     (__this_00 = (pUVar1->fields).m_OnClick, __this_00 != (UnityEngine_UI_Button_ButtonClickedEvent_o *)0x0))
+  {
+    UnityEngine_Events_UnityEventBase__RemoveAllListeners
+              ((UnityEngine_Events_UnityEventBase_o *)__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.CanRecycleSlot
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_CanRecycleSlot (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_GameObject_o* slot, const MethodInfo* method);
+// 0x1808ed110
+
+bool
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_CanRecycleSlot(Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_GameObject_o* slot, MethodInfo* method)
+
+{
+  return true;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.TryGetSearchTargetItemIndex
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_TryGetSearchTargetItemIndex (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, System_String_o* targetId, int32_t* itemIndex, const MethodInfo* method);
+// 0x1818cd3e0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818cd4b5: jmp 0x1818cd431
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_TryGetSearchTargetItemIndex
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,System_String_o *targetId,
+               int32_t *itemIndex,MethodInfo *method)
+
+{
+  ushort uVar1;
+  System_Collections_Generic_List_GisketchGridPickerItem__o *pSVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c *pGVar3;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
+  bool bVar5;
+  ushort uVar6;
+  VirtualInvokeData *pVVar7;
+  System_String_o *a;
+  uint uVar8;
+  ulonglong uVar9;
+  
+  if (Il2CppMethodInitialized_1843420c4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_get_Count);
+    Il2CppMethodInitialized_1843420c4 = '\x01';
+  }
+  *itemIndex = -1;
+  uVar9 = 0;
+  pSVar2 = (__this->fields)._filtered;
+  uVar8 = 0;
+  do {
+    if (pSVar2 == (System_Collections_Generic_List_GisketchGridPickerItem__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if ((pSVar2->fields)._size <= (int)uVar8) {
+      return false;
+    }
+    pGVar3 = __this->klass;
+    uVar6 = 0;
+    uVar1 = (pGVar3->_2).interface_offsets_count;
+    if (uVar1 != 0) {
+      pIVar4 = (pGVar3->_1).interfaceOffsets;
+      do {
+        if (pIVar4[uVar6].interfaceType ==
+            (Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource) {
+          pVVar7 = (VirtualInvokeData *)(&(pGVar3->vtable)._0_Equals + (pIVar4[uVar6].offset + 2));
+          goto label_1818cd485;
+        }
+        uVar6 = uVar6 + 1;
+      } while (uVar6 < uVar1);
+    }
+    pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                       ((Il2CppObject *)__this,
+                        (Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource
+                        ,2);
+label_1818cd485:
+    a = (System_String_o *)(*pVVar7->methodPtr)(__this,uVar9,pVVar7->method);
+    bVar5 = System_String__Equals_196c550(a,targetId,5,(MethodInfo *)0x0);
+    if (bVar5) {
+      *itemIndex = (int)uVar9;
+      return true;
+    }
+    pSVar2 = (__this->fields)._filtered;
+    uVar8 = (int)uVar9 + 1;
+    uVar9 = (ulonglong)uVar8;
+  } while( true );
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Gisketch.Aottg2UI.Virtualization.IGisketchVirtualContentSource.TryResolveSearchTarget
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_TryResolveSearchTarget (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, System_String_o* targetId, int32_t itemIndex, UnityEngine_GameObject_o* slotRoot, UnityEngine_GameObject_o** target, const MethodInfo* method);
+// 0x1818cd500
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818cd579: jmp 0x1818cd57d
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Gisketch_Aottg2UI_Virtualization_IGisketchVirtualContentSource_TryResolveSearchTarget
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,System_String_o *targetId,
+               int32_t itemIndex,UnityEngine_GameObject_o *slotRoot,UnityEngine_GameObject_o **target,
+               MethodInfo *method)
+
+{
+  UnityEngine_Object_o *x;
+  bool bVar1;
+  System_String_o *a;
+  
+  if (Il2CppMethodInitialized_1843420c5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420c5 = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)slotRoot,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (slotRoot == (UnityEngine_GameObject_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    a = UnityEngine_Object__get_name((UnityEngine_Object_o *)slotRoot,(MethodInfo *)0x0);
+    bVar1 = System_String__Equals_196c550(a,targetId,5,(MethodInfo *)0x0);
+    if (bVar1) goto label_1818cd57d;
+  }
+  slotRoot = (UnityEngine_GameObject_o *)0x0;
+label_1818cd57d:
+  *target = slotRoot;
+  Il2CppCodeGenWriteBarrier(target,slotRoot);
+  x = (UnityEngine_Object_o *)*target;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  return bVar1;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$EnsureThumbnailLoader
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__EnsureThumbnailLoader (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
+// 0x1818ccc60
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__EnsureThumbnailLoader
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
+  System_Collections_IEnumerator_o *routine;
+  UnityEngine_Coroutine_o *value;
+  
+  pGVar1 = (__this->fields)._definition;
+  if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (((pGVar1->fields).LazyLoadThumbnails != false) &&
+     ((__this->fields)._thumbnailLoader == (UnityEngine_Coroutine_o *)0x0)) {
+    routine = Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails
+                        (__this,(__this->fields)._thumbnailGeneration,(MethodInfo *)0x0);
+    value = UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                      ((UnityEngine_MonoBehaviour_o *)__this,routine,(MethodInfo *)0x0);
+    (__this->fields)._thumbnailLoader = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoader,value);
+    return;
+  }
+  return;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Slot
+// il2cpp: Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Slot (UnityEngine_GameObject_o* root, const MethodInfo* method);
+// 0x1818cee90
+
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Slot(UnityEngine_GameObject_o *root,MethodInfo *method)
+
+{
+  bool bVar1;
+  UnityEngine_Object_o *x;
+  
+  if (Il2CppMethodInitialized_1843420c6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchGridPickerRuntime_CardSlotHost);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420c6 = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (root == (UnityEngine_GameObject_o *)0x0) goto label_1818cef3f;
+    x = (UnityEngine_Object_o *)
+        UnityEngine_GameObject__GetComponent_object_
+                  (root,(MethodInfo_6F5650 *)
+                        MethodInfo_UnityEngine_GameObject_GetComponent_GisketchGridPickerRuntime_CardSlotHost)
+    ;
+  }
+  else {
+    x = (UnityEngine_Object_o *)0x0;
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar1) {
+    return (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_CardSlot_o *)0x0;
+  }
+  if (x != (UnityEngine_Object_o *)0x0) {
+    return (*(uint64_t *)((char *)x + 0x20));
+  }
+label_1818cef3f:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$BuildThumbnail
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_Transform_o* parent, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, const MethodInfo* method);
-// 0x3b67580
+// il2cpp: UnityEngine_UI_Image_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_Transform_o* parent, const MethodInfo* method);
+// 0x1818cbdb0
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_Transform_o *parent,
-               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item,MethodInfo *method)
+UnityEngine_UI_Image_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildThumbnail
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_Transform_o *parent,
+          MethodInfo *method)
 
 {
-  UnityEngine_Vector2_o value;
   Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
-  Il2CppClass *pIVar2;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  System_RuntimeTypeHandle_o handle;
-  System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar3;
-  System_String_o *detail;
+  UnityEngine_Vector2_o value;
+  Il2CppType *handle;
   System_Type_array *components;
-  System_Type_o *pSVar4;
-  long lVar5;
-  UnityEngine_GameObject_o *__this_03;
-  UnityEngine_Transform_o *__this_04;
-  UnityEngine_RectTransform_o *__this_05;
-  UnityEngine_Sprite_o *value_00;
-  undefined8 uVar6;
-  long *plVar7;
-  MethodInfo *extraout_RDX;
-  MethodInfo *in_R8;
-  System_String_o *unaff_R12;
-  undefined1 auVar8 [12];
-  undefined4 uVar9;
-  undefined4 uVar10;
-  undefined4 uVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  undefined4 uVar15;
-  bool_conflict bVar16;
-  undefined1 local_50 [32];
+  System_Type_o *obj;
+  Il2CppObject *pIVar2;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_RectTransform_o *__this_02;
+  UnityEngine_UI_Image_o *__this_03;
   
-  if (g_data_057a9db3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSpriteLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Grid Thumbnail");
-    il2cpp_runtime_helper_023445d0(&" sprite=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.BuildThumbnail");
-    g_data_057a9db3 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_1843420c7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Grid Thumbnail");
+    Il2CppMethodInitialized_1843420c7 = '\x01';
   }
-  uVar13 = 0;
-  uVar14 = 0;
-  uVar15 = 0;
-  bVar16 = 0;
-  uVar9 = 0;
-  uVar10 = 0;
-  uVar11 = 0;
-  uVar12 = 0;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string,5,method);
-  pGVar1 = (__this->fields)._definition;
-  if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar3 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    if (values != (System_String_array *)0x0) goto label_03b67675;
-label_03b6796f:
-    il2cpp_runtime_helper_022b2c90();
-    item.fields.Sprite = unaff_R12;
-label_03b67974:
-    if (*(int *)(TypeInfo_GisketchSpriteLoader + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,1);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
+  }
+  obj = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components != (System_Type_array *)0x0) {
+    if (obj != (System_Type_o *)0x0) {
+      pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)obj,(((components->obj).klass)->_1).element_class);
+      if (pIVar2 == (Il2CppObject *)0x0) {
+        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
+      }
     }
-    value_00 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Load(item.fields.Sprite,(MethodInfo *)0x0);
-    UnityEngine_UI_Image__set_sprite((UnityEngine_UI_Image_o *)values,value_00,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-label_03b679c0:
-    __this_00.fields._area._4_4_ = uVar10;
-    __this_00.fields._area._0_4_ = uVar9;
-    __this_00.fields._detail._0_4_ = uVar11;
-    __this_00.fields._detail._4_4_ = uVar12;
-    __this_00.fields._startMs._0_4_ = uVar13;
-    __this_00.fields._startMs._4_4_ = uVar14;
-    __this_00.fields._enabled = uVar15;
-    __this_00.fields._hotLoop = bVar16;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_00,(MethodInfo *)&stack0xffffffffffffff88);
+    if ((int)components->max_length == 0) {
+      ThrowIndexOutOfRangeException();
+    }
+    components->m_Items[0] = obj;
+    Il2CppCodeGenWriteBarrier(components->m_Items,obj);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+    UnityEngine_GameObject___ctor_2f1abe0(__this_00,"AoTTG Grid Thumbnail",components,(MethodInfo *)0x0);
+    if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+      __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+      if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+        UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+        __this_02 = UnityEngine_GameObject__GetComponent_object_
+                              (__this_00,
+                               (MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+        if (__this_02 != (UnityEngine_RectTransform_o *)0x0) {
+          UnityEngine_RectTransform__set_anchorMin
+                    (__this_02,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+          UnityEngine_RectTransform__set_anchorMax
+                    (__this_02,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+          UnityEngine_RectTransform__set_pivot
+                    (__this_02,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
+          pGVar1 = (__this->fields)._definition;
+          if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+            value.fields.x = (pGVar1->fields).ThumbnailWidth;
+            value.fields.y = (pGVar1->fields).ThumbnailHeight;
+            UnityEngine_RectTransform__set_sizeDelta(__this_02,value,(MethodInfo *)0x0);
+            UnityEngine_RectTransform__set_anchoredPosition
+                      (__this_02,(UnityEngine_Vector2_o)0xc140000000000000,(MethodInfo *)0x0);
+            __this_03 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_00,
+                                   (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_Image);
+            if (__this_03 != (UnityEngine_UI_Image_o *)0x0) {
+              UnityEngine_UI_Image__set_preserveAspect(__this_03,true,(MethodInfo *)0x0);
+              (*(__this_03->klass->vtable)._25_set_raycastTarget.methodPtr)
+                        (__this_03,false,(__this_03->klass->vtable)._25_set_raycastTarget.method);
+              UnityEngine_GameObject__AddComponent_object_
+                        (__this_00,
+                         (MethodInfo_6F4D60 *)
+                         MethodInfo_UnityEngine_GameObject_AddComponent_GisketchGridPickerRuntime_ThumbnailTarget
+                        );
+              return __this_03;
+            }
+          }
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$SetThumbnail
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetThumbnail (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_UI_Image_o* image, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, int32_t generation, const MethodInfo* method);
+// 0x1818ce470
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818ce7d0: lea rcx, [r8 + r8*2]
+// asm:   0x1818ce7d4: movups xmmword ptr [rdx + rcx*8 + 0x20], xmm0
+// asm:   0x1818ce7d9: movsd qword ptr [rdx + rcx*8 + 0x30], xmm1
+// asm:   0x1818ce7df: lea rcx, [r8 + 2]
+// asm:   0x1818ce7e3: lea rcx, [r8 + rcx*2]
+// asm:   0x1818ce7e7: lea rcx, [rdx + rcx*8]
+// asm:   0x1818ce7eb: xor edx, edx
+// asm:   0x1818ce7ed: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1818ce7f2: jmp 0x1818ce7a1
+// asm:   0x1818ce7f4: mov rdx, qword ptr [rsp + 0x88]
+// asm:   0x1818ce7fc: call 0x1818cedc0  ; Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded()
+// asm:   0x1818ce801: jmp 0x1818ce7a1
+// asm:   0x1818ce818: mov rax, qword ptr [rbx]
+// asm:   0x1818ce81b: lea rdx, [rsp + 0x20]
+// asm:   0x1818ce820: mov rcx, rbx
+// asm:   0x1818ce823: movaps xmmword ptr [rsp + 0x20], xmm0
+// asm:   0x1818ce828: mov r8, qword ptr [rax + 0x2b0]
+// asm:   0x1818ce82f: call qword ptr [rax + 0x2a8]  ; vtable slot 23
+// asm:   0x1818ce835: jmp 0x1818ce7a1
+
+void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SetThumbnail
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_UI_Image_o *image,
+               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o *item,int32_t generation,MethodInfo *method)
+
+{
+  int32_t *piVar1;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_Fields *pGVar2;
+  uint uVar3;
+  System_String_o *b;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar4;
+  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *pGVar5;
+  MethodInfo *pMVar6;
+  bool bVar7;
+  bool bVar8;
+  UnityEngine_Object_o *pUVar9;
+  UnityEngine_Sprite_o *value;
+  UnityEngine_Sprite_o *local_res10;
+  undefined1 local_58 [8];
+  void *pvStack_50;
+  UnityEngine_UIElements_UIR_Entry_o *local_48;
+  undefined1 local_38 [16];
+  UnityEngine_UIElements_UIR_Entry_o *local_28;
+  
+  if (Il2CppMethodInitialized_1843420c8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420c8 = '\x01';
+  }
+  local_res10 = (UnityEngine_Sprite_o *)0x0;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar7 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar7) {
     return;
   }
-  pGVar3 = &pGVar1->fields;
-  if (values == (System_String_array *)0x0) goto label_03b6796f;
-label_03b67675:
-  if ((int)values->max_length == 0) {
-label_03b679d9:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679de:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679e3:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679e8:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679ed:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679fc:
-    il2cpp_runtime_helper_022b2c90();
+  if (image == (UnityEngine_UI_Image_o *)0x0) goto label_1818ce83a;
+  b = (item->fields).Sprite;
+  pUVar9 = (UnityEngine_Object_o *)
+           UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)image,
+                      (MethodInfo_6651A0 *)
+                      MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget)
+  ;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar7 = UnityEngine_Object__op_Inequality(pUVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar7) {
+    if (pUVar9 == (UnityEngine_Object_o *)0x0) goto label_1818ce83a;
+    if ((int)(*(uint64_t *)((char *)pUVar9 + 0x28)) != generation) goto label_1818ce572;
+    bVar7 = System_String__Equals_196c550((*(uint64_t *)((char *)pUVar9 + 0x20)),b,4,(MethodInfo *)0x0);
   }
   else {
-    values->m_Items[0] = pGVar3->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b679d9;
-    values->m_Items[1] = " ";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    if ((uint)values->max_length < 3) goto label_03b679d9;
-    values->m_Items[2] = item.fields.Key;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b679d9;
-    values->m_Items[3] = " sprite=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    if ((uint)values->max_length < 5) goto label_03b679d9;
-    values->m_Items[4] = item.fields.Sprite;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    detail = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+label_1818ce572:
+    bVar7 = false;
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar8 = UnityEngine_Object__op_Inequality(pUVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar8) {
+    if (pUVar9 == (UnityEngine_Object_o *)0x0) goto label_1818ce83a;
+    (*(uint64_t *)((char *)pUVar9 + 0x20)) = b;
+    Il2CppCodeGenWriteBarrier(&(*(uint64_t *)((char *)pUVar9 + 0x20)),b);
+    *(int32_t *)&(*(uint64_t *)((char *)pUVar9 + 0x28)) = generation;
+  }
+  pGVar4 = (__this->fields)._definition;
+  if (pGVar4 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+label_1818ce83a:
+    ThrowNullReferenceException();
+  }
+  if ((pGVar4->fields).LazyLoadThumbnails == false) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
     }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)local_50,"GridPicker.BuildThumbnail",detail,
-               (MethodInfo *)0x0);
-    components = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    uVar9 = local_50._0_4_;
-    uVar10 = local_50._4_4_;
-    uVar11 = local_50._8_4_;
-    uVar12 = local_50._12_4_;
-    uVar13 = local_50._16_4_;
-    uVar14 = local_50._20_4_;
-    uVar15 = local_50._24_4_;
-    bVar16 = local_50._28_4_;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      uVar9 = local_50._0_4_;
-      uVar10 = local_50._4_4_;
-      uVar11 = local_50._8_4_;
-      uVar12 = local_50._12_4_;
-      uVar13 = local_50._16_4_;
-      uVar14 = local_50._20_4_;
-      uVar15 = local_50._24_4_;
-      bVar16 = local_50._28_4_;
+    value = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Load(b,(MethodInfo *)0x0);
+    UnityEngine_UI_Image__set_sprite(image,value,(MethodInfo *)0x0);
+  }
+  else {
+    bVar8 = System_String__IsNullOrEmpty(b,(MethodInfo *)0x0);
+    if (bVar8) {
+      UnityEngine_UI_Image__set_sprite(image,(UnityEngine_Sprite_o *)0x0,(MethodInfo *)0x0);
+      pvStack_50 = (void *)0x3f800000;
+      goto label_1818ce818;
     }
-    pSVar4 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (components == (System_Type_array *)0x0) goto label_03b679de;
-    if ((pSVar4 != (System_Type_o *)0x0) && (lVar5 = il2cpp_runtime_helper_023051f0(pSVar4), lVar5 == 0))
-    goto label_03b67a06;
-    if ((int)components->max_length == 0) goto label_03b679e3;
-    components->m_Items[0] = pSVar4;
-    il2cpp_runtime_helper_022b4080(components->m_Items,pSVar4);
-    __this_03 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-    UnityEngine_GameObject___ctor_4dfc440(__this_03,"AoTTG Grid Thumbnail",components,(MethodInfo *)0x0);
-    if (__this_03 == (UnityEngine_GameObject_o *)0x0) goto label_03b679e8;
-    __this_04 = UnityEngine_GameObject__get_transform(__this_03,(MethodInfo *)0x0);
-    if (__this_04 == (UnityEngine_Transform_o *)0x0) goto label_03b679ed;
-    UnityEngine_Transform__SetParent_4e09e30(__this_04,parent,0,(MethodInfo *)0x0);
-    __this_05 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(__this_03,MethodInfo_RectTransform_GetComponent_RectTransform);
-    if (__this_05 == (UnityEngine_RectTransform_o *)0x0) goto label_03b679f2;
-    UnityEngine_RectTransform__set_anchorMin
-              (__this_05,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchorMax
-              (__this_05,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_pivot
-              (__this_05,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    pGVar1 = (__this->fields)._definition;
-    if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b679f7;
-    value.fields.x = (pGVar1->fields).ThumbnailWidth;
-    value.fields.y = (pGVar1->fields).ThumbnailHeight;
-    UnityEngine_RectTransform__set_sizeDelta(__this_05,value,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchoredPosition
-              (__this_05,(UnityEngine_Vector2_o)0xc140000000000000,(MethodInfo *)0x0);
-    values = (System_String_array *)UnityEngine_GameObject__AddComponent_object_(__this_03,MethodInfo_Image_AddComponent_Image);
-    if (values == (System_String_array *)0x0) goto label_03b679fc;
-    UnityEngine_UI_Image__set_preserveAspect((UnityEngine_UI_Image_o *)values,1,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x19].methodPtr)(values,0,pIVar2->vtable[0x19].method);
-    pGVar1 = (__this->fields)._definition;
-    if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      if ((char)(pGVar1->fields).LazyLoadThumbnails != '\0') {
-        pIVar2 = (values->obj).klass;
-        (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail
-                  (__this,(UnityEngine_UI_Image_o *)values,item.fields.Sprite,
-                   (__this->fields)._thumbnailGeneration,in_R8);
-        goto label_03b679c0;
+    if (bVar7 == false) {
+label_1818ce649:
+      if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchSpriteLoader);
       }
-      goto label_03b67974;
+      bVar7 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__TryGetCached(b,&local_res10,(MethodInfo *)0x0);
+      if (bVar7) {
+        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded(image,local_res10,(MethodInfo *)0x0);
+        return;
+      }
+      UnityEngine_UI_Image__set_sprite(image,(UnityEngine_Sprite_o *)0x0,(MethodInfo *)0x0);
+      local_58 = (undefined1  [8])0x3f8000003f800000;
+      pvStack_50 = (void *)0x3f800000;
+      (*(image->klass->vtable)._23_set_color.methodPtr)
+                (image,(UnityEngine_Color_o *)local_58,(image->klass->vtable)._23_set_color.method);
+      if (Il2CppMethodInitialized_1843420c9 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_Add);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+        Il2CppMethodInitialized_1843420c9 = '\x01';
+      }
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar7 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar7) {
+        return;
+      }
+      bVar7 = System_String__IsNullOrEmpty(b,(MethodInfo *)0x0);
+      if (bVar7) {
+        return;
+      }
+      __this_00 = (__this->fields)._thumbnailLoads;
+      pvStack_50 = (void *)0x0;
+      local_48 = (UnityEngine_UIElements_UIR_Entry_o *)0x0;
+      local_58 = (undefined1  [8])image;
+      Il2CppCodeGenWriteBarrier((void **)local_58,image);
+      pvStack_50 = b;
+      Il2CppCodeGenWriteBarrier(&pvStack_50,b);
+      pMVar6 = MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_Add;
+      local_48 = (UnityEngine_UIElements_UIR_Entry_o *)CONCAT44(local_48._4_4_,generation);
+      if (__this_00 != (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
+        piVar1 = &(__this_00->fields)._version;
+        *piVar1 = *piVar1 + 1;
+        pGVar5 = (__this_00->fields)._items;
+        if (pGVar5 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *)0x0) {
+          uVar3 = (__this_00->fields)._size;
+          if ((uint)pGVar5->max_length <= uVar3) {
+            local_38._0_8_ = local_58;
+            local_38._8_8_ = pvStack_50;
+            local_28 = local_48;
+            System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo___AddWithResize
+                      ((System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo__o
+                        *)__this_00,
+                       (UnityEngine_UIElements_UIR_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo_o
+                        *)local_38,(MethodInfo_973A50 *)pMVar6->klass->rgctx_data[0xe].method);
+            return;
+          }
+          (__this_00->fields)._size = uVar3 + 1;
+          if (uVar3 < (uint)pGVar5->max_length) {
+            pGVar2 = &pGVar5->m_Items[(int)uVar3].fields;
+            pGVar2->Image = (UnityEngine_UI_Image_o *)local_58;
+            pGVar2->ResourcePath = pvStack_50;
+            *(UnityEngine_UIElements_UIR_Entry_o **)&pGVar5->m_Items[(int)uVar3].fields.Generation = local_48;
+            Il2CppCodeGenWriteBarrier(&pGVar5->m_Items[(int)uVar3].fields.Image,(void *)0x0);
+            return;
+          }
+          ThrowIndexOutOfRangeException();
+        }
+      }
+      ThrowNullReferenceException();
     }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_03b67a06:
-  uVar6 = il2cpp_runtime_helper_0231b270();
-  auVar8 = il2cpp_runtime_helper_022b2b10(uVar6);
-  if (auVar8._8_4_ == 1) {
-    plVar7 = (long *)__cxa_begin_catch(auVar8._0_8_);
-    lVar5 = *plVar7;
-    __cxa_end_catch();
-    __this_01.fields._area._4_4_ = uVar10;
-    __this_01.fields._area._0_4_ = uVar9;
-    __this_01.fields._detail._0_4_ = uVar11;
-    __this_01.fields._detail._4_4_ = uVar12;
-    __this_01.fields._startMs._0_4_ = uVar13;
-    __this_01.fields._startMs._4_4_ = uVar14;
-    __this_01.fields._enabled = uVar15;
-    __this_01.fields._hotLoop = bVar16;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_01,(MethodInfo *)&stack0xffffffffffffff88);
-    if (lVar5 == 0) {
-      return;
+    pUVar9 = (UnityEngine_Object_o *)(image->fields).m_Sprite;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    il2cpp_runtime_helper_022fefe0(lVar5);
+    bVar7 = UnityEngine_Object__op_Inequality(pUVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar7) goto label_1818ce649;
   }
-  __this_02.fields._area._4_4_ = uVar10;
-  __this_02.fields._area._0_4_ = uVar9;
-  __this_02.fields._detail._0_4_ = uVar11;
-  __this_02.fields._detail._4_4_ = uVar12;
-  __this_02.fields._startMs._0_4_ = uVar13;
-  __this_02.fields._startMs._4_4_ = uVar14;
-  __this_02.fields._enabled = uVar15;
-  __this_02.fields._hotLoop = bVar16;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_02,(MethodInfo *)&stack0xffffffffffffff88);
-  _Unwind_Resume(auVar8._0_8_);
+  pvStack_50 = (void *)0x3f8000003f800000;
+label_1818ce818:
+  local_58 = (undefined1  [8])0x3f8000003f800000;
+  (*(image->klass->vtable)._23_set_color.methodPtr)
+            (image,(UnityEngine_Color_o *)local_58,(image->klass->vtable)._23_set_color.method);
+  return;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$QueueThumbnail
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_UI_Image_o* image, System_String_o* resourcePath, int32_t generation, const MethodInfo* method);
-// 0x3b67ec0
+// 0x1818cda50
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_UI_Image_o *image,
@@ -3666,220 +3777,195 @@ void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail
 
 {
   int32_t *piVar1;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *pGVar2;
-  uint uVar3;
+  uint uVar2;
   System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *__this_00;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *pGVar4;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o item;
-  ulong uVar5;
-  bool_conflict bVar6;
-  undefined4 uVar7;
-  ulong uVar8;
-  undefined8 extraout_RDX;
-  undefined8 *puVar9;
-  undefined8 local_60;
-  undefined8 uStack_58;
-  undefined8 uStack_50;
-  undefined4 local_48;
-  undefined4 uStack_44;
-  undefined4 uStack_40;
-  undefined4 uStack_3c;
-  undefined8 local_38;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *pGVar3;
+  MethodInfo *pMVar4;
+  bool bVar5;
+  UnityEngine_UIElements_UIR_RenderData_o *local_68;
+  System_String_o *pSStack_60;
+  UnityEngine_UIElements_UIR_Entry_o *pUStack_58;
+  undefined1 local_48 [16];
+  UnityEngine_UIElements_UIR_Entry_o *local_38;
   
-  uVar8 = (ulong)(uint)generation;
-  if (g_data_057a9db4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9db4 = '\x01';
+  if (Il2CppMethodInitialized_1843420c9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420c9 = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar6 = UnityEngine_Object__op_Equality
+  bVar5 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (((char)bVar6 == '\0') &&
-     (bVar6 = System_String__IsNullOrEmpty(resourcePath,(MethodInfo *)0x0), (char)bVar6 == '\0')) {
-    __this_00 = (__this->fields)._thumbnailLoads;
-    puVar9 = &uStack_58;
-    uStack_58 = (System_String_o *)0x0;
-    uStack_50 = 0;
-    local_60 = image;
-    il2cpp_runtime_helper_022b4080(&local_60,image);
-    uStack_58 = resourcePath;
-    il2cpp_runtime_helper_022b4080();
-    uVar5 = MethodInfo_Void_Add;
-    uStack_50 = CONCAT44(uStack_50._4_4_,generation);
-    if (__this_00 != (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
-      local_38 = uStack_50;
-      local_48 = (undefined4)local_60;
-      uStack_44 = local_60._4_4_;
-      uStack_40 = (undefined4)uStack_58;
-      uStack_3c = uStack_58._4_4_;
-      piVar1 = &(__this_00->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pGVar4 = (__this_00->fields)._items;
-      uVar8 = uVar5;
-      if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *)0x0) {
-        uVar3 = (__this_00->fields)._size;
-        if (uVar3 < (uint)pGVar4->max_length) {
-          (__this_00->fields)._size = uVar3 + 1;
-          *(undefined8 *)&pGVar4->m_Items[(int)uVar3].fields.Generation = uStack_50;
-          pGVar2 = pGVar4->m_Items + (int)uVar3;
-          *(undefined4 *)&(pGVar2->fields).Image = (undefined4)local_60;
-          *(undefined4 *)((long)&(pGVar2->fields).Image + 4) = local_60._4_4_;
-          *(undefined4 *)&(pGVar2->fields).ResourcePath = (undefined4)uStack_58;
-          *(undefined4 *)((long)&(pGVar2->fields).ResourcePath + 4) = uStack_58._4_4_;
-          il2cpp_runtime_helper_022b4080(pGVar4->m_Items + (int)uVar3,0);
-          return;
-        }
-        item.fields.ResourcePath = uStack_58;
-        item.fields.Image = local_60;
-        item.fields._16_8_ = uStack_50;
-        System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad___AddWithResize
-                  (__this_00,item,*(MethodInfo_36D4F20 **)(*(long *)(*(long *)(uVar5 + 0x20) + 0xc0) + 0x70));
-        return;
-      }
-    }
-    uVar7 = (undefined4)uVar8;
-    il2cpp_runtime_helper_022b2c90();
-    *puVar9 = resourcePath;
-    il2cpp_runtime_helper_022b4080();
-    puVar9[1] = extraout_RDX;
-    il2cpp_runtime_helper_022b4080(puVar9 + 1,extraout_RDX);
-    *(undefined4 *)(puVar9 + 2) = uVar7;
+  if ((bVar5) || (bVar5 = System_String__IsNullOrEmpty(resourcePath,(MethodInfo *)0x0), bVar5)) {
     return;
   }
-  return;
+  __this_00 = (__this->fields)._thumbnailLoads;
+  pSStack_60 = (System_String_o *)0x0;
+  pUStack_58 = (UnityEngine_UIElements_UIR_Entry_o *)0x0;
+  local_68 = (UnityEngine_UIElements_UIR_RenderData_o *)image;
+  Il2CppCodeGenWriteBarrier(&local_68,image);
+  pSStack_60 = resourcePath;
+  Il2CppCodeGenWriteBarrier(&pSStack_60,resourcePath);
+  pMVar4 = MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_Add;
+  pUStack_58 = (UnityEngine_UIElements_UIR_Entry_o *)CONCAT44(pUStack_58._4_4_,generation);
+  if (__this_00 != (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
+    piVar1 = &(__this_00->fields)._version;
+    *piVar1 = *piVar1 + 1;
+    pGVar3 = (__this_00->fields)._items;
+    if (pGVar3 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *)0x0) {
+      uVar2 = (__this_00->fields)._size;
+      if ((uint)pGVar3->max_length <= uVar2) {
+        local_48._0_8_ = local_68;
+        local_48._8_8_ = pSStack_60;
+        local_38 = pUStack_58;
+        System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo___AddWithResize
+                  ((System_Collections_Generic_List_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo__o
+                    *)__this_00,
+                   (UnityEngine_UIElements_UIR_RenderTreeManager_VisualChangesProcessor_EntryProcessingInfo_o
+                    *)local_48,(MethodInfo_973A50 *)pMVar4->klass->rgctx_data[0xe].method);
+        return;
+      }
+      (__this_00->fields)._size = uVar2 + 1;
+      if ((uint)pGVar3->max_length <= uVar2) {
+        ThrowIndexOutOfRangeException();
+      }
+      pGVar3->m_Items[(int)uVar2].fields.Image = (UnityEngine_UI_Image_o *)local_68;
+      pGVar3->m_Items[(int)uVar2].fields.ResourcePath = pSStack_60;
+      *(UnityEngine_UIElements_UIR_Entry_o **)&pGVar3->m_Items[(int)uVar2].fields.Generation = pUStack_58;
+      Il2CppCodeGenWriteBarrier((void **)(pGVar3->m_Items + (int)uVar2),(void *)0x0);
+      return;
+    }
+  }
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$LoadThumbnails
 // il2cpp: System_Collections_IEnumerator_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, int32_t generation, const MethodInfo* method);
-// 0x3b66180
+// 0x1818cd9d0
 
 System_Collections_IEnumerator_o *
 Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails
           (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,int32_t generation,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__LoadThumbnails_d__54_o *__this_00;
   
-  if (g_data_057a9db5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadThumbnails_d__23);
-    g_data_057a9db5 = '\x01';
+  if (Il2CppMethodInitialized_1843420ca == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_LoadThumbnails_d__54);
+    Il2CppMethodInitialized_1843420ca = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadThumbnails_d__23);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-    *(int32_t *)&__this_00[2].monitor = generation;
-    return (System_Collections_IEnumerator_o *)__this_00;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_LoadThumbnails_d__54);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  (__this_00->fields).generation = generation;
+  return (System_Collections_IEnumerator_o *)__this_00;
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$IsCurrent
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o load, int32_t generation, const MethodInfo* method);
+// 0x1818cd780
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent
+               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *load,int32_t generation,
+               MethodInfo *method)
+
+{
+  UnityEngine_UI_Image_o *__this;
+  bool bVar1;
+  UnityEngine_Object_o *x;
+  
+  if (Il2CppMethodInitialized_1843420cb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420cb = '\x01';
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  if ((load->fields).Generation == generation) {
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar1 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)(load->fields).Image,(UnityEngine_Object_o *)0x0,
+                       (MethodInfo *)0x0);
+    if (!bVar1) {
+      __this = (load->fields).Image;
+      if (__this != (UnityEngine_UI_Image_o *)0x0) {
+        x = (UnityEngine_Object_o *)
+            UnityEngine_Component__GetComponent_object_
+                      ((UnityEngine_Component_o *)__this,
+                       (MethodInfo_6651A0 *)
+                       MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget
+                      );
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar1) {
+          return true;
+        }
+        if (x != (UnityEngine_Object_o *)0x0) {
+          if ((int)(*(uint64_t *)((char *)x + 0x28)) != generation) {
+            return false;
+          }
+          bVar1 = System_String__Equals_196c550((*(uint64_t *)((char *)x + 0x20)),(load->fields).ResourcePath,4,(MethodInfo *)0x0);
+          return bVar1;
+        }
+      }
+      ThrowNullReferenceException();
+    }
+  }
+  return false;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$ShowLoaded
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded (UnityEngine_UI_Image_o* image, UnityEngine_Sprite_o* sprite, const MethodInfo* method);
-// 0x3b68070
+// 0x1818cedc0
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded
                (UnityEngine_UI_Image_o *image,UnityEngine_Sprite_o *sprite,MethodInfo *method)
 
 {
-  void *pvVar1;
-  bool_conflict bVar2;
-  Il2CppObject *__this;
-  DG_Tweening_TweenCallback_float__o *onVirtualUpdate;
-  DG_Tweening_Tweener_o *t;
-  DG_Tweening_Tween_o *tween;
-  Il2CppObject *pIVar3;
-  Il2CppClass *pIVar4;
-  Il2CppObject *__this_00;
+  bool bVar1;
+  UnityEngine_Color_Fields local_18;
   
-  if (g_data_057a9db6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9db6 = '\x01';
+  if (Il2CppMethodInitialized_1843420cc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420cc = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Equality
+  bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if (!bVar1) {
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    pIVar4 = (Il2CppClass *)sprite;
-    bVar2 = UnityEngine_Object__op_Equality
+    bVar1 = UnityEngine_Object__op_Equality
                       ((UnityEngine_Object_o *)sprite,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 == '\0') {
-      if (image != (UnityEngine_UI_Image_o *)0x0) {
-        UnityEngine_UI_Image__set_sprite(image,sprite,(MethodInfo *)0x0);
-        (*(image->klass->vtable)._23_set_color.methodPtr)
-                  (0x3f800000,0x3f800000,image,(image->klass->vtable)._23_set_color.method);
-        return;
+    if (!bVar1) {
+      if (image == (UnityEngine_UI_Image_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057a9db7 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchMotionDriver);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_TweenCallback_float);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Tweener_SetUpdate_Tweener);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void_FadeIn_b__0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass25_0);
-        g_data_057a9db7 = '\x01';
-      }
-      __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass25_0);
-      __this_00 = __this;
-      System_Object___ctor(__this,(MethodInfo *)0x0);
-      if (__this != (Il2CppObject *)0x0) {
-        pIVar3 = __this + 1;
-        __this[1].klass = pIVar4;
-        il2cpp_runtime_helper_022b4080(pIVar3);
-        pIVar4 = __this[1].klass;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar2 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)pIVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          return;
-        }
-        __this_00 = (Il2CppObject *)0x0;
-        if (pIVar3->klass != (Il2CppClass *)0x0) {
-          (**(code **)((long)(pIVar3->klass->_1).image + 0x298))();
-          pIVar4 = pIVar3->klass;
-          __this_00 = (Il2CppObject *)0x0;
-          if (pIVar4 != (Il2CppClass *)0x0) {
-            pvVar1 = (pIVar4->_1).image;
-            (**(code **)((long)pvVar1 + 0x2a8))(pIVar4,*(undefined8 *)((long)pvVar1 + 0x2b0));
-            onVirtualUpdate = (DG_Tweening_TweenCallback_float__o *)il2cpp_runtime_helper_023052d0(TypeInfo_TweenCallback_float);
-            DG_Tweening_TweenCallback_float____ctor();
-            t = DG_Tweening_DOVirtual__Float(0.0,1.0,0.12,onVirtualUpdate,(MethodInfo *)0x0);
-            tween = (DG_Tweening_Tween_o *)
-                    DG_Tweening_TweenSettingsExtensions__SetUpdate_object_((Il2CppObject *)t,1,MethodInfo_Tweener_SetUpdate_Tweener);
-            if (*(int *)(TypeInfo_GisketchMotionDriver + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            Gisketch_Aottg2UI_Tweening_GisketchMotionDriver__Track(tween,0,(MethodInfo *)0x0);
-            return;
-          }
-        }
-      }
-      il2cpp_runtime_helper_022b2c90();
-      System_Object___ctor(__this_00,(MethodInfo *)0x0);
-      return;
+      UnityEngine_UI_Image__set_sprite(image,sprite,(MethodInfo *)0x0);
+      local_18.r = 1.0;
+      local_18.g = 1.0;
+      local_18.b = 1.0;
+      local_18.a = 1.0;
+      (*(image->klass->vtable)._23_set_color.methodPtr)
+                (image,(UnityEngine_Color_o *)&local_18,(image->klass->vtable)._23_set_color.method);
     }
   }
   return;
@@ -3887,935 +3973,487 @@ void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ShowLoaded
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$FadeIn
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FadeIn (UnityEngine_UI_Image_o* image, const MethodInfo* method);
-// 0x3b68130
+// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FadeIn (UnityEngine_UI_Image_o* image, System_String_o* resourcePath, int32_t generation, const MethodInfo* method);
+// 0x1818cccc0
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__FadeIn
-               (UnityEngine_UI_Image_o *image,MethodInfo *method)
+               (UnityEngine_UI_Image_o *image,System_String_o *resourcePath,int32_t generation,
+               MethodInfo *method)
 
 {
-  Il2CppClass *pIVar1;
-  void *pvVar2;
-  bool_conflict bVar3;
-  Il2CppObject *__this;
-  DG_Tweening_TweenCallback_float__o *onVirtualUpdate;
-  DG_Tweening_Tweener_o *t;
-  DG_Tweening_Tween_o *tween;
-  Il2CppObject *pIVar4;
-  Il2CppObject *__this_00;
+  UnityEngine_UI_Image_o *pUVar1;
+  bool bVar2;
+  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o *object;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *pUVar3;
+  DG_Tweening_TweenCallback_float__o *__this;
+  DG_Tweening_Tweener_o *pDVar4;
+  UnityEngine_Color_o local_48;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o local_38;
   
-  if (g_data_057a9db7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchMotionDriver);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TweenCallback_float);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Tweener_SetUpdate_Tweener);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_FadeIn_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass25_0);
-    g_data_057a9db7 = '\x01';
+  if (Il2CppMethodInitialized_1843420cd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_DG_Tweening_TweenCallback_float);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_DG_Tweening_TweenSettingsExtensions_SetUpdate_Tweener);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0_FadeIn_b__0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0);
+    Il2CppMethodInitialized_1843420cd = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass25_0);
-  __this_00 = __this;
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  if (__this != (Il2CppObject *)0x0) {
-    pIVar4 = __this + 1;
-    __this[1].klass = (Il2CppClass *)image;
-    il2cpp_runtime_helper_022b4080(pIVar4);
-    pIVar1 = __this[1].klass;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___c__DisplayClass57_0_o *)0x0) {
+    (object->fields).image = image;
+    Il2CppCodeGenWriteBarrier(&(object->fields).image,image);
+    (object->fields).resourcePath = resourcePath;
+    Il2CppCodeGenWriteBarrier(&(object->fields).resourcePath,resourcePath);
+    pUVar1 = (object->fields).image;
+    (object->fields).generation = generation;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pIVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
+    bVar2 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
       return;
     }
-    __this_00 = (Il2CppObject *)0x0;
-    if (pIVar4->klass != (Il2CppClass *)0x0) {
-      (**(code **)((long)(pIVar4->klass->_1).image + 0x298))();
-      pIVar1 = pIVar4->klass;
-      __this_00 = (Il2CppObject *)0x0;
-      if (pIVar1 != (Il2CppClass *)0x0) {
-        pvVar2 = (pIVar1->_1).image;
-        (**(code **)((long)pvVar2 + 0x2a8))(pIVar1,*(undefined8 *)((long)pvVar2 + 0x2b0));
-        onVirtualUpdate = (DG_Tweening_TweenCallback_float__o *)il2cpp_runtime_helper_023052d0(TypeInfo_TweenCallback_float);
-        DG_Tweening_TweenCallback_float____ctor();
-        t = DG_Tweening_DOVirtual__Float(0.0,1.0,0.12,onVirtualUpdate,(MethodInfo *)0x0);
-        tween = (DG_Tweening_Tween_o *)
-                DG_Tweening_TweenSettingsExtensions__SetUpdate_object_((Il2CppObject *)t,1,MethodInfo_Tweener_SetUpdate_Tweener);
-        if (*(int *)(TypeInfo_GisketchMotionDriver + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+    pUVar1 = (object->fields).image;
+    if (pUVar1 != (UnityEngine_UI_Image_o *)0x0) {
+      pUVar3 = (*(pUVar1->klass->vtable)._22_get_color.methodPtr)
+                         (&local_38,pUVar1,(pUVar1->klass->vtable)._22_get_color.method);
+      pUVar1 = (object->fields).image;
+      if (pUVar1 != (UnityEngine_UI_Image_o *)0x0) {
+        local_48.fields.r = *(float *)&(pUVar3->fields).m_Ptr;
+        local_48.fields.g = *(float *)((longlong)&(pUVar3->fields).m_Ptr + 4);
+        local_48.fields.b = (float)(pUVar3->fields).m_Count;
+        local_48.fields.a = 0.0;
+        (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
+                  (pUVar1,&local_48,(pUVar1->klass->vtable)._23_set_color.method);
+        __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_DG_Tweening_TweenCallback_float);
+        DG_Tweening_TweenCallback_float____ctor
+                  ((DG_Tweening_Core_DOSetter_float__o *)__this,(Il2CppObject *)object,
+                   (intptr_t)
+                   MethodInfo_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_c__DisplayClass57_0_FadeIn_b__0
+                   ,(MethodInfo_E5A750 *)0x0);
+        pDVar4 = DG_Tweening_DOVirtual__Float(0.0,1.0,0.12,__this,(MethodInfo *)0x0);
+        pDVar4 = DG_Tweening_TweenSettingsExtensions__SetUpdate_object_
+                           ((Il2CppObject *)pDVar4,true,
+                            (MethodInfo_7CA3D0 *)
+                            MethodInfo_DG_Tweening_TweenSettingsExtensions_SetUpdate_Tweener);
+        if ((TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Tweening_GisketchMotionDriver);
         }
-        Gisketch_Aottg2UI_Tweening_GisketchMotionDriver__Track(tween,0,(MethodInfo *)0x0);
+        Gisketch_Aottg2UI_Tweening_GisketchMotionDriver__Track
+                  ((DG_Tweening_Tween_o *)pDVar4,false,(MethodInfo *)0x0);
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$IsCurrent
+// il2cpp: bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent (UnityEngine_UI_Image_o* image, System_String_o* resourcePath, int32_t generation, const MethodInfo* method);
+// 0x1818cd8a0
+
+bool Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__IsCurrent_18cd8a0
+               (UnityEngine_UI_Image_o *image,System_String_o *resourcePath,int32_t generation,
+               MethodInfo *method)
+
+{
+  bool bVar1;
+  UnityEngine_Object_o *x;
+  
+  if (Il2CppMethodInitialized_1843420ce == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843420ce = '\x01';
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (image == (UnityEngine_UI_Image_o *)0x0) goto label_1818cd99d;
+    x = (UnityEngine_Object_o *)
+        UnityEngine_Component__GetComponent_object_
+                  ((UnityEngine_Component_o *)image,
+                   (MethodInfo_6651A0 *)
+                   MethodInfo_UnityEngine_Component_GetComponent_GisketchGridPickerRuntime_ThumbnailTarget);
+  }
+  else {
+    x = (UnityEngine_Object_o *)0x0;
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    return true;
+  }
+  if (x != (UnityEngine_Object_o *)0x0) {
+    if ((int)(*(uint64_t *)((char *)x + 0x28)) != generation) {
+      return false;
+    }
+    bVar1 = System_String__Equals_196c550((*(uint64_t *)((char *)x + 0x20)),resourcePath,4,(MethodInfo *)0x0);
+    return bVar1;
+  }
+label_1818cd99d:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$BuildLabel
-// il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_Transform_o* parent, Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item, const MethodInfo* method);
-// 0x3b67bb0
+// il2cpp: TMPro_TextMeshProUGUI_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, UnityEngine_Transform_o* parent, const MethodInfo* method);
+// 0x1818cb970
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
-               (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_Transform_o *parent,
-               Gisketch_Aottg2UI_Code_GisketchGridPickerItem_o item,MethodInfo *method)
+TMPro_TextMeshProUGUI_o *
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__BuildLabel
+          (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,UnityEngine_Transform_o *parent,
+          MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o *pGVar2;
-  uint uVar3;
+  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
+  System_String_o *requiredText;
   Gisketch_Aottg2UI_Styling_GisketchTheme_o *__this_00;
-  Il2CppMethodPointer vtableDispatch;
-  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *__this_01;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *pGVar4;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_o item_00;
-  bool_conflict bVar5;
+  bool bVar2;
+  Il2CppType *handle;
   System_Type_array *components;
-  System_Type_o *pSVar6;
-  long lVar7;
+  System_Type_o *obj;
+  Il2CppObject *pIVar3;
+  UnityEngine_GameObject_o *__this_01;
   UnityEngine_Transform_o *__this_02;
   UnityEngine_RectTransform_o *__this_03;
-  TMPro_TMP_Text_o *__this_04;
+  TMPro_TextMeshProUGUI_o *__this_04;
   TMPro_TMP_FontAsset_o *value;
-  long lVar8;
-  undefined4 uVar9;
-  long in_RCX;
-  MethodInfo *extraout_RDX;
-  System_String_o *value_00;
-  undefined8 extraout_RDX_00;
-  System_RuntimeTypeHandle_o SVar10;
-  UnityEngine_Object_o *x;
-  System_String_o *pSVar11;
-  undefined8 *puVar12;
-  UnityEngine_GameObject_o *unaff_R12;
-  UnityEngine_Color_o UVar13;
-  undefined8 uStack_88;
-  undefined8 uStack_80;
-  undefined8 uStack_78;
-  undefined4 uStack_70;
-  undefined4 uStack_6c;
-  undefined4 uStack_68;
-  undefined4 uStack_64;
-  undefined8 uStack_60;
-  System_Type_o *pSStack_50;
-  UnityEngine_GameObject_o *pUStack_48;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGStack_40;
-  System_String_o *pSStack_38;
+  UnityEngine_Color_o *pUVar4;
+  int32_t value_00;
+  UnityEngine_Vector2_Fields value_01;
+  UnityEngine_Vector2_o value_02;
+  UnityEngine_Vector2_o value_03;
+  UnityEngine_Vector2_o value_04;
+  UnityEngine_Vector2_o value_05;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  UnityEngine_Color_Fields local_58;
+  UnityEngine_Color_o local_48 [2];
   
-  if (g_data_057a9db8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TextMeshProUGUI_AddComponent_TextMeshProUGUI);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchTypography);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Grid Label");
-    il2cpp_runtime_helper_023445d0(&"text");
-    il2cpp_runtime_helper_023445d0(&"textMuted");
-    g_data_057a9db8 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_1843420cf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_TextMeshProUGUI);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Styling_GisketchTypography);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Grid Label");
+    il2cpp_codegen_initialize_runtime_metadata(&"text");
+    il2cpp_codegen_initialize_runtime_metadata(&"textMuted");
+    Il2CppMethodInitialized_1843420cf = '\x01';
   }
-  components = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type,1,method);
-  SVar10 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,1);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar6 = System_Type__GetTypeFromHandle(SVar10,(MethodInfo *)0x0);
-  if (components == (System_Type_array *)0x0) {
-label_03b67ea1:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    SVar10.fields.value = (System_RuntimeTypeHandle_Fields)(System_RuntimeTypeHandle_Fields)pSVar6;
-    if ((pSVar6 != (System_Type_o *)0x0) && (lVar7 = il2cpp_runtime_helper_023051f0(pSVar6), lVar7 == 0))
-    goto label_03b67eab;
-    if ((int)components->max_length != 0) {
-      components->m_Items[0] = pSVar6;
-      il2cpp_runtime_helper_022b4080(components->m_Items,pSVar6);
-      unaff_R12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-      in_RCX = 0;
-      UnityEngine_GameObject___ctor_4dfc440(unaff_R12,"AoTTG Grid Label",components,(MethodInfo *)0x0);
-      if ((unaff_R12 != (UnityEngine_GameObject_o *)0x0) &&
-         (__this_02 = UnityEngine_GameObject__get_transform(unaff_R12,(MethodInfo *)0x0),
-         __this_02 != (UnityEngine_Transform_o *)0x0)) {
-        in_RCX = 0;
-        UnityEngine_Transform__SetParent_4e09e30(__this_02,parent,0,(MethodInfo *)0x0);
-        __this_03 = (UnityEngine_RectTransform_o *)
-                    UnityEngine_GameObject__GetComponent_object_(unaff_R12,MethodInfo_RectTransform_GetComponent_RectTransform);
-        if (__this_03 != (UnityEngine_RectTransform_o *)0x0) {
-          UnityEngine_RectTransform__set_anchorMin(__this_03,(UnityEngine_Vector2_o)0x0,(MethodInfo *)0x0);
-          UnityEngine_RectTransform__set_anchorMax
-                    (__this_03,(UnityEngine_Vector2_o)0x3f800000,(MethodInfo *)0x0);
-          UnityEngine_RectTransform__set_pivot(__this_03,(UnityEngine_Vector2_o)0x3f000000,(MethodInfo *)0x0);
-          UnityEngine_RectTransform__set_offsetMin
-                    (__this_03,(UnityEngine_Vector2_o)0x4100000040c00000,(MethodInfo *)0x0);
-          UnityEngine_RectTransform__set_offsetMax
-                    (__this_03,(UnityEngine_Vector2_o)0x42080000c0c00000,(MethodInfo *)0x0);
-          __this_04 = (TMPro_TMP_Text_o *)UnityEngine_GameObject__AddComponent_object_(unaff_R12,MethodInfo_TextMeshProUGUI_AddComponent_TextMeshProUGUI)
-          ;
-          SVar10.fields.value = (System_RuntimeTypeHandle_Fields)(System_RuntimeTypeHandle_Fields)__this_03;
-          if (__this_04 != (TMPro_TMP_Text_o *)0x0) {
-            (*(__this_04->klass->vtable)._66_set_text.methodPtr)
-                      (__this_04,item.fields.Label,(__this_04->klass->vtable)._66_set_text.method);
-            TMPro_TMP_Text__set_fontSize(__this_04,15.0,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_GisketchTypography + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+  obj = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components != (System_Type_array *)0x0) {
+    if (obj != (System_Type_o *)0x0) {
+      pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)obj,(((components->obj).klass)->_1).element_class);
+      if (pIVar3 == (Il2CppObject *)0x0) {
+        pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
+      }
+    }
+    if ((int)components->max_length == 0) {
+      ThrowIndexOutOfRangeException();
+    }
+    components->m_Items[0] = obj;
+    Il2CppCodeGenWriteBarrier(components->m_Items,obj);
+    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+    UnityEngine_GameObject___ctor_2f1abe0(__this_01,"AoTTG Grid Label",components,(MethodInfo *)0x0);
+    if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
+      __this_02 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
+      if (__this_02 != (UnityEngine_Transform_o *)0x0) {
+        UnityEngine_Transform__SetParent_2f5a7e0(__this_02,parent,false,(MethodInfo *)0x0);
+        __this_03 = UnityEngine_GameObject__GetComponent_object_
+                              (__this_01,
+                               (MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_RectTransform);
+        pGVar1 = (__this->fields)._definition;
+        if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
+          fVar7 = 0.0;
+          if (0.0 < (pGVar1->fields).ThumbnailWidth) {
+            bVar2 = (pGVar1->fields).ThumbnailHeight <= 0.0;
+          }
+          else {
+            bVar2 = true;
+          }
+          if (bVar2) {
+            if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+              Il2CppMethodInitialized_18433e3c9 = '\x01';
             }
-            in_RCX = 0;
-            value = Gisketch_Aottg2UI_Styling_GisketchTypography__Resolve
-                              ("text",500,item.fields.Label,0,(MethodInfo *)0x0);
-            TMPro_TMP_Text__set_font(__this_04,value,(MethodInfo *)0x0);
-            __this_00 = (__this->fields)._theme;
-            SVar10.fields.value = (System_RuntimeTypeHandle_Fields)(System_RuntimeTypeHandle_Fields)__this_04;
-            parent = (UnityEngine_Transform_o *)item.fields.Label;
-            if (__this_00 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
-              UVar13.fields.b = 1.0;
-              UVar13.fields.a = 1.0;
-              UVar13.fields.r = 1.0;
-              UVar13.fields.g = 1.0;
-              UVar13 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                                 (__this_00,"textMuted",UVar13,(MethodInfo *)0x0);
-              (*(__this_04->klass->vtable)._23_set_color.methodPtr)
-                        (UVar13.fields.r,UVar13.fields._8_8_,__this_04,
-                         (__this_04->klass->vtable)._23_set_color.method);
-              TMPro_TMP_Text__set_alignment(__this_04,0x202,(MethodInfo *)0x0);
-              TMPro_TMP_Text__set_enableWordWrapping(__this_04,0,(MethodInfo *)0x0);
-              TMPro_TMP_Text__set_overflowMode(__this_04,1,(MethodInfo *)0x0);
-              vtableDispatch = (__this_04->klass->vtable)._25_set_raycastTarget.methodPtr;
-              (*vtableDispatch)
-                        (__this_04,0,(__this_04->klass->vtable)._25_set_raycastTarget.method,
-                         vtableDispatch);
-              return;
+            value_01 = (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields;
+          }
+          else {
+            value_01.x = 0.0;
+            value_01.y = 0.0;
+          }
+          if (__this_03 != (UnityEngine_RectTransform_o *)0x0) {
+            UnityEngine_RectTransform__set_anchorMin
+                      (__this_03,(UnityEngine_Vector2_o)value_01,(MethodInfo *)0x0);
+            if (bVar2) {
+              if (Il2CppMethodInitialized_184341f36 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+                Il2CppMethodInitialized_184341f36 = '\x01';
+              }
+              fVar6 = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.x;
+              fVar5 = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.y;
+            }
+            else {
+              fVar6 = 1.0;
+              fVar5 = 0.0;
+            }
+            value_02.fields.y = fVar5;
+            value_02.fields.x = fVar6;
+            UnityEngine_RectTransform__set_anchorMax(__this_03,value_02,(MethodInfo *)0x0);
+            if (bVar2) {
+              fVar7 = 0.5;
+            }
+            value_03.fields.y = fVar7;
+            value_03.fields.x = 0.5;
+            UnityEngine_RectTransform__set_pivot(__this_03,value_03,(MethodInfo *)0x0);
+            if (bVar2) {
+              fVar7 = 16.0;
+              fVar6 = 4.0;
+            }
+            else {
+              fVar7 = 6.0;
+              fVar6 = 8.0;
+            }
+            value_04.fields.y = fVar6;
+            value_04.fields.x = fVar7;
+            UnityEngine_RectTransform__set_offsetMin(__this_03,value_04,(MethodInfo *)0x0);
+            if (bVar2) {
+              fVar7 = -16.0;
+              fVar6 = -4.0;
+            }
+            else {
+              fVar7 = -6.0;
+              fVar6 = 34.0;
+            }
+            value_05.fields.y = fVar6;
+            value_05.fields.x = fVar7;
+            UnityEngine_RectTransform__set_offsetMax(__this_03,value_05,(MethodInfo *)0x0);
+            __this_04 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_01,
+                                   (MethodInfo_6F4D60 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_TextMeshProUGUI);
+            if (__this_04 != (TMPro_TextMeshProUGUI_o *)0x0) {
+              TMPro_TMP_Text__set_fontSize((TMPro_TMP_Text_o *)__this_04,15.0,(MethodInfo *)0x0);
+              requiredText = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+              if ((TypeInfo_Gisketch_Aottg2UI_Styling_GisketchTypography->_2).cctor_finished_or_no_cctor == 0)
+              {
+                il2cpp_codegen_runtime_class_init
+                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Styling_GisketchTypography);
+              }
+              value = Gisketch_Aottg2UI_Styling_GisketchTypography__Resolve
+                                ("text",500,requiredText,false,(MethodInfo *)0x0);
+              TMPro_TMP_Text__set_font((TMPro_TMP_Text_o *)__this_04,value,(MethodInfo *)0x0);
+              __this_00 = (__this->fields)._theme;
+              if (__this_00 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
+                local_58.r = 1.0;
+                local_58.g = 1.0;
+                local_58.b = 1.0;
+                local_58.a = 1.0;
+                pUVar4 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                                   (local_48,__this_00,"textMuted",(UnityEngine_Color_o *)&local_58,
+                                    (MethodInfo *)0x0);
+                local_58.r = (pUVar4->fields).r;
+                local_58.g = (pUVar4->fields).g;
+                local_58.b = (pUVar4->fields).b;
+                local_58.a = (pUVar4->fields).a;
+                (*(__this_04->klass->vtable)._23_set_color.methodPtr)
+                          (__this_04,(UnityEngine_Color_o *)&local_58,
+                           (__this_04->klass->vtable)._23_set_color.method);
+                value_00 = 0x1001;
+                if (!bVar2) {
+                  value_00 = 0x202;
+                }
+                TMPro_TMP_Text__set_alignment((TMPro_TMP_Text_o *)__this_04,value_00,(MethodInfo *)0x0);
+                TMPro_TMP_Text__set_enableWordWrapping((TMPro_TMP_Text_o *)__this_04,false,(MethodInfo *)0x0);
+                TMPro_TMP_Text__set_overflowMode((TMPro_TMP_Text_o *)__this_04,1,(MethodInfo *)0x0);
+                (*(__this_04->klass->vtable)._25_set_raycastTarget.methodPtr)
+                          (__this_04,false,(__this_04->klass->vtable)._25_set_raycastTarget.method);
+                return __this_04;
+              }
             }
           }
         }
       }
-      goto label_03b67ea1;
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_03b67eab:
-  lVar8 = il2cpp_runtime_helper_0231b270();
-  x = (UnityEngine_Object_o *)0x0;
-  il2cpp_runtime_helper_022b2b10();
-  lVar7 = in_RCX;
-  pSStack_50 = (System_Type_o *)SVar10.fields.value;
-  pUStack_48 = unaff_R12;
-  pGStack_40 = __this;
-  pSStack_38 = (System_String_o *)parent;
-  if (g_data_057a9db4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9db4 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (((char)bVar5 == '\0') &&
-     (bVar5 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0), (char)bVar5 == '\0')) {
-    __this_01 = *(System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o **)(lVar8 + 0x38)
-    ;
-    puVar12 = &uStack_80;
-    uStack_80 = (System_String_o *)0x0;
-    uStack_78 = 0;
-    uStack_88 = x;
-    il2cpp_runtime_helper_022b4080(&uStack_88,x);
-    pSVar11 = value_00;
-    uStack_80 = value_00;
-    il2cpp_runtime_helper_022b4080();
-    lVar8 = MethodInfo_Void_Add;
-    uStack_78 = CONCAT44(uStack_78._4_4_,(int)in_RCX);
-    if (__this_01 != (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)0x0) {
-      uStack_60 = uStack_78;
-      uStack_70 = (undefined4)uStack_88;
-      uStack_6c = uStack_88._4_4_;
-      uStack_68 = (undefined4)uStack_80;
-      uStack_64 = uStack_80._4_4_;
-      piVar1 = &(__this_01->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pGVar4 = (__this_01->fields)._items;
-      lVar7 = lVar8;
-      if (pGVar4 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_ThumbnailLoad_array *)0x0) {
-        uVar3 = (__this_01->fields)._size;
-        if (uVar3 < (uint)pGVar4->max_length) {
-          (__this_01->fields)._size = uVar3 + 1;
-          *(undefined8 *)&pGVar4->m_Items[(int)uVar3].fields.Generation = uStack_78;
-          pGVar2 = pGVar4->m_Items + (int)uVar3;
-          *(undefined4 *)&(pGVar2->fields).Image = (undefined4)uStack_88;
-          *(undefined4 *)((long)&(pGVar2->fields).Image + 4) = uStack_88._4_4_;
-          *(undefined4 *)&(pGVar2->fields).ResourcePath = (undefined4)uStack_80;
-          *(undefined4 *)((long)&(pGVar2->fields).ResourcePath + 4) = uStack_80._4_4_;
-          il2cpp_runtime_helper_022b4080(pGVar4->m_Items + (int)uVar3,0);
-          return;
-        }
-        item_00.fields.ResourcePath = uStack_80;
-        item_00.fields.Image = (UnityEngine_UI_Image_o *)uStack_88;
-        item_00.fields._16_8_ = uStack_78;
-        System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad___AddWithResize
-                  (__this_01,item_00,
-                   *(MethodInfo_36D4F20 **)(*(long *)(*(long *)(lVar8 + 0x20) + 0xc0) + 0x70));
-        return;
-      }
-    }
-    uVar9 = (undefined4)lVar7;
-    il2cpp_runtime_helper_022b2c90();
-    *puVar12 = pSVar11;
-    il2cpp_runtime_helper_022b4080();
-    puVar12[1] = extraout_RDX_00;
-    il2cpp_runtime_helper_022b4080(puVar12 + 1,extraout_RDX_00);
-    *(undefined4 *)(puVar12 + 2) = uVar9;
-    return;
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$Stretch
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch (UnityEngine_RectTransform_o* rect, const MethodInfo* method);
-// 0x3b67480
+// 0x18189b1d0
 
-void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch
-               (UnityEngine_RectTransform_o *rect,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__Stretch(UnityEngine_RectTransform_o* rect, MethodInfo* method)
 
 {
-  UnityEngine_Vector2_o value;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
-  Il2CppClass *pIVar2;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  System_RuntimeTypeHandle_o handle;
-  System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar3;
-  System_String_o *detail;
-  System_Type_array *components;
-  System_Type_o *pSVar4;
-  long lVar5;
-  UnityEngine_GameObject_o *__this_02;
-  UnityEngine_Transform_o *__this_03;
-  UnityEngine_RectTransform_o *__this_04;
-  UnityEngine_Sprite_o *value_00;
-  undefined8 uVar6;
-  System_String_o *unaff_RBX;
-  long *plVar7;
-  MethodInfo *in_R8;
-  System_String_o *unaff_R12;
-  undefined1 auVar8 [12];
-  System_String_o *unaff_retaddr;
-  undefined4 uVar9;
-  undefined4 uVar10;
-  undefined4 uVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  undefined4 uVar15;
-  bool_conflict bVar16;
-  undefined1 auStack_68 [32];
-  UnityEngine_RectTransform_o *pUStack_48;
-  
-  plVar7 = (long *)rect;
-  if (g_data_057a694c == '\0') {
-    plVar7 = &TypeInfo_Vector2;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a694c = '\x01';
+  if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+    Il2CppMethodInitialized_18433e3c9 = '\x01';
   }
   if (rect != (UnityEngine_RectTransform_o *)0x0) {
     UnityEngine_RectTransform__set_anchorMin
-              (rect,(UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),
+              (rect,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
-    if (g_data_057a9c86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a9c86 = '\x01';
+    if (Il2CppMethodInitialized_184341f36 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_184341f36 = '\x01';
     }
     UnityEngine_RectTransform__set_anchorMax
-              (rect,(UnityEngine_Vector2_o)*(UnityEngine_Vector2_Fields *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8)
-               ,(MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
+              (rect,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
+               (MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMin
-              (rect,(UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),
+              (rect,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMax
-              (rect,(UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),
+              (rect,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
                (MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUStack_48 = rect;
-  if (g_data_057a9db3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSpriteLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Grid Thumbnail");
-    il2cpp_runtime_helper_023445d0(&" sprite=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.BuildThumbnail");
-    g_data_057a9db3 = '\x01';
-  }
-  uVar13 = 0;
-  uVar14 = 0;
-  uVar15 = 0;
-  bVar16 = 0;
-  uVar9 = 0;
-  uVar10 = 0;
-  uVar11 = 0;
-  uVar12 = 0;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar7)->fields)._definition;
-  if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar3 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    if (values != (System_String_array *)0x0) goto label_03b67675;
-label_03b6796f:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67974:
-    if (*(int *)(TypeInfo_GisketchSpriteLoader + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    value_00 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Load(unaff_R12,(MethodInfo *)0x0);
-    UnityEngine_UI_Image__set_sprite((UnityEngine_UI_Image_o *)values,value_00,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-label_03b679c0:
-    __this.fields._area._4_4_ = uVar10;
-    __this.fields._area._0_4_ = uVar9;
-    __this.fields._detail._0_4_ = uVar11;
-    __this.fields._detail._4_4_ = uVar12;
-    __this.fields._startMs._0_4_ = uVar13;
-    __this.fields._startMs._4_4_ = uVar14;
-    __this.fields._enabled = uVar15;
-    __this.fields._hotLoop = bVar16;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this,(MethodInfo *)&stack0xffffffffffffff70);
-    return;
-  }
-  pGVar3 = &pGVar1->fields;
-  if (values == (System_String_array *)0x0) goto label_03b6796f;
-label_03b67675:
-  if ((int)values->max_length == 0) {
-label_03b679d9:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679de:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679e3:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679e8:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679ed:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679fc:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    values->m_Items[0] = pGVar3->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b679d9;
-    values->m_Items[1] = " ";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    if ((uint)values->max_length < 3) goto label_03b679d9;
-    values->m_Items[2] = unaff_RBX;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b679d9;
-    values->m_Items[3] = " sprite=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    if ((uint)values->max_length < 5) goto label_03b679d9;
-    values->m_Items[4] = unaff_retaddr;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    detail = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)auStack_68,"GridPicker.BuildThumbnail",detail,
-               (MethodInfo *)0x0);
-    components = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    uVar9 = auStack_68._0_4_;
-    uVar10 = auStack_68._4_4_;
-    uVar11 = auStack_68._8_4_;
-    uVar12 = auStack_68._12_4_;
-    uVar13 = auStack_68._16_4_;
-    uVar14 = auStack_68._20_4_;
-    uVar15 = auStack_68._24_4_;
-    bVar16 = auStack_68._28_4_;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      uVar9 = auStack_68._0_4_;
-      uVar10 = auStack_68._4_4_;
-      uVar11 = auStack_68._8_4_;
-      uVar12 = auStack_68._12_4_;
-      uVar13 = auStack_68._16_4_;
-      uVar14 = auStack_68._20_4_;
-      uVar15 = auStack_68._24_4_;
-      bVar16 = auStack_68._28_4_;
-    }
-    pSVar4 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (components == (System_Type_array *)0x0) goto label_03b679de;
-    if ((pSVar4 != (System_Type_o *)0x0) && (lVar5 = il2cpp_runtime_helper_023051f0(pSVar4), lVar5 == 0))
-    goto label_03b67a06;
-    if ((int)components->max_length == 0) goto label_03b679e3;
-    components->m_Items[0] = pSVar4;
-    il2cpp_runtime_helper_022b4080(components->m_Items,pSVar4);
-    __this_02 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-    UnityEngine_GameObject___ctor_4dfc440(__this_02,"AoTTG Grid Thumbnail",components,(MethodInfo *)0x0);
-    if (__this_02 == (UnityEngine_GameObject_o *)0x0) goto label_03b679e8;
-    __this_03 = UnityEngine_GameObject__get_transform(__this_02,(MethodInfo *)0x0);
-    if (__this_03 == (UnityEngine_Transform_o *)0x0) goto label_03b679ed;
-    UnityEngine_Transform__SetParent_4e09e30(__this_03,(UnityEngine_Transform_o *)method,0,(MethodInfo *)0x0);
-    __this_04 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(__this_02,MethodInfo_RectTransform_GetComponent_RectTransform);
-    if (__this_04 == (UnityEngine_RectTransform_o *)0x0) goto label_03b679f2;
-    UnityEngine_RectTransform__set_anchorMin
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchorMax
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_pivot
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar7)->fields)._definition;
-    if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b679f7;
-    value.fields.x = (pGVar1->fields).ThumbnailWidth;
-    value.fields.y = (pGVar1->fields).ThumbnailHeight;
-    UnityEngine_RectTransform__set_sizeDelta(__this_04,value,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchoredPosition
-              (__this_04,(UnityEngine_Vector2_o)0xc140000000000000,(MethodInfo *)0x0);
-    values = (System_String_array *)UnityEngine_GameObject__AddComponent_object_(__this_02,MethodInfo_Image_AddComponent_Image);
-    if (values == (System_String_array *)0x0) goto label_03b679fc;
-    UnityEngine_UI_Image__set_preserveAspect((UnityEngine_UI_Image_o *)values,1,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x19].methodPtr)(values,0,pIVar2->vtable[0x19].method);
-    pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar7)->fields)._definition;
-    if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      unaff_R12 = unaff_retaddr;
-      if ((char)(pGVar1->fields).LazyLoadThumbnails != '\0') {
-        pIVar2 = (values->obj).klass;
-        (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail
-                  ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar7,
-                   (UnityEngine_UI_Image_o *)values,unaff_retaddr,
-                   (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar7)->fields).
-                   _thumbnailGeneration,in_R8);
-        goto label_03b679c0;
-      }
-      goto label_03b67974;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_03b67a06:
-  uVar6 = il2cpp_runtime_helper_0231b270();
-  auVar8 = il2cpp_runtime_helper_022b2b10(uVar6);
-  if (auVar8._8_4_ == 1) {
-    plVar7 = (long *)__cxa_begin_catch(auVar8._0_8_);
-    lVar5 = *plVar7;
-    __cxa_end_catch();
-    __this_00.fields._area._4_4_ = uVar10;
-    __this_00.fields._area._0_4_ = uVar9;
-    __this_00.fields._detail._0_4_ = uVar11;
-    __this_00.fields._detail._4_4_ = uVar12;
-    __this_00.fields._startMs._0_4_ = uVar13;
-    __this_00.fields._startMs._4_4_ = uVar14;
-    __this_00.fields._enabled = uVar15;
-    __this_00.fields._hotLoop = bVar16;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_00,(MethodInfo *)&stack0xffffffffffffff70);
-    if (lVar5 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar5);
-  }
-  __this_01.fields._area._4_4_ = uVar10;
-  __this_01.fields._area._0_4_ = uVar9;
-  __this_01.fields._detail._0_4_ = uVar11;
-  __this_01.fields._detail._4_4_ = uVar12;
-  __this_01.fields._startMs._0_4_ = uVar13;
-  __this_01.fields._startMs._4_4_ = uVar14;
-  __this_01.fields._enabled = uVar15;
-  __this_01.fields._hotLoop = bVar16;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_01,(MethodInfo *)&stack0xffffffffffffff70);
-  _Unwind_Resume(auVar8._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$SafeId
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId (System_String_o* value, const MethodInfo* method);
-// 0x3b673f0
+// 0x1818ce2e0
 
 System_String_o *
 Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__SafeId(System_String_o *value,MethodInfo *method)
 
 {
-  UnityEngine_Vector2_o value_00;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
-  Il2CppClass *pIVar2;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  System_RuntimeTypeHandle_o handle;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  System_String_o *extraout_RAX;
-  System_String_array *values;
-  Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields *pGVar6;
-  System_Type_array *components;
-  System_Type_o *pSVar7;
-  long lVar8;
-  UnityEngine_GameObject_o *__this_02;
-  UnityEngine_Transform_o *__this_03;
-  UnityEngine_RectTransform_o *__this_04;
-  UnityEngine_Sprite_o *value_01;
-  System_String_o *extraout_RAX_00;
-  undefined8 uVar9;
-  System_String_o *extraout_RAX_01;
-  System_String_o *unaff_RBX;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this_05;
-  long *plVar10;
-  MethodInfo *in_R8;
-  System_String_o *unaff_R12;
-  undefined1 auVar11 [12];
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined4 uVar14;
-  undefined4 uVar15;
-  undefined4 uVar16;
-  undefined4 uVar17;
-  undefined4 uVar18;
-  undefined1 auStack_70 [32];
-  Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *pGStack_50;
+  bool bVar1;
+  System_String_o *pSVar2;
   
-  if (g_data_057a9db9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"item");
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"-");
-    g_data_057a9db9 = '\x01';
+  if (Il2CppMethodInitialized_1843420d0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"item");
+    il2cpp_codegen_initialize_runtime_metadata(&" ");
+    il2cpp_codegen_initialize_runtime_metadata(&"-");
+    Il2CppMethodInitialized_1843420d0 = '\x01';
   }
-  pSVar5 = (System_String_o *)0x0;
-  __this_05 = (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)value;
-  bVar3 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+  if (bVar1) {
     return "item";
   }
-  if ((value != (System_String_o *)0x0) &&
-     (pSVar5 = " ", __this_05 = (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)value,
-     pSVar4 = System_String__Replace_3af9030(value," ","-",(MethodInfo *)0x0),
-     pSVar4 != (System_String_o *)0x0)) {
-    pSVar5 = System_String__ToLowerInvariant(pSVar4,(MethodInfo *)0x0);
-    return pSVar5;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  plVar10 = (long *)__this_05;
-  if (g_data_057a694c == '\0') {
-    plVar10 = &TypeInfo_Vector2;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a694c = '\x01';
-  }
-  if (__this_05 != (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)0x0) {
-    UnityEngine_RectTransform__set_anchorMin
-              ((UnityEngine_RectTransform_o *)__this_05,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a9c86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a9c86 = '\x01';
-    }
-    UnityEngine_RectTransform__set_anchorMax
-              ((UnityEngine_RectTransform_o *)__this_05,
-               (UnityEngine_Vector2_o)*(UnityEngine_Vector2_Fields *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8),
-               (MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
-    }
-    UnityEngine_RectTransform__set_offsetMin
-              ((UnityEngine_RectTransform_o *)__this_05,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
-    }
-    UnityEngine_RectTransform__set_offsetMax
-              ((UnityEngine_RectTransform_o *)__this_05,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pGStack_50 = __this_05;
-  if (g_data_057a9db3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchSpriteLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&" ");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Grid Thumbnail");
-    il2cpp_runtime_helper_023445d0(&" sprite=");
-    il2cpp_runtime_helper_023445d0(&"GridPicker.BuildThumbnail");
-    g_data_057a9db3 = '\x01';
-  }
-  uVar16 = 0;
-  uVar17 = 0;
-  uVar18 = 0;
-  bVar3 = 0;
-  uVar12 = 0;
-  uVar13 = 0;
-  uVar14 = 0;
-  uVar15 = 0;
-  values = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-  pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar10)->fields)._definition;
-  if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-    pGVar6 = *(Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_Fields **)(g_data_057b9c00 + 0xb8);
-    if (values != (System_String_array *)0x0) goto label_03b67675;
-label_03b6796f:
-    il2cpp_runtime_helper_022b2c90();
-label_03b67974:
-    if (*(int *)(TypeInfo_GisketchSpriteLoader + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    value_01 = Gisketch_Aottg2UI_Styling_GisketchSpriteLoader__Load(unaff_R12,(MethodInfo *)0x0);
-    UnityEngine_UI_Image__set_sprite((UnityEngine_UI_Image_o *)values,value_01,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-label_03b679c0:
-    __this.fields._area._4_4_ = uVar13;
-    __this.fields._area._0_4_ = uVar12;
-    __this.fields._detail._0_4_ = uVar14;
-    __this.fields._detail._4_4_ = uVar15;
-    __this.fields._startMs._0_4_ = uVar16;
-    __this.fields._startMs._4_4_ = uVar17;
-    __this.fields._enabled = uVar18;
-    __this.fields._hotLoop = bVar3;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this,(MethodInfo *)&stack0xffffffffffffff68);
-    return extraout_RAX_00;
-  }
-  pGVar6 = &pGVar1->fields;
-  if (values == (System_String_array *)0x0) goto label_03b6796f;
-label_03b67675:
-  if ((int)values->max_length == 0) {
-label_03b679d9:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679de:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679e3:
-    il2cpp_runtime_helper_022b2ca0();
-label_03b679e8:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679ed:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f2:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679f7:
-    il2cpp_runtime_helper_022b2c90();
-label_03b679fc:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    values->m_Items[0] = pGVar6->Id;
-    il2cpp_runtime_helper_022b4080(values->m_Items);
-    if ((uint)values->max_length < 2) goto label_03b679d9;
-    values->m_Items[1] = " ";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 1);
-    if ((uint)values->max_length < 3) goto label_03b679d9;
-    values->m_Items[2] = value;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 2);
-    if ((uint)values->max_length < 4) goto label_03b679d9;
-    values->m_Items[3] = " sprite=";
-    il2cpp_runtime_helper_022b4080(values->m_Items + 3);
-    if ((uint)values->max_length < 5) goto label_03b679d9;
-    values->m_Items[4] = unaff_RBX;
-    il2cpp_runtime_helper_022b4080(values->m_Items + 4);
-    pSVar4 = System_String__Concat_3af7570(values,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-              ((Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *)auStack_70,"GridPicker.BuildThumbnail",pSVar4,
-               (MethodInfo *)0x0);
-    components = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-    handle = TypeRef_RectTransform;
-    uVar12 = auStack_70._0_4_;
-    uVar13 = auStack_70._4_4_;
-    uVar14 = auStack_70._8_4_;
-    uVar15 = auStack_70._12_4_;
-    uVar16 = auStack_70._16_4_;
-    uVar17 = auStack_70._20_4_;
-    uVar18 = auStack_70._24_4_;
-    bVar3 = auStack_70._28_4_;
-    if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      uVar12 = auStack_70._0_4_;
-      uVar13 = auStack_70._4_4_;
-      uVar14 = auStack_70._8_4_;
-      uVar15 = auStack_70._12_4_;
-      uVar16 = auStack_70._16_4_;
-      uVar17 = auStack_70._20_4_;
-      uVar18 = auStack_70._24_4_;
-      bVar3 = auStack_70._28_4_;
-    }
-    pSVar7 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-    if (components == (System_Type_array *)0x0) goto label_03b679de;
-    if ((pSVar7 != (System_Type_o *)0x0) && (lVar8 = il2cpp_runtime_helper_023051f0(pSVar7), lVar8 == 0))
-    goto label_03b67a06;
-    if ((int)components->max_length == 0) goto label_03b679e3;
-    components->m_Items[0] = pSVar7;
-    il2cpp_runtime_helper_022b4080(components->m_Items,pSVar7);
-    __this_02 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-    UnityEngine_GameObject___ctor_4dfc440(__this_02,"AoTTG Grid Thumbnail",components,(MethodInfo *)0x0);
-    if (__this_02 == (UnityEngine_GameObject_o *)0x0) goto label_03b679e8;
-    __this_03 = UnityEngine_GameObject__get_transform(__this_02,(MethodInfo *)0x0);
-    if (__this_03 == (UnityEngine_Transform_o *)0x0) goto label_03b679ed;
-    UnityEngine_Transform__SetParent_4e09e30(__this_03,(UnityEngine_Transform_o *)pSVar5,0,(MethodInfo *)0x0);
-    __this_04 = (UnityEngine_RectTransform_o *)
-                UnityEngine_GameObject__GetComponent_object_(__this_02,MethodInfo_RectTransform_GetComponent_RectTransform);
-    if (__this_04 == (UnityEngine_RectTransform_o *)0x0) goto label_03b679f2;
-    UnityEngine_RectTransform__set_anchorMin
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchorMax
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_pivot
-              (__this_04,(UnityEngine_Vector2_o)0x3f8000003f000000,(MethodInfo *)0x0);
-    pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar10)->fields)._definition;
-    if (pGVar1 == (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) goto label_03b679f7;
-    value_00.fields.x = (pGVar1->fields).ThumbnailWidth;
-    value_00.fields.y = (pGVar1->fields).ThumbnailHeight;
-    UnityEngine_RectTransform__set_sizeDelta(__this_04,value_00,(MethodInfo *)0x0);
-    UnityEngine_RectTransform__set_anchoredPosition
-              (__this_04,(UnityEngine_Vector2_o)0xc140000000000000,(MethodInfo *)0x0);
-    values = (System_String_array *)UnityEngine_GameObject__AddComponent_object_(__this_02,MethodInfo_Image_AddComponent_Image);
-    if (values == (System_String_array *)0x0) goto label_03b679fc;
-    UnityEngine_UI_Image__set_preserveAspect((UnityEngine_UI_Image_o *)values,1,(MethodInfo *)0x0);
-    pIVar2 = (values->obj).klass;
-    (*pIVar2->vtable[0x19].methodPtr)(values,0,pIVar2->vtable[0x19].method);
-    pGVar1 = (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar10)->fields)._definition;
-    if (pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) {
-      unaff_R12 = unaff_RBX;
-      if ((char)(pGVar1->fields).LazyLoadThumbnails != '\0') {
-        pIVar2 = (values->obj).klass;
-        (*pIVar2->vtable[0x17].methodPtr)(0x3f800000,0x3f800000,values,pIVar2->vtable[0x17].method);
-        Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__QueueThumbnail
-                  ((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar10,
-                   (UnityEngine_UI_Image_o *)values,unaff_RBX,
-                   (((Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *)plVar10)->fields).
-                   _thumbnailGeneration,in_R8);
-        goto label_03b679c0;
-      }
-      goto label_03b67974;
+  if (value != (System_String_o *)0x0) {
+    pSVar2 = System_String__Replace_1970e80
+                       (value," ","-",(MethodInfo *)0x0);
+    if (pSVar2 != (System_String_o *)0x0) {
+      pSVar2 = System_String__ToLowerInvariant(pSVar2,(MethodInfo *)0x0);
+      return pSVar2;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_03b67a06:
-  uVar9 = il2cpp_runtime_helper_0231b270();
-  auVar11 = il2cpp_runtime_helper_022b2b10(uVar9);
-  if (auVar11._8_4_ == 1) {
-    plVar10 = (long *)__cxa_begin_catch(auVar11._0_8_);
-    lVar8 = *plVar10;
-    __cxa_end_catch();
-    __this_00.fields._area._4_4_ = uVar13;
-    __this_00.fields._area._0_4_ = uVar12;
-    __this_00.fields._detail._0_4_ = uVar14;
-    __this_00.fields._detail._4_4_ = uVar15;
-    __this_00.fields._startMs._0_4_ = uVar16;
-    __this_00.fields._startMs._4_4_ = uVar17;
-    __this_00.fields._enabled = uVar18;
-    __this_00.fields._hotLoop = bVar3;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_00,(MethodInfo *)&stack0xffffffffffffff68);
-    if (lVar8 == 0) {
-      return extraout_RAX_01;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar8);
-  }
-  __this_01.fields._area._4_4_ = uVar13;
-  __this_01.fields._area._0_4_ = uVar12;
-  __this_01.fields._detail._0_4_ = uVar14;
-  __this_01.fields._detail._4_4_ = uVar15;
-  __this_01.fields._startMs._0_4_ = uVar16;
-  __this_01.fields._startMs._4_4_ = uVar17;
-  __this_01.fields._enabled = uVar18;
-  __this_01.fields._hotLoop = bVar3;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_01,(MethodInfo *)&stack0xffffffffffffff68);
-  _Unwind_Resume(auVar11._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$ItemCount
 // il2cpp: int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ItemCount (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b65b30
+// 0x1818cd9b0
 
 int32_t Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime__ItemCount
                   (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *pGVar1;
-  Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *pGVar2;
-  int32_t iVar3;
   
-  pGVar1 = (__this->fields)._definition;
-  iVar3 = 0;
-  if ((pGVar1 != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0) &&
-     (pGVar2 = (pGVar1->fields).Items, iVar3 = 0,
-     pGVar2 != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
-    iVar3 = (int32_t)pGVar2->max_length;
+  if (((__this->fields)._definition != (Gisketch_Aottg2UI_Code_GisketchGridPicker_RuntimeDefinition_o *)0x0)
+     && (pGVar1 = (__this->fields)._definition,
+        (pGVar1->fields).Items != (Gisketch_Aottg2UI_Code_GisketchGridPickerItem_array *)0x0)) {
+    return (int32_t)((pGVar1->fields).Items)->max_length;
   }
-  return iVar3;
+  return 0;
 }
 
 
 // Gisketch.Aottg2UI.Code.GisketchGridPickerRuntime$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___ctor (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o* __this, const MethodInfo* method);
-// 0x3b682e0
+// 0x1818cf1b0
 
 void Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime___ctor
                (Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime_o *__this,MethodInfo *method)
 
 {
+  System_String_o *value;
   System_Collections_Generic_List_GameObject__o *__this_00;
   System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *__this_01;
+  System_Collections_Generic_List_GisketchGridPickerItem__o *__this_02;
   
-  if (g_data_057a9dba == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UnityEngine_GameObject);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_ThumbnailLoad);
-    g_data_057a9dba = '\x01';
+  if (Il2CppMethodInitialized_1843420d1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_GameObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_GisketchGridPickerItem);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad);
+    Il2CppMethodInitialized_1843420d1 = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_GameObject__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_GameObject);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GameObject);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_UnityEngine_GameObject);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GameObject_ctor);
   (__this->fields)._cards = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._cards,__this_00);
-  __this_01 = (System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad__o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_List_ThumbnailLoad);
-  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad____ctor(__this_01,MethodInfo_List_1_Gisketch_Aottg2UI_Code_GisketchGridPickerRuntime);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._cards,__this_00);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad);
+  System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_01,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_GisketchGridPickerRuntime_ThumbnailLoad_ctor);
   (__this->fields)._thumbnailLoads = __this_01;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._thumbnailLoads,__this_01);
-  (__this->fields)._query = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._query);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._thumbnailLoads,__this_01);
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_GisketchGridPickerItem);
+  System_Collections_Generic_List_GisketchGridPickerItem____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_GisketchGridPickerItem_ctor);
+  (__this->fields)._filtered = __this_02;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._filtered,__this_02);
+  value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  (__this->fields)._query = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._query,value);
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }

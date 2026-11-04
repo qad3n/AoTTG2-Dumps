@@ -12,32 +12,32 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001E1")]
+[Token(Token = "0x20001FE")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class BoolParameter : VolumeParameter<bool>
 {
-	[Token(Token = "0x20001E2")]
+	[Token(Token = "0x20001FF")]
 	public enum DisplayType
 	{
-		[Token(Token = "0x400081E")]
+		[Token(Token = "0x400098F")]
 		Checkbox,
-		[Token(Token = "0x400081F")]
+		[Token(Token = "0x4000990")]
 		EnumPopup
 	}
 
 	[NonSerialized]
-	[Token(Token = "0x400081C")]
-	[FieldOffset(Offset = "0x14")]
+	[Token(Token = "0x400098D")]
+	[FieldOffset(Offset = "0x20")]
 	public DisplayType displayType;
 
-	[Token(Token = "0x6000DB8")]
-	[Address(RVA = "0x4C0AD30", Offset = "0x4C0AD30", VA = "0x4C0AD30")]
+	[Token(Token = "0x6000F16")]
+	[Address(RVA = "0x2B4FDE0", Offset = "0x2B4E3E0", VA = "0x182B4FDE0")]
 	public BoolParameter(bool value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000DB9")]
-	[Address(RVA = "0x4C0AD80", Offset = "0x4C0AD80", VA = "0x4C0AD80")]
+	[Token(Token = "0x6000F17")]
+	[Address(RVA = "0x2B4FE40", Offset = "0x2B4E440", VA = "0x182B4FE40")]
 	public BoolParameter(bool value, DisplayType displayType, bool overrideState = false)
 	{
 	}

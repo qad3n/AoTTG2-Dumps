@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002B3")]
+[Token(Token = "0x20001BE")]
 public enum LicenseUsageMode
 {
-	[Token(Token = "0x4000D83")]
+	[Token(Token = "0x40006BA")]
 	Runtime,
-	[Token(Token = "0x4000D84")]
+	[Token(Token = "0x40006BB")]
 	Designtime
 }

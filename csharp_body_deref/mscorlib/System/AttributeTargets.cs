@@ -9,40 +9,40 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000094")]
+[Token(Token = "0x20000BD")]
 [Flags]
 public enum AttributeTargets
 {
-	[Token(Token = "0x40001E7")]
+	[Token(Token = "0x4000290")]
 	Assembly = 1,
-	[Token(Token = "0x40001E8")]
+	[Token(Token = "0x4000291")]
 	Module = 2,
-	[Token(Token = "0x40001E9")]
+	[Token(Token = "0x4000292")]
 	Class = 4,
-	[Token(Token = "0x40001EA")]
+	[Token(Token = "0x4000293")]
 	Struct = 8,
-	[Token(Token = "0x40001EB")]
+	[Token(Token = "0x4000294")]
 	Enum = 0x10,
-	[Token(Token = "0x40001EC")]
+	[Token(Token = "0x4000295")]
 	Constructor = 0x20,
-	[Token(Token = "0x40001ED")]
+	[Token(Token = "0x4000296")]
 	Method = 0x40,
-	[Token(Token = "0x40001EE")]
+	[Token(Token = "0x4000297")]
 	Property = 0x80,
-	[Token(Token = "0x40001EF")]
+	[Token(Token = "0x4000298")]
 	Field = 0x100,
-	[Token(Token = "0x40001F0")]
+	[Token(Token = "0x4000299")]
 	Event = 0x200,
-	[Token(Token = "0x40001F1")]
+	[Token(Token = "0x400029A")]
 	Interface = 0x400,
-	[Token(Token = "0x40001F2")]
+	[Token(Token = "0x400029B")]
 	Parameter = 0x800,
-	[Token(Token = "0x40001F3")]
+	[Token(Token = "0x400029C")]
 	Delegate = 0x1000,
-	[Token(Token = "0x40001F4")]
+	[Token(Token = "0x400029D")]
 	ReturnValue = 0x2000,
-	[Token(Token = "0x40001F5")]
+	[Token(Token = "0x400029E")]
 	GenericParameter = 0x4000,
-	[Token(Token = "0x40001F6")]
-	All = 0x7FFF
+	[Token(Token = "0x400029F")]
+	All = Assembly | Module | Class | Struct | Enum | Constructor | Method | Property | Field | Event | Interface | Parameter | Delegate | ReturnValue | GenericParameter
 }

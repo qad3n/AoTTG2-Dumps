@@ -16,7 +16,7 @@ namespace System.Runtime.CompilerServices;
 [DebuggerStepThrough]
 public static class CallSiteOps
 {
-	[Token(Token = "0x6000B67")]
+	[Token(Token = "0x6000B66")]
 	[Obsolete("do not use this method", true)]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static CallSite<T> CreateMatchmaker<T>(CallSite<T> site) where T : class
@@ -24,50 +24,58 @@ public static class CallSiteOps
 		return null;
 	}
 
-	[Token(Token = "0x6000B68")]
-	[Address(RVA = "0x4508140", Offset = "0x4508140", VA = "0x4508140")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Token(Token = "0x6000B67")]
+	[Address(RVA = "0x2467290", Offset = "0x2465890", VA = "0x182467290")]
 	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static bool SetNotMatched(CallSite site)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B69")]
-	[Address(RVA = "0x4508160", Offset = "0x4508160", VA = "0x4508160")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Token(Token = "0x6000B68")]
+	[Address(RVA = "0x111BC60", Offset = "0x111A260", VA = "0x18111BC60")]
 	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static bool GetMatch(CallSite site)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B6A")]
-	[Address(RVA = "0x4508170", Offset = "0x4508170", VA = "0x4508170")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Token(Token = "0x6000B69")]
+	[Address(RVA = "0x2467270", Offset = "0x2465870", VA = "0x182467270")]
 	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static void ClearMatch(CallSite site)
 	{
 	}
 
-	[Token(Token = "0x6000B6B")]
+	[Token(Token = "0x6000B6A")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("do not use this method", true)]
 	public static void AddRule<T>(CallSite<T> site, T rule) where T : class
 	{
 	}
 
-	[Token(Token = "0x6000B6C")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Token(Token = "0x6000B6B")]
 	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static void UpdateRules<T>(CallSite<T> @this, int matched) where T : class
 	{
 	}
 
-	[Token(Token = "0x6000B6D")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Token(Token = "0x6000B6C")]
 	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static T[] GetRules<T>(CallSite<T> site) where T : class
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000B6D")]
+	[Obsolete("do not use this method", true)]
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public static RuleCache<T> GetRuleCache<T>(CallSite<T> site) where T : class
 	{
 		return null;
 	}
@@ -75,19 +83,11 @@ public static class CallSiteOps
 	[Token(Token = "0x6000B6E")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("do not use this method", true)]
-	public static RuleCache<T> GetRuleCache<T>(CallSite<T> site) where T : class
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000B6F")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("do not use this method", true)]
 	public static void MoveRule<T>(RuleCache<T> cache, T rule, int i) where T : class
 	{
 	}
 
-	[Token(Token = "0x6000B70")]
+	[Token(Token = "0x6000B6F")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("do not use this method", true)]
 	public static T[] GetCachedRules<T>(RuleCache<T> cache) where T : class
@@ -95,7 +95,7 @@ public static class CallSiteOps
 		return null;
 	}
 
-	[Token(Token = "0x6000B71")]
+	[Token(Token = "0x6000B70")]
 	[EditorBrowsable(EditorBrowsableState.Never)]
 	[Obsolete("do not use this method", true)]
 	public static T Bind<T>(CallSiteBinder binder, CallSite<T> site, object[] args) where T : class

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200035F")]
+[Token(Token = "0x20004AF")]
 internal enum FontScaleMode
 {
-	[Token(Token = "0x4000FFE")]
+	[Token(Token = "0x400162C")]
 	Height,
-	[Token(Token = "0x4000FFF")]
+	[Token(Token = "0x400162D")]
 	Width
 }

@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000169")]
+[Token(Token = "0x2000181")]
 public enum ShaderVariantLogLevel
 {
-	[Token(Token = "0x4000651")]
+	[Token(Token = "0x4000790")]
 	[Tooltip("No shader variants are logged")]
 	Disabled,
-	[Token(Token = "0x4000652")]
+	[Token(Token = "0x4000791")]
 	[Tooltip("Only shaders that are compatible with SRPs (e.g., URP, HDRP) are logged")]
 	OnlySRPShaders,
-	[Token(Token = "0x4000653")]
+	[Token(Token = "0x4000792")]
 	[Tooltip("All shader variants are logged")]
 	AllShaders
 }

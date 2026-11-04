@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000063")]
+[Token(Token = "0x2000026")]
 public static class CommandBufferPool
 {
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x40000AD")]
 	[FieldOffset(Offset = "0x0")]
 	private static ObjectPool<CommandBuffer> s_BufferPool;
 
-	[Token(Token = "0x6000554")]
-	[Address(RVA = "0x4B95DE0", Offset = "0x4B95DE0", VA = "0x4B95DE0")]
+	[Token(Token = "0x6000444")]
+	[Address(RVA = "0x2ABB5A0", Offset = "0x2AB9BA0", VA = "0x182ABB5A0")]
 	public static CommandBuffer Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000555")]
-	[Address(RVA = "0x4B95EA0", Offset = "0x4B95EA0", VA = "0x4B95EA0")]
+	[Token(Token = "0x6000445")]
+	[Address(RVA = "0x2ABB650", Offset = "0x2AB9C50", VA = "0x182ABB650")]
 	public static CommandBuffer Get(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000556")]
-	[Address(RVA = "0x4B95F60", Offset = "0x4B95F60", VA = "0x4B95F60")]
+	[Token(Token = "0x6000446")]
+	[Address(RVA = "0x2ABB6F0", Offset = "0x2AB9CF0", VA = "0x182ABB6F0")]
 	public static void Release(CommandBuffer buffer)
 	{
 	}

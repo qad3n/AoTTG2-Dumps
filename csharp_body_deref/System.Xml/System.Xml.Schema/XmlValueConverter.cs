@@ -187,7 +187,7 @@ internal abstract class XmlValueConverter
 	public abstract object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver);
 
 	[Token(Token = "0x6001846")]
-	[Address(RVA = "0x4740E90", Offset = "0x4740E90", VA = "0x4740E90")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlValueConverter()
 	{
 	}

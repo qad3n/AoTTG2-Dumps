@@ -1,5 +1,5 @@
 // Type: Settings.HumanInputSettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/HumanInputSettings.cs
@@ -8,15 +8,15 @@
 
 // Settings.HumanInputSettings$$get_FileName
 // il2cpp: System_String_o* Settings_HumanInputSettings__get_FileName (Settings_HumanInputSettings_o* __this, const MethodInfo* method);
-// 0x41f2c50
+// 0x181f18bb0
 
 System_String_o *
 Settings_HumanInputSettings__get_FileName(Settings_HumanInputSettings_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ad868 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"HumanInput.json");
-    g_data_057ad868 = '\x01';
+  if (Il2CppMethodInitialized_184345460 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"HumanInput.json");
+    Il2CppMethodInitialized_184345460 = '\x01';
   }
   return "HumanInput.json";
 }
@@ -24,474 +24,454 @@ Settings_HumanInputSettings__get_FileName(Settings_HumanInputSettings_o *__this,
 
 // Settings.HumanInputSettings$$.ctor
 // il2cpp: void Settings_HumanInputSettings___ctor (Settings_HumanInputSettings_o* __this, const MethodInfo* method);
-// 0x41f2c80
+// 0x181f17f40
 
 void Settings_HumanInputSettings___ctor(Settings_HumanInputSettings_o *__this,MethodInfo *method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  int32_t iVar1;
-  System_String_array *pSVar2;
-  Settings_KeybindSetting_o *pSVar3;
-  Settings_BoolSetting_o *pSVar4;
+  Settings_IntSetting_c *pSVar1;
+  System_String_o *pSVar2;
+  int32_t iVar3;
+  System_String_array *pSVar4;
+  Settings_KeybindSetting_o *pSVar5;
+  Settings_BoolSetting_o *pSVar6;
   Settings_IntSetting_o *__this_00;
   Settings_FloatSetting_o *__this_01;
-  MethodInfo *method_00;
-  Il2CppClass *__this_02;
-  undefined8 extraout_RDX;
-  System_String_o *pSVar5;
-  System_String_o *pSVar6;
-  Il2CppObject *__this_03;
-  float fVar7;
-  undefined1 auVar8 [16];
   
-  if (g_data_057ad869 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BoolSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_FloatSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IntSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_KeybindSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&"LeftAlt");
-    il2cpp_runtime_helper_023445d0(&"R");
-    il2cpp_runtime_helper_023445d0(&"Q");
-    il2cpp_runtime_helper_023445d0(&"LeftShift");
-    il2cpp_runtime_helper_023445d0(&"None");
-    il2cpp_runtime_helper_023445d0(&"E");
-    il2cpp_runtime_helper_023445d0(&"Mouse1");
-    il2cpp_runtime_helper_023445d0(&"Space");
-    il2cpp_runtime_helper_023445d0(&"WheelDown");
-    il2cpp_runtime_helper_023445d0(&"Mouse0");
-    il2cpp_runtime_helper_023445d0(&"LeftControl");
-    g_data_057ad869 = '\x01';
+  if (Il2CppMethodInitialized_184345461 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BoolSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_KeybindSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"LeftAlt");
+    il2cpp_codegen_initialize_runtime_metadata(&"R");
+    il2cpp_codegen_initialize_runtime_metadata(&"Q");
+    il2cpp_codegen_initialize_runtime_metadata(&"LeftShift");
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"E");
+    il2cpp_codegen_initialize_runtime_metadata(&"Mouse1");
+    il2cpp_codegen_initialize_runtime_metadata(&"Space");
+    il2cpp_codegen_initialize_runtime_metadata(&"WheelDown");
+    il2cpp_codegen_initialize_runtime_metadata(&"Mouse0");
+    il2cpp_codegen_initialize_runtime_metadata(&"LeftControl");
+    Il2CppMethodInitialized_184345461 = '\x01';
   }
-  pSVar5 = (System_String_o *)0x2;
-  __this_03 = TypeInfo_string;
-  pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-  pSVar6 = "Mouse0";
-  if (pSVar2 != (System_String_array *)0x0) {
-    if ((int)pSVar2->max_length != 0) {
-      __this_03 = (Il2CppObject *)pSVar2->m_Items;
-      pSVar2->m_Items[0] = "Mouse0";
-      il2cpp_runtime_helper_022b4080();
-      pSVar5 = pSVar6;
-      if (1 < (uint)pSVar2->max_length) {
-        pSVar2->m_Items[1] = "None";
-        il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-        auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-        pSVar3 = auVar8._0_8_;
-        Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-        (__this->fields).AttackDefault = pSVar3;
-        il2cpp_runtime_helper_022b4080(&(__this->fields).AttackDefault,pSVar3);
-        pSVar5 = (System_String_o *)0x2;
-        __this_03 = TypeInfo_string;
-        pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-        pSVar6 = "Mouse1";
-        if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-        if ((int)pSVar2->max_length != 0) {
-          __this_03 = (Il2CppObject *)pSVar2->m_Items;
-          pSVar2->m_Items[0] = "Mouse1";
-          il2cpp_runtime_helper_022b4080();
-          pSVar5 = pSVar6;
-          if (1 < (uint)pSVar2->max_length) {
-            pSVar2->m_Items[1] = "None";
-            il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-            auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-            pSVar3 = auVar8._0_8_;
-            Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-            (__this->fields).AttackSpecial = pSVar3;
-            il2cpp_runtime_helper_022b4080(&(__this->fields).AttackSpecial,pSVar3);
-            pSVar5 = (System_String_o *)0x2;
-            __this_03 = TypeInfo_string;
-            pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-            pSVar6 = "Q";
-            if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-            if ((int)pSVar2->max_length != 0) {
-              __this_03 = (Il2CppObject *)pSVar2->m_Items;
-              pSVar2->m_Items[0] = "Q";
-              il2cpp_runtime_helper_022b4080();
-              pSVar5 = pSVar6;
-              if (1 < (uint)pSVar2->max_length) {
-                pSVar2->m_Items[1] = "None";
-                il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                pSVar3 = auVar8._0_8_;
-                Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                (__this->fields).HookLeft = pSVar3;
-                il2cpp_runtime_helper_022b4080(&(__this->fields).HookLeft,pSVar3);
-                pSVar5 = (System_String_o *)0x2;
-                __this_03 = TypeInfo_string;
-                pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                pSVar6 = "E";
-                if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                if ((int)pSVar2->max_length != 0) {
-                  __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                  pSVar2->m_Items[0] = "E";
-                  il2cpp_runtime_helper_022b4080();
-                  pSVar5 = pSVar6;
-                  if (1 < (uint)pSVar2->max_length) {
-                    pSVar2->m_Items[1] = "None";
-                    il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                    auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                    pSVar3 = auVar8._0_8_;
-                    Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                    (__this->fields).HookRight = pSVar3;
-                    il2cpp_runtime_helper_022b4080(&(__this->fields).HookRight,pSVar3);
-                    pSVar5 = (System_String_o *)0x2;
-                    __this_03 = TypeInfo_string;
-                    pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                    pSVar6 = "None";
-                    if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                    if ((int)pSVar2->max_length != 0) {
-                      __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                      pSVar2->m_Items[0] = "None";
-                      il2cpp_runtime_helper_022b4080();
-                      pSVar5 = pSVar6;
-                      if (1 < (uint)pSVar2->max_length) {
-                        pSVar2->m_Items[1] = "None";
-                        il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                        auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                        pSVar3 = auVar8._0_8_;
-                        Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                        (__this->fields).HookBoth = pSVar3;
-                        il2cpp_runtime_helper_022b4080(&(__this->fields).HookBoth,pSVar3);
-                        pSVar5 = (System_String_o *)0x2;
-                        __this_03 = TypeInfo_string;
-                        pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                        pSVar6 = "LeftControl";
-                        if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                        if ((int)pSVar2->max_length != 0) {
-                          __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                          pSVar2->m_Items[0] = "LeftControl";
-                          il2cpp_runtime_helper_022b4080();
-                          pSVar5 = pSVar6;
-                          if (1 < (uint)pSVar2->max_length) {
-                            pSVar2->m_Items[1] = "None";
-                            il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                            auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                            pSVar3 = auVar8._0_8_;
-                            Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                            (__this->fields).Dash = pSVar3;
-                            il2cpp_runtime_helper_022b4080(&(__this->fields).Dash,pSVar3);
-                            pSVar5 = (System_String_o *)0x2;
-                            __this_03 = TypeInfo_string;
-                            pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                            pSVar6 = "WheelDown";
-                            if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                            if ((int)pSVar2->max_length != 0) {
-                              __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                              pSVar2->m_Items[0] = "WheelDown";
-                              il2cpp_runtime_helper_022b4080();
-                              pSVar5 = pSVar6;
-                              if (1 < (uint)pSVar2->max_length) {
-                                pSVar2->m_Items[1] = "None";
-                                il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                pSVar3 = auVar8._0_8_;
-                                Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                                (__this->fields).ReelIn = pSVar3;
-                                il2cpp_runtime_helper_022b4080(&(__this->fields).ReelIn,pSVar3);
-                                pSVar5 = (System_String_o *)0x2;
-                                __this_03 = TypeInfo_string;
-                                pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                pSVar6 = "LeftAlt";
-                                if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                                if ((int)pSVar2->max_length != 0) {
-                                  __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                  pSVar2->m_Items[0] = "LeftAlt";
-                                  il2cpp_runtime_helper_022b4080();
-                                  pSVar5 = pSVar6;
-                                  if (1 < (uint)pSVar2->max_length) {
-                                    pSVar2->m_Items[1] = "None";
-                                    il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                    auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                    pSVar3 = auVar8._0_8_;
-                                    Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                                    (__this->fields).ReelOut = pSVar3;
-                                    il2cpp_runtime_helper_022b4080(&(__this->fields).ReelOut,pSVar3);
-                                    pSVar5 = (System_String_o *)0x2;
-                                    __this_03 = TypeInfo_string;
-                                    pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                    pSVar6 = "LeftControl";
-                                    if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                                    if ((int)pSVar2->max_length != 0) {
-                                      __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                      pSVar2->m_Items[0] = "LeftControl";
-                                      il2cpp_runtime_helper_022b4080();
-                                      pSVar5 = pSVar6;
-                                      if (1 < (uint)pSVar2->max_length) {
-                                        pSVar2->m_Items[1] = "None";
-                                        il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                        auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                        pSVar3 = auVar8._0_8_;
-                                        Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                                        (__this->fields).Dodge = pSVar3;
-                                        il2cpp_runtime_helper_022b4080(&(__this->fields).Dodge,pSVar3);
-                                        pSVar5 = (System_String_o *)0x2;
-                                        __this_03 = TypeInfo_string;
-                                        pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                        pSVar6 = "LeftShift";
-                                        if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                                        if ((int)pSVar2->max_length != 0) {
-                                          __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                          pSVar2->m_Items[0] = "LeftShift";
-                                          il2cpp_runtime_helper_022b4080();
-                                          pSVar5 = pSVar6;
-                                          if (1 < (uint)pSVar2->max_length) {
-                                            pSVar2->m_Items[1] = "None";
-                                            il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                            auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                            pSVar3 = auVar8._0_8_;
-                                            Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                                            (__this->fields).Jump = pSVar3;
-                                            il2cpp_runtime_helper_022b4080(&(__this->fields).Jump,pSVar3);
-                                            pSVar5 = (System_String_o *)0x2;
-                                            __this_03 = TypeInfo_string;
-                                            pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                            pSVar6 = "R";
-                                            if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                                            if ((int)pSVar2->max_length != 0) {
-                                              __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                              pSVar2->m_Items[0] = "R";
-                                              il2cpp_runtime_helper_022b4080();
-                                              pSVar5 = pSVar6;
-                                              if (1 < (uint)pSVar2->max_length) {
-                                                pSVar2->m_Items[1] = "None";
-                                                il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                pSVar3 = auVar8._0_8_;
-                                                Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_);
-                                                (__this->fields).Reload = pSVar3;
-                                                il2cpp_runtime_helper_022b4080(&(__this->fields).Reload,pSVar3);
-                                                pSVar5 = (System_String_o *)0x2;
-                                                __this_03 = TypeInfo_string;
-                                                pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                                pSVar6 = "LeftControl";
-                                                if (pSVar2 == (System_String_array *)0x0) goto label_041f38b2;
-                                                if ((int)pSVar2->max_length != 0) {
-                                                  __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                                  pSVar2->m_Items[0] = "LeftControl";
-                                                  il2cpp_runtime_helper_022b4080();
-                                                  pSVar5 = pSVar6;
-                                                  if (1 < (uint)pSVar2->max_length) {
-                                                    pSVar2->m_Items[1] = "None";
-                                                    il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                    auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                    pSVar3 = auVar8._0_8_;
-                                                    Settings_KeybindSetting___ctor(pSVar3,pSVar2,auVar8._8_8_)
-                                                    ;
-                                                    (__this->fields).HorseMount = pSVar3;
-                                                    il2cpp_runtime_helper_022b4080(&(__this->fields).HorseMount,pSVar3);
-                                                    pSVar5 = (System_String_o *)0x2;
-                                                    __this_03 = TypeInfo_string;
-                                                    pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                                    pSVar6 = "LeftShift";
-                                                    if (pSVar2 == (System_String_array *)0x0)
-                                                    goto label_041f38b2;
-                                                    if ((int)pSVar2->max_length != 0) {
-                                                      __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                                      pSVar2->m_Items[0] = "LeftShift";
-                                                      il2cpp_runtime_helper_022b4080();
-                                                      pSVar5 = pSVar6;
-                                                      if (1 < (uint)pSVar2->max_length) {
-                                                        pSVar2->m_Items[1] = "None";
-                                                        il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                        auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                        pSVar3 = auVar8._0_8_;
+  pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+  pSVar2 = "Mouse0";
+  if (pSVar4 != (System_String_array *)0x0) {
+    if ((int)pSVar4->max_length != 0) {
+      pSVar4->m_Items[0] = "Mouse0";
+      Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+      pSVar2 = "None";
+      if (1 < (uint)pSVar4->max_length) {
+        pSVar4->m_Items[1] = "None";
+        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+        pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+        Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+        (__this->fields).AttackDefault = pSVar5;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).AttackDefault,pSVar5);
+        pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+        pSVar2 = "Mouse1";
+        if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+        if ((int)pSVar4->max_length != 0) {
+          pSVar4->m_Items[0] = "Mouse1";
+          Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+          pSVar2 = "None";
+          if (1 < (uint)pSVar4->max_length) {
+            pSVar4->m_Items[1] = "None";
+            Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+            pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+            Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+            (__this->fields).AttackSpecial = pSVar5;
+            Il2CppCodeGenWriteBarrier(&(__this->fields).AttackSpecial,pSVar5);
+            pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+            pSVar2 = "Q";
+            if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+            if ((int)pSVar4->max_length != 0) {
+              pSVar4->m_Items[0] = "Q";
+              Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+              pSVar2 = "None";
+              if (1 < (uint)pSVar4->max_length) {
+                pSVar4->m_Items[1] = "None";
+                Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                (__this->fields).HookLeft = pSVar5;
+                Il2CppCodeGenWriteBarrier(&(__this->fields).HookLeft,pSVar5);
+                pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                pSVar2 = "E";
+                if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                if ((int)pSVar4->max_length != 0) {
+                  pSVar4->m_Items[0] = "E";
+                  Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                  pSVar2 = "None";
+                  if (1 < (uint)pSVar4->max_length) {
+                    pSVar4->m_Items[1] = "None";
+                    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                    pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                    Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                    (__this->fields).HookRight = pSVar5;
+                    Il2CppCodeGenWriteBarrier(&(__this->fields).HookRight,pSVar5);
+                    pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                    pSVar2 = "None";
+                    if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                    if ((int)pSVar4->max_length != 0) {
+                      pSVar4->m_Items[0] = "None";
+                      Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                      pSVar2 = "None";
+                      if (1 < (uint)pSVar4->max_length) {
+                        pSVar4->m_Items[1] = "None";
+                        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                        pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                        Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                        (__this->fields).HookBoth = pSVar5;
+                        Il2CppCodeGenWriteBarrier(&(__this->fields).HookBoth,pSVar5);
+                        pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                        pSVar2 = "LeftControl";
+                        if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                        if ((int)pSVar4->max_length != 0) {
+                          pSVar4->m_Items[0] = "LeftControl";
+                          Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                          pSVar2 = "None";
+                          if (1 < (uint)pSVar4->max_length) {
+                            pSVar4->m_Items[1] = "None";
+                            Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                            pSVar5 = il2cpp_codegen_object_new
+                                               ((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                            Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                            (__this->fields).Dash = pSVar5;
+                            Il2CppCodeGenWriteBarrier(&(__this->fields).Dash,pSVar5);
+                            pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                            pSVar2 = "WheelDown";
+                            if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                            if ((int)pSVar4->max_length != 0) {
+                              pSVar4->m_Items[0] = "WheelDown";
+                              Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                              pSVar2 = "None";
+                              if (1 < (uint)pSVar4->max_length) {
+                                pSVar4->m_Items[1] = "None";
+                                Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                pSVar5 = il2cpp_codegen_object_new
+                                                   ((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                                Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                                (__this->fields).ReelIn = pSVar5;
+                                Il2CppCodeGenWriteBarrier(&(__this->fields).ReelIn,pSVar5);
+                                pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                                pSVar2 = "LeftAlt";
+                                if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                                if ((int)pSVar4->max_length != 0) {
+                                  pSVar4->m_Items[0] = "LeftAlt";
+                                  Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                  pSVar2 = "None";
+                                  if (1 < (uint)pSVar4->max_length) {
+                                    pSVar4->m_Items[1] = "None";
+                                    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                    pSVar5 = il2cpp_codegen_object_new
+                                                       ((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                                    Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                                    (__this->fields).ReelOut = pSVar5;
+                                    Il2CppCodeGenWriteBarrier(&(__this->fields).ReelOut,pSVar5);
+                                    pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                                    pSVar2 = "LeftControl";
+                                    if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                                    if ((int)pSVar4->max_length != 0) {
+                                      pSVar4->m_Items[0] = "LeftControl";
+                                      Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                      pSVar2 = "None";
+                                      if (1 < (uint)pSVar4->max_length) {
+                                        pSVar4->m_Items[1] = "None";
+                                        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                        pSVar5 = il2cpp_codegen_object_new
+                                                           ((Il2CppClass *)TypeInfo_Settings_KeybindSetting);
+                                        Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                                        (__this->fields).Dodge = pSVar5;
+                                        Il2CppCodeGenWriteBarrier(&(__this->fields).Dodge,pSVar5);
+                                        pSVar4 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+                                        pSVar2 = "LeftShift";
+                                        if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                                        if ((int)pSVar4->max_length != 0) {
+                                          pSVar4->m_Items[0] = "LeftShift";
+                                          Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                          pSVar2 = "None";
+                                          if (1 < (uint)pSVar4->max_length) {
+                                            pSVar4->m_Items[1] = "None";
+                                            Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                            pSVar5 = il2cpp_codegen_object_new
+                                                               ((Il2CppClass *)
+                                                                TypeInfo_Settings_KeybindSetting);
+                                            Settings_KeybindSetting___ctor(pSVar5,pSVar4,(MethodInfo *)0x0);
+                                            (__this->fields).Jump = pSVar5;
+                                            Il2CppCodeGenWriteBarrier(&(__this->fields).Jump,pSVar5);
+                                            pSVar4 = (System_String_array *)
+                                                     SZArrayNew(TypeInfo_string_array,2);
+                                            pSVar2 = "R";
+                                            if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                                            if ((int)pSVar4->max_length != 0) {
+                                              pSVar4->m_Items[0] = "R";
+                                              Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                              pSVar2 = "None";
+                                              if (1 < (uint)pSVar4->max_length) {
+                                                pSVar4->m_Items[1] = "None";
+                                                Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                                pSVar5 = il2cpp_codegen_object_new
+                                                                   ((Il2CppClass *)
+                                                                    TypeInfo_Settings_KeybindSetting);
+                                                Settings_KeybindSetting___ctor
+                                                          (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                (__this->fields).Reload = pSVar5;
+                                                Il2CppCodeGenWriteBarrier(&(__this->fields).Reload,pSVar5);
+                                                pSVar4 = (System_String_array *)
+                                                         SZArrayNew(TypeInfo_string_array,2);
+                                                pSVar2 = "LeftControl";
+                                                if (pSVar4 == (System_String_array *)0x0) goto label_181f18b98;
+                                                if ((int)pSVar4->max_length != 0) {
+                                                  pSVar4->m_Items[0] = "LeftControl";
+                                                  Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                                  pSVar2 = "None";
+                                                  if (1 < (uint)pSVar4->max_length) {
+                                                    pSVar4->m_Items[1] = "None";
+                                                    Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                                    pSVar5 = il2cpp_codegen_object_new
+                                                                       ((Il2CppClass *)
+                                                                        TypeInfo_Settings_KeybindSetting);
+                                                    Settings_KeybindSetting___ctor
+                                                              (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                    (__this->fields).HorseMount = pSVar5;
+                                                    Il2CppCodeGenWriteBarrier
+                                                              (&(__this->fields).HorseMount,pSVar5);
+                                                    pSVar4 = (System_String_array *)
+                                                             SZArrayNew(TypeInfo_string_array,2);
+                                                    pSVar2 = "LeftShift";
+                                                    if (pSVar4 == (System_String_array *)0x0)
+                                                    goto label_181f18b98;
+                                                    if ((int)pSVar4->max_length != 0) {
+                                                      pSVar4->m_Items[0] = "LeftShift";
+                                                      Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                                      pSVar2 = "None";
+                                                      if (1 < (uint)pSVar4->max_length) {
+                                                        pSVar4->m_Items[1] = "None";
+                                                        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + 1,pSVar2);
+                                                        pSVar5 = il2cpp_codegen_object_new
+                                                                           ((Il2CppClass *)
+                                                                            TypeInfo_Settings_KeybindSetting);
                                                         Settings_KeybindSetting___ctor
-                                                                  (pSVar3,pSVar2,auVar8._8_8_);
-                                                        (__this->fields).HorseWalk = pSVar3;
-                                                        il2cpp_runtime_helper_022b4080(&(__this->fields).HorseWalk,pSVar3)
-                                                        ;
-                                                        pSVar5 = (System_String_o *)0x2;
-                                                        __this_03 = TypeInfo_string;
-                                                        pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                                        pSVar6 = "Space";
-                                                        if (pSVar2 == (System_String_array *)0x0)
-                                                        goto label_041f38b2;
-                                                        if ((int)pSVar2->max_length != 0) {
-                                                          __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                                          pSVar2->m_Items[0] = "Space";
-                                                          il2cpp_runtime_helper_022b4080();
-                                                          pSVar5 = pSVar6;
-                                                          if (1 < (uint)pSVar2->max_length) {
-                                                            pSVar2->m_Items[1] = "None";
-                                                            il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                            auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                            pSVar3 = auVar8._0_8_;
-                                                            Settings_KeybindSetting___ctor
-                                                                      (pSVar3,pSVar2,auVar8._8_8_);
-                                                            (__this->fields).HorseJump = pSVar3;
-                                                            il2cpp_runtime_helper_022b4080(&(__this->fields).HorseJump,
-                                                                               pSVar3);
-                                                            pSVar5 = (System_String_o *)0x2;
-                                                            __this_03 = TypeInfo_string;
-                                                            pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40();
-                                                            pSVar6 = "None";
-                                                            if (pSVar2 == (System_String_array *)0x0)
-                                                            goto label_041f38b2;
-                                                            if ((int)pSVar2->max_length != 0) {
-                                                              __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                                              pSVar2->m_Items[0] = "None";
-                                                              il2cpp_runtime_helper_022b4080();
-                                                              pSVar5 = pSVar6;
-                                                              if (1 < (uint)pSVar2->max_length) {
-                                                                pSVar2->m_Items[1] = "None";
-                                                                il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                                auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                                pSVar3 = auVar8._0_8_;
-                                                                Settings_KeybindSetting___ctor
-                                                                          (pSVar3,pSVar2,auVar8._8_8_);
-                                                                (__this->fields).NapeLock = pSVar3;
-                                                                il2cpp_runtime_helper_022b4080(&(__this->fields).NapeLock,
-                                                                                   pSVar3);
-                                                                pSVar5 = (System_String_o *)0x2;
-                                                                __this_03 = TypeInfo_string;
-                                                                pSVar2 = (System_String_array *)il2cpp_runtime_helper_022b2a40()
-                                                                ;
-                                                                pSVar6 = "LeftAlt";
-                                                                if (pSVar2 == (System_String_array *)0x0)
-                                                                goto label_041f38b2;
-                                                                if ((int)pSVar2->max_length != 0) {
-                                                                  __this_03 = (Il2CppObject *)pSVar2->m_Items;
-                                                                  pSVar2->m_Items[0] = "LeftAlt";
-                                                                  il2cpp_runtime_helper_022b4080();
-                                                                  pSVar5 = pSVar6;
-                                                                  if (1 < (uint)pSVar2->max_length) {
-                                                                    pSVar2->m_Items[1] = "None";
-                                                                    il2cpp_runtime_helper_022b4080(pSVar2->m_Items + 1);
-                                                                    auVar8 = il2cpp_runtime_helper_023052d0(TypeInfo_KeybindSetting);
-                                                                    pSVar3 = auVar8._0_8_;
-                                                                    Settings_KeybindSetting___ctor
-                                                                              (pSVar3,pSVar2,auVar8._8_8_);
-                                                                    (__this->fields).Walk = pSVar3;
-                                                                    il2cpp_runtime_helper_022b4080(&(__this->fields).Walk,
-                                                                                       pSVar3);
-                                                                    pSVar4 = (Settings_BoolSetting_o *)
-                                                                             il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                                    if (g_data_057ad896 == '\0') {
-                                                                      il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                                      g_data_057ad896 = '\x01';
-                                                                    }
-                                                                    Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                              ((Settings_TypedSetting_bool__o
-                                                                                *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
-                                                                    (__this->fields).DashDoubleTap = pSVar4;
-                                                                    il2cpp_runtime_helper_022b4080(&(__this->fields).
-                                                                                        DashDoubleTap,pSVar4);
-                                                                    pSVar4 = (Settings_BoolSetting_o *)
-                                                                             il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                                    if (g_data_057ad896 == '\0') {
-                                                                      il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                                      g_data_057ad896 = '\x01';
-                                                                    }
-                                                                    Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                              ((Settings_TypedSetting_bool__o
-                                                                                *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
-                                                                    (__this->fields).WallSlideDash = pSVar4;
-                                                                    il2cpp_runtime_helper_022b4080(&(__this->fields).
-                                                                                        WallSlideDash,pSVar4);
-                                                                    __this_00 = (Settings_IntSetting_o *)
-                                                                                il2cpp_runtime_helper_023052d0(
-                                                       TypeInfo_IntSetting);
-                                                       if (g_data_057ad8a8 == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-                                                         g_data_057ad8a8 = '\x01';
+                                                                  (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                        (__this->fields).HorseWalk = pSVar5;
+                                                        Il2CppCodeGenWriteBarrier
+                                                                  (&(__this->fields).HorseWalk,pSVar5);
+                                                        pSVar4 = (System_String_array *)
+                                                                 SZArrayNew(TypeInfo_string_array,2);
+                                                        pSVar2 = "Space";
+                                                        if (pSVar4 == (System_String_array *)0x0)
+                                                        goto label_181f18b98;
+                                                        if ((int)pSVar4->max_length != 0) {
+                                                          pSVar4->m_Items[0] = "Space";
+                                                          Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                                          pSVar2 = "None";
+                                                          if (1 < (uint)pSVar4->max_length) {
+                                                            pSVar4->m_Items[1] = "None";
+                                                            Il2CppCodeGenWriteBarrier
+                                                                      (pSVar4->m_Items + 1,pSVar2);
+                                                            pSVar5 = il2cpp_codegen_object_new
+                                                                               ((Il2CppClass *)
+                                                                                                                                                                
+                                                       TypeInfo_Settings_KeybindSetting);
+                                                       Settings_KeybindSetting___ctor
+                                                                 (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                       (__this->fields).HorseJump = pSVar5;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).HorseJump,pSVar5);
+                                                       pSVar4 = (System_String_array *)
+                                                                SZArrayNew(TypeInfo_string_array,2);
+                                                       pSVar2 = "None";
+                                                       if (pSVar4 == (System_String_array *)0x0)
+                                                       goto label_181f18b98;
+                                                       if ((int)pSVar4->max_length != 0) {
+                                                         pSVar4->m_Items[0] = "None";
+                                                         Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                                         pSVar2 = "None";
+                                                         if (1 < (uint)pSVar4->max_length) {
+                                                           pSVar4->m_Items[1] = "None";
+                                                           Il2CppCodeGenWriteBarrier
+                                                                     (pSVar4->m_Items + 1,pSVar2);
+                                                           pSVar5 = il2cpp_codegen_object_new
+                                                                              ((Il2CppClass *)
+                                                                                                                                                              
+                                                       TypeInfo_Settings_KeybindSetting);
+                                                       Settings_KeybindSetting___ctor
+                                                                 (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                       (__this->fields).NapeLock = pSVar5;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).NapeLock,pSVar5);
+                                                       pSVar4 = (System_String_array *)
+                                                                SZArrayNew(TypeInfo_string_array,2);
+                                                       pSVar2 = "LeftAlt";
+                                                       if (pSVar4 == (System_String_array *)0x0)
+                                                       goto label_181f18b98;
+                                                       if ((int)pSVar4->max_length != 0) {
+                                                         pSVar4->m_Items[0] = "LeftAlt";
+                                                         Il2CppCodeGenWriteBarrier(pSVar4->m_Items,pSVar2);
+                                                         pSVar2 = "None";
+                                                         if (1 < (uint)pSVar4->max_length) {
+                                                           pSVar4->m_Items[1] = "None";
+                                                           Il2CppCodeGenWriteBarrier
+                                                                     (pSVar4->m_Items + 1,pSVar2);
+                                                           pSVar5 = il2cpp_codegen_object_new
+                                                                              ((Il2CppClass *)
+                                                                                                                                                              
+                                                       TypeInfo_Settings_KeybindSetting);
+                                                       Settings_KeybindSetting___ctor
+                                                                 (pSVar5,pSVar4,(MethodInfo *)0x0);
+                                                       (__this->fields).Walk = pSVar5;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).Walk,pSVar5);
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
+                                                       }
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,true
+                                                                  ,(MethodInfo_E8F2C0 *)
+                                                                   MethodInfo_Settings_TypedSetting_bool_ctor)
+                                                       ;
+                                                       (__this->fields).DashDoubleTap = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).DashDoubleTap,pSVar6);
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
+                                                       }
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,true
+                                                                  ,(MethodInfo_E8F2C0 *)
+                                                                   MethodInfo_Settings_TypedSetting_bool_ctor)
+                                                       ;
+                                                       (__this->fields).WallSlideDash = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).WallSlideDash,pSVar6);
+                                                       __this_00 = il2cpp_codegen_object_new
+                                                                             ((Il2CppClass *)
+                                                                              TypeInfo_Settings_IntSetting);
+                                                       if (Il2CppMethodInitialized_18434549c == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&MethodInfo_Settings_TypedSetting_int_ctor
+                                                                   );
+                                                         Il2CppMethodInitialized_18434549c = '\x01';
                                                        }
                                                        (__this_00->fields).MinValue = -0x80000000;
                                                        (__this_00->fields).MaxValue = 0x7fffffff;
-                                                       Settings_TypedSetting_int____ctor
-                                                                 ((Settings_TypedSetting_int__o *)__this_00,
-                                                                  MethodInfo_TypedSetting_1_System_Int32);
+                                                       Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+                                                                 ((Settings_TypedSetting_T__o *)__this_00,
+                                                                  (MethodInfo_E8F180 *)
+                                                                  MethodInfo_Settings_TypedSetting_int_ctor);
+                                                       pSVar1 = __this_00->klass;
                                                        (__this_00->fields).MinValue = -0x80000000;
                                                        (__this_00->fields).MaxValue = 0x7fffffff;
-                                                       iVar1 = (*(__this_00->klass->vtable)._10_SanitizeValue.
-                                                                 methodPtr)(__this_00,2,
-                                                                            (__this_00->klass->vtable).
-                                                                            _10_SanitizeValue.method);
-                                                       (__this_00->fields).DefaultValue = iVar1;
+                                                       iVar3 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                                                                         (__this_00,2,
+                                                                          (pSVar1->vtable)._11_SanitizeValue.
+                                                                          method);
+                                                       (__this_00->fields).DefaultValue = iVar3;
                                                        (*(__this_00->klass->vtable)._4_SetDefault.methodPtr)
                                                                  (__this_00,
                                                                   (__this_00->klass->vtable)._4_SetDefault.
                                                                   method);
                                                        (__this->fields).WallSlideAttach = __this_00;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).WallSlideAttach,
-                                                                          __this_00);
-                                                       __this_01 = (Settings_FloatSetting_o *)
-                                                                   il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-                                                       if (g_data_057ad89e == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-                                                         g_data_057ad89e = '\x01';
-                                                       }
-                                                       (__this_01->fields).MinValue = -3.4028235e+38;
-                                                       (__this_01->fields).MaxValue = 3.4028235e+38;
-                                                       Settings_TypedSetting_float____ctor
-                                                                 ((Settings_TypedSetting_float__o *)__this_01,
-                                                                  MethodInfo_TypedSetting_1_System_Single);
-                                                       (__this_01->fields).MinValue = 0.0;
-                                                       (__this_01->fields).MaxValue = 1.0;
-                                                       fVar7 = (float)(*(__this_01->klass->vtable).
-                                                                        _10_SanitizeValue.methodPtr)
-                                                                                (0x3e4ccccd,__this_01,
-                                                                                 (__this_01->klass->vtable).
-                                                                                 _10_SanitizeValue.method);
-                                                       (__this_01->fields).DefaultValue = fVar7;
-                                                       (*(__this_01->klass->vtable)._4_SetDefault.methodPtr)
-                                                                 (__this_01,
-                                                                  (__this_01->klass->vtable)._4_SetDefault.
-                                                                  method);
-                                                       (__this->fields).ReelOutScrollSmoothing = __this_01;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).
-                                                                           ReelOutScrollSmoothing);
-                                                       pSVar4 = (Settings_BoolSetting_o *)
-                                                                il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                       if (g_data_057ad896 == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                         g_data_057ad896 = '\x01';
-                                                       }
-                                                       Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                 ((Settings_TypedSetting_bool__o *)pSVar4,0,
-                                                                  MethodInfo_TypedSetting_1_System_Boolean);
-                                                       (__this->fields).SwapTSAttackSpecial = pSVar4;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).
-                                                                           SwapTSAttackSpecial);
-                                                       pSVar4 = (Settings_BoolSetting_o *)
-                                                                il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                       if (g_data_057ad896 == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                         g_data_057ad896 = '\x01';
-                                                       }
-                                                       Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                 ((Settings_TypedSetting_bool__o *)pSVar4,0,
-                                                                  MethodInfo_TypedSetting_1_System_Boolean);
-                                                       (__this->fields).AutoRefillGas = pSVar4;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).AutoRefillGas);
-                                                       pSVar4 = (Settings_BoolSetting_o *)
-                                                                il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                       if (g_data_057ad896 == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                         g_data_057ad896 = '\x01';
-                                                       }
-                                                       Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                 ((Settings_TypedSetting_bool__o *)pSVar4,0,
-                                                                  MethodInfo_TypedSetting_1_System_Boolean);
-                                                       (__this->fields).AutoUseGas = pSVar4;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).AutoUseGas,pSVar4)
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).WallSlideAttach,__this_00)
                                                        ;
-                                                       method_00 = (MethodInfo *)
-                                                                   il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-                                                       if (g_data_057ad896 == '\0') {
-                                                         il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-                                                         g_data_057ad896 = '\x01';
+                                                       __this_01 = il2cpp_codegen_object_new
+                                                                             ((Il2CppClass *)
+                                                                              TypeInfo_Settings_FloatSetting);
+                                                       Settings_FloatSetting___ctor_1f12570
+                                                                 (__this_01,0.2,0.0,1.0,(MethodInfo *)0x0);
+                                                       (__this->fields).ReelOutScrollSmoothing = __this_01;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).ReelOutScrollSmoothing,
+                                                                  __this_01);
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
                                                        }
-                                                       Settings_TypedSetting_bool____ctor_2a23ec0
-                                                                 ((Settings_TypedSetting_bool__o *)method_00,1
-                                                                  ,MethodInfo_TypedSetting_1_System_Boolean);
-                                                       (__this->fields).ReelInHolding =
-                                                            (Settings_BoolSetting_o *)method_00;
-                                                       il2cpp_runtime_helper_022b4080(&(__this->fields).ReelInHolding);
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,
+                                                                  false,(MethodInfo_E8F2C0 *)
+                                                                                                                                                
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       (__this->fields).SwapTSAttackSpecial = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).SwapTSAttackSpecial,pSVar6
+                                                                 );
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
+                                                       }
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,
+                                                                  false,(MethodInfo_E8F2C0 *)
+                                                                                                                                                
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       (__this->fields).AutoRefillGas = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).AutoRefillGas,pSVar6);
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
+                                                       }
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,
+                                                                  false,(MethodInfo_E8F2C0 *)
+                                                                                                                                                
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       (__this->fields).AutoUseGas = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).AutoUseGas,pSVar6);
+                                                       pSVar6 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                           TypeInfo_Settings_BoolSetting);
+                                                       if (Il2CppMethodInitialized_18434548a == '\0') {
+                                                         il2cpp_codegen_initialize_runtime_metadata
+                                                                   (&
+                                                       MethodInfo_Settings_TypedSetting_bool_ctor);
+                                                       Il2CppMethodInitialized_18434548a = '\x01';
+                                                       }
+                                                       Settings_TypedSetting_bool____ctor_e8f2c0
+                                                                 ((Settings_TypedSetting_bool__o *)pSVar6,true
+                                                                  ,(MethodInfo_E8F2C0 *)
+                                                                   MethodInfo_Settings_TypedSetting_bool_ctor)
+                                                       ;
+                                                       (__this->fields).ReelInHolding = pSVar6;
+                                                       Il2CppCodeGenWriteBarrier
+                                                                 (&(__this->fields).ReelInHolding,pSVar6);
                                                        Settings_BaseSettingsContainer___ctor
-                                                                 ((Settings_PresetSettingsContainer_o *)__this
-                                                                  ,method_00);
+                                                                 ((Settings_BaseSettingsContainer_o *)__this,
+                                                                  (MethodInfo *)0x0);
                                                        return;
                                                        }
                                                        }
@@ -525,26 +505,10 @@ void Settings_HumanInputSettings___ctor(Settings_HumanInputSettings_o *__this,Me
         }
       }
     }
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-label_041f38b2:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad8ac == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Settings_InputKey);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_InputKey);
-    g_data_057ad8ac = '\x01';
-  }
-  __this_02 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_List_InputKey);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_02,MethodInfo_List_1_Settings_InputKey);
-  __this_03[1].klass = __this_02;
-  il2cpp_runtime_helper_022b4080(__this_03 + 1);
-  System_Object___ctor(__this_03,(MethodInfo *)0x0);
-  __this_03[1].monitor = pSVar5;
-  il2cpp_runtime_helper_022b4080(&__this_03[1].monitor,pSVar5);
-  vtableDispatch = __this_03->klass->vtable[4].methodPtr;
-  (*vtableDispatch)(__this_03,__this_03->klass->vtable[4].method,extraout_RDX,vtableDispatch);
-  return;
+label_181f18b98:
+  ThrowNullReferenceException();
 }
 
 

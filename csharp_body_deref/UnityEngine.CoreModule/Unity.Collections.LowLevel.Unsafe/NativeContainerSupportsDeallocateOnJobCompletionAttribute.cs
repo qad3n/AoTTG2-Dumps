@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x200005A")]
-[AttributeUsage(AttributeTargets.Struct)]
+[Token(Token = "0x200006E")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Struct)]
 public sealed class NativeContainerSupportsDeallocateOnJobCompletionAttribute : Attribute
 {
-	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x4DAD860", Offset = "0x4DAD860", VA = "0x4DAD860")]
+	[Token(Token = "0x6000153")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeContainerSupportsDeallocateOnJobCompletionAttribute()
 	{
 	}

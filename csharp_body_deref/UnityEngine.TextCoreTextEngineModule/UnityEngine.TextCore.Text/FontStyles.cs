@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x200004D")]
 [Flags]
 public enum FontStyles
 {
-	[Token(Token = "0x40001E7")]
+	[Token(Token = "0x4000319")]
 	Normal = 0,
-	[Token(Token = "0x40001E8")]
+	[Token(Token = "0x400031A")]
 	Bold = 1,
-	[Token(Token = "0x40001E9")]
+	[Token(Token = "0x400031B")]
 	Italic = 2,
-	[Token(Token = "0x40001EA")]
+	[Token(Token = "0x400031C")]
 	Underline = 4,
-	[Token(Token = "0x40001EB")]
+	[Token(Token = "0x400031D")]
 	LowerCase = 8,
-	[Token(Token = "0x40001EC")]
+	[Token(Token = "0x400031E")]
 	UpperCase = 0x10,
-	[Token(Token = "0x40001ED")]
+	[Token(Token = "0x400031F")]
 	SmallCaps = 0x20,
-	[Token(Token = "0x40001EE")]
+	[Token(Token = "0x4000320")]
 	Strikethrough = 0x40,
-	[Token(Token = "0x40001EF")]
+	[Token(Token = "0x4000321")]
 	Superscript = 0x80,
-	[Token(Token = "0x40001F0")]
+	[Token(Token = "0x4000322")]
 	Subscript = 0x100,
-	[Token(Token = "0x40001F1")]
+	[Token(Token = "0x4000323")]
 	Highlight = 0x200
 }

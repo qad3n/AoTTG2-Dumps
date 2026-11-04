@@ -17,57 +17,57 @@ namespace DG.Tweening.Plugins;
 internal class Color2Plugin : ABSTweenPlugin<Color2, Color2, ColorOptions>
 {
 	[Token(Token = "0x60002CA")]
-	[Address(RVA = "0x2371290", Offset = "0x2371290", VA = "0x2371290", Slot = "4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public override void Reset(TweenerCore<Color2, Color2, ColorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002CB")]
-	[Address(RVA = "0x23712A0", Offset = "0x23712A0", VA = "0x23712A0", Slot = "5")]
+	[Address(RVA = "0x564620", Offset = "0x562C20", VA = "0x180564620", Slot = "5")]
 	public override void SetFrom(TweenerCore<Color2, Color2, ColorOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x2371530", Offset = "0x2371530", VA = "0x2371530", Slot = "6")]
+	[Address(RVA = "0x564450", Offset = "0x562A50", VA = "0x180564450", Slot = "6")]
 	public override void SetFrom(TweenerCore<Color2, Color2, ColorOptions> t, Color2 fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x2371830", Offset = "0x2371830", VA = "0x2371830", Slot = "7")]
+	[Address(RVA = "0x564050", Offset = "0x562650", VA = "0x180564050", Slot = "7")]
 	public override Color2 ConvertToStartValue(TweenerCore<Color2, Color2, ColorOptions> t, Color2 value)
 	{
 		return default(Color2);
 	}
 
 	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x2371850", Offset = "0x2371850", VA = "0x2371850", Slot = "8")]
+	[Address(RVA = "0x564850", Offset = "0x562E50", VA = "0x180564850", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<Color2, Color2, ColorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x2371910", Offset = "0x2371910", VA = "0x2371910", Slot = "9")]
+	[Address(RVA = "0x5643D0", Offset = "0x5629D0", VA = "0x1805643D0", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<Color2, Color2, ColorOptions> t)
 	{
 	}
 
 	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x23719D0", Offset = "0x23719D0", VA = "0x23719D0", Slot = "10")]
+	[Address(RVA = "0x5643C0", Offset = "0x5629C0", VA = "0x1805643C0", Slot = "10")]
 	public override float GetSpeedBasedDuration(ColorOptions options, float unitsXSecond, Color2 changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x23719E0", Offset = "0x23719E0", VA = "0x23719E0", Slot = "11")]
+	[Address(RVA = "0x564070", Offset = "0x562670", VA = "0x180564070", Slot = "11")]
 	public override void EvaluateAndApply(ColorOptions options, Tween t, bool isRelative, DOGetter<Color2> getter, DOSetter<Color2> setter, float elapsed, Color2 startValue, Color2 changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x2372170", Offset = "0x2372170", VA = "0x2372170")]
+	[Address(RVA = "0x5648D0", Offset = "0x562ED0", VA = "0x1805648D0")]
 	public Color2Plugin()
 	{
 	}

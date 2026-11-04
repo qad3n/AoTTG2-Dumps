@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnCancelMessageListener : MessageListener, ICancelHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x4CB74B0", Offset = "0x4CB74B0", VA = "0x4CB74B0", Slot = "4")]
+	[Token(Token = "0x600047D")]
+	[Address(RVA = "0x2DBD7E0", Offset = "0x2DBBDE0", VA = "0x182DBD7E0", Slot = "4")]
 	public void OnCancel(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000474")]
-	[Address(RVA = "0x4CB7540", Offset = "0x4CB7540", VA = "0x4CB7540")]
+	[Token(Token = "0x600047E")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnCancelMessageListener()
 	{
 	}

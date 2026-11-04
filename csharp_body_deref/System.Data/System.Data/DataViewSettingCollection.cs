@@ -11,132 +11,132 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x2000057")]
 public class DataViewSettingCollection : ICollection, IEnumerable
 {
-	[Token(Token = "0x200004B")]
+	[Token(Token = "0x2000058")]
 	private sealed class DataViewSettingsEnumerator : IEnumerator
 	{
-		[Token(Token = "0x400016F")]
+		[Token(Token = "0x40001B7")]
 		[FieldOffset(Offset = "0x10")]
 		private DataViewSettingCollection _dataViewSettings;
 
-		[Token(Token = "0x4000170")]
+		[Token(Token = "0x40001B8")]
 		[FieldOffset(Offset = "0x18")]
 		private IEnumerator _tableEnumerator;
 
-		[Token(Token = "0x1700010A")]
+		[Token(Token = "0x1700010F")]
 		public object Current
 		{
-			[Token(Token = "0x6000597")]
-			[Address(RVA = "0x459ABD0", Offset = "0x459ABD0", VA = "0x459ABD0", Slot = "5")]
+			[Token(Token = "0x60005CA")]
+			[Address(RVA = "0x250C720", Offset = "0x250AD20", VA = "0x18250C720", Slot = "5")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000594")]
-		[Address(RVA = "0x459A8F0", Offset = "0x459A8F0", VA = "0x459A8F0")]
+		[Token(Token = "0x60005C7")]
+		[Address(RVA = "0x250C650", Offset = "0x250AC50", VA = "0x18250C650")]
 		public DataViewSettingsEnumerator(DataViewManager dvm)
 		{
 		}
 
-		[Token(Token = "0x6000595")]
-		[Address(RVA = "0x459AAA0", Offset = "0x459AAA0", VA = "0x459AAA0", Slot = "4")]
+		[Token(Token = "0x60005C8")]
+		[Address(RVA = "0x250C5B0", Offset = "0x250ABB0", VA = "0x18250C5B0", Slot = "4")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000596")]
-		[Address(RVA = "0x459AB30", Offset = "0x459AB30", VA = "0x459AB30", Slot = "6")]
+		[Token(Token = "0x60005C9")]
+		[Address(RVA = "0x250C600", Offset = "0x250AC00", VA = "0x18250C600", Slot = "6")]
 		public void Reset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400016D")]
+	[Token(Token = "0x40001B5")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly DataViewManager _dataViewManager;
 
-	[Token(Token = "0x400016E")]
+	[Token(Token = "0x40001B6")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly Hashtable _list;
 
-	[Token(Token = "0x17000106")]
+	[Token(Token = "0x1700010B")]
 	public virtual DataViewSetting this[DataTable table]
 	{
-		[Token(Token = "0x600058C")]
-		[Address(RVA = "0x459A3F0", Offset = "0x459A3F0", VA = "0x459A3F0", Slot = "9")]
+		[Token(Token = "0x60005BF")]
+		[Address(RVA = "0x250C310", Offset = "0x250A910", VA = "0x18250C310", Slot = "9")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600058D")]
-		[Address(RVA = "0x459A540", Offset = "0x459A540", VA = "0x459A540", Slot = "10")]
+		[Token(Token = "0x60005C0")]
+		[Address(RVA = "0x250C470", Offset = "0x250AA70", VA = "0x18250C470", Slot = "10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000107")]
+	[Token(Token = "0x1700010C")]
 	[Browsable(false)]
 	public virtual int Count
 	{
-		[Token(Token = "0x600058F")]
-		[Address(RVA = "0x459A8B0", Offset = "0x459A8B0", VA = "0x459A8B0", Slot = "11")]
+		[Token(Token = "0x60005C2")]
+		[Address(RVA = "0x250C2D0", Offset = "0x250A8D0", VA = "0x18250C2D0", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000108")]
+	[Token(Token = "0x1700010D")]
 	[Browsable(false)]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x6000591")]
-		[Address(RVA = "0x459AA50", Offset = "0x459AA50", VA = "0x459AA50", Slot = "7")]
+		[Token(Token = "0x60005C4")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000109")]
+	[Token(Token = "0x1700010E")]
 	[Browsable(false)]
 	public object SyncRoot
 	{
-		[Token(Token = "0x6000592")]
-		[Address(RVA = "0x459AA60", Offset = "0x459AA60", VA = "0x459AA60", Slot = "6")]
+		[Token(Token = "0x60005C5")]
+		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600058B")]
-	[Address(RVA = "0x4598F10", Offset = "0x4598F10", VA = "0x4598F10")]
+	[Token(Token = "0x60005BE")]
+	[Address(RVA = "0x250C210", Offset = "0x250A810", VA = "0x18250C210")]
 	internal DataViewSettingCollection(DataViewManager dataViewManager)
 	{
 	}
 
-	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x459A5E0", Offset = "0x459A5E0", VA = "0x459A5E0", Slot = "4")]
+	[Token(Token = "0x60005C1")]
+	[Address(RVA = "0x250BE90", Offset = "0x250A490", VA = "0x18250BE90", Slot = "4")]
 	public void CopyTo(Array ar, int index)
 	{
 	}
 
-	[Token(Token = "0x6000590")]
-	[Address(RVA = "0x459A860", Offset = "0x459A860", VA = "0x459A860", Slot = "8")]
+	[Token(Token = "0x60005C3")]
+	[Address(RVA = "0x250C0E0", Offset = "0x250A6E0", VA = "0x18250C0E0", Slot = "8")]
 	public IEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000593")]
-	[Address(RVA = "0x459AA70", Offset = "0x459AA70", VA = "0x459AA70")]
+	[Token(Token = "0x60005C6")]
+	[Address(RVA = "0x250C1E0", Offset = "0x250A7E0", VA = "0x18250C1E0")]
 	internal void Remove(DataTable table)
 	{
 	}

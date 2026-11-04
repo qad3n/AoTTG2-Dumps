@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200001A")]
+[Token(Token = "0x2000018")]
 public enum MeasureMode
 {
-	[Token(Token = "0x400008B")]
+	[Token(Token = "0x4000086")]
 	Undefined,
-	[Token(Token = "0x400008C")]
+	[Token(Token = "0x4000087")]
 	Exactly,
-	[Token(Token = "0x400008D")]
+	[Token(Token = "0x4000088")]
 	AtMost
 }

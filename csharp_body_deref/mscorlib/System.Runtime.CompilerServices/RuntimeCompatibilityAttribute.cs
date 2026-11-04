@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x200047F")]
+[Token(Token = "0x20004AE")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false, AllowMultiple = false)]
 public sealed class RuntimeCompatibilityAttribute : Attribute
 {
-	[Token(Token = "0x17000472")]
+	[Token(Token = "0x17000475")]
 	public bool WrapNonExceptionThrows
 	{
-		[Token(Token = "0x6002283")]
-		[Address(RVA = "0x3BC1080", Offset = "0x3BC1080", VA = "0x3BC1080")]
+		[Token(Token = "0x6002303")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002282")]
-	[Address(RVA = "0x3BC1070", Offset = "0x3BC1070", VA = "0x3BC1070")]
+	[Token(Token = "0x6002302")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public RuntimeCompatibilityAttribute()
 	{
 	}

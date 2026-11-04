@@ -21,7 +21,7 @@ public enum XPathResultType
 	[Token(Token = "0x40005D5")]
 	NodeSet = 3,
 	[Token(Token = "0x40005D6")]
-	Navigator = 1,
+	Navigator = String,
 	[Token(Token = "0x40005D7")]
 	Any = 5,
 	[Token(Token = "0x40005D8")]

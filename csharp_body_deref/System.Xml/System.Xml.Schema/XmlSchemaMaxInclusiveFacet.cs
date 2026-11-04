@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaMaxInclusiveFacet : XmlSchemaFacet
 {
 	[Token(Token = "0x6001668")]
-	[Address(RVA = "0x4724D20", Offset = "0x4724D20", VA = "0x4724D20")]
+	[Address(RVA = "0x266CCA0", Offset = "0x266B2A0", VA = "0x18266CCA0")]
 	public XmlSchemaMaxInclusiveFacet()
 	{
 	}

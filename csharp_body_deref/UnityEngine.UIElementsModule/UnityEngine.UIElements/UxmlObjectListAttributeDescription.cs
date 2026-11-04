@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000435")]
+[Token(Token = "0x20004FE")]
 internal class UxmlObjectListAttributeDescription<T> : UxmlObjectAttributeDescription<List<T>> where T : new()
 {
-	[Token(Token = "0x6001ADB")]
+	[Token(Token = "0x60026A6")]
 	public override List<T> GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001ADC")]
+	[Token(Token = "0x60026A7")]
 	public UxmlObjectListAttributeDescription()
 	{
 	}

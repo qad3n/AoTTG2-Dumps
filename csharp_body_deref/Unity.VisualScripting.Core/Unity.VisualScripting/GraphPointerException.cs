@@ -14,11 +14,11 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000075")]
 public sealed class GraphPointerException : Exception
 {
-	[Token(Token = "0x170000DB")]
+	[Token(Token = "0x170000DE")]
 	public GraphPointer pointer
 	{
-		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x4CB1390", Offset = "0x4CB1390", VA = "0x4CB1390")]
+		[Token(Token = "0x6000391")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,8 +26,8 @@ public sealed class GraphPointerException : Exception
 		}
 	}
 
-	[Token(Token = "0x600038B")]
-	[Address(RVA = "0x4CAD300", Offset = "0x4CAD300", VA = "0x4CAD300")]
+	[Token(Token = "0x6000392")]
+	[Address(RVA = "0x2DA9840", Offset = "0x2DA7E40", VA = "0x182DA9840")]
 	public GraphPointerException(string message, GraphPointer pointer)
 	{
 	}

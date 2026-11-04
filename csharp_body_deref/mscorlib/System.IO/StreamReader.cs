@@ -16,83 +16,83 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000547")]
+[Token(Token = "0x2000670")]
 public class StreamReader : TextReader
 {
-	[Token(Token = "0x2000548")]
+	[Token(Token = "0x2000671")]
 	private class NullStreamReader : StreamReader
 	{
-		[Token(Token = "0x170005DA")]
+		[Token(Token = "0x170007F1")]
 		public override Stream BaseStream
 		{
-			[Token(Token = "0x600286C")]
-			[Address(RVA = "0x3BF1900", Offset = "0x3BF1900", VA = "0x3BF1900", Slot = "18")]
+			[Token(Token = "0x6003141")]
+			[Address(RVA = "0x1AD8770", Offset = "0x1AD6D70", VA = "0x181AD8770", Slot = "18")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170005DB")]
+		[Token(Token = "0x170007F2")]
 		public override Encoding CurrentEncoding
 		{
-			[Token(Token = "0x600286D")]
-			[Address(RVA = "0x3BF1970", Offset = "0x3BF1970", VA = "0x3BF1970", Slot = "17")]
+			[Token(Token = "0x6003142")]
+			[Address(RVA = "0x1AD87C0", Offset = "0x1AD6DC0", VA = "0x181AD87C0", Slot = "17")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x600286B")]
-		[Address(RVA = "0x3BF1870", Offset = "0x3BF1870", VA = "0x3BF1870")]
+		[Token(Token = "0x6003140")]
+		[Address(RVA = "0x1AD8630", Offset = "0x1AD6C30", VA = "0x181AD8630")]
 		internal NullStreamReader()
 		{
 		}
 
-		[Token(Token = "0x600286E")]
-		[Address(RVA = "0x3BF1980", Offset = "0x3BF1980", VA = "0x3BF1980", Slot = "8")]
+		[Token(Token = "0x6003143")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 		protected override void Dispose(bool disposing)
 		{
 		}
 
-		[Token(Token = "0x600286F")]
-		[Address(RVA = "0x3BF1990", Offset = "0x3BF1990", VA = "0x3BF1990", Slot = "9")]
+		[Token(Token = "0x6003144")]
+		[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0", Slot = "9")]
 		public override int Peek()
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6002870")]
-		[Address(RVA = "0x3BF19A0", Offset = "0x3BF19A0", VA = "0x3BF19A0", Slot = "10")]
+		[Token(Token = "0x6003145")]
+		[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0", Slot = "10")]
 		public override int Read()
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6002871")]
-		[Address(RVA = "0x3BF19B0", Offset = "0x3BF19B0", VA = "0x3BF19B0", Slot = "11")]
+		[Token(Token = "0x6003146")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
 		public override int Read(char[] buffer, int index, int count)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6002872")]
-		[Address(RVA = "0x3BF19C0", Offset = "0x3BF19C0", VA = "0x3BF19C0", Slot = "14")]
+		[Token(Token = "0x6003147")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
 		public override string ReadLine()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002873")]
-		[Address(RVA = "0x3BF19D0", Offset = "0x3BF19D0", VA = "0x3BF19D0", Slot = "13")]
+		[Token(Token = "0x6003148")]
+		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "13")]
 		public override string ReadToEnd()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002874")]
-		[Address(RVA = "0x3BF19F0", Offset = "0x3BF19F0", VA = "0x3BF19F0", Slot = "19")]
+		[Token(Token = "0x6003149")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "19")]
 		internal override int ReadBuffer()
 		{
 			return default(int);
@@ -100,70 +100,70 @@ public class StreamReader : TextReader
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x2000549")]
+	[Token(Token = "0x2000672")]
 	[CompilerGenerated]
 	private struct _003CReadAsyncInternal_003Ed__66 : IAsyncStateMachine
 	{
-		[Token(Token = "0x40015F1")]
+		[Token(Token = "0x40019D2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x40015F2")]
+		[Token(Token = "0x40019D3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncValueTaskMethodBuilder<int> _003C_003Et__builder;
 
-		[Token(Token = "0x40015F3")]
+		[Token(Token = "0x40019D4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public StreamReader _003C_003E4__this;
 
-		[Token(Token = "0x40015F4")]
+		[Token(Token = "0x40019D5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public Memory<char> buffer;
 
-		[Token(Token = "0x40015F5")]
+		[Token(Token = "0x40019D6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public CancellationToken cancellationToken;
 
-		[Token(Token = "0x40015F6")]
+		[Token(Token = "0x40019D7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private int _003CcharsRead_003E5__2;
 
-		[Token(Token = "0x40015F7")]
+		[Token(Token = "0x40019D8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 		private bool _003CreadToUserBuffer_003E5__3;
 
-		[Token(Token = "0x40015F8")]
+		[Token(Token = "0x40019D9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private byte[] _003CtmpByteBuffer_003E5__4;
 
-		[Token(Token = "0x40015F9")]
+		[Token(Token = "0x40019DA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private Stream _003CtmpStream_003E5__5;
 
-		[Token(Token = "0x40015FA")]
+		[Token(Token = "0x40019DB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 		private int _003Ccount_003E5__6;
 
-		[Token(Token = "0x40015FB")]
+		[Token(Token = "0x40019DC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 		private ConfiguredTaskAwaitable<int>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x40015FC")]
+		[Token(Token = "0x40019DD")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 		private int _003Cn_003E5__7;
 
-		[Token(Token = "0x40015FD")]
+		[Token(Token = "0x40019DE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__2;
 
-		[Token(Token = "0x6002875")]
-		[Address(RVA = "0x3BF1A00", Offset = "0x3BF1A00", VA = "0x3BF1A00", Slot = "4")]
+		[Token(Token = "0x600314A")]
+		[Address(RVA = "0x1AE09F0", Offset = "0x1ADEFF0", VA = "0x181AE09F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6002876")]
-		[Address(RVA = "0x3BF2A90", Offset = "0x3BF2A90", VA = "0x3BF2A90", Slot = "5")]
+		[Token(Token = "0x600314B")]
+		[Address(RVA = "0x1AE1B70", Offset = "0x1AE0170", VA = "0x181AE1B70", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -171,348 +171,348 @@ public class StreamReader : TextReader
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x200054A")]
+	[Token(Token = "0x2000673")]
 	[CompilerGenerated]
 	private struct _003CReadBufferAsync_003Ed__69 : IAsyncStateMachine
 	{
-		[Token(Token = "0x40015FE")]
+		[Token(Token = "0x40019DF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x40015FF")]
+		[Token(Token = "0x40019E0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncTaskMethodBuilder<int> _003C_003Et__builder;
 
-		[Token(Token = "0x4001600")]
+		[Token(Token = "0x40019E1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public StreamReader _003C_003E4__this;
 
-		[Token(Token = "0x4001601")]
+		[Token(Token = "0x40019E2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		private byte[] _003CtmpByteBuffer_003E5__2;
 
-		[Token(Token = "0x4001602")]
+		[Token(Token = "0x40019E3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		private Stream _003CtmpStream_003E5__3;
 
-		[Token(Token = "0x4001603")]
+		[Token(Token = "0x40019E4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private ConfiguredValueTaskAwaitable<int>.ConfiguredValueTaskAwaiter _003C_003Eu__1;
 
-		[Token(Token = "0x6002877")]
-		[Address(RVA = "0x3BF2AE0", Offset = "0x3BF2AE0", VA = "0x3BF2AE0", Slot = "4")]
+		[Token(Token = "0x600314C")]
+		[Address(RVA = "0x1AE1BC0", Offset = "0x1AE01C0", VA = "0x181AE1BC0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x6002878")]
-		[Address(RVA = "0x3BF34C0", Offset = "0x3BF34C0", VA = "0x3BF34C0", Slot = "5")]
+		[Token(Token = "0x600314D")]
+		[Address(RVA = "0x1AE29B0", Offset = "0x1AE0FB0", VA = "0x181AE29B0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x40015E1")]
+	[Token(Token = "0x40019C2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public new static readonly StreamReader Null;
 
-	[Token(Token = "0x40015E2")]
+	[Token(Token = "0x40019C3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private Stream _stream;
 
-	[Token(Token = "0x40015E3")]
+	[Token(Token = "0x40019C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Encoding _encoding;
 
-	[Token(Token = "0x40015E4")]
+	[Token(Token = "0x40019C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private Decoder _decoder;
 
-	[Token(Token = "0x40015E5")]
+	[Token(Token = "0x40019C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private byte[] _byteBuffer;
 
-	[Token(Token = "0x40015E6")]
+	[Token(Token = "0x40019C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private char[] _charBuffer;
 
-	[Token(Token = "0x40015E7")]
+	[Token(Token = "0x40019C8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private int _charPos;
 
-	[Token(Token = "0x40015E8")]
+	[Token(Token = "0x40019C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x44")]
 	private int _charLen;
 
-	[Token(Token = "0x40015E9")]
+	[Token(Token = "0x40019CA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int _byteLen;
 
-	[Token(Token = "0x40015EA")]
+	[Token(Token = "0x40019CB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 	private int _bytePos;
 
-	[Token(Token = "0x40015EB")]
+	[Token(Token = "0x40019CC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private int _maxCharsPerBuffer;
 
-	[Token(Token = "0x40015EC")]
+	[Token(Token = "0x40019CD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x54")]
 	private bool _detectEncoding;
 
-	[Token(Token = "0x40015ED")]
+	[Token(Token = "0x40019CE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x55")]
 	private bool _checkPreamble;
 
-	[Token(Token = "0x40015EE")]
+	[Token(Token = "0x40019CF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x56")]
 	private bool _isBlocked;
 
-	[Token(Token = "0x40015EF")]
+	[Token(Token = "0x40019D0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x57")]
 	private bool _closable;
 
-	[Token(Token = "0x40015F0")]
+	[Token(Token = "0x40019D1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private Task _asyncReadTask;
 
-	[Token(Token = "0x170005D7")]
+	[Token(Token = "0x170007EE")]
 	public virtual Encoding CurrentEncoding
 	{
-		[Token(Token = "0x6002857")]
-		[Address(RVA = "0x3BEF8B0", Offset = "0x3BEF8B0", VA = "0x3BEF8B0", Slot = "17")]
+		[Token(Token = "0x600312C")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005D8")]
+	[Token(Token = "0x170007EF")]
 	public virtual Stream BaseStream
 	{
-		[Token(Token = "0x6002858")]
-		[Address(RVA = "0x3BEF8C0", Offset = "0x3BEF8C0", VA = "0x3BEF8C0", Slot = "18")]
+		[Token(Token = "0x600312D")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005D9")]
+	[Token(Token = "0x170007F0")]
 	internal bool LeaveOpen
 	{
-		[Token(Token = "0x6002859")]
-		[Address(RVA = "0x3BEF8A0", Offset = "0x3BEF8A0", VA = "0x3BEF8A0")]
+		[Token(Token = "0x600312E")]
+		[Address(RVA = "0x1ADD400", Offset = "0x1ADBA00", VA = "0x181ADD400")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002847")]
-	[Address(RVA = "0x3BEEE90", Offset = "0x3BEEE90", VA = "0x3BEEE90")]
+	[Token(Token = "0x600311C")]
+	[Address(RVA = "0x1ADA7C0", Offset = "0x1AD8DC0", VA = "0x181ADA7C0")]
 	private void CheckAsyncTaskInProgress()
 	{
 	}
 
-	[Token(Token = "0x6002848")]
-	[Address(RVA = "0x3BEEEE0", Offset = "0x3BEEEE0", VA = "0x3BEEEE0")]
+	[Token(Token = "0x600311D")]
+	[Address(RVA = "0x1ADCA80", Offset = "0x1ADB080", VA = "0x181ADCA80")]
 	private static void ThrowAsyncIOInProgress()
 	{
 	}
 
-	[Token(Token = "0x6002849")]
-	[Address(RVA = "0x3BEEF30", Offset = "0x3BEEF30", VA = "0x3BEEF30")]
+	[Token(Token = "0x600311E")]
+	[Address(RVA = "0x1ADCD40", Offset = "0x1ADB340", VA = "0x181ADCD40")]
 	internal StreamReader()
 	{
 	}
 
-	[Token(Token = "0x600284A")]
-	[Address(RVA = "0x3BEF040", Offset = "0x3BEF040", VA = "0x3BEF040")]
+	[Token(Token = "0x600311F")]
+	[Address(RVA = "0x1ADD360", Offset = "0x1ADB960", VA = "0x181ADD360")]
 	public StreamReader(Stream stream)
 	{
 	}
 
-	[Token(Token = "0x600284B")]
-	[Address(RVA = "0x3BEF080", Offset = "0x3BEF080", VA = "0x3BEF080")]
+	[Token(Token = "0x6003120")]
+	[Address(RVA = "0x1ADCE00", Offset = "0x1ADB400", VA = "0x181ADCE00")]
 	public StreamReader(Stream stream, bool detectEncodingFromByteOrderMarks)
 	{
 	}
 
-	[Token(Token = "0x600284C")]
-	[Address(RVA = "0x3BEF330", Offset = "0x3BEF330", VA = "0x3BEF330")]
+	[Token(Token = "0x6003121")]
+	[Address(RVA = "0x1ADCD10", Offset = "0x1ADB310", VA = "0x181ADCD10")]
 	public StreamReader(Stream stream, Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x600284D")]
-	[Address(RVA = "0x3BEF350", Offset = "0x3BEF350", VA = "0x3BEF350")]
+	[Token(Token = "0x6003122")]
+	[Address(RVA = "0x1ADD3D0", Offset = "0x1ADB9D0", VA = "0x181ADD3D0")]
 	public StreamReader(Stream stream, Encoding encoding, bool detectEncodingFromByteOrderMarks)
 	{
 	}
 
-	[Token(Token = "0x600284E")]
-	[Address(RVA = "0x3BEF0C0", Offset = "0x3BEF0C0", VA = "0x3BEF0C0")]
+	[Token(Token = "0x6003123")]
+	[Address(RVA = "0x1ADCE60", Offset = "0x1ADB460", VA = "0x181ADCE60")]
 	public StreamReader(Stream stream, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen)
 	{
 	}
 
-	[Token(Token = "0x600284F")]
-	[Address(RVA = "0x3BEF4C0", Offset = "0x3BEF4C0", VA = "0x3BEF4C0")]
+	[Token(Token = "0x6003124")]
+	[Address(RVA = "0x1ADCC60", Offset = "0x1ADB260", VA = "0x181ADCC60")]
 	public StreamReader(string path)
 	{
 	}
 
-	[Token(Token = "0x6002850")]
-	[Address(RVA = "0x3BEF4F0", Offset = "0x3BEF4F0", VA = "0x3BEF4F0")]
+	[Token(Token = "0x6003125")]
+	[Address(RVA = "0x1ADCCB0", Offset = "0x1ADB2B0", VA = "0x181ADCCB0")]
 	public StreamReader(string path, bool detectEncodingFromByteOrderMarks)
 	{
 	}
 
-	[Token(Token = "0x6002851")]
-	[Address(RVA = "0x3BEF7B0", Offset = "0x3BEF7B0", VA = "0x3BEF7B0")]
+	[Token(Token = "0x6003126")]
+	[Address(RVA = "0x1ADD3B0", Offset = "0x1ADB9B0", VA = "0x181ADD3B0")]
 	public StreamReader(string path, Encoding encoding, bool detectEncodingFromByteOrderMarks)
 	{
 	}
 
-	[Token(Token = "0x6002852")]
-	[Address(RVA = "0x3BEF520", Offset = "0x3BEF520", VA = "0x3BEF520")]
+	[Token(Token = "0x6003127")]
+	[Address(RVA = "0x1ADD090", Offset = "0x1ADB690", VA = "0x181ADD090")]
 	public StreamReader(string path, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize)
 	{
 	}
 
-	[Token(Token = "0x6002853")]
-	[Address(RVA = "0x3BEF370", Offset = "0x3BEF370", VA = "0x3BEF370")]
+	[Token(Token = "0x6003128")]
+	[Address(RVA = "0x1ADAC00", Offset = "0x1AD9200", VA = "0x181ADAC00")]
 	private void Init(Stream stream, Encoding encoding, bool detectEncodingFromByteOrderMarks, int bufferSize, bool leaveOpen)
 	{
 	}
 
-	[Token(Token = "0x6002854")]
-	[Address(RVA = "0x3BEF7C0", Offset = "0x3BEF7C0", VA = "0x3BEF7C0")]
+	[Token(Token = "0x6003129")]
+	[Address(RVA = "0x1ADABE0", Offset = "0x1AD91E0", VA = "0x181ADABE0")]
 	internal void Init(Stream stream)
 	{
 	}
 
-	[Token(Token = "0x6002855")]
-	[Address(RVA = "0x3BEF7E0", Offset = "0x3BEF7E0", VA = "0x3BEF7E0", Slot = "7")]
+	[Token(Token = "0x600312A")]
+	[Address(RVA = "0x19E9D70", Offset = "0x19E8370", VA = "0x1819E9D70", Slot = "7")]
 	public override void Close()
 	{
 	}
 
-	[Token(Token = "0x6002856")]
-	[Address(RVA = "0x3BEF800", Offset = "0x3BEF800", VA = "0x3BEF800", Slot = "8")]
+	[Token(Token = "0x600312B")]
+	[Address(RVA = "0x1ADAB60", Offset = "0x1AD9160", VA = "0x181ADAB60", Slot = "8")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x600285A")]
-	[Address(RVA = "0x3BEF8D0", Offset = "0x3BEF8D0", VA = "0x3BEF8D0", Slot = "9")]
+	[Token(Token = "0x600312F")]
+	[Address(RVA = "0x1ADAE70", Offset = "0x1AD9470", VA = "0x181ADAE70", Slot = "9")]
 	public override int Peek()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600285B")]
-	[Address(RVA = "0x3BEF9D0", Offset = "0x3BEF9D0", VA = "0x3BEF9D0", Slot = "10")]
+	[Token(Token = "0x6003130")]
+	[Address(RVA = "0x1ADC7B0", Offset = "0x1ADADB0", VA = "0x181ADC7B0", Slot = "10")]
 	public override int Read()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600285C")]
-	[Address(RVA = "0x3BEFAD0", Offset = "0x3BEFAD0", VA = "0x3BEFAD0", Slot = "11")]
+	[Token(Token = "0x6003131")]
+	[Address(RVA = "0x1ADC8C0", Offset = "0x1ADAEC0", VA = "0x181ADC8C0", Slot = "11")]
 	public override int Read(char[] buffer, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600285D")]
-	[Address(RVA = "0x3BEFF00", Offset = "0x3BEFF00", VA = "0x3BEFF00", Slot = "12")]
+	[Token(Token = "0x6003132")]
+	[Address(RVA = "0x1ADC710", Offset = "0x1ADAD10", VA = "0x181ADC710", Slot = "12")]
 	public override int Read(Span<char> buffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600285E")]
-	[Address(RVA = "0x3BEFC40", Offset = "0x3BEFC40", VA = "0x3BEFC40")]
+	[Token(Token = "0x6003133")]
+	[Address(RVA = "0x1ADC2B0", Offset = "0x1ADA8B0", VA = "0x181ADC2B0")]
 	private int ReadSpan(Span<char> buffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600285F")]
-	[Address(RVA = "0x3BF0610", Offset = "0x3BF0610", VA = "0x3BF0610", Slot = "13")]
+	[Token(Token = "0x6003134")]
+	[Address(RVA = "0x1ADC5A0", Offset = "0x1ADABA0", VA = "0x181ADC5A0", Slot = "13")]
 	public override string ReadToEnd()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002860")]
-	[Address(RVA = "0x3BF0760", Offset = "0x3BF0760", VA = "0x3BF0760")]
+	[Token(Token = "0x6003135")]
+	[Address(RVA = "0x1ADA820", Offset = "0x1AD8E20", VA = "0x181ADA820")]
 	private void CompressBuffer(int n)
 	{
 	}
 
-	[Token(Token = "0x6002861")]
-	[Address(RVA = "0x3BF0790", Offset = "0x3BF0790", VA = "0x3BF0790")]
+	[Token(Token = "0x6003136")]
+	[Address(RVA = "0x1ADA870", Offset = "0x1AD8E70", VA = "0x181ADA870")]
 	private void DetectEncoding()
 	{
 	}
 
-	[Token(Token = "0x6002862")]
-	[Address(RVA = "0x3BF0A70", Offset = "0x3BF0A70", VA = "0x3BF0A70")]
+	[Token(Token = "0x6003137")]
+	[Address(RVA = "0x1ADAD50", Offset = "0x1AD9350", VA = "0x181ADAD50")]
 	private bool IsPreamble()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002863")]
-	[Address(RVA = "0x3BF0BA0", Offset = "0x3BF0BA0", VA = "0x3BF0BA0", Slot = "19")]
+	[Token(Token = "0x6003138")]
+	[Address(RVA = "0x1ADB530", Offset = "0x1AD9B30", VA = "0x181ADB530", Slot = "19")]
 	internal virtual int ReadBuffer()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002864")]
-	[Address(RVA = "0x3BF02B0", Offset = "0x3BF02B0", VA = "0x3BF02B0")]
+	[Token(Token = "0x6003139")]
+	[Address(RVA = "0x1ADB9C0", Offset = "0x1AD9FC0", VA = "0x181ADB9C0")]
 	private int ReadBuffer(Span<char> userBuffer, out bool readToUserBuffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002865")]
-	[Address(RVA = "0x3BF0D70", Offset = "0x3BF0D70", VA = "0x3BF0D70", Slot = "14")]
+	[Token(Token = "0x600313A")]
+	[Address(RVA = "0x1ADC030", Offset = "0x1ADA630", VA = "0x181ADC030", Slot = "14")]
 	public override string ReadLine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002866")]
-	[Address(RVA = "0x3BF1000", Offset = "0x3BF1000", VA = "0x3BF1000", Slot = "15")]
+	[Token(Token = "0x600313B")]
+	[Address(RVA = "0x1ADB100", Offset = "0x1AD9700", VA = "0x181ADB100", Slot = "15")]
 	public override Task<int> ReadAsync(char[] buffer, int index, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002867")]
-	[Address(RVA = "0x3BF1500", Offset = "0x3BF1500", VA = "0x3BF1500", Slot = "16")]
+	[Token(Token = "0x600313C")]
+	[Address(RVA = "0x1ADAF80", Offset = "0x1AD9580", VA = "0x181ADAF80", Slot = "16")]
 	[AsyncStateMachine(typeof(_003CReadAsyncInternal_003Ed__66))]
 	internal override ValueTask<int> ReadAsyncInternal(Memory<char> buffer, CancellationToken cancellationToken)
 	{
 		return default(ValueTask<int>);
 	}
 
-	[Token(Token = "0x6002868")]
-	[Address(RVA = "0x3BF16E0", Offset = "0x3BF16E0", VA = "0x3BF16E0")]
+	[Token(Token = "0x600313D")]
+	[Address(RVA = "0x1ADB420", Offset = "0x1AD9A20", VA = "0x181ADB420")]
 	[AsyncStateMachine(typeof(_003CReadBufferAsync_003Ed__69))]
 	private Task<int> ReadBufferAsync()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002869")]
-	[Address(RVA = "0x3BF17F0", Offset = "0x3BF17F0", VA = "0x3BF17F0")]
+	[Token(Token = "0x600313E")]
+	[Address(RVA = "0x1ADA860", Offset = "0x1AD8E60", VA = "0x181ADA860")]
 	internal bool DataAvailable()
 	{
 		return default(bool);

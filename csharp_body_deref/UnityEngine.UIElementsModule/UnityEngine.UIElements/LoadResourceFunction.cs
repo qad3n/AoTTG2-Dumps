@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200023D")]
+[Token(Token = "0x20002B8")]
 internal delegate Object LoadResourceFunction(string pathName, Type type, float dpiScaling);

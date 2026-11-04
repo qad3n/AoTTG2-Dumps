@@ -13,35 +13,34 @@ using System.Runtime.CompilerServices;
 using Gisketch.Aottg2UI.Game;
 using Il2CppDummyDll;
 using SimpleJSONFixed;
-using UnityEngine;
 using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200069B")]
+[Token(Token = "0x20007F6")]
 internal class MainMenu : BaseMenu
 {
-	[Token(Token = "0x200069C")]
+	[Token(Token = "0x20007F7")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndChangeBackground_003Ed__33 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndChangeBackground_003Ed__30 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002068")]
+		[Token(Token = "0x400283C")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002069")]
+		[Token(Token = "0x400283D")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400206A")]
+		[Token(Token = "0x400283E")]
 		[FieldOffset(Offset = "0x20")]
 		public MainMenu _003C_003E4__this;
 
-		[Token(Token = "0x17000CA4")]
+		[Token(Token = "0x17000DEA")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60041FE")]
-			[Address(RVA = "0x4308770", Offset = "0x4308770", VA = "0x4308770", Slot = "4")]
+			[Token(Token = "0x6004CF2")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -49,11 +48,11 @@ internal class MainMenu : BaseMenu
 			}
 		}
 
-		[Token(Token = "0x17000CA5")]
+		[Token(Token = "0x17000DEB")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004200")]
-			[Address(RVA = "0x43087C0", Offset = "0x43087C0", VA = "0x43087C0", Slot = "7")]
+			[Token(Token = "0x6004CF4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,226 +60,203 @@ internal class MainMenu : BaseMenu
 			}
 		}
 
-		[Token(Token = "0x60041FB")]
-		[Address(RVA = "0x4307EA0", Offset = "0x4307EA0", VA = "0x4307EA0")]
+		[Token(Token = "0x6004CEF")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CWaitAndChangeBackground_003Ed__33(int _003C_003E1__state)
+		public _003CWaitAndChangeBackground_003Ed__30(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60041FC")]
-		[Address(RVA = "0x4308690", Offset = "0x4308690", VA = "0x4308690", Slot = "5")]
+		[Token(Token = "0x6004CF0")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60041FD")]
-		[Address(RVA = "0x43086A0", Offset = "0x43086A0", VA = "0x43086A0", Slot = "6")]
+		[Token(Token = "0x6004CF1")]
+		[Address(RVA = "0x229D390", Offset = "0x229B990", VA = "0x18229D390", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60041FF")]
-		[Address(RVA = "0x4308780", Offset = "0x4308780", VA = "0x4308780", Slot = "8")]
+		[Token(Token = "0x6004CF3")]
+		[Address(RVA = "0x229D510", Offset = "0x229BB10", VA = "0x18229D510", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002050")]
+	[Token(Token = "0x4002828")]
 	[FieldOffset(Offset = "0x98")]
-	public BasePopup _createGamePopup;
-
-	[Token(Token = "0x4002051")]
-	[FieldOffset(Offset = "0xA0")]
-	public BasePopup _selectMapPopup;
-
-	[Token(Token = "0x4002052")]
-	[FieldOffset(Offset = "0xA8")]
 	public BasePopup _multiplayerMapPopup;
 
-	[Token(Token = "0x4002053")]
-	[FieldOffset(Offset = "0xB0")]
+	[Token(Token = "0x4002829")]
+	[FieldOffset(Offset = "0xA0")]
 	public BasePopup _settingsPopup;
 
-	[Token(Token = "0x4002054")]
-	[FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x400282A")]
+	[FieldOffset(Offset = "0xA8")]
 	public BasePopup _toolsPopup;
 
-	[Token(Token = "0x4002055")]
-	[FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x400282B")]
+	[FieldOffset(Offset = "0xB0")]
 	public BasePopup _multiplayerRoomListPopup;
 
-	[Token(Token = "0x4002056")]
-	[FieldOffset(Offset = "0xC8")]
+	[Token(Token = "0x400282C")]
+	[FieldOffset(Offset = "0xB8")]
 	public BasePopup _duelPopup;
 
-	[Token(Token = "0x4002057")]
-	[FieldOffset(Offset = "0xD0")]
+	[Token(Token = "0x400282D")]
+	[FieldOffset(Offset = "0xC0")]
 	public BasePopup _editProfilePopup;
 
-	[Token(Token = "0x4002058")]
-	[FieldOffset(Offset = "0xD8")]
+	[Token(Token = "0x400282E")]
+	[FieldOffset(Offset = "0xC8")]
 	public BasePopup _leaderboardPopup;
 
-	[Token(Token = "0x4002059")]
-	[FieldOffset(Offset = "0xE0")]
+	[Token(Token = "0x400282F")]
+	[FieldOffset(Offset = "0xD0")]
 	public BasePopup _socialPopup;
 
-	[Token(Token = "0x400205A")]
-	[FieldOffset(Offset = "0xE8")]
+	[Token(Token = "0x4002830")]
+	[FieldOffset(Offset = "0xD8")]
 	public BasePopup _aboutPopup;
 
-	[Token(Token = "0x400205B")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x4002831")]
+	[FieldOffset(Offset = "0xE0")]
 	public BasePopup _questPopup;
 
-	[Token(Token = "0x400205C")]
-	[FieldOffset(Offset = "0xF8")]
+	[Token(Token = "0x4002832")]
+	[FieldOffset(Offset = "0xE8")]
 	public BasePopup _tutorialPopup;
 
-	[Token(Token = "0x400205D")]
-	[FieldOffset(Offset = "0x100")]
+	[Token(Token = "0x4002833")]
+	[FieldOffset(Offset = "0xF0")]
 	public BasePopup _modLoginPopup;
 
-	[Token(Token = "0x400205E")]
-	[FieldOffset(Offset = "0x108")]
+	[Token(Token = "0x4002834")]
+	[FieldOffset(Offset = "0xF8")]
 	public BasePopup _advancedConfigurationPopup;
 
-	[Token(Token = "0x400205F")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x4002835")]
+	[FieldOffset(Offset = "0x100")]
 	public OutdatedPopup _outdatedPopup;
 
-	[Token(Token = "0x4002060")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x4002836")]
+	[FieldOffset(Offset = "0x108")]
 	public MainBackgroundMenu _backgroundMenu;
 
-	[Token(Token = "0x4002061")]
-	[FieldOffset(Offset = "0x120")]
+	[Token(Token = "0x4002837")]
+	[FieldOffset(Offset = "0x110")]
 	protected Text _multiplayerStatusLabel;
 
-	[Token(Token = "0x4002062")]
-	[FieldOffset(Offset = "0x128")]
+	[Token(Token = "0x4002838")]
+	[FieldOffset(Offset = "0x118")]
 	protected string _lastButtonClicked;
 
-	[Token(Token = "0x4002063")]
+	[Token(Token = "0x4002839")]
 	[FieldOffset(Offset = "0x0")]
 	public static JSONNode MainBackgroundInfo;
 
-	[Token(Token = "0x4002064")]
+	[Token(Token = "0x400283A")]
 	protected const float ChangeBackgroundTime = 20f;
 
-	[Token(Token = "0x4002065")]
-	[FieldOffset(Offset = "0x8")]
-	private static bool ShowedOutdated;
-
-	[Token(Token = "0x4002066")]
-	[FieldOffset(Offset = "0x130")]
-	private GameObject _gisketchHost;
-
-	[Token(Token = "0x4002067")]
-	[FieldOffset(Offset = "0x138")]
+	[Token(Token = "0x400283B")]
+	[FieldOffset(Offset = "0x120")]
 	private AottgMainMenuTipPanelController _tipPanel;
 
-	[Token(Token = "0x60041EB")]
-	[Address(RVA = "0x4306410", Offset = "0x4306410", VA = "0x4306410", Slot = "4")]
+	[Token(Token = "0x6004CE0")]
+	[Address(RVA = "0x228F380", Offset = "0x228D980", VA = "0x18228F380", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x60041EC")]
-	[Address(RVA = "0x4306550", Offset = "0x4306550", VA = "0x4306550")]
+	[Token(Token = "0x6004CE1")]
+	[Address(RVA = "0x228E750", Offset = "0x228CD50", VA = "0x18228E750")]
 	private void SetupMainBackground()
 	{
 	}
 
-	[Token(Token = "0x60041ED")]
-	[Address(RVA = "0x4306B90", Offset = "0x4306B90", VA = "0x4306B90")]
+	[Token(Token = "0x6004CE2")]
+	[Address(RVA = "0x228F600", Offset = "0x228DC00", VA = "0x18228F600")]
 	public void ShowMultiplayerRoomListPopup()
 	{
 	}
 
-	[Token(Token = "0x60041EE")]
-	[Address(RVA = "0x4306BD0", Offset = "0x4306BD0", VA = "0x4306BD0")]
+	[Token(Token = "0x6004CE3")]
+	[Address(RVA = "0x228F5B0", Offset = "0x228DBB0", VA = "0x18228F5B0")]
 	public void ShowMultiplayerMapPopup()
 	{
 	}
 
-	[Token(Token = "0x60041EF")]
-	[Address(RVA = "0x4306C10", Offset = "0x4306C10", VA = "0x4306C10")]
+	[Token(Token = "0x6004CE4")]
+	[Address(RVA = "0x228E450", Offset = "0x228CA50", VA = "0x18228E450")]
 	public void OpenIntroAction(string name)
 	{
 	}
 
-	[Token(Token = "0x60041F0")]
-	[Address(RVA = "0x43070F0", Offset = "0x43070F0", VA = "0x43070F0", Slot = "5")]
+	[Token(Token = "0x6004CE5")]
+	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00")]
+	public void ClosePopups()
+	{
+	}
+
+	[Token(Token = "0x6004CE6")]
+	[Address(RVA = "0x228E840", Offset = "0x228CE40", VA = "0x18228E840", Slot = "5")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x60041F1")]
-	[Address(RVA = "0x4306640", Offset = "0x4306640", VA = "0x4306640")]
+	[Token(Token = "0x6004CE7")]
+	[Address(RVA = "0x228E460", Offset = "0x228CA60", VA = "0x18228E460")]
 	private void SetupIntroPanel()
 	{
 	}
 
-	[Token(Token = "0x60041F2")]
-	[Address(RVA = "0x43068A0", Offset = "0x43068A0", VA = "0x43068A0")]
+	[Token(Token = "0x6004CE8")]
+	[Address(RVA = "0x228E490", Offset = "0x228CA90", VA = "0x18228E490")]
 	private void SetupLabels()
 	{
 	}
 
-	[Token(Token = "0x60041F3")]
-	[Address(RVA = "0x4307E60", Offset = "0x4307E60", VA = "0x4307E60")]
+	[Token(Token = "0x6004CE9")]
+	[Address(RVA = "0x228DE00", Offset = "0x228C400", VA = "0x18228DE00")]
 	private void ChangeMainBackground()
 	{
 	}
 
-	[Token(Token = "0x60041F4")]
-	[Address(RVA = "0x4306B20", Offset = "0x4306B20", VA = "0x4306B20")]
-	[IteratorStateMachine(typeof(_003CWaitAndChangeBackground_003Ed__33))]
+	[Token(Token = "0x6004CEA")]
+	[Address(RVA = "0x228FA70", Offset = "0x228E070", VA = "0x18228FA70")]
+	[IteratorStateMachine(typeof(_003CWaitAndChangeBackground_003Ed__30))]
 	private IEnumerator WaitAndChangeBackground()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60041F5")]
-	[Address(RVA = "0x4307EC0", Offset = "0x4307EC0", VA = "0x4307EC0")]
+	[Token(Token = "0x6004CEB")]
+	[Address(RVA = "0x228F650", Offset = "0x228DC50", VA = "0x18228F650")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60041F6")]
-	[Address(RVA = "0x43084A0", Offset = "0x43084A0", VA = "0x43084A0")]
+	[Token(Token = "0x6004CEC")]
+	[Address(RVA = "0x228DEF0", Offset = "0x228C4F0", VA = "0x18228DEF0")]
 	private bool IsPopupActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60041F7")]
-	[Address(RVA = "0x4306C20", Offset = "0x4306C20", VA = "0x4306C20")]
+	[Token(Token = "0x6004CED")]
+	[Address(RVA = "0x228E020", Offset = "0x228C620", VA = "0x18228E020")]
 	private void OnIntroButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60041F8")]
-	[Address(RVA = "0x4307DB0", Offset = "0x4307DB0", VA = "0x4307DB0")]
-	private static string GisketchThemePath()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x60041F9")]
-	[Address(RVA = "0x4308600", Offset = "0x4308600", VA = "0x4308600")]
-	private void OnDestroy()
-	{
-	}
-
-	[Token(Token = "0x60041FA")]
-	[Address(RVA = "0x4308680", Offset = "0x4308680", VA = "0x4308680")]
+	[Token(Token = "0x6004CEE")]
+	[Address(RVA = "0x21DA7E0", Offset = "0x21D8DE0", VA = "0x1821DA7E0")]
 	public MainMenu()
 	{
 	}

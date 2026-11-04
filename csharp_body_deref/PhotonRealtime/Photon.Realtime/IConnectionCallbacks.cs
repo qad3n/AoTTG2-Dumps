@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000013")]
 public interface IConnectionCallbacks
 {
-	[Token(Token = "0x60000C4")]
+	[Token(Token = "0x60000C2")]
 	void OnConnected();
 
-	[Token(Token = "0x60000C5")]
+	[Token(Token = "0x60000C3")]
 	void OnConnectedToMaster();
 
-	[Token(Token = "0x60000C6")]
+	[Token(Token = "0x60000C4")]
 	void OnDisconnected(DisconnectCause cause);
 
-	[Token(Token = "0x60000C7")]
+	[Token(Token = "0x60000C5")]
 	void OnRegionListReceived(RegionHandler regionHandler);
 
-	[Token(Token = "0x60000C8")]
+	[Token(Token = "0x60000C6")]
 	void OnCustomAuthenticationResponse(Dictionary<string, object> data);
 
-	[Token(Token = "0x60000C9")]
+	[Token(Token = "0x60000C7")]
 	void OnCustomAuthenticationFailed(string debugMessage);
 }

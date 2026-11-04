@@ -8,60 +8,60 @@
 using System.Globalization;
 using Il2CppDummyDll;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200002B")]
 internal static class SR
 {
-	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3ACD090", Offset = "0x3ACD090", VA = "0x3ACD090")]
+	[Token(Token = "0x6000045")]
+	[Address(RVA = "0x194CF10", Offset = "0x194B510", VA = "0x18194CF10")]
 	internal static string GetString(string name, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3ACD0F0", Offset = "0x3ACD0F0", VA = "0x3ACD0F0")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x194CF80", Offset = "0x194B580", VA = "0x18194CF80")]
 	internal static string GetString(CultureInfo culture, string name, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x3ACD100", Offset = "0x3ACD100", VA = "0x3ACD100")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 	internal static string GetString(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3ACD110", Offset = "0x3ACD110", VA = "0x3ACD110")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x194CE20", Offset = "0x194B420", VA = "0x18194CE20")]
 	internal static string Format(string resourceFormat, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x3ACC120", Offset = "0x3ACC120", VA = "0x3ACC120")]
+	[Token(Token = "0x6000049")]
+	[Address(RVA = "0x194CEA0", Offset = "0x194B4A0", VA = "0x18194CEA0")]
 	internal static string Format(string resourceFormat, object p1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x3ACD180", Offset = "0x3ACD180", VA = "0x3ACD180")]
+	[Token(Token = "0x600004A")]
+	[Address(RVA = "0x194CDA0", Offset = "0x194B3A0", VA = "0x18194CDA0")]
 	internal static string Format(string resourceFormat, object p1, object p2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x3ACD1F0", Offset = "0x3ACD1F0", VA = "0x3ACD1F0")]
+	[Token(Token = "0x600004B")]
+	[Address(RVA = "0x194CD20", Offset = "0x194B320", VA = "0x18194CD20")]
 	internal static string Format(string resourceFormat, object p1, object p2, object p3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x3ACD270", Offset = "0x3ACD270", VA = "0x3ACD270")]
+	[Token(Token = "0x600004C")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 	internal static string GetResourceString(string str)
 	{
 		return null;

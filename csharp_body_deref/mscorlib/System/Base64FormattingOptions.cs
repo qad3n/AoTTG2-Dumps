@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x20000C8")]
 [Flags]
 public enum Base64FormattingOptions
 {
-	[Token(Token = "0x400021D")]
+	[Token(Token = "0x40002B9")]
 	None = 0,
-	[Token(Token = "0x400021E")]
+	[Token(Token = "0x40002BA")]
 	InsertLineBreaks = 1
 }

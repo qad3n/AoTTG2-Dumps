@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200039E")]
+[Token(Token = "0x20003F9")]
 public sealed class PerformanceCountersElement : ConfigurationElement
 {
-	[Token(Token = "0x17000576")]
+	[Token(Token = "0x170005E0")]
 	public bool Enabled
 	{
-		[Token(Token = "0x600180C")]
-		[Address(RVA = "0x48F4CA0", Offset = "0x48F4CA0", VA = "0x48F4CA0")]
+		[Token(Token = "0x6001AB0")]
+		[Address(RVA = "0x282B650", Offset = "0x2829C50", VA = "0x18282B650")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600180D")]
-		[Address(RVA = "0x48F4CD0", Offset = "0x48F4CD0", VA = "0x48F4CD0")]
+		[Token(Token = "0x6001AB1")]
+		[Address(RVA = "0x282B6B0", Offset = "0x2829CB0", VA = "0x18282B6B0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000577")]
+	[Token(Token = "0x170005E1")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x600180E")]
-		[Address(RVA = "0x48F4D00", Offset = "0x48F4D00", VA = "0x48F4D00", Slot = "4")]
+		[Token(Token = "0x6001AB2")]
+		[Address(RVA = "0x282B680", Offset = "0x2829C80", VA = "0x18282B680", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600180B")]
-	[Address(RVA = "0x48F4C70", Offset = "0x48F4C70", VA = "0x48F4C70")]
+	[Token(Token = "0x6001AAF")]
+	[Address(RVA = "0x282B620", Offset = "0x2829C20", VA = "0x18282B620")]
 	public PerformanceCountersElement()
 	{
 	}

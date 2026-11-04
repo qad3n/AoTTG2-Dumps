@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000238")]
+[Token(Token = "0x20002B1")]
 internal struct PanelClearSettings
 {
-	[Token(Token = "0x400081D")]
+	[Token(Token = "0x4000A5B")]
 	[FieldOffset(Offset = "0x0")]
 	public bool clearDepthStencil;
 
-	[Token(Token = "0x400081E")]
+	[Token(Token = "0x4000A5C")]
 	[FieldOffset(Offset = "0x1")]
 	public bool clearColor;
 
-	[Token(Token = "0x400081F")]
+	[Token(Token = "0x4000A5D")]
 	[FieldOffset(Offset = "0x4")]
 	public Color color;
 }

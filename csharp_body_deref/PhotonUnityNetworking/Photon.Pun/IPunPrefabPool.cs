@@ -10,12 +10,12 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x200000F")]
 public interface IPunPrefabPool
 {
-	[Token(Token = "0x600000F")]
+	[Token(Token = "0x600000D")]
 	GameObject Instantiate(string prefabId, Vector3 position, Quaternion rotation);
 
-	[Token(Token = "0x6000010")]
+	[Token(Token = "0x600000E")]
 	void Destroy(GameObject gameObject);
 }

@@ -12,36 +12,36 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Windows.Speech;
 
-[Token(Token = "0x20001BA")]
+[Token(Token = "0x20001F9")]
 public static class PhraseRecognitionSystem
 {
-	[Token(Token = "0x20001BB")]
+	[Token(Token = "0x20001FA")]
 	public delegate void ErrorDelegate(SpeechError errorCode);
 
-	[Token(Token = "0x20001BC")]
+	[Token(Token = "0x20001FB")]
 	public delegate void StatusDelegate(SpeechSystemStatus status);
 
-	[Token(Token = "0x4000631")]
+	[Token(Token = "0x40006C8")]
 	[FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static ErrorDelegate OnError;
 
-	[Token(Token = "0x4000632")]
+	[Token(Token = "0x40006C9")]
 	[FieldOffset(Offset = "0x8")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static StatusDelegate OnStatusChanged;
 
-	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x4E0F230", Offset = "0x4E0F230", VA = "0x4E0F230")]
+	[Token(Token = "0x60010A0")]
+	[Address(RVA = "0x2F4D210", Offset = "0x2F4B810", VA = "0x182F4D210")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void PhraseRecognitionSystem_InvokeErrorEvent(SpeechError errorCode)
 	{
 	}
 
-	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x4E0F280", Offset = "0x4E0F280", VA = "0x4E0F280")]
+	[Token(Token = "0x60010A1")]
+	[Address(RVA = "0x2F4D270", Offset = "0x2F4B870", VA = "0x182F4D270")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void PhraseRecognitionSystem_InvokeStatusChangedEvent(SpeechSystemStatus status)
 	{

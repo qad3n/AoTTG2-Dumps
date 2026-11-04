@@ -14,77 +14,77 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000154")]
 public class ReflectionInvoker : IOptimizedInvoker
 {
-	[Token(Token = "0x4000831")]
+	[Token(Token = "0x400082F")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly MethodInfo methodInfo;
 
-	[Token(Token = "0x4000832")]
+	[Token(Token = "0x4000830")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object[] EmptyObjects;
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x4D46380", Offset = "0x4D46380", VA = "0x4D46380")]
+	[Token(Token = "0x6000DFB")]
+	[Address(RVA = "0x2E36820", Offset = "0x2E34E20", VA = "0x182E36820")]
 	public ReflectionInvoker(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x4D465E0", Offset = "0x4D465E0", VA = "0x4D465E0", Slot = "4")]
+	[Token(Token = "0x6000DFC")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void Compile()
 	{
 	}
 
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x4D465F0", Offset = "0x4D465F0", VA = "0x4D465F0", Slot = "11")]
+	[Token(Token = "0x6000DFD")]
+	[Address(RVA = "0x2E36350", Offset = "0x2E34950", VA = "0x182E36350", Slot = "11")]
 	public object Invoke(object target, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x4D46610", Offset = "0x4D46610", VA = "0x4D46610", Slot = "5")]
+	[Token(Token = "0x6000DFE")]
+	[Address(RVA = "0x2E36730", Offset = "0x2E34D30", VA = "0x182E36730", Slot = "5")]
 	public object Invoke(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x4D46680", Offset = "0x4D46680", VA = "0x4D46680", Slot = "6")]
+	[Token(Token = "0x6000DFF")]
+	[Address(RVA = "0x2E36670", Offset = "0x2E34C70", VA = "0x182E36670", Slot = "6")]
 	public object Invoke(object target, object arg0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x4D46740", Offset = "0x4D46740", VA = "0x4D46740", Slot = "7")]
+	[Token(Token = "0x6000E00")]
+	[Address(RVA = "0x2E36040", Offset = "0x2E34640", VA = "0x182E36040", Slot = "7")]
 	public object Invoke(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x4D46830", Offset = "0x4D46830", VA = "0x4D46830", Slot = "8")]
+	[Token(Token = "0x6000E01")]
+	[Address(RVA = "0x2E36370", Offset = "0x2E34970", VA = "0x182E36370", Slot = "8")]
 	public object Invoke(object target, object arg0, object arg1, object arg2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x4D46960", Offset = "0x4D46960", VA = "0x4D46960", Slot = "9")]
+	[Token(Token = "0x6000E02")]
+	[Address(RVA = "0x2E364D0", Offset = "0x2E34AD0", VA = "0x182E364D0", Slot = "9")]
 	public object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x4D46AD0", Offset = "0x4D46AD0", VA = "0x4D46AD0", Slot = "10")]
+	[Token(Token = "0x6000E03")]
+	[Address(RVA = "0x2E36150", Offset = "0x2E34750", VA = "0x182E36150", Slot = "10")]
 	public object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFA")]
-	[Address(RVA = "0x4D46C90", Offset = "0x4D46C90", VA = "0x4D46C90")]
+	[Token(Token = "0x6000E04")]
+	[Address(RVA = "0x2E35EE0", Offset = "0x2E344E0", VA = "0x182E35EE0")]
 	public Type[] GetParameterTypes()
 	{
 		return null;

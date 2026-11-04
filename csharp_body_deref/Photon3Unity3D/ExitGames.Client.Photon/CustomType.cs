@@ -38,13 +38,13 @@ internal class CustomType
 	public readonly DeserializeStreamMethod DeserializeStreamFunction;
 
 	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x3E79BB0", Offset = "0x3E79BB0", VA = "0x3E79BB0")]
+	[Address(RVA = "0x1CCDDA0", Offset = "0x1CCC3A0", VA = "0x181CCDDA0")]
 	public CustomType(Type type, byte code, SerializeMethod serializeFunction, DeserializeMethod deserializeFunction)
 	{
 	}
 
 	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x3E79C10", Offset = "0x3E79C10", VA = "0x3E79C10")]
+	[Address(RVA = "0x1CCDD40", Offset = "0x1CCC340", VA = "0x181CCDD40")]
 	public CustomType(Type type, byte code, SerializeStreamMethod serializeFunction, DeserializeStreamMethod deserializeFunction)
 	{
 	}

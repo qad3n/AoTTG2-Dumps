@@ -11,31 +11,31 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000050")]
+[Token(Token = "0x200004E")]
 public static class Platform
 {
-	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x3F1AFB0", Offset = "0x3F1AFB0", VA = "0x3F1AFB0")]
+	[Token(Token = "0x600019F")]
+	[Address(RVA = "0x1D705E0", Offset = "0x1D6EBE0", VA = "0x181D705E0")]
 	public static IDeviceEnumerator CreateAudioInEnumerator(ILogger logger)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x3F1B040", Offset = "0x3F1B040", VA = "0x3F1B040")]
+	[Token(Token = "0x60001A0")]
+	[Address(RVA = "0x1D70590", Offset = "0x1D6EB90", VA = "0x181D70590")]
 	public static IAudioInChangeNotifier CreateAudioInChangeNotifier(Action callback, ILogger logger)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001A3")]
+	[Token(Token = "0x60001A1")]
 	public static IEncoder CreateDefaultAudioEncoder<T>(ILogger logger, VoiceInfo info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x3F1B080", Offset = "0x3F1B080", VA = "0x3F1B080")]
+	[Token(Token = "0x60001A2")]
+	[Address(RVA = "0x1D70640", Offset = "0x1D6EC40", VA = "0x181D70640")]
 	public static IAudioDesc CreateDefaultAudioSource(ILogger logger, DeviceInfo dev, int samplingRate, int channels, [Optional] object otherParams)
 	{
 		return null;

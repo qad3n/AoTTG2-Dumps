@@ -21,7 +21,7 @@ public class XText : XNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x4696930", Offset = "0x4696930", VA = "0x4696930", Slot = "7")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -32,44 +32,44 @@ public class XText : XNode
 	public string Value
 	{
 		[Token(Token = "0x60000E4")]
-		[Address(RVA = "0x4696940", Offset = "0x4696940", VA = "0x4696940")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x468F090", Offset = "0x468F090", VA = "0x468F090")]
+		[Address(RVA = "0x25EDA00", Offset = "0x25EC000", VA = "0x1825EDA00")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x468C9E0", Offset = "0x468C9E0", VA = "0x468C9E0")]
+	[Address(RVA = "0x25E5DC0", Offset = "0x25E43C0", VA = "0x1825E5DC0")]
 	public XText(string value)
 	{
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x468CA70", Offset = "0x468CA70", VA = "0x468CA70")]
+	[Address(RVA = "0x25E5E40", Offset = "0x25E4440", VA = "0x1825E5E40")]
 	public XText(XText other)
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x4696950", Offset = "0x4696950", VA = "0x4696950", Slot = "8")]
+	[Address(RVA = "0x25ED8F0", Offset = "0x25EBEF0", VA = "0x1825ED8F0", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x4696A30", Offset = "0x4696A30", VA = "0x4696A30", Slot = "9")]
+	[Address(RVA = "0x25ED810", Offset = "0x25EBE10", VA = "0x1825ED810", Slot = "9")]
 	internal override void AppendText(StringBuilder sb)
 	{
 	}
 
 	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x4696A50", Offset = "0x4696A50", VA = "0x4696A50", Slot = "10")]
+	[Address(RVA = "0x25ED840", Offset = "0x25EBE40", VA = "0x1825ED840", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;

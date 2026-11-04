@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.Burst;
 
-[Token(Token = "0x2000067")]
+[Token(Token = "0x200007C")]
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property)]
 public class BurstDiscardAttribute : Attribute
 {
-	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x4DADEC0", Offset = "0x4DADEC0", VA = "0x4DADEC0")]
+	[Token(Token = "0x6000193")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public BurstDiscardAttribute()
 	{
 	}

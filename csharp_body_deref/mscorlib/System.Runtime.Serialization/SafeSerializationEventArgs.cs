@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003E7")]
+[Token(Token = "0x2000416")]
 public sealed class SafeSerializationEventArgs : EventArgs
 {
-	[Token(Token = "0x4001012")]
+	[Token(Token = "0x4001018")]
 	[FieldOffset(Offset = "0x10")]
 	private StreamingContext m_streamingContext;
 
-	[Token(Token = "0x4001013")]
+	[Token(Token = "0x4001019")]
 	[FieldOffset(Offset = "0x20")]
 	private List<object> m_serializedStates;
 
-	[Token(Token = "0x17000439")]
+	[Token(Token = "0x1700043B")]
 	internal IList<object> SerializedStates
 	{
-		[Token(Token = "0x6001FE5")]
-		[Address(RVA = "0x3B9E150", Offset = "0x3B9E150", VA = "0x3B9E150")]
+		[Token(Token = "0x6002054")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001FE4")]
-	[Address(RVA = "0x3B9E090", Offset = "0x3B9E090", VA = "0x3B9E090")]
+	[Token(Token = "0x6002053")]
+	[Address(RVA = "0x1A1D6C0", Offset = "0x1A1BCC0", VA = "0x181A1D6C0")]
 	internal SafeSerializationEventArgs(StreamingContext streamingContext)
 	{
 	}

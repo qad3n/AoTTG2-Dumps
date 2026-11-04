@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x20001FF")]
+[Token(Token = "0x200038C")]
 [Flags]
 public enum SocketFlags
 {
-	[Token(Token = "0x4000AF6")]
+	[Token(Token = "0x4000F25")]
 	None = 0,
-	[Token(Token = "0x4000AF7")]
+	[Token(Token = "0x4000F26")]
 	OutOfBand = 1,
-	[Token(Token = "0x4000AF8")]
+	[Token(Token = "0x4000F27")]
 	Peek = 2,
-	[Token(Token = "0x4000AF9")]
+	[Token(Token = "0x4000F28")]
 	DontRoute = 4,
-	[Token(Token = "0x4000AFA")]
+	[Token(Token = "0x4000F29")]
 	MaxIOVectorLength = 0x10,
-	[Token(Token = "0x4000AFB")]
+	[Token(Token = "0x4000F2A")]
 	Truncated = 0x100,
-	[Token(Token = "0x4000AFC")]
+	[Token(Token = "0x4000F2B")]
 	ControlDataTruncated = 0x200,
-	[Token(Token = "0x4000AFD")]
+	[Token(Token = "0x4000F2C")]
 	Broadcast = 0x400,
-	[Token(Token = "0x4000AFE")]
+	[Token(Token = "0x4000F2D")]
 	Multicast = 0x800,
-	[Token(Token = "0x4000AFF")]
+	[Token(Token = "0x4000F2E")]
 	Partial = 0x8000
 }

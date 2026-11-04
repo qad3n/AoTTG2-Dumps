@@ -11,59 +11,59 @@ using UnityEngine.XR;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x200000D")]
 internal static class XRMirrorView
 {
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000033")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly MaterialPropertyBlock s_MirrorViewMaterialProperty;
 
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000034")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly ProfilingSampler k_MirrorViewProfilingSampler;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000035")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly int k_SourceTex;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000036")]
 	[FieldOffset(Offset = "0x14")]
 	private static readonly int k_SourceTexArraySlice;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000037")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly int k_ScaleBias;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x4000038")]
 	[FieldOffset(Offset = "0x1C")]
 	private static readonly int k_ScaleBiasRt;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly int k_SRGBRead;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x24")]
 	private static readonly int k_SRGBWrite;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x400003B")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly int k_MaxNits;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400003C")]
 	[FieldOffset(Offset = "0x2C")]
 	private static readonly int k_SourceMaxNits;
 
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400003D")]
 	[FieldOffset(Offset = "0x30")]
 	private static readonly int k_SourceHDREncoding;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x400003E")]
 	[FieldOffset(Offset = "0x34")]
 	private static readonly int k_ColorTransform;
 
-	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x4B74F60", Offset = "0x4B74F60", VA = "0x4B74F60")]
+	[Token(Token = "0x6000036")]
+	[Address(RVA = "0x2AC9720", Offset = "0x2AC7D20", VA = "0x182AC9720")]
 	internal static void RenderMirrorView(CommandBuffer cmd, Camera camera, Material mat, XRDisplaySubsystem display)
 	{
 	}

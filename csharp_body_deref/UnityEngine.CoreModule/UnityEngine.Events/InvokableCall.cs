@@ -12,190 +12,208 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001E0")]
+[Token(Token = "0x2000222")]
 internal class InvokableCall : BaseInvokableCall
 {
-	[Token(Token = "0x14000005")]
+	[Token(Token = "0x400071A")]
+	[FieldOffset(Offset = "0x10")]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
+	private UnityAction m_Delegate;
+
+	[Token(Token = "0x14000007")]
 	private event UnityAction Delegate
 	{
-		[Token(Token = "0x6000D29")]
-		[Address(RVA = "0x4E114A0", Offset = "0x4E114A0", VA = "0x4E114A0")]
+		[Token(Token = "0x6001108")]
+		[Address(RVA = "0x2F4B250", Offset = "0x2F49850", VA = "0x182F4B250")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000D2A")]
-		[Address(RVA = "0x4E11530", Offset = "0x4E11530", VA = "0x4E11530")]
+		[Token(Token = "0x6001109")]
+		[Address(RVA = "0x2F4B2F0", Offset = "0x2F498F0", VA = "0x182F4B2F0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D2B")]
-	[Address(RVA = "0x4E115C0", Offset = "0x4E115C0", VA = "0x4E115C0")]
+	[Token(Token = "0x600110A")]
+	[Address(RVA = "0x2F4B060", Offset = "0x2F49660", VA = "0x182F4B060")]
 	public InvokableCall(object target, MethodInfo theFunction)
 	{
 	}
 
-	[Token(Token = "0x6000D2C")]
-	[Address(RVA = "0x4E116E0", Offset = "0x4E116E0", VA = "0x4E116E0")]
+	[Token(Token = "0x600110B")]
+	[Address(RVA = "0x2F4B030", Offset = "0x2F49630", VA = "0x182F4B030")]
 	public InvokableCall(UnityAction action)
 	{
 	}
 
-	[Token(Token = "0x6000D2D")]
-	[Address(RVA = "0x4E11780", Offset = "0x4E11780", VA = "0x4E11780", Slot = "4")]
+	[Token(Token = "0x600110C")]
+	[Address(RVA = "0x2F4AF80", Offset = "0x2F49580", VA = "0x182F4AF80", Slot = "4")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D2E")]
-	[Address(RVA = "0x4E11830", Offset = "0x4E11830", VA = "0x4E11830")]
+	[Token(Token = "0x600110D")]
+	[Address(RVA = "0x2F4AF80", Offset = "0x2F49580", VA = "0x182F4AF80")]
 	public void Invoke()
 	{
 	}
 
-	[Token(Token = "0x6000D2F")]
-	[Address(RVA = "0x4E118E0", Offset = "0x4E118E0", VA = "0x4E118E0", Slot = "5")]
+	[Token(Token = "0x600110E")]
+	[Address(RVA = "0x17C1810", Offset = "0x17BFE10", VA = "0x1817C1810", Slot = "5")]
 	public override bool Find(object targetObj, MethodInfo method)
 	{
 		return default(bool);
 	}
 }
-[Token(Token = "0x20001E1")]
+[Token(Token = "0x2000223")]
 internal class InvokableCall<T1> : BaseInvokableCall
 {
-	[Token(Token = "0x14000006")]
+	[Token(Token = "0x400071B")]
+	[FieldOffset(Offset = "0x0")]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
+	private UnityAction<T1> m_Delegate;
+
+	[Token(Token = "0x14000008")]
 	protected event UnityAction<T1> Delegate
 	{
-		[Token(Token = "0x6000D30")]
+		[Token(Token = "0x600110F")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000D31")]
+		[Token(Token = "0x6001110")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D32")]
+	[Token(Token = "0x6001111")]
 	public InvokableCall(object target, MethodInfo theFunction)
 	{
 	}
 
-	[Token(Token = "0x6000D33")]
+	[Token(Token = "0x6001112")]
 	public InvokableCall(UnityAction<T1> action)
 	{
 	}
 
-	[Token(Token = "0x6000D34")]
+	[Token(Token = "0x6001113")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D35")]
+	[Token(Token = "0x6001114")]
 	public virtual void Invoke(T1 args0)
 	{
 	}
 
-	[Token(Token = "0x6000D36")]
+	[Token(Token = "0x6001115")]
 	public override bool Find(object targetObj, MethodInfo method)
 	{
 		return default(bool);
 	}
 }
-[Token(Token = "0x20001E2")]
+[Token(Token = "0x2000224")]
 internal class InvokableCall<T1, T2> : BaseInvokableCall
 {
-	[Token(Token = "0x4000685")]
+	[Token(Token = "0x400071C")]
 	[FieldOffset(Offset = "0x0")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private UnityAction<T1, T2> Delegate;
 
-	[Token(Token = "0x6000D37")]
+	[Token(Token = "0x6001116")]
 	public InvokableCall(object target, MethodInfo theFunction)
 	{
 	}
 
-	[Token(Token = "0x6000D38")]
+	[Token(Token = "0x6001117")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D39")]
+	[Token(Token = "0x6001118")]
 	public override bool Find(object targetObj, MethodInfo method)
 	{
 		return default(bool);
 	}
 }
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x2000225")]
 internal class InvokableCall<T1, T2, T3> : BaseInvokableCall
 {
-	[Token(Token = "0x14000007")]
+	[Token(Token = "0x400071D")]
+	[FieldOffset(Offset = "0x0")]
+	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	private UnityAction<T1, T2, T3> m_Delegate;
+
+	[Token(Token = "0x14000009")]
 	protected event UnityAction<T1, T2, T3> Delegate
 	{
-		[Token(Token = "0x6000D3A")]
+		[Token(Token = "0x6001119")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000D3B")]
+		[Token(Token = "0x600111A")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D3C")]
+	[Token(Token = "0x600111B")]
 	public InvokableCall(object target, MethodInfo theFunction)
 	{
 	}
 
-	[Token(Token = "0x6000D3D")]
+	[Token(Token = "0x600111C")]
 	public InvokableCall(UnityAction<T1, T2, T3> action)
 	{
 	}
 
-	[Token(Token = "0x6000D3E")]
+	[Token(Token = "0x600111D")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D3F")]
+	[Token(Token = "0x600111E")]
 	public void Invoke(T1 args0, T2 args1, T3 args2)
 	{
 	}
 
-	[Token(Token = "0x6000D40")]
+	[Token(Token = "0x600111F")]
 	public override bool Find(object targetObj, MethodInfo method)
 	{
 		return default(bool);
 	}
 }
-[Token(Token = "0x20001E4")]
+[Token(Token = "0x2000226")]
 internal class InvokableCall<T1, T2, T3, T4> : BaseInvokableCall
 {
-	[Token(Token = "0x4000687")]
+	[Token(Token = "0x400071E")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private UnityAction<T1, T2, T3, T4> Delegate;
 
-	[Token(Token = "0x6000D41")]
+	[Token(Token = "0x6001120")]
 	public InvokableCall(object target, MethodInfo theFunction)
 	{
 	}
 
-	[Token(Token = "0x6000D42")]
+	[Token(Token = "0x6001121")]
 	public override void Invoke(object[] args)
 	{
 	}
 
-	[Token(Token = "0x6000D43")]
+	[Token(Token = "0x6001122")]
 	public override bool Find(object targetObj, MethodInfo method)
 	{
 		return default(bool);

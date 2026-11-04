@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000F")]
 [VisibleToOtherModules]
 internal enum CodegenOptions
 {
-	[Token(Token = "0x4000015")]
+	[Token(Token = "0x4000014")]
 	Auto,
-	[Token(Token = "0x4000016")]
+	[Token(Token = "0x4000015")]
 	Custom,
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000016")]
 	Force
 }

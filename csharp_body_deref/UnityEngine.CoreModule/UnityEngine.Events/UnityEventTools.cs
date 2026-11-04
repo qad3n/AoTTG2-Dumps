@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001DD")]
+[Token(Token = "0x200021F")]
 internal class UnityEventTools
 {
-	[Token(Token = "0x6000D19")]
-	[Address(RVA = "0x4E11080", Offset = "0x4E11080", VA = "0x4E11080")]
+	[Token(Token = "0x60010F8")]
+	[Address(RVA = "0x2F5E3C0", Offset = "0x2F5C9C0", VA = "0x182F5E3C0")]
 	internal static string TidyAssemblyTypeName(string assemblyTypeName)
 	{
 		return null;

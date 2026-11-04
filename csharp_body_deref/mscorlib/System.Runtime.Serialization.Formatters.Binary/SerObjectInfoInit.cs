@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200041E")]
+[Token(Token = "0x200044D")]
 internal sealed class SerObjectInfoInit
 {
-	[Token(Token = "0x4001181")]
+	[Token(Token = "0x4001183")]
 	[FieldOffset(Offset = "0x10")]
 	internal Hashtable seenBeforeTable;
 
-	[Token(Token = "0x4001182")]
+	[Token(Token = "0x4001184")]
 	[FieldOffset(Offset = "0x18")]
 	internal int objectInfoIdCount;
 
-	[Token(Token = "0x4001183")]
+	[Token(Token = "0x4001185")]
 	[FieldOffset(Offset = "0x20")]
 	internal System.Runtime.Serialization.Formatters.Binary.SerStack oiPool;
 
-	[Token(Token = "0x6002109")]
-	[Address(RVA = "0x3BADDA0", Offset = "0x3BADDA0", VA = "0x3BADDA0")]
+	[Token(Token = "0x6002178")]
+	[Address(RVA = "0x1A1E6D0", Offset = "0x1A1CCD0", VA = "0x181A1E6D0")]
 	public SerObjectInfoInit()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: Characters.HoldUseable
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/HoldUseable.cs
@@ -8,16 +8,17 @@
 
 // Characters.HoldUseable$$.ctor
 // il2cpp: void Characters_HoldUseable___ctor (Characters_HoldUseable_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x42a90e0
+// 0x1821177e0
 
-void Characters_HoldUseable___ctor
-               (Characters_HoldUseable_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
+void
+Characters_HoldUseable___ctor(Characters_HoldUseable_o* __this, Characters_BaseCharacter_o* owner, MethodInfo* method)
 
 {
   (__this->fields)._lastUseTime = -1000.0;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields)._owner = owner;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._owner,owner);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,owner);
   (__this->fields).Cooldown = 0.0;
   (__this->fields).UsesLeft = -1;
   (__this->fields).MaxUses = -1;
@@ -27,18 +28,16 @@ void Characters_HoldUseable___ctor
 
 // Characters.HoldUseable$$OnFixedUpdate
 // il2cpp: void Characters_HoldUseable__OnFixedUpdate (Characters_HoldUseable_o* __this, const MethodInfo* method);
-// 0x42a9130
+// 0x182117830
 
 void Characters_HoldUseable__OnFixedUpdate(Characters_HoldUseable_o *__this,MethodInfo *method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 in_RDX;
+  MethodInfo *in_R8;
   
-  if ((char)(__this->fields).IsActive != '\0') {
-    vtableDispatch = (__this->klass->vtable)._16_ActiveFixedUpdate.methodPtr;
-    (*vtableDispatch)
-              (__this,(__this->klass->vtable)._16_ActiveFixedUpdate.method,in_RDX,vtableDispatch);
+  if ((__this->fields).IsActive != false) {
+    (*(__this->klass->vtable)._16_ActiveFixedUpdate.methodPtr)
+              (__this,(System_Type_o *)(__this->klass->vtable)._16_ActiveFixedUpdate.method,in_R8);
     return;
   }
   return;
@@ -47,39 +46,39 @@ void Characters_HoldUseable__OnFixedUpdate(Characters_HoldUseable_o *__this,Meth
 
 // Characters.HoldUseable$$SetInput
 // il2cpp: void Characters_HoldUseable__SetInput (Characters_HoldUseable_o* __this, bool key, const MethodInfo* method);
-// 0x42a9150
+// 0x182117890
 
-void Characters_HoldUseable__SetInput(Characters_HoldUseable_o *__this,bool_conflict key,MethodInfo *method)
+void Characters_HoldUseable__SetInput(Characters_HoldUseable_o *__this,bool key,MethodInfo *method)
 
 {
-  Il2CppMethodPointer UNRECOVERED_JUMPTABLE_00;
-  char cVar1;
-  undefined8 extraout_RDX;
-  float fVar2;
+  Characters_HoldUseable_c *pCVar1;
+  bool bVar2;
+  float fVar3;
   
-  cVar1 = (char)(__this->fields).IsActive;
-  if ((char)key == '\0') {
-    if (cVar1 != '\0') {
-      *(undefined1 *)&(__this->fields).IsActive = 0;
-      UNRECOVERED_JUMPTABLE_00 = (__this->klass->vtable)._10_Deactivate.methodPtr;
-      (*UNRECOVERED_JUMPTABLE_00)
-                (__this,(__this->klass->vtable)._10_Deactivate.method,method,UNRECOVERED_JUMPTABLE_00);
-      return;
+  bVar2 = (__this->fields).IsActive;
+  if (key) {
+    if (bVar2 == false) {
+      bVar2 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
+      if (bVar2) {
+        pCVar1 = __this->klass;
+        (__this->fields).IsActive = true;
+        fVar3 = (*(pCVar1->vtable)._14_get_ActiveTime.methodPtr)
+                          (__this,(pCVar1->vtable)._14_get_ActiveTime.method);
+        pCVar1 = __this->klass;
+        (__this->fields)._activeTimeLeft = fVar3;
+        (*(pCVar1->vtable)._9_Activate.methodPtr)
+                  (__this,(System_Type_o *)(pCVar1->vtable)._9_Activate.method,method);
+        (*(__this->klass->vtable)._8_OnUse.methodPtr)(__this,(__this->klass->vtable)._8_OnUse.method);
+        return;
+      }
     }
   }
-  else if (cVar1 == '\0') {
-    cVar1 = (*(__this->klass->vtable)._6_CanUse.methodPtr)(__this,(__this->klass->vtable)._6_CanUse.method);
-    if (cVar1 != '\0') {
-      *(undefined1 *)&(__this->fields).IsActive = 1;
-      fVar2 = (float)(*(__this->klass->vtable)._14_get_ActiveTime.methodPtr)
-                               (__this,(__this->klass->vtable)._14_get_ActiveTime.method);
-      (__this->fields)._activeTimeLeft = fVar2;
-      (*(__this->klass->vtable)._9_Activate.methodPtr)(__this,(__this->klass->vtable)._9_Activate.method);
-      UNRECOVERED_JUMPTABLE_00 = (__this->klass->vtable)._8_OnUse.methodPtr;
-      (*UNRECOVERED_JUMPTABLE_00)
-                (__this,(__this->klass->vtable)._8_OnUse.method,extraout_RDX,UNRECOVERED_JUMPTABLE_00);
-      return;
-    }
+  else if (bVar2 != false) {
+    pCVar1 = __this->klass;
+    (__this->fields).IsActive = false;
+    (*(pCVar1->vtable)._10_Deactivate.methodPtr)
+              (__this,(System_Type_o *)(pCVar1->vtable)._10_Deactivate.method,method);
+    return;
   }
   return;
 }
@@ -87,36 +86,21 @@ void Characters_HoldUseable__SetInput(Characters_HoldUseable_o *__this,bool_conf
 
 // Characters.HoldUseable$$ReadInput
 // il2cpp: void Characters_HoldUseable__ReadInput (Characters_HoldUseable_o* __this, Settings_KeybindSetting_o* keybind, const MethodInfo* method);
-// 0x42a91e0
+// 0x182117850
 
 void Characters_HoldUseable__ReadInput
                (Characters_HoldUseable_o *__this,Settings_KeybindSetting_o *keybind,MethodInfo *method)
 
 {
-  Characters_HoldUseable_c *pCVar1;
-  Il2CppMethodPointer vtableDispatch;
-  uint uVar2;
-  undefined4 uVar3;
+  bool bVar1;
   
   if (keybind != (Settings_KeybindSetting_o *)0x0) {
-    uVar2 = Settings_KeybindSetting__GetKey(keybind,0,(MethodInfo *)0x0);
-    pCVar1 = __this->klass;
-    vtableDispatch = (pCVar1->vtable)._12_SetInput.methodPtr;
-    (*vtableDispatch)
-              (__this,(ulong)(uVar2 & 0xff),(pCVar1->vtable)._12_SetInput.method,pCVar1,vtableDispatch)
-    ;
+    bVar1 = Settings_KeybindSetting__GetKey(keybind,false,(MethodInfo *)0x0);
+    (*(__this->klass->vtable)._12_SetInput.methodPtr)
+              (__this,bVar1,(__this->klass->vtable)._12_SetInput.method);
     return;
   }
-  uVar3 = il2cpp_runtime_helper_022b2c90();
-  (__this->fields)._lastUseTime = -1000.0;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  (__this->fields)._owner = (Characters_BaseCharacter_o *)keybind;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._owner,keybind);
-  (__this->fields).Cooldown = 0.0;
-  (__this->fields).UsesLeft = -1;
-  (__this->fields).MaxUses = -1;
-  *(undefined4 *)&(__this->fields).field_0x2c = uVar3;
-  return;
+  ThrowNullReferenceException();
 }
 
 

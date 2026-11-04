@@ -11,27 +11,27 @@ using UnityEngine.Events;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000A2")]
+[Token(Token = "0x20000C3")]
 internal static class BeforeRenderHelper
 {
-	[Token(Token = "0x20000A3")]
+	[Token(Token = "0x20000C4")]
 	private struct OrderBlock
 	{
-		[Token(Token = "0x40001B1")]
+		[Token(Token = "0x4000206")]
 		[FieldOffset(Offset = "0x0")]
 		internal int order;
 
-		[Token(Token = "0x40001B2")]
+		[Token(Token = "0x4000207")]
 		[FieldOffset(Offset = "0x8")]
 		internal UnityAction callback;
 	}
 
-	[Token(Token = "0x40001B0")]
+	[Token(Token = "0x4000205")]
 	[FieldOffset(Offset = "0x0")]
 	private static List<OrderBlock> s_OrderBlocks;
 
-	[Token(Token = "0x60002FD")]
-	[Address(RVA = "0x4DAFE20", Offset = "0x4DAFE20", VA = "0x4DAFE20")]
+	[Token(Token = "0x6000428")]
+	[Address(RVA = "0x2EBBB10", Offset = "0x2EBA110", VA = "0x182EBBB10")]
 	public static void Invoke()
 	{
 	}

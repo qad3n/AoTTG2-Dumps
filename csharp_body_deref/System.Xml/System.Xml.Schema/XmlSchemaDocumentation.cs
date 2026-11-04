@@ -34,7 +34,7 @@ public class XmlSchemaDocumentation : XmlSchemaObject
 	public string Source
 	{
 		[Token(Token = "0x60015FD")]
-		[Address(RVA = "0x4723590", Offset = "0x4723590", VA = "0x4723590")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
@@ -45,7 +45,7 @@ public class XmlSchemaDocumentation : XmlSchemaObject
 	public string Language
 	{
 		[Token(Token = "0x60015FE")]
-		[Address(RVA = "0x47235A0", Offset = "0x47235A0", VA = "0x47235A0")]
+		[Address(RVA = "0x266AD00", Offset = "0x2669300", VA = "0x18266AD00")]
 		set
 		{
 		}
@@ -57,14 +57,14 @@ public class XmlSchemaDocumentation : XmlSchemaObject
 	public XmlNode[] Markup
 	{
 		[Token(Token = "0x60015FF")]
-		[Address(RVA = "0x47236A0", Offset = "0x47236A0", VA = "0x47236A0")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001600")]
-	[Address(RVA = "0x47236B0", Offset = "0x47236B0", VA = "0x47236B0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public XmlSchemaDocumentation()
 	{
 	}

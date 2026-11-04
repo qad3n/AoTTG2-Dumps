@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x2000204")]
+[Token(Token = "0x2000235")]
 internal enum StackCrawlMark
 {
-	[Token(Token = "0x40009DB")]
+	[Token(Token = "0x4000A39")]
 	LookForMe,
-	[Token(Token = "0x40009DC")]
+	[Token(Token = "0x4000A3A")]
 	LookForMyCaller,
-	[Token(Token = "0x40009DD")]
+	[Token(Token = "0x4000A3B")]
 	LookForMyCallersCaller,
-	[Token(Token = "0x40009DE")]
+	[Token(Token = "0x4000A3C")]
 	LookForThread
 }

@@ -16,15 +16,15 @@ internal sealed class DebugInfo
 	[Token(Token = "0x2000192")]
 	private class DebugInfoComparer : IComparer<DebugInfo>
 	{
-		[Token(Token = "0x6000873")]
-		[Address(RVA = "0x44DF570", Offset = "0x44DF570", VA = "0x44DF570", Slot = "4")]
+		[Token(Token = "0x6000872")]
+		[Address(RVA = "0x2443DE0", Offset = "0x24423E0", VA = "0x182443DE0", Slot = "4")]
 		private int System_002ECollections_002EGeneric_002EIComparer_003CSystem_002ELinq_002EExpressions_002EInterpreter_002EDebugInfo_003E_002ECompare(DebugInfo d1, DebugInfo d2)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000874")]
-		[Address(RVA = "0x44DF560", Offset = "0x44DF560", VA = "0x44DF560")]
+		[Token(Token = "0x6000873")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public DebugInfoComparer()
 		{
 		}
@@ -54,22 +54,22 @@ internal sealed class DebugInfo
 	[FieldOffset(Offset = "0x0")]
 	private static readonly DebugInfoComparer s_debugComparer;
 
-	[Token(Token = "0x600086F")]
-	[Address(RVA = "0x44DA140", Offset = "0x44DA140", VA = "0x44DA140")]
+	[Token(Token = "0x600086E")]
+	[Address(RVA = "0x2443E20", Offset = "0x2442420", VA = "0x182443E20")]
 	public static DebugInfo GetMatchingDebugInfo(DebugInfo[] debugInfos, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000870")]
-	[Address(RVA = "0x44DF2B0", Offset = "0x44DF2B0", VA = "0x44DF2B0", Slot = "3")]
+	[Token(Token = "0x600086F")]
+	[Address(RVA = "0x2443F10", Offset = "0x2442510", VA = "0x182443F10", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000871")]
-	[Address(RVA = "0x44DF2A0", Offset = "0x44DF2A0", VA = "0x44DF2A0")]
+	[Token(Token = "0x6000870")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DebugInfo()
 	{
 	}

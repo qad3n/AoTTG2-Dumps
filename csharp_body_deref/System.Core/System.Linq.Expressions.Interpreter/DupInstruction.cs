@@ -19,8 +19,8 @@ internal sealed class DupInstruction : Instruction
 	[Token(Token = "0x1700022C")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000ABA")]
-		[Address(RVA = "0x4502770", Offset = "0x4502770", VA = "0x4502770", Slot = "5")]
+		[Token(Token = "0x6000AB9")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -30,22 +30,22 @@ internal sealed class DupInstruction : Instruction
 	[Token(Token = "0x1700022D")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000ABB")]
-		[Address(RVA = "0x4502780", Offset = "0x4502780", VA = "0x4502780", Slot = "9")]
+		[Token(Token = "0x6000ABA")]
+		[Address(RVA = "0x246AD40", Offset = "0x2469340", VA = "0x18246AD40", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x4502760", Offset = "0x4502760", VA = "0x4502760")]
+	[Token(Token = "0x6000AB8")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private DupInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x45027B0", Offset = "0x45027B0", VA = "0x45027B0", Slot = "8")]
+	[Token(Token = "0x6000ABB")]
+	[Address(RVA = "0x246ACA0", Offset = "0x24692A0", VA = "0x18246ACA0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

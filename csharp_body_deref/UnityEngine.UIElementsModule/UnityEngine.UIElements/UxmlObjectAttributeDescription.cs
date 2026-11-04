@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000434")]
+[Token(Token = "0x20004FD")]
 internal class UxmlObjectAttributeDescription<T> where T : new()
 {
-	[Token(Token = "0x17000719")]
+	[Token(Token = "0x170009E8")]
 	public T defaultValue
 	{
-		[Token(Token = "0x6001AD8")]
+		[Token(Token = "0x60026A3")]
 		[CompilerGenerated]
 		get
 		{
@@ -24,13 +24,13 @@ internal class UxmlObjectAttributeDescription<T> where T : new()
 		}
 	}
 
-	[Token(Token = "0x6001AD9")]
+	[Token(Token = "0x60026A4")]
 	public virtual T GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6001ADA")]
+	[Token(Token = "0x60026A5")]
 	public UxmlObjectAttributeDescription()
 	{
 	}

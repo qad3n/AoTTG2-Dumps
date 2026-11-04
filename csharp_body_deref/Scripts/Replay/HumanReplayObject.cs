@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x20000F6")]
 internal class HumanReplayObject : BaseReplayObject
 {
-	[Token(Token = "0x400051A")]
+	[Token(Token = "0x40005BA")]
 	[FieldOffset(Offset = "0x28")]
 	public string Name;
 
-	[Token(Token = "0x400051B")]
+	[Token(Token = "0x40005BB")]
 	[FieldOffset(Offset = "0x30")]
 	public string GuildName;
 
-	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x4104560", Offset = "0x4104560", VA = "0x4104560")]
+	[Token(Token = "0x60004B3")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public HumanReplayObject()
 	{
 	}

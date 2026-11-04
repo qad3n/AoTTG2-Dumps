@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200040C")]
+[Token(Token = "0x200043B")]
 internal sealed class BinaryCrossAppDomainString
 {
-	[Token(Token = "0x40010CE")]
+	[Token(Token = "0x40010D0")]
 	[FieldOffset(Offset = "0x10")]
 	internal int objectId;
 
-	[Token(Token = "0x40010CF")]
+	[Token(Token = "0x40010D1")]
 	[FieldOffset(Offset = "0x14")]
 	internal int value;
 
-	[Token(Token = "0x600205A")]
-	[Address(RVA = "0x3BA3A50", Offset = "0x3BA3A50", VA = "0x3BA3A50")]
+	[Token(Token = "0x60020C9")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal BinaryCrossAppDomainString()
 	{
 	}
 
-	[Token(Token = "0x600205B")]
-	[Address(RVA = "0x3BA3A60", Offset = "0x3BA3A60", VA = "0x3BA3A60", Slot = "4")]
+	[Token(Token = "0x60020CA")]
+	[Address(RVA = "0x1A0D1A0", Offset = "0x1A0B7A0", VA = "0x181A0D1A0", Slot = "4")]
 	public void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
 	{
 	}
 
-	[Token(Token = "0x600205C")]
-	[Address(RVA = "0x3BA3AA0", Offset = "0x3BA3AA0", VA = "0x3BA3AA0")]
+	[Token(Token = "0x60020CB")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Dump()
 	{
 	}

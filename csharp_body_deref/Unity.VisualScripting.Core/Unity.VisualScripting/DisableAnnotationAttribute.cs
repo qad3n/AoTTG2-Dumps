@@ -15,44 +15,44 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class)]
 public class DisableAnnotationAttribute : Attribute
 {
-	[Token(Token = "0x1700005A")]
+	[Token(Token = "0x1700005B")]
 	public bool disableIcon
 	{
-		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x4CA3420", Offset = "0x4CA3420", VA = "0x4CA3420")]
+		[Token(Token = "0x60001D0")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60001CD")]
-		[Address(RVA = "0x4CA3430", Offset = "0x4CA3430", VA = "0x4CA3430")]
+		[Token(Token = "0x60001D1")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700005B")]
+	[Token(Token = "0x1700005C")]
 	public bool disableGizmo
 	{
-		[Token(Token = "0x60001CE")]
-		[Address(RVA = "0x4CA3440", Offset = "0x4CA3440", VA = "0x4CA3440")]
+		[Token(Token = "0x60001D2")]
+		[Address(RVA = "0xE5A330", Offset = "0xE58930", VA = "0x180E5A330")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60001CF")]
-		[Address(RVA = "0x4CA3450", Offset = "0x4CA3450", VA = "0x4CA3450")]
+		[Token(Token = "0x60001D3")]
+		[Address(RVA = "0x1AE80B0", Offset = "0x1AE66B0", VA = "0x181AE80B0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x4CA3460", Offset = "0x4CA3460", VA = "0x4CA3460")]
+	[Token(Token = "0x60001D4")]
+	[Address(RVA = "0x2DA2A00", Offset = "0x2DA1000", VA = "0x182DA2A00")]
 	public DisableAnnotationAttribute()
 	{
 	}

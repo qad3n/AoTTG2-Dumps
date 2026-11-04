@@ -26,7 +26,7 @@ internal class XmlSerializableMapping : XmlTypeMapping
 	private XmlQualifiedName _schemaTypeName;
 
 	[Token(Token = "0x6000EE8")]
-	[Address(RVA = "0x4839C20", Offset = "0x4839C20", VA = "0x4839C20")]
+	[Address(RVA = "0x27869E0", Offset = "0x2784FE0", VA = "0x1827869E0")]
 	internal XmlSerializableMapping(XmlRootAttribute root, string elementName, string ns, TypeData typeData, string xmlType, string xmlTypeNamespace)
 	{
 	}

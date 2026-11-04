@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000484")]
+[Token(Token = "0x20004B3")]
 [CLSCompliant(false)]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Parameter | AttributeTargets.ReturnValue)]
 public sealed class TupleElementNamesAttribute : Attribute
 {
-	[Token(Token = "0x4001305")]
+	[Token(Token = "0x4001307")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string[] _transformNames;
 
-	[Token(Token = "0x600228D")]
-	[Address(RVA = "0x3BC1320", Offset = "0x3BC1320", VA = "0x3BC1320")]
+	[Token(Token = "0x600230D")]
+	[Address(RVA = "0x1A38620", Offset = "0x1A36C20", VA = "0x181A38620")]
 	public TupleElementNamesAttribute(string[] transformNames)
 	{
 	}

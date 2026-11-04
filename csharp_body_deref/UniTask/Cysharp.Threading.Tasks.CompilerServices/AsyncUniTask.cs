@@ -13,33 +13,33 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.CompilerServices;
 
-[Token(Token = "0x2000261")]
+[Token(Token = "0x2000264")]
 internal sealed class AsyncUniTask<TStateMachine> : IStateMachineRunnerPromise, IUniTaskSource, IValueTaskSource, ITaskPoolNode<AsyncUniTask<TStateMachine>> where TStateMachine : IAsyncStateMachine
 {
-	[Token(Token = "0x40006BF")]
+	[Token(Token = "0x40006D2")]
 	[FieldOffset(Offset = "0x0")]
 	private static TaskPool<AsyncUniTask<TStateMachine>> pool;
 
-	[Token(Token = "0x40006C0")]
+	[Token(Token = "0x40006D3")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Action returnDelegate;
 
-	[Token(Token = "0x40006C2")]
+	[Token(Token = "0x40006D5")]
 	[FieldOffset(Offset = "0x0")]
 	private TStateMachine stateMachine;
 
-	[Token(Token = "0x40006C3")]
+	[Token(Token = "0x40006D6")]
 	[FieldOffset(Offset = "0x0")]
 	private UniTaskCompletionSourceCore<AsyncUnit> core;
 
-	[Token(Token = "0x40006C4")]
+	[Token(Token = "0x40006D7")]
 	[FieldOffset(Offset = "0x0")]
 	private AsyncUniTask<TStateMachine> nextNode;
 
-	[Token(Token = "0x1700008C")]
+	[Token(Token = "0x1700008E")]
 	public Action MoveNext
 	{
-		[Token(Token = "0x6000D8B")]
+		[Token(Token = "0x6000DAF")]
 		[CompilerGenerated]
 		get
 		{
@@ -47,20 +47,20 @@ internal sealed class AsyncUniTask<TStateMachine> : IStateMachineRunnerPromise, 
 		}
 	}
 
-	[Token(Token = "0x1700008D")]
+	[Token(Token = "0x1700008F")]
 	public unsafe ref AsyncUniTask<TStateMachine> NextNode
 	{
-		[Token(Token = "0x6000D8E")]
+		[Token(Token = "0x6000DB2")]
 		get
 		{
 			return ref *(AsyncUniTask<TStateMachine>*)null;
 		}
 	}
 
-	[Token(Token = "0x1700008E")]
+	[Token(Token = "0x17000090")]
 	public UniTask Task
 	{
-		[Token(Token = "0x6000D93")]
+		[Token(Token = "0x6000DB7")]
 		[DebuggerHidden]
 		get
 		{
@@ -68,104 +68,104 @@ internal sealed class AsyncUniTask<TStateMachine> : IStateMachineRunnerPromise, 
 		}
 	}
 
-	[Token(Token = "0x6000D8C")]
+	[Token(Token = "0x6000DB0")]
 	private AsyncUniTask()
 	{
 	}
 
-	[Token(Token = "0x6000D8D")]
+	[Token(Token = "0x6000DB1")]
 	public static void SetStateMachine(ref TStateMachine stateMachine, ref IStateMachineRunnerPromise runnerPromiseFieldRef)
 	{
 	}
 
-	[Token(Token = "0x6000D8F")]
+	[Token(Token = "0x6000DB3")]
 	static AsyncUniTask()
 	{
 	}
 
-	[Token(Token = "0x6000D90")]
+	[Token(Token = "0x6000DB4")]
 	private void Return()
 	{
 	}
 
-	[Token(Token = "0x6000D91")]
+	[Token(Token = "0x6000DB5")]
 	private bool TryReturn()
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D92")]
+	[Token(Token = "0x6000DB6")]
 	[DebuggerHidden]
 	private void Run()
 	{
 	}
 
-	[Token(Token = "0x6000D94")]
+	[Token(Token = "0x6000DB8")]
 	[DebuggerHidden]
 	public void SetResult()
 	{
 	}
 
-	[Token(Token = "0x6000D95")]
+	[Token(Token = "0x6000DB9")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x6000D96")]
+	[Token(Token = "0x6000DBA")]
 	[DebuggerHidden]
 	public void GetResult(short token)
 	{
 	}
 
-	[Token(Token = "0x6000D97")]
+	[Token(Token = "0x6000DBB")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000D98")]
+	[Token(Token = "0x6000DBC")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000D99")]
+	[Token(Token = "0x6000DBD")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{
 	}
 }
-[Token(Token = "0x2000263")]
+[Token(Token = "0x2000266")]
 internal sealed class AsyncUniTask<TStateMachine, T> : IStateMachineRunnerPromise<T>, IUniTaskSource<T>, IUniTaskSource, IValueTaskSource, IValueTaskSource<T>, ITaskPoolNode<AsyncUniTask<TStateMachine, T>> where TStateMachine : IAsyncStateMachine
 {
-	[Token(Token = "0x40006C6")]
+	[Token(Token = "0x40006D9")]
 	[FieldOffset(Offset = "0x0")]
 	private static TaskPool<AsyncUniTask<TStateMachine, T>> pool;
 
-	[Token(Token = "0x40006C7")]
+	[Token(Token = "0x40006DA")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Action returnDelegate;
 
-	[Token(Token = "0x40006C9")]
+	[Token(Token = "0x40006DC")]
 	[FieldOffset(Offset = "0x0")]
 	private TStateMachine stateMachine;
 
-	[Token(Token = "0x40006CA")]
+	[Token(Token = "0x40006DD")]
 	[FieldOffset(Offset = "0x0")]
 	private UniTaskCompletionSourceCore<T> core;
 
-	[Token(Token = "0x40006CB")]
+	[Token(Token = "0x40006DE")]
 	[FieldOffset(Offset = "0x0")]
 	private AsyncUniTask<TStateMachine, T> nextNode;
 
-	[Token(Token = "0x1700008F")]
+	[Token(Token = "0x17000091")]
 	public Action MoveNext
 	{
-		[Token(Token = "0x6000D9D")]
+		[Token(Token = "0x6000DC1")]
 		[CompilerGenerated]
 		get
 		{
@@ -173,20 +173,20 @@ internal sealed class AsyncUniTask<TStateMachine, T> : IStateMachineRunnerPromis
 		}
 	}
 
-	[Token(Token = "0x17000090")]
+	[Token(Token = "0x17000092")]
 	public unsafe ref AsyncUniTask<TStateMachine, T> NextNode
 	{
-		[Token(Token = "0x6000DA0")]
+		[Token(Token = "0x6000DC4")]
 		get
 		{
 			return ref *(AsyncUniTask<TStateMachine, T>*)null;
 		}
 	}
 
-	[Token(Token = "0x17000091")]
+	[Token(Token = "0x17000093")]
 	public UniTask<T> Task
 	{
-		[Token(Token = "0x6000DA5")]
+		[Token(Token = "0x6000DC9")]
 		[DebuggerHidden]
 		get
 		{
@@ -194,79 +194,79 @@ internal sealed class AsyncUniTask<TStateMachine, T> : IStateMachineRunnerPromis
 		}
 	}
 
-	[Token(Token = "0x6000D9E")]
+	[Token(Token = "0x6000DC2")]
 	private AsyncUniTask()
 	{
 	}
 
-	[Token(Token = "0x6000D9F")]
+	[Token(Token = "0x6000DC3")]
 	public static void SetStateMachine(ref TStateMachine stateMachine, ref IStateMachineRunnerPromise<T> runnerPromiseFieldRef)
 	{
 	}
 
-	[Token(Token = "0x6000DA1")]
+	[Token(Token = "0x6000DC5")]
 	static AsyncUniTask()
 	{
 	}
 
-	[Token(Token = "0x6000DA2")]
+	[Token(Token = "0x6000DC6")]
 	private void Return()
 	{
 	}
 
-	[Token(Token = "0x6000DA3")]
+	[Token(Token = "0x6000DC7")]
 	private bool TryReturn()
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000DA4")]
+	[Token(Token = "0x6000DC8")]
 	[DebuggerHidden]
 	private void Run()
 	{
 	}
 
-	[Token(Token = "0x6000DA6")]
+	[Token(Token = "0x6000DCA")]
 	[DebuggerHidden]
 	public void SetResult(T result)
 	{
 	}
 
-	[Token(Token = "0x6000DA7")]
+	[Token(Token = "0x6000DCB")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x6000DA8")]
+	[Token(Token = "0x6000DCC")]
 	[DebuggerHidden]
 	public T GetResult(short token)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000DA9")]
+	[Token(Token = "0x6000DCD")]
 	[DebuggerHidden]
 	private void Cysharp_002EThreading_002ETasks_002EIUniTaskSource_002EGetResult(short token)
 	{
 	}
 
-	[Token(Token = "0x6000DAA")]
+	[Token(Token = "0x6000DCE")]
 	[DebuggerHidden]
 	public UniTaskStatus GetStatus(short token)
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000DAB")]
+	[Token(Token = "0x6000DCF")]
 	[DebuggerHidden]
 	public UniTaskStatus UnsafeGetStatus()
 	{
 		return default(UniTaskStatus);
 	}
 
-	[Token(Token = "0x6000DAC")]
+	[Token(Token = "0x6000DD0")]
 	[DebuggerHidden]
 	public void OnCompleted(Action<object> continuation, object state, short token)
 	{

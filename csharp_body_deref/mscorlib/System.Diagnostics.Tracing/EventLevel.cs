@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005EA")]
+[Token(Token = "0x20005BC")]
 public enum EventLevel
 {
-	[Token(Token = "0x4001A21")]
+	[Token(Token = "0x400183B")]
 	LogAlways,
-	[Token(Token = "0x4001A22")]
+	[Token(Token = "0x400183C")]
 	Critical,
-	[Token(Token = "0x4001A23")]
+	[Token(Token = "0x400183D")]
 	Error,
-	[Token(Token = "0x4001A24")]
+	[Token(Token = "0x400183E")]
 	Warning,
-	[Token(Token = "0x4001A25")]
+	[Token(Token = "0x400183F")]
 	Informational,
-	[Token(Token = "0x4001A26")]
+	[Token(Token = "0x4001840")]
 	Verbose
 }

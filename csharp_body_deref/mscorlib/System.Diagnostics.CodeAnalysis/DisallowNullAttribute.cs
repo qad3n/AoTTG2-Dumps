@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.CodeAnalysis;
 
-[Token(Token = "0x20005F1")]
+[Token(Token = "0x20005C3")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, Inherited = false)]
 public sealed class DisallowNullAttribute : Attribute
 {
-	[Token(Token = "0x6002EA3")]
-	[Address(RVA = "0x3C7CD80", Offset = "0x3C7CD80", VA = "0x3C7CD80")]
+	[Token(Token = "0x6002BB0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DisallowNullAttribute()
 	{
 	}

@@ -11,21 +11,21 @@ using Il2CppDummyDll;
 namespace UnityEngine.Events;
 
 [Serializable]
-[Token(Token = "0x20001DC")]
+[Token(Token = "0x200021E")]
 public enum PersistentListenerMode
 {
-	[Token(Token = "0x4000676")]
+	[Token(Token = "0x400070D")]
 	EventDefined,
-	[Token(Token = "0x4000677")]
+	[Token(Token = "0x400070E")]
 	Void,
-	[Token(Token = "0x4000678")]
+	[Token(Token = "0x400070F")]
 	Object,
-	[Token(Token = "0x4000679")]
+	[Token(Token = "0x4000710")]
 	Int,
-	[Token(Token = "0x400067A")]
+	[Token(Token = "0x4000711")]
 	Float,
-	[Token(Token = "0x400067B")]
+	[Token(Token = "0x4000712")]
 	String,
-	[Token(Token = "0x400067C")]
+	[Token(Token = "0x4000713")]
 	Bool
 }

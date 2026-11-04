@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200042F")]
+[Token(Token = "0x20004F8")]
 public class UxmlTypeAttributeDescription<TBase> : TypedUxmlAttributeDescription<Type>
 {
-	[Token(Token = "0x6001AC5")]
+	[Token(Token = "0x6002690")]
 	public UxmlTypeAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AC6")]
+	[Token(Token = "0x6002691")]
 	public override Type GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AC7")]
+	[Token(Token = "0x6002692")]
 	private Type ConvertValueToType(string v, Type defaultValue)
 	{
 		return null;

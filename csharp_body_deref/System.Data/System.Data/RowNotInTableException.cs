@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x2000021")]
+[Token(Token = "0x2000015")]
 public class RowNotInTableException : DataException
 {
-	[Token(Token = "0x6000162")]
-	[Address(RVA = "0x4547B20", Offset = "0x4547B20", VA = "0x4547B20")]
+	[Token(Token = "0x60000BD")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected RowNotInTableException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x4547B30", Offset = "0x4547B30", VA = "0x4547B30")]
+	[Token(Token = "0x60000BE")]
+	[Address(RVA = "0x24E4630", Offset = "0x24E2C30", VA = "0x1824E4630")]
 	public RowNotInTableException()
 	{
 	}
 
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x4547B70", Offset = "0x4547B70", VA = "0x4547B70")]
+	[Token(Token = "0x60000BF")]
+	[Address(RVA = "0x24E4680", Offset = "0x24E2C80", VA = "0x1824E4680")]
 	public RowNotInTableException(string s)
 	{
 	}

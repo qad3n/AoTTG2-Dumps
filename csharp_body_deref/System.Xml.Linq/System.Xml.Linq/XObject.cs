@@ -24,7 +24,7 @@ public abstract class XObject : IXmlLineInfo
 	public string BaseUri
 	{
 		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x4691A90", Offset = "0x4691A90", VA = "0x4691A90")]
+		[Address(RVA = "0x25ED190", Offset = "0x25EB790", VA = "0x1825ED190")]
 		get
 		{
 			return null;
@@ -42,7 +42,7 @@ public abstract class XObject : IXmlLineInfo
 	public XElement Parent
 	{
 		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x4696050", Offset = "0x4696050", VA = "0x4696050")]
+		[Address(RVA = "0x25ED250", Offset = "0x25EB850", VA = "0x1825ED250")]
 		get
 		{
 			return null;
@@ -53,7 +53,7 @@ public abstract class XObject : IXmlLineInfo
 	private int System_002EXml_002EIXmlLineInfo_002ELineNumber
 	{
 		[Token(Token = "0x60000CD")]
-		[Address(RVA = "0x4696210", Offset = "0x4696210", VA = "0x4696210", Slot = "5")]
+		[Address(RVA = "0x25ED0F0", Offset = "0x25EB6F0", VA = "0x1825ED0F0", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -64,7 +64,7 @@ public abstract class XObject : IXmlLineInfo
 	private int System_002EXml_002EIXmlLineInfo_002ELinePosition
 	{
 		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x4696250", Offset = "0x4696250", VA = "0x4696250", Slot = "6")]
+		[Address(RVA = "0x25ED140", Offset = "0x25EB740", VA = "0x1825ED140", Slot = "6")]
 		get
 		{
 			return default(int);
@@ -75,7 +75,7 @@ public abstract class XObject : IXmlLineInfo
 	internal bool HasBaseUri
 	{
 		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x4691A50", Offset = "0x4691A50", VA = "0x4691A50")]
+		[Address(RVA = "0x25ED210", Offset = "0x25EB810", VA = "0x1825ED210")]
 		get
 		{
 			return default(bool);
@@ -83,19 +83,19 @@ public abstract class XObject : IXmlLineInfo
 	}
 
 	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x468B6E0", Offset = "0x468B6E0", VA = "0x468B6E0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal XObject()
 	{
 	}
 
 	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x4693EF0", Offset = "0x4693EF0", VA = "0x4693EF0")]
+	[Address(RVA = "0x25EC860", Offset = "0x25EAE60", VA = "0x1825EC860")]
 	public void AddAnnotation(object annotation)
 	{
 	}
 
 	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x46960B0", Offset = "0x46960B0", VA = "0x46960B0")]
+	[Address(RVA = "0x25ECB30", Offset = "0x25EB130", VA = "0x1825ECB30")]
 	private object AnnotationForSealedType(Type type)
 	{
 		return null;
@@ -108,47 +108,47 @@ public abstract class XObject : IXmlLineInfo
 	}
 
 	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x46961D0", Offset = "0x46961D0", VA = "0x46961D0", Slot = "4")]
+	[Address(RVA = "0x25ED0B0", Offset = "0x25EB6B0", VA = "0x1825ED0B0", Slot = "4")]
 	private bool System_002EXml_002EIXmlLineInfo_002EHasLineInfo()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x468C140", Offset = "0x468C140", VA = "0x468C140")]
+	[Address(RVA = "0x25ECE30", Offset = "0x25EB430", VA = "0x1825ECE30")]
 	internal bool NotifyChanged(object sender, XObjectChangeEventArgs e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x468C0A0", Offset = "0x468C0A0", VA = "0x468C0A0")]
+	[Address(RVA = "0x25ECEC0", Offset = "0x25EB4C0", VA = "0x1825ECEC0")]
 	internal bool NotifyChanging(object sender, XObjectChangeEventArgs e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x4691900", Offset = "0x4691900", VA = "0x4691900")]
+	[Address(RVA = "0x25ECF50", Offset = "0x25EB550", VA = "0x1825ECF50")]
 	internal void SetBaseUri(string baseUri)
 	{
 	}
 
 	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x4691970", Offset = "0x4691970", VA = "0x4691970")]
+	[Address(RVA = "0x25ECFD0", Offset = "0x25EB5D0", VA = "0x1825ECFD0")]
 	internal void SetLineInfo(int lineNumber, int linePosition)
 	{
 	}
 
 	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x468D9E0", Offset = "0x468D9E0", VA = "0x468D9E0")]
+	[Address(RVA = "0x25ED040", Offset = "0x25EB640", VA = "0x1825ED040")]
 	internal bool SkipNotify()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4695B00", Offset = "0x4695B00", VA = "0x4695B00")]
+	[Address(RVA = "0x25ECC60", Offset = "0x25EB260", VA = "0x1825ECC60")]
 	internal SaveOptions GetSaveOptionsFromAnnotations()
 	{
 		return default(SaveOptions);

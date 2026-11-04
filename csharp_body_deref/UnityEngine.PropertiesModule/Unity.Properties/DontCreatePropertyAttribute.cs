@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000003")]
+[Token(Token = "0x200000B")]
 [AttributeUsage(AttributeTargets.Field)]
 public class DontCreatePropertyAttribute : Attribute
 {
-	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4E83820", Offset = "0x4E83820", VA = "0x4E83820")]
+	[Token(Token = "0x600001C")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DontCreatePropertyAttribute()
 	{
 	}

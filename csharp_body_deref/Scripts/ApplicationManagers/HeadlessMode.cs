@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x200078A")]
+[Token(Token = "0x2000915")]
 public enum HeadlessMode
 {
-	[Token(Token = "0x400245B")]
+	[Token(Token = "0x4002D2A")]
 	Host,
-	[Token(Token = "0x400245C")]
+	[Token(Token = "0x4002D2B")]
 	Join
 }

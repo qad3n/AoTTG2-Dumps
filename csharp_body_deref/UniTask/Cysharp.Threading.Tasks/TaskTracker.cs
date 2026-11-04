@@ -14,50 +14,50 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200003A")]
 public static class TaskTracker
 {
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x4000094")]
 	[FieldOffset(Offset = "0x0")]
 	private static List<KeyValuePair<IUniTaskSource, (string formattedType, int trackingId, DateTime addTime, string stackTrace)>> listPool;
 
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x4000095")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly WeakDictionary<IUniTaskSource, (string formattedType, int trackingId, DateTime addTime, string stackTrace)> tracking;
 
-	[Token(Token = "0x4000093")]
+	[Token(Token = "0x4000096")]
 	[FieldOffset(Offset = "0x10")]
 	private static bool dirty;
 
-	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x49D59F0", Offset = "0x49D59F0", VA = "0x49D59F0")]
+	[Token(Token = "0x6000128")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[Conditional("UNITY_EDITOR")]
 	public static void TrackActiveTask(IUniTaskSource task, int skipFrame)
 	{
 	}
 
-	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x49D5A00", Offset = "0x49D5A00", VA = "0x49D5A00")]
+	[Token(Token = "0x6000129")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[Conditional("UNITY_EDITOR")]
 	public static void RemoveTracking(IUniTaskSource task)
 	{
 	}
 
-	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x49D5A10", Offset = "0x49D5A10", VA = "0x49D5A10")]
+	[Token(Token = "0x600012A")]
+	[Address(RVA = "0x2912110", Offset = "0x2910710", VA = "0x182912110")]
 	public static bool CheckAndResetDirty()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x49D5A60", Offset = "0x49D5A60", VA = "0x49D5A60")]
+	[Token(Token = "0x600012B")]
+	[Address(RVA = "0x2912170", Offset = "0x2910770", VA = "0x182912170")]
 	public static void ForEachActiveTask(Action<int, string, UniTaskStatus, DateTime, string> action)
 	{
 	}
 
-	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x49D6080", Offset = "0x49D6080", VA = "0x49D6080")]
+	[Token(Token = "0x600012C")]
+	[Address(RVA = "0x29125F0", Offset = "0x2910BF0", VA = "0x1829125F0")]
 	private static void TypeBeautify(Type type, StringBuilder sb)
 	{
 	}

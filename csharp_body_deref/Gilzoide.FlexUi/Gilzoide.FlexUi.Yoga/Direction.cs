@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000A")]
 public enum Direction
 {
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000043")]
 	Inherit,
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x4000044")]
 	LTR,
-	[Token(Token = "0x400004A")]
+	[Token(Token = "0x4000045")]
 	RTL
 }

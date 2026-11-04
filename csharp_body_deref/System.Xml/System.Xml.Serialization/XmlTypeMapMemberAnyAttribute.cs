@@ -13,7 +13,7 @@ namespace System.Xml.Serialization;
 internal class XmlTypeMapMemberAnyAttribute : XmlTypeMapMember
 {
 	[Token(Token = "0x6000ED2")]
-	[Address(RVA = "0x48394F0", Offset = "0x48394F0", VA = "0x48394F0")]
+	[Address(RVA = "0x278D190", Offset = "0x278B790", VA = "0x18278D190")]
 	public XmlTypeMapMemberAnyAttribute()
 	{
 	}

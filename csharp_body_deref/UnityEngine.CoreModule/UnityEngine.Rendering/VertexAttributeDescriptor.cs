@@ -12,111 +12,111 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002B5")]
+[Token(Token = "0x2000331")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct VertexAttributeDescriptor : IEquatable<VertexAttributeDescriptor>
 {
-	[Token(Token = "0x17000263")]
+	[Token(Token = "0x170002F7")]
 	public VertexAttribute attribute
 	{
-		[Token(Token = "0x6000E20")]
-		[Address(RVA = "0x4E186C0", Offset = "0x4E186C0", VA = "0x4E186C0")]
+		[Token(Token = "0x6001296")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(VertexAttribute);
 		}
-		[Token(Token = "0x6000E21")]
-		[Address(RVA = "0x4E186D0", Offset = "0x4E186D0", VA = "0x4E186D0")]
+		[Token(Token = "0x6001297")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000264")]
+	[Token(Token = "0x170002F8")]
 	public VertexAttributeFormat format
 	{
-		[Token(Token = "0x6000E22")]
-		[Address(RVA = "0x4E186E0", Offset = "0x4E186E0", VA = "0x4E186E0")]
+		[Token(Token = "0x6001298")]
+		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(VertexAttributeFormat);
 		}
-		[Token(Token = "0x6000E23")]
-		[Address(RVA = "0x4E186F0", Offset = "0x4E186F0", VA = "0x4E186F0")]
+		[Token(Token = "0x6001299")]
+		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000265")]
+	[Token(Token = "0x170002F9")]
 	public int dimension
 	{
-		[Token(Token = "0x6000E24")]
-		[Address(RVA = "0x4E18700", Offset = "0x4E18700", VA = "0x4E18700")]
+		[Token(Token = "0x600129A")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E25")]
-		[Address(RVA = "0x4E18710", Offset = "0x4E18710", VA = "0x4E18710")]
+		[Token(Token = "0x600129B")]
+		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000266")]
+	[Token(Token = "0x170002FA")]
 	public int stream
 	{
-		[Token(Token = "0x6000E26")]
-		[Address(RVA = "0x4E18720", Offset = "0x4E18720", VA = "0x4E18720")]
+		[Token(Token = "0x600129C")]
+		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E27")]
-		[Address(RVA = "0x4E18730", Offset = "0x4E18730", VA = "0x4E18730")]
+		[Token(Token = "0x600129D")]
+		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000E28")]
-	[Address(RVA = "0x4E18740", Offset = "0x4E18740", VA = "0x4E18740")]
+	[Token(Token = "0x600129E")]
+	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
 	public VertexAttributeDescriptor(VertexAttribute attribute = VertexAttribute.Position, VertexAttributeFormat format = VertexAttributeFormat.Float32, int dimension = 3, int stream = 0)
 	{
 	}
 
-	[Token(Token = "0x6000E29")]
-	[Address(RVA = "0x4E18750", Offset = "0x4E18750", VA = "0x4E18750", Slot = "3")]
+	[Token(Token = "0x600129F")]
+	[Address(RVA = "0x2F5ED80", Offset = "0x2F5D380", VA = "0x182F5ED80", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E2A")]
-	[Address(RVA = "0x4E18960", Offset = "0x4E18960", VA = "0x4E18960", Slot = "2")]
+	[Token(Token = "0x60012A0")]
+	[Address(RVA = "0x2F5ED50", Offset = "0x2F5D350", VA = "0x182F5ED50", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E2B")]
-	[Address(RVA = "0x4E18990", Offset = "0x4E18990", VA = "0x4E18990", Slot = "0")]
+	[Token(Token = "0x60012A1")]
+	[Address(RVA = "0x2F5ECA0", Offset = "0x2F5D2A0", VA = "0x182F5ECA0", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E2C")]
-	[Address(RVA = "0x4E18A10", Offset = "0x4E18A10", VA = "0x4E18A10", Slot = "4")]
+	[Token(Token = "0x60012A2")]
+	[Address(RVA = "0x2ED0450", Offset = "0x2ECEA50", VA = "0x182ED0450", Slot = "4")]
 	public bool Equals(VertexAttributeDescriptor other)
 	{
 		return default(bool);

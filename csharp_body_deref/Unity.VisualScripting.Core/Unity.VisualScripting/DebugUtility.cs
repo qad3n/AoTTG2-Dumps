@@ -12,19 +12,19 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000064")]
 public static class DebugUtility
 {
-	[Token(Token = "0x1700009A")]
+	[Token(Token = "0x1700009C")]
 	public static string logPath
 	{
-		[Token(Token = "0x60002B4")]
-		[Address(RVA = "0x4CA8680", Offset = "0x4CA8680", VA = "0x4CA8680")]
+		[Token(Token = "0x60002B9")]
+		[Address(RVA = "0x2DA2560", Offset = "0x2DA0B60", VA = "0x182DA2560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x4CA86F0", Offset = "0x4CA86F0", VA = "0x4CA86F0")]
+	[Token(Token = "0x60002BA")]
+	[Address(RVA = "0x2DA24C0", Offset = "0x2DA0AC0", VA = "0x182DA24C0")]
 	public static void LogToFile(string message)
 	{
 	}

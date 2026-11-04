@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000348")]
+[Token(Token = "0x2000377")]
 internal class ProviderData
 {
-	[Token(Token = "0x4000E9E")]
+	[Token(Token = "0x4000EAB")]
 	[FieldOffset(Offset = "0x10")]
 	internal string Ref;
 
-	[Token(Token = "0x4000E9F")]
+	[Token(Token = "0x4000EAC")]
 	[FieldOffset(Offset = "0x18")]
 	internal string Type;
 
-	[Token(Token = "0x4000EA0")]
+	[Token(Token = "0x4000EAD")]
 	[FieldOffset(Offset = "0x20")]
 	internal string Id;
 
-	[Token(Token = "0x4000EA1")]
+	[Token(Token = "0x4000EAE")]
 	[FieldOffset(Offset = "0x28")]
 	internal Hashtable CustomProperties;
 
-	[Token(Token = "0x4000EA2")]
+	[Token(Token = "0x4000EAF")]
 	[FieldOffset(Offset = "0x30")]
 	internal IList CustomData;
 
-	[Token(Token = "0x6001C76")]
-	[Address(RVA = "0x3B64BA0", Offset = "0x3B64BA0", VA = "0x3B64BA0")]
+	[Token(Token = "0x6001CE5")]
+	[Address(RVA = "0x19DB510", Offset = "0x19D9B10", VA = "0x1819DB510")]
 	public void CopyFrom(System.Runtime.Remoting.ProviderData other)
 	{
 	}
 
-	[Token(Token = "0x6001C77")]
-	[Address(RVA = "0x3B69720", Offset = "0x3B69720", VA = "0x3B69720")]
+	[Token(Token = "0x6001CE6")]
+	[Address(RVA = "0x19D9F40", Offset = "0x19D8540", VA = "0x1819D9F40")]
 	public ProviderData()
 	{
 	}

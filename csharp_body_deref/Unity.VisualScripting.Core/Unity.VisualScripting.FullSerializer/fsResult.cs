@@ -11,140 +11,140 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x200020F")]
+[Token(Token = "0x2000216")]
 public struct fsResult
 {
-	[Token(Token = "0x40009A1")]
+	[Token(Token = "0x40009B1")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string[] EmptyStringArray;
 
-	[Token(Token = "0x40009A2")]
+	[Token(Token = "0x40009B2")]
 	[FieldOffset(Offset = "0x0")]
 	private bool _success;
 
-	[Token(Token = "0x40009A3")]
+	[Token(Token = "0x40009B3")]
 	[FieldOffset(Offset = "0x8")]
 	private List<string> _messages;
 
-	[Token(Token = "0x40009A4")]
+	[Token(Token = "0x40009B4")]
 	[FieldOffset(Offset = "0x8")]
 	public static fsResult Success;
 
-	[Token(Token = "0x17000209")]
+	[Token(Token = "0x17000216")]
 	public bool Failed
 	{
-		[Token(Token = "0x600127E")]
-		[Address(RVA = "0x4D68FA0", Offset = "0x4D68FA0", VA = "0x4D68FA0")]
+		[Token(Token = "0x60012B6")]
+		[Address(RVA = "0x12906C0", Offset = "0x128ECC0", VA = "0x1812906C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020A")]
+	[Token(Token = "0x17000217")]
 	public bool Succeeded
 	{
-		[Token(Token = "0x600127F")]
-		[Address(RVA = "0x4D80F90", Offset = "0x4D80F90", VA = "0x4D80F90")]
+		[Token(Token = "0x60012B7")]
+		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020B")]
+	[Token(Token = "0x17000218")]
 	public bool HasWarnings
 	{
-		[Token(Token = "0x6001280")]
-		[Address(RVA = "0x4D80FA0", Offset = "0x4D80FA0", VA = "0x4D80FA0")]
+		[Token(Token = "0x60012B8")]
+		[Address(RVA = "0x2E72C00", Offset = "0x2E71200", VA = "0x182E72C00")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700020C")]
+	[Token(Token = "0x17000219")]
 	public Exception AsException
 	{
-		[Token(Token = "0x6001283")]
-		[Address(RVA = "0x4D80FE0", Offset = "0x4D80FE0", VA = "0x4D80FE0")]
+		[Token(Token = "0x60012BB")]
+		[Address(RVA = "0x2E729C0", Offset = "0x2E70FC0", VA = "0x182E729C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020D")]
+	[Token(Token = "0x1700021A")]
 	public IEnumerable<string> RawMessages
 	{
-		[Token(Token = "0x6001284")]
-		[Address(RVA = "0x4D812D0", Offset = "0x4D812D0", VA = "0x4D812D0")]
+		[Token(Token = "0x60012BC")]
+		[Address(RVA = "0x2E72C50", Offset = "0x2E71250", VA = "0x182E72C50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700020E")]
+	[Token(Token = "0x1700021B")]
 	public string FormattedMessages
 	{
-		[Token(Token = "0x6001285")]
-		[Address(RVA = "0x4D81340", Offset = "0x4D81340", VA = "0x4D81340")]
+		[Token(Token = "0x60012BD")]
+		[Address(RVA = "0x2E72B30", Offset = "0x2E71130", VA = "0x182E72B30")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001278")]
-	[Address(RVA = "0x4D80DD0", Offset = "0x4D80DD0", VA = "0x4D80DD0")]
+	[Token(Token = "0x60012B0")]
+	[Address(RVA = "0x2E722B0", Offset = "0x2E708B0", VA = "0x182E722B0")]
 	public void AddMessage(string message)
 	{
 	}
 
-	[Token(Token = "0x6001279")]
-	[Address(RVA = "0x4D68EF0", Offset = "0x4D68EF0", VA = "0x4D68EF0")]
+	[Token(Token = "0x60012B1")]
+	[Address(RVA = "0x2E723B0", Offset = "0x2E709B0", VA = "0x182E723B0")]
 	public void AddMessages(fsResult result)
 	{
 	}
 
-	[Token(Token = "0x600127A")]
-	[Address(RVA = "0x4D80EC0", Offset = "0x4D80EC0", VA = "0x4D80EC0")]
+	[Token(Token = "0x60012B2")]
+	[Address(RVA = "0x2E72730", Offset = "0x2E70D30", VA = "0x182E72730")]
 	public fsResult Merge(fsResult other)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x600127B")]
-	[Address(RVA = "0x4D6C8F0", Offset = "0x4D6C8F0", VA = "0x4D6C8F0")]
+	[Token(Token = "0x60012B3")]
+	[Address(RVA = "0x2E72810", Offset = "0x2E70E10", VA = "0x182E72810")]
 	public static fsResult Warn(string warning)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x600127C")]
-	[Address(RVA = "0x4D6A2A0", Offset = "0x4D6A2A0", VA = "0x4D6A2A0")]
+	[Token(Token = "0x60012B4")]
+	[Address(RVA = "0x2E72630", Offset = "0x2E70C30", VA = "0x182E72630")]
 	public static fsResult Fail(string warning)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x600127D")]
-	[Address(RVA = "0x4D69560", Offset = "0x4D69560", VA = "0x4D69560")]
+	[Token(Token = "0x60012B5")]
+	[Address(RVA = "0x2E72CC0", Offset = "0x2E712C0", VA = "0x182E72CC0")]
 	public static fsResult operator +(fsResult a, fsResult b)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001281")]
-	[Address(RVA = "0x4D7F0C0", Offset = "0x4D7F0C0", VA = "0x4D7F0C0")]
+	[Token(Token = "0x60012B9")]
+	[Address(RVA = "0x2E72590", Offset = "0x2E70B90", VA = "0x182E72590")]
 	public fsResult AssertSuccess()
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001282")]
-	[Address(RVA = "0x4D81190", Offset = "0x4D81190", VA = "0x4D81190")]
+	[Token(Token = "0x60012BA")]
+	[Address(RVA = "0x2E72470", Offset = "0x2E70A70", VA = "0x182E72470")]
 	public fsResult AssertSuccessWithoutWarnings()
 	{
 		return default(fsResult);

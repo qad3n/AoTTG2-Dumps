@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200018F")]
+[Token(Token = "0x2000317")]
 internal class DefaultCertificatePolicy
 {
 }

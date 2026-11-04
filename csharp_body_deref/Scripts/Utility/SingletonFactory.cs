@@ -10,17 +10,17 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x2000743")]
+[Token(Token = "0x20008CC")]
 internal class SingletonFactory : MonoBehaviour
 {
-	[Token(Token = "0x6004700")]
+	[Token(Token = "0x6005366")]
 	public static T CreateSingleton<T>(T instance) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004701")]
-	[Address(RVA = "0x4394040", Offset = "0x4394040", VA = "0x4394040")]
+	[Token(Token = "0x6005367")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SingletonFactory()
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: UI.SettingsSoundPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/SettingsSoundPanel.cs
@@ -8,449 +8,393 @@
 
 // UI.SettingsSoundPanel$$get_ScrollBar
 // il2cpp: bool UI_SettingsSoundPanel__get_ScrollBar (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444db00
+// 0x1808ed110
 
-bool_conflict UI_SettingsSoundPanel__get_ScrollBar(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
+bool
+UI_SettingsSoundPanel__get_ScrollBar(UI_SettingsSoundPanel_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // UI.SettingsSoundPanel$$Setup
 // il2cpp: void UI_SettingsSoundPanel__Setup (UI_SettingsSoundPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x444db10
+// 0x1822f98b0
 
 void UI_SettingsSoundPanel__Setup(UI_SettingsSoundPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
-  int *piVar1;
-  byte bVar2;
-  UI_BasePanel_o *category;
-  Settings_BaseSetting_o *pSVar3;
-  Settings_TypedSetting_T__o *pSVar4;
-  UI_BasePanel_o *pUVar5;
-  UI_SelectListPopup_o *__this_00;
-  char *pcVar6;
-  UnityEngine_Object_o *x;
-  long *plVar7;
-  bool_conflict bVar8;
-  uint uVar9;
-  System_String_o *pSVar10;
-  Il2CppClass *pIVar11;
-  Il2CppClass *pIVar12;
-  UnityEngine_GameObject_o *pUVar13;
-  UnityEngine_UI_Text_o *pUVar14;
-  System_String_array *pSVar15;
-  System_String_o *str0;
-  UnityEngine_Transform_o *pUVar16;
-  UnityEngine_Events_UnityAction_o *pUVar17;
-  System_Collections_Generic_List_string__o *items;
-  UI_CategoryPanel_o *__this_01;
-  long lVar18;
-  uint uVar19;
-  Il2CppClass *pIVar20;
-  Il2CppClass *pIVar21;
-  Il2CppClass *pIVar22;
-  MethodInfo *in_R9;
-  MethodInfo *pMVar23;
+  byte bVar1;
+  System_String_o *category;
+  Settings_SoundSettings_o *pSVar2;
+  Settings_FloatSetting_o *pSVar3;
+  Settings_BoolSetting_o *pSVar4;
+  Settings_StringSetting_o *pSVar5;
+  Settings_IntSetting_o *setting;
+  bool bVar6;
+  System_String_o *pSVar7;
+  UI_ElementStyle_o *__this_00;
+  UI_ElementStyle_o *__this_01;
+  UnityEngine_GameObject_o *pUVar8;
+  UnityEngine_UI_Text_o *value;
+  System_String_o *pSVar9;
+  System_String_array *pSVar10;
+  UnityEngine_Transform_o *pUVar11;
+  UnityEngine_Events_UnityAction_o *pUVar12;
+  System_String_o *pSVar13;
   
-  if (g_data_057ae707 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsPopup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__3_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__3_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_VoiceChatManager);
-    il2cpp_runtime_helper_023445d0(&"Menu");
-    il2cpp_runtime_helper_023445d0(&": ");
-    il2cpp_runtime_helper_023445d0(&"HookImpactEffect");
-    il2cpp_runtime_helper_023445d0(&"MuteMinimized");
-    il2cpp_runtime_helper_023445d0(&"Clear");
-    il2cpp_runtime_helper_023445d0(&"Custom");
-    il2cpp_runtime_helper_023445d0(&"CustomPlaylist");
-    il2cpp_runtime_helper_023445d0(&"ReelOutEffect");
-    il2cpp_runtime_helper_023445d0(&"VoiceChatInput");
-    il2cpp_runtime_helper_023445d0(&"VoiceChatAudioVolume");
-    il2cpp_runtime_helper_023445d0(&"HorseSoundEffect");
-    il2cpp_runtime_helper_023445d0(&"HookRetractEffect");
-    il2cpp_runtime_helper_023445d0(&"TitanGrabMusic");
-    il2cpp_runtime_helper_023445d0(&"None");
-    il2cpp_runtime_helper_023445d0(&"ReelInEffect");
-    il2cpp_runtime_helper_023445d0(&"VoiceChatDevice");
-    il2cpp_runtime_helper_023445d0(&"VoiceChatInputOptions");
-    il2cpp_runtime_helper_023445d0(&"AddSong");
-    il2cpp_runtime_helper_023445d0(&"CrashLandEffect");
-    il2cpp_runtime_helper_023445d0(&"Default");
-    il2cpp_runtime_helper_023445d0(&"Music");
-    il2cpp_runtime_helper_023445d0(&"VoiceChatMicVolume");
-    il2cpp_runtime_helper_023445d0(&"GasEffect");
-    il2cpp_runtime_helper_023445d0(&"Ambient");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&"OldHookEffect");
-    il2cpp_runtime_helper_023445d0(&"Racing");
-    il2cpp_runtime_helper_023445d0(&"");
-    il2cpp_runtime_helper_023445d0(&"Peaceful");
-    il2cpp_runtime_helper_023445d0(&"OldNapeEffect");
-    il2cpp_runtime_helper_023445d0(&"ForcePlaylist");
-    il2cpp_runtime_helper_023445d0(&"OldBladeEffect");
-    il2cpp_runtime_helper_023445d0(&"TitanVocalEffect");
-    il2cpp_runtime_helper_023445d0(&"Battle");
-    il2cpp_runtime_helper_023445d0(&"Volume");
-    g_data_057ae707 = '\x01';
+  if (Il2CppMethodInitialized_18434764a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_SettingsPopup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_SettingsSoundPanel_Setup_b__3_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_SettingsSoundPanel_Setup_b__3_1);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_VoiceChatManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Menu");
+    il2cpp_codegen_initialize_runtime_metadata(&": ");
+    il2cpp_codegen_initialize_runtime_metadata(&"HookImpactEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"MuteMinimized");
+    il2cpp_codegen_initialize_runtime_metadata(&"Clear");
+    il2cpp_codegen_initialize_runtime_metadata(&"Custom");
+    il2cpp_codegen_initialize_runtime_metadata(&"CustomPlaylist");
+    il2cpp_codegen_initialize_runtime_metadata(&"ReelOutEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"VoiceChatInput");
+    il2cpp_codegen_initialize_runtime_metadata(&"VoiceChatAudioVolume");
+    il2cpp_codegen_initialize_runtime_metadata(&"HorseSoundEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"HookRetractEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanGrabMusic");
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"ReelInEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"VoiceChatDevice");
+    il2cpp_codegen_initialize_runtime_metadata(&"VoiceChatInputOptions");
+    il2cpp_codegen_initialize_runtime_metadata(&"AddSong");
+    il2cpp_codegen_initialize_runtime_metadata(&"CrashLandEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"Default");
+    il2cpp_codegen_initialize_runtime_metadata(&"Music");
+    il2cpp_codegen_initialize_runtime_metadata(&"VoiceChatMicVolume");
+    il2cpp_codegen_initialize_runtime_metadata(&"GasEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"Ambient");
+    il2cpp_codegen_initialize_runtime_metadata(&"Sound");
+    il2cpp_codegen_initialize_runtime_metadata(&"OldHookEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"Racing");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"Peaceful");
+    il2cpp_codegen_initialize_runtime_metadata(&"OldNapeEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"ForcePlaylist");
+    il2cpp_codegen_initialize_runtime_metadata(&"OldBladeEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"TitanVocalEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"Battle");
+    il2cpp_codegen_initialize_runtime_metadata(&"Volume");
+    Il2CppMethodInitialized_18434764a = '\x01';
   }
-  pIVar20 = (Il2CppClass *)parent;
   UI_BasePanel__Setup((UI_BasePanel_o *)__this,parent,(MethodInfo *)0x0);
-  pUVar5 = "Sound";
-  if (parent == (UI_BasePanel_o *)0x0) {
-label_0444eae2:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    bVar2 = (TypeInfo_SettingsPopup->_2).naturalAligment;
-    pIVar20 = TypeInfo_SettingsPopup;
-    if ((bVar2 <= (parent->klass->_2).naturalAligment) &&
-       ((parent->klass->_2).typeHierarchy[(ulong)bVar2 - 1] == TypeInfo_SettingsPopup)) {
-      category = (UI_BasePanel_o *)parent[1].fields._currentCategoryPanel;
-      lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-      pSVar10 = (System_String_o *)
-                (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                          (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      pIVar11 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-      UI_ElementStyle___ctor((UI_ElementStyle_o *)pIVar11,0x18,200.0,20.0,pSVar10,(MethodInfo *)0x0);
-      pSVar10 = (System_String_o *)
-                (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                          (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-      pIVar12 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-      pIVar20 = (Il2CppClass *)&g_data_00000018;
-      UI_ElementStyle___ctor((UI_ElementStyle_o *)pIVar12,0x18,140.0,20.0,pSVar10,(MethodInfo *)0x0);
-      parent = category;
-      if (lVar18 != 0) {
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x20);
-        if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"Volume",
-                             (System_String_o *)"",(System_String_o *)"",in_R9);
-        pMVar23 = (MethodInfo *)0x2;
-        UI_ElementFactory__CreateSliderSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",135.0,
-                   16.0,2,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x28);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"Music",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x2;
-        UI_ElementFactory__CreateSliderSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",135.0,
-                   16.0,2,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x30);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"MuteMinimized",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x38);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"TitanGrabMusic",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x40);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"TitanVocalEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x48);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"GasEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x50);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"ReelInEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x58);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"ReelOutEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x60);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"HookRetractEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x68);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"HookImpactEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x70);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"CrashLandEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        pMVar23 = (MethodInfo *)0x0;
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,(System_String_o *)"",30.0,
-                   30.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-        pUVar16 = (__this->fields).DoublePanelLeft;
-        parent = *(UI_BasePanel_o **)(lVar18 + 0x78);
-        pSVar10 = UI_UIManager__GetLocale
-                            ((System_String_o *)category,(System_String_o *)pUVar5,"HorseSoundEffect",
-                             (System_String_o *)"",(System_String_o *)"",pMVar23);
-        UI_ElementFactory__CreateToggleSetting
-                  (pUVar16,(UI_ElementStyle_o *)pIVar11,(Settings_BaseSetting_o *)parent,pSVar10,
-                   (System_String_o *)"",30.0,30.0,(UnityEngine_Events_UnityAction_o *)0x0,
-                   (MethodInfo *)0x0);
-        in_R9 = (MethodInfo *)0x0;
-        pIVar20 = pIVar11;
-        pUVar13 = UI_ElementFactory__CreateDefaultLabel
-                            ((__this->fields).DoublePanelRight,(UI_ElementStyle_o *)pIVar11,
-                             (System_String_o *)"",0,3,(MethodInfo *)0x0);
-        if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar14 = (UnityEngine_UI_Text_o *)
-                    UnityEngine_GameObject__GetComponent_object_(pUVar13,MethodInfo_Text_GetComponent_Text);
-          (__this->fields)._currentSongLabel = pUVar14;
-          il2cpp_runtime_helper_022b4080(&(__this->fields)._currentSongLabel,pUVar14);
-          pUVar16 = (__this->fields).DoublePanelRight;
-          pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x98);
-          pSVar10 = UI_UIManager__GetLocale
-                              ((System_String_o *)category,(System_String_o *)pUVar5,"ForcePlaylist",
-                               (System_String_o *)"",(System_String_o *)"",in_R9);
-          pIVar20 = (Il2CppClass *)0x7;
-          pSVar15 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-          pIVar21 = "Default";
-          if (pSVar15 != (System_String_array *)0x0) {
-            if ((int)pSVar15->max_length != 0) {
-              pSVar15->m_Items[0] = (System_String_o *)"Default";
-              il2cpp_runtime_helper_022b4080(pSVar15->m_Items);
-              pIVar22 = "Custom";
-              pIVar20 = pIVar21;
-              if (1 < (uint)pSVar15->max_length) {
-                pSVar15->m_Items[1] = (System_String_o *)"Custom";
-                il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 1);
-                pIVar21 = "Menu";
-                pIVar20 = pIVar22;
-                if (2 < (uint)pSVar15->max_length) {
-                  pSVar15->m_Items[2] = (System_String_o *)"Menu";
-                  il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 2);
-                  pIVar22 = "Ambient";
-                  pIVar20 = pIVar21;
-                  if (3 < (uint)pSVar15->max_length) {
-                    pSVar15->m_Items[3] = (System_String_o *)"Ambient";
-                    il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 3);
-                    pIVar21 = "Peaceful";
-                    pIVar20 = pIVar22;
-                    if (4 < (uint)pSVar15->max_length) {
-                      pSVar15->m_Items[4] = (System_String_o *)"Peaceful";
-                      il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 4);
-                      pIVar22 = "Battle";
-                      pIVar20 = pIVar21;
-                      if (5 < (uint)pSVar15->max_length) {
-                        pSVar15->m_Items[5] = (System_String_o *)"Battle";
-                        il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 5);
-                        pIVar20 = pIVar22;
-                        if (6 < (uint)pSVar15->max_length) {
-                          pSVar15->m_Items[6] = "Racing";
-                          il2cpp_runtime_helper_022b4080(pSVar15->m_Items + 6);
-                          pIVar20 = pIVar12;
-                          in_R9 = "";
+  pSVar13 = "Sound";
+  if (parent != (UI_BasePanel_o *)0x0) {
+    bVar1 = (TypeInfo_UI_SettingsPopup->_2).typeHierarchyDepth;
+    if (((parent->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((parent->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_UI_SettingsPopup))
+    {
+      il2cpp_codegen_raise_invalid_cast_exception(parent);
+    }
+    category = (System_String_o *)(*(uint64_t *)((char *)parent + 0xa8));
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+    pSVar7 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                       (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+    UI_ElementStyle___ctor(__this_00,0x18,200.0,20.0,pSVar7,(MethodInfo *)0x0);
+    pSVar7 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                       (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+    __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+    UI_ElementStyle___ctor(__this_01,0x18,140.0,20.0,pSVar7,(MethodInfo *)0x0);
+    if (pSVar2 != (Settings_SoundSettings_o *)0x0) {
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar3 = (pSVar2->fields).Volume;
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+      }
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"Volume","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateSliderSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar3,pSVar7,"",135.0,16.0,2,
+                 0.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar3 = (pSVar2->fields).Music;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"Music","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateSliderSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar3,pSVar7,"",135.0,16.0,2,
+                 0.0,(UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).MuteMinimized;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"MuteMinimized","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).TitanGrabMusic;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"TitanGrabMusic","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).TitanVocalEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"TitanVocalEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).GasEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"GasEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).ReelInEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"ReelInEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).ReelOutEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"ReelOutEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).HookRetractEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"HookRetractEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).HookImpactEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"HookImpactEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).CrashLandEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"CrashLandEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar11 = (__this->fields).DoublePanelLeft;
+      pSVar4 = (pSVar2->fields).HorseSoundEffect;
+      pSVar7 = UI_UIManager__GetLocale
+                         (category,pSVar13,"HorseSoundEffect","","",
+                          (MethodInfo *)0x0);
+      UI_ElementFactory__CreateToggleSetting
+                (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,"",30.0,30.0,
+                 (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+      pUVar8 = UI_ElementFactory__CreateDefaultLabel
+                         ((__this->fields).DoublePanelRight,__this_00,"",0,3,
+                          (MethodInfo *)0x0);
+      if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
+        value = UnityEngine_GameObject__GetComponent_object_
+                          (pUVar8,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Text);
+        (__this->fields)._currentSongLabel = value;
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._currentSongLabel,value);
+        pSVar5 = (pSVar2->fields).ForcePlaylist;
+        pUVar11 = (__this->fields).DoublePanelRight;
+        pSVar9 = UI_UIManager__GetLocale
+                           (category,pSVar13,"ForcePlaylist","",""
+                            ,(MethodInfo *)0x0);
+        pSVar10 = (System_String_array *)SZArrayNew(TypeInfo_string_array,8);
+        pSVar7 = "Default";
+        if (pSVar10 != (System_String_array *)0x0) {
+          if ((int)pSVar10->max_length != 0) {
+            pSVar10->m_Items[0] = "Default";
+            Il2CppCodeGenWriteBarrier(pSVar10->m_Items,pSVar7);
+            pSVar7 = "None";
+            if (1 < (uint)pSVar10->max_length) {
+              pSVar10->m_Items[1] = "None";
+              Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 1,pSVar7);
+              pSVar7 = "Custom";
+              if (2 < (uint)pSVar10->max_length) {
+                pSVar10->m_Items[2] = "Custom";
+                Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 2,pSVar7);
+                pSVar7 = "Menu";
+                if (3 < (uint)pSVar10->max_length) {
+                  pSVar10->m_Items[3] = "Menu";
+                  Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 3,pSVar7);
+                  pSVar7 = "Ambient";
+                  if (4 < (uint)pSVar10->max_length) {
+                    pSVar10->m_Items[4] = "Ambient";
+                    Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 4,pSVar7);
+                    pSVar7 = "Peaceful";
+                    if (5 < (uint)pSVar10->max_length) {
+                      pSVar10->m_Items[5] = "Peaceful";
+                      Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 5,pSVar7);
+                      pSVar7 = "Battle";
+                      if (6 < (uint)pSVar10->max_length) {
+                        pSVar10->m_Items[6] = "Battle";
+                        Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 6,pSVar7);
+                        pSVar7 = "Racing";
+                        if (7 < (uint)pSVar10->max_length) {
+                          pSVar10->m_Items[7] = "Racing";
+                          Il2CppCodeGenWriteBarrier(pSVar10->m_Items + 7,pSVar7);
                           UI_ElementFactory__CreateDropdownSetting
-                                    (pUVar16,(UI_ElementStyle_o *)pIVar12,pSVar3,pSVar10,pSVar15,
-                                     (System_String_o *)"",160.0,40.0,300.0,
-                                     (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0,
+                                    (pUVar11,__this_01,(Settings_BaseSetting_o *)pSVar5,pSVar9,pSVar10,
+                                     "",160.0,40.0,300.0,(System_Nullable_float__o)0x0,
+                                     (UnityEngine_Events_UnityAction_o *)0x0,(System_Int32_array *)0x0,
                                      (MethodInfo *)0x0);
-                          if (*(long *)(lVar18 + 0xa0) != 0) {
-                            pSVar10 = *(System_String_o **)(*(long *)(lVar18 + 0xa0) + 0x18);
-                            bVar8 = System_String__op_Equality
-                                              (pSVar10,(System_String_o *)"",(MethodInfo *)0x0);
-                            if ((char)bVar8 != '\0') {
-                              pSVar10 = "None";
+                          pSVar5 = (pSVar2->fields).CustomPlaylist;
+                          if (pSVar5 != (Settings_StringSetting_o *)0x0) {
+                            pSVar7 = (pSVar5->fields)._value;
+                            bVar6 = System_String__op_Equality(pSVar7,"",(MethodInfo *)0x0)
+                            ;
+                            if (bVar6) {
+                              pSVar7 = "None";
                             }
-                            pUVar16 = (__this->fields).DoublePanelRight;
-                            if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-                              il2cpp_runtime_helper_02337ed0();
+                            pUVar11 = (__this->fields).DoublePanelRight;
+                            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
                             }
-                            str0 = UI_UIManager__GetLocale
-                                             ((System_String_o *)category,(System_String_o *)pUVar5,
-                                              "CustomPlaylist",(System_String_o *)"",
-                                              (System_String_o *)"",in_R9);
-                            pSVar10 = System_String__Concat_3af7150
-                                                (str0,": ",pSVar10,(MethodInfo *)0x0);
-                            in_R9 = (MethodInfo *)0x0;
+                            pSVar9 = UI_UIManager__GetLocale
+                                               (category,pSVar13,"CustomPlaylist","",
+                                                "",(MethodInfo *)0x0);
+                            pSVar7 = System_String__Concat_1969b70
+                                               (pSVar9,": ",pSVar7,(MethodInfo *)0x0);
                             UI_ElementFactory__CreateDefaultLabel
-                                      (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar10,0,3,(MethodInfo *)0x0);
-                            pIVar20 = (Il2CppClass *)0x3;
-                            pUVar13 = UI_ElementFactory__CreateHorizontalGroup
-                                                ((__this->fields).DoublePanelRight,10.0,3,(MethodInfo *)0x0);
-                            parent = pUVar5;
-                            if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-                              pUVar16 = UnityEngine_GameObject__get_transform(pUVar13,(MethodInfo *)0x0);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "AddSong",(System_String_o *)"",
-                                                   (System_String_o *)"",in_R9);
-                              pUVar17 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
-                              UI_ElementFactory__CreateDefaultButton
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar10,0.0,0.0,pUVar17,
+                                      (pUVar11,__this_00,pSVar7,0,3,(MethodInfo *)0x0);
+                            pUVar8 = UI_ElementFactory__CreateHorizontalGroup
+                                               ((__this->fields).DoublePanelRight,10.0,3,(MethodInfo *)0x0);
+                            if (pUVar8 != (UnityEngine_GameObject_o *)0x0) {
+                              pUVar11 = UnityEngine_GameObject__get_transform(pUVar8,(MethodInfo *)0x0);
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"AddSong",""
+                                                  ,"",(MethodInfo *)0x0);
+                              pUVar12 = il2cpp_codegen_object_new
+                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                              UnityEngine_Events_UnityAction___ctor
+                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar12,
+                                         (Il2CppObject *)__this,
+                                         (intptr_t)MethodInfo_UI_SettingsSoundPanel_Setup_b__3_0,
                                          (MethodInfo *)0x0);
-                              pSVar10 = "Clear";
-                              if (g_data_057ae727 == '\0') {
-                                il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-                                il2cpp_runtime_helper_023445d0(&"Common");
-                                il2cpp_runtime_helper_023445d0(&"");
-                                g_data_057ae727 = '\x01';
-                              }
-                              if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                              }
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ("Common",pSVar10,(System_String_o *)"",
-                                                   (System_String_o *)"",
-                                                   (System_String_o *)"",in_R9);
-                              pUVar17 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
                               UI_ElementFactory__CreateDefaultButton
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar10,0.0,0.0,pUVar17,
+                                        (pUVar11,__this_00,pSVar7,0.0,0.0,pUVar12,(MethodInfo *)0x0);
+                              pSVar7 = UI_UIManager__GetLocaleCommon("Clear",(MethodInfo *)0x0);
+                              pUVar12 = il2cpp_codegen_object_new
+                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                              UnityEngine_Events_UnityAction___ctor
+                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar12,
+                                         (Il2CppObject *)__this,
+                                         (intptr_t)MethodInfo_UI_SettingsSoundPanel_Setup_b__3_1,
                                          (MethodInfo *)0x0);
+                              UI_ElementFactory__CreateDefaultButton
+                                        (pUVar11,__this_00,pSVar7,0.0,0.0,pUVar12,(MethodInfo *)0x0);
                               UI_BasePanel__CreateHorizontalDivider
                                         ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelRight,1.0,
                                          (MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0xb0);
-                              pMVar23 = "";
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "VoiceChatInput",(System_String_o *)"",
-                                                   (System_String_o *)"",in_R9);
-                              pSVar15 = UI_UIManager__GetLocaleArray
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "VoiceChatInputOptions",(System_String_o *)"",pMVar23);
-                              pMVar23 = "";
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              setting = (pSVar2->fields).VoiceChatInput;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"VoiceChatInput",""
+                                                  ,"",(MethodInfo *)0x0);
+                              pSVar10 = UI_UIManager__GetLocaleArray
+                                                  (category,pSVar13,"VoiceChatInputOptions",
+                                                   "",(MethodInfo *)0x0);
                               UI_ElementFactory__CreateDropdownSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar12,pSVar3,pSVar10,pSVar15,
-                                         (System_String_o *)"",160.0,40.0,300.0,
-                                         (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0
-                                         ,(MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0xa8);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "VoiceChatDevice",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
-                              if (*(int *)(TypeInfo_VoiceChatManager + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
+                                        (pUVar11,__this_01,(Settings_BaseSetting_o *)setting,pSVar7,pSVar10,
+                                         "",160.0,40.0,300.0,(System_Nullable_float__o)0x0,
+                                         (UnityEngine_Events_UnityAction_o *)0x0,(System_Int32_array *)0x0,
+                                         (MethodInfo *)0x0);
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar5 = (pSVar2->fields).VoiceChatDevice;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"VoiceChatDevice",""
+                                                  ,"",(MethodInfo *)0x0);
+                              if ((TypeInfo_ApplicationManagers_VoiceChatManager->_2).
+                                  cctor_finished_or_no_cctor == 0) {
+                                il2cpp_codegen_runtime_class_init
+                                          ((Il2CppClass *)TypeInfo_ApplicationManagers_VoiceChatManager);
                               }
-                              pSVar15 = ApplicationManagers_VoiceChatManager__get_MicrophoneDevices
+                              pSVar10 = ApplicationManagers_VoiceChatManager__get_MicrophoneDevices
                                                   ((MethodInfo *)0x0);
-                              pMVar23 = "";
                               UI_ElementFactory__CreateDropdownSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar12,pSVar3,pSVar10,pSVar15,
-                                         (System_String_o *)"",160.0,40.0,300.0,
-                                         (System_Nullable_float__o)0x0,(UnityEngine_Events_UnityAction_o *)0x0
-                                         ,(MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0xb8);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "VoiceChatMicVolume",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
-                              pMVar23 = (MethodInfo *)0x2;
+                                        (pUVar11,__this_01,(Settings_BaseSetting_o *)pSVar5,pSVar7,pSVar10,
+                                         "",160.0,40.0,300.0,(System_Nullable_float__o)0x0,
+                                         (UnityEngine_Events_UnityAction_o *)0x0,(System_Int32_array *)0x0,
+                                         (MethodInfo *)0x0);
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar3 = (pSVar2->fields).VoiceChatMicVolume;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"VoiceChatMicVolume",""
+                                                  ,"",(MethodInfo *)0x0);
                               UI_ElementFactory__CreateSliderSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,
-                                         (System_String_o *)"",135.0,16.0,2,(MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0xc0);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "VoiceChatAudioVolume",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
-                              pMVar23 = (MethodInfo *)0x2;
+                                        (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar3,pSVar7,
+                                         "",135.0,16.0,2,0.0,
+                                         (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar3 = (pSVar2->fields).VoiceChatAudioVolume;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"VoiceChatAudioVolume",""
+                                                  ,"",(MethodInfo *)0x0);
                               UI_ElementFactory__CreateSliderSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,
-                                         (System_String_o *)"",135.0,16.0,2,(MethodInfo *)0x0);
+                                        (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar3,pSVar7,
+                                         "",135.0,16.0,2,0.0,
+                                         (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
                               UI_BasePanel__CreateHorizontalDivider
                                         ((UI_BasePanel_o *)__this,(__this->fields).DoublePanelRight,1.0,
                                          (MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x80);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "OldHookEffect",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
-                              pMVar23 = (MethodInfo *)0x0;
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar4 = (pSVar2->fields).OldHookEffect;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"OldHookEffect",""
+                                                  ,"",(MethodInfo *)0x0);
                               UI_ElementFactory__CreateToggleSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,
-                                         (System_String_o *)"",30.0,30.0,
+                                        (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,
+                                         "",30.0,30.0,
                                          (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x88);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "OldBladeEffect",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
-                              pMVar23 = (MethodInfo *)0x0;
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar4 = (pSVar2->fields).OldBladeEffect;
+                              pSVar7 = UI_UIManager__GetLocale
+                                                 (category,pSVar13,"OldBladeEffect",""
+                                                  ,"",(MethodInfo *)0x0);
                               UI_ElementFactory__CreateToggleSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,
-                                         (System_String_o *)"",30.0,30.0,
+                                        (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar7,
+                                         "",30.0,30.0,
                                          (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
-                              pUVar16 = (__this->fields).DoublePanelRight;
-                              pSVar3 = *(Settings_BaseSetting_o **)(lVar18 + 0x90);
-                              pSVar10 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)pUVar5,
-                                                   "OldNapeEffect",(System_String_o *)"",
-                                                   (System_String_o *)"",pMVar23);
+                              pUVar11 = (__this->fields).DoublePanelRight;
+                              pSVar4 = (pSVar2->fields).OldNapeEffect;
+                              pSVar13 = UI_UIManager__GetLocale
+                                                  (category,pSVar13,"OldNapeEffect",
+                                                   "","",
+                                                   (MethodInfo *)0x0);
                               UI_ElementFactory__CreateToggleSetting
-                                        (pUVar16,(UI_ElementStyle_o *)pIVar11,pSVar3,pSVar10,
-                                         (System_String_o *)"",30.0,30.0,
+                                        (pUVar11,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar13,
+                                         "",30.0,30.0,
                                          (UnityEngine_Events_UnityAction_o *)0x0,(MethodInfo *)0x0);
                               return;
                             }
                           }
-                          goto label_0444eae2;
+                          goto label_1822fa92f;
                         }
                       }
                     }
@@ -458,582 +402,235 @@ label_0444eae2:
                 }
               }
             }
-            il2cpp_runtime_helper_022b2ca0();
           }
-        }
-      }
-      goto label_0444eae2;
-    }
-  }
-  il2cpp_runtime_helper_022b2fd0();
-  if (g_data_057ae708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&"Add");
-    il2cpp_runtime_helper_023445d0(&"Clear");
-    il2cpp_runtime_helper_023445d0(&"AddSong");
-    il2cpp_runtime_helper_023445d0(&"AddFinish");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&",");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae708 = '\x01';
-  }
-  pIVar11 = pIVar20;
-  bVar8 = System_String__op_Equality((System_String_o *)pIVar20,"Clear",(MethodInfo *)0x0);
-  if ((char)bVar8 == '\0') {
-    bVar8 = System_String__op_Equality((System_String_o *)pIVar20,"Add",(MethodInfo *)0x0);
-    if ((char)bVar8 == '\0') {
-      bVar8 = System_String__op_Equality((System_String_o *)pIVar20,"AddFinish",(MethodInfo *)0x0);
-      if ((char)bVar8 == '\0') {
-        return;
-      }
-      pIVar20 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-      pIVar11 = pIVar20;
-      System_Collections_Generic_List_object____ctor
-                ((System_Collections_Generic_List_object__o *)pIVar20,MethodInfo_List_1_System_String);
-      lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-      if ((((lVar18 != 0) && (lVar18 = *(long *)(lVar18 + 0xa0), lVar18 != 0)) &&
-          (pIVar11 = *(Il2CppClass **)(lVar18 + 0x18), pIVar11 != (Il2CppClass *)0x0)) &&
-         (pSVar15 = System_String__Split((System_String_o *)pIVar11,0x2c,0,(MethodInfo *)0x0),
-         pSVar15 != (System_String_array *)0x0)) {
-        uVar9 = (uint)pSVar15->max_length;
-        if (pIVar20 == (Il2CppClass *)0x0) {
-          if (0 < (int)uVar9) {
-            lVar18 = 0;
-            do {
-              if (uVar9 <= (uint)lVar18) goto label_0444f0a9;
-              pIVar11 = (Il2CppClass *)0x0;
-              if (pSVar15->m_Items[lVar18] == (System_String_o *)0x0) goto label_0444f0a4;
-              pIVar11 = (Il2CppClass *)System_String__Trim(pSVar15->m_Items[lVar18],(MethodInfo *)0x0);
-              bVar8 = System_String__op_Inequality
-                                ((System_String_o *)pIVar11,(System_String_o *)"",(MethodInfo *)0x0)
-              ;
-              if ((char)bVar8 != '\0') goto label_0444f0a4;
-              uVar9 = (uint)pSVar15->max_length;
-              lVar18 = lVar18 + 1;
-            } while ((int)lVar18 < (int)uVar9);
-          }
-        }
-        else if (0 < (int)uVar9) {
-          uVar19 = 0;
-          if (uVar9 != 0) {
-            do {
-              pSVar10 = pSVar15->m_Items[(int)uVar19];
-              if (pSVar10 == (System_String_o *)0x0) goto label_0444f0a4;
-              pIVar11 = (Il2CppClass *)System_String__Trim(pSVar10,(MethodInfo *)0x0);
-              bVar8 = System_String__op_Inequality
-                                ((System_String_o *)pIVar11,(System_String_o *)"",(MethodInfo *)0x0)
-              ;
-              lVar18 = MethodInfo_Void_Add;
-              if ((char)bVar8 == '\0') {
-label_0444ee4a:
-                uVar9 = (uint)pSVar15->max_length;
-                if ((int)uVar9 <= (int)(uVar19 + 1)) goto label_0444ef40;
-              }
-              else {
-                piVar1 = (int *)((long)&(pIVar20->_1).namespaze + 4);
-                *piVar1 = *piVar1 + 1;
-                pcVar6 = (pIVar20->_1).name;
-                if (pcVar6 == (char *)0x0) goto label_0444f0a4;
-                uVar9 = *(uint *)&(pIVar20->_1).namespaze;
-                if (*(uint *)(pcVar6 + 0x18) <= uVar9) {
-                  pIVar11 = pIVar20;
-                  System_Collections_Generic_List_object___AddWithResize
-                            ((System_Collections_Generic_List_object__o *)pIVar20,(Il2CppObject *)pSVar10,
-                             *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar18 + 0x20) + 0xc0) + 0x70));
-                  goto label_0444ee4a;
-                }
-                *(uint *)&(pIVar20->_1).namespaze = uVar9 + 1;
-                pIVar11 = (Il2CppClass *)(pcVar6 + (long)(int)uVar9 * 8 + 0x20);
-                *(System_String_o **)(pcVar6 + (long)(int)uVar9 * 8 + 0x20) = pSVar10;
-                il2cpp_runtime_helper_022b4080();
-                uVar9 = (uint)pSVar15->max_length;
-                if ((int)uVar9 <= (int)(uVar19 + 1)) goto label_0444ef40;
-              }
-              uVar19 = uVar19 + 1;
-            } while (uVar19 < uVar9);
-          }
-          goto label_0444f0a9;
-        }
-label_0444ef40:
-        if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        lVar18 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
-        pIVar11 = TypeInfo_UIManager;
-        if (((lVar18 != 0) && (lVar18 = *(long *)(lVar18 + 0x90), lVar18 != 0)) &&
-           (lVar18 = *(long *)(lVar18 + 0x138), lVar18 != 0)) {
-          pIVar12 = *(Il2CppClass **)(lVar18 + 0x18);
-          pIVar11 = pIVar12;
-          bVar8 = System_String__op_Inequality
-                            ((System_String_o *)pIVar12,(System_String_o *)"",(MethodInfo *)0x0);
-          lVar18 = MethodInfo_Void_Add;
-          if ((char)bVar8 == '\0') {
-            if (pIVar20 != (Il2CppClass *)0x0) {
-label_0444f01c:
-              lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-              if (lVar18 != 0) {
-                pSVar4 = *(Settings_TypedSetting_T__o **)(lVar18 + 0xa0);
-                pMVar23 = "";
-                if (*(int *)&(pIVar20->_1).namespaze != 0) {
-                  pSVar15 = (System_String_array *)
-                            System_Collections_Generic_List_object___ToArray
-                                      ((System_Collections_Generic_List_object__o *)pIVar20,MethodInfo_String_ToArray);
-                  pIVar11 = ",";
-                  pMVar23 = (MethodInfo *)
-                            System_String__Join((System_String_o *)",",pSVar15,(MethodInfo *)0x0);
-                }
-                if (pSVar4 != (Settings_TypedSetting_T__o *)0x0) {
-                  Settings_TypedSetting_object___set_Value(pSVar4,(Il2CppObject *)pMVar23,MethodInfo_Void_set_Value);
-                  pUVar5 = (parent->fields).Parent;
-                  goto joined_r0x0444f09e;
-                }
-              }
-            }
-          }
-          else if (pIVar20 != (Il2CppClass *)0x0) {
-            piVar1 = (int *)((long)&(pIVar20->_1).namespaze + 4);
-            *piVar1 = *piVar1 + 1;
-            pcVar6 = (pIVar20->_1).name;
-            if (pcVar6 != (char *)0x0) {
-              uVar9 = *(uint *)&(pIVar20->_1).namespaze;
-              if (uVar9 < *(uint *)(pcVar6 + 0x18)) {
-                *(uint *)&(pIVar20->_1).namespaze = uVar9 + 1;
-                pIVar11 = (Il2CppClass *)(pcVar6 + (long)(int)uVar9 * 8 + 0x20);
-                *(Il2CppClass **)(pcVar6 + (long)(int)uVar9 * 8 + 0x20) = pIVar12;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                pIVar11 = pIVar20;
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pIVar20,(Il2CppObject *)pIVar12,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar18 + 0x20) + 0xc0) + 0x70));
-              }
-              goto label_0444f01c;
-            }
-          }
-        }
-      }
-    }
-    else {
-      if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      lVar18 = *(long *)((long)TypeInfo_UIManager->static_fields + 0x28);
-      pIVar11 = TypeInfo_UIManager;
-      if (lVar18 != 0) {
-        __this_00 = *(UI_SelectListPopup_o **)(lVar18 + 0x90);
-        items = ApplicationManagers_MusicManager__GetAllSongs((MethodInfo *)0x0);
-        pSVar10 = UI_UIManager__GetLocale
-                            ("SettingsPopup",(System_String_o *)"Sound","AddSong",
-                             (System_String_o *)"",(System_String_o *)"",in_R9);
-        pIVar20 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        pIVar11 = pIVar20;
-        UnityEngine_Events_UnityAction___ctor();
-        if (__this_00 != (UI_SelectListPopup_o *)0x0) {
-          UI_SelectListPopup__ShowLoad
-                    (__this_00,items,pSVar10,(UnityEngine_Events_UnityAction_o *)pIVar20,
-                     (UnityEngine_Events_UnityAction_o *)0x0,(System_Collections_Generic_List_string__o *)0x0,
-                     (MethodInfo *)0x0);
-          return;
+          ThrowIndexOutOfRangeException();
         }
       }
     }
   }
-  else {
-    lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-    if (lVar18 != 0) {
-      pSVar4 = *(Settings_TypedSetting_T__o **)(lVar18 + 0xa0);
-      pIVar11 = (Il2CppClass *)0x0;
-      if (pSVar4 != (Settings_TypedSetting_T__o *)0x0) {
-        Settings_TypedSetting_object___set_Value(pSVar4,(Il2CppObject *)"",MethodInfo_Void_set_Value);
-        pUVar5 = (parent->fields).Parent;
-joined_r0x0444f09e:
-        pIVar11 = (Il2CppClass *)0x0;
-        if (pUVar5 != (UI_BasePanel_o *)0x0) {
-          UI_BasePanel__RebuildCategoryPanel(pUVar5,(MethodInfo *)0x0);
-          return;
-        }
-      }
-    }
-  }
-label_0444f0a4:
-  il2cpp_runtime_helper_022b2c90();
-label_0444f0a9:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057ae709 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&": ");
-    il2cpp_runtime_helper_023445d0(&"CurrentSong");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae709 = '\x01';
-  }
-  x = (pIVar11->_1).typeMetadataHandle;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar8 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar8 == '\0') {
-    return;
-  }
-  plVar7 = (pIVar11->_1).typeMetadataHandle;
-  if (*(int *)&(TypeInfo_UIManager->_2).field_0x1c == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_01 = (UI_CategoryPanel_o *)
-              UI_UIManager__GetLocale
-                        ("SettingsPopup",(System_String_o *)"Sound","CurrentSong",
-                         (System_String_o *)"",(System_String_o *)"",in_R9);
-  pSVar10 = ApplicationManagers_MusicManager__GetCurrentSong((MethodInfo *)0x0);
-  pSVar10 = System_String__Concat_3af7150((System_String_o *)__this_01,": ",pSVar10,(MethodInfo *)0x0)
-  ;
-  if (plVar7 == (long *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    UI_CategoryPanel___ctor(__this_01,(MethodInfo *)0x0);
-    return;
-  }
-  lVar18 = *plVar7;
-  (**(code **)(lVar18 + 0x5e8))
-            (plVar7,pSVar10,*(undefined8 *)(lVar18 + 0x5f0),lVar18,*(code **)(lVar18 + 0x5e8));
-  return;
+label_1822fa92f:
+  ThrowNullReferenceException();
 }
 
 
 // UI.SettingsSoundPanel$$OnButtonClick
 // il2cpp: void UI_SettingsSoundPanel__OnButtonClick (UI_SettingsSoundPanel_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x444eaf0
+// 0x1822f93f0
+// asm: 13 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1822f975d: mov rdx, rax
+// asm:   0x1822f9760: mov rcx, rbx
+// asm:   0x1822f9763: jmp 0x1822f9785
+// asm:   0x1822f977e: mov rdx, qword ptr [rip + 0x1d857a3]  ; ""
+// asm:   0x1822f985e: mov qword ptr [rsp + 0x30], rbx
+// asm:   0x1822f9863: mov r9, rsi
+// asm:   0x1822f9866: mov qword ptr [rsp + 0x28], rbx
+// asm:   0x1822f986b: mov r8, r14
+// asm:   0x1822f986e: mov rdx, rbp
+// asm:   0x1822f9871: mov qword ptr [rsp + 0x20], rbx
+// asm:   0x1822f9876: mov rcx, rdi
+// asm:   0x1822f9879: call 0x1821ca2b0  ; UI_SelectListPopup__ShowLoad()
+// asm:   0x1822f987e: jmp 0x1822f97a5
 
 void UI_SettingsSoundPanel__OnButtonClick
                (UI_SettingsSoundPanel_o *__this,System_String_o *name,MethodInfo *method)
 
 {
-  int *piVar1;
-  Settings_TypedSetting_T__o *pSVar2;
+  int32_t *piVar1;
+  Settings_StringSetting_o *pSVar2;
+  UI_BaseMenu_o *pUVar3;
+  UI_SelectListPopup_o *pUVar4;
   UI_BasePanel_o *__this_00;
-  UI_SelectListPopup_o *__this_01;
-  long lVar3;
-  UnityEngine_Events_UnityAction_o *a;
-  System_DelegateData_o *pSVar4;
-  System_DelegateData_c *pSVar5;
-  code *vtableDispatch;
-  bool_conflict bVar6;
-  uint uVar7;
-  System_Collections_Generic_List_string__o *items;
-  UnityEngine_Events_UnityAction_o *pUVar8;
-  System_String_array *pSVar9;
-  UnityEngine_Events_UnityAction_o *__this_02;
-  UI_CategoryPanel_o *__this_03;
-  System_String_o *pSVar10;
-  long lVar11;
-  uint uVar12;
-  MethodInfo *in_R9;
+  MethodInfo *pMVar5;
+  bool bVar6;
+  System_Collections_Generic_List_string__o *pSVar7;
+  System_String_array *pSVar8;
+  System_String_o *pSVar9;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *value;
+  Settings_SoundSettings_o *pSVar10;
+  UnityEngine_Events_UnityAction_o *__this_01;
+  uint uVar11;
   
-  if (g_data_057ae708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&"Add");
-    il2cpp_runtime_helper_023445d0(&"Clear");
-    il2cpp_runtime_helper_023445d0(&"AddSong");
-    il2cpp_runtime_helper_023445d0(&"AddFinish");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&",");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae708 = '\x01';
+  if (Il2CppMethodInitialized_18434764b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UI_SettingsSoundPanel_OnButtonClick_b__4_0);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&"Add");
+    il2cpp_codegen_initialize_runtime_metadata(&"Clear");
+    il2cpp_codegen_initialize_runtime_metadata(&"AddSong");
+    il2cpp_codegen_initialize_runtime_metadata(&"AddFinish");
+    il2cpp_codegen_initialize_runtime_metadata(&"Sound");
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_18434764b = '\x01';
   }
-  __this_02 = (UnityEngine_Events_UnityAction_o *)name;
   bVar6 = System_String__op_Equality(name,"Clear",(MethodInfo *)0x0);
-  if ((char)bVar6 == '\0') {
+  if (bVar6) {
+    pSVar10 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+label_1822f9765:
+    if (pSVar10 == (Settings_SoundSettings_o *)0x0) goto label_1822f989d;
+    pSVar2 = (pSVar10->fields).CustomPlaylist;
+    pSVar9 = "";
+  }
+  else {
     bVar6 = System_String__op_Equality(name,"Add",(MethodInfo *)0x0);
-    if ((char)bVar6 == '\0') {
-      bVar6 = System_String__op_Equality(name,"AddFinish",(MethodInfo *)0x0);
-      if ((char)bVar6 == '\0') {
-        return;
+    if (bVar6) {
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
       }
-      pUVar8 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-      __this_02 = pUVar8;
-      System_Collections_Generic_List_object____ctor
-                ((System_Collections_Generic_List_object__o *)pUVar8,MethodInfo_List_1_System_String);
-      lVar11 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-      if ((((lVar11 != 0) && (lVar11 = *(long *)(lVar11 + 0xa0), lVar11 != 0)) &&
-          (__this_02 = *(UnityEngine_Events_UnityAction_o **)(lVar11 + 0x18),
-          __this_02 != (UnityEngine_Events_UnityAction_o *)0x0)) &&
-         (pSVar9 = System_String__Split((System_String_o *)__this_02,0x2c,0,(MethodInfo *)0x0),
-         pSVar9 != (System_String_array *)0x0)) {
-        uVar7 = (uint)pSVar9->max_length;
-        if (pUVar8 == (UnityEngine_Events_UnityAction_o *)0x0) {
-          if (0 < (int)uVar7) {
-            lVar11 = 0;
-            do {
-              if (uVar7 <= (uint)lVar11) goto label_0444f0a9;
-              __this_02 = (UnityEngine_Events_UnityAction_o *)0x0;
-              if (pSVar9->m_Items[lVar11] == (System_String_o *)0x0) goto label_0444f0a4;
-              __this_02 = (UnityEngine_Events_UnityAction_o *)
-                          System_String__Trim(pSVar9->m_Items[lVar11],(MethodInfo *)0x0);
-              bVar6 = System_String__op_Inequality
-                                ((System_String_o *)__this_02,"",(MethodInfo *)0x0);
-              if ((char)bVar6 != '\0') goto label_0444f0a4;
-              uVar7 = (uint)pSVar9->max_length;
-              lVar11 = lVar11 + 1;
-            } while ((int)lVar11 < (int)uVar7);
-          }
-        }
-        else if (0 < (int)uVar7) {
-          uVar12 = 0;
-          if (uVar7 != 0) {
-            do {
-              pSVar10 = pSVar9->m_Items[(int)uVar12];
-              if (pSVar10 == (System_String_o *)0x0) goto label_0444f0a4;
-              __this_02 = (UnityEngine_Events_UnityAction_o *)System_String__Trim(pSVar10,(MethodInfo *)0x0);
-              bVar6 = System_String__op_Inequality
-                                ((System_String_o *)__this_02,"",(MethodInfo *)0x0);
-              lVar11 = MethodInfo_Void_Add;
-              if ((char)bVar6 == '\0') {
-label_0444ee4a:
-                uVar7 = (uint)pSVar9->max_length;
-                if ((int)uVar7 <= (int)(uVar12 + 1)) goto label_0444ef40;
-              }
-              else {
-                piVar1 = (int *)((long)&(pUVar8->fields).invoke_impl + 4);
-                *piVar1 = *piVar1 + 1;
-                lVar3 = (pUVar8->fields).method_ptr;
-                if (lVar3 == 0) goto label_0444f0a4;
-                uVar7 = (uint)(pUVar8->fields).invoke_impl;
-                if (*(uint *)(lVar3 + 0x18) <= uVar7) {
-                  __this_02 = pUVar8;
-                  System_Collections_Generic_List_object___AddWithResize
-                            ((System_Collections_Generic_List_object__o *)pUVar8,(Il2CppObject *)pSVar10,
-                             *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar11 + 0x20) + 0xc0) + 0x70));
-                  goto label_0444ee4a;
-                }
-                *(uint *)&(pUVar8->fields).invoke_impl = uVar7 + 1;
-                __this_02 = (UnityEngine_Events_UnityAction_o *)(lVar3 + (long)(int)uVar7 * 8 + 0x20);
-                *(System_String_o **)(lVar3 + 0x20 + (long)(int)uVar7 * 8) = pSVar10;
-                il2cpp_runtime_helper_022b4080();
-                uVar7 = (uint)pSVar9->max_length;
-                if ((int)uVar7 <= (int)(uVar12 + 1)) goto label_0444ef40;
-              }
-              uVar12 = uVar12 + 1;
-            } while (uVar12 < uVar7);
-          }
-          goto label_0444f0a9;
-        }
-label_0444ef40:
-        if (*(int *)((long)&TypeInfo_UIManager[1].fields.original_method_info + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        lVar11 = *(long *)(TypeInfo_UIManager[1].fields.extra_arg + 0x28);
-        __this_02 = TypeInfo_UIManager;
-        if (((lVar11 != 0) && (lVar11 = *(long *)(lVar11 + 0x90), lVar11 != 0)) &&
-           (lVar11 = *(long *)(lVar11 + 0x138), lVar11 != 0)) {
-          a = *(UnityEngine_Events_UnityAction_o **)(lVar11 + 0x18);
-          __this_02 = a;
-          bVar6 = System_String__op_Inequality((System_String_o *)a,"",(MethodInfo *)0x0);
-          lVar11 = MethodInfo_Void_Add;
-          if ((char)bVar6 == '\0') {
-            if (pUVar8 != (UnityEngine_Events_UnityAction_o *)0x0) {
-label_0444f01c:
-              lVar11 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-              if (lVar11 != 0) {
-                pSVar2 = *(Settings_TypedSetting_T__o **)(lVar11 + 0xa0);
-                pSVar10 = "";
-                if ((int)(pUVar8->fields).invoke_impl != 0) {
-                  pSVar9 = (System_String_array *)
-                           System_Collections_Generic_List_object___ToArray
-                                     ((System_Collections_Generic_List_object__o *)pUVar8,MethodInfo_String_ToArray);
-                  __this_02 = ",";
-                  pSVar10 = System_String__Join((System_String_o *)",",pSVar9,(MethodInfo *)0x0);
-                }
-                if (pSVar2 != (Settings_TypedSetting_T__o *)0x0) {
-                  Settings_TypedSetting_object___set_Value(pSVar2,(Il2CppObject *)pSVar10,MethodInfo_Void_set_Value);
-                  __this_00 = (__this->fields).Parent;
-                  goto joined_r0x0444f09e;
-                }
-              }
-            }
-          }
-          else if (pUVar8 != (UnityEngine_Events_UnityAction_o *)0x0) {
-            piVar1 = (int *)((long)&(pUVar8->fields).invoke_impl + 4);
-            *piVar1 = *piVar1 + 1;
-            lVar3 = (pUVar8->fields).method_ptr;
-            if (lVar3 != 0) {
-              uVar7 = (uint)(pUVar8->fields).invoke_impl;
-              if (uVar7 < *(uint *)(lVar3 + 0x18)) {
-                *(uint *)&(pUVar8->fields).invoke_impl = uVar7 + 1;
-                __this_02 = (UnityEngine_Events_UnityAction_o *)(lVar3 + (long)(int)uVar7 * 8 + 0x20);
-                *(UnityEngine_Events_UnityAction_o **)(lVar3 + 0x20 + (long)(int)uVar7 * 8) = a;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                __this_02 = pUVar8;
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pUVar8,(Il2CppObject *)a,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar11 + 0x20) + 0xc0) + 0x70));
-              }
-              goto label_0444f01c;
-            }
-          }
-        }
-      }
-    }
-    else {
-      if (*(int *)((long)&TypeInfo_UIManager[1].fields.original_method_info + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      lVar11 = *(long *)(TypeInfo_UIManager[1].fields.extra_arg + 0x28);
-      __this_02 = TypeInfo_UIManager;
-      if (lVar11 != 0) {
-        __this_01 = *(UI_SelectListPopup_o **)(lVar11 + 0x90);
-        items = ApplicationManagers_MusicManager__GetAllSongs((MethodInfo *)0x0);
-        pSVar10 = UI_UIManager__GetLocale
-                            ("SettingsPopup","Sound","AddSong","","",in_R9);
-        pUVar8 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        __this_02 = pUVar8;
-        UnityEngine_Events_UnityAction___ctor();
-        if (__this_01 != (UI_SelectListPopup_o *)0x0) {
+      pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+      if (pUVar3 != (UI_BaseMenu_o *)0x0) {
+        pUVar4 = (pUVar3->fields).SelectListPopup;
+        pSVar7 = ApplicationManagers_MusicManager__GetAllSongs((MethodInfo *)0x0);
+        pSVar9 = UI_UIManager__GetLocale
+                           ("SettingsPopup","Sound","AddSong",
+                            "","",(MethodInfo *)0x0);
+        __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+        UnityEngine_Events_UnityAction___ctor
+                  ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_01,(Il2CppObject *)__this,
+                   (intptr_t)MethodInfo_UI_SettingsSoundPanel_OnButtonClick_b__4_0,(MethodInfo *)0x0);
+        if (pUVar4 != (UI_SelectListPopup_o *)0x0) {
           UI_SelectListPopup__ShowLoad
-                    (__this_01,items,pSVar10,pUVar8,(UnityEngine_Events_UnityAction_o *)0x0,
+                    (pUVar4,pSVar7,pSVar9,__this_01,(UnityEngine_Events_UnityAction_o *)0x0,
                      (System_Collections_Generic_List_string__o *)0x0,(MethodInfo *)0x0);
           return;
         }
       }
+      goto label_1822f989d;
     }
-  }
-  else {
-    lVar11 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-    if (lVar11 != 0) {
-      pSVar2 = *(Settings_TypedSetting_T__o **)(lVar11 + 0xa0);
-      __this_02 = (UnityEngine_Events_UnityAction_o *)0x0;
-      if (pSVar2 != (Settings_TypedSetting_T__o *)0x0) {
-        Settings_TypedSetting_object___set_Value(pSVar2,(Il2CppObject *)"",MethodInfo_Void_set_Value);
-        __this_00 = (__this->fields).Parent;
-joined_r0x0444f09e:
-        __this_02 = (UnityEngine_Events_UnityAction_o *)0x0;
-        if (__this_00 != (UI_BasePanel_o *)0x0) {
-          UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
-          return;
-        }
+    bVar6 = System_String__op_Equality(name,"AddFinish",(MethodInfo *)0x0);
+    if (!bVar6) {
+      return;
+    }
+    pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+    System_Collections_Generic_List_object____ctor
+              ((System_Collections_Generic_LowLevelList_T__o *)pSVar7,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+    pSVar10 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+    if ((((pSVar10 == (Settings_SoundSettings_o *)0x0) ||
+         (pSVar2 = (pSVar10->fields).CustomPlaylist, pSVar2 == (Settings_StringSetting_o *)0x0)) ||
+        (pSVar9 = (pSVar2->fields)._value, pSVar9 == (System_String_o *)0x0)) ||
+       (pSVar8 = System_String__Split(pSVar9,0x2c,0,(MethodInfo *)0x0), pSVar8 == (System_String_array *)0x0))
+    goto label_1822f989d;
+    for (uVar11 = 0; (int)uVar11 < (int)pSVar8->max_length; uVar11 = uVar11 + 1) {
+      if ((uint)pSVar8->max_length <= uVar11) goto label_1822f98a3;
+      if (pSVar8->m_Items[(int)uVar11] == (System_String_o *)0x0) goto label_1822f989d;
+      pSVar9 = System_String__Trim(pSVar8->m_Items[(int)uVar11],(MethodInfo *)0x0);
+      bVar6 = System_String__op_Inequality(pSVar9,"",(MethodInfo *)0x0);
+      if (bVar6) {
+        if (pSVar7 == (System_Collections_Generic_List_string__o *)0x0) goto label_1822f989d;
+        il2cpp_runtime_helper_180012890(pSVar7);
       }
     }
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (((pUVar3 == (UI_BaseMenu_o *)0x0) ||
+        (pUVar4 = (pUVar3->fields).SelectListPopup, pUVar4 == (UI_SelectListPopup_o *)0x0)) ||
+       (pSVar2 = (pUVar4->fields).FinishSetting, pSVar2 == (Settings_StringSetting_o *)0x0))
+    goto label_1822f989d;
+    pSVar9 = (pSVar2->fields)._value;
+    bVar6 = System_String__op_Inequality(pSVar9,"",(MethodInfo *)0x0);
+    pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+    if (pSVar7 == (System_Collections_Generic_List_string__o *)0x0) goto label_1822f989d;
+    if (bVar6) {
+      piVar1 = &(pSVar7->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar8 = (pSVar7->fields)._items;
+      if (pSVar8 == (System_String_array *)0x0) goto label_1822f989d;
+      uVar11 = (pSVar7->fields)._size;
+      if (uVar11 < (uint)pSVar8->max_length) {
+        (pSVar7->fields)._size = uVar11 + 1;
+        if ((uint)pSVar8->max_length <= uVar11) {
+label_1822f98a3:
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar8->m_Items[(int)uVar11] = pSVar9;
+        Il2CppCodeGenWriteBarrier(pSVar8->m_Items + (int)uVar11,pSVar9);
+      }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)pSVar7,(Il2CppObject *)pSVar9,
+                   (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+      }
+    }
+    pSVar10 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+    if ((pSVar7->fields)._size == 0) goto label_1822f9765;
+    if (pSVar10 == (Settings_SoundSettings_o *)0x0) goto label_1822f989d;
+    pSVar2 = (pSVar10->fields).CustomPlaylist;
+    value = System_Collections_Generic_List_object___ToArray
+                      ((System_Collections_Generic_List_T__o *)pSVar7,
+                       (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+    pSVar9 = System_String__Join(",",(System_String_array *)value,(MethodInfo *)0x0);
   }
-label_0444f0a4:
-  il2cpp_runtime_helper_022b2c90();
-label_0444f0a9:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057ae709 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&": ");
-    il2cpp_runtime_helper_023445d0(&"CurrentSong");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae709 = '\x01';
+  if (pSVar2 != (Settings_StringSetting_o *)0x0) {
+    Settings_TypedSetting_object___set_Value
+              ((Settings_TypedSetting_T__o *)pSVar2,(Il2CppObject *)pSVar9,
+               (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+    __this_00 = (__this->fields).Parent;
+    if (__this_00 != (UI_BasePanel_o *)0x0) {
+      UI_BasePanel__RebuildCategoryPanel(__this_00,(MethodInfo *)0x0);
+      return;
+    }
   }
-  pSVar4 = (__this_02->fields).data;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar6 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pSVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar6 == '\0') {
-    return;
-  }
-  pSVar4 = (__this_02->fields).data;
-  if (*(int *)((long)&TypeInfo_UIManager[1].fields.original_method_info + 4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_03 = (UI_CategoryPanel_o *)
-              UI_UIManager__GetLocale("SettingsPopup","Sound","CurrentSong","","",in_R9);
-  pSVar10 = ApplicationManagers_MusicManager__GetCurrentSong((MethodInfo *)0x0);
-  pSVar10 = System_String__Concat_3af7150((System_String_o *)__this_03,": ",pSVar10,(MethodInfo *)0x0)
-  ;
-  if (pSVar4 == (System_DelegateData_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    UI_CategoryPanel___ctor(__this_03,(MethodInfo *)0x0);
-    return;
-  }
-  pSVar5 = pSVar4->klass;
-  vtableDispatch = pSVar5[4]._1.gc_desc;
-  (*vtableDispatch)(pSVar4,pSVar10,pSVar5[4]._1.name,pSVar5,vtableDispatch);
-  return;
+label_1822f989d:
+  ThrowNullReferenceException();
 }
 
 
 // UI.SettingsSoundPanel$$Update
 // il2cpp: void UI_SettingsSoundPanel__Update (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444f0b0
+// 0x1822faa10
 
 void UI_SettingsSoundPanel__Update(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
 
 {
   UnityEngine_UI_Text_o *pUVar1;
-  UnityEngine_UI_Text_c *pUVar2;
-  Il2CppMethodPointer vtableDispatch;
-  bool_conflict bVar3;
-  UI_CategoryPanel_o *__this_00;
-  System_String_o *pSVar4;
-  MethodInfo *in_R9;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_String_o *str2;
   
-  if (g_data_057ae709 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"SettingsPopup");
-    il2cpp_runtime_helper_023445d0(&": ");
-    il2cpp_runtime_helper_023445d0(&"CurrentSong");
-    il2cpp_runtime_helper_023445d0(&"Sound");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae709 = '\x01';
+  if (Il2CppMethodInitialized_18434764c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup");
+    il2cpp_codegen_initialize_runtime_metadata(&": ");
+    il2cpp_codegen_initialize_runtime_metadata(&"CurrentSong");
+    il2cpp_codegen_initialize_runtime_metadata(&"Sound");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_18434764c = '\x01';
   }
   pUVar1 = (__this->fields)._currentSongLabel;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality
+  bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  if (bVar2) {
     pUVar1 = (__this->fields)._currentSongLabel;
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
     }
-    __this_00 = (UI_CategoryPanel_o *)
-                UI_UIManager__GetLocale
-                          ("SettingsPopup","Sound","CurrentSong","","",in_R9);
-    pSVar4 = ApplicationManagers_MusicManager__GetCurrentSong((MethodInfo *)0x0);
-    pSVar4 = System_String__Concat_3af7150((System_String_o *)__this_00,": ",pSVar4,(MethodInfo *)0x0)
-    ;
-    if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-      pUVar2 = pUVar1->klass;
-      vtableDispatch = (pUVar2->vtable)._75_set_text.methodPtr;
-      (*vtableDispatch)
-                (pUVar1,pSVar4,(pUVar2->vtable)._75_set_text.method,pUVar2,vtableDispatch);
-      return;
+    pSVar3 = UI_UIManager__GetLocale
+                       ("SettingsPopup","Sound","CurrentSong",
+                        "","",(MethodInfo *)0x0);
+    str2 = ApplicationManagers_MusicManager__GetCurrentSong((MethodInfo *)0x0);
+    pSVar3 = System_String__Concat_1969b70(pSVar3,": ",str2,(MethodInfo *)0x0);
+    if (pUVar1 == (UnityEngine_UI_Text_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    il2cpp_runtime_helper_022b2c90();
-    UI_CategoryPanel___ctor(__this_00,(MethodInfo *)0x0);
-    return;
+    (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
+              (pUVar1,pSVar3,(pUVar1->klass->vtable)._75_set_text.method);
   }
   return;
 }
@@ -1041,72 +638,61 @@ void UI_SettingsSoundPanel__Update(UI_SettingsSoundPanel_o *__this,MethodInfo *m
 
 // UI.SettingsSoundPanel$$.ctor
 // il2cpp: void UI_SettingsSoundPanel___ctor (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444f1f0
+// 0x1822d3d10
 
-void UI_SettingsSoundPanel___ctor(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
+void
+UI_SettingsSoundPanel___ctor(UI_SettingsSoundPanel_o* __this, MethodInfo* method)
 
 {
-  UI_CategoryPanel___ctor((UI_CategoryPanel_o *)__this,(MethodInfo *)0x0);
+  UI_SettingsCategoryPanel___ctor((UI_SettingsSkinsHumanPanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.SettingsSoundPanel$$<Setup>b__3_0
 // il2cpp: void UI_SettingsSoundPanel___Setup_b__3_0 (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444f200
+// 0x1822fa990
 
 void UI_SettingsSoundPanel___Setup_b__3_0(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae70a == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Add");
-    g_data_057ae70a = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_18434764d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Add");
+    Il2CppMethodInitialized_18434764d = '\x01';
   }
-  UI_SettingsSoundPanel__OnButtonClick(__this,"Add",in_RDX);
+  UI_SettingsSoundPanel__OnButtonClick(__this,"Add",(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.SettingsSoundPanel$$<Setup>b__3_1
 // il2cpp: void UI_SettingsSoundPanel___Setup_b__3_1 (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444f240
+// 0x1822fa9d0
 
 void UI_SettingsSoundPanel___Setup_b__3_1(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae70b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Clear");
-    g_data_057ae70b = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_18434764e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Clear");
+    Il2CppMethodInitialized_18434764e = '\x01';
   }
-  UI_SettingsSoundPanel__OnButtonClick(__this,"Clear",in_RDX);
+  UI_SettingsSoundPanel__OnButtonClick(__this,"Clear",(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.SettingsSoundPanel$$<OnButtonClick>b__4_0
 // il2cpp: void UI_SettingsSoundPanel___OnButtonClick_b__4_0 (UI_SettingsSoundPanel_o* __this, const MethodInfo* method);
-// 0x444f280
+// 0x1822fa950
 
 void UI_SettingsSoundPanel___OnButtonClick_b__4_0(UI_SettingsSoundPanel_o *__this,MethodInfo *method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae70c == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AddFinish");
-    g_data_057ae70c = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_18434764f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"AddFinish");
+    Il2CppMethodInitialized_18434764f = '\x01';
   }
-  UI_SettingsSoundPanel__OnButtonClick(__this,"AddFinish",in_RDX);
+  UI_SettingsSoundPanel__OnButtonClick(__this,"AddFinish",(MethodInfo *)0x0);
   return;
 }
 

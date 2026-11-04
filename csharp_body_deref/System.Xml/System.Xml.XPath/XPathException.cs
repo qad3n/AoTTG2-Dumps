@@ -30,7 +30,7 @@ public class XPathException : SystemException
 	public override string Message
 	{
 		[Token(Token = "0x6000C48")]
-		[Address(RVA = "0x4804220", Offset = "0x4804220", VA = "0x4804220", Slot = "5")]
+		[Address(RVA = "0x27482F0", Offset = "0x27468F0", VA = "0x1827482F0", Slot = "5")]
 		get
 		{
 			return null;
@@ -38,71 +38,71 @@ public class XPathException : SystemException
 	}
 
 	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x4803810", Offset = "0x4803810", VA = "0x4803810")]
+	[Address(RVA = "0x2747FE0", Offset = "0x27465E0", VA = "0x182747FE0")]
 	protected XPathException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000C3E")]
-	[Address(RVA = "0x4803BE0", Offset = "0x4803BE0", VA = "0x4803BE0", Slot = "11")]
+	[Address(RVA = "0x2747CB0", Offset = "0x27462B0", VA = "0x182747CB0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x4803CB0", Offset = "0x4803CB0", VA = "0x4803CB0")]
+	[Address(RVA = "0x2747EF0", Offset = "0x27464F0", VA = "0x182747EF0")]
 	public XPathException()
 	{
 	}
 
 	[Token(Token = "0x6000C40")]
-	[Address(RVA = "0x4803CD0", Offset = "0x4803CD0", VA = "0x4803CD0")]
+	[Address(RVA = "0x2747E10", Offset = "0x2746410", VA = "0x182747E10")]
 	public XPathException(string message, Exception innerException)
 	{
 	}
 
 	[Token(Token = "0x6000C41")]
-	[Address(RVA = "0x4803E30", Offset = "0x4803E30", VA = "0x4803E30")]
+	[Address(RVA = "0x27479B0", Offset = "0x2745FB0", VA = "0x1827479B0")]
 	internal static XPathException Create(string res)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C42")]
-	[Address(RVA = "0x4803F30", Offset = "0x4803F30", VA = "0x4803F30")]
+	[Address(RVA = "0x2747A50", Offset = "0x2746050", VA = "0x182747A50")]
 	internal static XPathException Create(string res, string arg)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x4804020", Offset = "0x4804020", VA = "0x4804020")]
+	[Address(RVA = "0x2747B00", Offset = "0x2746100", VA = "0x182747B00")]
 	internal static XPathException Create(string res, string arg, string arg2)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x4804130", Offset = "0x4804130", VA = "0x4804130")]
+	[Address(RVA = "0x2747BC0", Offset = "0x27461C0", VA = "0x182747BC0")]
 	internal static XPathException Create(string res, string arg, Exception innerException)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C45")]
-	[Address(RVA = "0x4803EC0", Offset = "0x4803EC0", VA = "0x4803EC0")]
+	[Address(RVA = "0x2747D90", Offset = "0x2746390", VA = "0x182747D90")]
 	private XPathException(string res, string[] args)
 	{
 	}
 
 	[Token(Token = "0x6000C46")]
-	[Address(RVA = "0x4803DC0", Offset = "0x4803DC0", VA = "0x4803DC0")]
+	[Address(RVA = "0x2748280", Offset = "0x2746880", VA = "0x182748280")]
 	private XPathException(string res, string[] args, Exception inner)
 	{
 	}
 
 	[Token(Token = "0x6000C47")]
-	[Address(RVA = "0x4803AB0", Offset = "0x4803AB0", VA = "0x4803AB0")]
+	[Address(RVA = "0x2747900", Offset = "0x2745F00", VA = "0x182747900")]
 	private static string CreateMessage(string res, string[] args)
 	{
 		return null;

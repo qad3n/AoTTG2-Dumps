@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200051B")]
+[Token(Token = "0x2000675")]
 internal class BaseEmoteSpecial : ExtendedUseable
 {
-	[Token(Token = "0x400180A")]
+	[Token(Token = "0x4001EA7")]
 	[FieldOffset(Offset = "0x40")]
 	protected Human _human;
 
-	[Token(Token = "0x170009E5")]
+	[Token(Token = "0x17000B19")]
 	protected virtual bool GroundedOnly
 	{
-		[Token(Token = "0x60035B7")]
-		[Address(RVA = "0x41F2AE0", Offset = "0x41F2AE0", VA = "0x41F2AE0", Slot = "17")]
+		[Token(Token = "0x6003FF5")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60035B8")]
-	[Address(RVA = "0x41F2AF0", Offset = "0x41F2AF0", VA = "0x41F2AF0")]
+	[Token(Token = "0x6003FF6")]
+	[Address(RVA = "0x2166FC0", Offset = "0x21655C0", VA = "0x182166FC0")]
 	public BaseEmoteSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60035B9")]
-	[Address(RVA = "0x41F2BA0", Offset = "0x41F2BA0", VA = "0x41F2BA0", Slot = "6")]
+	[Token(Token = "0x6003FF7")]
+	[Address(RVA = "0x2166F30", Offset = "0x2165530", VA = "0x182166F30", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60035BA")]
-	[Address(RVA = "0x41F2BF0", Offset = "0x41F2BF0", VA = "0x41F2BF0")]
+	[Token(Token = "0x6003FF8")]
+	[Address(RVA = "0x2166F90", Offset = "0x2165590", VA = "0x182166F90")]
 	protected bool InSpecial()
 	{
 		return default(bool);

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000403")]
+[Token(Token = "0x20004CA")]
 internal struct RuleMatcher
 {
-	[Token(Token = "0x4000C51")]
+	[Token(Token = "0x400109B")]
 	[FieldOffset(Offset = "0x0")]
 	public StyleSheet sheet;
 
-	[Token(Token = "0x4000C52")]
+	[Token(Token = "0x400109C")]
 	[FieldOffset(Offset = "0x8")]
 	public StyleComplexSelector complexSelector;
 
-	[Token(Token = "0x6001A26")]
-	[Address(RVA = "0x4F66EB0", Offset = "0x4F66EB0", VA = "0x4F66EB0", Slot = "3")]
+	[Token(Token = "0x60025DB")]
+	[Address(RVA = "0x313D8D0", Offset = "0x313BED0", VA = "0x18313D8D0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -15,9 +15,9 @@ public interface IStrongBox
 	[Token(Token = "0x1700025D")]
 	object Value
 	{
-		[Token(Token = "0x6000BA4")]
+		[Token(Token = "0x6000BA3")]
 		get;
-		[Token(Token = "0x6000BA5")]
+		[Token(Token = "0x6000BA4")]
 		set;
 	}
 }

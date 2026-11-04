@@ -13,33 +13,33 @@ using UnityEngine.Scripting;
 namespace Unity.IO.LowLevel.Unsafe;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000035")]
-[UnityEngine.Bindings.NativeAsStruct]
+[Token(Token = "0x2000048")]
 [UnityEngine.Bindings.NativeConditional("ENABLE_PROFILER")]
+[UnityEngine.Bindings.NativeAsStruct]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class AsyncReadManagerMetricsFilters
 {
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000DD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[UnityEngine.Bindings.NativeName("typeIDs")]
 	internal ulong[] TypeIDs;
 
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000DE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	[UnityEngine.Bindings.NativeName("states")]
 	internal ProcessingState[] States;
 
-	[Token(Token = "0x40000AC")]
+	[Token(Token = "0x40000DF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	[UnityEngine.Bindings.NativeName("readTypes")]
 	internal FileReadType[] ReadTypes;
 
-	[Token(Token = "0x40000AD")]
+	[Token(Token = "0x40000E0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	[UnityEngine.Bindings.NativeName("priorityLevels")]
 	internal Priority[] PriorityLevels;
 
-	[Token(Token = "0x40000AE")]
+	[Token(Token = "0x40000E1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	[UnityEngine.Bindings.NativeName("subsystems")]
 	internal AssetLoadingSubsystem[] Subsystems;

@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Text.RegularExpressions;
 
-[Token(Token = "0x20000B7")]
+[Token(Token = "0x20000F7")]
 [Flags]
 public enum RegexOptions
 {
-	[Token(Token = "0x400032E")]
+	[Token(Token = "0x4000400")]
 	None = 0,
-	[Token(Token = "0x400032F")]
+	[Token(Token = "0x4000401")]
 	IgnoreCase = 1,
-	[Token(Token = "0x4000330")]
+	[Token(Token = "0x4000402")]
 	Multiline = 2,
-	[Token(Token = "0x4000331")]
+	[Token(Token = "0x4000403")]
 	ExplicitCapture = 4,
-	[Token(Token = "0x4000332")]
+	[Token(Token = "0x4000404")]
 	Compiled = 8,
-	[Token(Token = "0x4000333")]
+	[Token(Token = "0x4000405")]
 	Singleline = 0x10,
-	[Token(Token = "0x4000334")]
+	[Token(Token = "0x4000406")]
 	IgnorePatternWhitespace = 0x20,
-	[Token(Token = "0x4000335")]
+	[Token(Token = "0x4000407")]
 	RightToLeft = 0x40,
-	[Token(Token = "0x4000336")]
+	[Token(Token = "0x4000408")]
 	ECMAScript = 0x100,
-	[Token(Token = "0x4000337")]
+	[Token(Token = "0x4000409")]
 	CultureInvariant = 0x200
 }

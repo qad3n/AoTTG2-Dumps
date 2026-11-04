@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200006D")]
+[Token(Token = "0x200006B")]
 public interface ILogger
 {
-	[Token(Token = "0x600024A")]
+	[Token(Token = "0x6000248")]
 	void LogError(string fmt, params object[] args);
 
-	[Token(Token = "0x600024B")]
+	[Token(Token = "0x6000249")]
 	void LogWarning(string fmt, params object[] args);
 
-	[Token(Token = "0x600024C")]
+	[Token(Token = "0x600024A")]
 	void LogInfo(string fmt, params object[] args);
 
-	[Token(Token = "0x600024D")]
+	[Token(Token = "0x600024B")]
 	void LogDebug(string fmt, params object[] args);
 }

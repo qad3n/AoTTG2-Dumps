@@ -13,15 +13,15 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001A3")]
 public static class Empty<T>
 {
-	[Token(Token = "0x40008E5")]
+	[Token(Token = "0x40008E3")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly T[] array;
 
-	[Token(Token = "0x40008E6")]
+	[Token(Token = "0x40008E4")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly List<T> list;
 
-	[Token(Token = "0x40008E7")]
+	[Token(Token = "0x40008E5")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly HashSet<T> hashSet;
 }

@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x2000240")]
+[Token(Token = "0x200039C")]
 internal static class QuotedPairReader
 {
-	[Token(Token = "0x6000E12")]
-	[Address(RVA = "0x49CDE90", Offset = "0x49CDE90", VA = "0x49CDE90")]
+	[Token(Token = "0x60018D9")]
+	[Address(RVA = "0x2818AE0", Offset = "0x28170E0", VA = "0x182818AE0")]
 	internal static int CountQuotedChars(string data, int index, bool permitUnicodeEscaping)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E13")]
-	[Address(RVA = "0x49CF650", Offset = "0x49CF650", VA = "0x49CF650")]
+	[Token(Token = "0x60018DA")]
+	[Address(RVA = "0x2818A40", Offset = "0x2817040", VA = "0x182818A40")]
 	private static int CountBackslashes(string data, int index)
 	{
 		return default(int);

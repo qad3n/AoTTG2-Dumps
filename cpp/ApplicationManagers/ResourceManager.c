@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.ResourceManager
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers/ResourceManager.cs
@@ -8,1798 +8,1178 @@
 
 // ApplicationManagers.ResourceManager$$ClearCache
 // il2cpp: void ApplicationManagers_ResourceManager__ClearCache (const MethodInfo* method);
-// 0x44bec80
+// 0x182355400
 
 void ApplicationManagers_ResourceManager__ClearCache(MethodInfo *method)
 
 {
-  byte bVar1;
-  int iVar2;
-  System_Collections_Generic_Dictionary_object__object__c *pSVar3;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar4;
-  System_Collections_Generic_HashSet_object__o *pSVar5;
-  bool_conflict bVar6;
-  Il2CppClass *pIVar7;
-  System_Byte_array *data;
-  UnityEngine_Texture2D_o *__this;
-  undefined8 *puVar8;
-  MethodInfo *in_RCX;
-  MethodInfo *method_00;
-  char extraout_DL;
-  uint extraout_EDX;
-  Il2CppClass *pIVar9;
-  Il2CppClass *in_RSI;
-  Il2CppObject *key;
+  System_Collections_Generic_Dictionary_string__Object__o *__this;
   
-  if (g_data_057aea80 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea80 = '\x01';
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) != 0) goto label_044bec9d;
-label_044becee:
-    il2cpp_runtime_helper_02337ed0();
-    pIVar9 = (Il2CppClass *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8);
+  if (Il2CppMethodInitialized_1843479b5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479b5 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) goto label_044becee;
-label_044bec9d:
-    pIVar9 = (Il2CppClass *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (pIVar9 != (Il2CppClass *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear
-              ((System_Collections_Generic_Dictionary_object__object__o *)pIVar9,MethodInfo_Void_Clear);
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Object__o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Object_Clear);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea81 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TextAsset);
-    g_data_057aea81 = '\x01';
-  }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pIVar7 = (Il2CppClass *)
-           ApplicationManagers_ResourceManager__LoadAsset
-                     ((System_String_o *)pIVar9,(System_String_o *)in_RSI,0,in_RCX);
-  if (pIVar7 != (Il2CppClass *)0x0) {
-    pSVar3 = (pIVar7->_1).image;
-    bVar1 = (TypeInfo_TextAsset->_2).naturalAligment;
-    if ((bVar1 <= (pSVar3->_2).naturalAligment) &&
-       ((pSVar3->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_TextAsset)) {
-      UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)pIVar7,(MethodInfo *)0x0);
-      return;
-    }
-    in_RSI = TypeInfo_TextAsset;
-    il2cpp_runtime_helper_022b2fd0();
-    pIVar9 = pIVar7;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea84 = '\x01';
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) != 0) goto label_044bede3;
-label_044bee36:
-    il2cpp_runtime_helper_02337ed0();
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) goto label_044bee36;
-label_044bede3:
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    in_RSI = pIVar9;
-    bVar6 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar4,(Il2CppObject *)pIVar9,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar6 == '\0') {
-      return;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      System_Collections_Generic_Dictionary_object__object___get_Item
-                (pSVar4,(Il2CppObject *)pIVar9,MethodInfo_Texture2D_get_Item);
-      return;
-    }
-  }
-  key = (Il2CppObject *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  pIVar9 = in_RSI;
-  if (g_data_057aea85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea85 = '\x01';
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) != 0) goto label_044beedb;
-label_044bef3a:
-    il2cpp_runtime_helper_02337ed0();
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) goto label_044bef3a;
-label_044beedb:
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-label_044bf004:
-    pIVar7 = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aea86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-      g_data_057aea86 = '\x01';
-      iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-    }
-    else {
-      iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-    }
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-    }
-    else {
-      pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-    }
-    if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pIVar9 = pIVar7;
-      bVar6 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar4,(Il2CppObject *)pIVar7,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar6 == '\0') {
-        return;
-      }
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-      if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        pIVar9 = pIVar7;
-        System_Collections_Generic_Dictionary_object__object___Remove
-                  (pSVar4,(Il2CppObject *)pIVar7,MethodInfo_Boolean_Remove);
-        pSVar5 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-        if (pSVar5 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-          System_Collections_Generic_HashSet_object___Remove(pSVar5,(Il2CppObject *)pIVar7,MethodInfo_Boolean_Remove);
-          return;
-        }
-      }
-    }
-    pIVar7 = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aea87 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-      g_data_057aea87 = '\x01';
-    }
-    bVar6 = System_String__IsNullOrEmpty((System_String_o *)pIVar9,(MethodInfo *)0x0);
-    if ((char)bVar6 != '\0') {
-      pIVar9 = pIVar7;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      bVar6 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar4,(Il2CppObject *)pIVar9,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar6 == '\0') {
-        bVar6 = System_IO_File__Exists((System_String_o *)pIVar7,(MethodInfo *)0x0);
-        if ((char)bVar6 != '\0') {
-          data = System_IO_File__ReadAllBytes((System_String_o *)pIVar7,(MethodInfo *)0x0);
-          __this = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-          method_00 = (MethodInfo *)&g_data_00000004;
-          UnityEngine_Texture2D___ctor_4dd9130(__this,2,2,4,0,(MethodInfo *)0x0);
-          bVar6 = UnityEngine_ImageConversion__LoadImage_4e3d4f0(__this,data,(MethodInfo *)0x0);
-          if ((char)bVar6 != '\0') {
-            if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            ApplicationManagers_ResourceManager__SetExternalTexture
-                      ((System_String_o *)pIVar9,__this,extraout_EDX & 0xff,method_00);
-          }
-        }
-        return;
-      }
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-      if (pSVar4 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        System_Collections_Generic_Dictionary_object__object___get_Item
-                  (pSVar4,(Il2CppObject *)pIVar9,MethodInfo_Texture2D_get_Item);
-        return;
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    puVar8 = (undefined8 *)__cxa_allocate_exception(8);
-    *puVar8 = (pIVar9->_1).image;
-    __cxa_throw(puVar8,&PTR_PTR_05215060,0);
-  }
-  System_Collections_Generic_Dictionary_object__object___set_Item
-            (pSVar4,key,(Il2CppObject *)in_RSI,MethodInfo_Void_set_Item);
-  if (extraout_DL != '\0') {
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar6 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)in_RSI,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar6 != '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pIVar9 = (Il2CppClass *)0x0;
-      UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)in_RSI,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar5 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar5 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        System_Collections_Generic_HashSet_object___Add(pSVar5,key,MethodInfo_Boolean_Add);
-        return;
-      }
-      goto label_044bf004;
-    }
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$LoadText
 // il2cpp: System_String_o* ApplicationManagers_ResourceManager__LoadText (System_String_o* path, System_String_o* name, const MethodInfo* method);
-// 0x44bed10
+// 0x1823562d0
 
 System_String_o *
 ApplicationManagers_ResourceManager__LoadText(System_String_o *path,System_String_o *name,MethodInfo *method)
 
 {
   byte bVar1;
-  int iVar2;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
-  System_Collections_Generic_HashSet_object__o *pSVar4;
-  bool_conflict bVar5;
-  Il2CppClass *pIVar6;
-  System_String_o *pSVar7;
-  System_String_o *extraout_RAX;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  System_Byte_array *data;
-  undefined8 *puVar8;
-  MethodInfo *in_RCX;
-  MethodInfo *method_00;
-  char extraout_DL;
-  uint extraout_EDX;
-  Il2CppObject *key;
-  Il2CppClass *pIVar9;
+  UnityEngine_Object_o *__this;
+  System_String_o *pSVar2;
   
-  if (g_data_057aea81 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TextAsset);
-    g_data_057aea81 = '\x01';
+  if (Il2CppMethodInitialized_1843479b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_TextAsset);
+    Il2CppMethodInitialized_1843479b6 = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pIVar6 = (Il2CppClass *)ApplicationManagers_ResourceManager__LoadAsset(path,name,0,in_RCX);
-  if (pIVar6 != (Il2CppClass *)0x0) {
-    bVar1 = (TypeInfo_TextAsset->_2).naturalAligment;
-    if ((bVar1 <= (((pIVar6->_1).image)->_2).naturalAligment) &&
-       ((((pIVar6->_1).image)->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_TextAsset)) {
-      pSVar7 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)pIVar6,(MethodInfo *)0x0);
-      return pSVar7;
+  __this = ApplicationManagers_ResourceManager__LoadAsset(path,name,false,(MethodInfo *)0x0);
+  if (__this != (UnityEngine_Object_o *)0x0) {
+    bVar1 = (TypeInfo_UnityEngine_TextAsset->_2).typeHierarchyDepth;
+    if ((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
+       ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+        (Il2CppClass *)TypeInfo_UnityEngine_TextAsset)) {
+      pSVar2 = UnityEngine_TextAsset__ToString((UnityEngine_TextAsset_o *)__this,(MethodInfo *)0x0);
+      return pSVar2;
     }
-    name = (System_String_o *)TypeInfo_TextAsset;
-    il2cpp_runtime_helper_022b2fd0();
-    path = (System_String_o *)pIVar6;
+    il2cpp_codegen_raise_invalid_cast_exception(__this,TypeInfo_UnityEngine_TextAsset);
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea84 = '\x01';
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  else {
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    name = path;
-    bVar5 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar3,(Il2CppObject *)path,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar5 == '\0') {
-      return (System_String_o *)0x0;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar7 = (System_String_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar3,(Il2CppObject *)path,MethodInfo_Texture2D_get_Item);
-      return pSVar7;
-    }
-  }
-  key = (Il2CppObject *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  pIVar6 = (Il2CppClass *)name;
-  if (g_data_057aea85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea85 = '\x01';
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  else {
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (pSVar3,key,(Il2CppObject *)name,MethodInfo_Void_set_Item);
-    if (extraout_DL == '\0') {
-      return extraout_RAX;
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)name,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar5 == '\0') {
-      return (System_String_o *)CONCAT44(extraout_var,bVar5);
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pIVar6 = (Il2CppClass *)0x0;
-    UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)name,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar4 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-    if (pSVar4 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-      bVar5 = System_Collections_Generic_HashSet_object___Add(pSVar4,key,MethodInfo_Boolean_Add);
-      return (System_String_o *)CONCAT44(extraout_var_00,bVar5);
-    }
-  }
-  pIVar9 = (Il2CppClass *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea86 = '\x01';
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  else {
-    iVar2 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    pIVar6 = pIVar9;
-    bVar5 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar3,(Il2CppObject *)pIVar9,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar5 == '\0') {
-      return (System_String_o *)CONCAT44(extraout_var_01,bVar5);
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pIVar6 = pIVar9;
-      System_Collections_Generic_Dictionary_object__object___Remove
-                (pSVar3,(Il2CppObject *)pIVar9,MethodInfo_Boolean_Remove);
-      pSVar4 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar4 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        bVar5 = System_Collections_Generic_HashSet_object___Remove(pSVar4,(Il2CppObject *)pIVar9,MethodInfo_Boolean_Remove)
-        ;
-        return (System_String_o *)CONCAT44(extraout_var_02,bVar5);
-      }
-    }
-  }
-  pIVar9 = (Il2CppClass *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-    g_data_057aea87 = '\x01';
-  }
-  bVar5 = System_String__IsNullOrEmpty((System_String_o *)pIVar6,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    pIVar6 = pIVar9;
-  }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar5 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar3,(Il2CppObject *)pIVar6,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar5 == '\0') {
-      bVar5 = System_IO_File__Exists((System_String_o *)pIVar9,(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        data = System_IO_File__ReadAllBytes((System_String_o *)pIVar9,(MethodInfo *)0x0);
-        pSVar7 = (System_String_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-        method_00 = (MethodInfo *)&g_data_00000004;
-        UnityEngine_Texture2D___ctor_4dd9130((UnityEngine_Texture2D_o *)pSVar7,2,2,4,0,(MethodInfo *)0x0);
-        bVar5 = UnityEngine_ImageConversion__LoadImage_4e3d4f0
-                          ((UnityEngine_Texture2D_o *)pSVar7,data,(MethodInfo *)0x0);
-        if ((char)bVar5 != '\0') {
-          if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          ApplicationManagers_ResourceManager__SetExternalTexture
-                    ((System_String_o *)pIVar6,(UnityEngine_Texture2D_o *)pSVar7,extraout_EDX & 0xff,method_00
-                    );
-          return pSVar7;
-        }
-      }
-      return (System_String_o *)0x0;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar3 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar7 = (System_String_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar3,(Il2CppObject *)pIVar6,MethodInfo_Texture2D_get_Item);
-      return pSVar7;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  puVar8 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar8 = (pIVar6->_1).image;
-  __cxa_throw(puVar8,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$TryLoadText
 // il2cpp: System_String_o* ApplicationManagers_ResourceManager__TryLoadText (System_String_o* path, System_String_o* name, const MethodInfo* method);
-// 0x44ba330
+// 0x1823565e0
+// eh: try 0x182356621..0x182356760 -> pad 0x1833197a0 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 61 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823566c7: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1823566cc: test rcx, rcx
+// asm:   0x1823566cf: je 0x182356749
+// asm:   0x1823566d1: mov rax, qword ptr [rcx]
+// asm:   0x1823566d4: mov rdx, qword ptr [rax + 0x190]
+// asm:   0x1823566db: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x1823566e1: mov rbx, rax
+// asm:   0x1823566e4: lea rcx, [rip + 0x1d78905]  ; "Error loading text from asset bundle: {0}, {1}"
+// asm:   0x1823566eb: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1823566f0: mov rcx, rax
+// asm:   0x1823566f3: xor r9d, r9d
+// asm:   0x1823566f6: mov r8, rbx
+// asm:   0x1823566f9: mov rdx, qword ptr [rsp + 0x58]
+// asm:   0x1823566fe: call 0x18196d440  ; System_String__Format()
+// asm:   0x182356703: mov rbx, rax
+// asm:   0x182356706: lea rcx, [rip + 0x1da4d2b]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x18235670d: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182356712: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x182356719: jne 0x182356723
+// asm:   0x18235671b: mov rcx, rax
+// asm:   0x18235671e: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x182356723: xor edx, edx
+// asm:   0x182356725: mov rcx, rbx
+// asm:   0x182356728: call 0x182ec3bd0  ; UnityEngine_Debug__Log()
+// asm:   0x18235672d: mov rax, qword ptr [rip + 0x1ffe71c]
+// asm:   0x182356734: mov rax, qword ptr [rax + 0xb8]
+// asm:   0x18235673b: mov rax, qword ptr [rax]
+// asm:   0x18235673e: mov rbx, qword ptr [rsp + 0x50]
+// asm:   0x182356743: add rsp, 0x40
+// asm:   0x182356747: pop rdi
+// asm:   0x182356748: ret 
+// asm:   0x182356749: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x1833197a0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833197a5: push rbx
+// asm:   0x1833197a6: push rbp
+// asm:   0x1833197a7: push rdi
+// asm:   0x1833197a8: sub rsp, 0x20
+// asm:   0x1833197ac: mov rbp, rdx
+// asm:   0x1833197af: mov rdi, qword ptr [rbp + 0x28]
+// asm:   0x1833197b3: mov rax, qword ptr [rdi]
+// asm:   0x1833197b6: mov rbx, qword ptr [rax]
+// asm:   0x1833197b9: lea rcx, [rip + 0xd5f798]  ; TypeInfo_System_Exception
+// asm:   0x1833197c0: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1833197c5: mov rcx, rax
+// asm:   0x1833197c8: mov rdx, rbx
+// asm:   0x1833197cb: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x1833197d0: test al, al
+// asm:   0x1833197d2: mov rax, qword ptr [rdi]
+// asm:   0x1833197d5: je 0x1833197e7
+// asm:   0x1833197d7: mov qword ptr [rbp + 0x30], rax
+// asm:   0x1833197db: movabs rax, 0
+// asm:   0x1833197e5: jmp 0x1833197fc
+// asm:   0x1833197e7: mov qword ptr [rbp + 0x20], rax
+// asm:   0x1833197eb: lea rdx, [rip + 0xcc2796]
+// asm:   0x1833197f2: lea rcx, [rbp + 0x20]
+// asm:   0x1833197f6: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x1833197fc: add rsp, 0x20
+// asm:   0x183319800: pop rdi
+// asm:   0x183319801: pop rbp
+// asm:   0x183319802: pop rbx
+// asm:   0x183319803: ret 
 
 System_String_o *
 ApplicationManagers_ResourceManager__TryLoadText
           (System_String_o *path,System_String_o *name,MethodInfo *method)
 
 {
-  System_String_o *pSVar1;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
+  byte bVar1;
+  UnityEngine_Object_o *__this;
+  System_String_o *pSVar2;
   
-  if (g_data_057aea82 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea82 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_1843479b7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479b7 = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    method = extraout_RDX_00;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar1 = ApplicationManagers_ResourceManager__LoadText(path,name,method);
-  return pSVar1;
+  if (Il2CppMethodInitialized_1843479b6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_TextAsset);
+    Il2CppMethodInitialized_1843479b6 = '\x01';
+  }
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  __this = ApplicationManagers_ResourceManager__LoadAsset(path,name,false,(MethodInfo *)0x0);
+  if (__this != (UnityEngine_Object_o *)0x0) {
+    bVar1 = (TypeInfo_UnityEngine_TextAsset->_2).typeHierarchyDepth;
+    if ((bVar1 <= (__this->klass->_2).typeHierarchyDepth) &&
+       ((__this->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+        (Il2CppClass *)TypeInfo_UnityEngine_TextAsset)) {
+      pSVar2 = UnityEngine_TextAsset__ToString((UnityEngine_TextAsset_o *)__this,(MethodInfo *)0x0);
+      return pSVar2;
+    }
+    il2cpp_codegen_raise_invalid_cast_exception(__this,TypeInfo_UnityEngine_TextAsset);
+  }
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$LoadAsset
 // il2cpp: UnityEngine_Object_o* ApplicationManagers_ResourceManager__LoadAsset (System_String_o* path, System_String_o* name, bool cached, const MethodInfo* method);
-// 0x44bbf40
+// 0x182355c20
 
 UnityEngine_Object_o *
 ApplicationManagers_ResourceManager__LoadAsset
-          (System_String_o *path,System_String_o *name,bool_conflict cached,MethodInfo *method)
+          (System_String_o *path,System_String_o *name,bool cached,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  bool_conflict bVar1;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  System_Collections_Generic_Dictionary_string__Object__o *pSVar2;
+  bool bVar3;
   UnityEngine_Texture2D_o *x;
-  UnityEngine_Object_o *pUVar2;
-  UnityEngine_Object_o *__this_00;
-  UnityEngine_Object_o *extraout_RAX;
-  undefined4 uVar3;
-  MethodInfo *method_00;
-  Il2CppClass *pIVar4;
-  Il2CppClass *pIVar5;
-  undefined4 uVar6;
+  UnityEngine_Object_o *pUVar4;
   
-  if (g_data_057aea83 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&"/");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057aea83 = '\x01';
+  if (Il2CppMethodInitialized_1843479b8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"/");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_1843479b8 = '\x01';
   }
-  method_00 = "";
-  bVar1 = System_String__op_Inequality(path,(System_String_o *)"",(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    method_00 = "/";
-    name = System_String__Concat_3af7150(path,(System_String_o *)"/",name,(MethodInfo *)0x0);
+  bVar3 = System_String__op_Inequality(path,"",(MethodInfo *)0x0);
+  if (bVar3) {
+    name = System_String__Concat_1969b70(path,"/",name,(MethodInfo *)0x0);
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  x = ApplicationManagers_ResourceManager__GetExternalTexture(name,method_00);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_1843479b9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479b9 = '\x01';
   }
-  pIVar4 = (Il2CppClass *)0x0;
-  bVar1 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    if ((char)cached != '\0') {
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    bVar3 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)name,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    if (bVar3) {
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
       }
-      pIVar5 = (Il2CppClass *)0x0;
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044bc19f;
-      pIVar4 = (Il2CppClass *)name;
-      bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)
-                         **(undefined8 **)(TypeInfo_ResourceManager + 0xb8),(Il2CppObject *)name,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar1 == '\0') {
-        if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+      if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_182355f6b;
+      x = System_Collections_Generic_Dictionary_object__object___get_Item
+                    (pSVar1,(Il2CppObject *)name,
+                     (MethodInfo_147A5B0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
+    }
+    else {
+      x = (UnityEngine_Texture2D_o *)0x0;
+    }
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar3 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
+      if (cached) {
+        if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
         }
-        pIVar5 = (Il2CppClass *)0x0;
-        if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8)
-            == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044bc19f;
+        pSVar2 = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+        if (pSVar2 == (System_Collections_Generic_Dictionary_string__Object__o *)0x0) goto label_182355f6b;
+        bVar3 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
+                           (Il2CppObject *)name,
+                           (MethodInfo_1455450 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_string_Object_ContainsKey);
+        if (!bVar3) {
+          if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+          }
+          pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+          if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_182355f6b;
+          System_Collections_Generic_Dictionary_object__object___set_Item
+                    (pSVar1,(Il2CppObject *)name,(Il2CppObject *)x,
+                     (MethodInfo_147A7F0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_Object_set_Item);
+        }
+      }
+      return (UnityEngine_Object_o *)x;
+    }
+    if (!cached) {
+      pUVar4 = UnityEngine_Resources__Load(name,(MethodInfo *)0x0);
+      return pUVar4;
+    }
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+    }
+    pSVar2 = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+    if (pSVar2 != (System_Collections_Generic_Dictionary_string__Object__o *)0x0) {
+      bVar3 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                        ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,(Il2CppObject *)name,
+                         (MethodInfo_1455450 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_Object_ContainsKey);
+      if (!bVar3) {
+        if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+        }
+        pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+                 TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+        pUVar4 = UnityEngine_Resources__Load(name,(MethodInfo *)0x0);
+        if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_182355f6b;
         System_Collections_Generic_Dictionary_object__object___set_Item
-                  ((System_Collections_Generic_Dictionary_object__object__o *)
-                   **(undefined8 **)(TypeInfo_ResourceManager + 0xb8),(Il2CppObject *)name,(Il2CppObject *)x,MethodInfo_Void_set_Item)
-        ;
+                  (pSVar1,(Il2CppObject *)name,(Il2CppObject *)pUVar4,
+                   (MethodInfo_147A7F0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_Object_set_Item);
+      }
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+      }
+      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+               TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+      if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+        pUVar4 = System_Collections_Generic_Dictionary_object__object___get_Item
+                           (pSVar1,(Il2CppObject *)name,
+                            (MethodInfo_147A5B0 *)
+                            MethodInfo_System_Collections_Generic_Dictionary_string_Object_get_Item);
+        return pUVar4;
       }
     }
-    return (UnityEngine_Object_o *)x;
   }
-  if ((char)cached == '\0') {
-    pUVar2 = UnityEngine_Resources__Load(name,(MethodInfo *)0x0);
-    return pUVar2;
-  }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pIVar5 = (Il2CppClass *)0x0;
-  if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8) !=
-      (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    pIVar4 = (Il2CppClass *)name;
-    bVar1 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      ((System_Collections_Generic_Dictionary_object__object__o *)
-                       **(undefined8 **)(TypeInfo_ResourceManager + 0xb8),(Il2CppObject *)name,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar1 == '\0') {
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this = (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_ResourceManager + 0xb8);
-      pIVar4 = (Il2CppClass *)0x0;
-      pIVar5 = (Il2CppClass *)name;
-      pUVar2 = UnityEngine_Resources__Load(name,(MethodInfo *)0x0);
-      if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044bc19f;
-      pIVar4 = (Il2CppClass *)name;
-      System_Collections_Generic_Dictionary_object__object___set_Item
-                (__this,(Il2CppObject *)name,(Il2CppObject *)pUVar2,MethodInfo_Void_set_Item);
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pIVar5 = (Il2CppClass *)0x0;
-    if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_ResourceManager + 0xb8) !=
-        (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pUVar2 = (UnityEngine_Object_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         ((System_Collections_Generic_Dictionary_object__object__o *)
-                          **(undefined8 **)(TypeInfo_ResourceManager + 0xb8),(Il2CppObject *)name,MethodInfo_Object_get_Item);
-      return pUVar2;
-    }
-  }
-label_044bc19f:
-  uVar6 = il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea6a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_StartSoundEffect_d__41);
-    g_data_057aea6a = '\x01';
-  }
-  __this_00 = (UnityEngine_Object_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StartSoundEffect_d__41);
-  uVar3 = 0;
-  pUVar2 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->fields).m_CachedPtr = 0;
-  if (__this_00 != (UnityEngine_Object_o *)0x0) {
-    __this_00[1].monitor = pIVar5;
-    il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,pIVar5);
-    __this_00[2].klass = (UnityEngine_Object_c *)pIVar4;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,pIVar4);
-    *(undefined4 *)&__this_00[1].fields.m_CachedPtr = uVar6;
-    return __this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar2,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar2->fields).m_CachedPtr = uVar3;
-  return extraout_RAX;
+label_182355f6b:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$InstantiateAsset<object>
-// il2cpp: Il2CppObject* ApplicationManagers_ResourceManager__InstantiateAsset_object_ (System_String_o* path, System_String_o* name, bool cached, const MethodInfo_25BC8B0* method);
-// 0x26bc8b0
+// il2cpp: Il2CppObject* ApplicationManagers_ResourceManager__InstantiateAsset_object_ (System_String_o* path, System_String_o* name, bool cached, const MethodInfo_795F00* method);
+// 0x180795f00
 
 Il2CppObject *
 ApplicationManagers_ResourceManager__InstantiateAsset_object_
-          (System_String_o *path,System_String_o *name,bool_conflict cached,MethodInfo_25BC8B0 *method)
+          (System_String_o *path,System_String_o *name,bool cached,MethodInfo_795F00 *method)
 
 {
-  int iVar1;
-  UnityEngine_Object_o *pUVar2;
-  Il2CppClass *pIVar3;
-  Il2CppObject *pIVar4;
+  UnityEngine_Object_o *pUVar1;
+  Il2CppClass *klass;
+  Il2CppObject *pIVar2;
   
-  if (method->rgctx_data == (MethodInfo_25BC8B0_RGCTXs *)0x0) {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    if (method->rgctx_data == (MethodInfo_25BC8B0_RGCTXs *)0x0) {
-      il2cpp_runtime_helper_02300a20(method);
-      iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-      goto joined_r0x026bc8fd;
+  if (method->rgctx_data == (MethodInfo_795F00_RGCTXs *)0x0) {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    if (method->rgctx_data == (MethodInfo_795F00_RGCTXs *)0x0) {
+      il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
     }
   }
-  iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-joined_r0x026bc8fd:
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pUVar2 = ApplicationManagers_ResourceManager__LoadAsset(path,name,cached & 0xff,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar1 = ApplicationManagers_ResourceManager__LoadAsset(path,name,cached,(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pUVar2 = UnityEngine_Object__Instantiate_4e01490(pUVar2,(MethodInfo *)0x0);
-  pIVar3 = method->rgctx_data->_0_T;
-  if (((pIVar3->_2).field_0x6d & 1) == 0) {
-    pIVar3 = (Il2CppClass *)il2cpp_runtime_helper_023009c0(pIVar3);
+  pUVar1 = UnityEngine_Object__Instantiate_2f212a0(pUVar1,(MethodInfo *)0x0);
+  klass = method->rgctx_data->_0_T;
+  if (((klass->_2).bitflags1 & 1) == 0) {
+    klass = il2cpp_codegen_class_init_checked(klass);
   }
-  if (pUVar2 != (UnityEngine_Object_o *)0x0) {
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023051f0(pUVar2,pIVar3);
-    if (pIVar4 != (Il2CppObject *)0x0) {
-      return pIVar4;
+  if (pUVar1 == (UnityEngine_Object_o *)0x0) {
+    pIVar2 = (Il2CppObject *)0x0;
+  }
+  else {
+    pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pUVar1,klass);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar1,klass);
     }
-    il2cpp_runtime_helper_022b2fd0(pUVar2,pIVar3);
   }
-  return (Il2CppObject *)0x0;
+  return pIVar2;
 }
 
 
 // ApplicationManagers.ResourceManager$$InstantiateAsset<object>
-// il2cpp: Il2CppObject* ApplicationManagers_ResourceManager__InstantiateAsset_object_ (System_String_o* path, System_String_o* name, UnityEngine_Vector3_o position, UnityEngine_Quaternion_o rotation, bool cached, const MethodInfo_25BC9B0* method);
-// 0x26bc9b0
+// il2cpp: Il2CppObject* ApplicationManagers_ResourceManager__InstantiateAsset_object_ (System_String_o* path, System_String_o* name, UnityEngine_Vector3_o position, UnityEngine_Quaternion_o rotation, bool cached, const MethodInfo_795DF0* method);
+// 0x180795df0
 
 Il2CppObject *
-ApplicationManagers_ResourceManager__InstantiateAsset_object__25bc9b0
-          (System_String_o *path,System_String_o *name,UnityEngine_Vector3_o position,
-          UnityEngine_Quaternion_o rotation,bool_conflict cached,MethodInfo_25BC9B0 *method)
+ApplicationManagers_ResourceManager__InstantiateAsset_object__795df0
+          (System_String_o *path,System_String_o *name,UnityEngine_Vector3_o *position,
+          UnityEngine_Quaternion_o *rotation,bool cached,MethodInfo_795DF0 *method)
 
 {
-  int iVar1;
-  UnityEngine_Object_o *pUVar2;
-  Il2CppClass *pIVar3;
-  Il2CppObject *pIVar4;
+  UnityEngine_Object_o *pUVar1;
+  Il2CppClass *klass;
+  Il2CppObject *pIVar2;
+  UnityEngine_Vector3_Fields local_48;
+  UnityEngine_Quaternion_Fields local_38;
   
-  if (method->rgctx_data == (MethodInfo_25BC9B0_RGCTXs *)0x0) {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    if (method->rgctx_data == (MethodInfo_25BC9B0_RGCTXs *)0x0) {
-      il2cpp_runtime_helper_02300a20(method);
-      iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-      goto joined_r0x026bca16;
+  if (method->rgctx_data == (MethodInfo_795DF0_RGCTXs *)0x0) {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    if (method->rgctx_data == (MethodInfo_795DF0_RGCTXs *)0x0) {
+      il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
     }
   }
-  iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-joined_r0x026bca16:
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pUVar2 = ApplicationManagers_ResourceManager__LoadAsset(path,name,cached & 0xff,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar1 = ApplicationManagers_ResourceManager__LoadAsset(path,name,cached,(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pUVar2 = UnityEngine_Object__Instantiate(pUVar2,position,rotation,(MethodInfo *)0x0);
-  pIVar3 = method->rgctx_data->_0_T;
-  if (((pIVar3->_2).field_0x6d & 1) == 0) {
-    pIVar3 = (Il2CppClass *)il2cpp_runtime_helper_023009c0(pIVar3);
+  local_38.x = (rotation->fields).x;
+  local_38.y = (rotation->fields).y;
+  local_38.z = (rotation->fields).z;
+  local_38.w = (rotation->fields).w;
+  local_48.z = (position->fields).z;
+  local_48.x = (position->fields).x;
+  local_48.y = (position->fields).y;
+  pUVar1 = UnityEngine_Object__Instantiate
+                     (pUVar1,(UnityEngine_Vector3_o *)&local_48,(UnityEngine_Quaternion_o *)&local_38,
+                      (MethodInfo *)0x0);
+  klass = method->rgctx_data->_0_T;
+  if (((klass->_2).bitflags1 & 1) == 0) {
+    klass = il2cpp_codegen_class_init_checked(klass);
   }
-  if (pUVar2 != (UnityEngine_Object_o *)0x0) {
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023051f0(pUVar2,pIVar3);
-    if (pIVar4 != (Il2CppObject *)0x0) {
-      return pIVar4;
+  if (pUVar1 == (UnityEngine_Object_o *)0x0) {
+    pIVar2 = (Il2CppObject *)0x0;
+  }
+  else {
+    pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pUVar1,klass);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar1,klass);
     }
-    il2cpp_runtime_helper_022b2fd0(pUVar2,pIVar3);
   }
-  return (Il2CppObject *)0x0;
+  return pIVar2;
 }
 
 
 // ApplicationManagers.ResourceManager$$GetExternalTexture
 // il2cpp: UnityEngine_Texture2D_o* ApplicationManagers_ResourceManager__GetExternalTexture (System_String_o* key, const MethodInfo* method);
-// 0x44bedc0
+// 0x182355ae0
 
 UnityEngine_Texture2D_o *
 ApplicationManagers_ResourceManager__GetExternalTexture(System_String_o *key,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_HashSet_object__o *pSVar3;
-  bool_conflict bVar4;
-  UnityEngine_Texture2D_o *extraout_RAX;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  UnityEngine_Texture2D_o *pUVar5;
-  System_Byte_array *data;
-  undefined8 *puVar6;
-  MethodInfo *pMVar7;
-  char extraout_DL;
-  uint extraout_EDX;
-  MethodInfo *pMVar8;
-  Il2CppObject *key_00;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  bool bVar1;
+  UnityEngine_Texture2D_o *pUVar2;
   
-  if (g_data_057aea84 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea84 = '\x01';
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
+  if (Il2CppMethodInitialized_1843479b9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479b9 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    method = (MethodInfo *)key;
-    bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar2,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar4 == '\0') {
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    if (!bVar1) {
       return (UnityEngine_Texture2D_o *)0x0;
     }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
     }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pUVar5 = (UnityEngine_Texture2D_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar2,(Il2CppObject *)key,MethodInfo_Texture2D_get_Item);
-      return pUVar5;
-    }
-  }
-  key_00 = (Il2CppObject *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  pMVar8 = method;
-  if (g_data_057aea85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea85 = '\x01';
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item
-              (pSVar2,key_00,(Il2CppObject *)method,MethodInfo_Void_set_Item);
-    if (extraout_DL == '\0') {
-      return extraout_RAX;
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar4 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)method,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar4 == '\0') {
-      return (UnityEngine_Texture2D_o *)CONCAT44(extraout_var,bVar4);
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pMVar8 = (MethodInfo *)0x0;
-    UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)method,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar3 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-    if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-      bVar4 = System_Collections_Generic_HashSet_object___Add(pSVar3,key_00,MethodInfo_Boolean_Add);
-      return (UnityEngine_Texture2D_o *)CONCAT44(extraout_var_00,bVar4);
+    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
+                TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      pUVar2 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         (__this_00,(Il2CppObject *)key,
+                          (MethodInfo_147A5B0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
+      return pUVar2;
     }
   }
-  pMVar7 = (MethodInfo *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea86 = '\x01';
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    pMVar8 = pMVar7;
-    bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar2,(Il2CppObject *)pMVar7,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar4 == '\0') {
-      return (UnityEngine_Texture2D_o *)CONCAT44(extraout_var_01,bVar4);
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pMVar8 = pMVar7;
-      System_Collections_Generic_Dictionary_object__object___Remove
-                (pSVar2,(Il2CppObject *)pMVar7,MethodInfo_Boolean_Remove);
-      pSVar3 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        bVar4 = System_Collections_Generic_HashSet_object___Remove(pSVar3,(Il2CppObject *)pMVar7,MethodInfo_Boolean_Remove)
-        ;
-        return (UnityEngine_Texture2D_o *)CONCAT44(extraout_var_02,bVar4);
-      }
-    }
-  }
-  pMVar7 = (MethodInfo *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-    g_data_057aea87 = '\x01';
-  }
-  bVar4 = System_String__IsNullOrEmpty((System_String_o *)pMVar8,(MethodInfo *)0x0);
-  if ((char)bVar4 != '\0') {
-    pMVar8 = pMVar7;
-  }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar2,(Il2CppObject *)pMVar8,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar4 == '\0') {
-      bVar4 = System_IO_File__Exists((System_String_o *)pMVar7,(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        data = System_IO_File__ReadAllBytes((System_String_o *)pMVar7,(MethodInfo *)0x0);
-        pUVar5 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-        pMVar7 = (MethodInfo *)&g_data_00000004;
-        UnityEngine_Texture2D___ctor_4dd9130(pUVar5,2,2,4,0,(MethodInfo *)0x0);
-        bVar4 = UnityEngine_ImageConversion__LoadImage_4e3d4f0(pUVar5,data,(MethodInfo *)0x0);
-        if ((char)bVar4 != '\0') {
-          if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          ApplicationManagers_ResourceManager__SetExternalTexture
-                    ((System_String_o *)pMVar8,pUVar5,extraout_EDX & 0xff,pMVar7);
-          return pUVar5;
-        }
-      }
-      return (UnityEngine_Texture2D_o *)0x0;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pUVar5 = (UnityEngine_Texture2D_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar2,(Il2CppObject *)pMVar8,MethodInfo_Texture2D_get_Item);
-      return pUVar5;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  puVar6 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar6 = (System_String_c *)pMVar8->methodPointer;
-  __cxa_throw(puVar6,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$SetExternalTexture
 // il2cpp: void ApplicationManagers_ResourceManager__SetExternalTexture (System_String_o* key, UnityEngine_Texture2D_o* texture, bool persistent, const MethodInfo* method);
-// 0x44beeb0
+// 0x1823564a0
 
 void ApplicationManagers_ResourceManager__SetExternalTexture
-               (System_String_o *key,UnityEngine_Texture2D_o *texture,bool_conflict persistent,
-               MethodInfo *method)
+               (System_String_o *key,UnityEngine_Texture2D_o *texture,bool persistent,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_HashSet_object__o *pSVar3;
-  bool_conflict bVar4;
-  System_Byte_array *data;
-  UnityEngine_Texture2D_o *__this;
-  undefined8 *puVar5;
-  MethodInfo *method_00;
-  uint extraout_EDX;
-  System_String_o *pSVar6;
-  System_String_o *pSVar7;
+  System_Collections_Generic_Dictionary_object__object__o *__this;
+  System_Collections_Generic_HashSet_object__o *__this_00;
+  bool bVar1;
   
-  pSVar6 = (System_String_o *)texture;
-  if (g_data_057aea85 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea85 = '\x01';
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) goto label_044bef3a;
-label_044beedb:
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
+  if (Il2CppMethodInitialized_1843479ba == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479ba = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) != 0) goto label_044beedb;
-label_044bef3a:
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-label_044bf004:
-    pSVar7 = (System_String_o *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aea86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-      g_data_057aea86 = '\x01';
-      iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-    }
-    else {
-      iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-    }
-    else {
-      pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-    }
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pSVar6 = pSVar7;
-      bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar2,(Il2CppObject *)pSVar7,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar4 == '\0') {
-        return;
+  __this = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__object___set_Item
+              (__this,(Il2CppObject *)key,(Il2CppObject *)texture,
+               (MethodInfo_147A7F0 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_set_Item);
+    if (persistent) {
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-      if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        pSVar6 = pSVar7;
-        System_Collections_Generic_Dictionary_object__object___Remove
-                  (pSVar2,(Il2CppObject *)pSVar7,MethodInfo_Boolean_Remove);
-        pSVar3 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-        if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-          System_Collections_Generic_HashSet_object___Remove(pSVar3,(Il2CppObject *)pSVar7,MethodInfo_Boolean_Remove);
-          return;
+      bVar1 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)texture,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-      }
-    }
-    pSVar7 = (System_String_o *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aea87 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-      g_data_057aea87 = '\x01';
-    }
-    bVar4 = System_String__IsNullOrEmpty(pSVar6,(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      pSVar6 = pSVar7;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      bVar4 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        (pSVar2,(Il2CppObject *)pSVar6,MethodInfo_Boolean_ContainsKey);
-      if ((char)bVar4 == '\0') {
-        bVar4 = System_IO_File__Exists(pSVar7,(MethodInfo *)0x0);
-        if ((char)bVar4 != '\0') {
-          data = System_IO_File__ReadAllBytes(pSVar7,(MethodInfo *)0x0);
-          __this = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-          method_00 = (MethodInfo *)&g_data_00000004;
-          UnityEngine_Texture2D___ctor_4dd9130(__this,2,2,4,0,(MethodInfo *)0x0);
-          bVar4 = UnityEngine_ImageConversion__LoadImage_4e3d4f0(__this,data,(MethodInfo *)0x0);
-          if ((char)bVar4 != '\0') {
-            if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            ApplicationManagers_ResourceManager__SetExternalTexture
-                      (pSVar6,__this,extraout_EDX & 0xff,method_00);
-          }
+        UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)texture,(MethodInfo *)0x0);
+        if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
         }
-        return;
-      }
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-      if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        System_Collections_Generic_Dictionary_object__object___get_Item
-                  (pSVar2,(Il2CppObject *)pSVar6,MethodInfo_Texture2D_get_Item);
-        return;
+        __this_00 = (System_Collections_Generic_HashSet_object__o *)
+                    TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+        if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_1823565da;
+        System_Collections_Generic_HashSet_object___Add
+                  (__this_00,(Il2CppObject *)key,
+                   (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
       }
     }
-    il2cpp_runtime_helper_022b2c90();
-    puVar5 = (undefined8 *)__cxa_allocate_exception(8);
-    *puVar5 = pSVar6->klass;
-    __cxa_throw(puVar5,&PTR_PTR_05215060,0);
+    return;
   }
-  System_Collections_Generic_Dictionary_object__object___set_Item
-            (pSVar2,(Il2CppObject *)key,(Il2CppObject *)texture,MethodInfo_Void_set_Item);
-  if ((char)persistent != '\0') {
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar4 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)texture,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar6 = (System_String_o *)0x0;
-      UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)texture,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar3 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar3 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)key,MethodInfo_Boolean_Add);
-        return;
-      }
-      goto label_044bf004;
-    }
-  }
-  return;
+label_1823565da:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$RemoveExternalTexture
 // il2cpp: void ApplicationManagers_ResourceManager__RemoveExternalTexture (System_String_o* key, const MethodInfo* method);
-// 0x44bf010
+// 0x182356390
 
 void ApplicationManagers_ResourceManager__RemoveExternalTexture(System_String_o *key,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_HashSet_object__o *__this;
-  bool_conflict bVar3;
-  System_Byte_array *data;
-  UnityEngine_Texture2D_o *__this_00;
-  undefined8 *puVar4;
-  MethodInfo *pMVar5;
-  uint extraout_EDX;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  System_Collections_Generic_HashSet_object__o *__this_01;
+  bool bVar1;
   
-  if (g_data_057aea86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea86 = '\x01';
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
+  if (Il2CppMethodInitialized_1843479bb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Remove);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Remove);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479bb = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_ResourceManager + 0xe4);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  else {
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-  }
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    method = (MethodInfo *)key;
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar2,(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar3 == '\0') {
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    if (!bVar1) {
       return;
     }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
     }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      method = (MethodInfo *)key;
-      System_Collections_Generic_Dictionary_object__object___Remove(pSVar2,(Il2CppObject *)key,MethodInfo_Boolean_Remove);
-      __this = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        System_Collections_Generic_HashSet_object___Remove(__this,(Il2CppObject *)key,MethodInfo_Boolean_Remove);
+    __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
+                TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+      System_Collections_Generic_Dictionary_object__object___Remove
+                (__this_00,(Il2CppObject *)key,
+                 (MethodInfo_1470BF0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Remove);
+      __this_01 = (System_Collections_Generic_HashSet_object__o *)
+                  TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+      if (__this_01 != (System_Collections_Generic_HashSet_object__o *)0x0) {
+        System_Collections_Generic_HashSet_object___Remove
+                  (__this_01,(Il2CppObject *)key,
+                   (MethodInfo_1766930 *)MethodInfo_System_Collections_Generic_HashSet_string_Remove);
         return;
       }
     }
   }
-  pMVar5 = (MethodInfo *)0x0;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-    g_data_057aea87 = '\x01';
-  }
-  bVar3 = System_String__IsNullOrEmpty((System_String_o *)method,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    method = pMVar5;
-  }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar2,(Il2CppObject *)method,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar3 == '\0') {
-      bVar3 = System_IO_File__Exists((System_String_o *)pMVar5,(MethodInfo *)0x0);
-      if ((char)bVar3 != '\0') {
-        data = System_IO_File__ReadAllBytes((System_String_o *)pMVar5,(MethodInfo *)0x0);
-        __this_00 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-        pMVar5 = (MethodInfo *)&g_data_00000004;
-        UnityEngine_Texture2D___ctor_4dd9130(__this_00,2,2,4,0,(MethodInfo *)0x0);
-        bVar3 = UnityEngine_ImageConversion__LoadImage_4e3d4f0(__this_00,data,(MethodInfo *)0x0);
-        if ((char)bVar3 != '\0') {
-          if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          ApplicationManagers_ResourceManager__SetExternalTexture
-                    ((System_String_o *)method,__this_00,extraout_EDX & 0xff,pMVar5);
-        }
-      }
-      return;
-    }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar2 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      System_Collections_Generic_Dictionary_object__object___get_Item
-                (pSVar2,(Il2CppObject *)method,MethodInfo_Texture2D_get_Item);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  puVar4 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar4 = (System_String_c *)method->methodPointer;
-  __cxa_throw(puVar4,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$LoadExternalTexture
 // il2cpp: UnityEngine_Texture2D_o* ApplicationManagers_ResourceManager__LoadExternalTexture (System_String_o* filePath, System_String_o* cacheKey, bool persistent, const MethodInfo* method);
-// 0x44bf140
+// 0x182355f80
+// eh: try 0x182356035..0x1823562c1 -> pad 0x1833157d0 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 58 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823561c4: nop 
+// asm:   0x1823561d7: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x1823561dc: test rcx, rcx
+// asm:   0x1823561df: je 0x1823562af
+// asm:   0x1823561e5: mov rax, qword ptr [rcx]
+// asm:   0x1823561e8: mov rdx, qword ptr [rax + 0x190]
+// asm:   0x1823561ef: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x1823561f5: mov rdi, rax
+// asm:   0x1823561f8: lea rcx, [rip + 0x1d73bf9]  ; ", "
+// asm:   0x1823561ff: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182356204: mov rbx, rax
+// asm:   0x182356207: lea rcx, [rip + 0x1d8eba2]  ; "Failed to load external texture: "
+// asm:   0x18235620e: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182356213: mov rcx, rax
+// asm:   0x182356216: mov qword ptr [rsp + 0x20], 0
+// asm:   0x18235621f: mov r9, rdi
+// asm:   0x182356222: mov r8, rbx
+// asm:   0x182356225: mov rdx, qword ptr [rsp + 0x80]
+// asm:   0x18235622d: call 0x181969590  ; System_String__Concat()
+// asm:   0x182356232: mov rbx, rax
+// asm:   0x182356235: lea rcx, [rip + 0x1da51fc]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x18235623c: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182356241: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x182356248: jne 0x182356252
+// asm:   0x18235624a: mov rcx, rax
+// asm:   0x18235624d: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x182356252: xor edx, edx
+// asm:   0x182356254: mov rcx, rbx
+// asm:   0x182356257: call 0x182ec3a40  ; UnityEngine_Debug__LogWarning()
+// asm:   0x1833157d0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833157d5: push rbx
+// asm:   0x1833157d6: push rbp
+// asm:   0x1833157d7: push rdi
+// asm:   0x1833157d8: sub rsp, 0x30
+// asm:   0x1833157dc: mov rbp, rdx
+// asm:   0x1833157df: mov rdi, qword ptr [rbp + 0x38]
+// asm:   0x1833157e3: mov rax, qword ptr [rdi]
+// asm:   0x1833157e6: mov rbx, qword ptr [rax]
+// asm:   0x1833157e9: lea rcx, [rip + 0xd63768]  ; TypeInfo_System_Exception
+// asm:   0x1833157f0: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1833157f5: mov rcx, rax
+// asm:   0x1833157f8: mov rdx, rbx
+// asm:   0x1833157fb: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183315800: test al, al
+// asm:   0x183315802: mov rax, qword ptr [rdi]
+// asm:   0x183315805: je 0x183315817
+// asm:   0x183315807: mov qword ptr [rbp + 0x40], rax
+// asm:   0x18331580b: movabs rax, 0
+// asm:   0x183315815: jmp 0x18331582c
+// asm:   0x183315817: mov qword ptr [rbp + 0x30], rax
+// asm:   0x18331581b: lea rdx, [rip + 0xcc6766]
+// asm:   0x183315822: lea rcx, [rbp + 0x30]
+// asm:   0x183315826: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x18331582c: add rsp, 0x30
+// asm:   0x183315830: pop rdi
+// asm:   0x183315831: pop rbp
+// asm:   0x183315832: pop rbx
+// asm:   0x183315833: ret 
 
 UnityEngine_Texture2D_o *
 ApplicationManagers_ResourceManager__LoadExternalTexture
-          (System_String_o *filePath,System_String_o *cacheKey,bool_conflict persistent,MethodInfo *method)
+          (System_String_o *filePath,System_String_o *cacheKey,bool persistent,MethodInfo *method)
 
 {
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
   System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  bool_conflict bVar2;
-  UnityEngine_Texture2D_o *pUVar3;
+  System_Collections_Generic_HashSet_object__o *__this_00;
+  bool bVar2;
   System_Byte_array *data;
-  undefined8 *puVar4;
-  MethodInfo *method_00;
+  UnityEngine_Texture2D_o *pUVar3;
+  System_String_o *key;
   
-  if (g_data_057aea87 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-    g_data_057aea87 = '\x01';
+  if (Il2CppMethodInitialized_1843479bc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Texture2D);
+    Il2CppMethodInitialized_1843479bc = '\x01';
   }
   bVar2 = System_String__IsNullOrEmpty(cacheKey,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    cacheKey = filePath;
+  key = filePath;
+  if (!bVar2) {
+    key = cacheKey;
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar2 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (pSVar1,(Il2CppObject *)cacheKey,MethodInfo_Boolean_ContainsKey);
-    if ((char)bVar2 == '\0') {
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ContainsKey);
+    if (!bVar2) {
       bVar2 = System_IO_File__Exists(filePath,(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
+      if (bVar2) {
         data = System_IO_File__ReadAllBytes(filePath,(MethodInfo *)0x0);
-        pUVar3 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-        method_00 = (MethodInfo *)&g_data_00000004;
-        UnityEngine_Texture2D___ctor_4dd9130(pUVar3,2,2,4,0,(MethodInfo *)0x0);
-        bVar2 = UnityEngine_ImageConversion__LoadImage_4e3d4f0(pUVar3,data,(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
+        pUVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Texture2D);
+        UnityEngine_Texture2D___ctor_2efc630(pUVar3,2,2,4,false,(MethodInfo *)0x0);
+        bVar2 = UnityEngine_ImageConversion__LoadImage_2f83110(pUVar3,data,(MethodInfo *)0x0);
+        if (bVar2) {
+          if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
           }
-          ApplicationManagers_ResourceManager__SetExternalTexture(cacheKey,pUVar3,persistent & 0xff,method_00)
-          ;
-          return pUVar3;
+          if (Il2CppMethodInitialized_1843479ba == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_set_Item);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+            Il2CppMethodInitialized_1843479ba = '\x01';
+          }
+          if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+          }
+          pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+                   TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+          if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+            System_Collections_Generic_Dictionary_object__object___set_Item
+                      (pSVar1,(Il2CppObject *)key,(Il2CppObject *)pUVar3,
+                       (MethodInfo_147A7F0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_set_Item);
+            if (persistent) {
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+              }
+              bVar2 = UnityEngine_Object__op_Inequality
+                                ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0)
+              ;
+              if (bVar2) {
+                if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                }
+                UnityEngine_Object__DontDestroyOnLoad((UnityEngine_Object_o *)pUVar3,(MethodInfo *)0x0);
+                if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init
+                            ((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+                }
+                __this_00 = (System_Collections_Generic_HashSet_object__o *)
+                            TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+                if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                System_Collections_Generic_HashSet_object___Add
+                          (__this_00,(Il2CppObject *)key,
+                           (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+              }
+            }
+            return pUVar3;
+          }
+          ThrowNullReferenceException();
         }
       }
       return (UnityEngine_Texture2D_o *)0x0;
     }
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
     }
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
+    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
+             TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
     if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      pUVar3 = (UnityEngine_Texture2D_o *)
-               System_Collections_Generic_Dictionary_object__object___get_Item
-                         (pSVar1,(Il2CppObject *)cacheKey,MethodInfo_Texture2D_get_Item);
+      pUVar3 = System_Collections_Generic_Dictionary_object__object___get_Item
+                         (pSVar1,(Il2CppObject *)key,
+                          (MethodInfo_147A5B0 *)
+                          MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Item);
       return pUVar3;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  puVar4 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar4 = cacheKey->klass;
-  __cxa_throw(puVar4,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$ClearExternalTextureCache
 // il2cpp: void ApplicationManagers_ResourceManager__ClearExternalTextureCache (const MethodInfo* method);
-// 0x44bf400
+// 0x182355470
+// eh: try 0x182355590..0x1823555f1 -> pad 0x183315930 catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182355602: mov rdx, qword ptr [rip + 0x1d699b7]  ; MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_Dispose
+// asm:   0x182355609: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x18235560e: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182355613: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x182355618: test rcx, rcx
+// asm:   0x18235561b: jne 0x18235568c
+// asm:   0x18235568c: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 void ApplicationManagers_ResourceManager__ClearExternalTextureCache(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  System_Collections_Generic_HashSet_object__o *__this;
-  long lVar2;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o __this_00;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o __this_01;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o __this_02;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o __this_03;
-  bool_conflict bVar3;
-  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_04;
-  long *plVar4;
-  undefined1 auVar5 [12];
-  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar6;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__c *pSVar7;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *pSVar1;
+  System_Collections_Generic_HashSet_BallotBox_Ballot__o *__this;
   UnityEngine_Object_o *x;
-  UnityEngine_Object_o *pUVar8;
+  bool bVar2;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_00;
   undefined1 local_40 [16];
   UnityEngine_Object_o *local_30;
+  undefined1 local_28 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_20;
+  UnityEngine_Object_o *local_18;
   
-  if (g_data_057aea88 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_ValueCollection_System_String_U);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enu);
-    g_data_057aea88 = '\x01';
+  if (Il2CppMethodInitialized_1843479bd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Values);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_Dispose
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_MoveNext
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_get_Current
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_Texture2D_GetEnumerator
+              );
+    Il2CppMethodInitialized_1843479bd = '\x01';
   }
-  pSVar6 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  pSVar7 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__c *)0x0;
-  x = (UnityEngine_Object_o *)0x0;
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_28 = (undefined1  [8])0x0;
+  pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_18 = (UnityEngine_Object_o *)0x0;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar1 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044bf5ec;
-  __this_04 = System_Collections_Generic_Dictionary_object__object___get_Values(pSVar1,MethodInfo_Dictionary_2_TKey_TValue_ValueCollection_System_String_U);
-  if (__this_04 == (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0)
-  goto label_044bf5ec;
-  System_Collections_Generic_Dictionary_ValueCollection_object__object___GetEnumerator
-            ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_40,
-             __this_04,MethodInfo_Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enu);
-  pSVar6 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_40._0_8_;
-  pSVar7 = (System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__c *)local_40._8_8_;
-  while (x = local_30, __this_00.fields._8_8_ = pSVar7, __this_00.fields._dictionary = pSVar6,
-        __this_00.fields._currentValue = (Il2CppObject *)x,
-        bVar3 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___MoveNext
-                          (__this_00,(MethodInfo_3251CB0 *)&stack0xffffffffffffffa8), (char)bVar3 != '\0') {
-    pUVar8 = x;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    local_30 = pUVar8;
-    if ((char)bVar3 != '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+  pSVar1 = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (pSVar1 != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    __this_00 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
+                System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values
+                          ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+                           (MethodInfo_13C65A0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Values);
+    if (__this_00 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+      System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+                ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)local_40,
+                 __this_00,
+                 (MethodInfo_F1E4D0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_string_Texture2D_GetEnumerator
+                );
+      local_28 = (undefined1  [8])local_40._0_8_;
+      pUStack_20 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_40._8_8_;
+      local_18 = local_30;
+      local_40._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_40._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28;
+      while( true ) {
+        bVar2 = System_Collections_Generic_Dictionary_ValueCollection_Enumerator_PhotonNetwork_RaiseEventBatch__object___MoveNext
+                          ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *
+                           )local_28,
+                           (MethodInfo_155CFB0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_MoveNext
+                          );
+        x = local_18;
+        if (!bVar2) break;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar2) {
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          UnityEngine_Object__DestroyImmediate_2f1fb90(x,(MethodInfo *)0x0);
+        }
       }
-      UnityEngine_Object__DestroyImmediate_4e01e00(x,(MethodInfo *)0x0);
-      local_30 = pUVar8;
-    }
-  }
-  __this_01.fields._8_8_ = pSVar7;
-  __this_01.fields._dictionary = pSVar6;
-  __this_01.fields._currentValue = (Il2CppObject *)x;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-            (__this_01,(MethodInfo_3251CA0 *)&stack0xffffffffffffffa8);
-  do {
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar1 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8)
-    ;
-    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      System_Collections_Generic_Dictionary_object__object___Clear(pSVar1,MethodInfo_Void_Clear);
-      __this = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-        System_Collections_Generic_HashSet_object___Clear(__this,MethodInfo_Void_Clear);
-        return;
+      System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_28,
+                 MethodInfo_System_Collections_Generic_Dictionary_ValueCollection_Enumerator_string_Texture2D_Dispose
+                );
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+      }
+      pSVar1 = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+      if (pSVar1 != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+        System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+                  ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+                   (MethodInfo_13BF1C0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Clear);
+        __this = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)
+                 TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+        if (__this != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
+          System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+                    (__this,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_string_Clear);
+          return;
+        }
       }
     }
-label_044bf5ec:
-    auVar5 = il2cpp_runtime_helper_022b2c90();
-    if (auVar5._8_4_ != 1) goto label_044bf64a;
-    plVar4 = (long *)__cxa_begin_catch(auVar5._0_8_);
-    lVar2 = *plVar4;
-    __cxa_end_catch();
-    __this_02.fields._8_8_ = pSVar7;
-    __this_02.fields._dictionary = pSVar6;
-    __this_02.fields._currentValue = (Il2CppObject *)x;
-    System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-              (__this_02,(MethodInfo_3251CA0 *)&stack0xffffffffffffffa8);
-  } while (lVar2 == 0);
-  il2cpp_runtime_helper_022fefe0(lVar2);
-label_044bf64a:
-  __this_03.fields._8_8_ = pSVar7;
-  __this_03.fields._dictionary = pSVar6;
-  __this_03.fields._currentValue = (Il2CppObject *)x;
-  System_Collections_Generic_Dictionary_ValueCollection_Enumerator_object__object___Dispose
-            (__this_03,(MethodInfo_3251CA0 *)&stack0xffffffffffffffa8);
-  _Unwind_Resume(auVar5._0_8_);
+  }
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$ClearNonPersistentTextures
 // il2cpp: void ApplicationManagers_ResourceManager__ClearNonPersistentTextures (const MethodInfo* method);
-// 0x44bf680
+// 0x1823556a0
+// eh: try 0x182355850..0x182355a4b -> pad 0x183320de0 (+3 call sites) catch Il2CppExceptionWrapper
+// asm: 39 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18235584e: nop 
+// asm:   0x18235592f: mov rdx, qword ptr [rip + 0x1d693ea]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_Dispose
+// asm:   0x182355936: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x18235593b: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182355940: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x182355945: test rcx, rcx
+// asm:   0x182355948: jne 0x182355a3f
+// asm:   0x18235594e: mov rdi, qword ptr [rsp + 0xd8]
+// asm:   0x18235599c: nop dword ptr [rax]
+// asm:   0x182355a0b: mov rdx, qword ptr [rip + 0x1d41f06]  ; MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose
+// asm:   0x182355a12: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x182355a17: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182355a1c: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x182355a21: test rcx, rcx
+// asm:   0x182355a24: jne 0x182355a4b
+// asm:   0x182355a3f: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x182355a4b: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183320de0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183320de5: push rbp
+// asm:   0x183320de6: sub rsp, 0x20
+// asm:   0x183320dea: mov rbp, rdx
+// asm:   0x183320ded: mov rax, qword ptr [rbp + 0x88]
+// asm:   0x183320df4: mov rcx, qword ptr [rax]
+// asm:   0x183320df7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x183320dfb: movabs rax, 0
+// asm:   0x183320e05: add rsp, 0x20
+// asm:   0x183320e09: pop rbp
+// asm:   0x183320e0a: ret 
+// asm:   0x183324460: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183324465: push rbp
+// asm:   0x183324466: sub rsp, 0x20
+// asm:   0x18332446a: mov rbp, rdx
+// asm:   0x18332446d: mov rax, qword ptr [rbp + 0x90]
+// asm:   0x183324474: mov rcx, qword ptr [rax]
+// asm:   0x183324477: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x18332447b: movabs rax, 0
+// asm:   0x183324485: add rsp, 0x20
+// asm:   0x183324489: pop rbp
+// asm:   0x18332448a: ret 
 
 void ApplicationManagers_ResourceManager__ClearNonPersistentTextures(MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  uint uVar2;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
-  System_Collections_Generic_HashSet_object__o *pSVar4;
-  System_Object_array *pSVar5;
-  long lVar6;
-  System_Collections_Generic_List_Enumerator_object__o __this;
-  System_Collections_Generic_List_Enumerator_object__o __this_00;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_03;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_04;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_05;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_06;
-  bool_conflict bVar7;
-  System_Collections_Generic_List_object__o *__this_07;
-  long *plVar8;
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [12];
-  System_Collections_Generic_List_T__o *pSVar11;
-  Il2CppMethodPointer pIVar12;
-  Il2CppObject *pIVar13;
-  Il2CppObject *pIVar14;
-  char *in_stack_ffffffffffffff70;
-  System_Collections_Generic_List_Enumerator_T__c *pSVar15;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o local_58;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
+  System_Collections_Generic_HashSet_object__o *__this_00;
+  System_Collections_Generic_Dictionary_object__object__o *__this_01;
+  Il2CppObject *pIVar1;
+  UnityEngine_Object_o *x;
+  bool bVar2;
+  System_Collections_Generic_List_string__o *__this_02;
+  undefined1 local_a8 [16];
+  Il2CppObject *local_98;
+  UnityEngine_Object_o *pUStack_90;
+  int32_t local_88;
+  undefined4 uStack_84;
+  undefined1 local_80 [8];
+  uint64_t uStack_78;
+  Il2CppObject *local_70;
+  undefined1 local_68 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_60;
+  Il2CppObject *local_58;
+  UnityEngine_Object_o *pUStack_50;
+  undefined8 local_48;
   
-  if (g_data_057aea89 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_UnityE);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Remove);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_UnityEngine_Texture2D_get_C);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Contains);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Texture2D_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_System_String_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea89 = '\x01';
+  if (Il2CppMethodInitialized_1843479be == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Remove);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_string_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_string_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Contains)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_KeyValuePair_string_Texture2D_get_Key);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_KeyValuePair_string_Texture2D_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_string_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479be = '\x01';
   }
-  pSVar15 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pSVar11 = (System_Collections_Generic_List_T__o *)0x0;
-  pIVar12 = (Il2CppMethodPointer)0x0;
-  pIVar13 = (Il2CppObject *)0x0;
-  __this_07 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(__this_07,MethodInfo_List_1_System_String);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_68 = (undefined1  [8])0x0;
+  pUStack_60 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_58 = (Il2CppObject *)0x0;
+  pUStack_50 = (UnityEngine_Object_o *)0x0;
+  local_48._0_4_ = 0;
+  local_48._4_4_ = 0;
+  local_80 = (undefined1  [8])0x0;
+  uStack_78 = 0;
+  local_70 = (Il2CppObject *)0x0;
+  __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-  if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044bfad8;
-  System_Collections_Generic_Dictionary_object__object___GetEnumerator(&local_58,pSVar3,MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_UnityE);
-  pSVar15 = (System_Collections_Generic_List_Enumerator_T__c *)local_58.fields._dictionary;
-  if (__this_07 == (System_Collections_Generic_List_object__o *)0x0) {
-    do {
-      __this_03.fields._8_8_ = pIVar12;
-      __this_03.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-      __this_03.fields._current.fields.key = pIVar13;
-      __this_03.fields._current.fields.value = (Il2CppObject *)in_stack_ffffffffffffff70;
-      __this_03.fields._32_8_ = pSVar15;
-      bVar7 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                        (__this_03,(MethodInfo_3251160 *)&stack0xffffffffffffff78);
-      if ((char)bVar7 == '\0') goto label_044bfa14;
-      auVar9 = il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xffffffffffffff78,MethodInfo_KeyValuePair_2_System_String_UnityEngine_Texture2D_get_C);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    System_Collections_Generic_Dictionary_PhotonNetwork_RaiseEventBatch__object___GetEnumerator
+              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_a8,
+               (System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+               (MethodInfo_13C1150 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_GetEnumerator);
+    local_68 = (undefined1  [8])local_a8._0_8_;
+    pUStack_60 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a8._8_8_;
+    local_58 = local_98;
+    pUStack_50 = pUStack_90;
+    local_48._0_4_ = local_88;
+    local_48._4_4_ = uStack_84;
+    local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+    local_a8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_68;
+    while( true ) {
+      bVar2 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
+                        ((System_Collections_Generic_Dictionary_Enumerator_object__object__o *)local_68,
+                         (MethodInfo_1585360 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_MoveNext
+                        );
+      x = pUStack_50;
+      pIVar1 = local_58;
+      if (!bVar2) break;
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
       }
-      pSVar4 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_044bface;
-      bVar7 = System_Collections_Generic_HashSet_object___Contains(pSVar4,auVar9._0_8_,MethodInfo_Boolean_Contains);
-    } while ((char)bVar7 != '\0');
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar7 = UnityEngine_Object__op_Inequality(auVar9._8_8_,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar7 != '\0') {
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      __this_00 = (System_Collections_Generic_HashSet_object__o *)
+                  TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+      if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+        ThrowNullReferenceException();
       }
-      UnityEngine_Object__DestroyImmediate_4e01e00(auVar9._8_8_,(MethodInfo *)0x0);
-    }
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    while (__this_02.fields._8_8_ = pIVar12,
-          __this_02.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11,
-          __this_02.fields._current.fields.key = pIVar13,
-          __this_02.fields._current.fields.value = (Il2CppObject *)in_stack_ffffffffffffff70,
-          __this_02.fields._32_8_ = pSVar15,
-          bVar7 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                            (__this_02,(MethodInfo_3251160 *)&stack0xffffffffffffff78), (char)bVar7 != '\0') {
-      auVar9 = il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&stack0xffffffffffffff78,MethodInfo_KeyValuePair_2_System_String_UnityEngine_Texture2D_get_C);
-      pIVar14 = auVar9._0_8_;
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar4 = *(System_Collections_Generic_HashSet_object__o **)(*(long *)(TypeInfo_ResourceManager + 0xb8) + 0x10);
-      if (pSVar4 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_044bface;
-      bVar7 = System_Collections_Generic_HashSet_object___Contains(pSVar4,pIVar14,MethodInfo_Boolean_Contains);
-      if ((char)bVar7 == '\0') {
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+      bVar2 = System_Collections_Generic_HashSet_object___Contains
+                        (__this_00,pIVar1,
+                         (MethodInfo_1759E40 *)MethodInfo_System_Collections_Generic_HashSet_string_Contains);
+      if (!bVar2) {
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        bVar7 = UnityEngine_Object__op_Inequality(auVar9._8_8_,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar7 != '\0') {
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
+        bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar2) {
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
           }
-          UnityEngine_Object__DestroyImmediate_4e01e00(auVar9._8_8_,(MethodInfo *)0x0);
+          UnityEngine_Object__DestroyImmediate_2f1fb90(x,(MethodInfo *)0x0);
         }
-        lVar6 = MethodInfo_Void_Add;
-        piVar1 = &(__this_07->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_07->fields)._items;
-        if (pSVar5 == (System_Object_array *)0x0) {
-          do {
-            il2cpp_runtime_helper_022b2c90();
-label_044bfad8:
-            do {
-              auVar10 = il2cpp_runtime_helper_022b2c90();
-              if (auVar10._8_4_ != 1) {
-                __this_06.fields._8_8_ = pIVar12;
-                __this_06.fields._dictionary =
-                     (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-                __this_06.fields._current.fields.key = pIVar13;
-                __this_06.fields._current.fields.value = (Il2CppObject *)in_stack_ffffffffffffff70;
-                __this_06.fields._32_8_ = pSVar15;
-                System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                          (__this_06,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-label_044bfc9b:
-                _Unwind_Resume(auVar10._0_8_);
-              }
-              plVar8 = (long *)__cxa_begin_catch(auVar10._0_8_);
-              lVar6 = *plVar8;
-              __cxa_end_catch();
-              __this_05.fields._8_8_ = pIVar12;
-              __this_05.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-              __this_05.fields._current.fields.key = pIVar13;
-              __this_05.fields._current.fields.value = (Il2CppObject *)in_stack_ffffffffffffff70;
-              __this_05.fields._32_8_ = pSVar15;
-              System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                        (__this_05,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-              if (lVar6 != 0) {
-                il2cpp_runtime_helper_022fefe0(lVar6);
-                __this_01.fields._8_8_ = pIVar12;
-                __this_01.fields._list = pSVar11;
-                __this_01.fields._current = pIVar13;
-                System_Collections_Generic_List_Enumerator_object___Dispose
-                          (__this_01,(MethodInfo_321A1C0 *)&stack0xffffffffffffff58);
-                goto label_044bfc9b;
-              }
-label_044bfa28:
-            } while (__this_07 == (System_Collections_Generic_List_object__o *)0x0);
-            System_Collections_Generic_List_object___GetEnumerator
-                      ((System_Collections_Generic_List_Enumerator_T__o *)&stack0xffffffffffffff58,__this_07,
-                       MethodInfo_List_1_T_Enumerator_System_String_GetEnumerator);
-            __this_07 = (System_Collections_Generic_List_object__o *)&MethodInfo_Boolean_Remove;
-            pIVar14 = pIVar13;
-            while( true ) {
-              __this.fields._8_8_ = pIVar12;
-              __this.fields._list = pSVar11;
-              __this.fields._current = pIVar14;
-              bVar7 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (__this,(MethodInfo_321A1D0 *)&stack0xffffffffffffff58);
-              if ((char)bVar7 == '\0') {
-                __this_00.fields._8_8_ = pIVar12;
-                __this_00.fields._list = pSVar11;
-                __this_00.fields._current = pIVar14;
-                System_Collections_Generic_List_Enumerator_object___Dispose
-                          (__this_00,(MethodInfo_321A1C0 *)&stack0xffffffffffffff58);
-                return;
-              }
-              pIVar13 = pIVar14;
-              if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              pSVar3 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                        (*(long *)(TypeInfo_ResourceManager + 0xb8) + 8);
-              if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-              System_Collections_Generic_Dictionary_object__object___Remove(pSVar3,pIVar14,MethodInfo_Boolean_Remove);
-              pIVar14 = pIVar13;
-            }
-            il2cpp_runtime_helper_022b2c90();
-label_044bface:
-            il2cpp_runtime_helper_022b2c90();
-          } while( true );
+        if (__this_02 == (System_Collections_Generic_List_string__o *)0x0) {
+          ThrowNullReferenceException();
         }
-        uVar2 = (__this_07->fields)._size;
-        if (uVar2 < (uint)pSVar5->max_length) {
-          (__this_07->fields)._size = uVar2 + 1;
-          pSVar5->m_Items[(int)uVar2] = pIVar14;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar2,pIVar14);
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_07,pIVar14,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-        }
+        il2cpp_runtime_helper_180012890(__this_02,pIVar1,MethodInfo_System_Collections_Generic_List_string_Add);
       }
     }
+    System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_68,
+               MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_Texture2D_Dispose);
+    if (__this_02 != (System_Collections_Generic_List_string__o *)0x0) {
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_a8,
+                 (System_Collections_Generic_List_T__o *)__this_02,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_string_GetEnumerator);
+      local_80 = (undefined1  [8])local_a8._0_8_;
+      uStack_78 = local_a8._8_8_;
+      local_70 = local_98;
+      local_a8._0_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+      local_a8._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_80;
+      while( true ) {
+        bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                          ((System_Collections_Generic_List_Enumerator_object__o *)local_80,
+                           (MethodInfo_153A2A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_string_MoveNext);
+        pIVar1 = local_70;
+        if (!bVar2) {
+          System_Collections_Generic_List_Enumerator_object___Dispose
+                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_80,
+                     MethodInfo_System_Collections_Generic_List_Enumerator_string_Dispose);
+          return;
+        }
+        if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+        }
+        __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
+                    TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+        if (__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
+        System_Collections_Generic_Dictionary_object__object___Remove
+                  (__this_01,pIVar1,
+                   (MethodInfo_1470BF0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_Remove);
+      }
+      ThrowNullReferenceException();
+    }
   }
-label_044bfa14:
-  __this_04.fields._8_8_ = pIVar12;
-  __this_04.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar11;
-  __this_04.fields._current.fields.key = pIVar13;
-  __this_04.fields._current.fields.value = (Il2CppObject *)in_stack_ffffffffffffff70;
-  __this_04.fields._32_8_ = pSVar15;
-  System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-            (__this_04,(MethodInfo_3251280 *)&stack0xffffffffffffff78);
-  goto label_044bfa28;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$GetExternalTextureCacheCount
 // il2cpp: int32_t ApplicationManagers_ResourceManager__GetExternalTextureCacheCount (const MethodInfo* method);
-// 0x44bfcc0
+// 0x182355a60
 
 int32_t ApplicationManagers_ResourceManager__GetExternalTextureCacheCount(MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  System_Threading_ManualResetEvent_o *pSVar2;
-  int32_t iVar3;
-  int32_t extraout_EAX;
-  UnityEngine_MonoBehaviour_o *__this_00;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this;
+  int32_t iVar1;
   
-  if (g_data_057aea8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea8a = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
+  if (Il2CppMethodInitialized_1843479bf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479bf = '\x01';
   }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = (TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->monitor;
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Texture2D__o *)0x0) {
+    iVar1 = System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___get_Count
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+                       (MethodInfo_13CDEB0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_get_Count);
+    return iVar1;
   }
-  else {
-    __this = (TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->monitor;
-  }
-  if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aea8b == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-      g_data_057aea8b = '\x01';
-      iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
-    }
-    else {
-      iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar2 = ((TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->fields)._kernelEvent;
-      __this_00 = TypeInfo_ResourceManager;
-    }
-    else {
-      pSVar2 = ((TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->fields)._kernelEvent;
-      __this_00 = TypeInfo_ResourceManager;
-    }
-    if (pSVar2 == (System_Threading_ManualResetEvent_o *)0x0) {
-      TypeInfo_ResourceManager = __this_00;
-      il2cpp_runtime_helper_022b2c90();
-      UnityEngine_MonoBehaviour___ctor(__this_00,(MethodInfo *)0x0);
-      return extraout_EAX;
-    }
-    TypeInfo_ResourceManager = __this_00;
-    return *(int32_t *)&(pSVar2->fields).safeWaitHandle;
-  }
-  iVar3 = System_Collections_Generic_Dictionary_object__object___get_Count(__this,MethodInfo_Int32_get_Count);
-  return iVar3;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$GetPersistentTextureCacheCount
 // il2cpp: int32_t ApplicationManagers_ResourceManager__GetPersistentTextureCacheCount (const MethodInfo* method);
-// 0x44bfd50
+// 0x182355bb0
 
 int32_t ApplicationManagers_ResourceManager__GetPersistentTextureCacheCount(MethodInfo *method)
 
 {
-  int iVar1;
-  System_Threading_ManualResetEvent_o *pSVar2;
-  int32_t extraout_EAX;
-  UnityEngine_MonoBehaviour_o *__this;
+  System_Collections_Generic_HashSet_string__o *pSVar1;
   
-  if (g_data_057aea8b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea8b = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
+  if (Il2CppMethodInitialized_1843479c0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_string_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479c0 = '\x01';
   }
-  else {
-    iVar1 = *(int *)((long)&TypeInfo_ResourceManager[7].klass + 4);
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar2 = ((TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->fields)._kernelEvent;
-    __this = TypeInfo_ResourceManager;
+  pSVar1 = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures;
+  if (pSVar1 != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    return (pSVar1->fields)._count;
   }
-  else {
-    pSVar2 = ((TypeInfo_ResourceManager[5].fields.m_CancellationTokenSource)->fields)._kernelEvent;
-    __this = TypeInfo_ResourceManager;
-  }
-  if (pSVar2 != (System_Threading_ManualResetEvent_o *)0x0) {
-    TypeInfo_ResourceManager = __this;
-    return *(int32_t *)&(pSVar2->fields).safeWaitHandle;
-  }
-  TypeInfo_ResourceManager = __this;
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor(__this,(MethodInfo *)0x0);
-  return extraout_EAX;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.ResourceManager$$.ctor
 // il2cpp: void ApplicationManagers_ResourceManager___ctor (ApplicationManagers_ResourceManager_o* __this, const MethodInfo* method);
-// 0x44bfde0
+// 0x180528540
 
-void ApplicationManagers_ResourceManager___ctor
-               (ApplicationManagers_ResourceManager_o *__this,MethodInfo *method)
+void
+ApplicationManagers_ResourceManager___ctor(ApplicationManagers_ResourceManager_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
@@ -1809,39 +1189,50 @@ void ApplicationManagers_ResourceManager___ctor
 
 // ApplicationManagers.ResourceManager$$.cctor
 // il2cpp: void ApplicationManagers_ResourceManager___cctor (const MethodInfo* method);
-// 0x44bfdf0
+// 0x182356770
 
 void ApplicationManagers_ResourceManager___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_HashSet_object__o *__this;
+  System_Collections_Generic_Dictionary_string__Object__o *__this;
+  System_Collections_Generic_Dictionary_string__Texture2D__o *__this_00;
+  System_Collections_Generic_HashSet_string__o *__this_01;
   
-  if (g_data_057aea8c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_UnityEngine_Texture2D);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_UnityEngine_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Texture2D);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea8c = '\x01';
+  if (Il2CppMethodInitialized_1843479c1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_Object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_Texture2D);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479c1 = '\x01';
   }
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Object);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_UnityEngine_Object);
-  **(undefined8 **)(TypeInfo_ResourceManager + 0xb8) = pSVar2;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ResourceManager + 0xb8),pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Texture2D);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_UnityEngine_Texture2D);
-  lVar1 = *(long *)(TypeInfo_ResourceManager + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 8) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar2);
-  __this = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  System_Collections_Generic_HashSet_object____ctor(__this,MethodInfo_HashSet_1_System_String);
-  lVar1 = *(long *)(TypeInfo_ResourceManager + 0xb8);
-  *(System_Collections_Generic_HashSet_object__o **)(lVar1 + 0x10) = __this;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10,__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Object);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_Object_ctor);
+  TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache,__this);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Texture2D);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_Texture2D_ctor);
+  TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache = __this_00;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_ResourceManager->static_fields->_externalTextureCache,__this_00);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this_01,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures = __this_01;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_ResourceManager->static_fields->_persistentTextures,__this_01);
   return;
 }
 

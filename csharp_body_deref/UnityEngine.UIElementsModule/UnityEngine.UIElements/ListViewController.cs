@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x200005C")]
 public class ListViewController : BaseListViewController
 {
-	[Token(Token = "0x17000028")]
+	[Token(Token = "0x1700006F")]
 	protected ListView listView
 	{
-		[Token(Token = "0x6000125")]
-		[Address(RVA = "0x4F1B6F0", Offset = "0x4F1B6F0", VA = "0x4F1B6F0")]
+		[Token(Token = "0x600027A")]
+		[Address(RVA = "0x30AEB40", Offset = "0x30AD140", VA = "0x1830AEB40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x4F1B750", Offset = "0x4F1B750", VA = "0x4F1B750", Slot = "18")]
+	[Token(Token = "0x600027B")]
+	[Address(RVA = "0x30AEA00", Offset = "0x30AD000", VA = "0x1830AEA00", Slot = "20")]
 	protected override VisualElement MakeItem()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x4F1B8A0", Offset = "0x4F1B8A0", VA = "0x4F1B8A0", Slot = "19")]
+	[Token(Token = "0x600027C")]
+	[Address(RVA = "0x30AE750", Offset = "0x30ACD50", VA = "0x1830AE750", Slot = "21")]
 	protected override void BindItem(VisualElement element, int index)
 	{
 	}
 
-	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x4F1BBA0", Offset = "0x4F1BBA0", VA = "0x4F1BBA0", Slot = "20")]
+	[Token(Token = "0x600027D")]
+	[Address(RVA = "0x30AEAF0", Offset = "0x30AD0F0", VA = "0x1830AEAF0", Slot = "22")]
 	protected override void UnbindItem(VisualElement element, int index)
 	{
 	}
 
-	[Token(Token = "0x6000129")]
-	[Address(RVA = "0x4F1BC30", Offset = "0x4F1BC30", VA = "0x4F1BC30", Slot = "21")]
+	[Token(Token = "0x600027E")]
+	[Address(RVA = "0x30AE9B0", Offset = "0x30ACFB0", VA = "0x1830AE9B0", Slot = "23")]
 	protected override void DestroyItem(VisualElement element)
 	{
 	}
 
-	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x4F1BCC0", Offset = "0x4F1BCC0", VA = "0x4F1BCC0")]
+	[Token(Token = "0x600027F")]
+	[Address(RVA = "0x12BD610", Offset = "0x12BBC10", VA = "0x1812BD610")]
 	public ListViewController()
 	{
 	}

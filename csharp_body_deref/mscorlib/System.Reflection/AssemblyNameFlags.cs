@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004CC")]
+[Token(Token = "0x20004FC")]
 [Flags]
 public enum AssemblyNameFlags
 {

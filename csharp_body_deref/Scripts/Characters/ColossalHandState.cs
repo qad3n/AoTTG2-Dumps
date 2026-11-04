@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200054A")]
+[Token(Token = "0x20006A8")]
 public enum ColossalHandState
 {
-	[Token(Token = "0x40018EC")]
+	[Token(Token = "0x4001FB2")]
 	Healthy,
-	[Token(Token = "0x40018ED")]
+	[Token(Token = "0x4001FB3")]
 	Damaged,
-	[Token(Token = "0x40018EE")]
+	[Token(Token = "0x4001FB4")]
 	Severed,
-	[Token(Token = "0x40018EF")]
+	[Token(Token = "0x4001FB5")]
 	Recovering
 }

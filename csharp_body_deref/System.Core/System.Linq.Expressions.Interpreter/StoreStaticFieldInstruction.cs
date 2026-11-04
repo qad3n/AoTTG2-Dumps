@@ -16,8 +16,8 @@ internal sealed class StoreStaticFieldInstruction : FieldInstruction
 	[Token(Token = "0x170001A5")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000704")]
-		[Address(RVA = "0x44CE9B0", Offset = "0x44CE9B0", VA = "0x44CE9B0", Slot = "9")]
+		[Token(Token = "0x6000703")]
+		[Address(RVA = "0x24657E0", Offset = "0x2463DE0", VA = "0x1824657E0", Slot = "9")]
 		get
 		{
 			return null;
@@ -27,22 +27,22 @@ internal sealed class StoreStaticFieldInstruction : FieldInstruction
 	[Token(Token = "0x170001A6")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000705")]
-		[Address(RVA = "0x44CE9E0", Offset = "0x44CE9E0", VA = "0x44CE9E0", Slot = "4")]
+		[Token(Token = "0x6000704")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000703")]
-	[Address(RVA = "0x44CE980", Offset = "0x44CE980", VA = "0x44CE980")]
+	[Token(Token = "0x6000702")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public StoreStaticFieldInstruction(FieldInfo field)
 	{
 	}
 
-	[Token(Token = "0x6000706")]
-	[Address(RVA = "0x44CE9F0", Offset = "0x44CE9F0", VA = "0x44CE9F0", Slot = "8")]
+	[Token(Token = "0x6000705")]
+	[Address(RVA = "0x2465780", Offset = "0x2463D80", VA = "0x182465780", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

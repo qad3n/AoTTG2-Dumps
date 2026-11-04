@@ -14,7 +14,7 @@ namespace Newtonsoft.Json;
 public class JsonConverterCollection : Collection<JsonConverter>
 {
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x3D59CA0", Offset = "0x3D59CA0", VA = "0x3D59CA0")]
+	[Address(RVA = "0x1BCD0A0", Offset = "0x1BCB6A0", VA = "0x181BCD0A0")]
 	public JsonConverterCollection()
 	{
 	}

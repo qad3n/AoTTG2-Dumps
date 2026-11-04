@@ -12,40 +12,40 @@ namespace Weather;
 [Token(Token = "0x2000038")]
 public enum WeatherEffect
 {
-	[Token(Token = "0x400011D")]
-	None,
-	[Token(Token = "0x400011E")]
-	Daylight,
-	[Token(Token = "0x400011F")]
-	DaylightIntensity,
-	[Token(Token = "0x4000120")]
-	DaylightDirection,
-	[Token(Token = "0x4000121")]
-	AmbientLight,
-	[Token(Token = "0x4000122")]
-	Skybox,
-	[Token(Token = "0x4000123")]
-	SkyboxColor,
-	[Token(Token = "0x4000124")]
-	Flashlight,
-	[Token(Token = "0x4000125")]
-	FogDensity,
-	[Token(Token = "0x4000126")]
-	FogColor,
-	[Token(Token = "0x4000127")]
-	Rain,
 	[Token(Token = "0x4000128")]
-	Thunder,
+	None,
 	[Token(Token = "0x4000129")]
-	Snow,
+	Daylight,
 	[Token(Token = "0x400012A")]
-	Wind,
+	DaylightIntensity,
 	[Token(Token = "0x400012B")]
-	WindDirection,
+	DaylightDirection,
 	[Token(Token = "0x400012C")]
-	RainForce,
+	AmbientLight,
 	[Token(Token = "0x400012D")]
-	SnowForce,
+	Skybox,
 	[Token(Token = "0x400012E")]
+	SkyboxColor,
+	[Token(Token = "0x400012F")]
+	Flashlight,
+	[Token(Token = "0x4000130")]
+	FogDensity,
+	[Token(Token = "0x4000131")]
+	FogColor,
+	[Token(Token = "0x4000132")]
+	Rain,
+	[Token(Token = "0x4000133")]
+	Thunder,
+	[Token(Token = "0x4000134")]
+	Snow,
+	[Token(Token = "0x4000135")]
+	Wind,
+	[Token(Token = "0x4000136")]
+	WindDirection,
+	[Token(Token = "0x4000137")]
+	RainForce,
+	[Token(Token = "0x4000138")]
+	SnowForce,
+	[Token(Token = "0x4000139")]
 	WindForce
 }

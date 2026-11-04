@@ -10,67 +10,67 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000303")]
+[Token(Token = "0x20003CC")]
 public struct SortingSettings : IEquatable<SortingSettings>
 {
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000C3D")]
 	[FieldOffset(Offset = "0x0")]
 	private Matrix4x4 m_WorldToCameraMatrix;
 
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000C3E")]
 	[FieldOffset(Offset = "0x40")]
 	private Vector3 m_CameraPosition;
 
-	[Token(Token = "0x4000935")]
+	[Token(Token = "0x4000C3F")]
 	[FieldOffset(Offset = "0x4C")]
 	private Vector3 m_CustomAxis;
 
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000C40")]
 	[FieldOffset(Offset = "0x58")]
 	private SortingCriteria m_Criteria;
 
-	[Token(Token = "0x4000937")]
+	[Token(Token = "0x4000C41")]
 	[FieldOffset(Offset = "0x5C")]
 	private DistanceMetric m_DistanceMetric;
 
-	[Token(Token = "0x170002A3")]
+	[Token(Token = "0x1700039E")]
 	public SortingCriteria criteria
 	{
-		[Token(Token = "0x60010CA")]
-		[Address(RVA = "0x4E335C0", Offset = "0x4E335C0", VA = "0x4E335C0")]
+		[Token(Token = "0x6001719")]
+		[Address(RVA = "0x1CFDD50", Offset = "0x1CFC350", VA = "0x181CFDD50")]
 		get
 		{
 			return default(SortingCriteria);
 		}
-		[Token(Token = "0x60010CB")]
-		[Address(RVA = "0x4E335D0", Offset = "0x4E335D0", VA = "0x4E335D0")]
+		[Token(Token = "0x600171A")]
+		[Address(RVA = "0x1ADFEB0", Offset = "0x1ADE4B0", VA = "0x181ADFEB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60010C9")]
-	[Address(RVA = "0x4E33570", Offset = "0x4E33570", VA = "0x4E33570")]
+	[Token(Token = "0x6001718")]
+	[Address(RVA = "0x2F72C40", Offset = "0x2F71240", VA = "0x182F72C40")]
 	public SortingSettings(Camera camera)
 	{
 	}
 
-	[Token(Token = "0x60010CC")]
-	[Address(RVA = "0x4E2DED0", Offset = "0x4E2DED0", VA = "0x4E2DED0", Slot = "4")]
+	[Token(Token = "0x600171B")]
+	[Address(RVA = "0x2F729C0", Offset = "0x2F70FC0", VA = "0x182F729C0", Slot = "4")]
 	public bool Equals(SortingSettings other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010CD")]
-	[Address(RVA = "0x4E335E0", Offset = "0x4E335E0", VA = "0x4E335E0", Slot = "0")]
+	[Token(Token = "0x600171C")]
+	[Address(RVA = "0x2F72AB0", Offset = "0x2F710B0", VA = "0x182F72AB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010CE")]
-	[Address(RVA = "0x4E2E360", Offset = "0x4E2E360", VA = "0x4E2E360", Slot = "2")]
+	[Token(Token = "0x600171D")]
+	[Address(RVA = "0x2F72B90", Offset = "0x2F71190", VA = "0x182F72B90", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

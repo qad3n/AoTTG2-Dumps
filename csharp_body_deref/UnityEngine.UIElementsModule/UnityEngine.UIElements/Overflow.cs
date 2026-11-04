@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000399")]
+[Token(Token = "0x200043B")]
 public enum Overflow
 {
-	[Token(Token = "0x4000ABC")]
+	[Token(Token = "0x4000E0A")]
 	Visible,
-	[Token(Token = "0x4000ABD")]
+	[Token(Token = "0x4000E0B")]
 	Hidden
 }

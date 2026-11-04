@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000792")]
+[Token(Token = "0x200091D")]
 public enum PastebinStatus
 {
-	[Token(Token = "0x40024A0")]
+	[Token(Token = "0x4002D6E")]
 	Loading,
-	[Token(Token = "0x40024A1")]
+	[Token(Token = "0x4002D6F")]
 	Loaded,
-	[Token(Token = "0x40024A2")]
+	[Token(Token = "0x4002D70")]
 	Failed
 }

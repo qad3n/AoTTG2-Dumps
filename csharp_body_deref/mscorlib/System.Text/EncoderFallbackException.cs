@@ -11,45 +11,45 @@ using Il2CppDummyDll;
 namespace System.Text;
 
 [Serializable]
-[Token(Token = "0x200027A")]
+[Token(Token = "0x20002AA")]
 public sealed class EncoderFallbackException : ArgumentException
 {
-	[Token(Token = "0x4000B48")]
+	[Token(Token = "0x4000B91")]
 	[FieldOffset(Offset = "0x98")]
 	private char _charUnknown;
 
-	[Token(Token = "0x4000B49")]
+	[Token(Token = "0x4000B92")]
 	[FieldOffset(Offset = "0x9A")]
 	private char _charUnknownHigh;
 
-	[Token(Token = "0x4000B4A")]
+	[Token(Token = "0x4000B93")]
 	[FieldOffset(Offset = "0x9C")]
 	private char _charUnknownLow;
 
-	[Token(Token = "0x4000B4B")]
+	[Token(Token = "0x4000B94")]
 	[FieldOffset(Offset = "0xA0")]
 	private int _index;
 
-	[Token(Token = "0x600159B")]
-	[Address(RVA = "0x3AFEC50", Offset = "0x3AFEC50", VA = "0x3AFEC50")]
+	[Token(Token = "0x6001607")]
+	[Address(RVA = "0x1977840", Offset = "0x1975E40", VA = "0x181977840")]
 	public EncoderFallbackException()
 	{
 	}
 
-	[Token(Token = "0x600159C")]
-	[Address(RVA = "0x3AFE820", Offset = "0x3AFE820", VA = "0x3AFE820")]
+	[Token(Token = "0x6001608")]
+	[Address(RVA = "0x1977A70", Offset = "0x1976070", VA = "0x181977A70")]
 	internal EncoderFallbackException(string message, char charUnknown, int index)
 	{
 	}
 
-	[Token(Token = "0x600159D")]
-	[Address(RVA = "0x3AFEA70", Offset = "0x3AFEA70", VA = "0x3AFEA70")]
+	[Token(Token = "0x6001609")]
+	[Address(RVA = "0x1977890", Offset = "0x1975E90", VA = "0x181977890")]
 	internal EncoderFallbackException(string message, char charUnknownHigh, char charUnknownLow, int index)
 	{
 	}
 
-	[Token(Token = "0x600159E")]
-	[Address(RVA = "0x3AFEC90", Offset = "0x3AFEC90", VA = "0x3AFEC90")]
+	[Token(Token = "0x600160A")]
+	[Address(RVA = "0x1977AB0", Offset = "0x19760B0", VA = "0x181977AB0")]
 	private EncoderFallbackException(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}

@@ -1,5 +1,5 @@
 // Type: EZhex1991.EZSoftBone.EZSoftBoneMaterial
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/EZhex1991.EZSoftBone/EZhex1991.EZSoftBone/EZSoftBoneMaterial.cs
@@ -8,7 +8,7 @@
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_damping
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_damping (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498400
+// 0x180584ff0
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_damping
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
@@ -20,7 +20,7 @@ float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_damping
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$set_damping
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_damping (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float value, const MethodInfo* method);
-// 0x2498410
+// 0x180585400
 
 void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_damping
                (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float value,MethodInfo *method)
@@ -28,22 +28,22 @@ void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_damping
 {
   float fVar1;
   
-  fVar1 = 1.0;
-  if (value <= 1.0) {
-    fVar1 = value;
+  fVar1 = 0.0;
+  if ((0.0 <= value) && (fVar1 = 1.0, value <= 1.0)) {
+    (__this->fields).m_Damping = value;
+    return;
   }
-  (__this->fields).m_Damping = (float)(-(uint)(0.0 <= value) & (uint)fVar1);
+  (__this->fields).m_Damping = fVar1;
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_dampingCurve
 // il2cpp: UnityEngine_AnimationCurve_o* EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_dampingCurve (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498430
+// 0x1805852b0
 
-UnityEngine_AnimationCurve_o *
-EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_dampingCurve
-          (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
+UnityEngine_AnimationCurve_o*
+EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_dampingCurve(EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).m_DampingCurve;
@@ -52,7 +52,7 @@ EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_dampingCurve
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_stiffness
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_stiffness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498440
+// 0x180584ac0
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_stiffness
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
@@ -64,7 +64,7 @@ float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_stiffness
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$set_stiffness
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_stiffness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float value, const MethodInfo* method);
-// 0x2498450
+// 0x180585490
 
 void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_stiffness
                (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float value,MethodInfo *method)
@@ -72,31 +72,32 @@ void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_stiffness
 {
   float fVar1;
   
-  fVar1 = 1.0;
-  if (value <= 1.0) {
-    fVar1 = value;
+  fVar1 = 0.0;
+  if ((0.0 <= value) && (fVar1 = 1.0, value <= 1.0)) {
+    (__this->fields).m_Stiffness = value;
+    return;
   }
-  (__this->fields).m_Stiffness = (float)(-(uint)(0.0 <= value) & (uint)fVar1);
+  (__this->fields).m_Stiffness = fVar1;
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_stiffnessCurve
 // il2cpp: UnityEngine_AnimationCurve_o* EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_stiffnessCurve (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498470
+// 0x1805853f0
 
-UnityEngine_AnimationCurve_o *
+UnityEngine_GraphicsBuffer_o *
 EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_stiffnessCurve
-          (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
+          (UnityEngine_Rendering_IndirectBufferContextStorage_o *__this,MethodInfo *method)
 
 {
-  return (__this->fields).m_StiffnessCurve;
+  return (__this->fields).m_DrawArgsBuffer;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_resistance
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistance (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498480
+// 0x180585020
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistance
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
@@ -108,7 +109,7 @@ float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistance
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$set_resistance
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_resistance (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float value, const MethodInfo* method);
-// 0x2498490
+// 0x180585430
 
 void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_resistance
                (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float value,MethodInfo *method)
@@ -116,31 +117,32 @@ void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_resistance
 {
   float fVar1;
   
-  fVar1 = 1.0;
-  if (value <= 1.0) {
-    fVar1 = value;
+  fVar1 = 0.0;
+  if ((0.0 <= value) && (fVar1 = 1.0, value <= 1.0)) {
+    (__this->fields).m_Resistance = value;
+    return;
   }
-  (__this->fields).m_Resistance = (float)(-(uint)(0.0 <= value) & (uint)fVar1);
+  (__this->fields).m_Resistance = fVar1;
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_resistanceCurve
 // il2cpp: UnityEngine_AnimationCurve_o* EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistanceCurve (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x24984b0
+// 0x1805853c0
 
-UnityEngine_AnimationCurve_o *
-EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistanceCurve
-          (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
+UnityEngine_AnimationCurve_o*
+EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_resistanceCurve(EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields).m_ResistanceCurve;
+  return *(Unity_Properties_IProperty_TContainer__o **)
+          &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_slackness
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slackness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x24984c0
+// 0x1805853e0
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slackness
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
@@ -152,7 +154,7 @@ float EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slackness
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$set_slackness
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_slackness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float value, const MethodInfo* method);
-// 0x24984d0
+// 0x180585460
 
 void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_slackness
                (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float value,MethodInfo *method)
@@ -160,296 +162,161 @@ void EZhex1991_EZSoftBone_EZSoftBoneMaterial__set_slackness
 {
   float fVar1;
   
-  fVar1 = 1.0;
-  if (value <= 1.0) {
-    fVar1 = value;
+  fVar1 = 0.0;
+  if ((0.0 <= value) && (fVar1 = 1.0, value <= 1.0)) {
+    (__this->fields).m_Slackness = value;
+    return;
   }
-  (__this->fields).m_Slackness = (float)(-(uint)(0.0 <= value) & (uint)fVar1);
+  (__this->fields).m_Slackness = fVar1;
   return;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_slacknessCurve
 // il2cpp: UnityEngine_AnimationCurve_o* EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slacknessCurve (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x24984f0
+// 0x1805853d0
 
-UnityEngine_AnimationCurve_o *
-EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slacknessCurve
-          (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
+UnityEngine_AnimationCurve_o*
+EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_slacknessCurve(EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields).m_SlacknessCurve;
+  return *(Unity_Properties_IProperty_TContainer__o **)&__this[1].fields;
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$get_defaultMaterial
 // il2cpp: EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_defaultMaterial (const MethodInfo* method);
-// 0x2492440
+// 0x1805852c0
 
 EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *
 EZhex1991_EZSoftBone_EZSoftBoneMaterial__get_defaultMaterial(MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  UnityEngine_Object_c *pUVar2;
-  EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *pEVar3;
-  UnityEngine_Object_o *pUVar4;
+  bool bVar1;
+  EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *pEVar2;
   
-  if (g_data_057a692e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_EZSoftBoneMaterial);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_EZSoftBoneMaterial_CreateInstance_EZSoftBoneMaterial);
-    il2cpp_runtime_helper_023445d0(&"SBMat_Default");
-    g_data_057a692e = '\x01';
+  if (Il2CppMethodInitialized_18433df49 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_ScriptableObject_CreateInstance_EZSoftBoneMaterial);
+    il2cpp_codegen_initialize_runtime_metadata(&"SBMat_Default");
+    Il2CppMethodInitialized_18433df49 = '\x01';
   }
-  pUVar4 = (UnityEngine_Object_o *)**(undefined8 **)(TypeInfo_EZSoftBoneMaterial + 0xb8);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pEVar2 = TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial->static_fields->m_DefaultMaterial;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pUVar2 = (UnityEngine_Object_c *)0x0;
-  bVar1 = UnityEngine_Object__op_Equality(pUVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    pUVar2 = (UnityEngine_Object_c *)UnityEngine_ScriptableObject__CreateInstance_object_(MethodInfo_EZSoftBoneMaterial_CreateInstance_EZSoftBoneMaterial);
-    **(undefined8 **)(TypeInfo_EZSoftBoneMaterial + 0xb8) = pUVar2;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_EZSoftBoneMaterial + 0xb8));
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pEVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    pEVar2 = UnityEngine_ScriptableObject__CreateInstance_object_
+                       ((MethodInfo_7973D0 *)
+                        MethodInfo_UnityEngine_ScriptableObject_CreateInstance_EZSoftBoneMaterial);
+    TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial->static_fields->m_DefaultMaterial = pEVar2;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial->static_fields->m_DefaultMaterial,pEVar2);
   }
-  pUVar4 = (UnityEngine_Object_o *)**(undefined8 **)(TypeInfo_EZSoftBoneMaterial + 0xb8);
-  if (pUVar4 != (UnityEngine_Object_o *)0x0) {
-    UnityEngine_Object__set_name(pUVar4,"SBMat_Default",(MethodInfo *)0x0);
-    return (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *)**(undefined8 **)(TypeInfo_EZSoftBoneMaterial + 0xb8);
+  pEVar2 = TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial->static_fields->m_DefaultMaterial;
+  if (pEVar2 != (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *)0x0) {
+    UnityEngine_Object__set_name((UnityEngine_Object_o *)pEVar2,"SBMat_Default",(MethodInfo *)0x0);
+    return TypeInfo_EZhex1991_EZSoftBone_EZSoftBoneMaterial->static_fields->m_DefaultMaterial;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar4[2].klass = pUVar2;
-  pEVar3 = (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *)il2cpp_runtime_helper_022b4080(pUVar4 + 2);
-  return pEVar3;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$GetDamping
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetDamping (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float t, const MethodInfo* method);
-// 0x24965d0
+// 0x1805850b0
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetDamping
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float t,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
+  float fVar1;
   UnityEngine_AnimationCurve_o *__this_00;
-  UnityEngine_AnimationCurve_c *__this_01;
-  Il2CppClass *__this_02;
-  Il2CppClass *__this_03;
-  float fVar3;
-  float fVar4;
-  float extraout_XMM0_Da;
+  float fVar2;
   
   __this_00 = (__this->fields).m_DampingCurve;
   if (__this_00 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar4 = (__this->fields).m_Damping;
-    fVar3 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
-    return fVar3 * fVar4;
+    fVar1 = (__this->fields).m_Damping;
+    fVar2 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
+    return fVar2 * fVar1;
   }
-  fVar4 = (float)il2cpp_runtime_helper_022b2c90();
-  __this_01 = __this_00[2].klass;
-  if (__this_01 != (UnityEngine_AnimationCurve_c *)0x0) {
-    fVar3 = *(float *)&__this_00[1].fields.m_Ptr;
-    fVar4 = UnityEngine_AnimationCurve__Evaluate
-                      ((UnityEngine_AnimationCurve_o *)__this_01,fVar4,(MethodInfo *)0x0);
-    return fVar4 * fVar3;
-  }
-  fVar4 = (float)il2cpp_runtime_helper_022b2c90();
-  __this_02 = (__this_01->_1).element_class;
-  if (__this_02 != (Il2CppClass *)0x0) {
-    fVar3 = (float)(__this_01->_1).this_arg.bits;
-    fVar4 = UnityEngine_AnimationCurve__Evaluate
-                      ((UnityEngine_AnimationCurve_o *)__this_02,fVar4,(MethodInfo *)0x0);
-    return fVar4 * fVar3;
-  }
-  fVar4 = (float)il2cpp_runtime_helper_022b2c90();
-  __this_03 = (__this_02->_1).declaringType;
-  if (__this_03 != (Il2CppClass *)0x0) {
-    fVar3 = *(float *)&(__this_02->_1).castClass;
-    fVar4 = UnityEngine_AnimationCurve__Evaluate
-                      ((UnityEngine_AnimationCurve_o *)__this_03,fVar4,(MethodInfo *)0x0);
-    return fVar4 * fVar3;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a6925 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_GetComponent_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a6925 = '\x01';
-  }
-  x = (__this_03->_1).byval_arg.data;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  fVar4 = extraout_XMM0_Da;
-  if ((char)bVar1 != '\0') {
-    pIVar2 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this_03,MethodInfo_Collider_GetComponent_Collider);
-    (__this_03->_1).byval_arg.data = pIVar2;
-    fVar4 = (float)il2cpp_runtime_helper_022b4080(&(__this_03->_1).byval_arg,pIVar2);
-  }
-  return fVar4;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$GetStiffness
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetStiffness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float t, const MethodInfo* method);
-// 0x2496600
+// 0x180585170
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetStiffness
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float t,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  UnityEngine_AnimationCurve_o *pUVar3;
+  float fVar1;
   UnityEngine_AnimationCurve_o *__this_00;
-  float fVar4;
-  float fVar5;
-  float extraout_XMM0_Da;
+  float fVar2;
   
-  pUVar3 = (__this->fields).m_StiffnessCurve;
-  if (pUVar3 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar5 = (__this->fields).m_Stiffness;
-    fVar4 = UnityEngine_AnimationCurve__Evaluate(pUVar3,t,(MethodInfo *)0x0);
-    return fVar4 * fVar5;
-  }
-  fVar5 = (float)il2cpp_runtime_helper_022b2c90();
-  __this_00 = (UnityEngine_AnimationCurve_o *)pUVar3[2].fields.m_Ptr;
+  __this_00 = (__this->fields).m_StiffnessCurve;
   if (__this_00 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar4 = *(float *)&pUVar3[2].monitor;
-    fVar5 = UnityEngine_AnimationCurve__Evaluate(__this_00,fVar5,(MethodInfo *)0x0);
-    return fVar5 * fVar4;
+    fVar1 = (__this->fields).m_Stiffness;
+    fVar2 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
+    return fVar2 * fVar1;
   }
-  fVar5 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar3 = __this_00[3].monitor;
-  if (pUVar3 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar4 = *(float *)&__this_00[3].klass;
-    fVar5 = UnityEngine_AnimationCurve__Evaluate(pUVar3,fVar5,(MethodInfo *)0x0);
-    return fVar5 * fVar4;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a6925 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_GetComponent_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a6925 = '\x01';
-  }
-  x = pUVar3[1].monitor;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  fVar5 = extraout_XMM0_Da;
-  if ((char)bVar1 != '\0') {
-    pIVar2 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar3,MethodInfo_Collider_GetComponent_Collider);
-    pUVar3[1].monitor = pIVar2;
-    fVar5 = (float)il2cpp_runtime_helper_022b4080(&pUVar3[1].monitor,pIVar2);
-  }
-  return fVar5;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$GetResistance
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetResistance (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float t, const MethodInfo* method);
-// 0x2496630
+// 0x1805850f0
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetResistance
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float t,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
+  float fVar1;
   UnityEngine_AnimationCurve_o *__this_00;
-  UnityEngine_AnimationCurve_o *__this_01;
-  float fVar3;
-  float fVar4;
-  float extraout_XMM0_Da;
+  float fVar2;
   
   __this_00 = (__this->fields).m_ResistanceCurve;
   if (__this_00 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar4 = (__this->fields).m_Resistance;
-    fVar3 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
-    return fVar3 * fVar4;
+    fVar1 = (__this->fields).m_Resistance;
+    fVar2 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
+    return fVar2 * fVar1;
   }
-  fVar4 = (float)il2cpp_runtime_helper_022b2c90();
-  __this_01 = __this_00[3].monitor;
-  if (__this_01 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar3 = *(float *)&__this_00[3].klass;
-    fVar4 = UnityEngine_AnimationCurve__Evaluate(__this_01,fVar4,(MethodInfo *)0x0);
-    return fVar4 * fVar3;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a6925 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_GetComponent_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a6925 = '\x01';
-  }
-  x = __this_01[1].monitor;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  fVar4 = extraout_XMM0_Da;
-  if ((char)bVar1 != '\0') {
-    pIVar2 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this_01,MethodInfo_Collider_GetComponent_Collider);
-    __this_01[1].monitor = pIVar2;
-    fVar4 = (float)il2cpp_runtime_helper_022b4080(&__this_01[1].monitor,pIVar2);
-  }
-  return fVar4;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$GetSlackness
 // il2cpp: float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetSlackness (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, float t, const MethodInfo* method);
-// 0x2496660
+// 0x180585130
 
 float EZhex1991_EZSoftBone_EZSoftBoneMaterial__GetSlackness
                 (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,float t,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *x;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
+  float fVar1;
   UnityEngine_AnimationCurve_o *__this_00;
-  float fVar3;
-  float extraout_XMM0_Da;
-  float fVar4;
+  float fVar2;
   
   __this_00 = (__this->fields).m_SlacknessCurve;
   if (__this_00 != (UnityEngine_AnimationCurve_o *)0x0) {
-    fVar4 = (__this->fields).m_Slackness;
-    fVar3 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
-    return fVar3 * fVar4;
+    fVar1 = (__this->fields).m_Slackness;
+    fVar2 = UnityEngine_AnimationCurve__Evaluate(__this_00,t,(MethodInfo *)0x0);
+    return fVar2 * fVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a6925 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Collider_GetComponent_Collider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a6925 = '\x01';
-  }
-  x = __this_00[1].monitor;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  fVar4 = extraout_XMM0_Da;
-  if ((char)bVar1 != '\0') {
-    pIVar2 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this_00,MethodInfo_Collider_GetComponent_Collider);
-    __this_00[1].monitor = pIVar2;
-    fVar4 = (float)il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,pIVar2);
-  }
-  return fVar4;
+  ThrowNullReferenceException();
 }
 
 
 // EZhex1991.EZSoftBone.EZSoftBoneMaterial$$.ctor
 // il2cpp: void EZhex1991_EZSoftBone_EZSoftBoneMaterial___ctor (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o* __this, const MethodInfo* method);
-// 0x2498500
+// 0x1805851b0
 
 void EZhex1991_EZSoftBone_EZSoftBoneMaterial___ctor
                (EZhex1991_EZSoftBone_EZSoftBoneMaterial_o *__this,MethodInfo *method)
@@ -460,19 +327,19 @@ void EZhex1991_EZSoftBone_EZSoftBoneMaterial___ctor
   (__this->fields).m_Damping = 0.2;
   pUVar1 = UnityEngine_AnimationCurve__EaseInOut(0.0,0.5,1.0,1.0,(MethodInfo *)0x0);
   (__this->fields).m_DampingCurve = pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).m_DampingCurve,pUVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_DampingCurve,pUVar1);
   (__this->fields).m_Stiffness = 0.1;
   pUVar1 = UnityEngine_AnimationCurve__Linear(0.0,1.0,1.0,1.0,(MethodInfo *)0x0);
   (__this->fields).m_StiffnessCurve = pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).m_StiffnessCurve,pUVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_StiffnessCurve,pUVar1);
   (__this->fields).m_Resistance = 0.9;
   pUVar1 = UnityEngine_AnimationCurve__Linear(0.0,1.0,1.0,0.0,(MethodInfo *)0x0);
   (__this->fields).m_ResistanceCurve = pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).m_ResistanceCurve,pUVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_ResistanceCurve,pUVar1);
   (__this->fields).m_Slackness = 0.1;
   pUVar1 = UnityEngine_AnimationCurve__Linear(0.0,1.0,1.0,0.8,(MethodInfo *)0x0);
   (__this->fields).m_SlacknessCurve = pUVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).m_SlacknessCurve);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_SlacknessCurve,pUVar1);
   UnityEngine_ScriptableObject___ctor((UnityEngine_ScriptableObject_o *)__this,(MethodInfo *)0x0);
   return;
 }

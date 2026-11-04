@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x2000098")]
 public enum ColorGradingLevel
 {
-	[Token(Token = "0x400029F")]
+	[Token(Token = "0x4000306")]
 	Off,
-	[Token(Token = "0x40002A0")]
+	[Token(Token = "0x4000307")]
 	On
 }

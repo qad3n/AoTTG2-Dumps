@@ -12,18 +12,18 @@ using Il2CppDummyDll;
 
 namespace Unity.Jobs.LowLevel.Unsafe;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000019")]
 [AttributeUsage(AttributeTargets.Interface)]
 public sealed class JobProducerTypeAttribute : Attribute
 {
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x400000F")]
 	[FieldOffset(Offset = "0x10")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly Type _003CProducerType_003Ek__BackingField;
 
-	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4DABB70", Offset = "0x4DABB70", VA = "0x4DABB70")]
+	[Token(Token = "0x600003D")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public JobProducerTypeAttribute(Type producerType)
 	{
 	}

@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001EF")]
+[Token(Token = "0x2000239")]
 [EventCategory(EventCategory.Style)]
 public class CustomStyleResolvedEvent : EventBase<CustomStyleResolvedEvent>
 {
-	[Token(Token = "0x17000258")]
+	[Token(Token = "0x170002E4")]
 	public ICustomStyle customStyle
 	{
-		[Token(Token = "0x6000CB4")]
-		[Address(RVA = "0x503C420", Offset = "0x503C420", VA = "0x503C420")]
+		[Token(Token = "0x6000EF7")]
+		[Address(RVA = "0x3257610", Offset = "0x3255C10", VA = "0x183257610")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000CB3")]
-	[Address(RVA = "0x503C350", Offset = "0x503C350", VA = "0x503C350")]
+	[Token(Token = "0x6000EF6")]
+	[Address(RVA = "0x32574D0", Offset = "0x3255AD0", VA = "0x1832574D0")]
 	static CustomStyleResolvedEvent()
 	{
 	}
 
-	[Token(Token = "0x6000CB5")]
-	[Address(RVA = "0x503C440", Offset = "0x503C440", VA = "0x503C440")]
+	[Token(Token = "0x6000EF8")]
+	[Address(RVA = "0x32575B0", Offset = "0x3255BB0", VA = "0x1832575B0")]
 	public CustomStyleResolvedEvent()
 	{
 	}

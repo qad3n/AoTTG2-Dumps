@@ -12,171 +12,171 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x20001A0")]
+[Token(Token = "0x2000328")]
 public class HttpWebResponse : WebResponse, ISerializable, IDisposable
 {
-	[Token(Token = "0x400083F")]
+	[Token(Token = "0x4000C55")]
 	[FieldOffset(Offset = "0x20")]
 	private Uri uri;
 
-	[Token(Token = "0x4000840")]
+	[Token(Token = "0x4000C56")]
 	[FieldOffset(Offset = "0x28")]
 	private WebHeaderCollection webHeaders;
 
-	[Token(Token = "0x4000841")]
+	[Token(Token = "0x4000C57")]
 	[FieldOffset(Offset = "0x30")]
 	private CookieCollection cookieCollection;
 
-	[Token(Token = "0x4000842")]
+	[Token(Token = "0x4000C58")]
 	[FieldOffset(Offset = "0x38")]
 	private string method;
 
-	[Token(Token = "0x4000843")]
+	[Token(Token = "0x4000C59")]
 	[FieldOffset(Offset = "0x40")]
 	private Version version;
 
-	[Token(Token = "0x4000844")]
+	[Token(Token = "0x4000C5A")]
 	[FieldOffset(Offset = "0x48")]
 	private HttpStatusCode statusCode;
 
-	[Token(Token = "0x4000845")]
+	[Token(Token = "0x4000C5B")]
 	[FieldOffset(Offset = "0x50")]
 	private string statusDescription;
 
-	[Token(Token = "0x4000846")]
+	[Token(Token = "0x4000C5C")]
 	[FieldOffset(Offset = "0x58")]
 	private long contentLength;
 
-	[Token(Token = "0x4000847")]
+	[Token(Token = "0x4000C5D")]
 	[FieldOffset(Offset = "0x60")]
 	private string contentType;
 
-	[Token(Token = "0x4000848")]
+	[Token(Token = "0x4000C5E")]
 	[FieldOffset(Offset = "0x68")]
 	private CookieContainer cookie_container;
 
-	[Token(Token = "0x4000849")]
+	[Token(Token = "0x4000C5F")]
 	[FieldOffset(Offset = "0x70")]
 	private bool disposed;
 
-	[Token(Token = "0x400084A")]
+	[Token(Token = "0x4000C60")]
 	[FieldOffset(Offset = "0x78")]
 	private Stream stream;
 
-	[Token(Token = "0x17000258")]
+	[Token(Token = "0x170004AE")]
 	public override WebHeaderCollection Headers
 	{
-		[Token(Token = "0x6000A25")]
-		[Address(RVA = "0x4989D80", Offset = "0x4989D80", VA = "0x4989D80", Slot = "14")]
+		[Token(Token = "0x60015E6")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "14")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000259")]
+	[Token(Token = "0x170004AF")]
 	public override Uri ResponseUri
 	{
-		[Token(Token = "0x6000A26")]
-		[Address(RVA = "0x4989D90", Offset = "0x4989D90", VA = "0x4989D90", Slot = "13")]
+		[Token(Token = "0x60015E7")]
+		[Address(RVA = "0x27E6990", Offset = "0x27E4F90", VA = "0x1827E6990", Slot = "13")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700025A")]
+	[Token(Token = "0x170004B0")]
 	public virtual HttpStatusCode StatusCode
 	{
-		[Token(Token = "0x6000A27")]
-		[Address(RVA = "0x4989E20", Offset = "0x4989E20", VA = "0x4989E20", Slot = "15")]
+		[Token(Token = "0x60015E8")]
+		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0", Slot = "15")]
 		get
 		{
 			return default(HttpStatusCode);
 		}
 	}
 
-	[Token(Token = "0x1700025B")]
+	[Token(Token = "0x170004B1")]
 	public virtual string StatusDescription
 	{
-		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x4989E30", Offset = "0x4989E30", VA = "0x4989E30", Slot = "16")]
+		[Token(Token = "0x60015E9")]
+		[Address(RVA = "0x27E69B0", Offset = "0x27E4FB0", VA = "0x1827E69B0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A21")]
-	[Address(RVA = "0x4989680", Offset = "0x4989680", VA = "0x4989680")]
+	[Token(Token = "0x60015E2")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public HttpWebResponse()
 	{
 	}
 
-	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x4989690", Offset = "0x4989690", VA = "0x4989690")]
+	[Token(Token = "0x60015E3")]
+	[Address(RVA = "0x27E61F0", Offset = "0x27E47F0", VA = "0x1827E61F0")]
 	internal HttpWebResponse(Uri uri, string method, HttpStatusCode status, WebHeaderCollection headers)
 	{
 	}
 
-	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x4988DB0", Offset = "0x4988DB0", VA = "0x4988DB0")]
+	[Token(Token = "0x60015E4")]
+	[Address(RVA = "0x27E66D0", Offset = "0x27E4CD0", VA = "0x1827E66D0")]
 	internal HttpWebResponse(Uri uri, string method, WebResponseStream stream, CookieContainer container)
 	{
 	}
 
-	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x49899E0", Offset = "0x49899E0", VA = "0x49899E0")]
+	[Token(Token = "0x60015E5")]
+	[Address(RVA = "0x27E62D0", Offset = "0x27E48D0", VA = "0x1827E62D0")]
 	[Obsolete("Serialization is obsoleted for this type", false)]
 	protected HttpWebResponse(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x6000A29")]
-	[Address(RVA = "0x4989E40", Offset = "0x4989E40", VA = "0x4989E40", Slot = "12")]
+	[Token(Token = "0x60015EA")]
+	[Address(RVA = "0x27E6130", Offset = "0x27E4730", VA = "0x1827E6130", Slot = "12")]
 	public override Stream GetResponseStream()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A2A")]
-	[Address(RVA = "0x4989ED0", Offset = "0x4989ED0", VA = "0x4989ED0", Slot = "6")]
+	[Token(Token = "0x60015EB")]
+	[Address(RVA = "0x27CB5E0", Offset = "0x27C9BE0", VA = "0x1827CB5E0", Slot = "6")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x6000A2B")]
-	[Address(RVA = "0x4989EF0", Offset = "0x4989EF0", VA = "0x4989EF0", Slot = "8")]
+	[Token(Token = "0x60015EC")]
+	[Address(RVA = "0x27E5FC0", Offset = "0x27E45C0", VA = "0x1827E5FC0", Slot = "8")]
 	protected override void GetObjectData(SerializationInfo serializationInfo, StreamingContext streamingContext)
 	{
 	}
 
-	[Token(Token = "0x6000A2C")]
-	[Address(RVA = "0x498A070", Offset = "0x498A070", VA = "0x498A070", Slot = "9")]
+	[Token(Token = "0x60015ED")]
+	[Address(RVA = "0x27E5DE0", Offset = "0x27E43E0", VA = "0x1827E5DE0", Slot = "9")]
 	public override void Close()
 	{
 	}
 
-	[Token(Token = "0x6000A2D")]
-	[Address(RVA = "0x498A0A0", Offset = "0x498A0A0", VA = "0x498A0A0", Slot = "7")]
+	[Token(Token = "0x60015EE")]
+	[Address(RVA = "0x27E61D0", Offset = "0x27E47D0", VA = "0x1827E61D0", Slot = "7")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
-	[Token(Token = "0x6000A2E")]
-	[Address(RVA = "0x498A0C0", Offset = "0x498A0C0", VA = "0x498A0C0", Slot = "10")]
+	[Token(Token = "0x60015EF")]
+	[Address(RVA = "0x27E5E20", Offset = "0x27E4420", VA = "0x1827E5E20", Slot = "10")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000A2F")]
-	[Address(RVA = "0x4989DA0", Offset = "0x4989DA0", VA = "0x4989DA0")]
+	[Token(Token = "0x60015F0")]
+	[Address(RVA = "0x27E5D50", Offset = "0x27E4350", VA = "0x1827E5D50")]
 	private void CheckDisposed()
 	{
 	}
 
-	[Token(Token = "0x6000A30")]
-	[Address(RVA = "0x4989770", Offset = "0x4989770", VA = "0x4989770")]
+	[Token(Token = "0x60015F1")]
+	[Address(RVA = "0x27E5E30", Offset = "0x27E4430", VA = "0x1827E5E30")]
 	private void FillCookies()
 	{
 	}

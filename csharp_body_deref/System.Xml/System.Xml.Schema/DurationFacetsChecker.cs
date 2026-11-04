@@ -14,35 +14,35 @@ namespace System.Xml.Schema;
 internal class DurationFacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x6001234")]
-	[Address(RVA = "0x486F4B0", Offset = "0x486F4B0", VA = "0x486F4B0", Slot = "5")]
+	[Address(RVA = "0x27A6EE0", Offset = "0x27A54E0", VA = "0x1827A6EE0", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001235")]
-	[Address(RVA = "0x486F5C0", Offset = "0x486F5C0", VA = "0x486F5C0", Slot = "15")]
+	[Address(RVA = "0x27A6B40", Offset = "0x27A5140", VA = "0x1827A6B40", Slot = "15")]
 	internal override Exception CheckValueFacets(TimeSpan value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001236")]
-	[Address(RVA = "0x486FA20", Offset = "0x486FA20", VA = "0x486FA20", Slot = "17")]
+	[Address(RVA = "0x27A7000", Offset = "0x27A5600", VA = "0x1827A7000", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001237")]
-	[Address(RVA = "0x486F940", Offset = "0x486F940", VA = "0x486F940")]
+	[Address(RVA = "0x27A7090", Offset = "0x27A5690", VA = "0x1827A7090")]
 	private bool MatchEnumeration(TimeSpan value, ArrayList enumeration)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001238")]
-	[Address(RVA = "0x48558E0", Offset = "0x48558E0", VA = "0x48558E0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DurationFacetsChecker()
 	{
 	}

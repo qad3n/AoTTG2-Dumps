@@ -10,61 +10,61 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20004EC")]
+[Token(Token = "0x2000645")]
 internal class DummyCharacter : MonoBehaviour
 {
-	[Token(Token = "0x40015D8")]
+	[Token(Token = "0x4001C4A")]
 	[FieldOffset(Offset = "0x20")]
 	public AnimationHandler Animation;
 
-	[Token(Token = "0x40015D9")]
+	[Token(Token = "0x4001C4B")]
 	[FieldOffset(Offset = "0x28")]
 	public DummyState State;
 
-	[Token(Token = "0x40015DA")]
+	[Token(Token = "0x4001C4C")]
 	[FieldOffset(Offset = "0x2C")]
 	protected float _stateTimeLeft;
 
-	[Token(Token = "0x60033E9")]
-	[Address(RVA = "0x41ADA90", Offset = "0x41ADA90", VA = "0x41ADA90", Slot = "4")]
+	[Token(Token = "0x6003DCF")]
+	[Address(RVA = "0x2116B70", Offset = "0x2115170", VA = "0x182116B70", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x60033EA")]
-	[Address(RVA = "0x41ADB00", Offset = "0x41ADB00", VA = "0x41ADB00", Slot = "5")]
+	[Token(Token = "0x6003DD0")]
+	[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "5")]
 	protected virtual string GetIdleAnimation()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033EB")]
-	[Address(RVA = "0x41ADB20", Offset = "0x41ADB20", VA = "0x41ADB20", Slot = "6")]
+	[Token(Token = "0x6003DD1")]
+	[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "6")]
 	protected virtual string GetEmoteAnimation(string emote)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033EC")]
-	[Address(RVA = "0x41ADB40", Offset = "0x41ADB40", VA = "0x41ADB40")]
+	[Token(Token = "0x6003DD2")]
+	[Address(RVA = "0x2116C70", Offset = "0x2115270", VA = "0x182116C70")]
 	public void Idle()
 	{
 	}
 
-	[Token(Token = "0x60033ED")]
-	[Address(RVA = "0x41ADB80", Offset = "0x41ADB80", VA = "0x41ADB80")]
+	[Token(Token = "0x6003DD3")]
+	[Address(RVA = "0x2116BF0", Offset = "0x21151F0", VA = "0x182116BF0")]
 	public void EmoteAction(string emote)
 	{
 	}
 
-	[Token(Token = "0x60033EE")]
-	[Address(RVA = "0x41ADBE0", Offset = "0x41ADBE0", VA = "0x41ADBE0")]
+	[Token(Token = "0x6003DD4")]
+	[Address(RVA = "0x2116CD0", Offset = "0x21152D0", VA = "0x182116CD0")]
 	protected void Update()
 	{
 	}
 
-	[Token(Token = "0x60033EF")]
-	[Address(RVA = "0x41ADC70", Offset = "0x41ADC70", VA = "0x41ADC70")]
+	[Token(Token = "0x6003DD5")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DummyCharacter()
 	{
 	}

@@ -12,20 +12,20 @@ namespace Weather;
 [Token(Token = "0x200003B")]
 public enum WeatherSkybox
 {
-	[Token(Token = "0x400013D")]
+	[Token(Token = "0x4000148")]
 	Day1,
-	[Token(Token = "0x400013E")]
+	[Token(Token = "0x4000149")]
 	Dawn1,
-	[Token(Token = "0x400013F")]
+	[Token(Token = "0x400014A")]
 	Dusk1,
-	[Token(Token = "0x4000140")]
+	[Token(Token = "0x400014B")]
 	Night1,
-	[Token(Token = "0x4000141")]
+	[Token(Token = "0x400014C")]
 	Night2,
-	[Token(Token = "0x4000142")]
+	[Token(Token = "0x400014D")]
 	Night3,
-	[Token(Token = "0x4000143")]
+	[Token(Token = "0x400014E")]
 	Cloudy1,
-	[Token(Token = "0x4000144")]
+	[Token(Token = "0x400014F")]
 	Storm1
 }

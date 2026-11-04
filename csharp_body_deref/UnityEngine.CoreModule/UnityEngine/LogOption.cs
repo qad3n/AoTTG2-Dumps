@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000081")]
+[Token(Token = "0x200009D")]
 public enum LogOption
 {
-	[Token(Token = "0x400015D")]
+	[Token(Token = "0x40001A8")]
 	None,
-	[Token(Token = "0x400015E")]
+	[Token(Token = "0x40001A9")]
 	NoStacktrace
 }

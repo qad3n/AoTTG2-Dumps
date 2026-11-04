@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Contexts;
 
-[Token(Token = "0x2000375")]
+[Token(Token = "0x20003A4")]
 [ComVisible(true)]
 public interface IDynamicMessageSink
 {
-	[Token(Token = "0x6001D79")]
+	[Token(Token = "0x6001DE8")]
 	void ProcessMessageFinish(IMessage replyMsg, bool bCliSide, bool bAsync);
 
-	[Token(Token = "0x6001D7A")]
+	[Token(Token = "0x6001DE9")]
 	void ProcessMessageStart(IMessage reqMsg, bool bCliSide, bool bAsync);
 }

@@ -13,11 +13,11 @@ namespace UnityEngine.AI;
 [Token(Token = "0x2000009")]
 public struct NavMeshDataInstance
 {
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x1700001B")]
 	internal int id
 	{
-		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x4D91AE0", Offset = "0x4D91AE0", VA = "0x4D91AE0")]
+		[Token(Token = "0x6000052")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		[CompilerGenerated]
 		set
 		{

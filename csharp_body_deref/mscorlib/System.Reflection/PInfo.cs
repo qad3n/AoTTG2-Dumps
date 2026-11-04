@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x200051C")]
+[Token(Token = "0x200054C")]
 [Flags]
 internal enum PInfo
 {
-	[Token(Token = "0x4001554")]
+	[Token(Token = "0x4001553")]
 	Attributes = 1,
-	[Token(Token = "0x4001555")]
+	[Token(Token = "0x4001554")]
 	GetMethod = 2,
-	[Token(Token = "0x4001556")]
+	[Token(Token = "0x4001555")]
 	SetMethod = 4,
-	[Token(Token = "0x4001557")]
+	[Token(Token = "0x4001556")]
 	ReflectedType = 8,
-	[Token(Token = "0x4001558")]
+	[Token(Token = "0x4001557")]
 	DeclaringType = 0x10,
-	[Token(Token = "0x4001559")]
+	[Token(Token = "0x4001558")]
 	Name = 0x20
 }

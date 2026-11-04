@@ -15,14 +15,14 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000002")]
-[VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
+[VisibleToOtherModules]
 internal sealed class AssetFileNameExtensionAttribute : Attribute
 {
 	[Token(Token = "0x4000001")]
 	[FieldOffset(Offset = "0x10")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly string _003CpreferredExtension_003Ek__BackingField;
 
 	[Token(Token = "0x4000002")]
@@ -32,7 +32,7 @@ internal sealed class AssetFileNameExtensionAttribute : Attribute
 	private readonly IEnumerable<string> _003CotherExtensions_003Ek__BackingField;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4E9D990", Offset = "0x4E9D990", VA = "0x4E9D990")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public AssetFileNameExtensionAttribute(string preferredExtension, params string[] otherExtensions)
 	{
 	}

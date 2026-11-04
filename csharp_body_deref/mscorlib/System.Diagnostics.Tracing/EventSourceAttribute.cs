@@ -10,34 +10,34 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Tracing;
 
-[Token(Token = "0x20005EF")]
+[Token(Token = "0x20005C1")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class EventSourceAttribute : Attribute
 {
-	[Token(Token = "0x1700071A")]
+	[Token(Token = "0x170006A7")]
 	public string Guid
 	{
-		[Token(Token = "0x6002E9F")]
-		[Address(RVA = "0x3C7CD40", Offset = "0x3C7CD40", VA = "0x3C7CD40")]
+		[Token(Token = "0x6002BAC")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700071B")]
+	[Token(Token = "0x170006A8")]
 	public string Name
 	{
-		[Token(Token = "0x6002EA0")]
-		[Address(RVA = "0x3C7CD50", Offset = "0x3C7CD50", VA = "0x3C7CD50")]
+		[Token(Token = "0x6002BAD")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002EA1")]
-	[Address(RVA = "0x3C7CD60", Offset = "0x3C7CD60", VA = "0x3C7CD60")]
+	[Token(Token = "0x6002BAE")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public EventSourceAttribute()
 	{
 	}

@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000059")]
+[Token(Token = "0x2000057")]
 public class MonoPInvokeCallbackAttribute : Attribute
 {
-	[Token(Token = "0x4000158")]
+	[Token(Token = "0x4000153")]
 	[FieldOffset(Offset = "0x10")]
 	private Type type;
 
-	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x3F1C080", Offset = "0x3F1C080", VA = "0x3F1C080")]
+	[Token(Token = "0x60001C4")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public MonoPInvokeCallbackAttribute(Type t)
 	{
 	}

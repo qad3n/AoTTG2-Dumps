@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000A3")]
+[Token(Token = "0x20000CB")]
 public enum DateTimeKind
 {
-	[Token(Token = "0x4000254")]
+	[Token(Token = "0x40002EC")]
 	Unspecified,
-	[Token(Token = "0x4000255")]
+	[Token(Token = "0x40002ED")]
 	Utc,
-	[Token(Token = "0x4000256")]
+	[Token(Token = "0x40002EE")]
 	Local
 }

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000327")]
+[Token(Token = "0x2000232")]
 public interface IComponentChangeService
 {
-	[Token(Token = "0x6001512")]
+	[Token(Token = "0x6000F5A")]
 	void OnComponentChanged(object component, MemberDescriptor member, object oldValue, object newValue);
 
-	[Token(Token = "0x6001513")]
+	[Token(Token = "0x6000F5B")]
 	void OnComponentChanging(object component, MemberDescriptor member);
 }

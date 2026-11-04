@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000512")]
+[Token(Token = "0x200066C")]
 internal class RefillTimePerk : BasePerk
 {
-	[Token(Token = "0x170009DD")]
+	[Token(Token = "0x17000B0D")]
 	public override string Name
 	{
-		[Token(Token = "0x6003558")]
-		[Address(RVA = "0x41E6FF0", Offset = "0x41E6FF0", VA = "0x41E6FF0", Slot = "4")]
+		[Token(Token = "0x6003F85")]
+		[Address(RVA = "0x2160840", Offset = "0x215EE40", VA = "0x182160840", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170009DE")]
+	[Token(Token = "0x17000B0E")]
 	public override int MaxPoints
 	{
-		[Token(Token = "0x6003559")]
-		[Address(RVA = "0x41E7020", Offset = "0x41E7020", VA = "0x41E7020", Slot = "5")]
+		[Token(Token = "0x6003F86")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600355A")]
-	[Address(RVA = "0x41E4F10", Offset = "0x41E4F10", VA = "0x41E4F10")]
+	[Token(Token = "0x6003F87")]
+	[Address(RVA = "0x21466B0", Offset = "0x2144CB0", VA = "0x1821466B0")]
 	public RefillTimePerk()
 	{
 	}

@@ -24,43 +24,43 @@ internal class JsonSchemaWriter
 	private readonly JsonSchemaResolver _resolver;
 
 	[Token(Token = "0x6000ACF")]
-	[Address(RVA = "0x3DF8FB0", Offset = "0x3DF8FB0", VA = "0x3DF8FB0")]
+	[Address(RVA = "0x1C60950", Offset = "0x1C5EF50", VA = "0x181C60950")]
 	public JsonSchemaWriter(JsonWriter writer, JsonSchemaResolver resolver)
 	{
 	}
 
 	[Token(Token = "0x6000AD0")]
-	[Address(RVA = "0x3E04CC0", Offset = "0x3E04CC0", VA = "0x3E04CC0")]
+	[Address(RVA = "0x1C5EE00", Offset = "0x1C5D400", VA = "0x181C5EE00")]
 	private void ReferenceOrWriteSchema(JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AD1")]
-	[Address(RVA = "0x3DF9020", Offset = "0x3DF9020", VA = "0x3DF9020")]
+	[Address(RVA = "0x1C5F480", Offset = "0x1C5DA80", VA = "0x181C5F480")]
 	public void WriteSchema(JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AD2")]
-	[Address(RVA = "0x3E053B0", Offset = "0x3E053B0", VA = "0x3E053B0")]
+	[Address(RVA = "0x1C5F210", Offset = "0x1C5D810", VA = "0x181C5F210")]
 	private void WriteSchemaDictionaryIfNotNull(JsonWriter writer, string propertyName, IDictionary<string, JsonSchema> properties)
 	{
 	}
 
 	[Token(Token = "0x6000AD3")]
-	[Address(RVA = "0x3E057A0", Offset = "0x3E057A0", VA = "0x3E057A0")]
+	[Address(RVA = "0x1C5EF10", Offset = "0x1C5D510", VA = "0x181C5EF10")]
 	private void WriteItems(JsonSchema schema)
 	{
 	}
 
 	[Token(Token = "0x6000AD4")]
-	[Address(RVA = "0x3E04E20", Offset = "0x3E04E20", VA = "0x3E04E20")]
+	[Address(RVA = "0x1C60520", Offset = "0x1C5EB20", VA = "0x181C60520")]
 	private void WriteType(string propertyName, JsonWriter writer, JsonSchemaType type)
 	{
 	}
 
 	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x3E04DC0", Offset = "0x3E04DC0", VA = "0x3E04DC0")]
+	[Address(RVA = "0x1C5F1B0", Offset = "0x1C5D7B0", VA = "0x181C5F1B0")]
 	private void WritePropertyIfNotNull(JsonWriter writer, string propertyName, object value)
 	{
 	}

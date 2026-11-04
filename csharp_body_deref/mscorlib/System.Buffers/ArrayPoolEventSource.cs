@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x200067D")]
+[Token(Token = "0x2000651")]
 [EventSource(Guid = "0866B2B8-5CEF-5DB9-2612-0C0FFD814A44", Name = "System.Buffers.ArrayPoolEventSource")]
 internal sealed class ArrayPoolEventSource : EventSource
 {
-	[Token(Token = "0x200067E")]
+	[Token(Token = "0x2000652")]
 	internal enum BufferAllocatedReason
 	{
-		[Token(Token = "0x4001B74")]
+		[Token(Token = "0x4001976")]
 		Pooled,
-		[Token(Token = "0x4001B75")]
+		[Token(Token = "0x4001977")]
 		OverMaximumSize,
-		[Token(Token = "0x4001B76")]
+		[Token(Token = "0x4001978")]
 		PoolExhausted
 	}
 
-	[Token(Token = "0x4001B72")]
+	[Token(Token = "0x4001974")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly System.Buffers.ArrayPoolEventSource Log;
 
-	[Token(Token = "0x6003348")]
-	[Address(RVA = "0x3C8F070", Offset = "0x3C8F070", VA = "0x3C8F070")]
+	[Token(Token = "0x6003062")]
+	[Address(RVA = "0x1ACCE70", Offset = "0x1ACB470", VA = "0x181ACCE70")]
 	private ArrayPoolEventSource()
 	{
 	}
 
-	[Token(Token = "0x6003349")]
-	[Address(RVA = "0x3C8F110", Offset = "0x3C8F110", VA = "0x3C8F110")]
+	[Token(Token = "0x6003063")]
+	[Address(RVA = "0x1ACCBF0", Offset = "0x1ACB1F0", VA = "0x181ACCBF0")]
 	[Event(1, Level = EventLevel.Verbose)]
 	internal void BufferRented(int bufferId, int bufferSize, int poolId, int bucketId)
 	{
 	}
 
-	[Token(Token = "0x600334A")]
-	[Address(RVA = "0x3C8F1E0", Offset = "0x3C8F1E0", VA = "0x3C8F1E0")]
+	[Token(Token = "0x6003064")]
+	[Address(RVA = "0x1ACCAE0", Offset = "0x1ACB0E0", VA = "0x181ACCAE0")]
 	[Event(2, Level = EventLevel.Informational)]
 	internal void BufferAllocated(int bufferId, int bufferSize, int poolId, int bucketId, BufferAllocatedReason reason)
 	{
 	}
 
-	[Token(Token = "0x600334B")]
-	[Address(RVA = "0x3C8F2D0", Offset = "0x3C8F2D0", VA = "0x3C8F2D0")]
+	[Token(Token = "0x6003065")]
+	[Address(RVA = "0x1ACCCE0", Offset = "0x1ACB2E0", VA = "0x181ACCCE0")]
 	[Event(3, Level = EventLevel.Verbose)]
 	internal void BufferReturned(int bufferId, int bufferSize, int poolId)
 	{
 	}
 
-	[Token(Token = "0x600334C")]
-	[Address(RVA = "0x3C8F2E0", Offset = "0x3C8F2E0", VA = "0x3C8F2E0")]
+	[Token(Token = "0x6003066")]
+	[Address(RVA = "0x1ACCD40", Offset = "0x1ACB340", VA = "0x181ACCD40")]
 	[Event(4, Level = EventLevel.Informational)]
 	internal void BufferTrimmed(int bufferId, int bufferSize, int poolId)
 	{
 	}
 
-	[Token(Token = "0x600334D")]
-	[Address(RVA = "0x3C8F2F0", Offset = "0x3C8F2F0", VA = "0x3C8F2F0")]
+	[Token(Token = "0x6003067")]
+	[Address(RVA = "0x1ACCD10", Offset = "0x1ACB310", VA = "0x181ACCD10")]
 	[Event(5, Level = EventLevel.Informational)]
 	internal void BufferTrimPoll(int milliseconds, int pressure)
 	{

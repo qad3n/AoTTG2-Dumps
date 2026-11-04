@@ -1,5 +1,5 @@
 // Type: GameManagers.BaseGameManager
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameManagers/BaseGameManager.cs
@@ -8,14 +8,14 @@
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$.ctor
 // il2cpp: void GameManagers_BaseGameManager__WaitAndLoad_d__2___ctor (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x45427b0
+// 0x180573ef0
 
-void GameManagers_BaseGameManager__WaitAndLoad_d__2___ctor
-               (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,int32_t __1__state,MethodInfo *method
-               )
+void
+GameManagers_BaseGameManager__WaitAndLoad_d__2___ctor(GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ void GameManagers_BaseGameManager__WaitAndLoad_d__2___ctor
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$System.IDisposable.Dispose
 // il2cpp: void GameManagers_BaseGameManager__WaitAndLoad_d__2__System_IDisposable_Dispose (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, const MethodInfo* method);
-// 0x45428e0
+// 0x180547020
 
-void GameManagers_BaseGameManager__WaitAndLoad_d__2__System_IDisposable_Dispose
-               (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
+void
+GameManagers_BaseGameManager__WaitAndLoad_d__2__System_IDisposable_Dispose(GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, MethodInfo* method)
 
 {
   return;
@@ -35,71 +35,59 @@ void GameManagers_BaseGameManager__WaitAndLoad_d__2__System_IDisposable_Dispose
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$MoveNext
 // il2cpp: bool GameManagers_BaseGameManager__WaitAndLoad_d__2__MoveNext (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, const MethodInfo* method);
-// 0x45428f0
+// 0x181e41d90
 
-bool_conflict
-GameManagers_BaseGameManager__WaitAndLoad_d__2__MoveNext
-          (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
+bool GameManagers_BaseGameManager__WaitAndLoad_d__2__MoveNext
+               (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
 
 {
   GameManagers_BaseGameManager_o *pGVar1;
-  long *plVar2;
-  char cVar3;
-  bool_conflict bVar4;
-  long *plVar5;
+  Cameras_BaseCamera_o *pCVar2;
+  bool bVar3;
+  MethodInfo *in_R8;
   
-  plVar5 = (long *)__this;
-  if (g_data_057aef44 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    plVar5 = &TypeInfo_WeatherManager;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aef44 = '\x01';
+  if (Il2CppMethodInitialized_184344de9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_WeatherManager);
+    Il2CppMethodInitialized_184344de9 = '\x01';
   }
-  if ((uint)(__this->fields).__1__state < 2) {
-    pGVar1 = (__this->fields).__4__this;
-    (__this->fields).__1__state = -1;
-    if (pGVar1 == (GameManagers_BaseGameManager_o *)0x0) {
-label_045429e1:
-      il2cpp_runtime_helper_022b2c90();
-      return (bool_conflict)
-             (((GameManagers_BaseGameManager__WaitAndLoad_d__2_o *)plVar5)->fields).__2__current;
-    }
-    cVar3 = (*(pGVar1->klass->vtable)._56_IsFinishedLoading.methodPtr)
+  if (1 < (uint)(__this->fields).__1__state) {
+    return false;
+  }
+  pGVar1 = (__this->fields).__4__this;
+  (__this->fields).__1__state = -1;
+  if (pGVar1 != (GameManagers_BaseGameManager_o *)0x0) {
+    bVar3 = (*(pGVar1->klass->vtable)._56_IsFinishedLoading.methodPtr)
                       (pGVar1,(pGVar1->klass->vtable)._56_IsFinishedLoading.method);
-    if (cVar3 == '\0') {
+    if (!bVar3) {
       (__this->fields).__2__current = (Il2CppObject *)0x0;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
       (__this->fields).__1__state = 1;
-      bVar4 = (bool_conflict)CONCAT71((int7)((ulong)pGVar1 >> 8),1);
+      return true;
     }
-    else {
-      (*(pGVar1->klass->vtable)._57_OnFinishLoading.methodPtr)
-                (pGVar1,(pGVar1->klass->vtable)._57_OnFinishLoading.method);
-      plVar2 = *(long **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-      plVar5 = (long *)0x0;
-      if (plVar2 == (long *)0x0) goto label_045429e1;
-      (**(code **)(*plVar2 + 0x188))(plVar2,*(undefined8 *)(*plVar2 + 400));
-      if (*(int *)(TypeInfo_WeatherManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    (*(pGVar1->klass->vtable)._57_OnFinishLoading.methodPtr)
+              (pGVar1,(System_Type_o *)(pGVar1->klass->vtable)._57_OnFinishLoading.method,in_R8);
+    pCVar2 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+    if (pCVar2 != (Cameras_BaseCamera_o *)0x0) {
+      (*(pCVar2->klass->vtable)._5_OnFinishLoading.methodPtr)
+                (pCVar2,(System_Int32_array *)(pCVar2->klass->vtable)._5_OnFinishLoading.method,in_R8);
+      if ((TypeInfo_Weather_WeatherManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_WeatherManager);
       }
-      bVar4 = 0;
       Weather_WeatherManager__OnFinishLoading((MethodInfo *)0x0);
+      return false;
     }
   }
-  else {
-    bVar4 = 0;
-  }
-  return bVar4;
+  ThrowNullReferenceException();
 }
 
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_Generic_IEnumerator_System_Object__get_Current (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, const MethodInfo* method);
-// 0x45429f0
+// 0x180573e90
 
-Il2CppObject *
-GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
+Il2CppObject*
+GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_Generic_IEnumerator_System_Object__get_Current(GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -108,31 +96,34 @@ GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_Generic_IEnum
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$System.Collections.IEnumerator.Reset
 // il2cpp: void GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_Reset (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, const MethodInfo* method);
-// 0x4542a00
+// 0x181e41ea0
 
 void GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_Reset
                (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_GameManagers_BaseGameManager_WaitAndLoad_d__2_System_Collections_IEnumerator_Reset
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // GameManagers.BaseGameManager.<WaitAndLoad>d__2$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_get_Current (GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, const MethodInfo* method);
-// 0x4542a40
+// 0x180573e90
 
-Il2CppObject *
-GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_get_Current
-          (GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this,MethodInfo *method)
+Il2CppObject*
+GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_get_Current(GameManagers_BaseGameManager__WaitAndLoad_d__2_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -141,9 +132,10 @@ GameManagers_BaseGameManager__WaitAndLoad_d__2__System_Collections_IEnumerator_g
 
 // GameManagers.BaseGameManager$$Awake
 // il2cpp: void GameManagers_BaseGameManager__Awake (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x45426b0
+// 0x180547020
 
-void GameManagers_BaseGameManager__Awake(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
+void
+GameManagers_BaseGameManager__Awake(GameManagers_BaseGameManager_o* __this, MethodInfo* method)
 
 {
   return;
@@ -152,146 +144,91 @@ void GameManagers_BaseGameManager__Awake(GameManagers_BaseGameManager_o *__this,
 
 // GameManagers.BaseGameManager$$Start
 // il2cpp: void GameManagers_BaseGameManager__Start (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x45426c0
+// 0x181e32220
 
 void GameManagers_BaseGameManager__Start(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
 
 {
-  Il2CppClass *__this_00;
-  Il2CppObject *__this_01;
-  undefined4 uVar1;
-  Il2CppClass *pIVar2;
-  Il2CppObject *__this_02;
+  GameManagers_BaseGameManager__WaitAndLoad_d__2_o *routine;
   
-  if (g_data_057aef42 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndLoad_d__2);
-    g_data_057aef42 = '\x01';
+  if (Il2CppMethodInitialized_184344de7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_BaseGameManager_WaitAndLoad_d__2);
+    Il2CppMethodInitialized_184344de7 = '\x01';
   }
-  __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndLoad_d__2);
-  pIVar2 = __this_00;
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->_1).name = 0;
-  if (__this_00 != (Il2CppClass *)0x0) {
-    (__this_00->_1).byval_arg.data = __this;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this);
-    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-              ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
-               (MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aef42 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndLoad_d__2);
-    g_data_057aef42 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndLoad_d__2);
-  uVar1 = 0;
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = pIVar2;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar2);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_02[1].klass = uVar1;
+  routine = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameManagers_BaseGameManager_WaitAndLoad_d__2);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+  (routine->fields).__1__state = 0;
+  (routine->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+  UnityEngine_MonoBehaviour__StartCoroutine_Auto
+            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+             (MethodInfo *)0x0);
   return;
 }
 
 
 // GameManagers.BaseGameManager$$WaitAndLoad
 // il2cpp: System_Collections_IEnumerator_o* GameManagers_BaseGameManager__WaitAndLoad (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x4542740
+// 0x181e322a0
 
 System_Collections_IEnumerator_o *
 GameManagers_BaseGameManager__WaitAndLoad(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  GameManagers_BaseGameManager__WaitAndLoad_d__2_o *__this_00;
   
-  if (g_data_057aef42 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndLoad_d__2);
-    g_data_057aef42 = '\x01';
+  if (Il2CppMethodInitialized_184344de7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_BaseGameManager_WaitAndLoad_d__2);
+    Il2CppMethodInitialized_184344de7 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndLoad_d__2);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_GameManagers_BaseGameManager_WaitAndLoad_d__2)
+  ;
+  System_Configuration_ConfigurationCollectionAttribute___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // GameManagers.BaseGameManager$$IsFinishedLoading
 // il2cpp: bool GameManagers_BaseGameManager__IsFinishedLoading (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x45427d0
+// 0x181e32170
 
-bool_conflict
-GameManagers_BaseGameManager__IsFinishedLoading(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
+bool GameManagers_BaseGameManager__IsFinishedLoading
+               (GameManagers_BaseGameManager_o *__this,MethodInfo *method)
 
 {
-  char cVar1;
-  int iVar2;
-  long lVar3;
+  bool addonsLoaded;
+  bool bVar1;
   
-  if (g_data_057aef43 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapManager);
-    g_data_057aef43 = '\x01';
-    iVar2 = *(int *)(TypeInfo_CustomLogicManager + 0xe4);
+  if (Il2CppMethodInitialized_184344de8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapManager);
+    Il2CppMethodInitialized_184344de8 = '\x01';
   }
-  else {
-    iVar2 = *(int *)(TypeInfo_CustomLogicManager + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicManager);
   }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = *(long *)(TypeInfo_CustomLogicManager + 0xb8);
-    cVar1 = *(char *)(lVar3 + 0x10);
+  bVar1 = TypeInfo_CustomLogic_CustomLogicManager->static_fields->LogicLoaded;
+  addonsLoaded = TypeInfo_CustomLogic_CustomLogicManager->static_fields->AddonsLoaded;
+  if ((TypeInfo_Map_MapManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_MapManager);
   }
-  else {
-    lVar3 = *(long *)(TypeInfo_CustomLogicManager + 0xb8);
-    cVar1 = *(char *)(lVar3 + 0x10);
-  }
-  if (cVar1 != '\0') {
-    if (*(int *)(TypeInfo_CustomLogicManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      cVar1 = *(char *)(*(long *)(TypeInfo_CustomLogicManager + 0xb8) + 0x11);
-    }
-    else {
-      cVar1 = *(char *)(lVar3 + 0x11);
-    }
-    if (cVar1 == '\0') {
-      return 0;
-    }
-    if (*(int *)(TypeInfo_MapManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    return (bool_conflict)
-           CONCAT71((int7)((ulong)*(char **)(TypeInfo_MapManager + 0xb8) >> 8),
-                    **(char **)(TypeInfo_MapManager + 0xb8) != '\0');
-  }
-  return 0;
+  bVar1 = Map_ContentLoadingState__IsFinished
+                    (bVar1,addonsLoaded,TypeInfo_Map_MapManager->static_fields->MapLoaded,(MethodInfo *)0x0);
+  return bVar1;
 }
 
 
 // GameManagers.BaseGameManager$$OnFinishLoading
 // il2cpp: void GameManagers_BaseGameManager__OnFinishLoading (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x45428c0
+// 0x180547020
 
-void GameManagers_BaseGameManager__OnFinishLoading(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
+void
+GameManagers_BaseGameManager__OnFinishLoading(GameManagers_BaseGameManager_o* __this, MethodInfo* method)
 
 {
   return;
@@ -300,13 +237,13 @@ void GameManagers_BaseGameManager__OnFinishLoading(GameManagers_BaseGameManager_
 
 // GameManagers.BaseGameManager$$.ctor
 // il2cpp: void GameManagers_BaseGameManager___ctor (GameManagers_BaseGameManager_o* __this, const MethodInfo* method);
-// 0x45428d0
+// 0x18190eda0
 
-void GameManagers_BaseGameManager___ctor(GameManagers_BaseGameManager_o *__this,MethodInfo *method)
+void
+GameManagers_BaseGameManager___ctor(GameManagers_BaseGameManager_o* __this, MethodInfo* method)
 
 {
-  Photon_Pun_MonoBehaviourPunCallbacks___ctor
-            ((Photon_Pun_MonoBehaviourPunCallbacks_o *)__this,(MethodInfo *)0x0);
+  Photon_Pun_MonoBehaviourPunCallbacks___ctor((GetParentPosition_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000523")]
+[Token(Token = "0x2000617")]
 internal enum LayoutMeasureMode
 {
-	[Token(Token = "0x4001153")]
+	[Token(Token = "0x40016CC")]
 	Undefined = 0,
-	[Token(Token = "0x4001154")]
+	[Token(Token = "0x40016CD")]
 	Exactly = 1,
-	[Token(Token = "0x4001155")]
+	[Token(Token = "0x40016CE")]
 	AtMost = 2,
-	[Token(Token = "0x4001156")]
+	[Token(Token = "0x40016CF")]
 	Invalid = -1
 }

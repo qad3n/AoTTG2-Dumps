@@ -51,7 +51,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	public int Count
 	{
 		[Token(Token = "0x600157B")]
-		[Address(RVA = "0x471FAF0", Offset = "0x471FAF0", VA = "0x471FAF0")]
+		[Address(RVA = "0x243D420", Offset = "0x243BA20", VA = "0x18243D420")]
 		get
 		{
 			return default(int);
@@ -62,7 +62,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	public XmlNameTable NameTable
 	{
 		[Token(Token = "0x600157C")]
-		[Address(RVA = "0x471FB20", Offset = "0x471FB20", VA = "0x471FB20")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	internal XmlResolver XmlResolver
 	{
 		[Token(Token = "0x600157D")]
-		[Address(RVA = "0x471FB30", Offset = "0x471FB30", VA = "0x471FB30")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
@@ -83,7 +83,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	public XmlSchema this[string ns]
 	{
 		[Token(Token = "0x600157E")]
-		[Address(RVA = "0x471FB40", Offset = "0x471FB40", VA = "0x471FB40")]
+		[Address(RVA = "0x2667360", Offset = "0x2665960", VA = "0x182667360")]
 		get
 		{
 			return null;
@@ -94,7 +94,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
 		[Token(Token = "0x6001582")]
-		[Address(RVA = "0x47200C0", Offset = "0x47200C0", VA = "0x47200C0", Slot = "7")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -105,7 +105,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
 		[Token(Token = "0x6001583")]
-		[Address(RVA = "0x47200D0", Offset = "0x47200D0", VA = "0x47200D0", Slot = "6")]
+		[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "6")]
 		get
 		{
 			return null;
@@ -116,7 +116,7 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	private int System_002ECollections_002EICollection_002ECount
 	{
 		[Token(Token = "0x6001584")]
-		[Address(RVA = "0x47200E0", Offset = "0x47200E0", VA = "0x47200E0", Slot = "5")]
+		[Address(RVA = "0x243D420", Offset = "0x243BA20", VA = "0x18243D420", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -127,74 +127,74 @@ public sealed class XmlSchemaCollection : ICollection, IEnumerable
 	internal ValidationEventHandler EventHandler
 	{
 		[Token(Token = "0x600158A")]
-		[Address(RVA = "0x4720480", Offset = "0x4720480", VA = "0x4720480")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600158B")]
-		[Address(RVA = "0x4720490", Offset = "0x4720490", VA = "0x4720490")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600157A")]
-	[Address(RVA = "0x471F9C0", Offset = "0x471F9C0", VA = "0x471F9C0")]
+	[Address(RVA = "0x2667220", Offset = "0x2665820", VA = "0x182667220")]
 	public XmlSchemaCollection(XmlNameTable nametable)
 	{
 	}
 
 	[Token(Token = "0x600157F")]
-	[Address(RVA = "0x471FBF0", Offset = "0x471FBF0", VA = "0x471FBF0", Slot = "8")]
+	[Address(RVA = "0x2667190", Offset = "0x2665790", VA = "0x182667190", Slot = "8")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001580")]
-	[Address(RVA = "0x471FCC0", Offset = "0x471FCC0", VA = "0x471FCC0")]
+	[Address(RVA = "0x2666D80", Offset = "0x2665380", VA = "0x182666D80")]
 	public XmlSchemaCollectionEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001581")]
-	[Address(RVA = "0x471FD40", Offset = "0x471FD40", VA = "0x471FD40", Slot = "4")]
+	[Address(RVA = "0x2666F80", Offset = "0x2665580", VA = "0x182666F80", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
 	[Token(Token = "0x6001585")]
-	[Address(RVA = "0x4719F00", Offset = "0x4719F00", VA = "0x4719F00")]
+	[Address(RVA = "0x2666E10", Offset = "0x2665410", VA = "0x182666E10")]
 	internal SchemaInfo GetSchemaInfo(string ns)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001586")]
-	[Address(RVA = "0x4720110", Offset = "0x4720110", VA = "0x4720110")]
+	[Address(RVA = "0x2666EC0", Offset = "0x26654C0", VA = "0x182666EC0")]
 	internal SchemaNames GetSchemaNames(XmlNameTable nt)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001587")]
-	[Address(RVA = "0x4717F20", Offset = "0x4717F20", VA = "0x4717F20")]
+	[Address(RVA = "0x2666A90", Offset = "0x2665090", VA = "0x182666A90")]
 	internal XmlSchema Add(string ns, SchemaInfo schemaInfo, XmlSchema schema, bool compile)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001588")]
-	[Address(RVA = "0x47201B0", Offset = "0x47201B0", VA = "0x47201B0")]
+	[Address(RVA = "0x2666C10", Offset = "0x2665210", VA = "0x182666C10")]
 	private XmlSchema Add(string ns, SchemaInfo schemaInfo, XmlSchema schema, bool compile, XmlResolver resolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001589")]
-	[Address(RVA = "0x4720330", Offset = "0x4720330", VA = "0x4720330")]
+	[Address(RVA = "0x2666960", Offset = "0x2664F60", VA = "0x182666960")]
 	private void Add(string ns, XmlSchemaCollectionNode node)
 	{
 	}

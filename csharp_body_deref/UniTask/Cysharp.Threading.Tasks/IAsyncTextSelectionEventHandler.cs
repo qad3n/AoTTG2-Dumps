@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000172")]
+[Token(Token = "0x2000175")]
 public interface IAsyncTextSelectionEventHandler<T> : IDisposable
 {
-	[Token(Token = "0x60008DF")]
+	[Token(Token = "0x6000903")]
 	UniTask<T> OnTextSelectionAsync();
 }

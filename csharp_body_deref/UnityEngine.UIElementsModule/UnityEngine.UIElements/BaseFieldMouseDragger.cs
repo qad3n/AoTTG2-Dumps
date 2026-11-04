@@ -10,21 +10,21 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x200024A")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public abstract class BaseFieldMouseDragger
 {
-	[Token(Token = "0x6000CEF")]
-	[Address(RVA = "0x503D7B0", Offset = "0x503D7B0", VA = "0x503D7B0")]
+	[Token(Token = "0x6000F33")]
+	[Address(RVA = "0x32566C0", Offset = "0x3254CC0", VA = "0x1832566C0")]
 	public void SetDragZone(VisualElement dragElement)
 	{
 	}
 
-	[Token(Token = "0x6000CF0")]
+	[Token(Token = "0x6000F34")]
 	public abstract void SetDragZone(VisualElement dragElement, Rect hotZone);
 
-	[Token(Token = "0x6000CF1")]
-	[Address(RVA = "0x503D7D0", Offset = "0x503D7D0", VA = "0x503D7D0")]
+	[Token(Token = "0x6000F35")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected BaseFieldMouseDragger()
 	{
 	}

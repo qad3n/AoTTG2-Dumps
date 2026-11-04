@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F2")]
+[Token(Token = "0x2000114")]
 [Flags]
 public enum LightmapsMode
 {
-	[Token(Token = "0x4000327")]
+	[Token(Token = "0x4000377")]
 	NonDirectional = 0,
-	[Token(Token = "0x4000328")]
+	[Token(Token = "0x4000378")]
 	CombinedDirectional = 1
 }

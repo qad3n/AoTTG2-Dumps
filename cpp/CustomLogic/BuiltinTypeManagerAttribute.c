@@ -1,5 +1,5 @@
 // Type: CustomLogic.BuiltinTypeManagerAttribute
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/BuiltinTypeManagerAttribute.cs
@@ -8,13 +8,14 @@
 
 // CustomLogic.BuiltinTypeManagerAttribute$$.ctor
 // il2cpp: void CustomLogic_BuiltinTypeManagerAttribute___ctor (CustomLogic_BuiltinTypeManagerAttribute_o* __this, const MethodInfo* method);
-// 0x40b9150
+// 0x1805386d0
 
-void CustomLogic_BuiltinTypeManagerAttribute___ctor
-               (CustomLogic_BuiltinTypeManagerAttribute_o *__this,MethodInfo *method)
+void
+CustomLogic_BuiltinTypeManagerAttribute___ctor(CustomLogic_BuiltinTypeManagerAttribute_o* __this, MethodInfo* method)
 
 {
-  System_Attribute___ctor((System_Attribute_o *)__this,(MethodInfo *)0x0);
+  System_Attribute___ctor
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

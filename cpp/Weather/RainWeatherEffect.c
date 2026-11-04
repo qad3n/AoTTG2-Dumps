@@ -1,5 +1,5 @@
 // Type: Weather.RainWeatherEffect
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Weather/RainWeatherEffect.cs
@@ -8,367 +8,348 @@
 
 // Weather.RainWeatherEffect$$get__positionOffset
 // il2cpp: UnityEngine_Vector3_o Weather_RainWeatherEffect__get__positionOffset (Weather_RainWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406c1c0
+// 0x181dae3b0
 
-UnityEngine_Vector3_o
-Weather_RainWeatherEffect__get__positionOffset(Weather_RainWeatherEffect_o *__this,MethodInfo *method)
+UnityEngine_Vector3_o *
+Weather_RainWeatherEffect__get__positionOffset
+          (UnityEngine_Vector3_o *__return_storage_ptr__,Weather_RainWeatherEffect_o *__this,
+          MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  UnityEngine_Vector3_o UVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector3_StaticFields *pUVar3;
   
-  if (g_data_057a6844 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-    g_data_057a6844 = '\x01';
+  if (Il2CppMethodInitialized_18433de5c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433de5c = '\x01';
   }
-  uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-  UVar2.fields.x = (float)uVar1 * 30.0;
-  UVar2.fields.y = (float)((ulong)uVar1 >> 0x20) * 30.0;
-  UVar2.fields.z = *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20) * 30.0;
-  return (UnityEngine_Vector3_o)UVar2.fields;
+  pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+  (__return_storage_ptr__->fields).x = (pUVar3->upVector).fields.x * 30.0;
+  uVar1 = (pUVar3->upVector).fields.y;
+  uVar2 = (pUVar3->upVector).fields.z;
+  (__return_storage_ptr__->fields).y = (float)uVar1 * 30.0;
+  (__return_storage_ptr__->fields).z = (float)uVar2 * 30.0;
+  return __return_storage_ptr__;
 }
 
 
 // Weather.RainWeatherEffect$$Randomize
 // il2cpp: void Weather_RainWeatherEffect__Randomize (Weather_RainWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406c210
+// 0x181dadcd0
+// eh: try 0x181daddc2..0x181dae08a -> pad 0x1833193c0 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dae021: mov rdx, qword ptr [rip + 0x22e1e20]  ; MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose
+// asm:   0x181dae028: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181dae02d: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181dae032: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181dae037: test rcx, rcx
+// asm:   0x181dae03a: jne 0x181dae08a
+// asm:   0x181dae08a: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x1833193c0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833193c5: push rbp
+// asm:   0x1833193c6: sub rsp, 0x30
+// asm:   0x1833193ca: mov rbp, rdx
+// asm:   0x1833193cd: mov rax, qword ptr [rbp + 0xd0]
+// asm:   0x1833193d4: mov rcx, qword ptr [rax]
+// asm:   0x1833193d7: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x1833193db: movabs rax, 0
+// asm:   0x1833193e5: add rsp, 0x30
+// asm:   0x1833193e9: pop rbp
+// asm:   0x1833193ea: ret 
 
 void Weather_RainWeatherEffect__Randomize(Weather_RainWeatherEffect_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_ParticleSystem__o *__this_00;
-  long lVar1;
+  undefined8 uVar1;
   undefined8 uVar2;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  bool_conflict bVar3;
-  UnityEngine_Transform_o *pUVar4;
-  UnityEngine_Transform_o *pUVar5;
-  long *plVar6;
-  float maxInclusive;
+  undefined8 uVar3;
+  float fVar4;
+  float fVar5;
+  System_Collections_Generic_List_ParticleSystem__o *__this_00;
+  UnityEngine_Quaternion_StaticFields *pUVar6;
+  UnityEngine_Vector3_StaticFields *pUVar7;
+  Il2CppObject *__this_01;
+  bool bVar8;
+  UnityEngine_Transform_o *pUVar9;
+  UnityEngine_Vector3_o *pUVar10;
+  UnityEngine_Transform_o *pUVar11;
+  float fVar12;
   float angle;
-  float angle_00;
-  UnityEngine_Vector3_o UVar7;
-  UnityEngine_Vector3_o point;
-  UnityEngine_Vector3_o point_00;
-  UnityEngine_Vector3_o axis;
-  undefined1 auVar8 [12];
-  undefined4 in_stack_ffffffffffffff68;
-  float in_stack_ffffffffffffff6c;
-  float in_stack_ffffffffffffff74;
-  _union_249689 _Var9;
-  _union_249689 a_Stack_48 [2];
-  UnityEngine_Component_o *pUStack_38;
+  System_Collections_Generic_List_Enumerator_object__o local_148;
+  UnityEngine_Vector3_Fields local_128;
+  UnityEngine_Vector3_Fields local_118;
+  UnityEngine_Vector3_Fields local_108;
+  UnityEngine_Vector3_Fields local_f8;
+  UnityEngine_Vector3_Fields local_e8;
+  System_Collections_Generic_List_Enumerator_T__o local_d8;
+  UnityEngine_Vector3_o local_b0;
+  UnityEngine_Vector3_o local_a0;
+  UnityEngine_Vector3_o local_90 [8];
   
-  if (g_data_057ac2f0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParticleSystem_get_Current);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2f0 = '\x01';
+  if (Il2CppMethodInitialized_184344920 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ParticleSystem_GetEnumerator);
+    Il2CppMethodInitialized_184344920 = '\x01';
   }
-  _Var9.genericMethod = (Il2CppObject *)0x0;
-  maxInclusive = UnityEngine_Random__Range(0.0,20.0,(MethodInfo *)0x0);
-  angle = UnityEngine_Random__Range(-maxInclusive,maxInclusive,(MethodInfo *)0x0);
+  local_148.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_148.fields._index = 0;
+  local_148.fields._version = 0;
+  local_148.fields._current = (Il2CppObject *)0x0;
+  fVar12 = UnityEngine_Random__Range(0.0,20.0,(MethodInfo *)0x0);
+  fVar12 = UnityEngine_Random__Range(-fVar12,fVar12,(MethodInfo *)0x0);
   __this_00 = (__this->fields)._particleSystems;
-  if (__this_00 != (System_Collections_Generic_List_ParticleSystem__o *)0x0) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)a_Stack_48,
-               (System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_T_Enumerator_UnityEngine_ParticleSystem_GetEnumer);
-    _Var9 = a_Stack_48[0];
-    while( true ) {
-      __this_01.fields._list._4_4_ = in_stack_ffffffffffffff6c;
-      __this_01.fields._list._0_4_ = in_stack_ffffffffffffff68;
-      __this_01.fields._index = (int32_t)angle;
-      __this_01.fields._version = (int32_t)in_stack_ffffffffffffff74;
-      __this_01.fields._current = _Var9.genericMethod;
-      bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_321A1D0 *)&stack0xffffffffffffff78);
-      if ((char)bVar3 == '\0') {
-        __this_02.fields._list._4_4_ = in_stack_ffffffffffffff6c;
-        __this_02.fields._list._0_4_ = in_stack_ffffffffffffff68;
-        __this_02.fields._index = (int32_t)angle;
-        __this_02.fields._version = (int32_t)in_stack_ffffffffffffff74;
-        __this_02.fields._current = _Var9.genericMethod;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-        return;
-      }
-      if (pUStack_38 == (UnityEngine_Component_o *)0x0) break;
-      pUVar4 = UnityEngine_Component__get_transform(pUStack_38,(MethodInfo *)0x0);
-      uVar2 = (*(__this->klass->vtable)._4_get__positionOffset.methodPtr)(__this);
-      if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_0406c4e9;
-      UVar7.fields.z = maxInclusive;
-      UVar7.fields.x = (float)(int)uVar2;
-      UVar7.fields.y = (float)(int)((ulong)uVar2 >> 0x20);
-      UnityEngine_Transform__set_localPosition(pUVar4,UVar7,(MethodInfo *)0x0);
-      pUVar4 = UnityEngine_Component__get_transform(pUStack_38,(MethodInfo *)0x0);
-      maxInclusive = in_stack_ffffffffffffff6c;
-      if (g_data_057a6843 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-        g_data_057a6843 = '\x01';
-        maxInclusive = in_stack_ffffffffffffff6c;
-      }
-      if (pUVar4 == (UnityEngine_Transform_o *)0x0) {
-        il2cpp_runtime_helper_022b2c90();
-label_0406c4df:
-        il2cpp_runtime_helper_022b2c90();
-        in_stack_ffffffffffffff6c = maxInclusive;
-        break;
-      }
-      UnityEngine_Transform__set_localRotation
-                (pUVar4,(UnityEngine_Quaternion_o)**(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8),
-                 (MethodInfo *)0x0);
-      pUVar5 = UnityEngine_Component__get_transform(pUStack_38,(MethodInfo *)0x0);
-      pUVar4 = (__this->fields)._transform;
-      if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_0406c4ee;
-      UVar7 = UnityEngine_Transform__get_position(pUVar4,(MethodInfo *)0x0);
-      maxInclusive = UVar7.fields.z;
-      if (g_data_057a6846 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-        g_data_057a6846 = '\x01';
-      }
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406c4df;
-      point.fields.z = maxInclusive;
-      point.fields.x = (float)(int)UVar7.fields._0_8_;
-      point.fields.y = (float)(int)((ulong)UVar7.fields._0_8_ >> 0x20);
-      UnityEngine_Transform__RotateAround
-                (pUVar5,point,
-                 (UnityEngine_Vector3_o)*(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x48)
-                 ,angle,(MethodInfo *)0x0);
-      pUVar5 = UnityEngine_Component__get_transform(pUStack_38,(MethodInfo *)0x0);
-      pUVar4 = (__this->fields)._transform;
-      if (pUVar4 == (UnityEngine_Transform_o *)0x0) goto label_0406c4f3;
-      UVar7 = UnityEngine_Transform__get_position(pUVar4,(MethodInfo *)0x0);
-      maxInclusive = UVar7.fields.z;
-      if (g_data_057a6844 == '\0') {
-        il2cpp_runtime_helper_023445d0();
-        g_data_057a6844 = '\x01';
-      }
-      uVar2 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-      in_stack_ffffffffffffff74 = *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20);
-      angle_00 = UnityEngine_Random__Range(0.0,360.0,(MethodInfo *)0x0);
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406c4f8;
-      point_00.fields.z = maxInclusive;
-      point_00.fields.x = (float)(int)UVar7.fields._0_8_;
-      point_00.fields.y = (float)(int)((ulong)UVar7.fields._0_8_ >> 0x20);
-      axis.fields.z = in_stack_ffffffffffffff74;
-      axis.fields._0_8_ = uVar2;
-      in_stack_ffffffffffffff6c = maxInclusive;
-      UnityEngine_Transform__RotateAround(pUVar5,point_00,axis,angle_00,(MethodInfo *)0x0);
-    }
-    il2cpp_runtime_helper_022b2c90();
-label_0406c4e9:
-    maxInclusive = in_stack_ffffffffffffff6c;
-    il2cpp_runtime_helper_022b2c90();
-label_0406c4ee:
-    il2cpp_runtime_helper_022b2c90();
-label_0406c4f3:
-    il2cpp_runtime_helper_022b2c90();
-label_0406c4f8:
-    il2cpp_runtime_helper_022b2c90();
-    in_stack_ffffffffffffff6c = maxInclusive;
+  if (__this_00 == (System_Collections_Generic_List_ParticleSystem__o *)0x0) {
+    ThrowNullReferenceException();
   }
-  auVar8 = il2cpp_runtime_helper_022b2c90();
-  if (auVar8._8_4_ == 1) {
-    plVar6 = (long *)__cxa_begin_catch(auVar8._0_8_);
-    lVar1 = *plVar6;
-    __cxa_end_catch();
-    __this_03.fields._list._4_4_ = in_stack_ffffffffffffff6c;
-    __this_03.fields._list._0_4_ = in_stack_ffffffffffffff68;
-    __this_03.fields._index = (int32_t)angle;
-    __this_03.fields._version = (int32_t)in_stack_ffffffffffffff74;
-    __this_03.fields._current = _Var9.genericMethod;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-    if (lVar1 == 0) {
+  System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+            (&local_d8,(System_Collections_Generic_List_T__o *)__this_00,
+             (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_ParticleSystem_GetEnumerator);
+  local_148.fields._list = local_d8.fields._list;
+  local_148.fields._index = local_d8.fields._index;
+  local_148.fields._version = local_d8.fields._version;
+  local_148.fields._current = local_d8.fields._current;
+  while( true ) {
+    bVar8 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                      (&local_148,
+                       (MethodInfo_153A2A0 *)
+                       MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_MoveNext);
+    __this_01 = local_148.fields._current;
+    if (!bVar8) {
+      System_Collections_Generic_List_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_148,
+                 MethodInfo_System_Collections_Generic_List_Enumerator_ParticleSystem_Dispose);
       return;
     }
-    il2cpp_runtime_helper_022fefe0(lVar1);
+    if ((UnityEngine_Component_o *)local_148.fields._current == (UnityEngine_Component_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar9 = UnityEngine_Component__get_transform
+                       ((UnityEngine_Component_o *)local_148.fields._current,(MethodInfo *)0x0);
+    pUVar10 = (*(__this->klass->vtable)._4_get__positionOffset.methodPtr)
+                        (&local_b0,__this,(__this->klass->vtable)._4_get__positionOffset.method);
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    local_128.x = (pUVar10->fields).x;
+    local_128.y = (pUVar10->fields).y;
+    local_128.z = (pUVar10->fields).z;
+    UnityEngine_Transform__set_localPosition(pUVar9,(UnityEngine_Vector3_o *)&local_128,(MethodInfo *)0x0);
+    pUVar9 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433de5b == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+      Il2CppMethodInitialized_18433de5b = '\x01';
+    }
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar6 = TypeInfo_UnityEngine_Quaternion->static_fields;
+    local_d8.fields._list = *(System_Collections_Generic_List_T__o **)&(pUVar6->identityQuaternion).fields;
+    local_d8.fields._index = (int32_t)(pUVar6->identityQuaternion).fields.z;
+    local_d8.fields._version = (int32_t)(pUVar6->identityQuaternion).fields.w;
+    UnityEngine_Transform__set_localRotation(pUVar9,(UnityEngine_Quaternion_o *)&local_d8,(MethodInfo *)0x0);
+    pUVar11 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+    pUVar9 = (__this->fields)._transform;
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar10 = UnityEngine_Transform__get_position(&local_a0,pUVar9,(MethodInfo *)0x0);
+    uVar1._0_4_ = (pUVar10->fields).x;
+    uVar1._4_4_ = (pUVar10->fields).y;
+    fVar4 = (pUVar10->fields).z;
+    if (Il2CppMethodInitialized_18433de5d == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433de5d = '\x01';
+    }
+    if (pUVar11 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
+    local_118.x = (pUVar7->forwardVector).fields.x;
+    local_118.y = (pUVar7->forwardVector).fields.y;
+    local_118.z = (pUVar7->forwardVector).fields.z;
+    local_108._0_8_ = uVar1;
+    local_108.z = fVar4;
+    UnityEngine_Transform__RotateAround
+              (pUVar11,(UnityEngine_Vector3_o *)&local_108,(UnityEngine_Vector3_o *)&local_118,fVar12,
+               (MethodInfo *)0x0);
+    pUVar11 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+    pUVar9 = (__this->fields)._transform;
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pUVar10 = UnityEngine_Transform__get_position(local_90,pUVar9,(MethodInfo *)0x0);
+    uVar2._0_4_ = (pUVar10->fields).x;
+    uVar2._4_4_ = (pUVar10->fields).y;
+    fVar4 = (pUVar10->fields).z;
+    if (Il2CppMethodInitialized_18433de5c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433de5c = '\x01';
+    }
+    pUVar7 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar3._0_4_ = (pUVar7->upVector).fields.x;
+    uVar3._4_4_ = (pUVar7->upVector).fields.y;
+    fVar5 = (pUVar7->upVector).fields.z;
+    angle = UnityEngine_Random__Range(0.0,360.0,(MethodInfo *)0x0);
+    if (pUVar11 == (UnityEngine_Transform_o *)0x0) break;
+    local_f8._0_8_ = uVar3;
+    local_f8.z = fVar5;
+    local_e8._0_8_ = uVar2;
+    local_e8.z = fVar4;
+    UnityEngine_Transform__RotateAround
+              (pUVar11,(UnityEngine_Vector3_o *)&local_e8,(UnityEngine_Vector3_o *)&local_f8,angle,
+               (MethodInfo *)0x0);
   }
-  __this_04.fields._list._4_4_ = in_stack_ffffffffffffff6c;
-  __this_04.fields._list._0_4_ = in_stack_ffffffffffffff68;
-  __this_04.fields._index = (int32_t)angle;
-  __this_04.fields._version = (int32_t)in_stack_ffffffffffffff74;
-  __this_04.fields._current = _Var9.genericMethod;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_321A1C0 *)&stack0xffffffffffffff78);
-  _Unwind_Resume(auVar8._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Weather.RainWeatherEffect$$SetLevel
 // il2cpp: void Weather_RainWeatherEffect__SetLevel (Weather_RainWeatherEffect_o* __this, float level, const MethodInfo* method);
-// 0x406c6a0
+// 0x181dae0a0
 
 void Weather_RainWeatherEffect__SetLevel(Weather_RainWeatherEffect_o *__this,float level,MethodInfo *method)
 
 {
-  UnityEngine_ParticleSystem_MinMaxCurve_o value;
-  UnityEngine_ParticleSystem_MinMaxCurve_o value_00;
-  UnityEngine_ParticleSystem_MinMaxCurve_o value_01;
-  UnityEngine_ParticleSystem_MinMaxCurve_o value_02;
-  UnityEngine_ParticleSystem_o *pUVar1;
-  Weather_RainWeatherEffect_c *pWVar2;
-  MethodInfo *pMVar3;
-  MethodInfo *method_00;
-  UnityEngine_Transform_o *parent;
-  undefined8 uVar4;
-  Weather_ThunderWeatherEffect_o *__this_00;
-  float fVar5;
-  float fVar6;
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields UStack_d8;
-  UnityEngine_ParticleSystem_EmissionModule_Fields UStack_b8;
-  UnityEngine_ParticleSystem_MainModule_Fields UStack_b0;
-  UnityEngine_ParticleSystem_EmissionModule_Fields UStack_a8;
-  UnityEngine_ParticleSystem_MainModule_Fields UStack_a0;
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields UStack_98;
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields UStack_78;
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields UStack_58;
-  UnityEngine_ParticleSystem_MinMaxCurve_Fields UStack_38;
+  _func_35 *p_Var1;
+  System_Collections_Generic_List_ParticleSystem__o *pSVar2;
+  UnityEngine_ParticleSystem_o *pUVar3;
+  UnityEngine_ParticleSystem_MinMaxCurve_o *pUVar4;
+  Weather_RainWeatherEffect_c *pWVar5;
+  int32_t iVar6;
+  MethodInfo *pMVar7;
+  float fVar8;
+  float fVar9;
+  UnityEngine_ParticleSystem_EmissionModule_o local_res8;
+  UnityEngine_ParticleSystem_MainModule_o local_res20;
+  UnityEngine_ParticleSystem_EmissionModule_o local_68;
+  UnityEngine_ParticleSystem_MainModule_o local_60;
+  UnityEngine_ParticleSystem_MinMaxCurve_Fields local_58;
+  UnityEngine_ParticleSystem_MinMaxCurve_o local_38;
   
-  if (g_data_057ac2f1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParticleSystem_get_Item);
-    g_data_057ac2f1 = '\x01';
+  if (Il2CppMethodInitialized_184344921 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_ParticleSystem_get_Item);
+    Il2CppMethodInitialized_184344921 = '\x01';
   }
-  UStack_a0.m_ParticleSystem = (UnityEngine_ParticleSystem_o *)0x0;
-  UStack_a8.m_ParticleSystem = (UnityEngine_ParticleSystem_o *)0x0;
-  UStack_b0.m_ParticleSystem = (UnityEngine_ParticleSystem_o *)0x0;
-  UStack_b8.m_ParticleSystem = (UnityEngine_ParticleSystem_o *)0x0;
   (__this->fields)._level = level;
+  local_60.fields.m_ParticleSystem =
+       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
+  local_68.fields.m_ParticleSystem =
+       (UnityEngine_ParticleSystem_EmissionModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
+  local_res20.fields.m_ParticleSystem =
+       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
+  local_res8.fields.m_ParticleSystem =
+       (UnityEngine_ParticleSystem_EmissionModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
   if (0.0 < level) {
-    if (0.5 <= level) {
-      parent = (UnityEngine_Transform_o *)0x1;
-      (*(__this->klass->vtable)._12_SetActiveParticleSystem.methodPtr)
-                (__this,1,(__this->klass->vtable)._12_SetActiveParticleSystem.method);
-      __this_00 = (Weather_ThunderWeatherEffect_o *)(__this->fields)._particleSystems;
-      if (__this_00 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406ca4d;
-      parent = (UnityEngine_Transform_o *)0x1;
-      pUVar1 = (UnityEngine_ParticleSystem_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_00,1,MethodInfo_ParticleSystem_get_Item);
-      if (pUVar1 == (UnityEngine_ParticleSystem_o *)0x0) goto label_0406ca4d;
-      parent = (UnityEngine_Transform_o *)0x0;
-      UStack_b0.m_ParticleSystem =
-           (UnityEngine_ParticleSystem_o *)UnityEngine_ParticleSystem__get_main(pUVar1,(MethodInfo *)0x0);
-      __this_00 = (Weather_ThunderWeatherEffect_o *)(__this->fields)._particleSystems;
-      if (__this_00 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406ca4d;
-      parent = (UnityEngine_Transform_o *)0x1;
-      pUVar1 = (UnityEngine_ParticleSystem_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_00,1,MethodInfo_ParticleSystem_get_Item);
-      if (pUVar1 == (UnityEngine_ParticleSystem_o *)0x0) goto label_0406ca4d;
-      fVar5 = level + -0.5 + level + -0.5;
-      UStack_b8.m_ParticleSystem =
-           (UnityEngine_ParticleSystem_o *)UnityEngine_ParticleSystem__get_emission(pUVar1,(MethodInfo *)0x0);
-      fVar6 = (float)(*(__this->klass->vtable)._18_ClampParticles.methodPtr)(fVar5 * 150.0 + 100.0,__this);
-      UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&UStack_d8,fVar6,(MethodInfo *)0x0);
-      UStack_78.m_CurveMax = UStack_d8.m_CurveMax;
-      UStack_78.m_ConstantMin = UStack_d8.m_ConstantMin;
-      UStack_78.m_ConstantMax = UStack_d8.m_ConstantMax;
-      UStack_78.m_Mode = UStack_d8.m_Mode;
-      UStack_78.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      UStack_78.m_CurveMin = UStack_d8.m_CurveMin;
-      value_01.fields.m_CurveMin = UStack_d8.m_CurveMin;
-      value_01.fields.m_Mode = UStack_d8.m_Mode;
-      value_01.fields.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      value_01.fields.m_CurveMax = UStack_d8.m_CurveMax;
-      value_01.fields.m_ConstantMin = UStack_d8.m_ConstantMin;
-      value_01.fields.m_ConstantMax = UStack_d8.m_ConstantMax;
+    pMVar7 = (__this->klass->vtable)._12_SetActiveParticleSystem.method;
+    p_Var1 = (__this->klass->vtable)._12_SetActiveParticleSystem.methodPtr;
+    if (level < 0.5) {
+      fVar9 = level + level;
+      (*p_Var1)(__this,0,pMVar7);
+      pSVar2 = (__this->fields)._particleSystems;
+      if (pSVar2 == (System_Collections_Generic_List_ParticleSystem__o *)0x0) goto label_181dae38f;
+      pUVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar2,0,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ParticleSystem_get_Item);
+      if (pUVar3 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181dae38f;
+      local_60.fields.m_ParticleSystem =
+           (UnityEngine_ParticleSystem_MainModule_Fields)
+           UnityEngine_ParticleSystem__get_noise(pUVar3,(MethodInfo *)0x0);
+      pSVar2 = (__this->fields)._particleSystems;
+      if (pSVar2 == (System_Collections_Generic_List_ParticleSystem__o *)0x0) goto label_181dae38f;
+      pUVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar2,0,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ParticleSystem_get_Item);
+      if (pUVar3 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181dae38f;
+      local_68.fields.m_ParticleSystem =
+           (UnityEngine_ParticleSystem_EmissionModule_Fields)
+           UnityEngine_ParticleSystem__get_noise(pUVar3,(MethodInfo *)0x0);
+      fVar8 = (*(__this->klass->vtable)._18_ClampParticles.methodPtr)
+                        (__this,fVar9 * 150.0 + 50.0,(__this->klass->vtable)._18_ClampParticles.method);
+      pUVar4 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit(&local_38,fVar8,(MethodInfo *)0x0);
+      local_58.m_Mode = (pUVar4->fields).m_Mode;
+      local_58.m_CurveMultiplier = (pUVar4->fields).m_CurveMultiplier;
+      local_58.m_CurveMin = (pUVar4->fields).m_CurveMin;
+      local_58.m_CurveMax = (pUVar4->fields).m_CurveMax;
+      local_58.m_ConstantMin = (pUVar4->fields).m_ConstantMin;
+      local_58.m_ConstantMax = (pUVar4->fields).m_ConstantMax;
       UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime
-                ((UnityEngine_ParticleSystem_EmissionModule_o)&UStack_b8,value_01,(MethodInfo *)0x0);
-      UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&UStack_d8,fVar5 * 10.0 + 50.0,(MethodInfo *)0x0)
-      ;
-      UStack_98.m_CurveMax = UStack_d8.m_CurveMax;
-      UStack_98.m_ConstantMin = UStack_d8.m_ConstantMin;
-      UStack_98.m_ConstantMax = UStack_d8.m_ConstantMax;
-      UStack_98.m_Mode = UStack_d8.m_Mode;
-      UStack_98.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      UStack_98.m_CurveMin = UStack_d8.m_CurveMin;
-      value_02.fields.m_CurveMin = UStack_d8.m_CurveMin;
-      value_02.fields.m_Mode = UStack_d8.m_Mode;
-      value_02.fields.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      value_02.fields.m_CurveMax = UStack_d8.m_CurveMax;
-      value_02.fields.m_ConstantMin = UStack_d8.m_ConstantMin;
-      value_02.fields.m_ConstantMax = UStack_d8.m_ConstantMax;
+                (&local_68,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_58,(MethodInfo *)0x0);
+      pUVar4 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+                         (&local_38,fVar9 * 30.0 + 30.0,(MethodInfo *)0x0);
+      local_58.m_Mode = (pUVar4->fields).m_Mode;
+      local_58.m_CurveMultiplier = (pUVar4->fields).m_CurveMultiplier;
+      local_58.m_CurveMin = (pUVar4->fields).m_CurveMin;
+      local_58.m_CurveMax = (pUVar4->fields).m_CurveMax;
+      local_58.m_ConstantMin = (pUVar4->fields).m_ConstantMin;
+      local_58.m_ConstantMax = (pUVar4->fields).m_ConstantMax;
       UnityEngine_ParticleSystem_MainModule__set_startSize
-                ((UnityEngine_ParticleSystem_MainModule_o)&UStack_b0,value_02,(MethodInfo *)0x0);
-      pWVar2 = __this->klass;
-      pMVar3 = (pWVar2->vtable)._14_SetActiveAudio.method;
-      uVar4 = 1;
+                (&local_60,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_58,(MethodInfo *)0x0);
+      iVar6 = 0;
+      pWVar5 = __this->klass;
+      pMVar7 = (pWVar5->vtable)._14_SetActiveAudio.method;
     }
     else {
-      parent = (UnityEngine_Transform_o *)0x0;
-      (*(__this->klass->vtable)._12_SetActiveParticleSystem.methodPtr)
-                (__this,0,(__this->klass->vtable)._12_SetActiveParticleSystem.method);
-      __this_00 = (Weather_ThunderWeatherEffect_o *)(__this->fields)._particleSystems;
-      if (__this_00 == (Weather_ThunderWeatherEffect_o *)0x0) {
-label_0406ca4d:
-        il2cpp_runtime_helper_022b2c90();
-        Weather_BaseWeatherEffect__Setup(__this_00,parent,method_00);
-        return;
+      fVar9 = (level - 0.5) + (level - 0.5);
+      (*p_Var1)(__this,1,pMVar7);
+      pSVar2 = (__this->fields)._particleSystems;
+      if (pSVar2 == (System_Collections_Generic_List_ParticleSystem__o *)0x0) {
+label_181dae38f:
+        ThrowNullReferenceException();
       }
-      parent = (UnityEngine_Transform_o *)0x0;
-      pUVar1 = (UnityEngine_ParticleSystem_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_00,0,MethodInfo_ParticleSystem_get_Item);
-      if (pUVar1 == (UnityEngine_ParticleSystem_o *)0x0) goto label_0406ca4d;
-      parent = (UnityEngine_Transform_o *)0x0;
-      UStack_a0.m_ParticleSystem =
-           (UnityEngine_ParticleSystem_o *)UnityEngine_ParticleSystem__get_main(pUVar1,(MethodInfo *)0x0);
-      __this_00 = (Weather_ThunderWeatherEffect_o *)(__this->fields)._particleSystems;
-      if (__this_00 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406ca4d;
-      parent = (UnityEngine_Transform_o *)0x0;
-      pUVar1 = (UnityEngine_ParticleSystem_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_00,0,MethodInfo_ParticleSystem_get_Item);
-      if (pUVar1 == (UnityEngine_ParticleSystem_o *)0x0) goto label_0406ca4d;
-      fVar5 = level + level;
-      UStack_a8.m_ParticleSystem =
-           (UnityEngine_ParticleSystem_o *)UnityEngine_ParticleSystem__get_emission(pUVar1,(MethodInfo *)0x0);
-      fVar6 = (float)(*(__this->klass->vtable)._18_ClampParticles.methodPtr)(fVar5 * 150.0 + 50.0,__this);
-      UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&UStack_d8,fVar6,(MethodInfo *)0x0);
-      UStack_38.m_CurveMax = UStack_d8.m_CurveMax;
-      UStack_38.m_ConstantMin = UStack_d8.m_ConstantMin;
-      UStack_38.m_ConstantMax = UStack_d8.m_ConstantMax;
-      UStack_38.m_Mode = UStack_d8.m_Mode;
-      UStack_38.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      UStack_38.m_CurveMin = UStack_d8.m_CurveMin;
-      value.fields.m_CurveMin = UStack_d8.m_CurveMin;
-      value.fields.m_Mode = UStack_d8.m_Mode;
-      value.fields.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      value.fields.m_CurveMax = UStack_d8.m_CurveMax;
-      value.fields.m_ConstantMin = UStack_d8.m_ConstantMin;
-      value.fields.m_ConstantMax = UStack_d8.m_ConstantMax;
+      pUVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar2,1,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ParticleSystem_get_Item);
+      if (pUVar3 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181dae38f;
+      local_res20.fields.m_ParticleSystem =
+           (UnityEngine_ParticleSystem_MainModule_Fields)
+           UnityEngine_ParticleSystem__get_noise(pUVar3,(MethodInfo *)0x0);
+      pSVar2 = (__this->fields)._particleSystems;
+      if (pSVar2 == (System_Collections_Generic_List_ParticleSystem__o *)0x0) goto label_181dae38f;
+      pUVar3 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar2,1,
+                          (MethodInfo_92B830 *)
+                          MethodInfo_System_Collections_Generic_List_ParticleSystem_get_Item);
+      if (pUVar3 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181dae38f;
+      local_res8.fields.m_ParticleSystem =
+           (UnityEngine_ParticleSystem_EmissionModule_Fields)
+           UnityEngine_ParticleSystem__get_noise(pUVar3,(MethodInfo *)0x0);
+      fVar8 = (*(__this->klass->vtable)._18_ClampParticles.methodPtr)
+                        (__this,fVar9 * 150.0 + 100.0,(__this->klass->vtable)._18_ClampParticles.method);
+      pUVar4 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit(&local_38,fVar8,(MethodInfo *)0x0);
+      local_58.m_Mode = (pUVar4->fields).m_Mode;
+      local_58.m_CurveMultiplier = (pUVar4->fields).m_CurveMultiplier;
+      local_58.m_CurveMin = (pUVar4->fields).m_CurveMin;
+      local_58.m_CurveMax = (pUVar4->fields).m_CurveMax;
+      local_58.m_ConstantMin = (pUVar4->fields).m_ConstantMin;
+      local_58.m_ConstantMax = (pUVar4->fields).m_ConstantMax;
       UnityEngine_ParticleSystem_EmissionModule__set_rateOverTime
-                ((UnityEngine_ParticleSystem_EmissionModule_o)&UStack_a8,value,(MethodInfo *)0x0);
-      UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
-                ((UnityEngine_ParticleSystem_MinMaxCurve_o *)&UStack_d8,fVar5 * 30.0 + 30.0,(MethodInfo *)0x0)
-      ;
-      UStack_58.m_CurveMax = UStack_d8.m_CurveMax;
-      UStack_58.m_ConstantMin = UStack_d8.m_ConstantMin;
-      UStack_58.m_ConstantMax = UStack_d8.m_ConstantMax;
-      UStack_58.m_Mode = UStack_d8.m_Mode;
-      UStack_58.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      UStack_58.m_CurveMin = UStack_d8.m_CurveMin;
-      value_00.fields.m_CurveMin = UStack_d8.m_CurveMin;
-      value_00.fields.m_Mode = UStack_d8.m_Mode;
-      value_00.fields.m_CurveMultiplier = UStack_d8.m_CurveMultiplier;
-      value_00.fields.m_CurveMax = UStack_d8.m_CurveMax;
-      value_00.fields.m_ConstantMin = UStack_d8.m_ConstantMin;
-      value_00.fields.m_ConstantMax = UStack_d8.m_ConstantMax;
+                (&local_res8,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_58,(MethodInfo *)0x0);
+      pUVar4 = UnityEngine_ParticleSystem_MinMaxCurve__op_Implicit
+                         (&local_38,fVar9 * 10.0 + 50.0,(MethodInfo *)0x0);
+      local_58.m_Mode = (pUVar4->fields).m_Mode;
+      local_58.m_CurveMultiplier = (pUVar4->fields).m_CurveMultiplier;
+      local_58.m_CurveMin = (pUVar4->fields).m_CurveMin;
+      local_58.m_CurveMax = (pUVar4->fields).m_CurveMax;
+      local_58.m_ConstantMin = (pUVar4->fields).m_ConstantMin;
+      local_58.m_ConstantMax = (pUVar4->fields).m_ConstantMax;
       UnityEngine_ParticleSystem_MainModule__set_startSize
-                ((UnityEngine_ParticleSystem_MainModule_o)&UStack_a0,value_00,(MethodInfo *)0x0);
-      pWVar2 = __this->klass;
-      pMVar3 = (pWVar2->vtable)._14_SetActiveAudio.method;
-      uVar4 = 0;
+                (&local_res20,(UnityEngine_ParticleSystem_MinMaxCurve_o *)&local_58,(MethodInfo *)0x0);
+      iVar6 = 1;
+      pWVar5 = __this->klass;
+      pMVar7 = (pWVar5->vtable)._14_SetActiveAudio.method;
     }
-    (*(pWVar2->vtable)._14_SetActiveAudio.methodPtr)(fVar5 * 0.25 + 0.25,__this,uVar4,pMVar3);
+    (*(pWVar5->vtable)._14_SetActiveAudio.methodPtr)(__this,iVar6,fVar9 * 0.25 + 0.25,pMVar7);
   }
   return;
 }
@@ -376,25 +357,26 @@ label_0406ca4d:
 
 // Weather.RainWeatherEffect$$Setup
 // il2cpp: void Weather_RainWeatherEffect__Setup (Weather_RainWeatherEffect_o* __this, UnityEngine_Transform_o* parent, const MethodInfo* method);
-// 0x406ca60
+// 0x181dae3a0
 
-void Weather_RainWeatherEffect__Setup
-               (Weather_ThunderWeatherEffect_o *__this,UnityEngine_Transform_o *parent,MethodInfo *method)
+void
+Weather_RainWeatherEffect__Setup(Weather_RainWeatherEffect_o* __this, UnityEngine_Transform_o* parent, MethodInfo* method)
 
 {
-  Weather_BaseWeatherEffect__Setup(__this,parent,method);
+  Weather_BaseWeatherEffect__Setup((Weather_BaseWeatherEffect_o *)__this,parent,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.RainWeatherEffect$$.ctor
 // il2cpp: void Weather_RainWeatherEffect___ctor (Weather_RainWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406ca70
+// 0x181da1230
 
-void Weather_RainWeatherEffect___ctor(Weather_SnowWeatherEffect_o *__this,MethodInfo *method)
+void
+Weather_RainWeatherEffect___ctor(Weather_RainWeatherEffect_o* __this, MethodInfo* method)
 
 {
-  Weather_BaseWeatherEffect___ctor(__this,method);
+  Weather_BaseWeatherEffect___ctor((Weather_BaseWeatherEffect_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

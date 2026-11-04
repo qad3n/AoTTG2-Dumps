@@ -10,95 +10,191 @@ using UnityEngine;
 
 namespace Unity.Properties.Internal;
 
-[Token(Token = "0x200003F")]
+[Token(Token = "0x2000071")]
 internal class ColorPropertyBag : ContainerPropertyBag<Color>
 {
-	[Token(Token = "0x2000040")]
+	[Token(Token = "0x2000072")]
 	private class RProperty : Property<Color, float>
 	{
-		[Token(Token = "0x1700002F")]
+		[Token(Token = "0x17000044")]
 		public override string Name
 		{
-			[Token(Token = "0x6000194")]
-			[Address(RVA = "0x4E9B0E0", Offset = "0x4E9B0E0", VA = "0x4E9B0E0", Slot = "7")]
+			[Token(Token = "0x60001B3")]
+			[Address(RVA = "0x2FF1E10", Offset = "0x2FF0410", VA = "0x182FF1E10", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000195")]
-		[Address(RVA = "0x4E9AFE0", Offset = "0x4E9AFE0", VA = "0x4E9AFE0")]
+		[Token(Token = "0x17000045")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x60001B4")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x60001B5")]
+		[Address(RVA = "0x2FF1DB0", Offset = "0x2FF03B0", VA = "0x182FF1DB0", Slot = "14")]
+		public override float GetValue(ref Color container)
+		{
+			return default(float);
+		}
+
+		[Token(Token = "0x60001B6")]
+		[Address(RVA = "0x2FF1DC0", Offset = "0x2FF03C0", VA = "0x182FF1DC0", Slot = "15")]
+		public override void SetValue(ref Color container, float value)
+		{
+		}
+
+		[Token(Token = "0x60001B7")]
+		[Address(RVA = "0x2FF1DD0", Offset = "0x2FF03D0", VA = "0x182FF1DD0")]
 		public RProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000041")]
+	[Token(Token = "0x2000073")]
 	private class GProperty : Property<Color, float>
 	{
-		[Token(Token = "0x17000030")]
+		[Token(Token = "0x17000046")]
 		public override string Name
 		{
-			[Token(Token = "0x6000196")]
-			[Address(RVA = "0x4E9B110", Offset = "0x4E9B110", VA = "0x4E9B110", Slot = "7")]
+			[Token(Token = "0x60001B8")]
+			[Address(RVA = "0x2FEAD40", Offset = "0x2FE9340", VA = "0x182FEAD40", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000197")]
-		[Address(RVA = "0x4E9B020", Offset = "0x4E9B020", VA = "0x4E9B020")]
+		[Token(Token = "0x17000047")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x60001B9")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x60001BA")]
+		[Address(RVA = "0x2FEACE0", Offset = "0x2FE92E0", VA = "0x182FEACE0", Slot = "14")]
+		public override float GetValue(ref Color container)
+		{
+			return default(float);
+		}
+
+		[Token(Token = "0x60001BB")]
+		[Address(RVA = "0x2FEACF0", Offset = "0x2FE92F0", VA = "0x182FEACF0", Slot = "15")]
+		public override void SetValue(ref Color container, float value)
+		{
+		}
+
+		[Token(Token = "0x60001BC")]
+		[Address(RVA = "0x2FEAD00", Offset = "0x2FE9300", VA = "0x182FEAD00")]
 		public GProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000042")]
+	[Token(Token = "0x2000074")]
 	private class BProperty : Property<Color, float>
 	{
-		[Token(Token = "0x17000031")]
+		[Token(Token = "0x17000048")]
 		public override string Name
 		{
-			[Token(Token = "0x6000198")]
-			[Address(RVA = "0x4E9B140", Offset = "0x4E9B140", VA = "0x4E9B140", Slot = "7")]
+			[Token(Token = "0x60001BD")]
+			[Address(RVA = "0x2FE9730", Offset = "0x2FE7D30", VA = "0x182FE9730", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000199")]
-		[Address(RVA = "0x4E9B060", Offset = "0x4E9B060", VA = "0x4E9B060")]
+		[Token(Token = "0x17000049")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x60001BE")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x60001BF")]
+		[Address(RVA = "0x2FE96D0", Offset = "0x2FE7CD0", VA = "0x182FE96D0", Slot = "14")]
+		public override float GetValue(ref Color container)
+		{
+			return default(float);
+		}
+
+		[Token(Token = "0x60001C0")]
+		[Address(RVA = "0x2FE96E0", Offset = "0x2FE7CE0", VA = "0x182FE96E0", Slot = "15")]
+		public override void SetValue(ref Color container, float value)
+		{
+		}
+
+		[Token(Token = "0x60001C1")]
+		[Address(RVA = "0x2FE96F0", Offset = "0x2FE7CF0", VA = "0x182FE96F0")]
 		public BProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000043")]
+	[Token(Token = "0x2000075")]
 	private class AProperty : Property<Color, float>
 	{
-		[Token(Token = "0x17000032")]
+		[Token(Token = "0x1700004A")]
 		public override string Name
 		{
-			[Token(Token = "0x600019A")]
-			[Address(RVA = "0x4E9B170", Offset = "0x4E9B170", VA = "0x4E9B170", Slot = "7")]
+			[Token(Token = "0x60001C2")]
+			[Address(RVA = "0x2FE94C0", Offset = "0x2FE7AC0", VA = "0x182FE94C0", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x4E9B0A0", Offset = "0x4E9B0A0", VA = "0x4E9B0A0")]
+		[Token(Token = "0x1700004B")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x60001C3")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x60001C4")]
+		[Address(RVA = "0x2FE9460", Offset = "0x2FE7A60", VA = "0x182FE9460", Slot = "14")]
+		public override float GetValue(ref Color container)
+		{
+			return default(float);
+		}
+
+		[Token(Token = "0x60001C5")]
+		[Address(RVA = "0x2FE9470", Offset = "0x2FE7A70", VA = "0x182FE9470", Slot = "15")]
+		public override void SetValue(ref Color container, float value)
+		{
+		}
+
+		[Token(Token = "0x60001C6")]
+		[Address(RVA = "0x2FE9480", Offset = "0x2FE7A80", VA = "0x182FE9480")]
 		public AProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x4E99F50", Offset = "0x4E99F50", VA = "0x4E99F50")]
+	[Token(Token = "0x60001B2")]
+	[Address(RVA = "0x2FE9B30", Offset = "0x2FE8130", VA = "0x182FE9B30")]
 	public ColorPropertyBag()
 	{
 	}

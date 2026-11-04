@@ -11,79 +11,79 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity.UtilityScripts;
 
-[Token(Token = "0x2000022")]
+[Token(Token = "0x2000020")]
 public class PhotonVoiceStatsGui : MonoBehaviour
 {
-	[Token(Token = "0x40000A2")]
+	[Token(Token = "0x400009D")]
 	[FieldOffset(Offset = "0x20")]
 	private bool statsWindowOn;
 
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x400009E")]
 	[FieldOffset(Offset = "0x21")]
 	private bool statsOn;
 
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x400009F")]
 	[FieldOffset(Offset = "0x22")]
 	private bool healthStatsVisible;
 
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x23")]
 	private bool trafficStatsOn;
 
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000A1")]
 	[FieldOffset(Offset = "0x24")]
 	private bool buttonsOn;
 
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000A2")]
 	[FieldOffset(Offset = "0x25")]
 	private bool voiceStatsOn;
 
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40000A3")]
 	[FieldOffset(Offset = "0x28")]
 	private Rect statsRect;
 
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40000A4")]
 	[FieldOffset(Offset = "0x38")]
 	private int windowId;
 
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000A5")]
 	[FieldOffset(Offset = "0x40")]
 	private PhotonPeer peer;
 
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000A6")]
 	[FieldOffset(Offset = "0x48")]
 	private VoiceConnection voiceConnection;
 
-	[Token(Token = "0x40000AC")]
+	[Token(Token = "0x40000A7")]
 	[FieldOffset(Offset = "0x50")]
 	private VoiceClient voiceClient;
 
-	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x3F518E0", Offset = "0x3F518E0", VA = "0x3F518E0")]
+	[Token(Token = "0x600013A")]
+	[Address(RVA = "0x1D8B5F0", Offset = "0x1D89BF0", VA = "0x181D8B5F0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3F51B20", Offset = "0x3F51B20", VA = "0x3F51B20")]
+	[Token(Token = "0x600013B")]
+	[Address(RVA = "0x1D8CA10", Offset = "0x1D8B010", VA = "0x181D8CA10")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3F51B50", Offset = "0x3F51B50", VA = "0x3F51B50")]
+	[Token(Token = "0x600013C")]
+	[Address(RVA = "0x1D8B4C0", Offset = "0x1D89AC0", VA = "0x181D8B4C0")]
 	private void OnGUI()
 	{
 	}
 
-	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3F51D00", Offset = "0x3F51D00", VA = "0x3F51D00")]
+	[Token(Token = "0x600013D")]
+	[Address(RVA = "0x1D8B860", Offset = "0x1D89E60", VA = "0x181D8B860")]
 	private void TrafficStatsWindow(int windowId)
 	{
 	}
 
-	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3F53950", Offset = "0x3F53950", VA = "0x3F53950")]
+	[Token(Token = "0x600013E")]
+	[Address(RVA = "0x1D8CA50", Offset = "0x1D8B050", VA = "0x181D8CA50")]
 	public PhotonVoiceStatsGui()
 	{
 	}

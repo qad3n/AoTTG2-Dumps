@@ -38,7 +38,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectCollection Items
 	{
 		[Token(Token = "0x6001716")]
-		[Address(RVA = "0x4728200", Offset = "0x4728200", VA = "0x4728200")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		get
 		{
 			return null;
@@ -50,7 +50,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable AttributeGroups
 	{
 		[Token(Token = "0x6001717")]
-		[Address(RVA = "0x4728210", Offset = "0x4728210", VA = "0x4728210")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		get
 		{
 			return null;
@@ -62,7 +62,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable SchemaTypes
 	{
 		[Token(Token = "0x6001718")]
-		[Address(RVA = "0x4728220", Offset = "0x4728220", VA = "0x4728220")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		get
 		{
 			return null;
@@ -74,7 +74,7 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	public XmlSchemaObjectTable Groups
 	{
 		[Token(Token = "0x6001719")]
-		[Address(RVA = "0x4728230", Offset = "0x4728230", VA = "0x4728230")]
+		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
 		get
 		{
 			return null;
@@ -82,13 +82,13 @@ public class XmlSchemaRedefine : XmlSchemaExternal
 	}
 
 	[Token(Token = "0x6001715")]
-	[Address(RVA = "0x4728110", Offset = "0x4728110", VA = "0x4728110")]
+	[Address(RVA = "0x2676EB0", Offset = "0x26754B0", VA = "0x182676EB0")]
 	public XmlSchemaRedefine()
 	{
 	}
 
 	[Token(Token = "0x600171A")]
-	[Address(RVA = "0x4728240", Offset = "0x4728240", VA = "0x4728240", Slot = "10")]
+	[Address(RVA = "0x2676E90", Offset = "0x2675490", VA = "0x182676E90", Slot = "10")]
 	internal override void AddAnnotation(XmlSchemaAnnotation annotation)
 	{
 	}

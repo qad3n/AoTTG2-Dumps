@@ -10,60 +10,60 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003D0")]
+[Token(Token = "0x20003FF")]
 public class FormatterConverter : IFormatterConverter
 {
-	[Token(Token = "0x6001F3B")]
-	[Address(RVA = "0x3B93F50", Offset = "0x3B93F50", VA = "0x3B93F50", Slot = "4")]
+	[Token(Token = "0x6001FAA")]
+	[Address(RVA = "0x19FAC60", Offset = "0x19F9260", VA = "0x1819FAC60", Slot = "4")]
 	public object Convert(object value, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001F3C")]
-	[Address(RVA = "0x3B94030", Offset = "0x3B94030", VA = "0x3B94030", Slot = "5")]
+	[Token(Token = "0x6001FAB")]
+	[Address(RVA = "0x19FAD50", Offset = "0x19F9350", VA = "0x1819FAD50", Slot = "5")]
 	public bool ToBoolean(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001F3D")]
-	[Address(RVA = "0x3B940C0", Offset = "0x3B940C0", VA = "0x3B940C0", Slot = "6")]
+	[Token(Token = "0x6001FAC")]
+	[Address(RVA = "0x19FADE0", Offset = "0x19F93E0", VA = "0x1819FADE0", Slot = "6")]
 	public int ToInt32(object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001F3E")]
-	[Address(RVA = "0x3B94150", Offset = "0x3B94150", VA = "0x3B94150", Slot = "7")]
+	[Token(Token = "0x6001FAD")]
+	[Address(RVA = "0x19FAE70", Offset = "0x19F9470", VA = "0x1819FAE70", Slot = "7")]
 	public long ToInt64(object value)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6001F3F")]
-	[Address(RVA = "0x3B941E0", Offset = "0x3B941E0", VA = "0x3B941E0", Slot = "8")]
+	[Token(Token = "0x6001FAE")]
+	[Address(RVA = "0x19FAF00", Offset = "0x19F9500", VA = "0x1819FAF00", Slot = "8")]
 	public float ToSingle(object value)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001F40")]
-	[Address(RVA = "0x3B94270", Offset = "0x3B94270", VA = "0x3B94270", Slot = "9")]
+	[Token(Token = "0x6001FAF")]
+	[Address(RVA = "0x19FAF90", Offset = "0x19F9590", VA = "0x1819FAF90", Slot = "9")]
 	public string ToString(object value)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6001F41")]
-	[Address(RVA = "0x3B93FE0", Offset = "0x3B93FE0", VA = "0x3B93FE0")]
+	[Token(Token = "0x6001FB0")]
+	[Address(RVA = "0x19FAD00", Offset = "0x19F9300", VA = "0x1819FAD00")]
 	private static void ThrowValueNullException()
 	{
 	}
 
-	[Token(Token = "0x6001F42")]
-	[Address(RVA = "0x3B94300", Offset = "0x3B94300", VA = "0x3B94300")]
+	[Token(Token = "0x6001FB1")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public FormatterConverter()
 	{
 	}

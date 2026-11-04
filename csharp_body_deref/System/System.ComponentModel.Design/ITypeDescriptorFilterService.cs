@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x200032D")]
+[Token(Token = "0x2000238")]
 public interface ITypeDescriptorFilterService
 {
-	[Token(Token = "0x600151C")]
+	[Token(Token = "0x6000F64")]
 	bool FilterAttributes(IComponent component, IDictionary attributes);
 
-	[Token(Token = "0x600151D")]
+	[Token(Token = "0x6000F65")]
 	bool FilterEvents(IComponent component, IDictionary events);
 
-	[Token(Token = "0x600151E")]
+	[Token(Token = "0x6000F66")]
 	bool FilterProperties(IComponent component, IDictionary properties);
 }

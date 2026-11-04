@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000008")]
 public enum TextAnchor
 {
-	[Token(Token = "0x4000029")]
-	UpperLeft,
-	[Token(Token = "0x400002A")]
-	UpperCenter,
-	[Token(Token = "0x400002B")]
-	UpperRight,
-	[Token(Token = "0x400002C")]
-	MiddleLeft,
 	[Token(Token = "0x400002D")]
-	MiddleCenter,
+	UpperLeft,
 	[Token(Token = "0x400002E")]
-	MiddleRight,
+	UpperCenter,
 	[Token(Token = "0x400002F")]
-	LowerLeft,
+	UpperRight,
 	[Token(Token = "0x4000030")]
-	LowerCenter,
+	MiddleLeft,
 	[Token(Token = "0x4000031")]
+	MiddleCenter,
+	[Token(Token = "0x4000032")]
+	MiddleRight,
+	[Token(Token = "0x4000033")]
+	LowerLeft,
+	[Token(Token = "0x4000034")]
+	LowerCenter,
+	[Token(Token = "0x4000035")]
 	LowerRight
 }

@@ -12,36 +12,36 @@ namespace Settings;
 [Token(Token = "0x200006B")]
 internal class HumanCustomSkinSettings : BaseCustomSkinSettings<HumanCustomSkinSet>
 {
-	[Token(Token = "0x4000225")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000232")]
+	[FieldOffset(Offset = "0x58")]
 	public BoolSetting GasEnabled;
 
-	[Token(Token = "0x4000226")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4000233")]
+	[FieldOffset(Offset = "0x60")]
 	public BoolSetting HookEnabled;
 
-	[Token(Token = "0x4000227")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x4000234")]
+	[FieldOffset(Offset = "0x68")]
 	public BoolSetting SetSpecificSkinsEnabled;
 
-	[Token(Token = "0x4000228")]
-	[FieldOffset(Offset = "0x60")]
+	[Token(Token = "0x4000235")]
+	[FieldOffset(Offset = "0x70")]
 	public BoolSetting GlobalSkinOverridesEnabled;
 
-	[Token(Token = "0x4000229")]
-	[FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x4000236")]
+	[FieldOffset(Offset = "0x78")]
 	public IntSetting SkinMode;
 
-	[Token(Token = "0x400022A")]
-	[FieldOffset(Offset = "0x70")]
+	[Token(Token = "0x4000237")]
+	[FieldOffset(Offset = "0x80")]
 	public IntSetting SelectedCharacterIndex;
 
-	[Token(Token = "0x400022B")]
-	[FieldOffset(Offset = "0x78")]
+	[Token(Token = "0x4000238")]
+	[FieldOffset(Offset = "0x88")]
 	public IntSetting LastGlobalPresetIndex;
 
-	[Token(Token = "0x6000310")]
-	[Address(RVA = "0x3F85650", Offset = "0x3F85650", VA = "0x3F85650")]
+	[Token(Token = "0x6000320")]
+	[Address(RVA = "0x1DC0250", Offset = "0x1DBE850", VA = "0x181DC0250")]
 	public HumanCustomSkinSettings()
 	{
 	}

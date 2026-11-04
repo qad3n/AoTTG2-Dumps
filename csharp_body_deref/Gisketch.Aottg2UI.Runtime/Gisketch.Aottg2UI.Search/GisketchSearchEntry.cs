@@ -13,44 +13,44 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Search;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x2000030")]
 public sealed class GisketchSearchEntry
 {
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000F5")]
 	private const string SectionIcon = "menuList";
 
-	[Token(Token = "0x40000CA")]
+	[Token(Token = "0x40000F6")]
 	private const string ButtonIcon = "buttonA";
 
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000F7")]
 	private const string InputIcon = "open";
 
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000F8")]
 	private const string SelectIcon = "arrowDown";
 
-	[Token(Token = "0x17000013")]
+	[Token(Token = "0x17000023")]
 	public GisketchNodeDefinition Node
 	{
-		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x3A473F0", Offset = "0x3A473F0", VA = "0x3A473F0")]
+		[Token(Token = "0x6000198")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x3A47400", Offset = "0x3A47400", VA = "0x3A47400")]
+		[Token(Token = "0x6000199")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000014")]
+	[Token(Token = "0x17000024")]
 	public GameObject Target
 	{
-		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x3A47410", Offset = "0x3A47410", VA = "0x3A47410")]
+		[Token(Token = "0x600019A")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -58,11 +58,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000015")]
+	[Token(Token = "0x17000025")]
 	public string ScreenId
 	{
-		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x3A47420", Offset = "0x3A47420", VA = "0x3A47420")]
+		[Token(Token = "0x600019B")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -70,11 +70,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000016")]
+	[Token(Token = "0x17000026")]
 	public string ScreenTitle
 	{
-		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x3A47430", Offset = "0x3A47430", VA = "0x3A47430")]
+		[Token(Token = "0x600019C")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -82,11 +82,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000017")]
+	[Token(Token = "0x17000027")]
 	public string SearchGroup
 	{
-		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x3A47440", Offset = "0x3A47440", VA = "0x3A47440")]
+		[Token(Token = "0x600019D")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -94,11 +94,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000018")]
+	[Token(Token = "0x17000028")]
 	public string SectionId
 	{
-		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x3A47450", Offset = "0x3A47450", VA = "0x3A47450")]
+		[Token(Token = "0x600019E")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
@@ -106,11 +106,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x17000029")]
 	public string SectionTitle
 	{
-		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3A47460", Offset = "0x3A47460", VA = "0x3A47460")]
+		[Token(Token = "0x600019F")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -118,11 +118,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x1700002A")]
 	public string TargetId
 	{
-		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3A47470", Offset = "0x3A47470", VA = "0x3A47470")]
+		[Token(Token = "0x60001A0")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		[CompilerGenerated]
 		get
 		{
@@ -130,11 +130,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x1700001B")]
+	[Token(Token = "0x1700002B")]
 	public string Id
 	{
-		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x3A47480", Offset = "0x3A47480", VA = "0x3A47480")]
+		[Token(Token = "0x60001A1")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -142,11 +142,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x1700001C")]
+	[Token(Token = "0x1700002C")]
 	public string Title
 	{
-		[Token(Token = "0x6000133")]
-		[Address(RVA = "0x3A47490", Offset = "0x3A47490", VA = "0x3A47490")]
+		[Token(Token = "0x60001A2")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		[CompilerGenerated]
 		get
 		{
@@ -154,22 +154,22 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x1700001D")]
+	[Token(Token = "0x1700002D")]
 	public string DisplayTitle
 	{
-		[Token(Token = "0x6000134")]
-		[Address(RVA = "0x3A474A0", Offset = "0x3A474A0", VA = "0x3A474A0")]
+		[Token(Token = "0x60001A3")]
+		[Address(RVA = "0x18AEE00", Offset = "0x18AD400", VA = "0x1818AEE00")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700001E")]
+	[Token(Token = "0x1700002E")]
 	public string Keywords
 	{
-		[Token(Token = "0x6000136")]
-		[Address(RVA = "0x3A477D0", Offset = "0x3A477D0", VA = "0x3A477D0")]
+		[Token(Token = "0x60001A5")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		[CompilerGenerated]
 		get
 		{
@@ -177,11 +177,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x1700001F")]
+	[Token(Token = "0x1700002F")]
 	public string Icon
 	{
-		[Token(Token = "0x6000137")]
-		[Address(RVA = "0x3A477E0", Offset = "0x3A477E0", VA = "0x3A477E0")]
+		[Token(Token = "0x60001A6")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -189,11 +189,11 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x17000020")]
+	[Token(Token = "0x17000030")]
 	public string Kind
 	{
-		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x3A477F0", Offset = "0x3A477F0", VA = "0x3A477F0")]
+		[Token(Token = "0x60001A7")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		[CompilerGenerated]
 		get
 		{
@@ -201,76 +201,76 @@ public sealed class GisketchSearchEntry
 		}
 	}
 
-	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3A46B70", Offset = "0x3A46B70", VA = "0x3A46B70")]
+	[Token(Token = "0x6000196")]
+	[Address(RVA = "0x18AF0C0", Offset = "0x18AD6C0", VA = "0x1818AF0C0")]
 	public GisketchSearchEntry(GisketchNodeDefinition node, GameObject target)
 	{
 	}
 
-	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x3A46F80", Offset = "0x3A46F80", VA = "0x3A46F80")]
+	[Token(Token = "0x6000197")]
+	[Address(RVA = "0x18AEEB0", Offset = "0x18AD4B0", VA = "0x1818AEEB0")]
 	public GisketchSearchEntry(string screenId, string screenTitle, string searchGroup, string sectionId, string sectionTitle, string targetId, string title, string keywords, string icon, string kind, [Optional] GameObject target)
 	{
 	}
 
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x3A474C0", Offset = "0x3A474C0", VA = "0x3A474C0")]
+	[Token(Token = "0x60001A4")]
+	[Address(RVA = "0x18AE670", Offset = "0x18ACC70", VA = "0x1818AE670")]
 	public string DisplayTitleFor(string activeScreenId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x3A46DD0", Offset = "0x3A46DD0", VA = "0x3A46DD0")]
+	[Token(Token = "0x60001A8")]
+	[Address(RVA = "0x18AEE10", Offset = "0x18AD410", VA = "0x1818AEE10")]
 	private static string TitleFor(GisketchNodeDefinition node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x3A474B0", Offset = "0x3A474B0", VA = "0x3A474B0")]
+	[Token(Token = "0x60001A9")]
+	[Address(RVA = "0x18AEE00", Offset = "0x18AD400", VA = "0x1818AEE00")]
 	private string PathTitle()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x3A47560", Offset = "0x3A47560", VA = "0x3A47560")]
+	[Token(Token = "0x60001AA")]
+	[Address(RVA = "0x18AEAE0", Offset = "0x18AD0E0", VA = "0x1818AEAE0")]
 	private string PathTitle(bool includeScreen)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013C")]
-	[Address(RVA = "0x3A47800", Offset = "0x3A47800", VA = "0x3A47800")]
+	[Token(Token = "0x60001AB")]
+	[Address(RVA = "0x18AE9F0", Offset = "0x18ACFF0", VA = "0x1818AE9F0")]
 	private bool IsMainMenuChild()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600013D")]
-	[Address(RVA = "0x3A47510", Offset = "0x3A47510", VA = "0x3A47510")]
+	[Token(Token = "0x60001AC")]
+	[Address(RVA = "0x18AE990", Offset = "0x18ACF90", VA = "0x1818AE990")]
 	private bool IsActiveScreen(string activeScreenId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600013E")]
-	[Address(RVA = "0x3A46E70", Offset = "0x3A46E70", VA = "0x3A46E70")]
+	[Token(Token = "0x60001AD")]
+	[Address(RVA = "0x18AE8D0", Offset = "0x18ACED0", VA = "0x1818AE8D0")]
 	private static string IconFor(GisketchNodeDefinition node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600013F")]
-	[Address(RVA = "0x3A46F10", Offset = "0x3A46F10", VA = "0x3A46F10")]
+	[Token(Token = "0x60001AE")]
+	[Address(RVA = "0x18AEA70", Offset = "0x18AD070", VA = "0x1818AEA70")]
 	private static string KindFor(GisketchNodeDefinition node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x3A47210", Offset = "0x3A47210", VA = "0x3A47210")]
+	[Token(Token = "0x60001AF")]
+	[Address(RVA = "0x18AE6D0", Offset = "0x18ACCD0", VA = "0x1818AE6D0")]
 	private static string IconForKind(string kind)
 	{
 		return null;

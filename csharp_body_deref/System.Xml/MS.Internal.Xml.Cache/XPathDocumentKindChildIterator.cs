@@ -14,30 +14,30 @@ namespace MS.Internal.Xml.Cache;
 internal class XPathDocumentKindChildIterator : XPathDocumentBaseIterator
 {
 	[Token(Token = "0x4000EF5")]
-	[FieldOffset(Offset = "0x24")]
+	[FieldOffset(Offset = "0x28")]
 	private XPathNodeType _typ;
 
 	[Token(Token = "0x6001C72")]
-	[Address(RVA = "0x478F370", Offset = "0x478F370", VA = "0x478F370")]
+	[Address(RVA = "0x26D5870", Offset = "0x26D3E70", VA = "0x1826D5870")]
 	public XPathDocumentKindChildIterator(XPathDocumentNavigator parent, XPathNodeType typ)
 	{
 	}
 
 	[Token(Token = "0x6001C73")]
-	[Address(RVA = "0x478F3F0", Offset = "0x478F3F0", VA = "0x478F3F0")]
+	[Address(RVA = "0x26D5920", Offset = "0x26D3F20", VA = "0x1826D5920")]
 	public XPathDocumentKindChildIterator(XPathDocumentKindChildIterator iter)
 	{
 	}
 
 	[Token(Token = "0x6001C74")]
-	[Address(RVA = "0x478F480", Offset = "0x478F480", VA = "0x478F480", Slot = "6")]
+	[Address(RVA = "0x26D57A0", Offset = "0x26D3DA0", VA = "0x1826D57A0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C75")]
-	[Address(RVA = "0x478F540", Offset = "0x478F540", VA = "0x478F540", Slot = "7")]
+	[Address(RVA = "0x26D5810", Offset = "0x26D3E10", VA = "0x1826D5810", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

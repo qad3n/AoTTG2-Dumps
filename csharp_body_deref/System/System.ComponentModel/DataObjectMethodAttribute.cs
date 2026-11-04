@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200027E")]
+[Token(Token = "0x2000189")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class DataObjectMethodAttribute : Attribute
 {
-	[Token(Token = "0x1700037D")]
+	[Token(Token = "0x170001EC")]
 	public bool IsDefault
 	{
-		[Token(Token = "0x6000FAF")]
-		[Address(RVA = "0x488E990", Offset = "0x488E990", VA = "0x488E990")]
+		[Token(Token = "0x60009F7")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,11 +26,11 @@ public sealed class DataObjectMethodAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700037E")]
+	[Token(Token = "0x170001ED")]
 	public DataObjectMethodType MethodType
 	{
-		[Token(Token = "0x6000FB0")]
-		[Address(RVA = "0x488E9A0", Offset = "0x488E9A0", VA = "0x488E9A0")]
+		[Token(Token = "0x60009F8")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,34 +38,34 @@ public sealed class DataObjectMethodAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000FAD")]
-	[Address(RVA = "0x488E950", Offset = "0x488E950", VA = "0x488E950")]
+	[Token(Token = "0x60009F5")]
+	[Address(RVA = "0x289A4B0", Offset = "0x2898AB0", VA = "0x18289A4B0")]
 	public DataObjectMethodAttribute(DataObjectMethodType methodType)
 	{
 	}
 
-	[Token(Token = "0x6000FAE")]
-	[Address(RVA = "0x488E970", Offset = "0x488E970", VA = "0x488E970")]
+	[Token(Token = "0x60009F6")]
+	[Address(RVA = "0x289A4E0", Offset = "0x2898AE0", VA = "0x18289A4E0")]
 	public DataObjectMethodAttribute(DataObjectMethodType methodType, bool isDefault)
 	{
 	}
 
-	[Token(Token = "0x6000FB1")]
-	[Address(RVA = "0x488E9B0", Offset = "0x488E9B0", VA = "0x488E9B0", Slot = "0")]
+	[Token(Token = "0x60009F9")]
+	[Address(RVA = "0x289A340", Offset = "0x2898940", VA = "0x18289A340", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FB2")]
-	[Address(RVA = "0x488EA40", Offset = "0x488EA40", VA = "0x488EA40", Slot = "2")]
+	[Token(Token = "0x60009FA")]
+	[Address(RVA = "0x289A3D0", Offset = "0x28989D0", VA = "0x18289A3D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000FB3")]
-	[Address(RVA = "0x488EA90", Offset = "0x488EA90", VA = "0x488EA90", Slot = "5")]
+	[Token(Token = "0x60009FB")]
+	[Address(RVA = "0x289A430", Offset = "0x2898A30", VA = "0x18289A430", Slot = "5")]
 	public override bool Match(object obj)
 	{
 		return default(bool);

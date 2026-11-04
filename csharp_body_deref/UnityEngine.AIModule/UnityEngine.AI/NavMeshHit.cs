@@ -34,11 +34,11 @@ public struct NavMeshHit
 	[FieldOffset(Offset = "0x20")]
 	private int m_Hit;
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x1700001A")]
 	public Vector3 position
 	{
-		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x4D91A10", Offset = "0x4D91A10", VA = "0x4D91A10")]
+		[Token(Token = "0x600004F")]
+		[Address(RVA = "0x180F7A0", Offset = "0x180DDA0", VA = "0x18180F7A0")]
 		get
 		{
 			return default(Vector3);

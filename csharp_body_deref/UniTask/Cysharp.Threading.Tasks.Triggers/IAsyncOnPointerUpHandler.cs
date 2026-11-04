@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200021B")]
+[Token(Token = "0x200021E")]
 public interface IAsyncOnPointerUpHandler
 {
-	[Token(Token = "0x6000C45")]
+	[Token(Token = "0x6000C69")]
 	UniTask<PointerEventData> OnPointerUpAsync();
 }

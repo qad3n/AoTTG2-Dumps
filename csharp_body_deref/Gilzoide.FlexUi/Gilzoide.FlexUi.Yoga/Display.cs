@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000B")]
 public enum Display
 {
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000047")]
 	Flex,
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000048")]
 	None
 }

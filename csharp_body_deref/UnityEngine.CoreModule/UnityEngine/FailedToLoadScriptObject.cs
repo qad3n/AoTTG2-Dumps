@@ -12,10 +12,10 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200016C")]
+[Token(Token = "0x20001A0")]
 [UnityEngine.NativeClass(null)]
-[ExcludeFromObjectFactory]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[ExcludeFromObjectFactory]
 internal class FailedToLoadScriptObject : Object
 {
 }

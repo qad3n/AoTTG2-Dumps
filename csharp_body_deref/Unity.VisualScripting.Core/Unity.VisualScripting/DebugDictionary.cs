@@ -16,64 +16,48 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000016")]
 public class DebugDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable, IDictionary, ICollection
 {
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000018")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Dictionary<TKey, TValue> dictionary;
 
-	[Token(Token = "0x1700000E")]
+	[Token(Token = "0x1700000F")]
 	public TValue this[TKey key]
 	{
-		[Token(Token = "0x6000063")]
+		[Token(Token = "0x6000067")]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x6000064")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700000F")]
-	private object System_002ECollections_002EIDictionary_002EItem
-	{
-		[Token(Token = "0x6000065")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000066")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000010")]
-	public string label
-	{
-		[Token(Token = "0x6000067")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
 		[Token(Token = "0x6000068")]
-		[CompilerGenerated]
 		set
 		{
 		}
+	}
+
+	// C# has no syntax for parameterized property 'System.Collections.IDictionary.Item'.
+	// Its 'property:' attributes below are ignored by the compiler (CS0657).
+	[property: Token(Token = "0x17000010")]
+	[Token(Token = "0x6000069")]
+	private object System_002ECollections_002EIDictionary_002Eget_Item(object key)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600006A")]
+	private void System_002ECollections_002EIDictionary_002Eset_Item(object key, object value)
+	{
 	}
 
 	[Token(Token = "0x17000011")]
-	public bool debug
+	public string label
 	{
-		[Token(Token = "0x6000069")]
+		[Token(Token = "0x600006B")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
-		[Token(Token = "0x600006A")]
+		[Token(Token = "0x600006C")]
 		[CompilerGenerated]
 		set
 		{
@@ -81,67 +65,43 @@ public class DebugDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollect
 	}
 
 	[Token(Token = "0x17000012")]
+	public bool debug
+	{
+		[Token(Token = "0x600006D")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x600006E")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000013")]
 	public int Count
 	{
-		[Token(Token = "0x600006B")]
+		[Token(Token = "0x600006F")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000013")]
-	private object System_002ECollections_002EICollection_002ESyncRoot
-	{
-		[Token(Token = "0x600006C")]
-		get
-		{
-			return null;
-		}
-	}
-
 	[Token(Token = "0x17000014")]
-	private bool System_002ECollections_002EICollection_002EIsSynchronized
-	{
-		[Token(Token = "0x600006D")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000015")]
-	private ICollection System_002ECollections_002EIDictionary_002EValues
-	{
-		[Token(Token = "0x600006E")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000016")]
-	private bool System_002ECollections_002EIDictionary_002EIsReadOnly
-	{
-		[Token(Token = "0x600006F")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000017")]
-	private bool System_002ECollections_002EIDictionary_002EIsFixedSize
+	private object System_002ECollections_002EICollection_002ESyncRoot
 	{
 		[Token(Token = "0x6000070")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
-	[Token(Token = "0x17000018")]
-	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002EIsReadOnly
+	[Token(Token = "0x17000015")]
+	private bool System_002ECollections_002EICollection_002EIsSynchronized
 	{
 		[Token(Token = "0x6000071")]
 		get
@@ -150,8 +110,8 @@ public class DebugDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollect
 		}
 	}
 
-	[Token(Token = "0x17000019")]
-	public ICollection<TKey> Keys
+	[Token(Token = "0x17000016")]
+	private ICollection System_002ECollections_002EIDictionary_002EValues
 	{
 		[Token(Token = "0x6000072")]
 		get
@@ -160,10 +120,40 @@ public class DebugDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollect
 		}
 	}
 
-	[Token(Token = "0x1700001A")]
-	private ICollection System_002ECollections_002EIDictionary_002EKeys
+	[Token(Token = "0x17000017")]
+	private bool System_002ECollections_002EIDictionary_002EIsReadOnly
 	{
 		[Token(Token = "0x6000073")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000018")]
+	private bool System_002ECollections_002EIDictionary_002EIsFixedSize
+	{
+		[Token(Token = "0x6000074")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000019")]
+	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002EIsReadOnly
+	{
+		[Token(Token = "0x6000075")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700001A")]
+	public ICollection<TKey> Keys
+	{
+		[Token(Token = "0x6000076")]
 		get
 		{
 			return null;
@@ -171,110 +161,120 @@ public class DebugDictionary<TKey, TValue> : IDictionary<TKey, TValue>, ICollect
 	}
 
 	[Token(Token = "0x1700001B")]
-	public ICollection<TValue> Values
+	private ICollection System_002ECollections_002EIDictionary_002EKeys
 	{
-		[Token(Token = "0x6000074")]
+		[Token(Token = "0x6000077")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000075")]
+	[Token(Token = "0x1700001C")]
+	public ICollection<TValue> Values
+	{
+		[Token(Token = "0x6000078")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x6000079")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x6000076")]
+	[Token(Token = "0x600007A")]
 	private void Debug(string message)
 	{
 	}
 
-	[Token(Token = "0x6000077")]
+	[Token(Token = "0x600007B")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000078")]
+	[Token(Token = "0x600007C")]
 	private void System_002ECollections_002EIDictionary_002ERemove(object key)
 	{
 	}
 
-	[Token(Token = "0x6000079")]
+	[Token(Token = "0x600007D")]
 	private bool System_002ECollections_002EIDictionary_002EContains(object key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600007A")]
+	[Token(Token = "0x600007E")]
 	private void System_002ECollections_002EIDictionary_002EAdd(object key, object value)
 	{
 	}
 
-	[Token(Token = "0x600007B")]
+	[Token(Token = "0x600007F")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x600007C")]
+	[Token(Token = "0x6000080")]
 	private IDictionaryEnumerator System_002ECollections_002EIDictionary_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600007D")]
+	[Token(Token = "0x6000081")]
 	public bool Contains(KeyValuePair<TKey, TValue> item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600007E")]
+	[Token(Token = "0x6000082")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002EAdd(KeyValuePair<TKey, TValue> item)
 	{
 	}
 
-	[Token(Token = "0x600007F")]
+	[Token(Token = "0x6000083")]
 	private void System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002ECopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x6000080")]
+	[Token(Token = "0x6000084")]
 	private bool System_002ECollections_002EGeneric_002EICollection_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002ERemove(KeyValuePair<TKey, TValue> item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000081")]
+	[Token(Token = "0x6000085")]
 	public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000082")]
+	[Token(Token = "0x6000086")]
 	public bool ContainsKey(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000083")]
+	[Token(Token = "0x6000087")]
 	public void Add(TKey key, TValue value)
 	{
 	}
 
-	[Token(Token = "0x6000084")]
+	[Token(Token = "0x6000088")]
 	public bool Remove(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000085")]
+	[Token(Token = "0x6000089")]
 	public bool TryGetValue(TKey key, out TValue value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000086")]
+	[Token(Token = "0x600008A")]
 	public DebugDictionary()
 	{
 	}

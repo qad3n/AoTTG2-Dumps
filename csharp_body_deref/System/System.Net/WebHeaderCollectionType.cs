@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000150")]
+[Token(Token = "0x20002D8")]
 internal enum WebHeaderCollectionType : ushort
 {
-	[Token(Token = "0x40006BF")]
+	[Token(Token = "0x4000AD5")]
 	Unknown,
-	[Token(Token = "0x40006C0")]
+	[Token(Token = "0x4000AD6")]
 	WebRequest,
-	[Token(Token = "0x40006C1")]
+	[Token(Token = "0x4000AD7")]
 	WebResponse,
-	[Token(Token = "0x40006C2")]
+	[Token(Token = "0x4000AD8")]
 	HttpWebRequest,
-	[Token(Token = "0x40006C3")]
+	[Token(Token = "0x4000AD9")]
 	HttpWebResponse,
-	[Token(Token = "0x40006C4")]
+	[Token(Token = "0x4000ADA")]
 	HttpListenerRequest,
-	[Token(Token = "0x40006C5")]
+	[Token(Token = "0x4000ADB")]
 	HttpListenerResponse,
-	[Token(Token = "0x40006C6")]
+	[Token(Token = "0x4000ADC")]
 	FtpWebRequest,
-	[Token(Token = "0x40006C7")]
+	[Token(Token = "0x4000ADD")]
 	FtpWebResponse,
-	[Token(Token = "0x40006C8")]
+	[Token(Token = "0x4000ADE")]
 	FileWebRequest,
-	[Token(Token = "0x40006C9")]
+	[Token(Token = "0x4000ADF")]
 	FileWebResponse
 }

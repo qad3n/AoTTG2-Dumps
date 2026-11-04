@@ -11,24 +11,24 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000B0")]
+[Token(Token = "0x20000D4")]
 [UnityEngine.Bindings.StaticAccessor("GetUncheckedRealGfxDevice().GetFrameTimingManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 public static class FrameTimingManager
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000366")]
-	[Address(RVA = "0x4DC3B10", Offset = "0x4DC3B10", VA = "0x4DC3B10")]
+	[Token(Token = "0x60004A5")]
+	[Address(RVA = "0x2EC7180", Offset = "0x2EC5780", VA = "0x182EC7180")]
 	public static extern void CaptureFrameTimings();
 
-	[Token(Token = "0x6000367")]
-	[Address(RVA = "0x4DC3B40", Offset = "0x4DC3B40", VA = "0x4DC3B40")]
+	[Token(Token = "0x60004A6")]
+	[Address(RVA = "0x2EC71F0", Offset = "0x2EC57F0", VA = "0x182EC71F0")]
 	public static uint GetLatestTimings(uint numFrames, FrameTiming[] timings)
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000368")]
-	[Address(RVA = "0x4DC3C00", Offset = "0x4DC3C00", VA = "0x4DC3C00")]
+	[Token(Token = "0x60004A7")]
+	[Address(RVA = "0x2EC71B0", Offset = "0x2EC57B0", VA = "0x182EC71B0")]
 	private static extern uint GetLatestTimings_Injected(uint numFrames, ref ManagedSpanWrapper timings);
 }

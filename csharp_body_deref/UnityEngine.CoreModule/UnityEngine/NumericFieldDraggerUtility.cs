@@ -1,75 +1,77 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.NumericFieldDraggerUtility
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000126")]
+[Token(Token = "0x2000152")]
 [MovedFrom("UnityEditor")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule", "UnityEditor.UIBuilderModule" })]
 internal class NumericFieldDraggerUtility
 {
-	[Token(Token = "0x400051A")]
+	[Token(Token = "0x40005A0")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool s_UseYSign;
 
-	[Token(Token = "0x60008FD")]
-	[Address(RVA = "0x4DF0F80", Offset = "0x4DF0F80", VA = "0x4DF0F80")]
-	internal static float Acceleration(bool shiftPressed, bool altPressed)
+	[Token(Token = "0x6000C04")]
+	[Address(RVA = "0x2F1E1D0", Offset = "0x2F1C7D0", VA = "0x182F1E1D0")]
+	public static float Acceleration(bool shiftPressed, bool altPressed)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60008FE")]
-	[Address(RVA = "0x4DF0FB0", Offset = "0x4DF0FB0", VA = "0x4DF0FB0")]
-	internal static float NiceDelta(Vector2 deviceDelta, float acceleration)
+	[Token(Token = "0x6000C05")]
+	[Address(RVA = "0x2F1E540", Offset = "0x2F1CB40", VA = "0x182F1E540")]
+	public static float NiceDelta(Vector2 deviceDelta, float acceleration)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x4DF1120", Offset = "0x4DF1120", VA = "0x4DF1120")]
-	internal static double CalculateFloatDragSensitivity(double value)
+	[Token(Token = "0x6000C06")]
+	[Address(RVA = "0x2F1E2D0", Offset = "0x2F1C8D0", VA = "0x182F1E2D0")]
+	public static double CalculateFloatDragSensitivity(double value)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x4DF11D0", Offset = "0x4DF11D0", VA = "0x4DF11D0")]
-	internal static double CalculateFloatDragSensitivity(double value, double minValue, double maxValue)
+	[Token(Token = "0x6000C07")]
+	[Address(RVA = "0x2F1E210", Offset = "0x2F1C810", VA = "0x182F1E210")]
+	public static double CalculateFloatDragSensitivity(double value, double minValue, double maxValue)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x4DF1290", Offset = "0x4DF1290", VA = "0x4DF1290")]
-	internal static long CalculateIntDragSensitivity(long value)
+	[Token(Token = "0x6000C08")]
+	[Address(RVA = "0x2F1E390", Offset = "0x2F1C990", VA = "0x182F1E390")]
+	public static long CalculateIntDragSensitivity(long value)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x4DF13B0", Offset = "0x4DF13B0", VA = "0x4DF13B0")]
-	internal static ulong CalculateIntDragSensitivity(ulong value)
+	[Token(Token = "0x6000C09")]
+	[Address(RVA = "0x2F1E440", Offset = "0x2F1CA40", VA = "0x182F1E440")]
+	public static ulong CalculateIntDragSensitivity(ulong value)
 	{
 		return default(ulong);
 	}
 
-	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x4DF1320", Offset = "0x4DF1320", VA = "0x4DF1320")]
-	private static double CalculateIntDragSensitivity(double value)
+	[Token(Token = "0x6000C0A")]
+	[Address(RVA = "0x2F1E4C0", Offset = "0x2F1CAC0", VA = "0x182F1E4C0")]
+	public static double CalculateIntDragSensitivity(double value)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x4DF14A0", Offset = "0x4DF14A0", VA = "0x4DF14A0")]
-	internal static long CalculateIntDragSensitivity(long value, long minValue, long maxValue)
+	[Token(Token = "0x6000C0B")]
+	[Address(RVA = "0x2F1E3B0", Offset = "0x2F1C9B0", VA = "0x182F1E3B0")]
+	public static long CalculateIntDragSensitivity(long value, long minValue, long maxValue)
 	{
 		return default(long);
 	}

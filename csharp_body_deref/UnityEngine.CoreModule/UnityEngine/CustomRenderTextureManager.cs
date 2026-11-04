@@ -14,31 +14,31 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000A4")]
+[Token(Token = "0x20000C5")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CustomRenderTextureManager.h")]
 public static class CustomRenderTextureManager
 {
-	[Token(Token = "0x40001B3")]
+	[Token(Token = "0x4000208")]
 	[FieldOffset(Offset = "0x0")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<CustomRenderTexture> textureLoaded;
 
-	[Token(Token = "0x40001B4")]
+	[Token(Token = "0x4000209")]
 	[FieldOffset(Offset = "0x8")]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
 	private static Action<CustomRenderTexture> textureUnloaded;
 
-	[Token(Token = "0x60002FF")]
-	[Address(RVA = "0x4DBFC00", Offset = "0x4DBFC00", VA = "0x4DBFC00")]
+	[Token(Token = "0x600042A")]
+	[Address(RVA = "0x2EC1AA0", Offset = "0x2EC00A0", VA = "0x182EC1AA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnTextureLoaded_Internal(CustomRenderTexture source)
 	{
 	}
 
-	[Token(Token = "0x6000300")]
-	[Address(RVA = "0x4DBFC50", Offset = "0x4DBFC50", VA = "0x4DBFC50")]
+	[Token(Token = "0x600042B")]
+	[Address(RVA = "0x2EC1B00", Offset = "0x2EC0100", VA = "0x182EC1B00")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeOnTextureUnloaded_Internal(CustomRenderTexture source)
 	{

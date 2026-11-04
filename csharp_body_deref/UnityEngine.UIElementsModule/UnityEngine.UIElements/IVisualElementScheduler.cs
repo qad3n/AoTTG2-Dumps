@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000475")]
+[Token(Token = "0x2000550")]
 public interface IVisualElementScheduler
 {
-	[Token(Token = "0x6001BB3")]
+	[Token(Token = "0x600281D")]
 	IVisualElementScheduledItem Execute(Action<TimerState> timerUpdateEvent);
 
-	[Token(Token = "0x6001BB4")]
+	[Token(Token = "0x600281E")]
 	IVisualElementScheduledItem Execute(Action updateEvent);
 }

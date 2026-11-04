@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001A0")]
+[Token(Token = "0x20001E7")]
 public class KeyUpEvent : KeyboardEventBase<KeyUpEvent>
 {
-	[Token(Token = "0x6000AFB")]
-	[Address(RVA = "0x5031FD0", Offset = "0x5031FD0", VA = "0x5031FD0")]
+	[Token(Token = "0x6000D1D")]
+	[Address(RVA = "0x3267250", Offset = "0x3265850", VA = "0x183267250")]
 	static KeyUpEvent()
 	{
 	}
 
-	[Token(Token = "0x6000AFC")]
-	[Address(RVA = "0x50320A0", Offset = "0x50320A0", VA = "0x50320A0")]
+	[Token(Token = "0x6000D1E")]
+	[Address(RVA = "0x3267330", Offset = "0x3265930", VA = "0x183267330")]
 	public KeyUpEvent()
 	{
 	}

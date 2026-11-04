@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004C2")]
+[Token(Token = "0x20005B7")]
 internal enum RenderDataDirtyTypeClasses
 {
-	[Token(Token = "0x4000F35")]
+	[Token(Token = "0x40014A4")]
 	Clipping,
-	[Token(Token = "0x4000F36")]
+	[Token(Token = "0x40014A5")]
 	Opacity,
-	[Token(Token = "0x4000F37")]
+	[Token(Token = "0x40014A6")]
 	Color,
-	[Token(Token = "0x4000F38")]
+	[Token(Token = "0x40014A7")]
 	TransformSize,
-	[Token(Token = "0x4000F39")]
+	[Token(Token = "0x40014A8")]
 	Visuals,
-	[Token(Token = "0x4000F3A")]
+	[Token(Token = "0x40014A9")]
 	Count
 }

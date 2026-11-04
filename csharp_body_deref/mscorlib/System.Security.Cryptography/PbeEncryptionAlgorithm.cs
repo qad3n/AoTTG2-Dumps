@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000323")]
+[Token(Token = "0x2000352")]
 public enum PbeEncryptionAlgorithm
 {
-	[Token(Token = "0x4000E15")]
+	[Token(Token = "0x4000E22")]
 	Unknown,
-	[Token(Token = "0x4000E16")]
+	[Token(Token = "0x4000E23")]
 	Aes128Cbc,
-	[Token(Token = "0x4000E17")]
+	[Token(Token = "0x4000E24")]
 	Aes192Cbc,
-	[Token(Token = "0x4000E18")]
+	[Token(Token = "0x4000E25")]
 	Aes256Cbc,
-	[Token(Token = "0x4000E19")]
+	[Token(Token = "0x4000E26")]
 	TripleDes3KeyPkcs12
 }

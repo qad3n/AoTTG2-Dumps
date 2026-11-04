@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000BB")]
+[Token(Token = "0x2000089")]
 internal enum DebugAction
 {
-	[Token(Token = "0x4000295")]
+	[Token(Token = "0x40001C6")]
 	EnableDebugMenu,
-	[Token(Token = "0x4000296")]
+	[Token(Token = "0x40001C7")]
 	PreviousDebugPanel,
-	[Token(Token = "0x4000297")]
+	[Token(Token = "0x40001C8")]
 	NextDebugPanel,
-	[Token(Token = "0x4000298")]
+	[Token(Token = "0x40001C9")]
 	Action,
-	[Token(Token = "0x4000299")]
+	[Token(Token = "0x40001CA")]
 	MakePersistent,
-	[Token(Token = "0x400029A")]
+	[Token(Token = "0x40001CB")]
 	MoveVertical,
-	[Token(Token = "0x400029B")]
+	[Token(Token = "0x40001CC")]
 	MoveHorizontal,
-	[Token(Token = "0x400029C")]
+	[Token(Token = "0x40001CD")]
 	Multiplier,
-	[Token(Token = "0x400029D")]
+	[Token(Token = "0x40001CE")]
 	ResetAll,
-	[Token(Token = "0x400029E")]
+	[Token(Token = "0x40001CF")]
 	DebugActionCount
 }

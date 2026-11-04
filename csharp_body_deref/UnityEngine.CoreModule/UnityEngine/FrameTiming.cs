@@ -10,66 +10,66 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000AF")]
+[Token(Token = "0x20000D3")]
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/FrameTiming.h")]
 public struct FrameTiming
 {
-	[Token(Token = "0x40001CB")]
+	[Token(Token = "0x4000224")]
 	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Bindings.NativeName("totalFrameTime")]
 	public double cpuFrameTime;
 
-	[Token(Token = "0x40001CC")]
+	[Token(Token = "0x4000225")]
 	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Bindings.NativeName("mainThreadActiveTime")]
 	public double cpuMainThreadFrameTime;
 
-	[Token(Token = "0x40001CD")]
+	[Token(Token = "0x4000226")]
 	[FieldOffset(Offset = "0x10")]
 	[UnityEngine.Bindings.NativeName("mainThreadPresentWaitTime")]
 	public double cpuMainThreadPresentWaitTime;
 
-	[Token(Token = "0x40001CE")]
+	[Token(Token = "0x4000227")]
 	[FieldOffset(Offset = "0x18")]
 	[UnityEngine.Bindings.NativeName("renderThreadActiveTime")]
 	public double cpuRenderThreadFrameTime;
 
-	[Token(Token = "0x40001CF")]
+	[Token(Token = "0x4000228")]
 	[FieldOffset(Offset = "0x20")]
 	[UnityEngine.Bindings.NativeName("gpuFrameTime")]
 	public double gpuFrameTime;
 
-	[Token(Token = "0x40001D0")]
+	[Token(Token = "0x4000229")]
 	[FieldOffset(Offset = "0x28")]
 	[UnityEngine.Bindings.NativeName("frameStartTimestamp")]
 	public ulong frameStartTimestamp;
 
-	[Token(Token = "0x40001D1")]
+	[Token(Token = "0x400022A")]
 	[FieldOffset(Offset = "0x30")]
 	[UnityEngine.Bindings.NativeName("firstSubmitTimestamp")]
 	public ulong firstSubmitTimestamp;
 
-	[Token(Token = "0x40001D2")]
+	[Token(Token = "0x400022B")]
 	[FieldOffset(Offset = "0x38")]
 	[UnityEngine.Bindings.NativeName("presentFrameTimestamp")]
 	public ulong cpuTimePresentCalled;
 
-	[Token(Token = "0x40001D3")]
+	[Token(Token = "0x400022C")]
 	[FieldOffset(Offset = "0x40")]
 	[UnityEngine.Bindings.NativeName("frameCompleteTimestamp")]
 	public ulong cpuTimeFrameComplete;
 
-	[Token(Token = "0x40001D4")]
+	[Token(Token = "0x400022D")]
 	[FieldOffset(Offset = "0x48")]
 	[UnityEngine.Bindings.NativeName("heightScale")]
 	public float heightScale;
 
-	[Token(Token = "0x40001D5")]
+	[Token(Token = "0x400022E")]
 	[FieldOffset(Offset = "0x4C")]
 	[UnityEngine.Bindings.NativeName("widthScale")]
 	public float widthScale;
 
-	[Token(Token = "0x40001D6")]
+	[Token(Token = "0x400022F")]
 	[FieldOffset(Offset = "0x50")]
 	[UnityEngine.Bindings.NativeName("syncInterval")]
 	public uint syncInterval;

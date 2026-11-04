@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x2000730")]
+[Token(Token = "0x20008A7")]
 public class BaseCSVRow : BaseCSVObject
 {
-	[Token(Token = "0x60046B0")]
-	[Address(RVA = "0x438EDC0", Offset = "0x438EDC0", VA = "0x438EDC0")]
+	[Token(Token = "0x60052B5")]
+	[Address(RVA = "0x232BB90", Offset = "0x232A190", VA = "0x18232BB90")]
 	public BaseCSVRow()
 	{
 	}

@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x2000734")]
+[Token(Token = "0x20008B9")]
 public class DataMigrator
 {
-	[Token(Token = "0x60046BA")]
-	[Address(RVA = "0x438EEE0", Offset = "0x438EEE0", VA = "0x438EEE0")]
+	[Token(Token = "0x6005316")]
+	[Address(RVA = "0x2334FA0", Offset = "0x23335A0", VA = "0x182334FA0")]
 	private static void CopyDirectory(DirectoryInfo source, DirectoryInfo destination)
 	{
 	}
 
-	[Token(Token = "0x60046BB")]
-	[Address(RVA = "0x438F0C0", Offset = "0x438F0C0", VA = "0x438F0C0")]
+	[Token(Token = "0x6005317")]
+	[Address(RVA = "0x2335140", Offset = "0x2333740", VA = "0x182335140")]
 	public static void MigrateLinuxSaves()
 	{
 	}
 
-	[Token(Token = "0x60046BC")]
-	[Address(RVA = "0x438F2C0", Offset = "0x438F2C0", VA = "0x438F2C0")]
+	[Token(Token = "0x6005318")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DataMigrator()
 	{
 	}

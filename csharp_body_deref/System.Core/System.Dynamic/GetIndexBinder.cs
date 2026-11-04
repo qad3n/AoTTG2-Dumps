@@ -12,20 +12,20 @@ namespace System.Dynamic;
 [Token(Token = "0x2000275")]
 public abstract class GetIndexBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000C62")]
-	[Address(RVA = "0x45108D0", Offset = "0x45108D0", VA = "0x45108D0", Slot = "7")]
+	[Token(Token = "0x6000C61")]
+	[Address(RVA = "0x2484EF0", Offset = "0x24834F0", VA = "0x182484EF0", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C63")]
-	[Address(RVA = "0x45109A0", Offset = "0x45109A0", VA = "0x45109A0")]
+	[Token(Token = "0x6000C62")]
+	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
 	public DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C64")]
+	[Token(Token = "0x6000C63")]
 	public abstract DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes, DynamicMetaObject errorSuggestion);
 }

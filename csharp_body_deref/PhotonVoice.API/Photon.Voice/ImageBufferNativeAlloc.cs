@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x2000089")]
 public class ImageBufferNativeAlloc : ImageBufferNative, IDisposable
 {
-	[Token(Token = "0x4000226")]
+	[Token(Token = "0x4000221")]
 	[FieldOffset(Offset = "0x60")]
 	private ImageBufferNativePool<ImageBufferNativeAlloc> pool;
 
-	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x3F2FBA0", Offset = "0x3F2FBA0", VA = "0x3F2FBA0")]
+	[Token(Token = "0x60002EA")]
+	[Address(RVA = "0x1D6A800", Offset = "0x1D68E00", VA = "0x181D6A800")]
 	public ImageBufferNativeAlloc(ImageBufferNativePool<ImageBufferNativeAlloc> pool, ImageBufferInfo info)
 	{
 	}
 
-	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x3F2FDD0", Offset = "0x3F2FDD0", VA = "0x3F2FDD0", Slot = "4")]
+	[Token(Token = "0x60002EB")]
+	[Address(RVA = "0x1D6A7E0", Offset = "0x1D68DE0", VA = "0x181D6A7E0", Slot = "4")]
 	public override void Release()
 	{
 	}
 
-	[Token(Token = "0x60002EE")]
-	[Address(RVA = "0x3F2FDF0", Offset = "0x3F2FDF0", VA = "0x3F2FDF0", Slot = "5")]
+	[Token(Token = "0x60002EC")]
+	[Address(RVA = "0x1D6A740", Offset = "0x1D68D40", VA = "0x181D6A740", Slot = "5")]
 	public override void Dispose()
 	{
 	}

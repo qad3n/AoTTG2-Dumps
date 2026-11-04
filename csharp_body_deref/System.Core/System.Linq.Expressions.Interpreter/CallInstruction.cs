@@ -16,15 +16,15 @@ internal abstract class CallInstruction : Instruction
 	[Token(Token = "0x17000157")]
 	public abstract int ArgumentCount
 	{
-		[Token(Token = "0x60005EE")]
+		[Token(Token = "0x60005ED")]
 		get;
 	}
 
 	[Token(Token = "0x17000158")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005EF")]
-		[Address(RVA = "0x44C5DC0", Offset = "0x44C5DC0", VA = "0x44C5DC0", Slot = "9")]
+		[Token(Token = "0x60005EE")]
+		[Address(RVA = "0x242B010", Offset = "0x2429610", VA = "0x18242B010", Slot = "9")]
 		get
 		{
 			return null;
@@ -34,69 +34,69 @@ internal abstract class CallInstruction : Instruction
 	[Token(Token = "0x17000159")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005F6")]
-		[Address(RVA = "0x44C65D0", Offset = "0x44C65D0", VA = "0x44C65D0", Slot = "4")]
+		[Token(Token = "0x60005F5")]
+		[Address(RVA = "0x1A4B640", Offset = "0x1A49C40", VA = "0x181A4B640", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x44C5DF0", Offset = "0x44C5DF0", VA = "0x44C5DF0")]
+	[Token(Token = "0x60005EF")]
+	[Address(RVA = "0x242A5E0", Offset = "0x2428BE0", VA = "0x18242A5E0")]
 	public static CallInstruction Create(MethodInfo info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x44C5E40", Offset = "0x44C5E40", VA = "0x44C5E40")]
+	[Token(Token = "0x60005F0")]
+	[Address(RVA = "0x242A7B0", Offset = "0x2428DB0", VA = "0x18242A7B0")]
 	public static CallInstruction Create(MethodInfo info, ParameterInfo[] parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x44C5FD0", Offset = "0x44C5FD0", VA = "0x44C5FD0")]
+	[Token(Token = "0x60005F1")]
+	[Address(RVA = "0x242A940", Offset = "0x2428F40", VA = "0x18242A940")]
 	private static CallInstruction GetArrayAccessor(MethodInfo info, int argumentCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x44C6560", Offset = "0x44C6560", VA = "0x44C6560")]
+	[Token(Token = "0x60005F2")]
+	[Address(RVA = "0x242A540", Offset = "0x2428B40", VA = "0x18242A540")]
 	public static void ArrayItemSetter1(Array array, int index0, object value)
 	{
 	}
 
-	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x44C6580", Offset = "0x44C6580", VA = "0x44C6580")]
+	[Token(Token = "0x60005F3")]
+	[Address(RVA = "0x242A570", Offset = "0x2428B70", VA = "0x18242A570")]
 	public static void ArrayItemSetter2(Array array, int index0, int index1, object value)
 	{
 	}
 
-	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x44C65A0", Offset = "0x44C65A0", VA = "0x44C65A0")]
+	[Token(Token = "0x60005F4")]
+	[Address(RVA = "0x242A5A0", Offset = "0x2428BA0", VA = "0x18242A5A0")]
 	public static void ArrayItemSetter3(Array array, int index0, int index1, int index2, object value)
 	{
 	}
 
-	[Token(Token = "0x60005F7")]
-	[Address(RVA = "0x44C65F0", Offset = "0x44C65F0", VA = "0x44C65F0")]
+	[Token(Token = "0x60005F6")]
+	[Address(RVA = "0x242AEB0", Offset = "0x24294B0", VA = "0x18242AEB0")]
 	protected static bool TryGetLightLambdaTarget(object instance, out LightLambda lightLambda)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x44C6720", Offset = "0x44C6720", VA = "0x44C6720")]
+	[Token(Token = "0x60005F7")]
+	[Address(RVA = "0x242AE50", Offset = "0x2429450", VA = "0x18242AE50")]
 	protected object InterpretLambdaInvoke(LightLambda targetLambda, object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x44C6770", Offset = "0x44C6770", VA = "0x44C6770")]
+	[Token(Token = "0x60005F8")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	protected CallInstruction()
 	{
 	}

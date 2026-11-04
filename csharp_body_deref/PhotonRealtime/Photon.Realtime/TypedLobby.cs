@@ -9,46 +9,46 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000037")]
+[Token(Token = "0x2000035")]
 public class TypedLobby
 {
-	[Token(Token = "0x40001BC")]
+	[Token(Token = "0x40001B7")]
 	[FieldOffset(Offset = "0x10")]
 	public string Name;
 
-	[Token(Token = "0x40001BD")]
+	[Token(Token = "0x40001B8")]
 	[FieldOffset(Offset = "0x18")]
 	public LobbyType Type;
 
-	[Token(Token = "0x40001BE")]
+	[Token(Token = "0x40001B9")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly TypedLobby Default;
 
 	[Token(Token = "0x17000036")]
 	public bool IsDefault
 	{
-		[Token(Token = "0x6000138")]
-		[Address(RVA = "0x3ECC0F0", Offset = "0x3ECC0F0", VA = "0x3ECC0F0")]
+		[Token(Token = "0x6000136")]
+		[Address(RVA = "0x1D26EA0", Offset = "0x1D254A0", VA = "0x181D26EA0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x3ECF130", Offset = "0x3ECF130", VA = "0x3ECF130")]
+	[Token(Token = "0x6000137")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal TypedLobby()
 	{
 	}
 
-	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x3ECF140", Offset = "0x3ECF140", VA = "0x3ECF140")]
+	[Token(Token = "0x6000138")]
+	[Address(RVA = "0x16F5C50", Offset = "0x16F4250", VA = "0x1816F5C50")]
 	public TypedLobby(string name, LobbyType type)
 	{
 	}
 
-	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x3ECF170", Offset = "0x3ECF170", VA = "0x3ECF170", Slot = "3")]
+	[Token(Token = "0x6000139")]
+	[Address(RVA = "0x1D26DB0", Offset = "0x1D253B0", VA = "0x181D26DB0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

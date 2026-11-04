@@ -10,66 +10,66 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x200021E")]
+[Token(Token = "0x20002DD")]
 public class DebugUIHandlerFloatField : DebugUIHandlerWidget
 {
-	[Token(Token = "0x4000879")]
+	[Token(Token = "0x4000D4B")]
 	[FieldOffset(Offset = "0x60")]
 	public Text nameLabel;
 
-	[Token(Token = "0x400087A")]
+	[Token(Token = "0x4000D4C")]
 	[FieldOffset(Offset = "0x68")]
 	public Text valueLabel;
 
-	[Token(Token = "0x400087B")]
+	[Token(Token = "0x4000D4D")]
 	[FieldOffset(Offset = "0x70")]
 	private DebugUI.FloatField m_Field;
 
-	[Token(Token = "0x6000EA3")]
-	[Address(RVA = "0x4C133C0", Offset = "0x4C133C0", VA = "0x4C133C0", Slot = "5")]
+	[Token(Token = "0x600143B")]
+	[Address(RVA = "0x2BACD10", Offset = "0x2BAB310", VA = "0x182BACD10", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x4C13510", Offset = "0x4C13510", VA = "0x4C13510", Slot = "6")]
+	[Token(Token = "0x600143C")]
+	[Address(RVA = "0x2BACCA0", Offset = "0x2BAB2A0", VA = "0x182BACCA0", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x4C13570", Offset = "0x4C13570", VA = "0x4C13570", Slot = "7")]
+	[Token(Token = "0x600143D")]
+	[Address(RVA = "0x2BACC20", Offset = "0x2BAB220", VA = "0x182BACC20", Slot = "7")]
 	public override void OnDeselection()
 	{
 	}
 
-	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x4C135D0", Offset = "0x4C135D0", VA = "0x4C135D0", Slot = "9")]
+	[Token(Token = "0x600143E")]
+	[Address(RVA = "0x2BACC90", Offset = "0x2BAB290", VA = "0x182BACC90", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x4C13700", Offset = "0x4C13700", VA = "0x4C13700", Slot = "10")]
+	[Token(Token = "0x600143F")]
+	[Address(RVA = "0x2BACC10", Offset = "0x2BAB210", VA = "0x182BACC10", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EA8")]
-	[Address(RVA = "0x4C13660", Offset = "0x4C13660", VA = "0x4C13660")]
+	[Token(Token = "0x6001440")]
+	[Address(RVA = "0x2BACB60", Offset = "0x2BAB160", VA = "0x182BACB60")]
 	private void ChangeValue(bool fast, float multiplier)
 	{
 	}
 
-	[Token(Token = "0x6000EA9")]
-	[Address(RVA = "0x4C13450", Offset = "0x4C13450", VA = "0x4C13450")]
+	[Token(Token = "0x6001441")]
+	[Address(RVA = "0x2BACDB0", Offset = "0x2BAB3B0", VA = "0x182BACDB0")]
 	private void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6000EAA")]
-	[Address(RVA = "0x4C13790", Offset = "0x4C13790", VA = "0x4C13790")]
+	[Token(Token = "0x6001442")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerFloatField()
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000525")]
+[Token(Token = "0x2000619")]
 internal enum LayoutPositionType
 {
-	[Token(Token = "0x400115C")]
+	[Token(Token = "0x40016D5")]
 	Relative,
-	[Token(Token = "0x400115D")]
+	[Token(Token = "0x40016D6")]
 	Absolute
 }

@@ -9,65 +9,65 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x200002E")]
 internal enum TextEditOp
 {
-	[Token(Token = "0x4000116")]
-	MoveLeft,
-	[Token(Token = "0x4000117")]
-	MoveRight,
-	[Token(Token = "0x4000118")]
-	MoveUp,
-	[Token(Token = "0x4000119")]
-	MoveDown,
-	[Token(Token = "0x400011A")]
-	MoveLineStart,
-	[Token(Token = "0x400011B")]
-	MoveLineEnd,
 	[Token(Token = "0x400011C")]
-	MoveTextStart,
+	MoveLeft,
 	[Token(Token = "0x400011D")]
-	MoveTextEnd,
+	MoveRight,
 	[Token(Token = "0x400011E")]
-	MovePageUp,
+	MoveUp,
 	[Token(Token = "0x400011F")]
-	MovePageDown,
+	MoveDown,
 	[Token(Token = "0x4000120")]
-	MoveGraphicalLineStart,
+	MoveLineStart,
 	[Token(Token = "0x4000121")]
-	MoveGraphicalLineEnd,
+	MoveLineEnd,
 	[Token(Token = "0x4000122")]
-	MoveWordLeft,
+	MoveTextStart,
 	[Token(Token = "0x4000123")]
-	MoveWordRight,
+	MoveTextEnd,
 	[Token(Token = "0x4000124")]
-	MoveParagraphForward,
+	MovePageUp,
 	[Token(Token = "0x4000125")]
-	MoveParagraphBackward,
+	MovePageDown,
 	[Token(Token = "0x4000126")]
-	MoveToStartOfNextWord,
+	MoveGraphicalLineStart,
 	[Token(Token = "0x4000127")]
-	MoveToEndOfPreviousWord,
+	MoveGraphicalLineEnd,
 	[Token(Token = "0x4000128")]
-	Delete,
+	MoveWordLeft,
 	[Token(Token = "0x4000129")]
-	Backspace,
+	MoveWordRight,
 	[Token(Token = "0x400012A")]
-	DeleteWordBack,
+	MoveParagraphForward,
 	[Token(Token = "0x400012B")]
-	DeleteWordForward,
+	MoveParagraphBackward,
 	[Token(Token = "0x400012C")]
-	DeleteLineBack,
+	MoveToStartOfNextWord,
 	[Token(Token = "0x400012D")]
-	Cut,
+	MoveToEndOfPreviousWord,
 	[Token(Token = "0x400012E")]
-	Paste,
+	Delete,
 	[Token(Token = "0x400012F")]
-	ScrollStart,
+	Backspace,
 	[Token(Token = "0x4000130")]
-	ScrollEnd,
+	DeleteWordBack,
 	[Token(Token = "0x4000131")]
-	ScrollPageUp,
+	DeleteWordForward,
 	[Token(Token = "0x4000132")]
+	DeleteLineBack,
+	[Token(Token = "0x4000133")]
+	Cut,
+	[Token(Token = "0x4000134")]
+	Paste,
+	[Token(Token = "0x4000135")]
+	ScrollStart,
+	[Token(Token = "0x4000136")]
+	ScrollEnd,
+	[Token(Token = "0x4000137")]
+	ScrollPageUp,
+	[Token(Token = "0x4000138")]
 	ScrollPageDown
 }

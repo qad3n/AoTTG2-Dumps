@@ -16,8 +16,8 @@ internal sealed class LogicalBinaryExpression : BinaryExpression
 	[Token(Token = "0x1700004F")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60001CB")]
-		[Address(RVA = "0x4496B60", Offset = "0x4496B60", VA = "0x4496B60", Slot = "5")]
+		[Token(Token = "0x60001CA")]
+		[Address(RVA = "0x2424790", Offset = "0x2422D90", VA = "0x182424790", Slot = "5")]
 		get
 		{
 			return null;
@@ -27,8 +27,8 @@ internal sealed class LogicalBinaryExpression : BinaryExpression
 	[Token(Token = "0x17000050")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60001CC")]
-		[Address(RVA = "0x4496BA0", Offset = "0x4496BA0", VA = "0x4496BA0", Slot = "4")]
+		[Token(Token = "0x60001CB")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,8 +36,8 @@ internal sealed class LogicalBinaryExpression : BinaryExpression
 		}
 	}
 
-	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x4496AE0", Offset = "0x4496AE0", VA = "0x4496AE0")]
+	[Token(Token = "0x60001C9")]
+	[Address(RVA = "0x2424750", Offset = "0x2422D50", VA = "0x182424750")]
 	internal LogicalBinaryExpression(ExpressionType nodeType, Expression left, Expression right)
 	{
 	}

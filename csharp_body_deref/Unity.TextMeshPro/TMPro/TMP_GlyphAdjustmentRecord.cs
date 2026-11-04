@@ -13,59 +13,59 @@ using UnityEngine.TextCore.LowLevel;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000050")]
+[Token(Token = "0x2000046")]
 public struct TMP_GlyphAdjustmentRecord
 {
-	[Token(Token = "0x4000235")]
+	[Token(Token = "0x400017D")]
 	[FieldOffset(Offset = "0x0")]
 	[SerializeField]
 	internal uint m_GlyphIndex;
 
-	[Token(Token = "0x4000236")]
+	[Token(Token = "0x400017E")]
 	[FieldOffset(Offset = "0x4")]
 	[SerializeField]
 	internal TMP_GlyphValueRecord m_GlyphValueRecord;
 
-	[Token(Token = "0x1700006F")]
+	[Token(Token = "0x1700006B")]
 	public uint glyphIndex
 	{
-		[Token(Token = "0x6000274")]
-		[Address(RVA = "0x4C586B0", Offset = "0x4C586B0", VA = "0x4C586B0")]
+		[Token(Token = "0x60001F6")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x6000275")]
-		[Address(RVA = "0x4C586C0", Offset = "0x4C586C0", VA = "0x4C586C0")]
+		[Token(Token = "0x60001F7")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000070")]
+	[Token(Token = "0x1700006C")]
 	public TMP_GlyphValueRecord glyphValueRecord
 	{
-		[Token(Token = "0x6000276")]
-		[Address(RVA = "0x4C586D0", Offset = "0x4C586D0", VA = "0x4C586D0")]
+		[Token(Token = "0x60001F8")]
+		[Address(RVA = "0xADC270", Offset = "0xADA870", VA = "0x180ADC270")]
 		get
 		{
 			return default(TMP_GlyphValueRecord);
 		}
-		[Token(Token = "0x6000277")]
-		[Address(RVA = "0x4C586E0", Offset = "0x4C586E0", VA = "0x4C586E0")]
+		[Token(Token = "0x60001F9")]
+		[Address(RVA = "0x2CF7460", Offset = "0x2CF5A60", VA = "0x182CF7460")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000278")]
-	[Address(RVA = "0x4C55A20", Offset = "0x4C55A20", VA = "0x4C55A20")]
+	[Token(Token = "0x60001FA")]
+	[Address(RVA = "0x180D1A0", Offset = "0x180B7A0", VA = "0x18180D1A0")]
 	public TMP_GlyphAdjustmentRecord(uint glyphIndex, TMP_GlyphValueRecord glyphValueRecord)
 	{
 	}
 
-	[Token(Token = "0x6000279")]
-	[Address(RVA = "0x4C586F0", Offset = "0x4C586F0", VA = "0x4C586F0")]
+	[Token(Token = "0x60001FB")]
+	[Address(RVA = "0x2CF73B0", Offset = "0x2CF59B0", VA = "0x182CF73B0")]
 	internal TMP_GlyphAdjustmentRecord(GlyphAdjustmentRecord adjustmentRecord)
 	{
 	}

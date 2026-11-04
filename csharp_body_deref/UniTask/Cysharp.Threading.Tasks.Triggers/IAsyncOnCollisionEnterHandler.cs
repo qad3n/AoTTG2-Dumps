@@ -10,9 +10,9 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001A9")]
+[Token(Token = "0x20001AC")]
 public interface IAsyncOnCollisionEnterHandler
 {
-	[Token(Token = "0x6000AB6")]
+	[Token(Token = "0x6000ADA")]
 	UniTask<Collision> OnCollisionEnterAsync();
 }

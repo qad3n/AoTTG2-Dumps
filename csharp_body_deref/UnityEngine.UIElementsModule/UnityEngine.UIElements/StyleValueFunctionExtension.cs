@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003DB")]
+[Token(Token = "0x2000488")]
 internal static class StyleValueFunctionExtension
 {
-	[Token(Token = "0x600187C")]
-	[Address(RVA = "0x50B9A50", Offset = "0x50B9A50", VA = "0x50B9A50")]
+	[Token(Token = "0x600230E")]
+	[Address(RVA = "0x312CCD0", Offset = "0x312B2D0", VA = "0x18312CCD0")]
 	public static string ToUssString(this StyleValueFunction svf)
 	{
 		return null;

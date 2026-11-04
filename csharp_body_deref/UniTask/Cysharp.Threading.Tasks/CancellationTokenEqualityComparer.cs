@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 public class CancellationTokenEqualityComparer : IEqualityComparer<CancellationToken>
 {
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000047")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly IEqualityComparer<CancellationToken> Default;
 
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x49D2070", Offset = "0x49D2070", VA = "0x49D2070", Slot = "4")]
+	[Token(Token = "0x6000083")]
+	[Address(RVA = "0x2909780", Offset = "0x2907D80", VA = "0x182909780", Slot = "4")]
 	public bool Equals(CancellationToken x, CancellationToken y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x49D20D0", Offset = "0x49D20D0", VA = "0x49D20D0", Slot = "5")]
+	[Token(Token = "0x6000084")]
+	[Address(RVA = "0x29097E0", Offset = "0x2907DE0", VA = "0x1829097E0", Slot = "5")]
 	public int GetHashCode(CancellationToken obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x49D2120", Offset = "0x49D2120", VA = "0x49D2120")]
+	[Token(Token = "0x6000085")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CancellationTokenEqualityComparer()
 	{
 	}

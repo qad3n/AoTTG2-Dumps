@@ -10,52 +10,52 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Metadata;
 
-[Token(Token = "0x200038F")]
+[Token(Token = "0x20003BE")]
 [ComVisible(true)]
 public class SoapAttribute : Attribute
 {
-	[Token(Token = "0x4000F1E")]
+	[Token(Token = "0x4000F2B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private bool _useAttribute;
 
-	[Token(Token = "0x4000F1F")]
+	[Token(Token = "0x4000F2C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	protected string ProtXmlNamespace;
 
-	[Token(Token = "0x4000F20")]
+	[Token(Token = "0x4000F2D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	protected object ReflectInfo;
 
-	[Token(Token = "0x17000388")]
+	[Token(Token = "0x1700038A")]
 	public virtual bool UseAttribute
 	{
-		[Token(Token = "0x6001DCD")]
-		[Address(RVA = "0x3B84260", Offset = "0x3B84260", VA = "0x3B84260", Slot = "7")]
+		[Token(Token = "0x6001E3C")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000389")]
+	[Token(Token = "0x1700038B")]
 	public virtual string XmlNamespace
 	{
-		[Token(Token = "0x6001DCE")]
-		[Address(RVA = "0x3B84270", Offset = "0x3B84270", VA = "0x3B84270", Slot = "8")]
+		[Token(Token = "0x6001E3D")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001DCC")]
-	[Address(RVA = "0x3B84250", Offset = "0x3B84250", VA = "0x3B84250")]
+	[Token(Token = "0x6001E3B")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public SoapAttribute()
 	{
 	}
 
-	[Token(Token = "0x6001DCF")]
-	[Address(RVA = "0x3B84280", Offset = "0x3B84280", VA = "0x3B84280", Slot = "9")]
+	[Token(Token = "0x6001E3E")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0", Slot = "9")]
 	internal virtual void SetReflectionObject(object reflectionObject)
 	{
 	}

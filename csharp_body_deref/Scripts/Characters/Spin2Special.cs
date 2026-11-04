@@ -9,56 +9,56 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200052B")]
+[Token(Token = "0x2000685")]
 internal class Spin2Special : BaseAttackSpecial
 {
-	[Token(Token = "0x4001824")]
+	[Token(Token = "0x4001EC1")]
 	[FieldOffset(Offset = "0x48")]
 	protected float AnimationLoopStartTime;
 
-	[Token(Token = "0x4001825")]
+	[Token(Token = "0x4001EC2")]
 	[FieldOffset(Offset = "0x4C")]
 	protected float AnimationLoopEndTime;
 
-	[Token(Token = "0x4001826")]
+	[Token(Token = "0x4001EC3")]
 	[FieldOffset(Offset = "0x50")]
 	protected int Loops;
 
-	[Token(Token = "0x4001827")]
+	[Token(Token = "0x4001EC4")]
 	[FieldOffset(Offset = "0x54")]
 	protected int _stage;
 
-	[Token(Token = "0x170009FA")]
+	[Token(Token = "0x17000B2E")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x6003603")]
-		[Address(RVA = "0x41F83A0", Offset = "0x41F83A0", VA = "0x41F83A0", Slot = "14")]
+		[Token(Token = "0x6004041")]
+		[Address(RVA = "0x2176BA0", Offset = "0x21751A0", VA = "0x182176BA0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003604")]
-	[Address(RVA = "0x41E41B0", Offset = "0x41E41B0", VA = "0x41E41B0")]
+	[Token(Token = "0x6004042")]
+	[Address(RVA = "0x2176B60", Offset = "0x2175160", VA = "0x182176B60")]
 	public Spin2Special(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x6003605")]
-	[Address(RVA = "0x41F83B0", Offset = "0x41F83B0", VA = "0x41F83B0", Slot = "9")]
+	[Token(Token = "0x6004043")]
+	[Address(RVA = "0x2176710", Offset = "0x2174D10", VA = "0x182176710", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x6003606")]
-	[Address(RVA = "0x41F8430", Offset = "0x41F8430", VA = "0x41F8430", Slot = "16")]
+	[Token(Token = "0x6004044")]
+	[Address(RVA = "0x2176790", Offset = "0x2174D90", VA = "0x182176790", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6003607")]
-	[Address(RVA = "0x41F8720", Offset = "0x41F8720", VA = "0x41F8720")]
+	[Token(Token = "0x6004045")]
+	[Address(RVA = "0x2176AE0", Offset = "0x21750E0", VA = "0x182176AE0")]
 	protected float GetAnimationTime()
 	{
 		return default(float);

@@ -12,18 +12,18 @@ namespace System.Dynamic;
 [Token(Token = "0x2000278")]
 public abstract class InvokeBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000C6E")]
-	[Address(RVA = "0x4510BE0", Offset = "0x4510BE0", VA = "0x4510BE0")]
+	[Token(Token = "0x6000C6D")]
+	[Address(RVA = "0x2466850", Offset = "0x2464E50", VA = "0x182466850")]
 	public DynamicMetaObject FallbackInvoke(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C6F")]
+	[Token(Token = "0x6000C6E")]
 	public abstract DynamicMetaObject FallbackInvoke(DynamicMetaObject target, DynamicMetaObject[] args, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000C70")]
-	[Address(RVA = "0x4510C00", Offset = "0x4510C00", VA = "0x4510C00", Slot = "7")]
+	[Token(Token = "0x6000C6F")]
+	[Address(RVA = "0x2485170", Offset = "0x2483770", VA = "0x182485170", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

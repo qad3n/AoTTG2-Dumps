@@ -15,7 +15,7 @@ namespace Newtonsoft.Json;
 public sealed class JsonConstructorAttribute : Attribute
 {
 	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x3D54FF0", Offset = "0x3D54FF0", VA = "0x3D54FF0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public JsonConstructorAttribute()
 	{
 	}

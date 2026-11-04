@@ -10,56 +10,56 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x200024F")]
+[Token(Token = "0x2000252")]
 internal sealed class SingleAssignmentDisposable : IDisposable
 {
-	[Token(Token = "0x400069E")]
+	[Token(Token = "0x40006B1")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly object gate;
 
-	[Token(Token = "0x400069F")]
+	[Token(Token = "0x40006B2")]
 	[FieldOffset(Offset = "0x18")]
 	private IDisposable current;
 
-	[Token(Token = "0x40006A0")]
+	[Token(Token = "0x40006B3")]
 	[FieldOffset(Offset = "0x20")]
 	private bool disposed;
 
-	[Token(Token = "0x1700007A")]
+	[Token(Token = "0x1700007C")]
 	public bool IsDisposed
 	{
-		[Token(Token = "0x6000D28")]
-		[Address(RVA = "0x4A1F170", Offset = "0x4A1F170", VA = "0x4A1F170")]
+		[Token(Token = "0x6000D4C")]
+		[Address(RVA = "0x2944B60", Offset = "0x2943160", VA = "0x182944B60")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700007B")]
+	[Token(Token = "0x1700007D")]
 	public IDisposable Disposable
 	{
-		[Token(Token = "0x6000D29")]
-		[Address(RVA = "0x4A1F230", Offset = "0x4A1F230", VA = "0x4A1F230")]
+		[Token(Token = "0x6000D4D")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000D2A")]
-		[Address(RVA = "0x4A1F240", Offset = "0x4A1F240", VA = "0x4A1F240")]
+		[Token(Token = "0x6000D4E")]
+		[Address(RVA = "0x2944C00", Offset = "0x2943200", VA = "0x182944C00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D2B")]
-	[Address(RVA = "0x4A1F440", Offset = "0x4A1F440", VA = "0x4A1F440", Slot = "4")]
+	[Token(Token = "0x6000D4F")]
+	[Address(RVA = "0x2944A00", Offset = "0x2943000", VA = "0x182944A00", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000D2C")]
-	[Address(RVA = "0x4A1F5D0", Offset = "0x4A1F5D0", VA = "0x4A1F5D0")]
+	[Token(Token = "0x6000D50")]
+	[Address(RVA = "0x2944AF0", Offset = "0x29430F0", VA = "0x182944AF0")]
 	public SingleAssignmentDisposable()
 	{
 	}

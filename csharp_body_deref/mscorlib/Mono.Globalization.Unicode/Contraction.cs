@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000051")]
 internal class Contraction
 {
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x400015F")]
 	[FieldOffset(Offset = "0x10")]
 	public int Index;
 
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x4000160")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly char[] Source;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x4000161")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly string Replacement;
 
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x4000162")]
 	[FieldOffset(Offset = "0x28")]
 	public readonly byte[] SortKey;
 
-	[Token(Token = "0x60000A6")]
-	[Address(RVA = "0x3AD17B0", Offset = "0x3AD17B0", VA = "0x3AD17B0")]
+	[Token(Token = "0x60000BE")]
+	[Address(RVA = "0x1941B20", Offset = "0x1940120", VA = "0x181941B20")]
 	public Contraction(int index, char[] source, string replacement, byte[] sortkey)
 	{
 	}

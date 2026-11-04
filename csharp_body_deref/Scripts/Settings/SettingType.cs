@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000C2")]
+[Token(Token = "0x20000E0")]
 public enum SettingType
 {
-	[Token(Token = "0x400049D")]
+	[Token(Token = "0x4000528")]
 	None,
-	[Token(Token = "0x400049E")]
+	[Token(Token = "0x4000529")]
 	Bool,
-	[Token(Token = "0x400049F")]
+	[Token(Token = "0x400052A")]
 	Int,
-	[Token(Token = "0x40004A0")]
+	[Token(Token = "0x400052B")]
 	Float,
-	[Token(Token = "0x40004A1")]
+	[Token(Token = "0x400052C")]
 	String,
-	[Token(Token = "0x40004A2")]
+	[Token(Token = "0x400052D")]
 	Keybind,
-	[Token(Token = "0x40004A3")]
+	[Token(Token = "0x400052E")]
 	Color,
-	[Token(Token = "0x40004A4")]
+	[Token(Token = "0x400052F")]
 	ToggleColor,
-	[Token(Token = "0x40004A5")]
+	[Token(Token = "0x4000530")]
 	Vector3
 }

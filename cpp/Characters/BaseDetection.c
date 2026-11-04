@@ -1,591 +1,482 @@
 // Type: Characters.BaseDetection
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Characters/BaseDetection.cs
 // Prior real C# source (older reference): Assets/Scripts/Characters/Detection/BaseDetection.cs
 // --------------------------------
 
 // Characters.BaseDetection$$.ctor
 // il2cpp: void Characters_BaseDetection___ctor (Characters_BaseDetection_o* __this, Characters_BaseCharacter_o* owner, bool enemiesOnly, bool titansOnly, const MethodInfo* method);
-// 0x42ac550
+// 0x182110d10
+// eh: try 0x182110fe0..0x182111172 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 23 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821110a5: mov r8, qword ptr [rsp + 0x30]
+// asm:   0x1821110aa: cmp qword ptr [r8], 0
+// asm:   0x1821110ae: je 0x1821110c1
+// asm:   0x1821110b0: xor ecx, ecx
+// asm:   0x1821110b2: mov r8, qword ptr [r8]
+// asm:   0x1821110b5: mov rdx, qword ptr [rip + 0x1f88244]  ; TypeInfo_System_IDisposable
+// asm:   0x1821110bc: call 0x180014840  ; InterfaceInvoker0_Invoke()
+// asm:   0x1821110c1: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1821110c6: test rcx, rcx
+// asm:   0x1821110c9: jne 0x182111172
+// asm:   0x1821110cf: mov rsi, qword ptr [rsp + 0x70]
+// asm:   0x182111172: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 void Characters_BaseDetection___ctor
-               (Characters_AIHumanDetection_o *__this,Characters_BaseCharacter_o *owner,
-               bool_conflict enemiesOnly,bool_conflict titansOnly,MethodInfo *method)
+               (Characters_BaseDetection_o *__this,Characters_BaseCharacter_o *owner,bool enemiesOnly,
+               bool titansOnly,MethodInfo *method)
 
 {
   float fVar1;
   byte bVar2;
   ushort uVar3;
   GameManagers_InGameManager_o *pGVar4;
-  System_Collections_Generic_IEnumerable_BaseCharacter__c *pSVar5;
+  Il2CppClass *pIVar5;
   Il2CppRuntimeInterfaceOffsetPair *pIVar6;
-  Il2CppClass *pIVar7;
-  char cVar8;
-  System_Collections_Generic_HashSet_object__o *pSVar9;
-  System_Collections_Generic_IEnumerable_BaseCharacter__o *pSVar10;
-  VirtualInvokeData *pVVar11;
-  undefined8 *puVar12;
-  ulong *puVar13;
-  undefined8 uVar14;
-  long *plVar15;
-  long lVar16;
-  long lVar17;
-  ulong uVar18;
-  MethodInfo_33E0570 **ppMVar19;
-  float fVar20;
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [12];
+  System_Collections_Generic_HashSet_object__o *__this_00;
+  System_Collections_Generic_HashSet_BaseCharacter__o *pSVar7;
+  Il2CppObject *pIVar8;
+  void *pvVar9;
+  VirtualInvokeData *pVVar10;
+  Characters_BaseCharacter_o *character;
+  ushort uVar11;
+  float fVar12;
   
-  uVar18 = (ulong)(uint)enemiesOnly;
-  if (g_data_057add90 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_Characters_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerable_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    g_data_057add90 = '\x01';
+  if (Il2CppMethodInitialized_184346b74 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseDetection_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_BaseCharacter);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_InGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    Il2CppMethodInitialized_184346b74 = '\x01';
   }
-  plVar15 = &TypeInfo_HashSet_BaseCharacter;
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  ppMVar19 = &MethodInfo_HashSet_1_Characters_BaseCharacter;
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._recalculateFast = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._recalculateFast,pSVar9);
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._recalculateMedium = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._recalculateMedium,pSVar9);
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._recalculateSlow = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._recalculateSlow,pSVar9);
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._tempRecalculateFast = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._tempRecalculateFast,pSVar9);
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._tempRecalculateMedium = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._tempRecalculateMedium,pSVar9);
-  pSVar9 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_BaseCharacter);
-  System_Collections_Generic_HashSet_object____ctor(pSVar9,MethodInfo_HashSet_1_Characters_BaseCharacter);
-  (__this->fields)._tempRecalculateSlow = (System_Collections_Generic_HashSet_BaseCharacter__o *)pSVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._tempRecalculateSlow);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).ClosestEnemyDistance = 3.4028235e+38;
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._recalculateFast = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._recalculateFast,pSVar7);
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._recalculateMedium = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._recalculateMedium,pSVar7);
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._recalculateSlow = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._recalculateSlow,pSVar7);
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._tempRecalculateFast = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tempRecalculateFast,pSVar7);
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._tempRecalculateMedium = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tempRecalculateMedium,pSVar7);
+  pSVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_BaseCharacter)
+  ;
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)pSVar7,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_ctor);
+  (__this->fields)._tempRecalculateSlow = pSVar7;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._tempRecalculateSlow,pSVar7);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).Owner = owner;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Owner,owner);
-  *(char *)&(__this->fields)._enemiesOnly = (char)enemiesOnly;
-  *(char *)((long)&(__this->fields)._enemiesOnly + 1) = (char)titansOnly;
-  pIVar7 = TypeInfo_InGameManager;
-  pGVar4 = *(GameManagers_InGameManager_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Owner,owner);
+  (__this->fields)._enemiesOnly = enemiesOnly;
+  (__this->fields)._titansOnly = titansOnly;
+  pGVar4 = (GameManagers_InGameManager_o *)
+           TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
   if (pGVar4 == (GameManagers_InGameManager_o *)0x0) {
     (__this->fields)._inGameManager = (GameManagers_InGameManager_o *)0x0;
-label_042ac77f:
-    ppMVar19 = (MethodInfo_33E0570 **)&(__this->fields)._inGameManager;
-    il2cpp_runtime_helper_022b4080(ppMVar19);
-    if (((GameManagers_InGameManager_o *)*ppMVar19 == (GameManagers_InGameManager_o *)0x0) ||
-       (pSVar10 = GameManagers_InGameManager__GetAllCharactersEnumerable
-                            ((GameManagers_InGameManager_o *)*ppMVar19,(MethodInfo *)0x0),
-       pSVar10 == (System_Collections_Generic_IEnumerable_BaseCharacter__o *)0x0)) goto label_042acadb;
-    pSVar5 = pSVar10->klass;
-    uVar3._0_1_ = (pSVar5->_2).rank;
-    uVar3._1_1_ = (pSVar5->_2).minimumAlignment;
-    if ((ulong)uVar3 != 0) {
-      pIVar6 = (pSVar5->_1).interfaceOffsets;
-      lVar16 = 0;
-      do {
-        if (*(long *)((long)&pIVar6->interfaceType + lVar16) == TypeInfo_IEnumerable_BaseCharacter) {
-          pVVar11 = pSVar5->vtable + *(int *)((long)&pIVar6->offset + lVar16);
-          goto label_042ac801;
-        }
-        lVar16 = lVar16 + 0x10;
-      } while ((ulong)uVar3 << 4 != lVar16);
-    }
-    pVVar11 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar10,TypeInfo_IEnumerable_BaseCharacter,0);
-label_042ac801:
-    plVar15 = (long *)(*pVVar11->methodPtr)(pSVar10,pVVar11->method);
-    if (plVar15 != (long *)0x0) {
-      uVar18 = 0;
-      do {
-        lVar16 = *plVar15;
-        if ((ulong)*(ushort *)(lVar16 + 0x12e) != 0) {
-          lVar17 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar16 + 0xb0) + lVar17) == TypeInfo_IEnumerator) {
-              puVar12 = (undefined8 *)
-                        ((long)*(int *)(*(long *)(lVar16 + 0xb0) + 8 + lVar17) * 0x10 + lVar16 + 0x138);
-              goto label_042ac883;
-            }
-            lVar17 = lVar17 + 0x10;
-          } while ((ulong)*(ushort *)(lVar16 + 0x12e) << 4 != lVar17);
-        }
-        puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar15,TypeInfo_IEnumerator,0);
-label_042ac883:
-        cVar8 = (*(code *)*puVar12)(plVar15,puVar12[1]);
-        if (cVar8 == '\0') goto label_042ac95f;
-        lVar16 = *plVar15;
-        if ((ulong)*(ushort *)(lVar16 + 0x12e) != 0) {
-          lVar17 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar16 + 0xb0) + lVar17) == TypeInfo_IEnumerator_BaseCharacter) {
-              puVar12 = (undefined8 *)
-                        ((long)*(int *)(*(long *)(lVar16 + 0xb0) + 8 + lVar17) * 0x10 + lVar16 + 0x138);
-              goto label_042ac8f3;
-            }
-            lVar17 = lVar17 + 0x10;
-          } while ((ulong)*(ushort *)(lVar16 + 0x12e) << 4 != lVar17);
-        }
-        puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar15,TypeInfo_IEnumerator_BaseCharacter,0);
-label_042ac8f3:
-        auVar21 = (*(code *)*puVar12)(plVar15,puVar12[1]);
-        Characters_BaseDetection__OnCharacterSpawned
-                  ((Characters_BaseDetection_o *)__this,auVar21._0_8_,auVar21._8_8_);
-      } while( true );
-    }
   }
   else {
-    bVar2 = (TypeInfo_InGameManager->_2).naturalAligment;
-    if ((bVar2 <= (pGVar4->klass->_2).naturalAligment) &&
-       ((pGVar4->klass->_2).typeHierarchy[(ulong)bVar2 - 1] == TypeInfo_InGameManager)) {
-      (__this->fields)._inGameManager = pGVar4;
-      if ((bVar2 <= (pGVar4->klass->_2).naturalAligment) &&
-         ((pGVar4->klass->_2).typeHierarchy[(ulong)bVar2 - 1] == pIVar7)) goto label_042ac77f;
+    bVar2 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
+    if (((pGVar4->klass->_2).typeHierarchyDepth < bVar2) ||
+       ((pGVar4->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
+        (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pGVar4);
     }
-    il2cpp_runtime_helper_022b2fd0(pGVar4,pIVar7);
+    (__this->fields)._inGameManager = pGVar4;
+    bVar2 = (TypeInfo_GameManagers_InGameManager->_2).typeHierarchyDepth;
+    if (((pGVar4->klass->_2).typeHierarchyDepth < bVar2) ||
+       ((pGVar4->klass->_2).typeHierarchy[(ulonglong)bVar2 - 1] !=
+        (Il2CppClass *)TypeInfo_GameManagers_InGameManager)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pGVar4);
+    }
   }
-  auVar22 = il2cpp_runtime_helper_022b2c90();
-  uVar14 = auVar22._0_8_;
-  if (auVar22._8_4_ != 1) {
-    uVar18 = 0;
-    if (plVar15 == (long *)0x0) goto label_042acac6;
-    goto label_042aca68;
-  }
-  puVar13 = (ulong *)__cxa_begin_catch();
-  uVar18 = *puVar13;
-  __cxa_end_catch();
-label_042ac95f:
-  if (plVar15 != (long *)0x0) {
-    lVar16 = *plVar15;
-    if ((ulong)*(ushort *)(lVar16 + 0x12e) != 0) {
-      lVar17 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar16 + 0xb0) + lVar17) == TypeInfo_IDisposable) {
-          puVar12 = (undefined8 *)
-                    (lVar16 + (long)*(int *)(*(long *)(lVar16 + 0xb0) + 8 + lVar17) * 0x10 + 0x138);
-          goto label_042ac9bd;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._inGameManager,pGVar4);
+  pGVar4 = (__this->fields)._inGameManager;
+  if (pGVar4 != (GameManagers_InGameManager_o *)0x0) {
+    pIVar8 = (Il2CppObject *)GameManagers_InGameManager__GetAllCharactersEnumerable(pGVar4,(MethodInfo *)0x0);
+    if (pIVar8 != (Il2CppObject *)0x0) {
+      pIVar8 = InterfaceInvoker0_Invoke
+                         (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter,
+                          pIVar8);
+      while( true ) {
+        if (pIVar8 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
         }
-        lVar17 = lVar17 + 0x10;
-      } while ((ulong)*(ushort *)(lVar16 + 0x12e) << 4 != lVar17);
-    }
-    puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar15,TypeInfo_IDisposable,0);
-label_042ac9bd:
-    (*(code *)*puVar12)(plVar15,puVar12[1]);
-  }
-  if (uVar18 != 0) goto label_042acae0;
-  if (((GameManagers_InGameManager_o *)*ppMVar19 != (GameManagers_InGameManager_o *)0x0) &&
-     (pSVar9 = *(System_Collections_Generic_HashSet_object__o **)
-                &(((GameManagers_InGameManager_o *)*ppMVar19)->fields).PauseTimeLeft,
-     pSVar9 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-    System_Collections_Generic_HashSet_object___Add(pSVar9,(Il2CppObject *)__this,MethodInfo_Boolean_Add);
-    fVar1 = (float)(__this->fields)._titansOnly;
-    fVar20 = UnityEngine_Random__Range(0.0,0.2,(MethodInfo *)0x0);
-    (__this->fields)._titansOnly = (bool_conflict)(fVar20 + fVar1);
-    fVar1 = (__this->fields)._currentMediumTime;
-    fVar20 = UnityEngine_Random__Range(0.0,2.0,(MethodInfo *)0x0);
-    (__this->fields)._currentMediumTime = fVar20 + fVar1;
-    return;
-  }
-label_042acadb:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_042acae0:
-    uVar14 = il2cpp_runtime_helper_022fefe0();
-    if (plVar15 != (long *)0x0) {
-label_042aca68:
-      lVar16 = *plVar15;
-      if ((ulong)*(ushort *)(lVar16 + 0x12e) != 0) {
-        lVar17 = 0;
-        do {
-          if (*(long *)(*(long *)(lVar16 + 0xb0) + lVar17) == TypeInfo_IDisposable) {
-            puVar12 = (undefined8 *)
-                      (lVar16 + (long)*(int *)(*(long *)(lVar16 + 0xb0) + 8 + lVar17) * 0x10 + 0x138);
-            goto label_042acabd;
-          }
-          lVar17 = lVar17 + 0x10;
-        } while ((ulong)*(ushort *)(lVar16 + 0x12e) << 4 != lVar17);
+        pvVar9 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,pIVar8);
+        if ((char)pvVar9 == '\0') break;
+        if (pIVar8 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar5 = pIVar8->klass;
+        uVar3 = (pIVar5->_2).interface_offsets_count;
+        if (uVar3 != 0) {
+          uVar11 = 0;
+          pIVar6 = (pIVar5->_1).interfaceOffsets;
+          do {
+            if (pIVar6[uVar11].interfaceType ==
+                (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter) {
+              pVVar10 = pIVar5->vtable + pIVar6[uVar11].offset;
+              goto label_182111056;
+            }
+            uVar11 = uVar11 + 1;
+          } while (uVar11 < uVar3);
+        }
+        pVVar10 = GetInterfaceInvokeDataFromVTableSlowPath
+                            (pIVar8,(Il2CppClass *)
+                                    TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter,0);
+label_182111056:
+        character = (Characters_BaseCharacter_o *)(*pVVar10->methodPtr)(pIVar8,pVVar10->method);
+        Characters_BaseDetection__OnCharacterSpawned(__this,character,(MethodInfo *)0x0);
       }
-      puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar15,TypeInfo_IDisposable,0);
-label_042acabd:
-      (*(code *)*puVar12)(plVar15,puVar12[1]);
+      if (pIVar8 != (Il2CppObject *)0x0) {
+        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,pIVar8);
+      }
+      pGVar4 = (__this->fields)._inGameManager;
+      if ((pGVar4 != (GameManagers_InGameManager_o *)0x0) &&
+         (__this_00 = (System_Collections_Generic_HashSet_object__o *)(pGVar4->fields).Detections,
+         __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
+        System_Collections_Generic_HashSet_object___Add
+                  (__this_00,(Il2CppObject *)__this,
+                   (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseDetection_Add);
+        fVar1 = (__this->fields)._currentMediumTime;
+        fVar12 = UnityEngine_Random__Range(0.0,0.2,(MethodInfo *)0x0);
+        (__this->fields)._currentMediumTime = fVar12 + fVar1;
+        fVar1 = (__this->fields)._currentSlowTime;
+        fVar12 = UnityEngine_Random__Range(0.0,2.0,(MethodInfo *)0x0);
+        (__this->fields)._currentSlowTime = fVar12 + fVar1;
+        return;
+      }
     }
-label_042acac6:
-    if (uVar18 == 0) {
-      _Unwind_Resume(uVar14);
-    }
-    il2cpp_runtime_helper_022fefe0(uVar18);
-  } while( true );
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Characters.BaseDetection$$get_RequireValidTarget
+// il2cpp: bool Characters_BaseDetection__get_RequireValidTarget (Characters_BaseDetection_o* __this, const MethodInfo* method);
+// 0x1808ed110
+
+bool
+Characters_BaseDetection__get_RequireValidTarget(Characters_BaseDetection_o* __this, MethodInfo* method)
+
+{
+  return true;
 }
 
 
 // Characters.BaseDetection$$IsNullOrDead
 // il2cpp: bool Characters_BaseDetection__IsNullOrDead (Characters_BaseDetection_o* __this, const MethodInfo* method);
-// 0x42acc20
+// 0x18210fd50
 
-bool_conflict Characters_BaseDetection__IsNullOrDead(Characters_BaseDetection_o *__this,MethodInfo *method)
+bool Characters_BaseDetection__IsNullOrDead(Characters_BaseDetection_o *__this,MethodInfo *method)
 
 {
   Characters_BaseCharacter_o *pCVar1;
-  Characters_BaseCharacter_o *pCVar2;
-  UnityEngine_Object_o *x;
-  bool_conflict bVar3;
-  bool_conflict bVar4;
-  uint uVar5;
-  Characters_BaseCharacter_o *a;
-  Characters_BaseCharacter_o *pCVar6;
+  bool bVar2;
   
-  if (g_data_057add91 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057add91 = '\x01';
+  if (Il2CppMethodInitialized_184346b75 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346b75 = '\x01';
   }
   pCVar1 = (__this->fields).Owner;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  a = (Characters_BaseCharacter_o *)0x0;
-  pCVar6 = pCVar1;
-  bVar3 = UnityEngine_Object__op_Equality
+  bVar2 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)pCVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  bVar4 = (bool_conflict)CONCAT71((uint7)(uint3)((uint)bVar3 >> 8),1);
-  if ((char)bVar3 == '\0') {
-    pCVar2 = (__this->fields).Owner;
-    if (pCVar2 == (Characters_BaseCharacter_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057add94 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-        g_data_057add94 = '\x01';
-      }
-      uVar5 = (uint)CONCAT71((int7)((ulong)pCVar1 >> 8),1);
-      if (*(char *)&(pCVar6->fields).MaxFootstepDistance != '\0') {
-        x = *(UnityEngine_Object_o **)&(pCVar6->fields).FootstepsEnabled;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar3 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          pCVar1 = *(Characters_BaseCharacter_o **)&(pCVar6->fields).FootstepsEnabled;
-          if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          uVar5 = GameManagers_TeamInfo__SameTeam_446fee0(a,pCVar1,(MethodInfo *)0x0);
-          uVar5 = uVar5 ^ 1;
-        }
-      }
-      return uVar5;
-    }
-    bVar4 = (bool_conflict)
-            CONCAT71((int7)((ulong)pCVar2 >> 8),*(char *)&(pCVar2->fields).FeedVictimName != '\0');
+  if (bVar2) {
+    return true;
   }
-  return bVar4;
+  pCVar1 = (__this->fields).Owner;
+  if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
+    return (pCVar1->fields).Dead;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BaseDetection$$OnTeamChanged
 // il2cpp: void Characters_BaseDetection__OnTeamChanged (Characters_BaseDetection_o* __this, const MethodInfo* method);
-// 0x42a03c0
+// 0x182110500
+// eh: try 0x1821105f0..0x1821107d2 -> pad 0x183317f30 (+3 call sites) catch Il2CppExceptionWrapper
+// asm: 43 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821106c1: mov r8, qword ptr [rsp + 0x38]
+// asm:   0x1821106c6: cmp qword ptr [r8], 0
+// asm:   0x1821106ca: je 0x1821106dd
+// asm:   0x1821106cc: xor ecx, ecx
+// asm:   0x1821106ce: mov r8, qword ptr [r8]
+// asm:   0x1821106d1: mov rdx, qword ptr [rip + 0x1f88c28]  ; TypeInfo_System_IDisposable
+// asm:   0x1821106d8: call 0x180014840  ; InterfaceInvoker0_Invoke()
+// asm:   0x1821106dd: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1821106e2: test rcx, rcx
+// asm:   0x1821106e5: jne 0x1821107c6
+// asm:   0x1821106eb: xor r14d, r14d
+// asm:   0x1821106ee: mov rsi, qword ptr [rsp + 0x80]
+// asm:   0x182110749: nop dword ptr [rax]
+// asm:   0x18211078e: mov rdx, qword ptr [rip + 0x1f64d83]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_Dispose
+// asm:   0x182110795: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x18211079a: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x18211079f: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x1821107a4: test rcx, rcx
+// asm:   0x1821107a7: jne 0x1821107d2
+// asm:   0x1821107c6: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x1821107d2: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183317f35: push rbp
+// asm:   0x183317f36: sub rsp, 0x20
+// asm:   0x183317f3a: mov rbp, rdx
+// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183317f41: mov rcx, qword ptr [rax]
+// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x183317f48: movabs rax, 0
+// asm:   0x183317f52: add rsp, 0x20
+// asm:   0x183317f56: pop rbp
+// asm:   0x183317f57: ret 
+// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183317fd5: push rbp
+// asm:   0x183317fd6: sub rsp, 0x20
+// asm:   0x183317fda: mov rbp, rdx
+// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
+// asm:   0x183317fe1: mov rcx, qword ptr [rax]
+// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x183317fe8: movabs rax, 0
+// asm:   0x183317ff2: add rsp, 0x20
+// asm:   0x183317ff6: pop rbp
+// asm:   0x183317ff7: ret 
 
 void Characters_BaseDetection__OnTeamChanged(Characters_BaseDetection_o *__this,MethodInfo *method)
 
 {
   ushort uVar1;
   GameManagers_InGameManager_o *pGVar2;
-  System_Collections_Generic_IEnumerable_BaseCharacter__c *pSVar3;
+  Il2CppClass *pIVar3;
   Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  char cVar5;
-  bool_conflict bVar6;
-  System_Collections_Generic_IEnumerable_BaseCharacter__o *pSVar7;
+  System_Collections_Generic_HashSet_Vector2Int__o *__this_00;
+  bool bVar5;
+  Il2CppObject *pIVar6;
+  void *pvVar7;
   VirtualInvokeData *pVVar8;
-  long *plVar9;
-  undefined8 *puVar10;
-  MethodInfo *method_00;
-  long lVar11;
-  long lVar12;
-  undefined8 uVar13;
-  undefined1 *unaff_R15;
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [12];
-  System_Collections_Generic_HashSet_T__o *pSVar16;
-  Il2CppMethodPointer pIVar17;
-  Characters_BaseDetection_o *__this_05;
+  Characters_BaseCharacter_o *character;
+  ushort uVar9;
+  Il2CppObject *local_res18 [2];
+  undefined1 local_48 [16];
+  Characters_BaseDetection_o *local_38;
+  undefined1 local_30 [8];
+  uint64_t uStack_28;
+  Characters_BaseDetection_o *local_20;
   
-  if (g_data_057add92 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseDetection_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Characters_BaseDetection_GetEnume);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerable_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator_BaseCharacter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator);
-    g_data_057add92 = '\x01';
+  if (Il2CppMethodInitialized_184346b76 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseDetection_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    Il2CppMethodInitialized_184346b76 = '\x01';
   }
-  pSVar16 = (System_Collections_Generic_HashSet_T__o *)0x0;
-  pIVar17 = (Il2CppMethodPointer)0x0;
-  __this_05 = (Characters_BaseDetection_o *)0x0;
+  local_res18[0] = (Il2CppObject *)0x0;
+  local_30 = (undefined1  [8])0x0;
+  uStack_28 = 0;
+  local_20 = (Characters_BaseDetection_o *)0x0;
   pGVar2 = (__this->fields)._inGameManager;
-  if ((pGVar2 == (GameManagers_InGameManager_o *)0x0) ||
-     (pSVar7 = GameManagers_InGameManager__GetAllCharactersEnumerable(pGVar2,(MethodInfo *)0x0),
-     pSVar7 == (System_Collections_Generic_IEnumerable_BaseCharacter__o *)0x0)) {
-label_042a07a0:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    pSVar3 = pSVar7->klass;
-    uVar1._0_1_ = (pSVar3->_2).rank;
-    uVar1._1_1_ = (pSVar3->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar4 = (pSVar3->_1).interfaceOffsets;
-      lVar11 = 0;
-      do {
-        if (*(long *)((long)&pIVar4->interfaceType + lVar11) == TypeInfo_IEnumerable_BaseCharacter) {
-          pVVar8 = pSVar3->vtable + *(int *)((long)&pIVar4->offset + lVar11);
-          goto label_042a04d1;
+  if (pGVar2 != (GameManagers_InGameManager_o *)0x0) {
+    pIVar6 = (Il2CppObject *)GameManagers_InGameManager__GetAllCharactersEnumerable(pGVar2,(MethodInfo *)0x0);
+    if (pIVar6 != (Il2CppObject *)0x0) {
+      local_res18[0] =
+           InterfaceInvoker0_Invoke
+                     (0,(Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerable_BaseCharacter,pIVar6);
+      local_48._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+      local_48._8_8_ = local_res18;
+      while( true ) {
+        if (local_res18[0] == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
         }
-        lVar11 = lVar11 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar11);
-    }
-    pVVar8 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar7,TypeInfo_IEnumerable_BaseCharacter,0);
-label_042a04d1:
-    plVar9 = (long *)(*pVVar8->methodPtr)(pSVar7,pVVar8->method);
-    if (plVar9 != (long *)0x0) {
-      unaff_R15 = (undefined1 *)0x0;
-      do {
-        lVar11 = *plVar9;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-          lVar12 = 0;
+        pvVar7 = InterfaceInvoker0_Invoke
+                           (0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res18[0]);
+        pIVar6 = local_res18[0];
+        if ((char)pvVar7 == '\0') break;
+        if (local_res18[0] == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar3 = local_res18[0]->klass;
+        uVar1 = (pIVar3->_2).interface_offsets_count;
+        uVar9 = 0;
+        if (uVar1 != 0) {
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
           do {
-            if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IEnumerator) {
-              puVar10 = (undefined8 *)
-                        ((long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + lVar11 + 0x138);
-              goto label_042a0553;
+            if (pIVar4[uVar9].interfaceType ==
+                (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter) {
+              pVVar8 = pIVar3->vtable + pIVar4[uVar9].offset;
+              goto label_182110672;
             }
-            lVar12 = lVar12 + 0x10;
-          } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
+            uVar9 = uVar9 + 1;
+          } while (uVar9 < uVar1);
         }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IEnumerator,0);
-label_042a0553:
-        cVar5 = (*(code *)*puVar10)(plVar9,puVar10[1]);
-        if (cVar5 == '\0') goto label_042a0624;
-        lVar11 = *plVar9;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-          lVar12 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IEnumerator_BaseCharacter) {
-              puVar10 = (undefined8 *)
-                        ((long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + lVar11 + 0x138);
-              goto label_042a05c3;
-            }
-            lVar12 = lVar12 + 0x10;
-          } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
-        }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IEnumerator_BaseCharacter,0);
-label_042a05c3:
-        auVar14 = (*(code *)*puVar10)(plVar9,puVar10[1]);
-        Characters_BaseDetection__OnCharacterSpawned(__this,auVar14._0_8_,auVar14._8_8_);
-      } while( true );
-    }
-    auVar15 = il2cpp_runtime_helper_022b2c90();
-    uVar13 = auVar15._0_8_;
-    if (auVar15._8_4_ != 1) goto label_042a078b;
-    puVar10 = (undefined8 *)__cxa_begin_catch();
-    unaff_R15 = (undefined1 *)*puVar10;
-    __cxa_end_catch();
-label_042a0624:
-    if (plVar9 != (long *)0x0) {
-      lVar11 = *plVar9;
-      if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-        lVar12 = 0;
-        do {
-          if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IDisposable) {
-            puVar10 = (undefined8 *)
-                      (lVar11 + (long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + 0x138);
-            goto label_042a067d;
-          }
-          lVar12 = lVar12 + 0x10;
-        } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
+        pVVar8 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (local_res18[0],
+                            (Il2CppClass *)TypeInfo_System_Collections_Generic_IEnumerator_BaseCharacter,0);
+label_182110672:
+        character = (Characters_BaseCharacter_o *)(*pVVar8->methodPtr)(pIVar6,pVVar8->method);
+        Characters_BaseDetection__OnCharacterSpawned(__this,character,(MethodInfo *)0x0);
       }
-      puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IDisposable,0);
-label_042a067d:
-      (*(code *)*puVar10)(plVar9,puVar10[1]);
-    }
-    if (unaff_R15 == (undefined1 *)0x0) {
+      if (local_res18[0] != (Il2CppObject *)0x0) {
+        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res18[0]);
+      }
       pGVar2 = (__this->fields)._inGameManager;
       if ((pGVar2 != (GameManagers_InGameManager_o *)0x0) &&
-         (__this_00 = *(System_Collections_Generic_HashSet_object__o **)&(pGVar2->fields).PauseTimeLeft,
-         __this_00 != (System_Collections_Generic_HashSet_object__o *)0x0)) {
-        System_Collections_Generic_HashSet_object___GetEnumerator
-                  ((System_Collections_Generic_HashSet_Enumerator_T__o *)&stack0xffffffffffffffb8,__this_00,
-                   MethodInfo_HashSet_1_T_Enumerator_Characters_BaseDetection_GetEnume);
+         (__this_00 = (System_Collections_Generic_HashSet_Vector2Int__o *)(pGVar2->fields).Detections,
+         __this_00 != (System_Collections_Generic_HashSet_Vector2Int__o *)0x0)) {
+        System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+                  ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_48,__this_00,
+                   (MethodInfo_175C200 *)
+                   MethodInfo_System_Collections_Generic_HashSet_BaseDetection_GetEnumerator);
+        local_30 = (undefined1  [8])local_48._0_8_;
+        uStack_28 = local_48._8_8_;
+        local_20 = local_38;
+        local_48._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+        local_48._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_30;
         while( true ) {
-          __this_01.fields._8_8_ = pIVar17;
-          __this_01.fields._set = pSVar16;
-          __this_01.fields._current = (Il2CppObject *)__this_05;
-          bVar6 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                            (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffffb8);
-          if ((char)bVar6 == '\0') {
-            __this_02.fields._8_8_ = pIVar17;
-            __this_02.fields._set = pSVar16;
-            __this_02.fields._current = (Il2CppObject *)__this_05;
+          bVar5 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_30,
+                             (MethodInfo_15381F0 *)
+                             MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_MoveNext);
+          if (!bVar5) {
             System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                      (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_30,
+                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseDetection_Dispose);
             return;
           }
-          if (__this_05 == (Characters_BaseDetection_o *)0x0) break;
-          Characters_BaseDetection__OnCharacterSpawned(__this_05,(__this->fields).Owner,method_00);
+          if (local_20 == (Characters_BaseDetection_o *)0x0) break;
+          Characters_BaseDetection__OnCharacterSpawned(local_20,(__this->fields).Owner,(MethodInfo *)0x0);
         }
-        il2cpp_runtime_helper_022b2c90();
-        unaff_R15 = &stack0xffffffffffffffb8;
+        ThrowNullReferenceException();
       }
-      goto label_042a07a0;
     }
   }
-  auVar15 = il2cpp_runtime_helper_022fefe0(unaff_R15);
-  uVar13 = auVar15._0_8_;
-  if (auVar15._8_4_ == 1) {
-    plVar9 = (long *)__cxa_begin_catch(uVar13);
-    lVar11 = *plVar9;
-    __cxa_end_catch();
-    __this_03.fields._8_8_ = pIVar17;
-    __this_03.fields._set = pSVar16;
-    __this_03.fields._current = (Il2CppObject *)__this_05;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
-    if (lVar11 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar11);
-  }
-  __this_04.fields._8_8_ = pIVar17;
-  __this_04.fields._set = pSVar16;
-  __this_04.fields._current = (Il2CppObject *)__this_05;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
-label_042a078b:
-  _Unwind_Resume(uVar13);
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BaseDetection$$OnCharacterSpawned
 // il2cpp: void Characters_BaseDetection__OnCharacterSpawned (Characters_BaseDetection_o* __this, Characters_BaseCharacter_o* character, const MethodInfo* method);
-// 0x42acb00
+// 0x182110010
 
 void Characters_BaseDetection__OnCharacterSpawned
                (Characters_BaseDetection_o *__this,Characters_BaseCharacter_o *character,MethodInfo *method)
 
 {
   byte bVar1;
+  Characters_BaseCharacter_o *y;
   System_Collections_Generic_HashSet_object__o *__this_00;
-  long lVar2;
-  UnityEngine_Object_o *x;
-  bool_conflict bVar3;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
-  Characters_BaseCharacter_o *a;
-  Characters_BaseCharacter_o *pCVar4;
-  UnityEngine_Object_o *x_00;
+  bool bVar2;
   
-  if (g_data_057add93 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseTitan);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057add93 = '\x01';
+  if (Il2CppMethodInitialized_184346b77 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseTitan);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346b77 = '\x01';
   }
-  pCVar4 = (__this->fields).Owner;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  y = (__this->fields).Owner;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)pCVar4,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  bVar2 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)y,(MethodInfo *)0x0);
+  if (!bVar2) {
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    pCVar4 = character;
-    bVar3 = UnityEngine_Object__op_Equality
+    bVar2 = UnityEngine_Object__op_Equality
                       ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 == '\0') {
+    if (!bVar2) {
       if (character == (Characters_BaseCharacter_o *)0x0) {
-label_042acc10:
-        il2cpp_runtime_helper_022b2c90();
-        if (g_data_057add91 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-          g_data_057add91 = '\x01';
-        }
-        x_00 = *(UnityEngine_Object_o **)&(pCVar4->fields).FootstepsEnabled;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        a = (Characters_BaseCharacter_o *)0x0;
-        bVar3 = UnityEngine_Object__op_Equality(x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (((char)bVar3 == '\0') &&
-           (lVar2._0_4_ = (pCVar4->fields).FootstepsEnabled, lVar2._4_4_ = (pCVar4->fields).SoundsEnabled,
-           lVar2 == 0)) {
-          il2cpp_runtime_helper_022b2c90();
-          if (g_data_057add94 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-            g_data_057add94 = '\x01';
+label_18211015c:
+        ThrowNullReferenceException();
+      }
+      if ((character->fields).Dead == false) {
+        if ((__this->fields)._titansOnly != false) {
+          bVar1 = (TypeInfo_Characters_BaseTitan->_2).typeHierarchyDepth;
+          if ((character->klass->_2).typeHierarchyDepth < bVar1) {
+            return;
           }
-          if (*(char *)&x_00[2].klass != '\0') {
-            x = (UnityEngine_Object_o *)x_00[1].fields.m_CachedPtr;
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            bVar3 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-            if ((char)bVar3 == '\0') {
-              pCVar4 = (Characters_BaseCharacter_o *)x_00[1].fields.m_CachedPtr;
-              if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              GameManagers_TeamInfo__SameTeam_446fee0(a,pCVar4,(MethodInfo *)0x0);
-            }
+          if ((character->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_Characters_BaseTitan) {
+            return;
           }
+        }
+        bVar2 = (*(__this->klass->vtable)._4_get_RequireValidTarget.methodPtr)
+                          (__this,(__this->klass->vtable)._4_get_RequireValidTarget.method);
+        if ((bVar2) &&
+           (bVar2 = (*(character->klass->vtable)._73_ValidTarget.methodPtr)
+                              (character,(character->klass->vtable)._73_ValidTarget.method), !bVar2)) {
           return;
         }
-        return;
-      }
-      if (*(char *)&(character->fields).FeedVictimName == '\0') {
-        method_00 = extraout_RDX;
-        if (*(char *)((long)&(__this->fields)._enemiesOnly + 1) != '\0') {
-          bVar1 = (TypeInfo_BaseTitan->_2).naturalAligment;
-          method_00 = (MethodInfo *)(ulong)bVar1;
-          if ((character->klass->_2).naturalAligment < bVar1) {
-            return;
-          }
-          if ((character->klass->_2).typeHierarchy[(long)&method_00[-1].field_0x57] != TypeInfo_BaseTitan) {
-            return;
-          }
-        }
-        bVar3 = Characters_BaseDetection__IsValidTeam(__this,character,method_00);
-        if ((char)bVar3 != '\0') {
+        bVar2 = Characters_BaseDetection__IsValidTeam(__this,character,(MethodInfo *)0x0);
+        if (bVar2) {
           __this_00 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._recalculateFast;
-          pCVar4 = (Characters_BaseCharacter_o *)0x0;
-          if (__this_00 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-            System_Collections_Generic_HashSet_object___Add(__this_00,(Il2CppObject *)character,MethodInfo_Boolean_Add);
-            return;
-          }
-          goto label_042acc10;
+          if (__this_00 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_18211015c;
+          System_Collections_Generic_HashSet_object___Add
+                    (__this_00,(Il2CppObject *)character,
+                     (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
         }
       }
     }
@@ -596,758 +487,582 @@ label_042acc10:
 
 // Characters.BaseDetection$$IsValidTeam
 // il2cpp: bool Characters_BaseDetection__IsValidTeam (Characters_BaseDetection_o* __this, Characters_BaseCharacter_o* character, const MethodInfo* method);
-// 0x42acc90
+// 0x18210fdd0
 
-bool_conflict
-Characters_BaseDetection__IsValidTeam
-          (Characters_BaseDetection_o *__this,Characters_BaseCharacter_o *character,MethodInfo *method)
+bool Characters_BaseDetection__IsValidTeam
+               (Characters_BaseDetection_o *__this,Characters_BaseCharacter_o *character,MethodInfo *method)
 
 {
   Characters_BaseCharacter_o *pCVar1;
-  bool_conflict bVar2;
-  uint uVar3;
-  undefined8 unaff_RBX;
+  bool bVar2;
   
-  if (g_data_057add94 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-    g_data_057add94 = '\x01';
+  if (Il2CppMethodInitialized_184346b78 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184346b78 = '\x01';
   }
-  uVar3 = (uint)CONCAT71((int7)((ulong)unaff_RBX >> 8),1);
-  if ((char)(__this->fields)._enemiesOnly != '\0') {
+  if ((__this->fields)._enemiesOnly != false) {
     pCVar1 = (__this->fields).Owner;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
     bVar2 = UnityEngine_Object__op_Equality
                       ((UnityEngine_Object_o *)pCVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 == '\0') {
+    if (!bVar2) {
       pCVar1 = (__this->fields).Owner;
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
       }
-      uVar3 = GameManagers_TeamInfo__SameTeam_446fee0(character,pCVar1,(MethodInfo *)0x0);
-      uVar3 = uVar3 ^ 1;
+      bVar2 = GameManagers_TeamInfo__SameTeam_1e770d0(character,pCVar1,(MethodInfo *)0x0);
+      return !bVar2;
     }
   }
-  return uVar3;
+  return true;
 }
 
 
 // Characters.BaseDetection$$OnFixedUpdate
 // il2cpp: void Characters_BaseDetection__OnFixedUpdate (Characters_BaseDetection_o* __this, const MethodInfo* method);
-// 0x42acd40
+// 0x182110170
 
 void Characters_BaseDetection__OnFixedUpdate(Characters_BaseDetection_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  Characters_BaseCharacter_o *pCVar2;
-  System_Collections_Generic_HashSet_object__o *pSVar3;
-  long lVar4;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  undefined8 character;
-  bool_conflict bVar5;
-  long *plVar6;
-  MethodInfo *in_RCX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  System_Collections_Generic_HashSet_BaseCharacter__o *characters;
-  Characters_BaseDetection_o *pCVar7;
+  float fVar1;
+  undefined8 uVar2;
+  Characters_BaseDetection_c *pCVar3;
+  Characters_BaseCharacter_o *pCVar4;
+  System_Collections_Generic_HashSet_BallotBox_Ballot__o *pSVar5;
+  bool bVar6;
+  UnityEngine_Vector3_o *pUVar7;
   float fVar8;
   float fVar9;
   float fVar10;
-  _union_332950 _Var11;
-  float in_XMM1_Da;
-  float in_XMM1_Db;
-  float in_XMM1_Dc;
-  float in_XMM1_Dd;
+  double dVar11;
   float fVar12;
-  UnityEngine_Vector3_o myPosition;
-  UnityEngine_Vector3_o myPosition_00;
-  UnityEngine_Vector3_o myPosition_01;
-  undefined1 auVar13 [12];
-  Characters_BaseCharacter_o **ppCVar14;
-  undefined4 in_stack_ffffffffffffff18;
-  float in_stack_ffffffffffffff20;
-  float in_stack_ffffffffffffff24;
-  undefined1 auStack_d0 [32];
-  undefined8 uStack_b0;
-  float fStack_a0;
-  float fStack_9c;
-  float fStack_98;
-  float fStack_94;
-  _union_332950 a_Stack_90 [2];
-  undefined1 auStack_80 [16];
-  Characters_BaseCharacter_o *pCStack_70;
-  Characters_BaseDetection_o *pCStack_68;
+  float fVar13;
+  UnityEngine_Vector3_Fields local_a8;
+  UnityEngine_Vector3_o local_98 [12];
   
-  if (g_data_057add95 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057add95 = '\x01';
+  if (Il2CppMethodInitialized_184346b79 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
+    Il2CppMethodInitialized_184346b79 = '\x01';
   }
-  fVar12 = (float)(__this->fields)._titansOnly;
+  fVar9 = (__this->fields)._currentMediumTime;
   fVar8 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._titansOnly = (bool_conflict)(fVar8 + fVar12);
-  fVar12 = (__this->fields)._currentMediumTime;
-  fVar8 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
-  (__this->fields)._currentMediumTime = fVar8 + fVar12;
-  fVar9 = (float)(*(__this->klass->vtable)._6_GetSpeed.methodPtr)
-                           (__this,(__this->klass->vtable)._6_GetSpeed.method);
-  myPosition.fields._0_8_ =
-       (*(__this->klass->vtable)._7_GetPosition.methodPtr)
-                 (__this,(__this->klass->vtable)._7_GetPosition.method);
-  characters = (__this->fields)._recalculateFast;
-  myPosition.fields.z = in_XMM1_Da;
-  fVar8 = in_XMM1_Da;
-  fVar12 = fVar9;
-  Characters_BaseDetection__Recalculate(__this,characters,myPosition,fVar9,method_00);
-  pCVar7 = (Characters_BaseDetection_o *)(__this->fields)._recalculateFast;
-  if (pCVar7 == (Characters_BaseDetection_o *)0x0) {
-label_042aceb9:
-    pCVar7 = (Characters_BaseDetection_o *)0x0;
-    uStack_b0 = (System_Collections_Generic_HashSet_Enumerator_T__c *)il2cpp_runtime_helper_022b2c90();
-    fStack_a0 = fVar8;
-    fStack_9c = in_XMM1_Db;
-    fStack_98 = in_XMM1_Dc;
-    fStack_94 = in_XMM1_Dd;
-    pCStack_68 = __this;
-    if (g_data_057add97 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCharacter_get_Current);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-      g_data_057add97 = '\x01';
+  fVar10 = (__this->fields)._currentSlowTime;
+  (__this->fields)._currentMediumTime = fVar8 + fVar9;
+  fVar9 = UnityEngine_Time__get_deltaTime((MethodInfo *)0x0);
+  pCVar3 = __this->klass;
+  (__this->fields)._currentSlowTime = fVar9 + fVar10;
+  fVar10 = (*(pCVar3->vtable)._7_GetSpeed.methodPtr)(__this,(pCVar3->vtable)._7_GetSpeed.method);
+  pUVar7 = (*(__this->klass->vtable)._8_GetPosition.methodPtr)
+                     (local_98,__this,(__this->klass->vtable)._8_GetPosition.method);
+  uVar2._0_4_ = (pUVar7->fields).x;
+  uVar2._4_4_ = (pUVar7->fields).y;
+  fVar9 = (pUVar7->fields).z;
+  local_a8._0_8_ = uVar2;
+  if (Il2CppMethodInitialized_184346b7a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346b7a = '\x01';
+  }
+  pCVar4 = (__this->fields).ClosestEnemy;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar6 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pCVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar6) goto label_18211039b;
+  pCVar4 = (__this->fields).ClosestEnemy;
+  if (pCVar4 == (Characters_BaseCharacter_o *)0x0) goto label_1821104eb;
+  if ((pCVar4->fields).Dead == false) {
+    bVar6 = Characters_BaseDetection__IsValidTeam(__this,pCVar4,(MethodInfo *)0x0);
+    if (!bVar6) goto label_18211039b;
+    pCVar4 = (__this->fields).ClosestEnemy;
+    if (pCVar4 == (Characters_BaseCharacter_o *)0x0) goto label_1821104eb;
+    fVar12 = local_a8.y;
+    pUVar7 = (*(pCVar4->klass->vtable)._120_GetCenterPosition.methodPtr)
+                       (local_98,pCVar4,(pCVar4->klass->vtable)._120_GetCenterPosition.method);
+    fVar8 = (pUVar7->fields).x;
+    fVar1 = (pUVar7->fields).y;
+    fVar13 = (pUVar7->fields).z;
+    if (Il2CppMethodInitialized_18433dee7 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_18433dee7 = '\x01';
     }
-    auStack_d0._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-    auStack_d0._8_8_ = (Il2CppMethodPointer)0x0;
-    auStack_d0._16_8_ = (Characters_BaseCharacter_o *)0x0;
-    pCVar2 = (pCVar7->fields).ClosestEnemy;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    fVar12 = fVar12 - fVar1;
+    fVar13 = fVar9 - fVar13;
+    fVar8 = (float)uVar2 - fVar8;
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
     }
-    ppCVar14 = &(pCVar7->fields).ClosestEnemy;
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      bVar5 = Characters_BaseDetection__IsValidTeam(pCVar7,(pCVar7->fields).ClosestEnemy,method_03);
-      if ((char)bVar5 == '\0') {
-        *ppCVar14 = (Characters_BaseCharacter_o *)0x0;
-        il2cpp_runtime_helper_022b4080(ppCVar14,0);
-      }
-    }
-    if (characters == (System_Collections_Generic_HashSet_BaseCharacter__o *)0x0) {
-label_042ad28c:
-      auVar13 = il2cpp_runtime_helper_022b2c90();
-      if (auVar13._8_4_ == 1) {
-        plVar6 = (long *)__cxa_begin_catch(auVar13._0_8_);
-        lVar4 = *plVar6;
-        __cxa_end_catch();
-        __this_02.fields._index = in_stack_ffffffffffffff18;
-        __this_02.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar14;
-        __this_02.fields._version = (int32_t)fVar12;
-        __this_02.fields._current._0_4_ = in_stack_ffffffffffffff20;
-        __this_02.fields._current._4_4_ = in_stack_ffffffffffffff24;
-        System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_3219C30 *)auStack_d0);
-        if (lVar4 == 0) {
-          return;
-        }
-        il2cpp_runtime_helper_022fefe0(lVar4);
-      }
-      __this_03.fields._index = in_stack_ffffffffffffff18;
-      __this_03.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar14;
-      __this_03.fields._version = (int32_t)fVar12;
-      __this_03.fields._current._0_4_ = in_stack_ffffffffffffff20;
-      __this_03.fields._current._4_4_ = in_stack_ffffffffffffff24;
-      System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                (__this_03,(MethodInfo_3219C30 *)auStack_d0);
-      _Unwind_Resume(auVar13._0_8_);
-    }
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)auStack_80,
-               (System_Collections_Generic_HashSet_object__o *)characters,MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-    fStack_98 = fStack_9c;
-    auStack_d0._16_8_ = pCStack_70;
-    auStack_d0._0_8_ = auStack_80._0_8_;
-    auStack_d0._8_8_ = auStack_80._8_8_;
-    fStack_9c = (float)uStack_b0;
-    fStack_94 = uStack_b0._4_4_;
-    uStack_b0._0_4_ = uStack_b0._4_4_;
-    fVar8 = uStack_b0._4_4_;
-    fVar9 = uStack_b0._4_4_;
-label_042ad010:
-    do {
-      __this_00.fields._index = in_stack_ffffffffffffff18;
-      __this_00.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar14;
-      __this_00.fields._version = (int32_t)fVar12;
-      __this_00.fields._current._0_4_ = in_stack_ffffffffffffff20;
-      __this_00.fields._current._4_4_ = in_stack_ffffffffffffff24;
-      bVar5 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                        (__this_00,(MethodInfo_3219C40 *)auStack_d0);
-      character = auStack_d0._16_8_;
-      if ((char)bVar5 == '\0') {
-        __this_01.fields._index = in_stack_ffffffffffffff18;
-        __this_01.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar14;
-        __this_01.fields._version = (int32_t)fVar12;
-        __this_01.fields._current._0_4_ = in_stack_ffffffffffffff20;
-        __this_01.fields._current._4_4_ = in_stack_ffffffffffffff24;
-        System_Collections_Generic_HashSet_Enumerator_object___Dispose
-                  (__this_01,(MethodInfo_3219C30 *)auStack_d0);
-        return;
-      }
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar5 = UnityEngine_Object__op_Equality
-                        ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    } while ((char)bVar5 != '\0');
-    if ((Characters_BaseCharacter_o *)character != (Characters_BaseCharacter_o *)0x0) goto code_r0x042ad053;
-    il2cpp_runtime_helper_022b2c90();
-    goto label_042ad27d;
-  }
-  System_Collections_Generic_HashSet_object___Clear
-            ((System_Collections_Generic_HashSet_object__o *)pCVar7,MethodInfo_Void_Clear);
-  method_02 = method_01;
-  if (0.2 < (float)(__this->fields)._titansOnly) {
-    (__this->fields)._titansOnly = 0;
-    characters = (__this->fields)._recalculateMedium;
-    in_XMM1_Db = 0.0;
-    in_XMM1_Dc = 0.0;
-    in_XMM1_Dd = 0.0;
-    myPosition_00.fields.z = in_XMM1_Da;
-    myPosition_00.fields.x = (float)(int)myPosition.fields._0_8_;
-    myPosition_00.fields.y = (float)(int)((ulong)myPosition.fields._0_8_ >> 0x20);
-    fVar8 = in_XMM1_Da;
-    fVar12 = fVar9;
-    Characters_BaseDetection__Recalculate(__this,characters,myPosition_00,fVar9,method_01);
-    pCVar7 = (Characters_BaseDetection_o *)(__this->fields)._recalculateMedium;
-    if (pCVar7 == (Characters_BaseDetection_o *)0x0) goto label_042aceb9;
-    System_Collections_Generic_HashSet_object___Clear
-              ((System_Collections_Generic_HashSet_object__o *)pCVar7,MethodInfo_Void_Clear);
-    method_02 = extraout_RDX;
-  }
-  if (2.0 < (__this->fields)._currentMediumTime) {
-    (__this->fields)._currentMediumTime = 0.0;
-    characters = (__this->fields)._recalculateSlow;
-    in_XMM1_Db = 0.0;
-    in_XMM1_Dc = 0.0;
-    in_XMM1_Dd = 0.0;
-    myPosition_01.fields.z = in_XMM1_Da;
-    myPosition_01.fields.x = (float)(int)myPosition.fields._0_8_;
-    myPosition_01.fields.y = (float)(int)((ulong)myPosition.fields._0_8_ >> 0x20);
-    Characters_BaseDetection__Recalculate(__this,characters,myPosition_01,fVar9,method_02);
-    pCVar7 = (Characters_BaseDetection_o *)(__this->fields)._recalculateSlow;
-    fVar8 = in_XMM1_Da;
-    fVar12 = fVar9;
-    if (pCVar7 == (Characters_BaseDetection_o *)0x0) goto label_042aceb9;
-    System_Collections_Generic_HashSet_object___Clear
-              ((System_Collections_Generic_HashSet_object__o *)pCVar7,MethodInfo_Void_Clear);
-  }
-  Characters_BaseDetection__MergeTemp
-            (pCVar7,(__this->fields)._recalculateFast,(__this->fields)._tempRecalculateFast,in_RCX);
-  Characters_BaseDetection__MergeTemp
-            (pCVar7,(__this->fields)._recalculateMedium,(__this->fields)._tempRecalculateMedium,in_RCX);
-  Characters_BaseDetection__MergeTemp
-            (pCVar7,(__this->fields)._recalculateSlow,(__this->fields)._tempRecalculateSlow,in_RCX);
-  return;
-code_r0x042ad053:
-  if (*(char *)&((Characters_BaseCharacter_Fields *)(character + 0x10))->FeedVictimName != '\0')
-  goto label_042ad010;
-  bVar5 = Characters_BaseDetection__IsValidTeam(pCVar7,(Characters_BaseCharacter_o *)character,method_04);
-  if ((char)bVar5 == '\0') goto label_042ad010;
-  _Var11.genericMethod =
-       (void *)(*((*(Characters_BaseCharacter_c **)character)->vtable)._109_GetCenterPosition.methodPtr)
-                         (character,
-                          ((*(Characters_BaseCharacter_c **)character)->vtable)._109_GetCenterPosition.method)
-  ;
-  a_Stack_90[0].genericMethod = _Var11.genericMethod;
-  if (g_data_057a68cb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-    g_data_057a68cb = '\x01';
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-    in_stack_ffffffffffffff24 = fVar9;
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-    in_stack_ffffffffffffff24 = fVar9;
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  in_stack_ffffffffffffff20 =
-       (fStack_9c - (float)a_Stack_90[0]._0_4_) * (fStack_9c - (float)a_Stack_90[0]._0_4_) +
-       ((float)uStack_b0 - (float)a_Stack_90[0]._4_4_) * ((float)uStack_b0 - (float)a_Stack_90[0]._4_4_) +
-       (fStack_a0 - fVar8) * (fStack_a0 - fVar8);
-  if (in_stack_ffffffffffffff20 < 0.0) {
-    in_stack_ffffffffffffff20 = sqrtf(in_stack_ffffffffffffff20);
-  }
-  else {
-    in_stack_ffffffffffffff20 = SQRT(in_stack_ffffffffffffff20);
-  }
-  fVar9 = 0.0;
-  fVar8 = *(float *)&((Characters_BaseCharacter_Fields *)(character + 0x10))->Animation + fVar12 + 100.0;
-  fVar10 = (in_stack_ffffffffffffff20 + -200.0) / fVar8;
-  if (fVar10 <= 2.0) {
-    if (fVar10 <= 0.2) {
-      pSVar3 = (System_Collections_Generic_HashSet_object__o *)(pCVar7->fields)._tempRecalculateFast;
-      if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-label_042ad27d:
-        il2cpp_runtime_helper_022b2c90();
-        goto label_042ad282;
-      }
-      System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
+    dVar11 = (double)(fVar12 * fVar12 + fVar8 * fVar8 + fVar13 * fVar13);
+    if (dVar11 < 0.0) {
+      dVar11 = sqrt(dVar11);
+      fVar8 = (float)dVar11;
     }
     else {
-      pSVar3 = (System_Collections_Generic_HashSet_object__o *)(pCVar7->fields)._tempRecalculateMedium;
-      if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_042ad287;
-      System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
+      fVar8 = (float)SQRT(dVar11);
     }
   }
   else {
-    pSVar3 = (System_Collections_Generic_HashSet_object__o *)(pCVar7->fields)._tempRecalculateSlow;
-    if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-label_042ad282:
-      il2cpp_runtime_helper_022b2c90();
-label_042ad287:
-      il2cpp_runtime_helper_022b2c90();
-      goto label_042ad28c;
+label_18211039b:
+    (__this->fields).ClosestEnemy = (Characters_BaseCharacter_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).ClosestEnemy,(void *)0x0);
+    fVar8 = 3.4028235e+38;
+  }
+  (__this->fields).ClosestEnemyDistance = fVar8;
+  local_a8._0_8_ = uVar2;
+  local_a8.z = fVar9;
+  Characters_BaseDetection__Recalculate
+            (__this,(__this->fields)._recalculateFast,(UnityEngine_Vector3_o *)&local_a8,fVar10,
+             (MethodInfo *)0x0);
+  pSVar5 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._recalculateFast;
+  if (pSVar5 != (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) {
+    System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+              (pSVar5,(MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear)
+    ;
+    if (0.2 < (__this->fields)._currentMediumTime) {
+      (__this->fields)._currentMediumTime = 0.0;
+      local_a8._0_8_ = uVar2;
+      local_a8.z = fVar9;
+      Characters_BaseDetection__Recalculate
+                (__this,(__this->fields)._recalculateMedium,(UnityEngine_Vector3_o *)&local_a8,fVar10,
+                 (MethodInfo *)0x0);
+      pSVar5 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._recalculateMedium;
+      if (pSVar5 == (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) goto label_1821104eb;
+      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+                (pSVar5,(MethodInfo_17592A0 *)
+                        MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
     }
-    System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
-  }
-  pCVar2 = *ppCVar14;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 == '\0') {
-    pCVar2 = *ppCVar14;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if (2.0 < (__this->fields)._currentSlowTime) {
+      (__this->fields)._currentSlowTime = 0.0;
+      local_a8._0_8_ = uVar2;
+      local_a8.z = fVar9;
+      Characters_BaseDetection__Recalculate
+                (__this,(__this->fields)._recalculateSlow,(UnityEngine_Vector3_o *)&local_a8,fVar10,
+                 (MethodInfo *)0x0);
+      pSVar5 = (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)(__this->fields)._recalculateSlow;
+      if (pSVar5 == (System_Collections_Generic_HashSet_BallotBox_Ballot__o *)0x0) goto label_1821104eb;
+      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+                (pSVar5,(MethodInfo_17592A0 *)
+                        MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
     }
-    bVar5 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)character,(MethodInfo *)0x0);
-    if (((char)bVar5 == '\0') && ((pCVar7->fields).ClosestEnemyDistance <= in_stack_ffffffffffffff20))
-    goto label_042ad230;
+    Characters_BaseDetection__MergeTemp
+              (__this,(__this->fields)._recalculateFast,(__this->fields)._tempRecalculateFast,
+               (MethodInfo *)0x0);
+    Characters_BaseDetection__MergeTemp
+              (__this,(__this->fields)._recalculateMedium,(__this->fields)._tempRecalculateMedium,
+               (MethodInfo *)0x0);
+    Characters_BaseDetection__MergeTemp
+              (__this,(__this->fields)._recalculateSlow,(__this->fields)._tempRecalculateSlow,
+               (MethodInfo *)0x0);
+    return;
   }
-  *ppCVar14 = (Characters_BaseCharacter_o *)character;
-  il2cpp_runtime_helper_022b4080(ppCVar14,character);
-  (pCVar7->fields).ClosestEnemyDistance = in_stack_ffffffffffffff20;
-label_042ad230:
-  (*(pCVar7->klass->vtable)._8_OnRecalculate.methodPtr)
-            (in_stack_ffffffffffffff20,pCVar7,character,(pCVar7->klass->vtable)._8_OnRecalculate.method);
-  goto label_042ad010;
+label_1821104eb:
+  ThrowNullReferenceException();
+}
+
+
+// Characters.BaseDetection$$RefreshClosestEnemy
+// il2cpp: void Characters_BaseDetection__RefreshClosestEnemy (Characters_BaseDetection_o* __this, UnityEngine_Vector3_o myPosition, const MethodInfo* method);
+// 0x182110b40
+
+void Characters_BaseDetection__RefreshClosestEnemy
+               (Characters_BaseDetection_o *__this,UnityEngine_Vector3_o *myPosition,MethodInfo *method)
+
+{
+  Characters_BaseCharacter_o *pCVar1;
+  bool bVar2;
+  UnityEngine_Vector3_o *pUVar3;
+  double dVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  UnityEngine_Vector3_o local_58 [6];
+  
+  if (Il2CppMethodInitialized_184346b7a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346b7a = '\x01';
+  }
+  pCVar1 = (__this->fields).ClosestEnemy;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar2 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pCVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar2) {
+    pCVar1 = (__this->fields).ClosestEnemy;
+    if (pCVar1 == (Characters_BaseCharacter_o *)0x0) {
+label_182110d0a:
+      ThrowNullReferenceException();
+    }
+    if ((pCVar1->fields).Dead == false) {
+      bVar2 = Characters_BaseDetection__IsValidTeam(__this,pCVar1,(MethodInfo *)0x0);
+      if (bVar2) {
+        pCVar1 = (__this->fields).ClosestEnemy;
+        if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
+          pUVar3 = (*(pCVar1->klass->vtable)._120_GetCenterPosition.methodPtr)
+                             (local_58,pCVar1,(pCVar1->klass->vtable)._120_GetCenterPosition.method);
+          fVar6 = (pUVar3->fields).x;
+          fVar5 = (pUVar3->fields).y;
+          fVar7 = (pUVar3->fields).z;
+          if (Il2CppMethodInitialized_18433dee7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+            Il2CppMethodInitialized_18433dee7 = '\x01';
+          }
+          fVar6 = (myPosition->fields).x - fVar6;
+          fVar5 = (myPosition->fields).y - fVar5;
+          fVar7 = (myPosition->fields).z - fVar7;
+          if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+          }
+          dVar4 = (double)(fVar5 * fVar5 + fVar6 * fVar6 + fVar7 * fVar7);
+          if (0.0 <= dVar4) {
+            (__this->fields).ClosestEnemyDistance = (float)SQRT(dVar4);
+            return;
+          }
+          dVar4 = sqrt(dVar4);
+          (__this->fields).ClosestEnemyDistance = (float)dVar4;
+          return;
+        }
+        goto label_182110d0a;
+      }
+    }
+  }
+  (__this->fields).ClosestEnemy = (Characters_BaseCharacter_o *)0x0;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ClosestEnemy,(void *)0x0);
+  (__this->fields).ClosestEnemyDistance = 3.4028235e+38;
+  return;
 }
 
 
 // Characters.BaseDetection$$MergeTemp
 // il2cpp: void Characters_BaseDetection__MergeTemp (Characters_BaseDetection_o* __this, System_Collections_Generic_HashSet_BaseCharacter__o* main, System_Collections_Generic_HashSet_BaseCharacter__o* temp, const MethodInfo* method);
-// 0x42ad400
+// 0x18210fe90
+// eh: try 0x18210ff70..0x18210ffff -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 20 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18210ff6c: nop dword ptr [rax]
+// asm:   0x18210ffb1: mov rdx, qword ptr [rip + 0x1f64d80]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose
+// asm:   0x18210ffb8: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x18210ffbd: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x18210ffc2: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x18210ffc7: test rcx, rcx
+// asm:   0x18210ffca: jne 0x18210ffff
+// asm:   0x18210ffcc: mov rsi, qword ptr [rsp + 0x80]
+// asm:   0x18210ffff: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 void Characters_BaseDetection__MergeTemp
                (Characters_BaseDetection_o *__this,System_Collections_Generic_HashSet_BaseCharacter__o *main,
                System_Collections_Generic_HashSet_BaseCharacter__o *temp,MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_04;
-  bool_conflict bVar2;
-  long *plVar3;
-  undefined1 auVar4 [12];
-  System_Collections_Generic_HashSet_T__o *pSVar5;
-  Il2CppMethodPointer pIVar6;
-  Il2CppObject *item;
+  bool bVar1;
+  undefined1 local_40 [16];
+  Il2CppObject *local_30;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_28;
   
-  if (g_data_057add96 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCharacter_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    g_data_057add96 = '\x01';
+  if (Il2CppMethodInitialized_184346b7b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_get_Count);
+    Il2CppMethodInitialized_184346b7b = '\x01';
   }
-  pSVar5 = (System_Collections_Generic_HashSet_T__o *)0x0;
-  pIVar6 = (Il2CppMethodPointer)0x0;
-  item = (Il2CppObject *)0x0;
+  local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_28.fields._index = 0;
+  local_28.fields._version = 0;
+  local_28.fields._current = (Il2CppObject *)0x0;
   if (temp != (System_Collections_Generic_HashSet_BaseCharacter__o *)0x0) {
-    if ((temp->fields)._count < 1) {
-      return;
-    }
-    System_Collections_Generic_HashSet_object___GetEnumerator
-              ((System_Collections_Generic_HashSet_Enumerator_T__o *)&stack0xffffffffffffffb8,
-               (System_Collections_Generic_HashSet_object__o *)temp,MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-    if (main == (System_Collections_Generic_HashSet_BaseCharacter__o *)0x0) {
-      __this_01.fields._8_8_ = pIVar6;
-      __this_01.fields._set = pSVar5;
-      __this_01.fields._current = item;
-      bVar2 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                        (__this_01,(MethodInfo_3219C40 *)&stack0xffffffffffffffb8);
-      if ((char)bVar2 != '\0') goto label_042ad540;
-    }
-    else {
-      while (__this_00.fields._8_8_ = pIVar6, __this_00.fields._set = pSVar5, __this_00.fields._current = item
-            , bVar2 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                                (__this_00,(MethodInfo_3219C40 *)&stack0xffffffffffffffb8),
-            (char)bVar2 != '\0') {
+    if (0 < (temp->fields)._count) {
+      System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+                ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_40,
+                 (System_Collections_Generic_HashSet_Vector2Int__o *)temp,
+                 (MethodInfo_175C200 *)
+                 MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_GetEnumerator);
+      local_28.fields._set = (System_Collections_Generic_HashSet_T__o *)local_40._0_8_;
+      local_28.fields._index = local_40._8_4_;
+      local_28.fields._version = local_40._12_4_;
+      local_28.fields._current = local_30;
+      local_40._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+      local_40._8_8_ = &local_28;
+      while( true ) {
+        bVar1 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                          (&local_28,
+                           (MethodInfo_15381F0 *)
+                           MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext);
+        if (!bVar1) break;
+        if (main == (System_Collections_Generic_HashSet_BaseCharacter__o *)0x0) {
+          ThrowNullReferenceException();
+        }
         System_Collections_Generic_HashSet_object___Add
-                  ((System_Collections_Generic_HashSet_object__o *)main,item,MethodInfo_Boolean_Add);
+                  ((System_Collections_Generic_HashSet_object__o *)main,local_28.fields._current,
+                   (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
       }
+      System_Collections_Generic_HashSet_Enumerator_object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&local_28,
+                 MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose);
+      System_Collections_Generic_HashSet_BallotBox_Ballot___Clear
+                ((System_Collections_Generic_HashSet_BallotBox_Ballot__o *)temp,
+                 (MethodInfo_17592A0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Clear);
     }
-    __this_02.fields._8_8_ = pIVar6;
-    __this_02.fields._set = pSVar5;
-    __this_02.fields._current = item;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_02,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
-label_042ad51b:
-    System_Collections_Generic_HashSet_object___Clear
-              ((System_Collections_Generic_HashSet_object__o *)temp,MethodInfo_Void_Clear);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-label_042ad540:
-  auVar4 = il2cpp_runtime_helper_022b2c90();
-  if (auVar4._8_4_ == 1) {
-    plVar3 = (long *)__cxa_begin_catch(auVar4._0_8_);
-    lVar1 = *plVar3;
-    __cxa_end_catch();
-    __this_03.fields._8_8_ = pIVar6;
-    __this_03.fields._set = pSVar5;
-    __this_03.fields._current = item;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
-    if (lVar1 == 0) goto label_042ad51b;
-    il2cpp_runtime_helper_022fefe0(lVar1);
-  }
-  __this_04.fields._8_8_ = pIVar6;
-  __this_04.fields._set = pSVar5;
-  __this_04.fields._current = item;
-  System_Collections_Generic_HashSet_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_3219C30 *)&stack0xffffffffffffffb8);
-  _Unwind_Resume(auVar4._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BaseDetection$$Recalculate
 // il2cpp: void Characters_BaseDetection__Recalculate (Characters_BaseDetection_o* __this, System_Collections_Generic_HashSet_BaseCharacter__o* characters, UnityEngine_Vector3_o myPosition, float mySpeed, const MethodInfo* method);
-// 0x42acec0
+// 0x1821107e0
+// eh: try 0x1821108d0..0x182110b30 -> pad 0x183320150 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182110ace: mov rdx, qword ptr [rip + 0x1f64263]  ; MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose
+// asm:   0x182110ad5: mov rcx, qword ptr [rsp + 0x68]
+// asm:   0x182110ada: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182110adf: mov rcx, qword ptr [rsp + 0x60]
+// asm:   0x182110ae4: test rcx, rcx
+// asm:   0x182110ae7: jne 0x182110b30
+// asm:   0x182110b30: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183320150: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183320155: push rbp
+// asm:   0x183320156: sub rsp, 0x20
+// asm:   0x18332015a: mov rbp, rdx
+// asm:   0x18332015d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183320161: mov rcx, qword ptr [rax]
+// asm:   0x183320164: mov qword ptr [rbp + 0x60], rcx
+// asm:   0x183320168: movabs rax, 0
+// asm:   0x183320172: add rsp, 0x20
+// asm:   0x183320176: pop rbp
+// asm:   0x183320177: ret 
 
 void Characters_BaseDetection__Recalculate
                (Characters_BaseDetection_o *__this,
                System_Collections_Generic_HashSet_BaseCharacter__o *characters,
-               UnityEngine_Vector3_o myPosition,float mySpeed,MethodInfo *method)
+               UnityEngine_Vector3_o *myPosition,float mySpeed,MethodInfo *method)
 
 {
-  int iVar1;
+  System_Collections_Generic_HashSet_object__o *pSVar1;
   Characters_BaseCharacter_o *pCVar2;
-  System_Collections_Generic_HashSet_object__o *pSVar3;
-  long lVar4;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_00;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_01;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_02;
-  System_Collections_Generic_HashSet_Enumerator_T__o __this_03;
-  undefined8 character;
-  bool_conflict bVar5;
-  long *plVar6;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
+  Il2CppObject *character;
+  bool bVar3;
+  UnityEngine_Vector3_o *pUVar4;
+  MethodInfo *pMVar5;
+  float fVar6;
   float fVar7;
-  _union_332950 _Var8;
-  undefined4 in_XMM0_Dc;
-  undefined4 in_XMM0_Dd;
-  float fVar9;
-  float in_XMM1_Db;
-  float fVar10;
-  float in_XMM1_Dc;
-  float in_XMM1_Dd;
-  undefined1 auVar11 [12];
-  Characters_BaseCharacter_o **ppCVar12;
-  undefined4 in_stack_ffffffffffffff50;
-  float in_stack_ffffffffffffff58;
-  float in_stack_ffffffffffffff5c;
-  undefined1 local_98 [32];
-  undefined1 local_78 [16];
-  float local_68;
-  float fStack_64;
-  float fStack_60;
-  float fStack_5c;
-  _union_332950 local_58 [2];
-  undefined1 local_48 [16];
-  Characters_BaseCharacter_o *local_38;
+  undefined8 local_e8;
+  float local_e0;
+  undefined8 local_d8;
+  float local_d0;
+  UnityEngine_Vector3_o local_c8;
+  undefined1 local_b8 [16];
+  Characters_BaseCharacter_o *local_a8;
+  System_Collections_Generic_HashSet_Enumerator_T__o local_a0 [5];
   
-  local_68 = myPosition.fields.z;
-  local_78._8_4_ = in_XMM0_Dc;
-  local_78._0_8_ = myPosition.fields._0_8_;
-  local_78._12_4_ = in_XMM0_Dd;
-  fStack_64 = in_XMM1_Db;
-  fStack_60 = in_XMM1_Dc;
-  fStack_5c = in_XMM1_Dd;
-  if (g_data_057add97 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCharacter_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057add97 = '\x01';
+  if (Il2CppMethodInitialized_184346b7c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184346b7c = '\x01';
   }
-  local_98._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
-  local_98._8_8_ = (Il2CppMethodPointer)0x0;
-  local_98._16_8_ = (Characters_BaseCharacter_o *)0x0;
-  pCVar2 = (__this->fields).ClosestEnemy;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  ppCVar12 = &(__this->fields).ClosestEnemy;
-  bVar5 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (((char)bVar5 != '\0') &&
-     (bVar5 = Characters_BaseDetection__IsValidTeam(__this,(__this->fields).ClosestEnemy,method_00),
-     (char)bVar5 == '\0')) {
-    *ppCVar12 = (Characters_BaseCharacter_o *)0x0;
-    il2cpp_runtime_helper_022b4080(ppCVar12,0);
-  }
+  local_a0[0].fields._set = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_a0[0].fields._index = 0;
+  local_a0[0].fields._version = 0;
+  local_a0[0].fields._current = (Il2CppObject *)0x0;
   if (characters == (System_Collections_Generic_HashSet_BaseCharacter__o *)0x0) {
-label_042ad28c:
-    auVar11 = il2cpp_runtime_helper_022b2c90();
-    if (auVar11._8_4_ == 1) {
-      plVar6 = (long *)__cxa_begin_catch(auVar11._0_8_);
-      lVar4 = *plVar6;
-      __cxa_end_catch();
-      __this_02.fields._index = in_stack_ffffffffffffff50;
-      __this_02.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar12;
-      __this_02.fields._version = (int32_t)mySpeed;
-      __this_02.fields._current._0_4_ = in_stack_ffffffffffffff58;
-      __this_02.fields._current._4_4_ = in_stack_ffffffffffffff5c;
-      System_Collections_Generic_HashSet_Enumerator_object___Dispose(__this_02,(MethodInfo_3219C30 *)local_98)
-      ;
-      if (lVar4 == 0) {
-        return;
-      }
-      il2cpp_runtime_helper_022fefe0(lVar4);
-    }
-    __this_03.fields._index = in_stack_ffffffffffffff50;
-    __this_03.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar12;
-    __this_03.fields._version = (int32_t)mySpeed;
-    __this_03.fields._current._0_4_ = in_stack_ffffffffffffff58;
-    __this_03.fields._current._4_4_ = in_stack_ffffffffffffff5c;
-    System_Collections_Generic_HashSet_Enumerator_object___Dispose(__this_03,(MethodInfo_3219C30 *)local_98);
-    _Unwind_Resume(auVar11._0_8_);
+    ThrowNullReferenceException();
   }
-  System_Collections_Generic_HashSet_object___GetEnumerator
-            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_48,
-             (System_Collections_Generic_HashSet_object__o *)characters,MethodInfo_HashSet_1_T_Enumerator_Characters_BaseCharacter_GetEnume);
-  fStack_60 = fStack_64;
-  local_98._16_8_ = local_38;
-  local_98._0_8_ = local_48._0_8_;
-  local_98._8_8_ = local_48._8_8_;
-  fStack_64 = (float)local_78._0_4_;
-  fStack_5c = (float)local_78._4_4_;
-  local_78._0_4_ = local_78._4_4_;
-  fVar9 = (float)local_78._4_4_;
-  fVar10 = (float)local_78._4_4_;
-label_042ad010:
+  System_Collections_Generic_HashSet_Vector2Int___GetEnumerator
+            ((System_Collections_Generic_HashSet_Enumerator_T__o *)local_b8,
+             (System_Collections_Generic_HashSet_Vector2Int__o *)characters,
+             (MethodInfo_175C200 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_GetEnumerator);
+  local_a0[0].fields._set = (System_Collections_Generic_HashSet_T__o *)local_b8._0_8_;
+  local_a0[0].fields._index = local_b8._8_4_;
+  local_a0[0].fields._version = local_b8._12_4_;
+  local_a0[0].fields._current = (Il2CppObject *)local_a8;
+  local_b8._0_8_ = (System_Collections_Generic_HashSet_T__o *)0x0;
+  local_b8._8_8_ = local_a0;
   do {
-    __this_00.fields._index = in_stack_ffffffffffffff50;
-    __this_00.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar12;
-    __this_00.fields._version = (int32_t)mySpeed;
-    __this_00.fields._current._0_4_ = in_stack_ffffffffffffff58;
-    __this_00.fields._current._4_4_ = in_stack_ffffffffffffff5c;
-    bVar5 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
-                      (__this_00,(MethodInfo_3219C40 *)local_98);
-    character = local_98._16_8_;
-    if ((char)bVar5 == '\0') {
-      __this_01.fields._index = in_stack_ffffffffffffff50;
-      __this_01.fields._set = (System_Collections_Generic_HashSet_T__o *)ppCVar12;
-      __this_01.fields._version = (int32_t)mySpeed;
-      __this_01.fields._current._0_4_ = in_stack_ffffffffffffff58;
-      __this_01.fields._current._4_4_ = in_stack_ffffffffffffff5c;
-      System_Collections_Generic_HashSet_Enumerator_object___Dispose(__this_01,(MethodInfo_3219C30 *)local_98)
-      ;
-      return;
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar5 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  } while ((char)bVar5 != '\0');
-  if ((Characters_BaseCharacter_o *)character != (Characters_BaseCharacter_o *)0x0) goto code_r0x042ad053;
-  il2cpp_runtime_helper_022b2c90();
-  goto label_042ad27d;
-code_r0x042ad053:
-  if (*(char *)&((Characters_BaseCharacter_Fields *)(character + 0x10))->FeedVictimName != '\0')
-  goto label_042ad010;
-  bVar5 = Characters_BaseDetection__IsValidTeam(__this,(Characters_BaseCharacter_o *)character,method_01);
-  if ((char)bVar5 == '\0') goto label_042ad010;
-  _Var8.genericMethod =
-       (void *)(*((*(Characters_BaseCharacter_c **)character)->vtable)._109_GetCenterPosition.methodPtr)
-                         (character,
-                          ((*(Characters_BaseCharacter_c **)character)->vtable)._109_GetCenterPosition.method)
-  ;
-  local_58[0].genericMethod = _Var8.genericMethod;
-  if (g_data_057a68cb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-    g_data_057a68cb = '\x01';
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-    in_stack_ffffffffffffff5c = fVar10;
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-    in_stack_ffffffffffffff5c = fVar10;
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  in_stack_ffffffffffffff58 =
-       (fStack_64 - (float)local_58[0]._0_4_) * (fStack_64 - (float)local_58[0]._0_4_) +
-       ((float)local_78._0_4_ - (float)local_58[0]._4_4_) * ((float)local_78._0_4_ - (float)local_58[0]._4_4_)
-       + (local_68 - fVar9) * (local_68 - fVar9);
-  if (in_stack_ffffffffffffff58 < 0.0) {
-    in_stack_ffffffffffffff58 = sqrtf(in_stack_ffffffffffffff58);
-  }
-  else {
-    in_stack_ffffffffffffff58 = SQRT(in_stack_ffffffffffffff58);
-  }
-  fVar10 = 0.0;
-  fVar9 = *(float *)&((Characters_BaseCharacter_Fields *)(character + 0x10))->Animation + mySpeed + 100.0;
-  fVar7 = (in_stack_ffffffffffffff58 + -200.0) / fVar9;
-  if (fVar7 <= 2.0) {
-    if (fVar7 <= 0.2) {
-      pSVar3 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateFast;
-      if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-label_042ad27d:
-        il2cpp_runtime_helper_022b2c90();
-        goto label_042ad282;
+    do {
+      do {
+        do {
+          bVar3 = System_Collections_Generic_HashSet_Enumerator_object___MoveNext
+                            (local_a0,(MethodInfo_15381F0 *)
+                                      MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_MoveNext
+                            );
+          character = local_a0[0].fields._current;
+          if (!bVar3) {
+            System_Collections_Generic_HashSet_Enumerator_object___Dispose
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0,
+                       MethodInfo_System_Collections_Generic_HashSet_Enumerator_BaseCharacter_Dispose);
+            return;
+          }
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar3 = UnityEngine_Object__op_Equality
+                            ((UnityEngine_Object_o *)character,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        } while (bVar3);
+        if ((Characters_BaseCharacter_o *)character == (Characters_BaseCharacter_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+      } while (((Characters_BaseCharacter_Fields *)((longlong)character + 0x10))->Dead != false);
+      bVar3 = Characters_BaseDetection__IsValidTeam
+                        (__this,(Characters_BaseCharacter_o *)character,(MethodInfo *)0x0);
+    } while (!bVar3);
+    pUVar4 = (*(((Characters_BaseCharacter_c *)character->klass)->vtable)._120_GetCenterPosition.methodPtr)
+                       (&local_c8,character,
+                        (((Characters_BaseCharacter_c *)character->klass)->vtable)._120_GetCenterPosition.
+                        method);
+    local_e8._0_4_ = (pUVar4->fields).x;
+    local_e8._4_4_ = (pUVar4->fields).y;
+    local_e0 = (pUVar4->fields).z;
+    local_d8._0_4_ = (myPosition->fields).x;
+    local_d8._4_4_ = (myPosition->fields).y;
+    local_d0 = (myPosition->fields).z;
+    fVar6 = (float)il2cpp_runtime_helper_180562c80(&local_d8,&local_e8,0);
+    fVar7 = (fVar6 - 200.0) /
+            (mySpeed + ((Characters_BaseCharacter_Fields *)((longlong)character + 0x10))->CurrentSpeed + 100.0
+            );
+    if (2.0 < fVar7) {
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateSlow;
+      if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+        ThrowNullReferenceException();
       }
-      System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
+      System_Collections_Generic_HashSet_object___Add
+                (pSVar1,character,
+                 (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
+    }
+    else if (0.2 < fVar7) {
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateMedium;
+      if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      System_Collections_Generic_HashSet_object___Add
+                (pSVar1,character,
+                 (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
     }
     else {
-      pSVar3 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateMedium;
-      if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) goto label_042ad287;
-      System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
+      pSVar1 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateFast;
+      if (pSVar1 == (System_Collections_Generic_HashSet_object__o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      System_Collections_Generic_HashSet_object___Add
+                (pSVar1,character,
+                 (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_BaseCharacter_Add);
     }
-  }
-  else {
-    pSVar3 = (System_Collections_Generic_HashSet_object__o *)(__this->fields)._tempRecalculateSlow;
-    if (pSVar3 == (System_Collections_Generic_HashSet_object__o *)0x0) {
-label_042ad282:
-      il2cpp_runtime_helper_022b2c90();
-label_042ad287:
-      il2cpp_runtime_helper_022b2c90();
-      goto label_042ad28c;
+    pCVar2 = (__this->fields).ClosestEnemy;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    System_Collections_Generic_HashSet_object___Add(pSVar3,(Il2CppObject *)character,MethodInfo_Boolean_Add);
-  }
-  pCVar2 = *ppCVar12;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 == '\0') {
-    pCVar2 = *ppCVar12;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pMVar5 = (MethodInfo *)0x0;
+    bVar3 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
+label_182110a8a:
+      (__this->fields).ClosestEnemy = (Characters_BaseCharacter_o *)character;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).ClosestEnemy,character);
+      (__this->fields).ClosestEnemyDistance = fVar6;
     }
-    bVar5 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)character,(MethodInfo *)0x0);
-    if (((char)bVar5 == '\0') && ((__this->fields).ClosestEnemyDistance <= in_stack_ffffffffffffff58))
-    goto label_042ad230;
-  }
-  *ppCVar12 = (Characters_BaseCharacter_o *)character;
-  il2cpp_runtime_helper_022b4080(ppCVar12,character);
-  (__this->fields).ClosestEnemyDistance = in_stack_ffffffffffffff58;
-label_042ad230:
-  (*(__this->klass->vtable)._8_OnRecalculate.methodPtr)
-            (in_stack_ffffffffffffff58,__this,character,(__this->klass->vtable)._8_OnRecalculate.method);
-  goto label_042ad010;
+    else {
+      pCVar2 = (__this->fields).ClosestEnemy;
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      pMVar5 = (MethodInfo *)0x0;
+      bVar3 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)pCVar2,(UnityEngine_Object_o *)character,(MethodInfo *)0x0);
+      if ((bVar3) || (fVar6 < (__this->fields).ClosestEnemyDistance)) goto label_182110a8a;
+    }
+    (*(__this->klass->vtable)._9_OnRecalculate.methodPtr)(__this,(System_Type_o *)character,pMVar5);
+  } while( true );
 }
 
 
 // Characters.BaseDetection$$GetSpeed
 // il2cpp: float Characters_BaseDetection__GetSpeed (Characters_BaseDetection_o* __this, const MethodInfo* method);
-// 0x42ad5d0
+// 0x18210fd30
 
 float Characters_BaseDetection__GetSpeed(Characters_BaseDetection_o *__this,MethodInfo *method)
 
 {
   Characters_BaseCharacter_o *pCVar1;
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 extraout_RDX;
-  float fVar2;
   
   pCVar1 = (__this->fields).Owner;
   if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
-    return *(float *)&(pCVar1->fields).Animation;
+    return (pCVar1->fields).CurrentSpeed;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pCVar1 = (__this->fields).Owner;
-  if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
-    vtableDispatch = (pCVar1->klass->vtable)._109_GetCenterPosition.methodPtr;
-    fVar2 = (float)(*vtableDispatch)
-                             (pCVar1,(pCVar1->klass->vtable)._109_GetCenterPosition.method,extraout_RDX,
-                              vtableDispatch);
-    return fVar2;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  return fVar2;
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BaseDetection$$GetPosition
 // il2cpp: UnityEngine_Vector3_o Characters_BaseDetection__GetPosition (Characters_BaseDetection_o* __this, const MethodInfo* method);
-// 0x42ad5f0
+// 0x18210fce0
 
-UnityEngine_Vector3_o
-Characters_BaseDetection__GetPosition(Characters_BaseDetection_o *__this,MethodInfo *method)
+UnityEngine_Vector3_o *
+Characters_BaseDetection__GetPosition
+          (UnityEngine_Vector3_o *__return_storage_ptr__,Characters_BaseDetection_o *__this,MethodInfo *method
+          )
 
 {
-  Characters_BaseCharacter_o *pCVar1;
-  Il2CppMethodPointer vtableDispatch;
-  undefined8 in_RDX;
-  float in_XMM1_Da;
-  UnityEngine_Vector3_o UVar2;
-  UnityEngine_Vector3_o UVar3;
+  float fVar1;
+  Characters_BaseCharacter_o *pCVar2;
+  float fVar3;
+  UnityEngine_Vector3_o *pUVar4;
+  UnityEngine_Vector3_o local_18;
   
-  pCVar1 = (__this->fields).Owner;
-  if (pCVar1 != (Characters_BaseCharacter_o *)0x0) {
-    vtableDispatch = (pCVar1->klass->vtable)._109_GetCenterPosition.methodPtr;
-    UVar2.fields._0_8_ =
-         (*vtableDispatch)
-                   (pCVar1,(pCVar1->klass->vtable)._109_GetCenterPosition.method,in_RDX,vtableDispatch)
-    ;
-    UVar2.fields.z = in_XMM1_Da;
-    return (UnityEngine_Vector3_o)UVar2.fields;
+  pCVar2 = (__this->fields).Owner;
+  if (pCVar2 != (Characters_BaseCharacter_o *)0x0) {
+    pUVar4 = (*(pCVar2->klass->vtable)._120_GetCenterPosition.methodPtr)
+                       (&local_18,pCVar2,(pCVar2->klass->vtable)._120_GetCenterPosition.method);
+    fVar3 = (pUVar4->fields).y;
+    fVar1 = (pUVar4->fields).z;
+    (__return_storage_ptr__->fields).x = (pUVar4->fields).x;
+    (__return_storage_ptr__->fields).y = fVar3;
+    (__return_storage_ptr__->fields).z = fVar1;
+    return __return_storage_ptr__;
   }
-  UVar3.fields._0_8_ = il2cpp_runtime_helper_022b2c90();
-  UVar3.fields.z = in_XMM1_Da;
-  return (UnityEngine_Vector3_o)UVar3.fields;
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BaseDetection$$OnRecalculate
 // il2cpp: void Characters_BaseDetection__OnRecalculate (Characters_BaseDetection_o* __this, Characters_BaseCharacter_o* character, float distance, const MethodInfo* method);
-// 0x42ad620
+// 0x180547020
 
-void Characters_BaseDetection__OnRecalculate
-               (Characters_BaseDetection_o *__this,Characters_BaseCharacter_o *character,float distance,
-               MethodInfo *method)
+void
+Characters_BaseDetection__OnRecalculate(Characters_BaseDetection_o* __this, Characters_BaseCharacter_o* character, float distance, MethodInfo* method)
 
 {
   return;

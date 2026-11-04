@@ -14,224 +14,224 @@ using UnityEngine.Events;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000179")]
+[Token(Token = "0x200017C")]
 public class UnityEventHandlerAsyncEnumerable : IUniTaskAsyncEnumerable<AsyncUnit>
 {
-	[Token(Token = "0x200017A")]
+	[Token(Token = "0x200017D")]
 	private class UnityEventHandlerAsyncEnumerator : MoveNextSource, IUniTaskAsyncEnumerator<AsyncUnit>, IUniTaskAsyncDisposable
 	{
-		[Token(Token = "0x40005CB")]
+		[Token(Token = "0x40005DE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private static readonly Action<object> cancel1;
 
-		[Token(Token = "0x40005CC")]
+		[Token(Token = "0x40005DF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		private static readonly Action<object> cancel2;
 
-		[Token(Token = "0x40005CD")]
+		[Token(Token = "0x40005E0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		private readonly UnityEvent unityEvent;
 
-		[Token(Token = "0x40005CE")]
+		[Token(Token = "0x40005E1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		private CancellationToken cancellationToken1;
 
-		[Token(Token = "0x40005CF")]
+		[Token(Token = "0x40005E2")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 		private CancellationToken cancellationToken2;
 
-		[Token(Token = "0x40005D0")]
+		[Token(Token = "0x40005E3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 		private UnityAction unityAction;
 
-		[Token(Token = "0x40005D1")]
+		[Token(Token = "0x40005E4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 		private CancellationTokenRegistration registration1;
 
-		[Token(Token = "0x40005D2")]
+		[Token(Token = "0x40005E5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 		private CancellationTokenRegistration registration2;
 
-		[Token(Token = "0x40005D3")]
+		[Token(Token = "0x40005E6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 		private bool isDisposed;
 
-		[Token(Token = "0x17000065")]
+		[Token(Token = "0x17000067")]
 		public AsyncUnit Current
 		{
-			[Token(Token = "0x6000906")]
-			[Address(RVA = "0x4A02F10", Offset = "0x4A02F10", VA = "0x4A02F10", Slot = "23")]
+			[Token(Token = "0x600092A")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "23")]
 			get
 			{
 				return default(AsyncUnit);
 			}
 		}
 
-		[Token(Token = "0x6000905")]
-		[Address(RVA = "0x4A02EB0", Offset = "0x4A02EB0", VA = "0x4A02EB0")]
+		[Token(Token = "0x6000929")]
+		[Address(RVA = "0xEBB810", Offset = "0xEB9E10", VA = "0x180EBB810")]
 		public UnityEventHandlerAsyncEnumerator(UnityEvent unityEvent, CancellationToken cancellationToken1, CancellationToken cancellationToken2)
 		{
 		}
 
-		[Token(Token = "0x6000907")]
-		[Address(RVA = "0x4A02F20", Offset = "0x4A02F20", VA = "0x4A02F20", Slot = "24")]
+		[Token(Token = "0x600092B")]
+		[Address(RVA = "0x294EAC0", Offset = "0x294D0C0", VA = "0x18294EAC0", Slot = "24")]
 		public UniTask<bool> MoveNextAsync()
 		{
 			return default(UniTask<bool>);
 		}
 
-		[Token(Token = "0x6000908")]
-		[Address(RVA = "0x4A031E0", Offset = "0x4A031E0", VA = "0x4A031E0")]
+		[Token(Token = "0x600092C")]
+		[Address(RVA = "0x294EA80", Offset = "0x294D080", VA = "0x18294EA80")]
 		private void Invoke()
 		{
 		}
 
-		[Token(Token = "0x6000909")]
-		[Address(RVA = "0x4A03220", Offset = "0x4A03220", VA = "0x4A03220")]
+		[Token(Token = "0x600092D")]
+		[Address(RVA = "0x294ED60", Offset = "0x294D360", VA = "0x18294ED60")]
 		private static void OnCanceled1(object state)
 		{
 		}
 
-		[Token(Token = "0x600090A")]
-		[Address(RVA = "0x4A03350", Offset = "0x4A03350", VA = "0x4A03350")]
+		[Token(Token = "0x600092E")]
+		[Address(RVA = "0x294EE40", Offset = "0x294D440", VA = "0x18294EE40")]
 		private static void OnCanceled2(object state)
 		{
 		}
 
-		[Token(Token = "0x600090B")]
-		[Address(RVA = "0x4A03480", Offset = "0x4A03480", VA = "0x4A03480", Slot = "25")]
+		[Token(Token = "0x600092F")]
+		[Address(RVA = "0x294E9E0", Offset = "0x294CFE0", VA = "0x18294E9E0", Slot = "25")]
 		public UniTask DisposeAsync()
 		{
 			return default(UniTask);
 		}
 	}
 
-	[Token(Token = "0x40005C9")]
+	[Token(Token = "0x40005DC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly UnityEvent unityEvent;
 
-	[Token(Token = "0x40005CA")]
+	[Token(Token = "0x40005DD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly CancellationToken cancellationToken1;
 
-	[Token(Token = "0x6000903")]
-	[Address(RVA = "0x49FBCC0", Offset = "0x49FBCC0", VA = "0x49FBCC0")]
+	[Token(Token = "0x6000927")]
+	[Address(RVA = "0xEB7CA0", Offset = "0xEB62A0", VA = "0x180EB7CA0")]
 	public UnityEventHandlerAsyncEnumerable(UnityEvent unityEvent, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x6000904")]
-	[Address(RVA = "0x4A02DD0", Offset = "0x4A02DD0", VA = "0x4A02DD0", Slot = "4")]
+	[Token(Token = "0x6000928")]
+	[Address(RVA = "0x294E900", Offset = "0x294CF00", VA = "0x18294E900", Slot = "4")]
 	public IUniTaskAsyncEnumerator<AsyncUnit> GetAsyncEnumerator([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 }
-[Token(Token = "0x200017B")]
+[Token(Token = "0x200017E")]
 public class UnityEventHandlerAsyncEnumerable<T> : IUniTaskAsyncEnumerable<T>
 {
-	[Token(Token = "0x200017C")]
+	[Token(Token = "0x200017F")]
 	private class UnityEventHandlerAsyncEnumerator : MoveNextSource, IUniTaskAsyncEnumerator<T>, IUniTaskAsyncDisposable
 	{
-		[Token(Token = "0x40005D6")]
+		[Token(Token = "0x40005E9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private static readonly Action<object> cancel1;
 
-		[Token(Token = "0x40005D7")]
+		[Token(Token = "0x40005EA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private static readonly Action<object> cancel2;
 
-		[Token(Token = "0x40005D8")]
+		[Token(Token = "0x40005EB")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private readonly UnityEvent<T> unityEvent;
 
-		[Token(Token = "0x40005D9")]
+		[Token(Token = "0x40005EC")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationToken cancellationToken1;
 
-		[Token(Token = "0x40005DA")]
+		[Token(Token = "0x40005ED")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationToken cancellationToken2;
 
-		[Token(Token = "0x40005DB")]
+		[Token(Token = "0x40005EE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private UnityAction<T> unityAction;
 
-		[Token(Token = "0x40005DC")]
+		[Token(Token = "0x40005EF")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationTokenRegistration registration1;
 
-		[Token(Token = "0x40005DD")]
+		[Token(Token = "0x40005F0")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private CancellationTokenRegistration registration2;
 
-		[Token(Token = "0x40005DE")]
+		[Token(Token = "0x40005F1")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private bool isDisposed;
 
-		[Token(Token = "0x17000066")]
+		[Token(Token = "0x17000068")]
 		public T Current
 		{
-			[Token(Token = "0x6000910")]
+			[Token(Token = "0x6000934")]
 			[CompilerGenerated]
 			get
 			{
 				return (T)null;
 			}
-			[Token(Token = "0x6000911")]
+			[Token(Token = "0x6000935")]
 			[CompilerGenerated]
 			private set
 			{
 			}
 		}
 
-		[Token(Token = "0x600090F")]
+		[Token(Token = "0x6000933")]
 		public UnityEventHandlerAsyncEnumerator(UnityEvent<T> unityEvent, CancellationToken cancellationToken1, CancellationToken cancellationToken2)
 		{
 		}
 
-		[Token(Token = "0x6000912")]
+		[Token(Token = "0x6000936")]
 		public UniTask<bool> MoveNextAsync()
 		{
 			return default(UniTask<bool>);
 		}
 
-		[Token(Token = "0x6000913")]
+		[Token(Token = "0x6000937")]
 		private void Invoke(T value)
 		{
 		}
 
-		[Token(Token = "0x6000914")]
+		[Token(Token = "0x6000938")]
 		private static void OnCanceled1(object state)
 		{
 		}
 
-		[Token(Token = "0x6000915")]
+		[Token(Token = "0x6000939")]
 		private static void OnCanceled2(object state)
 		{
 		}
 
-		[Token(Token = "0x6000916")]
+		[Token(Token = "0x600093A")]
 		public UniTask DisposeAsync()
 		{
 			return default(UniTask);
 		}
 	}
 
-	[Token(Token = "0x40005D4")]
+	[Token(Token = "0x40005E7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly UnityEvent<T> unityEvent;
 
-	[Token(Token = "0x40005D5")]
+	[Token(Token = "0x40005E8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly CancellationToken cancellationToken1;
 
-	[Token(Token = "0x600090D")]
+	[Token(Token = "0x6000931")]
 	public UnityEventHandlerAsyncEnumerable(UnityEvent<T> unityEvent, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x600090E")]
+	[Token(Token = "0x6000932")]
 	public IUniTaskAsyncEnumerator<T> GetAsyncEnumerator([Optional] CancellationToken cancellationToken)
 	{
 		return null;

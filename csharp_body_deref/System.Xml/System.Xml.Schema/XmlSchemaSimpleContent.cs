@@ -23,20 +23,20 @@ public class XmlSchemaSimpleContent : XmlSchemaContentModel
 	public override XmlSchemaContent Content
 	{
 		[Token(Token = "0x6001752")]
-		[Address(RVA = "0x47326C0", Offset = "0x47326C0", VA = "0x47326C0", Slot = "14")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "14")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001753")]
-		[Address(RVA = "0x47326D0", Offset = "0x47326D0", VA = "0x47326D0", Slot = "15")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "15")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001754")]
-	[Address(RVA = "0x47326E0", Offset = "0x47326E0", VA = "0x47326E0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public XmlSchemaSimpleContent()
 	{
 	}

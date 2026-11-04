@@ -20,22 +20,22 @@ internal sealed class FieldExpression : MemberExpression
 	[Token(Token = "0x170000C4")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x44BD070", Offset = "0x44BD070", VA = "0x44BD070", Slot = "5")]
+		[Token(Token = "0x600047B")]
+		[Address(RVA = "0x2439810", Offset = "0x2437E10", VA = "0x182439810", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x44BCF70", Offset = "0x44BCF70", VA = "0x44BCF70")]
+	[Token(Token = "0x6000479")]
+	[Address(RVA = "0x2439780", Offset = "0x2437D80", VA = "0x182439780")]
 	public FieldExpression(Expression expression, FieldInfo member)
 	{
 	}
 
-	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x44BD060", Offset = "0x44BD060", VA = "0x44BD060", Slot = "10")]
+	[Token(Token = "0x600047A")]
+	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "10")]
 	internal override MemberInfo GetMember()
 	{
 		return null;

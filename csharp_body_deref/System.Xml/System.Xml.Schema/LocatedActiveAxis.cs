@@ -28,7 +28,7 @@ internal class LocatedActiveAxis : ActiveAxis
 	internal int Column
 	{
 		[Token(Token = "0x6000F9F")]
-		[Address(RVA = "0x48438D0", Offset = "0x48438D0", VA = "0x48438D0")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		get
 		{
 			return default(int);
@@ -36,13 +36,13 @@ internal class LocatedActiveAxis : ActiveAxis
 	}
 
 	[Token(Token = "0x6000FA0")]
-	[Address(RVA = "0x48438E0", Offset = "0x48438E0", VA = "0x48438E0")]
+	[Address(RVA = "0x277FF80", Offset = "0x277E580", VA = "0x18277FF80")]
 	internal LocatedActiveAxis(Asttree astfield, KeySequence ks, int column)
 	{
 	}
 
 	[Token(Token = "0x6000FA1")]
-	[Address(RVA = "0x4843910", Offset = "0x4843910", VA = "0x4843910")]
+	[Address(RVA = "0x277FF60", Offset = "0x277E560", VA = "0x18277FF60")]
 	internal void Reactivate(KeySequence ks)
 	{
 	}

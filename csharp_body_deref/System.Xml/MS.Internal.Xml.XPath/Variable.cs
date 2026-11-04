@@ -25,7 +25,7 @@ internal class Variable : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001BEE")]
-		[Address(RVA = "0x4789740", Offset = "0x4789740", VA = "0x4789740", Slot = "4")]
+		[Address(RVA = "0x106DD80", Offset = "0x106C380", VA = "0x18106DD80", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -36,7 +36,7 @@ internal class Variable : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001BEF")]
-		[Address(RVA = "0x4789750", Offset = "0x4789750", VA = "0x4789750", Slot = "5")]
+		[Address(RVA = "0x8680A0", Offset = "0x8666A0", VA = "0x1808680A0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -47,7 +47,7 @@ internal class Variable : AstNode
 	public string Localname
 	{
 		[Token(Token = "0x6001BF0")]
-		[Address(RVA = "0x4789760", Offset = "0x4789760", VA = "0x4789760")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ internal class Variable : AstNode
 	public string Prefix
 	{
 		[Token(Token = "0x6001BF1")]
-		[Address(RVA = "0x4789770", Offset = "0x4789770", VA = "0x4789770")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ internal class Variable : AstNode
 	}
 
 	[Token(Token = "0x6001BED")]
-	[Address(RVA = "0x4789700", Offset = "0x4789700", VA = "0x4789700")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public Variable(string name, string prefix)
 	{
 	}

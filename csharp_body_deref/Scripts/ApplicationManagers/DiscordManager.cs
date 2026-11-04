@@ -12,99 +12,99 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000785")]
+[Token(Token = "0x2000910")]
 internal class DiscordManager : MonoBehaviour
 {
-	[Token(Token = "0x400243C")]
+	[Token(Token = "0x4002D0B")]
 	[FieldOffset(Offset = "0x0")]
 	private static DiscordManager _instance;
 
-	[Token(Token = "0x400243D")]
+	[Token(Token = "0x4002D0C")]
 	[FieldOffset(Offset = "0x8")]
 	public static global::Discord.Discord discord;
 
-	[Token(Token = "0x400243E")]
+	[Token(Token = "0x4002D0D")]
 	[FieldOffset(Offset = "0x10")]
 	private static long appID;
 
-	[Token(Token = "0x400243F")]
+	[Token(Token = "0x4002D0E")]
 	[FieldOffset(Offset = "0x18")]
 	private static bool instanceExists;
 
-	[Token(Token = "0x4002440")]
+	[Token(Token = "0x4002D0F")]
 	[FieldOffset(Offset = "0x20")]
 	private string largeImage;
 
-	[Token(Token = "0x4002441")]
+	[Token(Token = "0x4002D10")]
 	[FieldOffset(Offset = "0x20")]
 	private static long time;
 
-	[Token(Token = "0x4002442")]
+	[Token(Token = "0x4002D11")]
 	[FieldOffset(Offset = "0x28")]
 	private string roomName;
 
-	[Token(Token = "0x4002443")]
+	[Token(Token = "0x4002D12")]
 	[FieldOffset(Offset = "0x30")]
 	private int playerCount;
 
-	[Token(Token = "0x4002444")]
+	[Token(Token = "0x4002D13")]
 	[FieldOffset(Offset = "0x34")]
 	private int maxPlayerCount;
 
-	[Token(Token = "0x4002445")]
+	[Token(Token = "0x4002D14")]
 	[FieldOffset(Offset = "0x38")]
 	private RoomInfo roomInfo;
 
-	[Token(Token = "0x4002446")]
+	[Token(Token = "0x4002D15")]
 	[FieldOffset(Offset = "0x40")]
 	private Activity roomActivity;
 
-	[Token(Token = "0x4002447")]
+	[Token(Token = "0x4002D16")]
 	[FieldOffset(Offset = "0xD0")]
 	private Activity mainMenuActivity;
 
-	[Token(Token = "0x4002448")]
+	[Token(Token = "0x4002D17")]
 	[FieldOffset(Offset = "0x160")]
 	private string[] trackedProperties;
 
-	[Token(Token = "0x60048C7")]
-	[Address(RVA = "0x43B5570", Offset = "0x43B5570", VA = "0x43B5570")]
+	[Token(Token = "0x600553D")]
+	[Address(RVA = "0x234D9D0", Offset = "0x234BFD0", VA = "0x18234D9D0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60048C8")]
-	[Address(RVA = "0x43B58C0", Offset = "0x43B58C0", VA = "0x43B58C0")]
+	[Token(Token = "0x600553E")]
+	[Address(RVA = "0x234E720", Offset = "0x234CD20", VA = "0x18234E720")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60048C9")]
-	[Address(RVA = "0x43B59E0", Offset = "0x43B59E0", VA = "0x43B59E0")]
+	[Token(Token = "0x600553F")]
+	[Address(RVA = "0x234DC90", Offset = "0x234C290", VA = "0x18234DC90")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60048CA")]
-	[Address(RVA = "0x43B67B0", Offset = "0x43B67B0", VA = "0x43B67B0")]
+	[Token(Token = "0x6005540")]
+	[Address(RVA = "0x234DD30", Offset = "0x234C330", VA = "0x18234DD30")]
 	private void SetRoomActivity(string state, string details, string profileIcon, long startTime, int playerCount, int maxPlayers)
 	{
 	}
 
-	[Token(Token = "0x60048CB")]
-	[Address(RVA = "0x43B6840", Offset = "0x43B6840", VA = "0x43B6840")]
+	[Token(Token = "0x6005541")]
+	[Address(RVA = "0x234DCA0", Offset = "0x234C2A0", VA = "0x18234DCA0")]
 	private void SetMenuActivity(string state, string details, string profileIcon, long startTime)
 	{
 	}
 
-	[Token(Token = "0x60048CC")]
-	[Address(RVA = "0x43B59F0", Offset = "0x43B59F0", VA = "0x43B59F0")]
+	[Token(Token = "0x6005542")]
+	[Address(RVA = "0x234DDC0", Offset = "0x234C3C0", VA = "0x18234DDC0")]
 	private void UpdateStatus()
 	{
 	}
 
-	[Token(Token = "0x60048CD")]
-	[Address(RVA = "0x43B68C0", Offset = "0x43B68C0", VA = "0x43B68C0")]
+	[Token(Token = "0x6005543")]
+	[Address(RVA = "0x234E820", Offset = "0x234CE20", VA = "0x18234E820")]
 	public DiscordManager()
 	{
 	}

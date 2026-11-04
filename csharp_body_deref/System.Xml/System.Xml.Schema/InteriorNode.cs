@@ -24,13 +24,13 @@ internal abstract class InteriorNode : SyntaxTreeNode
 	public SyntaxTreeNode LeftChild
 	{
 		[Token(Token = "0x6000FE5")]
-		[Address(RVA = "0x4847800", Offset = "0x4847800", VA = "0x4847800")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FE6")]
-		[Address(RVA = "0x4847810", Offset = "0x4847810", VA = "0x4847810")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
@@ -40,32 +40,32 @@ internal abstract class InteriorNode : SyntaxTreeNode
 	public SyntaxTreeNode RightChild
 	{
 		[Token(Token = "0x6000FE7")]
-		[Address(RVA = "0x4847820", Offset = "0x4847820", VA = "0x4847820")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FE8")]
-		[Address(RVA = "0x4847830", Offset = "0x4847830", VA = "0x4847830")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x4847840", Offset = "0x4847840", VA = "0x4847840")]
+	[Address(RVA = "0x277E520", Offset = "0x277CB20", VA = "0x18277E520")]
 	protected void ExpandTreeNoRecursive(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x4847A90", Offset = "0x4847A90", VA = "0x4847A90", Slot = "4")]
+	[Address(RVA = "0x277E720", Offset = "0x277CD20", VA = "0x18277E720", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FEB")]
-	[Address(RVA = "0x4847AF0", Offset = "0x4847AF0", VA = "0x4847AF0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected InteriorNode()
 	{
 	}

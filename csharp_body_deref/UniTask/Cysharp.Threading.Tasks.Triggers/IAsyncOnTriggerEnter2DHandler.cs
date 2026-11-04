@@ -10,9 +10,9 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001F1")]
+[Token(Token = "0x20001F4")]
 public interface IAsyncOnTriggerEnter2DHandler
 {
-	[Token(Token = "0x6000BB2")]
+	[Token(Token = "0x6000BD6")]
 	UniTask<Collider2D> OnTriggerEnter2DAsync();
 }

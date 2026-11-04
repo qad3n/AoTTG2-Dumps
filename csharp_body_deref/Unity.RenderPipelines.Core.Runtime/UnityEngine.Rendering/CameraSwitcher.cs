@@ -9,83 +9,83 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000061")]
+[Token(Token = "0x200001B")]
 public class CameraSwitcher : MonoBehaviour
 {
-	[Token(Token = "0x4000189")]
+	[Token(Token = "0x4000087")]
 	[FieldOffset(Offset = "0x20")]
 	public Camera[] m_Cameras;
 
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x4000088")]
 	[FieldOffset(Offset = "0x28")]
 	private int m_CurrentCameraIndex;
 
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x4000089")]
 	[FieldOffset(Offset = "0x30")]
 	private Camera m_OriginalCamera;
 
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x400008A")]
 	[FieldOffset(Offset = "0x38")]
 	private Vector3 m_OriginalCameraPosition;
 
-	[Token(Token = "0x400018D")]
+	[Token(Token = "0x400008B")]
 	[FieldOffset(Offset = "0x44")]
 	private Quaternion m_OriginalCameraRotation;
 
-	[Token(Token = "0x400018E")]
+	[Token(Token = "0x400008C")]
 	[FieldOffset(Offset = "0x58")]
 	private Camera m_CurrentCamera;
 
-	[Token(Token = "0x400018F")]
+	[Token(Token = "0x400008D")]
 	[FieldOffset(Offset = "0x60")]
 	private GUIContent[] m_CameraNames;
 
-	[Token(Token = "0x4000190")]
+	[Token(Token = "0x400008E")]
 	[FieldOffset(Offset = "0x68")]
 	private int[] m_CameraIndices;
 
-	[Token(Token = "0x4000191")]
+	[Token(Token = "0x400008F")]
 	[FieldOffset(Offset = "0x70")]
 	private DebugUI.EnumField m_DebugEntry;
 
-	[Token(Token = "0x4000192")]
+	[Token(Token = "0x4000090")]
 	[FieldOffset(Offset = "0x78")]
 	private int m_DebugEntryEnumIndex;
 
-	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x4B947A0", Offset = "0x4B947A0", VA = "0x4B947A0")]
+	[Token(Token = "0x60000C9")]
+	[Address(RVA = "0x2ABA8F0", Offset = "0x2AB8EF0", VA = "0x182ABA8F0")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x4B95140", Offset = "0x4B95140", VA = "0x4B95140")]
+	[Token(Token = "0x60000CA")]
+	[Address(RVA = "0x2ABA860", Offset = "0x2AB8E60", VA = "0x182ABA860")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x4B94E70", Offset = "0x4B94E70", VA = "0x4B94E70")]
+	[Token(Token = "0x60000CB")]
+	[Address(RVA = "0x2ABA7F0", Offset = "0x2AB8DF0", VA = "0x182ABA7F0")]
 	private int GetCameraCount()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x4B951C0", Offset = "0x4B951C0", VA = "0x4B951C0")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x2ABA810", Offset = "0x2AB8E10", VA = "0x182ABA810")]
 	private Camera GetNextCamera()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x4B95200", Offset = "0x4B95200", VA = "0x4B95200")]
+	[Token(Token = "0x60000CD")]
+	[Address(RVA = "0x2ABAF40", Offset = "0x2AB9540", VA = "0x182ABAF40")]
 	private void SetCameraIndex(int index)
 	{
 	}
 
-	[Token(Token = "0x6000549")]
-	[Address(RVA = "0x4B95480", Offset = "0x4B95480", VA = "0x4B95480")]
+	[Token(Token = "0x60000CE")]
+	[Address(RVA = "0x229AFD0", Offset = "0x22995D0", VA = "0x18229AFD0")]
 	public CameraSwitcher()
 	{
 	}

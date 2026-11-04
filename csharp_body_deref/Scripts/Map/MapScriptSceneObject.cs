@@ -12,49 +12,49 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x200027C")]
+[Token(Token = "0x20003BC")]
 public class MapScriptSceneObject : MapScriptBaseObject
 {
-	[Token(Token = "0x4000D86")]
+	[Token(Token = "0x400138F")]
 	[FieldOffset(Offset = "0x60")]
 	[Order(19)]
 	public string CollideMode;
 
-	[Token(Token = "0x4000D87")]
+	[Token(Token = "0x4001390")]
 	[FieldOffset(Offset = "0x68")]
 	[Order(20)]
 	public string CollideWith;
 
-	[Token(Token = "0x4000D88")]
+	[Token(Token = "0x4001391")]
 	[FieldOffset(Offset = "0x70")]
 	[Order(21)]
 	public string PhysicsMaterial;
 
-	[Token(Token = "0x4000D89")]
+	[Token(Token = "0x4001392")]
 	[FieldOffset(Offset = "0x78")]
 	[Order(22)]
 	public MapScriptBaseMaterial Material;
 
-	[Token(Token = "0x4000D8A")]
+	[Token(Token = "0x4001393")]
 	[FieldOffset(Offset = "0x80")]
 	[Order(23)]
 	public List<MapScriptComponent> Components;
 
-	[Token(Token = "0x6000F4C")]
-	[Address(RVA = "0x3FB4A00", Offset = "0x3FB4A00", VA = "0x3FB4A00")]
+	[Token(Token = "0x600179F")]
+	[Address(RVA = "0x1EDA710", Offset = "0x1ED8D10", VA = "0x181EDA710")]
 	public MapScriptSceneObject()
 	{
 	}
 
-	[Token(Token = "0x6000F4D")]
-	[Address(RVA = "0x3FB5FC0", Offset = "0x3FB5FC0", VA = "0x3FB5FC0", Slot = "17")]
+	[Token(Token = "0x60017A0")]
+	[Address(RVA = "0x1EDA660", Offset = "0x1ED8C60", VA = "0x181EDA660", Slot = "17")]
 	protected override object DeserializeValue(Type t, string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F4E")]
-	[Address(RVA = "0x3FB6070", Offset = "0x3FB6070", VA = "0x3FB6070")]
+	[Token(Token = "0x60017A1")]
+	[Address(RVA = "0x1EDA360", Offset = "0x1ED8960", VA = "0x181EDA360")]
 	public static MapScriptBaseMaterial DeserializeMaterial(string value)
 	{
 		return null;

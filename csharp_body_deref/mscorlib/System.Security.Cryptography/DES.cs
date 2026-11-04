@@ -10,77 +10,77 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002D9")]
+[Token(Token = "0x2000308")]
 [ComVisible(true)]
 public abstract class DES : SymmetricAlgorithm
 {
-	[Token(Token = "0x4000CFC")]
+	[Token(Token = "0x4000D09")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static KeySizes[] s_legalBlockSizes;
 
-	[Token(Token = "0x4000CFD")]
+	[Token(Token = "0x4000D0A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static KeySizes[] s_legalKeySizes;
 
-	[Token(Token = "0x170002A3")]
+	[Token(Token = "0x170002A5")]
 	public override byte[] Key
 	{
-		[Token(Token = "0x60018E3")]
-		[Address(RVA = "0x3B2E470", Offset = "0x3B2E470", VA = "0x3B2E470", Slot = "12")]
+		[Token(Token = "0x600194B")]
+		[Address(RVA = "0x19A4AB0", Offset = "0x19A30B0", VA = "0x1819A4AB0", Slot = "12")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60018E4")]
-		[Address(RVA = "0x3B2E930", Offset = "0x3B2E930", VA = "0x3B2E930", Slot = "13")]
+		[Token(Token = "0x600194C")]
+		[Address(RVA = "0x19A4BA0", Offset = "0x19A31A0", VA = "0x1819A4BA0", Slot = "13")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60018E2")]
-	[Address(RVA = "0x3B2E3D0", Offset = "0x3B2E3D0", VA = "0x3B2E3D0")]
+	[Token(Token = "0x600194A")]
+	[Address(RVA = "0x19A4A10", Offset = "0x19A3010", VA = "0x1819A4A10")]
 	protected DES()
 	{
 	}
 
-	[Token(Token = "0x60018E5")]
-	[Address(RVA = "0x3B2EB40", Offset = "0x3B2EB40", VA = "0x3B2EB40")]
+	[Token(Token = "0x600194D")]
+	[Address(RVA = "0x19A4330", Offset = "0x19A2930", VA = "0x1819A4330")]
 	public new static DES Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018E6")]
-	[Address(RVA = "0x3B2ED10", Offset = "0x3B2ED10", VA = "0x3B2ED10")]
+	[Token(Token = "0x600194E")]
+	[Address(RVA = "0x19A4290", Offset = "0x19A2890", VA = "0x1819A4290")]
 	public new static DES Create(string algName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018E7")]
-	[Address(RVA = "0x3B2E590", Offset = "0x3B2E590", VA = "0x3B2E590")]
+	[Token(Token = "0x600194F")]
+	[Address(RVA = "0x19A46B0", Offset = "0x19A2CB0", VA = "0x1819A46B0")]
 	public static bool IsWeakKey(byte[] rgbKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018E8")]
-	[Address(RVA = "0x3B2E700", Offset = "0x3B2E700", VA = "0x3B2E700")]
+	[Token(Token = "0x6001950")]
+	[Address(RVA = "0x19A44E0", Offset = "0x19A2AE0", VA = "0x1819A44E0")]
 	public static bool IsSemiWeakKey(byte[] rgbKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018E9")]
-	[Address(RVA = "0x3B2EDA0", Offset = "0x3B2EDA0", VA = "0x3B2EDA0")]
+	[Token(Token = "0x6001951")]
+	[Address(RVA = "0x19A44D0", Offset = "0x19A2AD0", VA = "0x1819A44D0")]
 	private static bool IsLegalKeySize(byte[] rgbKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018EA")]
-	[Address(RVA = "0x3B2EDB0", Offset = "0x3B2EDB0", VA = "0x3B2EDB0")]
+	[Token(Token = "0x6001952")]
+	[Address(RVA = "0x19A4800", Offset = "0x19A2E00", VA = "0x1819A4800")]
 	private static ulong QuadWordFromBigEndian(byte[] block)
 	{
 		return default(ulong);

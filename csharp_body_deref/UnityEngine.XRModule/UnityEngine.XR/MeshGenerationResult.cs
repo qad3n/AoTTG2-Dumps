@@ -14,22 +14,22 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200001C")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Meshing/XRMeshBindings.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 {
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x400007A")]
 	[FieldOffset(Offset = "0x28")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly ulong _003CTimestamp_003Ek__BackingField;
 
-	[Token(Token = "0x17000014")]
+	[Token(Token = "0x17000016")]
 	public readonly MeshId MeshId
 	{
-		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x510D6E0", Offset = "0x510D6E0", VA = "0x510D6E0")]
+		[Token(Token = "0x6000064")]
+		[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,11 +37,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x17000015")]
+	[Token(Token = "0x17000017")]
 	public readonly Mesh Mesh
 	{
-		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x510D6F0", Offset = "0x510D6F0", VA = "0x510D6F0")]
+		[Token(Token = "0x6000065")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,11 +49,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x17000016")]
+	[Token(Token = "0x17000018")]
 	public readonly MeshCollider MeshCollider
 	{
-		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x510D700", Offset = "0x510D700", VA = "0x510D700")]
+		[Token(Token = "0x6000066")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -61,11 +61,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x17000017")]
+	[Token(Token = "0x17000019")]
 	public readonly MeshGenerationStatus Status
 	{
-		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x510D710", Offset = "0x510D710", VA = "0x510D710")]
+		[Token(Token = "0x6000067")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,11 +73,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x17000018")]
+	[Token(Token = "0x1700001A")]
 	public readonly MeshVertexAttributes Attributes
 	{
-		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x510D720", Offset = "0x510D720", VA = "0x510D720")]
+		[Token(Token = "0x6000068")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		[CompilerGenerated]
 		get
 		{
@@ -85,11 +85,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x1700001B")]
 	public readonly Vector3 Position
 	{
-		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x510D730", Offset = "0x510D730", VA = "0x510D730")]
+		[Token(Token = "0x6000069")]
+		[Address(RVA = "0x2AC3A10", Offset = "0x2AC2010", VA = "0x182AC3A10")]
 		[CompilerGenerated]
 		get
 		{
@@ -97,11 +97,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x1700001C")]
 	public readonly Quaternion Rotation
 	{
-		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x510D740", Offset = "0x510D740", VA = "0x510D740")]
+		[Token(Token = "0x600006A")]
+		[Address(RVA = "0x20CA6D0", Offset = "0x20C8CD0", VA = "0x1820CA6D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -109,11 +109,11 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x1700001B")]
+	[Token(Token = "0x1700001D")]
 	public readonly Vector3 Scale
 	{
-		[Token(Token = "0x600004F")]
-		[Address(RVA = "0x510D750", Offset = "0x510D750", VA = "0x510D750")]
+		[Token(Token = "0x600006B")]
+		[Address(RVA = "0x3313BD0", Offset = "0x33121D0", VA = "0x183313BD0")]
 		[CompilerGenerated]
 		get
 		{
@@ -121,22 +121,22 @@ public struct MeshGenerationResult : IEquatable<MeshGenerationResult>
 		}
 	}
 
-	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x510D760", Offset = "0x510D760", VA = "0x510D760", Slot = "0")]
+	[Token(Token = "0x600006C")]
+	[Address(RVA = "0x33136A0", Offset = "0x3311CA0", VA = "0x1833136A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x510D800", Offset = "0x510D800", VA = "0x510D800", Slot = "4")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x3313780", Offset = "0x3311D80", VA = "0x183313780", Slot = "4")]
 	public bool Equals(MeshGenerationResult other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x510DA30", Offset = "0x510DA30", VA = "0x510DA30", Slot = "2")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x3313960", Offset = "0x3311F60", VA = "0x183313960", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

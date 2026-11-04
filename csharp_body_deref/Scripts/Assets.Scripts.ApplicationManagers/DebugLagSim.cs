@@ -11,39 +11,39 @@ using UnityEngine;
 
 namespace Assets.Scripts.ApplicationManagers;
 
-[Token(Token = "0x2000719")]
+[Token(Token = "0x200089E")]
 public class DebugLagSim : MonoBehaviour
 {
-	[Token(Token = "0x4002236")]
+	[Token(Token = "0x4002AF5")]
 	[FieldOffset(Offset = "0x0")]
 	private static DebugLagSim _instance;
 
-	[Token(Token = "0x4002237")]
+	[Token(Token = "0x4002AF6")]
 	[FieldOffset(Offset = "0x8")]
 	public static bool Enabled;
 
-	[Token(Token = "0x4002238")]
+	[Token(Token = "0x4002AF7")]
 	[FieldOffset(Offset = "0x20")]
 	public PhotonLagSimulationGui LagSimGui;
 
-	[Token(Token = "0x4002239")]
+	[Token(Token = "0x4002AF8")]
 	[FieldOffset(Offset = "0x28")]
 	public PhotonStatsGui StatsGUI;
 
-	[Token(Token = "0x6004617")]
-	[Address(RVA = "0x4381C80", Offset = "0x4381C80", VA = "0x4381C80")]
+	[Token(Token = "0x6005273")]
+	[Address(RVA = "0x2335290", Offset = "0x2333890", VA = "0x182335290")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004618")]
-	[Address(RVA = "0x4381E00", Offset = "0x4381E00", VA = "0x4381E00")]
+	[Token(Token = "0x6005274")]
+	[Address(RVA = "0x2335420", Offset = "0x2333A20", VA = "0x182335420")]
 	public static void Toggle()
 	{
 	}
 
-	[Token(Token = "0x6004619")]
-	[Address(RVA = "0x4381E80", Offset = "0x4381E80", VA = "0x4381E80")]
+	[Token(Token = "0x6005275")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DebugLagSim()
 	{
 	}

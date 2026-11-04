@@ -29,7 +29,7 @@ public class XmlNodeEventArgs : EventArgs
 	private int linePosition;
 
 	[Token(Token = "0x6000CBE")]
-	[Address(RVA = "0x4809790", Offset = "0x4809790", VA = "0x4809790")]
+	[Address(RVA = "0x27576C0", Offset = "0x2755CC0", VA = "0x1827576C0")]
 	internal XmlNodeEventArgs(XmlNode xmlNode, int lineNumber, int linePosition, object o)
 	{
 	}

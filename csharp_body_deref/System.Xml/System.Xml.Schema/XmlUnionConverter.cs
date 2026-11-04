@@ -25,20 +25,20 @@ internal class XmlUnionConverter : XmlBaseConverter
 	private bool hasListMember;
 
 	[Token(Token = "0x6001956")]
-	[Address(RVA = "0x475CC70", Offset = "0x475CC70", VA = "0x475CC70")]
+	[Address(RVA = "0x269F760", Offset = "0x269DD60", VA = "0x18269F760")]
 	protected XmlUnionConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x6001957")]
-	[Address(RVA = "0x475CF00", Offset = "0x475CF00", VA = "0x475CF00")]
+	[Address(RVA = "0x269F700", Offset = "0x269DD00", VA = "0x18269F700")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001958")]
-	[Address(RVA = "0x475CF50", Offset = "0x475CF50", VA = "0x475CF50", Slot = "61")]
+	[Address(RVA = "0x269F250", Offset = "0x269D850", VA = "0x18269F250", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000073")]
+[Token(Token = "0x200008E")]
 public enum WrapMode
 {
-	[Token(Token = "0x40000F8")]
+	[Token(Token = "0x400013E")]
 	Once = 1,
-	[Token(Token = "0x40000F9")]
+	[Token(Token = "0x400013F")]
 	Loop = 2,
-	[Token(Token = "0x40000FA")]
+	[Token(Token = "0x4000140")]
 	PingPong = 4,
-	[Token(Token = "0x40000FB")]
+	[Token(Token = "0x4000141")]
 	Default = 0,
-	[Token(Token = "0x40000FC")]
+	[Token(Token = "0x4000142")]
 	ClampForever = 8,
-	[Token(Token = "0x40000FD")]
-	Clamp = 1
+	[Token(Token = "0x4000143")]
+	Clamp = Once
 }

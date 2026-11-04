@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Security.AccessControl;
 
-[Token(Token = "0x2000333")]
+[Token(Token = "0x2000362")]
 public abstract class CommonObjectSecurity : ObjectSecurity
 {
 }

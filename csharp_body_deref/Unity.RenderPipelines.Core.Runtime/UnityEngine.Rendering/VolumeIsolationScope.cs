@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001DE")]
-[Obsolete("VolumeIsolationScope is deprecated, it does not have any effect anymore.")]
+[Token(Token = "0x20001FA")]
+[Obsolete("VolumeIsolationScope is deprecated, it does not have any effect anymore. #from(2021.1)")]
 public struct VolumeIsolationScope : IDisposable
 {
-	[Token(Token = "0x6000D9B")]
-	[Address(RVA = "0x4C0ACB0", Offset = "0x4C0ACB0", VA = "0x4C0ACB0")]
+	[Token(Token = "0x6000EF8")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public VolumeIsolationScope(bool unused)
 	{
 	}
 
-	[Token(Token = "0x6000D9C")]
-	[Address(RVA = "0x4C0ACC0", Offset = "0x4C0ACC0", VA = "0x4C0ACC0", Slot = "4")]
+	[Token(Token = "0x6000EF9")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}

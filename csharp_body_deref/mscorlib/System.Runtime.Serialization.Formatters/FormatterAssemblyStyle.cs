@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters;
 
-[Token(Token = "0x20003F4")]
+[Token(Token = "0x2000423")]
 public enum FormatterAssemblyStyle
 {
-	[Token(Token = "0x400103D")]
+	[Token(Token = "0x400103F")]
 	Simple,
-	[Token(Token = "0x400103E")]
+	[Token(Token = "0x4001040")]
 	Full
 }

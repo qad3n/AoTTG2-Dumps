@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000AC")]
+[Token(Token = "0x20000AE")]
 public interface IDeselectHandler : IEventSystemHandler
 {
-	[Token(Token = "0x600064A")]
+	[Token(Token = "0x6000691")]
 	void OnDeselect(BaseEventData eventData);
 }

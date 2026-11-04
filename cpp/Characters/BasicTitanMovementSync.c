@@ -1,5 +1,5 @@
 // Type: Characters.BasicTitanMovementSync
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/BasicTitanMovementSync.cs
@@ -8,300 +8,114 @@
 
 // Characters.BasicTitanMovementSync$$Awake
 // il2cpp: void Characters_BasicTitanMovementSync__Awake (Characters_BasicTitanMovementSync_o* __this, const MethodInfo* method);
-// 0x431ea60
+// 0x18219df10
 
 void Characters_BasicTitanMovementSync__Awake(Characters_BasicTitanMovementSync_o *__this,MethodInfo *method)
 
 {
-  Characters_BasicTitan_o *pCVar1;
+  Characters_BasicTitan_o *value;
   
-  if (g_data_057adfec == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BasicTitan_GetComponent_BasicTitan);
-    g_data_057adfec = '\x01';
+  if (Il2CppMethodInitialized_184346e35 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BasicTitan);
+    Il2CppMethodInitialized_184346e35 = '\x01';
   }
   Characters_BaseMovementSync__Awake((Characters_BaseMovementSync_o *)__this,(MethodInfo *)0x0);
-  pCVar1 = (Characters_BasicTitan_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_BasicTitan_GetComponent_BasicTitan);
-  (__this->fields)._titan = pCVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._titan,pCVar1);
+  value = UnityEngine_Component__GetComponent_object_
+                    ((UnityEngine_Component_o *)__this,
+                     (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BasicTitan);
+  (__this->fields)._titan = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._titan,value);
   return;
 }
 
 
 // Characters.BasicTitanMovementSync$$SendCustomStream
 // il2cpp: void Characters_BasicTitanMovementSync__SendCustomStream (Characters_BasicTitanMovementSync_o* __this, Photon_Pun_PhotonStream_o* stream, const MethodInfo* method);
-// 0x431eac0
+// 0x18219e2e0
 
 void Characters_BasicTitanMovementSync__SendCustomStream
                (Characters_BasicTitanMovementSync_o *__this,Photon_Pun_PhotonStream_o *stream,
                MethodInfo *method)
 
 {
-  Characters_BasicTitan_o *pCVar1;
-  undefined8 uVar2;
-  System_Nullable_Quaternion__o __this_00;
-  System_Nullable_Quaternion__o __this_01;
-  uint uVar3;
-  Photon_Pun_PhotonStream_o *obj;
+  System_Nullable_Quaternion__o *pSVar1;
+  Characters_BasicTitan_o *pCVar2;
+  System_Nullable_Quaternion__o *pSVar3;
   Il2CppObject *pIVar4;
-  float *pfVar5;
-  undefined1 *puVar6;
-  Characters_BaseMovementSync_o *__this_02;
-  uint uVar7;
-  Photon_Pun_PhotonStream_o *__this_03;
-  Characters_BasicTitanMovementSync_o *pCVar8;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  float fVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  UnityEngine_Quaternion_o value;
-  char *in_stack_ffffffffffffff10;
-  undefined8 in_stack_ffffffffffffff18;
-  float in_stack_ffffffffffffff20;
-  Il2CppMethodPointer local_d0;
-  Il2CppMethodPointer pIStack_c8;
-  float local_c0;
-  char *local_b8;
-  undefined8 local_b0;
-  undefined8 uStack_a8;
-  undefined8 local_a0;
-  undefined8 uStack_98;
-  Characters_BasicTitanMovementSync_o *local_88;
-  undefined1 in_stack_ffffffffffffffa8 [11];
-  undefined1 in_stack_ffffffffffffffb3;
-  undefined4 in_stack_ffffffffffffffb4;
-  UnityEngine_Quaternion_Fields local_28;
+  undefined4 local_res8 [2];
+  int32_t local_res20 [2];
+  UnityEngine_Vector4_o local_38;
+  System_Nullable_Vector4__Fields local_28;
   
-  __this_03 = stream;
-  pCVar8 = __this;
-  if (g_data_057adfed == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Quaternion_get_Value);
-    pCVar8 = (Characters_BasicTitanMovementSync_o *)&TypeInfo_QuaternionCompression;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adfed = '\x01';
+  if (Il2CppMethodInitialized_184346e36 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Quaternion_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Quaternion_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_QuaternionCompression);
+    Il2CppMethodInitialized_184346e36 = '\x01';
   }
-  local_28 = (UnityEngine_Quaternion_Fields)ZEXT816(0);
-  pCVar1 = (__this->fields)._titan;
-  if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
-    if ((char)(pCVar1->fields).CustomDamage == '\0') {
-      uVar2 = *(undefined8 *)&(pCVar1->fields).IsCrawler;
-      if ((char)uVar2 == '\0') {
-        if (stream != (Photon_Pun_PhotonStream_o *)0x0) {
-          pIVar4 = (Il2CppObject *)0x0;
-          goto label_0431ec0e;
-        }
-      }
-      else {
-        __this_01.fields.value.fields.y._3_1_ = in_stack_ffffffffffffffb3;
-        __this_01.fields._0_11_ = in_stack_ffffffffffffffa8;
-        __this_01.fields.value.fields.z = (float)in_stack_ffffffffffffffb4;
-        __this_01.fields.value.fields.w = (float)uVar2;
-        local_28 = (UnityEngine_Quaternion_Fields)
-                   System_Nullable_Quaternion___get_Value
-                             (__this_01,(MethodInfo_37E8CF0 *)&stack0xffffffffffffffb8);
-        if (*(int *)(TypeInfo_QuaternionCompression + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        il2cpp_runtime_helper_04266c00(&stack0xffffffffffffffd8,0);
-        __this_03 = (Photon_Pun_PhotonStream_o *)&stack0xffffffffffffffb4;
-        pCVar8 = g_data_057b9bb8;
-        pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_02304f30();
-        if (stream != (Photon_Pun_PhotonStream_o *)0x0) {
-label_0431ec0e:
+  pCVar2 = (__this->fields)._titan;
+  local_28.value.fields.w = 0.0;
+  local_28.hasValue = false;
+  local_28._1_3_ = 0;
+  local_28.value.fields.x = 0.0;
+  local_28.value.fields.y = 0.0;
+  local_28.value.fields.z = 0.0;
+  if (pCVar2 != (Characters_BasicTitan_o *)0x0) {
+    if ((pCVar2->fields).AI != false) {
+      local_res20[0] = (pCVar2->fields).TargetViewId;
+      pIVar4 = il2cpp_value_box(g_data_184354e08,local_res20);
+      if (stream != (Photon_Pun_PhotonStream_o *)0x0) {
+        Photon_Pun_PhotonStream__SendNext(stream,pIVar4,(MethodInfo *)0x0);
+        pCVar2 = (__this->fields)._titan;
+        if (pCVar2 != (Characters_BasicTitan_o *)0x0) {
+          local_res8[0] = CONCAT31(local_res8[0]._1_3_,(pCVar2->fields).LookAtTarget);
+          pIVar4 = il2cpp_value_box(g_data_184354de8,local_res8);
           Photon_Pun_PhotonStream__SendNext(stream,pIVar4,(MethodInfo *)0x0);
           return;
         }
       }
+      ThrowNullReferenceException();
     }
-    else {
-      __this_03 = (Photon_Pun_PhotonStream_o *)&stack0xffffffffffffffb4;
-      pCVar8 = g_data_057b9bb8;
-      obj = (Photon_Pun_PhotonStream_o *)il2cpp_runtime_helper_02304f30();
-      if ((stream != (Photon_Pun_PhotonStream_o *)0x0) &&
-         (pCVar8 = (Characters_BasicTitanMovementSync_o *)stream,
-         Photon_Pun_PhotonStream__SendNext(stream,(Il2CppObject *)obj,(MethodInfo *)0x0), __this_03 = obj,
-         (__this->fields)._titan != (Characters_BasicTitan_o *)0x0)) {
-        pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,&stack0xffffffffffffffb3);
-        goto label_0431ec0e;
+    pSVar1 = &(pCVar2->fields).LateUpdateHeadRotation;
+    local_28.hasValue = (pSVar1->fields).hasValue;
+    local_28._1_3_ = *(undefined3 *)&(pSVar1->fields).field_0x1;
+    local_28.value.fields.x = (pSVar1->fields).value.fields.x;
+    pSVar3 = &(pCVar2->fields).LateUpdateHeadRotation;
+    local_28.value.fields.y = (pSVar3->fields).value.fields.y;
+    local_28.value.fields.z = (pSVar3->fields).value.fields.z;
+    local_28.value.fields.w = (pCVar2->fields).LateUpdateHeadRotation.fields.value.fields.w;
+    if ((pSVar1->fields).hasValue != false) {
+      System_Nullable_Vector4___get_Value
+                (&local_38,(System_Nullable_Vector4__o *)&local_28,
+                 (MethodInfo_AE2AC0 *)MethodInfo_System_Nullable_Quaternion_get_Value);
+      if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
       }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  local_88 = __this;
-  if (g_data_057adfee == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Nullable_1_UnityEngine_Quaternion);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    in_stack_ffffffffffffff18 = 0x431ec8c;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_QuaternionCompression);
-    g_data_057adfee = '\x01';
-  }
-  local_b8 = (char *)0x0;
-  pCVar1 = (pCVar8->fields)._titan;
-  if (pCVar1 == (Characters_BasicTitan_o *)0x0) {
-label_0431f08d:
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if ((char)(pCVar1->fields).CustomDamage == '\0') {
-      if (__this_03 == (Photon_Pun_PhotonStream_o *)0x0) goto label_0431f08d;
-      __this_02 = (Characters_BaseMovementSync_o *)
-                  Photon_Pun_PhotonStream__ReceiveNext(__this_03,(MethodInfo *)0x0);
-      if ((__this_02 != (Characters_BaseMovementSync_o *)0x0) &&
-         ((Il2CppClass *)__this_02->klass != *(Il2CppClass **)(TypeInfo_int + 0x40))) goto label_0431f09a;
-      il2cpp_runtime_helper_02305450(__this_02,TypeInfo_int,&stack0xffffffffffffff10);
-      local_b8 = in_stack_ffffffffffffff10;
-      if ((char)in_stack_ffffffffffffff10 == '\0') {
-        pCVar1 = (pCVar8->fields)._titan;
-        if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
-          *(undefined8 *)((long)&(pCVar1->fields).Setup + 4) = 0;
-          (pCVar1->fields)._oldHeadRotation.fields.y = 0.0;
-          (pCVar1->fields)._oldHeadRotation.fields.z = 0.0;
-          (pCVar1->fields)._oldHeadRotation.fields.w = 0.0;
-          return;
-        }
-        goto label_0431f08d;
-      }
-      if (g_data_057a6843 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-        g_data_057a6843 = '\x01';
-      }
-      local_a0 = (Il2CppType **)**(undefined8 **)(TypeInfo_Quaternion + 0xb8);
-      uStack_98 = (Il2CppRGCTXData *)0x0;
-      local_b0 = (System_Nullable_T__c *)(*(undefined8 **)(TypeInfo_Quaternion + 0xb8))[1];
-      uStack_a8 = (Il2CppType *)0x0;
-      uVar3 = System_Nullable_int___get_Value((System_Nullable_int__o)&local_b8,MethodInfo_Int32_get_Value);
-      if (*(int *)(TypeInfo_QuaternionCompression + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        if (uVar3 >> 0x1e == 3) goto label_0431ee10;
-label_0431ee57:
-        fVar10 = (float)(uVar3 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar3 & 0x200) == 0) * 4);
-        fVar9 = fVar10 * fVar10 + 0.0;
-        uVar7 = uVar3 >> 10;
-        fVar14 = (float)local_b0;
-        uVar12 = (undefined4)uStack_a8;
-        uVar13 = uStack_a8._4_4_;
-        if (uVar3 >> 0x1e != 2) goto label_0431eeb2;
-label_0431ef02:
-        fVar15 = (float)(uVar7 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar7 & 0x200) == 0) * 4);
-        fVar9 = fVar15 * fVar15 + fVar9;
-        if (uVar3 >> 0x1e != 0) {
-          uVar7 = uVar7 >> 10;
-          goto label_0431ef5d;
-        }
-        fVar9 = 1.0 - fVar9;
-        if (fVar9 < 0.0) {
-          local_b0 = (System_Nullable_T__c *)CONCAT44(fVar10,fVar14);
-          uStack_a8 = (Il2CppType *)CONCAT44(uVar13,uVar12);
-          local_a0 = (Il2CppType **)CONCAT44(fVar15,(undefined4)local_a0);
-          fVar17 = sqrtf(fVar9);
-          fVar11 = (float)local_b0;
-          fVar10 = local_b0._4_4_;
-          fVar16 = local_a0._4_4_;
-        }
-        else {
-          fVar17 = SQRT(fVar9);
-          fVar11 = fVar14;
-          fVar16 = fVar15;
-        }
-      }
-      else {
-        if (uVar3 >> 0x1e != 3) goto label_0431ee57;
-label_0431ee10:
-        fVar9 = 0.0;
-        fVar10 = local_b0._4_4_;
-        uVar7 = uVar3;
-label_0431eeb2:
-        fVar14 = (float)(uVar7 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar7 & 0x200) == 0) * 4);
-        fVar9 = fVar14 * fVar14 + fVar9;
-        uVar7 = uVar7 >> 10;
-        uVar12 = (undefined4)uStack_a8;
-        uVar13 = uStack_a8._4_4_;
-        if (uVar3 >> 0x1e != 1) goto label_0431ef02;
-        fVar15 = local_a0._4_4_;
-label_0431ef5d:
-        fVar17 = (float)(uVar7 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar7 & 0x200) == 0) * 4);
-        fVar9 = 1.0 - (fVar17 * fVar17 + fVar9);
-        if (fVar9 < 0.0) {
-          local_b0 = (System_Nullable_T__c *)CONCAT44(fVar10,fVar14);
-          uStack_a8 = (Il2CppType *)CONCAT44(uVar13,uVar12);
-          local_a0 = (Il2CppType **)CONCAT44(fVar15,(undefined4)local_a0);
-          fVar9 = sqrtf(fVar9);
-          fVar15 = local_a0._4_4_;
-          fVar14 = (float)local_b0;
-          fVar10 = local_b0._4_4_;
-          in_stack_ffffffffffffff20 = fVar17;
-        }
-        else {
-          fVar9 = SQRT(fVar9);
-        }
-        fVar11 = fVar14;
-        fVar16 = fVar9;
-        if ((uVar3 >> 0x1e != 1) && (fVar11 = fVar9, fVar16 = fVar15, uVar3 >> 0x1e != 2)) {
-          fVar11 = fVar14;
-          fVar10 = fVar9;
-        }
-      }
-      pCVar1 = (pCVar8->fields)._titan;
-      local_d0 = (Il2CppMethodPointer)0x0;
-      pIStack_c8 = (Il2CppMethodPointer)0x0;
-      local_c0 = 0.0;
-      __this_00.fields.value.fields.y = (float)(int)in_stack_ffffffffffffff18;
-      __this_00.fields.value.fields.z = (float)(int)((ulong)in_stack_ffffffffffffff18 >> 0x20);
-      __this_00.fields._0_8_ = in_stack_ffffffffffffff10;
-      __this_00.fields.value.fields.w = in_stack_ffffffffffffff20;
-      value.fields.y = fVar16;
-      value.fields.x = fVar17;
-      value.fields.w = fVar10;
-      value.fields.z = fVar11;
-      System_Nullable_Quaternion____ctor(__this_00,value,(MethodInfo_37E8CD0 *)&local_d0);
-      if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
-        (pCVar1->fields)._oldHeadRotation.fields.w = local_c0;
-        *(Il2CppMethodPointer *)((long)&(pCVar1->fields).Setup + 4) = local_d0;
-        *(Il2CppMethodPointer *)&(pCVar1->fields)._oldHeadRotation.fields.y = pIStack_c8;
+      local_res8[0] = il2cpp_runtime_helper_18208d050(&local_38,0);
+      pIVar4 = il2cpp_value_box(g_data_184354e08,local_res8);
+      if (stream != (Photon_Pun_PhotonStream_o *)0x0) {
+        Photon_Pun_PhotonStream__SendNext(stream,pIVar4,(MethodInfo *)0x0);
         return;
       }
-      goto label_0431f08d;
+      ThrowNullReferenceException();
     }
-    if ((__this_03 == (Photon_Pun_PhotonStream_o *)0x0) ||
-       (pIVar4 = Photon_Pun_PhotonStream__ReceiveNext(__this_03,(MethodInfo *)0x0),
-       pIVar4 == (Il2CppObject *)0x0)) goto label_0431f08d;
-    if ((pIVar4->klass->_1).element_class ==
-        *(Il2CppClass **)&(g_data_057b9bb8->fields)._correctRotation.fields.z) {
-      pfVar5 = (float *)il2cpp_runtime_helper_02305440(pIVar4);
-      (pCVar1->fields).LastGoodHeadAngle.fields.y = *pfVar5;
-      pCVar1 = (pCVar8->fields)._titan;
-      pIVar4 = Photon_Pun_PhotonStream__ReceiveNext(__this_03,(MethodInfo *)0x0);
-      if ((pCVar1 == (Characters_BasicTitan_o *)0x0) || (pIVar4 == (Il2CppObject *)0x0)) goto label_0431f08d;
-      if ((pIVar4->klass->_1).element_class == *(Il2CppClass **)(g_data_057b9b98 + 0x40)) {
-        puVar6 = (undefined1 *)il2cpp_runtime_helper_02305440(pIVar4);
-        *(undefined1 *)&(pCVar1->fields).BellyFlopTime = *puVar6;
-        return;
-      }
+    if (stream != (Photon_Pun_PhotonStream_o *)0x0) {
+      Photon_Pun_PhotonStream__SendNext(stream,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      return;
     }
   }
-  __this_02 = (Characters_BaseMovementSync_o *)il2cpp_runtime_helper_022b2fd0(pIVar4);
-label_0431f09a:
-  il2cpp_runtime_helper_022b2fd0();
-  Characters_BaseMovementSync___ctor(__this_02,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanMovementSync$$ReceiveCustomStream
 // il2cpp: void Characters_BasicTitanMovementSync__ReceiveCustomStream (Characters_BasicTitanMovementSync_o* __this, Photon_Pun_PhotonStream_o* stream, const MethodInfo* method);
-// 0x431ec30
+// 0x18219df70
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18219e2a0: call 0x180416360  ; il2cpp_object_unbox()
+// asm:   0x18219e2a5: movzx ecx, byte ptr [rax]
+// asm:   0x18219e2a8: mov byte ptr [rdi + 0x370], cl
+// asm:   0x18219e2ae: jmp 0x18219e094
 
 void Characters_BasicTitanMovementSync__ReceiveCustomStream
                (Characters_BasicTitanMovementSync_o *__this,Photon_Pun_PhotonStream_o *stream,
@@ -309,202 +123,153 @@ void Characters_BasicTitanMovementSync__ReceiveCustomStream
 
 {
   Characters_BasicTitan_o *pCVar1;
-  System_Nullable_Quaternion__o __this_00;
-  uint uVar2;
-  Il2CppObject *pIVar3;
-  float *pfVar4;
-  undefined1 *puVar5;
-  Characters_BaseMovementSync_o *__this_01;
-  uint uVar6;
-  float fVar7;
-  float fVar8;
+  Il2CppClass *pIVar2;
+  UnityEngine_Quaternion_StaticFields *pUVar3;
+  System_Nullable_Quaternion__o *pSVar4;
+  uint32_t uVar5;
+  Il2CppObject *pIVar6;
+  int32_t *piVar7;
+  undefined1 *puVar8;
+  uint index;
+  uint index_00;
   float fVar9;
-  undefined4 uVar10;
-  undefined4 uVar11;
-  float fVar12;
-  float fVar13;
-  float fVar14;
-  float fVar15;
-  UnityEngine_Quaternion_o value;
-  char *in_stack_ffffffffffffff68;
-  undefined8 in_stack_ffffffffffffff70;
-  float in_stack_ffffffffffffff78;
-  Il2CppMethodPointer pIStack_78;
-  Il2CppMethodPointer pIStack_70;
-  float fStack_68;
-  char *pcStack_60;
-  undefined8 uStack_58;
-  undefined8 uStack_50;
-  undefined8 uStack_48;
-  undefined8 uStack_40;
+  float fVar10;
+  float fVar11;
+  System_Nullable_uint__Fields local_res8;
+  System_Nullable_uint__Fields local_a8;
+  UnityEngine_Quaternion_Fields local_98;
+  System_Nullable_Vector4__Fields local_88 [5];
   
-  if (g_data_057adfee == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Nullable_1_UnityEngine_Quaternion);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    in_stack_ffffffffffffff70 = 0x431ec8c;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_QuaternionCompression);
-    g_data_057adfee = '\x01';
+  if (Il2CppMethodInitialized_184346e37 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_Quaternion_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_int_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Nullable_int);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_QuaternionCompression);
+    Il2CppMethodInitialized_184346e37 = '\x01';
   }
-  pcStack_60 = (char *)0x0;
   pCVar1 = (__this->fields)._titan;
-  if (pCVar1 == (Characters_BasicTitan_o *)0x0) {
-label_0431f08d:
-    pIVar3 = (Il2CppObject *)il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if ((char)(pCVar1->fields).CustomDamage == '\0') {
-      if (stream == (Photon_Pun_PhotonStream_o *)0x0) goto label_0431f08d;
-      __this_01 = (Characters_BaseMovementSync_o *)
-                  Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-      if ((__this_01 != (Characters_BaseMovementSync_o *)0x0) &&
-         ((Il2CppClass *)__this_01->klass != *(Il2CppClass **)(TypeInfo_int + 0x40))) goto label_0431f09a;
-      il2cpp_runtime_helper_02305450(__this_01,TypeInfo_int,&stack0xffffffffffffff68);
-      pcStack_60 = in_stack_ffffffffffffff68;
-      if ((char)in_stack_ffffffffffffff68 == '\0') {
+  local_res8.hasValue = false;
+  local_res8._1_3_ = 0;
+  local_res8.value = 0;
+  if ((pCVar1 != (Characters_BasicTitan_o *)0x0) && (stream != (Photon_Pun_PhotonStream_o *)0x0)) {
+    if ((pCVar1->fields).AI == false) {
+      pIVar6 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+      if ((pIVar6 != (Il2CppObject *)0x0) &&
+         (pIVar2 = (TypeInfo_System_Nullable_int->_1).element_class, pIVar6->klass != pIVar2)) {
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar6,pIVar2);
+      }
+      il2cpp_runtime_helper_18046d510();
+      local_res8 = local_a8;
+      if (local_a8.hasValue == false) {
         pCVar1 = (__this->fields)._titan;
-        if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
-          *(undefined8 *)((long)&(pCVar1->fields).Setup + 4) = 0;
-          (pCVar1->fields)._oldHeadRotation.fields.y = 0.0;
-          (pCVar1->fields)._oldHeadRotation.fields.z = 0.0;
-          (pCVar1->fields)._oldHeadRotation.fields.w = 0.0;
-          return;
-        }
-        goto label_0431f08d;
-      }
-      if (g_data_057a6843 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-        g_data_057a6843 = '\x01';
-      }
-      uStack_48 = (Il2CppType **)**(undefined8 **)(TypeInfo_Quaternion + 0xb8);
-      uStack_40 = (Il2CppRGCTXData *)0x0;
-      uStack_58 = (System_Nullable_T__c *)(*(undefined8 **)(TypeInfo_Quaternion + 0xb8))[1];
-      uStack_50 = (Il2CppType *)0x0;
-      uVar2 = System_Nullable_int___get_Value((System_Nullable_int__o)&pcStack_60,MethodInfo_Int32_get_Value);
-      if (*(int *)(TypeInfo_QuaternionCompression + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        if (uVar2 >> 0x1e == 3) goto label_0431ee10;
-label_0431ee57:
-        fVar8 = (float)(uVar2 & 0x1ff) * 0.0013837706 *
-                *(float *)(&g_data_00d1d580 + (ulong)((uVar2 & 0x200) == 0) * 4);
-        fVar7 = fVar8 * fVar8 + 0.0;
-        uVar6 = uVar2 >> 10;
-        fVar12 = (float)uStack_58;
-        uVar10 = (undefined4)uStack_50;
-        uVar11 = uStack_50._4_4_;
-        if (uVar2 >> 0x1e != 2) goto label_0431eeb2;
-label_0431ef02:
-        fVar13 = (float)(uVar6 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar6 & 0x200) == 0) * 4);
-        fVar7 = fVar13 * fVar13 + fVar7;
-        if (uVar2 >> 0x1e != 0) {
-          uVar6 = uVar6 >> 10;
-          goto label_0431ef5d;
-        }
-        fVar7 = 1.0 - fVar7;
-        if (fVar7 < 0.0) {
-          uStack_58 = (System_Nullable_T__c *)CONCAT44(fVar8,fVar12);
-          uStack_50 = (Il2CppType *)CONCAT44(uVar11,uVar10);
-          uStack_48 = (Il2CppType **)CONCAT44(fVar13,(undefined4)uStack_48);
-          fVar15 = sqrtf(fVar7);
-          fVar9 = (float)uStack_58;
-          fVar8 = uStack_58._4_4_;
-          fVar14 = uStack_48._4_4_;
-        }
-        else {
-          fVar15 = SQRT(fVar7);
-          fVar9 = fVar12;
-          fVar14 = fVar13;
-        }
+        if (pCVar1 == (Characters_BasicTitan_o *)0x0) goto label_18219e2b3;
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.hasValue = false;
+        *(undefined3 *)&(pCVar1->fields).LateUpdateHeadRotationRecv.fields.field_0x1 = 0;
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.value.fields.x = 0.0;
+        pSVar4 = &(pCVar1->fields).LateUpdateHeadRotationRecv;
+        (pSVar4->fields).value.fields.y = 0.0;
+        (pSVar4->fields).value.fields.z = 0.0;
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.value.fields.w = 0.0;
       }
       else {
-        if (uVar2 >> 0x1e != 3) goto label_0431ee57;
-label_0431ee10:
-        fVar7 = 0.0;
-        fVar8 = uStack_58._4_4_;
-        uVar6 = uVar2;
-label_0431eeb2:
-        fVar12 = (float)(uVar6 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar6 & 0x200) == 0) * 4);
-        fVar7 = fVar12 * fVar12 + fVar7;
-        uVar6 = uVar6 >> 10;
-        uVar10 = (undefined4)uStack_50;
-        uVar11 = uStack_50._4_4_;
-        if (uVar2 >> 0x1e != 1) goto label_0431ef02;
-        fVar13 = uStack_48._4_4_;
-label_0431ef5d:
-        fVar15 = (float)(uVar6 & 0x1ff) * 0.0013837706 *
-                 *(float *)(&g_data_00d1d580 + (ulong)((uVar6 & 0x200) == 0) * 4);
-        fVar7 = 1.0 - (fVar15 * fVar15 + fVar7);
-        if (fVar7 < 0.0) {
-          uStack_58 = (System_Nullable_T__c *)CONCAT44(fVar8,fVar12);
-          uStack_50 = (Il2CppType *)CONCAT44(uVar11,uVar10);
-          uStack_48 = (Il2CppType **)CONCAT44(fVar13,(undefined4)uStack_48);
-          fVar7 = sqrtf(fVar7);
-          fVar13 = uStack_48._4_4_;
-          fVar12 = (float)uStack_58;
-          fVar8 = uStack_58._4_4_;
-          in_stack_ffffffffffffff78 = fVar15;
+        if (Il2CppMethodInitialized_18433de5b == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+          Il2CppMethodInitialized_18433de5b = '\x01';
+        }
+        pUVar3 = TypeInfo_UnityEngine_Quaternion->static_fields;
+        local_98.x = (pUVar3->identityQuaternion).fields.x;
+        local_98.y = (pUVar3->identityQuaternion).fields.y;
+        local_98.z = (pUVar3->identityQuaternion).fields.z;
+        local_98.w = (pUVar3->identityQuaternion).fields.w;
+        uVar5 = System_Nullable_uint___get_Value
+                          ((System_Nullable_uint__o *)&local_res8,
+                           (MethodInfo_AE29B0 *)MethodInfo_System_Nullable_int_get_Value);
+        if ((TypeInfo_Utility_QuaternionCompression->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_QuaternionCompression);
+        }
+        fVar11 = 0.0;
+        index = 3;
+        index_00 = uVar5 >> 0x1e;
+        do {
+          if (index != index_00) {
+            if ((uVar5 & 0x200) == 0) {
+              fVar10 = 1.0;
+            }
+            else {
+              fVar10 = -1.0;
+            }
+            UnityEngine_Quaternion__set_Item
+                      ((UnityEngine_Quaternion_o *)&local_98,index,
+                       (float)(uVar5 & 0x1ff) * 0.0013837706 * fVar10,(MethodInfo *)0x0);
+            fVar10 = UnityEngine_Quaternion__get_Item
+                               ((UnityEngine_Quaternion_o *)&local_98,index,(MethodInfo *)0x0);
+            fVar9 = UnityEngine_Quaternion__get_Item
+                              ((UnityEngine_Quaternion_o *)&local_98,index,(MethodInfo *)0x0);
+            uVar5 = uVar5 >> 10;
+            fVar11 = fVar11 + fVar9 * fVar10;
+          }
+          index = index - 1;
+        } while (-1 < (int)index);
+        fVar11 = 1.0 - fVar11;
+        if (fVar11 < 0.0) {
+          fVar11 = (float)il2cpp_runtime_helper_1804fa7a0(fVar11);
         }
         else {
-          fVar7 = SQRT(fVar7);
+          fVar11 = SQRT(fVar11);
         }
-        fVar9 = fVar12;
-        fVar14 = fVar7;
-        if ((uVar2 >> 0x1e != 1) && (fVar9 = fVar7, fVar14 = fVar13, uVar2 >> 0x1e != 2)) {
-          fVar9 = fVar12;
-          fVar8 = fVar7;
+        UnityEngine_Quaternion__set_Item
+                  ((UnityEngine_Quaternion_o *)&local_98,index_00,fVar11,(MethodInfo *)0x0);
+        pCVar1 = (__this->fields)._titan;
+        local_88[0].hasValue = false;
+        local_88[0]._1_3_ = 0;
+        local_88[0].value.fields.x = 0.0;
+        local_88[0].value.fields.y = 0.0;
+        local_88[0].value.fields.z = 0.0;
+        local_88[0].value.fields.w = 0.0;
+        System_Nullable_Vector4____ctor
+                  ((System_Nullable_Vector4__o *)local_88,(UnityEngine_Vector4_o *)&local_98,
+                   (MethodInfo_AE2670 *)MethodInfo_System_Nullable_Quaternion_ctor);
+        if (pCVar1 == (Characters_BasicTitan_o *)0x0) {
+          ThrowNullReferenceException();
         }
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.hasValue = local_88[0].hasValue;
+        *(undefined3 *)&(pCVar1->fields).LateUpdateHeadRotationRecv.fields.field_0x1 = local_88[0]._1_3_;
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.value.fields.x = local_88[0].value.fields.x;
+        pSVar4 = &(pCVar1->fields).LateUpdateHeadRotationRecv;
+        (pSVar4->fields).value.fields.y = local_88[0].value.fields.y;
+        (pSVar4->fields).value.fields.z = local_88[0].value.fields.z;
+        (pCVar1->fields).LateUpdateHeadRotationRecv.fields.value.fields.w = local_88[0].value.fields.w;
       }
-      pCVar1 = (__this->fields)._titan;
-      pIStack_78 = (Il2CppMethodPointer)0x0;
-      pIStack_70 = (Il2CppMethodPointer)0x0;
-      fStack_68 = 0.0;
-      __this_00.fields.value.fields.y = (float)(int)in_stack_ffffffffffffff70;
-      __this_00.fields.value.fields.z = (float)(int)((ulong)in_stack_ffffffffffffff70 >> 0x20);
-      __this_00.fields._0_8_ = in_stack_ffffffffffffff68;
-      __this_00.fields.value.fields.w = in_stack_ffffffffffffff78;
-      value.fields.y = fVar14;
-      value.fields.x = fVar15;
-      value.fields.w = fVar8;
-      value.fields.z = fVar9;
-      System_Nullable_Quaternion____ctor(__this_00,value,(MethodInfo_37E8CD0 *)&pIStack_78);
-      if (pCVar1 != (Characters_BasicTitan_o *)0x0) {
-        (pCVar1->fields)._oldHeadRotation.fields.w = fStack_68;
-        *(Il2CppMethodPointer *)((long)&(pCVar1->fields).Setup + 4) = pIStack_78;
-        *(Il2CppMethodPointer *)&(pCVar1->fields)._oldHeadRotation.fields.y = pIStack_70;
-        return;
-      }
-      goto label_0431f08d;
+      return;
     }
-    if ((stream == (Photon_Pun_PhotonStream_o *)0x0) ||
-       (pIVar3 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0), pIVar3 == (Il2CppObject *)0x0
-       )) goto label_0431f08d;
-    if ((pIVar3->klass->_1).element_class == *(Il2CppClass **)(g_data_057b9bb8 + 0x40)) {
-      pfVar4 = (float *)il2cpp_runtime_helper_02305440(pIVar3);
-      (pCVar1->fields).LastGoodHeadAngle.fields.y = *pfVar4;
+    pIVar6 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+    if ((pCVar1 != (Characters_BasicTitan_o *)0x0) && (pIVar6 != (Il2CppObject *)0x0)) {
+      if ((pIVar6->klass->_1).element_class != *(Il2CppClass **)(g_data_184354e08 + 0x40)) {
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar6,g_data_184354e08);
+      }
+      piVar7 = il2cpp_object_unbox(pIVar6);
+      (pCVar1->fields).TargetViewId = *piVar7;
       pCVar1 = (__this->fields)._titan;
-      pIVar3 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
-      if ((pCVar1 == (Characters_BasicTitan_o *)0x0) || (pIVar3 == (Il2CppObject *)0x0)) goto label_0431f08d;
-      if ((pIVar3->klass->_1).element_class == *(Il2CppClass **)(g_data_057b9b98 + 0x40)) {
-        puVar5 = (undefined1 *)il2cpp_runtime_helper_02305440(pIVar3);
-        *(undefined1 *)&(pCVar1->fields).BellyFlopTime = *puVar5;
-        return;
+      pIVar6 = Photon_Pun_PhotonStream__ReceiveNext(stream,(MethodInfo *)0x0);
+      if ((pCVar1 != (Characters_BasicTitan_o *)0x0) && (pIVar6 != (Il2CppObject *)0x0)) {
+        if ((pIVar6->klass->_1).element_class == *(Il2CppClass **)(g_data_184354de8 + 0x40)) {
+          puVar8 = il2cpp_object_unbox(pIVar6);
+          (pCVar1->fields).LookAtTarget = (bool)*puVar8;
+          return;
+        }
+        il2cpp_codegen_raise_invalid_cast_exception(pIVar6,g_data_184354de8);
       }
     }
   }
-  __this_01 = (Characters_BaseMovementSync_o *)il2cpp_runtime_helper_022b2fd0(pIVar3);
-label_0431f09a:
-  il2cpp_runtime_helper_022b2fd0();
-  Characters_BaseMovementSync___ctor(__this_01,(MethodInfo *)0x0);
-  return;
+label_18219e2b3:
+  ThrowNullReferenceException();
 }
 
 
 // Characters.BasicTitanMovementSync$$.ctor
 // il2cpp: void Characters_BasicTitanMovementSync___ctor (Characters_BasicTitanMovementSync_o* __this, const MethodInfo* method);
-// 0x431f0b0
+// 0x1821531c0
 
 void Characters_BasicTitanMovementSync___ctor(Characters_BasicTitanMovementSync_o *__this,MethodInfo *method)
 

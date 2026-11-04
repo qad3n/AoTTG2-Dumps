@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32.SafeHandles;
 
-[Token(Token = "0x200005B")]
+[Token(Token = "0x2000083")]
 public sealed class SafeFileHandle : SafeHandleZeroOrMinusOneIsInvalid
 {
-	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x3AF3120", Offset = "0x3AF3120", VA = "0x3AF3120")]
+	[Token(Token = "0x6000255")]
+	[Address(RVA = "0x1967B60", Offset = "0x1966160", VA = "0x181967B60")]
 	public SafeFileHandle(IntPtr preexistingHandle, bool ownsHandle)
 	{
 	}
 
-	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x3AF3150", Offset = "0x3AF3150", VA = "0x3AF3150", Slot = "7")]
+	[Token(Token = "0x6000256")]
+	[Address(RVA = "0x1967AF0", Offset = "0x19660F0", VA = "0x181967AF0", Slot = "7")]
 	protected override bool ReleaseHandle()
 	{
 		return default(bool);

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Collections;
 
-[Token(Token = "0x20005FD")]
+[Token(Token = "0x20005D1")]
 public interface IEnumerator
 {
-	[Token(Token = "0x1700072A")]
+	[Token(Token = "0x170006B7")]
 	object Current
 	{
-		[Token(Token = "0x6002EC7")]
+		[Token(Token = "0x6002BD6")]
 		get;
 	}
 
-	[Token(Token = "0x6002EC6")]
+	[Token(Token = "0x6002BD5")]
 	bool MoveNext();
 
-	[Token(Token = "0x6002EC8")]
+	[Token(Token = "0x6002BD7")]
 	void Reset();
 }

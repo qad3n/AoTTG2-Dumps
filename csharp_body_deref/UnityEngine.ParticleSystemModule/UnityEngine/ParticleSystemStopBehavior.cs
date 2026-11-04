@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000019")]
 public enum ParticleSystemStopBehavior
 {
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x4000074")]
 	StopEmittingAndClear,
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x4000075")]
 	StopEmitting
 }

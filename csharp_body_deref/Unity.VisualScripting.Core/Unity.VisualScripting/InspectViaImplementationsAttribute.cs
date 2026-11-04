@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x2000041")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = false, Inherited = true)]
 public sealed class InspectViaImplementationsAttribute : Attribute
 {
-	[Token(Token = "0x6000206")]
-	[Address(RVA = "0x4CA3E60", Offset = "0x4CA3E60", VA = "0x4CA3E60")]
+	[Token(Token = "0x60001E9")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public InspectViaImplementationsAttribute()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Camera
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,515 +15,152 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000083")]
-[RequireComponent(typeof(Transform))]
-[UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Camera/Camera.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Shaders/Shader.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
+[Token(Token = "0x20000A0")]
 [UnityEngine.Scripting.UsedByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Runtime/Misc/GameObjectUtility.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/RenderTexture.h")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/RenderManager.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CommandBuffer/RenderingCommandBuffer.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Shaders/Shader.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Misc/GameObjectUtility.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
+[RequireComponent(typeof(Transform))]
+[UnityEngine.Bindings.NativeHeader("Runtime/Camera/Camera.h")]
 public sealed class Camera : Behaviour
 {
-	[Token(Token = "0x2000084")]
+	[Token(Token = "0x20000A1")]
 	public enum StereoscopicEye
 	{
-		[Token(Token = "0x4000168")]
+		[Token(Token = "0x40001B5")]
 		Left,
-		[Token(Token = "0x4000169")]
+		[Token(Token = "0x40001B6")]
 		Right
 	}
 
-	[Token(Token = "0x2000085")]
+	[Token(Token = "0x20000A2")]
 	public enum MonoOrStereoscopicEye
 	{
-		[Token(Token = "0x400016B")]
+		[Token(Token = "0x40001B8")]
 		Left,
-		[Token(Token = "0x400016C")]
+		[Token(Token = "0x40001B9")]
 		Right,
-		[Token(Token = "0x400016D")]
+		[Token(Token = "0x40001BA")]
 		Mono
 	}
 
-	[Token(Token = "0x2000086")]
+	[Token(Token = "0x20000A3")]
 	public delegate void CameraCallback(Camera cam);
 
-	[Token(Token = "0x4000160")]
+	[Token(Token = "0x40001AC")]
 	public const float kMinAperture = 0.7f;
 
-	[Token(Token = "0x4000161")]
+	[Token(Token = "0x40001AD")]
 	public const float kMaxAperture = 32f;
 
-	[Token(Token = "0x4000162")]
+	[Token(Token = "0x40001AE")]
 	public const int kMinBladeCount = 3;
 
-	[Token(Token = "0x4000163")]
+	[Token(Token = "0x40001AF")]
 	public const int kMaxBladeCount = 11;
 
-	[Token(Token = "0x4000164")]
+	[Token(Token = "0x40001B0")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+	internal uint m_NonSerializedVersion;
+
+	[Token(Token = "0x40001B1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static CameraCallback onPreCull;
 
-	[Token(Token = "0x4000165")]
+	[Token(Token = "0x40001B2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public static CameraCallback onPreRender;
 
-	[Token(Token = "0x4000166")]
+	[Token(Token = "0x40001B3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public static CameraCallback onPostRender;
 
-	[Token(Token = "0x1700003E")]
+	[Token(Token = "0x17000059")]
 	[UnityEngine.Bindings.NativeProperty("Near")]
 	public float nearClipPlane
 	{
-		[Token(Token = "0x600015D")]
-		[Address(RVA = "0x4DB05E0", Offset = "0x4DB05E0", VA = "0x4DB05E0")]
+		[Token(Token = "0x6000261")]
+		[Address(RVA = "0x2EBF5A0", Offset = "0x2EBDBA0", VA = "0x182EBF5A0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600015E")]
-		[Address(RVA = "0x4DB06B0", Offset = "0x4DB06B0", VA = "0x4DB06B0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700003F")]
-	[UnityEngine.Bindings.NativeProperty("Far")]
-	public float farClipPlane
-	{
-		[Token(Token = "0x600015F")]
-		[Address(RVA = "0x4DB07B0", Offset = "0x4DB07B0", VA = "0x4DB07B0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000160")]
-		[Address(RVA = "0x4DB0880", Offset = "0x4DB0880", VA = "0x4DB0880")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000040")]
-	[UnityEngine.Bindings.NativeProperty("VerticalFieldOfView")]
-	public float fieldOfView
-	{
-		[Token(Token = "0x6000161")]
-		[Address(RVA = "0x4DB0980", Offset = "0x4DB0980", VA = "0x4DB0980")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000162")]
-		[Address(RVA = "0x4DB0A50", Offset = "0x4DB0A50", VA = "0x4DB0A50")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000041")]
-	public RenderingPath actualRenderingPath
-	{
-		[Token(Token = "0x6000163")]
-		[Address(RVA = "0x4DB0B50", Offset = "0x4DB0B50", VA = "0x4DB0B50")]
-		[UnityEngine.Bindings.NativeName("CalculateRenderingPath")]
-		get
-		{
-			return default(RenderingPath);
-		}
-	}
-
-	[Token(Token = "0x17000042")]
-	public bool allowHDR
-	{
-		[Token(Token = "0x6000164")]
-		[Address(RVA = "0x4DB0C20", Offset = "0x4DB0C20", VA = "0x4DB0C20")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x6000165")]
-		[Address(RVA = "0x4DB0CF0", Offset = "0x4DB0CF0", VA = "0x4DB0CF0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000043")]
-	public bool allowDynamicResolution
-	{
-		[Token(Token = "0x6000166")]
-		[Address(RVA = "0x4DB0DD0", Offset = "0x4DB0DD0", VA = "0x4DB0DD0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000044")]
-	public float orthographicSize
-	{
-		[Token(Token = "0x6000167")]
-		[Address(RVA = "0x4DB0EA0", Offset = "0x4DB0EA0", VA = "0x4DB0EA0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000168")]
-		[Address(RVA = "0x4DB0F70", Offset = "0x4DB0F70", VA = "0x4DB0F70")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000045")]
-	public bool orthographic
-	{
-		[Token(Token = "0x6000169")]
-		[Address(RVA = "0x4DB1070", Offset = "0x4DB1070", VA = "0x4DB1070")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x600016A")]
-		[Address(RVA = "0x4DB1140", Offset = "0x4DB1140", VA = "0x4DB1140")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000046")]
-	public float depth
-	{
-		[Token(Token = "0x600016B")]
-		[Address(RVA = "0x4DB1220", Offset = "0x4DB1220", VA = "0x4DB1220")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000047")]
-	public float aspect
-	{
-		[Token(Token = "0x600016C")]
-		[Address(RVA = "0x4DB12F0", Offset = "0x4DB12F0", VA = "0x4DB12F0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x600016D")]
-		[Address(RVA = "0x4DB13C0", Offset = "0x4DB13C0", VA = "0x4DB13C0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000048")]
-	public int cullingMask
-	{
-		[Token(Token = "0x600016E")]
-		[Address(RVA = "0x4DB14C0", Offset = "0x4DB14C0", VA = "0x4DB14C0")]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x600016F")]
-		[Address(RVA = "0x4DB1590", Offset = "0x4DB1590", VA = "0x4DB1590")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000049")]
-	public int eventMask
-	{
-		[Token(Token = "0x6000170")]
-		[Address(RVA = "0x4DB1670", Offset = "0x4DB1670", VA = "0x4DB1670")]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x6000171")]
-		[Address(RVA = "0x4DB1740", Offset = "0x4DB1740", VA = "0x4DB1740")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004A")]
-	public CameraType cameraType
-	{
-		[Token(Token = "0x6000172")]
-		[Address(RVA = "0x4DB1820", Offset = "0x4DB1820", VA = "0x4DB1820")]
-		get
-		{
-			return default(CameraType);
-		}
-	}
-
-	[Token(Token = "0x1700004B")]
-	public Color backgroundColor
-	{
-		[Token(Token = "0x6000173")]
-		[Address(RVA = "0x4DB18F0", Offset = "0x4DB18F0", VA = "0x4DB18F0")]
-		get
-		{
-			return default(Color);
-		}
-		[Token(Token = "0x6000174")]
-		[Address(RVA = "0x4DB19F0", Offset = "0x4DB19F0", VA = "0x4DB19F0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004C")]
-	public CameraClearFlags clearFlags
-	{
-		[Token(Token = "0x6000175")]
-		[Address(RVA = "0x4DB1AE0", Offset = "0x4DB1AE0", VA = "0x4DB1AE0")]
-		get
-		{
-			return default(CameraClearFlags);
-		}
-		[Token(Token = "0x6000176")]
-		[Address(RVA = "0x4DB1BB0", Offset = "0x4DB1BB0", VA = "0x4DB1BB0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004D")]
-	public DepthTextureMode depthTextureMode
-	{
-		[Token(Token = "0x6000177")]
-		[Address(RVA = "0x4DB1C90", Offset = "0x4DB1C90", VA = "0x4DB1C90")]
-		get
-		{
-			return default(DepthTextureMode);
-		}
-		[Token(Token = "0x6000178")]
-		[Address(RVA = "0x4DB1D60", Offset = "0x4DB1D60", VA = "0x4DB1D60")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004E")]
-	public bool usePhysicalProperties
-	{
-		[Token(Token = "0x6000179")]
-		[Address(RVA = "0x4DB1E40", Offset = "0x4DB1E40", VA = "0x4DB1E40")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x600017A")]
-		[Address(RVA = "0x4DB1F10", Offset = "0x4DB1F10", VA = "0x4DB1F10")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700004F")]
-	[UnityEngine.Bindings.NativeProperty("NormalizedViewportRect")]
-	public Rect rect
-	{
-		[Token(Token = "0x600017B")]
-		[Address(RVA = "0x4DB1FF0", Offset = "0x4DB1FF0", VA = "0x4DB1FF0")]
-		get
-		{
-			return default(Rect);
-		}
-		[Token(Token = "0x600017C")]
-		[Address(RVA = "0x4DB20F0", Offset = "0x4DB20F0", VA = "0x4DB20F0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000050")]
-	[UnityEngine.Bindings.NativeProperty("ScreenViewportRect")]
-	public Rect pixelRect
-	{
-		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x4DB21E0", Offset = "0x4DB21E0", VA = "0x4DB21E0")]
-		get
-		{
-			return default(Rect);
-		}
-		[Token(Token = "0x600017E")]
-		[Address(RVA = "0x4DB22E0", Offset = "0x4DB22E0", VA = "0x4DB22E0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000051")]
-	public int pixelWidth
-	{
-		[Token(Token = "0x600017F")]
-		[Address(RVA = "0x4DB23D0", Offset = "0x4DB23D0", VA = "0x4DB23D0")]
-		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetPixelWidth", HasExplicitThis = true)]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000052")]
-	public int pixelHeight
-	{
-		[Token(Token = "0x6000180")]
-		[Address(RVA = "0x4DB24A0", Offset = "0x4DB24A0", VA = "0x4DB24A0")]
-		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetPixelHeight", HasExplicitThis = true)]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000053")]
-	public int scaledPixelWidth
-	{
-		[Token(Token = "0x6000181")]
-		[Address(RVA = "0x4DB2570", Offset = "0x4DB2570", VA = "0x4DB2570")]
-		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetScaledPixelWidth", HasExplicitThis = true)]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000054")]
-	public int scaledPixelHeight
-	{
-		[Token(Token = "0x6000182")]
-		[Address(RVA = "0x4DB2640", Offset = "0x4DB2640", VA = "0x4DB2640")]
-		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetScaledPixelHeight", HasExplicitThis = true)]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000055")]
-	public RenderTexture targetTexture
-	{
-		[Token(Token = "0x6000183")]
-		[Address(RVA = "0x4DB2710", Offset = "0x4DB2710", VA = "0x4DB2710")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000184")]
-		[Address(RVA = "0x4DB27E0", Offset = "0x4DB27E0", VA = "0x4DB27E0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000056")]
-	public int targetDisplay
-	{
-		[Token(Token = "0x6000185")]
-		[Address(RVA = "0x4DB2920", Offset = "0x4DB2920", VA = "0x4DB2920")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000057")]
-	public Matrix4x4 cameraToWorldMatrix
-	{
-		[Token(Token = "0x6000186")]
-		[Address(RVA = "0x4DB29F0", Offset = "0x4DB29F0", VA = "0x4DB29F0")]
-		get
-		{
-			return default(Matrix4x4);
-		}
-	}
-
-	[Token(Token = "0x17000058")]
-	public Matrix4x4 worldToCameraMatrix
-	{
-		[Token(Token = "0x6000187")]
-		[Address(RVA = "0x4DB2B20", Offset = "0x4DB2B20", VA = "0x4DB2B20")]
-		get
-		{
-			return default(Matrix4x4);
-		}
-	}
-
-	[Token(Token = "0x17000059")]
-	public Matrix4x4 projectionMatrix
-	{
-		[Token(Token = "0x6000188")]
-		[Address(RVA = "0x4DB2C50", Offset = "0x4DB2C50", VA = "0x4DB2C50")]
-		get
-		{
-			return default(Matrix4x4);
-		}
-		[Token(Token = "0x6000189")]
-		[Address(RVA = "0x4DB2D80", Offset = "0x4DB2D80", VA = "0x4DB2D80")]
+		[Token(Token = "0x6000262")]
+		[Address(RVA = "0x2EC0940", Offset = "0x2EBEF40", VA = "0x182EC0940")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700005A")]
-	public Matrix4x4 nonJitteredProjectionMatrix
+	[UnityEngine.Bindings.NativeProperty("Far")]
+	public float farClipPlane
 	{
-		[Token(Token = "0x600018A")]
-		[Address(RVA = "0x4DB2E70", Offset = "0x4DB2E70", VA = "0x4DB2E70")]
+		[Token(Token = "0x6000263")]
+		[Address(RVA = "0x2EBF2C0", Offset = "0x2EBD8C0", VA = "0x182EBF2C0")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000264")]
+		[Address(RVA = "0x2EC0610", Offset = "0x2EBEC10", VA = "0x182EC0610")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700005B")]
-	[UnityEngine.Bindings.NativeProperty("UseJitteredProjectionMatrixForTransparent")]
-	public bool useJitteredProjectionMatrixForTransparentRendering
+	[UnityEngine.Bindings.NativeProperty("VerticalFieldOfView")]
+	public float fieldOfView
 	{
-		[Token(Token = "0x600018B")]
-		[Address(RVA = "0x4DB2F60", Offset = "0x4DB2F60", VA = "0x4DB2F60")]
+		[Token(Token = "0x6000265")]
+		[Address(RVA = "0x2EBF380", Offset = "0x2EBD980", VA = "0x182EBF380")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000266")]
+		[Address(RVA = "0x2EC06F0", Offset = "0x2EBECF0", VA = "0x182EC06F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700005C")]
-	public static extern Camera main
+	public bool allowHDR
 	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600019A")]
-		[Address(RVA = "0x4DB3A90", Offset = "0x4DB3A90", VA = "0x4DB3A90")]
-		[UnityEngine.Bindings.FreeFunction("FindMainCamera")]
-		get;
+		[Token(Token = "0x6000267")]
+		[Address(RVA = "0x2EBE9A0", Offset = "0x2EBCFA0", VA = "0x182EBE9A0")]
+		get
+		{
+			return default(bool);
+		}
+		[Token(Token = "0x6000268")]
+		[Address(RVA = "0x2EC0030", Offset = "0x2EBE630", VA = "0x182EC0030")]
+		set
+		{
+		}
 	}
 
 	[Token(Token = "0x1700005D")]
-	public static extern Camera current
+	public bool allowMSAA
 	{
-		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600019B")]
-		[Address(RVA = "0x4DB3AC0", Offset = "0x4DB3AC0", VA = "0x4DB3AC0")]
-		[UnityEngine.Bindings.FreeFunction("GetCurrentCameraPPtr")]
-		get;
+		[Token(Token = "0x6000269")]
+		[Address(RVA = "0x2EBEA60", Offset = "0x2EBD060", VA = "0x182EBEA60")]
+		get
+		{
+			return default(bool);
+		}
 	}
 
 	[Token(Token = "0x1700005E")]
-	public bool stereoEnabled
+	public bool allowDynamicResolution
 	{
-		[Token(Token = "0x600019C")]
-		[Address(RVA = "0x4DB3AF0", Offset = "0x4DB3AF0", VA = "0x4DB3AF0")]
-		[UnityEngine.Bindings.NativeMethod("GetStereoEnabledForBuiltInOrSRP")]
+		[Token(Token = "0x600026A")]
+		[Address(RVA = "0x2EBE8E0", Offset = "0x2EBCEE0", VA = "0x182EBE8E0")]
 		get
 		{
 			return default(bool);
@@ -531,285 +168,559 @@ public sealed class Camera : Behaviour
 	}
 
 	[Token(Token = "0x1700005F")]
-	public StereoTargetEyeMask stereoTargetEye
+	public float orthographicSize
 	{
-		[Token(Token = "0x600019D")]
-		[Address(RVA = "0x4DB3BC0", Offset = "0x4DB3BC0", VA = "0x4DB3BC0")]
+		[Token(Token = "0x600026B")]
+		[Address(RVA = "0x2EBF720", Offset = "0x2EBDD20", VA = "0x182EBF720")]
 		get
 		{
-			return default(StereoTargetEyeMask);
+			return default(float);
+		}
+		[Token(Token = "0x600026C")]
+		[Address(RVA = "0x2EC0A20", Offset = "0x2EBF020", VA = "0x182EC0A20")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000060")]
-	public MonoOrStereoscopicEye stereoActiveEye
+	public bool orthographic
 	{
-		[Token(Token = "0x600019E")]
-		[Address(RVA = "0x4DB3C90", Offset = "0x4DB3C90", VA = "0x4DB3C90")]
-		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetStereoActiveEye", HasExplicitThis = true)]
+		[Token(Token = "0x600026D")]
+		[Address(RVA = "0x2EBF7E0", Offset = "0x2EBDDE0", VA = "0x182EBF7E0")]
 		get
 		{
-			return default(MonoOrStereoscopicEye);
+			return default(bool);
+		}
+		[Token(Token = "0x600026E")]
+		[Address(RVA = "0x2EC0B00", Offset = "0x2EBF100", VA = "0x182EC0B00")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000061")]
-	public static int allCamerasCount
+	public OpaqueSortMode opaqueSortMode
 	{
-		[Token(Token = "0x60001A7")]
-		[Address(RVA = "0x4DB43F0", Offset = "0x4DB43F0", VA = "0x4DB43F0")]
+		[Token(Token = "0x600026F")]
+		[Address(RVA = "0x2EBF660", Offset = "0x2EBDC60", VA = "0x182EBF660")]
+		get
+		{
+			return default(OpaqueSortMode);
+		}
+	}
+
+	[Token(Token = "0x17000062")]
+	public float depth
+	{
+		[Token(Token = "0x6000270")]
+		[Address(RVA = "0x2EBF140", Offset = "0x2EBD740", VA = "0x182EBF140")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000063")]
+	public float aspect
+	{
+		[Token(Token = "0x6000271")]
+		[Address(RVA = "0x2EBEB20", Offset = "0x2EBD120", VA = "0x182EBEB20")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000272")]
+		[Address(RVA = "0x2EC0110", Offset = "0x2EBE710", VA = "0x182EC0110")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000064")]
+	public int cullingMask
+	{
+		[Token(Token = "0x6000273")]
+		[Address(RVA = "0x2EBEF30", Offset = "0x2EBD530", VA = "0x182EBEF30")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x6000274")]
+		[Address(RVA = "0x2EC0390", Offset = "0x2EBE990", VA = "0x182EC0390")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000065")]
+	public int eventMask
+	{
+		[Token(Token = "0x6000275")]
+		[Address(RVA = "0x2EBF200", Offset = "0x2EBD800", VA = "0x182EBF200")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x6000276")]
+		[Address(RVA = "0x2EC0530", Offset = "0x2EBEB30", VA = "0x182EC0530")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000066")]
+	public CameraType cameraType
+	{
+		[Token(Token = "0x6000277")]
+		[Address(RVA = "0x2EBEDB0", Offset = "0x2EBD3B0", VA = "0x182EBEDB0")]
+		get
+		{
+			return default(CameraType);
+		}
+	}
+
+	[Token(Token = "0x17000067")]
+	public float[] layerCullDistances
+	{
+		[Token(Token = "0x600027A")]
+		[Address(RVA = "0x2EBF4C0", Offset = "0x2EBDAC0", VA = "0x182EBF4C0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600027B")]
+		[Address(RVA = "0x2EC0780", Offset = "0x2EBED80", VA = "0x182EC0780")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000068")]
+	public Color backgroundColor
+	{
+		[Token(Token = "0x600027C")]
+		[Address(RVA = "0x2EBEBF0", Offset = "0x2EBD1F0", VA = "0x182EBEBF0")]
+		get
+		{
+			return default(Color);
+		}
+		[Token(Token = "0x600027D")]
+		[Address(RVA = "0x2EC01F0", Offset = "0x2EBE7F0", VA = "0x182EC01F0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000069")]
+	public CameraClearFlags clearFlags
+	{
+		[Token(Token = "0x600027E")]
+		[Address(RVA = "0x2EBEE70", Offset = "0x2EBD470", VA = "0x182EBEE70")]
+		get
+		{
+			return default(CameraClearFlags);
+		}
+		[Token(Token = "0x600027F")]
+		[Address(RVA = "0x2EC02C0", Offset = "0x2EBE8C0", VA = "0x182EC02C0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006A")]
+	public DepthTextureMode depthTextureMode
+	{
+		[Token(Token = "0x6000280")]
+		[Address(RVA = "0x2EBF080", Offset = "0x2EBD680", VA = "0x182EBF080")]
+		get
+		{
+			return default(DepthTextureMode);
+		}
+		[Token(Token = "0x6000281")]
+		[Address(RVA = "0x2EC0460", Offset = "0x2EBEA60", VA = "0x182EC0460")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006B")]
+	public bool usePhysicalProperties
+	{
+		[Token(Token = "0x6000282")]
+		[Address(RVA = "0x2EBFE70", Offset = "0x2EBE470", VA = "0x182EBFE70")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700006C")]
+	[UnityEngine.Bindings.NativeProperty("NormalizedViewportRect")]
+	public Rect rect
+	{
+		[Token(Token = "0x6000283")]
+		[Address(RVA = "0x2EBFC00", Offset = "0x2EBE200", VA = "0x182EBFC00")]
+		get
+		{
+			return default(Rect);
+		}
+		[Token(Token = "0x6000284")]
+		[Address(RVA = "0x2EC0DA0", Offset = "0x2EBF3A0", VA = "0x182EC0DA0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006D")]
+	[UnityEngine.Bindings.NativeProperty("ScreenViewportRect")]
+	public Rect pixelRect
+	{
+		[Token(Token = "0x6000285")]
+		[Address(RVA = "0x2EBF970", Offset = "0x2EBDF70", VA = "0x182EBF970")]
+		get
+		{
+			return default(Rect);
+		}
+		[Token(Token = "0x6000286")]
+		[Address(RVA = "0x2EC0BE0", Offset = "0x2EBF1E0", VA = "0x182EC0BE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006E")]
+	public int pixelWidth
+	{
+		[Token(Token = "0x6000287")]
+		[Address(RVA = "0x2EBFA40", Offset = "0x2EBE040", VA = "0x182EBFA40")]
+		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetPixelWidth", HasExplicitThis = true)]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600015C")]
-	[Address(RVA = "0x4DB05D0", Offset = "0x4DB05D0", VA = "0x4DB05D0")]
+	[Token(Token = "0x1700006F")]
+	public int pixelHeight
+	{
+		[Token(Token = "0x6000288")]
+		[Address(RVA = "0x2EBF8A0", Offset = "0x2EBDEA0", VA = "0x182EBF8A0")]
+		[UnityEngine.Bindings.FreeFunction("CameraScripting::GetPixelHeight", HasExplicitThis = true)]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000070")]
+	public RenderTexture targetTexture
+	{
+		[Token(Token = "0x6000289")]
+		[Address(RVA = "0x2EBFD90", Offset = "0x2EBE390", VA = "0x182EBFD90")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600028A")]
+		[Address(RVA = "0x2EC0E80", Offset = "0x2EBF480", VA = "0x182EC0E80")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000071")]
+	public int targetDisplay
+	{
+		[Token(Token = "0x600028B")]
+		[Address(RVA = "0x2EBFCD0", Offset = "0x2EBE2D0", VA = "0x182EBFCD0")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000072")]
+	public Matrix4x4 cameraToWorldMatrix
+	{
+		[Token(Token = "0x600028C")]
+		[Address(RVA = "0x2EBECD0", Offset = "0x2EBD2D0", VA = "0x182EBECD0")]
+		get
+		{
+			return default(Matrix4x4);
+		}
+	}
+
+	[Token(Token = "0x17000073")]
+	public Matrix4x4 worldToCameraMatrix
+	{
+		[Token(Token = "0x600028D")]
+		[Address(RVA = "0x2EBFF40", Offset = "0x2EBE540", VA = "0x182EBFF40")]
+		get
+		{
+			return default(Matrix4x4);
+		}
+	}
+
+	[Token(Token = "0x17000074")]
+	public Matrix4x4 projectionMatrix
+	{
+		[Token(Token = "0x600028E")]
+		[Address(RVA = "0x2EBFB10", Offset = "0x2EBE110", VA = "0x182EBFB10")]
+		get
+		{
+			return default(Matrix4x4);
+		}
+		[Token(Token = "0x600028F")]
+		[Address(RVA = "0x2EC0CC0", Offset = "0x2EBF2C0", VA = "0x182EC0CC0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000075")]
+	public static Camera main
+	{
+		[Token(Token = "0x600029A")]
+		[Address(RVA = "0x2EBF500", Offset = "0x2EBDB00", VA = "0x182EBF500")]
+		[UnityEngine.Bindings.FreeFunction("FindMainCamera")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000076")]
+	public static Camera current
+	{
+		[Token(Token = "0x600029B")]
+		[Address(RVA = "0x2EBEFE0", Offset = "0x2EBD5E0", VA = "0x182EBEFE0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000077")]
+	private static Camera currentInternal
+	{
+		[Token(Token = "0x600029C")]
+		[Address(RVA = "0x2EBEFE0", Offset = "0x2EBD5E0", VA = "0x182EBEFE0")]
+		[UnityEngine.Bindings.FreeFunction("GetCurrentCameraPPtr")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000078")]
+	public static int allCamerasCount
+	{
+		[Token(Token = "0x60002A1")]
+		[Address(RVA = "0x2EBD540", Offset = "0x2EBBB40", VA = "0x182EBD540")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000079")]
+	public static Camera[] allCameras
+	{
+		[Token(Token = "0x60002A2")]
+		[Address(RVA = "0x2EBE7E0", Offset = "0x2EBCDE0", VA = "0x182EBE7E0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700007A")]
+	public bool isProcessingRenderRequest
+	{
+		[Token(Token = "0x60002A5")]
+		[Address(RVA = "0x2EBF440", Offset = "0x2EBDA40", VA = "0x182EBF440")]
+		[UnityEngine.Bindings.NativeMethod("IsProcessingRenderRequest")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x6000260")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public Camera()
 	{
 	}
 
-	[Token(Token = "0x600018C")]
-	[Address(RVA = "0x4DB3040", Offset = "0x4DB3040", VA = "0x4DB3040")]
+	[Token(Token = "0x6000278")]
+	[Address(RVA = "0x2EBD850", Offset = "0x2EBBE50", VA = "0x182EBD850")]
+	[UnityEngine.Bindings.FreeFunction("CameraScripting::GetLayerCullDistances", HasExplicitThis = true)]
+	private float[] GetLayerCullDistances()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000279")]
+	[Address(RVA = "0x2EBDEF0", Offset = "0x2EBC4F0", VA = "0x182EBDEF0")]
+	[UnityEngine.Bindings.FreeFunction("CameraScripting::SetLayerCullDistances", HasExplicitThis = true)]
+	private void SetLayerCullDistances([UnityEngine.Bindings.NotNull] float[] d)
+	{
+	}
+
+	[Token(Token = "0x6000290")]
+	[Address(RVA = "0x2EBDA40", Offset = "0x2EBC040", VA = "0x182EBDA40")]
 	public void ResetProjectionMatrix()
 	{
 	}
 
-	[Token(Token = "0x600018D")]
-	[Address(RVA = "0x4DB3110", Offset = "0x4DB3110", VA = "0x4DB3110")]
+	[Token(Token = "0x6000291")]
+	[Address(RVA = "0x2EBE740", Offset = "0x2EBCD40", VA = "0x182EBE740")]
 	public Vector3 WorldToScreenPoint(Vector3 position, MonoOrStereoscopicEye eye)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x600018E")]
-	[Address(RVA = "0x4DB3240", Offset = "0x4DB3240", VA = "0x4DB3240")]
-	public Vector3 WorldToViewportPoint(Vector3 position, MonoOrStereoscopicEye eye)
-	{
-		return default(Vector3);
-	}
-
-	[Token(Token = "0x600018F")]
-	[Address(RVA = "0x4DB3370", Offset = "0x4DB3370", VA = "0x4DB3370")]
+	[Token(Token = "0x6000292")]
+	[Address(RVA = "0x2EBE670", Offset = "0x2EBCC70", VA = "0x182EBE670")]
 	public Vector3 WorldToScreenPoint(Vector3 position)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000190")]
-	[Address(RVA = "0x4DB3380", Offset = "0x4DB3380", VA = "0x4DB3380")]
-	public Vector3 WorldToViewportPoint(Vector3 position)
-	{
-		return default(Vector3);
-	}
-
-	[Token(Token = "0x6000191")]
-	[Address(RVA = "0x4DB3390", Offset = "0x4DB3390", VA = "0x4DB3390")]
+	[Token(Token = "0x6000293")]
+	[Address(RVA = "0x2EBDDF0", Offset = "0x2EBC3F0", VA = "0x182EBDDF0")]
 	public Vector3 ScreenToViewportPoint(Vector3 position)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000192")]
-	[Address(RVA = "0x4DB34A0", Offset = "0x4DB34A0", VA = "0x4DB34A0")]
+	[Token(Token = "0x6000294")]
+	[Address(RVA = "0x2EBE3A0", Offset = "0x2EBC9A0", VA = "0x182EBE3A0")]
 	private Ray ViewportPointToRay(Vector2 pos, MonoOrStereoscopicEye eye)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000193")]
-	[Address(RVA = "0x4DB35D0", Offset = "0x4DB35D0", VA = "0x4DB35D0")]
+	[Token(Token = "0x6000295")]
+	[Address(RVA = "0x2EBE530", Offset = "0x2EBCB30", VA = "0x182EBE530")]
 	public Ray ViewportPointToRay(Vector3 pos, MonoOrStereoscopicEye eye)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000194")]
-	[Address(RVA = "0x4DB3610", Offset = "0x4DB3610", VA = "0x4DB3610")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x2EBE450", Offset = "0x2EBCA50", VA = "0x182EBE450")]
 	public Ray ViewportPointToRay(Vector3 pos)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000195")]
-	[Address(RVA = "0x4DB3670", Offset = "0x4DB3670", VA = "0x4DB3670")]
+	[Token(Token = "0x6000297")]
+	[Address(RVA = "0x2EBDCE0", Offset = "0x2EBC2E0", VA = "0x182EBDCE0")]
 	private Ray ScreenPointToRay(Vector2 pos, MonoOrStereoscopicEye eye)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000196")]
-	[Address(RVA = "0x4DB37A0", Offset = "0x4DB37A0", VA = "0x4DB37A0")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x2EBDBF0", Offset = "0x2EBC1F0", VA = "0x182EBDBF0")]
 	public Ray ScreenPointToRay(Vector3 pos, MonoOrStereoscopicEye eye)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000197")]
-	[Address(RVA = "0x4DB37E0", Offset = "0x4DB37E0", VA = "0x4DB37E0")]
+	[Token(Token = "0x6000299")]
+	[Address(RVA = "0x2EBDB10", Offset = "0x2EBC110", VA = "0x182EBDB10")]
 	public Ray ScreenPointToRay(Vector3 pos)
 	{
 		return default(Ray);
 	}
 
-	[Token(Token = "0x6000198")]
-	[Address(RVA = "0x4DB3840", Offset = "0x4DB3840", VA = "0x4DB3840")]
-	[UnityEngine.Bindings.FreeFunction("CameraScripting::CalculateViewportRayVectors", HasExplicitThis = true)]
-	private void CalculateFrustumCornersInternal(Rect viewport, float z, MonoOrStereoscopicEye eye, [Out] Vector3[] outCorners)
-	{
-	}
-
-	[Token(Token = "0x6000199")]
-	[Address(RVA = "0x4DB39E0", Offset = "0x4DB39E0", VA = "0x4DB39E0")]
-	public void CalculateFrustumCorners(Rect viewport, float z, MonoOrStereoscopicEye eye, Vector3[] outCorners)
-	{
-	}
-
-	[Token(Token = "0x600019F")]
-	[Address(RVA = "0x4DB3D60", Offset = "0x4DB3D60", VA = "0x4DB3D60")]
-	public Matrix4x4 GetStereoNonJitteredProjectionMatrix(StereoscopicEye eye)
-	{
-		return default(Matrix4x4);
-	}
-
-	[Token(Token = "0x60001A0")]
-	[Address(RVA = "0x4DB3E90", Offset = "0x4DB3E90", VA = "0x4DB3E90")]
-	[UnityEngine.Bindings.FreeFunction("CameraScripting::GetStereoViewMatrix", HasExplicitThis = true)]
-	public Matrix4x4 GetStereoViewMatrix(StereoscopicEye eye)
-	{
-		return default(Matrix4x4);
-	}
-
-	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x4DB3FC0", Offset = "0x4DB3FC0", VA = "0x4DB3FC0")]
-	public void CopyStereoDeviceProjectionMatrixToNonJittered(StereoscopicEye eye)
-	{
-	}
-
-	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x4DB40A0", Offset = "0x4DB40A0", VA = "0x4DB40A0")]
-	[UnityEngine.Bindings.FreeFunction("CameraScripting::GetStereoProjectionMatrix", HasExplicitThis = true)]
-	public Matrix4x4 GetStereoProjectionMatrix(StereoscopicEye eye)
-	{
-		return default(Matrix4x4);
-	}
-
-	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x4DB41D0", Offset = "0x4DB41D0", VA = "0x4DB41D0")]
+	[Token(Token = "0x600029D")]
+	[Address(RVA = "0x2EBE070", Offset = "0x2EBC670", VA = "0x182EBE070")]
 	public void SetStereoProjectionMatrix(StereoscopicEye eye, Matrix4x4 matrix)
 	{
 	}
 
-	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x4DB42C0", Offset = "0x4DB42C0", VA = "0x4DB42C0")]
-	public void ResetStereoProjectionMatrices()
+	[Token(Token = "0x600029E")]
+	[Address(RVA = "0x2EBE160", Offset = "0x2EBC760", VA = "0x182EBE160")]
+	public void SetStereoViewMatrix(StereoscopicEye eye, Matrix4x4 matrix)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x4DB4390", Offset = "0x4DB4390", VA = "0x4DB4390")]
+	[Token(Token = "0x600029F")]
+	[Address(RVA = "0x2EBD540", Offset = "0x2EBBB40", VA = "0x182EBD540")]
 	[UnityEngine.Bindings.FreeFunction("CameraScripting::GetAllCamerasCount")]
 	private static extern int GetAllCamerasCount();
 
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x4DB43C0", Offset = "0x4DB43C0", VA = "0x4DB43C0")]
+	[Token(Token = "0x60002A0")]
+	[Address(RVA = "0x2EBD5B0", Offset = "0x2EBBBB0", VA = "0x182EBD5B0")]
 	[UnityEngine.Bindings.FreeFunction("CameraScripting::GetAllCameras")]
-	private static extern int GetAllCamerasImpl([Out][UnityEngine.Bindings.NotNull("ArgumentNullException")] Camera[] cam);
+	private static int GetAllCamerasImpl([Out][UnityEngine.Bindings.NotNull] Camera[] cam)
+	{
+		return default(int);
+	}
 
-	[Token(Token = "0x60001A8")]
-	[Address(RVA = "0x4DB4420", Offset = "0x4DB4420", VA = "0x4DB4420")]
+	[Token(Token = "0x60002A3")]
+	[Address(RVA = "0x2EBD620", Offset = "0x2EBBC20", VA = "0x182EBD620")]
 	public static int GetAllCameras(Camera[] cameras)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60001A9")]
-	[Address(RVA = "0x4DB44F0", Offset = "0x4DB44F0", VA = "0x4DB44F0")]
+	[Token(Token = "0x60002A4")]
+	[Address(RVA = "0x2EBD980", Offset = "0x2EBBF80", VA = "0x182EBD980")]
 	[UnityEngine.Bindings.FreeFunction("CameraScripting::Render", HasExplicitThis = true)]
 	public void Render()
 	{
 	}
 
-	[Token(Token = "0x60001AA")]
-	[Address(RVA = "0x4DB45C0", Offset = "0x4DB45C0", VA = "0x4DB45C0")]
-	[UnityEngine.Bindings.FreeFunction("CameraScripting::RenderWithShader", HasExplicitThis = true)]
-	public void RenderWithShader(Shader shader, string replacementTag)
-	{
-	}
-
-	[Token(Token = "0x60001AB")]
-	[Address(RVA = "0x4DB4710", Offset = "0x4DB4710", VA = "0x4DB4710")]
+	[Token(Token = "0x60002A6")]
+	[Address(RVA = "0x2EBE240", Offset = "0x2EBC840", VA = "0x182EBE240")]
 	[UnityEngine.Bindings.FreeFunction("CameraScripting::SetupCurrent")]
 	public static void SetupCurrent(Camera cur)
 	{
 	}
 
-	[Token(Token = "0x60001AC")]
-	[Address(RVA = "0x4DB47F0", Offset = "0x4DB47F0", VA = "0x4DB47F0")]
-	[UnityEngine.Bindings.FreeFunction("CameraScripting::CopyFrom", HasExplicitThis = true)]
-	public void CopyFrom(Camera other)
-	{
-	}
-
-	[Token(Token = "0x60001AD")]
-	[Address(RVA = "0x4DB4930", Offset = "0x4DB4930", VA = "0x4DB4930")]
-	[UnityEngine.Bindings.NativeName("AddCommandBuffer")]
-	private void AddCommandBufferImpl(CameraEvent evt, [UnityEngine.Bindings.NotNull("ArgumentNullException")] CommandBuffer buffer)
-	{
-	}
-
-	[Token(Token = "0x60001AE")]
-	[Address(RVA = "0x4DB4A20", Offset = "0x4DB4A20", VA = "0x4DB4A20")]
-	[UnityEngine.Bindings.NativeName("RemoveCommandBuffer")]
-	private void RemoveCommandBufferImpl(CameraEvent evt, [UnityEngine.Bindings.NotNull("ArgumentNullException")] CommandBuffer buffer)
-	{
-	}
-
-	[Token(Token = "0x60001AF")]
-	[Address(RVA = "0x4DB4B10", Offset = "0x4DB4B10", VA = "0x4DB4B10")]
-	public void AddCommandBuffer(CameraEvent evt, CommandBuffer buffer)
-	{
-	}
-
-	[Token(Token = "0x60001B0")]
-	[Address(RVA = "0x4DB4CA0", Offset = "0x4DB4CA0", VA = "0x4DB4CA0")]
-	public void RemoveCommandBuffer(CameraEvent evt, CommandBuffer buffer)
-	{
-	}
-
-	[Token(Token = "0x60001B1")]
-	[Address(RVA = "0x4DB4E30", Offset = "0x4DB4E30", VA = "0x4DB4E30")]
+	[Token(Token = "0x60002A7")]
+	[Address(RVA = "0x2EBD480", Offset = "0x2EBBA80", VA = "0x182EBD480")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void FireOnPreCull(Camera cam)
 	{
 	}
 
-	[Token(Token = "0x60001B2")]
-	[Address(RVA = "0x4DB4E80", Offset = "0x4DB4E80", VA = "0x4DB4E80")]
+	[Token(Token = "0x60002A8")]
+	[Address(RVA = "0x2EBD4E0", Offset = "0x2EBBAE0", VA = "0x182EBD4E0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void FireOnPreRender(Camera cam)
 	{
 	}
 
-	[Token(Token = "0x60001B3")]
-	[Address(RVA = "0x4DB4ED0", Offset = "0x4DB4ED0", VA = "0x4DB4ED0")]
+	[Token(Token = "0x60002A9")]
+	[Address(RVA = "0x2EBD420", Offset = "0x2EBBA20", VA = "0x182EBD420")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void FireOnPostRender(Camera cam)
 	{
 	}
 
-	[Token(Token = "0x60001B4")]
-	[Address(RVA = "0x4DB4F20", Offset = "0x4DB4F20", VA = "0x4DB4F20")]
+	[Token(Token = "0x60002AA")]
+	[Address(RVA = "0x2EBD400", Offset = "0x2EBBA00", VA = "0x182EBD400")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	private static void BumpNonSerializedVersion(Camera cam)
+	{
+	}
+
+	[Token(Token = "0x60002AB")]
+	[Address(RVA = "0x2EBE2B0", Offset = "0x2EBC8B0", VA = "0x182EBE2B0")]
 	public bool TryGetCullingParameters(bool stereoAware, out ScriptableCullingParameters cullingParameters)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60001B5")]
-	[Address(RVA = "0x4DB4FE0", Offset = "0x4DB4FE0", VA = "0x4DB4FE0")]
+	[Token(Token = "0x60002AC")]
+	[Address(RVA = "0x2EBD770", Offset = "0x2EBBD70", VA = "0x182EBD770")]
 	[UnityEngine.Bindings.FreeFunction("ScriptableRenderPipeline_Bindings::GetCullingParameters_Internal")]
 	[UnityEngine.Bindings.NativeHeader("Runtime/Export/RenderPipeline/ScriptableRenderPipeline.bindings.h")]
 	private static bool GetCullingParameters_Internal(Camera camera, bool stereoAware, out ScriptableCullingParameters cullingParameters, int managedCullingParametersSize)
@@ -818,352 +729,297 @@ public sealed class Camera : Behaviour
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001B6")]
-	[Address(RVA = "0x4DB0680", Offset = "0x4DB0680", VA = "0x4DB0680")]
+	[Token(Token = "0x60002AD")]
+	[Address(RVA = "0x2EBF560", Offset = "0x2EBDB60", VA = "0x182EBF560")]
 	private static extern float get_nearClipPlane_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001B7")]
-	[Address(RVA = "0x4DB0760", Offset = "0x4DB0760", VA = "0x4DB0760")]
+	[Token(Token = "0x60002AE")]
+	[Address(RVA = "0x2EC08F0", Offset = "0x2EBEEF0", VA = "0x182EC08F0")]
 	private static extern void set_nearClipPlane_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001B8")]
-	[Address(RVA = "0x4DB0850", Offset = "0x4DB0850", VA = "0x4DB0850")]
+	[Token(Token = "0x60002AF")]
+	[Address(RVA = "0x2EBF280", Offset = "0x2EBD880", VA = "0x182EBF280")]
 	private static extern float get_farClipPlane_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001B9")]
-	[Address(RVA = "0x4DB0930", Offset = "0x4DB0930", VA = "0x4DB0930")]
+	[Token(Token = "0x60002B0")]
+	[Address(RVA = "0x2EC05C0", Offset = "0x2EBEBC0", VA = "0x182EC05C0")]
 	private static extern void set_farClipPlane_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BA")]
-	[Address(RVA = "0x4DB0A20", Offset = "0x4DB0A20", VA = "0x4DB0A20")]
+	[Token(Token = "0x60002B1")]
+	[Address(RVA = "0x2EBF340", Offset = "0x2EBD940", VA = "0x182EBF340")]
 	private static extern float get_fieldOfView_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BB")]
-	[Address(RVA = "0x4DB0B00", Offset = "0x4DB0B00", VA = "0x4DB0B00")]
+	[Token(Token = "0x60002B2")]
+	[Address(RVA = "0x2EC06A0", Offset = "0x2EBECA0", VA = "0x182EC06A0")]
 	private static extern void set_fieldOfView_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x4DB0BF0", Offset = "0x4DB0BF0", VA = "0x4DB0BF0")]
-	private static extern RenderingPath get_actualRenderingPath_Injected(IntPtr _unity_self);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x4DB0CC0", Offset = "0x4DB0CC0", VA = "0x4DB0CC0")]
+	[Token(Token = "0x60002B3")]
+	[Address(RVA = "0x2EBE960", Offset = "0x2EBCF60", VA = "0x182EBE960")]
 	private static extern bool get_allowHDR_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x4DB0D90", Offset = "0x4DB0D90", VA = "0x4DB0D90")]
+	[Token(Token = "0x60002B4")]
+	[Address(RVA = "0x2EBFFE0", Offset = "0x2EBE5E0", VA = "0x182EBFFE0")]
 	private static extern void set_allowHDR_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001BF")]
-	[Address(RVA = "0x4DB0E70", Offset = "0x4DB0E70", VA = "0x4DB0E70")]
+	[Token(Token = "0x60002B5")]
+	[Address(RVA = "0x2EBEA20", Offset = "0x2EBD020", VA = "0x182EBEA20")]
+	private static extern bool get_allowMSAA_Injected(IntPtr _unity_self);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x60002B6")]
+	[Address(RVA = "0x2EBE8A0", Offset = "0x2EBCEA0", VA = "0x182EBE8A0")]
 	private static extern bool get_allowDynamicResolution_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C0")]
-	[Address(RVA = "0x4DB0F40", Offset = "0x4DB0F40", VA = "0x4DB0F40")]
+	[Token(Token = "0x60002B7")]
+	[Address(RVA = "0x2EBF6E0", Offset = "0x2EBDCE0", VA = "0x182EBF6E0")]
 	private static extern float get_orthographicSize_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C1")]
-	[Address(RVA = "0x4DB1020", Offset = "0x4DB1020", VA = "0x4DB1020")]
+	[Token(Token = "0x60002B8")]
+	[Address(RVA = "0x2EC09D0", Offset = "0x2EBEFD0", VA = "0x182EC09D0")]
 	private static extern void set_orthographicSize_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C2")]
-	[Address(RVA = "0x4DB1110", Offset = "0x4DB1110", VA = "0x4DB1110")]
+	[Token(Token = "0x60002B9")]
+	[Address(RVA = "0x2EBF7A0", Offset = "0x2EBDDA0", VA = "0x182EBF7A0")]
 	private static extern bool get_orthographic_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C3")]
-	[Address(RVA = "0x4DB11E0", Offset = "0x4DB11E0", VA = "0x4DB11E0")]
+	[Token(Token = "0x60002BA")]
+	[Address(RVA = "0x2EC0AB0", Offset = "0x2EBF0B0", VA = "0x182EC0AB0")]
 	private static extern void set_orthographic_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C4")]
-	[Address(RVA = "0x4DB12C0", Offset = "0x4DB12C0", VA = "0x4DB12C0")]
+	[Token(Token = "0x60002BB")]
+	[Address(RVA = "0x2EBF620", Offset = "0x2EBDC20", VA = "0x182EBF620")]
+	private static extern OpaqueSortMode get_opaqueSortMode_Injected(IntPtr _unity_self);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x60002BC")]
+	[Address(RVA = "0x2EBF100", Offset = "0x2EBD700", VA = "0x182EBF100")]
 	private static extern float get_depth_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x4DB1390", Offset = "0x4DB1390", VA = "0x4DB1390")]
+	[Token(Token = "0x60002BD")]
+	[Address(RVA = "0x2EBEAE0", Offset = "0x2EBD0E0", VA = "0x182EBEAE0")]
 	private static extern float get_aspect_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C6")]
-	[Address(RVA = "0x4DB1470", Offset = "0x4DB1470", VA = "0x4DB1470")]
+	[Token(Token = "0x60002BE")]
+	[Address(RVA = "0x2EC00C0", Offset = "0x2EBE6C0", VA = "0x182EC00C0")]
 	private static extern void set_aspect_Injected(IntPtr _unity_self, float value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x4DB1560", Offset = "0x4DB1560", VA = "0x4DB1560")]
+	[Token(Token = "0x60002BF")]
+	[Address(RVA = "0x2EBEEF0", Offset = "0x2EBD4F0", VA = "0x182EBEEF0")]
 	private static extern int get_cullingMask_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x4DB1630", Offset = "0x4DB1630", VA = "0x4DB1630")]
+	[Token(Token = "0x60002C0")]
+	[Address(RVA = "0x2EC0350", Offset = "0x2EBE950", VA = "0x182EC0350")]
 	private static extern void set_cullingMask_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001C9")]
-	[Address(RVA = "0x4DB1710", Offset = "0x4DB1710", VA = "0x4DB1710")]
+	[Token(Token = "0x60002C1")]
+	[Address(RVA = "0x2EBF1C0", Offset = "0x2EBD7C0", VA = "0x182EBF1C0")]
 	private static extern int get_eventMask_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x4DB17E0", Offset = "0x4DB17E0", VA = "0x4DB17E0")]
+	[Token(Token = "0x60002C2")]
+	[Address(RVA = "0x2EC04F0", Offset = "0x2EBEAF0", VA = "0x182EC04F0")]
 	private static extern void set_eventMask_Injected(IntPtr _unity_self, int value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CB")]
-	[Address(RVA = "0x4DB18C0", Offset = "0x4DB18C0", VA = "0x4DB18C0")]
+	[Token(Token = "0x60002C3")]
+	[Address(RVA = "0x2EBED70", Offset = "0x2EBD370", VA = "0x182EBED70")]
 	private static extern CameraType get_cameraType_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CC")]
-	[Address(RVA = "0x4DB19B0", Offset = "0x4DB19B0", VA = "0x4DB19B0")]
+	[Token(Token = "0x60002C4")]
+	[Address(RVA = "0x2EBD800", Offset = "0x2EBBE00", VA = "0x182EBD800")]
+	private static extern void GetLayerCullDistances_Injected(IntPtr _unity_self, out BlittableArrayWrapper ret);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x60002C5")]
+	[Address(RVA = "0x2EBDEA0", Offset = "0x2EBC4A0", VA = "0x182EBDEA0")]
+	private static extern void SetLayerCullDistances_Injected(IntPtr _unity_self, ref ManagedSpanWrapper d);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x60002C6")]
+	[Address(RVA = "0x2EBEBA0", Offset = "0x2EBD1A0", VA = "0x182EBEBA0")]
 	private static extern void get_backgroundColor_Injected(IntPtr _unity_self, out Color ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x4DB1AA0", Offset = "0x4DB1AA0", VA = "0x4DB1AA0")]
+	[Token(Token = "0x60002C7")]
+	[Address(RVA = "0x2EC01A0", Offset = "0x2EBE7A0", VA = "0x182EC01A0")]
 	private static extern void set_backgroundColor_Injected(IntPtr _unity_self, [In] ref Color value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CE")]
-	[Address(RVA = "0x4DB1B80", Offset = "0x4DB1B80", VA = "0x4DB1B80")]
+	[Token(Token = "0x60002C8")]
+	[Address(RVA = "0x2EBEE30", Offset = "0x2EBD430", VA = "0x182EBEE30")]
 	private static extern CameraClearFlags get_clearFlags_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001CF")]
-	[Address(RVA = "0x4DB1C50", Offset = "0x4DB1C50", VA = "0x4DB1C50")]
+	[Token(Token = "0x60002C9")]
+	[Address(RVA = "0x2EC0280", Offset = "0x2EBE880", VA = "0x182EC0280")]
 	private static extern void set_clearFlags_Injected(IntPtr _unity_self, CameraClearFlags value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x4DB1D30", Offset = "0x4DB1D30", VA = "0x4DB1D30")]
+	[Token(Token = "0x60002CA")]
+	[Address(RVA = "0x2EBF040", Offset = "0x2EBD640", VA = "0x182EBF040")]
 	private static extern DepthTextureMode get_depthTextureMode_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x4DB1E00", Offset = "0x4DB1E00", VA = "0x4DB1E00")]
+	[Token(Token = "0x60002CB")]
+	[Address(RVA = "0x2EC0420", Offset = "0x2EBEA20", VA = "0x182EC0420")]
 	private static extern void set_depthTextureMode_Injected(IntPtr _unity_self, DepthTextureMode value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D2")]
-	[Address(RVA = "0x4DB1EE0", Offset = "0x4DB1EE0", VA = "0x4DB1EE0")]
+	[Token(Token = "0x60002CC")]
+	[Address(RVA = "0x2EBFE30", Offset = "0x2EBE430", VA = "0x182EBFE30")]
 	private static extern bool get_usePhysicalProperties_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x4DB1FB0", Offset = "0x4DB1FB0", VA = "0x4DB1FB0")]
-	private static extern void set_usePhysicalProperties_Injected(IntPtr _unity_self, bool value);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x4DB20B0", Offset = "0x4DB20B0", VA = "0x4DB20B0")]
+	[Token(Token = "0x60002CD")]
+	[Address(RVA = "0x2EBFBB0", Offset = "0x2EBE1B0", VA = "0x182EBFBB0")]
 	private static extern void get_rect_Injected(IntPtr _unity_self, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x4DB21A0", Offset = "0x4DB21A0", VA = "0x4DB21A0")]
+	[Token(Token = "0x60002CE")]
+	[Address(RVA = "0x2EC0D50", Offset = "0x2EBF350", VA = "0x182EC0D50")]
 	private static extern void set_rect_Injected(IntPtr _unity_self, [In] ref Rect value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x4DB22A0", Offset = "0x4DB22A0", VA = "0x4DB22A0")]
+	[Token(Token = "0x60002CF")]
+	[Address(RVA = "0x2EBF920", Offset = "0x2EBDF20", VA = "0x182EBF920")]
 	private static extern void get_pixelRect_Injected(IntPtr _unity_self, out Rect ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x4DB2390", Offset = "0x4DB2390", VA = "0x4DB2390")]
+	[Token(Token = "0x60002D0")]
+	[Address(RVA = "0x2EC0B90", Offset = "0x2EBF190", VA = "0x182EC0B90")]
 	private static extern void set_pixelRect_Injected(IntPtr _unity_self, [In] ref Rect value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x4DB2470", Offset = "0x4DB2470", VA = "0x4DB2470")]
+	[Token(Token = "0x60002D1")]
+	[Address(RVA = "0x2EBFA00", Offset = "0x2EBE000", VA = "0x182EBFA00")]
 	private static extern int get_pixelWidth_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x4DB2540", Offset = "0x4DB2540", VA = "0x4DB2540")]
+	[Token(Token = "0x60002D2")]
+	[Address(RVA = "0x2EBF860", Offset = "0x2EBDE60", VA = "0x182EBF860")]
 	private static extern int get_pixelHeight_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x4DB2610", Offset = "0x4DB2610", VA = "0x4DB2610")]
-	private static extern int get_scaledPixelWidth_Injected(IntPtr _unity_self);
+	[Token(Token = "0x60002D3")]
+	[Address(RVA = "0x2EBFD50", Offset = "0x2EBE350", VA = "0x182EBFD50")]
+	private static extern IntPtr get_targetTexture_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x4DB26E0", Offset = "0x4DB26E0", VA = "0x4DB26E0")]
-	private static extern int get_scaledPixelHeight_Injected(IntPtr _unity_self);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x4DB27B0", Offset = "0x4DB27B0", VA = "0x4DB27B0")]
-	private static extern RenderTexture get_targetTexture_Injected(IntPtr _unity_self);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x4DB28E0", Offset = "0x4DB28E0", VA = "0x4DB28E0")]
+	[Token(Token = "0x60002D4")]
+	[Address(RVA = "0x2EC0E30", Offset = "0x2EBF430", VA = "0x182EC0E30")]
 	private static extern void set_targetTexture_Injected(IntPtr _unity_self, IntPtr value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x4DB29C0", Offset = "0x4DB29C0", VA = "0x4DB29C0")]
+	[Token(Token = "0x60002D5")]
+	[Address(RVA = "0x2EBFC90", Offset = "0x2EBE290", VA = "0x182EBFC90")]
 	private static extern int get_targetDisplay_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x4DB2AE0", Offset = "0x4DB2AE0", VA = "0x4DB2AE0")]
+	[Token(Token = "0x60002D6")]
+	[Address(RVA = "0x2EBEC80", Offset = "0x2EBD280", VA = "0x182EBEC80")]
 	private static extern void get_cameraToWorldMatrix_Injected(IntPtr _unity_self, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E0")]
-	[Address(RVA = "0x4DB2C10", Offset = "0x4DB2C10", VA = "0x4DB2C10")]
+	[Token(Token = "0x60002D7")]
+	[Address(RVA = "0x2EBFEF0", Offset = "0x2EBE4F0", VA = "0x182EBFEF0")]
 	private static extern void get_worldToCameraMatrix_Injected(IntPtr _unity_self, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E1")]
-	[Address(RVA = "0x4DB2D40", Offset = "0x4DB2D40", VA = "0x4DB2D40")]
+	[Token(Token = "0x60002D8")]
+	[Address(RVA = "0x2EBFAC0", Offset = "0x2EBE0C0", VA = "0x182EBFAC0")]
 	private static extern void get_projectionMatrix_Injected(IntPtr _unity_self, out Matrix4x4 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E2")]
-	[Address(RVA = "0x4DB2E30", Offset = "0x4DB2E30", VA = "0x4DB2E30")]
+	[Token(Token = "0x60002D9")]
+	[Address(RVA = "0x2EC0C70", Offset = "0x2EBF270", VA = "0x182EC0C70")]
 	private static extern void set_projectionMatrix_Injected(IntPtr _unity_self, [In] ref Matrix4x4 value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E3")]
-	[Address(RVA = "0x4DB2F20", Offset = "0x4DB2F20", VA = "0x4DB2F20")]
-	private static extern void set_nonJitteredProjectionMatrix_Injected(IntPtr _unity_self, [In] ref Matrix4x4 value);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E4")]
-	[Address(RVA = "0x4DB3000", Offset = "0x4DB3000", VA = "0x4DB3000")]
-	private static extern void set_useJitteredProjectionMatrixForTransparentRendering_Injected(IntPtr _unity_self, bool value);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E5")]
-	[Address(RVA = "0x4DB30E0", Offset = "0x4DB30E0", VA = "0x4DB30E0")]
+	[Token(Token = "0x60002DA")]
+	[Address(RVA = "0x2EBDA00", Offset = "0x2EBC000", VA = "0x182EBDA00")]
 	private static extern void ResetProjectionMatrix_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E6")]
-	[Address(RVA = "0x4DB31F0", Offset = "0x4DB31F0", VA = "0x4DB31F0")]
+	[Token(Token = "0x60002DB")]
+	[Address(RVA = "0x2EBE620", Offset = "0x2EBCC20", VA = "0x182EBE620")]
 	private static extern void WorldToScreenPoint_Injected(IntPtr _unity_self, [In] ref Vector3 position, MonoOrStereoscopicEye eye, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x4DB3320", Offset = "0x4DB3320", VA = "0x4DB3320")]
-	private static extern void WorldToViewportPoint_Injected(IntPtr _unity_self, [In] ref Vector3 position, MonoOrStereoscopicEye eye, out Vector3 ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x4DB3460", Offset = "0x4DB3460", VA = "0x4DB3460")]
+	[Token(Token = "0x60002DC")]
+	[Address(RVA = "0x2EBDD90", Offset = "0x2EBC390", VA = "0x182EBDD90")]
 	private static extern void ScreenToViewportPoint_Injected(IntPtr _unity_self, [In] ref Vector3 position, out Vector3 ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x4DB3580", Offset = "0x4DB3580", VA = "0x4DB3580")]
+	[Token(Token = "0x60002DD")]
+	[Address(RVA = "0x2EBE350", Offset = "0x2EBC950", VA = "0x182EBE350")]
 	private static extern void ViewportPointToRay_Injected(IntPtr _unity_self, [In] ref Vector2 pos, MonoOrStereoscopicEye eye, out Ray ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x4DB3750", Offset = "0x4DB3750", VA = "0x4DB3750")]
+	[Token(Token = "0x60002DE")]
+	[Address(RVA = "0x2EBDAC0", Offset = "0x2EBC0C0", VA = "0x182EBDAC0")]
 	private static extern void ScreenPointToRay_Injected(IntPtr _unity_self, [In] ref Vector2 pos, MonoOrStereoscopicEye eye, out Ray ret);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001EB")]
-	[Address(RVA = "0x4DB3980", Offset = "0x4DB3980", VA = "0x4DB3980")]
-	private static extern void CalculateFrustumCornersInternal_Injected(IntPtr _unity_self, [In] ref Rect viewport, float z, MonoOrStereoscopicEye eye, out ManagedSpanWrapper outCorners);
+	[Token(Token = "0x60002DF")]
+	[Address(RVA = "0x2EBF4D0", Offset = "0x2EBDAD0", VA = "0x182EBF4D0")]
+	private static extern IntPtr get_main_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001EC")]
-	[Address(RVA = "0x4DB3B90", Offset = "0x4DB3B90", VA = "0x4DB3B90")]
-	private static extern bool get_stereoEnabled_Injected(IntPtr _unity_self);
+	[Token(Token = "0x60002E0")]
+	[Address(RVA = "0x2EBEFB0", Offset = "0x2EBD5B0", VA = "0x182EBEFB0")]
+	private static extern IntPtr get_currentInternal_Injected();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001ED")]
-	[Address(RVA = "0x4DB3C60", Offset = "0x4DB3C60", VA = "0x4DB3C60")]
-	private static extern StereoTargetEyeMask get_stereoTargetEye_Injected(IntPtr _unity_self);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001EE")]
-	[Address(RVA = "0x4DB3D30", Offset = "0x4DB3D30", VA = "0x4DB3D30")]
-	private static extern MonoOrStereoscopicEye get_stereoActiveEye_Injected(IntPtr _unity_self);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001EF")]
-	[Address(RVA = "0x4DB3E50", Offset = "0x4DB3E50", VA = "0x4DB3E50")]
-	private static extern void GetStereoNonJitteredProjectionMatrix_Injected(IntPtr _unity_self, StereoscopicEye eye, out Matrix4x4 ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F0")]
-	[Address(RVA = "0x4DB3F80", Offset = "0x4DB3F80", VA = "0x4DB3F80")]
-	private static extern void GetStereoViewMatrix_Injected(IntPtr _unity_self, StereoscopicEye eye, out Matrix4x4 ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F1")]
-	[Address(RVA = "0x4DB4060", Offset = "0x4DB4060", VA = "0x4DB4060")]
-	private static extern void CopyStereoDeviceProjectionMatrixToNonJittered_Injected(IntPtr _unity_self, StereoscopicEye eye);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F2")]
-	[Address(RVA = "0x4DB4190", Offset = "0x4DB4190", VA = "0x4DB4190")]
-	private static extern void GetStereoProjectionMatrix_Injected(IntPtr _unity_self, StereoscopicEye eye, out Matrix4x4 ret);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F3")]
-	[Address(RVA = "0x4DB4280", Offset = "0x4DB4280", VA = "0x4DB4280")]
+	[Token(Token = "0x60002E1")]
+	[Address(RVA = "0x2EBE020", Offset = "0x2EBC620", VA = "0x182EBE020")]
 	private static extern void SetStereoProjectionMatrix_Injected(IntPtr _unity_self, StereoscopicEye eye, [In] ref Matrix4x4 matrix);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F4")]
-	[Address(RVA = "0x4DB4360", Offset = "0x4DB4360", VA = "0x4DB4360")]
-	private static extern void ResetStereoProjectionMatrices_Injected(IntPtr _unity_self);
+	[Token(Token = "0x60002E2")]
+	[Address(RVA = "0x2EBE110", Offset = "0x2EBC710", VA = "0x182EBE110")]
+	private static extern void SetStereoViewMatrix_Injected(IntPtr _unity_self, StereoscopicEye eye, [In] ref Matrix4x4 matrix);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F5")]
-	[Address(RVA = "0x4DB4590", Offset = "0x4DB4590", VA = "0x4DB4590")]
+	[Token(Token = "0x60002E3")]
+	[Address(RVA = "0x2EBD570", Offset = "0x2EBBB70", VA = "0x182EBD570")]
+	private static extern int GetAllCamerasImpl_Injected([Out] Camera[] cam);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x60002E4")]
+	[Address(RVA = "0x2EBD940", Offset = "0x2EBBF40", VA = "0x182EBD940")]
 	private static extern void Render_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F6")]
-	[Address(RVA = "0x4DB46D0", Offset = "0x4DB46D0", VA = "0x4DB46D0")]
-	private static extern void RenderWithShader_Injected(IntPtr _unity_self, IntPtr shader, string replacementTag);
+	[Token(Token = "0x60002E5")]
+	[Address(RVA = "0x2EBF400", Offset = "0x2EBDA00", VA = "0x182EBF400")]
+	private static extern bool get_isProcessingRenderRequest_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x4DB47C0", Offset = "0x4DB47C0", VA = "0x4DB47C0")]
+	[Token(Token = "0x60002E6")]
+	[Address(RVA = "0x2EBE200", Offset = "0x2EBC800", VA = "0x182EBE200")]
 	private static extern void SetupCurrent_Injected(IntPtr cur);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x4DB48F0", Offset = "0x4DB48F0", VA = "0x4DB48F0")]
-	private static extern void CopyFrom_Injected(IntPtr _unity_self, IntPtr other);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001F9")]
-	[Address(RVA = "0x4DB49E0", Offset = "0x4DB49E0", VA = "0x4DB49E0")]
-	private static extern void AddCommandBufferImpl_Injected(IntPtr _unity_self, CameraEvent evt, CommandBuffer buffer);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001FA")]
-	[Address(RVA = "0x4DB4AD0", Offset = "0x4DB4AD0", VA = "0x4DB4AD0")]
-	private static extern void RemoveCommandBufferImpl_Injected(IntPtr _unity_self, CameraEvent evt, CommandBuffer buffer);
-
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60001FB")]
-	[Address(RVA = "0x4DB50A0", Offset = "0x4DB50A0", VA = "0x4DB50A0")]
+	[Token(Token = "0x60002E7")]
+	[Address(RVA = "0x2EBD720", Offset = "0x2EBBD20", VA = "0x182EBD720")]
 	private static extern bool GetCullingParameters_Internal_Injected(IntPtr camera, bool stereoAware, out ScriptableCullingParameters cullingParameters, int managedCullingParametersSize);
 }

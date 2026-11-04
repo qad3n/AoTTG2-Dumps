@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000300")]
+[Token(Token = "0x20003C9")]
 [Flags]
 public enum SortingCriteria
 {
-	[Token(Token = "0x4000923")]
+	[Token(Token = "0x4000C2D")]
 	None = 0,
-	[Token(Token = "0x4000924")]
+	[Token(Token = "0x4000C2E")]
 	SortingLayer = 1,
-	[Token(Token = "0x4000925")]
+	[Token(Token = "0x4000C2F")]
 	RenderQueue = 2,
-	[Token(Token = "0x4000926")]
+	[Token(Token = "0x4000C30")]
 	BackToFront = 4,
-	[Token(Token = "0x4000927")]
+	[Token(Token = "0x4000C31")]
 	QuantizedFrontToBack = 8,
-	[Token(Token = "0x4000928")]
+	[Token(Token = "0x4000C32")]
 	OptimizeStateChanges = 0x10,
-	[Token(Token = "0x4000929")]
+	[Token(Token = "0x4000C33")]
 	CanvasOrder = 0x20,
-	[Token(Token = "0x400092A")]
+	[Token(Token = "0x4000C34")]
 	RendererPriority = 0x40,
-	[Token(Token = "0x400092B")]
-	CommonOpaque = 0x3B,
-	[Token(Token = "0x400092C")]
-	CommonTransparent = 0x17
+	[Token(Token = "0x4000C35")]
+	CommonOpaque = SortingLayer | RenderQueue | QuantizedFrontToBack | OptimizeStateChanges | CanvasOrder,
+	[Token(Token = "0x4000C36")]
+	CommonTransparent = SortingLayer | RenderQueue | BackToFront | OptimizeStateChanges
 }

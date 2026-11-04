@@ -11,34 +11,34 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x20004A0")]
-[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Module | AttributeTargets.Class | AttributeTargets.Method)]
+[Token(Token = "0x20004D0")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Module | AttributeTargets.Class | AttributeTargets.Method)]
 public class CompilationRelaxationsAttribute : Attribute
 {
-	[Token(Token = "0x4001336")]
+	[Token(Token = "0x400133A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int m_relaxations;
 
-	[Token(Token = "0x17000481")]
+	[Token(Token = "0x17000484")]
 	public int CompilationRelaxations
 	{
-		[Token(Token = "0x60022FB")]
-		[Address(RVA = "0x3BC4050", Offset = "0x3BC4050", VA = "0x3BC4050")]
+		[Token(Token = "0x600237C")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60022F9")]
-	[Address(RVA = "0x3BC4010", Offset = "0x3BC4010", VA = "0x3BC4010")]
+	[Token(Token = "0x600237A")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public CompilationRelaxationsAttribute(int relaxations)
 	{
 	}
 
-	[Token(Token = "0x60022FA")]
-	[Address(RVA = "0x3BC4030", Offset = "0x3BC4030", VA = "0x3BC4030")]
+	[Token(Token = "0x600237B")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public CompilationRelaxationsAttribute(CompilationRelaxations relaxations)
 	{
 	}

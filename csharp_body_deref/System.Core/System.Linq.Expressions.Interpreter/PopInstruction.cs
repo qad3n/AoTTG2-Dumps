@@ -19,8 +19,8 @@ internal sealed class PopInstruction : Instruction
 	[Token(Token = "0x1700022A")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000AB5")]
-		[Address(RVA = "0x4502690", Offset = "0x4502690", VA = "0x4502690", Slot = "4")]
+		[Token(Token = "0x6000AB4")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -30,22 +30,22 @@ internal sealed class PopInstruction : Instruction
 	[Token(Token = "0x1700022B")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000AB6")]
-		[Address(RVA = "0x45026A0", Offset = "0x45026A0", VA = "0x45026A0", Slot = "9")]
+		[Token(Token = "0x6000AB5")]
+		[Address(RVA = "0x247C6E0", Offset = "0x247ACE0", VA = "0x18247C6E0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x4502680", Offset = "0x4502680", VA = "0x4502680")]
+	[Token(Token = "0x6000AB3")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private PopInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x45026D0", Offset = "0x45026D0", VA = "0x45026D0", Slot = "8")]
+	[Token(Token = "0x6000AB6")]
+	[Address(RVA = "0x247C640", Offset = "0x247AC40", VA = "0x18247C640", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

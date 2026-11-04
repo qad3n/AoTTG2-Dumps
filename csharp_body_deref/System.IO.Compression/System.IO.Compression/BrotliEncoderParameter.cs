@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.IO.Compression;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x2000010")]
 internal enum BrotliEncoderParameter
 {
-	[Token(Token = "0x4000028")]
-	Mode,
-	[Token(Token = "0x4000029")]
-	Quality,
-	[Token(Token = "0x400002A")]
-	LGWin,
-	[Token(Token = "0x400002B")]
-	LGBlock,
-	[Token(Token = "0x400002C")]
-	LCModeling,
 	[Token(Token = "0x400002D")]
+	Mode,
+	[Token(Token = "0x400002E")]
+	Quality,
+	[Token(Token = "0x400002F")]
+	LGWin,
+	[Token(Token = "0x4000030")]
+	LGBlock,
+	[Token(Token = "0x4000031")]
+	LCModeling,
+	[Token(Token = "0x4000032")]
 	SizeHint
 }

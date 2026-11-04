@@ -11,40 +11,40 @@ using Il2CppDummyDll;
 namespace UnityEngine.Internal;
 
 [Serializable]
-[Token(Token = "0x200029D")]
+[Token(Token = "0x20002FB")]
 [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.GenericParameter)]
 public class DefaultValueAttribute : Attribute
 {
-	[Token(Token = "0x40006E3")]
+	[Token(Token = "0x4000790")]
 	[FieldOffset(Offset = "0x10")]
 	private object DefaultValue;
 
-	[Token(Token = "0x1700025E")]
+	[Token(Token = "0x170002E2")]
 	public object Value
 	{
-		[Token(Token = "0x6000E0C")]
-		[Address(RVA = "0x4E18250", Offset = "0x4E18250", VA = "0x4E18250")]
+		[Token(Token = "0x6001215")]
+		[Address(RVA = "0x172DEB0", Offset = "0x172C4B0", VA = "0x18172DEB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E0B")]
-	[Address(RVA = "0x4E18220", Offset = "0x4E18220", VA = "0x4E18220")]
+	[Token(Token = "0x6001214")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public DefaultValueAttribute(string value)
 	{
 	}
 
-	[Token(Token = "0x6000E0D")]
-	[Address(RVA = "0x4E18260", Offset = "0x4E18260", VA = "0x4E18260", Slot = "0")]
+	[Token(Token = "0x6001216")]
+	[Address(RVA = "0x2F48E00", Offset = "0x2F47400", VA = "0x182F48E00", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E0E")]
-	[Address(RVA = "0x4E18320", Offset = "0x4E18320", VA = "0x4E18320", Slot = "2")]
+	[Token(Token = "0x6001217")]
+	[Address(RVA = "0x2F48EB0", Offset = "0x2F474B0", VA = "0x182F48EB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

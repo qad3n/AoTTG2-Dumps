@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x200002D")]
 internal static class DependencyInjector
 {
-	[Token(Token = "0x4000088")]
+	[Token(Token = "0x400010A")]
 	[FieldOffset(Offset = "0x0")]
 	private static object locker;
 
-	[Token(Token = "0x4000089")]
+	[Token(Token = "0x400010B")]
 	[FieldOffset(Offset = "0x8")]
 	private static Mono.ISystemDependencyProvider systemDependency;
 
 	[Token(Token = "0x17000003")]
 	internal static Mono.ISystemDependencyProvider SystemProvider
 	{
-		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x3ACD280", Offset = "0x3ACD280", VA = "0x3ACD280")]
+		[Token(Token = "0x600004D")]
+		[Address(RVA = "0x1944BE0", Offset = "0x19431E0", VA = "0x181944BE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x3ACD600", Offset = "0x3ACD600", VA = "0x3ACD600")]
+	[Token(Token = "0x600004E")]
+	[Address(RVA = "0x19449C0", Offset = "0x1942FC0", VA = "0x1819449C0")]
 	internal static void Register(Mono.ISystemDependencyProvider provider)
 	{
 	}
 
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x3ACD4D0", Offset = "0x3ACD4D0", VA = "0x3ACD4D0")]
+	[Token(Token = "0x600004F")]
+	[Address(RVA = "0x1944890", Offset = "0x1942E90", VA = "0x181944890")]
 	private static Mono.ISystemDependencyProvider ReflectionLoad()
 	{
 		return null;

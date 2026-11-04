@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200029C")]
+[Token(Token = "0x20001A7")]
 public interface IDataErrorInfo
 {
-	[Token(Token = "0x170003B3")]
+	[Token(Token = "0x17000222")]
 	string this[string columnName]
 	{
-		[Token(Token = "0x600109F")]
+		[Token(Token = "0x6000AE7")]
 		get;
 	}
 
-	[Token(Token = "0x170003B4")]
+	[Token(Token = "0x17000223")]
 	string Error
 	{
-		[Token(Token = "0x60010A0")]
+		[Token(Token = "0x6000AE8")]
 		get;
 	}
 }

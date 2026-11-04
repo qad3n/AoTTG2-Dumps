@@ -10,18 +10,18 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20004E5")]
+[Token(Token = "0x200063E")]
 internal class CharacterSpawner : MonoBehaviour
 {
-	[Token(Token = "0x60033C6")]
-	[Address(RVA = "0x41AA6F0", Offset = "0x41AA6F0", VA = "0x41AA6F0")]
+	[Token(Token = "0x6003DA8")]
+	[Address(RVA = "0x2114900", Offset = "0x2112F00", VA = "0x182114900")]
 	public static BaseCharacter Spawn(string name, Vector3 position, Quaternion rotation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60033C7")]
-	[Address(RVA = "0x41AA7F0", Offset = "0x41AA7F0", VA = "0x41AA7F0")]
+	[Token(Token = "0x6003DA9")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public CharacterSpawner()
 	{
 	}

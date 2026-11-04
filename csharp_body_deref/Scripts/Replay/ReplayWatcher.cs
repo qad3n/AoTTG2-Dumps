@@ -10,83 +10,83 @@ using UnityEngine;
 
 namespace Replay;
 
-[Token(Token = "0x20000DD")]
+[Token(Token = "0x20000FD")]
 internal class ReplayWatcher : MonoBehaviour
 {
-	[Token(Token = "0x4000527")]
+	[Token(Token = "0x40005C7")]
 	[FieldOffset(Offset = "0x20")]
 	public bool Playing;
 
-	[Token(Token = "0x4000528")]
+	[Token(Token = "0x40005C8")]
 	[FieldOffset(Offset = "0x24")]
 	public float Speed;
 
-	[Token(Token = "0x4000529")]
+	[Token(Token = "0x40005C9")]
 	[FieldOffset(Offset = "0x28")]
 	public float CurrentTime;
 
-	[Token(Token = "0x400052A")]
+	[Token(Token = "0x40005CA")]
 	[FieldOffset(Offset = "0x2C")]
 	public float MaxTime;
 
-	[Token(Token = "0x400052B")]
+	[Token(Token = "0x40005CB")]
 	[FieldOffset(Offset = "0x30")]
 	private ReplayScript _script;
 
-	[Token(Token = "0x400052C")]
+	[Token(Token = "0x40005CC")]
 	[FieldOffset(Offset = "0x38")]
 	private int _currentEvent;
 
-	[Token(Token = "0x6000422")]
-	[Address(RVA = "0x4104650", Offset = "0x4104650", VA = "0x4104650")]
+	[Token(Token = "0x60004BB")]
+	[Address(RVA = "0x1F255A0", Offset = "0x1F23BA0", VA = "0x181F255A0")]
 	public void LoadScript(ReplayScript script)
 	{
 	}
 
-	[Token(Token = "0x6000423")]
-	[Address(RVA = "0x4104890", Offset = "0x4104890", VA = "0x4104890")]
+	[Token(Token = "0x60004BC")]
+	[Address(RVA = "0x1F251E0", Offset = "0x1F237E0", VA = "0x181F251E0")]
 	private void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x4104710", Offset = "0x4104710", VA = "0x4104710")]
+	[Token(Token = "0x60004BD")]
+	[Address(RVA = "0x1F252E0", Offset = "0x1F238E0", VA = "0x181F252E0")]
 	private void HandleEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x4104980", Offset = "0x4104980", VA = "0x4104980")]
+	[Token(Token = "0x60004BE")]
+	[Address(RVA = "0x1F254F0", Offset = "0x1F23AF0", VA = "0x181F254F0")]
 	private void HandleMapEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x4104A20", Offset = "0x4104A20", VA = "0x4104A20")]
+	[Token(Token = "0x60004BF")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void HandleHumanEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x6000427")]
-	[Address(RVA = "0x4104A30", Offset = "0x4104A30", VA = "0x4104A30")]
+	[Token(Token = "0x60004C0")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void HandleTitanEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x6000428")]
-	[Address(RVA = "0x4104A40", Offset = "0x4104A40", VA = "0x4104A40")]
+	[Token(Token = "0x60004C1")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void HandleCameraEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x4104A50", Offset = "0x4104A50", VA = "0x4104A50")]
+	[Token(Token = "0x60004C2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void HandleChatEvent(ReplayScriptEvent currentEvent)
 	{
 	}
 
-	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x4104A60", Offset = "0x4104A60", VA = "0x4104A60")]
+	[Token(Token = "0x60004C3")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ReplayWatcher()
 	{
 	}

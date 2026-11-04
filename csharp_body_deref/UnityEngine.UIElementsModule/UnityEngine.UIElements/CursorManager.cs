@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200013A")]
+[Token(Token = "0x2000186")]
 internal class CursorManager : ICursorManager
 {
-	[Token(Token = "0x1700017D")]
+	[Token(Token = "0x17000212")]
 	public bool isCursorOverriden
 	{
-		[Token(Token = "0x60008BD")]
-		[Address(RVA = "0x50169D0", Offset = "0x50169D0", VA = "0x50169D0")]
+		[Token(Token = "0x6000B00")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60008BE")]
-		[Address(RVA = "0x50169E0", Offset = "0x50169E0", VA = "0x50169E0")]
+		[Token(Token = "0x6000B01")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60008BF")]
-	[Address(RVA = "0x50169F0", Offset = "0x50169F0", VA = "0x50169F0", Slot = "4")]
+	[Token(Token = "0x6000B02")]
+	[Address(RVA = "0x323ECD0", Offset = "0x323D2D0", VA = "0x18323ECD0", Slot = "4")]
 	public void SetCursor(Cursor cursor)
 	{
 	}
 
-	[Token(Token = "0x60008C0")]
-	[Address(RVA = "0x5016B00", Offset = "0x5016B00", VA = "0x5016B00", Slot = "5")]
+	[Token(Token = "0x6000B03")]
+	[Address(RVA = "0x323EC70", Offset = "0x323D270", VA = "0x18323EC70", Slot = "5")]
 	public void ResetCursor()
 	{
 	}
 
-	[Token(Token = "0x60008C1")]
-	[Address(RVA = "0x5016B50", Offset = "0x5016B50", VA = "0x5016B50")]
+	[Token(Token = "0x6000B04")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CursorManager()
 	{
 	}

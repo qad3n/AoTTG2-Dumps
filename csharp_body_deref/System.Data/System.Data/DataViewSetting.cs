@@ -10,92 +10,92 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x2000056")]
 [TypeConverter(typeof(ExpandableObjectConverter))]
 public class DataViewSetting
 {
-	[Token(Token = "0x4000167")]
+	[Token(Token = "0x40001AF")]
 	[FieldOffset(Offset = "0x10")]
 	private DataViewManager _dataViewManager;
 
-	[Token(Token = "0x4000168")]
+	[Token(Token = "0x40001B0")]
 	[FieldOffset(Offset = "0x18")]
 	private DataTable _table;
 
-	[Token(Token = "0x4000169")]
+	[Token(Token = "0x40001B1")]
 	[FieldOffset(Offset = "0x20")]
 	private string _sort;
 
-	[Token(Token = "0x400016A")]
+	[Token(Token = "0x40001B2")]
 	[FieldOffset(Offset = "0x28")]
 	private string _rowFilter;
 
-	[Token(Token = "0x400016B")]
+	[Token(Token = "0x40001B3")]
 	[FieldOffset(Offset = "0x30")]
 	private DataViewRowState _rowStateFilter;
 
-	[Token(Token = "0x400016C")]
+	[Token(Token = "0x40001B4")]
 	[FieldOffset(Offset = "0x34")]
 	private bool _applyDefaultSort;
 
-	[Token(Token = "0x17000102")]
+	[Token(Token = "0x17000107")]
 	public bool ApplyDefaultSort
 	{
-		[Token(Token = "0x6000585")]
-		[Address(RVA = "0x459A370", Offset = "0x459A370", VA = "0x459A370")]
+		[Token(Token = "0x60005B8")]
+		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000103")]
+	[Token(Token = "0x17000108")]
 	public string RowFilter
 	{
-		[Token(Token = "0x6000588")]
-		[Address(RVA = "0x459A3C0", Offset = "0x459A3C0", VA = "0x459A3C0")]
+		[Token(Token = "0x60005BB")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000104")]
+	[Token(Token = "0x17000109")]
 	public DataViewRowState RowStateFilter
 	{
-		[Token(Token = "0x6000589")]
-		[Address(RVA = "0x459A3D0", Offset = "0x459A3D0", VA = "0x459A3D0")]
+		[Token(Token = "0x60005BC")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		get
 		{
 			return default(DataViewRowState);
 		}
 	}
 
-	[Token(Token = "0x17000105")]
+	[Token(Token = "0x1700010A")]
 	public string Sort
 	{
-		[Token(Token = "0x600058A")]
-		[Address(RVA = "0x459A3E0", Offset = "0x459A3E0", VA = "0x459A3E0")]
+		[Token(Token = "0x60005BD")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x459A300", Offset = "0x459A300", VA = "0x459A300")]
+	[Token(Token = "0x60005B7")]
+	[Address(RVA = "0x250C550", Offset = "0x250AB50", VA = "0x18250C550")]
 	internal DataViewSetting()
 	{
 	}
 
-	[Token(Token = "0x6000586")]
-	[Address(RVA = "0x459A380", Offset = "0x459A380", VA = "0x459A380")]
+	[Token(Token = "0x60005B9")]
+	[Address(RVA = "0x24F27E0", Offset = "0x24F0DE0", VA = "0x1824F27E0")]
 	internal void SetDataViewManager(DataViewManager dataViewManager)
 	{
 	}
 
-	[Token(Token = "0x6000587")]
-	[Address(RVA = "0x459A3A0", Offset = "0x459A3A0", VA = "0x459A3A0")]
+	[Token(Token = "0x60005BA")]
+	[Address(RVA = "0x250C530", Offset = "0x250AB30", VA = "0x18250C530")]
 	internal void SetDataTable(DataTable table)
 	{
 	}

@@ -16,30 +16,30 @@ using UnityEngine.EventSystems;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001B")]
 public class OnClickDestroy : MonoBehaviourPun, IPointerClickHandler, IEventSystemHandler
 {
-	[Token(Token = "0x200001E")]
+	[Token(Token = "0x200001C")]
 	[CompilerGenerated]
 	private sealed class _003CDestroyRpc_003Ed__4 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000079")]
+		[Token(Token = "0x4000074")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400007A")]
+		[Token(Token = "0x4000075")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400007B")]
+		[Token(Token = "0x4000076")]
 		[FieldOffset(Offset = "0x20")]
 		public OnClickDestroy _003C_003E4__this;
 
 		[Token(Token = "0x17000007")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60000A2")]
-			[Address(RVA = "0x3F09490", Offset = "0x3F09490", VA = "0x3F09490", Slot = "4")]
+			[Token(Token = "0x60000A0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -50,8 +50,8 @@ public class OnClickDestroy : MonoBehaviourPun, IPointerClickHandler, IEventSyst
 		[Token(Token = "0x17000008")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000A4")]
-			[Address(RVA = "0x3F094E0", Offset = "0x3F094E0", VA = "0x3F094E0", Slot = "7")]
+			[Token(Token = "0x60000A2")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,55 +59,55 @@ public class OnClickDestroy : MonoBehaviourPun, IPointerClickHandler, IEventSyst
 			}
 		}
 
-		[Token(Token = "0x600009F")]
-		[Address(RVA = "0x3F09380", Offset = "0x3F09380", VA = "0x3F09380")]
+		[Token(Token = "0x600009D")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CDestroyRpc_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x3F093B0", Offset = "0x3F093B0", VA = "0x3F093B0", Slot = "5")]
+		[Token(Token = "0x600009E")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x3F093C0", Offset = "0x3F093C0", VA = "0x3F093C0", Slot = "6")]
+		[Token(Token = "0x600009F")]
+		[Address(RVA = "0x1D60920", Offset = "0x1D5EF20", VA = "0x181D60920", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x3F094A0", Offset = "0x3F094A0", VA = "0x3F094A0", Slot = "8")]
+		[Token(Token = "0x60000A1")]
+		[Address(RVA = "0x1D609F0", Offset = "0x1D5EFF0", VA = "0x181D609F0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000071")]
 	[FieldOffset(Offset = "0x28")]
 	public PointerEventData.InputButton Button;
 
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000072")]
 	[FieldOffset(Offset = "0x2C")]
 	public KeyCode ModifierKey;
 
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x4000073")]
 	[FieldOffset(Offset = "0x30")]
 	public bool DestroyByRpc;
 
-	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x3F09120", Offset = "0x3F09120", VA = "0x3F09120", Slot = "4")]
+	[Token(Token = "0x600009A")]
+	[Address(RVA = "0x1D539E0", Offset = "0x1D51FE0", VA = "0x181D539E0", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600009D")]
-	[Address(RVA = "0x3F09310", Offset = "0x3F09310", VA = "0x3F09310")]
+	[Token(Token = "0x600009B")]
+	[Address(RVA = "0x1D53970", Offset = "0x1D51F70", VA = "0x181D53970")]
 	[IteratorStateMachine(typeof(_003CDestroyRpc_003Ed__4))]
 	[PunRPC]
 	public IEnumerator DestroyRpc()
@@ -115,8 +115,8 @@ public class OnClickDestroy : MonoBehaviourPun, IPointerClickHandler, IEventSyst
 		return null;
 	}
 
-	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x3F093A0", Offset = "0x3F093A0", VA = "0x3F093A0")]
+	[Token(Token = "0x600009C")]
+	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
 	public OnClickDestroy()
 	{
 	}

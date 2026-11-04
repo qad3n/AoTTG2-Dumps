@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000DF")]
 public enum ActionDirection
 {
-	[Token(Token = "0x4000156")]
+	[Token(Token = "0x4000154")]
 	Any,
-	[Token(Token = "0x4000157")]
+	[Token(Token = "0x4000155")]
 	Get,
-	[Token(Token = "0x4000158")]
+	[Token(Token = "0x4000156")]
 	Set
 }

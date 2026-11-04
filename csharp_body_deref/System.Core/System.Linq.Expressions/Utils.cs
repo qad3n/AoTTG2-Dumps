@@ -124,15 +124,15 @@ internal static class Utils
 	[FieldOffset(Offset = "0xD8")]
 	public static readonly ConstantExpression Null;
 
-	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x44C1BD0", Offset = "0x44C1BD0", VA = "0x44C1BD0")]
+	[Token(Token = "0x6000581")]
+	[Address(RVA = "0x2443560", Offset = "0x2441B60", VA = "0x182443560")]
 	public static ConstantExpression Constant(bool value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x44C1C30", Offset = "0x44C1C30", VA = "0x44C1C30")]
+	[Token(Token = "0x6000582")]
+	[Address(RVA = "0x24433C0", Offset = "0x24419C0", VA = "0x1824433C0")]
 	public static ConstantExpression Constant(int value)
 	{
 		return null;

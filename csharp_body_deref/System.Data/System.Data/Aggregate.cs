@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200004D")]
+[Token(Token = "0x200005A")]
 internal enum Aggregate
 {
-	[Token(Token = "0x4000172")]
+	[Token(Token = "0x40001BA")]
 	None = -1,
-	[Token(Token = "0x4000173")]
+	[Token(Token = "0x40001BB")]
 	Sum = 30,
-	[Token(Token = "0x4000174")]
+	[Token(Token = "0x40001BC")]
 	Avg = 31,
-	[Token(Token = "0x4000175")]
+	[Token(Token = "0x40001BD")]
 	Min = 32,
-	[Token(Token = "0x4000176")]
+	[Token(Token = "0x40001BE")]
 	Max = 33,
-	[Token(Token = "0x4000177")]
+	[Token(Token = "0x40001BF")]
 	Count = 34,
-	[Token(Token = "0x4000178")]
+	[Token(Token = "0x40001C0")]
 	StDev = 35,
-	[Token(Token = "0x4000179")]
+	[Token(Token = "0x40001C1")]
 	Var = 37
 }

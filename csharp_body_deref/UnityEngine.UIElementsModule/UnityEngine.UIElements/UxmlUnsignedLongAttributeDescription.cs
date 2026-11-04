@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000429")]
+[Token(Token = "0x20004F2")]
 public class UxmlUnsignedLongAttributeDescription : TypedUxmlAttributeDescription<ulong>
 {
-	[Token(Token = "0x6001AB3")]
-	[Address(RVA = "0x4F6A6B0", Offset = "0x4F6A6B0", VA = "0x4F6A6B0")]
+	[Token(Token = "0x600267E")]
+	[Address(RVA = "0x3159270", Offset = "0x3157870", VA = "0x183159270")]
 	public UxmlUnsignedLongAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AB4")]
-	[Address(RVA = "0x4F6A740", Offset = "0x4F6A740", VA = "0x4F6A740", Slot = "4")]
+	[Token(Token = "0x600267F")]
+	[Address(RVA = "0x3159100", Offset = "0x3157700", VA = "0x183159100", Slot = "4")]
 	public override ulong GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(ulong);
 	}
 
-	[Token(Token = "0x6001AB5")]
-	[Address(RVA = "0x4F6A910", Offset = "0x4F6A910", VA = "0x4F6A910")]
+	[Token(Token = "0x6002680")]
+	[Address(RVA = "0x31590C0", Offset = "0x31576C0", VA = "0x1831590C0")]
 	private static ulong ConvertValueToUlong(string v, ulong defaultValue)
 	{
 		return default(ulong);

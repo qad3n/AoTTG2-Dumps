@@ -12,82 +12,82 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200010E")]
+[Token(Token = "0x2000107")]
 public struct SwitchToSynchronizationContextAwaitable
 {
-	[Token(Token = "0x200010F")]
+	[Token(Token = "0x2000108")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x4000414")]
+		[Token(Token = "0x4000405")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly SendOrPostCallback switchToCallback;
 
-		[Token(Token = "0x4000415")]
+		[Token(Token = "0x4000406")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly SynchronizationContext synchronizationContext;
 
-		[Token(Token = "0x4000416")]
+		[Token(Token = "0x4000407")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly CancellationToken cancellationToken;
 
-		[Token(Token = "0x17000048")]
+		[Token(Token = "0x17000046")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60006A8")]
-			[Address(RVA = "0x49EA760", Offset = "0x49EA760", VA = "0x49EA760")]
+			[Token(Token = "0x6000688")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60006A7")]
-		[Address(RVA = "0x49EA730", Offset = "0x49EA730", VA = "0x49EA730")]
+		[Token(Token = "0x6000687")]
+		[Address(RVA = "0xE927B0", Offset = "0xE90DB0", VA = "0x180E927B0")]
 		public Awaiter(SynchronizationContext synchronizationContext, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x60006A9")]
-		[Address(RVA = "0x49EA770", Offset = "0x49EA770", VA = "0x49EA770")]
+		[Token(Token = "0x6000689")]
+		[Address(RVA = "0x2908670", Offset = "0x2906C70", VA = "0x182908670")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x60006AA")]
-		[Address(RVA = "0x49EA7D0", Offset = "0x49EA7D0", VA = "0x49EA7D0", Slot = "5")]
+		[Token(Token = "0x600068A")]
+		[Address(RVA = "0x2908B20", Offset = "0x2907120", VA = "0x182908B20", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006AB")]
-		[Address(RVA = "0x49EA850", Offset = "0x49EA850", VA = "0x49EA850", Slot = "4")]
+		[Token(Token = "0x600068B")]
+		[Address(RVA = "0x2909120", Offset = "0x2907720", VA = "0x182909120", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x49EA8D0", Offset = "0x49EA8D0", VA = "0x49EA8D0")]
+		[Token(Token = "0x600068C")]
+		[Address(RVA = "0x29083E0", Offset = "0x29069E0", VA = "0x1829083E0")]
 		private static void Callback(object state)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000412")]
+	[Token(Token = "0x4000403")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly SynchronizationContext synchronizationContext;
 
-	[Token(Token = "0x4000413")]
+	[Token(Token = "0x4000404")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x49DEEA0", Offset = "0x49DEEA0", VA = "0x49DEEA0")]
+	[Token(Token = "0x6000685")]
+	[Address(RVA = "0xE927B0", Offset = "0xE90DB0", VA = "0x180E927B0")]
 	public SwitchToSynchronizationContextAwaitable(SynchronizationContext synchronizationContext, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x49EA6E0", Offset = "0x49EA6E0", VA = "0x49EA6E0")]
+	[Token(Token = "0x6000686")]
+	[Address(RVA = "0x2911DC0", Offset = "0x29103C0", VA = "0x182911DC0")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

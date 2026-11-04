@@ -13,16 +13,16 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200007E")]
 public interface IGraphDebugData
 {
-	[Token(Token = "0x170000E3")]
+	[Token(Token = "0x170000E6")]
 	IEnumerable<IGraphElementDebugData> elementsData
 	{
-		[Token(Token = "0x60003D4")]
+		[Token(Token = "0x60003DE")]
 		get;
 	}
 
-	[Token(Token = "0x60003D2")]
+	[Token(Token = "0x60003DC")]
 	IGraphElementDebugData GetOrCreateElementData(IGraphElementWithDebugData element);
 
-	[Token(Token = "0x60003D3")]
+	[Token(Token = "0x60003DD")]
 	IGraphDebugData GetOrCreateChildGraphData(IGraphParentElement element);
 }

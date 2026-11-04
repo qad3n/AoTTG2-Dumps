@@ -1,253 +1,287 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchUiSounds
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchUiSounds.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Actions.GisketchUiSounds$$Play
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchUiSounds__Play (int32_t kind, const MethodInfo* method);
-// 0x3b9cda0
+// 0x18190ff70
 
 void Gisketch_Aottg2UI_Actions_GisketchUiSounds__Play(int32_t kind,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *pUVar1;
-  long lVar2;
-  bool_conflict bVar3;
-  MethodInfo *clip;
+  int iVar1;
+  bool bVar2;
+  int32_t iVar3;
+  UnityEngine_AudioClip_o *clip;
   UnityEngine_AudioSource_o *__this;
-  Il2CppObject *pIVar4;
-  MethodInfo *method_00;
+  float volumeScale;
   
-  if (g_data_057a9f2b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9f2b = '\x01';
+  if (Il2CppMethodInitialized_184342289 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Application);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184342289 = '\x01';
   }
-  clip = (MethodInfo *)Gisketch_Aottg2UI_Actions_GisketchUiSounds__Clip(kind,method);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Application->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Application);
   }
-  method_00 = clip;
-  bVar3 = UnityEngine_Object__op_Inequality
+  bVar2 = UnityEngine_Application__get_isPlaying((MethodInfo *)0x0);
+  if (bVar2) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    iVar1 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_lastFrame;
+    iVar3 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
+    if (iVar1 == iVar3) {
+      if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+      }
+      if (TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_lastKind == kind) {
+        return;
+      }
+    }
+  }
+  iVar3 = UnityEngine_Time__get_frameCount((MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+  }
+  TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_lastFrame = iVar3;
+  TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_lastKind = kind;
+  clip = Gisketch_Aottg2UI_Actions_GisketchUiSounds__Clip(kind,(MethodInfo *)0x0);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar2 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)clip,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    return;
+  if (bVar2) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    __this = Gisketch_Aottg2UI_Actions_GisketchUiSounds__Source((MethodInfo *)0x0);
+    if (kind == 2) {
+      volumeScale = 0.4;
+    }
+    else {
+      volumeScale = 0.6;
+    }
+    if (__this == (UnityEngine_AudioSource_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    UnityEngine_AudioSource__PlayOneShot_2eb41e0(__this,clip,volumeScale,(MethodInfo *)0x0);
   }
-  __this = Gisketch_Aottg2UI_Actions_GisketchUiSounds__Source(method_00);
-  if (__this == (UnityEngine_AudioSource_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057a9f2c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiSounds);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_AudioClip_Load_AudioClip);
-      il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonForwardSound");
-      il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonBackSound");
-      il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonHoverSound");
-      g_data_057a9f2c = '\x01';
-    }
-    pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 8);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonForwardSound",MethodInfo_AudioClip_Load_AudioClip);
-      lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-      *(Il2CppObject **)(lVar2 + 8) = pIVar4;
-      il2cpp_runtime_helper_022b4080(lVar2 + 8);
-    }
-    pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x10);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonBackSound",MethodInfo_AudioClip_Load_AudioClip);
-      lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-      *(Il2CppObject **)(lVar2 + 0x10) = pIVar4;
-      il2cpp_runtime_helper_022b4080(lVar2 + 0x10);
-    }
-    pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x18);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonHoverSound",MethodInfo_AudioClip_Load_AudioClip);
-      lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-      *(Il2CppObject **)(lVar2 + 0x18) = pIVar4;
-      il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pIVar4);
-    }
-    return;
-  }
-  UnityEngine_AudioSource__PlayOneShot_4daa3b0
-            (__this,(UnityEngine_AudioClip_o *)clip,*(float *)(&g_data_00d1d3b0 + (ulong)(kind == 2) * 4),
-             (MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchUiSounds$$Clip
 // il2cpp: UnityEngine_AudioClip_o* Gisketch_Aottg2UI_Actions_GisketchUiSounds__Clip (int32_t kind, const MethodInfo* method);
-// 0x3b9ce30
+// 0x18190fc70
 
 UnityEngine_AudioClip_o * Gisketch_Aottg2UI_Actions_GisketchUiSounds__Clip(int32_t kind,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *pUVar1;
-  long lVar2;
-  bool_conflict bVar3;
-  Il2CppObject *pIVar4;
-  undefined8 *puVar5;
+  bool bVar1;
+  UnityEngine_AudioClip_o *pUVar2;
   
-  if (g_data_057a9f2c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiSounds);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AudioClip_Load_AudioClip);
-    il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonForwardSound");
-    il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonBackSound");
-    il2cpp_runtime_helper_023445d0(&"GisketchUI/Sounds/ButtonHoverSound");
-    g_data_057a9f2c = '\x01';
+  if (Il2CppMethodInitialized_18434228a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Resources_Load_AudioClip);
+    il2cpp_codegen_initialize_runtime_metadata(&"GisketchUI/Sounds/ButtonForwardSound");
+    il2cpp_codegen_initialize_runtime_metadata(&"GisketchUI/Sounds/ButtonBackSound");
+    il2cpp_codegen_initialize_runtime_metadata(&"GisketchUI/Sounds/ButtonHoverSound");
+    Il2CppMethodInitialized_18434228a = '\x01';
   }
-  pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 8);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
   }
-  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonForwardSound",MethodInfo_AudioClip_Load_AudioClip);
-    lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-    *(Il2CppObject **)(lVar2 + 8) = pIVar4;
-    il2cpp_runtime_helper_022b4080(lVar2 + 8);
+  pUVar2 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_forward;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x10);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    pUVar2 = UnityEngine_Resources__Load_object_
+                       ("GisketchUI/Sounds/ButtonForwardSound",
+                        (MethodInfo_7965D0 *)MethodInfo_UnityEngine_Resources_Load_AudioClip);
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_forward = pUVar2;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_forward,pUVar2);
   }
-  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonBackSound",MethodInfo_AudioClip_Load_AudioClip);
-    lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-    *(Il2CppObject **)(lVar2 + 0x10) = pIVar4;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x10);
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
   }
-  pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x18);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar2 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_back;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Equality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    pIVar4 = UnityEngine_Resources__Load_object_("GisketchUI/Sounds/ButtonHoverSound",MethodInfo_AudioClip_Load_AudioClip);
-    lVar2 = *(long *)(TypeInfo_GisketchUiSounds + 0xb8);
-    *(Il2CppObject **)(lVar2 + 0x18) = pIVar4;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pIVar4);
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    pUVar2 = UnityEngine_Resources__Load_object_
+                       ("GisketchUI/Sounds/ButtonBackSound",
+                        (MethodInfo_7965D0 *)MethodInfo_UnityEngine_Resources_Load_AudioClip);
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_back = pUVar2;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_back,pUVar2);
   }
-  if (kind == 1) {
-    puVar5 = (undefined8 *)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x10);
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
   }
-  else if (kind == 2) {
-    puVar5 = (undefined8 *)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 0x18);
+  pUVar2 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_hover;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  else {
-    puVar5 = (undefined8 *)(*(long *)(TypeInfo_GisketchUiSounds + 0xb8) + 8);
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    pUVar2 = UnityEngine_Resources__Load_object_
+                       ("GisketchUI/Sounds/ButtonHoverSound",
+                        (MethodInfo_7965D0 *)MethodInfo_UnityEngine_Resources_Load_AudioClip);
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_hover = pUVar2;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_hover,pUVar2);
   }
-  return (UnityEngine_AudioClip_o *)*puVar5;
+  if (kind != 1) {
+    if (kind != 2) {
+      if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+      }
+      return TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_forward;
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    }
+    return TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_hover;
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+  }
+  return TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_back;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchUiSounds$$Source
 // il2cpp: UnityEngine_AudioSource_o* Gisketch_Aottg2UI_Actions_GisketchUiSounds__Source (const MethodInfo* method);
-// 0x3b9d010
+// 0x181910100
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1819102f3: mov rax, qword ptr [rip + 0x2776c56]  ; TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds
 
 UnityEngine_AudioSource_o * Gisketch_Aottg2UI_Actions_GisketchUiSounds__Source(MethodInfo *method)
 
 {
-  char cVar1;
-  bool_conflict bVar2;
-  UnityEngine_Object_o *__this;
-  Il2CppObject *pIVar3;
-  int iVar4;
-  UnityEngine_Object_o *pUVar5;
+  bool bVar1;
+  UnityEngine_Object_o *pUVar2;
+  UnityEngine_AudioSource_o *pUVar3;
   
-  if (g_data_057a9f2d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Application);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AudioSource_AddComponent_AudioSource);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiSounds);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"AoTTG UI Sounds");
-    g_data_057a9f2d = '\x01';
+  if (Il2CppMethodInitialized_18434228b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Application);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_AudioSource);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG UI Sounds");
+    Il2CppMethodInitialized_18434228b = '\x01';
   }
-  pUVar5 = (UnityEngine_Object_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
   }
-  bVar2 = UnityEngine_Object__op_Inequality(pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    __this = (UnityEngine_Object_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-    pUVar5 = __this;
-    UnityEngine_GameObject___ctor((UnityEngine_GameObject_o *)__this,"AoTTG UI Sounds",(MethodInfo *)0x0);
-    iVar4 = (int)pUVar5;
-    if (__this != (UnityEngine_Object_o *)0x0) {
-      UnityEngine_Object__set_hideFlags(__this,0x3d,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_Application + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        bVar2 = UnityEngine_Application__get_isPlaying((MethodInfo *)0x0);
-        cVar1 = (char)bVar2;
+  pUVar2 = (UnityEngine_Object_o *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source
+  ;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality(pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar1) {
+    pUVar2 = (UnityEngine_Object_o *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject)
+    ;
+    UnityEngine_GameObject___ctor((UnityEngine_GameObject_o *)pUVar2,"AoTTG UI Sounds",(MethodInfo *)0x0);
+    if (pUVar2 != (UnityEngine_Object_o *)0x0) {
+      UnityEngine_Object__set_hideFlags(pUVar2,0x3d,(MethodInfo *)0x0);
+      if ((TypeInfo_UnityEngine_Application->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Application);
       }
-      else {
-        bVar2 = UnityEngine_Application__get_isPlaying((MethodInfo *)0x0);
-        cVar1 = (char)bVar2;
-      }
-      if (cVar1 != '\0') {
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+      bVar1 = UnityEngine_Application__get_isPlaying((MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
         }
-        UnityEngine_Object__DontDestroyOnLoad(__this,(MethodInfo *)0x0);
+        UnityEngine_Object__DontDestroyOnLoad(pUVar2,(MethodInfo *)0x0);
       }
-      pIVar3 = UnityEngine_GameObject__AddComponent_object_((UnityEngine_GameObject_o *)__this,MethodInfo_AudioSource_AddComponent_AudioSource);
-      **(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8) = pIVar3;
-      il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_GisketchUiSounds + 0xb8));
-      iVar4 = 0;
-      if ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8) !=
-          (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__set_playOnAwake
-                  ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8),0,(MethodInfo *)0x0);
-        iVar4 = 0;
-        if ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8) !=
-            (UnityEngine_AudioSource_o *)0x0) {
-          UnityEngine_AudioSource__set_spatialBlend
-                    ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8),0.0,(MethodInfo *)0x0
-                    );
-          iVar4 = 0;
-          if ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8) !=
-              (UnityEngine_AudioSource_o *)0x0) {
-            UnityEngine_AudioSource__set_ignoreListenerVolume
-                      ((UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8),0,(MethodInfo *)0x0
-                      );
-            goto label_03b9d1b9;
+      pUVar3 = UnityEngine_GameObject__AddComponent_object_
+                         ((UnityEngine_GameObject_o *)pUVar2,
+                          (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_AudioSource);
+      if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+      }
+      TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source = pUVar3;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source,pUVar3);
+      pUVar3 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source;
+      if (pUVar3 != (UnityEngine_AudioSource_o *)0x0) {
+        UnityEngine_AudioSource__set_playOnAwake(pUVar3,false,(MethodInfo *)0x0);
+        pUVar3 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source;
+        if (pUVar3 != (UnityEngine_AudioSource_o *)0x0) {
+          UnityEngine_AudioSource__set_spatialBlend(pUVar3,0.0,(MethodInfo *)0x0);
+          pUVar3 = TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source;
+          if (pUVar3 != (UnityEngine_AudioSource_o *)0x0) {
+            UnityEngine_AudioSource__set_ignoreListenerVolume(pUVar3,false,(MethodInfo *)0x0);
+            goto label_1819102fa;
           }
         }
       }
     }
-    il2cpp_runtime_helper_022b2c90();
-    return (UnityEngine_AudioSource_o *)(ulong)(iVar4 == 2);
+    ThrowNullReferenceException();
   }
-label_03b9d1b9:
-  return (UnityEngine_AudioSource_o *)**(undefined8 **)(TypeInfo_GisketchUiSounds + 0xb8);
+  if ((TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+  }
+label_1819102fa:
+  return TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_source;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchUiSounds$$Volume
 // il2cpp: float Gisketch_Aottg2UI_Actions_GisketchUiSounds__Volume (int32_t kind, const MethodInfo* method);
-// 0x3b9d1e0
+// 0x181910310
 
 float Gisketch_Aottg2UI_Actions_GisketchUiSounds__Volume(int32_t kind,MethodInfo *method)
 
 {
-  return *(float *)(&g_data_00d1d3b0 + (ulong)(kind == 2) * 4);
+  if (kind == 2) {
+    return 0.4;
+  }
+  return 0.6;
+}
+
+
+// Gisketch.Aottg2UI.Actions.GisketchUiSounds$$.cctor
+// il2cpp: void Gisketch_Aottg2UI_Actions_GisketchUiSounds___cctor (const MethodInfo* method);
+// 0x181910330
+
+void Gisketch_Aottg2UI_Actions_GisketchUiSounds___cctor(MethodInfo *method)
+
+{
+  if (Il2CppMethodInitialized_18434228c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds);
+    Il2CppMethodInitialized_18434228c = '\x01';
+  }
+  TypeInfo_Gisketch_Aottg2UI_Actions_GisketchUiSounds->static_fields->_lastFrame = -1;
+  return;
 }
 
 

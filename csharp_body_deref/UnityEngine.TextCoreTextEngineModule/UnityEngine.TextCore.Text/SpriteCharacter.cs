@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace UnityEngine.TextCore.Text;
 
 [Serializable]
-[Token(Token = "0x2000018")]
+[Token(Token = "0x2000038")]
 public class SpriteCharacter : TextElement
 {
-	[Token(Token = "0x40000C6")]
+	[Token(Token = "0x400019E")]
 	[FieldOffset(Offset = "0x30")]
 	[SerializeField]
 	private string m_Name;
 
-	[Token(Token = "0x17000025")]
+	[Token(Token = "0x1700003A")]
 	public string name
 	{
-		[Token(Token = "0x60000D4")]
-		[Address(RVA = "0x4EB7030", Offset = "0x4EB7030", VA = "0x4EB7030")]
+		[Token(Token = "0x600017D")]
+		[Address(RVA = "0xD0ECE0", Offset = "0xD0D2E0", VA = "0x180D0ECE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4EB82E0", Offset = "0x4EB82E0", VA = "0x4EB82E0")]
+	[Token(Token = "0x600017E")]
+	[Address(RVA = "0x2D42860", Offset = "0x2D40E60", VA = "0x182D42860")]
 	public SpriteCharacter()
 	{
 	}

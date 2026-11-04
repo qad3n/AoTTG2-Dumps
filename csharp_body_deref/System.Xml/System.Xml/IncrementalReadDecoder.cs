@@ -23,7 +23,7 @@ internal abstract class IncrementalReadDecoder
 	internal abstract int Decode(char[] chars, int startPos, int len);
 
 	[Token(Token = "0x600017C")]
-	[Address(RVA = "0x4793B90", Offset = "0x4793B90", VA = "0x4793B90")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected IncrementalReadDecoder()
 	{
 	}

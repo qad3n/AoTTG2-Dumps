@@ -6,17 +6,19 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x2000537")]
+[Token(Token = "0x200062F")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal struct StylePropertyValue
 {
-	[Token(Token = "0x4001200")]
+	[Token(Token = "0x40017AB")]
 	[FieldOffset(Offset = "0x0")]
 	public StyleSheet sheet;
 
-	[Token(Token = "0x4001201")]
+	[Token(Token = "0x40017AC")]
 	[FieldOffset(Offset = "0x8")]
 	public StyleValueHandle handle;
 }

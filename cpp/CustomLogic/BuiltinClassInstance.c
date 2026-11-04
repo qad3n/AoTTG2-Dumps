@@ -1,5 +1,5 @@
 // Type: CustomLogic.BuiltinClassInstance
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/BuiltinClassInstance.cs
@@ -8,357 +8,271 @@
 
 // CustomLogic.BuiltinClassInstance.<>c$$.cctor
 // il2cpp: void CustomLogic_BuiltinClassInstance___c___cctor (const MethodInfo* method);
-// 0x4254660
+// 0x1820b5060
 
 void CustomLogic_BuiltinClassInstance___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  CustomLogic_BuiltinClassInstance___c_o *__this;
   
-  if (g_data_057adb8b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8b = '\x01';
+  if (Il2CppMethodInitialized_18434689d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance_c);
+    Il2CppMethodInitialized_18434689d = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_BuiltinClassInstance_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_BuiltinClassInstance_c->static_fields->__9,__this);
   return;
 }
 
 
 // CustomLogic.BuiltinClassInstance.<>c$$.ctor
 // il2cpp: void CustomLogic_BuiltinClassInstance___c___ctor (CustomLogic_BuiltinClassInstance___c_o* __this, const MethodInfo* method);
-// 0x42546d0
+// 0x18054c890
 
-void CustomLogic_BuiltinClassInstance___c___ctor
-               (CustomLogic_BuiltinClassInstance___c_o *__this,MethodInfo *method)
+void
+CustomLogic_BuiltinClassInstance___c___ctor(CustomLogic_BuiltinClassInstance___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.BuiltinClassInstance.<>c$$<.cctor>b__12_0
 // il2cpp: Il2CppObject* CustomLogic_BuiltinClassInstance___c____cctor_b__12_0 (CustomLogic_BuiltinClassInstance___c_o* __this, CustomLogic_BuiltinClassInstance_o* __, System_Object_array* __, const MethodInfo* method);
-// 0x42546e0
+// 0x18059b2e0
 
-Il2CppObject * CustomLogic_BuiltinClassInstance___c____cctor_b__12_0(void)
+Il2CppObject*
+CustomLogic_BuiltinClassInstance___c____cctor_b__12_0(CustomLogic_BuiltinClassInstance___c_o* __this, CustomLogic_BuiltinClassInstance_o* __, System_Object_array* __, MethodInfo* method)
 
 {
-  return (Il2CppObject *)0x0;
+  return (Unity_Collections_AllocatorManager_TryFunction_o *)0x0;
 }
 
 
 // CustomLogic.BuiltinClassInstance$$.ctor
 // il2cpp: void CustomLogic_BuiltinClassInstance___ctor (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x4247220
+// 0x18209af90
 
 void CustomLogic_BuiltinClassInstance___ctor(CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_string__object__o **ppSVar1;
-  ulong in_RAX;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  Il2CppObject *pIVar3;
-  undefined8 uStack_28;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  System_Collections_Generic_Dictionary_string__object__o *__this_00;
+  System_String_o *value;
+  Il2CppObject *value_00;
+  undefined1 local_res8 [8];
   
-  uStack_28 = in_RAX;
-  if (g_data_057adb89 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&"Init");
-    il2cpp_runtime_helper_023445d0(&"Type");
-    il2cpp_runtime_helper_023445d0(&"IsCharacter");
-    g_data_057adb89 = '\x01';
+  if (Il2CppMethodInitialized_18434689b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&"Init");
+    il2cpp_codegen_initialize_runtime_metadata(&"Type");
+    il2cpp_codegen_initialize_runtime_metadata(&"IsCharacter");
+    Il2CppMethodInitialized_18434689b = '\x01';
   }
-  if (g_data_057adbc3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_object);
-    g_data_057adbc3 = '\x01';
+  if (Il2CppMethodInitialized_1843468da == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_object_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_object);
+    Il2CppMethodInitialized_1843468da = '\x01';
   }
-  *(undefined1 *)&(__this->fields).Enabled = 1;
-  *(undefined1 *)&(__this->fields)._LookupBaseClassForVariables_k__BackingField = 1;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_object);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_System_Object);
-  ppSVar1 = &(__this->fields).Variables;
-  (__this->fields).Variables = (System_Collections_Generic_Dictionary_string__object__o *)pSVar2;
-  il2cpp_runtime_helper_022b4080(ppSVar1,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Variables;
-  pIVar3 = (Il2CppObject *)
-           (*(__this->klass->vtable)._4_get_ClassName.methodPtr)
-                     (__this,(__this->klass->vtable)._4_get_ClassName.method);
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___set_Item(pSVar2,"Type",pIVar3,MethodInfo_Void_set_Item);
-    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)*ppSVar1;
-    if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  (__this->fields)._Enabled_k__BackingField = true;
+  (__this->fields)._LookupBaseClassForVariables_k__BackingField = true;
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_object);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_object_ctor);
+  (__this->fields).Variables = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Variables,__this_00);
+  pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Variables;
+  value = (*(__this->klass->vtable)._6_get_ClassName.methodPtr)
+                    (__this,(__this->klass->vtable)._6_get_ClassName.method);
+  if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__object___set_Item
+              (pSVar1,(Il2CppObject *)"Type",(Il2CppObject *)value,
+               (MethodInfo_147A7F0 *)MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item);
+    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Variables;
+    if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
     }
-    if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
       System_Collections_Generic_Dictionary_object__object___set_Item
-                (pSVar2,"Init",(Il2CppObject *)**(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8),MethodInfo_Void_set_Item);
-      pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)*ppSVar1;
-      uStack_28 = uStack_28 & 0xffffffffffffff;
-      pIVar3 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_28 + 7);
-      if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                (pSVar1,(Il2CppObject *)"Init",
+                 (Il2CppObject *)TypeInfo_CustomLogic_BuiltinClassInstance->static_fields->Init,
+                 (MethodInfo_147A7F0 *)MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item
+                );
+      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Variables;
+      local_res8[0] = 0;
+      value_00 = il2cpp_value_box(g_data_184354de8,local_res8);
+      if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
         System_Collections_Generic_Dictionary_object__object___set_Item
-                  (pSVar2,"IsCharacter",pIVar3,MethodInfo_Void_set_Item);
+                  (pSVar1,(Il2CppObject *)"IsCharacter",value_00,
+                   (MethodInfo_147A7F0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_object_set_Item);
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.BuiltinClassInstance$$get_LookupBaseClassForVariables
 // il2cpp: bool CustomLogic_BuiltinClassInstance__get_LookupBaseClassForVariables (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x4254440
+// 0x18209b220
 
-bool_conflict
-CustomLogic_BuiltinClassInstance__get_LookupBaseClassForVariables
-          (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
+bool
+CustomLogic_BuiltinClassInstance__get_LookupBaseClassForVariables(CustomLogic_BuiltinClassInstance_o* __this, MethodInfo* method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  bool_conflict bVar1;
-  undefined8 in_RDX;
+  bool bVar1;
+  UnityEngine_Tilemaps_ITilemap_o *in_R8;
+  UnityEngine_GameObject_o *in_R9;
+  MethodInfo *in_stack_00000028;
   
-  vtableDispatch = (__this->klass->vtable)._8_get_InheritBaseMembers.methodPtr;
-  bVar1 = (*vtableDispatch)
-                    (__this,(__this->klass->vtable)._8_get_InheritBaseMembers.method,in_RDX,
-                     vtableDispatch);
+  bVar1 = (*(__this->klass->vtable)._10_IsAdvancedTextEnabledForElement.methodPtr)
+                    (__this,(UnityEngine_Vector3Int_o *)
+                            (__this->klass->vtable)._10_IsAdvancedTextEnabledForElement.method,in_R8,in_R9,
+                     in_stack_00000028);
   return bVar1;
 }
 
 
 // CustomLogic.BuiltinClassInstance$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_BuiltinClassInstance__get_ClassName (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x4254460
+// 0x18209b120
 
 System_String_o *
 CustomLogic_BuiltinClassInstance__get_ClassName(CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  System_NotImplementedException_o *pSVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_T__o *__this_00;
-  System_String_o *pSVar3;
+  Il2CppClass *klass;
+  System_NotImplementedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar2 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
-  System_NotImplementedException___ctor(pSVar2,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_ClassName);
-  il2cpp_runtime_helper_022b2b10(pSVar2);
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar2 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
-  System_NotImplementedException___ctor(pSVar2,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsAbstract);
-  il2cpp_runtime_helper_022b2b10(pSVar2);
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar2 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
-  System_NotImplementedException___ctor(pSVar2,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsStatic);
-  il2cpp_runtime_helper_022b2b10(pSVar2);
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar2 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
-  System_NotImplementedException___ctor(pSVar2,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_InheritBaseMembers);
-  il2cpp_runtime_helper_022b2b10(pSVar2,uVar1);
-  if (g_data_057adb8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_BuiltinClassInstance_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_cctor_b__12_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8a = '\x01';
-  }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_BuiltinClassInstance_object_object);
-  System_Func_object__object__object____ctor();
-  __this_00 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_BuiltinClassInstance);
-  CustomLogic_CLMethodBinding_object____ctor(__this_00,function,MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-  **(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8) = __this_00;
-  pSVar3 = (System_String_o *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinClassInstance + 0xb8),__this_00);
-  return pSVar3;
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotImplementedException);
+  __this_00 = (System_NotImplementedException_o *)il2cpp_codegen_object_new(klass);
+  System_NotImplementedException___ctor(__this_00,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_BuiltinClassInstance_get_ClassName);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // CustomLogic.BuiltinClassInstance$$get_IsAbstract
 // il2cpp: bool CustomLogic_BuiltinClassInstance__get_IsAbstract (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x42544a0
+// 0x18209b1a0
 
-bool_conflict
-CustomLogic_BuiltinClassInstance__get_IsAbstract
-          (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
+bool CustomLogic_BuiltinClassInstance__get_IsAbstract
+               (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 uVar2;
-  System_NotImplementedException_o *pSVar3;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_T__o *__this_00;
+  Il2CppClass *klass;
+  System_NotImplementedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar3 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-  System_NotImplementedException___ctor(pSVar3,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsAbstract);
-  il2cpp_runtime_helper_022b2b10(pSVar3);
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar3 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-  System_NotImplementedException___ctor(pSVar3,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsStatic);
-  il2cpp_runtime_helper_022b2b10(pSVar3);
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar3 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-  System_NotImplementedException___ctor(pSVar3,(MethodInfo *)0x0);
-  uVar2 = il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_InheritBaseMembers);
-  il2cpp_runtime_helper_022b2b10(pSVar3,uVar2);
-  if (g_data_057adb8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_BuiltinClassInstance_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_cctor_b__12_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8a = '\x01';
-  }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_BuiltinClassInstance_object_object);
-  System_Func_object__object__object____ctor();
-  __this_00 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_BuiltinClassInstance);
-  CustomLogic_CLMethodBinding_object____ctor(__this_00,function,MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-  **(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8) = __this_00;
-  bVar1 = il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinClassInstance + 0xb8),__this_00);
-  return bVar1;
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotImplementedException);
+  __this_00 = (System_NotImplementedException_o *)il2cpp_codegen_object_new(klass);
+  System_NotImplementedException___ctor(__this_00,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_BuiltinClassInstance_get_IsAbstract);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // CustomLogic.BuiltinClassInstance$$get_IsStatic
 // il2cpp: bool CustomLogic_BuiltinClassInstance__get_IsStatic (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x42544e0
+// 0x18209b1e0
 
-bool_conflict
-CustomLogic_BuiltinClassInstance__get_IsStatic(CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
+bool CustomLogic_BuiltinClassInstance__get_IsStatic
+               (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 uVar2;
-  System_NotImplementedException_o *pSVar3;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_T__o *__this_00;
+  Il2CppClass *klass;
+  System_NotImplementedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar3 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-  System_NotImplementedException___ctor(pSVar3,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsStatic);
-  il2cpp_runtime_helper_022b2b10(pSVar3);
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  pSVar3 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-  System_NotImplementedException___ctor(pSVar3,(MethodInfo *)0x0);
-  uVar2 = il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_InheritBaseMembers);
-  il2cpp_runtime_helper_022b2b10(pSVar3,uVar2);
-  if (g_data_057adb8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_BuiltinClassInstance_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_cctor_b__12_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8a = '\x01';
-  }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_BuiltinClassInstance_object_object);
-  System_Func_object__object__object____ctor();
-  __this_00 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_BuiltinClassInstance);
-  CustomLogic_CLMethodBinding_object____ctor(__this_00,function,MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-  **(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8) = __this_00;
-  bVar1 = il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinClassInstance + 0xb8),__this_00);
-  return bVar1;
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotImplementedException);
+  __this_00 = (System_NotImplementedException_o *)il2cpp_codegen_object_new(klass);
+  System_NotImplementedException___ctor(__this_00,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata(&MethodInfo_CustomLogic_BuiltinClassInstance_get_IsStatic);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // CustomLogic.BuiltinClassInstance$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_BuiltinClassInstance__get_InheritBaseMembers (CustomLogic_BuiltinClassInstance_o* __this, const MethodInfo* method);
-// 0x4254520
+// 0x18209b160
 
-bool_conflict
-CustomLogic_BuiltinClassInstance__get_InheritBaseMembers
-          (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
+bool CustomLogic_BuiltinClassInstance__get_InheritBaseMembers
+               (CustomLogic_BuiltinClassInstance_o *__this,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 uVar2;
+  Il2CppClass *klass;
   System_NotImplementedException_o *__this_00;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_T__o *__this_01;
+  MethodInfo *lastManagedFrame;
   
-  uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotImplementedException);
-  __this_00 = (System_NotImplementedException_o *)il2cpp_runtime_helper_023052d0(uVar2);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotImplementedException);
+  __this_00 = (System_NotImplementedException_o *)il2cpp_codegen_object_new(klass);
   System_NotImplementedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar2 = il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_InheritBaseMembers);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar2);
-  if (g_data_057adb8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_BuiltinClassInstance_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_cctor_b__12_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8a = '\x01';
-  }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_BuiltinClassInstance_object_object);
-  System_Func_object__object__object____ctor();
-  __this_01 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_BuiltinClassInstance);
-  CustomLogic_CLMethodBinding_object____ctor(__this_01,function,MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-  **(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8) = __this_01;
-  bVar1 = il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinClassInstance + 0xb8),__this_01);
-  return bVar1;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_CustomLogic_BuiltinClassInstance_get_InheritBaseMembers);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // CustomLogic.BuiltinClassInstance$$.cctor
 // il2cpp: void CustomLogic_BuiltinClassInstance___cctor (const MethodInfo* method);
-// 0x4254560
+// 0x18209ae80
 
 void CustomLogic_BuiltinClassInstance___cctor(MethodInfo *method)
 
 {
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_T__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057adb8a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_BuiltinClassInstance);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_BuiltinClassInstance_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object_cctor_b__12_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057adb8a = '\x01';
+  if (Il2CppMethodInitialized_18434689c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_BuiltinClassInstance_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLMethodBinding_BuiltinClassInstance);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_BuiltinClassInstance_object_array_object)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_BuiltinClassInstance_c_cctor_b__12_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance_c);
+    Il2CppMethodInitialized_18434689c = '\x01';
   }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance_c);
   }
-  function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_BuiltinClassInstance_object_object);
-  System_Func_object__object__object____ctor();
-  __this = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_BuiltinClassInstance);
-  CustomLogic_CLMethodBinding_object____ctor(__this,function,MethodInfo_CLMethodBinding_1_BuiltinClassInstance);
-  **(undefined8 **)(TypeInfo_BuiltinClassInstance + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinClassInstance + 0xb8),__this);
+  object = (Il2CppObject *)TypeInfo_CustomLogic_BuiltinClassInstance_c->static_fields->__9;
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Func_BuiltinClassInstance_object_array_object);
+  System_Func_object__object__object____ctor
+            (__this,object,(intptr_t)MethodInfo_CustomLogic_BuiltinClassInstance_c_cctor_b__12_0,
+             (MethodInfo *)0x0);
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_BuiltinClassInstance);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_BuiltinClassInstance_ctor);
+  TypeInfo_CustomLogic_BuiltinClassInstance->static_fields->Init =
+       (CustomLogic_CLMethodBinding_BuiltinClassInstance__o *)__this_00;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomLogic_BuiltinClassInstance->static_fields->Init,__this_00);
   return;
 }
 

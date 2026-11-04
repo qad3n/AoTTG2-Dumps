@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000138")]
+[Token(Token = "0x2000160")]
 public delegate void ConsoleCancelEventHandler(object sender, ConsoleCancelEventArgs e);

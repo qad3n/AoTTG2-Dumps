@@ -10,106 +10,106 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000249")]
+[Token(Token = "0x2000154")]
 public sealed class AsyncOperation
 {
-	[Token(Token = "0x4000CBD")]
+	[Token(Token = "0x40005F4")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly SynchronizationContext _syncContext;
 
-	[Token(Token = "0x4000CBE")]
+	[Token(Token = "0x40005F5")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly object _userSuppliedState;
 
-	[Token(Token = "0x4000CBF")]
+	[Token(Token = "0x40005F6")]
 	[FieldOffset(Offset = "0x20")]
 	private bool _alreadyCompleted;
 
-	[Token(Token = "0x1700032E")]
+	[Token(Token = "0x1700019D")]
 	public object UserSuppliedState
 	{
-		[Token(Token = "0x6000E3E")]
-		[Address(RVA = "0x49D0A20", Offset = "0x49D0A20", VA = "0x49D0A20")]
+		[Token(Token = "0x6000886")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700032F")]
+	[Token(Token = "0x1700019E")]
 	public SynchronizationContext SynchronizationContext
 	{
-		[Token(Token = "0x6000E3F")]
-		[Address(RVA = "0x49D0A30", Offset = "0x49D0A30", VA = "0x49D0A30")]
+		[Token(Token = "0x6000887")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E3C")]
-	[Address(RVA = "0x49D0920", Offset = "0x49D0920", VA = "0x49D0920")]
+	[Token(Token = "0x6000884")]
+	[Address(RVA = "0x2879BF0", Offset = "0x28781F0", VA = "0x182879BF0")]
 	private AsyncOperation(object userSuppliedState, SynchronizationContext syncContext)
 	{
 	}
 
-	[Token(Token = "0x6000E3D")]
-	[Address(RVA = "0x49D0980", Offset = "0x49D0980", VA = "0x49D0980", Slot = "1")]
+	[Token(Token = "0x6000885")]
+	[Address(RVA = "0x2879640", Offset = "0x2877C40", VA = "0x182879640", Slot = "1")]
 	~AsyncOperation()
 	{
 	}
 
-	[Token(Token = "0x6000E40")]
-	[Address(RVA = "0x49D0A40", Offset = "0x49D0A40", VA = "0x49D0A40")]
+	[Token(Token = "0x6000888")]
+	[Address(RVA = "0x28799E0", Offset = "0x2877FE0", VA = "0x1828799E0")]
 	public void Post(SendOrPostCallback d, object arg)
 	{
 	}
 
-	[Token(Token = "0x6000E41")]
-	[Address(RVA = "0x49D0B40", Offset = "0x49D0B40", VA = "0x49D0B40")]
+	[Token(Token = "0x6000889")]
+	[Address(RVA = "0x28798E0", Offset = "0x2877EE0", VA = "0x1828798E0")]
 	public void PostOperationCompleted(SendOrPostCallback d, object arg)
 	{
 	}
 
-	[Token(Token = "0x6000E42")]
-	[Address(RVA = "0x49D0C50", Offset = "0x49D0C50", VA = "0x49D0C50")]
+	[Token(Token = "0x600088A")]
+	[Address(RVA = "0x2879780", Offset = "0x2877D80", VA = "0x182879780")]
 	public void OperationCompleted()
 	{
 	}
 
-	[Token(Token = "0x6000E43")]
-	[Address(RVA = "0x49D0A50", Offset = "0x49D0A50", VA = "0x49D0A50")]
+	[Token(Token = "0x600088B")]
+	[Address(RVA = "0x28797F0", Offset = "0x2877DF0", VA = "0x1828797F0")]
 	private void PostCore(SendOrPostCallback d, object arg, bool markCompleted)
 	{
 	}
 
-	[Token(Token = "0x6000E44")]
-	[Address(RVA = "0x49D0B60", Offset = "0x49D0B60", VA = "0x49D0B60")]
+	[Token(Token = "0x600088C")]
+	[Address(RVA = "0x28796C0", Offset = "0x2877CC0", VA = "0x1828796C0")]
 	private void OperationCompletedCore()
 	{
 	}
 
-	[Token(Token = "0x6000E45")]
-	[Address(RVA = "0x49D0CB0", Offset = "0x49D0CB0", VA = "0x49D0CB0")]
+	[Token(Token = "0x600088D")]
+	[Address(RVA = "0x2879B50", Offset = "0x2878150", VA = "0x182879B50")]
 	private void VerifyNotCompleted()
 	{
 	}
 
-	[Token(Token = "0x6000E46")]
-	[Address(RVA = "0x49D0D00", Offset = "0x49D0D00", VA = "0x49D0D00")]
+	[Token(Token = "0x600088E")]
+	[Address(RVA = "0x2879AD0", Offset = "0x28780D0", VA = "0x182879AD0")]
 	private void VerifyDelegateNotNull(SendOrPostCallback d)
 	{
 	}
 
-	[Token(Token = "0x6000E47")]
-	[Address(RVA = "0x49D0D70", Offset = "0x49D0D70", VA = "0x49D0D70")]
+	[Token(Token = "0x600088F")]
+	[Address(RVA = "0x28795A0", Offset = "0x2877BA0", VA = "0x1828795A0")]
 	internal static AsyncOperation CreateOperation(object userSuppliedState, SynchronizationContext syncContext)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E48")]
-	[Address(RVA = "0x49D0E10", Offset = "0x49D0E10", VA = "0x49D0E10")]
+	[Token(Token = "0x6000890")]
+	[Address(RVA = "0x2879BC0", Offset = "0x28781C0", VA = "0x182879BC0")]
 	internal AsyncOperation()
 	{
 	}

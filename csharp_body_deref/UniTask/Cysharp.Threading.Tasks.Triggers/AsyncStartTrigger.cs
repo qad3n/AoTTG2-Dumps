@@ -10,29 +10,29 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200018B")]
+[Token(Token = "0x200018E")]
 [DisallowMultipleComponent]
 public sealed class AsyncStartTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x4000626")]
-	[FieldOffset(Offset = "0x3A")]
+	[Token(Token = "0x4000639")]
+	[FieldOffset(Offset = "0x40")]
 	private bool called;
 
-	[Token(Token = "0x60009E8")]
-	[Address(RVA = "0x4A08D20", Offset = "0x4A08D20", VA = "0x4A08D20")]
+	[Token(Token = "0x6000A0C")]
+	[Address(RVA = "0x2938A80", Offset = "0x2937080", VA = "0x182938A80")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x60009E9")]
-	[Address(RVA = "0x4A05CB0", Offset = "0x4A05CB0", VA = "0x4A05CB0")]
+	[Token(Token = "0x6000A0D")]
+	[Address(RVA = "0x2938920", Offset = "0x2936F20", VA = "0x182938920")]
 	public UniTask StartAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x60009EA")]
-	[Address(RVA = "0x4A08DA0", Offset = "0x4A08DA0", VA = "0x4A08DA0")]
+	[Token(Token = "0x6000A0E")]
+	[Address(RVA = "0x2938B00", Offset = "0x2937100", VA = "0x182938B00")]
 	public AsyncStartTrigger()
 	{
 	}

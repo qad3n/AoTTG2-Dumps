@@ -21,14 +21,14 @@ internal class JsonSchemaModel
 	public bool Required
 	{
 		[Token(Token = "0x6000A7B")]
-		[Address(RVA = "0x3E01E10", Offset = "0x3E01E10", VA = "0x3E01E10")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x3E01E20", Offset = "0x3E01E20", VA = "0x3E01E20")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -39,14 +39,14 @@ internal class JsonSchemaModel
 	public JsonSchemaType Type
 	{
 		[Token(Token = "0x6000A7D")]
-		[Address(RVA = "0x3E01E30", Offset = "0x3E01E30", VA = "0x3E01E30")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(JsonSchemaType);
 		}
 		[Token(Token = "0x6000A7E")]
-		[Address(RVA = "0x3E01E40", Offset = "0x3E01E40", VA = "0x3E01E40")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		[CompilerGenerated]
 		set
 		{
@@ -57,14 +57,14 @@ internal class JsonSchemaModel
 	public int? MinimumLength
 	{
 		[Token(Token = "0x6000A7F")]
-		[Address(RVA = "0x3E01E50", Offset = "0x3E01E50", VA = "0x3E01E50")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A80")]
-		[Address(RVA = "0x3E01E60", Offset = "0x3E01E60", VA = "0x3E01E60")]
+		[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -75,14 +75,14 @@ internal class JsonSchemaModel
 	public int? MaximumLength
 	{
 		[Token(Token = "0x6000A81")]
-		[Address(RVA = "0x3E01E70", Offset = "0x3E01E70", VA = "0x3E01E70")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A82")]
-		[Address(RVA = "0x3E01E80", Offset = "0x3E01E80", VA = "0x3E01E80")]
+		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
 		[CompilerGenerated]
 		set
 		{
@@ -93,14 +93,14 @@ internal class JsonSchemaModel
 	public double? DivisibleBy
 	{
 		[Token(Token = "0x6000A83")]
-		[Address(RVA = "0x3E01E90", Offset = "0x3E01E90", VA = "0x3E01E90")]
+		[Address(RVA = "0x181CEB0", Offset = "0x181B4B0", VA = "0x18181CEB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A84")]
-		[Address(RVA = "0x3E01EA0", Offset = "0x3E01EA0", VA = "0x3E01EA0")]
+		[Address(RVA = "0x1B040F0", Offset = "0x1B026F0", VA = "0x181B040F0")]
 		[CompilerGenerated]
 		set
 		{
@@ -111,14 +111,14 @@ internal class JsonSchemaModel
 	public double? Minimum
 	{
 		[Token(Token = "0x6000A85")]
-		[Address(RVA = "0x3E01EB0", Offset = "0x3E01EB0", VA = "0x3E01EB0")]
+		[Address(RVA = "0x1C5E420", Offset = "0x1C5CA20", VA = "0x181C5E420")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A86")]
-		[Address(RVA = "0x3E01EC0", Offset = "0x3E01EC0", VA = "0x3E01EC0")]
+		[Address(RVA = "0x1C5E4A0", Offset = "0x1C5CAA0", VA = "0x181C5E4A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -129,14 +129,14 @@ internal class JsonSchemaModel
 	public double? Maximum
 	{
 		[Token(Token = "0x6000A87")]
-		[Address(RVA = "0x3E01ED0", Offset = "0x3E01ED0", VA = "0x3E01ED0")]
+		[Address(RVA = "0x1C5E410", Offset = "0x1C5CA10", VA = "0x181C5E410")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A88")]
-		[Address(RVA = "0x3E01EE0", Offset = "0x3E01EE0", VA = "0x3E01EE0")]
+		[Address(RVA = "0x1C5E490", Offset = "0x1C5CA90", VA = "0x181C5E490")]
 		[CompilerGenerated]
 		set
 		{
@@ -147,14 +147,14 @@ internal class JsonSchemaModel
 	public bool ExclusiveMinimum
 	{
 		[Token(Token = "0x6000A89")]
-		[Address(RVA = "0x3E01EF0", Offset = "0x3E01EF0", VA = "0x3E01EF0")]
+		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A8A")]
-		[Address(RVA = "0x3E01F00", Offset = "0x3E01F00", VA = "0x3E01F00")]
+		[Address(RVA = "0x19377D0", Offset = "0x1935DD0", VA = "0x1819377D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -165,14 +165,14 @@ internal class JsonSchemaModel
 	public bool ExclusiveMaximum
 	{
 		[Token(Token = "0x6000A8B")]
-		[Address(RVA = "0x3E01F10", Offset = "0x3E01F10", VA = "0x3E01F10")]
+		[Address(RVA = "0x1A21E30", Offset = "0x1A20430", VA = "0x181A21E30")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A8C")]
-		[Address(RVA = "0x3E01F20", Offset = "0x3E01F20", VA = "0x3E01F20")]
+		[Address(RVA = "0x1C5E470", Offset = "0x1C5CA70", VA = "0x181C5E470")]
 		[CompilerGenerated]
 		set
 		{
@@ -183,14 +183,14 @@ internal class JsonSchemaModel
 	public int? MinimumItems
 	{
 		[Token(Token = "0x6000A8D")]
-		[Address(RVA = "0x3E01F30", Offset = "0x3E01F30", VA = "0x3E01F30")]
+		[Address(RVA = "0x19377A0", Offset = "0x1935DA0", VA = "0x1819377A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A8E")]
-		[Address(RVA = "0x3E01F40", Offset = "0x3E01F40", VA = "0x3E01F40")]
+		[Address(RVA = "0x19377E0", Offset = "0x1935DE0", VA = "0x1819377E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -201,14 +201,14 @@ internal class JsonSchemaModel
 	public int? MaximumItems
 	{
 		[Token(Token = "0x6000A8F")]
-		[Address(RVA = "0x3E01F50", Offset = "0x3E01F50", VA = "0x3E01F50")]
+		[Address(RVA = "0x1C5E400", Offset = "0x1C5CA00", VA = "0x181C5E400")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A90")]
-		[Address(RVA = "0x3E01F60", Offset = "0x3E01F60", VA = "0x3E01F60")]
+		[Address(RVA = "0x1C5E480", Offset = "0x1C5CA80", VA = "0x181C5E480")]
 		[CompilerGenerated]
 		set
 		{
@@ -219,14 +219,14 @@ internal class JsonSchemaModel
 	public IList<string> Patterns
 	{
 		[Token(Token = "0x6000A91")]
-		[Address(RVA = "0x3E01F70", Offset = "0x3E01F70", VA = "0x3E01F70")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A92")]
-		[Address(RVA = "0x3E01F80", Offset = "0x3E01F80", VA = "0x3E01F80")]
+		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
 		[CompilerGenerated]
 		set
 		{
@@ -237,14 +237,14 @@ internal class JsonSchemaModel
 	public IList<JsonSchemaModel> Items
 	{
 		[Token(Token = "0x6000A93")]
-		[Address(RVA = "0x3E01F90", Offset = "0x3E01F90", VA = "0x3E01F90")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A94")]
-		[Address(RVA = "0x3E01FA0", Offset = "0x3E01FA0", VA = "0x3E01FA0")]
+		[Address(RVA = "0xCDB690", Offset = "0xCD9C90", VA = "0x180CDB690")]
 		[CompilerGenerated]
 		set
 		{
@@ -255,14 +255,14 @@ internal class JsonSchemaModel
 	public IDictionary<string, JsonSchemaModel> Properties
 	{
 		[Token(Token = "0x6000A95")]
-		[Address(RVA = "0x3E01FB0", Offset = "0x3E01FB0", VA = "0x3E01FB0")]
+		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A96")]
-		[Address(RVA = "0x3E01FC0", Offset = "0x3E01FC0", VA = "0x3E01FC0")]
+		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
 		[CompilerGenerated]
 		set
 		{
@@ -273,14 +273,14 @@ internal class JsonSchemaModel
 	public IDictionary<string, JsonSchemaModel> PatternProperties
 	{
 		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x3E01FD0", Offset = "0x3E01FD0", VA = "0x3E01FD0")]
+		[Address(RVA = "0xB5B9C0", Offset = "0xB59FC0", VA = "0x180B5B9C0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A98")]
-		[Address(RVA = "0x3E01FE0", Offset = "0x3E01FE0", VA = "0x3E01FE0")]
+		[Address(RVA = "0xB5BE30", Offset = "0xB5A430", VA = "0x180B5BE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -291,14 +291,14 @@ internal class JsonSchemaModel
 	public JsonSchemaModel AdditionalProperties
 	{
 		[Token(Token = "0x6000A99")]
-		[Address(RVA = "0x3E02000", Offset = "0x3E02000", VA = "0x3E02000")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A9A")]
-		[Address(RVA = "0x3E02010", Offset = "0x3E02010", VA = "0x3E02010")]
+		[Address(RVA = "0xA4D750", Offset = "0xA4BD50", VA = "0x180A4D750")]
 		[CompilerGenerated]
 		set
 		{
@@ -309,14 +309,14 @@ internal class JsonSchemaModel
 	public JsonSchemaModel AdditionalItems
 	{
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x3E02030", Offset = "0x3E02030", VA = "0x3E02030")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x3E02040", Offset = "0x3E02040", VA = "0x3E02040")]
+		[Address(RVA = "0x58A900", Offset = "0x588F00", VA = "0x18058A900")]
 		[CompilerGenerated]
 		set
 		{
@@ -327,14 +327,14 @@ internal class JsonSchemaModel
 	public bool PositionalItemsValidation
 	{
 		[Token(Token = "0x6000A9D")]
-		[Address(RVA = "0x3E02060", Offset = "0x3E02060", VA = "0x3E02060")]
+		[Address(RVA = "0x1B90350", Offset = "0x1B8E950", VA = "0x181B90350")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000A9E")]
-		[Address(RVA = "0x3E02070", Offset = "0x3E02070", VA = "0x3E02070")]
+		[Address(RVA = "0x1C5E4B0", Offset = "0x1C5CAB0", VA = "0x181C5E4B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -345,14 +345,14 @@ internal class JsonSchemaModel
 	public bool AllowAdditionalProperties
 	{
 		[Token(Token = "0x6000A9F")]
-		[Address(RVA = "0x3E02080", Offset = "0x3E02080", VA = "0x3E02080")]
+		[Address(RVA = "0x1C5E3F0", Offset = "0x1C5C9F0", VA = "0x181C5E3F0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AA0")]
-		[Address(RVA = "0x3E02090", Offset = "0x3E02090", VA = "0x3E02090")]
+		[Address(RVA = "0x1C5E450", Offset = "0x1C5CA50", VA = "0x181C5E450")]
 		[CompilerGenerated]
 		set
 		{
@@ -363,14 +363,14 @@ internal class JsonSchemaModel
 	public bool AllowAdditionalItems
 	{
 		[Token(Token = "0x6000AA1")]
-		[Address(RVA = "0x3E020A0", Offset = "0x3E020A0", VA = "0x3E020A0")]
+		[Address(RVA = "0x1C5E3E0", Offset = "0x1C5C9E0", VA = "0x181C5E3E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AA2")]
-		[Address(RVA = "0x3E020B0", Offset = "0x3E020B0", VA = "0x3E020B0")]
+		[Address(RVA = "0x1C5E440", Offset = "0x1C5CA40", VA = "0x181C5E440")]
 		[CompilerGenerated]
 		set
 		{
@@ -381,14 +381,14 @@ internal class JsonSchemaModel
 	public bool UniqueItems
 	{
 		[Token(Token = "0x6000AA3")]
-		[Address(RVA = "0x3E020C0", Offset = "0x3E020C0", VA = "0x3E020C0")]
+		[Address(RVA = "0x1C5E430", Offset = "0x1C5CA30", VA = "0x181C5E430")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000AA4")]
-		[Address(RVA = "0x3E020D0", Offset = "0x3E020D0", VA = "0x3E020D0")]
+		[Address(RVA = "0x1C5E4C0", Offset = "0x1C5CAC0", VA = "0x181C5E4C0")]
 		[CompilerGenerated]
 		set
 		{
@@ -399,14 +399,14 @@ internal class JsonSchemaModel
 	public IList<JToken> Enum
 	{
 		[Token(Token = "0x6000AA5")]
-		[Address(RVA = "0x3E020E0", Offset = "0x3E020E0", VA = "0x3E020E0")]
+		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000AA6")]
-		[Address(RVA = "0x3E020F0", Offset = "0x3E020F0", VA = "0x3E020F0")]
+		[Address(RVA = "0x58AA30", Offset = "0x589030", VA = "0x18058AA30")]
 		[CompilerGenerated]
 		set
 		{
@@ -417,14 +417,14 @@ internal class JsonSchemaModel
 	public JsonSchemaType Disallow
 	{
 		[Token(Token = "0x6000AA7")]
-		[Address(RVA = "0x3E02110", Offset = "0x3E02110", VA = "0x3E02110")]
+		[Address(RVA = "0x1AAAA90", Offset = "0x1AA9090", VA = "0x181AAAA90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(JsonSchemaType);
 		}
 		[Token(Token = "0x6000AA8")]
-		[Address(RVA = "0x3E02120", Offset = "0x3E02120", VA = "0x3E02120")]
+		[Address(RVA = "0x1C5E460", Offset = "0x1C5CA60", VA = "0x181C5E460")]
 		[CompilerGenerated]
 		set
 		{
@@ -432,20 +432,20 @@ internal class JsonSchemaModel
 	}
 
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x3E02130", Offset = "0x3E02130", VA = "0x3E02130")]
+	[Address(RVA = "0x1C5E3B0", Offset = "0x1C5C9B0", VA = "0x181C5E3B0")]
 	public JsonSchemaModel()
 	{
 	}
 
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x3E02160", Offset = "0x3E02160", VA = "0x3E02160")]
+	[Address(RVA = "0x1C5E1C0", Offset = "0x1C5C7C0", VA = "0x181C5E1C0")]
 	public static JsonSchemaModel Create(IList<JsonSchema> schemata)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x3E024D0", Offset = "0x3E024D0", VA = "0x3E024D0")]
+	[Address(RVA = "0x1C5DE20", Offset = "0x1C5C420", VA = "0x181C5DE20")]
 	private static void Combine(JsonSchemaModel model, JsonSchema schema)
 	{
 	}

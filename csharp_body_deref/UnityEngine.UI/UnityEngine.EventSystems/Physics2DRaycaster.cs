@@ -10,23 +10,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000C5")]
+[Token(Token = "0x20000C8")]
 [AddComponentMenu("Event/Physics 2D Raycaster")]
 [RequireComponent(typeof(Camera))]
+[UnityEngine.UGUIHelpURL("Physics2DRaycaster")]
 public class Physics2DRaycaster : PhysicsRaycaster
 {
-	[Token(Token = "0x4000345")]
+	[Token(Token = "0x400037A")]
 	[FieldOffset(Offset = "0x48")]
 	private RaycastHit2D[] m_Hits;
 
-	[Token(Token = "0x6000749")]
-	[Address(RVA = "0x51029A0", Offset = "0x51029A0", VA = "0x51029A0")]
+	[Token(Token = "0x6000793")]
+	[Address(RVA = "0x32FA490", Offset = "0x32F8A90", VA = "0x1832FA490")]
 	protected Physics2DRaycaster()
 	{
 	}
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x51029E0", Offset = "0x51029E0", VA = "0x51029E0", Slot = "17")]
+	[Token(Token = "0x6000794")]
+	[Address(RVA = "0x32F9C50", Offset = "0x32F8250", VA = "0x1832F9C50", Slot = "17")]
 	public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
 	{
 	}

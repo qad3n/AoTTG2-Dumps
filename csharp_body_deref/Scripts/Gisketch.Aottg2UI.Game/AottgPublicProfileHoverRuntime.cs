@@ -17,55 +17,55 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001CC")]
+[Token(Token = "0x20002D5")]
 internal sealed class AottgPublicProfileHoverRuntime : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler
 {
-	[Token(Token = "0x20001CD")]
+	[Token(Token = "0x20002D6")]
 	[CompilerGenerated]
 	private sealed class _003C_003Ec__DisplayClass22_0
 	{
-		[Token(Token = "0x40009BF")]
+		[Token(Token = "0x4000E77")]
 		[FieldOffset(Offset = "0x10")]
 		public int version;
 
-		[Token(Token = "0x40009C0")]
+		[Token(Token = "0x4000E78")]
 		[FieldOffset(Offset = "0x18")]
 		public AottgPublicProfileHoverRuntime _003C_003E4__this;
 
-		[Token(Token = "0x6000AED")]
-		[Address(RVA = "0x442F3F0", Offset = "0x442F3F0", VA = "0x442F3F0")]
+		[Token(Token = "0x60011C0")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public _003C_003Ec__DisplayClass22_0()
 		{
 		}
 
-		[Token(Token = "0x6000AEE")]
-		[Address(RVA = "0x442F400", Offset = "0x442F400", VA = "0x442F400")]
+		[Token(Token = "0x60011C1")]
+		[Address(RVA = "0x1E25030", Offset = "0x1E23630", VA = "0x181E25030")]
 		internal void _003CShowAfterDelay_003Eb__0(AottgPublicProfileFetchResponse response)
 		{
 		}
 	}
 
-	[Token(Token = "0x20001CE")]
+	[Token(Token = "0x20002D7")]
 	[CompilerGenerated]
 	private sealed class _003CCloseAfterGrace_003Ed__18 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40009C1")]
+		[Token(Token = "0x4000E79")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40009C2")]
+		[Token(Token = "0x4000E7A")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40009C3")]
+		[Token(Token = "0x4000E7B")]
 		[FieldOffset(Offset = "0x20")]
 		public AottgPublicProfileHoverRuntime _003C_003E4__this;
 
-		[Token(Token = "0x17000165")]
+		[Token(Token = "0x170001F3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000AF2")]
-			[Address(RVA = "0x442F600", Offset = "0x442F600", VA = "0x442F600", Slot = "4")]
+			[Token(Token = "0x60011C5")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -73,11 +73,11 @@ internal sealed class AottgPublicProfileHoverRuntime : MonoBehaviour, IPointerEn
 			}
 		}
 
-		[Token(Token = "0x17000166")]
+		[Token(Token = "0x170001F4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000AF4")]
-			[Address(RVA = "0x442F650", Offset = "0x442F650", VA = "0x442F650", Slot = "7")]
+			[Token(Token = "0x60011C7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -85,64 +85,64 @@ internal sealed class AottgPublicProfileHoverRuntime : MonoBehaviour, IPointerEn
 			}
 		}
 
-		[Token(Token = "0x6000AEF")]
-		[Address(RVA = "0x442F360", Offset = "0x442F360", VA = "0x442F360")]
+		[Token(Token = "0x60011C2")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CCloseAfterGrace_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000AF0")]
-		[Address(RVA = "0x442F520", Offset = "0x442F520", VA = "0x442F520", Slot = "5")]
+		[Token(Token = "0x60011C3")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000AF1")]
-		[Address(RVA = "0x442F530", Offset = "0x442F530", VA = "0x442F530", Slot = "6")]
+		[Token(Token = "0x60011C4")]
+		[Address(RVA = "0x1E222E0", Offset = "0x1E208E0", VA = "0x181E222E0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000AF3")]
-		[Address(RVA = "0x442F610", Offset = "0x442F610", VA = "0x442F610", Slot = "8")]
+		[Token(Token = "0x60011C6")]
+		[Address(RVA = "0x1E223B0", Offset = "0x1E209B0", VA = "0x181E223B0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001CF")]
+	[Token(Token = "0x20002D8")]
 	[CompilerGenerated]
 	private sealed class _003CShowAfterDelay_003Ed__22 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40009C4")]
+		[Token(Token = "0x4000E7C")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40009C5")]
+		[Token(Token = "0x4000E7D")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40009C6")]
+		[Token(Token = "0x4000E7E")]
 		[FieldOffset(Offset = "0x20")]
 		public int version;
 
-		[Token(Token = "0x40009C7")]
+		[Token(Token = "0x4000E7F")]
 		[FieldOffset(Offset = "0x28")]
 		public AottgPublicProfileHoverRuntime _003C_003E4__this;
 
-		[Token(Token = "0x40009C8")]
+		[Token(Token = "0x4000E80")]
 		[FieldOffset(Offset = "0x30")]
 		private _003C_003Ec__DisplayClass22_0 _003C_003E8__1;
 
-		[Token(Token = "0x17000167")]
+		[Token(Token = "0x170001F5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000AF8")]
-			[Address(RVA = "0x442F970", Offset = "0x442F970", VA = "0x442F970", Slot = "4")]
+			[Token(Token = "0x60011CB")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -150,11 +150,11 @@ internal sealed class AottgPublicProfileHoverRuntime : MonoBehaviour, IPointerEn
 			}
 		}
 
-		[Token(Token = "0x17000168")]
+		[Token(Token = "0x170001F6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000AFA")]
-			[Address(RVA = "0x442F9C0", Offset = "0x442F9C0", VA = "0x442F9C0", Slot = "7")]
+			[Token(Token = "0x60011CD")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -162,171 +162,171 @@ internal sealed class AottgPublicProfileHoverRuntime : MonoBehaviour, IPointerEn
 			}
 		}
 
-		[Token(Token = "0x6000AF5")]
-		[Address(RVA = "0x442F380", Offset = "0x442F380", VA = "0x442F380")]
+		[Token(Token = "0x60011C8")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CShowAfterDelay_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000AF6")]
-		[Address(RVA = "0x442F660", Offset = "0x442F660", VA = "0x442F660", Slot = "5")]
+		[Token(Token = "0x60011C9")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000AF7")]
-		[Address(RVA = "0x442F670", Offset = "0x442F670", VA = "0x442F670", Slot = "6")]
+		[Token(Token = "0x60011CA")]
+		[Address(RVA = "0x1E223F0", Offset = "0x1E209F0", VA = "0x181E223F0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000AF9")]
-		[Address(RVA = "0x442F980", Offset = "0x442F980", VA = "0x442F980", Slot = "8")]
+		[Token(Token = "0x60011CC")]
+		[Address(RVA = "0x1E226F0", Offset = "0x1E20CF0", VA = "0x181E226F0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40009B6")]
+	[Token(Token = "0x4000E6E")]
 	private const float HoverDelaySeconds = 0.2f;
 
-	[Token(Token = "0x40009B7")]
+	[Token(Token = "0x4000E6F")]
 	private const float CloseGraceSeconds = 0.18f;
 
-	[Token(Token = "0x40009B8")]
+	[Token(Token = "0x4000E70")]
 	[FieldOffset(Offset = "0x20")]
 	private string _accountId;
 
-	[Token(Token = "0x40009B9")]
+	[Token(Token = "0x4000E71")]
 	[FieldOffset(Offset = "0x28")]
 	private Coroutine _pending;
 
-	[Token(Token = "0x40009BA")]
+	[Token(Token = "0x4000E72")]
 	[FieldOffset(Offset = "0x30")]
 	private Coroutine _pendingClose;
 
-	[Token(Token = "0x40009BB")]
+	[Token(Token = "0x4000E73")]
 	[FieldOffset(Offset = "0x38")]
 	private int _version;
 
-	[Token(Token = "0x40009BC")]
+	[Token(Token = "0x4000E74")]
 	[FieldOffset(Offset = "0x3C")]
 	private bool _anchorHover;
 
-	[Token(Token = "0x40009BD")]
+	[Token(Token = "0x4000E75")]
 	[FieldOffset(Offset = "0x3D")]
 	private bool _cardHover;
 
-	[Token(Token = "0x40009BE")]
+	[Token(Token = "0x4000E76")]
 	[FieldOffset(Offset = "0x3E")]
 	private bool _open;
 
-	[Token(Token = "0x6000ADC")]
-	[Address(RVA = "0x442EEE0", Offset = "0x442EEE0", VA = "0x442EEE0")]
+	[Token(Token = "0x60011AF")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 	public void Setup(string accountId)
 	{
 	}
 
-	[Token(Token = "0x6000ADD")]
-	[Address(RVA = "0x442EEF0", Offset = "0x442EEF0", VA = "0x442EEF0", Slot = "4")]
+	[Token(Token = "0x60011B0")]
+	[Address(RVA = "0x1E20EA0", Offset = "0x1E1F4A0", VA = "0x181E20EA0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000ADE")]
-	[Address(RVA = "0x442F020", Offset = "0x442F020", VA = "0x442F020", Slot = "5")]
+	[Token(Token = "0x60011B1")]
+	[Address(RVA = "0x1E20E80", Offset = "0x1E1F480", VA = "0x181E20E80", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000ADF")]
-	[Address(RVA = "0x442F110", Offset = "0x442F110", VA = "0x442F110", Slot = "6")]
+	[Token(Token = "0x60011B2")]
+	[Address(RVA = "0x1E20EA0", Offset = "0x1E1F4A0", VA = "0x181E20EA0", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000AE0")]
-	[Address(RVA = "0x442F160", Offset = "0x442F160", VA = "0x442F160", Slot = "7")]
+	[Token(Token = "0x60011B3")]
+	[Address(RVA = "0x1E20E80", Offset = "0x1E1F480", VA = "0x181E20E80", Slot = "7")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000AE1")]
-	[Address(RVA = "0x442F170", Offset = "0x442F170", VA = "0x442F170")]
+	[Token(Token = "0x60011B4")]
+	[Address(RVA = "0x1E20E90", Offset = "0x1E1F490", VA = "0x181E20E90")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000AE2")]
-	[Address(RVA = "0x442F230", Offset = "0x442F230", VA = "0x442F230")]
+	[Token(Token = "0x60011B5")]
+	[Address(RVA = "0x1E20E90", Offset = "0x1E1F490", VA = "0x181E20E90")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000AE3")]
-	[Address(RVA = "0x442EF60", Offset = "0x442EF60", VA = "0x442EF60")]
+	[Token(Token = "0x60011B6")]
+	[Address(RVA = "0x1E20AF0", Offset = "0x1E1F0F0", VA = "0x181E20AF0")]
 	private void Begin()
 	{
 	}
 
-	[Token(Token = "0x6000AE4")]
-	[Address(RVA = "0x442F030", Offset = "0x442F030", VA = "0x442F030")]
+	[Token(Token = "0x60011B7")]
+	[Address(RVA = "0x1E20DA0", Offset = "0x1E1F3A0", VA = "0x181E20DA0")]
 	private void EndOrDelay()
 	{
 	}
 
-	[Token(Token = "0x6000AE5")]
-	[Address(RVA = "0x442F2F0", Offset = "0x442F2F0", VA = "0x442F2F0")]
+	[Token(Token = "0x60011B8")]
+	[Address(RVA = "0x1E20C80", Offset = "0x1E1F280", VA = "0x181E20C80")]
 	[IteratorStateMachine(typeof(_003CCloseAfterGrace_003Ed__18))]
 	private IEnumerator CloseAfterGrace()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AE6")]
-	[Address(RVA = "0x442F180", Offset = "0x442F180", VA = "0x442F180")]
+	[Token(Token = "0x60011B9")]
+	[Address(RVA = "0x1E20CF0", Offset = "0x1E1F2F0", VA = "0x181E20CF0")]
 	private void CloseNow()
 	{
 	}
 
-	[Token(Token = "0x6000AE7")]
-	[Address(RVA = "0x442F2C0", Offset = "0x442F2C0", VA = "0x442F2C0")]
+	[Token(Token = "0x60011BA")]
+	[Address(RVA = "0x1E20BF0", Offset = "0x1E1F1F0", VA = "0x181E20BF0")]
 	private void CancelPending()
 	{
 	}
 
-	[Token(Token = "0x6000AE8")]
-	[Address(RVA = "0x442EF30", Offset = "0x442EF30", VA = "0x442EF30")]
+	[Token(Token = "0x60011BB")]
+	[Address(RVA = "0x1E20BB0", Offset = "0x1E1F1B0", VA = "0x181E20BB0")]
 	private void CancelClose()
 	{
 	}
 
-	[Token(Token = "0x6000AE9")]
-	[Address(RVA = "0x442F240", Offset = "0x442F240", VA = "0x442F240")]
+	[Token(Token = "0x60011BC")]
+	[Address(RVA = "0x1E20EF0", Offset = "0x1E1F4F0", VA = "0x181E20EF0")]
 	[IteratorStateMachine(typeof(_003CShowAfterDelay_003Ed__22))]
 	private IEnumerator ShowAfterDelay(int version)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AEA")]
-	[Address(RVA = "0x442F3A0", Offset = "0x442F3A0", VA = "0x442F3A0")]
+	[Token(Token = "0x60011BD")]
+	[Address(RVA = "0x1E20C30", Offset = "0x1E1F230", VA = "0x181E20C30")]
 	public void CardEnter()
 	{
 	}
 
-	[Token(Token = "0x6000AEB")]
-	[Address(RVA = "0x442F3D0", Offset = "0x442F3D0", VA = "0x442F3D0")]
+	[Token(Token = "0x60011BE")]
+	[Address(RVA = "0x1E20C70", Offset = "0x1E1F270", VA = "0x181E20C70")]
 	public void CardExit()
 	{
 	}
 
-	[Token(Token = "0x6000AEC")]
-	[Address(RVA = "0x442F3E0", Offset = "0x442F3E0", VA = "0x442F3E0")]
+	[Token(Token = "0x60011BF")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgPublicProfileHoverRuntime()
 	{
 	}

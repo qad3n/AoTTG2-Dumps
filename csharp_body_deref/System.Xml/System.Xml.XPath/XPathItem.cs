@@ -77,7 +77,7 @@ public abstract class XPathItem
 	}
 
 	[Token(Token = "0x6000C56")]
-	[Address(RVA = "0x4804340", Offset = "0x4804340", VA = "0x4804340", Slot = "13")]
+	[Address(RVA = "0x27484D0", Offset = "0x2746AD0", VA = "0x1827484D0", Slot = "13")]
 	public virtual object ValueAs(Type returnType)
 	{
 		return null;
@@ -87,7 +87,7 @@ public abstract class XPathItem
 	public abstract object ValueAs(Type returnType, IXmlNamespaceResolver nsResolver);
 
 	[Token(Token = "0x6000C58")]
-	[Address(RVA = "0x4804360", Offset = "0x4804360", VA = "0x4804360")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XPathItem()
 	{
 	}

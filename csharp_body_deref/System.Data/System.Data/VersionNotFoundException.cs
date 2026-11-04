@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x2000022")]
+[Token(Token = "0x2000016")]
 public class VersionNotFoundException : DataException
 {
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x4547B90", Offset = "0x4547B90", VA = "0x4547B90")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected VersionNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x4547BA0", Offset = "0x4547BA0", VA = "0x4547BA0")]
+	[Token(Token = "0x60000C1")]
+	[Address(RVA = "0x24E48F0", Offset = "0x24E2EF0", VA = "0x1824E48F0")]
 	public VersionNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x4547BE0", Offset = "0x4547BE0", VA = "0x4547BE0")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x24E4940", Offset = "0x24E2F40", VA = "0x1824E4940")]
 	public VersionNotFoundException(string s)
 	{
 	}

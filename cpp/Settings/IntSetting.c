@@ -1,5 +1,5 @@
 // Type: Settings.IntSetting
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/IntSetting.cs
@@ -8,94 +8,84 @@
 
 // Settings.IntSetting$$.ctor
 // il2cpp: void Settings_IntSetting___ctor (Settings_IntSetting_o* __this, const MethodInfo* method);
-// 0x41fd800
+// 0x181f1de90
 
 void Settings_IntSetting___ctor(Settings_IntSetting_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ad8a7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a7 = '\x01';
+  if (Il2CppMethodInitialized_18434549b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor_4096188);
+    Il2CppMethodInitialized_18434549b = '\x01';
   }
   (__this->fields).MinValue = -0x80000000;
   (__this->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor_2a23fd0((Settings_TypedSetting_int__o *)__this,0,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting_int____ctor_e8f1f0
+            ((Settings_TypedSetting_int__o *)__this,0,
+             (MethodInfo_E8F1F0 *)MethodInfo_Settings_TypedSetting_int_ctor_4096188);
   return;
 }
 
 
 // Settings.IntSetting$$.ctor
 // il2cpp: void Settings_IntSetting___ctor (Settings_IntSetting_o* __this, int32_t defaultValue, int32_t minValue, int32_t maxValue, const MethodInfo* method);
-// 0x41f39a0
+// 0x181f1de00
 
-void Settings_IntSetting___ctor_40f39a0
+void Settings_IntSetting___ctor_1f1de00
                (Settings_IntSetting_o *__this,int32_t defaultValue,int32_t minValue,int32_t maxValue,
                MethodInfo *method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
-  int32_t iVar1;
-  undefined8 extraout_RDX;
+  Settings_IntSetting_c *pSVar1;
+  int32_t iVar2;
   
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (__this->fields).MinValue = -0x80000000;
   (__this->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)__this,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)__this,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = __this->klass;
   (__this->fields).MinValue = minValue;
   (__this->fields).MaxValue = maxValue;
-  iVar1 = (*(__this->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (__this,(ulong)(uint)defaultValue,(__this->klass->vtable)._10_SanitizeValue.method);
-  (__this->fields).DefaultValue = iVar1;
-  vtableDispatch = (__this->klass->vtable)._4_SetDefault.methodPtr;
-  (*vtableDispatch)
-            (__this,(__this->klass->vtable)._4_SetDefault.method,extraout_RDX,vtableDispatch);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (__this,defaultValue,(pSVar1->vtable)._11_SanitizeValue.method);
+  (__this->fields).DefaultValue = iVar2;
+  (*(__this->klass->vtable)._4_SetDefault.methodPtr)(__this,(__this->klass->vtable)._4_SetDefault.method);
   return;
 }
 
 
 // Settings.IntSetting$$DeserializeFromJsonObject
 // il2cpp: void Settings_IntSetting__DeserializeFromJsonObject (Settings_IntSetting_o* __this, SimpleJSONFixed_JSONNode_o* json, const MethodInfo* method);
-// 0x4201100
+// 0x181f1dcb0
 
 void Settings_IntSetting__DeserializeFromJsonObject
                (Settings_IntSetting_o *__this,SimpleJSONFixed_JSONNode_o *json,MethodInfo *method)
 
 {
-  int iVar1;
   int32_t value;
-  SimpleJSONFixed_JSONNumber_o *__this_00;
-  MethodInfo_2A23FA0 **ppMVar2;
   
-  ppMVar2 = (MethodInfo_2A23FA0 **)__this;
-  if (g_data_057ad8a9 == '\0') {
-    ppMVar2 = &MethodInfo_Void_set_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ad8a9 = '\x01';
+  if (Il2CppMethodInitialized_18434549d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_18434549d = '\x01';
   }
   if (json != (SimpleJSONFixed_JSONNode_o *)0x0) {
     value = (*(json->klass->vtable)._35_get_AsInt.methodPtr)(json,(json->klass->vtable)._35_get_AsInt.method);
-    Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)__this,value,MethodInfo_Void_set_Value);
+    Settings_TypedSetting_int___set_Value
+              ((Settings_TypedSetting_int__o *)__this,value,
+               (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad8aa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNumber);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    g_data_057ad8aa = '\x01';
-  }
-  iVar1 = (((Settings_IntSetting_o *)ppMVar2)->fields)._value;
-  __this_00 = (SimpleJSONFixed_JSONNumber_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONNumber);
-  SimpleJSONFixed_JSONNumber___ctor(__this_00,(double)iVar1,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Settings.IntSetting$$SerializeToJsonObject
 // il2cpp: SimpleJSONFixed_JSONNode_o* Settings_IntSetting__SerializeToJsonObject (Settings_IntSetting_o* __this, const MethodInfo* method);
-// 0x4201160
+// 0x181f1dd90
 
 SimpleJSONFixed_JSONNode_o *
 Settings_IntSetting__SerializeToJsonObject(Settings_IntSetting_o *__this,MethodInfo *method)
@@ -104,13 +94,13 @@ Settings_IntSetting__SerializeToJsonObject(Settings_IntSetting_o *__this,MethodI
   int iVar1;
   SimpleJSONFixed_JSONNumber_o *__this_00;
   
-  if (g_data_057ad8aa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNumber);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    g_data_057ad8aa = '\x01';
+  if (Il2CppMethodInitialized_18434549e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNumber);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    Il2CppMethodInitialized_18434549e = '\x01';
   }
   iVar1 = (__this->fields)._value;
-  __this_00 = (SimpleJSONFixed_JSONNumber_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONNumber);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNumber);
   SimpleJSONFixed_JSONNumber___ctor(__this_00,(double)iVar1,(MethodInfo *)0x0);
   return (SimpleJSONFixed_JSONNode_o *)__this_00;
 }
@@ -118,28 +108,24 @@ Settings_IntSetting__SerializeToJsonObject(Settings_IntSetting_o *__this,MethodI
 
 // Settings.IntSetting$$SanitizeValue
 // il2cpp: int32_t Settings_IntSetting__SanitizeValue (Settings_IntSetting_o* __this, int32_t value, const MethodInfo* method);
-// 0x42011d0
+// 0x181f1dd20
 
 int32_t Settings_IntSetting__SanitizeValue(Settings_IntSetting_o *__this,int32_t value,MethodInfo *method)
 
 {
-  int iVar1;
-  int32_t iVar2;
+  int32_t iVar1;
   
-  if (cRam00000000057ad8ab == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-    cRam00000000057ad8ab = '\x01';
+  if (Il2CppMethodInitialized_18434549f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_18434549f = '\x01';
   }
-  iVar2 = (__this->fields).MaxValue;
-  if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  iVar1 = (__this->fields).MaxValue;
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
   }
-  iVar2 = System_Math__Min_3cb7d70(value,iVar2,(MethodInfo *)0x0);
-  iVar1 = (__this->fields).MinValue;
-  if (iVar2 < iVar1) {
-    iVar2 = iVar1;
-  }
-  return iVar2;
+  iVar1 = System_Math__Min_1b2c2d0(value,iVar1,(MethodInfo *)0x0);
+  iVar1 = System_Math__Max_1b2c0d0(iVar1,(__this->fields).MinValue,(MethodInfo *)0x0);
+  return iVar1;
 }
 
 

@@ -11,21 +11,21 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x2000278")]
+[Token(Token = "0x20003B7")]
 public class MapScriptComponent : BaseCSVRowItem
 {
-	[Token(Token = "0x4000D7F")]
+	[Token(Token = "0x4001383")]
 	[FieldOffset(Offset = "0x10")]
 	[Order(1)]
 	public string ComponentName;
 
-	[Token(Token = "0x4000D80")]
+	[Token(Token = "0x4001384")]
 	[FieldOffset(Offset = "0x18")]
 	[Order(2)]
 	public List<string> Parameters;
 
-	[Token(Token = "0x6000F45")]
-	[Address(RVA = "0x3FB5D70", Offset = "0x3FB5D70", VA = "0x3FB5D70")]
+	[Token(Token = "0x600178F")]
+	[Address(RVA = "0x1EB5700", Offset = "0x1EB3D00", VA = "0x181EB5700")]
 	public MapScriptComponent()
 	{
 	}

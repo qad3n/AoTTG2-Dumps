@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002D8")]
+[Token(Token = "0x2000307")]
 [ComVisible(true)]
 public abstract class DeriveBytes : IDisposable
 {
-	[Token(Token = "0x60018DD")]
+	[Token(Token = "0x6001945")]
 	public abstract byte[] GetBytes(int cb);
 
-	[Token(Token = "0x60018DE")]
+	[Token(Token = "0x6001946")]
 	public abstract void Reset();
 
-	[Token(Token = "0x60018DF")]
-	[Address(RVA = "0x3B2E340", Offset = "0x3B2E340", VA = "0x3B2E340", Slot = "4")]
+	[Token(Token = "0x6001947")]
+	[Address(RVA = "0x19A7A30", Offset = "0x19A6030", VA = "0x1819A7A30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60018E0")]
-	[Address(RVA = "0x3B2E3B0", Offset = "0x3B2E3B0", VA = "0x3B2E3B0", Slot = "7")]
+	[Token(Token = "0x6001948")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60018E1")]
-	[Address(RVA = "0x3B2E3C0", Offset = "0x3B2E3C0", VA = "0x3B2E3C0")]
+	[Token(Token = "0x6001949")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected DeriveBytes()
 	{
 	}

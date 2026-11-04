@@ -15,38 +15,38 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000180")]
+[Token(Token = "0x2000286")]
 public sealed class AottgMainMenuTipPanelController : MonoBehaviour
 {
-	[Token(Token = "0x2000181")]
+	[Token(Token = "0x2000287")]
 	[CompilerGenerated]
 	private sealed class _003CRevealText_003Ed__9 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400085F")]
+		[Token(Token = "0x4000D00")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000860")]
+		[Token(Token = "0x4000D01")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000861")]
+		[Token(Token = "0x4000D02")]
 		[FieldOffset(Offset = "0x20")]
 		public AottgMainMenuTipPanelController _003C_003E4__this;
 
-		[Token(Token = "0x4000862")]
+		[Token(Token = "0x4000D03")]
 		[FieldOffset(Offset = "0x28")]
 		public string text;
 
-		[Token(Token = "0x4000863")]
+		[Token(Token = "0x4000D04")]
 		[FieldOffset(Offset = "0x30")]
 		private float _003Celapsed_003E5__2;
 
-		[Token(Token = "0x17000136")]
+		[Token(Token = "0x170001BA")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000882")]
-			[Address(RVA = "0x43F8D10", Offset = "0x43F8D10", VA = "0x43F8D10", Slot = "4")]
+			[Token(Token = "0x6000F36")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,11 +54,11 @@ public sealed class AottgMainMenuTipPanelController : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x17000137")]
+		[Token(Token = "0x170001BB")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000884")]
-			[Address(RVA = "0x43F8D60", Offset = "0x43F8D60", VA = "0x43F8D60", Slot = "7")]
+			[Token(Token = "0x6000F38")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,97 +66,97 @@ public sealed class AottgMainMenuTipPanelController : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x600087F")]
-		[Address(RVA = "0x43F8B20", Offset = "0x43F8B20", VA = "0x43F8B20")]
+		[Token(Token = "0x6000F33")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CRevealText_003Ed__9(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000880")]
-		[Address(RVA = "0x43F8B50", Offset = "0x43F8B50", VA = "0x43F8B50", Slot = "5")]
+		[Token(Token = "0x6000F34")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000881")]
-		[Address(RVA = "0x43F8B60", Offset = "0x43F8B60", VA = "0x43F8B60", Slot = "6")]
+		[Token(Token = "0x6000F35")]
+		[Address(RVA = "0x1DE7C70", Offset = "0x1DE6270", VA = "0x181DE7C70", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000883")]
-		[Address(RVA = "0x43F8D20", Offset = "0x43F8D20", VA = "0x43F8D20", Slot = "8")]
+		[Token(Token = "0x6000F37")]
+		[Address(RVA = "0x1DE7E40", Offset = "0x1DE6440", VA = "0x181DE7E40", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400085B")]
+	[Token(Token = "0x4000CFC")]
 	private const float RevealSeconds = 0.45f;
 
-	[Token(Token = "0x400085C")]
+	[Token(Token = "0x4000CFD")]
 	[FieldOffset(Offset = "0x20")]
 	private GisketchUIRoot _root;
 
-	[Token(Token = "0x400085D")]
+	[Token(Token = "0x4000CFE")]
 	[FieldOffset(Offset = "0x28")]
 	private Coroutine _reveal;
 
-	[Token(Token = "0x400085E")]
+	[Token(Token = "0x4000CFF")]
 	[FieldOffset(Offset = "0x30")]
 	private int _currentTipIndex;
 
-	[Token(Token = "0x6000877")]
-	[Address(RVA = "0x43F8550", Offset = "0x43F8550", VA = "0x43F8550")]
+	[Token(Token = "0x6000F2B")]
+	[Address(RVA = "0x1DE39C0", Offset = "0x1DE1FC0", VA = "0x181DE39C0")]
 	public void Setup(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x6000878")]
-	[Address(RVA = "0x43F8610", Offset = "0x43F8610", VA = "0x43F8610")]
+	[Token(Token = "0x6000F2C")]
+	[Address(RVA = "0x1DE34B0", Offset = "0x1DE1AB0", VA = "0x181DE34B0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000879")]
-	[Address(RVA = "0x43F8570", Offset = "0x43F8570", VA = "0x43F8570")]
+	[Token(Token = "0x6000F2D")]
+	[Address(RVA = "0x1DE3AC0", Offset = "0x1DE20C0", VA = "0x181DE3AC0")]
 	public void ShowRandomTip(bool animate)
 	{
 	}
 
-	[Token(Token = "0x600087A")]
-	[Address(RVA = "0x43F8630", Offset = "0x43F8630", VA = "0x43F8630")]
+	[Token(Token = "0x6000F2E")]
+	[Address(RVA = "0x1DE34D0", Offset = "0x1DE1AD0", VA = "0x181DE34D0")]
 	private string RandomTipText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600087B")]
-	[Address(RVA = "0x43F88C0", Offset = "0x43F88C0", VA = "0x43F88C0")]
+	[Token(Token = "0x6000F2F")]
+	[Address(RVA = "0x1DE3890", Offset = "0x1DE1E90", VA = "0x181DE3890")]
 	private void SetTipText(string text, bool animate)
 	{
 	}
 
-	[Token(Token = "0x600087C")]
-	[Address(RVA = "0x43F8AA0", Offset = "0x43F8AA0", VA = "0x43F8AA0")]
+	[Token(Token = "0x6000F30")]
+	[Address(RVA = "0x1DE3750", Offset = "0x1DE1D50", VA = "0x181DE3750")]
 	[IteratorStateMachine(typeof(_003CRevealText_003Ed__9))]
 	private IEnumerator RevealText(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600087D")]
-	[Address(RVA = "0x43F8A00", Offset = "0x43F8A00", VA = "0x43F8A00")]
+	[Token(Token = "0x6000F31")]
+	[Address(RVA = "0x1DE37E0", Offset = "0x1DE1DE0", VA = "0x181DE37E0")]
 	private void SetStateText(string text)
 	{
 	}
 
-	[Token(Token = "0x600087E")]
-	[Address(RVA = "0x43F8B40", Offset = "0x43F8B40", VA = "0x43F8B40")]
+	[Token(Token = "0x6000F32")]
+	[Address(RVA = "0x1DE3C80", Offset = "0x1DE2280", VA = "0x181DE3C80")]
 	public AottgMainMenuTipPanelController()
 	{
 	}

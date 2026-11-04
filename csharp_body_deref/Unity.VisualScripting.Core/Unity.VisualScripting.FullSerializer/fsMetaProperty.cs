@@ -12,183 +12,183 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000212")]
+[Token(Token = "0x20001F6")]
 public class fsMetaProperty
 {
-	[Token(Token = "0x40009C1")]
+	[Token(Token = "0x400096D")]
 	[FieldOffset(Offset = "0x10")]
 	internal MemberInfo _memberInfo;
 
-	[Token(Token = "0x1700020F")]
+	[Token(Token = "0x170001FB")]
 	public Type StorageType
 	{
-		[Token(Token = "0x60012B5")]
-		[Address(RVA = "0x4D887D0", Offset = "0x4D887D0", VA = "0x4D887D0")]
+		[Token(Token = "0x60011FE")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012B6")]
-		[Address(RVA = "0x4D887E0", Offset = "0x4D887E0", VA = "0x4D887E0")]
+		[Token(Token = "0x60011FF")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000210")]
+	[Token(Token = "0x170001FC")]
 	public Type OverrideConverterType
 	{
-		[Token(Token = "0x60012B7")]
-		[Address(RVA = "0x4D887F0", Offset = "0x4D887F0", VA = "0x4D887F0")]
+		[Token(Token = "0x6001200")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012B8")]
-		[Address(RVA = "0x4D88800", Offset = "0x4D88800", VA = "0x4D88800")]
+		[Token(Token = "0x6001201")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000211")]
+	[Token(Token = "0x170001FD")]
 	public bool CanRead
 	{
-		[Token(Token = "0x60012B9")]
-		[Address(RVA = "0x4D88810", Offset = "0x4D88810", VA = "0x4D88810")]
+		[Token(Token = "0x6001202")]
+		[Address(RVA = "0xF1D480", Offset = "0xF1BA80", VA = "0x180F1D480")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60012BA")]
-		[Address(RVA = "0x4D88820", Offset = "0x4D88820", VA = "0x4D88820")]
+		[Token(Token = "0x6001203")]
+		[Address(RVA = "0xF1D940", Offset = "0xF1BF40", VA = "0x180F1D940")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000212")]
+	[Token(Token = "0x170001FE")]
 	public bool CanWrite
 	{
-		[Token(Token = "0x60012BB")]
-		[Address(RVA = "0x4D88830", Offset = "0x4D88830", VA = "0x4D88830")]
+		[Token(Token = "0x6001204")]
+		[Address(RVA = "0x1573470", Offset = "0x1571A70", VA = "0x181573470")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60012BC")]
-		[Address(RVA = "0x4D88840", Offset = "0x4D88840", VA = "0x4D88840")]
+		[Token(Token = "0x6001205")]
+		[Address(RVA = "0x15736C0", Offset = "0x1571CC0", VA = "0x1815736C0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000213")]
+	[Token(Token = "0x170001FF")]
 	public string JsonName
 	{
-		[Token(Token = "0x60012BD")]
-		[Address(RVA = "0x4D88850", Offset = "0x4D88850", VA = "0x4D88850")]
+		[Token(Token = "0x6001206")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012BE")]
-		[Address(RVA = "0x4D88860", Offset = "0x4D88860", VA = "0x4D88860")]
+		[Token(Token = "0x6001207")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000214")]
+	[Token(Token = "0x17000200")]
 	public string MemberName
 	{
-		[Token(Token = "0x60012BF")]
-		[Address(RVA = "0x4D88870", Offset = "0x4D88870", VA = "0x4D88870")]
+		[Token(Token = "0x6001208")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60012C0")]
-		[Address(RVA = "0x4D88880", Offset = "0x4D88880", VA = "0x4D88880")]
+		[Token(Token = "0x6001209")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000215")]
+	[Token(Token = "0x17000201")]
 	public bool IsPublic
 	{
-		[Token(Token = "0x60012C1")]
-		[Address(RVA = "0x4D88890", Offset = "0x4D88890", VA = "0x4D88890")]
+		[Token(Token = "0x600120A")]
+		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60012C2")]
-		[Address(RVA = "0x4D888A0", Offset = "0x4D888A0", VA = "0x4D888A0")]
+		[Token(Token = "0x600120B")]
+		[Address(RVA = "0xA374F0", Offset = "0xA35AF0", VA = "0x180A374F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000216")]
+	[Token(Token = "0x17000202")]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x60012C3")]
-		[Address(RVA = "0x4D888B0", Offset = "0x4D888B0", VA = "0x4D888B0")]
+		[Token(Token = "0x600120C")]
+		[Address(RVA = "0x1AD8270", Offset = "0x1AD6870", VA = "0x181AD8270")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60012C4")]
-		[Address(RVA = "0x4D888C0", Offset = "0x4D888C0", VA = "0x4D888C0")]
+		[Token(Token = "0x600120D")]
+		[Address(RVA = "0x1D263A0", Offset = "0x1D249A0", VA = "0x181D263A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60012B3")]
-	[Address(RVA = "0x4D884C0", Offset = "0x4D884C0", VA = "0x4D884C0")]
+	[Token(Token = "0x60011FC")]
+	[Address(RVA = "0x2E6A400", Offset = "0x2E68A00", VA = "0x182E6A400")]
 	internal fsMetaProperty(fsConfig config, FieldInfo field)
 	{
 	}
 
-	[Token(Token = "0x60012B4")]
-	[Address(RVA = "0x4D88670", Offset = "0x4D88670", VA = "0x4D88670")]
+	[Token(Token = "0x60011FD")]
+	[Address(RVA = "0x2E6A2B0", Offset = "0x2E688B0", VA = "0x182E6A2B0")]
 	internal fsMetaProperty(fsConfig config, PropertyInfo property)
 	{
 	}
 
-	[Token(Token = "0x60012C5")]
-	[Address(RVA = "0x4D88570", Offset = "0x4D88570", VA = "0x4D88570")]
+	[Token(Token = "0x600120E")]
+	[Address(RVA = "0x2E69DA0", Offset = "0x2E683A0", VA = "0x182E69DA0")]
 	private void CommonInitialize(fsConfig config)
 	{
 	}
 
-	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x4D888D0", Offset = "0x4D888D0", VA = "0x4D888D0")]
+	[Token(Token = "0x600120F")]
+	[Address(RVA = "0x2E69FD0", Offset = "0x2E685D0", VA = "0x182E69FD0")]
 	public void Write(object context, object value)
 	{
 	}
 
-	[Token(Token = "0x60012C7")]
-	[Address(RVA = "0x4D88BA0", Offset = "0x4D88BA0", VA = "0x4D88BA0")]
+	[Token(Token = "0x6001210")]
+	[Address(RVA = "0x2E69E90", Offset = "0x2E68490", VA = "0x182E69E90")]
 	public object Read(object context)
 	{
 		return null;

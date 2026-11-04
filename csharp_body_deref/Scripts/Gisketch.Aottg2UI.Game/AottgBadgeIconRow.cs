@@ -14,52 +14,52 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000183")]
+[Token(Token = "0x2000289")]
 internal sealed class AottgBadgeIconRow : AottgComponent
 {
-	[Token(Token = "0x4000864")]
+	[Token(Token = "0x4000D05")]
 	private const string NodeType = "AottgBadgeIconRow";
 
-	[Token(Token = "0x4000865")]
+	[Token(Token = "0x4000D06")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000866")]
+	[Token(Token = "0x4000D07")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly float _size;
 
-	[Token(Token = "0x4000867")]
+	[Token(Token = "0x4000D08")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private readonly float _gap;
 
-	[Token(Token = "0x4000868")]
+	[Token(Token = "0x4000D09")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly string _stateKey;
 
-	[Token(Token = "0x4000869")]
+	[Token(Token = "0x4000D0A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly string _visibleKey;
 
-	[Token(Token = "0x6000894")]
-	[Address(RVA = "0x43FA9D0", Offset = "0x43FA9D0", VA = "0x43FA9D0")]
+	[Token(Token = "0x6000F48")]
+	[Address(RVA = "0x1DF1450", Offset = "0x1DEFA50", VA = "0x181DF1450")]
 	static AottgBadgeIconRow()
 	{
 	}
 
-	[Token(Token = "0x6000895")]
-	[Address(RVA = "0x43FAA90", Offset = "0x43FAA90", VA = "0x43FAA90")]
+	[Token(Token = "0x6000F49")]
+	[Address(RVA = "0x1DF1510", Offset = "0x1DEFB10", VA = "0x181DF1510")]
 	public AottgBadgeIconRow(string id, float size, [Optional][DefaultParameterValue(4f)] float gap, [Optional] string stateKey, [Optional] string visibleKey)
 	{
 	}
 
-	[Token(Token = "0x6000896")]
-	[Address(RVA = "0x43FAB10", Offset = "0x43FAB10", VA = "0x43FAB10", Slot = "4")]
+	[Token(Token = "0x6000F4A")]
+	[Address(RVA = "0x1DF1210", Offset = "0x1DEF810", VA = "0x181DF1210", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000897")]
-	[Address(RVA = "0x43FAD00", Offset = "0x43FAD00", VA = "0x43FAD00")]
+	[Token(Token = "0x6000F4B")]
+	[Address(RVA = "0x1DF1100", Offset = "0x1DEF700", VA = "0x181DF1100")]
 	private static bool BuildRow(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

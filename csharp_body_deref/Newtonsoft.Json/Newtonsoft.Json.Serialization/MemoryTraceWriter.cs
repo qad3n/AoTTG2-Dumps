@@ -28,14 +28,14 @@ public class MemoryTraceWriter : ITraceWriter
 	public TraceLevel LevelFilter
 	{
 		[Token(Token = "0x6000975")]
-		[Address(RVA = "0x3DF4510", Offset = "0x3DF4510", VA = "0x3DF4510", Slot = "4")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
 			return default(TraceLevel);
 		}
 		[Token(Token = "0x6000976")]
-		[Address(RVA = "0x3DF4520", Offset = "0x3DF4520", VA = "0x3DF4520")]
+		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
 		[CompilerGenerated]
 		set
 		{
@@ -43,26 +43,26 @@ public class MemoryTraceWriter : ITraceWriter
 	}
 
 	[Token(Token = "0x6000977")]
-	[Address(RVA = "0x3DF4530", Offset = "0x3DF4530", VA = "0x3DF4530")]
+	[Address(RVA = "0x1C6BE30", Offset = "0x1C6A430", VA = "0x181C6BE30")]
 	public MemoryTraceWriter()
 	{
 	}
 
 	[Token(Token = "0x6000978")]
-	[Address(RVA = "0x3DF45F0", Offset = "0x3DF45F0", VA = "0x3DF45F0", Slot = "5")]
+	[Address(RVA = "0x1C6BBB0", Offset = "0x1C6A1B0", VA = "0x181C6BBB0", Slot = "5")]
 	public void Trace(TraceLevel level, string message, Exception? ex)
 	{
 	}
 
 	[Token(Token = "0x6000979")]
-	[Address(RVA = "0x3DF48B0", Offset = "0x3DF48B0", VA = "0x3DF48B0")]
+	[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 	public IEnumerable<string> GetTraceMessages()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600097A")]
-	[Address(RVA = "0x3DF48C0", Offset = "0x3DF48C0", VA = "0x3DF48C0", Slot = "3")]
+	[Address(RVA = "0x1C6B940", Offset = "0x1C69F40", VA = "0x181C6B940", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

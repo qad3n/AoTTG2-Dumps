@@ -14,7 +14,7 @@ namespace Newtonsoft.Json.Serialization;
 public class JsonStringContract : JsonPrimitiveContract
 {
 	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x3DF2B70", Offset = "0x3DF2B70", VA = "0x3DF2B70")]
+	[Address(RVA = "0x1C6A370", Offset = "0x1C68970", VA = "0x181C6A370")]
 	public JsonStringContract(Type underlyingType)
 	{
 	}

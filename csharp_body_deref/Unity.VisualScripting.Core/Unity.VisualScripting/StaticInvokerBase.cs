@@ -14,23 +14,23 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000167")]
 public abstract class StaticInvokerBase : InvokerBase
 {
-	[Token(Token = "0x6000E6F")]
-	[Address(RVA = "0x4D46F80", Offset = "0x4D46F80", VA = "0x4D46F80")]
+	[Token(Token = "0x6000E79")]
+	[Address(RVA = "0x2E3D260", Offset = "0x2E3B860", VA = "0x182E3D260")]
 	protected StaticInvokerBase(MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E70")]
-	[Address(RVA = "0x4D47580", Offset = "0x4D47580", VA = "0x4D47580", Slot = "20")]
+	[Token(Token = "0x6000E7A")]
+	[Address(RVA = "0x2E3D130", Offset = "0x2E3B730", VA = "0x182E3D130", Slot = "20")]
 	protected sealed override void CompileExpression()
 	{
 	}
 
-	[Token(Token = "0x6000E71")]
+	[Token(Token = "0x6000E7B")]
 	protected abstract void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions);
 
-	[Token(Token = "0x6000E72")]
-	[Address(RVA = "0x4D47600", Offset = "0x4D47600", VA = "0x4D47600", Slot = "22")]
+	[Token(Token = "0x6000E7C")]
+	[Address(RVA = "0x2E3D1C0", Offset = "0x2E3B7C0", VA = "0x182E3D1C0", Slot = "22")]
 	protected override void VerifyTarget(object target)
 	{
 	}

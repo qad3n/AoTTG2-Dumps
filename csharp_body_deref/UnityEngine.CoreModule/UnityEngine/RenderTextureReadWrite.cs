@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F0")]
+[Token(Token = "0x2000111")]
 public enum RenderTextureReadWrite
 {
-	[Token(Token = "0x400031E")]
+	[Token(Token = "0x4000369")]
 	Default,
-	[Token(Token = "0x400031F")]
+	[Token(Token = "0x400036A")]
 	Linear,
-	[Token(Token = "0x4000320")]
+	[Token(Token = "0x400036B")]
 	sRGB
 }

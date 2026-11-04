@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x20001CE")]
+[Token(Token = "0x20001F9")]
 public class LockRecursionException : Exception
 {
-	[Token(Token = "0x6001166")]
-	[Address(RVA = "0x3D28120", Offset = "0x3D28120", VA = "0x3D28120")]
+	[Token(Token = "0x60011C1")]
+	[Address(RVA = "0x1BA14D0", Offset = "0x1B9FAD0", VA = "0x181BA14D0")]
 	public LockRecursionException()
 	{
 	}
 
-	[Token(Token = "0x6001167")]
-	[Address(RVA = "0x3D28190", Offset = "0x3D28190", VA = "0x3D28190")]
+	[Token(Token = "0x60011C2")]
+	[Address(RVA = "0x1BA1520", Offset = "0x1B9FB20", VA = "0x181BA1520")]
 	public LockRecursionException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001168")]
-	[Address(RVA = "0x3D281F0", Offset = "0x3D281F0", VA = "0x3D281F0")]
+	[Token(Token = "0x60011C3")]
+	[Address(RVA = "0x1BA1450", Offset = "0x1B9FA50", VA = "0x181BA1450")]
 	protected LockRecursionException(SerializationInfo info, StreamingContext context)
 	{
 	}

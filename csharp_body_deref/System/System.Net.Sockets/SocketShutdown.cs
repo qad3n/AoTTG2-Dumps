@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000202")]
+[Token(Token = "0x200038F")]
 public enum SocketShutdown
 {
-	[Token(Token = "0x4000B36")]
+	[Token(Token = "0x4000F65")]
 	Receive,
-	[Token(Token = "0x4000B37")]
+	[Token(Token = "0x4000F66")]
 	Send,
-	[Token(Token = "0x4000B38")]
+	[Token(Token = "0x4000F67")]
 	Both
 }

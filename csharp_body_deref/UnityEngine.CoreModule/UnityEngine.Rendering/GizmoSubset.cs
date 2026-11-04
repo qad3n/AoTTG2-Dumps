@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002EA")]
+[Token(Token = "0x20003B0")]
 public enum GizmoSubset
 {
-	[Token(Token = "0x40008B5")]
+	[Token(Token = "0x4000BAE")]
 	PreImageEffects,
-	[Token(Token = "0x40008B6")]
+	[Token(Token = "0x4000BAF")]
 	PostImageEffects
 }

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200045D")]
+[Token(Token = "0x2000533")]
 public enum PickingMode
 {
-	[Token(Token = "0x4000D20")]
+	[Token(Token = "0x40011B7")]
 	Position,
-	[Token(Token = "0x4000D21")]
+	[Token(Token = "0x40011B8")]
 	Ignore
 }

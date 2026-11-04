@@ -11,73 +11,73 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001F6")]
+[Token(Token = "0x20001FD")]
 public class fsAotCompilationManager
 {
-	[Token(Token = "0x20001F7")]
+	[Token(Token = "0x20001FE")]
 	private struct AotCompilation
 	{
-		[Token(Token = "0x4000971")]
+		[Token(Token = "0x4000981")]
 		[FieldOffset(Offset = "0x0")]
 		public Type Type;
 
-		[Token(Token = "0x4000972")]
+		[Token(Token = "0x4000982")]
 		[FieldOffset(Offset = "0x8")]
 		public fsMetaProperty[] Members;
 
-		[Token(Token = "0x4000973")]
+		[Token(Token = "0x4000983")]
 		[FieldOffset(Offset = "0x10")]
 		public bool IsConstructorPublic;
 	}
 
-	[Token(Token = "0x400096F")]
+	[Token(Token = "0x400097F")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<Type, string> _computedAotCompilations;
 
-	[Token(Token = "0x4000970")]
+	[Token(Token = "0x4000980")]
 	[FieldOffset(Offset = "0x8")]
 	private static List<AotCompilation> _uncomputedAotCompilations;
 
-	[Token(Token = "0x170001F8")]
+	[Token(Token = "0x17000205")]
 	public static Dictionary<Type, string> AvailableAotCompilations
 	{
-		[Token(Token = "0x60011EF")]
-		[Address(RVA = "0x4D79340", Offset = "0x4D79340", VA = "0x4D79340")]
+		[Token(Token = "0x6001227")]
+		[Address(RVA = "0x2E5D620", Offset = "0x2E5BC20", VA = "0x182E5D620")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011F0")]
-	[Address(RVA = "0x4D79FE0", Offset = "0x4D79FE0", VA = "0x4D79FE0")]
+	[Token(Token = "0x6001228")]
+	[Address(RVA = "0x2E5D2A0", Offset = "0x2E5B8A0", VA = "0x182E5D2A0")]
 	public static bool TryToPerformAotCompilation(fsConfig config, Type type, out string aotCompiledClassInCSharp)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011F1")]
-	[Address(RVA = "0x4D7A0D0", Offset = "0x4D7A0D0", VA = "0x4D7A0D0")]
+	[Token(Token = "0x6001229")]
+	[Address(RVA = "0x2E5C500", Offset = "0x2E5AB00", VA = "0x182E5C500")]
 	public static void AddAotCompilation(Type type, fsMetaProperty[] members, bool isConstructorPublic)
 	{
 	}
 
-	[Token(Token = "0x60011F2")]
-	[Address(RVA = "0x4D7A240", Offset = "0x4D7A240", VA = "0x4D7A240")]
+	[Token(Token = "0x600122A")]
+	[Address(RVA = "0x2E5D1E0", Offset = "0x2E5B7E0", VA = "0x182E5D1E0")]
 	private static string GetConverterString(fsMetaProperty member)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011F3")]
-	[Address(RVA = "0x4D794C0", Offset = "0x4D794C0", VA = "0x4D794C0")]
+	[Token(Token = "0x600122B")]
+	[Address(RVA = "0x2E5C650", Offset = "0x2E5AC50", VA = "0x182E5C650")]
 	private static string GenerateDirectConverterForTypeInCSharp(Type type, fsMetaProperty[] members, bool isConstructorPublic)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011F4")]
-	[Address(RVA = "0x4D7A300", Offset = "0x4D7A300", VA = "0x4D7A300")]
+	[Token(Token = "0x600122C")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public fsAotCompilationManager()
 	{
 	}

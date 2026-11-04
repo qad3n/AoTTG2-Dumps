@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200002E")]
 public enum MatchmakingMode : byte
 {
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x4000185")]
 	FillRoom,
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x4000186")]
 	SerialMatching,
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x4000187")]
 	RandomMatching
 }

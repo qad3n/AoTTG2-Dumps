@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgCharacterNamePreviewRuntime.cs
@@ -8,468 +8,110 @@
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Setup (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, Gisketch_Aottg2UI_State_GisketchUIState_o* state, bool liveDialog, const MethodInfo* method);
-// 0x4502810
+// 0x181df7df0
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Setup
                (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,
-               Gisketch_Aottg2UI_State_GisketchUIState_o *state,bool_conflict liveDialog,MethodInfo *method)
+               Gisketch_Aottg2UI_State_GisketchUIState_o *state,bool liveDialog,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_State_GisketchUIState_o *pGVar1;
-  System_RuntimeTypeHandle_o SVar2;
-  bool_conflict bVar3;
-  System_Action_string__o *pSVar4;
-  UnityEngine_UI_Image_o *pUVar5;
-  UnityEngine_Transform_o *pUVar6;
-  PatreonEffects_NameEffectLabel_o *pPVar7;
-  System_Type_array *pSVar8;
-  System_Type_o *pSVar9;
-  long lVar10;
-  UnityEngine_GameObject_o *pUVar11;
-  UnityEngine_Transform_o *pUVar12;
-  Il2CppObject *pIVar13;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *__this_00;
-  undefined8 uVar14;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *__this_01;
-  UnityEngine_Component_o *pUVar15;
-  char cVar16;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  UnityEngine_Transform_o *x;
-  System_String_o *name;
-  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *pGVar17;
-  MethodInfo *in_R8;
-  float fVar18;
-  uint uVar19;
-  UnityEngine_Color_o value;
+  Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_01;
+  UnityEngine_GameObject_o *pUVar1;
+  UnityEngine_Transform_o *pUVar2;
+  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *value;
+  UnityEngine_UI_Image_o *value_00;
+  PatreonEffects_NameEffectLabel_o *pPVar3;
   
-  cVar16 = (char)method;
-  if (g_data_057aed18 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Name");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Row");
-    g_data_057aed18 = '\x01';
+  if (Il2CppMethodInitialized_184344b80 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_string);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_OnStateChanged);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Preview Name");
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Preview Guild");
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Preview Guild Row");
+    Il2CppMethodInitialized_184344b80 = '\x01';
   }
   (__this->fields)._state = state;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._state,state);
-  *(char *)&(__this->fields)._liveDialog = (char)liveDialog;
-  pGVar1 = (__this->fields)._state;
-  method_00 = extraout_RDX;
-  if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar4 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    cVar16 = '\0';
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__add_Changed(pGVar1,pSVar4,(MethodInfo *)0x0);
-    method_00 = extraout_RDX_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._state,state);
+  (__this->fields)._liveDialog = liveDialog;
+  if ((__this->fields)._state != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
+    __this_00 = (__this->fields)._state;
+    __this_01 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_string);
+    System_Action_object____ctor
+              (__this_01,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_OnStateChanged,
+               (MethodInfo *)0x0);
+    Gisketch_Aottg2UI_State_GisketchUIState__add_Changed
+              (__this_00,(System_Action_string__o *)__this_01,(MethodInfo *)0x0);
   }
-  pUVar5 = (UnityEngine_UI_Image_o *)
-           Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
-                     (__this,"AoTTG Preview Guild Row",20.0,method_00);
-  (__this->fields)._guildRow = (UnityEngine_GameObject_o *)pUVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._guildRow);
-  pGVar17 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)(__this->fields)._guildRow;
-  if (pGVar17 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-    pUVar6 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar17,(MethodInfo *)0x0);
-    pUVar5 = (UnityEngine_UI_Image_o *)
-             Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
-                       (pGVar17,pUVar6,20.0,method_01);
-    (__this->fields)._guildBadges = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)pUVar5;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._guildBadges);
-    pGVar17 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)(__this->fields)._guildRow;
-    if (pGVar17 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-      pUVar6 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar17,(MethodInfo *)0x0);
-      pUVar5 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
-                         (pGVar17,pUVar6,30.0,method_02);
-      (__this->fields)._guildPresetImage = pUVar5;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._guildPresetImage);
-      pUVar11 = (__this->fields)._guildRow;
-      if (pUVar11 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar6 = UnityEngine_GameObject__get_transform(pUVar11,(MethodInfo *)0x0);
-        pPVar7 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                           (__this,"AoTTG Preview Guild",20.0,pUVar6,0,in_R8);
-        (__this->fields)._guild = pPVar7;
-        il2cpp_runtime_helper_022b4080(&(__this->fields)._guild,pPVar7);
-        pPVar7 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                           (__this,"AoTTG Preview Name",20.0,(UnityEngine_Transform_o *)0x0,1,in_R8);
-        (__this->fields)._name = pPVar7;
-        il2cpp_runtime_helper_022b4080(&(__this->fields)._name);
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh(__this,(MethodInfo *)pPVar7);
+  pUVar1 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
+                     (__this,"AoTTG Preview Guild Row",20.0,(MethodInfo *)0x0);
+  (__this->fields)._guildRow = pUVar1;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._guildRow,pUVar1);
+  pUVar1 = (__this->fields)._guildRow;
+  if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
+    pUVar2 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
+    value = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
+                      (__this,pUVar2,20.0,(MethodInfo *)0x0);
+    (__this->fields)._guildBadges = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._guildBadges,value);
+    pUVar1 = (__this->fields)._guildRow;
+    if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
+      pUVar2 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
+      value_00 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
+                           (__this,pUVar2,30.0,(MethodInfo *)0x0);
+      (__this->fields)._guildPresetImage = value_00;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._guildPresetImage,value_00);
+      pUVar1 = (__this->fields)._guildRow;
+      if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar2 = UnityEngine_GameObject__get_transform(pUVar1,(MethodInfo *)0x0);
+        pPVar3 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
+                           (__this,"AoTTG Preview Guild",20.0,pUVar2,false,(MethodInfo *)0x0);
+        (__this->fields)._guild = pPVar3;
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._guild,pPVar3);
+        pPVar3 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
+                           (__this,"AoTTG Preview Name",20.0,(UnityEngine_Transform_o *)0x0,true,
+                            (MethodInfo *)0x0);
+        (__this->fields)._name = pPVar3;
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._name,pPVar3);
+        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh(__this,(MethodInfo *)0x0);
         return;
       }
     }
   }
-  pUVar15 = (UnityEngine_Component_o *)0x0;
-  fVar18 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed1b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1b = '\x01';
-  }
-  pSVar8 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar2 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar9 = System_Type__GetTypeFromHandle(SVar2,(MethodInfo *)0x0);
-  if (pSVar8 == (System_Type_array *)0x0) {
-label_04502c53:
-    il2cpp_runtime_helper_022b2c90();
-label_04502c58:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar9 == (System_Type_o *)0x0) {
-label_04502ab2:
-      if ((int)pSVar8->max_length != 0) {
-        pSVar8->m_Items[0] = pSVar9;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items);
-        pSVar9 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar9 != (System_Type_o *)0x0) {
-          lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-          if (lVar10 == 0) goto label_04502c5d;
-        }
-        if (1 < (uint)pSVar8->max_length) {
-          pSVar8->m_Items[1] = pSVar9;
-          il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 1,pSVar9);
-          pUVar11 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-          cVar16 = '\0';
-          UnityEngine_GameObject___ctor_4dfc440(pUVar11,(System_String_o *)pUVar5,pSVar8,(MethodInfo *)0x0);
-          if (pUVar11 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar6 = UnityEngine_GameObject__get_transform(pUVar11,(MethodInfo *)0x0);
-            pUVar12 = UnityEngine_Component__get_transform(pUVar15,(MethodInfo *)0x0);
-            if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-              cVar16 = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar6,pUVar12,0,(MethodInfo *)0x0);
-              pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar11,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-              if (pIVar13 != (Il2CppObject *)0x0) {
-                (*pIVar13->klass->vtable[0x26].methodPtr)
-                          ((ulong)(uint)(fVar18 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-                (*pIVar13->klass->vtable[0x28].methodPtr)
-                          (0x3f800000,pIVar13,pIVar13->klass->vtable[0x28].method);
-                __this_00 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                            UnityEngine_GameObject__AddComponent_object_(pUVar11,MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-                if (__this_00 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-                  UnityEngine_UI_LayoutGroup__set_childAlignment
-                            ((UnityEngine_UI_LayoutGroup_o *)__this_00,4,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
-                            (__this_00,1,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight
-                            (__this_00,1,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
-                            (__this_00,0,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                            (__this_00,0,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(__this_00,5.0,(MethodInfo *)0x0)
-                  ;
-                  return;
-                }
-              }
-            }
-          }
-          goto label_04502c53;
-        }
-      }
-      goto label_04502c58;
-    }
-    lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-    if (lVar10 != 0) goto label_04502ab2;
-  }
-label_04502c5d:
-  uVar14 = il2cpp_runtime_helper_0231b270();
-  pUVar6 = (UnityEngine_Transform_o *)0x0;
-  fVar18 = (float)il2cpp_runtime_helper_022b2b10(uVar14);
-  if (g_data_057aed1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Badges");
-    g_data_057aed1c = '\x01';
-  }
-  pSVar8 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar2 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar9 = System_Type__GetTypeFromHandle(SVar2,(MethodInfo *)0x0);
-  if (pSVar8 == (System_Type_array *)0x0) {
-label_04502e4e:
-    il2cpp_runtime_helper_022b2c90();
-label_04502e53:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar9 == (System_Type_o *)0x0) {
-label_04502d4a:
-      if ((int)pSVar8->max_length != 0) {
-        pSVar8->m_Items[0] = pSVar9;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items);
-        pSVar9 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar9 != (System_Type_o *)0x0) {
-          lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-          if (lVar10 == 0) goto label_04502e58;
-        }
-        if (1 < (uint)pSVar8->max_length) {
-          pSVar8->m_Items[1] = pSVar9;
-          il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 1,pSVar9);
-          pUVar11 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-          cVar16 = '\0';
-          UnityEngine_GameObject___ctor_4dfc440(pUVar11,"AoTTG Preview Guild Badges",pSVar8,(MethodInfo *)0x0);
-          if (pUVar11 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar12 = UnityEngine_GameObject__get_transform(pUVar11,(MethodInfo *)0x0);
-            if (pUVar12 != (UnityEngine_Transform_o *)0x0) {
-              cVar16 = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar12,pUVar6,0,(MethodInfo *)0x0);
-              __this_01 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)
-                          UnityEngine_GameObject__AddComponent_object_(pUVar11,MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-              if (__this_01 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-                Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
-                          (__this_01,fVar18,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
-                           (System_String_o *)0x0,1,in_R8);
-                return;
-              }
-            }
-          }
-          goto label_04502e4e;
-        }
-      }
-      goto label_04502e53;
-    }
-    lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-    if (lVar10 != 0) goto label_04502d4a;
-  }
-label_04502e58:
-  uVar14 = il2cpp_runtime_helper_0231b270();
-  pUVar6 = (UnityEngine_Transform_o *)0x0;
-  fVar18 = (float)il2cpp_runtime_helper_022b2b10(uVar14);
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-  }
-  pSVar8 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar2 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar9 = System_Type__GetTypeFromHandle(SVar2,(MethodInfo *)0x0);
-  if (pSVar8 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar9 == (System_Type_o *)0x0) {
-label_04502f6e:
-      if ((int)pSVar8->max_length != 0) {
-        pSVar8->m_Items[0] = pSVar9;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items);
-        pSVar9 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar9 != (System_Type_o *)0x0) {
-          lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-          if (lVar10 == 0) goto label_0450318d;
-        }
-        if (1 < (uint)pSVar8->max_length) {
-          pSVar8->m_Items[1] = pSVar9;
-          il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 1);
-          pSVar9 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-          if (pSVar9 != (System_Type_o *)0x0) {
-            lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-            if (lVar10 == 0) goto label_0450318d;
-          }
-          if (2 < (uint)pSVar8->max_length) {
-            pSVar8->m_Items[2] = pSVar9;
-            il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 2);
-            pSVar9 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-            if (pSVar9 != (System_Type_o *)0x0) {
-              lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-              if (lVar10 == 0) goto label_0450318d;
-            }
-            if (3 < (uint)pSVar8->max_length) {
-              pSVar8->m_Items[3] = pSVar9;
-              il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 3,pSVar9);
-              pUVar11 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-              cVar16 = '\0';
-              UnityEngine_GameObject___ctor_4dfc440(pUVar11,"AoTTG Preview Guild Preset Image",pSVar8,(MethodInfo *)0x0);
-              if (pUVar11 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar12 = UnityEngine_GameObject__get_transform(pUVar11,(MethodInfo *)0x0);
-                if (pUVar12 != (UnityEngine_Transform_o *)0x0) {
-                  cVar16 = '\0';
-                  UnityEngine_Transform__SetParent_4e09e30(pUVar12,pUVar6,0,(MethodInfo *)0x0);
-                  pUVar5 = (UnityEngine_UI_Image_o *)
-                           UnityEngine_GameObject__GetComponent_object_(pUVar11,MethodInfo_Image_GetComponent_Image);
-                  if (pUVar5 != (UnityEngine_UI_Image_o *)0x0) {
-                    (*(pUVar5->klass->vtable)._25_set_raycastTarget.methodPtr)
-                              (pUVar5,0,(pUVar5->klass->vtable)._25_set_raycastTarget.method);
-                    UnityEngine_UI_Image__set_preserveAspect(pUVar5,1,(MethodInfo *)0x0);
-                    pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar11,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                    if (pIVar13 != (Il2CppObject *)0x0) {
-                      (*pIVar13->klass->vtable[0x24].methodPtr)
-                                ((ulong)(uint)(fVar18 * 2.9),pIVar13,pIVar13->klass->vtable[0x24].method);
-                      (*pIVar13->klass->vtable[0x26].methodPtr)((ulong)(uint)fVar18,pIVar13);
-                      UnityEngine_GameObject__SetActive(pUVar11,0,(MethodInfo *)0x0);
-                      return;
-                    }
-                  }
-                }
-              }
-              goto label_04503183;
-            }
-          }
-        }
-      }
-      goto label_04503188;
-    }
-    lVar10 = il2cpp_runtime_helper_023051f0(pSVar9);
-    if (lVar10 != 0) goto label_04502f6e;
-  }
-label_0450318d:
-  pUVar15 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  name = (System_String_o *)0x0;
-  fVar18 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar8 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar2 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar9 = System_Type__GetTypeFromHandle(SVar2,(MethodInfo *)0x0);
-  if (pSVar8 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (pSVar9 != (System_Type_o *)0x0) {
-      lVar10 = il2cpp_runtime_helper_023051f0(pSVar9,(((pSVar8->obj).klass)->_1).element_class);
-      if (lVar10 == 0) goto label_0450345a;
-    }
-    if ((int)pSVar8->max_length != 0) {
-      pSVar8->m_Items[0] = pSVar9;
-      il2cpp_runtime_helper_022b4080(pSVar8->m_Items);
-      pSVar9 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if (pSVar9 != (System_Type_o *)0x0) {
-        lVar10 = il2cpp_runtime_helper_023051f0(pSVar9,(((pSVar8->obj).klass)->_1).element_class);
-        if (lVar10 == 0) goto label_0450345a;
-      }
-      if (1 < (uint)pSVar8->max_length) {
-        pSVar8->m_Items[1] = pSVar9;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items + 1,pSVar9);
-        pUVar11 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar11,name,pSVar8,(MethodInfo *)0x0);
-        if (pUVar11 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar6 = UnityEngine_GameObject__get_transform(pUVar11,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar3 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          pUVar12 = x;
-          if ((char)bVar3 == '\0') {
-            pUVar12 = UnityEngine_Component__get_transform(pUVar15,(MethodInfo *)0x0);
-          }
-          if (pUVar6 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar6,pUVar12,0,(MethodInfo *)0x0);
-            pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar11,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar18 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-              if (cVar16 == '\0') {
-                uVar19 = 0;
-              }
-              else {
-                uVar19 = 0x3f800000;
-              }
-              (*pIVar13->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar19,pIVar13,pIVar13->klass->vtable[0x28].method);
-              pPVar7 = (PatreonEffects_NameEffectLabel_o *)
-                       UnityEngine_GameObject__AddComponent_object_(pUVar11,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (pPVar7 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(pPVar7,fVar18,(MethodInfo *)0x0);
-                value.fields.b = 1.0;
-                value.fields.a = 1.0;
-                value.fields.r = 1.0;
-                value.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(pPVar7,value,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(pPVar7,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(pPVar7,1,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-        goto label_04503450;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar10 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(lVar10,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  pGVar1 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar10 + 0x20);
-  if (pGVar1 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar4 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(pGVar1,pSVar4,(MethodInfo *)0x0);
-    return;
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$OnDestroy
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__OnDestroy (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, const MethodInfo* method);
-// 0x4503470
+// 0x181df7380
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__OnDestroy
                (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,MethodInfo *method)
 
 {
   Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
-  System_Action_string__o *value;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_01;
   
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
+  if (Il2CppMethodInitialized_184344b81 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_string);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_OnStateChanged);
+    Il2CppMethodInitialized_184344b81 = '\x01';
   }
-  __this_00 = (__this->fields)._state;
-  if (__this_00 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    value = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(__this_00,value,(MethodInfo *)0x0);
-    return;
+  if ((__this->fields)._state != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
+    __this_00 = (__this->fields)._state;
+    __this_01 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_string);
+    System_Action_object____ctor
+              (__this_01,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_OnStateChanged,
+               (MethodInfo *)0x0);
+    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed
+              (__this_00,(System_Action_string__o *)__this_01,(MethodInfo *)0x0);
   }
   return;
 }
@@ -477,1502 +119,307 @@ void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__OnDestroy
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$OnStateChanged
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__OnStateChanged (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, System_String_o* key, const MethodInfo* method);
-// 0x45034f0
+// 0x181df7410
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__OnStateChanged
                (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,System_String_o *key,
                MethodInfo *method)
 
 {
-  int iVar1;
-  Gisketch_Aottg2UI_State_GisketchUIState_o *pGVar2;
-  System_RuntimeTypeHandle_o SVar3;
-  uint uVar4;
-  bool_conflict bVar5;
-  TMPro_TMP_Text_o *pTVar6;
-  TMPro_TMP_Text_o *__this_00;
-  UnityEngine_Transform_o *pUVar7;
-  TMPro_TMP_Text_o *x;
-  long *plVar8;
-  System_String_o *pSVar9;
-  PatreonEffects_NameEffectController_o *pPVar10;
-  MethodInfo **ppMVar11;
-  System_String_array *ids;
-  System_String_o *font;
-  UnityEngine_GameObject_o *pUVar12;
-  SimpleJSONFixed_JSONNode_o *effect;
-  Il2CppObject *pIVar13;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *pUVar14;
-  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *pGVar15;
-  System_Action_string__o *pSVar16;
-  UnityEngine_UI_Image_o *pUVar17;
-  PatreonEffects_NameEffectLabel_o *pPVar18;
-  System_Type_array *pSVar19;
-  System_Type_o *pSVar20;
-  long lVar21;
-  UnityEngine_Transform_o *pUVar22;
-  undefined8 uVar23;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *pGVar24;
-  UnityEngine_Component_o *pUVar25;
-  char cVar26;
-  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *in_RCX;
-  undefined1 extraout_DL;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *pMVar27;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  long extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *method_05;
-  MethodInfo *method_06;
-  UnityEngine_Transform_o *x_00;
-  UnityEngine_GameObject_o *pUVar28;
-  PatreonEffects_NameEffectController_o **ppPVar29;
-  MethodInfo *in_R8;
-  int liveDialog;
-  bool bVar30;
-  float fVar31;
-  UnityEngine_Color_o UVar32;
-  UnityEngine_Color_o value;
-  MethodInfo *in_stack_ffffffffffffffa8;
-  System_String_o *pSStack_48;
-  PatreonEffects_NameEffectController_o *pPStack_40;
-  System_String_o *pSStack_38;
-  
-  ppPVar29 = (PatreonEffects_NameEffectController_o **)__this;
-  if (g_data_057aed1a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TMP_InputField_Find_TMP_InputField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCharacterTextField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"nameEffect");
-    il2cpp_runtime_helper_023445d0(&"guildEffect");
-    il2cpp_runtime_helper_023445d0(&"nameFont");
-    il2cpp_runtime_helper_023445d0(&"guildFont");
-    il2cpp_runtime_helper_023445d0(&"profile-character-name");
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild");
-    ppPVar29 = &"name";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aed1a = '\x01';
-  }
-  pTVar6 = (TMPro_TMP_Text_o *)Gisketch_Aottg2UI_Game_AottgCharacterInfoState__Current((MethodInfo *)ppPVar29)
-  ;
-  pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0;
-  pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-  x = (TMPro_TMP_Text_o *)__this;
-  __this_00 = (TMPro_TMP_Text_o *)
-              UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (__this_00 != (TMPro_TMP_Text_o *)0x0) {
-    pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-    pUVar7 = UnityEngine_Transform__get_root((UnityEngine_Transform_o *)__this_00,(MethodInfo *)0x0);
-    x = __this_00;
-    if ((char)(__this->fields)._liveDialog != '\0') {
-      x = (TMPro_TMP_Text_o *)
-          Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_
-                    (pUVar7,"profile-character-name",MethodInfo_TMP_InputField_Find_TMP_InputField);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-      uVar4 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)(ulong)(uVar4 & 0xff);
-    }
-    if ((pTVar6 != (TMPro_TMP_Text_o *)0x0) &&
-       (pPStack_40 = "name", x = pTVar6,
-       plVar8 = (long *)(*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                                  (pTVar6,"name",(pTVar6->klass->vtable)._7_OnDisable.method),
-       plVar8 != (long *)0x0)) {
-      in_RCX = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)*plVar8;
-      pPStack_40 = in_RCX[4].fields._guildPresetEffect;
-      pSStack_38 = (System_String_o *)(*(code *)in_RCX[4].fields._guildPresetImage)(plVar8);
-      liveDialog = (int)pGVar15;
-      if (liveDialog == 0) {
-        pPVar10 = (PatreonEffects_NameEffectController_o *)
-                  Gisketch_Aottg2UI_Game_AottgCharacterInfoState__DisplayGuild
-                            ((SimpleJSONFixed_JSONNode_o *)pTVar6,(MethodInfo *)pPStack_40);
-        pSStack_48 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__PresetId
-                               ((SimpleJSONFixed_JSONNode_o *)pTVar6,(MethodInfo *)pPStack_40);
-        pGVar24 = (__this->fields)._guildBadges;
-        x = (TMPro_TMP_Text_o *)0x0;
-        if (pGVar24 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_045025ff;
-        Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetFromCharacterInfo
-                  (pGVar24,(SimpleJSONFixed_JSONNode_o *)pTVar6,method_01);
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
-                           ((SimpleJSONFixed_JSONNode_o *)pTVar6,"nameFont",method_02);
-        font = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
-                         ((SimpleJSONFixed_JSONNode_o *)pTVar6,"guildFont",method_03);
-        pPStack_40 = pPVar10;
-      }
-      else {
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
-                           (pUVar7,"profile-character-name",pSStack_38,(MethodInfo *)in_RCX);
-        pMVar27 = extraout_RDX;
-        if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pMVar27 = extraout_RDX_00;
-        }
-        pSStack_38 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value("profile-character-name",pSVar9,pMVar27);
-        pPVar10 = (PatreonEffects_NameEffectController_o *)
-                  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__DialogGuild
-                            (pUVar7,(SimpleJSONFixed_JSONNode_o *)pTVar6,method_00);
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          if (g_data_057aeda8 == '\0') goto label_04502325;
-label_04502277:
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) != 0) goto label_0450228b;
-label_0450234c:
-          il2cpp_runtime_helper_02337ed0();
-          if (TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer[8] == (Il2CppMethodPointer)0x0) goto label_0450236c;
-label_0450229c:
-          ppMVar11 = (MethodInfo **)&g_data_057b9c00;
-        }
-        else {
-          if (g_data_057aeda8 != '\0') goto label_04502277;
-label_04502325:
-          il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-          g_data_057aeda8 = '\x01';
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) goto label_0450234c;
-label_0450228b:
-          if (TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer[8] != (Il2CppMethodPointer)0x0) goto label_0450229c;
-label_0450236c:
-          ppMVar11 = &TypeInfo_AottgEditCharacterDialog;
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            ppMVar11 = &TypeInfo_AottgEditCharacterDialog;
-          }
-        }
-        pSStack_48 = *(System_String_o **)(*ppMVar11)[2].virtualMethodPointer;
-        pGVar24 = (__this->fields)._guildBadges;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          if (g_data_057aedaa == '\0') goto label_045025cf;
-label_045023b3:
-          iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-        }
-        else {
-          if (g_data_057aedaa != '\0') goto label_045023b3;
-label_045025cf:
-          il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-          g_data_057aedaa = '\x01';
-          iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        x = *(TMPro_TMP_Text_o **)(TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer + 0x30);
-        pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-        ids = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__OrderedBadgeIds
-                        ((System_Collections_Generic_IEnumerable_string__o *)x,(MethodInfo *)0x0);
-        if (pGVar24 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_045025ff;
-        Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetBadges
-                  (pGVar24,(System_Collections_Generic_IEnumerable_string__o *)ids,method_04);
-        pMVar27 = TypeInfo_AottgEditCharacterDialog;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameFont(pMVar27);
-        pMVar27 = TypeInfo_AottgEditCharacterDialog;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        font = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildFont(pMVar27);
-        pUVar12 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
-                  (pUVar12,"profile-character-name",pSVar9,(MethodInfo *)in_RCX);
-        pUVar12 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
-                  (pUVar12,"profile-character-guild",font,(MethodInfo *)&"profile-character-guild");
-        pPStack_40 = pPVar10;
-      }
-      pPVar18 = (__this->fields)._name;
-      effect = (SimpleJSONFixed_JSONNode_o *)
-               (*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                         (pTVar6,"nameEffect",(pTVar6->klass->vtable)._7_OnDisable.method);
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
-                (pPVar18,pSStack_38,liveDialog,1,effect,pSVar9,in_stack_ffffffffffffffa8);
-      in_R8 = (MethodInfo *)
-              (*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                        (pTVar6,"guildEffect",(pTVar6->klass->vtable)._7_OnDisable.method);
-      x = (TMPro_TMP_Text_o *)__this;
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ApplyGuild
-                (__this,(System_String_o *)pPStack_40,pSStack_48,liveDialog,
-                 (SimpleJSONFixed_JSONNode_o *)in_R8,font,in_stack_ffffffffffffffa8);
-      pGVar24 = (__this->fields)._guildBadges;
-      in_RCX = pGVar15;
-      if (pGVar24 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-        bVar30 = *(char *)((long)&(pGVar24->fields)._controlsActive + 3) != '\0';
-        pUVar12 = (__this->fields)._guildRow;
-        pUVar28 = (UnityEngine_GameObject_o *)0x0;
-        if (!bVar30) {
-          pUVar28 = pUVar12;
-        }
-        uVar4 = 1;
-        in_RCX = __this;
-        if (bVar30) goto label_0450259c;
-        x = (TMPro_TMP_Text_o *)(__this->fields)._guild;
-        if (x != (TMPro_TMP_Text_o *)0x0) {
-          pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-          pTVar6 = (TMPro_TMP_Text_o *)
-                   UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)x,(MethodInfo *)0x0);
-          if (pTVar6 != (TMPro_TMP_Text_o *)0x0) {
-            pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-            bVar5 = UnityEngine_GameObject__get_activeSelf
-                              ((UnityEngine_GameObject_o *)pTVar6,(MethodInfo *)0x0);
-            x = pTVar6;
-            if ((char)bVar5 == '\0') {
-              x = (TMPro_TMP_Text_o *)(__this->fields)._guildPresetImage;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              uVar4 = 0;
-              pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-              bVar5 = UnityEngine_Object__op_Inequality
-                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              pUVar12 = pUVar28;
-              if ((char)bVar5 != '\0') {
-                x = (TMPro_TMP_Text_o *)(__this->fields)._guildPresetImage;
-                if (x != (TMPro_TMP_Text_o *)0x0) {
-                  pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-                  pTVar6 = (TMPro_TMP_Text_o *)
-                           UnityEngine_Component__get_gameObject
-                                     ((UnityEngine_Component_o *)x,(MethodInfo *)0x0);
-                  if (pTVar6 != (TMPro_TMP_Text_o *)0x0) {
-                    pPStack_40 = (PatreonEffects_NameEffectController_o *)0x0;
-                    uVar4 = UnityEngine_GameObject__get_activeSelf
-                                      ((UnityEngine_GameObject_o *)pTVar6,(MethodInfo *)0x0);
-                    x = pTVar6;
-                    goto label_0450259c;
-                  }
-                }
-                goto label_045025ff;
-              }
-            }
-label_0450259c:
-            if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-              UnityEngine_GameObject__SetActive(pUVar12,uVar4 & 0xff,(MethodInfo *)0x0);
-              return;
-            }
-          }
-        }
-      }
-    }
-  }
-label_045025ff:
-  il2cpp_runtime_helper_022b2c90();
-  pPVar10 = pPStack_40;
-  ppPVar29 = (PatreonEffects_NameEffectController_o **)x;
-  if (g_data_057aed17 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_VerticalLayoutGroup_AddComponent_VerticalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RectOffset);
-    il2cpp_runtime_helper_023445d0(&"characterNamePreviewBg");
-    ppPVar29 = &"live";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aed17 = '\x01';
-  }
-  if (((x != (TMPro_TMP_Text_o *)0x0) &&
-      (pPVar10 = MethodInfo_Image_AddComponent_Image, ppPVar29 = (PatreonEffects_NameEffectController_o **)x,
-      pIVar13 = UnityEngine_GameObject__AddComponent_object_
-                          ((UnityEngine_GameObject_o *)x,(MethodInfo_255A020 *)MethodInfo_Image_AddComponent_Image),
-      extraout_RDX_01 != 0)) &&
-     (ppPVar29 = *(PatreonEffects_NameEffectController_o ***)(extraout_RDX_01 + 0x18),
-     (TMPro_TMP_Text_o *)ppPVar29 != (TMPro_TMP_Text_o *)0x0)) {
-    UVar32.fields.b = 0.13;
-    UVar32.fields.a = 1.0;
-    UVar32.fields.r = 0.13;
-    UVar32.fields.g = 0.13;
-    pPVar10 = "characterNamePreviewBg";
-    UVar32 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                       ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)ppPVar29,(System_String_o *)"characterNamePreviewBg",
-                        UVar32,(MethodInfo *)0x0);
-    if (pIVar13 != (Il2CppObject *)0x0) {
-      (*pIVar13->klass->vtable[0x17].methodPtr)
-                (UVar32.fields._0_8_,UVar32.fields._8_8_,pIVar13,pIVar13->klass->vtable[0x17].method);
-      (*pIVar13->klass->vtable[0x19].methodPtr)(pIVar13,0,pIVar13->klass->vtable[0x19].method);
-      pUVar14 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                UnityEngine_GameObject__AddComponent_object_((UnityEngine_GameObject_o *)x,MethodInfo_VerticalLayoutGroup_AddComponent_VerticalLayoutGroup);
-      pTVar6 = (TMPro_TMP_Text_o *)il2cpp_runtime_helper_023052d0(TypeInfo_RectOffset);
-      pPVar10 = (PatreonEffects_NameEffectController_o *)&g_data_0000000f;
-      in_RCX = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0xa;
-      in_R8 = (MethodInfo *)0xa;
-      ppPVar29 = (PatreonEffects_NameEffectController_o **)pTVar6;
-      UnityEngine_RectOffset___ctor_4dbeaf0
-                ((UnityEngine_RectOffset_o *)pTVar6,0xf,0xf,10,10,(MethodInfo *)0x0);
-      if (pUVar14 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-        UnityEngine_UI_LayoutGroup__set_padding
-                  ((UnityEngine_UI_LayoutGroup_o *)pUVar14,(UnityEngine_RectOffset_o *)pTVar6,
-                   (MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(pUVar14,2.0,(MethodInfo *)0x0);
-        UnityEngine_UI_LayoutGroup__set_childAlignment
-                  ((UnityEngine_UI_LayoutGroup_o *)pUVar14,4,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth(pUVar14,1,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight(pUVar14,1,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth(pUVar14,0,(MethodInfo *)0x0)
-        ;
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                  (pUVar14,0,(MethodInfo *)0x0);
-        pPVar10 = MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara;
-        pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)
-                  UnityEngine_GameObject__AddComponent_object_
-                            ((UnityEngine_GameObject_o *)x,(MethodInfo_255A020 *)MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara);
-        ppPVar29 = (PatreonEffects_NameEffectController_o **)x;
-        if (pPStack_40 != (PatreonEffects_NameEffectController_o *)0x0) {
-          pGVar2 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(extraout_RDX_01 + 0x30);
-          ppPVar29 = (PatreonEffects_NameEffectController_o **)(pPStack_40->fields).popShadowText;
-          pPVar10 = "live";
-          uVar4 = System_String__op_Equality
-                            ((System_String_o *)ppPVar29,(System_String_o *)"live",(MethodInfo *)0x0);
-          if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-            Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Setup
-                      (pGVar15,pGVar2,uVar4 & 0xff,(MethodInfo *)in_RCX);
-            return;
-          }
-        }
-      }
-    }
-  }
-  cVar26 = (char)in_RCX;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed18 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Name");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Row");
-    g_data_057aed18 = '\x01';
-  }
-  (((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material = (UnityEngine_Material_o *)pPVar10;
-  il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material,pPVar10);
-  *(undefined1 *)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RectTransform = extraout_DL;
-  pGVar2 = (Gisketch_Aottg2UI_State_GisketchUIState_o *)(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material;
-  pMVar27 = extraout_RDX_02;
-  if (pGVar2 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar16 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    cVar26 = '\0';
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__add_Changed(pGVar2,pSVar16,(MethodInfo *)0x0);
-    pMVar27 = extraout_RDX_03;
-  }
-  pUVar17 = (UnityEngine_UI_Image_o *)
-            Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
-                      ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,"AoTTG Preview Guild Row",20.0
-                       ,pMVar27);
-  *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields = pUVar17;
-  il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color);
-  pGVar15 = *(Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o **)
-             &(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-  if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-    pUVar7 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar15,(MethodInfo *)0x0);
-    pUVar17 = (UnityEngine_UI_Image_o *)
-              Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
-                        (pGVar15,pUVar7,20.0,method_05);
-    *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields.b = pUVar17;
-    il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields.b);
-    pGVar15 = *(Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o **)
-               &(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-    if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-      pUVar7 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar15,(MethodInfo *)0x0);
-      pUVar17 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
-                          (pGVar15,pUVar7,30.0,method_06);
-      *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastPadding.fields = pUVar17;
-      il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastPadding);
-      pUVar12 = *(UnityEngine_GameObject_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-      if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-        pPVar18 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                            ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,
-                             "AoTTG Preview Guild",20.0,pUVar7,0,in_R8);
-        *(PatreonEffects_NameEffectLabel_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_SkipLayoutUpdate =
-             pPVar18;
-        il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_SkipLayoutUpdate,pPVar18);
-        pPVar18 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                            ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,
-                             "AoTTG Preview Name",20.0,(UnityEngine_Transform_o *)0x0,1,in_R8);
-        *(PatreonEffects_NameEffectLabel_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastTarget =
-             pPVar18;
-        il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastTarget);
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh
-                  ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,(MethodInfo *)pPVar18
-                  );
-        return;
-      }
-    }
-  }
-  pUVar25 = (UnityEngine_Component_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed1b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1b = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04502c53:
-    il2cpp_runtime_helper_022b2c90();
-label_04502c58:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_04502c5d;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        cVar26 = '\0';
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,(System_String_o *)pUVar17,pSVar19,(MethodInfo *)0x0);
-        if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-          pUVar22 = UnityEngine_Component__get_transform(pUVar25,(MethodInfo *)0x0);
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            cVar26 = '\0';
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar22,0,(MethodInfo *)0x0);
-            pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar31 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-              (*pIVar13->klass->vtable[0x28].methodPtr)
-                        (0x3f800000,pIVar13,pIVar13->klass->vtable[0x28].method);
-              pUVar14 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                        UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-              if (pUVar14 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-                UnityEngine_UI_LayoutGroup__set_childAlignment
-                          ((UnityEngine_UI_LayoutGroup_o *)pUVar14,4,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
-                          (pUVar14,1,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight
-                          (pUVar14,1,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
-                          (pUVar14,0,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                          (pUVar14,0,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(pUVar14,5.0,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-        goto label_04502c53;
-      }
-    }
-    goto label_04502c58;
-  }
-label_04502c5d:
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10(uVar23);
-  if (g_data_057aed1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Badges");
-    g_data_057aed1c = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04502e4e:
-    il2cpp_runtime_helper_022b2c90();
-label_04502e53:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_04502e58;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        cVar26 = '\0';
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,"AoTTG Preview Guild Badges",pSVar19,(MethodInfo *)0x0);
-        if ((pUVar12 != (UnityEngine_GameObject_o *)0x0) &&
-           (pUVar22 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0),
-           pUVar22 != (UnityEngine_Transform_o *)0x0)) {
-          cVar26 = '\0';
-          UnityEngine_Transform__SetParent_4e09e30(pUVar22,pUVar7,0,(MethodInfo *)0x0);
-          pGVar24 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)
-                    UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-          if (pGVar24 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-            Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
-                      (pGVar24,fVar31,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
-                       (System_String_o *)0x0,1,in_R8);
-            return;
-          }
-        }
-        goto label_04502e4e;
-      }
-    }
-    goto label_04502e53;
-  }
-label_04502e58:
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10(uVar23);
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_0450318d;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1);
-        pSVar20 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-        if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-        goto label_0450318d;
-        if (2 < (uint)pSVar19->max_length) {
-          pSVar19->m_Items[2] = pSVar20;
-          il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 2);
-          pSVar20 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-          if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-          goto label_0450318d;
-          if (3 < (uint)pSVar19->max_length) {
-            pSVar19->m_Items[3] = pSVar20;
-            il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 3,pSVar20);
-            pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-            cVar26 = '\0';
-            UnityEngine_GameObject___ctor_4dfc440(pUVar12,"AoTTG Preview Guild Preset Image",pSVar19,(MethodInfo *)0x0);
-            if ((pUVar12 != (UnityEngine_GameObject_o *)0x0) &&
-               (pUVar22 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0),
-               pUVar22 != (UnityEngine_Transform_o *)0x0)) {
-              cVar26 = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar22,pUVar7,0,(MethodInfo *)0x0);
-              pUVar17 = (UnityEngine_UI_Image_o *)
-                        UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_Image_GetComponent_Image);
-              if (pUVar17 != (UnityEngine_UI_Image_o *)0x0) {
-                (*(pUVar17->klass->vtable)._25_set_raycastTarget.methodPtr)
-                          (pUVar17,0,(pUVar17->klass->vtable)._25_set_raycastTarget.method);
-                UnityEngine_UI_Image__set_preserveAspect(pUVar17,1,(MethodInfo *)0x0);
-                pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                if (pIVar13 != (Il2CppObject *)0x0) {
-                  (*pIVar13->klass->vtable[0x24].methodPtr)
-                            ((ulong)(uint)(fVar31 * 2.9),pIVar13,pIVar13->klass->vtable[0x24].method);
-                  (*pIVar13->klass->vtable[0x26].methodPtr)((ulong)(uint)fVar31,pIVar13);
-                  UnityEngine_GameObject__SetActive(pUVar12,0,(MethodInfo *)0x0);
-                  return;
-                }
-              }
-            }
-            goto label_04503183;
-          }
-        }
-      }
-    }
-    goto label_04503188;
-  }
-label_0450318d:
-  pUVar25 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  pSVar9 = (System_String_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if ((pSVar20 != (System_Type_o *)0x0) &&
-       (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20,(((pSVar19->obj).klass)->_1).element_class), lVar21 == 0))
-    goto label_0450345a;
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) &&
-         (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20,(((pSVar19->obj).klass)->_1).element_class), lVar21 == 0))
-      goto label_0450345a;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,pSVar9,pSVar19,(MethodInfo *)0x0);
-        if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar5 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          pUVar22 = x_00;
-          if ((char)bVar5 == '\0') {
-            pUVar22 = UnityEngine_Component__get_transform(pUVar25,(MethodInfo *)0x0);
-          }
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar22,0,(MethodInfo *)0x0);
-            pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar31 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-              if (cVar26 == '\0') {
-                uVar4 = 0;
-              }
-              else {
-                uVar4 = 0x3f800000;
-              }
-              (*pIVar13->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar4,pIVar13,pIVar13->klass->vtable[0x28].method);
-              pPVar18 = (PatreonEffects_NameEffectLabel_o *)
-                        UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (pPVar18 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(pPVar18,fVar31,(MethodInfo *)0x0);
-                value.fields.b = 1.0;
-                value.fields.a = 1.0;
-                value.fields.r = 1.0;
-                value.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(pPVar18,value,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(pPVar18,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(pPVar18,1,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-        goto label_04503450;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar21 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(lVar21,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  pGVar2 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar21 + 0x20);
-  if (pGVar2 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar16 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(pGVar2,pSVar16,(MethodInfo *)0x0);
-    return;
-  }
+  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Refresh
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, const MethodInfo* method);
-// 0x4502090
+// 0x181df7530
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh
                (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  Gisketch_Aottg2UI_State_GisketchUIState_o *pGVar2;
-  System_RuntimeTypeHandle_o SVar3;
-  uint uVar4;
-  bool_conflict bVar5;
-  TMPro_TMP_Text_o *pTVar6;
-  TMPro_TMP_Text_o *__this_00;
-  UnityEngine_Transform_o *pUVar7;
-  TMPro_TMP_Text_o *x;
-  long *plVar8;
-  System_String_o *pSVar9;
-  PatreonEffects_NameEffectController_o *pPVar10;
-  MethodInfo **ppMVar11;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  PatreonEffects_NameEffectLabel_o *pPVar2;
+  UnityEngine_UI_Image_o *pUVar3;
+  bool bVar4;
+  bool bVar5;
+  SimpleJSONFixed_JSONNode_o *info;
+  UnityEngine_Transform_o *pUVar6;
+  System_Xml_Schema_XmlSchema_o *pSVar7;
+  System_String_o *pSVar8;
+  System_String_o *presetId;
+  TMPro_TMP_InputField_o *x;
   System_String_array *ids;
+  UnityEngine_GameObject_o *pUVar9;
+  UnityEngine_GameObject_o *pUVar10;
+  System_Collections_Generic_IEnumerable_string__o *ids_00;
   System_String_o *font;
-  UnityEngine_GameObject_o *pUVar12;
-  SimpleJSONFixed_JSONNode_o *effect;
-  Il2CppObject *pIVar13;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *pUVar14;
-  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *pGVar15;
-  System_Action_string__o *pSVar16;
-  UnityEngine_UI_Image_o *pUVar17;
-  PatreonEffects_NameEffectLabel_o *pPVar18;
-  System_Type_array *pSVar19;
-  System_Type_o *pSVar20;
-  long lVar21;
-  UnityEngine_Transform_o *pUVar22;
-  undefined8 uVar23;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *pGVar24;
-  UnityEngine_Component_o *pUVar25;
-  char cVar26;
-  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *in_RCX;
-  undefined1 extraout_DL;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *pMVar27;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *method_04;
-  long extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *method_05;
-  MethodInfo *method_06;
-  UnityEngine_Transform_o *x_00;
-  UnityEngine_GameObject_o *pUVar28;
-  PatreonEffects_NameEffectController_o **ppPVar29;
-  MethodInfo *in_R8;
-  int liveDialog;
-  bool bVar30;
-  float fVar31;
-  UnityEngine_Color_o UVar32;
-  UnityEngine_Color_o value;
-  MethodInfo *in_stack_ffffffffffffffa8;
-  System_String_o *local_48;
-  PatreonEffects_NameEffectController_o *local_40;
-  System_String_o *local_38;
+  System_String_o *font_00;
+  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *pGVar11;
+  System_String_o *local_res18;
   
-  ppPVar29 = (PatreonEffects_NameEffectController_o **)__this;
-  if (g_data_057aed1a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TMP_InputField_Find_TMP_InputField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCharacterTextField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"nameEffect");
-    il2cpp_runtime_helper_023445d0(&"guildEffect");
-    il2cpp_runtime_helper_023445d0(&"nameFont");
-    il2cpp_runtime_helper_023445d0(&"guildFont");
-    il2cpp_runtime_helper_023445d0(&"profile-character-name");
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild");
-    ppPVar29 = &"name";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aed1a = '\x01';
+  if (Il2CppMethodInitialized_184344b82 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_Find_TMP_InputField);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&"nameEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"guildEffect");
+    il2cpp_codegen_initialize_runtime_metadata(&"nameFont");
+    il2cpp_codegen_initialize_runtime_metadata(&"guildFont");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-character-name");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-character-guild");
+    il2cpp_codegen_initialize_runtime_metadata(&"name");
+    Il2CppMethodInitialized_184344b82 = '\x01';
   }
-  pTVar6 = (TMPro_TMP_Text_o *)Gisketch_Aottg2UI_Game_AottgCharacterInfoState__Current((MethodInfo *)ppPVar29)
-  ;
-  pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0;
-  local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-  x = (TMPro_TMP_Text_o *)__this;
-  __this_00 = (TMPro_TMP_Text_o *)
-              UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (__this_00 != (TMPro_TMP_Text_o *)0x0) {
-    local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-    pUVar7 = UnityEngine_Transform__get_root((UnityEngine_Transform_o *)__this_00,(MethodInfo *)0x0);
-    x = __this_00;
-    if ((char)(__this->fields)._liveDialog != '\0') {
-      x = (TMPro_TMP_Text_o *)
-          Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_
-                    (pUVar7,"profile-character-name",MethodInfo_TMP_InputField_Find_TMP_InputField);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-      uVar4 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)(ulong)(uVar4 & 0xff);
+  info = Gisketch_Aottg2UI_Game_AottgCharacterInfoState__Current((MethodInfo *)0x0);
+  pUVar6 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  if (pUVar6 == (UnityEngine_Transform_o *)0x0) goto label_181df7cf4;
+  pUVar6 = UnityEngine_Transform__GetRoot(pUVar6,(MethodInfo *)0x0);
+  if ((__this->fields)._liveDialog == false) {
+    bVar5 = false;
+label_181df762a:
+    if (info == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_181df7cf4;
+    pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"name");
+    if (pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df7cf4;
+    pSVar1 = pSVar7->klass;
+    local_res18 = (System_String_o *)
+                  (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                            (pSVar7,(UnityEngine_GameObject_o *)
+                                    (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+    pSVar8 = Gisketch_Aottg2UI_Game_AottgCharacterInfoState__DisplayGuild(info,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184344b8a == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+      il2cpp_codegen_initialize_runtime_metadata(&"guildPresetId");
+      Il2CppMethodInitialized_184344b8a = '\x01';
     }
-    if ((pTVar6 != (TMPro_TMP_Text_o *)0x0) &&
-       (local_40 = "name", x = pTVar6,
-       plVar8 = (long *)(*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                                  (pTVar6,"name",(pTVar6->klass->vtable)._7_OnDisable.method),
-       plVar8 != (long *)0x0)) {
-      in_RCX = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)*plVar8;
-      local_40 = in_RCX[4].fields._guildPresetEffect;
-      local_38 = (System_String_o *)(*(code *)in_RCX[4].fields._guildPresetImage)(plVar8);
-      liveDialog = (int)pGVar15;
-      if (liveDialog == 0) {
-        pPVar10 = (PatreonEffects_NameEffectController_o *)
-                  Gisketch_Aottg2UI_Game_AottgCharacterInfoState__DisplayGuild
-                            ((SimpleJSONFixed_JSONNode_o *)pTVar6,(MethodInfo *)local_40);
-        local_48 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__PresetId
-                             ((SimpleJSONFixed_JSONNode_o *)pTVar6,(MethodInfo *)local_40);
-        pGVar24 = (__this->fields)._guildBadges;
-        x = (TMPro_TMP_Text_o *)0x0;
-        if (pGVar24 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_045025ff;
-        Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetFromCharacterInfo
-                  (pGVar24,(SimpleJSONFixed_JSONNode_o *)pTVar6,method_01);
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
-                           ((SimpleJSONFixed_JSONNode_o *)pTVar6,"nameFont",method_02);
-        font = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
-                         ((SimpleJSONFixed_JSONNode_o *)pTVar6,"guildFont",method_03);
-        local_40 = pPVar10;
-      }
-      else {
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
-                           (pUVar7,"profile-character-name",local_38,(MethodInfo *)in_RCX);
-        pMVar27 = extraout_RDX;
-        if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pMVar27 = extraout_RDX_00;
-        }
-        local_38 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value("profile-character-name",pSVar9,pMVar27);
-        pPVar10 = (PatreonEffects_NameEffectController_o *)
-                  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__DialogGuild
-                            (pUVar7,(SimpleJSONFixed_JSONNode_o *)pTVar6,method_00);
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          if (g_data_057aeda8 == '\0') goto label_04502325;
-label_04502277:
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) != 0) goto label_0450228b;
-label_0450234c:
-          il2cpp_runtime_helper_02337ed0();
-          if (TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer[8] == (Il2CppMethodPointer)0x0) goto label_0450236c;
-label_0450229c:
-          ppMVar11 = (MethodInfo **)&g_data_057b9c00;
-        }
-        else {
-          if (g_data_057aeda8 != '\0') goto label_04502277;
-label_04502325:
-          il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-          g_data_057aeda8 = '\x01';
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) goto label_0450234c;
-label_0450228b:
-          if (TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer[8] != (Il2CppMethodPointer)0x0) goto label_0450229c;
-label_0450236c:
-          ppMVar11 = &TypeInfo_AottgEditCharacterDialog;
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            ppMVar11 = &TypeInfo_AottgEditCharacterDialog;
-          }
-        }
-        local_48 = *(System_String_o **)(*ppMVar11)[2].virtualMethodPointer;
-        pGVar24 = (__this->fields)._guildBadges;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          if (g_data_057aedaa == '\0') goto label_045025cf;
-label_045023b3:
-          iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-        }
-        else {
-          if (g_data_057aedaa != '\0') goto label_045023b3;
-label_045025cf:
-          il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-          g_data_057aedaa = '\x01';
-          iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        x = *(TMPro_TMP_Text_o **)(TypeInfo_AottgEditCharacterDialog[2].virtualMethodPointer + 0x30);
-        local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-        ids = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__OrderedBadgeIds
-                        ((System_Collections_Generic_IEnumerable_string__o *)x,(MethodInfo *)0x0);
-        if (pGVar24 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_045025ff;
-        Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetBadges
-                  (pGVar24,(System_Collections_Generic_IEnumerable_string__o *)ids,method_04);
-        pMVar27 = TypeInfo_AottgEditCharacterDialog;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameFont(pMVar27);
-        pMVar27 = TypeInfo_AottgEditCharacterDialog;
-        if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        font = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildFont(pMVar27);
-        pUVar12 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
-                  (pUVar12,"profile-character-name",pSVar9,(MethodInfo *)in_RCX);
-        pUVar12 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-        Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
-                  (pUVar12,"profile-character-guild",font,(MethodInfo *)&"profile-character-guild");
-        local_40 = pPVar10;
-      }
-      pPVar18 = (__this->fields)._name;
-      effect = (SimpleJSONFixed_JSONNode_o *)
-               (*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                         (pTVar6,"nameEffect",(pTVar6->klass->vtable)._7_OnDisable.method);
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
-                (pPVar18,local_38,liveDialog,1,effect,pSVar9,in_stack_ffffffffffffffa8);
-      in_R8 = (MethodInfo *)
-              (*(pTVar6->klass->vtable)._7_OnDisable.methodPtr)
-                        (pTVar6,"guildEffect",(pTVar6->klass->vtable)._7_OnDisable.method);
-      x = (TMPro_TMP_Text_o *)__this;
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ApplyGuild
-                (__this,(System_String_o *)local_40,local_48,liveDialog,(SimpleJSONFixed_JSONNode_o *)in_R8,
-                 font,in_stack_ffffffffffffffa8);
-      pGVar24 = (__this->fields)._guildBadges;
-      in_RCX = pGVar15;
-      if (pGVar24 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-        bVar30 = *(char *)((long)&(pGVar24->fields)._controlsActive + 3) != '\0';
-        pUVar12 = (__this->fields)._guildRow;
-        pUVar28 = (UnityEngine_GameObject_o *)0x0;
-        if (!bVar30) {
-          pUVar28 = pUVar12;
-        }
-        uVar4 = 1;
-        in_RCX = __this;
-        if (bVar30) goto label_0450259c;
-        x = (TMPro_TMP_Text_o *)(__this->fields)._guild;
-        if (x != (TMPro_TMP_Text_o *)0x0) {
-          local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-          pTVar6 = (TMPro_TMP_Text_o *)
-                   UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)x,(MethodInfo *)0x0);
-          if (pTVar6 != (TMPro_TMP_Text_o *)0x0) {
-            local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-            bVar5 = UnityEngine_GameObject__get_activeSelf
-                              ((UnityEngine_GameObject_o *)pTVar6,(MethodInfo *)0x0);
-            x = pTVar6;
-            if ((char)bVar5 == '\0') {
-              x = (TMPro_TMP_Text_o *)(__this->fields)._guildPresetImage;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              uVar4 = 0;
-              local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-              bVar5 = UnityEngine_Object__op_Inequality
-                                ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              pUVar12 = pUVar28;
-              if ((char)bVar5 != '\0') {
-                x = (TMPro_TMP_Text_o *)(__this->fields)._guildPresetImage;
-                if (x != (TMPro_TMP_Text_o *)0x0) {
-                  local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-                  pTVar6 = (TMPro_TMP_Text_o *)
-                           UnityEngine_Component__get_gameObject
-                                     ((UnityEngine_Component_o *)x,(MethodInfo *)0x0);
-                  if (pTVar6 != (TMPro_TMP_Text_o *)0x0) {
-                    local_40 = (PatreonEffects_NameEffectController_o *)0x0;
-                    uVar4 = UnityEngine_GameObject__get_activeSelf
-                                      ((UnityEngine_GameObject_o *)pTVar6,(MethodInfo *)0x0);
-                    x = pTVar6;
-                    goto label_0450259c;
-                  }
-                }
-                goto label_045025ff;
-              }
-            }
-label_0450259c:
-            if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-              UnityEngine_GameObject__SetActive(pUVar12,uVar4 & 0xff,(MethodInfo *)0x0);
-              return;
-            }
-          }
-        }
-      }
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
     }
-  }
-label_045025ff:
-  il2cpp_runtime_helper_022b2c90();
-  pPVar10 = local_40;
-  ppPVar29 = (PatreonEffects_NameEffectController_o **)x;
-  if (g_data_057aed17 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_AddComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_VerticalLayoutGroup_AddComponent_VerticalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_RectOffset);
-    il2cpp_runtime_helper_023445d0(&"characterNamePreviewBg");
-    ppPVar29 = &"live";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aed17 = '\x01';
-  }
-  if (((x != (TMPro_TMP_Text_o *)0x0) &&
-      (pPVar10 = MethodInfo_Image_AddComponent_Image, ppPVar29 = (PatreonEffects_NameEffectController_o **)x,
-      pIVar13 = UnityEngine_GameObject__AddComponent_object_
-                          ((UnityEngine_GameObject_o *)x,(MethodInfo_255A020 *)MethodInfo_Image_AddComponent_Image),
-      extraout_RDX_01 != 0)) &&
-     (ppPVar29 = *(PatreonEffects_NameEffectController_o ***)(extraout_RDX_01 + 0x18),
-     (TMPro_TMP_Text_o *)ppPVar29 != (TMPro_TMP_Text_o *)0x0)) {
-    UVar32.fields.b = 0.13;
-    UVar32.fields.a = 1.0;
-    UVar32.fields.r = 0.13;
-    UVar32.fields.g = 0.13;
-    pPVar10 = "characterNamePreviewBg";
-    UVar32 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                       ((Gisketch_Aottg2UI_Styling_GisketchTheme_o *)ppPVar29,(System_String_o *)"characterNamePreviewBg",
-                        UVar32,(MethodInfo *)0x0);
-    if (pIVar13 != (Il2CppObject *)0x0) {
-      (*pIVar13->klass->vtable[0x17].methodPtr)
-                (UVar32.fields._0_8_,UVar32.fields._8_8_,pIVar13,pIVar13->klass->vtable[0x17].method);
-      (*pIVar13->klass->vtable[0x19].methodPtr)(pIVar13,0,pIVar13->klass->vtable[0x19].method);
-      pUVar14 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                UnityEngine_GameObject__AddComponent_object_((UnityEngine_GameObject_o *)x,MethodInfo_VerticalLayoutGroup_AddComponent_VerticalLayoutGroup);
-      pTVar6 = (TMPro_TMP_Text_o *)il2cpp_runtime_helper_023052d0(TypeInfo_RectOffset);
-      pPVar10 = (PatreonEffects_NameEffectController_o *)&g_data_0000000f;
-      in_RCX = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0xa;
-      in_R8 = (MethodInfo *)0xa;
-      ppPVar29 = (PatreonEffects_NameEffectController_o **)pTVar6;
-      UnityEngine_RectOffset___ctor_4dbeaf0
-                ((UnityEngine_RectOffset_o *)pTVar6,0xf,0xf,10,10,(MethodInfo *)0x0);
-      if (pUVar14 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-        UnityEngine_UI_LayoutGroup__set_padding
-                  ((UnityEngine_UI_LayoutGroup_o *)pUVar14,(UnityEngine_RectOffset_o *)pTVar6,
-                   (MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(pUVar14,2.0,(MethodInfo *)0x0);
-        UnityEngine_UI_LayoutGroup__set_childAlignment
-                  ((UnityEngine_UI_LayoutGroup_o *)pUVar14,4,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth(pUVar14,1,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight(pUVar14,1,(MethodInfo *)0x0);
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth(pUVar14,0,(MethodInfo *)0x0)
-        ;
-        UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                  (pUVar14,0,(MethodInfo *)0x0);
-        pPVar10 = MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara;
-        pGVar15 = (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)
-                  UnityEngine_GameObject__AddComponent_object_
-                            ((UnityEngine_GameObject_o *)x,(MethodInfo_255A020 *)MethodInfo_AottgCharacterNamePreviewRuntime_AddComponent_AottgChara);
-        ppPVar29 = (PatreonEffects_NameEffectController_o **)x;
-        if (local_40 != (PatreonEffects_NameEffectController_o *)0x0) {
-          pGVar2 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(extraout_RDX_01 + 0x30);
-          ppPVar29 = (PatreonEffects_NameEffectController_o **)(local_40->fields).popShadowText;
-          pPVar10 = "live";
-          uVar4 = System_String__op_Equality
-                            ((System_String_o *)ppPVar29,(System_String_o *)"live",(MethodInfo *)0x0);
-          if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-            Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Setup
-                      (pGVar15,pGVar2,uVar4 & 0xff,(MethodInfo *)in_RCX);
-            return;
-          }
-        }
+    bVar4 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guildPresetId");
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
+      bVar4 = SimpleJSONFixed_JSONNode__op_Inequality
+                        ((SimpleJSONFixed_JSONNode_o *)pSVar7,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      if (!bVar4) goto label_181df7bbd;
+      pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guildPresetId");
+      if (pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df7cf4;
+      pSVar1 = pSVar7->klass;
+      presetId = (System_String_o *)
+                 (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                           (pSVar7,(UnityEngine_GameObject_o *)
+                                   (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
     }
-  }
-  cVar26 = (char)in_RCX;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed18 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Name");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild");
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Row");
-    g_data_057aed18 = '\x01';
-  }
-  (((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material = (UnityEngine_Material_o *)pPVar10;
-  il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material,pPVar10);
-  *(undefined1 *)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RectTransform = extraout_DL;
-  pGVar2 = (Gisketch_Aottg2UI_State_GisketchUIState_o *)(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Material;
-  pMVar27 = extraout_RDX_02;
-  if (pGVar2 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar16 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    cVar26 = '\0';
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__add_Changed(pGVar2,pSVar16,(MethodInfo *)0x0);
-    pMVar27 = extraout_RDX_03;
-  }
-  pUVar17 = (UnityEngine_UI_Image_o *)
-            Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
-                      ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,"AoTTG Preview Guild Row",20.0
-                       ,pMVar27);
-  *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields = pUVar17;
-  il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color);
-  pGVar15 = *(Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o **)
-             &(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-  if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-    pUVar7 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar15,(MethodInfo *)0x0);
-    pUVar17 = (UnityEngine_UI_Image_o *)
-              Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
-                        (pGVar15,pUVar7,20.0,method_05);
-    *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields.b = pUVar17;
-    il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields.b);
-    pGVar15 = *(Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o **)
-               &(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-    if (pGVar15 != (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)0x0) {
-      pUVar7 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)pGVar15,(MethodInfo *)0x0);
-      pUVar17 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
-                          (pGVar15,pUVar7,30.0,method_06);
-      *(UnityEngine_UI_Image_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastPadding.fields = pUVar17;
-      il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastPadding);
-      pUVar12 = *(UnityEngine_GameObject_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_Color.fields;
-      if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-        pPVar18 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                            ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,
-                             "AoTTG Preview Guild",20.0,pUVar7,0,in_R8);
-        *(PatreonEffects_NameEffectLabel_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_SkipLayoutUpdate =
-             pPVar18;
-        il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_SkipLayoutUpdate,pPVar18);
-        pPVar18 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
-                            ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,
-                             "AoTTG Preview Name",20.0,(UnityEngine_Transform_o *)0x0,1,in_R8);
-        *(PatreonEffects_NameEffectLabel_o **)&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastTarget =
-             pPVar18;
-        il2cpp_runtime_helper_022b4080(&(((TMPro_TMP_Text_o *)ppPVar29)->fields).m_RaycastTarget);
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Refresh
-                  ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)ppPVar29,(MethodInfo *)pPVar18
-                  );
-        return;
-      }
+    else {
+label_181df7bbd:
+      presetId = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
     }
-  }
-  pUVar25 = (UnityEngine_Component_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed1b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1b = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04502c53:
-    il2cpp_runtime_helper_022b2c90();
-label_04502c58:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_04502c5d;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        cVar26 = '\0';
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,(System_String_o *)pUVar17,pSVar19,(MethodInfo *)0x0);
-        if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-          pUVar22 = UnityEngine_Component__get_transform(pUVar25,(MethodInfo *)0x0);
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            cVar26 = '\0';
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar22,0,(MethodInfo *)0x0);
-            pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar31 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-              (*pIVar13->klass->vtable[0x28].methodPtr)
-                        (0x3f800000,pIVar13,pIVar13->klass->vtable[0x28].method);
-              pUVar14 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                        UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-              if (pUVar14 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-                UnityEngine_UI_LayoutGroup__set_childAlignment
-                          ((UnityEngine_UI_LayoutGroup_o *)pUVar14,4,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
-                          (pUVar14,1,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight
-                          (pUVar14,1,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
-                          (pUVar14,0,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                          (pUVar14,0,(MethodInfo *)0x0);
-                UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(pUVar14,5.0,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-        goto label_04502c53;
-      }
+    pGVar11 = (__this->fields)._guildBadges;
+    if (bVar5 != false) goto label_181df79a4;
+    if (pGVar11 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_181df7cf4;
+    if (Il2CppMethodInitialized_184344b45 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+      il2cpp_codegen_initialize_runtime_metadata(&"badges");
+      Il2CppMethodInitialized_184344b45 = '\x01';
     }
-    goto label_04502c58;
-  }
-label_04502c5d:
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10(uVar23);
-  if (g_data_057aed1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Badges");
-    g_data_057aed1c = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04502e4e:
-    il2cpp_runtime_helper_022b2c90();
-label_04502e53:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_04502e58;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        cVar26 = '\0';
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,"AoTTG Preview Guild Badges",pSVar19,(MethodInfo *)0x0);
-        if ((pUVar12 != (UnityEngine_GameObject_o *)0x0) &&
-           (pUVar22 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0),
-           pUVar22 != (UnityEngine_Transform_o *)0x0)) {
-          cVar26 = '\0';
-          UnityEngine_Transform__SetParent_4e09e30(pUVar22,pUVar7,0,(MethodInfo *)0x0);
-          pGVar24 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)
-                    UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-          if (pGVar24 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-            Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
-                      (pGVar24,fVar31,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
-                       (System_String_o *)0x0,1,in_R8);
-            return;
-          }
-        }
-        goto label_04502e4e;
-      }
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
     }
-    goto label_04502e53;
-  }
-label_04502e58:
-  uVar23 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10(uVar23);
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else if ((pSVar20 == (System_Type_o *)0x0) || (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 != 0)) {
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-      goto label_0450318d;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1);
-        pSVar20 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-        if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-        goto label_0450318d;
-        if (2 < (uint)pSVar19->max_length) {
-          pSVar19->m_Items[2] = pSVar20;
-          il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 2);
-          pSVar20 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-          if ((pSVar20 != (System_Type_o *)0x0) && (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20), lVar21 == 0))
-          goto label_0450318d;
-          if (3 < (uint)pSVar19->max_length) {
-            pSVar19->m_Items[3] = pSVar20;
-            il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 3,pSVar20);
-            pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-            cVar26 = '\0';
-            UnityEngine_GameObject___ctor_4dfc440(pUVar12,"AoTTG Preview Guild Preset Image",pSVar19,(MethodInfo *)0x0);
-            if ((pUVar12 != (UnityEngine_GameObject_o *)0x0) &&
-               (pUVar22 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0),
-               pUVar22 != (UnityEngine_Transform_o *)0x0)) {
-              cVar26 = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar22,pUVar7,0,(MethodInfo *)0x0);
-              pUVar17 = (UnityEngine_UI_Image_o *)
-                        UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_Image_GetComponent_Image);
-              if (pUVar17 != (UnityEngine_UI_Image_o *)0x0) {
-                (*(pUVar17->klass->vtable)._25_set_raycastTarget.methodPtr)
-                          (pUVar17,0,(pUVar17->klass->vtable)._25_set_raycastTarget.method);
-                UnityEngine_UI_Image__set_preserveAspect(pUVar17,1,(MethodInfo *)0x0);
-                pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                if (pIVar13 != (Il2CppObject *)0x0) {
-                  (*pIVar13->klass->vtable[0x24].methodPtr)
-                            ((ulong)(uint)(fVar31 * 2.9),pIVar13,pIVar13->klass->vtable[0x24].method);
-                  (*pIVar13->klass->vtable[0x26].methodPtr)((ulong)(uint)fVar31,pIVar13);
-                  UnityEngine_GameObject__SetActive(pUVar12,0,(MethodInfo *)0x0);
-                  return;
-                }
-              }
-            }
-            goto label_04503183;
-          }
-        }
-      }
+    bVar4 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"badges");
     }
-    goto label_04503188;
-  }
-label_0450318d:
-  pUVar25 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  pSVar9 = (System_String_o *)0x0;
-  fVar31 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar19 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar3 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar20 = System_Type__GetTypeFromHandle(SVar3,(MethodInfo *)0x0);
-  if (pSVar19 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
+    else {
+      pSVar7 = (System_Xml_Schema_XmlSchema_o *)0x0;
+    }
+    ids_00 = Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__BadgeIds
+                       ((SimpleJSONFixed_JSONNode_o *)pSVar7,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetBadges(pGVar11,ids_00,(MethodInfo *)0x0);
+    font = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
+                     (info,"nameFont",(MethodInfo *)0x0);
+    font_00 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
+                        (info,"guildFont",(MethodInfo *)0x0);
   }
   else {
-    if ((pSVar20 != (System_Type_o *)0x0) &&
-       (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20,(((pSVar19->obj).klass)->_1).element_class), lVar21 == 0))
-    goto label_0450345a;
-    if ((int)pSVar19->max_length != 0) {
-      pSVar19->m_Items[0] = pSVar20;
-      il2cpp_runtime_helper_022b4080(pSVar19->m_Items);
-      pSVar20 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if ((pSVar20 != (System_Type_o *)0x0) &&
-         (lVar21 = il2cpp_runtime_helper_023051f0(pSVar20,(((pSVar19->obj).klass)->_1).element_class), lVar21 == 0))
-      goto label_0450345a;
-      if (1 < (uint)pSVar19->max_length) {
-        pSVar19->m_Items[1] = pSVar20;
-        il2cpp_runtime_helper_022b4080(pSVar19->m_Items + 1,pSVar20);
-        pUVar12 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar12,pSVar9,pSVar19,(MethodInfo *)0x0);
-        if (pUVar12 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar12,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar5 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          pUVar22 = x_00;
-          if ((char)bVar5 == '\0') {
-            pUVar22 = UnityEngine_Component__get_transform(pUVar25,(MethodInfo *)0x0);
-          }
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar22,0,(MethodInfo *)0x0);
-            pIVar13 = UnityEngine_GameObject__GetComponent_object_(pUVar12,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar13 != (Il2CppObject *)0x0) {
-              (*pIVar13->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar31 + 10.0),pIVar13,pIVar13->klass->vtable[0x26].method);
-              if (cVar26 == '\0') {
-                uVar4 = 0;
-              }
-              else {
-                uVar4 = 0x3f800000;
-              }
-              (*pIVar13->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar4,pIVar13,pIVar13->klass->vtable[0x28].method);
-              pPVar18 = (PatreonEffects_NameEffectLabel_o *)
-                        UnityEngine_GameObject__AddComponent_object_(pUVar12,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (pPVar18 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(pPVar18,fVar31,(MethodInfo *)0x0);
-                value.fields.b = 1.0;
-                value.fields.a = 1.0;
-                value.fields.r = 1.0;
-                value.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(pPVar18,value,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(pPVar18,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(pPVar18,1,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
+    x = Gisketch_Aottg2UI_Code_GisketchGridPicker__Find_object_
+                  (pUVar6,"profile-character-name",
+                   (MethodInfo_68B2C0 *)
+                   MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_Find_TMP_InputField);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar5 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar5) goto label_181df762a;
+    if (info == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_181df7cf4;
+    pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"name");
+    if (pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df7cf4;
+    pSVar1 = pSVar7->klass;
+    pSVar8 = (System_String_o *)
+             (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                       (pSVar7,(UnityEngine_GameObject_o *)(pSVar1->vtable)._9_SetUnhandledAttributes.method,
+                        (MethodInfo *)pSVar1);
+    pSVar8 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
+                       (pUVar6,"profile-character-name",pSVar8,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+    }
+    local_res18 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value
+                            ("profile-character-name",pSVar8,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184344b87 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      il2cpp_codegen_initialize_runtime_metadata(&"guild");
+      il2cpp_codegen_initialize_runtime_metadata(&"profile-character-guild");
+      Il2CppMethodInitialized_184344b87 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    if (Il2CppMethodInitialized_184344c3c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      Il2CppMethodInitialized_184344c3c = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    if (TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->static_fields->_noGuildSelected == false) {
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      }
+      pSVar8 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__SelectedGuildPresetId((MethodInfo *)0x0);
+      bVar4 = System_String__IsNullOrEmpty(pSVar8,(MethodInfo *)0x0);
+      if (bVar4) {
+        pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guild");
+        if (pSVar7 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df7cf4;
+        pSVar1 = pSVar7->klass;
+        pSVar8 = (System_String_o *)
+                 (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                           (pSVar7,(UnityEngine_GameObject_o *)
+                                   (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+        pSVar8 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
+                           (pUVar6,"profile-character-guild",pSVar8,(MethodInfo *)0x0);
+        if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
         }
-        goto label_04503450;
+        pSVar8 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value
+                           ("profile-character-guild",pSVar8,(MethodInfo *)0x0);
+      }
+      else {
+        pSVar8 = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__PresetGuildLabel
+                           (pSVar8,(MethodInfo *)0x0);
       }
     }
+    else {
+      pSVar8 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    presetId = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__SelectedGuildPresetId((MethodInfo *)0x0);
+    pGVar11 = (__this->fields)._guildBadges;
+label_181df79a4:
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    if (Il2CppMethodInitialized_184344c16 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      Il2CppMethodInitialized_184344c16 = '\x01';
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    ids = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__OrderedBadgeIds
+                    ((System_Collections_Generic_IEnumerable_string__o *)
+                     TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->static_fields->SelectedBadges,
+                     (MethodInfo *)0x0);
+    if (pGVar11 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_181df7cf4;
+    Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__SetBadges
+              (pGVar11,(System_Collections_Generic_IEnumerable_string__o *)ids,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    font = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameFont((MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    font_00 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildFont((MethodInfo *)0x0);
+    pUVar9 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+    }
+    Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
+              (pUVar9,"profile-character-name",font,(MethodInfo *)0x0);
+    pUVar9 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgCharacterTextField__SetFont
+              (pUVar9,"profile-character-guild",font_00,(MethodInfo *)0x0);
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar21 = il2cpp_runtime_helper_0231b270();
-  il2cpp_runtime_helper_022b2b10(lVar21,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
+  pPVar2 = (__this->fields)._name;
+  pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"nameEffect");
+  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
+            (pPVar2,local_res18,bVar5,true,(SimpleJSONFixed_JSONNode_o *)pSVar7,font,(MethodInfo *)0x0);
+  pSVar7 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guildEffect");
+  Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ApplyGuild
+            (__this,pSVar8,presetId,bVar5,(SimpleJSONFixed_JSONNode_o *)pSVar7,font_00,(MethodInfo *)0x0);
+  pGVar11 = (__this->fields)._guildBadges;
+  if (pGVar11 == (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) goto label_181df7cf4;
+  pUVar9 = (__this->fields)._guildRow;
+  if ((pGVar11->fields)._HasBadges_k__BackingField == false) {
+    pPVar2 = (__this->fields)._guild;
+    if (pPVar2 == (PatreonEffects_NameEffectLabel_o *)0x0) goto label_181df7cf4;
+    pUVar10 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pPVar2,(MethodInfo *)0x0);
+    if (pUVar10 == (UnityEngine_GameObject_o *)0x0) goto label_181df7cf4;
+    bVar5 = UnityEngine_GameObject__get_activeSelf(pUVar10,(MethodInfo *)0x0);
+    if (bVar5) goto label_181df7cb8;
+    pUVar3 = (__this->fields)._guildPresetImage;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar5 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar5) {
+      pUVar3 = (__this->fields)._guildPresetImage;
+      if (pUVar3 == (UnityEngine_UI_Image_o *)0x0) goto label_181df7cf4;
+      pUVar10 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar3,(MethodInfo *)0x0);
+      if (pUVar10 == (UnityEngine_GameObject_o *)0x0) goto label_181df7cf4;
+      bVar5 = UnityEngine_GameObject__get_activeSelf(pUVar10,(MethodInfo *)0x0);
+    }
+    else {
+      bVar5 = false;
+    }
   }
-  pGVar2 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar21 + 0x20);
-  if (pGVar2 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    pSVar16 = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(pGVar2,pSVar16,(MethodInfo *)0x0);
+  else {
+label_181df7cb8:
+    bVar5 = true;
+  }
+  if (pUVar9 != (UnityEngine_GameObject_o *)0x0) {
+    UnityEngine_GameObject__SetActive(pUVar9,bVar5,(MethodInfo *)0x0);
     return;
   }
-  return;
+label_181df7cf4:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$CreateRow
 // il2cpp: UnityEngine_GameObject_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, System_String_o* id, float fontSize, const MethodInfo* method);
-// 0x45029d0
+// 0x181df6d30
 
 UnityEngine_GameObject_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
@@ -1980,381 +427,110 @@ Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateRow
           float fontSize,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
-  System_RuntimeTypeHandle_o SVar1;
-  bool_conflict bVar2;
-  System_Type_array *pSVar3;
-  System_Type_o *pSVar4;
-  long lVar5;
-  UnityEngine_GameObject_o *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
-  UnityEngine_Transform_o *pUVar8;
-  Il2CppObject *pIVar9;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *__this_01;
-  undefined8 uVar10;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *__this_02;
-  UnityEngine_UI_Image_o *__this_03;
-  UnityEngine_Component_o *__this_04;
-  PatreonEffects_NameEffectLabel_o *__this_05;
-  System_Action_string__o *value;
-  UnityEngine_GameObject_o *extraout_RAX;
-  char in_CL;
-  MethodInfo *extraout_RDX;
-  UnityEngine_Transform_o *x;
-  System_String_o *name;
-  MethodInfo *in_R8;
-  float fVar11;
-  uint uVar12;
-  UnityEngine_Color_o value_00;
+  Il2CppType *handle;
+  System_Type_array *components;
+  System_Type_o *pSVar1;
+  Il2CppObject *pIVar2;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_Transform_o *parent;
+  UnityEngine_UI_LayoutElement_o *pUVar3;
+  UnityEngine_UI_HorizontalLayoutGroup_o *__this_02;
   
-  if (g_data_057aed1b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1b = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184344b83 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_HorizontalLayoutGroup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    Il2CppMethodInitialized_184344b83 = '\x01';
   }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type,2,method);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04502c53:
-    il2cpp_runtime_helper_022b2c90();
-label_04502c58:
-    il2cpp_runtime_helper_022b2ca0();
+  pSVar1 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) {
+label_181df6f91:
+    ThrowNullReferenceException();
   }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502ab2:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_04502c5d;
-        }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-          pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-          in_CL = '\0';
-          UnityEngine_GameObject___ctor_4dfc440(pUVar6,id,pSVar3,(MethodInfo *)0x0);
-          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-            pUVar8 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-            if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-              in_CL = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar8,0,(MethodInfo *)0x0);
-              pIVar9 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-              if (pIVar9 != (Il2CppObject *)0x0) {
-                (*pIVar9->klass->vtable[0x26].methodPtr)
-                          ((ulong)(uint)(fontSize + 10.0),pIVar9,pIVar9->klass->vtable[0x26].method);
-                (*pIVar9->klass->vtable[0x28].methodPtr)(0x3f800000,pIVar9,pIVar9->klass->vtable[0x28].method)
-                ;
-                __this_01 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                            UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_HorizontalLayoutGroup_AddComponent_HorizontalLayoutGroup);
-                if (__this_01 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-                  UnityEngine_UI_LayoutGroup__set_childAlignment
-                            ((UnityEngine_UI_LayoutGroup_o *)__this_01,4,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
-                            (__this_01,1,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight
-                            (__this_01,1,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
-                            (__this_01,0,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
-                            (__this_01,0,(MethodInfo *)0x0);
-                  UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(__this_01,5.0,(MethodInfo *)0x0)
-                  ;
-                  return pUVar6;
-                }
-              }
-            }
-          }
-          goto label_04502c53;
-        }
-      }
-      goto label_04502c58;
+  if (pSVar1 != (System_Type_o *)0x0) {
+    pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
     }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502ab2;
   }
-label_04502c5d:
-  uVar10 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar11 = (float)il2cpp_runtime_helper_022b2b10(uVar10);
-  if (g_data_057aed1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Badges");
-    g_data_057aed1c = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04502e4e:
-    il2cpp_runtime_helper_022b2c90();
-label_04502e53:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502d4a:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_04502e58;
-        }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-          pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-          in_CL = '\0';
-          UnityEngine_GameObject___ctor_4dfc440(pUVar6,"AoTTG Preview Guild Badges",pSVar3,(MethodInfo *)0x0);
-          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-            if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-              in_CL = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar8,pUVar7,0,(MethodInfo *)0x0);
-              __this_02 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)
-                          UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-              if (__this_02 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-                Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
-                          (__this_02,fVar11,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
-                           (System_String_o *)0x0,1,in_R8);
-                return (UnityEngine_GameObject_o *)__this_02;
-              }
-            }
-          }
-          goto label_04502e4e;
-        }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar1;
+    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar1);
+    pSVar1 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+    if (pSVar1 != (System_Type_o *)0x0) {
+      pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+      if (pIVar2 == (Il2CppObject *)0x0) {
+        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
       }
-      goto label_04502e53;
     }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502d4a;
-  }
-label_04502e58:
-  uVar10 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar11 = (float)il2cpp_runtime_helper_022b2b10(uVar10);
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502f6e:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_0450318d;
-        }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1);
-          pSVar4 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-          if (pSVar4 != (System_Type_o *)0x0) {
-            lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-            if (lVar5 == 0) goto label_0450318d;
-          }
-          if (2 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[2] = pSVar4;
-            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 2);
-            pSVar4 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-            if (pSVar4 != (System_Type_o *)0x0) {
-              lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-              if (lVar5 == 0) goto label_0450318d;
-            }
-            if (3 < (uint)pSVar3->max_length) {
-              pSVar3->m_Items[3] = pSVar4;
-              il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 3,pSVar4);
-              pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-              in_CL = '\0';
-              UnityEngine_GameObject___ctor_4dfc440(pUVar6,"AoTTG Preview Guild Preset Image",pSVar3,(MethodInfo *)0x0);
-              if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-                if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-                  in_CL = '\0';
-                  UnityEngine_Transform__SetParent_4e09e30(pUVar8,pUVar7,0,(MethodInfo *)0x0);
-                  __this_03 = (UnityEngine_UI_Image_o *)
-                              UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_Image_GetComponent_Image);
-                  if (__this_03 != (UnityEngine_UI_Image_o *)0x0) {
-                    (*(__this_03->klass->vtable)._25_set_raycastTarget.methodPtr)
-                              (__this_03,0,(__this_03->klass->vtable)._25_set_raycastTarget.method);
-                    UnityEngine_UI_Image__set_preserveAspect(__this_03,1,(MethodInfo *)0x0);
-                    pIVar9 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                    if (pIVar9 != (Il2CppObject *)0x0) {
-                      (*pIVar9->klass->vtable[0x24].methodPtr)
-                                ((ulong)(uint)(fVar11 * 2.9),pIVar9,pIVar9->klass->vtable[0x24].method);
-                      (*pIVar9->klass->vtable[0x26].methodPtr)((ulong)(uint)fVar11,pIVar9);
-                      UnityEngine_GameObject__SetActive(pUVar6,0,(MethodInfo *)0x0);
-                      return (UnityEngine_GameObject_o *)__this_03;
-                    }
-                  }
-                }
-              }
-              goto label_04503183;
+    if (1 < (uint)components->max_length) {
+      components->m_Items[1] = pSVar1;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar1);
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_2f1abe0(__this_00,id,components,(MethodInfo *)0x0);
+      if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+        __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+        parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+          pUVar3 = UnityEngine_GameObject__GetComponent_object_
+                             (__this_00,
+                              (MethodInfo_6F5650 *)
+                              MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+          if (pUVar3 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+            (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
+                      (pUVar3,fontSize + 10.0,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
+            (*(pUVar3->klass->vtable)._40_set_flexibleWidth.methodPtr)
+                      (pUVar3,1.0,(pUVar3->klass->vtable)._40_set_flexibleWidth.method);
+            __this_02 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_00,
+                                   (MethodInfo_6F4D60 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_HorizontalLayoutGroup);
+            if (__this_02 != (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) {
+              UnityEngine_UI_LayoutGroup__set_childAlignment
+                        ((UnityEngine_UI_LayoutGroup_o *)__this_02,4,(MethodInfo *)0x0);
+              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlWidth
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,true,(MethodInfo *)0x0)
+              ;
+              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childControlHeight
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,true,(MethodInfo *)0x0)
+              ;
+              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandWidth
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,false,(MethodInfo *)0x0
+                        );
+              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_childForceExpandHeight
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,false,(MethodInfo *)0x0
+                        );
+              UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
+                        ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_02,5.0,(MethodInfo *)0x0);
+              return __this_00;
             }
           }
         }
       }
-      goto label_04503188;
-    }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502f6e;
-  }
-label_0450318d:
-  __this_04 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  name = (System_String_o *)0x0;
-  fVar11 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (pSVar4 != (System_Type_o *)0x0) {
-      lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-      if (lVar5 == 0) goto label_0450345a;
-    }
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = pSVar4;
-      il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-      pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if (pSVar4 != (System_Type_o *)0x0) {
-        lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-        if (lVar5 == 0) goto label_0450345a;
-      }
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-        pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar6,name,pSVar3,(MethodInfo *)0x0);
-        if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar2 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          pUVar8 = x;
-          if ((char)bVar2 == '\0') {
-            pUVar8 = UnityEngine_Component__get_transform(__this_04,(MethodInfo *)0x0);
-          }
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar8,0,(MethodInfo *)0x0);
-            pIVar9 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar9 != (Il2CppObject *)0x0) {
-              (*pIVar9->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar11 + 10.0),pIVar9,pIVar9->klass->vtable[0x26].method);
-              if (in_CL == '\0') {
-                uVar12 = 0;
-              }
-              else {
-                uVar12 = 0x3f800000;
-              }
-              (*pIVar9->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar12,pIVar9,pIVar9->klass->vtable[0x28].method);
-              __this_05 = (PatreonEffects_NameEffectLabel_o *)
-                          UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (__this_05 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(__this_05,fVar11,(MethodInfo *)0x0);
-                value_00.fields.b = 1.0;
-                value_00.fields.a = 1.0;
-                value_00.fields.r = 1.0;
-                value_00.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(__this_05,value_00,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(__this_05,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(__this_05,1,(MethodInfo *)0x0);
-                return (UnityEngine_GameObject_o *)__this_05;
-              }
-            }
-          }
-        }
-        goto label_04503450;
-      }
+      goto label_181df6f91;
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar5 = il2cpp_runtime_helper_0231b270();
-  pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_022b2b10(lVar5,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  __this_00 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar5 + 0x20);
-  if (__this_00 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    value = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(__this_00,value,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  return pUVar6;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$CreateBadges
 // il2cpp: Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, UnityEngine_Transform_o* parent, float size, const MethodInfo* method);
-// 0x4502c70
+// 0x181df64f0
 
 Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
@@ -2362,297 +538,84 @@ Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateBadges
           float size,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
-  System_RuntimeTypeHandle_o SVar1;
-  bool_conflict bVar2;
-  System_Type_array *pSVar3;
-  System_Type_o *pSVar4;
-  long lVar5;
-  UnityEngine_GameObject_o *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *pGVar8;
-  undefined8 uVar9;
-  UnityEngine_Transform_o *pUVar10;
-  UnityEngine_UI_Image_o *__this_01;
-  Il2CppObject *pIVar11;
-  UnityEngine_Component_o *__this_02;
-  PatreonEffects_NameEffectLabel_o *__this_03;
-  System_Action_string__o *value;
-  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *extraout_RAX;
-  char in_CL;
-  MethodInfo *extraout_RDX;
-  UnityEngine_Transform_o *x;
-  System_String_o *name;
-  MethodInfo *in_R8;
-  float fVar12;
-  uint uVar13;
-  UnityEngine_Color_o value_00;
+  Il2CppType *handle;
+  System_Type_array *components;
+  System_Type_o *pSVar1;
+  Il2CppObject *pIVar2;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *__this_02;
   
-  if (g_data_057aed1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Badges");
-    g_data_057aed1c = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184344b84 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_AottgBadgeIconRowRuntime);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Preview Guild Badges");
+    Il2CppMethodInitialized_184344b84 = '\x01';
   }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type,2,method);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04502e4e:
-    il2cpp_runtime_helper_022b2c90();
-label_04502e53:
-    il2cpp_runtime_helper_022b2ca0();
+  pSVar1 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) {
+label_181df66c6:
+    ThrowNullReferenceException();
   }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502d4a:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_04502e58;
-        }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-          pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-          in_CL = '\0';
-          UnityEngine_GameObject___ctor_4dfc440(pUVar6,"AoTTG Preview Guild Badges",pSVar3,(MethodInfo *)0x0);
-          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-            if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-              in_CL = '\0';
-              UnityEngine_Transform__SetParent_4e09e30(pUVar7,parent,0,(MethodInfo *)0x0);
-              pGVar8 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)
-                       UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_AottgBadgeIconRowRuntime_AddComponent_AottgBadgeIconRowR);
-              if (pGVar8 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
-                Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
-                          (pGVar8,size,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
-                           (System_String_o *)0x0,1,in_R8);
-                return pGVar8;
-              }
-            }
-          }
-          goto label_04502e4e;
-        }
-      }
-      goto label_04502e53;
+  if (pSVar1 != (System_Type_o *)0x0) {
+    pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
     }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502d4a;
   }
-label_04502e58:
-  uVar9 = il2cpp_runtime_helper_0231b270();
-  pUVar7 = (UnityEngine_Transform_o *)0x0;
-  fVar12 = (float)il2cpp_runtime_helper_022b2b10(uVar9);
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502f6e:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_0450318d;
-        }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1);
-          pSVar4 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-          if (pSVar4 != (System_Type_o *)0x0) {
-            lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-            if (lVar5 == 0) goto label_0450318d;
-          }
-          if (2 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[2] = pSVar4;
-            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 2);
-            pSVar4 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-            if (pSVar4 != (System_Type_o *)0x0) {
-              lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-              if (lVar5 == 0) goto label_0450318d;
-            }
-            if (3 < (uint)pSVar3->max_length) {
-              pSVar3->m_Items[3] = pSVar4;
-              il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 3,pSVar4);
-              pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-              in_CL = '\0';
-              UnityEngine_GameObject___ctor_4dfc440(pUVar6,"AoTTG Preview Guild Preset Image",pSVar3,(MethodInfo *)0x0);
-              if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar10 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-                if (pUVar10 != (UnityEngine_Transform_o *)0x0) {
-                  in_CL = '\0';
-                  UnityEngine_Transform__SetParent_4e09e30(pUVar10,pUVar7,0,(MethodInfo *)0x0);
-                  __this_01 = (UnityEngine_UI_Image_o *)
-                              UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_Image_GetComponent_Image);
-                  if (__this_01 != (UnityEngine_UI_Image_o *)0x0) {
-                    (*(__this_01->klass->vtable)._25_set_raycastTarget.methodPtr)
-                              (__this_01,0,(__this_01->klass->vtable)._25_set_raycastTarget.method);
-                    UnityEngine_UI_Image__set_preserveAspect(__this_01,1,(MethodInfo *)0x0);
-                    pIVar11 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                    if (pIVar11 != (Il2CppObject *)0x0) {
-                      (*pIVar11->klass->vtable[0x24].methodPtr)
-                                ((ulong)(uint)(fVar12 * 2.9),pIVar11,pIVar11->klass->vtable[0x24].method);
-                      (*pIVar11->klass->vtable[0x26].methodPtr)((ulong)(uint)fVar12,pIVar11);
-                      UnityEngine_GameObject__SetActive(pUVar6,0,(MethodInfo *)0x0);
-                      return (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)__this_01;
-                    }
-                  }
-                }
-              }
-              goto label_04503183;
-            }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar1;
+    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar1);
+    pSVar1 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+    if (pSVar1 != (System_Type_o *)0x0) {
+      pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+      if (pIVar2 == (Il2CppObject *)0x0) {
+        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
+      }
+    }
+    if (1 < (uint)components->max_length) {
+      components->m_Items[1] = pSVar1;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar1);
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_2f1abe0(__this_00,"AoTTG Preview Guild Badges",components,(MethodInfo *)0x0);
+      if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+        __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+        if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+          __this_02 = UnityEngine_GameObject__AddComponent_object_
+                                (__this_00,
+                                 (MethodInfo_6F4D60 *)
+                                 MethodInfo_UnityEngine_GameObject_AddComponent_AottgBadgeIconRowRuntime);
+          if (__this_02 != (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)0x0) {
+            Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime__Setup
+                      (__this_02,size,4.0,(Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0,
+                       (System_String_o *)0x0,true,(MethodInfo *)0x0);
+            return __this_02;
           }
         }
       }
-      goto label_04503188;
-    }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502f6e;
-  }
-label_0450318d:
-  __this_02 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  name = (System_String_o *)0x0;
-  fVar12 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (pSVar4 != (System_Type_o *)0x0) {
-      lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-      if (lVar5 == 0) goto label_0450345a;
-    }
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = pSVar4;
-      il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-      pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if (pSVar4 != (System_Type_o *)0x0) {
-        lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-        if (lVar5 == 0) goto label_0450345a;
-      }
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-        pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar6,name,pSVar3,(MethodInfo *)0x0);
-        if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar2 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          pUVar10 = x;
-          if ((char)bVar2 == '\0') {
-            pUVar10 = UnityEngine_Component__get_transform(__this_02,(MethodInfo *)0x0);
-          }
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,pUVar10,0,(MethodInfo *)0x0);
-            pIVar11 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar11 != (Il2CppObject *)0x0) {
-              (*pIVar11->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fVar12 + 10.0),pIVar11,pIVar11->klass->vtable[0x26].method);
-              if (in_CL == '\0') {
-                uVar13 = 0;
-              }
-              else {
-                uVar13 = 0x3f800000;
-              }
-              (*pIVar11->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar13,pIVar11,pIVar11->klass->vtable[0x28].method);
-              __this_03 = (PatreonEffects_NameEffectLabel_o *)
-                          UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (__this_03 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(__this_03,fVar12,(MethodInfo *)0x0);
-                value_00.fields.b = 1.0;
-                value_00.fields.a = 1.0;
-                value_00.fields.r = 1.0;
-                value_00.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(__this_03,value_00,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(__this_03,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(__this_03,1,(MethodInfo *)0x0);
-                return (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)__this_03;
-              }
-            }
-          }
-        }
-        goto label_04503450;
-      }
+      goto label_181df66c6;
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar5 = il2cpp_runtime_helper_0231b270();
-  pGVar8 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)il2cpp_runtime_helper_022b2b10(lVar5,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    pGVar8 = (Gisketch_Aottg2UI_Game_AottgBadgeIconRowRuntime_o *)il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  __this_00 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar5 + 0x20);
-  if (__this_00 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    value = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(__this_00,value,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  return pGVar8;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$CreatePresetImage
 // il2cpp: UnityEngine_UI_Image_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, UnityEngine_Transform_o* parent, float height, const MethodInfo* method);
-// 0x4502e70
+// 0x181df69f0
 
 UnityEngine_UI_Image_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
@@ -2660,2110 +623,1032 @@ Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreatePresetImage
           float height,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
-  System_RuntimeTypeHandle_o SVar1;
-  bool_conflict bVar2;
-  System_Type_array *pSVar3;
-  System_Type_o *pSVar4;
-  long lVar5;
-  UnityEngine_GameObject_o *pUVar6;
-  UnityEngine_Transform_o *pUVar7;
-  UnityEngine_UI_Image_o *pUVar8;
-  Il2CppObject *pIVar9;
-  UnityEngine_Component_o *__this_01;
-  UnityEngine_Transform_o *parent_00;
-  System_Action_string__o *value;
-  UnityEngine_UI_Image_o *extraout_RAX;
-  char in_CL;
-  MethodInfo *extraout_RDX;
-  UnityEngine_Transform_o *x;
-  System_String_o *name;
-  float value_00;
-  uint uVar10;
-  UnityEngine_Color_o value_01;
+  Il2CppType *handle;
+  System_Type_array *components;
+  System_Type_o *pSVar1;
+  Il2CppObject *pIVar2;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_UI_Image_o *__this_02;
+  UnityEngine_UI_LayoutElement_o *pUVar3;
   
-  if (g_data_057aed1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeRef_CanvasRenderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_Image);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    il2cpp_runtime_helper_023445d0(&"AoTTG Preview Guild Preset Image");
-    g_data_057aed1d = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184344b85 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_CanvasRenderer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Image);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_Image);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    il2cpp_codegen_initialize_runtime_metadata(&"AoTTG Preview Guild Preset Image");
+    Il2CppMethodInitialized_184344b85 = '\x01';
   }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type,4,method);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,4);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503183:
-    il2cpp_runtime_helper_022b2c90();
-label_04503188:
-    il2cpp_runtime_helper_022b2ca0();
+  pSVar1 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
+  if (components == (System_Type_array *)0x0) {
+label_181df6cda:
+    ThrowNullReferenceException();
   }
-  else {
-    if (pSVar4 == (System_Type_o *)0x0) {
-label_04502f6e:
-      if ((int)pSVar3->max_length != 0) {
-        pSVar3->m_Items[0] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-        pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-        if (pSVar4 != (System_Type_o *)0x0) {
-          lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-          if (lVar5 == 0) goto label_0450318d;
+  if (pSVar1 != (System_Type_o *)0x0) {
+    pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+    if (pIVar2 == (Il2CppObject *)0x0) {
+      pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
+    }
+  }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar1;
+    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar1);
+    pSVar1 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+    if (pSVar1 != (System_Type_o *)0x0) {
+      pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+      if (pIVar2 == (Il2CppObject *)0x0) {
+        pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
+      }
+    }
+    if (1 < (uint)components->max_length) {
+      components->m_Items[1] = pSVar1;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar1);
+      pSVar1 = System_Type__GetTypeFromHandle
+                         ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_CanvasRenderer,(MethodInfo *)0x0);
+      if (pSVar1 != (System_Type_o *)0x0) {
+        pIVar2 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class)
+        ;
+        if (pIVar2 == (Il2CppObject *)0x0) {
+          pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+          il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
         }
-        if (1 < (uint)pSVar3->max_length) {
-          pSVar3->m_Items[1] = pSVar4;
-          il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1);
-          pSVar4 = System_Type__GetTypeFromHandle(TypeRef_CanvasRenderer,(MethodInfo *)0x0);
-          if (pSVar4 != (System_Type_o *)0x0) {
-            lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-            if (lVar5 == 0) goto label_0450318d;
+      }
+      if (2 < (uint)components->max_length) {
+        components->m_Items[2] = pSVar1;
+        Il2CppCodeGenWriteBarrier(components->m_Items + 2,pSVar1);
+        pSVar1 = System_Type__GetTypeFromHandle
+                           ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_Image,(MethodInfo *)0x0);
+        if (pSVar1 != (System_Type_o *)0x0) {
+          pIVar2 = il2cpp_vm_Object_IsInst
+                             ((Il2CppObject *)pSVar1,(((components->obj).klass)->_1).element_class);
+          if (pIVar2 == (Il2CppObject *)0x0) {
+            pIVar2 = il2cpp_codegen_get_array_type_mismatch_exception();
+            il2cpp_codegen_raise_exception(pIVar2,(MethodInfo *)0x0);
           }
-          if (2 < (uint)pSVar3->max_length) {
-            pSVar3->m_Items[2] = pSVar4;
-            il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 2);
-            pSVar4 = System_Type__GetTypeFromHandle(TypeRef_Image,(MethodInfo *)0x0);
-            if (pSVar4 != (System_Type_o *)0x0) {
-              lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-              if (lVar5 == 0) goto label_0450318d;
-            }
-            if (3 < (uint)pSVar3->max_length) {
-              pSVar3->m_Items[3] = pSVar4;
-              il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 3,pSVar4);
-              pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-              in_CL = '\0';
-              UnityEngine_GameObject___ctor_4dfc440(pUVar6,"AoTTG Preview Guild Preset Image",pSVar3,(MethodInfo *)0x0);
-              if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-                if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-                  in_CL = '\0';
-                  UnityEngine_Transform__SetParent_4e09e30(pUVar7,parent,0,(MethodInfo *)0x0);
-                  pUVar8 = (UnityEngine_UI_Image_o *)
-                           UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_Image_GetComponent_Image);
-                  if (pUVar8 != (UnityEngine_UI_Image_o *)0x0) {
-                    (*(pUVar8->klass->vtable)._25_set_raycastTarget.methodPtr)
-                              (pUVar8,0,(pUVar8->klass->vtable)._25_set_raycastTarget.method);
-                    UnityEngine_UI_Image__set_preserveAspect(pUVar8,1,(MethodInfo *)0x0);
-                    pIVar9 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-                    if (pIVar9 != (Il2CppObject *)0x0) {
-                      (*pIVar9->klass->vtable[0x24].methodPtr)
-                                ((ulong)(uint)(height * 2.9),pIVar9,pIVar9->klass->vtable[0x24].method);
-                      (*pIVar9->klass->vtable[0x26].methodPtr)((ulong)(uint)height,pIVar9);
-                      UnityEngine_GameObject__SetActive(pUVar6,0,(MethodInfo *)0x0);
-                      return pUVar8;
-                    }
-                  }
+        }
+        if (3 < (uint)components->max_length) {
+          components->m_Items[3] = pSVar1;
+          Il2CppCodeGenWriteBarrier(components->m_Items + 3,pSVar1);
+          __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+          UnityEngine_GameObject___ctor_2f1abe0(__this_00,"AoTTG Preview Guild Preset Image",components,(MethodInfo *)0x0);
+          if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+            __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+            if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+              UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+              __this_02 = UnityEngine_GameObject__GetComponent_object_
+                                    (__this_00,
+                                     (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Image
+                                    );
+              if (__this_02 != (UnityEngine_UI_Image_o *)0x0) {
+                (*(__this_02->klass->vtable)._25_set_raycastTarget.methodPtr)
+                          (__this_02,false,(__this_02->klass->vtable)._25_set_raycastTarget.method);
+                UnityEngine_UI_Image__set_preserveAspect(__this_02,true,(MethodInfo *)0x0);
+                pUVar3 = UnityEngine_GameObject__GetComponent_object_
+                                   (__this_00,
+                                    (MethodInfo_6F5650 *)
+                                    MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+                if (pUVar3 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+                  (*(pUVar3->klass->vtable)._36_set_preferredWidth.methodPtr)
+                            (pUVar3,height * 2.9,(pUVar3->klass->vtable)._36_set_preferredWidth.method);
+                  (*(pUVar3->klass->vtable)._38_set_preferredHeight.methodPtr)
+                            (pUVar3,height,(pUVar3->klass->vtable)._38_set_preferredHeight.method);
+                  UnityEngine_GameObject__SetActive(__this_00,false,(MethodInfo *)0x0);
+                  return __this_02;
                 }
               }
-              goto label_04503183;
             }
           }
+          goto label_181df6cda;
         }
       }
-      goto label_04503188;
-    }
-    lVar5 = il2cpp_runtime_helper_023051f0(pSVar4);
-    if (lVar5 != 0) goto label_04502f6e;
-  }
-label_0450318d:
-  __this_01 = (UnityEngine_Component_o *)il2cpp_runtime_helper_0231b270();
-  name = (System_String_o *)0x0;
-  value_00 = (float)il2cpp_runtime_helper_022b2b10();
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
-  }
-  pSVar3 = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  SVar1 = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar4 = System_Type__GetTypeFromHandle(SVar1,(MethodInfo *)0x0);
-  if (pSVar3 == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    if (pSVar4 != (System_Type_o *)0x0) {
-      lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-      if (lVar5 == 0) goto label_0450345a;
-    }
-    if ((int)pSVar3->max_length != 0) {
-      pSVar3->m_Items[0] = pSVar4;
-      il2cpp_runtime_helper_022b4080(pSVar3->m_Items);
-      pSVar4 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if (pSVar4 != (System_Type_o *)0x0) {
-        lVar5 = il2cpp_runtime_helper_023051f0(pSVar4,(((pSVar3->obj).klass)->_1).element_class);
-        if (lVar5 == 0) goto label_0450345a;
-      }
-      if (1 < (uint)pSVar3->max_length) {
-        pSVar3->m_Items[1] = pSVar4;
-        il2cpp_runtime_helper_022b4080(pSVar3->m_Items + 1,pSVar4);
-        pUVar6 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(pUVar6,name,pSVar3,(MethodInfo *)0x0);
-        if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-          pUVar7 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar2 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          parent_00 = x;
-          if ((char)bVar2 == '\0') {
-            parent_00 = UnityEngine_Component__get_transform(__this_01,(MethodInfo *)0x0);
-          }
-          if (pUVar7 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(pUVar7,parent_00,0,(MethodInfo *)0x0);
-            pIVar9 = UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar9 != (Il2CppObject *)0x0) {
-              (*pIVar9->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(value_00 + 10.0),pIVar9,pIVar9->klass->vtable[0x26].method);
-              if (in_CL == '\0') {
-                uVar10 = 0;
-              }
-              else {
-                uVar10 = 0x3f800000;
-              }
-              (*pIVar9->klass->vtable[0x28].methodPtr)
-                        ((ulong)uVar10,pIVar9,pIVar9->klass->vtable[0x28].method);
-              pUVar8 = (UnityEngine_UI_Image_o *)
-                       UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (pUVar8 != (UnityEngine_UI_Image_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize
-                          ((PatreonEffects_NameEffectLabel_o *)pUVar8,value_00,(MethodInfo *)0x0);
-                value_01.fields.b = 1.0;
-                value_01.fields.a = 1.0;
-                value_01.fields.r = 1.0;
-                value_01.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color
-                          ((PatreonEffects_NameEffectLabel_o *)pUVar8,value_01,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment
-                          ((PatreonEffects_NameEffectLabel_o *)pUVar8,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText
-                          ((PatreonEffects_NameEffectLabel_o *)pUVar8,1,(MethodInfo *)0x0);
-                return pUVar8;
-              }
-            }
-          }
-        }
-        goto label_04503450;
-      }
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar5 = il2cpp_runtime_helper_0231b270();
-  pUVar8 = (UnityEngine_UI_Image_o *)il2cpp_runtime_helper_022b2b10(lVar5,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    pUVar8 = (UnityEngine_UI_Image_o *)il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  __this_00 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar5 + 0x20);
-  if (__this_00 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    value = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(__this_00,value,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  return pUVar8;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$CreateLabel
 // il2cpp: PatreonEffects_NameEffectLabel_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, System_String_o* id, float fontSize, UnityEngine_Transform_o* parent, bool flexibleWidth, const MethodInfo* method);
-// 0x45031a0
+// 0x181df6700
 
 PatreonEffects_NameEffectLabel_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__CreateLabel
           (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,System_String_o *id,
-          float fontSize,UnityEngine_Transform_o *parent,bool_conflict flexibleWidth,MethodInfo *method)
+          float fontSize,UnityEngine_Transform_o *parent,bool flexibleWidth,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_State_GisketchUIState_o *__this_00;
-  System_RuntimeTypeHandle_o handle;
-  bool_conflict bVar1;
+  Il2CppType *handle;
+  bool bVar1;
   System_Type_array *components;
   System_Type_o *pSVar2;
-  long lVar3;
-  UnityEngine_GameObject_o *__this_01;
-  UnityEngine_Transform_o *__this_02;
-  Il2CppObject *pIVar4;
-  PatreonEffects_NameEffectLabel_o *pPVar5;
-  System_Action_string__o *value;
-  PatreonEffects_NameEffectLabel_o *extraout_RAX;
-  uint uVar6;
-  UnityEngine_Color_o value_00;
+  Il2CppObject *pIVar3;
+  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_UI_LayoutElement_o *pUVar4;
+  PatreonEffects_NameEffectLabel_o *__this_02;
+  float fVar5;
+  UnityEngine_Color_Fields local_38 [2];
   
-  if (g_data_057aed1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeRef_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeRef_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Type);
-    g_data_057aed1e = '\x01';
+  if (Il2CppMethodInitialized_184344b86 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectLabel);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_UI_LayoutElement);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UnityEngine_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Type_array);
+    Il2CppMethodInitialized_184344b86 = '\x01';
   }
-  components = (System_Type_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_Type);
-  handle = TypeRef_RectTransform;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  components = (System_Type_array *)SZArrayNew(TypeInfo_System_Type_array,2);
+  handle = TypeRef_UnityEngine_RectTransform;
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar2 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
+  pSVar2 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
   if (components == (System_Type_array *)0x0) {
-label_04503450:
-    il2cpp_runtime_helper_022b2c90();
+label_181df69b8:
+    ThrowNullReferenceException();
   }
-  else {
-    if (pSVar2 != (System_Type_o *)0x0) {
-      lVar3 = il2cpp_runtime_helper_023051f0(pSVar2,(((components->obj).klass)->_1).element_class);
-      if (lVar3 == 0) goto label_0450345a;
+  if (pSVar2 != (System_Type_o *)0x0) {
+    pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class);
+    if (pIVar3 == (Il2CppObject *)0x0) {
+      pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
     }
-    if ((int)components->max_length != 0) {
-      components->m_Items[0] = pSVar2;
-      il2cpp_runtime_helper_022b4080(components->m_Items);
-      pSVar2 = System_Type__GetTypeFromHandle(TypeRef_LayoutElement,(MethodInfo *)0x0);
-      if (pSVar2 != (System_Type_o *)0x0) {
-        lVar3 = il2cpp_runtime_helper_023051f0(pSVar2,(((components->obj).klass)->_1).element_class);
-        if (lVar3 == 0) goto label_0450345a;
+  }
+  if ((int)components->max_length != 0) {
+    components->m_Items[0] = pSVar2;
+    Il2CppCodeGenWriteBarrier(components->m_Items,pSVar2);
+    pSVar2 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UnityEngine_UI_LayoutElement,(MethodInfo *)0x0);
+    if (pSVar2 != (System_Type_o *)0x0) {
+      pIVar3 = il2cpp_vm_Object_IsInst((Il2CppObject *)pSVar2,(((components->obj).klass)->_1).element_class);
+      if (pIVar3 == (Il2CppObject *)0x0) {
+        pIVar3 = il2cpp_codegen_get_array_type_mismatch_exception();
+        il2cpp_codegen_raise_exception(pIVar3,(MethodInfo *)0x0);
       }
-      if (1 < (uint)components->max_length) {
-        components->m_Items[1] = pSVar2;
-        il2cpp_runtime_helper_022b4080(components->m_Items + 1,pSVar2);
-        __this_01 = (UnityEngine_GameObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GameObject);
-        UnityEngine_GameObject___ctor_4dfc440(__this_01,id,components,(MethodInfo *)0x0);
-        if (__this_01 != (UnityEngine_GameObject_o *)0x0) {
-          __this_02 = UnityEngine_GameObject__get_transform(__this_01,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar1 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)parent,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if ((char)bVar1 == '\0') {
-            parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-          }
-          if (__this_02 != (UnityEngine_Transform_o *)0x0) {
-            UnityEngine_Transform__SetParent_4e09e30(__this_02,parent,0,(MethodInfo *)0x0);
-            pIVar4 = UnityEngine_GameObject__GetComponent_object_(__this_01,MethodInfo_LayoutElement_GetComponent_LayoutElement);
-            if (pIVar4 != (Il2CppObject *)0x0) {
-              (*pIVar4->klass->vtable[0x26].methodPtr)
-                        ((ulong)(uint)(fontSize + 10.0),pIVar4,pIVar4->klass->vtable[0x26].method);
-              if ((char)flexibleWidth == '\0') {
-                uVar6 = 0;
-              }
-              else {
-                uVar6 = 0x3f800000;
-              }
-              (*pIVar4->klass->vtable[0x28].methodPtr)((ulong)uVar6,pIVar4,pIVar4->klass->vtable[0x28].method)
-              ;
-              pPVar5 = (PatreonEffects_NameEffectLabel_o *)
-                       UnityEngine_GameObject__AddComponent_object_(__this_01,MethodInfo_NameEffectLabel_AddComponent_NameEffectLabel);
-              if (pPVar5 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                PatreonEffects_NameEffectLabel__set_fontSize(pPVar5,fontSize,(MethodInfo *)0x0);
-                value_00.fields.b = 1.0;
-                value_00.fields.a = 1.0;
-                value_00.fields.r = 1.0;
-                value_00.fields.g = 1.0;
-                PatreonEffects_NameEffectLabel__set_color(pPVar5,value_00,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_alignment(pPVar5,0x1002,(MethodInfo *)0x0);
-                PatreonEffects_NameEffectLabel__set_richText(pPVar5,1,(MethodInfo *)0x0);
-                return pPVar5;
-              }
+    }
+    if (1 < (uint)components->max_length) {
+      components->m_Items[1] = pSVar2;
+      Il2CppCodeGenWriteBarrier(components->m_Items + 1,pSVar2);
+      __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+      UnityEngine_GameObject___ctor_2f1abe0(__this_00,id,components,(MethodInfo *)0x0);
+      if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+        __this_01 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar1 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)parent,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar1) {
+          parent = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+        }
+        if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+          UnityEngine_Transform__SetParent_2f5a7e0(__this_01,parent,false,(MethodInfo *)0x0);
+          pUVar4 = UnityEngine_GameObject__GetComponent_object_
+                             (__this_00,
+                              (MethodInfo_6F5650 *)
+                              MethodInfo_UnityEngine_GameObject_GetComponent_LayoutElement);
+          if (pUVar4 != (UnityEngine_UI_LayoutElement_o *)0x0) {
+            (*(pUVar4->klass->vtable)._38_set_preferredHeight.methodPtr)
+                      (pUVar4,fontSize + 10.0,(pUVar4->klass->vtable)._38_set_preferredHeight.method);
+            if (flexibleWidth) {
+              fVar5 = 1.0;
+            }
+            else {
+              fVar5 = 0.0;
+            }
+            (*(pUVar4->klass->vtable)._40_set_flexibleWidth.methodPtr)
+                      (pUVar4,fVar5,(pUVar4->klass->vtable)._40_set_flexibleWidth.method);
+            __this_02 = UnityEngine_GameObject__AddComponent_object_
+                                  (__this_00,
+                                   (MethodInfo_6F4D60 *)
+                                   MethodInfo_UnityEngine_GameObject_AddComponent_NameEffectLabel);
+            if (__this_02 != (PatreonEffects_NameEffectLabel_o *)0x0) {
+              PatreonEffects_NameEffectLabel__set_fontSize(__this_02,fontSize,(MethodInfo *)0x0);
+              local_38[0].r = 1.0;
+              local_38[0].g = 1.0;
+              local_38[0].b = 1.0;
+              local_38[0].a = 1.0;
+              PatreonEffects_NameEffectLabel__set_color
+                        (__this_02,(UnityEngine_Color_o *)local_38,(MethodInfo *)0x0);
+              PatreonEffects_NameEffectLabel__set_alignment(__this_02,0x1002,(MethodInfo *)0x0);
+              PatreonEffects_NameEffectLabel__set_richText(__this_02,true,(MethodInfo *)0x0);
+              return __this_02;
             }
           }
         }
-        goto label_04503450;
       }
+      goto label_181df69b8;
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0450345a:
-  lVar3 = il2cpp_runtime_helper_0231b270();
-  pPVar5 = (PatreonEffects_NameEffectLabel_o *)il2cpp_runtime_helper_022b2b10(lVar3,0);
-  if (g_data_057aed19 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_string);
-    pPVar5 = (PatreonEffects_NameEffectLabel_o *)il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnStateChanged);
-    g_data_057aed19 = '\x01';
-  }
-  __this_00 = *(Gisketch_Aottg2UI_State_GisketchUIState_o **)(lVar3 + 0x20);
-  if (__this_00 != (Gisketch_Aottg2UI_State_GisketchUIState_o *)0x0) {
-    value = (System_Action_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_string);
-    System_Action_object____ctor();
-    Gisketch_Aottg2UI_State_GisketchUIState__remove_Changed(__this_00,value,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  return pPVar5;
+  ThrowIndexOutOfRangeException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$DialogGuild
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__DialogGuild (UnityEngine_Transform_o* root, SimpleJSONFixed_JSONNode_o* info, const MethodInfo* method);
-// 0x4503670
+// 0x181df6fc0
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__DialogGuild
           (UnityEngine_Transform_o *root,SimpleJSONFixed_JSONNode_o *info,MethodInfo *method)
 
 {
-  char cVar1;
-  int iVar2;
-  code *vtableDispatch;
-  bool_conflict bVar3;
-  Il2CppMethodPointer pIVar4;
-  System_String_o *pSVar5;
-  SimpleJSONFixed_JSONNode_o *a;
-  MethodInfo *pMVar6;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  long *plVar7;
-  System_String_o *a_00;
-  void *in_R8;
-  undefined1 auVar8 [16];
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_Xml_Schema_XmlSchema_o *pSVar4;
   
-  if (g_data_057aed1f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCharacterTextField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&"guild");
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild");
-    g_data_057aed1f = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_04503735;
-label_0450369b:
-    if (g_data_057ae856 != '\0') goto label_045036a8;
-label_04503747:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    g_data_057ae856 = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_0450376a;
-label_045036b8:
-    cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
+  if (Il2CppMethodInitialized_184344b87 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    il2cpp_codegen_initialize_runtime_metadata(&"guild");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-character-guild");
+    Il2CppMethodInitialized_184344b87 = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_0450369b;
-label_04503735:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae856 == '\0') goto label_04503747;
-label_045036a8:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_045036b8;
-label_0450376a:
-    il2cpp_runtime_helper_02337ed0();
-    cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-  }
-  if (cVar1 != '\0') {
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  plVar7 = &TypeInfo_AottgEditCharacterDialog;
-  if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeda8 == '\0') goto label_045037d1;
-label_0450379c:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_045037a8;
-label_045037f0:
-    il2cpp_runtime_helper_02337ed0();
-    if (*(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8) == '\0') goto label_0450380c;
-label_045037b5:
-    plVar7 = &g_data_057b9c00;
-  }
-  else {
-    if (g_data_057aeda8 != '\0') goto label_0450379c;
-label_045037d1:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    g_data_057aeda8 = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_045037f0;
-label_045037a8:
-    if (*(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8) != '\0') goto label_045037b5;
-label_0450380c:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-  }
-  pSVar5 = (System_String_o *)**(undefined8 **)(*plVar7 + 0xb8);
-  a_00 = pSVar5;
-  bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    pSVar5 = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__PresetGuildLabel(pSVar5,(MethodInfo *)0x0)
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog)
     ;
-    return pSVar5;
   }
-  if ((info != (SimpleJSONFixed_JSONNode_o *)0x0) &&
-     (auVar8 = (*(info->klass->vtable)._7_get_Item.methodPtr)
-                         (info,"guild",(info->klass->vtable)._7_get_Item.method), pIVar4 = auVar8._0_8_,
-     a_00 = (System_String_o *)info, pIVar4 != (Il2CppMethodPointer)0x0)) {
-    pMVar6 = *(MethodInfo **)pIVar4;
-    pSVar5 = (System_String_o *)
-             (*pMVar6[5].invoker_method)
-                       (pIVar4,(MethodInfo *)pMVar6[5].name,auVar8._8_8_,&pMVar6->methodPointer,in_R8);
-    pSVar5 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input(root,"profile-character-guild",pSVar5,pMVar6);
-    pMVar6 = extraout_RDX;
-    if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pMVar6 = extraout_RDX_00;
+  if (Il2CppMethodInitialized_184344c3c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    Il2CppMethodInitialized_184344c3c = '\x01';
+  }
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog)
+    ;
+  }
+  if (TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->static_fields->_noGuildSelected == false) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
     }
-    pSVar5 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value("profile-character-guild",pSVar5,pMVar6);
-    return pSVar5;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed22 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&"guildPresetId");
-    g_data_057aed22 = '\x01';
-  }
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = SimpleJSONFixed_JSONNode__op_Inequality
-                    ((SimpleJSONFixed_JSONNode_o *)a_00,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    if (a_00 != (System_String_o *)0x0) {
-      a = (SimpleJSONFixed_JSONNode_o *)
-          (*(a_00->klass->vtable)._7_CompareTo.methodPtr)
-                    (a_00,"guildPresetId",(a_00->klass->vtable)._7_CompareTo.method);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    pSVar3 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__SelectedGuildPresetId((MethodInfo *)0x0);
+    bVar2 = System_String__IsNullOrEmpty(pSVar3,(MethodInfo *)0x0);
+    if (bVar2) {
+      if (info != (SimpleJSONFixed_JSONNode_o *)0x0) {
+        pSVar4 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guild");
+        if (pSVar4 != (System_Xml_Schema_XmlSchema_o *)0x0) {
+          pSVar1 = pSVar4->klass;
+          pSVar3 = (System_String_o *)
+                   (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                             (pSVar4,(UnityEngine_GameObject_o *)
+                                     (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+          pSVar3 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
+                             (root,"profile-character-guild",pSVar3,(MethodInfo *)0x0);
+          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgCharacterTextField);
+          }
+          pSVar3 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value
+                             ("profile-character-guild",pSVar3,(MethodInfo *)0x0);
+          return pSVar3;
+        }
       }
-      bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') goto label_045039b7;
-      plVar7 = (long *)(*(a_00->klass->vtable)._7_CompareTo.methodPtr)
-                                 (a_00,"guildPresetId",(a_00->klass->vtable)._7_CompareTo.method);
-      if (plVar7 != (long *)0x0) {
-        vtableDispatch = *(code **)(*plVar7 + 0x1c8);
-        pSVar5 = (System_String_o *)
-                 (*vtableDispatch)(plVar7,*(undefined8 *)(*plVar7 + 0x1d0),vtableDispatch);
-        return pSVar5;
-      }
+      ThrowNullReferenceException();
     }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aeda8 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-      g_data_057aeda8 = '\x01';
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    else {
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    else {
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    if (cVar1 == '\0') {
-      plVar7 = &TypeInfo_AottgEditCharacterDialog;
-      if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-    }
-    else {
-      plVar7 = &g_data_057b9c00;
-    }
-    return (System_String_o *)**(undefined8 **)(*plVar7 + 0xb8);
+    pSVar3 = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__PresetGuildLabel(pSVar3,(MethodInfo *)0x0)
+    ;
+    return pSVar3;
   }
-label_045039b7:
-  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$ApplyGuild
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ApplyGuild (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, System_String_o* text, System_String_o* presetId, bool liveDialog, SimpleJSONFixed_JSONNode_o* effect, System_String_o* font, const MethodInfo* method);
-// 0x4504390
+// 0x181df5ac0
+// asm: 15 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181df5cd5: movdqa xmm0, xmmword ptr [rip + 0x1563bf3]
+// asm:   0x181df5cdd: xor edx, edx
+// asm:   0x181df5cdf: mov rbx, qword ptr [rbx + 0x60]
+// asm:   0x181df5ce3: mov rcx, rsi
+// asm:   0x181df5ce6: movaps xmmword ptr [rsp + 0x40], xmm0
+// asm:   0x181df5ceb: call 0x181e11f30  ; Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label()
+// asm:   0x181df5cf0: mov r9, rax
+// asm:   0x181df5cf3: mov qword ptr [rsp + 0x28], 0
+// asm:   0x181df5cfc: lea rax, [rsp + 0x40]
+// asm:   0x181df5d01: mov r8, rsi
+// asm:   0x181df5d04: lea rdx, [rdi + 0x50]
+// asm:   0x181df5d08: mov qword ptr [rsp + 0x20], rax
+// asm:   0x181df5d0d: mov rcx, rbx
+// asm:   0x181df5d10: call 0x181e13a90  ; Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyText()
+// asm:   0x181df5d15: jmp 0x181df5bd4
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ApplyGuild
                (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,System_String_o *text,
-               System_String_o *presetId,bool_conflict liveDialog,SimpleJSONFixed_JSONNode_o *effect,
+               System_String_o *presetId,bool liveDialog,SimpleJSONFixed_JSONNode_o *effect,
                System_String_o *font,MethodInfo *method)
 
 {
-  PatreonEffects_NameEffectController_o **effect_00;
-  int iVar1;
+  UnityEngine_UI_Image_o *pUVar1;
   PatreonEffects_NameEffectLabel_o *pPVar2;
   TMPro_TextMeshProUGUI_o *label;
-  bool_conflict bVar3;
-  uint uVar4;
-  MethodInfo *in_RAX;
-  UnityEngine_GameObject_o *pUVar5;
+  bool bVar3;
+  UnityEngine_GameObject_o *pUVar4;
   System_String_o *name;
-  System_String_o *pSVar6;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *__this_00;
-  MethodInfo *method_00;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *pMVar7;
-  byte bVar8;
-  byte bVar9;
-  UnityEngine_UI_Image_o *__this_01;
-  UnityEngine_UI_Image_o *pUVar10;
-  float value;
-  UnityEngine_Color_o color;
-  UnityEngine_Color_o color_00;
-  UnityEngine_Color_o color_01;
+  System_String_o *pSVar5;
+  UnityEngine_Color_Fields local_38;
   
-  if (g_data_057aed20 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed20 = '\x01';
+  if (Il2CppMethodInitialized_184344b88 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344b88 = '\x01';
   }
-  bVar9 = 0;
   bVar3 = Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__IsPreset(presetId,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    pUVar10 = (__this->fields)._guildPresetImage;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar9 = 0;
-    bVar3 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pUVar10,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    pMVar7 = extraout_RDX;
-    if ((char)bVar3 == '\0') {
-label_0450455b:
-      bVar9 = 0;
-      pUVar10 = (UnityEngine_UI_Image_o *)__this;
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing(__this,0,pMVar7);
+  if (bVar3) {
+    pPVar2 = (__this->fields)._guild;
+    if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
+      PatreonEffects_NameEffectLabel__ClearNameEffect(pPVar2,(MethodInfo *)0x0);
       pPVar2 = (__this->fields)._guild;
       if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-        color_01.fields.b = 1.0;
-        color_01.fields.a = 1.0;
-        color_01.fields.r = 1.0;
-        color_01.fields.g = 1.0;
+        local_38.r = 1.0;
+        local_38.g = 1.0;
+        local_38.b = 1.0;
+        local_38.a = 1.0;
         Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ClearEffect
-                  ((TMPro_TMP_Text_o *)(pPVar2->fields)._nameTmp,&(__this->fields)._guildPresetEffect,color_01
-                   ,(MethodInfo *)0x0);
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
-                  ((__this->fields)._guild,text,liveDialog & 0xff,0,effect,font,in_RAX);
-        return;
-      }
-    }
-    else {
-      pUVar10 = (__this->fields)._guildPresetImage;
-      if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
-        bVar9 = 0;
-        pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar10,(MethodInfo *)0x0);
-        if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-          UnityEngine_GameObject__SetActive(pUVar5,0,(MethodInfo *)0x0);
-          pMVar7 = extraout_RDX_00;
-          goto label_0450455b;
-        }
-      }
-    }
-  }
-  else {
-    pUVar10 = (UnityEngine_UI_Image_o *)(__this->fields)._guild;
-    if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
-      bVar9 = 0;
-      PatreonEffects_NameEffectLabel__ClearNameEffect
-                ((PatreonEffects_NameEffectLabel_o *)pUVar10,(MethodInfo *)0x0);
-      pPVar2 = (__this->fields)._guild;
-      if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-        effect_00 = &(__this->fields)._guildPresetEffect;
-        color.fields.b = 1.0;
-        color.fields.a = 1.0;
-        color.fields.r = 1.0;
-        color.fields.g = 1.0;
-        Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ClearEffect
-                  ((TMPro_TMP_Text_o *)(pPVar2->fields)._nameTmp,effect_00,color,(MethodInfo *)0x0);
-        uVar4 = Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyImage
+                  ((TMPro_TMP_Text_o *)(pPVar2->fields)._nameTmp,&(__this->fields)._guildPresetEffect,
+                   (UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0);
+        bVar3 = Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyImage
                           ((__this->fields)._guildPresetImage,presetId,(MethodInfo *)0x0);
-        bVar8 = (byte)uVar4;
-        bVar9 = bVar8;
         Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing
-                  (__this,uVar4 & 0xff,method_00);
-        pUVar10 = (UnityEngine_UI_Image_o *)(__this->fields)._guild;
-        if (pUVar10 != (UnityEngine_UI_Image_o *)0x0) {
-          bVar9 = 0;
-          pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar10,(MethodInfo *)0x0)
-          ;
-          if (pUVar5 != (UnityEngine_GameObject_o *)0x0) {
-            UnityEngine_GameObject__SetActive(pUVar5,(uint)(bVar8 ^ 1),(MethodInfo *)0x0);
-            if (bVar8 != 0) {
+                  (__this,bVar3,(MethodInfo *)0x0);
+        pPVar2 = (__this->fields)._guild;
+        if ((pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) &&
+           (pUVar4 = UnityEngine_Component__get_gameObject
+                               ((UnityEngine_Component_o *)pPVar2,(MethodInfo *)0x0),
+           pUVar4 != (UnityEngine_GameObject_o *)0x0)) {
+          UnityEngine_GameObject__SetActive(pUVar4,!bVar3,(MethodInfo *)0x0);
+          if (bVar3) {
+            return;
+          }
+          pPVar2 = (__this->fields)._guild;
+          pSVar5 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+          name = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label(presetId,(MethodInfo *)0x0);
+          if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
+            PatreonEffects_NameEffectLabel__SetText
+                      (pPVar2,pSVar5,name,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),
+                       (MethodInfo *)0x0);
+            pPVar2 = (__this->fields)._guild;
+            if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
+              label = (pPVar2->fields)._nameTmp;
+              local_38.r = 1.0;
+              local_38.g = 1.0;
+              local_38.b = 1.0;
+              local_38.a = 1.0;
+              pSVar5 = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label(presetId,(MethodInfo *)0x0);
+              Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyText
+                        ((TMPro_TMP_Text_o *)label,&(__this->fields)._guildPresetEffect,presetId,pSVar5,
+                         (UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0);
               return;
-            }
-            __this_01 = (UnityEngine_UI_Image_o *)(__this->fields)._guild;
-            pSVar6 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-            bVar9 = 0;
-            pUVar10 = (UnityEngine_UI_Image_o *)presetId;
-            name = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label(presetId,(MethodInfo *)0x0);
-            if (__this_01 != (UnityEngine_UI_Image_o *)0x0) {
-              PatreonEffects_NameEffectLabel__SetText
-                        ((PatreonEffects_NameEffectLabel_o *)__this_01,pSVar6,name,
-                         (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),(MethodInfo *)0x0);
-              bVar9 = (byte)pSVar6;
-              pPVar2 = (__this->fields)._guild;
-              pUVar10 = __this_01;
-              if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-                label = (pPVar2->fields)._nameTmp;
-                pSVar6 = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label(presetId,(MethodInfo *)0x0);
-                color_00.fields.b = 1.0;
-                color_00.fields.a = 1.0;
-                color_00.fields.r = 1.0;
-                color_00.fields.g = 1.0;
-                Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyText
-                          ((TMPro_TMP_Text_o *)label,effect_00,presetId,pSVar6,color_00,(MethodInfo *)0x0);
-                return;
-              }
             }
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed21 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed21 = '\x01';
-  }
-  pSVar6 = *(System_String_o **)&(pUVar10->fields).m_Color.fields;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_00 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0;
-  pMVar7 = (MethodInfo *)0x0;
-  bVar3 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pSVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    pSVar6 = *(System_String_o **)&(pUVar10->fields).m_Color.fields;
-    if (pSVar6 == (System_String_o *)0x0) goto label_04504699;
-    __this_00 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)pSVar6,MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pMVar7 = (MethodInfo *)0x0;
-  bVar3 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    return;
-  }
-  if (__this_00 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-    if (bVar9 == 0) {
-      value = 5.0;
-    }
-    else {
-      value = 3.5;
-    }
-    UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(__this_00,value,(MethodInfo *)0x0);
-    return;
-  }
-label_04504699:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aedac == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild-effect");
-    g_data_057aedac = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-  }
   else {
-    iVar1 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
+    pUVar1 = (__this->fields)._guildPresetImage;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar3 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar3) {
+      pUVar1 = (__this->fields)._guildPresetImage;
+      if ((pUVar1 == (UnityEngine_UI_Image_o *)0x0) ||
+         (pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pUVar1,(MethodInfo *)0x0),
+         pUVar4 == (UnityEngine_GameObject_o *)0x0)) goto label_181df5d1a;
+      UnityEngine_GameObject__SetActive(pUVar4,false,(MethodInfo *)0x0);
+    }
+    Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing
+              (__this,false,(MethodInfo *)0x0);
+    pPVar2 = (__this->fields)._guild;
+    if (pPVar2 != (PatreonEffects_NameEffectLabel_o *)0x0) {
+      local_38.r = 1.0;
+      local_38.g = 1.0;
+      local_38.b = 1.0;
+      local_38.a = 1.0;
+      Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ClearEffect
+                ((TMPro_TMP_Text_o *)(pPVar2->fields)._nameTmp,&(__this->fields)._guildPresetEffect,
+                 (UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0);
+      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
+                ((__this->fields)._guild,text,liveDialog,false,effect,font,(MethodInfo *)0x0);
+      return;
+    }
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",pMVar7);
-    return;
-  }
-  Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",pMVar7);
-  return;
+label_181df5d1a:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$SetGuildRowSpacing
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, bool imageGuild, const MethodInfo* method);
-// 0x45045c0
+// 0x181df7d00
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing
-               (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,bool_conflict imageGuild,
+               (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,bool imageGuild,
                MethodInfo *method)
 
 {
-  int iVar1;
   UnityEngine_Object_o *x;
   UnityEngine_GameObject_o *__this_00;
-  bool_conflict bVar2;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *__this_01;
-  MethodInfo *method_00;
+  bool bVar1;
+  UnityEngine_UI_HorizontalLayoutGroup_o *__this_01;
   float value;
   
-  if (g_data_057aed21 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed21 = '\x01';
+  if (Il2CppMethodInitialized_184344b89 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344b89 = '\x01';
   }
   x = (UnityEngine_Object_o *)(__this->fields)._guildRow;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  __this_01 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0;
-  method_00 = (MethodInfo *)0x0;
-  bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
+  bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
     __this_00 = (__this->fields)._guildRow;
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_04504699;
-    __this_01 = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-                UnityEngine_GameObject__GetComponent_object_(__this_00,MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  method_00 = (MethodInfo *)0x0;
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    return;
-  }
-  if (__this_01 != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-    if ((char)imageGuild == '\0') {
-      value = 5.0;
-    }
-    else {
-      value = 3.5;
-    }
-    UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(__this_01,value,(MethodInfo *)0x0);
-    return;
-  }
-label_04504699:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aedac == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild-effect");
-    g_data_057aedac = '\x01';
-    iVar1 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
+    if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_181df7de0;
+    __this_01 = UnityEngine_GameObject__GetComponent_object_
+                          (__this_00,
+                           (MethodInfo_6F5650 *)
+                           MethodInfo_UnityEngine_GameObject_GetComponent_HorizontalLayoutGroup);
   }
   else {
-    iVar1 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
+    __this_01 = (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0;
   }
-  if (iVar1 != 0) {
-    Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",method_00);
-    return;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  il2cpp_runtime_helper_02337ed0();
-  Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",method_00);
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (imageGuild) {
+      value = 3.5;
+    }
+    else {
+      value = 5.0;
+    }
+    if (__this_01 == (UnityEngine_UI_HorizontalLayoutGroup_o *)0x0) {
+label_181df7de0:
+      ThrowNullReferenceException();
+    }
+    UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing
+              ((UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)__this_01,value,(MethodInfo *)0x0);
+  }
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$PresetId
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__PresetId (SimpleJSONFixed_JSONNode_o* info, const MethodInfo* method);
-// 0x45038d0
+// 0x181df7420
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__PresetId
           (SimpleJSONFixed_JSONNode_o *info,MethodInfo *method)
 
 {
-  char cVar1;
-  int iVar2;
-  code *vtableDispatch;
-  bool_conflict bVar3;
-  SimpleJSONFixed_JSONNode_o *a;
-  long *plVar4;
-  System_String_o *pSVar5;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  bool bVar2;
+  System_Xml_Schema_XmlSchema_o *pSVar3;
+  System_String_o *pSVar4;
   
-  if (g_data_057aed22 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&"guildPresetId");
-    g_data_057aed22 = '\x01';
+  if (Il2CppMethodInitialized_184344b8a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&"guildPresetId");
+    Il2CppMethodInitialized_184344b8a = '\x01';
   }
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  bVar2 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
     if (info != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      a = (SimpleJSONFixed_JSONNode_o *)
-          (*(info->klass->vtable)._7_get_Item.methodPtr)
-                    (info,"guildPresetId",(info->klass->vtable)._7_get_Item.method);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      pSVar3 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guildPresetId");
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') goto label_045039b7;
-      plVar4 = (long *)(*(info->klass->vtable)._7_get_Item.methodPtr)
-                                 (info,"guildPresetId",(info->klass->vtable)._7_get_Item.method);
-      if (plVar4 != (long *)0x0) {
-        vtableDispatch = *(code **)(*plVar4 + 0x1c8);
-        pSVar5 = (System_String_o *)
-                 (*vtableDispatch)(plVar4,*(undefined8 *)(*plVar4 + 0x1d0),vtableDispatch);
-        return pSVar5;
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aeda8 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-      g_data_057aeda8 = '\x01';
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    else {
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    else {
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    if (cVar1 == '\0') {
-      plVar4 = &TypeInfo_AottgEditCharacterDialog;
-      if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
+                        ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      if (!bVar2) goto label_181df7509;
+      pSVar3 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)"guildPresetId");
+      if (pSVar3 != (System_Xml_Schema_XmlSchema_o *)0x0) {
+        pSVar1 = pSVar3->klass;
+        pSVar4 = (System_String_o *)
+                 (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                           (pSVar3,(UnityEngine_GameObject_o *)
+                                   (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1);
+        return pSVar4;
       }
     }
-    else {
-      plVar4 = &g_data_057b9c00;
-    }
-    return (System_String_o *)**(undefined8 **)(*plVar4 + 0xb8);
+    ThrowNullReferenceException();
   }
-label_045039b7:
-  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+label_181df7509:
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Apply
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply (PatreonEffects_NameEffectLabel_o* label, System_String_o* text, bool liveDialog, bool name, SimpleJSONFixed_JSONNode_o* effect, System_String_o* font, const MethodInfo* method);
-// 0x4503e30
+// 0x181df5d20
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181df5f1c: mov ebx, r13d
+// asm:   0x181df6050: mov rax, qword ptr [rip + 0x22a7971]  ; "None"
 
 void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
-               (PatreonEffects_NameEffectLabel_o *label,System_String_o *text,bool_conflict liveDialog,
-               bool_conflict name,SimpleJSONFixed_JSONNode_o *effect,System_String_o *font,MethodInfo *method)
+               (PatreonEffects_NameEffectLabel_o *label,System_String_o *text,bool liveDialog,bool name,
+               SimpleJSONFixed_JSONNode_o *effect,System_String_o *font,MethodInfo *method)
 
 {
-  bool_conflict *effect_00;
-  int iVar1;
-  TMPro_TMP_Text_o *label_00;
-  UnityEngine_Object_o *x;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
   undefined8 uVar2;
-  int32_t effect_01;
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  char cVar8;
-  bool_conflict bVar9;
-  uint uVar10;
-  Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec_Document_o *pGVar11;
+  undefined8 uVar3;
+  undefined8 uVar4;
+  undefined8 uVar5;
+  undefined8 uVar6;
+  undefined8 uVar7;
+  int32_t effect_00;
+  bool bVar8;
+  char cVar9;
+  char cVar10;
+  bool bVar11;
+  Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec_Document_o *pGVar12;
+  UnityEngine_GameObject_o *__this;
   TMPro_TMP_FontAsset_o *font_00;
-  long *plVar12;
-  SimpleJSONFixed_JSONNode_o *a;
-  UnityEngine_GameObject_o *pUVar13;
+  System_Xml_Schema_XmlSchema_o *pSVar13;
   System_String_o *pSVar14;
-  System_String_o *pSVar15;
-  UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *__this;
-  long lVar16;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  MethodInfo *pMVar17;
-  PatreonEffects_NameEffectLabel_o *presetId;
-  MethodInfo *method_00;
-  MethodInfo *extraout_RDX_04;
-  MethodInfo *extraout_RDX_05;
-  MethodInfo *method_01;
-  System_String_o **ppSVar18;
-  uint liveDialog_00;
-  byte bVar19;
-  byte bVar20;
-  MethodInfo *pMVar21;
-  PatreonEffects_NameEffectLabel_o *__this_00;
-  PatreonEffects_NameEffectLabel_o *__this_01;
-  SimpleJSONFixed_JSONNode_o *pSVar22;
-  float value;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 extraout_XMM0_Dc_00;
-  undefined4 extraout_XMM0_Dc_01;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 extraout_XMM0_Dd_00;
-  undefined4 extraout_XMM0_Dd_01;
-  undefined4 uVar23;
-  undefined4 uVar24;
-  UnityEngine_Color_o UVar25;
-  UnityEngine_Color_o a_00;
-  UnityEngine_Color_o color;
-  UnityEngine_Color_o color_00;
-  UnityEngine_Color_o color_01;
-  UnityEngine_Color_o b;
-  undefined1 auVar26 [16];
-  UnityEngine_Color_o c;
-  int32_t local_9c;
-  undefined1 local_98 [16];
-  undefined1 local_88 [16];
-  undefined1 local_78 [16];
-  undefined1 local_68 [16];
-  undefined1 local_58 [16];
-  undefined1 local_48 [16];
+  UnityEngine_Color_o *pUVar15;
+  System_String_o *prefix;
+  int32_t local_res8 [2];
+  UnityEngine_Color_Fields local_98;
+  UnityEngine_Color_Fields local_88;
+  UnityEngine_Color_Fields local_78;
+  UnityEngine_Color_Fields local_68 [4];
   
-  local_98._0_4_ = name;
-  local_88._0_4_ = liveDialog;
-  pMVar21 = (MethodInfo *)text;
-  pSVar22 = effect;
-  pSVar15 = font;
-  if (g_data_057aed23 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_NameFontCatalog);
-    il2cpp_runtime_helper_023445d0(&"None");
-    il2cpp_runtime_helper_023445d0(&"type");
-    il2cpp_runtime_helper_023445d0(&"enabled");
-    g_data_057aed23 = '\x01';
-    if (text != (System_String_o *)0x0) goto label_04503e68;
-label_04503eda:
-    local_9c = 0;
-    text = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    pGVar11 = Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec__Parse(text,pMVar21);
+  if (Il2CppMethodInitialized_184344b8b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_NameFontCatalog);
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"type");
+    il2cpp_codegen_initialize_runtime_metadata(&"enabled");
+    Il2CppMethodInitialized_184344b8b = '\x01';
   }
-  else {
-    if (text == (System_String_o *)0x0) goto label_04503eda;
-label_04503e68:
-    local_9c = 0;
-    pGVar11 = Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec__Parse(text,pMVar21);
+  cVar9 = false;
+  local_res8[0] = 0;
+  if (text == (System_String_o *)0x0) {
+    text = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
-  if (label != (PatreonEffects_NameEffectLabel_o *)0x0) {
-    pMVar21 = (MethodInfo *)0x0;
-    text = (System_String_o *)label;
-    pUVar13 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)label,(MethodInfo *)0x0);
-    if (pGVar11 != (Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec_Document_o *)0x0) {
-      text = (pGVar11->fields).Text;
-      pMVar21 = (MethodInfo *)0x0;
-      bVar9 = System_String__IsNullOrEmpty(text,(MethodInfo *)0x0);
-      if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-        UnityEngine_GameObject__SetActive(pUVar13,(uint)(byte)((byte)bVar9 ^ 1),(MethodInfo *)0x0);
-        PatreonEffects_NameEffectLabel__ClearNameEffect(label,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_NameFontCatalog + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+  pGVar12 = Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec__Parse(text,(MethodInfo *)0x0);
+  if (((label == (PatreonEffects_NameEffectLabel_o *)0x0) ||
+      (__this = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)label,(MethodInfo *)0x0),
+      pGVar12 == (Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec_Document_o *)0x0)) ||
+     (bVar8 = System_String__IsNullOrEmpty((pGVar12->fields).Text,(MethodInfo *)0x0),
+     __this == (UnityEngine_GameObject_o *)0x0)) goto label_181df621c;
+  UnityEngine_GameObject__SetActive(__this,!bVar8,(MethodInfo *)0x0);
+  PatreonEffects_NameEffectLabel__ClearNameEffect(label,(MethodInfo *)0x0);
+  if ((TypeInfo_PatreonEffects_NameFontCatalog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_NameFontCatalog);
+  }
+  font_00 = PatreonEffects_NameFontCatalog__Load(font,(MethodInfo *)0x0);
+  PatreonEffects_NameEffectLabel__SetFont(label,font_00,(MethodInfo *)0x0);
+  local_98.r = 1.0;
+  local_98.g = 1.0;
+  local_98.b = 1.0;
+  local_98.a = 1.0;
+  PatreonEffects_NameEffectLabel__set_color(label,(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
+  bVar8 = PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess((MethodInfo *)0x0);
+  if (bVar8) {
+    if (liveDialog) {
+      if (!name) {
+        if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
         }
-        cVar8 = '\0';
-        uVar10 = 0;
-        font_00 = PatreonEffects_NameFontCatalog__Load(font,(MethodInfo *)0x0);
-        PatreonEffects_NameEffectLabel__SetFont(label,font_00,(MethodInfo *)0x0);
-        uVar23 = g_data_00d19fc0._8_4_;
-        uVar24 = g_data_00d19fc0._12_4_;
-        pMVar21 = (MethodInfo *)0x0;
-        uVar2 = g_data_00d19fc0;
-        UVar25.fields.b = (float)(int)uVar2;
-        UVar25.fields.a = (float)(int)((ulong)uVar2 >> 0x20);
-        UVar25.fields.r = (float)(int)uVar2;
-        UVar25.fields.g = (float)(int)((ulong)uVar2 >> 0x20);
-        PatreonEffects_NameEffectLabel__set_color(label,UVar25,(MethodInfo *)0x0);
-        bVar9 = PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess((MethodInfo *)0x0);
-        if ((char)bVar9 == '\0') {
-          if (local_88[0] == '\0') goto label_045040c4;
-          if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) goto label_045042fd;
-label_0450402d:
-          pMVar21 = TypeInfo_AottgEditCharacterDialog;
-joined_r0x04504032:
-          if (local_98[0] == '\0') {
-            pSVar15 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildEffectType(pMVar21);
-            pMVar17 = extraout_RDX_03;
-          }
-          else {
-            pSVar15 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameEffectType(pMVar21);
-            pMVar17 = extraout_RDX;
-          }
-          if (uVar10 != 0) {
-label_045041a2:
-            local_9c = 0;
-            bVar9 = PatreonEffects_NameEffectPresets__TryResolve(pSVar15,&local_9c,(MethodInfo *)0x0);
-            pSVar15 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-            pMVar17 = extraout_RDX_02;
-            if ((char)bVar9 != '\0') {
-              pMVar21 = (MethodInfo *)0x0;
-              PatreonEffects_NameEffectLabel__SetText
-                        (label,pSVar15,(pGVar11->fields).Text,pSVar15,(MethodInfo *)0x0);
-              effect_01 = local_9c;
-              bVar19 = local_88[0];
-              bVar20 = local_98[0];
-              liveDialog_00 = (uint)local_88[0];
-              uVar10 = (uint)local_98[0];
-              UVar25 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
-                                 (liveDialog_00,uVar10,effect,0,pMVar21);
-              local_88._8_4_ = extraout_XMM0_Dc;
-              local_88._0_8_ = UVar25.fields._0_8_;
-              local_88._12_4_ = extraout_XMM0_Dd;
-              local_98._8_4_ = uVar23;
-              local_98._0_8_ = UVar25.fields._8_8_;
-              local_98._12_4_ = uVar24;
-              UVar25 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
-                                 (liveDialog_00,uVar10,effect,1,pMVar21);
-              local_48._8_4_ = extraout_XMM0_Dc_00;
-              local_48._0_8_ = UVar25.fields._0_8_;
-              local_48._12_4_ = extraout_XMM0_Dd_00;
-              local_58._8_4_ = uVar23;
-              local_58._0_8_ = UVar25.fields._8_8_;
-              local_58._12_4_ = uVar24;
-              UVar25 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
-                                 ((uint)bVar19,(uint)bVar20,effect,2,pMVar21);
-              local_68._8_4_ = extraout_XMM0_Dc_01;
-              local_68._0_8_ = UVar25.fields._0_8_;
-              local_68._12_4_ = extraout_XMM0_Dd_01;
-              local_78._8_4_ = uVar23;
-              local_78._0_8_ = UVar25.fields._8_8_;
-              local_78._12_4_ = uVar24;
-              UVar25 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
-                                 ((uint)bVar19,(uint)bVar20,effect,3,pMVar21);
-              auVar7 = local_48;
-              auVar6 = local_58;
-              auVar5 = local_68;
-              auVar4 = local_78;
-              auVar3 = local_88;
-              auVar26 = local_98;
-              a_00.fields.b = (float)local_98._0_4_;
-              a_00.fields.a = (float)local_98._4_4_;
-              a_00.fields.r = (float)local_88._0_4_;
-              a_00.fields.g = (float)local_88._4_4_;
-              b.fields.b = (float)local_58._0_4_;
-              b.fields.a = (float)local_58._4_4_;
-              b.fields.r = (float)local_48._0_4_;
-              b.fields.g = (float)local_48._4_4_;
-              c.fields.b = (float)local_78._0_4_;
-              c.fields.a = (float)local_78._4_4_;
-              c.fields.r = (float)local_68._0_4_;
-              c.fields.g = (float)local_68._4_4_;
-              local_98 = auVar26;
-              local_88 = auVar3;
-              local_78 = auVar4;
-              local_68 = auVar5;
-              local_58 = auVar6;
-              local_48 = auVar7;
-              PatreonEffects_NameEffectLabel__SetNameEffect(label,effect_01,a_00,b,c,UVar25,(MethodInfo *)0x0)
-              ;
-              return;
-            }
-            goto label_0450433b;
-          }
-        }
-        else {
-          if (local_88[0] != '\0') {
-            if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              if (local_98[0] != '\0') goto label_04503fc7;
-label_0450429a:
-              if (g_data_057aedac == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-                il2cpp_runtime_helper_023445d0(&"profile-character-guild-effect");
-                g_data_057aedac = '\x01';
-              }
-              ppSVar18 = &"profile-character-guild-effect";
-              iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-            }
-            else {
-              if (local_98[0] == '\0') goto label_0450429a;
-label_04503fc7:
-              if (g_data_057aedab == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-                il2cpp_runtime_helper_023445d0(&"profile-character-name-effect");
-                g_data_057aedab = '\x01';
-              }
-              ppSVar18 = (System_String_o **)&"profile-character-name-effect";
-              iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
-            }
-            if (iVar1 == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            uVar10 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled(*ppSVar18,pMVar21);
-            uVar10 = uVar10 & 0xff;
-            if (*(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4) != 0) goto label_0450402d;
-label_045042fd:
-            pMVar21 = TypeInfo_AottgEditCharacterDialog;
-            il2cpp_runtime_helper_02337ed0();
-            goto joined_r0x04504032;
-          }
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          cVar8 = '\0';
-          pMVar21 = (MethodInfo *)0x0;
-          text = (System_String_o *)effect;
-          bVar9 = SimpleJSONFixed_JSONNode__op_Inequality(effect,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-          if ((char)bVar9 != '\0') {
-            if ((effect == (SimpleJSONFixed_JSONNode_o *)0x0) ||
-               (pMVar21 = "enabled", text = (System_String_o *)effect,
-               plVar12 = (long *)(*(effect->klass->vtable)._7_get_Item.methodPtr)
-                                           (effect,"enabled",(effect->klass->vtable)._7_get_Item.method),
-               plVar12 == (long *)0x0)) goto label_04504380;
-            lVar16 = *plVar12;
-            cVar8 = (**(code **)(lVar16 + 0x3a8))(plVar12);
-            name = (bool_conflict)lVar16;
-          }
-label_045040c4:
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pMVar21 = (MethodInfo *)0x0;
-          text = (System_String_o *)effect;
-          bVar9 = SimpleJSONFixed_JSONNode__op_Inequality(effect,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-          pMVar17 = extraout_RDX_00;
-          if ((char)bVar9 == '\0') {
-label_04504187:
-            pSVar15 = "None";
-            if (cVar8 == '\0') goto label_04504323;
-            goto label_045041a2;
-          }
-          if (effect == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_04504380;
-          a = (SimpleJSONFixed_JSONNode_o *)
-              (*(effect->klass->vtable)._7_get_Item.methodPtr)
-                        (effect,"type",(effect->klass->vtable)._7_get_Item.method);
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar9 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-          pMVar17 = extraout_RDX_01;
-          if ((char)bVar9 == '\0') goto label_04504187;
-          pMVar21 = "type";
-          text = (System_String_o *)effect;
-          plVar12 = (long *)(*(effect->klass->vtable)._7_get_Item.methodPtr)
-                                      (effect,"type",(effect->klass->vtable)._7_get_Item.method);
-          if (plVar12 == (long *)0x0) goto label_04504380;
-          auVar26 = (**(code **)(*plVar12 + 0x1c8))(plVar12,*(undefined8 *)(*plVar12 + 0x1d0));
-          pMVar17 = auVar26._8_8_;
-          pSVar15 = auVar26._0_8_;
-          if (cVar8 != '\0') goto label_045041a2;
-        }
-label_04504323:
-        local_9c = 0;
-        pSVar15 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-label_0450433b:
-        pSVar14 = Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec__RichText
-                            ((pGVar11->fields).Text,
-                             (System_Collections_Generic_IList_string__o *)(pGVar11->fields).Colors,pMVar17);
-        PatreonEffects_NameEffectLabel__SetText
-                  (label,pSVar15,pSVar14,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
-                   (MethodInfo *)0x0);
-        return;
+        cVar9 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildEffectEnabled((MethodInfo *)0x0);
+        goto label_181df5ed1;
       }
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      }
+      cVar9 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameEffectEnabled((MethodInfo *)0x0);
+label_181df6032:
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+      }
+      pSVar14 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__NameEffectType((MethodInfo *)0x0);
     }
-  }
-label_04504380:
-  auVar26 = il2cpp_runtime_helper_022b2c90();
-  presetId = auVar26._8_8_;
-  pMVar17 = auVar26._0_8_;
-  if (g_data_057aed20 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed20 = '\x01';
-  }
-  bVar20 = 0;
-  bVar9 = Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__IsPreset
-                    ((System_String_o *)presetId,(MethodInfo *)0x0);
-  if ((char)bVar9 == '\0') {
-    x = *(UnityEngine_Object_o **)&(((PatreonEffects_NameEffectLabel_o *)text)->fields)._color.fields.a;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar20 = 0;
-    bVar9 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    method_01 = extraout_RDX_04;
-    if ((char)bVar9 == '\0') {
-label_0450455b:
-      bVar20 = 0;
-      __this_01 = (PatreonEffects_NameEffectLabel_o *)text;
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing
-                ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)text,0,method_01);
-      lVar16 = *(long *)&(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-      if (lVar16 != 0) {
-        color_01.fields.b = 1.0;
-        color_01.fields.a = 1.0;
-        color_01.fields.r = 1.0;
-        color_01.fields.g = 1.0;
-        Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ClearEffect
-                  (*(TMPro_TMP_Text_o **)(lVar16 + 0x60),
-                   (PatreonEffects_NameEffectController_o **)
-                   &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._richText,color_01,(MethodInfo *)0x0)
+    else {
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      bVar8 = SimpleJSONFixed_JSONNode__op_Inequality(effect,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      cVar10 = cVar9;
+      if (bVar8) {
+        if ((effect == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+           (pSVar13 = (*(effect->klass->vtable)._7_get_Item.methodPtr)
+                                (effect,(MethodInfo *)"enabled"),
+           pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0)) goto label_181df621c;
+        cVar10 = (*(code *)((Il2CppClass *)pSVar13->klass)->vtable[39].methodPtr)(pSVar13);
+      }
+label_181df5f1f:
+      cVar9 = cVar10;
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      bVar8 = SimpleJSONFixed_JSONNode__op_Inequality(effect,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      pSVar14 = "None";
+      if (bVar8) {
+        if (effect == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_181df621c:
+          ThrowNullReferenceException();
+        }
+        pSVar13 = (*(effect->klass->vtable)._7_get_Item.methodPtr)(effect,(MethodInfo *)"type")
         ;
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Apply
-                  (*(PatreonEffects_NameEffectLabel_o **)
-                    &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize,(System_String_o *)pMVar21
-                   ,name & 0xff,0,pSVar22,pSVar15,pMVar17);
-        return;
-      }
-    }
-    else {
-      __this_01 = *(PatreonEffects_NameEffectLabel_o **)
-                   &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._color.fields.a;
-      if (__this_01 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-        bVar20 = 0;
-        pUVar13 = UnityEngine_Component__get_gameObject
-                            ((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
-        if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-          UnityEngine_GameObject__SetActive(pUVar13,0,(MethodInfo *)0x0);
-          method_01 = extraout_RDX_05;
-          goto label_0450455b;
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+        }
+        bVar8 = SimpleJSONFixed_JSONNode__op_Inequality
+                          ((SimpleJSONFixed_JSONNode_o *)pSVar13,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+        pSVar14 = "None";
+        if (bVar8) {
+          pSVar13 = (*(effect->klass->vtable)._7_get_Item.methodPtr)
+                              (effect,(MethodInfo *)"type");
+          if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df621c;
+          pSVar1 = pSVar13->klass;
+          pSVar14 = (System_String_o *)
+                    (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                              (pSVar13,(UnityEngine_GameObject_o *)
+                                       (pSVar1->vtable)._9_SetUnhandledAttributes.method,(MethodInfo *)pSVar1)
+          ;
         }
       }
     }
   }
   else {
-    __this_01 = *(PatreonEffects_NameEffectLabel_o **)
-                 &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-    if (__this_01 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-      bVar20 = 0;
-      PatreonEffects_NameEffectLabel__ClearNameEffect(__this_01,(MethodInfo *)0x0);
-      lVar16 = *(long *)&(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-      if (lVar16 != 0) {
-        effect_00 = &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._richText;
-        color.fields.b = 1.0;
-        color.fields.a = 1.0;
-        color.fields.r = 1.0;
-        color.fields.g = 1.0;
-        Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ClearEffect
-                  (*(TMPro_TMP_Text_o **)(lVar16 + 0x60),(PatreonEffects_NameEffectController_o **)effect_00,
-                   color,(MethodInfo *)0x0);
-        uVar10 = Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyImage
-                           (*(UnityEngine_UI_Image_o **)
-                             &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._color.fields.a,
-                            (System_String_o *)presetId,(MethodInfo *)0x0);
-        bVar19 = (byte)uVar10;
-        bVar20 = bVar19;
-        Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__SetGuildRowSpacing
-                  ((Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *)text,uVar10 & 0xff,method_00);
-        __this_01 = *(PatreonEffects_NameEffectLabel_o **)
-                     &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-        if (__this_01 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-          bVar20 = 0;
-          pUVar13 = UnityEngine_Component__get_gameObject
-                              ((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
-          if (pUVar13 != (UnityEngine_GameObject_o *)0x0) {
-            UnityEngine_GameObject__SetActive(pUVar13,(uint)(bVar19 ^ 1),(MethodInfo *)0x0);
-            if (bVar19 != 0) {
-              return;
-            }
-            __this_00 = *(PatreonEffects_NameEffectLabel_o **)
-                         &(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-            pSVar15 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-            bVar20 = 0;
-            __this_01 = presetId;
-            pSVar14 = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label
-                                ((System_String_o *)presetId,(MethodInfo *)0x0);
-            if (__this_00 != (PatreonEffects_NameEffectLabel_o *)0x0) {
-              PatreonEffects_NameEffectLabel__SetText
-                        (__this_00,pSVar15,pSVar14,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
-                         (MethodInfo *)0x0);
-              bVar20 = (byte)pSVar15;
-              lVar16 = *(long *)&(((PatreonEffects_NameEffectLabel_o *)text)->fields)._fontSize;
-              __this_01 = __this_00;
-              if (lVar16 != 0) {
-                label_00 = *(TMPro_TMP_Text_o **)(lVar16 + 0x60);
-                pSVar15 = Gisketch_Aottg2UI_Game_AottgGuildPresetCatalog__Label
-                                    ((System_String_o *)presetId,(MethodInfo *)0x0);
-                color_00.fields.b = 1.0;
-                color_00.fields.a = 1.0;
-                color_00.fields.r = 1.0;
-                color_00.fields.g = 1.0;
-                Gisketch_Aottg2UI_Game_AottgGuildPresetVisual__ApplyText
-                          (label_00,(PatreonEffects_NameEffectController_o **)effect_00,
-                           (System_String_o *)presetId,pSVar15,color_00,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-      }
+    cVar10 = '\0';
+    if (!liveDialog) goto label_181df5f1f;
+    if (name) goto label_181df6032;
+label_181df5ed1:
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
     }
+    pSVar14 = Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__GuildEffectType((MethodInfo *)0x0);
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed21 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed21 = '\x01';
-  }
-  pSVar15 = (__this_01->fields)._name;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0;
-  pMVar21 = (MethodInfo *)0x0;
-  bVar9 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)pSVar15,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar9 != '\0') {
-    pSVar15 = (__this_01->fields)._name;
-    if (pSVar15 == (System_String_o *)0x0) goto label_04504699;
-    __this = (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)
-             UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)pSVar15,MethodInfo_HorizontalLayoutGroup_GetComponent_HorizontalLayoutGroup);
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pMVar21 = (MethodInfo *)0x0;
-  bVar9 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar9 == '\0') {
-    return;
-  }
-  if (__this != (UnityEngine_UI_HorizontalOrVerticalLayoutGroup_o *)0x0) {
-    if (bVar20 == 0) {
-      value = 5.0;
-    }
-    else {
-      value = 3.5;
-    }
-    UnityEngine_UI_HorizontalOrVerticalLayoutGroup__set_spacing(__this,value,(MethodInfo *)0x0);
-    return;
-  }
-label_04504699:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aedac == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild-effect");
-    g_data_057aedac = '\x01';
-    iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
+  local_res8[0] = 0;
+  if (cVar9 == '\0') {
+    pSVar14 = (pGVar12->fields).Text;
+    prefix = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
   else {
-    iVar1 = *(int *)((long)&TypeInfo_AottgEditCharacterDialog[2].parameters + 4);
+    bVar11 = PatreonEffects_NameEffectPresets__TryResolve(pSVar14,local_res8,(MethodInfo *)0x0);
+    pSVar14 = (pGVar12->fields).Text;
+    prefix = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+    bVar8 = true;
+    if (bVar11) goto label_181df60bf;
   }
-  if (iVar1 != 0) {
-    Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",pMVar21);
-    return;
+  bVar8 = false;
+  pSVar14 = Gisketch_Aottg2UI_Game_AottgCharacterTextColorCodec__RichText
+                      (pSVar14,(System_Collections_Generic_IList_string__o *)(pGVar12->fields).Colors,
+                       (MethodInfo *)0x0);
+label_181df60bf:
+  PatreonEffects_NameEffectLabel__SetText
+            (label,prefix,pSVar14,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),(MethodInfo *)0x0
+            );
+  effect_00 = local_res8[0];
+  if (bVar8) {
+    pUVar15 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
+                        ((UnityEngine_Color_o *)local_68,liveDialog,name,effect,0,(MethodInfo *)0x0);
+    uVar2._0_4_ = (pUVar15->fields).r;
+    uVar2._4_4_ = (pUVar15->fields).g;
+    uVar3._0_4_ = (pUVar15->fields).b;
+    uVar3._4_4_ = (pUVar15->fields).a;
+    pUVar15 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
+                        ((UnityEngine_Color_o *)local_68,liveDialog,name,effect,1,(MethodInfo *)0x0);
+    uVar4._0_4_ = (pUVar15->fields).r;
+    uVar4._4_4_ = (pUVar15->fields).g;
+    uVar5._0_4_ = (pUVar15->fields).b;
+    uVar5._4_4_ = (pUVar15->fields).a;
+    pUVar15 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
+                        ((UnityEngine_Color_o *)local_68,liveDialog,name,effect,2,(MethodInfo *)0x0);
+    uVar6._0_4_ = (pUVar15->fields).r;
+    uVar6._4_4_ = (pUVar15->fields).g;
+    uVar7._0_4_ = (pUVar15->fields).b;
+    uVar7._4_4_ = (pUVar15->fields).a;
+    pUVar15 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
+                        ((UnityEngine_Color_o *)local_68,liveDialog,name,effect,3,(MethodInfo *)0x0);
+    local_98.r = (pUVar15->fields).r;
+    local_98.g = (pUVar15->fields).g;
+    local_98.b = (pUVar15->fields).b;
+    local_98.a = (pUVar15->fields).a;
+    local_88._0_8_ = uVar6;
+    local_88._8_8_ = uVar7;
+    local_78._0_8_ = uVar4;
+    local_78._8_8_ = uVar5;
+    local_68[0]._0_8_ = uVar2;
+    local_68[0]._8_8_ = uVar3;
+    PatreonEffects_NameEffectLabel__SetNameEffect
+              (label,effect_00,(UnityEngine_Color_o *)local_68,(UnityEngine_Color_o *)&local_78,
+               (UnityEngine_Color_o *)&local_88,(UnityEngine_Color_o *)&local_98,(MethodInfo *)0x0);
   }
-  il2cpp_runtime_helper_02337ed0();
-  Gisketch_Aottg2UI_Game_AottgEditCharacterDialog__EffectEnabled("profile-character-guild-effect",pMVar21);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Font
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font (SimpleJSONFixed_JSONNode_o* info, System_String_o* key, const MethodInfo* method);
-// 0x4503ad0
+// 0x181df7170
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181df7264: mov rbx, qword ptr [rip + 0x22a69fd]  ; "Normal"
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Font
           (SimpleJSONFixed_JSONNode_o *info,System_String_o *key,MethodInfo *method)
 
 {
-  int iVar1;
-  char cVar2;
-  bool_conflict bVar3;
-  SimpleJSONFixed_JSONNode_o *a;
-  long *plVar4;
-  System_String_o *pSVar5;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  bool bVar2;
+  System_Xml_Schema_XmlSchema_o *pSVar3;
+  System_String_o *pSVar4;
   
-  if (g_data_057aed24 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_NameFontCatalog);
-    il2cpp_runtime_helper_023445d0(&"Normal");
-    g_data_057aed24 = '\x01';
+  if (Il2CppMethodInitialized_184344b8c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_NameFontCatalog);
+    il2cpp_codegen_initialize_runtime_metadata(&"Normal");
+    Il2CppMethodInitialized_184344b8c = '\x01';
   }
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
   }
-  bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  bVar2 = SimpleJSONFixed_JSONNode__op_Inequality(info,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+  pSVar4 = "Normal";
+  if (bVar2) {
     if (info == (SimpleJSONFixed_JSONNode_o *)0x0) {
-label_04503c00:
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057aedaf == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_NameFontCatalog);
-        il2cpp_runtime_helper_023445d0();
-        g_data_057aedaf = '\x01';
-        bVar3 = PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess((MethodInfo *)0x0);
-        cVar2 = (char)bVar3;
-      }
-      else {
-        bVar3 = PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess((MethodInfo *)0x0);
-        cVar2 = (char)bVar3;
-      }
-      if (cVar2 != '\0') {
-        if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar5 = *(System_String_o **)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 0x20);
-        if (*(int *)(TypeInfo_NameFontCatalog + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar5 = PatreonEffects_NameFontCatalog__Normalize(pSVar5,(MethodInfo *)0x0);
-          return pSVar5;
-        }
-        pSVar5 = PatreonEffects_NameFontCatalog__Normalize(pSVar5,(MethodInfo *)0x0);
-        return pSVar5;
-      }
-      return "Normal";
+label_181df7294:
+      ThrowNullReferenceException();
     }
-    a = (SimpleJSONFixed_JSONNode_o *)
-        (*(info->klass->vtable)._7_get_Item.methodPtr)(info,key,(info->klass->vtable)._7_get_Item.method);
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pSVar3 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)key);
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
     }
-    bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      plVar4 = (long *)(*(info->klass->vtable)._7_get_Item.methodPtr)
-                                 (info,key,(info->klass->vtable)._7_get_Item.method);
-      if (plVar4 == (long *)0x0) goto label_04503c00;
-      pSVar5 = (System_String_o *)(**(code **)(*plVar4 + 0x1c8))(plVar4);
-      iVar1 = *(int *)(TypeInfo_NameFontCatalog + 0xe4);
-      goto joined_r0x04503be4;
+    bVar2 = SimpleJSONFixed_JSONNode__op_Inequality
+                      ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    pSVar4 = "Normal";
+    if (bVar2) {
+      pSVar3 = (*(info->klass->vtable)._7_get_Item.methodPtr)(info,(MethodInfo *)key);
+      if (pSVar3 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df7294;
+      pSVar1 = pSVar3->klass;
+      pSVar4 = (System_String_o *)
+               (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                         (pSVar3,(UnityEngine_GameObject_o *)(pSVar1->vtable)._9_SetUnhandledAttributes.method
+                          ,(MethodInfo *)pSVar1);
     }
   }
-  iVar1 = *(int *)(TypeInfo_NameFontCatalog + 0xe4);
-  pSVar5 = "Normal";
-joined_r0x04503be4:
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_PatreonEffects_NameFontCatalog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_NameFontCatalog);
   }
-  pSVar5 = PatreonEffects_NameFontCatalog__Normalize(pSVar5,(MethodInfo *)0x0);
-  return pSVar5;
+  pSVar4 = PatreonEffects_NameFontCatalog__Normalize(pSVar4,(MethodInfo *)0x0);
+  return pSVar4;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$ColorValue
 // il2cpp: UnityEngine_Color_o Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue (bool liveDialog, bool name, SimpleJSONFixed_JSONNode_o* effect, int32_t index, const MethodInfo* method);
-// 0x4504cc0
+// 0x181df6230
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181df6493: mov rax, qword ptr [rip + 0x22b4256]  ; "#FFFFFFFF"
 
-UnityEngine_Color_o
+UnityEngine_Color_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__ColorValue
-          (bool_conflict liveDialog,bool_conflict name,SimpleJSONFixed_JSONNode_o *effect,int32_t index,
-          MethodInfo *method)
+          (UnityEngine_Color_o *__return_storage_ptr__,bool liveDialog,bool name,
+          SimpleJSONFixed_JSONNode_o *effect,int32_t index,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 *puVar2;
+  bool bVar1;
+  System_String_o *str2;
+  System_String_o *pSVar2;
+  System_Xml_Schema_XmlSchema_o *pSVar3;
   SimpleJSONFixed_JSONNode_o *a;
-  long *plVar3;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  int32_t iVar6;
-  undefined8 uVar7;
-  float fVar8;
-  undefined4 extraout_XMM0_Da;
-  float fVar9;
-  undefined4 extraout_XMM0_Db;
-  undefined8 in_XMM1_Qa;
-  UnityEngine_Color_o UVar10;
-  UnityEngine_Color_o UVar11;
-  int32_t iStack_54;
-  SimpleJSONFixed_JSONNode_o *pSStack_50;
-  int32_t local_3c;
+  longlong *plVar4;
+  int32_t local_res10 [6];
   UnityEngine_Color_Fields local_38;
   
-  a = (SimpleJSONFixed_JSONNode_o *)(ulong)(uint)liveDialog;
-  if (g_data_057aed25 == '\0') {
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504ceb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504cf7;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUIColorPicker);
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d03;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d0f;
-    il2cpp_runtime_helper_023445d0(&"#FFFFFFFF");
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d1b;
-    il2cpp_runtime_helper_023445d0(&"colors");
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d27;
-    il2cpp_runtime_helper_023445d0(&"profile-character-name-effect");
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d33;
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild-effect");
-    g_data_057aed25 = '\x01';
+  if (Il2CppMethodInitialized_184344b8d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&"#FFFFFFFF");
+    il2cpp_codegen_initialize_runtime_metadata(&"colors");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-character-name-effect");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-character-guild-effect");
+    Il2CppMethodInitialized_184344b8d = '\x01';
   }
   local_38.r = 0.0;
   local_38.g = 0.0;
   local_38.b = 0.0;
   local_38.a = 0.0;
-  if ((char)liveDialog == '\0') {
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d74;
-      il2cpp_runtime_helper_02337ed0();
+  if (liveDialog) {
+    pSVar2 = "profile-character-guild-effect";
+    if (name) {
+      pSVar2 = "profile-character-name-effect";
     }
-    iVar6 = 0;
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504d80;
-    pSVar5 = (System_String_o *)effect;
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgEditCharacterDialog);
+    }
+    local_res10[0] = index;
+    if (Il2CppMethodInitialized_184344c28 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"-color-");
+      Il2CppMethodInitialized_184344c28 = '\x01';
+    }
+    str2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+    pSVar2 = System_String__Concat_1969b70(pSVar2,"-color-",str2,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
+    }
+    pSVar2 = Gisketch_Aottg2UI_Code_GisketchUIColorPicker__Value
+                       (pSVar2,"#FFFFFFFF",true,(MethodInfo *)0x0);
+  }
+  else {
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+    }
     bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(effect,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-    pSVar4 = "#FFFFFFFF";
-    if ((char)bVar1 != '\0') {
-      if (effect != (SimpleJSONFixed_JSONNode_o *)0x0) {
-        pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504daf;
+    pSVar2 = "#FFFFFFFF";
+    if (bVar1) {
+      if (effect == (SimpleJSONFixed_JSONNode_o *)0x0) {
+label_181df64e6:
+        ThrowNullReferenceException();
+      }
+      pSVar3 = (*(effect->klass->vtable)._7_get_Item.methodPtr)(effect,(MethodInfo *)"colors");
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+      }
+      bVar1 = SimpleJSONFixed_JSONNode__op_Inequality
+                        ((SimpleJSONFixed_JSONNode_o *)pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+      pSVar2 = "#FFFFFFFF";
+      if (bVar1) {
+        pSVar3 = (*(effect->klass->vtable)._7_get_Item.methodPtr)(effect,(MethodInfo *)"colors");
+        if (pSVar3 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181df64e6;
         a = (SimpleJSONFixed_JSONNode_o *)
-            (*(effect->klass->vtable)._7_get_Item.methodPtr)
-                      (effect,"colors",(effect->klass->vtable)._7_get_Item.method);
-        if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-          pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504dc4;
-          il2cpp_runtime_helper_02337ed0();
+            (*(pSVar3->klass->vtable)._5_OnRemove.methodPtr)
+                      (pSVar3,(System_Type_o *)(ulonglong)(uint)index,
+                       (pSVar3->klass->vtable)._5_OnRemove.method);
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
         }
-        pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504dd0;
         bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-        pSVar4 = "#FFFFFFFF";
-        if ((char)bVar1 == '\0') goto label_04504f35;
-        pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504def;
-        uVar7 = "colors";
-        pSVar5 = (System_String_o *)effect;
-        plVar3 = (long *)(*(effect->klass->vtable)._7_get_Item.methodPtr)
-                                   (effect,"colors",(effect->klass->vtable)._7_get_Item.method);
-        iVar6 = (int32_t)uVar7;
-        if (plVar3 != (long *)0x0) {
-          pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e0e;
-          a = (SimpleJSONFixed_JSONNode_o *)
-              (**(code **)(*plVar3 + 0x188))(plVar3,index,*(undefined8 *)(*plVar3 + 400));
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e23;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e2f;
-          bVar1 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-          pSVar4 = "#FFFFFFFF";
-          if ((char)bVar1 == '\0') goto label_04504f35;
-          pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e4a;
-          uVar7 = "colors";
-          pSVar4 = (System_String_o *)
-                   (*(effect->klass->vtable)._7_get_Item.methodPtr)
-                             (effect,"colors",(effect->klass->vtable)._7_get_Item.method);
-          iVar6 = (int32_t)uVar7;
-          pSVar5 = (System_String_o *)effect;
-          if (pSVar4 != (System_String_o *)0x0) {
-            pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e69;
-            iVar6 = index;
-            plVar3 = (long *)(*(((SimpleJSONFixed_JSONNode_c *)pSVar4->klass)->vtable)._5_get_Item.methodPtr)
-                                       (pSVar4,(ulong)(uint)index,
-                                        (((SimpleJSONFixed_JSONNode_c *)pSVar4->klass)->vtable)._5_get_Item.
-                                        method);
-            pSVar5 = pSVar4;
-            if (plVar3 != (long *)0x0) {
-              pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504e85;
-              pSVar4 = (System_String_o *)
-                       (**(code **)(*plVar3 + 0x1c8))(plVar3,*(undefined8 *)(*plVar3 + 0x1d0));
-              goto label_04504f35;
-            }
-          }
+        pSVar2 = "#FFFFFFFF";
+        if (bVar1) {
+          pSVar3 = (*(effect->klass->vtable)._7_get_Item.methodPtr)
+                             (effect,(MethodInfo *)"colors");
+          if ((pSVar3 == (System_Xml_Schema_XmlSchema_o *)0x0) ||
+             (plVar4 = (longlong *)
+                       (*(pSVar3->klass->vtable)._5_OnRemove.methodPtr)
+                                 (pSVar3,(System_Type_o *)(ulonglong)(uint)index,
+                                  (pSVar3->klass->vtable)._5_OnRemove.method), plVar4 == (longlong *)0x0))
+          goto label_181df64e6;
+          pSVar2 = (System_String_o *)(**(code **)(*plVar4 + 0x1c8))(plVar4,*(undefined8 *)(*plVar4 + 0x1d0));
         }
       }
-      pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504f8b;
-      il2cpp_runtime_helper_022b2c90();
-      iStack_54 = iVar6;
-      pSStack_50 = a;
-      if (g_data_057aedba == '\0') {
-        il2cpp_runtime_helper_023445d0(&"-color-");
-        g_data_057aedba = '\x01';
-      }
-      pSVar4 = System_Int32__ToString((int32_t)&iStack_54,(MethodInfo *)0x0);
-      System_String__Concat_3af7150(pSVar5,"-color-",pSVar4,(MethodInfo *)0x0);
-      UVar11.fields.g = (float)extraout_XMM0_Db;
-      UVar11.fields.r = (float)extraout_XMM0_Da;
-      UVar11.fields.b = (float)(int)in_XMM1_Qa;
-      UVar11.fields.a = (float)(int)((ulong)in_XMM1_Qa >> 0x20);
-      return (UnityEngine_Color_o)UVar11.fields;
     }
   }
-  else {
-    if ((char)name == '\0') {
-      puVar2 = &"profile-character-guild-effect";
-    }
-    else {
-      puVar2 = &"profile-character-name-effect";
-    }
-    pSVar5 = (System_String_o *)*puVar2;
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-      pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504f6f;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    local_3c = index;
-    if (g_data_057aedba == '\0') {
-      pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504ed4;
-      il2cpp_runtime_helper_023445d0(&"-color-");
-      g_data_057aedba = '\x01';
-    }
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504ee7;
-    pSVar4 = System_Int32__ToString((int32_t)&local_3c,(MethodInfo *)0x0);
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504efe;
-    pSVar5 = System_String__Concat_3af7150(pSVar5,"-color-",pSVar4,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_GisketchUIColorPicker + 0xe4) == 0) {
-      pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504f19;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504f32;
-    pSVar4 = Gisketch_Aottg2UI_Code_GisketchUIColorPicker__Value(pSVar5,"#FFFFFFFF",1,(MethodInfo *)0x0);
-  }
-label_04504f35:
-  pSStack_50 = (SimpleJSONFixed_JSONNode_o *)0x4504f41;
   bVar1 = UnityEngine_ColorUtility__TryParseHtmlString
-                    (pSVar4,(UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    fVar8 = (float)g_data_00d19fc0;
-    fVar9 = g_data_00d19fc0._4_4_;
-    local_38._8_8_ = g_data_00d19fc0;
+                    (pSVar2,(UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0);
+  if (!bVar1) {
+    (__return_storage_ptr__->fields).r = 1.0;
+    (__return_storage_ptr__->fields).g = 1.0;
+    (__return_storage_ptr__->fields).b = 1.0;
+    (__return_storage_ptr__->fields).a = 1.0;
+    return __return_storage_ptr__;
   }
-  else {
-    fVar8 = local_38.r;
-    fVar9 = local_38.g;
-  }
-  UVar10.fields.g = fVar9;
-  UVar10.fields.r = fVar8;
-  UVar10.fields.b = local_38.b;
-  UVar10.fields.a = local_38.a;
-  return (UnityEngine_Color_o)UVar10.fields;
+  (__return_storage_ptr__->fields).r = local_38.r;
+  (__return_storage_ptr__->fields).g = local_38.g;
+  (__return_storage_ptr__->fields).b = local_38.b;
+  (__return_storage_ptr__->fields).a = local_38.a;
+  return __return_storage_ptr__;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Input
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input (UnityEngine_Transform_o* root, System_String_o* id, System_String_o* fallback, const MethodInfo* method);
-// 0x4503500
+// 0x181df72a0
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
           (UnityEngine_Transform_o *root,System_String_o *id,System_String_o *fallback,MethodInfo *method)
 
 {
-  char cVar1;
-  int iVar2;
-  code *vtableDispatch;
-  bool_conflict bVar3;
-  UnityEngine_Object_o *x;
-  Il2CppMethodPointer pIVar4;
-  System_String_o *pSVar5;
-  SimpleJSONFixed_JSONNode_o *a;
-  MethodInfo *pMVar6;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  UnityEngine_Object_Fields *pUVar7;
-  long *plVar8;
-  System_String_o *pSVar9;
-  UnityEngine_Object_o *key;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  System_String_o *a_00;
-  void *in_R8;
-  undefined1 auVar10 [16];
-  System_String_o *pSStack_38;
-  UnityEngine_Object_o *pUStack_30;
-  System_String_o *pSStack_28;
-  System_String_o *pSStack_20;
+  bool bVar1;
+  TMPro_TMP_InputField_o *x;
   
-  if (g_data_057aed26 == '\0') {
-    pSStack_20 = (System_String_o *)0x4503523;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TMP_InputField_Find_TMP_InputField);
-    pSStack_20 = (System_String_o *)0x450352f;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057aed26 = '\x01';
+  if (Il2CppMethodInitialized_184344b8e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_Find_TMP_InputField);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344b8e = '\x01';
   }
-  pSStack_20 = (System_String_o *)0x450354b;
-  x = (UnityEngine_Object_o *)
-      Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_(root,id,MethodInfo_TMP_InputField_Find_TMP_InputField);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    pSStack_20 = (System_String_o *)0x4503566;
-    il2cpp_runtime_helper_02337ed0();
+  x = Gisketch_Aottg2UI_Code_GisketchGridPicker__Find_object_
+                (root,id,(MethodInfo_68B2C0 *)
+                         MethodInfo_Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_Find_TMP_InputField
+                );
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pSVar5 = (System_String_o *)0x0;
-  pSStack_20 = (System_String_o *)0x4503572;
-  key = x;
-  bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    if (fallback != (System_String_o *)0x0) {
-      return fallback;
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (x != (TMPro_TMP_InputField_o *)0x0) {
+      return (x->fields).m_Text;
     }
-    pUVar7 = *(UnityEngine_Object_Fields **)(g_data_057b9c00 + 0xb8);
-label_0450359e:
-    return (System_String_o *)pUVar7->m_CachedPtr;
+    ThrowNullReferenceException();
   }
-  if (x != (UnityEngine_Object_o *)0x0) {
-    pUVar7 = &x[0x16].fields;
-    goto label_0450359e;
+  if (fallback != (System_String_o *)0x0) {
+    return fallback;
   }
-  pSStack_20 = (System_String_o *)0x45035af;
-  il2cpp_runtime_helper_022b2c90();
-  pSVar9 = pSVar5;
-  pUStack_30 = x;
-  pSStack_28 = fallback;
-  pSStack_20 = id;
-  if (g_data_057aed90 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCharacterTextField);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    g_data_057aed90 = '\x01';
-  }
-  pSStack_38 = (System_String_o *)0x0;
-  if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_AottgCharacterTextField + 0xb8);
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar3 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      (__this,(Il2CppObject *)key,(Il2CppObject **)&pSStack_38,MethodInfo_Boolean_TryGetValue);
-    if (((char)bVar3 == '\0') && (pSStack_38 = pSVar5, pSVar5 == (System_String_o *)0x0)) {
-      pSStack_38 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    return pSStack_38;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed1f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCharacterTextField);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    il2cpp_runtime_helper_023445d0(&"guild");
-    il2cpp_runtime_helper_023445d0(&"profile-character-guild");
-    g_data_057aed1f = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_04503735;
-label_0450369b:
-    if (g_data_057ae856 != '\0') goto label_045036a8;
-label_04503747:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    g_data_057ae856 = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_0450376a;
-label_045036b8:
-    cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-  }
-  else {
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_0450369b;
-label_04503735:
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae856 == '\0') goto label_04503747;
-label_045036a8:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_045036b8;
-label_0450376a:
-    il2cpp_runtime_helper_02337ed0();
-    cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-  }
-  if (cVar1 != '\0') {
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  plVar8 = &TypeInfo_AottgEditCharacterDialog;
-  if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aeda8 == '\0') goto label_045037d1;
-label_0450379c:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) != 0) goto label_045037a8;
-label_045037f0:
-    il2cpp_runtime_helper_02337ed0();
-    if (*(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8) == '\0') goto label_0450380c;
-label_045037b5:
-    plVar8 = &g_data_057b9c00;
-  }
-  else {
-    if (g_data_057aeda8 != '\0') goto label_0450379c;
-label_045037d1:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-    g_data_057aeda8 = '\x01';
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) goto label_045037f0;
-label_045037a8:
-    if (*(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8) != '\0') goto label_045037b5;
-label_0450380c:
-    if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-  }
-  pSVar5 = (System_String_o *)**(undefined8 **)(*plVar8 + 0xb8);
-  a_00 = pSVar5;
-  bVar3 = System_String__IsNullOrEmpty(pSVar5,(MethodInfo *)0x0);
-  if ((char)bVar3 == '\0') {
-    pSVar5 = Gisketch_Aottg2UI_Game_AottgProfileEntitlementCatalog__PresetGuildLabel(pSVar5,(MethodInfo *)0x0)
-    ;
-    return pSVar5;
-  }
-  if (pSVar9 != (System_String_o *)0x0) {
-    auVar10 = (*(pSVar9->klass->vtable)._7_CompareTo.methodPtr)
-                        (pSVar9,"guild",(pSVar9->klass->vtable)._7_CompareTo.method);
-    pIVar4 = auVar10._0_8_;
-    a_00 = pSVar9;
-    if (pIVar4 != (Il2CppMethodPointer)0x0) {
-      pMVar6 = *(MethodInfo **)pIVar4;
-      pSVar5 = (System_String_o *)
-               (*pMVar6[5].invoker_method)
-                         (pIVar4,(MethodInfo *)pMVar6[5].name,auVar10._8_8_,&pMVar6->methodPointer,in_R8);
-      pSVar5 = Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Input
-                         ((UnityEngine_Transform_o *)__this,"profile-character-guild",pSVar5,pMVar6);
-      pMVar6 = extraout_RDX;
-      if (*(int *)(TypeInfo_AottgCharacterTextField + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pMVar6 = extraout_RDX_00;
-      }
-      pSVar5 = Gisketch_Aottg2UI_Game_AottgCharacterTextField__Value("profile-character-guild",pSVar5,pMVar6);
-      return pSVar5;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aed22 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&"guildPresetId");
-    g_data_057aed22 = '\x01';
-  }
-  if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = SimpleJSONFixed_JSONNode__op_Inequality
-                    ((SimpleJSONFixed_JSONNode_o *)a_00,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    if (a_00 != (System_String_o *)0x0) {
-      a = (SimpleJSONFixed_JSONNode_o *)
-          (*(a_00->klass->vtable)._7_CompareTo.methodPtr)
-                    (a_00,"guildPresetId",(a_00->klass->vtable)._7_CompareTo.method);
-      if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar3 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 == '\0') goto label_045039b7;
-      plVar8 = (long *)(*(a_00->klass->vtable)._7_CompareTo.methodPtr)
-                                 (a_00,"guildPresetId",(a_00->klass->vtable)._7_CompareTo.method);
-      if (plVar8 != (long *)0x0) {
-        vtableDispatch = *(code **)(*plVar8 + 0x1c8);
-        pSVar5 = (System_String_o *)
-                 (*vtableDispatch)(plVar8,*(undefined8 *)(*plVar8 + 0x1d0),vtableDispatch);
-        return pSVar5;
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aeda8 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgEditCharacterDialog);
-      g_data_057aeda8 = '\x01';
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    else {
-      iVar2 = *(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4);
-    }
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    else {
-      cVar1 = *(char *)(*(long *)(TypeInfo_AottgEditCharacterDialog + 0xb8) + 8);
-    }
-    if (cVar1 == '\0') {
-      plVar8 = &TypeInfo_AottgEditCharacterDialog;
-      if (*(int *)(TypeInfo_AottgEditCharacterDialog + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-    }
-    else {
-      plVar8 = &g_data_057b9c00;
-    }
-    return (System_String_o *)**(undefined8 **)(*plVar8 + 0xb8);
-  }
-label_045039b7:
-  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$Find<object>
-// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_ (UnityEngine_Transform_o* root, System_String_o* id, const MethodInfo_253CE80* method);
-// 0x263ce80
+// il2cpp: Il2CppObject* Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_ (UnityEngine_Transform_o* root, System_String_o* id, const MethodInfo_68B2C0* method);
+// 0x18068b2c0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18068b3d8: mov rax, rdi
+// asm:   0x18068b3db: jmp 0x18068b3df
 
-Il2CppObject *
-Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_
-          (UnityEngine_Transform_o *root,System_String_o *id,MethodInfo_253CE80 *method)
+Il2CppObject*
+Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime__Find_object_(UnityEngine_Transform_o* root, System_String_o* id, MethodInfo_68B2C0* method)
 
 {
-  int iVar1;
-  uint uVar2;
-  System_Object_array *pSVar3;
-  Il2CppClass *pIVar4;
-  bool_conflict bVar5;
-  System_Object_array *pSVar6;
-  UnityEngine_Object_o *pUVar7;
-  System_Object_array *pSVar8;
-  undefined8 uVar9;
-  System_RuntimeTypeHandle_Fields *pSVar10;
-  System_Type_o *pSVar11;
-  long lVar12;
-  long lVar13;
-  Il2CppObject *pIVar14;
-  Il2CppObject *pIVar15;
-  long extraout_RDX;
-  ulong unaff_RBX;
-  System_String_o *b;
-  System_String_o *pSVar16;
-  System_Type_o *pSVar17;
-  System_RuntimeTypeHandle_o handle;
-  undefined8 in_R8;
-  undefined8 in_R9;
+  UnityEngine_Object_o *x;
+  bool bVar1;
+  System_Object_array *pSVar2;
+  UnityEngine_Object_o *__this;
+  System_String_o *a;
+  uint uVar3;
   
-  if ((method->rgctx_data == (MethodInfo_253CE80_RGCTXs *)0x0) &&
-     (il2cpp_runtime_helper_023445d0(&TypeInfo_Object), method->rgctx_data == (MethodInfo_253CE80_RGCTXs *)0x0)) {
-    il2cpp_runtime_helper_02300a20(method);
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
+  if ((method->rgctx_data == (MethodInfo_68B2C0_RGCTXs *)0x0) &&
+     (il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object),
+     method->rgctx_data == (MethodInfo_68B2C0_RGCTXs *)0x0)) {
+    il2cpp_codegen_rgctx_method_init((MethodInfo *)method);
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Equality
+  bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    return &((System_Object_array *)0x0)->obj;
-  }
-  b = (System_String_o *)0x0;
-  pSVar8 = (System_Object_array *)id;
-  bVar5 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    return &((System_Object_array *)0x0)->obj;
-  }
-  if (root == (UnityEngine_Transform_o *)0x0) {
-label_0263cfec:
-    il2cpp_runtime_helper_022b2c90();
-    root = (UnityEngine_Transform_o *)pSVar8;
-  }
-  else {
-    b = (System_String_o *)0x1;
-    pSVar6 = UnityEngine_Component__GetComponentsInChildren_object_
-                       ((UnityEngine_Component_o *)root,1,
-                        (MethodInfo_24E85B0 *)
-                        method->rgctx_data->_1_UnityEngine_Component_GetComponentsInChildren_T_);
-    pSVar8 = (System_Object_array *)root;
-    if (pSVar6 == (System_Object_array *)0x0) goto label_0263cfec;
-    if ((int)pSVar6->max_length < 1) {
-      return &((System_Object_array *)0x0)->obj;
+  if ((!bVar1) && (bVar1 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0), !bVar1)) {
+    if ((root == (UnityEngine_Transform_o *)0x0) ||
+       (pSVar2 = UnityEngine_Component__GetComponentsInChildren_object_
+                           ((UnityEngine_Component_o *)root,true,
+                            (MethodInfo_665440 *)
+                            method->rgctx_data->_1_UnityEngine_Component_GetComponentsInChildren_T_),
+       pSVar2 == (System_Object_array *)0x0)) {
+label_18068b3fa:
+      ThrowNullReferenceException();
     }
-    unaff_RBX = 0;
-    if ((pSVar6->max_length & 0xffffffff) != 0) {
-      do {
-        pSVar3 = (System_Object_array *)pSVar6->m_Items[unaff_RBX];
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        b = (System_String_o *)0x0;
-        pSVar8 = pSVar3;
-        bVar5 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pSVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar5 != '\0') {
-          if (pSVar3 == (System_Object_array *)0x0) goto label_0263cfec;
-          b = (System_String_o *)0x0;
-          pSVar8 = pSVar3;
-          pUVar7 = (UnityEngine_Object_o *)
-                   UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pSVar3,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Object_o *)0x0) goto label_0263cfec;
-          pSVar8 = (System_Object_array *)UnityEngine_Object__get_name(pUVar7,(MethodInfo *)0x0);
-          b = id;
-          bVar5 = System_String__op_Equality((System_String_o *)pSVar8,id,(MethodInfo *)0x0);
-          if ((char)bVar5 != '\0') {
-            return &pSVar3->obj;
-          }
-        }
-        unaff_RBX = unaff_RBX + 1;
-        uVar2 = (uint)pSVar6->max_length;
-        if ((long)(int)uVar2 <= (long)unaff_RBX) {
-          return &((System_Object_array *)0x0)->obj;
-        }
-        root = (UnityEngine_Transform_o *)pSVar8;
-      } while (unaff_RBX < uVar2);
-    }
-  }
-  il2cpp_runtime_helper_022b2ca0();
-  if ((*(long *)(extraout_RDX + 0x38) == 0) &&
-     (il2cpp_runtime_helper_023445d0(&TypeInfo_Object), *(long *)(extraout_RDX + 0x38) == 0)) {
-    il2cpp_runtime_helper_02300a20(extraout_RDX);
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar16 = (System_String_o *)0x0;
-  pSVar8 = (System_Object_array *)root;
-  bVar5 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    return &((System_Object_array *)0x0)->obj;
-  }
-  if ((System_Object_array *)root == (System_Object_array *)0x0) {
-label_0263d15c:
-    il2cpp_runtime_helper_022b2c90();
-    pSVar6 = (System_Object_array *)root;
-  }
-  else {
-    pSVar16 = (System_String_o *)0x1;
-    pSVar8 = (System_Object_array *)root;
-    pSVar6 = UnityEngine_Component__GetComponentsInChildren_object_
-                       ((UnityEngine_Component_o *)root,1,
-                        *(MethodInfo_24E85B0 **)(*(long *)(extraout_RDX + 0x38) + 8));
-    if (pSVar6 == (System_Object_array *)0x0) goto label_0263d15c;
-    if ((int)pSVar6->max_length < 1) {
-      return &((System_Object_array *)0x0)->obj;
-    }
-    unaff_RBX = 0;
-    if ((pSVar6->max_length & 0xffffffff) != 0) {
-      do {
-        pSVar3 = (System_Object_array *)pSVar6->m_Items[unaff_RBX];
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar16 = (System_String_o *)0x0;
-        pSVar8 = pSVar3;
-        bVar5 = UnityEngine_Object__op_Inequality
-                          ((UnityEngine_Object_o *)pSVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar5 != '\0') {
-          root = (UnityEngine_Transform_o *)pSVar6;
-          if (pSVar3 == (System_Object_array *)0x0) goto label_0263d15c;
-          pSVar16 = (System_String_o *)0x0;
-          pSVar8 = pSVar3;
-          pUVar7 = (UnityEngine_Object_o *)
-                   UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pSVar3,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Object_o *)0x0) goto label_0263d15c;
-          pSVar8 = (System_Object_array *)UnityEngine_Object__get_name(pUVar7,(MethodInfo *)0x0);
-          pSVar16 = b;
-          bVar5 = System_String__op_Equality((System_String_o *)pSVar8,b,(MethodInfo *)0x0);
-          if ((char)bVar5 != '\0') {
-            return &pSVar3->obj;
-          }
-        }
-        unaff_RBX = unaff_RBX + 1;
-        uVar2 = (uint)pSVar6->max_length;
-        if ((long)(int)uVar2 <= (long)unaff_RBX) {
-          return &((System_Object_array *)0x0)->obj;
-        }
-      } while (unaff_RBX < uVar2);
-    }
-  }
-  uVar9 = il2cpp_runtime_helper_022b2ca0();
-  pSVar10 = pSVar16[2].monitor;
-  lVar12 = extraout_RDX;
-  if (pSVar10 == (System_RuntimeTypeHandle_Fields *)0x0) {
-    il2cpp_runtime_helper_02300a20(pSVar16);
-    pSVar10 = pSVar16[2].monitor;
-  }
-  handle.fields.value = (System_RuntimeTypeHandle_Fields)pSVar10->value;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pSVar17 = (System_Type_o *)0x0;
-  pSVar11 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
-  if ((pSVar8 != (System_Object_array *)0x0) &&
-     (pIVar4 = (pSVar8->obj).klass,
-     lVar12 = (*(((System_String_VTable *)pIVar4->vtable)->_14_System_IConvertible_ToInt16).methodPtr)
-                        (pSVar8,pSVar11,0,
-                         (((System_String_VTable *)pIVar4->vtable)->_14_System_IConvertible_ToInt16).method,
-                         in_R8,in_R9,uVar9,unaff_RBX,lVar12,b,pSVar6), pSVar17 = pSVar11,
-     handle.fields.value = (System_RuntimeTypeHandle_Fields)(System_RuntimeTypeHandle_Fields)pSVar8,
-     lVar12 != 0)) {
-    if (*(long *)(lVar12 + 0x18) != 0) {
-      if ((int)*(long *)(lVar12 + 0x18) == 0) goto label_0263d23f;
-      lVar12 = *(long *)(lVar12 + 0x20);
-      lVar13 = *(long *)((long)pSVar16[2].monitor + 8);
-      if ((*(byte *)(lVar13 + 0x135) & 1) == 0) {
-        lVar13 = il2cpp_runtime_helper_023009c0(lVar13);
+    for (uVar3 = 0; (int)uVar3 < (int)pSVar2->max_length; uVar3 = uVar3 + 1) {
+      if ((uint)pSVar2->max_length <= uVar3) {
+        ThrowIndexOutOfRangeException();
       }
-      if (lVar12 != 0) {
-        pIVar14 = (Il2CppObject *)il2cpp_runtime_helper_023051f0(lVar12,lVar13);
-        if (pIVar14 != (Il2CppObject *)0x0) {
-          return pIVar14;
+      x = (UnityEngine_Object_o *)pSVar2->m_Items[(int)uVar3];
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar1 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((x == (UnityEngine_Object_o *)0x0) ||
+           (__this = (UnityEngine_Object_o *)
+                     UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)x,(MethodInfo *)0x0),
+           __this == (UnityEngine_Object_o *)0x0)) goto label_18068b3fa;
+        a = UnityEngine_Object__get_name(__this,(MethodInfo *)0x0);
+        bVar1 = System_String__op_Equality(a,id,(MethodInfo *)0x0);
+        if (bVar1) {
+          return (Il2CppObject *)x;
         }
-        il2cpp_runtime_helper_022b2fd0(lVar12,lVar13);
       }
     }
-    return (Il2CppObject *)0x0;
-  }
-  pSVar8 = (System_Object_array *)handle.fields.value;
-  pSVar11 = pSVar17;
-  il2cpp_runtime_helper_022b2c90();
-label_0263d23f:
-  il2cpp_runtime_helper_022b2ca0();
-  if (pSVar11[2].monitor == (void *)0x0) {
-    il2cpp_runtime_helper_02300a20(pSVar11);
-  }
-  pIVar14 = System_Activator__CreateInstance_3ce7ba0((System_Type_o *)pSVar8,(MethodInfo *)0x0);
-  lVar12 = *(long *)pSVar11[2].monitor;
-  if ((*(byte *)(lVar12 + 0x135) & 1) == 0) {
-    lVar12 = il2cpp_runtime_helper_023009c0(lVar12);
-  }
-  if (pIVar14 != (Il2CppObject *)0x0) {
-    pIVar15 = (Il2CppObject *)il2cpp_runtime_helper_023051f0(pIVar14,lVar12);
-    if (pIVar15 != (Il2CppObject *)0x0) {
-      return pIVar15;
-    }
-    il2cpp_runtime_helper_022b2fd0(pIVar14,lVar12);
   }
   return (Il2CppObject *)0x0;
 }
@@ -4771,10 +1656,10 @@ label_0263d23f:
 
 // Gisketch.Aottg2UI.Game.AottgCharacterNamePreviewRuntime$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime___ctor (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, const MethodInfo* method);
-// 0x4504ff0
+// 0x180528540
 
-void Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime___ctor
-               (Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o *__this,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime___ctor(Gisketch_Aottg2UI_Game_AottgCharacterNamePreviewRuntime_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

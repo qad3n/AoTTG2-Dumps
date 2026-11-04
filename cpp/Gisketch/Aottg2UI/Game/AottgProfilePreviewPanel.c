@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgProfilePreviewPanel.cs
@@ -8,376 +8,266 @@
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel.<>c$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___cctor (const MethodInfo* method);
-// 0x4528930
+// 0x181e278f0
 
 void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o *__this;
   
-  if (g_data_057aee63 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057aee63 = '\x01';
+  if (Il2CppMethodInitialized_184344cd1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c);
+    Il2CppMethodInitialized_184344cd1 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9,__this);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel.<>c$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___ctor (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o* __this, const MethodInfo* method);
-// 0x45289a0
+// 0x18054c890
 
-void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___ctor
-               (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o *__this,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___ctor(Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel.<>c$$<Build>b__3_1
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___Build_b__3_1 (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* title, const MethodInfo* method);
-// 0x45289b0
+// 0x181e24250
 
 void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c___Build_b__3_1
                (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *title,MethodInfo *method)
 
 {
-  long lVar1;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
-  System_String_o *area;
-  bool_conflict bVar2;
-  UnityEngine_Object_o *x;
-  System_String_o *pSVar3;
-  System_String_o *pSVar4;
-  long *plVar5;
-  int32_t iVar6;
-  undefined1 auVar7 [12];
-  undefined1 in_stack_ffffffffffffff60 [12];
-  int32_t iVar8;
-  System_String_o *pSVar9;
-  System_String_o *pSVar10;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o GStack_68;
-  Gisketch_Aottg2UI_Code_AottgUi_o *pGStack_48;
-  
-  if (g_data_057aee64 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Preview");
-    __this = (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___c_o *)&"profilePreviewTitle";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aee64 = '\x01';
+  if (Il2CppMethodInitialized_184344cd2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Preview");
+    il2cpp_codegen_initialize_runtime_metadata(&"profilePreviewTitle");
+    il2cpp_codegen_initialize_runtime_metadata(&"MainMenu.Profile.Preview");
+    Il2CppMethodInitialized_184344cd2 = '\x01';
   }
   if (title != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Text
-              (title,"Preview","profilePreviewTitle",(System_String_o *)0x0,(System_String_o *)0x0,
-               (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Code_AottgUi__TextKey
+              (title,"MainMenu.Profile.Preview","Preview","profilePreviewTitle",(System_String_o *)0x0,
+               (System_String_o *)0x0,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
+               (MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pGStack_48 = title;
-  if (g_data_057aee6b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TextAsset_Load_TextAsset);
-    il2cpp_runtime_helper_023445d0(&" bytes=");
-    il2cpp_runtime_helper_023445d0(&"ProfilePresetCatalog.LoadJson");
-    g_data_057aee6b = '\x01';
-  }
-  iVar8 = 0;
-  if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
-            (&GStack_68,"ProfilePresetCatalog.LoadJson",(System_String_o *)__this,(MethodInfo *)0x0);
-  x = (UnityEngine_Object_o *)UnityEngine_Resources__Load_object_((System_String_o *)__this,MethodInfo_TextAsset_Load_TextAsset);
-  pSVar9 = GStack_68.fields._area;
-  pSVar10 = GStack_68.fields._detail;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar9 = GStack_68.fields._area;
-    pSVar10 = GStack_68.fields._detail;
-  }
-  iVar6 = 0;
-  bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  area = "ProfilePresetCatalog.LoadJson";
-  pSVar4 = " bytes=";
-  if ((char)bVar2 == '\0') {
-label_04528b53:
-    pSVar3 = System_Int32__ToString((int32_t)&stack0xffffffffffffff6c,(MethodInfo *)0x0);
-    pSVar4 = System_String__Concat_3af7150((System_String_o *)__this,pSVar4,pSVar3,(MethodInfo *)0x0);
-    iVar8 = iVar6;
-    if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      iVar8 = iVar6;
-    }
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Mark(area,pSVar4,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 == '\0') {
-label_04528be3:
-      __this_00.fields._detail._4_4_ = iVar8;
-      __this_00.fields._0_12_ = in_stack_ffffffffffffff60;
-      __this_00.fields._startMs = (int64_t)pSVar9;
-      __this_00.fields._24_8_ = pSVar10;
-      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-                (__this_00,(MethodInfo *)&stack0xffffffffffffff70);
-      return;
-    }
-    if (x != (UnityEngine_Object_o *)0x0) {
-      pSVar4 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)x,(MethodInfo *)0x0);
-      SimpleJSONFixed_JSON__Parse(pSVar4,(MethodInfo *)0x0);
-      goto label_04528be3;
-    }
-  }
-  else {
-    if (x != (UnityEngine_Object_o *)0x0) {
-      iVar6 = 0;
-      pSVar3 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)x,(MethodInfo *)0x0);
-      if (pSVar3 != (System_String_o *)0x0) {
-        pSVar3 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)x,(MethodInfo *)0x0);
-        if (pSVar3 == (System_String_o *)0x0) goto label_04528c0b;
-        iVar6 = (pSVar3->fields)._stringLength;
-      }
-      goto label_04528b53;
-    }
-    il2cpp_runtime_helper_022b2c90();
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_04528c0b:
-  auVar7 = il2cpp_runtime_helper_022b2c90();
-  if (auVar7._8_4_ == 1) {
-    plVar5 = (long *)__cxa_begin_catch(auVar7._0_8_);
-    lVar1 = *plVar5;
-    __cxa_end_catch();
-    __this_01.fields._detail._4_4_ = iVar8;
-    __this_01.fields._0_12_ = in_stack_ffffffffffffff60;
-    __this_01.fields._startMs = (int64_t)pSVar9;
-    __this_01.fields._24_8_ = pSVar10;
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-              (__this_01,(MethodInfo *)&stack0xffffffffffffff70);
-    if (lVar1 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar1);
-  }
-  __this_02.fields._detail._4_4_ = iVar8;
-  __this_02.fields._0_12_ = in_stack_ffffffffffffff60;
-  __this_02.fields._startMs = (int64_t)pSVar9;
-  __this_02.fields._24_8_ = pSVar10;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose
-            (__this_02,(MethodInfo *)&stack0xffffffffffffff70);
-  _Unwind_Resume(auVar7._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___ctor (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o* __this, System_String_o* avatarSprite, System_String_o* bannerSprite, const MethodInfo* method);
-// 0x451f600
+// 0x181a291f0
 
-void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___ctor
-               (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o *__this,System_String_o *avatarSprite,
-               System_String_o *bannerSprite,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___ctor_1a291f0(Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o* __this, System_String_o* avatarSprite, System_String_o* bannerSprite, MethodInfo* method)
 
 {
   Gisketch_Aottg2UI_Code_AottgComponent___ctor
-            ((Gisketch_Aottg2UI_Code_AottgComponent_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._avatarSprite = avatarSprite;
-  il2cpp_runtime_helper_022b4080(&__this->fields,avatarSprite);
-  (__this->fields)._bannerSprite = bannerSprite;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._bannerSprite,bannerSprite);
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._avatarSprite = qualifiedCppName;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._avatarSprite,qualifiedCppName);
+  (__this->fields)._bannerSprite = declaration;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._bannerSprite,declaration);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel$$Build
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel__Build (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* ui, const MethodInfo* method);
-// 0x4528350
+// 0x181e1bca0
+// eh: try 0x181e1bdda..0x181e1bfe9 -> pad 0x18333c5f0 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e1bfac: xor edx, edx
+// asm:   0x181e1bfae: lea rcx, [rsp + 0xe8]
+// asm:   0x181e1bfb6: call 0x1818d8cc0  ; Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose()
+// asm:   0x181e1bfbb: mov rcx, qword ptr [rsp + 0xc8]
+// asm:   0x181e1bfc3: test rcx, rcx
+// asm:   0x181e1bfc6: jne 0x181e1bfe9
+// asm:   0x181e1bfe9: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x18333c5f0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333c5f5: push rbp
+// asm:   0x18333c5f6: sub rsp, 0xc0
+// asm:   0x18333c5fd: mov rbp, rdx
+// asm:   0x18333c600: mov rax, qword ptr [rbp + 0xc0]
+// asm:   0x18333c607: mov rcx, qword ptr [rax]
+// asm:   0x18333c60a: mov qword ptr [rbp + 0xc8], rcx
+// asm:   0x18333c611: movabs rax, 0
+// asm:   0x18333c61b: add rsp, 0xc0
+// asm:   0x18333c622: pop rbp
+// asm:   0x18333c623: ret 
 
 void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel__Build
                (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o *__this,Gisketch_Aottg2UI_Code_AottgUi_o *ui
                ,MethodInfo *method)
 
 {
-  long lVar1;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_00;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_01;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o __this_02;
   System_String_o *detail;
-  System_Action_AottgUi__o *build;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o *pGVar1;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
   Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *pGVar2;
   Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar3;
-  long *plVar4;
-  undefined1 auVar5 [12];
-  undefined8 uVar6;
-  undefined8 uVar7;
-  undefined8 uVar8;
-  undefined8 uVar9;
-  Il2CppMethodPointer local_68;
-  Il2CppMethodPointer pIStack_60;
-  InvokerMethod local_58;
-  char *pcStack_50;
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_40;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_80;
+  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope_o local_60 [2];
   
-  if (g_data_057aee61 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Build_b__3_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUiPerfLog);
-    il2cpp_runtime_helper_023445d0(&"profile-preview-dialog");
-    il2cpp_runtime_helper_023445d0(&"Column");
-    il2cpp_runtime_helper_023445d0(&"Center");
-    il2cpp_runtime_helper_023445d0(&"avatar=");
-    il2cpp_runtime_helper_023445d0(&"ProfilePreviewPanel.Build");
-    il2cpp_runtime_helper_023445d0(&"profilePreviewDialog");
-    il2cpp_runtime_helper_023445d0(&" banner=");
-    g_data_057aee61 = '\x01';
+  if (Il2CppMethodInitialized_184344ccf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_Build_b__3_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog);
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-preview-dialog");
+    il2cpp_codegen_initialize_runtime_metadata(&"Column");
+    il2cpp_codegen_initialize_runtime_metadata(&"Center");
+    il2cpp_codegen_initialize_runtime_metadata(&"avatar=");
+    il2cpp_codegen_initialize_runtime_metadata(&"ProfilePreviewPanel.Build");
+    il2cpp_codegen_initialize_runtime_metadata(&"profilePreviewDialog");
+    il2cpp_codegen_initialize_runtime_metadata(&" banner=");
+    Il2CppMethodInitialized_184344ccf = '\x01';
   }
-  local_58 = (InvokerMethod)0x0;
-  pcStack_50 = (char *)0x0;
-  local_68 = (Il2CppMethodPointer)0x0;
-  pIStack_60 = (Il2CppMethodPointer)0x0;
-  detail = System_String__Concat_3af7470
-                     ("avatar=",(__this->fields)._avatarSprite," banner=",(__this->fields)._bannerSprite,
-                      (MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_GisketchUiPerfLog + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_60[0].fields._area = (System_String_o *)0x0;
+  local_60[0].fields._detail = (System_String_o *)0x0;
+  local_60[0].fields._startMs._0_4_ = 0;
+  local_60[0].fields._startMs._4_2_ = 0;
+  local_60[0].fields._startMs._6_2_ = 0;
+  local_60[0].fields._enabled = false;
+  local_60[0].fields._hotLoop = false;
+  local_60[0].fields._26_6_ = 0;
+  detail = System_String__Concat_1969590
+                     ("avatar=",(__this->fields)._avatarSprite," banner=",
+                      (__this->fields)._bannerSprite,(MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog)
+    ;
   }
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time(&local_40,"ProfilePreviewPanel.Build",detail,(MethodInfo *)0x0);
-  build = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-  System_Action_object____ctor();
+  pGVar1 = Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog__Time
+                     (&local_80,"ProfilePreviewPanel.Build",detail,(MethodInfo *)0x0);
+  local_60[0].fields._area = (pGVar1->fields)._area;
+  local_60[0].fields._detail = (pGVar1->fields)._detail;
+  local_60[0].fields._startMs = (pGVar1->fields)._startMs;
+  local_60[0].fields._enabled = (pGVar1->fields)._enabled;
+  local_60[0].fields._hotLoop = (pGVar1->fields)._hotLoop;
+  local_60[0].fields._26_6_ = *(undefined6 *)&(pGVar1->fields).field_0x1a;
+  local_80.fields._area = (System_String_o *)0x0;
+  local_80.fields._detail = (System_String_o *)local_60;
+  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+              il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  System_Action_object____ctor
+            (__this_00,(Il2CppObject *)__this,
+             (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_Build_b__3_0,
+             (MethodInfo *)0x0);
   width = Gisketch_Aottg2UI_Code_AottgUi__Points(480.0,(MethodInfo *)0x0);
-  uVar8 = 0;
-  uVar9 = 0;
-  uVar6 = 0;
-  uVar7 = 0;
   layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,"Center",
-                      (System_String_o *)0x0,12.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      "Center",(System_String_o *)0x0,12.0,width,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
                       0.0,(MethodInfo *)0x0);
-  if (g_data_057aee38 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"slideRightSmall");
-    g_data_057aee38 = '\x01';
+  if (Il2CppMethodInitialized_184344ca7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"slideRightSmall");
+    Il2CppMethodInitialized_184344ca7 = '\x01';
   }
   pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Motion
                      ("slideRightSmall",(System_String_o *)0x0,0.16,0.0,0.0,1,(MethodInfo *)0x0);
-  if (ui == (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    uVar6 = 0;
+  if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Panel
-                       (ui,"profilePreviewDialog",build,"profile-preview-dialog",layout,pGVar2,(MethodInfo *)0x0);
-    if (g_data_057aee39 == '\0') {
-      il2cpp_runtime_helper_023445d0(&"slideRightSmall");
-      g_data_057aee39 = '\x01';
+                       (ui,"profilePreviewDialog",(System_Action_AottgUi__o *)__this_00,"profile-preview-dialog",
+                        layout,pGVar2,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184344ca8 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"slideRightSmall");
+      Il2CppMethodInitialized_184344ca8 = '\x01';
     }
     pGVar2 = Gisketch_Aottg2UI_Code_AottgUi__Motion
                        ("slideRightSmall",(System_String_o *)0x0,0.16,0.0,0.0,1,(MethodInfo *)0x0);
     if (pGVar3 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
-      (pGVar3->fields).enter = pGVar2;
-      il2cpp_runtime_helper_022b4080(&(pGVar3->fields).enter,pGVar2);
-      __this_00.fields._detail = (System_String_o *)uVar7;
-      __this_00.fields._area = (System_String_o *)uVar6;
-      __this_00.fields._startMs = uVar8;
-      __this_00.fields._enabled = (int)uVar9;
-      __this_00.fields._hotLoop = (int)((ulong)uVar9 >> 0x20);
-      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_00,(MethodInfo *)&local_68);
+      (pGVar3->fields).exit = pGVar2;
+      Il2CppCodeGenWriteBarrier(&(pGVar3->fields).exit,pGVar2);
+      Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(local_60,(MethodInfo *)0x0);
       return;
     }
+    ThrowNullReferenceException();
   }
-  auVar5 = il2cpp_runtime_helper_022b2c90();
-  if (auVar5._8_4_ == 1) {
-    plVar4 = (long *)__cxa_begin_catch(auVar5._0_8_);
-    lVar1 = *plVar4;
-    __cxa_end_catch();
-    __this_01.fields._detail = (System_String_o *)uVar7;
-    __this_01.fields._area = (System_String_o *)uVar6;
-    __this_01.fields._startMs = uVar8;
-    __this_01.fields._enabled = (int)uVar9;
-    __this_01.fields._hotLoop = (int)((ulong)uVar9 >> 0x20);
-    Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_01,(MethodInfo *)&local_68);
-    if (lVar1 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar1);
-  }
-  __this_02.fields._detail = (System_String_o *)uVar7;
-  __this_02.fields._area = (System_String_o *)uVar6;
-  __this_02.fields._startMs = uVar8;
-  __this_02.fields._enabled = (int)uVar9;
-  __this_02.fields._hotLoop = (int)((ulong)uVar9 >> 0x20);
-  Gisketch_Aottg2UI_Diagnostics_GisketchUiPerfLog_Scope__Dispose(__this_02,(MethodInfo *)&local_68);
-  _Unwind_Resume(auVar5._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgProfilePreviewPanel$$<Build>b__3_0
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___Build_b__3_0 (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* preview, const MethodInfo* method);
-// 0x45286c0
+// 0x181e1bff0
 
 void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___Build_b__3_0
                (Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *preview,MethodInfo *method)
 
 {
-  long lVar1;
-  Gisketch_Aottg2UI_Code_AottgComponent_c *pGVar2;
-  System_String_o *pSVar3;
-  System_Action_AottgUi__o *build;
+  Il2CppObject *object;
+  System_String_o *pSVar1;
+  System_String_o *value;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
-  Gisketch_Aottg2UI_Code_AottgComponent_o *__this_00;
-  System_String_c *extraout_RDX;
-  System_String_Fields SVar4;
-  System_String_o *__this_01;
+  Gisketch_Aottg2UI_Game_AottgProfilePreviewCard_o *component;
   
-  if (g_data_057aee62 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgProfilePreviewCard);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Build_b__3_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&"profilePreviewTitleBar");
-    il2cpp_runtime_helper_023445d0(&"Column");
-    il2cpp_runtime_helper_023445d0(&"profile-preview-title-bar");
-    g_data_057aee62 = '\x01';
+  if (Il2CppMethodInitialized_184344cd0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewCard);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c_Build_b__3_1);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c);
+    il2cpp_codegen_initialize_runtime_metadata(&"profilePreviewTitleBar");
+    il2cpp_codegen_initialize_runtime_metadata(&"Column");
+    il2cpp_codegen_initialize_runtime_metadata(&"profile-preview-title-bar");
+    Il2CppMethodInitialized_184344cd0 = '\x01';
   }
-  if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c);
   }
-  pSVar3 = "profilePreviewTitleBar";
-  build = *(System_Action_AottgUi__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  if (build == (System_Action_AottgUi__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  pSVar1 = "profilePreviewTitleBar";
+  __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+              TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9__3_1;
+  if (__this_00 == (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)0x0) {
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c);
     }
-    build = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-    System_Action_object____ctor();
-    lVar1 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Action_AottgUi__o **)(lVar1 + 8) = build;
-    il2cpp_runtime_helper_022b4080(lVar1 + 8,build);
+    object = (Il2CppObject *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9;
+    __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              (__this_00,object,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c_Build_b__3_1,
+               (MethodInfo *)0x0);
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9__3_1 =
+         (System_Action_AottgUi__o *)__this_00;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel_c->static_fields->__9__3_1,__this_00)
+    ;
   }
   width = Gisketch_Aottg2UI_Code_AottgUi__Percent(100.0,(MethodInfo *)0x0);
-  SVar4._stringLength = 0;
-  SVar4._firstChar = 0;
-  SVar4._6_2_ = 0;
-  __this_01 = "Column";
   layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,(System_String_o *)0x0,
-                      (System_String_o *)0x0,0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                     ("Column",(System_String_o *)0x0,(System_String_o *)0x0,
+                      (System_String_o *)0x0,(System_String_o *)0x0,0.0,width,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
@@ -385,27 +275,23 @@ void Gisketch_Aottg2UI_Game_AottgProfilePreviewPanel___Build_b__3_0
                       1.0,(MethodInfo *)0x0);
   if (preview != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     Gisketch_Aottg2UI_Code_AottgUi__Panel
-              (preview,pSVar3,build,"profile-preview-title-bar",layout,
+              (preview,pSVar1,(System_Action_AottgUi__o *)__this_00,"profile-preview-title-bar",layout,
                (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-    pGVar2 = (Gisketch_Aottg2UI_Code_AottgComponent_c *)(__this->fields)._avatarSprite;
-    pSVar3 = (__this->fields)._bannerSprite;
-    __this_00 = (Gisketch_Aottg2UI_Code_AottgComponent_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgProfilePreviewCard);
-    Gisketch_Aottg2UI_Code_AottgComponent___ctor(__this_00,(MethodInfo *)0x0);
-    __this_00[1].klass = pGVar2;
-    il2cpp_runtime_helper_022b4080(__this_00 + 1,pGVar2);
-    __this_00[1].monitor = pSVar3;
-    il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,pSVar3);
-    Gisketch_Aottg2UI_Code_AottgUi__Component(preview,__this_00,(MethodInfo *)0x0);
+    pSVar1 = (__this->fields)._avatarSprite;
+    value = (__this->fields)._bannerSprite;
+    component = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgProfilePreviewCard);
+    Gisketch_Aottg2UI_Code_AottgComponent___ctor
+              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)component,(MethodInfo *)0x0);
+    (component->fields)._avatarSprite = pSVar1;
+    Il2CppCodeGenWriteBarrier(&(component->fields)._avatarSprite,pSVar1);
+    (component->fields)._bannerSprite = value;
+    Il2CppCodeGenWriteBarrier(&(component->fields)._bannerSprite,value);
+    Gisketch_Aottg2UI_Code_AottgUi__Component
+              (preview,(Gisketch_Aottg2UI_Code_AottgComponent_o *)component,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  Gisketch_Aottg2UI_Code_AottgComponent___ctor
-            ((Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_01,(MethodInfo *)0x0);
-  __this_01->fields = SVar4;
-  il2cpp_runtime_helper_022b4080(&__this_01->fields,SVar4);
-  __this_01[1].klass = extraout_RDX;
-  il2cpp_runtime_helper_022b4080(__this_01 + 1,extraout_RDX);
-  return;
+  ThrowNullReferenceException();
 }
 
 

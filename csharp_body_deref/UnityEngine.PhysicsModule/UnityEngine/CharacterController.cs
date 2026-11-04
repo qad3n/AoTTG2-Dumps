@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x200000A")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/CharacterController.h")]
 public class CharacterController : Collider
 {

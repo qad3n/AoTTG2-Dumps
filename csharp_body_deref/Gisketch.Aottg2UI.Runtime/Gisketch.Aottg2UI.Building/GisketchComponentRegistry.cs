@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x20000A4")]
 public sealed class GisketchComponentRegistry
 {
-	[Token(Token = "0x40002DD")]
+	[Token(Token = "0x400036E")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly GisketchComponentRegistry Default;
 
-	[Token(Token = "0x40002DE")]
+	[Token(Token = "0x400036F")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Dictionary<string, GisketchComponentFactory> _factories;
 
-	[Token(Token = "0x60003D1")]
-	[Address(RVA = "0x3A641F0", Offset = "0x3A641F0", VA = "0x3A641F0")]
+	[Token(Token = "0x60004EA")]
+	[Address(RVA = "0x18DA6C0", Offset = "0x18D8CC0", VA = "0x1818DA6C0")]
 	public void Register(string type, GisketchComponentFactory factory)
 	{
 	}
 
-	[Token(Token = "0x60003D2")]
-	[Address(RVA = "0x3A73490", Offset = "0x3A73490", VA = "0x3A73490")]
+	[Token(Token = "0x60004EB")]
+	[Address(RVA = "0x18DA740", Offset = "0x18D8D40", VA = "0x1818DA740")]
 	public bool TryBuild(string type, GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003D3")]
-	[Address(RVA = "0x3A73550", Offset = "0x3A73550", VA = "0x3A73550")]
+	[Token(Token = "0x60004EC")]
+	[Address(RVA = "0x18DA940", Offset = "0x18D8F40", VA = "0x1818DA940")]
 	public GisketchComponentRegistry()
 	{
 	}

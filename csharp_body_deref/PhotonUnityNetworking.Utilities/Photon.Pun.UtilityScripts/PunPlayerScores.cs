@@ -10,14 +10,14 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000013")]
 public class PunPlayerScores : MonoBehaviour
 {
-	[Token(Token = "0x4000061")]
+	[Token(Token = "0x400005C")]
 	public const string PlayerScoreProp = "score";
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x3F07250", Offset = "0x3F07250", VA = "0x3F07250")]
+	[Token(Token = "0x600007C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public PunPlayerScores()
 	{
 	}

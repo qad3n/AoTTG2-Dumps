@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x200037E")]
+[Token(Token = "0x20003AD")]
 [ComVisible(true)]
 public interface IChannel
 {
-	[Token(Token = "0x17000375")]
+	[Token(Token = "0x17000377")]
 	string ChannelName
 	{
-		[Token(Token = "0x6001DA3")]
+		[Token(Token = "0x6001E12")]
 		get;
 	}
 
-	[Token(Token = "0x17000376")]
+	[Token(Token = "0x17000378")]
 	int ChannelPriority
 	{
-		[Token(Token = "0x6001DA4")]
+		[Token(Token = "0x6001E13")]
 		get;
 	}
 }

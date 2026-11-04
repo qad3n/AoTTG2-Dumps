@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties.Internal;
 
-[Token(Token = "0x2000070")]
+[Token(Token = "0x20000A3")]
 [ReflectedPropertyBag]
 internal class ReflectedPropertyBag<TContainer> : ContainerPropertyBag<TContainer>
 {
-	[Token(Token = "0x60001EA")]
+	[Token(Token = "0x6000275")]
 	internal new void AddProperty<TValue>(Property<TContainer, TValue> property)
 	{
 	}
 
-	[Token(Token = "0x60001EB")]
+	[Token(Token = "0x6000276")]
 	public ReflectedPropertyBag()
 	{
 	}

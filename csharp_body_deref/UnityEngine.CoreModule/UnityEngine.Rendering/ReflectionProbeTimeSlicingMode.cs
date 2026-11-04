@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002BC")]
+[Token(Token = "0x2000338")]
 public enum ReflectionProbeTimeSlicingMode
 {
-	[Token(Token = "0x40007BA")]
+	[Token(Token = "0x40008EA")]
 	AllFacesAtOnce,
-	[Token(Token = "0x40007BB")]
+	[Token(Token = "0x40008EB")]
 	IndividualFaces,
-	[Token(Token = "0x40007BC")]
+	[Token(Token = "0x40008EC")]
 	NoTimeSlicing
 }

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003F7")]
+[Token(Token = "0x2000426")]
 internal enum BinaryTypeEnum
 {
-	[Token(Token = "0x400105B")]
-	Primitive,
-	[Token(Token = "0x400105C")]
-	String,
 	[Token(Token = "0x400105D")]
-	Object,
+	Primitive,
 	[Token(Token = "0x400105E")]
-	ObjectUrt,
+	String,
 	[Token(Token = "0x400105F")]
-	ObjectUser,
+	Object,
 	[Token(Token = "0x4001060")]
-	ObjectArray,
+	ObjectUrt,
 	[Token(Token = "0x4001061")]
-	StringArray,
+	ObjectUser,
 	[Token(Token = "0x4001062")]
+	ObjectArray,
+	[Token(Token = "0x4001063")]
+	StringArray,
+	[Token(Token = "0x4001064")]
 	PrimitiveArray
 }

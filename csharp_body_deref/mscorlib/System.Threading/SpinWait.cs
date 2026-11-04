@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001DD")]
+[Token(Token = "0x2000208")]
 public struct SpinWait
 {
-	[Token(Token = "0x4000957")]
+	[Token(Token = "0x40009AE")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly int SpinCountforSpinBeforeWait;
 
-	[Token(Token = "0x4000958")]
+	[Token(Token = "0x40009AF")]
 	[FieldOffset(Offset = "0x0")]
 	private int _count;
 
-	[Token(Token = "0x170001A0")]
+	[Token(Token = "0x170001A2")]
 	public int Count
 	{
-		[Token(Token = "0x60011A9")]
-		[Address(RVA = "0x3D2B660", Offset = "0x3D2B660", VA = "0x3D2B660")]
+		[Token(Token = "0x6001204")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001A1")]
+	[Token(Token = "0x170001A3")]
 	public bool NextSpinWillYield
 	{
-		[Token(Token = "0x60011AA")]
-		[Address(RVA = "0x3D2B670", Offset = "0x3D2B670", VA = "0x3D2B670")]
+		[Token(Token = "0x6001205")]
+		[Address(RVA = "0x1BA5BA0", Offset = "0x1BA41A0", VA = "0x181BA5BA0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60011AB")]
-	[Address(RVA = "0x3D2B560", Offset = "0x3D2B560", VA = "0x3D2B560")]
+	[Token(Token = "0x6001206")]
+	[Address(RVA = "0x1BA59D0", Offset = "0x1BA3FD0", VA = "0x181BA59D0")]
 	public void SpinOnce()
 	{
 	}
 
-	[Token(Token = "0x60011AC")]
-	[Address(RVA = "0x3D2B0F0", Offset = "0x3D2B0F0", VA = "0x3D2B0F0")]
+	[Token(Token = "0x6001207")]
+	[Address(RVA = "0x1BA5A20", Offset = "0x1BA4020", VA = "0x181BA5A20")]
 	public void SpinOnce(int sleep1Threshold)
 	{
 	}
 
-	[Token(Token = "0x60011AD")]
-	[Address(RVA = "0x3D2B6D0", Offset = "0x3D2B6D0", VA = "0x3D2B6D0")]
+	[Token(Token = "0x6001208")]
+	[Address(RVA = "0x1BA5840", Offset = "0x1BA3E40", VA = "0x181BA5840")]
 	private void SpinOnceCore(int sleep1Threshold)
 	{
 	}

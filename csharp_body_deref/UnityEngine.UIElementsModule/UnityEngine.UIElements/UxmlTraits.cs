@@ -5,21 +5,23 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000437")]
+[Token(Token = "0x2000504")]
+[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 public abstract class UxmlTraits : BaseUxmlTraits
 {
-	[Token(Token = "0x6001ADF")]
-	[Address(RVA = "0x4F6B340", Offset = "0x4F6B340", VA = "0x4F6B340", Slot = "4")]
+	[Token(Token = "0x60026AE")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public virtual void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 	{
 	}
 
-	[Token(Token = "0x6001AE0")]
-	[Address(RVA = "0x4F6B350", Offset = "0x4F6B350", VA = "0x4F6B350")]
+	[Token(Token = "0x60026AF")]
+	[Address(RVA = "0x1C88340", Offset = "0x1C86940", VA = "0x181C88340")]
 	protected UxmlTraits()
 	{
 	}

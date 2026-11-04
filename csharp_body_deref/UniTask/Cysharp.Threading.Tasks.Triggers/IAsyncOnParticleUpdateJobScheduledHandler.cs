@@ -10,9 +10,9 @@ using UnityEngine.ParticleSystemJobs;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001D9")]
+[Token(Token = "0x20001DC")]
 public interface IAsyncOnParticleUpdateJobScheduledHandler
 {
-	[Token(Token = "0x6000B5E")]
+	[Token(Token = "0x6000B82")]
 	UniTask<ParticleSystemJobData> OnParticleUpdateJobScheduledAsync();
 }

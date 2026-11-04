@@ -18,27 +18,27 @@ internal class NCommandPool
 	private readonly Stack<NCommand> pool;
 
 	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x3E68FD0", Offset = "0x3E68FD0", VA = "0x3E68FD0")]
+	[Address(RVA = "0x1CC60A0", Offset = "0x1CC46A0", VA = "0x181CC60A0")]
 	public NCommand Acquire(EnetPeer peer, byte[] inBuff, ref int readingOffset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x3E609F0", Offset = "0x3E609F0", VA = "0x3E609F0")]
+	[Address(RVA = "0x1CC5EE0", Offset = "0x1CC44E0", VA = "0x181CC5EE0")]
 	public NCommand Acquire(EnetPeer peer, byte commandType, StreamBuffer payload, byte channel)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x3E6D080", Offset = "0x3E6D080", VA = "0x3E6D080")]
+	[Address(RVA = "0x1CC6240", Offset = "0x1CC4840", VA = "0x181CC6240")]
 	public void Release(NCommand nCommand)
 	{
 	}
 
 	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x3E5F930", Offset = "0x3E5F930", VA = "0x3E5F930")]
+	[Address(RVA = "0x1CC6350", Offset = "0x1CC4950", VA = "0x181CC6350")]
 	public NCommandPool()
 	{
 	}

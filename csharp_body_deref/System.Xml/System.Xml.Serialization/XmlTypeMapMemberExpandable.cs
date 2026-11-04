@@ -20,20 +20,20 @@ internal class XmlTypeMapMemberExpandable : XmlTypeMapMemberElement
 	public int FlatArrayIndex
 	{
 		[Token(Token = "0x6000EC9")]
-		[Address(RVA = "0x4838F80", Offset = "0x4838F80", VA = "0x4838F80")]
+		[Address(RVA = "0x58A600", Offset = "0x588C00", VA = "0x18058A600")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000ECA")]
-		[Address(RVA = "0x4838F90", Offset = "0x4838F90", VA = "0x4838F90")]
+		[Address(RVA = "0x58A990", Offset = "0x588F90", VA = "0x18058A990")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000ECB")]
-	[Address(RVA = "0x4838FA0", Offset = "0x4838FA0", VA = "0x4838FA0")]
+	[Address(RVA = "0x278D190", Offset = "0x278B790", VA = "0x18278D190")]
 	public XmlTypeMapMemberExpandable()
 	{
 	}

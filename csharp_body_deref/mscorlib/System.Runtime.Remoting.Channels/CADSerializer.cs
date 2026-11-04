@@ -11,39 +11,39 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Channels;
 
-[Token(Token = "0x200037C")]
+[Token(Token = "0x20003AB")]
 internal class CADSerializer
 {
-	[Token(Token = "0x6001D9D")]
-	[Address(RVA = "0x3B81B90", Offset = "0x3B81B90", VA = "0x3B81B90")]
+	[Token(Token = "0x6001E0C")]
+	[Address(RVA = "0x19F0F10", Offset = "0x19EF510", VA = "0x1819F0F10")]
 	internal static IMessage DeserializeMessage(MemoryStream mem, IMethodCallMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D9E")]
-	[Address(RVA = "0x3B81570", Offset = "0x3B81570", VA = "0x3B81570")]
+	[Token(Token = "0x6001E0D")]
+	[Address(RVA = "0x19F1100", Offset = "0x19EF700", VA = "0x1819F1100")]
 	internal static MemoryStream SerializeMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D9F")]
-	[Address(RVA = "0x3B82330", Offset = "0x3B82330", VA = "0x3B82330")]
+	[Token(Token = "0x6001E0E")]
+	[Address(RVA = "0x19F0F50", Offset = "0x19EF550", VA = "0x1819F0F50")]
 	internal static object DeserializeObjectSafe(byte[] mem)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DA0")]
-	[Address(RVA = "0x3B82450", Offset = "0x3B82450", VA = "0x3B82450")]
+	[Token(Token = "0x6001E0F")]
+	[Address(RVA = "0x19F11E0", Offset = "0x19EF7E0", VA = "0x1819F11E0")]
 	internal static MemoryStream SerializeObject(object obj)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DA1")]
-	[Address(RVA = "0x3B823C0", Offset = "0x3B823C0", VA = "0x3B823C0")]
+	[Token(Token = "0x6001E10")]
+	[Address(RVA = "0x19F1060", Offset = "0x19EF660", VA = "0x1819F1060")]
 	internal static object DeserializeObject(MemoryStream mem)
 	{
 		return null;

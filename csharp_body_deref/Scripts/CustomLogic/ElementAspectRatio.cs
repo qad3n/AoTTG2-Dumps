@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000340")]
+[Token(Token = "0x2000490")]
 internal enum ElementAspectRatio
 {
-	[Token(Token = "0x4000FEE")]
+	[Token(Token = "0x400161B")]
 	Width,
-	[Token(Token = "0x4000FEF")]
+	[Token(Token = "0x400161C")]
 	Height
 }

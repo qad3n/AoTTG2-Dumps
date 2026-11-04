@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000009")]
 public enum Dimension
 {
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000040")]
 	Width,
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x4000041")]
 	Height
 }

@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x200038A")]
+[Token(Token = "0x20003B9")]
 [ComVisible(true)]
 public interface IActivator
 {
-	[Token(Token = "0x17000381")]
+	[Token(Token = "0x17000383")]
 	IActivator NextActivator
 	{
-		[Token(Token = "0x6001DBF")]
+		[Token(Token = "0x6001E2E")]
 		get;
 	}
 
-	[Token(Token = "0x6001DC0")]
+	[Token(Token = "0x6001E2F")]
 	IConstructionReturnMessage Activate(IConstructionCallMessage msg);
 }

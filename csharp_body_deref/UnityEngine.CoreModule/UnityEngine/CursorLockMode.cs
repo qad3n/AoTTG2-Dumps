@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200010F")]
+[Token(Token = "0x2000134")]
 public enum CursorLockMode
 {
-	[Token(Token = "0x4000361")]
+	[Token(Token = "0x40003BF")]
 	None,
-	[Token(Token = "0x4000362")]
+	[Token(Token = "0x40003C0")]
 	Locked,
-	[Token(Token = "0x4000363")]
+	[Token(Token = "0x40003C1")]
 	Confined
 }

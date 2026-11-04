@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x20004F4")]
+[Token(Token = "0x20005EA")]
 internal readonly struct LayoutHandle
 {
-	[Token(Token = "0x4001085")]
+	[Token(Token = "0x400161A")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly int Index;
 
-	[Token(Token = "0x4001086")]
+	[Token(Token = "0x400161B")]
 	[FieldOffset(Offset = "0x4")]
 	public readonly int Version;
 
-	[Token(Token = "0x170007A5")]
+	[Token(Token = "0x17000AB5")]
 	public static LayoutHandle Undefined
 	{
-		[Token(Token = "0x6001E8D")]
-		[Address(RVA = "0x4FB42D0", Offset = "0x4FB42D0", VA = "0x4FB42D0")]
+		[Token(Token = "0x6002BCC")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 		get
 		{
 			return default(LayoutHandle);
 		}
 	}
 
-	[Token(Token = "0x6001E8E")]
-	[Address(RVA = "0x4FB4420", Offset = "0x4FB4420", VA = "0x4FB4420")]
+	[Token(Token = "0x6002BCD")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	internal LayoutHandle(int index, int version)
 	{
 	}
 
-	[Token(Token = "0x6001E8F")]
-	[Address(RVA = "0x4FB4320", Offset = "0x4FB4320", VA = "0x4FB4320")]
+	[Token(Token = "0x6002BCE")]
+	[Address(RVA = "0x2ED5CB0", Offset = "0x2ED42B0", VA = "0x182ED5CB0")]
 	public bool Equals(LayoutHandle other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001E90")]
-	[Address(RVA = "0x4FB4430", Offset = "0x4FB4430", VA = "0x4FB4430", Slot = "0")]
+	[Token(Token = "0x6002BCF")]
+	[Address(RVA = "0x31A3ED0", Offset = "0x31A24D0", VA = "0x1831A3ED0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001E91")]
-	[Address(RVA = "0x4FB44A0", Offset = "0x4FB44A0", VA = "0x4FB44A0", Slot = "2")]
+	[Token(Token = "0x6002BD0")]
+	[Address(RVA = "0x2F6AE60", Offset = "0x2F69460", VA = "0x182F6AE60", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

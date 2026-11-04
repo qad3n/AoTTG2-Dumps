@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x200032B")]
+[Token(Token = "0x2000236")]
 public interface IExtenderListService
 {
-	[Token(Token = "0x6001518")]
+	[Token(Token = "0x6000F60")]
 	IExtenderProvider[] GetExtenderProviders();
 }

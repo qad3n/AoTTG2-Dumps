@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace JetBrains.Annotations;
 
-[Token(Token = "0x200006C")]
+[Token(Token = "0x2000082")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class MustUseReturnValueAttribute : Attribute
 {
-	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x4DADF00", Offset = "0x4DADF00", VA = "0x4DADF00")]
+	[Token(Token = "0x60001A3")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public MustUseReturnValueAttribute()
 	{
 	}

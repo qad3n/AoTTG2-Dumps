@@ -12,7 +12,7 @@ using UnityEngine.Serialization;
 namespace UnityEngine.UI;
 
 [Serializable]
-[Token(Token = "0x2000071")]
+[Token(Token = "0x200006F")]
 public struct SpriteState : IEquatable<SpriteState>
 {
 	[Token(Token = "0x4000238")]
@@ -36,72 +36,72 @@ public struct SpriteState : IEquatable<SpriteState>
 	[SerializeField]
 	private Sprite m_DisabledSprite;
 
-	[Token(Token = "0x17000132")]
+	[Token(Token = "0x17000133")]
 	public Sprite highlightedSprite
 	{
-		[Token(Token = "0x6000491")]
-		[Address(RVA = "0x50E7AE0", Offset = "0x50E7AE0", VA = "0x50E7AE0")]
+		[Token(Token = "0x600049D")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000492")]
-		[Address(RVA = "0x50E7AF0", Offset = "0x50E7AF0", VA = "0x50E7AF0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000133")]
-	public Sprite pressedSprite
-	{
-		[Token(Token = "0x6000493")]
-		[Address(RVA = "0x50E7B00", Offset = "0x50E7B00", VA = "0x50E7B00")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000494")]
-		[Address(RVA = "0x50E7B10", Offset = "0x50E7B10", VA = "0x50E7B10")]
+		[Token(Token = "0x600049E")]
+		[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000134")]
-	public Sprite selectedSprite
+	public Sprite pressedSprite
 	{
-		[Token(Token = "0x6000495")]
-		[Address(RVA = "0x50E7B20", Offset = "0x50E7B20", VA = "0x50E7B20")]
+		[Token(Token = "0x600049F")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000496")]
-		[Address(RVA = "0x50E7B30", Offset = "0x50E7B30", VA = "0x50E7B30")]
+		[Token(Token = "0x60004A0")]
+		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000135")]
-	public Sprite disabledSprite
+	public Sprite selectedSprite
 	{
-		[Token(Token = "0x6000497")]
-		[Address(RVA = "0x50E7B40", Offset = "0x50E7B40", VA = "0x50E7B40")]
+		[Token(Token = "0x60004A1")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000498")]
-		[Address(RVA = "0x50E7B50", Offset = "0x50E7B50", VA = "0x50E7B50")]
+		[Token(Token = "0x60004A2")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x50E7B60", Offset = "0x50E7B60", VA = "0x50E7B60", Slot = "4")]
+	[Token(Token = "0x17000136")]
+	public Sprite disabledSprite
+	{
+		[Token(Token = "0x60004A3")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x60004A4")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x60004A5")]
+	[Address(RVA = "0x32EA2B0", Offset = "0x32E88B0", VA = "0x1832EA2B0", Slot = "4")]
 	public bool Equals(SpriteState other)
 	{
 		return default(bool);

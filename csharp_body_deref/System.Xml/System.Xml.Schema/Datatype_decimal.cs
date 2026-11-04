@@ -28,7 +28,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x60010D7")]
-		[Address(RVA = "0x485EC10", Offset = "0x485EC10", VA = "0x485EC10", Slot = "18")]
+		[Address(RVA = "0x279DD10", Offset = "0x279C310", VA = "0x18279DD10", Slot = "18")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60010D8")]
-		[Address(RVA = "0x485EC80", Offset = "0x485EC80", VA = "0x485EC80", Slot = "8")]
+		[Address(RVA = "0x847160", Offset = "0x845760", VA = "0x180847160", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -50,7 +50,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x60010D9")]
-		[Address(RVA = "0x485EC90", Offset = "0x485EC90", VA = "0x485EC90", Slot = "4")]
+		[Address(RVA = "0x279DDC0", Offset = "0x279C3C0", VA = "0x18279DDC0", Slot = "4")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60010DA")]
-		[Address(RVA = "0x485ED00", Offset = "0x485ED00", VA = "0x485ED00", Slot = "26")]
+		[Address(RVA = "0x279DD60", Offset = "0x279C360", VA = "0x18279DD60", Slot = "26")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x60010DB")]
-		[Address(RVA = "0x485ED70", Offset = "0x485ED70", VA = "0x485ED70", Slot = "19")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -83,7 +83,7 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x60010DC")]
-		[Address(RVA = "0x485ED80", Offset = "0x485ED80", VA = "0x485ED80", Slot = "27")]
+		[Address(RVA = "0x279DDB0", Offset = "0x279C3B0", VA = "0x18279DDB0", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -91,28 +91,28 @@ internal class Datatype_decimal : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x60010D6")]
-	[Address(RVA = "0x485EC00", Offset = "0x485EC00", VA = "0x485EC00", Slot = "25")]
+	[Address(RVA = "0x279D950", Offset = "0x279BF50", VA = "0x18279D950", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010DD")]
-	[Address(RVA = "0x485ED90", Offset = "0x485ED90", VA = "0x485ED90", Slot = "14")]
+	[Address(RVA = "0x279D8B0", Offset = "0x279BEB0", VA = "0x18279D8B0", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60010DE")]
-	[Address(RVA = "0x485EE30", Offset = "0x485EE30", VA = "0x485EE30", Slot = "16")]
+	[Address(RVA = "0x279D960", Offset = "0x279BF60", VA = "0x18279D960", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60010DF")]
-	[Address(RVA = "0x4856370", Offset = "0x4856370", VA = "0x4856370")]
+	[Address(RVA = "0x279DC90", Offset = "0x279C290", VA = "0x18279DC90")]
 	public Datatype_decimal()
 	{
 	}

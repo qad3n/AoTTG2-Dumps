@@ -11,43 +11,43 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000AA")]
+[Token(Token = "0x20000CB")]
 public sealed class AottgSearchResultSelection : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerMoveHandler, ISelectHandler
 {
-	[Token(Token = "0x400035F")]
+	[Token(Token = "0x4000416")]
 	[FieldOffset(Offset = "0x20")]
 	private AottgSearchPaletteControl _owner;
 
-	[Token(Token = "0x4000360")]
+	[Token(Token = "0x4000417")]
 	[FieldOffset(Offset = "0x28")]
 	private int _index;
 
-	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x3A8FCC0", Offset = "0x3A8FCC0", VA = "0x3A8FCC0")]
+	[Token(Token = "0x6000634")]
+	[Address(RVA = "0x18F7330", Offset = "0x18F5930", VA = "0x1818F7330")]
 	public void Setup(AottgSearchPaletteControl owner, int index)
 	{
 	}
 
-	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x3A903D0", Offset = "0x3A903D0", VA = "0x3A903D0", Slot = "4")]
+	[Token(Token = "0x6000635")]
+	[Address(RVA = "0x18F9FE0", Offset = "0x18F85E0", VA = "0x1818F9FE0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x3A904B0", Offset = "0x3A904B0", VA = "0x3A904B0", Slot = "5")]
+	[Token(Token = "0x6000636")]
+	[Address(RVA = "0x18F9FE0", Offset = "0x18F85E0", VA = "0x1818F9FE0", Slot = "5")]
 	public void OnPointerMove(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x3A90590", Offset = "0x3A90590", VA = "0x3A90590", Slot = "6")]
+	[Token(Token = "0x6000637")]
+	[Address(RVA = "0x18FA070", Offset = "0x18F8670", VA = "0x1818FA070", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x3A90610", Offset = "0x3A90610", VA = "0x3A90610")]
+	[Token(Token = "0x6000638")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgSearchResultSelection()
 	{
 	}

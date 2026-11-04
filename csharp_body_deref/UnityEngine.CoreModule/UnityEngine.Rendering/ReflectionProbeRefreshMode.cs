@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002BB")]
+[Token(Token = "0x2000337")]
 public enum ReflectionProbeRefreshMode
 {
-	[Token(Token = "0x40007B6")]
+	[Token(Token = "0x40008E6")]
 	OnAwake,
-	[Token(Token = "0x40007B7")]
+	[Token(Token = "0x40008E7")]
 	EveryFrame,
-	[Token(Token = "0x40007B8")]
+	[Token(Token = "0x40008E8")]
 	ViaScripting
 }

@@ -10,97 +10,97 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000103")]
+[Token(Token = "0x2000143")]
 public sealed class X509ChainElementCollection : ICollection, IEnumerable
 {
-	[Token(Token = "0x40004E9")]
+	[Token(Token = "0x40005BB")]
 	[FieldOffset(Offset = "0x10")]
 	private ArrayList _list;
 
-	[Token(Token = "0x1700013C")]
+	[Token(Token = "0x17000175")]
 	public int Count
 	{
-		[Token(Token = "0x60005F5")]
-		[Address(RVA = "0x493C510", Offset = "0x493C510", VA = "0x493C510", Slot = "5")]
+		[Token(Token = "0x60007DE")]
+		[Address(RVA = "0x1AB8C80", Offset = "0x1AB7280", VA = "0x181AB8C80", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700013D")]
+	[Token(Token = "0x17000176")]
 	public bool IsSynchronized
 	{
-		[Token(Token = "0x60005F6")]
-		[Address(RVA = "0x493C540", Offset = "0x493C540", VA = "0x493C540", Slot = "7")]
+		[Token(Token = "0x60007DF")]
+		[Address(RVA = "0x1A1F360", Offset = "0x1A1D960", VA = "0x181A1F360", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700013E")]
+	[Token(Token = "0x17000177")]
 	public X509ChainElement this[int index]
 	{
-		[Token(Token = "0x60005F7")]
-		[Address(RVA = "0x493C570", Offset = "0x493C570", VA = "0x493C570")]
+		[Token(Token = "0x60007E0")]
+		[Address(RVA = "0x2888340", Offset = "0x2886940", VA = "0x182888340")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700013F")]
+	[Token(Token = "0x17000178")]
 	public object SyncRoot
 	{
-		[Token(Token = "0x60005F8")]
-		[Address(RVA = "0x493C600", Offset = "0x493C600", VA = "0x493C600", Slot = "6")]
+		[Token(Token = "0x60007E1")]
+		[Address(RVA = "0x1AB84F0", Offset = "0x1AB6AF0", VA = "0x181AB84F0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x493C4A0", Offset = "0x493C4A0", VA = "0x493C4A0")]
+	[Token(Token = "0x60007DD")]
+	[Address(RVA = "0x28882D0", Offset = "0x28868D0", VA = "0x1828882D0")]
 	internal X509ChainElementCollection()
 	{
 	}
 
-	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x493C630", Offset = "0x493C630", VA = "0x493C630", Slot = "4")]
+	[Token(Token = "0x60007E2")]
+	[Address(RVA = "0x1AB84C0", Offset = "0x1AB6AC0", VA = "0x181AB84C0", Slot = "4")]
 	private void System_002ECollections_002EICollection_002ECopyTo(Array array, int index)
 	{
 	}
 
-	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x493C660", Offset = "0x493C660", VA = "0x493C660")]
+	[Token(Token = "0x60007E3")]
+	[Address(RVA = "0x2888190", Offset = "0x2886790", VA = "0x182888190")]
 	public X509ChainElementEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x493C770", Offset = "0x493C770", VA = "0x493C770", Slot = "8")]
+	[Token(Token = "0x60007E4")]
+	[Address(RVA = "0x2888230", Offset = "0x2886830", VA = "0x182888230", Slot = "8")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FC")]
-	[Address(RVA = "0x493C7C0", Offset = "0x493C7C0", VA = "0x493C7C0")]
+	[Token(Token = "0x60007E5")]
+	[Address(RVA = "0x2887FC0", Offset = "0x28865C0", VA = "0x182887FC0")]
 	internal void Add(X509Certificate2 certificate)
 	{
 	}
 
-	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x493C870", Offset = "0x493C870", VA = "0x493C870")]
+	[Token(Token = "0x60007E6")]
+	[Address(RVA = "0x2547410", Offset = "0x2545A10", VA = "0x182547410")]
 	internal void Clear()
 	{
 	}
 
-	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x493C8A0", Offset = "0x493C8A0", VA = "0x493C8A0")]
+	[Token(Token = "0x60007E7")]
+	[Address(RVA = "0x2888070", Offset = "0x2886670", VA = "0x182888070")]
 	internal bool Contains(X509Certificate2 certificate)
 	{
 		return default(bool);

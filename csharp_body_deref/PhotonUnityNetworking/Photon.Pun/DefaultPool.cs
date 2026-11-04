@@ -11,28 +11,28 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000024")]
+[Token(Token = "0x2000022")]
 public class DefaultPool : IPunPrefabPool
 {
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000CB")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly Dictionary<string, GameObject> ResourceCache;
 
-	[Token(Token = "0x6000174")]
-	[Address(RVA = "0x3F0E210", Offset = "0x3F0E210", VA = "0x3F0E210", Slot = "4")]
+	[Token(Token = "0x6000172")]
+	[Address(RVA = "0x1D60DB0", Offset = "0x1D5F3B0", VA = "0x181D60DB0", Slot = "4")]
 	public GameObject Instantiate(string prefabId, Vector3 position, Quaternion rotation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000175")]
-	[Address(RVA = "0x3F0E430", Offset = "0x3F0E430", VA = "0x3F0E430", Slot = "5")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x1D60D60", Offset = "0x1D5F360", VA = "0x181D60D60", Slot = "5")]
 	public void Destroy(GameObject gameObject)
 	{
 	}
 
-	[Token(Token = "0x6000176")]
-	[Address(RVA = "0x3F0E4A0", Offset = "0x3F0E4A0", VA = "0x3F0E4A0")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x1D60FD0", Offset = "0x1D5F5D0", VA = "0x181D60FD0")]
 	public DefaultPool()
 	{
 	}

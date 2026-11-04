@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200006B")]
+[Token(Token = "0x2000032")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Field, AllowMultiple = false)]
 public class DisplayInfoAttribute : Attribute
 {
-	[Token(Token = "0x40001BA")]
+	[Token(Token = "0x40000C3")]
 	[FieldOffset(Offset = "0x10")]
 	public string name;
 
-	[Token(Token = "0x40001BB")]
+	[Token(Token = "0x40000C4")]
 	[FieldOffset(Offset = "0x18")]
 	public int order;
 
-	[Token(Token = "0x600057F")]
-	[Address(RVA = "0x4B96520", Offset = "0x4B96520", VA = "0x4B96520")]
+	[Token(Token = "0x6000485")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DisplayInfoAttribute()
 	{
 	}

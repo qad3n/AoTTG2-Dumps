@@ -10,57 +10,57 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001B")]
 public class MatchMakingCallbacksContainer : List<IMatchmakingCallbacks>, IMatchmakingCallbacks
 {
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000C4")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly LoadBalancingClient client;
 
-	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x3EBF410", Offset = "0x3EBF410", VA = "0x3EBF410")]
+	[Token(Token = "0x60000E2")]
+	[Address(RVA = "0x1D24950", Offset = "0x1D22F50", VA = "0x181D24950")]
 	public MatchMakingCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
-	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x3EC4190", Offset = "0x3EC4190", VA = "0x3EC4190", Slot = "36")]
+	[Token(Token = "0x60000E3")]
+	[Address(RVA = "0x1D23F50", Offset = "0x1D22550", VA = "0x181D23F50", Slot = "36")]
 	public void OnCreatedRoom()
 	{
 	}
 
-	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x3EC4380", Offset = "0x3EC4380", VA = "0x3EC4380", Slot = "38")]
+	[Token(Token = "0x60000E4")]
+	[Address(RVA = "0x1D24610", Offset = "0x1D22C10", VA = "0x181D24610", Slot = "38")]
 	public void OnJoinedRoom()
 	{
 	}
 
-	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x3EC4C80", Offset = "0x3EC4C80", VA = "0x3EC4C80", Slot = "37")]
+	[Token(Token = "0x60000E5")]
+	[Address(RVA = "0x1D23D90", Offset = "0x1D22390", VA = "0x181D23D90", Slot = "37")]
 	public void OnCreateRoomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x3EC4E80", Offset = "0x3EC4E80", VA = "0x3EC4E80", Slot = "40")]
+	[Token(Token = "0x60000E6")]
+	[Address(RVA = "0x1D24290", Offset = "0x1D22890", VA = "0x181D24290", Slot = "40")]
 	public void OnJoinRandomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x3EC4A80", Offset = "0x3EC4A80", VA = "0x3EC4A80", Slot = "39")]
+	[Token(Token = "0x60000E7")]
+	[Address(RVA = "0x1D24450", Offset = "0x1D22A50", VA = "0x181D24450", Slot = "39")]
 	public void OnJoinRoomFailed(short returnCode, string message)
 	{
 	}
 
-	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x3EC9040", Offset = "0x3EC9040", VA = "0x3EC9040", Slot = "41")]
+	[Token(Token = "0x60000E8")]
+	[Address(RVA = "0x1D247B0", Offset = "0x1D22DB0", VA = "0x181D247B0", Slot = "41")]
 	public void OnLeftRoom()
 	{
 	}
 
-	[Token(Token = "0x60000EB")]
-	[Address(RVA = "0x3EC7AF0", Offset = "0x3EC7AF0", VA = "0x3EC7AF0", Slot = "35")]
+	[Token(Token = "0x60000E9")]
+	[Address(RVA = "0x1D240F0", Offset = "0x1D226F0", VA = "0x181D240F0", Slot = "35")]
 	public void OnFriendListUpdate(List<FriendInfo> friendList)
 	{
 	}

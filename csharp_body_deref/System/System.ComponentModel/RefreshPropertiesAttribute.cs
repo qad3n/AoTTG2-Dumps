@@ -9,59 +9,59 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200031F")]
+[Token(Token = "0x200022A")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class RefreshPropertiesAttribute : Attribute
 {
-	[Token(Token = "0x4000ECD")]
+	[Token(Token = "0x4000804")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly RefreshPropertiesAttribute All;
 
-	[Token(Token = "0x4000ECE")]
+	[Token(Token = "0x4000805")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly RefreshPropertiesAttribute Repaint;
 
-	[Token(Token = "0x4000ECF")]
+	[Token(Token = "0x4000806")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly RefreshPropertiesAttribute Default;
 
-	[Token(Token = "0x4000ED0")]
+	[Token(Token = "0x4000807")]
 	[FieldOffset(Offset = "0x10")]
 	private RefreshProperties refresh;
 
-	[Token(Token = "0x17000491")]
+	[Token(Token = "0x17000300")]
 	public RefreshProperties RefreshProperties
 	{
-		[Token(Token = "0x60014F6")]
-		[Address(RVA = "0x48DEC00", Offset = "0x48DEC00", VA = "0x48DEC00")]
+		[Token(Token = "0x6000F3E")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(RefreshProperties);
 		}
 	}
 
-	[Token(Token = "0x60014F5")]
-	[Address(RVA = "0x48DEBE0", Offset = "0x48DEBE0", VA = "0x48DEBE0")]
+	[Token(Token = "0x6000F3D")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public RefreshPropertiesAttribute(RefreshProperties refresh)
 	{
 	}
 
-	[Token(Token = "0x60014F7")]
-	[Address(RVA = "0x48DEC10", Offset = "0x48DEC10", VA = "0x48DEC10", Slot = "0")]
+	[Token(Token = "0x6000F3F")]
+	[Address(RVA = "0x28DADE0", Offset = "0x28D93E0", VA = "0x1828DADE0", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60014F8")]
-	[Address(RVA = "0x48DEC70", Offset = "0x48DEC70", VA = "0x48DEC70", Slot = "2")]
+	[Token(Token = "0x6000F40")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60014F9")]
-	[Address(RVA = "0x48DEC80", Offset = "0x48DEC80", VA = "0x48DEC80", Slot = "6")]
+	[Token(Token = "0x6000F41")]
+	[Address(RVA = "0x28DAE70", Offset = "0x28D9470", VA = "0x1828DAE70", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

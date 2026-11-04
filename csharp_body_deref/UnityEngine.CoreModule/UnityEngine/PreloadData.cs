@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000198")]
+[Token(Token = "0x20001D4")]
 internal class PreloadData : Object
 {
-	[Token(Token = "0x6000B7F")]
-	[Address(RVA = "0x4E04DA0", Offset = "0x4E04DA0", VA = "0x4E04DA0")]
+	[Token(Token = "0x6000F2A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal void PreloadDataDontStripMe()
 	{

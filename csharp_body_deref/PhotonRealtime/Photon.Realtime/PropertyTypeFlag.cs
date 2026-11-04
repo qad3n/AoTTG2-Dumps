@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000031")]
 [Flags]
 public enum PropertyTypeFlag : byte
 {
-	[Token(Token = "0x400019F")]
+	[Token(Token = "0x400019A")]
 	None = 0,
-	[Token(Token = "0x40001A0")]
+	[Token(Token = "0x400019B")]
 	Game = 1,
-	[Token(Token = "0x40001A1")]
+	[Token(Token = "0x400019C")]
 	Actor = 2,
-	[Token(Token = "0x40001A2")]
-	GameAndActor = 3
+	[Token(Token = "0x400019D")]
+	GameAndActor = Game | Actor
 }

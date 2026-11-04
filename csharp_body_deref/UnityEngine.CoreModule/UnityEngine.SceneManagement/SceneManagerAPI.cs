@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.SceneManagement;
 
-[Token(Token = "0x20001FD")]
+[Token(Token = "0x200024E")]
 public class SceneManagerAPI
 {
-	[Token(Token = "0x40006AC")]
+	[Token(Token = "0x4000756")]
 	[FieldOffset(Offset = "0x0")]
 	private static SceneManagerAPI s_DefaultAPI;
 
-	[Token(Token = "0x17000255")]
+	[Token(Token = "0x170002D9")]
 	internal static SceneManagerAPI ActiveAPI
 	{
-		[Token(Token = "0x6000DAB")]
-		[Address(RVA = "0x4E14360", Offset = "0x4E14360", VA = "0x4E14360")]
+		[Token(Token = "0x60011AB")]
+		[Address(RVA = "0x2F55F40", Offset = "0x2F54540", VA = "0x182F55F40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000256")]
+	[Token(Token = "0x170002DA")]
 	public static SceneManagerAPI overrideAPI
 	{
-		[Token(Token = "0x6000DAC")]
-		[Address(RVA = "0x4E14440", Offset = "0x4E14440", VA = "0x4E14440")]
+		[Token(Token = "0x60011AC")]
+		[Address(RVA = "0x2F56000", Offset = "0x2F54600", VA = "0x182F56000")]
 		[CompilerGenerated]
 		get
 		{
@@ -40,21 +40,21 @@ public class SceneManagerAPI
 		}
 	}
 
-	[Token(Token = "0x6000DAD")]
-	[Address(RVA = "0x4E144B0", Offset = "0x4E144B0", VA = "0x4E144B0")]
+	[Token(Token = "0x60011AD")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected internal SceneManagerAPI()
 	{
 	}
 
-	[Token(Token = "0x6000DAE")]
-	[Address(RVA = "0x4E144C0", Offset = "0x4E144C0", VA = "0x4E144C0", Slot = "4")]
+	[Token(Token = "0x60011AE")]
+	[Address(RVA = "0x2F55EA0", Offset = "0x2F544A0", VA = "0x182F55EA0", Slot = "4")]
 	protected internal virtual AsyncOperation LoadSceneAsyncByNameOrIndex(string sceneName, int sceneBuildIndex, LoadSceneParameters parameters, bool mustCompleteNextFrame)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DAF")]
-	[Address(RVA = "0x4E14510", Offset = "0x4E14510", VA = "0x4E14510", Slot = "5")]
+	[Token(Token = "0x60011AF")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 	protected internal virtual AsyncOperation LoadFirstScene(bool mustLoadAsync)
 	{
 		return null;

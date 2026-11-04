@@ -27,7 +27,7 @@ internal class JsonFormatterConverter : IFormatterConverter
 	private readonly JsonProperty? _member;
 
 	[Token(Token = "0x600082E")]
-	[Address(RVA = "0x3DD94F0", Offset = "0x3DD94F0", VA = "0x3DD94F0")]
+	[Address(RVA = "0x1C42CF0", Offset = "0x1C412F0", VA = "0x181C42CF0")]
 	public JsonFormatterConverter(JsonSerializerInternalReader reader, JsonISerializableContract contract, JsonProperty? member)
 	{
 	}
@@ -39,119 +39,119 @@ internal class JsonFormatterConverter : IFormatterConverter
 	}
 
 	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x3DD95D0", Offset = "0x3DD95D0", VA = "0x3DD95D0", Slot = "4")]
+	[Address(RVA = "0x1C42570", Offset = "0x1C40B70", VA = "0x181C42570", Slot = "4")]
 	public object Convert(object value, Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x3DD98A0", Offset = "0x3DD98A0", VA = "0x3DD98A0", Slot = "10")]
+	[Address(RVA = "0x1C42440", Offset = "0x1C40A40", VA = "0x181C42440", Slot = "10")]
 	public object Convert(object value, TypeCode typeCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000832")]
-	[Address(RVA = "0x3DD99D0", Offset = "0x3DD99D0", VA = "0x3DD99D0", Slot = "5")]
+	[Address(RVA = "0x1C42820", Offset = "0x1C40E20", VA = "0x181C42820", Slot = "5")]
 	public bool ToBoolean(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000833")]
-	[Address(RVA = "0x3DD9A20", Offset = "0x3DD9A20", VA = "0x3DD9A20", Slot = "11")]
+	[Address(RVA = "0x1C42870", Offset = "0x1C40E70", VA = "0x181C42870", Slot = "11")]
 	public byte ToByte(object value)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x6000834")]
-	[Address(RVA = "0x3DD9A70", Offset = "0x3DD9A70", VA = "0x3DD9A70", Slot = "12")]
+	[Address(RVA = "0x1C428C0", Offset = "0x1C40EC0", VA = "0x181C428C0", Slot = "12")]
 	public char ToChar(object value)
 	{
 		return default(char);
 	}
 
 	[Token(Token = "0x6000835")]
-	[Address(RVA = "0x3DD9AC0", Offset = "0x3DD9AC0", VA = "0x3DD9AC0", Slot = "13")]
+	[Address(RVA = "0x1C42910", Offset = "0x1C40F10", VA = "0x181C42910", Slot = "13")]
 	public DateTime ToDateTime(object value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6000836")]
-	[Address(RVA = "0x3DD9B10", Offset = "0x3DD9B10", VA = "0x3DD9B10", Slot = "14")]
+	[Address(RVA = "0x1C42960", Offset = "0x1C40F60", VA = "0x181C42960", Slot = "14")]
 	public decimal ToDecimal(object value)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
 	[Token(Token = "0x6000837")]
-	[Address(RVA = "0x3DD9B60", Offset = "0x3DD9B60", VA = "0x3DD9B60", Slot = "15")]
+	[Address(RVA = "0x1C429D0", Offset = "0x1C40FD0", VA = "0x181C429D0", Slot = "15")]
 	public double ToDouble(object value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000838")]
-	[Address(RVA = "0x3DD9BB0", Offset = "0x3DD9BB0", VA = "0x3DD9BB0", Slot = "16")]
+	[Address(RVA = "0x1C42A20", Offset = "0x1C41020", VA = "0x181C42A20", Slot = "16")]
 	public short ToInt16(object value)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x6000839")]
-	[Address(RVA = "0x3DD9C00", Offset = "0x3DD9C00", VA = "0x3DD9C00", Slot = "6")]
+	[Address(RVA = "0x1C42A70", Offset = "0x1C41070", VA = "0x181C42A70", Slot = "6")]
 	public int ToInt32(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600083A")]
-	[Address(RVA = "0x3DD9C50", Offset = "0x3DD9C50", VA = "0x3DD9C50", Slot = "7")]
+	[Address(RVA = "0x1C42AC0", Offset = "0x1C410C0", VA = "0x181C42AC0", Slot = "7")]
 	public long ToInt64(object value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600083B")]
-	[Address(RVA = "0x3DD9CA0", Offset = "0x3DD9CA0", VA = "0x3DD9CA0", Slot = "17")]
+	[Address(RVA = "0x1C42B10", Offset = "0x1C41110", VA = "0x181C42B10", Slot = "17")]
 	public sbyte ToSByte(object value)
 	{
 		return default(sbyte);
 	}
 
 	[Token(Token = "0x600083C")]
-	[Address(RVA = "0x3DD9CF0", Offset = "0x3DD9CF0", VA = "0x3DD9CF0", Slot = "8")]
+	[Address(RVA = "0x1C42B60", Offset = "0x1C41160", VA = "0x181C42B60", Slot = "8")]
 	public float ToSingle(object value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600083D")]
-	[Address(RVA = "0x3DD9D40", Offset = "0x3DD9D40", VA = "0x3DD9D40", Slot = "9")]
+	[Address(RVA = "0x1C42BB0", Offset = "0x1C411B0", VA = "0x181C42BB0", Slot = "9")]
 	public string ToString(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600083E")]
-	[Address(RVA = "0x3DD9D90", Offset = "0x3DD9D90", VA = "0x3DD9D90", Slot = "18")]
+	[Address(RVA = "0x1C42C00", Offset = "0x1C41200", VA = "0x181C42C00", Slot = "18")]
 	public ushort ToUInt16(object value)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x3DD9DE0", Offset = "0x3DD9DE0", VA = "0x3DD9DE0", Slot = "19")]
+	[Address(RVA = "0x1C42C50", Offset = "0x1C41250", VA = "0x181C42C50", Slot = "19")]
 	public uint ToUInt32(object value)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x3DD9E30", Offset = "0x3DD9E30", VA = "0x3DD9E30", Slot = "20")]
+	[Address(RVA = "0x1C42CA0", Offset = "0x1C412A0", VA = "0x181C42CA0", Slot = "20")]
 	public ulong ToUInt64(object value)
 	{
 		return default(ulong);

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x20007D8")]
+[Token(Token = "0x2000965")]
 public enum PhotonEventType
 {
-	[Token(Token = "0x400259E")]
+	[Token(Token = "0x4002E70")]
 	Instantiate,
-	[Token(Token = "0x400259F")]
+	[Token(Token = "0x4002E71")]
 	RPC
 }

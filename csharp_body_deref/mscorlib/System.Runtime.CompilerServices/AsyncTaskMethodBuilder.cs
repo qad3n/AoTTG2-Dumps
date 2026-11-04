@@ -11,137 +11,137 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000493")]
+[Token(Token = "0x20004C2")]
 public struct AsyncTaskMethodBuilder
 {
-	[Token(Token = "0x4001318")]
+	[Token(Token = "0x400131A")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Task<System.Threading.Tasks.VoidTaskResult> s_cachedCompleted;
 
-	[Token(Token = "0x4001319")]
+	[Token(Token = "0x400131B")]
 	[FieldOffset(Offset = "0x0")]
 	private AsyncTaskMethodBuilder<System.Threading.Tasks.VoidTaskResult> m_builder;
 
-	[Token(Token = "0x1700047E")]
+	[Token(Token = "0x17000481")]
 	public Task Task
 	{
-		[Token(Token = "0x60022CC")]
-		[Address(RVA = "0x3BC2B80", Offset = "0x3BC2B80", VA = "0x3BC2B80")]
+		[Token(Token = "0x600234C")]
+		[Address(RVA = "0x1A28B40", Offset = "0x1A27140", VA = "0x181A28B40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60022C7")]
-	[Address(RVA = "0x3BC2AF0", Offset = "0x3BC2AF0", VA = "0x3BC2AF0")]
+	[Token(Token = "0x6002347")]
+	[Address(RVA = "0x8ED550", Offset = "0x8EBB50", VA = "0x1808ED550")]
 	public static AsyncTaskMethodBuilder Create()
 	{
 		return default(AsyncTaskMethodBuilder);
 	}
 
-	[Token(Token = "0x60022C8")]
+	[Token(Token = "0x6002348")]
 	[DebuggerStepThrough]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022C9")]
-	[Address(RVA = "0x3BC2B10", Offset = "0x3BC2B10", VA = "0x3BC2B10")]
+	[Token(Token = "0x6002349")]
+	[Address(RVA = "0x1A28A50", Offset = "0x1A27050", VA = "0x181A28A50")]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
 
-	[Token(Token = "0x60022CA")]
+	[Token(Token = "0x600234A")]
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022CB")]
+	[Token(Token = "0x600234B")]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022CD")]
-	[Address(RVA = "0x3BC2BE0", Offset = "0x3BC2BE0", VA = "0x3BC2BE0")]
+	[Token(Token = "0x600234D")]
+	[Address(RVA = "0x1A289B0", Offset = "0x1A26FB0", VA = "0x181A289B0")]
 	public void SetResult()
 	{
 	}
 
-	[Token(Token = "0x60022CE")]
-	[Address(RVA = "0x3BC2C80", Offset = "0x3BC2C80", VA = "0x3BC2C80")]
+	[Token(Token = "0x600234E")]
+	[Address(RVA = "0x1A28940", Offset = "0x1A26F40", VA = "0x181A28940")]
 	public void SetException(Exception exception)
 	{
 	}
 }
-[Token(Token = "0x2000494")]
+[Token(Token = "0x20004C3")]
 public struct AsyncTaskMethodBuilder<TResult>
 {
-	[Token(Token = "0x400131A")]
+	[Token(Token = "0x400131C")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly Task<TResult> s_defaultResultTask;
 
-	[Token(Token = "0x400131B")]
+	[Token(Token = "0x400131D")]
 	[FieldOffset(Offset = "0x0")]
 	private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState;
 
-	[Token(Token = "0x400131C")]
+	[Token(Token = "0x400131E")]
 	[FieldOffset(Offset = "0x0")]
 	private Task<TResult> m_task;
 
-	[Token(Token = "0x1700047F")]
+	[Token(Token = "0x17000482")]
 	public Task<TResult> Task
 	{
-		[Token(Token = "0x60022D5")]
+		[Token(Token = "0x6002355")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60022D0")]
+	[Token(Token = "0x6002350")]
 	public static AsyncTaskMethodBuilder<TResult> Create()
 	{
 		return default(AsyncTaskMethodBuilder<TResult>);
 	}
 
-	[Token(Token = "0x60022D1")]
+	[Token(Token = "0x6002351")]
 	[DebuggerStepThrough]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022D2")]
+	[Token(Token = "0x6002352")]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
 
-	[Token(Token = "0x60022D3")]
+	[Token(Token = "0x6002353")]
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022D4")]
+	[Token(Token = "0x6002354")]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022D6")]
+	[Token(Token = "0x6002356")]
 	public void SetResult(TResult result)
 	{
 	}
 
-	[Token(Token = "0x60022D7")]
+	[Token(Token = "0x6002357")]
 	internal void SetResult(Task<TResult> completedTask)
 	{
 	}
 
-	[Token(Token = "0x60022D8")]
+	[Token(Token = "0x6002358")]
 	public void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x60022D9")]
+	[Token(Token = "0x6002359")]
 	internal static Task<TResult> GetTaskForResult(TResult result)
 	{
 		return null;

@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002F4")]
+[Token(Token = "0x20001FF")]
 internal static class CompModSwitches
 {
-	[Token(Token = "0x4000E40")]
+	[Token(Token = "0x4000777")]
 	[FieldOffset(Offset = "0x0")]
 	private static BooleanSwitch commonDesignerServices;
 
-	[Token(Token = "0x4000E41")]
+	[Token(Token = "0x4000778")]
 	[FieldOffset(Offset = "0x8")]
 	private static TraceSwitch eventLog;
 
-	[Token(Token = "0x1700044C")]
+	[Token(Token = "0x170002BB")]
 	public static BooleanSwitch CommonDesignerServices
 	{
-		[Token(Token = "0x600130B")]
-		[Address(RVA = "0x48AE470", Offset = "0x48AE470", VA = "0x48AE470")]
+		[Token(Token = "0x6000D53")]
+		[Address(RVA = "0x28AF270", Offset = "0x28AD870", VA = "0x1828AF270")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700044D")]
+	[Token(Token = "0x170002BC")]
 	public static TraceSwitch EventLog
 	{
-		[Token(Token = "0x600130C")]
-		[Address(RVA = "0x48AE550", Offset = "0x48AE550", VA = "0x48AE550")]
+		[Token(Token = "0x6000D54")]
+		[Address(RVA = "0x28AF350", Offset = "0x28AD950", VA = "0x1828AF350")]
 		get
 		{
 			return null;

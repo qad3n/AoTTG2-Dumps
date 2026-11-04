@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000030")]
 public static class Runtime
 {
-	[Token(Token = "0x400008A")]
+	[Token(Token = "0x400010C")]
 	[FieldOffset(Offset = "0x0")]
 	private static object dump;
 }

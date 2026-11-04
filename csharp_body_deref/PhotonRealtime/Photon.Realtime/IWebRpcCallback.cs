@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200001A")]
+[Token(Token = "0x2000018")]
 public interface IWebRpcCallback
 {
-	[Token(Token = "0x60000DB")]
+	[Token(Token = "0x60000D9")]
 	void OnWebRpcResponse(OperationResponse response);
 }

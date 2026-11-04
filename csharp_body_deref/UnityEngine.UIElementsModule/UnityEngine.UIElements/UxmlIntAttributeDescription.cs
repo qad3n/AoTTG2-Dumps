@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000425")]
+[Token(Token = "0x20004EE")]
 public class UxmlIntAttributeDescription : TypedUxmlAttributeDescription<int>
 {
-	[Token(Token = "0x6001AA5")]
-	[Address(RVA = "0x4F69E00", Offset = "0x4F69E00", VA = "0x4F69E00")]
+	[Token(Token = "0x6002670")]
+	[Address(RVA = "0x31571E0", Offset = "0x31557E0", VA = "0x1831571E0")]
 	public UxmlIntAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AA6")]
-	[Address(RVA = "0x4F69E90", Offset = "0x4F69E90", VA = "0x4F69E90", Slot = "4")]
+	[Token(Token = "0x6002671")]
+	[Address(RVA = "0x3156EE0", Offset = "0x31554E0", VA = "0x183156EE0", Slot = "4")]
 	public override int GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001AA7")]
-	[Address(RVA = "0x4F6A060", Offset = "0x4F6A060", VA = "0x4F6A060")]
+	[Token(Token = "0x6002672")]
+	[Address(RVA = "0x3157050", Offset = "0x3155650", VA = "0x183157050")]
 	public bool TryGetValueFromBag(IUxmlAttributes bag, CreationContext cc, ref int value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001AA8")]
-	[Address(RVA = "0x4F6A230", Offset = "0x4F6A230", VA = "0x4F6A230")]
+	[Token(Token = "0x6002673")]
+	[Address(RVA = "0x3156EA0", Offset = "0x31554A0", VA = "0x183156EA0")]
 	private static int ConvertValueToInt(string v, int defaultValue)
 	{
 		return default(int);

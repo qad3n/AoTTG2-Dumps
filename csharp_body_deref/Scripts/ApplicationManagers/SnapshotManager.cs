@@ -10,115 +10,115 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000796")]
+[Token(Token = "0x2000921")]
 internal class SnapshotManager : MonoBehaviour
 {
-	[Token(Token = "0x40024B5")]
+	[Token(Token = "0x4002D83")]
 	[FieldOffset(Offset = "0x0")]
 	private static SnapshotManager _instance;
 
-	[Token(Token = "0x40024B6")]
+	[Token(Token = "0x4002D84")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly string SnapshotPath;
 
-	[Token(Token = "0x40024B7")]
+	[Token(Token = "0x4002D85")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly string SnapshotTempPath;
 
-	[Token(Token = "0x40024B8")]
+	[Token(Token = "0x4002D86")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly string SnapshotFilePrefix;
 
-	[Token(Token = "0x40024B9")]
+	[Token(Token = "0x4002D87")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly int MaxSnapshots;
 
-	[Token(Token = "0x40024BA")]
+	[Token(Token = "0x4002D88")]
 	[FieldOffset(Offset = "0x24")]
 	private static int _currentSnapshotSaveId;
 
-	[Token(Token = "0x40024BB")]
+	[Token(Token = "0x4002D89")]
 	[FieldOffset(Offset = "0x28")]
 	private static int _maxSnapshotSaveId;
 
-	[Token(Token = "0x40024BC")]
+	[Token(Token = "0x4002D8A")]
 	[FieldOffset(Offset = "0x30")]
 	private static int[] _damages;
 
-	[Token(Token = "0x600494A")]
-	[Address(RVA = "0x43C0830", Offset = "0x43C0830", VA = "0x43C0830")]
+	[Token(Token = "0x60055C2")]
+	[Address(RVA = "0x2357B50", Offset = "0x2356150", VA = "0x182357B50")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x600494B")]
-	[Address(RVA = "0x43C0A20", Offset = "0x43C0A20", VA = "0x43C0A20")]
+	[Token(Token = "0x60055C3")]
+	[Address(RVA = "0x2357BE0", Offset = "0x23561E0", VA = "0x182357BE0")]
 	private void OnApplicationQuit()
 	{
 	}
 
-	[Token(Token = "0x600494C")]
-	[Address(RVA = "0x43C08B0", Offset = "0x43C08B0", VA = "0x43C08B0")]
+	[Token(Token = "0x60055C4")]
+	[Address(RVA = "0x23574C0", Offset = "0x2355AC0", VA = "0x1823574C0")]
 	private static void ClearTemp()
 	{
 	}
 
-	[Token(Token = "0x600494D")]
-	[Address(RVA = "0x43C0A80", Offset = "0x43C0A80", VA = "0x43C0A80")]
+	[Token(Token = "0x60055C5")]
+	[Address(RVA = "0x23577D0", Offset = "0x2355DD0", VA = "0x1823577D0")]
 	private static string GetFileName(int snapshotId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600494E")]
-	[Address(RVA = "0x43C0AF0", Offset = "0x43C0AF0", VA = "0x43C0AF0")]
+	[Token(Token = "0x60055C6")]
+	[Address(RVA = "0x2357200", Offset = "0x2355800", VA = "0x182357200")]
 	public static void AddSnapshot(Texture2D texture, int damage)
 	{
 	}
 
-	[Token(Token = "0x600494F")]
-	[Address(RVA = "0x43C0E30", Offset = "0x43C0E30", VA = "0x43C0E30")]
+	[Token(Token = "0x60055C7")]
+	[Address(RVA = "0x2357D20", Offset = "0x2356320", VA = "0x182357D20")]
 	private static byte[] SerializeSnapshot(Texture2D texture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004950")]
-	[Address(RVA = "0x43C1030", Offset = "0x43C1030", VA = "0x43C1030")]
+	[Token(Token = "0x60055C8")]
+	[Address(RVA = "0x23575C0", Offset = "0x2355BC0", VA = "0x1823575C0")]
 	private static Texture2D DeserializeSnapshot(byte[] bytes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004951")]
-	[Address(RVA = "0x43C11A0", Offset = "0x43C11A0", VA = "0x43C11A0")]
+	[Token(Token = "0x60055C9")]
+	[Address(RVA = "0x2357C20", Offset = "0x2356220", VA = "0x182357C20")]
 	public static void SaveSnapshotFinish(Texture2D texture, string fileName)
 	{
 	}
 
-	[Token(Token = "0x6004952")]
-	[Address(RVA = "0x43C1280", Offset = "0x43C1280", VA = "0x43C1280")]
+	[Token(Token = "0x60055CA")]
+	[Address(RVA = "0x2357730", Offset = "0x2355D30", VA = "0x182357730")]
 	public static int GetDamage(int index)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004953")]
-	[Address(RVA = "0x43C1340", Offset = "0x43C1340", VA = "0x43C1340")]
+	[Token(Token = "0x60055CB")]
+	[Address(RVA = "0x2357890", Offset = "0x2355E90", VA = "0x182357890")]
 	public static Texture2D GetSnapshot(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004954")]
-	[Address(RVA = "0x43C14E0", Offset = "0x43C14E0", VA = "0x43C14E0")]
+	[Token(Token = "0x60055CC")]
+	[Address(RVA = "0x2357840", Offset = "0x2355E40", VA = "0x182357840")]
 	public static int GetLength()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004955")]
-	[Address(RVA = "0x43C1550", Offset = "0x43C1550", VA = "0x43C1550")]
+	[Token(Token = "0x60055CD")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SnapshotManager()
 	{
 	}

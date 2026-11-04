@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace Unity.Jobs.LowLevel.Unsafe;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x200001B")]
 public enum ScheduleMode
 {
-	[Token(Token = "0x4000014")]
-	Run = 0,
 	[Token(Token = "0x4000015")]
+	Run = 0,
+	[Token(Token = "0x4000016")]
 	[Obsolete("Batched is obsolete, use Parallel or Single depending on job type. (UnityUpgradable) -> Parallel", false)]
 	Batched = 1,
-	[Token(Token = "0x4000016")]
-	Parallel = 1,
 	[Token(Token = "0x4000017")]
+	Parallel = Batched,
+	[Token(Token = "0x4000018")]
 	Single = 2
 }

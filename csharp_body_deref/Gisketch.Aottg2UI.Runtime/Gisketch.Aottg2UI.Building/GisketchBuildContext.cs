@@ -16,39 +16,39 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x2000088")]
+[Token(Token = "0x20000A1")]
 public sealed class GisketchBuildContext
 {
-	[Token(Token = "0x40002D5")]
+	[Token(Token = "0x4000366")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly GisketchManifestDefinition Manifest;
 
-	[Token(Token = "0x40002D6")]
+	[Token(Token = "0x4000367")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public readonly GisketchTheme Theme;
 
-	[Token(Token = "0x40002D7")]
+	[Token(Token = "0x4000368")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public readonly IGisketchLocalizer Localizer;
 
-	[Token(Token = "0x40002D8")]
+	[Token(Token = "0x4000369")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public readonly IGisketchActionHandler Actions;
 
-	[Token(Token = "0x40002D9")]
+	[Token(Token = "0x400036A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public readonly GisketchUIState State;
 
-	[Token(Token = "0x40002DA")]
+	[Token(Token = "0x400036B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public readonly GisketchComponentRegistry Registry;
 
-	[Token(Token = "0x40002DB")]
+	[Token(Token = "0x400036C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	public readonly Func<string, GisketchOverlayDefinition> DialogResolver;
 
-	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x3A73280", Offset = "0x3A73280", VA = "0x3A73280")]
+	[Token(Token = "0x60004E1")]
+	[Address(RVA = "0x18DA4A0", Offset = "0x18D8AA0", VA = "0x1818DA4A0")]
 	public GisketchBuildContext(GisketchManifestDefinition manifest, GisketchTheme theme, IGisketchLocalizer localizer, IGisketchActionHandler actions, GisketchUIState state, [Optional] GisketchComponentRegistry registry, [Optional] Func<string, GisketchOverlayDefinition> dialogResolver)
 	{
 	}

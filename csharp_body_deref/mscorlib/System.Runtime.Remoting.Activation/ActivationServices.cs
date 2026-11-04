@@ -12,66 +12,66 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x2000386")]
+[Token(Token = "0x20003B5")]
 internal class ActivationServices
 {
-	[Token(Token = "0x4000F19")]
+	[Token(Token = "0x4000F26")]
 	[FieldOffset(Offset = "0x0")]
 	private static IActivator _constructionActivator;
 
-	[Token(Token = "0x1700037D")]
+	[Token(Token = "0x1700037F")]
 	private static IActivator ConstructionActivator
 	{
-		[Token(Token = "0x6001DAE")]
-		[Address(RVA = "0x3B82610", Offset = "0x3B82610", VA = "0x3B82610")]
+		[Token(Token = "0x6001E1D")]
+		[Address(RVA = "0x19ED1E0", Offset = "0x19EB7E0", VA = "0x1819ED1E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001DAF")]
-	[Address(RVA = "0x3B769E0", Offset = "0x3B769E0", VA = "0x3B769E0")]
+	[Token(Token = "0x6001E1E")]
+	[Address(RVA = "0x19EC280", Offset = "0x19EA880", VA = "0x1819EC280")]
 	public static IMessage Activate(System.Runtime.Remoting.Proxies.RemotingProxy proxy, ConstructionCall ctorCall)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DB0")]
-	[Address(RVA = "0x3B826C0", Offset = "0x3B826C0", VA = "0x3B826C0")]
+	[Token(Token = "0x6001E1F")]
+	[Address(RVA = "0x19ED120", Offset = "0x19EB720", VA = "0x1819ED120")]
 	public static IMessage RemoteActivate(IConstructionCallMessage ctorCall)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DB1")]
-	[Address(RVA = "0x3B74A70", Offset = "0x3B74A70", VA = "0x3B74A70")]
+	[Token(Token = "0x6001E20")]
+	[Address(RVA = "0x19EC450", Offset = "0x19EAA50", VA = "0x1819EC450")]
 	public static ConstructionCall CreateConstructionCall(Type type, string activationUrl, object[] activationAttributes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DB2")]
-	[Address(RVA = "0x3B82930", Offset = "0x3B82930", VA = "0x3B82930")]
+	[Token(Token = "0x6001E21")]
+	[Address(RVA = "0x19ECCA0", Offset = "0x19EB2A0", VA = "0x1819ECCA0")]
 	public static IMessage CreateInstanceFromMessage(IConstructionCallMessage ctorCall)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DB3")]
-	[Address(RVA = "0x3B82D90", Offset = "0x3B82D90", VA = "0x3B82D90")]
+	[Token(Token = "0x6001E22")]
+	[Address(RVA = "0x19ECFD0", Offset = "0x19EB5D0", VA = "0x1819ECFD0")]
 	public static object CreateProxyForType(Type type)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001DB4")]
-	[Address(RVA = "0x3B82D80", Offset = "0x3B82D80", VA = "0x3B82D80")]
+	[Token(Token = "0x6001E23")]
+	[Address(RVA = "0x19EC440", Offset = "0x19EAA40", VA = "0x1819EC440")]
 	public static extern object AllocateUninitializedClassInstance(Type type);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001DB5")]
-	[Address(RVA = "0x3B82EB0", Offset = "0x3B82EB0", VA = "0x3B82EB0")]
+	[Token(Token = "0x6001E24")]
+	[Address(RVA = "0x19ED110", Offset = "0x19EB710", VA = "0x1819ED110")]
 	public static extern void EnableProxyActivation(Type type, bool enable);
 }

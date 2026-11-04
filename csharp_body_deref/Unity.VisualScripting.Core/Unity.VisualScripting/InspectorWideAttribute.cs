@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x200004A")]
 [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorWideAttribute : Attribute
 {
-	[Token(Token = "0x1700006F")]
+	[Token(Token = "0x17000070")]
 	public bool toEdge
 	{
-		[Token(Token = "0x6000204")]
-		[Address(RVA = "0x4CA3E40", Offset = "0x4CA3E40", VA = "0x4CA3E40")]
+		[Token(Token = "0x6000209")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000205")]
-		[Address(RVA = "0x4CA3E50", Offset = "0x4CA3E50", VA = "0x4CA3E50")]
+		[Token(Token = "0x600020A")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x4CA3E10", Offset = "0x4CA3E10", VA = "0x4CA3E10")]
+	[Token(Token = "0x6000207")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public InspectorWideAttribute()
 	{
 	}
 
-	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x4CA3E20", Offset = "0x4CA3E20", VA = "0x4CA3E20")]
+	[Token(Token = "0x6000208")]
+	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
 	public InspectorWideAttribute(bool toEdge)
 	{
 	}

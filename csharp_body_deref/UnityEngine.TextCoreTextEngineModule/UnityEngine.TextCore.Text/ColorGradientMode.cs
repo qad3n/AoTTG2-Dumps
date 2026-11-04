@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200003B")]
 public enum ColorGradientMode
 {
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40001A7")]
 	Single,
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40001A8")]
 	HorizontalGradient,
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40001A9")]
 	VerticalGradient,
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40001AA")]
 	FourCornersGradient
 }

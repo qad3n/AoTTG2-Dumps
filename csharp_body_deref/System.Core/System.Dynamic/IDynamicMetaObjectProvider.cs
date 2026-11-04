@@ -13,6 +13,6 @@ namespace System.Dynamic;
 [Token(Token = "0x2000277")]
 public interface IDynamicMetaObjectProvider
 {
-	[Token(Token = "0x6000C6D")]
+	[Token(Token = "0x6000C6C")]
 	DynamicMetaObject GetMetaObject(Expression parameter);
 }

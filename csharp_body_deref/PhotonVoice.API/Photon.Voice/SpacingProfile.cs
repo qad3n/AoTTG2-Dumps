@@ -10,42 +10,42 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000056")]
+[Token(Token = "0x2000054")]
 internal class SpacingProfile
 {
-	[Token(Token = "0x400014F")]
+	[Token(Token = "0x400014A")]
 	[FieldOffset(Offset = "0x10")]
 	private short[] buf;
 
-	[Token(Token = "0x4000150")]
+	[Token(Token = "0x400014B")]
 	[FieldOffset(Offset = "0x18")]
 	private bool[] info;
 
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x400014C")]
 	[FieldOffset(Offset = "0x20")]
 	private int capacity;
 
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x400014D")]
 	[FieldOffset(Offset = "0x24")]
 	private int ptr;
 
-	[Token(Token = "0x4000153")]
+	[Token(Token = "0x400014E")]
 	[FieldOffset(Offset = "0x28")]
 	private Stopwatch watch;
 
-	[Token(Token = "0x4000154")]
+	[Token(Token = "0x400014F")]
 	[FieldOffset(Offset = "0x30")]
 	private long watchLast;
 
-	[Token(Token = "0x4000155")]
+	[Token(Token = "0x4000150")]
 	[FieldOffset(Offset = "0x38")]
 	private bool flushed;
 
 	[Token(Token = "0x17000069")]
 	public string Dump
 	{
-		[Token(Token = "0x60001BF")]
-		[Address(RVA = "0x3F1BB00", Offset = "0x3F1BB00", VA = "0x3F1BB00")]
+		[Token(Token = "0x60001BD")]
+		[Address(RVA = "0x1D75C50", Offset = "0x1D74250", VA = "0x181D75C50")]
 		get
 		{
 			return null;
@@ -55,28 +55,28 @@ internal class SpacingProfile
 	[Token(Token = "0x1700006A")]
 	public int Max
 	{
-		[Token(Token = "0x60001C0")]
-		[Address(RVA = "0x3F1BD50", Offset = "0x3F1BD50", VA = "0x3F1BD50")]
+		[Token(Token = "0x60001BE")]
+		[Address(RVA = "0x1D75EB0", Offset = "0x1D744B0", VA = "0x181D75EB0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60001BC")]
-	[Address(RVA = "0x3F1B970", Offset = "0x3F1B970", VA = "0x3F1B970")]
+	[Token(Token = "0x60001BA")]
+	[Address(RVA = "0x1D75C20", Offset = "0x1D74220", VA = "0x181D75C20")]
 	public SpacingProfile(int capacity)
 	{
 	}
 
-	[Token(Token = "0x60001BD")]
-	[Address(RVA = "0x3F1B990", Offset = "0x3F1B990", VA = "0x3F1B990")]
+	[Token(Token = "0x60001BB")]
+	[Address(RVA = "0x1D759F0", Offset = "0x1D73FF0", VA = "0x181D759F0")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x60001BE")]
-	[Address(RVA = "0x3F1BA60", Offset = "0x3F1BA60", VA = "0x3F1BA60")]
+	[Token(Token = "0x60001BC")]
+	[Address(RVA = "0x1D75B50", Offset = "0x1D74150", VA = "0x181D75B50")]
 	public void Update(bool lost, bool flush)
 	{
 	}

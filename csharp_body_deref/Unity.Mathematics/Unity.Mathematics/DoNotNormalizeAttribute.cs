@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Unity.Mathematics;
 
-[Token(Token = "0x2000050")]
+[Token(Token = "0x2000005")]
 public class DoNotNormalizeAttribute : PropertyAttribute
 {
-	[Token(Token = "0x6001E36")]
-	[Address(RVA = "0x4B1DAF0", Offset = "0x4B1DAF0", VA = "0x4B1DAF0")]
+	[Token(Token = "0x6000029")]
+	[Address(RVA = "0x583E70", Offset = "0x582470", VA = "0x180583E70")]
 	public DoNotNormalizeAttribute()
 	{
 	}

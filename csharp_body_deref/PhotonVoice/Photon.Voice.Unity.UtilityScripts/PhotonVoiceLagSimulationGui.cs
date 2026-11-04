@@ -11,60 +11,60 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity.UtilityScripts;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200001F")]
 [RequireComponent(typeof(VoiceConnection))]
 public class PhotonVoiceLagSimulationGui : MonoBehaviour
 {
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x4000097")]
 	[FieldOffset(Offset = "0x20")]
 	private VoiceConnection voiceConnection;
 
-	[Token(Token = "0x400009D")]
+	[Token(Token = "0x4000098")]
 	[FieldOffset(Offset = "0x28")]
 	private Rect windowRect;
 
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x4000099")]
 	[FieldOffset(Offset = "0x38")]
 	private int windowId;
 
-	[Token(Token = "0x400009F")]
+	[Token(Token = "0x400009A")]
 	[FieldOffset(Offset = "0x3C")]
 	private bool visible;
 
-	[Token(Token = "0x40000A0")]
+	[Token(Token = "0x400009B")]
 	[FieldOffset(Offset = "0x40")]
 	private PhotonPeer peer;
 
-	[Token(Token = "0x40000A1")]
+	[Token(Token = "0x400009C")]
 	[FieldOffset(Offset = "0x48")]
 	private float debugLostPercent;
 
-	[Token(Token = "0x6000137")]
-	[Address(RVA = "0x3F508C0", Offset = "0x3F508C0", VA = "0x3F508C0")]
+	[Token(Token = "0x6000135")]
+	[Address(RVA = "0x1D8B270", Offset = "0x1D89870", VA = "0x181D8B270")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x6000138")]
-	[Address(RVA = "0x3F50AD0", Offset = "0x3F50AD0", VA = "0x3F50AD0")]
+	[Token(Token = "0x6000136")]
+	[Address(RVA = "0x1D8B150", Offset = "0x1D89750", VA = "0x181D8B150")]
 	private void OnGUI()
 	{
 	}
 
-	[Token(Token = "0x6000139")]
-	[Address(RVA = "0x3F50C60", Offset = "0x3F50C60", VA = "0x3F50C60")]
+	[Token(Token = "0x6000137")]
+	[Address(RVA = "0x1D8AB30", Offset = "0x1D89130", VA = "0x181D8AB30")]
 	private void NetSimHasNoPeerWindow(int windowId)
 	{
 	}
 
-	[Token(Token = "0x600013A")]
-	[Address(RVA = "0x3F50D30", Offset = "0x3F50D30", VA = "0x3F50D30")]
+	[Token(Token = "0x6000138")]
+	[Address(RVA = "0x1D8AB80", Offset = "0x1D89180", VA = "0x181D8AB80")]
 	private void NetSimWindow(int windowId)
 	{
 	}
 
-	[Token(Token = "0x600013B")]
-	[Address(RVA = "0x3F518C0", Offset = "0x3F518C0", VA = "0x3F518C0")]
+	[Token(Token = "0x6000139")]
+	[Address(RVA = "0x1D8B490", Offset = "0x1D89A90", VA = "0x181D8B490")]
 	public PhotonVoiceLagSimulationGui()
 	{
 	}

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000204")]
+[Token(Token = "0x2000258")]
 public interface IFocusRing
 {
-	[Token(Token = "0x6000D1D")]
+	[Token(Token = "0x6000F9D")]
 	FocusChangeDirection GetFocusChangeDirection(Focusable currentFocusable, EventBase e);
 
-	[Token(Token = "0x6000D1E")]
+	[Token(Token = "0x6000F9E")]
 	Focusable GetNextFocusable(Focusable currentFocusable, FocusChangeDirection direction);
 }

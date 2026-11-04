@@ -15,26 +15,26 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorVariableNameAttribute : Attribute
 {
-	[Token(Token = "0x170001E1")]
+	[Token(Token = "0x170001E4")]
 	public ActionDirection direction
 	{
-		[Token(Token = "0x60010FA")]
-		[Address(RVA = "0x4D643A0", Offset = "0x4D643A0", VA = "0x4D643A0")]
+		[Token(Token = "0x6001107")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
 			return default(ActionDirection);
 		}
-		[Token(Token = "0x60010FB")]
-		[Address(RVA = "0x4D643B0", Offset = "0x4D643B0", VA = "0x4D643B0")]
+		[Token(Token = "0x6001108")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60010F9")]
-	[Address(RVA = "0x4D64380", Offset = "0x4D64380", VA = "0x4D64380")]
+	[Token(Token = "0x6001106")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public InspectorVariableNameAttribute(ActionDirection direction)
 	{
 	}

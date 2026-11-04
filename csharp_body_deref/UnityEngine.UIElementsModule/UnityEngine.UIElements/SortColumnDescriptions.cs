@@ -8,158 +8,168 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Serializable]
-[Token(Token = "0x20000E9")]
+[Token(Token = "0x2000125")]
 [DefaultMember("Item")]
+[UxmlObject]
 public class SortColumnDescriptions : ICollection<SortColumnDescription>, IEnumerable<SortColumnDescription>, IEnumerable
 {
-	[Token(Token = "0x20000EA")]
+	[Token(Token = "0x2000126")]
+	[Obsolete("UxmlObjectFactory<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	internal class UxmlObjectFactory<T> : UxmlObjectFactory<T, UxmlObjectTraits<T>> where T : SortColumnDescriptions, new()
 	{
-		[Token(Token = "0x6000670")]
+		[Token(Token = "0x600089F")]
 		public UxmlObjectFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000EB")]
+	[Token(Token = "0x2000127")]
+	[Obsolete("UxmlObjectFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	internal class UxmlObjectFactory : UxmlObjectFactory<SortColumnDescriptions>
 	{
-		[Token(Token = "0x6000671")]
-		[Address(RVA = "0x4FF0C50", Offset = "0x4FF0C50", VA = "0x4FF0C50")]
+		[Token(Token = "0x60008A0")]
+		[Address(RVA = "0x3224F20", Offset = "0x3223520", VA = "0x183224F20")]
 		public UxmlObjectFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000EC")]
+	[Token(Token = "0x2000128")]
+	[Obsolete("UxmlObjectTraits<T> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	internal class UxmlObjectTraits<T> : UnityEngine.UIElements.UxmlObjectTraits<T> where T : SortColumnDescriptions
 	{
-		[Token(Token = "0x40003D5")]
+		[Token(Token = "0x4000537")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly UxmlObjectListAttributeDescription<SortColumnDescription> m_SortColumnDescriptions;
 
-		[Token(Token = "0x6000672")]
+		[Token(Token = "0x60008A1")]
 		public override void Init(ref T obj, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
-		[Token(Token = "0x6000673")]
+		[Token(Token = "0x60008A2")]
 		public UxmlObjectTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x40003D3")]
+	[Token(Token = "0x4000535")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	private readonly IList<SortColumnDescription> m_Descriptions;
 
-	[Token(Token = "0x1700011C")]
+	[Token(Token = "0x4000536")]
+	[FieldOffset(Offset = "0x18")]
+	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	private Action m_changed;
+
+	[Token(Token = "0x17000195")]
 	public int Count
 	{
-		[Token(Token = "0x600066C")]
-		[Address(RVA = "0x4FF0B20", Offset = "0x4FF0B20", VA = "0x4FF0B20", Slot = "4")]
+		[Token(Token = "0x600089B")]
+		[Address(RVA = "0x3224A00", Offset = "0x3223000", VA = "0x183224A00", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700011D")]
+	[Token(Token = "0x17000196")]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x600066D")]
-		[Address(RVA = "0x4FF0BB0", Offset = "0x4FF0BB0", VA = "0x4FF0BB0", Slot = "5")]
+		[Token(Token = "0x600089C")]
+		[Address(RVA = "0x3224A50", Offset = "0x3223050", VA = "0x183224A50", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1400001A")]
+	[Token(Token = "0x14000023")]
 	internal event Action changed
 	{
-		[Token(Token = "0x6000662")]
-		[Address(RVA = "0x4FF0190", Offset = "0x4FF0190", VA = "0x4FF0190")]
+		[Token(Token = "0x6000891")]
+		[Address(RVA = "0x3224960", Offset = "0x3222F60", VA = "0x183224960")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000663")]
-		[Address(RVA = "0x4FF0220", Offset = "0x4FF0220", VA = "0x4FF0220")]
+		[Token(Token = "0x6000892")]
+		[Address(RVA = "0x3224AA0", Offset = "0x32230A0", VA = "0x183224AA0")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x4FF02B0", Offset = "0x4FF02B0", VA = "0x4FF02B0", Slot = "11")]
+	[Token(Token = "0x6000893")]
+	[Address(RVA = "0x3224430", Offset = "0x3222A30", VA = "0x183224430", Slot = "11")]
 	public IEnumerator<SortColumnDescription> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x4FF0340", Offset = "0x4FF0340", VA = "0x4FF0340", Slot = "12")]
+	[Token(Token = "0x6000894")]
+	[Address(RVA = "0x3224430", Offset = "0x3222A30", VA = "0x183224430", Slot = "12")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x4FF03D0", Offset = "0x4FF03D0", VA = "0x4FF03D0", Slot = "6")]
+	[Token(Token = "0x6000895")]
+	[Address(RVA = "0x3223F70", Offset = "0x3222570", VA = "0x183223F70", Slot = "6")]
 	public void Add(SortColumnDescription item)
 	{
 	}
 
-	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x4FEDC00", Offset = "0x4FEDC00", VA = "0x4FEDC00", Slot = "7")]
+	[Token(Token = "0x6000896")]
+	[Address(RVA = "0x3223FE0", Offset = "0x32225E0", VA = "0x183223FE0", Slot = "7")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x4FF0990", Offset = "0x4FF0990", VA = "0x4FF0990", Slot = "8")]
+	[Token(Token = "0x6000897")]
+	[Address(RVA = "0x3224300", Offset = "0x3222900", VA = "0x183224300", Slot = "8")]
 	public bool Contains(SortColumnDescription item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x4FF0A40", Offset = "0x4FF0A40", VA = "0x4FF0A40", Slot = "9")]
+	[Token(Token = "0x6000898")]
+	[Address(RVA = "0x3224360", Offset = "0x3222960", VA = "0x183224360", Slot = "9")]
 	public void CopyTo(SortColumnDescription[] array, int arrayIndex)
 	{
 	}
 
-	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x4FF0760", Offset = "0x4FF0760", VA = "0x4FF0760", Slot = "10")]
+	[Token(Token = "0x6000899")]
+	[Address(RVA = "0x3224720", Offset = "0x3222D20", VA = "0x183224720", Slot = "10")]
 	public bool Remove(SortColumnDescription desc)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x4FF0B00", Offset = "0x4FF0B00", VA = "0x4FF0B00")]
+	[Token(Token = "0x600089A")]
+	[Address(RVA = "0x2952A50", Offset = "0x2951050", VA = "0x182952A50")]
 	private void OnDescriptionChanged(SortColumnDescription desc)
 	{
 	}
 
-	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x4FF0480", Offset = "0x4FF0480", VA = "0x4FF0480")]
+	[Token(Token = "0x600089D")]
+	[Address(RVA = "0x3224480", Offset = "0x3222A80", VA = "0x183224480")]
 	public void Insert(int index, SortColumnDescription desc)
 	{
 	}
 
-	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x4FEE1A0", Offset = "0x4FEE1A0", VA = "0x4FEE1A0")]
+	[Token(Token = "0x600089E")]
+	[Address(RVA = "0x32248E0", Offset = "0x3222EE0", VA = "0x1832248E0")]
 	public SortColumnDescriptions()
 	{
 	}

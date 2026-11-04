@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x2000036")]
 public enum UniTaskStatus
 {
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x4000090")]
 	Pending,
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x4000091")]
 	Succeeded,
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x4000092")]
 	Faulted,
-	[Token(Token = "0x400009B")]
+	[Token(Token = "0x4000093")]
 	Canceled
 }

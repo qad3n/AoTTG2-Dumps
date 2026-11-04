@@ -7,31 +7,33 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D3")]
+[Token(Token = "0x20000F4")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Export/Graphics/GraphicsBuffer.bindings.h")]
 [Flags]
 public enum ComputeBufferType
 {
-	[Token(Token = "0x400021F")]
+	[Token(Token = "0x4000275")]
 	Default = 0,
-	[Token(Token = "0x4000220")]
+	[Token(Token = "0x4000276")]
 	Raw = 1,
-	[Token(Token = "0x4000221")]
+	[Token(Token = "0x4000277")]
 	Append = 2,
-	[Token(Token = "0x4000222")]
+	[Token(Token = "0x4000278")]
 	Counter = 4,
-	[Token(Token = "0x4000223")]
+	[Token(Token = "0x4000279")]
 	Constant = 8,
-	[Token(Token = "0x4000224")]
+	[Token(Token = "0x400027A")]
 	Structured = 0x10,
-	[Token(Token = "0x4000225")]
+	[Token(Token = "0x400027B")]
 	[Obsolete("Enum member DrawIndirect has been deprecated. Use IndirectArguments instead (UnityUpgradable) -> IndirectArguments", false)]
 	DrawIndirect = 0x100,
-	[Token(Token = "0x4000226")]
-	IndirectArguments = 0x100,
-	[Token(Token = "0x4000227")]
+	[Token(Token = "0x400027C")]
+	IndirectArguments = DrawIndirect,
+	[Token(Token = "0x400027D")]
 	[Obsolete("Enum member GPUMemory has been deprecated. All compute buffers now follow the behavior previously defined by this member.", false)]
 	GPUMemory = 0x200
 }

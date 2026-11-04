@@ -21,42 +21,42 @@ public sealed class Namespace
 	[Token(Token = "0x2000100")]
 	private class Collection : KeyedCollection<string, Namespace>, IKeyedCollection<string, Namespace>, ICollection<Namespace>, IEnumerable<Namespace>, IEnumerable
 	{
-		[Token(Token = "0x60006BD")]
-		[Address(RVA = "0x4CD0930", Offset = "0x4CD0930", VA = "0x4CD0930", Slot = "39")]
+		[Token(Token = "0x60006C7")]
+		[Address(RVA = "0x2465FD0", Offset = "0x24645D0", VA = "0x182465FD0", Slot = "39")]
 		protected override string GetKeyForItem(Namespace item)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60006BE")]
-		[Address(RVA = "0x4CD06E0", Offset = "0x4CD06E0", VA = "0x4CD06E0", Slot = "42")]
+		[Token(Token = "0x60006C8")]
+		[Address(RVA = "0x2DC9A40", Offset = "0x2DC8040", VA = "0x182DC9A40", Slot = "42")]
 		public new bool TryGetValue(string key, out Namespace value)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60006BF")]
-		[Address(RVA = "0x4CD04E0", Offset = "0x4CD04E0", VA = "0x4CD04E0")]
+		[Token(Token = "0x60006C9")]
+		[Address(RVA = "0x2DC9C30", Offset = "0x2DC8230", VA = "0x182DC9C30")]
 		public Collection()
 		{
 		}
 
-		[Token(Token = "0x60006C0")]
-		[Address(RVA = "0x4CD0950", Offset = "0x4CD0950", VA = "0x4CD0950", Slot = "40")]
+		[Token(Token = "0x60006CA")]
+		[Address(RVA = "0x2DC9BE0", Offset = "0x2DC81E0", VA = "0x182DC9BE0", Slot = "40")]
 		private Namespace Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002ENamespace_003E_002Eget_Item(string key)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60006C1")]
-		[Address(RVA = "0x4CD09A0", Offset = "0x4CD09A0", VA = "0x4CD09A0", Slot = "43")]
+		[Token(Token = "0x60006CB")]
+		[Address(RVA = "0x2DC9B40", Offset = "0x2DC8140", VA = "0x182DC9B40", Slot = "43")]
 		private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002ENamespace_003E_002EContains(string key)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60006C2")]
-		[Address(RVA = "0x4CD09F0", Offset = "0x4CD09F0", VA = "0x4CD09F0", Slot = "44")]
+		[Token(Token = "0x60006CC")]
+		[Address(RVA = "0x2DC9B90", Offset = "0x2DC8190", VA = "0x182DC9B90", Slot = "44")]
 		private bool Unity_002EVisualScripting_002EIKeyedCollection_003CSystem_002EString_002CUnity_002EVisualScripting_002ENamespace_003E_002ERemove(string key)
 		{
 			return default(bool);
@@ -67,31 +67,31 @@ public sealed class Namespace
 	[CompilerGenerated]
 	private sealed class _003CAndAncestors_003Ed__21 : IEnumerable<Namespace>, IEnumerable, IEnumerator<Namespace>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001D9")]
+		[Token(Token = "0x40001D7")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001DA")]
+		[Token(Token = "0x40001D8")]
 		[FieldOffset(Offset = "0x18")]
 		private Namespace _003C_003E2__current;
 
-		[Token(Token = "0x40001DB")]
+		[Token(Token = "0x40001D9")]
 		[FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x40001DC")]
+		[Token(Token = "0x40001DA")]
 		[FieldOffset(Offset = "0x28")]
 		public Namespace _003C_003E4__this;
 
-		[Token(Token = "0x40001DD")]
+		[Token(Token = "0x40001DB")]
 		[FieldOffset(Offset = "0x30")]
 		private IEnumerator<Namespace> _003C_003E7__wrap1;
 
-		[Token(Token = "0x17000168")]
+		[Token(Token = "0x1700016B")]
 		private Namespace System_002ECollections_002EGeneric_002EIEnumerator_003CUnity_002EVisualScripting_002ENamespace_003E_002ECurrent
 		{
-			[Token(Token = "0x60006C7")]
-			[Address(RVA = "0x4CD1030", Offset = "0x4CD1030", VA = "0x4CD1030", Slot = "6")]
+			[Token(Token = "0x60006D1")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -99,11 +99,11 @@ public sealed class Namespace
 			}
 		}
 
-		[Token(Token = "0x17000169")]
+		[Token(Token = "0x1700016C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60006C9")]
-			[Address(RVA = "0x4CD1080", Offset = "0x4CD1080", VA = "0x4CD1080", Slot = "9")]
+			[Token(Token = "0x60006D3")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -111,50 +111,50 @@ public sealed class Namespace
 			}
 		}
 
-		[Token(Token = "0x60006C3")]
-		[Address(RVA = "0x4CD0370", Offset = "0x4CD0370", VA = "0x4CD0370")]
+		[Token(Token = "0x60006CD")]
+		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
 		[DebuggerHidden]
 		public _003CAndAncestors_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60006C4")]
-		[Address(RVA = "0x4CD0A40", Offset = "0x4CD0A40", VA = "0x4CD0A40", Slot = "7")]
+		[Token(Token = "0x60006CE")]
+		[Address(RVA = "0x2DDCBC0", Offset = "0x2DDB1C0", VA = "0x182DDCBC0", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60006C5")]
-		[Address(RVA = "0x4CD0AF0", Offset = "0x4CD0AF0", VA = "0x4CD0AF0", Slot = "8")]
+		[Token(Token = "0x60006CF")]
+		[Address(RVA = "0x2DDC7F0", Offset = "0x2DDADF0", VA = "0x182DDC7F0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60006C6")]
-		[Address(RVA = "0x4CD0F90", Offset = "0x4CD0F90", VA = "0x4CD0F90")]
+		[Token(Token = "0x60006D0")]
+		[Address(RVA = "0x2DDCC50", Offset = "0x2DDB250", VA = "0x182DDCC50")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60006C8")]
-		[Address(RVA = "0x4CD1040", Offset = "0x4CD1040", VA = "0x4CD1040", Slot = "10")]
+		[Token(Token = "0x60006D2")]
+		[Address(RVA = "0x2DDCB80", Offset = "0x2DDB180", VA = "0x182DDCB80", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60006CA")]
-		[Address(RVA = "0x4CD1090", Offset = "0x4CD1090", VA = "0x4CD1090", Slot = "4")]
+		[Token(Token = "0x60006D4")]
+		[Address(RVA = "0x2DDCAE0", Offset = "0x2DDB0E0", VA = "0x182DDCAE0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<Namespace> System_002ECollections_002EGeneric_002EIEnumerable_003CUnity_002EVisualScripting_002ENamespace_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60006CB")]
-		[Address(RVA = "0x4CD1130", Offset = "0x4CD1130", VA = "0x4CD1130", Slot = "5")]
+		[Token(Token = "0x60006D5")]
+		[Address(RVA = "0x2DDCAE0", Offset = "0x2DDB0E0", VA = "0x182DDCAE0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -166,31 +166,31 @@ public sealed class Namespace
 	[CompilerGenerated]
 	private sealed class _003Cget_Ancestors_003Ed__20 : IEnumerable<Namespace>, IEnumerable, IEnumerator<Namespace>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001DE")]
+		[Token(Token = "0x40001DC")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001DF")]
+		[Token(Token = "0x40001DD")]
 		[FieldOffset(Offset = "0x18")]
 		private Namespace _003C_003E2__current;
 
-		[Token(Token = "0x40001E0")]
+		[Token(Token = "0x40001DE")]
 		[FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x40001E1")]
+		[Token(Token = "0x40001DF")]
 		[FieldOffset(Offset = "0x28")]
 		public Namespace _003C_003E4__this;
 
-		[Token(Token = "0x40001E2")]
+		[Token(Token = "0x40001E0")]
 		[FieldOffset(Offset = "0x30")]
 		private Namespace _003Cancestor_003E5__2;
 
-		[Token(Token = "0x1700016A")]
+		[Token(Token = "0x1700016D")]
 		private Namespace System_002ECollections_002EGeneric_002EIEnumerator_003CUnity_002EVisualScripting_002ENamespace_003E_002ECurrent
 		{
-			[Token(Token = "0x60006CF")]
-			[Address(RVA = "0x4CD1260", Offset = "0x4CD1260", VA = "0x4CD1260", Slot = "6")]
+			[Token(Token = "0x60006D9")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -198,11 +198,11 @@ public sealed class Namespace
 			}
 		}
 
-		[Token(Token = "0x1700016B")]
+		[Token(Token = "0x1700016E")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60006D1")]
-			[Address(RVA = "0x4CD12B0", Offset = "0x4CD12B0", VA = "0x4CD12B0", Slot = "9")]
+			[Token(Token = "0x60006DB")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -210,44 +210,44 @@ public sealed class Namespace
 			}
 		}
 
-		[Token(Token = "0x60006CC")]
-		[Address(RVA = "0x4CD02C0", Offset = "0x4CD02C0", VA = "0x4CD02C0")]
+		[Token(Token = "0x60006D6")]
+		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
 		[DebuggerHidden]
 		public _003Cget_Ancestors_003Ed__20(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60006CD")]
-		[Address(RVA = "0x4CD1140", Offset = "0x4CD1140", VA = "0x4CD1140", Slot = "7")]
+		[Token(Token = "0x60006D7")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60006CE")]
-		[Address(RVA = "0x4CD1150", Offset = "0x4CD1150", VA = "0x4CD1150", Slot = "8")]
+		[Token(Token = "0x60006D8")]
+		[Address(RVA = "0x2DE22D0", Offset = "0x2DE08D0", VA = "0x182DE22D0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60006D0")]
-		[Address(RVA = "0x4CD1270", Offset = "0x4CD1270", VA = "0x4CD1270", Slot = "10")]
+		[Token(Token = "0x60006DA")]
+		[Address(RVA = "0x2DE2460", Offset = "0x2DE0A60", VA = "0x182DE2460", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60006D2")]
-		[Address(RVA = "0x4CD12C0", Offset = "0x4CD12C0", VA = "0x4CD12C0", Slot = "4")]
+		[Token(Token = "0x60006DC")]
+		[Address(RVA = "0x2DE23C0", Offset = "0x2DE09C0", VA = "0x182DE23C0", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<Namespace> System_002ECollections_002EGeneric_002EIEnumerable_003CUnity_002EVisualScripting_002ENamespace_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60006D3")]
-		[Address(RVA = "0x4CD1360", Offset = "0x4CD1360", VA = "0x4CD1360", Slot = "5")]
+		[Token(Token = "0x60006DD")]
+		[Address(RVA = "0x2DE23C0", Offset = "0x2DE09C0", VA = "0x182DE23C0", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -255,51 +255,15 @@ public sealed class Namespace
 		}
 	}
 
-	[Token(Token = "0x40001D7")]
+	[Token(Token = "0x40001D5")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Collection collection;
 
-	[Token(Token = "0x17000160")]
+	[Token(Token = "0x17000163")]
 	public Namespace Root
 	{
-		[Token(Token = "0x60006AB")]
-		[Address(RVA = "0x4CD01E0", Offset = "0x4CD01E0", VA = "0x4CD01E0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000161")]
-	public Namespace Parent
-	{
-		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x4CD01F0", Offset = "0x4CD01F0", VA = "0x4CD01F0")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000162")]
-	public string FullName
-	{
-		[Token(Token = "0x60006AD")]
-		[Address(RVA = "0x4CD0200", Offset = "0x4CD0200", VA = "0x4CD0200")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000163")]
-	public string Name
-	{
-		[Token(Token = "0x60006AE")]
-		[Address(RVA = "0x4CD0210", Offset = "0x4CD0210", VA = "0x4CD0210")]
+		[Token(Token = "0x60006B5")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -308,35 +272,35 @@ public sealed class Namespace
 	}
 
 	[Token(Token = "0x17000164")]
-	public bool IsRoot
+	public Namespace Parent
 	{
-		[Token(Token = "0x60006AF")]
-		[Address(RVA = "0x4CD0220", Offset = "0x4CD0220", VA = "0x4CD0220")]
+		[Token(Token = "0x60006B6")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000165")]
-	public bool IsGlobal
+	public string FullName
 	{
-		[Token(Token = "0x60006B0")]
-		[Address(RVA = "0x4CD0230", Offset = "0x4CD0230", VA = "0x4CD0230")]
+		[Token(Token = "0x60006B7")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000166")]
-	public IEnumerable<Namespace> Ancestors
+	public string Name
 	{
-		[Token(Token = "0x60006B1")]
-		[Address(RVA = "0x4CD0240", Offset = "0x4CD0240", VA = "0x4CD0240")]
-		[IteratorStateMachine(typeof(_003Cget_Ancestors_003Ed__20))]
+		[Token(Token = "0x60006B8")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
+		[CompilerGenerated]
 		get
 		{
 			return null;
@@ -344,10 +308,46 @@ public sealed class Namespace
 	}
 
 	[Token(Token = "0x17000167")]
+	public bool IsRoot
+	{
+		[Token(Token = "0x60006B9")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000168")]
+	public bool IsGlobal
+	{
+		[Token(Token = "0x60006BA")]
+		[Address(RVA = "0x1D6A540", Offset = "0x1D68B40", VA = "0x181D6A540")]
+		[CompilerGenerated]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000169")]
+	public IEnumerable<Namespace> Ancestors
+	{
+		[Token(Token = "0x60006BB")]
+		[Address(RVA = "0x2DDC4E0", Offset = "0x2DDAAE0", VA = "0x182DDC4E0")]
+		[IteratorStateMachine(typeof(_003Cget_Ancestors_003Ed__20))]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700016A")]
 	public static Namespace Global
 	{
-		[Token(Token = "0x60006B6")]
-		[Address(RVA = "0x4CD0520", Offset = "0x4CD0520", VA = "0x4CD0520")]
+		[Token(Token = "0x60006C0")]
+		[Address(RVA = "0x2DDC560", Offset = "0x2DDAB60", VA = "0x182DDC560")]
 		[CompilerGenerated]
 		get
 		{
@@ -355,77 +355,77 @@ public sealed class Namespace
 		}
 	}
 
-	[Token(Token = "0x60006AA")]
-	[Address(RVA = "0x4CCFEF0", Offset = "0x4CCFEF0", VA = "0x4CCFEF0")]
+	[Token(Token = "0x60006B4")]
+	[Address(RVA = "0x2DDC2B0", Offset = "0x2DDA8B0", VA = "0x182DDC2B0")]
 	private Namespace(string fullName)
 	{
 	}
 
-	[Token(Token = "0x60006B2")]
-	[Address(RVA = "0x4CD02F0", Offset = "0x4CD02F0", VA = "0x4CD02F0")]
+	[Token(Token = "0x60006BC")]
+	[Address(RVA = "0x2DDBE30", Offset = "0x2DDA430", VA = "0x182DDBE30")]
 	[IteratorStateMachine(typeof(_003CAndAncestors_003Ed__21))]
 	public IEnumerable<Namespace> AndAncestors()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B3")]
-	[Address(RVA = "0x4CD03A0", Offset = "0x4CD03A0", VA = "0x4CD03A0", Slot = "2")]
+	[Token(Token = "0x60006BD")]
+	[Address(RVA = "0x2DDC170", Offset = "0x2DDA770", VA = "0x182DDC170", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60006B4")]
-	[Address(RVA = "0x4CD03C0", Offset = "0x4CD03C0", VA = "0x4CD03C0", Slot = "3")]
+	[Token(Token = "0x60006BE")]
+	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B5")]
-	[Address(RVA = "0x4CD03D0", Offset = "0x4CD03D0", VA = "0x4CD03D0")]
+	[Token(Token = "0x60006BF")]
+	[Address(RVA = "0x2DDC190", Offset = "0x2DDA790", VA = "0x182DDC190")]
 	static Namespace()
 	{
 	}
 
-	[Token(Token = "0x60006B7")]
-	[Address(RVA = "0x4CD0590", Offset = "0x4CD0590", VA = "0x4CD0590")]
+	[Token(Token = "0x60006C1")]
+	[Address(RVA = "0x2DDBF40", Offset = "0x2DDA540", VA = "0x182DDBF40")]
 	public static Namespace FromFullName(string fullName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006B8")]
-	[Address(RVA = "0x4CD07C0", Offset = "0x4CD07C0", VA = "0x4CD07C0", Slot = "0")]
+	[Token(Token = "0x60006C2")]
+	[Address(RVA = "0x2DDBEB0", Offset = "0x2DDA4B0", VA = "0x182DDBEB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006B9")]
-	[Address(RVA = "0x4CD0180", Offset = "0x4CD0180", VA = "0x4CD0180")]
+	[Token(Token = "0x60006C3")]
+	[Address(RVA = "0x2DDC5B0", Offset = "0x2DDABB0", VA = "0x182DDC5B0")]
 	public static implicit operator Namespace(string fullName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006BA")]
-	[Address(RVA = "0x4CD0870", Offset = "0x4CD0870", VA = "0x4CD0870")]
+	[Token(Token = "0x60006C4")]
+	[Address(RVA = "0x2DDC600", Offset = "0x2DDAC00", VA = "0x182DDC600")]
 	public static implicit operator string(Namespace @namespace)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006BB")]
-	[Address(RVA = "0x4CD0840", Offset = "0x4CD0840", VA = "0x4CD0840")]
+	[Token(Token = "0x60006C5")]
+	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
 	public static bool operator ==(Namespace a, Namespace b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60006BC")]
-	[Address(RVA = "0x4CD0890", Offset = "0x4CD0890", VA = "0x4CD0890")]
+	[Token(Token = "0x60006C6")]
+	[Address(RVA = "0x2DDC620", Offset = "0x2DDAC20", VA = "0x182DDC620")]
 	public static bool operator !=(Namespace a, Namespace b)
 	{
 		return default(bool);

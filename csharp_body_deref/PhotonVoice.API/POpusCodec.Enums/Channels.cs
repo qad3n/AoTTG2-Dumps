@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000009")]
 public enum Channels
 {
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000028")]
 	Mono = 1,
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000029")]
 	Stereo
 }

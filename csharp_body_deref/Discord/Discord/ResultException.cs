@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200005E")]
+[Token(Token = "0x200005C")]
 public class ResultException : Exception
 {
-	[Token(Token = "0x4000101")]
-	[FieldOffset(Offset = "0x8C")]
+	[Token(Token = "0x40000FC")]
+	[FieldOffset(Offset = "0x90")]
 	public readonly Result Result;
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x232C7D0", Offset = "0x232C7D0", VA = "0x232C7D0")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x53A890", Offset = "0x538E90", VA = "0x18053A890")]
 	public ResultException(Result result)
 	{
 	}

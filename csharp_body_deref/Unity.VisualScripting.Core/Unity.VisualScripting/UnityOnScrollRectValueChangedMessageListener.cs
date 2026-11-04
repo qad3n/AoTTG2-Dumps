@@ -10,18 +10,18 @@ using UnityEngine;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x20000B7")]
+[Token(Token = "0x20000B6")]
 [AddComponentMenu("")]
 public sealed class UnityOnScrollRectValueChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x4CB6FF0", Offset = "0x4CB6FF0", VA = "0x4CB6FF0")]
+	[Token(Token = "0x600046F")]
+	[Address(RVA = "0x2DBEB40", Offset = "0x2DBD140", VA = "0x182DBEB40")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x4CB70B0", Offset = "0x4CB70B0", VA = "0x4CB70B0")]
+	[Token(Token = "0x6000470")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnScrollRectValueChangedMessageListener()
 	{
 	}

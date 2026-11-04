@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.LayoutData
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,177 +10,181 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200035C")]
+[Token(Token = "0x20003F1")]
 internal struct LayoutData : IStyleDataGroup<LayoutData>, IEquatable<LayoutData>
 {
-	[Token(Token = "0x4000A0B")]
+	[Token(Token = "0x4000C85")]
 	[FieldOffset(Offset = "0x0")]
 	public Align alignContent;
 
-	[Token(Token = "0x4000A0C")]
+	[Token(Token = "0x4000C86")]
 	[FieldOffset(Offset = "0x4")]
 	public Align alignItems;
 
-	[Token(Token = "0x4000A0D")]
+	[Token(Token = "0x4000C87")]
 	[FieldOffset(Offset = "0x8")]
 	public Align alignSelf;
 
-	[Token(Token = "0x4000A0E")]
+	[Token(Token = "0x4000C88")]
 	[FieldOffset(Offset = "0xC")]
+	public Ratio aspectRatio;
+
+	[Token(Token = "0x4000C89")]
+	[FieldOffset(Offset = "0x10")]
 	public float borderBottomWidth;
 
-	[Token(Token = "0x4000A0F")]
-	[FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x4000C8A")]
+	[FieldOffset(Offset = "0x14")]
 	public float borderLeftWidth;
 
-	[Token(Token = "0x4000A10")]
-	[FieldOffset(Offset = "0x14")]
+	[Token(Token = "0x4000C8B")]
+	[FieldOffset(Offset = "0x18")]
 	public float borderRightWidth;
 
-	[Token(Token = "0x4000A11")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000C8C")]
+	[FieldOffset(Offset = "0x1C")]
 	public float borderTopWidth;
 
-	[Token(Token = "0x4000A12")]
-	[FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x4000C8D")]
+	[FieldOffset(Offset = "0x20")]
 	public Length bottom;
 
-	[Token(Token = "0x4000A13")]
-	[FieldOffset(Offset = "0x24")]
+	[Token(Token = "0x4000C8E")]
+	[FieldOffset(Offset = "0x28")]
 	public DisplayStyle display;
 
-	[Token(Token = "0x4000A14")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4000C8F")]
+	[FieldOffset(Offset = "0x2C")]
 	public Length flexBasis;
 
-	[Token(Token = "0x4000A15")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x4000C90")]
+	[FieldOffset(Offset = "0x34")]
 	public FlexDirection flexDirection;
 
-	[Token(Token = "0x4000A16")]
-	[FieldOffset(Offset = "0x34")]
+	[Token(Token = "0x4000C91")]
+	[FieldOffset(Offset = "0x38")]
 	public float flexGrow;
 
-	[Token(Token = "0x4000A17")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000C92")]
+	[FieldOffset(Offset = "0x3C")]
 	public float flexShrink;
 
-	[Token(Token = "0x4000A18")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4000C93")]
+	[FieldOffset(Offset = "0x40")]
 	public Wrap flexWrap;
 
-	[Token(Token = "0x4000A19")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000C94")]
+	[FieldOffset(Offset = "0x44")]
 	public Length height;
 
-	[Token(Token = "0x4000A1A")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000C95")]
+	[FieldOffset(Offset = "0x4C")]
 	public Justify justifyContent;
 
-	[Token(Token = "0x4000A1B")]
-	[FieldOffset(Offset = "0x4C")]
+	[Token(Token = "0x4000C96")]
+	[FieldOffset(Offset = "0x50")]
 	public Length left;
 
-	[Token(Token = "0x4000A1C")]
-	[FieldOffset(Offset = "0x54")]
+	[Token(Token = "0x4000C97")]
+	[FieldOffset(Offset = "0x58")]
 	public Length marginBottom;
 
-	[Token(Token = "0x4000A1D")]
-	[FieldOffset(Offset = "0x5C")]
+	[Token(Token = "0x4000C98")]
+	[FieldOffset(Offset = "0x60")]
 	public Length marginLeft;
 
-	[Token(Token = "0x4000A1E")]
-	[FieldOffset(Offset = "0x64")]
+	[Token(Token = "0x4000C99")]
+	[FieldOffset(Offset = "0x68")]
 	public Length marginRight;
 
-	[Token(Token = "0x4000A1F")]
-	[FieldOffset(Offset = "0x6C")]
+	[Token(Token = "0x4000C9A")]
+	[FieldOffset(Offset = "0x70")]
 	public Length marginTop;
 
-	[Token(Token = "0x4000A20")]
-	[FieldOffset(Offset = "0x74")]
+	[Token(Token = "0x4000C9B")]
+	[FieldOffset(Offset = "0x78")]
 	public Length maxHeight;
 
-	[Token(Token = "0x4000A21")]
-	[FieldOffset(Offset = "0x7C")]
+	[Token(Token = "0x4000C9C")]
+	[FieldOffset(Offset = "0x80")]
 	public Length maxWidth;
 
-	[Token(Token = "0x4000A22")]
-	[FieldOffset(Offset = "0x84")]
+	[Token(Token = "0x4000C9D")]
+	[FieldOffset(Offset = "0x88")]
 	public Length minHeight;
 
-	[Token(Token = "0x4000A23")]
-	[FieldOffset(Offset = "0x8C")]
+	[Token(Token = "0x4000C9E")]
+	[FieldOffset(Offset = "0x90")]
 	public Length minWidth;
 
-	[Token(Token = "0x4000A24")]
-	[FieldOffset(Offset = "0x94")]
+	[Token(Token = "0x4000C9F")]
+	[FieldOffset(Offset = "0x98")]
 	public Length paddingBottom;
 
-	[Token(Token = "0x4000A25")]
-	[FieldOffset(Offset = "0x9C")]
+	[Token(Token = "0x4000CA0")]
+	[FieldOffset(Offset = "0xA0")]
 	public Length paddingLeft;
 
-	[Token(Token = "0x4000A26")]
-	[FieldOffset(Offset = "0xA4")]
+	[Token(Token = "0x4000CA1")]
+	[FieldOffset(Offset = "0xA8")]
 	public Length paddingRight;
 
-	[Token(Token = "0x4000A27")]
-	[FieldOffset(Offset = "0xAC")]
+	[Token(Token = "0x4000CA2")]
+	[FieldOffset(Offset = "0xB0")]
 	public Length paddingTop;
 
-	[Token(Token = "0x4000A28")]
-	[FieldOffset(Offset = "0xB4")]
+	[Token(Token = "0x4000CA3")]
+	[FieldOffset(Offset = "0xB8")]
 	public Position position;
 
-	[Token(Token = "0x4000A29")]
-	[FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x4000CA4")]
+	[FieldOffset(Offset = "0xBC")]
 	public Length right;
 
-	[Token(Token = "0x4000A2A")]
-	[FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x4000CA5")]
+	[FieldOffset(Offset = "0xC4")]
 	public Length top;
 
-	[Token(Token = "0x4000A2B")]
-	[FieldOffset(Offset = "0xC8")]
+	[Token(Token = "0x4000CA6")]
+	[FieldOffset(Offset = "0xCC")]
 	public Length width;
 
-	[Token(Token = "0x6001596")]
-	[Address(RVA = "0x50A9D50", Offset = "0x50A9D50", VA = "0x50A9D50", Slot = "4")]
+	[Token(Token = "0x6001D7A")]
+	[Address(RVA = "0x30EF2B0", Offset = "0x30ED8B0", VA = "0x1830EF2B0", Slot = "4")]
 	public LayoutData Copy()
 	{
 		return default(LayoutData);
 	}
 
-	[Token(Token = "0x6001597")]
-	[Address(RVA = "0x50A9D70", Offset = "0x50A9D70", VA = "0x50A9D70", Slot = "5")]
+	[Token(Token = "0x6001D7B")]
+	[Address(RVA = "0x30EF1C0", Offset = "0x30ED7C0", VA = "0x1830EF1C0", Slot = "5")]
 	public void CopyFrom(ref LayoutData other)
 	{
 	}
 
-	[Token(Token = "0x6001598")]
-	[Address(RVA = "0x50A9D80", Offset = "0x50A9D80", VA = "0x50A9D80")]
+	[Token(Token = "0x6001D7C")]
+	[Address(RVA = "0x30EF890", Offset = "0x30EDE90", VA = "0x1830EF890")]
 	public static bool operator ==(LayoutData lhs, LayoutData rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001599")]
-	[Address(RVA = "0x50AA160", Offset = "0x50AA160", VA = "0x50AA160", Slot = "6")]
+	[Token(Token = "0x6001D7D")]
+	[Address(RVA = "0x30EF4A0", Offset = "0x30EDAA0", VA = "0x1830EF4A0", Slot = "6")]
 	public bool Equals(LayoutData other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600159A")]
-	[Address(RVA = "0x50AA1C0", Offset = "0x50AA1C0", VA = "0x50AA1C0", Slot = "0")]
+	[Token(Token = "0x6001D7E")]
+	[Address(RVA = "0x30EF350", Offset = "0x30ED950", VA = "0x1830EF350", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600159B")]
-	[Address(RVA = "0x50AA280", Offset = "0x50AA280", VA = "0x50AA280", Slot = "2")]
+	[Token(Token = "0x6001D7F")]
+	[Address(RVA = "0x30EF5F0", Offset = "0x30EDBF0", VA = "0x1830EF5F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

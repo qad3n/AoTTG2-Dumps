@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000456")]
-internal enum GradientType
+[Token(Token = "0x200052C")]
+public enum GradientType
 {
-	[Token(Token = "0x4000CF1")]
+	[Token(Token = "0x400117E")]
 	Linear,
-	[Token(Token = "0x4000CF2")]
+	[Token(Token = "0x400117F")]
 	Radial
 }

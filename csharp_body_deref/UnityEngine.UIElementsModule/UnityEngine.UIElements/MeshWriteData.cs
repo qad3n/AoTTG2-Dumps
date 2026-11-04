@@ -7,30 +7,32 @@
 // ===============================================================
 using Il2CppDummyDll;
 using Unity.Collections;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000254")]
+[Token(Token = "0x20002D1")]
 public class MeshWriteData
 {
-	[Token(Token = "0x40008A0")]
+	[Token(Token = "0x4000AEB")]
 	[FieldOffset(Offset = "0x10")]
 	internal NativeSlice<Vertex> m_Vertices;
 
-	[Token(Token = "0x40008A1")]
+	[Token(Token = "0x4000AEC")]
 	[FieldOffset(Offset = "0x20")]
 	internal NativeSlice<ushort> m_Indices;
 
-	[Token(Token = "0x40008A2")]
+	[Token(Token = "0x4000AED")]
 	[FieldOffset(Offset = "0x30")]
 	internal int currentIndex;
 
-	[Token(Token = "0x40008A3")]
+	[Token(Token = "0x4000AEE")]
 	[FieldOffset(Offset = "0x34")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 	internal int currentVertex;
 
-	[Token(Token = "0x6000F60")]
-	[Address(RVA = "0x5074470", Offset = "0x5074470", VA = "0x5074470")]
+	[Token(Token = "0x6001312")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal MeshWriteData()
 	{
 	}

@@ -30,8 +30,8 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000262")]
 	public Expression Expression
 	{
-		[Token(Token = "0x6000BD5")]
-		[Address(RVA = "0x4509BA0", Offset = "0x4509BA0", VA = "0x4509BA0")]
+		[Token(Token = "0x6000BD4")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,8 +42,8 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000263")]
 	public BindingRestrictions Restrictions
 	{
-		[Token(Token = "0x6000BD6")]
-		[Address(RVA = "0x4509BB0", Offset = "0x4509BB0", VA = "0x4509BB0")]
+		[Token(Token = "0x6000BD5")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,8 +54,8 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000264")]
 	public object Value
 	{
-		[Token(Token = "0x6000BD7")]
-		[Address(RVA = "0x4508760", Offset = "0x4508760", VA = "0x4508760")]
+		[Token(Token = "0x6000BD6")]
+		[Address(RVA = "0x246C550", Offset = "0x246AB50", VA = "0x18246C550")]
 		get
 		{
 			return null;
@@ -65,8 +65,8 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000265")]
 	public bool HasValue
 	{
-		[Token(Token = "0x6000BD8")]
-		[Address(RVA = "0x45087D0", Offset = "0x45087D0", VA = "0x45087D0")]
+		[Token(Token = "0x6000BD7")]
+		[Address(RVA = "0x246C340", Offset = "0x246A940", VA = "0x18246C340")]
 		get
 		{
 			return default(bool);
@@ -76,8 +76,8 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000266")]
 	public Type RuntimeType
 	{
-		[Token(Token = "0x6000BD9")]
-		[Address(RVA = "0x4509BC0", Offset = "0x4509BC0", VA = "0x4509BC0")]
+		[Token(Token = "0x6000BD8")]
+		[Address(RVA = "0x246C480", Offset = "0x246AA80", VA = "0x18246C480")]
 		get
 		{
 			return null;
@@ -87,119 +87,119 @@ public class DynamicMetaObject
 	[Token(Token = "0x17000267")]
 	public Type LimitType
 	{
-		[Token(Token = "0x6000BDA")]
-		[Address(RVA = "0x4508900", Offset = "0x4508900", VA = "0x4508900")]
+		[Token(Token = "0x6000BD9")]
+		[Address(RVA = "0x246C3A0", Offset = "0x246A9A0", VA = "0x18246C3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000BD3")]
-	[Address(RVA = "0x4509A90", Offset = "0x4509A90", VA = "0x4509A90")]
+	[Token(Token = "0x6000BD2")]
+	[Address(RVA = "0x246C260", Offset = "0x246A860", VA = "0x18246C260")]
 	public DynamicMetaObject(Expression expression, BindingRestrictions restrictions)
 	{
 	}
 
-	[Token(Token = "0x6000BD4")]
-	[Address(RVA = "0x4509B70", Offset = "0x4509B70", VA = "0x4509B70")]
+	[Token(Token = "0x6000BD3")]
+	[Address(RVA = "0x246C170", Offset = "0x246A770", VA = "0x18246C170")]
 	public DynamicMetaObject(Expression expression, BindingRestrictions restrictions, object value)
 	{
 	}
 
-	[Token(Token = "0x6000BDB")]
-	[Address(RVA = "0x4509CF0", Offset = "0x4509CF0", VA = "0x4509CF0", Slot = "4")]
+	[Token(Token = "0x6000BDA")]
+	[Address(RVA = "0x246B8B0", Offset = "0x2469EB0", VA = "0x18246B8B0", Slot = "4")]
 	public virtual DynamicMetaObject BindConvert(ConvertBinder binder)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BDC")]
-	[Address(RVA = "0x4509D60", Offset = "0x4509D60", VA = "0x4509D60", Slot = "5")]
+	[Token(Token = "0x6000BDB")]
+	[Address(RVA = "0x246BB30", Offset = "0x246A130", VA = "0x18246BB30", Slot = "5")]
 	public virtual DynamicMetaObject BindGetMember(GetMemberBinder binder)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BDD")]
-	[Address(RVA = "0x4509DC0", Offset = "0x4509DC0", VA = "0x4509DC0", Slot = "6")]
+	[Token(Token = "0x6000BDC")]
+	[Address(RVA = "0x246BD20", Offset = "0x246A320", VA = "0x18246BD20", Slot = "6")]
 	public virtual DynamicMetaObject BindSetMember(SetMemberBinder binder, DynamicMetaObject value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BDE")]
-	[Address(RVA = "0x4509E20", Offset = "0x4509E20", VA = "0x4509E20", Slot = "7")]
+	[Token(Token = "0x6000BDD")]
+	[Address(RVA = "0x246BA40", Offset = "0x246A040", VA = "0x18246BA40", Slot = "7")]
 	public virtual DynamicMetaObject BindDeleteMember(DeleteMemberBinder binder)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BDF")]
-	[Address(RVA = "0x4509E90", Offset = "0x4509E90", VA = "0x4509E90", Slot = "8")]
+	[Token(Token = "0x6000BDE")]
+	[Address(RVA = "0x246BAB0", Offset = "0x246A0B0", VA = "0x18246BAB0", Slot = "8")]
 	public virtual DynamicMetaObject BindGetIndex(GetIndexBinder binder, DynamicMetaObject[] indexes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE0")]
-	[Address(RVA = "0x4509EF0", Offset = "0x4509EF0", VA = "0x4509EF0", Slot = "9")]
+	[Token(Token = "0x6000BDF")]
+	[Address(RVA = "0x246BCA0", Offset = "0x246A2A0", VA = "0x18246BCA0", Slot = "9")]
 	public virtual DynamicMetaObject BindSetIndex(SetIndexBinder binder, DynamicMetaObject[] indexes, DynamicMetaObject value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE1")]
-	[Address(RVA = "0x4509F60", Offset = "0x4509F60", VA = "0x4509F60", Slot = "10")]
+	[Token(Token = "0x6000BE0")]
+	[Address(RVA = "0x246B9B0", Offset = "0x2469FB0", VA = "0x18246B9B0", Slot = "10")]
 	public virtual DynamicMetaObject BindDeleteIndex(DeleteIndexBinder binder, DynamicMetaObject[] indexes)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE2")]
-	[Address(RVA = "0x4509FD0", Offset = "0x4509FD0", VA = "0x4509FD0", Slot = "11")]
+	[Token(Token = "0x6000BE1")]
+	[Address(RVA = "0x246BBA0", Offset = "0x246A1A0", VA = "0x18246BBA0", Slot = "11")]
 	public virtual DynamicMetaObject BindInvokeMember(InvokeMemberBinder binder, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE3")]
-	[Address(RVA = "0x450A030", Offset = "0x450A030", VA = "0x450A030", Slot = "12")]
+	[Token(Token = "0x6000BE2")]
+	[Address(RVA = "0x246BC20", Offset = "0x246A220", VA = "0x18246BC20", Slot = "12")]
 	public virtual DynamicMetaObject BindInvoke(InvokeBinder binder, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE4")]
-	[Address(RVA = "0x450A090", Offset = "0x450A090", VA = "0x450A090", Slot = "13")]
+	[Token(Token = "0x6000BE3")]
+	[Address(RVA = "0x246B920", Offset = "0x2469F20", VA = "0x18246B920", Slot = "13")]
 	public virtual DynamicMetaObject BindCreateInstance(CreateInstanceBinder binder, DynamicMetaObject[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE5")]
-	[Address(RVA = "0x450A100", Offset = "0x450A100", VA = "0x450A100", Slot = "14")]
+	[Token(Token = "0x6000BE4")]
+	[Address(RVA = "0x246BDA0", Offset = "0x246A3A0", VA = "0x18246BDA0", Slot = "14")]
 	public virtual DynamicMetaObject BindUnaryOperation(UnaryOperationBinder binder)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE6")]
-	[Address(RVA = "0x450A160", Offset = "0x450A160", VA = "0x450A160", Slot = "15")]
+	[Token(Token = "0x6000BE5")]
+	[Address(RVA = "0x246B820", Offset = "0x2469E20", VA = "0x18246B820", Slot = "15")]
 	public virtual DynamicMetaObject BindBinaryOperation(BinaryOperationBinder binder, DynamicMetaObject arg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE7")]
-	[Address(RVA = "0x450A1D0", Offset = "0x450A1D0", VA = "0x450A1D0", Slot = "16")]
+	[Token(Token = "0x6000BE6")]
+	[Address(RVA = "0x246C080", Offset = "0x246A680", VA = "0x18246C080", Slot = "16")]
 	public virtual IEnumerable<string> GetDynamicMemberNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x450A290", Offset = "0x450A290", VA = "0x450A290")]
+	[Token(Token = "0x6000BE7")]
+	[Address(RVA = "0x246BE10", Offset = "0x246A410", VA = "0x18246BE10")]
 	public static DynamicMetaObject Create(object value, Expression expression)
 	{
 		return null;

@@ -23,7 +23,7 @@ internal abstract class SyntaxTreeNode
 	public virtual bool IsRangeNode
 	{
 		[Token(Token = "0x6000FD8")]
-		[Address(RVA = "0x4846FB0", Offset = "0x4846FB0", VA = "0x4846FB0", Slot = "7")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -37,7 +37,7 @@ internal abstract class SyntaxTreeNode
 	public abstract void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos);
 
 	[Token(Token = "0x6000FD9")]
-	[Address(RVA = "0x4846FC0", Offset = "0x4846FC0", VA = "0x4846FC0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected SyntaxTreeNode()
 	{
 	}

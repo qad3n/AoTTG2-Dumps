@@ -58,7 +58,7 @@ public struct XRNodeState
 	public ulong uniqueID
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x510C2F0", Offset = "0x510C2F0", VA = "0x510C2F0")]
+		[Address(RVA = "0x1C442F0", Offset = "0x1C428F0", VA = "0x181C442F0")]
 		set
 		{
 		}
@@ -68,7 +68,7 @@ public struct XRNodeState
 	public XRNode nodeType
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x510C300", Offset = "0x510C300", VA = "0x510C300")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		set
 		{
 		}
@@ -78,7 +78,7 @@ public struct XRNodeState
 	public bool tracked
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x510C310", Offset = "0x510C310", VA = "0x510C310")]
+		[Address(RVA = "0x3315660", Offset = "0x3313C60", VA = "0x183315660")]
 		set
 		{
 		}

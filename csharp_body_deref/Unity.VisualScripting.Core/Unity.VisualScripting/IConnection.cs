@@ -12,17 +12,17 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000032")]
 public interface IConnection<out TSource, out TDestination>
 {
-	[Token(Token = "0x17000055")]
+	[Token(Token = "0x17000056")]
 	TSource source
 	{
-		[Token(Token = "0x60001C1")]
+		[Token(Token = "0x60001C5")]
 		get;
 	}
 
-	[Token(Token = "0x17000056")]
+	[Token(Token = "0x17000057")]
 	TDestination destination
 	{
-		[Token(Token = "0x60001C2")]
+		[Token(Token = "0x60001C6")]
 		get;
 	}
 }

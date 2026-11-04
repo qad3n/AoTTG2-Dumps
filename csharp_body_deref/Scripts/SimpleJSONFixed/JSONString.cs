@@ -13,90 +13,90 @@ namespace SimpleJSONFixed;
 [Token(Token = "0x2000052")]
 public class JSONString : JSONNode
 {
-	[Token(Token = "0x40001B0")]
+	[Token(Token = "0x40001BC")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_Data;
 
-	[Token(Token = "0x17000060")]
+	[Token(Token = "0x17000062")]
 	public override JSONNodeType Tag
 	{
-		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x3F7F650", Offset = "0x3F7F650", VA = "0x3F7F650", Slot = "4")]
+		[Token(Token = "0x6000275")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
 		}
 	}
 
-	[Token(Token = "0x17000061")]
+	[Token(Token = "0x17000063")]
 	public override bool IsString
 	{
-		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x3F7F660", Offset = "0x3F7F660", VA = "0x3F7F660", Slot = "13")]
+		[Token(Token = "0x6000276")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000062")]
+	[Token(Token = "0x17000064")]
 	public override string Value
 	{
-		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x3F7F690", Offset = "0x3F7F690", VA = "0x3F7F690", Slot = "9")]
+		[Token(Token = "0x6000278")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "9")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x3F7F6A0", Offset = "0x3F7F6A0", VA = "0x3F7F6A0", Slot = "10")]
+		[Token(Token = "0x6000279")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000267")]
-	[Address(RVA = "0x3F7F670", Offset = "0x3F7F670", VA = "0x3F7F670", Slot = "32")]
+	[Token(Token = "0x6000277")]
+	[Address(RVA = "0x1DC13A0", Offset = "0x1DBF9A0", VA = "0x181DC13A0", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
-	[Token(Token = "0x600026A")]
-	[Address(RVA = "0x3F799C0", Offset = "0x3F799C0", VA = "0x3F799C0")]
+	[Token(Token = "0x600027A")]
+	[Address(RVA = "0x1DC7080", Offset = "0x1DC5680", VA = "0x181DC7080")]
 	public JSONString(string aData)
 	{
 	}
 
-	[Token(Token = "0x600026B")]
-	[Address(RVA = "0x3F7F6B0", Offset = "0x3F7F6B0", VA = "0x3F7F6B0", Slot = "26")]
+	[Token(Token = "0x600027B")]
+	[Address(RVA = "0x1DC6D50", Offset = "0x1DC5350", VA = "0x181DC6D50", Slot = "26")]
 	public override JSONNode Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x3F7F750", Offset = "0x3F7F750", VA = "0x3F7F750", Slot = "31")]
+	[Token(Token = "0x600027C")]
+	[Address(RVA = "0x1DC6FE0", Offset = "0x1DC55E0", VA = "0x181DC6FE0", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}
 
-	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x3F7F7F0", Offset = "0x3F7F7F0", VA = "0x3F7F7F0", Slot = "0")]
+	[Token(Token = "0x600027D")]
+	[Address(RVA = "0x1DC6DF0", Offset = "0x1DC53F0", VA = "0x181DC6DF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x3F7F950", Offset = "0x3F7F950", VA = "0x3F7F950", Slot = "2")]
+	[Token(Token = "0x600027E")]
+	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x3F7F980", Offset = "0x3F7F980", VA = "0x3F7F980", Slot = "25")]
+	[Token(Token = "0x600027F")]
+	[Address(RVA = "0x1DC6D00", Offset = "0x1DC5300", VA = "0x181DC6D00", Slot = "25")]
 	public override void Clear()
 	{
 	}

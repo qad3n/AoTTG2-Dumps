@@ -1,153 +1,161 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.TwoPaneSplitViewResizer
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000126")]
+[Token(Token = "0x2000172")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal class TwoPaneSplitViewResizer : PointerManipulator
 {
-	[Token(Token = "0x40004E0")]
-	[FieldOffset(Offset = "0x30")]
+	[Token(Token = "0x40006C5")]
+	[FieldOffset(Offset = "0x28")]
 	private Vector3 m_Start;
 
-	[Token(Token = "0x40004E1")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x40006C6")]
+	[FieldOffset(Offset = "0x34")]
 	protected bool m_Active;
 
-	[Token(Token = "0x40004E2")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x40006C7")]
+	[FieldOffset(Offset = "0x38")]
 	private TwoPaneSplitView m_SplitView;
 
-	[Token(Token = "0x40004E3")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x40006C8")]
+	[FieldOffset(Offset = "0x40")]
 	private int m_Direction;
 
-	[Token(Token = "0x40004E4")]
-	[FieldOffset(Offset = "0x4C")]
+	[Token(Token = "0x40006C9")]
+	[FieldOffset(Offset = "0x44")]
 	private float m_Delta;
 
-	[Token(Token = "0x1700016A")]
+	[Token(Token = "0x170001FB")]
 	private TwoPaneSplitViewOrientation orientation
 	{
-		[Token(Token = "0x60007C6")]
-		[Address(RVA = "0x5005D50", Offset = "0x5005D50", VA = "0x5005D50")]
+		[Token(Token = "0x6000A9D")]
+		[Address(RVA = "0x324F890", Offset = "0x324DE90", VA = "0x18324F890")]
 		get
 		{
 			return default(TwoPaneSplitViewOrientation);
 		}
 	}
 
-	[Token(Token = "0x1700016B")]
+	[Token(Token = "0x170001FC")]
 	private VisualElement fixedPane
 	{
-		[Token(Token = "0x60007C7")]
-		[Address(RVA = "0x5005D70", Offset = "0x5005D70", VA = "0x5005D70")]
+		[Token(Token = "0x6000A9E")]
+		[Address(RVA = "0x324F6A0", Offset = "0x324DCA0", VA = "0x18324F6A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700016C")]
+	[Token(Token = "0x170001FD")]
 	private VisualElement flexedPane
 	{
-		[Token(Token = "0x60007C8")]
-		[Address(RVA = "0x5005D90", Offset = "0x5005D90", VA = "0x5005D90")]
+		[Token(Token = "0x6000A9F")]
+		[Address(RVA = "0x324F870", Offset = "0x324DE70", VA = "0x18324F870")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700016D")]
+	[Token(Token = "0x170001FE")]
 	private float fixedPaneMinDimension
 	{
-		[Token(Token = "0x60007C9")]
-		[Address(RVA = "0x5005DB0", Offset = "0x5005DB0", VA = "0x5005DB0")]
+		[Token(Token = "0x6000AA0")]
+		[Address(RVA = "0x324F600", Offset = "0x324DC00", VA = "0x18324F600")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700016E")]
+	[Token(Token = "0x170001FF")]
 	private float fixedPaneMargins
 	{
-		[Token(Token = "0x60007CA")]
-		[Address(RVA = "0x5005EE0", Offset = "0x5005EE0", VA = "0x5005EE0")]
+		[Token(Token = "0x6000AA1")]
+		[Address(RVA = "0x324F4F0", Offset = "0x324DAF0", VA = "0x18324F4F0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700016F")]
+	[Token(Token = "0x17000200")]
 	private float flexedPaneMinDimension
 	{
-		[Token(Token = "0x60007CB")]
-		[Address(RVA = "0x5006140", Offset = "0x5006140", VA = "0x5006140")]
+		[Token(Token = "0x6000AA2")]
+		[Address(RVA = "0x324F7D0", Offset = "0x324DDD0", VA = "0x18324F7D0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x17000201")]
 	private float flexedPaneMargin
 	{
-		[Token(Token = "0x60007CC")]
-		[Address(RVA = "0x5006270", Offset = "0x5006270", VA = "0x5006270")]
+		[Token(Token = "0x6000AA3")]
+		[Address(RVA = "0x324F6C0", Offset = "0x324DCC0", VA = "0x18324F6C0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60007CD")]
-	[Address(RVA = "0x5004630", Offset = "0x5004630", VA = "0x5004630")]
+	[Token(Token = "0x6000AA4")]
+	[Address(RVA = "0x324F3F0", Offset = "0x324D9F0", VA = "0x18324F3F0")]
 	public TwoPaneSplitViewResizer(TwoPaneSplitView splitView, int dir)
 	{
 	}
 
-	[Token(Token = "0x60007CE")]
-	[Address(RVA = "0x50064D0", Offset = "0x50064D0", VA = "0x50064D0", Slot = "5")]
+	[Token(Token = "0x6000AA5")]
+	[Address(RVA = "0x324F0D0", Offset = "0x324D6D0", VA = "0x18324F0D0", Slot = "5")]
 	protected override void RegisterCallbacksOnTarget()
 	{
 	}
 
-	[Token(Token = "0x60007CF")]
-	[Address(RVA = "0x5006660", Offset = "0x5006660", VA = "0x5006660", Slot = "6")]
+	[Token(Token = "0x6000AA6")]
+	[Address(RVA = "0x324F260", Offset = "0x324D860", VA = "0x18324F260", Slot = "6")]
 	protected override void UnregisterCallbacksFromTarget()
 	{
 	}
 
-	[Token(Token = "0x60007D0")]
-	[Address(RVA = "0x50067F0", Offset = "0x50067F0", VA = "0x50067F0")]
+	[Token(Token = "0x6000AA7")]
+	[Address(RVA = "0x324E1F0", Offset = "0x324C7F0", VA = "0x18324E1F0")]
 	public void ApplyDelta(float delta)
 	{
 	}
 
-	[Token(Token = "0x60007D1")]
-	[Address(RVA = "0x5006F80", Offset = "0x5006F80", VA = "0x5006F80")]
+	[Token(Token = "0x6000AA8")]
+	[Address(RVA = "0x324EB80", Offset = "0x324D180", VA = "0x18324EB80")]
 	protected void OnPointerDown(PointerDownEvent e)
 	{
 	}
 
-	[Token(Token = "0x60007D2")]
-	[Address(RVA = "0x5007040", Offset = "0x5007040", VA = "0x5007040")]
+	[Token(Token = "0x6000AA9")]
+	[Address(RVA = "0x324EC40", Offset = "0x324D240", VA = "0x18324EC40")]
 	protected void OnPointerMove(PointerMoveEvent e)
 	{
 	}
 
-	[Token(Token = "0x60007D3")]
-	[Address(RVA = "0x5007100", Offset = "0x5007100", VA = "0x5007100")]
+	[Token(Token = "0x6000AAA")]
+	[Address(RVA = "0x324F020", Offset = "0x324D620", VA = "0x18324F020")]
 	protected void OnPointerUp(PointerUpEvent e)
+	{
+	}
+
+	[Token(Token = "0x6000AAB")]
+	[Address(RVA = "0x324EB00", Offset = "0x324D100", VA = "0x18324EB00")]
+	protected void InterruptPointerMove(PointerMoveEvent e)
 	{
 	}
 }

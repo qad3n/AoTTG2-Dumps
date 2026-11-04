@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000218")]
+[Token(Token = "0x200028E")]
 internal interface IGroupManager
 {
-	[Token(Token = "0x6000DC6")]
+	[Token(Token = "0x6001161")]
 	void Init(IGroupBox groupBox);
 
-	[Token(Token = "0x6000DC7")]
+	[Token(Token = "0x6001162")]
 	void OnOptionSelectionChanged(IGroupBoxOption selectedOption);
 
-	[Token(Token = "0x6000DC8")]
+	[Token(Token = "0x6001163")]
 	void RegisterOption(IGroupBoxOption option);
 
-	[Token(Token = "0x6000DC9")]
+	[Token(Token = "0x6001164")]
 	void UnregisterOption(IGroupBoxOption option);
 }

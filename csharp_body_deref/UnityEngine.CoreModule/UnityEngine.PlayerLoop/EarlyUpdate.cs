@@ -12,207 +12,225 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000210")]
+[Token(Token = "0x2000261")]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct EarlyUpdate
 {
-	[Token(Token = "0x2000211")]
+	[Token(Token = "0x2000262")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PollPlayerConnection
 	{
 	}
 
-	[Token(Token = "0x2000212")]
+	[Token(Token = "0x2000263")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PollHtcsPlayerConnection
 	{
 	}
 
-	[Token(Token = "0x2000213")]
+	[Token(Token = "0x2000264")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct GpuTimestamp
 	{
 	}
 
-	[Token(Token = "0x2000214")]
+	[Token(Token = "0x2000265")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AnalyticsCoreStatsUpdate
 	{
 	}
 
-	[Token(Token = "0x2000215")]
+	[Token(Token = "0x2000266")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	public struct InsightsUpdate
+	{
+	}
+
+	[Token(Token = "0x2000267")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UnityWebRequestUpdate
 	{
 	}
 
-	[Token(Token = "0x2000216")]
+	[Token(Token = "0x2000268")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateStreamingManager
 	{
 	}
 
-	[Token(Token = "0x2000217")]
+	[Token(Token = "0x2000269")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ExecuteMainThreadJobs
 	{
 	}
 
-	[Token(Token = "0x2000218")]
+	[Token(Token = "0x200026A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ProcessMouseInWindow
 	{
 	}
 
-	[Token(Token = "0x2000219")]
+	[Token(Token = "0x200026B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ClearIntermediateRenderers
 	{
 	}
 
-	[Token(Token = "0x200021A")]
+	[Token(Token = "0x200026C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ClearLines
 	{
 	}
 
-	[Token(Token = "0x200021B")]
+	[Token(Token = "0x200026D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PresentBeforeUpdate
 	{
 	}
 
-	[Token(Token = "0x200021C")]
+	[Token(Token = "0x200026E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ResetFrameStatsAfterPresent
 	{
 	}
 
-	[Token(Token = "0x200021D")]
+	[Token(Token = "0x200026F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateAsyncReadbackManager
 	{
 	}
 
-	[Token(Token = "0x200021E")]
+	[Token(Token = "0x2000270")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateTextureStreamingManager
 	{
 	}
 
-	[Token(Token = "0x200021F")]
+	[Token(Token = "0x2000271")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdatePreloading
 	{
 	}
 
-	[Token(Token = "0x2000220")]
+	[Token(Token = "0x2000272")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateContentLoading
 	{
 	}
 
-	[Token(Token = "0x2000221")]
+	[Token(Token = "0x2000273")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	public struct UpdateAsyncInstantiate
+	{
+	}
+
+	[Token(Token = "0x2000274")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct RendererNotifyInvisible
 	{
 	}
 
-	[Token(Token = "0x2000222")]
+	[Token(Token = "0x2000275")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PlayerCleanupCachedData
 	{
 	}
 
-	[Token(Token = "0x2000223")]
+	[Token(Token = "0x2000276")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateMainGameViewRect
 	{
 	}
 
-	[Token(Token = "0x2000224")]
+	[Token(Token = "0x2000277")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateCanvasRectTransform
 	{
 	}
 
-	[Token(Token = "0x2000225")]
+	[Token(Token = "0x2000278")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateInputManager
 	{
 	}
 
-	[Token(Token = "0x2000226")]
+	[Token(Token = "0x2000279")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ProcessRemoteInput
 	{
 	}
 
-	[Token(Token = "0x2000227")]
+	[Token(Token = "0x200027A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct XRUpdate
 	{
 	}
 
-	[Token(Token = "0x2000228")]
+	[Token(Token = "0x200027B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunDelayedStartupFrame
 	{
 	}
 
-	[Token(Token = "0x2000229")]
+	[Token(Token = "0x200027C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateKinect
 	{
 	}
 
-	[Token(Token = "0x200022A")]
+	[Token(Token = "0x200027D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DeliverIosPlatformEvents
 	{
 	}
 
-	[Token(Token = "0x200022B")]
+	[Token(Token = "0x200027E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DispatchEventQueueEvents
 	{
 	}
 
-	[Token(Token = "0x200022C")]
+	[Token(Token = "0x200027F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct Physics2DEarlyUpdate
 	{
 	}
 
-	[Token(Token = "0x200022D")]
+	[Token(Token = "0x2000280")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PhysicsResetInterpolatedTransformPosition
 	{
 	}
 
-	[Token(Token = "0x200022E")]
+	[Token(Token = "0x2000281")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct SpriteAtlasManagerUpdate
 	{
 	}
 
-	[Token(Token = "0x200022F")]
-	[UnityEngine.Scripting.RequiredByNativeCode]
+	[Token(Token = "0x2000282")]
 	[Obsolete("TangoUpdate has been deprecated. Use ARCoreUpdate instead (UnityUpgradable) -> UnityEngine.PlayerLoop.EarlyUpdate/ARCoreUpdate", false)]
+	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct TangoUpdate
 	{
 	}
 
-	[Token(Token = "0x2000230")]
+	[Token(Token = "0x2000283")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ARCoreUpdate
 	{
 	}
 
-	[Token(Token = "0x2000231")]
+	[Token(Token = "0x2000284")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PerformanceAnalyticsUpdate
+	{
+	}
+
+	[Token(Token = "0x2000285")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	public struct TilemapRendererEarlyUpdate
 	{
 	}
 }

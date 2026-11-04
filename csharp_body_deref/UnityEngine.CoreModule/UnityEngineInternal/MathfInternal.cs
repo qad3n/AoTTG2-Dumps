@@ -10,7 +10,7 @@ using Unity.IL2CPP.CompilerServices;
 
 namespace UnityEngineInternal;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000006")]
 [Il2CppEagerStaticClassConstruction]
 public struct MathfInternal
 {

@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Photon.Chat;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x2000012")]
 public interface IChatClientListener
 {
-	[Token(Token = "0x6000089")]
+	[Token(Token = "0x6000087")]
 	void DebugReturn(DebugLevel level, string message);
 
-	[Token(Token = "0x600008A")]
+	[Token(Token = "0x6000088")]
 	void OnDisconnected();
 
-	[Token(Token = "0x600008B")]
+	[Token(Token = "0x6000089")]
 	void OnConnected();
 
-	[Token(Token = "0x600008C")]
+	[Token(Token = "0x600008A")]
 	void OnChatStateChange(ChatState state);
 
-	[Token(Token = "0x600008D")]
+	[Token(Token = "0x600008B")]
 	void OnGetMessages(string channelName, string[] senders, object[] messages);
 
-	[Token(Token = "0x600008E")]
+	[Token(Token = "0x600008C")]
 	void OnPrivateMessage(string sender, object message, string channelName);
 
-	[Token(Token = "0x600008F")]
+	[Token(Token = "0x600008D")]
 	void OnSubscribed(string[] channels, bool[] results);
 
-	[Token(Token = "0x6000090")]
+	[Token(Token = "0x600008E")]
 	void OnUnsubscribed(string[] channels);
 
-	[Token(Token = "0x6000091")]
+	[Token(Token = "0x600008F")]
 	void OnStatusUpdate(string user, int status, bool gotMessage, object message);
 
-	[Token(Token = "0x6000092")]
+	[Token(Token = "0x6000090")]
 	void OnUserSubscribed(string channel, string user);
 
-	[Token(Token = "0x6000093")]
+	[Token(Token = "0x6000091")]
 	void OnUserUnsubscribed(string channel, string user);
 }

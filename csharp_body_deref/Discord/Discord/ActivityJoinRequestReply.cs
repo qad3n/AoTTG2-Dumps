@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200002B")]
+[Token(Token = "0x2000029")]
 public enum ActivityJoinRequestReply
 {
-	[Token(Token = "0x400006A")]
+	[Token(Token = "0x4000065")]
 	No,
-	[Token(Token = "0x400006B")]
+	[Token(Token = "0x4000066")]
 	Yes,
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x4000067")]
 	Ignore
 }

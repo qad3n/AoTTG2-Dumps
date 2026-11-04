@@ -19,8 +19,8 @@ internal sealed class SetArrayItemInstruction : Instruction
 	[Token(Token = "0x1700014F")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x44C5700", Offset = "0x44C5700", VA = "0x44C5700", Slot = "4")]
+		[Token(Token = "0x60005D7")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -30,22 +30,22 @@ internal sealed class SetArrayItemInstruction : Instruction
 	[Token(Token = "0x17000150")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x44C5710", Offset = "0x44C5710", VA = "0x44C5710", Slot = "9")]
+		[Token(Token = "0x60005D8")]
+		[Address(RVA = "0x243F1F0", Offset = "0x243D7F0", VA = "0x18243F1F0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005D7")]
-	[Address(RVA = "0x44C56F0", Offset = "0x44C56F0", VA = "0x44C56F0")]
+	[Token(Token = "0x60005D6")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private SetArrayItemInstruction()
 	{
 	}
 
-	[Token(Token = "0x60005DA")]
-	[Address(RVA = "0x44C5740", Offset = "0x44C5740", VA = "0x44C5740", Slot = "8")]
+	[Token(Token = "0x60005D9")]
+	[Address(RVA = "0x243F0C0", Offset = "0x243D6C0", VA = "0x18243F0C0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

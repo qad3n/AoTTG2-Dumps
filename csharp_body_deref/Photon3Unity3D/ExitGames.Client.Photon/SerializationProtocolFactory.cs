@@ -13,7 +13,7 @@ namespace ExitGames.Client.Photon;
 internal static class SerializationProtocolFactory
 {
 	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x3E6C750", Offset = "0x3E6C750", VA = "0x3E6C750")]
+	[Address(RVA = "0x1CCDA20", Offset = "0x1CCC020", VA = "0x181CCDA20")]
 	internal static IProtocol Create(SerializationProtocol serializationProtocol)
 	{
 		return null;

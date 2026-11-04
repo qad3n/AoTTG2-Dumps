@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200018E")]
+[Token(Token = "0x20001D3")]
 public interface IEventHandler
 {
-	[Token(Token = "0x6000A9B")]
+	[Token(Token = "0x6000CAC")]
 	void SendEvent(EventBase e);
 }

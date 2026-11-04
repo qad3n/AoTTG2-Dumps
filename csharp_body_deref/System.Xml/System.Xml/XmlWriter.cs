@@ -37,7 +37,7 @@ public abstract class XmlWriter : IDisposable
 	public abstract void WriteDocType(string name, string pubid, string sysid, string subset);
 
 	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x47BA240", Offset = "0x47BA240", VA = "0x47BA240")]
+	[Address(RVA = "0x27165F0", Offset = "0x2714BF0", VA = "0x1827165F0")]
 	public void WriteStartElement(string localName, string ns)
 	{
 	}
@@ -52,19 +52,19 @@ public abstract class XmlWriter : IDisposable
 	public abstract void WriteFullEndElement();
 
 	[Token(Token = "0x6000686")]
-	[Address(RVA = "0x47BA260", Offset = "0x47BA260", VA = "0x47BA260")]
+	[Address(RVA = "0x2715C00", Offset = "0x2714200", VA = "0x182715C00")]
 	public void WriteAttributeString(string localName, string ns, string value)
 	{
 	}
 
 	[Token(Token = "0x6000687")]
-	[Address(RVA = "0x47BA2C0", Offset = "0x47BA2C0", VA = "0x47BA2C0")]
+	[Address(RVA = "0x2715C70", Offset = "0x2714270", VA = "0x182715C70")]
 	public void WriteAttributeString(string localName, string value)
 	{
 	}
 
 	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x47BA320", Offset = "0x47BA320", VA = "0x47BA320")]
+	[Address(RVA = "0x2715CE0", Offset = "0x27142E0", VA = "0x182715CE0")]
 	public void WriteAttributeString(string prefix, string localName, string ns, string value)
 	{
 	}
@@ -112,13 +112,13 @@ public abstract class XmlWriter : IDisposable
 	public abstract void WriteBase64(byte[] buffer, int index, int count);
 
 	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x47BA370", Offset = "0x47BA370", VA = "0x47BA370", Slot = "26")]
+	[Address(RVA = "0x2716000", Offset = "0x2714600", VA = "0x182716000", Slot = "26")]
 	public virtual void WriteBinHex(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x6000699")]
-	[Address(RVA = "0x47BA390", Offset = "0x47BA390", VA = "0x47BA390", Slot = "28")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "28")]
 	public virtual void Close()
 	{
 	}
@@ -130,57 +130,57 @@ public abstract class XmlWriter : IDisposable
 	public abstract string LookupPrefix(string ns);
 
 	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x47BA3A0", Offset = "0x47BA3A0", VA = "0x47BA3A0", Slot = "31")]
+	[Address(RVA = "0x2716620", Offset = "0x2714C20", VA = "0x182716620", Slot = "31")]
 	public virtual void WriteValue(string value)
 	{
 	}
 
 	[Token(Token = "0x600069D")]
-	[Address(RVA = "0x47BA3C0", Offset = "0x47BA3C0", VA = "0x47BA3C0", Slot = "32")]
+	[Address(RVA = "0x2715D30", Offset = "0x2714330", VA = "0x182715D30", Slot = "32")]
 	public virtual void WriteAttributes(XmlReader reader, bool defattr)
 	{
 	}
 
 	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x47BA790", Offset = "0x47BA790", VA = "0x47BA790", Slot = "33")]
+	[Address(RVA = "0x27160A0", Offset = "0x27146A0", VA = "0x1827160A0", Slot = "33")]
 	public virtual void WriteNode(XmlReader reader, bool defattr)
 	{
 	}
 
 	[Token(Token = "0x600069F")]
-	[Address(RVA = "0x47BAC50", Offset = "0x47BAC50", VA = "0x47BAC50")]
+	[Address(RVA = "0x2716030", Offset = "0x2714630", VA = "0x182716030")]
 	public void WriteElementString(string localName, string ns, string value)
 	{
 	}
 
 	[Token(Token = "0x60006A0")]
-	[Address(RVA = "0x47BACC0", Offset = "0x47BACC0", VA = "0x47BACC0", Slot = "4")]
+	[Address(RVA = "0x2715BE0", Offset = "0x27141E0", VA = "0x182715BE0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x60006A1")]
-	[Address(RVA = "0x47BACE0", Offset = "0x47BACE0", VA = "0x47BACE0", Slot = "34")]
+	[Address(RVA = "0x2715BA0", Offset = "0x27141A0", VA = "0x182715BA0", Slot = "34")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x60006A2")]
-	[Address(RVA = "0x47BAD20", Offset = "0x47BAD20", VA = "0x47BAD20")]
+	[Address(RVA = "0x2715AC0", Offset = "0x27140C0", VA = "0x182715AC0")]
 	public static XmlWriter Create(Stream output, XmlWriterSettings settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006A3")]
-	[Address(RVA = "0x47BB320", Offset = "0x47BB320", VA = "0x47BB320")]
+	[Address(RVA = "0x2715B30", Offset = "0x2714130", VA = "0x182715B30")]
 	public static XmlWriter Create(TextWriter output, XmlWriterSettings settings)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x47BB6E0", Offset = "0x47BB6E0", VA = "0x47BB6E0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlWriter()
 	{
 	}

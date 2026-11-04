@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000080")]
+[Token(Token = "0x200009C")]
 public enum WaterFXLevel
 {
-	[Token(Token = "0x40002AF")]
+	[Token(Token = "0x4000316")]
 	Off,
-	[Token(Token = "0x40002B0")]
+	[Token(Token = "0x4000317")]
 	Low,
-	[Token(Token = "0x40002B1")]
+	[Token(Token = "0x4000318")]
 	Medium,
-	[Token(Token = "0x40002B2")]
+	[Token(Token = "0x4000319")]
 	High
 }

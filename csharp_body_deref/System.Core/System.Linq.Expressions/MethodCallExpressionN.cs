@@ -21,29 +21,29 @@ internal sealed class MethodCallExpressionN : MethodCallExpression, IArgumentPro
 	[Token(Token = "0x170000CF")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x6000492")]
-		[Address(RVA = "0x44BD470", Offset = "0x44BD470", VA = "0x44BD470", Slot = "15")]
+		[Token(Token = "0x6000491")]
+		[Address(RVA = "0x243D310", Offset = "0x243B910", VA = "0x18243D310", Slot = "15")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x44BD340", Offset = "0x44BD340", VA = "0x44BD340")]
+	[Token(Token = "0x600048F")]
+	[Address(RVA = "0x243AAA0", Offset = "0x24390A0", VA = "0x18243AAA0")]
 	public MethodCallExpressionN(MethodInfo method, IReadOnlyList<Expression> args)
 	{
 	}
 
-	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x44BD3C0", Offset = "0x44BD3C0", VA = "0x44BD3C0", Slot = "14")]
+	[Token(Token = "0x6000490")]
+	[Address(RVA = "0x243D240", Offset = "0x243B840", VA = "0x18243D240", Slot = "14")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x44BD500", Offset = "0x44BD500", VA = "0x44BD500", Slot = "13")]
+	[Token(Token = "0x6000492")]
+	[Address(RVA = "0x243D2A0", Offset = "0x243B8A0", VA = "0x18243D2A0", Slot = "13")]
 	internal override MethodCallExpression Rewrite(Expression instance, IReadOnlyList<Expression> args)
 	{
 		return null;

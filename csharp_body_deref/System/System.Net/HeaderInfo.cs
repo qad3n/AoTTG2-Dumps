@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200015A")]
+[Token(Token = "0x20002E2")]
 internal class HeaderInfo
 {
-	[Token(Token = "0x40006EF")]
+	[Token(Token = "0x4000B05")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly bool IsRequestRestricted;
 
-	[Token(Token = "0x40006F0")]
+	[Token(Token = "0x4000B06")]
 	[FieldOffset(Offset = "0x11")]
 	internal readonly bool IsResponseRestricted;
 
-	[Token(Token = "0x40006F1")]
+	[Token(Token = "0x4000B07")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly HeaderParser Parser;
 
-	[Token(Token = "0x40006F2")]
+	[Token(Token = "0x4000B08")]
 	[FieldOffset(Offset = "0x20")]
 	internal readonly string HeaderName;
 
-	[Token(Token = "0x40006F3")]
+	[Token(Token = "0x4000B09")]
 	[FieldOffset(Offset = "0x28")]
 	internal readonly bool AllowMultiValues;
 
-	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x4965410", Offset = "0x4965410", VA = "0x4965410")]
+	[Token(Token = "0x6001429")]
+	[Address(RVA = "0x27CF230", Offset = "0x27CD830", VA = "0x1827CF230")]
 	internal HeaderInfo(string name, bool requestRestricted, bool responseRestricted, bool multi, HeaderParser p)
 	{
 	}

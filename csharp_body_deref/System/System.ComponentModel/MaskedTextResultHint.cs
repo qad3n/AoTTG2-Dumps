@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002C1")]
+[Token(Token = "0x20001CC")]
 public enum MaskedTextResultHint
 {
-	[Token(Token = "0x4000DD1")]
+	[Token(Token = "0x4000708")]
 	Unknown = 0,
-	[Token(Token = "0x4000DD2")]
+	[Token(Token = "0x4000709")]
 	CharacterEscaped = 1,
-	[Token(Token = "0x4000DD3")]
+	[Token(Token = "0x400070A")]
 	NoEffect = 2,
-	[Token(Token = "0x4000DD4")]
+	[Token(Token = "0x400070B")]
 	SideEffect = 3,
-	[Token(Token = "0x4000DD5")]
+	[Token(Token = "0x400070C")]
 	Success = 4,
-	[Token(Token = "0x4000DD6")]
+	[Token(Token = "0x400070D")]
 	AsciiCharacterExpected = -1,
-	[Token(Token = "0x4000DD7")]
+	[Token(Token = "0x400070E")]
 	AlphanumericCharacterExpected = -2,
-	[Token(Token = "0x4000DD8")]
+	[Token(Token = "0x400070F")]
 	DigitExpected = -3,
-	[Token(Token = "0x4000DD9")]
+	[Token(Token = "0x4000710")]
 	LetterExpected = -4,
-	[Token(Token = "0x4000DDA")]
+	[Token(Token = "0x4000711")]
 	SignedDigitExpected = -5,
-	[Token(Token = "0x4000DDB")]
+	[Token(Token = "0x4000712")]
 	InvalidInput = -51,
-	[Token(Token = "0x4000DDC")]
+	[Token(Token = "0x4000713")]
 	PromptCharNotAllowed = -52,
-	[Token(Token = "0x4000DDD")]
+	[Token(Token = "0x4000714")]
 	UnavailableEditPosition = -53,
-	[Token(Token = "0x4000DDE")]
+	[Token(Token = "0x4000715")]
 	NonEditPosition = -54,
-	[Token(Token = "0x4000DDF")]
+	[Token(Token = "0x4000716")]
 	PositionOutOfRange = -55
 }

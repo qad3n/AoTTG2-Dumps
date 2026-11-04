@@ -10,23 +10,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000439")]
+[Token(Token = "0x2000506")]
+[Obsolete("IUxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 public interface IBaseUxmlFactory
 {
-	[Token(Token = "0x1700071B")]
+	[Token(Token = "0x170009EA")]
 	string uxmlQualifiedName
 	{
-		[Token(Token = "0x6001AE3")]
+		[Token(Token = "0x60026B2")]
 		get;
 	}
 
-	[Token(Token = "0x1700071C")]
+	[Token(Token = "0x170009EB")]
 	Type uxmlType
 	{
-		[Token(Token = "0x6001AE4")]
+		[Token(Token = "0x60026B3")]
 		get;
 	}
 
-	[Token(Token = "0x6001AE5")]
+	[Token(Token = "0x60026B4")]
 	bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc);
 }

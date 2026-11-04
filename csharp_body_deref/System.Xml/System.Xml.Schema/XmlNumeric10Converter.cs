@@ -13,146 +13,146 @@ namespace System.Xml.Schema;
 internal class XmlNumeric10Converter : XmlBaseConverter
 {
 	[Token(Token = "0x60018C5")]
-	[Address(RVA = "0x4746A60", Offset = "0x4746A60", VA = "0x4746A60")]
+	[Address(RVA = "0x269C970", Offset = "0x269AF70", VA = "0x18269C970")]
 	protected XmlNumeric10Converter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x60018C6")]
-	[Address(RVA = "0x4746AC0", Offset = "0x4746AC0", VA = "0x4746AC0")]
+	[Address(RVA = "0x269B2E0", Offset = "0x26998E0", VA = "0x18269B2E0")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018C7")]
-	[Address(RVA = "0x4746B50", Offset = "0x4746B50", VA = "0x4746B50", Slot = "22")]
+	[Address(RVA = "0x269B810", Offset = "0x2699E10", VA = "0x18269B810", Slot = "22")]
 	public override decimal ToDecimal(string value)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
 	[Token(Token = "0x60018C8")]
-	[Address(RVA = "0x4746C00", Offset = "0x4746C00", VA = "0x4746C00", Slot = "23")]
+	[Address(RVA = "0x269B370", Offset = "0x2699970", VA = "0x18269B370", Slot = "23")]
 	public override decimal ToDecimal(object value)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
 	[Token(Token = "0x60018C9")]
-	[Address(RVA = "0x4747370", Offset = "0x4747370", VA = "0x4747370", Slot = "11")]
+	[Address(RVA = "0x269B900", Offset = "0x2699F00", VA = "0x18269B900", Slot = "11")]
 	public override int ToInt32(long value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60018CA")]
-	[Address(RVA = "0x47473E0", Offset = "0x47473E0", VA = "0x47473E0", Slot = "14")]
+	[Address(RVA = "0x269B950", Offset = "0x2699F50", VA = "0x18269B950", Slot = "14")]
 	public override int ToInt32(string value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60018CB")]
-	[Address(RVA = "0x47474D0", Offset = "0x47474D0", VA = "0x47474D0", Slot = "15")]
+	[Address(RVA = "0x269BA70", Offset = "0x269A070", VA = "0x18269BA70", Slot = "15")]
 	public override int ToInt32(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60018CC")]
-	[Address(RVA = "0x4747870", Offset = "0x4747870", VA = "0x4747870", Slot = "17")]
+	[Address(RVA = "0x269C3B0", Offset = "0x269A9B0", VA = "0x18269C3B0", Slot = "17")]
 	public override long ToInt64(int value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60018CD")]
-	[Address(RVA = "0x4747880", Offset = "0x4747880", VA = "0x4747880", Slot = "20")]
+	[Address(RVA = "0x269BE90", Offset = "0x269A490", VA = "0x18269BE90", Slot = "20")]
 	public override long ToInt64(string value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60018CE")]
-	[Address(RVA = "0x4747970", Offset = "0x4747970", VA = "0x4747970", Slot = "21")]
+	[Address(RVA = "0x269BFB0", Offset = "0x269A5B0", VA = "0x18269BFB0", Slot = "21")]
 	public override long ToInt64(object value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60018CF")]
-	[Address(RVA = "0x4747CF0", Offset = "0x4747CF0", VA = "0x4747CF0", Slot = "46")]
+	[Address(RVA = "0x269C890", Offset = "0x269AE90", VA = "0x18269C890", Slot = "46")]
 	public override string ToString(decimal value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D0")]
-	[Address(RVA = "0x4747DB0", Offset = "0x4747DB0", VA = "0x4747DB0", Slot = "44")]
+	[Address(RVA = "0x269C840", Offset = "0x269AE40", VA = "0x18269C840", Slot = "44")]
 	public override string ToString(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D1")]
-	[Address(RVA = "0x4747E10", Offset = "0x4747E10", VA = "0x4747E10", Slot = "45")]
+	[Address(RVA = "0x269C3C0", Offset = "0x269A9C0", VA = "0x18269C3C0", Slot = "45")]
 	public override string ToString(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D2")]
-	[Address(RVA = "0x4747E80", Offset = "0x4747E80", VA = "0x4747E80", Slot = "52")]
+	[Address(RVA = "0x269C410", Offset = "0x269AA10", VA = "0x18269C410", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D3")]
-	[Address(RVA = "0x4748220", Offset = "0x4748220", VA = "0x4748220", Slot = "56")]
+	[Address(RVA = "0x269AE50", Offset = "0x2699450", VA = "0x18269AE50", Slot = "56")]
 	public override object ChangeType(decimal value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D4")]
-	[Address(RVA = "0x47489C0", Offset = "0x47489C0", VA = "0x47489C0", Slot = "54")]
+	[Address(RVA = "0x269AA30", Offset = "0x2699030", VA = "0x18269AA30", Slot = "54")]
 	public override object ChangeType(int value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D5")]
-	[Address(RVA = "0x4748D90", Offset = "0x4748D90", VA = "0x4748D90", Slot = "55")]
+	[Address(RVA = "0x269A1A0", Offset = "0x26987A0", VA = "0x18269A1A0", Slot = "55")]
 	public override object ChangeType(long value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D6")]
-	[Address(RVA = "0x4749160", Offset = "0x4749160", VA = "0x4749160", Slot = "59")]
+	[Address(RVA = "0x269A5E0", Offset = "0x2698BE0", VA = "0x18269A5E0", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D7")]
-	[Address(RVA = "0x4749520", Offset = "0x4749520", VA = "0x4749520", Slot = "61")]
+	[Address(RVA = "0x2699040", Offset = "0x2697640", VA = "0x182699040", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D8")]
-	[Address(RVA = "0x4746FB0", Offset = "0x4746FB0", VA = "0x4746FB0")]
+	[Address(RVA = "0x26987C0", Offset = "0x2696DC0", VA = "0x1826987C0")]
 	private object ChangeTypeWildcardDestination(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018D9")]
-	[Address(RVA = "0x4748600", Offset = "0x4748600", VA = "0x4748600")]
+	[Address(RVA = "0x2698BE0", Offset = "0x26971E0", VA = "0x182698BE0")]
 	private object ChangeTypeWildcardSource(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

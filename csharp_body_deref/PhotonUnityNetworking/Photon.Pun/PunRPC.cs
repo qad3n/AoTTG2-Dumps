@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001B")]
 public class PunRPC : Attribute
 {
-	[Token(Token = "0x6000135")]
-	[Address(RVA = "0x3EFAB20", Offset = "0x3EFAB20", VA = "0x3EFAB20")]
+	[Token(Token = "0x6000133")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public PunRPC()
 	{
 	}

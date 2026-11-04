@@ -5,27 +5,31 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x2000517")]
+[Serializable]
+[Token(Token = "0x200060B")]
 internal struct FixedBuffer2<T> where T : struct
 {
-	[Token(Token = "0x4001108")]
+	[Token(Token = "0x400168C")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __0;
 
-	[Token(Token = "0x4001109")]
+	[Token(Token = "0x400168D")]
 	[FieldOffset(Offset = "0x0")]
+	[SerializeField]
 	private T __1;
 
-	[Token(Token = "0x170007F4")]
+	[Token(Token = "0x17000B06")]
 	public unsafe ref T this[int index]
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6001F4E")]
+		[Token(Token = "0x6002C9A")]
 		get
 		{
 			return ref *(T*)null;

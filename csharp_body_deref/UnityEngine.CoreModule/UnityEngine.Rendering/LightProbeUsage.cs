@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002BE")]
+[Token(Token = "0x200033A")]
 public enum LightProbeUsage
 {
-	[Token(Token = "0x40007C2")]
+	[Token(Token = "0x40008F2")]
 	Off = 0,
-	[Token(Token = "0x40007C3")]
+	[Token(Token = "0x40008F3")]
 	BlendProbes = 1,
-	[Token(Token = "0x40007C4")]
+	[Token(Token = "0x40008F4")]
 	UseProxyVolume = 2,
-	[Token(Token = "0x40007C5")]
+	[Token(Token = "0x40008F5")]
 	CustomProvided = 4
 }

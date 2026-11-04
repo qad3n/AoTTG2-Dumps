@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200012A")]
+[Token(Token = "0x2000151")]
 internal interface IValueTupleInternal : ITuple
 {
-	[Token(Token = "0x6000B97")]
+	[Token(Token = "0x6000BDD")]
 	int GetHashCode(IEqualityComparer comparer);
 
-	[Token(Token = "0x6000B98")]
+	[Token(Token = "0x6000BDE")]
 	string ToStringEnd();
 }

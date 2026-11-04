@@ -19,8 +19,8 @@ internal sealed class BranchTrueInstruction : OffsetInstruction
 	[Token(Token = "0x17000161")]
 	public override Instruction[] Cache
 	{
-		[Token(Token = "0x600060D")]
-		[Address(RVA = "0x44C77A0", Offset = "0x44C77A0", VA = "0x44C77A0", Slot = "11")]
+		[Token(Token = "0x600060C")]
+		[Address(RVA = "0x2429E90", Offset = "0x2428490", VA = "0x182429E90", Slot = "11")]
 		get
 		{
 			return null;
@@ -30,8 +30,8 @@ internal sealed class BranchTrueInstruction : OffsetInstruction
 	[Token(Token = "0x17000162")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600060E")]
-		[Address(RVA = "0x44C7830", Offset = "0x44C7830", VA = "0x44C7830", Slot = "9")]
+		[Token(Token = "0x600060D")]
+		[Address(RVA = "0x2429F20", Offset = "0x2428520", VA = "0x182429F20", Slot = "9")]
 		get
 		{
 			return null;
@@ -41,23 +41,23 @@ internal sealed class BranchTrueInstruction : OffsetInstruction
 	[Token(Token = "0x17000163")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x600060F")]
-		[Address(RVA = "0x44C7860", Offset = "0x44C7860", VA = "0x44C7860", Slot = "4")]
+		[Token(Token = "0x600060E")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000610")]
-	[Address(RVA = "0x44C7870", Offset = "0x44C7870", VA = "0x44C7870", Slot = "8")]
+	[Token(Token = "0x600060F")]
+	[Address(RVA = "0x2429E20", Offset = "0x2428420", VA = "0x182429E20", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x44C78D0", Offset = "0x44C78D0", VA = "0x44C78D0")]
+	[Token(Token = "0x6000610")]
+	[Address(RVA = "0x24296B0", Offset = "0x2427CB0", VA = "0x1824296B0")]
 	public BranchTrueInstruction()
 	{
 	}

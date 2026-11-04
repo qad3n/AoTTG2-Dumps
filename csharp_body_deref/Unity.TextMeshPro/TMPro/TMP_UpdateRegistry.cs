@@ -11,98 +11,98 @@ using UnityEngine.UI;
 
 namespace TMPro;
 
-[Token(Token = "0x20000A6")]
+[Token(Token = "0x20000A2")]
 public class TMP_UpdateRegistry
 {
-	[Token(Token = "0x4000608")]
+	[Token(Token = "0x4000595")]
 	[FieldOffset(Offset = "0x0")]
 	private static TMP_UpdateRegistry s_Instance;
 
-	[Token(Token = "0x4000609")]
+	[Token(Token = "0x4000596")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly List<ICanvasElement> m_LayoutRebuildQueue;
 
-	[Token(Token = "0x400060A")]
+	[Token(Token = "0x4000597")]
 	[FieldOffset(Offset = "0x18")]
 	private HashSet<int> m_LayoutQueueLookup;
 
-	[Token(Token = "0x400060B")]
+	[Token(Token = "0x4000598")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly List<ICanvasElement> m_GraphicRebuildQueue;
 
-	[Token(Token = "0x400060C")]
+	[Token(Token = "0x4000599")]
 	[FieldOffset(Offset = "0x28")]
 	private HashSet<int> m_GraphicQueueLookup;
 
-	[Token(Token = "0x17000172")]
+	[Token(Token = "0x17000188")]
 	public static TMP_UpdateRegistry instance
 	{
-		[Token(Token = "0x6000646")]
-		[Address(RVA = "0x4C9D410", Offset = "0x4C9D410", VA = "0x4C9D410")]
+		[Token(Token = "0x6000622")]
+		[Address(RVA = "0x2D68F50", Offset = "0x2D67550", VA = "0x182D68F50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000647")]
-	[Address(RVA = "0x4C9D4A0", Offset = "0x4C9D4A0", VA = "0x4C9D4A0")]
+	[Token(Token = "0x6000623")]
+	[Address(RVA = "0x2D68DF0", Offset = "0x2D673F0", VA = "0x182D68DF0")]
 	protected TMP_UpdateRegistry()
 	{
 	}
 
-	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x4C9D610", Offset = "0x4C9D610", VA = "0x4C9D610")]
+	[Token(Token = "0x6000624")]
+	[Address(RVA = "0x2D68AC0", Offset = "0x2D670C0", VA = "0x182D68AC0")]
 	public static void RegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 	}
 
-	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x4C9D6A0", Offset = "0x4C9D6A0", VA = "0x4C9D6A0")]
+	[Token(Token = "0x6000625")]
+	[Address(RVA = "0x2D68340", Offset = "0x2D66940", VA = "0x182D68340")]
 	private bool InternalRegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x4C9D7E0", Offset = "0x4C9D7E0", VA = "0x4C9D7E0")]
+	[Token(Token = "0x6000626")]
+	[Address(RVA = "0x2D68990", Offset = "0x2D66F90", VA = "0x182D68990")]
 	public static void RegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 	}
 
-	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x4C9D870", Offset = "0x4C9D870", VA = "0x4C9D870")]
+	[Token(Token = "0x6000627")]
+	[Address(RVA = "0x2D68200", Offset = "0x2D66800", VA = "0x182D68200")]
 	private bool InternalRegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x4C9D9B0", Offset = "0x4C9D9B0", VA = "0x4C9D9B0")]
+	[Token(Token = "0x6000628")]
+	[Address(RVA = "0x2D68680", Offset = "0x2D66C80", VA = "0x182D68680")]
 	private void PerformUpdateForCanvasRendererObjects()
 	{
 	}
 
-	[Token(Token = "0x600064D")]
-	[Address(RVA = "0x4C9DD50", Offset = "0x4C9DD50", VA = "0x4C9DD50")]
+	[Token(Token = "0x6000629")]
+	[Address(RVA = "0x2D68930", Offset = "0x2D66F30", VA = "0x182D68930")]
 	private void PerformUpdateForMeshRendererObjects()
 	{
 	}
 
-	[Token(Token = "0x600064E")]
-	[Address(RVA = "0x4C9DDB0", Offset = "0x4C9DDB0", VA = "0x4C9DDB0")]
+	[Token(Token = "0x600062A")]
+	[Address(RVA = "0x2D68BF0", Offset = "0x2D671F0", VA = "0x182D68BF0")]
 	public static void UnRegisterCanvasElementForRebuild(ICanvasElement element)
 	{
 	}
 
-	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x4C9DED0", Offset = "0x4C9DED0", VA = "0x4C9DED0")]
+	[Token(Token = "0x600062B")]
+	[Address(RVA = "0x2D68580", Offset = "0x2D66B80", VA = "0x182D68580")]
 	private void InternalUnRegisterCanvasElementForLayoutRebuild(ICanvasElement element)
 	{
 	}
 
-	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x4C9E020", Offset = "0x4C9E020", VA = "0x4C9E020")]
+	[Token(Token = "0x600062C")]
+	[Address(RVA = "0x2D68480", Offset = "0x2D66A80", VA = "0x182D68480")]
 	private void InternalUnRegisterCanvasElementForGraphicRebuild(ICanvasElement element)
 	{
 	}

@@ -9,57 +9,57 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200031D")]
+[Token(Token = "0x2000228")]
 [AttributeUsage(AttributeTargets.All)]
 public sealed class ParenthesizePropertyNameAttribute : Attribute
 {
-	[Token(Token = "0x4000EC7")]
+	[Token(Token = "0x40007FE")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ParenthesizePropertyNameAttribute Default;
 
-	[Token(Token = "0x4000EC8")]
+	[Token(Token = "0x40007FF")]
 	[FieldOffset(Offset = "0x10")]
 	private bool needParenthesis;
 
-	[Token(Token = "0x17000490")]
+	[Token(Token = "0x170002FF")]
 	public bool NeedParenthesis
 	{
-		[Token(Token = "0x60014F0")]
-		[Address(RVA = "0x48DEA80", Offset = "0x48DEA80", VA = "0x48DEA80")]
+		[Token(Token = "0x6000F38")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60014EE")]
-	[Address(RVA = "0x48DEA40", Offset = "0x48DEA40", VA = "0x48DEA40")]
+	[Token(Token = "0x6000F36")]
+	[Address(RVA = "0x28AA8F0", Offset = "0x28A8EF0", VA = "0x1828AA8F0")]
 	public ParenthesizePropertyNameAttribute()
 	{
 	}
 
-	[Token(Token = "0x60014EF")]
-	[Address(RVA = "0x48DEA60", Offset = "0x48DEA60", VA = "0x48DEA60")]
+	[Token(Token = "0x6000F37")]
+	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
 	public ParenthesizePropertyNameAttribute(bool needParenthesis)
 	{
 	}
 
-	[Token(Token = "0x60014F1")]
-	[Address(RVA = "0x48DEA90", Offset = "0x48DEA90", VA = "0x48DEA90", Slot = "0")]
+	[Token(Token = "0x6000F39")]
+	[Address(RVA = "0x28DA750", Offset = "0x28D8D50", VA = "0x1828DA750", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60014F2")]
-	[Address(RVA = "0x48DEAF0", Offset = "0x48DEAF0", VA = "0x48DEAF0", Slot = "2")]
+	[Token(Token = "0x6000F3A")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60014F3")]
-	[Address(RVA = "0x48DEB00", Offset = "0x48DEB00", VA = "0x48DEB00", Slot = "6")]
+	[Token(Token = "0x6000F3B")]
+	[Address(RVA = "0x28DA7E0", Offset = "0x28D8DE0", VA = "0x1828DA7E0", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

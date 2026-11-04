@@ -13,30 +13,30 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200010D")]
+[Token(Token = "0x2000135")]
 public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<string>, IEqualityComparer<string>
 {
-	[Token(Token = "0x40003C7")]
+	[Token(Token = "0x4000442")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly CultureAwareComparer s_invariantCulture;
 
-	[Token(Token = "0x40003C8")]
+	[Token(Token = "0x4000443")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly CultureAwareComparer s_invariantCultureIgnoreCase;
 
-	[Token(Token = "0x40003C9")]
+	[Token(Token = "0x4000444")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly System.OrdinalCaseSensitiveComparer s_ordinal;
 
-	[Token(Token = "0x40003CA")]
+	[Token(Token = "0x4000445")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly System.OrdinalIgnoreCaseComparer s_ordinalIgnoreCase;
 
 	[Token(Token = "0x170000AC")]
 	public static StringComparer InvariantCultureIgnoreCase
 	{
-		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x3CD0C50", Offset = "0x3CD0C50", VA = "0x3CD0C50")]
+		[Token(Token = "0x6000A48")]
+		[Address(RVA = "0x1B4D220", Offset = "0x1B4B820", VA = "0x181B4D220")]
 		get
 		{
 			return null;
@@ -46,8 +46,8 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	[Token(Token = "0x170000AD")]
 	public static StringComparer Ordinal
 	{
-		[Token(Token = "0x6000A04")]
-		[Address(RVA = "0x3CD0CC0", Offset = "0x3CD0CC0", VA = "0x3CD0CC0")]
+		[Token(Token = "0x6000A49")]
+		[Address(RVA = "0x1B4D2C0", Offset = "0x1B4B8C0", VA = "0x181B4D2C0")]
 		get
 		{
 			return null;
@@ -57,53 +57,53 @@ public abstract class StringComparer : IComparer, IEqualityComparer, IComparer<s
 	[Token(Token = "0x170000AE")]
 	public static StringComparer OrdinalIgnoreCase
 	{
-		[Token(Token = "0x6000A05")]
-		[Address(RVA = "0x3CD0D30", Offset = "0x3CD0D30", VA = "0x3CD0D30")]
+		[Token(Token = "0x6000A4A")]
+		[Address(RVA = "0x1B4D270", Offset = "0x1B4B870", VA = "0x181B4D270")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A06")]
-	[Address(RVA = "0x3CD0DA0", Offset = "0x3CD0DA0", VA = "0x3CD0DA0")]
+	[Token(Token = "0x6000A4B")]
+	[Address(RVA = "0x1B4CE30", Offset = "0x1B4B430", VA = "0x181B4CE30")]
 	public static StringComparer Create(CultureInfo culture, bool ignoreCase)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A07")]
-	[Address(RVA = "0x3CD0EA0", Offset = "0x3CD0EA0", VA = "0x3CD0EA0", Slot = "4")]
+	[Token(Token = "0x6000A4C")]
+	[Address(RVA = "0x1B4CCE0", Offset = "0x1B4B2E0", VA = "0x181B4CCE0", Slot = "4")]
 	public int Compare(object x, object y)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A08")]
-	[Address(RVA = "0x3CD1030", Offset = "0x3CD1030", VA = "0x3CD1030", Slot = "5")]
+	[Token(Token = "0x6000A4D")]
+	[Address(RVA = "0x1B4CEF0", Offset = "0x1B4B4F0", VA = "0x181B4CEF0", Slot = "5")]
 	public new bool Equals(object x, object y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A09")]
-	[Address(RVA = "0x3CD1090", Offset = "0x3CD1090", VA = "0x3CD1090", Slot = "6")]
+	[Token(Token = "0x6000A4E")]
+	[Address(RVA = "0x1B4CF60", Offset = "0x1B4B560", VA = "0x181B4CF60", Slot = "6")]
 	public int GetHashCode(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000A0A")]
+	[Token(Token = "0x6000A4F")]
 	public abstract int Compare(string x, string y);
 
-	[Token(Token = "0x6000A0B")]
+	[Token(Token = "0x6000A50")]
 	public abstract bool Equals(string x, string y);
 
-	[Token(Token = "0x6000A0C")]
+	[Token(Token = "0x6000A51")]
 	public abstract int GetHashCode(string obj);
 
-	[Token(Token = "0x6000A0D")]
-	[Address(RVA = "0x3CD1120", Offset = "0x3CD1120", VA = "0x3CD1120")]
+	[Token(Token = "0x6000A52")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected StringComparer()
 	{
 	}

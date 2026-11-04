@@ -11,1196 +11,1196 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [Serializable]
-[Token(Token = "0x200059B")]
+[Token(Token = "0x200056F")]
 public sealed class DateTimeFormatInfo : IFormatProvider, ICloneable
 {
-	[Token(Token = "0x200059C")]
+	[Token(Token = "0x2000570")]
 	internal class TokenHashValue
 	{
-		[Token(Token = "0x40017E1")]
+		[Token(Token = "0x4001632")]
 		[FieldOffset(Offset = "0x10")]
 		internal string tokenString;
 
-		[Token(Token = "0x40017E2")]
+		[Token(Token = "0x4001633")]
 		[FieldOffset(Offset = "0x18")]
 		internal System.TokenType tokenType;
 
-		[Token(Token = "0x40017E3")]
+		[Token(Token = "0x4001634")]
 		[FieldOffset(Offset = "0x1C")]
 		internal int tokenValue;
 
-		[Token(Token = "0x6002C09")]
-		[Address(RVA = "0x3C48C80", Offset = "0x3C48C80", VA = "0x3C48C80")]
+		[Token(Token = "0x6002927")]
+		[Address(RVA = "0x1A74560", Offset = "0x1A72B60", VA = "0x181A74560")]
 		internal TokenHashValue(string tokenString, System.TokenType tokenType, int tokenValue)
 		{
 		}
 	}
 
-	[Token(Token = "0x400178F")]
+	[Token(Token = "0x40015E0")]
 	[FieldOffset(Offset = "0x0")]
 	private static DateTimeFormatInfo s_invariantInfo;
 
 	[NonSerialized]
-	[Token(Token = "0x4001790")]
+	[Token(Token = "0x40015E1")]
 	[FieldOffset(Offset = "0x10")]
 	private System.Globalization.CultureData _cultureData;
 
-	[Token(Token = "0x4001791")]
+	[Token(Token = "0x40015E2")]
 	[FieldOffset(Offset = "0x18")]
 	private string _name;
 
 	[NonSerialized]
-	[Token(Token = "0x4001792")]
+	[Token(Token = "0x40015E3")]
 	[FieldOffset(Offset = "0x20")]
 	private string _langName;
 
 	[NonSerialized]
-	[Token(Token = "0x4001793")]
+	[Token(Token = "0x40015E4")]
 	[FieldOffset(Offset = "0x28")]
 	private CompareInfo _compareInfo;
 
 	[NonSerialized]
-	[Token(Token = "0x4001794")]
+	[Token(Token = "0x40015E5")]
 	[FieldOffset(Offset = "0x30")]
 	private CultureInfo _cultureInfo;
 
-	[Token(Token = "0x4001795")]
+	[Token(Token = "0x40015E6")]
 	[FieldOffset(Offset = "0x38")]
 	private string amDesignator;
 
-	[Token(Token = "0x4001796")]
+	[Token(Token = "0x40015E7")]
 	[FieldOffset(Offset = "0x40")]
 	private string pmDesignator;
 
-	[Token(Token = "0x4001797")]
+	[Token(Token = "0x40015E8")]
 	[FieldOffset(Offset = "0x48")]
 	private string dateSeparator;
 
-	[Token(Token = "0x4001798")]
+	[Token(Token = "0x40015E9")]
 	[FieldOffset(Offset = "0x50")]
 	private string generalShortTimePattern;
 
-	[Token(Token = "0x4001799")]
+	[Token(Token = "0x40015EA")]
 	[FieldOffset(Offset = "0x58")]
 	private string generalLongTimePattern;
 
-	[Token(Token = "0x400179A")]
+	[Token(Token = "0x40015EB")]
 	[FieldOffset(Offset = "0x60")]
 	private string timeSeparator;
 
-	[Token(Token = "0x400179B")]
+	[Token(Token = "0x40015EC")]
 	[FieldOffset(Offset = "0x68")]
 	private string monthDayPattern;
 
-	[Token(Token = "0x400179C")]
+	[Token(Token = "0x40015ED")]
 	[FieldOffset(Offset = "0x70")]
 	private string dateTimeOffsetPattern;
 
-	[Token(Token = "0x400179D")]
+	[Token(Token = "0x40015EE")]
 	private const string rfc1123Pattern = "ddd, dd MMM yyyy HH':'mm':'ss 'GMT'";
 
-	[Token(Token = "0x400179E")]
+	[Token(Token = "0x40015EF")]
 	private const string sortableDateTimePattern = "yyyy'-'MM'-'dd'T'HH':'mm':'ss";
 
-	[Token(Token = "0x400179F")]
+	[Token(Token = "0x40015F0")]
 	private const string universalSortableDateTimePattern = "yyyy'-'MM'-'dd HH':'mm':'ss'Z'";
 
-	[Token(Token = "0x40017A0")]
+	[Token(Token = "0x40015F1")]
 	[FieldOffset(Offset = "0x78")]
 	private Calendar calendar;
 
-	[Token(Token = "0x40017A1")]
+	[Token(Token = "0x40015F2")]
 	[FieldOffset(Offset = "0x80")]
 	private int firstDayOfWeek;
 
-	[Token(Token = "0x40017A2")]
+	[Token(Token = "0x40015F3")]
 	[FieldOffset(Offset = "0x84")]
 	private int calendarWeekRule;
 
-	[Token(Token = "0x40017A3")]
+	[Token(Token = "0x40015F4")]
 	[FieldOffset(Offset = "0x88")]
 	private string fullDateTimePattern;
 
-	[Token(Token = "0x40017A4")]
+	[Token(Token = "0x40015F5")]
 	[FieldOffset(Offset = "0x90")]
 	private string[] abbreviatedDayNames;
 
-	[Token(Token = "0x40017A5")]
+	[Token(Token = "0x40015F6")]
 	[FieldOffset(Offset = "0x98")]
 	private string[] m_superShortDayNames;
 
-	[Token(Token = "0x40017A6")]
+	[Token(Token = "0x40015F7")]
 	[FieldOffset(Offset = "0xA0")]
 	private string[] dayNames;
 
-	[Token(Token = "0x40017A7")]
+	[Token(Token = "0x40015F8")]
 	[FieldOffset(Offset = "0xA8")]
 	private string[] abbreviatedMonthNames;
 
-	[Token(Token = "0x40017A8")]
+	[Token(Token = "0x40015F9")]
 	[FieldOffset(Offset = "0xB0")]
 	private string[] monthNames;
 
-	[Token(Token = "0x40017A9")]
+	[Token(Token = "0x40015FA")]
 	[FieldOffset(Offset = "0xB8")]
 	private string[] genitiveMonthNames;
 
-	[Token(Token = "0x40017AA")]
+	[Token(Token = "0x40015FB")]
 	[FieldOffset(Offset = "0xC0")]
 	private string[] m_genitiveAbbreviatedMonthNames;
 
-	[Token(Token = "0x40017AB")]
+	[Token(Token = "0x40015FC")]
 	[FieldOffset(Offset = "0xC8")]
 	private string[] leapYearMonthNames;
 
-	[Token(Token = "0x40017AC")]
+	[Token(Token = "0x40015FD")]
 	[FieldOffset(Offset = "0xD0")]
 	private string longDatePattern;
 
-	[Token(Token = "0x40017AD")]
+	[Token(Token = "0x40015FE")]
 	[FieldOffset(Offset = "0xD8")]
 	private string shortDatePattern;
 
-	[Token(Token = "0x40017AE")]
+	[Token(Token = "0x40015FF")]
 	[FieldOffset(Offset = "0xE0")]
 	private string yearMonthPattern;
 
-	[Token(Token = "0x40017AF")]
+	[Token(Token = "0x4001600")]
 	[FieldOffset(Offset = "0xE8")]
 	private string longTimePattern;
 
-	[Token(Token = "0x40017B0")]
+	[Token(Token = "0x4001601")]
 	[FieldOffset(Offset = "0xF0")]
 	private string shortTimePattern;
 
-	[Token(Token = "0x40017B1")]
+	[Token(Token = "0x4001602")]
 	[FieldOffset(Offset = "0xF8")]
 	private string[] allYearMonthPatterns;
 
-	[Token(Token = "0x40017B2")]
+	[Token(Token = "0x4001603")]
 	[FieldOffset(Offset = "0x100")]
 	private string[] allShortDatePatterns;
 
-	[Token(Token = "0x40017B3")]
+	[Token(Token = "0x4001604")]
 	[FieldOffset(Offset = "0x108")]
 	private string[] allLongDatePatterns;
 
-	[Token(Token = "0x40017B4")]
+	[Token(Token = "0x4001605")]
 	[FieldOffset(Offset = "0x110")]
 	private string[] allShortTimePatterns;
 
-	[Token(Token = "0x40017B5")]
+	[Token(Token = "0x4001606")]
 	[FieldOffset(Offset = "0x118")]
 	private string[] allLongTimePatterns;
 
-	[Token(Token = "0x40017B6")]
+	[Token(Token = "0x4001607")]
 	[FieldOffset(Offset = "0x120")]
 	private string[] m_eraNames;
 
-	[Token(Token = "0x40017B7")]
+	[Token(Token = "0x4001608")]
 	[FieldOffset(Offset = "0x128")]
 	private string[] m_abbrevEraNames;
 
-	[Token(Token = "0x40017B8")]
+	[Token(Token = "0x4001609")]
 	[FieldOffset(Offset = "0x130")]
 	private string[] m_abbrevEnglishEraNames;
 
-	[Token(Token = "0x40017B9")]
+	[Token(Token = "0x400160A")]
 	[FieldOffset(Offset = "0x138")]
 	private System.Globalization.CalendarId[] optionalCalendars;
 
-	[Token(Token = "0x40017BA")]
+	[Token(Token = "0x400160B")]
 	private const int DEFAULT_ALL_DATETIMES_SIZE = 132;
 
-	[Token(Token = "0x40017BB")]
+	[Token(Token = "0x400160C")]
 	[FieldOffset(Offset = "0x140")]
 	internal bool _isReadOnly;
 
-	[Token(Token = "0x40017BC")]
+	[Token(Token = "0x400160D")]
 	[FieldOffset(Offset = "0x144")]
 	private System.Globalization.DateTimeFormatFlags formatFlags;
 
-	[Token(Token = "0x40017BD")]
+	[Token(Token = "0x400160E")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly char[] s_monthSpaces;
 
-	[Token(Token = "0x40017BE")]
+	[Token(Token = "0x400160F")]
 	internal const string RoundtripFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss.fffffffK";
 
-	[Token(Token = "0x40017BF")]
+	[Token(Token = "0x4001610")]
 	internal const string RoundtripDateTimeUnfixed = "yyyy'-'MM'-'ddTHH':'mm':'ss zzz";
 
-	[Token(Token = "0x40017C0")]
+	[Token(Token = "0x4001611")]
 	[FieldOffset(Offset = "0x148")]
 	private string _fullTimeSpanPositivePattern;
 
-	[Token(Token = "0x40017C1")]
+	[Token(Token = "0x4001612")]
 	[FieldOffset(Offset = "0x150")]
 	private string _fullTimeSpanNegativePattern;
 
-	[Token(Token = "0x40017C2")]
+	[Token(Token = "0x4001613")]
 	internal const DateTimeStyles InvalidDateTimeStyles = ~(DateTimeStyles.AllowWhiteSpaces | DateTimeStyles.NoCurrentDateDefault | DateTimeStyles.AdjustToUniversal | DateTimeStyles.AssumeLocal | DateTimeStyles.AssumeUniversal | DateTimeStyles.RoundtripKind);
 
 	[NonSerialized]
-	[Token(Token = "0x40017C3")]
+	[Token(Token = "0x4001614")]
 	[FieldOffset(Offset = "0x158")]
 	private TokenHashValue[] _dtfiTokenHash;
 
-	[Token(Token = "0x40017C4")]
+	[Token(Token = "0x4001615")]
 	private const int TOKEN_HASH_SIZE = 199;
 
-	[Token(Token = "0x40017C5")]
+	[Token(Token = "0x4001616")]
 	private const int SECOND_PRIME = 197;
 
-	[Token(Token = "0x40017C6")]
+	[Token(Token = "0x4001617")]
 	private const string dateSeparatorOrTimeZoneOffset = "-";
 
-	[Token(Token = "0x40017C7")]
+	[Token(Token = "0x4001618")]
 	private const string invariantDateSeparator = "/";
 
-	[Token(Token = "0x40017C8")]
+	[Token(Token = "0x4001619")]
 	private const string invariantTimeSeparator = ":";
 
-	[Token(Token = "0x40017C9")]
+	[Token(Token = "0x400161A")]
 	internal const string IgnorablePeriod = ".";
 
-	[Token(Token = "0x40017CA")]
+	[Token(Token = "0x400161B")]
 	internal const string IgnorableComma = ",";
 
-	[Token(Token = "0x40017CB")]
+	[Token(Token = "0x400161C")]
 	internal const string CJKYearSuff = "年";
 
-	[Token(Token = "0x40017CC")]
+	[Token(Token = "0x400161D")]
 	internal const string CJKMonthSuff = "月";
 
-	[Token(Token = "0x40017CD")]
+	[Token(Token = "0x400161E")]
 	internal const string CJKDaySuff = "日";
 
-	[Token(Token = "0x40017CE")]
+	[Token(Token = "0x400161F")]
 	internal const string KoreanYearSuff = "년";
 
-	[Token(Token = "0x40017CF")]
+	[Token(Token = "0x4001620")]
 	internal const string KoreanMonthSuff = "월";
 
-	[Token(Token = "0x40017D0")]
+	[Token(Token = "0x4001621")]
 	internal const string KoreanDaySuff = "일";
 
-	[Token(Token = "0x40017D1")]
+	[Token(Token = "0x4001622")]
 	internal const string KoreanHourSuff = "시";
 
-	[Token(Token = "0x40017D2")]
+	[Token(Token = "0x4001623")]
 	internal const string KoreanMinuteSuff = "분";
 
-	[Token(Token = "0x40017D3")]
+	[Token(Token = "0x4001624")]
 	internal const string KoreanSecondSuff = "초";
 
-	[Token(Token = "0x40017D4")]
+	[Token(Token = "0x4001625")]
 	internal const string CJKHourSuff = "時";
 
-	[Token(Token = "0x40017D5")]
+	[Token(Token = "0x4001626")]
 	internal const string ChineseHourSuff = "时";
 
-	[Token(Token = "0x40017D6")]
+	[Token(Token = "0x4001627")]
 	internal const string CJKMinuteSuff = "分";
 
-	[Token(Token = "0x40017D7")]
+	[Token(Token = "0x4001628")]
 	internal const string CJKSecondSuff = "秒";
 
-	[Token(Token = "0x40017D8")]
+	[Token(Token = "0x4001629")]
 	internal const string JapaneseEraStart = "元";
 
-	[Token(Token = "0x40017D9")]
+	[Token(Token = "0x400162A")]
 	internal const string LocalTimeMark = "T";
 
-	[Token(Token = "0x40017DA")]
+	[Token(Token = "0x400162B")]
 	internal const string GMTName = "GMT";
 
-	[Token(Token = "0x40017DB")]
+	[Token(Token = "0x400162C")]
 	internal const string ZuluName = "Z";
 
-	[Token(Token = "0x40017DC")]
+	[Token(Token = "0x400162D")]
 	internal const string KoreanLangName = "ko";
 
-	[Token(Token = "0x40017DD")]
+	[Token(Token = "0x400162E")]
 	internal const string JapaneseLangName = "ja";
 
-	[Token(Token = "0x40017DE")]
+	[Token(Token = "0x400162F")]
 	internal const string EnglishLangName = "en";
 
-	[Token(Token = "0x40017DF")]
+	[Token(Token = "0x4001630")]
 	[FieldOffset(Offset = "0x10")]
 	private static DateTimeFormatInfo s_jajpDTFI;
 
-	[Token(Token = "0x40017E0")]
+	[Token(Token = "0x4001631")]
 	[FieldOffset(Offset = "0x18")]
 	private static DateTimeFormatInfo s_zhtwDTFI;
 
-	[Token(Token = "0x17000648")]
+	[Token(Token = "0x170005D7")]
 	private string CultureName
 	{
-		[Token(Token = "0x6002BA8")]
-		[Address(RVA = "0x3C40850", Offset = "0x3C40850", VA = "0x3C40850")]
+		[Token(Token = "0x60028C6")]
+		[Address(RVA = "0x1A66830", Offset = "0x1A64E30", VA = "0x181A66830")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000649")]
+	[Token(Token = "0x170005D8")]
 	private CultureInfo Culture
 	{
-		[Token(Token = "0x6002BA9")]
-		[Address(RVA = "0x3C40890", Offset = "0x3C40890", VA = "0x3C40890")]
+		[Token(Token = "0x60028C7")]
+		[Address(RVA = "0x1A66870", Offset = "0x1A64E70", VA = "0x181A66870")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700064A")]
+	[Token(Token = "0x170005D9")]
 	private string LanguageName
 	{
-		[Token(Token = "0x6002BAA")]
-		[Address(RVA = "0x3C40930", Offset = "0x3C40930", VA = "0x3C40930")]
+		[Token(Token = "0x60028C8")]
+		[Address(RVA = "0x1A67430", Offset = "0x1A65A30", VA = "0x181A67430")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700064B")]
+	[Token(Token = "0x170005DA")]
 	public static DateTimeFormatInfo InvariantInfo
 	{
-		[Token(Token = "0x6002BB6")]
-		[Address(RVA = "0x3C41550", Offset = "0x3C41550", VA = "0x3C41550")]
+		[Token(Token = "0x60028D4")]
+		[Address(RVA = "0x1A67290", Offset = "0x1A65890", VA = "0x181A67290")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700064C")]
+	[Token(Token = "0x170005DB")]
 	public static DateTimeFormatInfo CurrentInfo
 	{
-		[Token(Token = "0x6002BB7")]
-		[Address(RVA = "0x3C41650", Offset = "0x3C41650", VA = "0x3C41650")]
+		[Token(Token = "0x60028D5")]
+		[Address(RVA = "0x1A66910", Offset = "0x1A64F10", VA = "0x181A66910")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700064D")]
+	[Token(Token = "0x170005DC")]
 	public string AMDesignator
 	{
-		[Token(Token = "0x6002BBB")]
-		[Address(RVA = "0x3C41AB0", Offset = "0x3C41AB0", VA = "0x3C41AB0")]
+		[Token(Token = "0x60028D9")]
+		[Address(RVA = "0x1A66130", Offset = "0x1A64730", VA = "0x181A66130")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700064E")]
+	[Token(Token = "0x170005DD")]
 	public Calendar Calendar
 	{
-		[Token(Token = "0x6002BBC")]
-		[Address(RVA = "0x3C41AF0", Offset = "0x3C41AF0", VA = "0x3C41AF0")]
+		[Token(Token = "0x60028DA")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002BBD")]
-		[Address(RVA = "0x3C40F50", Offset = "0x3C40F50", VA = "0x3C40F50")]
+		[Token(Token = "0x60028DB")]
+		[Address(RVA = "0x1A68160", Offset = "0x1A66760", VA = "0x181A68160")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700064F")]
+	[Token(Token = "0x170005DE")]
 	private System.Globalization.CalendarId[] OptionalCalendars
 	{
-		[Token(Token = "0x6002BBE")]
-		[Address(RVA = "0x3C41BD0", Offset = "0x3C41BD0", VA = "0x3C41BD0")]
+		[Token(Token = "0x60028DC")]
+		[Address(RVA = "0x1A67730", Offset = "0x1A65D30", VA = "0x181A67730")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000650")]
+	[Token(Token = "0x170005DF")]
 	internal string[] EraNames
 	{
-		[Token(Token = "0x6002BBF")]
-		[Address(RVA = "0x3C41C50", Offset = "0x3C41C50", VA = "0x3C41C50")]
+		[Token(Token = "0x60028DD")]
+		[Address(RVA = "0x1A66D70", Offset = "0x1A65370", VA = "0x181A66D70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000651")]
+	[Token(Token = "0x170005E0")]
 	internal string[] AbbreviatedEraNames
 	{
-		[Token(Token = "0x6002BC1")]
-		[Address(RVA = "0x3C41DF0", Offset = "0x3C41DF0", VA = "0x3C41DF0")]
+		[Token(Token = "0x60028DF")]
+		[Address(RVA = "0x1A66280", Offset = "0x1A64880", VA = "0x181A66280")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000652")]
+	[Token(Token = "0x170005E1")]
 	internal string[] AbbreviatedEnglishEraNames
 	{
-		[Token(Token = "0x6002BC3")]
-		[Address(RVA = "0x3C41FA0", Offset = "0x3C41FA0", VA = "0x3C41FA0")]
+		[Token(Token = "0x60028E1")]
+		[Address(RVA = "0x1A66200", Offset = "0x1A64800", VA = "0x181A66200")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000653")]
+	[Token(Token = "0x170005E2")]
 	public string DateSeparator
 	{
-		[Token(Token = "0x6002BC4")]
-		[Address(RVA = "0x3C42010", Offset = "0x3C42010", VA = "0x3C42010")]
+		[Token(Token = "0x60028E2")]
+		[Address(RVA = "0x1A66A10", Offset = "0x1A65010", VA = "0x181A66A10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000654")]
+	[Token(Token = "0x170005E3")]
 	public string FullDateTimePattern
 	{
-		[Token(Token = "0x6002BC5")]
-		[Address(RVA = "0x3C42080", Offset = "0x3C42080", VA = "0x3C42080")]
+		[Token(Token = "0x60028E3")]
+		[Address(RVA = "0x1A66E10", Offset = "0x1A65410", VA = "0x181A66E10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000655")]
+	[Token(Token = "0x170005E4")]
 	public string LongDatePattern
 	{
-		[Token(Token = "0x6002BC6")]
-		[Address(RVA = "0x3C42120", Offset = "0x3C42120", VA = "0x3C42120")]
+		[Token(Token = "0x60028E4")]
+		[Address(RVA = "0x1A67470", Offset = "0x1A65A70", VA = "0x181A67470")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000656")]
+	[Token(Token = "0x170005E5")]
 	public string LongTimePattern
 	{
-		[Token(Token = "0x6002BC7")]
-		[Address(RVA = "0x3C421C0", Offset = "0x3C421C0", VA = "0x3C421C0")]
+		[Token(Token = "0x60028E5")]
+		[Address(RVA = "0x1A674D0", Offset = "0x1A65AD0", VA = "0x181A674D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000657")]
+	[Token(Token = "0x170005E6")]
 	public string MonthDayPattern
 	{
-		[Token(Token = "0x6002BC8")]
-		[Address(RVA = "0x3C42310", Offset = "0x3C42310", VA = "0x3C42310")]
+		[Token(Token = "0x60028E6")]
+		[Address(RVA = "0x1A67560", Offset = "0x1A65B60", VA = "0x181A67560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000658")]
+	[Token(Token = "0x170005E7")]
 	public string PMDesignator
 	{
-		[Token(Token = "0x6002BC9")]
-		[Address(RVA = "0x3C42380", Offset = "0x3C42380", VA = "0x3C42380")]
+		[Token(Token = "0x60028E7")]
+		[Address(RVA = "0x1A67780", Offset = "0x1A65D80", VA = "0x181A67780")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000659")]
+	[Token(Token = "0x170005E8")]
 	public string RFC1123Pattern
 	{
-		[Token(Token = "0x6002BCA")]
-		[Address(RVA = "0x3C423C0", Offset = "0x3C423C0", VA = "0x3C423C0")]
+		[Token(Token = "0x60028E8")]
+		[Address(RVA = "0x1A677C0", Offset = "0x1A65DC0", VA = "0x181A677C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065A")]
+	[Token(Token = "0x170005E9")]
 	public string ShortDatePattern
 	{
-		[Token(Token = "0x6002BCB")]
-		[Address(RVA = "0x3C423F0", Offset = "0x3C423F0", VA = "0x3C423F0")]
+		[Token(Token = "0x60028E9")]
+		[Address(RVA = "0x1A677F0", Offset = "0x1A65DF0", VA = "0x181A677F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065B")]
+	[Token(Token = "0x170005EA")]
 	public string ShortTimePattern
 	{
-		[Token(Token = "0x6002BCC")]
-		[Address(RVA = "0x3C42500", Offset = "0x3C42500", VA = "0x3C42500")]
+		[Token(Token = "0x60028EA")]
+		[Address(RVA = "0x1A67850", Offset = "0x1A65E50", VA = "0x181A67850")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065C")]
+	[Token(Token = "0x170005EB")]
 	public string SortableDateTimePattern
 	{
-		[Token(Token = "0x6002BCD")]
-		[Address(RVA = "0x3C425E0", Offset = "0x3C425E0", VA = "0x3C425E0")]
+		[Token(Token = "0x60028EB")]
+		[Address(RVA = "0x1A678E0", Offset = "0x1A65EE0", VA = "0x181A678E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065D")]
+	[Token(Token = "0x170005EC")]
 	internal string GeneralShortTimePattern
 	{
-		[Token(Token = "0x6002BCE")]
-		[Address(RVA = "0x3C42610", Offset = "0x3C42610", VA = "0x3C42610")]
+		[Token(Token = "0x60028EC")]
+		[Address(RVA = "0x1A67100", Offset = "0x1A65700", VA = "0x181A67100")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065E")]
+	[Token(Token = "0x170005ED")]
 	internal string GeneralLongTimePattern
 	{
-		[Token(Token = "0x6002BCF")]
-		[Address(RVA = "0x3C426A0", Offset = "0x3C426A0", VA = "0x3C426A0")]
+		[Token(Token = "0x60028ED")]
+		[Address(RVA = "0x1A67040", Offset = "0x1A65640", VA = "0x181A67040")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065F")]
+	[Token(Token = "0x170005EE")]
 	internal string DateTimeOffsetPattern
 	{
-		[Token(Token = "0x6002BD0")]
-		[Address(RVA = "0x3C42730", Offset = "0x3C42730", VA = "0x3C42730")]
+		[Token(Token = "0x60028EE")]
+		[Address(RVA = "0x1A66A80", Offset = "0x1A65080", VA = "0x181A66A80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000660")]
+	[Token(Token = "0x170005EF")]
 	public string TimeSeparator
 	{
-		[Token(Token = "0x6002BD1")]
-		[Address(RVA = "0x3C42930", Offset = "0x3C42930", VA = "0x3C42930")]
+		[Token(Token = "0x60028EF")]
+		[Address(RVA = "0x1A67910", Offset = "0x1A65F10", VA = "0x181A67910")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000661")]
+	[Token(Token = "0x170005F0")]
 	public string UniversalSortableDateTimePattern
 	{
-		[Token(Token = "0x6002BD2")]
-		[Address(RVA = "0x3C42970", Offset = "0x3C42970", VA = "0x3C42970")]
+		[Token(Token = "0x60028F0")]
+		[Address(RVA = "0x1A67B70", Offset = "0x1A66170", VA = "0x181A67B70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000662")]
+	[Token(Token = "0x170005F1")]
 	public string YearMonthPattern
 	{
-		[Token(Token = "0x6002BD3")]
-		[Address(RVA = "0x3C429A0", Offset = "0x3C429A0", VA = "0x3C429A0")]
+		[Token(Token = "0x60028F1")]
+		[Address(RVA = "0x1A67BA0", Offset = "0x1A661A0", VA = "0x181A67BA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000663")]
+	[Token(Token = "0x170005F2")]
 	public string[] AbbreviatedDayNames
 	{
-		[Token(Token = "0x6002BD4")]
-		[Address(RVA = "0x3C42AB0", Offset = "0x3C42AB0", VA = "0x3C42AB0")]
+		[Token(Token = "0x60028F2")]
+		[Address(RVA = "0x1A66170", Offset = "0x1A64770", VA = "0x181A66170")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000664")]
+	[Token(Token = "0x170005F3")]
 	public string[] DayNames
 	{
-		[Token(Token = "0x6002BD5")]
-		[Address(RVA = "0x3C42B40", Offset = "0x3C42B40", VA = "0x3C42B40")]
+		[Token(Token = "0x60028F3")]
+		[Address(RVA = "0x1A66CE0", Offset = "0x1A652E0", VA = "0x181A66CE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000665")]
+	[Token(Token = "0x170005F4")]
 	public string[] AbbreviatedMonthNames
 	{
-		[Token(Token = "0x6002BD6")]
-		[Address(RVA = "0x3C42BD0", Offset = "0x3C42BD0", VA = "0x3C42BD0")]
+		[Token(Token = "0x60028F4")]
+		[Address(RVA = "0x1A66300", Offset = "0x1A64900", VA = "0x181A66300")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000666")]
+	[Token(Token = "0x170005F5")]
 	public string[] MonthNames
 	{
-		[Token(Token = "0x6002BD7")]
-		[Address(RVA = "0x3C42C60", Offset = "0x3C42C60", VA = "0x3C42C60")]
+		[Token(Token = "0x60028F5")]
+		[Address(RVA = "0x1A676A0", Offset = "0x1A65CA0", VA = "0x181A676A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000667")]
+	[Token(Token = "0x170005F6")]
 	internal bool HasSpacesInMonthNames
 	{
-		[Token(Token = "0x6002BD8")]
-		[Address(RVA = "0x3C42CF0", Offset = "0x3C42CF0", VA = "0x3C42CF0")]
+		[Token(Token = "0x60028F6")]
+		[Address(RVA = "0x1A67230", Offset = "0x1A65830", VA = "0x181A67230")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000668")]
+	[Token(Token = "0x170005F7")]
 	internal bool HasSpacesInDayNames
 	{
-		[Token(Token = "0x6002BD9")]
-		[Address(RVA = "0x3C42D40", Offset = "0x3C42D40", VA = "0x3C42D40")]
+		[Token(Token = "0x60028F7")]
+		[Address(RVA = "0x1A67200", Offset = "0x1A65800", VA = "0x181A67200")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000669")]
+	[Token(Token = "0x170005F8")]
 	private string[] AllYearMonthPatterns
 	{
-		[Token(Token = "0x6002BE4")]
-		[Address(RVA = "0x3C438E0", Offset = "0x3C438E0", VA = "0x3C438E0")]
+		[Token(Token = "0x6002902")]
+		[Address(RVA = "0x1A66650", Offset = "0x1A64C50", VA = "0x181A66650")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066A")]
+	[Token(Token = "0x170005F9")]
 	private string[] AllShortDatePatterns
 	{
-		[Token(Token = "0x6002BE5")]
-		[Address(RVA = "0x3C43640", Offset = "0x3C43640", VA = "0x3C43640")]
+		[Token(Token = "0x6002903")]
+		[Address(RVA = "0x1A664F0", Offset = "0x1A64AF0", VA = "0x181A664F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066B")]
+	[Token(Token = "0x170005FA")]
 	private string[] AllShortTimePatterns
 	{
-		[Token(Token = "0x6002BE6")]
-		[Address(RVA = "0x3C437A0", Offset = "0x3C437A0", VA = "0x3C437A0")]
+		[Token(Token = "0x6002904")]
+		[Address(RVA = "0x1A665A0", Offset = "0x1A64BA0", VA = "0x181A665A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066C")]
+	[Token(Token = "0x170005FB")]
 	private string[] AllLongDatePatterns
 	{
-		[Token(Token = "0x6002BE7")]
-		[Address(RVA = "0x3C436F0", Offset = "0x3C436F0", VA = "0x3C436F0")]
+		[Token(Token = "0x6002905")]
+		[Address(RVA = "0x1A66390", Offset = "0x1A64990", VA = "0x181A66390")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066D")]
+	[Token(Token = "0x170005FC")]
 	private string[] AllLongTimePatterns
 	{
-		[Token(Token = "0x6002BE8")]
-		[Address(RVA = "0x3C43840", Offset = "0x3C43840", VA = "0x3C43840")]
+		[Token(Token = "0x6002906")]
+		[Address(RVA = "0x1A66440", Offset = "0x1A64A40", VA = "0x181A66440")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066E")]
+	[Token(Token = "0x170005FD")]
 	private string[] UnclonedYearMonthPatterns
 	{
-		[Token(Token = "0x6002BE9")]
-		[Address(RVA = "0x3C42A40", Offset = "0x3C42A40", VA = "0x3C42A40")]
+		[Token(Token = "0x6002907")]
+		[Address(RVA = "0x1A67AF0", Offset = "0x1A660F0", VA = "0x181A67AF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700066F")]
+	[Token(Token = "0x170005FE")]
 	private string[] UnclonedShortDatePatterns
 	{
-		[Token(Token = "0x6002BEA")]
-		[Address(RVA = "0x3C42490", Offset = "0x3C42490", VA = "0x3C42490")]
+		[Token(Token = "0x6002908")]
+		[Address(RVA = "0x1A67A20", Offset = "0x1A66020", VA = "0x181A67A20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000670")]
+	[Token(Token = "0x170005FF")]
 	private string[] UnclonedLongDatePatterns
 	{
-		[Token(Token = "0x6002BEB")]
-		[Address(RVA = "0x3C42250", Offset = "0x3C42250", VA = "0x3C42250")]
+		[Token(Token = "0x6002909")]
+		[Address(RVA = "0x1A67950", Offset = "0x1A65F50", VA = "0x181A67950")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000671")]
+	[Token(Token = "0x17000600")]
 	private string[] UnclonedShortTimePatterns
 	{
-		[Token(Token = "0x6002BEC")]
-		[Address(RVA = "0x3C42590", Offset = "0x3C42590", VA = "0x3C42590")]
+		[Token(Token = "0x600290A")]
+		[Address(RVA = "0x1A67AA0", Offset = "0x1A660A0", VA = "0x181A67AA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000672")]
+	[Token(Token = "0x17000601")]
 	private string[] UnclonedLongTimePatterns
 	{
-		[Token(Token = "0x6002BED")]
-		[Address(RVA = "0x3C422C0", Offset = "0x3C422C0", VA = "0x3C422C0")]
+		[Token(Token = "0x600290B")]
+		[Address(RVA = "0x1A679D0", Offset = "0x1A65FD0", VA = "0x181A679D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000673")]
+	[Token(Token = "0x17000602")]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x6002BEF")]
-		[Address(RVA = "0x3C41B00", Offset = "0x3C41B00", VA = "0x3C41B00")]
+		[Token(Token = "0x600290D")]
+		[Address(RVA = "0x1A673A0", Offset = "0x1A659A0", VA = "0x181A673A0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000674")]
+	[Token(Token = "0x17000603")]
 	public string[] MonthGenitiveNames
 	{
-		[Token(Token = "0x6002BF0")]
-		[Address(RVA = "0x3C440E0", Offset = "0x3C440E0", VA = "0x3C440E0")]
+		[Token(Token = "0x600290E")]
+		[Address(RVA = "0x1A675D0", Offset = "0x1A65BD0", VA = "0x181A675D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000675")]
+	[Token(Token = "0x17000604")]
 	internal string FullTimeSpanPositivePattern
 	{
-		[Token(Token = "0x6002BF1")]
-		[Address(RVA = "0x3C441B0", Offset = "0x3C441B0", VA = "0x3C441B0")]
+		[Token(Token = "0x600290F")]
+		[Address(RVA = "0x1A66F50", Offset = "0x1A65550", VA = "0x181A66F50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000676")]
+	[Token(Token = "0x17000605")]
 	internal string FullTimeSpanNegativePattern
 	{
-		[Token(Token = "0x6002BF2")]
-		[Address(RVA = "0x3C44290", Offset = "0x3C44290", VA = "0x3C44290")]
+		[Token(Token = "0x6002910")]
+		[Address(RVA = "0x1A66EE0", Offset = "0x1A654E0", VA = "0x181A66EE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000677")]
+	[Token(Token = "0x17000606")]
 	internal CompareInfo CompareInfo
 	{
-		[Token(Token = "0x6002BF3")]
-		[Address(RVA = "0x3C44320", Offset = "0x3C44320", VA = "0x3C44320")]
+		[Token(Token = "0x6002911")]
+		[Address(RVA = "0x1A66700", Offset = "0x1A64D00", VA = "0x181A66700")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000678")]
+	[Token(Token = "0x17000607")]
 	internal System.Globalization.DateTimeFormatFlags FormatFlags
 	{
-		[Token(Token = "0x6002BF5")]
-		[Address(RVA = "0x3C42D20", Offset = "0x3C42D20", VA = "0x3C42D20")]
+		[Token(Token = "0x6002913")]
+		[Address(RVA = "0x1A66DF0", Offset = "0x1A653F0", VA = "0x181A66DF0")]
 		get
 		{
 			return default(System.Globalization.DateTimeFormatFlags);
 		}
 	}
 
-	[Token(Token = "0x17000679")]
+	[Token(Token = "0x17000608")]
 	internal bool HasForceTwoDigitYears
 	{
-		[Token(Token = "0x6002BF7")]
-		[Address(RVA = "0x3C44820", Offset = "0x3C44820", VA = "0x3C44820")]
+		[Token(Token = "0x6002915")]
+		[Address(RVA = "0x1A671C0", Offset = "0x1A657C0", VA = "0x181A671C0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700067A")]
+	[Token(Token = "0x17000609")]
 	internal bool HasYearMonthAdjustment
 	{
-		[Token(Token = "0x6002BF8")]
-		[Address(RVA = "0x3C44850", Offset = "0x3C44850", VA = "0x3C44850")]
+		[Token(Token = "0x6002916")]
+		[Address(RVA = "0x1A67260", Offset = "0x1A65860", VA = "0x181A67260")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002BAB")]
-	[Address(RVA = "0x3C40970", Offset = "0x3C40970", VA = "0x3C40970")]
+	[Token(Token = "0x60028C9")]
+	[Address(RVA = "0x1A67C70", Offset = "0x1A66270", VA = "0x181A67C70")]
 	private string[] internalGetAbbreviatedDayOfWeekNames()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002BAC")]
-	[Address(RVA = "0x3C40980", Offset = "0x3C40980", VA = "0x3C40980")]
+	[Token(Token = "0x60028CA")]
+	[Address(RVA = "0x1A67C00", Offset = "0x1A66200", VA = "0x181A67C00")]
 	private string[] internalGetAbbreviatedDayOfWeekNamesCore()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BAD")]
-	[Address(RVA = "0x3C409E0", Offset = "0x3C409E0", VA = "0x3C409E0")]
+	[Token(Token = "0x60028CB")]
+	[Address(RVA = "0x1A67D90", Offset = "0x1A66390", VA = "0x181A67D90")]
 	private string[] internalGetDayOfWeekNames()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002BAE")]
-	[Address(RVA = "0x3C409F0", Offset = "0x3C409F0", VA = "0x3C409F0")]
+	[Token(Token = "0x60028CC")]
+	[Address(RVA = "0x1A67D20", Offset = "0x1A66320", VA = "0x181A67D20")]
 	private string[] internalGetDayOfWeekNamesCore()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BAF")]
-	[Address(RVA = "0x3C40A50", Offset = "0x3C40A50", VA = "0x3C40A50")]
+	[Token(Token = "0x60028CD")]
+	[Address(RVA = "0x1A67D00", Offset = "0x1A66300", VA = "0x181A67D00")]
 	private string[] internalGetAbbreviatedMonthNames()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002BB0")]
-	[Address(RVA = "0x3C40A60", Offset = "0x3C40A60", VA = "0x3C40A60")]
+	[Token(Token = "0x60028CE")]
+	[Address(RVA = "0x1A67C90", Offset = "0x1A66290", VA = "0x181A67C90")]
 	private string[] internalGetAbbreviatedMonthNamesCore()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BB1")]
-	[Address(RVA = "0x3C40AC0", Offset = "0x3C40AC0", VA = "0x3C40AC0")]
+	[Token(Token = "0x60028CF")]
+	[Address(RVA = "0x1A68140", Offset = "0x1A66740", VA = "0x181A68140")]
 	private string[] internalGetMonthNames()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002BB2")]
-	[Address(RVA = "0x3C40AD0", Offset = "0x3C40AD0", VA = "0x3C40AD0")]
+	[Token(Token = "0x60028D0")]
+	[Address(RVA = "0x1A680D0", Offset = "0x1A666D0", VA = "0x181A680D0")]
 	private string[] internalGetMonthNamesCore()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BB3")]
-	[Address(RVA = "0x3C40B30", Offset = "0x3C40B30", VA = "0x3C40B30")]
+	[Token(Token = "0x60028D1")]
+	[Address(RVA = "0x1A65E40", Offset = "0x1A64440", VA = "0x181A65E40")]
 	public DateTimeFormatInfo()
 	{
 	}
 
-	[Token(Token = "0x6002BB4")]
-	[Address(RVA = "0x3C40F00", Offset = "0x3C40F00", VA = "0x3C40F00")]
+	[Token(Token = "0x60028D2")]
+	[Address(RVA = "0x1A660C0", Offset = "0x1A646C0", VA = "0x181A660C0")]
 	internal DateTimeFormatInfo(System.Globalization.CultureData cultureData, Calendar cal)
 	{
 	}
 
-	[Token(Token = "0x6002BB5")]
-	[Address(RVA = "0x3C40D10", Offset = "0x3C40D10", VA = "0x3C40D10")]
+	[Token(Token = "0x60028D3")]
+	[Address(RVA = "0x1A637A0", Offset = "0x1A61DA0", VA = "0x181A637A0")]
 	private void InitializeOverridableProperties(System.Globalization.CultureData cultureData, int calendarId)
 	{
 	}
 
-	[Token(Token = "0x6002BB8")]
-	[Address(RVA = "0x3C41780", Offset = "0x3C41780", VA = "0x3C41780")]
+	[Token(Token = "0x60028D6")]
+	[Address(RVA = "0x1A62B20", Offset = "0x1A61120", VA = "0x181A62B20")]
 	public static DateTimeFormatInfo GetInstance(IFormatProvider provider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BB9")]
-	[Address(RVA = "0x3C41920", Offset = "0x3C41920", VA = "0x3C41920", Slot = "4")]
+	[Token(Token = "0x60028D7")]
+	[Address(RVA = "0x1A62AA0", Offset = "0x1A610A0", VA = "0x181A62AA0", Slot = "4")]
 	public object GetFormat(Type formatType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BBA")]
-	[Address(RVA = "0x3C419A0", Offset = "0x3C419A0", VA = "0x3C419A0", Slot = "5")]
+	[Token(Token = "0x60028D8")]
+	[Address(RVA = "0x1A61160", Offset = "0x1A5F760", VA = "0x181A61160", Slot = "5")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BC0")]
-	[Address(RVA = "0x3C41CC0", Offset = "0x3C41CC0", VA = "0x3C41CC0")]
+	[Token(Token = "0x60028DE")]
+	[Address(RVA = "0x1A62970", Offset = "0x1A60F70", VA = "0x181A62970")]
 	public string GetEraName(int era)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BC2")]
-	[Address(RVA = "0x3C41E60", Offset = "0x3C41E60", VA = "0x3C41E60")]
+	[Token(Token = "0x60028E0")]
+	[Address(RVA = "0x1A61FC0", Offset = "0x1A605C0", VA = "0x181A61FC0")]
 	public string GetAbbreviatedEraName(int era)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDA")]
-	[Address(RVA = "0x3C42D70", Offset = "0x3C42D70", VA = "0x3C42D70")]
+	[Token(Token = "0x60028F8")]
+	[Address(RVA = "0x1A67F20", Offset = "0x1A66520", VA = "0x181A67F20")]
 	internal string internalGetMonthName(int month, System.Globalization.MonthNameStyles style, bool abbreviated)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDB")]
-	[Address(RVA = "0x3C42F20", Offset = "0x3C42F20", VA = "0x3C42F20")]
+	[Token(Token = "0x60028F9")]
+	[Address(RVA = "0x1A67DB0", Offset = "0x1A663B0", VA = "0x181A67DB0")]
 	private string[] internalGetGenitiveMonthNames(bool abbreviated)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDC")]
-	[Address(RVA = "0x3C42FE0", Offset = "0x3C42FE0", VA = "0x3C42FE0")]
+	[Token(Token = "0x60028FA")]
+	[Address(RVA = "0x1A67EA0", Offset = "0x1A664A0", VA = "0x181A67EA0")]
 	internal string[] internalGetLeapYearMonthNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDD")]
-	[Address(RVA = "0x3C43050", Offset = "0x3C43050", VA = "0x3C43050")]
+	[Token(Token = "0x60028FB")]
+	[Address(RVA = "0x1A61EB0", Offset = "0x1A604B0", VA = "0x181A61EB0")]
 	public string GetAbbreviatedDayName(DayOfWeek dayofweek)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDE")]
-	[Address(RVA = "0x3C43150", Offset = "0x3C43150", VA = "0x3C43150")]
+	[Token(Token = "0x60028FC")]
+	[Address(RVA = "0x1A62750", Offset = "0x1A60D50", VA = "0x181A62750")]
 	private static string[] GetCombinedPatterns(string[] patterns1, string[] patterns2, string connectString)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BDF")]
-	[Address(RVA = "0x3C432A0", Offset = "0x3C432A0", VA = "0x3C432A0")]
+	[Token(Token = "0x60028FD")]
+	[Address(RVA = "0x1A62240", Offset = "0x1A60840", VA = "0x181A62240")]
 	public string[] GetAllDateTimePatterns(char format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BE0")]
-	[Address(RVA = "0x3C43990", Offset = "0x3C43990", VA = "0x3C43990")]
+	[Token(Token = "0x60028FE")]
+	[Address(RVA = "0x1A62860", Offset = "0x1A60E60", VA = "0x181A62860")]
 	public string GetDayName(DayOfWeek dayofweek)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BE1")]
-	[Address(RVA = "0x3C43A90", Offset = "0x3C43A90", VA = "0x3C43A90")]
+	[Token(Token = "0x60028FF")]
+	[Address(RVA = "0x1A62130", Offset = "0x1A60730", VA = "0x181A62130")]
 	public string GetAbbreviatedMonthName(int month)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BE2")]
-	[Address(RVA = "0x3C43B80", Offset = "0x3C43B80", VA = "0x3C43B80")]
+	[Token(Token = "0x6002900")]
+	[Address(RVA = "0x1A63040", Offset = "0x1A61640", VA = "0x181A63040")]
 	public string GetMonthName(int month)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BE3")]
-	[Address(RVA = "0x3C43C70", Offset = "0x3C43C70", VA = "0x3C43C70")]
+	[Token(Token = "0x6002901")]
+	[Address(RVA = "0x1A62E70", Offset = "0x1A61470", VA = "0x181A62E70")]
 	private static string[] GetMergedPatterns(string[] patterns, string defaultPattern)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BEE")]
-	[Address(RVA = "0x3C43E40", Offset = "0x3C43E40", VA = "0x3C43E40")]
+	[Token(Token = "0x600290C")]
+	[Address(RVA = "0x1A65170", Offset = "0x1A63770", VA = "0x181A65170")]
 	public static DateTimeFormatInfo ReadOnly(DateTimeFormatInfo dtfi)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BF4")]
-	[Address(RVA = "0x3C443B0", Offset = "0x3C443B0", VA = "0x3C443B0")]
+	[Token(Token = "0x6002912")]
+	[Address(RVA = "0x1A65B30", Offset = "0x1A64130", VA = "0x181A65B30")]
 	internal static void ValidateStyles(DateTimeStyles style, string parameterName)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002BF6")]
-	[Address(RVA = "0x3C44470", Offset = "0x3C44470", VA = "0x3C44470")]
+	[Token(Token = "0x6002914")]
+	[Address(RVA = "0x1A63300", Offset = "0x1A61900", VA = "0x181A63300")]
 	private System.Globalization.DateTimeFormatFlags InitializeFormatFlags()
 	{
 		return default(System.Globalization.DateTimeFormatFlags);
 	}
 
-	[Token(Token = "0x6002BF9")]
-	[Address(RVA = "0x3C44880", Offset = "0x3C44880", VA = "0x3C44880")]
+	[Token(Token = "0x6002917")]
+	[Address(RVA = "0x1A65C60", Offset = "0x1A64260", VA = "0x181A65C60")]
 	internal bool YearMonthAdjustment(ref int year, ref int month, bool parsedMonthName)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002BFA")]
-	[Address(RVA = "0x3C449B0", Offset = "0x3C449B0", VA = "0x3C449B0")]
+	[Token(Token = "0x6002918")]
+	[Address(RVA = "0x1A62CC0", Offset = "0x1A612C0", VA = "0x181A62CC0")]
 	internal static DateTimeFormatInfo GetJapaneseCalendarDTFI()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BFB")]
-	[Address(RVA = "0x3C44B70", Offset = "0x3C44B70", VA = "0x3C44B70")]
+	[Token(Token = "0x6002919")]
+	[Address(RVA = "0x1A63150", Offset = "0x1A61750", VA = "0x181A63150")]
 	internal static DateTimeFormatInfo GetTaiwanCalendarDTFI()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BFC")]
-	[Address(RVA = "0x3C41C20", Offset = "0x3C41C20", VA = "0x3C41C20")]
+	[Token(Token = "0x600291A")]
+	[Address(RVA = "0x1A61120", Offset = "0x1A5F720", VA = "0x181A61120")]
 	private void ClearTokenHashTable()
 	{
 	}
 
-	[Token(Token = "0x6002BFD")]
-	[Address(RVA = "0x3C44D30", Offset = "0x3C44D30", VA = "0x3C44D30")]
+	[Token(Token = "0x600291B")]
+	[Address(RVA = "0x1A613A0", Offset = "0x1A5F9A0", VA = "0x181A613A0")]
 	internal TokenHashValue[] CreateTokenHashTable()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002BFE")]
-	[Address(RVA = "0x3C46B00", Offset = "0x3C46B00", VA = "0x3C46B00")]
+	[Token(Token = "0x600291C")]
+	[Address(RVA = "0x1A64220", Offset = "0x1A62820", VA = "0x181A64220")]
 	private void PopulateSpecialTokenHashTable(TokenHashValue[] temp, ref bool useDateSepAsIgnorableSymbol)
 	{
 	}
 
-	[Token(Token = "0x6002BFF")]
-	[Address(RVA = "0x3C47D70", Offset = "0x3C47D70", VA = "0x3C47D70")]
+	[Token(Token = "0x600291D")]
+	[Address(RVA = "0x1A640F0", Offset = "0x1A626F0", VA = "0x181A640F0")]
 	private static bool IsJapaneseCalendar(Calendar calendar)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002C00")]
-	[Address(RVA = "0x3C47710", Offset = "0x3C47710", VA = "0x3C47710")]
+	[Token(Token = "0x600291E")]
+	[Address(RVA = "0x1A61070", Offset = "0x1A5F670", VA = "0x181A61070")]
 	private void AddMonthNames(TokenHashValue[] temp, string monthPostfix)
 	{
 	}
 
-	[Token(Token = "0x6002C01")]
-	[Address(RVA = "0x3C47EF0", Offset = "0x3C47EF0", VA = "0x3C47EF0")]
+	[Token(Token = "0x600291F")]
+	[Address(RVA = "0x1A65940", Offset = "0x1A63F40", VA = "0x181A65940")]
 	private static bool TryParseHebrewNumber(ref System.__DTString str, out bool badFormat, out int number)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002C02")]
-	[Address(RVA = "0x3C482E0", Offset = "0x3C482E0", VA = "0x3C482E0")]
+	[Token(Token = "0x6002920")]
+	[Address(RVA = "0x1A640D0", Offset = "0x1A626D0", VA = "0x181A640D0")]
 	private static bool IsHebrewChar(char ch)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002C03")]
-	[Address(RVA = "0x3C482F0", Offset = "0x3C482F0", VA = "0x3C482F0")]
+	[Token(Token = "0x6002921")]
+	[Address(RVA = "0x1A63FC0", Offset = "0x1A625C0", VA = "0x181A63FC0")]
 	private bool IsAllowedJapaneseTokenFollowedByNonSpaceLetter(string tokenString, char nextCh)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002C04")]
-	[Address(RVA = "0x3C483D0", Offset = "0x3C483D0", VA = "0x3C483D0")]
+	[Token(Token = "0x6002922")]
+	[Address(RVA = "0x1A65290", Offset = "0x1A63890", VA = "0x181A65290")]
 	internal bool Tokenize(System.TokenType TokenMask, out System.TokenType tokenType, out int tokenValue, ref System.__DTString str)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002C05")]
-	[Address(RVA = "0x3C48A30", Offset = "0x3C48A30", VA = "0x3C48A30")]
+	[Token(Token = "0x6002923")]
+	[Address(RVA = "0x1A63960", Offset = "0x1A61F60", VA = "0x181A63960")]
 	private void InsertAtCurrentHashNode(TokenHashValue[] hashTable, string str, char ch, System.TokenType tokenType, int tokenValue, int pos, int hashcode, int hashProbe)
 	{
 	}
 
-	[Token(Token = "0x6002C06")]
-	[Address(RVA = "0x3C467B0", Offset = "0x3C467B0", VA = "0x3C467B0")]
+	[Token(Token = "0x6002924")]
+	[Address(RVA = "0x1A63BB0", Offset = "0x1A621B0", VA = "0x181A63BB0")]
 	private void InsertHash(TokenHashValue[] hashTable, string str, System.TokenType tokenType, int tokenValue)
 	{
 	}
 
-	[Token(Token = "0x6002C07")]
-	[Address(RVA = "0x3C48CC0", Offset = "0x3C48CC0", VA = "0x3C48CC0")]
+	[Token(Token = "0x6002925")]
+	[Address(RVA = "0x1A612A0", Offset = "0x1A5F8A0", VA = "0x181A612A0")]
 	private bool CompareStringIgnoreCaseOptimized(string string1, int offset1, int length1, string string2, int offset2, int length2)
 	{
 		return default(bool);

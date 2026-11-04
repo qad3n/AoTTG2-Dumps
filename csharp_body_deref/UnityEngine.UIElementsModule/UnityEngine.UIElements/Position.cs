@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000398")]
+[Token(Token = "0x200043A")]
 public enum Position
 {
-	[Token(Token = "0x4000AB9")]
+	[Token(Token = "0x4000E07")]
 	Relative,
-	[Token(Token = "0x4000ABA")]
+	[Token(Token = "0x4000E08")]
 	Absolute
 }

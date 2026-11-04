@@ -20,7 +20,7 @@ internal class XmlAsyncCheckReaderWithLineInfo : XmlAsyncCheckReader, IXmlLineIn
 	public virtual int LineNumber
 	{
 		[Token(Token = "0x600022D")]
-		[Address(RVA = "0x4797030", Offset = "0x4797030", VA = "0x4797030", Slot = "57")]
+		[Address(RVA = "0x26E3030", Offset = "0x26E1630", VA = "0x1826E3030", Slot = "57")]
 		get
 		{
 			return default(int);
@@ -31,7 +31,7 @@ internal class XmlAsyncCheckReaderWithLineInfo : XmlAsyncCheckReader, IXmlLineIn
 	public virtual int LinePosition
 	{
 		[Token(Token = "0x600022E")]
-		[Address(RVA = "0x47970D0", Offset = "0x47970D0", VA = "0x47970D0", Slot = "58")]
+		[Address(RVA = "0x26E3080", Offset = "0x26E1680", VA = "0x1826E3080", Slot = "58")]
 		get
 		{
 			return default(int);
@@ -39,13 +39,13 @@ internal class XmlAsyncCheckReaderWithLineInfo : XmlAsyncCheckReader, IXmlLineIn
 	}
 
 	[Token(Token = "0x600022B")]
-	[Address(RVA = "0x4795FC0", Offset = "0x4795FC0", VA = "0x4795FC0")]
+	[Address(RVA = "0x26E2F80", Offset = "0x26E1580", VA = "0x1826E2F80")]
 	public XmlAsyncCheckReaderWithLineInfo(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x600022C")]
-	[Address(RVA = "0x4796FA0", Offset = "0x4796FA0", VA = "0x4796FA0", Slot = "56")]
+	[Address(RVA = "0x26E2F30", Offset = "0x26E1530", VA = "0x1826E2F30", Slot = "56")]
 	public virtual bool HasLineInfo()
 	{
 		return default(bool);

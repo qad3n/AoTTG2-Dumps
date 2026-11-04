@@ -15,15 +15,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001CE")]
 	private sealed class MulOvfInt16 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009E1")]
-		[Address(RVA = "0x44FA520", Offset = "0x44FA520", VA = "0x44FA520", Slot = "8")]
+		[Token(Token = "0x60009E0")]
+		[Address(RVA = "0x2475C80", Offset = "0x2474280", VA = "0x182475C80", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009E2")]
-		[Address(RVA = "0x44FA4C0", Offset = "0x44FA4C0", VA = "0x44FA4C0")]
+		[Token(Token = "0x60009E1")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfInt16()
 		{
 		}
@@ -32,15 +32,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001CF")]
 	private sealed class MulOvfInt32 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009E3")]
-		[Address(RVA = "0x44FA7D0", Offset = "0x44FA7D0", VA = "0x44FA7D0", Slot = "8")]
+		[Token(Token = "0x60009E2")]
+		[Address(RVA = "0x2475F80", Offset = "0x2474580", VA = "0x182475F80", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009E4")]
-		[Address(RVA = "0x44FA4D0", Offset = "0x44FA4D0", VA = "0x44FA4D0")]
+		[Token(Token = "0x60009E3")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfInt32()
 		{
 		}
@@ -49,15 +49,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001D0")]
 	private sealed class MulOvfInt64 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009E5")]
-		[Address(RVA = "0x44FAA10", Offset = "0x44FAA10", VA = "0x44FAA10", Slot = "8")]
+		[Token(Token = "0x60009E4")]
+		[Address(RVA = "0x24761F0", Offset = "0x24747F0", VA = "0x1824761F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009E6")]
-		[Address(RVA = "0x44FA4E0", Offset = "0x44FA4E0", VA = "0x44FA4E0")]
+		[Token(Token = "0x60009E5")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfInt64()
 		{
 		}
@@ -66,15 +66,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001D1")]
 	private sealed class MulOvfUInt16 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009E7")]
-		[Address(RVA = "0x44FAC50", Offset = "0x44FAC50", VA = "0x44FAC50", Slot = "8")]
+		[Token(Token = "0x60009E6")]
+		[Address(RVA = "0x2476440", Offset = "0x2474A40", VA = "0x182476440", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009E8")]
-		[Address(RVA = "0x44FA4F0", Offset = "0x44FA4F0", VA = "0x44FA4F0")]
+		[Token(Token = "0x60009E7")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfUInt16()
 		{
 		}
@@ -83,15 +83,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001D2")]
 	private sealed class MulOvfUInt32 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009E9")]
-		[Address(RVA = "0x44FAEF0", Offset = "0x44FAEF0", VA = "0x44FAEF0", Slot = "8")]
+		[Token(Token = "0x60009E8")]
+		[Address(RVA = "0x2476720", Offset = "0x2474D20", VA = "0x182476720", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009EA")]
-		[Address(RVA = "0x44FA500", Offset = "0x44FA500", VA = "0x44FA500")]
+		[Token(Token = "0x60009E9")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfUInt32()
 		{
 		}
@@ -100,15 +100,15 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x20001D3")]
 	private sealed class MulOvfUInt64 : MulOvfInstruction
 	{
-		[Token(Token = "0x60009EB")]
-		[Address(RVA = "0x44FB0E0", Offset = "0x44FB0E0", VA = "0x44FB0E0", Slot = "8")]
+		[Token(Token = "0x60009EA")]
+		[Address(RVA = "0x2476930", Offset = "0x2474F30", VA = "0x182476930", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60009EC")]
-		[Address(RVA = "0x44FA510", Offset = "0x44FA510", VA = "0x44FA510")]
+		[Token(Token = "0x60009EB")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public MulOvfUInt64()
 		{
 		}
@@ -141,8 +141,8 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x17000204")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60009DC")]
-		[Address(RVA = "0x44FA170", Offset = "0x44FA170", VA = "0x44FA170", Slot = "4")]
+		[Token(Token = "0x60009DB")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -152,8 +152,8 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x17000205")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60009DD")]
-		[Address(RVA = "0x44FA180", Offset = "0x44FA180", VA = "0x44FA180", Slot = "5")]
+		[Token(Token = "0x60009DC")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -163,22 +163,22 @@ internal abstract class MulOvfInstruction : Instruction
 	[Token(Token = "0x17000206")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60009DE")]
-		[Address(RVA = "0x44FA190", Offset = "0x44FA190", VA = "0x44FA190", Slot = "9")]
+		[Token(Token = "0x60009DD")]
+		[Address(RVA = "0x2475C50", Offset = "0x2474250", VA = "0x182475C50", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009DF")]
-	[Address(RVA = "0x44FA1C0", Offset = "0x44FA1C0", VA = "0x44FA1C0")]
+	[Token(Token = "0x60009DE")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private MulOvfInstruction()
 	{
 	}
 
-	[Token(Token = "0x60009E0")]
-	[Address(RVA = "0x44FA1D0", Offset = "0x44FA1D0", VA = "0x44FA1D0")]
+	[Token(Token = "0x60009DF")]
+	[Address(RVA = "0x24758B0", Offset = "0x2473EB0", VA = "0x1824758B0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

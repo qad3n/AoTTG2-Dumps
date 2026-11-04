@@ -16,14 +16,14 @@ internal sealed class ParameterByRefUpdater : ByRefUpdater
 	[FieldOffset(Offset = "0x18")]
 	private readonly LocalVariable _parameter;
 
-	[Token(Token = "0x60008E3")]
-	[Address(RVA = "0x44F1640", Offset = "0x44F1640", VA = "0x44F1640")]
+	[Token(Token = "0x60008E2")]
+	[Address(RVA = "0x247C550", Offset = "0x247AB50", VA = "0x18247C550")]
 	public ParameterByRefUpdater(LocalVariable parameter, int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008E4")]
-	[Address(RVA = "0x44F1670", Offset = "0x44F1670", VA = "0x44F1670", Slot = "4")]
+	[Token(Token = "0x60008E3")]
+	[Address(RVA = "0x247C3B0", Offset = "0x247A9B0", VA = "0x18247C3B0", Slot = "4")]
 	public override void Update(InterpretedFrame frame, object value)
 	{
 	}

@@ -12,18 +12,18 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000200")]
+[Token(Token = "0x200021E")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class Texture2DParameter : VolumeParameter<Texture>
 {
-	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x4C0BF50", Offset = "0x4C0BF50", VA = "0x4C0BF50")]
+	[Token(Token = "0x6000F5E")]
+	[Address(RVA = "0x2B62520", Offset = "0x2B60B20", VA = "0x182B62520")]
 	public Texture2DParameter(Texture value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x4C0BFA0", Offset = "0x4C0BFA0", VA = "0x4C0BFA0", Slot = "2")]
+	[Token(Token = "0x6000F5F")]
+	[Address(RVA = "0x2B62430", Offset = "0x2B60A30", VA = "0x182B62430", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

@@ -36,8 +36,8 @@ internal sealed class LabelInfo
 	[Token(Token = "0x170001C3")]
 	private bool HasDefinitions
 	{
-		[Token(Token = "0x600080A")]
-		[Address(RVA = "0x44DB430", Offset = "0x44DB430", VA = "0x44DB430")]
+		[Token(Token = "0x6000809")]
+		[Address(RVA = "0x2450AE0", Offset = "0x244F0E0", VA = "0x182450AE0")]
 		get
 		{
 			return default(bool);
@@ -47,78 +47,78 @@ internal sealed class LabelInfo
 	[Token(Token = "0x170001C4")]
 	private bool HasMultipleDefinitions
 	{
-		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x44DBC80", Offset = "0x44DBC80", VA = "0x44DBC80")]
+		[Token(Token = "0x600080C")]
+		[Address(RVA = "0x2450AF0", Offset = "0x244F0F0", VA = "0x182450AF0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000802")]
-	[Address(RVA = "0x44DB270", Offset = "0x44DB270", VA = "0x44DB270")]
+	[Token(Token = "0x6000801")]
+	[Address(RVA = "0x2450A40", Offset = "0x244F040", VA = "0x182450A40")]
 	internal LabelInfo(LabelTarget node)
 	{
 	}
 
-	[Token(Token = "0x6000803")]
-	[Address(RVA = "0x44DB300", Offset = "0x44DB300", VA = "0x44DB300")]
+	[Token(Token = "0x6000802")]
+	[Address(RVA = "0x24504F0", Offset = "0x244EAF0", VA = "0x1824504F0")]
 	internal BranchLabel GetLabel(LightCompiler compiler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000804")]
-	[Address(RVA = "0x44DB380", Offset = "0x44DB380", VA = "0x44DB380")]
+	[Token(Token = "0x6000803")]
+	[Address(RVA = "0x2450540", Offset = "0x244EB40", VA = "0x182450540")]
 	internal void Reference(LabelScopeInfo block)
 	{
 	}
 
-	[Token(Token = "0x6000805")]
-	[Address(RVA = "0x44DB780", Offset = "0x44DB780", VA = "0x44DB780")]
+	[Token(Token = "0x6000804")]
+	[Address(RVA = "0x244FE40", Offset = "0x244E440", VA = "0x18244FE40")]
 	internal void Define(LabelScopeInfo block)
 	{
 	}
 
-	[Token(Token = "0x6000806")]
-	[Address(RVA = "0x44DB440", Offset = "0x44DB440", VA = "0x44DB440")]
+	[Token(Token = "0x6000805")]
+	[Address(RVA = "0x2450690", Offset = "0x244EC90", VA = "0x182450690")]
 	private void ValidateJump(LabelScopeInfo reference)
 	{
 	}
 
-	[Token(Token = "0x6000807")]
-	[Address(RVA = "0x44DBF90", Offset = "0x44DBF90", VA = "0x44DBF90")]
+	[Token(Token = "0x6000806")]
+	[Address(RVA = "0x2450600", Offset = "0x244EC00", VA = "0x182450600")]
 	internal void ValidateFinish()
 	{
 	}
 
-	[Token(Token = "0x6000808")]
-	[Address(RVA = "0x44DB340", Offset = "0x44DB340", VA = "0x44DB340")]
+	[Token(Token = "0x6000807")]
+	[Address(RVA = "0x24502C0", Offset = "0x244E8C0", VA = "0x1824502C0")]
 	private void EnsureLabel(LightCompiler compiler)
 	{
 	}
 
-	[Token(Token = "0x6000809")]
-	[Address(RVA = "0x44DBCE0", Offset = "0x44DBCE0", VA = "0x44DBCE0")]
+	[Token(Token = "0x6000808")]
+	[Address(RVA = "0x2450210", Offset = "0x244E810", VA = "0x182450210")]
 	private bool DefinedIn(LabelScopeInfo scope)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x44DBD90", Offset = "0x44DBD90", VA = "0x44DBD90")]
+	[Token(Token = "0x600080A")]
+	[Address(RVA = "0x2450310", Offset = "0x244E910", VA = "0x182450310")]
 	private LabelScopeInfo FirstDefinition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x44DBAA0", Offset = "0x44DBAA0", VA = "0x44DBAA0")]
+	[Token(Token = "0x600080B")]
+	[Address(RVA = "0x244FD00", Offset = "0x244E300", VA = "0x18244FD00")]
 	private void AddDefinition(LabelScopeInfo scope)
 	{
 	}
 
-	[Token(Token = "0x600080E")]
+	[Token(Token = "0x600080D")]
 	internal static T CommonNode<T>(T first, T second, Func<T, T> parent) where T : class
 	{
 		return null;

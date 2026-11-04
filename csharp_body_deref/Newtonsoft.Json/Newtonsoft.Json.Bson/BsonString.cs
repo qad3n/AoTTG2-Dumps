@@ -17,14 +17,14 @@ internal class BsonString : BsonValue
 	public int ByteCount
 	{
 		[Token(Token = "0x6001018")]
-		[Address(RVA = "0x3E5AAE0", Offset = "0x3E5AAE0", VA = "0x3E5AAE0")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6001019")]
-		[Address(RVA = "0x3E5AAF0", Offset = "0x3E5AAF0", VA = "0x3E5AAF0")]
+		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
 		[CompilerGenerated]
 		set
 		{
@@ -35,7 +35,7 @@ internal class BsonString : BsonValue
 	public bool IncludeLength
 	{
 		[Token(Token = "0x600101A")]
-		[Address(RVA = "0x3E5AB00", Offset = "0x3E5AB00", VA = "0x3E5AB00")]
+		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
 		[CompilerGenerated]
 		get
 		{
@@ -44,7 +44,7 @@ internal class BsonString : BsonValue
 	}
 
 	[Token(Token = "0x600101B")]
-	[Address(RVA = "0x3E5A560", Offset = "0x3E5A560", VA = "0x3E5A560")]
+	[Address(RVA = "0x1CAC6C0", Offset = "0x1CAACC0", VA = "0x181CAC6C0")]
 	public BsonString(object value, bool includeLength)
 	{
 	}

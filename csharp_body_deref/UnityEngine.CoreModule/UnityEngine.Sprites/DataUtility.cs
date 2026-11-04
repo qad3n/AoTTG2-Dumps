@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Sprites;
 
-[Token(Token = "0x20001B1")]
+[Token(Token = "0x2000400")]
 public sealed class DataUtility
 {
-	[Token(Token = "0x6000C9F")]
-	[Address(RVA = "0x4E0DC10", Offset = "0x4E0DC10", VA = "0x4E0DC10")]
+	[Token(Token = "0x600180E")]
+	[Address(RVA = "0x2F76CE0", Offset = "0x2F752E0", VA = "0x182F76CE0")]
 	public static Vector4 GetInnerUV(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000CA0")]
-	[Address(RVA = "0x4E0DC30", Offset = "0x4E0DC30", VA = "0x4E0DC30")]
+	[Token(Token = "0x600180F")]
+	[Address(RVA = "0x2F76DB0", Offset = "0x2F753B0", VA = "0x182F76DB0")]
 	public static Vector4 GetOuterUV(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000CA1")]
-	[Address(RVA = "0x4E0DC50", Offset = "0x4E0DC50", VA = "0x4E0DC50")]
+	[Token(Token = "0x6001810")]
+	[Address(RVA = "0x2F76DF0", Offset = "0x2F753F0", VA = "0x182F76DF0")]
 	public static Vector4 GetPadding(Sprite sprite)
 	{
 		return default(Vector4);
 	}
 
-	[Token(Token = "0x6000CA2")]
-	[Address(RVA = "0x4E0DC70", Offset = "0x4E0DC70", VA = "0x4E0DC70")]
+	[Token(Token = "0x6001811")]
+	[Address(RVA = "0x2F76D20", Offset = "0x2F75320", VA = "0x182F76D20")]
 	public static Vector2 GetMinSize(Sprite sprite)
 	{
 		return default(Vector2);

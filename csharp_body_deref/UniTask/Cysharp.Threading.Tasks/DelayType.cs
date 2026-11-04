@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000102")]
+[Token(Token = "0x20000FB")]
 public enum DelayType
 {
-	[Token(Token = "0x40003FD")]
+	[Token(Token = "0x40003EE")]
 	DeltaTime,
-	[Token(Token = "0x40003FE")]
+	[Token(Token = "0x40003EF")]
 	UnscaledDeltaTime,
-	[Token(Token = "0x40003FF")]
+	[Token(Token = "0x40003F0")]
 	Realtime
 }

@@ -14,8 +14,8 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public class ValueAttribute : Attribute
 {
-	[Token(Token = "0x60001CA")]
-	[Address(RVA = "0x4CA3400", Offset = "0x4CA3400", VA = "0x4CA3400")]
+	[Token(Token = "0x60001CE")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ValueAttribute()
 	{
 	}

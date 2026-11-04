@@ -12,6 +12,6 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001AE")]
 public interface IInitializable
 {
-	[Token(Token = "0x6001032")]
+	[Token(Token = "0x600103F")]
 	void Initialize();
 }

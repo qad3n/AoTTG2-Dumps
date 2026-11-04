@@ -10,9 +10,9 @@ using Photon.Realtime;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000A")]
 public interface IOnPhotonViewOwnerChange : IPhotonViewCallback
 {
-	[Token(Token = "0x6000008")]
+	[Token(Token = "0x6000006")]
 	void OnOwnerChange(Player newOwner, Player previousOwner);
 }

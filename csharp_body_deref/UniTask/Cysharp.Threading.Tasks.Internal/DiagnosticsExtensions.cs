@@ -14,58 +14,58 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x200022A")]
+[Token(Token = "0x200022D")]
 internal static class DiagnosticsExtensions
 {
-	[Token(Token = "0x400064E")]
+	[Token(Token = "0x4000661")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool displayFilenames;
 
-	[Token(Token = "0x400064F")]
+	[Token(Token = "0x4000662")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Regex typeBeautifyRegex;
 
-	[Token(Token = "0x4000650")]
+	[Token(Token = "0x4000663")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly Dictionary<Type, string> builtInTypeNames;
 
-	[Token(Token = "0x6000C8C")]
-	[Address(RVA = "0x4A19730", Offset = "0x4A19730", VA = "0x4A19730")]
+	[Token(Token = "0x6000CB0")]
+	[Address(RVA = "0x2940F50", Offset = "0x293F550", VA = "0x182940F50")]
 	public static string CleanupAsyncStackTrace(this StackTrace stackTrace)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C8D")]
-	[Address(RVA = "0x4A1A0C0", Offset = "0x4A1A0C0", VA = "0x4A1A0C0")]
+	[Token(Token = "0x6000CB1")]
+	[Address(RVA = "0x2941980", Offset = "0x293FF80", VA = "0x182941980")]
 	private static bool IsAsync(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C8E")]
-	[Address(RVA = "0x4A1A160", Offset = "0x4A1A160", VA = "0x4A1A160")]
+	[Token(Token = "0x6000CB2")]
+	[Address(RVA = "0x2941A20", Offset = "0x2940020", VA = "0x182941A20")]
 	private static bool TryResolveStateMachineMethod(ref MethodBase method, out Type declaringType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C8F")]
-	[Address(RVA = "0x4A1A710", Offset = "0x4A1A710", VA = "0x4A1A710")]
+	[Token(Token = "0x6000CB3")]
+	[Address(RVA = "0x2940930", Offset = "0x293EF30", VA = "0x182940930")]
 	private static string BeautifyType(Type t, bool shortName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C90")]
-	[Address(RVA = "0x4A19F60", Offset = "0x4A19F60", VA = "0x4A19F60")]
+	[Token(Token = "0x6000CB4")]
+	[Address(RVA = "0x2941810", Offset = "0x293FE10", VA = "0x182941810")]
 	private static bool IgnoreLine(MethodBase methodInfo)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x4A1AD20", Offset = "0x4A1AD20", VA = "0x4A1AD20")]
+	[Token(Token = "0x6000CB5")]
+	[Address(RVA = "0x2940600", Offset = "0x293EC00", VA = "0x182940600")]
 	private static string AppendHyperLink(string path, string line)
 	{
 		return null;

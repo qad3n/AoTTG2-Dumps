@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000025")]
+[Token(Token = "0x2000023")]
 public enum PremiumType
 {
-	[Token(Token = "0x4000055")]
+	[Token(Token = "0x4000050")]
 	None,
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000051")]
 	Tier1,
-	[Token(Token = "0x4000057")]
+	[Token(Token = "0x4000052")]
 	Tier2
 }

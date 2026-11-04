@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000131")]
-public enum ProbeSamplingDebugUpdate
+[Token(Token = "0x2000119")]
+internal enum ProbeSamplingDebugUpdate
 {
-	[Token(Token = "0x4000506")]
+	[Token(Token = "0x40004F6")]
 	Never,
-	[Token(Token = "0x4000507")]
+	[Token(Token = "0x40004F7")]
 	Once,
-	[Token(Token = "0x4000508")]
+	[Token(Token = "0x40004F8")]
 	Always
 }

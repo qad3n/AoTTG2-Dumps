@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000022")]
-[UnityEngine.Bindings.StaticAccessor("AnimationMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[Token(Token = "0x2000023")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationMixerPlayable.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationMixerPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationMixerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 public struct AnimationMixerPlayable : IEquatable<AnimationMixerPlayable>
 {
 	[Token(Token = "0x400005A")]
@@ -29,21 +29,21 @@ public struct AnimationMixerPlayable : IEquatable<AnimationMixerPlayable>
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationMixerPlayable m_NullPlayable;
 
-	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x4DA6520", Offset = "0x4DA6520", VA = "0x4DA6520")]
+	[Token(Token = "0x60000B6")]
+	[Address(RVA = "0x2EAB940", Offset = "0x2EA9F40", VA = "0x182EAB940")]
 	internal AnimationMixerPlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x4DA6610", Offset = "0x4DA6610", VA = "0x4DA6610", Slot = "5")]
+	[Token(Token = "0x60000B7")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000AB")]
-	[Address(RVA = "0x4DA6620", Offset = "0x4DA6620", VA = "0x4DA6620", Slot = "4")]
+	[Token(Token = "0x60000B8")]
+	[Address(RVA = "0x2EAB760", Offset = "0x2EA9D60", VA = "0x182EAB760", Slot = "4")]
 	public bool Equals(AnimationMixerPlayable other)
 	{
 		return default(bool);

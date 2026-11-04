@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C4")]
+[Token(Token = "0x200033F")]
 public enum SinglePassStereoMode
 {
-	[Token(Token = "0x40007E8")]
+	[Token(Token = "0x4000933")]
 	None,
-	[Token(Token = "0x40007E9")]
+	[Token(Token = "0x4000934")]
 	SideBySide,
-	[Token(Token = "0x40007EA")]
+	[Token(Token = "0x4000935")]
 	Instancing,
-	[Token(Token = "0x40007EB")]
+	[Token(Token = "0x4000936")]
 	Multiview
 }

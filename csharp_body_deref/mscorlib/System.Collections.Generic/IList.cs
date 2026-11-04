@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200064E")]
+[Token(Token = "0x2000622")]
 public interface IList<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 {
-	[Token(Token = "0x17000820")]
+	[Token(Token = "0x170007AF")]
 	T this[int index]
 	{
-		[Token(Token = "0x6003205")]
+		[Token(Token = "0x6002F1A")]
 		get;
-		[Token(Token = "0x6003206")]
+		[Token(Token = "0x6002F1B")]
 		set;
 	}
 
-	[Token(Token = "0x6003207")]
+	[Token(Token = "0x6002F1C")]
 	int IndexOf(T item);
 
-	[Token(Token = "0x6003208")]
+	[Token(Token = "0x6002F1D")]
 	void Insert(int index, T item);
 
-	[Token(Token = "0x6003209")]
+	[Token(Token = "0x6002F1E")]
 	void RemoveAt(int index);
 }

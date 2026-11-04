@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.MiscInfo
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers/MiscInfo.cs
@@ -8,65 +8,56 @@
 
 // ApplicationManagers.MiscInfo$$Init
 // il2cpp: void ApplicationManagers_MiscInfo__Init (const MethodInfo* method);
-// 0x44ba1c0
+// 0x1823519c0
 
 void ApplicationManagers_MiscInfo__Init(MethodInfo *method)
 
 {
-  long lVar1;
-  System_String_o *pSVar2;
-  SimpleJSONFixed_JSONNode_o *pSVar3;
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
+  System_String_o *pSVar1;
+  SimpleJSONFixed_JSONNode_o *pSVar2;
   
-  if (g_data_057aea5d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscInfo);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"HelpInfo");
-    il2cpp_runtime_helper_023445d0(&"CreditsInfo");
-    il2cpp_runtime_helper_023445d0(&"SocialInfo");
-    g_data_057aea5d = '\x01';
-    in_RDX = extraout_RDX;
+  if (Il2CppMethodInitialized_184347990 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_MiscInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"HelpInfo");
+    il2cpp_codegen_initialize_runtime_metadata(&"CreditsInfo");
+    il2cpp_codegen_initialize_runtime_metadata(&"SocialInfo");
+    Il2CppMethodInitialized_184347990 = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    in_RDX = extraout_RDX_00;
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  pSVar2 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x18);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    in_RDX = extraout_RDX_01;
+  pSVar1 = TypeInfo_Utility_ResourcePaths->static_fields->Info;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar2 = ApplicationManagers_ResourceManager__TryLoadText(pSVar2,"SocialInfo",in_RDX);
-  pSVar3 = SimpleJSONFixed_JSON__Parse(pSVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_MiscInfo + 0xb8) = pSVar3;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_MiscInfo + 0xb8),pSVar3);
-  pSVar2 = ApplicationManagers_ResourceManager__TryLoadText
-                     (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x18),"HelpInfo",method_00);
-  pSVar3 = SimpleJSONFixed_JSON__Parse(pSVar2,(MethodInfo *)0x0);
-  lVar1 = *(long *)(TypeInfo_MiscInfo + 0xb8);
-  *(SimpleJSONFixed_JSONNode_o **)(lVar1 + 8) = pSVar3;
-  il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar3);
-  pSVar2 = ApplicationManagers_ResourceManager__TryLoadText
-                     (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x18),"CreditsInfo",method_01);
-  pSVar3 = SimpleJSONFixed_JSON__Parse(pSVar2,(MethodInfo *)0x0);
-  lVar1 = *(long *)(TypeInfo_MiscInfo + 0xb8);
-  *(SimpleJSONFixed_JSONNode_o **)(lVar1 + 0x10) = pSVar3;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10,pSVar3);
+  pSVar1 = ApplicationManagers_ResourceManager__TryLoadText(pSVar1,"SocialInfo",(MethodInfo *)0x0);
+  pSVar2 = SimpleJSONFixed_JSON__Parse(pSVar1,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_MiscInfo->static_fields->Social = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MiscInfo->static_fields->Social,pSVar2);
+  pSVar1 = ApplicationManagers_ResourceManager__TryLoadText
+                     (TypeInfo_Utility_ResourcePaths->static_fields->Info,"HelpInfo",
+                      (MethodInfo *)0x0);
+  pSVar2 = SimpleJSONFixed_JSON__Parse(pSVar1,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_MiscInfo->static_fields->Help = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MiscInfo->static_fields->Help,pSVar2);
+  pSVar1 = ApplicationManagers_ResourceManager__TryLoadText
+                     (TypeInfo_Utility_ResourcePaths->static_fields->Info,"CreditsInfo",
+                      (MethodInfo *)0x0);
+  pSVar2 = SimpleJSONFixed_JSON__Parse(pSVar1,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_MiscInfo->static_fields->Credits = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_MiscInfo->static_fields->Credits,pSVar2);
   return;
 }
 
 
 // ApplicationManagers.MiscInfo$$.ctor
 // il2cpp: void ApplicationManagers_MiscInfo___ctor (ApplicationManagers_MiscInfo_o* __this, const MethodInfo* method);
-// 0x44ba490
+// 0x180528540
 
-void ApplicationManagers_MiscInfo___ctor(ApplicationManagers_MiscInfo_o *__this,MethodInfo *method)
+void
+ApplicationManagers_MiscInfo___ctor(ApplicationManagers_MiscInfo_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

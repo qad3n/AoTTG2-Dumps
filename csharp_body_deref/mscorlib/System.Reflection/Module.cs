@@ -13,7 +13,7 @@ namespace System.Reflection;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20004EA")]
+[Token(Token = "0x200051A")]
 public abstract class Module : ICustomAttributeProvider, ISerializable, _Module
 {
 	[Token(Token = "0x400143B")]
@@ -27,134 +27,134 @@ public abstract class Module : ICustomAttributeProvider, ISerializable, _Module
 	[Token(Token = "0x400143D")]
 	private const BindingFlags DefaultLookup = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public;
 
-	[Token(Token = "0x170004CA")]
+	[Token(Token = "0x170004CD")]
 	public virtual Assembly Assembly
 	{
-		[Token(Token = "0x600246E")]
-		[Address(RVA = "0x3BD36E0", Offset = "0x3BD36E0", VA = "0x3BD36E0", Slot = "8")]
+		[Token(Token = "0x60024F0")]
+		[Address(RVA = "0x1A4B750", Offset = "0x1A49D50", VA = "0x181A4B750", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004CB")]
+	[Token(Token = "0x170004CE")]
 	public virtual string FullyQualifiedName
 	{
-		[Token(Token = "0x600246F")]
-		[Address(RVA = "0x3BD3710", Offset = "0x3BD3710", VA = "0x3BD3710", Slot = "9")]
+		[Token(Token = "0x60024F1")]
+		[Address(RVA = "0x1A4B780", Offset = "0x1A49D80", VA = "0x181A4B780", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170004CC")]
+	[Token(Token = "0x170004CF")]
 	public virtual Guid ModuleVersionId
 	{
-		[Token(Token = "0x6002470")]
-		[Address(RVA = "0x3BD3740", Offset = "0x3BD3740", VA = "0x3BD3740", Slot = "10")]
+		[Token(Token = "0x60024F2")]
+		[Address(RVA = "0x1A4B7B0", Offset = "0x1A49DB0", VA = "0x181A4B7B0", Slot = "10")]
 		get
 		{
 			return default(Guid);
 		}
 	}
 
-	[Token(Token = "0x170004CD")]
+	[Token(Token = "0x170004D0")]
 	public virtual string ScopeName
 	{
-		[Token(Token = "0x6002471")]
-		[Address(RVA = "0x3BD3770", Offset = "0x3BD3770", VA = "0x3BD3770", Slot = "11")]
+		[Token(Token = "0x60024F3")]
+		[Address(RVA = "0x1A4B7E0", Offset = "0x1A49DE0", VA = "0x181A4B7E0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600246D")]
-	[Address(RVA = "0x3BD36D0", Offset = "0x3BD36D0", VA = "0x3BD36D0")]
+	[Token(Token = "0x60024EF")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected Module()
 	{
 	}
 
-	[Token(Token = "0x6002472")]
-	[Address(RVA = "0x3BD37A0", Offset = "0x3BD37A0", VA = "0x3BD37A0", Slot = "12")]
+	[Token(Token = "0x60024F4")]
+	[Address(RVA = "0x1A4B610", Offset = "0x1A49C10", VA = "0x181A4B610", Slot = "12")]
 	public virtual bool IsResource()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002473")]
-	[Address(RVA = "0x3BD37D0", Offset = "0x3BD37D0", VA = "0x3BD37D0", Slot = "13")]
+	[Token(Token = "0x60024F5")]
+	[Address(RVA = "0x1A4B5E0", Offset = "0x1A49BE0", VA = "0x181A4B5E0", Slot = "13")]
 	public virtual bool IsDefined(Type attributeType, bool inherit)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002474")]
-	[Address(RVA = "0x3BD3800", Offset = "0x3BD3800", VA = "0x3BD3800", Slot = "14")]
+	[Token(Token = "0x60024F6")]
+	[Address(RVA = "0x1A4B540", Offset = "0x1A49B40", VA = "0x181A4B540", Slot = "14")]
 	public virtual object[] GetCustomAttributes(bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002475")]
-	[Address(RVA = "0x3BD3830", Offset = "0x3BD3830", VA = "0x3BD3830", Slot = "15")]
+	[Token(Token = "0x60024F7")]
+	[Address(RVA = "0x1A4B510", Offset = "0x1A49B10", VA = "0x181A4B510", Slot = "15")]
 	public virtual object[] GetCustomAttributes(Type attributeType, bool inherit)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002476")]
-	[Address(RVA = "0x3BD3860", Offset = "0x3BD3860", VA = "0x3BD3860", Slot = "16")]
+	[Token(Token = "0x60024F8")]
+	[Address(RVA = "0x1A4B5B0", Offset = "0x1A49BB0", VA = "0x181A4B5B0", Slot = "16")]
 	public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002477")]
-	[Address(RVA = "0x3BD3890", Offset = "0x3BD3890", VA = "0x3BD3890", Slot = "0")]
+	[Token(Token = "0x60024F9")]
+	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
 	public override bool Equals(object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002478")]
-	[Address(RVA = "0x3BD38A0", Offset = "0x3BD38A0", VA = "0x3BD38A0", Slot = "2")]
+	[Token(Token = "0x60024FA")]
+	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002479")]
-	[Address(RVA = "0x3BD38B0", Offset = "0x3BD38B0", VA = "0x3BD38B0")]
+	[Token(Token = "0x60024FB")]
+	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
 	public static bool operator ==(Module left, Module right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600247A")]
-	[Address(RVA = "0x3BD38E0", Offset = "0x3BD38E0", VA = "0x3BD38E0", Slot = "3")]
+	[Token(Token = "0x60024FC")]
+	[Address(RVA = "0x1A4B640", Offset = "0x1A49C40", VA = "0x181A4B640", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600247B")]
-	[Address(RVA = "0x3BD3900", Offset = "0x3BD3900", VA = "0x3BD3900")]
+	[Token(Token = "0x60024FD")]
+	[Address(RVA = "0x1A4B3C0", Offset = "0x1A499C0", VA = "0x181A4B3C0")]
 	private static bool FilterTypeNameImpl(Type cls, object filterCriteria)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600247C")]
-	[Address(RVA = "0x3BD3A20", Offset = "0x3BD3A20", VA = "0x3BD3A20")]
+	[Token(Token = "0x60024FE")]
+	[Address(RVA = "0x1A4B230", Offset = "0x1A49830", VA = "0x181A4B230")]
 	private static bool FilterTypeNameIgnoreCaseImpl(Type cls, object filterCriteria)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600247D")]
-	[Address(RVA = "0x3BD3B60", Offset = "0x3BD3B60", VA = "0x3BD3B60", Slot = "17")]
+	[Token(Token = "0x60024FF")]
+	[Address(RVA = "0x1A4B570", Offset = "0x1A49B70", VA = "0x181A4B570", Slot = "17")]
 	internal virtual Guid GetModuleVersionId()
 	{
 		return default(Guid);

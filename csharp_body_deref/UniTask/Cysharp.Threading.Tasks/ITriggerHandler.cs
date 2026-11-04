@@ -11,11 +11,20 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000072")]
+[Token(Token = "0x2000070")]
 public interface ITriggerHandler<T>
 {
 	[Token(Token = "0x1700002E")]
 	ITriggerHandler<T> Prev
+	{
+		[Token(Token = "0x600018C")]
+		get;
+		[Token(Token = "0x600018D")]
+		set;
+	}
+
+	[Token(Token = "0x1700002F")]
+	ITriggerHandler<T> Next
 	{
 		[Token(Token = "0x600018E")]
 		get;
@@ -23,24 +32,15 @@ public interface ITriggerHandler<T>
 		set;
 	}
 
-	[Token(Token = "0x1700002F")]
-	ITriggerHandler<T> Next
-	{
-		[Token(Token = "0x6000190")]
-		get;
-		[Token(Token = "0x6000191")]
-		set;
-	}
-
-	[Token(Token = "0x600018A")]
+	[Token(Token = "0x6000188")]
 	void OnNext(T value);
 
-	[Token(Token = "0x600018B")]
+	[Token(Token = "0x6000189")]
 	void OnError(Exception ex);
 
-	[Token(Token = "0x600018C")]
+	[Token(Token = "0x600018A")]
 	void OnCompleted();
 
-	[Token(Token = "0x600018D")]
+	[Token(Token = "0x600018B")]
 	void OnCanceled(CancellationToken cancellationToken);
 }

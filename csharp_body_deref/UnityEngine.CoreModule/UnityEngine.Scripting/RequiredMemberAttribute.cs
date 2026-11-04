@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Scripting;
 
-[Token(Token = "0x20001F8")]
+[Token(Token = "0x2000248")]
 [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event)]
 public class RequiredMemberAttribute : Attribute
 {
-	[Token(Token = "0x6000D92")]
-	[Address(RVA = "0x4E13B10", Offset = "0x4E13B10", VA = "0x4E13B10")]
+	[Token(Token = "0x6001186")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public RequiredMemberAttribute()
 	{
 	}

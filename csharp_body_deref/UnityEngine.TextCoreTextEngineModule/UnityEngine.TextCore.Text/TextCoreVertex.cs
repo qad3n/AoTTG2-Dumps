@@ -11,24 +11,25 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000047")]
-[UnityEngine.Bindings.NativeHeader("Modules/TextCoreTextEngine/TextCoreVertex.h")]
+[Token(Token = "0x2000042")]
+[UnityEngine.Bindings.NativeHeader("Modules/TextCoreTextEngine/Native/TextCoreVertex.h")]
 [UnityEngine.Scripting.UsedByNativeCode("TextCoreVertex")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 internal struct TextCoreVertex
 {
-	[Token(Token = "0x40003B6")]
+	[Token(Token = "0x40001DB")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector3 position;
 
-	[Token(Token = "0x40003B7")]
+	[Token(Token = "0x40001DC")]
 	[FieldOffset(Offset = "0xC")]
 	public Color32 color;
 
-	[Token(Token = "0x40003B8")]
+	[Token(Token = "0x40001DD")]
 	[FieldOffset(Offset = "0x10")]
 	public Vector2 uv0;
 
-	[Token(Token = "0x40003B9")]
+	[Token(Token = "0x40001DE")]
 	[FieldOffset(Offset = "0x18")]
 	public Vector2 uv2;
 }

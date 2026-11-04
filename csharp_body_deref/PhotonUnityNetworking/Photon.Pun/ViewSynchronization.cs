@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 public enum ViewSynchronization
 {
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x4000014")]
 	Off,
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000015")]
 	ReliableDeltaCompressed,
-	[Token(Token = "0x400001B")]
+	[Token(Token = "0x4000016")]
 	Unreliable,
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000017")]
 	UnreliableOnChange
 }

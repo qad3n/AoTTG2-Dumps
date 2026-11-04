@@ -1,5 +1,5 @@
 // Type: Controllers.DebugAttackKeyframes
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Controllers/DebugAttackKeyframes.cs
@@ -8,14 +8,14 @@
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$.ctor
 // il2cpp: void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3___ctor (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x4287b80
+// 0x180573ef0
 
-void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3___ctor
-               (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void
+Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3___ctor(Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3___ctor
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$System.IDisposable.Dispose
 // il2cpp: void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_IDisposable_Dispose (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, const MethodInfo* method);
-// 0x4287ef0
+// 0x180547020
 
-void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_IDisposable_Dispose
-               (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
+void
+Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_IDisposable_Dispose(Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, MethodInfo* method)
 
 {
   return;
@@ -35,15 +35,66 @@ void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_IDispos
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$MoveNext
 // il2cpp: bool Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__MoveNext (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, const MethodInfo* method);
-// 0x4287f00
+// 0x182101bf0
+// asm: 52 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182101f49: jmp 0x182102217
+// asm:   0x182101fe9: nop dword ptr [rax]
+// asm:   0x182102809: lea rcx, [rdi + 0x18]
+// asm:   0x18210280d: mov qword ptr [rdi + 0x18], 0
+// asm:   0x182102815: xor edx, edx
+// asm:   0x182102817: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18210281c: mov dword ptr [rdi + 0x10], 2
+// asm:   0x182102823: jmp 0x182101f04
+// asm:   0x182102b2a: mov rax, qword ptr [rcx]
+// asm:   0x182102b2d: mov r8, qword ptr [rdi + 0x90]
+// asm:   0x182102b34: mov rdx, qword ptr [rdi + 0x88]
+// asm:   0x182102b3b: mov r9, qword ptr [rax + 0x1c0]
+// asm:   0x182102b42: call qword ptr [rax + 0x1b8]  ; vtable slot 8
+// asm:   0x182102b48: mov rcx, qword ptr [rip + 0x1f93ee1]  ; TypeInfo_UnityEngine_WaitForSeconds
+// asm:   0x182102b4f: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x182102b54: movss xmm1, dword ptr [rip + 0x12560a8]
+// asm:   0x182102b5c: xor r8d, r8d
+// asm:   0x182102b5f: mov rcx, rax
+// asm:   0x182102b62: mov rbx, rax
+// asm:   0x182102b65: call 0x181d89ae0  ; UnityEngine_WaitForSeconds___ctor()
+// asm:   0x182102b6a: lea rcx, [rdi + 0x18]
+// asm:   0x182102b6e: mov qword ptr [rdi + 0x18], rbx
+// asm:   0x182102b72: mov rdx, rbx
+// asm:   0x182102b75: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x182102b7a: mov dword ptr [rdi + 0x10], 3
+// asm:   0x182102b81: jmp 0x182101f04
+// asm:   0x182102c38: xor edx, edx
+// asm:   0x182102c3a: mov rcx, rbx
+// asm:   0x182102c3d: call 0x182ec3bd0  ; UnityEngine_Debug__Log()
+// asm:   0x182102c42: xor al, al
+// asm:   0x182102c44: jmp 0x182101f06
+// asm:   0x182102d38: mov rax, qword ptr [rip + 0x1fe09e9]  ; TypeInfo_UnityEngine_Quaternion
+// asm:   0x182102d3f: xor r8d, r8d
+// asm:   0x182102d42: mov rcx, rbx
+// asm:   0x182102d45: mov rdx, qword ptr [rax + 0xb8]
+// asm:   0x182102d4c: movups xmm0, xmmword ptr [rdx]
+// asm:   0x182102d4f: lea rdx, [rsp + 0x50]
+// asm:   0x182102d54: movaps xmmword ptr [rsp + 0x50], xmm0
+// asm:   0x182102d59: call 0x182f5c560  ; UnityEngine_Transform__set_rotation()
+// asm:   0x182102d5e: mov rcx, qword ptr [rip + 0x1f93ccb]  ; TypeInfo_UnityEngine_WaitForSeconds
+// asm:   0x182102d65: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x182102d6a: movss xmm1, dword ptr [rip + 0x1255e96]
+// asm:   0x182102d72: xor r8d, r8d
+// asm:   0x182102d75: mov rcx, rax
+// asm:   0x182102d78: mov rbx, rax
+// asm:   0x182102d7b: call 0x181d89ae0  ; UnityEngine_WaitForSeconds___ctor()
+// asm:   0x182102d80: lea rcx, [rdi + 0x18]
+// asm:   0x182102d84: mov qword ptr [rdi + 0x18], rbx
+// asm:   0x182102d88: mov rdx, rbx
+// asm:   0x182102d8b: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x182102d90: mov dword ptr [rdi + 0x10], 1
+// asm:   0x182102d97: jmp 0x182101f04
 
-bool_conflict
-Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__MoveNext
-          (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
+bool Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__MoveNext
+               (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
 
 {
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o *method_00;
-  SimpleJSONFixed_JSONObject_o **ppSVar1;
+  SimpleJSONFixed_JSONNode_KeyEnumerator_o *pSVar1;
   undefined4 uVar2;
   undefined4 uVar3;
   undefined4 uVar4;
@@ -54,661 +105,686 @@ Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__MoveNext
   undefined4 uVar9;
   undefined4 uVar10;
   undefined4 uVar11;
-  uint uVar12;
-  System_Action_Hashtable__o *pSVar13;
-  Il2CppClass *pIVar14;
-  long lVar15;
-  UnityEngine_Transform_o *pUVar16;
-  SimpleJSONFixed_JSONObject_o *pSVar17;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_00;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_01;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_02;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_03;
-  SimpleJSONFixed_JSONNode_Enumerator_o *pSVar18;
-  char cVar19;
-  bool_conflict bVar20;
-  int iVar21;
-  Characters_BaseTitan_o *pCVar22;
-  System_Single_array *pSVar23;
-  System_Single_array *pSVar24;
-  System_String_o *pSVar25;
-  System_Single_array *pSVar26;
-  SimpleJSONFixed_JSONObject_o *pSVar27;
-  long *plVar28;
-  SimpleJSONFixed_JSONArray_o *pSVar29;
-  System_String_o *path;
+  undefined4 uVar12;
+  undefined4 uVar13;
+  undefined4 uVar14;
+  undefined4 uVar15;
+  undefined4 uVar16;
+  undefined4 uVar17;
+  undefined4 uVar18;
+  undefined4 uVar19;
+  undefined4 uVar20;
+  undefined4 uVar21;
+  Controllers_DebugAttackKeyframes_o *__this_00;
+  UnityEngine_Quaternion_StaticFields *pUVar22;
+  Characters_BaseTitan_o *pCVar23;
+  Utility_BaseComponentCache_o *pUVar24;
+  Characters_BaseTitanComponentCache_o *pCVar25;
+  Characters_BaseHitbox_o *pCVar26;
+  System_Single_array *pSVar27;
+  SimpleJSONFixed_JSONObject_o *pSVar28;
+  System_Collections_Generic_Dictionary_object__object__o *__this_01;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar29;
   Il2CppObject *pIVar30;
-  System_Single_array *pSVar31;
-  SimpleJSONFixed_JSONNode_o *pSVar32;
-  System_Single_array *pSVar33;
-  System_Single_array *unaff_RBX;
-  System_String_o **ppSVar34;
-  long *plVar35;
-  System_Collections_Generic_Dictionary_Enumerator_string__JSONNode__o *pSVar36;
-  MethodInfo *in_R9;
-  int iVar37;
-  Controllers_DebugAttackKeyframes_o *pCVar38;
+  System_Collections_Generic_List_T__o *pSVar31;
+  SimpleJSONFixed_JSONNode_Enumerator_o *pSVar32;
+  undefined4 uVar33;
+  int32_t iVar34;
+  int32_t iVar35;
+  undefined4 uVar36;
+  int32_t iVar37;
+  int32_t iVar38;
   float fVar39;
-  UnityEngine_Vector3_o position;
-  UnityEngine_Vector3_o position_00;
-  UnityEngine_Vector3_o position_01;
-  UnityEngine_Vector3_o position_02;
-  UnityEngine_Vector3_o position_03;
-  UnityEngine_Vector3_o UVar40;
-  undefined8 in_stack_fffffffffffffed8;
-  undefined4 uVar41;
-  undefined4 uVar42;
-  int32_t in_stack_fffffffffffffee8;
-  undefined4 in_stack_fffffffffffffeec;
-  undefined4 in_stack_fffffffffffffef0;
-  undefined4 in_stack_fffffffffffffef4;
-  InvokerMethod in_stack_fffffffffffffef8;
-  Il2CppObject *in_stack_ffffffffffffff00;
-  Il2CppClass *in_stack_ffffffffffffff08;
-  Il2CppType *in_stack_ffffffffffffff10;
-  System_Collections_Generic_List_T__o *in_stack_ffffffffffffff18;
-  _union_13 _Stack_e0;
-  _union_14 _Stack_d8;
-  undefined1 auStack_c8 [88];
-  undefined4 uStack_70;
-  undefined4 uStack_6c;
-  InvokerMethod pIStack_68;
-  Il2CppObject *pIStack_60;
-  Il2CppClass *pIStack_58;
-  Il2CppType *pIStack_50;
-  System_Collections_Generic_List_T__o *pSStack_48;
-  undefined8 uStack_40;
-  SimpleJSONFixed_JSONNode_o *pSStack_38;
+  bool bVar40;
+  char cVar41;
+  int32_t iVar42;
+  longlong lVar43;
+  SimpleJSONFixed_JSONNode_ValueEnumerator_o *pSVar44;
+  SimpleJSONFixed_JSONNode_KeyEnumerator_o *pSVar45;
+  System_String_o *pSVar46;
+  System_Xml_Schema_XmlSchema_o *pSVar47;
+  SimpleJSONFixed_JSONObject_o *pSVar48;
+  SimpleJSONFixed_JSONArray_o *pSVar49;
+  UnityEngine_Vector3_o *pUVar50;
+  System_Single_array *pSVar51;
+  UnityEngine_Transform_o *pUVar52;
+  SimpleJSONFixed_JSONNode_o *pSVar53;
+  SimpleJSONFixed_JSONArray_o *__this_02;
+  SimpleJSONFixed_JSONArray_o *__this_03;
+  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *pPVar54;
+  System_String_o *path;
+  Il2CppObject *pIVar55;
+  int iVar56;
+  float fVar57;
+  int32_t local_res8 [2];
+  UnityEngine_Vector3_Fields local_f8;
+  UnityEngine_Quaternion_Fields local_e8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_d8;
+  SimpleJSONFixed_JSONNode_ValueEnumerator_o local_88;
   
-  ppSVar34 = (System_String_o **)__this;
-  if (g_data_057adcba == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterData);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_JSONNode_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_FolderPaths);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONArray);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_float);
-    il2cpp_runtime_helper_023445d0(&fld_CA37AD904FC6BEA9F844804EA32D830AC222F833C1C12C44DAD8B677);
-    il2cpp_runtime_helper_023445d0(&fld_DD6DFD036D588321FCD10D32CBA47D659057F3F8DA5C7AD402B7A500);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitForSeconds);
-    il2cpp_runtime_helper_023445d0(&"AttackBellyFlop");
-    il2cpp_runtime_helper_023445d0(&"Ranges");
-    il2cpp_runtime_helper_023445d0(&"Z");
-    il2cpp_runtime_helper_023445d0(&"Keyframes");
-    il2cpp_runtime_helper_023445d0(&"Far");
-    il2cpp_runtime_helper_023445d0(&"AttackInfo");
-    il2cpp_runtime_helper_023445d0(&"Y");
-    il2cpp_runtime_helper_023445d0(&"X");
-    ppSVar34 = &"/Keyframes.txt";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adcba = '\x01';
+  if (Il2CppMethodInitialized_184346a75 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_CharacterData);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_JSONNode_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_FolderPaths);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONArray);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_float_array);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               FieldRva_PrivateImplementationDetails_CA37AD904FC6BEA9F844804EA32D830AC222F833C1C12C44DAD8B67745FAF4DF
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               FieldRva_PrivateImplementationDetails_DD6DFD036D588321FCD10D32CBA47D659057F3F8DA5C7AD402B7A50049F7EB84
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackBellyFlop");
+    il2cpp_codegen_initialize_runtime_metadata(&"Ranges");
+    il2cpp_codegen_initialize_runtime_metadata(&"Z");
+    il2cpp_codegen_initialize_runtime_metadata(&"Keyframes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Far");
+    il2cpp_codegen_initialize_runtime_metadata(&"AttackInfo");
+    il2cpp_codegen_initialize_runtime_metadata(&"Y");
+    il2cpp_codegen_initialize_runtime_metadata(&"X");
+    il2cpp_codegen_initialize_runtime_metadata(&"/Keyframes.txt");
+    Il2CppMethodInitialized_184346a75 = '\x01';
   }
-  auStack_c8._48_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  auStack_c8._56_8_ = (Il2CppRGCTXData *)0x0;
-  auStack_c8._32_8_ = (Il2CppClass *)0x0;
-  auStack_c8._40_8_ = (Il2CppType *)0x0;
-  auStack_c8._16_8_ = (InvokerMethod)0x0;
-  auStack_c8._24_8_ = (Il2CppObject *)0x0;
-  auStack_c8._0_8_ = (Il2CppMethodPointer)0x0;
-  auStack_c8._8_8_ = (Il2CppMethodPointer)0x0;
-  auStack_c8._64_8_ = (SimpleJSONFixed_JSONNode_o *)0x0;
-  uVar12 = (__this->fields).__1__state;
-  if (4 < uVar12) {
-    return 0;
-  }
-  pCVar38 = (__this->fields).__4__this;
-  uVar41 = SUB84(pCVar38,0);
-  uVar42 = (undefined4)((ulong)pCVar38 >> 0x20);
-  plVar35 = (long *)ppSVar34;
-  switch(uVar12) {
-  case 0:
+  iVar56 = (__this->fields).__1__state;
+  __this_00 = (__this->fields).__4__this;
+  local_d8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_d8.type = 0;
+  local_d8._4_4_ = 0;
+  local_d8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_d8.m_Object.fields._version = 0;
+  local_d8.m_Object.fields._index = 0;
+  local_d8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_d8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_d8.m_Object.fields._getEnumeratorRetType = 0;
+  local_d8.m_Object.fields._36_4_ = 0;
+  local_d8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_d8.m_Array.fields._index = 0;
+  local_d8.m_Array.fields._version = 0;
+  if (iVar56 == 0) {
     (__this->fields).__1__state = -1;
-    if (TypeInfo_CharacterData->m_Items[0x31] == 0.0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_Characters_CharacterData->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_CharacterData);
     }
-    plVar35 = (long *)TypeInfo_CharacterData;
-    if (((pCVar38 != (Controllers_DebugAttackKeyframes_o *)0x0) &&
-        (plVar35 = *(long **)(*(long *)(TypeInfo_CharacterData->m_Items + 0x26) + 8),
-        (System_Single_array *)plVar35 != (System_Single_array *)0x0)) &&
-       (pIVar30 = System_Collections_Generic_Dictionary_object__object___get_Item
-                            ((System_Collections_Generic_Dictionary_object__object__o *)plVar35,
-                             (Il2CppObject *)(pCVar38->fields)._name,MethodInfo_JSONNode_get_Item),
-       pIVar30 != (Il2CppObject *)0x0)) {
-      pSVar32 = (SimpleJSONFixed_JSONNode_o *)
-                (*pIVar30->klass->vtable[7].methodPtr)(pIVar30,"AttackInfo",pIVar30->klass->vtable[7].method);
-      (__this->fields)._data_5__2 = pSVar32;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._data_5__2);
-      pSVar27 = (SimpleJSONFixed_JSONObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONObject);
-      SimpleJSONFixed_JSONObject___ctor(pSVar27,(MethodInfo *)0x0);
-      plVar35 = (long *)&(__this->fields)._newData_5__3;
-      (__this->fields)._newData_5__3 = (SimpleJSONFixed_JSONNode_o *)pSVar27;
-      il2cpp_runtime_helper_022b4080();
-      pCVar22 = (pCVar38->fields)._titan;
-      if ((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-         (lVar15 = *(long *)&(pCVar22->fields).Dead, lVar15 != 0)) {
-        pUVar16 = *(UnityEngine_Transform_o **)(lVar15 + 0x10);
-        if (g_data_057a6843 == '\0') {
-          plVar35 = &TypeInfo_Quaternion;
-          il2cpp_runtime_helper_023445d0();
-          g_data_057a6843 = '\x01';
+    if (((__this_00 != (Controllers_DebugAttackKeyframes_o *)0x0) &&
+        (__this_01 = (System_Collections_Generic_Dictionary_object__object__o *)
+                     TypeInfo_Characters_CharacterData->static_fields->TitanAIInfos,
+        __this_01 != (System_Collections_Generic_Dictionary_object__object__o *)0x0)) &&
+       (pSVar53 = System_Collections_Generic_Dictionary_object__object___get_Item
+                            (__this_01,(Il2CppObject *)(__this_00->fields)._name,
+                             (MethodInfo_147A5B0 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_JSONNode_get_Item),
+       pSVar53 != (SimpleJSONFixed_JSONNode_o *)0x0)) {
+      pSVar47 = (*(pSVar53->klass->vtable)._7_get_Item.methodPtr)(pSVar53,(MethodInfo *)"AttackInfo")
+      ;
+      (__this->fields)._data_5__2 = (SimpleJSONFixed_JSONNode_o *)pSVar47;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._data_5__2,pSVar47);
+      pSVar48 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONObject);
+      SimpleJSONFixed_JSONObject___ctor(pSVar48,(MethodInfo *)0x0);
+      (__this->fields)._newData_5__3 = (SimpleJSONFixed_JSONNode_o *)pSVar48;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._newData_5__3,pSVar48);
+      pCVar23 = (__this_00->fields)._titan;
+      if ((pCVar23 != (Characters_BaseTitan_o *)0x0) &&
+         (pUVar24 = (pCVar23->fields).Cache, pUVar24 != (Utility_BaseComponentCache_o *)0x0)) {
+        pUVar52 = (pUVar24->fields).Transform;
+        if (Il2CppMethodInitialized_18433de5b == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+          Il2CppMethodInitialized_18433de5b = '\x01';
         }
-        if (pUVar16 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__set_rotation
-                    (pUVar16,(UnityEngine_Quaternion_o)
-                             **(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8),(MethodInfo *)0x0);
-          unaff_RBX = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-          UnityEngine_WaitForSeconds___ctor((UnityEngine_WaitForSeconds_o *)unaff_RBX,1.0,(MethodInfo *)0x0);
-          (__this->fields).__2__current = (Il2CppObject *)unaff_RBX;
-          il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,unaff_RBX);
+        if (pUVar52 != (UnityEngine_Transform_o *)0x0) {
+          pUVar22 = TypeInfo_UnityEngine_Quaternion->static_fields;
+          local_e8.x = (pUVar22->identityQuaternion).fields.x;
+          local_e8.y = (pUVar22->identityQuaternion).fields.y;
+          local_e8.z = (pUVar22->identityQuaternion).fields.z;
+          local_e8.w = (pUVar22->identityQuaternion).fields.w;
+          UnityEngine_Transform__set_rotation(pUVar52,(UnityEngine_Quaternion_o *)&local_e8,(MethodInfo *)0x0)
+          ;
+          pPVar54 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+          UnityEngine_WaitForSeconds___ctor(pPVar54,1.0,(MethodInfo *)0x0);
+          (__this->fields).__2__current = (Il2CppObject *)pPVar54;
+          Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar54);
           (__this->fields).__1__state = 1;
-          goto label_0428900d;
+          return true;
         }
       }
     }
-    break;
-  case 1:
+    goto label_182102d9c;
+  }
+  if (iVar56 == 1) {
+    pSVar53 = (__this->fields)._data_5__2;
     (__this->fields).__1__state = -1;
     (__this->fields)._total_5__4 = 0;
-    pSVar32 = (__this->fields)._data_5__2;
-    if (pSVar32 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      SimpleJSONFixed_JSONNode__get_Keys
-                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&stack0xfffffffffffffee8,pSVar32,
-                 (MethodInfo *)0x0);
-      auStack_c8._64_8_ = _Stack_d8;
-      auStack_c8._0_8_ = CONCAT44(in_stack_fffffffffffffeec,in_stack_fffffffffffffee8);
-      auStack_c8._8_8_ = CONCAT44(in_stack_fffffffffffffef4,in_stack_fffffffffffffef0);
-      auStack_c8._56_8_ = _Stack_e0;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._dictionary._0_4_ = uVar41;
-      __this_00.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffed8;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._dictionary._4_4_ = uVar42;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._version = in_stack_fffffffffffffee8;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._index = in_stack_fffffffffffffeec;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._0_4_ =
-           in_stack_fffffffffffffef0;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._4_4_ =
-           in_stack_fffffffffffffef4;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-           (Il2CppObject *)in_stack_fffffffffffffef8;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_ffffffffffffff00;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._list =
-           (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff08;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_ffffffffffffff10;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._current =
-           (SimpleJSONFixed_JSONNode_o *)in_stack_ffffffffffffff18;
-      auStack_c8._16_8_ = in_stack_fffffffffffffef8;
-      auStack_c8._24_8_ = in_stack_ffffffffffffff00;
-      auStack_c8._32_8_ = in_stack_ffffffffffffff08;
-      auStack_c8._40_8_ = in_stack_ffffffffffffff10;
-      auStack_c8._48_8_ = in_stack_ffffffffffffff18;
-      SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
-                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)(auStack_c8 + 0x50),__this_00,
-                 (MethodInfo *)auStack_c8);
-      (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._current = pSStack_38;
-      (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._list = pSStack_48;
-      pSVar18 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
-      (pSVar18->fields).m_Array.fields._index = (undefined4)uStack_40;
-      (pSVar18->fields).m_Array.fields._version = uStack_40._4_4_;
-      (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-           (Il2CppObject *)pIStack_58;
-      *(Il2CppType **)
-       &(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._getEnumeratorRetType =
-           pIStack_50;
-      *(InvokerMethod *)&(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._version =
-           pIStack_68;
-      (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.key = pIStack_60;
-      (__this->fields).__7__wrap4.fields.m_Enumerator.fields.type = auStack_c8._80_4_;
-      *(undefined4 *)&(__this->fields).__7__wrap4.fields.m_Enumerator.fields.field_0x4 = auStack_c8._84_4_;
-      *(undefined4 *)&(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-           uStack_70;
-      *(undefined4 *)
-       ((long)&(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._dictionary + 4) =
-           uStack_6c;
-      pSVar36 = &(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object;
-      in_stack_fffffffffffffee8 = auStack_c8._80_4_;
-      in_stack_fffffffffffffeec = auStack_c8._84_4_;
-      in_stack_fffffffffffffef0 = uStack_70;
-      in_stack_fffffffffffffef4 = uStack_6c;
-      in_stack_fffffffffffffef8 = pIStack_68;
-      in_stack_ffffffffffffff00 = pIStack_60;
-      in_stack_ffffffffffffff08 = pIStack_58;
-      in_stack_ffffffffffffff10 = pIStack_50;
-      in_stack_ffffffffffffff18 = pSStack_48;
-      goto label_04288962;
-    }
-    break;
-  case 2:
-    (__this->fields).__1__state = -1;
-    if ((pCVar38 != (Controllers_DebugAttackKeyframes_o *)0x0) &&
-       (pCVar22 = (pCVar38->fields)._titan, pCVar22 != (Characters_BaseTitan_o *)0x0)) {
-label_04288276:
-      if (*(int *)&(pCVar22->fields).OutlineComponent == 10) {
-        plVar35 = (long *)0x0;
-        fVar39 = UnityEngine_Time__get_fixedTime((MethodInfo *)0x0);
-        iVar37 = (int)((fVar39 - (__this->fields)._startTime_5__9) * 50.0);
-        if (iVar37 <= (__this->fields)._currFrame_5__13) goto label_04288777;
-        (__this->fields)._currFrame_5__13 = iVar37;
-        pCVar22 = (pCVar38->fields)._titan;
-        if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-            (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-            pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-           (pSVar26 = pSVar13[1].monitor, plVar35 = (long *)pSVar26, pSVar26 != (System_Single_array *)0x0)) {
-          bVar20 = Characters_BaseHitbox__IsActive((Characters_BaseHitbox_o *)pSVar26,(MethodInfo *)0x0);
-          uVar41 = SUB84(pCVar38,0);
-          uVar42 = (undefined4)((ulong)pCVar38 >> 0x20);
-          if ((char)bVar20 == '\0') {
-label_0428839c:
-            pCVar22 = (pCVar38->fields)._titan;
-            plVar35 = (long *)pSVar26;
-            if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-               (pSVar26 = (System_Single_array *)pSVar13[1].fields.method_ptr, plVar35 = (long *)pSVar26,
-               pSVar26 != (System_Single_array *)0x0)) {
-              bVar20 = Characters_BaseHitbox__IsActive((Characters_BaseHitbox_o *)pSVar26,(MethodInfo *)0x0);
-              if ((char)bVar20 == '\0') {
-label_04288480:
-                pCVar22 = (pCVar38->fields)._titan;
-                plVar35 = (long *)pSVar26;
-                if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                    (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                    pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                   (pSVar26 = (System_Single_array *)pSVar13[1].fields.invoke_impl, plVar35 = (long *)pSVar26,
-                   pSVar26 != (System_Single_array *)0x0)) {
-                  bVar20 = Characters_BaseHitbox__IsActive
-                                     ((Characters_BaseHitbox_o *)pSVar26,(MethodInfo *)0x0);
-                  if ((char)bVar20 == '\0') {
-label_04288564:
-                    pCVar22 = (pCVar38->fields)._titan;
-                    plVar35 = (long *)pSVar26;
-                    if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                        (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                        pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                       (pSVar26 = (System_Single_array *)pSVar13[1].fields.m_target, plVar35 = (long *)pSVar26
-                       , pSVar26 != (System_Single_array *)0x0)) {
-                      bVar20 = Characters_BaseHitbox__IsActive
-                                         ((Characters_BaseHitbox_o *)pSVar26,(MethodInfo *)0x0);
-                      if ((char)bVar20 == '\0') {
-label_04288648:
-                        pCVar22 = (pCVar38->fields)._titan;
-                        plVar35 = (long *)pSVar26;
-                        if ((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                           (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                           pSVar13 != (System_Action_Hashtable__o *)0x0)) {
-                          unaff_RBX = (System_Single_array *)pSVar13[1].klass;
-                          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                            il2cpp_runtime_helper_02337ed0();
-                          }
-                          plVar35 = (long *)unaff_RBX;
-                          bVar20 = UnityEngine_Object__op_Inequality
-                                             ((UnityEngine_Object_o *)unaff_RBX,(UnityEngine_Object_o *)0x0,
-                                              (MethodInfo *)0x0);
-                          if ((char)bVar20 == '\0') {
-label_04288777:
-                            (__this->fields).__2__current = (Il2CppObject *)0x0;
-                            il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,0);
-                            (__this->fields).__1__state = 2;
-label_0428900d:
-                            return (bool_conflict)CONCAT71((int7)((ulong)unaff_RBX >> 8),1);
-                          }
-                          pCVar22 = (pCVar38->fields)._titan;
-                          if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                              (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                              pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                             (plVar35 = (long *)pSVar13[1].klass,
-                             (System_Single_array *)plVar35 != (System_Single_array *)0x0)) {
-                            bVar20 = Characters_BaseHitbox__IsActive
-                                               ((Characters_BaseHitbox_o *)plVar35,(MethodInfo *)0x0);
-                            if ((char)bVar20 == '\0') goto label_04288777;
-                            pCVar22 = (pCVar38->fields)._titan;
-                            if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                                (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                                pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                               (unaff_RBX = (System_Single_array *)pSVar13[1].klass,
-                               unaff_RBX != (System_Single_array *)0x0)) {
-                              pSVar29 = (__this->fields)._frames_5__8;
-                              pSVar26 = (__this->fields)._mins_5__11;
-                              pSVar31 = (__this->fields)._maxes_5__12;
-                              plVar35 = (long *)unaff_RBX;
-                              pSVar24 = (System_Single_array *)
-                                        UnityEngine_Component__get_transform
-                                                  ((UnityEngine_Component_o *)unaff_RBX,(MethodInfo *)0x0);
-                              if (pSVar24 != (System_Single_array *)0x0) {
-                                UVar40 = UnityEngine_Transform__get_position
-                                                   ((UnityEngine_Transform_o *)pSVar24,(MethodInfo *)0x0);
-                                uVar6 = (__this->fields)._startPosition_5__10.fields.x;
-                                uVar11 = (__this->fields)._startPosition_5__10.fields.y;
-                                position_03.fields.x = UVar40.fields.x - (float)uVar6;
-                                position_03.fields.y = UVar40.fields.y - (float)uVar11;
-                                position_03.fields.z =
-                                     UVar40.fields.z - (__this->fields)._startPosition_5__10.fields.z;
-                                pSVar27 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
-                                                    ((Controllers_DebugAttackKeyframes_o *)pSVar24,iVar37,
-                                                     (Characters_BaseHitbox_o *)unaff_RBX,pSVar26,pSVar31,
-                                                     position_03,in_R9);
-                                plVar35 = (long *)pSVar24;
-                                if (pSVar29 != (SimpleJSONFixed_JSONArray_o *)0x0) {
-                                  (*(pSVar29->klass->vtable)._21_Add.methodPtr)
-                                            (pSVar29,pSVar27,(pSVar29->klass->vtable)._21_Add.method);
-                                  goto label_04288777;
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                      else {
-                        pCVar22 = (pCVar38->fields)._titan;
-                        plVar35 = (long *)pSVar26;
-                        if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                            (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                            pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                           (pSVar31 = (System_Single_array *)pSVar13[1].fields.m_target,
-                           pSVar31 != (System_Single_array *)0x0)) {
-                          pSVar26 = (System_Single_array *)(__this->fields)._frames_5__8;
-                          pSVar24 = (__this->fields)._mins_5__11;
-                          pSVar33 = (__this->fields)._maxes_5__12;
-                          plVar35 = (long *)pSVar31;
-                          pSVar23 = (System_Single_array *)
-                                    UnityEngine_Component__get_transform
-                                              ((UnityEngine_Component_o *)pSVar31,(MethodInfo *)0x0);
-                          if (pSVar23 != (System_Single_array *)0x0) {
-                            UVar40 = UnityEngine_Transform__get_position
-                                               ((UnityEngine_Transform_o *)pSVar23,(MethodInfo *)0x0);
-                            uVar5 = (__this->fields)._startPosition_5__10.fields.x;
-                            uVar10 = (__this->fields)._startPosition_5__10.fields.y;
-                            position_02.fields.x = UVar40.fields.x - (float)uVar5;
-                            position_02.fields.y = UVar40.fields.y - (float)uVar10;
-                            position_02.fields.z =
-                                 UVar40.fields.z - (__this->fields)._startPosition_5__10.fields.z;
-                            pSVar27 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
-                                                ((Controllers_DebugAttackKeyframes_o *)pSVar23,iVar37,
-                                                 (Characters_BaseHitbox_o *)pSVar31,pSVar24,pSVar33,
-                                                 position_02,in_R9);
-                            plVar35 = (long *)pSVar23;
-                            if (pSVar26 != (System_Single_array *)0x0) {
-                              pIVar14 = (pSVar26->obj).klass;
-                              (*(((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                 pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).methodPtr)
-                                        (pSVar26,pSVar27,
-                                         (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                          pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).
-                                         method);
-                              pCVar38 = (Controllers_DebugAttackKeyframes_o *)CONCAT44(uVar42,uVar41);
-                              goto label_04288648;
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                  else {
-                    pCVar22 = (pCVar38->fields)._titan;
-                    plVar35 = (long *)pSVar26;
-                    if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                        (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                        pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                       (pSVar31 = (System_Single_array *)pSVar13[1].fields.invoke_impl,
-                       pSVar31 != (System_Single_array *)0x0)) {
-                      pSVar26 = (System_Single_array *)(__this->fields)._frames_5__8;
-                      pSVar24 = (__this->fields)._mins_5__11;
-                      pSVar33 = (__this->fields)._maxes_5__12;
-                      plVar35 = (long *)pSVar31;
-                      pSVar23 = (System_Single_array *)
-                                UnityEngine_Component__get_transform
-                                          ((UnityEngine_Component_o *)pSVar31,(MethodInfo *)0x0);
-                      if (pSVar23 != (System_Single_array *)0x0) {
-                        UVar40 = UnityEngine_Transform__get_position
-                                           ((UnityEngine_Transform_o *)pSVar23,(MethodInfo *)0x0);
-                        uVar4 = (__this->fields)._startPosition_5__10.fields.x;
-                        uVar9 = (__this->fields)._startPosition_5__10.fields.y;
-                        position_01.fields.x = UVar40.fields.x - (float)uVar4;
-                        position_01.fields.y = UVar40.fields.y - (float)uVar9;
-                        position_01.fields.z =
-                             UVar40.fields.z - (__this->fields)._startPosition_5__10.fields.z;
-                        pSVar27 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
-                                            ((Controllers_DebugAttackKeyframes_o *)pSVar23,iVar37,
-                                             (Characters_BaseHitbox_o *)pSVar31,pSVar24,pSVar33,position_01,
-                                             in_R9);
-                        plVar35 = (long *)pSVar23;
-                        if (pSVar26 != (System_Single_array *)0x0) {
-                          pIVar14 = (pSVar26->obj).klass;
-                          (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)
-                            ->_21_System_Collections_IDictionary_get_Item).methodPtr)
-                                    (pSVar26,pSVar27,
-                                     (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                      pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method);
-                          pCVar38 = (Controllers_DebugAttackKeyframes_o *)CONCAT44(uVar42,uVar41);
-                          goto label_04288564;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-              else {
-                pCVar22 = (pCVar38->fields)._titan;
-                plVar35 = (long *)pSVar26;
-                if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                    (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                    pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-                   (pSVar31 = (System_Single_array *)pSVar13[1].fields.method_ptr,
-                   pSVar31 != (System_Single_array *)0x0)) {
-                  pSVar26 = (System_Single_array *)(__this->fields)._frames_5__8;
-                  pSVar24 = (__this->fields)._mins_5__11;
-                  pSVar33 = (__this->fields)._maxes_5__12;
-                  plVar35 = (long *)pSVar31;
-                  pSVar23 = (System_Single_array *)
-                            UnityEngine_Component__get_transform
-                                      ((UnityEngine_Component_o *)pSVar31,(MethodInfo *)0x0);
-                  if (pSVar23 != (System_Single_array *)0x0) {
-                    UVar40 = UnityEngine_Transform__get_position
-                                       ((UnityEngine_Transform_o *)pSVar23,(MethodInfo *)0x0);
-                    uVar3 = (__this->fields)._startPosition_5__10.fields.x;
-                    uVar8 = (__this->fields)._startPosition_5__10.fields.y;
-                    position_00.fields.x = UVar40.fields.x - (float)uVar3;
-                    position_00.fields.y = UVar40.fields.y - (float)uVar8;
-                    position_00.fields.z = UVar40.fields.z - (__this->fields)._startPosition_5__10.fields.z;
-                    pSVar27 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
-                                        ((Controllers_DebugAttackKeyframes_o *)pSVar23,iVar37,
-                                         (Characters_BaseHitbox_o *)pSVar31,pSVar24,pSVar33,position_00,in_R9)
-                    ;
-                    plVar35 = (long *)pSVar23;
-                    if (pSVar26 != (System_Single_array *)0x0) {
-                      pIVar14 = (pSVar26->obj).klass;
-                      (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                        _21_System_Collections_IDictionary_get_Item).methodPtr)
-                                (pSVar26,pSVar27,
-                                 (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                  pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method);
-                      pCVar38 = (Controllers_DebugAttackKeyframes_o *)CONCAT44(uVar42,uVar41);
-                      goto label_04288480;
-                    }
-                  }
-                }
-              }
+    if (pSVar53 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182102d9c;
+    pSVar44 = SimpleJSONFixed_JSONNode__get_Values(&local_88,pSVar53,(MethodInfo *)0x0);
+    local_d8.type = (pSVar44->fields).m_Enumerator.fields.type;
+    local_d8._4_4_ = *(undefined4 *)&(pSVar44->fields).m_Enumerator.fields.field_0x4;
+    local_d8.m_Object.fields._dictionary = (pSVar44->fields).m_Enumerator.fields.m_Object.fields._dictionary;
+    pSVar32 = &(pSVar44->fields).m_Enumerator;
+    local_d8.m_Object.fields._version = (pSVar32->fields).m_Object.fields._version;
+    local_d8.m_Object.fields._index = (pSVar32->fields).m_Object.fields._index;
+    local_d8.m_Object.fields._current.fields.key =
+         (pSVar44->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
+    local_d8.m_Object.fields._current.fields.value =
+         (pSVar44->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
+    pSVar32 = &(pSVar44->fields).m_Enumerator;
+    local_d8.m_Object.fields._getEnumeratorRetType = (pSVar32->fields).m_Object.fields._getEnumeratorRetType;
+    local_d8.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar32->fields).m_Object.fields.field_0x24;
+    local_d8.m_Array.fields._list = (pSVar44->fields).m_Enumerator.fields.m_Array.fields._list;
+    pSVar32 = &(pSVar44->fields).m_Enumerator;
+    local_d8.m_Array.fields._index = (pSVar32->fields).m_Array.fields._index;
+    local_d8.m_Array.fields._version = (pSVar32->fields).m_Array.fields._version;
+    local_d8.m_Array.fields._current = (pSVar44->fields).m_Enumerator.fields.m_Array.fields._current;
+    pSVar45 = SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
+                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_88,
+                         (SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_d8,(MethodInfo *)0x0);
+    uVar33 = *(undefined4 *)&(pSVar45->fields).m_Enumerator.fields.field_0x4;
+    pSVar29 = (pSVar45->fields).m_Enumerator.fields.m_Object.fields._dictionary;
+    pSVar32 = &(pSVar45->fields).m_Enumerator;
+    iVar42 = (pSVar32->fields).m_Object.fields._version;
+    iVar34 = (pSVar32->fields).m_Object.fields._index;
+    pIVar55 = (pSVar45->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
+    pIVar30 = (pSVar45->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
+    pSVar32 = &(pSVar45->fields).m_Enumerator;
+    iVar35 = (pSVar32->fields).m_Object.fields._getEnumeratorRetType;
+    uVar36 = *(undefined4 *)&(pSVar32->fields).m_Object.fields.field_0x24;
+    pSVar31 = (pSVar45->fields).m_Enumerator.fields.m_Array.fields._list;
+    pSVar32 = &(pSVar45->fields).m_Enumerator;
+    iVar37 = (pSVar32->fields).m_Array.fields._index;
+    iVar38 = (pSVar32->fields).m_Array.fields._version;
+    pSVar53 = (pSVar45->fields).m_Enumerator.fields.m_Array.fields._current;
+    lVar43 = 0x48;
+    pSVar1 = &(__this->fields).__7__wrap4;
+    (pSVar1->fields).m_Enumerator.fields.type = (pSVar45->fields).m_Enumerator.fields.type;
+    *(undefined4 *)&(pSVar1->fields).m_Enumerator.fields.field_0x4 = uVar33;
+    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._dictionary = pSVar29;
+    pSVar32 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
+    (pSVar32->fields).m_Object.fields._version = iVar42;
+    (pSVar32->fields).m_Object.fields._index = iVar34;
+    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.key = pIVar55;
+    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.value = pIVar30;
+    pSVar32 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
+    (pSVar32->fields).m_Object.fields._getEnumeratorRetType = iVar35;
+    *(undefined4 *)&(pSVar32->fields).m_Object.fields.field_0x24 = uVar36;
+    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._list = pSVar31;
+    pSVar32 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
+    (pSVar32->fields).m_Array.fields._index = iVar37;
+    (pSVar32->fields).m_Array.fields._version = iVar38;
+    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._current = pSVar53;
+label_182101fde:
+    Il2CppCodeGenWriteBarrier((void **)((longlong)&__this->klass + lVar43),(void *)0x0);
+    do {
+      bVar40 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                         (&(__this->fields).__7__wrap4,(MethodInfo *)0x0);
+      if (!bVar40) {
+        *(undefined8 *)&(__this->fields).__7__wrap4.fields.m_Enumerator.fields = 0;
+        (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._dictionary =
+             (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+        pSVar32 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
+        (pSVar32->fields).m_Object.fields._version = 0;
+        (pSVar32->fields).m_Object.fields._index = 0;
+        (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
+             (Il2CppObject *)0x0;
+        (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
+             (Il2CppObject *)0x0;
+        *(undefined8 *)
+         &(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._getEnumeratorRetType = 0;
+        (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._list =
+             (System_Collections_Generic_List_T__o *)0x0;
+        pSVar32 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
+        (pSVar32->fields).m_Array.fields._index = 0;
+        (pSVar32->fields).m_Array.fields._version = 0;
+        (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._current =
+             (SimpleJSONFixed_JSONNode_o *)0x0;
+        pSVar53 = (__this->fields)._newData_5__3;
+        if (pSVar53 == (SimpleJSONFixed_JSONNode_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar46 = (*(pSVar53->klass->vtable)._30_ToString.methodPtr)
+                            (pSVar53,4,(pSVar53->klass->vtable)._30_ToString.method);
+        if ((TypeInfo_Utility_FolderPaths->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_FolderPaths);
+        }
+        path = System_String__Concat_1969e50
+                         (TypeInfo_Utility_FolderPaths->static_fields->Documents,"/Keyframes.txt",
+                          (MethodInfo *)0x0);
+        System_IO_File__WriteAllText(path,pSVar46,(MethodInfo *)0x0);
+        local_res8[0] = (__this->fields)._total_5__4;
+        pIVar55 = il2cpp_value_box(g_data_184354e08,local_res8);
+        if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+        }
+        UnityEngine_Debug__Log(pIVar55,(MethodInfo *)0x0);
+        return false;
+      }
+      pSVar46 = SimpleJSONFixed_JSONNode_KeyEnumerator__get_Current
+                          (&(__this->fields).__7__wrap4,(MethodInfo *)0x0);
+      (__this->fields)._attackName_5__6 = pSVar46;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._attackName_5__6,pSVar46);
+      pSVar53 = (__this->fields)._data_5__2;
+      if (pSVar53 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_182102d9c;
+      pSVar47 = (*(pSVar53->klass->vtable)._7_get_Item.methodPtr)
+                          (pSVar53,(MethodInfo *)(__this->fields)._attackName_5__6);
+      pSVar48 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONObject);
+      SimpleJSONFixed_JSONObject___ctor(pSVar48,(MethodInfo *)0x0);
+      (__this->fields)._newInfo_5__7 = pSVar48;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._newInfo_5__7,pSVar48);
+      if ((pSVar47 == (System_Xml_Schema_XmlSchema_o *)0x0) ||
+         (pSVar46 = (*(pSVar47->klass->vtable)._7_get_IdAttribute.methodPtr)
+                              (pSVar47,(MethodInfo *)"Far"), pSVar46 == (System_String_o *)0x0
+         )) goto label_182102d9c;
+      cVar41 = (*(code *)((Il2CppClass *)pSVar46->klass)->vtable[39].methodPtr)(pSVar46);
+    } while ((cVar41 != '\0') ||
+            (bVar40 = System_String__op_Equality
+                                ((__this->fields)._attackName_5__6,"AttackBellyFlop",(MethodInfo *)0x0),
+            bVar40));
+    pSVar49 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONArray);
+    SimpleJSONFixed_JSONArray___ctor(pSVar49,(MethodInfo *)0x0);
+    (__this->fields)._frames_5__8 = pSVar49;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._frames_5__8,pSVar49);
+    fVar57 = UnityEngine_Time__get_fixedTime((MethodInfo *)0x0);
+    (__this->fields)._startTime_5__9 = fVar57;
+    if ((((__this_00 == (Controllers_DebugAttackKeyframes_o *)0x0) ||
+         (pCVar23 = (__this_00->fields)._titan, pCVar23 == (Characters_BaseTitan_o *)0x0)) ||
+        (pUVar24 = (pCVar23->fields).Cache, pUVar24 == (Utility_BaseComponentCache_o *)0x0)) ||
+       (pUVar52 = (pUVar24->fields).Transform, pUVar52 == (UnityEngine_Transform_o *)0x0)) goto label_182102d9c;
+    pUVar50 = UnityEngine_Transform__get_position
+                        ((UnityEngine_Vector3_o *)&local_f8,pUVar52,(MethodInfo *)0x0);
+    fVar57 = (pUVar50->fields).z;
+    fVar39 = (pUVar50->fields).y;
+    (__this->fields)._startPosition_5__10.fields.x = (pUVar50->fields).x;
+    (__this->fields)._startPosition_5__10.fields.y = fVar39;
+    (__this->fields)._startPosition_5__10.fields.z = fVar57;
+    pSVar51 = (System_Single_array *)SZArrayNew(TypeInfo_float_array,3);
+    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
+              ((System_Array_o *)pSVar51,
+               FieldRva_PrivateImplementationDetails_CA37AD904FC6BEA9F844804EA32D830AC222F833C1C12C44DAD8B67745FAF4DF
+               ,(MethodInfo *)0x0);
+    (__this->fields)._mins_5__11 = pSVar51;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._mins_5__11,pSVar51);
+    pSVar51 = (System_Single_array *)SZArrayNew(TypeInfo_float_array,3);
+    System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_1a54600
+              ((System_Array_o *)pSVar51,
+               FieldRva_PrivateImplementationDetails_DD6DFD036D588321FCD10D32CBA47D659057F3F8DA5C7AD402B7A50049F7EB84
+               ,(MethodInfo *)0x0);
+    (__this->fields)._maxes_5__12 = pSVar51;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._maxes_5__12,pSVar51);
+    pCVar23 = (__this_00->fields)._titan;
+    if (pCVar23 == (Characters_BaseTitan_o *)0x0) goto label_182102d9c;
+    (*(pCVar23->klass->vtable)._150_Attack.methodPtr)
+              (pCVar23,(__this->fields)._attackName_5__6,(pCVar23->klass->vtable)._150_Attack.method);
+    (__this->fields)._currFrame_5__13 = -100;
+  }
+  else {
+    if (iVar56 != 2) {
+      if (iVar56 == 3) {
+        (__this->fields).__1__state = -1;
+        if (((__this_00 != (Controllers_DebugAttackKeyframes_o *)0x0) &&
+            (pCVar23 = (__this_00->fields)._titan, pCVar23 != (Characters_BaseTitan_o *)0x0)) &&
+           ((pUVar24 = (pCVar23->fields).Cache, pUVar24 != (Utility_BaseComponentCache_o *)0x0 &&
+            (pUVar52 = (pUVar24->fields).Transform, pUVar52 != (UnityEngine_Transform_o *)0x0)))) {
+          local_f8.x = (__this->fields)._startPosition_5__10.fields.x;
+          local_f8.y = (__this->fields)._startPosition_5__10.fields.y;
+          local_f8.z = (__this->fields)._startPosition_5__10.fields.z;
+          UnityEngine_Transform__set_position(pUVar52,(UnityEngine_Vector3_o *)&local_f8,(MethodInfo *)0x0);
+          pCVar23 = (__this_00->fields)._titan;
+          if ((pCVar23 != (Characters_BaseTitan_o *)0x0) &&
+             (pUVar24 = (pCVar23->fields).Cache, pUVar24 != (Utility_BaseComponentCache_o *)0x0)) {
+            pUVar52 = (pUVar24->fields).Transform;
+            if (Il2CppMethodInitialized_18433de5b == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+              Il2CppMethodInitialized_18433de5b = '\x01';
+            }
+            if (pUVar52 != (UnityEngine_Transform_o *)0x0) {
+              pUVar22 = TypeInfo_UnityEngine_Quaternion->static_fields;
+              local_e8.x = (pUVar22->identityQuaternion).fields.x;
+              local_e8.y = (pUVar22->identityQuaternion).fields.y;
+              local_e8.z = (pUVar22->identityQuaternion).fields.z;
+              local_e8.w = (pUVar22->identityQuaternion).fields.w;
+              UnityEngine_Transform__set_rotation
+                        (pUVar52,(UnityEngine_Quaternion_o *)&local_e8,(MethodInfo *)0x0);
+              pPVar54 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+                        il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+              UnityEngine_WaitForSeconds___ctor(pPVar54,0.5,(MethodInfo *)0x0);
+              (__this->fields).__2__current = (Il2CppObject *)pPVar54;
+              Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar54);
+              (__this->fields).__1__state = 4;
+              return true;
             }
           }
-          else {
-            pCVar22 = (pCVar38->fields)._titan;
-            plVar35 = (long *)pSVar26;
-            if (((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-                (pSVar13 = (pCVar22->fields).OnPlayerPropertiesChanged,
-                pSVar13 != (System_Action_Hashtable__o *)0x0)) &&
-               (pSVar31 = pSVar13[1].monitor, pSVar31 != (System_Single_array *)0x0)) {
-              pSVar26 = (System_Single_array *)(__this->fields)._frames_5__8;
-              pSVar24 = (__this->fields)._mins_5__11;
-              pSVar33 = (__this->fields)._maxes_5__12;
-              plVar35 = (long *)pSVar31;
-              pSVar23 = (System_Single_array *)
-                        UnityEngine_Component__get_transform
-                                  ((UnityEngine_Component_o *)pSVar31,(MethodInfo *)0x0);
-              if (pSVar23 != (System_Single_array *)0x0) {
-                UVar40 = UnityEngine_Transform__get_position
-                                   ((UnityEngine_Transform_o *)pSVar23,(MethodInfo *)0x0);
-                uVar2 = (__this->fields)._startPosition_5__10.fields.x;
-                uVar7 = (__this->fields)._startPosition_5__10.fields.y;
-                position.fields.x = UVar40.fields.x - (float)uVar2;
-                position.fields.y = UVar40.fields.y - (float)uVar7;
-                position.fields.z = UVar40.fields.z - (__this->fields)._startPosition_5__10.fields.z;
-                pSVar27 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
-                                    ((Controllers_DebugAttackKeyframes_o *)pSVar23,iVar37,
-                                     (Characters_BaseHitbox_o *)pSVar31,pSVar24,pSVar33,position,in_R9);
-                plVar35 = (long *)pSVar23;
-                if (pSVar26 != (System_Single_array *)0x0) {
-                  pIVar14 = (pSVar26->obj).klass;
-                  (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                    _21_System_Collections_IDictionary_get_Item).methodPtr)
-                            (pSVar26,pSVar27,
-                             (((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable
-                              )->_21_System_Collections_IDictionary_get_Item).method);
-                  pCVar38 = (Controllers_DebugAttackKeyframes_o *)CONCAT44(uVar42,uVar41);
-                  goto label_0428839c;
-                }
+        }
+        goto label_182102d9c;
+      }
+      if (iVar56 != 4) {
+        return false;
+      }
+      (__this->fields).__1__state = -1;
+      (__this->fields)._newInfo_5__7 = (SimpleJSONFixed_JSONObject_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._newInfo_5__7,(void *)0x0);
+      (__this->fields)._frames_5__8 = (SimpleJSONFixed_JSONArray_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._frames_5__8,(void *)0x0);
+      (__this->fields)._startPosition_5__10.fields.x = 0.0;
+      (__this->fields)._startPosition_5__10.fields.y = 0.0;
+      (__this->fields)._startPosition_5__10.fields.z = 0.0;
+      (__this->fields)._mins_5__11 = (System_Single_array *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._mins_5__11,(void *)0x0);
+      (__this->fields)._maxes_5__12 = (System_Single_array *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._maxes_5__12,(void *)0x0);
+      lVar43 = 0x88;
+      (__this->fields)._attackName_5__6 = (System_String_o *)0x0;
+      goto label_182101fde;
+    }
+    (__this->fields).__1__state = -1;
+    if (__this_00 == (Controllers_DebugAttackKeyframes_o *)0x0) goto label_182102d9c;
+  }
+  pCVar23 = (__this_00->fields)._titan;
+  if (pCVar23 != (Characters_BaseTitan_o *)0x0) {
+    if ((pCVar23->fields).State == 10) {
+      fVar57 = UnityEngine_Time__get_fixedTime((MethodInfo *)0x0);
+      iVar56 = (int)((fVar57 - (__this->fields)._startTime_5__9) * 50.0);
+      if (iVar56 <= (__this->fields)._currFrame_5__13) {
+label_182102809:
+        (__this->fields).__2__current = (Il2CppObject *)0x0;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,(void *)0x0);
+        (__this->fields).__1__state = 2;
+        return true;
+      }
+      (__this->fields)._currFrame_5__13 = iVar56;
+      pCVar23 = (__this_00->fields)._titan;
+      if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+          (pCVar25 = (pCVar23->fields).BaseTitanCache, pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)
+          ) || (pCVar26 = (pCVar25->fields).HandLHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+      goto label_182102d9c;
+      bVar40 = Characters_BaseHitbox__IsActive(pCVar26,(MethodInfo *)0x0);
+      if (bVar40) {
+        pCVar23 = (__this_00->fields)._titan;
+        if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+            (pCVar25 = (pCVar23->fields).BaseTitanCache,
+            pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)) ||
+           (pCVar26 = (pCVar25->fields).HandLHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+        goto label_182102d9c;
+        pSVar49 = (__this->fields)._frames_5__8;
+        pSVar51 = (__this->fields)._mins_5__11;
+        pSVar27 = (__this->fields)._maxes_5__12;
+        pUVar52 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar26,(MethodInfo *)0x0);
+        if (pUVar52 == (UnityEngine_Transform_o *)0x0) goto label_182102d9c;
+        pUVar50 = UnityEngine_Transform__get_position
+                            ((UnityEngine_Vector3_o *)&local_e8,pUVar52,(MethodInfo *)0x0);
+        uVar2 = (__this->fields)._startPosition_5__10.fields.x;
+        uVar12 = (__this->fields)._startPosition_5__10.fields.y;
+        uVar3 = (pUVar50->fields).x;
+        uVar13 = (pUVar50->fields).y;
+        local_f8.z = (pUVar50->fields).z - (__this->fields)._startPosition_5__10.fields.z;
+        local_f8.y = (float)uVar13 - (float)uVar12;
+        local_f8.x = (float)uVar3 - (float)uVar2;
+        pSVar48 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
+                            (__this_00,iVar56,pCVar26,pSVar51,pSVar27,(UnityEngine_Vector3_o *)&local_f8,
+                             (MethodInfo *)0x0);
+        if (pSVar49 == (SimpleJSONFixed_JSONArray_o *)0x0) goto label_182102d9c;
+        (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                  (pSVar49,(SimpleJSONFixed_JSONNode_o *)pSVar48,(pSVar49->klass->vtable)._21_Add.method);
+      }
+      pCVar23 = (__this_00->fields)._titan;
+      if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+          (pCVar25 = (pCVar23->fields).BaseTitanCache, pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)
+          ) || (pCVar26 = (pCVar25->fields).HandRHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+      goto label_182102d9c;
+      bVar40 = Characters_BaseHitbox__IsActive(pCVar26,(MethodInfo *)0x0);
+      if (bVar40) {
+        pCVar23 = (__this_00->fields)._titan;
+        if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+            (pCVar25 = (pCVar23->fields).BaseTitanCache,
+            pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)) ||
+           (pCVar26 = (pCVar25->fields).HandRHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+        goto label_182102d9c;
+        pSVar49 = (__this->fields)._frames_5__8;
+        pSVar51 = (__this->fields)._mins_5__11;
+        pSVar27 = (__this->fields)._maxes_5__12;
+        pUVar52 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar26,(MethodInfo *)0x0);
+        if (pUVar52 == (UnityEngine_Transform_o *)0x0) goto label_182102d9c;
+        pUVar50 = UnityEngine_Transform__get_position
+                            ((UnityEngine_Vector3_o *)&local_e8,pUVar52,(MethodInfo *)0x0);
+        uVar4 = (__this->fields)._startPosition_5__10.fields.x;
+        uVar14 = (__this->fields)._startPosition_5__10.fields.y;
+        uVar5 = (pUVar50->fields).x;
+        uVar15 = (pUVar50->fields).y;
+        local_f8.z = (pUVar50->fields).z - (__this->fields)._startPosition_5__10.fields.z;
+        local_f8.y = (float)uVar15 - (float)uVar14;
+        local_f8.x = (float)uVar5 - (float)uVar4;
+        pSVar48 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
+                            (__this_00,iVar56,pCVar26,pSVar51,pSVar27,(UnityEngine_Vector3_o *)&local_f8,
+                             (MethodInfo *)0x0);
+        if (pSVar49 == (SimpleJSONFixed_JSONArray_o *)0x0) goto label_182102d9c;
+        (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                  (pSVar49,(SimpleJSONFixed_JSONNode_o *)pSVar48,(pSVar49->klass->vtable)._21_Add.method);
+      }
+      pCVar23 = (__this_00->fields)._titan;
+      if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+          (pCVar25 = (pCVar23->fields).BaseTitanCache, pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)
+          ) || (pCVar26 = (pCVar25->fields).FootLHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+      goto label_182102d9c;
+      bVar40 = Characters_BaseHitbox__IsActive(pCVar26,(MethodInfo *)0x0);
+      if (bVar40) {
+        pCVar23 = (__this_00->fields)._titan;
+        if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+            (pCVar25 = (pCVar23->fields).BaseTitanCache,
+            pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)) ||
+           (pCVar26 = (pCVar25->fields).FootLHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+        goto label_182102d9c;
+        pSVar49 = (__this->fields)._frames_5__8;
+        pSVar51 = (__this->fields)._mins_5__11;
+        pSVar27 = (__this->fields)._maxes_5__12;
+        pUVar52 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar26,(MethodInfo *)0x0);
+        if (pUVar52 == (UnityEngine_Transform_o *)0x0) goto label_182102d9c;
+        pUVar50 = UnityEngine_Transform__get_position
+                            ((UnityEngine_Vector3_o *)&local_e8,pUVar52,(MethodInfo *)0x0);
+        uVar6 = (__this->fields)._startPosition_5__10.fields.x;
+        uVar16 = (__this->fields)._startPosition_5__10.fields.y;
+        uVar7 = (pUVar50->fields).x;
+        uVar17 = (pUVar50->fields).y;
+        local_f8.z = (pUVar50->fields).z - (__this->fields)._startPosition_5__10.fields.z;
+        local_f8.y = (float)uVar17 - (float)uVar16;
+        local_f8.x = (float)uVar7 - (float)uVar6;
+        pSVar48 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
+                            (__this_00,iVar56,pCVar26,pSVar51,pSVar27,(UnityEngine_Vector3_o *)&local_f8,
+                             (MethodInfo *)0x0);
+        if (pSVar49 == (SimpleJSONFixed_JSONArray_o *)0x0) goto label_182102d9c;
+        (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                  (pSVar49,(SimpleJSONFixed_JSONNode_o *)pSVar48,(pSVar49->klass->vtable)._21_Add.method);
+      }
+      pCVar23 = (__this_00->fields)._titan;
+      if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+          (pCVar25 = (pCVar23->fields).BaseTitanCache, pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)
+          ) || (pCVar26 = (pCVar25->fields).FootRHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+      goto label_182102d9c;
+      bVar40 = Characters_BaseHitbox__IsActive(pCVar26,(MethodInfo *)0x0);
+      if (bVar40) {
+        pCVar23 = (__this_00->fields)._titan;
+        if (((pCVar23 == (Characters_BaseTitan_o *)0x0) ||
+            (pCVar25 = (pCVar23->fields).BaseTitanCache,
+            pCVar25 == (Characters_BaseTitanComponentCache_o *)0x0)) ||
+           (pCVar26 = (pCVar25->fields).FootRHitbox, pCVar26 == (Characters_BaseHitbox_o *)0x0))
+        goto label_182102d9c;
+        pSVar49 = (__this->fields)._frames_5__8;
+        pSVar51 = (__this->fields)._mins_5__11;
+        pSVar27 = (__this->fields)._maxes_5__12;
+        pUVar52 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar26,(MethodInfo *)0x0);
+        if (pUVar52 == (UnityEngine_Transform_o *)0x0) goto label_182102d9c;
+        pUVar50 = UnityEngine_Transform__get_position
+                            ((UnityEngine_Vector3_o *)&local_e8,pUVar52,(MethodInfo *)0x0);
+        uVar8 = (__this->fields)._startPosition_5__10.fields.x;
+        uVar18 = (__this->fields)._startPosition_5__10.fields.y;
+        uVar9 = (pUVar50->fields).x;
+        uVar19 = (pUVar50->fields).y;
+        local_f8.z = (pUVar50->fields).z - (__this->fields)._startPosition_5__10.fields.z;
+        local_f8.y = (float)uVar19 - (float)uVar18;
+        local_f8.x = (float)uVar9 - (float)uVar8;
+        pSVar48 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
+                            (__this_00,iVar56,pCVar26,pSVar51,pSVar27,(UnityEngine_Vector3_o *)&local_f8,
+                             (MethodInfo *)0x0);
+        if (pSVar49 == (SimpleJSONFixed_JSONArray_o *)0x0) goto label_182102d9c;
+        (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                  (pSVar49,(SimpleJSONFixed_JSONNode_o *)pSVar48,(pSVar49->klass->vtable)._21_Add.method);
+      }
+      pCVar23 = (__this_00->fields)._titan;
+      if ((pCVar23 != (Characters_BaseTitan_o *)0x0) &&
+         (pCVar25 = (pCVar23->fields).BaseTitanCache, pCVar25 != (Characters_BaseTitanComponentCache_o *)0x0))
+      {
+        pCVar26 = (pCVar25->fields).MouthHitbox;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar40 = UnityEngine_Object__op_Inequality
+                           ((UnityEngine_Object_o *)pCVar26,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (!bVar40) goto label_182102809;
+        pCVar23 = (__this_00->fields)._titan;
+        if (((pCVar23 != (Characters_BaseTitan_o *)0x0) &&
+            (pCVar25 = (pCVar23->fields).BaseTitanCache,
+            pCVar25 != (Characters_BaseTitanComponentCache_o *)0x0)) &&
+           (pCVar26 = (pCVar25->fields).MouthHitbox, pCVar26 != (Characters_BaseHitbox_o *)0x0)) {
+          bVar40 = Characters_BaseHitbox__IsActive(pCVar26,(MethodInfo *)0x0);
+          if (!bVar40) goto label_182102809;
+          pCVar23 = (__this_00->fields)._titan;
+          if (((pCVar23 != (Characters_BaseTitan_o *)0x0) &&
+              (pCVar25 = (pCVar23->fields).BaseTitanCache,
+              pCVar25 != (Characters_BaseTitanComponentCache_o *)0x0)) &&
+             (pCVar26 = (pCVar25->fields).MouthHitbox, pCVar26 != (Characters_BaseHitbox_o *)0x0)) {
+            pSVar49 = (__this->fields)._frames_5__8;
+            pSVar51 = (__this->fields)._mins_5__11;
+            pSVar27 = (__this->fields)._maxes_5__12;
+            pUVar52 = UnityEngine_Component__get_transform
+                                ((UnityEngine_Component_o *)pCVar26,(MethodInfo *)0x0);
+            if (pUVar52 != (UnityEngine_Transform_o *)0x0) {
+              pUVar50 = UnityEngine_Transform__get_position
+                                  ((UnityEngine_Vector3_o *)&local_e8,pUVar52,(MethodInfo *)0x0);
+              uVar10 = (__this->fields)._startPosition_5__10.fields.x;
+              uVar20 = (__this->fields)._startPosition_5__10.fields.y;
+              uVar11 = (pUVar50->fields).x;
+              uVar21 = (pUVar50->fields).y;
+              local_f8.z = (pUVar50->fields).z - (__this->fields)._startPosition_5__10.fields.z;
+              local_f8.y = (float)uVar21 - (float)uVar20;
+              local_f8.x = (float)uVar11 - (float)uVar10;
+              pSVar48 = Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
+                                  (__this_00,iVar56,pCVar26,pSVar51,pSVar27,(UnityEngine_Vector3_o *)&local_f8
+                                   ,(MethodInfo *)0x0);
+              if (pSVar49 != (SimpleJSONFixed_JSONArray_o *)0x0) {
+                (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                          (pSVar49,(SimpleJSONFixed_JSONNode_o *)pSVar48,
+                           (pSVar49->klass->vtable)._21_Add.method);
+                goto label_182102809;
               }
             }
           }
         }
       }
-      else {
-        pSVar29 = (__this->fields)._frames_5__8;
-        plVar35 = (long *)(System_Single_array *)0x0;
-        if (pSVar29 != (SimpleJSONFixed_JSONArray_o *)0x0) {
-          iVar37 = (__this->fields)._total_5__4;
-          iVar21 = (*(pSVar29->klass->vtable)._11_get_Count.methodPtr)();
-          (__this->fields)._total_5__4 = iVar21 + iVar37;
-          pSVar27 = (SimpleJSONFixed_JSONObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONObject);
-          SimpleJSONFixed_JSONObject___ctor(pSVar27,(MethodInfo *)0x0);
-          pSVar31 = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONArray);
-          plVar35 = (long *)pSVar31;
-          SimpleJSONFixed_JSONArray___ctor((SimpleJSONFixed_JSONArray_o *)pSVar31,(MethodInfo *)0x0);
-          pSVar26 = (__this->fields)._mins_5__11;
-          if (pSVar26 != (System_Single_array *)0x0) {
-            if ((int)pSVar26->max_length == 0) goto label_04289028;
-            fVar39 = pSVar26->m_Items[0];
-            if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            plVar35 = (long *)0x0;
-            pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(fVar39,(MethodInfo *)0x0);
-            if (pSVar31 != (System_Single_array *)0x0) {
-              pIVar14 = (pSVar31->obj).klass;
-              plVar35 = (long *)pSVar31;
-              (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                _21_System_Collections_IDictionary_get_Item).methodPtr)
-                        (pSVar31,pSVar32,
-                         (((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                         _21_System_Collections_IDictionary_get_Item).method);
-              pSVar26 = (__this->fields)._maxes_5__12;
-              if (pSVar26 != (System_Single_array *)0x0) {
-                if ((int)pSVar26->max_length == 0) goto label_04289028;
-                pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(pSVar26->m_Items[0],(MethodInfo *)0x0)
+    }
+    else {
+      pSVar49 = (__this->fields)._frames_5__8;
+      if (pSVar49 != (SimpleJSONFixed_JSONArray_o *)0x0) {
+        iVar56 = (__this->fields)._total_5__4;
+        iVar42 = (*(pSVar49->klass->vtable)._11_get_Count.methodPtr)
+                           (pSVar49,(pSVar49->klass->vtable)._11_get_Count.method);
+        (__this->fields)._total_5__4 = iVar42 + iVar56;
+        pSVar48 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONObject);
+        SimpleJSONFixed_JSONObject___ctor(pSVar48,(MethodInfo *)0x0);
+        pSVar49 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONArray);
+        SimpleJSONFixed_JSONArray___ctor(pSVar49,(MethodInfo *)0x0);
+        pSVar51 = (__this->fields)._mins_5__11;
+        if (pSVar51 != (System_Single_array *)0x0) {
+          if ((int)pSVar51->max_length == 0) goto label_182102da2;
+          fVar57 = pSVar51->m_Items[0];
+          if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+          }
+          pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260(fVar57,(MethodInfo *)0x0);
+          if (pSVar49 != (SimpleJSONFixed_JSONArray_o *)0x0) {
+            (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                      (pSVar49,pSVar53,(pSVar49->klass->vtable)._21_Add.method);
+            pSVar51 = (__this->fields)._maxes_5__12;
+            if (pSVar51 != (System_Single_array *)0x0) {
+              if ((int)pSVar51->max_length == 0) {
+label_182102da2:
+                ThrowIndexOutOfRangeException();
+              }
+              pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260(pSVar51->m_Items[0],(MethodInfo *)0x0);
+              (*(pSVar49->klass->vtable)._21_Add.methodPtr)
+                        (pSVar49,pSVar53,(pSVar49->klass->vtable)._21_Add.method);
+              __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONArray);
+              SimpleJSONFixed_JSONArray___ctor(__this_02,(MethodInfo *)0x0);
+              pSVar51 = (__this->fields)._mins_5__11;
+              if (pSVar51 != (System_Single_array *)0x0) {
+                if ((uint)pSVar51->max_length < 2) goto label_182102da2;
+                pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260(pSVar51->m_Items[1],(MethodInfo *)0x0)
                 ;
-                pIVar14 = (pSVar31->obj).klass;
-                (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                  _21_System_Collections_IDictionary_get_Item).methodPtr)
-                          (pSVar31,pSVar32,
-                           (((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)
-                           ->_21_System_Collections_IDictionary_get_Item).method);
-                pSVar24 = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONArray);
-                plVar35 = (long *)pSVar24;
-                SimpleJSONFixed_JSONArray___ctor((SimpleJSONFixed_JSONArray_o *)pSVar24,(MethodInfo *)0x0);
-                pSVar26 = (__this->fields)._mins_5__11;
-                if (pSVar26 != (System_Single_array *)0x0) {
-                  if ((uint)pSVar26->max_length < 2) goto label_04289028;
-                  plVar35 = (long *)0x0;
-                  pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30
-                                      (pSVar26->m_Items[1],(MethodInfo *)0x0);
-                  if (pSVar24 != (System_Single_array *)0x0) {
-                    pIVar14 = (pSVar24->obj).klass;
-                    plVar35 = (long *)pSVar24;
-                    (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                      _21_System_Collections_IDictionary_get_Item).methodPtr)
-                              (pSVar24,pSVar32,
-                               (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method);
-                    pSVar26 = (__this->fields)._maxes_5__12;
-                    if (pSVar26 != (System_Single_array *)0x0) {
-                      if ((uint)pSVar26->max_length < 2) goto label_04289028;
-                      pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30
-                                          (pSVar26->m_Items[1],(MethodInfo *)0x0);
-                      pIVar14 = (pSVar24->obj).klass;
-                      (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)->
-                        _21_System_Collections_IDictionary_get_Item).methodPtr)
-                                (pSVar24,pSVar32,
-                                 (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                  pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method);
-                      pSVar33 = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONArray);
-                      plVar35 = (long *)pSVar33;
-                      SimpleJSONFixed_JSONArray___ctor
-                                ((SimpleJSONFixed_JSONArray_o *)pSVar33,(MethodInfo *)0x0);
-                      pSVar26 = (__this->fields)._mins_5__11;
-                      if (pSVar26 != (System_Single_array *)0x0) {
-                        if ((uint)pSVar26->max_length < 3) goto label_04289028;
-                        plVar35 = (long *)0x0;
-                        pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30
-                                            (pSVar26->m_Items[2],(MethodInfo *)0x0);
-                        if (pSVar33 != (System_Single_array *)0x0) {
-                          pIVar14 = (pSVar33->obj).klass;
-                          plVar35 = (long *)pSVar33;
-                          (*(((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable)
-                            ->_21_System_Collections_IDictionary_get_Item).methodPtr)
-                                    (pSVar33,pSVar32,
-                                     (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                      pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method);
-                          pSVar26 = (__this->fields)._maxes_5__12;
-                          if (pSVar26 != (System_Single_array *)0x0) {
-                            if ((uint)pSVar26->max_length < 3) goto label_04289028;
-                            pSVar32 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30
-                                                (pSVar26->m_Items[2],(MethodInfo *)0x0);
-                            pIVar14 = (pSVar33->obj).klass;
-                            plVar35 = (long *)pSVar33;
-                            (*(((System_Collections_Generic_Dictionary_object__object__VTable *)
-                               pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).methodPtr)
-                                      (pSVar33,pSVar32,
-                                       (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                        pIVar14->vtable)->_21_System_Collections_IDictionary_get_Item).method)
-                            ;
-                            if (pSVar27 != (SimpleJSONFixed_JSONObject_o *)0x0) {
-                              (*(pSVar27->klass->vtable)._8_set_Item.methodPtr)
-                                        (pSVar27,"X",pSVar31,
-                                         (pSVar27->klass->vtable)._8_set_Item.method);
-                              (*(pSVar27->klass->vtable)._8_set_Item.methodPtr)
-                                        (pSVar27,"Y",pSVar24,
-                                         (pSVar27->klass->vtable)._8_set_Item.method);
-                              (*(pSVar27->klass->vtable)._8_set_Item.methodPtr)
-                                        (pSVar27,"Z",pSVar33,
-                                         (pSVar27->klass->vtable)._8_set_Item.method);
-                              pSVar17 = (__this->fields)._newInfo_5__7;
-                              plVar35 = (long *)(System_Single_array *)0x0;
-                              if (pSVar17 != (SimpleJSONFixed_JSONObject_o *)0x0) {
-                                (*(pSVar17->klass->vtable)._8_set_Item.methodPtr)
-                                          (pSVar17,"Ranges",pSVar27,
-                                           (pSVar17->klass->vtable)._8_set_Item.method);
-                                pSVar27 = (__this->fields)._newInfo_5__7;
-                                plVar35 = (long *)(System_Single_array *)0x0;
-                                if (pSVar27 != (SimpleJSONFixed_JSONObject_o *)0x0) {
-                                  (*(pSVar27->klass->vtable)._8_set_Item.methodPtr)
-                                            (pSVar27,"Keyframes",(__this->fields)._frames_5__8,
-                                             (pSVar27->klass->vtable)._8_set_Item.method);
-                                  pSVar32 = (__this->fields)._newData_5__3;
-                                  plVar35 = (long *)(System_Single_array *)0x0;
-                                  if (pSVar32 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-                                    (*(pSVar32->klass->vtable)._8_set_Item.methodPtr)
-                                              (pSVar32,(__this->fields)._attackName_5__6,
-                                               (__this->fields)._newInfo_5__7,
-                                               (pSVar32->klass->vtable)._8_set_Item.method);
-                                    unaff_RBX = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-                                    UnityEngine_WaitForSeconds___ctor
-                                              ((UnityEngine_WaitForSeconds_o *)unaff_RBX,0.5,(MethodInfo *)0x0
-                                              );
-                                    (__this->fields).__2__current = (Il2CppObject *)unaff_RBX;
-                                    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,unaff_RBX);
-                                    (__this->fields).__1__state = 3;
-                                    goto label_0428900d;
-                                  }
+                if (__this_02 != (SimpleJSONFixed_JSONArray_o *)0x0) {
+                  (*(__this_02->klass->vtable)._21_Add.methodPtr)
+                            (__this_02,pSVar53,(__this_02->klass->vtable)._21_Add.method);
+                  pSVar51 = (__this->fields)._maxes_5__12;
+                  if (pSVar51 != (System_Single_array *)0x0) {
+                    if ((uint)pSVar51->max_length < 2) goto label_182102da2;
+                    pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260
+                                        (pSVar51->m_Items[1],(MethodInfo *)0x0);
+                    (*(__this_02->klass->vtable)._21_Add.methodPtr)
+                              (__this_02,pSVar53,(__this_02->klass->vtable)._21_Add.method);
+                    __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONArray);
+                    SimpleJSONFixed_JSONArray___ctor(__this_03,(MethodInfo *)0x0);
+                    pSVar51 = (__this->fields)._mins_5__11;
+                    if (pSVar51 != (System_Single_array *)0x0) {
+                      if ((uint)pSVar51->max_length < 3) goto label_182102da2;
+                      pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260
+                                          (pSVar51->m_Items[2],(MethodInfo *)0x0);
+                      if (__this_03 != (SimpleJSONFixed_JSONArray_o *)0x0) {
+                        (*(__this_03->klass->vtable)._21_Add.methodPtr)
+                                  (__this_03,pSVar53,(__this_03->klass->vtable)._21_Add.method);
+                        pSVar51 = (__this->fields)._maxes_5__12;
+                        if (pSVar51 != (System_Single_array *)0x0) {
+                          if ((uint)pSVar51->max_length < 3) goto label_182102da2;
+                          pSVar53 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260
+                                              (pSVar51->m_Items[2],(MethodInfo *)0x0);
+                          (*(__this_03->klass->vtable)._21_Add.methodPtr)
+                                    (__this_03,pSVar53,(__this_03->klass->vtable)._21_Add.method);
+                          if (pSVar48 != (SimpleJSONFixed_JSONObject_o *)0x0) {
+                            (*(pSVar48->klass->vtable)._8_set_Item.methodPtr)
+                                      (pSVar48,"X",(SimpleJSONFixed_JSONNode_o *)pSVar49,
+                                       (pSVar48->klass->vtable)._8_set_Item.method);
+                            (*(pSVar48->klass->vtable)._8_set_Item.methodPtr)
+                                      (pSVar48,"Y",(SimpleJSONFixed_JSONNode_o *)__this_02,
+                                       (pSVar48->klass->vtable)._8_set_Item.method);
+                            (*(pSVar48->klass->vtable)._8_set_Item.methodPtr)
+                                      (pSVar48,"Z",(SimpleJSONFixed_JSONNode_o *)__this_03,
+                                       (pSVar48->klass->vtable)._8_set_Item.method);
+                            pSVar28 = (__this->fields)._newInfo_5__7;
+                            if (pSVar28 != (SimpleJSONFixed_JSONObject_o *)0x0) {
+                              (*(pSVar28->klass->vtable)._8_set_Item.methodPtr)
+                                        (pSVar28,"Ranges",(SimpleJSONFixed_JSONNode_o *)pSVar48,
+                                         (pSVar28->klass->vtable)._8_set_Item.method);
+                              pSVar48 = (__this->fields)._newInfo_5__7;
+                              if (pSVar48 != (SimpleJSONFixed_JSONObject_o *)0x0) {
+                                (*(pSVar48->klass->vtable)._8_set_Item.methodPtr)
+                                          (pSVar48,"Keyframes",
+                                           (SimpleJSONFixed_JSONNode_o *)(__this->fields)._frames_5__8,
+                                           (pSVar48->klass->vtable)._8_set_Item.method);
+                                pSVar53 = (__this->fields)._newData_5__3;
+                                if (pSVar53 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+                                  (*(pSVar53->klass->vtable)._8_set_Item.methodPtr)
+                                            (pSVar53,(System_Type_o *)(__this->fields)._attackName_5__6,
+                                             (MethodInfo *)(__this->fields)._newInfo_5__7);
+                                  pPVar54 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+                                            il2cpp_codegen_object_new
+                                                      ((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+                                  UnityEngine_WaitForSeconds___ctor
+                                            (pPVar54,0.5,(MethodInfo *)0x0);
+                                  (__this->fields).__2__current = (Il2CppObject *)pPVar54;
+                                  Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar54);
+                                  (__this->fields).__1__state = 3;
+                                  return true;
                                 }
                               }
                             }
@@ -723,246 +799,19 @@ label_0428900d:
           }
         }
       }
-    }
-    break;
-  case 3:
-    (__this->fields).__1__state = -1;
-    if ((((pCVar38 != (Controllers_DebugAttackKeyframes_o *)0x0) &&
-         (pCVar22 = (pCVar38->fields)._titan, pCVar22 != (Characters_BaseTitan_o *)0x0)) &&
-        (lVar15 = *(long *)&(pCVar22->fields).Dead, lVar15 != 0)) &&
-       (plVar35 = *(long **)(lVar15 + 0x10), (System_Single_array *)plVar35 != (System_Single_array *)0x0)) {
-      UnityEngine_Transform__set_position
-                ((UnityEngine_Transform_o *)plVar35,
-                 (UnityEngine_Vector3_o)(__this->fields)._startPosition_5__10.fields,(MethodInfo *)0x0);
-      pCVar22 = (pCVar38->fields)._titan;
-      if ((pCVar22 != (Characters_BaseTitan_o *)0x0) &&
-         (lVar15 = *(long *)&(pCVar22->fields).Dead, lVar15 != 0)) {
-        pUVar16 = *(UnityEngine_Transform_o **)(lVar15 + 0x10);
-        if (g_data_057a6843 == '\0') {
-          plVar35 = &TypeInfo_Quaternion;
-          il2cpp_runtime_helper_023445d0();
-          g_data_057a6843 = '\x01';
-        }
-        if (pUVar16 != (UnityEngine_Transform_o *)0x0) {
-          UnityEngine_Transform__set_rotation
-                    (pUVar16,(UnityEngine_Quaternion_o)
-                             **(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8),(MethodInfo *)0x0);
-          unaff_RBX = (System_Single_array *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-          UnityEngine_WaitForSeconds___ctor((UnityEngine_WaitForSeconds_o *)unaff_RBX,0.5,(MethodInfo *)0x0);
-          (__this->fields).__2__current = (Il2CppObject *)unaff_RBX;
-          il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,unaff_RBX);
-          (__this->fields).__1__state = 4;
-          goto label_0428900d;
-        }
-      }
-    }
-    break;
-  case 4:
-    (__this->fields).__1__state = -1;
-    (__this->fields)._newInfo_5__7 = (SimpleJSONFixed_JSONObject_o *)0x0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._newInfo_5__7,0);
-    (__this->fields)._frames_5__8 = (SimpleJSONFixed_JSONArray_o *)0x0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._frames_5__8,0);
-    (__this->fields)._startPosition_5__10.fields.x = 0.0;
-    (__this->fields)._startPosition_5__10.fields.y = 0.0;
-    *(undefined8 *)&(__this->fields)._startPosition_5__10.fields.z = 0;
-    *(undefined4 *)((long)&(__this->fields)._mins_5__11 + 4) = 0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._mins_5__11,0);
-    (__this->fields)._maxes_5__12 = (System_Single_array *)0x0;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._maxes_5__12,0);
-    pSVar36 = (System_Collections_Generic_Dictionary_Enumerator_string__JSONNode__o *)
-              &(__this->fields)._attackName_5__6;
-    (__this->fields)._attackName_5__6 = (System_String_o *)0x0;
-label_04288962:
-    il2cpp_runtime_helper_022b4080(pSVar36,0);
-    method_00 = &(__this->fields).__7__wrap4;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._dictionary._0_4_ = uVar41;
-    __this_01.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffed8;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._dictionary._4_4_ = uVar42;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._version = in_stack_fffffffffffffee8;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._index = in_stack_fffffffffffffeec;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._0_4_ = in_stack_fffffffffffffef0
-    ;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._4_4_ = in_stack_fffffffffffffef4
-    ;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-         (Il2CppObject *)in_stack_fffffffffffffef8;
-    __this_01.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_ffffffffffffff00;
-    __this_01.fields.m_Enumerator.fields.m_Array.fields._list =
-         (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff08;
-    __this_01.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_ffffffffffffff10;
-    __this_01.fields.m_Enumerator.fields.m_Array.fields._current =
-         (SimpleJSONFixed_JSONNode_o *)in_stack_ffffffffffffff18;
-    bVar20 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext(__this_01,(MethodInfo *)method_00);
-    if ((char)bVar20 != '\0') {
-      ppSVar34 = &(__this->fields)._attackName_5__6;
-      ppSVar1 = &(__this->fields)._newInfo_5__7;
-      do {
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._dictionary._0_4_ = uVar41;
-        __this_03.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffed8;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._dictionary._4_4_ = uVar42;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._version = in_stack_fffffffffffffee8;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._index = in_stack_fffffffffffffeec;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._0_4_ =
-             in_stack_fffffffffffffef0;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._4_4_ =
-             in_stack_fffffffffffffef4;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-             (Il2CppObject *)in_stack_fffffffffffffef8;
-        __this_03.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_ffffffffffffff00;
-        __this_03.fields.m_Enumerator.fields.m_Array.fields._list =
-             (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff08;
-        __this_03.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_ffffffffffffff10;
-        __this_03.fields.m_Enumerator.fields.m_Array.fields._current =
-             (SimpleJSONFixed_JSONNode_o *)in_stack_ffffffffffffff18;
-        pSVar25 = SimpleJSONFixed_JSONNode_KeyEnumerator__get_Current(__this_03,(MethodInfo *)method_00);
-        (__this->fields)._attackName_5__6 = pSVar25;
-        il2cpp_runtime_helper_022b4080(ppSVar34,pSVar25);
-        pSVar32 = (__this->fields)._data_5__2;
-        plVar35 = (long *)(System_Single_array *)0x0;
-        if (pSVar32 == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_04289023;
-        pSVar26 = (System_Single_array *)
-                  (*(pSVar32->klass->vtable)._7_get_Item.methodPtr)
-                            (pSVar32,*ppSVar34,(pSVar32->klass->vtable)._7_get_Item.method);
-        pSVar27 = (SimpleJSONFixed_JSONObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONObject);
-        SimpleJSONFixed_JSONObject___ctor(pSVar27,(MethodInfo *)0x0);
-        *ppSVar1 = pSVar27;
-        plVar35 = (long *)ppSVar1;
-        il2cpp_runtime_helper_022b4080(ppSVar1,pSVar27);
-        if ((pSVar26 == (System_Single_array *)0x0) ||
-           (pIVar14 = (pSVar26->obj).klass,
-           plVar28 = (long *)(*(((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                pIVar14->vtable)->
-                               _7_System_Collections_Generic_IDictionary_TKey_TValue__get_Values).methodPtr)
-                                       (pSVar26,"Far",
-                                        (((System_Collections_Generic_Dictionary_object__object__VTable *)
-                                         pIVar14->vtable)->
-                                        _7_System_Collections_Generic_IDictionary_TKey_TValue__get_Values).
-                                        method), plVar35 = (long *)pSVar26, plVar28 == (long *)0x0))
-        goto label_04289023;
-        cVar19 = (**(code **)(*plVar28 + 0x3a8))(plVar28,*(undefined8 *)(*plVar28 + 0x3b0));
-        if ((cVar19 == '\0') &&
-           (bVar20 = System_String__op_Equality(*ppSVar34,"AttackBellyFlop",(MethodInfo *)0x0),
-           (char)bVar20 == '\0')) {
-          pSVar29 = (SimpleJSONFixed_JSONArray_o *)il2cpp_runtime_helper_023052d0(TypeInfo_JSONArray);
-          SimpleJSONFixed_JSONArray___ctor(pSVar29,(MethodInfo *)0x0);
-          (__this->fields)._frames_5__8 = pSVar29;
-          il2cpp_runtime_helper_022b4080();
-          plVar35 = (long *)0x0;
-          fVar39 = UnityEngine_Time__get_fixedTime((MethodInfo *)0x0);
-          (__this->fields)._startTime_5__9 = fVar39;
-          pCVar38 = (Controllers_DebugAttackKeyframes_o *)CONCAT44(uVar42,uVar41);
-          if (((pCVar38 == (Controllers_DebugAttackKeyframes_o *)0x0) ||
-              (pCVar22 = (pCVar38->fields)._titan, pCVar22 == (Characters_BaseTitan_o *)0x0)) ||
-             (lVar15 = *(long *)&(pCVar22->fields).Dead, lVar15 == 0)) goto label_04289023;
-          pUVar16 = *(UnityEngine_Transform_o **)(lVar15 + 0x10);
-          plVar35 = (long *)(System_Single_array *)0x0;
-          if (pUVar16 == (UnityEngine_Transform_o *)0x0) goto label_04289023;
-          UVar40 = UnityEngine_Transform__get_position(pUVar16,(MethodInfo *)0x0);
-          (__this->fields)._startPosition_5__10.fields.x = (float)(int)UVar40.fields._0_8_;
-          (__this->fields)._startPosition_5__10.fields.y = (float)(int)((ulong)UVar40.fields._0_8_ >> 0x20);
-          (__this->fields)._startPosition_5__10.fields.z = UVar40.fields.z;
-          pSVar26 = (System_Single_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_float,3);
-          System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_3bc4140
-                    ((System_Array_o *)pSVar26,fld_CA37AD904FC6BEA9F844804EA32D830AC222F833C1C12C44DAD8B677,(MethodInfo *)0x0);
-          (__this->fields)._mins_5__11 = pSVar26;
-          il2cpp_runtime_helper_022b4080(&(__this->fields)._mins_5__11,pSVar26);
-          unaff_RBX = (System_Single_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_float,3);
-          System_Runtime_CompilerServices_RuntimeHelpers__InitializeArray_3bc4140
-                    ((System_Array_o *)unaff_RBX,fld_DD6DFD036D588321FCD10D32CBA47D659057F3F8DA5C7AD402B7A500,(MethodInfo *)0x0);
-          (__this->fields)._maxes_5__12 = unaff_RBX;
-          il2cpp_runtime_helper_022b4080(&(__this->fields)._maxes_5__12,unaff_RBX);
-          plVar35 = (long *)(pCVar38->fields)._titan;
-          if ((System_Single_array *)plVar35 == (System_Single_array *)0x0) goto label_04289023;
-          pIVar14 = (((System_Single_array *)plVar35)->obj).klass;
-          (**(code **)((long)((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable
-                             + 2) + 0x240))
-                    (plVar35,(__this->fields)._attackName_5__6,
-                     *(undefined8 *)
-                      ((long)((System_Collections_Generic_Dictionary_object__object__VTable *)pIVar14->vtable
-                             + 2) + 0x248));
-          (__this->fields)._currFrame_5__13 = -100;
-          pCVar22 = (pCVar38->fields)._titan;
-          if (pCVar22 == (Characters_BaseTitan_o *)0x0) goto label_04289023;
-          goto label_04288276;
-        }
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._dictionary._0_4_ = uVar41;
-        __this_02.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffed8;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._dictionary._4_4_ = uVar42;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._version = in_stack_fffffffffffffee8;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._index = in_stack_fffffffffffffeec;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._0_4_ =
-             in_stack_fffffffffffffef0;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._current.fields.key._4_4_ =
-             in_stack_fffffffffffffef4;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-             (Il2CppObject *)in_stack_fffffffffffffef8;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_ffffffffffffff00;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._list =
-             (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff08;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_ffffffffffffff10;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._current =
-             (SimpleJSONFixed_JSONNode_o *)in_stack_ffffffffffffff18;
-        bVar20 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext(__this_02,(MethodInfo *)method_00);
-      } while ((char)bVar20 != '\0');
-    }
-    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._list =
-         (System_Collections_Generic_List_T__o *)0x0;
-    pSVar18 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
-    (pSVar18->fields).m_Array.fields._index = 0;
-    (pSVar18->fields).m_Array.fields._version = 0;
-    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-         (Il2CppObject *)0x0;
-    *(undefined8 *)
-     &(__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._getEnumeratorRetType = 0;
-    pSVar18 = &(__this->fields).__7__wrap4.fields.m_Enumerator;
-    (pSVar18->fields).m_Object.fields._version = 0;
-    (pSVar18->fields).m_Object.fields._index = 0;
-    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
-         (Il2CppObject *)0x0;
-    *(undefined8 *)&(method_00->fields).m_Enumerator.fields = 0;
-    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-         (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-    (__this->fields).__7__wrap4.fields.m_Enumerator.fields.m_Array.fields._current =
-         (SimpleJSONFixed_JSONNode_o *)0x0;
-    pSVar32 = (__this->fields)._newData_5__3;
-    plVar35 = (long *)(System_Single_array *)0x0;
-    if (pSVar32 != (SimpleJSONFixed_JSONNode_o *)0x0) {
-      pSVar25 = (System_String_o *)
-                (*(pSVar32->klass->vtable)._30_ToString.methodPtr)
-                          (pSVar32,4,(pSVar32->klass->vtable)._30_ToString.method);
-      if (*(int *)(TypeInfo_FolderPaths + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      path = System_String__Concat_3ae5ba0
-                       ((System_String_o *)**(undefined8 **)(TypeInfo_FolderPaths + 0xb8),"/Keyframes.txt",
-                        (MethodInfo *)0x0);
-      System_IO_File__WriteAllText(path,pSVar25,(MethodInfo *)0x0);
-      pIVar30 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8);
-      if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      UnityEngine_Debug__Log(pIVar30,(MethodInfo *)0x0);
-      return 0;
     }
   }
-label_04289023:
-  il2cpp_runtime_helper_022b2c90();
-label_04289028:
-  il2cpp_runtime_helper_022b2ca0();
-  return (bool_conflict)
-         (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)
-         ((System_Single_array *)plVar35)->max_length;
+label_182102d9c:
+  ThrowNullReferenceException();
 }
 
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_Generic_IEnumerator_System_Object__get_Current (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, const MethodInfo* method);
-// 0x4289030
+// 0x180573e90
 
-Il2CppObject *
-Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
+Il2CppObject*
+Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_Generic_IEnumerator_System_Object__get_Current(Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -971,31 +820,34 @@ Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$System.Collections.IEnumerator.Reset
 // il2cpp: void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_IEnumerator_Reset (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, const MethodInfo* method);
-// 0x4289040
+// 0x182102db0
 
 void Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_IEnumerator_Reset
                (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_Controllers_DebugAttackKeyframes_GenerateAttackFrames_d__3_System_Collections_IEnumerator_Reset
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // Controllers.DebugAttackKeyframes.<GenerateAttackFrames>d__3$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_IEnumerator_get_Current (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, const MethodInfo* method);
-// 0x4289080
+// 0x180573e90
 
-Il2CppObject *
-Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_IEnumerator_get_Current
-          (Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this,MethodInfo *method)
+Il2CppObject*
+Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_IEnumerator_get_Current(Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1004,294 +856,270 @@ Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3__System_Collections_
 
 // Controllers.DebugAttackKeyframes$$Awake
 // il2cpp: void Controllers_DebugAttackKeyframes__Awake (Controllers_DebugAttackKeyframes_o* __this, const MethodInfo* method);
-// 0x42878b0
+// 0x1820fd060
 
 void Controllers_DebugAttackKeyframes__Awake(Controllers_DebugAttackKeyframes_o *__this,MethodInfo *method)
 
 {
-  Characters_BaseTitan_o **ppCVar1;
-  System_String_o **ppSVar2;
-  byte bVar3;
-  byte bVar4;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *__this_00;
-  Characters_BaseTitan_o *pCVar5;
-  System_Type_o *pSVar6;
-  System_String_o *pSVar7;
-  Il2CppClass *pIVar8;
-  Il2CppObject *__this_01;
-  undefined4 uVar9;
-  Il2CppClass *__this_02;
-  Il2CppObject *__this_03;
+  byte bVar1;
+  System_Collections_Generic_Dictionary_string__float__o *__this_00;
+  Characters_BaseTitan_c *pCVar2;
+  Characters_BaseTitan_o *pCVar3;
+  System_Type_o *pSVar4;
+  System_String_o *pSVar5;
+  Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *routine;
   
-  if (g_data_057adcb7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseShifter);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BasicTitan);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseTitan_GetComponent_BaseTitan);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&"Characters.");
-    il2cpp_runtime_helper_023445d0(&"Titan");
-    il2cpp_runtime_helper_023445d0(&"Shifter");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057adcb7 = '\x01';
+  if (Il2CppMethodInitialized_184346a72 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BaseShifter);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_BasicTitan);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_BaseTitan);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_float_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&"Characters.");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titan");
+    il2cpp_codegen_initialize_runtime_metadata(&"Shifter");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184346a72 = '\x01';
   }
-  pCVar5 = (Characters_BaseTitan_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_BaseTitan_GetComponent_BaseTitan);
-  ppCVar1 = &(__this->fields)._titan;
-  (__this->fields)._titan = pCVar5;
-  __this_02 = (Il2CppClass *)ppCVar1;
-  il2cpp_runtime_helper_022b4080();
-  pCVar5 = (__this->fields)._titan;
-  if (pCVar5 == (Characters_BaseTitan_o *)0x0) goto label_04287b03;
-  (pCVar5->fields).SprintStaminaConsumption = 1.0;
-  __this_00 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)(pCVar5->fields).TargetEnemy;
-  __this_02 = (Il2CppClass *)0x0;
-  if (__this_00 == (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0) goto label_04287b03;
-  System_Collections_Generic_Dictionary_object__float___Clear(__this_00,MethodInfo_Void_Clear);
-  __this_02 = (Il2CppClass *)*ppCVar1;
-  if (__this_02 != (Il2CppClass *)0x0) {
-    pIVar8 = (__this_02->_1).image;
-    bVar3 = (pIVar8->_2).naturalAligment;
-    bVar4 = (TypeInfo_BasicTitan->_2).naturalAligment;
-    if ((bVar3 < bVar4) || ((pIVar8->_2).typeHierarchy[(ulong)bVar4 - 1] != TypeInfo_BasicTitan)) {
-      bVar4 = (TypeInfo_BaseShifter->_2).naturalAligment;
-      if ((bVar3 < bVar4) || ((pIVar8->_2).typeHierarchy[(ulong)bVar4 - 1] != TypeInfo_BaseShifter))
-      goto label_04287a9a;
-      pSVar6 = System_Object__GetType((Il2CppObject *)__this_02,(MethodInfo *)0x0);
-      if (pSVar6 == (System_Type_o *)0x0) goto label_04287b03;
-      pSVar7 = (System_String_o *)
-               (*(pSVar6->klass->vtable)._3_ToString.methodPtr)
-                         (pSVar6,(pSVar6->klass->vtable)._3_ToString.method);
-      ppSVar2 = &(__this->fields)._name;
-      (__this->fields)._name = pSVar7;
-      il2cpp_runtime_helper_022b4080(ppSVar2);
-      pSVar7 = (__this->fields)._name;
-      __this_02 = (Il2CppClass *)0x0;
-      if (pSVar7 == (System_String_o *)0x0) goto label_04287b03;
-      pSVar7 = System_String__Replace_3af9030(pSVar7,"Shifter","",(MethodInfo *)0x0);
-      *ppSVar2 = pSVar7;
-      il2cpp_runtime_helper_022b4080(ppSVar2);
-      __this_02 = (Il2CppClass *)0x0;
-      if (*ppSVar2 == (System_String_o *)0x0) goto label_04287b03;
-      pSVar7 = System_String__Replace_3af9030(*ppSVar2,"Characters.","",(MethodInfo *)0x0);
-      *ppSVar2 = pSVar7;
+  pCVar3 = UnityEngine_Component__GetComponent_object_
+                     ((UnityEngine_Component_o *)__this,
+                      (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_BaseTitan);
+  (__this->fields)._titan = pCVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._titan,pCVar3);
+  pCVar3 = (__this->fields)._titan;
+  if (pCVar3 != (Characters_BaseTitan_o *)0x0) {
+    (pCVar3->fields).AttackSpeedMultiplier = 1.0;
+    pCVar3 = (__this->fields)._titan;
+    if ((pCVar3 != (Characters_BaseTitan_o *)0x0) &&
+       (__this_00 = (pCVar3->fields).AttackSpeeds,
+       __this_00 != (System_Collections_Generic_Dictionary_string__float__o *)0x0)) {
+      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                 (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_float_Clear);
+      pCVar3 = (__this->fields)._titan;
+      if (pCVar3 != (Characters_BaseTitan_o *)0x0) {
+        pCVar2 = pCVar3->klass;
+        bVar1 = (TypeInfo_Characters_BasicTitan->_2).typeHierarchyDepth;
+        if (((pCVar2->_2).typeHierarchyDepth < bVar1) ||
+           ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Characters_BasicTitan)
+           ) {
+          pCVar2 = ((__this->fields)._titan)->klass;
+          bVar1 = (TypeInfo_Characters_BaseShifter->_2).typeHierarchyDepth;
+          if (((pCVar2->_2).typeHierarchyDepth < bVar1) ||
+             ((pCVar2->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_Characters_BaseShifter)) goto label_1820fd25c;
+          pSVar4 = System_Object__GetType((Il2CppObject *)(__this->fields)._titan,(MethodInfo *)0x0);
+          if (pSVar4 == (System_Type_o *)0x0) goto label_1820fd2c5;
+          pSVar5 = (*(pSVar4->klass->vtable)._3_ToString.methodPtr)
+                             (pSVar4,(pSVar4->klass->vtable)._3_ToString.method);
+          (__this->fields)._name = pSVar5;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._name,pSVar5);
+          pSVar5 = (__this->fields)._name;
+          if (pSVar5 == (System_String_o *)0x0) goto label_1820fd2c5;
+          pSVar5 = System_String__Replace_1970e80
+                             (pSVar5,"Shifter","",(MethodInfo *)0x0);
+          (__this->fields)._name = pSVar5;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._name,pSVar5);
+          pSVar5 = (__this->fields)._name;
+          if (pSVar5 == (System_String_o *)0x0) goto label_1820fd2c5;
+          pSVar5 = System_String__Replace_1970e80
+                             (pSVar5,"Characters.","",(MethodInfo *)0x0);
+          (__this->fields)._name = pSVar5;
+        }
+        else {
+          (__this->fields)._name = "Titan";
+          pSVar5 = "Titan";
+        }
+        Il2CppCodeGenWriteBarrier(&(__this->fields)._name,pSVar5);
+      }
+label_1820fd25c:
+      if (Il2CppMethodInitialized_184346a73 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_Controllers_DebugAttackKeyframes_GenerateAttackFrames_d__3);
+        Il2CppMethodInitialized_184346a73 = '\x01';
+      }
+      routine = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_Controllers_DebugAttackKeyframes_GenerateAttackFrames_d__3)
+      ;
+      System_Configuration_ConfigurationCollectionAttribute___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+      (routine->fields).__1__state = 0;
+      (routine->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+      UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+                 (MethodInfo *)0x0);
+      return;
     }
-    else {
-      (__this->fields)._name = "Titan";
-    }
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._name);
   }
-label_04287a9a:
-  if (g_data_057adcb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GenerateAttackFrames_d__3);
-    g_data_057adcb8 = '\x01';
-  }
-  pIVar8 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_GenerateAttackFrames_d__3);
-  __this_02 = pIVar8;
-  System_Object___ctor((Il2CppObject *)pIVar8,(MethodInfo *)0x0);
-  *(undefined4 *)&(pIVar8->_1).name = 0;
-  if (pIVar8 != (Il2CppClass *)0x0) {
-    (pIVar8->_1).byval_arg.data = __this;
-    il2cpp_runtime_helper_022b4080(&(pIVar8->_1).byval_arg,__this);
-    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-              ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pIVar8,
-               (MethodInfo *)0x0);
-    return;
-  }
-label_04287b03:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adcb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GenerateAttackFrames_d__3);
-    g_data_057adcb8 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_GenerateAttackFrames_d__3);
-  uVar9 = 0;
-  __this_03 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = __this_02;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,__this_02);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_03,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_03[1].klass = uVar9;
-  return;
+label_1820fd2c5:
+  ThrowNullReferenceException();
 }
 
 
 // Controllers.DebugAttackKeyframes$$GenerateAttackFrames
 // il2cpp: System_Collections_IEnumerator_o* Controllers_DebugAttackKeyframes__GenerateAttackFrames (Controllers_DebugAttackKeyframes_o* __this, const MethodInfo* method);
-// 0x4287b10
+// 0x1820fd600
 
 System_Collections_IEnumerator_o *
 Controllers_DebugAttackKeyframes__GenerateAttackFrames
           (Controllers_DebugAttackKeyframes_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  Controllers_DebugAttackKeyframes__GenerateAttackFrames_d__3_o *__this_00;
   
-  if (g_data_057adcb8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GenerateAttackFrames_d__3);
-    g_data_057adcb8 = '\x01';
+  if (Il2CppMethodInitialized_184346a73 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Controllers_DebugAttackKeyframes_GenerateAttackFrames_d__3);
+    Il2CppMethodInitialized_184346a73 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_GenerateAttackFrames_d__3);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Controllers_DebugAttackKeyframes_GenerateAttackFrames_d__3);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // Controllers.DebugAttackKeyframes$$DebugCreateFrameJSON
 // il2cpp: SimpleJSONFixed_JSONObject_o* Controllers_DebugAttackKeyframes__DebugCreateFrameJSON (Controllers_DebugAttackKeyframes_o* __this, int32_t frame, Characters_BaseHitbox_o* hitbox, System_Single_array* mins, System_Single_array* maxes, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x4287ba0
+// 0x1820fd2d0
 
 SimpleJSONFixed_JSONObject_o *
 Controllers_DebugAttackKeyframes__DebugCreateFrameJSON
           (Controllers_DebugAttackKeyframes_o *__this,int32_t frame,Characters_BaseHitbox_o *hitbox,
-          System_Single_array *mins,System_Single_array *maxes,UnityEngine_Vector3_o position,
+          System_Single_array *mins,System_Single_array *maxes,UnityEngine_Vector3_o *position,
           MethodInfo *method)
 
 {
   byte bVar1;
-  uint uVar2;
-  UnityEngine_Transform_o *__this_00;
-  SimpleJSONFixed_JSONObject_o *__this_01;
+  UnityEngine_SphereCollider_o *__this_00;
+  UnityEngine_Transform_o *__this_01;
+  UnityEngine_Vector3_o *pUVar2;
+  SimpleJSONFixed_JSONObject_o *__this_02;
   SimpleJSONFixed_JSONNode_o *pSVar3;
-  SimpleJSONFixed_JSONObject_o *extraout_RAX;
   float fVar4;
   float fVar5;
-  float n;
-  UnityEngine_Vector3_o UVar6;
-  float local_48;
-  float fStack_44;
+  float fVar6;
+  UnityEngine_Vector3_o local_38 [4];
   
-  n = position.fields.z;
-  if (g_data_057adcb9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SphereCollider);
-    il2cpp_runtime_helper_023445d0(&"x");
-    il2cpp_runtime_helper_023445d0(&"f");
-    il2cpp_runtime_helper_023445d0(&"y");
-    il2cpp_runtime_helper_023445d0(&"z");
-    il2cpp_runtime_helper_023445d0(&"r");
-    g_data_057adcb9 = '\x01';
+  if (Il2CppMethodInitialized_184346a74 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_SphereCollider);
+    il2cpp_codegen_initialize_runtime_metadata(&"x");
+    il2cpp_codegen_initialize_runtime_metadata(&"f");
+    il2cpp_codegen_initialize_runtime_metadata(&"y");
+    il2cpp_codegen_initialize_runtime_metadata(&"z");
+    il2cpp_codegen_initialize_runtime_metadata(&"r");
+    Il2CppMethodInitialized_184346a74 = '\x01';
   }
-  __this_01 = (SimpleJSONFixed_JSONObject_o *)0x0;
-  if ((hitbox == (Characters_BaseHitbox_o *)0x0) ||
-     (__this_01 = (SimpleJSONFixed_JSONObject_o *)(hitbox->fields)._collider,
-     __this_01 == (SimpleJSONFixed_JSONObject_o *)0x0)) goto label_04287ec1;
-  bVar1 = (TypeInfo_SphereCollider->_2).naturalAligment;
-  if (((__this_01->klass->_2).naturalAligment < bVar1) ||
-     ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_SphereCollider)) goto label_04287ecb;
-  fVar4 = UnityEngine_SphereCollider__get_radius((UnityEngine_SphereCollider_o *)__this_01,(MethodInfo *)0x0);
-  __this_00 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
-  if (__this_00 == (UnityEngine_Transform_o *)0x0) {
-label_04287ec1:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    UVar6 = UnityEngine_Transform__get_lossyScale(__this_00,(MethodInfo *)0x0);
-    __this_01 = (SimpleJSONFixed_JSONObject_o *)il2cpp_runtime_helper_023052d0(UVar6.fields.x,UVar6.fields.z,TypeInfo_JSONObject)
-    ;
-    SimpleJSONFixed_JSONObject___ctor(__this_01,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if ((hitbox != (Characters_BaseHitbox_o *)0x0) &&
+     (__this_00 = (UnityEngine_SphereCollider_o *)(hitbox->fields)._collider,
+     __this_00 != (UnityEngine_SphereCollider_o *)0x0)) {
+    bVar1 = (TypeInfo_UnityEngine_SphereCollider->_2).typeHierarchyDepth;
+    if (((__this_00->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_UnityEngine_SphereCollider)) {
+      il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_UnityEngine_SphereCollider);
     }
-    pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_3f79f40(frame,(MethodInfo *)0x0);
-    if (__this_01 == (SimpleJSONFixed_JSONObject_o *)0x0) goto label_04287ec1;
-    fVar4 = fVar4 * UVar6.fields.x;
-    (*(__this_01->klass->vtable)._8_set_Item.methodPtr)
-              (__this_01,"f",pSVar3,(__this_01->klass->vtable)._8_set_Item.method);
-    pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(fVar4,(MethodInfo *)0x0);
-    (*(__this_01->klass->vtable)._8_set_Item.methodPtr)
-              (__this_01,"r",pSVar3,(__this_01->klass->vtable)._8_set_Item.method);
-    local_48 = position.fields.x;
-    pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(local_48,(MethodInfo *)0x0);
-    (*(__this_01->klass->vtable)._8_set_Item.methodPtr)
-              (__this_01,"x",pSVar3,(__this_01->klass->vtable)._8_set_Item.method);
-    fStack_44 = position.fields.y;
-    pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(fStack_44,(MethodInfo *)0x0);
-    (*(__this_01->klass->vtable)._8_set_Item.methodPtr)
-              (__this_01,"y",pSVar3,(__this_01->klass->vtable)._8_set_Item.method);
-    pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_3f79e30(n,(MethodInfo *)0x0);
-    (*(__this_01->klass->vtable)._8_set_Item.methodPtr)
-              (__this_01,"z",pSVar3,(__this_01->klass->vtable)._8_set_Item.method);
-    if (mins == (System_Single_array *)0x0) goto label_04287ec1;
-    uVar2 = (uint)mins->max_length;
-    if (uVar2 != 0) {
-      fVar5 = mins->m_Items[0];
-      if (local_48 - fVar4 <= mins->m_Items[0]) {
-        fVar5 = local_48 - fVar4;
+    fVar4 = UnityEngine_SphereCollider__get_radius(__this_00,(MethodInfo *)0x0);
+    __this_01 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+      pUVar2 = UnityEngine_Transform__get_lossyScale(local_38,__this_01,(MethodInfo *)0x0);
+      fVar6 = (pUVar2->fields).x;
+      __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONObject);
+      SimpleJSONFixed_JSONObject___ctor(__this_02,(MethodInfo *)0x0);
+      if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
       }
-      mins->m_Items[0] = fVar5;
-      if (uVar2 != 1) {
-        fVar5 = mins->m_Items[1];
-        if (fStack_44 - fVar4 <= mins->m_Items[1]) {
-          fVar5 = fStack_44 - fVar4;
-        }
-        mins->m_Items[1] = fVar5;
-        if (2 < uVar2) {
-          fVar5 = mins->m_Items[2];
-          if (n - fVar4 <= mins->m_Items[2]) {
-            fVar5 = n - fVar4;
-          }
-          mins->m_Items[2] = fVar5;
-          if (maxes == (System_Single_array *)0x0) goto label_04287ec1;
-          uVar2 = (uint)maxes->max_length;
-          if (uVar2 != 0) {
-            fVar5 = maxes->m_Items[0];
-            if (maxes->m_Items[0] <= local_48 + fVar4) {
-              fVar5 = local_48 + fVar4;
+      pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_1dc41d0(frame,(MethodInfo *)0x0);
+      if (__this_02 != (SimpleJSONFixed_JSONObject_o *)0x0) {
+        fVar6 = fVar6 * fVar4;
+        (*(__this_02->klass->vtable)._8_set_Item.methodPtr)
+                  (__this_02,"f",pSVar3,(__this_02->klass->vtable)._8_set_Item.method);
+        pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260(fVar6,(MethodInfo *)0x0);
+        (*(__this_02->klass->vtable)._8_set_Item.methodPtr)
+                  (__this_02,"r",pSVar3,(__this_02->klass->vtable)._8_set_Item.method);
+        pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260((position->fields).x,(MethodInfo *)0x0);
+        (*(__this_02->klass->vtable)._8_set_Item.methodPtr)
+                  (__this_02,"x",pSVar3,(__this_02->klass->vtable)._8_set_Item.method);
+        pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260((position->fields).y,(MethodInfo *)0x0);
+        (*(__this_02->klass->vtable)._8_set_Item.methodPtr)
+                  (__this_02,"y",pSVar3,(__this_02->klass->vtable)._8_set_Item.method);
+        pSVar3 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4260((position->fields).z,(MethodInfo *)0x0);
+        (*(__this_02->klass->vtable)._8_set_Item.methodPtr)
+                  (__this_02,"z",pSVar3,(__this_02->klass->vtable)._8_set_Item.method);
+        if (mins != (System_Single_array *)0x0) {
+          if ((int)mins->max_length != 0) {
+            fVar5 = (position->fields).x - fVar6;
+            fVar4 = mins->m_Items[0];
+            if (fVar5 <= mins->m_Items[0]) {
+              fVar4 = fVar5;
             }
-            maxes->m_Items[0] = fVar5;
-            if (uVar2 != 1) {
-              fVar5 = maxes->m_Items[1];
-              if (maxes->m_Items[1] <= fStack_44 + fVar4) {
-                fVar5 = fStack_44 + fVar4;
+            mins->m_Items[0] = fVar4;
+            if (1 < (uint)mins->max_length) {
+              fVar5 = (position->fields).y - fVar6;
+              fVar4 = mins->m_Items[1];
+              if (fVar5 <= mins->m_Items[1]) {
+                fVar4 = fVar5;
               }
-              maxes->m_Items[1] = fVar5;
-              if (2 < uVar2) {
-                fVar5 = maxes->m_Items[2];
-                if (maxes->m_Items[2] <= fVar4 + n) {
-                  fVar5 = fVar4 + n;
+              mins->m_Items[1] = fVar4;
+              if (2 < (uint)mins->max_length) {
+                fVar5 = (position->fields).z - fVar6;
+                fVar4 = mins->m_Items[2];
+                if (fVar5 <= mins->m_Items[2]) {
+                  fVar4 = fVar5;
                 }
-                maxes->m_Items[2] = fVar5;
-                return __this_01;
+                mins->m_Items[2] = fVar4;
+                if (maxes == (System_Single_array *)0x0) goto label_1820fd5dc;
+                if ((int)maxes->max_length != 0) {
+                  fVar5 = fVar6 + (position->fields).x;
+                  fVar4 = maxes->m_Items[0];
+                  if (maxes->m_Items[0] <= fVar5) {
+                    fVar4 = fVar5;
+                  }
+                  maxes->m_Items[0] = fVar4;
+                  if (1 < (uint)maxes->max_length) {
+                    fVar5 = fVar6 + (position->fields).y;
+                    fVar4 = maxes->m_Items[1];
+                    if (maxes->m_Items[1] <= fVar5) {
+                      fVar4 = fVar5;
+                    }
+                    maxes->m_Items[1] = fVar4;
+                    if (2 < (uint)maxes->max_length) {
+                      fVar6 = fVar6 + (position->fields).z;
+                      fVar4 = maxes->m_Items[2];
+                      if (maxes->m_Items[2] <= fVar6) {
+                        fVar4 = fVar6;
+                      }
+                      maxes->m_Items[2] = fVar4;
+                      return __this_02;
+                    }
+                  }
+                }
               }
             }
           }
+          ThrowIndexOutOfRangeException();
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_04287ecb:
-  il2cpp_runtime_helper_022b2fd0();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this_01,(MethodInfo *)0x0);
-  return extraout_RAX;
+label_1820fd5dc:
+  ThrowNullReferenceException();
 }
 
 
 // Controllers.DebugAttackKeyframes$$.ctor
 // il2cpp: void Controllers_DebugAttackKeyframes___ctor (Controllers_DebugAttackKeyframes_o* __this, const MethodInfo* method);
-// 0x4287ee0
+// 0x180528540
 
-void Controllers_DebugAttackKeyframes___ctor(Controllers_DebugAttackKeyframes_o *__this,MethodInfo *method)
+void
+Controllers_DebugAttackKeyframes___ctor(Controllers_DebugAttackKeyframes_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

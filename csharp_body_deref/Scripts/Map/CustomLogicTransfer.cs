@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Map.CustomLogicTransfer
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Map/CustomLogicTransfer.c
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/CustomLogicTransfer.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -18,34 +18,34 @@ using UnityEngine;
 
 namespace Map;
 
-[Token(Token = "0x2000261")]
+[Token(Token = "0x2000383")]
 internal class CustomLogicTransfer : MonoBehaviour
 {
-	[Token(Token = "0x2000262")]
+	[Token(Token = "0x2000384")]
 	[CompilerGenerated]
-	private sealed class _003CTransferLogicData_003Ed__14 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CTransferLogicData_003Ed__11 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000CE6")]
+		[Token(Token = "0x4001223")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000CE7")]
+		[Token(Token = "0x4001224")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000CE8")]
+		[Token(Token = "0x4001225")]
 		[FieldOffset(Offset = "0x20")]
 		public Player player;
 
-		[Token(Token = "0x4000CE9")]
+		[Token(Token = "0x4001226")]
 		[FieldOffset(Offset = "0x28")]
 		private int _003Ci_003E5__2;
 
-		[Token(Token = "0x170001CC")]
+		[Token(Token = "0x17000264")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000EAE")]
-			[Address(RVA = "0x3F9A9D0", Offset = "0x3F9A9D0", VA = "0x3F9A9D0", Slot = "4")]
+			[Token(Token = "0x6001631")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -53,11 +53,11 @@ internal class CustomLogicTransfer : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x170001CD")]
+		[Token(Token = "0x17000265")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000EB0")]
-			[Address(RVA = "0x3F9AA20", Offset = "0x3F9AA20", VA = "0x3F9AA20", Slot = "7")]
+			[Token(Token = "0x6001633")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,113 +65,101 @@ internal class CustomLogicTransfer : MonoBehaviour
 			}
 		}
 
-		[Token(Token = "0x6000EAB")]
-		[Address(RVA = "0x3F9A630", Offset = "0x3F9A630", VA = "0x3F9A630")]
+		[Token(Token = "0x600162E")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CTransferLogicData_003Ed__14(int _003C_003E1__state)
+		public _003CTransferLogicData_003Ed__11(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000EAC")]
-		[Address(RVA = "0x3F9A6A0", Offset = "0x3F9A6A0", VA = "0x3F9A6A0", Slot = "5")]
+		[Token(Token = "0x600162F")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000EAD")]
-		[Address(RVA = "0x3F9A6B0", Offset = "0x3F9A6B0", VA = "0x3F9A6B0", Slot = "6")]
+		[Token(Token = "0x6001630")]
+		[Address(RVA = "0x1E9A100", Offset = "0x1E98700", VA = "0x181E9A100", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000EAF")]
-		[Address(RVA = "0x3F9A9E0", Offset = "0x3F9A9E0", VA = "0x3F9A9E0", Slot = "8")]
+		[Token(Token = "0x6001632")]
+		[Address(RVA = "0x1E9A460", Offset = "0x1E98A60", VA = "0x181E9A460", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000CDE")]
+	[Token(Token = "0x400121E")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool LogicTransferReady;
 
-	[Token(Token = "0x4000CDF")]
+	[Token(Token = "0x400121F")]
 	[FieldOffset(Offset = "0x8")]
 	public static string LogicHash;
 
-	[Token(Token = "0x4000CE0")]
+	[Token(Token = "0x4001220")]
 	[FieldOffset(Offset = "0x10")]
 	private static CustomLogicTransfer _instance;
 
-	[Token(Token = "0x4000CE1")]
+	[Token(Token = "0x4001221")]
 	[FieldOffset(Offset = "0x18")]
-	private static readonly byte MsgLogicStart;
+	private static readonly CustomLogicTransferData _transferData;
 
-	[Token(Token = "0x4000CE2")]
-	[FieldOffset(Offset = "0x19")]
-	private static readonly byte MsgLogicBody;
-
-	[Token(Token = "0x4000CE3")]
-	[FieldOffset(Offset = "0x1A")]
-	private static readonly byte MsgLogicEnd;
-
-	[Token(Token = "0x4000CE4")]
+	[Token(Token = "0x4001222")]
 	[FieldOffset(Offset = "0x20")]
-	private static List<byte> _logicScriptCompressed;
+	private static readonly ContentTransferChangeTracker _changeTracker;
 
-	[Token(Token = "0x4000CE5")]
-	[FieldOffset(Offset = "0x28")]
-	private static List<byte[][]> _logicTransferData;
-
-	[Token(Token = "0x6000EA2")]
-	[Address(RVA = "0x3F99440", Offset = "0x3F99440", VA = "0x3F99440")]
+	[Token(Token = "0x6001625")]
+	[Address(RVA = "0x1E880E0", Offset = "0x1E866E0", VA = "0x181E880E0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6000EA3")]
-	[Address(RVA = "0x3F99510", Offset = "0x3F99510", VA = "0x3F99510")]
+	[Token(Token = "0x6001626")]
+	[Address(RVA = "0x1E881C0", Offset = "0x1E867C0", VA = "0x181E881C0")]
 	private static void OnPreLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6000EA4")]
-	[Address(RVA = "0x3F995A0", Offset = "0x3F995A0", VA = "0x3F995A0")]
-	public static void Start()
+	[Token(Token = "0x6001627")]
+	[Address(RVA = "0x1E88410", Offset = "0x1E86A10", VA = "0x181E88410")]
+	public static void Start(string modeName)
 	{
 	}
 
-	[Token(Token = "0x6000EA5")]
-	[Address(RVA = "0x3F9A120", Offset = "0x3F9A120", VA = "0x3F9A120")]
+	[Token(Token = "0x6001628")]
+	[Address(RVA = "0x1E88890", Offset = "0x1E86E90", VA = "0x181E88890")]
+	public static void UseBuiltin(string modeName)
+	{
+	}
+
+	[Token(Token = "0x6001629")]
+	[Address(RVA = "0x1E887C0", Offset = "0x1E86DC0", VA = "0x181E887C0")]
 	public static void Transfer(Player player)
 	{
 	}
 
-	[Token(Token = "0x6000EA6")]
-	[Address(RVA = "0x3F997C0", Offset = "0x3F997C0", VA = "0x3F997C0")]
-	private static void CreateTransferData()
-	{
-	}
-
-	[Token(Token = "0x6000EA7")]
-	[Address(RVA = "0x3F9A290", Offset = "0x3F9A290", VA = "0x3F9A290")]
+	[Token(Token = "0x600162A")]
+	[Address(RVA = "0x1E88250", Offset = "0x1E86850", VA = "0x181E88250")]
 	public static void OnTransferLogicRPC(byte[][] byteArr, int msgNumber, int msgTotal, PhotonMessageInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000EA8")]
-	[Address(RVA = "0x3F9A220", Offset = "0x3F9A220", VA = "0x3F9A220")]
-	[IteratorStateMachine(typeof(_003CTransferLogicData_003Ed__14))]
+	[Token(Token = "0x600162B")]
+	[Address(RVA = "0x1E88750", Offset = "0x1E86D50", VA = "0x181E88750")]
+	[IteratorStateMachine(typeof(_003CTransferLogicData_003Ed__11))]
 	private IEnumerator TransferLogicData(Player player)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EA9")]
-	[Address(RVA = "0x3F9A650", Offset = "0x3F9A650", VA = "0x3F9A650")]
+	[Token(Token = "0x600162C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public CustomLogicTransfer()
 	{
 	}

@@ -21,7 +21,7 @@ public sealed class DataContractAttribute : Attribute
 	public bool IsReference
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4678300", Offset = "0x4678300", VA = "0x4678300")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		get
 		{
 			return default(bool);

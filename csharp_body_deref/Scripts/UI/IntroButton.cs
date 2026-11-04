@@ -10,31 +10,31 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000690")]
+[Token(Token = "0x20007EB")]
 internal class IntroButton : Button
 {
-	[Token(Token = "0x400202E")]
+	[Token(Token = "0x4002806")]
 	[FieldOffset(Offset = "0x108")]
 	private float _fadeTime;
 
-	[Token(Token = "0x400202F")]
+	[Token(Token = "0x4002807")]
 	[FieldOffset(Offset = "0x110")]
 	private Image _hoverImage;
 
-	[Token(Token = "0x60041A7")]
-	[Address(RVA = "0x4301B70", Offset = "0x4301B70", VA = "0x4301B70", Slot = "4")]
+	[Token(Token = "0x6004C9C")]
+	[Address(RVA = "0x228A280", Offset = "0x2288880", VA = "0x18228A280", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60041A8")]
-	[Address(RVA = "0x4302070", Offset = "0x4302070", VA = "0x4302070", Slot = "26")]
+	[Token(Token = "0x6004C9D")]
+	[Address(RVA = "0x228A710", Offset = "0x2288D10", VA = "0x18228A710", Slot = "26")]
 	protected override void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
-	[Token(Token = "0x60041A9")]
-	[Address(RVA = "0x4302180", Offset = "0x4302180", VA = "0x4302180")]
+	[Token(Token = "0x6004C9E")]
+	[Address(RVA = "0x228A820", Offset = "0x2288E20", VA = "0x18228A820")]
 	public IntroButton()
 	{
 	}

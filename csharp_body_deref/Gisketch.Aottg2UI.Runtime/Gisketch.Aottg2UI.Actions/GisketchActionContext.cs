@@ -11,33 +11,33 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x20000FB")]
 public readonly struct GisketchActionContext
 {
-	[Token(Token = "0x400042A")]
+	[Token(Token = "0x40004F0")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly string ElementId;
 
-	[Token(Token = "0x400042B")]
+	[Token(Token = "0x40004F1")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly GameObject GameObject;
 
-	[Token(Token = "0x400042C")]
+	[Token(Token = "0x40004F2")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly GisketchNodeDefinition Node;
 
-	[Token(Token = "0x400042D")]
+	[Token(Token = "0x40004F3")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly GisketchActionInputSource InputSource;
 
-	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x3A9D200", Offset = "0x3A9D200", VA = "0x3A9D200")]
+	[Token(Token = "0x6000773")]
+	[Address(RVA = "0x190BA00", Offset = "0x190A000", VA = "0x18190BA00")]
 	public GisketchActionContext(string elementId, GameObject gameObject, GisketchNodeDefinition node)
 	{
 	}
 
-	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x3A9D250", Offset = "0x3A9D250", VA = "0x3A9D250")]
+	[Token(Token = "0x6000774")]
+	[Address(RVA = "0x190B9A0", Offset = "0x1909FA0", VA = "0x18190B9A0")]
 	public GisketchActionContext(string elementId, GameObject gameObject, GisketchNodeDefinition node, GisketchActionInputSource inputSource)
 	{
 	}

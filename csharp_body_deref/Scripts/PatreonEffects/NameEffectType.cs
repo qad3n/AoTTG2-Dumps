@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x20000F0")]
+[Token(Token = "0x2000111")]
 public enum NameEffectType
 {
-	[Token(Token = "0x400058F")]
+	[Token(Token = "0x4000631")]
 	None,
-	[Token(Token = "0x4000590")]
+	[Token(Token = "0x4000632")]
 	Holographic,
-	[Token(Token = "0x4000591")]
+	[Token(Token = "0x4000633")]
 	Shimmer,
-	[Token(Token = "0x4000592")]
+	[Token(Token = "0x4000634")]
 	Pop,
-	[Token(Token = "0x4000593")]
+	[Token(Token = "0x4000635")]
 	Ember,
-	[Token(Token = "0x4000594")]
+	[Token(Token = "0x4000636")]
 	Waves,
-	[Token(Token = "0x4000595")]
+	[Token(Token = "0x4000637")]
 	Electric,
-	[Token(Token = "0x4000596")]
+	[Token(Token = "0x4000638")]
 	Outline
 }

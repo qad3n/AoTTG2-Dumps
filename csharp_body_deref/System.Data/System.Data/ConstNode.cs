@@ -10,96 +10,96 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000052")]
+[Token(Token = "0x200005F")]
 internal sealed class ConstNode : ExpressionNode
 {
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x40001F2")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly object _val;
 
-	[Token(Token = "0x60005C2")]
-	[Address(RVA = "0x45A8F40", Offset = "0x45A8F40", VA = "0x45A8F40")]
+	[Token(Token = "0x60005F5")]
+	[Address(RVA = "0x2508CA0", Offset = "0x25072A0", VA = "0x182508CA0")]
 	internal ConstNode(DataTable table, ValueType type, object constant)
 	{
 	}
 
-	[Token(Token = "0x60005C3")]
-	[Address(RVA = "0x45A5080", Offset = "0x45A5080", VA = "0x45A5080")]
+	[Token(Token = "0x60005F6")]
+	[Address(RVA = "0x2508950", Offset = "0x2506F50", VA = "0x182508950")]
 	internal ConstNode(DataTable table, ValueType type, object constant, bool fParseQuotes)
 	{
 	}
 
-	[Token(Token = "0x60005C4")]
-	[Address(RVA = "0x45A9A60", Offset = "0x45A9A60", VA = "0x45A9A60", Slot = "5")]
+	[Token(Token = "0x60005F7")]
+	[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
-	[Token(Token = "0x60005C5")]
-	[Address(RVA = "0x45A9A70", Offset = "0x45A9A70", VA = "0x45A9A70", Slot = "6")]
+	[Token(Token = "0x60005F8")]
+	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005C6")]
-	[Address(RVA = "0x45A9A80", Offset = "0x45A9A80", VA = "0x45A9A80", Slot = "7")]
+	[Token(Token = "0x60005F9")]
+	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005C7")]
-	[Address(RVA = "0x45A9AA0", Offset = "0x45A9AA0", VA = "0x45A9AA0", Slot = "8")]
+	[Token(Token = "0x60005FA")]
+	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00", Slot = "8")]
 	internal override object Eval(int[] recordNos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005C8")]
-	[Address(RVA = "0x45A9AC0", Offset = "0x45A9AC0", VA = "0x45A9AC0", Slot = "9")]
+	[Token(Token = "0x60005FB")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005C9")]
-	[Address(RVA = "0x45A9AD0", Offset = "0x45A9AD0", VA = "0x45A9AD0", Slot = "10")]
+	[Token(Token = "0x60005FC")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005CA")]
-	[Address(RVA = "0x45A9AE0", Offset = "0x45A9AE0", VA = "0x45A9AE0", Slot = "11")]
+	[Token(Token = "0x60005FD")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005CB")]
-	[Address(RVA = "0x45A9AF0", Offset = "0x45A9AF0", VA = "0x45A9AF0", Slot = "12")]
+	[Token(Token = "0x60005FE")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005CC")]
-	[Address(RVA = "0x45A9B00", Offset = "0x45A9B00", VA = "0x45A9B00", Slot = "13")]
+	[Token(Token = "0x60005FF")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005CD")]
-	[Address(RVA = "0x45A95B0", Offset = "0x45A95B0", VA = "0x45A95B0")]
+	[Token(Token = "0x6000600")]
+	[Address(RVA = "0x25083D0", Offset = "0x25069D0", VA = "0x1825083D0")]
 	private object SmallestDecimal(object constant)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005CE")]
-	[Address(RVA = "0x45A8F50", Offset = "0x45A8F50", VA = "0x45A8F50")]
+	[Token(Token = "0x6000601")]
+	[Address(RVA = "0x2508660", Offset = "0x2506C60", VA = "0x182508660")]
 	private object SmallestNumeric(object constant)
 	{
 		return null;

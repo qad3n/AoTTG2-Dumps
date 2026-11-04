@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001D6")]
+[Token(Token = "0x20001F4")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
 public class VolumeComponentMenu : Attribute
 {
-	[Token(Token = "0x40007FF")]
+	[Token(Token = "0x4000981")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly string menu;
 
-	[Token(Token = "0x6000D5F")]
-	[Address(RVA = "0x4C06570", Offset = "0x4C06570", VA = "0x4C06570")]
+	[Token(Token = "0x6000EE2")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public VolumeComponentMenu(string menu)
 	{
 	}

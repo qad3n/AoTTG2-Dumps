@@ -10,41 +10,41 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000580")]
+[Token(Token = "0x20006A8")]
 internal class UnexceptionalStreamWriter : StreamWriter
 {
-	[Token(Token = "0x6002AE6")]
-	[Address(RVA = "0x3C36BE0", Offset = "0x3C36BE0", VA = "0x3C36BE0")]
+	[Token(Token = "0x60033B0")]
+	[Address(RVA = "0x1B07370", Offset = "0x1B05970", VA = "0x181B07370")]
 	public UnexceptionalStreamWriter(Stream stream, Encoding encoding)
 	{
 	}
 
-	[Token(Token = "0x6002AE7")]
-	[Address(RVA = "0x3C36C50", Offset = "0x3C36C50", VA = "0x3C36C50", Slot = "10")]
+	[Token(Token = "0x60033B1")]
+	[Address(RVA = "0x1B072D0", Offset = "0x1B058D0", VA = "0x181B072D0", Slot = "10")]
 	public override void Flush()
 	{
 	}
 
-	[Token(Token = "0x6002AE8")]
-	[Address(RVA = "0x3C36CD0", Offset = "0x3C36CD0", VA = "0x3C36CD0", Slot = "15")]
+	[Token(Token = "0x60033B2")]
+	[Address(RVA = "0x1B07330", Offset = "0x1B05930", VA = "0x181B07330", Slot = "15")]
 	public override void Write(char[] buffer, int index, int count)
 	{
 	}
 
-	[Token(Token = "0x6002AE9")]
-	[Address(RVA = "0x3C36D50", Offset = "0x3C36D50", VA = "0x3C36D50", Slot = "13")]
+	[Token(Token = "0x60033B3")]
+	[Address(RVA = "0x1B072F0", Offset = "0x1B058F0", VA = "0x181B072F0", Slot = "13")]
 	public override void Write(char value)
 	{
 	}
 
-	[Token(Token = "0x6002AEA")]
-	[Address(RVA = "0x3C36DD0", Offset = "0x3C36DD0", VA = "0x3C36DD0", Slot = "14")]
+	[Token(Token = "0x60033B4")]
+	[Address(RVA = "0x1B07350", Offset = "0x1B05950", VA = "0x181B07350", Slot = "14")]
 	public override void Write(char[] value)
 	{
 	}
 
-	[Token(Token = "0x6002AEB")]
-	[Address(RVA = "0x3C36E50", Offset = "0x3C36E50", VA = "0x3C36E50", Slot = "18")]
+	[Token(Token = "0x60033B5")]
+	[Address(RVA = "0x1B07310", Offset = "0x1B05910", VA = "0x181B07310", Slot = "18")]
 	public override void Write(string value)
 	{
 	}

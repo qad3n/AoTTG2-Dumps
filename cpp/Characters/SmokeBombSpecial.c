@@ -1,5 +1,5 @@
 // Type: Characters.SmokeBombSpecial
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/SmokeBombSpecial.cs
@@ -8,24 +8,28 @@
 
 // Characters.SmokeBombSpecial$$.ctor
 // il2cpp: void Characters_SmokeBombSpecial___ctor (Characters_SmokeBombSpecial_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x42e4250
+// 0x1821762e0
 
 void Characters_SmokeBombSpecial___ctor
                (Characters_SmokeBombSpecial_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
 
 {
   float fVar1;
-  undefined8 uVar2;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  UnityEngine_Vector3_StaticFields *pUVar4;
   
   (__this->fields).Speed = 150.0;
-  if (g_data_057ac31b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-    g_data_057ac31b = '\x01';
+  if (Il2CppMethodInitialized_18434494b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18434494b = '\x01';
   }
-  uVar2 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x24);
-  fVar1 = *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x2c);
+  pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar2 = (pUVar4->downVector).fields.x;
+  uVar3 = (pUVar4->downVector).fields.y;
+  fVar1 = (pUVar4->downVector).fields.z;
   (__this->fields).Gravity.fields.x = (float)uVar2 * 15.0;
-  (__this->fields).Gravity.fields.y = (float)((ulong)uVar2 >> 0x20) * 15.0;
+  (__this->fields).Gravity.fields.y = (float)uVar3 * 15.0;
   (__this->fields).Gravity.fields.z = fVar1 * 15.0;
   Characters_SimpleUseable___ctor((Characters_SimpleUseable_o *)__this,owner,(MethodInfo *)0x0);
   (__this->fields).Cooldown = 15.0;
@@ -35,157 +39,156 @@ void Characters_SmokeBombSpecial___ctor
 
 // Characters.SmokeBombSpecial$$Activate
 // il2cpp: void Characters_SmokeBombSpecial__Activate (Characters_SmokeBombSpecial_o* __this, const MethodInfo* method);
-// 0x42f7c70
+// 0x182175ee0
 
 void Characters_SmokeBombSpecial__Activate(Characters_SmokeBombSpecial_o *__this,MethodInfo *method)
 
 {
-  byte bVar1;
-  int iVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  undefined8 uVar4;
+  byte bVar8;
+  float fVar9;
   int32_t charViewId;
   Characters_BaseCharacter_o *__this_00;
-  Characters_BaseCharacter_c *pCVar3;
-  long lVar4;
-  UnityEngine_Transform_o *pUVar5;
+  Characters_BaseCharacter_c *pCVar10;
+  Utility_BaseComponentCache_o *pUVar11;
+  UnityEngine_Transform_o *pUVar12;
+  UnityEngine_Vector3_StaticFields *pUVar13;
   System_String_o *name;
-  Characters_BaseCharacter_o *pCVar6;
-  undefined1 auVar7 [16];
-  UnityEngine_Quaternion_Fields rotation;
-  UnityEngine_Vector3_Fields gravity;
+  Characters_BaseCharacter_o *pCVar14;
+  Photon_Pun_PhotonView_o *pPVar15;
+  UnityEngine_Quaternion_StaticFields *pUVar16;
+  undefined8 uVar17;
+  undefined8 uVar18;
+  UnityEngine_Vector3_o *pUVar19;
   System_Object_array *settings;
-  float fVar8;
-  undefined8 uVar9;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dc_00;
-  float extraout_XMM0_Dc_01;
-  undefined4 uVar10;
-  undefined4 extraout_XMM0_Dc_02;
-  float extraout_XMM0_Dd;
-  float extraout_XMM0_Dd_00;
-  float extraout_XMM0_Dd_01;
-  undefined4 uVar11;
-  undefined4 extraout_XMM0_Dd_02;
-  float in_XMM1_Da;
-  float fVar12;
-  undefined1 auVar13 [16];
-  UnityEngine_Vector3_o UVar14;
-  UnityEngine_Vector3_o UVar15;
-  undefined8 uStack_88;
-  undefined8 uStack_68;
+  float fVar20;
+  float fVar21;
+  float fVar22;
+  float fVar23;
+  float fVar24;
+  float fVar25;
+  float fVar26;
+  UnityEngine_Vector3_Fields local_d8;
+  UnityEngine_Vector3_Fields local_c8;
+  UnityEngine_Vector3_Fields local_b8;
+  UnityEngine_Quaternion_Fields local_a8 [10];
   
-  if (g_data_057adee8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSounds);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Human);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ProjectilePrefabs);
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057adee8 = '\x01';
+  if (Il2CppMethodInitialized_184346cf5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_Human);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_object_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Projectiles_ProjectilePrefabs);
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184346cf5 = '\x01';
   }
   __this_00 = (__this->fields)._owner;
-  if (__this_00 == (Characters_BaseCharacter_o *)0x0) goto label_042f8046;
-  pCVar3 = __this_00->klass;
-  bVar1 = (TypeInfo_Human->_2).naturalAligment;
-  if (((pCVar3->_2).naturalAligment < bVar1) || ((pCVar3->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_Human)
-     ) goto label_042f804b;
-  uVar9 = (*(pCVar3->vtable)._66_GetAimPoint.methodPtr)(__this_00);
-  lVar4 = *(long *)&(__this_00->fields).Dead;
-  if ((lVar4 != 0) &&
-     (pUVar5 = *(UnityEngine_Transform_o **)(lVar4 + 0x10), pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-    UVar14 = UnityEngine_Transform__get_position(pUVar5,(MethodInfo *)0x0);
-    lVar4 = *(long *)&(__this_00->fields).Dead;
-    if ((lVar4 != 0) &&
-       (pUVar5 = *(UnityEngine_Transform_o **)(lVar4 + 0x10), pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-      UVar15 = UnityEngine_Transform__get_up(pUVar5,(MethodInfo *)0x0);
-      uStack_68._0_4_ = UVar14.fields.x;
-      uStack_68._4_4_ = UVar14.fields.y;
-      uStack_68._0_4_ = (float)uStack_68 + UVar15.fields.x + UVar15.fields.x;
-      uStack_68._4_4_ = uStack_68._4_4_ + UVar15.fields.y + UVar15.fields.y;
-      fVar12 = UVar14.fields.z + UVar15.fields.z + UVar15.fields.z;
-      if (g_data_057a6845 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        g_data_057a6845 = '\x01';
-      }
-      auVar13._0_4_ = (float)uVar9 - (float)uStack_68;
-      auVar13._4_4_ = (float)((ulong)uVar9 >> 0x20) - uStack_68._4_4_;
-      auVar13._8_4_ = extraout_XMM0_Dc - (extraout_XMM0_Dc_00 + extraout_XMM0_Dc_01 + extraout_XMM0_Dc_01);
-      auVar13._12_4_ = extraout_XMM0_Dd - (extraout_XMM0_Dd_00 + extraout_XMM0_Dd_01 + extraout_XMM0_Dd_01);
-      in_XMM1_Da = in_XMM1_Da - fVar12;
-      if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      uVar10 = 0;
-      uVar11 = 0;
-      fVar8 = in_XMM1_Da * in_XMM1_Da + auVar13._4_4_ * auVar13._4_4_ + auVar13._0_4_ * auVar13._0_4_;
-      if (fVar8 < 0.0) {
-        fVar8 = sqrtf(fVar8);
-        uVar10 = extraout_XMM0_Dc_02;
-        uVar11 = extraout_XMM0_Dd_02;
-        if (fVar8 <= 1e-05) goto label_042f7e32;
-label_042f7ea1:
-        in_XMM1_Da = in_XMM1_Da / fVar8;
-        auVar7._4_4_ = fVar8;
-        auVar7._0_4_ = fVar8;
-        auVar7._8_4_ = uVar10;
-        auVar7._12_4_ = uVar11;
-        auVar13 = divps(auVar13,auVar7);
-        uVar9 = auVar13._0_8_;
-        iVar2 = *(int *)(TypeInfo_ProjectilePrefabs + 0xe4);
-      }
-      else {
-        fVar8 = SQRT(fVar8);
-        if (1e-05 < fVar8) goto label_042f7ea1;
-label_042f7e32:
-        if (g_data_057a65d5 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a65d5 = '\x01';
+  if (__this_00 != (Characters_BaseCharacter_o *)0x0) {
+    pCVar10 = __this_00->klass;
+    bVar8 = (TypeInfo_Characters_Human->_2).typeHierarchyDepth;
+    if (((pCVar10->_2).typeHierarchyDepth < bVar8) ||
+       ((pCVar10->_2).typeHierarchy[(ulonglong)bVar8 - 1] != (Il2CppClass *)TypeInfo_Characters_Human)) {
+      il2cpp_codegen_raise_invalid_cast_exception(__this_00);
+    }
+    pUVar19 = (*(pCVar10->vtable)._76_GetAimPoint.methodPtr)
+                        ((UnityEngine_Vector3_o *)&local_b8,__this_00,(pCVar10->vtable)._76_GetAimPoint.method
+                        );
+    pUVar11 = (__this_00->fields).Cache;
+    if ((pUVar11 != (Utility_BaseComponentCache_o *)0x0) &&
+       (pUVar12 = (pUVar11->fields).Transform, pUVar12 != (UnityEngine_Transform_o *)0x0)) {
+      uVar1 = (pUVar19->fields).x;
+      uVar5 = (pUVar19->fields).y;
+      fVar21 = (pUVar19->fields).z;
+      pUVar19 = UnityEngine_Transform__get_position
+                          ((UnityEngine_Vector3_o *)&local_b8,pUVar12,(MethodInfo *)0x0);
+      pUVar11 = (__this_00->fields).Cache;
+      if ((pUVar11 != (Utility_BaseComponentCache_o *)0x0) &&
+         (pUVar12 = (pUVar11->fields).Transform, pUVar12 != (UnityEngine_Transform_o *)0x0)) {
+        uVar2 = (pUVar19->fields).x;
+        uVar6 = (pUVar19->fields).y;
+        fVar26 = (pUVar19->fields).z;
+        pUVar19 = UnityEngine_Transform__get_up((UnityEngine_Vector3_o *)&local_b8,pUVar12,(MethodInfo *)0x0);
+        uVar3 = (pUVar19->fields).x;
+        uVar7 = (pUVar19->fields).y;
+        fVar22 = (pUVar19->fields).z;
+        fVar24 = (float)uVar3 + (float)uVar3 + (float)uVar2;
+        fVar25 = (float)uVar7 + (float)uVar7 + (float)uVar6;
+        fVar26 = fVar22 + fVar22 + fVar26;
+        fVar22 = (float)uVar1 - fVar24;
+        fVar23 = (float)uVar5 - fVar25;
+        fVar21 = fVar21 - fVar26;
+        local_d8.y = fVar23;
+        local_d8.x = fVar22;
+        local_d8.z = fVar21;
+        if (Il2CppMethodInitialized_18433de5f == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+          Il2CppMethodInitialized_18433de5f = '\x01';
         }
-        uVar9 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-        in_XMM1_Da = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-        iVar2 = *(int *)(TypeInfo_ProjectilePrefabs + 0xe4);
-      }
-      if (iVar2 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      name = *(System_String_o **)(*(long *)(TypeInfo_ProjectilePrefabs + 0xb8) + 0x20);
-      if (g_data_057a6843 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Quaternion);
-        g_data_057a6843 = '\x01';
-        pCVar6 = (__this->fields)._owner;
-      }
-      else {
-        pCVar6 = (__this->fields)._owner;
-      }
-      if (((pCVar6 != (Characters_BaseCharacter_o *)0x0) &&
-          (lVar4 = *(long *)&(pCVar6->fields).Dead, lVar4 != 0)) &&
-         (lVar4 = *(long *)(lVar4 + 0x20), lVar4 != 0)) {
-        rotation = **(UnityEngine_Quaternion_Fields **)(TypeInfo_Quaternion + 0xb8);
-        fVar8 = (__this->fields).Speed;
-        gravity = (__this->fields).Gravity.fields;
-        charViewId = *(int32_t *)(lVar4 + 0x94);
-        settings = (System_Object_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_object,0);
-        UVar14.fields.z = fVar12;
-        UVar14.fields.x = (float)uStack_68;
-        UVar14.fields.y = uStack_68._4_4_;
-        UVar15.fields.z = in_XMM1_Da * fVar8;
-        UVar15.fields.x = (float)uVar9 * fVar8;
-        UVar15.fields.y = (float)((ulong)uVar9 >> 0x20) * fVar8;
-        Projectiles_ProjectileSpawner__Spawn
-                  (name,UVar14,(UnityEngine_Quaternion_o)rotation,UVar15,(UnityEngine_Vector3_o)gravity,6.5,
-                   charViewId,"",settings,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_HumanSounds + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+        fVar20 = (float)il2cpp_runtime_helper_180546a40(&local_d8);
+        if (fVar20 <= 1e-05) {
+          pUVar13 = TypeInfo_UnityEngine_Vector3->static_fields;
+          fVar22 = (pUVar13->zeroVector).fields.x;
+          fVar23 = (pUVar13->zeroVector).fields.y;
+          fVar21 = (pUVar13->zeroVector).fields.z;
         }
-        Characters_BaseCharacter__PlaySound
-                  (__this_00,*(System_String_o **)(*(long *)(TypeInfo_HumanSounds + 0xb8) + 0x78),(MethodInfo *)0x0);
-        return;
+        else {
+          fVar22 = fVar22 / fVar20;
+          fVar23 = fVar23 / fVar20;
+          fVar21 = fVar21 / fVar20;
+        }
+        if ((TypeInfo_Projectiles_ProjectilePrefabs->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Projectiles_ProjectilePrefabs);
+        }
+        name = TypeInfo_Projectiles_ProjectilePrefabs->static_fields->SmokeBomb;
+        if (Il2CppMethodInitialized_18433de5b == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Quaternion);
+          Il2CppMethodInitialized_18433de5b = '\x01';
+        }
+        pCVar14 = (__this->fields)._owner;
+        if (((pCVar14 != (Characters_BaseCharacter_o *)0x0) &&
+            (pUVar11 = (pCVar14->fields).Cache, pUVar11 != (Utility_BaseComponentCache_o *)0x0)) &&
+           (pPVar15 = (pUVar11->fields).PhotonView, pPVar15 != (Photon_Pun_PhotonView_o *)0x0)) {
+          fVar20 = (__this->fields).Speed;
+          uVar4._0_4_ = (__this->fields).Gravity.fields.x;
+          uVar4._4_4_ = (__this->fields).Gravity.fields.y;
+          fVar9 = (__this->fields).Gravity.fields.z;
+          pUVar16 = TypeInfo_UnityEngine_Quaternion->static_fields;
+          charViewId = (pPVar15->fields).viewIdField;
+          uVar17._0_4_ = (pUVar16->identityQuaternion).fields.x;
+          uVar17._4_4_ = (pUVar16->identityQuaternion).fields.y;
+          uVar18._0_4_ = (pUVar16->identityQuaternion).fields.z;
+          uVar18._4_4_ = (pUVar16->identityQuaternion).fields.w;
+          settings = (System_Object_array *)SZArrayNew(TypeInfo_object_array,0);
+          local_d8.z = fVar21 * fVar20;
+          local_d8.y = fVar23 * fVar20;
+          local_d8.x = fVar22 * fVar20;
+          local_b8.y = fVar25;
+          local_b8.x = fVar24;
+          local_c8._0_8_ = uVar4;
+          local_c8.z = fVar9;
+          local_b8.z = fVar26;
+          local_a8[0]._0_8_ = uVar17;
+          local_a8[0]._8_8_ = uVar18;
+          Projectiles_ProjectileSpawner__Spawn
+                    (name,(UnityEngine_Vector3_o *)&local_b8,(UnityEngine_Quaternion_o *)local_a8,
+                     (UnityEngine_Vector3_o *)&local_d8,(UnityEngine_Vector3_o *)&local_c8,6.5,charViewId,
+                     "",settings,(MethodInfo *)0x0);
+          if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+          }
+          Characters_BaseCharacter__PlaySound
+                    (__this_00,TypeInfo_Characters_HumanSounds->static_fields->FlareLaunch,(MethodInfo *)0x0);
+          return;
+        }
       }
     }
   }
-label_042f8046:
-  il2cpp_runtime_helper_022b2c90();
-label_042f804b:
-  il2cpp_runtime_helper_022b2fd0(__this_00);
-  return;
+  ThrowNullReferenceException();
 }
 
 

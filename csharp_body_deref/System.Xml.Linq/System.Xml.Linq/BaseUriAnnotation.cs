@@ -17,7 +17,7 @@ internal class BaseUriAnnotation
 	internal string baseUri;
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x468B5A0", Offset = "0x468B5A0", VA = "0x468B5A0")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public BaseUriAnnotation(string baseUri)
 	{
 	}

@@ -28,7 +28,7 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x60011A2")]
-		[Address(RVA = "0x4863F30", Offset = "0x4863F30", VA = "0x4863F30", Slot = "18")]
+		[Address(RVA = "0x27A24D0", Offset = "0x27A0AD0", VA = "0x1827A24D0", Slot = "18")]
 		get
 		{
 			return null;
@@ -39,7 +39,7 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x60011A3")]
-		[Address(RVA = "0x4863FA0", Offset = "0x4863FA0", VA = "0x4863FA0", Slot = "8")]
+		[Address(RVA = "0x27A2570", Offset = "0x27A0B70", VA = "0x1827A2570", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -50,7 +50,7 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong
 	public override Type ValueType
 	{
 		[Token(Token = "0x60011A5")]
-		[Address(RVA = "0x4864010", Offset = "0x4864010", VA = "0x4864010", Slot = "4")]
+		[Address(RVA = "0x27A2580", Offset = "0x27A0B80", VA = "0x1827A2580", Slot = "4")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x60011A6")]
-		[Address(RVA = "0x4864080", Offset = "0x4864080", VA = "0x4864080", Slot = "26")]
+		[Address(RVA = "0x27A2520", Offset = "0x27A0B20", VA = "0x1827A2520", Slot = "26")]
 		get
 		{
 			return null;
@@ -69,21 +69,21 @@ internal class Datatype_unsignedInt : Datatype_unsignedLong
 	}
 
 	[Token(Token = "0x60011A4")]
-	[Address(RVA = "0x4863FB0", Offset = "0x4863FB0", VA = "0x4863FB0", Slot = "14")]
+	[Address(RVA = "0x27A2130", Offset = "0x27A0730", VA = "0x1827A2130", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60011A7")]
-	[Address(RVA = "0x48640F0", Offset = "0x48640F0", VA = "0x48640F0", Slot = "16")]
+	[Address(RVA = "0x27A2190", Offset = "0x27A0790", VA = "0x1827A2190", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60011A8")]
-	[Address(RVA = "0x4858070", Offset = "0x4858070", VA = "0x4858070")]
+	[Address(RVA = "0x27A2480", Offset = "0x27A0A80", VA = "0x1827A2480")]
 	public Datatype_unsignedInt()
 	{
 	}

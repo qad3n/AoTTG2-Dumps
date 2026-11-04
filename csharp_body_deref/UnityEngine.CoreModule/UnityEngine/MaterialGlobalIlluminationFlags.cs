@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F3")]
+[Token(Token = "0x2000115")]
 [Flags]
 public enum MaterialGlobalIlluminationFlags
 {
-	[Token(Token = "0x400032A")]
+	[Token(Token = "0x400037A")]
 	None = 0,
-	[Token(Token = "0x400032B")]
+	[Token(Token = "0x400037B")]
 	RealtimeEmissive = 1,
-	[Token(Token = "0x400032C")]
+	[Token(Token = "0x400037C")]
 	BakedEmissive = 2,
-	[Token(Token = "0x400032D")]
+	[Token(Token = "0x400037D")]
 	EmissiveIsBlack = 4,
-	[Token(Token = "0x400032E")]
-	AnyEmissive = 3
+	[Token(Token = "0x400037E")]
+	AnyEmissive = RealtimeEmissive | BakedEmissive
 }

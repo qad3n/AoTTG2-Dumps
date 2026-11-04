@@ -1,5 +1,5 @@
 // Type: UI.SnapshotHandler
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/SnapshotHandler.cs
@@ -8,14 +8,14 @@
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$.ctor
 // il2cpp: void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4___ctor (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x4323810
+// 0x180573ef0
 
-void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4___ctor
-               (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,int32_t __1__state,MethodInfo *method
-               )
+void
+UI_SnapshotHandler__TakeSnapshotCoroutine_d__4___ctor(UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -23,10 +23,10 @@ void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4___ctor
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$System.IDisposable.Dispose
 // il2cpp: void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_IDisposable_Dispose (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, const MethodInfo* method);
-// 0x4323e00
+// 0x180547020
 
-void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_IDisposable_Dispose
-               (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
+void
+UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_IDisposable_Dispose(UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, MethodInfo* method)
 
 {
   return;
@@ -35,163 +35,153 @@ void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_IDisposable_Dispose
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$MoveNext
 // il2cpp: bool UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__MoveNext (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, const MethodInfo* method);
-// 0x4323e10
+// 0x1821d0060
 
-bool_conflict
-UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__MoveNext
-          (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
+bool UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__MoveNext
+               (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
   int32_t damage;
-  long lVar2;
   UI_SnapshotHandler_o *__this_00;
-  UnityEngine_WaitForSeconds_o *pUVar3;
-  Il2CppObject *pIVar4;
+  Cameras_BaseCamera_o *pCVar2;
+  Settings_GeneralSettings_o *pSVar3;
+  Settings_BoolSetting_o *pSVar4;
+  UI_InGameMenu_o *__this_01;
   UnityEngine_GameObject_o *pUVar5;
   UnityEngine_Texture2D_o *pUVar6;
-  bool_conflict bVar7;
-  undefined7 uVar8;
-  MethodInfo *method_00;
-  UI_InGameMenu_o *__this_01;
+  Il2CppObject *pIVar7;
+  Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *pPVar8;
+  UnityEngine_Vector3_Fields local_18;
   
-  __this_01 = (UI_InGameMenu_o *)__this;
-  if (g_data_057ae011 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SnapshotManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitForEndOfFrame);
-    __this_01 = (UI_InGameMenu_o *)&TypeInfo_WaitForSeconds;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae011 = '\x01';
+  if (Il2CppMethodInitialized_184346eb2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_InGameMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SnapshotManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForEndOfFrame);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WaitForSeconds);
+    Il2CppMethodInitialized_184346eb2 = '\x01';
   }
-  uVar8 = (undefined7)((ulong)__this >> 8);
   switch((__this->fields).__1__state) {
   case 0:
     (__this->fields).__1__state = -1;
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
-    (__this->fields).__2__current = pIVar4;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
+    pIVar7 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+    UnityEngine_WaitForEndOfFrame___ctor
+              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar7,(MethodInfo *)0x0);
+    (__this->fields).__2__current = pIVar7;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
     (__this->fields).__1__state = 1;
-    bVar7 = (bool_conflict)CONCAT71(uVar8,1);
-    break;
+    return true;
   case 1:
     __this_00 = (__this->fields).__4__this;
     (__this->fields).__1__state = -1;
     if (((__this_00 != (UI_SnapshotHandler_o *)0x0) &&
-        (__this_01 = (UI_InGameMenu_o *)(__this_00->fields).SnapshotCamera,
-        __this_01 != (UI_InGameMenu_o *)0x0)) &&
-       (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0)
-       , pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
-      method_00 = (MethodInfo *)0x1;
-      UnityEngine_GameObject__SetActive(pUVar5,1,(MethodInfo *)0x0);
-      UI_SnapshotHandler__SetSnapshotPosition
-                (__this_00,(UnityEngine_Vector3_o)(__this->fields).position.fields,method_00);
-      pUVar6 = UI_SnapshotHandler__RTImage(__this_00,method_00);
+        (pCVar2 = (__this_00->fields).SnapshotCamera, pCVar2 != (Cameras_BaseCamera_o *)0x0)) &&
+       (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pCVar2,(MethodInfo *)0x0),
+       pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
+      UnityEngine_GameObject__SetActive(pUVar5,true,(MethodInfo *)0x0);
+      local_18.x = (__this->fields).position.fields.x;
+      local_18.y = (__this->fields).position.fields.y;
+      local_18.z = (__this->fields).position.fields.z;
+      UI_SnapshotHandler__SetSnapshotPosition(__this_00,(UnityEngine_Vector3_o *)&local_18,(MethodInfo *)0x0);
+      pUVar6 = UI_SnapshotHandler__RTImage(__this_00,(MethodInfo *)0x0);
       (__this->fields)._snapshot_5__2 = pUVar6;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._snapshot_5__2);
-      __this_01 = (UI_InGameMenu_o *)(__this_00->fields).SnapshotCamera;
-      if ((__this_01 != (UI_InGameMenu_o *)0x0) &&
-         (pUVar5 = UnityEngine_Component__get_gameObject
-                             ((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0),
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._snapshot_5__2,pUVar6);
+      pCVar2 = (__this_00->fields).SnapshotCamera;
+      if ((pCVar2 != (Cameras_BaseCamera_o *)0x0) &&
+         (pUVar5 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pCVar2,(MethodInfo *)0x0),
          pUVar5 != (UnityEngine_GameObject_o *)0x0)) {
-        UnityEngine_GameObject__SetActive(pUVar5,0,(MethodInfo *)0x0);
-        pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-        UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
-        (__this->fields).__2__current = pIVar4;
-        il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
+        UnityEngine_GameObject__SetActive(pUVar5,false,(MethodInfo *)0x0);
+        pIVar7 = (Il2CppObject *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+        UnityEngine_WaitForEndOfFrame___ctor
+                  ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar7,(MethodInfo *)0x0);
+        (__this->fields).__2__current = pIVar7;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
         (__this->fields).__1__state = 2;
-        return (bool_conflict)CONCAT71(uVar8,1);
+        return true;
       }
     }
-    goto label_04324196;
+    break;
   case 2:
     (__this->fields).__1__state = -1;
-    pIVar4 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForEndOfFrame);
-    UnityEngine_WaitForEndOfFrame___ctor((UnityEngine_WaitForEndOfFrame_o *)pIVar4,(MethodInfo *)0x0);
-    (__this->fields).__2__current = pIVar4;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
+    pIVar7 = (Il2CppObject *)il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForEndOfFrame);
+    UnityEngine_WaitForEndOfFrame___ctor
+              ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)pIVar7,(MethodInfo *)0x0);
+    (__this->fields).__2__current = pIVar7;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
     (__this->fields).__1__state = 3;
-    bVar7 = (bool_conflict)CONCAT71(uVar8,1);
-    break;
+    return true;
   case 3:
+    pUVar6 = (__this->fields)._snapshot_5__2;
     (__this->fields).__1__state = -1;
-    __this_01 = (UI_InGameMenu_o *)(__this->fields)._snapshot_5__2;
-    if (__this_01 != (UI_InGameMenu_o *)0x0) {
-      UnityEngine_Texture2D__Apply_4dd97c0((UnityEngine_Texture2D_o *)__this_01,(MethodInfo *)0x0);
-      lVar2 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x20);
-      if ((lVar2 != 0) && (lVar2 = *(long *)(lVar2 + 0x60), lVar2 != 0)) {
-        if (*(char *)(lVar2 + 0x11) == '\0') {
-label_04324054:
-          pUVar3 = (UnityEngine_WaitForSeconds_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-          UnityEngine_WaitForSeconds___ctor(pUVar3,0.5,(MethodInfo *)0x0);
-          (__this->fields).__2__current = (Il2CppObject *)pUVar3;
-          il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pUVar3);
-          (__this->fields).__1__state = 4;
-          return (bool_conflict)CONCAT71(uVar8,1);
-        }
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        __this_01 = *(UI_InGameMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        if (__this_01 != (UI_InGameMenu_o *)0x0) {
-          bVar1 = (TypeInfo_InGameMenu->_2).naturalAligment;
-          if ((bVar1 <= (__this_01->klass->_2).naturalAligment) &&
-             ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_InGameMenu)) {
-            UI_InGameMenu__ShowSnapshot(__this_01,(__this->fields)._snapshot_5__2,(MethodInfo *)0x0);
-            goto label_04324054;
+    if (pUVar6 != (UnityEngine_Texture2D_o *)0x0) {
+      UnityEngine_Texture2D__Apply_2ef9fd0(pUVar6,(MethodInfo *)0x0);
+      pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->GeneralSettings;
+      if ((pSVar3 != (Settings_GeneralSettings_o *)0x0) &&
+         (pSVar4 = (pSVar3->fields).SnapshotsShowInGame, pSVar4 != (Settings_BoolSetting_o *)0x0)) {
+        if ((pSVar4->fields)._value != false) {
+          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
           }
-          goto label_0432419b;
+          __this_01 = (UI_InGameMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+          if (__this_01 == (UI_InGameMenu_o *)0x0) break;
+          bVar1 = (TypeInfo_UI_InGameMenu->_2).typeHierarchyDepth;
+          if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_UI_InGameMenu)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_UI_InGameMenu);
+          }
+          UI_InGameMenu__ShowSnapshot(__this_01,(__this->fields)._snapshot_5__2,(MethodInfo *)0x0);
         }
+        pPVar8 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+        UnityEngine_WaitForSeconds___ctor(pPVar8,0.5,(MethodInfo *)0x0);
+        (__this->fields).__2__current = (Il2CppObject *)pPVar8;
+        Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar8);
+        (__this->fields).__1__state = 4;
+        return true;
       }
     }
-label_04324196:
-    il2cpp_runtime_helper_022b2c90();
-label_0432419b:
-    il2cpp_runtime_helper_022b2fd0();
-    return (bool_conflict)(__this_01->fields).m_CancellationTokenSource;
+    break;
   case 4:
-    (__this->fields).__1__state = -1;
     pUVar6 = (__this->fields)._snapshot_5__2;
+    (__this->fields).__1__state = -1;
     damage = (__this->fields).damage;
-    if (*(int *)(TypeInfo_SnapshotManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_ApplicationManagers_SnapshotManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_SnapshotManager);
     }
     ApplicationManagers_SnapshotManager__AddSnapshot(pUVar6,damage,(MethodInfo *)0x0);
-    pUVar3 = (UnityEngine_WaitForSeconds_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitForSeconds);
-    UnityEngine_WaitForSeconds___ctor(pUVar3,2.0,(MethodInfo *)0x0);
-    (__this->fields).__2__current = (Il2CppObject *)pUVar3;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pUVar3);
+    pPVar8 = (Photon_Voice_Unity_UtilityScripts_MicAmplifierShort_o *)
+             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WaitForSeconds);
+    UnityEngine_WaitForSeconds___ctor(pPVar8,2.0,(MethodInfo *)0x0);
+    (__this->fields).__2__current = (Il2CppObject *)pPVar8;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pPVar8);
     (__this->fields).__1__state = 5;
-    bVar7 = (bool_conflict)CONCAT71(uVar8,1);
-    break;
+    return true;
   case 5:
-    (__this->fields).__1__state = -1;
     pUVar6 = (__this->fields)._snapshot_5__2;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    (__this->fields).__1__state = -1;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar7 = 0;
-    UnityEngine_Object__Destroy_4e01c60((UnityEngine_Object_o *)pUVar6,(MethodInfo *)0x0);
-    break;
+    UnityEngine_Object__Destroy_2f1ff70((UnityEngine_Object_o *)pUVar6,(MethodInfo *)0x0);
   default:
-    bVar7 = 0;
+    return false;
   }
-  return bVar7;
+  ThrowNullReferenceException();
 }
 
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, const MethodInfo* method);
-// 0x43241a0
+// 0x180573e90
 
-Il2CppObject *
-UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -200,31 +190,34 @@ UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_Generic_IEnum
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_Reset (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, const MethodInfo* method);
-// 0x43241b0
+// 0x1821d0450
 
 void UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_Reset
                (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_UI_SnapshotHandler_TakeSnapshotCoroutine_d__4_System_Collections_IEnumerator_Reset
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.SnapshotHandler.<TakeSnapshotCoroutine>d__4$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_get_Current (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, const MethodInfo* method);
-// 0x43241f0
+// 0x180573e90
 
-Il2CppObject *
-UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_get_Current
-          (UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_get_Current(UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -233,614 +226,384 @@ UI_SnapshotHandler__TakeSnapshotCoroutine_d__4__System_Collections_IEnumerator_g
 
 // UI.SnapshotHandler$$Awake
 // il2cpp: void UI_SnapshotHandler__Awake (UI_SnapshotHandler_o* __this, const MethodInfo* method);
-// 0x4323530
+// 0x1821cb920
 
 void UI_SnapshotHandler__Awake(UI_SnapshotHandler_o *__this,MethodInfo *method)
 
 {
-  long lVar1;
-  void *pvVar2;
-  undefined8 uVar3;
-  UnityEngine_GameObject_o *pUVar4;
-  Cameras_BaseCamera_o *pCVar5;
-  Cameras_InGameCamera_o *pCVar6;
-  Il2CppClass *__this_00;
-  Il2CppObject *__this_01;
-  int iVar7;
-  int iVar8;
-  undefined4 uVar9;
-  System_String_o *pSVar10;
-  Il2CppClass *__this_02;
-  Il2CppClass *pIVar11;
-  Il2CppObject *__this_03;
-  undefined4 in_XMM1_Da;
-  undefined4 uVar12;
+  System_String_o *path;
+  UnityEngine_GameObject_o *pUVar1;
+  Cameras_BaseCamera_o *pCVar2;
+  Cameras_InGameCamera_o *value;
   
-  if (g_data_057ae00d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_InGameCamera_GetComponent_InGameCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCamera_AddComponent_BaseCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"Prefabs/Snapshot/SnapshotCamera");
-    g_data_057ae00d = '\x01';
+  if (Il2CppMethodInitialized_184346eae == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_InGameCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_BaseCamera);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/Snapshot/SnapshotCamera");
+    Il2CppMethodInitialized_184346eae = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  __this_02 = (Il2CppClass *)**(undefined8 **)(TypeInfo_ResourcePaths + 0xb8);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  path = TypeInfo_Utility_ResourcePaths->static_fields->UI;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pSVar10 = "Prefabs/Snapshot/SnapshotCamera";
-  pUVar4 = (UnityEngine_GameObject_o *)
-           ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                     ((System_String_o *)__this_02,"Prefabs/Snapshot/SnapshotCamera",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
-  iVar7 = (int)pSVar10;
-  if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-    pCVar5 = (Cameras_BaseCamera_o *)UnityEngine_GameObject__AddComponent_object_(pUVar4,MethodInfo_BaseCamera_AddComponent_BaseCamera);
-    (__this->fields).SnapshotCamera = pCVar5;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).SnapshotCamera,pCVar5);
-    pCVar6 = (Cameras_InGameCamera_o *)
-             UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_InGameCamera_GetComponent_InGameCamera);
-    (__this->fields).InGameCamera = pCVar6;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).InGameCamera);
-    iVar7 = (int)pCVar6;
-    __this_02 = (Il2CppClass *)(__this->fields).SnapshotCamera;
-    if (__this_02 != (Il2CppClass *)0x0) {
-      iVar7 = 0;
-      pUVar4 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_02,(MethodInfo *)0x0);
-      if (pUVar4 != (UnityEngine_GameObject_o *)0x0) {
-        UnityEngine_GameObject__SetActive(pUVar4,0,(MethodInfo *)0x0);
+  pUVar1 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                     (path,"Prefabs/Snapshot/SnapshotCamera",false,
+                      (MethodInfo_795F00 *)
+                      MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+  if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
+    pCVar2 = UnityEngine_GameObject__AddComponent_object_
+                       (pUVar1,(MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_BaseCamera)
+    ;
+    (__this->fields).SnapshotCamera = pCVar2;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).SnapshotCamera,pCVar2);
+    value = UnityEngine_Component__GetComponent_object_
+                      ((UnityEngine_Component_o *)__this,
+                       (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_InGameCamera);
+    (__this->fields).InGameCamera = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).InGameCamera,value);
+    pCVar2 = (__this->fields).SnapshotCamera;
+    if (pCVar2 != (Cameras_BaseCamera_o *)0x0) {
+      pUVar1 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pCVar2,(MethodInfo *)0x0);
+      if (pUVar1 != (UnityEngine_GameObject_o *)0x0) {
+        UnityEngine_GameObject__SetActive(pUVar1,false,(MethodInfo *)0x0);
         return;
       }
     }
   }
-  uVar3 = il2cpp_runtime_helper_022b2c90();
-  pIVar11 = __this_02;
-  uVar12 = in_XMM1_Da;
-  iVar8 = iVar7;
-  if (g_data_057ae00e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    pIVar11 = (Il2CppClass *)&MethodInfo_Int32_get_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae00e = '\x01';
-  }
-  lVar1 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x20);
-  if ((lVar1 != 0) && (lVar1 = *(long *)(lVar1 + 0x68), lVar1 != 0)) {
-    if (iVar7 < *(int *)(lVar1 + 0x14)) {
-      return;
-    }
-    if (g_data_057ae00f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_TakeSnapshotCoroutine_d__4);
-      g_data_057ae00f = '\x01';
-    }
-    __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_TakeSnapshotCoroutine_d__4);
-    iVar8 = 0;
-    pIVar11 = __this_00;
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    *(undefined4 *)&(__this_00->_1).name = 0;
-    if (__this_00 != (Il2CppClass *)0x0) {
-      (__this_00->_1).byval_arg.data = __this_02;
-      il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this_02);
-      *(undefined8 *)&(__this_00->_1).byval_arg.bits = uVar3;
-      *(undefined4 *)&(__this_00->_1).this_arg.data = in_XMM1_Da;
-      *(int *)((long)&(__this_00->_1).this_arg.data + 4) = iVar7;
-      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                ((UnityEngine_MonoBehaviour_o *)__this_02,(System_Collections_IEnumerator_o *)__this_00,
-                 (MethodInfo *)0x0);
-      return;
-    }
-  }
-  pvVar2 = (void *)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae00f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TakeSnapshotCoroutine_d__4);
-    g_data_057ae00f = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_TakeSnapshotCoroutine_d__4);
-  uVar9 = 0;
-  __this_03 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = pIVar11;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar11);
-    __this_01[2].monitor = pvVar2;
-    *(undefined4 *)&__this_01[3].klass = uVar12;
-    *(int *)((long)&__this_01[3].klass + 4) = iVar8;
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_03,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_03[1].klass = uVar9;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.SnapshotHandler$$TakeSnapshot
 // il2cpp: void UI_SnapshotHandler__TakeSnapshot (UI_SnapshotHandler_o* __this, UnityEngine_Vector3_o position, int32_t damage, const MethodInfo* method);
-// 0x4323660
+// 0x1821cbfc0
 
 void UI_SnapshotHandler__TakeSnapshot
-               (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o position,int32_t damage,MethodInfo *method)
+               (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o *position,int32_t damage,MethodInfo *method
+               )
 
 {
-  long lVar1;
-  void *pvVar2;
-  Il2CppClass *__this_00;
-  Il2CppObject *__this_01;
-  int32_t iVar3;
-  undefined4 uVar4;
-  Il2CppClass *pIVar5;
-  Il2CppObject *__this_02;
-  float fVar6;
-  float fVar7;
+  float fVar1;
+  Settings_GeneralSettings_o *pSVar2;
+  Settings_IntSetting_o *pSVar3;
+  float fVar4;
+  UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *routine;
   
-  fVar6 = position.fields.z;
-  pIVar5 = (Il2CppClass *)__this;
-  fVar7 = fVar6;
-  iVar3 = damage;
-  if (g_data_057ae00e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    pIVar5 = (Il2CppClass *)&MethodInfo_Int32_get_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae00e = '\x01';
+  if (Il2CppMethodInitialized_184346eaf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    Il2CppMethodInitialized_184346eaf = '\x01';
   }
-  lVar1 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x20);
-  if ((lVar1 != 0) && (lVar1 = *(long *)(lVar1 + 0x68), lVar1 != 0)) {
-    if (damage < *(int *)(lVar1 + 0x14)) {
-      return;
-    }
-    if (g_data_057ae00f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_TakeSnapshotCoroutine_d__4);
-      g_data_057ae00f = '\x01';
-    }
-    __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_TakeSnapshotCoroutine_d__4);
-    iVar3 = 0;
-    pIVar5 = __this_00;
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    *(undefined4 *)&(__this_00->_1).name = 0;
-    if (__this_00 != (Il2CppClass *)0x0) {
-      (__this_00->_1).byval_arg.data = __this;
-      il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,__this);
-      *(long *)&(__this_00->_1).byval_arg.bits = position.fields._0_8_;
-      *(float *)&(__this_00->_1).this_arg.data = fVar6;
-      *(int32_t *)((long)&(__this_00->_1).this_arg.data + 4) = damage;
-      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)__this_00,
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->GeneralSettings;
+  if ((pSVar2 != (Settings_GeneralSettings_o *)0x0) &&
+     (pSVar3 = (pSVar2->fields).SnapshotsMinimumDamage, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+    if ((pSVar3->fields)._value <= damage) {
+      if (Il2CppMethodInitialized_184346eb0 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_SnapshotHandler_TakeSnapshotCoroutine_d__4);
+        Il2CppMethodInitialized_184346eb0 = '\x01';
+      }
+      routine = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_UI_SnapshotHandler_TakeSnapshotCoroutine_d__4);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+      (routine->fields).__1__state = 0;
+      (routine->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+      fVar4 = (position->fields).y;
+      fVar1 = (position->fields).z;
+      (routine->fields).position.fields.x = (position->fields).x;
+      (routine->fields).position.fields.y = fVar4;
+      (routine->fields).position.fields.z = fVar1;
+      (routine->fields).damage = damage;
+      UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
                  (MethodInfo *)0x0);
-      return;
     }
-  }
-  pvVar2 = (void *)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae00f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TakeSnapshotCoroutine_d__4);
-    g_data_057ae00f = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_TakeSnapshotCoroutine_d__4);
-  uVar4 = 0;
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = pIVar5;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pIVar5);
-    __this_01[2].monitor = pvVar2;
-    *(float *)&__this_01[3].klass = fVar7;
-    *(int32_t *)((long)&__this_01[3].klass + 4) = iVar3;
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_02[1].klass = uVar4;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.SnapshotHandler$$TakeSnapshotCoroutine
 // il2cpp: System_Collections_IEnumerator_o* UI_SnapshotHandler__TakeSnapshotCoroutine (UI_SnapshotHandler_o* __this, UnityEngine_Vector3_o position, int32_t damage, const MethodInfo* method);
-// 0x4323770
+// 0x1821cbf40
 
 System_Collections_IEnumerator_o *
 UI_SnapshotHandler__TakeSnapshotCoroutine
-          (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o position,int32_t damage,MethodInfo *method)
+          (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o *position,int32_t damage,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
-  System_Collections_IEnumerator_o *extraout_RAX;
-  undefined4 uVar1;
-  Il2CppObject *__this_01;
+  float fVar1;
+  float fVar2;
+  UI_SnapshotHandler__TakeSnapshotCoroutine_d__4_o *__this_00;
   
-  if (g_data_057ae00f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TakeSnapshotCoroutine_d__4);
-    g_data_057ae00f = '\x01';
+  if (Il2CppMethodInitialized_184346eb0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_SnapshotHandler_TakeSnapshotCoroutine_d__4);
+    Il2CppMethodInitialized_184346eb0 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_TakeSnapshotCoroutine_d__4);
-  uVar1 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)__this;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,__this);
-    __this_00[2].monitor = position.fields._0_8_;
-    *(float *)&__this_00[3].klass = position.fields.z;
-    *(int32_t *)((long)&__this_00[3].klass + 4) = damage;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar1;
-  return extraout_RAX;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_SnapshotHandler_TakeSnapshotCoroutine_d__4)
+  ;
+  System_Configuration_ConfigurationCollectionAttribute___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  fVar2 = (position->fields).y;
+  fVar1 = (position->fields).z;
+  (__this_00->fields).position.fields.x = (position->fields).x;
+  (__this_00->fields).position.fields.y = fVar2;
+  (__this_00->fields).position.fields.z = fVar1;
+  (__this_00->fields).damage = damage;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.SnapshotHandler$$SetSnapshotPosition
 // il2cpp: void UI_SnapshotHandler__SetSnapshotPosition (UI_SnapshotHandler_o* __this, UnityEngine_Vector3_o position, const MethodInfo* method);
-// 0x4323830
+// 0x1821cbd40
 
 void UI_SnapshotHandler__SetSnapshotPosition
-               (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o position,MethodInfo *method)
+               (UI_SnapshotHandler_o *__this,UnityEngine_Vector3_o *position,MethodInfo *method)
 
 {
-  Cameras_BaseCamera_o *pCVar1;
-  Utility_BaseComponentCache_o *pUVar2;
-  Cameras_InGameCamera_o *pCVar3;
-  UnityEngine_Skybox_o *__this_00;
-  char cVar4;
-  int32_t width;
-  int32_t height;
-  int iVar5;
-  int iVar6;
-  int iVar7;
-  int iVar8;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  Cameras_BaseCamera_o *pCVar5;
+  Utility_BaseComponentCache_o *pUVar6;
+  Cameras_InGameCamera_o *pCVar7;
+  UnityEngine_Camera_o *__this_00;
   UnityEngine_Transform_o *__this_01;
+  UnityEngine_Vector3_StaticFields *pUVar8;
+  UnityEngine_Skybox_o *__this_02;
+  UnityEngine_Skybox_o *__this_03;
+  UnityEngine_Transform_o *__this_04;
+  UnityEngine_Vector3_o *pUVar9;
   UnityEngine_Material_o *value;
-  UnityEngine_RenderTexture_o *value_00;
-  UnityEngine_RenderTexture_o *pUVar9;
-  UnityEngine_Texture2D_o *pUVar10;
-  undefined8 uVar11;
-  undefined8 *puVar12;
-  long *plVar13;
-  UI_SnapshotHandler_o *__this_02;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  float fVar13;
   float fVar14;
-  float in_XMM0_Dc;
-  float extraout_XMM0_Dc;
-  undefined4 uVar15;
-  undefined4 extraout_XMM0_Dc_00;
-  float in_XMM0_Dd;
-  float extraout_XMM0_Dd;
-  undefined4 uVar16;
-  undefined4 extraout_XMM0_Dd_00;
-  float fVar17;
-  float fVar18;
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [12];
-  UnityEngine_Color_o color;
-  UnityEngine_Rect_o source;
-  UnityEngine_Color_o color_00;
-  UnityEngine_Vector3_o UVar21;
-  undefined1 local_38 [8];
-  float fStack_30;
-  float fStack_2c;
-  float local_28;
-  float fStack_24;
+  UnityEngine_Vector3_Fields local_58 [6];
   
-  pCVar1 = (__this->fields).SnapshotCamera;
-  plVar13 = (long *)__this;
-  if ((((pCVar1 != (Cameras_BaseCamera_o *)0x0) &&
-       (pUVar2 = (pCVar1->fields).Cache, pUVar2 != (Utility_BaseComponentCache_o *)0x0)) &&
-      (pCVar3 = (__this->fields).InGameCamera, pCVar3 != (Cameras_InGameCamera_o *)0x0)) &&
-     (plVar13 = (long *)(pCVar3->fields).Camera,
-     (UI_SnapshotHandler_o *)plVar13 != (UI_SnapshotHandler_o *)0x0)) {
-    __this_02 = (UI_SnapshotHandler_o *)(pUVar2->fields).Transform;
-    __this_01 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)plVar13,(MethodInfo *)0x0);
-    if (__this_01 != (UnityEngine_Transform_o *)0x0) {
-      UVar21 = UnityEngine_Transform__get_position(__this_01,(MethodInfo *)0x0);
-      if (g_data_057a6841 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        g_data_057a6841 = '\x01';
+  pCVar5 = (__this->fields).SnapshotCamera;
+  if ((((pCVar5 != (Cameras_BaseCamera_o *)0x0) &&
+       (pUVar6 = (pCVar5->fields).Cache, pUVar6 != (Utility_BaseComponentCache_o *)0x0)) &&
+      (pCVar7 = (__this->fields).InGameCamera, pCVar7 != (Cameras_InGameCamera_o *)0x0)) &&
+     (__this_00 = (pCVar7->fields).Camera, __this_00 != (UnityEngine_Camera_o *)0x0)) {
+    __this_01 = (pUVar6->fields).Transform;
+    __this_04 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    if (__this_04 != (UnityEngine_Transform_o *)0x0) {
+      pUVar9 = UnityEngine_Transform__get_position
+                         ((UnityEngine_Vector3_o *)local_58,__this_04,(MethodInfo *)0x0);
+      uVar1 = (position->fields).x;
+      uVar3 = (position->fields).y;
+      uVar2 = (pUVar9->fields).x;
+      uVar4 = (pUVar9->fields).y;
+      fVar13 = (pUVar9->fields).z - (position->fields).z;
+      local_58[0].y = (float)uVar4 - (float)uVar3;
+      local_58[0].x = (float)uVar2 - (float)uVar1;
+      local_58[0].z = fVar13;
+      fVar10 = (float)il2cpp_runtime_helper_180546a40(local_58,0);
+      if (Il2CppMethodInitialized_18433de5f == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+        Il2CppMethodInitialized_18433de5f = '\x01';
       }
-      local_28 = position.fields.x;
-      fStack_24 = position.fields.y;
-      local_38._0_4_ = UVar21.fields.x - local_28;
-      local_38._4_4_ = UVar21.fields.y - fStack_24;
-      fVar17 = UVar21.fields.z - position.fields.z;
-      fStack_30 = extraout_XMM0_Dc - in_XMM0_Dc;
-      fStack_2c = extraout_XMM0_Dd - in_XMM0_Dd;
-      if (*(int *)((long)&TypeInfo_Math[4].fields.SnapshotCamera + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      fVar18 = fVar17 * fVar17 +
-               (float)local_38._4_4_ * (float)local_38._4_4_ + (float)local_38._0_4_ * (float)local_38._0_4_;
-      if (fVar18 < 0.0) {
-        fVar14 = sqrtf(fVar18);
-      }
-      else {
-        fVar14 = SQRT(fVar18);
-      }
-      if (g_data_057a6845 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-        g_data_057a6845 = '\x01';
-      }
-      plVar13 = (long *)TypeInfo_Math;
-      if (*(int *)((long)&TypeInfo_Math[4].fields.SnapshotCamera + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        if (0.0 <= fVar18) goto label_04323986;
-label_043239f3:
-        fVar18 = sqrtf(fVar18);
-        uVar15 = extraout_XMM0_Dc_00;
-        uVar16 = extraout_XMM0_Dd_00;
-        if (fVar18 <= 1e-05) goto label_043239a0;
-label_04323a0e:
-        fVar17 = fVar17 / fVar18;
-        auVar19._4_4_ = fVar18;
-        auVar19._0_4_ = fVar18;
-        auVar19._8_4_ = uVar15;
-        auVar19._12_4_ = uVar16;
-        auVar19 = divps(_local_38,auVar19);
-        uVar11 = auVar19._0_8_;
+      fVar11 = (float)il2cpp_runtime_helper_180546a40(local_58,0);
+      if (fVar11 <= 1e-05) {
+        pUVar8 = TypeInfo_UnityEngine_Vector3->static_fields;
+        fVar12 = (pUVar8->zeroVector).fields.x;
+        fVar14 = (pUVar8->zeroVector).fields.y;
+        fVar13 = (pUVar8->zeroVector).fields.z;
       }
       else {
-        if (fVar18 < 0.0) goto label_043239f3;
-label_04323986:
-        uVar15 = 0;
-        uVar16 = 0;
-        fVar18 = SQRT(fVar18);
-        if (1e-05 < fVar18) goto label_04323a0e;
-label_043239a0:
-        if (g_data_057a65d5 == '\0') {
-          plVar13 = &TypeInfo_Vector3;
-          il2cpp_runtime_helper_023445d0();
-          g_data_057a65d5 = '\x01';
-        }
-        uVar11 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-        fVar17 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
+        fVar12 = ((float)uVar2 - (float)uVar1) / fVar11;
+        fVar14 = ((float)uVar4 - (float)uVar3) / fVar11;
+        fVar13 = fVar13 / fVar11;
       }
-      if (__this_02 != (UI_SnapshotHandler_o *)0x0) {
-        fVar18 = 20.0;
-        if (20.0 <= fVar14) {
-          fVar18 = fVar14;
+      if (__this_01 != (UnityEngine_Transform_o *)0x0) {
+        fVar11 = 20.0;
+        if (20.0 <= fVar10) {
+          fVar11 = fVar10;
         }
-        UVar21.fields.x = fVar18 * (float)uVar11 + local_28;
-        UVar21.fields.y = fVar18 * (float)((ulong)uVar11 >> 0x20) + fStack_24;
-        UVar21.fields.z = fVar18 * fVar17 + position.fields.z;
-        UnityEngine_Transform__set_position((UnityEngine_Transform_o *)__this_02,UVar21,(MethodInfo *)0x0);
-        UnityEngine_Transform__LookAt_4e0aa40((UnityEngine_Transform_o *)__this_02,position,(MethodInfo *)0x0)
-        ;
-        pCVar1 = (__this->fields).SnapshotCamera;
-        plVar13 = (long *)__this_02;
-        if (((pCVar1 != (Cameras_BaseCamera_o *)0x0) &&
-            (pCVar3 = (__this->fields).InGameCamera, pCVar3 != (Cameras_InGameCamera_o *)0x0)) &&
-           (plVar13 = (long *)(pCVar3->fields).Skybox,
-           (UI_SnapshotHandler_o *)plVar13 != (UI_SnapshotHandler_o *)0x0)) {
-          __this_00 = (pCVar1->fields).Skybox;
-          value = UnityEngine_Skybox__get_material((UnityEngine_Skybox_o *)plVar13,(MethodInfo *)0x0);
-          if (__this_00 != (UnityEngine_Skybox_o *)0x0) {
-            UnityEngine_Skybox__set_material(__this_00,value,(MethodInfo *)0x0);
+        local_58[0].z = fVar13 * fVar11 + (position->fields).z;
+        local_58[0].y = fVar14 * fVar11 + (position->fields).y;
+        local_58[0].x = fVar12 * fVar11 + (position->fields).x;
+        UnityEngine_Transform__set_position(__this_01,(UnityEngine_Vector3_o *)local_58,(MethodInfo *)0x0);
+        local_58[0].x = (position->fields).x;
+        local_58[0].y = (position->fields).y;
+        local_58[0].z = (position->fields).z;
+        UnityEngine_Transform__LookAt_2f599f0(__this_01,(UnityEngine_Vector3_o *)local_58,(MethodInfo *)0x0);
+        pCVar5 = (__this->fields).SnapshotCamera;
+        if (((pCVar5 != (Cameras_BaseCamera_o *)0x0) &&
+            (pCVar7 = (__this->fields).InGameCamera, pCVar7 != (Cameras_InGameCamera_o *)0x0)) &&
+           (__this_02 = (pCVar7->fields).Skybox, __this_02 != (UnityEngine_Skybox_o *)0x0)) {
+          __this_03 = (pCVar5->fields).Skybox;
+          value = UnityEngine_Skybox__get_material(__this_02,(MethodInfo *)0x0);
+          if (__this_03 != (UnityEngine_Skybox_o *)0x0) {
+            UnityEngine_Skybox__set_material(__this_03,value,(MethodInfo *)0x0);
             return;
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae010 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae010 = '\x01';
-  }
-  pCVar1 = (((UI_SnapshotHandler_o *)plVar13)->fields).SnapshotCamera;
-  if (pCVar1 != (Cameras_BaseCamera_o *)0x0) {
-    plVar13 = (long *)(pCVar1->fields).Camera;
-    value_00 = UnityEngine_RenderTexture__get_active((MethodInfo *)0x0);
-    if ((UI_SnapshotHandler_o *)plVar13 != (UI_SnapshotHandler_o *)0x0) {
-      pUVar9 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-      UnityEngine_RenderTexture__set_active(pUVar9,(MethodInfo *)0x0);
-      UnityEngine_Camera__Render((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-      pUVar9 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-      if (pUVar9 != (UnityEngine_RenderTexture_o *)0x0) {
-        width = (*(pUVar9->klass->vtable)._5_get_width.methodPtr)(pUVar9);
-        pUVar9 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-        if (pUVar9 != (UnityEngine_RenderTexture_o *)0x0) {
-          height = (*(pUVar9->klass->vtable)._7_get_height.methodPtr)
-                             (pUVar9,(pUVar9->klass->vtable)._7_get_height.method);
-          pUVar10 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-          UnityEngine_Texture2D___ctor_4dd9130(pUVar10,width,height,3,0,(MethodInfo *)0x0);
-          pUVar9 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-          if (pUVar9 != (UnityEngine_RenderTexture_o *)0x0) {
-            iVar5 = (*(pUVar9->klass->vtable)._5_get_width.methodPtr)(pUVar9);
-            pUVar9 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-            if (pUVar9 != (UnityEngine_RenderTexture_o *)0x0) {
-              iVar6 = (*(pUVar9->klass->vtable)._5_get_width.methodPtr)(pUVar9);
-              if (pUVar10 == (UnityEngine_Texture2D_o *)0x0) {
-                il2cpp_runtime_helper_022b2c90();
-label_04323cca:
-                il2cpp_runtime_helper_022b2c90();
-              }
-              else {
-                color.fields.b = 1.0;
-                color.fields.a = 1.0;
-                color.fields.r = 1.0;
-                color.fields.g = 1.0;
-                UnityEngine_Texture2D__SetPixel(pUVar10,0,0,color,(MethodInfo *)0x0);
-                pUVar9 = UnityEngine_Camera__get_targetTexture
-                                   ((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-                if (pUVar9 == (UnityEngine_RenderTexture_o *)0x0) goto label_04323cca;
-                iVar7 = (*(pUVar9->klass->vtable)._5_get_width.methodPtr)(pUVar9);
-                pUVar9 = UnityEngine_Camera__get_targetTexture
-                                   ((UnityEngine_Camera_o *)plVar13,(MethodInfo *)0x0);
-                if (pUVar9 != (UnityEngine_RenderTexture_o *)0x0) {
-                  iVar8 = (*(pUVar9->klass->vtable)._7_get_height.methodPtr)
-                                    (pUVar9,(pUVar9->klass->vtable)._7_get_height.method);
-                  iVar5 = (int)((float)iVar5 * 0.04);
-                  source.fields.m_XMin = (float)iVar5;
-                  source.fields.m_Width = (float)(iVar7 - iVar5);
-                  source.fields.m_Height = (float)(iVar8 - iVar5);
-                  source.fields.m_YMin = source.fields.m_XMin;
-                  UnityEngine_Texture2D__ReadPixels_4dd9b70
-                            (pUVar10,source,(int)((float)iVar6 * 0.02),(int)((float)iVar6 * 0.02),
-                             (MethodInfo *)0x0);
-                  UnityEngine_RenderTexture__set_active(value_00,(MethodInfo *)0x0);
-                  return;
-                }
-              }
-              auVar20 = il2cpp_runtime_helper_022b2c90();
-              if (auVar20._8_4_ != 1) {
-                _Unwind_Resume(auVar20._0_8_);
-              }
-              plVar13 = (long *)__cxa_begin_catch(auVar20._0_8_);
-              cVar4 = il2cpp_runtime_helper_0233e000(g_data_057b9b80,
-                                         (((UnityEngine_Transform_c *)((UI_SnapshotHandler_o *)plVar13)->klass
-                                          )->_1).image);
-              if (cVar4 == '\0') goto label_04323daa;
-              __cxa_end_catch();
-              uVar11 = il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-              pUVar10 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(uVar11);
-              UnityEngine_Texture2D___ctor_4dd91d0(pUVar10,1,1,(MethodInfo *)0x0);
-              if (pUVar10 != (UnityEngine_Texture2D_o *)0x0) {
-                color_00.fields.b = 1.0;
-                color_00.fields.a = 1.0;
-                color_00.fields.r = 1.0;
-                color_00.fields.g = 1.0;
-                UnityEngine_Texture2D__SetPixel(pUVar10,0,0,color_00,(MethodInfo *)0x0);
-                return;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_04323daa:
-  puVar12 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar12 = (UnityEngine_Transform_c *)((UI_SnapshotHandler_o *)plVar13)->klass;
-  __cxa_throw(puVar12,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // UI.SnapshotHandler$$RTImage
 // il2cpp: UnityEngine_Texture2D_o* UI_SnapshotHandler__RTImage (UI_SnapshotHandler_o* __this, const MethodInfo* method);
-// 0x4323ab0
+// 0x1821cba60
+// eh: try 0x1821cbbce..0x1821cbd3b -> pad 0x1833318f0 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// asm: 45 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821cbcc8: lea rcx, [rip + 0x1eb2891]  ; TypeInfo_UnityEngine_Texture2D
+// asm:   0x1821cbccf: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1821cbcd4: mov rcx, rax
+// asm:   0x1821cbcd7: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x1821cbcdc: mov rbx, rax
+// asm:   0x1821cbcdf: xor r9d, r9d
+// asm:   0x1821cbce2: mov edx, 1
+// asm:   0x1821cbce7: mov r8d, edx
+// asm:   0x1821cbcea: mov rcx, rax
+// asm:   0x1821cbced: call 0x182efbf30  ; UnityEngine_Texture2D___ctor()
+// asm:   0x1821cbcf2: test rbx, rbx
+// asm:   0x1821cbcf5: je 0x1821cbd24
+// asm:   0x1821cbcf7: movdqa xmm0, xmmword ptr [rip + 0x118dbd1]
+// asm:   0x1821cbcff: movaps xmmword ptr [rsp + 0x40], xmm0
+// asm:   0x1821cbd04: mov qword ptr [rsp + 0x20], 0
+// asm:   0x1821cbd0d: lea r9, [rsp + 0x40]
+// asm:   0x1821cbd12: xor r8d, r8d
+// asm:   0x1821cbd15: xor edx, edx
+// asm:   0x1821cbd17: mov rcx, rbx
+// asm:   0x1821cbd1a: call 0x182efb610  ; UnityEngine_Texture2D__SetPixel()
+// asm:   0x1821cbd1f: mov rax, rbx
+// asm:   0x1821cbd22: jmp 0x1821cbcb5
+// asm:   0x1833318f0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833318f5: push rbx
+// asm:   0x1833318f6: push rbp
+// asm:   0x1833318f7: sub rsp, 0x38
+// asm:   0x1833318fb: mov rbp, rdx
+// asm:   0x1833318fe: mov rbx, qword ptr [rbp + 0x38]
+// asm:   0x183331902: mov rdx, qword ptr [rbx]
+// asm:   0x183331905: mov rdx, qword ptr [rdx]
+// asm:   0x183331908: mov rcx, qword ptr [rip + 0x10234c1]
+// asm:   0x18333190f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183331914: test al, al
+// asm:   0x183331916: je 0x183331924
+// asm:   0x183331918: movabs rax, 0
+// asm:   0x183331922: jmp 0x18333193c
+// asm:   0x183331924: mov rax, qword ptr [rbx]
+// asm:   0x183331927: mov qword ptr [rbp + 0x30], rax
+// asm:   0x18333192b: lea rdx, [rip + 0xcaa656]
+// asm:   0x183331932: lea rcx, [rbp + 0x30]
+// asm:   0x183331936: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x18333193c: add rsp, 0x38
+// asm:   0x183331940: pop rbp
+// asm:   0x183331941: pop rbx
+// asm:   0x183331942: ret 
 
 UnityEngine_Texture2D_o * UI_SnapshotHandler__RTImage(UI_SnapshotHandler_o *__this,MethodInfo *method)
 
 {
   Cameras_BaseCamera_o *pCVar1;
-  char cVar2;
-  int32_t width;
-  int32_t height;
-  int iVar3;
-  int iVar4;
-  int iVar5;
-  int iVar6;
+  UnityEngine_Camera_o *__this_00;
+  int32_t iVar2;
+  int32_t iVar3;
+  int32_t iVar4;
   UnityEngine_RenderTexture_o *value;
-  UnityEngine_RenderTexture_o *pUVar7;
-  UnityEngine_Texture2D_o *pUVar8;
-  undefined8 uVar9;
-  undefined8 *puVar10;
-  undefined1 auVar11 [12];
-  UnityEngine_Color_o color;
-  UnityEngine_Rect_o source;
-  UnityEngine_Color_o color_00;
+  UnityEngine_RenderTexture_o *pUVar5;
+  UnityEngine_Texture2D_o *__this_01;
+  int iVar6;
+  UnityEngine_Rect_Fields local_58 [2];
   
-  if (g_data_057ae010 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae010 = '\x01';
+  if (Il2CppMethodInitialized_184346eb1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Texture2D);
+    Il2CppMethodInitialized_184346eb1 = '\x01';
   }
   pCVar1 = (__this->fields).SnapshotCamera;
   if (pCVar1 != (Cameras_BaseCamera_o *)0x0) {
-    __this = (UI_SnapshotHandler_o *)(pCVar1->fields).Camera;
+    __this_00 = (pCVar1->fields).Camera;
     value = UnityEngine_RenderTexture__get_active((MethodInfo *)0x0);
-    if (__this != (UI_SnapshotHandler_o *)0x0) {
-      pUVar7 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-      UnityEngine_RenderTexture__set_active(pUVar7,(MethodInfo *)0x0);
-      UnityEngine_Camera__Render((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-      pUVar7 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-      if (pUVar7 != (UnityEngine_RenderTexture_o *)0x0) {
-        width = (*(pUVar7->klass->vtable)._5_get_width.methodPtr)(pUVar7);
-        pUVar7 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-        if (pUVar7 != (UnityEngine_RenderTexture_o *)0x0) {
-          height = (*(pUVar7->klass->vtable)._7_get_height.methodPtr)
-                             (pUVar7,(pUVar7->klass->vtable)._7_get_height.method);
-          pUVar8 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Texture2D);
-          UnityEngine_Texture2D___ctor_4dd9130(pUVar8,width,height,3,0,(MethodInfo *)0x0);
-          pUVar7 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-          if (pUVar7 != (UnityEngine_RenderTexture_o *)0x0) {
-            iVar3 = (*(pUVar7->klass->vtable)._5_get_width.methodPtr)(pUVar7);
-            pUVar7 = UnityEngine_Camera__get_targetTexture((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-            if (pUVar7 != (UnityEngine_RenderTexture_o *)0x0) {
-              iVar4 = (*(pUVar7->klass->vtable)._5_get_width.methodPtr)(pUVar7);
-              if (pUVar8 == (UnityEngine_Texture2D_o *)0x0) {
-                il2cpp_runtime_helper_022b2c90();
-label_04323cca:
-                il2cpp_runtime_helper_022b2c90();
+    if (__this_00 != (UnityEngine_Camera_o *)0x0) {
+      pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+      UnityEngine_RenderTexture__set_active(pUVar5,(MethodInfo *)0x0);
+      UnityEngine_Camera__Render(__this_00,(MethodInfo *)0x0);
+      pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+      if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+        iVar2 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)
+                          (pUVar5,(pUVar5->klass->vtable)._5_get_width.method);
+        pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+        if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+          iVar3 = (*(pUVar5->klass->vtable)._7_get_height.methodPtr)
+                            (pUVar5,(pUVar5->klass->vtable)._7_get_height.method);
+          __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Texture2D);
+          UnityEngine_Texture2D___ctor_2efc630(__this_01,iVar2,iVar3,3,false,(MethodInfo *)0x0);
+          pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+          if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+            iVar2 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)
+                              (pUVar5,(pUVar5->klass->vtable)._5_get_width.method);
+            pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+            if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+              iVar6 = (int)((float)iVar2 * 0.04);
+              iVar2 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)
+                                (pUVar5,(pUVar5->klass->vtable)._5_get_width.method);
+              if (__this_01 == (UnityEngine_Texture2D_o *)0x0) {
+                ThrowNullReferenceException();
               }
-              else {
-                color.fields.b = 1.0;
-                color.fields.a = 1.0;
-                color.fields.r = 1.0;
-                color.fields.g = 1.0;
-                UnityEngine_Texture2D__SetPixel(pUVar8,0,0,color,(MethodInfo *)0x0);
-                pUVar7 = UnityEngine_Camera__get_targetTexture
-                                   ((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-                if (pUVar7 == (UnityEngine_RenderTexture_o *)0x0) goto label_04323cca;
-                iVar5 = (*(pUVar7->klass->vtable)._5_get_width.methodPtr)(pUVar7);
-                pUVar7 = UnityEngine_Camera__get_targetTexture
-                                   ((UnityEngine_Camera_o *)__this,(MethodInfo *)0x0);
-                if (pUVar7 != (UnityEngine_RenderTexture_o *)0x0) {
-                  iVar6 = (*(pUVar7->klass->vtable)._7_get_height.methodPtr)
-                                    (pUVar7,(pUVar7->klass->vtable)._7_get_height.method);
-                  iVar3 = (int)((float)iVar3 * 0.04);
-                  source.fields.m_XMin = (float)iVar3;
-                  source.fields.m_Width = (float)(iVar5 - iVar3);
-                  source.fields.m_Height = (float)(iVar6 - iVar3);
-                  source.fields.m_YMin = source.fields.m_XMin;
-                  UnityEngine_Texture2D__ReadPixels_4dd9b70
-                            (pUVar8,source,(int)((float)iVar4 * 0.02),(int)((float)iVar4 * 0.02),
-                             (MethodInfo *)0x0);
+              local_58[0].m_XMin = 1.0;
+              local_58[0].m_YMin = 1.0;
+              local_58[0].m_Width = 1.0;
+              local_58[0].m_Height = 1.0;
+              UnityEngine_Texture2D__SetPixel(__this_01,0,0,(UnityEngine_Color_o *)local_58,(MethodInfo *)0x0)
+              ;
+              pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+              if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+                iVar3 = (*(pUVar5->klass->vtable)._5_get_width.methodPtr)
+                                  (pUVar5,(pUVar5->klass->vtable)._5_get_width.method);
+                pUVar5 = UnityEngine_Camera__get_targetTexture(__this_00,(MethodInfo *)0x0);
+                if (pUVar5 != (UnityEngine_RenderTexture_o *)0x0) {
+                  iVar4 = (*(pUVar5->klass->vtable)._7_get_height.methodPtr)
+                                    (pUVar5,(pUVar5->klass->vtable)._7_get_height.method);
+                  local_58[0].m_YMin = (float)iVar6;
+                  local_58[0].m_XMin = (float)iVar6;
+                  local_58[0].m_Height = (float)(iVar4 - iVar6);
+                  local_58[0].m_Width = (float)(iVar3 - iVar6);
+                  UnityEngine_Texture2D__ReadPixels_2efaf30
+                            (__this_01,(UnityEngine_Rect_o *)local_58,(int)((float)iVar2 * 0.02),
+                             (int)((float)iVar2 * 0.02),(MethodInfo *)0x0);
                   UnityEngine_RenderTexture__set_active(value,(MethodInfo *)0x0);
-                  return pUVar8;
+                  return __this_01;
                 }
+                ThrowNullReferenceException();
               }
-              auVar11 = il2cpp_runtime_helper_022b2c90();
-              if (auVar11._8_4_ != 1) {
-                _Unwind_Resume(auVar11._0_8_);
-              }
-              __this = (UI_SnapshotHandler_o *)__cxa_begin_catch(auVar11._0_8_);
-              cVar2 = il2cpp_runtime_helper_0233e000(g_data_057b9b80,(((UnityEngine_Camera_c *)__this->klass)->_1).image);
-              if (cVar2 == '\0') goto label_04323daa;
-              __cxa_end_catch();
-              uVar9 = il2cpp_runtime_helper_023445d0(&TypeInfo_Texture2D);
-              pUVar8 = (UnityEngine_Texture2D_o *)il2cpp_runtime_helper_023052d0(uVar9);
-              UnityEngine_Texture2D___ctor_4dd91d0(pUVar8,1,1,(MethodInfo *)0x0);
-              if (pUVar8 != (UnityEngine_Texture2D_o *)0x0) {
-                color_00.fields.b = 1.0;
-                color_00.fields.a = 1.0;
-                color_00.fields.r = 1.0;
-                color_00.fields.g = 1.0;
-                UnityEngine_Texture2D__SetPixel(pUVar8,0,0,color_00,(MethodInfo *)0x0);
-                return pUVar8;
-              }
+              ThrowNullReferenceException();
             }
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_04323daa:
-  puVar10 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar10 = (UnityEngine_Camera_c *)__this->klass;
-  __cxa_throw(puVar10,&PTR_PTR_05215060,0);
+  ThrowNullReferenceException();
 }
 
 
 // UI.SnapshotHandler$$.ctor
 // il2cpp: void UI_SnapshotHandler___ctor (UI_SnapshotHandler_o* __this, const MethodInfo* method);
-// 0x4323df0
+// 0x180528540
 
-void UI_SnapshotHandler___ctor(UI_SnapshotHandler_o *__this,MethodInfo *method)
+void
+UI_SnapshotHandler___ctor(UI_SnapshotHandler_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

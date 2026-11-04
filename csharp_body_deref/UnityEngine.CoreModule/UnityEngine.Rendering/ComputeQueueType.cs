@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C3")]
+[Token(Token = "0x200033E")]
 public enum ComputeQueueType
 {
-	[Token(Token = "0x40007E4")]
+	[Token(Token = "0x400092F")]
 	Default,
-	[Token(Token = "0x40007E5")]
+	[Token(Token = "0x4000930")]
 	Background,
-	[Token(Token = "0x40007E6")]
+	[Token(Token = "0x4000931")]
 	Urgent
 }

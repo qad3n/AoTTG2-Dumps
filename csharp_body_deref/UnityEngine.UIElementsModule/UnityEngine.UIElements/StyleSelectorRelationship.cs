@@ -6,16 +6,18 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003D6")]
+[Token(Token = "0x2000480")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal enum StyleSelectorRelationship
 {
-	[Token(Token = "0x4000B71")]
+	[Token(Token = "0x4000ED4")]
 	None,
-	[Token(Token = "0x4000B72")]
+	[Token(Token = "0x4000ED5")]
 	Child,
-	[Token(Token = "0x4000B73")]
+	[Token(Token = "0x4000ED6")]
 	Descendent
 }

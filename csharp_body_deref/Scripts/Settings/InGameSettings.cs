@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000093")]
+[Token(Token = "0x20000B0")]
 internal class InGameSettings : PresetSettingsContainer
 {
-	[Token(Token = "0x400034E")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x40003C3")]
+	[FieldOffset(Offset = "0x38")]
 	public SetSettingsContainer<InGameSet> InGameSets;
 
-	[Token(Token = "0x400034F")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x40003C4")]
+	[FieldOffset(Offset = "0x40")]
 	public InGameCharacterSettings LastCharacter;
 
-	[Token(Token = "0x1700008C")]
+	[Token(Token = "0x17000097")]
 	protected override string FileName
 	{
-		[Token(Token = "0x6000331")]
-		[Address(RVA = "0x3F8C410", Offset = "0x3F8C410", VA = "0x3F8C410", Slot = "14")]
+		[Token(Token = "0x60003B3")]
+		[Address(RVA = "0x1F1BDB0", Offset = "0x1F1A3B0", VA = "0x181F1BDB0", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000332")]
-	[Address(RVA = "0x3F8C440", Offset = "0x3F8C440", VA = "0x3F8C440")]
+	[Token(Token = "0x60003B4")]
+	[Address(RVA = "0x1F1BD00", Offset = "0x1F1A300", VA = "0x181F1BD00")]
 	public InGameSettings()
 	{
 	}

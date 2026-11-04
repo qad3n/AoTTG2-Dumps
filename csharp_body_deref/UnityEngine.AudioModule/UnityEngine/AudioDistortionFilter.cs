@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x2000010")]
 [RequireComponent(typeof(AudioBehaviour))]
 public sealed class AudioDistortionFilter : Behaviour
 {

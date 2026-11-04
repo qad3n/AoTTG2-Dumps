@@ -28,8 +28,8 @@ internal sealed class TryFaultHandler
 	[FieldOffset(Offset = "0x1C")]
 	internal readonly int FinallyEndIndex;
 
-	[Token(Token = "0x600086D")]
-	[Address(RVA = "0x44DF1F0", Offset = "0x44DF1F0", VA = "0x44DF1F0")]
+	[Token(Token = "0x600086C")]
+	[Address(RVA = "0x2332760", Offset = "0x2330D60", VA = "0x182332760")]
 	internal TryFaultHandler(int tryStart, int tryEnd, int finallyStart, int finallyEnd)
 	{
 	}

@@ -11,9 +11,9 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007CC")]
+[Token(Token = "0x2000959")]
 public interface IAottgApiTransport
 {
-	[Token(Token = "0x6004AA2")]
+	[Token(Token = "0x600571B")]
 	UniTask<AottgApiTransportResponse> SendAsync(AottgApiTransportRequest request, CancellationToken cancellationToken);
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Linq.Enumerable
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -34,7 +34,7 @@ public static class Enumerable
 		[Token(Token = "0x1700000D")]
 		public TSource Current
 		{
-			[Token(Token = "0x60000A9")]
+			[Token(Token = "0x60000A8")]
 			get
 			{
 				return (TSource)null;
@@ -44,48 +44,48 @@ public static class Enumerable
 		[Token(Token = "0x1700000E")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000B0")]
+			[Token(Token = "0x60000AF")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60000A8")]
+		[Token(Token = "0x60000A7")]
 		public Iterator()
 		{
 		}
 
-		[Token(Token = "0x60000AA")]
+		[Token(Token = "0x60000A9")]
 		public abstract Iterator<TSource> Clone();
 
-		[Token(Token = "0x60000AB")]
+		[Token(Token = "0x60000AA")]
 		public virtual void Dispose()
 		{
 		}
 
-		[Token(Token = "0x60000AC")]
+		[Token(Token = "0x60000AB")]
 		public IEnumerator<TSource> GetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000AD")]
+		[Token(Token = "0x60000AC")]
 		public abstract bool MoveNext();
 
-		[Token(Token = "0x60000AE")]
+		[Token(Token = "0x60000AD")]
 		public abstract IEnumerable<TResult> Select<TResult>(Func<TSource, TResult> selector);
 
-		[Token(Token = "0x60000AF")]
+		[Token(Token = "0x60000AE")]
 		public abstract IEnumerable<TSource> Where(Func<TSource, bool> predicate);
 
-		[Token(Token = "0x60000B1")]
+		[Token(Token = "0x60000B0")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000B2")]
+		[Token(Token = "0x60000B1")]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
@@ -106,35 +106,35 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private IEnumerator<TSource> enumerator;
 
-		[Token(Token = "0x60000B3")]
+		[Token(Token = "0x60000B2")]
 		public WhereEnumerableIterator(IEnumerable<TSource> source, Func<TSource, bool> predicate)
 		{
 		}
 
-		[Token(Token = "0x60000B4")]
+		[Token(Token = "0x60000B3")]
 		public override Iterator<TSource> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000B5")]
+		[Token(Token = "0x60000B4")]
 		public override void Dispose()
 		{
 		}
 
-		[Token(Token = "0x60000B6")]
+		[Token(Token = "0x60000B5")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000B7")]
+		[Token(Token = "0x60000B6")]
 		public override IEnumerable<TResult> Select<TResult>(Func<TSource, TResult> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000B8")]
+		[Token(Token = "0x60000B7")]
 		public override IEnumerable<TSource> Where(Func<TSource, bool> predicate)
 		{
 			return null;
@@ -156,30 +156,30 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private int index;
 
-		[Token(Token = "0x60000B9")]
+		[Token(Token = "0x60000B8")]
 		public WhereArrayIterator(TSource[] source, Func<TSource, bool> predicate)
 		{
 		}
 
-		[Token(Token = "0x60000BA")]
+		[Token(Token = "0x60000B9")]
 		public override Iterator<TSource> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000BB")]
+		[Token(Token = "0x60000BA")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000BC")]
+		[Token(Token = "0x60000BB")]
 		public override IEnumerable<TResult> Select<TResult>(Func<TSource, TResult> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000BD")]
+		[Token(Token = "0x60000BC")]
 		public override IEnumerable<TSource> Where(Func<TSource, bool> predicate)
 		{
 			return null;
@@ -201,30 +201,30 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private List<TSource>.Enumerator enumerator;
 
-		[Token(Token = "0x60000BE")]
+		[Token(Token = "0x60000BD")]
 		public WhereListIterator(List<TSource> source, Func<TSource, bool> predicate)
 		{
 		}
 
-		[Token(Token = "0x60000BF")]
+		[Token(Token = "0x60000BE")]
 		public override Iterator<TSource> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000C0")]
+		[Token(Token = "0x60000BF")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000C1")]
+		[Token(Token = "0x60000C0")]
 		public override IEnumerable<TResult> Select<TResult>(Func<TSource, TResult> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000C2")]
+		[Token(Token = "0x60000C1")]
 		public override IEnumerable<TSource> Where(Func<TSource, bool> predicate)
 		{
 			return null;
@@ -250,35 +250,35 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private IEnumerator<TSource> enumerator;
 
-		[Token(Token = "0x60000C3")]
+		[Token(Token = "0x60000C2")]
 		public WhereSelectEnumerableIterator(IEnumerable<TSource> source, Func<TSource, bool> predicate, Func<TSource, TResult> selector)
 		{
 		}
 
-		[Token(Token = "0x60000C4")]
+		[Token(Token = "0x60000C3")]
 		public override Iterator<TResult> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000C5")]
+		[Token(Token = "0x60000C4")]
 		public override void Dispose()
 		{
 		}
 
-		[Token(Token = "0x60000C6")]
+		[Token(Token = "0x60000C5")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000C7")]
+		[Token(Token = "0x60000C6")]
 		public override IEnumerable<TResult2> Select<TResult2>(Func<TResult, TResult2> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000C8")]
+		[Token(Token = "0x60000C7")]
 		public override IEnumerable<TResult> Where(Func<TResult, bool> predicate)
 		{
 			return null;
@@ -304,30 +304,30 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private int index;
 
-		[Token(Token = "0x60000C9")]
+		[Token(Token = "0x60000C8")]
 		public WhereSelectArrayIterator(TSource[] source, Func<TSource, bool> predicate, Func<TSource, TResult> selector)
 		{
 		}
 
-		[Token(Token = "0x60000CA")]
+		[Token(Token = "0x60000C9")]
 		public override Iterator<TResult> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000CB")]
+		[Token(Token = "0x60000CA")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000CC")]
+		[Token(Token = "0x60000CB")]
 		public override IEnumerable<TResult2> Select<TResult2>(Func<TResult, TResult2> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000CD")]
+		[Token(Token = "0x60000CC")]
 		public override IEnumerable<TResult> Where(Func<TResult, bool> predicate)
 		{
 			return null;
@@ -353,30 +353,30 @@ public static class Enumerable
 		[FieldOffset(Offset = "0x0")]
 		private List<TSource>.Enumerator enumerator;
 
-		[Token(Token = "0x60000CE")]
+		[Token(Token = "0x60000CD")]
 		public WhereSelectListIterator(List<TSource> source, Func<TSource, bool> predicate, Func<TSource, TResult> selector)
 		{
 		}
 
-		[Token(Token = "0x60000CF")]
+		[Token(Token = "0x60000CE")]
 		public override Iterator<TResult> Clone()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000D0")]
+		[Token(Token = "0x60000CF")]
 		public override bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000D1")]
+		[Token(Token = "0x60000D0")]
 		public override IEnumerable<TResult2> Select<TResult2>(Func<TResult, TResult2> selector)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000D2")]
+		[Token(Token = "0x60000D1")]
 		public override IEnumerable<TResult> Where(Func<TResult, bool> predicate)
 		{
 			return null;
@@ -426,7 +426,7 @@ public static class Enumerable
 		[Token(Token = "0x1700000F")]
 		private TResult System_002ECollections_002EGeneric_002EIEnumerator_003CTResult_003E_002ECurrent
 		{
-			[Token(Token = "0x60000D7")]
+			[Token(Token = "0x60000D6")]
 			[DebuggerHidden]
 			get
 			{
@@ -437,7 +437,7 @@ public static class Enumerable
 		[Token(Token = "0x17000010")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000D9")]
+			[Token(Token = "0x60000D8")]
 			[DebuggerHidden]
 			get
 			{
@@ -445,43 +445,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x60000D3")]
+		[Token(Token = "0x60000D2")]
 		[DebuggerHidden]
 		public _003CSelectIterator_003Ed__5(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000D4")]
+		[Token(Token = "0x60000D3")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000D5")]
+		[Token(Token = "0x60000D4")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000D6")]
+		[Token(Token = "0x60000D5")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60000D8")]
+		[Token(Token = "0x60000D7")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60000DA")]
+		[Token(Token = "0x60000D9")]
 		[DebuggerHidden]
 		private IEnumerator<TResult> System_002ECollections_002EGeneric_002EIEnumerable_003CTResult_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000DB")]
+		[Token(Token = "0x60000DA")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -532,7 +532,7 @@ public static class Enumerable
 		[Token(Token = "0x17000011")]
 		private TResult System_002ECollections_002EGeneric_002EIEnumerator_003CTResult_003E_002ECurrent
 		{
-			[Token(Token = "0x60000E5")]
+			[Token(Token = "0x60000E4")]
 			[DebuggerHidden]
 			get
 			{
@@ -543,7 +543,7 @@ public static class Enumerable
 		[Token(Token = "0x17000012")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000E7")]
+			[Token(Token = "0x60000E6")]
 			[DebuggerHidden]
 			get
 			{
@@ -551,48 +551,48 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x60000E0")]
+		[Token(Token = "0x60000DF")]
 		[DebuggerHidden]
 		public _003CSelectManyIterator_003Ed__17(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000E1")]
+		[Token(Token = "0x60000E0")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000E2")]
+		[Token(Token = "0x60000E1")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000E3")]
+		[Token(Token = "0x60000E2")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60000E4")]
+		[Token(Token = "0x60000E3")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
-		[Token(Token = "0x60000E6")]
+		[Token(Token = "0x60000E5")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60000E8")]
+		[Token(Token = "0x60000E7")]
 		[DebuggerHidden]
 		private IEnumerator<TResult> System_002ECollections_002EGeneric_002EIEnumerable_003CTResult_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000E9")]
+		[Token(Token = "0x60000E8")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -639,7 +639,7 @@ public static class Enumerable
 		[Token(Token = "0x17000013")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x60000EE")]
+			[Token(Token = "0x60000ED")]
 			[DebuggerHidden]
 			get
 			{
@@ -650,7 +650,7 @@ public static class Enumerable
 		[Token(Token = "0x17000014")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000F0")]
+			[Token(Token = "0x60000EF")]
 			[DebuggerHidden]
 			get
 			{
@@ -658,43 +658,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x60000EA")]
+		[Token(Token = "0x60000E9")]
 		[DebuggerHidden]
 		public _003CTakeIterator_003Ed__25(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000EB")]
+		[Token(Token = "0x60000EA")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000EC")]
+		[Token(Token = "0x60000EB")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000ED")]
+		[Token(Token = "0x60000EC")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60000EF")]
+		[Token(Token = "0x60000EE")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60000F1")]
+		[Token(Token = "0x60000F0")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000F2")]
+		[Token(Token = "0x60000F1")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -741,7 +741,7 @@ public static class Enumerable
 		[Token(Token = "0x17000015")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x60000F7")]
+			[Token(Token = "0x60000F6")]
 			[DebuggerHidden]
 			get
 			{
@@ -752,7 +752,7 @@ public static class Enumerable
 		[Token(Token = "0x17000016")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60000F9")]
+			[Token(Token = "0x60000F8")]
 			[DebuggerHidden]
 			get
 			{
@@ -760,43 +760,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x60000F3")]
+		[Token(Token = "0x60000F2")]
 		[DebuggerHidden]
 		public _003CTakeWhileIterator_003Ed__27(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000F4")]
+		[Token(Token = "0x60000F3")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000F5")]
+		[Token(Token = "0x60000F4")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000F6")]
+		[Token(Token = "0x60000F5")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x60000F8")]
+		[Token(Token = "0x60000F7")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x60000FA")]
+		[Token(Token = "0x60000F9")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x60000FB")]
+		[Token(Token = "0x60000FA")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -843,7 +843,7 @@ public static class Enumerable
 		[Token(Token = "0x17000017")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x6000100")]
+			[Token(Token = "0x60000FF")]
 			[DebuggerHidden]
 			get
 			{
@@ -854,7 +854,7 @@ public static class Enumerable
 		[Token(Token = "0x17000018")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000102")]
+			[Token(Token = "0x6000101")]
 			[DebuggerHidden]
 			get
 			{
@@ -862,43 +862,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x60000FC")]
+		[Token(Token = "0x60000FB")]
 		[DebuggerHidden]
 		public _003CSkipIterator_003Ed__31(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60000FD")]
+		[Token(Token = "0x60000FC")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60000FE")]
+		[Token(Token = "0x60000FD")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60000FF")]
+		[Token(Token = "0x60000FE")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000101")]
+		[Token(Token = "0x6000100")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000103")]
+		[Token(Token = "0x6000102")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000104")]
+		[Token(Token = "0x6000103")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -945,7 +945,7 @@ public static class Enumerable
 		[Token(Token = "0x17000019")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x600010A")]
+			[Token(Token = "0x6000109")]
 			[DebuggerHidden]
 			get
 			{
@@ -956,7 +956,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600010C")]
+			[Token(Token = "0x600010B")]
 			[DebuggerHidden]
 			get
 			{
@@ -964,48 +964,48 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000105")]
+		[Token(Token = "0x6000104")]
 		[DebuggerHidden]
 		public _003CConcatIterator_003Ed__59(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000106")]
+		[Token(Token = "0x6000105")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000107")]
+		[Token(Token = "0x6000106")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000108")]
+		[Token(Token = "0x6000107")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000109")]
+		[Token(Token = "0x6000108")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
-		[Token(Token = "0x600010B")]
+		[Token(Token = "0x600010A")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600010D")]
+		[Token(Token = "0x600010C")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600010E")]
+		[Token(Token = "0x600010D")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1052,7 +1052,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001B")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x6000113")]
+			[Token(Token = "0x6000112")]
 			[DebuggerHidden]
 			get
 			{
@@ -1063,7 +1063,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000115")]
+			[Token(Token = "0x6000114")]
 			[DebuggerHidden]
 			get
 			{
@@ -1071,43 +1071,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x600010F")]
+		[Token(Token = "0x600010E")]
 		[DebuggerHidden]
 		public _003CAppendIterator_003Ed__61(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000110")]
+		[Token(Token = "0x600010F")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000111")]
+		[Token(Token = "0x6000110")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000112")]
+		[Token(Token = "0x6000111")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000114")]
+		[Token(Token = "0x6000113")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000116")]
+		[Token(Token = "0x6000115")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000117")]
+		[Token(Token = "0x6000116")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1158,7 +1158,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001D")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x600011C")]
+			[Token(Token = "0x600011B")]
 			[DebuggerHidden]
 			get
 			{
@@ -1169,7 +1169,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001E")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600011E")]
+			[Token(Token = "0x600011D")]
 			[DebuggerHidden]
 			get
 			{
@@ -1177,43 +1177,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000118")]
+		[Token(Token = "0x6000117")]
 		[DebuggerHidden]
 		public _003CDistinctIterator_003Ed__68(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000119")]
+		[Token(Token = "0x6000118")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600011A")]
+		[Token(Token = "0x6000119")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600011B")]
+		[Token(Token = "0x600011A")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x600011D")]
+		[Token(Token = "0x600011C")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600011F")]
+		[Token(Token = "0x600011E")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000120")]
+		[Token(Token = "0x600011F")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1272,7 +1272,7 @@ public static class Enumerable
 		[Token(Token = "0x1700001F")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x6000126")]
+			[Token(Token = "0x6000125")]
 			[DebuggerHidden]
 			get
 			{
@@ -1283,7 +1283,7 @@ public static class Enumerable
 		[Token(Token = "0x17000020")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000128")]
+			[Token(Token = "0x6000127")]
 			[DebuggerHidden]
 			get
 			{
@@ -1291,48 +1291,48 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000121")]
+		[Token(Token = "0x6000120")]
 		[DebuggerHidden]
 		public _003CUnionIterator_003Ed__71(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000122")]
+		[Token(Token = "0x6000121")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000123")]
+		[Token(Token = "0x6000122")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000124")]
+		[Token(Token = "0x6000123")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000125")]
+		[Token(Token = "0x6000124")]
 		private void _003C_003Em__Finally2()
 		{
 		}
 
-		[Token(Token = "0x6000127")]
+		[Token(Token = "0x6000126")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000129")]
+		[Token(Token = "0x6000128")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600012A")]
+		[Token(Token = "0x6000129")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1391,7 +1391,7 @@ public static class Enumerable
 		[Token(Token = "0x17000021")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x600012F")]
+			[Token(Token = "0x600012E")]
 			[DebuggerHidden]
 			get
 			{
@@ -1402,7 +1402,7 @@ public static class Enumerable
 		[Token(Token = "0x17000022")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000131")]
+			[Token(Token = "0x6000130")]
 			[DebuggerHidden]
 			get
 			{
@@ -1410,43 +1410,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x600012B")]
+		[Token(Token = "0x600012A")]
 		[DebuggerHidden]
 		public _003CExceptIterator_003Ed__77(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600012C")]
+		[Token(Token = "0x600012B")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600012D")]
+		[Token(Token = "0x600012C")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600012E")]
+		[Token(Token = "0x600012D")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000130")]
+		[Token(Token = "0x600012F")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000132")]
+		[Token(Token = "0x6000131")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000133")]
+		[Token(Token = "0x6000132")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1489,7 +1489,7 @@ public static class Enumerable
 		[Token(Token = "0x17000023")]
 		private TSource System_002ECollections_002EGeneric_002EIEnumerator_003CTSource_003E_002ECurrent
 		{
-			[Token(Token = "0x6000137")]
+			[Token(Token = "0x6000136")]
 			[DebuggerHidden]
 			get
 			{
@@ -1500,7 +1500,7 @@ public static class Enumerable
 		[Token(Token = "0x17000024")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000139")]
+			[Token(Token = "0x6000138")]
 			[DebuggerHidden]
 			get
 			{
@@ -1508,38 +1508,38 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000134")]
+		[Token(Token = "0x6000133")]
 		[DebuggerHidden]
 		public _003CReverseIterator_003Ed__79(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000135")]
+		[Token(Token = "0x6000134")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000136")]
+		[Token(Token = "0x6000135")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000138")]
+		[Token(Token = "0x6000137")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600013A")]
+		[Token(Token = "0x6000139")]
 		[DebuggerHidden]
 		private IEnumerator<TSource> System_002ECollections_002EGeneric_002EIEnumerable_003CTSource_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600013B")]
+		[Token(Token = "0x600013A")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1578,7 +1578,7 @@ public static class Enumerable
 		[Token(Token = "0x17000025")]
 		private TResult System_002ECollections_002EGeneric_002EIEnumerator_003CTResult_003E_002ECurrent
 		{
-			[Token(Token = "0x6000140")]
+			[Token(Token = "0x600013F")]
 			[DebuggerHidden]
 			get
 			{
@@ -1589,7 +1589,7 @@ public static class Enumerable
 		[Token(Token = "0x17000026")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000142")]
+			[Token(Token = "0x6000141")]
 			[DebuggerHidden]
 			get
 			{
@@ -1597,43 +1597,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x600013C")]
+		[Token(Token = "0x600013B")]
 		[DebuggerHidden]
 		public _003COfTypeIterator_003Ed__97(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600013D")]
+		[Token(Token = "0x600013C")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600013E")]
+		[Token(Token = "0x600013D")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600013F")]
+		[Token(Token = "0x600013E")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000141")]
+		[Token(Token = "0x6000140")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000143")]
+		[Token(Token = "0x6000142")]
 		[DebuggerHidden]
 		private IEnumerator<TResult> System_002ECollections_002EGeneric_002EIEnumerable_003CTResult_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000144")]
+		[Token(Token = "0x6000143")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1672,7 +1672,7 @@ public static class Enumerable
 		[Token(Token = "0x17000027")]
 		private TResult System_002ECollections_002EGeneric_002EIEnumerator_003CTResult_003E_002ECurrent
 		{
-			[Token(Token = "0x6000149")]
+			[Token(Token = "0x6000148")]
 			[DebuggerHidden]
 			get
 			{
@@ -1683,7 +1683,7 @@ public static class Enumerable
 		[Token(Token = "0x17000028")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600014B")]
+			[Token(Token = "0x600014A")]
 			[DebuggerHidden]
 			get
 			{
@@ -1691,43 +1691,43 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000145")]
+		[Token(Token = "0x6000144")]
 		[DebuggerHidden]
 		public _003CCastIterator_003Ed__99(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000146")]
+		[Token(Token = "0x6000145")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000147")]
+		[Token(Token = "0x6000146")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000148")]
+		[Token(Token = "0x6000147")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x600014A")]
+		[Token(Token = "0x6000149")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600014C")]
+		[Token(Token = "0x600014B")]
 		[DebuggerHidden]
 		private IEnumerator<TResult> System_002ECollections_002EGeneric_002EIEnumerable_003CTResult_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600014D")]
+		[Token(Token = "0x600014C")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1774,8 +1774,8 @@ public static class Enumerable
 		[Token(Token = "0x17000029")]
 		private int System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EInt32_003E_002ECurrent
 		{
-			[Token(Token = "0x6000151")]
-			[Address(RVA = "0x4491F30", Offset = "0x4491F30", VA = "0x4491F30", Slot = "6")]
+			[Token(Token = "0x6000150")]
+			[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -1786,8 +1786,8 @@ public static class Enumerable
 		[Token(Token = "0x1700002A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000153")]
-			[Address(RVA = "0x4491F80", Offset = "0x4491F80", VA = "0x4491F80", Slot = "9")]
+			[Token(Token = "0x6000152")]
+			[Address(RVA = "0x2424CF0", Offset = "0x24232F0", VA = "0x182424CF0", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -1795,44 +1795,44 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x600014E")]
-		[Address(RVA = "0x4491440", Offset = "0x4491440", VA = "0x4491440")]
+		[Token(Token = "0x600014D")]
+		[Address(RVA = "0x8E81F0", Offset = "0x8E67F0", VA = "0x1808E81F0")]
 		[DebuggerHidden]
 		public _003CRangeIterator_003Ed__115(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600014F")]
-		[Address(RVA = "0x4491ED0", Offset = "0x4491ED0", VA = "0x4491ED0", Slot = "7")]
+		[Token(Token = "0x600014E")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x4491EE0", Offset = "0x4491EE0", VA = "0x4491EE0", Slot = "8")]
+		[Token(Token = "0x600014F")]
+		[Address(RVA = "0x2424BD0", Offset = "0x24231D0", VA = "0x182424BD0", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000152")]
-		[Address(RVA = "0x4491F40", Offset = "0x4491F40", VA = "0x4491F40", Slot = "10")]
+		[Token(Token = "0x6000151")]
+		[Address(RVA = "0x2424CB0", Offset = "0x24232B0", VA = "0x182424CB0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x4491FA0", Offset = "0x4491FA0", VA = "0x4491FA0", Slot = "4")]
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x2424C10", Offset = "0x2423210", VA = "0x182424C10", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<int> System_002ECollections_002EGeneric_002EIEnumerable_003CSystem_002EInt32_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x4492040", Offset = "0x4492040", VA = "0x4492040", Slot = "5")]
+		[Token(Token = "0x6000154")]
+		[Address(RVA = "0x2424C10", Offset = "0x2423210", VA = "0x182424C10", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -1879,7 +1879,7 @@ public static class Enumerable
 		[Token(Token = "0x1700002B")]
 		private TResult System_002ECollections_002EGeneric_002EIEnumerator_003CTResult_003E_002ECurrent
 		{
-			[Token(Token = "0x6000159")]
+			[Token(Token = "0x6000158")]
 			[DebuggerHidden]
 			get
 			{
@@ -1890,7 +1890,7 @@ public static class Enumerable
 		[Token(Token = "0x1700002C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600015B")]
+			[Token(Token = "0x600015A")]
 			[DebuggerHidden]
 			get
 			{
@@ -1898,38 +1898,38 @@ public static class Enumerable
 			}
 		}
 
-		[Token(Token = "0x6000156")]
+		[Token(Token = "0x6000155")]
 		[DebuggerHidden]
 		public _003CRepeatIterator_003Ed__117(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000157")]
+		[Token(Token = "0x6000156")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000158")]
+		[Token(Token = "0x6000157")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600015A")]
+		[Token(Token = "0x6000159")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600015C")]
+		[Token(Token = "0x600015B")]
 		[DebuggerHidden]
 		private IEnumerator<TResult> System_002ECollections_002EGeneric_002EIEnumerable_003CTResult_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600015D")]
+		[Token(Token = "0x600015C")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -2281,14 +2281,14 @@ public static class Enumerable
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4491320", Offset = "0x4491320", VA = "0x4491320")]
+	[Address(RVA = "0x2409F90", Offset = "0x2408590", VA = "0x182409F90")]
 	public static IEnumerable<int> Range(int start, int count)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x44913D0", Offset = "0x44913D0", VA = "0x44913D0")]
+	[Address(RVA = "0x2409F10", Offset = "0x2408510", VA = "0x182409F10")]
 	[IteratorStateMachine(typeof(_003CRangeIterator_003Ed__115))]
 	private static IEnumerable<int> RangeIterator(int start, int count)
 	{
@@ -2363,51 +2363,45 @@ public static class Enumerable
 	}
 
 	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x4491470", Offset = "0x4491470", VA = "0x4491470")]
-	public static int Sum(this IEnumerable<int> source)
+	[Address(RVA = "0x240A050", Offset = "0x2408650", VA = "0x18240A050")]
+	public static float Sum(this IEnumerable<float> source)
 	{
-		return default(int);
+		return default(float);
 	}
 
 	[Token(Token = "0x60000A1")]
-	public static int Sum<TSource>(this IEnumerable<TSource> source, Func<TSource, int> selector)
-	{
-		return default(int);
-	}
-
-	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x44917F0", Offset = "0x44917F0", VA = "0x44917F0")]
+	[Address(RVA = "0x2409CE0", Offset = "0x24082E0", VA = "0x182409CE0")]
 	public static int Min(this IEnumerable<int> source)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x4491B60", Offset = "0x4491B60", VA = "0x4491B60")]
+	[Token(Token = "0x60000A2")]
+	[Address(RVA = "0x2409AB0", Offset = "0x24080B0", VA = "0x182409AB0")]
 	public static int Max(this IEnumerable<int> source)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000A4")]
+	[Token(Token = "0x60000A3")]
 	public static TSource Max<TSource>(this IEnumerable<TSource> source)
 	{
 		return (TSource)null;
 	}
 
-	[Token(Token = "0x60000A5")]
+	[Token(Token = "0x60000A4")]
 	public static int Max<TSource>(this IEnumerable<TSource> source, Func<TSource, int> selector)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000A6")]
+	[Token(Token = "0x60000A5")]
 	public static HashSet<TSource> ToHashSet<TSource>(this IEnumerable<TSource> source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A7")]
+	[Token(Token = "0x60000A6")]
 	public static HashSet<TSource> ToHashSet<TSource>(this IEnumerable<TSource> source, IEqualityComparer<TSource> comparer)
 	{
 		return null;

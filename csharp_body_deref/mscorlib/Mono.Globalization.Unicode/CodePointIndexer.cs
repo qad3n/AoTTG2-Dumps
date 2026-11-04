@@ -10,64 +10,64 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200004E")]
 internal class CodePointIndexer
 {
 	[Serializable]
-	[Token(Token = "0x2000031")]
+	[Token(Token = "0x200004F")]
 	internal struct TableRange
 	{
-		[Token(Token = "0x40000D4")]
+		[Token(Token = "0x4000156")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly int Start;
 
-		[Token(Token = "0x40000D5")]
+		[Token(Token = "0x4000157")]
 		[FieldOffset(Offset = "0x4")]
 		public readonly int End;
 
-		[Token(Token = "0x40000D6")]
+		[Token(Token = "0x4000158")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly int Count;
 
-		[Token(Token = "0x40000D7")]
+		[Token(Token = "0x4000159")]
 		[FieldOffset(Offset = "0xC")]
 		public readonly int IndexStart;
 
-		[Token(Token = "0x40000D8")]
+		[Token(Token = "0x400015A")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly int IndexEnd;
 
-		[Token(Token = "0x60000A4")]
-		[Address(RVA = "0x3AD16F0", Offset = "0x3AD16F0", VA = "0x3AD16F0")]
+		[Token(Token = "0x60000BC")]
+		[Address(RVA = "0x1956B60", Offset = "0x1955160", VA = "0x181956B60")]
 		public TableRange(int start, int end, int indexStart)
 		{
 		}
 	}
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x4000152")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly TableRange[] ranges;
 
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x4000153")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly int TotalCount;
 
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x4000154")]
 	[FieldOffset(Offset = "0x1C")]
 	private int defaultIndex;
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x4000155")]
 	[FieldOffset(Offset = "0x20")]
 	private int defaultCP;
 
-	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x3AD1510", Offset = "0x3AD1510", VA = "0x3AD1510")]
+	[Token(Token = "0x60000BA")]
+	[Address(RVA = "0x1941800", Offset = "0x193FE00", VA = "0x181941800")]
 	public CodePointIndexer(int[] starts, int[] ends, int defaultIndex, int defaultCP)
 	{
 	}
 
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x3AD1710", Offset = "0x3AD1710", VA = "0x3AD1710")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0x1941770", Offset = "0x193FD70", VA = "0x181941770")]
 	public int ToIndex(int cp)
 	{
 		return default(int);

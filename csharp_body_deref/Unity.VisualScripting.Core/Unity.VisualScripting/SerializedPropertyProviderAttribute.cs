@@ -15,26 +15,26 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
 public sealed class SerializedPropertyProviderAttribute : Attribute, IDecoratorAttribute
 {
-	[Token(Token = "0x170001B6")]
+	[Token(Token = "0x170001B9")]
 	public Type type
 	{
-		[Token(Token = "0x6000FA6")]
-		[Address(RVA = "0x4D5C330", Offset = "0x4D5C330", VA = "0x4D5C330", Slot = "7")]
+		[Token(Token = "0x6000FB1")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "7")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000FA7")]
-		[Address(RVA = "0x4D5C340", Offset = "0x4D5C340", VA = "0x4D5C340")]
+		[Token(Token = "0x6000FB2")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000FA5")]
-	[Address(RVA = "0x4D5C300", Offset = "0x4D5C300", VA = "0x4D5C300")]
+	[Token(Token = "0x6000FB0")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public SerializedPropertyProviderAttribute(Type type)
 	{
 	}

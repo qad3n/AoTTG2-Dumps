@@ -10,107 +10,107 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000669")]
+[Token(Token = "0x20007C5")]
 internal class StylebarHandler : MonoBehaviour
 {
-	[Token(Token = "0x4001F65")]
+	[Token(Token = "0x4002740")]
 	[FieldOffset(Offset = "0x20")]
 	private StylebarPopup _styleBarPopup;
 
-	[Token(Token = "0x4001F66")]
+	[Token(Token = "0x4002741")]
 	[FieldOffset(Offset = "0x28")]
 	private string[] Letters;
 
-	[Token(Token = "0x4001F67")]
+	[Token(Token = "0x4002742")]
 	[FieldOffset(Offset = "0x30")]
 	private string[] ColorTags;
 
-	[Token(Token = "0x4001F68")]
+	[Token(Token = "0x4002743")]
 	[FieldOffset(Offset = "0x38")]
 	private string[] Sentences;
 
-	[Token(Token = "0x4001F69")]
+	[Token(Token = "0x4002744")]
 	[FieldOffset(Offset = "0x40")]
 	private float[] Multipliers;
 
-	[Token(Token = "0x4001F6A")]
+	[Token(Token = "0x4002745")]
 	[FieldOffset(Offset = "0x48")]
 	private int[] PointThresholds;
 
-	[Token(Token = "0x4001F6B")]
+	[Token(Token = "0x4002746")]
 	[FieldOffset(Offset = "0x50")]
 	private int[] PointDecays;
 
-	[Token(Token = "0x4001F6C")]
+	[Token(Token = "0x4002747")]
 	[FieldOffset(Offset = "0x58")]
 	private int _hits;
 
-	[Token(Token = "0x4001F6D")]
+	[Token(Token = "0x4002748")]
 	[FieldOffset(Offset = "0x5C")]
 	private float _points;
 
-	[Token(Token = "0x4001F6E")]
+	[Token(Token = "0x4002749")]
 	[FieldOffset(Offset = "0x60")]
 	private int _rank;
 
-	[Token(Token = "0x4001F6F")]
+	[Token(Token = "0x400274A")]
 	[FieldOffset(Offset = "0x64")]
 	private bool _lostRank;
 
-	[Token(Token = "0x4001F70")]
+	[Token(Token = "0x400274B")]
 	[FieldOffset(Offset = "0x68")]
 	private float _chainTime;
 
-	[Token(Token = "0x4001F71")]
+	[Token(Token = "0x400274C")]
 	[FieldOffset(Offset = "0x6C")]
 	private int _chainKillRank;
 
-	[Token(Token = "0x600406F")]
-	[Address(RVA = "0x42EA920", Offset = "0x42EA920", VA = "0x42EA920")]
+	[Token(Token = "0x6004B6B")]
+	[Address(RVA = "0x227FD80", Offset = "0x227E380", VA = "0x18227FD80")]
 	public void Awake()
 	{
 	}
 
-	[Token(Token = "0x6004070")]
-	[Address(RVA = "0x42EADE0", Offset = "0x42EADE0", VA = "0x42EADE0")]
+	[Token(Token = "0x6004B6C")]
+	[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
 	public int GetRank()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004071")]
-	[Address(RVA = "0x42EADF0", Offset = "0x42EADF0", VA = "0x42EADF0")]
+	[Token(Token = "0x6004B6D")]
+	[Address(RVA = "0x2280270", Offset = "0x227E870", VA = "0x182280270")]
 	public void OnHit(int damage)
 	{
 	}
 
-	[Token(Token = "0x6004072")]
-	[Address(RVA = "0x42EB150", Offset = "0x42EB150", VA = "0x42EB150")]
+	[Token(Token = "0x6004B6E")]
+	[Address(RVA = "0x2280740", Offset = "0x227ED40", VA = "0x182280740")]
 	private void UpdateRank()
 	{
 	}
 
-	[Token(Token = "0x6004073")]
-	[Address(RVA = "0x42EB1F0", Offset = "0x42EB1F0", VA = "0x42EB1F0")]
+	[Token(Token = "0x6004B6F")]
+	[Address(RVA = "0x2280570", Offset = "0x227EB70", VA = "0x182280570")]
 	private void UpdateLabels()
 	{
 	}
 
-	[Token(Token = "0x6004074")]
-	[Address(RVA = "0x42EB2D0", Offset = "0x42EB2D0", VA = "0x42EB2D0")]
+	[Token(Token = "0x6004B70")]
+	[Address(RVA = "0x2280180", Offset = "0x227E780", VA = "0x182280180")]
 	private int GetRankPercent()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6004075")]
-	[Address(RVA = "0x42EB370", Offset = "0x42EB370", VA = "0x42EB370")]
+	[Token(Token = "0x6004B71")]
+	[Address(RVA = "0x22807D0", Offset = "0x227EDD0", VA = "0x1822807D0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6004076")]
-	[Address(RVA = "0x42EB570", Offset = "0x42EB570", VA = "0x42EB570")]
+	[Token(Token = "0x6004B72")]
+	[Address(RVA = "0x2280930", Offset = "0x227EF30", VA = "0x182280930")]
 	public StylebarHandler()
 	{
 	}

@@ -6,14 +6,16 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003DE")]
+[Token(Token = "0x200048B")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal static class StyleValueKeywordExtension
 {
-	[Token(Token = "0x600187F")]
-	[Address(RVA = "0x4F4DF10", Offset = "0x4F4DF10", VA = "0x4F4DF10")]
+	[Token(Token = "0x6002316")]
+	[Address(RVA = "0x312D070", Offset = "0x312B670", VA = "0x18312D070")]
 	public static string ToUssString(this StyleValueKeyword svk)
 	{
 		return null;

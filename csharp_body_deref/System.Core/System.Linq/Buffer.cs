@@ -21,12 +21,12 @@ internal struct Buffer<TElement>
 	[FieldOffset(Offset = "0x0")]
 	internal int count;
 
-	[Token(Token = "0x60001A6")]
+	[Token(Token = "0x60001A5")]
 	internal Buffer(IEnumerable<TElement> source)
 	{
 	}
 
-	[Token(Token = "0x60001A7")]
+	[Token(Token = "0x60001A6")]
 	internal TElement[] ToArray()
 	{
 		return null;

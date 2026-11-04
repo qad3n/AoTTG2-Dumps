@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x200002C")]
 public enum LobbyType
 {
-	[Token(Token = "0x400007A")]
+	[Token(Token = "0x4000075")]
 	Private = 1,
-	[Token(Token = "0x400007B")]
+	[Token(Token = "0x4000076")]
 	Public
 }

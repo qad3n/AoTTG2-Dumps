@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001BE")]
+[Token(Token = "0x20002C4")]
 internal sealed class AottgProfilePreviewCard : AottgComponent
 {
-	[Token(Token = "0x400097B")]
+	[Token(Token = "0x4000E26")]
 	public const string AvatarImageId = "profile-preview-avatar-image";
 
-	[Token(Token = "0x400097C")]
+	[Token(Token = "0x4000E27")]
 	public const string BannerImageId = "profile-preview-banner-image";
 
-	[Token(Token = "0x400097D")]
+	[Token(Token = "0x4000E28")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _avatarSprite;
 
-	[Token(Token = "0x400097E")]
+	[Token(Token = "0x4000E29")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _bannerSprite;
 
-	[Token(Token = "0x6000A95")]
-	[Address(RVA = "0x44288F0", Offset = "0x44288F0", VA = "0x44288F0")]
+	[Token(Token = "0x6001155")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public AottgProfilePreviewCard(string avatarSprite, string bannerSprite)
 	{
 	}
 
-	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0x4429240", Offset = "0x4429240", VA = "0x4429240", Slot = "4")]
+	[Token(Token = "0x6001156")]
+	[Address(RVA = "0x1E1B080", Offset = "0x1E19680", VA = "0x181E1B080", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}

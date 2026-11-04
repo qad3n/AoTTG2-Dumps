@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x2000732")]
+[Token(Token = "0x20008A9")]
 [AttributeUsage(AttributeTargets.Field, Inherited = true, AllowMultiple = false)]
 internal class OrderAttribute : Attribute
 {
-	[Token(Token = "0x4002293")]
+	[Token(Token = "0x4002B14")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly int order;
 
-	[Token(Token = "0x17000DBA")]
+	[Token(Token = "0x17000F10")]
 	public int Order
 	{
-		[Token(Token = "0x60046B3")]
-		[Address(RVA = "0x438EEB0", Offset = "0x438EEB0", VA = "0x438EEB0")]
+		[Token(Token = "0x60052B8")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60046B4")]
-	[Address(RVA = "0x438EEC0", Offset = "0x438EEC0", VA = "0x438EEC0")]
+	[Token(Token = "0x60052B9")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public OrderAttribute(int order)
 	{
 	}

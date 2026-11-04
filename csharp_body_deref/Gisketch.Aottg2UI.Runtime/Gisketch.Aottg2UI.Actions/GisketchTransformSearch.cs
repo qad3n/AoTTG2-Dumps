@@ -10,11 +10,11 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D1")]
+[Token(Token = "0x20000F6")]
 internal static class GisketchTransformSearch
 {
-	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x3A8F810", Offset = "0x3A8F810", VA = "0x3A8F810")]
+	[Token(Token = "0x600076C")]
+	[Address(RVA = "0x190FA30", Offset = "0x190E030", VA = "0x18190FA30")]
 	public static Transform FindDeep(Transform root, string name)
 	{
 		return null;

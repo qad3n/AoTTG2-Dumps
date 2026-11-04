@@ -11,94 +11,94 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003A5")]
+[Token(Token = "0x2000400")]
 [ConfigurationCollection(typeof(WebRequestModuleElement))]
 public sealed class WebRequestModuleElementCollection : ConfigurationElementCollection
 {
-	[Token(Token = "0x1700058E")]
+	[Token(Token = "0x170005F8")]
 	public WebRequestModuleElement this[string name]
 	{
-		[Token(Token = "0x6001842")]
-		[Address(RVA = "0x48F56C0", Offset = "0x48F56C0", VA = "0x48F56C0")]
+		[Token(Token = "0x6001AE6")]
+		[Address(RVA = "0x282CC70", Offset = "0x282B270", VA = "0x18282CC70")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001843")]
-		[Address(RVA = "0x48F56F0", Offset = "0x48F56F0", VA = "0x48F56F0")]
+		[Token(Token = "0x6001AE7")]
+		[Address(RVA = "0x282CD00", Offset = "0x282B300", VA = "0x18282CD00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600183F")]
-	[Address(RVA = "0x48F5630", Offset = "0x48F5630", VA = "0x48F5630")]
+	[Token(Token = "0x6001AE3")]
+	[Address(RVA = "0x282CC40", Offset = "0x282B240", VA = "0x18282CC40")]
 	public WebRequestModuleElementCollection()
 	{
 	}
 
 	[SpecialName]
-	[Token(Token = "0x6001840")]
-	[Address(RVA = "0x48F5660", Offset = "0x48F5660", VA = "0x48F5660")]
+	[Token(Token = "0x6001AE4")]
+	[Address(RVA = "0x282CCA0", Offset = "0x282B2A0", VA = "0x18282CCA0")]
 	public WebRequestModuleElement get_Item(int index)
 	{
 		return null;
 	}
 
 	[SpecialName]
-	[Token(Token = "0x6001841")]
-	[Address(RVA = "0x48F5690", Offset = "0x48F5690", VA = "0x48F5690")]
+	[Token(Token = "0x6001AE5")]
+	[Address(RVA = "0x282CCD0", Offset = "0x282B2D0", VA = "0x18282CCD0")]
 	public void set_Item(int index, WebRequestModuleElement value)
 	{
 	}
 
-	[Token(Token = "0x6001844")]
-	[Address(RVA = "0x48F5720", Offset = "0x48F5720", VA = "0x48F5720")]
+	[Token(Token = "0x6001AE8")]
+	[Address(RVA = "0x282CAC0", Offset = "0x282B0C0", VA = "0x18282CAC0")]
 	public void Add(WebRequestModuleElement element)
 	{
 	}
 
-	[Token(Token = "0x6001845")]
-	[Address(RVA = "0x48F5750", Offset = "0x48F5750", VA = "0x48F5750")]
+	[Token(Token = "0x6001AE9")]
+	[Address(RVA = "0x282CAF0", Offset = "0x282B0F0", VA = "0x18282CAF0")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001846")]
-	[Address(RVA = "0x48F5780", Offset = "0x48F5780", VA = "0x48F5780", Slot = "12")]
+	[Token(Token = "0x6001AEA")]
+	[Address(RVA = "0x282CB20", Offset = "0x282B120", VA = "0x18282CB20", Slot = "12")]
 	protected override ConfigurationElement CreateNewElement()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001847")]
-	[Address(RVA = "0x48F57B0", Offset = "0x48F57B0", VA = "0x48F57B0", Slot = "13")]
+	[Token(Token = "0x6001AEB")]
+	[Address(RVA = "0x282CB50", Offset = "0x282B150", VA = "0x18282CB50", Slot = "13")]
 	protected override object GetElementKey(ConfigurationElement element)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001848")]
-	[Address(RVA = "0x48F57E0", Offset = "0x48F57E0", VA = "0x48F57E0")]
+	[Token(Token = "0x6001AEC")]
+	[Address(RVA = "0x282CB80", Offset = "0x282B180", VA = "0x18282CB80")]
 	public int IndexOf(WebRequestModuleElement element)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001849")]
-	[Address(RVA = "0x48F5810", Offset = "0x48F5810", VA = "0x48F5810")]
+	[Token(Token = "0x6001AED")]
+	[Address(RVA = "0x282CBE0", Offset = "0x282B1E0", VA = "0x18282CBE0")]
 	public void Remove(WebRequestModuleElement element)
 	{
 	}
 
-	[Token(Token = "0x600184A")]
-	[Address(RVA = "0x48F5840", Offset = "0x48F5840", VA = "0x48F5840")]
+	[Token(Token = "0x6001AEE")]
+	[Address(RVA = "0x282CC10", Offset = "0x282B210", VA = "0x18282CC10")]
 	public void Remove(string name)
 	{
 	}
 
-	[Token(Token = "0x600184B")]
-	[Address(RVA = "0x48F5870", Offset = "0x48F5870", VA = "0x48F5870")]
+	[Token(Token = "0x6001AEF")]
+	[Address(RVA = "0x282CBB0", Offset = "0x282B1B0", VA = "0x18282CBB0")]
 	public void RemoveAt(int index)
 	{
 	}

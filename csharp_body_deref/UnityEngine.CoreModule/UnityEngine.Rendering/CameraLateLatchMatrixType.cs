@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002CA")]
+[Token(Token = "0x2000345")]
 public enum CameraLateLatchMatrixType
 {
-	[Token(Token = "0x4000805")]
+	[Token(Token = "0x400095A")]
 	View,
-	[Token(Token = "0x4000806")]
+	[Token(Token = "0x400095B")]
 	InverseView,
-	[Token(Token = "0x4000807")]
+	[Token(Token = "0x400095C")]
 	ViewProjection,
-	[Token(Token = "0x4000808")]
+	[Token(Token = "0x400095D")]
 	InverseViewProjection
 }

@@ -16,7 +16,7 @@ internal class PositionInfo : IXmlLineInfo
 	public virtual int LineNumber
 	{
 		[Token(Token = "0x6000A7B")]
-		[Address(RVA = "0x47E57D0", Offset = "0x47E57D0", VA = "0x47E57D0", Slot = "8")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
 		get
 		{
 			return default(int);
@@ -27,7 +27,7 @@ internal class PositionInfo : IXmlLineInfo
 	public virtual int LinePosition
 	{
 		[Token(Token = "0x6000A7C")]
-		[Address(RVA = "0x47E57E0", Offset = "0x47E57E0", VA = "0x47E57E0", Slot = "9")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -35,21 +35,21 @@ internal class PositionInfo : IXmlLineInfo
 	}
 
 	[Token(Token = "0x6000A7A")]
-	[Address(RVA = "0x47E57C0", Offset = "0x47E57C0", VA = "0x47E57C0", Slot = "7")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 	public virtual bool HasLineInfo()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000A7D")]
-	[Address(RVA = "0x47E57F0", Offset = "0x47E57F0", VA = "0x47E57F0")]
+	[Address(RVA = "0x2729230", Offset = "0x2727830", VA = "0x182729230")]
 	public static PositionInfo GetPositionInfo(object o)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A7E")]
-	[Address(RVA = "0x47E58D0", Offset = "0x47E58D0", VA = "0x47E58D0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public PositionInfo()
 	{
 	}

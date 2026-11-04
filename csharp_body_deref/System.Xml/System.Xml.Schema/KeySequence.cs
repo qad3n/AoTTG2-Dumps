@@ -36,7 +36,7 @@ internal class KeySequence
 	public int PosLine
 	{
 		[Token(Token = "0x6000FB9")]
-		[Address(RVA = "0x48449C0", Offset = "0x48449C0", VA = "0x48449C0")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(int);
@@ -47,7 +47,7 @@ internal class KeySequence
 	public int PosCol
 	{
 		[Token(Token = "0x6000FBA")]
-		[Address(RVA = "0x48449D0", Offset = "0x48449D0", VA = "0x48449D0")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		get
 		{
 			return default(int);
@@ -58,47 +58,47 @@ internal class KeySequence
 	public object this[int index]
 	{
 		[Token(Token = "0x6000FBB")]
-		[Address(RVA = "0x48449E0", Offset = "0x48449E0", VA = "0x48449E0")]
+		[Address(RVA = "0x277EF80", Offset = "0x277D580", VA = "0x18277EF80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000FBC")]
-		[Address(RVA = "0x4844A10", Offset = "0x4844A10", VA = "0x4844A10")]
+		[Address(RVA = "0x277EFB0", Offset = "0x277D5B0", VA = "0x18277EFB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000FB8")]
-	[Address(RVA = "0x4843DF0", Offset = "0x4843DF0", VA = "0x4843DF0")]
+	[Address(RVA = "0x277EF00", Offset = "0x277D500", VA = "0x18277EF00")]
 	internal KeySequence(int dim, int line, int col)
 	{
 	}
 
 	[Token(Token = "0x6000FBD")]
-	[Address(RVA = "0x4844B00", Offset = "0x4844B00", VA = "0x4844B00")]
+	[Address(RVA = "0x277ED60", Offset = "0x277D360", VA = "0x18277ED60")]
 	internal bool IsQualified()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FBE")]
-	[Address(RVA = "0x4844B50", Offset = "0x4844B50", VA = "0x4844B50", Slot = "2")]
+	[Address(RVA = "0x277E930", Offset = "0x277CF30", VA = "0x18277E930", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FBF")]
-	[Address(RVA = "0x4844F60", Offset = "0x4844F60", VA = "0x4844F60", Slot = "0")]
+	[Address(RVA = "0x277E820", Offset = "0x277CE20", VA = "0x18277E820", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FC0")]
-	[Address(RVA = "0x4845040", Offset = "0x4845040", VA = "0x4845040", Slot = "3")]
+	[Address(RVA = "0x277EDC0", Offset = "0x277D3C0", VA = "0x18277EDC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

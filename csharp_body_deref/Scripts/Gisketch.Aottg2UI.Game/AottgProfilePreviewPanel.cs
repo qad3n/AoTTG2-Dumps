@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001BA")]
+[Token(Token = "0x20002C0")]
 internal sealed class AottgProfilePreviewPanel : AottgComponent
 {
-	[Token(Token = "0x4000972")]
+	[Token(Token = "0x4000E1D")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _avatarSprite;
 
-	[Token(Token = "0x4000973")]
+	[Token(Token = "0x4000E1E")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _bannerSprite;
 
-	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x441F600", Offset = "0x441F600", VA = "0x441F600")]
+	[Token(Token = "0x6001141")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public AottgProfilePreviewPanel(string avatarSprite, string bannerSprite)
 	{
 	}
 
-	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x4428350", Offset = "0x4428350", VA = "0x4428350", Slot = "4")]
+	[Token(Token = "0x6001142")]
+	[Address(RVA = "0x1E1BCA0", Offset = "0x1E1A2A0", VA = "0x181E1BCA0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}

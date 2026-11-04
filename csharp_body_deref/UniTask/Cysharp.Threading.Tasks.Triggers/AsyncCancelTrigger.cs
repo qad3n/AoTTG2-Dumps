@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000206")]
+[Token(Token = "0x2000209")]
 [DisallowMultipleComponent]
 public sealed class AsyncCancelTrigger : AsyncTriggerBase<BaseEventData>, ICancelHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000BF9")]
-	[Address(RVA = "0x4A15660", Offset = "0x4A15660", VA = "0x4A15660", Slot = "5")]
+	[Token(Token = "0x6000C1D")]
+	[Address(RVA = "0x292A710", Offset = "0x2928D10", VA = "0x18292A710", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EICancelHandler_002EOnCancel(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000BFA")]
-	[Address(RVA = "0x4A156B0", Offset = "0x4A156B0", VA = "0x4A156B0")]
+	[Token(Token = "0x6000C1E")]
+	[Address(RVA = "0x292A470", Offset = "0x2928A70", VA = "0x18292A470")]
 	public IAsyncOnCancelHandler GetOnCancelAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BFB")]
-	[Address(RVA = "0x4A15720", Offset = "0x4A15720", VA = "0x4A15720")]
+	[Token(Token = "0x6000C1F")]
+	[Address(RVA = "0x292A3F0", Offset = "0x29289F0", VA = "0x18292A3F0")]
 	public IAsyncOnCancelHandler GetOnCancelAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BFC")]
-	[Address(RVA = "0x4A15790", Offset = "0x4A15790", VA = "0x4A15790")]
+	[Token(Token = "0x6000C20")]
+	[Address(RVA = "0x292A5F0", Offset = "0x2928BF0", VA = "0x18292A5F0")]
 	public UniTask<BaseEventData> OnCancelAsync()
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
-	[Token(Token = "0x6000BFD")]
-	[Address(RVA = "0x4A15890", Offset = "0x4A15890", VA = "0x4A15890")]
+	[Token(Token = "0x6000C21")]
+	[Address(RVA = "0x292A4E0", Offset = "0x2928AE0", VA = "0x18292A4E0")]
 	public UniTask<BaseEventData> OnCancelAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<BaseEventData>);
 	}
 
-	[Token(Token = "0x6000BFE")]
-	[Address(RVA = "0x4A159A0", Offset = "0x4A159A0", VA = "0x4A159A0")]
+	[Token(Token = "0x6000C22")]
+	[Address(RVA = "0x292A760", Offset = "0x2928D60", VA = "0x18292A760")]
 	public AsyncCancelTrigger()
 	{
 	}

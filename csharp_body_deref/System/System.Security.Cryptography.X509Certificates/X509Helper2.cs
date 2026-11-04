@@ -10,39 +10,39 @@ using Mono.Security.X509;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x200010D")]
+[Token(Token = "0x200014D")]
 internal static class X509Helper2
 {
-	[Token(Token = "0x600065E")]
-	[Address(RVA = "0x4942E10", Offset = "0x4942E10", VA = "0x4942E10")]
+	[Token(Token = "0x6000848")]
+	[Address(RVA = "0x288FC80", Offset = "0x288E280", VA = "0x18288FC80")]
 	[System.MonoTODO("Investigate replacement; see comments in source.")]
 	internal static Mono.Security.X509.X509Certificate GetMonoCertificate(X509Certificate2 certificate)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x4942ED0", Offset = "0x4942ED0", VA = "0x4942ED0")]
+	[Token(Token = "0x6000849")]
+	[Address(RVA = "0x288FBB0", Offset = "0x288E1B0", VA = "0x18288FBB0")]
 	internal static X509ChainImpl CreateChainImpl(bool useMachineContext)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x4942F20", Offset = "0x4942F20", VA = "0x4942F20")]
+	[Token(Token = "0x600084A")]
+	[Address(RVA = "0x19EC100", Offset = "0x19EA700", VA = "0x1819EC100")]
 	public static bool IsValid(X509ChainImpl impl)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x4942F40", Offset = "0x4942F40", VA = "0x4942F40")]
+	[Token(Token = "0x600084B")]
+	[Address(RVA = "0x288FDA0", Offset = "0x288E3A0", VA = "0x18288FDA0")]
 	internal static void ThrowIfContextInvalid(X509ChainImpl impl)
 	{
 	}
 
-	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x4942F80", Offset = "0x4942F80", VA = "0x4942F80")]
+	[Token(Token = "0x600084C")]
+	[Address(RVA = "0x288FC10", Offset = "0x288E210", VA = "0x18288FC10")]
 	internal static Exception GetInvalidChainContextException()
 	{
 		return null;

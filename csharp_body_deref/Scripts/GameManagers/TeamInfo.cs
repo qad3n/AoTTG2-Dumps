@@ -11,66 +11,66 @@ using UnityEngine;
 
 namespace GameManagers;
 
-[Token(Token = "0x2000230")]
+[Token(Token = "0x2000348")]
 internal class TeamInfo
 {
-	[Token(Token = "0x4000C08")]
+	[Token(Token = "0x400110F")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Blue;
 
-	[Token(Token = "0x4000C09")]
+	[Token(Token = "0x4001110")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Red;
 
-	[Token(Token = "0x4000C0A")]
+	[Token(Token = "0x4001111")]
 	[FieldOffset(Offset = "0x10")]
 	public static string None;
 
-	[Token(Token = "0x4000C0B")]
+	[Token(Token = "0x4001112")]
 	[FieldOffset(Offset = "0x18")]
 	public static string Titan;
 
-	[Token(Token = "0x4000C0C")]
+	[Token(Token = "0x4001113")]
 	[FieldOffset(Offset = "0x20")]
 	public static string Human;
 
-	[Token(Token = "0x6000D94")]
-	[Address(RVA = "0x446FE30", Offset = "0x446FE30", VA = "0x446FE30")]
+	[Token(Token = "0x60014DC")]
+	[Address(RVA = "0x1E77000", Offset = "0x1E75600", VA = "0x181E77000")]
 	public static bool SameTeam(string a, string b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D95")]
-	[Address(RVA = "0x446FEE0", Offset = "0x446FEE0", VA = "0x446FEE0")]
+	[Token(Token = "0x60014DD")]
+	[Address(RVA = "0x1E770D0", Offset = "0x1E756D0", VA = "0x181E770D0")]
 	public static bool SameTeam(BaseCharacter a, BaseCharacter b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D96")]
-	[Address(RVA = "0x446FFA0", Offset = "0x446FFA0", VA = "0x446FFA0")]
+	[Token(Token = "0x60014DE")]
+	[Address(RVA = "0x1E76F20", Offset = "0x1E75520", VA = "0x181E76F20")]
 	public static bool SameTeam(BaseCharacter a, string b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D97")]
-	[Address(RVA = "0x4470060", Offset = "0x4470060", VA = "0x4470060")]
+	[Token(Token = "0x60014DF")]
+	[Address(RVA = "0x1E76BC0", Offset = "0x1E751C0", VA = "0x181E76BC0")]
 	public static Color GetTeamColorUnity(string Team)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x6000D98")]
-	[Address(RVA = "0x44700D0", Offset = "0x44700D0", VA = "0x44700D0")]
+	[Token(Token = "0x60014E0")]
+	[Address(RVA = "0x1E76D90", Offset = "0x1E75390", VA = "0x181E76D90")]
 	public static string GetTeamColor(string team)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D99")]
-	[Address(RVA = "0x4470230", Offset = "0x4470230", VA = "0x4470230")]
+	[Token(Token = "0x60014E1")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public TeamInfo()
 	{
 	}

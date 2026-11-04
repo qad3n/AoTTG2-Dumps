@@ -8,64 +8,66 @@
 using System;
 using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 using UnityEngine.UIElements.StyleSheets;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000482")]
+[Token(Token = "0x200055D")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal class StyleMatchingContext
 {
-	[Token(Token = "0x4000D90")]
+	[Token(Token = "0x4001232")]
 	[FieldOffset(Offset = "0x10")]
 	private List<StyleSheet> m_StyleSheetStack;
 
-	[Token(Token = "0x4000D91")]
+	[Token(Token = "0x4001233")]
 	[FieldOffset(Offset = "0x18")]
 	public StyleVariableContext variableContext;
 
-	[Token(Token = "0x4000D92")]
+	[Token(Token = "0x4001234")]
 	[FieldOffset(Offset = "0x20")]
 	public VisualElement currentElement;
 
-	[Token(Token = "0x4000D93")]
+	[Token(Token = "0x4001235")]
 	[FieldOffset(Offset = "0x28")]
 	public Action<VisualElement, MatchResultInfo> processResult;
 
-	[Token(Token = "0x4000D94")]
+	[Token(Token = "0x4001236")]
 	[FieldOffset(Offset = "0x30")]
 	public AncestorFilter ancestorFilter;
 
-	[Token(Token = "0x17000754")]
+	[Token(Token = "0x17000A3C")]
 	public int styleSheetCount
 	{
-		[Token(Token = "0x6001BF8")]
-		[Address(RVA = "0x4F7B590", Offset = "0x4F7B590", VA = "0x4F7B590")]
+		[Token(Token = "0x6002868")]
+		[Address(RVA = "0x315E490", Offset = "0x315CA90", VA = "0x18315E490")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001BF9")]
-	[Address(RVA = "0x4F7B5D0", Offset = "0x4F7B5D0", VA = "0x4F7B5D0")]
+	[Token(Token = "0x6002869")]
+	[Address(RVA = "0x315E370", Offset = "0x315C970", VA = "0x18315E370")]
 	public StyleMatchingContext(Action<VisualElement, MatchResultInfo> processResult)
 	{
 	}
 
-	[Token(Token = "0x6001BFA")]
-	[Address(RVA = "0x4F7B6F0", Offset = "0x4F7B6F0", VA = "0x4F7B6F0")]
+	[Token(Token = "0x600286A")]
+	[Address(RVA = "0x315E1C0", Offset = "0x315C7C0", VA = "0x18315E1C0")]
 	public void AddStyleSheet(StyleSheet sheet)
 	{
 	}
 
-	[Token(Token = "0x6001BFB")]
-	[Address(RVA = "0x4F7B7C0", Offset = "0x4F7B7C0", VA = "0x4F7B7C0")]
+	[Token(Token = "0x600286B")]
+	[Address(RVA = "0x315E300", Offset = "0x315C900", VA = "0x18315E300")]
 	public void RemoveStyleSheetRange(int index, int count)
 	{
 	}
 
-	[Token(Token = "0x6001BFC")]
-	[Address(RVA = "0x4F7B810", Offset = "0x4F7B810", VA = "0x4F7B810")]
+	[Token(Token = "0x600286C")]
+	[Address(RVA = "0x315E2A0", Offset = "0x315C8A0", VA = "0x18315E2A0")]
 	public StyleSheet GetStyleSheetAt(int index)
 	{
 		return null;

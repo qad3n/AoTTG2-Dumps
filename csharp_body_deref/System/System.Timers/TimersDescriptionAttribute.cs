@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace System.Timers;
 
-[Token(Token = "0x200009B")]
+[Token(Token = "0x20000DA")]
 [AttributeUsage(AttributeTargets.All)]
 public class TimersDescriptionAttribute : DescriptionAttribute
 {
-	[Token(Token = "0x400026A")]
+	[Token(Token = "0x400033A")]
 	[FieldOffset(Offset = "0x18")]
 	private bool replaced;
 
-	[Token(Token = "0x1700008B")]
+	[Token(Token = "0x170000BA")]
 	public override string Description
 	{
-		[Token(Token = "0x60002B1")]
-		[Address(RVA = "0x4901610", Offset = "0x4901610", VA = "0x4901610", Slot = "7")]
+		[Token(Token = "0x6000465")]
+		[Address(RVA = "0x2860820", Offset = "0x285EE20", VA = "0x182860820", Slot = "7")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60002B0")]
-	[Address(RVA = "0x49015B0", Offset = "0x49015B0", VA = "0x49015B0")]
+	[Token(Token = "0x6000464")]
+	[Address(RVA = "0x28607C0", Offset = "0x285EDC0", VA = "0x1828607C0")]
 	public TimersDescriptionAttribute(string description)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004A2")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface, AllowMultiple = false, Inherited = false)]
+[Token(Token = "0x20004D2")]
 [System.Runtime.CompilerServices.FriendAccessAllowed]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event | AttributeTargets.Interface, AllowMultiple = false, Inherited = false)]
 internal sealed class FriendAccessAllowedAttribute : Attribute
 {
-	[Token(Token = "0x60022FE")]
-	[Address(RVA = "0x3BC40A0", Offset = "0x3BC40A0", VA = "0x3BC40A0")]
+	[Token(Token = "0x600237F")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public FriendAccessAllowedAttribute()
 	{
 	}

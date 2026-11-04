@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Microsoft.Win32;
 
-[Token(Token = "0x2000058")]
+[Token(Token = "0x200007E")]
 internal static class Win32Native
 {
-	[Token(Token = "0x600020E")]
-	[Address(RVA = "0x3AF2E30", Offset = "0x3AF2E30", VA = "0x3AF2E30")]
+	[Token(Token = "0x6000246")]
+	[Address(RVA = "0x1975AF0", Offset = "0x19740F0", VA = "0x181975AF0")]
 	public static string GetMessage(int hr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600020F")]
-	[Address(RVA = "0x3AF2E80", Offset = "0x3AF2E80", VA = "0x3AF2E80")]
+	[Token(Token = "0x6000247")]
+	[Address(RVA = "0x1975B40", Offset = "0x1974140", VA = "0x181975B40")]
 	public static int MakeHRFromErrorCode(int errorCode)
 	{
 		return default(int);

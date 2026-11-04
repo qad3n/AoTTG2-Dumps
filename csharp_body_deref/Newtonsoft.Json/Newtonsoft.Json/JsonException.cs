@@ -16,31 +16,31 @@ namespace Newtonsoft.Json;
 public class JsonException : Exception
 {
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x3D59D20", Offset = "0x3D59D20", VA = "0x3D59D20")]
+	[Address(RVA = "0x1BCD1B0", Offset = "0x1BCB7B0", VA = "0x181BCD1B0")]
 	public JsonException()
 	{
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x3D59D90", Offset = "0x3D59D90", VA = "0x3D59D90")]
+	[Address(RVA = "0x1BCD200", Offset = "0x1BCB800", VA = "0x181BCD200")]
 	public JsonException(string message)
 	{
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x3D59DF0", Offset = "0x3D59DF0", VA = "0x3D59DF0")]
+	[Address(RVA = "0x1BCD260", Offset = "0x1BCB860", VA = "0x181BCD260")]
 	public JsonException(string message, Exception? innerException)
 	{
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x3D59E50", Offset = "0x3D59E50", VA = "0x3D59E50")]
+	[Address(RVA = "0x1BCD2D0", Offset = "0x1BCB8D0", VA = "0x181BCD2D0")]
 	public JsonException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x3D59EC0", Offset = "0x3D59EC0", VA = "0x3D59EC0")]
+	[Address(RVA = "0x1BCD0E0", Offset = "0x1BCB6E0", VA = "0x181BCD0E0")]
 	internal static JsonException Create(IJsonLineInfo lineInfo, string path, string message)
 	{
 		return null;

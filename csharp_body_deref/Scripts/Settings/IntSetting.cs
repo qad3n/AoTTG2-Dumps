@@ -10,44 +10,44 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000B7")]
+[Token(Token = "0x20000D5")]
 internal class IntSetting : TypedSetting<int>
 {
-	[Token(Token = "0x4000492")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000515")]
+	[FieldOffset(Offset = "0x20")]
 	public int MinValue;
 
-	[Token(Token = "0x4000493")]
-	[FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x4000516")]
+	[FieldOffset(Offset = "0x24")]
 	public int MaxValue;
 
-	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x40FD800", Offset = "0x40FD800", VA = "0x40FD800")]
+	[Token(Token = "0x6000433")]
+	[Address(RVA = "0x1F1DE90", Offset = "0x1F1C490", VA = "0x181F1DE90")]
 	public IntSetting()
 	{
 	}
 
-	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x40F39A0", Offset = "0x40F39A0", VA = "0x40F39A0")]
-	public IntSetting(int defaultValue, int minValue = int.MinValue, int maxValue = int.MaxValue)
+	[Token(Token = "0x6000434")]
+	[Address(RVA = "0x1F1DE00", Offset = "0x1F1C400", VA = "0x181F1DE00")]
+	public IntSetting(int defaultValue, int minValue = -2147483648, int maxValue = 2147483647)
 	{
 	}
 
-	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x4101100", Offset = "0x4101100", VA = "0x4101100", Slot = "6")]
+	[Token(Token = "0x6000435")]
+	[Address(RVA = "0x1F1DCB0", Offset = "0x1F1C2B0", VA = "0x181F1DCB0", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x4101160", Offset = "0x4101160", VA = "0x4101160", Slot = "5")]
+	[Token(Token = "0x6000436")]
+	[Address(RVA = "0x1F1DD90", Offset = "0x1F1C390", VA = "0x181F1DD90", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x41011D0", Offset = "0x41011D0", VA = "0x41011D0", Slot = "10")]
+	[Token(Token = "0x6000437")]
+	[Address(RVA = "0x1F1DD20", Offset = "0x1F1C320", VA = "0x181F1DD20", Slot = "11")]
 	protected override int SanitizeValue(int value)
 	{
 		return default(int);

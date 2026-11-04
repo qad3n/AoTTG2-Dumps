@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnMouseDownMessageListener : MessageListener
 {
-	[Token(Token = "0x6000439")]
-	[Address(RVA = "0x4CB6070", Offset = "0x4CB6070", VA = "0x4CB6070")]
+	[Token(Token = "0x6000443")]
+	[Address(RVA = "0x2DBE3B0", Offset = "0x2DBC9B0", VA = "0x182DBE3B0")]
 	private void OnMouseDown()
 	{
 	}
 
-	[Token(Token = "0x600043A")]
-	[Address(RVA = "0x4CB60E0", Offset = "0x4CB60E0", VA = "0x4CB60E0")]
+	[Token(Token = "0x6000444")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnMouseDownMessageListener()
 	{
 	}

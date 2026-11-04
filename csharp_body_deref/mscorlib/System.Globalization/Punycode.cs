@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005D8")]
+[Token(Token = "0x20005AA")]
 internal class Punycode : System.Globalization.Bootstring
 {
-	[Token(Token = "0x6002E40")]
-	[Address(RVA = "0x3C78590", Offset = "0x3C78590", VA = "0x3C78590")]
+	[Token(Token = "0x6002B4D")]
+	[Address(RVA = "0x1AC3140", Offset = "0x1AC1740", VA = "0x181AC3140")]
 	public Punycode()
 	{
 	}

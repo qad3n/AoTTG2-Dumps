@@ -7,42 +7,44 @@
 // ===============================================================
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.Scripting.APIUpdating;
 
-[Token(Token = "0x20001F9")]
+[Token(Token = "0x2000249")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 internal struct MovedFromAttributeData
 {
-	[Token(Token = "0x40006A3")]
+	[Token(Token = "0x400074C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public string className;
 
-	[Token(Token = "0x40006A4")]
+	[Token(Token = "0x400074D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public string nameSpace;
 
-	[Token(Token = "0x40006A5")]
+	[Token(Token = "0x400074E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public string assembly;
 
-	[Token(Token = "0x40006A6")]
+	[Token(Token = "0x400074F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public bool classHasChanged;
 
-	[Token(Token = "0x40006A7")]
+	[Token(Token = "0x4000750")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x19")]
 	public bool nameSpaceHasChanged;
 
-	[Token(Token = "0x40006A8")]
+	[Token(Token = "0x4000751")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1A")]
 	public bool assemblyHasChanged;
 
-	[Token(Token = "0x40006A9")]
+	[Token(Token = "0x4000752")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1B")]
 	public bool autoUdpateAPI;
 
-	[Token(Token = "0x6000D93")]
-	[Address(RVA = "0x4E13B20", Offset = "0x4E13B20", VA = "0x4E13B20")]
+	[Token(Token = "0x6001187")]
+	[Address(RVA = "0x2F4B4D0", Offset = "0x2F49AD0", VA = "0x182F4B4D0")]
 	public void Set(bool autoUpdateAPI, [Optional] string sourceNamespace, [Optional] string sourceAssembly, [Optional] string sourceClassName)
 	{
 	}

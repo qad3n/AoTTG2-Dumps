@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.WebSockets;
 
-[Token(Token = "0x200022D")]
+[Token(Token = "0x20003C5")]
 public enum WebSocketMessageType
 {
-	[Token(Token = "0x4000C65")]
+	[Token(Token = "0x40010B8")]
 	Text,
-	[Token(Token = "0x4000C66")]
+	[Token(Token = "0x40010B9")]
 	Binary,
-	[Token(Token = "0x4000C67")]
+	[Token(Token = "0x40010BA")]
 	Close
 }

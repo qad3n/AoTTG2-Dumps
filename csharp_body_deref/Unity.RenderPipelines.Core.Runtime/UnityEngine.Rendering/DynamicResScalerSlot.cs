@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200007C")]
+[Token(Token = "0x2000044")]
 public enum DynamicResScalerSlot
 {
-	[Token(Token = "0x40001D4")]
+	[Token(Token = "0x40000E0")]
 	User,
-	[Token(Token = "0x40001D5")]
+	[Token(Token = "0x40000E1")]
 	System,
-	[Token(Token = "0x40001D6")]
+	[Token(Token = "0x40000E2")]
 	Count
 }

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 public enum CanvasUpdate
 {
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000012")]
 	Prelayout,
-	[Token(Token = "0x4000018")]
+	[Token(Token = "0x4000013")]
 	Layout,
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x4000014")]
 	PostLayout,
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000015")]
 	PreRender,
-	[Token(Token = "0x400001B")]
+	[Token(Token = "0x4000016")]
 	LatePreRender,
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000017")]
 	MaxUpdateValue
 }

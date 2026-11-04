@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001A4")]
+[Token(Token = "0x20001E4")]
 public struct DrivenRectTransformTracker
 {
-	[Token(Token = "0x6000BE8")]
-	[Address(RVA = "0x4E06FD0", Offset = "0x4E06FD0", VA = "0x4E06FD0")]
+	[Token(Token = "0x6000FCD")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Add(Object driver, RectTransform rectTransform, DrivenTransformProperties drivenProperties)
 	{
 	}
 
-	[Token(Token = "0x6000BE9")]
-	[Address(RVA = "0x4E06FE0", Offset = "0x4E06FE0", VA = "0x4E06FE0")]
+	[Token(Token = "0x6000FCE")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Clear()
 	{
 	}

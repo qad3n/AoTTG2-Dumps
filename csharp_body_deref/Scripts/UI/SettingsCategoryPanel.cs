@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20006E7")]
+[Token(Token = "0x2000866")]
 internal class SettingsCategoryPanel : CategoryPanel
 {
-	[Token(Token = "0x17000D6C")]
+	[Token(Token = "0x17000ECC")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x60044C8")]
-		[Address(RVA = "0x4342AC0", Offset = "0x4342AC0", VA = "0x4342AC0", Slot = "13")]
+		[Token(Token = "0x6005101")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D6D")]
+	[Token(Token = "0x17000ECD")]
 	protected override bool DoublePanelDivider
 	{
-		[Token(Token = "0x60044C9")]
-		[Address(RVA = "0x4342AD0", Offset = "0x4342AD0", VA = "0x4342AD0", Slot = "14")]
+		[Token(Token = "0x6005102")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60044CA")]
-	[Address(RVA = "0x4342930", Offset = "0x4342930", VA = "0x4342930")]
+	[Token(Token = "0x6005103")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public SettingsCategoryPanel()
 	{
 	}

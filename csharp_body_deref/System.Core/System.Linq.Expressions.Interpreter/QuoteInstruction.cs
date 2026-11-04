@@ -29,41 +29,41 @@ internal sealed class QuoteInstruction : Instruction
 		[FieldOffset(Offset = "0x20")]
 		private readonly Stack<HashSet<ParameterExpression>> _shadowedVars;
 
-		[Token(Token = "0x6000B28")]
-		[Address(RVA = "0x4506860", Offset = "0x4506860", VA = "0x4506860")]
+		[Token(Token = "0x6000B27")]
+		[Address(RVA = "0x246F100", Offset = "0x246D700", VA = "0x18246F100")]
 		internal ExpressionQuoter(Dictionary<ParameterExpression, LocalVariable> hoistedVariables, InterpretedFrame frame)
 		{
 		}
 
-		[Token(Token = "0x6000B29")]
+		[Token(Token = "0x6000B28")]
 		protected internal override Expression VisitLambda<T>(Expression<T> node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B2A")]
-		[Address(RVA = "0x4506910", Offset = "0x4506910", VA = "0x4506910", Slot = "6")]
+		[Token(Token = "0x6000B29")]
+		[Address(RVA = "0x246EC20", Offset = "0x246D220", VA = "0x18246EC20", Slot = "6")]
 		protected internal override Expression VisitBlock(BlockExpression node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B2B")]
-		[Address(RVA = "0x4506A90", Offset = "0x4506A90", VA = "0x4506A90", Slot = "22")]
+		[Token(Token = "0x6000B2A")]
+		[Address(RVA = "0x246EDA0", Offset = "0x246D3A0", VA = "0x18246EDA0", Slot = "22")]
 		protected override CatchBlock VisitCatchBlock(CatchBlock node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B2C")]
-		[Address(RVA = "0x4506C20", Offset = "0x4506C20", VA = "0x4506C20", Slot = "21")]
+		[Token(Token = "0x6000B2B")]
+		[Address(RVA = "0x246EF30", Offset = "0x246D530", VA = "0x18246EF30", Slot = "21")]
 		protected internal override Expression VisitParameter(ParameterExpression node)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000B2D")]
-		[Address(RVA = "0x4506CE0", Offset = "0x4506CE0", VA = "0x4506CE0")]
+		[Token(Token = "0x6000B2C")]
+		[Address(RVA = "0x246EB20", Offset = "0x246D120", VA = "0x18246EB20")]
 		private IStrongBox GetBox(ParameterExpression variable)
 		{
 			return null;
@@ -81,8 +81,8 @@ internal sealed class QuoteInstruction : Instruction
 	[Token(Token = "0x17000248")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000B25")]
-		[Address(RVA = "0x4506780", Offset = "0x4506780", VA = "0x4506780", Slot = "5")]
+		[Token(Token = "0x6000B24")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -92,22 +92,22 @@ internal sealed class QuoteInstruction : Instruction
 	[Token(Token = "0x17000249")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000B26")]
-		[Address(RVA = "0x4506790", Offset = "0x4506790", VA = "0x4506790", Slot = "9")]
+		[Token(Token = "0x6000B25")]
+		[Address(RVA = "0x247C9D0", Offset = "0x247AFD0", VA = "0x18247C9D0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x4506740", Offset = "0x4506740", VA = "0x4506740")]
+	[Token(Token = "0x6000B23")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public QuoteInstruction(Expression operand, Dictionary<ParameterExpression, LocalVariable> hoistedVariables)
 	{
 	}
 
-	[Token(Token = "0x6000B27")]
-	[Address(RVA = "0x45067C0", Offset = "0x45067C0", VA = "0x45067C0", Slot = "8")]
+	[Token(Token = "0x6000B26")]
+	[Address(RVA = "0x247C890", Offset = "0x247AE90", VA = "0x18247C890", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

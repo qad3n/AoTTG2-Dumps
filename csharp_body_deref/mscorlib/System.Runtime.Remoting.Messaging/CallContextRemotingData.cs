@@ -10,49 +10,49 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x2000399")]
+[Token(Token = "0x20003C8")]
 internal class CallContextRemotingData : ICloneable
 {
-	[Token(Token = "0x4000F3D")]
+	[Token(Token = "0x4000F47")]
 	[FieldOffset(Offset = "0x10")]
 	private string _logicalCallID;
 
-	[Token(Token = "0x1700039D")]
+	[Token(Token = "0x1700039F")]
 	internal string LogicalCallID
 	{
-		[Token(Token = "0x6001E01")]
-		[Address(RVA = "0x3B86510", Offset = "0x3B86510", VA = "0x3B86510")]
+		[Token(Token = "0x6001E70")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001E02")]
-		[Address(RVA = "0x3B86520", Offset = "0x3B86520", VA = "0x3B86520")]
+		[Token(Token = "0x6001E71")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700039E")]
+	[Token(Token = "0x170003A0")]
 	internal bool HasInfo
 	{
-		[Token(Token = "0x6001E03")]
-		[Address(RVA = "0x3B86300", Offset = "0x3B86300", VA = "0x3B86300")]
+		[Token(Token = "0x6001E72")]
+		[Address(RVA = "0x19DA120", Offset = "0x19D8720", VA = "0x1819DA120")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001E04")]
-	[Address(RVA = "0x3B86220", Offset = "0x3B86220", VA = "0x3B86220", Slot = "4")]
+	[Token(Token = "0x6001E73")]
+	[Address(RVA = "0x19F12C0", Offset = "0x19EF8C0", VA = "0x1819F12C0", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001E05")]
-	[Address(RVA = "0x3B86530", Offset = "0x3B86530", VA = "0x3B86530")]
+	[Token(Token = "0x6001E74")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CallContextRemotingData()
 	{
 	}

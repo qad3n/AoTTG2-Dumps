@@ -11,19 +11,19 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine._Scripting.APIUpdating;
 
-[Token(Token = "0x20001B0")]
+[Token(Token = "0x20001EC")]
 internal class APIUpdaterRuntimeHelpers
 {
-	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x4E0D7B0", Offset = "0x4E0D7B0", VA = "0x4E0D7B0")]
+	[Token(Token = "0x6001060")]
+	[Address(RVA = "0x2F2D8D0", Offset = "0x2F2BED0", VA = "0x182F2D8D0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool GetMovedFromAttributeDataForType(Type sourceType, out string assembly, out string nsp, out string klass)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C9E")]
-	[Address(RVA = "0x4E0D900", Offset = "0x4E0D900", VA = "0x4E0D900")]
+	[Token(Token = "0x6001061")]
+	[Address(RVA = "0x2F2DA30", Offset = "0x2F2C030", VA = "0x182F2DA30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static bool GetObsoleteTypeRedirection(Type sourceType, out string assemblyName, out string nsp, out string className)
 	{

@@ -12,49 +12,49 @@ namespace Unity.VisualScripting.FullSerializer.Internal;
 [Token(Token = "0x200021B")]
 public struct fsOption<T>
 {
-	[Token(Token = "0x40009D8")]
+	[Token(Token = "0x40009D6")]
 	[FieldOffset(Offset = "0x0")]
 	private bool _hasValue;
 
-	[Token(Token = "0x40009D9")]
+	[Token(Token = "0x40009D7")]
 	[FieldOffset(Offset = "0x0")]
 	private T _value;
 
-	[Token(Token = "0x40009DA")]
+	[Token(Token = "0x40009D8")]
 	[FieldOffset(Offset = "0x0")]
 	public static fsOption<T> Empty;
 
-	[Token(Token = "0x17000219")]
+	[Token(Token = "0x1700021C")]
 	public bool HasValue
 	{
-		[Token(Token = "0x60012EA")]
+		[Token(Token = "0x60012F7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700021A")]
+	[Token(Token = "0x1700021D")]
 	public bool IsEmpty
 	{
-		[Token(Token = "0x60012EB")]
+		[Token(Token = "0x60012F8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700021B")]
+	[Token(Token = "0x1700021E")]
 	public T Value
 	{
-		[Token(Token = "0x60012EC")]
+		[Token(Token = "0x60012F9")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x60012ED")]
+	[Token(Token = "0x60012FA")]
 	public fsOption(T value)
 	{
 	}
@@ -62,7 +62,7 @@ public struct fsOption<T>
 [Token(Token = "0x200021C")]
 public static class fsOption
 {
-	[Token(Token = "0x60012EE")]
+	[Token(Token = "0x60012FB")]
 	public static fsOption<T> Just<T>(T value)
 	{
 		return default(fsOption<T>);

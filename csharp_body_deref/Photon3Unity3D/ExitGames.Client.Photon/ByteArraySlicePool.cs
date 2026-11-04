@@ -29,13 +29,13 @@ public class ByteArraySlicePool
 	public int MinStackIndex
 	{
 		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x3E5CB40", Offset = "0x3E5CB40", VA = "0x3E5CB40")]
+		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x3E5CB50", Offset = "0x3E5CB50", VA = "0x3E5CB50")]
+		[Address(RVA = "0x1CBB710", Offset = "0x1CB9D10", VA = "0x181CBB710")]
 		set
 		{
 		}
@@ -45,7 +45,7 @@ public class ByteArraySlicePool
 	public int AllocationCounter
 	{
 		[Token(Token = "0x6000009")]
-		[Address(RVA = "0x3E5CB80", Offset = "0x3E5CB80", VA = "0x3E5CB80")]
+		[Address(RVA = "0xE28270", Offset = "0xE26870", VA = "0x180E28270")]
 		get
 		{
 			return default(int);
@@ -53,42 +53,42 @@ public class ByteArraySlicePool
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x3E5CB90", Offset = "0x3E5CB90", VA = "0x3E5CB90")]
+	[Address(RVA = "0x1CBB580", Offset = "0x1CB9B80", VA = "0x181CBB580")]
 	public ByteArraySlicePool()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x3E5CD30", Offset = "0x3E5CD30", VA = "0x3E5CD30")]
+	[Address(RVA = "0x1CBADD0", Offset = "0x1CB93D0", VA = "0x181CBADD0")]
 	public ByteArraySlice Acquire(byte[] buffer, int offset = 0, int count = 0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x3E5D1A0", Offset = "0x3E5D1A0", VA = "0x3E5D1A0")]
+	[Address(RVA = "0x1CBAAC0", Offset = "0x1CB90C0", VA = "0x181CBAAC0")]
 	public ByteArraySlice Acquire(int minByteCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x3E5CFB0", Offset = "0x3E5CFB0", VA = "0x3E5CFB0")]
+	[Address(RVA = "0x1CBB1D0", Offset = "0x1CB97D0", VA = "0x181CBB1D0")]
 	private ByteArraySlice PopOrCreate(Stack<ByteArraySlice> stack, int stackIndex)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x3E5C910", Offset = "0x3E5C910", VA = "0x3E5C910")]
+	[Address(RVA = "0x1CBB380", Offset = "0x1CB9980", VA = "0x181CBB380")]
 	internal bool Release(ByteArraySlice slice, int stackIndex)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x3E5D510", Offset = "0x3E5D510", VA = "0x3E5D510")]
-	public void ClearPools(int lower = 0, int upper = int.MaxValue)
+	[Address(RVA = "0x1CBAFA0", Offset = "0x1CB95A0", VA = "0x181CBAFA0")]
+	public void ClearPools(int lower = 0, int upper = 2147483647)
 	{
 	}
 }

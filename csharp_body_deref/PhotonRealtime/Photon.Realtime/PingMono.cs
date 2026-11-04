@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200003D")]
+[Token(Token = "0x200003B")]
 public class PingMono : PhotonPing
 {
-	[Token(Token = "0x40001E0")]
+	[Token(Token = "0x40001DB")]
 	[FieldOffset(Offset = "0x30")]
 	private Socket sock;
 
-	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x3ECFCA0", Offset = "0x3ECFCA0", VA = "0x3ECFCA0", Slot = "5")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x1D24ED0", Offset = "0x1D234D0", VA = "0x181D24ED0", Slot = "5")]
 	public override bool StartPing(string ip)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x3ED0000", Offset = "0x3ED0000", VA = "0x3ED0000", Slot = "6")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x1D24CE0", Offset = "0x1D232E0", VA = "0x181D24CE0", Slot = "6")]
 	public override bool Done()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x3ED0240", Offset = "0x3ED0240", VA = "0x3ED0240", Slot = "7")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x1D24C80", Offset = "0x1D23280", VA = "0x181D24C80", Slot = "7")]
 	public override void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600015A")]
-	[Address(RVA = "0x3ED02F0", Offset = "0x3ED02F0", VA = "0x3ED02F0")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x1D25140", Offset = "0x1D23740", VA = "0x181D25140")]
 	public PingMono()
 	{
 	}

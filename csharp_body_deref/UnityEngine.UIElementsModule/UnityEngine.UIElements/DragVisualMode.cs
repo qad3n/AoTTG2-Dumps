@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200014F")]
-internal enum DragVisualMode
+[Token(Token = "0x2000194")]
+public enum DragVisualMode
 {
-	[Token(Token = "0x40005D6")]
+	[Token(Token = "0x4000702")]
 	None,
-	[Token(Token = "0x40005D7")]
+	[Token(Token = "0x4000703")]
 	Copy,
-	[Token(Token = "0x40005D8")]
+	[Token(Token = "0x4000704")]
 	Move,
-	[Token(Token = "0x40005D9")]
+	[Token(Token = "0x4000705")]
 	Rejected
 }

@@ -10,83 +10,83 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x200022D")]
+[Token(Token = "0x2000230")]
 internal class MinimumQueue<T>
 {
-	[Token(Token = "0x4000655")]
+	[Token(Token = "0x4000668")]
 	private const int MinimumGrow = 4;
 
-	[Token(Token = "0x4000656")]
+	[Token(Token = "0x4000669")]
 	private const int GrowFactor = 200;
 
-	[Token(Token = "0x4000657")]
+	[Token(Token = "0x400066A")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] array;
 
-	[Token(Token = "0x4000658")]
+	[Token(Token = "0x400066B")]
 	[FieldOffset(Offset = "0x0")]
 	private int head;
 
-	[Token(Token = "0x4000659")]
+	[Token(Token = "0x400066C")]
 	[FieldOffset(Offset = "0x0")]
 	private int tail;
 
-	[Token(Token = "0x400065A")]
+	[Token(Token = "0x400066D")]
 	[FieldOffset(Offset = "0x0")]
 	private int size;
 
-	[Token(Token = "0x17000075")]
+	[Token(Token = "0x17000077")]
 	public int Count
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000CA4")]
+		[Token(Token = "0x6000CC8")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000CA3")]
+	[Token(Token = "0x6000CC7")]
 	public MinimumQueue(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6000CA5")]
+	[Token(Token = "0x6000CC9")]
 	public T Peek()
 	{
 		return (T)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CA6")]
+	[Token(Token = "0x6000CCA")]
 	public void Enqueue(T item)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CA7")]
+	[Token(Token = "0x6000CCB")]
 	public T Dequeue()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000CA8")]
+	[Token(Token = "0x6000CCC")]
 	private void Grow()
 	{
 	}
 
-	[Token(Token = "0x6000CA9")]
+	[Token(Token = "0x6000CCD")]
 	private void SetCapacity(int capacity)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CAA")]
+	[Token(Token = "0x6000CCE")]
 	private void MoveNext(ref int index)
 	{
 	}
 
-	[Token(Token = "0x6000CAB")]
+	[Token(Token = "0x6000CCF")]
 	private void ThrowForEmptyQueue()
 	{
 	}

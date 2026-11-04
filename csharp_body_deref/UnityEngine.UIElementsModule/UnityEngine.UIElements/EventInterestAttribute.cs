@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200046B")]
+[Token(Token = "0x2000545")]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
 public class EventInterestAttribute : Attribute
 {
-	[Token(Token = "0x4000D4E")]
+	[Token(Token = "0x40011EB")]
 	[FieldOffset(Offset = "0x10")]
 	internal Type[] eventTypes;
 
-	[Token(Token = "0x4000D4F")]
+	[Token(Token = "0x40011EC")]
 	[FieldOffset(Offset = "0x18")]
 	internal EventCategoryFlags categoryFlags;
 
-	[Token(Token = "0x6001B8C")]
-	[Address(RVA = "0x4F75F40", Offset = "0x4F75F40", VA = "0x4F75F40")]
+	[Token(Token = "0x60027EF")]
+	[Address(RVA = "0x315C4B0", Offset = "0x315AAB0", VA = "0x18315C4B0")]
 	public EventInterestAttribute(params Type[] eventTypes)
 	{
 	}
 
-	[Token(Token = "0x6001B8D")]
-	[Address(RVA = "0x4F75F80", Offset = "0x4F75F80", VA = "0x4F75F80")]
+	[Token(Token = "0x60027F0")]
+	[Address(RVA = "0x315C480", Offset = "0x315AA80", VA = "0x18315C480")]
 	public EventInterestAttribute(EventInterestOptions interests)
 	{
 	}
 
-	[Token(Token = "0x6001B8E")]
-	[Address(RVA = "0x4F75FA0", Offset = "0x4F75FA0", VA = "0x4F75FA0")]
+	[Token(Token = "0x60027F1")]
+	[Address(RVA = "0x315C480", Offset = "0x315AA80", VA = "0x18315C480")]
 	internal EventInterestAttribute(EventInterestOptionsInternal interests)
 	{
 	}

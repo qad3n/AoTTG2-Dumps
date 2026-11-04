@@ -17,274 +17,274 @@ namespace System.Reflection;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200050B")]
-[ComVisible(true)]
+[Token(Token = "0x200053B")]
 [ComDefaultInterface(typeof(_AssemblyName))]
+[ComVisible(true)]
 [ClassInterface(ClassInterfaceType.None)]
 public sealed class AssemblyName : ICloneable, ISerializable, IDeserializationCallback, _AssemblyName
 {
-	[Token(Token = "0x40014FF")]
+	[Token(Token = "0x40014FE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string name;
 
-	[Token(Token = "0x4001500")]
+	[Token(Token = "0x40014FF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string codebase;
 
-	[Token(Token = "0x4001501")]
+	[Token(Token = "0x4001500")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private int major;
 
-	[Token(Token = "0x4001502")]
+	[Token(Token = "0x4001501")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 	private int minor;
 
-	[Token(Token = "0x4001503")]
+	[Token(Token = "0x4001502")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private int build;
 
-	[Token(Token = "0x4001504")]
+	[Token(Token = "0x4001503")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	private int revision;
 
-	[Token(Token = "0x4001505")]
+	[Token(Token = "0x4001504")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private CultureInfo cultureinfo;
 
-	[Token(Token = "0x4001506")]
+	[Token(Token = "0x4001505")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private AssemblyNameFlags flags;
 
-	[Token(Token = "0x4001507")]
+	[Token(Token = "0x4001506")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 	private AssemblyHashAlgorithm hashalg;
 
-	[Token(Token = "0x4001508")]
+	[Token(Token = "0x4001507")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private StrongNameKeyPair keypair;
 
-	[Token(Token = "0x4001509")]
+	[Token(Token = "0x4001508")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private byte[] publicKey;
 
-	[Token(Token = "0x400150A")]
+	[Token(Token = "0x4001509")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private byte[] keyToken;
 
-	[Token(Token = "0x400150B")]
+	[Token(Token = "0x400150A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private AssemblyVersionCompatibility versioncompat;
 
-	[Token(Token = "0x400150C")]
+	[Token(Token = "0x400150B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	private Version version;
 
-	[Token(Token = "0x400150D")]
+	[Token(Token = "0x400150C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private ProcessorArchitecture processor_architecture;
 
-	[Token(Token = "0x400150E")]
+	[Token(Token = "0x400150D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x6C")]
 	private AssemblyContentType contentType;
 
-	[Token(Token = "0x17000542")]
+	[Token(Token = "0x17000545")]
 	public string Name
 	{
-		[Token(Token = "0x60025ED")]
-		[Address(RVA = "0x3BDCB80", Offset = "0x3BDCB80", VA = "0x3BDCB80")]
+		[Token(Token = "0x6002670")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60025EE")]
-		[Address(RVA = "0x3BDCB90", Offset = "0x3BDCB90", VA = "0x3BDCB90")]
+		[Token(Token = "0x6002671")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
-		}
-	}
-
-	[Token(Token = "0x17000543")]
-	public CultureInfo CultureInfo
-	{
-		[Token(Token = "0x60025EF")]
-		[Address(RVA = "0x3BDCBA0", Offset = "0x3BDCBA0", VA = "0x3BDCBA0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60025F0")]
-		[Address(RVA = "0x3BDCBB0", Offset = "0x3BDCBB0", VA = "0x3BDCBB0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000544")]
-	public AssemblyNameFlags Flags
-	{
-		[Token(Token = "0x60025F1")]
-		[Address(RVA = "0x3BDCBC0", Offset = "0x3BDCBC0", VA = "0x3BDCBC0")]
-		get
-		{
-			return default(AssemblyNameFlags);
-		}
-		[Token(Token = "0x60025F2")]
-		[Address(RVA = "0x3BDCBD0", Offset = "0x3BDCBD0", VA = "0x3BDCBD0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000545")]
-	public string FullName
-	{
-		[Token(Token = "0x60025F3")]
-		[Address(RVA = "0x3BDCBE0", Offset = "0x3BDCBE0", VA = "0x3BDCBE0")]
-		get
-		{
-			return null;
 		}
 	}
 
 	[Token(Token = "0x17000546")]
-	public Version Version
+	public CultureInfo CultureInfo
 	{
-		[Token(Token = "0x60025F4")]
-		[Address(RVA = "0x3BDD130", Offset = "0x3BDD130", VA = "0x3BDD130")]
+		[Token(Token = "0x6002672")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60025F5")]
-		[Address(RVA = "0x3BDBD00", Offset = "0x3BDBD00", VA = "0x3BDBD00")]
+		[Token(Token = "0x6002673")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000547")]
-	private bool IsPublicKeyValid
+	public AssemblyNameFlags Flags
 	{
-		[Token(Token = "0x60025F9")]
-		[Address(RVA = "0x3BDD380", Offset = "0x3BDD380", VA = "0x3BDD380")]
+		[Token(Token = "0x6002674")]
+		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
 		get
 		{
-			return default(bool);
+			return default(AssemblyNameFlags);
+		}
+		[Token(Token = "0x6002675")]
+		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000548")]
-	public string CultureName
+	public string FullName
 	{
-		[Token(Token = "0x6002601")]
-		[Address(RVA = "0x3BDD910", Offset = "0x3BDD910", VA = "0x3BDD910")]
+		[Token(Token = "0x6002676")]
+		[Address(RVA = "0x1A40010", Offset = "0x1A3E610", VA = "0x181A40010")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60025E9")]
-	[Address(RVA = "0x3BDBCB0", Offset = "0x3BDBCB0", VA = "0x3BDBCB0")]
+	[Token(Token = "0x17000549")]
+	public Version Version
+	{
+		[Token(Token = "0x6002677")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6002678")]
+		[Address(RVA = "0x1A404A0", Offset = "0x1A3EAA0", VA = "0x181A404A0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700054A")]
+	private bool IsPublicKeyValid
+	{
+		[Token(Token = "0x600267C")]
+		[Address(RVA = "0x1A403F0", Offset = "0x1A3E9F0", VA = "0x181A403F0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700054B")]
+	public string CultureName
+	{
+		[Token(Token = "0x6002684")]
+		[Address(RVA = "0x1A3FFF0", Offset = "0x1A3E5F0", VA = "0x181A3FFF0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600266C")]
+	[Address(RVA = "0x1A3FA40", Offset = "0x1A3E040", VA = "0x181A3FA40")]
 	public AssemblyName()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60025EA")]
-	[Address(RVA = "0x3BDC200", Offset = "0x3BDC200", VA = "0x3BDC200")]
+	[Token(Token = "0x600266D")]
+	[Address(RVA = "0x1A3F780", Offset = "0x1A3DD80", VA = "0x181A3F780")]
 	private static extern bool ParseAssemblyName(IntPtr name, out Mono.MonoAssemblyName aname, out bool is_version_definited, out bool is_token_defined);
 
-	[Token(Token = "0x60025EB")]
-	[Address(RVA = "0x3BCF000", Offset = "0x3BCF000", VA = "0x3BCF000")]
+	[Token(Token = "0x600266E")]
+	[Address(RVA = "0x1A3F7F0", Offset = "0x1A3DDF0", VA = "0x181A3F7F0")]
 	public AssemblyName(string assemblyName)
 	{
 	}
 
-	[Token(Token = "0x60025EC")]
-	[Address(RVA = "0x3BDC630", Offset = "0x3BDC630", VA = "0x3BDC630")]
+	[Token(Token = "0x600266F")]
+	[Address(RVA = "0x1A3FA60", Offset = "0x1A3E060", VA = "0x181A3FA60")]
 	internal AssemblyName(SerializationInfo si, StreamingContext sc)
 	{
 	}
 
-	[Token(Token = "0x60025F6")]
-	[Address(RVA = "0x3BDD140", Offset = "0x3BDD140", VA = "0x3BDD140", Slot = "3")]
+	[Token(Token = "0x6002679")]
+	[Address(RVA = "0x1A3F7C0", Offset = "0x1A3DDC0", VA = "0x181A3F7C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60025F7")]
-	[Address(RVA = "0x3BDD160", Offset = "0x3BDD160", VA = "0x3BDD160")]
+	[Token(Token = "0x600267A")]
+	[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 	public byte[] GetPublicKey()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60025F8")]
-	[Address(RVA = "0x3BDD170", Offset = "0x3BDD170", VA = "0x3BDD170")]
+	[Token(Token = "0x600267B")]
+	[Address(RVA = "0x1A3F520", Offset = "0x1A3DB20", VA = "0x181A3F520")]
 	public byte[] GetPublicKeyToken()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60025FA")]
-	[Address(RVA = "0x3BDCF40", Offset = "0x3BDCF40", VA = "0x3BDCF40")]
+	[Token(Token = "0x600267D")]
+	[Address(RVA = "0x1A3F610", Offset = "0x1A3DC10", VA = "0x181A3F610")]
 	private byte[] InternalGetPublicKeyToken()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60025FB")]
-	[Address(RVA = "0x3BDD4D0", Offset = "0x3BDD4D0", VA = "0x3BDD4D0")]
+	[Token(Token = "0x600267E")]
+	[Address(RVA = "0x1A40480", Offset = "0x1A3EA80", VA = "0x181A40480")]
 	private unsafe static extern void get_public_token(byte* token, byte* pubkey, int len);
 
-	[Token(Token = "0x60025FC")]
-	[Address(RVA = "0x3BDD430", Offset = "0x3BDD430", VA = "0x3BDD430")]
+	[Token(Token = "0x600267F")]
+	[Address(RVA = "0x1A3EDF0", Offset = "0x1A3D3F0", VA = "0x181A3EDF0")]
 	private byte[] ComputePublicKeyToken()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60025FD")]
-	[Address(RVA = "0x3BDBCD0", Offset = "0x3BDBCD0", VA = "0x3BDBCD0")]
+	[Token(Token = "0x6002680")]
+	[Address(RVA = "0x1A3F790", Offset = "0x1A3DD90", VA = "0x181A3F790")]
 	public void SetPublicKey(byte[] publicKey)
 	{
 	}
 
-	[Token(Token = "0x60025FE")]
-	[Address(RVA = "0x3BDD4E0", Offset = "0x3BDD4E0", VA = "0x3BDD4E0", Slot = "5")]
+	[Token(Token = "0x6002681")]
+	[Address(RVA = "0x1A3F250", Offset = "0x1A3D850", VA = "0x181A3F250", Slot = "5")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60025FF")]
-	[Address(RVA = "0x3BDD7C0", Offset = "0x3BDD7C0", VA = "0x3BDD7C0", Slot = "4")]
+	[Token(Token = "0x6002682")]
+	[Address(RVA = "0x1A3ECF0", Offset = "0x1A3D2F0", VA = "0x181A3ECF0", Slot = "4")]
 	public object Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002600")]
-	[Address(RVA = "0x3BDD8C0", Offset = "0x3BDD8C0", VA = "0x3BDD8C0", Slot = "6")]
+	[Token(Token = "0x6002683")]
+	[Address(RVA = "0x1A3F700", Offset = "0x1A3DD00", VA = "0x181A3F700", Slot = "6")]
 	public void OnDeserialization(object sender)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6002602")]
-	[Address(RVA = "0x3BDD930", Offset = "0x3BDD930", VA = "0x3BDD930")]
+	[Token(Token = "0x6002685")]
+	[Address(RVA = "0x1A3F240", Offset = "0x1A3D840", VA = "0x181A3F240")]
 	private unsafe static extern Mono.MonoAssemblyName* GetNativeName(IntPtr assembly_ptr);
 
-	[Token(Token = "0x6002603")]
-	[Address(RVA = "0x3BDC210", Offset = "0x3BDC210", VA = "0x3BDC210")]
+	[Token(Token = "0x6002686")]
+	[Address(RVA = "0x1A3EF80", Offset = "0x1A3D580", VA = "0x181A3EF80")]
 	internal unsafe void FillName(Mono.MonoAssemblyName* native, string codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef)
 	{
 	}
 
-	[Token(Token = "0x6002604")]
-	[Address(RVA = "0x3BDD940", Offset = "0x3BDD940", VA = "0x3BDD940")]
+	[Token(Token = "0x6002687")]
+	[Address(RVA = "0x1A3EE90", Offset = "0x1A3D490", VA = "0x181A3EE90")]
 	internal static AssemblyName Create(Assembly assembly, bool fillCodebase)
 	{
 		return null;

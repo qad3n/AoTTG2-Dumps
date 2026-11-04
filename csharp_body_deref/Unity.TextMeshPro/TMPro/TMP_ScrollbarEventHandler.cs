@@ -11,33 +11,34 @@ using UnityEngine.EventSystems;
 
 namespace TMPro;
 
-[Token(Token = "0x2000077")]
+[Token(Token = "0x200006C")]
+[TMPro.TMPHelpURL("index")]
 public class TMP_ScrollbarEventHandler : MonoBehaviour, IPointerClickHandler, IEventSystemHandler, ISelectHandler, IDeselectHandler
 {
-	[Token(Token = "0x40003A5")]
+	[Token(Token = "0x4000309")]
 	[FieldOffset(Offset = "0x20")]
 	public bool isSelected;
 
-	[Token(Token = "0x60003C6")]
-	[Address(RVA = "0x4C8AB20", Offset = "0x4C8AB20", VA = "0x4C8AB20", Slot = "4")]
+	[Token(Token = "0x600035D")]
+	[Address(RVA = "0x2D3E3B0", Offset = "0x2D3C9B0", VA = "0x182D3E3B0", Slot = "4")]
 	public void OnPointerClick(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60003C7")]
-	[Address(RVA = "0x4C8AB80", Offset = "0x4C8AB80", VA = "0x4C8AB80", Slot = "5")]
+	[Token(Token = "0x600035E")]
+	[Address(RVA = "0x2D3E410", Offset = "0x2D3CA10", VA = "0x182D3E410", Slot = "5")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60003C8")]
-	[Address(RVA = "0x4C8ABE0", Offset = "0x4C8ABE0", VA = "0x4C8ABE0", Slot = "6")]
+	[Token(Token = "0x600035F")]
+	[Address(RVA = "0x2D3E350", Offset = "0x2D3C950", VA = "0x182D3E350", Slot = "6")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60003C9")]
-	[Address(RVA = "0x4C8AC40", Offset = "0x4C8AC40", VA = "0x4C8AC40")]
+	[Token(Token = "0x6000360")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public TMP_ScrollbarEventHandler()
 	{
 	}

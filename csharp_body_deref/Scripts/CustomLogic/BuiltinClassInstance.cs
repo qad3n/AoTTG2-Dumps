@@ -9,70 +9,70 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000479")]
+[Token(Token = "0x20005CF")]
 internal abstract class BuiltinClassInstance : CustomLogicClassInstance
 {
-	[Token(Token = "0x40012BB")]
+	[Token(Token = "0x40018FB")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly CLMethodBinding<BuiltinClassInstance> Init;
 
-	[Token(Token = "0x1700091B")]
+	[Token(Token = "0x17000A10")]
 	public override bool LookupBaseClassForVariables
 	{
-		[Token(Token = "0x6002F01")]
-		[Address(RVA = "0x4154440", Offset = "0x4154440", VA = "0x4154440", Slot = "5")]
+		[Token(Token = "0x6003873")]
+		[Address(RVA = "0x209B220", Offset = "0x2099820", VA = "0x18209B220", Slot = "7")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700091C")]
+	[Token(Token = "0x17000A11")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002F02")]
-		[Address(RVA = "0x4154460", Offset = "0x4154460", VA = "0x4154460", Slot = "4")]
+		[Token(Token = "0x6003874")]
+		[Address(RVA = "0x209B120", Offset = "0x2099720", VA = "0x18209B120", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700091D")]
+	[Token(Token = "0x17000A12")]
 	public virtual bool IsAbstract
 	{
-		[Token(Token = "0x6002F03")]
-		[Address(RVA = "0x41544A0", Offset = "0x41544A0", VA = "0x41544A0", Slot = "6")]
+		[Token(Token = "0x6003875")]
+		[Address(RVA = "0x209B1A0", Offset = "0x20997A0", VA = "0x18209B1A0", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700091E")]
+	[Token(Token = "0x17000A13")]
 	public virtual bool IsStatic
 	{
-		[Token(Token = "0x6002F04")]
-		[Address(RVA = "0x41544E0", Offset = "0x41544E0", VA = "0x41544E0", Slot = "7")]
+		[Token(Token = "0x6003876")]
+		[Address(RVA = "0x209B1E0", Offset = "0x20997E0", VA = "0x18209B1E0", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700091F")]
+	[Token(Token = "0x17000A14")]
 	public virtual bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002F05")]
-		[Address(RVA = "0x4154520", Offset = "0x4154520", VA = "0x4154520", Slot = "8")]
+		[Token(Token = "0x6003877")]
+		[Address(RVA = "0x209B160", Offset = "0x2099760", VA = "0x18209B160", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002F00")]
-	[Address(RVA = "0x4147220", Offset = "0x4147220", VA = "0x4147220")]
+	[Token(Token = "0x6003872")]
+	[Address(RVA = "0x209AF90", Offset = "0x2099590", VA = "0x18209AF90")]
 	protected BuiltinClassInstance()
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200054B")]
+[Token(Token = "0x20006A9")]
 public enum ColossalStunState
 {
-	[Token(Token = "0x40018F1")]
+	[Token(Token = "0x4001FB7")]
 	None,
-	[Token(Token = "0x40018F2")]
+	[Token(Token = "0x4001FB8")]
 	Stunned,
-	[Token(Token = "0x40018F3")]
+	[Token(Token = "0x4001FB9")]
 	Recovering
 }

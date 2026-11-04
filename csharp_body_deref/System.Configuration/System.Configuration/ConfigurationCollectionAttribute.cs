@@ -14,7 +14,7 @@ namespace System.Configuration;
 public sealed class ConfigurationCollectionAttribute : Attribute
 {
 	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x448AB60", Offset = "0x448AB60", VA = "0x448AB60")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public ConfigurationCollectionAttribute(Type itemType)
 	{
 	}

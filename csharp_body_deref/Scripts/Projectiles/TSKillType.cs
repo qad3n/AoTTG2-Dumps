@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Projectiles;
 
-[Token(Token = "0x20000E8")]
+[Token(Token = "0x2000108")]
 public enum TSKillType
 {
-	[Token(Token = "0x4000547")]
+	[Token(Token = "0x40005E7")]
 	Air,
-	[Token(Token = "0x4000548")]
+	[Token(Token = "0x40005E8")]
 	Ground,
-	[Token(Token = "0x4000549")]
+	[Token(Token = "0x40005E9")]
 	Kill,
-	[Token(Token = "0x400054A")]
+	[Token(Token = "0x40005EA")]
 	ArmorHit,
-	[Token(Token = "0x400054B")]
+	[Token(Token = "0x40005EB")]
 	CloseShot,
-	[Token(Token = "0x400054C")]
+	[Token(Token = "0x40005EC")]
 	MaxRangeShot
 }

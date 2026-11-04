@@ -22,20 +22,20 @@ public class XmlSchemaAttributeGroupRef : XmlSchemaAnnotated
 	public XmlQualifiedName RefName
 	{
 		[Token(Token = "0x6001573")]
-		[Address(RVA = "0x471F7E0", Offset = "0x471F7E0", VA = "0x471F7E0")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001574")]
-		[Address(RVA = "0x471F7F0", Offset = "0x471F7F0", VA = "0x471F7F0")]
+		[Address(RVA = "0x2666030", Offset = "0x2664630", VA = "0x182666030")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001575")]
-	[Address(RVA = "0x471F880", Offset = "0x471F880", VA = "0x471F880")]
+	[Address(RVA = "0x2665FC0", Offset = "0x26645C0", VA = "0x182665FC0")]
 	public XmlSchemaAttributeGroupRef()
 	{
 	}

@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000158")]
-[GenerateHLSL(PackingRules.Exact, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@15.0.7\\Runtime\\PostProcessing\\HDROutputDefines.cs")]
+[Token(Token = "0x200014D")]
+[GenerateHLSL(PackingRules.Exact, true, false, false, 1, false, false, false, -1, ".\\Library\\PackageCache\\com.unity.render-pipelines.core@6c7e6aba313a\\Runtime\\PostProcessing\\HDROutputDefines.cs")]
 public enum HDRColorspace
 {
-	[Token(Token = "0x40005EB")]
+	[Token(Token = "0x400064B")]
 	Rec709,
-	[Token(Token = "0x40005EC")]
+	[Token(Token = "0x400064C")]
 	Rec2020,
-	[Token(Token = "0x40005ED")]
+	[Token(Token = "0x400064D")]
 	P3D65
 }

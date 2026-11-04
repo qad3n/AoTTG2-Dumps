@@ -21,7 +21,7 @@ public enum TypeNameHandling
 	[Token(Token = "0x4000355")]
 	Arrays = 2,
 	[Token(Token = "0x4000356")]
-	All = 3,
+	All = Objects | Arrays,
 	[Token(Token = "0x4000357")]
 	Auto = 4
 }

@@ -22,14 +22,14 @@ internal readonly struct InstructionArray
 		[FieldOffset(Offset = "0x10")]
 		private readonly InstructionArray _array;
 
-		[Token(Token = "0x600075F")]
-		[Address(RVA = "0x44D3060", Offset = "0x44D3060", VA = "0x44D3060")]
+		[Token(Token = "0x600075E")]
+		[Address(RVA = "0x2444710", Offset = "0x2442D10", VA = "0x182444710")]
 		public DebugView(InstructionArray array)
 		{
 		}
 
-		[Token(Token = "0x6000760")]
-		[Address(RVA = "0x44D3120", Offset = "0x44D3120", VA = "0x44D3120")]
+		[Token(Token = "0x600075F")]
+		[Address(RVA = "0x2444640", Offset = "0x2442C40", VA = "0x182444640")]
 		public InstructionList.DebugView.InstructionView[] GetInstructionViews(bool includeDebugCookies = false)
 		{
 			return null;
@@ -60,8 +60,8 @@ internal readonly struct InstructionArray
 	[FieldOffset(Offset = "0x20")]
 	internal readonly List<KeyValuePair<int, object>> DebugCookies;
 
-	[Token(Token = "0x600075E")]
-	[Address(RVA = "0x44D2FF0", Offset = "0x44D2FF0", VA = "0x44D2FF0")]
+	[Token(Token = "0x600075D")]
+	[Address(RVA = "0x2449B90", Offset = "0x2448190", VA = "0x182449B90")]
 	internal InstructionArray(int maxStackDepth, int maxContinuationDepth, Instruction[] instructions, object[] objects, RuntimeLabel[] labels, List<KeyValuePair<int, object>> debugCookies)
 	{
 	}

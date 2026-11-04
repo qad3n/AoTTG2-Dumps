@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200039D")]
+[Token(Token = "0x200043F")]
 public enum Wrap
 {
-	[Token(Token = "0x4000ACB")]
+	[Token(Token = "0x4000E19")]
 	NoWrap,
-	[Token(Token = "0x4000ACC")]
+	[Token(Token = "0x4000E1A")]
 	Wrap,
-	[Token(Token = "0x4000ACD")]
+	[Token(Token = "0x4000E1B")]
 	WrapReverse
 }

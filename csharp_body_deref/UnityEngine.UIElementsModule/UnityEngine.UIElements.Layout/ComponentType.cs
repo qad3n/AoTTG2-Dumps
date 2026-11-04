@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200050D")]
+[Token(Token = "0x2000604")]
 internal struct ComponentType
 {
-	[Token(Token = "0x40010D4")]
+	[Token(Token = "0x400166B")]
 	[FieldOffset(Offset = "0x0")]
 	public int Size;
 
-	[Token(Token = "0x6001F37")]
+	[Token(Token = "0x6002C81")]
 	public static ComponentType Create<T>() where T : struct
 	{
 		return default(ComponentType);

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x200000F")]
 public interface ITextPreprocessor
 {
-	[Token(Token = "0x6000013")]
+	[Token(Token = "0x6000034")]
 	string PreprocessText(string text);
 }

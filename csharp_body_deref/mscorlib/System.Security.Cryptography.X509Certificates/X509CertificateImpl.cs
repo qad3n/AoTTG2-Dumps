@@ -1,150 +1,154 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Security.Cryptography.X509Certificates.X509CertificateImpl
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using Microsoft.Win32.SafeHandles;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000328")]
+[Token(Token = "0x2000357")]
 internal abstract class X509CertificateImpl : IDisposable
 {
-	[Token(Token = "0x1700030D")]
+	[Token(Token = "0x1700030F")]
 	public abstract bool IsValid
 	{
-		[Token(Token = "0x6001BA8")]
-		get;
-	}
-
-	[Token(Token = "0x1700030E")]
-	public abstract string Issuer
-	{
-		[Token(Token = "0x6001BAB")]
-		get;
-	}
-
-	[Token(Token = "0x1700030F")]
-	public abstract string Subject
-	{
-		[Token(Token = "0x6001BAC")]
+		[Token(Token = "0x6001C15")]
 		get;
 	}
 
 	[Token(Token = "0x17000310")]
-	public abstract byte[] RawData
+	public abstract string Issuer
 	{
-		[Token(Token = "0x6001BAD")]
+		[Token(Token = "0x6001C18")]
 		get;
 	}
 
 	[Token(Token = "0x17000311")]
-	public abstract DateTime NotAfter
+	public abstract string Subject
 	{
-		[Token(Token = "0x6001BAE")]
+		[Token(Token = "0x6001C19")]
 		get;
 	}
 
 	[Token(Token = "0x17000312")]
-	public abstract DateTime NotBefore
+	public abstract byte[] RawData
 	{
-		[Token(Token = "0x6001BAF")]
+		[Token(Token = "0x6001C1A")]
 		get;
 	}
 
 	[Token(Token = "0x17000313")]
-	public abstract byte[] Thumbprint
+	public abstract DateTime NotAfter
 	{
-		[Token(Token = "0x6001BB0")]
+		[Token(Token = "0x6001C1B")]
 		get;
 	}
 
 	[Token(Token = "0x17000314")]
-	public abstract string KeyAlgorithm
+	public abstract DateTime NotBefore
 	{
-		[Token(Token = "0x6001BB2")]
+		[Token(Token = "0x6001C1C")]
 		get;
 	}
 
 	[Token(Token = "0x17000315")]
-	public abstract byte[] KeyAlgorithmParameters
+	public abstract byte[] Thumbprint
 	{
-		[Token(Token = "0x6001BB3")]
+		[Token(Token = "0x6001C1D")]
 		get;
 	}
 
 	[Token(Token = "0x17000316")]
-	public abstract byte[] PublicKeyValue
+	public abstract string KeyAlgorithm
 	{
-		[Token(Token = "0x6001BB4")]
+		[Token(Token = "0x6001C1F")]
 		get;
 	}
 
 	[Token(Token = "0x17000317")]
-	public abstract byte[] SerialNumber
+	public abstract byte[] KeyAlgorithmParameters
 	{
-		[Token(Token = "0x6001BB5")]
+		[Token(Token = "0x6001C20")]
 		get;
 	}
 
 	[Token(Token = "0x17000318")]
-	public abstract bool HasPrivateKey
+	public abstract byte[] PublicKeyValue
 	{
-		[Token(Token = "0x6001BB6")]
+		[Token(Token = "0x6001C21")]
 		get;
 	}
 
-	[Token(Token = "0x6001BA9")]
-	[Address(RVA = "0x3B5A3D0", Offset = "0x3B5A3D0", VA = "0x3B5A3D0")]
+	[Token(Token = "0x17000319")]
+	public abstract byte[] SerialNumber
+	{
+		[Token(Token = "0x6001C22")]
+		get;
+	}
+
+	[Token(Token = "0x1700031A")]
+	public abstract bool HasPrivateKey
+	{
+		[Token(Token = "0x6001C23")]
+		get;
+	}
+
+	[Token(Token = "0x6001C16")]
+	[Address(RVA = "0x19E9D20", Offset = "0x19E8320", VA = "0x1819E9D20")]
 	protected void ThrowIfContextInvalid()
 	{
 	}
 
-	[Token(Token = "0x6001BAA")]
+	[Token(Token = "0x6001C17")]
 	public abstract System.Security.Cryptography.X509Certificates.X509CertificateImpl Clone();
 
-	[Token(Token = "0x6001BB1")]
-	[Address(RVA = "0x3B5A480", Offset = "0x3B5A480", VA = "0x3B5A480", Slot = "2")]
+	[Token(Token = "0x6001C1E")]
+	[Address(RVA = "0x19E9C90", Offset = "0x19E8290", VA = "0x1819E9C90", Slot = "2")]
 	public sealed override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001BB7")]
+	[Token(Token = "0x6001C24")]
 	public abstract RSA GetRSAPrivateKey();
 
-	[Token(Token = "0x6001BB8")]
+	[Token(Token = "0x6001C25")]
 	public abstract DSA GetDSAPrivateKey();
 
-	[Token(Token = "0x6001BB9")]
-	[Address(RVA = "0x3B5A550", Offset = "0x3B5A550", VA = "0x3B5A550", Slot = "0")]
+	[Token(Token = "0x6001C26")]
+	public abstract byte[] Export(X509ContentType contentType, Microsoft.Win32.SafeHandles.SafePasswordHandle password);
+
+	[Token(Token = "0x6001C27")]
+	[Address(RVA = "0x19E9A90", Offset = "0x19E8090", VA = "0x1819E9A90", Slot = "0")]
 	public sealed override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001BBA")]
-	[Address(RVA = "0x3B58C40", Offset = "0x3B58C40", VA = "0x3B58C40", Slot = "4")]
+	[Token(Token = "0x6001C28")]
+	[Address(RVA = "0x19E9A30", Offset = "0x19E8030", VA = "0x1819E9A30", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001BBB")]
-	[Address(RVA = "0x3B5A6C0", Offset = "0x3B5A6C0", VA = "0x3B5A6C0", Slot = "20")]
+	[Token(Token = "0x6001C29")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "21")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001BBC")]
-	[Address(RVA = "0x3B5A6D0", Offset = "0x3B5A6D0", VA = "0x3B5A6D0", Slot = "1")]
+	[Token(Token = "0x6001C2A")]
+	[Address(RVA = "0x19E9C20", Offset = "0x19E8220", VA = "0x1819E9C20", Slot = "1")]
 	~X509CertificateImpl()
 	{
 	}
 
-	[Token(Token = "0x6001BBD")]
-	[Address(RVA = "0x3B5A760", Offset = "0x3B5A760", VA = "0x3B5A760")]
+	[Token(Token = "0x6001C2B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected X509CertificateImpl()
 	{
 	}

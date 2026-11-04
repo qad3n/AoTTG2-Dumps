@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001F0")]
+[Token(Token = "0x20001DF")]
 public class GUIStyleState_DirectConverter : fsDirectConverter<GUIStyleState>
 {
-	[Token(Token = "0x60011D7")]
-	[Address(RVA = "0x4D75040", Offset = "0x4D75040", VA = "0x4D75040", Slot = "10")]
+	[Token(Token = "0x600117C")]
+	[Address(RVA = "0x2E50BF0", Offset = "0x2E4F1F0", VA = "0x182E50BF0", Slot = "10")]
 	protected override fsResult DoSerialize(GUIStyleState model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011D8")]
-	[Address(RVA = "0x4D75220", Offset = "0x4D75220", VA = "0x4D75220", Slot = "11")]
+	[Token(Token = "0x600117D")]
+	[Address(RVA = "0x2E509F0", Offset = "0x2E4EFF0", VA = "0x182E509F0", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref GUIStyleState model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011D9")]
-	[Address(RVA = "0x4D75450", Offset = "0x4D75450", VA = "0x4D75450", Slot = "4")]
+	[Token(Token = "0x600117E")]
+	[Address(RVA = "0x2E509A0", Offset = "0x2E4EFA0", VA = "0x182E509A0", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011DA")]
-	[Address(RVA = "0x4D75490", Offset = "0x4D75490", VA = "0x4D75490")]
+	[Token(Token = "0x600117F")]
+	[Address(RVA = "0x2E50D90", Offset = "0x2E4F390", VA = "0x182E50D90")]
 	public GUIStyleState_DirectConverter()
 	{
 	}

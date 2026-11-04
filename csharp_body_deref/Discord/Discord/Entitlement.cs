@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000047")]
+[Token(Token = "0x2000045")]
 public struct Entitlement
 {
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x40000DB")]
 	[FieldOffset(Offset = "0x0")]
 	public long Id;
 
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x8")]
 	public EntitlementType Type;
 
-	[Token(Token = "0x40000E2")]
+	[Token(Token = "0x40000DD")]
 	[FieldOffset(Offset = "0x10")]
 	public long SkuId;
 }

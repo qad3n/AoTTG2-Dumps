@@ -40,8 +40,8 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 		[Token(Token = "0x1700006C")]
 		private Expression System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ELinq_002EExpressions_002EExpression_003E_002ECurrent
 		{
-			[Token(Token = "0x60002FC")]
-			[Address(RVA = "0x44AFF80", Offset = "0x44AFF80", VA = "0x44AFF80", Slot = "4")]
+			[Token(Token = "0x60002FB")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -52,8 +52,8 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 		[Token(Token = "0x1700006D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60002FE")]
-			[Address(RVA = "0x44AFFD0", Offset = "0x44AFFD0", VA = "0x44AFFD0", Slot = "7")]
+			[Token(Token = "0x60002FD")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,29 +61,29 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 			}
 		}
 
-		[Token(Token = "0x60002F9")]
-		[Address(RVA = "0x44AFE00", Offset = "0x44AFE00", VA = "0x44AFE00")]
+		[Token(Token = "0x60002F8")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CGetEnumerator_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60002FA")]
-		[Address(RVA = "0x44AFE90", Offset = "0x44AFE90", VA = "0x44AFE90", Slot = "5")]
+		[Token(Token = "0x60002F9")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60002FB")]
-		[Address(RVA = "0x44AFEA0", Offset = "0x44AFEA0", VA = "0x44AFEA0", Slot = "6")]
+		[Token(Token = "0x60002FA")]
+		[Address(RVA = "0x2441B00", Offset = "0x2440100", VA = "0x182441B00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60002FD")]
-		[Address(RVA = "0x44AFF90", Offset = "0x44AFF90", VA = "0x44AFF90", Slot = "8")]
+		[Token(Token = "0x60002FC")]
+		[Address(RVA = "0x2441C00", Offset = "0x2440200", VA = "0x182441C00", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -101,14 +101,14 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 	[Token(Token = "0x17000069")]
 	public Expression this[int index]
 	{
-		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0x44AFA00", Offset = "0x44AFA00", VA = "0x44AFA00", Slot = "4")]
+		[Token(Token = "0x60002ED")]
+		[Address(RVA = "0x2429060", Offset = "0x2427660", VA = "0x182429060", Slot = "4")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x44AFA30", Offset = "0x44AFA30", VA = "0x44AFA30", Slot = "5")]
+		[Token(Token = "0x60002EE")]
+		[Address(RVA = "0x24290A0", Offset = "0x24276A0", VA = "0x1824290A0", Slot = "5")]
 		[ExcludeFromCodeCoverage]
 		set
 		{
@@ -118,8 +118,8 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 	[Token(Token = "0x1700006A")]
 	public int Count
 	{
-		[Token(Token = "0x60002F4")]
-		[Address(RVA = "0x44AFD00", Offset = "0x44AFD00", VA = "0x44AFD00", Slot = "9")]
+		[Token(Token = "0x60002F3")]
+		[Address(RVA = "0x1A1F3F0", Offset = "0x1A1D9F0", VA = "0x181A1F3F0", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -130,86 +130,86 @@ internal class BlockExpressionList : IList<Expression>, ICollection<Expression>,
 	[ExcludeFromCodeCoverage]
 	public bool IsReadOnly
 	{
-		[Token(Token = "0x60002F5")]
-		[Address(RVA = "0x44AFD30", Offset = "0x44AFD30", VA = "0x44AFD30", Slot = "10")]
+		[Token(Token = "0x60002F4")]
+		[Address(RVA = "0x2429030", Offset = "0x2427630", VA = "0x182429030", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60002EA")]
-	[Address(RVA = "0x44AE250", Offset = "0x44AE250", VA = "0x44AE250")]
+	[Token(Token = "0x60002E9")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	internal BlockExpressionList(BlockExpression provider, Expression arg0)
 	{
 	}
 
-	[Token(Token = "0x60002EB")]
-	[Address(RVA = "0x44AF920", Offset = "0x44AF920", VA = "0x44AF920", Slot = "6")]
+	[Token(Token = "0x60002EA")]
+	[Address(RVA = "0x2428EF0", Offset = "0x24274F0", VA = "0x182428EF0", Slot = "6")]
 	public int IndexOf(Expression item)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x44AF9A0", Offset = "0x44AF9A0", VA = "0x44AF9A0", Slot = "7")]
+	[Token(Token = "0x60002EB")]
+	[Address(RVA = "0x2428FA0", Offset = "0x24275A0", VA = "0x182428FA0", Slot = "7")]
 	[ExcludeFromCodeCoverage]
 	public void Insert(int index, Expression item)
 	{
 	}
 
-	[Token(Token = "0x60002ED")]
-	[Address(RVA = "0x44AF9D0", Offset = "0x44AF9D0", VA = "0x44AF9D0", Slot = "8")]
+	[Token(Token = "0x60002EC")]
+	[Address(RVA = "0x2428FD0", Offset = "0x24275D0", VA = "0x182428FD0", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public void RemoveAt(int index)
 	{
 	}
 
-	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x44AFA60", Offset = "0x44AFA60", VA = "0x44AFA60", Slot = "11")]
+	[Token(Token = "0x60002EF")]
+	[Address(RVA = "0x2428B80", Offset = "0x2427180", VA = "0x182428B80", Slot = "11")]
 	[ExcludeFromCodeCoverage]
 	public void Add(Expression item)
 	{
 	}
 
-	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x44AFA90", Offset = "0x44AFA90", VA = "0x44AFA90", Slot = "12")]
+	[Token(Token = "0x60002F0")]
+	[Address(RVA = "0x2428BB0", Offset = "0x24271B0", VA = "0x182428BB0", Slot = "12")]
 	[ExcludeFromCodeCoverage]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x44AFAC0", Offset = "0x44AFAC0", VA = "0x44AFAC0", Slot = "13")]
+	[Token(Token = "0x60002F1")]
+	[Address(RVA = "0x2428BE0", Offset = "0x24271E0", VA = "0x182428BE0", Slot = "13")]
 	public bool Contains(Expression item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x44AFB40", Offset = "0x44AFB40", VA = "0x44AFB40", Slot = "14")]
+	[Token(Token = "0x60002F2")]
+	[Address(RVA = "0x2428C80", Offset = "0x2427280", VA = "0x182428C80", Slot = "14")]
 	public void CopyTo(Expression[] array, int index)
 	{
 	}
 
-	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x44AFD60", Offset = "0x44AFD60", VA = "0x44AFD60", Slot = "15")]
+	[Token(Token = "0x60002F5")]
+	[Address(RVA = "0x2429000", Offset = "0x2427600", VA = "0x182429000", Slot = "15")]
 	[ExcludeFromCodeCoverage]
 	public bool Remove(Expression item)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x44AFD90", Offset = "0x44AFD90", VA = "0x44AFD90", Slot = "16")]
+	[Token(Token = "0x60002F6")]
+	[Address(RVA = "0x2428E80", Offset = "0x2427480", VA = "0x182428E80", Slot = "16")]
 	[IteratorStateMachine(typeof(_003CGetEnumerator_003Ed__18))]
 	public IEnumerator<Expression> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x44AFE20", Offset = "0x44AFE20", VA = "0x44AFE20", Slot = "17")]
+	[Token(Token = "0x60002F7")]
+	[Address(RVA = "0x2428E80", Offset = "0x2427480", VA = "0x182428E80", Slot = "17")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

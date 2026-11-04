@@ -14,16 +14,16 @@ namespace UnityEngine.Tilemaps;
 [Flags]
 public enum TileFlags
 {
-	[Token(Token = "0x400001A")]
-	None = 0,
 	[Token(Token = "0x400001B")]
-	LockColor = 1,
+	None = 0,
 	[Token(Token = "0x400001C")]
-	LockTransform = 2,
+	LockColor = 1,
 	[Token(Token = "0x400001D")]
-	InstantiateGameObjectRuntimeOnly = 4,
+	LockTransform = 2,
 	[Token(Token = "0x400001E")]
-	KeepGameObjectRuntimeOnly = 8,
+	InstantiateGameObjectRuntimeOnly = 4,
 	[Token(Token = "0x400001F")]
-	LockAll = 3
+	KeepGameObjectRuntimeOnly = 8,
+	[Token(Token = "0x4000020")]
+	LockAll = LockColor | LockTransform
 }

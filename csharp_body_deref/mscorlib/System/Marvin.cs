@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E5")]
+[Token(Token = "0x200010D")]
 internal static class Marvin
 {
 	[Token(Token = "0x17000094")]
 	public static ulong DefaultSeed
 	{
-		[Token(Token = "0x6000843")]
-		[Address(RVA = "0x3CB7770", Offset = "0x3CB7770", VA = "0x3CB7770")]
+		[Token(Token = "0x6000876")]
+		[Address(RVA = "0x1B2BB40", Offset = "0x1B2A140", VA = "0x181B2BB40")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,37 +26,37 @@ internal static class Marvin
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600083F")]
-	[Address(RVA = "0x3CB7110", Offset = "0x3CB7110", VA = "0x3CB7110")]
+	[Token(Token = "0x6000872")]
+	[Address(RVA = "0x1B2B560", Offset = "0x1B29B60", VA = "0x181B2B560")]
 	public static int ComputeHash32(ReadOnlySpan<byte> data, ulong seed)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000840")]
-	[Address(RVA = "0x3CB7190", Offset = "0x3CB7190", VA = "0x3CB7190")]
+	[Token(Token = "0x6000873")]
+	[Address(RVA = "0x1B2B600", Offset = "0x1B29C00", VA = "0x181B2B600")]
 	public static int ComputeHash32(ref byte data, int count, ulong seed)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000841")]
-	[Address(RVA = "0x3CB76F0", Offset = "0x3CB76F0", VA = "0x3CB76F0")]
+	[Token(Token = "0x6000874")]
+	[Address(RVA = "0x1B2B4D0", Offset = "0x1B29AD0", VA = "0x181B2B4D0")]
 	private static void Block(ref uint rp0, ref uint rp1)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000842")]
-	[Address(RVA = "0x3CB7760", Offset = "0x3CB7760", VA = "0x3CB7760")]
+	[Token(Token = "0x6000875")]
+	[Address(RVA = "0x1B27A20", Offset = "0x1B26020", VA = "0x181B27A20")]
 	private static uint _rotl(uint value, int shift)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6000844")]
-	[Address(RVA = "0x3CB77E0", Offset = "0x3CB77E0", VA = "0x3CB77E0")]
+	[Token(Token = "0x6000877")]
+	[Address(RVA = "0x1B2BAF0", Offset = "0x1B2A0F0", VA = "0x181B2BAF0")]
 	private static ulong GenerateSeed()
 	{
 		return default(ulong);

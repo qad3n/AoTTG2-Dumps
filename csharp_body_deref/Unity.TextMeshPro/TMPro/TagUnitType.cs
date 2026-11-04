@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000075")]
+[Token(Token = "0x200006A")]
 public enum TagUnitType
 {
-	[Token(Token = "0x400038E")]
+	[Token(Token = "0x40002F2")]
 	Pixels,
-	[Token(Token = "0x400038F")]
+	[Token(Token = "0x40002F3")]
 	FontUnits,
-	[Token(Token = "0x4000390")]
+	[Token(Token = "0x40002F4")]
 	Percentage
 }

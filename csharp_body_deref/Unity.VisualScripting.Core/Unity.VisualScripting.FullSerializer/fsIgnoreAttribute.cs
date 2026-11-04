@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000205")]
+[Token(Token = "0x200020F")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public sealed class fsIgnoreAttribute : Attribute
 {
-	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x4D7C010", Offset = "0x4D7C010", VA = "0x4D7C010")]
+	[Token(Token = "0x6001283")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public fsIgnoreAttribute()
 	{
 	}

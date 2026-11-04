@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x2000020")]
+[Token(Token = "0x2000014")]
 public class ReadOnlyException : DataException
 {
-	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x4547AB0", Offset = "0x4547AB0", VA = "0x4547AB0")]
+	[Token(Token = "0x60000BA")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected ReadOnlyException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000160")]
-	[Address(RVA = "0x4547AC0", Offset = "0x4547AC0", VA = "0x4547AC0")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0x24E4580", Offset = "0x24E2B80", VA = "0x1824E4580")]
 	public ReadOnlyException()
 	{
 	}
 
-	[Token(Token = "0x6000161")]
-	[Address(RVA = "0x4547B00", Offset = "0x4547B00", VA = "0x4547B00")]
+	[Token(Token = "0x60000BC")]
+	[Address(RVA = "0x24E45D0", Offset = "0x24E2BD0", VA = "0x1824E45D0")]
 	public ReadOnlyException(string s)
 	{
 	}

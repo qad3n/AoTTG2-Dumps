@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaTotalDigitsFacet : XmlSchemaNumericFacet
 {
 	[Token(Token = "0x6001669")]
-	[Address(RVA = "0x4724D40", Offset = "0x4724D40", VA = "0x4724D40")]
+	[Address(RVA = "0x266D3A0", Offset = "0x266B9A0", VA = "0x18266D3A0")]
 	public XmlSchemaTotalDigitsFacet()
 	{
 	}

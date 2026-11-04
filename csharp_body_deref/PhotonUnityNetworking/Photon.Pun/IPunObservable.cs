@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000C")]
 public interface IPunObservable
 {
-	[Token(Token = "0x600000A")]
+	[Token(Token = "0x6000008")]
 	void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info);
 }

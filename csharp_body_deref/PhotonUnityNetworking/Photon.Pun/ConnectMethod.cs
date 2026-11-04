@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000003")]
 public enum ConnectMethod
 {
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000003")]
 	NotCalled,
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000004")]
 	ConnectToMaster,
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x4000005")]
 	ConnectToRegion,
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x4000006")]
 	ConnectToBest
 }

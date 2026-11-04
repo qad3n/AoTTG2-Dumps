@@ -13,9 +13,9 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x2000009")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 {
 	[Token(Token = "0x4000036")]
@@ -31,7 +31,7 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	public string name
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x510C320", Offset = "0x510C320", VA = "0x510C320")]
+		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
 		get
 		{
 			return null;
@@ -42,7 +42,7 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	internal InputFeatureType internalType
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x510C330", Offset = "0x510C330", VA = "0x510C330")]
+		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
 		get
 		{
 			return default(InputFeatureType);
@@ -50,21 +50,21 @@ public struct InputFeatureUsage : IEquatable<InputFeatureUsage>
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x510C340", Offset = "0x510C340", VA = "0x510C340", Slot = "0")]
+	[Address(RVA = "0x3313390", Offset = "0x3311990", VA = "0x183313390", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x510C3B0", Offset = "0x510C3B0", VA = "0x510C3B0", Slot = "4")]
+	[Address(RVA = "0x3313440", Offset = "0x3311A40", VA = "0x183313440", Slot = "4")]
 	public bool Equals(InputFeatureUsage other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x510C3E0", Offset = "0x510C3E0", VA = "0x510C3E0", Slot = "2")]
+	[Address(RVA = "0x3313490", Offset = "0x3311A90", VA = "0x183313490", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

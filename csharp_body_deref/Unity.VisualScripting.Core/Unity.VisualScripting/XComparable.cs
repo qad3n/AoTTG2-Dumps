@@ -13,19 +13,19 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000056")]
 internal static class XComparable
 {
-	[Token(Token = "0x600027B")]
+	[Token(Token = "0x600027F")]
 	internal static bool IsLt<T>(this IComparable<T> x, T y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600027C")]
+	[Token(Token = "0x6000280")]
 	internal static bool IsEq<T>(this IComparable<T> x, T y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600027D")]
+	[Token(Token = "0x6000281")]
 	internal static bool IsGt<T>(this IComparable<T> x, T y)
 	{
 		return default(bool);

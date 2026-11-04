@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System.ComponentModel;
 
 [Serializable]
-[Token(Token = "0x20002AB")]
+[Token(Token = "0x20001B6")]
 public class InvalidAsynchronousStateException : ArgumentException
 {
-	[Token(Token = "0x60010CA")]
-	[Address(RVA = "0x4894ED0", Offset = "0x4894ED0", VA = "0x4894ED0")]
+	[Token(Token = "0x6000B12")]
+	[Address(RVA = "0x287E0A0", Offset = "0x287C6A0", VA = "0x18287E0A0")]
 	public InvalidAsynchronousStateException()
 	{
 	}
 
-	[Token(Token = "0x60010CB")]
-	[Address(RVA = "0x4894EE0", Offset = "0x4894EE0", VA = "0x4894EE0")]
+	[Token(Token = "0x6000B13")]
+	[Address(RVA = "0x287E0B0", Offset = "0x287C6B0", VA = "0x18287E0B0")]
 	public InvalidAsynchronousStateException(string message)
 	{
 	}
 
-	[Token(Token = "0x60010CC")]
-	[Address(RVA = "0x4894EF0", Offset = "0x4894EF0", VA = "0x4894EF0")]
+	[Token(Token = "0x6000B14")]
+	[Address(RVA = "0x287E090", Offset = "0x287C690", VA = "0x18287E090")]
 	public InvalidAsynchronousStateException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x60010CD")]
-	[Address(RVA = "0x4894F00", Offset = "0x4894F00", VA = "0x4894F00")]
+	[Token(Token = "0x6000B15")]
+	[Address(RVA = "0x1977AB0", Offset = "0x19760B0", VA = "0x181977AB0")]
 	protected InvalidAsynchronousStateException(SerializationInfo info, StreamingContext context)
 	{
 	}

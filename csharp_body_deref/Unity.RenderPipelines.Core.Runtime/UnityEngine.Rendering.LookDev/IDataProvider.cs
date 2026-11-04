@@ -10,34 +10,34 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.LookDev;
 
-[Token(Token = "0x200020E")]
+[Token(Token = "0x20002CD")]
 public interface IDataProvider
 {
-	[Token(Token = "0x170001AE")]
+	[Token(Token = "0x1700026C")]
 	IEnumerable<string> supportedDebugModes
 	{
-		[Token(Token = "0x6000E3F")]
+		[Token(Token = "0x60013D7")]
 		get;
 	}
 
-	[Token(Token = "0x6000E3D")]
+	[Token(Token = "0x60013D5")]
 	void FirstInitScene(StageRuntimeInterface stage);
 
-	[Token(Token = "0x6000E3E")]
+	[Token(Token = "0x60013D6")]
 	void UpdateSky(Camera camera, Sky sky, StageRuntimeInterface stage);
 
-	[Token(Token = "0x6000E40")]
+	[Token(Token = "0x60013D8")]
 	void UpdateDebugMode(int debugIndex);
 
-	[Token(Token = "0x6000E41")]
+	[Token(Token = "0x60013D9")]
 	void GetShadowMask(ref RenderTexture output, StageRuntimeInterface stage);
 
-	[Token(Token = "0x6000E42")]
+	[Token(Token = "0x60013DA")]
 	void OnBeginRendering(StageRuntimeInterface stage);
 
-	[Token(Token = "0x6000E43")]
+	[Token(Token = "0x60013DB")]
 	void OnEndRendering(StageRuntimeInterface stage);
 
-	[Token(Token = "0x6000E44")]
+	[Token(Token = "0x60013DC")]
 	void Cleanup(StageRuntimeInterface SRI);
 }

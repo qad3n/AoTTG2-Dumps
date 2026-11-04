@@ -19,8 +19,8 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	[Token(Token = "0x17000164")]
 	public override Instruction[] Cache
 	{
-		[Token(Token = "0x6000612")]
-		[Address(RVA = "0x44C78E0", Offset = "0x44C78E0", VA = "0x44C78E0", Slot = "11")]
+		[Token(Token = "0x6000611")]
+		[Address(RVA = "0x242B250", Offset = "0x2429850", VA = "0x18242B250", Slot = "11")]
 		get
 		{
 			return null;
@@ -30,8 +30,8 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	[Token(Token = "0x17000165")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000613")]
-		[Address(RVA = "0x44C7970", Offset = "0x44C7970", VA = "0x44C7970", Slot = "9")]
+		[Token(Token = "0x6000612")]
+		[Address(RVA = "0x242B2E0", Offset = "0x24298E0", VA = "0x18242B2E0", Slot = "9")]
 		get
 		{
 			return null;
@@ -41,8 +41,8 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	[Token(Token = "0x17000166")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000614")]
-		[Address(RVA = "0x44C79A0", Offset = "0x44C79A0", VA = "0x44C79A0", Slot = "4")]
+		[Token(Token = "0x6000613")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -52,23 +52,23 @@ internal sealed class CoalescingBranchInstruction : OffsetInstruction
 	[Token(Token = "0x17000167")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000615")]
-		[Address(RVA = "0x44C79B0", Offset = "0x44C79B0", VA = "0x44C79B0", Slot = "5")]
+		[Token(Token = "0x6000614")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000616")]
-	[Address(RVA = "0x44C79C0", Offset = "0x44C79C0", VA = "0x44C79C0", Slot = "8")]
+	[Token(Token = "0x6000615")]
+	[Address(RVA = "0x242B210", Offset = "0x2429810", VA = "0x18242B210", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x44C79F0", Offset = "0x44C79F0", VA = "0x44C79F0")]
+	[Token(Token = "0x6000616")]
+	[Address(RVA = "0x24296B0", Offset = "0x2427CB0", VA = "0x1824296B0")]
 	public CoalescingBranchInstruction()
 	{
 	}

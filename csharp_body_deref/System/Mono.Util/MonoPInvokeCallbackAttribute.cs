@@ -12,14 +12,14 @@ using Il2CppDummyDll;
 namespace Mono.Util;
 
 [Token(Token = "0x2000007")]
+[AttributeUsage(AttributeTargets.Method)]
 [Conditional("UNITY")]
 [Conditional("FULL_AOT_RUNTIME")]
 [Conditional("MONOTOUCH")]
-[AttributeUsage(AttributeTargets.Method)]
 internal sealed class MonoPInvokeCallbackAttribute : Attribute
 {
 	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x451A770", Offset = "0x451A770", VA = "0x451A770")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public MonoPInvokeCallbackAttribute(Type t)
 	{
 	}

@@ -13,52 +13,52 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20005ED")]
+[Token(Token = "0x2000743")]
 internal class ColorSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4001C81")]
+	[Token(Token = "0x400240F")]
 	[FieldOffset(Offset = "0x38")]
 	private Image _image;
 
-	[Token(Token = "0x4001C82")]
+	[Token(Token = "0x4002410")]
 	[FieldOffset(Offset = "0x40")]
 	private ColorPickPopup _colorPickPopup;
 
-	[Token(Token = "0x4001C83")]
+	[Token(Token = "0x4002411")]
 	[FieldOffset(Offset = "0x48")]
 	private UnityAction _onChangeColor;
 
-	[Token(Token = "0x17000B7D")]
+	[Token(Token = "0x17000CC2")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6003C47")]
-		[Address(RVA = "0x428EED0", Offset = "0x428EED0", VA = "0x428EED0", Slot = "4")]
+		[Token(Token = "0x60046FF")]
+		[Address(RVA = "0x22037E0", Offset = "0x2201DE0", VA = "0x1822037E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003C48")]
-	[Address(RVA = "0x428C1C0", Offset = "0x428C1C0", VA = "0x428C1C0")]
+	[Token(Token = "0x6004700")]
+	[Address(RVA = "0x22033B0", Offset = "0x22019B0", VA = "0x1822033B0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, ColorPickPopup colorPickPopup, string tooltip, float elementWidth, float elementHeight, UnityAction onChangeColor)
 	{
 	}
 
-	[Token(Token = "0x6003C49")]
-	[Address(RVA = "0x428EF50", Offset = "0x428EF50", VA = "0x428EF50")]
+	[Token(Token = "0x6004701")]
+	[Address(RVA = "0x2203310", Offset = "0x2201910", VA = "0x182203310")]
 	protected void OnButtonClicked()
 	{
 	}
 
-	[Token(Token = "0x6003C4A")]
-	[Address(RVA = "0x428EFD0", Offset = "0x428EFD0", VA = "0x428EFD0", Slot = "6")]
+	[Token(Token = "0x6004702")]
+	[Address(RVA = "0x2203720", Offset = "0x2201D20", VA = "0x182203720", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6003C4B")]
-	[Address(RVA = "0x428F070", Offset = "0x428F070", VA = "0x428F070")]
+	[Token(Token = "0x6004703")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ColorSettingElement()
 	{
 	}

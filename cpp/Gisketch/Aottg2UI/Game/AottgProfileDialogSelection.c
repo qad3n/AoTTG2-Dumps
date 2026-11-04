@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Game.AottgProfileDialogSelection
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgProfileDialogSelection.cs
@@ -8,36 +8,35 @@
 
 // Gisketch.Aottg2UI.Game.AottgProfileDialogSelection$$Set
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgProfileDialogSelection__Set (System_String_o* pickerId, System_String_o* key, const MethodInfo* method);
-// 0x4522910
+// 0x181e15b70
 
 void Gisketch_Aottg2UI_Game_AottgProfileDialogSelection__Set
                (System_String_o *pickerId,System_String_o *key,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  long lVar2;
+  bool bVar1;
   
-  if (g_data_057aee3d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgProfileDialogSelection);
-    il2cpp_runtime_helper_023445d0(&"avatar-picker");
-    il2cpp_runtime_helper_023445d0(&"banner-picker");
-    g_data_057aee3d = '\x01';
+  if (Il2CppMethodInitialized_184344c87 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileDialogSelection);
+    il2cpp_codegen_initialize_runtime_metadata(&"avatar-picker");
+    il2cpp_codegen_initialize_runtime_metadata(&"banner-picker");
+    Il2CppMethodInitialized_184344c87 = '\x01';
   }
   bVar1 = System_String__op_Equality(pickerId,"avatar-picker",(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    bVar1 = System_String__op_Equality(pickerId,"banner-picker",(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      return;
-    }
-    lVar2 = *(long *)(TypeInfo_AottgProfileDialogSelection + 0xb8);
-    *(System_String_o **)(lVar2 + 8) = key;
-    lVar2 = lVar2 + 8;
+  if (bVar1) {
+    TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileDialogSelection->static_fields->AvatarKey = key;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileDialogSelection->static_fields->AvatarKey,key);
   }
   else {
-    **(undefined8 **)(TypeInfo_AottgProfileDialogSelection + 0xb8) = key;
-    lVar2 = *(long *)(TypeInfo_AottgProfileDialogSelection + 0xb8);
+    bVar1 = System_String__op_Equality(pickerId,"banner-picker",(MethodInfo *)0x0);
+    if (bVar1) {
+      TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileDialogSelection->static_fields->BannerKey = key;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_Gisketch_Aottg2UI_Game_AottgProfileDialogSelection->static_fields->BannerKey,key);
+      return;
+    }
   }
-  il2cpp_runtime_helper_022b4080(lVar2,key);
   return;
 }
 

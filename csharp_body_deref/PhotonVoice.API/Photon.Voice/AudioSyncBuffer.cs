@@ -9,69 +9,69 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200002E")]
 public class AudioSyncBuffer<T> : AudioOutDelayControl<T>
 {
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40000D7")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] buffer;
 
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x40000D8")]
 	[FieldOffset(Offset = "0x0")]
 	private int readPosSamples;
 
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x0")]
 	private int sampleRate;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x0")]
 	private int channels;
 
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x40000DB")]
 	[FieldOffset(Offset = "0x0")]
 	private int bufferSamples;
 
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x0")]
 	private bool started;
 
 	[Token(Token = "0x1700003D")]
 	public override long OutPos
 	{
-		[Token(Token = "0x60000F6")]
+		[Token(Token = "0x60000F4")]
 		get
 		{
 			return default(long);
 		}
 	}
 
-	[Token(Token = "0x60000F5")]
+	[Token(Token = "0x60000F3")]
 	public AudioSyncBuffer(PlayDelayConfig playDelayConfig, ILogger logger, string logPrefix, bool debugInfo)
 	{
 	}
 
-	[Token(Token = "0x60000F7")]
+	[Token(Token = "0x60000F5")]
 	public override void OutCreate(int frequency, int channels, int bufferSamples)
 	{
 	}
 
-	[Token(Token = "0x60000F8")]
+	[Token(Token = "0x60000F6")]
 	public override void OutStart()
 	{
 	}
 
-	[Token(Token = "0x60000F9")]
+	[Token(Token = "0x60000F7")]
 	public override void OutWrite(T[] data, int offsetSamples)
 	{
 	}
 
-	[Token(Token = "0x60000FA")]
+	[Token(Token = "0x60000F8")]
 	public override void Stop()
 	{
 	}
 
-	[Token(Token = "0x60000FB")]
+	[Token(Token = "0x60000F9")]
 	public void Read(T[] outBuf, int outChannels, int outSampleRate)
 	{
 	}

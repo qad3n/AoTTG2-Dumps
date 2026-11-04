@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000664")]
+[Token(Token = "0x2000638")]
 internal sealed class StackDebugView<T>
 {
 }

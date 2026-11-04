@@ -10,29 +10,29 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x20000A5")]
 public class Compute_DT_EventArgs
 {
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x40005A9")]
 	[FieldOffset(Offset = "0x10")]
 	public Compute_DistanceTransform_EventTypes EventType;
 
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x40005AA")]
 	[FieldOffset(Offset = "0x14")]
 	public float ProgressPercentage;
 
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x40005AB")]
 	[FieldOffset(Offset = "0x18")]
 	public Color[] Colors;
 
-	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x4C43A40", Offset = "0x4C43A40", VA = "0x4C43A40")]
+	[Token(Token = "0x600063A")]
+	[Address(RVA = "0x2D60E30", Offset = "0x2D5F430", VA = "0x182D60E30")]
 	public Compute_DT_EventArgs(Compute_DistanceTransform_EventTypes type, float progress)
 	{
 	}
 
-	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x4C43A70", Offset = "0x4C43A70", VA = "0x4C43A70")]
+	[Token(Token = "0x600063B")]
+	[Address(RVA = "0xC83FB0", Offset = "0xC825B0", VA = "0x180C83FB0")]
 	public Compute_DT_EventArgs(Compute_DistanceTransform_EventTypes type, Color[] colors)
 	{
 	}

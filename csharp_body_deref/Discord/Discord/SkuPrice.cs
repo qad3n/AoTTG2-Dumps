@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000048")]
+[Token(Token = "0x2000046")]
 public struct SkuPrice
 {
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x40000DE")]
 	[FieldOffset(Offset = "0x0")]
 	public uint Amount;
 
-	[Token(Token = "0x40000E4")]
+	[Token(Token = "0x40000DF")]
 	[FieldOffset(Offset = "0x8")]
 	public string Currency;
 }

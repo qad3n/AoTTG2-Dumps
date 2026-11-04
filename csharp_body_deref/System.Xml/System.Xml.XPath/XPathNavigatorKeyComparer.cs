@@ -14,21 +14,21 @@ namespace System.Xml.XPath;
 internal class XPathNavigatorKeyComparer : IEqualityComparer
 {
 	[Token(Token = "0x6000C9A")]
-	[Address(RVA = "0x4807E00", Offset = "0x4807E00", VA = "0x4807E00", Slot = "4")]
+	[Address(RVA = "0x27484F0", Offset = "0x2746AF0", VA = "0x1827484F0", Slot = "4")]
 	private bool System_002ECollections_002EIEqualityComparer_002EEquals(object obj1, object obj2)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000C9B")]
-	[Address(RVA = "0x4807EC0", Offset = "0x4807EC0", VA = "0x4807EC0", Slot = "5")]
+	[Address(RVA = "0x27485E0", Offset = "0x2746BE0", VA = "0x1827485E0", Slot = "5")]
 	private int System_002ECollections_002EIEqualityComparer_002EGetHashCode(object obj)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000C9C")]
-	[Address(RVA = "0x4807DF0", Offset = "0x4807DF0", VA = "0x4807DF0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public XPathNavigatorKeyComparer()
 	{
 	}

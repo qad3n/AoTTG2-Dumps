@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000080")]
+[Token(Token = "0x200007E")]
 internal class UnsupportedSampleTypeException : Exception
 {
-	[Token(Token = "0x60002C8")]
-	[Address(RVA = "0x3F2F1D0", Offset = "0x3F2F1D0", VA = "0x3F2F1D0")]
+	[Token(Token = "0x60002C6")]
+	[Address(RVA = "0x1D76E00", Offset = "0x1D75400", VA = "0x181D76E00")]
 	public UnsupportedSampleTypeException(Type t)
 	{
 	}

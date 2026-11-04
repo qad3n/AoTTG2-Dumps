@@ -2,18 +2,18 @@ using Il2CppDummyDll;
 
 namespace Mono.Math.Prime;
 
-[Token(Token = "0x2000048")]
+[Token(Token = "0x200005B")]
 public sealed class PrimalityTests
 {
-	[Token(Token = "0x60001F7")]
-	[Address(RVA = "0x3ACAD30", Offset = "0x3ACAD30", VA = "0x3ACAD30")]
+	[Token(Token = "0x6000226")]
+	[Address(RVA = "0x1938D80", Offset = "0x1937380", VA = "0x181938D80")]
 	private static int GetSPPRounds(BigInteger bi, ConfidenceFactor confidence)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60001F8")]
-	[Address(RVA = "0x3ACAE90", Offset = "0x3ACAE90", VA = "0x3ACAE90")]
+	[Token(Token = "0x6000227")]
+	[Address(RVA = "0x1939090", Offset = "0x1937690", VA = "0x181939090")]
 	public static bool RabinMillerTest(BigInteger n, ConfidenceFactor confidence)
 	{
 		return default(bool);

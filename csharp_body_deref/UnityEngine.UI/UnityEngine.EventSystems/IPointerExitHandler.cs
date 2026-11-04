@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000A2")]
 public interface IPointerExitHandler : IEventSystemHandler
 {
-	[Token(Token = "0x600063E")]
+	[Token(Token = "0x6000685")]
 	void OnPointerExit(PointerEventData eventData);
 }

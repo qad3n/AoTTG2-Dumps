@@ -16,17 +16,17 @@ internal abstract class ByRefUpdater
 	[FieldOffset(Offset = "0x10")]
 	public readonly int ArgumentIndex;
 
-	[Token(Token = "0x60008E0")]
-	[Address(RVA = "0x44F1610", Offset = "0x44F1610", VA = "0x44F1610")]
+	[Token(Token = "0x60008DF")]
+	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 	public ByRefUpdater(int argumentIndex)
 	{
 	}
 
-	[Token(Token = "0x60008E1")]
+	[Token(Token = "0x60008E0")]
 	public abstract void Update(InterpretedFrame frame, object value);
 
-	[Token(Token = "0x60008E2")]
-	[Address(RVA = "0x44F1630", Offset = "0x44F1630", VA = "0x44F1630", Slot = "5")]
+	[Token(Token = "0x60008E1")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public virtual void UndefineTemps(InstructionList instructions, LocalVariables locals)
 	{
 	}

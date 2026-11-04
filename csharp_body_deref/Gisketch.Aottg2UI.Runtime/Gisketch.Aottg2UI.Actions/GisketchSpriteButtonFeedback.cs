@@ -12,110 +12,110 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000CC")]
+[Token(Token = "0x20000F1")]
 public sealed class GisketchSpriteButtonFeedback : UIBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler, ISelectHandler, IDeselectHandler, IPointerDownHandler, IPointerUpHandler, ISubmitHandler
 {
-	[Token(Token = "0x4000401")]
+	[Token(Token = "0x40004C5")]
 	private const float HoverLift = 10f;
 
-	[Token(Token = "0x4000402")]
+	[Token(Token = "0x40004C6")]
 	private const float PressDrop = -5f;
 
-	[Token(Token = "0x4000403")]
+	[Token(Token = "0x40004C7")]
 	[FieldOffset(Offset = "0x20")]
 	private RectTransform _rect;
 
-	[Token(Token = "0x4000404")]
+	[Token(Token = "0x40004C8")]
 	[FieldOffset(Offset = "0x28")]
 	private Vector2 _origin;
 
-	[Token(Token = "0x4000405")]
+	[Token(Token = "0x40004C9")]
 	[FieldOffset(Offset = "0x30")]
 	private Tween _tween;
 
-	[Token(Token = "0x4000406")]
+	[Token(Token = "0x40004CA")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _hovered;
 
-	[Token(Token = "0x4000407")]
+	[Token(Token = "0x40004CB")]
 	[FieldOffset(Offset = "0x39")]
 	private bool _selected;
 
-	[Token(Token = "0x60005D3")]
-	[Address(RVA = "0x3A9B770", Offset = "0x3A9B770", VA = "0x3A9B770", Slot = "4")]
+	[Token(Token = "0x600074C")]
+	[Address(RVA = "0x190E0E0", Offset = "0x190C6E0", VA = "0x18190E0E0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60005D4")]
-	[Address(RVA = "0x3A9B7D0", Offset = "0x3A9B7D0", VA = "0x3A9B7D0")]
+	[Token(Token = "0x600074D")]
+	[Address(RVA = "0x190EC40", Offset = "0x190D240", VA = "0x18190EC40")]
 	public void Setup(RectTransform target)
 	{
 	}
 
-	[Token(Token = "0x60005D5")]
-	[Address(RVA = "0x3A9B890", Offset = "0x3A9B890", VA = "0x3A9B890", Slot = "17")]
+	[Token(Token = "0x600074E")]
+	[Address(RVA = "0x190E5A0", Offset = "0x190CBA0", VA = "0x18190E5A0", Slot = "17")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005D6")]
-	[Address(RVA = "0x3A9BBD0", Offset = "0x3A9BBD0", VA = "0x3A9BBD0", Slot = "18")]
+	[Token(Token = "0x600074F")]
+	[Address(RVA = "0x190E650", Offset = "0x190CC50", VA = "0x18190E650", Slot = "18")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005D7")]
-	[Address(RVA = "0x3A9BC70", Offset = "0x3A9BC70", VA = "0x3A9BC70", Slot = "19")]
+	[Token(Token = "0x6000750")]
+	[Address(RVA = "0x190E7B0", Offset = "0x190CDB0", VA = "0x18190E7B0", Slot = "19")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005D8")]
-	[Address(RVA = "0x3A9BD00", Offset = "0x3A9BD00", VA = "0x3A9BD00", Slot = "20")]
+	[Token(Token = "0x6000751")]
+	[Address(RVA = "0x190E450", Offset = "0x190CA50", VA = "0x18190E450", Slot = "20")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005D9")]
-	[Address(RVA = "0x3A9BD90", Offset = "0x3A9BD90", VA = "0x3A9BD90", Slot = "21")]
+	[Token(Token = "0x6000752")]
+	[Address(RVA = "0x190E530", Offset = "0x190CB30", VA = "0x18190E530", Slot = "21")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005DA")]
-	[Address(RVA = "0x3A9BE00", Offset = "0x3A9BE00", VA = "0x3A9BE00", Slot = "22")]
+	[Token(Token = "0x6000753")]
+	[Address(RVA = "0x190E700", Offset = "0x190CD00", VA = "0x18190E700", Slot = "22")]
 	public void OnPointerUp(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005DB")]
-	[Address(RVA = "0x3A9BE80", Offset = "0x3A9BE80", VA = "0x3A9BE80", Slot = "23")]
+	[Token(Token = "0x6000754")]
+	[Address(RVA = "0x190E860", Offset = "0x190CE60", VA = "0x18190E860", Slot = "23")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60005DC")]
-	[Address(RVA = "0x3A9B930", Offset = "0x3A9B930", VA = "0x3A9B930")]
+	[Token(Token = "0x6000755")]
+	[Address(RVA = "0x190ED20", Offset = "0x190D320", VA = "0x18190ED20")]
 	private Vector2 TargetPosition()
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x60005DD")]
-	[Address(RVA = "0x3A9B9A0", Offset = "0x3A9B9A0", VA = "0x3A9B9A0")]
+	[Token(Token = "0x6000756")]
+	[Address(RVA = "0x190E200", Offset = "0x190C800", VA = "0x18190E200")]
 	private void MoveTo(Vector2 target, float duration)
 	{
 	}
 
-	[Token(Token = "0x60005DE")]
-	[Address(RVA = "0x3A9C270", Offset = "0x3A9C270", VA = "0x3A9C270", Slot = "8")]
+	[Token(Token = "0x6000757")]
+	[Address(RVA = "0x190E500", Offset = "0x190CB00", VA = "0x18190E500", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60005DF")]
-	[Address(RVA = "0x3A9C2A0", Offset = "0x3A9C2A0", VA = "0x3A9C2A0")]
+	[Token(Token = "0x6000758")]
+	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
 	public GisketchSpriteButtonFeedback()
 	{
 	}

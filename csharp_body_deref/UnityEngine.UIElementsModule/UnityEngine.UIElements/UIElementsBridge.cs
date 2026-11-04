@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003F8")]
+[Token(Token = "0x20004BF")]
 internal abstract class UIElementsBridge
 {
-	[Token(Token = "0x60019CC")]
+	[Token(Token = "0x600252B")]
 	public abstract void SetWantsMouseJumping(int value);
 
-	[Token(Token = "0x60019CD")]
-	[Address(RVA = "0x4F5FA70", Offset = "0x4F5FA70", VA = "0x4F5FA70")]
+	[Token(Token = "0x600252C")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected UIElementsBridge()
 	{
 	}

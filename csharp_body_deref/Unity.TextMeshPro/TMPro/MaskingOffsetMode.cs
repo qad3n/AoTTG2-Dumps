@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200008F")]
+[Token(Token = "0x2000085")]
 public enum MaskingOffsetMode
 {
-	[Token(Token = "0x40004A3")]
+	[Token(Token = "0x4000413")]
 	Percentage,
-	[Token(Token = "0x40004A4")]
+	[Token(Token = "0x4000414")]
 	Pixel
 }

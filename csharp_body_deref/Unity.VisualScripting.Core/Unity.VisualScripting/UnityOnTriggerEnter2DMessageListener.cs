@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnTriggerEnter2DMessageListener : MessageListener
 {
-	[Token(Token = "0x600044D")]
-	[Address(RVA = "0x4CB6590", Offset = "0x4CB6590", VA = "0x4CB6590")]
+	[Token(Token = "0x6000457")]
+	[Address(RVA = "0x2DBF280", Offset = "0x2DBD880", VA = "0x182DBF280")]
 	private void OnTriggerEnter2D(Collider2D other)
 	{
 	}
 
-	[Token(Token = "0x600044E")]
-	[Address(RVA = "0x4CB6620", Offset = "0x4CB6620", VA = "0x4CB6620")]
+	[Token(Token = "0x6000458")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnTriggerEnter2DMessageListener()
 	{
 	}

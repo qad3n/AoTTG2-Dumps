@@ -13,46 +13,46 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.LowLevel;
 
-[Token(Token = "0x2000205")]
+[Token(Token = "0x2000256")]
 [MovedFrom("UnityEngine.Experimental.LowLevel")]
 public class PlayerLoop
 {
-	[Token(Token = "0x6000DCC")]
-	[Address(RVA = "0x4E15520", Offset = "0x4E15520", VA = "0x4E15520")]
+	[Token(Token = "0x60011CC")]
+	[Address(RVA = "0x2F50560", Offset = "0x2F4EB60", VA = "0x182F50560")]
 	public static PlayerLoopSystem GetCurrentPlayerLoop()
 	{
 		return default(PlayerLoopSystem);
 	}
 
-	[Token(Token = "0x6000DCD")]
-	[Address(RVA = "0x4E15940", Offset = "0x4E15940", VA = "0x4E15940")]
+	[Token(Token = "0x60011CD")]
+	[Address(RVA = "0x2F50BB0", Offset = "0x2F4F1B0", VA = "0x182F50BB0")]
 	public static void SetPlayerLoop(PlayerLoopSystem loop)
 	{
 	}
 
-	[Token(Token = "0x6000DCE")]
-	[Address(RVA = "0x4E15A20", Offset = "0x4E15A20", VA = "0x4E15A20")]
+	[Token(Token = "0x60011CE")]
+	[Address(RVA = "0x2F508C0", Offset = "0x2F4EEC0", VA = "0x182F508C0")]
 	private static int PlayerLoopSystemToInternal(PlayerLoopSystem sys, ref List<PlayerLoopSystemInternal> internalSys)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000DCF")]
-	[Address(RVA = "0x4E155E0", Offset = "0x4E155E0", VA = "0x4E155E0")]
+	[Token(Token = "0x60011CF")]
+	[Address(RVA = "0x2F505E0", Offset = "0x2F4EBE0", VA = "0x182F505E0")]
 	private static PlayerLoopSystem InternalToPlayerLoopSystem(PlayerLoopSystemInternal[] internalSys, ref int offset)
 	{
 		return default(PlayerLoopSystem);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000DD0")]
-	[Address(RVA = "0x4E155B0", Offset = "0x4E155B0", VA = "0x4E155B0")]
+	[Token(Token = "0x60011D0")]
+	[Address(RVA = "0x2F50530", Offset = "0x2F4EB30", VA = "0x182F50530")]
 	[UnityEngine.Bindings.NativeMethod(IsFreeFunction = true)]
 	private static extern PlayerLoopSystemInternal[] GetCurrentPlayerLoopInternal();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000DD1")]
-	[Address(RVA = "0x4E15D20", Offset = "0x4E15D20", VA = "0x4E15D20")]
+	[Token(Token = "0x60011D1")]
+	[Address(RVA = "0x2F50B70", Offset = "0x2F4F170", VA = "0x182F50B70")]
 	[UnityEngine.Bindings.NativeMethod(IsFreeFunction = true)]
 	private static extern void SetPlayerLoopInternal(PlayerLoopSystemInternal[] loop);
 }

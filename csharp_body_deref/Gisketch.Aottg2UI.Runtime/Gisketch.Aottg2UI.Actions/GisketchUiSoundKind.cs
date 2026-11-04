@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000D2")]
+[Token(Token = "0x20000F7")]
 public enum GisketchUiSoundKind
 {
-	[Token(Token = "0x400041E")]
+	[Token(Token = "0x40004E2")]
 	Forward,
-	[Token(Token = "0x400041F")]
+	[Token(Token = "0x40004E3")]
 	Back,
-	[Token(Token = "0x4000420")]
+	[Token(Token = "0x40004E4")]
 	Hover
 }

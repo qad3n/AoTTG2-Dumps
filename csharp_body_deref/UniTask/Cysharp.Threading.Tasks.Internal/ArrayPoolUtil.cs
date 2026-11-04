@@ -12,53 +12,53 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000226")]
+[Token(Token = "0x2000229")]
 internal static class ArrayPoolUtil
 {
-	[Token(Token = "0x2000227")]
+	[Token(Token = "0x200022A")]
 	public struct RentArray<T> : IDisposable
 	{
-		[Token(Token = "0x4000642")]
+		[Token(Token = "0x4000655")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly T[] Array;
 
-		[Token(Token = "0x4000643")]
+		[Token(Token = "0x4000656")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly int Length;
 
-		[Token(Token = "0x4000644")]
+		[Token(Token = "0x4000657")]
 		[FieldOffset(Offset = "0x0")]
 		private ArrayPool<T> pool;
 
-		[Token(Token = "0x6000C71")]
+		[Token(Token = "0x6000C95")]
 		public RentArray(T[] array, int length, ArrayPool<T> pool)
 		{
 		}
 
-		[Token(Token = "0x6000C72")]
+		[Token(Token = "0x6000C96")]
 		public void Dispose()
 		{
 		}
 
-		[Token(Token = "0x6000C73")]
+		[Token(Token = "0x6000C97")]
 		public void DisposeManually(bool clearArray)
 		{
 		}
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000C6E")]
+	[Token(Token = "0x6000C92")]
 	internal static void EnsureCapacity<T>(ref T[] array, int index, ArrayPool<T> pool)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000C6F")]
+	[Token(Token = "0x6000C93")]
 	private static void EnsureCapacityCore<T>(ref T[] array, int index, ArrayPool<T> pool)
 	{
 	}
 
-	[Token(Token = "0x6000C70")]
+	[Token(Token = "0x6000C94")]
 	public static RentArray<T> Materialize<T>(IEnumerable<T> source)
 	{
 		return default(RentArray<T>);

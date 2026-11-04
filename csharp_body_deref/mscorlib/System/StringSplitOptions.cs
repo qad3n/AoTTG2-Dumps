@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000113")]
+[Token(Token = "0x200013B")]
 [Flags]
 public enum StringSplitOptions
 {
-	[Token(Token = "0x40003D6")]
+	[Token(Token = "0x4000451")]
 	None = 0,
-	[Token(Token = "0x40003D7")]
+	[Token(Token = "0x4000452")]
 	RemoveEmptyEntries = 1
 }

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x2000024")]
 public enum ImageType
 {
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x4000054")]
 	User
 }

@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000056")]
+[Token(Token = "0x2000063")]
 internal enum Nodes
 {
-	[Token(Token = "0x40001BF")]
+	[Token(Token = "0x4000207")]
 	Noop,
-	[Token(Token = "0x40001C0")]
+	[Token(Token = "0x4000208")]
 	Unop,
-	[Token(Token = "0x40001C1")]
+	[Token(Token = "0x4000209")]
 	UnopSpec,
-	[Token(Token = "0x40001C2")]
+	[Token(Token = "0x400020A")]
 	Binop,
-	[Token(Token = "0x40001C3")]
+	[Token(Token = "0x400020B")]
 	BinopSpec,
-	[Token(Token = "0x40001C4")]
+	[Token(Token = "0x400020C")]
 	Zop,
-	[Token(Token = "0x40001C5")]
+	[Token(Token = "0x400020D")]
 	Call,
-	[Token(Token = "0x40001C6")]
+	[Token(Token = "0x400020E")]
 	Const,
-	[Token(Token = "0x40001C7")]
+	[Token(Token = "0x400020F")]
 	Name,
-	[Token(Token = "0x40001C8")]
+	[Token(Token = "0x4000210")]
 	Paren,
-	[Token(Token = "0x40001C9")]
+	[Token(Token = "0x4000211")]
 	Conv
 }

@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000BD")]
+[Token(Token = "0x20000E5")]
 internal struct DateTimeToken
 {
-	[Token(Token = "0x40002D2")]
+	[Token(Token = "0x400035D")]
 	[FieldOffset(Offset = "0x0")]
 	internal System.DateTimeParse.DTT dtt;
 
-	[Token(Token = "0x40002D3")]
+	[Token(Token = "0x400035E")]
 	[FieldOffset(Offset = "0x4")]
 	internal System.TokenType suffix;
 
-	[Token(Token = "0x40002D4")]
+	[Token(Token = "0x400035F")]
 	[FieldOffset(Offset = "0x8")]
 	internal int num;
 }

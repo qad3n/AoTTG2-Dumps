@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000D4")]
+[Token(Token = "0x2000114")]
 internal class ProcessInfo
 {
 }

@@ -12,33 +12,33 @@ using UnityEngine.UI;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x200002A")]
 public class ButtonInsideScrollList : MonoBehaviour, IPointerDownHandler, IEventSystemHandler, IPointerUpHandler
 {
-	[Token(Token = "0x40000AE")]
+	[Token(Token = "0x40000A9")]
 	[FieldOffset(Offset = "0x20")]
 	private ScrollRect scrollRect;
 
-	[Token(Token = "0x60000F1")]
-	[Address(RVA = "0x3F0CFE0", Offset = "0x3F0CFE0", VA = "0x3F0CFE0")]
+	[Token(Token = "0x60000EF")]
+	[Address(RVA = "0x1D4FC70", Offset = "0x1D4E270", VA = "0x181D4FC70")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x3F0D030", Offset = "0x3F0D030", VA = "0x3F0D030", Slot = "4")]
+	[Token(Token = "0x60000F0")]
+	[Address(RVA = "0x1D4FCC0", Offset = "0x1D4E2C0", VA = "0x181D4FCC0", Slot = "4")]
 	private void UnityEngine_002EEventSystems_002EIPointerDownHandler_002EOnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x3F0D0C0", Offset = "0x3F0D0C0", VA = "0x3F0D0C0", Slot = "5")]
+	[Token(Token = "0x60000F1")]
+	[Address(RVA = "0x1D4FD50", Offset = "0x1D4E350", VA = "0x181D4FD50", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerUpHandler_002EOnPointerUp(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x3F0D150", Offset = "0x3F0D150", VA = "0x3F0D150")]
+	[Token(Token = "0x60000F2")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ButtonInsideScrollList()
 	{
 	}

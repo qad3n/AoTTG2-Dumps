@@ -13,7 +13,7 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000029")]
+[Token(Token = "0x200002A")]
 [MovedFrom("UnityEngine.Experimental.Animations")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationStream.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationStream.h")]

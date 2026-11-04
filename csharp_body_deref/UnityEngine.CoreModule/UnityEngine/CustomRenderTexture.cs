@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000107")]
+[Token(Token = "0x200012B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CustomRenderTexture.h")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public sealed class CustomRenderTexture : RenderTexture

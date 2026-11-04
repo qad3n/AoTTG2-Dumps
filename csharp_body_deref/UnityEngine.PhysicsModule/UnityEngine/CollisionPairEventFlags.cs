@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200001A")]
 internal enum CollisionPairEventFlags : ushort
 {
-	[Token(Token = "0x4000067")]
+	[Token(Token = "0x4000057")]
 	SolveContacts = 1,
-	[Token(Token = "0x4000068")]
+	[Token(Token = "0x4000058")]
 	ModifyContacts = 2,
-	[Token(Token = "0x4000069")]
+	[Token(Token = "0x4000059")]
 	NotifyTouchFound = 4,
-	[Token(Token = "0x400006A")]
+	[Token(Token = "0x400005A")]
 	NotifyTouchPersists = 8,
-	[Token(Token = "0x400006B")]
+	[Token(Token = "0x400005B")]
 	NotifyTouchLost = 16,
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x400005C")]
 	NotifyTouchCCD = 32,
-	[Token(Token = "0x400006D")]
+	[Token(Token = "0x400005D")]
 	NotifyThresholdForceFound = 64,
-	[Token(Token = "0x400006E")]
+	[Token(Token = "0x400005E")]
 	NotifyThresholdForcePersists = 128,
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400005F")]
 	NotifyThresholdForceLost = 256,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x4000060")]
 	NotifyContactPoint = 512,
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x4000061")]
 	DetectDiscreteContact = 1024,
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x4000062")]
 	DetectCCDContact = 2048,
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x4000063")]
 	PreSolverVelocity = 4096,
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x4000064")]
 	PostSolverVelocity = 8192,
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000065")]
 	ContactEventPose = 16384,
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000066")]
 	NextFree = 32768,
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000067")]
 	ContactDefault = 1025,
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x4000068")]
 	TriggerDefault = 1044
 }

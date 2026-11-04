@@ -16,7 +16,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001159")]
-		[Address(RVA = "0x4861AF0", Offset = "0x4861AF0", VA = "0x4861AF0", Slot = "8")]
+		[Address(RVA = "0x2799170", Offset = "0x2797770", VA = "0x182799170", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -27,7 +27,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x600115A")]
-		[Address(RVA = "0x4861B00", Offset = "0x4861B00", VA = "0x4861B00", Slot = "5")]
+		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -35,7 +35,7 @@ internal class Datatype_ENTITY : Datatype_NCName
 	}
 
 	[Token(Token = "0x600115B")]
-	[Address(RVA = "0x48566D0", Offset = "0x48566D0", VA = "0x48566D0")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_ENTITY()
 	{
 	}

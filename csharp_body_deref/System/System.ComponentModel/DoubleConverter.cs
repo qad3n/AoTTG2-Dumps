@@ -10,54 +10,54 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200028C")]
+[Token(Token = "0x2000197")]
 public class DoubleConverter : BaseNumberConverter
 {
-	[Token(Token = "0x1700038C")]
+	[Token(Token = "0x170001FB")]
 	internal override bool AllowHex
 	{
-		[Token(Token = "0x6001003")]
-		[Address(RVA = "0x4891B20", Offset = "0x4891B20", VA = "0x4891B20", Slot = "16")]
+		[Token(Token = "0x6000A4B")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700038D")]
+	[Token(Token = "0x170001FC")]
 	internal override Type TargetType
 	{
-		[Token(Token = "0x6001004")]
-		[Address(RVA = "0x4891B30", Offset = "0x4891B30", VA = "0x4891B30", Slot = "17")]
+		[Token(Token = "0x6000A4C")]
+		[Address(RVA = "0x289BE50", Offset = "0x289A450", VA = "0x18289BE50", Slot = "17")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001005")]
-	[Address(RVA = "0x4891B70", Offset = "0x4891B70", VA = "0x4891B70", Slot = "18")]
+	[Token(Token = "0x6000A4D")]
+	[Address(RVA = "0x289BCF0", Offset = "0x289A2F0", VA = "0x18289BCF0", Slot = "18")]
 	internal override object FromString(string value, int radix)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001006")]
-	[Address(RVA = "0x4891C10", Offset = "0x4891C10", VA = "0x4891C10", Slot = "19")]
+	[Token(Token = "0x6000A4E")]
+	[Address(RVA = "0x289BD90", Offset = "0x289A390", VA = "0x18289BD90", Slot = "19")]
 	internal override object FromString(string value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001007")]
-	[Address(RVA = "0x4891C40", Offset = "0x4891C40", VA = "0x4891C40", Slot = "20")]
+	[Token(Token = "0x6000A4F")]
+	[Address(RVA = "0x289BDC0", Offset = "0x289A3C0", VA = "0x18289BDC0", Slot = "20")]
 	internal override string ToString(object value, NumberFormatInfo formatInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001008")]
-	[Address(RVA = "0x4891CD0", Offset = "0x4891CD0", VA = "0x4891CD0")]
+	[Token(Token = "0x6000A50")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DoubleConverter()
 	{
 	}

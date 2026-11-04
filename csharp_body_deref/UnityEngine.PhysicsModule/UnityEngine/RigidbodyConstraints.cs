@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000002")]
+[Token(Token = "0x200001F")]
 public enum RigidbodyConstraints
 {
-	[Token(Token = "0x4000002")]
+	[Token(Token = "0x4000077")]
 	None = 0,
-	[Token(Token = "0x4000003")]
+	[Token(Token = "0x4000078")]
 	FreezePositionX = 2,
-	[Token(Token = "0x4000004")]
+	[Token(Token = "0x4000079")]
 	FreezePositionY = 4,
-	[Token(Token = "0x4000005")]
+	[Token(Token = "0x400007A")]
 	FreezePositionZ = 8,
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x400007B")]
 	FreezeRotationX = 16,
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x400007C")]
 	FreezeRotationY = 32,
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x400007D")]
 	FreezeRotationZ = 64,
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x400007E")]
 	FreezePosition = 14,
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x400007F")]
 	FreezeRotation = 112,
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x4000080")]
 	FreezeAll = 126
 }

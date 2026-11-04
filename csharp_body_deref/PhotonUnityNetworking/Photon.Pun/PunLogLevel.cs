@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000004")]
 public enum PunLogLevel
 {
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x4000008")]
 	ErrorsOnly,
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x4000009")]
 	Informational,
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x400000A")]
 	Full
 }

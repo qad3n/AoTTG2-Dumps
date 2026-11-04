@@ -14,18 +14,19 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000003")]
+[Obsolete("UnityEngine.VRModule is deprecated and will be removed in a future version. Please use the APIs in the UnityEngine.XRModule instead")]
 [UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 public static class XRDevice
 {
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x4000001")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action<string> deviceLoaded;
 
-	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x510C050", Offset = "0x510C050", VA = "0x510C050")]
+	[Token(Token = "0x600000A")]
+	[Address(RVA = "0x3312B30", Offset = "0x3311130", VA = "0x183312B30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeDeviceLoaded(string loadedDeviceName)
 	{

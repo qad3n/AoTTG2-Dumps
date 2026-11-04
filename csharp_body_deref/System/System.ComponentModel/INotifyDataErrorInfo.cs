@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002E8")]
+[Token(Token = "0x20001F3")]
 public interface INotifyDataErrorInfo
 {
-	[Token(Token = "0x17000436")]
+	[Token(Token = "0x170002A5")]
 	bool HasErrors
 	{
-		[Token(Token = "0x60012D0")]
+		[Token(Token = "0x6000D18")]
 		get;
 	}
 
 	[Token(Token = "0x1400000A")]
 	event EventHandler<DataErrorsChangedEventArgs> ErrorsChanged;
 
-	[Token(Token = "0x60012D1")]
+	[Token(Token = "0x6000D19")]
 	IEnumerable GetErrors(string propertyName);
 }

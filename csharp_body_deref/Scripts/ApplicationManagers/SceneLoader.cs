@@ -13,61 +13,61 @@ using UnityEngine.SceneManagement;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000794")]
+[Token(Token = "0x200091F")]
 internal class SceneLoader : MonoBehaviour
 {
-	[Token(Token = "0x40024A6")]
+	[Token(Token = "0x4002D74")]
 	[FieldOffset(Offset = "0x0")]
 	private static SceneLoader _instance;
 
-	[Token(Token = "0x40024A7")]
+	[Token(Token = "0x4002D75")]
 	[FieldOffset(Offset = "0x8")]
 	public static SceneName SceneName;
 
-	[Token(Token = "0x40024A8")]
+	[Token(Token = "0x4002D76")]
 	[FieldOffset(Offset = "0x10")]
 	public static BaseGameManager CurrentGameManager;
 
-	[Token(Token = "0x40024A9")]
+	[Token(Token = "0x4002D77")]
 	[FieldOffset(Offset = "0x18")]
 	public static BaseCamera CurrentCamera;
 
-	[Token(Token = "0x40024AA")]
+	[Token(Token = "0x4002D78")]
 	[FieldOffset(Offset = "0x20")]
 	public static MinimapCamera MinimapCamera;
 
-	[Token(Token = "0x6004944")]
-	[Address(RVA = "0x43BFF30", Offset = "0x43BFF30", VA = "0x43BFF30")]
+	[Token(Token = "0x60055BC")]
+	[Address(RVA = "0x2356E80", Offset = "0x2355480", VA = "0x182356E80")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004945")]
-	[Address(RVA = "0x43C0030", Offset = "0x43C0030", VA = "0x43C0030")]
+	[Token(Token = "0x60055BD")]
+	[Address(RVA = "0x2356F90", Offset = "0x2355590", VA = "0x182356F90")]
 	public static void LoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6004946")]
-	[Address(RVA = "0x43C02A0", Offset = "0x43C02A0", VA = "0x43C02A0")]
+	[Token(Token = "0x60055BE")]
+	[Address(RVA = "0x2356C80", Offset = "0x2355280", VA = "0x182356C80")]
 	private static void CreateGameManager()
 	{
 	}
 
-	[Token(Token = "0x6004947")]
-	[Address(RVA = "0x43C0490", Offset = "0x43C0490", VA = "0x43C0490")]
+	[Token(Token = "0x60055BF")]
+	[Address(RVA = "0x23568C0", Offset = "0x2354EC0", VA = "0x1823568C0")]
 	private static void CreateCamera()
 	{
 	}
 
-	[Token(Token = "0x6004948")]
-	[Address(RVA = "0x43C07D0", Offset = "0x43C07D0", VA = "0x43C07D0")]
+	[Token(Token = "0x60055C0")]
+	[Address(RVA = "0x2357180", Offset = "0x2355780", VA = "0x182357180")]
 	private void OnSceneWasLoaded(Scene scene, LoadSceneMode mode)
 	{
 	}
 
-	[Token(Token = "0x6004949")]
-	[Address(RVA = "0x43C0820", Offset = "0x43C0820", VA = "0x43C0820")]
+	[Token(Token = "0x60055C1")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SceneLoader()
 	{
 	}

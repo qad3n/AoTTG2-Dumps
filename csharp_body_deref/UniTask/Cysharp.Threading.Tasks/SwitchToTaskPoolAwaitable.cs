@@ -11,54 +11,54 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200010C")]
+[Token(Token = "0x2000105")]
 public struct SwitchToTaskPoolAwaitable
 {
-	[Token(Token = "0x200010D")]
+	[Token(Token = "0x2000106")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x4000411")]
+		[Token(Token = "0x4000402")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly Action<object> switchToCallback;
 
-		[Token(Token = "0x17000047")]
+		[Token(Token = "0x17000045")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x600069F")]
-			[Address(RVA = "0x49EA1E0", Offset = "0x49EA1E0", VA = "0x49EA1E0")]
+			[Token(Token = "0x600067F")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60006A0")]
-		[Address(RVA = "0x49EA1F0", Offset = "0x49EA1F0", VA = "0x49EA1F0")]
+		[Token(Token = "0x6000680")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x60006A1")]
-		[Address(RVA = "0x49EA200", Offset = "0x49EA200", VA = "0x49EA200", Slot = "5")]
+		[Token(Token = "0x6000681")]
+		[Address(RVA = "0x29088D0", Offset = "0x2906ED0", VA = "0x1829088D0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006A2")]
-		[Address(RVA = "0x49EA400", Offset = "0x49EA400", VA = "0x49EA400", Slot = "4")]
+		[Token(Token = "0x6000682")]
+		[Address(RVA = "0x2908D80", Offset = "0x2907380", VA = "0x182908D80", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006A3")]
-		[Address(RVA = "0x49EA600", Offset = "0x49EA600", VA = "0x49EA600")]
+		[Token(Token = "0x6000683")]
+		[Address(RVA = "0x2908370", Offset = "0x2906970", VA = "0x182908370")]
 		private static void Callback(object state)
 		{
 		}
 	}
 
-	[Token(Token = "0x600069E")]
-	[Address(RVA = "0x49EA1D0", Offset = "0x49EA1D0", VA = "0x49EA1D0")]
+	[Token(Token = "0x600067E")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

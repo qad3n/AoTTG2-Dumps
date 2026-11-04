@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x200023B")]
+[Token(Token = "0x2000355")]
 public enum AnnieCustomSkinPartId
 {
-	[Token(Token = "0x4000C3F")]
+	[Token(Token = "0x400116B")]
 	Body
 }

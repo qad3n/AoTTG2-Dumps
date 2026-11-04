@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x2000328")]
+[Token(Token = "0x20002FF")]
 public interface INotification
 {
 }

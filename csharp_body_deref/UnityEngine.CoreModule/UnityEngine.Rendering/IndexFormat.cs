@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A3")]
+[Token(Token = "0x200031A")]
 public enum IndexFormat
 {
-	[Token(Token = "0x40006EC")]
+	[Token(Token = "0x40007E6")]
 	UInt16,
-	[Token(Token = "0x40006ED")]
+	[Token(Token = "0x40007E7")]
 	UInt32
 }

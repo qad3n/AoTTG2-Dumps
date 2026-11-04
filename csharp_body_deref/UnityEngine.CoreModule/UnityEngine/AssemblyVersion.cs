@@ -11,50 +11,50 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015E")]
+[Token(Token = "0x2000191")]
 [UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/AssemblyFullName.h")]
 internal struct AssemblyVersion
 {
-	[Token(Token = "0x4000569")]
+	[Token(Token = "0x40005FA")]
 	[FieldOffset(Offset = "0x0")]
 	public ushort major;
 
-	[Token(Token = "0x400056A")]
+	[Token(Token = "0x40005FB")]
 	[FieldOffset(Offset = "0x2")]
 	public ushort minor;
 
-	[Token(Token = "0x400056B")]
+	[Token(Token = "0x40005FC")]
 	[FieldOffset(Offset = "0x4")]
 	public ushort build;
 
-	[Token(Token = "0x400056C")]
+	[Token(Token = "0x40005FD")]
 	[FieldOffset(Offset = "0x6")]
 	public ushort revision;
 
-	[Token(Token = "0x60009DC")]
-	[Address(RVA = "0x4DF6910", Offset = "0x4DF6910", VA = "0x4DF6910")]
+	[Token(Token = "0x6000D1C")]
+	[Address(RVA = "0x2F0E950", Offset = "0x2F0CF50", VA = "0x182F0E950")]
 	public static bool operator ==(AssemblyVersion lhs, AssemblyVersion rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009DD")]
-	[Address(RVA = "0x4DF6940", Offset = "0x4DF6940", VA = "0x4DF6940", Slot = "3")]
+	[Token(Token = "0x6000D1D")]
+	[Address(RVA = "0x2F0E750", Offset = "0x2F0CD50", VA = "0x182F0E750", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009DE")]
-	[Address(RVA = "0x4DF6B20", Offset = "0x4DF6B20", VA = "0x4DF6B20", Slot = "0")]
+	[Token(Token = "0x6000D1E")]
+	[Address(RVA = "0x2F0E620", Offset = "0x2F0CC20", VA = "0x182F0E620", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009DF")]
-	[Address(RVA = "0x4DF6BA0", Offset = "0x4DF6BA0", VA = "0x4DF6BA0", Slot = "2")]
+	[Token(Token = "0x6000D1F")]
+	[Address(RVA = "0x2F0E6D0", Offset = "0x2F0CCD0", VA = "0x182F0E6D0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

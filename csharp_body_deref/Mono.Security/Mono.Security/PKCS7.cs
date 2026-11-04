@@ -29,7 +29,7 @@ public sealed class PKCS7
 		public ASN1 ASN1
 		{
 			[Token(Token = "0x6000027")]
-			[Address(RVA = "0x3A9FEA0", Offset = "0x3A9FEA0", VA = "0x3A9FEA0")]
+			[Address(RVA = "0x19166D0", Offset = "0x1914CD0", VA = "0x1819166D0")]
 			get
 			{
 				return null;
@@ -40,13 +40,13 @@ public sealed class PKCS7
 		public ASN1 Content
 		{
 			[Token(Token = "0x6000028")]
-			[Address(RVA = "0x3AA0060", Offset = "0x3AA0060", VA = "0x3AA0060")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x6000029")]
-			[Address(RVA = "0x3AA0070", Offset = "0x3AA0070", VA = "0x3AA0070")]
+			[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 			set
 			{
 			}
@@ -56,44 +56,44 @@ public sealed class PKCS7
 		public string ContentType
 		{
 			[Token(Token = "0x600002A")]
-			[Address(RVA = "0x3AA0080", Offset = "0x3AA0080", VA = "0x3AA0080")]
+			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x600002B")]
-			[Address(RVA = "0x3AA0090", Offset = "0x3AA0090", VA = "0x3AA0090")]
+			[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 			set
 			{
 			}
 		}
 
 		[Token(Token = "0x6000023")]
-		[Address(RVA = "0x3A9FB90", Offset = "0x3A9FB90", VA = "0x3A9FB90")]
+		[Address(RVA = "0x19163A0", Offset = "0x19149A0", VA = "0x1819163A0")]
 		public ContentInfo()
 		{
 		}
 
 		[Token(Token = "0x6000024")]
-		[Address(RVA = "0x3A9FC10", Offset = "0x3A9FC10", VA = "0x3A9FC10")]
+		[Address(RVA = "0x1916490", Offset = "0x1914A90", VA = "0x181916490")]
 		public ContentInfo(string oid)
 		{
 		}
 
 		[Token(Token = "0x6000025")]
-		[Address(RVA = "0x3A9FCA0", Offset = "0x3A9FCA0", VA = "0x3A9FCA0")]
+		[Address(RVA = "0x1916420", Offset = "0x1914A20", VA = "0x181916420")]
 		public ContentInfo(byte[] data)
 		{
 		}
 
 		[Token(Token = "0x6000026")]
-		[Address(RVA = "0x3A9FD00", Offset = "0x3A9FD00", VA = "0x3A9FD00")]
+		[Address(RVA = "0x19164D0", Offset = "0x1914AD0", VA = "0x1819164D0")]
 		public ContentInfo(ASN1 asn1)
 		{
 		}
 
 		[Token(Token = "0x600002C")]
-		[Address(RVA = "0x3A9FEB0", Offset = "0x3A9FEB0", VA = "0x3A9FEB0")]
+		[Address(RVA = "0x19161B0", Offset = "0x19147B0", VA = "0x1819161B0")]
 		internal ASN1 GetASN1()
 		{
 			return null;
@@ -123,7 +123,7 @@ public sealed class PKCS7
 		public ContentInfo EncryptionAlgorithm
 		{
 			[Token(Token = "0x600002F")]
-			[Address(RVA = "0x3AA0520", Offset = "0x3AA0520", VA = "0x3AA0520")]
+			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 			get
 			{
 				return null;
@@ -134,7 +134,7 @@ public sealed class PKCS7
 		public byte[] EncryptedContent
 		{
 			[Token(Token = "0x6000030")]
-			[Address(RVA = "0x3AA0530", Offset = "0x3AA0530", VA = "0x3AA0530")]
+			[Address(RVA = "0x1917640", Offset = "0x1915C40", VA = "0x181917640")]
 			get
 			{
 				return null;
@@ -142,13 +142,13 @@ public sealed class PKCS7
 		}
 
 		[Token(Token = "0x600002D")]
-		[Address(RVA = "0x3AA00A0", Offset = "0x3AA00A0", VA = "0x3AA00A0")]
+		[Address(RVA = "0x1917200", Offset = "0x1915800", VA = "0x181917200")]
 		public EncryptedData()
 		{
 		}
 
 		[Token(Token = "0x600002E")]
-		[Address(RVA = "0x3AA00C0", Offset = "0x3AA00C0", VA = "0x3AA00C0")]
+		[Address(RVA = "0x1917220", Offset = "0x1915820", VA = "0x181917220")]
 		public EncryptedData(ASN1 asn1)
 		{
 		}
@@ -189,7 +189,7 @@ public sealed class PKCS7
 		public X509CertificateCollection Certificates
 		{
 			[Token(Token = "0x6000032")]
-			[Address(RVA = "0x3AA16F0", Offset = "0x3AA16F0", VA = "0x3AA16F0")]
+			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 			get
 			{
 				return null;
@@ -200,7 +200,7 @@ public sealed class PKCS7
 		public ContentInfo ContentInfo
 		{
 			[Token(Token = "0x6000033")]
-			[Address(RVA = "0x3AA1700", Offset = "0x3AA1700", VA = "0x3AA1700")]
+			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 			get
 			{
 				return null;
@@ -211,7 +211,7 @@ public sealed class PKCS7
 		public string HashName
 		{
 			[Token(Token = "0x6000034")]
-			[Address(RVA = "0x3AA16B0", Offset = "0x3AA16B0", VA = "0x3AA16B0")]
+			[Address(RVA = "0x1920B30", Offset = "0x191F130", VA = "0x181920B30")]
 			set
 			{
 			}
@@ -221,7 +221,7 @@ public sealed class PKCS7
 		public SignerInfo SignerInfo
 		{
 			[Token(Token = "0x6000035")]
-			[Address(RVA = "0x3AA1710", Offset = "0x3AA1710", VA = "0x3AA1710")]
+			[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 			get
 			{
 				return null;
@@ -229,13 +229,13 @@ public sealed class PKCS7
 		}
 
 		[Token(Token = "0x6000031")]
-		[Address(RVA = "0x3AA05A0", Offset = "0x3AA05A0", VA = "0x3AA05A0")]
+		[Address(RVA = "0x19202A0", Offset = "0x191E8A0", VA = "0x1819202A0")]
 		public SignedData(ASN1 asn1)
 		{
 		}
 
 		[Token(Token = "0x6000036")]
-		[Address(RVA = "0x3AA1520", Offset = "0x3AA1520", VA = "0x3AA1520")]
+		[Address(RVA = "0x1920110", Offset = "0x191E710", VA = "0x181920110")]
 		internal string OidToName(string oid)
 		{
 			return null;
@@ -281,7 +281,7 @@ public sealed class PKCS7
 		public string IssuerName
 		{
 			[Token(Token = "0x6000039")]
-			[Address(RVA = "0x3AA1930", Offset = "0x3AA1930", VA = "0x3AA1930")]
+			[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 			get
 			{
 				return null;
@@ -292,7 +292,7 @@ public sealed class PKCS7
 		public byte[] SerialNumber
 		{
 			[Token(Token = "0x600003A")]
-			[Address(RVA = "0x3AA1940", Offset = "0x3AA1940", VA = "0x3AA1940")]
+			[Address(RVA = "0x19210C0", Offset = "0x191F6C0", VA = "0x1819210C0")]
 			get
 			{
 				return null;
@@ -303,7 +303,7 @@ public sealed class PKCS7
 		public ArrayList AuthenticatedAttributes
 		{
 			[Token(Token = "0x600003B")]
-			[Address(RVA = "0x3AA19B0", Offset = "0x3AA19B0", VA = "0x3AA19B0")]
+			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 			get
 			{
 				return null;
@@ -314,13 +314,13 @@ public sealed class PKCS7
 		public string HashName
 		{
 			[Token(Token = "0x600003C")]
-			[Address(RVA = "0x3AA19C0", Offset = "0x3AA19C0", VA = "0x3AA19C0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 			get
 			{
 				return null;
 			}
 			[Token(Token = "0x600003D")]
-			[Address(RVA = "0x3AA19D0", Offset = "0x3AA19D0", VA = "0x3AA19D0")]
+			[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 			set
 			{
 			}
@@ -330,7 +330,7 @@ public sealed class PKCS7
 		public byte[] Signature
 		{
 			[Token(Token = "0x600003E")]
-			[Address(RVA = "0x3AA19E0", Offset = "0x3AA19E0", VA = "0x3AA19E0")]
+			[Address(RVA = "0x1921140", Offset = "0x191F740", VA = "0x181921140")]
 			get
 			{
 				return null;
@@ -341,7 +341,7 @@ public sealed class PKCS7
 		public ArrayList UnauthenticatedAttributes
 		{
 			[Token(Token = "0x600003F")]
-			[Address(RVA = "0x3AA1A50", Offset = "0x3AA1A50", VA = "0x3AA1A50")]
+			[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 			get
 			{
 				return null;
@@ -352,7 +352,7 @@ public sealed class PKCS7
 		public byte Version
 		{
 			[Token(Token = "0x6000040")]
-			[Address(RVA = "0x3AA1A60", Offset = "0x3AA1A60", VA = "0x3AA1A60")]
+			[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 			get
 			{
 				return default(byte);
@@ -360,13 +360,13 @@ public sealed class PKCS7
 		}
 
 		[Token(Token = "0x6000037")]
-		[Address(RVA = "0x3AA1490", Offset = "0x3AA1490", VA = "0x3AA1490")]
+		[Address(RVA = "0x1920B80", Offset = "0x191F180", VA = "0x181920B80")]
 		public SignerInfo()
 		{
 		}
 
 		[Token(Token = "0x6000038")]
-		[Address(RVA = "0x3AA0E20", Offset = "0x3AA0E20", VA = "0x3AA0E20")]
+		[Address(RVA = "0x1920C20", Offset = "0x191F220", VA = "0x181920C20")]
 		public SignerInfo(ASN1 asn1)
 		{
 		}

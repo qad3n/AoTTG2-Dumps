@@ -18,9 +18,10 @@ namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
 [Token(Token = "0x2000004")]
-[ExcludeFromDocs]
 [UnityEngine.Bindings.NativeHeader("UnityAnalyticsScriptingClasses.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/RemoteSettings/RemoteSettings.h")]
+[ExcludeFromDocs]
+[UnityEngine.Bindings.NativeHeader("Modules/UnityAnalyticsCommon/Public/UnityAnalyticsCommon.h")]
 public class RemoteConfigSettings
 {
 	[NonSerialized]
@@ -35,7 +36,7 @@ public class RemoteConfigSettings
 	private Action<bool> Updated;
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x5104400", Offset = "0x5104400", VA = "0x5104400")]
+	[Address(RVA = "0x3308AD0", Offset = "0x33070D0", VA = "0x183308AD0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RemoteConfigSettingsUpdated(RemoteConfigSettings rcs, bool wasLastUpdatedFromServer)
 	{

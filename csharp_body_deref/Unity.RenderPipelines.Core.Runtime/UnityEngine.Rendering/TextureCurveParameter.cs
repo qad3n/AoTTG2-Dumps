@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001D0")]
+[Token(Token = "0x20001EC")]
 public class TextureCurveParameter : VolumeParameter<TextureCurve>
 {
-	[Token(Token = "0x6000D42")]
-	[Address(RVA = "0x4C03DA0", Offset = "0x4C03DA0", VA = "0x4C03DA0")]
+	[Token(Token = "0x6000EA9")]
+	[Address(RVA = "0x2B626F0", Offset = "0x2B60CF0", VA = "0x182B626F0")]
 	public TextureCurveParameter(TextureCurve value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000D43")]
-	[Address(RVA = "0x4C03DF0", Offset = "0x4C03DF0", VA = "0x4C03DF0", Slot = "11")]
+	[Token(Token = "0x6000EAA")]
+	[Address(RVA = "0x2B626D0", Offset = "0x2B60CD0", VA = "0x182B626D0", Slot = "11")]
 	public override void Release()
 	{
 	}

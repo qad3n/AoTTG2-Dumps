@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaMinLengthFacet : XmlSchemaNumericFacet
 {
 	[Token(Token = "0x6001661")]
-	[Address(RVA = "0x4724C40", Offset = "0x4724C40", VA = "0x4724C40")]
+	[Address(RVA = "0x266CD20", Offset = "0x266B320", VA = "0x18266CD20")]
 	public XmlSchemaMinLengthFacet()
 	{
 	}

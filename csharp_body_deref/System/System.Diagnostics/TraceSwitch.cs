@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20000CE")]
+[Token(Token = "0x200010E")]
 [SwitchLevel(typeof(TraceLevel))]
 public class TraceSwitch : Switch
 {
-	[Token(Token = "0x60004A7")]
-	[Address(RVA = "0x4926F80", Offset = "0x4926F80", VA = "0x4926F80")]
+	[Token(Token = "0x6000687")]
+	[Address(RVA = "0x2877310", Offset = "0x2875910", VA = "0x182877310")]
 	public TraceSwitch(string displayName, string description)
 	{
 	}

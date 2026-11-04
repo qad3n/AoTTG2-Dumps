@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001D3")]
+[Token(Token = "0x20001F0")]
 public interface IVolume
 {
-	[Token(Token = "0x1700018C")]
+	[Token(Token = "0x170001DF")]
 	bool isGlobal
 	{
-		[Token(Token = "0x6000D48")]
+		[Token(Token = "0x6000EBE")]
 		get;
-		[Token(Token = "0x6000D49")]
+		[Token(Token = "0x6000EBF")]
 		set;
 	}
 
-	[Token(Token = "0x1700018D")]
+	[Token(Token = "0x170001E0")]
 	List<Collider> colliders
 	{
-		[Token(Token = "0x6000D4A")]
+		[Token(Token = "0x6000EC0")]
 		get;
 	}
 }

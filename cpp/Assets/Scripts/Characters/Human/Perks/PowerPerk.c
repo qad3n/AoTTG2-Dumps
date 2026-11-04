@@ -1,5 +1,5 @@
 // Type: Assets.Scripts.Characters.Human.Perks.PowerPerk
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Assets.Scripts.Characters.Human.Perks/PowerPerk.cs
@@ -8,26 +8,25 @@
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_PerkEnabled
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481320
+// 0x18232c5d0
 
-bool_conflict
-Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled
-          (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
+bool Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PerkEnabled
+               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  undefined8 uVar2;
+  int32_t iVar2;
   
   iVar1 = (__this->fields).CurrPoints;
-  uVar2 = (*(__this->klass->vtable)._5_get_MaxPoints.methodPtr)
+  iVar2 = (*(__this->klass->vtable)._5_get_MaxPoints.methodPtr)
                     (__this,(__this->klass->vtable)._5_get_MaxPoints.method);
-  return (bool_conflict)CONCAT71((int7)((ulong)uVar2 >> 8),iVar1 == (int)uVar2);
+  return iVar1 == iVar2;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_MaxPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481340
+// 0x181da8af0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -39,10 +38,10 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MaxPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_MinPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481350
+// 0x180560480
 
-float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower
-                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
+float
+Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower(Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, MethodInfo* method)
 
 {
   return 0.0;
@@ -51,7 +50,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_MinPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_PowerCost
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481360
+// 0x182168bc0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -63,10 +62,10 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_PowerCost
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_LinearRecoveryRate
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481370
+// 0x1820b9980
 
-float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate
-                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
+float
+Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate(Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, MethodInfo* method)
 
 {
   return 10.0;
@@ -75,10 +74,10 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_LinearRecoveryRate
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$get_Cooldown
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481380
+// 0x180560480
 
-float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown
-                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
+float
+Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown(Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, MethodInfo* method)
 
 {
   return 0.0;
@@ -87,7 +86,7 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__get_Cooldown
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$.ctor
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481390
+// 0x182336c60
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -97,8 +96,8 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor
   
   (__this->fields)._lastUseTime = -1000.0;
   Characters_BasePerk___ctor((Characters_BasePerk_o *)__this,(MethodInfo *)0x0);
-  fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  fVar1 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
   (__this->fields)._currentPower = fVar1;
   fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
   (__this->fields)._lastUpdateTime = fVar1;
@@ -108,7 +107,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk___ctor
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$Reset
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x44813d0
+// 0x182336a90
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -116,8 +115,8 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset
 {
   float fVar1;
   
-  fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  fVar1 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
   (__this->fields)._currentPower = fVar1;
   fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
   (__this->fields)._lastUpdateTime = fVar1;
@@ -127,46 +126,22 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__Reset
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCurrentPower
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCurrentPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481400
+// 0x1823366b0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCurrentPower
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  float fVar2;
-  float fVar3;
-  
-  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar1 = fVar1 - (__this->fields)._lastUpdateTime;
-  if (0.0 < fVar1) {
-    fVar3 = (__this->fields)._currentPower;
-    fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar3 < fVar2) {
-      fVar3 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                               (fVar1,__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-      fVar3 = fVar3 + (__this->fields)._currentPower;
-      fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                               (__this,(__this->klass->vtable)._10_get_MinPower.method);
-      fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                               (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-      if (fVar3 <= fVar1) {
-        fVar1 = fVar3;
-      }
-      (__this->fields)._currentPower =
-           (float)(~-(uint)(fVar2 <= fVar3) & (uint)fVar2 | (uint)fVar1 & -(uint)(fVar2 <= fVar3));
-      fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-      (__this->fields)._lastUpdateTime = fVar1;
-    }
-  }
+  Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower(__this,(MethodInfo *)0x0);
   return (__this->fields)._currentPower;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$SetCurrentPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float power, const MethodInfo* method);
-// 0x44815a0
+// 0x182336b10
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182336b5b: movaps xmm0, xmm7
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float power,MethodInfo *method)
@@ -175,24 +150,25 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCurrentPower
   float fVar1;
   float fVar2;
   
-  fVar1 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-  if (power <= fVar2) {
-    fVar2 = power;
+  fVar1 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                    (__this,(__this->klass->vtable)._10_get_MinPower.method);
+  fVar2 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  if ((fVar1 <= power) && (fVar1 = fVar2, power <= fVar2)) {
+    fVar1 = power;
   }
-  (__this->fields)._currentPower =
-       (float)(-(uint)(fVar1 <= power) & (uint)fVar2 | ~-(uint)(fVar1 <= power) & (uint)fVar1);
-  fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  (__this->fields)._lastUpdateTime = fVar2;
+  (__this->fields)._currentPower = fVar1;
+  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+  (__this->fields)._lastUpdateTime = fVar1;
   return;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$RecoverPower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float amount, const MethodInfo* method);
-// 0x4481610
+// 0x182336a00
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182336a5c: movaps xmm0, xmm8
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float amount,MethodInfo *method)
@@ -202,16 +178,16 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower
   float fVar2;
   float fVar3;
   
-  fVar1 = amount + (__this->fields)._currentPower;
-  fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  fVar3 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-  if (fVar1 <= fVar3) {
-    fVar3 = fVar1;
+  fVar3 = (__this->fields)._currentPower;
+  fVar1 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                    (__this,(__this->klass->vtable)._10_get_MinPower.method);
+  fVar2 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  fVar3 = fVar3 + amount;
+  if ((fVar1 <= fVar3) && (fVar1 = fVar2, fVar3 <= fVar2)) {
+    fVar1 = fVar3;
   }
-  (__this->fields)._currentPower =
-       (float)(-(uint)(fVar2 <= fVar1) & (uint)fVar3 | ~-(uint)(fVar2 <= fVar1) & (uint)fVar2);
+  (__this->fields)._currentPower = fVar1;
   fVar3 = UnityEngine_Time__get_time((MethodInfo *)0x0);
   (__this->fields)._lastUpdateTime = fVar3;
   return;
@@ -220,7 +196,9 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$RecoverPowerBySeconds
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float seconds, const MethodInfo* method);
-// 0x4481680
+// 0x182336950
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823369d0: movaps xmm0, xmm8
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float seconds,MethodInfo *method)
@@ -229,22 +207,23 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds
   float fVar1;
   float fVar2;
   float fVar3;
+  float fVar4;
   
   if (0.0 < seconds) {
-    fVar1 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                             (__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-    fVar1 = fVar1 + (__this->fields)._currentPower;
-    fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                             (__this,(__this->klass->vtable)._10_get_MinPower.method);
-    fVar3 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar1 <= fVar3) {
-      fVar3 = fVar1;
+    fVar1 = (*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
+                      (__this,seconds,(__this->klass->vtable)._15_GetRecoveryAmount.method);
+    fVar4 = (__this->fields)._currentPower;
+    fVar2 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                      (__this,(__this->klass->vtable)._10_get_MinPower.method);
+    fVar3 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                      (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+    fVar4 = fVar4 + fVar1;
+    if ((fVar2 <= fVar4) && (fVar2 = fVar3, fVar4 <= fVar3)) {
+      fVar2 = fVar4;
     }
-    (__this->fields)._currentPower =
-         (float)(~-(uint)(fVar2 <= fVar1) & (uint)fVar2 | (uint)fVar3 & -(uint)(fVar2 <= fVar1));
-    fVar3 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-    (__this->fields)._lastUpdateTime = fVar3;
+    (__this->fields)._currentPower = fVar2;
+    fVar4 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+    (__this->fields)._lastUpdateTime = fVar4;
   }
   return;
 }
@@ -252,7 +231,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__RecoverPowerBySeconds
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetPowerRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481710
+// 0x1823366d0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -263,50 +242,31 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetPowerRatio
   float fVar3;
   float fVar4;
   
-  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar1 = fVar1 - (__this->fields)._lastUpdateTime;
-  if (0.0 < fVar1) {
-    fVar3 = (__this->fields)._currentPower;
-    fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar3 < fVar2) {
-      fVar3 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                               (fVar1,__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-      fVar3 = fVar3 + (__this->fields)._currentPower;
-      fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                               (__this,(__this->klass->vtable)._10_get_MinPower.method);
-      fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                               (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-      if (fVar3 <= fVar1) {
-        fVar1 = fVar3;
-      }
-      (__this->fields)._currentPower =
-           (float)(~-(uint)(fVar2 <= fVar3) & (uint)fVar2 | (uint)fVar1 & -(uint)(fVar2 <= fVar3));
-      fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-      (__this->fields)._lastUpdateTime = fVar1;
-    }
+  Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower(__this,(MethodInfo *)0x0);
+  fVar1 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  fVar2 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                    (__this,(__this->klass->vtable)._10_get_MinPower.method);
+  if (fVar1 != fVar2) {
+    fVar1 = (__this->fields)._currentPower;
+    fVar2 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                      (__this,(__this->klass->vtable)._10_get_MinPower.method);
+    fVar3 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                      (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+    fVar4 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                      (__this,(__this->klass->vtable)._10_get_MinPower.method);
+    return (fVar1 - fVar2) / (fVar3 - fVar4);
   }
-  fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-  fVar3 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  if ((fVar1 == fVar3) && (!NAN(fVar1) && !NAN(fVar3))) {
-    return 1.0;
-  }
-  fVar1 = (__this->fields)._currentPower;
-  fVar3 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-  fVar4 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  return (fVar1 - fVar3) / (fVar2 - fVar4);
+  return 1.0;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$UpdatePower
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x44814d0
+// 0x182336b80
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182336c2d: movaps xmm0, xmm8
+// asm:   0x182336c48: movaps xmm6, xmmword ptr [rsp + 0x40]
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -315,29 +275,28 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower
   float fVar1;
   float fVar2;
   float fVar3;
+  float fVar4;
   
   fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
   fVar1 = fVar1 - (__this->fields)._lastUpdateTime;
-  if (0.0 < fVar1) {
-    fVar3 = (__this->fields)._currentPower;
-    fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar3 < fVar2) {
-      fVar3 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                               (fVar1,__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-      fVar3 = fVar3 + (__this->fields)._currentPower;
-      fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                               (__this,(__this->klass->vtable)._10_get_MinPower.method);
-      fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                               (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-      if (fVar3 <= fVar1) {
-        fVar1 = fVar3;
-      }
-      (__this->fields)._currentPower =
-           (float)(~-(uint)(fVar2 <= fVar3) & (uint)fVar2 | (uint)fVar1 & -(uint)(fVar2 <= fVar3));
-      fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-      (__this->fields)._lastUpdateTime = fVar1;
+  if ((0.0 < fVar1) &&
+     (fVar3 = (__this->fields)._currentPower,
+     fVar2 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                       (__this,(__this->klass->vtable)._9_get_MaxPower.method), fVar3 < fVar2)) {
+    fVar2 = (*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
+                      (__this,fVar1,(__this->klass->vtable)._15_GetRecoveryAmount.method);
+    fVar1 = (__this->fields)._currentPower;
+    fVar3 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                      (__this,(__this->klass->vtable)._10_get_MinPower.method);
+    fVar4 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                      (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+    fVar1 = fVar1 + fVar2;
+    if ((fVar3 <= fVar1) && (fVar3 = fVar4, fVar1 <= fVar4)) {
+      fVar3 = fVar1;
     }
+    (__this->fields)._currentPower = fVar3;
+    fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+    (__this->fields)._lastUpdateTime = fVar1;
   }
   return;
 }
@@ -345,7 +304,7 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetRecoveryAmount
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float deltaTime, const MethodInfo* method);
-// 0x4481890
+// 0x1823367a0
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float deltaTime,MethodInfo *method)
@@ -353,67 +312,42 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetRecoveryAmount
 {
   float fVar1;
   
-  fVar1 = (float)(*(__this->klass->vtable)._12_get_LinearRecoveryRate.methodPtr)
-                           (__this,(__this->klass->vtable)._12_get_LinearRecoveryRate.method);
+  fVar1 = (*(__this->klass->vtable)._12_get_LinearRecoveryRate.methodPtr)(__this);
   return fVar1 * deltaTime;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$CanUse
 // il2cpp: bool Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x44818b0
+// 0x18233d0d0
 
-bool_conflict
-Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse
-          (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
+bool Assets_Scripts_Characters_Human_Perks_PowerPerk__CanUse
+               (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  float fVar1;
   float fVar2;
   float fVar3;
-  float fVar4;
-  float extraout_XMM0_Da;
-  float extraout_XMM0_Da_00;
   
-  fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar2 = fVar2 - (__this->fields)._lastUpdateTime;
-  if (0.0 < fVar2) {
-    fVar4 = (__this->fields)._currentPower;
-    fVar3 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar4 < fVar3) {
-      fVar4 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                               (fVar2,__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-      fVar4 = fVar4 + (__this->fields)._currentPower;
-      fVar3 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                               (__this,(__this->klass->vtable)._10_get_MinPower.method);
-      fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                               (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-      if (fVar4 <= fVar2) {
-        fVar2 = fVar4;
-      }
-      (__this->fields)._currentPower =
-           (float)(~-(uint)(fVar3 <= fVar4) & (uint)fVar3 | (uint)fVar2 & -(uint)(fVar3 <= fVar4));
-      fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-      (__this->fields)._lastUpdateTime = fVar2;
-    }
-  }
-  uVar1 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+  Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower(__this,(MethodInfo *)0x0);
+  fVar1 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
                     (__this,(__this->klass->vtable)._13_get_Cooldown.method);
-  if ((extraout_XMM0_Da == 0.0) && (!NAN(extraout_XMM0_Da))) {
-    return (bool_conflict)CONCAT71((int7)((ulong)uVar1 >> 8),1);
+  if (fVar1 != 0.0) {
+    fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+    fVar1 = (__this->fields)._lastUseTime;
+    fVar3 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                      (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+    return fVar3 <= fVar2 - fVar1;
   }
-  fVar4 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar2 = (__this->fields)._lastUseTime;
-  uVar1 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                    (__this,(__this->klass->vtable)._13_get_Cooldown.method);
-  return (bool_conflict)CONCAT71((int7)((ulong)uVar1 >> 8),extraout_XMM0_Da_00 <= fVar4 - fVar2);
+  return true;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$OnUse
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x44819d0
+// 0x18233d140
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18233d1b9: movaps xmm0, xmm8
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -424,53 +358,30 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__OnUse
   float fVar3;
   float fVar4;
   
-  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar1 = fVar1 - (__this->fields)._lastUpdateTime;
-  if (0.0 < fVar1) {
-    fVar3 = (__this->fields)._currentPower;
-    fVar2 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                             (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-    if (fVar3 < fVar2) {
-      fVar3 = (float)(*(__this->klass->vtable)._15_GetRecoveryAmount.methodPtr)
-                               (fVar1,__this,(__this->klass->vtable)._15_GetRecoveryAmount.method);
-      fVar3 = fVar3 + (__this->fields)._currentPower;
-      fVar2 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                               (__this,(__this->klass->vtable)._10_get_MinPower.method);
-      fVar1 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                               (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-      if (fVar3 <= fVar1) {
-        fVar1 = fVar3;
-      }
-      (__this->fields)._currentPower =
-           (float)(~-(uint)(fVar2 <= fVar3) & (uint)fVar2 | (uint)fVar1 & -(uint)(fVar2 <= fVar3));
-      fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-      (__this->fields)._lastUpdateTime = fVar1;
-    }
+  Assets_Scripts_Characters_Human_Perks_PowerPerk__UpdatePower(__this,(MethodInfo *)0x0);
+  fVar4 = (__this->fields)._currentPower;
+  fVar1 = (*(__this->klass->vtable)._11_get_PowerCost.methodPtr)
+                    (__this,(__this->klass->vtable)._11_get_PowerCost.method);
+  fVar2 = (*(__this->klass->vtable)._10_get_MinPower.methodPtr)
+                    (__this,(__this->klass->vtable)._10_get_MinPower.method);
+  fVar3 = (*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
+                    (__this,(__this->klass->vtable)._9_get_MaxPower.method);
+  fVar4 = fVar4 - fVar1;
+  if ((fVar2 <= fVar4) && (fVar2 = fVar3, fVar4 <= fVar3)) {
+    fVar2 = fVar4;
   }
-  fVar1 = (__this->fields)._currentPower;
-  fVar2 = (float)(*(__this->klass->vtable)._11_get_PowerCost.methodPtr)
-                           (__this,(__this->klass->vtable)._11_get_PowerCost.method);
-  fVar4 = (float)(*(__this->klass->vtable)._10_get_MinPower.methodPtr)
-                           (__this,(__this->klass->vtable)._10_get_MinPower.method);
-  fVar3 = (float)(*(__this->klass->vtable)._9_get_MaxPower.methodPtr)
-                           (__this,(__this->klass->vtable)._9_get_MaxPower.method);
-  fVar1 = fVar1 - fVar2;
-  if (fVar1 <= fVar3) {
-    fVar3 = fVar1;
-  }
-  (__this->fields)._currentPower =
-       (float)(~-(uint)(fVar4 <= fVar1) & (uint)fVar4 | (uint)fVar3 & -(uint)(fVar4 <= fVar1));
-  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  (__this->fields)._lastUseTime = fVar1;
-  fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  (__this->fields)._lastUpdateTime = fVar1;
+  (__this->fields)._currentPower = fVar2;
+  fVar4 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+  (__this->fields)._lastUseTime = fVar4;
+  fVar4 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+  (__this->fields)._lastUpdateTime = fVar4;
   return;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$SetCooldownLeft
 // il2cpp: void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, float cooldownLeft, const MethodInfo* method);
-// 0x4481b30
+// 0x182336ac0
 
 void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft
                (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,float cooldownLeft,
@@ -481,8 +392,8 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft
   float fVar2;
   
   fVar1 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar2 = (float)(*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                           (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+  fVar2 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                    (__this,(__this->klass->vtable)._13_get_Cooldown.method);
   (__this->fields)._lastUseTime = (fVar1 - fVar2) + cooldownLeft;
   return;
 }
@@ -490,7 +401,9 @@ void Assets_Scripts_Characters_Human_Perks_PowerPerk__SetCooldownLeft
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCooldownLeft
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481b80
+// 0x182336590
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823365fd: movaps xmm0, xmm8
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -501,23 +414,26 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownLeft
   float fVar3;
   float fVar4;
   
-  fVar2 = (float)(*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                           (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+  fVar2 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                    (__this,(__this->klass->vtable)._13_get_Cooldown.method);
   fVar3 = UnityEngine_Time__get_time((MethodInfo *)0x0);
   fVar1 = (__this->fields)._lastUseTime;
-  fVar4 = (float)(*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                           (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+  fVar4 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                    (__this,(__this->klass->vtable)._13_get_Cooldown.method);
   fVar2 = fVar2 - (fVar3 - fVar1);
-  if (fVar2 <= fVar4) {
-    fVar4 = fVar2;
+  if (fVar2 < 0.0) {
+    fVar2 = 0.0;
   }
-  return (float)(-(uint)(0.0 <= fVar2) & (uint)fVar4);
+  else if (fVar4 < fVar2) {
+    fVar2 = fVar4;
+  }
+  return fVar2;
 }
 
 
 // Assets.Scripts.Characters.Human.Perks.PowerPerk$$GetCooldownRatio
 // il2cpp: float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownRatio (Assets_Scripts_Characters_Human_Perks_PowerPerk_o* __this, const MethodInfo* method);
-// 0x4481bf0
+// 0x182336620
 
 float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownRatio
                 (Assets_Scripts_Characters_Human_Perks_PowerPerk_o *__this,MethodInfo *method)
@@ -527,21 +443,21 @@ float Assets_Scripts_Characters_Human_Perks_PowerPerk__GetCooldownRatio
   float fVar2;
   float fVar3;
   
-  fVar1 = (float)(*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                           (__this,(__this->klass->vtable)._13_get_Cooldown.method);
-  if ((fVar1 == 0.0) && (!NAN(fVar1))) {
-    return 1.0;
+  fVar1 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                    (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+  if (fVar1 != 0.0) {
+    fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
+    fVar1 = (__this->fields)._lastUseTime;
+    fVar3 = (*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
+                      (__this,(__this->klass->vtable)._13_get_Cooldown.method);
+    fVar3 = (fVar2 - fVar1) / fVar3;
+    fVar1 = 0.0;
+    if ((0.0 <= fVar3) && (fVar1 = 1.0, fVar3 <= 1.0)) {
+      fVar1 = fVar3;
+    }
+    return fVar1;
   }
-  fVar2 = UnityEngine_Time__get_time((MethodInfo *)0x0);
-  fVar1 = (__this->fields)._lastUseTime;
-  fVar3 = (float)(*(__this->klass->vtable)._13_get_Cooldown.methodPtr)
-                           (__this,(__this->klass->vtable)._13_get_Cooldown.method);
-  fVar3 = (fVar2 - fVar1) / fVar3;
-  fVar1 = 0.0;
-  if ((0.0 <= fVar3) && (fVar1 = 1.0, fVar3 <= 1.0)) {
-    fVar1 = fVar3;
-  }
-  return fVar1;
+  return 1.0;
 }
 
 

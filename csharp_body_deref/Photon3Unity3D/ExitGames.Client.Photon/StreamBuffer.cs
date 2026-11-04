@@ -32,7 +32,7 @@ public class StreamBuffer
 	public bool CanRead
 	{
 		[Token(Token = "0x60002E9")]
-		[Address(RVA = "0x3E95660", Offset = "0x3E95660", VA = "0x3E95660")]
+		[Address(RVA = "0x10B79A0", Offset = "0x10B5FA0", VA = "0x1810B79A0")]
 		get
 		{
 			return default(bool);
@@ -43,7 +43,7 @@ public class StreamBuffer
 	public bool CanSeek
 	{
 		[Token(Token = "0x60002EA")]
-		[Address(RVA = "0x3E95670", Offset = "0x3E95670", VA = "0x3E95670")]
+		[Address(RVA = "0x10B79A0", Offset = "0x10B5FA0", VA = "0x1810B79A0")]
 		get
 		{
 			return default(bool);
@@ -54,7 +54,7 @@ public class StreamBuffer
 	public bool CanWrite
 	{
 		[Token(Token = "0x60002EB")]
-		[Address(RVA = "0x3E95680", Offset = "0x3E95680", VA = "0x3E95680")]
+		[Address(RVA = "0x10B79A0", Offset = "0x10B5FA0", VA = "0x1810B79A0")]
 		get
 		{
 			return default(bool);
@@ -65,7 +65,7 @@ public class StreamBuffer
 	public int Length
 	{
 		[Token(Token = "0x60002EC")]
-		[Address(RVA = "0x3E8D880", Offset = "0x3E8D880", VA = "0x3E8D880")]
+		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0")]
 		get
 		{
 			return default(int);
@@ -76,13 +76,13 @@ public class StreamBuffer
 	public int Position
 	{
 		[Token(Token = "0x60002ED")]
-		[Address(RVA = "0x3E8D7F0", Offset = "0x3E8D7F0", VA = "0x3E8D7F0")]
+		[Address(RVA = "0x1CBB700", Offset = "0x1CB9D00", VA = "0x181CBB700")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60002EE")]
-		[Address(RVA = "0x3E8D800", Offset = "0x3E8D800", VA = "0x3E8D800")]
+		[Address(RVA = "0x1CF0690", Offset = "0x1CEEC90", VA = "0x181CF0690")]
 		set
 		{
 		}
@@ -92,7 +92,7 @@ public class StreamBuffer
 	public int Available
 	{
 		[Token(Token = "0x60002EF")]
-		[Address(RVA = "0x3E95740", Offset = "0x3E95740", VA = "0x3E95740")]
+		[Address(RVA = "0x1CF0680", Offset = "0x1CEEC80", VA = "0x181CF0680")]
 		get
 		{
 			return default(int);
@@ -100,128 +100,128 @@ public class StreamBuffer
 	}
 
 	[Token(Token = "0x60002E2")]
-	[Address(RVA = "0x3E8D6E0", Offset = "0x3E8D6E0", VA = "0x3E8D6E0")]
+	[Address(RVA = "0x1CF05D0", Offset = "0x1CEEBD0", VA = "0x181CF05D0")]
 	public StreamBuffer(int size = 0)
 	{
 	}
 
 	[Token(Token = "0x60002E3")]
-	[Address(RVA = "0x3E95510", Offset = "0x3E95510", VA = "0x3E95510")]
+	[Address(RVA = "0x1CF0630", Offset = "0x1CEEC30", VA = "0x181CF0630")]
 	public StreamBuffer(byte[] buf)
 	{
 	}
 
 	[Token(Token = "0x60002E4")]
-	[Address(RVA = "0x3E8D820", Offset = "0x3E8D820", VA = "0x3E8D820")]
+	[Address(RVA = "0x1CF0140", Offset = "0x1CEE740", VA = "0x181CF0140")]
 	public byte[] ToArray()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002E5")]
-	[Address(RVA = "0x3E95550", Offset = "0x3E95550", VA = "0x3E95550")]
+	[Address(RVA = "0x1CF00B0", Offset = "0x1CEE6B0", VA = "0x181CF00B0")]
 	public byte[] ToArrayFromPos()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002E6")]
-	[Address(RVA = "0x3E955C0", Offset = "0x3E955C0", VA = "0x3E955C0")]
+	[Address(RVA = "0x1CEFD40", Offset = "0x1CEE340", VA = "0x181CEFD40")]
 	public void Compact()
 	{
 	}
 
 	[Token(Token = "0x60002E7")]
-	[Address(RVA = "0x3E8D7E0", Offset = "0x3E8D7E0", VA = "0x3E8D7E0")]
+	[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
 	public byte[] GetBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002E8")]
-	[Address(RVA = "0x3E95630", Offset = "0x3E95630", VA = "0x3E95630")]
+	[Address(RVA = "0x1CEFDC0", Offset = "0x1CEE3C0", VA = "0x181CEFDC0")]
 	public byte[] GetBufferAndAdvance(int length, out int offset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60002F0")]
-	[Address(RVA = "0x3E95750", Offset = "0x3E95750", VA = "0x3E95750")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x60002F1")]
-	[Address(RVA = "0x3E95760", Offset = "0x3E95760", VA = "0x3E95760")]
+	[Address(RVA = "0x1CEFF50", Offset = "0x1CEE550", VA = "0x181CEFF50")]
 	public long Seek(long offset, SeekOrigin origin)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60002F2")]
-	[Address(RVA = "0x3E8D740", Offset = "0x3E8D740", VA = "0x3E8D740")]
+	[Address(RVA = "0x1CF0080", Offset = "0x1CEE680", VA = "0x181CF0080")]
 	public void SetLength(long value)
 	{
 	}
 
 	[Token(Token = "0x60002F3")]
-	[Address(RVA = "0x3E8D780", Offset = "0x3E8D780", VA = "0x3E8D780")]
+	[Address(RVA = "0x1CF0070", Offset = "0x1CEE670", VA = "0x181CF0070")]
 	public void SetCapacityMinimum(int neededSize)
 	{
 	}
 
 	[Token(Token = "0x60002F4")]
-	[Address(RVA = "0x3E95820", Offset = "0x3E95820", VA = "0x3E95820")]
+	[Address(RVA = "0x1CEFEF0", Offset = "0x1CEE4F0", VA = "0x181CEFEF0")]
 	public int Read(byte[] buffer, int dstOffset, int count)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60002F5")]
-	[Address(RVA = "0x3E8D790", Offset = "0x3E8D790", VA = "0x3E8D790")]
+	[Address(RVA = "0x1CF0570", Offset = "0x1CEEB70", VA = "0x181CF0570")]
 	public void Write(byte[] buffer, int srcOffset, int count)
 	{
 	}
 
 	[Token(Token = "0x60002F6")]
-	[Address(RVA = "0x3E95860", Offset = "0x3E95860", VA = "0x3E95860")]
+	[Address(RVA = "0x1CEFE00", Offset = "0x1CEE400", VA = "0x181CEFE00")]
 	public byte ReadByte()
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60002F7")]
-	[Address(RVA = "0x3E95930", Offset = "0x3E95930", VA = "0x3E95930")]
+	[Address(RVA = "0x1CF01B0", Offset = "0x1CEE7B0", VA = "0x181CF01B0")]
 	public void WriteByte(byte value)
 	{
 	}
 
 	[Token(Token = "0x60002F8")]
-	[Address(RVA = "0x3E95980", Offset = "0x3E95980", VA = "0x3E95980")]
+	[Address(RVA = "0x1CF0420", Offset = "0x1CEEA20", VA = "0x181CF0420")]
 	public void WriteBytes(byte v0, byte v1)
 	{
 	}
 
 	[Token(Token = "0x60002F9")]
-	[Address(RVA = "0x3E959F0", Offset = "0x3E959F0", VA = "0x3E959F0")]
+	[Address(RVA = "0x1CF0210", Offset = "0x1CEE810", VA = "0x181CF0210")]
 	public void WriteBytes(byte v0, byte v1, byte v2)
 	{
 	}
 
 	[Token(Token = "0x60002FA")]
-	[Address(RVA = "0x3E95A90", Offset = "0x3E95A90", VA = "0x3E95A90")]
+	[Address(RVA = "0x1CF04B0", Offset = "0x1CEEAB0", VA = "0x181CF04B0")]
 	public void WriteBytes(byte v0, byte v1, byte v2, byte v3)
 	{
 	}
 
 	[Token(Token = "0x60002FB")]
-	[Address(RVA = "0x3E95B50", Offset = "0x3E95B50", VA = "0x3E95B50")]
+	[Address(RVA = "0x1CF02B0", Offset = "0x1CEE8B0", VA = "0x181CF02B0")]
 	public void WriteBytes(byte v0, byte v1, byte v2, byte v3, byte v4, byte v5, byte v6, byte v7)
 	{
 	}
 
 	[Token(Token = "0x60002FC")]
-	[Address(RVA = "0x3E95690", Offset = "0x3E95690", VA = "0x3E95690")]
+	[Address(RVA = "0x1CEFC80", Offset = "0x1CEE280", VA = "0x181CEFC80")]
 	private bool CheckSize(int size)
 	{
 		return default(bool);

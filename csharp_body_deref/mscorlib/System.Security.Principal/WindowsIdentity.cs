@@ -14,118 +14,118 @@ using Il2CppDummyDll;
 namespace System.Security.Principal;
 
 [Serializable]
-[Token(Token = "0x200032E")]
+[Token(Token = "0x200035D")]
 [ComVisible(true)]
 public class WindowsIdentity : ClaimsIdentity, IIdentity, IDeserializationCallback, ISerializable, IDisposable
 {
-	[Token(Token = "0x4000E43")]
+	[Token(Token = "0x4000E50")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private IntPtr _token;
 
-	[Token(Token = "0x4000E44")]
+	[Token(Token = "0x4000E51")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	private string _type;
 
-	[Token(Token = "0x4000E45")]
+	[Token(Token = "0x4000E52")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private WindowsAccountType _account;
 
-	[Token(Token = "0x4000E46")]
+	[Token(Token = "0x4000E53")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8C")]
 	private bool _authenticated;
 
-	[Token(Token = "0x4000E47")]
+	[Token(Token = "0x4000E54")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private string _name;
 
-	[Token(Token = "0x4000E48")]
+	[Token(Token = "0x4000E55")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private SerializationInfo _info;
 
-	[Token(Token = "0x4000E49")]
+	[Token(Token = "0x4000E56")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static IntPtr invalidWindows;
 
-	[Token(Token = "0x1700031C")]
+	[Token(Token = "0x1700031E")]
 	public sealed override string AuthenticationType
 	{
-		[Token(Token = "0x6001BCD")]
-		[Address(RVA = "0x3B5AD70", Offset = "0x3B5AD70", VA = "0x3B5AD70", Slot = "6")]
+		[Token(Token = "0x6001C3B")]
+		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700031D")]
+	[Token(Token = "0x1700031F")]
 	public override string Name
 	{
-		[Token(Token = "0x6001BCE")]
-		[Address(RVA = "0x3B5AD80", Offset = "0x3B5AD80", VA = "0x3B5AD80", Slot = "8")]
+		[Token(Token = "0x6001C3C")]
+		[Address(RVA = "0x19E9770", Offset = "0x19E7D70", VA = "0x1819E9770", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001BC8")]
-	[Address(RVA = "0x3B5A930", Offset = "0x3B5A930", VA = "0x3B5A930")]
+	[Token(Token = "0x6001C36")]
+	[Address(RVA = "0x19E9550", Offset = "0x19E7B50", VA = "0x1819E9550")]
 	public WindowsIdentity(IntPtr userToken, string type, WindowsAccountType acctType, bool isAuthenticated)
 	{
 	}
 
-	[Token(Token = "0x6001BC9")]
-	[Address(RVA = "0x3B5AB60", Offset = "0x3B5AB60", VA = "0x3B5AB60")]
+	[Token(Token = "0x6001C37")]
+	[Address(RVA = "0x19E9710", Offset = "0x19E7D10", VA = "0x1819E9710")]
 	public WindowsIdentity(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001BCA")]
-	[Address(RVA = "0x3B5ABB0", Offset = "0x3B5ABB0", VA = "0x3B5ABB0", Slot = "14")]
+	[Token(Token = "0x6001C38")]
+	[Address(RVA = "0x19E8C40", Offset = "0x19E7240", VA = "0x1819E8C40", Slot = "14")]
 	[ComVisible(false)]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001BCB")]
-	[Address(RVA = "0x3B5ABC0", Offset = "0x3B5ABC0", VA = "0x3B5ABC0")]
+	[Token(Token = "0x6001C39")]
+	[Address(RVA = "0x19E8C60", Offset = "0x19E7260", VA = "0x1819E8C60")]
 	public static WindowsIdentity GetCurrent()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BCC")]
-	[Address(RVA = "0x3B5ACA0", Offset = "0x3B5ACA0", VA = "0x3B5ACA0", Slot = "15")]
+	[Token(Token = "0x6001C3A")]
+	[Address(RVA = "0x19E8E80", Offset = "0x19E7480", VA = "0x1819E8E80", Slot = "15")]
 	public virtual WindowsImpersonationContext Impersonate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BCF")]
-	[Address(RVA = "0x3B5AE20", Offset = "0x3B5AE20", VA = "0x3B5AE20", Slot = "12")]
+	[Token(Token = "0x6001C3D")]
+	[Address(RVA = "0x19E90A0", Offset = "0x19E76A0", VA = "0x1819E90A0", Slot = "12")]
 	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
 	{
 	}
 
-	[Token(Token = "0x6001BD0")]
-	[Address(RVA = "0x3B5B120", Offset = "0x3B5B120", VA = "0x3B5B120", Slot = "13")]
+	[Token(Token = "0x6001C3E")]
+	[Address(RVA = "0x19E93E0", Offset = "0x19E79E0", VA = "0x1819E93E0", Slot = "13")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001BD1")]
-	[Address(RVA = "0x3B5A9F0", Offset = "0x3B5A9F0", VA = "0x3B5A9F0")]
+	[Token(Token = "0x6001C3F")]
+	[Address(RVA = "0x19E8F40", Offset = "0x19E7540", VA = "0x1819E8F40")]
 	private void SetToken(IntPtr token)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001BD2")]
-	[Address(RVA = "0x3B5AC90", Offset = "0x3B5AC90", VA = "0x3B5AC90")]
+	[Token(Token = "0x6001C40")]
+	[Address(RVA = "0x19E8C50", Offset = "0x19E7250", VA = "0x1819E8C50")]
 	internal static extern IntPtr GetCurrentToken();
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001BD3")]
-	[Address(RVA = "0x3B5AE10", Offset = "0x3B5AE10", VA = "0x3B5AE10")]
+	[Token(Token = "0x6001C41")]
+	[Address(RVA = "0x19E8E70", Offset = "0x19E7470", VA = "0x1819E8E70")]
 	private static extern string GetTokenName(IntPtr token);
 }

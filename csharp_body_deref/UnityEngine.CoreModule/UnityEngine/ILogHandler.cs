@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000112")]
+[Token(Token = "0x2000138")]
 public interface ILogHandler
 {
-	[Token(Token = "0x6000754")]
+	[Token(Token = "0x60009E9")]
 	void LogFormat(LogType logType, Object context, string format, params object[] args);
 
-	[Token(Token = "0x6000755")]
+	[Token(Token = "0x60009EA")]
 	void LogException(Exception exception, Object context);
 }

@@ -12,46 +12,46 @@ using UnityEngine.ParticleSystemJobs;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001DA")]
+[Token(Token = "0x20001DD")]
 [DisallowMultipleComponent]
 public sealed class AsyncParticleUpdateJobScheduledTrigger : AsyncTriggerBase<ParticleSystemJobData>
 {
-	[Token(Token = "0x6000B5F")]
-	[Address(RVA = "0x4A109D0", Offset = "0x4A109D0", VA = "0x4A109D0")]
+	[Token(Token = "0x6000B83")]
+	[Address(RVA = "0x2934C20", Offset = "0x2933220", VA = "0x182934C20")]
 	private void OnParticleUpdateJobScheduled(ParticleSystemJobData particles)
 	{
 	}
 
-	[Token(Token = "0x6000B60")]
-	[Address(RVA = "0x4A10A10", Offset = "0x4A10A10", VA = "0x4A10A10")]
+	[Token(Token = "0x6000B84")]
+	[Address(RVA = "0x2934900", Offset = "0x2932F00", VA = "0x182934900")]
 	public IAsyncOnParticleUpdateJobScheduledHandler GetOnParticleUpdateJobScheduledAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B61")]
-	[Address(RVA = "0x4A10A80", Offset = "0x4A10A80", VA = "0x4A10A80")]
+	[Token(Token = "0x6000B85")]
+	[Address(RVA = "0x2934970", Offset = "0x2932F70", VA = "0x182934970")]
 	public IAsyncOnParticleUpdateJobScheduledHandler GetOnParticleUpdateJobScheduledAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B62")]
-	[Address(RVA = "0x4A10AF0", Offset = "0x4A10AF0", VA = "0x4A10AF0")]
+	[Token(Token = "0x6000B86")]
+	[Address(RVA = "0x2934B00", Offset = "0x2933100", VA = "0x182934B00")]
 	public UniTask<ParticleSystemJobData> OnParticleUpdateJobScheduledAsync()
 	{
 		return default(UniTask<ParticleSystemJobData>);
 	}
 
-	[Token(Token = "0x6000B63")]
-	[Address(RVA = "0x4A10C10", Offset = "0x4A10C10", VA = "0x4A10C10")]
+	[Token(Token = "0x6000B87")]
+	[Address(RVA = "0x29349F0", Offset = "0x2932FF0", VA = "0x1829349F0")]
 	public UniTask<ParticleSystemJobData> OnParticleUpdateJobScheduledAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<ParticleSystemJobData>);
 	}
 
-	[Token(Token = "0x6000B64")]
-	[Address(RVA = "0x4A10D30", Offset = "0x4A10D30", VA = "0x4A10D30")]
+	[Token(Token = "0x6000B88")]
+	[Address(RVA = "0x2934D20", Offset = "0x2933320", VA = "0x182934D20")]
 	public AsyncParticleUpdateJobScheduledTrigger()
 	{
 	}

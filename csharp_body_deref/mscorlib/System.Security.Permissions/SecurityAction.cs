@@ -11,31 +11,31 @@ using Il2CppDummyDll;
 namespace System.Security.Permissions;
 
 [Serializable]
-[Token(Token = "0x20002B6")]
+[Token(Token = "0x20002E5")]
 [Obsolete("CAS support is not available with Silverlight applications.")]
 [ComVisible(true)]
 public enum SecurityAction
 {
-	[Token(Token = "0x4000C5F")]
+	[Token(Token = "0x4000C6C")]
 	Demand = 2,
-	[Token(Token = "0x4000C60")]
+	[Token(Token = "0x4000C6D")]
 	Assert,
-	[Token(Token = "0x4000C61")]
+	[Token(Token = "0x4000C6E")]
 	[Obsolete("This requests should not be used")]
 	Deny,
-	[Token(Token = "0x4000C62")]
+	[Token(Token = "0x4000C6F")]
 	PermitOnly,
-	[Token(Token = "0x4000C63")]
+	[Token(Token = "0x4000C70")]
 	LinkDemand,
-	[Token(Token = "0x4000C64")]
+	[Token(Token = "0x4000C71")]
 	InheritanceDemand,
-	[Token(Token = "0x4000C65")]
+	[Token(Token = "0x4000C72")]
 	[Obsolete("This requests should not be used")]
 	RequestMinimum,
-	[Token(Token = "0x4000C66")]
+	[Token(Token = "0x4000C73")]
 	[Obsolete("This requests should not be used")]
 	RequestOptional,
-	[Token(Token = "0x4000C67")]
+	[Token(Token = "0x4000C74")]
 	[Obsolete("This requests should not be used")]
 	RequestRefuse
 }

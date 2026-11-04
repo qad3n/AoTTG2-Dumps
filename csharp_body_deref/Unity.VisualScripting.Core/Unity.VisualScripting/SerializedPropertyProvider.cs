@@ -13,26 +13,26 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200018E")]
 public abstract class SerializedPropertyProvider<T> : ScriptableObject, ISerializedPropertyProvider
 {
-	[Token(Token = "0x40008BE")]
+	[Token(Token = "0x40008BC")]
 	[FieldOffset(Offset = "0x0")]
 	[SerializeField]
 	protected T item;
 
-	[Token(Token = "0x170001B5")]
+	[Token(Token = "0x170001B8")]
 	private object Unity_002EVisualScripting_002EISerializedPropertyProvider_002Eitem
 	{
-		[Token(Token = "0x6000FA2")]
+		[Token(Token = "0x6000FAD")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000FA3")]
+		[Token(Token = "0x6000FAE")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000FA4")]
+	[Token(Token = "0x6000FAF")]
 	protected SerializedPropertyProvider()
 	{
 	}

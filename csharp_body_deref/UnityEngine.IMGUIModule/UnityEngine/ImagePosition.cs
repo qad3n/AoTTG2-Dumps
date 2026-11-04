@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001A")]
+[Token(Token = "0x200001D")]
 public enum ImagePosition
 {
-	[Token(Token = "0x40000B2")]
-	ImageLeft,
-	[Token(Token = "0x40000B3")]
-	ImageAbove,
 	[Token(Token = "0x40000B4")]
-	ImageOnly,
+	ImageLeft,
 	[Token(Token = "0x40000B5")]
+	ImageAbove,
+	[Token(Token = "0x40000B6")]
+	ImageOnly,
+	[Token(Token = "0x40000B7")]
 	TextOnly
 }

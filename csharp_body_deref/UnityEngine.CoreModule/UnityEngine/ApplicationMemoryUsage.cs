@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000079")]
+[Token(Token = "0x2000095")]
 public enum ApplicationMemoryUsage
 {
-	[Token(Token = "0x400010A")]
+	[Token(Token = "0x4000151")]
 	Unknown,
-	[Token(Token = "0x400010B")]
+	[Token(Token = "0x4000152")]
 	Low,
-	[Token(Token = "0x400010C")]
+	[Token(Token = "0x4000153")]
 	Medium,
-	[Token(Token = "0x400010D")]
+	[Token(Token = "0x4000154")]
 	High,
-	[Token(Token = "0x400010E")]
+	[Token(Token = "0x4000155")]
 	Critical
 }

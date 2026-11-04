@@ -21,7 +21,7 @@ internal class Positions
 	public Position this[int pos]
 	{
 		[Token(Token = "0x6000FD2")]
-		[Address(RVA = "0x4846EA0", Offset = "0x4846EA0", VA = "0x4846EA0")]
+		[Address(RVA = "0x2783970", Offset = "0x2781F70", VA = "0x182783970")]
 		get
 		{
 			return default(Position);
@@ -32,7 +32,7 @@ internal class Positions
 	public int Count
 	{
 		[Token(Token = "0x6000FD3")]
-		[Address(RVA = "0x4846F20", Offset = "0x4846F20", VA = "0x4846F20")]
+		[Address(RVA = "0x1AB8C80", Offset = "0x1AB7280", VA = "0x181AB8C80")]
 		get
 		{
 			return default(int);
@@ -40,14 +40,14 @@ internal class Positions
 	}
 
 	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x4846E00", Offset = "0x4846E00", VA = "0x4846E00")]
+	[Address(RVA = "0x2783850", Offset = "0x2781E50", VA = "0x182783850")]
 	public int Add(int symbol, object particle)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x4846F50", Offset = "0x4846F50", VA = "0x4846F50")]
+	[Address(RVA = "0x2783900", Offset = "0x2781F00", VA = "0x182783900")]
 	public Positions()
 	{
 	}

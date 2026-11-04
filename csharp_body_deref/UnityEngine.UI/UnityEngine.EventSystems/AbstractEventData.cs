@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x2000097")]
+[Token(Token = "0x2000099")]
 public abstract class AbstractEventData
 {
-	[Token(Token = "0x40002AB")]
+	[Token(Token = "0x40002CE")]
 	[FieldOffset(Offset = "0x10")]
 	protected bool m_Used;
 
-	[Token(Token = "0x1700018E")]
+	[Token(Token = "0x1700019E")]
 	public virtual bool used
 	{
-		[Token(Token = "0x60005EE")]
-		[Address(RVA = "0x50F4F50", Offset = "0x50F4F50", VA = "0x50F4F50", Slot = "6")]
+		[Token(Token = "0x6000635")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320", Slot = "6")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x50F4F30", Offset = "0x50F4F30", VA = "0x50F4F30", Slot = "4")]
+	[Token(Token = "0x6000633")]
+	[Address(RVA = "0x1C6F5D0", Offset = "0x1C6DBD0", VA = "0x181C6F5D0", Slot = "4")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x50F4F40", Offset = "0x50F4F40", VA = "0x50F4F40", Slot = "5")]
+	[Token(Token = "0x6000634")]
+	[Address(RVA = "0xB3C020", Offset = "0xB3A620", VA = "0x180B3C020", Slot = "5")]
 	public virtual void Use()
 	{
 	}
 
-	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x50F4F60", Offset = "0x50F4F60", VA = "0x50F4F60")]
+	[Token(Token = "0x6000636")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AbstractEventData()
 	{
 	}

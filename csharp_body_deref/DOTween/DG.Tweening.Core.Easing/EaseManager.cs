@@ -20,35 +20,35 @@ public static class EaseManager
 	private const float _TwoPi = (float)Math.PI * 2f;
 
 	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x238D7B0", Offset = "0x238D7B0", VA = "0x238D7B0")]
+	[Address(RVA = "0x578E50", Offset = "0x577450", VA = "0x180578E50")]
 	public static float Evaluate(Tween t, float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600047B")]
-	[Address(RVA = "0x238EAC0", Offset = "0x238EAC0", VA = "0x238EAC0")]
+	[Address(RVA = "0x577FF0", Offset = "0x5765F0", VA = "0x180577FF0")]
 	public static float EvaluateUnclamped(Tween t, float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600047C")]
-	[Address(RVA = "0x238D7D0", Offset = "0x238D7D0", VA = "0x238D7D0")]
+	[Address(RVA = "0x5780D0", Offset = "0x5766D0", VA = "0x1805780D0")]
 	public static float Evaluate(Ease easeType, EaseFunction customEase, float time, float duration, float overshootOrAmplitude, float period)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x238EF60", Offset = "0x238EF60", VA = "0x238EF60")]
+	[Address(RVA = "0x578EB0", Offset = "0x5774B0", VA = "0x180578EB0")]
 	public static EaseFunction ToEaseFunction(Ease ease)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x2390590", Offset = "0x2390590", VA = "0x2390590")]
+	[Address(RVA = "0x578EA0", Offset = "0x5774A0", VA = "0x180578EA0")]
 	internal static bool IsFlashEase(Ease ease)
 	{
 		return default(bool);

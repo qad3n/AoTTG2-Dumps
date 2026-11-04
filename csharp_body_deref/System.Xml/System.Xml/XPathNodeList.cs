@@ -35,7 +35,7 @@ internal class XPathNodeList : XmlNodeList
 	public override int Count
 	{
 		[Token(Token = "0x60007B3")]
-		[Address(RVA = "0x47C7CB0", Offset = "0x47C7CB0", VA = "0x47C7CB0", Slot = "7")]
+		[Address(RVA = "0x270BE20", Offset = "0x270A420", VA = "0x18270BE20", Slot = "7")]
 		get
 		{
 			return default(int);
@@ -43,34 +43,34 @@ internal class XPathNodeList : XmlNodeList
 	}
 
 	[Token(Token = "0x60007B2")]
-	[Address(RVA = "0x47C7C20", Offset = "0x47C7C20", VA = "0x47C7C20")]
+	[Address(RVA = "0x270BD90", Offset = "0x270A390", VA = "0x18270BD90")]
 	public XPathNodeList(XPathNodeIterator nodeIterator)
 	{
 	}
 
 	[Token(Token = "0x60007B4")]
-	[Address(RVA = "0x47C7E50", Offset = "0x47C7E50", VA = "0x47C7E50")]
+	[Address(RVA = "0x270BA70", Offset = "0x270A070", VA = "0x18270BA70")]
 	private XmlNode GetNode(XPathNavigator n)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B5")]
-	[Address(RVA = "0x47C7D10", Offset = "0x47C7D10", VA = "0x47C7D10")]
+	[Address(RVA = "0x270BC20", Offset = "0x270A220", VA = "0x18270BC20")]
 	internal int ReadUntil(int index)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60007B6")]
-	[Address(RVA = "0x47C7F30", Offset = "0x47C7F30", VA = "0x47C7F30", Slot = "6")]
+	[Address(RVA = "0x270BB80", Offset = "0x270A180", VA = "0x18270BB80", Slot = "6")]
 	public override XmlNode Item(int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007B7")]
-	[Address(RVA = "0x47C7FC0", Offset = "0x47C7FC0", VA = "0x47C7FC0", Slot = "8")]
+	[Address(RVA = "0x270BA00", Offset = "0x270A000", VA = "0x18270BA00", Slot = "8")]
 	public override IEnumerator GetEnumerator()
 	{
 		return null;

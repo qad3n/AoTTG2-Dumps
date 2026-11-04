@@ -20,20 +20,20 @@ internal class XmlTypeMapMemberFlatList : XmlTypeMapMemberExpandable
 	public ListMap ListMap
 	{
 		[Token(Token = "0x6000ECC")]
-		[Address(RVA = "0x4839010", Offset = "0x4839010", VA = "0x4839010")]
+		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000ECD")]
-		[Address(RVA = "0x4839020", Offset = "0x4839020", VA = "0x4839020")]
+		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000ECE")]
-	[Address(RVA = "0x4839030", Offset = "0x4839030", VA = "0x4839030")]
+	[Address(RVA = "0x278D190", Offset = "0x278B790", VA = "0x18278D190")]
 	public XmlTypeMapMemberFlatList()
 	{
 	}

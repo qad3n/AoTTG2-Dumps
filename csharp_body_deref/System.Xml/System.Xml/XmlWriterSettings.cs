@@ -111,7 +111,7 @@ public sealed class XmlWriterSettings
 	public bool Async
 	{
 		[Token(Token = "0x60006A6")]
-		[Address(RVA = "0x47BB820", Offset = "0x47BB820", VA = "0x47BB820")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		get
 		{
 			return default(bool);
@@ -122,7 +122,7 @@ public sealed class XmlWriterSettings
 	public Encoding Encoding
 	{
 		[Token(Token = "0x60006A7")]
-		[Address(RVA = "0x47BB830", Offset = "0x47BB830", VA = "0x47BB830")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -133,13 +133,13 @@ public sealed class XmlWriterSettings
 	public bool OmitXmlDeclaration
 	{
 		[Token(Token = "0x60006A8")]
-		[Address(RVA = "0x47BB840", Offset = "0x47BB840", VA = "0x47BB840")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60006A9")]
-		[Address(RVA = "0x47BB850", Offset = "0x47BB850", VA = "0x47BB850")]
+		[Address(RVA = "0x2715A60", Offset = "0x2714060", VA = "0x182715A60")]
 		set
 		{
 		}
@@ -149,7 +149,7 @@ public sealed class XmlWriterSettings
 	public NewLineHandling NewLineHandling
 	{
 		[Token(Token = "0x60006AA")]
-		[Address(RVA = "0x47BB950", Offset = "0x47BB950", VA = "0x47BB950")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		get
 		{
 			return default(NewLineHandling);
@@ -160,7 +160,7 @@ public sealed class XmlWriterSettings
 	public string NewLineChars
 	{
 		[Token(Token = "0x60006AB")]
-		[Address(RVA = "0x47BB960", Offset = "0x47BB960", VA = "0x47BB960")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -171,13 +171,13 @@ public sealed class XmlWriterSettings
 	public bool Indent
 	{
 		[Token(Token = "0x60006AC")]
-		[Address(RVA = "0x47BB970", Offset = "0x47BB970", VA = "0x47BB970")]
+		[Address(RVA = "0x2715850", Offset = "0x2713E50", VA = "0x182715850")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60006AD")]
-		[Address(RVA = "0x47BB980", Offset = "0x47BB980", VA = "0x47BB980")]
+		[Address(RVA = "0x2715960", Offset = "0x2713F60", VA = "0x182715960")]
 		set
 		{
 		}
@@ -187,7 +187,7 @@ public sealed class XmlWriterSettings
 	public string IndentChars
 	{
 		[Token(Token = "0x60006AE")]
-		[Address(RVA = "0x47BB9D0", Offset = "0x47BB9D0", VA = "0x47BB9D0")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -198,7 +198,7 @@ public sealed class XmlWriterSettings
 	public bool NewLineOnAttributes
 	{
 		[Token(Token = "0x60006AF")]
-		[Address(RVA = "0x47BB9E0", Offset = "0x47BB9E0", VA = "0x47BB9E0")]
+		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
 		get
 		{
 			return default(bool);
@@ -209,7 +209,7 @@ public sealed class XmlWriterSettings
 	public bool CloseOutput
 	{
 		[Token(Token = "0x60006B0")]
-		[Address(RVA = "0x47BB9F0", Offset = "0x47BB9F0", VA = "0x47BB9F0")]
+		[Address(RVA = "0x1AD8270", Offset = "0x1AD6870", VA = "0x181AD8270")]
 		get
 		{
 			return default(bool);
@@ -220,13 +220,13 @@ public sealed class XmlWriterSettings
 	public ConformanceLevel ConformanceLevel
 	{
 		[Token(Token = "0x60006B1")]
-		[Address(RVA = "0x47BBA00", Offset = "0x47BBA00", VA = "0x47BBA00")]
+		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
 		get
 		{
 			return default(ConformanceLevel);
 		}
 		[Token(Token = "0x60006B2")]
-		[Address(RVA = "0x47BBA10", Offset = "0x47BBA10", VA = "0x47BBA10")]
+		[Address(RVA = "0x27158C0", Offset = "0x2713EC0", VA = "0x1827158C0")]
 		set
 		{
 		}
@@ -236,7 +236,7 @@ public sealed class XmlWriterSettings
 	public bool CheckCharacters
 	{
 		[Token(Token = "0x60006B3")]
-		[Address(RVA = "0x47BBAA0", Offset = "0x47BBAA0", VA = "0x47BBAA0")]
+		[Address(RVA = "0x1CFDD60", Offset = "0x1CFC360", VA = "0x181CFDD60")]
 		get
 		{
 			return default(bool);
@@ -247,13 +247,13 @@ public sealed class XmlWriterSettings
 	public NamespaceHandling NamespaceHandling
 	{
 		[Token(Token = "0x60006B4")]
-		[Address(RVA = "0x47BBAB0", Offset = "0x47BBAB0", VA = "0x47BBAB0")]
+		[Address(RVA = "0x58A870", Offset = "0x588E70", VA = "0x18058A870")]
 		get
 		{
 			return default(NamespaceHandling);
 		}
 		[Token(Token = "0x60006B5")]
-		[Address(RVA = "0x47BBAC0", Offset = "0x47BBAC0", VA = "0x47BBAC0")]
+		[Address(RVA = "0x27159C0", Offset = "0x2713FC0", VA = "0x1827159C0")]
 		set
 		{
 		}
@@ -263,7 +263,7 @@ public sealed class XmlWriterSettings
 	public bool WriteEndDocumentOnClose
 	{
 		[Token(Token = "0x60006B6")]
-		[Address(RVA = "0x47BBB50", Offset = "0x47BBB50", VA = "0x47BBB50")]
+		[Address(RVA = "0x21F2DE0", Offset = "0x21F13E0", VA = "0x1821F2DE0")]
 		get
 		{
 			return default(bool);
@@ -274,13 +274,13 @@ public sealed class XmlWriterSettings
 	public XmlOutputMethod OutputMethod
 	{
 		[Token(Token = "0x60006B7")]
-		[Address(RVA = "0x47BBB60", Offset = "0x47BBB60", VA = "0x47BBB60")]
+		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
 		get
 		{
 			return default(XmlOutputMethod);
 		}
 		[Token(Token = "0x60006B8")]
-		[Address(RVA = "0x47BBB70", Offset = "0x47BBB70", VA = "0x47BBB70")]
+		[Address(RVA = "0x58A8D0", Offset = "0x588ED0", VA = "0x18058A8D0")]
 		internal set
 		{
 		}
@@ -290,7 +290,7 @@ public sealed class XmlWriterSettings
 	internal List<XmlQualifiedName> CDataSectionElements
 	{
 		[Token(Token = "0x60006BA")]
-		[Address(RVA = "0x47BBC40", Offset = "0x47BBC40", VA = "0x47BBC40")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
@@ -301,7 +301,7 @@ public sealed class XmlWriterSettings
 	public bool DoNotEscapeUriAttributes
 	{
 		[Token(Token = "0x60006BB")]
-		[Address(RVA = "0x47BBC50", Offset = "0x47BBC50", VA = "0x47BBC50")]
+		[Address(RVA = "0x198C740", Offset = "0x198AD40", VA = "0x18198C740")]
 		get
 		{
 			return default(bool);
@@ -312,7 +312,7 @@ public sealed class XmlWriterSettings
 	internal bool MergeCDataSections
 	{
 		[Token(Token = "0x60006BC")]
-		[Address(RVA = "0x47BBC60", Offset = "0x47BBC60", VA = "0x47BBC60")]
+		[Address(RVA = "0x198C750", Offset = "0x198AD50", VA = "0x18198C750")]
 		get
 		{
 			return default(bool);
@@ -323,7 +323,7 @@ public sealed class XmlWriterSettings
 	internal string MediaType
 	{
 		[Token(Token = "0x60006BD")]
-		[Address(RVA = "0x47BBC70", Offset = "0x47BBC70", VA = "0x47BBC70")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		get
 		{
 			return null;
@@ -334,7 +334,7 @@ public sealed class XmlWriterSettings
 	internal string DocTypeSystem
 	{
 		[Token(Token = "0x60006BE")]
-		[Address(RVA = "0x47BBC80", Offset = "0x47BBC80", VA = "0x47BBC80")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		get
 		{
 			return null;
@@ -345,7 +345,7 @@ public sealed class XmlWriterSettings
 	internal string DocTypePublic
 	{
 		[Token(Token = "0x60006BF")]
-		[Address(RVA = "0x47BBC90", Offset = "0x47BBC90", VA = "0x47BBC90")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		get
 		{
 			return null;
@@ -356,7 +356,7 @@ public sealed class XmlWriterSettings
 	internal XmlStandalone Standalone
 	{
 		[Token(Token = "0x60006C0")]
-		[Address(RVA = "0x47BBCA0", Offset = "0x47BBCA0", VA = "0x47BBCA0")]
+		[Address(RVA = "0xB5B9B0", Offset = "0xB59FB0", VA = "0x180B5B9B0")]
 		get
 		{
 			return default(XmlStandalone);
@@ -367,7 +367,7 @@ public sealed class XmlWriterSettings
 	internal bool AutoXmlDeclaration
 	{
 		[Token(Token = "0x60006C1")]
-		[Address(RVA = "0x47BBCB0", Offset = "0x47BBCB0", VA = "0x47BBCB0")]
+		[Address(RVA = "0x2715840", Offset = "0x2713E40", VA = "0x182715840")]
 		get
 		{
 			return default(bool);
@@ -378,7 +378,7 @@ public sealed class XmlWriterSettings
 	internal TriState IndentInternal
 	{
 		[Token(Token = "0x60006C2")]
-		[Address(RVA = "0x47BBCC0", Offset = "0x47BBCC0", VA = "0x47BBCC0")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		get
 		{
 			return default(TriState);
@@ -389,7 +389,7 @@ public sealed class XmlWriterSettings
 	internal bool IsQuerySpecific
 	{
 		[Token(Token = "0x60006C3")]
-		[Address(RVA = "0x47BBCD0", Offset = "0x47BBCD0", VA = "0x47BBCD0")]
+		[Address(RVA = "0x2715860", Offset = "0x2713E60", VA = "0x182715860")]
 		get
 		{
 			return default(bool);
@@ -400,47 +400,47 @@ public sealed class XmlWriterSettings
 	internal bool ReadOnly
 	{
 		[Token(Token = "0x60006C6")]
-		[Address(RVA = "0x47BBD30", Offset = "0x47BBD30", VA = "0x47BBD30")]
+		[Address(RVA = "0x2715AB0", Offset = "0x27140B0", VA = "0x182715AB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x47BAD90", Offset = "0x47BAD90", VA = "0x47BAD90")]
+	[Address(RVA = "0x27156C0", Offset = "0x2713CC0", VA = "0x1827156C0")]
 	public XmlWriterSettings()
 	{
 	}
 
 	[Token(Token = "0x60006B9")]
-	[Address(RVA = "0x47BBB80", Offset = "0x47BBB80", VA = "0x47BBB80")]
+	[Address(RVA = "0x2714D70", Offset = "0x2713370", VA = "0x182714D70")]
 	public XmlWriterSettings Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006C4")]
-	[Address(RVA = "0x47BAE10", Offset = "0x47BAE10", VA = "0x47BAE10")]
+	[Address(RVA = "0x2714E60", Offset = "0x2713460", VA = "0x182714E60")]
 	internal XmlWriter CreateWriter(Stream output)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006C5")]
-	[Address(RVA = "0x47BB380", Offset = "0x47BB380", VA = "0x47BB380")]
+	[Address(RVA = "0x27152B0", Offset = "0x27138B0", VA = "0x1827152B0")]
 	internal XmlWriter CreateWriter(TextWriter output)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006C7")]
-	[Address(RVA = "0x47BB8A0", Offset = "0x47BB8A0", VA = "0x47BB8A0")]
+	[Address(RVA = "0x2714CC0", Offset = "0x27132C0", VA = "0x182714CC0")]
 	private void CheckReadOnly(string propertyName)
 	{
 	}
 
 	[Token(Token = "0x60006C8")]
-	[Address(RVA = "0x47BB6F0", Offset = "0x47BB6F0", VA = "0x47BB6F0")]
+	[Address(RVA = "0x2715590", Offset = "0x2713B90", VA = "0x182715590")]
 	private void Initialize()
 	{
 	}

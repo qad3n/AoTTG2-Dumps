@@ -1,163 +1,149 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgColorSettingRow.cs
 // Prior real C# source: none
 // --------------------------------
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass4_0$$.ctor
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o* __this, const MethodInfo* method);
-// 0x445d350
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass9_0$$.ctor
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o* __this, const MethodInfo* method);
+// 0x18054c890
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___ctor
-               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o *__this,
-               MethodInfo *method)
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___ctor(Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass4_0$$<BuildPicker>b__0
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___BuildPicker_b__0 (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* frame, const MethodInfo* method);
-// 0x445d360
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass9_0$$<BuildPicker>b__0
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___BuildPicker_b__0 (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* frame, const MethodInfo* method);
+// 0x182201470
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___BuildPicker_b__0
-               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o *__this,
+void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___BuildPicker_b__0
+               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *frame,MethodInfo *method)
 
 {
-  ushort uVar1;
-  System_String_o *pSVar2;
+  System_Nullable_bool__Fields SVar1;
   System_String_o *value;
-  System_String_c *pSVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  Gisketch_Aottg2UI_Code_AottgUi_c *pGVar5;
-  code *vtableDispatch;
-  bool_conflict bVar6;
+  System_String_o *label;
   System_String_o *id;
-  System_Action_GisketchActionContext__o *save;
-  Gisketch_Aottg2UI_Code_GisketchUIColorPicker_o *__this_00;
-  VirtualInvokeData *pVVar7;
-  undefined8 extraout_RDX;
-  undefined8 extraout_RDX_00;
-  undefined8 extraout_RDX_01;
-  undefined8 uVar8;
-  long lVar9;
+  DG_Tweening_Core_DOSetter_Color2__o *__this_00;
+  Gisketch_Aottg2UI_Code_GisketchUIColorPicker_o *__this_01;
+  bool disabled;
   
-  if (g_data_057ae759 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_GisketchActionContext);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_GisketchUIColorPicker);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_BuildPicker_b__1);
-    il2cpp_runtime_helper_023445d0(&"-color");
-    g_data_057ae759 = '\x01';
+  if (Il2CppMethodInitialized_184347082 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_GisketchActionContext);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0_BuildPicker_b__1
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&"-color");
+    Il2CppMethodInitialized_184347082 = '\x01';
   }
-  id = System_String__Concat_3ae5ba0((__this->fields).pickerId,"-color",(MethodInfo *)0x0);
-  pSVar2 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  id = System_String__Concat_1969e50((__this->fields).pickerId,"-color",(MethodInfo *)0x0);
+  __this_00 = (DG_Tweening_Core_DOSetter_Color2__o *)(__this->fields).__9__1;
   value = (__this->fields).value;
-  save = (__this->fields).__9__1;
-  if (save == (System_Action_GisketchActionContext__o *)0x0) {
-    save = (System_Action_GisketchActionContext__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_GisketchActionContext);
-    System_Action_GisketchActionContext____ctor();
-    (__this->fields).__9__1 = save;
-    il2cpp_runtime_helper_022b4080(&(__this->fields).__9__1,save);
+  label = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  if (__this_00 == (DG_Tweening_Core_DOSetter_Color2__o *)0x0) {
+    __this_00 = (DG_Tweening_Core_DOSetter_Color2__o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
+    System_Action_GisketchActionContext____ctor
+              (__this_00,(Il2CppObject *)__this,
+               (intptr_t)
+               MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0_BuildPicker_b__1
+               ,(MethodInfo_1387DC0 *)0x0);
+    (__this->fields).__9__1 = (System_Action_GisketchActionContext__o *)__this_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__9__1,__this_00);
   }
-  bVar6 = (__this->fields).disabled;
-  __this_00 = (Gisketch_Aottg2UI_Code_GisketchUIColorPicker_o *)il2cpp_runtime_helper_023052d0(TypeInfo_GisketchUIColorPicker);
+  SVar1 = (__this->fields).pickerDisabled.fields;
+  if (SVar1.hasValue == false) {
+    disabled = (__this->fields).disabled;
+  }
+  else {
+    disabled = SVar1.value;
+  }
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
   Gisketch_Aottg2UI_Code_GisketchUIColorPicker___ctor
-            (__this_00,id,pSVar2,value,save,1,0,1,(uint)(byte)bVar6,(MethodInfo *)0x0);
+            (__this_01,id,label,value,(System_Action_GisketchActionContext__o *)__this_00,true,false,true,
+             disabled,(MethodInfo *)0x0);
   if (frame != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
     Gisketch_Aottg2UI_Code_AottgUi__Component
-              (frame,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_00,(MethodInfo *)0x0);
+              (frame,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_01,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  uVar8 = extraout_RDX;
-  if (g_data_057ae75a == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae75a = '\x01';
-    uVar8 = extraout_RDX_00;
-  }
-  pSVar2 = (frame->fields)._ownerId;
-  if (pSVar2 != (System_String_o *)0x0) {
-    pSVar3 = pSVar2->klass;
-    uVar1._0_1_ = (pSVar3->_2).rank;
-    uVar1._1_1_ = (pSVar3->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar4 = (pSVar3->_1).interfaceOffsets;
-      lVar9 = 0;
-      do {
-        if (*(long *)((long)&pIVar4->interfaceType + lVar9) == TypeInfo_IAottgSettingAdapter) {
-          pVVar7 = &(pSVar3->vtable)._0_Equals + (*(int *)((long)&pIVar4->offset + lVar9) + 0xb);
-          goto label_0445d535;
-        }
-        lVar9 = lVar9 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar9);
-    }
-    pVVar7 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pSVar2,TypeInfo_IAottgSettingAdapter,0xb);
-label_0445d535:
-    (*pVVar7->methodPtr)(pSVar2,pVVar7->method);
-    uVar8 = extraout_RDX_01;
-  }
-  pGVar5 = frame[1].klass;
-  if (pGVar5 != (Gisketch_Aottg2UI_Code_AottgUi_c *)0x0) {
-    vtableDispatch = (code *)(pGVar5->_1).namespaze;
-    (*vtableDispatch)
-              ((pGVar5->_1).element_class,*(undefined8 *)&(pGVar5->_1).byval_arg.bits,uVar8,
-               vtableDispatch);
-    return;
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
-// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass4_0$$<BuildPicker>b__1
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___BuildPicker_b__1 (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
-// 0x445d490
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow.<>c__DisplayClass9_0$$<BuildPicker>b__1
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___BuildPicker_b__1 (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o* __this, Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
+// 0x1822015c0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18220161c: nop dword ptr [rax]
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0___BuildPicker_b__1
-               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass4_0_o *__this,
-               Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,MethodInfo *method)
+void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0___BuildPicker_b__1
+               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o *__this,
+               Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,MethodInfo *method)
 
 {
   ushort uVar1;
-  Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *pGVar2;
-  Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_c *pGVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  System_Action_GisketchActionContext__o *pSVar5;
-  VirtualInvokeData *pVVar6;
-  long lVar7;
+  Il2CppObject *obj;
+  Il2CppClass *pIVar2;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
+  System_Action_GisketchActionContext__o *pSVar4;
+  VirtualInvokeData *pVVar5;
+  ushort uVar6;
+  Gisketch_Aottg2UI_Actions_GisketchActionContext_o local_28;
   
-  if (g_data_057ae75a == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae75a = '\x01';
+  if (Il2CppMethodInitialized_184347083 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter);
+    Il2CppMethodInitialized_184347083 = '\x01';
   }
-  pGVar2 = (__this->fields).adapter;
-  if (pGVar2 != (Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *)0x0) {
-    pGVar3 = pGVar2->klass;
-    uVar1._0_1_ = (pGVar3->_2).rank;
-    uVar1._1_1_ = (pGVar3->_2).minimumAlignment;
-    if ((ulong)uVar1 != 0) {
-      pIVar4 = (pGVar3->_1).interfaceOffsets;
-      lVar7 = 0;
+  obj = (Il2CppObject *)(__this->fields).adapter;
+  if (obj != (Il2CppObject *)0x0) {
+    pIVar2 = obj->klass;
+    uVar1 = (pIVar2->_2).interface_offsets_count;
+    if (uVar1 != 0) {
+      pIVar3 = (pIVar2->_1).interfaceOffsets;
+      uVar6 = 0;
       do {
-        if (*(long *)((long)&pIVar4->interfaceType + lVar7) == TypeInfo_IAottgSettingAdapter) {
-          pVVar6 = pGVar3->vtable + (*(int *)((long)&pIVar4->offset + lVar7) + 0xb);
-          goto label_0445d535;
+        if (pIVar3[uVar6].interfaceType ==
+            (Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter) {
+          pVVar5 = pIVar2->vtable + (pIVar3[uVar6].offset + 0xb);
+          goto label_182201645;
         }
-        lVar7 = lVar7 + 0x10;
-      } while ((ulong)uVar1 << 4 != lVar7);
+        uVar6 = uVar6 + 1;
+      } while (uVar6 < uVar1);
     }
-    pVVar6 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(pGVar2,TypeInfo_IAottgSettingAdapter,0xb);
-label_0445d535:
-    (*pVVar6->methodPtr)(pGVar2,pVVar6->method);
+    pVVar5 = GetInterfaceInvokeDataFromVTableSlowPath
+                       (obj,(Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter,0xb)
+    ;
+label_182201645:
+    local_28.fields.ElementId = (context->fields).ElementId;
+    local_28.fields.GameObject = (context->fields).GameObject;
+    local_28.fields.Node = (context->fields).Node;
+    local_28.fields.InputSource = (context->fields).InputSource;
+    local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
+    (*pVVar5->methodPtr)(obj,&local_28,pVVar5->method);
   }
-  pSVar5 = (__this->fields).changed;
-  if (pSVar5 != (System_Action_GisketchActionContext__o *)0x0) {
-    (*(code *)(pSVar5->fields).invoke_impl)((pSVar5->fields).method_code,(pSVar5->fields).method);
-    return;
+  pSVar4 = (__this->fields).changed;
+  if (pSVar4 != (System_Action_GisketchActionContext__o *)0x0) {
+    local_28.fields.ElementId = (context->fields).ElementId;
+    local_28.fields.GameObject = (context->fields).GameObject;
+    local_28.fields.Node = (context->fields).Node;
+    local_28.fields.InputSource = (context->fields).InputSource;
+    local_28.fields._28_4_ = *(undefined4 *)&(context->fields).field_0x1c;
+    (*(code *)(pSVar4->fields).invoke_impl)((pSVar4->fields).method_code,&local_28,(pSVar4->fields).method);
   }
   return;
 }
@@ -165,435 +151,382 @@ label_0445d535:
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o* descriptor, const MethodInfo* method);
-// 0x445ce80
+// 0x1812b8cd0
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___ctor
-               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o *__this,
-               Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *descriptor,MethodInfo *method)
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___ctor_12b8cd0(Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o* descriptor, MethodInfo* method)
 
 {
   Gisketch_Aottg2UI_Code_AottgComponent___ctor
-            ((Gisketch_Aottg2UI_Code_AottgComponent_o *)__this,(MethodInfo *)0x0);
-  (__this->fields)._descriptor = descriptor;
-  il2cpp_runtime_helper_022b4080(&__this->fields,descriptor);
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._descriptor = method;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._descriptor,method);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$Build
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__Build (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* ui, const MethodInfo* method);
-// 0x445ceb0
+// 0x1821ec130
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__Build
                (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *ui,MethodInfo *method)
 
 {
-  byte bVar1;
-  ushort uVar2;
+  System_String_o *pSVar1;
+  int32_t layoutMode;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *pGVar2;
+  System_String_o *id;
+  System_String_o *label;
   Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *pGVar3;
-  Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *adapter;
-  Il2CppObject *pIVar4;
-  Il2CppClass *pIVar5;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar6;
+  System_String_o *tooltip;
+  System_String_o *tooltipKey;
+  System_Func_string__o *dirtyValue;
   System_String_o *searchKeywords;
+  System_String_o *searchTitle;
+  System_String_o *labelKey;
   System_String_o *icon;
-  bool_conflict bVar7;
-  System_Action_AottgUi__o *pSVar8;
-  System_Action_AottgUi__o *__this_00;
-  System_Action_GisketchActionContext__o *changed;
-  Il2CppObject *__this_01;
-  Il2CppMethodPointer *ppIVar9;
-  void *pvVar10;
-  System_Action_AottgUi__o *pSVar11;
-  System_String_o *pSVar12;
-  Gisketch_Aottg2UI_Data_GisketchLength_o *width;
-  Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
-  undefined1 extraout_DL;
-  Gisketch_Aottg2UI_Code_AottgUi_o *control;
-  Gisketch_Aottg2UI_Code_AottgUi_o *pGVar13;
-  System_Action_AottgUi__o *pSVar14;
-  Il2CppObject *__this_02;
-  long lVar15;
-  System_String_o *in_R8;
-  MethodInfo *in_R9;
-  MethodInfo *in_stack_ffffffffffffffa0;
+  System_String_o *pSVar4;
+  System_String_o *pSVar5;
+  System_String_o *pSVar6;
+  System_String_o *pSVar7;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame_o *__this_01;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o local_98 [2];
   
-  if (g_data_057ae756 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_BuildPicker);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgSettingRowFrame);
-    g_data_057ae756 = '\x01';
+  if (Il2CppMethodInitialized_18434707e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_BuildPicker);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame);
+    Il2CppMethodInitialized_18434707e = '\x01';
   }
-  pGVar3 = (__this->fields)._descriptor;
-  if (pGVar3 == (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+  if ((__this->fields)._descriptor == (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
     return;
   }
-  pGVar13 = (Gisketch_Aottg2UI_Code_AottgUi_o *)(pGVar3->fields).Id;
-  pSVar12 = (pGVar3->fields).Label;
-  pSVar8 = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-  pSVar11 = (System_Action_AottgUi__o *)0x0;
-  control = (Gisketch_Aottg2UI_Code_AottgUi_o *)__this;
-  pSVar14 = pSVar8;
-  System_Action_object____ctor();
-  pGVar3 = (__this->fields)._descriptor;
-  if (pGVar3 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
-    in_R8 = (pGVar3->fields).Tooltip;
-    in_R9 = (MethodInfo *)(pGVar3->fields).SearchTitle;
-    searchKeywords = (pGVar3->fields).SearchKeywords;
-    icon = (pGVar3->fields).Icon;
-    __this_00 = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgSettingRowFrame);
-    pSVar14 = __this_00;
-    Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame___ctor
-              ((Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame_o *)__this_00,(System_String_o *)pGVar13
-               ,pSVar12,92.0,pSVar8,in_R8,(System_String_o *)in_R9,searchKeywords,icon,
-               (System_Nullable_float__o)0x0,in_stack_ffffffffffffffa0);
-    pSVar11 = pSVar8;
-    control = pGVar13;
-    if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-      Gisketch_Aottg2UI_Code_AottgUi__Component
-                (ui,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_00,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pGVar13 = control;
-  pSVar8 = pSVar14;
-  if (g_data_057ae757 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_GisketchActionContext);
-    pSVar8 = (System_Action_AottgUi__o *)&MethodInfo_Void_Changed;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae757 = '\x01';
-  }
-  lVar15 = (pSVar14->fields).method_ptr;
-  if (lVar15 != 0) {
-    pSVar12 = *(System_String_o **)(lVar15 + 0x10);
-    adapter = *(Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o **)(lVar15 + 0x28);
-    bVar1 = *(byte *)(lVar15 + 0x58);
-    changed = (System_Action_GisketchActionContext__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_GisketchActionContext);
-    System_Action_GisketchActionContext____ctor();
-    Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker_435d080
-              (control,adapter,(uint)bVar1,pSVar12,changed,in_R9);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae758 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IAottgSettingAdapter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_BuildPicker_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_0);
-    il2cpp_runtime_helper_023445d0(&"clear");
-    il2cpp_runtime_helper_023445d0(&"-color-frame");
-    il2cpp_runtime_helper_023445d0(&"#FFFFFFFF");
-    il2cpp_runtime_helper_023445d0(&"Center");
-    il2cpp_runtime_helper_023445d0(&"Row");
-    il2cpp_runtime_helper_023445d0(&"setting-color");
-    g_data_057ae758 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_0);
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = (Il2CppClass *)pGVar13;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,pGVar13);
-    __this_01[2].monitor = in_R8;
-    il2cpp_runtime_helper_022b4080(&__this_01[2].monitor);
-    *(undefined1 *)&__this_01[3].klass = extraout_DL;
-    bVar7 = System_String__IsNullOrEmpty((System_String_o *)pSVar11,(MethodInfo *)0x0);
-    if ((char)bVar7 != '\0') {
-      pSVar11 = "setting-color";
-    }
-    __this_01[1].klass = (Il2CppClass *)pSVar11;
-    il2cpp_runtime_helper_022b4080(__this_01 + 1,pSVar11);
-    pIVar4 = (Il2CppObject *)__this_01[2].klass;
-    pvVar10 = "#FFFFFFFF";
-    if (pIVar4 != (Il2CppObject *)0x0) {
-      pIVar5 = pIVar4->klass;
-      uVar2._0_1_ = (pIVar5->_2).rank;
-      uVar2._1_1_ = (pIVar5->_2).minimumAlignment;
-      if ((ulong)uVar2 != 0) {
-        pIVar6 = (pIVar5->_1).interfaceOffsets;
-        lVar15 = 0;
-        do {
-          if (*(long *)((long)&pIVar6->interfaceType + lVar15) == TypeInfo_IAottgSettingAdapter) {
-            ppIVar9 = &pIVar5->vtable[*(int *)((long)&pIVar6->offset + lVar15)].methodPtr;
-            goto label_0445d210;
-          }
-          lVar15 = lVar15 + 0x10;
-        } while ((ulong)uVar2 << 4 != lVar15);
+  pGVar2 = (__this->fields)._descriptor;
+  if (pGVar2 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+    id = (pGVar2->fields).Id;
+    label = (((__this->fields)._descriptor)->fields).Label;
+    __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+    System_Action_object____ctor
+              (__this_00,(Il2CppObject *)__this,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_BuildPicker,
+               (MethodInfo *)0x0);
+    pGVar2 = (__this->fields)._descriptor;
+    if (pGVar2 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+      pGVar3 = (__this->fields)._descriptor;
+      tooltip = (pGVar2->fields).Tooltip;
+      tooltipKey = (pGVar3->fields).TooltipKey;
+      dirtyValue = (pGVar3->fields).DirtyValue;
+      searchKeywords = (pGVar3->fields).SearchKeywords;
+      searchTitle = (pGVar3->fields).SearchTitle;
+      labelKey = (pGVar3->fields).LabelKey;
+      icon = (pGVar3->fields).Icon;
+      pSVar4 = (__this->fields)._searchContext.fields.ScreenTitle;
+      pSVar5 = (__this->fields)._searchContext.fields.CategoryId;
+      pSVar6 = (__this->fields)._searchContext.fields.CategoryTitle;
+      pSVar7 = (__this->fields)._searchContext.fields.GroupId;
+      pSVar1 = (__this->fields)._searchContext.fields.GroupTitle;
+      layoutMode = (__this->fields)._layoutMode;
+      __this_01 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame);
+      local_98[0].fields.ScreenTitle = pSVar4;
+      local_98[0].fields.CategoryId = pSVar5;
+      local_98[0].fields.CategoryTitle = pSVar6;
+      local_98[0].fields.GroupId = pSVar7;
+      local_98[0].fields.GroupTitle = pSVar1;
+      Gisketch_Aottg2UI_SettingsScreen_AottgSettingRowFrame___ctor
+                (__this_01,id,label,92.0,(System_Action_AottgUi__o *)__this_00,tooltip,searchTitle,
+                 searchKeywords,icon,(System_Nullable_float__o)0x0,labelKey,tooltipKey,(System_String_o *)0x0,
+                 local_98,dirtyValue,(System_String_o *)0x0,(System_String_o *)0x0,layoutMode,
+                 (MethodInfo *)0x0);
+      if (ui != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+        Gisketch_Aottg2UI_Code_AottgUi__Component
+                  (ui,(Gisketch_Aottg2UI_Code_AottgComponent_o *)__this_01,(MethodInfo *)0x0);
+        return;
       }
-      ppIVar9 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pIVar4,TypeInfo_IAottgSettingAdapter,0);
-label_0445d210:
-      __this_02 = pIVar4;
-      pvVar10 = (void *)(**ppIVar9)();
-      if (pIVar4 == (Il2CppObject *)0x0) goto label_0445d341;
     }
-    __this_01[1].monitor = pvVar10;
-    il2cpp_runtime_helper_022b4080(&__this_01[1].monitor);
-    pSVar11 = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-    System_Action_object____ctor();
-    pSVar12 = System_String__Concat_3ae5ba0
-                        ((System_String_o *)__this_01[1].klass,"-color-frame",(MethodInfo *)0x0);
-    width = Gisketch_Aottg2UI_Code_AottgUi__Points(92.0,(MethodInfo *)0x0);
-    layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Row","Center","Center",(System_String_o *)0x0,(System_String_o *)0x0,
-                        0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    __this_02 = (Il2CppObject *)0x0;
-    if (pSVar8 != (System_Action_AottgUi__o *)0x0) {
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                ((Gisketch_Aottg2UI_Code_AottgUi_o *)pSVar8,"clear",pSVar11,pSVar12,layout,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+  }
+  ThrowNullReferenceException();
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$ApplySearchContext
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__ApplySearchContext (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o context, const MethodInfo* method);
+// 0x1821ebcd0
+
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__ApplySearchContext(Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_SettingsScreen_AottgSettingsSearchContext_o context, MethodInfo* method)
+
+{
+  System_String_o *pSVar1;
+  System_String_o *pSVar2;
+  System_String_o *pSVar3;
+  
+  pSVar1 = (context->fields).CategoryId;
+  pSVar2 = (context->fields).CategoryTitle;
+  pSVar3 = (context->fields).GroupId;
+  (__this->fields)._searchContext.fields.ScreenTitle = (context->fields).ScreenTitle;
+  (__this->fields)._searchContext.fields.CategoryId = pSVar1;
+  pSVar1 = (context->fields).GroupTitle;
+  (__this->fields)._searchContext.fields.CategoryTitle = pSVar2;
+  (__this->fields)._searchContext.fields.GroupId = pSVar3;
+  (__this->fields)._searchContext.fields.GroupTitle = pSVar1;
+  Il2CppCodeGenWriteBarrier((void **)&(__this->fields)._searchContext,(void *)0x0);
+  return;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$ApplyLayoutMode
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__ApplyLayoutMode (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, int32_t mode, const MethodInfo* method);
+// 0x18058aa60
+
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__ApplyLayoutMode(Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, int32_t mode, MethodInfo* method)
+
+{
+  (__this->fields)._layoutMode.fields._state = (uint32_t)value.fields._state;
+  return;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$SyncState
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__SyncState (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_GisketchUIRoot_o* root, const MethodInfo* method);
+// 0x1821ec3b0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821ec477: mov rbp, qword ptr [rip + 0x1ebe272]  ; "#FFFFFFFF"
+
+void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__SyncState
+               (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o *__this,
+               Gisketch_Aottg2UI_GisketchUIRoot_o *root,MethodInfo *method)
+
+{
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *pGVar1;
+  bool bVar2;
+  System_String_o *pSVar3;
+  System_String_o *value;
+  UnityEngine_GameObject_o *source;
+  
+  if (Il2CppMethodInitialized_18434707f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&"-color");
+    il2cpp_codegen_initialize_runtime_metadata(&"#FFFFFFFF");
+    Il2CppMethodInitialized_18434707f = '\x01';
+  }
+  if ((__this->fields)._descriptor == (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+    return;
+  }
+  pSVar3 = System_String__Concat_1969e50
+                     ((((__this->fields)._descriptor)->fields).Id,"-color",(MethodInfo *)0x0);
+  pGVar1 = (__this->fields)._descriptor;
+  if (pGVar1 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+    value = "#FFFFFFFF";
+    if ((pGVar1->fields).Adapter != (Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *)0x0) {
+      value = InterfaceInvoker0_Invoke
+                        (0,(Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter,
+                         (Il2CppObject *)(pGVar1->fields).Adapter);
+    }
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar2 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar2) {
+      if (root == (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) goto label_1821ec537;
+      source = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)root,(MethodInfo *)0x0);
+    }
+    else {
+      source = (UnityEngine_GameObject_o *)0x0;
+    }
+    if ((TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Code_GisketchUIColorPicker);
+    }
+    Gisketch_Aottg2UI_Code_GisketchUIColorPicker__SetValue(pSVar3,value,true,source,(MethodInfo *)0x0);
+    pGVar1 = (__this->fields)._descriptor;
+    if (pGVar1 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+      pSVar3 = (pGVar1->fields).Id;
+      if ((TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry->_2).
+          cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry);
+      }
+      Gisketch_Aottg2UI_SettingsScreen_AottgSettingsDirtyRegistry__SyncRow(root,pSVar3,(MethodInfo *)0x0);
       return;
     }
   }
-label_0445d341:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  return;
+label_1821ec537:
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$BuildPicker
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* control, const MethodInfo* method);
-// 0x445cfe0
+// 0x1821ec050
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker
                (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *control,MethodInfo *method)
 
 {
-  ushort uVar1;
-  Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *pGVar2;
+  bool disabled;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *pGVar1;
+  Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *object;
   Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *adapter;
-  Il2CppObject *pIVar3;
-  Il2CppClass *pIVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  bool_conflict bVar6;
-  System_Action_GisketchActionContext__o *changed;
-  Il2CppObject *__this_00;
-  Il2CppMethodPointer *ppIVar7;
-  void *pvVar8;
-  System_Action_AottgUi__o *build;
-  System_String_o *pSVar9;
-  Gisketch_Aottg2UI_Data_GisketchLength_o *width;
-  Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
-  System_String_o *in_RCX;
-  undefined1 extraout_DL;
-  Gisketch_Aottg2UI_Code_AottgUi_o *pGVar10;
-  Gisketch_Aottg2UI_Code_AottgUi_o *__this_01;
-  Il2CppObject *__this_02;
-  long lVar11;
-  void *in_R8;
-  MethodInfo *in_R9;
+  System_String_o *id;
+  DG_Tweening_Core_DOSetter_Color2__o *__this_00;
   
-  pGVar10 = control;
-  __this_01 = (Gisketch_Aottg2UI_Code_AottgUi_o *)__this;
-  if (g_data_057ae757 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_GisketchActionContext);
-    __this_01 = (Gisketch_Aottg2UI_Code_AottgUi_o *)&MethodInfo_Void_Changed;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae757 = '\x01';
+  if (Il2CppMethodInitialized_184347080 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_GisketchActionContext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_Changed);
+    Il2CppMethodInitialized_184347080 = '\x01';
   }
-  pGVar2 = (__this->fields)._descriptor;
-  if (pGVar2 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
-    pSVar9 = (pGVar2->fields).Id;
-    adapter = (pGVar2->fields).Adapter;
-    bVar6 = (pGVar2->fields).Disabled;
-    changed = (System_Action_GisketchActionContext__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_GisketchActionContext);
-    System_Action_GisketchActionContext____ctor();
-    Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker_435d080
-              (control,adapter,(uint)(byte)bVar6,pSVar9,changed,in_R9);
+  pGVar1 = (__this->fields)._descriptor;
+  if (pGVar1 != (Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_o *)0x0) {
+    object = (__this->fields)._descriptor;
+    adapter = (pGVar1->fields).Adapter;
+    disabled = (object->fields).Disabled;
+    id = (object->fields).Id;
+    __this_00 = (DG_Tweening_Core_DOSetter_Color2__o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
+    System_Action_GisketchActionContext____ctor
+              (__this_00,(Il2CppObject *)object,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSettingDescriptor_Changed,
+               (MethodInfo_1387DC0 *)0x0);
+    Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker_21ebd00
+              (control,adapter,disabled,id,(System_Action_GisketchActionContext__o *)__this_00,
+               (System_String_o *)0x0,(System_Nullable_bool__o)0x0,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae758 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IAottgSettingAdapter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_BuildPicker_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_0);
-    il2cpp_runtime_helper_023445d0(&"clear");
-    il2cpp_runtime_helper_023445d0(&"-color-frame");
-    il2cpp_runtime_helper_023445d0(&"#FFFFFFFF");
-    il2cpp_runtime_helper_023445d0(&"Center");
-    il2cpp_runtime_helper_023445d0(&"Row");
-    il2cpp_runtime_helper_023445d0(&"setting-color");
-    g_data_057ae758 = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_0);
-  __this_02 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = (Il2CppClass *)pGVar10;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,pGVar10);
-    __this_00[2].monitor = in_R8;
-    il2cpp_runtime_helper_022b4080(&__this_00[2].monitor);
-    *(undefined1 *)&__this_00[3].klass = extraout_DL;
-    bVar6 = System_String__IsNullOrEmpty(in_RCX,(MethodInfo *)0x0);
-    if ((char)bVar6 != '\0') {
-      in_RCX = "setting-color";
-    }
-    __this_00[1].klass = (Il2CppClass *)in_RCX;
-    il2cpp_runtime_helper_022b4080(__this_00 + 1,in_RCX);
-    pIVar3 = (Il2CppObject *)__this_00[2].klass;
-    pvVar8 = "#FFFFFFFF";
-    if (pIVar3 != (Il2CppObject *)0x0) {
-      pIVar4 = pIVar3->klass;
-      uVar1._0_1_ = (pIVar4->_2).rank;
-      uVar1._1_1_ = (pIVar4->_2).minimumAlignment;
-      if ((ulong)uVar1 != 0) {
-        pIVar5 = (pIVar4->_1).interfaceOffsets;
-        lVar11 = 0;
-        do {
-          if (*(long *)((long)&pIVar5->interfaceType + lVar11) == TypeInfo_IAottgSettingAdapter) {
-            ppIVar7 = &pIVar4->vtable[*(int *)((long)&pIVar5->offset + lVar11)].methodPtr;
-            goto label_0445d210;
-          }
-          lVar11 = lVar11 + 0x10;
-        } while ((ulong)uVar1 << 4 != lVar11);
-      }
-      ppIVar7 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pIVar3,TypeInfo_IAottgSettingAdapter,0);
-label_0445d210:
-      __this_02 = pIVar3;
-      pvVar8 = (void *)(**ppIVar7)();
-      if (pIVar3 == (Il2CppObject *)0x0) goto label_0445d341;
-    }
-    __this_00[1].monitor = pvVar8;
-    il2cpp_runtime_helper_022b4080(&__this_00[1].monitor);
-    build = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-    System_Action_object____ctor();
-    pSVar9 = System_String__Concat_3ae5ba0
-                       ((System_String_o *)__this_00[1].klass,"-color-frame",(MethodInfo *)0x0);
-    width = Gisketch_Aottg2UI_Code_AottgUi__Points(92.0,(MethodInfo *)0x0);
-    layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Row","Center","Center",(System_String_o *)0x0,(System_String_o *)0x0,
-                        0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    __this_02 = (Il2CppObject *)0x0;
-    if (__this_01 != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (__this_01,"clear",build,pSVar9,layout,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
-      return;
-    }
-  }
-label_0445d341:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgColorSettingRow$$BuildPicker
-// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker (Gisketch_Aottg2UI_Code_AottgUi_o* control, Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o* adapter, bool disabled, System_String_o* id, System_Action_GisketchActionContext__o* changed, const MethodInfo* method);
-// 0x445d080
+// il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker (Gisketch_Aottg2UI_Code_AottgUi_o* control, Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o* adapter, bool disabled, System_String_o* id, System_Action_GisketchActionContext__o* changed, System_String_o* enabledKey, System_Nullable_bool__o pickerDisabled, const MethodInfo* method);
+// 0x1821ebd00
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821ebe5c: mov rax, qword ptr [rip + 0x1ebe88d]  ; "#FFFFFFFF"
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker_435d080
+void Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow__BuildPicker_21ebd00
                (Gisketch_Aottg2UI_Code_AottgUi_o *control,
-               Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *adapter,bool_conflict disabled,
-               System_String_o *id,System_Action_GisketchActionContext__o *changed,MethodInfo *method)
+               Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *adapter,bool disabled,
+               System_String_o *id,System_Action_GisketchActionContext__o *changed,System_String_o *enabledKey
+               ,System_Nullable_bool__o pickerDisabled,MethodInfo *method)
 
 {
-  ushort uVar1;
-  Il2CppObject *pIVar2;
-  Il2CppClass *pIVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  bool_conflict bVar5;
-  Il2CppObject *__this;
-  Il2CppMethodPointer *ppIVar6;
-  void *pvVar7;
-  System_Action_AottgUi__o *build;
-  System_String_o *id_00;
+  bool bVar1;
+  Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o *object;
+  System_String_o *pSVar2;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this;
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *layout;
-  Il2CppObject *__this_00;
-  long lVar8;
+  Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *pGVar3;
+  Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *__this_00;
+  System_Nullable_bool__Fields local_res10 [4];
   
-  if (g_data_057ae758 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgUi);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IAottgSettingAdapter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_BuildPicker_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass4_0);
-    il2cpp_runtime_helper_023445d0(&"clear");
-    il2cpp_runtime_helper_023445d0(&"-color-frame");
-    il2cpp_runtime_helper_023445d0(&"#FFFFFFFF");
-    il2cpp_runtime_helper_023445d0(&"Center");
-    il2cpp_runtime_helper_023445d0(&"Row");
-    il2cpp_runtime_helper_023445d0(&"setting-color");
-    g_data_057ae758 = '\x01';
+  if (Il2CppMethodInitialized_184347081 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgUi);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_bool_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0_BuildPicker_b__0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0);
+    il2cpp_codegen_initialize_runtime_metadata(&"clear");
+    il2cpp_codegen_initialize_runtime_metadata(&"-color-frame");
+    il2cpp_codegen_initialize_runtime_metadata(&"#FFFFFFFF");
+    il2cpp_codegen_initialize_runtime_metadata(&"Center");
+    il2cpp_codegen_initialize_runtime_metadata(&"Row");
+    il2cpp_codegen_initialize_runtime_metadata(&"setting-color");
+    Il2CppMethodInitialized_184347081 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass4_0);
-  __this_00 = __this;
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  if (__this != (Il2CppObject *)0x0) {
-    __this[2].klass = (Il2CppClass *)adapter;
-    il2cpp_runtime_helper_022b4080(__this + 2,adapter);
-    __this[2].monitor = changed;
-    il2cpp_runtime_helper_022b4080(&__this[2].monitor);
-    *(char *)&__this[3].klass = (char)disabled;
-    bVar5 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      id = "setting-color";
-    }
-    __this[1].klass = (Il2CppClass *)id;
-    il2cpp_runtime_helper_022b4080(__this + 1,id);
-    pIVar2 = (Il2CppObject *)__this[2].klass;
-    pvVar7 = "#FFFFFFFF";
-    if (pIVar2 != (Il2CppObject *)0x0) {
-      pIVar3 = pIVar2->klass;
-      uVar1._0_1_ = (pIVar3->_2).rank;
-      uVar1._1_1_ = (pIVar3->_2).minimumAlignment;
-      if ((ulong)uVar1 != 0) {
-        pIVar4 = (pIVar3->_1).interfaceOffsets;
-        lVar8 = 0;
-        do {
-          if (*(long *)((long)&pIVar4->interfaceType + lVar8) == TypeInfo_IAottgSettingAdapter) {
-            ppIVar6 = &pIVar3->vtable[*(int *)((long)&pIVar4->offset + lVar8)].methodPtr;
-            goto label_0445d210;
-          }
-          lVar8 = lVar8 + 0x10;
-        } while ((ulong)uVar1 << 4 != lVar8);
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object == (Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow___c__DisplayClass9_0_o *)0x0) {
+label_1821ec03e:
+    ThrowNullReferenceException();
+  }
+  (object->fields).adapter = adapter;
+  Il2CppCodeGenWriteBarrier(&(object->fields).adapter,adapter);
+  (object->fields).changed = changed;
+  Il2CppCodeGenWriteBarrier(&(object->fields).changed,changed);
+  (object->fields).pickerDisabled.fields = pickerDisabled.fields;
+  (object->fields).disabled = disabled;
+  bVar1 = System_String__IsNullOrEmpty(id,(MethodInfo *)0x0);
+  if (bVar1) {
+    id = "setting-color";
+  }
+  (object->fields).pickerId = id;
+  Il2CppCodeGenWriteBarrier(&(object->fields).pickerId,id);
+  pSVar2 = "#FFFFFFFF";
+  if ((object->fields).adapter != (Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter_o *)0x0) {
+    pSVar2 = InterfaceInvoker0_Invoke
+                       (0,(Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_SettingsScreen_IAottgSettingAdapter,
+                        (Il2CppObject *)(object->fields).adapter);
+  }
+  (object->fields).value = pSVar2;
+  Il2CppCodeGenWriteBarrier(&(object->fields).value,pSVar2);
+  __this = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+           il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgUi);
+  System_Action_object____ctor
+            (__this,(Il2CppObject *)object,
+             (intptr_t)
+             MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgColorSettingRow_c__DisplayClass9_0_BuildPicker_b__0
+             ,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_1969e50((object->fields).pickerId,"-color-frame",(MethodInfo *)0x0);
+  width = Gisketch_Aottg2UI_Code_AottgUi__Points(92.0,(MethodInfo *)0x0);
+  layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
+                     ("Row","Center","Center",(System_String_o *)0x0
+                      ,(System_String_o *)0x0,0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,
+                      0.0,(MethodInfo *)0x0);
+  if (control != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
+    pGVar3 = Gisketch_Aottg2UI_Code_AottgUi__Panel
+                       (control,"clear",(System_Action_AottgUi__o *)__this,pSVar2,layout,
+                        (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
+    local_res10[0].hasValue = false;
+    local_res10[0].value = false;
+    System_Nullable_bool____ctor
+              ((System_Data_SqlTypes_SqlByte_o *)local_res10,(object->fields).disabled == false,
+               MethodInfo_System_Nullable_bool_ctor);
+    if (pGVar3 != (Gisketch_Aottg2UI_Data_GisketchNodeDefinition_o *)0x0) {
+      (pGVar3->fields).enabled.fields = local_res10[0];
+      bVar1 = System_String__IsNullOrEmpty(enabledKey,(MethodInfo *)0x0);
+      if (!bVar1) {
+        __this_00 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition);
+        Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition___ctor
+                  ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this_00,(MethodInfo *)0x0);
+        if (__this_00 == (Gisketch_Aottg2UI_Data_GisketchUIBindingDefinition_o *)0x0) goto label_1821ec03e;
+        (__this_00->fields).enabled = enabledKey;
+        Il2CppCodeGenWriteBarrier(&(__this_00->fields).enabled,enabledKey);
+        (pGVar3->fields).bind = __this_00;
+        Il2CppCodeGenWriteBarrier(&(pGVar3->fields).bind,__this_00);
       }
-      ppIVar6 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pIVar2,TypeInfo_IAottgSettingAdapter,0);
-label_0445d210:
-      __this_00 = pIVar2;
-      pvVar7 = (void *)(**ppIVar6)();
-      if (pIVar2 == (Il2CppObject *)0x0) goto label_0445d341;
-    }
-    __this[1].monitor = pvVar7;
-    il2cpp_runtime_helper_022b4080(&__this[1].monitor);
-    build = (System_Action_AottgUi__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgUi);
-    System_Action_object____ctor();
-    id_00 = System_String__Concat_3ae5ba0((System_String_o *)__this[1].klass,"-color-frame",(MethodInfo *)0x0);
-    width = Gisketch_Aottg2UI_Code_AottgUi__Points(92.0,(MethodInfo *)0x0);
-    layout = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                       ("Row","Center","Center",(System_String_o *)0x0,(System_String_o *)0x0,
-                        0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
-                        (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
-                        ,0.0,(MethodInfo *)0x0);
-    __this_00 = (Il2CppObject *)0x0;
-    if (control != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-      Gisketch_Aottg2UI_Code_AottgUi__Panel
-                (control,"clear",build,id_00,layout,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(MethodInfo *)0x0);
       return;
     }
   }
-label_0445d341:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x200001E")]
 internal static class Constants
 {
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000012")]
 	public const string DllName = "discord_game_sdk";
 }

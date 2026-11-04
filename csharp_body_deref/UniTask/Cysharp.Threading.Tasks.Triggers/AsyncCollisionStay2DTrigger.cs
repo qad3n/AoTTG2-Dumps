@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001B4")]
+[Token(Token = "0x20001B7")]
 [DisallowMultipleComponent]
 public sealed class AsyncCollisionStay2DTrigger : AsyncTriggerBase<Collision2D>
 {
-	[Token(Token = "0x6000ADA")]
-	[Address(RVA = "0x4A0C860", Offset = "0x4A0C860", VA = "0x4A0C860")]
+	[Token(Token = "0x6000AFE")]
+	[Address(RVA = "0x292B980", Offset = "0x2929F80", VA = "0x18292B980")]
 	private void OnCollisionStay2D(Collision2D coll)
 	{
 	}
 
-	[Token(Token = "0x6000ADB")]
-	[Address(RVA = "0x4A0C8B0", Offset = "0x4A0C8B0", VA = "0x4A0C8B0")]
+	[Token(Token = "0x6000AFF")]
+	[Address(RVA = "0x292B660", Offset = "0x2929C60", VA = "0x18292B660")]
 	public IAsyncOnCollisionStay2DHandler GetOnCollisionStay2DAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ADC")]
-	[Address(RVA = "0x4A0C920", Offset = "0x4A0C920", VA = "0x4A0C920")]
+	[Token(Token = "0x6000B00")]
+	[Address(RVA = "0x292B6D0", Offset = "0x2929CD0", VA = "0x18292B6D0")]
 	public IAsyncOnCollisionStay2DHandler GetOnCollisionStay2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ADD")]
-	[Address(RVA = "0x4A0C990", Offset = "0x4A0C990", VA = "0x4A0C990")]
+	[Token(Token = "0x6000B01")]
+	[Address(RVA = "0x292B860", Offset = "0x2929E60", VA = "0x18292B860")]
 	public UniTask<Collision2D> OnCollisionStay2DAsync()
 	{
 		return default(UniTask<Collision2D>);
 	}
 
-	[Token(Token = "0x6000ADE")]
-	[Address(RVA = "0x4A0CA90", Offset = "0x4A0CA90", VA = "0x4A0CA90")]
+	[Token(Token = "0x6000B02")]
+	[Address(RVA = "0x292B750", Offset = "0x2929D50", VA = "0x18292B750")]
 	public UniTask<Collision2D> OnCollisionStay2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collision2D>);
 	}
 
-	[Token(Token = "0x6000ADF")]
-	[Address(RVA = "0x4A0CBA0", Offset = "0x4A0CBA0", VA = "0x4A0CBA0")]
+	[Token(Token = "0x6000B03")]
+	[Address(RVA = "0x292B9D0", Offset = "0x2929FD0", VA = "0x18292B9D0")]
 	public AsyncCollisionStay2DTrigger()
 	{
 	}

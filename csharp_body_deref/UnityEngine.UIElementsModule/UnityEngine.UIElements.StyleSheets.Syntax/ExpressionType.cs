@@ -6,18 +6,20 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x200054B")]
+[Token(Token = "0x2000641")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal enum ExpressionType
 {
-	[Token(Token = "0x400123D")]
+	[Token(Token = "0x40017E7")]
 	Unknown,
-	[Token(Token = "0x400123E")]
+	[Token(Token = "0x40017E8")]
 	Data,
-	[Token(Token = "0x400123F")]
+	[Token(Token = "0x40017E9")]
 	Keyword,
-	[Token(Token = "0x4001240")]
+	[Token(Token = "0x40017EA")]
 	Combinator
 }

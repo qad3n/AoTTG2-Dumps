@@ -10,106 +10,106 @@ using Mono.Security.Cryptography;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000316")]
+[Token(Token = "0x2000345")]
 internal class DESTransform : Mono.Security.Cryptography.SymmetricTransform
 {
-	[Token(Token = "0x4000DDE")]
+	[Token(Token = "0x4000DEB")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly int KEY_BIT_SIZE;
 
-	[Token(Token = "0x4000DDF")]
+	[Token(Token = "0x4000DEC")]
 	[FieldOffset(Offset = "0x4")]
 	internal static readonly int KEY_BYTE_SIZE;
 
-	[Token(Token = "0x4000DE0")]
+	[Token(Token = "0x4000DED")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly int BLOCK_BIT_SIZE;
 
-	[Token(Token = "0x4000DE1")]
+	[Token(Token = "0x4000DEE")]
 	[FieldOffset(Offset = "0xC")]
 	internal static readonly int BLOCK_BYTE_SIZE;
 
-	[Token(Token = "0x4000DE2")]
+	[Token(Token = "0x4000DEF")]
 	[FieldOffset(Offset = "0x58")]
 	private byte[] keySchedule;
 
-	[Token(Token = "0x4000DE3")]
+	[Token(Token = "0x4000DF0")]
 	[FieldOffset(Offset = "0x60")]
 	private byte[] byteBuff;
 
-	[Token(Token = "0x4000DE4")]
+	[Token(Token = "0x4000DF1")]
 	[FieldOffset(Offset = "0x68")]
 	private uint[] dwordBuff;
 
-	[Token(Token = "0x4000DE5")]
+	[Token(Token = "0x4000DF2")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly uint[] spBoxes;
 
-	[Token(Token = "0x4000DE6")]
+	[Token(Token = "0x4000DF3")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly byte[] PC1;
 
-	[Token(Token = "0x4000DE7")]
+	[Token(Token = "0x4000DF4")]
 	[FieldOffset(Offset = "0x20")]
 	private static readonly byte[] leftRotTotal;
 
-	[Token(Token = "0x4000DE8")]
+	[Token(Token = "0x4000DF5")]
 	[FieldOffset(Offset = "0x28")]
 	private static readonly byte[] PC2;
 
-	[Token(Token = "0x4000DE9")]
+	[Token(Token = "0x4000DF6")]
 	[FieldOffset(Offset = "0x30")]
 	internal static readonly uint[] ipTab;
 
-	[Token(Token = "0x4000DEA")]
+	[Token(Token = "0x4000DF7")]
 	[FieldOffset(Offset = "0x38")]
 	internal static readonly uint[] fpTab;
 
-	[Token(Token = "0x6001B0D")]
-	[Address(RVA = "0x3B4FF50", Offset = "0x3B4FF50", VA = "0x3B4FF50")]
+	[Token(Token = "0x6001B75")]
+	[Address(RVA = "0x19BE210", Offset = "0x19BC810", VA = "0x1819BE210")]
 	internal DESTransform(SymmetricAlgorithm symmAlgo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
-	[Token(Token = "0x6001B0E")]
-	[Address(RVA = "0x3B50850", Offset = "0x3B50850", VA = "0x3B50850")]
+	[Token(Token = "0x6001B76")]
+	[Address(RVA = "0x19BCEF0", Offset = "0x19BB4F0", VA = "0x1819BCEF0")]
 	private uint CipherFunct(uint r, int n)
 	{
 		return default(uint);
 	}
 
-	[Token(Token = "0x6001B0F")]
-	[Address(RVA = "0x3B50A80", Offset = "0x3B50A80", VA = "0x3B50A80")]
+	[Token(Token = "0x6001B77")]
+	[Address(RVA = "0x19BD380", Offset = "0x19BB980", VA = "0x1819BD380")]
 	internal static void Permutation(byte[] input, byte[] output, uint[] permTab, bool preSwap)
 	{
 	}
 
-	[Token(Token = "0x6001B10")]
-	[Address(RVA = "0x3B50DC0", Offset = "0x3B50DC0", VA = "0x3B50DC0")]
+	[Token(Token = "0x6001B78")]
+	[Address(RVA = "0x19BCE60", Offset = "0x19BB460", VA = "0x1819BCE60")]
 	private static void BSwap(byte[] byteBuff)
 	{
 	}
 
-	[Token(Token = "0x6001B11")]
-	[Address(RVA = "0x3B502A0", Offset = "0x3B502A0", VA = "0x3B502A0")]
+	[Token(Token = "0x6001B79")]
+	[Address(RVA = "0x19BDB60", Offset = "0x19BC160", VA = "0x1819BDB60")]
 	internal void SetKey(byte[] key)
 	{
 	}
 
-	[Token(Token = "0x6001B12")]
-	[Address(RVA = "0x3B50E20", Offset = "0x3B50E20", VA = "0x3B50E20")]
+	[Token(Token = "0x6001B7A")]
+	[Address(RVA = "0x19BD710", Offset = "0x19BBD10", VA = "0x1819BD710")]
 	public void ProcessBlock(byte[] input, byte[] output)
 	{
 	}
 
-	[Token(Token = "0x6001B13")]
-	[Address(RVA = "0x3B511F0", Offset = "0x3B511F0", VA = "0x3B511F0", Slot = "17")]
+	[Token(Token = "0x6001B7B")]
+	[Address(RVA = "0x19BD200", Offset = "0x19BB800", VA = "0x1819BD200", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}
 
-	[Token(Token = "0x6001B14")]
-	[Address(RVA = "0x3B501D0", Offset = "0x3B501D0", VA = "0x3B501D0")]
+	[Token(Token = "0x6001B7C")]
+	[Address(RVA = "0x19BD2D0", Offset = "0x19BB8D0", VA = "0x1819BD2D0")]
 	internal static byte[] GetStrongKey()
 	{
 		return null;

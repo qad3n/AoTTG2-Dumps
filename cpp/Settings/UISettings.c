@@ -1,21 +1,21 @@
 // Type: Settings.UISettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Settings/UISettings.cs
 // Prior real C# source (older reference): Assets/Scripts/Settings/UISettings.cs
 // --------------------------------
 
 // Settings.UISettings$$get_FileName
 // il2cpp: System_String_o* Settings_UISettings__get_FileName (Settings_UISettings_o* __this, const MethodInfo* method);
-// 0x42041f0
+// 0x181f2be70
 
 System_String_o * Settings_UISettings__get_FileName(Settings_UISettings_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ad8cf == '\0') {
-    il2cpp_runtime_helper_023445d0(&"UI.json");
-    g_data_057ad8cf = '\x01';
+  if (Il2CppMethodInitialized_1843454cf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"UI.json");
+    Il2CppMethodInitialized_1843454cf = '\x01';
   }
   return "UI.json";
 }
@@ -23,140 +23,123 @@ System_String_o * Settings_UISettings__get_FileName(Settings_UISettings_o *__thi
 
 // Settings.UISettings$$Apply
 // il2cpp: void Settings_UISettings__Apply (Settings_UISettings_o* __this, const MethodInfo* method);
-// 0x4204220
+// 0x181f2a650
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f2a8cf: mov rdi, qword ptr [rsp + 0x30]
 
 void Settings_UISettings__Apply(Settings_UISettings_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
-  UI_BaseMenu_o *__this_00;
-  Settings_FloatSetting_o *pSVar2;
-  UI_ChatPanel_o *pUVar3;
-  bool_conflict bVar4;
-  uint uVar5;
-  System_Object_array *pSVar6;
-  Il2CppObject *pIVar7;
+  UI_BaseMenu_o *pUVar2;
+  Settings_FloatSetting_o *pSVar3;
+  UI_BaseMenu_c *pUVar4;
+  UI_InGameMenu_o *__this_00;
+  UI_ChatPanel_o *pUVar5;
+  bool bVar6;
+  System_Object_array *pSVar7;
   uint uVar8;
-  UI_InGameMenu_o *__this_01;
   
-  if (g_data_057ad8d0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameMenu);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_FindObjectsByType_GisketchUIRoot);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    g_data_057ad8d0 = '\x01';
+  if (Il2CppMethodInitialized_1843454d0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_InGameMenu);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_Object_FindObjectsByType_GisketchUIRoot);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_float_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    Il2CppMethodInitialized_1843454d0 = '\x01';
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
-  __this_01 = *(UI_InGameMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar4 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar4 == '\0') {
+  bVar6 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar6) {
     return;
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
-  __this_00 = *(UI_BaseMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-  if (__this_00 != (UI_BaseMenu_o *)0x0) {
-    UI_BaseMenu__ApplyScale(__this_00,*(int32_t *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8),(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar2 != (UI_BaseMenu_o *)0x0) {
+    UI_BaseMenu__ApplyScale
+              (pUVar2,TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName,(MethodInfo *)0x0);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    pSVar6 = UnityEngine_Object__FindObjectsByType_object__2589b50(1,0,MethodInfo_GisketchUIRoot_FindObjectsByType_GisketchUIRoot);
-    if (pSVar6 != (System_Object_array *)0x0) {
-      uVar5 = (uint)pSVar6->max_length;
-      if (0 < (int)uVar5) {
-        __this_01 = (UI_InGameMenu_o *)0x0;
-        do {
-          uVar8 = (uint)__this_01;
-          if (uVar5 <= uVar8) goto label_042044b0;
-          pSVar2 = (__this->fields).UIMasterScale;
-          if ((pSVar2 == (Settings_FloatSetting_o *)0x0) ||
-             ((Gisketch_Aottg2UI_GisketchUIRoot_o *)pSVar6->m_Items[(int)uVar8] ==
-              (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0)) goto label_042044ab;
-          Gisketch_Aottg2UI_GisketchUIRoot__SetScale_3a2c960
-                    ((Gisketch_Aottg2UI_GisketchUIRoot_o *)pSVar6->m_Items[(int)uVar8],(pSVar2->fields)._value
-                     ,(MethodInfo *)0x0);
-          __this_01 = (UI_InGameMenu_o *)(ulong)(uVar8 + 1);
-          uVar5 = (uint)pSVar6->max_length;
-        } while ((int)(uVar8 + 1) < (int)uVar5);
+    pSVar7 = UnityEngine_Object__FindObjectsByType_object__745290
+                       (1,0,(MethodInfo_745290 *)
+                            MethodInfo_UnityEngine_Object_FindObjectsByType_GisketchUIRoot);
+    if (pSVar7 != (System_Object_array *)0x0) {
+      for (uVar8 = 0; (int)uVar8 < (int)pSVar7->max_length; uVar8 = uVar8 + 1) {
+        if ((uint)pSVar7->max_length <= uVar8) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar3 = (__this->fields).UIMasterScale;
+        if ((pSVar3 == (Settings_FloatSetting_o *)0x0) ||
+           ((Gisketch_Aottg2UI_GisketchUIRoot_o *)pSVar7->m_Items[(int)uVar8] ==
+            (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0)) goto label_181f2a8df;
+        Gisketch_Aottg2UI_GisketchUIRoot__SetScale_189adb0
+                  ((Gisketch_Aottg2UI_GisketchUIRoot_o *)pSVar7->m_Items[(int)uVar8],(pSVar3->fields)._value,
+                   (MethodInfo *)0x0);
       }
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        __this_01 = *(UI_InGameMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
       }
-      else {
-        __this_01 = *(UI_InGameMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
+      pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+      if (pUVar2 != (UI_BaseMenu_o *)0x0) {
+        pUVar4 = pUVar2->klass;
+        bVar1 = (TypeInfo_UI_InGameMenu->_2).typeHierarchyDepth;
+        if ((bVar1 <= (pUVar4->_2).typeHierarchyDepth) &&
+           ((pUVar4->_2).typeHierarchy[(ulonglong)bVar1 - 1] == (Il2CppClass *)TypeInfo_UI_InGameMenu)) {
+          if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+          }
+          __this_00 = (UI_InGameMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+          if (__this_00 == (UI_InGameMenu_o *)0x0) goto label_181f2a8df;
+          bVar1 = (TypeInfo_UI_InGameMenu->_2).typeHierarchyDepth;
+          if (((__this_00->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_UI_InGameMenu)) {
+            il2cpp_codegen_raise_invalid_cast_exception(__this_00,TypeInfo_UI_InGameMenu);
+          }
+          UI_InGameMenu__ApplyUISettings(__this_00,(MethodInfo *)0x0);
+          pUVar5 = (__this_00->fields).ChatPanel;
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          bVar6 = UnityEngine_Object__op_Inequality
+                            ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (bVar6) {
+            pUVar5 = (__this_00->fields).ChatPanel;
+            if (pUVar5 == (UI_ChatPanel_o *)0x0) goto label_181f2a8df;
+            UI_ChatPanel__Sync(pUVar5,(MethodInfo *)0x0);
+          }
+        }
       }
-      if (__this_01 == (UI_InGameMenu_o *)0x0) {
-        return;
-      }
-      bVar1 = (TypeInfo_InGameMenu->_2).naturalAligment;
-      if ((__this_01->klass->_2).naturalAligment < bVar1) {
-        return;
-      }
-      if ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_InGameMenu) {
-        return;
-      }
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        __this_01 = *(UI_InGameMenu_o **)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        if (__this_01 == (UI_InGameMenu_o *)0x0) goto label_042044ab;
-      }
-      bVar1 = (TypeInfo_InGameMenu->_2).naturalAligment;
-      if (((__this_01->klass->_2).naturalAligment < bVar1) ||
-         ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_InGameMenu)) goto label_042044b5;
-      UI_InGameMenu__ApplyUISettings(__this_01,(MethodInfo *)0x0);
-      pUVar3 = (__this_01->fields).ChatPanel;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar4 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)pUVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar4 == '\0') {
-        return;
-      }
-      pUVar3 = (__this_01->fields).ChatPanel;
-      if (pUVar3 != (UI_ChatPanel_o *)0x0) {
-        UI_ChatPanel__Sync(pUVar3,(MethodInfo *)0x0);
-        return;
-      }
+      return;
     }
   }
-label_042044ab:
-  il2cpp_runtime_helper_022b2c90();
-label_042044b0:
-  il2cpp_runtime_helper_022b2ca0();
-label_042044b5:
-  il2cpp_runtime_helper_022b2fd0(__this_01);
-  if (g_data_057ad8d2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ReplayManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ReplayManager_CreateSingleton_ReplayManager);
-    g_data_057ad8d2 = '\x01';
-  }
-  pIVar7 = Utility_SingletonFactory__CreateSingleton_object_
-                     ((Il2CppObject *)**(undefined8 **)(TypeInfo_ReplayManager + 0xb8),MethodInfo_ReplayManager_CreateSingleton_ReplayManager);
-  **(undefined8 **)(TypeInfo_ReplayManager + 0xb8) = pIVar7;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ReplayManager + 0xb8),pIVar7);
-  return;
+label_181f2a8df:
+  ThrowNullReferenceException();
 }
 
 
 // Settings.UISettings$$.ctor
 // il2cpp: void Settings_UISettings___ctor (Settings_UISettings_o* __this, const MethodInfo* method);
-// 0x41fad40
+// 0x181f2a900
 
 void Settings_UISettings___ctor(Settings_UISettings_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
+  Il2CppObject *defaultValue;
+  Settings_IntSetting_c *pSVar1;
+  System_String_o *defaultValue_00;
   int32_t iVar2;
   Settings_StringSetting_o *pSVar3;
   Settings_BoolSetting_o *pSVar4;
@@ -164,625 +147,627 @@ void Settings_UISettings___ctor(Settings_UISettings_o *__this,MethodInfo *method
   Settings_IntSetting_o *pSVar6;
   Utility_Color255_o *pUVar7;
   Settings_ToggleColorSetting_o *__this_00;
+  Utility_Color255_o *defaultValue_01;
   Settings_ColorSetting_o *pSVar8;
-  MethodInfo *pMVar9;
-  float fVar10;
+  Settings_ListSetting_StringSetting__o *pSVar9;
   
-  if (g_data_057ad8d1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BoolSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color255);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ColorSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_FloatSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IntSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_StringSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ToggleColorSetting);
-    il2cpp_runtime_helper_023445d0(&"Dark");
-    g_data_057ad8d1 = '\x01';
+  if (Il2CppMethodInitialized_1843454d1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BoolSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ColorSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_StringSetting_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ListSetting_StringSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ToggleColorSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&"Dark");
+    Il2CppMethodInitialized_1843454d1 = '\x01';
   }
-  pSVar3 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-  pIVar1 = "Dark";
-  if (g_data_057ad8c1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_String);
-    g_data_057ad8c1 = '\x01';
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
+  defaultValue_00 = "Dark";
+  if (Il2CppMethodInitialized_1843454ba == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_ctor);
+    Il2CppMethodInitialized_1843454ba = '\x01';
   }
   (pSVar3->fields).MaxLength = 0x7fffffff;
-  Settings_TypedSetting_object____ctor_2a240d0((Settings_TypedSetting_T__o *)pSVar3,pIVar1,MethodInfo_TypedSetting_1_System_String);
+  Settings_TypedSetting_object____ctor_e8f190
+            ((Settings_TypedSetting_T__o *)pSVar3,(Il2CppObject *)defaultValue_00,
+             (MethodInfo_E8F190 *)MethodInfo_Settings_TypedSetting_string_ctor);
   (pSVar3->fields).MaxLength = 0x7fffffff;
   (__this->fields).UITheme = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).UITheme);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).UITheme,pSVar3);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).GameFeed = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).GameFeed);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).GameFeed,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).FeedConsole = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).FeedConsole,pSVar4);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FeedConsole,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowStylebar = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowStylebar,pSVar4);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.75;
-  (pSVar5->fields).MaxValue = 1.5;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowStylebar,pSVar4);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.5,1.5,(MethodInfo *)0x0);
   (__this->fields).UIMasterScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).UIMasterScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 3.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).UIMasterScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,3.0,(MethodInfo *)0x0);
   (__this->fields).CrosshairScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CrosshairScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CrosshairScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).CrosshairTextScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CrosshairTextScale,pSVar5);
-  pIVar1 = (Il2CppObject *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  pSVar3 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-  if (g_data_057ad8c1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_String);
-    g_data_057ad8c1 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CrosshairTextScale,pSVar5);
+  defaultValue = (Il2CppObject *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
+  if (Il2CppMethodInitialized_1843454ba == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_ctor);
+    Il2CppMethodInitialized_1843454ba = '\x01';
   }
   (pSVar3->fields).MaxLength = 0x7fffffff;
-  Settings_TypedSetting_object____ctor_2a240d0((Settings_TypedSetting_T__o *)pSVar3,pIVar1,MethodInfo_TypedSetting_1_System_String);
+  Settings_TypedSetting_object____ctor_e8f190
+            ((Settings_TypedSetting_T__o *)pSVar3,defaultValue,
+             (MethodInfo_E8F190 *)MethodInfo_Settings_TypedSetting_string_ctor);
   (pSVar3->fields).MaxLength = 200;
   (__this->fields).CrosshairSkin = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CrosshairSkin,pSVar3);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CrosshairSkin,pSVar3);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).HUDScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).HUDScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).HUDScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).MinimapScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).MinimapScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).MinimapScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).StylebarScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).StylebarScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).StylebarScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).KillScoreScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).KillScoreScale,pSVar5);
-  pSVar5 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  if (g_data_057ad89e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Single);
-    g_data_057ad89e = '\x01';
-  }
-  (pSVar5->fields).MinValue = -3.4028235e+38;
-  (pSVar5->fields).MaxValue = 3.4028235e+38;
-  Settings_TypedSetting_float____ctor((Settings_TypedSetting_float__o *)pSVar5,MethodInfo_TypedSetting_1_System_Single);
-  (pSVar5->fields).MinValue = 0.0;
-  (pSVar5->fields).MaxValue = 2.0;
-  fVar10 = (float)(*(pSVar5->klass->vtable)._10_SanitizeValue.methodPtr)
-                            (0x3f800000,pSVar5,(pSVar5->klass->vtable)._10_SanitizeValue.method);
-  (pSVar5->fields).DefaultValue = fVar10;
-  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).KillScoreScale,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar5,1.0,0.0,2.0,(MethodInfo *)0x0);
   (__this->fields).KillFeedScale = pSVar5;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).KillFeedScale,pSVar5);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).KillFeedScale,pSVar5);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowCrosshairDistance = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowCrosshairDistance,pSVar4);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowCrosshairDistance,pSVar4);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).CrosshairStyle = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).CrosshairStyle,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).CrosshairStyle,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).Speedometer = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Speedometer);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Speedometer,pSVar6);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowInterpolation = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowInterpolation);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowInterpolation,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowCrosshairArrows = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowCrosshairArrows,pSVar4);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowCrosshairArrows,pSVar4);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).KDR = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).KDR);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).KDR,pSVar6);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowPing = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowPing,pSVar4);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowPing,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowEmotes = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowEmotes,pSVar4);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowEmotes,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
-  (__this->fields).ShowKeybindTip = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowKeybindTip);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
-  }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowGameTime = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowGameTime,pSVar4);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowGameTime,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowSongPopup = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowSongPopup,pSVar4);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowSongPopup,pSVar4);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ShowNames = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowNames,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowNames,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ShowHealthbars = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowHealthbars,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowHealthbars,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 100000;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,500,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar6,500,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).HumanNameDistance = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).HumanNameDistance,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).HumanNameDistance,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,3,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,3,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).NameOverrideTarget = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).NameOverrideTarget,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NameOverrideTarget,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).NameBackgroundType = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).NameBackgroundType,pSVar6);
-  pUVar7 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-  pMVar9 = (MethodInfo *)&g_data_000000ff;
-  Utility_Color255___ctor(pUVar7,0xff,0xff,0xff,0xff,(MethodInfo *)0x0);
-  __this_00 = (Settings_ToggleColorSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ToggleColorSetting);
-  Settings_ToggleColorSetting___ctor_4103830(__this_00,0,pUVar7,pMVar9);
-  (__this->fields).ForceNameColor = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ForceNameColor);
-  pUVar7 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-  Utility_Color255___ctor(pUVar7,0,0,0,100,(MethodInfo *)0x0);
-  pSVar8 = (Settings_ColorSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ColorSetting);
-  if (g_data_057ad89a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_Utility_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057ad89a = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).NameBackgroundType,pSVar6);
+  pUVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor
+            ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar7,0xff,0xff,0xff,0xff,
+             (MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ToggleColorSetting);
+  if (Il2CppMethodInitialized_1843454be == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BoolSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Color255);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ColorSetting);
+    Il2CppMethodInitialized_1843454be = '\x01';
   }
-  Settings_TypedSetting_object____ctor((Settings_TypedSetting_T__o *)pSVar8,MethodInfo_TypedSetting_1_Utility_Color255);
-  (pSVar8->fields).MinAlpha = 0;
-  pUVar7 = (Utility_Color255_o *)
-           (*(pSVar8->klass->vtable)._10_SanitizeValue.methodPtr)
-                     (pSVar8,pUVar7,(pSVar8->klass->vtable)._10_SanitizeValue.method);
-  (pSVar8->fields).DefaultValue = pUVar7;
-  il2cpp_runtime_helper_022b4080(&pSVar8->fields,pUVar7);
-  Settings_TypedSetting_object___set_Value
-            ((Settings_TypedSetting_T__o *)pSVar8,(Il2CppObject *)(pSVar8->fields).DefaultValue,MethodInfo_Void_set_Value);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this_00->fields).Enabled = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Enabled,pSVar4);
+  defaultValue_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor
+            ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)defaultValue_01,0xff,0xff,0xff,0xff,
+             (MethodInfo *)0x0);
+  pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ColorSetting);
+  Settings_ColorSetting___ctor_1f12060(pSVar8,defaultValue_01,0,(MethodInfo *)0x0);
+  (__this_00->fields).Color = pSVar8;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Color,pSVar8);
+  Settings_BaseSetting___ctor((Settings_BaseSetting_o *)__this_00,(MethodInfo *)0x0);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this_00->fields).Enabled = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Enabled,pSVar4);
+  pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ColorSetting);
+  Settings_ColorSetting___ctor_1f12060(pSVar8,pUVar7,0,(MethodInfo *)0x0);
+  (__this_00->fields).Color = pSVar8;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).Color,pSVar8);
+  (__this->fields).ForceNameColor = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ForceNameColor,__this_00);
+  pUVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor
+            ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar7,0,0,0,100,(MethodInfo *)0x0);
+  pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ColorSetting);
+  Settings_ColorSetting___ctor_1f12060(pSVar8,pUVar7,0,(MethodInfo *)0x0);
   (__this->fields).ForceBackgroundColor = pSVar8;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ForceBackgroundColor,pSVar8);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ForceBackgroundColor,pSVar8);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 100;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).MinNameLength = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).MinNameLength,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).MinNameLength,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 100;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0x14,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar6,0x14,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).MaxNameLength = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).MaxNameLength);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).MaxNameLength,pSVar6);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).FadeMainMenu = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).FadeMainMenu,pSVar4);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FadeMainMenu,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).FadeLoadscreen = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).FadeLoadscreen,pSVar4);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FadeLoadscreen,pSVar4);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 1000;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0x140,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar6,0x140,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ChatWidth = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatWidth,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatWidth,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 500;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0x127,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar6,0x127,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ChatHeight = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatHeight,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatHeight,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 1;
   (pSVar6->fields).MaxValue = 0x32;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0x12,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar6,0x12,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ChatFontSize = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatFontSize,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatFontSize,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 400;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ChatPoolSize = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatPoolSize,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatPoolSize,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 1;
   (pSVar6->fields).MaxValue = 0x32;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,10,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,10,(pSVar1->vtable)._11_SanitizeValue.method)
+  ;
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).ChatScrollSensitivity = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatScrollSensitivity,pSVar6);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatScrollSensitivity,pSVar6);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = 0;
   (pSVar6->fields).MaxValue = 10;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,3,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,3,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).KillFeedCount = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).KillFeedCount,pSVar6);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).KillFeedCount,pSVar6);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,1,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).JoinNotifications = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).JoinNotifications,pSVar4);
-  pSVar6 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  if (g_data_057ad8a8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Int32);
-    g_data_057ad8a8 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).JoinNotifications,pSVar4);
+  pSVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
   }
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  Settings_TypedSetting_int____ctor((Settings_TypedSetting_int__o *)pSVar6,MethodInfo_TypedSetting_1_System_Int32);
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar6,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar6->klass;
   (pSVar6->fields).MinValue = -0x80000000;
   (pSVar6->fields).MaxValue = 0x7fffffff;
-  iVar2 = (*(pSVar6->klass->vtable)._10_SanitizeValue.methodPtr)
-                    (pSVar6,0,(pSVar6->klass->vtable)._10_SanitizeValue.method);
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar6,0,(pSVar1->vtable)._11_SanitizeValue.method);
   (pSVar6->fields).DefaultValue = iVar2;
   (*(pSVar6->klass->vtable)._4_SetDefault.methodPtr)(pSVar6,(pSVar6->klass->vtable)._4_SetDefault.method);
   (__this->fields).Coordinates = pSVar6;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Coordinates);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Coordinates,pSVar6);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ShowChatTimestamp = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ShowChatTimestamp);
-  pSVar4 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ShowChatTimestamp,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pSVar4,0,MethodInfo_TypedSetting_1_System_Boolean);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
   (__this->fields).ChatHidden = pSVar4;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatHidden,pSVar4);
-  pUVar7 = (Utility_Color255_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Color255);
-  Utility_Color255___ctor(pUVar7,0x26,0x26,0x26,0,(MethodInfo *)0x0);
-  pSVar8 = (Settings_ColorSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ColorSetting);
-  if (g_data_057ad89a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_Utility_Color255);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057ad89a = '\x01';
-  }
-  Settings_TypedSetting_object____ctor((Settings_TypedSetting_T__o *)pSVar8,MethodInfo_TypedSetting_1_Utility_Color255);
-  (pSVar8->fields).MinAlpha = 0;
-  pUVar7 = (Utility_Color255_o *)
-           (*(pSVar8->klass->vtable)._10_SanitizeValue.methodPtr)
-                     (pSVar8,pUVar7,(pSVar8->klass->vtable)._10_SanitizeValue.method);
-  (pSVar8->fields).DefaultValue = pUVar7;
-  il2cpp_runtime_helper_022b4080(&pSVar8->fields,pUVar7);
-  Settings_TypedSetting_object___set_Value
-            ((Settings_TypedSetting_T__o *)pSVar8,(Il2CppObject *)(pSVar8->fields).DefaultValue,MethodInfo_Void_set_Value);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatHidden,pSVar4);
+  pUVar7 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Utility_Color255);
+  Utility_Color255___ctor
+            ((System_Linq_Expressions_Interpreter_TryFaultHandler_o *)pUVar7,0x26,0x26,0x26,0,
+             (MethodInfo *)0x0);
+  pSVar8 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ColorSetting);
+  Settings_ColorSetting___ctor_1f12060(pSVar8,pUVar7,0,(MethodInfo *)0x0);
   (__this->fields).ChatBackgroundColor = pSVar8;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatBackgroundColor);
-  pMVar9 = (MethodInfo *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  if (g_data_057ad896 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypedSetting_1_System_Boolean);
-    g_data_057ad896 = '\x01';
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatBackgroundColor,pSVar8);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
   }
-  Settings_TypedSetting_bool____ctor_2a23ec0((Settings_TypedSetting_bool__o *)pMVar9,0,MethodInfo_TypedSetting_1_System_Boolean);
-  (__this->fields).ChatCLErrors = (Settings_BoolSetting_o *)pMVar9;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).ChatCLErrors);
-  Settings_BaseSettingsContainer___ctor((Settings_PresetSettingsContainer_o *)__this,pMVar9);
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar4,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).ChatCLErrors = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).ChatCLErrors,pSVar4);
+  pSVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_StringSetting);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar9,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_StringSetting_ctor);
+  (__this->fields).FavoriteExperiences = pSVar9;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FavoriteExperiences,pSVar9);
+  pSVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_StringSetting);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar9,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_StringSetting_ctor);
+  (__this->fields).FavoriteSandboxPresets = pSVar9;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).FavoriteSandboxPresets,pSVar9);
+  Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

@@ -7,260 +7,283 @@
 // ===============================================================
 using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200008F")]
+[Token(Token = "0x20000AF")]
 [MovedFrom(true, "UnityEditor", "UnityEditor", null)]
 public class ExpressionEvaluator
 {
-	[Token(Token = "0x2000090")]
+	[Token(Token = "0x20000B0")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 	internal class Expression
 	{
-		[Token(Token = "0x400017D")]
+		[Token(Token = "0x40001D0")]
 		[FieldOffset(Offset = "0x10")]
 		internal readonly string[] rpnTokens;
 
-		[Token(Token = "0x400017E")]
+		[Token(Token = "0x40001D1")]
 		[FieldOffset(Offset = "0x18")]
 		internal readonly bool hasVariables;
 
-		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x4DBB560", Offset = "0x4DBB560", VA = "0x4DBB560")]
+		[Token(Token = "0x6000358")]
+		[Address(RVA = "0x2EC6CE0", Offset = "0x2EC52E0", VA = "0x182EC6CE0")]
 		internal Expression(string expression)
 		{
 		}
 
-		[Token(Token = "0x600024D")]
+		[Token(Token = "0x6000359")]
 		public bool Evaluate<T>(ref T value, int index = 0, int count = 1)
 		{
 			return default(bool);
 		}
+
+		[Token(Token = "0x600035A")]
+		[Address(RVA = "0x2EC6C00", Offset = "0x2EC5200", VA = "0x182EC6C00", Slot = "0")]
+		public override bool Equals(object obj)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x600035B")]
+		[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
+		public override int GetHashCode()
+		{
+			return default(int);
+		}
+
+		[Token(Token = "0x600035C")]
+		[Address(RVA = "0x2EC6CA0", Offset = "0x2EC52A0", VA = "0x182EC6CA0", Slot = "3")]
+		public override string ToString()
+		{
+			return null;
+		}
 	}
 
-	[Token(Token = "0x2000091")]
+	[Token(Token = "0x20000B1")]
 	private struct PcgRandom
 	{
-		[Token(Token = "0x400017F")]
+		[Token(Token = "0x40001D2")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly ulong increment;
 
-		[Token(Token = "0x4000180")]
+		[Token(Token = "0x40001D3")]
 		[FieldOffset(Offset = "0x8")]
 		private ulong state;
 
-		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x4DBB4F0", Offset = "0x4DBB4F0", VA = "0x4DBB4F0")]
+		[Token(Token = "0x600035D")]
+		[Address(RVA = "0x2ECDA60", Offset = "0x2ECC060", VA = "0x182ECDA60")]
 		public PcgRandom(ulong state = 0uL, ulong sequence = 0uL)
 		{
 		}
 
-		[Token(Token = "0x600024F")]
-		[Address(RVA = "0x4DBAF80", Offset = "0x4DBAF80", VA = "0x4DBAF80")]
+		[Token(Token = "0x600035E")]
+		[Address(RVA = "0x2ECD9A0", Offset = "0x2ECBFA0", VA = "0x182ECD9A0")]
 		public uint GetUInt()
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x6000250")]
-		[Address(RVA = "0x4DBB630", Offset = "0x4DBB630", VA = "0x4DBB630")]
+		[Token(Token = "0x600035F")]
+		[Address(RVA = "0x2ECD9F0", Offset = "0x2ECBFF0", VA = "0x182ECD9F0")]
 		private static uint RotateRight(uint v, int rot)
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x6000251")]
-		[Address(RVA = "0x4DBB610", Offset = "0x4DBB610", VA = "0x4DBB610")]
+		[Token(Token = "0x6000360")]
+		[Address(RVA = "0x2ECDA30", Offset = "0x2ECC030", VA = "0x182ECDA30")]
 		private static uint XshRr(ulong s)
 		{
 			return default(uint);
 		}
 
-		[Token(Token = "0x6000252")]
-		[Address(RVA = "0x4DBB5F0", Offset = "0x4DBB5F0", VA = "0x4DBB5F0")]
+		[Token(Token = "0x6000361")]
+		[Address(RVA = "0x2ECDA10", Offset = "0x2ECC010", VA = "0x182ECDA10")]
 		private void Step()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000092")]
+	[Token(Token = "0x20000B2")]
 	private enum Op
 	{
-		[Token(Token = "0x4000182")]
+		[Token(Token = "0x40001D5")]
 		Add,
-		[Token(Token = "0x4000183")]
+		[Token(Token = "0x40001D6")]
 		Sub,
-		[Token(Token = "0x4000184")]
+		[Token(Token = "0x40001D7")]
 		Mul,
-		[Token(Token = "0x4000185")]
+		[Token(Token = "0x40001D8")]
 		Div,
-		[Token(Token = "0x4000186")]
+		[Token(Token = "0x40001D9")]
 		Mod,
-		[Token(Token = "0x4000187")]
+		[Token(Token = "0x40001DA")]
 		Neg,
-		[Token(Token = "0x4000188")]
+		[Token(Token = "0x40001DB")]
 		Pow,
-		[Token(Token = "0x4000189")]
+		[Token(Token = "0x40001DC")]
 		Sqrt,
-		[Token(Token = "0x400018A")]
+		[Token(Token = "0x40001DD")]
 		Sin,
-		[Token(Token = "0x400018B")]
+		[Token(Token = "0x40001DE")]
 		Cos,
-		[Token(Token = "0x400018C")]
+		[Token(Token = "0x40001DF")]
 		Tan,
-		[Token(Token = "0x400018D")]
+		[Token(Token = "0x40001E0")]
 		Floor,
-		[Token(Token = "0x400018E")]
+		[Token(Token = "0x40001E1")]
 		Ceil,
-		[Token(Token = "0x400018F")]
+		[Token(Token = "0x40001E2")]
 		Round,
-		[Token(Token = "0x4000190")]
+		[Token(Token = "0x40001E3")]
 		Rand,
-		[Token(Token = "0x4000191")]
+		[Token(Token = "0x40001E4")]
 		Linear
 	}
 
-	[Token(Token = "0x2000093")]
+	[Token(Token = "0x20000B3")]
 	private enum Associativity
 	{
-		[Token(Token = "0x4000193")]
+		[Token(Token = "0x40001E6")]
 		Left,
-		[Token(Token = "0x4000194")]
+		[Token(Token = "0x40001E7")]
 		Right
 	}
 
-	[Token(Token = "0x2000094")]
+	[Token(Token = "0x20000B4")]
 	private class Operator
 	{
-		[Token(Token = "0x4000195")]
+		[Token(Token = "0x40001E8")]
 		[FieldOffset(Offset = "0x10")]
 		public readonly Op op;
 
-		[Token(Token = "0x4000196")]
+		[Token(Token = "0x40001E9")]
 		[FieldOffset(Offset = "0x14")]
 		public readonly int precedence;
 
-		[Token(Token = "0x4000197")]
+		[Token(Token = "0x40001EA")]
 		[FieldOffset(Offset = "0x18")]
 		public readonly Associativity associativity;
 
-		[Token(Token = "0x4000198")]
+		[Token(Token = "0x40001EB")]
 		[FieldOffset(Offset = "0x1C")]
 		public readonly int inputs;
 
-		[Token(Token = "0x6000253")]
-		[Address(RVA = "0x4DBB520", Offset = "0x4DBB520", VA = "0x4DBB520")]
+		[Token(Token = "0x6000362")]
+		[Address(RVA = "0x2ECD960", Offset = "0x2ECBF60", VA = "0x182ECD960")]
 		public Operator(Op op, int precedence, int inputs, Associativity associativity)
 		{
 		}
 	}
 
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x40001CE")]
 	[FieldOffset(Offset = "0x0")]
 	private static PcgRandom s_Random;
 
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x40001CF")]
 	[FieldOffset(Offset = "0x10")]
 	private static Dictionary<string, Operator> s_Operators;
 
-	[Token(Token = "0x600023C")]
+	[Token(Token = "0x6000348")]
 	internal static bool Evaluate<T>(string expression, out T value, out Expression delayed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600023D")]
+	[Token(Token = "0x6000349")]
 	private static bool EvaluateTokens<T>(string[] tokens, ref T value, int index, int count)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600023E")]
-	[Address(RVA = "0x4DB8FA0", Offset = "0x4DB8FA0", VA = "0x4DB8FA0")]
+	[Token(Token = "0x600034A")]
+	[Address(RVA = "0x2EC4D60", Offset = "0x2EC3360", VA = "0x182EC4D60")]
 	private static bool EvaluateDouble(string[] tokens, ref double value, int index, int count)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600023F")]
-	[Address(RVA = "0x4DB9CF0", Offset = "0x4DB9CF0", VA = "0x4DB9CF0")]
+	[Token(Token = "0x600034B")]
+	[Address(RVA = "0x2EC5B50", Offset = "0x2EC4150", VA = "0x182EC5B50")]
 	private static string[] InfixToRPN(string[] tokens)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000240")]
-	[Address(RVA = "0x4DBA4C0", Offset = "0x4DBA4C0", VA = "0x4DBA4C0")]
+	[Token(Token = "0x600034C")]
+	[Address(RVA = "0x2EC6290", Offset = "0x2EC4890", VA = "0x182EC6290")]
 	private static bool NeedToPop(Stack<string> operatorStack, Operator newOperator)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x4DBA660", Offset = "0x4DBA660", VA = "0x4DBA660")]
+	[Token(Token = "0x600034D")]
+	[Address(RVA = "0x2EC55D0", Offset = "0x2EC3BD0", VA = "0x182EC55D0")]
 	private static string[] ExpressionToTokens(string expression, out bool hasVariables)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000242")]
-	[Address(RVA = "0x4DB9770", Offset = "0x4DB9770", VA = "0x4DB9770")]
+	[Token(Token = "0x600034E")]
+	[Address(RVA = "0x2EC60B0", Offset = "0x2EC46B0", VA = "0x182EC60B0")]
 	private static bool IsCommand(string token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000243")]
-	[Address(RVA = "0x4DB9CA0", Offset = "0x4DB9CA0", VA = "0x4DB9CA0")]
+	[Token(Token = "0x600034F")]
+	[Address(RVA = "0x2EC6230", Offset = "0x2EC4830", VA = "0x182EC6230")]
 	private static bool IsVariable(string token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000244")]
-	[Address(RVA = "0x4DBA380", Offset = "0x4DBA380", VA = "0x4DBA380")]
+	[Token(Token = "0x6000350")]
+	[Address(RVA = "0x2EC6140", Offset = "0x2EC4740", VA = "0x182EC6140")]
 	private static bool IsDelayedFunction(string token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000245")]
-	[Address(RVA = "0x4DB9630", Offset = "0x4DB9630", VA = "0x4DB9630")]
+	[Token(Token = "0x6000351")]
+	[Address(RVA = "0x2EC61B0", Offset = "0x2EC47B0", VA = "0x182EC61B0")]
 	private static bool IsOperator(string token)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000246")]
-	[Address(RVA = "0x4DB96D0", Offset = "0x4DB96D0", VA = "0x4DB96D0")]
+	[Token(Token = "0x6000352")]
+	[Address(RVA = "0x2EC6530", Offset = "0x2EC4B30", VA = "0x182EC6530")]
 	private static Operator TokenToOperator(string token)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000247")]
-	[Address(RVA = "0x4DBAB80", Offset = "0x4DBAB80", VA = "0x4DBAB80")]
+	[Token(Token = "0x6000353")]
+	[Address(RVA = "0x2EC6370", Offset = "0x2EC4970", VA = "0x182EC6370")]
 	private static string PreFormatExpression(string expression)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x4DBADC0", Offset = "0x4DBADC0", VA = "0x4DBADC0")]
+	[Token(Token = "0x6000354")]
+	[Address(RVA = "0x2EC59D0", Offset = "0x2EC3FD0", VA = "0x182EC59D0")]
 	private static string[] FixUnaryOperators(string[] tokens)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x4DB9880", Offset = "0x4DB9880", VA = "0x4DB9880")]
+	[Token(Token = "0x6000355")]
+	[Address(RVA = "0x2EC5250", Offset = "0x2EC3850", VA = "0x182EC5250")]
 	private static double EvaluateOp(double[] values, Op op, int index, int count)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x600024A")]
+	[Token(Token = "0x6000356")]
 	private static bool TryParse<T>(string expression, out T result)
 	{
 		return default(bool);

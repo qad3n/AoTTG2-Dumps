@@ -14,38 +14,38 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200017D")]
+[Token(Token = "0x2000180")]
 public static class UnityAwaitableExtensions
 {
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x200017E")]
+	[Token(Token = "0x2000181")]
 	[CompilerGenerated]
 	private struct _003CAsUniTask_003Ed__0 : IAsyncStateMachine
 	{
-		[Token(Token = "0x40005E0")]
+		[Token(Token = "0x40005F3")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x40005E1")]
+		[Token(Token = "0x40005F4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x40005E2")]
+		[Token(Token = "0x40005F5")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public Awaitable awaitable;
 
-		[Token(Token = "0x40005E3")]
+		[Token(Token = "0x40005F6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private Awaitable.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x600091A")]
-		[Address(RVA = "0x4A03690", Offset = "0x4A03690", VA = "0x4A03690", Slot = "4")]
+		[Token(Token = "0x600093E")]
+		[Address(RVA = "0x29450F0", Offset = "0x29436F0", VA = "0x1829450F0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600091B")]
-		[Address(RVA = "0x4A03980", Offset = "0x4A03980", VA = "0x4A03980", Slot = "5")]
+		[Token(Token = "0x600093F")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -53,47 +53,47 @@ public static class UnityAwaitableExtensions
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x200017F")]
+	[Token(Token = "0x2000182")]
 	[CompilerGenerated]
 	private struct _003CAsUniTask_003Ed__1<T> : IAsyncStateMachine
 	{
-		[Token(Token = "0x40005E4")]
+		[Token(Token = "0x40005F7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x40005E5")]
+		[Token(Token = "0x40005F8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public AsyncUniTaskMethodBuilder<T> _003C_003Et__builder;
 
-		[Token(Token = "0x40005E6")]
+		[Token(Token = "0x40005F9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public Awaitable<T> awaitable;
 
-		[Token(Token = "0x40005E7")]
+		[Token(Token = "0x40005FA")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		private Awaitable<T>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x600091C")]
+		[Token(Token = "0x6000940")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x600091D")]
+		[Token(Token = "0x6000941")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x6000918")]
-	[Address(RVA = "0x4A035F0", Offset = "0x4A035F0", VA = "0x4A035F0")]
+	[Token(Token = "0x600093C")]
+	[Address(RVA = "0x294D780", Offset = "0x294BD80", VA = "0x18294D780")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__0))]
 	public static UniTask AsUniTask(this Awaitable awaitable)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000919")]
+	[Token(Token = "0x600093D")]
 	[AsyncStateMachine(typeof(_003CAsUniTask_003Ed__1<>))]
 	public static UniTask<T> AsUniTask<T>(this Awaitable<T> awaitable)
 	{

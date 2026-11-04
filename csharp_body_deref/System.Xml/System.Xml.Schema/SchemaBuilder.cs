@@ -34,7 +34,7 @@ internal abstract class SchemaBuilder
 	internal abstract void EndChildren();
 
 	[Token(Token = "0x60012F9")]
-	[Address(RVA = "0x46C9280", Offset = "0x46C9280", VA = "0x46C9280")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected SchemaBuilder()
 	{
 	}

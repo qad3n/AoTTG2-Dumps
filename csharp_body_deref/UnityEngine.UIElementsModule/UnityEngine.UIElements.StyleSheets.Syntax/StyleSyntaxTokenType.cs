@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x2000551")]
+[Token(Token = "0x2000647")]
 internal enum StyleSyntaxTokenType
 {
-	[Token(Token = "0x4001265")]
+	[Token(Token = "0x4001812")]
 	Unknown,
-	[Token(Token = "0x4001266")]
+	[Token(Token = "0x4001813")]
 	String,
-	[Token(Token = "0x4001267")]
+	[Token(Token = "0x4001814")]
 	Number,
-	[Token(Token = "0x4001268")]
+	[Token(Token = "0x4001815")]
 	Space,
-	[Token(Token = "0x4001269")]
+	[Token(Token = "0x4001816")]
 	SingleBar,
-	[Token(Token = "0x400126A")]
+	[Token(Token = "0x4001817")]
 	DoubleBar,
-	[Token(Token = "0x400126B")]
+	[Token(Token = "0x4001818")]
 	DoubleAmpersand,
-	[Token(Token = "0x400126C")]
+	[Token(Token = "0x4001819")]
 	Comma,
-	[Token(Token = "0x400126D")]
+	[Token(Token = "0x400181A")]
 	SingleQuote,
-	[Token(Token = "0x400126E")]
+	[Token(Token = "0x400181B")]
 	Asterisk,
-	[Token(Token = "0x400126F")]
+	[Token(Token = "0x400181C")]
 	Plus,
-	[Token(Token = "0x4001270")]
+	[Token(Token = "0x400181D")]
 	QuestionMark,
-	[Token(Token = "0x4001271")]
+	[Token(Token = "0x400181E")]
 	HashMark,
-	[Token(Token = "0x4001272")]
+	[Token(Token = "0x400181F")]
 	ExclamationPoint,
-	[Token(Token = "0x4001273")]
+	[Token(Token = "0x4001820")]
 	OpenBracket,
-	[Token(Token = "0x4001274")]
+	[Token(Token = "0x4001821")]
 	CloseBracket,
-	[Token(Token = "0x4001275")]
+	[Token(Token = "0x4001822")]
 	OpenBrace,
-	[Token(Token = "0x4001276")]
+	[Token(Token = "0x4001823")]
 	CloseBrace,
-	[Token(Token = "0x4001277")]
+	[Token(Token = "0x4001824")]
 	LessThan,
-	[Token(Token = "0x4001278")]
+	[Token(Token = "0x4001825")]
 	GreaterThan,
-	[Token(Token = "0x4001279")]
+	[Token(Token = "0x4001826")]
 	End
 }

@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x200035F")]
+[Token(Token = "0x200038E")]
 [ComVisible(true)]
 public interface ILease
 {
-	[Token(Token = "0x17000358")]
+	[Token(Token = "0x1700035A")]
 	TimeSpan CurrentLeaseTime
 	{
-		[Token(Token = "0x6001D13")]
+		[Token(Token = "0x6001D82")]
 		get;
 	}
 
-	[Token(Token = "0x17000359")]
+	[Token(Token = "0x1700035B")]
 	LeaseState CurrentState
 	{
-		[Token(Token = "0x6001D14")]
+		[Token(Token = "0x6001D83")]
 		get;
 	}
 
-	[Token(Token = "0x1700035A")]
+	[Token(Token = "0x1700035C")]
 	TimeSpan RenewOnCallTime
 	{
-		[Token(Token = "0x6001D15")]
+		[Token(Token = "0x6001D84")]
 		get;
 	}
 
-	[Token(Token = "0x6001D16")]
+	[Token(Token = "0x6001D85")]
 	TimeSpan Renew(TimeSpan renewalTime);
 }

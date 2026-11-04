@@ -35,69 +35,69 @@ public class X509Chain
 	[Token(Token = "0x1700003D")]
 	public X509CertificateCollection TrustAnchors
 	{
-		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x3AB36E0", Offset = "0x3AB36E0", VA = "0x3AB36E0")]
+		[Token(Token = "0x60000BC")]
+		[Address(RVA = "0x1927750", Offset = "0x1925D50", VA = "0x181927750")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000AF")]
-	[Address(RVA = "0x3AB3670", Offset = "0x3AB3670", VA = "0x3AB3670")]
+	[Token(Token = "0x60000BB")]
+	[Address(RVA = "0x19276E0", Offset = "0x1925CE0", VA = "0x1819276E0")]
 	public X509Chain()
 	{
 	}
 
-	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x3AB3870", Offset = "0x3AB3870", VA = "0x3AB3870")]
+	[Token(Token = "0x60000BD")]
+	[Address(RVA = "0x1927670", Offset = "0x1925C70", VA = "0x181927670")]
 	public void LoadCertificates(X509CertificateCollection collection)
 	{
 	}
 
-	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x3AB3890", Offset = "0x3AB3890", VA = "0x3AB3890")]
+	[Token(Token = "0x60000BE")]
+	[Address(RVA = "0x1926B60", Offset = "0x1925160", VA = "0x181926B60")]
 	public bool Build(X509Certificate leaf)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x3AB4880", Offset = "0x3AB4880", VA = "0x3AB4880")]
+	[Token(Token = "0x60000BF")]
+	[Address(RVA = "0x1927690", Offset = "0x1925C90", VA = "0x181927690")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x3AB4780", Offset = "0x3AB4780", VA = "0x3AB4780")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x19274E0", Offset = "0x1925AE0", VA = "0x1819274E0")]
 	private bool IsValid(X509Certificate cert)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x3AB3F50", Offset = "0x3AB3F50", VA = "0x3AB3F50")]
+	[Token(Token = "0x60000C1")]
+	[Address(RVA = "0x1926F40", Offset = "0x1925540", VA = "0x181926F40")]
 	private X509Certificate FindCertificateParent(X509Certificate child)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x3AB4240", Offset = "0x3AB4240", VA = "0x3AB4240")]
+	[Token(Token = "0x60000C2")]
+	[Address(RVA = "0x1927120", Offset = "0x1925720", VA = "0x181927120")]
 	private X509Certificate FindCertificateRoot(X509Certificate potentialRoot)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x3AB48D0", Offset = "0x3AB48D0", VA = "0x3AB48D0")]
+	[Token(Token = "0x60000C3")]
+	[Address(RVA = "0x19274A0", Offset = "0x1925AA0", VA = "0x1819274A0")]
 	private bool IsTrusted(X509Certificate potentialTrusted)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x3AB45A0", Offset = "0x3AB45A0", VA = "0x3AB45A0")]
+	[Token(Token = "0x60000C4")]
+	[Address(RVA = "0x1927320", Offset = "0x1925920", VA = "0x181927320")]
 	private bool IsParent(X509Certificate child, X509Certificate parent)
 	{
 		return default(bool);

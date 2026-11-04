@@ -12,30 +12,30 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting;
 
 [Serializable]
-[Token(Token = "0x200034A")]
+[Token(Token = "0x2000379")]
 [ComVisible(true)]
 public class RemotingException : SystemException
 {
-	[Token(Token = "0x6001C79")]
-	[Address(RVA = "0x3B6A580", Offset = "0x3B6A580", VA = "0x3B6A580")]
+	[Token(Token = "0x6001CE8")]
+	[Address(RVA = "0x19A1CF0", Offset = "0x19A02F0", VA = "0x1819A1CF0")]
 	public RemotingException()
 	{
 	}
 
-	[Token(Token = "0x6001C7A")]
-	[Address(RVA = "0x3B5F680", Offset = "0x3B5F680", VA = "0x3B5F680")]
+	[Token(Token = "0x6001CE9")]
+	[Address(RVA = "0x19E0120", Offset = "0x19DE720", VA = "0x1819E0120")]
 	public RemotingException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001C7B")]
-	[Address(RVA = "0x3B6A590", Offset = "0x3B6A590", VA = "0x3B6A590")]
+	[Token(Token = "0x6001CEA")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected RemotingException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001C7C")]
-	[Address(RVA = "0x3B67450", Offset = "0x3B67450", VA = "0x3B67450")]
+	[Token(Token = "0x6001CEB")]
+	[Address(RVA = "0x19E0110", Offset = "0x19DE710", VA = "0x1819E0110")]
 	public RemotingException(string message, Exception InnerException)
 	{
 	}

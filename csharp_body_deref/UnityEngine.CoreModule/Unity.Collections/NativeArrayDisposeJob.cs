@@ -12,22 +12,22 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x200005E")]
 [UnityEngine.NativeClass(null)]
 internal struct NativeArrayDisposeJob : IJob
 {
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x400010F")]
 	[FieldOffset(Offset = "0x0")]
 	internal NativeArrayDispose Data;
 
-	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x4DAD690", Offset = "0x4DAD690", VA = "0x4DAD690", Slot = "4")]
+	[Token(Token = "0x600012F")]
+	[Address(RVA = "0x2ECD8E0", Offset = "0x2ECBEE0", VA = "0x182ECD8E0", Slot = "4")]
 	public void Execute()
 	{
 	}
 
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x4DAD6D0", Offset = "0x4DAD6D0", VA = "0x4DAD6D0")]
+	[Token(Token = "0x6000130")]
+	[Address(RVA = "0x2ECD930", Offset = "0x2ECBF30", VA = "0x182ECD930")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static void RegisterNativeArrayDisposeJobReflectionData()
 	{

@@ -10,53 +10,53 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000686")]
+[Token(Token = "0x20007E1")]
 internal class EditProfileEmotePanel : CategoryPanel
 {
-	[Token(Token = "0x17000C86")]
+	[Token(Token = "0x17000DCC")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x600415C")]
-		[Address(RVA = "0x42FB330", Offset = "0x42FB330", VA = "0x42FB330", Slot = "15")]
+		[Token(Token = "0x6004C51")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C87")]
+	[Token(Token = "0x17000DCD")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x600415D")]
-		[Address(RVA = "0x42FB340", Offset = "0x42FB340", VA = "0x42FB340", Slot = "11")]
+		[Token(Token = "0x6004C52")]
+		[Address(RVA = "0x2168BC0", Offset = "0x21671C0", VA = "0x182168BC0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x600415E")]
-	[Address(RVA = "0x42FB350", Offset = "0x42FB350", VA = "0x42FB350", Slot = "20")]
+	[Token(Token = "0x6004C53")]
+	[Address(RVA = "0x2279760", Offset = "0x2277D60", VA = "0x182279760", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600415F")]
-	[Address(RVA = "0x42FB690", Offset = "0x42FB690", VA = "0x42FB690")]
+	[Token(Token = "0x6004C54")]
+	[Address(RVA = "0x22791A0", Offset = "0x22777A0", VA = "0x1822791A0")]
 	private string[] GetAvailableEmotes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004160")]
-	[Address(RVA = "0x42FBB50", Offset = "0x42FBB50", VA = "0x42FBB50")]
+	[Token(Token = "0x6004C55")]
+	[Address(RVA = "0x22794F0", Offset = "0x2277AF0", VA = "0x1822794F0")]
 	private string[] GetEmotePaths(string[] options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004161")]
-	[Address(RVA = "0x42FBE30", Offset = "0x42FBE30", VA = "0x42FBE30")]
+	[Token(Token = "0x6004C56")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public EditProfileEmotePanel()
 	{
 	}

@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000048")]
+[Token(Token = "0x2000055")]
 [Flags]
 public enum DataViewRowState
 {
-	[Token(Token = "0x400015F")]
+	[Token(Token = "0x40001A7")]
 	None = 0,
-	[Token(Token = "0x4000160")]
+	[Token(Token = "0x40001A8")]
 	Unchanged = 2,
-	[Token(Token = "0x4000161")]
+	[Token(Token = "0x40001A9")]
 	Added = 4,
-	[Token(Token = "0x4000162")]
+	[Token(Token = "0x40001AA")]
 	Deleted = 8,
-	[Token(Token = "0x4000163")]
+	[Token(Token = "0x40001AB")]
 	ModifiedCurrent = 0x10,
-	[Token(Token = "0x4000164")]
+	[Token(Token = "0x40001AC")]
 	ModifiedOriginal = 0x20,
-	[Token(Token = "0x4000165")]
-	OriginalRows = 0x2A,
-	[Token(Token = "0x4000166")]
-	CurrentRows = 0x16
+	[Token(Token = "0x40001AD")]
+	OriginalRows = Unchanged | Deleted | ModifiedOriginal,
+	[Token(Token = "0x40001AE")]
+	CurrentRows = Unchanged | Added | ModifiedCurrent
 }

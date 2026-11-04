@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200046C")]
+[Token(Token = "0x2000546")]
 [AttributeUsage(AttributeTargets.Class)]
 internal class EventCategoryAttribute : Attribute
 {
-	[Token(Token = "0x4000D50")]
+	[Token(Token = "0x40011ED")]
 	[FieldOffset(Offset = "0x10")]
 	internal EventCategory category;
 
-	[Token(Token = "0x6001B8F")]
-	[Address(RVA = "0x4F75FC0", Offset = "0x4F75FC0", VA = "0x4F75FC0")]
+	[Token(Token = "0x60027F2")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public EventCategoryAttribute(EventCategory category)
 	{
 	}

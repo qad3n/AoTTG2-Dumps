@@ -1,5 +1,5 @@
 // Type: Characters.Spin3Special
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/Spin3Special.cs
@@ -8,9 +8,10 @@
 
 // Characters.Spin3Special$$get_ActiveTime
 // il2cpp: float Characters_Spin3Special__get_ActiveTime (Characters_Spin3Special_o* __this, const MethodInfo* method);
-// 0x42f87a0
+// 0x1820cf430
 
-float Characters_Spin3Special__get_ActiveTime(Characters_Spin3Special_o *__this,MethodInfo *method)
+float
+Characters_Spin3Special__get_ActiveTime(Characters_Spin3Special_o* __this, MethodInfo* method)
 
 {
   return 1.0;
@@ -19,7 +20,7 @@ float Characters_Spin3Special__get_ActiveTime(Characters_Spin3Special_o *__this,
 
 // Characters.Spin3Special$$.ctor
 // il2cpp: void Characters_Spin3Special___ctor (Characters_Spin3Special_o* __this, Characters_BaseCharacter_o* owner, const MethodInfo* method);
-// 0x42e41e0
+// 0x1821773a0
 
 void Characters_Spin3Special___ctor
                (Characters_Spin3Special_o *__this,Characters_BaseCharacter_o *owner,MethodInfo *method)
@@ -28,8 +29,8 @@ void Characters_Spin3Special___ctor
   (__this->fields).AnimationLoopStartTime = 0.35;
   (__this->fields).AnimationLoopEndTime = 0.5;
   (__this->fields).Loops = 3;
-  (__this->fields)._startSpin = 0x41500000;
-  Characters_BaseAttackSpecial___ctor((Characters_BaseAttackSpecial_o *)__this,owner,method);
+  (__this->fields).PullForce = 13.0;
+  Characters_BaseAttackSpecial___ctor((Characters_BaseAttackSpecial_o *)__this,owner,(MethodInfo *)0x0);
   (__this->fields).Cooldown = 3.5;
   return;
 }
@@ -37,740 +38,371 @@ void Characters_Spin3Special___ctor
 
 // Characters.Spin3Special$$Activate
 // il2cpp: void Characters_Spin3Special__Activate (Characters_Spin3Special_o* __this, const MethodInfo* method);
-// 0x42f87b0
+// 0x182176bb0
 
 void Characters_Spin3Special__Activate(Characters_Spin3Special_o *__this,MethodInfo *method)
 
 {
-  System_String_o **ppSVar1;
-  float *pfVar2;
-  undefined1 *puVar3;
-  char cVar4;
-  Characters_HookUseable_o *__this_00;
-  Characters_Horse_o *pCVar5;
-  Characters_BaseUseable_o *pCVar6;
-  System_String_o *pSVar7;
-  Characters_AnimationHandler_o *pCVar8;
-  UnityEngine_Transform_o *pUVar9;
-  void *pvVar10;
-  System_String_Fields SVar11;
-  UnityEngine_Rigidbody_o *pUVar12;
-  code *pcVar13;
-  undefined1 auVar14 [16];
-  bool_conflict bVar15;
-  int iVar16;
-  int32_t iVar17;
-  Characters_Human_o *pCVar18;
-  long lVar19;
-  Characters_Human_o *__this_01;
-  Characters_Human_o *pCVar20;
-  Characters_Human_o **__this_02;
-  float fVar21;
-  float fVar22;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dc_00;
-  undefined4 uVar23;
-  undefined4 extraout_XMM0_Dc_01;
-  float extraout_XMM0_Dd;
-  float extraout_XMM0_Dd_00;
-  undefined4 uVar24;
-  undefined4 extraout_XMM0_Dd_01;
-  undefined1 auVar26 [16];
-  UnityEngine_Vector3_o UVar27;
-  UnityEngine_Vector3_o force;
-  UnityEngine_Vector3_o UVar28;
-  float local_60;
-  float fStack_5c;
-  undefined8 uVar25;
+  float fVar1;
+  Characters_Human_o *pCVar2;
+  Characters_HookUseable_o *pCVar3;
+  Characters_HumanStats_o *pCVar4;
+  float fVar5;
+  UnityEngine_Vector3_o *pUVar6;
+  UnityEngine_Vector3_o local_18;
   
-  pCVar20 = (__this->fields)._human;
-  __this_01 = (Characters_Human_o *)0x0;
-  if (pCVar20 != (Characters_Human_o *)0x0) {
-    if (*(int *)&(pCVar20->fields).Weapon == 0) {
-      (__this->fields)._stage = 0;
-      __this_01 = (Characters_Human_o *)(pCVar20->fields).HumanCache;
+  pCVar2 = (__this->fields)._human;
+  if (pCVar2 != (Characters_Human_o *)0x0) {
+    if ((pCVar2->fields).MountState != 0) {
+      Characters_Human__Unmount(pCVar2,true,(MethodInfo *)0x0);
     }
-    else {
-      Characters_Human__Unmount(pCVar20,1,(MethodInfo *)0x0);
-      pCVar20 = (__this->fields)._human;
-      (__this->fields)._stage = 0;
-      __this_01 = (Characters_Human_o *)0x0;
-      if (pCVar20 == (Characters_Human_o *)0x0) goto label_042f88a6;
-      __this_01 = (Characters_Human_o *)(pCVar20->fields).HumanCache;
-    }
-    if (__this_01 != (Characters_Human_o *)0x0) {
-      Characters_HookUseable__DisableAnyHook((Characters_HookUseable_o *)__this_01,(MethodInfo *)0x0);
-      pCVar20 = (__this->fields)._human;
-      if (pCVar20 != (Characters_Human_o *)0x0) {
-        __this_00 = (Characters_HookUseable_o *)(pCVar20->fields).Special;
-        __this_01 = (Characters_Human_o *)0x0;
-        if (__this_00 != (Characters_HookUseable_o *)0x0) {
-          Characters_HookUseable__DisableAnyHook(__this_00,(MethodInfo *)0x0);
-          __this_01 = (__this->fields)._human;
-          if ((__this_01 != (Characters_Human_o *)0x0) &&
-             (pCVar5 = (__this_01->fields).Horse, pCVar5 != (Characters_Horse_o *)0x0)) {
-            fVar21 = 0.0;
-            pCVar20 = __this_01;
-            if ((float)(pCVar5->fields).FootstepsEnabled <= 0.0) {
-label_042f8885:
-              uVar25 = (*(pCVar20->klass->vtable)._66_GetAimPoint.methodPtr)
-                                 (pCVar20,(pCVar20->klass->vtable)._66_GetAimPoint.method);
-              (__this->fields)._aimPoint.fields.x = (float)(int)uVar25;
-              (__this->fields)._aimPoint.fields.y = (float)(int)((ulong)uVar25 >> 0x20);
-              (__this->fields)._aimPoint.fields.z = fVar21;
-              *(undefined2 *)&(__this->fields)._pulled = 0;
-              return;
-            }
-            pCVar6 = (__this_01->fields).Special;
-            __this_01 = (Characters_Human_o *)0x0;
-            if (pCVar6 != (Characters_BaseUseable_o *)0x0) {
-              (*(pCVar6->klass->vtable)._12_SetInput.methodPtr)
-                        (pCVar6,1,(pCVar6->klass->vtable)._12_SetInput.method);
-              pCVar20 = (__this->fields)._human;
-              __this_01 = (Characters_Human_o *)0x0;
-              if (pCVar20 != (Characters_Human_o *)0x0) goto label_042f8885;
-            }
+    pCVar2 = (__this->fields)._human;
+    (__this->fields)._stage = 0;
+    if ((pCVar2 != (Characters_Human_o *)0x0) &&
+       (pCVar3 = (pCVar2->fields).HookLeft, pCVar3 != (Characters_HookUseable_o *)0x0)) {
+      Characters_HookUseable__DisableAnyHook(pCVar3,(MethodInfo *)0x0);
+      pCVar2 = (__this->fields)._human;
+      if ((pCVar2 != (Characters_Human_o *)0x0) &&
+         (pCVar3 = (pCVar2->fields).HookRight, pCVar3 != (Characters_HookUseable_o *)0x0)) {
+        Characters_HookUseable__DisableAnyHook(pCVar3,(MethodInfo *)0x0);
+        pCVar2 = (__this->fields)._human;
+        if ((pCVar2 != (Characters_Human_o *)0x0) &&
+           (pCVar4 = (pCVar2->fields).Stats, pCVar4 != (Characters_HumanStats_o *)0x0)) {
+          if (0.0 < (pCVar4->fields).CurrentGas) {
+            pCVar3 = (((__this->fields)._human)->fields).HookRight;
+            if (pCVar3 == (Characters_HookUseable_o *)0x0) goto label_182176ca8;
+            (*(pCVar3->klass->vtable)._12_SetInput.methodPtr)
+                      (pCVar3,true,(pCVar3->klass->vtable)._12_SetInput.method);
+          }
+          pCVar2 = (__this->fields)._human;
+          if (pCVar2 != (Characters_Human_o *)0x0) {
+            pUVar6 = (*(pCVar2->klass->vtable)._76_GetAimPoint.methodPtr)
+                               (&local_18,pCVar2,(pCVar2->klass->vtable)._76_GetAimPoint.method);
+            fVar5 = (pUVar6->fields).y;
+            fVar1 = (pUVar6->fields).z;
+            (__this->fields)._aimPoint.fields.x = (pUVar6->fields).x;
+            (__this->fields)._aimPoint.fields.y = fVar5;
+            (__this->fields)._aimPoint.fields.z = fVar1;
+            (__this->fields)._pulled = false;
+            (__this->fields)._startSpin = false;
+            return;
           }
         }
       }
     }
   }
-label_042f88a6:
-  il2cpp_runtime_helper_022b2c90();
-  pCVar20 = __this_01;
-  if (g_data_057adeef == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSounds);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    pCVar20 = (Characters_Human_o *)&MethodInfo_Boolean_get_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adeef = '\x01';
-  }
-  if (*(char *)((long)&(__this_01->fields).FeedKillerName + 5) == '\0') {
-    if (1.0 < (__this_01->fields)._disableKinematicTimeLeft) {
-      return;
-    }
-    pCVar18 = (Characters_Human_o *)(__this_01->fields).RichTextName;
-    pCVar20 = TypeInfo_HumanAnimations;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (pCVar18 != (Characters_Human_o *)0x0) {
-      Characters_Human__StartSpecialAttack
-                (pCVar18,*(System_String_o **)
-                          &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                 (MethodInfo *)0x0);
-      pSVar7 = (__this_01->fields).RichTextName;
-      pCVar20 = pCVar18;
-      if (((pSVar7 != (System_String_o *)0x0) &&
-          (SVar11 = pSVar7[4].fields, SVar11 != (System_String_Fields)0x0)) &&
-         (pUVar12 = *(UnityEngine_Rigidbody_o **)((long)SVar11 + 0x18),
-         pUVar12 != (UnityEngine_Rigidbody_o *)0x0)) {
-        UVar27 = UnityEngine_Rigidbody__get_velocity(pUVar12,(MethodInfo *)0x0);
-        if (g_data_057a6844 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a6844 = '\x01';
-        }
-        uVar25 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-        UVar28.fields.x = UVar27.fields.x + (float)uVar25 * 5.0;
-        UVar28.fields.y = UVar27.fields.y + (float)((ulong)uVar25 >> 0x20) * 5.0;
-        UVar28.fields.z = UVar27.fields.z + *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20) * 5.0;
-        UnityEngine_Rigidbody__set_velocity(pUVar12,UVar28,(MethodInfo *)0x0);
-        *(undefined1 *)((long)&(__this_01->fields).FeedKillerName + 5) = 1;
-        return;
-      }
-    }
-    goto label_042f8eea;
-  }
-  pSVar7 = (__this_01->fields).RichTextName;
-  if (pSVar7 == (System_String_o *)0x0) goto label_042f8eea;
-  if (*(int *)&pSVar7[0xe].monitor != 9) {
-    *(undefined1 *)((long)&(__this_01->fields).m_CancellationTokenSource + 4) = 0;
-  }
-  __this_02 = pSVar7[7].monitor;
-  pCVar20 = TypeInfo_HumanAnimations;
-  if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if ((Characters_Human_o *)__this_02 == (Characters_Human_o *)0x0) goto label_042f8eea;
-  bVar15 = Characters_AnimationHandler__IsPlaying
-                     ((Characters_AnimationHandler_o *)__this_02,
-                      *(System_String_o **)
-                       &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                      (MethodInfo *)0x0);
-  if ((char)bVar15 != '\0') {
-    if (g_data_057adef0 == '\0') {
-      __this_02 = &TypeInfo_HumanAnimations;
-      il2cpp_runtime_helper_023445d0();
-      g_data_057adef0 = '\x01';
-    }
-    pSVar7 = (__this_01->fields).RichTextName;
-    pCVar20 = (Characters_Human_o *)__this_02;
-    if (pSVar7 == (System_String_o *)0x0) goto label_042f8eea;
-    pCVar8 = pSVar7[7].monitor;
-    pCVar20 = TypeInfo_HumanAnimations;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (pCVar8 == (Characters_AnimationHandler_o *)0x0) goto label_042f8eea;
-    fVar21 = Characters_AnimationHandler__GetNormalizedTime
-                       (pCVar8,*(System_String_o **)
-                                &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                        (MethodInfo *)0x0);
-    pCVar20 = (Characters_Human_o *)(__this_01->fields).RichTextName;
-    if (pCVar20 == (Characters_Human_o *)0x0) goto label_042f8eea;
-    __this_02 = (Characters_Human_o **)pCVar20;
-    if (((fVar21 < 0.61) && (0.4 < fVar21)) && (*(char *)((long)&(pCVar20->fields).Animation + 4) != '\0')) {
-      pUVar9 = *(UnityEngine_Transform_o **)&(pCVar20->fields).Dead;
-      if (pUVar9 == (UnityEngine_Transform_o *)0x0) goto label_042f8eea;
-      __this_02 = (Characters_Human_o **)pUVar9[1].klass;
-      pCVar18 = (Characters_Human_o *)
-                UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar20,(MethodInfo *)0x0);
-      if (pCVar18 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      UVar27 = UnityEngine_Transform__get_forward((UnityEngine_Transform_o *)pCVar18,(MethodInfo *)0x0);
-      pCVar20 = pCVar18;
-      if ((Characters_Human_o *)__this_02 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      force.fields.x = UVar27.fields.x * 200.0;
-      force.fields.y = UVar27.fields.y * 200.0;
-      force.fields.z = UVar27.fields.z * 200.0;
-      UnityEngine_Rigidbody__AddForce_4e7f8d0((UnityEngine_Rigidbody_o *)__this_02,force,(MethodInfo *)0x0);
-    }
-    iVar16 = *(int *)&(__this_01->fields).field_0x44;
-    if ((iVar16 != 0) ||
-       (ppSVar1 = &(__this_01->fields).VisibleName, fVar21 < *(float *)ppSVar1 || fVar21 == *(float *)ppSVar1)
-       ) {
-      if ((iVar16 < (__this_01->fields).HasExplicitNameTag) &&
-         (pfVar2 = (float *)((long)&(__this_01->fields).VisibleName + 4),
-         *pfVar2 <= fVar21 && fVar21 != *pfVar2)) {
-        pCVar18 = (Characters_Human_o *)(__this_01->fields).RichTextName;
-        pCVar20 = TypeInfo_HumanAnimations;
-        if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (pCVar18 == (Characters_Human_o *)0x0) goto label_042f8eea;
-        Characters_BaseCharacter__PlayAnimation
-                  ((Characters_BaseCharacter_o *)pCVar18,
-                   *(System_String_o **)
-                    &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                   *(float *)&(__this_01->fields).VisibleName,(MethodInfo *)0x0);
-        goto label_042f8bd5;
-      }
-    }
-    else {
-      pCVar18 = (Characters_Human_o *)(__this_01->fields).RichTextName;
-      pCVar20 = pCVar18;
-      if (pCVar18 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      Characters_Human__ActivateBlades(pCVar18,(MethodInfo *)0x0);
-label_042f8bd5:
-      lVar19 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-      pCVar20 = pCVar18;
-      if ((lVar19 == 0) || (lVar19 = *(long *)(lVar19 + 0x88), lVar19 == 0)) goto label_042f8eea;
-      cVar4 = *(char *)(lVar19 + 0x11);
-      __this_02 = (Characters_Human_o **)(__this_01->fields).RichTextName;
-      if ((TypeInfo_HumanSounds->fields)._stepPhase == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (cVar4 == '\0') {
-        lVar19 = 0x58;
-      }
-      else {
-        lVar19 = 0x68;
-      }
-      pCVar20 = TypeInfo_HumanSounds;
-      if ((Characters_Human_o *)__this_02 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      Characters_BaseCharacter__PlaySound
-                ((Characters_BaseCharacter_o *)__this_02,
-                 *(System_String_o **)((long)&((TypeInfo_HumanSounds->fields).MovementSync)->klass + lVar19),
-                 (MethodInfo *)0x0);
-      iVar16 = *(int *)&(__this_01->fields).field_0x44 + 1;
-      *(int *)&(__this_01->fields).field_0x44 = iVar16;
-    }
-    if (iVar16 == 3) {
-      pSVar7 = (__this_01->fields).RichTextName;
-      pCVar20 = (Characters_Human_o *)__this_02;
-      if ((pSVar7 == (System_String_o *)0x0) ||
-         (pCVar20 = pSVar7[0xb].monitor, pCVar20 == (Characters_Human_o *)0x0)) goto label_042f8eea;
-      pvVar10 = ((Il2CppClass_1 *)&pCVar20->klass)->image;
-      (**(code **)((long)pvVar10 + 0x1f8))(pCVar20,0,*(undefined8 *)((long)pvVar10 + 0x200));
-      pSVar7 = (__this_01->fields).RichTextName;
-      if ((pSVar7 == (System_String_o *)0x0) ||
-         (pCVar20 = (Characters_Human_o *)pSVar7[0xb].klass, pCVar20 == (Characters_Human_o *)0x0))
-      goto label_042f8eea;
-      Characters_HookUseable__DisableAnyHook((Characters_HookUseable_o *)pCVar20,(MethodInfo *)0x0);
-      pSVar7 = (__this_01->fields).RichTextName;
-      if ((pSVar7 == (System_String_o *)0x0) ||
-         (__this_02 = pSVar7[0xb].monitor, pCVar20 = (Characters_Human_o *)__this_02,
-         (Characters_Human_o *)__this_02 == (Characters_Human_o *)0x0)) goto label_042f8eea;
-      Characters_HookUseable__DisableAnyHook((Characters_HookUseable_o *)__this_02,(MethodInfo *)0x0);
-      puVar3 = &(__this_01->fields).field_0x44;
-      *(int *)puVar3 = *(int *)puVar3 + 1;
-    }
-  }
-  pSVar7 = (__this_01->fields).RichTextName;
-  pCVar20 = (Characters_Human_o *)__this_02;
-  if ((pSVar7 != (System_String_o *)0x0) &&
-     (pCVar20 = pSVar7[0xb].monitor, pCVar20 != (Characters_Human_o *)0x0)) {
-    bVar15 = Characters_HookUseable__HasHook((Characters_HookUseable_o *)pCVar20,(MethodInfo *)0x0);
-    if ((char)bVar15 == '\0') {
-      return;
-    }
-    pSVar7 = (__this_01->fields).RichTextName;
-    if ((pSVar7 != (System_String_o *)0x0) &&
-       (pCVar20 = pSVar7[0xb].monitor, pCVar20 != (Characters_Human_o *)0x0)) {
-      iVar17 = Characters_HookUseable__GetHookState((Characters_HookUseable_o *)pCVar20,(MethodInfo *)0x0);
-      if ((iVar17 != 4) && (iVar17 != 2)) {
-        return;
-      }
-      if (*(char *)((long)&(__this_01->fields).FeedKillerName + 4) != '\0') {
-        return;
-      }
-      *(undefined1 *)((long)&(__this_01->fields).FeedKillerName + 4) = 1;
-      pSVar7 = (__this_01->fields).RichTextName;
-      if ((pSVar7 != (System_String_o *)0x0) &&
-         (pCVar20 = pSVar7[0xb].monitor, pCVar20 != (Characters_Human_o *)0x0)) {
-        UVar27 = Characters_HookUseable__GetHookPosition
-                           ((Characters_HookUseable_o *)pCVar20,(MethodInfo *)0x0);
-        pSVar7 = (__this_01->fields).RichTextName;
-        if ((pSVar7 != (System_String_o *)0x0) &&
-           ((SVar11 = pSVar7[4].fields, SVar11 != (System_String_Fields)0x0 &&
-            (pUVar12 = *(UnityEngine_Rigidbody_o **)((long)SVar11 + 0x18),
-            pUVar12 != (UnityEngine_Rigidbody_o *)0x0)))) {
-          UVar28 = UnityEngine_Rigidbody__get_position(pUVar12,(MethodInfo *)0x0);
-          if (g_data_057a6845 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-            g_data_057a6845 = '\x01';
-          }
-          local_60 = UVar27.fields.x;
-          fStack_5c = UVar27.fields.y;
-          auVar26._0_4_ = local_60 - UVar28.fields.x;
-          auVar26._4_4_ = fStack_5c - UVar28.fields.y;
-          auVar26._8_4_ = extraout_XMM0_Dc - extraout_XMM0_Dc_00;
-          auVar26._12_4_ = extraout_XMM0_Dd - extraout_XMM0_Dd_00;
-          fVar21 = UVar27.fields.z - UVar28.fields.z;
-          if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          uVar23 = 0;
-          uVar24 = 0;
-          fVar22 = fVar21 * fVar21 + auVar26._4_4_ * auVar26._4_4_ + auVar26._0_4_ * auVar26._0_4_;
-          if (fVar22 < 0.0) {
-            fVar22 = sqrtf(fVar22);
-            uVar23 = extraout_XMM0_Dc_01;
-            uVar24 = extraout_XMM0_Dd_01;
-          }
-          else {
-            fVar22 = SQRT(fVar22);
-          }
-          if (1e-05 < fVar22) {
-            fVar21 = fVar21 / fVar22;
-            auVar14._4_4_ = fVar22;
-            auVar14._0_4_ = fVar22;
-            auVar14._8_4_ = uVar23;
-            auVar14._12_4_ = uVar24;
-            auVar26 = divps(auVar26,auVar14);
-            uVar25 = auVar26._0_8_;
-          }
-          else {
-            if (g_data_057a65d5 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-              g_data_057a65d5 = '\x01';
-            }
-            uVar25 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-            fVar21 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-          }
-          fVar22 = *(float *)&(__this_01->fields).FeedVictimName;
-          UVar27.fields.z = fVar21 * fVar22;
-          UVar27.fields.x = fVar22 * (float)uVar25;
-          UVar27.fields.y = fVar22 * (float)((ulong)uVar25 >> 0x20);
-          UnityEngine_Rigidbody__AddForce(pUVar12,UVar27,1,(MethodInfo *)0x0);
-          return;
-        }
-      }
-    }
-  }
-label_042f8eea:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adef0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    g_data_057adef0 = '\x01';
-  }
-  pSVar7 = (pCVar20->fields).RichTextName;
-  if (pSVar7 != (System_String_o *)0x0) {
-    pCVar8 = pSVar7[7].monitor;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (pCVar8 != (Characters_AnimationHandler_o *)0x0) {
-      Characters_AnimationHandler__GetNormalizedTime
-                (pCVar8,*(System_String_o **)
-                         &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                 (MethodInfo *)0x0);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pcVar13 = (code *)swi(3);
-  (*pcVar13)();
-  return;
+label_182176ca8:
+  ThrowNullReferenceException();
 }
 
 
 // Characters.Spin3Special$$ActiveFixedUpdate
 // il2cpp: void Characters_Spin3Special__ActiveFixedUpdate (Characters_Spin3Special_o* __this, const MethodInfo* method);
-// 0x42f88b0
+// 0x182176cb0
+// asm: 16 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821772c1: mov rax, qword ptr [rip + 0x1f1b1e0]  ; TypeInfo_UnityEngine_Vector3
+// asm:   0x1821772c8: xor r8d, r8d
+// asm:   0x1821772cb: mov rcx, rdi
+// asm:   0x1821772ce: mov rdx, qword ptr [rax + 0xb8]
+// asm:   0x1821772d5: movsd xmm1, qword ptr [rdx + 0x18]
+// asm:   0x1821772da: movss xmm0, dword ptr [rdx + 0x20]
+// asm:   0x1821772df: lea rdx, [rsp + 0x20]
+// asm:   0x1821772e4: mulps xmm1, xmmword ptr [rip + 0x12c8f25]
+// asm:   0x1821772eb: mulss xmm0, dword ptr [rip + 0x11e19f1]
+// asm:   0x1821772f3: addps xmm1, xmm6
+// asm:   0x1821772f6: addss xmm0, xmm7
+// asm:   0x1821772fa: movsd qword ptr [rsp + 0x20], xmm1
+// asm:   0x182177300: movss dword ptr [rsp + 0x28], xmm0
+// asm:   0x182177306: call 0x182fe8a10  ; UnityEngine_Rigidbody__set_linearVelocity()
+// asm:   0x18217730b: mov byte ptr [rbx + 0x65], 1
+// asm:   0x18217730f: jmp 0x1821771fa
 
 void Characters_Spin3Special__ActiveFixedUpdate(Characters_Spin3Special_o *__this,MethodInfo *method)
 
 {
   float *pfVar1;
   int32_t *piVar2;
-  char cVar3;
-  Characters_AnimationHandler_o *__this_00;
-  Characters_Human_o *pCVar4;
-  UnityEngine_Rigidbody_o *pUVar5;
-  System_Collections_Generic_Dictionary_string__AnimationClip__o *pSVar6;
-  System_Int32_array *__this_01;
-  code *pcVar7;
-  undefined1 auVar8 [16];
-  bool_conflict bVar9;
-  int iVar10;
-  int32_t iVar11;
-  Characters_Human_o *pCVar12;
-  long lVar13;
-  Characters_Human_o *__this_02;
-  Characters_Human_o **__this_03;
-  float fVar14;
-  float fVar15;
-  float extraout_XMM0_Dc;
-  float extraout_XMM0_Dc_00;
-  undefined4 uVar16;
-  undefined4 extraout_XMM0_Dc_01;
-  float extraout_XMM0_Dd;
-  float extraout_XMM0_Dd_00;
-  undefined4 uVar17;
-  undefined4 extraout_XMM0_Dd_01;
-  undefined1 auVar19 [16];
-  UnityEngine_Vector3_o UVar20;
-  UnityEngine_Vector3_o force;
-  UnityEngine_Vector3_o UVar21;
-  float fStack_58;
-  float fStack_54;
-  undefined8 uVar18;
+  undefined4 uVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 uVar7;
+  undefined8 uVar6;
+  undefined4 uVar8;
+  undefined4 uVar9;
+  Characters_Human_o *pCVar10;
+  Characters_AnimationHandler_o *pCVar11;
+  Utility_BaseComponentCache_o *pUVar12;
+  UnityEngine_Rigidbody_o *pUVar13;
+  Settings_SoundSettings_o *pSVar14;
+  Settings_BoolSetting_o *pSVar15;
+  Characters_HookUseable_o *pCVar16;
+  UnityEngine_Vector3_StaticFields *pUVar17;
+  bool bVar18;
+  int32_t iVar19;
+  UnityEngine_Transform_o *__this_00;
+  UnityEngine_Vector3_o *pUVar20;
+  System_String_o *sound;
+  float fVar21;
+  float fVar22;
+  undefined8 uVar23;
+  float fVar24;
+  float fVar25;
+  UnityEngine_Vector3_Fields local_58;
+  UnityEngine_Vector3_o local_48 [5];
   
-  __this_02 = (Characters_Human_o *)__this;
-  if (g_data_057adeef == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSounds);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    __this_02 = (Characters_Human_o *)&MethodInfo_Boolean_get_Value;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057adeef = '\x01';
+  if (Il2CppMethodInitialized_184346cfc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanAnimations);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSounds);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    Il2CppMethodInitialized_184346cfc = '\x01';
   }
-  if (*(char *)((long)&(__this->fields)._pulled + 1) == '\0') {
+  if ((__this->fields)._startSpin == false) {
     if (1.0 < (__this->fields)._activeTimeLeft) {
       return;
     }
-    pCVar12 = (__this->fields)._human;
-    __this_02 = TypeInfo_HumanAnimations;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pCVar10 = (__this->fields)._human;
+    if ((TypeInfo_Characters_HumanAnimations->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanAnimations);
     }
-    if (pCVar12 != (Characters_Human_o *)0x0) {
+    if (pCVar10 != (Characters_Human_o *)0x0) {
       Characters_Human__StartSpecialAttack
-                (pCVar12,*(System_String_o **)
-                          &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                 (MethodInfo *)0x0);
-      pCVar4 = (__this->fields)._human;
-      __this_02 = pCVar12;
-      if (((pCVar4 != (Characters_Human_o *)0x0) && (lVar13 = *(long *)&(pCVar4->fields).Dead, lVar13 != 0))
-         && (pUVar5 = *(UnityEngine_Rigidbody_o **)(lVar13 + 0x18), pUVar5 != (UnityEngine_Rigidbody_o *)0x0))
-      {
-        UVar20 = UnityEngine_Rigidbody__get_velocity(pUVar5,(MethodInfo *)0x0);
-        if (g_data_057a6844 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-          g_data_057a6844 = '\x01';
+                (pCVar10,TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,(MethodInfo *)0x0);
+      pCVar10 = (__this->fields)._human;
+      if (((pCVar10 != (Characters_Human_o *)0x0) &&
+          (pUVar12 = (pCVar10->fields).Cache, pUVar12 != (Utility_BaseComponentCache_o *)0x0)) &&
+         (pUVar13 = (pUVar12->fields).Rigidbody, pUVar13 != (UnityEngine_Rigidbody_o *)0x0)) {
+        pUVar20 = UnityEngine_Rigidbody__get_linearVelocity(local_48,pUVar13,(MethodInfo *)0x0);
+        uVar4 = (pUVar20->fields).x;
+        uVar8 = (pUVar20->fields).y;
+        local_58.z = (pUVar20->fields).z;
+        if (Il2CppMethodInitialized_18433de5c == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+          Il2CppMethodInitialized_18433de5c = '\x01';
         }
-        uVar18 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-        UVar21.fields.x = UVar20.fields.x + (float)uVar18 * 5.0;
-        UVar21.fields.y = UVar20.fields.y + (float)((ulong)uVar18 >> 0x20) * 5.0;
-        UVar21.fields.z = UVar20.fields.z + *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20) * 5.0;
-        UnityEngine_Rigidbody__set_velocity(pUVar5,UVar21,(MethodInfo *)0x0);
-        *(undefined1 *)((long)&(__this->fields)._pulled + 1) = 1;
+        pUVar17 = TypeInfo_UnityEngine_Vector3->static_fields;
+        uVar5 = (pUVar17->upVector).fields.x;
+        uVar9 = (pUVar17->upVector).fields.y;
+        local_58.x = (float)uVar5 * 5.0 + (float)uVar4;
+        local_58.y = (float)uVar9 * 5.0 + (float)uVar8;
+        local_58.z = (pUVar17->upVector).fields.z * 5.0 + local_58.z;
+        UnityEngine_Rigidbody__set_linearVelocity
+                  (pUVar13,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
+        (__this->fields)._startSpin = true;
         return;
       }
     }
-    goto label_042f8eea;
+    goto label_182177314;
   }
-  pCVar12 = (__this->fields)._human;
-  if (pCVar12 == (Characters_Human_o *)0x0) goto label_042f8eea;
-  if ((pCVar12->fields).FinishSetup != 9) {
-    *(undefined1 *)&(__this->fields).IsActive = 0;
+  pCVar10 = (__this->fields)._human;
+  if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+  if ((pCVar10->fields)._state != 9) {
+    (__this->fields).IsActive = false;
   }
-  __this_03 = *(Characters_Human_o ***)&(pCVar12->fields)._cameraFPS;
-  __this_02 = TypeInfo_HumanAnimations;
-  if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+  pCVar11 = (pCVar10->fields).Animation;
+  if ((TypeInfo_Characters_HumanAnimations->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanAnimations);
   }
-  if ((Characters_Human_o *)__this_03 == (Characters_Human_o *)0x0) goto label_042f8eea;
-  bVar9 = Characters_AnimationHandler__IsPlaying
-                    ((Characters_AnimationHandler_o *)__this_03,
-                     *(System_String_o **)
-                      &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
-                     (MethodInfo *)0x0);
-  if ((char)bVar9 != '\0') {
-    if (g_data_057adef0 == '\0') {
-      __this_03 = &TypeInfo_HumanAnimations;
-      il2cpp_runtime_helper_023445d0();
-      g_data_057adef0 = '\x01';
+  if (pCVar11 == (Characters_AnimationHandler_o *)0x0) goto label_182177314;
+  bVar18 = Characters_AnimationHandler__IsPlaying
+                     (pCVar11,TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,
+                      (MethodInfo *)0x0);
+  if (bVar18) {
+    if (Il2CppMethodInitialized_184346cfd == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanAnimations);
+      Il2CppMethodInitialized_184346cfd = '\x01';
     }
-    pCVar12 = (__this->fields)._human;
-    __this_02 = (Characters_Human_o *)__this_03;
-    if (pCVar12 == (Characters_Human_o *)0x0) goto label_042f8eea;
-    __this_00 = *(Characters_AnimationHandler_o **)&(pCVar12->fields)._cameraFPS;
-    __this_02 = TypeInfo_HumanAnimations;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pCVar10 = (__this->fields)._human;
+    if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+    pCVar11 = (pCVar10->fields).Animation;
+    if ((TypeInfo_Characters_HumanAnimations->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanAnimations);
     }
-    if (__this_00 == (Characters_AnimationHandler_o *)0x0) goto label_042f8eea;
-    fVar14 = Characters_AnimationHandler__GetNormalizedTime
-                       (__this_00,
-                        *(System_String_o **)
-                         &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
+    if (pCVar11 == (Characters_AnimationHandler_o *)0x0) goto label_182177314;
+    fVar21 = Characters_AnimationHandler__GetNormalizedTime
+                       (pCVar11,TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,
                         (MethodInfo *)0x0);
-    __this_02 = (__this->fields)._human;
-    if (__this_02 == (Characters_Human_o *)0x0) goto label_042f8eea;
-    __this_03 = (Characters_Human_o **)__this_02;
-    if (((fVar14 < 0.61) && (0.4 < fVar14)) && (*(char *)((long)&(__this_02->fields).Animation + 4) != '\0'))
-    {
-      lVar13 = *(long *)&(__this_02->fields).Dead;
-      if (lVar13 == 0) goto label_042f8eea;
-      __this_03 = *(Characters_Human_o ***)(lVar13 + 0x18);
-      pCVar12 = (Characters_Human_o *)
-                UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this_02,(MethodInfo *)0x0);
-      if (pCVar12 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      UVar20 = UnityEngine_Transform__get_forward((UnityEngine_Transform_o *)pCVar12,(MethodInfo *)0x0);
-      __this_02 = pCVar12;
-      if ((Characters_Human_o *)__this_03 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      force.fields.x = UVar20.fields.x * 200.0;
-      force.fields.y = UVar20.fields.y * 200.0;
-      force.fields.z = UVar20.fields.z * 200.0;
-      UnityEngine_Rigidbody__AddForce_4e7f8d0((UnityEngine_Rigidbody_o *)__this_03,force,(MethodInfo *)0x0);
+    pCVar10 = (__this->fields)._human;
+    if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+    if ((((pCVar10->fields).Grounded != false) && (0.4 < fVar21)) && (fVar21 < 0.61)) {
+      pUVar12 = (pCVar10->fields).Cache;
+      if (pUVar12 == (Utility_BaseComponentCache_o *)0x0) goto label_182177314;
+      pUVar13 = (pUVar12->fields).Rigidbody;
+      __this_00 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pCVar10,(MethodInfo *)0x0);
+      if (__this_00 == (UnityEngine_Transform_o *)0x0) goto label_182177314;
+      pUVar20 = UnityEngine_Transform__get_forward(local_48,__this_00,(MethodInfo *)0x0);
+      uVar3 = (pUVar20->fields).x;
+      uVar7 = (pUVar20->fields).y;
+      uVar23._0_4_ = (float)uVar3 * 200.0;
+      uVar23._4_4_ = (float)uVar7 * 200.0;
+      if (pUVar13 == (UnityEngine_Rigidbody_o *)0x0) goto label_182177314;
+      local_58.z = (pUVar20->fields).z * 200.0;
+      local_58._0_8_ = uVar23;
+      UnityEngine_Rigidbody__AddForce_2fe6d20(pUVar13,(UnityEngine_Vector3_o *)&local_58,(MethodInfo *)0x0);
     }
-    iVar10 = (__this->fields)._stage;
-    if ((iVar10 != 0) ||
-       (pfVar1 = &(__this->fields).AnimationLoopStartTime, fVar14 < *pfVar1 || fVar14 == *pfVar1)) {
-      if ((iVar10 < (__this->fields).Loops) &&
-         (pfVar1 = &(__this->fields).AnimationLoopEndTime, *pfVar1 <= fVar14 && fVar14 != *pfVar1)) {
-        pCVar12 = (__this->fields)._human;
-        __this_02 = TypeInfo_HumanAnimations;
-        if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-          il2cpp_runtime_helper_02337ed0();
+    if (((__this->fields)._stage != 0) ||
+       (pfVar1 = &(__this->fields).AnimationLoopStartTime, fVar21 < *pfVar1 || fVar21 == *pfVar1)) {
+      if (((__this->fields)._stage < (__this->fields).Loops) &&
+         (pfVar1 = &(__this->fields).AnimationLoopEndTime, *pfVar1 <= fVar21 && fVar21 != *pfVar1)) {
+        pCVar10 = (__this->fields)._human;
+        if ((TypeInfo_Characters_HumanAnimations->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanAnimations);
         }
-        if (pCVar12 == (Characters_Human_o *)0x0) goto label_042f8eea;
+        if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
         Characters_BaseCharacter__PlayAnimation
-                  ((Characters_BaseCharacter_o *)pCVar12,
-                   *(System_String_o **)
-                    &(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z,
+                  ((Characters_BaseCharacter_o *)pCVar10,
+                   TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,
                    (__this->fields).AnimationLoopStartTime,(MethodInfo *)0x0);
-        goto label_042f8bd5;
+        goto label_182176f2a;
       }
     }
     else {
-      pCVar12 = (__this->fields)._human;
-      __this_02 = pCVar12;
-      if (pCVar12 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      Characters_Human__ActivateBlades(pCVar12,(MethodInfo *)0x0);
-label_042f8bd5:
-      lVar13 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x80);
-      __this_02 = pCVar12;
-      if ((lVar13 == 0) || (lVar13 = *(long *)(lVar13 + 0x88), lVar13 == 0)) goto label_042f8eea;
-      cVar3 = *(char *)(lVar13 + 0x11);
-      __this_03 = (Characters_Human_o **)(__this->fields)._human;
-      if ((TypeInfo_HumanSounds->fields)._stepPhase == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (cVar3 == '\0') {
-        lVar13 = 0x58;
+      pCVar10 = (__this->fields)._human;
+      if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+      Characters_Human__ActivateBlades(pCVar10,(MethodInfo *)0x0);
+label_182176f2a:
+      pSVar14 = TypeInfo_Settings_SettingsManager->static_fields->SoundSettings;
+      if ((pSVar14 == (Settings_SoundSettings_o *)0x0) ||
+         (pSVar15 = (pSVar14->fields).OldBladeEffect, pSVar15 == (Settings_BoolSetting_o *)0x0))
+      goto label_182177314;
+      pCVar10 = (__this->fields)._human;
+      if ((pSVar15->fields)._value == false) {
+        if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+        }
+        if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+        sound = TypeInfo_Characters_HumanSounds->static_fields->BladeSwing3;
       }
       else {
-        lVar13 = 0x68;
+        if ((TypeInfo_Characters_HumanSounds->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSounds);
+        }
+        if (pCVar10 == (Characters_Human_o *)0x0) goto label_182177314;
+        sound = TypeInfo_Characters_HumanSounds->static_fields->OldBladeSwing;
       }
-      __this_02 = TypeInfo_HumanSounds;
-      if ((Characters_Human_o *)__this_03 == (Characters_Human_o *)0x0) goto label_042f8eea;
-      Characters_BaseCharacter__PlaySound
-                ((Characters_BaseCharacter_o *)__this_03,
-                 *(System_String_o **)((long)&((TypeInfo_HumanSounds->fields).MovementSync)->klass + lVar13),
-                 (MethodInfo *)0x0);
-      iVar10 = (__this->fields)._stage + 1;
-      (__this->fields)._stage = iVar10;
+      Characters_BaseCharacter__PlaySound((Characters_BaseCharacter_o *)pCVar10,sound,(MethodInfo *)0x0);
+      piVar2 = &(__this->fields)._stage;
+      *piVar2 = *piVar2 + 1;
     }
-    if (iVar10 == 3) {
-      pCVar12 = (__this->fields)._human;
-      __this_02 = (Characters_Human_o *)__this_03;
-      if ((pCVar12 == (Characters_Human_o *)0x0) ||
-         (__this_02 = (Characters_Human_o *)(pCVar12->fields).Special, __this_02 == (Characters_Human_o *)0x0)
-         ) goto label_042f8eea;
-      (*(__this_02->klass->vtable)._12_unknown.methodPtr)
-                (__this_02,0,(__this_02->klass->vtable)._12_unknown.method);
-      pCVar12 = (__this->fields)._human;
-      if ((pCVar12 == (Characters_Human_o *)0x0) ||
-         (__this_02 = (Characters_Human_o *)(pCVar12->fields).HumanCache,
-         __this_02 == (Characters_Human_o *)0x0)) goto label_042f8eea;
-      Characters_HookUseable__DisableAnyHook((Characters_HookUseable_o *)__this_02,(MethodInfo *)0x0);
-      pCVar12 = (__this->fields)._human;
-      if ((pCVar12 == (Characters_Human_o *)0x0) ||
-         (__this_03 = (Characters_Human_o **)(pCVar12->fields).Special,
-         __this_02 = (Characters_Human_o *)__this_03,
-         (Characters_Human_o *)__this_03 == (Characters_Human_o *)0x0)) goto label_042f8eea;
-      Characters_HookUseable__DisableAnyHook((Characters_HookUseable_o *)__this_03,(MethodInfo *)0x0);
+    if ((__this->fields)._stage == 3) {
+      pCVar10 = (__this->fields)._human;
+      if ((pCVar10 == (Characters_Human_o *)0x0) ||
+         (pCVar16 = (pCVar10->fields).HookRight, pCVar16 == (Characters_HookUseable_o *)0x0))
+      goto label_182177314;
+      (*(pCVar16->klass->vtable)._12_SetInput.methodPtr)
+                (pCVar16,false,(pCVar16->klass->vtable)._12_SetInput.method);
+      pCVar10 = (__this->fields)._human;
+      if ((pCVar10 == (Characters_Human_o *)0x0) ||
+         (pCVar16 = (pCVar10->fields).HookLeft, pCVar16 == (Characters_HookUseable_o *)0x0))
+      goto label_182177314;
+      Characters_HookUseable__DisableAnyHook(pCVar16,(MethodInfo *)0x0);
+      pCVar10 = (__this->fields)._human;
+      if ((pCVar10 == (Characters_Human_o *)0x0) ||
+         (pCVar16 = (pCVar10->fields).HookRight, pCVar16 == (Characters_HookUseable_o *)0x0))
+      goto label_182177314;
+      Characters_HookUseable__DisableAnyHook(pCVar16,(MethodInfo *)0x0);
       piVar2 = &(__this->fields)._stage;
       *piVar2 = *piVar2 + 1;
     }
   }
-  pCVar12 = (__this->fields)._human;
-  __this_02 = (Characters_Human_o *)__this_03;
-  if ((pCVar12 != (Characters_Human_o *)0x0) &&
-     (__this_02 = (Characters_Human_o *)(pCVar12->fields).Special, __this_02 != (Characters_Human_o *)0x0)) {
-    bVar9 = Characters_HookUseable__HasHook((Characters_HookUseable_o *)__this_02,(MethodInfo *)0x0);
-    if ((char)bVar9 == '\0') {
+  pCVar10 = (__this->fields)._human;
+  if ((pCVar10 != (Characters_Human_o *)0x0) &&
+     (pCVar16 = (pCVar10->fields).HookRight, pCVar16 != (Characters_HookUseable_o *)0x0)) {
+    bVar18 = Characters_HookUseable__HasHook(pCVar16,(MethodInfo *)0x0);
+    if (!bVar18) {
       return;
     }
-    pCVar12 = (__this->fields)._human;
-    if ((pCVar12 != (Characters_Human_o *)0x0) &&
-       (__this_02 = (Characters_Human_o *)(pCVar12->fields).Special, __this_02 != (Characters_Human_o *)0x0))
-    {
-      iVar11 = Characters_HookUseable__GetHookState((Characters_HookUseable_o *)__this_02,(MethodInfo *)0x0);
-      if ((iVar11 != 4) && (iVar11 != 2)) {
+    pCVar10 = (__this->fields)._human;
+    if ((pCVar10 != (Characters_Human_o *)0x0) &&
+       (pCVar16 = (pCVar10->fields).HookRight, pCVar16 != (Characters_HookUseable_o *)0x0)) {
+      iVar19 = Characters_HookUseable__GetHookState(pCVar16,(MethodInfo *)0x0);
+      if ((iVar19 != 4) && (iVar19 != 2)) {
         return;
       }
-      if ((char)(__this->fields)._pulled != '\0') {
+      if ((__this->fields)._pulled != false) {
         return;
       }
-      *(undefined1 *)&(__this->fields)._pulled = 1;
-      pCVar12 = (__this->fields)._human;
-      if ((pCVar12 != (Characters_Human_o *)0x0) &&
-         (__this_02 = (Characters_Human_o *)(pCVar12->fields).Special, __this_02 != (Characters_Human_o *)0x0)
-         ) {
-        UVar20 = Characters_HookUseable__GetHookPosition
-                           ((Characters_HookUseable_o *)__this_02,(MethodInfo *)0x0);
-        pCVar12 = (__this->fields)._human;
-        if ((pCVar12 != (Characters_Human_o *)0x0) &&
-           ((lVar13 = *(long *)&(pCVar12->fields).Dead, lVar13 != 0 &&
-            (pUVar5 = *(UnityEngine_Rigidbody_o **)(lVar13 + 0x18), pUVar5 != (UnityEngine_Rigidbody_o *)0x0))
-           )) {
-          UVar21 = UnityEngine_Rigidbody__get_position(pUVar5,(MethodInfo *)0x0);
-          if (g_data_057a6845 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-            g_data_057a6845 = '\x01';
+      pCVar10 = (__this->fields)._human;
+      (__this->fields)._pulled = true;
+      if ((pCVar10 != (Characters_Human_o *)0x0) &&
+         (pCVar16 = (pCVar10->fields).HookRight, pCVar16 != (Characters_HookUseable_o *)0x0)) {
+        pUVar20 = Characters_HookUseable__GetHookPosition(local_48,pCVar16,(MethodInfo *)0x0);
+        pCVar10 = (__this->fields)._human;
+        if ((pCVar10 != (Characters_Human_o *)0x0) &&
+           ((pUVar12 = (pCVar10->fields).Cache, pUVar12 != (Utility_BaseComponentCache_o *)0x0 &&
+            (pUVar13 = (pUVar12->fields).Rigidbody, pUVar13 != (UnityEngine_Rigidbody_o *)0x0)))) {
+          uVar6._0_4_ = (pUVar20->fields).x;
+          uVar6._4_4_ = (pUVar20->fields).y;
+          fVar25 = (pUVar20->fields).z;
+          local_58._0_8_ = uVar6;
+          pUVar20 = UnityEngine_Rigidbody__get_position(local_48,pUVar13,(MethodInfo *)0x0);
+          fVar21 = (float)uVar6 - (pUVar20->fields).x;
+          fVar24 = uVar6._4_4_ - (pUVar20->fields).y;
+          fVar25 = fVar25 - (pUVar20->fields).z;
+          local_58.y = fVar24;
+          local_58.x = fVar21;
+          local_58.z = fVar25;
+          if (Il2CppMethodInitialized_18433de5f == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433de5f = '\x01';
           }
-          fStack_58 = UVar20.fields.x;
-          fStack_54 = UVar20.fields.y;
-          auVar19._0_4_ = fStack_58 - UVar21.fields.x;
-          auVar19._4_4_ = fStack_54 - UVar21.fields.y;
-          auVar19._8_4_ = extraout_XMM0_Dc - extraout_XMM0_Dc_00;
-          auVar19._12_4_ = extraout_XMM0_Dd - extraout_XMM0_Dd_00;
-          fVar14 = UVar20.fields.z - UVar21.fields.z;
-          if (*(int *)(TypeInfo_Math + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          uVar16 = 0;
-          uVar17 = 0;
-          fVar15 = fVar14 * fVar14 + auVar19._4_4_ * auVar19._4_4_ + auVar19._0_4_ * auVar19._0_4_;
-          if (fVar15 < 0.0) {
-            fVar15 = sqrtf(fVar15);
-            uVar16 = extraout_XMM0_Dc_01;
-            uVar17 = extraout_XMM0_Dd_01;
+          fVar22 = (float)il2cpp_runtime_helper_180546a40(&local_58,0);
+          if (fVar22 <= 1e-05) {
+            pUVar17 = TypeInfo_UnityEngine_Vector3->static_fields;
+            fVar21 = (pUVar17->zeroVector).fields.x;
+            fVar24 = (pUVar17->zeroVector).fields.y;
+            fVar25 = (pUVar17->zeroVector).fields.z;
           }
           else {
-            fVar15 = SQRT(fVar15);
+            fVar21 = fVar21 / fVar22;
+            fVar24 = fVar24 / fVar22;
+            fVar25 = fVar25 / fVar22;
           }
-          if (1e-05 < fVar15) {
-            fVar14 = fVar14 / fVar15;
-            auVar8._4_4_ = fVar15;
-            auVar8._0_4_ = fVar15;
-            auVar8._8_4_ = uVar16;
-            auVar8._12_4_ = uVar17;
-            auVar19 = divps(auVar19,auVar8);
-            uVar18 = auVar19._0_8_;
-          }
-          else {
-            if (g_data_057a65d5 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-              g_data_057a65d5 = '\x01';
-            }
-            uVar18 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-            fVar14 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-          }
-          fVar15 = (float)(__this->fields)._startSpin;
-          UVar20.fields.z = fVar14 * fVar15;
-          UVar20.fields.x = fVar15 * (float)uVar18;
-          UVar20.fields.y = fVar15 * (float)((ulong)uVar18 >> 0x20);
-          UnityEngine_Rigidbody__AddForce(pUVar5,UVar20,1,(MethodInfo *)0x0);
+          fVar22 = (__this->fields).PullForce;
+          local_58.z = fVar25 * fVar22;
+          local_58.y = fVar24 * fVar22;
+          local_58.x = fVar21 * fVar22;
+          UnityEngine_Rigidbody__AddForce(pUVar13,(UnityEngine_Vector3_o *)&local_58,1,(MethodInfo *)0x0);
           return;
         }
       }
     }
   }
-label_042f8eea:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057adef0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    g_data_057adef0 = '\x01';
-  }
-  pSVar6 = (System_Collections_Generic_Dictionary_string__AnimationClip__o *)(__this_02->fields).RichTextName;
-  if (pSVar6 != (System_Collections_Generic_Dictionary_string__AnimationClip__o *)0x0) {
-    __this_01 = pSVar6[2].fields._buckets;
-    if ((TypeInfo_HumanAnimations->fields)._stepPhase == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (__this_01 != (System_Int32_array *)0x0) {
-      Characters_AnimationHandler__GetNormalizedTime
-                ((Characters_AnimationHandler_o *)__this_01,
-                 *(System_String_o **)&(TypeInfo_HumanAnimations->fields).MovementSync[3].fields._correctRotation.fields.z
-                 ,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pcVar7 = (code *)swi(3);
-  (*pcVar7)();
-  return;
+label_182177314:
+  ThrowNullReferenceException();
 }
 
 
 // Characters.Spin3Special$$GetAnimationTime
 // il2cpp: float Characters_Spin3Special__GetAnimationTime (Characters_Spin3Special_o* __this, const MethodInfo* method);
-// 0x42f8ef0
+// 0x182177320
 
 float Characters_Spin3Special__GetAnimationTime(Characters_Spin3Special_o *__this,MethodInfo *method)
 
 {
   Characters_Human_o *pCVar1;
   Characters_AnimationHandler_o *__this_00;
-  code *pcVar2;
-  float fVar3;
+  float fVar2;
   
-  if (g_data_057adef0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanAnimations);
-    g_data_057adef0 = '\x01';
+  if (Il2CppMethodInitialized_184346cfd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanAnimations);
+    Il2CppMethodInitialized_184346cfd = '\x01';
   }
   pCVar1 = (__this->fields)._human;
   if (pCVar1 != (Characters_Human_o *)0x0) {
-    __this_00 = *(Characters_AnimationHandler_o **)&(pCVar1->fields)._cameraFPS;
-    if (*(int *)(TypeInfo_HumanAnimations + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    __this_00 = (pCVar1->fields).Animation;
+    if ((TypeInfo_Characters_HumanAnimations->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanAnimations);
     }
     if (__this_00 != (Characters_AnimationHandler_o *)0x0) {
-      fVar3 = Characters_AnimationHandler__GetNormalizedTime
-                        (__this_00,*(System_String_o **)(*(long *)(TypeInfo_HumanAnimations + 0xb8) + 0x208),
+      fVar2 = Characters_AnimationHandler__GetNormalizedTime
+                        (__this_00,TypeInfo_Characters_HumanAnimations->static_fields->SpecialLevi,
                          (MethodInfo *)0x0);
-      return fVar3;
+      return fVar2;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  pcVar2 = (code *)swi(3);
-  fVar3 = (float)(*pcVar2)();
-  return fVar3;
+  ThrowNullReferenceException();
 }
 
 

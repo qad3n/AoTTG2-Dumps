@@ -33,7 +33,7 @@ public struct StringOptions : IPlugOptions
 	internal int changeValueStrippedLength;
 
 	[Token(Token = "0x6000379")]
-	[Address(RVA = "0x237F910", Offset = "0x237F910", VA = "0x237F910", Slot = "4")]
+	[Address(RVA = "0x572520", Offset = "0x570B20", VA = "0x180572520", Slot = "4")]
 	public void Reset()
 	{
 	}

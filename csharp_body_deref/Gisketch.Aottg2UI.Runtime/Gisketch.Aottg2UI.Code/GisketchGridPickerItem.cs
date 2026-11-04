@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000076")]
+[Token(Token = "0x200008A")]
 public readonly struct GisketchGridPickerItem
 {
-	[Token(Token = "0x4000261")]
+	[Token(Token = "0x40002DD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public readonly string Key;
 
-	[Token(Token = "0x4000262")]
+	[Token(Token = "0x40002DE")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public readonly string Label;
 
-	[Token(Token = "0x4000263")]
+	[Token(Token = "0x40002DF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly string Sprite;
 
-	[Token(Token = "0x4000264")]
+	[Token(Token = "0x40002E0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public readonly string Keywords;
 
-	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x3A65AD0", Offset = "0x3A65AD0", VA = "0x3A65AD0")]
+	[Token(Token = "0x600041E")]
+	[Address(RVA = "0x16E8730", Offset = "0x16E6D30", VA = "0x1816E8730")]
 	public GisketchGridPickerItem(string key, string label, string sprite, [Optional] string keywords)
 	{
 	}

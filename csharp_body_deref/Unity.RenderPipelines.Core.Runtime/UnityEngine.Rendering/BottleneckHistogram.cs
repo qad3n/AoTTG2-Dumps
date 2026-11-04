@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000F2")]
+[Token(Token = "0x20000C8")]
 internal struct BottleneckHistogram
 {
-	[Token(Token = "0x4000349")]
+	[Token(Token = "0x4000294")]
 	[FieldOffset(Offset = "0x0")]
 	internal float PresentLimited;
 
-	[Token(Token = "0x400034A")]
+	[Token(Token = "0x4000295")]
 	[FieldOffset(Offset = "0x4")]
 	internal float CPU;
 
-	[Token(Token = "0x400034B")]
+	[Token(Token = "0x4000296")]
 	[FieldOffset(Offset = "0x8")]
 	internal float GPU;
 
-	[Token(Token = "0x400034C")]
+	[Token(Token = "0x4000297")]
 	[FieldOffset(Offset = "0xC")]
 	internal float Balanced;
 }

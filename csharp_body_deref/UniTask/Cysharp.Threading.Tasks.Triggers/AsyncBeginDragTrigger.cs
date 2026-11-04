@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000204")]
+[Token(Token = "0x2000207")]
 [DisallowMultipleComponent]
 public sealed class AsyncBeginDragTrigger : AsyncTriggerBase<PointerEventData>, IBeginDragHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000BF2")]
-	[Address(RVA = "0x4A152E0", Offset = "0x4A152E0", VA = "0x4A152E0", Slot = "5")]
+	[Token(Token = "0x6000C16")]
+	[Address(RVA = "0x292A360", Offset = "0x2928960", VA = "0x18292A360", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIBeginDragHandler_002EOnBeginDrag(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000BF3")]
-	[Address(RVA = "0x4A15330", Offset = "0x4A15330", VA = "0x4A15330")]
+	[Token(Token = "0x6000C17")]
+	[Address(RVA = "0x292A0C0", Offset = "0x29286C0", VA = "0x18292A0C0")]
 	public IAsyncOnBeginDragHandler GetOnBeginDragAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BF4")]
-	[Address(RVA = "0x4A153A0", Offset = "0x4A153A0", VA = "0x4A153A0")]
+	[Token(Token = "0x6000C18")]
+	[Address(RVA = "0x292A040", Offset = "0x2928640", VA = "0x18292A040")]
 	public IAsyncOnBeginDragHandler GetOnBeginDragAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BF5")]
-	[Address(RVA = "0x4A15410", Offset = "0x4A15410", VA = "0x4A15410")]
+	[Token(Token = "0x6000C19")]
+	[Address(RVA = "0x292A130", Offset = "0x2928730", VA = "0x18292A130")]
 	public UniTask<PointerEventData> OnBeginDragAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000BF6")]
-	[Address(RVA = "0x4A15510", Offset = "0x4A15510", VA = "0x4A15510")]
+	[Token(Token = "0x6000C1A")]
+	[Address(RVA = "0x292A250", Offset = "0x2928850", VA = "0x18292A250")]
 	public UniTask<PointerEventData> OnBeginDragAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000BF7")]
-	[Address(RVA = "0x4A15620", Offset = "0x4A15620", VA = "0x4A15620")]
+	[Token(Token = "0x6000C1B")]
+	[Address(RVA = "0x292A3B0", Offset = "0x29289B0", VA = "0x18292A3B0")]
 	public AsyncBeginDragTrigger()
 	{
 	}

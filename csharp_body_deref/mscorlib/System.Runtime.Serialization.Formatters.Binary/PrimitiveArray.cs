@@ -9,71 +9,71 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200042E")]
+[Token(Token = "0x200045D")]
 internal sealed class PrimitiveArray
 {
-	[Token(Token = "0x4001221")]
+	[Token(Token = "0x4001223")]
 	[FieldOffset(Offset = "0x10")]
 	private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code;
 
-	[Token(Token = "0x4001222")]
+	[Token(Token = "0x4001224")]
 	[FieldOffset(Offset = "0x18")]
 	private bool[] booleanA;
 
-	[Token(Token = "0x4001223")]
+	[Token(Token = "0x4001225")]
 	[FieldOffset(Offset = "0x20")]
 	private char[] charA;
 
-	[Token(Token = "0x4001224")]
+	[Token(Token = "0x4001226")]
 	[FieldOffset(Offset = "0x28")]
 	private double[] doubleA;
 
-	[Token(Token = "0x4001225")]
+	[Token(Token = "0x4001227")]
 	[FieldOffset(Offset = "0x30")]
 	private short[] int16A;
 
-	[Token(Token = "0x4001226")]
+	[Token(Token = "0x4001228")]
 	[FieldOffset(Offset = "0x38")]
 	private int[] int32A;
 
-	[Token(Token = "0x4001227")]
+	[Token(Token = "0x4001229")]
 	[FieldOffset(Offset = "0x40")]
 	private long[] int64A;
 
-	[Token(Token = "0x4001228")]
+	[Token(Token = "0x400122A")]
 	[FieldOffset(Offset = "0x48")]
 	private sbyte[] sbyteA;
 
-	[Token(Token = "0x4001229")]
+	[Token(Token = "0x400122B")]
 	[FieldOffset(Offset = "0x50")]
 	private float[] singleA;
 
-	[Token(Token = "0x400122A")]
+	[Token(Token = "0x400122C")]
 	[FieldOffset(Offset = "0x58")]
 	private ushort[] uint16A;
 
-	[Token(Token = "0x400122B")]
+	[Token(Token = "0x400122D")]
 	[FieldOffset(Offset = "0x60")]
 	private uint[] uint32A;
 
-	[Token(Token = "0x400122C")]
+	[Token(Token = "0x400122E")]
 	[FieldOffset(Offset = "0x68")]
 	private ulong[] uint64A;
 
-	[Token(Token = "0x60021A6")]
-	[Address(RVA = "0x3BBC300", Offset = "0x3BBC300", VA = "0x3BBC300")]
+	[Token(Token = "0x6002215")]
+	[Address(RVA = "0x1A36B50", Offset = "0x1A35150", VA = "0x181A36B50")]
 	internal PrimitiveArray(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, Array array)
 	{
 	}
 
-	[Token(Token = "0x60021A7")]
-	[Address(RVA = "0x3BBC330", Offset = "0x3BBC330", VA = "0x3BBC330")]
+	[Token(Token = "0x6002216")]
+	[Address(RVA = "0x1A36190", Offset = "0x1A34790", VA = "0x181A36190")]
 	internal void Init(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, Array array)
 	{
 	}
 
-	[Token(Token = "0x60021A8")]
-	[Address(RVA = "0x3BBC830", Offset = "0x3BBC830", VA = "0x3BBC830")]
+	[Token(Token = "0x6002217")]
+	[Address(RVA = "0x1A36750", Offset = "0x1A34D50", VA = "0x181A36750")]
 	internal void SetValue(string value, int index)
 	{
 	}

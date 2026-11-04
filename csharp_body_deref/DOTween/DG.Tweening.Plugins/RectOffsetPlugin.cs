@@ -22,57 +22,57 @@ public class RectOffsetPlugin : ABSTweenPlugin<RectOffset, RectOffset, NoOptions
 	private static RectOffset _r;
 
 	[Token(Token = "0x6000321")]
-	[Address(RVA = "0x2377EF0", Offset = "0x2377EF0", VA = "0x2377EF0", Slot = "4")]
+	[Address(RVA = "0x570C00", Offset = "0x56F200", VA = "0x180570C00", Slot = "4")]
 	public override void Reset(TweenerCore<RectOffset, RectOffset, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000322")]
-	[Address(RVA = "0x2377F50", Offset = "0x2377F50", VA = "0x2377F50", Slot = "5")]
+	[Address(RVA = "0x570E20", Offset = "0x56F420", VA = "0x180570E20", Slot = "5")]
 	public override void SetFrom(TweenerCore<RectOffset, RectOffset, NoOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x6000323")]
-	[Address(RVA = "0x23780D0", Offset = "0x23780D0", VA = "0x23780D0", Slot = "6")]
+	[Address(RVA = "0x570FD0", Offset = "0x56F5D0", VA = "0x180570FD0", Slot = "6")]
 	public override void SetFrom(TweenerCore<RectOffset, RectOffset, NoOptions> t, RectOffset fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x6000324")]
-	[Address(RVA = "0x23782E0", Offset = "0x23782E0", VA = "0x23782E0", Slot = "7")]
+	[Address(RVA = "0x5703A0", Offset = "0x56E9A0", VA = "0x1805703A0", Slot = "7")]
 	public override RectOffset ConvertToStartValue(TweenerCore<RectOffset, RectOffset, NoOptions> t, RectOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000325")]
-	[Address(RVA = "0x2378380", Offset = "0x2378380", VA = "0x2378380", Slot = "8")]
+	[Address(RVA = "0x5711E0", Offset = "0x56F7E0", VA = "0x1805711E0", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<RectOffset, RectOffset, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000326")]
-	[Address(RVA = "0x2378490", Offset = "0x2378490", VA = "0x2378490", Slot = "9")]
+	[Address(RVA = "0x570C70", Offset = "0x56F270", VA = "0x180570C70", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<RectOffset, RectOffset, NoOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x2378610", Offset = "0x2378610", VA = "0x2378610", Slot = "10")]
+	[Address(RVA = "0x570B00", Offset = "0x56F100", VA = "0x180570B00", Slot = "10")]
 	public override float GetSpeedBasedDuration(NoOptions options, float unitsXSecond, RectOffset changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000328")]
-	[Address(RVA = "0x23786F0", Offset = "0x23786F0", VA = "0x23786F0", Slot = "11")]
+	[Address(RVA = "0x570470", Offset = "0x56EA70", VA = "0x180570470", Slot = "11")]
 	public override void EvaluateAndApply(NoOptions options, Tween t, bool isRelative, DOGetter<RectOffset> getter, DOSetter<RectOffset> setter, float elapsed, RectOffset startValue, RectOffset changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x6000329")]
-	[Address(RVA = "0x2378F70", Offset = "0x2378F70", VA = "0x2378F70")]
+	[Address(RVA = "0x571390", Offset = "0x56F990", VA = "0x180571390")]
 	public RectOffsetPlugin()
 	{
 	}

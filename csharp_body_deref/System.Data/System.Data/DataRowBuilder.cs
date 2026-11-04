@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200002B")]
+[Token(Token = "0x200003C")]
 public sealed class DataRowBuilder
 {
-	[Token(Token = "0x4000094")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly DataTable _table;
 
-	[Token(Token = "0x4000095")]
+	[Token(Token = "0x4000147")]
 	[FieldOffset(Offset = "0x18")]
 	internal int _record;
 
-	[Token(Token = "0x6000326")]
-	[Address(RVA = "0x457DA60", Offset = "0x457DA60", VA = "0x457DA60")]
+	[Token(Token = "0x6000494")]
+	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
 	internal DataRowBuilder(DataTable table, int record)
 	{
 	}

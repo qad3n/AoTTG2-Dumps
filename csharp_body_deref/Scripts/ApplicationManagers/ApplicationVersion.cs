@@ -11,71 +11,71 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x200077C")]
+[Token(Token = "0x2000905")]
 internal class ApplicationVersion
 {
-	[Token(Token = "0x40023E8")]
+	[Token(Token = "0x4002CAD")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool UseServerHash;
 
-	[Token(Token = "0x40023E9")]
+	[Token(Token = "0x4002CAE")]
 	[FieldOffset(Offset = "0x8")]
 	public static Func<NetworkCredential> VersionProvider;
 
-	[Token(Token = "0x40023EA")]
+	[Token(Token = "0x4002CAF")]
 	[FieldOffset(Offset = "0x10")]
 	public static Func<string, string> HashProvider;
 
-	[Token(Token = "0x600487E")]
-	[Address(RVA = "0x43AC840", Offset = "0x43AC840", VA = "0x43AC840")]
+	[Token(Token = "0x60054E6")]
+	[Address(RVA = "0x2345780", Offset = "0x2343D80", VA = "0x182345780")]
 	public static NetworkCredential GetVersion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600487F")]
-	[Address(RVA = "0x43AC940", Offset = "0x43AC940", VA = "0x43AC940")]
+	[Token(Token = "0x60054E7")]
+	[Address(RVA = "0x23455B0", Offset = "0x2343BB0", VA = "0x1823455B0")]
 	public static string GetHashCode(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004880")]
-	[Address(RVA = "0x43ACA10", Offset = "0x43ACA10", VA = "0x43ACA10")]
+	[Token(Token = "0x60054E8")]
+	[Address(RVA = "0x2345660", Offset = "0x2343C60", VA = "0x182345660")]
 	public static string GetHashKey(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004881")]
-	[Address(RVA = "0x43ACAA0", Offset = "0x43ACAA0", VA = "0x43ACAA0")]
+	[Token(Token = "0x60054E9")]
+	[Address(RVA = "0x2345740", Offset = "0x2343D40", VA = "0x182345740")]
 	public static string GetSessionID()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004882")]
-	[Address(RVA = "0x43ACAE0", Offset = "0x43ACAE0", VA = "0x43ACAE0")]
+	[Token(Token = "0x60054EA")]
+	[Address(RVA = "0x2345860", Offset = "0x2343E60", VA = "0x182345860")]
 	static ApplicationVersion()
 	{
 	}
 
-	[Token(Token = "0x6004883")]
-	[Address(RVA = "0x43ACBD0", Offset = "0x43ACBD0", VA = "0x43ACBD0")]
+	[Token(Token = "0x60054EB")]
+	[Address(RVA = "0x2345730", Offset = "0x2343D30", VA = "0x182345730")]
 	public static NetworkCredential GetPrivateVersion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004884")]
-	[Address(RVA = "0x43ACBE0", Offset = "0x43ACBE0", VA = "0x43ACBE0")]
+	[Token(Token = "0x60054EC")]
+	[Address(RVA = "0x23456D0", Offset = "0x2343CD0", VA = "0x1823456D0")]
 	public static string GetPrivateHashCode(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004885")]
-	[Address(RVA = "0x43ACC40", Offset = "0x43ACC40", VA = "0x43ACC40")]
+	[Token(Token = "0x60054ED")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ApplicationVersion()
 	{
 	}

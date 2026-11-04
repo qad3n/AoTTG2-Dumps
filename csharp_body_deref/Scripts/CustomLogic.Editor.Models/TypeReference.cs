@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x20004BF")]
+[Token(Token = "0x2000614")]
 internal class TypeReference
 {
-	[Token(Token = "0x40014B5")]
+	[Token(Token = "0x4001AF2")]
 	[FieldOffset(Offset = "0x10")]
 	public string Name;
 
-	[Token(Token = "0x40014B6")]
+	[Token(Token = "0x4001AF3")]
 	[FieldOffset(Offset = "0x18")]
 	public TypeReference[] Arguments;
 
-	[Token(Token = "0x6003202")]
-	[Address(RVA = "0x4187020", Offset = "0x4187020", VA = "0x4187020")]
+	[Token(Token = "0x6003B77")]
+	[Address(RVA = "0x2101B30", Offset = "0x2100130", VA = "0x182101B30")]
 	public TypeReference(string name)
 	{
 	}
 
-	[Token(Token = "0x6003203")]
-	[Address(RVA = "0x4187110", Offset = "0x4187110", VA = "0x4187110")]
+	[Token(Token = "0x6003B78")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public TypeReference(string name, TypeReference[] arguments)
 	{
 	}

@@ -13,31 +13,31 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000153")]
 public sealed class ReflectionFieldAccessor : IOptimizedAccessor
 {
-	[Token(Token = "0x4000830")]
+	[Token(Token = "0x400082E")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly FieldInfo fieldInfo;
 
-	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x4D40660", Offset = "0x4D40660", VA = "0x4D40660")]
+	[Token(Token = "0x6000DF7")]
+	[Address(RVA = "0x2E35DD0", Offset = "0x2E343D0", VA = "0x182E35DD0")]
 	public ReflectionFieldAccessor(FieldInfo fieldInfo)
 	{
 	}
 
-	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x4D46580", Offset = "0x4D46580", VA = "0x4D46580", Slot = "4")]
+	[Token(Token = "0x6000DF8")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void Compile()
 	{
 	}
 
-	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x4D46590", Offset = "0x4D46590", VA = "0x4D46590", Slot = "5")]
+	[Token(Token = "0x6000DF9")]
+	[Address(RVA = "0x8F67D0", Offset = "0x8F4DD0", VA = "0x1808F67D0", Slot = "5")]
 	public object GetValue(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x4D465C0", Offset = "0x4D465C0", VA = "0x4D465C0", Slot = "6")]
+	[Token(Token = "0x6000DFA")]
+	[Address(RVA = "0x8F7770", Offset = "0x8F5D70", VA = "0x1808F7770", Slot = "6")]
 	public void SetValue(object target, object value)
 	{
 	}

@@ -9,38 +9,38 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000044")]
 public class ImageBufferNativePool<T> : ObjectPool<T, ImageBufferInfo> where T : ImageBufferNative
 {
-	[Token(Token = "0x2000047")]
+	[Token(Token = "0x2000045")]
 	public delegate T Factory(ImageBufferNativePool<T> pool, ImageBufferInfo info);
 
-	[Token(Token = "0x400012F")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x0")]
 	private Factory factory;
 
-	[Token(Token = "0x600017D")]
+	[Token(Token = "0x600017B")]
 	public ImageBufferNativePool(int capacity, Factory factory, string name)
 	{
 	}
 
-	[Token(Token = "0x600017E")]
+	[Token(Token = "0x600017C")]
 	public ImageBufferNativePool(int capacity, Factory factory, string name, ImageBufferInfo info)
 	{
 	}
 
-	[Token(Token = "0x600017F")]
+	[Token(Token = "0x600017D")]
 	protected override T createObject(ImageBufferInfo info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000180")]
+	[Token(Token = "0x600017E")]
 	protected override void destroyObject(T obj)
 	{
 	}
 
-	[Token(Token = "0x6000181")]
+	[Token(Token = "0x600017F")]
 	protected override bool infosMatch(ImageBufferInfo i0, ImageBufferInfo i1)
 	{
 		return default(bool);

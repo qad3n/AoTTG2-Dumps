@@ -62,13 +62,13 @@ internal class XmlDownloadManager
 		private ConfiguredTaskAwaitable<WebResponse>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000B95")]
-		[Address(RVA = "0x47FCCD0", Offset = "0x47FCCD0", VA = "0x47FCCD0", Slot = "4")]
+		[Address(RVA = "0x27442D0", Offset = "0x27428D0", VA = "0x1827442D0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000B96")]
-		[Address(RVA = "0x47FD5C0", Offset = "0x47FD5C0", VA = "0x47FD5C0", Slot = "5")]
+		[Address(RVA = "0x2744A50", Offset = "0x2743050", VA = "0x182744A50", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -80,34 +80,34 @@ internal class XmlDownloadManager
 	private Hashtable connections;
 
 	[Token(Token = "0x6000B8D")]
-	[Address(RVA = "0x47FBEB0", Offset = "0x47FBEB0", VA = "0x47FBEB0")]
+	[Address(RVA = "0x2754F00", Offset = "0x2753500", VA = "0x182754F00")]
 	internal Stream GetStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8E")]
-	[Address(RVA = "0x47FBFA0", Offset = "0x47FBFA0", VA = "0x47FBFA0")]
+	[Address(RVA = "0x2754830", Offset = "0x2752E30", VA = "0x182754830")]
 	private Stream GetNonFileStream(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B8F")]
-	[Address(RVA = "0x47FC7D0", Offset = "0x47FC7D0", VA = "0x47FC7D0")]
+	[Address(RVA = "0x2754FF0", Offset = "0x27535F0", VA = "0x182754FF0")]
 	internal void Remove(string host)
 	{
 	}
 
 	[Token(Token = "0x6000B90")]
-	[Address(RVA = "0x47FC940", Offset = "0x47FC940", VA = "0x47FC940")]
+	[Address(RVA = "0x2754C90", Offset = "0x2753290", VA = "0x182754C90")]
 	internal Task<Stream> GetStreamAsync(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x47FCAC0", Offset = "0x47FCAC0", VA = "0x47FCAC0")]
+	[Address(RVA = "0x27546E0", Offset = "0x2752CE0", VA = "0x1827546E0")]
 	[AsyncStateMachine(typeof(_003CGetNonFileStreamAsync_003Ed__5))]
 	private Task<Stream> GetNonFileStreamAsync(Uri uri, ICredentials credentials, IWebProxy proxy, RequestCachePolicy cachePolicy)
 	{
@@ -115,7 +115,7 @@ internal class XmlDownloadManager
 	}
 
 	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x47FCC30", Offset = "0x47FCC30", VA = "0x47FCC30")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public XmlDownloadManager()
 	{
 	}

@@ -14,64 +14,64 @@ namespace System;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000196")]
+[Token(Token = "0x20001C1")]
 [ComVisible(true)]
 public abstract class MulticastDelegate : Delegate
 {
-	[Token(Token = "0x40006B7")]
+	[Token(Token = "0x400071B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private Delegate[] delegates;
 
-	[Token(Token = "0x6000FCB")]
-	[Address(RVA = "0x3D113F0", Offset = "0x3D113F0", VA = "0x3D113F0", Slot = "8")]
+	[Token(Token = "0x6001022")]
+	[Address(RVA = "0x1B80090", Offset = "0x1B7E690", VA = "0x181B80090", Slot = "8")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x3D11400", Offset = "0x3D11400", VA = "0x3D11400", Slot = "0")]
+	[Token(Token = "0x6001023")]
+	[Address(RVA = "0x1B86B90", Offset = "0x1B85190", VA = "0x181B86B90", Slot = "0")]
 	public sealed override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FCD")]
-	[Address(RVA = "0x3D11530", Offset = "0x3D11530", VA = "0x3D11530", Slot = "2")]
+	[Token(Token = "0x6001024")]
+	[Address(RVA = "0x1B7FE50", Offset = "0x1B7E450", VA = "0x181B7FE50", Slot = "2")]
 	public sealed override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000FCE")]
-	[Address(RVA = "0x3D11540", Offset = "0x3D11540", VA = "0x3D11540", Slot = "7")]
+	[Token(Token = "0x6001025")]
+	[Address(RVA = "0x1B86F30", Offset = "0x1B85530", VA = "0x181B86F30", Slot = "7")]
 	protected override MethodInfo GetMethodImpl()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FCF")]
-	[Address(RVA = "0x3D115A0", Offset = "0x3D115A0", VA = "0x3D115A0", Slot = "9")]
+	[Token(Token = "0x6001026")]
+	[Address(RVA = "0x1B86E40", Offset = "0x1B85440", VA = "0x181B86E40", Slot = "9")]
 	public sealed override Delegate[] GetInvocationList()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FD0")]
-	[Address(RVA = "0x3D11680", Offset = "0x3D11680", VA = "0x3D11680", Slot = "10")]
+	[Token(Token = "0x6001027")]
+	[Address(RVA = "0x1B867E0", Offset = "0x1B84DE0", VA = "0x181B867E0", Slot = "10")]
 	protected sealed override Delegate CombineImpl(Delegate follow)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000FD1")]
-	[Address(RVA = "0x3D119A0", Offset = "0x3D119A0", VA = "0x3D119A0")]
+	[Token(Token = "0x6001028")]
+	[Address(RVA = "0x1B870A0", Offset = "0x1B856A0", VA = "0x181B870A0")]
 	private int LastIndexOf(Delegate[] haystack, Delegate[] needle)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000FD2")]
-	[Address(RVA = "0x3D11AC0", Offset = "0x3D11AC0", VA = "0x3D11AC0", Slot = "11")]
+	[Token(Token = "0x6001029")]
+	[Address(RVA = "0x1B871C0", Offset = "0x1B857C0", VA = "0x181B871C0", Slot = "11")]
 	protected sealed override Delegate RemoveImpl(Delegate value)
 	{
 		return null;

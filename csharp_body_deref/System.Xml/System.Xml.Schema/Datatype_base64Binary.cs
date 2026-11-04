@@ -24,7 +24,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override FacetsChecker FacetsChecker
 	{
 		[Token(Token = "0x600111C")]
-		[Address(RVA = "0x4860800", Offset = "0x4860800", VA = "0x4860800", Slot = "18")]
+		[Address(RVA = "0x279BFB0", Offset = "0x279A5B0", VA = "0x18279BFB0", Slot = "18")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600111D")]
-		[Address(RVA = "0x4860870", Offset = "0x4860870", VA = "0x4860870", Slot = "8")]
+		[Address(RVA = "0x279C050", Offset = "0x279A650", VA = "0x18279C050", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -46,7 +46,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	public override Type ValueType
 	{
 		[Token(Token = "0x600111E")]
-		[Address(RVA = "0x4860880", Offset = "0x4860880", VA = "0x4860880", Slot = "4")]
+		[Address(RVA = "0x279C060", Offset = "0x279A660", VA = "0x18279C060", Slot = "4")]
 		get
 		{
 			return null;
@@ -57,7 +57,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override Type ListValueType
 	{
 		[Token(Token = "0x600111F")]
-		[Address(RVA = "0x48608F0", Offset = "0x48608F0", VA = "0x48608F0", Slot = "26")]
+		[Address(RVA = "0x279C000", Offset = "0x279A600", VA = "0x18279C000", Slot = "26")]
 		get
 		{
 			return null;
@@ -68,7 +68,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x6001120")]
-		[Address(RVA = "0x4860960", Offset = "0x4860960", VA = "0x4860960", Slot = "19")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -79,7 +79,7 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	internal override RestrictionFlags ValidRestrictionFlags
 	{
 		[Token(Token = "0x6001121")]
-		[Address(RVA = "0x4860970", Offset = "0x4860970", VA = "0x4860970", Slot = "27")]
+		[Address(RVA = "0x279A330", Offset = "0x2798930", VA = "0x18279A330", Slot = "27")]
 		get
 		{
 			return default(RestrictionFlags);
@@ -87,28 +87,28 @@ internal class Datatype_base64Binary : Datatype_anySimpleType
 	}
 
 	[Token(Token = "0x600111B")]
-	[Address(RVA = "0x48607F0", Offset = "0x48607F0", VA = "0x48607F0", Slot = "25")]
+	[Address(RVA = "0x279A490", Offset = "0x2798A90", VA = "0x18279A490", Slot = "25")]
 	internal override XmlValueConverter CreateValueConverter(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001122")]
-	[Address(RVA = "0x4860980", Offset = "0x4860980", VA = "0x4860980", Slot = "14")]
+	[Address(RVA = "0x279BC00", Offset = "0x279A200", VA = "0x18279BC00", Slot = "14")]
 	internal override int Compare(object value1, object value2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001123")]
-	[Address(RVA = "0x4860A60", Offset = "0x4860A60", VA = "0x4860A60", Slot = "16")]
+	[Address(RVA = "0x279BD00", Offset = "0x279A300", VA = "0x18279BD00", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001124")]
-	[Address(RVA = "0x4855A20", Offset = "0x4855A20", VA = "0x4855A20")]
+	[Address(RVA = "0x279BF30", Offset = "0x279A530", VA = "0x18279BF30")]
 	public Datatype_base64Binary()
 	{
 	}

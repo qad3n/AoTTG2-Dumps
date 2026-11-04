@@ -11,54 +11,54 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200028D")]
+[Token(Token = "0x20003D7")]
 internal class CustomLogicClassDefinitionAst : CustomLogicBaseAst
 {
-	[Token(Token = "0x4000DC9")]
+	[Token(Token = "0x40013E7")]
 	[FieldOffset(Offset = "0x18")]
 	public List<CustomLogicAssignmentExpressionAst> Assignments;
 
-	[Token(Token = "0x4000DCA")]
+	[Token(Token = "0x40013E8")]
 	[FieldOffset(Offset = "0x20")]
 	public Dictionary<string, CustomLogicMethodDefinitionAst> Methods;
 
-	[Token(Token = "0x4000DCB")]
+	[Token(Token = "0x40013E9")]
 	[FieldOffset(Offset = "0x28")]
 	public CustomLogicToken Token;
 
-	[Token(Token = "0x170001D7")]
+	[Token(Token = "0x1700028A")]
 	public CustomLogicSourceType? Namespace
 	{
-		[Token(Token = "0x6000F74")]
-		[Address(RVA = "0x3FB8520", Offset = "0x3FB8520", VA = "0x3FB8520")]
+		[Token(Token = "0x60017F3")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000F75")]
-		[Address(RVA = "0x3FB8530", Offset = "0x3FB8530", VA = "0x3FB8530")]
+		[Token(Token = "0x60017F4")]
+		[Address(RVA = "0x1C61410", Offset = "0x1C5FA10", VA = "0x181C61410")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000F76")]
-	[Address(RVA = "0x3FB8540", Offset = "0x3FB8540", VA = "0x3FB8540")]
+	[Token(Token = "0x60017F5")]
+	[Address(RVA = "0x1ECDC80", Offset = "0x1ECC280", VA = "0x181ECDC80")]
 	public CustomLogicClassDefinitionAst(CustomLogicToken token, int line)
 	{
 	}
 
-	[Token(Token = "0x6000F77")]
-	[Address(RVA = "0x3FB8790", Offset = "0x3FB8790", VA = "0x3FB8790")]
+	[Token(Token = "0x60017F6")]
+	[Address(RVA = "0x1ECDC20", Offset = "0x1ECC220", VA = "0x181ECDC20")]
 	public CustomLogicMethodDefinitionAst GetInit()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F78")]
-	[Address(RVA = "0x3FB87F0", Offset = "0x3FB87F0", VA = "0x3FB87F0")]
+	[Token(Token = "0x60017F7")]
+	[Address(RVA = "0x1ECDB60", Offset = "0x1ECC160", VA = "0x181ECDB60")]
 	public void AddMethod(string methodName, CustomLogicMethodDefinitionAst methodAst)
 	{
 	}

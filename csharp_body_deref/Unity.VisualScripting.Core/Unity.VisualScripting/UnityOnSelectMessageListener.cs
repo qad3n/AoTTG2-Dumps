@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnSelectMessageListener : MessageListener, ISelectHandler, IEventSystemHandler
 {
-	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x4CB7C30", Offset = "0x4CB7C30", VA = "0x4CB7C30", Slot = "4")]
+	[Token(Token = "0x6000495")]
+	[Address(RVA = "0x2DBEDE0", Offset = "0x2DBD3E0", VA = "0x182DBEDE0", Slot = "4")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x4CB7CC0", Offset = "0x4CB7CC0", VA = "0x4CB7CC0")]
+	[Token(Token = "0x6000496")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnSelectMessageListener()
 	{
 	}

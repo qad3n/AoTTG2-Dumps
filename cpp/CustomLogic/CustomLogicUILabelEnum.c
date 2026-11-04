@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicUILabelEnum
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicUILabelEnum.cs
@@ -8,915 +8,789 @@
 
 // CustomLogic.CustomLogicUILabelEnum.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicUILabelEnum_o* CustomLogic_CustomLogicUILabelEnum_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x41ae560
+// 0x1820176e0
 
 CustomLogic_CustomLogicUILabelEnum_o *
 CustomLogic_CustomLogicUILabelEnum_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
-  uint in_EAX;
-  uint32_t uVar1;
-  bool_conflict bVar2;
   CustomLogic_BuiltinClassInstance_o *__this;
-  System_String_o *pSVar3;
-  System_String_o *pSVar4;
+  System_String_o *pSVar1;
   System_String_o *str2;
-  undefined8 uVar5;
+  System_String_o *str0;
+  Il2CppClass *klass;
   System_ArgumentException_o *__this_00;
-  undefined8 *puVar6;
-  System_ArgumentException_o *pSVar7;
-  System_Func_T__object__o *pSVar8;
-  CustomLogic_CustomLogicUILabelEnum_o *pCVar9;
-  undefined8 **ppuVar10;
-  undefined8 *puStack_30;
-  System_ArgumentException_o *pSStack_28;
-  System_String_o *pSStack_20;
-  undefined8 uStack_18;
+  MethodInfo *lastManagedFrame;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057ad4e9 == '\0') {
-    pSStack_20 = (System_String_o *)0x41ae57c;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicUILabelEnum);
-    g_data_057ad4e9 = '\x01';
+  if (Il2CppMethodInitialized_184346262 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicUILabelEnum);
+    Il2CppMethodInitialized_184346262 = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
-  if (args == (System_Object_array *)0x0) {
-    pSStack_20 = (System_String_o *)0x41ae5f7;
-    il2cpp_runtime_helper_022b2c90();
+  local_res8[0] = 0;
+  if (args != (System_Object_array *)0x0) {
+    if (args->max_length == 0) {
+      __this = (CustomLogic_BuiltinClassInstance_o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum);
+      if (Il2CppMethodInitialized_184346257 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+        Il2CppMethodInitialized_184346257 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
+      }
+      CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
+      return (CustomLogic_CustomLogicUILabelEnum_o *)__this;
+    }
+    NullCheck(args);
+    local_res8[0] = (int32_t)args->max_length;
+    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicUILabelEnum constructor found that takes ");
+    pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_1a77cc0(__this_00,pSVar1,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_CustomLogicUILabelEnum_Factory_CreateInstance);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  else if (args->max_length == 0) {
-    pSStack_20 = (System_String_o *)0x41ae5a6;
-    __this = (CustomLogic_BuiltinClassInstance_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicUILabelEnum);
-    if (g_data_057ad4de == '\0') {
-      pSStack_20 = (System_String_o *)0x41ae5be;
-      il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-      g_data_057ad4de = '\x01';
-    }
-    if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-      pSStack_20 = (System_String_o *)0x41ae5dd;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_20 = (System_String_o *)0x41ae5e7;
-    CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
-    return (CustomLogic_CustomLogicUILabelEnum_o *)__this;
-  }
-  pSStack_20 = (System_String_o *)0x41ae5ff;
-  il2cpp_runtime_helper_01f681a0(args);
-  uStack_18 = CONCAT44((int)args->max_length,(uint)uStack_18);
-  pSStack_20 = (System_String_o *)0x41ae612;
-  pSVar3 = System_Int32__ToString((int)&uStack_18 + 4,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41ae621;
-  pSVar4 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"No CustomLogicUILabelEnum constructor found that takes ");
-  pSStack_20 = (System_String_o *)0x41ae630;
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&" arguments");
-  pSStack_20 = (System_String_o *)0x41ae640;
-  pSVar3 = System_String__Concat_3af7150(pSVar4,pSVar3,str2,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41ae64f;
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentException);
-  pSStack_20 = (System_String_o *)0x41ae657;
-  __this_00 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  pSStack_20 = (System_String_o *)0x41ae667;
-  System_ArgumentException___ctor_3c12490(__this_00,pSVar3,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x41ae673;
-  il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicUILabelEnum_CreateInstance);
-  pSStack_20 = (System_String_o *)0x41ae67e;
-  pSVar7 = __this_00;
-  puStack_30 = (undefined8 *)il2cpp_runtime_helper_022b2b10();
-  ppuVar10 = &puStack_30;
-  pSStack_28 = __this_00;
-  pSStack_20 = pSVar3;
-  if (g_data_057ad4ea == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"TopRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomCenter");
-    il2cpp_runtime_helper_023445d0(&"MiddleLeft");
-    il2cpp_runtime_helper_023445d0(&"TopLeft");
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomLeft");
-    il2cpp_runtime_helper_023445d0(&"BottomRight");
-    g_data_057ad4ea = '\x01';
-  }
-  uVar1 = _PrivateImplementationDetails___ComputeStringHash((System_String_o *)pSVar7,(MethodInfo *)0x0);
-  if (uVar1 < 0x516feaaa) {
-    if (uVar1 < 0xb6af656) {
-      if (uVar1 == 0x6348be7) {
-        bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"BottomLeft",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puVar6 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_30 = puVar6;
-          if (g_data_057ad4f2 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomLeft_g____getter_9);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-            g_data_057ad4f2 = '\x01';
-          }
-          pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-          System_Func_object__object____ctor();
-          pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                     MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          return pCVar9;
-        }
-      }
-      else if ((uVar1 == 0xb6af655) &&
-              (bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"TopCenter",(MethodInfo *)0x0),
-              (char)bVar2 != '\0')) {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-          ppuVar10 = (undefined8 **)&uStack_18;
-          pSVar7 = pSStack_28;
-          pSVar3 = pSStack_20;
-        }
-        else {
-          ppuVar10 = (undefined8 **)&uStack_18;
-          pSVar7 = pSStack_28;
-          pSVar3 = pSStack_20;
-        }
-        goto CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter;
-      }
-    }
-    else if (uVar1 == 0x30130eca) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"MiddleRight",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057ad4f0 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleRight_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-          g_data_057ad4f0 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        return pCVar9;
-      }
-    }
-    else if ((uVar1 == 0x516feaa9) &&
-            (bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"MiddleLeft",(MethodInfo *)0x0),
-            (char)bVar2 != '\0')) {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057ad4ef == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleLeft_g____getter_6);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ef = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return pCVar9;
-    }
-  }
-  else if (uVar1 < 0x984f3d99) {
-    if (uVar1 == 0x984f3d98) {
-      bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"BottomRight",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puVar6 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        puStack_30 = puVar6;
-        if (g_data_057ad4f3 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomRight_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-          g_data_057ad4f3 = '\x01';
-        }
-        pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-        System_Func_object__object____ctor();
-        pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                   MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        return pCVar9;
-      }
-    }
-    else if ((uVar1 == 0x7dfdc8a6) &&
-            (bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"TopRight",(MethodInfo *)0x0),
-            (char)bVar2 != '\0')) {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057ad4ed == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopRight_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ed = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return pCVar9;
-    }
-  }
-  else if (uVar1 == 0xa87d916d) {
-    bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"TopLeft",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057ad4ec == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopLeft_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ec = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return pCVar9;
-    }
-  }
-  else if (uVar1 == 0xb23900c1) {
-    bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"MiddleCenter",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puVar6 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar6;
-      if (g_data_057ad4ee == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleCenter_g____getter);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ee = '\x01';
-      }
-      pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return pCVar9;
-    }
-  }
-  else if ((uVar1 == 0xbd631cff) &&
-          (bVar2 = System_String__op_Equality((System_String_o *)pSVar7,"BottomCenter",(MethodInfo *)0x0),
-          (char)bVar2 != '\0')) {
-    puVar6 = &TypeInfo_Bindings;
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      puVar6 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-    }
-    puStack_30 = puVar6;
-    if (g_data_057ad4f1 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomCenter_g____getter);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-      g_data_057ad4f1 = '\x01';
-    }
-    pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-    System_Func_object__object____ctor();
-    pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    CustomLogic_CLPropertyBinding_object____ctor
-              ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-               MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    return pCVar9;
-  }
-  pSVar3 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  pSVar4 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicUILabelEnum not found");
-  pSVar3 = System_String__Concat_3af7150(pSVar3,(System_String_o *)pSVar7,pSVar4,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  pSVar7 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  System_Exception___ctor_3cf6120((System_Exception_o *)pSVar7,pSVar3,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  puVar6 = (undefined8 *)il2cpp_runtime_helper_022b2b10(pSVar7,uVar5);
-CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter:
-  *(System_String_o **)((long)ppuVar10 + -8) = pSVar3;
-  *(System_ArgumentException_o **)((long)ppuVar10 + -0x10) = pSVar7;
-  *(undefined8 **)((long)ppuVar10 + -0x18) = puVar6;
-  if (g_data_057ad4eb == '\0') {
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeae9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopCenter_g____getter_2);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeaf5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb01;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb0d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4eb = '\x01';
-  }
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb23;
-  pSVar8 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb3c;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb4b;
-  pCVar9 = (CustomLogic_CustomLogicUILabelEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-  *(undefined8 *)((long)ppuVar10 + -0x20) = 0x41aeb65;
-  CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)pCVar9,pSVar8,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return pCVar9;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicUILabelEnum_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x41ae680
+// 0x181ff2260
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicUILabelEnum_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
-  uint32_t uVar1;
-  bool_conflict bVar2;
-  undefined8 *puVar3;
+  bool bVar1;
+  uint32_t uVar2;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
+  System_String_o *pSVar3;
   System_String_o *str0;
-  System_String_o *str2;
-  undefined8 uVar4;
-  System_Func_T__object__o *pSVar5;
-  CustomLogic_CLPropertyBinding_T__o *pCVar6;
-  System_Exception_o *unaff_RBX;
-  System_String_o *unaff_R14;
-  undefined8 *puStack_18;
+  Il2CppClass *klass;
+  System_Exception_o *__this_01;
+  MethodInfo *pMVar4;
   
-  if (g_data_057ad4ea == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"TopRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomCenter");
-    il2cpp_runtime_helper_023445d0(&"MiddleLeft");
-    il2cpp_runtime_helper_023445d0(&"TopLeft");
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomLeft");
-    il2cpp_runtime_helper_023445d0(&"BottomRight");
-    g_data_057ad4ea = '\x01';
+  if (Il2CppMethodInitialized_184346263 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"TopRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"TopLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"TopCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomRight");
+    Il2CppMethodInitialized_184346263 = '\x01';
   }
-  uVar1 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar1 < 0x516feaaa) {
-    if (uVar1 < 0xb6af656) {
-      if (uVar1 == 0x6348be7) {
-        bVar2 = System_String__op_Equality(name,"BottomLeft",(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') {
-          puStack_18 = &TypeInfo_Bindings;
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+  uVar2 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
+  if (uVar2 < 0x516feaaa) {
+    if (uVar2 < 0xb6af656) {
+      if (uVar2 == 0x6348be7) {
+        bVar1 = System_String__op_Equality(name,"BottomLeft",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
           }
-          if (g_data_057ad4f2 == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomLeft_g____getter_9);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-            g_data_057ad4f2 = '\x01';
+          if (Il2CppMethodInitialized_18434626b == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomLeft_g____getter_9_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+            Il2CppMethodInitialized_18434626b = '\x01';
           }
-          pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-          System_Func_object__object____ctor();
-          pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          CustomLogic_CLPropertyBinding_object____ctor
-                    (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomLeft_g____getter_9_0
+          ;
+          goto label_181ff283e;
         }
       }
-      else if ((uVar1 == 0xb6af655) &&
-              (bVar2 = System_String__op_Equality(name,"TopCenter",(MethodInfo *)0x0), (char)bVar2 != '\0'))
-      {
-        puVar3 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puVar3 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      else if (uVar2 == 0xb6af655) {
+        bVar1 = System_String__op_Equality(name,"TopCenter",(MethodInfo *)0x0);
+        if (bVar1) {
+          if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+          }
+          if (Il2CppMethodInitialized_184346264 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopCenter_g____getter_2_0
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+            Il2CppMethodInitialized_184346264 = '\x01';
+          }
+          __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                   il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          pMVar4 = 
+          MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopCenter_g____getter_2_0
+          ;
+          goto label_181ff283e;
         }
-        goto CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter;
       }
     }
-    else if (uVar1 == 0x30130eca) {
-      bVar2 = System_String__op_Equality(name,"MiddleRight",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 == 0x30130eca) {
+      bVar1 = System_String__op_Equality(name,"MiddleRight",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
         }
-        if (g_data_057ad4f0 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleRight_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-          g_data_057ad4f0 = '\x01';
+        if (Il2CppMethodInitialized_184346269 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleRight_g____getter_7_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          Il2CppMethodInitialized_184346269 = '\x01';
         }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleRight_g____getter_7_0
+        ;
+        goto label_181ff283e;
       }
     }
-    else if ((uVar1 == 0x516feaa9) &&
-            (bVar2 = System_String__op_Equality(name,"MiddleLeft",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    else if (uVar2 == 0x516feaa9) {
+      bVar1 = System_String__op_Equality(name,"MiddleLeft",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_184346268 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleLeft_g____getter_6_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          Il2CppMethodInitialized_184346268 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleLeft_g____getter_6_0
+        ;
+        goto label_181ff283e;
       }
-      if (g_data_057ad4ef == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleLeft_g____getter_6);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ef = '\x01';
+    }
+  }
+  else if (uVar2 < 0x984f3d99) {
+    if (uVar2 == 0x7dfdc8a6) {
+      bVar1 = System_String__op_Equality(name,"TopRight",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_184346266 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopRight_g____getter_4_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          Il2CppMethodInitialized_184346266 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopRight_g____getter_4_0
+        ;
+        goto label_181ff283e;
       }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+    }
+    else if (uVar2 == 0x984f3d98) {
+      bVar1 = System_String__op_Equality(name,"BottomRight",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_18434626c == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomRight_g____getter_10
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+          Il2CppMethodInitialized_18434626c = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        pMVar4 = 
+        MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomRight_g____getter_10
+        ;
+        goto label_181ff283e;
+      }
+    }
+  }
+  else if (uVar2 == 0xa87d916d) {
+    bVar1 = System_String__op_Equality(name,"TopLeft",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings)
+        ;
+      }
+      if (Il2CppMethodInitialized_184346265 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopLeft_g____getter_3_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        Il2CppMethodInitialized_184346265 = '\x01';
+      }
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopLeft_g____getter_3_0;
+label_181ff283e:
+      System_Func_object__object____ctor
+                (__this,(Il2CppObject *)0x0,(intptr_t)pMVar4,(MethodInfo_16E67D0 *)0x0);
+      __this_00 = il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
       CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+                ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+                 (System_Action_T__object__o *)0x0,
+                 (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+      return (CustomLogic_ICLMemberBinding_o *)__this_00;
     }
   }
-  else if (uVar1 < 0x984f3d99) {
-    if (uVar1 == 0x984f3d98) {
-      bVar2 = System_String__op_Equality(name,"BottomRight",(MethodInfo *)0x0);
-      if ((char)bVar2 != '\0') {
-        puStack_18 = &TypeInfo_Bindings;
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057ad4f3 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomRight_g____getter);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-          g_data_057ad4f3 = '\x01';
-        }
-        pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-        System_Func_object__object____ctor();
-        pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        CustomLogic_CLPropertyBinding_object____ctor
-                  (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+  else if (uVar2 == 0xb23900c1) {
+    bVar1 = System_String__op_Equality(name,"MiddleCenter",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings)
+        ;
       }
-    }
-    else if ((uVar1 == 0x7dfdc8a6) &&
-            (bVar2 = System_String__op_Equality(name,"TopRight",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+      if (Il2CppMethodInitialized_184346267 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleCenter_g____getter_5
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        Il2CppMethodInitialized_184346267 = '\x01';
       }
-      if (g_data_057ad4ed == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopRight_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ed = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleCenter_g____getter_5
+      ;
+      goto label_181ff283e;
     }
   }
-  else if (uVar1 == 0xa87d916d) {
-    bVar2 = System_String__op_Equality(name,"TopLeft",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+  else if (uVar2 == 0xbd631cff) {
+    bVar1 = System_String__op_Equality(name,"BottomCenter",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings)
+        ;
       }
-      if (g_data_057ad4ec == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopLeft_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ec = '\x01';
+      if (Il2CppMethodInitialized_18434626a == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomCenter_g____getter_8
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+        Il2CppMethodInitialized_18434626a = '\x01';
       }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+      pMVar4 = 
+      MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomCenter_g____getter_8
+      ;
+      goto label_181ff283e;
     }
   }
-  else if (uVar1 == 0xb23900c1) {
-    bVar2 = System_String__op_Equality(name,"MiddleCenter",(MethodInfo *)0x0);
-    if ((char)bVar2 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057ad4ee == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleCenter_g____getter);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-        g_data_057ad4ee = '\x01';
-      }
-      pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-      System_Func_object__object____ctor();
-      pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-    }
-  }
-  else if ((uVar1 == 0xbd631cff) &&
-          (bVar2 = System_String__op_Equality(name,"BottomCenter",(MethodInfo *)0x0), (char)bVar2 != '\0')) {
-    puStack_18 = &TypeInfo_Bindings;
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-    }
-    if (g_data_057ad4f1 == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomCenter_g____getter);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-      g_data_057ad4f1 = '\x01';
-    }
-    pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-    System_Func_object__object____ctor();
-    pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    CustomLogic_CLPropertyBinding_object____ctor(pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum)
-    ;
-    return (CustomLogic_ICLMemberBinding_o *)pCVar6;
-  }
-  str0 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicUILabelEnum not found");
-  unaff_R14 = System_String__Concat_3af7150(str0,name,str2,(MethodInfo *)0x0);
-  uVar4 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  unaff_RBX = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar4);
-  System_Exception___ctor_3cf6120(unaff_RBX,unaff_R14,(MethodInfo *)0x0);
-  uVar4 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  puVar3 = (undefined8 *)il2cpp_runtime_helper_022b2b10(unaff_RBX,uVar4);
-  register0x00000020 = (BADSPACEBASE *)&puStack_18;
-CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter:
-  *(System_String_o **)((long)register0x00000020 + -8) = unaff_R14;
-  *(System_Exception_o **)((long)register0x00000020 + -0x10) = unaff_RBX;
-  *(undefined8 **)((long)register0x00000020 + -0x18) = puVar3;
-  if (g_data_057ad4eb == '\0') {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeae9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopCenter_g____getter_2);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeaf5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb01;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb0d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4eb = '\x01';
-  }
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb23;
-  pSVar5 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb3c;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb4b;
-  pCVar6 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41aeb65;
-  CustomLogic_CLPropertyBinding_object____ctor(pCVar6,pSVar5,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return (CustomLogic_ICLMemberBinding_o *)pCVar6;
+  pSVar3 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicUILabelEnum not found");
+  str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+  pSVar3 = System_String__Concat_1969b70(str0,name,pSVar3,(MethodInfo *)0x0);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+  __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+  System_Exception___ctor_1b6abf0(__this_01,pSVar3,(MethodInfo *)0x0);
+  pMVar4 = il2cpp_codegen_get_runtime_metadata
+                     (&MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings_CreateMemberBinding);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,pMVar4);
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__TopCenter
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter (const MethodInfo* method);
-// 0x41aead0
+// 0x182008140
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopCenter(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4eb == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopCenter_g____getter_2);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4eb = '\x01';
+  if (Il2CppMethodInitialized_184346264 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopCenter_g____getter_2_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346264 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopCenter_g____getter_2_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__TopLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopLeft (const MethodInfo* method);
-// 0x41aeb70
+// 0x1820081e0
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopLeft(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4ec == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopLeft_g____getter_3_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4ec = '\x01';
+  if (Il2CppMethodInitialized_184346265 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopLeft_g____getter_3_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346265 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopLeft_g____getter_3_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__TopRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopRight (const MethodInfo* method);
-// 0x41aec10
+// 0x182008280
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__TopRight(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4ed == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__TopRight_g____getter_4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4ed = '\x01';
+  if (Il2CppMethodInitialized_184346266 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopRight_g____getter_4_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346266 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__TopRight_g____getter_4_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__MiddleCenter
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleCenter (const MethodInfo* method);
-// 0x41aecb0
+// 0x182006390
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleCenter(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4ee == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleCenter_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4ee = '\x01';
+  if (Il2CppMethodInitialized_184346267 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleCenter_g____getter_5
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346267 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleCenter_g____getter_5
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__MiddleLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleLeft (const MethodInfo* method);
-// 0x41aed50
+// 0x1820064d0
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleLeft(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4ef == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleLeft_g____getter_6);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4ef = '\x01';
+  if (Il2CppMethodInitialized_184346268 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleLeft_g____getter_6_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346268 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleLeft_g____getter_6_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__MiddleRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleRight (const MethodInfo* method);
-// 0x41aedf0
+// 0x182006610
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__MiddleRight(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4f0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__MiddleRight_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4f0 = '\x01';
+  if (Il2CppMethodInitialized_184346269 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleRight_g____getter_7_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_184346269 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__MiddleRight_g____getter_7_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__BottomCenter
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomCenter (const MethodInfo* method);
-// 0x41aee90
+// 0x182002fb0
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomCenter(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4f1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomCenter_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4f1 = '\x01';
+  if (Il2CppMethodInitialized_18434626a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomCenter_g____getter_8
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_18434626a = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomCenter_g____getter_8
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__BottomLeft
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomLeft (const MethodInfo* method);
-// 0x41aef30
+// 0x182003050
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomLeft(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4f2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomLeft_g____getter_9);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4f2 = '\x01';
+  if (Il2CppMethodInitialized_18434626b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomLeft_g____getter_9_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_18434626b = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomLeft_g____getter_9_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$__CreatePropertyBinding__BottomRight
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o* CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomRight (const MethodInfo* method);
-// 0x41aefd0
+// 0x1820030f0
 
 CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *
 CustomLogic_CustomLogicUILabelEnum_Bindings____CreatePropertyBinding__BottomRight(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this;
+  System_Func_CustomLogicUILabelEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *__this_00;
   
-  if (g_data_057ad4f3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__BottomRight_g____getter);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicUILabelEnum_object);
-    g_data_057ad4f3 = '\x01';
+  if (Il2CppMethodInitialized_18434626c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomRight_g____getter_10
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+    Il2CppMethodInitialized_18434626c = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicUILabelEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicUILabelEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicUILabelEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicUILabelEnum_Bindings___CreatePropertyBinding__BottomRight_g____getter_10
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicUILabelEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicUILabelEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicUILabelEnum_Bindings___cctor (const MethodInfo* method);
-// 0x41af070
+// 0x18200a8a0
 
 void CustomLogic_CustomLogicUILabelEnum_Bindings___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_object__o *__this;
+  System_Collections_Generic_HashSet_string__o *__this;
   
-  if (g_data_057ad4f4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    il2cpp_runtime_helper_023445d0(&"TopRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleRight");
-    il2cpp_runtime_helper_023445d0(&"MiddleCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomCenter");
-    il2cpp_runtime_helper_023445d0(&"MiddleLeft");
-    il2cpp_runtime_helper_023445d0(&"TopLeft");
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    il2cpp_runtime_helper_023445d0(&"BottomLeft");
-    il2cpp_runtime_helper_023445d0(&"BottomRight");
-    g_data_057ad4f4 = '\x01';
+  if (Il2CppMethodInitialized_18434626d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"TopRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleRight");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"TopLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"TopCenter");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomLeft");
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomRight");
+    Il2CppMethodInitialized_18434626d = '\x01';
   }
-  __this = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  System_Collections_Generic_HashSet_object____ctor(__this,MethodInfo_HashSet_1_System_String);
-  if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-    System_Collections_Generic_HashSet_object___Add(__this,"TopCenter",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"TopLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"TopRight",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"MiddleCenter",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"MiddleLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"MiddleRight",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"BottomCenter",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"BottomLeft",MethodInfo_Boolean_Add);
-    System_Collections_Generic_HashSet_object___Add(__this,"BottomRight",MethodInfo_Boolean_Add);
-    **(undefined8 **)(TypeInfo_Bindings + 0xb8) = __this;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_Bindings + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"TopCenter",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"TopLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"TopRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"MiddleCenter",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"MiddleLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"MiddleRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"BottomCenter",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"BottomLeft",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"BottomRight",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->static_fields->MemberNames = __this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicUILabelEnum_Bindings->static_fields->MemberNames,__this);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ad4df == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    g_data_057ad4df = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__TopCenter>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopCenter_g____getter_2_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af250
+// 0x181ffed80
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopCenter_g____getter_2_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopCenter_g____getter_2_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4df == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    g_data_057ad4df = '\x01';
+  if (Il2CppMethodInitialized_184346258 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopCenter");
+    Il2CppMethodInitialized_184346258 = '\x01';
   }
   return "TopCenter";
 }
@@ -924,16 +798,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopCenter
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__TopLeft>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopLeft_g____getter_3_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af280
+// 0x181ffedb0
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopLeft_g____getter_3_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopLeft_g____getter_3_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopLeft");
-    g_data_057ad4e0 = '\x01';
+  if (Il2CppMethodInitialized_184346259 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopLeft");
+    Il2CppMethodInitialized_184346259 = '\x01';
   }
   return "TopLeft";
 }
@@ -941,16 +814,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopLeft_g
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__TopRight>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopRight_g____getter_4_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af2b0
+// 0x181ffede0
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopRight_g____getter_4_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopRight_g____getter_4_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopRight");
-    g_data_057ad4e1 = '\x01';
+  if (Il2CppMethodInitialized_18434625a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopRight");
+    Il2CppMethodInitialized_18434625a = '\x01';
   }
   return "TopRight";
 }
@@ -958,16 +830,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__TopRight_
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__MiddleCenter>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleCenter_g____getter_5_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af2e0
+// 0x181ffe040
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleCenter_g____getter_5_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleCenter_g____getter_5_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleCenter");
-    g_data_057ad4e2 = '\x01';
+  if (Il2CppMethodInitialized_18434625b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleCenter");
+    Il2CppMethodInitialized_18434625b = '\x01';
   }
   return "MiddleCenter";
 }
@@ -975,16 +846,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleCen
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__MiddleLeft>g____getter|6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleLeft_g____getter_6_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af310
+// 0x181ffe070
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleLeft_g____getter_6_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleLeft_g____getter_6_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleLeft");
-    g_data_057ad4e3 = '\x01';
+  if (Il2CppMethodInitialized_18434625c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleLeft");
+    Il2CppMethodInitialized_18434625c = '\x01';
   }
   return "MiddleLeft";
 }
@@ -992,16 +862,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleLef
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__MiddleRight>g____getter|7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleRight_g____getter_7_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af340
+// 0x181ffe0a0
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleRight_g____getter_7_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleRight_g____getter_7_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleRight");
-    g_data_057ad4e4 = '\x01';
+  if (Il2CppMethodInitialized_18434625d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleRight");
+    Il2CppMethodInitialized_18434625d = '\x01';
   }
   return "MiddleRight";
 }
@@ -1009,16 +878,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__MiddleRig
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__BottomCenter>g____getter|8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomCenter_g____getter_8_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af370
+// 0x181ffc720
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomCenter_g____getter_8_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomCenter_g____getter_8_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomCenter");
-    g_data_057ad4e5 = '\x01';
+  if (Il2CppMethodInitialized_18434625e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomCenter");
+    Il2CppMethodInitialized_18434625e = '\x01';
   }
   return "BottomCenter";
 }
@@ -1026,16 +894,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomCen
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__BottomLeft>g____getter|9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomLeft_g____getter_9_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af3a0
+// 0x181ffc750
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomLeft_g____getter_9_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomLeft_g____getter_9_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomLeft");
-    g_data_057ad4e6 = '\x01';
+  if (Il2CppMethodInitialized_18434625f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomLeft");
+    Il2CppMethodInitialized_18434625f = '\x01';
   }
   return "BottomLeft";
 }
@@ -1043,16 +910,15 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomLef
 
 // CustomLogic.CustomLogicUILabelEnum.Bindings$$<__CreatePropertyBinding__BottomRight>g____getter|10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomRight_g____getter_10_0 (CustomLogic_CustomLogicUILabelEnum_o* __i, const MethodInfo* method);
-// 0x41af3d0
+// 0x181ffc780
 
-Il2CppObject *
-CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomRight_g____getter_10_0
-          (CustomLogic_CustomLogicUILabelEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomRight_g____getter_10_0(CustomLogic_CustomLogicUILabelEnum_o* __i, MethodInfo* method)
 
 {
-  if (g_data_057ad4e7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomRight");
-    g_data_057ad4e7 = '\x01';
+  if (Il2CppMethodInitialized_184346260 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomRight");
+    Il2CppMethodInitialized_184346260 = '\x01';
   }
   return "BottomRight";
 }
@@ -1060,27 +926,19 @@ CustomLogic_CustomLogicUILabelEnum_Bindings_____CreatePropertyBinding__BottomRig
 
 // CustomLogic.CustomLogicUILabelEnum$$.ctor
 // il2cpp: void CustomLogic_CustomLogicUILabelEnum___ctor (CustomLogic_CustomLogicUILabelEnum_o* __this, const MethodInfo* method);
-// 0x41ae2e0
+// 0x1820163a0
 
 void CustomLogic_CustomLogicUILabelEnum___ctor
                (CustomLogic_CustomLogicUILabelEnum_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057ad4de == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ad4de = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if (Il2CppMethodInitialized_184346257 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_184346257 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_02337ed0();
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -1088,14 +946,14 @@ void CustomLogic_CustomLogicUILabelEnum___ctor
 
 // CustomLogic.CustomLogicUILabelEnum$$get_TopCenter
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_TopCenter (const MethodInfo* method);
-// 0x41ae350
+// 0x181ffed80
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopCenter(MethodInfo *method)
 
 {
-  if (g_data_057ad4df == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopCenter");
-    g_data_057ad4df = '\x01';
+  if (Il2CppMethodInitialized_184346258 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopCenter");
+    Il2CppMethodInitialized_184346258 = '\x01';
   }
   return "TopCenter";
 }
@@ -1103,14 +961,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopCenter(MethodInfo *
 
 // CustomLogic.CustomLogicUILabelEnum$$get_TopLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_TopLeft (const MethodInfo* method);
-// 0x41ae380
+// 0x181ffedb0
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopLeft(MethodInfo *method)
 
 {
-  if (g_data_057ad4e0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopLeft");
-    g_data_057ad4e0 = '\x01';
+  if (Il2CppMethodInitialized_184346259 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopLeft");
+    Il2CppMethodInitialized_184346259 = '\x01';
   }
   return "TopLeft";
 }
@@ -1118,14 +976,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopLeft(MethodInfo *me
 
 // CustomLogic.CustomLogicUILabelEnum$$get_TopRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_TopRight (const MethodInfo* method);
-// 0x41ae3b0
+// 0x181ffede0
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopRight(MethodInfo *method)
 
 {
-  if (g_data_057ad4e1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"TopRight");
-    g_data_057ad4e1 = '\x01';
+  if (Il2CppMethodInitialized_18434625a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"TopRight");
+    Il2CppMethodInitialized_18434625a = '\x01';
   }
   return "TopRight";
 }
@@ -1133,14 +991,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_TopRight(MethodInfo *m
 
 // CustomLogic.CustomLogicUILabelEnum$$get_MiddleCenter
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_MiddleCenter (const MethodInfo* method);
-// 0x41ae3e0
+// 0x181ffe040
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleCenter(MethodInfo *method)
 
 {
-  if (g_data_057ad4e2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleCenter");
-    g_data_057ad4e2 = '\x01';
+  if (Il2CppMethodInitialized_18434625b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleCenter");
+    Il2CppMethodInitialized_18434625b = '\x01';
   }
   return "MiddleCenter";
 }
@@ -1148,14 +1006,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleCenter(MethodInf
 
 // CustomLogic.CustomLogicUILabelEnum$$get_MiddleLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_MiddleLeft (const MethodInfo* method);
-// 0x41ae410
+// 0x181ffe070
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleLeft(MethodInfo *method)
 
 {
-  if (g_data_057ad4e3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleLeft");
-    g_data_057ad4e3 = '\x01';
+  if (Il2CppMethodInitialized_18434625c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleLeft");
+    Il2CppMethodInitialized_18434625c = '\x01';
   }
   return "MiddleLeft";
 }
@@ -1163,14 +1021,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleLeft(MethodInfo 
 
 // CustomLogic.CustomLogicUILabelEnum$$get_MiddleRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_MiddleRight (const MethodInfo* method);
-// 0x41ae440
+// 0x181ffe0a0
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleRight(MethodInfo *method)
 
 {
-  if (g_data_057ad4e4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"MiddleRight");
-    g_data_057ad4e4 = '\x01';
+  if (Il2CppMethodInitialized_18434625d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"MiddleRight");
+    Il2CppMethodInitialized_18434625d = '\x01';
   }
   return "MiddleRight";
 }
@@ -1178,14 +1036,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_MiddleRight(MethodInfo
 
 // CustomLogic.CustomLogicUILabelEnum$$get_BottomCenter
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_BottomCenter (const MethodInfo* method);
-// 0x41ae470
+// 0x181ffc720
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomCenter(MethodInfo *method)
 
 {
-  if (g_data_057ad4e5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomCenter");
-    g_data_057ad4e5 = '\x01';
+  if (Il2CppMethodInitialized_18434625e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomCenter");
+    Il2CppMethodInitialized_18434625e = '\x01';
   }
   return "BottomCenter";
 }
@@ -1193,14 +1051,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomCenter(MethodInf
 
 // CustomLogic.CustomLogicUILabelEnum$$get_BottomLeft
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_BottomLeft (const MethodInfo* method);
-// 0x41ae4a0
+// 0x181ffc750
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomLeft(MethodInfo *method)
 
 {
-  if (g_data_057ad4e6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomLeft");
-    g_data_057ad4e6 = '\x01';
+  if (Il2CppMethodInitialized_18434625f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomLeft");
+    Il2CppMethodInitialized_18434625f = '\x01';
   }
   return "BottomLeft";
 }
@@ -1208,14 +1066,14 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomLeft(MethodInfo 
 
 // CustomLogic.CustomLogicUILabelEnum$$get_BottomRight
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_BottomRight (const MethodInfo* method);
-// 0x41ae4d0
+// 0x181ffc780
 
 System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomRight(MethodInfo *method)
 
 {
-  if (g_data_057ad4e7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"BottomRight");
-    g_data_057ad4e7 = '\x01';
+  if (Il2CppMethodInitialized_184346260 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"BottomRight");
+    Il2CppMethodInitialized_184346260 = '\x01';
   }
   return "BottomRight";
 }
@@ -1223,16 +1081,16 @@ System_String_o * CustomLogic_CustomLogicUILabelEnum__get_BottomRight(MethodInfo
 
 // CustomLogic.CustomLogicUILabelEnum$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicUILabelEnum__get_ClassName (CustomLogic_CustomLogicUILabelEnum_o* __this, const MethodInfo* method);
-// 0x41ae500
+// 0x1820163f0
 
 System_String_o *
 CustomLogic_CustomLogicUILabelEnum__get_ClassName
           (CustomLogic_CustomLogicUILabelEnum_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ad4e8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"UILabelEnum");
-    g_data_057ad4e8 = '\x01';
+  if (Il2CppMethodInitialized_184346261 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"UILabelEnum");
+    Il2CppMethodInitialized_184346261 = '\x01';
   }
   return "UILabelEnum";
 }
@@ -1240,46 +1098,37 @@ CustomLogic_CustomLogicUILabelEnum__get_ClassName
 
 // CustomLogic.CustomLogicUILabelEnum$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicUILabelEnum__get_IsAbstract (CustomLogic_CustomLogicUILabelEnum_o* __this, const MethodInfo* method);
-// 0x41ae530
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicUILabelEnum__get_IsAbstract
-          (CustomLogic_CustomLogicUILabelEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicUILabelEnum__get_IsAbstract(CustomLogic_CustomLogicUILabelEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicUILabelEnum__get_IsStatic (CustomLogic_CustomLogicUILabelEnum_o* __this, const MethodInfo* method);
-// 0x41ae540
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicUILabelEnum__get_IsStatic
-          (CustomLogic_CustomLogicUILabelEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicUILabelEnum__get_IsStatic(CustomLogic_CustomLogicUILabelEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicUILabelEnum$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicUILabelEnum__get_InheritBaseMembers (CustomLogic_CustomLogicUILabelEnum_o* __this, const MethodInfo* method);
-// 0x41ae550
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicUILabelEnum__get_InheritBaseMembers
-          (CustomLogic_CustomLogicUILabelEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicUILabelEnum__get_InheritBaseMembers(CustomLogic_CustomLogicUILabelEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 

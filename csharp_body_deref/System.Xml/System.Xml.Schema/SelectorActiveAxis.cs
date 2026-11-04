@@ -29,7 +29,7 @@ internal class SelectorActiveAxis : ActiveAxis
 	public int lastDepth
 	{
 		[Token(Token = "0x6000FA2")]
-		[Address(RVA = "0x4843930", Offset = "0x4843930", VA = "0x4843930")]
+		[Address(RVA = "0x2784150", Offset = "0x2782750", VA = "0x182784150")]
 		get
 		{
 			return default(int);
@@ -37,27 +37,27 @@ internal class SelectorActiveAxis : ActiveAxis
 	}
 
 	[Token(Token = "0x6000FA3")]
-	[Address(RVA = "0x4843850", Offset = "0x4843850", VA = "0x4843850")]
+	[Address(RVA = "0x27840C0", Offset = "0x27826C0", VA = "0x1827840C0")]
 	public SelectorActiveAxis(Asttree axisTree, ConstraintStruct cs)
 	{
 	}
 
 	[Token(Token = "0x6000FA4")]
-	[Address(RVA = "0x48439C0", Offset = "0x48439C0", VA = "0x48439C0", Slot = "4")]
+	[Address(RVA = "0x2783A40", Offset = "0x2782040", VA = "0x182783A40", Slot = "4")]
 	public override bool EndElement(string localname, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FA5")]
-	[Address(RVA = "0x48439F0", Offset = "0x48439F0", VA = "0x48439F0")]
+	[Address(RVA = "0x2783CD0", Offset = "0x27822D0", VA = "0x182783CD0")]
 	public int PushKS(int errline, int errcol)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000FA6")]
-	[Address(RVA = "0x4843EE0", Offset = "0x4843EE0", VA = "0x4843EE0")]
+	[Address(RVA = "0x2783C30", Offset = "0x2782230", VA = "0x182783C30")]
 	public KeySequence PopKS()
 	{
 		return null;

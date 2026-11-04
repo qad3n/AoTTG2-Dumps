@@ -10,84 +10,84 @@ using Il2CppDummyDll;
 
 namespace System.Numerics;
 
-[Token(Token = "0x2000532")]
+[Token(Token = "0x2000562")]
 internal class ConstantHelper
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C2")]
-	[Address(RVA = "0x3BE9C60", Offset = "0x3BE9C60", VA = "0x3BE9C60")]
+	[Token(Token = "0x6002845")]
+	[Address(RVA = "0x1A5F1C0", Offset = "0x1A5D7C0", VA = "0x181A5F1C0")]
 	public static byte GetByteWithAllBitsSet()
 	{
 		return default(byte);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C3")]
-	[Address(RVA = "0x3BE9C70", Offset = "0x3BE9C70", VA = "0x3BE9C70")]
+	[Token(Token = "0x6002846")]
+	[Address(RVA = "0x1A5F1C0", Offset = "0x1A5D7C0", VA = "0x181A5F1C0")]
 	public static sbyte GetSByteWithAllBitsSet()
 	{
 		return default(sbyte);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C4")]
-	[Address(RVA = "0x3BE9C80", Offset = "0x3BE9C80", VA = "0x3BE9C80")]
+	[Token(Token = "0x6002847")]
+	[Address(RVA = "0x1A5F210", Offset = "0x1A5D810", VA = "0x181A5F210")]
 	public static ushort GetUInt16WithAllBitsSet()
 	{
 		return default(ushort);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C5")]
-	[Address(RVA = "0x3BE9C90", Offset = "0x3BE9C90", VA = "0x3BE9C90")]
+	[Token(Token = "0x6002848")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0")]
 	public static short GetInt16WithAllBitsSet()
 	{
 		return default(short);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C6")]
-	[Address(RVA = "0x3BE9CA0", Offset = "0x3BE9CA0", VA = "0x3BE9CA0")]
+	[Token(Token = "0x6002849")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0")]
 	public static uint GetUInt32WithAllBitsSet()
 	{
 		return default(uint);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C7")]
-	[Address(RVA = "0x3BE9CB0", Offset = "0x3BE9CB0", VA = "0x3BE9CB0")]
+	[Token(Token = "0x600284A")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0")]
 	public static int GetInt32WithAllBitsSet()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C8")]
-	[Address(RVA = "0x3BE9CC0", Offset = "0x3BE9CC0", VA = "0x3BE9CC0")]
+	[Token(Token = "0x600284B")]
+	[Address(RVA = "0x1A5F1F0", Offset = "0x1A5D7F0", VA = "0x181A5F1F0")]
 	public static ulong GetUInt64WithAllBitsSet()
 	{
 		return default(ulong);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027C9")]
-	[Address(RVA = "0x3BE9CD0", Offset = "0x3BE9CD0", VA = "0x3BE9CD0")]
+	[Token(Token = "0x600284C")]
+	[Address(RVA = "0x1A5F1F0", Offset = "0x1A5D7F0", VA = "0x181A5F1F0")]
 	public static long GetInt64WithAllBitsSet()
 	{
 		return default(long);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027CA")]
-	[Address(RVA = "0x3BE9CE0", Offset = "0x3BE9CE0", VA = "0x3BE9CE0")]
+	[Token(Token = "0x600284D")]
+	[Address(RVA = "0x1A5F200", Offset = "0x1A5D800", VA = "0x181A5F200")]
 	public static float GetSingleWithAllBitsSet()
 	{
 		return default(float);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60027CB")]
-	[Address(RVA = "0x3BE9CF0", Offset = "0x3BE9CF0", VA = "0x3BE9CF0")]
+	[Token(Token = "0x600284E")]
+	[Address(RVA = "0x1A5F1D0", Offset = "0x1A5D7D0", VA = "0x181A5F1D0")]
 	public static double GetDoubleWithAllBitsSet()
 	{
 		return default(double);

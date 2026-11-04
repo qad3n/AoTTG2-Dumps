@@ -27,7 +27,7 @@ internal sealed class CacheDict<TKey, TValue>
 		[FieldOffset(Offset = "0x0")]
 		internal readonly TValue _value;
 
-		[Token(Token = "0x6000C8A")]
+		[Token(Token = "0x6000C89")]
 		internal Entry(int hash, TKey key, TValue value)
 		{
 		}
@@ -44,30 +44,30 @@ internal sealed class CacheDict<TKey, TValue>
 	[Token(Token = "0x1700028B")]
 	internal TKey this[TKey key]
 	{
-		[Token(Token = "0x6000C89")]
+		[Token(Token = "0x6000C88")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000C85")]
+	[Token(Token = "0x6000C84")]
 	internal CacheDict(int size)
 	{
 	}
 
-	[Token(Token = "0x6000C86")]
+	[Token(Token = "0x6000C85")]
 	private static int AlignSize(int size)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000C87")]
+	[Token(Token = "0x6000C86")]
 	internal bool TryGetValue(TKey key, out TValue value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C88")]
+	[Token(Token = "0x6000C87")]
 	internal void Add(TKey key, TValue value)
 	{
 	}

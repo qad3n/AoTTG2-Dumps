@@ -9,52 +9,52 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x2000011")]
 public sealed class GUILayoutOption
 {
-	[Token(Token = "0x2000011")]
+	[Token(Token = "0x2000012")]
 	internal enum Type
 	{
-		[Token(Token = "0x4000064")]
-		fixedWidth,
-		[Token(Token = "0x4000065")]
-		fixedHeight,
 		[Token(Token = "0x4000066")]
-		minWidth,
+		fixedWidth,
 		[Token(Token = "0x4000067")]
-		maxWidth,
+		fixedHeight,
 		[Token(Token = "0x4000068")]
-		minHeight,
+		minWidth,
 		[Token(Token = "0x4000069")]
-		maxHeight,
+		maxWidth,
 		[Token(Token = "0x400006A")]
-		stretchWidth,
+		minHeight,
 		[Token(Token = "0x400006B")]
-		stretchHeight,
+		maxHeight,
 		[Token(Token = "0x400006C")]
-		alignStart,
+		stretchWidth,
 		[Token(Token = "0x400006D")]
-		alignMiddle,
+		stretchHeight,
 		[Token(Token = "0x400006E")]
-		alignEnd,
+		alignStart,
 		[Token(Token = "0x400006F")]
-		alignJustify,
+		alignMiddle,
 		[Token(Token = "0x4000070")]
-		equalSize,
+		alignEnd,
 		[Token(Token = "0x4000071")]
+		alignJustify,
+		[Token(Token = "0x4000072")]
+		equalSize,
+		[Token(Token = "0x4000073")]
 		spacing
 	}
 
-	[Token(Token = "0x4000061")]
+	[Token(Token = "0x4000063")]
 	[FieldOffset(Offset = "0x10")]
 	internal Type type;
 
-	[Token(Token = "0x4000062")]
+	[Token(Token = "0x4000064")]
 	[FieldOffset(Offset = "0x18")]
 	internal object value;
 
-	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x4E511D0", Offset = "0x4E511D0", VA = "0x4E511D0")]
+	[Token(Token = "0x60000FD")]
+	[Address(RVA = "0xC83FB0", Offset = "0xC825B0", VA = "0x180C83FB0")]
 	internal GUILayoutOption(Type type, object value)
 	{
 	}

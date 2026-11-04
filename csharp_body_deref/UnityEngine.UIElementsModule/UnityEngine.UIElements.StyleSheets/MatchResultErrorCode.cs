@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x2000545")]
+[Token(Token = "0x200063B")]
 internal enum MatchResultErrorCode
 {
-	[Token(Token = "0x400122A")]
+	[Token(Token = "0x40017D2")]
 	None,
-	[Token(Token = "0x400122B")]
+	[Token(Token = "0x40017D3")]
 	Syntax,
-	[Token(Token = "0x400122C")]
+	[Token(Token = "0x40017D4")]
 	EmptyValue,
-	[Token(Token = "0x400122D")]
+	[Token(Token = "0x40017D5")]
 	ExpectedEndOfValue
 }

@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200016C")]
+[Token(Token = "0x20002F4")]
 internal enum CookieToken
 {
-	[Token(Token = "0x400073F")]
+	[Token(Token = "0x4000B55")]
 	Nothing,
-	[Token(Token = "0x4000740")]
+	[Token(Token = "0x4000B56")]
 	NameValuePair,
-	[Token(Token = "0x4000741")]
+	[Token(Token = "0x4000B57")]
 	Attribute,
-	[Token(Token = "0x4000742")]
+	[Token(Token = "0x4000B58")]
 	EndToken,
-	[Token(Token = "0x4000743")]
+	[Token(Token = "0x4000B59")]
 	EndCookie,
-	[Token(Token = "0x4000744")]
+	[Token(Token = "0x4000B5A")]
 	End,
-	[Token(Token = "0x4000745")]
+	[Token(Token = "0x4000B5B")]
 	Equals,
-	[Token(Token = "0x4000746")]
+	[Token(Token = "0x4000B5C")]
 	Comment,
-	[Token(Token = "0x4000747")]
+	[Token(Token = "0x4000B5D")]
 	CommentUrl,
-	[Token(Token = "0x4000748")]
+	[Token(Token = "0x4000B5E")]
 	CookieName,
-	[Token(Token = "0x4000749")]
+	[Token(Token = "0x4000B5F")]
 	Discard,
-	[Token(Token = "0x400074A")]
+	[Token(Token = "0x4000B60")]
 	Domain,
-	[Token(Token = "0x400074B")]
+	[Token(Token = "0x4000B61")]
 	Expires,
-	[Token(Token = "0x400074C")]
+	[Token(Token = "0x4000B62")]
 	MaxAge,
-	[Token(Token = "0x400074D")]
+	[Token(Token = "0x4000B63")]
 	Path,
-	[Token(Token = "0x400074E")]
+	[Token(Token = "0x4000B64")]
 	Port,
-	[Token(Token = "0x400074F")]
+	[Token(Token = "0x4000B65")]
 	Secure,
-	[Token(Token = "0x4000750")]
+	[Token(Token = "0x4000B66")]
 	HttpOnly,
-	[Token(Token = "0x4000751")]
+	[Token(Token = "0x4000B67")]
 	Unknown,
-	[Token(Token = "0x4000752")]
+	[Token(Token = "0x4000B68")]
 	Version
 }

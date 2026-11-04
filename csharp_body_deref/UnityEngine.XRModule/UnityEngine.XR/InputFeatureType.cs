@@ -33,5 +33,5 @@ internal enum InputFeatureType : uint
 	[Token(Token = "0x4000030")]
 	Eyes = 9u,
 	[Token(Token = "0x4000031")]
-	kUnityXRInputFeatureTypeInvalid = uint.MaxValue
+	kUnityXRInputFeatureTypeInvalid = 4294967295u
 }

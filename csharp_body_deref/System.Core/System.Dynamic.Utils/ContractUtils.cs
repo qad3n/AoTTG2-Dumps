@@ -18,45 +18,45 @@ internal static class ContractUtils
 	[ExcludeFromCodeCoverage]
 	public static Exception Unreachable
 	{
-		[Token(Token = "0x6000C90")]
-		[Address(RVA = "0x45112A0", Offset = "0x45112A0", VA = "0x45112A0")]
+		[Token(Token = "0x6000C8F")]
+		[Address(RVA = "0x2483350", Offset = "0x2481950", VA = "0x182483350")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x4510BA0", Offset = "0x4510BA0", VA = "0x4510BA0")]
+	[Token(Token = "0x6000C90")]
+	[Address(RVA = "0x2483310", Offset = "0x2481910", VA = "0x182483310")]
 	public static void Requires(bool precondition, string paramName)
 	{
 	}
 
-	[Token(Token = "0x6000C92")]
-	[Address(RVA = "0x450E150", Offset = "0x450E150", VA = "0x450E150")]
+	[Token(Token = "0x6000C91")]
+	[Address(RVA = "0x24832B0", Offset = "0x24818B0", VA = "0x1824832B0")]
 	public static void RequiresNotNull(object value, string paramName)
 	{
 	}
 
-	[Token(Token = "0x6000C93")]
-	[Address(RVA = "0x4511300", Offset = "0x4511300", VA = "0x4511300")]
+	[Token(Token = "0x6000C92")]
+	[Address(RVA = "0x2483230", Offset = "0x2481830", VA = "0x182483230")]
 	public static void RequiresNotNull(object value, string paramName, int index)
 	{
 	}
 
-	[Token(Token = "0x6000C94")]
+	[Token(Token = "0x6000C93")]
 	public static void RequiresNotNullItems<T>(IList<T> array, string arrayName)
 	{
 	}
 
-	[Token(Token = "0x6000C95")]
-	[Address(RVA = "0x4511360", Offset = "0x4511360", VA = "0x4511360")]
+	[Token(Token = "0x6000C94")]
+	[Address(RVA = "0x24831B0", Offset = "0x24817B0", VA = "0x1824831B0")]
 	private static string GetParamName(string paramName, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C96")]
+	[Token(Token = "0x6000C95")]
 	public static void RequiresArrayRange<T>(IList<T> array, int offset, int count, string offsetName, string countName)
 	{
 	}

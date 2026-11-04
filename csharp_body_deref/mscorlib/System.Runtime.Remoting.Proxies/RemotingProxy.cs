@@ -11,81 +11,81 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Proxies;
 
-[Token(Token = "0x200035E")]
+[Token(Token = "0x200038D")]
 internal class RemotingProxy : RealProxy, IRemotingTypeInfo
 {
-	[Token(Token = "0x4000ED6")]
+	[Token(Token = "0x4000EE3")]
 	[FieldOffset(Offset = "0x0")]
 	private static MethodInfo _cache_GetTypeMethod;
 
-	[Token(Token = "0x4000ED7")]
+	[Token(Token = "0x4000EE4")]
 	[FieldOffset(Offset = "0x8")]
 	private static MethodInfo _cache_GetHashCodeMethod;
 
-	[Token(Token = "0x4000ED8")]
+	[Token(Token = "0x4000EE5")]
 	[FieldOffset(Offset = "0x50")]
 	private IMessageSink _sink;
 
-	[Token(Token = "0x4000ED9")]
+	[Token(Token = "0x4000EE6")]
 	[FieldOffset(Offset = "0x58")]
 	private bool _hasEnvoySink;
 
-	[Token(Token = "0x4000EDA")]
+	[Token(Token = "0x4000EE7")]
 	[FieldOffset(Offset = "0x60")]
 	private ConstructionCall _ctorCall;
 
-	[Token(Token = "0x17000357")]
+	[Token(Token = "0x17000359")]
 	public string TypeName
 	{
-		[Token(Token = "0x6001D0F")]
-		[Address(RVA = "0x3B76C50", Offset = "0x3B76C50", VA = "0x3B76C50", Slot = "8")]
+		[Token(Token = "0x6001D7E")]
+		[Address(RVA = "0x1A07420", Offset = "0x1A05A20", VA = "0x181A07420", Slot = "8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D0A")]
-	[Address(RVA = "0x3B74A00", Offset = "0x3B74A00", VA = "0x3B74A00")]
+	[Token(Token = "0x6001D79")]
+	[Address(RVA = "0x1A07250", Offset = "0x1A05850", VA = "0x181A07250")]
 	internal RemotingProxy(Type type, System.Runtime.Remoting.ClientIdentity identity)
 	{
 	}
 
-	[Token(Token = "0x6001D0B")]
-	[Address(RVA = "0x3B71B70", Offset = "0x3B71B70", VA = "0x3B71B70")]
+	[Token(Token = "0x6001D7A")]
+	[Address(RVA = "0x1A07350", Offset = "0x1A05950", VA = "0x181A07350")]
 	internal RemotingProxy(Type type, string activationUrl, object[] activationAttributes)
 	{
 	}
 
-	[Token(Token = "0x6001D0C")]
-	[Address(RVA = "0x3B75830", Offset = "0x3B75830", VA = "0x3B75830", Slot = "5")]
+	[Token(Token = "0x6001D7B")]
+	[Address(RVA = "0x1A06CF0", Offset = "0x1A052F0", VA = "0x181A06CF0", Slot = "5")]
 	public override IMessage Invoke(IMessage request)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D0D")]
-	[Address(RVA = "0x3B762F0", Offset = "0x3B762F0", VA = "0x3B762F0")]
+	[Token(Token = "0x6001D7C")]
+	[Address(RVA = "0x1A066F0", Offset = "0x1A04CF0", VA = "0x181A066F0")]
 	internal void AttachIdentity(System.Runtime.Remoting.Identity identity)
 	{
 	}
 
-	[Token(Token = "0x6001D0E")]
-	[Address(RVA = "0x3B735E0", Offset = "0x3B735E0", VA = "0x3B735E0")]
+	[Token(Token = "0x6001D7D")]
+	[Address(RVA = "0x1A06610", Offset = "0x1A04C10", VA = "0x181A06610")]
 	internal IMessage ActivateRemoteObject(IMethodMessage request)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D10")]
-	[Address(RVA = "0x3B76DB0", Offset = "0x3B76DB0", VA = "0x3B76DB0", Slot = "9")]
+	[Token(Token = "0x6001D7F")]
+	[Address(RVA = "0x1A069D0", Offset = "0x1A04FD0", VA = "0x181A069D0", Slot = "9")]
 	public bool CanCastTo(Type fromType, object o)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001D11")]
-	[Address(RVA = "0x3B76FC0", Offset = "0x3B76FC0", VA = "0x3B76FC0", Slot = "1")]
+	[Token(Token = "0x6001D80")]
+	[Address(RVA = "0x1A06C10", Offset = "0x1A05210", VA = "0x181A06C10", Slot = "1")]
 	~RemotingProxy()
 	{
 	}

@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000CB")]
+[Token(Token = "0x20000EE")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/Projector.h")]
 public sealed class Projector : Behaviour
 {

@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000141")]
+[Token(Token = "0x20002C9")]
 public interface IWebRequestCreate
 {
-	[Token(Token = "0x60007CD")]
+	[Token(Token = "0x600138C")]
 	WebRequest Create(Uri uri);
 }

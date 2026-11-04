@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000D")]
 [VisibleToOtherModules]
 internal enum TargetType
 {
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x4000010")]
 	Function,
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x4000011")]
 	Field
 }

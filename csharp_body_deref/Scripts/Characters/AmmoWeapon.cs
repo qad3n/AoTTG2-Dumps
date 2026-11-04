@@ -9,65 +9,65 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000531")]
+[Token(Token = "0x200068C")]
 internal class AmmoWeapon : ExtendedUseable
 {
-	[Token(Token = "0x4001832")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4001ECF")]
+	[FieldOffset(Offset = "0x40")]
 	public int MaxAmmo;
 
-	[Token(Token = "0x4001833")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4001ED0")]
+	[FieldOffset(Offset = "0x44")]
 	public int AmmoLeft;
 
-	[Token(Token = "0x4001834")]
-	[FieldOffset(Offset = "0x44")]
+	[Token(Token = "0x4001ED1")]
+	[FieldOffset(Offset = "0x48")]
 	public int MaxRound;
 
-	[Token(Token = "0x4001835")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4001ED2")]
+	[FieldOffset(Offset = "0x4C")]
 	public int RoundLeft;
 
-	[Token(Token = "0x6003625")]
-	[Address(RVA = "0x41F9900", Offset = "0x41F9900", VA = "0x41F9900")]
+	[Token(Token = "0x6004065")]
+	[Address(RVA = "0x21633E0", Offset = "0x21619E0", VA = "0x1821633E0")]
 	public AmmoWeapon(BaseCharacter owner, int ammo, int round, float cooldown)
 	{
 	}
 
-	[Token(Token = "0x6003626")]
-	[Address(RVA = "0x41FA690", Offset = "0x41FA690", VA = "0x41FA690")]
+	[Token(Token = "0x6004066")]
+	[Address(RVA = "0x2164680", Offset = "0x2162C80", VA = "0x182164680")]
 	public bool NeedRefill()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003627")]
-	[Address(RVA = "0x41FA6B0", Offset = "0x41FA6B0", VA = "0x41FA6B0", Slot = "4")]
+	[Token(Token = "0x6004067")]
+	[Address(RVA = "0x21646C0", Offset = "0x2162CC0", VA = "0x1821646C0", Slot = "4")]
 	public override void Reload()
 	{
 	}
 
-	[Token(Token = "0x6003628")]
-	[Address(RVA = "0x41FA6E0", Offset = "0x41FA6E0", VA = "0x41FA6E0", Slot = "5")]
+	[Token(Token = "0x6004068")]
+	[Address(RVA = "0x21646F0", Offset = "0x2162CF0", VA = "0x1821646F0", Slot = "5")]
 	public override void Reset()
 	{
 	}
 
-	[Token(Token = "0x6003629")]
-	[Address(RVA = "0x41FA700", Offset = "0x41FA700", VA = "0x41FA700", Slot = "8")]
+	[Token(Token = "0x6004069")]
+	[Address(RVA = "0x21646A0", Offset = "0x2162CA0", VA = "0x1821646A0", Slot = "8")]
 	protected override void OnUse()
 	{
 	}
 
-	[Token(Token = "0x600362A")]
-	[Address(RVA = "0x41FA720", Offset = "0x41FA720", VA = "0x41FA720", Slot = "6")]
+	[Token(Token = "0x600406A")]
+	[Address(RVA = "0x2164620", Offset = "0x2162C20", VA = "0x182164620", Slot = "6")]
 	public override bool CanUse()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600362B")]
-	[Address(RVA = "0x41FA750", Offset = "0x41FA750", VA = "0x41FA750", Slot = "7")]
+	[Token(Token = "0x600406B")]
+	[Address(RVA = "0x2164660", Offset = "0x2162C60", VA = "0x182164660", Slot = "7")]
 	public override bool HasDurability()
 	{
 		return default(bool);

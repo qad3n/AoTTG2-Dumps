@@ -12,12 +12,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000092")]
 public interface IGraphEventListener
 {
-	[Token(Token = "0x6000415")]
+	[Token(Token = "0x600041F")]
 	void StartListening(GraphStack stack);
 
-	[Token(Token = "0x6000416")]
+	[Token(Token = "0x6000420")]
 	void StopListening(GraphStack stack);
 
-	[Token(Token = "0x6000417")]
+	[Token(Token = "0x6000421")]
 	bool IsListening(GraphPointer pointer);
 }

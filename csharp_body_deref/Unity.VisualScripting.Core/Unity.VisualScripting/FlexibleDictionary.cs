@@ -13,21 +13,21 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000017")]
 public class FlexibleDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 {
-	[Token(Token = "0x1700001C")]
+	[Token(Token = "0x1700001D")]
 	public new TValue this[TKey key]
 	{
-		[Token(Token = "0x6000087")]
+		[Token(Token = "0x600008B")]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x6000088")]
+		[Token(Token = "0x600008C")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000089")]
+	[Token(Token = "0x600008D")]
 	public FlexibleDictionary()
 	{
 	}

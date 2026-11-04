@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003BA")]
+[Token(Token = "0x20003E9")]
 internal enum CallType
 {
-	[Token(Token = "0x4000FA9")]
+	[Token(Token = "0x4000FAF")]
 	Sync,
-	[Token(Token = "0x4000FAA")]
+	[Token(Token = "0x4000FB0")]
 	BeginInvoke,
-	[Token(Token = "0x4000FAB")]
+	[Token(Token = "0x4000FB1")]
 	EndInvoke,
-	[Token(Token = "0x4000FAC")]
+	[Token(Token = "0x4000FB2")]
 	OneWay
 }

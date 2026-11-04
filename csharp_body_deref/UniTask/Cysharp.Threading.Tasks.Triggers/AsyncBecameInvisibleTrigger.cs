@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001A2")]
+[Token(Token = "0x20001A5")]
 [DisallowMultipleComponent]
 public sealed class AsyncBecameInvisibleTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000A9B")]
-	[Address(RVA = "0x4A0A920", Offset = "0x4A0A920", VA = "0x4A0A920")]
+	[Token(Token = "0x6000ABF")]
+	[Address(RVA = "0x2929810", Offset = "0x2927E10", VA = "0x182929810")]
 	private void OnBecameInvisible()
 	{
 	}
 
-	[Token(Token = "0x6000A9C")]
-	[Address(RVA = "0x4A0A990", Offset = "0x4A0A990", VA = "0x4A0A990")]
+	[Token(Token = "0x6000AC0")]
+	[Address(RVA = "0x2929580", Offset = "0x2927B80", VA = "0x182929580")]
 	public IAsyncOnBecameInvisibleHandler GetOnBecameInvisibleAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A9D")]
-	[Address(RVA = "0x4A0AA00", Offset = "0x4A0AA00", VA = "0x4A0AA00")]
+	[Token(Token = "0x6000AC1")]
+	[Address(RVA = "0x2929500", Offset = "0x2927B00", VA = "0x182929500")]
 	public IAsyncOnBecameInvisibleHandler GetOnBecameInvisibleAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x4A0AA70", Offset = "0x4A0AA70", VA = "0x4A0AA70")]
+	[Token(Token = "0x6000AC2")]
+	[Address(RVA = "0x2929700", Offset = "0x2927D00", VA = "0x182929700")]
 	public UniTask OnBecameInvisibleAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000A9F")]
-	[Address(RVA = "0x4A0AB60", Offset = "0x4A0AB60", VA = "0x4A0AB60")]
+	[Token(Token = "0x6000AC3")]
+	[Address(RVA = "0x29295F0", Offset = "0x2927BF0", VA = "0x1829295F0")]
 	public UniTask OnBecameInvisibleAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000AA0")]
-	[Address(RVA = "0x4A0AC50", Offset = "0x4A0AC50", VA = "0x4A0AC50")]
+	[Token(Token = "0x6000AC4")]
+	[Address(RVA = "0x2929880", Offset = "0x2927E80", VA = "0x182929880")]
 	public AsyncBecameInvisibleTrigger()
 	{
 	}

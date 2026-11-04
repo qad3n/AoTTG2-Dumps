@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000052")]
+[Token(Token = "0x2000048")]
 public struct GlyphPairKey
 {
-	[Token(Token = "0x400023A")]
+	[Token(Token = "0x4000182")]
 	[FieldOffset(Offset = "0x0")]
 	public uint firstGlyphIndex;
 
-	[Token(Token = "0x400023B")]
+	[Token(Token = "0x4000183")]
 	[FieldOffset(Offset = "0x4")]
 	public uint secondGlyphIndex;
 
-	[Token(Token = "0x400023C")]
+	[Token(Token = "0x4000184")]
 	[FieldOffset(Offset = "0x8")]
 	public uint key;
 
-	[Token(Token = "0x6000282")]
-	[Address(RVA = "0x4C58830", Offset = "0x4C58830", VA = "0x4C58830")]
+	[Token(Token = "0x6000204")]
+	[Address(RVA = "0x2CF4510", Offset = "0x2CF2B10", VA = "0x182CF4510")]
 	public GlyphPairKey(uint firstGlyphIndex, uint secondGlyphIndex)
 	{
 	}
 
-	[Token(Token = "0x6000283")]
-	[Address(RVA = "0x4C4EC50", Offset = "0x4C4EC50", VA = "0x4C4EC50")]
+	[Token(Token = "0x6000205")]
+	[Address(RVA = "0x2CF4530", Offset = "0x2CF2B30", VA = "0x182CF4530")]
 	internal GlyphPairKey(TMP_GlyphPairAdjustmentRecord record)
 	{
 	}

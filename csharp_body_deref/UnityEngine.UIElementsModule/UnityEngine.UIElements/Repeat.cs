@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A7")]
+[Token(Token = "0x2000449")]
 public enum Repeat
 {
-	[Token(Token = "0x4000AF8")]
+	[Token(Token = "0x4000E48")]
 	NoRepeat,
-	[Token(Token = "0x4000AF9")]
+	[Token(Token = "0x4000E49")]
 	Space,
-	[Token(Token = "0x4000AFA")]
+	[Token(Token = "0x4000E4A")]
 	Round,
-	[Token(Token = "0x4000AFB")]
+	[Token(Token = "0x4000E4B")]
 	Repeat
 }

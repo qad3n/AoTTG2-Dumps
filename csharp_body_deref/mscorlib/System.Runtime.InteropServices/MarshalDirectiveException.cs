@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x2000433")]
+[Token(Token = "0x2000462")]
 public class MarshalDirectiveException : SystemException
 {
-	[Token(Token = "0x60021B2")]
-	[Address(RVA = "0x3BBCEB0", Offset = "0x3BBCEB0", VA = "0x3BBCEB0")]
+	[Token(Token = "0x6002221")]
+	[Address(RVA = "0x1A2B2F0", Offset = "0x1A298F0", VA = "0x181A2B2F0")]
 	public MarshalDirectiveException()
 	{
 	}
 
-	[Token(Token = "0x60021B3")]
-	[Address(RVA = "0x3BBCEF0", Offset = "0x3BBCEF0", VA = "0x3BBCEF0")]
+	[Token(Token = "0x6002222")]
+	[Address(RVA = "0x1A2B340", Offset = "0x1A29940", VA = "0x181A2B340")]
 	public MarshalDirectiveException(string message)
 	{
 	}
 
-	[Token(Token = "0x60021B4")]
-	[Address(RVA = "0x3BBCF10", Offset = "0x3BBCF10", VA = "0x3BBCF10")]
+	[Token(Token = "0x6002223")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected MarshalDirectiveException(SerializationInfo info, StreamingContext context)
 	{
 	}

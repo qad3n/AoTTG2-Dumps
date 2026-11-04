@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002CA")]
+[Token(Token = "0x20002F9")]
 [ComVisible(true)]
 public abstract class AsymmetricKeyExchangeDeformatter
 {
-	[Token(Token = "0x17000292")]
+	[Token(Token = "0x17000294")]
 	public abstract string Parameters
 	{
-		[Token(Token = "0x600188F")]
+		[Token(Token = "0x60018F7")]
 		get;
-		[Token(Token = "0x6001890")]
+		[Token(Token = "0x60018F8")]
 		set;
 	}
 
-	[Token(Token = "0x600188E")]
-	[Address(RVA = "0x3B2C710", Offset = "0x3B2C710", VA = "0x3B2C710")]
+	[Token(Token = "0x60018F6")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AsymmetricKeyExchangeDeformatter()
 	{
 	}
 
-	[Token(Token = "0x6001891")]
+	[Token(Token = "0x60018F9")]
 	public abstract void SetKey(AsymmetricAlgorithm key);
 
-	[Token(Token = "0x6001892")]
+	[Token(Token = "0x60018FA")]
 	public abstract byte[] DecryptKeyExchange(byte[] rgb);
 }

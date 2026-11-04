@@ -12,7 +12,7 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000009")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class ControllerColliderHit
 {

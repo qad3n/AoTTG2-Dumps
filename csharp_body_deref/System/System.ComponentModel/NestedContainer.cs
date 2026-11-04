@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002C3")]
+[Token(Token = "0x20001CE")]
 public class NestedContainer : Container, INestedContainer, IContainer, IDisposable
 {
-	[Token(Token = "0x20002C4")]
+	[Token(Token = "0x20001CF")]
 	private class Site : INestedSite, ISite, IServiceProvider
 	{
-		[Token(Token = "0x4000DE1")]
+		[Token(Token = "0x4000718")]
 		[FieldOffset(Offset = "0x10")]
 		private string _name;
 
-		[Token(Token = "0x170003F9")]
+		[Token(Token = "0x17000268")]
 		public IComponent Component
 		{
-			[Token(Token = "0x60011BD")]
-			[Address(RVA = "0x48A0200", Offset = "0x48A0200", VA = "0x48A0200", Slot = "5")]
+			[Token(Token = "0x6000C05")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
@@ -32,11 +32,11 @@ public class NestedContainer : Container, INestedContainer, IContainer, IDisposa
 			}
 		}
 
-		[Token(Token = "0x170003FA")]
+		[Token(Token = "0x17000269")]
 		public IContainer Container
 		{
-			[Token(Token = "0x60011BE")]
-			[Address(RVA = "0x48A0210", Offset = "0x48A0210", VA = "0x48A0210", Slot = "6")]
+			[Token(Token = "0x6000C06")]
+			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "6")]
 			[CompilerGenerated]
 			get
 			{
@@ -44,63 +44,63 @@ public class NestedContainer : Container, INestedContainer, IContainer, IDisposa
 			}
 		}
 
-		[Token(Token = "0x170003FB")]
+		[Token(Token = "0x1700026A")]
 		public bool DesignMode
 		{
-			[Token(Token = "0x60011C0")]
-			[Address(RVA = "0x48A0320", Offset = "0x48A0320", VA = "0x48A0320", Slot = "7")]
+			[Token(Token = "0x6000C08")]
+			[Address(RVA = "0x28AD0E0", Offset = "0x28AB6E0", VA = "0x1828AD0E0", Slot = "7")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x170003FC")]
+		[Token(Token = "0x1700026B")]
 		public string FullName
 		{
-			[Token(Token = "0x60011C1")]
-			[Address(RVA = "0x48A0510", Offset = "0x48A0510", VA = "0x48A0510", Slot = "4")]
+			[Token(Token = "0x6000C09")]
+			[Address(RVA = "0x28AD1C0", Offset = "0x28AB7C0", VA = "0x1828AD1C0", Slot = "4")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x170003FD")]
+		[Token(Token = "0x1700026C")]
 		public string Name
 		{
-			[Token(Token = "0x60011C2")]
-			[Address(RVA = "0x48A0630", Offset = "0x48A0630", VA = "0x48A0630", Slot = "8")]
+			[Token(Token = "0x6000C0A")]
+			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "8")]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x60011C3")]
-			[Address(RVA = "0x48A0640", Offset = "0x48A0640", VA = "0x48A0640", Slot = "9")]
+			[Token(Token = "0x6000C0B")]
+			[Address(RVA = "0x28AD2D0", Offset = "0x28AB8D0", VA = "0x1828AD2D0", Slot = "9")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x60011BC")]
-		[Address(RVA = "0x489FA90", Offset = "0x489FA90", VA = "0x489FA90")]
+		[Token(Token = "0x6000C04")]
+		[Address(RVA = "0x28AD080", Offset = "0x28AB680", VA = "0x1828AD080")]
 		internal Site(IComponent component, NestedContainer container, string name)
 		{
 		}
 
-		[Token(Token = "0x60011BF")]
-		[Address(RVA = "0x48A0220", Offset = "0x48A0220", VA = "0x48A0220", Slot = "10")]
+		[Token(Token = "0x6000C07")]
+		[Address(RVA = "0x28ACF90", Offset = "0x28AB590", VA = "0x1828ACF90", Slot = "10")]
 		public object GetService(Type service)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003F7")]
+	[Token(Token = "0x17000266")]
 	public IComponent Owner
 	{
-		[Token(Token = "0x60011B6")]
-		[Address(RVA = "0x489F700", Offset = "0x489F700", VA = "0x489F700", Slot = "17")]
+		[Token(Token = "0x6000BFE")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0", Slot = "17")]
 		[CompilerGenerated]
 		get
 		{
@@ -108,45 +108,45 @@ public class NestedContainer : Container, INestedContainer, IContainer, IDisposa
 		}
 	}
 
-	[Token(Token = "0x170003F8")]
+	[Token(Token = "0x17000267")]
 	protected virtual string OwnerName
 	{
-		[Token(Token = "0x60011B7")]
-		[Address(RVA = "0x489F710", Offset = "0x489F710", VA = "0x489F710", Slot = "18")]
+		[Token(Token = "0x6000BFF")]
+		[Address(RVA = "0x28A9C60", Offset = "0x28A8260", VA = "0x1828A9C60", Slot = "18")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011B5")]
-	[Address(RVA = "0x489F4F0", Offset = "0x489F4F0", VA = "0x489F4F0")]
+	[Token(Token = "0x6000BFD")]
+	[Address(RVA = "0x28A9B50", Offset = "0x28A8150", VA = "0x1828A9B50")]
 	public NestedContainer(IComponent owner)
 	{
 	}
 
-	[Token(Token = "0x60011B8")]
-	[Address(RVA = "0x489F9B0", Offset = "0x489F9B0", VA = "0x489F9B0", Slot = "11")]
+	[Token(Token = "0x6000C00")]
+	[Address(RVA = "0x28A98F0", Offset = "0x28A7EF0", VA = "0x1828A98F0", Slot = "11")]
 	protected override ISite CreateSite(IComponent component, string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011B9")]
-	[Address(RVA = "0x489FAF0", Offset = "0x489FAF0", VA = "0x489FAF0", Slot = "12")]
+	[Token(Token = "0x6000C01")]
+	[Address(RVA = "0x28A99E0", Offset = "0x28A7FE0", VA = "0x1828A99E0", Slot = "12")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60011BA")]
-	[Address(RVA = "0x489FFC0", Offset = "0x489FFC0", VA = "0x489FFC0", Slot = "13")]
+	[Token(Token = "0x6000C02")]
+	[Address(RVA = "0x28A9AA0", Offset = "0x28A80A0", VA = "0x1828A9AA0", Slot = "13")]
 	protected override object GetService(Type service)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011BB")]
-	[Address(RVA = "0x48A0120", Offset = "0x48A0120", VA = "0x48A0120")]
+	[Token(Token = "0x6000C03")]
+	[Address(RVA = "0x28A9B40", Offset = "0x28A8140", VA = "0x1828A9B40")]
 	private void OnOwnerDisposed(object sender, EventArgs e)
 	{
 	}

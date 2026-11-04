@@ -1,5 +1,5 @@
 // Type: Weather.ThunderWeatherEffect
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Weather/ThunderWeatherEffect.cs
@@ -8,274 +8,201 @@
 
 // Weather.ThunderWeatherEffect$$get__positionOffset
 // il2cpp: UnityEngine_Vector3_o Weather_ThunderWeatherEffect__get__positionOffset (Weather_ThunderWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406ccd0
+// 0x181da1240
 
 UnityEngine_Vector3_o
-Weather_ThunderWeatherEffect__get__positionOffset(Weather_ThunderWeatherEffect_o *__this,MethodInfo *method)
+Weather_ThunderWeatherEffect__get__positionOffset(Weather_ThunderWeatherEffect_o* __this, MethodInfo* method)
 
 {
-  undefined8 uVar1;
-  UnityEngine_Vector3_o UVar2;
+  undefined4 uVar1;
+  undefined4 uVar2;
+  UnityEngine_Vector3_StaticFields *pUVar3;
   
-  if (g_data_057a6844 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector3);
-    g_data_057a6844 = '\x01';
+  if (Il2CppMethodInitialized_18433de5c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+    Il2CppMethodInitialized_18433de5c = '\x01';
   }
-  uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18);
-  UVar2.fields.x = (float)uVar1 * 0.0;
-  UVar2.fields.y = (float)((ulong)uVar1 >> 0x20) * 0.0;
-  UVar2.fields.z = *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x20) * 0.0;
-  return (UnityEngine_Vector3_o)UVar2.fields;
+  pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+  uVar1 = (pUVar3->upVector).fields.y;
+  uVar2 = (pUVar3->upVector).fields.z;
+  (__return_storage_ptr__->fields).x = (pUVar3->upVector).fields.x * 0.0;
+  (__return_storage_ptr__->fields).y = (float)uVar1 * 0.0;
+  (__return_storage_ptr__->fields).z = (float)uVar2 * 0.0;
+  return __return_storage_ptr__;
 }
 
 
 // Weather.ThunderWeatherEffect$$OnFinishInit
 // il2cpp: void Weather_ThunderWeatherEffect__OnFinishInit (const MethodInfo* method);
-// 0x406cd20
+// 0x181daf9b0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181dafabf: nop 
 
 void Weather_ThunderWeatherEffect__OnFinishInit(MethodInfo *method)
 
 {
-  int32_t *piVar1;
+  float fVar1;
   float fVar2;
-  undefined8 uVar3;
-  undefined8 uVar4;
-  int iVar5;
-  uint uVar6;
-  System_String_o *pSVar7;
-  System_Object_array *pSVar8;
-  System_Collections_Generic_List_object__o *__this;
-  long lVar9;
-  System_Collections_Generic_List_object__o *__this_00;
-  UnityEngine_GameObject_o *pUVar10;
-  MethodInfo *__this_01;
-  UnityEngine_Object_o *pUVar11;
-  Weather_LightningParticle_o *__this_02;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  int iVar12;
-  MethodInfo *pMVar13;
-  uint unaff_R12D;
-  int iVar14;
-  float fVar15;
-  float fVar16;
-  float fVar17;
-  float fVar18;
-  float fVar19;
-  UnityEngine_Vector3_o start;
-  UnityEngine_Vector3_o start_00;
-  UnityEngine_Vector3_o end;
-  UnityEngine_Vector3_o end_00;
-  float local_a8;
-  float local_a4;
-  undefined8 local_88;
-  undefined8 local_78;
-  float local_68;
-  float fStack_64;
-  float local_48;
-  float fStack_44;
+  float fVar3;
+  float fVar4;
+  float fVar5;
+  float fVar6;
+  float fVar7;
+  float fVar8;
+  float fVar9;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  int iVar13;
+  UnityEngine_Vector3_StaticFields *pUVar14;
+  Settings_GraphicsSettings_o *pSVar15;
+  Settings_IntSetting_o *pSVar16;
+  System_String_o *path;
+  System_Collections_Generic_List_List_LightningParticle___o *pSVar17;
+  System_Collections_Generic_List_LightningParticle__o *__this;
+  UnityEngine_GameObject_o *__this_00;
+  Weather_LightningParticle_o *__this_01;
+  UnityEngine_Object_o *target;
+  int iVar18;
+  int iVar19;
+  float fVar20;
+  float fVar21;
+  UnityEngine_Vector3_o local_f8;
+  UnityEngine_Vector3_Fields local_e8 [14];
   
-  if (g_data_057ac2f3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LightningParticle_AddComponent_LightningParticle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Weather_LightningParticle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_LightningParticle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderWeatherEffect);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac2f3 = '\x01';
+  if (Il2CppMethodInitialized_184344923 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_LightningParticle);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_LightningParticle_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_LightningParticle_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_LightningParticle_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_LightningParticle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_ThunderWeatherEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"Prefabs/LightningParticle");
+    Il2CppMethodInitialized_184344923 = '\x01';
   }
-  iVar12 = 0;
+  iVar19 = 0;
   while( true ) {
-    if (g_data_057a6844 == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057a6844 = '\x01';
+    if (Il2CppMethodInitialized_18433de5c == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433de5c = '\x01';
     }
-    lVar9 = *(long *)(TypeInfo_Vector3 + 0xb8);
-    local_78 = *(undefined8 *)(lVar9 + 0x18);
-    local_a4 = *(float *)(lVar9 + 0x20);
-    if (g_data_057abfed == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057abfed = '\x01';
-      lVar9 = *(long *)(TypeInfo_Vector3 + 0xb8);
+    pUVar14 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar1 = (pUVar14->upVector).fields.x;
+    fVar2 = (pUVar14->upVector).fields.y;
+    fVar3 = (pUVar14->upVector).fields.z;
+    if (Il2CppMethodInitialized_1843445b8 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_1843445b8 = '\x01';
     }
-    uVar3 = *(undefined8 *)(lVar9 + 0x3c);
-    fVar18 = *(float *)(lVar9 + 0x44);
-    fVar15 = UnityEngine_Random__Range(-1000.0,1000.0,(MethodInfo *)0x0);
-    if (g_data_057ac31b == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057ac31b = '\x01';
+    pUVar14 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar4 = (pUVar14->rightVector).fields.x;
+    fVar5 = (pUVar14->rightVector).fields.y;
+    fVar6 = (pUVar14->rightVector).fields.z;
+    fVar20 = UnityEngine_Random__Range(-1000.0,1000.0,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18434494b == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18434494b = '\x01';
     }
-    lVar9 = *(long *)(TypeInfo_Vector3 + 0xb8);
-    local_88 = *(undefined8 *)(lVar9 + 0x24);
-    local_a8 = *(float *)(lVar9 + 0x2c);
-    if (g_data_057abfed == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057abfed = '\x01';
-      lVar9 = *(long *)(TypeInfo_Vector3 + 0xb8);
+    pUVar14 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar7 = (pUVar14->downVector).fields.x;
+    fVar8 = (pUVar14->downVector).fields.y;
+    fVar9 = (pUVar14->downVector).fields.z;
+    if (Il2CppMethodInitialized_1843445b8 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_1843445b8 = '\x01';
     }
-    uVar4 = *(undefined8 *)(lVar9 + 0x3c);
-    fVar2 = *(float *)(lVar9 + 0x44);
-    fVar16 = UnityEngine_Random__Range(-1000.0,1000.0,(MethodInfo *)0x0);
-    if (g_data_057a68cb == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Math);
-      g_data_057a68cb = '\x01';
-      iVar5 = *(int *)(TypeInfo_Math + 0xe4);
+    pUVar14 = TypeInfo_UnityEngine_Vector3->static_fields;
+    fVar10 = (pUVar14->rightVector).fields.x;
+    fVar11 = (pUVar14->rightVector).fields.y;
+    fVar12 = (pUVar14->rightVector).fields.z;
+    fVar21 = UnityEngine_Random__Range(-1000.0,1000.0,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433dee7 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+      Il2CppMethodInitialized_18433dee7 = '\x01';
     }
-    else {
-      iVar5 = *(int *)(TypeInfo_Math + 0xe4);
+    if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
     }
-    if (iVar5 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    lVar9 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x18);
-    if ((lVar9 == 0) || (lVar9 = *(long *)(lVar9 + 0x98), lVar9 == 0)) break;
-    local_48 = (float)uVar3;
-    fStack_44 = (float)((ulong)uVar3 >> 0x20);
-    local_68 = (float)uVar4;
-    fStack_64 = (float)((ulong)uVar4 >> 0x20);
-    local_78._4_4_ = (float)((ulong)local_78 >> 0x20);
-    fVar17 = (float)local_78 * 1500.0 + local_48 * fVar15;
-    fVar19 = local_78._4_4_ * 1500.0 + fStack_44 * fVar15;
-    local_78 = CONCAT44(fVar19,fVar17);
-    local_a4 = local_a4 * 1500.0 + fVar18 * fVar15;
-    local_88._4_4_ = (float)((ulong)local_88 >> 0x20);
-    fVar18 = (float)local_88 * 300.0 + local_68 * fVar16;
-    fVar15 = local_88._4_4_ * 300.0 + fStack_64 * fVar16;
-    local_88 = CONCAT44(fVar15,fVar18);
-    local_a8 = local_a8 * 300.0 + fVar2 * fVar16;
-    unaff_R12D = *(int *)(lVar9 + 0x14) == 2 ^ 9;
-    __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_LightningParticle);
-    System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_Weather_LightningParticle);
-    if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) {
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    pSVar15 = TypeInfo_Settings_SettingsManager->static_fields->GraphicsSettings;
+    if ((pSVar15 == (Settings_GraphicsSettings_o *)0x0) ||
+       (pSVar16 = (pSVar15->fields).WeatherEffects, pSVar16 == (Settings_IntSetting_o *)0x0)) break;
+    iVar13 = (pSVar16->fields)._value;
+    __this = il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_LightningParticle);
+    System_Collections_Generic_List_object____ctor
+              ((System_Collections_Generic_LowLevelList_T__o *)__this,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_LightningParticle_ctor);
+    iVar18 = 0;
+    do {
+      if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
       }
-      pSVar7 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x58);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      path = TypeInfo_Utility_ResourcePaths->static_fields->Weather;
+      if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
       }
-      pUVar10 = (UnityEngine_GameObject_o *)
-                ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                          (pSVar7,"Prefabs/LightningParticle",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
-      if ((pUVar10 != (UnityEngine_GameObject_o *)0x0) &&
-         (__this_02 = (Weather_LightningParticle_o *)
-                      UnityEngine_GameObject__AddComponent_object_(pUVar10,MethodInfo_LightningParticle_AddComponent_LightningParticle),
-         __this_02 != (Weather_LightningParticle_o *)0x0)) goto label_0406d30d;
-      break;
-    }
-    iVar14 = 4;
-    iVar5 = *(int *)(TypeInfo_ResourcePaths + 0xe4);
-    while( true ) {
-      if (iVar5 == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      __this_00 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                            (path,"Prefabs/LightningParticle",false,
+                             (MethodInfo_795F00 *)
+                             MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+      if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_181dafec8;
+      __this_01 = UnityEngine_GameObject__AddComponent_object_
+                            (__this_00,
+                             (MethodInfo_6F4D60 *)
+                             MethodInfo_UnityEngine_GameObject_AddComponent_LightningParticle);
+      if (__this_01 == (Weather_LightningParticle_o *)0x0) goto label_181dafec8;
+      target = (UnityEngine_Object_o *)
+               UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
       }
-      pSVar7 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x58);
-      if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pUVar10 = (UnityEngine_GameObject_o *)
-                ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                          (pSVar7,"Prefabs/LightningParticle",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
-      if ((pUVar10 == (UnityEngine_GameObject_o *)0x0) ||
-         (__this_01 = (MethodInfo *)UnityEngine_GameObject__AddComponent_object_(pUVar10,MethodInfo_LightningParticle_AddComponent_LightningParticle),
-         __this_01 == (MethodInfo *)0x0)) goto label_0406d308;
-      pUVar11 = (UnityEngine_Object_o *)
-                UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_01,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      UnityEngine_Object__DontDestroyOnLoad(pUVar11,(MethodInfo *)0x0);
-      start.fields.z = local_a4;
-      start.fields.x = fVar17;
-      start.fields.y = fVar19;
-      end.fields.z = local_a8;
-      end.fields.x = fVar18;
-      end.fields.y = fVar15;
+      UnityEngine_Object__DontDestroyOnLoad(target,(MethodInfo *)0x0);
+      local_e8[0].y = fVar5 * fVar20 + fVar2 * 1500.0;
+      local_e8[0].x = fVar4 * fVar20 + fVar1 * 1500.0;
+      local_f8.fields.x = fVar10 * fVar21 + fVar7 * 300.0;
+      local_f8.fields.y = fVar11 * fVar21 + fVar8 * 300.0;
+      local_f8.fields.z = fVar12 * fVar21 + fVar9 * 300.0;
+      local_e8[0].z = fVar6 * fVar20 + fVar3 * 1500.0;
       Weather_LightningParticle__Setup
-                ((Weather_LightningParticle_o *)__this_01,start,end,unaff_R12D,method_00);
-      lVar9 = MethodInfo_Void_Add;
-      piVar1 = &(__this_00->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar8 = (__this_00->fields)._items;
-      if (pSVar8 == (System_Object_array *)0x0) goto label_0406d308;
-      uVar6 = (__this_00->fields)._size;
-      if (uVar6 < (uint)pSVar8->max_length) {
-        (__this_00->fields)._size = uVar6 + 1;
-        pSVar8->m_Items[(int)uVar6] = (Il2CppObject *)__this_01;
-        pMVar13 = __this_01;
-        il2cpp_runtime_helper_022b4080(pSVar8->m_Items + (int)uVar6);
-        Weather_LightningParticle__Disable((Weather_LightningParticle_o *)__this_01,pMVar13);
-      }
-      else {
-        pMVar13 = __this_01;
-        System_Collections_Generic_List_object___AddWithResize
-                  (__this_00,(Il2CppObject *)__this_01,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar9 + 0x20) + 0xc0) + 0x70));
-        Weather_LightningParticle__Disable((Weather_LightningParticle_o *)__this_01,pMVar13);
-      }
-      if (iVar14 == 1) break;
-      iVar14 = iVar14 + -1;
-      iVar5 = *(int *)(TypeInfo_ResourcePaths + 0xe4);
+                (__this_01,(UnityEngine_Vector3_o *)local_e8,&local_f8,(iVar13 != 2) + 8,(MethodInfo *)0x0);
+      if (__this == (System_Collections_Generic_List_LightningParticle__o *)0x0) goto label_181dafec8;
+      il2cpp_runtime_helper_180012890(__this);
+      Weather_LightningParticle__Disable(__this_01,(MethodInfo *)0x0);
+      iVar18 = iVar18 + 1;
+    } while (iVar18 < 4);
+    if ((TypeInfo_Weather_ThunderWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_ThunderWeatherEffect);
     }
-    if (*(int *)(TypeInfo_ThunderWeatherEffect + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    lVar9 = MethodInfo_Void_Add;
-    __this = (System_Collections_Generic_List_object__o *)**(undefined8 **)(TypeInfo_ThunderWeatherEffect + 0xb8);
-    if (__this == (System_Collections_Generic_List_object__o *)0x0) break;
-    piVar1 = &(__this->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar8 = (__this->fields)._items;
-    if (pSVar8 == (System_Object_array *)0x0) break;
-    uVar6 = (__this->fields)._size;
-    if (uVar6 < (uint)pSVar8->max_length) {
-      (__this->fields)._size = uVar6 + 1;
-      pSVar8->m_Items[(int)uVar6] = (Il2CppObject *)__this_00;
-      il2cpp_runtime_helper_022b4080();
-    }
-    else {
-      System_Collections_Generic_List_object___AddWithResize
-                (__this,(Il2CppObject *)__this_00,
-                 *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar9 + 0x20) + 0xc0) + 0x70));
-    }
-    iVar12 = iVar12 + 1;
-    if (iVar12 == 10) {
+    pSVar17 = TypeInfo_Weather_ThunderWeatherEffect->static_fields->LightningPool;
+    if (pSVar17 == (System_Collections_Generic_List_List_LightningParticle___o *)0x0) break;
+    il2cpp_runtime_helper_180012890(pSVar17,__this);
+    iVar19 = iVar19 + 1;
+    if (9 < iVar19) {
       return;
     }
   }
-label_0406d308:
-  __this_02 = (Weather_LightningParticle_o *)il2cpp_runtime_helper_022b2c90();
-label_0406d30d:
-  pUVar11 = (UnityEngine_Object_o *)
-            UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_02,(MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  UnityEngine_Object__DontDestroyOnLoad(pUVar11,(MethodInfo *)0x0);
-  start_00.fields.z = local_a4;
-  start_00.fields.x = (float)local_78;
-  start_00.fields.y = local_78._4_4_;
-  end_00.fields.z = local_a8;
-  end_00.fields.x = (float)local_88;
-  end_00.fields.y = local_88._4_4_;
-  Weather_LightningParticle__Setup(__this_02,start_00,end_00,unaff_R12D,method_01);
-  il2cpp_runtime_helper_022b2c90();
-  return;
+label_181dafec8:
+  ThrowNullReferenceException();
 }
 
 
 // Weather.ThunderWeatherEffect$$Randomize
 // il2cpp: void Weather_ThunderWeatherEffect__Randomize (Weather_ThunderWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406d370
+// 0x180547020
 
-void Weather_ThunderWeatherEffect__Randomize(Weather_ThunderWeatherEffect_o *__this,MethodInfo *method)
+void
+Weather_ThunderWeatherEffect__Randomize(Weather_ThunderWeatherEffect_o* __this, MethodInfo* method)
 
 {
   return;
@@ -284,276 +211,63 @@ void Weather_ThunderWeatherEffect__Randomize(Weather_ThunderWeatherEffect_o *__t
 
 // Weather.ThunderWeatherEffect$$Setup
 // il2cpp: void Weather_ThunderWeatherEffect__Setup (Weather_ThunderWeatherEffect_o* __this, UnityEngine_Transform_o* parent, const MethodInfo* method);
-// 0x406d380
+// 0x181dae3a0
 
-void Weather_ThunderWeatherEffect__Setup
-               (Weather_ThunderWeatherEffect_o *__this,UnityEngine_Transform_o *parent,MethodInfo *method)
+void
+Weather_ThunderWeatherEffect__Setup(Weather_ThunderWeatherEffect_o* __this, UnityEngine_Transform_o* parent, MethodInfo* method)
 
 {
-  Weather_BaseWeatherEffect__Setup(__this,parent,method);
+  Weather_BaseWeatherEffect__Setup((Weather_BaseWeatherEffect_o *)__this,parent,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.ThunderWeatherEffect$$SetLevel
 // il2cpp: void Weather_ThunderWeatherEffect__SetLevel (Weather_ThunderWeatherEffect_o* __this, float level, const MethodInfo* method);
-// 0x406d390
+// 0x181dafed0
 
 void Weather_ThunderWeatherEffect__SetLevel
                (Weather_ThunderWeatherEffect_o *__this,float level,MethodInfo *method)
 
 {
-  Il2CppMethodPointer vtableDispatch;
+  MethodInfo *pMVar1;
+  _func_36 *UNRECOVERED_JUMPTABLE_00;
   
   (__this->fields)._level = level;
-  if (0.0 < level) {
-    vtableDispatch = (__this->klass->vtable)._14_SetActiveAudio.methodPtr;
-    (*vtableDispatch)
-              (0x3f800000,__this,(ulong)(0.5 <= level),(__this->klass->vtable)._14_SetActiveAudio.method,
-               vtableDispatch);
+  if (level <= 0.0) {
     return;
   }
+  pMVar1 = (__this->klass->vtable)._14_SetActiveAudio.method;
+  UNRECOVERED_JUMPTABLE_00 = (__this->klass->vtable)._14_SetActiveAudio.methodPtr;
+  if (0.5 <= level) {
+    (*UNRECOVERED_JUMPTABLE_00)(__this,1,1.0,pMVar1);
+    return;
+  }
+  (*UNRECOVERED_JUMPTABLE_00)(__this,0,1.0,pMVar1);
   return;
 }
 
 
 // Weather.ThunderWeatherEffect$$FixedUpdate
 // il2cpp: void Weather_ThunderWeatherEffect__FixedUpdate (Weather_ThunderWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406d3d0
+// 0x181daf930
 
 void Weather_ThunderWeatherEffect__FixedUpdate(Weather_ThunderWeatherEffect_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_List_AudioSource__c *__this_00;
-  long lVar2;
-  UnityEngine_Camera_o *__this_01;
-  UnityEngine_LineRenderer_o *__this_02;
-  int32_t index;
-  uint uVar3;
-  Weather_ThunderWeatherEffect_o *__this_03;
-  Weather_ThunderWeatherEffect_o *pWVar4;
-  UnityEngine_Transform_o *pUVar5;
-  UnityEngine_GameObject_o *__this_04;
-  UnityEngine_MonoBehaviour_o *__this_05;
-  uint index_00;
-  Weather_ThunderWeatherEffect_o *__this_06;
-  float fVar6;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 uVar7;
-  undefined4 extraout_XMM0_Dc_00;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 uVar8;
-  undefined4 extraout_XMM0_Dd_00;
-  float fVar9;
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  UnityEngine_Vector3_o UVar12;
-  UnityEngine_Vector3_o UVar13;
-  UnityEngine_Quaternion_o rotation;
-  UnityEngine_Color_o start;
-  float local_60;
-  undefined8 local_58;
-  undefined8 uVar14;
+  float fVar1;
+  float fVar2;
   
-  fVar9 = (__this->fields)._lightningWaitTime;
-  fVar6 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
-  fVar9 = fVar9 - fVar6;
-  (__this->fields)._lightningWaitTime = fVar9;
-  if (0.0 < fVar9) {
-    return;
-  }
-  fVar9 = (__this->fields)._level * -15.0 + 20.0;
-  (__this->fields)._lightningWaitTime = fVar9;
-  fVar9 = UnityEngine_Random__Range(fVar9 * 0.5,fVar9 * 1.5,(MethodInfo *)0x0);
-  (__this->fields)._lightningWaitTime = fVar9;
-  if (g_data_057ac2f4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LightningParticle_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Weather_LightningParticle_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderWeatherEffect);
-    g_data_057ac2f4 = '\x01';
-    if (*(int32_t *)((long)&TypeInfo_ThunderWeatherEffect[2].klass + 4) != 0) goto label_0406d47d;
-label_0406d4e7:
-    il2cpp_runtime_helper_02337ed0();
-    __this_00 = (TypeInfo_ThunderWeatherEffect[1].fields._audioSources)->klass;
-    __this_06 = TypeInfo_ThunderWeatherEffect;
-  }
-  else {
-    if (*(int32_t *)((long)&TypeInfo_ThunderWeatherEffect[2].klass + 4) == 0) goto label_0406d4e7;
-label_0406d47d:
-    __this_00 = (TypeInfo_ThunderWeatherEffect[1].fields._audioSources)->klass;
-    __this_06 = TypeInfo_ThunderWeatherEffect;
-  }
-  TypeInfo_ThunderWeatherEffect = __this_06;
-  if (__this_00 == (System_Collections_Generic_List_AudioSource__c *)0x0) goto label_0406d943;
-  index = UnityEngine_Random__Range_4df2410(0,*(int32_t *)&(__this_00->_1).namespaze,(MethodInfo *)0x0);
-  __this_03 = (Weather_ThunderWeatherEffect_o *)
-              System_Collections_Generic_List_object___get_Item
-                        ((System_Collections_Generic_List_object__o *)__this_00,index,MethodInfo_List_1_Weather_LightningParticle_get_Item);
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x1;
-  method = (MethodInfo *)&g_data_00000004;
-  uVar3 = UnityEngine_Random__Range_4df2410(1,4,(MethodInfo *)0x0);
-  lVar2 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-  if (lVar2 == 0) goto label_0406d943;
-  __this_01 = *(UnityEngine_Camera_o **)(lVar2 + 0x20);
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (__this_01 == (UnityEngine_Camera_o *)0x0) goto label_0406d943;
-  method = (MethodInfo *)0x0;
-  fVar9 = UnityEngine_Camera__get_fieldOfView(__this_01,(MethodInfo *)0x0);
-  pUVar5 = (__this->fields)._parent;
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-  method = (MethodInfo *)0x0;
-  UVar12 = UnityEngine_Transform__get_forward(pUVar5,(MethodInfo *)0x0);
-  pUVar5 = (__this->fields)._parent;
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-  UVar13 = UnityEngine_Transform__get_forward(pUVar5,(MethodInfo *)0x0);
-  local_60 = UVar13.fields.z;
-  if (g_data_057a6845 == '\0') {
-    il2cpp_runtime_helper_023445d0(UVar13.fields.x,&TypeInfo_Math);
-    g_data_057a6845 = '\x01';
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  local_58._0_4_ = UVar12.fields.x;
-  uVar7 = 0;
-  uVar8 = 0;
-  fVar6 = local_60 * local_60 + (float)local_58 * (float)local_58 + 0.0;
-  if (fVar6 < 0.0) {
-    fVar6 = sqrtf(fVar6);
-    uVar7 = extraout_XMM0_Dc_00;
-    uVar8 = extraout_XMM0_Dd_00;
-    if (fVar6 <= 1e-05) goto label_0406d5fc;
-label_0406d64d:
-    auVar10._0_8_ = UVar12.fields._0_8_ & 0xffffffff;
-    auVar10._8_4_ = extraout_XMM0_Dc;
-    auVar10._12_4_ = extraout_XMM0_Dd;
-    local_60 = local_60 / fVar6;
-    auVar11._4_4_ = fVar6;
-    auVar11._0_4_ = fVar6;
-    auVar11._8_4_ = uVar7;
-    auVar11._12_4_ = uVar8;
-    auVar11 = divps(auVar10,auVar11);
-    local_58 = auVar11._0_8_;
-  }
-  else {
-    fVar6 = SQRT(fVar6);
-    if (1e-05 < fVar6) goto label_0406d64d;
-label_0406d5fc:
-    if (g_data_057a65d5 == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057a65d5 = '\x01';
-    }
-    local_58 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-    local_60 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-  }
-  fVar9 = UnityEngine_Random__Range(fVar9 * -0.5,fVar9 * 0.5,(MethodInfo *)0x0);
-  if (g_data_057a6844 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a6844 = '\x01';
-  }
-  rotation = UnityEngine_Quaternion__AngleAxis
-                       (fVar9,(UnityEngine_Vector3_o)
-                              *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18),
-                        (MethodInfo *)0x0);
-  UVar12.fields.z = local_60;
-  UVar12.fields.x = (float)local_58;
-  UVar12.fields.y = local_58._4_4_;
-  UnityEngine_Quaternion__op_Multiply_4debdf0(rotation,UVar12,(MethodInfo *)0x0);
-  fVar9 = UnityEngine_Random__Range(900.0,1400.0,(MethodInfo *)0x0);
-  method = (MethodInfo *)0x0;
-  __this_06 = __this;
-  pWVar4 = (Weather_ThunderWeatherEffect_o *)
-           UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) {
-label_0406d943:
-    il2cpp_runtime_helper_022b2c90();
-    (__this_06->fields)._lightningWaitTime = 15.0;
-    Weather_BaseWeatherEffect___ctor((Weather_SnowWeatherEffect_o *)__this_06,method);
-    return;
-  }
-  method = (MethodInfo *)0x0;
-  UVar12 = UnityEngine_Transform__get_position((UnityEngine_Transform_o *)pWVar4,(MethodInfo *)0x0);
-  if (0 < (int)uVar3) {
-    __this_06 = pWVar4;
-    if (__this_03 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-    index_00 = 0;
-    do {
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      method = (MethodInfo *)0x0;
-      pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-      UVar13.fields.z = local_60 * fVar9 + UVar12.fields.z;
-      UVar13.fields.x = (float)local_58 * fVar9 + UVar12.fields.x;
-      UVar13.fields.y = local_58._4_4_ * fVar9 + UVar12.fields.y;
-      UnityEngine_Transform__set_position(pUVar5,UVar13,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      method = (MethodInfo *)0x0;
-      pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-      UnityEngine_Transform__LookAt(pUVar5,(__this->fields)._parent,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      __this_02 = *(UnityEngine_LineRenderer_o **)&(pWVar4->fields)._level;
-      __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-      if (__this_02 == (UnityEngine_LineRenderer_o *)0x0) goto label_0406d943;
-      start.fields.a = 0.0;
-      start.fields.r = 0.0;
-      uVar14._4_4_ = 0.0;
-      start.fields.b = 0.0;
-      UnityEngine_LineRenderer__SetColors(__this_02,start,(UnityEngine_Color_o)ZEXT816(0),(MethodInfo *)0x0);
-      method = (MethodInfo *)0x0;
-      __this_04 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (__this_04 == (UnityEngine_GameObject_o *)0x0) goto label_0406d943;
-      UnityEngine_GameObject__SetActive(__this_04,1,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      __this_05 = (UnityEngine_MonoBehaviour_o *)
-                  System_Collections_Generic_List_object___get_Item
-                            ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (__this_05 == (UnityEngine_MonoBehaviour_o *)0x0) goto label_0406d943;
-      if (g_data_057ac2ea == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_StrikeCoroutine_d__20);
-        g_data_057ac2ea = '\x01';
-      }
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StrikeCoroutine_d__20);
-      method = (MethodInfo *)0x0;
-      __this_06 = pWVar4;
-      System_Object___ctor((Il2CppObject *)pWVar4,(MethodInfo *)0x0);
-      *(undefined4 *)&(pWVar4->fields).m_CachedPtr = 0;
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      (pWVar4->fields)._parent = (UnityEngine_Transform_o *)__this_05;
-      il2cpp_runtime_helper_022b4080(&(pWVar4->fields)._parent,__this_05);
-      *(bool *)&(pWVar4->fields)._transform = index_00 == 0;
-      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                (__this_05,(System_Collections_IEnumerator_o *)pWVar4,(MethodInfo *)0x0);
-      index_00 = index_00 + 1;
-    } while (uVar3 != index_00);
+  fVar2 = (__this->fields)._lightningWaitTime;
+  fVar1 = UnityEngine_Time__get_fixedDeltaTime((MethodInfo *)0x0);
+  fVar2 = fVar2 - fVar1;
+  (__this->fields)._lightningWaitTime = fVar2;
+  if (fVar2 <= 0.0) {
+    fVar2 = 20.0 - (__this->fields)._level * 15.0;
+    (__this->fields)._lightningWaitTime = fVar2;
+    fVar2 = UnityEngine_Random__Range(fVar2 * 0.5,fVar2 * 1.5,(MethodInfo *)0x0);
+    (__this->fields)._lightningWaitTime = fVar2;
+    Weather_ThunderWeatherEffect__CreateLightning(__this,(MethodInfo *)0x0);
   }
   return;
 }
@@ -561,267 +275,244 @@ label_0406d943:
 
 // Weather.ThunderWeatherEffect$$CreateLightning
 // il2cpp: void Weather_ThunderWeatherEffect__CreateLightning (Weather_ThunderWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406d450
+// 0x181daf440
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181daf74b: nop dword ptr [rax + rax]
 
 void Weather_ThunderWeatherEffect__CreateLightning(Weather_ThunderWeatherEffect_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_List_AudioSource__c *__this_00;
-  long lVar2;
+  float fVar1;
+  float fVar2;
+  System_Collections_Generic_List_List_LightningParticle___o *__this_00;
+  Cameras_BaseCamera_o *pCVar3;
   UnityEngine_Camera_o *__this_01;
+  UnityEngine_Vector3_StaticFields *pUVar4;
   UnityEngine_LineRenderer_o *__this_02;
-  int32_t index;
-  uint uVar3;
-  Weather_ThunderWeatherEffect_o *__this_03;
-  Weather_ThunderWeatherEffect_o *pWVar4;
-  UnityEngine_Transform_o *pUVar5;
+  int32_t iVar5;
+  System_Collections_Generic_List_object__o *__this_03;
+  UnityEngine_Vector3_o *pUVar6;
+  UnityEngine_Quaternion_o *pUVar7;
+  UnityEngine_Transform_o *pUVar8;
+  Weather_LightningParticle_o *pWVar9;
   UnityEngine_GameObject_o *__this_04;
-  UnityEngine_MonoBehaviour_o *__this_05;
-  uint index_00;
-  Weather_ThunderWeatherEffect_o *__this_06;
-  float fVar6;
-  float fVar7;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 uVar8;
-  undefined4 extraout_XMM0_Dc_00;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 uVar9;
-  undefined4 extraout_XMM0_Dd_00;
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  UnityEngine_Vector3_o UVar12;
-  UnityEngine_Vector3_o UVar13;
-  UnityEngine_Quaternion_o rotation;
-  UnityEngine_Color_o start;
-  float fStack_60;
-  undefined8 uStack_58;
-  undefined8 uVar14;
+  Weather_LightningParticle__StrikeCoroutine_d__20_o *routine;
+  int32_t index;
+  float fVar10;
+  float fVar11;
+  float fVar12;
+  float fVar13;
+  float fVar14;
+  UnityEngine_Vector3_o local_98;
+  UnityEngine_Color_Fields local_88;
+  UnityEngine_Color_Fields local_78 [5];
   
-  if (g_data_057ac2f4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LightningParticle_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Weather_LightningParticle_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderWeatherEffect);
-    g_data_057ac2f4 = '\x01';
-    if (*(int32_t *)((long)&TypeInfo_ThunderWeatherEffect[2].klass + 4) != 0) goto label_0406d47d;
-label_0406d4e7:
-    il2cpp_runtime_helper_02337ed0();
-    __this_00 = (TypeInfo_ThunderWeatherEffect[1].fields._audioSources)->klass;
-    __this_06 = TypeInfo_ThunderWeatherEffect;
+  if (Il2CppMethodInitialized_184344924 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_LightningParticle_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_LightningParticle_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_LightningParticle_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_ThunderWeatherEffect);
+    Il2CppMethodInitialized_184344924 = '\x01';
   }
-  else {
-    if (*(int32_t *)((long)&TypeInfo_ThunderWeatherEffect[2].klass + 4) == 0) goto label_0406d4e7;
-label_0406d47d:
-    __this_00 = (TypeInfo_ThunderWeatherEffect[1].fields._audioSources)->klass;
-    __this_06 = TypeInfo_ThunderWeatherEffect;
+  if ((TypeInfo_Weather_ThunderWeatherEffect->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Weather_ThunderWeatherEffect);
   }
-  TypeInfo_ThunderWeatherEffect = __this_06;
-  if (__this_00 == (System_Collections_Generic_List_AudioSource__c *)0x0) goto label_0406d943;
-  index = UnityEngine_Random__Range_4df2410(0,*(int32_t *)&(__this_00->_1).namespaze,(MethodInfo *)0x0);
-  __this_03 = (Weather_ThunderWeatherEffect_o *)
-              System_Collections_Generic_List_object___get_Item
-                        ((System_Collections_Generic_List_object__o *)__this_00,index,MethodInfo_List_1_Weather_LightningParticle_get_Item);
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x1;
-  method = (MethodInfo *)&g_data_00000004;
-  uVar3 = UnityEngine_Random__Range_4df2410(1,4,(MethodInfo *)0x0);
-  lVar2 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-  if (lVar2 == 0) goto label_0406d943;
-  __this_01 = *(UnityEngine_Camera_o **)(lVar2 + 0x20);
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (__this_01 == (UnityEngine_Camera_o *)0x0) goto label_0406d943;
-  method = (MethodInfo *)0x0;
-  fVar6 = UnityEngine_Camera__get_fieldOfView(__this_01,(MethodInfo *)0x0);
-  pUVar5 = (__this->fields)._parent;
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-  method = (MethodInfo *)0x0;
-  UVar12 = UnityEngine_Transform__get_forward(pUVar5,(MethodInfo *)0x0);
-  pUVar5 = (__this->fields)._parent;
-  __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-  if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-  UVar13 = UnityEngine_Transform__get_forward(pUVar5,(MethodInfo *)0x0);
-  fStack_60 = UVar13.fields.z;
-  if (g_data_057a6845 == '\0') {
-    il2cpp_runtime_helper_023445d0(UVar13.fields.x,&TypeInfo_Math);
-    g_data_057a6845 = '\x01';
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_Math + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_58._0_4_ = UVar12.fields.x;
-  uVar8 = 0;
-  uVar9 = 0;
-  fVar7 = fStack_60 * fStack_60 + (float)uStack_58 * (float)uStack_58 + 0.0;
-  if (fVar7 < 0.0) {
-    fVar7 = sqrtf(fVar7);
-    uVar8 = extraout_XMM0_Dc_00;
-    uVar9 = extraout_XMM0_Dd_00;
-    if (fVar7 <= 1e-05) goto label_0406d5fc;
-label_0406d64d:
-    auVar10._0_8_ = UVar12.fields._0_8_ & 0xffffffff;
-    auVar10._8_4_ = extraout_XMM0_Dc;
-    auVar10._12_4_ = extraout_XMM0_Dd;
-    fStack_60 = fStack_60 / fVar7;
-    auVar11._4_4_ = fVar7;
-    auVar11._0_4_ = fVar7;
-    auVar11._8_4_ = uVar8;
-    auVar11._12_4_ = uVar9;
-    auVar11 = divps(auVar10,auVar11);
-    uStack_58 = auVar11._0_8_;
-  }
-  else {
-    fVar7 = SQRT(fVar7);
-    if (1e-05 < fVar7) goto label_0406d64d;
-label_0406d5fc:
-    if (g_data_057a65d5 == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057a65d5 = '\x01';
-    }
-    uStack_58 = **(undefined8 **)(TypeInfo_Vector3 + 0xb8);
-    fStack_60 = *(float *)(*(undefined8 **)(TypeInfo_Vector3 + 0xb8) + 1);
-  }
-  fVar6 = UnityEngine_Random__Range(fVar6 * -0.5,fVar6 * 0.5,(MethodInfo *)0x0);
-  if (g_data_057a6844 == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057a6844 = '\x01';
-  }
-  rotation = UnityEngine_Quaternion__AngleAxis
-                       (fVar6,(UnityEngine_Vector3_o)
-                              *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x18),
-                        (MethodInfo *)0x0);
-  UVar12.fields.z = fStack_60;
-  UVar12.fields.x = (float)uStack_58;
-  UVar12.fields.y = uStack_58._4_4_;
-  UnityEngine_Quaternion__op_Multiply_4debdf0(rotation,UVar12,(MethodInfo *)0x0);
-  fVar6 = UnityEngine_Random__Range(900.0,1400.0,(MethodInfo *)0x0);
-  method = (MethodInfo *)0x0;
-  __this_06 = __this;
-  pWVar4 = (Weather_ThunderWeatherEffect_o *)
-           UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) {
-label_0406d943:
-    il2cpp_runtime_helper_022b2c90();
-    (__this_06->fields)._lightningWaitTime = 15.0;
-    Weather_BaseWeatherEffect___ctor((Weather_SnowWeatherEffect_o *)__this_06,method);
-    return;
-  }
-  method = (MethodInfo *)0x0;
-  UVar12 = UnityEngine_Transform__get_position((UnityEngine_Transform_o *)pWVar4,(MethodInfo *)0x0);
-  if (0 < (int)uVar3) {
-    __this_06 = pWVar4;
-    if (__this_03 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-    index_00 = 0;
-    do {
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      method = (MethodInfo *)0x0;
-      pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-      UVar13.fields.z = fStack_60 * fVar6 + UVar12.fields.z;
-      UVar13.fields.x = (float)uStack_58 * fVar6 + UVar12.fields.x;
-      UVar13.fields.y = uStack_58._4_4_ * fVar6 + UVar12.fields.y;
-      UnityEngine_Transform__set_position(pUVar5,UVar13,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      method = (MethodInfo *)0x0;
-      pUVar5 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (pUVar5 == (UnityEngine_Transform_o *)0x0) goto label_0406d943;
-      UnityEngine_Transform__LookAt(pUVar5,(__this->fields)._parent,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)
-               System_Collections_Generic_List_object___get_Item
-                         ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      __this_02 = *(UnityEngine_LineRenderer_o **)&(pWVar4->fields)._level;
-      __this_06 = (Weather_ThunderWeatherEffect_o *)0x0;
-      if (__this_02 == (UnityEngine_LineRenderer_o *)0x0) goto label_0406d943;
-      start.fields.a = 0.0;
-      start.fields.r = 0.0;
-      uVar14._4_4_ = 0.0;
-      start.fields.b = 0.0;
-      UnityEngine_LineRenderer__SetColors(__this_02,start,(UnityEngine_Color_o)ZEXT816(0),(MethodInfo *)0x0);
-      method = (MethodInfo *)0x0;
-      __this_04 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pWVar4,(MethodInfo *)0x0);
-      __this_06 = pWVar4;
-      if (__this_04 == (UnityEngine_GameObject_o *)0x0) goto label_0406d943;
-      UnityEngine_GameObject__SetActive(__this_04,1,(MethodInfo *)0x0);
-      method = (MethodInfo *)(ulong)index_00;
-      __this_06 = __this_03;
-      __this_05 = (UnityEngine_MonoBehaviour_o *)
-                  System_Collections_Generic_List_object___get_Item
-                            ((System_Collections_Generic_List_object__o *)__this_03,index_00,MethodInfo_LightningParticle_get_Item);
-      if (__this_05 == (UnityEngine_MonoBehaviour_o *)0x0) goto label_0406d943;
-      if (g_data_057ac2ea == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_StrikeCoroutine_d__20);
-        g_data_057ac2ea = '\x01';
+  __this_00 = TypeInfo_Weather_ThunderWeatherEffect->static_fields->LightningPool;
+  if (__this_00 != (System_Collections_Generic_List_List_LightningParticle___o *)0x0) {
+    iVar5 = UnityEngine_Random__RandomRangeInt(0,(__this_00->fields)._size,(MethodInfo *)0x0);
+    __this_03 = (System_Collections_Generic_List_object__o *)
+                System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                          ((System_Collections_Generic_List_object__o *)__this_00,iVar5,
+                           (MethodInfo_92B830 *)
+                           MethodInfo_System_Collections_Generic_List_List_LightningParticle_get_Item);
+    iVar5 = UnityEngine_Random__RandomRangeInt(1,4,(MethodInfo *)0x0);
+    pCVar3 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+    if ((pCVar3 != (Cameras_BaseCamera_o *)0x0) &&
+       (__this_01 = (pCVar3->fields).Camera, __this_01 != (UnityEngine_Camera_o *)0x0)) {
+      fVar10 = UnityEngine_Camera__get_fieldOfView(__this_01,(MethodInfo *)0x0);
+      pUVar8 = (__this->fields)._parent;
+      if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+        pUVar6 = UnityEngine_Transform__get_forward
+                           ((UnityEngine_Vector3_o *)&local_88,pUVar8,(MethodInfo *)0x0);
+        pUVar8 = (__this->fields)._parent;
+        if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+          fVar12 = (pUVar6->fields).x;
+          pUVar6 = UnityEngine_Transform__get_forward
+                             ((UnityEngine_Vector3_o *)&local_88,pUVar8,(MethodInfo *)0x0);
+          local_98.fields.y = 0.0;
+          fVar13 = (pUVar6->fields).z;
+          local_98.fields.x = fVar12;
+          local_98.fields.z = fVar13;
+          if (Il2CppMethodInitialized_18433de5f == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433de5f = '\x01';
+          }
+          fVar11 = (float)il2cpp_runtime_helper_180546a40(&local_98,0);
+          if (fVar11 <= 1e-05) {
+            pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
+            fVar12 = (pUVar4->zeroVector).fields.x;
+            fVar14 = (pUVar4->zeroVector).fields.y;
+            fVar13 = (pUVar4->zeroVector).fields.z;
+          }
+          else {
+            fVar12 = fVar12 / fVar11;
+            fVar14 = 0.0 / fVar11;
+            fVar13 = fVar13 / fVar11;
+          }
+          fVar10 = UnityEngine_Random__Range(-fVar10 * 0.5,fVar10 * 0.5,(MethodInfo *)0x0);
+          if (Il2CppMethodInitialized_18433de5c == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+            Il2CppMethodInitialized_18433de5c = '\x01';
+          }
+          pUVar4 = TypeInfo_UnityEngine_Vector3->static_fields;
+          local_88.r = (pUVar4->upVector).fields.x;
+          local_88.g = (pUVar4->upVector).fields.y;
+          local_88.b = (pUVar4->upVector).fields.z;
+          pUVar7 = UnityEngine_Quaternion__Internal_AngleAxis
+                             ((UnityEngine_Quaternion_o *)local_78,fVar10,(UnityEngine_Vector3_o *)&local_88,
+                              (MethodInfo *)0x0);
+          local_78[0].r = (pUVar7->fields).x;
+          local_78[0].g = (pUVar7->fields).y;
+          local_78[0].b = (pUVar7->fields).z;
+          local_78[0].a = (pUVar7->fields).w;
+          local_98.fields.x = fVar12;
+          local_98.fields.y = fVar14;
+          local_98.fields.z = fVar13;
+          UnityEngine_Quaternion__op_Multiply_2f08cb0
+                    ((UnityEngine_Vector3_o *)&local_88,(UnityEngine_Quaternion_o *)local_78,&local_98,
+                     (MethodInfo *)0x0);
+          fVar10 = UnityEngine_Random__Range(900.0,1400.0,(MethodInfo *)0x0);
+          pUVar8 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+          if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+            pUVar6 = UnityEngine_Transform__get_position
+                               ((UnityEngine_Vector3_o *)&local_88,pUVar8,(MethodInfo *)0x0);
+            fVar11 = (pUVar6->fields).x;
+            fVar1 = (pUVar6->fields).y;
+            fVar2 = (pUVar6->fields).z;
+            if (0 < iVar5) {
+              index = 0;
+              if (__this_03 == (System_Collections_Generic_List_object__o *)0x0) goto label_181daf920;
+              do {
+                pWVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                                   (__this_03,index,
+                                    (MethodInfo_92B830 *)
+                                    MethodInfo_System_Collections_Generic_List_LightningParticle_get_Item);
+                if ((pWVar9 == (Weather_LightningParticle_o *)0x0) ||
+                   (pUVar8 = UnityEngine_Component__get_transform
+                                       ((UnityEngine_Component_o *)pWVar9,(MethodInfo *)0x0),
+                   pUVar8 == (UnityEngine_Transform_o *)0x0)) goto label_181daf920;
+                local_98.fields.x = fVar12 * fVar10 + fVar11;
+                local_98.fields.y = fVar14 * fVar10 + fVar1;
+                local_98.fields.z = fVar13 * fVar10 + fVar2;
+                UnityEngine_Transform__set_position(pUVar8,&local_98,(MethodInfo *)0x0);
+                pWVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                                   (__this_03,index,
+                                    (MethodInfo_92B830 *)
+                                    MethodInfo_System_Collections_Generic_List_LightningParticle_get_Item);
+                if ((pWVar9 == (Weather_LightningParticle_o *)0x0) ||
+                   (pUVar8 = UnityEngine_Component__get_transform
+                                       ((UnityEngine_Component_o *)pWVar9,(MethodInfo *)0x0),
+                   pUVar8 == (UnityEngine_Transform_o *)0x0)) goto label_181daf920;
+                UnityEngine_Transform__LookAt(pUVar8,(__this->fields)._parent,(MethodInfo *)0x0);
+                pWVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                                   (__this_03,index,
+                                    (MethodInfo_92B830 *)
+                                    MethodInfo_System_Collections_Generic_List_LightningParticle_get_Item);
+                if ((pWVar9 == (Weather_LightningParticle_o *)0x0) ||
+                   (__this_02 = (pWVar9->fields)._lineRenderer, __this_02 == (UnityEngine_LineRenderer_o *)0x0
+                   )) goto label_181daf920;
+                local_78[0].r = 0.0;
+                local_78[0].g = 0.0;
+                local_78[0].b = 0.0;
+                local_78[0].a = 0.0;
+                local_88.r = 0.0;
+                local_88.g = 0.0;
+                local_88.b = 0.0;
+                local_88.a = 0.0;
+                UnityEngine_LineRenderer__SetColors
+                          (__this_02,(UnityEngine_Color_o *)&local_88,(UnityEngine_Color_o *)local_78,
+                           (MethodInfo *)0x0);
+                __this_04 = UnityEngine_Component__get_gameObject
+                                      ((UnityEngine_Component_o *)pWVar9,(MethodInfo *)0x0);
+                if (__this_04 == (UnityEngine_GameObject_o *)0x0) goto label_181daf920;
+                UnityEngine_GameObject__SetActive(__this_04,true,(MethodInfo *)0x0);
+                pWVar9 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                                   (__this_03,index,
+                                    (MethodInfo_92B830 *)
+                                    MethodInfo_System_Collections_Generic_List_LightningParticle_get_Item);
+                if (pWVar9 == (Weather_LightningParticle_o *)0x0) goto label_181daf920;
+                if (Il2CppMethodInitialized_18434491a == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata
+                            (&TypeInfo_Weather_LightningParticle_StrikeCoroutine_d__20);
+                  Il2CppMethodInitialized_18434491a = '\x01';
+                }
+                routine = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)TypeInfo_Weather_LightningParticle_StrikeCoroutine_d__20);
+                System_Object___ctor
+                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,
+                           (MethodInfo *)0x0);
+                (routine->fields).__1__state = 0;
+                (routine->fields).__4__this = pWVar9;
+                Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,pWVar9);
+                (routine->fields).sound = index == 0;
+                UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                          ((UnityEngine_MonoBehaviour_o *)pWVar9,(System_Collections_IEnumerator_o *)routine,
+                           (MethodInfo *)0x0);
+                index = index + 1;
+              } while (index < iVar5);
+            }
+            return;
+          }
+        }
       }
-      pWVar4 = (Weather_ThunderWeatherEffect_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StrikeCoroutine_d__20);
-      method = (MethodInfo *)0x0;
-      __this_06 = pWVar4;
-      System_Object___ctor((Il2CppObject *)pWVar4,(MethodInfo *)0x0);
-      *(undefined4 *)&(pWVar4->fields).m_CachedPtr = 0;
-      if (pWVar4 == (Weather_ThunderWeatherEffect_o *)0x0) goto label_0406d943;
-      (pWVar4->fields)._parent = (UnityEngine_Transform_o *)__this_05;
-      il2cpp_runtime_helper_022b4080(&(pWVar4->fields)._parent,__this_05);
-      *(bool *)&(pWVar4->fields)._transform = index_00 == 0;
-      UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                (__this_05,(System_Collections_IEnumerator_o *)pWVar4,(MethodInfo *)0x0);
-      index_00 = index_00 + 1;
-    } while (uVar3 != index_00);
+    }
   }
-  return;
+label_181daf920:
+  ThrowNullReferenceException();
 }
 
 
 // Weather.ThunderWeatherEffect$$.ctor
 // il2cpp: void Weather_ThunderWeatherEffect___ctor (Weather_ThunderWeatherEffect_o* __this, const MethodInfo* method);
-// 0x406d950
+// 0x181daffb0
 
 void Weather_ThunderWeatherEffect___ctor(Weather_ThunderWeatherEffect_o *__this,MethodInfo *method)
 
 {
   (__this->fields)._lightningWaitTime = 15.0;
-  Weather_BaseWeatherEffect___ctor((Weather_SnowWeatherEffect_o *)__this,method);
+  Weather_BaseWeatherEffect___ctor((Weather_BaseWeatherEffect_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Weather.ThunderWeatherEffect$$.cctor
 // il2cpp: void Weather_ThunderWeatherEffect___cctor (const MethodInfo* method);
-// 0x406d960
+// 0x181daff20
 
 void Weather_ThunderWeatherEffect___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_List_object__o *__this;
+  System_Collections_Generic_List_List_LightningParticle___o *__this;
   
-  if (g_data_057ac2f5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_List_1_Weather_LightningParticle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_List_LightningParticle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderWeatherEffect);
-    g_data_057ac2f5 = '\x01';
+  if (Il2CppMethodInitialized_184344925 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_List_LightningParticle_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_List_LightningParticle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Weather_ThunderWeatherEffect);
+    Il2CppMethodInitialized_184344925 = '\x01';
   }
-  __this = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_List_LightningParticle);
-  System_Collections_Generic_List_object____ctor(__this,MethodInfo_List_1_List_1_Weather_LightningParticle);
-  **(undefined8 **)(TypeInfo_ThunderWeatherEffect + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ThunderWeatherEffect + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_List_LightningParticle);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_List_LightningParticle_ctor);
+  TypeInfo_Weather_ThunderWeatherEffect->static_fields->LightningPool = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Weather_ThunderWeatherEffect->static_fields->LightningPool,__this);
   return;
 }
 

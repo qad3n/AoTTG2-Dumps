@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization;
 
-[Token(Token = "0x20003CA")]
+[Token(Token = "0x20003F9")]
 public interface ISerializable
 {
-	[Token(Token = "0x6001F26")]
+	[Token(Token = "0x6001F95")]
 	void GetObjectData(SerializationInfo info, StreamingContext context);
 }

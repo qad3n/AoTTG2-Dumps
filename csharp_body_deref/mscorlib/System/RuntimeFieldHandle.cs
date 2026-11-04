@@ -15,71 +15,71 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200019B")]
+[Token(Token = "0x20001C6")]
 [ComVisible(true)]
 public struct RuntimeFieldHandle : ISerializable
 {
-	[Token(Token = "0x40006C2")]
+	[Token(Token = "0x4000726")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IntPtr value;
 
-	[Token(Token = "0x17000171")]
+	[Token(Token = "0x17000173")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x6000FE4")]
-		[Address(RVA = "0x3D120F0", Offset = "0x3D120F0", VA = "0x3D120F0")]
+		[Token(Token = "0x600103B")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x6000FE2")]
-	[Address(RVA = "0x3D11F70", Offset = "0x3D11F70", VA = "0x3D11F70")]
+	[Token(Token = "0x6001039")]
+	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
 	internal RuntimeFieldHandle(IntPtr v)
 	{
 	}
 
-	[Token(Token = "0x6000FE3")]
-	[Address(RVA = "0x3D11F80", Offset = "0x3D11F80", VA = "0x3D11F80")]
+	[Token(Token = "0x600103A")]
+	[Address(RVA = "0x1B88EC0", Offset = "0x1B874C0", VA = "0x181B88EC0")]
 	private RuntimeFieldHandle(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FE5")]
-	[Address(RVA = "0x3D12100", Offset = "0x3D12100", VA = "0x3D12100", Slot = "4")]
+	[Token(Token = "0x600103C")]
+	[Address(RVA = "0x1B88D10", Offset = "0x1B87310", VA = "0x181B88D10", Slot = "4")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000FE6")]
-	[Address(RVA = "0x3D12270", Offset = "0x3D12270", VA = "0x3D12270", Slot = "0")]
+	[Token(Token = "0x600103D")]
+	[Address(RVA = "0x1B88C20", Offset = "0x1B87220", VA = "0x181B88C20", Slot = "0")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000FE7")]
-	[Address(RVA = "0x3D12350", Offset = "0x3D12350", VA = "0x3D12350", Slot = "2")]
+	[Token(Token = "0x600103E")]
+	[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FE8")]
-	[Address(RVA = "0x3D12360", Offset = "0x3D12360", VA = "0x3D12360")]
+	[Token(Token = "0x600103F")]
+	[Address(RVA = "0x1B88EB0", Offset = "0x1B874B0", VA = "0x181B88EB0")]
 	private static extern void SetValueInternal(FieldInfo fi, object obj, object value);
 
-	[Token(Token = "0x6000FE9")]
-	[Address(RVA = "0x3D12370", Offset = "0x3D12370", VA = "0x3D12370")]
+	[Token(Token = "0x6001040")]
+	[Address(RVA = "0x1B88EB0", Offset = "0x1B874B0", VA = "0x181B88EB0")]
 	internal static void SetValue(System.Reflection.RuntimeFieldInfo field, object obj, object value, System.RuntimeType fieldType, FieldAttributes fieldAttr, System.RuntimeType declaringType, ref bool domainInitialized)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000FEA")]
-	[Address(RVA = "0x3D12380", Offset = "0x3D12380", VA = "0x3D12380")]
+	[Token(Token = "0x6001041")]
+	[Address(RVA = "0x1B88EA0", Offset = "0x1B874A0", VA = "0x181B88EA0")]
 	internal unsafe static extern void SetValueDirect(System.Reflection.RuntimeFieldInfo field, System.RuntimeType fieldType, void* pTypedRef, object value, System.RuntimeType contextType);
 }

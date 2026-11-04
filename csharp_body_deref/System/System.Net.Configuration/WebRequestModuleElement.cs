@@ -10,66 +10,66 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20003A6")]
+[Token(Token = "0x2000401")]
 public sealed class WebRequestModuleElement : ConfigurationElement
 {
-	[Token(Token = "0x1700058F")]
+	[Token(Token = "0x170005F9")]
 	public string Prefix
 	{
-		[Token(Token = "0x600184F")]
-		[Address(RVA = "0x48F5930", Offset = "0x48F5930", VA = "0x48F5930")]
+		[Token(Token = "0x6001AF3")]
+		[Address(RVA = "0x282CDC0", Offset = "0x282B3C0", VA = "0x18282CDC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001850")]
-		[Address(RVA = "0x48F5960", Offset = "0x48F5960", VA = "0x48F5960")]
+		[Token(Token = "0x6001AF4")]
+		[Address(RVA = "0x282CE50", Offset = "0x282B450", VA = "0x18282CE50")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000590")]
+	[Token(Token = "0x170005FA")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001851")]
-		[Address(RVA = "0x48F5990", Offset = "0x48F5990", VA = "0x48F5990", Slot = "4")]
+		[Token(Token = "0x6001AF5")]
+		[Address(RVA = "0x282CDF0", Offset = "0x282B3F0", VA = "0x18282CDF0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000591")]
+	[Token(Token = "0x170005FB")]
 	public Type Type
 	{
-		[Token(Token = "0x6001852")]
-		[Address(RVA = "0x48F59C0", Offset = "0x48F59C0", VA = "0x48F59C0")]
+		[Token(Token = "0x6001AF6")]
+		[Address(RVA = "0x282CE20", Offset = "0x282B420", VA = "0x18282CE20")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001853")]
-		[Address(RVA = "0x48F59F0", Offset = "0x48F59F0", VA = "0x48F59F0")]
+		[Token(Token = "0x6001AF7")]
+		[Address(RVA = "0x282CE80", Offset = "0x282B480", VA = "0x18282CE80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600184C")]
-	[Address(RVA = "0x48F58A0", Offset = "0x48F58A0", VA = "0x48F58A0")]
+	[Token(Token = "0x6001AF0")]
+	[Address(RVA = "0x282CD60", Offset = "0x282B360", VA = "0x18282CD60")]
 	public WebRequestModuleElement()
 	{
 	}
 
-	[Token(Token = "0x600184D")]
-	[Address(RVA = "0x48F58D0", Offset = "0x48F58D0", VA = "0x48F58D0")]
+	[Token(Token = "0x6001AF1")]
+	[Address(RVA = "0x282CD30", Offset = "0x282B330", VA = "0x18282CD30")]
 	public WebRequestModuleElement(string prefix, string type)
 	{
 	}
 
-	[Token(Token = "0x600184E")]
-	[Address(RVA = "0x48F5900", Offset = "0x48F5900", VA = "0x48F5900")]
+	[Token(Token = "0x6001AF2")]
+	[Address(RVA = "0x282CD90", Offset = "0x282B390", VA = "0x18282CD90")]
 	public WebRequestModuleElement(string prefix, Type type)
 	{
 	}

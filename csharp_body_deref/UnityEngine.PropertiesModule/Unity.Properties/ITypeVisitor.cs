@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000027")]
+[Token(Token = "0x200004F")]
 public interface ITypeVisitor
 {
-	[Token(Token = "0x6000075")]
+	[Token(Token = "0x6000133")]
 	void Visit<TContainer>();
 }

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x200002F")]
 public enum LobbySearchDistance
 {
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x4000082")]
 	Local,
-	[Token(Token = "0x4000088")]
+	[Token(Token = "0x4000083")]
 	Default,
-	[Token(Token = "0x4000089")]
+	[Token(Token = "0x4000084")]
 	Extended,
-	[Token(Token = "0x400008A")]
+	[Token(Token = "0x4000085")]
 	Global
 }

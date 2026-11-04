@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000B0")]
 public interface ISubmitHandler : IEventSystemHandler
 {
-	[Token(Token = "0x600064C")]
+	[Token(Token = "0x6000693")]
 	void OnSubmit(BaseEventData eventData);
 }

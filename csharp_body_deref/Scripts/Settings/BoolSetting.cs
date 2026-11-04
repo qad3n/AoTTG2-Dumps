@@ -10,29 +10,29 @@ using SimpleJSONFixed;
 
 namespace Settings;
 
-[Token(Token = "0x20000B0")]
+[Token(Token = "0x20000CD")]
 internal class BoolSetting : TypedSetting<bool>
 {
-	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x40FD7C0", Offset = "0x40FD7C0", VA = "0x40FD7C0")]
+	[Token(Token = "0x60003FE")]
+	[Address(RVA = "0x1F11C30", Offset = "0x1F10230", VA = "0x181F11C30")]
 	public BoolSetting()
 	{
 	}
 
-	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x40F3960", Offset = "0x40F3960", VA = "0x40F3960")]
+	[Token(Token = "0x60003FF")]
+	[Address(RVA = "0x1F11BE0", Offset = "0x1F101E0", VA = "0x181F11BE0")]
 	public BoolSetting(bool defaultValue)
 	{
 	}
 
-	[Token(Token = "0x600037F")]
-	[Address(RVA = "0x40FF580", Offset = "0x40FF580", VA = "0x40FF580", Slot = "6")]
+	[Token(Token = "0x6000400")]
+	[Address(RVA = "0x1F11B00", Offset = "0x1F10100", VA = "0x181F11B00", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}
 
-	[Token(Token = "0x6000380")]
-	[Address(RVA = "0x40FF5E0", Offset = "0x40FF5E0", VA = "0x40FF5E0", Slot = "5")]
+	[Token(Token = "0x6000401")]
+	[Address(RVA = "0x1F11B70", Offset = "0x1F10170", VA = "0x181F11B70", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;

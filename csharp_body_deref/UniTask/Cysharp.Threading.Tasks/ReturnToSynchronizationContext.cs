@@ -12,97 +12,97 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000110")]
+[Token(Token = "0x2000109")]
 public struct ReturnToSynchronizationContext
 {
-	[Token(Token = "0x2000111")]
+	[Token(Token = "0x200010A")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x400041A")]
+		[Token(Token = "0x400040B")]
 		[FieldOffset(Offset = "0x0")]
 		private static readonly SendOrPostCallback switchToCallback;
 
-		[Token(Token = "0x400041B")]
+		[Token(Token = "0x400040C")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly SynchronizationContext synchronizationContext;
 
-		[Token(Token = "0x400041C")]
+		[Token(Token = "0x400040D")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly bool dontPostWhenSameContext;
 
-		[Token(Token = "0x400041D")]
+		[Token(Token = "0x400040E")]
 		[FieldOffset(Offset = "0x10")]
 		private readonly CancellationToken cancellationToken;
 
-		[Token(Token = "0x17000049")]
+		[Token(Token = "0x17000047")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60006B2")]
-			[Address(RVA = "0x49EAA50", Offset = "0x49EAA50", VA = "0x49EAA50")]
+			[Token(Token = "0x6000692")]
+			[Address(RVA = "0x2909580", Offset = "0x2907B80", VA = "0x182909580")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60006B0")]
-		[Address(RVA = "0x49EAA00", Offset = "0x49EAA00", VA = "0x49EAA00")]
+		[Token(Token = "0x6000690")]
+		[Address(RVA = "0x2909420", Offset = "0x2907A20", VA = "0x182909420")]
 		public Awaiter(SynchronizationContext synchronizationContext, bool dontPostWhenSameContext, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x60006B1")]
-		[Address(RVA = "0x49EAA30", Offset = "0x49EAA30", VA = "0x49EAA30")]
+		[Token(Token = "0x6000691")]
+		[Address(RVA = "0xBAD8E0", Offset = "0xBABEE0", VA = "0x180BAD8E0")]
 		public Awaiter GetAwaiter()
 		{
 			return default(Awaiter);
 		}
 
-		[Token(Token = "0x60006B3")]
-		[Address(RVA = "0x49EAA70", Offset = "0x49EAA70", VA = "0x49EAA70")]
+		[Token(Token = "0x6000693")]
+		[Address(RVA = "0x2908580", Offset = "0x2906B80", VA = "0x182908580")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x60006B4")]
-		[Address(RVA = "0x49EAAD0", Offset = "0x49EAAD0", VA = "0x49EAAD0", Slot = "5")]
+		[Token(Token = "0x6000694")]
+		[Address(RVA = "0x2908780", Offset = "0x2906D80", VA = "0x182908780", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006B5")]
-		[Address(RVA = "0x49EAB50", Offset = "0x49EAB50", VA = "0x49EAB50", Slot = "4")]
+		[Token(Token = "0x6000695")]
+		[Address(RVA = "0x2909030", Offset = "0x2907630", VA = "0x182909030", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60006B6")]
-		[Address(RVA = "0x49EABD0", Offset = "0x49EABD0", VA = "0x49EABD0")]
+		[Token(Token = "0x6000696")]
+		[Address(RVA = "0x29084C0", Offset = "0x2906AC0", VA = "0x1829084C0")]
 		private static void Callback(object state)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000417")]
+	[Token(Token = "0x4000408")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly SynchronizationContext syncContext;
 
-	[Token(Token = "0x4000418")]
+	[Token(Token = "0x4000409")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly bool dontPostWhenSameContext;
 
-	[Token(Token = "0x4000419")]
+	[Token(Token = "0x400040A")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x60006AE")]
-	[Address(RVA = "0x49DEF10", Offset = "0x49DEF10", VA = "0x49DEF10")]
+	[Token(Token = "0x600068E")]
+	[Address(RVA = "0x2909420", Offset = "0x2907A20", VA = "0x182909420")]
 	public ReturnToSynchronizationContext(SynchronizationContext syncContext, bool dontPostWhenSameContext, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x60006AF")]
-	[Address(RVA = "0x49EA9B0", Offset = "0x49EA9B0", VA = "0x49EA9B0")]
+	[Token(Token = "0x600068F")]
+	[Address(RVA = "0x2911D60", Offset = "0x2910360", VA = "0x182911D60")]
 	public Awaiter DisposeAsync()
 	{
 		return default(Awaiter);

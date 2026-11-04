@@ -10,24 +10,24 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000164")]
+[Token(Token = "0x20001F4")]
 public static class AottgExternalLinks
 {
-	[Token(Token = "0x60007E2")]
-	[Address(RVA = "0x43EC650", Offset = "0x43EC650", VA = "0x43EC650")]
+	[Token(Token = "0x6000B7C")]
+	[Address(RVA = "0x23ADAF0", Offset = "0x23AC0F0", VA = "0x1823ADAF0")]
 	public static bool TryShow(string url)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007E3")]
-	[Address(RVA = "0x43EC660", Offset = "0x43EC660", VA = "0x43EC660")]
+	[Token(Token = "0x6000B7D")]
+	[Address(RVA = "0x23AD920", Offset = "0x23ABF20", VA = "0x1823AD920")]
 	public static void Show(string url)
 	{
 	}
 
-	[Token(Token = "0x60007E4")]
-	[Address(RVA = "0x43EC6E0", Offset = "0x43EC6E0", VA = "0x43EC6E0")]
+	[Token(Token = "0x6000B7E")]
+	[Address(RVA = "0x23AD750", Offset = "0x23ABD50", VA = "0x1823AD750")]
 	public static void Show(GisketchActionContext context, string url)
 	{
 	}

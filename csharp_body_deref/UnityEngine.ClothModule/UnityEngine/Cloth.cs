@@ -13,22 +13,22 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [Token(Token = "0x2000002")]
+[RequireComponent(typeof(Transform), typeof(SkinnedMeshRenderer))]
 [UnityEngine.NativeClass("Unity::Cloth")]
 [UnityEngine.Bindings.NativeHeader("Modules/Cloth/Cloth.h")]
-[RequireComponent(typeof(Transform), typeof(SkinnedMeshRenderer))]
 public sealed class Cloth : Component
 {
 	[Token(Token = "0x17000001")]
 	public bool enabled
 	{
 		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4DAB540", Offset = "0x4DAB540", VA = "0x4DAB540")]
+		[Address(RVA = "0x2EB6C10", Offset = "0x2EB5210", VA = "0x182EB6C10")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4DAB610", Offset = "0x4DAB610", VA = "0x4DAB610")]
+		[Address(RVA = "0x2EB6CE0", Offset = "0x2EB52E0", VA = "0x182EB6CE0")]
 		set
 		{
 		}
@@ -36,11 +36,11 @@ public sealed class Cloth : Component
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4DAB5E0", Offset = "0x4DAB5E0", VA = "0x4DAB5E0")]
+	[Address(RVA = "0x2EB6BD0", Offset = "0x2EB51D0", VA = "0x182EB6BD0")]
 	private static extern bool get_enabled_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4DAB6B0", Offset = "0x4DAB6B0", VA = "0x4DAB6B0")]
+	[Address(RVA = "0x2EB6C90", Offset = "0x2EB5290", VA = "0x182EB6C90")]
 	private static extern void set_enabled_Injected(IntPtr _unity_self, bool value);
 }

@@ -11,130 +11,130 @@ using Il2CppDummyDll;
 namespace UnityEngine.TextCore.Text;
 
 [Serializable]
-[Token(Token = "0x200001E")]
+[Token(Token = "0x2000044")]
 public abstract class TextElement
 {
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40001E2")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	protected TextElementType m_ElementType;
 
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x40001E3")]
 	[FieldOffset(Offset = "0x14")]
 	[SerializeField]
 	internal uint m_Unicode;
 
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40001E4")]
 	[FieldOffset(Offset = "0x18")]
 	internal TextAsset m_TextAsset;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40001E5")]
 	[FieldOffset(Offset = "0x20")]
 	internal Glyph m_Glyph;
 
-	[Token(Token = "0x40000E0")]
+	[Token(Token = "0x40001E6")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	internal uint m_GlyphIndex;
 
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x40001E7")]
 	[FieldOffset(Offset = "0x2C")]
 	[SerializeField]
 	internal float m_Scale;
 
-	[Token(Token = "0x1700002B")]
+	[Token(Token = "0x1700005E")]
 	public TextElementType elementType
 	{
-		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x4EB8530", Offset = "0x4EB8530", VA = "0x4EB8530")]
+		[Token(Token = "0x60001E7")]
+		[Address(RVA = "0x1CC78D0", Offset = "0x1CC5ED0", VA = "0x181CC78D0")]
 		get
 		{
 			return default(TextElementType);
 		}
 	}
 
-	[Token(Token = "0x1700002C")]
+	[Token(Token = "0x1700005F")]
 	public uint unicode
 	{
-		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x4EA9790", Offset = "0x4EA9790", VA = "0x4EA9790")]
+		[Token(Token = "0x60001E8")]
+		[Address(RVA = "0x152EFE0", Offset = "0x152D5E0", VA = "0x18152EFE0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x4EA69D0", Offset = "0x4EA69D0", VA = "0x4EA69D0")]
+		[Token(Token = "0x60001E9")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700002D")]
+	[Token(Token = "0x17000060")]
 	public TextAsset textAsset
 	{
-		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x4EB2CC0", Offset = "0x4EB2CC0", VA = "0x4EB2CC0")]
+		[Token(Token = "0x60001EA")]
+		[Address(RVA = "0x1536BF0", Offset = "0x15351F0", VA = "0x181536BF0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x4EA69E0", Offset = "0x4EA69E0", VA = "0x4EA69E0")]
+		[Token(Token = "0x60001EB")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700002E")]
+	[Token(Token = "0x17000061")]
 	public Glyph glyph
 	{
-		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x4EB8540", Offset = "0x4EB8540", VA = "0x4EB8540")]
+		[Token(Token = "0x60001EC")]
+		[Address(RVA = "0x2E85240", Offset = "0x2E83840", VA = "0x182E85240")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x4EA69F0", Offset = "0x4EA69F0", VA = "0x4EA69F0")]
+		[Token(Token = "0x60001ED")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700002F")]
+	[Token(Token = "0x17000062")]
 	public uint glyphIndex
 	{
-		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x4EA87B0", Offset = "0x4EA87B0", VA = "0x4EA87B0")]
+		[Token(Token = "0x60001EE")]
+		[Address(RVA = "0xE282E0", Offset = "0xE268E0", VA = "0x180E282E0")]
 		get
 		{
 			return default(uint);
 		}
-		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x4EA6A00", Offset = "0x4EA6A00", VA = "0x4EA6A00")]
+		[Token(Token = "0x60001EF")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000030")]
+	[Token(Token = "0x17000063")]
 	public float scale
 	{
-		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x4EB8550", Offset = "0x4EB8550", VA = "0x4EB8550")]
+		[Token(Token = "0x60001F0")]
+		[Address(RVA = "0xD0EAF0", Offset = "0xD0D0F0", VA = "0x180D0EAF0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x4EA6950", Offset = "0x4EA6950", VA = "0x4EA6950")]
+		[Token(Token = "0x60001F1")]
+		[Address(RVA = "0x2CDD470", Offset = "0x2CDBA70", VA = "0x182CDD470")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x4EA6940", Offset = "0x4EA6940", VA = "0x4EA6940")]
+	[Token(Token = "0x60001F2")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected TextElement()
 	{
 	}

@@ -15,103 +15,70 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x2000086")]
+[Token(Token = "0x2000090")]
 internal sealed class SimpleType : ISerializable
 {
-	[Token(Token = "0x40002B7")]
+	[Token(Token = "0x40002CA")]
 	[FieldOffset(Offset = "0x10")]
 	private string _baseType;
 
-	[Token(Token = "0x40002B8")]
+	[Token(Token = "0x40002CB")]
 	[FieldOffset(Offset = "0x18")]
 	private SimpleType _baseSimpleType;
 
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x40002CC")]
 	[FieldOffset(Offset = "0x20")]
 	private XmlQualifiedName _xmlBaseType;
 
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x40002CD")]
 	[FieldOffset(Offset = "0x28")]
 	private string _name;
 
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x40002CE")]
 	[FieldOffset(Offset = "0x30")]
 	private int _length;
 
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x40002CF")]
 	[FieldOffset(Offset = "0x34")]
 	private int _minLength;
 
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x40002D0")]
 	[FieldOffset(Offset = "0x38")]
 	private int _maxLength;
 
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x40002D1")]
 	[FieldOffset(Offset = "0x40")]
 	private string _pattern;
 
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x40002D2")]
 	[FieldOffset(Offset = "0x48")]
 	private string _ns;
 
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x40002D3")]
 	[FieldOffset(Offset = "0x50")]
 	private string _maxExclusive;
 
-	[Token(Token = "0x40002C1")]
+	[Token(Token = "0x40002D4")]
 	[FieldOffset(Offset = "0x58")]
 	private string _maxInclusive;
 
-	[Token(Token = "0x40002C2")]
+	[Token(Token = "0x40002D5")]
 	[FieldOffset(Offset = "0x60")]
 	private string _minExclusive;
 
-	[Token(Token = "0x40002C3")]
+	[Token(Token = "0x40002D6")]
 	[FieldOffset(Offset = "0x68")]
 	private string _minInclusive;
 
-	[Token(Token = "0x40002C4")]
+	[Token(Token = "0x40002D7")]
 	[FieldOffset(Offset = "0x70")]
 	internal string _enumeration;
 
-	[Token(Token = "0x17000138")]
+	[Token(Token = "0x1700013B")]
 	internal string BaseType
 	{
-		[Token(Token = "0x60007A3")]
-		[Address(RVA = "0x45C41E0", Offset = "0x45C41E0", VA = "0x45C41E0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000139")]
-	internal XmlQualifiedName XmlBaseType
-	{
-		[Token(Token = "0x60007A4")]
-		[Address(RVA = "0x45C41F0", Offset = "0x45C41F0", VA = "0x45C41F0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700013A")]
-	internal string Name
-	{
-		[Token(Token = "0x60007A5")]
-		[Address(RVA = "0x45C4200", Offset = "0x45C4200", VA = "0x45C4200")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700013B")]
-	internal string Namespace
-	{
-		[Token(Token = "0x60007A6")]
-		[Address(RVA = "0x45C4210", Offset = "0x45C4210", VA = "0x45C4210")]
+		[Token(Token = "0x60007C2")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -119,37 +86,32 @@ internal sealed class SimpleType : ISerializable
 	}
 
 	[Token(Token = "0x1700013C")]
-	internal int Length
+	internal XmlQualifiedName XmlBaseType
 	{
-		[Token(Token = "0x60007A7")]
-		[Address(RVA = "0x45C4220", Offset = "0x45C4220", VA = "0x45C4220")]
+		[Token(Token = "0x60007C3")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
-			return default(int);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x1700013D")]
-	internal int MaxLength
+	internal string Name
 	{
-		[Token(Token = "0x60007A8")]
-		[Address(RVA = "0x45C4230", Offset = "0x45C4230", VA = "0x45C4230")]
+		[Token(Token = "0x60007C4")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
-			return default(int);
-		}
-		[Token(Token = "0x60007A9")]
-		[Address(RVA = "0x45C4240", Offset = "0x45C4240", VA = "0x45C4240")]
-		set
-		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x1700013E")]
-	internal SimpleType BaseSimpleType
+	internal string Namespace
 	{
-		[Token(Token = "0x60007AA")]
-		[Address(RVA = "0x45C4250", Offset = "0x45C4250", VA = "0x45C4250")]
+		[Token(Token = "0x60007C5")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
@@ -157,105 +119,143 @@ internal sealed class SimpleType : ISerializable
 	}
 
 	[Token(Token = "0x1700013F")]
-	public string SimpleTypeQualifiedName
+	internal int Length
 	{
-		[Token(Token = "0x60007AB")]
-		[Address(RVA = "0x45C4260", Offset = "0x45C4260", VA = "0x45C4260")]
+		[Token(Token = "0x60007C6")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000140")]
+	internal int MaxLength
+	{
+		[Token(Token = "0x60007C7")]
+		[Address(RVA = "0x172E4A0", Offset = "0x172CAA0", VA = "0x18172E4A0")]
+		get
+		{
+			return default(int);
+		}
+		[Token(Token = "0x60007C8")]
+		[Address(RVA = "0x1A40490", Offset = "0x1A3EA90", VA = "0x181A40490")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000141")]
+	internal SimpleType BaseSimpleType
+	{
+		[Token(Token = "0x60007C9")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600079E")]
-	[Address(RVA = "0x45C32E0", Offset = "0x45C32E0", VA = "0x45C32E0")]
+	[Token(Token = "0x17000142")]
+	public string SimpleTypeQualifiedName
+	{
+		[Token(Token = "0x60007CA")]
+		[Address(RVA = "0x2526DA0", Offset = "0x25253A0", VA = "0x182526DA0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x60007BD")]
+	[Address(RVA = "0x2526A80", Offset = "0x2525080", VA = "0x182526A80")]
 	internal SimpleType(string baseType)
 	{
 	}
 
-	[Token(Token = "0x600079F")]
-	[Address(RVA = "0x45C3420", Offset = "0x45C3420", VA = "0x45C3420")]
+	[Token(Token = "0x60007BE")]
+	[Address(RVA = "0x2526BC0", Offset = "0x25251C0", VA = "0x182526BC0")]
 	internal SimpleType(XmlSchemaSimpleType node)
 	{
 	}
 
-	[Token(Token = "0x60007A0")]
-	[Address(RVA = "0x45C4090", Offset = "0x45C4090", VA = "0x45C4090", Slot = "4")]
+	[Token(Token = "0x60007BF")]
+	[Address(RVA = "0x2526530", Offset = "0x2524B30", VA = "0x182526530", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x60007A1")]
-	[Address(RVA = "0x45C3600", Offset = "0x45C3600", VA = "0x45C3600")]
+	[Token(Token = "0x60007C0")]
+	[Address(RVA = "0x2525C60", Offset = "0x2524260", VA = "0x182525C60")]
 	internal void LoadTypeValues(XmlSchemaSimpleType node)
 	{
 	}
 
-	[Token(Token = "0x60007A2")]
-	[Address(RVA = "0x45C40D0", Offset = "0x45C40D0", VA = "0x45C40D0")]
+	[Token(Token = "0x60007C1")]
+	[Address(RVA = "0x2525B50", Offset = "0x2524150", VA = "0x182525B50")]
 	internal bool IsPlainString()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007AC")]
-	[Address(RVA = "0x45C42B0", Offset = "0x45C42B0", VA = "0x45C42B0")]
+	[Token(Token = "0x60007CB")]
+	[Address(RVA = "0x25264C0", Offset = "0x2524AC0", VA = "0x1825264C0")]
 	internal string QualifiedName(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007AD")]
-	[Address(RVA = "0x45C4310", Offset = "0x45C4310", VA = "0x45C4310")]
+	[Token(Token = "0x60007CC")]
+	[Address(RVA = "0x2526570", Offset = "0x2524B70", VA = "0x182526570")]
 	internal XmlNode ToNode(XmlDocument dc, Hashtable prefixes, bool inRemoting)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007AE")]
-	[Address(RVA = "0x45C4880", Offset = "0x45C4880", VA = "0x45C4880")]
+	[Token(Token = "0x60007CD")]
+	[Address(RVA = "0x2525860", Offset = "0x2523E60", VA = "0x182525860")]
 	internal static SimpleType CreateEnumeratedType(string values)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007AF")]
-	[Address(RVA = "0x45C4900", Offset = "0x45C4900", VA = "0x45C4900")]
+	[Token(Token = "0x60007CE")]
+	[Address(RVA = "0x2525800", Offset = "0x2523E00", VA = "0x182525800")]
 	internal static SimpleType CreateByteArrayType(string encoding)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007B0")]
-	[Address(RVA = "0x45C4960", Offset = "0x45C4960", VA = "0x45C4960")]
+	[Token(Token = "0x60007CF")]
+	[Address(RVA = "0x25258E0", Offset = "0x2523EE0", VA = "0x1825258E0")]
 	internal static SimpleType CreateLimitedStringType(int length)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007B1")]
-	[Address(RVA = "0x45C49D0", Offset = "0x45C49D0", VA = "0x45C49D0")]
+	[Token(Token = "0x60007D0")]
+	[Address(RVA = "0x2525960", Offset = "0x2523F60", VA = "0x182525960")]
 	internal static SimpleType CreateSimpleType(StorageType typeCode, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007B2")]
-	[Address(RVA = "0x45C4A90", Offset = "0x45C4A90", VA = "0x45C4A90")]
+	[Token(Token = "0x60007D1")]
+	[Address(RVA = "0x2525A30", Offset = "0x2524030", VA = "0x182525A30")]
 	internal string HasConflictingDefinition(SimpleType otherSimpleType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007B3")]
-	[Address(RVA = "0x45C4B70", Offset = "0x45C4B70", VA = "0x45C4B70")]
+	[Token(Token = "0x60007D2")]
+	[Address(RVA = "0x25256E0", Offset = "0x2523CE0", VA = "0x1825256E0")]
 	internal bool CanHaveMaxLength()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60007B4")]
-	[Address(RVA = "0x45C4BD0", Offset = "0x45C4BD0", VA = "0x45C4BD0")]
+	[Token(Token = "0x60007D3")]
+	[Address(RVA = "0x2525750", Offset = "0x2523D50", VA = "0x182525750")]
 	internal void ConvertToAnnonymousSimpleType()
 	{
 	}

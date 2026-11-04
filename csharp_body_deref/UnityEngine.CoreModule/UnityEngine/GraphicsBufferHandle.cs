@@ -11,31 +11,31 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000C4")]
-[UnityEngine.NativeClass("GfxBufferID")]
+[Token(Token = "0x20000E5")]
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
+[UnityEngine.NativeClass("GfxBufferID")]
 public readonly struct GraphicsBufferHandle : IEquatable<GraphicsBufferHandle>
 {
-	[Token(Token = "0x40001F7")]
+	[Token(Token = "0x4000252")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly uint value;
 
-	[Token(Token = "0x60004D3")]
-	[Address(RVA = "0x4DCDC00", Offset = "0x4DCDC00", VA = "0x4DCDC00", Slot = "2")]
+	[Token(Token = "0x600069F")]
+	[Address(RVA = "0x2ED9490", Offset = "0x2ED7A90", VA = "0x182ED9490", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60004D4")]
-	[Address(RVA = "0x4DCDC10", Offset = "0x4DCDC10", VA = "0x4DCDC10", Slot = "0")]
+	[Token(Token = "0x60006A0")]
+	[Address(RVA = "0x2ED9410", Offset = "0x2ED7A10", VA = "0x182ED9410", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004D5")]
-	[Address(RVA = "0x4DCDC70", Offset = "0x4DCDC70", VA = "0x4DCDC70", Slot = "4")]
+	[Token(Token = "0x60006A1")]
+	[Address(RVA = "0x2ED9400", Offset = "0x2ED7A00", VA = "0x182ED9400", Slot = "4")]
 	public bool Equals(GraphicsBufferHandle other)
 	{
 		return default(bool);

@@ -12,155 +12,155 @@ using UnityEngine.UIElements;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200042D")]
+[Token(Token = "0x2000583")]
 [CompilerGenerated]
 internal class CustomLogicButtonBuiltin : CustomLogicVisualElementBuiltin
 {
-	[Token(Token = "0x200042E")]
+	[Token(Token = "0x2000584")]
 	public new static class Factory
 	{
-		[Token(Token = "0x6002ABF")]
-		[Address(RVA = "0x40E75A0", Offset = "0x40E75A0", VA = "0x40E75A0")]
+		[Token(Token = "0x6003426")]
+		[Address(RVA = "0x2074760", Offset = "0x2072D60", VA = "0x182074760")]
 		public static CustomLogicButtonBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200042F")]
+	[Token(Token = "0x2000585")]
 	public new static class Bindings
 	{
-		[Token(Token = "0x4001192")]
+		[Token(Token = "0x40017CF")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002AC0")]
-		[Address(RVA = "0x40E7630", Offset = "0x40E7630", VA = "0x40E7630")]
+		[Token(Token = "0x6003427")]
+		[Address(RVA = "0x20494D0", Offset = "0x2047AD0", VA = "0x1820494D0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AC1")]
-		[Address(RVA = "0x40E77C0", Offset = "0x40E77C0", VA = "0x40E77C0")]
+		[Token(Token = "0x6003428")]
+		[Address(RVA = "0x2063590", Offset = "0x2061B90", VA = "0x182063590")]
 		public static CLPropertyBinding<CustomLogicButtonBuiltin> __CreatePropertyBinding__Text()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AC2")]
-		[Address(RVA = "0x40E78A0", Offset = "0x40E78A0", VA = "0x40E78A0")]
+		[Token(Token = "0x6003429")]
+		[Address(RVA = "0x2061BF0", Offset = "0x20601F0", VA = "0x182061BF0")]
 		public static CLPropertyBinding<CustomLogicButtonBuiltin> __CreatePropertyBinding__EnableRichText()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AC3")]
-		[Address(RVA = "0x40E7980", Offset = "0x40E7980", VA = "0x40E7980")]
+		[Token(Token = "0x600342A")]
+		[Address(RVA = "0x205B520", Offset = "0x2059B20", VA = "0x18205B520")]
 		public static CLMethodBinding<CustomLogicButtonBuiltin> __CreateMethodBinding__OnClick()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001190")]
+	[Token(Token = "0x40017CD")]
 	[FieldOffset(Offset = "0x60")]
 	private readonly Button _button;
 
-	[Token(Token = "0x4001191")]
+	[Token(Token = "0x40017CE")]
 	[FieldOffset(Offset = "0x68")]
 	private UserMethod _clickEvent;
 
-	[Token(Token = "0x170008A7")]
+	[Token(Token = "0x1700099B")]
 	public string Text
 	{
-		[Token(Token = "0x6002AB6")]
-		[Address(RVA = "0x40E7480", Offset = "0x40E7480", VA = "0x40E7480")]
+		[Token(Token = "0x600341D")]
+		[Address(RVA = "0x2066520", Offset = "0x2064B20", VA = "0x182066520")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6002AB7")]
-		[Address(RVA = "0x40E74B0", Offset = "0x40E74B0", VA = "0x40E74B0")]
+		[Token(Token = "0x600341E")]
+		[Address(RVA = "0x2066570", Offset = "0x2064B70", VA = "0x182066570")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170008A8")]
+	[Token(Token = "0x1700099C")]
 	public bool EnableRichText
 	{
-		[Token(Token = "0x6002AB8")]
-		[Address(RVA = "0x40E74E0", Offset = "0x40E74E0", VA = "0x40E74E0")]
+		[Token(Token = "0x600341F")]
+		[Address(RVA = "0x2066500", Offset = "0x2064B00", VA = "0x182066500")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6002AB9")]
-		[Address(RVA = "0x40E7500", Offset = "0x40E7500", VA = "0x40E7500")]
+		[Token(Token = "0x6003420")]
+		[Address(RVA = "0x2066550", Offset = "0x2064B50", VA = "0x182066550")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170008A9")]
+	[Token(Token = "0x1700099D")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002ABB")]
-		[Address(RVA = "0x40E7540", Offset = "0x40E7540", VA = "0x40E7540", Slot = "4")]
+		[Token(Token = "0x6003422")]
+		[Address(RVA = "0x20664D0", Offset = "0x2064AD0", VA = "0x1820664D0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008AA")]
+	[Token(Token = "0x1700099E")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002ABC")]
-		[Address(RVA = "0x40E7570", Offset = "0x40E7570", VA = "0x40E7570", Slot = "6")]
+		[Token(Token = "0x6003423")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008AB")]
+	[Token(Token = "0x1700099F")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002ABD")]
-		[Address(RVA = "0x40E7580", Offset = "0x40E7580", VA = "0x40E7580", Slot = "7")]
+		[Token(Token = "0x6003424")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008AC")]
+	[Token(Token = "0x170009A0")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002ABE")]
-		[Address(RVA = "0x40E7590", Offset = "0x40E7590", VA = "0x40E7590", Slot = "8")]
+		[Token(Token = "0x6003425")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002AB4")]
-	[Address(RVA = "0x40E7350", Offset = "0x40E7350", VA = "0x40E7350")]
+	[Token(Token = "0x600341B")]
+	[Address(RVA = "0x2066410", Offset = "0x2064A10", VA = "0x182066410")]
 	public CustomLogicButtonBuiltin(Button button)
 	{
 	}
 
-	[Token(Token = "0x6002AB5")]
-	[Address(RVA = "0x40E7400", Offset = "0x40E7400", VA = "0x40E7400")]
+	[Token(Token = "0x600341C")]
+	[Address(RVA = "0x2066390", Offset = "0x2064990", VA = "0x182066390")]
 	private void OnClick()
 	{
 	}
 
-	[Token(Token = "0x6002ABA")]
-	[Address(RVA = "0x40E7520", Offset = "0x40E7520", VA = "0x40E7520")]
+	[Token(Token = "0x6003421")]
+	[Address(RVA = "0x55DEB0", Offset = "0x55C4B0", VA = "0x18055DEB0")]
 	public CustomLogicButtonBuiltin OnClick(UserMethod clickEvent)
 	{
 		return null;

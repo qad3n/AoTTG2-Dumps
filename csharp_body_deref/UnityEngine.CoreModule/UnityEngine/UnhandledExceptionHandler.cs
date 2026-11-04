@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000183")]
+[Token(Token = "0x20001BB")]
 [UnityEngine.Bindings.NativeHeader("PlatformDependent/iPhonePlayer/IOSScriptBindings.h")]
 internal sealed class UnhandledExceptionHandler
 {
-	[Token(Token = "0x6000AEB")]
-	[Address(RVA = "0x4E00270", Offset = "0x4E00270", VA = "0x4E00270")]
+	[Token(Token = "0x6000E4F")]
+	[Address(RVA = "0x2F2B980", Offset = "0x2F29F80", VA = "0x182F2B980")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void RegisterUECatcher()
 	{

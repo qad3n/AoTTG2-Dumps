@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x200063C")]
+[Token(Token = "0x2000610")]
 internal enum InsertionBehavior : byte
 {
-	[Token(Token = "0x4001B0D")]
+	[Token(Token = "0x4001918")]
 	None,
-	[Token(Token = "0x4001B0E")]
+	[Token(Token = "0x4001919")]
 	OverwriteExisting,
-	[Token(Token = "0x4001B0F")]
+	[Token(Token = "0x400191A")]
 	ThrowOnExisting
 }

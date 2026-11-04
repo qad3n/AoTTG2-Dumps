@@ -1,5 +1,5 @@
 // Type: Settings.InGameModeSettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/InGameModeSettings.cs
@@ -8,323 +8,383 @@
 
 // Settings.InGameModeSettings$$SerializeToJsonObject
 // il2cpp: SimpleJSONFixed_JSONNode_o* Settings_InGameModeSettings__SerializeToJsonObject (Settings_InGameModeSettings_o* __this, const MethodInfo* method);
-// 0x408b6a0
+// 0x181f1b220
+// eh: try 0x181f1b380..0x181f1b5d9 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 19 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f1b578: mov rdx, qword ptr [rip + 0x219d681]  ; MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_Dispose
+// asm:   0x181f1b57f: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181f1b584: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181f1b589: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x181f1b58e: test rcx, rcx
+// asm:   0x181f1b591: jne 0x181f1b5d9
+// asm:   0x181f1b593: mov rsi, qword ptr [rsp + 0xb0]
+// asm:   0x181f1b5d9: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 SimpleJSONFixed_JSONNode_o *
 Settings_InGameModeSettings__SerializeToJsonObject(Settings_InGameModeSettings_o *__this,MethodInfo *method)
 
 {
   Settings_ListSetting_StringSetting__o *pSVar1;
+  System_Collections_Generic_Dictionary_string__BaseSetting__o *__this_00;
   System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  long lVar3;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_00;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_01;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_02;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o __this_03;
-  bool_conflict bVar4;
-  System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *__this_04;
-  Settings_StringSetting_o *pSVar5;
-  Il2CppObject *pIVar6;
-  System_String_o *defaultValue;
-  System_String_o *pSVar7;
-  SimpleJSONFixed_JSONNode_o *pSVar8;
-  long *plVar9;
-  undefined1 auVar10 [12];
-  undefined1 auVar11 [8];
-  Il2CppType *pIVar12;
-  System_String_o *pSVar13;
-  undefined1 auStack_48 [8];
-  Il2CppType *pIStack_40;
-  int32_t iStack_38;
-  undefined4 uStack_34;
+  Il2CppObject *defaultValue;
+  bool bVar3;
+  System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *__this_01;
+  Settings_StringSetting_o *pSVar4;
+  Settings_BaseSetting_o *pSVar5;
+  System_String_o *pSVar6;
+  SimpleJSONFixed_JSONNode_o *pSVar7;
+  undefined1 local_70 [8];
+  uint64_t uStack_68;
+  Il2CppObject *local_60;
+  undefined1 local_58 [16];
+  int32_t local_48;
+  undefined4 uStack_44;
   
-  if (g_data_057ac3f2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetting_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Set);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_AddItem);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingType);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_StringSetting);
-    g_data_057ac3f2 = '\x01';
+  if (Il2CppMethodInitialized_184345448 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_get_Keys);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_Dispose
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_MoveNext
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_get_Current
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_BaseSetting_GetEnumerator
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_StringSetting_AddItem);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_StringSetting_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingType);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_StringSetting);
+    Il2CppMethodInitialized_184345448 = '\x01';
   }
-  auVar11 = (undefined1  [8])0x0;
-  pIVar12 = (Il2CppType *)0x0;
-  pSVar13 = (System_String_o *)0x0;
+  local_70 = (undefined1  [8])0x0;
+  uStack_68 = 0;
+  local_60 = (Il2CppObject *)0x0;
   pSVar1 = (__this->fields).Names;
   if (pSVar1 != (Settings_ListSetting_StringSetting__o *)0x0) {
-    Settings_ListSetting_object___Clear((Settings_ListSetting_T__o *)pSVar1,MethodInfo_Void_Clear);
+    Settings_ListSetting_object___Clear
+              ((Settings_ListSetting_T__o *)pSVar1,
+               (MethodInfo_182A820 *)MethodInfo_Settings_ListSetting_StringSetting_Clear);
     pSVar1 = (__this->fields).Values;
     if (pSVar1 != (Settings_ListSetting_StringSetting__o *)0x0) {
-      Settings_ListSetting_object___Clear((Settings_ListSetting_T__o *)pSVar1,MethodInfo_Void_Clear);
+      Settings_ListSetting_object___Clear
+                ((Settings_ListSetting_T__o *)pSVar1,
+                 (MethodInfo_182A820 *)MethodInfo_Settings_ListSetting_StringSetting_Clear);
       pSVar1 = (__this->fields).Types;
       if (pSVar1 != (Settings_ListSetting_StringSetting__o *)0x0) {
-        Settings_ListSetting_object___Clear((Settings_ListSetting_T__o *)pSVar1,MethodInfo_Void_Clear);
-        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
-        if ((pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) &&
-           (__this_04 = System_Collections_Generic_Dictionary_object__object___get_Keys(pSVar2,MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_System_String_Set),
-           __this_04 != (System_Collections_Generic_Dictionary_KeyCollection_TKey__TValue__o *)0x0)) {
-          System_Collections_Generic_Dictionary_KeyCollection_object__object___GetEnumerator
-                    ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o *)
-                     auStack_48,__this_04,MethodInfo_Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enume);
-          auVar11 = auStack_48;
-          pIVar12 = pIStack_40;
-          pSVar7 = (System_String_o *)CONCAT44(uStack_34,iStack_38);
-          while (__this_00.fields._8_8_ = pIVar12,
-                __this_00.fields._dictionary =
-                     (System_Collections_Generic_Dictionary_TKey__TValue__o *)auVar11,
-                __this_00.fields._currentKey = (Il2CppObject *)pSVar7,
-                bVar4 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___MoveNext
-                                  (__this_00,(MethodInfo_3251B20 *)&stack0xffffffffffffff98),
-                (char)bVar4 != '\0') {
-            pSVar1 = (__this->fields).Names;
-            pSVar13 = pSVar7;
-            pSVar5 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-            Settings_StringSetting___ctor_40f74f0(pSVar5,pSVar7,0x7fffffff,(MethodInfo *)0x0);
-            if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) {
-              il2cpp_runtime_helper_022b2c90();
-label_0408b994:
-              il2cpp_runtime_helper_022b2c90();
-label_0408b999:
-              il2cpp_runtime_helper_022b2c90();
-label_0408b99e:
-              il2cpp_runtime_helper_022b2c90();
-label_0408b9a3:
-              il2cpp_runtime_helper_022b2c90();
-label_0408b9a8:
-              il2cpp_runtime_helper_022b2c90();
-              goto label_0408b9ad;
+        Settings_ListSetting_object___Clear
+                  ((Settings_ListSetting_T__o *)pSVar1,
+                   (MethodInfo_182A820 *)MethodInfo_Settings_ListSetting_StringSetting_Clear);
+        __this_00 = (__this->fields).Current;
+        if (__this_00 != (System_Collections_Generic_Dictionary_string__BaseSetting__o *)0x0) {
+          __this_01 = (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)
+                      System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys
+                                ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                                 (MethodInfo_13C6500 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_get_Keys)
+          ;
+          if (__this_01 != (System_Collections_Generic_Dictionary_ValueCollection_TKey__TValue__o *)0x0) {
+            System_Collections_Generic_Dictionary_ValueCollection_fsPortableReflection_AttributeQuery__object___GetEnumerator
+                      ((System_Collections_Generic_Dictionary_ValueCollection_Enumerator_TKey__TValue__o *)
+                       local_58,__this_01,
+                       (MethodInfo_F1E4D0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_string_BaseSetting_GetEnumerator
+                      );
+            local_70 = (undefined1  [8])local_58._0_8_;
+            uStack_68 = local_58._8_8_;
+            local_60 = (Il2CppObject *)CONCAT44(uStack_44,local_48);
+            while( true ) {
+              bVar3 = System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__StyleComplexSelector_PseudoStateData___MoveNext
+                                ((System_Collections_Generic_Dictionary_KeyCollection_Enumerator_TKey__TValue__o
+                                  *)local_70,
+                                 (MethodInfo_156BDD0 *)
+                                 MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_MoveNext
+                                );
+              defaultValue = local_60;
+              if (!bVar3) {
+                System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
+                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_70,
+                           MethodInfo_System_Collections_Generic_Dictionary_KeyCollection_Enumerator_string_BaseSetting_Dispose
+                          );
+                pSVar7 = Settings_BaseSettingsContainer__SerializeToJsonObject
+                                   ((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
+                return pSVar7;
+              }
+              pSVar1 = (__this->fields).Names;
+              pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
+              if (Il2CppMethodInitialized_1843454ba == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_ctor);
+                Il2CppMethodInitialized_1843454ba = '\x01';
+              }
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              Settings_TypedSetting_object____ctor_e8f190
+                        ((Settings_TypedSetting_T__o *)pSVar4,defaultValue,
+                         (MethodInfo_E8F190 *)MethodInfo_Settings_TypedSetting_string_ctor);
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              Settings_ListSetting_object___AddItem
+                        ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar4,
+                         (MethodInfo_182A740 *)MethodInfo_Settings_ListSetting_StringSetting_AddItem);
+              pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
+              if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              pSVar1 = (__this->fields).Values;
+              pSVar5 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                 (pSVar2,defaultValue,
+                                  (MethodInfo_147A5B0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_get_Item
+                                 );
+              if (pSVar5 == (Settings_BaseSetting_o *)0x0) break;
+              pSVar6 = (*(pSVar5->klass->vtable)._8_SerializeToJsonString.methodPtr)
+                                 (pSVar5,(pSVar5->klass->vtable)._8_SerializeToJsonString.method);
+              pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
+              if (Il2CppMethodInitialized_1843454ba == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_ctor);
+                Il2CppMethodInitialized_1843454ba = '\x01';
+              }
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              Settings_TypedSetting_object____ctor_e8f190
+                        ((Settings_TypedSetting_T__o *)pSVar4,(Il2CppObject *)pSVar6,
+                         (MethodInfo_E8F190 *)MethodInfo_Settings_TypedSetting_string_ctor);
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              Settings_ListSetting_object___AddItem
+                        ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar4,
+                         (MethodInfo_182A740 *)MethodInfo_Settings_ListSetting_StringSetting_AddItem);
+              pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
+              if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              pSVar1 = (__this->fields).Types;
+              pSVar5 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                 (pSVar2,defaultValue,
+                                  (MethodInfo_147A5B0 *)
+                                  MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_get_Item
+                                 );
+              local_48 = Settings_SettingsUtil__GetSettingType(pSVar5,(MethodInfo *)0x0);
+              local_58._0_8_ = TypeInfo_Settings_SettingType;
+              local_58._8_8_ = &g_data_ffffffffffffffff;
+              pSVar6 = System_Enum__ToString((System_Enum_o *)local_58,(MethodInfo *)0x0);
+              pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_StringSetting);
+              if (Il2CppMethodInitialized_1843454ba == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_ctor);
+                Il2CppMethodInitialized_1843454ba = '\x01';
+              }
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              Settings_TypedSetting_object____ctor_e8f190
+                        ((Settings_TypedSetting_T__o *)pSVar4,(Il2CppObject *)pSVar6,
+                         (MethodInfo_E8F190 *)MethodInfo_Settings_TypedSetting_string_ctor);
+              (pSVar4->fields).MaxLength = 0x7fffffff;
+              if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) {
+                ThrowNullReferenceException();
+              }
+              Settings_ListSetting_object___AddItem
+                        ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar4,
+                         (MethodInfo_182A740 *)MethodInfo_Settings_ListSetting_StringSetting_AddItem);
             }
-            Settings_ListSetting_object___AddItem
-                      ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar5,MethodInfo_Void_AddItem);
-            pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
-            if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_0408b994;
-            pSVar1 = (__this->fields).Values;
-            pIVar6 = System_Collections_Generic_Dictionary_object__object___get_Item
-                               (pSVar2,(Il2CppObject *)pSVar7,MethodInfo_BaseSetting_get_Item);
-            if (pIVar6 == (Il2CppObject *)0x0) goto label_0408b999;
-            defaultValue = (System_String_o *)
-                           (*pIVar6->klass->vtable[7].methodPtr)(pIVar6,pIVar6->klass->vtable[7].method);
-            pSVar5 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-            Settings_StringSetting___ctor_40f74f0(pSVar5,defaultValue,0x7fffffff,(MethodInfo *)0x0);
-            if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) goto label_0408b99e;
-            Settings_ListSetting_object___AddItem
-                      ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar5,MethodInfo_Void_AddItem);
-            pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
-            if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_0408b9a3;
-            pSVar1 = (__this->fields).Types;
-            pIVar6 = System_Collections_Generic_Dictionary_object__object___get_Item
-                               (pSVar2,(Il2CppObject *)pSVar7,MethodInfo_BaseSetting_get_Item);
-            iStack_38 = Settings_SettingsUtil__GetSettingType
-                                  ((Settings_BaseSetting_o *)pIVar6,(MethodInfo *)0x0);
-            auStack_48 = (undefined1  [8])TypeInfo_SettingType;
-            pIStack_40 = (Il2CppType *)0xffffffffffffffff;
-            pSVar7 = System_Enum__ToString((System_Enum_o *)auStack_48,(MethodInfo *)0x0);
-            pSVar5 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-            Settings_StringSetting___ctor_40f74f0(pSVar5,pSVar7,0x7fffffff,(MethodInfo *)0x0);
-            if (pSVar1 == (Settings_ListSetting_StringSetting__o *)0x0) goto label_0408b9a8;
-            Settings_ListSetting_object___AddItem
-                      ((Settings_ListSetting_T__o *)pSVar1,(Settings_BaseSetting_o *)pSVar5,MethodInfo_Void_AddItem);
-            pSVar7 = pSVar13;
+            ThrowNullReferenceException();
           }
-          __this_01.fields._8_8_ = pIVar12;
-          __this_01.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)auVar11;
-          __this_01.fields._currentKey = (Il2CppObject *)pSVar7;
-          System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-                    (__this_01,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-          goto label_0408b976;
         }
       }
     }
   }
-label_0408b9ad:
-  auVar10 = il2cpp_runtime_helper_022b2c90();
-  if (auVar10._8_4_ == 1) {
-    plVar9 = (long *)__cxa_begin_catch(auVar10._0_8_);
-    lVar3 = *plVar9;
-    __cxa_end_catch();
-    __this_02.fields._8_8_ = pIVar12;
-    __this_02.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)auVar11;
-    __this_02.fields._currentKey = (Il2CppObject *)pSVar13;
-    System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-              (__this_02,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-    if (lVar3 == 0) {
-label_0408b976:
-      pSVar8 = Settings_BaseSettingsContainer__SerializeToJsonObject
-                         ((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
-      return pSVar8;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar3);
-  }
-  __this_03.fields._8_8_ = pIVar12;
-  __this_03.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)auVar11;
-  __this_03.fields._currentKey = (Il2CppObject *)pSVar13;
-  System_Collections_Generic_Dictionary_KeyCollection_Enumerator_object__object___Dispose
-            (__this_03,(MethodInfo_3251B10 *)&stack0xffffffffffffff98);
-  _Unwind_Resume(auVar10._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Settings.InGameModeSettings$$DeserializeFromJsonObject
 // il2cpp: void Settings_InGameModeSettings__DeserializeFromJsonObject (Settings_InGameModeSettings_o* __this, SimpleJSONFixed_JSONNode_o* json, const MethodInfo* method);
-// 0x408bb10
+// 0x181f1afd0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181f1b09e: nop 
+// asm:   0x181f1b19f: jmp 0x181f1b1a3
+// asm:   0x181f1b1f4: jmp 0x181f1b0a0
 
 void Settings_InGameModeSettings__DeserializeFromJsonObject
                (Settings_InGameModeSettings_o *__this,SimpleJSONFixed_JSONNode_o *json,MethodInfo *method)
 
 {
   byte bVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
-  System_Collections_Generic_List_object__o *pSVar3;
-  System_String_o *value;
+  System_Collections_Generic_Dictionary_string__BaseSetting__o *__this_00;
+  System_Collections_Generic_List_object__o *pSVar2;
+  System_String_o *pSVar3;
+  System_Collections_Generic_Dictionary_object__object__o *__this_01;
   int32_t iVar4;
-  Il2CppObject *pIVar5;
-  Settings_PresetSettingsContainer_o *__this_00;
-  Settings_PresetSettingsContainer_c *__this_01;
-  Settings_ListSetting_T__o *__this_02;
-  System_Collections_Specialized_OrderedDictionary_o *__this_03;
-  System_Collections_Generic_Dictionary_string__BaseSetting__o *__this_04;
+  Settings_ListSetting_StringSetting__o *pSVar5;
+  Settings_StringSetting_o *pSVar6;
+  Settings_BaseSetting_o *value;
   int index;
-  Settings_ListSetting_StringSetting__o *pSVar6;
   
-  if (g_data_057ac3f3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseSetting);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_GetCount);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_StringSetting_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SettingType_ToEnum_SettingType);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MiscExtensions);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Settings_StringSetting_get_Value);
-    g_data_057ac3f3 = '\x01';
+  if (Il2CppMethodInitialized_184345449 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseSetting);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_StringSetting_GetCount);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_StringSetting_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_MiscExtensions_ToEnum_SettingType);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_MiscExtensions);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_List_StringSetting_get_Value)
+    ;
+    Il2CppMethodInitialized_184345449 = '\x01';
   }
   Settings_BaseSettingsContainer__DeserializeFromJsonObject
             ((Settings_BaseSettingsContainer_o *)__this,json,(MethodInfo *)0x0);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
-  if (pSVar2 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear(pSVar2,MethodInfo_Void_Clear);
-    pSVar6 = (__this->fields).Names;
-    if (pSVar6 != (Settings_ListSetting_StringSetting__o *)0x0) {
-      index = 0;
+  __this_00 = (__this->fields).Current;
+  if (__this_00 != (System_Collections_Generic_Dictionary_string__BaseSetting__o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_Clear
+              );
+    pSVar5 = (__this->fields).Names;
+    index = 0;
+    if (pSVar5 != (Settings_ListSetting_StringSetting__o *)0x0) {
       while( true ) {
-        iVar4 = Settings_ListSetting_object___GetCount((Settings_ListSetting_T__o *)pSVar6,MethodInfo_Int32_GetCount);
+        iVar4 = Settings_ListSetting_object___GetCount
+                          ((Settings_ListSetting_T__o *)pSVar5,
+                           (MethodInfo_182B100 *)MethodInfo_Settings_ListSetting_StringSetting_GetCount);
         if (iVar4 <= index) {
           return;
         }
-        pSVar6 = (__this->fields).Types;
-        if (((pSVar6 == (Settings_ListSetting_StringSetting__o *)0x0) ||
-            (pSVar3 = (System_Collections_Generic_List_object__o *)(pSVar6->fields)._value,
-            pSVar3 == (System_Collections_Generic_List_object__o *)0x0)) ||
-           (pIVar5 = System_Collections_Generic_List_object___get_Item(pSVar3,index,MethodInfo_StringSetting_get_Item),
-           pIVar5 == (Il2CppObject *)0x0)) break;
-        value = pIVar5[1].monitor;
-        if (*(int *)(TypeInfo_MiscExtensions + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+        pSVar5 = (__this->fields).Types;
+        if (((pSVar5 == (Settings_ListSetting_StringSetting__o *)0x0) ||
+            (pSVar2 = (System_Collections_Generic_List_object__o *)(pSVar5->fields)._value,
+            pSVar2 == (System_Collections_Generic_List_object__o *)0x0)) ||
+           (pSVar6 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                               (pSVar2,index,
+                                (MethodInfo_92B830 *)
+                                MethodInfo_System_Collections_Generic_List_StringSetting_get_Item),
+           pSVar6 == (Settings_StringSetting_o *)0x0)) break;
+        pSVar3 = (pSVar6->fields)._value;
+        if ((TypeInfo_MiscExtensions->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_MiscExtensions);
         }
-        iVar4 = MiscExtensions__ToEnum_Int32Enum_(value,1,MethodInfo_SettingType_ToEnum_SettingType);
-        pSVar6 = (__this->fields).Values;
-        if (((pSVar6 == (Settings_ListSetting_StringSetting__o *)0x0) ||
-            (pSVar3 = (System_Collections_Generic_List_object__o *)(pSVar6->fields)._value,
-            pSVar3 == (System_Collections_Generic_List_object__o *)0x0)) ||
-           (pIVar5 = System_Collections_Generic_List_object___get_Item(pSVar3,index,MethodInfo_StringSetting_get_Item),
-           pIVar5 == (Il2CppObject *)0x0)) break;
-        __this_00 = (Settings_PresetSettingsContainer_o *)
-                    Settings_SettingsUtil__DeserializeValueFromJson(iVar4,pIVar5[1].monitor,(MethodInfo *)0x0)
-        ;
-        if (__this_00 != (Settings_PresetSettingsContainer_o *)0x0) {
-          bVar1 = (TypeInfo_BaseSetting->_2).naturalAligment;
-          if (((((Il2CppClass *)__this_00->klass)->_2).naturalAligment < bVar1) ||
-             ((((Il2CppClass *)__this_00->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_BaseSetting)) {
-            il2cpp_runtime_helper_022b2fd0();
-            if (g_data_057ac3f4 == '\0') {
-              il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Settings_BaseSetting);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_BaseSetting);
-              il2cpp_runtime_helper_023445d0(&MethodInfo_ListSetting_1_StringSetting);
-              il2cpp_runtime_helper_023445d0(&TypeInfo_ListSetting_StringSetting);
-              g_data_057ac3f4 = '\x01';
-            }
-            __this_01 = (Settings_PresetSettingsContainer_c *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_BaseSetting);
-            System_Collections_Generic_Dictionary_object__object____ctor
-                      ((System_Collections_Generic_Dictionary_object__object__o *)__this_01,MethodInfo_Dictionary_2_System_String_Settings_BaseSetting);
-            __this_00[1].klass = __this_01;
-            il2cpp_runtime_helper_022b4080(__this_00 + 1,__this_01);
-            __this_02 = (Settings_ListSetting_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting);
-            Settings_ListSetting_object____ctor_3521170(__this_02,MethodInfo_ListSetting_1_StringSetting);
-            __this_00[1].monitor = __this_02;
-            il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,__this_02);
-            __this_03 = (System_Collections_Specialized_OrderedDictionary_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting)
-            ;
-            Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)__this_03,MethodInfo_ListSetting_1_StringSetting);
-            __this_00[1].fields.Settings = __this_03;
-            il2cpp_runtime_helper_022b4080(&__this_00[1].fields,__this_03);
-            __this_04 = (System_Collections_Generic_Dictionary_string__BaseSetting__o *)
-                        il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting);
-            Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)__this_04,MethodInfo_ListSetting_1_StringSetting);
-            __this_00[1].fields.TypedSettings = __this_04;
-            il2cpp_runtime_helper_022b4080(&__this_00[1].fields.TypedSettings);
-            Settings_BaseSettingsContainer___ctor(__this_00,(MethodInfo *)0x0);
-            return;
+        iVar4 = MiscExtensions__ToEnum_Int32Enum_
+                          (pSVar3,true,(MethodInfo_732FD0 *)MethodInfo_MiscExtensions_ToEnum_SettingType);
+        pSVar5 = (__this->fields).Values;
+        if (((pSVar5 == (Settings_ListSetting_StringSetting__o *)0x0) ||
+            (pSVar2 = (System_Collections_Generic_List_object__o *)(pSVar5->fields)._value,
+            pSVar2 == (System_Collections_Generic_List_object__o *)0x0)) ||
+           (pSVar6 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                               (pSVar2,index,
+                                (MethodInfo_92B830 *)
+                                MethodInfo_System_Collections_Generic_List_StringSetting_get_Item),
+           pSVar6 == (Settings_StringSetting_o *)0x0)) break;
+        pSVar3 = (pSVar6->fields)._value;
+        value = Settings_SettingsUtil__CreateBaseSetting(iVar4,(MethodInfo *)0x0);
+        if (value == (Settings_BaseSetting_o *)0x0) {
+          value = (Settings_BaseSetting_o *)0x0;
+        }
+        else {
+          (*(value->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
+                    (value,pSVar3,(value->klass->vtable)._9_DeserializeFromJsonString.method);
+          bVar1 = (TypeInfo_Settings_BaseSetting->_2).typeHierarchyDepth;
+          if (((value->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((value->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_BaseSetting)) {
+            il2cpp_codegen_raise_invalid_cast_exception(value);
           }
         }
-        pSVar6 = (__this->fields).Names;
-        if ((pSVar6 == (Settings_ListSetting_StringSetting__o *)0x0) ||
-           (pSVar3 = (System_Collections_Generic_List_object__o *)(pSVar6->fields)._value,
-           pSVar3 == (System_Collections_Generic_List_object__o *)0x0)) break;
-        pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
-        pIVar5 = System_Collections_Generic_List_object___get_Item(pSVar3,index,MethodInfo_StringSetting_get_Item);
-        if ((pIVar5 == (Il2CppObject *)0x0) ||
-           (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
+        pSVar5 = (__this->fields).Names;
+        if ((pSVar5 == (Settings_ListSetting_StringSetting__o *)0x0) ||
+           (pSVar2 = (System_Collections_Generic_List_object__o *)(pSVar5->fields)._value,
+           pSVar2 == (System_Collections_Generic_List_object__o *)0x0)) break;
+        __this_01 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields).Current;
+        pSVar6 = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                           (pSVar2,index,
+                            (MethodInfo_92B830 *)
+                            MethodInfo_System_Collections_Generic_List_StringSetting_get_Item);
+        if ((pSVar6 == (Settings_StringSetting_o *)0x0) ||
+           (__this_01 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) break;
         System_Collections_Generic_Dictionary_object__object___Add
-                  (pSVar2,pIVar5[1].monitor,(Il2CppObject *)__this_00,MethodInfo_Void_Add);
+                  (__this_01,(Il2CppObject *)(pSVar6->fields)._value,(Il2CppObject *)value,
+                   (MethodInfo_146B4B0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_Add);
+        pSVar5 = (__this->fields).Names;
         index = index + 1;
-        pSVar6 = (__this->fields).Names;
-        if (pSVar6 == (Settings_ListSetting_StringSetting__o *)0x0) break;
+        if (pSVar5 == (Settings_ListSetting_StringSetting__o *)0x0) break;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Settings.InGameModeSettings$$.ctor
 // il2cpp: void Settings_InGameModeSettings___ctor (Settings_InGameModeSettings_o* __this, const MethodInfo* method);
-// 0x408bd50
+// 0x181f1b5e0
 
 void Settings_InGameModeSettings___ctor(Settings_InGameModeSettings_o *__this,MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  System_Collections_Generic_Dictionary_string__BaseSetting__o *__this_00;
   Settings_ListSetting_StringSetting__o *pSVar1;
   
-  if (g_data_057ac3f4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Settings_BaseSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_BaseSetting);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ListSetting_1_StringSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ListSetting_StringSetting);
-    g_data_057ac3f4 = '\x01';
+  if (Il2CppMethodInitialized_18434544a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_BaseSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_StringSetting_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ListSetting_StringSetting);
+    Il2CppMethodInitialized_18434544a = '\x01';
   }
-  __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_BaseSetting);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this_00,MethodInfo_Dictionary_2_System_String_Settings_BaseSetting);
-  (__this->fields).Current = (System_Collections_Generic_Dictionary_string__BaseSetting__o *)__this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Current,__this_00);
-  pSVar1 = (Settings_ListSetting_StringSetting__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting);
-  Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)pSVar1,MethodInfo_ListSetting_1_StringSetting);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_BaseSetting);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_BaseSetting_ctor);
+  (__this->fields).Current = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Current,__this_00);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_StringSetting);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar1,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_StringSetting_ctor);
   (__this->fields).Names = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Names,pSVar1);
-  pSVar1 = (Settings_ListSetting_StringSetting__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting);
-  Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)pSVar1,MethodInfo_ListSetting_1_StringSetting);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Names,pSVar1);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_StringSetting);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar1,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_StringSetting_ctor);
   (__this->fields).Values = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Values,pSVar1);
-  pSVar1 = (Settings_ListSetting_StringSetting__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_StringSetting);
-  Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)pSVar1,MethodInfo_ListSetting_1_StringSetting);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Values,pSVar1);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_StringSetting);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar1,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_StringSetting_ctor);
   (__this->fields).Types = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Types);
-  Settings_BaseSettingsContainer___ctor((Settings_PresetSettingsContainer_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Types,pSVar1);
+  Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

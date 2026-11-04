@@ -15,30 +15,41 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000161")]
+[Token(Token = "0x2000194")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/Coroutine.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class Coroutine : YieldInstruction
 {
-	[Token(Token = "0x4000571")]
+	[Token(Token = "0x2000195")]
+	internal static class BindingsMarshaller
+	{
+		[Token(Token = "0x6000D63")]
+		[Address(RVA = "0x87C0D0", Offset = "0x87A6D0", VA = "0x18087C0D0")]
+		public static IntPtr ConvertToNative(Coroutine coroutine)
+		{
+			return default(IntPtr);
+		}
+	}
+
+	[Token(Token = "0x4000602")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal IntPtr m_Ptr;
 
-	[Token(Token = "0x6000A1B")]
-	[Address(RVA = "0x4DF8FF0", Offset = "0x4DF8FF0", VA = "0x4DF8FF0")]
+	[Token(Token = "0x6000D60")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	private Coroutine()
 	{
 	}
 
-	[Token(Token = "0x6000A1C")]
-	[Address(RVA = "0x4DF9000", Offset = "0x4DF9000", VA = "0x4DF9000", Slot = "1")]
+	[Token(Token = "0x6000D61")]
+	[Address(RVA = "0x2F168B0", Offset = "0x2F14EB0", VA = "0x182F168B0", Slot = "1")]
 	~Coroutine()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000A1D")]
-	[Address(RVA = "0x4DF90C0", Offset = "0x4DF90C0", VA = "0x4DF90C0")]
+	[Token(Token = "0x6000D62")]
+	[Address(RVA = "0x2F16930", Offset = "0x2F14F30", VA = "0x182F16930")]
 	[UnityEngine.Bindings.FreeFunction("Coroutine::CleanupCoroutineGC", true)]
 	private static extern void ReleaseCoroutine(IntPtr ptr);
 }

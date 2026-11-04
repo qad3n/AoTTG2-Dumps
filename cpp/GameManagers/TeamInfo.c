@@ -1,5 +1,5 @@
 // Type: GameManagers.TeamInfo
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameManagers/TeamInfo.cs
@@ -8,135 +8,92 @@
 
 // GameManagers.TeamInfo$$SameTeam
 // il2cpp: bool GameManagers_TeamInfo__SameTeam (System_String_o* a, System_String_o* b, const MethodInfo* method);
-// 0x456fe30
+// 0x181e77000
 
-bool_conflict GameManagers_TeamInfo__SameTeam(System_String_o *a,System_String_o *b,MethodInfo *method)
+bool GameManagers_TeamInfo__SameTeam(System_String_o *a,System_String_o *b,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   
-  if (g_data_057af056 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-    g_data_057af056 = '\x01';
+  if (Il2CppMethodInitialized_184344f1d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184344f1d = '\x01';
   }
   bVar1 = System_String__op_Equality(a,b,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if (bVar1) {
+    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
     }
     bVar1 = System_String__op_Inequality
-                      (a,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+                      (a,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
       }
       bVar1 = System_String__op_Inequality
-                        (b,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0);
+                        (b,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
       return bVar1;
     }
   }
-  return 0;
+  return false;
 }
 
 
 // GameManagers.TeamInfo$$SameTeam
 // il2cpp: bool GameManagers_TeamInfo__SameTeam (Characters_BaseCharacter_o* a, Characters_BaseCharacter_o* b, const MethodInfo* method);
-// 0x456fee0
+// 0x181e770d0
+// asm: 5 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e77217: xor r8d, r8d
+// asm:   0x181e7721a: mov rdx, rbx
+// asm:   0x181e7721d: mov rcx, rdi
+// asm:   0x181e77220: call 0x182f22ec0  ; UnityEngine_Object__op_Equality()
+// asm:   0x181e77225: jmp 0x181e771ed
 
-bool_conflict
-GameManagers_TeamInfo__SameTeam_446fee0
-          (Characters_BaseCharacter_o *a,Characters_BaseCharacter_o *b,MethodInfo *method)
+bool GameManagers_TeamInfo__SameTeam_1e770d0
+               (Characters_BaseCharacter_o *a,Characters_BaseCharacter_o *b,MethodInfo *method)
 
 {
   System_String_o *b_00;
-  bool_conflict bVar1;
-  System_String_o *pSVar2;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  Characters_BaseCharacter_o *b_01;
-  Characters_BaseCharacter_o *method_00;
-  Characters_BaseCharacter_o *pCVar3;
-  Characters_BaseCharacter_o *team;
-  UnityEngine_Color_Fields UStack_58;
-  Characters_BaseCharacter_o *pCStack_48;
+  System_String_o *a_00;
+  bool bVar1;
   
-  b_01 = b;
-  pCVar3 = a;
-  if (g_data_057af057 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    pCVar3 = (Characters_BaseCharacter_o *)&TypeInfo_TeamInfo;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057af057 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184344f1e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184344f1e = '\x01';
   }
   if ((a == (Characters_BaseCharacter_o *)0x0) || (b == (Characters_BaseCharacter_o *)0x0)) {
-    il2cpp_runtime_helper_022b2c90();
-    method_00 = b_01;
-    team = pCVar3;
-    if (g_data_057af058 == '\0') {
-      team = (Characters_BaseCharacter_o *)&TypeInfo_TeamInfo;
-      pCStack_48 = (Characters_BaseCharacter_o *)0x456ffc0;
-      il2cpp_runtime_helper_023445d0();
-      g_data_057af058 = '\x01';
+    ThrowNullReferenceException();
+  }
+  b_00 = (b->fields).Team;
+  a_00 = (a->fields).Team;
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+  }
+  if (Il2CppMethodInitialized_184344f1d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184344f1d = '\x01';
+  }
+  bVar1 = System_String__op_Equality(a_00,b_00,(MethodInfo *)0x0);
+  if (bVar1) {
+    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
     }
-    if (pCVar3 == (Characters_BaseCharacter_o *)0x0) {
-      pCStack_48 = (Characters_BaseCharacter_o *)0x457005b;
-      il2cpp_runtime_helper_022b2c90();
-      pCStack_48 = pCVar3;
-      if (g_data_057af059 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-        g_data_057af059 = '\x01';
+    bVar1 = System_String__op_Inequality
+                      (a_00,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
       }
-      UStack_58.r = 0.0;
-      UStack_58.g = 0.0;
-      UStack_58.b = 0.0;
-      UStack_58.a = 0.0;
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar2 = GameManagers_TeamInfo__GetTeamColor((System_String_o *)team,(MethodInfo *)method_00);
-      bVar1 = UnityEngine_ColorUtility__TryParseHtmlString
-                        (pSVar2,(UnityEngine_Color_o *)&UStack_58,(MethodInfo *)0x0);
-      return bVar1;
-    }
-    pCStack_48 = (Characters_BaseCharacter_o *)0x456ffe1;
-    bVar1 = System_String__op_Equality
-                      (*(System_String_o **)&(pCVar3->fields).AI,(System_String_o *)b_01,(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      pSVar2 = *(System_String_o **)&(pCVar3->fields).AI;
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        pCStack_48 = (Characters_BaseCharacter_o *)0x4570004;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pCStack_48 = (Characters_BaseCharacter_o *)0x457001c;
       bVar1 = System_String__op_Inequality
-                        (pSVar2,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0
-                        );
-      if ((char)bVar1 != '\0') {
-        if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-          pCStack_48 = (Characters_BaseCharacter_o *)0x4570031;
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar1 = System_String__op_Inequality
-                          ((System_String_o *)b_01,
-                           *(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0);
-        return bVar1;
+                        (b_00,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
+      if (bVar1) {
+        return true;
       }
     }
-    return 0;
   }
-  pSVar2 = *(System_String_o **)&(a->fields).AI;
-  b_00 = *(System_String_o **)&(b->fields).AI;
-  if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    method = extraout_RDX_00;
-  }
-  bVar1 = GameManagers_TeamInfo__SameTeam(pSVar2,b_00,method);
-  if ((char)bVar1 != '\0') {
-    return (bool_conflict)CONCAT71((uint7)(uint3)((uint)bVar1 >> 8),1);
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)a,(UnityEngine_Object_o *)b,(MethodInfo *)0x0);
@@ -146,213 +103,216 @@ GameManagers_TeamInfo__SameTeam_446fee0
 
 // GameManagers.TeamInfo$$SameTeam
 // il2cpp: bool GameManagers_TeamInfo__SameTeam (Characters_BaseCharacter_o* a, System_String_o* b, const MethodInfo* method);
-// 0x456ffa0
+// 0x181e76f20
 
-bool_conflict
-GameManagers_TeamInfo__SameTeam_446ffa0(Characters_BaseCharacter_o *a,System_String_o *b,MethodInfo *method)
+bool GameManagers_TeamInfo__SameTeam_1e76f20
+               (Characters_BaseCharacter_o *a,System_String_o *b,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  System_String_o *pSVar2;
-  MethodInfo *method_00;
-  Characters_BaseCharacter_o *team;
-  UnityEngine_Color_Fields UStack_30;
-  Characters_BaseCharacter_o *pCStack_20;
+  System_String_o *a_00;
+  bool bVar1;
   
-  method_00 = (MethodInfo *)b;
-  team = a;
-  if (g_data_057af058 == '\0') {
-    team = (Characters_BaseCharacter_o *)&TypeInfo_TeamInfo;
-    pCStack_20 = (Characters_BaseCharacter_o *)0x456ffc0;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057af058 = '\x01';
+  if (Il2CppMethodInitialized_184344f1f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184344f1f = '\x01';
   }
   if (a == (Characters_BaseCharacter_o *)0x0) {
-    pCStack_20 = (Characters_BaseCharacter_o *)0x457005b;
-    il2cpp_runtime_helper_022b2c90();
-    pCStack_20 = a;
-    if (g_data_057af059 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-      g_data_057af059 = '\x01';
-    }
-    UStack_30.r = 0.0;
-    UStack_30.g = 0.0;
-    UStack_30.b = 0.0;
-    UStack_30.a = 0.0;
-    if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSVar2 = GameManagers_TeamInfo__GetTeamColor((System_String_o *)team,method_00);
-    bVar1 = UnityEngine_ColorUtility__TryParseHtmlString
-                      (pSVar2,(UnityEngine_Color_o *)&UStack_30,(MethodInfo *)0x0);
-    return bVar1;
+    ThrowNullReferenceException();
   }
-  pCStack_20 = (Characters_BaseCharacter_o *)0x456ffe1;
-  bVar1 = System_String__op_Equality(*(System_String_o **)&(a->fields).AI,b,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    pSVar2 = *(System_String_o **)&(a->fields).AI;
-    if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-      pCStack_20 = (Characters_BaseCharacter_o *)0x4570004;
-      il2cpp_runtime_helper_02337ed0();
+  bVar1 = System_String__op_Equality((a->fields).Team,b,(MethodInfo *)0x0);
+  if (bVar1) {
+    a_00 = (a->fields).Team;
+    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
     }
-    pCStack_20 = (Characters_BaseCharacter_o *)0x457001c;
     bVar1 = System_String__op_Inequality
-                      (pSVar2,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        pCStack_20 = (Characters_BaseCharacter_o *)0x4570031;
-        il2cpp_runtime_helper_02337ed0();
+                      (a_00,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
       }
       bVar1 = System_String__op_Inequality
-                        (b,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x10),(MethodInfo *)0x0);
+                        (b,TypeInfo_GameManagers_TeamInfo->static_fields->None,(MethodInfo *)0x0);
       return bVar1;
     }
   }
-  return 0;
+  return false;
 }
 
 
 // GameManagers.TeamInfo$$GetTeamColorUnity
 // il2cpp: UnityEngine_Color_o GameManagers_TeamInfo__GetTeamColorUnity (System_String_o* Team, const MethodInfo* method);
-// 0x4570060
+// 0x181e76bc0
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e76d54: jmp 0x181e76d6f
+// asm:   0x181e76d56: mov rcx, qword ptr [rip + 0x2233613]  ; "#ACD1E9"
+// asm:   0x181e76d5d: jmp 0x181e76d6f
+// asm:   0x181e76d5f: mov rcx, qword ptr [rip + 0x223344a]  ; "#9A3334"
+// asm:   0x181e76d66: jmp 0x181e76d6f
+// asm:   0x181e76d68: mov rcx, qword ptr [rip + 0x2232d41]  ; "#3399FF"
 
-UnityEngine_Color_o GameManagers_TeamInfo__GetTeamColorUnity(System_String_o *Team,MethodInfo *method)
+UnityEngine_Color_o *
+GameManagers_TeamInfo__GetTeamColorUnity
+          (UnityEngine_Color_o *__return_storage_ptr__,System_String_o *Team,MethodInfo *method)
 
 {
-  UnityEngine_Color_Fields UVar1;
+  bool bVar1;
   System_String_o *htmlString;
-  UnityEngine_Color_Fields local_18;
   
-  if (g_data_057af059 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-    g_data_057af059 = '\x01';
+  if (Il2CppMethodInitialized_184344f20 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    Il2CppMethodInitialized_184344f20 = '\x01';
   }
-  local_18.r = 0.0;
-  local_18.g = 0.0;
-  local_18.b = 0.0;
-  local_18.a = 0.0;
-  if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  (__return_storage_ptr__->fields).r = 0.0;
+  (__return_storage_ptr__->fields).g = 0.0;
+  (__return_storage_ptr__->fields).b = 0.0;
+  (__return_storage_ptr__->fields).a = 0.0;
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
   }
-  htmlString = GameManagers_TeamInfo__GetTeamColor(Team,method);
-  UnityEngine_ColorUtility__TryParseHtmlString(htmlString,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
-  UVar1.b = local_18.b;
-  UVar1.a = local_18.a;
-  UVar1.r = local_18.r;
-  UVar1.g = local_18.g;
-  return (UnityEngine_Color_o)UVar1;
+  if (Il2CppMethodInitialized_184344f21 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&"#3399FF");
+    il2cpp_codegen_initialize_runtime_metadata(&"#9A3334");
+    il2cpp_codegen_initialize_runtime_metadata(&"#FFD800");
+    il2cpp_codegen_initialize_runtime_metadata(&"#ACD1E9");
+    il2cpp_codegen_initialize_runtime_metadata(&"white");
+    Il2CppMethodInitialized_184344f21 = '\x01';
+  }
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+  }
+  bVar1 = System_String__op_Equality
+                    (Team,TypeInfo_GameManagers_TeamInfo->static_fields->Blue,(MethodInfo *)0x0);
+  htmlString = "#3399FF";
+  if (!bVar1) {
+    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+    }
+    bVar1 = System_String__op_Equality
+                      (Team,TypeInfo_GameManagers_TeamInfo->static_fields->Red,(MethodInfo *)0x0);
+    htmlString = "#9A3334";
+    if (!bVar1) {
+      if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+      }
+      bVar1 = System_String__op_Equality
+                        (Team,TypeInfo_GameManagers_TeamInfo->static_fields->Human,(MethodInfo *)0x0);
+      htmlString = "#ACD1E9";
+      if (!bVar1) {
+        if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+        }
+        bVar1 = System_String__op_Equality
+                          (Team,TypeInfo_GameManagers_TeamInfo->static_fields->Titan,(MethodInfo *)0x0);
+        htmlString = "#FFD800";
+        if (!bVar1) {
+          htmlString = "white";
+        }
+      }
+    }
+  }
+  UnityEngine_ColorUtility__TryParseHtmlString(htmlString,__return_storage_ptr__,(MethodInfo *)0x0);
+  return __return_storage_ptr__;
 }
 
 
 // GameManagers.TeamInfo$$GetTeamColor
 // il2cpp: System_String_o* GameManagers_TeamInfo__GetTeamColor (System_String_o* team, const MethodInfo* method);
-// 0x45700d0
+// 0x181e76d90
 
 System_String_o * GameManagers_TeamInfo__GetTeamColor(System_String_o *team,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 *puVar2;
+  bool bVar1;
+  System_String_o *pSVar2;
   
-  if (g_data_057af05a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-    il2cpp_runtime_helper_023445d0(&"#3399FF");
-    il2cpp_runtime_helper_023445d0(&"#9A3334");
-    il2cpp_runtime_helper_023445d0(&"#FFD800");
-    il2cpp_runtime_helper_023445d0(&"#ACD1E9");
-    il2cpp_runtime_helper_023445d0(&"white");
-    g_data_057af05a = '\x01';
+  if (Il2CppMethodInitialized_184344f21 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&"#3399FF");
+    il2cpp_codegen_initialize_runtime_metadata(&"#9A3334");
+    il2cpp_codegen_initialize_runtime_metadata(&"#FFD800");
+    il2cpp_codegen_initialize_runtime_metadata(&"#ACD1E9");
+    il2cpp_codegen_initialize_runtime_metadata(&"white");
+    Il2CppMethodInitialized_184344f21 = '\x01';
   }
-  if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
   }
   bVar1 = System_String__op_Equality
-                    (team,(System_String_o *)**(undefined8 **)(TypeInfo_TeamInfo + 0xb8),(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+                    (team,TypeInfo_GameManagers_TeamInfo->static_fields->Blue,(MethodInfo *)0x0);
+  if (bVar1) {
+    return "#3399FF";
+  }
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+  }
+  bVar1 = System_String__op_Equality
+                    (team,TypeInfo_GameManagers_TeamInfo->static_fields->Red,(MethodInfo *)0x0);
+  if (bVar1) {
+    return "#9A3334";
+  }
+  if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
+  }
+  bVar1 = System_String__op_Equality
+                    (team,TypeInfo_GameManagers_TeamInfo->static_fields->Human,(MethodInfo *)0x0);
+  if (!bVar1) {
+    if ((TypeInfo_GameManagers_TeamInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_TeamInfo);
     }
     bVar1 = System_String__op_Equality
-                      (team,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 8),(MethodInfo *)0x0);
-    if ((char)bVar1 == '\0') {
-      if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar1 = System_String__op_Equality
-                        (team,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x20),(MethodInfo *)0x0);
-      if ((char)bVar1 == '\0') {
-        if (*(int *)(TypeInfo_TeamInfo + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar1 = System_String__op_Equality
-                          (team,*(System_String_o **)(*(long *)(TypeInfo_TeamInfo + 0xb8) + 0x18),(MethodInfo *)0x0
-                          );
-        if ((char)bVar1 == '\0') {
-          puVar2 = &"white";
-        }
-        else {
-          puVar2 = &"#FFD800";
-        }
-      }
-      else {
-        puVar2 = &"#ACD1E9";
-      }
+                      (team,TypeInfo_GameManagers_TeamInfo->static_fields->Titan,(MethodInfo *)0x0);
+    pSVar2 = "#FFD800";
+    if (!bVar1) {
+      pSVar2 = "white";
     }
-    else {
-      puVar2 = &"#9A3334";
-    }
+    return pSVar2;
   }
-  else {
-    puVar2 = &"#3399FF";
-  }
-  return (System_String_o *)*puVar2;
+  return "#ACD1E9";
 }
 
 
 // GameManagers.TeamInfo$$.ctor
 // il2cpp: void GameManagers_TeamInfo___ctor (GameManagers_TeamInfo_o* __this, const MethodInfo* method);
-// 0x4570230
+// 0x18054c890
 
-void GameManagers_TeamInfo___ctor(GameManagers_TeamInfo_o *__this,MethodInfo *method)
+void
+GameManagers_TeamInfo___ctor(GameManagers_TeamInfo_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // GameManagers.TeamInfo$$.cctor
 // il2cpp: void GameManagers_TeamInfo___cctor (const MethodInfo* method);
-// 0x4570240
+// 0x181e77230
 
 void GameManagers_TeamInfo___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057af05b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TeamInfo);
-    il2cpp_runtime_helper_023445d0(&"Human");
-    il2cpp_runtime_helper_023445d0(&"None");
-    il2cpp_runtime_helper_023445d0(&"Red");
-    il2cpp_runtime_helper_023445d0(&"Titan");
-    il2cpp_runtime_helper_023445d0(&"Blue");
-    g_data_057af05b = '\x01';
+  if (Il2CppMethodInitialized_184344f22 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_TeamInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&"Human");
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"Red");
+    il2cpp_codegen_initialize_runtime_metadata(&"Titan");
+    il2cpp_codegen_initialize_runtime_metadata(&"Blue");
+    Il2CppMethodInitialized_184344f22 = '\x01';
   }
-  **(undefined8 **)(TypeInfo_TeamInfo + 0xb8) = "Blue";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_TeamInfo + 0xb8),"Blue");
-  lVar1 = *(long *)(TypeInfo_TeamInfo + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "Red";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_TeamInfo + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "None";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
-  lVar1 = *(long *)(TypeInfo_TeamInfo + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Titan";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
-  lVar1 = *(long *)(TypeInfo_TeamInfo + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "Human";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
+  TypeInfo_GameManagers_TeamInfo->static_fields->Blue = "Blue";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_TeamInfo->static_fields->Blue,"Blue");
+  TypeInfo_GameManagers_TeamInfo->static_fields->Red = "Red";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_TeamInfo->static_fields->Red,"Red");
+  TypeInfo_GameManagers_TeamInfo->static_fields->None = "None";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_TeamInfo->static_fields->None,"None");
+  TypeInfo_GameManagers_TeamInfo->static_fields->Titan = "Titan";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_TeamInfo->static_fields->Titan,"Titan");
+  TypeInfo_GameManagers_TeamInfo->static_fields->Human = "Human";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_TeamInfo->static_fields->Human,"Human");
   return;
 }
 

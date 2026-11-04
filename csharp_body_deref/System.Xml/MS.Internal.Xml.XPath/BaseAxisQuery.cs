@@ -50,7 +50,7 @@ internal abstract class BaseAxisQuery : Query
 	protected string Name
 	{
 		[Token(Token = "0x6001A6B")]
-		[Address(RVA = "0x4778000", Offset = "0x4778000", VA = "0x4778000")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -61,7 +61,7 @@ internal abstract class BaseAxisQuery : Query
 	protected string Namespace
 	{
 		[Token(Token = "0x6001A6C")]
-		[Address(RVA = "0x4778010", Offset = "0x4778010", VA = "0x4778010")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -72,7 +72,7 @@ internal abstract class BaseAxisQuery : Query
 	protected bool NameTest
 	{
 		[Token(Token = "0x6001A6D")]
-		[Address(RVA = "0x4778020", Offset = "0x4778020", VA = "0x4778020")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
@@ -83,7 +83,7 @@ internal abstract class BaseAxisQuery : Query
 	protected XPathNodeType TypeTest
 	{
 		[Token(Token = "0x6001A6E")]
-		[Address(RVA = "0x4778030", Offset = "0x4778030", VA = "0x4778030")]
+		[Address(RVA = "0x58A8B0", Offset = "0x588EB0", VA = "0x18058A8B0")]
 		get
 		{
 			return default(XPathNodeType);
@@ -94,7 +94,7 @@ internal abstract class BaseAxisQuery : Query
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6001A6F")]
-		[Address(RVA = "0x4778040", Offset = "0x4778040", VA = "0x4778040", Slot = "9")]
+		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -105,7 +105,7 @@ internal abstract class BaseAxisQuery : Query
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6001A70")]
-		[Address(RVA = "0x4778050", Offset = "0x4778050", VA = "0x4778050", Slot = "8")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50", Slot = "8")]
 		get
 		{
 			return null;
@@ -116,7 +116,7 @@ internal abstract class BaseAxisQuery : Query
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001A73")]
-		[Address(RVA = "0x47781B0", Offset = "0x47781B0", VA = "0x47781B0", Slot = "16")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -124,44 +124,44 @@ internal abstract class BaseAxisQuery : Query
 	}
 
 	[Token(Token = "0x6001A66")]
-	[Address(RVA = "0x4777F00", Offset = "0x4777F00", VA = "0x4777F00")]
+	[Address(RVA = "0x26B4970", Offset = "0x26B2F70", VA = "0x1826B4970")]
 	protected BaseAxisQuery(Query qyInput)
 	{
 	}
 
 	[Token(Token = "0x6001A67")]
-	[Address(RVA = "0x47779B0", Offset = "0x47779B0", VA = "0x47779B0")]
+	[Address(RVA = "0x26B45E0", Offset = "0x26B2BE0", VA = "0x1826B45E0")]
 	protected BaseAxisQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001A68")]
-	[Address(RVA = "0x4777A90", Offset = "0x4777A90", VA = "0x4777A90")]
+	[Address(RVA = "0x26B48D0", Offset = "0x26B2ED0", VA = "0x1826B48D0")]
 	protected BaseAxisQuery(BaseAxisQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001A69")]
-	[Address(RVA = "0x4777B80", Offset = "0x4777B80", VA = "0x4777B80", Slot = "12")]
+	[Address(RVA = "0x26B4810", Offset = "0x26B2E10", VA = "0x1826B4810", Slot = "12")]
 	public override void Reset()
 	{
 	}
 
 	[Token(Token = "0x6001A6A")]
-	[Address(RVA = "0x4777F90", Offset = "0x4777F90", VA = "0x4777F90", Slot = "13")]
+	[Address(RVA = "0x26B4860", Offset = "0x26B2E60", VA = "0x1826B4860", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001A71")]
-	[Address(RVA = "0x4778060", Offset = "0x4778060", VA = "0x4778060", Slot = "18")]
+	[Address(RVA = "0x26B4A00", Offset = "0x26B3000", VA = "0x1826B4A00", Slot = "18")]
 	public virtual bool matches(XPathNavigator e)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001A72")]
-	[Address(RVA = "0x4778160", Offset = "0x4778160", VA = "0x4778160", Slot = "14")]
+	[Address(RVA = "0x26B47B0", Offset = "0x26B2DB0", VA = "0x1826B47B0", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator nodeIterator)
 	{
 		return null;

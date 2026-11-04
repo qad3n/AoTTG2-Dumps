@@ -1,5 +1,5 @@
 // Type: Events.OnSecondTick
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Events/OnSecondTick.cs
@@ -8,92 +8,83 @@
 
 // Events.OnSecondTick$$.ctor
 // il2cpp: void Events_OnSecondTick___ctor (Events_OnSecondTick_o* __this, Il2CppObject* object, intptr_t method, const MethodInfo* method);
-// 0x447fc50
+// 0x18052c830
 
-void Events_OnSecondTick___ctor(void)
+void
+Events_OnSecondTick___ctor(Events_OnSecondTick_o* __this, Il2CppObject* object, intptr_t method, MethodInfo* method)
 
 {
   char cVar1;
   char cVar2;
-  long lVar3;
-  long in_RDX;
-  undefined8 extraout_RDX;
-  long in_RSI;
-  long in_RDI;
+  undefined1 *puVar3;
+  Il2CppObject *ex;
   
-  *(undefined8 *)(in_RDI + 0x10) = *(undefined8 *)(in_RDX + 8);
-  *(long *)(in_RDI + 0x28) = in_RDX;
-  *(long *)(in_RDI + 0x20) = in_RSI;
-  il2cpp_runtime_helper_022b4080(in_RDI + 0x20);
-  cVar1 = *(char *)(in_RDX + 0x52);
-  *(long *)(in_RDI + 0x40) = in_RDI;
-  cVar2 = il2cpp_runtime_helper_022b2a80();
+  (__this->fields).method_ptr = *(intptr_t *)(method + 8);
+  (__this->fields).method = method;
+  (__this->fields).m_target = object;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).m_target,object);
+  cVar1 = *(char *)(method + 0x52);
+  (__this->fields).method_code = (intptr_t)__this;
+  cVar2 = il2cpp_runtime_helper_1804161b0();
   if (cVar2 == '\0') {
-    if (in_RSI == 0) {
-      lVar3 = il2cpp_runtime_helper_0231a840(0,"Delegate to an instance method cannot have null \'this\'.");
-      il2cpp_runtime_helper_022b2b10(lVar3,0);
-      (**(code **)(lVar3 + 0x18))
-                (*(undefined8 *)(lVar3 + 0x40),*(undefined8 *)(lVar3 + 0x28),extraout_RDX,
-                 *(code **)(lVar3 + 0x18));
-      return;
+    if (object == (Il2CppObject *)0x0) {
+      ex = il2cpp_codegen_get_argument_exception
+                     ((char *)0x0,"Delegate to an instance method cannot have null \'this\'.");
+      il2cpp_codegen_raise_exception(ex,(MethodInfo *)0x0);
     }
   }
   else if (cVar1 == '\0') {
-    *(undefined1 **)(in_RDI + 0x18) = &label_02235560;
-    goto label_0447fcb4;
+    puVar3 = &label_180002710;
+    goto label_18052c88e;
   }
-  *(undefined8 *)(in_RDI + 0x18) = *(undefined8 *)(in_RDI + 0x10);
-  *(undefined8 *)(in_RDI + 0x40) = *(undefined8 *)(in_RDI + 0x20);
-label_0447fcb4:
-  *(code **)(in_RDI + 0x38) = il2cpp_runtime_helper_02235520;
+  (__this->fields).method_code = (intptr_t)(__this->fields).m_target;
+  puVar3 = (undefined1 *)(__this->fields).method_ptr;
+label_18052c88e:
+  (__this->fields).invoke_impl = (intptr_t)puVar3;
+  (__this->fields).extra_arg = (intptr_t)il2cpp_runtime_helper_1800026b0;
   return;
 }
 
 
 // Events.OnSecondTick$$Invoke
 // il2cpp: void Events_OnSecondTick__Invoke (Events_OnSecondTick_o* __this, const MethodInfo* method);
-// 0x447fcf0
+// 0x18052c820
 
-void Events_OnSecondTick__Invoke(Events_OnSecondTick_o *__this,MethodInfo *method)
+void
+Events_OnSecondTick__Invoke(Events_OnSecondTick_o* __this, MethodInfo* method)
 
 {
-  code *vtableDispatch;
-  undefined8 in_RDX;
-  
-  vtableDispatch = (code *)(__this->fields).invoke_impl;
-  (*vtableDispatch)((__this->fields).method_code,(__this->fields).method,in_RDX,vtableDispatch);
+  (*(code *)(__this->fields).invoke_impl)((__this->fields).method_code,(__this->fields).method);
   return;
 }
 
 
 // Events.OnSecondTick$$BeginInvoke
 // il2cpp: System_IAsyncResult_o* Events_OnSecondTick__BeginInvoke (Events_OnSecondTick_o* __this, System_AsyncCallback_o* callback, Il2CppObject* object, const MethodInfo* method);
-// 0x447fd10
+// 0x18052c7f0
 
-System_IAsyncResult_o *
-Events_OnSecondTick__BeginInvoke
-          (Events_OnSecondTick_o *__this,System_AsyncCallback_o *callback,Il2CppObject *object,
-          MethodInfo *method)
+System_IAsyncResult_o*
+Events_OnSecondTick__BeginInvoke(Events_OnSecondTick_o* __this, System_AsyncCallback_o* callback, Il2CppObject* object, MethodInfo* method)
 
 {
   System_IAsyncResult_o *pSVar1;
-  undefined8 uStack_8;
+  undefined8 local_18 [3];
   
-  uStack_8 = 0;
-  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_0233b920(__this,&uStack_8,callback,object);
+  local_18[0] = 0;
+  pSVar1 = (System_IAsyncResult_o *)il2cpp_runtime_helper_18042b200(__this,local_18,callback,object);
   return pSVar1;
 }
 
 
 // Events.OnSecondTick$$EndInvoke
 // il2cpp: void Events_OnSecondTick__EndInvoke (Events_OnSecondTick_o* __this, System_IAsyncResult_o* result, const MethodInfo* method);
-// 0x447fd30
+// 0x180528780
 
-void Events_OnSecondTick__EndInvoke
-               (Events_OnSecondTick_o *__this,System_IAsyncResult_o *result,MethodInfo *method)
+void
+Events_OnSecondTick__EndInvoke(Events_OnSecondTick_o* __this, System_IAsyncResult_o* result, MethodInfo* method)
 
 {
-  il2cpp_runtime_helper_0233bb60(result,0);
+  il2cpp_runtime_helper_18042b2c0(result,0);
   return;
 }
 

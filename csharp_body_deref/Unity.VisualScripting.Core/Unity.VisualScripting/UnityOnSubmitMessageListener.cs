@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnSubmitMessageListener : MessageListener, ISubmitHandler, IEventSystemHandler
 {
-	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x4CB7CD0", Offset = "0x4CB7CD0", VA = "0x4CB7CD0", Slot = "4")]
+	[Token(Token = "0x6000497")]
+	[Address(RVA = "0x2DBEFC0", Offset = "0x2DBD5C0", VA = "0x182DBEFC0", Slot = "4")]
 	public void OnSubmit(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x4CB7D60", Offset = "0x4CB7D60", VA = "0x4CB7D60")]
+	[Token(Token = "0x6000498")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnSubmitMessageListener()
 	{
 	}

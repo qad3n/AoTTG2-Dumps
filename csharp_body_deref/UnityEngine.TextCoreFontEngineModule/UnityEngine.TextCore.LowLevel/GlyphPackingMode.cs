@@ -10,18 +10,18 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.TextCore.LowLevel;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x200000B")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public enum GlyphPackingMode
 {
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000068")]
 	BestShortSideFit,
-	[Token(Token = "0x4000057")]
+	[Token(Token = "0x4000069")]
 	BestLongSideFit,
-	[Token(Token = "0x4000058")]
+	[Token(Token = "0x400006A")]
 	BestAreaFit,
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x400006B")]
 	BottomLeftRule,
-	[Token(Token = "0x400005A")]
+	[Token(Token = "0x400006C")]
 	ContactPointRule
 }

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000490")]
+[Token(Token = "0x20005E7")]
 public enum CustomLogicSourceType
 {
-	[Token(Token = "0x40013B2")]
+	[Token(Token = "0x40019F8")]
 	CSharpBindings,
-	[Token(Token = "0x40013B3")]
+	[Token(Token = "0x40019F9")]
 	BaseLogic,
-	[Token(Token = "0x40013B4")]
+	[Token(Token = "0x40019FA")]
 	Addon,
-	[Token(Token = "0x40013B5")]
+	[Token(Token = "0x40019FB")]
 	MapLogic,
-	[Token(Token = "0x40013B6")]
+	[Token(Token = "0x40019FC")]
 	ModeLogic
 }

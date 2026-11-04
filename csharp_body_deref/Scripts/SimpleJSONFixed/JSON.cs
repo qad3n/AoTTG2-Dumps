@@ -12,8 +12,8 @@ namespace SimpleJSONFixed;
 [Token(Token = "0x2000057")]
 public static class JSON
 {
-	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x3F81790", Offset = "0x3F81790", VA = "0x3F81790")]
+	[Token(Token = "0x60002CD")]
+	[Address(RVA = "0x1DC70F0", Offset = "0x1DC56F0", VA = "0x181DC70F0")]
 	public static JSONNode Parse(string aJSON)
 	{
 		return null;

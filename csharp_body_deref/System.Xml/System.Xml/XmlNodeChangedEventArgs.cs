@@ -40,7 +40,7 @@ public class XmlNodeChangedEventArgs : EventArgs
 	public XmlNodeChangedAction Action
 	{
 		[Token(Token = "0x60009AF")]
-		[Address(RVA = "0x47DF1F0", Offset = "0x47DF1F0", VA = "0x47DF1F0")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(XmlNodeChangedAction);
@@ -48,7 +48,7 @@ public class XmlNodeChangedEventArgs : EventArgs
 	}
 
 	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x47DF120", Offset = "0x47DF120", VA = "0x47DF120")]
+	[Address(RVA = "0x27330C0", Offset = "0x27316C0", VA = "0x1827330C0")]
 	public XmlNodeChangedEventArgs(XmlNode node, XmlNode oldParent, XmlNode newParent, string oldValue, string newValue, XmlNodeChangedAction action)
 	{
 	}

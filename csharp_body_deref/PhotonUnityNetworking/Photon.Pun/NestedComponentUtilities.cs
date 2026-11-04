@@ -13,74 +13,74 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000027")]
+[Token(Token = "0x2000025")]
 public static class NestedComponentUtilities
 {
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x40000D4")]
 	[FieldOffset(Offset = "0x0")]
 	private static Queue<Transform> nodesQueue;
 
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x40000D5")]
 	[FieldOffset(Offset = "0x8")]
 	public static Dictionary<Type, ICollection> searchLists;
 
-	[Token(Token = "0x40000DB")]
+	[Token(Token = "0x40000D6")]
 	[FieldOffset(Offset = "0x10")]
 	private static Stack<Transform> nodeStack;
 
-	[Token(Token = "0x6000187")]
+	[Token(Token = "0x6000185")]
 	public static T EnsureRootComponentExists<T, NestedT>(this Transform transform) where T : Component where NestedT : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000188")]
+	[Token(Token = "0x6000186")]
 	public static T GetParentComponent<T>(this Transform t) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000189")]
+	[Token(Token = "0x6000187")]
 	public static void GetNestedComponentsInParents<T>(this Transform t, List<T> list) where T : Component
 	{
 	}
 
-	[Token(Token = "0x600018A")]
+	[Token(Token = "0x6000188")]
 	public static T GetNestedComponentInChildren<T, NestedT>(this Transform t, bool includeInactive) where T : class where NestedT : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018B")]
+	[Token(Token = "0x6000189")]
 	public static T GetNestedComponentInParent<T, NestedT>(this Transform t) where T : class where NestedT : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018C")]
+	[Token(Token = "0x600018A")]
 	public static T GetNestedComponentInParents<T, NestedT>(this Transform t) where T : class where NestedT : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018D")]
+	[Token(Token = "0x600018B")]
 	public static void GetNestedComponentsInParents<T, NestedT>(this Transform t, List<T> list) where T : class where NestedT : class
 	{
 	}
 
-	[Token(Token = "0x600018E")]
+	[Token(Token = "0x600018C")]
 	public static List<T> GetNestedComponentsInChildren<T, NestedT>(this Transform t, List<T> list, bool includeInactive = true) where T : class where NestedT : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600018F")]
+	[Token(Token = "0x600018D")]
 	public static List<T> GetNestedComponentsInChildren<T>(this Transform t, List<T> list, bool includeInactive = true, params Type[] stopOn) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000190")]
+	[Token(Token = "0x600018E")]
 	public static void GetNestedComponentsInChildren<T, SearchT, NestedT>(this Transform t, bool includeInactive, List<T> list) where T : class where SearchT : class
 	{
 	}

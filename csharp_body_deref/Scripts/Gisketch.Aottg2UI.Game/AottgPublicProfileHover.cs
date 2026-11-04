@@ -13,57 +13,57 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001CB")]
+[Token(Token = "0x20002D4")]
 public sealed class AottgPublicProfileHover : AottgComponent
 {
-	[Token(Token = "0x40009B2")]
+	[Token(Token = "0x4000E6A")]
 	public const string NodeType = "PublicProfileHover";
 
-	[Token(Token = "0x40009B3")]
+	[Token(Token = "0x4000E6B")]
 	[FieldOffset(Offset = "0x0")]
 	private static bool _registered;
 
-	[Token(Token = "0x40009B4")]
+	[Token(Token = "0x4000E6C")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x40009B5")]
+	[Token(Token = "0x4000E6D")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly string _accountId;
 
-	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x442EA20", Offset = "0x442EA20", VA = "0x442EA20")]
+	[Token(Token = "0x60011A9")]
+	[Address(RVA = "0x1E215C0", Offset = "0x1E1FBC0", VA = "0x181E215C0")]
 	static AottgPublicProfileHover()
 	{
 	}
 
-	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x442EA30", Offset = "0x442EA30", VA = "0x442EA30")]
+	[Token(Token = "0x60011AA")]
+	[Address(RVA = "0x1E21490", Offset = "0x1E1FA90", VA = "0x181E21490")]
 	public static void RegisterFactory()
 	{
 	}
 
-	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x442EB60", Offset = "0x442EB60", VA = "0x442EB60")]
+	[Token(Token = "0x60011AB")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public AottgPublicProfileHover(string id, string accountId)
 	{
 	}
 
-	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x442EBA0", Offset = "0x442EBA0", VA = "0x442EBA0", Slot = "4")]
+	[Token(Token = "0x60011AC")]
+	[Address(RVA = "0x1E210B0", Offset = "0x1E1F6B0", VA = "0x181E210B0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000ADA")]
-	[Address(RVA = "0x442EC20", Offset = "0x442EC20", VA = "0x442EC20")]
+	[Token(Token = "0x60011AD")]
+	[Address(RVA = "0x1E212C0", Offset = "0x1E1F8C0", VA = "0x181E212C0")]
 	public static GisketchNodeDefinition Node(string id, string accountId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ADB")]
-	[Address(RVA = "0x442EDB0", Offset = "0x442EDB0", VA = "0x442EDB0")]
+	[Token(Token = "0x60011AE")]
+	[Address(RVA = "0x1E20F70", Offset = "0x1E1F570", VA = "0x181E20F70")]
 	private static bool BuildRuntime(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

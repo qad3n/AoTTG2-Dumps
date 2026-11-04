@@ -33,14 +33,14 @@ public abstract class CallSiteBinder
 		[Token(Token = "0x17000250")]
 		internal static LambdaSignature<T> Instance
 		{
-			[Token(Token = "0x6000B65")]
+			[Token(Token = "0x6000B64")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6000B66")]
+		[Token(Token = "0x6000B65")]
 		private LambdaSignature()
 		{
 		}
@@ -53,8 +53,8 @@ public abstract class CallSiteBinder
 	[Token(Token = "0x1700024F")]
 	public static LabelTarget UpdateLabel
 	{
-		[Token(Token = "0x6000B5D")]
-		[Address(RVA = "0x4508040", Offset = "0x4508040", VA = "0x4508040")]
+		[Token(Token = "0x6000B5C")]
+		[Address(RVA = "0x2467220", Offset = "0x2465820", VA = "0x182467220")]
 		[CompilerGenerated]
 		get
 		{
@@ -62,39 +62,39 @@ public abstract class CallSiteBinder
 		}
 	}
 
-	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x4508030", Offset = "0x4508030", VA = "0x4508030")]
+	[Token(Token = "0x6000B5B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected CallSiteBinder()
 	{
 	}
 
-	[Token(Token = "0x6000B5E")]
+	[Token(Token = "0x6000B5D")]
 	public abstract Expression Bind(object[] args, ReadOnlyCollection<ParameterExpression> parameters, LabelTarget returnLabel);
 
-	[Token(Token = "0x6000B5F")]
+	[Token(Token = "0x6000B5E")]
 	public virtual T BindDelegate<T>(CallSite<T> site, object[] args) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B60")]
+	[Token(Token = "0x6000B5F")]
 	internal T BindCore<T>(CallSite<T> site, object[] args) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B61")]
+	[Token(Token = "0x6000B60")]
 	protected void CacheTarget<T>(T target) where T : class
 	{
 	}
 
-	[Token(Token = "0x6000B62")]
+	[Token(Token = "0x6000B61")]
 	private static Expression<T> Stitch<T>(Expression binding, LambdaSignature<T> signature) where T : class
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B63")]
+	[Token(Token = "0x6000B62")]
 	internal RuleCache<T> GetRuleCache<T>() where T : class
 	{
 		return null;

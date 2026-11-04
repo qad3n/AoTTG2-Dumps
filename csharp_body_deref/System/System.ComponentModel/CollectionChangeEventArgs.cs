@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000273")]
+[Token(Token = "0x200017E")]
 public class CollectionChangeEventArgs : EventArgs
 {
-	[Token(Token = "0x17000372")]
+	[Token(Token = "0x170001E1")]
 	public virtual CollectionChangeAction Action
 	{
-		[Token(Token = "0x6000F69")]
-		[Address(RVA = "0x48872D0", Offset = "0x48872D0", VA = "0x48872D0", Slot = "4")]
+		[Token(Token = "0x60009B1")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public class CollectionChangeEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x17000373")]
+	[Token(Token = "0x170001E2")]
 	public virtual object Element
 	{
-		[Token(Token = "0x6000F6A")]
-		[Address(RVA = "0x48872E0", Offset = "0x48872E0", VA = "0x48872E0", Slot = "5")]
+		[Token(Token = "0x60009B2")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,8 +37,8 @@ public class CollectionChangeEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x6000F68")]
-	[Address(RVA = "0x4887260", Offset = "0x4887260", VA = "0x4887260")]
+	[Token(Token = "0x60009B0")]
+	[Address(RVA = "0x2893AE0", Offset = "0x28920E0", VA = "0x182893AE0")]
 	public CollectionChangeEventArgs(CollectionChangeAction action, object element)
 	{
 	}

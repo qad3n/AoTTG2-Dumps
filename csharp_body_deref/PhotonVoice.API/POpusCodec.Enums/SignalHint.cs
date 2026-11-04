@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x2000012")]
 public enum SignalHint
 {
-	[Token(Token = "0x400007D")]
+	[Token(Token = "0x4000078")]
 	Auto = -1000,
-	[Token(Token = "0x400007E")]
+	[Token(Token = "0x4000079")]
 	Voice = 3001,
-	[Token(Token = "0x400007F")]
+	[Token(Token = "0x400007A")]
 	Music = 3002
 }

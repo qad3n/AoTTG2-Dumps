@@ -11,170 +11,170 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000381")]
+[Token(Token = "0x20004D1")]
 [CompilerGenerated]
 internal class CustomLogicInputErenShifterEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000382")]
+	[Token(Token = "0x20004D2")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002076")]
-		[Address(RVA = "0x4071DD0", Offset = "0x4071DD0", VA = "0x4071DD0")]
+		[Token(Token = "0x600295A")]
+		[Address(RVA = "0x1FCE260", Offset = "0x1FCC860", VA = "0x181FCE260")]
 		public static CustomLogicInputErenShifterEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000383")]
+	[Token(Token = "0x20004D3")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4001037")]
+		[Token(Token = "0x4001665")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002077")]
-		[Address(RVA = "0x4071EF0", Offset = "0x4071EF0", VA = "0x4071EF0")]
+		[Token(Token = "0x600295B")]
+		[Address(RVA = "0x1FA6350", Offset = "0x1FA4950", VA = "0x181FA6350")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002078")]
-		[Address(RVA = "0x40720D0", Offset = "0x40720D0", VA = "0x40720D0")]
+		[Token(Token = "0x600295C")]
+		[Address(RVA = "0x1FBFE30", Offset = "0x1FBE430", VA = "0x181FBFE30")]
 		public static CLPropertyBinding<CustomLogicInputErenShifterEnum> __CreatePropertyBinding__Kick()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002079")]
-		[Address(RVA = "0x4072170", Offset = "0x4072170", VA = "0x4072170")]
+		[Token(Token = "0x600295D")]
+		[Address(RVA = "0x1FBFB10", Offset = "0x1FBE110", VA = "0x181FBFB10")]
 		public static CLPropertyBinding<CustomLogicInputErenShifterEnum> __CreatePropertyBinding__Jump()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600207A")]
-		[Address(RVA = "0x4072210", Offset = "0x4072210", VA = "0x4072210")]
+		[Token(Token = "0x600295E")]
+		[Address(RVA = "0x1FC3170", Offset = "0x1FC1770", VA = "0x181FC3170")]
 		public static CLPropertyBinding<CustomLogicInputErenShifterEnum> __CreatePropertyBinding__Walk()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600207B")]
-		[Address(RVA = "0x40722B0", Offset = "0x40722B0", VA = "0x40722B0")]
+		[Token(Token = "0x600295F")]
+		[Address(RVA = "0x1FBAE30", Offset = "0x1FB9430", VA = "0x181FBAE30")]
 		public static CLPropertyBinding<CustomLogicInputErenShifterEnum> __CreatePropertyBinding__AttackCombo()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001033")]
+	[Token(Token = "0x4001661")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly string KickValue;
 
-	[Token(Token = "0x4001034")]
+	[Token(Token = "0x4001662")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly string JumpValue;
 
-	[Token(Token = "0x4001035")]
+	[Token(Token = "0x4001663")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly string WalkValue;
 
-	[Token(Token = "0x4001036")]
+	[Token(Token = "0x4001664")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly string AttackComboValue;
 
-	[Token(Token = "0x1700059B")]
+	[Token(Token = "0x17000666")]
 	public static string Kick
 	{
-		[Token(Token = "0x600206D")]
-		[Address(RVA = "0x4071AC0", Offset = "0x4071AC0", VA = "0x4071AC0")]
+		[Token(Token = "0x6002951")]
+		[Address(RVA = "0x1FCB7F0", Offset = "0x1FC9DF0", VA = "0x181FCB7F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700059C")]
+	[Token(Token = "0x17000667")]
 	public static string Jump
 	{
-		[Token(Token = "0x600206E")]
-		[Address(RVA = "0x4071B30", Offset = "0x4071B30", VA = "0x4071B30")]
+		[Token(Token = "0x6002952")]
+		[Address(RVA = "0x1FCB7A0", Offset = "0x1FC9DA0", VA = "0x181FCB7A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700059D")]
+	[Token(Token = "0x17000668")]
 	public static string Walk
 	{
-		[Token(Token = "0x600206F")]
-		[Address(RVA = "0x4071BA0", Offset = "0x4071BA0", VA = "0x4071BA0")]
+		[Token(Token = "0x6002953")]
+		[Address(RVA = "0x1FCB840", Offset = "0x1FC9E40", VA = "0x181FCB840")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700059E")]
+	[Token(Token = "0x17000669")]
 	public static string AttackCombo
 	{
-		[Token(Token = "0x6002070")]
-		[Address(RVA = "0x4071C10", Offset = "0x4071C10", VA = "0x4071C10")]
+		[Token(Token = "0x6002954")]
+		[Address(RVA = "0x1FCB720", Offset = "0x1FC9D20", VA = "0x181FCB720")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700059F")]
+	[Token(Token = "0x1700066A")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002071")]
-		[Address(RVA = "0x4071C80", Offset = "0x4071C80", VA = "0x4071C80", Slot = "4")]
+		[Token(Token = "0x6002955")]
+		[Address(RVA = "0x1FCB770", Offset = "0x1FC9D70", VA = "0x181FCB770", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005A0")]
+	[Token(Token = "0x1700066B")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002072")]
-		[Address(RVA = "0x4071CB0", Offset = "0x4071CB0", VA = "0x4071CB0", Slot = "6")]
+		[Token(Token = "0x6002956")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170005A1")]
+	[Token(Token = "0x1700066C")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002073")]
-		[Address(RVA = "0x4071CC0", Offset = "0x4071CC0", VA = "0x4071CC0", Slot = "7")]
+		[Token(Token = "0x6002957")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170005A2")]
+	[Token(Token = "0x1700066D")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002074")]
-		[Address(RVA = "0x4071CD0", Offset = "0x4071CD0", VA = "0x4071CD0", Slot = "8")]
+		[Token(Token = "0x6002958")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600206C")]
-	[Address(RVA = "0x4071A50", Offset = "0x4071A50", VA = "0x4071A50")]
+	[Token(Token = "0x6002950")]
+	[Address(RVA = "0x1FCB6D0", Offset = "0x1FC9CD0", VA = "0x181FCB6D0")]
 	public CustomLogicInputErenShifterEnum()
 	{
 	}

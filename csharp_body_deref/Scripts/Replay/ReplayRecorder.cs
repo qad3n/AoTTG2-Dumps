@@ -10,21 +10,21 @@ using UnityEngine;
 
 namespace Replay;
 
-[Token(Token = "0x20000D7")]
+[Token(Token = "0x20000F7")]
 internal class ReplayRecorder : MonoBehaviour
 {
-	[Token(Token = "0x400051C")]
+	[Token(Token = "0x40005BC")]
 	[FieldOffset(Offset = "0x20")]
 	public bool Recording;
 
-	[Token(Token = "0x600041B")]
-	[Address(RVA = "0x4104570", Offset = "0x4104570", VA = "0x4104570")]
+	[Token(Token = "0x60004B4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x600041C")]
-	[Address(RVA = "0x4104580", Offset = "0x4104580", VA = "0x4104580")]
+	[Token(Token = "0x60004B5")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public ReplayRecorder()
 	{
 	}

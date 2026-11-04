@@ -14,19 +14,19 @@ using Il2CppDummyDll;
 namespace Cysharp.Threading.Tasks.CompilerServices;
 
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x2000259")]
+[Token(Token = "0x200025C")]
 public struct AsyncUniTaskVoidMethodBuilder
 {
-	[Token(Token = "0x40006B6")]
+	[Token(Token = "0x40006C9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private IStateMachineRunner runner;
 
-	[Token(Token = "0x17000082")]
+	[Token(Token = "0x17000084")]
 	public UniTaskVoid Task
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000D66")]
-		[Address(RVA = "0x4A1F8D0", Offset = "0x4A1F8D0", VA = "0x4A1F8D0")]
+		[Token(Token = "0x6000D8A")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 		[DebuggerHidden]
 		get
 		{
@@ -35,8 +35,8 @@ public struct AsyncUniTaskVoidMethodBuilder
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D65")]
-	[Address(RVA = "0x4A1F8C0", Offset = "0x4A1F8C0", VA = "0x4A1F8C0")]
+	[Token(Token = "0x6000D89")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 	[DebuggerHidden]
 	public static AsyncUniTaskVoidMethodBuilder Create()
 	{
@@ -44,43 +44,43 @@ public struct AsyncUniTaskVoidMethodBuilder
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D67")]
-	[Address(RVA = "0x4A1F8E0", Offset = "0x4A1F8E0", VA = "0x4A1F8E0")]
+	[Token(Token = "0x6000D8B")]
+	[Address(RVA = "0x293E1A0", Offset = "0x293C7A0", VA = "0x18293E1A0")]
 	[DebuggerHidden]
 	public void SetException(Exception exception)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D68")]
-	[Address(RVA = "0x4A1FA10", Offset = "0x4A1FA10", VA = "0x4A1FA10")]
+	[Token(Token = "0x6000D8C")]
+	[Address(RVA = "0x293E270", Offset = "0x293C870", VA = "0x18293E270")]
 	[DebuggerHidden]
 	public void SetResult()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D69")]
+	[Token(Token = "0x6000D8D")]
 	[DebuggerHidden]
 	public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000D6A")]
+	[Token(Token = "0x6000D8E")]
 	[DebuggerHidden]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x6000D6B")]
+	[Token(Token = "0x6000D8F")]
 	[DebuggerHidden]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x49F6FF0", Offset = "0x49F6FF0", VA = "0x49F6FF0")]
+	[Token(Token = "0x6000D90")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[DebuggerHidden]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{

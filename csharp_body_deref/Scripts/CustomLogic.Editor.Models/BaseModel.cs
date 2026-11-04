@@ -10,40 +10,40 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x20004B9")]
+[Token(Token = "0x200060E")]
 internal abstract class BaseModel
 {
-	[Token(Token = "0x17000979")]
+	[Token(Token = "0x17000A70")]
 	public string ObsoleteMessage
 	{
-		[Token(Token = "0x60031B7")]
-		[Address(RVA = "0x4186B10", Offset = "0x4186B10", VA = "0x4186B10")]
+		[Token(Token = "0x6003B2A")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031B8")]
-		[Address(RVA = "0x4186B20", Offset = "0x4186B20", VA = "0x4186B20")]
+		[Token(Token = "0x6003B2B")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700097A")]
+	[Token(Token = "0x17000A71")]
 	public bool IsObsolete
 	{
-		[Token(Token = "0x60031B9")]
-		[Address(RVA = "0x4186B30", Offset = "0x4186B30", VA = "0x4186B30")]
+		[Token(Token = "0x6003B2C")]
+		[Address(RVA = "0x20F2AD0", Offset = "0x20F10D0", VA = "0x1820F2AD0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60031BA")]
-	[Address(RVA = "0x4186B40", Offset = "0x4186B40", VA = "0x4186B40")]
+	[Token(Token = "0x6003B2D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected BaseModel()
 	{
 	}

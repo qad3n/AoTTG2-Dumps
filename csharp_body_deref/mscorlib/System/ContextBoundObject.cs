@@ -11,12 +11,12 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000159")]
+[Token(Token = "0x2000183")]
 [ComVisible(true)]
 public abstract class ContextBoundObject : MarshalByRefObject
 {
-	[Token(Token = "0x6000DA8")]
-	[Address(RVA = "0x3CEADA0", Offset = "0x3CEADA0", VA = "0x3CEADA0")]
+	[Token(Token = "0x6000DF5")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ContextBoundObject()
 	{
 	}

@@ -13,14 +13,14 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000034")]
 public class InvalidConnectionException : Exception
 {
-	[Token(Token = "0x60001C7")]
-	[Address(RVA = "0x4CA3340", Offset = "0x4CA3340", VA = "0x4CA3340")]
+	[Token(Token = "0x60001CB")]
+	[Address(RVA = "0x2DB1A50", Offset = "0x2DB0050", VA = "0x182DB1A50")]
 	public InvalidConnectionException()
 	{
 	}
 
-	[Token(Token = "0x60001C8")]
-	[Address(RVA = "0x4CA33A0", Offset = "0x4CA33A0", VA = "0x4CA33A0")]
+	[Token(Token = "0x60001CC")]
+	[Address(RVA = "0x2DB1AB0", Offset = "0x2DB00B0", VA = "0x182DB1AB0")]
 	public InvalidConnectionException(string message)
 	{
 	}

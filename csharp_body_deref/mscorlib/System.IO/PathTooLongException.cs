@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000544")]
+[Token(Token = "0x200066D")]
 public class PathTooLongException : IOException
 {
-	[Token(Token = "0x600283F")]
-	[Address(RVA = "0x3BEE3F0", Offset = "0x3BEE3F0", VA = "0x3BEE3F0")]
+	[Token(Token = "0x6003114")]
+	[Address(RVA = "0x1AD9E30", Offset = "0x1AD8430", VA = "0x181AD9E30")]
 	public PathTooLongException()
 	{
 	}
 
-	[Token(Token = "0x6002840")]
-	[Address(RVA = "0x3BEE430", Offset = "0x3BEE430", VA = "0x3BEE430")]
+	[Token(Token = "0x6003115")]
+	[Address(RVA = "0x1AD9E80", Offset = "0x1AD8480", VA = "0x181AD9E80")]
 	public PathTooLongException(string message)
 	{
 	}
 
-	[Token(Token = "0x6002841")]
-	[Address(RVA = "0x3BEE450", Offset = "0x3BEE450", VA = "0x3BEE450")]
+	[Token(Token = "0x6003116")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected PathTooLongException(SerializationInfo info, StreamingContext context)
 	{
 	}

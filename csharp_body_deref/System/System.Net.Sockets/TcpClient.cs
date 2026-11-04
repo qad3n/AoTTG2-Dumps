@@ -10,116 +10,116 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000204")]
+[Token(Token = "0x2000391")]
 public class TcpClient : IDisposable
 {
-	[Token(Token = "0x4000B40")]
+	[Token(Token = "0x4000F6F")]
 	[FieldOffset(Offset = "0x10")]
 	private Socket m_ClientSocket;
 
-	[Token(Token = "0x4000B41")]
+	[Token(Token = "0x4000F70")]
 	[FieldOffset(Offset = "0x18")]
 	private bool m_Active;
 
-	[Token(Token = "0x4000B42")]
+	[Token(Token = "0x4000F71")]
 	[FieldOffset(Offset = "0x20")]
 	private NetworkStream m_DataStream;
 
-	[Token(Token = "0x4000B43")]
+	[Token(Token = "0x4000F72")]
 	[FieldOffset(Offset = "0x28")]
 	private AddressFamily m_Family;
 
-	[Token(Token = "0x4000B44")]
+	[Token(Token = "0x4000F73")]
 	[FieldOffset(Offset = "0x2C")]
 	private bool m_CleanedUp;
 
-	[Token(Token = "0x170002EC")]
+	[Token(Token = "0x17000540")]
 	public Socket Client
 	{
-		[Token(Token = "0x6000CCF")]
-		[Address(RVA = "0x49B7A00", Offset = "0x49B7A00", VA = "0x49B7A00")]
+		[Token(Token = "0x600188B")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000CD0")]
-		[Address(RVA = "0x49B7A10", Offset = "0x49B7A10", VA = "0x49B7A10")]
+		[Token(Token = "0x600188C")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x49B7810", Offset = "0x49B7810", VA = "0x49B7810")]
+	[Token(Token = "0x6001889")]
+	[Address(RVA = "0x281C820", Offset = "0x281AE20", VA = "0x18281C820")]
 	public TcpClient()
 	{
 	}
 
-	[Token(Token = "0x6000CCE")]
-	[Address(RVA = "0x49B7830", Offset = "0x49B7830", VA = "0x49B7830")]
+	[Token(Token = "0x600188A")]
+	[Address(RVA = "0x281C8E0", Offset = "0x281AEE0", VA = "0x18281C8E0")]
 	public TcpClient(AddressFamily family)
 	{
 	}
 
-	[Token(Token = "0x6000CD1")]
-	[Address(RVA = "0x49B7A20", Offset = "0x49B7A20", VA = "0x49B7A20")]
+	[Token(Token = "0x600188D")]
+	[Address(RVA = "0x281BE80", Offset = "0x281A480", VA = "0x18281BE80")]
 	public void Connect(string hostname, int port)
 	{
 	}
 
-	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x49B8180", Offset = "0x49B8180", VA = "0x49B8180")]
+	[Token(Token = "0x600188E")]
+	[Address(RVA = "0x281BD70", Offset = "0x281A370", VA = "0x18281BD70")]
 	public void Connect(IPEndPoint remoteEP)
 	{
 	}
 
-	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x49B8270", Offset = "0x49B8270", VA = "0x49B8270")]
+	[Token(Token = "0x600188F")]
+	[Address(RVA = "0x281BBB0", Offset = "0x281A1B0", VA = "0x18281BBB0")]
 	public IAsyncResult BeginConnect(string host, int port, AsyncCallback requestCallback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CD4")]
-	[Address(RVA = "0x49B82D0", Offset = "0x49B82D0", VA = "0x49B82D0")]
+	[Token(Token = "0x6001890")]
+	[Address(RVA = "0x281C660", Offset = "0x281AC60", VA = "0x18281C660")]
 	public void EndConnect(IAsyncResult asyncResult)
 	{
 	}
 
-	[Token(Token = "0x6000CD5")]
-	[Address(RVA = "0x49B8310", Offset = "0x49B8310", VA = "0x49B8310")]
+	[Token(Token = "0x6001891")]
+	[Address(RVA = "0x281BC20", Offset = "0x281A220", VA = "0x18281BC20")]
 	public Task ConnectAsync(string host, int port)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CD6")]
-	[Address(RVA = "0x49B84B0", Offset = "0x49B84B0", VA = "0x49B84B0")]
+	[Token(Token = "0x6001892")]
+	[Address(RVA = "0x281C6B0", Offset = "0x281ACB0", VA = "0x18281C6B0")]
 	public NetworkStream GetStream()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CD7")]
-	[Address(RVA = "0x49B85F0", Offset = "0x49B85F0", VA = "0x49B85F0", Slot = "5")]
+	[Token(Token = "0x6001893")]
+	[Address(RVA = "0x281C510", Offset = "0x281AB10", VA = "0x18281C510", Slot = "5")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6000CD8")]
-	[Address(RVA = "0x49B87C0", Offset = "0x49B87C0", VA = "0x49B87C0", Slot = "4")]
+	[Token(Token = "0x6001894")]
+	[Address(RVA = "0x281C4F0", Offset = "0x281AAF0", VA = "0x18281C4F0", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000CD9")]
-	[Address(RVA = "0x49B87E0", Offset = "0x49B87E0", VA = "0x49B87E0", Slot = "1")]
+	[Token(Token = "0x6001895")]
+	[Address(RVA = "0x193BBF0", Offset = "0x193A1F0", VA = "0x18193BBF0", Slot = "1")]
 	~TcpClient()
 	{
 	}
 
-	[Token(Token = "0x6000CDA")]
-	[Address(RVA = "0x49B7990", Offset = "0x49B7990", VA = "0x49B7990")]
+	[Token(Token = "0x6001896")]
+	[Address(RVA = "0x281CA50", Offset = "0x281B050", VA = "0x18281CA50")]
 	private void initialize()
 	{
 	}

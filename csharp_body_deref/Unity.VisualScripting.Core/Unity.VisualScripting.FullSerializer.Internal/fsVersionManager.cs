@@ -11,42 +11,42 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer.Internal;
 
-[Token(Token = "0x2000224")]
+[Token(Token = "0x2000223")]
 public static class fsVersionManager
 {
-	[Token(Token = "0x40009ED")]
+	[Token(Token = "0x40009E8")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<Type, fsOption<fsVersionedType>> _cache;
 
-	[Token(Token = "0x600131E")]
-	[Address(RVA = "0x4D8D630", Offset = "0x4D8D630", VA = "0x4D8D630")]
+	[Token(Token = "0x6001325")]
+	[Address(RVA = "0x2E7A9E0", Offset = "0x2E78FE0", VA = "0x182E7A9E0")]
 	public static fsResult GetVersionImportPath(string currentVersion, fsVersionedType targetVersion, out List<fsVersionedType> path)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x600131F")]
-	[Address(RVA = "0x4D8D950", Offset = "0x4D8D950", VA = "0x4D8D950")]
+	[Token(Token = "0x6001326")]
+	[Address(RVA = "0x2E7A860", Offset = "0x2E78E60", VA = "0x182E7A860")]
 	private static bool GetVersionImportPathRecursive(List<fsVersionedType> path, string currentVersion, fsVersionedType current)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001320")]
-	[Address(RVA = "0x4D8DB00", Offset = "0x4D8DB00", VA = "0x4D8DB00")]
+	[Token(Token = "0x6001327")]
+	[Address(RVA = "0x2E7ACB0", Offset = "0x2E792B0", VA = "0x182E7ACB0")]
 	public static fsOption<fsVersionedType> GetVersionedType(Type type)
 	{
 		return default(fsOption<fsVersionedType>);
 	}
 
-	[Token(Token = "0x6001321")]
-	[Address(RVA = "0x4D8E380", Offset = "0x4D8E380", VA = "0x4D8E380")]
+	[Token(Token = "0x6001328")]
+	[Address(RVA = "0x2E7B1B0", Offset = "0x2E797B0", VA = "0x182E7B1B0")]
 	private static void VerifyConstructors(fsVersionedType type)
 	{
 	}
 
-	[Token(Token = "0x6001322")]
-	[Address(RVA = "0x4D8E0A0", Offset = "0x4D8E0A0", VA = "0x4D8E0A0")]
+	[Token(Token = "0x6001329")]
+	[Address(RVA = "0x2E7B3C0", Offset = "0x2E799C0", VA = "0x182E7B3C0")]
 	private static void VerifyUniqueVersionStrings(fsVersionedType type)
 	{
 	}

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200007B")]
+[Token(Token = "0x2000043")]
 public enum DynamicResScalePolicyType
 {
-	[Token(Token = "0x40001D1")]
+	[Token(Token = "0x40000DD")]
 	ReturnsPercentage,
-	[Token(Token = "0x40001D2")]
+	[Token(Token = "0x40000DE")]
 	ReturnsMinMaxLerpFactor
 }

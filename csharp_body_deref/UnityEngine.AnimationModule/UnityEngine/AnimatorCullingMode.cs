@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x2000011")]
 public enum AnimatorCullingMode
 {
 	[Token(Token = "0x4000031")]

@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000146")]
+[Token(Token = "0x2000177")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public sealed class ExecuteAlways : Attribute
 {
-	[Token(Token = "0x6000987")]
-	[Address(RVA = "0x4DF3E10", Offset = "0x4DF3E10", VA = "0x4DF3E10")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ExecuteAlways()
 	{
 	}

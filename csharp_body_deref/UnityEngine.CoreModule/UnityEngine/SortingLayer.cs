@@ -11,17 +11,17 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000070")]
+[Token(Token = "0x200008B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/BaseClasses/TagManager.h")]
 public struct SortingLayer
 {
-	[Token(Token = "0x40000EA")]
+	[Token(Token = "0x4000130")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Id;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x4DADF40", Offset = "0x4DADF40", VA = "0x4DADF40")]
+	[Token(Token = "0x60001DA")]
+	[Address(RVA = "0x2ED41D0", Offset = "0x2ED27D0", VA = "0x182ED41D0")]
 	[UnityEngine.Bindings.FreeFunction("GetTagManager().GetSortingLayerValueFromUniqueID")]
 	public static extern int GetLayerValueFromID(int id);
 }

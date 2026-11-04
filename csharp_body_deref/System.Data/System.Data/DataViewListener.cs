@@ -10,99 +10,99 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000045")]
+[Token(Token = "0x2000052")]
 internal sealed class DataViewListener
 {
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x4000199")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly WeakReference _dvWeak;
 
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x400019A")]
 	[FieldOffset(Offset = "0x18")]
 	private DataTable _table;
 
-	[Token(Token = "0x4000153")]
+	[Token(Token = "0x400019B")]
 	[FieldOffset(Offset = "0x20")]
 	private Index _index;
 
-	[Token(Token = "0x4000154")]
+	[Token(Token = "0x400019C")]
 	[FieldOffset(Offset = "0x28")]
 	internal readonly int _objectID;
 
-	[Token(Token = "0x600053E")]
-	[Address(RVA = "0x4597FD0", Offset = "0x4597FD0", VA = "0x4597FD0")]
+	[Token(Token = "0x6000571")]
+	[Address(RVA = "0x250A920", Offset = "0x2508F20", VA = "0x18250A920")]
 	internal DataViewListener(DataView dv)
 	{
 	}
 
-	[Token(Token = "0x600053F")]
-	[Address(RVA = "0x4598050", Offset = "0x4598050", VA = "0x4598050")]
+	[Token(Token = "0x6000572")]
+	[Address(RVA = "0x2509B70", Offset = "0x2508170", VA = "0x182509B70")]
 	private void ChildRelationCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6000540")]
-	[Address(RVA = "0x4598120", Offset = "0x4598120", VA = "0x4598120")]
+	[Token(Token = "0x6000573")]
+	[Address(RVA = "0x2509FC0", Offset = "0x25085C0", VA = "0x182509FC0")]
 	private void ParentRelationCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6000541")]
-	[Address(RVA = "0x45981D0", Offset = "0x45981D0", VA = "0x45981D0")]
+	[Token(Token = "0x6000574")]
+	[Address(RVA = "0x2509C70", Offset = "0x2508270", VA = "0x182509C70")]
 	private void ColumnCollectionChanged(object sender, CollectionChangeEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6000542")]
-	[Address(RVA = "0x4598280", Offset = "0x4598280", VA = "0x4598280")]
+	[Token(Token = "0x6000575")]
+	[Address(RVA = "0x2509EE0", Offset = "0x25084E0", VA = "0x182509EE0")]
 	internal void MaintainDataView(ListChangedType changedType, DataRow row, bool trackAddRemove)
 	{
 	}
 
-	[Token(Token = "0x6000543")]
-	[Address(RVA = "0x4598350", Offset = "0x4598350", VA = "0x4598350")]
+	[Token(Token = "0x6000576")]
+	[Address(RVA = "0x2509D60", Offset = "0x2508360", VA = "0x182509D60")]
 	internal void IndexListChanged(ListChangedEventArgs e)
 	{
 	}
 
-	[Token(Token = "0x6000544")]
-	[Address(RVA = "0x4598400", Offset = "0x4598400", VA = "0x4598400")]
+	[Token(Token = "0x6000577")]
+	[Address(RVA = "0x250A360", Offset = "0x2508960", VA = "0x18250A360")]
 	internal void RegisterMetaDataEvents(DataTable table)
 	{
 	}
 
-	[Token(Token = "0x6000545")]
-	[Address(RVA = "0x4598840", Offset = "0x4598840", VA = "0x4598840")]
+	[Token(Token = "0x6000578")]
+	[Address(RVA = "0x250A910", Offset = "0x2508F10", VA = "0x18250A910")]
 	internal void UnregisterMetaDataEvents()
 	{
 	}
 
-	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x4598850", Offset = "0x4598850", VA = "0x4598850")]
+	[Token(Token = "0x6000579")]
+	[Address(RVA = "0x250A650", Offset = "0x2508C50", VA = "0x18250A650")]
 	private void UnregisterMetaDataEvents(bool updateListeners)
 	{
 	}
 
-	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x4598B00", Offset = "0x4598B00", VA = "0x4598B00")]
+	[Token(Token = "0x600057A")]
+	[Address(RVA = "0x250A0A0", Offset = "0x25086A0", VA = "0x18250A0A0")]
 	internal void RegisterListChangedEvent(Index index)
 	{
 	}
 
-	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x4598BF0", Offset = "0x4598BF0", VA = "0x4598BF0")]
+	[Token(Token = "0x600057B")]
+	[Address(RVA = "0x250A570", Offset = "0x2508B70", VA = "0x18250A570")]
 	internal void UnregisterListChangedEvent()
 	{
 	}
 
-	[Token(Token = "0x6000549")]
-	[Address(RVA = "0x4598100", Offset = "0x4598100", VA = "0x4598100")]
+	[Token(Token = "0x600057C")]
+	[Address(RVA = "0x2509C50", Offset = "0x2508250", VA = "0x182509C50")]
 	private void CleanUp(bool updateListeners)
 	{
 	}
 
-	[Token(Token = "0x600054A")]
-	[Address(RVA = "0x45985E0", Offset = "0x45985E0", VA = "0x45985E0")]
+	[Token(Token = "0x600057D")]
+	[Address(RVA = "0x250A170", Offset = "0x2508770", VA = "0x18250A170")]
 	private void RegisterListener(DataTable table)
 	{
 	}

@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000008")]
 [Flags]
 public enum AdditionalCanvasShaderChannels
 {

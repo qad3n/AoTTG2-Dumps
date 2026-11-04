@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ConstrainedExecution;
 
-[Token(Token = "0x2000460")]
+[Token(Token = "0x200048F")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method | AttributeTargets.Interface, Inherited = false)]
 public sealed class ReliabilityContractAttribute : Attribute
 {
-	[Token(Token = "0x40012EE")]
+	[Token(Token = "0x40012F0")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly Consistency _003CConsistencyGuarantee_003Ek__BackingField;
 
-	[Token(Token = "0x40012EF")]
+	[Token(Token = "0x40012F1")]
 	[FieldOffset(Offset = "0x14")]
 	[CompilerGenerated]
 	private readonly Cer _003CCer_003Ek__BackingField;
 
-	[Token(Token = "0x600224A")]
-	[Address(RVA = "0x3BC0640", Offset = "0x3BC0640", VA = "0x3BC0640")]
+	[Token(Token = "0x60022CA")]
+	[Address(RVA = "0x1A36B90", Offset = "0x1A35190", VA = "0x181A36B90")]
 	public ReliabilityContractAttribute(Consistency consistencyGuarantee, Cer cer)
 	{
 	}

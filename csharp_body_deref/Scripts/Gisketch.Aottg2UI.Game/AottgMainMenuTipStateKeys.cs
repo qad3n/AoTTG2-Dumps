@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200017D")]
+[Token(Token = "0x2000283")]
 public static class AottgMainMenuTipStateKeys
 {
-	[Token(Token = "0x4000851")]
+	[Token(Token = "0x4000CF2")]
 	public const string Text = "mainMenu.tipText";
 }

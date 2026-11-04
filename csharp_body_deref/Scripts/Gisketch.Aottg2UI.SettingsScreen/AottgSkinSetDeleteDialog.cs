@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgSkinSetDeleteDialog.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,66 +12,66 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000130")]
+[Token(Token = "0x20001A2")]
 [AottgDialog("setting-skin-set-delete")]
 public sealed class AottgSkinSetDeleteDialog : AottgDialog
 {
-	[Token(Token = "0x40006F1")]
+	[Token(Token = "0x40008CF")]
 	public const string Id = "setting-skin-set-delete";
 
-	[Token(Token = "0x170000F1")]
+	[Token(Token = "0x17000118")]
 	protected override string Title
 	{
-		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x4365B50", Offset = "0x4365B50", VA = "0x4365B50", Slot = "4")]
+		[Token(Token = "0x60008E9")]
+		[Address(RVA = "0x239EB60", Offset = "0x239D160", VA = "0x18239EB60", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000F2")]
+	[Token(Token = "0x17000119")]
 	protected override bool BodyScrollable
 	{
-		[Token(Token = "0x6000655")]
-		[Address(RVA = "0x4365B80", Offset = "0x4365B80", VA = "0x4365B80", Slot = "12")]
+		[Token(Token = "0x60008EA")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000F3")]
+	[Token(Token = "0x1700011A")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x6000656")]
-		[Address(RVA = "0x4365B90", Offset = "0x4365B90", VA = "0x4365B90", Slot = "14")]
+		[Token(Token = "0x60008EB")]
+		[Address(RVA = "0x239EA60", Offset = "0x239D060", VA = "0x18239EA60", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x4365C60", Offset = "0x4365C60", VA = "0x4365C60", Slot = "19")]
+	[Token(Token = "0x60008EC")]
+	[Address(RVA = "0x239E730", Offset = "0x239CD30", VA = "0x18239E730", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x6000658")]
-	[Address(RVA = "0x4365CD0", Offset = "0x4365CD0", VA = "0x4365CD0", Slot = "20")]
+	[Token(Token = "0x60008ED")]
+	[Address(RVA = "0x239E7F0", Offset = "0x239CDF0", VA = "0x18239E7F0", Slot = "21")]
 	protected override void BuildFooter(AottgDialogFooter footer)
 	{
 	}
 
-	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x4365DA0", Offset = "0x4365DA0", VA = "0x4365DA0")]
+	[Token(Token = "0x60008EE")]
+	[Address(RVA = "0x239E8F0", Offset = "0x239CEF0", VA = "0x18239E8F0")]
 	private static void Delete(GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x4365E50", Offset = "0x4365E50", VA = "0x4365E50")]
+	[Token(Token = "0x60008EF")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgSkinSetDeleteDialog()
 	{
 	}

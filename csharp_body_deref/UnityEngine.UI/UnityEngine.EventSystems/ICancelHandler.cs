@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000AF")]
+[Token(Token = "0x20000B1")]
 public interface ICancelHandler : IEventSystemHandler
 {
-	[Token(Token = "0x600064D")]
+	[Token(Token = "0x6000694")]
 	void OnCancel(BaseEventData eventData);
 }

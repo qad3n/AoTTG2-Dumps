@@ -21,7 +21,7 @@ internal struct Position
 	public object particle;
 
 	[Token(Token = "0x6000FD0")]
-	[Address(RVA = "0x4846DE0", Offset = "0x4846DE0", VA = "0x4846DE0")]
+	[Address(RVA = "0x1028B90", Offset = "0x1027190", VA = "0x181028B90")]
 	public Position(int symbol, object particle)
 	{
 	}

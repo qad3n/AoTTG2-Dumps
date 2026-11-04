@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001C8")]
+[Token(Token = "0x20001CB")]
 [DisallowMultipleComponent]
 public sealed class AsyncMouseDragTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000B20")]
-	[Address(RVA = "0x4A0EAD0", Offset = "0x4A0EAD0", VA = "0x4A0EAD0")]
+	[Token(Token = "0x6000B44")]
+	[Address(RVA = "0x2931750", Offset = "0x292FD50", VA = "0x182931750")]
 	private void OnMouseDrag()
 	{
 	}
 
-	[Token(Token = "0x6000B21")]
-	[Address(RVA = "0x4A0EB40", Offset = "0x4A0EB40", VA = "0x4A0EB40")]
+	[Token(Token = "0x6000B45")]
+	[Address(RVA = "0x2931440", Offset = "0x292FA40", VA = "0x182931440")]
 	public IAsyncOnMouseDragHandler GetOnMouseDragAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B22")]
-	[Address(RVA = "0x4A0EBB0", Offset = "0x4A0EBB0", VA = "0x4A0EBB0")]
+	[Token(Token = "0x6000B46")]
+	[Address(RVA = "0x29314B0", Offset = "0x292FAB0", VA = "0x1829314B0")]
 	public IAsyncOnMouseDragHandler GetOnMouseDragAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x4A0EC20", Offset = "0x4A0EC20", VA = "0x4A0EC20")]
+	[Token(Token = "0x6000B47")]
+	[Address(RVA = "0x2931530", Offset = "0x292FB30", VA = "0x182931530")]
 	public UniTask OnMouseDragAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B24")]
-	[Address(RVA = "0x4A0ED10", Offset = "0x4A0ED10", VA = "0x4A0ED10")]
+	[Token(Token = "0x6000B48")]
+	[Address(RVA = "0x2931640", Offset = "0x292FC40", VA = "0x182931640")]
 	public UniTask OnMouseDragAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B25")]
-	[Address(RVA = "0x4A0EE00", Offset = "0x4A0EE00", VA = "0x4A0EE00")]
+	[Token(Token = "0x6000B49")]
+	[Address(RVA = "0x29317C0", Offset = "0x292FDC0", VA = "0x1829317C0")]
 	public AsyncMouseDragTrigger()
 	{
 	}

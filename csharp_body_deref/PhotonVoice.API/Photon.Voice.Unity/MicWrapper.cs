@@ -12,87 +12,87 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x20000A8")]
+[Token(Token = "0x20000AA")]
 public class MicWrapper : IAudioReader<float>, IDataReader<float>, IDisposable, IAudioDesc
 {
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x40002C2")]
 	[FieldOffset(Offset = "0x10")]
 	private AudioClip mic;
 
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x40002C3")]
 	[FieldOffset(Offset = "0x18")]
 	private string device;
 
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x40002C4")]
 	[FieldOffset(Offset = "0x20")]
 	private ILogger logger;
 
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x40002C6")]
 	[FieldOffset(Offset = "0x30")]
 	private int micPrevPos;
 
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x40002C7")]
 	[FieldOffset(Offset = "0x34")]
 	private int micLoopCnt;
 
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x40002C8")]
 	[FieldOffset(Offset = "0x38")]
 	private int readAbsPos;
 
-	[Token(Token = "0x170000F9")]
+	[Token(Token = "0x170000FC")]
 	public int SamplingRate
 	{
-		[Token(Token = "0x6000398")]
-		[Address(RVA = "0x3F39670", Offset = "0x3F39670", VA = "0x3F39670", Slot = "6")]
+		[Token(Token = "0x60003AE")]
+		[Address(RVA = "0x1D85AA0", Offset = "0x1D840A0", VA = "0x181D85AA0", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000FA")]
+	[Token(Token = "0x170000FD")]
 	public int Channels
 	{
-		[Token(Token = "0x6000399")]
-		[Address(RVA = "0x3F396A0", Offset = "0x3F396A0", VA = "0x3F396A0", Slot = "7")]
+		[Token(Token = "0x60003AF")]
+		[Address(RVA = "0x1D85A70", Offset = "0x1D84070", VA = "0x181D85A70", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170000FB")]
+	[Token(Token = "0x170000FE")]
 	public string Error
 	{
-		[Token(Token = "0x600039A")]
-		[Address(RVA = "0x3F396D0", Offset = "0x3F396D0", VA = "0x3F396D0", Slot = "8")]
+		[Token(Token = "0x60003B0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "8")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600039B")]
-		[Address(RVA = "0x3F396E0", Offset = "0x3F396E0", VA = "0x3F396E0")]
+		[Token(Token = "0x60003B1")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x3F38730", Offset = "0x3F38730", VA = "0x3F38730")]
+	[Token(Token = "0x60003AD")]
+	[Address(RVA = "0x1D856E0", Offset = "0x1D83CE0", VA = "0x181D856E0")]
 	public MicWrapper(string device, int suggestedFrequency, ILogger logger)
 	{
 	}
 
-	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x3F396F0", Offset = "0x3F396F0", VA = "0x3F396F0", Slot = "5")]
+	[Token(Token = "0x60003B2")]
+	[Address(RVA = "0x1D85510", Offset = "0x1D83B10", VA = "0x181D85510", Slot = "5")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x3F39710", Offset = "0x3F39710", VA = "0x3F39710", Slot = "4")]
+	[Token(Token = "0x60003B3")]
+	[Address(RVA = "0x1D85520", Offset = "0x1D83B20", VA = "0x181D85520", Slot = "4")]
 	public bool Read(float[] buffer)
 	{
 		return default(bool);

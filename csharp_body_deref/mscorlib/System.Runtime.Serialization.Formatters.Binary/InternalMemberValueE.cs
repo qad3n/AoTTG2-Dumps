@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003FF")]
+[Token(Token = "0x200042E")]
 internal enum InternalMemberValueE
 {
-	[Token(Token = "0x4001090")]
-	Empty,
-	[Token(Token = "0x4001091")]
-	InlineValue,
 	[Token(Token = "0x4001092")]
-	Nested,
+	Empty,
 	[Token(Token = "0x4001093")]
-	Reference,
+	InlineValue,
 	[Token(Token = "0x4001094")]
+	Nested,
+	[Token(Token = "0x4001095")]
+	Reference,
+	[Token(Token = "0x4001096")]
 	Null
 }

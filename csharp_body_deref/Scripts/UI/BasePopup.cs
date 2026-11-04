@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.BasePopup
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/UI/BasePopup.c
 // Prior real C# source (older reference): Assets/Scripts/UI/BaseMenu/BasePopup.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -15,49 +15,49 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x2000569")]
+[Token(Token = "0x20006DA")]
 internal class BasePopup : HeadedPanel
 {
 	[Serializable]
-	[Token(Token = "0x200056A")]
+	[Token(Token = "0x20006DB")]
 	public struct AnimationKeyframe
 	{
-		[Token(Token = "0x4001AC6")]
+		[Token(Token = "0x4002276")]
 		[FieldOffset(Offset = "0x0")]
 		public float time;
 
-		[Token(Token = "0x4001AC7")]
+		[Token(Token = "0x4002277")]
 		[FieldOffset(Offset = "0x4")]
 		public float scale;
 
-		[Token(Token = "0x600386E")]
-		[Address(RVA = "0x4245F10", Offset = "0x4245F10", VA = "0x4245F10")]
+		[Token(Token = "0x6004394")]
+		[Address(RVA = "0x1028C00", Offset = "0x1027200", VA = "0x181028C00")]
 		public AnimationKeyframe(float time, float scale)
 		{
 		}
 	}
 
-	[Token(Token = "0x200056B")]
+	[Token(Token = "0x20006DC")]
 	[CompilerGenerated]
-	private sealed class _003CFadeIn_003Ed__38 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CFadeIn_003Ed__44 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001AC8")]
+		[Token(Token = "0x4002278")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001AC9")]
+		[Token(Token = "0x4002279")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001ACA")]
+		[Token(Token = "0x400227A")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x17000A8C")]
+		[Token(Token = "0x17000BE1")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003872")]
-			[Address(RVA = "0x42461C0", Offset = "0x42461C0", VA = "0x42461C0", Slot = "4")]
+			[Token(Token = "0x6004398")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -65,11 +65,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A8D")]
+		[Token(Token = "0x17000BE2")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003874")]
-			[Address(RVA = "0x4246210", Offset = "0x4246210", VA = "0x4246210", Slot = "7")]
+			[Token(Token = "0x600439A")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -77,56 +77,56 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x600386F")]
-		[Address(RVA = "0x4245940", Offset = "0x4245940", VA = "0x4245940")]
+		[Token(Token = "0x6004395")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CFadeIn_003Ed__38(int _003C_003E1__state)
+		public _003CFadeIn_003Ed__44(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003870")]
-		[Address(RVA = "0x4245FA0", Offset = "0x4245FA0", VA = "0x4245FA0", Slot = "5")]
+		[Token(Token = "0x6004396")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003871")]
-		[Address(RVA = "0x4245FB0", Offset = "0x4245FB0", VA = "0x4245FB0", Slot = "6")]
+		[Token(Token = "0x6004397")]
+		[Address(RVA = "0x21CFA30", Offset = "0x21CE030", VA = "0x1821CFA30", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003873")]
-		[Address(RVA = "0x42461D0", Offset = "0x42461D0", VA = "0x42461D0", Slot = "8")]
+		[Token(Token = "0x6004399")]
+		[Address(RVA = "0x21CFBB0", Offset = "0x21CE1B0", VA = "0x1821CFBB0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200056C")]
+	[Token(Token = "0x20006DD")]
 	[CompilerGenerated]
-	private sealed class _003CFadeOut_003Ed__39 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CFadeOut_003Ed__45 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001ACB")]
+		[Token(Token = "0x400227B")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001ACC")]
+		[Token(Token = "0x400227C")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001ACD")]
+		[Token(Token = "0x400227D")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x17000A8E")]
+		[Token(Token = "0x17000BE3")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003878")]
-			[Address(RVA = "0x4246460", Offset = "0x4246460", VA = "0x4246460", Slot = "4")]
+			[Token(Token = "0x600439E")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -134,11 +134,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A8F")]
+		[Token(Token = "0x17000BE4")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600387A")]
-			[Address(RVA = "0x42464B0", Offset = "0x42464B0", VA = "0x42464B0", Slot = "7")]
+			[Token(Token = "0x60043A0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -146,64 +146,64 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6003875")]
-		[Address(RVA = "0x4245960", Offset = "0x4245960", VA = "0x4245960")]
+		[Token(Token = "0x600439B")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CFadeOut_003Ed__39(int _003C_003E1__state)
+		public _003CFadeOut_003Ed__45(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003876")]
-		[Address(RVA = "0x4246220", Offset = "0x4246220", VA = "0x4246220", Slot = "5")]
+		[Token(Token = "0x600439C")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003877")]
-		[Address(RVA = "0x4246230", Offset = "0x4246230", VA = "0x4246230", Slot = "6")]
+		[Token(Token = "0x600439D")]
+		[Address(RVA = "0x21CFBF0", Offset = "0x21CE1F0", VA = "0x1821CFBF0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003879")]
-		[Address(RVA = "0x4246470", Offset = "0x4246470", VA = "0x4246470", Slot = "8")]
+		[Token(Token = "0x600439F")]
+		[Address(RVA = "0x21CFD80", Offset = "0x21CE380", VA = "0x1821CFD80", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200056D")]
+	[Token(Token = "0x20006DE")]
 	[CompilerGenerated]
-	private sealed class _003CKillPopupIn_003Ed__36 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CKillPopupIn_003Ed__42 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001ACE")]
+		[Token(Token = "0x400227E")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001ACF")]
+		[Token(Token = "0x400227F")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001AD0")]
+		[Token(Token = "0x4002280")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x4001AD1")]
+		[Token(Token = "0x4002281")]
 		[FieldOffset(Offset = "0x28")]
 		private float _003CstartTime_003E5__2;
 
-		[Token(Token = "0x4001AD2")]
+		[Token(Token = "0x4002282")]
 		[FieldOffset(Offset = "0x2C")]
 		private float _003CendTime_003E5__3;
 
-		[Token(Token = "0x17000A90")]
+		[Token(Token = "0x17000BE5")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600387E")]
-			[Address(RVA = "0x42465B0", Offset = "0x42465B0", VA = "0x42465B0", Slot = "4")]
+			[Token(Token = "0x60043A4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -211,11 +211,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A91")]
+		[Token(Token = "0x17000BE6")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003880")]
-			[Address(RVA = "0x4246600", Offset = "0x4246600", VA = "0x4246600", Slot = "7")]
+			[Token(Token = "0x60043A6")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -223,64 +223,64 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x600387B")]
-		[Address(RVA = "0x4245900", Offset = "0x4245900", VA = "0x4245900")]
+		[Token(Token = "0x60043A1")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CKillPopupIn_003Ed__36(int _003C_003E1__state)
+		public _003CKillPopupIn_003Ed__42(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600387C")]
-		[Address(RVA = "0x42464C0", Offset = "0x42464C0", VA = "0x42464C0", Slot = "5")]
+		[Token(Token = "0x60043A2")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600387D")]
-		[Address(RVA = "0x42464D0", Offset = "0x42464D0", VA = "0x42464D0", Slot = "6")]
+		[Token(Token = "0x60043A3")]
+		[Address(RVA = "0x21CFDC0", Offset = "0x21CE3C0", VA = "0x1821CFDC0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600387F")]
-		[Address(RVA = "0x42465C0", Offset = "0x42465C0", VA = "0x42465C0", Slot = "8")]
+		[Token(Token = "0x60043A5")]
+		[Address(RVA = "0x21CFEC0", Offset = "0x21CE4C0", VA = "0x1821CFEC0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200056E")]
+	[Token(Token = "0x20006DF")]
 	[CompilerGenerated]
-	private sealed class _003CKillPopupOut_003Ed__37 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CKillPopupOut_003Ed__43 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001AD3")]
+		[Token(Token = "0x4002283")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001AD4")]
+		[Token(Token = "0x4002284")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001AD5")]
+		[Token(Token = "0x4002285")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x4001AD6")]
+		[Token(Token = "0x4002286")]
 		[FieldOffset(Offset = "0x28")]
 		private float _003CstartTime_003E5__2;
 
-		[Token(Token = "0x4001AD7")]
+		[Token(Token = "0x4002287")]
 		[FieldOffset(Offset = "0x2C")]
 		private float _003CendTime_003E5__3;
 
-		[Token(Token = "0x17000A92")]
+		[Token(Token = "0x17000BE7")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003884")]
-			[Address(RVA = "0x4246720", Offset = "0x4246720", VA = "0x4246720", Slot = "4")]
+			[Token(Token = "0x60043AA")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -288,11 +288,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A93")]
+		[Token(Token = "0x17000BE8")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003886")]
-			[Address(RVA = "0x4246770", Offset = "0x4246770", VA = "0x4246770", Slot = "7")]
+			[Token(Token = "0x60043AC")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -300,56 +300,56 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6003881")]
-		[Address(RVA = "0x4245920", Offset = "0x4245920", VA = "0x4245920")]
+		[Token(Token = "0x60043A7")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CKillPopupOut_003Ed__37(int _003C_003E1__state)
+		public _003CKillPopupOut_003Ed__43(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003882")]
-		[Address(RVA = "0x4246610", Offset = "0x4246610", VA = "0x4246610", Slot = "5")]
+		[Token(Token = "0x60043A8")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003883")]
-		[Address(RVA = "0x4246620", Offset = "0x4246620", VA = "0x4246620", Slot = "6")]
+		[Token(Token = "0x60043A9")]
+		[Address(RVA = "0x21CFF00", Offset = "0x21CE500", VA = "0x1821CFF00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003885")]
-		[Address(RVA = "0x4246730", Offset = "0x4246730", VA = "0x4246730", Slot = "8")]
+		[Token(Token = "0x60043AB")]
+		[Address(RVA = "0x21D0020", Offset = "0x21CE620", VA = "0x1821D0020", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x200056F")]
+	[Token(Token = "0x20006E0")]
 	[CompilerGenerated]
-	private sealed class _003CTweenIn_003Ed__30 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CTweenIn_003Ed__36 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001AD8")]
+		[Token(Token = "0x4002288")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001AD9")]
+		[Token(Token = "0x4002289")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001ADA")]
+		[Token(Token = "0x400228A")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x17000A94")]
+		[Token(Token = "0x17000BE9")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600388A")]
-			[Address(RVA = "0x42468F0", Offset = "0x42468F0", VA = "0x42468F0", Slot = "4")]
+			[Token(Token = "0x60043B0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -357,11 +357,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A95")]
+		[Token(Token = "0x17000BEA")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600388C")]
-			[Address(RVA = "0x4246940", Offset = "0x4246940", VA = "0x4246940", Slot = "7")]
+			[Token(Token = "0x60043B2")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -369,56 +369,56 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x6003887")]
-		[Address(RVA = "0x4245670", Offset = "0x4245670", VA = "0x4245670")]
+		[Token(Token = "0x60043AD")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CTweenIn_003Ed__30(int _003C_003E1__state)
+		public _003CTweenIn_003Ed__36(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003888")]
-		[Address(RVA = "0x4246780", Offset = "0x4246780", VA = "0x4246780", Slot = "5")]
+		[Token(Token = "0x60043AE")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003889")]
-		[Address(RVA = "0x4246790", Offset = "0x4246790", VA = "0x4246790", Slot = "6")]
+		[Token(Token = "0x60043AF")]
+		[Address(RVA = "0x21D0490", Offset = "0x21CEA90", VA = "0x1821D0490", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600388B")]
-		[Address(RVA = "0x4246900", Offset = "0x4246900", VA = "0x4246900", Slot = "8")]
+		[Token(Token = "0x60043B1")]
+		[Address(RVA = "0x21D0610", Offset = "0x21CEC10", VA = "0x1821D0610", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000570")]
+	[Token(Token = "0x20006E1")]
 	[CompilerGenerated]
-	private sealed class _003CTweenOut_003Ed__31 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CTweenOut_003Ed__37 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001ADB")]
+		[Token(Token = "0x400228B")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001ADC")]
+		[Token(Token = "0x400228C")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001ADD")]
+		[Token(Token = "0x400228D")]
 		[FieldOffset(Offset = "0x20")]
 		public BasePopup _003C_003E4__this;
 
-		[Token(Token = "0x17000A96")]
+		[Token(Token = "0x17000BEB")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003890")]
-			[Address(RVA = "0x4246AD0", Offset = "0x4246AD0", VA = "0x4246AD0", Slot = "4")]
+			[Token(Token = "0x60043B6")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -426,11 +426,11 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x17000A97")]
+		[Token(Token = "0x17000BEC")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003892")]
-			[Address(RVA = "0x4246B20", Offset = "0x4246B20", VA = "0x4246B20", Slot = "7")]
+			[Token(Token = "0x60043B8")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -438,290 +438,325 @@ internal class BasePopup : HeadedPanel
 			}
 		}
 
-		[Token(Token = "0x600388D")]
-		[Address(RVA = "0x4245690", Offset = "0x4245690", VA = "0x4245690")]
+		[Token(Token = "0x60043B3")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CTweenOut_003Ed__31(int _003C_003E1__state)
+		public _003CTweenOut_003Ed__37(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600388E")]
-		[Address(RVA = "0x4246950", Offset = "0x4246950", VA = "0x4246950", Slot = "5")]
+		[Token(Token = "0x60043B4")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600388F")]
-		[Address(RVA = "0x4246960", Offset = "0x4246960", VA = "0x4246960", Slot = "6")]
+		[Token(Token = "0x60043B5")]
+		[Address(RVA = "0x21D0650", Offset = "0x21CEC50", VA = "0x1821D0650", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003891")]
-		[Address(RVA = "0x4246AE0", Offset = "0x4246AE0", VA = "0x4246AE0", Slot = "8")]
+		[Token(Token = "0x60043B7")]
+		[Address(RVA = "0x21D07E0", Offset = "0x21CEDE0", VA = "0x1821D07E0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001AC1")]
+	[Token(Token = "0x4002271")]
 	[FieldOffset(Offset = "0x80")]
 	public float _currentAnimationValue;
 
-	[Token(Token = "0x4001AC2")]
+	[Token(Token = "0x4002272")]
 	[FieldOffset(Offset = "0x88")]
 	protected HashSet<Transform> _staticTransforms;
 
-	[Token(Token = "0x4001AC3")]
+	[Token(Token = "0x4002273")]
 	[FieldOffset(Offset = "0x90")]
 	public bool IsActive;
 
-	[Token(Token = "0x4001AC4")]
+	[Token(Token = "0x4002274")]
 	[FieldOffset(Offset = "0x98")]
 	private readonly List<AnimationKeyframe> killPopupKeyframesIn;
 
-	[Token(Token = "0x4001AC5")]
+	[Token(Token = "0x4002275")]
 	[FieldOffset(Offset = "0xA0")]
 	private readonly List<AnimationKeyframe> killPopupKeyframesOut;
 
-	[Token(Token = "0x17000A82")]
+	[Token(Token = "0x17000BD5")]
 	protected virtual float MinTweenScale
 	{
-		[Token(Token = "0x6003851")]
-		[Address(RVA = "0x4244860", Offset = "0x4244860", VA = "0x4244860", Slot = "45")]
+		[Token(Token = "0x6004373")]
+		[Address(RVA = "0x210FB70", Offset = "0x210E170", VA = "0x18210FB70", Slot = "45")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A83")]
+	[Token(Token = "0x17000BD6")]
 	protected virtual float MaxTweenScale
 	{
-		[Token(Token = "0x6003852")]
-		[Address(RVA = "0x4244870", Offset = "0x4244870", VA = "0x4244870", Slot = "46")]
+		[Token(Token = "0x6004374")]
+		[Address(RVA = "0x20CF430", Offset = "0x20CDA30", VA = "0x1820CF430", Slot = "46")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A84")]
+	[Token(Token = "0x17000BD7")]
 	protected virtual float MinFadeAlpha
 	{
-		[Token(Token = "0x6003853")]
-		[Address(RVA = "0x4244880", Offset = "0x4244880", VA = "0x4244880", Slot = "47")]
+		[Token(Token = "0x6004375")]
+		[Address(RVA = "0x560480", Offset = "0x55EA80", VA = "0x180560480", Slot = "47")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A85")]
+	[Token(Token = "0x17000BD8")]
 	protected virtual float MaxFadeAlpha
 	{
-		[Token(Token = "0x6003854")]
-		[Address(RVA = "0x4244890", Offset = "0x4244890", VA = "0x4244890", Slot = "48")]
+		[Token(Token = "0x6004376")]
+		[Address(RVA = "0x20CF430", Offset = "0x20CDA30", VA = "0x1820CF430", Slot = "48")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A86")]
+	[Token(Token = "0x17000BD9")]
 	protected virtual float SpringDamping
 	{
-		[Token(Token = "0x6003855")]
-		[Address(RVA = "0x42448A0", Offset = "0x42448A0", VA = "0x42448A0", Slot = "49")]
+		[Token(Token = "0x6004377")]
+		[Address(RVA = "0x21779B0", Offset = "0x2175FB0", VA = "0x1821779B0", Slot = "49")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A87")]
+	[Token(Token = "0x17000BDA")]
 	protected virtual float SpringStiffness
 	{
-		[Token(Token = "0x6003856")]
-		[Address(RVA = "0x42448B0", Offset = "0x42448B0", VA = "0x42448B0", Slot = "50")]
+		[Token(Token = "0x6004378")]
+		[Address(RVA = "0x21BC890", Offset = "0x21BAE90", VA = "0x1821BC890", Slot = "50")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A88")]
+	[Token(Token = "0x17000BDB")]
 	protected virtual float AnimationTime
 	{
-		[Token(Token = "0x6003857")]
-		[Address(RVA = "0x42448C0", Offset = "0x42448C0", VA = "0x42448C0", Slot = "51")]
+		[Token(Token = "0x6004379")]
+		[Address(RVA = "0x21BC890", Offset = "0x21BAE90", VA = "0x1821BC890", Slot = "51")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000A89")]
+	[Token(Token = "0x17000BDC")]
 	protected virtual bool ShowOnTop
 	{
-		[Token(Token = "0x6003858")]
-		[Address(RVA = "0x42448D0", Offset = "0x42448D0", VA = "0x42448D0", Slot = "52")]
+		[Token(Token = "0x600437A")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "52")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000A8A")]
+	[Token(Token = "0x17000BDD")]
 	protected virtual bool UseSound
 	{
-		[Token(Token = "0x6003859")]
-		[Address(RVA = "0x42448E0", Offset = "0x42448E0", VA = "0x42448E0", Slot = "53")]
+		[Token(Token = "0x600437B")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000A8B")]
+	[Token(Token = "0x17000BDE")]
 	protected virtual PopupAnimation PopupAnimationType
 	{
-		[Token(Token = "0x600385A")]
-		[Address(RVA = "0x42448F0", Offset = "0x42448F0", VA = "0x42448F0", Slot = "54")]
+		[Token(Token = "0x600437C")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "54")]
 		get
 		{
 			return default(PopupAnimation);
 		}
 	}
 
-	[Token(Token = "0x600385B")]
-	[Address(RVA = "0x4244900", Offset = "0x4244900", VA = "0x4244900", Slot = "21")]
+	[Token(Token = "0x17000BDF")]
+	public virtual PopupEscapeBehavior EscapeBehavior
+	{
+		[Token(Token = "0x600437D")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "55")]
+		get
+		{
+			return default(PopupEscapeBehavior);
+		}
+	}
+
+	[Token(Token = "0x17000BE0")]
+	public virtual bool PlayEscapeSound
+	{
+		[Token(Token = "0x600437E")]
+		[Address(RVA = "0x21BC8A0", Offset = "0x21BAEA0", VA = "0x1821BC8A0", Slot = "56")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x600437F")]
+	[Address(RVA = "0x21BB450", Offset = "0x21B9A50", VA = "0x1821BB450", Slot = "57")]
+	public virtual bool DismissFromEscape()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6004380")]
+	[Address(RVA = "0x21BC290", Offset = "0x21BA890", VA = "0x1821BC290", Slot = "21")]
 	public override void Show()
 	{
 	}
 
-	[Token(Token = "0x600385C")]
-	[Address(RVA = "0x4244C60", Offset = "0x4244C60", VA = "0x4244C60")]
+	[Token(Token = "0x6004381")]
+	[Address(RVA = "0x21BC140", Offset = "0x21BA740", VA = "0x1821BC140")]
 	public void ShowImmediate()
 	{
 	}
 
-	[Token(Token = "0x600385D")]
-	[Address(RVA = "0x4245130", Offset = "0x4245130", VA = "0x4245130", Slot = "26")]
+	[Token(Token = "0x6004382")]
+	[Address(RVA = "0x21BB8D0", Offset = "0x21B9ED0", VA = "0x1821BB8D0", Slot = "26")]
 	protected override void HideAllPopups()
 	{
 	}
 
-	[Token(Token = "0x600385E")]
-	[Address(RVA = "0x4245280", Offset = "0x4245280", VA = "0x4245280", Slot = "22")]
+	[Token(Token = "0x6004383")]
+	[Address(RVA = "0x21BBB40", Offset = "0x21BA140", VA = "0x1821BBB40", Slot = "22")]
 	public override void Hide()
 	{
 	}
 
-	[Token(Token = "0x600385F")]
-	[Address(RVA = "0x42455E0", Offset = "0x42455E0", VA = "0x42455E0", Slot = "55")]
+	[Token(Token = "0x6004384")]
+	[Address(RVA = "0x21BB9F0", Offset = "0x21B9FF0", VA = "0x1821BB9F0", Slot = "58")]
 	public virtual void HideImmediate()
 	{
 	}
 
-	[Token(Token = "0x6003860")]
-	[Address(RVA = "0x4245640", Offset = "0x4245640", VA = "0x4245640", Slot = "56")]
+	[Token(Token = "0x6004385")]
+	[Address(RVA = "0x21BBE00", Offset = "0x21BA400", VA = "0x1821BBE00", Slot = "59")]
 	protected virtual void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6003861")]
-	[Address(RVA = "0x4245650", Offset = "0x4245650", VA = "0x4245650", Slot = "57")]
+	[Token(Token = "0x6004386")]
+	[Address(RVA = "0x21BBA70", Offset = "0x21BA070", VA = "0x1821BBA70")]
+	private void HideTooltips()
+	{
+	}
+
+	[Token(Token = "0x6004387")]
+	[Address(RVA = "0x21BB840", Offset = "0x21B9E40", VA = "0x1821BB840", Slot = "60")]
 	protected virtual void FinishHide()
 	{
 	}
 
-	[Token(Token = "0x6003862")]
-	[Address(RVA = "0x4244B10", Offset = "0x4244B10", VA = "0x4244B10")]
-	[IteratorStateMachine(typeof(_003CTweenIn_003Ed__30))]
+	[Token(Token = "0x6004388")]
+	[Address(RVA = "0x21BC470", Offset = "0x21BAA70", VA = "0x1821BC470")]
+	[IteratorStateMachine(typeof(_003CTweenIn_003Ed__36))]
 	protected IEnumerator TweenIn()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003863")]
-	[Address(RVA = "0x4245490", Offset = "0x4245490", VA = "0x4245490")]
-	[IteratorStateMachine(typeof(_003CTweenOut_003Ed__31))]
+	[Token(Token = "0x6004389")]
+	[Address(RVA = "0x21BC4E0", Offset = "0x21BAAE0", VA = "0x1821BC4E0")]
+	[IteratorStateMachine(typeof(_003CTweenOut_003Ed__37))]
 	protected IEnumerator TweenOut()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003864")]
-	[Address(RVA = "0x42456B0", Offset = "0x42456B0", VA = "0x42456B0")]
+	[Token(Token = "0x600438A")]
+	[Address(RVA = "0x21BB4A0", Offset = "0x21B9AA0", VA = "0x1821BB4A0")]
 	protected float EvaluateKeyframes(float timePercentage, List<AnimationKeyframe> keyframes)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6003865")]
-	[Address(RVA = "0x4244BF0", Offset = "0x4244BF0", VA = "0x4244BF0")]
-	[IteratorStateMachine(typeof(_003CKillPopupIn_003Ed__36))]
+	[Token(Token = "0x600438B")]
+	[Address(RVA = "0x21BBD20", Offset = "0x21BA320", VA = "0x1821BBD20")]
+	[IteratorStateMachine(typeof(_003CKillPopupIn_003Ed__42))]
 	protected IEnumerator KillPopupIn()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003866")]
-	[Address(RVA = "0x4245570", Offset = "0x4245570", VA = "0x4245570")]
-	[IteratorStateMachine(typeof(_003CKillPopupOut_003Ed__37))]
+	[Token(Token = "0x600438C")]
+	[Address(RVA = "0x21BBD90", Offset = "0x21BA390", VA = "0x1821BBD90")]
+	[IteratorStateMachine(typeof(_003CKillPopupOut_003Ed__43))]
 	protected IEnumerator KillPopupOut()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003867")]
-	[Address(RVA = "0x4244B80", Offset = "0x4244B80", VA = "0x4244B80")]
-	[IteratorStateMachine(typeof(_003CFadeIn_003Ed__38))]
+	[Token(Token = "0x600438D")]
+	[Address(RVA = "0x21BB760", Offset = "0x21B9D60", VA = "0x1821BB760")]
+	[IteratorStateMachine(typeof(_003CFadeIn_003Ed__44))]
 	protected IEnumerator FadeIn()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003868")]
-	[Address(RVA = "0x4245500", Offset = "0x4245500", VA = "0x4245500")]
-	[IteratorStateMachine(typeof(_003CFadeOut_003Ed__39))]
+	[Token(Token = "0x600438E")]
+	[Address(RVA = "0x21BB7D0", Offset = "0x21B9DD0", VA = "0x1821BB7D0")]
+	[IteratorStateMachine(typeof(_003CFadeOut_003Ed__45))]
 	protected IEnumerator FadeOut()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003869")]
-	[Address(RVA = "0x4244DE0", Offset = "0x4244DE0", VA = "0x4244DE0")]
+	[Token(Token = "0x600438F")]
+	[Address(RVA = "0x21BBE80", Offset = "0x21BA480", VA = "0x1821BBE80")]
 	protected void SetTransformScale(float scale)
 	{
 	}
 
-	[Token(Token = "0x600386A")]
-	[Address(RVA = "0x42450C0", Offset = "0x42450C0", VA = "0x42450C0")]
+	[Token(Token = "0x6004390")]
+	[Address(RVA = "0x21BBE10", Offset = "0x21BA410", VA = "0x1821BBE10")]
 	protected void SetTransformAlpha(float alpha)
 	{
 	}
 
-	[Token(Token = "0x600386B")]
-	[Address(RVA = "0x4245980", Offset = "0x4245980", VA = "0x4245980")]
+	[Token(Token = "0x6004391")]
+	[Address(RVA = "0x21BB8B0", Offset = "0x21B9EB0", VA = "0x1821BB8B0")]
 	private Vector3 GetVectorFromScale(float scale)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x600386C")]
-	[Address(RVA = "0x4245990", Offset = "0x4245990", VA = "0x4245990", Slot = "58")]
+	[Token(Token = "0x6004392")]
+	[Address(RVA = "0x21BB870", Offset = "0x21B9E70", VA = "0x1821BB870", Slot = "61")]
 	protected virtual float GetAnimationSpeed(float min, float max)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600386D")]
-	[Address(RVA = "0x42459C0", Offset = "0x42459C0", VA = "0x42459C0")]
+	[Token(Token = "0x6004393")]
+	[Address(RVA = "0x21BC550", Offset = "0x21BAB50", VA = "0x1821BC550")]
 	public BasePopup()
 	{
 	}

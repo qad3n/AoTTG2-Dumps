@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000216")]
+[Token(Token = "0x2000219")]
 [DisallowMultipleComponent]
 public sealed class AsyncPointerDownTrigger : AsyncTriggerBase<PointerEventData>, IPointerDownHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C31")]
-	[Address(RVA = "0x4A17260", Offset = "0x4A17260", VA = "0x4A17260", Slot = "5")]
+	[Token(Token = "0x6000C55")]
+	[Address(RVA = "0x2935430", Offset = "0x2933A30", VA = "0x182935430", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerDownHandler_002EOnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C32")]
-	[Address(RVA = "0x4A172B0", Offset = "0x4A172B0", VA = "0x4A172B0")]
+	[Token(Token = "0x6000C56")]
+	[Address(RVA = "0x2935110", Offset = "0x2933710", VA = "0x182935110")]
 	public IAsyncOnPointerDownHandler GetOnPointerDownAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C33")]
-	[Address(RVA = "0x4A17320", Offset = "0x4A17320", VA = "0x4A17320")]
+	[Token(Token = "0x6000C57")]
+	[Address(RVA = "0x2935180", Offset = "0x2933780", VA = "0x182935180")]
 	public IAsyncOnPointerDownHandler GetOnPointerDownAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C34")]
-	[Address(RVA = "0x4A17390", Offset = "0x4A17390", VA = "0x4A17390")]
+	[Token(Token = "0x6000C58")]
+	[Address(RVA = "0x2935200", Offset = "0x2933800", VA = "0x182935200")]
 	public UniTask<PointerEventData> OnPointerDownAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C35")]
-	[Address(RVA = "0x4A17490", Offset = "0x4A17490", VA = "0x4A17490")]
+	[Token(Token = "0x6000C59")]
+	[Address(RVA = "0x2935320", Offset = "0x2933920", VA = "0x182935320")]
 	public UniTask<PointerEventData> OnPointerDownAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C36")]
-	[Address(RVA = "0x4A175A0", Offset = "0x4A175A0", VA = "0x4A175A0")]
+	[Token(Token = "0x6000C5A")]
+	[Address(RVA = "0x2935480", Offset = "0x2933A80", VA = "0x182935480")]
 	public AsyncPointerDownTrigger()
 	{
 	}

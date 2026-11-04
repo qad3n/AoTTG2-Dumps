@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200035D")]
+[Token(Token = "0x200027E")]
 internal class FileData
 {
-	[Token(Token = "0x4000F58")]
+	[Token(Token = "0x40008D0")]
 	[FieldOffset(Offset = "0x10")]
 	public string Directory;
 
-	[Token(Token = "0x4000F59")]
+	[Token(Token = "0x40008D1")]
 	[FieldOffset(Offset = "0x18")]
 	public FileAttributes Attributes;
 
-	[Token(Token = "0x4000F5A")]
+	[Token(Token = "0x40008D2")]
 	[FieldOffset(Offset = "0x1C")]
 	public bool NotExists;
 
-	[Token(Token = "0x4000F5B")]
+	[Token(Token = "0x40008D3")]
 	[FieldOffset(Offset = "0x20")]
 	public DateTime CreationTime;
 
-	[Token(Token = "0x4000F5C")]
+	[Token(Token = "0x40008D4")]
 	[FieldOffset(Offset = "0x28")]
 	public DateTime LastWriteTime;
 
-	[Token(Token = "0x6001699")]
-	[Address(RVA = "0x48E9FB0", Offset = "0x48E9FB0", VA = "0x48E9FB0")]
+	[Token(Token = "0x600119B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public FileData()
 	{
 	}

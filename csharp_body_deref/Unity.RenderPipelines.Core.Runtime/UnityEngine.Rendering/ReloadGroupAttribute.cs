@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001CD")]
+[Token(Token = "0x2000061")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class ReloadGroupAttribute : Attribute
 {
-	[Token(Token = "0x6000D30")]
-	[Address(RVA = "0x4C03500", Offset = "0x4C03500", VA = "0x4C03500")]
+	[Token(Token = "0x6000568")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ReloadGroupAttribute()
 	{
 	}

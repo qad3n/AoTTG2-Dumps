@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000066")]
+[Token(Token = "0x200005A")]
 internal static class TMP_ListPool<T>
 {
-	[Token(Token = "0x40002DC")]
+	[Token(Token = "0x4000227")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly TMP_ObjectPool<List<T>> s_ListPool;
 
-	[Token(Token = "0x6000388")]
+	[Token(Token = "0x6000315")]
 	public static List<T> Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000389")]
+	[Token(Token = "0x6000316")]
 	public static void Release(List<T> toRelease)
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.PointerEnterEvent
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,37 +9,43 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001E5")]
+[Token(Token = "0x200022F")]
 [EventCategory(EventCategory.EnterLeave)]
 public sealed class PointerEnterEvent : PointerEventBase<PointerEnterEvent>
 {
-	[Token(Token = "0x6000C8F")]
-	[Address(RVA = "0x503B120", Offset = "0x503B120", VA = "0x503B120")]
+	[Token(Token = "0x6000ED1")]
+	[Address(RVA = "0x326C080", Offset = "0x326A680", VA = "0x18326C080")]
 	static PointerEnterEvent()
 	{
 	}
 
-	[Token(Token = "0x6000C90")]
-	[Address(RVA = "0x503B1F0", Offset = "0x503B1F0", VA = "0x503B1F0", Slot = "13")]
+	[Token(Token = "0x6000ED2")]
+	[Address(RVA = "0x326BFA0", Offset = "0x326A5A0", VA = "0x18326BFA0", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000C91")]
-	[Address(RVA = "0x503B230", Offset = "0x503B230", VA = "0x503B230")]
+	[Token(Token = "0x6000ED3")]
+	[Address(RVA = "0x3267AA0", Offset = "0x32660A0", VA = "0x183267AA0")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000C92")]
-	[Address(RVA = "0x503B240", Offset = "0x503B240", VA = "0x503B240")]
+	[Token(Token = "0x6000ED4")]
+	[Address(RVA = "0x326C160", Offset = "0x326A760", VA = "0x18326C160")]
 	public PointerEnterEvent()
 	{
 	}
 
-	[Token(Token = "0x6000C93")]
-	[Address(RVA = "0x503B280", Offset = "0x503B280", VA = "0x503B280", Slot = "10")]
+	[Token(Token = "0x6000ED5")]
+	[Address(RVA = "0x31ED1B0", Offset = "0x31EB7B0", VA = "0x1831ED1B0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
+	{
+	}
+
+	[Token(Token = "0x6000ED6")]
+	[Address(RVA = "0x326BFF0", Offset = "0x326A5F0", VA = "0x18326BFF0", Slot = "7")]
+	protected internal override void PreDispatch(IPanel panel)
 	{
 	}
 }

@@ -17,75 +17,75 @@ internal static class ValidateNames
 	private static XmlCharType xmlCharType;
 
 	[Token(Token = "0x6000AFB")]
-	[Address(RVA = "0x47F24D0", Offset = "0x47F24D0", VA = "0x47F24D0")]
+	[Address(RVA = "0x2747000", Offset = "0x2745600", VA = "0x182747000")]
 	internal static int ParseNmtoken(string s, int offset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000AFC")]
-	[Address(RVA = "0x47F2580", Offset = "0x47F2580", VA = "0x47F2580")]
+	[Address(RVA = "0x2746F30", Offset = "0x2745530", VA = "0x182746F30")]
 	internal static int ParseNmtokenNoNamespaces(string s, int offset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000AFD")]
-	[Address(RVA = "0x47F2660", Offset = "0x47F2660", VA = "0x47F2660")]
+	[Address(RVA = "0x2746DE0", Offset = "0x27453E0", VA = "0x182746DE0")]
 	internal static int ParseNameNoNamespaces(string s, int offset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000AFE")]
-	[Address(RVA = "0x47F27A0", Offset = "0x47F27A0", VA = "0x47F27A0")]
+	[Address(RVA = "0x2746C00", Offset = "0x2745200", VA = "0x182746C00")]
 	internal static bool IsNameNoNamespaces(string s)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AFF")]
-	[Address(RVA = "0x47F2810", Offset = "0x47F2810", VA = "0x47F2810")]
+	[Address(RVA = "0x2746CC0", Offset = "0x27452C0", VA = "0x182746CC0")]
 	internal static int ParseNCName(string s, int offset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B00")]
-	[Address(RVA = "0x47F2920", Offset = "0x47F2920", VA = "0x47F2920")]
+	[Address(RVA = "0x2746C70", Offset = "0x2745270", VA = "0x182746C70")]
 	internal static int ParseNCName(string s)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B01")]
-	[Address(RVA = "0x47F2990", Offset = "0x47F2990", VA = "0x47F2990")]
+	[Address(RVA = "0x2747250", Offset = "0x2745850", VA = "0x182747250")]
 	internal static int ParseQName(string s, int offset, out int colonOffset)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000B02")]
-	[Address(RVA = "0x47F2A60", Offset = "0x47F2A60", VA = "0x47F2A60")]
+	[Address(RVA = "0x27470C0", Offset = "0x27456C0", VA = "0x1827470C0")]
 	internal static void ParseQNameThrow(string s, out string prefix, out string localName)
 	{
 	}
 
 	[Token(Token = "0x6000B03")]
-	[Address(RVA = "0x47F2B70", Offset = "0x47F2B70", VA = "0x47F2B70")]
+	[Address(RVA = "0x2747460", Offset = "0x2745A60", VA = "0x182747460")]
 	internal static void ThrowInvalidName(string s, int offsetStartChar, int offsetBadChar)
 	{
 	}
 
 	[Token(Token = "0x6000B04")]
-	[Address(RVA = "0x47F3020", Offset = "0x47F3020", VA = "0x47F3020")]
+	[Address(RVA = "0x2746990", Offset = "0x2744F90", VA = "0x182746990")]
 	internal static Exception GetInvalidNameException(string s, int offsetStartChar, int offsetBadChar)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000B05")]
-	[Address(RVA = "0x47F32B0", Offset = "0x47F32B0", VA = "0x47F32B0")]
+	[Address(RVA = "0x2747310", Offset = "0x2745910", VA = "0x182747310")]
 	internal static void SplitQName(string name, out string prefix, out string lname)
 	{
 	}

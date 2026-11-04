@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A5")]
+[Token(Token = "0x200031C")]
 public enum VertexAttributeFormat
 {
-	[Token(Token = "0x40006F5")]
+	[Token(Token = "0x40007F0")]
 	Float32,
-	[Token(Token = "0x40006F6")]
+	[Token(Token = "0x40007F1")]
 	Float16,
-	[Token(Token = "0x40006F7")]
+	[Token(Token = "0x40007F2")]
 	UNorm8,
-	[Token(Token = "0x40006F8")]
+	[Token(Token = "0x40007F3")]
 	SNorm8,
-	[Token(Token = "0x40006F9")]
+	[Token(Token = "0x40007F4")]
 	UNorm16,
-	[Token(Token = "0x40006FA")]
+	[Token(Token = "0x40007F5")]
 	SNorm16,
-	[Token(Token = "0x40006FB")]
+	[Token(Token = "0x40007F6")]
 	UInt8,
-	[Token(Token = "0x40006FC")]
+	[Token(Token = "0x40007F7")]
 	SInt8,
-	[Token(Token = "0x40006FD")]
+	[Token(Token = "0x40007F8")]
 	UInt16,
-	[Token(Token = "0x40006FE")]
+	[Token(Token = "0x40007F9")]
 	SInt16,
-	[Token(Token = "0x40006FF")]
+	[Token(Token = "0x40007FA")]
 	UInt32,
-	[Token(Token = "0x4000700")]
+	[Token(Token = "0x40007FB")]
 	SInt32
 }

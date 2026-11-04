@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel.Design;
 
-[Token(Token = "0x2000326")]
+[Token(Token = "0x2000231")]
 public class DesigntimeLicenseContextSerializer
 {
-	[Token(Token = "0x6001511")]
-	[Address(RVA = "0x48E01C0", Offset = "0x48E01C0", VA = "0x48E01C0")]
+	[Token(Token = "0x6000F59")]
+	[Address(RVA = "0x28D36D0", Offset = "0x28D1CD0", VA = "0x1828D36D0")]
 	internal static void Deserialize(Stream o, string cryptoKey, RuntimeLicenseContext context)
 	{
 	}

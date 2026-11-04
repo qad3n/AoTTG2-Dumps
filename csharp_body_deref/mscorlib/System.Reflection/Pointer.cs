@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004EE")]
+[Token(Token = "0x200051E")]
 [CLSCompliant(false)]
 public sealed class Pointer : ISerializable
 {
@@ -22,21 +22,21 @@ public sealed class Pointer : ISerializable
 	[FieldOffset(Offset = "0x18")]
 	private readonly Type _ptrType;
 
-	[Token(Token = "0x600248F")]
-	[Address(RVA = "0x3BD44E0", Offset = "0x3BD44E0", VA = "0x3BD44E0")]
+	[Token(Token = "0x6002511")]
+	[Address(RVA = "0x1A4C110", Offset = "0x1A4A710", VA = "0x181A4C110")]
 	private unsafe Pointer(void* ptr, Type ptrType)
 	{
 	}
 
-	[Token(Token = "0x6002490")]
-	[Address(RVA = "0x3BD4520", Offset = "0x3BD4520", VA = "0x3BD4520")]
+	[Token(Token = "0x6002512")]
+	[Address(RVA = "0x1A4BF00", Offset = "0x1A4A500", VA = "0x181A4BF00")]
 	public unsafe static object Box(void* ptr, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002491")]
-	[Address(RVA = "0x3BD4690", Offset = "0x3BD4690", VA = "0x3BD4690", Slot = "4")]
+	[Token(Token = "0x6002513")]
+	[Address(RVA = "0x1A4C0D0", Offset = "0x1A4A6D0", VA = "0x181A4C0D0", Slot = "4")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

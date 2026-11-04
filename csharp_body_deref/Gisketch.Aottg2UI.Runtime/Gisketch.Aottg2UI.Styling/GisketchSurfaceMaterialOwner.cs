@@ -10,27 +10,27 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Styling;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x2000028")]
 public sealed class GisketchSurfaceMaterialOwner : MonoBehaviour
 {
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000D5")]
 	[FieldOffset(Offset = "0x20")]
 	private Material _material;
 
-	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x3A36E00", Offset = "0x3A36E00", VA = "0x3A36E00")]
+	[Token(Token = "0x600013A")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 	public void Setup(Material material)
 	{
 	}
 
-	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x3A36E10", Offset = "0x3A36E10", VA = "0x3A36E10")]
+	[Token(Token = "0x600013B")]
+	[Address(RVA = "0x188ADD0", Offset = "0x18893D0", VA = "0x18188ADD0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3A36ED0", Offset = "0x3A36ED0", VA = "0x3A36ED0")]
+	[Token(Token = "0x600013C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchSurfaceMaterialOwner()
 	{
 	}

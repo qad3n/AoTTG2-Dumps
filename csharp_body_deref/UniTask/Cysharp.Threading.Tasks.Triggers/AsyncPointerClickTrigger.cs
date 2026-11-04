@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000214")]
+[Token(Token = "0x2000217")]
 [DisallowMultipleComponent]
 public sealed class AsyncPointerClickTrigger : AsyncTriggerBase<PointerEventData>, IPointerClickHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C2A")]
-	[Address(RVA = "0x4A16EE0", Offset = "0x4A16EE0", VA = "0x4A16EE0", Slot = "5")]
+	[Token(Token = "0x6000C4E")]
+	[Address(RVA = "0x2935080", Offset = "0x2933680", VA = "0x182935080", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerClickHandler_002EOnPointerClick(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C2B")]
-	[Address(RVA = "0x4A16F30", Offset = "0x4A16F30", VA = "0x4A16F30")]
+	[Token(Token = "0x6000C4F")]
+	[Address(RVA = "0x2934DE0", Offset = "0x29333E0", VA = "0x182934DE0")]
 	public IAsyncOnPointerClickHandler GetOnPointerClickAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C2C")]
-	[Address(RVA = "0x4A16FA0", Offset = "0x4A16FA0", VA = "0x4A16FA0")]
+	[Token(Token = "0x6000C50")]
+	[Address(RVA = "0x2934D60", Offset = "0x2933360", VA = "0x182934D60")]
 	public IAsyncOnPointerClickHandler GetOnPointerClickAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C2D")]
-	[Address(RVA = "0x4A17010", Offset = "0x4A17010", VA = "0x4A17010")]
+	[Token(Token = "0x6000C51")]
+	[Address(RVA = "0x2934F60", Offset = "0x2933560", VA = "0x182934F60")]
 	public UniTask<PointerEventData> OnPointerClickAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C2E")]
-	[Address(RVA = "0x4A17110", Offset = "0x4A17110", VA = "0x4A17110")]
+	[Token(Token = "0x6000C52")]
+	[Address(RVA = "0x2934E50", Offset = "0x2933450", VA = "0x182934E50")]
 	public UniTask<PointerEventData> OnPointerClickAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C2F")]
-	[Address(RVA = "0x4A17220", Offset = "0x4A17220", VA = "0x4A17220")]
+	[Token(Token = "0x6000C53")]
+	[Address(RVA = "0x29350D0", Offset = "0x29336D0", VA = "0x1829350D0")]
 	public AsyncPointerClickTrigger()
 	{
 	}

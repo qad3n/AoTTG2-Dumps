@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Utility.Algorithms;
 
-[Token(Token = "0x2000750")]
+[Token(Token = "0x20008D9")]
 internal class LZFAlgorithm : CompressionAlgorithm
 {
-	[Token(Token = "0x6004766")]
-	[Address(RVA = "0x4399630", Offset = "0x4399630", VA = "0x4399630", Slot = "4")]
+	[Token(Token = "0x60053CE")]
+	[Address(RVA = "0x233A2D0", Offset = "0x23388D0", VA = "0x18233A2D0", Slot = "4")]
 	public override byte[] Compress(byte[] data, CompressionLevel level = CompressionLevel.Fastest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004767")]
-	[Address(RVA = "0x43996A0", Offset = "0x43996A0", VA = "0x43996A0", Slot = "5")]
+	[Token(Token = "0x60053CF")]
+	[Address(RVA = "0x233A420", Offset = "0x2338A20", VA = "0x18233A420", Slot = "5")]
 	public override byte[] Decompress(byte[] data, int bufferSize = 4096, long maxSize = 10485760L)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004768")]
-	[Address(RVA = "0x4399710", Offset = "0x4399710", VA = "0x4399710")]
+	[Token(Token = "0x60053D0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public LZFAlgorithm()
 	{
 	}

@@ -13,13 +13,13 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000D6")]
 public static class XHashSetPool
 {
-	[Token(Token = "0x6000512")]
+	[Token(Token = "0x600051C")]
 	public static HashSet<T> ToHashSetPooled<T>(this IEnumerable<T> source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000513")]
+	[Token(Token = "0x600051D")]
 	public static void Free<T>(this HashSet<T> hashSet)
 	{
 	}

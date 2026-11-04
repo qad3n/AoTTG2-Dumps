@@ -16,116 +16,116 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000194")]
+[Token(Token = "0x200029A")]
 internal sealed class AottgCharacterTextColorEditor : AottgComponent
 {
-	[Token(Token = "0x2000195")]
+	[Token(Token = "0x200029B")]
 	private readonly struct Options
 	{
-		[Token(Token = "0x40008CB")]
+		[Token(Token = "0x4000D6E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public readonly string PickerId;
 
-		[Token(Token = "0x40008CC")]
+		[Token(Token = "0x4000D6F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public readonly string ColorsEnabledKey;
 
-		[Token(Token = "0x40008CD")]
+		[Token(Token = "0x4000D70")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public readonly bool ColorsEnabled;
 
-		[Token(Token = "0x40008CE")]
+		[Token(Token = "0x4000D71")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public readonly Action<GameObject> Imported;
 
-		[Token(Token = "0x40008CF")]
+		[Token(Token = "0x4000D72")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public readonly string PreviewEffectType;
 
-		[Token(Token = "0x40008D0")]
+		[Token(Token = "0x4000D73")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public readonly IList<string> PreviewEffectColors;
 
-		[Token(Token = "0x40008D1")]
+		[Token(Token = "0x4000D74")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public readonly string PreviewFont;
 
-		[Token(Token = "0x6000958")]
-		[Address(RVA = "0x440EA30", Offset = "0x440EA30", VA = "0x440EA30")]
+		[Token(Token = "0x600100F")]
+		[Address(RVA = "0x1E0BC10", Offset = "0x1E0A210", VA = "0x181E0BC10")]
 		public Options(string pickerId, string colorsEnabledKey, bool colorsEnabled, Action<GameObject> imported, [Optional] string previewEffectType, [Optional] IList<string> previewEffectColors, [Optional] string previewFont)
 		{
 		}
 	}
 
-	[Token(Token = "0x40008BE")]
+	[Token(Token = "0x4000D61")]
 	private const int MaxRawCharacters = 279;
 
-	[Token(Token = "0x40008BF")]
+	[Token(Token = "0x4000D62")]
 	private const string NodeType = "AottgCharacterTextColorEditor";
 
-	[Token(Token = "0x40008C0")]
+	[Token(Token = "0x4000D63")]
 	private const string InputId = "profile-character-text-color-editor-input";
 
-	[Token(Token = "0x40008C1")]
+	[Token(Token = "0x4000D64")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<string, Options> EditorOptions;
 
-	[Token(Token = "0x40008C2")]
+	[Token(Token = "0x4000D65")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly string _value;
 
-	[Token(Token = "0x40008C3")]
+	[Token(Token = "0x4000D66")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly string _pickerId;
 
-	[Token(Token = "0x40008C4")]
+	[Token(Token = "0x4000D67")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly string _colorsEnabledKey;
 
-	[Token(Token = "0x40008C5")]
+	[Token(Token = "0x4000D68")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly bool _colorsEnabled;
 
-	[Token(Token = "0x40008C6")]
+	[Token(Token = "0x4000D69")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x29")]
 	private readonly bool _inputEnabled;
 
-	[Token(Token = "0x40008C7")]
+	[Token(Token = "0x4000D6A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private readonly Action<GameObject> _imported;
 
-	[Token(Token = "0x40008C8")]
+	[Token(Token = "0x4000D6B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private readonly string _previewEffectType;
 
-	[Token(Token = "0x40008C9")]
+	[Token(Token = "0x4000D6C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private readonly IList<string> _previewEffectColors;
 
-	[Token(Token = "0x40008CA")]
+	[Token(Token = "0x4000D6D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private readonly string _previewFont;
 
-	[Token(Token = "0x6000954")]
-	[Address(RVA = "0x440E350", Offset = "0x440E350", VA = "0x440E350")]
+	[Token(Token = "0x600100B")]
+	[Address(RVA = "0x1E04300", Offset = "0x1E02900", VA = "0x181E04300")]
 	static AottgCharacterTextColorEditor()
 	{
 	}
 
-	[Token(Token = "0x6000955")]
-	[Address(RVA = "0x4406870", Offset = "0x4406870", VA = "0x4406870")]
+	[Token(Token = "0x600100C")]
+	[Address(RVA = "0x1E04430", Offset = "0x1E02A30", VA = "0x181E04430")]
 	public AottgCharacterTextColorEditor(string value, string pickerId, string colorsEnabledKey, bool colorsEnabled, [Optional][DefaultParameterValue(true)] bool inputEnabled, [Optional] Action<GameObject> imported, [Optional] string previewEffectType, [Optional] IList<string> previewEffectColors, [Optional] string previewFont)
 	{
 	}
 
-	[Token(Token = "0x6000956")]
-	[Address(RVA = "0x440E480", Offset = "0x440E480", VA = "0x440E480", Slot = "4")]
+	[Token(Token = "0x600100D")]
+	[Address(RVA = "0x1E03CE0", Offset = "0x1E022E0", VA = "0x181E03CE0", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000957")]
-	[Address(RVA = "0x440EAD0", Offset = "0x440EAD0", VA = "0x440EAD0")]
+	[Token(Token = "0x600100E")]
+	[Address(RVA = "0x1E03910", Offset = "0x1E01F10", VA = "0x181E03910")]
 	private static bool BuildEditor(GameObject go, GisketchNodeDefinition node, GisketchBuildContext context, GisketchView view)
 	{
 		return default(bool);

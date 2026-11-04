@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x200001E")]
+[Token(Token = "0x2000029")]
 public enum ProfilerMarkerDataUnit : byte
 {
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400004B")]
 	Undefined,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400004C")]
 	TimeNanoseconds,
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x400004D")]
 	Bytes,
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x400004E")]
 	Count,
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400004F")]
 	Percent,
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x4000050")]
 	FrequencyHz
 }

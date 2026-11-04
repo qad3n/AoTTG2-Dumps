@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200008D")]
+[Token(Token = "0x20000AA")]
 internal class InGameInternalSettings : BaseSettingsContainer
 {
-	[Token(Token = "0x4000318")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000385")]
+	[FieldOffset(Offset = "0x30")]
 	public StringSetting ScoreboardFormat;
 
-	[Token(Token = "0x600032B")]
-	[Address(RVA = "0x3F8AE70", Offset = "0x3F8AE70", VA = "0x3F8AE70")]
+	[Token(Token = "0x60003AD")]
+	[Address(RVA = "0x1F19ED0", Offset = "0x1F184D0", VA = "0x181F19ED0")]
 	public InGameInternalSettings()
 	{
 	}

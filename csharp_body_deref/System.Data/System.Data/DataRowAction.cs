@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x200003D")]
 [Flags]
 public enum DataRowAction
 {
-	[Token(Token = "0x4000097")]
+	[Token(Token = "0x4000149")]
 	Nothing = 0,
-	[Token(Token = "0x4000098")]
+	[Token(Token = "0x400014A")]
 	Delete = 1,
-	[Token(Token = "0x4000099")]
+	[Token(Token = "0x400014B")]
 	Change = 2,
-	[Token(Token = "0x400009A")]
+	[Token(Token = "0x400014C")]
 	Rollback = 4,
-	[Token(Token = "0x400009B")]
+	[Token(Token = "0x400014D")]
 	Commit = 8,
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x400014E")]
 	Add = 0x10,
-	[Token(Token = "0x400009D")]
+	[Token(Token = "0x400014F")]
 	ChangeOriginal = 0x20,
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x4000150")]
 	ChangeCurrentAndOriginal = 0x40
 }

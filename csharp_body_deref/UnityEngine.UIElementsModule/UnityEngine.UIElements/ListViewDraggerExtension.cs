@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000157")]
+[Token(Token = "0x200019C")]
 internal static class ListViewDraggerExtension
 {
-	[Token(Token = "0x6000989")]
-	[Address(RVA = "0x501B360", Offset = "0x501B360", VA = "0x501B360")]
+	[Token(Token = "0x6000B85")]
+	[Address(RVA = "0x3243DA0", Offset = "0x32423A0", VA = "0x183243DA0")]
 	public static ReusableCollectionItem GetRecycledItemFromId(this BaseVerticalCollectionView listView, int id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600098A")]
-	[Address(RVA = "0x5021150", Offset = "0x5021150", VA = "0x5021150")]
+	[Token(Token = "0x6000B86")]
+	[Address(RVA = "0x3243F40", Offset = "0x3242540", VA = "0x183243F40")]
 	public static ReusableCollectionItem GetRecycledItemFromIndex(this BaseVerticalCollectionView listView, int index)
 	{
 		return null;

@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000070")]
+[Token(Token = "0x2000072")]
 internal class EmoteSettings : SaveableSettingsContainer
 {
-	[Token(Token = "0x400023D")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x4000252")]
+	[FieldOffset(Offset = "0x38")]
 	public ListSetting<StringSetting> TextEmotes;
 
-	[Token(Token = "0x400023E")]
-	[FieldOffset(Offset = "0x28")]
+	[Token(Token = "0x4000253")]
+	[FieldOffset(Offset = "0x40")]
 	public ListSetting<StringSetting> EmojiEmotes;
 
-	[Token(Token = "0x17000088")]
+	[Token(Token = "0x1700008A")]
 	protected override string FileName
 	{
-		[Token(Token = "0x6000318")]
-		[Address(RVA = "0x3F86810", Offset = "0x3F86810", VA = "0x3F86810", Slot = "14")]
+		[Token(Token = "0x6000329")]
+		[Address(RVA = "0x1DBB020", Offset = "0x1DB9620", VA = "0x181DBB020", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000319")]
-	[Address(RVA = "0x3F86840", Offset = "0x3F86840", VA = "0x3F86840", Slot = "12")]
+	[Token(Token = "0x600032A")]
+	[Address(RVA = "0x1DBA530", Offset = "0x1DB8B30", VA = "0x181DBA530", Slot = "13")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600031A")]
-	[Address(RVA = "0x3F868B0", Offset = "0x3F868B0", VA = "0x3F868B0")]
+	[Token(Token = "0x600032B")]
+	[Address(RVA = "0x1DBA5B0", Offset = "0x1DB8BB0", VA = "0x181DBA5B0")]
 	public EmoteSettings()
 	{
 	}

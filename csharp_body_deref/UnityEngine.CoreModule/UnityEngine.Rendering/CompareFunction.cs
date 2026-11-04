@@ -10,26 +10,26 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002AA")]
+[Token(Token = "0x2000324")]
 [UnityEngine.Bindings.NativeHeader("Runtime/GfxDevice/GfxDeviceTypes.h")]
 public enum CompareFunction
 {
-	[Token(Token = "0x400071E")]
+	[Token(Token = "0x400084E")]
 	Disabled,
-	[Token(Token = "0x400071F")]
+	[Token(Token = "0x400084F")]
 	Never,
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x4000850")]
 	Less,
-	[Token(Token = "0x4000721")]
+	[Token(Token = "0x4000851")]
 	Equal,
-	[Token(Token = "0x4000722")]
+	[Token(Token = "0x4000852")]
 	LessEqual,
-	[Token(Token = "0x4000723")]
+	[Token(Token = "0x4000853")]
 	Greater,
-	[Token(Token = "0x4000724")]
+	[Token(Token = "0x4000854")]
 	NotEqual,
-	[Token(Token = "0x4000725")]
+	[Token(Token = "0x4000855")]
 	GreaterEqual,
-	[Token(Token = "0x4000726")]
+	[Token(Token = "0x4000856")]
 	Always
 }

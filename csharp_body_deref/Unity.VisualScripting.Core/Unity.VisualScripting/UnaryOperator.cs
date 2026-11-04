@@ -12,14 +12,14 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000136")]
 public enum UnaryOperator
 {
-	[Token(Token = "0x400080B")]
+	[Token(Token = "0x4000809")]
 	LogicalNegation,
-	[Token(Token = "0x400080C")]
+	[Token(Token = "0x400080A")]
 	NumericNegation,
-	[Token(Token = "0x400080D")]
+	[Token(Token = "0x400080B")]
 	Increment,
-	[Token(Token = "0x400080E")]
+	[Token(Token = "0x400080C")]
 	Decrement,
-	[Token(Token = "0x400080F")]
+	[Token(Token = "0x400080D")]
 	Plus
 }

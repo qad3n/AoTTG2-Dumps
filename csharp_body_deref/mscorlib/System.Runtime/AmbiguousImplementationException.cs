@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Runtime;
 
 [Serializable]
-[Token(Token = "0x2000337")]
+[Token(Token = "0x2000366")]
 public sealed class AmbiguousImplementationException : Exception
 {
-	[Token(Token = "0x6001C06")]
-	[Address(RVA = "0x3B5F2A0", Offset = "0x3B5F2A0", VA = "0x3B5F2A0")]
+	[Token(Token = "0x6001C74")]
+	[Address(RVA = "0x19D2630", Offset = "0x19D0C30", VA = "0x1819D2630")]
 	public AmbiguousImplementationException()
 	{
 	}
 
-	[Token(Token = "0x6001C07")]
-	[Address(RVA = "0x3B5F310", Offset = "0x3B5F310", VA = "0x3B5F310")]
+	[Token(Token = "0x6001C75")]
+	[Address(RVA = "0x19D2720", Offset = "0x19D0D20", VA = "0x1819D2720")]
 	public AmbiguousImplementationException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001C08")]
-	[Address(RVA = "0x3B5F370", Offset = "0x3B5F370", VA = "0x3B5F370")]
+	[Token(Token = "0x6001C76")]
+	[Address(RVA = "0x19D26A0", Offset = "0x19D0CA0", VA = "0x1819D26A0")]
 	private AmbiguousImplementationException(SerializationInfo info, StreamingContext context)
 	{
 	}

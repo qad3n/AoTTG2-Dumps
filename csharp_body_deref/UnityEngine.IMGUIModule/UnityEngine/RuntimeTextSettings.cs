@@ -10,26 +10,26 @@ using UnityEngine.TextCore.Text;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000026")]
+[Token(Token = "0x200002A")]
 internal class RuntimeTextSettings : TextSettings
 {
-	[Token(Token = "0x40000FD")]
+	[Token(Token = "0x4000103")]
 	[FieldOffset(Offset = "0x0")]
 	private static RuntimeTextSettings s_DefaultTextSettings;
 
-	[Token(Token = "0x1700008C")]
+	[Token(Token = "0x17000090")]
 	internal static RuntimeTextSettings defaultTextSettings
 	{
-		[Token(Token = "0x6000240")]
-		[Address(RVA = "0x4E618C0", Offset = "0x4E618C0", VA = "0x4E618C0")]
+		[Token(Token = "0x6000295")]
+		[Address(RVA = "0x2FA9ED0", Offset = "0x2FA84D0", VA = "0x182FA9ED0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000241")]
-	[Address(RVA = "0x4E61980", Offset = "0x4E61980", VA = "0x4E61980")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x2FA9EC0", Offset = "0x2FA84C0", VA = "0x182FA9EC0")]
 	public RuntimeTextSettings()
 	{
 	}

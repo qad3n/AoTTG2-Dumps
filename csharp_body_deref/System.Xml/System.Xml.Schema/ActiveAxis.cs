@@ -33,7 +33,7 @@ internal class ActiveAxis
 	public int CurrentDepth
 	{
 		[Token(Token = "0x6000F31")]
-		[Address(RVA = "0x483E680", Offset = "0x483E680", VA = "0x483E680")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
@@ -41,33 +41,33 @@ internal class ActiveAxis
 	}
 
 	[Token(Token = "0x6000F32")]
-	[Address(RVA = "0x483E690", Offset = "0x483E690", VA = "0x483E690")]
+	[Address(RVA = "0x2774F10", Offset = "0x2773510", VA = "0x182774F10")]
 	internal void Reactivate()
 	{
 	}
 
 	[Token(Token = "0x6000F33")]
-	[Address(RVA = "0x483E6A0", Offset = "0x483E6A0", VA = "0x483E6A0")]
+	[Address(RVA = "0x2774F20", Offset = "0x2773520", VA = "0x182774F20")]
 	internal ActiveAxis(Asttree axisTree)
 	{
 	}
 
 	[Token(Token = "0x6000F34")]
-	[Address(RVA = "0x483E860", Offset = "0x483E860", VA = "0x483E860")]
+	[Address(RVA = "0x2774D90", Offset = "0x2773390", VA = "0x182774D90")]
 	public bool MoveToStartElement(string localname, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F35")]
-	[Address(RVA = "0x483E9D0", Offset = "0x483E9D0", VA = "0x483E9D0", Slot = "4")]
+	[Address(RVA = "0x2774AE0", Offset = "0x27730E0", VA = "0x182774AE0", Slot = "4")]
 	public virtual bool EndElement(string localname, string URN)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000F36")]
-	[Address(RVA = "0x483EAE0", Offset = "0x483EAE0", VA = "0x483EAE0")]
+	[Address(RVA = "0x2774C20", Offset = "0x2773220", VA = "0x182774C20")]
 	public bool MoveToAttribute(string localname, string URN)
 	{
 		return default(bool);

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000107")]
+[Token(Token = "0x20000DD")]
 public static class ShaderDebugPrintInputProducer
 {
-	[Token(Token = "0x600087F")]
-	[Address(RVA = "0x4BB00C0", Offset = "0x4BB00C0", VA = "0x4BB00C0")]
+	[Token(Token = "0x60007E1")]
+	[Address(RVA = "0x2B19430", Offset = "0x2B17A30", VA = "0x182B19430")]
 	public static ShaderDebugPrintInput Get()
 	{
 		return default(ShaderDebugPrintInput);

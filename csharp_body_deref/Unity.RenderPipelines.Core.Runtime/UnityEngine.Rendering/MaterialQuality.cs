@@ -11,15 +11,15 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001C7")]
+[Token(Token = "0x20001E3")]
 [Flags]
 [MovedFrom("Utilities")]
 public enum MaterialQuality
 {
-	[Token(Token = "0x40007D7")]
+	[Token(Token = "0x400094E")]
 	Low = 1,
-	[Token(Token = "0x40007D8")]
+	[Token(Token = "0x400094F")]
 	Medium = 2,
-	[Token(Token = "0x40007D9")]
+	[Token(Token = "0x4000950")]
 	High = 4
 }

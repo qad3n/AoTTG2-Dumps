@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000175")]
+[Token(Token = "0x2000178")]
 public interface IAsyncSubmitEventHandler<T> : IDisposable
 {
-	[Token(Token = "0x60008E2")]
+	[Token(Token = "0x6000906")]
 	UniTask<T> OnSubmitAsync();
 }

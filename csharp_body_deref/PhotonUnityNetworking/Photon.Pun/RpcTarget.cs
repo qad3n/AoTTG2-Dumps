@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000005")]
 public enum RpcTarget
 {
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x400000C")]
 	All,
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x400000D")]
 	Others,
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x400000E")]
 	MasterClient,
-	[Token(Token = "0x4000014")]
+	[Token(Token = "0x400000F")]
 	AllBuffered,
-	[Token(Token = "0x4000015")]
+	[Token(Token = "0x4000010")]
 	OthersBuffered,
-	[Token(Token = "0x4000016")]
+	[Token(Token = "0x4000011")]
 	AllViaServer,
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000012")]
 	AllBufferedViaServer
 }

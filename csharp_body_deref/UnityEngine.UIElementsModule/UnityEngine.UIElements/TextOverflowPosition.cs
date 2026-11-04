@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A0")]
+[Token(Token = "0x2000442")]
 public enum TextOverflowPosition
 {
-	[Token(Token = "0x4000ADC")]
+	[Token(Token = "0x4000E2A")]
 	End,
-	[Token(Token = "0x4000ADD")]
+	[Token(Token = "0x4000E2B")]
 	Start,
-	[Token(Token = "0x4000ADE")]
+	[Token(Token = "0x4000E2C")]
 	Middle
 }

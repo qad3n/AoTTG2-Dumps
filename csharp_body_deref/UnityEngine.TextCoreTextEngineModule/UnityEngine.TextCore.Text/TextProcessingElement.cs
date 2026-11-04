@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x2000053")]
 [DebuggerDisplay("Unicode ({unicode})  '{(char)unicode}'")]
 internal struct TextProcessingElement
 {
-	[Token(Token = "0x400020F")]
+	[Token(Token = "0x4000340")]
 	[FieldOffset(Offset = "0x0")]
 	public TextProcessingElementType elementType;
 
-	[Token(Token = "0x4000210")]
+	[Token(Token = "0x4000341")]
 	[FieldOffset(Offset = "0x4")]
 	public uint unicode;
 
-	[Token(Token = "0x4000211")]
+	[Token(Token = "0x4000342")]
 	[FieldOffset(Offset = "0x8")]
 	public int stringIndex;
 
-	[Token(Token = "0x4000212")]
+	[Token(Token = "0x4000343")]
 	[FieldOffset(Offset = "0xC")]
 	public int length;
 }

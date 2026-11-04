@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A2")]
+[Token(Token = "0x2000444")]
 public enum TransformOriginOffset
 {
-	[Token(Token = "0x4000AE3")]
+	[Token(Token = "0x4000E31")]
 	Left = 1,
-	[Token(Token = "0x4000AE4")]
+	[Token(Token = "0x4000E32")]
 	Right,
-	[Token(Token = "0x4000AE5")]
+	[Token(Token = "0x4000E33")]
 	Top,
-	[Token(Token = "0x4000AE6")]
+	[Token(Token = "0x4000E34")]
 	Bottom,
-	[Token(Token = "0x4000AE7")]
+	[Token(Token = "0x4000E35")]
 	Center
 }

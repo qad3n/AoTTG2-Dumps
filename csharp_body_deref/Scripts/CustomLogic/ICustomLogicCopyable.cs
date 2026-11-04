@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200049B")]
+[Token(Token = "0x20005F4")]
 internal interface ICustomLogicCopyable
 {
-	[Token(Token = "0x60030DB")]
+	[Token(Token = "0x6003A63")]
 	object __Copy__();
 }

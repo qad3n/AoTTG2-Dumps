@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000041")]
+[Token(Token = "0x200003F")]
 public interface ObjectFactory<TType, TInfo> : IDisposable
 {
 	[Token(Token = "0x1700005D")]
 	TInfo Info
 	{
-		[Token(Token = "0x6000157")]
+		[Token(Token = "0x6000155")]
 		get;
 	}
 
-	[Token(Token = "0x6000158")]
+	[Token(Token = "0x6000156")]
 	TType New();
 
-	[Token(Token = "0x6000159")]
+	[Token(Token = "0x6000157")]
 	TType New(TInfo info);
 
-	[Token(Token = "0x600015A")]
+	[Token(Token = "0x6000158")]
 	void Free(TType obj);
 
-	[Token(Token = "0x600015B")]
+	[Token(Token = "0x6000159")]
 	void Free(TType obj, TInfo info);
 }

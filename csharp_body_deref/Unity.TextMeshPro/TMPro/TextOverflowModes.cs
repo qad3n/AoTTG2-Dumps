@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200008E")]
+[Token(Token = "0x2000083")]
 public enum TextOverflowModes
 {
-	[Token(Token = "0x400049B")]
+	[Token(Token = "0x4000406")]
 	Overflow,
-	[Token(Token = "0x400049C")]
+	[Token(Token = "0x4000407")]
 	Ellipsis,
-	[Token(Token = "0x400049D")]
+	[Token(Token = "0x4000408")]
 	Masking,
-	[Token(Token = "0x400049E")]
+	[Token(Token = "0x4000409")]
 	Truncate,
-	[Token(Token = "0x400049F")]
+	[Token(Token = "0x400040A")]
 	ScrollRect,
-	[Token(Token = "0x40004A0")]
+	[Token(Token = "0x400040B")]
 	Page,
-	[Token(Token = "0x40004A1")]
+	[Token(Token = "0x400040C")]
 	Linked
 }

@@ -28,8 +28,8 @@ public class X509Extension
 	[Token(Token = "0x1700003E")]
 	public string Oid
 	{
-		[Token(Token = "0x60000BD")]
-		[Address(RVA = "0x3AB5010", Offset = "0x3AB5010", VA = "0x3AB5010")]
+		[Token(Token = "0x60000C9")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -39,8 +39,8 @@ public class X509Extension
 	[Token(Token = "0x1700003F")]
 	public bool Critical
 	{
-		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x3AB5020", Offset = "0x3AB5020", VA = "0x3AB5020")]
+		[Token(Token = "0x60000CA")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
 		get
 		{
 			return default(bool);
@@ -50,60 +50,60 @@ public class X509Extension
 	[Token(Token = "0x17000040")]
 	public ASN1 Value
 	{
-		[Token(Token = "0x60000BF")]
-		[Address(RVA = "0x3AB4FC0", Offset = "0x3AB4FC0", VA = "0x3AB4FC0")]
+		[Token(Token = "0x60000CB")]
+		[Address(RVA = "0x1929A70", Offset = "0x1928070", VA = "0x181929A70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x3AB49B0", Offset = "0x3AB49B0", VA = "0x3AB49B0")]
+	[Token(Token = "0x60000C5")]
+	[Address(RVA = "0x19295D0", Offset = "0x1927BD0", VA = "0x1819295D0")]
 	public X509Extension(ASN1 asn1)
 	{
 	}
 
-	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x3AB4E70", Offset = "0x3AB4E70", VA = "0x3AB4E70")]
+	[Token(Token = "0x60000C6")]
+	[Address(RVA = "0x19298F0", Offset = "0x1927EF0", VA = "0x1819298F0")]
 	public X509Extension(X509Extension extension)
 	{
 	}
 
-	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x3AB4FF0", Offset = "0x3AB4FF0", VA = "0x3AB4FF0", Slot = "4")]
+	[Token(Token = "0x60000C7")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	protected virtual void Decode()
 	{
 	}
 
-	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x3AB5000", Offset = "0x3AB5000", VA = "0x3AB5000", Slot = "5")]
+	[Token(Token = "0x60000C8")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	protected virtual void Encode()
 	{
 	}
 
-	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x3AB5030", Offset = "0x3AB5030", VA = "0x3AB5030", Slot = "0")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x1929160", Offset = "0x1927760", VA = "0x181929160", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x3AB5180", Offset = "0x3AB5180", VA = "0x3AB5180", Slot = "2")]
+	[Token(Token = "0x60000CD")]
+	[Address(RVA = "0xC8D900", Offset = "0xC8BF00", VA = "0x180C8D900", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x3AB51B0", Offset = "0x3AB51B0", VA = "0x3AB51B0")]
+	[Token(Token = "0x60000CE")]
+	[Address(RVA = "0x19293D0", Offset = "0x19279D0", VA = "0x1819293D0")]
 	private void WriteLine(StringBuilder sb, int n, int pos)
 	{
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x3AB5850", Offset = "0x3AB5850", VA = "0x3AB5850", Slot = "3")]
+	[Token(Token = "0x60000CF")]
+	[Address(RVA = "0x19292C0", Offset = "0x19278C0", VA = "0x1819292C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -11,172 +11,172 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000010")]
 public class MaterialReferenceManager
 {
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x0")]
 	private static MaterialReferenceManager s_Instance;
 
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x400001F")]
 	[FieldOffset(Offset = "0x10")]
 	private Dictionary<int, Material> m_FontMaterialReferenceLookup;
 
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x4000020")]
 	[FieldOffset(Offset = "0x18")]
 	private Dictionary<int, TMP_FontAsset> m_FontAssetReferenceLookup;
 
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x4000021")]
 	[FieldOffset(Offset = "0x20")]
 	private Dictionary<int, TMP_SpriteAsset> m_SpriteAssetReferenceLookup;
 
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x4000022")]
 	[FieldOffset(Offset = "0x28")]
 	private Dictionary<int, TMP_ColorGradient> m_ColorGradientReferenceLookup;
 
-	[Token(Token = "0x17000001")]
+	[Token(Token = "0x17000011")]
 	public static MaterialReferenceManager instance
 	{
-		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x4C30380", Offset = "0x4C30380", VA = "0x4C30380")]
+		[Token(Token = "0x6000035")]
+		[Address(RVA = "0x2CDEFE0", Offset = "0x2CDD5E0", VA = "0x182CDEFE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000015")]
-	[Address(RVA = "0x4C30570", Offset = "0x4C30570", VA = "0x4C30570")]
+	[Token(Token = "0x6000036")]
+	[Address(RVA = "0x2CDE3C0", Offset = "0x2CDC9C0", VA = "0x182CDE3C0")]
 	public static void AddFontAsset(TMP_FontAsset fontAsset)
 	{
 	}
 
-	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x4C30600", Offset = "0x4C30600", VA = "0x4C30600")]
+	[Token(Token = "0x6000037")]
+	[Address(RVA = "0x2CDE1E0", Offset = "0x2CDC7E0", VA = "0x182CDE1E0")]
 	private void AddFontAssetInternal(TMP_FontAsset fontAsset)
 	{
 	}
 
-	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x4C306C0", Offset = "0x4C306C0", VA = "0x4C306C0")]
+	[Token(Token = "0x6000038")]
+	[Address(RVA = "0x2CDE6E0", Offset = "0x2CDCCE0", VA = "0x182CDE6E0")]
 	public static void AddSpriteAsset(TMP_SpriteAsset spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x4C30750", Offset = "0x4C30750", VA = "0x4C30750")]
+	[Token(Token = "0x6000039")]
+	[Address(RVA = "0x2CDE4D0", Offset = "0x2CDCAD0", VA = "0x182CDE4D0")]
 	private void AddSpriteAssetInternal(TMP_SpriteAsset spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x6000019")]
-	[Address(RVA = "0x4C30810", Offset = "0x4C30810", VA = "0x4C30810")]
+	[Token(Token = "0x600003A")]
+	[Address(RVA = "0x2CDE830", Offset = "0x2CDCE30", VA = "0x182CDE830")]
 	public static void AddSpriteAsset(int hashCode, TMP_SpriteAsset spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x600001A")]
-	[Address(RVA = "0x4C308C0", Offset = "0x4C308C0", VA = "0x4C308C0")]
+	[Token(Token = "0x600003B")]
+	[Address(RVA = "0x2CDE610", Offset = "0x2CDCC10", VA = "0x182CDE610")]
 	private void AddSpriteAssetInternal(int hashCode, TMP_SpriteAsset spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4C30980", Offset = "0x4C30980", VA = "0x4C30980")]
+	[Token(Token = "0x600003C")]
+	[Address(RVA = "0x2CDE460", Offset = "0x2CDCA60", VA = "0x182CDE460")]
 	public static void AddFontMaterial(int hashCode, Material material)
 	{
 	}
 
-	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4C30A50", Offset = "0x4C30A50", VA = "0x4C30A50")]
+	[Token(Token = "0x600003D")]
+	[Address(RVA = "0x2CDE3F0", Offset = "0x2CDC9F0", VA = "0x182CDE3F0")]
 	private void AddFontMaterialInternal(int hashCode, Material material)
 	{
 	}
 
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4C30AA0", Offset = "0x4C30AA0", VA = "0x4C30AA0")]
+	[Token(Token = "0x600003E")]
+	[Address(RVA = "0x2CDE140", Offset = "0x2CDC740", VA = "0x182CDE140")]
 	public static void AddColorGradientPreset(int hashCode, TMP_ColorGradient spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4C30BB0", Offset = "0x4C30BB0", VA = "0x4C30BB0")]
+	[Token(Token = "0x600003F")]
+	[Address(RVA = "0x2CDE0B0", Offset = "0x2CDC6B0", VA = "0x182CDE0B0")]
 	private void AddColorGradientPreset_Internal(int hashCode, TMP_ColorGradient spriteAsset)
 	{
 	}
 
-	[Token(Token = "0x600001F")]
-	[Address(RVA = "0x4C30C30", Offset = "0x4C30C30", VA = "0x4C30C30")]
+	[Token(Token = "0x6000040")]
+	[Address(RVA = "0x2CDE910", Offset = "0x2CDCF10", VA = "0x182CDE910")]
 	public bool Contains(TMP_FontAsset font)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4C30C90", Offset = "0x4C30C90", VA = "0x4C30C90")]
+	[Token(Token = "0x6000041")]
+	[Address(RVA = "0x2CDE9D0", Offset = "0x2CDCFD0", VA = "0x182CDE9D0")]
 	public bool Contains(TMP_SpriteAsset sprite)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4C30CF0", Offset = "0x4C30CF0", VA = "0x4C30CF0")]
+	[Token(Token = "0x6000042")]
+	[Address(RVA = "0x2CDEC10", Offset = "0x2CDD210", VA = "0x182CDEC10")]
 	public static bool TryGetFontAsset(int hashCode, out TMP_FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4C30DD0", Offset = "0x4C30DD0", VA = "0x4C30DD0")]
+	[Token(Token = "0x6000043")]
+	[Address(RVA = "0x2CDEB90", Offset = "0x2CDD190", VA = "0x182CDEB90")]
 	private bool TryGetFontAssetInternal(int hashCode, out TMP_FontAsset fontAsset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4C30E40", Offset = "0x4C30E40", VA = "0x4C30E40")]
+	[Token(Token = "0x6000044")]
+	[Address(RVA = "0x2CDEE10", Offset = "0x2CDD410", VA = "0x182CDEE10")]
 	public static bool TryGetSpriteAsset(int hashCode, out TMP_SpriteAsset spriteAsset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4C30F20", Offset = "0x4C30F20", VA = "0x4C30F20")]
+	[Token(Token = "0x6000045")]
+	[Address(RVA = "0x2CDED90", Offset = "0x2CDD390", VA = "0x182CDED90")]
 	private bool TryGetSpriteAssetInternal(int hashCode, out TMP_SpriteAsset spriteAsset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x4C30F90", Offset = "0x4C30F90", VA = "0x4C30F90")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x2CDEB10", Offset = "0x2CDD110", VA = "0x182CDEB10")]
 	public static bool TryGetColorGradientPreset(int hashCode, out TMP_ColorGradient gradientPreset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x4C31070", Offset = "0x4C31070", VA = "0x4C31070")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x2CDEA90", Offset = "0x2CDD090", VA = "0x182CDEA90")]
 	private bool TryGetColorGradientPresetInternal(int hashCode, out TMP_ColorGradient gradientPreset)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4C310E0", Offset = "0x4C310E0", VA = "0x4C310E0")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x2CDED10", Offset = "0x2CDD310", VA = "0x182CDED10")]
 	public static bool TryGetMaterial(int hashCode, out Material material)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4C311C0", Offset = "0x4C311C0", VA = "0x4C311C0")]
+	[Token(Token = "0x6000049")]
+	[Address(RVA = "0x2CDEC90", Offset = "0x2CDD290", VA = "0x182CDEC90")]
 	private bool TryGetMaterialInternal(int hashCode, out Material material)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4C30410", Offset = "0x4C30410", VA = "0x4C30410")]
+	[Token(Token = "0x600004A")]
+	[Address(RVA = "0x2CDEE90", Offset = "0x2CDD490", VA = "0x182CDEE90")]
 	public MaterialReferenceManager()
 	{
 	}

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x2000058")]
+[Token(Token = "0x200006C")]
 public sealed class GisketchMotionToken
 {
-	[Token(Token = "0x40001F9")]
+	[Token(Token = "0x4000267")]
 	[FieldOffset(Offset = "0x10")]
 	public string name;
 
-	[Token(Token = "0x40001FA")]
+	[Token(Token = "0x4000268")]
 	[FieldOffset(Offset = "0x18")]
 	public string preset;
 
-	[Token(Token = "0x40001FB")]
+	[Token(Token = "0x4000269")]
 	[FieldOffset(Offset = "0x20")]
 	public float duration;
 
-	[Token(Token = "0x6000264")]
-	[Address(RVA = "0x3A5B3F0", Offset = "0x3A5B3F0", VA = "0x3A5B3F0")]
+	[Token(Token = "0x6000330")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public GisketchMotionToken()
 	{
 	}

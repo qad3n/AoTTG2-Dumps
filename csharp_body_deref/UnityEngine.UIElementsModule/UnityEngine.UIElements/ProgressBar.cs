@@ -5,27 +5,29 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000F5")]
+[Token(Token = "0x2000130")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public class ProgressBar : AbstractProgressBar
 {
-	[Token(Token = "0x20000F6")]
+	[Token(Token = "0x2000131")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<ProgressBar, UxmlTraits>
 	{
-		[Token(Token = "0x600069D")]
-		[Address(RVA = "0x4FF2420", Offset = "0x4FF2420", VA = "0x4FF2420")]
+		[Token(Token = "0x60008CA")]
+		[Address(RVA = "0x3224DE0", Offset = "0x32233E0", VA = "0x183224DE0")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x600069C")]
-	[Address(RVA = "0x4FF23C0", Offset = "0x4FF23C0", VA = "0x4FF23C0")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x3220C20", Offset = "0x321F220", VA = "0x183220C20")]
 	public ProgressBar()
 	{
 	}

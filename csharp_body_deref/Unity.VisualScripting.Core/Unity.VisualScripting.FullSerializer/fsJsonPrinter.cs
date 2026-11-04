@@ -10,62 +10,62 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x200020A")]
+[Token(Token = "0x2000211")]
 public static class fsJsonPrinter
 {
-	[Token(Token = "0x6001264")]
-	[Address(RVA = "0x4D7F2C0", Offset = "0x4D7F2C0", VA = "0x4D7F2C0")]
+	[Token(Token = "0x600129C")]
+	[Address(RVA = "0x2E69310", Offset = "0x2E67910", VA = "0x182E69310")]
 	private static void InsertSpacing(TextWriter stream, int count)
 	{
 	}
 
-	[Token(Token = "0x6001265")]
-	[Address(RVA = "0x4D7F330", Offset = "0x4D7F330", VA = "0x4D7F330")]
+	[Token(Token = "0x600129D")]
+	[Address(RVA = "0x2E68F00", Offset = "0x2E67500", VA = "0x182E68F00")]
 	private static string EscapeString(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001266")]
-	[Address(RVA = "0x4D7F690", Offset = "0x4D7F690", VA = "0x4D7F690")]
+	[Token(Token = "0x600129E")]
+	[Address(RVA = "0x2E67FA0", Offset = "0x2E665A0", VA = "0x182E67FA0")]
 	private static void BuildCompressedString(fsData data, TextWriter stream)
 	{
 	}
 
-	[Token(Token = "0x6001267")]
-	[Address(RVA = "0x4D7FE60", Offset = "0x4D7FE60", VA = "0x4D7FE60")]
+	[Token(Token = "0x600129F")]
+	[Address(RVA = "0x2E684E0", Offset = "0x2E66AE0", VA = "0x182E684E0")]
 	private static void BuildPrettyString(fsData data, TextWriter stream, int depth)
 	{
 	}
 
-	[Token(Token = "0x6001268")]
-	[Address(RVA = "0x4D80A50", Offset = "0x4D80A50", VA = "0x4D80A50")]
+	[Token(Token = "0x60012A0")]
+	[Address(RVA = "0x2E69390", Offset = "0x2E67990", VA = "0x182E69390")]
 	public static void PrettyJson(fsData data, TextWriter outputStream)
 	{
 	}
 
-	[Token(Token = "0x6001269")]
-	[Address(RVA = "0x4D80A60", Offset = "0x4D80A60", VA = "0x4D80A60")]
+	[Token(Token = "0x60012A1")]
+	[Address(RVA = "0x2E693A0", Offset = "0x2E679A0", VA = "0x182E693A0")]
 	public static string PrettyJson(fsData data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600126A")]
-	[Address(RVA = "0x4D80C60", Offset = "0x4D80C60", VA = "0x4D80C60")]
+	[Token(Token = "0x60012A2")]
+	[Address(RVA = "0x2E68C40", Offset = "0x2E67240", VA = "0x182E68C40")]
 	public static void CompressedJson(fsData data, StreamWriter outputStream)
 	{
 	}
 
-	[Token(Token = "0x600126B")]
-	[Address(RVA = "0x4D7AF70", Offset = "0x4D7AF70", VA = "0x4D7AF70")]
+	[Token(Token = "0x60012A3")]
+	[Address(RVA = "0x2E68C50", Offset = "0x2E67250", VA = "0x182E68C50")]
 	public static string CompressedJson(fsData data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600126C")]
-	[Address(RVA = "0x4D7FD20", Offset = "0x4D7FD20", VA = "0x4D7FD20")]
+	[Token(Token = "0x60012A4")]
+	[Address(RVA = "0x2E68D90", Offset = "0x2E67390", VA = "0x182E68D90")]
 	private static string ConvertDoubleToString(double d)
 	{
 		return null;

@@ -10,89 +10,89 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002E8")]
+[Token(Token = "0x2000317")]
 [ComVisible(true)]
 public class MACTripleDES : KeyedHashAlgorithm
 {
-	[Token(Token = "0x4000D14")]
+	[Token(Token = "0x4000D21")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private ICryptoTransform m_encryptor;
 
-	[Token(Token = "0x4000D15")]
+	[Token(Token = "0x4000D22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private CryptoStream _cs;
 
-	[Token(Token = "0x4000D16")]
+	[Token(Token = "0x4000D23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private System.Security.Cryptography.TailStream _ts;
 
-	[Token(Token = "0x4000D17")]
+	[Token(Token = "0x4000D24")]
 	private const int m_bitsPerByte = 8;
 
-	[Token(Token = "0x4000D18")]
+	[Token(Token = "0x4000D25")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int m_bytesPerBlock;
 
-	[Token(Token = "0x4000D19")]
+	[Token(Token = "0x4000D26")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private TripleDES des;
 
-	[Token(Token = "0x170002B0")]
+	[Token(Token = "0x170002B2")]
 	[ComVisible(false)]
 	public PaddingMode Padding
 	{
-		[Token(Token = "0x6001948")]
-		[Address(RVA = "0x3B33940", Offset = "0x3B33940", VA = "0x3B33940")]
+		[Token(Token = "0x60019B0")]
+		[Address(RVA = "0x19ABD10", Offset = "0x19AA310", VA = "0x1819ABD10")]
 		get
 		{
 			return default(PaddingMode);
 		}
-		[Token(Token = "0x6001949")]
-		[Address(RVA = "0x3B33970", Offset = "0x3B33970", VA = "0x3B33970")]
+		[Token(Token = "0x60019B1")]
+		[Address(RVA = "0x19ABD40", Offset = "0x19AA340", VA = "0x1819ABD40")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001944")]
-	[Address(RVA = "0x3B33510", Offset = "0x3B33510", VA = "0x3B33510")]
+	[Token(Token = "0x60019AC")]
+	[Address(RVA = "0x19AB900", Offset = "0x19A9F00", VA = "0x1819AB900")]
 	public MACTripleDES()
 	{
 	}
 
-	[Token(Token = "0x6001945")]
-	[Address(RVA = "0x3B336B0", Offset = "0x3B336B0", VA = "0x3B336B0")]
+	[Token(Token = "0x60019AD")]
+	[Address(RVA = "0x19ABA90", Offset = "0x19AA090", VA = "0x1819ABA90")]
 	public MACTripleDES(byte[] rgbKey)
 	{
 	}
 
-	[Token(Token = "0x6001946")]
-	[Address(RVA = "0x3B336F0", Offset = "0x3B336F0", VA = "0x3B336F0")]
+	[Token(Token = "0x60019AE")]
+	[Address(RVA = "0x19ABAE0", Offset = "0x19AA0E0", VA = "0x1819ABAE0")]
 	public MACTripleDES(string strTripleDES, byte[] rgbKey)
 	{
 	}
 
-	[Token(Token = "0x6001947")]
-	[Address(RVA = "0x3B33920", Offset = "0x3B33920", VA = "0x3B33920", Slot = "20")]
+	[Token(Token = "0x60019AF")]
+	[Address(RVA = "0x19AB8E0", Offset = "0x19A9EE0", VA = "0x1819AB8E0", Slot = "20")]
 	public override void Initialize()
 	{
 	}
 
-	[Token(Token = "0x600194A")]
-	[Address(RVA = "0x3B33A00", Offset = "0x3B33A00", VA = "0x3B33A00", Slot = "18")]
+	[Token(Token = "0x60019B2")]
+	[Address(RVA = "0x19AB550", Offset = "0x19A9B50", VA = "0x1819AB550", Slot = "18")]
 	protected override void HashCore(byte[] rgbData, int ibStart, int cbSize)
 	{
 	}
 
-	[Token(Token = "0x600194B")]
-	[Address(RVA = "0x3B33C80", Offset = "0x3B33C80", VA = "0x3B33C80", Slot = "19")]
+	[Token(Token = "0x60019B3")]
+	[Address(RVA = "0x19AB700", Offset = "0x19A9D00", VA = "0x1819AB700", Slot = "19")]
 	protected override byte[] HashFinal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600194C")]
-	[Address(RVA = "0x3B33F40", Offset = "0x3B33F40", VA = "0x3B33F40", Slot = "13")]
+	[Token(Token = "0x60019B4")]
+	[Address(RVA = "0x19AB480", Offset = "0x19A9A80", VA = "0x1819AB480", Slot = "13")]
 	protected override void Dispose(bool disposing)
 	{
 	}

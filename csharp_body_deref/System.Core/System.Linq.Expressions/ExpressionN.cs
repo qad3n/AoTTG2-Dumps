@@ -20,25 +20,25 @@ internal class ExpressionN<TDelegate> : Expression<TDelegate>
 	[Token(Token = "0x170000B4")]
 	internal override int ParameterCount
 	{
-		[Token(Token = "0x600045E")]
+		[Token(Token = "0x600045D")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600045D")]
+	[Token(Token = "0x600045C")]
 	public ExpressionN(Expression body, IReadOnlyList<ParameterExpression> parameters)
 	{
 	}
 
-	[Token(Token = "0x600045F")]
+	[Token(Token = "0x600045E")]
 	internal override ParameterExpression GetParameter(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000460")]
+	[Token(Token = "0x600045F")]
 	internal override Expression<TDelegate> Rewrite(Expression body, ParameterExpression[] parameters)
 	{
 		return null;

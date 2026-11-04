@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200002C")]
+[Token(Token = "0x200002A")]
 public enum Status
 {
-	[Token(Token = "0x400006E")]
+	[Token(Token = "0x4000069")]
 	Offline,
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400006A")]
 	Online,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x400006B")]
 	Idle,
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x400006C")]
 	DoNotDisturb
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003CC")]
+[Token(Token = "0x2000476")]
 internal struct Hashes
 {
-	[Token(Token = "0x4000B4D")]
+	[Token(Token = "0x4000EAE")]
 	public const int kSize = 4;
 
-	[Token(Token = "0x4000B4E")]
+	[Token(Token = "0x4000EAF")]
 	[FieldOffset(Offset = "0x0")]
 	public unsafe fixed int hashes[4];
 }

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.VisualElementFocusRing
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,152 +11,173 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000471")]
+[Token(Token = "0x200054B")]
 public class VisualElementFocusRing : IFocusRing
 {
-	[Token(Token = "0x2000472")]
+	[Token(Token = "0x200054C")]
 	public enum DefaultFocusOrder
 	{
-		[Token(Token = "0x4000D5A")]
+		[Token(Token = "0x40011F7")]
 		ChildOrder,
-		[Token(Token = "0x4000D5B")]
+		[Token(Token = "0x40011F8")]
 		PositionXY,
-		[Token(Token = "0x4000D5C")]
+		[Token(Token = "0x40011F9")]
 		PositionYX
 	}
 
-	[Token(Token = "0x2000473")]
-	private class FocusRingRecord
+	[Token(Token = "0x200054D")]
+	internal class FocusRingRecord
 	{
-		[Token(Token = "0x4000D5D")]
+		[Token(Token = "0x40011FA")]
 		[FieldOffset(Offset = "0x10")]
 		public int m_AutoIndex;
 
-		[Token(Token = "0x4000D5E")]
+		[Token(Token = "0x40011FB")]
 		[FieldOffset(Offset = "0x18")]
 		public Focusable m_Focusable;
 
-		[Token(Token = "0x4000D5F")]
+		[Token(Token = "0x40011FC")]
 		[FieldOffset(Offset = "0x20")]
 		public bool m_IsSlot;
 
-		[Token(Token = "0x4000D60")]
+		[Token(Token = "0x40011FD")]
 		[FieldOffset(Offset = "0x28")]
 		public List<FocusRingRecord> m_ScopeNavigationOrder;
 
-		[Token(Token = "0x6001BAD")]
-		[Address(RVA = "0x4F77470", Offset = "0x4F77470", VA = "0x4F77470")]
+		[Token(Token = "0x6002813")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public FocusRingRecord()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000D56")]
+	[Token(Token = "0x40011F3")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly VisualElement root;
 
-	[Token(Token = "0x4000D58")]
+	[Token(Token = "0x40011F5")]
 	[FieldOffset(Offset = "0x20")]
-	private List<FocusRingRecord> m_FocusRing;
+	internal List<FocusRingRecord> m_FocusRing;
 
-	[Token(Token = "0x1700074A")]
+	[Token(Token = "0x17000A32")]
 	private FocusController focusController
 	{
-		[Token(Token = "0x6001BA0")]
-		[Address(RVA = "0x4F767F0", Offset = "0x4F767F0", VA = "0x4F767F0")]
+		[Token(Token = "0x6002803")]
+		[Address(RVA = "0x1A1F3C0", Offset = "0x1A1D9C0", VA = "0x181A1F3C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700074B")]
+	[Token(Token = "0x17000A33")]
 	public DefaultFocusOrder defaultFocusOrder
 	{
-		[Token(Token = "0x6001BA1")]
-		[Address(RVA = "0x4F76820", Offset = "0x4F76820", VA = "0x4F76820")]
+		[Token(Token = "0x6002804")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
 			return default(DefaultFocusOrder);
 		}
-		[Token(Token = "0x6001BA2")]
-		[Address(RVA = "0x4F76830", Offset = "0x4F76830", VA = "0x4F76830")]
+		[Token(Token = "0x6002805")]
+		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001B9F")]
-	[Address(RVA = "0x4F76760", Offset = "0x4F76760", VA = "0x4F76760")]
+	[Token(Token = "0x6002802")]
+	[Address(RVA = "0x31699B0", Offset = "0x3167FB0", VA = "0x1831699B0")]
 	public VisualElementFocusRing(VisualElement root, DefaultFocusOrder dfo = DefaultFocusOrder.ChildOrder)
 	{
 	}
 
-	[Token(Token = "0x6001BA3")]
-	[Address(RVA = "0x4F76840", Offset = "0x4F76840", VA = "0x4F76840")]
+	[Token(Token = "0x6002806")]
+	[Address(RVA = "0x3168310", Offset = "0x3166910", VA = "0x183168310")]
 	private int FocusRingAutoIndexSort(FocusRingRecord a, FocusRingRecord b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001BA4")]
-	[Address(RVA = "0x4F76BC0", Offset = "0x4F76BC0", VA = "0x4F76BC0")]
+	[Token(Token = "0x6002807")]
+	[Address(RVA = "0x31686C0", Offset = "0x3166CC0", VA = "0x1831686C0")]
 	private int FocusRingSort(FocusRingRecord a, FocusRingRecord b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001BA5")]
-	[Address(RVA = "0x4F76CC0", Offset = "0x4F76CC0", VA = "0x4F76CC0")]
+	[Token(Token = "0x6002808")]
+	[Address(RVA = "0x3168230", Offset = "0x3166830", VA = "0x183168230")]
 	private void DoUpdate()
 	{
 	}
 
-	[Token(Token = "0x6001BA6")]
-	[Address(RVA = "0x4F76D90", Offset = "0x4F76D90", VA = "0x4F76D90")]
+	[Token(Token = "0x6002809")]
+	[Address(RVA = "0x3167F70", Offset = "0x3166570", VA = "0x183167F70")]
 	private void BuildRingForScopeRecursive(VisualElement ve, ref int scopeIndex, List<FocusRingRecord> scopeList)
 	{
 	}
 
-	[Token(Token = "0x6001BA7")]
-	[Address(RVA = "0x4F77120", Offset = "0x4F77120", VA = "0x4F77120")]
+	[Token(Token = "0x600280A")]
+	[Address(RVA = "0x3169770", Offset = "0x3167D70", VA = "0x183169770")]
 	private void SortAndFlattenScopeLists(List<FocusRingRecord> rootScopeList)
 	{
 	}
 
-	[Token(Token = "0x6001BA8")]
-	[Address(RVA = "0x4F77480", Offset = "0x4F77480", VA = "0x4F77480")]
+	[Token(Token = "0x600280B")]
+	[Address(RVA = "0x3168B00", Offset = "0x3167100", VA = "0x183168B00")]
 	private int GetFocusableInternalIndex(Focusable f)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001BA9")]
-	[Address(RVA = "0x4F77520", Offset = "0x4F77520", VA = "0x4F77520", Slot = "4")]
+	[Token(Token = "0x600280C")]
+	[Address(RVA = "0x31687E0", Offset = "0x3166DE0", VA = "0x1831687E0", Slot = "4")]
 	public FocusChangeDirection GetFocusChangeDirection(Focusable currentFocusable, EventBase e)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BAA")]
-	[Address(RVA = "0x4F778B0", Offset = "0x4F778B0", VA = "0x4F778B0", Slot = "5")]
+	[Token(Token = "0x600280D")]
+	[Address(RVA = "0x31694A0", Offset = "0x3167AA0", VA = "0x1831694A0", Slot = "5")]
 	public Focusable GetNextFocusable(Focusable currentFocusable, FocusChangeDirection direction)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BAB")]
-	[Address(RVA = "0x4F77F10", Offset = "0x4F77F10", VA = "0x4F77F10")]
-	internal static Focusable GetNextFocusableInTree(VisualElement currentFocusable)
+	[Token(Token = "0x600280E")]
+	[Address(RVA = "0x3168C10", Offset = "0x3167210", VA = "0x183168C10")]
+	internal Focusable GetNextFocusableInSequence(Focusable currentFocusable, FocusChangeDirection direction)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001BAC")]
-	[Address(RVA = "0x4F77FB0", Offset = "0x4F77FB0", VA = "0x4F77FB0")]
-	internal static Focusable GetPreviousFocusableInTree(VisualElement currentFocusable)
+	[Token(Token = "0x600280F")]
+	[Address(RVA = "0x31693A0", Offset = "0x31679A0", VA = "0x1831693A0")]
+	internal VisualElement GetNextFocusableInTree(VisualElement currentFocusable)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6002810")]
+	[Address(RVA = "0x31696C0", Offset = "0x3167CC0", VA = "0x1831696C0")]
+	internal VisualElement GetPreviousFocusableInTree(VisualElement currentFocusable)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6002811")]
+	[Address(RVA = "0x3168BB0", Offset = "0x31671B0", VA = "0x183168BB0")]
+	private VisualElement GetNextElementDepthFirst(VisualElement ve)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6002812")]
+	[Address(RVA = "0x3169610", Offset = "0x3167C10", VA = "0x183169610")]
+	private VisualElement GetPreviousElementDepthFirst(VisualElement ve)
 	{
 		return null;
 	}

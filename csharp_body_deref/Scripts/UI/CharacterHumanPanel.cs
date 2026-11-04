@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UI.CharacterHumanPanel
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/UI/CharacterHumanPanel.c
 // Prior real C# source (older reference): Assets/Scripts/UI/InGameMenu/CharacterHumanPanel.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,71 +12,71 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x200060B")]
+[Token(Token = "0x2000767")]
 internal class CharacterHumanPanel : CharacterCategoryPanel
 {
-	[Token(Token = "0x4001CEC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x400249D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	protected List<GameObject> _statBars;
 
-	[Token(Token = "0x4001CED")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
+	[Token(Token = "0x400249E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	private readonly string LocaleCategory;
 
-	[Token(Token = "0x6003D0F")]
-	[Address(RVA = "0x429C3D0", Offset = "0x429C3D0", VA = "0x429C3D0", Slot = "20")]
+	[Token(Token = "0x60047F2")]
+	[Address(RVA = "0x221F710", Offset = "0x221DD10", VA = "0x18221F710", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003D10")]
-	[Address(RVA = "0x429E430", Offset = "0x429E430", VA = "0x429E430")]
+	[Token(Token = "0x60047F3")]
+	[Address(RVA = "0x221F6F0", Offset = "0x221DCF0", VA = "0x18221F6F0")]
 	protected void OnLoadoutClick()
 	{
 	}
 
-	[Token(Token = "0x6003D11")]
-	[Address(RVA = "0x429DEC0", Offset = "0x429DEC0", VA = "0x429DEC0")]
+	[Token(Token = "0x60047F4")]
+	[Address(RVA = "0x2220170", Offset = "0x221E770", VA = "0x182220170")]
 	protected void SyncStatBars()
 	{
 	}
 
-	[Token(Token = "0x6003D12")]
-	[Address(RVA = "0x429E570", Offset = "0x429E570", VA = "0x429E570")]
+	[Token(Token = "0x60047F5")]
+	[Address(RVA = "0x221E9F0", Offset = "0x221CFF0", VA = "0x18221E9F0")]
 	protected void CreateStatBar(string title, int value)
 	{
 	}
 
-	[Token(Token = "0x6003D13")]
-	[Address(RVA = "0x429D2A0", Offset = "0x429D2A0", VA = "0x429D2A0")]
+	[Token(Token = "0x60047F6")]
+	[Address(RVA = "0x221F330", Offset = "0x221D930", VA = "0x18221F330")]
 	protected string[] GetCharOptions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D14")]
-	[Address(RVA = "0x429D3D0", Offset = "0x429D3D0", VA = "0x429D3D0")]
+	[Token(Token = "0x60047F7")]
+	[Address(RVA = "0x221ECB0", Offset = "0x221D2B0", VA = "0x18221ECB0")]
 	protected string[] GetCharIcons(string[] options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D15")]
-	[Address(RVA = "0x429DBD0", Offset = "0x429DBD0", VA = "0x429DBD0")]
+	[Token(Token = "0x60047F8")]
+	[Address(RVA = "0x221F460", Offset = "0x221DA60", VA = "0x18221F460")]
 	protected string[] GetSpecialIcons(string[] options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D16")]
-	[Address(RVA = "0x429DE20", Offset = "0x429DE20", VA = "0x429DE20")]
+	[Token(Token = "0x60047F9")]
+	[Address(RVA = "0x221F640", Offset = "0x221DC40", VA = "0x18221F640")]
 	protected string[] GetSpecialTooltips(string[] options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003D17")]
-	[Address(RVA = "0x429EA40", Offset = "0x429EA40", VA = "0x429EA40")]
+	[Token(Token = "0x60047FA")]
+	[Address(RVA = "0x2220860", Offset = "0x221EE60", VA = "0x182220860")]
 	public CharacterHumanPanel()
 	{
 	}

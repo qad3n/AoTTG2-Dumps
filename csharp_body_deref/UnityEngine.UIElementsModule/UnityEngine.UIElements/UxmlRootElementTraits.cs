@@ -5,23 +5,25 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000413")]
+[Token(Token = "0x20004DA")]
+[Obsolete("UxmlRootElementTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 public class UxmlRootElementTraits : UxmlTraits
 {
-	[Token(Token = "0x4000C71")]
+	[Token(Token = "0x40010BB")]
 	[FieldOffset(Offset = "0x18")]
 	protected UxmlStringAttributeDescription m_Name;
 
-	[Token(Token = "0x4000C72")]
+	[Token(Token = "0x40010BC")]
 	[FieldOffset(Offset = "0x20")]
 	private UxmlStringAttributeDescription m_Class;
 
-	[Token(Token = "0x6001A6F")]
-	[Address(RVA = "0x4F68160", Offset = "0x4F68160", VA = "0x4F68160")]
+	[Token(Token = "0x6002632")]
+	[Address(RVA = "0x3158580", Offset = "0x3156B80", VA = "0x183158580")]
 	public UxmlRootElementTraits()
 	{
 	}

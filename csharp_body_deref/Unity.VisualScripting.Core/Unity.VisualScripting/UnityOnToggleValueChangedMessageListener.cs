@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnToggleValueChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x600046E")]
-	[Address(RVA = "0x4CB72B0", Offset = "0x4CB72B0", VA = "0x4CB72B0")]
+	[Token(Token = "0x6000478")]
+	[Address(RVA = "0x2DBF050", Offset = "0x2DBD650", VA = "0x182DBF050")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x4CB7370", Offset = "0x4CB7370", VA = "0x4CB7370")]
+	[Token(Token = "0x6000479")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnToggleValueChangedMessageListener()
 	{
 	}

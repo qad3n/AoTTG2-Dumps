@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000185")]
+[Token(Token = "0x20001CB")]
 public enum TrickleDown
 {
-	[Token(Token = "0x400066A")]
+	[Token(Token = "0x400079E")]
 	NoTrickleDown,
-	[Token(Token = "0x400066B")]
+	[Token(Token = "0x400079F")]
 	TrickleDown
 }

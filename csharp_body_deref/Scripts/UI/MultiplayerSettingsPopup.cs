@@ -11,78 +11,78 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20006A6")]
+[Token(Token = "0x2000801")]
 internal class MultiplayerSettingsPopup : PromptPopup
 {
-	[Token(Token = "0x17000CCD")]
+	[Token(Token = "0x17000E13")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004260")]
-		[Address(RVA = "0x430E920", Offset = "0x430E920", VA = "0x430E920", Slot = "35")]
+		[Token(Token = "0x6004D54")]
+		[Address(RVA = "0x2296E80", Offset = "0x2295480", VA = "0x182296E80", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CCE")]
+	[Token(Token = "0x17000E14")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004261")]
-		[Address(RVA = "0x430E9C0", Offset = "0x430E9C0", VA = "0x430E9C0", Slot = "5")]
+		[Token(Token = "0x6004D55")]
+		[Address(RVA = "0x2291050", Offset = "0x228F650", VA = "0x182291050", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CCF")]
+	[Token(Token = "0x17000E15")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004262")]
-		[Address(RVA = "0x430E9D0", Offset = "0x430E9D0", VA = "0x430E9D0", Slot = "6")]
+		[Token(Token = "0x6004D56")]
+		[Address(RVA = "0x2296E70", Offset = "0x2295470", VA = "0x182296E70", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CD0")]
+	[Token(Token = "0x17000E16")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x6004263")]
-		[Address(RVA = "0x430E9E0", Offset = "0x430E9E0", VA = "0x430E9E0", Slot = "13")]
+		[Token(Token = "0x6004D57")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000CD1")]
+	[Token(Token = "0x17000E17")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x6004264")]
-		[Address(RVA = "0x430E9F0", Offset = "0x430E9F0", VA = "0x430E9F0", Slot = "12")]
+		[Token(Token = "0x6004D58")]
+		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x6004265")]
-	[Address(RVA = "0x430EA00", Offset = "0x430EA00", VA = "0x430EA00", Slot = "20")]
+	[Token(Token = "0x6004D59")]
+	[Address(RVA = "0x2296930", Offset = "0x2294F30", VA = "0x182296930", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6004266")]
-	[Address(RVA = "0x430EEE0", Offset = "0x430EEE0", VA = "0x430EEE0")]
+	[Token(Token = "0x6004D5A")]
+	[Address(RVA = "0x22968C0", Offset = "0x2294EC0", VA = "0x1822968C0")]
 	protected void OnSaveButtonClick()
 	{
 	}
 
-	[Token(Token = "0x6004267")]
-	[Address(RVA = "0x430EF50", Offset = "0x430EF50", VA = "0x430EF50")]
+	[Token(Token = "0x6004D5B")]
+	[Address(RVA = "0x1DD9CD0", Offset = "0x1DD82D0", VA = "0x181DD9CD0")]
 	public MultiplayerSettingsPopup()
 	{
 	}

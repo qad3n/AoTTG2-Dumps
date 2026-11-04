@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002EF")]
+[Token(Token = "0x20003B5")]
 public enum ReflectionProbeSortingCriteria
 {
-	[Token(Token = "0x40008D2")]
+	[Token(Token = "0x4000BCB")]
 	None,
-	[Token(Token = "0x40008D3")]
+	[Token(Token = "0x4000BCC")]
 	Importance,
-	[Token(Token = "0x40008D4")]
+	[Token(Token = "0x4000BCD")]
 	Size,
-	[Token(Token = "0x40008D5")]
+	[Token(Token = "0x4000BCE")]
 	ImportanceThenSize
 }

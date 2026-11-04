@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000018")]
+[Token(Token = "0x2000016")]
 public enum Unit
 {
-	[Token(Token = "0x4000082")]
+	[Token(Token = "0x400007D")]
 	Undefined,
-	[Token(Token = "0x4000083")]
+	[Token(Token = "0x400007E")]
 	Point,
-	[Token(Token = "0x4000084")]
+	[Token(Token = "0x400007F")]
 	Percent,
-	[Token(Token = "0x4000085")]
+	[Token(Token = "0x4000080")]
 	Auto
 }

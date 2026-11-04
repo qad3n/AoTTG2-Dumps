@@ -28,20 +28,20 @@ public class CamelCasePropertyNamesContractResolver : DefaultContractResolver
 	private static Dictionary<StructMultiKey<Type, Type>, JsonContract>? _contractCache;
 
 	[Token(Token = "0x6000739")]
-	[Address(RVA = "0x3DC84F0", Offset = "0x3DC84F0", VA = "0x3DC84F0")]
+	[Address(RVA = "0x1C34330", Offset = "0x1C32930", VA = "0x181C34330")]
 	public CamelCasePropertyNamesContractResolver()
 	{
 	}
 
 	[Token(Token = "0x600073A")]
-	[Address(RVA = "0x3DC8690", Offset = "0x3DC8690", VA = "0x3DC8690", Slot = "5")]
+	[Address(RVA = "0x1C33F10", Offset = "0x1C32510", VA = "0x181C33F10", Slot = "5")]
 	public override JsonContract ResolveContract(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600073B")]
-	[Address(RVA = "0x3DC8A00", Offset = "0x3DC8A00", VA = "0x3DC8A00", Slot = "20")]
+	[Address(RVA = "0x1C33EC0", Offset = "0x1C324C0", VA = "0x181C33EC0", Slot = "20")]
 	internal override DefaultJsonNameTable GetNameTable()
 	{
 		return null;

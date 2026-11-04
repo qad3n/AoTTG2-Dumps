@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000042")]
+[Token(Token = "0x200004F")]
 internal sealed class DataTableTypeConverter : ReferenceConverter
 {
-	[Token(Token = "0x60004D0")]
-	[Address(RVA = "0x4592420", Offset = "0x4592420", VA = "0x4592420")]
+	[Token(Token = "0x6000503")]
+	[Address(RVA = "0x2509AE0", Offset = "0x25080E0", VA = "0x182509AE0")]
 	public DataTableTypeConverter()
 	{
 	}
 
-	[Token(Token = "0x60004D1")]
-	[Address(RVA = "0x45924B0", Offset = "0x45924B0", VA = "0x45924B0", Slot = "11")]
+	[Token(Token = "0x6000504")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "11")]
 	public override bool GetPropertiesSupported(ITypeDescriptorContext context)
 	{
 		return default(bool);

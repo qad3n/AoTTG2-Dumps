@@ -1,323 +1,345 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.Image
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
-using System.Runtime.CompilerServices;
+using System;
 using Il2CppDummyDll;
 using Unity.Properties;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000A6")]
+[Token(Token = "0x20000E1")]
 public class Image : VisualElement
 {
-	[Token(Token = "0x20000A7")]
+	[Token(Token = "0x20000E2")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<Image, UxmlTraits>
 	{
-		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x4F43590", Offset = "0x4F43590", VA = "0x4F43590")]
+		[Token(Token = "0x6000651")]
+		[Address(RVA = "0x31E3980", Offset = "0x31E1F80", VA = "0x1831E3980")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000A8")]
+	[Token(Token = "0x20000E3")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : VisualElement.UxmlTraits
 	{
-		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x4F435D0", Offset = "0x4F435D0", VA = "0x4F435D0")]
+		[Token(Token = "0x6000652")]
+		[Address(RVA = "0x31E78E0", Offset = "0x31E5EE0", VA = "0x1831E78E0")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x400027E")]
+	[Token(Token = "0x40003B7")]
 	[FieldOffset(Offset = "0x0")]
-	internal static readonly DataBindingProperty imageProperty;
+	internal static readonly BindingId sourceProperty;
 
-	[Token(Token = "0x400027F")]
-	[FieldOffset(Offset = "0xA0")]
-	internal static readonly DataBindingProperty spriteProperty;
+	[Token(Token = "0x40003B8")]
+	[FieldOffset(Offset = "0x98")]
+	internal static readonly BindingId imageProperty;
 
-	[Token(Token = "0x4000280")]
-	[FieldOffset(Offset = "0x140")]
-	internal static readonly DataBindingProperty vectorImageProperty;
+	[Token(Token = "0x40003B9")]
+	[FieldOffset(Offset = "0x130")]
+	internal static readonly BindingId spriteProperty;
 
-	[Token(Token = "0x4000281")]
-	[FieldOffset(Offset = "0x1E0")]
-	internal static readonly DataBindingProperty sourceRectProperty;
+	[Token(Token = "0x40003BA")]
+	[FieldOffset(Offset = "0x1C8")]
+	internal static readonly BindingId vectorImageProperty;
 
-	[Token(Token = "0x4000282")]
-	[FieldOffset(Offset = "0x280")]
-	internal static readonly DataBindingProperty uvProperty;
+	[Token(Token = "0x40003BB")]
+	[FieldOffset(Offset = "0x260")]
+	internal static readonly BindingId sourceRectProperty;
 
-	[Token(Token = "0x4000283")]
-	[FieldOffset(Offset = "0x320")]
-	internal static readonly DataBindingProperty scaleModeProperty;
+	[Token(Token = "0x40003BC")]
+	[FieldOffset(Offset = "0x2F8")]
+	internal static readonly BindingId uvProperty;
 
-	[Token(Token = "0x4000284")]
-	[FieldOffset(Offset = "0x3C0")]
-	internal static readonly DataBindingProperty tintColorProperty;
+	[Token(Token = "0x40003BD")]
+	[FieldOffset(Offset = "0x390")]
+	internal static readonly BindingId scaleModeProperty;
 
-	[Token(Token = "0x4000285")]
-	[FieldOffset(Offset = "0x3D8")]
+	[Token(Token = "0x40003BE")]
+	[FieldOffset(Offset = "0x428")]
+	internal static readonly BindingId tintColorProperty;
+
+	[Token(Token = "0x40003BF")]
+	[FieldOffset(Offset = "0x2C8")]
 	private ScaleMode m_ScaleMode;
 
-	[Token(Token = "0x4000286")]
-	[FieldOffset(Offset = "0x3E0")]
-	private Texture m_Image;
+	[Token(Token = "0x40003C0")]
+	[FieldOffset(Offset = "0x2D0")]
+	private Object m_Image;
 
-	[Token(Token = "0x4000287")]
-	[FieldOffset(Offset = "0x3E8")]
-	private Sprite m_Sprite;
-
-	[Token(Token = "0x4000288")]
-	[FieldOffset(Offset = "0x3F0")]
-	private VectorImage m_VectorImage;
-
-	[Token(Token = "0x4000289")]
-	[FieldOffset(Offset = "0x3F8")]
+	[Token(Token = "0x40003C1")]
+	[FieldOffset(Offset = "0x2D8")]
 	private Rect m_UV;
 
-	[Token(Token = "0x400028A")]
-	[FieldOffset(Offset = "0x408")]
+	[Token(Token = "0x40003C2")]
+	[FieldOffset(Offset = "0x2E8")]
 	private Color m_TintColor;
 
-	[Token(Token = "0x400028B")]
-	[FieldOffset(Offset = "0x418")]
+	[Token(Token = "0x40003C3")]
+	[FieldOffset(Offset = "0x2F8")]
 	internal bool m_ImageIsInline;
 
-	[Token(Token = "0x400028C")]
-	[FieldOffset(Offset = "0x419")]
-	private bool m_ScaleModeIsInline;
+	[Token(Token = "0x40003C4")]
+	[FieldOffset(Offset = "0x2F9")]
+	internal bool m_ScaleModeIsInline;
 
-	[Token(Token = "0x400028D")]
-	[FieldOffset(Offset = "0x41A")]
-	private bool m_TintColorIsInline;
+	[Token(Token = "0x40003C5")]
+	[FieldOffset(Offset = "0x2FA")]
+	internal bool m_TintColorIsInline;
 
-	[Token(Token = "0x400028E")]
-	[FieldOffset(Offset = "0x460")]
+	[Token(Token = "0x40003C6")]
+	[FieldOffset(Offset = "0x4C0")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x400028F")]
-	[FieldOffset(Offset = "0x468")]
+	[Token(Token = "0x40003C7")]
+	[FieldOffset(Offset = "0x4C8")]
 	private static CustomStyleProperty<Texture2D> s_ImageProperty;
 
-	[Token(Token = "0x4000290")]
-	[FieldOffset(Offset = "0x470")]
+	[Token(Token = "0x40003C8")]
+	[FieldOffset(Offset = "0x4D0")]
 	private static CustomStyleProperty<Sprite> s_SpriteProperty;
 
-	[Token(Token = "0x4000291")]
-	[FieldOffset(Offset = "0x478")]
+	[Token(Token = "0x40003C9")]
+	[FieldOffset(Offset = "0x4D8")]
 	private static CustomStyleProperty<VectorImage> s_VectorImageProperty;
 
-	[Token(Token = "0x4000292")]
-	[FieldOffset(Offset = "0x480")]
+	[Token(Token = "0x40003CA")]
+	[FieldOffset(Offset = "0x4E0")]
 	private static CustomStyleProperty<string> s_ScaleModeProperty;
 
-	[Token(Token = "0x4000293")]
-	[FieldOffset(Offset = "0x488")]
+	[Token(Token = "0x40003CB")]
+	[FieldOffset(Offset = "0x4E8")]
 	private static CustomStyleProperty<Color> s_TintColorProperty;
 
-	[Token(Token = "0x1700009C")]
+	[Token(Token = "0x17000102")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
+	[CreateProperty]
+	internal Object source
+	{
+		[Token(Token = "0x6000632")]
+		[Address(RVA = "0x31DC9F0", Offset = "0x31DAFF0", VA = "0x1831DC9F0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000633")]
+		[Address(RVA = "0x31DCDE0", Offset = "0x31DB3E0", VA = "0x1831DCDE0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000103")]
 	[CreateProperty]
 	public Texture image
 	{
-		[Token(Token = "0x6000459")]
-		[Address(RVA = "0x4F40D50", Offset = "0x4F40D50", VA = "0x4F40D50")]
+		[Token(Token = "0x6000634")]
+		[Address(RVA = "0x31DC930", Offset = "0x31DAF30", VA = "0x1831DC930")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600045A")]
-		[Address(RVA = "0x4F40D60", Offset = "0x4F40D60", VA = "0x4F40D60")]
+		[Token(Token = "0x6000635")]
+		[Address(RVA = "0x31DCAC0", Offset = "0x31DB0C0", VA = "0x1831DCAC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700009D")]
+	[Token(Token = "0x17000104")]
 	[CreateProperty]
 	public Sprite sprite
 	{
-		[Token(Token = "0x600045B")]
-		[Address(RVA = "0x4F40EA0", Offset = "0x4F40EA0", VA = "0x4F40EA0")]
+		[Token(Token = "0x6000636")]
+		[Address(RVA = "0x31DCA00", Offset = "0x31DB000", VA = "0x1831DCA00")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600045C")]
-		[Address(RVA = "0x4F40EB0", Offset = "0x4F40EB0", VA = "0x4F40EB0")]
+		[Token(Token = "0x6000637")]
+		[Address(RVA = "0x31DCFD0", Offset = "0x31DB5D0", VA = "0x1831DCFD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700009E")]
+	[Token(Token = "0x17000105")]
 	[CreateProperty]
 	public VectorImage vectorImage
 	{
-		[Token(Token = "0x600045D")]
-		[Address(RVA = "0x4F40FE0", Offset = "0x4F40FE0", VA = "0x4F40FE0")]
+		[Token(Token = "0x6000638")]
+		[Address(RVA = "0x31DCA70", Offset = "0x31DB070", VA = "0x1831DCA70")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600045E")]
-		[Address(RVA = "0x4F40FF0", Offset = "0x4F40FF0", VA = "0x4F40FF0")]
+		[Token(Token = "0x6000639")]
+		[Address(RVA = "0x31DD280", Offset = "0x31DB880", VA = "0x1831DD280")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700009F")]
+	[Token(Token = "0x17000106")]
 	[CreateProperty]
 	public Rect sourceRect
 	{
-		[Token(Token = "0x600045F")]
-		[Address(RVA = "0x4F41120", Offset = "0x4F41120", VA = "0x4F41120")]
+		[Token(Token = "0x600063A")]
+		[Address(RVA = "0x31DC9C0", Offset = "0x31DAFC0", VA = "0x1831DC9C0")]
 		get
 		{
 			return default(Rect);
 		}
-		[Token(Token = "0x6000460")]
-		[Address(RVA = "0x4F412E0", Offset = "0x4F412E0", VA = "0x4F412E0")]
+		[Token(Token = "0x600063B")]
+		[Address(RVA = "0x31DCC00", Offset = "0x31DB200", VA = "0x1831DCC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000A0")]
+	[Token(Token = "0x17000107")]
 	[CreateProperty]
 	public Rect uv
 	{
-		[Token(Token = "0x6000461")]
-		[Address(RVA = "0x4F41620", Offset = "0x4F41620", VA = "0x4F41620")]
+		[Token(Token = "0x600063C")]
+		[Address(RVA = "0x31DCA60", Offset = "0x31DB060", VA = "0x1831DCA60")]
 		get
 		{
 			return default(Rect);
 		}
-		[Token(Token = "0x6000462")]
-		[Address(RVA = "0x4F41640", Offset = "0x4F41640", VA = "0x4F41640")]
+		[Token(Token = "0x600063D")]
+		[Address(RVA = "0x31DD170", Offset = "0x31DB770", VA = "0x1831DD170")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000A1")]
+	[Token(Token = "0x17000108")]
 	[CreateProperty]
 	public ScaleMode scaleMode
 	{
-		[Token(Token = "0x6000463")]
-		[Address(RVA = "0x4F41730", Offset = "0x4F41730", VA = "0x4F41730")]
+		[Token(Token = "0x600063E")]
+		[Address(RVA = "0x31DC9B0", Offset = "0x31DAFB0", VA = "0x1831DC9B0")]
 		get
 		{
 			return default(ScaleMode);
 		}
-		[Token(Token = "0x6000464")]
-		[Address(RVA = "0x4F41740", Offset = "0x4F41740", VA = "0x4F41740")]
+		[Token(Token = "0x600063F")]
+		[Address(RVA = "0x31DCBD0", Offset = "0x31DB1D0", VA = "0x1831DCBD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000A2")]
+	[Token(Token = "0x17000109")]
 	[CreateProperty]
 	public Color tintColor
 	{
-		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x4F418A0", Offset = "0x4F418A0", VA = "0x4F418A0")]
+		[Token(Token = "0x6000640")]
+		[Address(RVA = "0x31DCA50", Offset = "0x31DB050", VA = "0x1831DCA50")]
 		get
 		{
 			return default(Color);
 		}
-		[Token(Token = "0x6000466")]
-		[Address(RVA = "0x4F418C0", Offset = "0x4F418C0", VA = "0x4F418C0")]
+		[Token(Token = "0x6000641")]
+		[Address(RVA = "0x31DD0E0", Offset = "0x31DB6E0", VA = "0x1831DD0E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000467")]
-	[Address(RVA = "0x4F41B30", Offset = "0x4F41B30", VA = "0x4F41B30")]
+	[Token(Token = "0x6000642")]
+	[Address(RVA = "0x31DC740", Offset = "0x31DAD40", VA = "0x1831DC740")]
 	public Image()
 	{
 	}
 
-	[Token(Token = "0x6000468")]
-	[Address(RVA = "0x4F41D00", Offset = "0x4F41D00", VA = "0x4F41D00")]
+	[Token(Token = "0x6000643")]
+	[Address(RVA = "0x31DAB40", Offset = "0x31D9140", VA = "0x1831DAB40")]
 	private Vector2 GetTextureDisplaySize(Texture texture)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000469")]
-	[Address(RVA = "0x4F41DD0", Offset = "0x4F41DD0", VA = "0x4F41DD0")]
+	[Token(Token = "0x6000644")]
+	[Address(RVA = "0x31DAC20", Offset = "0x31D9220", VA = "0x1831DAC20")]
 	private Vector2 GetTextureDisplaySize(Sprite sprite)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x600046A")]
-	[Address(RVA = "0x4F41EE0", Offset = "0x4F41EE0", VA = "0x4F41EE0", Slot = "96")]
+	[Token(Token = "0x6000645")]
+	[Address(RVA = "0x31DA3C0", Offset = "0x31D89C0", VA = "0x1831DA3C0", Slot = "137")]
 	protected internal override Vector2 DoMeasure(float desiredWidth, MeasureMode widthMode, float desiredHeight, MeasureMode heightMode)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x4F42110", Offset = "0x4F42110", VA = "0x4F42110")]
+	[Token(Token = "0x6000646")]
+	[Address(RVA = "0x31DADA0", Offset = "0x31D93A0", VA = "0x1831DADA0")]
 	private void OnGenerateVisualContent(MeshGenerationContext mgc)
 	{
 	}
 
-	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x4F42850", Offset = "0x4F42850", VA = "0x4F42850")]
+	[Token(Token = "0x6000647")]
+	[Address(RVA = "0x31DAD60", Offset = "0x31D9360", VA = "0x1831DAD60")]
 	private void OnCustomStyleResolved(CustomStyleResolvedEvent e)
 	{
 	}
 
-	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x4F42880", Offset = "0x4F42880", VA = "0x4F42880")]
+	[Token(Token = "0x6000648")]
+	[Address(RVA = "0x31DB500", Offset = "0x31D9B00", VA = "0x1831DB500")]
 	private void ReadCustomProperties(ICustomStyle customStyleProvider)
 	{
 	}
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600046E")]
-	private void SetProperty<T0, T1, T2>(T0 src, ref T0 dst, ref T1 alt0, ref T2 alt1, DataBindingProperty binding) where T0 : Object where T1 : Object where T2 : Object
+	[Token(Token = "0x6000649")]
+	private void SetInlineProperty<T>(Object value, BindingId binding)
 	{
 	}
 
-	[Token(Token = "0x600046F")]
-	[Address(RVA = "0x4F43000", Offset = "0x4F43000", VA = "0x4F43000")]
+	[Token(Token = "0x600064A")]
+	[Address(RVA = "0x31DBBF0", Offset = "0x31DA1F0", VA = "0x1831DBBF0")]
+	private void SetCustomProperty(Object value, BindingId binding)
+	{
+	}
+
+	[Token(Token = "0x600064B")]
+	[Address(RVA = "0x31DA390", Offset = "0x31D8990", VA = "0x1831DA390")]
 	private void ClearProperty()
 	{
 	}
 
-	[Token(Token = "0x6000470")]
-	[Address(RVA = "0x4F417F0", Offset = "0x4F417F0", VA = "0x4F417F0")]
+	[Token(Token = "0x600064C")]
+	[Address(RVA = "0x31DBCE0", Offset = "0x31DA2E0", VA = "0x1831DBCE0")]
 	private void SetScaleMode(ScaleMode mode)
 	{
 	}
 
-	[Token(Token = "0x6000471")]
-	[Address(RVA = "0x4F41A40", Offset = "0x4F41A40", VA = "0x4F41A40")]
+	[Token(Token = "0x600064D")]
+	[Address(RVA = "0x31DBD70", Offset = "0x31DA370", VA = "0x1831DBD70")]
 	private void SetTintColor(Color color)
 	{
 	}
 
-	[Token(Token = "0x6000472")]
-	[Address(RVA = "0x4F41460", Offset = "0x4F41460", VA = "0x4F41460")]
+	[Token(Token = "0x600064E")]
+	[Address(RVA = "0x31DA150", Offset = "0x31D8750", VA = "0x1831DA150")]
 	private void CalculateUV(Rect srcRect)
 	{
 	}
 
-	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x4F41130", Offset = "0x4F41130", VA = "0x4F41130")]
+	[Token(Token = "0x600064F")]
+	[Address(RVA = "0x31DA850", Offset = "0x31D8E50", VA = "0x1831DA850")]
 	private Rect GetSourceRect()
 	{
 		return default(Rect);

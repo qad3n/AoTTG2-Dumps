@@ -1,268 +1,240 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextCore.Text.TextGenerationSettings
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
+using System.Collections.Generic;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200004B")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
 internal class TextGenerationSettings : IEquatable<TextGenerationSettings>
 {
-	[Token(Token = "0x4000111")]
-	[FieldOffset(Offset = "0x10")]
-	public string text;
+	[Token(Token = "0x40002CB")]
+	[FieldOffset(Offset = "0x0")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+	internal static Func<bool> IsEditorTextRenderingModeBitmap;
 
-	[Token(Token = "0x4000112")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x40002CC")]
+	[FieldOffset(Offset = "0x8")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.IMGUIModule", "UnityEngine.UIElementsModule" })]
+	internal static Func<bool> IsEditorTextRenderingModeRaster;
+
+	[Token(Token = "0x40002CD")]
+	[FieldOffset(Offset = "0x10")]
+	private RenderedText m_RenderedText;
+
+	[Token(Token = "0x40002CE")]
+	[FieldOffset(Offset = "0x30")]
+	private string m_CachedRenderedText;
+
+	[Token(Token = "0x40002CF")]
+	[FieldOffset(Offset = "0x38")]
 	public Rect screenRect;
 
-	[Token(Token = "0x4000113")]
-	[FieldOffset(Offset = "0x28")]
-	public Vector4 margins;
-
-	[Token(Token = "0x4000114")]
-	[FieldOffset(Offset = "0x38")]
-	public float scale;
-
-	[Token(Token = "0x4000115")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x40002D0")]
+	[FieldOffset(Offset = "0x48")]
 	public FontAsset fontAsset;
 
-	[Token(Token = "0x4000116")]
-	[FieldOffset(Offset = "0x48")]
-	public Material material;
-
-	[Token(Token = "0x4000117")]
+	[Token(Token = "0x40002D1")]
 	[FieldOffset(Offset = "0x50")]
-	public SpriteAsset spriteAsset;
-
-	[Token(Token = "0x4000118")]
-	[FieldOffset(Offset = "0x58")]
-	public TextStyleSheet styleSheet;
-
-	[Token(Token = "0x4000119")]
-	[FieldOffset(Offset = "0x60")]
 	public FontStyles fontStyle;
 
-	[Token(Token = "0x400011A")]
-	[FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x40002D2")]
+	[FieldOffset(Offset = "0x58")]
 	public TextSettings textSettings;
 
-	[Token(Token = "0x400011B")]
-	[FieldOffset(Offset = "0x70")]
+	[Token(Token = "0x40002D3")]
+	[FieldOffset(Offset = "0x60")]
 	public TextAlignment textAlignment;
 
-	[Token(Token = "0x400011C")]
-	[FieldOffset(Offset = "0x74")]
+	[Token(Token = "0x40002D4")]
+	[FieldOffset(Offset = "0x64")]
 	public TextOverflowMode overflowMode;
 
-	[Token(Token = "0x400011D")]
-	[FieldOffset(Offset = "0x78")]
-	public bool wordWrap;
+	[Token(Token = "0x40002D5")]
+	public const float wordWrappingRatio = 0.4f;
 
-	[Token(Token = "0x400011E")]
-	[FieldOffset(Offset = "0x7C")]
-	public float wordWrappingRatio;
-
-	[Token(Token = "0x400011F")]
-	[FieldOffset(Offset = "0x80")]
+	[Token(Token = "0x40002D6")]
+	[FieldOffset(Offset = "0x68")]
 	public Color color;
 
-	[Token(Token = "0x4000120")]
-	[FieldOffset(Offset = "0x90")]
-	public TextColorGradient fontColorGradient;
-
-	[Token(Token = "0x4000121")]
-	[FieldOffset(Offset = "0x98")]
-	public TextColorGradient fontColorGradientPreset;
-
-	[Token(Token = "0x4000122")]
-	[FieldOffset(Offset = "0xA0")]
-	public bool tintSprites;
-
-	[Token(Token = "0x4000123")]
-	[FieldOffset(Offset = "0xA1")]
-	public bool overrideRichTextColors;
-
-	[Token(Token = "0x4000124")]
-	[FieldOffset(Offset = "0xA2")]
+	[Token(Token = "0x40002D7")]
+	[FieldOffset(Offset = "0x78")]
 	public bool shouldConvertToLinearSpace;
 
-	[Token(Token = "0x4000125")]
-	[FieldOffset(Offset = "0xA4")]
-	public float fontSize;
+	[Token(Token = "0x40002D8")]
+	[FieldOffset(Offset = "0x7C")]
+	public int fontSize;
 
-	[Token(Token = "0x4000126")]
-	[FieldOffset(Offset = "0xA8")]
-	public bool autoSize;
+	[Token(Token = "0x40002D9")]
+	public const bool autoSize = false;
 
-	[Token(Token = "0x4000127")]
-	[FieldOffset(Offset = "0xAC")]
-	public float fontSizeMin;
+	[Token(Token = "0x40002DA")]
+	public const float fontSizeMin = 0f;
 
-	[Token(Token = "0x4000128")]
-	[FieldOffset(Offset = "0xB0")]
-	public float fontSizeMax;
+	[Token(Token = "0x40002DB")]
+	public const float fontSizeMax = 0f;
 
-	[Token(Token = "0x4000129")]
-	[FieldOffset(Offset = "0xB4")]
-	public bool enableKerning;
+	[Token(Token = "0x40002DC")]
+	[FieldOffset(Offset = "0x10")]
+	internal static readonly List<OTL_FeatureTag> fontFeatures;
 
-	[Token(Token = "0x400012A")]
-	[FieldOffset(Offset = "0xB5")]
+	[Token(Token = "0x40002DD")]
+	[FieldOffset(Offset = "0x80")]
+	public bool emojiFallbackSupport;
+
+	[Token(Token = "0x40002DE")]
+	[FieldOffset(Offset = "0x81")]
 	public bool richText;
 
-	[Token(Token = "0x400012B")]
-	[FieldOffset(Offset = "0xB6")]
+	[Token(Token = "0x40002DF")]
+	[FieldOffset(Offset = "0x82")]
 	public bool isRightToLeft;
 
-	[Token(Token = "0x400012C")]
-	[FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x40002E0")]
+	[FieldOffset(Offset = "0x84")]
 	public float extraPadding;
 
-	[Token(Token = "0x400012D")]
-	[FieldOffset(Offset = "0xBC")]
+	[Token(Token = "0x40002E1")]
+	[FieldOffset(Offset = "0x88")]
 	public bool parseControlCharacters;
 
-	[Token(Token = "0x400012E")]
-	[FieldOffset(Offset = "0xBD")]
-	public bool isOrthographic;
-
-	[Token(Token = "0x400012F")]
-	[FieldOffset(Offset = "0xBE")]
+	[Token(Token = "0x40002E2")]
+	[FieldOffset(Offset = "0x89")]
 	public bool isPlaceholder;
 
-	[Token(Token = "0x4000130")]
-	[FieldOffset(Offset = "0xBF")]
-	public bool tagNoParsing;
+	[Token(Token = "0x40002E3")]
+	public const bool tagNoParsing = false;
 
-	[Token(Token = "0x4000131")]
-	[FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x40002E4")]
+	[FieldOffset(Offset = "0x8C")]
 	public float characterSpacing;
 
-	[Token(Token = "0x4000132")]
-	[FieldOffset(Offset = "0xC4")]
+	[Token(Token = "0x40002E5")]
+	[FieldOffset(Offset = "0x90")]
 	public float wordSpacing;
 
-	[Token(Token = "0x4000133")]
-	[FieldOffset(Offset = "0xC8")]
-	public float lineSpacing;
+	[Token(Token = "0x40002E6")]
+	public const float lineSpacing = 0f;
 
-	[Token(Token = "0x4000134")]
-	[FieldOffset(Offset = "0xCC")]
+	[Token(Token = "0x40002E7")]
+	[FieldOffset(Offset = "0x94")]
 	public float paragraphSpacing;
 
-	[Token(Token = "0x4000135")]
-	[FieldOffset(Offset = "0xD0")]
-	public float lineSpacingMax;
+	[Token(Token = "0x40002E8")]
+	public const float lineSpacingMax = 0f;
 
-	[Token(Token = "0x4000136")]
-	[FieldOffset(Offset = "0xD4")]
+	[Token(Token = "0x40002E9")]
+	[FieldOffset(Offset = "0x98")]
 	public TextWrappingMode textWrappingMode;
 
-	[Token(Token = "0x4000137")]
-	[FieldOffset(Offset = "0xD8")]
-	public int maxVisibleCharacters;
+	[Token(Token = "0x40002EA")]
+	public const int maxVisibleCharacters = 99999;
 
-	[Token(Token = "0x4000138")]
-	[FieldOffset(Offset = "0xDC")]
-	public int maxVisibleWords;
+	[Token(Token = "0x40002EB")]
+	public const int maxVisibleWords = 99999;
 
-	[Token(Token = "0x4000139")]
-	[FieldOffset(Offset = "0xE0")]
-	public int maxVisibleLines;
+	[Token(Token = "0x40002EC")]
+	public const int maxVisibleLines = 99999;
 
-	[Token(Token = "0x400013A")]
-	[FieldOffset(Offset = "0xE4")]
-	public int firstVisibleCharacter;
+	[Token(Token = "0x40002ED")]
+	public const int firstVisibleCharacter = 0;
 
-	[Token(Token = "0x400013B")]
-	[FieldOffset(Offset = "0xE8")]
-	public bool useMaxVisibleDescender;
+	[Token(Token = "0x40002EE")]
+	public const bool useMaxVisibleDescender = false;
 
-	[Token(Token = "0x400013C")]
-	[FieldOffset(Offset = "0xEC")]
+	[Token(Token = "0x40002EF")]
+	[FieldOffset(Offset = "0x9C")]
 	public TextFontWeight fontWeight;
 
-	[Token(Token = "0x400013D")]
-	[FieldOffset(Offset = "0xF0")]
-	public int pageToDisplay;
-
-	[Token(Token = "0x400013E")]
-	[FieldOffset(Offset = "0xF4")]
-	public TextureMapping horizontalMapping;
-
-	[Token(Token = "0x400013F")]
-	[FieldOffset(Offset = "0xF8")]
-	public TextureMapping verticalMapping;
-
-	[Token(Token = "0x4000140")]
-	[FieldOffset(Offset = "0xFC")]
-	public float uvLineOffset;
-
-	[Token(Token = "0x4000141")]
-	[FieldOffset(Offset = "0x100")]
-	public VertexSortingOrder geometrySortingOrder;
-
-	[Token(Token = "0x4000142")]
-	[FieldOffset(Offset = "0x104")]
-	public bool inverseYAxis;
-
-	[Token(Token = "0x4000143")]
-	[FieldOffset(Offset = "0x105")]
+	[Token(Token = "0x40002F0")]
+	[FieldOffset(Offset = "0xA0")]
 	public bool isIMGUI;
 
-	[Token(Token = "0x4000144")]
-	[FieldOffset(Offset = "0x108")]
-	public float charWidthMaxAdj;
+	[Token(Token = "0x40002F1")]
+	public const float charWidthMaxAdj = 0f;
 
-	[Token(Token = "0x4000145")]
-	[FieldOffset(Offset = "0x10C")]
-	internal TextInputSource inputSource;
+	[Token(Token = "0x40002F2")]
+	[FieldOffset(Offset = "0xA4")]
+	public float pixelsPerPoint;
 
-	[Token(Token = "0x60000F2")]
-	[Address(RVA = "0x4EBA750", Offset = "0x4EBA750", VA = "0x4EBA750", Slot = "4")]
+	[Token(Token = "0x1700006B")]
+	public RenderedText renderedText
+	{
+		[Token(Token = "0x600022A")]
+		[Address(RVA = "0x5608C0", Offset = "0x55EEC0", VA = "0x1805608C0")]
+		get
+		{
+			return default(RenderedText);
+		}
+		[Token(Token = "0x600022B")]
+		[Address(RVA = "0x304A320", Offset = "0x3048920", VA = "0x18304A320")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x1700006C")]
+	public string text
+	{
+		[Token(Token = "0x600022C")]
+		[Address(RVA = "0x304A2A0", Offset = "0x30488A0", VA = "0x18304A2A0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600022D")]
+		[Address(RVA = "0x304A360", Offset = "0x3048960", VA = "0x18304A360")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x600022E")]
+	[Address(RVA = "0x304A220", Offset = "0x3048820", VA = "0x18304A220")]
+	public TextGenerationSettings()
+	{
+	}
+
+	[Token(Token = "0x600022F")]
+	[Address(RVA = "0x3048710", Offset = "0x3046D10", VA = "0x183048710", Slot = "4")]
 	public bool Equals(TextGenerationSettings other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000F3")]
-	[Address(RVA = "0x4EBAD70", Offset = "0x4EBAD70", VA = "0x4EBAD70", Slot = "0")]
+	[Token(Token = "0x6000230")]
+	[Address(RVA = "0x3048AB0", Offset = "0x30470B0", VA = "0x183048AB0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000F4")]
-	[Address(RVA = "0x4EBAE50", Offset = "0x4EBAE50", VA = "0x4EBAE50", Slot = "2")]
+	[Token(Token = "0x6000231")]
+	[Address(RVA = "0x3048BB0", Offset = "0x30471B0", VA = "0x183048BB0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x4EBB380", Offset = "0x4EBB380", VA = "0x4EBB380")]
+	[Token(Token = "0x6000232")]
+	[Address(RVA = "0x304A300", Offset = "0x3048900", VA = "0x18304A300")]
 	public static bool operator !=(TextGenerationSettings left, TextGenerationSettings right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000F6")]
-	[Address(RVA = "0x4EBB390", Offset = "0x4EBB390", VA = "0x4EBB390", Slot = "3")]
+	[Token(Token = "0x6000233")]
+	[Address(RVA = "0x3048E90", Offset = "0x3047490", VA = "0x183048E90", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
-	}
-
-	[Token(Token = "0x60000F7")]
-	[Address(RVA = "0x4EBDB70", Offset = "0x4EBDB70", VA = "0x4EBDB70")]
-	public TextGenerationSettings()
-	{
 	}
 }

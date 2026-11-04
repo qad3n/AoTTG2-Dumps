@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.SceneManagement;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x2000251")]
 [Flags]
 public enum LocalPhysicsMode
 {
-	[Token(Token = "0x40006B6")]
+	[Token(Token = "0x4000760")]
 	None = 0,
-	[Token(Token = "0x40006B7")]
+	[Token(Token = "0x4000761")]
 	Physics2D = 1,
-	[Token(Token = "0x40006B8")]
+	[Token(Token = "0x4000762")]
 	Physics3D = 2
 }

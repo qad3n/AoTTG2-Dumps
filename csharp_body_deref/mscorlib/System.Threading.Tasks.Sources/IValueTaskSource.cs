@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks.Sources;
 
-[Token(Token = "0x2000266")]
+[Token(Token = "0x2000296")]
 public interface IValueTaskSource
 {
-	[Token(Token = "0x6001507")]
+	[Token(Token = "0x6001573")]
 	ValueTaskSourceStatus GetStatus(short token);
 
-	[Token(Token = "0x6001508")]
+	[Token(Token = "0x6001574")]
 	void OnCompleted(Action<object> continuation, object state, short token, ValueTaskSourceOnCompletedFlags flags);
 
-	[Token(Token = "0x6001509")]
+	[Token(Token = "0x6001575")]
 	void GetResult(short token);
 }
-[Token(Token = "0x2000267")]
+[Token(Token = "0x2000297")]
 public interface IValueTaskSource<out TResult>
 {
-	[Token(Token = "0x600150A")]
+	[Token(Token = "0x6001576")]
 	ValueTaskSourceStatus GetStatus(short token);
 
-	[Token(Token = "0x600150B")]
+	[Token(Token = "0x6001577")]
 	void OnCompleted(Action<object> continuation, object state, short token, ValueTaskSourceOnCompletedFlags flags);
 
-	[Token(Token = "0x600150C")]
+	[Token(Token = "0x6001578")]
 	TResult GetResult(short token);
 }

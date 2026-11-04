@@ -11,47 +11,47 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015F")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Mono/AssemblyFullName.h")]
+[Token(Token = "0x2000192")]
 [UnityEngine.Scripting.RequiredByNativeCode(GenerateProxy = true)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Mono/AssemblyFullName.h")]
 internal struct AssemblyFullName
 {
-	[Token(Token = "0x400056D")]
+	[Token(Token = "0x40005FE")]
 	[FieldOffset(Offset = "0x0")]
 	[UnityEngine.Bindings.NativeName("name")]
 	public string Name;
 
-	[Token(Token = "0x400056E")]
+	[Token(Token = "0x40005FF")]
 	[FieldOffset(Offset = "0x8")]
 	[UnityEngine.Bindings.NativeName("version")]
 	public AssemblyVersion Version;
 
-	[Token(Token = "0x400056F")]
+	[Token(Token = "0x4000600")]
 	[FieldOffset(Offset = "0x10")]
 	[UnityEngine.Bindings.NativeName("publicKeyToken")]
 	public string PublicKeyToken;
 
-	[Token(Token = "0x4000570")]
+	[Token(Token = "0x4000601")]
 	[FieldOffset(Offset = "0x18")]
 	[UnityEngine.Bindings.NativeName("culture")]
 	public string Culture;
 
-	[Token(Token = "0x60009E0")]
-	[Address(RVA = "0x4DF6C30", Offset = "0x4DF6C30", VA = "0x4DF6C30", Slot = "0")]
+	[Token(Token = "0x6000D20")]
+	[Address(RVA = "0x2F0E280", Offset = "0x2F0C880", VA = "0x182F0E280", Slot = "0")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60009E1")]
-	[Address(RVA = "0x4DF6D00", Offset = "0x4DF6D00", VA = "0x4DF6D00", Slot = "2")]
+	[Token(Token = "0x6000D21")]
+	[Address(RVA = "0x2F0E390", Offset = "0x2F0C990", VA = "0x182F0E390", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60009E2")]
-	[Address(RVA = "0x4DF6D80", Offset = "0x4DF6D80", VA = "0x4DF6D80", Slot = "3")]
+	[Token(Token = "0x6000D22")]
+	[Address(RVA = "0x2F0E410", Offset = "0x2F0CA10", VA = "0x182F0E410", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

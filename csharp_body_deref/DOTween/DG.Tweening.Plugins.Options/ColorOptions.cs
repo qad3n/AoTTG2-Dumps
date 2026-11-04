@@ -17,7 +17,7 @@ public struct ColorOptions : IPlugOptions
 	public bool alphaOnly;
 
 	[Token(Token = "0x6000376")]
-	[Address(RVA = "0x237F8E0", Offset = "0x237F8E0", VA = "0x237F8E0", Slot = "4")]
+	[Address(RVA = "0x564910", Offset = "0x562F10", VA = "0x180564910", Slot = "4")]
 	public void Reset()
 	{
 	}

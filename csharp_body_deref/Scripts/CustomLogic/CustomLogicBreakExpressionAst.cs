@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200028C")]
+[Token(Token = "0x20003D6")]
 internal class CustomLogicBreakExpressionAst : CustomLogicBaseExpressionAst
 {
-	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x3FB8500", Offset = "0x3FB8500", VA = "0x3FB8500")]
+	[Token(Token = "0x60017F2")]
+	[Address(RVA = "0x1ECDB30", Offset = "0x1ECC130", VA = "0x181ECDB30")]
 	public CustomLogicBreakExpressionAst(int line)
 	{
 	}

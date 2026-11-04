@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200017E")]
+[Token(Token = "0x2000284")]
 public sealed class AottgMainMenuTipPanel : AottgComponent
 {
-	[Token(Token = "0x4000852")]
+	[Token(Token = "0x4000CF3")]
 	public const string LayerId = "main-menu-tip-layer";
 
-	[Token(Token = "0x4000853")]
+	[Token(Token = "0x4000CF4")]
 	public const string PanelId = "main-menu-tip-panel";
 
-	[Token(Token = "0x4000854")]
+	[Token(Token = "0x4000CF5")]
 	public const string BackgroundId = "main-menu-tip-bg";
 
-	[Token(Token = "0x4000855")]
+	[Token(Token = "0x4000CF6")]
 	public const string TextId = "main-menu-tip-text";
 
-	[Token(Token = "0x4000856")]
+	[Token(Token = "0x4000CF7")]
 	private const string TipMotion = "mainMenuTipPanel";
 
-	[Token(Token = "0x4000857")]
+	[Token(Token = "0x4000CF8")]
 	private const string TipSprite = "UI/Sprites/Elements/Brush";
 
-	[Token(Token = "0x6000871")]
-	[Address(RVA = "0x43F7DA0", Offset = "0x43F7DA0", VA = "0x43F7DA0", Slot = "4")]
+	[Token(Token = "0x6000F25")]
+	[Address(RVA = "0x1DE3C90", Offset = "0x1DE2290", VA = "0x181DE3C90", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}
 
-	[Token(Token = "0x6000872")]
-	[Address(RVA = "0x43F7CA0", Offset = "0x43F7CA0", VA = "0x43F7CA0")]
+	[Token(Token = "0x6000F26")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgMainMenuTipPanel()
 	{
 	}

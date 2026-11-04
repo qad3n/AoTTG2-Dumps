@@ -10,61 +10,61 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000784")]
+[Token(Token = "0x200090F")]
 internal class DebugTesting : MonoBehaviour
 {
-	[Token(Token = "0x400243A")]
+	[Token(Token = "0x4002D09")]
 	[FieldOffset(Offset = "0x0")]
 	private static DebugTesting _instance;
 
-	[Token(Token = "0x400243B")]
+	[Token(Token = "0x4002D0A")]
 	[FieldOffset(Offset = "0x8")]
 	public static bool DebugColliders;
 
-	[Token(Token = "0x60048BF")]
-	[Address(RVA = "0x43B5060", Offset = "0x43B5060", VA = "0x43B5060")]
+	[Token(Token = "0x6005535")]
+	[Address(RVA = "0x234D530", Offset = "0x234BB30", VA = "0x18234D530")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60048C0")]
-	[Address(RVA = "0x43B5120", Offset = "0x43B5120", VA = "0x43B5120")]
+	[Token(Token = "0x6005536")]
+	[Address(RVA = "0x234D990", Offset = "0x234BF90", VA = "0x18234D990")]
 	public static void RunTests()
 	{
 	}
 
-	[Token(Token = "0x60048C1")]
-	[Address(RVA = "0x43B5160", Offset = "0x43B5160", VA = "0x43B5160")]
+	[Token(Token = "0x6005537")]
+	[Address(RVA = "0x234D950", Offset = "0x234BF50", VA = "0x18234D950")]
 	public static void RunLateTests()
 	{
 	}
 
-	[Token(Token = "0x60048C2")]
-	[Address(RVA = "0x43B51A0", Offset = "0x43B51A0", VA = "0x43B51A0")]
+	[Token(Token = "0x6005538")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private static void OnLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x60048C3")]
-	[Address(RVA = "0x43B51B0", Offset = "0x43B51B0", VA = "0x43B51B0")]
+	[Token(Token = "0x6005539")]
+	[Address(RVA = "0x234D5F0", Offset = "0x234BBF0", VA = "0x18234D5F0")]
 	public static void Log(object message)
 	{
 	}
 
-	[Token(Token = "0x60048C4")]
-	[Address(RVA = "0x43B5220", Offset = "0x43B5220", VA = "0x43B5220")]
+	[Token(Token = "0x600553A")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x60048C5")]
-	[Address(RVA = "0x43B5230", Offset = "0x43B5230", VA = "0x43B5230")]
+	[Token(Token = "0x600553B")]
+	[Address(RVA = "0x234D640", Offset = "0x234BC40", VA = "0x18234D640")]
 	public static void RunDebugCommand(string command)
 	{
 	}
 
-	[Token(Token = "0x60048C6")]
-	[Address(RVA = "0x43B5560", Offset = "0x43B5560", VA = "0x43B5560")]
+	[Token(Token = "0x600553C")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DebugTesting()
 	{
 	}

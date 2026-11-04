@@ -10,118 +10,118 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000677")]
+[Token(Token = "0x20007D2")]
 internal class AboutPopup : BasePopup
 {
-	[Token(Token = "0x17000C6C")]
+	[Token(Token = "0x17000DB2")]
 	protected override string Title
 	{
-		[Token(Token = "0x60040D8")]
-		[Address(RVA = "0x42F08E0", Offset = "0x42F08E0", VA = "0x42F08E0", Slot = "35")]
+		[Token(Token = "0x6004BCD")]
+		[Address(RVA = "0x18C6010", Offset = "0x18C4610", VA = "0x1818C6010", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C6D")]
+	[Token(Token = "0x17000DB3")]
 	protected override float Width
 	{
-		[Token(Token = "0x60040D9")]
-		[Address(RVA = "0x42F0900", Offset = "0x42F0900", VA = "0x42F0900", Slot = "5")]
+		[Token(Token = "0x6004BCE")]
+		[Address(RVA = "0x21BB440", Offset = "0x21B9A40", VA = "0x1821BB440", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C6E")]
+	[Token(Token = "0x17000DB4")]
 	protected override float Height
 	{
-		[Token(Token = "0x60040DA")]
-		[Address(RVA = "0x42F0910", Offset = "0x42F0910", VA = "0x42F0910", Slot = "6")]
+		[Token(Token = "0x6004BCF")]
+		[Address(RVA = "0x21500A0", Offset = "0x214E6A0", VA = "0x1821500A0", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C6F")]
+	[Token(Token = "0x17000DB5")]
 	protected override bool CategoryPanel
 	{
-		[Token(Token = "0x60040DB")]
-		[Address(RVA = "0x42F0920", Offset = "0x42F0920", VA = "0x42F0920", Slot = "16")]
+		[Token(Token = "0x6004BD0")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "16")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C70")]
+	[Token(Token = "0x17000DB6")]
 	protected override bool CategoryButtons
 	{
-		[Token(Token = "0x60040DC")]
-		[Address(RVA = "0x42F0930", Offset = "0x42F0930", VA = "0x42F0930", Slot = "42")]
+		[Token(Token = "0x6004BD1")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C71")]
+	[Token(Token = "0x17000DB7")]
 	protected override string DefaultCategoryPanel
 	{
-		[Token(Token = "0x60040DD")]
-		[Address(RVA = "0x42F0940", Offset = "0x42F0940", VA = "0x42F0940", Slot = "19")]
+		[Token(Token = "0x6004BD2")]
+		[Address(RVA = "0x226EE50", Offset = "0x226D450", VA = "0x18226EE50", Slot = "19")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C72")]
+	[Token(Token = "0x17000DB8")]
 	protected override bool UseSound
 	{
-		[Token(Token = "0x60040DE")]
-		[Address(RVA = "0x42F0970", Offset = "0x42F0970", VA = "0x42F0970", Slot = "53")]
+		[Token(Token = "0x6004BD3")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "53")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60040DF")]
-	[Address(RVA = "0x42F0980", Offset = "0x42F0980", VA = "0x42F0980", Slot = "20")]
+	[Token(Token = "0x6004BD4")]
+	[Address(RVA = "0x226EE30", Offset = "0x226D430", VA = "0x18226EE30", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60040E0")]
-	[Address(RVA = "0x42F0BE0", Offset = "0x42F0BE0", VA = "0x42F0BE0", Slot = "44")]
+	[Token(Token = "0x6004BD5")]
+	[Address(RVA = "0x226EB70", Offset = "0x226D170", VA = "0x18226EB70", Slot = "44")]
 	protected override void SetupTopButtons()
 	{
 	}
 
-	[Token(Token = "0x60040E1")]
-	[Address(RVA = "0x42F0EB0", Offset = "0x42F0EB0", VA = "0x42F0EB0", Slot = "27")]
+	[Token(Token = "0x6004BD6")]
+	[Address(RVA = "0x226E8B0", Offset = "0x226CEB0", VA = "0x18226E8B0", Slot = "27")]
 	protected override void RegisterCategoryPanels()
 	{
 	}
 
-	[Token(Token = "0x60040E2")]
-	[Address(RVA = "0x42F09A0", Offset = "0x42F09A0", VA = "0x42F09A0")]
+	[Token(Token = "0x6004BD7")]
+	[Address(RVA = "0x226E950", Offset = "0x226CF50", VA = "0x18226E950")]
 	private void SetupBottomButtons()
 	{
 	}
 
-	[Token(Token = "0x60040E3")]
-	[Address(RVA = "0x42F0F60", Offset = "0x42F0F60", VA = "0x42F0F60")]
+	[Token(Token = "0x6004BD8")]
+	[Address(RVA = "0x226E850", Offset = "0x226CE50", VA = "0x18226E850")]
 	private void OnBottomBarButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60040E4")]
-	[Address(RVA = "0x42F0FD0", Offset = "0x42F0FD0", VA = "0x42F0FD0")]
+	[Token(Token = "0x6004BD9")]
+	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
 	public AboutPopup()
 	{
 	}

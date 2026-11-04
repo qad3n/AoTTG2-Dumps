@@ -31,7 +31,7 @@ internal class EnumMap : ObjectMap
 		public string XmlName
 		{
 			[Token(Token = "0x6000F10")]
-			[Address(RVA = "0x483D7A0", Offset = "0x483D7A0", VA = "0x483D7A0")]
+			[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 			get
 			{
 				return null;
@@ -42,7 +42,7 @@ internal class EnumMap : ObjectMap
 		public string EnumName
 		{
 			[Token(Token = "0x6000F11")]
-			[Address(RVA = "0x483D7B0", Offset = "0x483D7B0", VA = "0x483D7B0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 			get
 			{
 				return null;
@@ -53,7 +53,7 @@ internal class EnumMap : ObjectMap
 		public long Value
 		{
 			[Token(Token = "0x6000F12")]
-			[Address(RVA = "0x483D7C0", Offset = "0x483D7C0", VA = "0x483D7C0")]
+			[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 			get
 			{
 				return default(long);
@@ -61,7 +61,7 @@ internal class EnumMap : ObjectMap
 		}
 
 		[Token(Token = "0x6000F0F")]
-		[Address(RVA = "0x483D750", Offset = "0x483D750", VA = "0x483D750")]
+		[Address(RVA = "0x277DB20", Offset = "0x277C120", VA = "0x18277DB20")]
 		public EnumMapMember(string xmlName, string enumName, long value)
 		{
 		}
@@ -91,7 +91,7 @@ internal class EnumMap : ObjectMap
 	public bool IsFlags
 	{
 		[Token(Token = "0x6000F09")]
-		[Address(RVA = "0x483D350", Offset = "0x483D350", VA = "0x483D350")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30")]
 		get
 		{
 			return default(bool);
@@ -102,7 +102,7 @@ internal class EnumMap : ObjectMap
 	public string[] EnumNames
 	{
 		[Token(Token = "0x6000F0A")]
-		[Address(RVA = "0x483D360", Offset = "0x483D360", VA = "0x483D360")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -113,7 +113,7 @@ internal class EnumMap : ObjectMap
 	public string[] XmlNames
 	{
 		[Token(Token = "0x6000F0B")]
-		[Address(RVA = "0x483D370", Offset = "0x483D370", VA = "0x483D370")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -124,7 +124,7 @@ internal class EnumMap : ObjectMap
 	public long[] Values
 	{
 		[Token(Token = "0x6000F0C")]
-		[Address(RVA = "0x483D380", Offset = "0x483D380", VA = "0x483D380")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
@@ -132,20 +132,20 @@ internal class EnumMap : ObjectMap
 	}
 
 	[Token(Token = "0x6000F08")]
-	[Address(RVA = "0x483D1A0", Offset = "0x483D1A0", VA = "0x483D1A0")]
+	[Address(RVA = "0x277E1B0", Offset = "0x277C7B0", VA = "0x18277E1B0")]
 	public EnumMap(EnumMapMember[] members, bool isFlags)
 	{
 	}
 
 	[Token(Token = "0x6000F0D")]
-	[Address(RVA = "0x4836250", Offset = "0x4836250", VA = "0x4836250")]
+	[Address(RVA = "0x277DE40", Offset = "0x277C440", VA = "0x18277DE40")]
 	public string GetXmlName(string typeName, object enumValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F0E")]
-	[Address(RVA = "0x483D390", Offset = "0x483D390", VA = "0x483D390")]
+	[Address(RVA = "0x277DB70", Offset = "0x277C170", VA = "0x18277DB70")]
 	public string GetEnumName(string typeName, string xmlName)
 	{
 		return null;

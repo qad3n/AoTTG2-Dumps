@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.MouseEnterWindowEvent
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -9,42 +9,36 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001B9")]
+[Token(Token = "0x2000200")]
 [EventCategory(EventCategory.EnterLeaveWindow)]
 public class MouseEnterWindowEvent : MouseEventBase<MouseEnterWindowEvent>
 {
-	[Token(Token = "0x6000B8A")]
-	[Address(RVA = "0x50344C0", Offset = "0x50344C0", VA = "0x50344C0")]
+	[Token(Token = "0x6000DAD")]
+	[Address(RVA = "0x3267E00", Offset = "0x3266400", VA = "0x183267E00")]
 	static MouseEnterWindowEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B8B")]
-	[Address(RVA = "0x5034590", Offset = "0x5034590", VA = "0x5034590", Slot = "13")]
+	[Token(Token = "0x6000DAE")]
+	[Address(RVA = "0x3267D40", Offset = "0x3266340", VA = "0x183267D40", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000B8C")]
-	[Address(RVA = "0x50345D0", Offset = "0x50345D0", VA = "0x50345D0")]
+	[Token(Token = "0x6000DAF")]
+	[Address(RVA = "0x3267DB0", Offset = "0x32663B0", VA = "0x183267DB0")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000B8D")]
-	[Address(RVA = "0x50345E0", Offset = "0x50345E0", VA = "0x50345E0")]
+	[Token(Token = "0x6000DB0")]
+	[Address(RVA = "0x3267EE0", Offset = "0x32664E0", VA = "0x183267EE0")]
 	public MouseEnterWindowEvent()
 	{
 	}
 
-	[Token(Token = "0x6000B8E")]
-	[Address(RVA = "0x5034620", Offset = "0x5034620", VA = "0x5034620", Slot = "9")]
-	protected internal override void PostDispatch(IPanel panel)
-	{
-	}
-
-	[Token(Token = "0x6000B8F")]
-	[Address(RVA = "0x5034760", Offset = "0x5034760", VA = "0x5034760", Slot = "10")]
+	[Token(Token = "0x6000DB1")]
+	[Address(RVA = "0x3267BE0", Offset = "0x32661E0", VA = "0x183267BE0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

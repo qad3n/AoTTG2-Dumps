@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000127")]
 public sealed class MultiplicationHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000BA7")]
-	[Address(RVA = "0x4D24810", Offset = "0x4D24810", VA = "0x4D24810")]
+	[Token(Token = "0x6000BB1")]
+	[Address(RVA = "0x2E14210", Offset = "0x2E12810", VA = "0x182E14210")]
 	public MultiplicationHandler()
 	{
 	}

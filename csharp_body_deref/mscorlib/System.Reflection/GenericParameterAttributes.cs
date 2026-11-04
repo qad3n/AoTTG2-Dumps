@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004DC")]
+[Token(Token = "0x200050C")]
 [Flags]
 public enum GenericParameterAttributes
 {

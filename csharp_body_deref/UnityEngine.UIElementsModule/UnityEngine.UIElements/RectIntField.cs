@@ -5,84 +5,87 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200006A")]
+[Token(Token = "0x20000A6")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public class RectIntField : BaseCompositeField<RectInt, IntegerField, int>
 {
-	[Token(Token = "0x200006B")]
+	[Token(Token = "0x20000A7")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<RectIntField, UxmlTraits>
 	{
-		[Token(Token = "0x6000364")]
-		[Address(RVA = "0x4F335C0", Offset = "0x4F335C0", VA = "0x4F335C0")]
+		[Token(Token = "0x6000534")]
+		[Address(RVA = "0x31E3A80", Offset = "0x31E2080", VA = "0x1831E3A80")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x200006C")]
+	[Token(Token = "0x20000A8")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : BaseField<RectInt>.UxmlTraits
 	{
-		[Token(Token = "0x40001D3")]
-		[FieldOffset(Offset = "0x80")]
+		[Token(Token = "0x40002FE")]
+		[FieldOffset(Offset = "0x98")]
 		private UxmlIntAttributeDescription m_XValue;
 
-		[Token(Token = "0x40001D4")]
-		[FieldOffset(Offset = "0x88")]
+		[Token(Token = "0x40002FF")]
+		[FieldOffset(Offset = "0xA0")]
 		private UxmlIntAttributeDescription m_YValue;
 
-		[Token(Token = "0x40001D5")]
-		[FieldOffset(Offset = "0x90")]
+		[Token(Token = "0x4000300")]
+		[FieldOffset(Offset = "0xA8")]
 		private UxmlIntAttributeDescription m_WValue;
 
-		[Token(Token = "0x40001D6")]
-		[FieldOffset(Offset = "0x98")]
+		[Token(Token = "0x4000301")]
+		[FieldOffset(Offset = "0xB0")]
 		private UxmlIntAttributeDescription m_HValue;
 
-		[Token(Token = "0x6000365")]
-		[Address(RVA = "0x4F33600", Offset = "0x4F33600", VA = "0x4F33600", Slot = "4")]
+		[Token(Token = "0x6000535")]
+		[Address(RVA = "0x31E4490", Offset = "0x31E2A90", VA = "0x1831E4490", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
-		[Token(Token = "0x6000366")]
-		[Address(RVA = "0x4F33850", Offset = "0x4F33850", VA = "0x4F33850")]
+		[Token(Token = "0x6000536")]
+		[Address(RVA = "0x31E6D40", Offset = "0x31E5340", VA = "0x1831E6D40")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x40001D0")]
+	[Token(Token = "0x40002FB")]
 	[FieldOffset(Offset = "0x0")]
 	public new static readonly string ussClassName;
 
-	[Token(Token = "0x40001D1")]
+	[Token(Token = "0x40002FC")]
 	[FieldOffset(Offset = "0x8")]
 	public new static readonly string labelUssClassName;
 
-	[Token(Token = "0x40001D2")]
+	[Token(Token = "0x40002FD")]
 	[FieldOffset(Offset = "0x10")]
 	public new static readonly string inputUssClassName;
 
-	[Token(Token = "0x6000360")]
-	[Address(RVA = "0x4F32AF0", Offset = "0x4F32AF0", VA = "0x4F32AF0", Slot = "115")]
+	[Token(Token = "0x6000530")]
+	[Address(RVA = "0x31DFB50", Offset = "0x31DE150", VA = "0x1831DFB50", Slot = "161")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000361")]
-	[Address(RVA = "0x4F33390", Offset = "0x4F33390", VA = "0x4F33390")]
+	[Token(Token = "0x6000531")]
+	[Address(RVA = "0x31E0470", Offset = "0x31DEA70", VA = "0x1831E0470")]
 	public RectIntField()
 	{
 	}
 
-	[Token(Token = "0x6000362")]
-	[Address(RVA = "0x4F333A0", Offset = "0x4F333A0", VA = "0x4F333A0")]
+	[Token(Token = "0x6000532")]
+	[Address(RVA = "0x31E05B0", Offset = "0x31DEBB0", VA = "0x1831E05B0")]
 	public RectIntField(string label)
 	{
 	}

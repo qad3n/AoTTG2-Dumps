@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x2000036")]
 internal class AudioInEnumeratorNotSupported : DeviceEnumeratorNotSupported
 {
-	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x3F1A170", Offset = "0x3F1A170", VA = "0x3F1A170")]
+	[Token(Token = "0x6000128")]
+	[Address(RVA = "0x1D67D80", Offset = "0x1D66380", VA = "0x181D67D80")]
 	public AudioInEnumeratorNotSupported(ILogger logger)
 	{
 	}

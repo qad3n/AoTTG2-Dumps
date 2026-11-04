@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000034")]
+[Token(Token = "0x2000066")]
 internal interface IConstructorWithCount<out T> : IConstructor
 {
-	[Token(Token = "0x6000163")]
+	[Token(Token = "0x600017F")]
 	T InstantiateWithCount(int count);
 }

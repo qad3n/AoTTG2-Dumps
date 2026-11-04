@@ -17,8 +17,8 @@ public abstract class MemberBinding
 	[Token(Token = "0x170000BF")]
 	public MemberBindingType BindingType
 	{
-		[Token(Token = "0x600046F")]
-		[Address(RVA = "0x44BCCF0", Offset = "0x44BCCF0", VA = "0x44BCCF0")]
+		[Token(Token = "0x600046E")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,8 +29,8 @@ public abstract class MemberBinding
 	[Token(Token = "0x170000C0")]
 	public MemberInfo Member
 	{
-		[Token(Token = "0x6000470")]
-		[Address(RVA = "0x44BCD00", Offset = "0x44BCD00", VA = "0x44BCD00")]
+		[Token(Token = "0x600046F")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{

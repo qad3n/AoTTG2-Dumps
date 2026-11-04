@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A7")]
+[Token(Token = "0x200031F")]
 public enum RenderBufferLoadAction
 {
-	[Token(Token = "0x4000711")]
+	[Token(Token = "0x4000810")]
 	Load,
-	[Token(Token = "0x4000712")]
+	[Token(Token = "0x4000811")]
 	Clear,
-	[Token(Token = "0x4000713")]
+	[Token(Token = "0x4000812")]
 	DontCare
 }

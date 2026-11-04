@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000F2")]
+[Token(Token = "0x200011A")]
 public class NullReferenceException : SystemException
 {
-	[Token(Token = "0x60008C0")]
-	[Address(RVA = "0x3CB94B0", Offset = "0x3CB94B0", VA = "0x3CB94B0")]
+	[Token(Token = "0x60008FB")]
+	[Address(RVA = "0x1B2E4B0", Offset = "0x1B2CAB0", VA = "0x181B2E4B0")]
 	public NullReferenceException()
 	{
 	}
 
-	[Token(Token = "0x60008C1")]
-	[Address(RVA = "0x3CB94F0", Offset = "0x3CB94F0", VA = "0x3CB94F0")]
+	[Token(Token = "0x60008FC")]
+	[Address(RVA = "0x1B2E490", Offset = "0x1B2CA90", VA = "0x181B2E490")]
 	public NullReferenceException(string message)
 	{
 	}
 
-	[Token(Token = "0x60008C2")]
-	[Address(RVA = "0x3CB9510", Offset = "0x3CB9510", VA = "0x3CB9510")]
+	[Token(Token = "0x60008FD")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected NullReferenceException(SerializationInfo info, StreamingContext context)
 	{
 	}

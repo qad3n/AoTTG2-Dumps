@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200007B")]
+[Token(Token = "0x2000097")]
 public enum NetworkReachability
 {
-	[Token(Token = "0x4000111")]
+	[Token(Token = "0x4000158")]
 	NotReachable,
-	[Token(Token = "0x4000112")]
+	[Token(Token = "0x4000159")]
 	ReachableViaCarrierDataNetwork,
-	[Token(Token = "0x4000113")]
+	[Token(Token = "0x400015A")]
 	ReachableViaLocalAreaNetwork
 }

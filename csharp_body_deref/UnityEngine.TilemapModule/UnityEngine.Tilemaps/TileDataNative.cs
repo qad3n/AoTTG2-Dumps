@@ -16,27 +16,27 @@ namespace UnityEngine.Tilemaps;
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal struct TileDataNative
 {
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x400002F")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Sprite;
 
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000030")]
 	[FieldOffset(Offset = "0x4")]
 	private Color m_Color;
 
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x14")]
 	private Matrix4x4 m_Transform;
 
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000032")]
 	[FieldOffset(Offset = "0x54")]
 	private int m_GameObject;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000033")]
 	[FieldOffset(Offset = "0x58")]
 	private TileFlags m_Flags;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000034")]
 	[FieldOffset(Offset = "0x5C")]
 	private Tile.ColliderType m_ColliderType;
 }

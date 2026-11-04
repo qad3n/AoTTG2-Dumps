@@ -15,15 +15,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000D8")]
 	private sealed class AndSByte : AndInstruction
 	{
-		[Token(Token = "0x60005B0")]
-		[Address(RVA = "0x44C49D0", Offset = "0x44C49D0", VA = "0x44C49D0", Slot = "8")]
+		[Token(Token = "0x60005AF")]
+		[Address(RVA = "0x2427D30", Offset = "0x2426330", VA = "0x182427D30", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005B1")]
-		[Address(RVA = "0x44C4940", Offset = "0x44C4940", VA = "0x44C4940")]
+		[Token(Token = "0x60005B0")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndSByte()
 		{
 		}
@@ -32,15 +32,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000D9")]
 	private sealed class AndInt16 : AndInstruction
 	{
-		[Token(Token = "0x60005B2")]
-		[Address(RVA = "0x44C4A90", Offset = "0x44C4A90", VA = "0x44C4A90", Slot = "8")]
+		[Token(Token = "0x60005B1")]
+		[Address(RVA = "0x2427AB0", Offset = "0x24260B0", VA = "0x182427AB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005B3")]
-		[Address(RVA = "0x44C4950", Offset = "0x44C4950", VA = "0x44C4950")]
+		[Token(Token = "0x60005B2")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndInt16()
 		{
 		}
@@ -49,15 +49,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DA")]
 	private sealed class AndInt32 : AndInstruction
 	{
-		[Token(Token = "0x60005B4")]
-		[Address(RVA = "0x44C4B50", Offset = "0x44C4B50", VA = "0x44C4B50", Slot = "8")]
+		[Token(Token = "0x60005B3")]
+		[Address(RVA = "0x2427B80", Offset = "0x2426180", VA = "0x182427B80", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005B5")]
-		[Address(RVA = "0x44C4960", Offset = "0x44C4960", VA = "0x44C4960")]
+		[Token(Token = "0x60005B4")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndInt32()
 		{
 		}
@@ -66,15 +66,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DB")]
 	private sealed class AndInt64 : AndInstruction
 	{
-		[Token(Token = "0x60005B6")]
-		[Address(RVA = "0x44C4C10", Offset = "0x44C4C10", VA = "0x44C4C10", Slot = "8")]
+		[Token(Token = "0x60005B5")]
+		[Address(RVA = "0x2427C50", Offset = "0x2426250", VA = "0x182427C50", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005B7")]
-		[Address(RVA = "0x44C4970", Offset = "0x44C4970", VA = "0x44C4970")]
+		[Token(Token = "0x60005B6")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndInt64()
 		{
 		}
@@ -83,15 +83,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DC")]
 	private sealed class AndByte : AndInstruction
 	{
-		[Token(Token = "0x60005B8")]
-		[Address(RVA = "0x44C4CE0", Offset = "0x44C4CE0", VA = "0x44C4CE0", Slot = "8")]
+		[Token(Token = "0x60005B7")]
+		[Address(RVA = "0x24274B0", Offset = "0x2425AB0", VA = "0x1824274B0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005B9")]
-		[Address(RVA = "0x44C4980", Offset = "0x44C4980", VA = "0x44C4980")]
+		[Token(Token = "0x60005B8")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndByte()
 		{
 		}
@@ -100,15 +100,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DD")]
 	private sealed class AndUInt16 : AndInstruction
 	{
-		[Token(Token = "0x60005BA")]
-		[Address(RVA = "0x44C4DA0", Offset = "0x44C4DA0", VA = "0x44C4DA0", Slot = "8")]
+		[Token(Token = "0x60005B9")]
+		[Address(RVA = "0x2427E00", Offset = "0x2426400", VA = "0x182427E00", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005BB")]
-		[Address(RVA = "0x44C4990", Offset = "0x44C4990", VA = "0x44C4990")]
+		[Token(Token = "0x60005BA")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndUInt16()
 		{
 		}
@@ -117,15 +117,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DE")]
 	private sealed class AndUInt32 : AndInstruction
 	{
-		[Token(Token = "0x60005BC")]
-		[Address(RVA = "0x44C4E60", Offset = "0x44C4E60", VA = "0x44C4E60", Slot = "8")]
+		[Token(Token = "0x60005BB")]
+		[Address(RVA = "0x2427ED0", Offset = "0x24264D0", VA = "0x182427ED0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005BD")]
-		[Address(RVA = "0x44C49A0", Offset = "0x44C49A0", VA = "0x44C49A0")]
+		[Token(Token = "0x60005BC")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndUInt32()
 		{
 		}
@@ -134,15 +134,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000DF")]
 	private sealed class AndUInt64 : AndInstruction
 	{
-		[Token(Token = "0x60005BE")]
-		[Address(RVA = "0x44C4F30", Offset = "0x44C4F30", VA = "0x44C4F30", Slot = "8")]
+		[Token(Token = "0x60005BD")]
+		[Address(RVA = "0x2427FB0", Offset = "0x24265B0", VA = "0x182427FB0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005BF")]
-		[Address(RVA = "0x44C49B0", Offset = "0x44C49B0", VA = "0x44C49B0")]
+		[Token(Token = "0x60005BE")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndUInt64()
 		{
 		}
@@ -151,15 +151,15 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x20000E0")]
 	private sealed class AndBoolean : AndInstruction
 	{
-		[Token(Token = "0x60005C0")]
-		[Address(RVA = "0x44C5000", Offset = "0x44C5000", VA = "0x44C5000", Slot = "8")]
+		[Token(Token = "0x60005BF")]
+		[Address(RVA = "0x2427330", Offset = "0x2425930", VA = "0x182427330", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60005C1")]
-		[Address(RVA = "0x44C49C0", Offset = "0x44C49C0", VA = "0x44C49C0")]
+		[Token(Token = "0x60005C0")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public AndBoolean()
 		{
 		}
@@ -204,8 +204,8 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x17000140")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60005AB")]
-		[Address(RVA = "0x44C44C0", Offset = "0x44C44C0", VA = "0x44C44C0", Slot = "4")]
+		[Token(Token = "0x60005AA")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -215,8 +215,8 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x17000141")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005AC")]
-		[Address(RVA = "0x44C44D0", Offset = "0x44C44D0", VA = "0x44C44D0", Slot = "5")]
+		[Token(Token = "0x60005AB")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -226,22 +226,22 @@ internal abstract class AndInstruction : Instruction
 	[Token(Token = "0x17000142")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60005AD")]
-		[Address(RVA = "0x44C44E0", Offset = "0x44C44E0", VA = "0x44C44E0", Slot = "9")]
+		[Token(Token = "0x60005AC")]
+		[Address(RVA = "0x2427A80", Offset = "0x2426080", VA = "0x182427A80", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x44C4510", Offset = "0x44C4510", VA = "0x44C4510")]
+	[Token(Token = "0x60005AD")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private AndInstruction()
 	{
 	}
 
-	[Token(Token = "0x60005AF")]
-	[Address(RVA = "0x44C4520", Offset = "0x44C4520", VA = "0x44C4520")]
+	[Token(Token = "0x60005AE")]
+	[Address(RVA = "0x2427580", Offset = "0x2425B80", VA = "0x182427580")]
 	public static Instruction Create(Type type)
 	{
 		return null;

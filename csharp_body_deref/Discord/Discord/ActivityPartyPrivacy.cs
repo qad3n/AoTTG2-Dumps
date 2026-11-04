@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000027")]
+[Token(Token = "0x2000025")]
 public enum ActivityPartyPrivacy
 {
-	[Token(Token = "0x400005B")]
+	[Token(Token = "0x4000056")]
 	Private,
-	[Token(Token = "0x400005C")]
+	[Token(Token = "0x4000057")]
 	Public
 }

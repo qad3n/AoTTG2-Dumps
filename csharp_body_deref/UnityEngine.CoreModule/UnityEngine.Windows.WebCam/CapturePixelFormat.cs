@@ -10,16 +10,16 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Windows.WebCam;
 
-[Token(Token = "0x20001DB")]
+[Token(Token = "0x200021D")]
 [MovedFrom("UnityEngine.XR.WSA.WebCam")]
 public enum CapturePixelFormat
 {
-	[Token(Token = "0x4000671")]
+	[Token(Token = "0x4000708")]
 	BGRA32,
-	[Token(Token = "0x4000672")]
+	[Token(Token = "0x4000709")]
 	NV12,
-	[Token(Token = "0x4000673")]
+	[Token(Token = "0x400070A")]
 	JPEG,
-	[Token(Token = "0x4000674")]
+	[Token(Token = "0x400070B")]
 	PNG
 }

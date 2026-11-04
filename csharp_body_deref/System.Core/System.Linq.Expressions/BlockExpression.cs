@@ -19,8 +19,8 @@ public class BlockExpression : Expression
 	[Token(Token = "0x1700005A")]
 	public ReadOnlyCollection<Expression> Expressions
 	{
-		[Token(Token = "0x60002B2")]
-		[Address(RVA = "0x44ADE90", Offset = "0x44ADE90", VA = "0x44ADE90")]
+		[Token(Token = "0x60002B1")]
+		[Address(RVA = "0x24293C0", Offset = "0x24279C0", VA = "0x1824293C0")]
 		get
 		{
 			return null;
@@ -30,8 +30,8 @@ public class BlockExpression : Expression
 	[Token(Token = "0x1700005B")]
 	public ReadOnlyCollection<ParameterExpression> Variables
 	{
-		[Token(Token = "0x60002B3")]
-		[Address(RVA = "0x44ADEB0", Offset = "0x44ADEB0", VA = "0x44ADEB0")]
+		[Token(Token = "0x60002B2")]
+		[Address(RVA = "0x1AC4700", Offset = "0x1AC2D00", VA = "0x181AC4700")]
 		get
 		{
 			return null;
@@ -41,8 +41,8 @@ public class BlockExpression : Expression
 	[Token(Token = "0x1700005C")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60002B6")]
-		[Address(RVA = "0x44ADF70", Offset = "0x44ADF70", VA = "0x44ADF70", Slot = "4")]
+		[Token(Token = "0x60002B5")]
+		[Address(RVA = "0x232BB30", Offset = "0x232A130", VA = "0x18232BB30", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -52,8 +52,8 @@ public class BlockExpression : Expression
 	[Token(Token = "0x1700005D")]
 	public override Type Type
 	{
-		[Token(Token = "0x60002B7")]
-		[Address(RVA = "0x44ADF80", Offset = "0x44ADF80", VA = "0x44ADF80", Slot = "5")]
+		[Token(Token = "0x60002B6")]
+		[Address(RVA = "0x24293E0", Offset = "0x24279E0", VA = "0x1824293E0", Slot = "5")]
 		get
 		{
 			return null;
@@ -64,60 +64,60 @@ public class BlockExpression : Expression
 	[ExcludeFromCodeCoverage]
 	internal virtual int ExpressionCount
 	{
-		[Token(Token = "0x60002B9")]
-		[Address(RVA = "0x44AE000", Offset = "0x44AE000", VA = "0x44AE000", Slot = "11")]
+		[Token(Token = "0x60002B8")]
+		[Address(RVA = "0x2429390", Offset = "0x2427990", VA = "0x182429390", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60002B4")]
-	[Address(RVA = "0x44ADED0", Offset = "0x44ADED0", VA = "0x44ADED0")]
+	[Token(Token = "0x60002B3")]
+	[Address(RVA = "0x2429340", Offset = "0x2427940", VA = "0x182429340")]
 	internal BlockExpression()
 	{
 	}
 
-	[Token(Token = "0x60002B5")]
-	[Address(RVA = "0x44ADF40", Offset = "0x44ADF40", VA = "0x44ADF40", Slot = "9")]
+	[Token(Token = "0x60002B4")]
+	[Address(RVA = "0x24290D0", Offset = "0x24276D0", VA = "0x1824290D0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002B8")]
-	[Address(RVA = "0x44ADFD0", Offset = "0x44ADFD0", VA = "0x44ADFD0", Slot = "10")]
+	[Token(Token = "0x60002B7")]
+	[Address(RVA = "0x2429100", Offset = "0x2427700", VA = "0x182429100", Slot = "10")]
 	[ExcludeFromCodeCoverage]
 	internal virtual Expression GetExpression(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002BA")]
-	[Address(RVA = "0x44AE030", Offset = "0x44AE030", VA = "0x44AE030", Slot = "12")]
+	[Token(Token = "0x60002B9")]
+	[Address(RVA = "0x2429130", Offset = "0x2427730", VA = "0x182429130", Slot = "12")]
 	[ExcludeFromCodeCoverage]
 	internal virtual ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002BB")]
-	[Address(RVA = "0x44AE060", Offset = "0x44AE060", VA = "0x44AE060", Slot = "13")]
+	[Token(Token = "0x60002BA")]
+	[Address(RVA = "0x2429160", Offset = "0x2427760", VA = "0x182429160", Slot = "13")]
 	internal virtual ReadOnlyCollection<ParameterExpression> GetOrMakeVariables()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002BC")]
-	[Address(RVA = "0x44AE0D0", Offset = "0x44AE0D0", VA = "0x44AE0D0", Slot = "14")]
+	[Token(Token = "0x60002BB")]
+	[Address(RVA = "0x2429310", Offset = "0x2427910", VA = "0x182429310", Slot = "14")]
 	[ExcludeFromCodeCoverage]
 	internal virtual BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002BD")]
-	[Address(RVA = "0x44AE100", Offset = "0x44AE100", VA = "0x44AE100")]
+	[Token(Token = "0x60002BC")]
+	[Address(RVA = "0x24291B0", Offset = "0x24277B0", VA = "0x1824291B0")]
 	internal static ReadOnlyCollection<Expression> ReturnReadOnlyExpressions(BlockExpression provider, ref object collection)
 	{
 		return null;

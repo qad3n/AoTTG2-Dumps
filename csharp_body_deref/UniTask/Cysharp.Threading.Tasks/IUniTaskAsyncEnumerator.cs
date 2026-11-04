@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x200002F")]
 public interface IUniTaskAsyncEnumerator<out T> : IUniTaskAsyncDisposable
 {
 	[Token(Token = "0x17000023")]
 	T Current
 	{
-		[Token(Token = "0x6000111")]
+		[Token(Token = "0x6000109")]
 		get;
 	}
 
-	[Token(Token = "0x6000112")]
+	[Token(Token = "0x600010A")]
 	UniTask<bool> MoveNextAsync();
 }

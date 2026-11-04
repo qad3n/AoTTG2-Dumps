@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20005E7")]
+[Token(Token = "0x200073C")]
 internal class KillFeedScaler : IgnoreScaler
 {
-	[Token(Token = "0x6003C30")]
-	[Address(RVA = "0x428E3D0", Offset = "0x428E3D0", VA = "0x428E3D0", Slot = "5")]
+	[Token(Token = "0x60046E5")]
+	[Address(RVA = "0x22146F0", Offset = "0x2212CF0", VA = "0x1822146F0", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x6003C31")]
-	[Address(RVA = "0x428E4A0", Offset = "0x428E4A0", VA = "0x428E4A0")]
+	[Token(Token = "0x60046E6")]
+	[Address(RVA = "0x2206F90", Offset = "0x2205590", VA = "0x182206F90")]
 	public KillFeedScaler()
 	{
 	}

@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000024")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationOffsetPlayable.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationOffsetPlayable.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationOffsetPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[Token(Token = "0x2000025")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationOffsetPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationOffsetPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationOffsetPlayable.bindings.h")]
 internal struct AnimationOffsetPlayable : IEquatable<AnimationOffsetPlayable>
 {
 	[Token(Token = "0x400005E")]
@@ -29,21 +29,21 @@ internal struct AnimationOffsetPlayable : IEquatable<AnimationOffsetPlayable>
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationOffsetPlayable m_NullPlayable;
 
-	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x4DA6940", Offset = "0x4DA6940", VA = "0x4DA6940")]
+	[Token(Token = "0x60000BE")]
+	[Address(RVA = "0x2EABEC0", Offset = "0x2EAA4C0", VA = "0x182EABEC0")]
 	internal AnimationOffsetPlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x4DA6A30", Offset = "0x4DA6A30", VA = "0x4DA6A30", Slot = "5")]
+	[Token(Token = "0x60000BF")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x4DA6A40", Offset = "0x4DA6A40", VA = "0x4DA6A40", Slot = "4")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x2EABCE0", Offset = "0x2EAA2E0", VA = "0x182EABCE0", Slot = "4")]
 	public bool Equals(AnimationOffsetPlayable other)
 	{
 		return default(bool);

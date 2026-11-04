@@ -11,9 +11,10 @@ using UnityEngine.EventSystems;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000078")]
-[AddComponentMenu("UI/Toggle Group", 31)]
+[Token(Token = "0x2000076")]
+[AddComponentMenu("UI (Canvas)/Toggle Group", 31)]
 [DisallowMultipleComponent]
+[UnityEngine.UGUIHelpURL("ToggleGroup")]
 public class ToggleGroup : UIBehaviour
 {
 	[Token(Token = "0x4000256")]
@@ -25,93 +26,93 @@ public class ToggleGroup : UIBehaviour
 	[FieldOffset(Offset = "0x28")]
 	protected List<Toggle> m_Toggles;
 
-	[Token(Token = "0x17000150")]
+	[Token(Token = "0x17000151")]
 	public bool allowSwitchOff
 	{
-		[Token(Token = "0x60004E9")]
-		[Address(RVA = "0x50EC5F0", Offset = "0x50EC5F0", VA = "0x50EC5F0")]
+		[Token(Token = "0x60004F5")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60004EA")]
-		[Address(RVA = "0x50EC600", Offset = "0x50EC600", VA = "0x50EC600")]
+		[Token(Token = "0x60004F6")]
+		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x50EC610", Offset = "0x50EC610", VA = "0x50EC610")]
+	[Token(Token = "0x60004F7")]
+	[Address(RVA = "0x32EDDF0", Offset = "0x32EC3F0", VA = "0x1832EDDF0")]
 	protected ToggleGroup()
 	{
 	}
 
-	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x50EC690", Offset = "0x50EC690", VA = "0x50EC690", Slot = "6")]
+	[Token(Token = "0x60004F8")]
+	[Address(RVA = "0x32EDA10", Offset = "0x32EC010", VA = "0x1832EDA10", Slot = "6")]
 	protected override void Start()
 	{
 	}
 
-	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x50EC6B0", Offset = "0x50EC6B0", VA = "0x50EC6B0", Slot = "5")]
+	[Token(Token = "0x60004F9")]
+	[Address(RVA = "0x32EDA10", Offset = "0x32EC010", VA = "0x1832EDA10", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x50EC6D0", Offset = "0x50EC6D0", VA = "0x50EC6D0")]
+	[Token(Token = "0x60004FA")]
+	[Address(RVA = "0x32EDCA0", Offset = "0x32EC2A0", VA = "0x1832EDCA0")]
 	private void ValidateToggleIsInGroup(Toggle toggle)
 	{
 	}
 
-	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x50EC0F0", Offset = "0x50EC0F0", VA = "0x50EC0F0")]
+	[Token(Token = "0x60004FB")]
+	[Address(RVA = "0x32ED7B0", Offset = "0x32EBDB0", VA = "0x1832ED7B0")]
 	public void NotifyToggleOn(Toggle toggle, bool sendCallback = true)
 	{
 	}
 
-	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x50EBFA0", Offset = "0x50EBFA0", VA = "0x50EBFA0")]
+	[Token(Token = "0x60004FC")]
+	[Address(RVA = "0x32EDC20", Offset = "0x32EC220", VA = "0x1832EDC20")]
 	public void UnregisterToggle(Toggle toggle)
 	{
 	}
 
-	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x50EC020", Offset = "0x50EC020", VA = "0x50EC020")]
+	[Token(Token = "0x60004FD")]
+	[Address(RVA = "0x32EDA30", Offset = "0x32EC030", VA = "0x1832EDA30")]
 	public void RegisterToggle(Toggle toggle)
 	{
 	}
 
-	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x50EB620", Offset = "0x50EB620", VA = "0x50EB620")]
+	[Token(Token = "0x60004FE")]
+	[Address(RVA = "0x32ED350", Offset = "0x32EB950", VA = "0x1832ED350")]
 	public void EnsureValidState()
 	{
 	}
 
-	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x50EC2D0", Offset = "0x50EC2D0", VA = "0x50EC2D0")]
+	[Token(Token = "0x60004FF")]
+	[Address(RVA = "0x32ED200", Offset = "0x32EB800", VA = "0x1832ED200")]
 	public bool AnyTogglesOn()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x50EC810", Offset = "0x50EC810", VA = "0x50EC810")]
+	[Token(Token = "0x6000500")]
+	[Address(RVA = "0x32ED0E0", Offset = "0x32EB6E0", VA = "0x1832ED0E0")]
 	public IEnumerable<Toggle> ActiveToggles()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x50EC920", Offset = "0x50EC920", VA = "0x50EC920")]
+	[Token(Token = "0x6000501")]
+	[Address(RVA = "0x32ED740", Offset = "0x32EBD40", VA = "0x1832ED740")]
 	public Toggle GetFirstActiveToggle()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004F6")]
-	[Address(RVA = "0x50EC990", Offset = "0x50EC990", VA = "0x50EC990")]
+	[Token(Token = "0x6000502")]
+	[Address(RVA = "0x32EDB10", Offset = "0x32EC110", VA = "0x1832EDB10")]
 	public void SetAllTogglesOff(bool sendCallback = true)
 	{
 	}

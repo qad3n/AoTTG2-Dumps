@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x200004E")]
 public interface IVirtualTexturingEnabledRenderPipeline
 {
-	[Token(Token = "0x1700005C")]
+	[Token(Token = "0x1700003B")]
 	bool virtualTexturingEnabled
 	{
-		[Token(Token = "0x60005F8")]
+		[Token(Token = "0x600050F")]
 		get;
 	}
 }

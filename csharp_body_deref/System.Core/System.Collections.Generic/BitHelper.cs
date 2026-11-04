@@ -28,33 +28,33 @@ internal sealed class BitHelper
 	[FieldOffset(Offset = "0x28")]
 	private readonly bool _useStackAlloc;
 
-	[Token(Token = "0x6000CDF")]
-	[Address(RVA = "0x4516E90", Offset = "0x4516E90", VA = "0x4516E90")]
+	[Token(Token = "0x6000CDE")]
+	[Address(RVA = "0x2483120", Offset = "0x2481720", VA = "0x182483120")]
 	internal unsafe BitHelper(int* bitArrayPtr, int length)
 	{
 	}
 
-	[Token(Token = "0x6000CE0")]
-	[Address(RVA = "0x4516EC0", Offset = "0x4516EC0", VA = "0x4516EC0")]
+	[Token(Token = "0x6000CDF")]
+	[Address(RVA = "0x2483160", Offset = "0x2481760", VA = "0x182483160")]
 	internal BitHelper(int[] bitArray, int length)
 	{
 	}
 
-	[Token(Token = "0x6000CE1")]
-	[Address(RVA = "0x4516EF0", Offset = "0x4516EF0", VA = "0x4516EF0")]
+	[Token(Token = "0x6000CE0")]
+	[Address(RVA = "0x2483090", Offset = "0x2481690", VA = "0x182483090")]
 	internal void MarkBit(int bitPosition)
 	{
 	}
 
-	[Token(Token = "0x6000CE2")]
-	[Address(RVA = "0x4516F50", Offset = "0x4516F50", VA = "0x4516F50")]
+	[Token(Token = "0x6000CE1")]
+	[Address(RVA = "0x2483010", Offset = "0x2481610", VA = "0x182483010")]
 	internal bool IsMarked(int bitPosition)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CE3")]
-	[Address(RVA = "0x4516FB0", Offset = "0x4516FB0", VA = "0x4516FB0")]
+	[Token(Token = "0x6000CE2")]
+	[Address(RVA = "0x2483100", Offset = "0x2481700", VA = "0x182483100")]
 	internal static int ToIntArrayLength(int n)
 	{
 		return default(int);

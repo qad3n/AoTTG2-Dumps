@@ -15,33 +15,33 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000023")]
 internal class TweenRunner<T> where T : struct, ITweenValue
 {
-	[Token(Token = "0x2000033")]
+	[Token(Token = "0x2000024")]
 	[CompilerGenerated]
 	private sealed class _003CStart_003Ed__2 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000175")]
+		[Token(Token = "0x4000092")]
 		[FieldOffset(Offset = "0x0")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000176")]
+		[Token(Token = "0x4000093")]
 		[FieldOffset(Offset = "0x0")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000177")]
+		[Token(Token = "0x4000094")]
 		[FieldOffset(Offset = "0x0")]
 		public T tweenInfo;
 
-		[Token(Token = "0x4000178")]
+		[Token(Token = "0x4000095")]
 		[FieldOffset(Offset = "0x0")]
 		private float _003CelapsedTime_003E5__2;
 
-		[Token(Token = "0x17000037")]
+		[Token(Token = "0x1700002B")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000172")]
+			[Token(Token = "0x60000AC")]
 			[DebuggerHidden]
 			get
 			{
@@ -49,10 +49,10 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 			}
 		}
 
-		[Token(Token = "0x17000038")]
+		[Token(Token = "0x1700002C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000174")]
+			[Token(Token = "0x60000AE")]
 			[DebuggerHidden]
 			get
 			{
@@ -60,62 +60,62 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 			}
 		}
 
-		[Token(Token = "0x600016F")]
+		[Token(Token = "0x60000A9")]
 		[DebuggerHidden]
 		public _003CStart_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000170")]
+		[Token(Token = "0x60000AA")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000171")]
+		[Token(Token = "0x60000AB")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000173")]
+		[Token(Token = "0x60000AD")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000173")]
+	[Token(Token = "0x4000090")]
 	[FieldOffset(Offset = "0x0")]
 	protected MonoBehaviour m_CoroutineContainer;
 
-	[Token(Token = "0x4000174")]
+	[Token(Token = "0x4000091")]
 	[FieldOffset(Offset = "0x0")]
 	protected IEnumerator m_Tween;
 
-	[Token(Token = "0x600016A")]
+	[Token(Token = "0x60000A4")]
 	[IteratorStateMachine(typeof(TweenRunner<>._003CStart_003Ed__2))]
 	private static IEnumerator Start(T tweenInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600016B")]
+	[Token(Token = "0x60000A5")]
 	public void Init(MonoBehaviour coroutineContainer)
 	{
 	}
 
-	[Token(Token = "0x600016C")]
+	[Token(Token = "0x60000A6")]
 	public void StartTween(T info)
 	{
 	}
 
-	[Token(Token = "0x600016D")]
+	[Token(Token = "0x60000A7")]
 	public void StopTween()
 	{
 	}
 
-	[Token(Token = "0x600016E")]
+	[Token(Token = "0x60000A8")]
 	public TweenRunner()
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004F4")]
+[Token(Token = "0x200064C")]
 public enum HookState
 {
-	[Token(Token = "0x4001608")]
+	[Token(Token = "0x4001C76")]
 	Disabled,
-	[Token(Token = "0x4001609")]
+	[Token(Token = "0x4001C77")]
 	Hooking,
-	[Token(Token = "0x400160A")]
+	[Token(Token = "0x4001C78")]
 	Hooked,
-	[Token(Token = "0x400160B")]
+	[Token(Token = "0x4001C79")]
 	DisablingHooking,
-	[Token(Token = "0x400160C")]
+	[Token(Token = "0x4001C7A")]
 	DisablingHooked
 }

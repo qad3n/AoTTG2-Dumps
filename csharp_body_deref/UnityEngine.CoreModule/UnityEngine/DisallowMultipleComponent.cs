@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000140")]
-[AttributeUsage(AttributeTargets.Class, Inherited = false)]
+[Token(Token = "0x2000171")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Class, Inherited = false)]
 public sealed class DisallowMultipleComponent : Attribute
 {
-	[Token(Token = "0x600097B")]
-	[Address(RVA = "0x4DF3C30", Offset = "0x4DF3C30", VA = "0x4DF3C30")]
+	[Token(Token = "0x6000CB4")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public DisallowMultipleComponent()
 	{
 	}

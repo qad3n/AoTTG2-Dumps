@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x200005F")]
+[Token(Token = "0x2000073")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Field)]
 public sealed class NativeDisableUnsafePtrRestrictionAttribute : Attribute
 {
-	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x4DAD890", Offset = "0x4DAD890", VA = "0x4DAD890")]
+	[Token(Token = "0x6000157")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeDisableUnsafePtrRestrictionAttribute()
 	{
 	}

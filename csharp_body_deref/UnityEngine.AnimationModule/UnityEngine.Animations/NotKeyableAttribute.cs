@@ -11,9 +11,9 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x200001E")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Field)]
+[Token(Token = "0x200001F")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Field)]
 public class NotKeyableAttribute : Attribute
 {
 }

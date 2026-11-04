@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000017")]
+[Token(Token = "0x20000A8")]
 public enum TMP_VertexDataUpdateFlags
 {
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x40005B6")]
 	None = 0,
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40005B7")]
 	Vertices = 1,
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40005B8")]
 	Uv0 = 2,
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40005B9")]
 	Uv2 = 4,
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40005BA")]
 	Uv4 = 8,
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40005BB")]
 	Colors32 = 16,
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40005BC")]
 	All = 255
 }

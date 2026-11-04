@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace System.Security.Authentication;
 
-[Token(Token = "0x20000DF")]
+[Token(Token = "0x200011F")]
 [Flags]
 public enum SslProtocols
 {
-	[Token(Token = "0x4000413")]
+	[Token(Token = "0x40004E5")]
 	None = 0,
-	[Token(Token = "0x4000414")]
+	[Token(Token = "0x40004E6")]
 	Ssl2 = 0xC,
-	[Token(Token = "0x4000415")]
+	[Token(Token = "0x40004E7")]
 	Ssl3 = 0x30,
-	[Token(Token = "0x4000416")]
+	[Token(Token = "0x40004E8")]
 	Tls = 0xC0,
-	[Token(Token = "0x4000417")]
+	[Token(Token = "0x40004E9")]
 	[System.MonoTODO("unsupported")]
 	Tls11 = 0x300,
-	[Token(Token = "0x4000418")]
+	[Token(Token = "0x40004EA")]
 	[System.MonoTODO("unsupported")]
 	Tls12 = 0xC00,
-	[Token(Token = "0x4000419")]
+	[Token(Token = "0x40004EB")]
 	Tls13 = 0x3000,
-	[Token(Token = "0x400041A")]
-	Default = 0xF0
+	[Token(Token = "0x40004EC")]
+	Default = Ssl3 | Tls
 }

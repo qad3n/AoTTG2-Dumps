@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x200002D")]
 public enum TextFontWeight
 {
-	[Token(Token = "0x4000002")]
+	[Token(Token = "0x4000121")]
 	Thin = 100,
-	[Token(Token = "0x4000003")]
+	[Token(Token = "0x4000122")]
 	ExtraLight = 200,
-	[Token(Token = "0x4000004")]
+	[Token(Token = "0x4000123")]
 	Light = 300,
-	[Token(Token = "0x4000005")]
+	[Token(Token = "0x4000124")]
 	Regular = 400,
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x4000125")]
 	Medium = 500,
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x4000126")]
 	SemiBold = 600,
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000127")]
 	Bold = 700,
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000128")]
 	Heavy = 800,
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x4000129")]
 	Black = 900
 }

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200017F")]
+[Token(Token = "0x2000196")]
 public enum DepthBits
 {
-	[Token(Token = "0x400068F")]
+	[Token(Token = "0x40007D4")]
 	None = 0,
-	[Token(Token = "0x4000690")]
+	[Token(Token = "0x40007D5")]
 	Depth8 = 8,
-	[Token(Token = "0x4000691")]
+	[Token(Token = "0x40007D6")]
 	Depth16 = 16,
-	[Token(Token = "0x4000692")]
+	[Token(Token = "0x40007D7")]
 	Depth24 = 24,
-	[Token(Token = "0x4000693")]
+	[Token(Token = "0x40007D8")]
 	Depth32 = 32
 }

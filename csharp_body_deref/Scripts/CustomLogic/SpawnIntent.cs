@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200047E")]
+[Token(Token = "0x20005D5")]
 public enum SpawnIntent
 {
-	[Token(Token = "0x40012C4")]
+	[Token(Token = "0x4001907")]
 	LocalOnly,
-	[Token(Token = "0x40012C5")]
+	[Token(Token = "0x4001908")]
 	PreplacedBind,
-	[Token(Token = "0x40012C6")]
+	[Token(Token = "0x4001909")]
 	NetworkedRuntime
 }

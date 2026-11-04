@@ -10,73 +10,73 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x200002C")]
 public class OperationCode
 {
-	[Token(Token = "0x4000170")]
+	[Token(Token = "0x400016B")]
 	[Obsolete("Exchanging encrpytion keys is done internally in the lib now. Don't expect this operation-result.")]
 	public const byte ExchangeKeysForEncryption = 250;
 
-	[Token(Token = "0x4000171")]
+	[Token(Token = "0x400016C")]
 	[Obsolete]
-	public const byte Join = byte.MaxValue;
+	public const byte Join = 255;
 
-	[Token(Token = "0x4000172")]
+	[Token(Token = "0x400016D")]
 	public const byte AuthenticateOnce = 231;
 
-	[Token(Token = "0x4000173")]
+	[Token(Token = "0x400016E")]
 	public const byte Authenticate = 230;
 
-	[Token(Token = "0x4000174")]
+	[Token(Token = "0x400016F")]
 	public const byte JoinLobby = 229;
 
-	[Token(Token = "0x4000175")]
+	[Token(Token = "0x4000170")]
 	public const byte LeaveLobby = 228;
 
-	[Token(Token = "0x4000176")]
+	[Token(Token = "0x4000171")]
 	public const byte CreateGame = 227;
 
-	[Token(Token = "0x4000177")]
+	[Token(Token = "0x4000172")]
 	public const byte JoinGame = 226;
 
-	[Token(Token = "0x4000178")]
+	[Token(Token = "0x4000173")]
 	public const byte JoinRandomGame = 225;
 
-	[Token(Token = "0x4000179")]
+	[Token(Token = "0x4000174")]
 	public const byte Leave = 254;
 
-	[Token(Token = "0x400017A")]
+	[Token(Token = "0x4000175")]
 	public const byte RaiseEvent = 253;
 
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x4000176")]
 	public const byte SetProperties = 252;
 
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x4000177")]
 	public const byte GetProperties = 251;
 
-	[Token(Token = "0x400017D")]
+	[Token(Token = "0x4000178")]
 	public const byte ChangeGroups = 248;
 
-	[Token(Token = "0x400017E")]
+	[Token(Token = "0x4000179")]
 	public const byte FindFriends = 222;
 
-	[Token(Token = "0x400017F")]
+	[Token(Token = "0x400017A")]
 	public const byte GetLobbyStats = 221;
 
-	[Token(Token = "0x4000180")]
+	[Token(Token = "0x400017B")]
 	public const byte GetRegions = 220;
 
-	[Token(Token = "0x4000181")]
+	[Token(Token = "0x400017C")]
 	public const byte WebRpc = 219;
 
-	[Token(Token = "0x4000182")]
+	[Token(Token = "0x400017D")]
 	public const byte ServerSettings = 218;
 
-	[Token(Token = "0x4000183")]
+	[Token(Token = "0x400017E")]
 	public const byte GetGameList = 217;
 
-	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3ECEEF0", Offset = "0x3ECEEF0", VA = "0x3ECEEF0")]
+	[Token(Token = "0x6000122")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public OperationCode()
 	{
 	}

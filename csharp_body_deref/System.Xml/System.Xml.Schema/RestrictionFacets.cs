@@ -70,7 +70,7 @@ internal class RestrictionFacets
 	internal RestrictionFlags FixedFlags;
 
 	[Token(Token = "0x600104D")]
-	[Address(RVA = "0x484F180", Offset = "0x484F180", VA = "0x484F180")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public RestrictionFacets()
 	{
 	}

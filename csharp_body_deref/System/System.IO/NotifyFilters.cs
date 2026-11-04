@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000369")]
+[Token(Token = "0x200028A")]
 [Flags]
 public enum NotifyFilters
 {
-	[Token(Token = "0x4000F87")]
+	[Token(Token = "0x40008FF")]
 	Attributes = 4,
-	[Token(Token = "0x4000F88")]
+	[Token(Token = "0x4000900")]
 	CreationTime = 0x40,
-	[Token(Token = "0x4000F89")]
+	[Token(Token = "0x4000901")]
 	DirectoryName = 2,
-	[Token(Token = "0x4000F8A")]
+	[Token(Token = "0x4000902")]
 	FileName = 1,
-	[Token(Token = "0x4000F8B")]
+	[Token(Token = "0x4000903")]
 	LastAccess = 0x20,
-	[Token(Token = "0x4000F8C")]
+	[Token(Token = "0x4000904")]
 	LastWrite = 0x10,
-	[Token(Token = "0x4000F8D")]
+	[Token(Token = "0x4000905")]
 	Security = 0x100,
-	[Token(Token = "0x4000F8E")]
+	[Token(Token = "0x4000906")]
 	Size = 8
 }

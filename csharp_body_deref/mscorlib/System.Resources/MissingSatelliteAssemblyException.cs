@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 namespace System.Resources;
 
 [Serializable]
-[Token(Token = "0x20004AD")]
+[Token(Token = "0x20004DD")]
 public class MissingSatelliteAssemblyException : SystemException
 {
 	[Token(Token = "0x4001346")]
 	[FieldOffset(Offset = "0x90")]
 	private string _cultureName;
 
-	[Token(Token = "0x6002338")]
-	[Address(RVA = "0x3BC42E0", Offset = "0x3BC42E0", VA = "0x3BC42E0")]
+	[Token(Token = "0x60023BA")]
+	[Address(RVA = "0x1A4B130", Offset = "0x1A49730", VA = "0x181A4B130")]
 	public MissingSatelliteAssemblyException()
 	{
 	}
 
-	[Token(Token = "0x6002339")]
-	[Address(RVA = "0x3BC4320", Offset = "0x3BC4320", VA = "0x3BC4320")]
+	[Token(Token = "0x60023BB")]
+	[Address(RVA = "0x1A4B0F0", Offset = "0x1A496F0", VA = "0x181A4B0F0")]
 	public MissingSatelliteAssemblyException(string message, string cultureName)
 	{
 	}
 
-	[Token(Token = "0x600233A")]
-	[Address(RVA = "0x3BC4360", Offset = "0x3BC4360", VA = "0x3BC4360")]
+	[Token(Token = "0x60023BC")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected MissingSatelliteAssemblyException(SerializationInfo info, StreamingContext context)
 	{
 	}

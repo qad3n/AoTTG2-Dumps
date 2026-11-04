@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200010E")]
+[Token(Token = "0x2000133")]
 public enum CursorMode
 {
-	[Token(Token = "0x400035E")]
+	[Token(Token = "0x40003BC")]
 	Auto,
-	[Token(Token = "0x400035F")]
+	[Token(Token = "0x40003BD")]
 	ForceSoftware
 }

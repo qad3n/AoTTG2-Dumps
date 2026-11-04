@@ -9,58 +9,58 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000658")]
+[Token(Token = "0x200062C")]
 internal struct ArrayBuilder<T>
 {
-	[Token(Token = "0x4001B40")]
+	[Token(Token = "0x4001946")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] _array;
 
-	[Token(Token = "0x4001B41")]
+	[Token(Token = "0x4001947")]
 	[FieldOffset(Offset = "0x0")]
 	private int _count;
 
-	[Token(Token = "0x17000834")]
+	[Token(Token = "0x170007C3")]
 	public int Capacity
 	{
-		[Token(Token = "0x6003265")]
+		[Token(Token = "0x6002F7C")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000835")]
+	[Token(Token = "0x170007C4")]
 	public int Count
 	{
-		[Token(Token = "0x6003266")]
+		[Token(Token = "0x6002F7D")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000836")]
+	[Token(Token = "0x170007C5")]
 	public T this[int index]
 	{
-		[Token(Token = "0x6003267")]
+		[Token(Token = "0x6002F7E")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x6003268")]
+	[Token(Token = "0x6002F7F")]
 	public void Add(T item)
 	{
 	}
 
-	[Token(Token = "0x6003269")]
+	[Token(Token = "0x6002F80")]
 	public void UncheckedAdd(T item)
 	{
 	}
 
-	[Token(Token = "0x600326A")]
+	[Token(Token = "0x6002F81")]
 	private void EnsureCapacity(int minimum)
 	{
 	}

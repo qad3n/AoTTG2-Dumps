@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200006F")]
+[Token(Token = "0x2000083")]
 public sealed class AottgToastDefinition
 {
-	[Token(Token = "0x400023C")]
+	[Token(Token = "0x40002B6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public AottgToastVariant Variant;
 
-	[Token(Token = "0x400023D")]
+	[Token(Token = "0x40002B7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public string Icon;
 
-	[Token(Token = "0x400023E")]
+	[Token(Token = "0x40002B8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public string Title;
 
-	[Token(Token = "0x400023F")]
+	[Token(Token = "0x40002B9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public string Content;
 
-	[Token(Token = "0x4000240")]
+	[Token(Token = "0x40002BA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	public string UpdateKey;
 
-	[Token(Token = "0x60002EC")]
-	[Address(RVA = "0x3A61700", Offset = "0x3A61700", VA = "0x3A61700")]
+	[Token(Token = "0x60003D2")]
+	[Address(RVA = "0x18C6C80", Offset = "0x18C5280", VA = "0x1818C6C80")]
 	public AottgToastDefinition(AottgToastVariant variant, string icon, string title, string content, [Optional] string updateKey)
 	{
 	}

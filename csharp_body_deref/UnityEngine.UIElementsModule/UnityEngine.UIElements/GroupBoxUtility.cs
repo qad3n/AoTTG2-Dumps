@@ -11,51 +11,51 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000213")]
+[Token(Token = "0x2000289")]
 internal static class GroupBoxUtility
 {
-	[Token(Token = "0x400077C")]
+	[Token(Token = "0x4000997")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<IGroupBox, IGroupManager> s_GroupManagers;
 
-	[Token(Token = "0x400077D")]
+	[Token(Token = "0x4000998")]
 	[FieldOffset(Offset = "0x8")]
 	private static Dictionary<IGroupBoxOption, IGroupManager> s_GroupOptionManagerCache;
 
-	[Token(Token = "0x400077E")]
+	[Token(Token = "0x4000999")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly Type k_GenericGroupBoxType;
 
-	[Token(Token = "0x6000DBB")]
+	[Token(Token = "0x6001156")]
 	public static void RegisterGroupBoxOption<T>(this T option) where T : VisualElement, IGroupBoxOption
 	{
 	}
 
-	[Token(Token = "0x6000DBC")]
+	[Token(Token = "0x6001157")]
 	public static void UnregisterGroupBoxOption<T>(this T option) where T : VisualElement, IGroupBoxOption
 	{
 	}
 
-	[Token(Token = "0x6000DBD")]
+	[Token(Token = "0x6001158")]
 	public static void OnOptionSelected<T>(this T selectedOption) where T : VisualElement, IGroupBoxOption
 	{
 	}
 
-	[Token(Token = "0x6000DBE")]
-	[Address(RVA = "0x5046460", Offset = "0x5046460", VA = "0x5046460")]
+	[Token(Token = "0x6001159")]
+	[Address(RVA = "0x3274B00", Offset = "0x3273100", VA = "0x183274B00")]
 	private static IGroupManager FindOrCreateGroupManager(IGroupBox groupBox)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DBF")]
-	[Address(RVA = "0x5046B40", Offset = "0x5046B40", VA = "0x5046B40")]
+	[Token(Token = "0x600115A")]
+	[Address(RVA = "0x3274FA0", Offset = "0x32735A0", VA = "0x183274FA0")]
 	private static void OnGroupBoxDetachedFromPanel(DetachFromPanelEvent evt)
 	{
 	}
 
-	[Token(Token = "0x6000DC0")]
-	[Address(RVA = "0x5046C10", Offset = "0x5046C10", VA = "0x5046C10")]
+	[Token(Token = "0x600115B")]
+	[Address(RVA = "0x3275060", Offset = "0x3273660", VA = "0x183275060")]
 	private static void OnPanelDestroyed(BaseVisualElementPanel panel)
 	{
 	}

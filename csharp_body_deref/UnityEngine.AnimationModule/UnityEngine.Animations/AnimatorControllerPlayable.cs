@@ -13,14 +13,14 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x200002A")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/RuntimeAnimatorController.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerPlayable.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimatorControllerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
+[Token(Token = "0x200002B")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimatorControllerPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/Animator.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimatorControllerPlayable.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/RuntimeAnimatorController.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimatorControllerPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable>
 {
 	[Token(Token = "0x400006E")]
@@ -31,27 +31,27 @@ public struct AnimatorControllerPlayable : IEquatable<AnimatorControllerPlayable
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimatorControllerPlayable m_NullPlayable;
 
-	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x4DA71E0", Offset = "0x4DA71E0", VA = "0x4DA71E0")]
+	[Token(Token = "0x60000CE")]
+	[Address(RVA = "0x2EAE320", Offset = "0x2EAC920", VA = "0x182EAE320")]
 	internal AnimatorControllerPlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x4DA73B0", Offset = "0x4DA73B0", VA = "0x4DA73B0", Slot = "5")]
+	[Token(Token = "0x60000CF")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x4DA7270", Offset = "0x4DA7270", VA = "0x4DA7270")]
+	[Token(Token = "0x60000D0")]
+	[Address(RVA = "0x2EAE0D0", Offset = "0x2EAC6D0", VA = "0x182EAE0D0")]
 	public void SetHandle(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x4DA73C0", Offset = "0x4DA73C0", VA = "0x4DA73C0", Slot = "4")]
+	[Token(Token = "0x60000D1")]
+	[Address(RVA = "0x2EAE030", Offset = "0x2EAC630", VA = "0x182EAE030", Slot = "4")]
 	public bool Equals(AnimatorControllerPlayable other)
 	{
 		return default(bool);

@@ -11,18 +11,18 @@ using Photon.Realtime;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x200001E")]
 public struct PhotonMessageInfo
 {
-	[Token(Token = "0x40000BD")]
+	[Token(Token = "0x40000B8")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int timeInt;
 
-	[Token(Token = "0x40000BE")]
+	[Token(Token = "0x40000B9")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly Player Sender;
 
-	[Token(Token = "0x40000BF")]
+	[Token(Token = "0x40000BA")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly PhotonView photonView;
 
@@ -30,8 +30,8 @@ public struct PhotonMessageInfo
 	[Obsolete("Use SentServerTime instead.")]
 	public double timestamp
 	{
-		[Token(Token = "0x6000154")]
-		[Address(RVA = "0x3EFAE60", Offset = "0x3EFAE60", VA = "0x3EFAE60")]
+		[Token(Token = "0x6000152")]
+		[Address(RVA = "0x1D31480", Offset = "0x1D2FA80", VA = "0x181D31480")]
 		get
 		{
 			return default(double);
@@ -41,8 +41,8 @@ public struct PhotonMessageInfo
 	[Token(Token = "0x17000040")]
 	public double SentServerTime
 	{
-		[Token(Token = "0x6000155")]
-		[Address(RVA = "0x3EFAE70", Offset = "0x3EFAE70", VA = "0x3EFAE70")]
+		[Token(Token = "0x6000153")]
+		[Address(RVA = "0x1D31480", Offset = "0x1D2FA80", VA = "0x181D31480")]
 		get
 		{
 			return default(double);
@@ -52,22 +52,22 @@ public struct PhotonMessageInfo
 	[Token(Token = "0x17000041")]
 	public int SentServerTimestamp
 	{
-		[Token(Token = "0x6000156")]
-		[Address(RVA = "0x3EFAE80", Offset = "0x3EFAE80", VA = "0x3EFAE80")]
+		[Token(Token = "0x6000154")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x3EEBB50", Offset = "0x3EEBB50", VA = "0x3EEBB50")]
+	[Token(Token = "0x6000151")]
+	[Address(RVA = "0x1D31430", Offset = "0x1D2FA30", VA = "0x181D31430")]
 	public PhotonMessageInfo(Player player, int timestamp, PhotonView view)
 	{
 	}
 
-	[Token(Token = "0x6000157")]
-	[Address(RVA = "0x3EFAE90", Offset = "0x3EFAE90", VA = "0x3EFAE90", Slot = "3")]
+	[Token(Token = "0x6000155")]
+	[Address(RVA = "0x1D313C0", Offset = "0x1D2F9C0", VA = "0x181D313C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

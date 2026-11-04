@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200021D")]
+[Token(Token = "0x2000220")]
 public interface IAsyncOnScrollHandler
 {
-	[Token(Token = "0x6000C4C")]
+	[Token(Token = "0x6000C70")]
 	UniTask<PointerEventData> OnScrollAsync();
 }

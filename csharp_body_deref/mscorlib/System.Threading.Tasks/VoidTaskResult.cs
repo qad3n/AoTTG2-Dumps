@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000247")]
+[Token(Token = "0x2000277")]
 internal struct VoidTaskResult
 {
 }

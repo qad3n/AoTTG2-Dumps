@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000A6")]
+[Token(Token = "0x20000C4")]
 public enum MultiplayerRegion
 {
-	[Token(Token = "0x4000446")]
+	[Token(Token = "0x40004CF")]
 	EU,
-	[Token(Token = "0x4000447")]
+	[Token(Token = "0x40004D0")]
 	US,
-	[Token(Token = "0x4000448")]
+	[Token(Token = "0x40004D1")]
 	SA,
-	[Token(Token = "0x4000449")]
+	[Token(Token = "0x40004D2")]
 	ASIA,
-	[Token(Token = "0x400044A")]
+	[Token(Token = "0x40004D3")]
 	CN
 }

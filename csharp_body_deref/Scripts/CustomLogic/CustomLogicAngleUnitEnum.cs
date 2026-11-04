@@ -11,154 +11,154 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000337")]
+[Token(Token = "0x2000487")]
 [CompilerGenerated]
 internal class CustomLogicAngleUnitEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x2000338")]
+	[Token(Token = "0x2000488")]
 	public static class Factory
 	{
-		[Token(Token = "0x6001BD4")]
-		[Address(RVA = "0x4046180", Offset = "0x4046180", VA = "0x4046180")]
+		[Token(Token = "0x60024A6")]
+		[Address(RVA = "0x1FA3E90", Offset = "0x1FA2490", VA = "0x181FA3E90")]
 		public static CustomLogicAngleUnitEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000339")]
+	[Token(Token = "0x2000489")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000FEA")]
+		[Token(Token = "0x4001617")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6001BD5")]
-		[Address(RVA = "0x40462A0", Offset = "0x40462A0", VA = "0x40462A0")]
+		[Token(Token = "0x60024A7")]
+		[Address(RVA = "0x1F85850", Offset = "0x1F83E50", VA = "0x181F85850")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD6")]
-		[Address(RVA = "0x4046480", Offset = "0x4046480", VA = "0x4046480")]
+		[Token(Token = "0x60024A8")]
+		[Address(RVA = "0x1F965D0", Offset = "0x1F94BD0", VA = "0x181F965D0")]
 		public static CLPropertyBinding<CustomLogicAngleUnitEnum> __CreatePropertyBinding__Degree()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD7")]
-		[Address(RVA = "0x4046520", Offset = "0x4046520", VA = "0x4046520")]
+		[Token(Token = "0x60024A9")]
+		[Address(RVA = "0x1F97610", Offset = "0x1F95C10", VA = "0x181F97610")]
 		public static CLPropertyBinding<CustomLogicAngleUnitEnum> __CreatePropertyBinding__Gradian()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD8")]
-		[Address(RVA = "0x40465C0", Offset = "0x40465C0", VA = "0x40465C0")]
+		[Token(Token = "0x60024AA")]
+		[Address(RVA = "0x1F99B90", Offset = "0x1F98190", VA = "0x181F99B90")]
 		public static CLPropertyBinding<CustomLogicAngleUnitEnum> __CreatePropertyBinding__Radian()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001BD9")]
-		[Address(RVA = "0x4046660", Offset = "0x4046660", VA = "0x4046660")]
+		[Token(Token = "0x60024AB")]
+		[Address(RVA = "0x1F9C070", Offset = "0x1F9A670", VA = "0x181F9C070")]
 		public static CLPropertyBinding<CustomLogicAngleUnitEnum> __CreatePropertyBinding__Turn()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003F1")]
+	[Token(Token = "0x170004B6")]
 	public static int Degree
 	{
-		[Token(Token = "0x6001BCC")]
-		[Address(RVA = "0x40460E0", Offset = "0x40460E0", VA = "0x40460E0")]
+		[Token(Token = "0x600249E")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003F2")]
+	[Token(Token = "0x170004B7")]
 	public static int Gradian
 	{
-		[Token(Token = "0x6001BCD")]
-		[Address(RVA = "0x40460F0", Offset = "0x40460F0", VA = "0x40460F0")]
+		[Token(Token = "0x600249F")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003F3")]
+	[Token(Token = "0x170004B8")]
 	public static int Radian
 	{
-		[Token(Token = "0x6001BCE")]
-		[Address(RVA = "0x4046100", Offset = "0x4046100", VA = "0x4046100")]
+		[Token(Token = "0x60024A0")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003F4")]
+	[Token(Token = "0x170004B9")]
 	public static int Turn
 	{
-		[Token(Token = "0x6001BCF")]
-		[Address(RVA = "0x4046110", Offset = "0x4046110", VA = "0x4046110")]
+		[Token(Token = "0x60024A1")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170003F5")]
+	[Token(Token = "0x170004BA")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001BD0")]
-		[Address(RVA = "0x4046120", Offset = "0x4046120", VA = "0x4046120", Slot = "4")]
+		[Token(Token = "0x60024A2")]
+		[Address(RVA = "0x1F9F6A0", Offset = "0x1F9DCA0", VA = "0x181F9F6A0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170003F6")]
+	[Token(Token = "0x170004BB")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001BD1")]
-		[Address(RVA = "0x4046150", Offset = "0x4046150", VA = "0x4046150", Slot = "6")]
+		[Token(Token = "0x60024A3")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003F7")]
+	[Token(Token = "0x170004BC")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001BD2")]
-		[Address(RVA = "0x4046160", Offset = "0x4046160", VA = "0x4046160", Slot = "7")]
+		[Token(Token = "0x60024A4")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170003F8")]
+	[Token(Token = "0x170004BD")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001BD3")]
-		[Address(RVA = "0x4046170", Offset = "0x4046170", VA = "0x4046170", Slot = "8")]
+		[Token(Token = "0x60024A5")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001BCB")]
-	[Address(RVA = "0x4046070", Offset = "0x4046070", VA = "0x4046070")]
+	[Token(Token = "0x600249D")]
+	[Address(RVA = "0x1F9F650", Offset = "0x1F9DC50", VA = "0x181F9F650")]
 	public CustomLogicAngleUnitEnum()
 	{
 	}

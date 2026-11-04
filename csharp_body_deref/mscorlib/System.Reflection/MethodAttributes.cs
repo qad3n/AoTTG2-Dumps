@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004E5")]
+[Token(Token = "0x2000515")]
 [Flags]
 public enum MethodAttributes
 {
@@ -44,7 +44,7 @@ public enum MethodAttributes
 	[Token(Token = "0x400141E")]
 	ReuseSlot = 0,
 	[Token(Token = "0x400141F")]
-	NewSlot = 0x100,
+	NewSlot = VtableLayoutMask,
 	[Token(Token = "0x4001420")]
 	Abstract = 0x400,
 	[Token(Token = "0x4001421")]
@@ -60,5 +60,5 @@ public enum MethodAttributes
 	[Token(Token = "0x4001426")]
 	RequireSecObject = 0x8000,
 	[Token(Token = "0x4001427")]
-	ReservedMask = 0xD000
+	ReservedMask = RTSpecialName | HasSecurity | RequireSecObject
 }

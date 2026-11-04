@@ -12,37 +12,37 @@ namespace Mono.Security.X509;
 [Token(Token = "0x200001A")]
 public class X509Stores
 {
-	[Token(Token = "0x400007C")]
+	[Token(Token = "0x400007E")]
 	[FieldOffset(Offset = "0x10")]
 	private string _storePath;
 
-	[Token(Token = "0x400007D")]
+	[Token(Token = "0x400007F")]
 	[FieldOffset(Offset = "0x18")]
 	private bool _newFormat;
 
-	[Token(Token = "0x400007E")]
+	[Token(Token = "0x4000080")]
 	[FieldOffset(Offset = "0x20")]
 	private X509Store _trusted;
 
-	[Token(Token = "0x17000049")]
+	[Token(Token = "0x1700004B")]
 	public X509Store TrustedRoot
 	{
-		[Token(Token = "0x60000D8")]
-		[Address(RVA = "0x3AB68C0", Offset = "0x3AB68C0", VA = "0x3AB68C0")]
+		[Token(Token = "0x60000E6")]
+		[Address(RVA = "0x192B0A0", Offset = "0x19296A0", VA = "0x18192B0A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x3AB67D0", Offset = "0x3AB67D0", VA = "0x3AB67D0")]
+	[Token(Token = "0x60000E5")]
+	[Address(RVA = "0x16F5C50", Offset = "0x16F4250", VA = "0x1816F5C50")]
 	internal X509Stores(string path, bool newFormat)
 	{
 	}
 
-	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x3AB69A0", Offset = "0x3AB69A0", VA = "0x3AB69A0")]
+	[Token(Token = "0x60000E7")]
+	[Address(RVA = "0x192AF70", Offset = "0x1929570", VA = "0x18192AF70")]
 	public X509Store Open(string storeName, bool create)
 	{
 		return null;

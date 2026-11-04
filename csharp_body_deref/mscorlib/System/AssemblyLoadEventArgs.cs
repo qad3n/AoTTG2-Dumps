@@ -11,16 +11,16 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x20000BA")]
 public class AssemblyLoadEventArgs : EventArgs
 {
-	[Token(Token = "0x40001E5")]
+	[Token(Token = "0x400028E")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly Assembly _003CLoadedAssembly_003Ek__BackingField;
 
-	[Token(Token = "0x6000412")]
-	[Address(RVA = "0x3C13E40", Offset = "0x3C13E40", VA = "0x3C13E40")]
+	[Token(Token = "0x6000445")]
+	[Address(RVA = "0x1A785E0", Offset = "0x1A76BE0", VA = "0x181A785E0")]
 	public AssemblyLoadEventArgs(Assembly loadedAssembly)
 	{
 	}

@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000206")]
+[Token(Token = "0x200020C")]
 public interface fsISerializationCallbacks
 {
-	[Token(Token = "0x600123E")]
+	[Token(Token = "0x6001275")]
 	void OnBeforeSerialize(Type storageType);
 
-	[Token(Token = "0x600123F")]
+	[Token(Token = "0x6001276")]
 	void OnAfterSerialize(Type storageType, ref fsData data);
 
-	[Token(Token = "0x6001240")]
+	[Token(Token = "0x6001277")]
 	void OnBeforeDeserialize(Type storageType, ref fsData data);
 
-	[Token(Token = "0x6001241")]
+	[Token(Token = "0x6001278")]
 	void OnAfterDeserialize(Type storageType);
 }

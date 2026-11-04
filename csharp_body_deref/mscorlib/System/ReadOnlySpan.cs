@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.ReadOnlySpan
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,17 +12,17 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000103")]
+[Token(Token = "0x200012B")]
 [System.Runtime.Versioning.NonVersionable]
 [DebuggerTypeProxy(typeof(System.SpanDebugView<>))]
 [DebuggerDisplay("{ToString(),raw}")]
 public readonly ref struct ReadOnlySpan<T>
 {
-	[Token(Token = "0x40003B8")]
+	[Token(Token = "0x400043A")]
 	[FieldOffset(Offset = "0x0")]
 	internal readonly System.ByReference<T> _pointer;
 
-	[Token(Token = "0x40003B9")]
+	[Token(Token = "0x400043B")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _length;
 
@@ -30,9 +30,9 @@ public readonly ref struct ReadOnlySpan<T>
 	public unsafe ref readonly T this[int index]
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000982")]
-		[System.Runtime.CompilerServices.Intrinsic]
+		[Token(Token = "0x60009BD")]
 		[System.Runtime.Versioning.NonVersionable]
+		[System.Runtime.CompilerServices.Intrinsic]
 		get
 		{
 			return ref *(T*)null;
@@ -42,7 +42,7 @@ public readonly ref struct ReadOnlySpan<T>
 	[Token(Token = "0x170000A7")]
 	public int Length
 	{
-		[Token(Token = "0x6000989")]
+		[Token(Token = "0x60009C6")]
 		[System.Runtime.Versioning.NonVersionable]
 		get
 		{
@@ -53,7 +53,7 @@ public readonly ref struct ReadOnlySpan<T>
 	[Token(Token = "0x170000A8")]
 	public bool IsEmpty
 	{
-		[Token(Token = "0x600098A")]
+		[Token(Token = "0x60009C7")]
 		[System.Runtime.Versioning.NonVersionable]
 		get
 		{
@@ -64,7 +64,7 @@ public readonly ref struct ReadOnlySpan<T>
 	[Token(Token = "0x170000A9")]
 	public static ReadOnlySpan<T> Empty
 	{
-		[Token(Token = "0x600098E")]
+		[Token(Token = "0x60009CB")]
 		get
 		{
 			return default(ReadOnlySpan<T>);
@@ -72,82 +72,94 @@ public readonly ref struct ReadOnlySpan<T>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600097E")]
+	[Token(Token = "0x60009B9")]
 	public ReadOnlySpan(T[] array)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600097F")]
+	[Token(Token = "0x60009BA")]
 	public ReadOnlySpan(T[] array, int start, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000980")]
+	[Token(Token = "0x60009BB")]
 	[CLSCompliant(false)]
 	public unsafe ReadOnlySpan(void* pointer, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000981")]
+	[Token(Token = "0x60009BC")]
 	internal ReadOnlySpan(ref T ptr, int length)
 	{
 	}
 
-	[Token(Token = "0x6000983")]
+	[Token(Token = "0x60009BE")]
+	public unsafe ref T GetPinnableReference()
+	{
+		return ref *(T*)null;
+	}
+
+	[Token(Token = "0x60009BF")]
 	public void CopyTo(Span<T> destination)
 	{
 	}
 
-	[Token(Token = "0x6000984")]
+	[Token(Token = "0x60009C0")]
 	public bool TryCopyTo(Span<T> destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000985")]
+	[Token(Token = "0x60009C1")]
+	public static bool operator ==(ReadOnlySpan<T> left, ReadOnlySpan<T> right)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60009C2")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000986")]
+	[Token(Token = "0x60009C3")]
 	public ReadOnlySpan<T> Slice(int start)
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000987")]
+	[Token(Token = "0x60009C4")]
 	public ReadOnlySpan<T> Slice(int start, int length)
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
-	[Token(Token = "0x6000988")]
+	[Token(Token = "0x60009C5")]
 	public T[] ToArray()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600098B")]
+	[Token(Token = "0x60009C8")]
 	[Obsolete("Equals() on ReadOnlySpan will always throw an exception. Use == instead.")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600098C")]
+	[Token(Token = "0x60009C9")]
 	[Obsolete("GetHashCode() on ReadOnlySpan will always throw an exception.")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600098D")]
+	[Token(Token = "0x60009CA")]
 	public static implicit operator ReadOnlySpan<T>(T[] array)
 	{
 		return default(ReadOnlySpan<T>);

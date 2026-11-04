@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.TextureFormat
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,189 +11,143 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000EA")]
+[Token(Token = "0x200010B")]
 public enum TextureFormat
 {
-	[Token(Token = "0x4000297")]
+	[Token(Token = "0x40002EE")]
 	Alpha8 = 1,
-	[Token(Token = "0x4000298")]
+	[Token(Token = "0x40002EF")]
 	ARGB4444 = 2,
-	[Token(Token = "0x4000299")]
+	[Token(Token = "0x40002F0")]
 	RGB24 = 3,
-	[Token(Token = "0x400029A")]
+	[Token(Token = "0x40002F1")]
 	RGBA32 = 4,
-	[Token(Token = "0x400029B")]
+	[Token(Token = "0x40002F2")]
 	ARGB32 = 5,
-	[Token(Token = "0x400029C")]
+	[Token(Token = "0x40002F3")]
 	RGB565 = 7,
-	[Token(Token = "0x400029D")]
+	[Token(Token = "0x40002F4")]
 	R16 = 9,
-	[Token(Token = "0x400029E")]
+	[Token(Token = "0x40002F5")]
 	DXT1 = 10,
-	[Token(Token = "0x400029F")]
+	[Token(Token = "0x40002F6")]
 	DXT5 = 12,
-	[Token(Token = "0x40002A0")]
+	[Token(Token = "0x40002F7")]
 	RGBA4444 = 13,
-	[Token(Token = "0x40002A1")]
+	[Token(Token = "0x40002F8")]
 	BGRA32 = 14,
-	[Token(Token = "0x40002A2")]
+	[Token(Token = "0x40002F9")]
 	RHalf = 15,
-	[Token(Token = "0x40002A3")]
+	[Token(Token = "0x40002FA")]
 	RGHalf = 16,
-	[Token(Token = "0x40002A4")]
+	[Token(Token = "0x40002FB")]
 	RGBAHalf = 17,
-	[Token(Token = "0x40002A5")]
+	[Token(Token = "0x40002FC")]
 	RFloat = 18,
-	[Token(Token = "0x40002A6")]
+	[Token(Token = "0x40002FD")]
 	RGFloat = 19,
-	[Token(Token = "0x40002A7")]
+	[Token(Token = "0x40002FE")]
 	RGBAFloat = 20,
-	[Token(Token = "0x40002A8")]
+	[Token(Token = "0x40002FF")]
 	YUY2 = 21,
-	[Token(Token = "0x40002A9")]
+	[Token(Token = "0x4000300")]
 	RGB9e5Float = 22,
-	[Token(Token = "0x40002AA")]
+	[Token(Token = "0x4000301")]
 	BC4 = 26,
-	[Token(Token = "0x40002AB")]
+	[Token(Token = "0x4000302")]
 	BC5 = 27,
-	[Token(Token = "0x40002AC")]
+	[Token(Token = "0x4000303")]
 	BC6H = 24,
-	[Token(Token = "0x40002AD")]
+	[Token(Token = "0x4000304")]
 	BC7 = 25,
-	[Token(Token = "0x40002AE")]
+	[Token(Token = "0x4000305")]
 	DXT1Crunched = 28,
-	[Token(Token = "0x40002AF")]
+	[Token(Token = "0x4000306")]
 	DXT5Crunched = 29,
-	[Token(Token = "0x40002B0")]
+	[Token(Token = "0x4000307")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("Texture compression format PVRTC has been deprecated and will be removed in a future release")]
 	PVRTC_RGB2 = 30,
-	[Token(Token = "0x40002B1")]
+	[Token(Token = "0x4000308")]
+	[Obsolete("Texture compression format PVRTC has been deprecated and will be removed in a future release")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	PVRTC_RGBA2 = 31,
-	[Token(Token = "0x40002B2")]
+	[Token(Token = "0x4000309")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	[Obsolete("Texture compression format PVRTC has been deprecated and will be removed in a future release")]
 	PVRTC_RGB4 = 32,
-	[Token(Token = "0x40002B3")]
+	[Token(Token = "0x400030A")]
+	[Obsolete("Texture compression format PVRTC has been deprecated and will be removed in a future release")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	PVRTC_RGBA4 = 33,
-	[Token(Token = "0x40002B4")]
+	[Token(Token = "0x400030B")]
 	ETC_RGB4 = 34,
-	[Token(Token = "0x40002B5")]
+	[Token(Token = "0x400030C")]
 	EAC_R = 41,
-	[Token(Token = "0x40002B6")]
+	[Token(Token = "0x400030D")]
 	EAC_R_SIGNED = 42,
-	[Token(Token = "0x40002B7")]
+	[Token(Token = "0x400030E")]
 	EAC_RG = 43,
-	[Token(Token = "0x40002B8")]
+	[Token(Token = "0x400030F")]
 	EAC_RG_SIGNED = 44,
-	[Token(Token = "0x40002B9")]
+	[Token(Token = "0x4000310")]
 	ETC2_RGB = 45,
-	[Token(Token = "0x40002BA")]
+	[Token(Token = "0x4000311")]
 	ETC2_RGBA1 = 46,
-	[Token(Token = "0x40002BB")]
+	[Token(Token = "0x4000312")]
 	ETC2_RGBA8 = 47,
-	[Token(Token = "0x40002BC")]
+	[Token(Token = "0x4000313")]
 	ASTC_4x4 = 48,
-	[Token(Token = "0x40002BD")]
+	[Token(Token = "0x4000314")]
 	ASTC_5x5 = 49,
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x4000315")]
 	ASTC_6x6 = 50,
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x4000316")]
 	ASTC_8x8 = 51,
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x4000317")]
 	ASTC_10x10 = 52,
-	[Token(Token = "0x40002C1")]
+	[Token(Token = "0x4000318")]
 	ASTC_12x12 = 53,
-	[Token(Token = "0x40002C2")]
-	[Obsolete("Nintendo 3DS is no longer supported.")]
-	ETC_RGB4_3DS = 60,
-	[Token(Token = "0x40002C3")]
-	[Obsolete("Nintendo 3DS is no longer supported.")]
-	ETC_RGBA8_3DS = 61,
-	[Token(Token = "0x40002C4")]
+	[Token(Token = "0x4000319")]
 	RG16 = 62,
-	[Token(Token = "0x40002C5")]
+	[Token(Token = "0x400031A")]
 	R8 = 63,
-	[Token(Token = "0x40002C6")]
+	[Token(Token = "0x400031B")]
 	ETC_RGB4Crunched = 64,
-	[Token(Token = "0x40002C7")]
+	[Token(Token = "0x400031C")]
 	ETC2_RGBA8Crunched = 65,
-	[Token(Token = "0x40002C8")]
+	[Token(Token = "0x400031D")]
 	ASTC_HDR_4x4 = 66,
-	[Token(Token = "0x40002C9")]
+	[Token(Token = "0x400031E")]
 	ASTC_HDR_5x5 = 67,
-	[Token(Token = "0x40002CA")]
+	[Token(Token = "0x400031F")]
 	ASTC_HDR_6x6 = 68,
-	[Token(Token = "0x40002CB")]
+	[Token(Token = "0x4000320")]
 	ASTC_HDR_8x8 = 69,
-	[Token(Token = "0x40002CC")]
+	[Token(Token = "0x4000321")]
 	ASTC_HDR_10x10 = 70,
-	[Token(Token = "0x40002CD")]
+	[Token(Token = "0x4000322")]
 	ASTC_HDR_12x12 = 71,
-	[Token(Token = "0x40002CE")]
+	[Token(Token = "0x4000323")]
 	RG32 = 72,
-	[Token(Token = "0x40002CF")]
+	[Token(Token = "0x4000324")]
 	RGB48 = 73,
-	[Token(Token = "0x40002D0")]
+	[Token(Token = "0x4000325")]
 	RGBA64 = 74,
-	[Token(Token = "0x40002D1")]
+	[Token(Token = "0x4000326")]
 	R8_SIGNED = 75,
-	[Token(Token = "0x40002D2")]
+	[Token(Token = "0x4000327")]
 	RG16_SIGNED = 76,
-	[Token(Token = "0x40002D3")]
+	[Token(Token = "0x4000328")]
 	RGB24_SIGNED = 77,
-	[Token(Token = "0x40002D4")]
+	[Token(Token = "0x4000329")]
 	RGBA32_SIGNED = 78,
-	[Token(Token = "0x40002D5")]
+	[Token(Token = "0x400032A")]
 	R16_SIGNED = 79,
-	[Token(Token = "0x40002D6")]
+	[Token(Token = "0x400032B")]
 	RG32_SIGNED = 80,
-	[Token(Token = "0x40002D7")]
+	[Token(Token = "0x400032C")]
 	RGB48_SIGNED = 81,
-	[Token(Token = "0x40002D8")]
-	RGBA64_SIGNED = 82,
-	[Token(Token = "0x40002D9")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_4x4 has been deprecated. Use ASTC_4x4 instead (UnityUpgradable) -> ASTC_4x4")]
-	ASTC_RGB_4x4 = 48,
-	[Token(Token = "0x40002DA")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_5x5 has been deprecated. Use ASTC_5x5 instead (UnityUpgradable) -> ASTC_5x5")]
-	ASTC_RGB_5x5 = 49,
-	[Token(Token = "0x40002DB")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_6x6 has been deprecated. Use ASTC_6x6 instead (UnityUpgradable) -> ASTC_6x6")]
-	ASTC_RGB_6x6 = 50,
-	[Token(Token = "0x40002DC")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_8x8 has been deprecated. Use ASTC_8x8 instead (UnityUpgradable) -> ASTC_8x8")]
-	ASTC_RGB_8x8 = 51,
-	[Token(Token = "0x40002DD")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_10x10 has been deprecated. Use ASTC_10x10 instead (UnityUpgradable) -> ASTC_10x10")]
-	ASTC_RGB_10x10 = 52,
-	[Token(Token = "0x40002DE")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGB_12x12 has been deprecated. Use ASTC_12x12 instead (UnityUpgradable) -> ASTC_12x12")]
-	ASTC_RGB_12x12 = 53,
-	[Token(Token = "0x40002DF")]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_4x4 has been deprecated. Use ASTC_4x4 instead (UnityUpgradable) -> ASTC_4x4")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	ASTC_RGBA_4x4 = 54,
-	[Token(Token = "0x40002E0")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_5x5 has been deprecated. Use ASTC_5x5 instead (UnityUpgradable) -> ASTC_5x5")]
-	ASTC_RGBA_5x5 = 55,
-	[Token(Token = "0x40002E1")]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_6x6 has been deprecated. Use ASTC_6x6 instead (UnityUpgradable) -> ASTC_6x6")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	ASTC_RGBA_6x6 = 56,
-	[Token(Token = "0x40002E2")]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_8x8 has been deprecated. Use ASTC_8x8 instead (UnityUpgradable) -> ASTC_8x8")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	ASTC_RGBA_8x8 = 57,
-	[Token(Token = "0x40002E3")]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_10x10 has been deprecated. Use ASTC_10x10 instead (UnityUpgradable) -> ASTC_10x10")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	ASTC_RGBA_10x10 = 58,
-	[Token(Token = "0x40002E4")]
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	[Obsolete("Enum member TextureFormat.ASTC_RGBA_12x12 has been deprecated. Use ASTC_12x12 instead (UnityUpgradable) -> ASTC_12x12")]
-	ASTC_RGBA_12x12 = 59
+	[Token(Token = "0x400032D")]
+	RGBA64_SIGNED = 82
 }

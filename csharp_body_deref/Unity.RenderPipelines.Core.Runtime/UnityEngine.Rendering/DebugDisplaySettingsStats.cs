@@ -11,42 +11,42 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x2000070")]
 public class DebugDisplaySettingsStats<TProfileId> : IDebugDisplaySettingsData, IDebugDisplaySettingsQuery where TProfileId : Enum
 {
-	[Token(Token = "0x20000A0")]
-	[DisplayInfo(name = "Display Stats", order = int.MinValue)]
+	[Token(Token = "0x2000071")]
+	[DisplayInfo(name = "Display Stats", order = -2147483648)]
 	private class StatsPanel : DebugDisplaySettingsPanel
 	{
-		[Token(Token = "0x400023E")]
+		[Token(Token = "0x4000171")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly DebugDisplaySettingsStats<TProfileId> m_Data;
 
-		[Token(Token = "0x1700007D")]
+		[Token(Token = "0x17000054")]
 		public override DebugUI.Flags Flags
 		{
-			[Token(Token = "0x6000681")]
+			[Token(Token = "0x60005AA")]
 			get
 			{
 				return default(DebugUI.Flags);
 			}
 		}
 
-		[Token(Token = "0x6000682")]
+		[Token(Token = "0x60005AB")]
 		public StatsPanel(DebugDisplaySettingsStats<TProfileId> displaySettingsStats)
 		{
 		}
 
-		[Token(Token = "0x6000683")]
+		[Token(Token = "0x60005AC")]
 		public override void Dispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x1700007B")]
+	[Token(Token = "0x17000052")]
 	public DebugDisplayStats<TProfileId> debugDisplayStats
 	{
-		[Token(Token = "0x600067D")]
+		[Token(Token = "0x60005A6")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,22 +54,22 @@ public class DebugDisplaySettingsStats<TProfileId> : IDebugDisplaySettingsData, 
 		}
 	}
 
-	[Token(Token = "0x1700007C")]
+	[Token(Token = "0x17000053")]
 	public bool AreAnySettingsActive
 	{
-		[Token(Token = "0x600067F")]
+		[Token(Token = "0x60005A8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600067E")]
+	[Token(Token = "0x60005A7")]
 	public DebugDisplaySettingsStats(DebugDisplayStats<TProfileId> debugDisplayStats)
 	{
 	}
 
-	[Token(Token = "0x6000680")]
+	[Token(Token = "0x60005A9")]
 	public IDebugDisplaySettingsPanelDisposable CreatePanel()
 	{
 		return null;

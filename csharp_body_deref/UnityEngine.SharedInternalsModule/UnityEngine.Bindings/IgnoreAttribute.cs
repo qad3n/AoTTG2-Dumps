@@ -11,24 +11,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x200001A")]
+[Token(Token = "0x2000018")]
 [AttributeUsage(AttributeTargets.Field)]
 [VisibleToOtherModules]
 internal class IgnoreAttribute : Attribute
 {
-	[Token(Token = "0x17000016")]
+	[Token(Token = "0x17000014")]
 	public bool DoesNotContributeToSize
 	{
-		[Token(Token = "0x600003A")]
-		[Address(RVA = "0x4E9E3D0", Offset = "0x4E9E3D0", VA = "0x4E9E3D0")]
+		[Token(Token = "0x6000035")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4E9E3E0", Offset = "0x4E9E3E0", VA = "0x4E9E3E0")]
+	[Token(Token = "0x6000036")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public IgnoreAttribute()
 	{
 	}

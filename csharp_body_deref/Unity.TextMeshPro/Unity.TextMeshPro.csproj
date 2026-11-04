@@ -15,11 +15,11 @@
     <Reference Include="Il2CppDummyDll">
       <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
@@ -35,6 +35,9 @@
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.004">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.InternalAPIEngineBridge.004.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

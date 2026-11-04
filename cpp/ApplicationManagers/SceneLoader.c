@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.SceneLoader
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers/SceneLoader.cs
@@ -8,377 +8,392 @@
 
 // ApplicationManagers.SceneLoader$$Init
 // il2cpp: void ApplicationManagers_SceneLoader__Init (const MethodInfo* method);
-// 0x44bff30
+// 0x182356e80
 
 void ApplicationManagers_SceneLoader__Init(MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  UnityEngine_Events_UnityAction_Scene__LoadSceneMode__o *value;
-  MethodInfo *method_00;
+  ApplicationManagers_SceneLoader_o *pAVar1;
+  UnityEngine_Events_UnityAction_T0__T1__o *__this;
   
-  if (g_data_057aea8d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnSceneWasLoaded);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SceneLoader_CreateSingleton_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction_Scene_LoadSceneMode);
-    g_data_057aea8d = '\x01';
+  if (Il2CppMethodInitialized_1843479c2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_ApplicationManagers_SceneLoader_OnSceneWasLoaded);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_SceneManagement_SceneManager);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Utility_SingletonFactory_CreateSingleton_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction_Scene_LoadSceneMode);
+    Il2CppMethodInitialized_1843479c2 = '\x01';
   }
-  pIVar1 = Utility_SingletonFactory__CreateSingleton_object_
-                     ((Il2CppObject *)**(undefined8 **)(TypeInfo_SceneLoader + 0xb8),MethodInfo_SceneLoader_CreateSingleton_SceneLoader);
-  **(undefined8 **)(TypeInfo_SceneLoader + 0xb8) = pIVar1;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_SceneLoader + 0xb8),pIVar1);
-  value = (UnityEngine_Events_UnityAction_Scene__LoadSceneMode__o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction_Scene_LoadSceneMode);
-  UnityEngine_Events_UnityAction_Scene__Int32Enum____ctor();
-  if (*(int *)(TypeInfo_SceneManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pAVar1 = Utility_SingletonFactory__CreateSingleton_object_
+                     ((Il2CppObject *)TypeInfo_ApplicationManagers_SceneLoader->static_fields->_instance,
+                      (MethodInfo_798ED0 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_SceneLoader);
+  TypeInfo_ApplicationManagers_SceneLoader->static_fields->_instance = pAVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_SceneLoader->static_fields->_instance,pAVar1);
+  pAVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->_instance;
+  __this = (UnityEngine_Events_UnityAction_T0__T1__o *)
+           il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction_Scene_LoadSceneMode);
+  UnityEngine_Events_UnityAction_Scene__Int32Enum____ctor
+            (__this,(Il2CppObject *)pAVar1,
+             (intptr_t)MethodInfo_ApplicationManagers_SceneLoader_OnSceneWasLoaded,(MethodInfo_EB70D0 *)0x0);
+  if ((TypeInfo_UnityEngine_SceneManagement_SceneManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_SceneManagement_SceneManager);
   }
-  method_00 = (MethodInfo *)0x0;
-  UnityEngine_SceneManagement_SceneManager__add_sceneLoaded(value,(MethodInfo *)0x0);
-  ApplicationManagers_SceneLoader__LoadScene(1,method_00);
+  UnityEngine_SceneManagement_SceneManager__add_sceneLoaded
+            ((UnityEngine_Events_UnityAction_Scene__LoadSceneMode__o *)__this,(MethodInfo *)0x0);
+  ApplicationManagers_SceneLoader__LoadScene(1,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.SceneLoader$$LoadScene
 // il2cpp: void ApplicationManagers_SceneLoader__LoadScene (int32_t sceneName, const MethodInfo* method);
-// 0x44c0030
+// 0x182356f90
 
 void ApplicationManagers_SceneLoader__LoadScene(int32_t sceneName,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  MethodInfo *method_00;
+  System_Collections_Generic_Dictionary_string__Object__o *__this;
   
-  if (g_data_057aea8e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AssetBundleManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ClothFactory);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_FullscreenHandler);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhotonNetwork);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SkyboxCustomSkinLoader);
-    g_data_057aea8e = '\x01';
+  if (Il2CppMethodInitialized_1843479c3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AssetBundleManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ClothFactory);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_FullscreenHandler);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_SceneManagement_SceneManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_SkyboxCustomSkinLoader);
+    Il2CppMethodInitialized_1843479c3 = '\x01';
   }
-  **(undefined8 **)(TypeInfo_SkyboxCustomSkinLoader + 0xb8) = 0;
-  il2cpp_runtime_helper_022b4080();
+  TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial = (UnityEngine_Material_o *)0x0;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomSkins_SkyboxCustomSkinLoader->static_fields->SkyboxMaterial,(void *)0x0);
   UnityEngine_Time__set_timeScale(1.0,(MethodInfo *)0x0);
   Events_EventManager__InvokePreLoadScene(sceneName,(MethodInfo *)0x0);
-  *(int32_t *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8) = sceneName;
-  if (*(int *)(TypeInfo_ClothFactory + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName = sceneName;
+  if ((TypeInfo_ClothFactory->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ClothFactory);
   }
   ClothFactory__DisposeAllObjects((MethodInfo *)0x0);
   ClothFactory__ClearClothCache((MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057aea80 != '\0') goto label_044c0144;
-label_044c01ec:
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    g_data_057aea80 = '\x01';
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) != 0) goto label_044c0154;
-label_044c021b:
-    il2cpp_runtime_helper_02337ed0();
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(long **)(TypeInfo_ResourceManager + 0xb8);
-    if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044c0167;
-label_044c0236:
-    il2cpp_runtime_helper_022b2c90();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  else {
-    if (g_data_057aea80 == '\0') goto label_044c01ec;
-label_044c0144:
-    if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) goto label_044c021b;
-label_044c0154:
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(long **)(TypeInfo_ResourceManager + 0xb8);
-    if (__this == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044c0236;
-label_044c0167:
-    System_Collections_Generic_Dictionary_object__object___Clear(__this,MethodInfo_Void_Clear);
-    if (*(int *)(TypeInfo_AssetBundleManager + 0xe4) != 0) {
-      ApplicationManagers_AssetBundleManager__Clear((MethodInfo *)0x0);
-      goto joined_r0x044c024a;
+  if (Il2CppMethodInitialized_1843479b5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Object_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    Il2CppMethodInitialized_1843479b5 = '\x01';
+  }
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
+  }
+  __this = TypeInfo_ApplicationManagers_ResourceManager->static_fields->_cache;
+  if (__this != (System_Collections_Generic_Dictionary_string__Object__o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Object_Clear);
+    if ((TypeInfo_ApplicationManagers_AssetBundleManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AssetBundleManager);
     }
-  }
-  il2cpp_runtime_helper_02337ed0();
-  ApplicationManagers_AssetBundleManager__Clear((MethodInfo *)0x0);
-joined_r0x044c024a:
-  if (sceneName == 2) {
-    if (*(int *)(TypeInfo_PhotonNetwork + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    ApplicationManagers_AssetBundleManager__Clear((MethodInfo *)0x0);
+    if (sceneName == 2) {
+      if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
+      }
+      Photon_Pun_PhotonNetwork__LoadLevel(0,(MethodInfo *)0x0);
     }
-    Photon_Pun_PhotonNetwork__LoadLevel(0,(MethodInfo *)0x0);
-    iVar1 = *(int *)((long)&TypeInfo_FullscreenHandler[2].parameters + 4);
-    method_00 = TypeInfo_FullscreenHandler;
-  }
-  else {
-    if (*(int *)(TypeInfo_SceneManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    else {
+      if ((TypeInfo_UnityEngine_SceneManagement_SceneManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_SceneManagement_SceneManager);
+      }
+      UnityEngine_SceneManagement_SceneManager__LoadScene(0,(MethodInfo *)0x0);
     }
-    UnityEngine_SceneManagement_SceneManager__LoadScene(0,(MethodInfo *)0x0);
-    iVar1 = *(int *)((long)&TypeInfo_FullscreenHandler[2].parameters + 4);
-    method_00 = TypeInfo_FullscreenHandler;
-  }
-  TypeInfo_FullscreenHandler = method_00;
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    ApplicationManagers_FullscreenHandler__UpdateFPS(method_00);
+    if ((TypeInfo_ApplicationManagers_FullscreenHandler->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_FullscreenHandler);
+    }
+    ApplicationManagers_FullscreenHandler__UpdateFPS((MethodInfo *)0x0);
     return;
   }
-  ApplicationManagers_FullscreenHandler__UpdateFPS(method_00);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.SceneLoader$$CreateGameManager
 // il2cpp: void ApplicationManagers_SceneLoader__CreateGameManager (const MethodInfo* method);
-// 0x44c02a0
+// 0x182356c80
+// asm: 9 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182356dbe: mov rcx, qword ptr [rip + 0x1d6f78b]  ; MethodInfo_Utility_Util_CreateObj_BaseGameManager
+// asm:   0x182356dc5: jmp 0x182356e3d
+// asm:   0x182356ddc: mov rcx, qword ptr [rip + 0x1d6faed]  ; MethodInfo_Utility_Util_CreateObj_MapEditorGameManager
+// asm:   0x182356de3: jmp 0x182356e3d
+// asm:   0x182356dfa: mov rcx, qword ptr [rip + 0x1d6f82f]  ; MethodInfo_Utility_Util_CreateObj_CharacterEditorGameManager
+// asm:   0x182356e01: jmp 0x182356e3d
+// asm:   0x182356e18: mov rcx, qword ptr [rip + 0x1d6f8f1]  ; MethodInfo_Utility_Util_CreateObj_InGameManager
+// asm:   0x182356e1f: jmp 0x182356e3d
+// asm:   0x182356e36: mov rcx, qword ptr [rip + 0x1d6f9b3]  ; MethodInfo_Utility_Util_CreateObj_MainMenuGameManager
 
 void ApplicationManagers_SceneLoader__CreateGameManager(MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_Object_o *x;
-  long lVar2;
-  bool_conflict bVar3;
-  Il2CppObject *pIVar4;
-  undefined8 *puVar5;
+  ApplicationManagers_SceneLoader_StaticFields *pAVar1;
+  bool bVar2;
+  GameManagers_BaseGameManager_o *pGVar3;
+  MethodInfo *method_00;
   
-  if (g_data_057aea8f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseGameManager_CreateObj_BaseGameManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CharacterEditorGameManager_CreateObj_CharacterEditorGame);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_InGameManager_CreateObj_InGameManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MainMenuGameManager_CreateObj_MainMenuGameManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapEditorGameManager_CreateObj_MapEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"Warning: game manager already exists.");
-    g_data_057aea8f = '\x01';
+  if (Il2CppMethodInitialized_1843479c4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_BaseGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_InGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_MainMenuGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_MapEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&"Warning: game manager already exists.");
+    Il2CppMethodInitialized_1843479c4 = '\x01';
   }
-  x = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pGVar3 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  bVar2 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pGVar3,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
     }
-    UnityEngine_Debug__Log("Warning: game manager already exists.",(MethodInfo *)0x0);
+    UnityEngine_Debug__Log((Il2CppObject *)"Warning: game manager already exists.",(MethodInfo *)0x0);
   }
-  switch(*(undefined4 *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8)) {
-  case 1:
-    puVar5 = &MethodInfo_MainMenuGameManager_CreateObj_MainMenuGameManager;
-    iVar1 = *(int *)(TypeInfo_Util + 0xe4);
-    break;
-  case 2:
-    puVar5 = &MethodInfo_InGameManager_CreateObj_InGameManager;
-    iVar1 = *(int *)(TypeInfo_Util + 0xe4);
-    goto joined_r0x044c0457;
-  case 3:
-    puVar5 = &MethodInfo_MapEditorGameManager_CreateObj_MapEditorGameManager;
-    iVar1 = *(int *)(TypeInfo_Util + 0xe4);
-joined_r0x044c0457:
-    if (iVar1 != 0) goto label_044c03d6;
-    goto label_044c03d1;
-  case 4:
-    puVar5 = &MethodInfo_CharacterEditorGameManager_CreateObj_CharacterEditorGame;
-    iVar1 = *(int *)(TypeInfo_Util + 0xe4);
-    break;
-  case 5:
-  case 6:
-  case 7:
-    puVar5 = &MethodInfo_BaseGameManager_CreateObj_BaseGameManager;
-    iVar1 = *(int *)(TypeInfo_Util + 0xe4);
-    break;
-  default:
-    return;
+  pAVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields;
+  if (pAVar1->SceneName == 1) {
+    method_00 = MethodInfo_Utility_Util_CreateObj_MainMenuGameManager;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      method_00 = MethodInfo_Utility_Util_CreateObj_MainMenuGameManager;
+    }
   }
-  if (iVar1 == 0) {
-label_044c03d1:
-    il2cpp_runtime_helper_02337ed0();
+  else if (pAVar1->SceneName == 2) {
+    method_00 = MethodInfo_Utility_Util_CreateObj_InGameManager;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      method_00 = MethodInfo_Utility_Util_CreateObj_InGameManager;
+    }
   }
-label_044c03d6:
-  pIVar4 = Utility_Util__CreateObj_object_((MethodInfo_264FDC0 *)*puVar5);
-  lVar2 = *(long *)(TypeInfo_SceneLoader + 0xb8);
-  *(Il2CppObject **)(lVar2 + 0x10) = pIVar4;
-  il2cpp_runtime_helper_022b4080(lVar2 + 0x10,pIVar4);
+  else if (pAVar1->SceneName == 4) {
+    method_00 = MethodInfo_Utility_Util_CreateObj_CharacterEditorGameManager;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      method_00 = MethodInfo_Utility_Util_CreateObj_CharacterEditorGameManager;
+    }
+  }
+  else if (pAVar1->SceneName == 3) {
+    method_00 = MethodInfo_Utility_Util_CreateObj_MapEditorGameManager;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      method_00 = MethodInfo_Utility_Util_CreateObj_MapEditorGameManager;
+    }
+  }
+  else {
+    if (((pAVar1->SceneName != 5) && (pAVar1->SceneName != 6)) && (pAVar1->SceneName != 7)) {
+      return;
+    }
+    method_00 = MethodInfo_Utility_Util_CreateObj_BaseGameManager;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      method_00 = MethodInfo_Utility_Util_CreateObj_BaseGameManager;
+    }
+  }
+  pGVar3 = (GameManagers_BaseGameManager_o *)Utility_Util__CreateObj_object_((MethodInfo_869350 *)method_00);
+  TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager = pGVar3;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager,pGVar3);
   return;
 }
 
 
 // ApplicationManagers.SceneLoader$$CreateCamera
 // il2cpp: void ApplicationManagers_SceneLoader__CreateCamera (const MethodInfo* method);
-// 0x44c0490
+// 0x1823568c0
+// asm: 9 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182356b72: mov rdx, qword ptr [rip + 0x1d5e3e7]  ; MethodInfo_UnityEngine_GameObject_AddComponent_TestCamera
+// asm:   0x182356b79: jmp 0x182356ba0
+// asm:   0x182356b7b: test r8, r8
+// asm:   0x182356b7e: je 0x182356c6c
+// asm:   0x182356b84: mov rdx, qword ptr [rip + 0x1d54825]  ; MethodInfo_UnityEngine_GameObject_AddComponent_CharacterEditorCamera
+// asm:   0x182356b8b: jmp 0x182356b9d
+// asm:   0x182356b8d: test r8, r8
+// asm:   0x182356b96: mov rdx, qword ptr [rip + 0x1d5a76b]  ; MethodInfo_UnityEngine_GameObject_AddComponent_MapEditorCamera
+// asm:   0x182356b9d: mov rcx, r8
 
 void ApplicationManagers_SceneLoader__CreateCamera(MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_Object_o *x;
+  ApplicationManagers_SceneLoader_StaticFields *pAVar1;
   UnityEngine_Camera_o *__this;
-  bool_conflict bVar2;
+  bool bVar2;
   UnityEngine_GameObject_o *__this_00;
-  Il2CppObject *pIVar3;
-  undefined8 *puVar4;
-  Il2CppClass *__this_01;
-  long lVar5;
+  Cameras_StaticCamera_o *pCVar3;
+  Cameras_BaseCamera_o *pCVar4;
+  Cameras_InGameCamera_o *value;
+  Cameras_MinimapCamera_o *value_00;
   MethodInfo *method_00;
   
-  if (g_data_057aea90 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_StaticCamera_GetComponent_StaticCamera);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CharacterEditorCamera_AddComponent_CharacterEditorCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_InGameCamera_AddComponent_InGameCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MapEditorCamera_AddComponent_MapEditorCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_StaticCamera_AddComponent_StaticCamera);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TestCamera_AddComponent_TestCamera);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_MinimapCamera_CreateObj_MinimapCamera);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"Warning: Camera already exists.");
-    il2cpp_runtime_helper_023445d0(&"Game/MainCamera");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057aea90 = '\x01';
+  if (Il2CppMethodInitialized_1843479c5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_StaticCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_CharacterEditorCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_InGameCamera);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_MapEditorCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_StaticCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_TestCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Utility_Util_CreateObj_MinimapCamera);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&"Warning: Camera already exists.");
+    il2cpp_codegen_initialize_runtime_metadata(&"Game/MainCamera");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_1843479c5 = '\x01';
   }
-  x = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  bVar2 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pCVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
     }
-    UnityEngine_Debug__Log("Warning: Camera already exists.",(MethodInfo *)0x0);
+    UnityEngine_Debug__Log((Il2CppObject *)"Warning: Camera already exists.",(MethodInfo *)0x0);
   }
-  if (*(int *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8) == 0) {
+  if (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName == 0) {
     return;
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  method_00 = "";
-  __this_00 = (UnityEngine_GameObject_o *)
-              ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                        ((System_String_o *)"","Game/MainCamera",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
-  iVar1 = *(int *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8);
-  if (iVar1 == 4) {
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_044c07c4;
-    puVar4 = &MethodInfo_CharacterEditorCamera_AddComponent_CharacterEditorCamera;
-  }
-  else if (iVar1 == 3) {
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_044c07c4;
-    puVar4 = &MethodInfo_MapEditorCamera_AddComponent_MapEditorCamera;
-  }
-  else {
-    if (iVar1 == 2) {
-      if (__this_00 == (UnityEngine_GameObject_o *)0x0) goto label_044c07c4;
-      pIVar3 = UnityEngine_GameObject__AddComponent_object_(__this_00,MethodInfo_InGameCamera_AddComponent_InGameCamera);
-      lVar5 = *(long *)(TypeInfo_SceneLoader + 0xb8);
-      *(Il2CppObject **)(lVar5 + 0x18) = pIVar3;
-      il2cpp_runtime_helper_022b4080(lVar5 + 0x18,pIVar3);
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pIVar3 = Utility_Util__CreateObj_object_(MethodInfo_MinimapCamera_CreateObj_MinimapCamera);
-      lVar5 = *(long *)(TypeInfo_SceneLoader + 0xb8);
-      *(Il2CppObject **)(lVar5 + 0x20) = pIVar3;
-      lVar5 = lVar5 + 0x20;
-      goto label_044c0715;
-    }
-    if (__this_00 == (UnityEngine_GameObject_o *)0x0) {
-label_044c07c4:
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057aea91 == '\0') {
-        method_00 = (MethodInfo *)&TypeInfo_SceneLoader;
-        il2cpp_runtime_helper_023445d0();
-        g_data_057aea91 = '\x01';
-      }
-      ApplicationManagers_SceneLoader__CreateGameManager(method_00);
-      ApplicationManagers_SceneLoader__CreateCamera(method_00);
-      Events_EventManager__InvokeLoadScene(*(int32_t *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8),(MethodInfo *)0x0)
+  __this_00 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                        ("","Game/MainCamera",false,
+                         (MethodInfo_795F00 *)
+                         MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+  pAVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields;
+  if (pAVar1->SceneName == 2) {
+    if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+      value = UnityEngine_GameObject__AddComponent_object_
+                        (__this_00,
+                         (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_InGameCamera);
+      TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera = (Cameras_BaseCamera_o *)value;
+      Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera,value)
       ;
+      if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+      }
+      value_00 = Utility_Util__CreateObj_object_
+                           ((MethodInfo_869350 *)MethodInfo_Utility_Util_CreateObj_MinimapCamera);
+      TypeInfo_ApplicationManagers_SceneLoader->static_fields->MinimapCamera = value_00;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_ApplicationManagers_SceneLoader->static_fields->MinimapCamera,value_00);
       return;
     }
-    if (iVar1 != 8) {
-      pIVar3 = UnityEngine_GameObject__AddComponent_object_(__this_00,MethodInfo_StaticCamera_AddComponent_StaticCamera);
-      lVar5 = *(long *)(TypeInfo_SceneLoader + 0xb8);
-      *(Il2CppObject **)(lVar5 + 0x18) = pIVar3;
-      method_00 = (MethodInfo *)(lVar5 + 0x18);
-      il2cpp_runtime_helper_022b4080();
-      lVar5 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-      if (lVar5 != 0) {
-        __this = *(UnityEngine_Camera_o **)(lVar5 + 0x20);
-        method_00 = (MethodInfo *)0x0;
-        if (__this != (UnityEngine_Camera_o *)0x0) {
-          UnityEngine_Camera__set_nearClipPlane(__this,0.3,(MethodInfo *)0x0);
-          method_00 = *(MethodInfo **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-          if (method_00 != (MethodInfo *)0x0) {
-            iVar1 = *(int *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8);
-            pIVar3 = UnityEngine_Component__GetComponent_object_
-                               ((UnityEngine_Component_o *)method_00,MethodInfo_StaticCamera_GetComponent_StaticCamera);
-            if (pIVar3 != (Il2CppObject *)0x0) {
-              __this_01 = pIVar3[2].klass;
-              if (__this_01 != (Il2CppClass *)0x0) {
-                UnityEngine_Camera__set_clearFlags
-                          ((UnityEngine_Camera_o *)__this_01,2 - (uint)(iVar1 == 5),(MethodInfo *)0x0);
-                return;
-              }
-              il2cpp_runtime_helper_022b2c90();
-              UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this_01,(MethodInfo *)0x0);
-              return;
-            }
+  }
+  else {
+    method_00 = MethodInfo_UnityEngine_GameObject_AddComponent_MapEditorCamera;
+    if ((pAVar1->SceneName == 3) ||
+       (method_00 = MethodInfo_UnityEngine_GameObject_AddComponent_CharacterEditorCamera,
+       pAVar1->SceneName == 4)) {
+      if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+label_182356ba0:
+        pCVar4 = (Cameras_BaseCamera_o *)
+                 UnityEngine_GameObject__AddComponent_object_(__this_00,(MethodInfo_6F4D60 *)method_00);
+        TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera = pCVar4;
+        Il2CppCodeGenWriteBarrier
+                  (&TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera,pCVar4);
+        return;
+      }
+    }
+    else if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
+      method_00 = MethodInfo_UnityEngine_GameObject_AddComponent_TestCamera;
+      if (pAVar1->SceneName == 8) goto label_182356ba0;
+      pCVar3 = UnityEngine_GameObject__AddComponent_object_
+                         (__this_00,
+                          (MethodInfo_6F4D60 *)MethodInfo_UnityEngine_GameObject_AddComponent_StaticCamera);
+      TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera = (Cameras_BaseCamera_o *)pCVar3;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera,pCVar3);
+      pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+      if ((pCVar4 != (Cameras_BaseCamera_o *)0x0) &&
+         (__this = (pCVar4->fields).Camera, __this != (UnityEngine_Camera_o *)0x0)) {
+        UnityEngine_Camera__set_nearClipPlane(__this,0.3,(MethodInfo *)0x0);
+        pCVar4 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+        if (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName == 5) {
+          if ((pCVar4 != (Cameras_BaseCamera_o *)0x0) &&
+             (pCVar3 = UnityEngine_Component__GetComponent_object_
+                                 ((UnityEngine_Component_o *)pCVar4,
+                                  (MethodInfo_6651A0 *)
+                                  MethodInfo_UnityEngine_Component_GetComponent_StaticCamera),
+             pCVar3 != (Cameras_StaticCamera_o *)0x0)) {
+            Cameras_StaticCamera__SetSkybox(pCVar3,true,(MethodInfo *)0x0);
+            return;
           }
         }
+        else if ((pCVar4 != (Cameras_BaseCamera_o *)0x0) &&
+                (pCVar3 = UnityEngine_Component__GetComponent_object_
+                                    ((UnityEngine_Component_o *)pCVar4,
+                                     (MethodInfo_6651A0 *)
+                                     MethodInfo_UnityEngine_Component_GetComponent_StaticCamera),
+                pCVar3 != (Cameras_StaticCamera_o *)0x0)) {
+          Cameras_StaticCamera__SetSkybox(pCVar3,false,(MethodInfo *)0x0);
+          return;
+        }
       }
-      goto label_044c07c4;
     }
-    puVar4 = &MethodInfo_TestCamera_AddComponent_TestCamera;
   }
-  pIVar3 = UnityEngine_GameObject__AddComponent_object_(__this_00,(MethodInfo_255A020 *)*puVar4);
-  lVar5 = *(long *)(TypeInfo_SceneLoader + 0xb8);
-  *(Il2CppObject **)(lVar5 + 0x18) = pIVar3;
-  lVar5 = lVar5 + 0x18;
-label_044c0715:
-  il2cpp_runtime_helper_022b4080(lVar5,pIVar3);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.SceneLoader$$OnSceneWasLoaded
 // il2cpp: void ApplicationManagers_SceneLoader__OnSceneWasLoaded (ApplicationManagers_SceneLoader_o* __this, UnityEngine_SceneManagement_Scene_o scene, int32_t mode, const MethodInfo* method);
-// 0x44c07d0
+// 0x182357180
 
 void ApplicationManagers_SceneLoader__OnSceneWasLoaded
                (ApplicationManagers_SceneLoader_o *__this,UnityEngine_SceneManagement_Scene_o scene,
                int32_t mode,MethodInfo *method)
 
 {
-  if (g_data_057aea91 == '\0') {
-    __this = (ApplicationManagers_SceneLoader_o *)&TypeInfo_SceneLoader;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aea91 = '\x01';
+  if (Il2CppMethodInitialized_1843479c6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Outline);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    Il2CppMethodInitialized_1843479c6 = '\x01';
   }
-  ApplicationManagers_SceneLoader__CreateGameManager((MethodInfo *)__this);
-  ApplicationManagers_SceneLoader__CreateCamera((MethodInfo *)__this);
-  Events_EventManager__InvokeLoadScene(*(int32_t *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 8),(MethodInfo *)0x0);
+  if ((TypeInfo_Outline->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Outline);
+  }
+  Outline__ResetQueueBlocks((MethodInfo *)0x0);
+  ApplicationManagers_SceneLoader__CreateGameManager((MethodInfo *)0x0);
+  ApplicationManagers_SceneLoader__CreateCamera((MethodInfo *)0x0);
+  Events_EventManager__InvokeLoadScene
+            (TypeInfo_ApplicationManagers_SceneLoader->static_fields->SceneName,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.SceneLoader$$.ctor
 // il2cpp: void ApplicationManagers_SceneLoader___ctor (ApplicationManagers_SceneLoader_o* __this, const MethodInfo* method);
-// 0x44c0820
+// 0x180528540
 
-void ApplicationManagers_SceneLoader___ctor(ApplicationManagers_SceneLoader_o *__this,MethodInfo *method)
+void
+ApplicationManagers_SceneLoader___ctor(ApplicationManagers_SceneLoader_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

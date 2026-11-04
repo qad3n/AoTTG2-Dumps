@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace Unity.Mathematics.Geometry;
 
-[Token(Token = "0x2000063")]
-internal static class Math
+[Token(Token = "0x2000062")]
+public static class Math
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002467")]
-	[Address(RVA = "0x4A87840", Offset = "0x4A87840", VA = "0x4A87840")]
+	[Token(Token = "0x60024BE")]
+	[Address(RVA = "0x2A396D0", Offset = "0x2A37CD0", VA = "0x182A396D0")]
 	public static MinMaxAABB Transform(RigidTransform transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002468")]
-	[Address(RVA = "0x4A87C00", Offset = "0x4A87C00", VA = "0x4A87C00")]
+	[Token(Token = "0x60024BF")]
+	[Address(RVA = "0x2A39590", Offset = "0x2A37B90", VA = "0x182A39590")]
 	public static MinMaxAABB Transform(float4x4 transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6002469")]
-	[Address(RVA = "0x4A87E40", Offset = "0x4A87E40", VA = "0x4A87E40")]
+	[Token(Token = "0x60024C0")]
+	[Address(RVA = "0x2A373C0", Offset = "0x2A359C0", VA = "0x182A373C0")]
 	public static MinMaxAABB Transform(float3x3 transform, MinMaxAABB aabb)
 	{
 		return default(MinMaxAABB);

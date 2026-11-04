@@ -12,40 +12,40 @@ namespace Weather;
 [Token(Token = "0x2000037")]
 public enum WeatherAction
 {
-	[Token(Token = "0x400010A")]
-	BeginSchedule,
-	[Token(Token = "0x400010B")]
-	EndSchedule,
-	[Token(Token = "0x400010C")]
-	RepeatNext,
-	[Token(Token = "0x400010D")]
-	BeginRepeat,
-	[Token(Token = "0x400010E")]
-	EndRepeat,
-	[Token(Token = "0x400010F")]
-	SetDefaultAll,
-	[Token(Token = "0x4000110")]
-	SetDefault,
-	[Token(Token = "0x4000111")]
-	SetValue,
-	[Token(Token = "0x4000112")]
-	SetTargetDefaultAll,
-	[Token(Token = "0x4000113")]
-	SetTargetDefault,
-	[Token(Token = "0x4000114")]
-	SetTargetValue,
 	[Token(Token = "0x4000115")]
-	SetTargetTimeAll,
+	BeginSchedule,
 	[Token(Token = "0x4000116")]
-	SetTargetTime,
+	EndSchedule,
 	[Token(Token = "0x4000117")]
-	Wait,
+	RepeatNext,
 	[Token(Token = "0x4000118")]
-	Goto,
+	BeginRepeat,
 	[Token(Token = "0x4000119")]
-	Label,
+	EndRepeat,
 	[Token(Token = "0x400011A")]
-	Return,
+	SetDefaultAll,
 	[Token(Token = "0x400011B")]
+	SetDefault,
+	[Token(Token = "0x400011C")]
+	SetValue,
+	[Token(Token = "0x400011D")]
+	SetTargetDefaultAll,
+	[Token(Token = "0x400011E")]
+	SetTargetDefault,
+	[Token(Token = "0x400011F")]
+	SetTargetValue,
+	[Token(Token = "0x4000120")]
+	SetTargetTimeAll,
+	[Token(Token = "0x4000121")]
+	SetTargetTime,
+	[Token(Token = "0x4000122")]
+	Wait,
+	[Token(Token = "0x4000123")]
+	Goto,
+	[Token(Token = "0x4000124")]
+	Label,
+	[Token(Token = "0x4000125")]
+	Return,
+	[Token(Token = "0x4000126")]
 	LoadSkybox
 }

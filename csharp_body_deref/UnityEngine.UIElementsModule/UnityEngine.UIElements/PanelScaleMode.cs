@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200020B")]
+[Token(Token = "0x2000271")]
 public enum PanelScaleMode
 {
-	[Token(Token = "0x4000742")]
+	[Token(Token = "0x400090F")]
 	ConstantPixelSize,
-	[Token(Token = "0x4000743")]
+	[Token(Token = "0x4000910")]
 	ConstantPhysicalSize,
-	[Token(Token = "0x4000744")]
+	[Token(Token = "0x4000911")]
 	ScaleWithScreenSize
 }

@@ -29,7 +29,7 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	public override XPathNavigator Current
 	{
 		[Token(Token = "0x6000792")]
-		[Address(RVA = "0x47C6BF0", Offset = "0x47C6BF0", VA = "0x47C6BF0", Slot = "8")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "8")]
 		get
 		{
 			return null;
@@ -40,7 +40,7 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	public override int CurrentPosition
 	{
 		[Token(Token = "0x6000793")]
-		[Address(RVA = "0x47C6C00", Offset = "0x47C6C00", VA = "0x47C6C00", Slot = "9")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280", Slot = "9")]
 		get
 		{
 			return default(int);
@@ -48,13 +48,13 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	}
 
 	[Token(Token = "0x600078F")]
-	[Address(RVA = "0x47C6AA0", Offset = "0x47C6AA0", VA = "0x47C6AA0")]
+	[Address(RVA = "0x270B030", Offset = "0x2709630", VA = "0x18270B030")]
 	internal DocumentXPathNodeIterator_ElemDescendants(DocumentXPathNavigator nav)
 	{
 	}
 
 	[Token(Token = "0x6000790")]
-	[Address(RVA = "0x47C6B40", Offset = "0x47C6B40", VA = "0x47C6B40")]
+	[Address(RVA = "0x270B100", Offset = "0x2709700", VA = "0x18270B100")]
 	internal DocumentXPathNodeIterator_ElemDescendants(DocumentXPathNodeIterator_ElemDescendants other)
 	{
 	}
@@ -63,13 +63,13 @@ internal abstract class DocumentXPathNodeIterator_ElemDescendants : XPathNodeIte
 	protected abstract bool Match(XmlNode node);
 
 	[Token(Token = "0x6000794")]
-	[Address(RVA = "0x47C6C10", Offset = "0x47C6C10", VA = "0x47C6C10")]
+	[Address(RVA = "0xD23EF0", Offset = "0xD224F0", VA = "0x180D23EF0")]
 	protected void SetPosition(int pos)
 	{
 	}
 
 	[Token(Token = "0x6000795")]
-	[Address(RVA = "0x47C6C20", Offset = "0x47C6C20", VA = "0x47C6C20", Slot = "7")]
+	[Address(RVA = "0x270AEC0", Offset = "0x27094C0", VA = "0x18270AEC0", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

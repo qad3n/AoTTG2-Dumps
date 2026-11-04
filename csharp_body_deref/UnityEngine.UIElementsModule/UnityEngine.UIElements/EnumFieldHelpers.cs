@@ -10,23 +10,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000089")]
+[Token(Token = "0x20000C5")]
 internal static class EnumFieldHelpers
 {
-	[Token(Token = "0x4000223")]
+	[Token(Token = "0x400034E")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly UxmlTypeAttributeDescription<Enum> type;
 
-	[Token(Token = "0x4000224")]
+	[Token(Token = "0x400034F")]
 	[FieldOffset(Offset = "0x8")]
 	internal static readonly UxmlStringAttributeDescription value;
 
-	[Token(Token = "0x4000225")]
+	[Token(Token = "0x4000350")]
 	[FieldOffset(Offset = "0x10")]
 	internal static readonly UxmlBoolAttributeDescription includeObsoleteValues;
 
-	[Token(Token = "0x60003D0")]
-	[Address(RVA = "0x4F386B0", Offset = "0x4F386B0", VA = "0x4F386B0")]
+	[Token(Token = "0x60005A0")]
+	[Address(RVA = "0x31D0500", Offset = "0x31CEB00", VA = "0x1831D0500")]
 	internal static bool ExtractValue(IUxmlAttributes bag, CreationContext cc, out Type resEnumType, out Enum resEnumValue, out bool resIncludeObsoleteValues)
 	{
 		return default(bool);

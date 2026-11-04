@@ -47,7 +47,7 @@ public struct StringConcat
 	internal int Count
 	{
 		[Token(Token = "0x6000F20")]
-		[Address(RVA = "0x483D860", Offset = "0x483D860", VA = "0x483D860")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		get
 		{
 			return default(int);
@@ -55,20 +55,20 @@ public struct StringConcat
 	}
 
 	[Token(Token = "0x6000F1F")]
-	[Address(RVA = "0x483D840", Offset = "0x483D840", VA = "0x483D840")]
+	[Address(RVA = "0x2784C70", Offset = "0x2783270", VA = "0x182784C70")]
 	public void Clear()
 	{
 	}
 
 	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x483D870", Offset = "0x483D870", VA = "0x483D870")]
+	[Address(RVA = "0x2784E30", Offset = "0x2783430", VA = "0x182784E30")]
 	public string GetResult()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F22")]
-	[Address(RVA = "0x483D930", Offset = "0x483D930", VA = "0x483D930")]
+	[Address(RVA = "0x2784C90", Offset = "0x2783290", VA = "0x182784C90")]
 	internal void ConcatNoDelimiter(string s)
 	{
 	}

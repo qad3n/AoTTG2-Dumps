@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x20000AD")]
+[Token(Token = "0x20000AF")]
 public interface IMoveHandler : IEventSystemHandler
 {
-	[Token(Token = "0x600064B")]
+	[Token(Token = "0x6000692")]
 	void OnMove(AxisEventData eventData);
 }

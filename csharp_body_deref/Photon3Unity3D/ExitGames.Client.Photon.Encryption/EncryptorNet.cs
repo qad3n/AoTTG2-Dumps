@@ -31,40 +31,40 @@ public class EncryptorNet : IPhotonEncryptor
 	protected HMACSHA256 hmacsha256Out;
 
 	[Token(Token = "0x60003DF")]
-	[Address(RVA = "0x3EA38C0", Offset = "0x3EA38C0", VA = "0x3EA38C0", Slot = "4")]
+	[Address(RVA = "0x1D09F20", Offset = "0x1D08520", VA = "0x181D09F20", Slot = "4")]
 	public void Init(byte[] encryptionSecret, byte[] hmacSecret, [Optional] byte[] ivBytes, bool chainingModeGCM = false, int mtu = 1200)
 	{
 	}
 
 	[Token(Token = "0x60003E0")]
-	[Address(RVA = "0x3EA3900", Offset = "0x3EA3900", VA = "0x3EA3900", Slot = "5")]
+	[Address(RVA = "0x1D09EE0", Offset = "0x1D084E0", VA = "0x181D09EE0", Slot = "5")]
 	public void Encrypt2(byte[] data, int len, byte[] header, byte[] output, int outOffset, ref int outSize)
 	{
 	}
 
 	[Token(Token = "0x60003E1")]
-	[Address(RVA = "0x3EA3940", Offset = "0x3EA3940", VA = "0x3EA3940", Slot = "6")]
+	[Address(RVA = "0x1D09EA0", Offset = "0x1D084A0", VA = "0x181D09EA0", Slot = "6")]
 	public byte[] Decrypt2(byte[] data, int offset, int len, byte[] header, out int outLen)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003E2")]
-	[Address(RVA = "0x3EA3980", Offset = "0x3EA3980", VA = "0x3EA3980", Slot = "7")]
+	[Address(RVA = "0x1D09E20", Offset = "0x1D08420", VA = "0x181D09E20", Slot = "7")]
 	public int CalculateEncryptedSize(int unencryptedSize)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003E3")]
-	[Address(RVA = "0x3EA39C0", Offset = "0x3EA39C0", VA = "0x3EA39C0", Slot = "8")]
+	[Address(RVA = "0x1D09E60", Offset = "0x1D08460", VA = "0x181D09E60", Slot = "8")]
 	public int CalculateFragmentLength()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60003E4")]
-	[Address(RVA = "0x3EA3A00", Offset = "0x3EA3A00", VA = "0x3EA3A00")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EncryptorNet()
 	{
 	}

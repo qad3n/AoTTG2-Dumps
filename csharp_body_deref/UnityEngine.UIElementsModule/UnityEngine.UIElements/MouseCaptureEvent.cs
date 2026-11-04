@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000173")]
+[Token(Token = "0x20001B7")]
 public class MouseCaptureEvent : MouseCaptureEventBase<MouseCaptureEvent>
 {
-	[Token(Token = "0x60009E4")]
-	[Address(RVA = "0x5029C50", Offset = "0x5029C50", VA = "0x5029C50")]
+	[Token(Token = "0x6000BE8")]
+	[Address(RVA = "0x3267480", Offset = "0x3265A80", VA = "0x183267480")]
 	static MouseCaptureEvent()
 	{
 	}
 
-	[Token(Token = "0x60009E5")]
-	[Address(RVA = "0x5029D20", Offset = "0x5029D20", VA = "0x5029D20")]
+	[Token(Token = "0x6000BE9")]
+	[Address(RVA = "0x3267560", Offset = "0x3265B60", VA = "0x183267560")]
 	public MouseCaptureEvent()
 	{
 	}

@@ -11,42 +11,42 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000018")]
+[Token(Token = "0x2000016")]
 [VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Method | AttributeTargets.Property)]
 internal class StaticAccessorAttribute : Attribute
 {
-	[Token(Token = "0x17000013")]
+	[Token(Token = "0x17000011")]
 	public string Name
 	{
-		[Token(Token = "0x6000034")]
-		[Address(RVA = "0x4E9E320", Offset = "0x4E9E320", VA = "0x4E9E320")]
+		[Token(Token = "0x600002F")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000014")]
+	[Token(Token = "0x17000012")]
 	public StaticAccessorType Type
 	{
-		[Token(Token = "0x6000035")]
-		[Address(RVA = "0x4E9E330", Offset = "0x4E9E330", VA = "0x4E9E330")]
+		[Token(Token = "0x6000030")]
+		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x4E9E340", Offset = "0x4E9E340", VA = "0x4E9E340")]
+	[Token(Token = "0x6000031")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	[VisibleToOtherModules]
 	internal StaticAccessorAttribute(string name)
 	{
 	}
 
-	[Token(Token = "0x6000037")]
-	[Address(RVA = "0x4E9E370", Offset = "0x4E9E370", VA = "0x4E9E370")]
+	[Token(Token = "0x6000032")]
+	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
 	public StaticAccessorAttribute(string name, StaticAccessorType type)
 	{
 	}

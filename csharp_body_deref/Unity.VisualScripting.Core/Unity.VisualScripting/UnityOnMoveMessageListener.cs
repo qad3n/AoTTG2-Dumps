@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnMoveMessageListener : MessageListener, IMoveHandler, IEventSystemHandler
 {
-	[Token(Token = "0x600047D")]
-	[Address(RVA = "0x4CB77D0", Offset = "0x4CB77D0", VA = "0x4CB77D0", Slot = "4")]
+	[Token(Token = "0x6000487")]
+	[Address(RVA = "0x2DBE6C0", Offset = "0x2DBCCC0", VA = "0x182DBE6C0", Slot = "4")]
 	public void OnMove(AxisEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600047E")]
-	[Address(RVA = "0x4CB7860", Offset = "0x4CB7860", VA = "0x4CB7860")]
+	[Token(Token = "0x6000488")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnMoveMessageListener()
 	{
 	}

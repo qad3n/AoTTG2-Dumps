@@ -13,24 +13,24 @@ namespace System.Linq;
 [Token(Token = "0x2000040")]
 internal abstract class EnumerableSorter<TElement>
 {
-	[Token(Token = "0x600019E")]
+	[Token(Token = "0x600019D")]
 	internal abstract void ComputeKeys(TElement[] elements, int count);
 
-	[Token(Token = "0x600019F")]
+	[Token(Token = "0x600019E")]
 	internal abstract int CompareKeys(int index1, int index2);
 
-	[Token(Token = "0x60001A0")]
+	[Token(Token = "0x600019F")]
 	internal int[] Sort(TElement[] elements, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60001A1")]
+	[Token(Token = "0x60001A0")]
 	private void QuickSort(int[] map, int left, int right)
 	{
 	}
 
-	[Token(Token = "0x60001A2")]
+	[Token(Token = "0x60001A1")]
 	protected EnumerableSorter()
 	{
 	}
@@ -58,17 +58,17 @@ internal class EnumerableSorter<TElement, TKey> : EnumerableSorter<TElement>
 	[FieldOffset(Offset = "0x0")]
 	internal TKey[] keys;
 
-	[Token(Token = "0x60001A3")]
+	[Token(Token = "0x60001A2")]
 	internal EnumerableSorter(Func<TElement, TKey> keySelector, IComparer<TKey> comparer, bool descending, EnumerableSorter<TElement> next)
 	{
 	}
 
-	[Token(Token = "0x60001A4")]
+	[Token(Token = "0x60001A3")]
 	internal override void ComputeKeys(TElement[] elements, int count)
 	{
 	}
 
-	[Token(Token = "0x60001A5")]
+	[Token(Token = "0x60001A4")]
 	internal override int CompareKeys(int index1, int index2)
 	{
 		return default(int);

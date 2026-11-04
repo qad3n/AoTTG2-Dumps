@@ -19,7 +19,7 @@ public class BsonObjectId
 	public byte[] Value
 	{
 		[Token(Token = "0x6000FDB")]
-		[Address(RVA = "0x3E58170", Offset = "0x3E58170", VA = "0x3E58170")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ public class BsonObjectId
 	}
 
 	[Token(Token = "0x6000FDC")]
-	[Address(RVA = "0x3E58180", Offset = "0x3E58180", VA = "0x3E58180")]
+	[Address(RVA = "0x1CA9E60", Offset = "0x1CA8460", VA = "0x181CA9E60")]
 	public BsonObjectId(byte[] value)
 	{
 	}

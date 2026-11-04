@@ -14,34 +14,34 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000240")]
+[Token(Token = "0x200035A")]
 internal class ColossalCustomSkinLoader : BaseCustomSkinLoader
 {
-	[Token(Token = "0x2000241")]
+	[Token(Token = "0x200035B")]
 	[CompilerGenerated]
 	private sealed class _003CLoadSkinsFromRPC_003Ed__2 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000C58")]
+		[Token(Token = "0x4001184")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000C59")]
+		[Token(Token = "0x4001185")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000C5A")]
+		[Token(Token = "0x4001186")]
 		[FieldOffset(Offset = "0x20")]
 		public object[] data;
 
-		[Token(Token = "0x4000C5B")]
+		[Token(Token = "0x4001187")]
 		[FieldOffset(Offset = "0x28")]
 		public ColossalCustomSkinLoader _003C_003E4__this;
 
-		[Token(Token = "0x170001B0")]
+		[Token(Token = "0x17000246")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000E04")]
-			[Address(RVA = "0x3F8EE80", Offset = "0x3F8EE80", VA = "0x3F8EE80", Slot = "4")]
+			[Token(Token = "0x6001564")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -49,11 +49,11 @@ internal class ColossalCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x170001B1")]
+		[Token(Token = "0x17000247")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000E06")]
-			[Address(RVA = "0x3F8EED0", Offset = "0x3F8EED0", VA = "0x3F8EED0", Slot = "7")]
+			[Token(Token = "0x6001566")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -61,63 +61,63 @@ internal class ColossalCustomSkinLoader : BaseCustomSkinLoader
 			}
 		}
 
-		[Token(Token = "0x6000E01")]
-		[Address(RVA = "0x3F8E8A0", Offset = "0x3F8E8A0", VA = "0x3F8E8A0")]
+		[Token(Token = "0x6001561")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CLoadSkinsFromRPC_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000E02")]
-		[Address(RVA = "0x3F8EB00", Offset = "0x3F8EB00", VA = "0x3F8EB00", Slot = "5")]
+		[Token(Token = "0x6001562")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000E03")]
-		[Address(RVA = "0x3F8EB10", Offset = "0x3F8EB10", VA = "0x3F8EB10", Slot = "6")]
+		[Token(Token = "0x6001563")]
+		[Address(RVA = "0x1E78910", Offset = "0x1E76F10", VA = "0x181E78910", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000E05")]
-		[Address(RVA = "0x3F8EE90", Offset = "0x3F8EE90", VA = "0x3F8EE90", Slot = "8")]
+		[Token(Token = "0x6001565")]
+		[Address(RVA = "0x1E78A10", Offset = "0x1E77010", VA = "0x181E78A10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x170001AF")]
+	[Token(Token = "0x17000245")]
 	protected override string RendererIdPrefix
 	{
-		[Token(Token = "0x6000DFD")]
-		[Address(RVA = "0x3F8E7E0", Offset = "0x3F8E7E0", VA = "0x3F8E7E0", Slot = "4")]
+		[Token(Token = "0x600155D")]
+		[Address(RVA = "0x1E63EC0", Offset = "0x1E624C0", VA = "0x181E63EC0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000DFE")]
-	[Address(RVA = "0x3F8E810", Offset = "0x3F8E810", VA = "0x3F8E810", Slot = "6")]
+	[Token(Token = "0x600155E")]
+	[Address(RVA = "0x1E63DE0", Offset = "0x1E623E0", VA = "0x181E63DE0", Slot = "7")]
 	[IteratorStateMachine(typeof(_003CLoadSkinsFromRPC_003Ed__2))]
 	public override IEnumerator LoadSkinsFromRPC(object[] data)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DFF")]
-	[Address(RVA = "0x3F8E8C0", Offset = "0x3F8E8C0", VA = "0x3F8E8C0", Slot = "5")]
+	[Token(Token = "0x600155F")]
+	[Address(RVA = "0x1E63BD0", Offset = "0x1E621D0", VA = "0x181E63BD0", Slot = "6")]
 	protected override BaseCustomSkinPart GetCustomSkinPart(int partId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E00")]
-	[Address(RVA = "0x3F8EA90", Offset = "0x3F8EA90", VA = "0x3F8EA90")]
+	[Token(Token = "0x6001560")]
+	[Address(RVA = "0x1E63E70", Offset = "0x1E62470", VA = "0x181E63E70")]
 	public ColossalCustomSkinLoader()
 	{
 	}

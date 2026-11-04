@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004A5")]
+[Token(Token = "0x20004D5")]
 internal struct Ephemeron
 {
-	[Token(Token = "0x400133A")]
+	[Token(Token = "0x400133E")]
 	[FieldOffset(Offset = "0x0")]
 	internal object key;
 
-	[Token(Token = "0x400133B")]
+	[Token(Token = "0x400133F")]
 	[FieldOffset(Offset = "0x8")]
 	internal object value;
 }

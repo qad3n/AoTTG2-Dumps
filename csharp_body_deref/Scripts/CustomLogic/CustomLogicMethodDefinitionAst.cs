@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000294")]
+[Token(Token = "0x20003DE")]
 internal class CustomLogicMethodDefinitionAst : CustomLogicBlockAst
 {
-	[Token(Token = "0x4000DD9")]
+	[Token(Token = "0x40013F7")]
 	[FieldOffset(Offset = "0x20")]
 	public List<string> ParameterNames;
 
-	[Token(Token = "0x4000DDA")]
+	[Token(Token = "0x40013F8")]
 	[FieldOffset(Offset = "0x28")]
 	public bool Coroutine;
 
-	[Token(Token = "0x4000DDB")]
+	[Token(Token = "0x40013F9")]
 	[FieldOffset(Offset = "0x30")]
 	public string Name;
 
-	[Token(Token = "0x6000F7F")]
-	[Address(RVA = "0x3FB86A0", Offset = "0x3FB86A0", VA = "0x3FB86A0")]
+	[Token(Token = "0x60017FE")]
+	[Address(RVA = "0x1ED1C70", Offset = "0x1ED0270", VA = "0x181ED1C70")]
 	public CustomLogicMethodDefinitionAst(int line, bool coroutine = false)
 	{
 	}
 
-	[Token(Token = "0x6000F80")]
-	[Address(RVA = "0x3FB8B60", Offset = "0x3FB8B60", VA = "0x3FB8B60", Slot = "3")]
+	[Token(Token = "0x60017FF")]
+	[Address(RVA = "0x1ED1B00", Offset = "0x1ED0100", VA = "0x181ED1B00", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

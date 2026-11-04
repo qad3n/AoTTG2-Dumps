@@ -12,12 +12,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200018D")]
 public interface ISerializedPropertyProvider
 {
-	[Token(Token = "0x170001B4")]
+	[Token(Token = "0x170001B7")]
 	object item
 	{
-		[Token(Token = "0x6000FA0")]
+		[Token(Token = "0x6000FAB")]
 		get;
-		[Token(Token = "0x6000FA1")]
+		[Token(Token = "0x6000FAC")]
 		set;
 	}
 }

@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200016F")]
+[Token(Token = "0x20002F7")]
 internal class CookieParser
 {
-	[Token(Token = "0x4000761")]
+	[Token(Token = "0x4000B77")]
 	[FieldOffset(Offset = "0x10")]
 	private CookieTokenizer m_tokenizer;
 
-	[Token(Token = "0x60008E6")]
-	[Address(RVA = "0x496E6B0", Offset = "0x496E6B0", VA = "0x496E6B0")]
+	[Token(Token = "0x60014A6")]
+	[Address(RVA = "0x27C5BF0", Offset = "0x27C41F0", VA = "0x1827C5BF0")]
 	internal CookieParser(string cookieString)
 	{
 	}
 
-	[Token(Token = "0x60008E7")]
-	[Address(RVA = "0x496E740", Offset = "0x496E740", VA = "0x496E740")]
+	[Token(Token = "0x60014A7")]
+	[Address(RVA = "0x27C5160", Offset = "0x27C3760", VA = "0x1827C5160")]
 	internal Cookie Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008E8")]
-	[Address(RVA = "0x496C5D0", Offset = "0x496C5D0", VA = "0x496C5D0")]
+	[Token(Token = "0x60014A8")]
+	[Address(RVA = "0x27C50D0", Offset = "0x27C36D0", VA = "0x1827C50D0")]
 	internal static string CheckQuoted(string value)
 	{
 		return null;

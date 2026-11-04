@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000340")]
+[Token(Token = "0x200036F")]
 [ComVisible(true)]
 public interface IRemotingTypeInfo
 {
-	[Token(Token = "0x17000330")]
+	[Token(Token = "0x17000332")]
 	string TypeName
 	{
-		[Token(Token = "0x6001C1C")]
+		[Token(Token = "0x6001C8B")]
 		get;
 	}
 
-	[Token(Token = "0x6001C1D")]
+	[Token(Token = "0x6001C8C")]
 	bool CanCastTo(Type fromType, object o);
 }

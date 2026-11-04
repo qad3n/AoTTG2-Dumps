@@ -27,71 +27,71 @@ public class StringPlugin : ABSTweenPlugin<string, string, StringOptions>
 	private static readonly List<char> _OpenedTags;
 
 	[Token(Token = "0x600034F")]
-	[Address(RVA = "0x237C480", Offset = "0x237C480", VA = "0x237C480", Slot = "5")]
+	[Address(RVA = "0x573C70", Offset = "0x572270", VA = "0x180573C70", Slot = "5")]
 	public override void SetFrom(TweenerCore<string, string, StringOptions> t, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x6000350")]
-	[Address(RVA = "0x237C510", Offset = "0x237C510", VA = "0x237C510", Slot = "6")]
+	[Address(RVA = "0x573BA0", Offset = "0x5721A0", VA = "0x180573BA0", Slot = "6")]
 	public override void SetFrom(TweenerCore<string, string, StringOptions> t, string fromValue, bool setImmediately, bool isRelative)
 	{
 	}
 
 	[Token(Token = "0x6000351")]
-	[Address(RVA = "0x237C5F0", Offset = "0x237C5F0", VA = "0x237C5F0", Slot = "4")]
+	[Address(RVA = "0x573770", Offset = "0x571D70", VA = "0x180573770", Slot = "4")]
 	public override void Reset(TweenerCore<string, string, StringOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000352")]
-	[Address(RVA = "0x237C680", Offset = "0x237C680", VA = "0x237C680", Slot = "7")]
+	[Address(RVA = "0x546D10", Offset = "0x545310", VA = "0x180546D10", Slot = "7")]
 	public override string ConvertToStartValue(TweenerCore<string, string, StringOptions> t, string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000353")]
-	[Address(RVA = "0x237C690", Offset = "0x237C690", VA = "0x237C690", Slot = "8")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public override void SetRelativeEndValue(TweenerCore<string, string, StringOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000354")]
-	[Address(RVA = "0x237C6A0", Offset = "0x237C6A0", VA = "0x237C6A0", Slot = "9")]
+	[Address(RVA = "0x573910", Offset = "0x571F10", VA = "0x180573910", Slot = "9")]
 	public override void SetChangeValue(TweenerCore<string, string, StringOptions> t)
 	{
 	}
 
 	[Token(Token = "0x6000355")]
-	[Address(RVA = "0x237C910", Offset = "0x237C910", VA = "0x237C910", Slot = "10")]
+	[Address(RVA = "0x573730", Offset = "0x571D30", VA = "0x180573730", Slot = "10")]
 	public override float GetSpeedBasedDuration(StringOptions options, float unitsXSecond, string changeValue)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000356")]
-	[Address(RVA = "0x237C960", Offset = "0x237C960", VA = "0x237C960", Slot = "11")]
+	[Address(RVA = "0x573220", Offset = "0x571820", VA = "0x180573220", Slot = "11")]
 	public override void EvaluateAndApply(StringOptions options, Tween t, bool isRelative, DOGetter<string> getter, DOSetter<string> setter, float elapsed, string startValue, string changeValue, float duration, bool usingInversePosition, int newCompletedSteps, UpdateNotice updateNotice)
 	{
 	}
 
 	[Token(Token = "0x6000357")]
-	[Address(RVA = "0x237CF50", Offset = "0x237CF50", VA = "0x237CF50")]
+	[Address(RVA = "0x572AC0", Offset = "0x5710C0", VA = "0x180572AC0")]
 	private StringBuilder Append(string value, int startIndex, int length, bool richTextEnabled)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000358")]
-	[Address(RVA = "0x237D760", Offset = "0x237D760", VA = "0x237D760")]
+	[Address(RVA = "0x573800", Offset = "0x571E00", VA = "0x180573800")]
 	private char[] ScrambledCharsToUse(StringOptions options)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000359")]
-	[Address(RVA = "0x237D9A0", Offset = "0x237D9A0", VA = "0x237D9A0")]
+	[Address(RVA = "0x573DE0", Offset = "0x5723E0", VA = "0x180573DE0")]
 	public StringPlugin()
 	{
 	}

@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnTransformParentChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x600044B")]
-	[Address(RVA = "0x4CB6510", Offset = "0x4CB6510", VA = "0x4CB6510")]
+	[Token(Token = "0x6000455")]
+	[Address(RVA = "0x2DBF210", Offset = "0x2DBD810", VA = "0x182DBF210")]
 	private void OnTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x600044C")]
-	[Address(RVA = "0x4CB6580", Offset = "0x4CB6580", VA = "0x4CB6580")]
+	[Token(Token = "0x6000456")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnTransformParentChangedMessageListener()
 	{
 	}

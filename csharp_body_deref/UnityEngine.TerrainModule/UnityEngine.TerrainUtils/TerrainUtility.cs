@@ -12,32 +12,32 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.TerrainUtils;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000F")]
 [MovedFrom("UnityEngine.Experimental.TerrainAPI")]
 public static class TerrainUtility
 {
-	[Token(Token = "0x6000027")]
-	[Address(RVA = "0x4EA20C0", Offset = "0x4EA20C0", VA = "0x4EA20C0")]
+	[Token(Token = "0x6000045")]
+	[Address(RVA = "0x2FFBFE0", Offset = "0x2FFA5E0", VA = "0x182FFBFE0")]
 	internal static bool ValidTerrainsExist()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000028")]
-	[Address(RVA = "0x4EA2130", Offset = "0x4EA2130", VA = "0x4EA2130")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x2FFBB90", Offset = "0x2FFA190", VA = "0x182FFBB90")]
 	internal static void ClearConnectivity()
 	{
 	}
 
-	[Token(Token = "0x6000029")]
-	[Address(RVA = "0x4EA2290", Offset = "0x4EA2290", VA = "0x4EA2290")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x2FFBD30", Offset = "0x2FFA330", VA = "0x182FFBD30")]
 	internal static Dictionary<int, TerrainMap> CollectTerrains(bool onlyAutoConnectedTerrains = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600002A")]
-	[Address(RVA = "0x4EA27D0", Offset = "0x4EA27D0", VA = "0x4EA27D0")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x2FFB600", Offset = "0x2FF9C00", VA = "0x182FFB600")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public static void AutoConnect()
 	{

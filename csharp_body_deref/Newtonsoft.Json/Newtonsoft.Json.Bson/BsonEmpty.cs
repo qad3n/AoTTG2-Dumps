@@ -25,7 +25,7 @@ internal class BsonEmpty : BsonToken
 	public override BsonType Type
 	{
 		[Token(Token = "0x6001011")]
-		[Address(RVA = "0x3E5A890", Offset = "0x3E5A890", VA = "0x3E5A890", Slot = "4")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -34,7 +34,7 @@ internal class BsonEmpty : BsonToken
 	}
 
 	[Token(Token = "0x6001010")]
-	[Address(RVA = "0x3E5A870", Offset = "0x3E5A870", VA = "0x3E5A870")]
+	[Address(RVA = "0x1CA9E30", Offset = "0x1CA8430", VA = "0x181CA9E30")]
 	private BsonEmpty(BsonType type)
 	{
 	}

@@ -10,21 +10,21 @@ using Photon.Realtime;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200002A")]
+[Token(Token = "0x2000028")]
 public interface IPunTurnManagerCallbacks
 {
-	[Token(Token = "0x60000E6")]
+	[Token(Token = "0x60000E4")]
 	void OnTurnBegins(int turn);
 
-	[Token(Token = "0x60000E7")]
+	[Token(Token = "0x60000E5")]
 	void OnTurnCompleted(int turn);
 
-	[Token(Token = "0x60000E8")]
+	[Token(Token = "0x60000E6")]
 	void OnPlayerMove(Player player, int turn, object move);
 
-	[Token(Token = "0x60000E9")]
+	[Token(Token = "0x60000E7")]
 	void OnPlayerFinished(Player player, int turn, object move);
 
-	[Token(Token = "0x60000EA")]
+	[Token(Token = "0x60000E8")]
 	void OnTurnTimeEnds(int turn);
 }

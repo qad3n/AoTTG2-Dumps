@@ -21,7 +21,7 @@ public class UnreferencedObjectEventArgs : EventArgs
 	private string id;
 
 	[Token(Token = "0x6000CC1")]
-	[Address(RVA = "0x4809940", Offset = "0x4809940", VA = "0x4809940")]
+	[Address(RVA = "0x2746900", Offset = "0x2744F00", VA = "0x182746900")]
 	public UnreferencedObjectEventArgs(object o, string id)
 	{
 	}

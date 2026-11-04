@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets.Syntax;
 
-[Token(Token = "0x200054E")]
+[Token(Token = "0x2000644")]
 internal enum ExpressionMultiplierType
 {
-	[Token(Token = "0x4001255")]
+	[Token(Token = "0x4001802")]
 	None,
-	[Token(Token = "0x4001256")]
+	[Token(Token = "0x4001803")]
 	ZeroOrMore,
-	[Token(Token = "0x4001257")]
+	[Token(Token = "0x4001804")]
 	OneOrMore,
-	[Token(Token = "0x4001258")]
+	[Token(Token = "0x4001805")]
 	ZeroOrOne,
-	[Token(Token = "0x4001259")]
+	[Token(Token = "0x4001806")]
 	Ranges,
-	[Token(Token = "0x400125A")]
+	[Token(Token = "0x4001807")]
 	OneOrMoreComma,
-	[Token(Token = "0x400125B")]
+	[Token(Token = "0x4001808")]
 	GroupAtLeastOne
 }

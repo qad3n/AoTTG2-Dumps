@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000126")]
+[Token(Token = "0x20002AE")]
 internal enum FtpLoginState : byte
 {
-	[Token(Token = "0x40005AD")]
+	[Token(Token = "0x40009C3")]
 	NotLoggedIn,
-	[Token(Token = "0x40005AE")]
+	[Token(Token = "0x40009C4")]
 	LoggedIn,
-	[Token(Token = "0x40005AF")]
+	[Token(Token = "0x40009C5")]
 	LoggedInButNeedsRelogin,
-	[Token(Token = "0x40005B0")]
+	[Token(Token = "0x40009C6")]
 	ReloginFailed
 }

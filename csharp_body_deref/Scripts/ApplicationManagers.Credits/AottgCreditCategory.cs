@@ -11,83 +11,83 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x20007A6")]
+[Token(Token = "0x2000931")]
 public sealed class AottgCreditCategory
 {
-	[Token(Token = "0x17000E1E")]
+	[Token(Token = "0x17000F81")]
 	public string Name
 	{
-		[Token(Token = "0x60049B2")]
-		[Address(RVA = "0x43C6030", Offset = "0x43C6030", VA = "0x43C6030")]
+		[Token(Token = "0x600562A")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049B3")]
-		[Address(RVA = "0x43C6040", Offset = "0x43C6040", VA = "0x43C6040")]
+		[Token(Token = "0x600562B")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E1F")]
+	[Token(Token = "0x17000F82")]
 	public string Description
 	{
-		[Token(Token = "0x60049B4")]
-		[Address(RVA = "0x43C6050", Offset = "0x43C6050", VA = "0x43C6050")]
+		[Token(Token = "0x600562C")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049B5")]
-		[Address(RVA = "0x43C6060", Offset = "0x43C6060", VA = "0x43C6060")]
+		[Token(Token = "0x600562D")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E20")]
+	[Token(Token = "0x17000F83")]
 	public IReadOnlyList<AottgCreditContributor> Contributors
 	{
-		[Token(Token = "0x60049B6")]
-		[Address(RVA = "0x43C6070", Offset = "0x43C6070", VA = "0x43C6070")]
+		[Token(Token = "0x600562E")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049B7")]
-		[Address(RVA = "0x43C6080", Offset = "0x43C6080", VA = "0x43C6080")]
+		[Token(Token = "0x600562F")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E21")]
+	[Token(Token = "0x17000F84")]
 	public IReadOnlyList<AottgCreditGroup> Groups
 	{
-		[Token(Token = "0x60049B8")]
-		[Address(RVA = "0x43C6090", Offset = "0x43C6090", VA = "0x43C6090")]
+		[Token(Token = "0x6005630")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049B9")]
-		[Address(RVA = "0x43C60A0", Offset = "0x43C60A0", VA = "0x43C60A0")]
+		[Token(Token = "0x6005631")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60049B1")]
-	[Address(RVA = "0x43C5F20", Offset = "0x43C5F20", VA = "0x43C5F20")]
+	[Token(Token = "0x6005629")]
+	[Address(RVA = "0x2363830", Offset = "0x2361E30", VA = "0x182363830")]
 	public AottgCreditCategory(string name, string description, AottgCreditContributor[] contributors, AottgCreditGroup[] groups)
 	{
 	}

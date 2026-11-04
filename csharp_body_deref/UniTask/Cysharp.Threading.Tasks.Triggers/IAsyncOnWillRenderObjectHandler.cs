@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001FD")]
+[Token(Token = "0x2000200")]
 public interface IAsyncOnWillRenderObjectHandler
 {
-	[Token(Token = "0x6000BDC")]
+	[Token(Token = "0x6000C00")]
 	UniTask OnWillRenderObjectAsync();
 }

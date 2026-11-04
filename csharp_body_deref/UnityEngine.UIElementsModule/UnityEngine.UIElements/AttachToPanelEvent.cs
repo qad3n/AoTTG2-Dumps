@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001CC")]
+[Token(Token = "0x2000213")]
 public class AttachToPanelEvent : PanelChangedEventBase<AttachToPanelEvent>
 {
-	[Token(Token = "0x6000BDD")]
-	[Address(RVA = "0x5036700", Offset = "0x5036700", VA = "0x5036700")]
+	[Token(Token = "0x6000DFE")]
+	[Address(RVA = "0x32565A0", Offset = "0x3254BA0", VA = "0x1832565A0")]
 	static AttachToPanelEvent()
 	{
 	}
 
-	[Token(Token = "0x6000BDE")]
-	[Address(RVA = "0x50367D0", Offset = "0x50367D0", VA = "0x50367D0")]
+	[Token(Token = "0x6000DFF")]
+	[Address(RVA = "0x3256680", Offset = "0x3254C80", VA = "0x183256680")]
 	public AttachToPanelEvent()
 	{
 	}

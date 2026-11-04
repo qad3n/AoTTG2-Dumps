@@ -1,5 +1,5 @@
 // Type: PatreonEffects.PatreonHelper
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/PatreonEffects/PatreonHelper.cs
@@ -8,1439 +8,1081 @@
 
 // PatreonEffects.PatreonHelper$$HasTier
 // il2cpp: bool PatreonEffects_PatreonHelper__HasTier (System_String_array* tierIds, System_String_o* targetTier, const MethodInfo* method);
-// 0x432fc70
+// 0x1820cd030
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820cd04f: nop 
 
-bool_conflict
-PatreonEffects_PatreonHelper__HasTier
-          (System_String_array *tierIds,System_String_o *targetTier,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__HasTier
+               (System_String_array *tierIds,System_String_o *targetTier,MethodInfo *method)
 
 {
-  ushort uVar1;
-  uint uVar2;
-  ulong uVar3;
-  System_String_array *value;
-  Il2CppClass *pIVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  char cVar6;
-  bool_conflict bVar7;
-  System_String_array *a;
-  Il2CppMethodPointer *ppIVar8;
-  long *plVar9;
-  System_String_o *pSVar10;
-  System_String_o *value_00;
-  long *plVar11;
-  undefined8 *puVar12;
-  ulong uVar13;
-  System_String_o *b;
-  long lVar14;
-  long lVar15;
-  undefined1 *puVar16;
-  int iVar17;
-  byte bVar18;
-  undefined1 auVar19 [12];
+  bool bVar1;
+  System_String_o *pSVar2;
+  uint uVar3;
   
-  if (((tierIds == (System_String_array *)0x0) || (uVar3 = tierIds->max_length, uVar3 == 0)) ||
-     ((int)uVar3 < 1)) {
-    return 0;
-  }
-  uVar13 = 0;
-  b = targetTier;
-  a = tierIds;
-  if ((uVar3 & 0xffffffff) != 0) {
-    do {
-      value = (System_String_array *)tierIds->m_Items[uVar13];
-      b = (System_String_o *)0x0;
-      a = value;
-      bVar7 = System_String__IsNullOrEmpty((System_String_o *)value,(MethodInfo *)0x0);
-      if ((char)bVar7 == '\0') {
-        if (value == (System_String_array *)0x0) goto label_0432fd06;
-        a = (System_String_array *)System_String__Trim((System_String_o *)value,(MethodInfo *)0x0);
-        b = targetTier;
-        bVar7 = System_String__Equals_3af50f0((System_String_o *)a,targetTier,4,(MethodInfo *)0x0);
-        if ((char)bVar7 != '\0') {
-          return (bool_conflict)CONCAT71((uint7)(uint3)((uint)bVar7 >> 8),1);
+  if ((tierIds != (System_String_array *)0x0) && (tierIds->max_length != 0)) {
+    for (uVar3 = 0; (int)uVar3 < (int)tierIds->max_length; uVar3 = uVar3 + 1) {
+      if ((uint)tierIds->max_length <= uVar3) {
+        ThrowIndexOutOfRangeException();
+      }
+      pSVar2 = tierIds->m_Items[(int)uVar3];
+      bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
+      if (!bVar1) {
+        if (pSVar2 == (System_String_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pSVar2 = System_String__Trim(pSVar2,(MethodInfo *)0x0);
+        bVar1 = System_String__Equals_196c550(pSVar2,targetTier,4,(MethodInfo *)0x0);
+        if (bVar1) {
+          return true;
         }
       }
-      uVar13 = uVar13 + 1;
-      uVar2 = (uint)tierIds->max_length;
-      if ((long)(int)uVar2 <= (long)uVar13) {
-        return 0;
-      }
-    } while (uVar13 < uVar2);
-  }
-  il2cpp_runtime_helper_022b2ca0();
-label_0432fd06:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae070 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerable);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae070 = '\x01';
-  }
-  if (a == (System_String_array *)0x0) {
-    return 0;
-  }
-  pIVar4 = (a->obj).klass;
-  uVar1._0_1_ = (pIVar4->_2).rank;
-  uVar1._1_1_ = (pIVar4->_2).minimumAlignment;
-  if ((ulong)uVar1 != 0) {
-    pIVar5 = (pIVar4->_1).interfaceOffsets;
-    lVar14 = 0;
-    do {
-      if (*(long *)((long)&pIVar5->interfaceType + lVar14) == TypeInfo_IEnumerable) {
-        ppIVar8 = &(&((System_String_VTable *)pIVar4->vtable)->_0_Equals)
-                   [*(int *)((long)&pIVar5->offset + lVar14)].methodPtr;
-        goto label_0432fdc8;
-      }
-      lVar14 = lVar14 + 0x10;
-    } while ((ulong)uVar1 << 4 != lVar14);
-  }
-  ppIVar8 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(a,TypeInfo_IEnumerable,0);
-label_0432fdc8:
-  plVar9 = (long *)(**ppIVar8)(a,(MethodInfo *)ppIVar8[1]);
-  if (plVar9 == (long *)0x0) {
-label_0433001b:
-    il2cpp_runtime_helper_022b2c90();
-    goto label_04330020;
-  }
-  targetTier = (System_String_o *)0x0;
-  do {
-    do {
-      do {
-        lVar14 = *plVar9;
-        if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-          lVar15 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar15) == TypeInfo_IEnumerator) {
-              ppIVar8 = (Il2CppMethodPointer *)
-                        ((long)*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar15) * 0x10 + lVar14 + 0x138);
-              goto label_0432fe53;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar15);
-        }
-        ppIVar8 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IEnumerator,0);
-label_0432fe53:
-        cVar6 = (**ppIVar8)(plVar9,(MethodInfo *)ppIVar8[1]);
-        if (cVar6 == '\0') {
-          iVar17 = 7;
-          targetTier = (System_String_o *)0x0;
-          goto label_0432ff78;
-        }
-        lVar14 = *plVar9;
-        if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-          lVar15 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar15) == TypeInfo_IEnumerator) {
-              ppIVar8 = (Il2CppMethodPointer *)
-                        ((long)(*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar15) + 1) * 0x10 + lVar14 + 0x138);
-              goto label_0432fed8;
-            }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar15);
-        }
-        ppIVar8 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IEnumerator,1);
-label_0432fed8:
-        pSVar10 = (System_String_o *)(**ppIVar8)();
-      } while (pSVar10 == (System_String_o *)0x0);
-      value_00 = pSVar10;
-      if (pSVar10->klass != g_data_057b9c00) {
-        value_00 = targetTier;
-      }
-      bVar7 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
-      if ((char)bVar7 != '\0') {
-        value_00 = (System_String_o *)(*(pSVar10->klass->vtable)._3_ToString.methodPtr)(pSVar10);
-      }
-      bVar7 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
-    } while ((char)bVar7 != '\0');
-    if (value_00 == (System_String_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      goto label_0433001b;
     }
-    pSVar10 = System_String__Trim(value_00,(MethodInfo *)0x0);
-    ppIVar8 = (Il2CppMethodPointer *)0x0;
-    bVar7 = System_String__Equals_3af50f0(pSVar10,b,4,(MethodInfo *)0x0);
-  } while ((char)bVar7 == '\0');
-  bVar18 = 1;
-  iVar17 = 6;
-  do {
-    plVar11 = (long *)il2cpp_runtime_helper_023051f0(plVar9,TypeInfo_IDisposable);
-    if (plVar11 != (long *)0x0) {
-      lVar14 = *plVar11;
-      ppIVar8 = (Il2CppMethodPointer *)0x0;
-      if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-        ppIVar8 = (Il2CppMethodPointer *)((ulong)*(ushort *)(lVar14 + 0x12e) << 4);
-        puVar16 = (undefined1 *)0x0;
-        do {
-          if (*(long *)(puVar16 + *(long *)(lVar14 + 0xb0)) == TypeInfo_IDisposable) {
-            ppIVar8 = (Il2CppMethodPointer *)((long)*(int *)(puVar16 + *(long *)(lVar14 + 0xb0) + 8) * 0x10);
-            puVar12 = (undefined8 *)((long)ppIVar8 + lVar14 + 0x138);
-            goto label_0432ffed;
-          }
-          puVar16 = puVar16 + 0x10;
-        } while (ppIVar8 != (Il2CppMethodPointer *)puVar16);
-      }
-      puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar11,TypeInfo_IDisposable,0);
-label_0432ffed:
-      (*(code *)*puVar12)(plVar11,puVar12[1]);
-    }
-    if (targetTier == (System_String_o *)0x0) {
-      return (bool_conflict)CONCAT71((int7)((ulong)ppIVar8 >> 8),iVar17 == 6 & bVar18);
-    }
-label_04330020:
-    auVar19 = il2cpp_runtime_helper_022fefe0(targetTier);
-    iVar17 = 0;
-    if (auVar19._8_4_ != 1) break;
-    puVar12 = (undefined8 *)__cxa_begin_catch(auVar19._0_8_);
-    targetTier = (System_String_o *)*puVar12;
-    __cxa_end_catch();
-label_0432ff78:
-    bVar18 = 0;
-  } while( true );
-  plVar9 = (long *)il2cpp_runtime_helper_023051f0(plVar9,TypeInfo_IDisposable);
-  if (plVar9 != (long *)0x0) {
-    lVar14 = *plVar9;
-    if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-      lVar15 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar15) == TypeInfo_IDisposable) {
-          puVar12 = (undefined8 *)
-                    (lVar14 + (long)*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar15) * 0x10 + 0x138);
-          goto label_0433011d;
-        }
-        lVar15 = lVar15 + 0x10;
-      } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar15);
-    }
-    puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IDisposable,0);
-label_0433011d:
-    (*(code *)*puVar12)(plVar9,puVar12[1]);
   }
-  _Unwind_Resume(auVar19._0_8_);
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$HasTier
 // il2cpp: bool PatreonEffects_PatreonHelper__HasTier (System_Collections_IEnumerable_o* tierIds, System_String_o* targetTier, const MethodInfo* method);
-// 0x432fd10
+// 0x1820cd0c0
+// eh: try 0x1820cd160..0x1820cd294 -> pad 0x183315930 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820cd257: jmp 0x1820cd26d
+// asm:   0x1820cd259: lea rcx, [rsp + 0x30]
+// asm:   0x1820cd25e: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
+// asm:   0x1820cd263: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x1820cd268: test rcx, rcx
+// asm:   0x1820cd26b: jne 0x1820cd294
+// asm:   0x1820cd294: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
-bool_conflict
-PatreonEffects_PatreonHelper__HasTier_422fd10
-          (System_Collections_IEnumerable_o *tierIds,System_String_o *targetTier,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__HasTier_20cd0c0
+               (System_Collections_IEnumerable_o *tierIds,System_String_o *targetTier,MethodInfo *method)
 
 {
-  ushort uVar1;
-  System_Collections_IEnumerable_c *pSVar2;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar3;
-  char cVar4;
-  bool_conflict bVar5;
-  VirtualInvokeData *pVVar6;
-  long *plVar7;
-  System_String_o *pSVar8;
+  bool bVar1;
+  void *pvVar2;
+  System_String_o *pSVar3;
   System_String_o *value;
-  long *plVar9;
-  undefined8 *puVar10;
-  long lVar11;
-  long lVar12;
-  undefined1 *puVar13;
-  int iVar14;
-  System_String_o *unaff_R14;
-  byte bVar15;
-  undefined1 auVar16 [12];
+  Il2CppObject *local_res8;
+  Il2CppObject *local_res20;
+  Il2CppObject **local_28;
+  Il2CppObject **local_20;
   
-  if (g_data_057ae070 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerable);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae070 = '\x01';
+  if (Il2CppMethodInitialized_184346988 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    Il2CppMethodInitialized_184346988 = '\x01';
   }
+  local_res8 = (Il2CppObject *)0x0;
+  local_res20 = (Il2CppObject *)0x0;
   if (tierIds == (System_Collections_IEnumerable_o *)0x0) {
-    return 0;
+label_1820cd26d:
+    bVar1 = false;
   }
-  pSVar2 = tierIds->klass;
-  uVar1._0_1_ = (pSVar2->_2).rank;
-  uVar1._1_1_ = (pSVar2->_2).minimumAlignment;
-  if ((ulong)uVar1 != 0) {
-    pIVar3 = (pSVar2->_1).interfaceOffsets;
-    lVar11 = 0;
-    do {
-      if (*(long *)((long)&pIVar3->interfaceType + lVar11) == TypeInfo_IEnumerable) {
-        pVVar6 = pSVar2->vtable + *(int *)((long)&pIVar3->offset + lVar11);
-        goto label_0432fdc8;
-      }
-      lVar11 = lVar11 + 0x10;
-    } while ((ulong)uVar1 << 4 != lVar11);
-  }
-  pVVar6 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(tierIds,TypeInfo_IEnumerable,0);
-label_0432fdc8:
-  plVar7 = (long *)(*pVVar6->methodPtr)(tierIds,pVVar6->method);
-  if (plVar7 == (long *)0x0) {
-label_0433001b:
-    il2cpp_runtime_helper_022b2c90();
-    goto label_04330020;
-  }
-  unaff_R14 = (System_String_o *)0x0;
-  do {
+  else {
+    local_res8 = InterfaceInvoker0_Invoke
+                           (0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerable,(Il2CppObject *)tierIds);
+    local_28 = &local_res8;
+    local_20 = &local_res20;
     do {
       do {
-        lVar11 = *plVar7;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-          lVar12 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IEnumerator) {
-              pVVar6 = (VirtualInvokeData *)
-                       ((long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + lVar11 + 0x138);
-              goto label_0432fe53;
-            }
-            lVar12 = lVar12 + 0x10;
-          } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
-        }
-        pVVar6 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(plVar7,TypeInfo_IEnumerator,0);
-label_0432fe53:
-        cVar4 = (*pVVar6->methodPtr)(plVar7,pVVar6->method);
-        if (cVar4 == '\0') {
-          iVar14 = 7;
-          unaff_R14 = (System_String_o *)0x0;
-          goto label_0432ff78;
-        }
-        lVar11 = *plVar7;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-          lVar12 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IEnumerator) {
-              pVVar6 = (VirtualInvokeData *)
-                       ((long)(*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) + 1) * 0x10 + lVar11 + 0x138);
-              goto label_0432fed8;
-            }
-            lVar12 = lVar12 + 0x10;
-          } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
-        }
-        pVVar6 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(plVar7,TypeInfo_IEnumerator,1);
-label_0432fed8:
-        pSVar8 = (System_String_o *)(*pVVar6->methodPtr)();
-      } while (pSVar8 == (System_String_o *)0x0);
-      value = pSVar8;
-      if (pSVar8->klass != g_data_057b9c00) {
-        value = unaff_R14;
-      }
-      bVar5 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-      if ((char)bVar5 != '\0') {
-        value = (System_String_o *)(*(pSVar8->klass->vtable)._3_ToString.methodPtr)(pSVar8);
-      }
-      bVar5 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-    } while ((char)bVar5 != '\0');
-    if (value == (System_String_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      goto label_0433001b;
-    }
-    pSVar8 = System_String__Trim(value,(MethodInfo *)0x0);
-    pVVar6 = (VirtualInvokeData *)0x0;
-    bVar5 = System_String__Equals_3af50f0(pSVar8,targetTier,4,(MethodInfo *)0x0);
-  } while ((char)bVar5 == '\0');
-  bVar15 = 1;
-  iVar14 = 6;
-  do {
-    plVar9 = (long *)il2cpp_runtime_helper_023051f0(plVar7,TypeInfo_IDisposable);
-    if (plVar9 != (long *)0x0) {
-      lVar11 = *plVar9;
-      pVVar6 = (VirtualInvokeData *)0x0;
-      if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-        pVVar6 = (VirtualInvokeData *)((ulong)*(ushort *)(lVar11 + 0x12e) << 4);
-        puVar13 = (undefined1 *)0x0;
         do {
-          if (*(long *)(puVar13 + *(long *)(lVar11 + 0xb0)) == TypeInfo_IDisposable) {
-            pVVar6 = (VirtualInvokeData *)((long)*(int *)(puVar13 + *(long *)(lVar11 + 0xb0) + 8) * 0x10);
-            puVar10 = (undefined8 *)((long)&pVVar6[0x13].method + lVar11);
-            goto label_0432ffed;
+          if (local_res8 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
           }
-          puVar13 = puVar13 + 0x10;
-        } while (pVVar6 != (VirtualInvokeData *)puVar13);
-      }
-      puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IDisposable,0);
-label_0432ffed:
-      (*(code *)*puVar10)(plVar9,puVar10[1]);
-    }
-    if (unaff_R14 == (System_String_o *)0x0) {
-      return (bool_conflict)CONCAT71((int7)((ulong)pVVar6 >> 8),iVar14 == 6 & bVar15);
-    }
-label_04330020:
-    auVar16 = il2cpp_runtime_helper_022fefe0(unaff_R14);
-    iVar14 = 0;
-    if (auVar16._8_4_ != 1) break;
-    puVar10 = (undefined8 *)__cxa_begin_catch(auVar16._0_8_);
-    unaff_R14 = (System_String_o *)*puVar10;
-    __cxa_end_catch();
-label_0432ff78:
-    bVar15 = 0;
-  } while( true );
-  plVar7 = (long *)il2cpp_runtime_helper_023051f0(plVar7,TypeInfo_IDisposable);
-  if (plVar7 != (long *)0x0) {
-    lVar11 = *plVar7;
-    if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-      lVar12 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IDisposable) {
-          puVar10 = (undefined8 *)
-                    (lVar11 + (long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + 0x138);
-          goto label_0433011d;
+          pvVar2 = InterfaceInvoker0_Invoke
+                             (0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res8);
+          if ((char)pvVar2 == '\0') {
+            local_res20 = il2cpp_vm_Object_IsInst(local_res8,(Il2CppClass *)TypeInfo_System_IDisposable);
+            if (local_res20 != (Il2CppObject *)0x0) {
+              InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res20);
+            }
+            goto label_1820cd26d;
+          }
+          if (local_res8 == (Il2CppObject *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar3 = InterfaceInvoker0_Invoke
+                             (1,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res8);
+        } while (pSVar3 == (System_String_o *)0x0);
+        value = (System_String_o *)0x0;
+        if (pSVar3->klass == g_data_184354e50) {
+          value = pSVar3;
         }
-        lVar12 = lVar12 + 0x10;
-      } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
-    }
-    puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar7,TypeInfo_IDisposable,0);
-label_0433011d:
-    (*(code *)*puVar10)(plVar7,puVar10[1]);
+        bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+        if (bVar1) {
+          value = (System_String_o *)
+                  (*(pSVar3->klass->vtable)._3_ToString.methodPtr)
+                            (pSVar3,(pSVar3->klass->vtable)._3_ToString.method);
+        }
+        bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+      } while (bVar1);
+      if (value == (System_String_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar3 = System_String__Trim(value,(MethodInfo *)0x0);
+      bVar1 = System_String__Equals_196c550(pSVar3,targetTier,4,(MethodInfo *)0x0);
+    } while (!bVar1);
+    il2cpp_runtime_helper_1806aa210(&local_28);
+    bVar1 = true;
   }
-  _Unwind_Resume(auVar16._0_8_);
+  return bVar1;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteBool
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteBool (Photon_Realtime_Player_o* player, System_String_o* key, bool* value, const MethodInfo* method);
-// 0x4330150
+// 0x1820cd9d0
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteBool
-          (Photon_Realtime_Player_o *player,System_String_o *key,bool_conflict *value,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteBool
+               (Photon_Realtime_Player_o *player,System_String_o *key,bool *value,MethodInfo *method)
 
 {
-  Il2CppObject *pIVar1;
-  undefined1 *puVar2;
+  Il2CppObject *obj;
+  undefined1 *puVar1;
+  Il2CppObject *pIVar2;
   
-  *(undefined1 *)value = 0;
+  *value = false;
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    pIVar1 = PhotonExtensions__GetCustomProperty(player,key,(MethodInfo *)0x0);
-    if (pIVar1 == (Il2CppObject *)0x0) {
-      return 0;
-    }
-    if (pIVar1->klass == g_data_057b9b98) {
-      puVar2 = (undefined1 *)il2cpp_runtime_helper_02305440(pIVar1);
-      *(undefined1 *)value = *puVar2;
-      return 1;
+    obj = PhotonExtensions__GetCustomProperty(player,key,(MethodInfo *)0x0);
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar2 = (Il2CppObject *)0x0;
+      if (obj->klass == g_data_184354de8) {
+        pIVar2 = obj;
+      }
+      if (pIVar2 != (Il2CppObject *)0x0) {
+        if ((obj->klass->_1).element_class == (g_data_184354de8->_1).element_class) {
+          puVar1 = il2cpp_object_unbox(obj);
+          *value = (bool)*puVar1;
+          return true;
+        }
+        il2cpp_codegen_raise_invalid_cast_exception(obj,g_data_184354de8);
+      }
     }
   }
-  return 0;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteString
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteString (Photon_Realtime_Player_o* player, System_String_o* key, System_String_o** value, const MethodInfo* method);
-// 0x43301a0
+// 0x1820cdb20
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteString
-          (Photon_Realtime_Player_o *player,System_String_o *key,System_String_o **value,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteString
+               (Photon_Realtime_Player_o *player,System_String_o *key,System_String_o **value,
+               MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
+  System_String_o *pSVar2;
   System_String_o *value_00;
-  bool_conflict bVar2;
   
   *value = (System_String_o *)0x0;
-  bVar2 = 0;
-  il2cpp_runtime_helper_022b4080(value,0);
+  Il2CppCodeGenWriteBarrier(value,(void *)0x0);
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    bVar2 = 0;
-    value_00 = (System_String_o *)PhotonExtensions__GetCustomProperty(player,key,(MethodInfo *)0x0);
-    if ((value_00 != (System_String_o *)0x0) && (bVar2 = 0, value_00->klass == g_data_057b9c00)) {
-      bVar2 = 0;
-      bVar1 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
-      if ((char)bVar1 == '\0') {
-        *value = value_00;
-        il2cpp_runtime_helper_022b4080(value,value_00);
-        bVar2 = 1;
+    pSVar2 = (System_String_o *)PhotonExtensions__GetCustomProperty(player,key,(MethodInfo *)0x0);
+    if (pSVar2 != (System_String_o *)0x0) {
+      value_00 = (System_String_o *)0x0;
+      if ((Il2CppClass *)pSVar2->klass == g_data_184354e50) {
+        value_00 = pSVar2;
+      }
+      if (value_00 != (System_String_o *)0x0) {
+        bVar1 = System_String__IsNullOrEmpty(value_00,(MethodInfo *)0x0);
+        if (!bVar1) {
+          *value = value_00;
+          Il2CppCodeGenWriteBarrier(value,value_00);
+          return true;
+        }
       }
     }
   }
-  return bVar2;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryParseTierIdsString
 // il2cpp: bool PatreonEffects_PatreonHelper__TryParseTierIdsString (System_String_o* raw, System_Collections_Generic_List_string__o** parsed, const MethodInfo* method);
-// 0x4330230
+// 0x1820cde40
+// eh: try 0x1820cdf52..0x1820ce1d9 -> pad 0x183315840 (+1 call sites) catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// asm: 27 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820cdfcc: nop dword ptr [rax]
+// asm:   0x1820ce070: xor ebx, ebx
+// asm:   0x1820ce072: mov r12, qword ptr [rsp + 0x68]
+// asm:   0x1820ce077: mov r13, qword ptr [rsp + 0x60]
+// asm:   0x183315840: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315845: push rbx
+// asm:   0x183315846: push rbp
+// asm:   0x183315847: sub rsp, 0x28
+// asm:   0x18331584b: mov rbp, rdx
+// asm:   0x18331584e: mov rbx, qword ptr [rbp + 0x28]
+// asm:   0x183315852: mov rdx, qword ptr [rbx]
+// asm:   0x183315855: mov rdx, qword ptr [rdx]
+// asm:   0x183315858: mov rcx, qword ptr [rip + 0x103f571]
+// asm:   0x18331585f: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183315864: test al, al
+// asm:   0x183315866: je 0x183315874
+// asm:   0x183315868: movabs rax, 0
+// asm:   0x183315872: jmp 0x18331588c
+// asm:   0x183315874: mov rax, qword ptr [rbx]
+// asm:   0x183315877: mov qword ptr [rbp + 0x20], rax
+// asm:   0x18331587b: lea rdx, [rip + 0xcc6706]
+// asm:   0x183315882: lea rcx, [rbp + 0x20]
+// asm:   0x183315886: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x18331588c: add rsp, 0x28
+// asm:   0x183315890: pop rbp
+// asm:   0x183315891: pop rbx
+// asm:   0x183315892: ret 
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryParseTierIdsString
-          (System_String_o *raw,System_Collections_Generic_List_string__o **parsed,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryParseTierIdsString
+               (System_String_o *raw,System_Collections_Generic_List_string__o **parsed,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  uint uVar2;
-  ulong uVar3;
-  System_String_array *pSVar4;
-  long lVar5;
-  char cVar6;
-  bool_conflict bVar7;
-  int iVar8;
-  int32_t iVar9;
+  System_Xml_Schema_XmlSchema_c *pSVar1;
+  bool bVar2;
+  int32_t iVar3;
   System_String_o *value;
   SimpleJSONFixed_JSONNode_o *a;
-  System_Collections_Generic_List_string__o *pSVar10;
-  long *plVar11;
-  System_String_array *pSVar12;
-  System_Collections_Generic_List_string__o *pSVar13;
-  System_String_o *pSVar14;
-  System_Collections_Generic_List_string__o *__this;
-  undefined8 *puVar15;
-  MethodInfo *extraout_RDX;
-  undefined1 auVar16 [12];
+  System_Collections_Generic_List_string__o *pSVar4;
+  System_Xml_Schema_XmlSchema_o *pSVar5;
+  System_String_o *pSVar6;
+  System_String_array *pSVar7;
+  uint uVar8;
+  MethodInfo *pMVar9;
+  MethodInfo *pMVar10;
   
-  if (g_data_057ae071 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&"[");
-    il2cpp_runtime_helper_023445d0(&"]");
-    g_data_057ae071 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346989 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"[");
+    il2cpp_codegen_initialize_runtime_metadata(&"]");
+    Il2CppMethodInitialized_184346989 = '\x01';
   }
+  pMVar9 = (MethodInfo *)0x0;
   *parsed = (System_Collections_Generic_List_string__o *)0x0;
-  __this = (System_Collections_Generic_List_string__o *)0x0;
-  il2cpp_runtime_helper_022b4080(parsed,0,method);
-  bVar7 = System_String__IsNullOrEmpty(raw,(MethodInfo *)0x0);
-  if ((char)bVar7 != '\0') {
-    return 0;
+  Il2CppCodeGenWriteBarrier(parsed,(void *)0x0);
+  bVar2 = System_String__IsNullOrEmpty(raw,(MethodInfo *)0x0);
+  if (bVar2) {
+    return false;
   }
   if (raw != (System_String_o *)0x0) {
-    __this = (System_Collections_Generic_List_string__o *)0x0;
     value = System_String__Trim(raw,(MethodInfo *)0x0);
-    bVar7 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-    if ((char)bVar7 != '\0') {
-      return 0;
+    bVar2 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+    if (bVar2) {
+      return false;
     }
     if (value != (System_String_o *)0x0) {
-      bVar7 = System_String__StartsWith(value,"[",(MethodInfo *)0x0);
-      if (((char)bVar7 != '\0') &&
-         (bVar7 = System_String__EndsWith(value,"]",(MethodInfo *)0x0), (char)bVar7 != '\0')) {
+      bVar2 = System_String__StartsWith(value,"[",(MethodInfo *)0x0);
+      if ((bVar2) && (bVar2 = System_String__EndsWith(value,"]",(MethodInfo *)0x0), bVar2))
+      {
         a = SimpleJSONFixed_JSON__Parse(value,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+        if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
         }
-        bVar7 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar7 != '\0') {
-          if (a == (SimpleJSONFixed_JSONNode_o *)0x0) goto label_04330523;
-          cVar6 = (*(a->klass->vtable)._16_get_IsArray.methodPtr)(a,(a->klass->vtable)._16_get_IsArray.method)
+        bVar2 = SimpleJSONFixed_JSONNode__op_Inequality(a,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+        if (bVar2) {
+          if (a == (SimpleJSONFixed_JSONNode_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          bVar2 = (*(a->klass->vtable)._16_get_IsArray.methodPtr)(a,(a->klass->vtable)._16_get_IsArray.method)
           ;
-          __this = (System_Collections_Generic_List_string__o *)0x0;
-          if (cVar6 != '\0') {
-            pSVar10 = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
+          if (bVar2) {
+            pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string)
+            ;
             System_Collections_Generic_List_object____ctor
-                      ((System_Collections_Generic_List_object__o *)pSVar10,MethodInfo_List_1_System_String);
-            __this = (System_Collections_Generic_List_string__o *)0x0;
-            if (pSVar10 == (System_Collections_Generic_List_string__o *)0x0) {
-              do {
-                iVar8 = (*(a->klass->vtable)._11_get_Count.methodPtr)
-                                  (a,(a->klass->vtable)._11_get_Count.method);
-                if (iVar8 <= (int)__this) goto label_043304ee;
-                plVar11 = (long *)(*(a->klass->vtable)._5_get_Item.methodPtr)
-                                            (a,__this,(a->klass->vtable)._5_get_Item.method);
-                if (plVar11 == (long *)0x0) goto label_04330514;
-                pSVar14 = (System_String_o *)(**(code **)(*plVar11 + 0x1c8))(plVar11);
-                bVar7 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
-                __this = (System_Collections_Generic_List_string__o *)(ulong)((int)__this + 1);
-              } while ((char)bVar7 != '\0');
-              goto label_04330519;
-            }
+                      ((System_Collections_Generic_LowLevelList_T__o *)pSVar4,
+                       (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+            pMVar10 = pMVar9;
             while( true ) {
-              iVar8 = (*(a->klass->vtable)._11_get_Count.methodPtr)(a,(a->klass->vtable)._11_get_Count.method)
-              ;
-              if (iVar8 <= (int)__this) break;
-              plVar11 = (long *)(*(a->klass->vtable)._5_get_Item.methodPtr)
-                                          (a,__this,(a->klass->vtable)._5_get_Item.method);
-              if (plVar11 == (long *)0x0) goto label_04330514;
-              pSVar14 = (System_String_o *)(**(code **)(*plVar11 + 0x1c8))(plVar11);
-              bVar7 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
-              lVar5 = MethodInfo_Void_Add;
-              if ((char)bVar7 == '\0') {
-                piVar1 = &(pSVar10->fields)._version;
-                *piVar1 = *piVar1 + 1;
-                pSVar12 = (pSVar10->fields)._items;
-                if (pSVar12 == (System_String_array *)0x0) goto label_0433051e;
-                uVar2 = (pSVar10->fields)._size;
-                if (uVar2 < (uint)pSVar12->max_length) {
-                  (pSVar10->fields)._size = uVar2 + 1;
-                  pSVar12->m_Items[(int)uVar2] = pSVar14;
-                  il2cpp_runtime_helper_022b4080(pSVar12->m_Items + (int)uVar2,pSVar14);
-                }
-                else {
-                  System_Collections_Generic_List_object___AddWithResize
-                            ((System_Collections_Generic_List_object__o *)pSVar10,(Il2CppObject *)pSVar14,
-                             *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
-                }
+              pSVar5 = (*(a->klass->vtable)._11_get_Count.methodPtr)
+                                 (a,(a->klass->vtable)._11_get_Count.method);
+              if ((int)pSVar5 <= (int)pMVar10) break;
+              pSVar5 = (*(a->klass->vtable)._5_get_Item.methodPtr)(a,pMVar10);
+              if (pSVar5 == (System_Xml_Schema_XmlSchema_o *)0x0) {
+                ThrowNullReferenceException();
               }
-              __this = (System_Collections_Generic_List_string__o *)(ulong)((int)__this + 1);
+              pSVar1 = pSVar5->klass;
+              pSVar6 = (System_String_o *)
+                       (*(pSVar1->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                 (pSVar5,(UnityEngine_GameObject_o *)
+                                         (pSVar1->vtable)._9_SetUnhandledAttributes.method,
+                                  (MethodInfo *)pSVar1);
+              bVar2 = System_String__IsNullOrEmpty(pSVar6,(MethodInfo *)0x0);
+              if (!bVar2) {
+                if (pSVar4 == (System_Collections_Generic_List_string__o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                il2cpp_runtime_helper_180012890(pSVar4,pSVar6);
+              }
+              pMVar10 = (MethodInfo *)(ulonglong)((int)pMVar10 + 1);
             }
-label_043304ee:
-            if (pSVar10 == (System_Collections_Generic_List_string__o *)0x0) goto label_04330528;
-            if (0 < (pSVar10->fields)._size) {
-              *parsed = pSVar10;
-              il2cpp_runtime_helper_022b4080(parsed,pSVar10);
-              return (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
+            if (pSVar4 == (System_Collections_Generic_List_string__o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            if (0 < (pSVar4->fields)._size) {
+              *parsed = pSVar4;
+              Il2CppCodeGenWriteBarrier(parsed,pSVar4);
+              return true;
             }
           }
         }
       }
-      goto label_04330675;
-    }
-  }
-label_043308f4:
-  il2cpp_runtime_helper_022b2c90();
-label_043308f9:
-  il2cpp_runtime_helper_022b2ca0();
-label_043308fe:
-  puVar15 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar15 = __this->klass;
-  __cxa_throw(puVar15,&PTR_PTR_05215060,0);
-label_04330514:
-  il2cpp_runtime_helper_022b2c90();
-label_04330519:
-  il2cpp_runtime_helper_022b2c90();
-label_0433051e:
-  il2cpp_runtime_helper_022b2c90();
-label_04330523:
-  il2cpp_runtime_helper_022b2c90();
-label_04330528:
-  auVar16 = il2cpp_runtime_helper_022b2c90();
-  if (auVar16._8_4_ != 1) {
-    _Unwind_Resume(auVar16._0_8_);
-  }
-  __this = (System_Collections_Generic_List_string__o *)__cxa_begin_catch(auVar16._0_8_);
-  cVar6 = il2cpp_runtime_helper_0233e000(g_data_057b9b80,(__this->klass->_1).image);
-  if (cVar6 == '\0') goto label_043308fe;
-  __cxa_end_catch();
-label_04330675:
-  iVar9 = System_String__IndexOf(value,0x2c,(MethodInfo *)0x0);
-  if (iVar9 < 0) {
-label_04330853:
-    __this = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)__this,MethodInfo_List_1_System_String);
-    lVar5 = MethodInfo_Void_Add;
-    if (__this != (System_Collections_Generic_List_string__o *)0x0) {
-      piVar1 = &(__this->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar12 = (__this->fields)._items;
-      if (pSVar12 != (System_String_array *)0x0) {
-        uVar2 = (__this->fields)._size;
-        if (uVar2 < (uint)pSVar12->max_length) {
-          (__this->fields)._size = uVar2 + 1;
-          pSVar12->m_Items[(int)uVar2] = value;
-          il2cpp_runtime_helper_022b4080(pSVar12->m_Items + (int)uVar2,value);
+      iVar3 = System_String__IndexOf(value,0x2c,(MethodInfo *)0x0);
+      if (-1 < iVar3) {
+        pSVar7 = System_String__Split(value,0x2c,0,(MethodInfo *)0x0);
+        pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+        System_Collections_Generic_List_object____ctor
+                  ((System_Collections_Generic_LowLevelList_T__o *)pSVar4,
+                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+        if (pSVar7 == (System_String_array *)0x0) goto label_1820ce1df;
+        while (uVar8 = (uint)pMVar9, (int)uVar8 < (int)pSVar7->max_length) {
+          if ((uint)pSVar7->max_length <= uVar8) {
+            ThrowIndexOutOfRangeException();
+          }
+          if (pSVar7->m_Items[(int)uVar8] == (System_String_o *)0x0) {
+            pSVar6 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+          }
+          else {
+            pSVar6 = System_String__Trim(pSVar7->m_Items[(int)uVar8],(MethodInfo *)0x0);
+          }
+          bVar2 = System_String__IsNullOrEmpty(pSVar6,(MethodInfo *)0x0);
+          if (!bVar2) {
+            if (pSVar4 == (System_Collections_Generic_List_string__o *)0x0) goto label_1820ce1df;
+            il2cpp_runtime_helper_180012890(pSVar4,pSVar6,MethodInfo_System_Collections_Generic_List_string_Add);
+          }
+          pMVar9 = (MethodInfo *)(ulonglong)(uVar8 + 1);
         }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)__this,(Il2CppObject *)value,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
-        }
-        *parsed = __this;
-        pSVar10 = __this;
-label_043308dc:
-        il2cpp_runtime_helper_022b4080(parsed,pSVar10);
-        return (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
-      }
-    }
-    goto label_043308f4;
-  }
-  pSVar12 = System_String__Split(value,0x2c,0,(MethodInfo *)0x0);
-  pSVar10 = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)pSVar10,MethodInfo_List_1_System_String);
-  if (pSVar12 == (System_String_array *)0x0) goto label_043308f4;
-  uVar3 = pSVar12->max_length;
-  pSVar13 = (System_Collections_Generic_List_string__o *)(uVar3 & 0xffffffff);
-  if (pSVar10 == (System_Collections_Generic_List_string__o *)0x0) {
-    if (0 < (int)uVar3) {
-      __this = (System_Collections_Generic_List_string__o *)0x0;
-      do {
-        if (pSVar13 <= __this) goto label_043308f9;
-        if (pSVar12->m_Items[(long)__this] == (System_String_o *)0x0) {
-          bVar7 = System_String__IsNullOrEmpty
-                            ((System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),(MethodInfo *)0x0);
-          cVar6 = (char)bVar7;
-        }
-        else {
-          pSVar14 = System_String__Trim(pSVar12->m_Items[(long)__this],(MethodInfo *)0x0);
-          bVar7 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
-          cVar6 = (char)bVar7;
-        }
-        if (cVar6 == '\0') goto label_043308f4;
-        __this = (System_Collections_Generic_List_string__o *)((long)&__this->klass + 1);
-        uVar2 = (uint)pSVar12->max_length;
-        pSVar13 = (System_Collections_Generic_List_string__o *)(ulong)uVar2;
-      } while ((long)__this < (long)(int)uVar2);
-    }
-label_04330830:
-    if (pSVar10 == (System_Collections_Generic_List_string__o *)0x0) goto label_043308f4;
-    if (0 < (pSVar10->fields)._size) {
-      *parsed = pSVar10;
-      goto label_043308dc;
-    }
-    goto label_04330853;
-  }
-  if ((int)uVar3 < 1) goto label_04330830;
-  __this = (System_Collections_Generic_List_string__o *)0x0;
-  if ((uVar3 & 0xffffffff) != 0) {
-    do {
-      if (pSVar12->m_Items[(long)__this] == (System_String_o *)0x0) {
-        pSVar14 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      }
-      else {
-        pSVar14 = System_String__Trim(pSVar12->m_Items[(long)__this],(MethodInfo *)0x0);
-      }
-      bVar7 = System_String__IsNullOrEmpty(pSVar14,(MethodInfo *)0x0);
-      lVar5 = MethodInfo_Void_Add;
-      if ((char)bVar7 == '\0') {
-        piVar1 = &(pSVar10->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar4 = (pSVar10->fields)._items;
-        if (pSVar4 == (System_String_array *)0x0) goto label_043308f4;
-        uVar2 = (pSVar10->fields)._size;
-        if (uVar2 < (uint)pSVar4->max_length) {
-          (pSVar10->fields)._size = uVar2 + 1;
-          pSVar4->m_Items[(int)uVar2] = pSVar14;
-          il2cpp_runtime_helper_022b4080(pSVar4->m_Items + (int)uVar2);
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)pSVar10,(Il2CppObject *)pSVar14,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar5 + 0x20) + 0xc0) + 0x70));
+        if (pSVar4 == (System_Collections_Generic_List_string__o *)0x0) goto label_1820ce1df;
+        if (0 < (pSVar4->fields)._size) {
+          *parsed = pSVar4;
+          Il2CppCodeGenWriteBarrier(parsed,pSVar4);
+          return true;
         }
       }
-      __this = (System_Collections_Generic_List_string__o *)((long)&__this->klass + 1);
-      uVar2 = (uint)pSVar12->max_length;
-      if ((long)(int)uVar2 <= (long)__this) goto label_04330830;
-    } while (__this < (System_Collections_Generic_List_string__o *)(ulong)uVar2);
+      pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)pSVar4,
+                 (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+      if (pSVar4 != (System_Collections_Generic_List_string__o *)0x0) {
+        il2cpp_runtime_helper_180012890(pSVar4,value,MethodInfo_System_Collections_Generic_List_string_Add);
+        *parsed = pSVar4;
+        Il2CppCodeGenWriteBarrier(parsed,pSVar4);
+        return true;
+      }
+    }
   }
-  goto label_043308f9;
+label_1820ce1df:
+  ThrowNullReferenceException();
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteTierIds
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteTierIds (Photon_Realtime_Player_o* player, System_Collections_IEnumerable_o** tierIds, const MethodInfo* method);
-// 0x4330940
+// 0x1820cdbc0
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteTierIds
-          (Photon_Realtime_Player_o *player,System_Collections_IEnumerable_o **tierIds,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteTierIds
+               (Photon_Realtime_Player_o *player,System_Collections_IEnumerable_o **tierIds,MethodInfo *method
+               )
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
+  System_String_o *obj;
+  Il2CppObject *value;
   System_String_o *raw;
-  System_Collections_Generic_List_string__o *pSVar2;
-  MethodInfo *extraout_RDX;
-  System_Collections_Generic_List_string__o *local_20;
+  System_Collections_Generic_List_string__o *local_res8;
   
-  if (g_data_057ae072 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    g_data_057ae072 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_18434698a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    Il2CppMethodInitialized_18434698a = '\x01';
   }
-  local_20 = (System_Collections_Generic_List_string__o *)0x0;
+  local_res8 = (System_Collections_Generic_List_string__o *)0x0;
   *tierIds = (System_Collections_IEnumerable_o *)0x0;
-  il2cpp_runtime_helper_022b4080(tierIds,0,method);
-  if (player == (Photon_Realtime_Player_o *)0x0) {
-    return 0;
-  }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  raw = (System_String_o *)
-        PhotonExtensions__GetCustomProperty
-                  (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0xc0),(MethodInfo *)0x0);
-  if (raw != (System_String_o *)0x0) {
-    if (raw->klass == g_data_057b9c00) {
-      bVar1 = PatreonEffects_PatreonHelper__TryParseTierIdsString(raw,&local_20,(MethodInfo *)raw->klass);
-      if ((char)bVar1 == '\0') {
-        return 0;
-      }
-      *tierIds = (System_Collections_IEnumerable_o *)local_20;
-      pSVar2 = local_20;
+  Il2CppCodeGenWriteBarrier(tierIds,(void *)0x0);
+  if (player != (Photon_Realtime_Player_o *)0x0) {
+    if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
     }
-    else {
-      pSVar2 = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023051f0(raw,TypeInfo_IEnumerable);
-      if (pSVar2 == (System_Collections_Generic_List_string__o *)0x0) {
-        return 0;
+    obj = (System_String_o *)
+          PhotonExtensions__GetCustomProperty
+                    (player,TypeInfo_GameManagers_PlayerProperty->static_fields->TierIds,(MethodInfo *)0x0);
+    if (obj != (System_String_o *)0x0) {
+      raw = (System_String_o *)0x0;
+      if ((Il2CppClass *)obj->klass == g_data_184354e50) {
+        raw = obj;
       }
-      *tierIds = (System_Collections_IEnumerable_o *)pSVar2;
+      if (raw == (System_String_o *)0x0) {
+        value = il2cpp_vm_Object_IsInst
+                          ((Il2CppObject *)obj,(Il2CppClass *)TypeInfo_System_Collections_IEnumerable);
+        if (value != (Il2CppObject *)0x0) {
+          *tierIds = (System_Collections_IEnumerable_o *)value;
+          Il2CppCodeGenWriteBarrier(tierIds,value);
+          return true;
+        }
+      }
+      else {
+        bVar1 = PatreonEffects_PatreonHelper__TryParseTierIdsString(raw,&local_res8,(MethodInfo *)0x0);
+        if (bVar1) {
+          *tierIds = (System_Collections_IEnumerable_o *)local_res8;
+          Il2CppCodeGenWriteBarrier(tierIds,local_res8);
+          return true;
+        }
+      }
     }
-    il2cpp_runtime_helper_022b4080(tierIds,pSVar2);
-    return 1;
   }
-  return 0;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$ToTierLabel
 // il2cpp: System_String_o* PatreonEffects_PatreonHelper__ToTierLabel (bool hasTier2, bool hasTier3, const MethodInfo* method);
-// 0x4330a40
+// 0x1820cd5d0
 
-System_String_o *
-PatreonEffects_PatreonHelper__ToTierLabel(bool_conflict hasTier2,bool_conflict hasTier3,MethodInfo *method)
+System_String_o * PatreonEffects_PatreonHelper__ToTierLabel(bool hasTier2,bool hasTier3,MethodInfo *method)
 
 {
-  undefined8 *puVar1;
+  System_String_o *pSVar1;
   
-  if (g_data_057ae073 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Tier 2");
-    il2cpp_runtime_helper_023445d0(&"Tier 3");
-    g_data_057ae073 = '\x01';
+  if (Il2CppMethodInitialized_18434698b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Tier 2");
+    il2cpp_codegen_initialize_runtime_metadata(&"Tier 3");
+    Il2CppMethodInitialized_18434698b = '\x01';
   }
-  if ((char)hasTier3 == '\0') {
-    if ((char)hasTier2 == '\0') {
-      return (System_String_o *)0x0;
+  if (!hasTier3) {
+    pSVar1 = "Tier 2";
+    if (!hasTier2) {
+      pSVar1 = (System_String_o *)0x0;
     }
-    puVar1 = &"Tier 2";
+    return pSVar1;
   }
-  else {
-    puVar1 = &"Tier 3";
-  }
-  return (System_String_o *)*puVar1;
+  return "Tier 3";
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetLocalPatreonFlags
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags (bool* linked, bool* hasTier2, bool* hasTier3, const MethodInfo* method);
-// 0x4330aa0
+// 0x1820cd640
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-          (bool_conflict *linked,bool_conflict *hasTier2,bool_conflict *hasTier3,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
+               (bool *linked,bool *hasTier2,bool *hasTier3,MethodInfo *method)
 
 {
-  long lVar1;
-  char cVar2;
-  char cVar3;
-  bool_conflict bVar4;
-  uint uVar5;
-  undefined1 uVar6;
-  undefined7 uVar7;
-  undefined8 uVar8;
-  undefined8 *puVar9;
-  char cStack_43;
-  char cStack_42;
-  char cStack_41;
-  undefined8 *puStack_40;
-  bool_conflict *pbStack_38;
+  ApplicationManagers_AccountLoginResponse_o *pAVar1;
+  ApplicationManagers_AccountLoginResponse_ProfileData_o *pAVar2;
+  ApplicationManagers_AccountLoginResponse_PatreonData_o *pAVar3;
   
-  uVar6 = SUB81(method,0);
-  uVar7 = (undefined7)((ulong)method >> 8);
-  if (g_data_057ae074 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae074 = '\x01';
+  if (Il2CppMethodInitialized_18434698c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_18434698c = '\x01';
   }
-  *(undefined1 *)linked = 0;
-  *(undefined1 *)hasTier2 = 0;
-  *(undefined1 *)hasTier3 = 0;
-  if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae0d4 == '\0') goto label_04330be6;
-label_04330afe:
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) != 0) goto label_04330b0e;
-label_04330c09:
-    il2cpp_runtime_helper_02337ed0();
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
+  *linked = false;
+  *hasTier2 = false;
+  *hasTier3 = false;
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  else {
-    if (g_data_057ae0d4 != '\0') goto label_04330afe;
-label_04330be6:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae0d4 = '\x01';
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) goto label_04330c09;
-label_04330b0e:
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
+  if (Il2CppMethodInitialized_1843469c1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_1843469c1 = '\x01';
   }
-  if (lVar1 == 0) {
-    return 0;
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae0d4 == '\0') goto label_04330c43;
-label_04330b3a:
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) != 0) goto label_04330b4a;
-label_04330c66:
-    il2cpp_runtime_helper_02337ed0();
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
-  }
-  else {
-    if (g_data_057ae0d4 != '\0') goto label_04330b3a;
-label_04330c43:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae0d4 = '\x01';
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) goto label_04330c66;
-label_04330b4a:
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
-  }
-  if (lVar1 == 0) goto label_04330cd5;
-  if (*(long *)(lVar1 + 0x48) == 0) {
-    return 0;
-  }
-  if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    if (g_data_057ae0d4 == '\0') goto label_04330c96;
-label_04330b83:
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) != 0) goto label_04330b93;
-label_04330cb9:
-    il2cpp_runtime_helper_02337ed0();
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
-  }
-  else {
-    if (g_data_057ae0d4 != '\0') goto label_04330b83;
-label_04330c96:
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae0d4 = '\x01';
-    if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) goto label_04330cb9;
-label_04330b93:
-    lVar1 = *(long *)(TypeInfo_AccountManager[0x17] + 0x38);
-  }
-  if ((lVar1 != 0) && (*(long *)(lVar1 + 0x48) != 0)) {
-    lVar1 = *(long *)(*(long *)(lVar1 + 0x48) + 0x58);
-    if (lVar1 == 0) {
-      return 0;
+  if (TypeInfo_ApplicationManagers_AccountManager->static_fields->_LoginResponse_k__BackingField !=
+      (ApplicationManagers_AccountLoginResponse_o *)0x0) {
+    if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
     }
-    *(undefined1 *)linked = *(undefined1 *)(lVar1 + 0x10);
-    *(undefined1 *)hasTier2 = *(undefined1 *)(lVar1 + 0x40);
-    *(undefined1 *)hasTier3 = *(undefined1 *)(lVar1 + 0x41);
-    return (bool_conflict)CONCAT71((int7)((ulong)lVar1 >> 8),1);
-  }
-label_04330cd5:
-  puVar9 = TypeInfo_AccountManager;
-  il2cpp_runtime_helper_022b2c90();
-  puStack_40 = &TypeInfo_AccountManager;
-  pbStack_38 = hasTier3;
-  if (g_data_057ae075 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae075 = '\x01';
-  }
-  cStack_41 = '\0';
-  cStack_42 = '\0';
-  cStack_43 = '\0';
-  *puVar9 = 0;
-  il2cpp_runtime_helper_022b4080(puVar9,0);
-  if (*(int *)((long)TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uVar5 = 0;
-  bVar4 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-  if ((char)bVar4 != '\0') {
-    bVar4 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                      ((bool_conflict *)&cStack_41,(bool_conflict *)&cStack_42,(bool_conflict *)&cStack_43,
-                       (MethodInfo *)CONCAT71(uVar7,uVar6));
-    cVar3 = cStack_42;
-    cVar2 = cStack_43;
-    uVar5 = 0;
-    if ((cStack_41 != '\0') && ((char)bVar4 != '\0')) {
-      if (g_data_057ae073 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"Tier 2");
-        il2cpp_runtime_helper_023445d0(&"Tier 3");
-        g_data_057ae073 = '\x01';
+    if (Il2CppMethodInitialized_1843469c1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+      Il2CppMethodInitialized_1843469c1 = '\x01';
+    }
+    if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
+    }
+    pAVar1 = TypeInfo_ApplicationManagers_AccountManager->static_fields->_LoginResponse_k__BackingField;
+    if (pAVar1 == (ApplicationManagers_AccountLoginResponse_o *)0x0) {
+label_1820cd7e8:
+      ThrowNullReferenceException();
+    }
+    if ((pAVar1->fields).Profile != (ApplicationManagers_AccountLoginResponse_ProfileData_o *)0x0) {
+      if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
       }
-      uVar8 = "Tier 2";
-      if (cVar3 == '\0') {
-        uVar8 = 0;
+      if (Il2CppMethodInitialized_1843469c1 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+        Il2CppMethodInitialized_1843469c1 = '\x01';
       }
-      if (cVar2 != '\0') {
-        uVar8 = "Tier 3";
+      if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
       }
-      *puVar9 = uVar8;
-      il2cpp_runtime_helper_022b4080(puVar9);
-      uVar5 = System_String__IsNullOrEmpty((System_String_o *)*puVar9,(MethodInfo *)0x0);
-      uVar5 = uVar5 ^ 1;
+      pAVar1 = TypeInfo_ApplicationManagers_AccountManager->static_fields->_LoginResponse_k__BackingField;
+      if ((pAVar1 == (ApplicationManagers_AccountLoginResponse_o *)0x0) ||
+         (pAVar2 = (pAVar1->fields).Profile,
+         pAVar2 == (ApplicationManagers_AccountLoginResponse_ProfileData_o *)0x0)) goto label_1820cd7e8;
+      pAVar3 = (pAVar2->fields).Patreon;
+      if (pAVar3 != (ApplicationManagers_AccountLoginResponse_PatreonData_o *)0x0) {
+        *linked = (pAVar3->fields).Linked;
+        *hasTier2 = (pAVar3->fields).HasTier2;
+        *hasTier3 = (pAVar3->fields).HasTier3;
+        return true;
+      }
     }
   }
-  return uVar5;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetLocalTierLabel
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetLocalTierLabel (System_String_o** tierLabel, const MethodInfo* method);
-// 0x4330ce0
+// 0x1820cd7f0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1820cd8bb: jmp 0x1820cd8c4
+// asm:   0x1820cd8bd: mov rdx, qword ptr [rip + 0x1fa1a84]  ; "Tier 3"
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetLocalTierLabel(System_String_o **tierLabel,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetLocalTierLabel(System_String_o **tierLabel,MethodInfo *method)
 
 {
-  char cVar1;
-  char cVar2;
-  bool_conflict bVar3;
-  uint uVar4;
-  MethodInfo *in_RCX;
-  System_String_o *pSVar5;
-  char local_1b;
-  char local_1a;
-  char local_19;
+  bool bVar1;
+  System_String_o *value;
+  bool local_res8 [16];
+  bool local_res18 [8];
+  bool local_res20 [8];
   
-  if (g_data_057ae075 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae075 = '\x01';
+  if (Il2CppMethodInitialized_18434698d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_18434698d = '\x01';
   }
-  local_19 = '\0';
-  local_1a = '\0';
-  local_1b = '\0';
+  local_res8[0] = false;
+  local_res20[0] = false;
+  local_res18[0] = false;
   *tierLabel = (System_String_o *)0x0;
-  il2cpp_runtime_helper_022b4080(tierLabel,0);
-  if (*(int *)(TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  Il2CppCodeGenWriteBarrier(tierLabel,(void *)0x0);
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  uVar4 = 0;
-  bVar3 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    bVar3 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                      ((bool_conflict *)&local_19,(bool_conflict *)&local_1a,(bool_conflict *)&local_1b,in_RCX
-                      );
-    cVar2 = local_1a;
-    cVar1 = local_1b;
-    uVar4 = 0;
-    if ((local_19 != '\0') && ((char)bVar3 != '\0')) {
-      if (g_data_057ae073 == '\0') {
-        il2cpp_runtime_helper_023445d0(&"Tier 2");
-        il2cpp_runtime_helper_023445d0(&"Tier 3");
-        g_data_057ae073 = '\x01';
-      }
-      pSVar5 = "Tier 2";
-      if (cVar2 == '\0') {
-        pSVar5 = (System_String_o *)0x0;
-      }
-      if (cVar1 != '\0') {
-        pSVar5 = "Tier 3";
-      }
-      *tierLabel = pSVar5;
-      il2cpp_runtime_helper_022b4080(tierLabel);
-      uVar4 = System_String__IsNullOrEmpty(*tierLabel,(MethodInfo *)0x0);
-      uVar4 = uVar4 ^ 1;
+  bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
+  if (((bVar1) &&
+      (bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
+                         (local_res8,local_res20,local_res18,(MethodInfo *)0x0), bVar1)) &&
+     (local_res8[0] != false)) {
+    if (Il2CppMethodInitialized_18434698b == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&"Tier 2");
+      il2cpp_codegen_initialize_runtime_metadata(&"Tier 3");
+      Il2CppMethodInitialized_18434698b = '\x01';
     }
+    value = "Tier 3";
+    if ((local_res18[0] == false) && (value = "Tier 2", local_res20[0] == false)) {
+      value = (System_String_o *)0x0;
+    }
+    *tierLabel = value;
+    Il2CppCodeGenWriteBarrier(tierLabel,value);
+    bVar1 = System_String__IsNullOrEmpty(*tierLabel,(MethodInfo *)0x0);
+    return !bVar1;
   }
-  return uVar4;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteTierLabel
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteTierLabel (Photon_Realtime_Player_o* player, System_String_o** tierLabel, const MethodInfo* method);
-// 0x4330e00
+// 0x1820cdce0
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteTierLabel
-          (Photon_Realtime_Player_o *player,System_String_o **tierLabel,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteTierLabel
+               (Photon_Realtime_Player_o *player,System_String_o **tierLabel,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  bool_conflict bVar2;
-  uint uVar3;
-  Il2CppObject *pIVar4;
-  MethodInfo *extraout_RDX;
-  Il2CppClass *extraout_RDX_00;
-  Il2CppClass *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  System_String_o *pSVar5;
-  undefined1 auVar6 [16];
-  System_Collections_IEnumerable_o *local_20;
+  bool bVar1;
+  bool hasTier3;
+  Il2CppObject *obj;
+  char *pcVar2;
+  System_String_o *value;
+  Il2CppObject *pIVar3;
+  System_Collections_IEnumerable_o *local_res8;
   
-  if (g_data_057ae076 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"28767500");
-    il2cpp_runtime_helper_023445d0(&"28767505");
-    g_data_057ae076 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_18434698e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&"28767500");
+    il2cpp_codegen_initialize_runtime_metadata(&"28767505");
+    Il2CppMethodInitialized_18434698e = '\x01';
   }
-  local_20 = (System_Collections_IEnumerable_o *)0x0;
+  local_res8 = (System_Collections_IEnumerable_o *)0x0;
   *tierLabel = (System_String_o *)0x0;
-  il2cpp_runtime_helper_022b4080(tierLabel,0,method);
-  if (player == (Photon_Realtime_Player_o *)0x0) {
-    return 0;
-  }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pIVar4 = PhotonExtensions__GetCustomProperty
-                     (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0xb8),(MethodInfo *)0x0);
-  method_00 = extraout_RDX_00;
-  if ((pIVar4 != (Il2CppObject *)0x0) && (method_00 = pIVar4->klass, method_00 == g_data_057b9b98)) {
-    auVar6 = il2cpp_runtime_helper_02305440(pIVar4);
-    method_00 = auVar6._8_8_;
-    if (*auVar6._0_8_ == '\0') {
-      return 0;
+  Il2CppCodeGenWriteBarrier(tierLabel,(void *)0x0);
+  if (player != (Photon_Realtime_Player_o *)0x0) {
+    if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
+    }
+    obj = PhotonExtensions__GetCustomProperty
+                    (player,TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,
+                     (MethodInfo *)0x0);
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar3 = (Il2CppObject *)0x0;
+      if (obj->klass == g_data_184354de8) {
+        pIVar3 = obj;
+      }
+      if (pIVar3 != (Il2CppObject *)0x0) {
+        if ((obj->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
+          il2cpp_codegen_raise_invalid_cast_exception();
+        }
+        pcVar2 = il2cpp_object_unbox(obj);
+        if (*pcVar2 == '\0') {
+          return false;
+        }
+      }
+    }
+    bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,&local_res8,(MethodInfo *)0x0);
+    if (bVar1) {
+      bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                        (local_res8,"28767500",(MethodInfo *)0x0);
+      hasTier3 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                           (local_res8,"28767505",(MethodInfo *)0x0);
+      value = PatreonEffects_PatreonHelper__ToTierLabel(bVar1,hasTier3,(MethodInfo *)0x0);
+      *tierLabel = value;
+      Il2CppCodeGenWriteBarrier(tierLabel,value);
+      bVar1 = System_String__IsNullOrEmpty(*tierLabel,(MethodInfo *)0x0);
+      return !bVar1;
     }
   }
-  bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,&local_20,(MethodInfo *)method_00);
-  if ((char)bVar1 == '\0') {
-    return 0;
-  }
-  bVar1 = PatreonEffects_PatreonHelper__HasTier_422fd10(local_20,"28767500",method_01);
-  bVar2 = PatreonEffects_PatreonHelper__HasTier_422fd10(local_20,"28767505",method_02);
-  if (g_data_057ae073 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Tier 2");
-    il2cpp_runtime_helper_023445d0(&"Tier 3");
-    g_data_057ae073 = '\x01';
-  }
-  pSVar5 = "Tier 2";
-  if ((char)bVar1 == '\0') {
-    pSVar5 = (System_String_o *)0x0;
-  }
-  if ((char)bVar2 != '\0') {
-    pSVar5 = "Tier 3";
-  }
-  *tierLabel = pSVar5;
-  il2cpp_runtime_helper_022b4080(tierLabel);
-  uVar3 = System_String__IsNullOrEmpty(*tierLabel,(MethodInfo *)0x0);
-  return uVar3 ^ 1;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteDisplayName
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteDisplayName (Photon_Realtime_Player_o* player, System_String_o** displayName, const MethodInfo* method);
-// 0x4330f80
+// 0x1820cda40
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteDisplayName
-          (Photon_Realtime_Player_o *player,System_String_o **displayName,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteDisplayName
+               (Photon_Realtime_Player_o *player,System_String_o **displayName,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   System_String_o *pSVar2;
-  bool_conflict bVar3;
+  System_String_o *value;
   
-  if (g_data_057ae077 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    g_data_057ae077 = '\x01';
+  if (Il2CppMethodInitialized_18434698f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    Il2CppMethodInitialized_18434698f = '\x01';
   }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
   }
-  pSVar2 = *(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x98);
+  pSVar2 = TypeInfo_GameManagers_PlayerProperty->static_fields->DisplayName;
   *displayName = (System_String_o *)0x0;
-  bVar3 = 0;
-  il2cpp_runtime_helper_022b4080(displayName,0);
+  Il2CppCodeGenWriteBarrier(displayName,(void *)0x0);
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    bVar3 = 0;
     pSVar2 = (System_String_o *)PhotonExtensions__GetCustomProperty(player,pSVar2,(MethodInfo *)0x0);
-    if ((pSVar2 != (System_String_o *)0x0) && (bVar3 = 0, pSVar2->klass == g_data_057b9c00)) {
-      bVar3 = 0;
-      bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-      if ((char)bVar1 == '\0') {
-        *displayName = pSVar2;
-        il2cpp_runtime_helper_022b4080(displayName,pSVar2);
-        bVar3 = 1;
+    if (pSVar2 != (System_String_o *)0x0) {
+      value = (System_String_o *)0x0;
+      if ((Il2CppClass *)pSVar2->klass == g_data_184354e50) {
+        value = pSVar2;
+      }
+      if (value != (System_String_o *)0x0) {
+        bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+        if (!bVar1) {
+          *displayName = value;
+          Il2CppCodeGenWriteBarrier(displayName,value);
+          return true;
+        }
       }
     }
   }
-  return bVar3;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$TryGetRemoteAccountId
 // il2cpp: bool PatreonEffects_PatreonHelper__TryGetRemoteAccountId (Photon_Realtime_Player_o* player, System_String_o** accountId, const MethodInfo* method);
-// 0x4331050
+// 0x1820cd8f0
 
-bool_conflict
-PatreonEffects_PatreonHelper__TryGetRemoteAccountId
-          (Photon_Realtime_Player_o *player,System_String_o **accountId,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__TryGetRemoteAccountId
+               (Photon_Realtime_Player_o *player,System_String_o **accountId,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   System_String_o *pSVar2;
-  bool_conflict bVar3;
+  System_String_o *value;
   
-  if (g_data_057ae078 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    g_data_057ae078 = '\x01';
+  if (Il2CppMethodInitialized_184346990 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    Il2CppMethodInitialized_184346990 = '\x01';
   }
-  if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
   }
-  pSVar2 = *(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0x90);
+  pSVar2 = TypeInfo_GameManagers_PlayerProperty->static_fields->AccountId;
   *accountId = (System_String_o *)0x0;
-  bVar3 = 0;
-  il2cpp_runtime_helper_022b4080(accountId,0);
+  Il2CppCodeGenWriteBarrier(accountId,(void *)0x0);
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    bVar3 = 0;
     pSVar2 = (System_String_o *)PhotonExtensions__GetCustomProperty(player,pSVar2,(MethodInfo *)0x0);
-    if ((pSVar2 != (System_String_o *)0x0) && (bVar3 = 0, pSVar2->klass == g_data_057b9c00)) {
-      bVar3 = 0;
-      bVar1 = System_String__IsNullOrEmpty(pSVar2,(MethodInfo *)0x0);
-      if ((char)bVar1 == '\0') {
-        *accountId = pSVar2;
-        il2cpp_runtime_helper_022b4080(accountId,pSVar2);
-        bVar3 = 1;
+    if (pSVar2 != (System_String_o *)0x0) {
+      value = (System_String_o *)0x0;
+      if ((Il2CppClass *)pSVar2->klass == g_data_184354e50) {
+        value = pSVar2;
+      }
+      if (value != (System_String_o *)0x0) {
+        bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
+        if (!bVar1) {
+          *accountId = value;
+          Il2CppCodeGenWriteBarrier(accountId,value);
+          return true;
+        }
       }
     }
   }
-  return bVar3;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$LocalPlayerHasNameEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess (const MethodInfo* method);
-// 0x4331120
+// 0x1820cd330
 
-bool_conflict PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess(MethodInfo *method)
+bool PatreonEffects_PatreonHelper__LocalPlayerHasNameEffectAccess(MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  MethodInfo *in_RCX;
-  uint uVar2;
-  char local_b;
-  char local_a;
-  char local_9;
+  bool bVar1;
+  bool local_res10 [8];
+  bool local_res18 [8];
+  bool local_res20 [8];
   
-  if (g_data_057ae079 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae079 = '\x01';
+  if (Il2CppMethodInitialized_184346991 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_184346991 = '\x01';
   }
-  local_9 = '\0';
-  local_a = '\0';
-  local_b = '\0';
-  if (*(int *)(TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_res10[0] = false;
+  local_res20[0] = false;
+  local_res18[0] = false;
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  uVar2 = 0;
   bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
+  if (bVar1) {
     bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                      ((bool_conflict *)&local_9,(bool_conflict *)&local_a,(bool_conflict *)&local_b,in_RCX);
-    uVar2 = 0;
-    if ((local_9 != '\0') && ((char)bVar1 != '\0')) {
-      uVar2 = (uint)(local_b != '\0' || local_a != '\0');
+                      (local_res10,local_res20,local_res18,(MethodInfo *)0x0);
+    if ((bVar1) && (local_res10[0] != false)) {
+      return local_res18[0] != false || local_res20[0] != false;
     }
   }
-  return uVar2;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$RemotePlayerHasNameEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__RemotePlayerHasNameEffectAccess (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x43311b0
+// 0x1820cd4b0
 
-bool_conflict
-PatreonEffects_PatreonHelper__RemotePlayerHasNameEffectAccess
-          (Photon_Realtime_Player_o *player,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__RemotePlayerHasNameEffectAccess
+               (Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  bool_conflict bVar2;
+  bool bVar1;
+  Il2CppObject *obj;
+  char *pcVar2;
   Il2CppObject *pIVar3;
-  Il2CppClass *extraout_RDX;
-  Il2CppClass *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  undefined1 auVar4 [16];
-  System_Collections_IEnumerable_o *local_18;
+  System_Collections_IEnumerable_o *local_res8 [4];
   
-  if (g_data_057ae07a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"28767500");
-    il2cpp_runtime_helper_023445d0(&"28767505");
-    g_data_057ae07a = '\x01';
+  if (Il2CppMethodInitialized_184346992 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&"28767500");
+    il2cpp_codegen_initialize_runtime_metadata(&"28767505");
+    Il2CppMethodInitialized_184346992 = '\x01';
   }
-  local_18 = (System_Collections_IEnumerable_o *)0x0;
+  local_res8[0] = (System_Collections_IEnumerable_o *)0x0;
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
     }
-    pIVar3 = PhotonExtensions__GetCustomProperty
-                       (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0xb8),(MethodInfo *)0x0)
-    ;
-    method_00 = extraout_RDX;
-    if ((pIVar3 != (Il2CppObject *)0x0) && (method_00 = pIVar3->klass, method_00 == g_data_057b9b98)) {
-      auVar4 = il2cpp_runtime_helper_02305440(pIVar3);
-      method_00 = auVar4._8_8_;
-      if (*auVar4._0_8_ == '\0') {
-        return 0;
+    obj = PhotonExtensions__GetCustomProperty
+                    (player,TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,
+                     (MethodInfo *)0x0);
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar3 = (Il2CppObject *)0x0;
+      if (obj->klass == g_data_184354de8) {
+        pIVar3 = obj;
+      }
+      if (pIVar3 != (Il2CppObject *)0x0) {
+        if ((obj->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
+          il2cpp_codegen_raise_invalid_cast_exception();
+        }
+        pcVar2 = il2cpp_object_unbox(obj);
+        if (*pcVar2 == '\0') {
+          return false;
+        }
       }
     }
-    bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,&local_18,(MethodInfo *)method_00);
-    if ((char)bVar1 != '\0') {
-      bVar1 = PatreonEffects_PatreonHelper__HasTier_422fd10(local_18,"28767500",method_01);
-      bVar2 = (bool_conflict)CONCAT71((uint7)(uint3)((uint)bVar1 >> 8),1);
-      if ((char)bVar1 == '\0') {
-        bVar2 = PatreonEffects_PatreonHelper__HasTier_422fd10(local_18,"28767505",method_02);
+    bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,local_res8,(MethodInfo *)0x0);
+    if (bVar1) {
+      bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                        (local_res8[0],"28767500",(MethodInfo *)0x0);
+      if (!bVar1) {
+        bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                          (local_res8[0],"28767505",(MethodInfo *)0x0);
+        return bVar1;
       }
-      return bVar2;
+      return true;
     }
   }
-  return 0;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$HasNameEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__HasNameEffectAccess (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x4327b00
+// 0x1820cce70
 
-bool_conflict
-PatreonEffects_PatreonHelper__HasNameEffectAccess(Photon_Realtime_Player_o *player,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__HasNameEffectAccess(Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  MethodInfo *in_RCX;
-  uint uVar2;
-  char local_b;
-  char local_a;
-  char local_9;
+  bool bVar1;
+  Il2CppObject *obj;
+  char *pcVar2;
+  Il2CppObject *pIVar3;
+  System_Collections_IEnumerable_o *local_res8 [2];
+  bool local_res18 [8];
+  bool local_res20 [8];
   
-  if (player == (Photon_Realtime_Player_o *)0x0) {
-    return 0;
-  }
-  if ((char)(player->fields).IsLocal != '\0') {
-    if (g_data_057ae079 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-      g_data_057ae079 = '\x01';
-    }
-    local_9 = '\0';
-    local_a = '\0';
-    local_b = '\0';
-    if (*(int *)(TypeInfo_AccountManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    uVar2 = 0;
-    bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                        ((bool_conflict *)&local_9,(bool_conflict *)&local_a,(bool_conflict *)&local_b,in_RCX)
-      ;
-      uVar2 = 0;
-      if ((local_9 != '\0') && ((char)bVar1 != '\0')) {
-        uVar2 = (uint)(local_b != '\0' || local_a != '\0');
+  if (player != (Photon_Realtime_Player_o *)0x0) {
+    if ((player->fields).IsLocal == false) {
+      if (Il2CppMethodInitialized_184346992 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+        il2cpp_codegen_initialize_runtime_metadata(&"28767500");
+        il2cpp_codegen_initialize_runtime_metadata(&"28767505");
+        Il2CppMethodInitialized_184346992 = '\x01';
+      }
+      local_res8[0] = (System_Collections_IEnumerable_o *)0x0;
+      if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
+      }
+      obj = PhotonExtensions__GetCustomProperty
+                      (player,TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,
+                       (MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar3 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354de8) {
+          pIVar3 = obj;
+        }
+        if (pIVar3 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
+            il2cpp_codegen_raise_invalid_cast_exception();
+          }
+          pcVar2 = il2cpp_object_unbox(obj);
+          if (*pcVar2 == '\0') {
+            return false;
+          }
+        }
+      }
+      bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,local_res8,(MethodInfo *)0x0);
+      if (bVar1) {
+        bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                          (local_res8[0],"28767500",(MethodInfo *)0x0);
+        if (!bVar1) {
+          bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                            (local_res8[0],"28767505",(MethodInfo *)0x0);
+          return bVar1;
+        }
+        return true;
       }
     }
-    return uVar2;
+    else {
+      if (Il2CppMethodInitialized_184346991 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+        Il2CppMethodInitialized_184346991 = '\x01';
+      }
+      local_res8[0] = (System_Collections_IEnumerable_o *)((ulonglong)local_res8[0] & 0xffffffffffffff00);
+      local_res20[0] = false;
+      local_res18[0] = false;
+      if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
+      }
+      bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
+      if (((bVar1) &&
+          (bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
+                             ((bool *)local_res8,local_res20,local_res18,(MethodInfo *)0x0), bVar1)) &&
+         ((char)local_res8[0] != '\0')) {
+        return local_res18[0] != false || local_res20[0] != false;
+      }
+    }
   }
-  bVar1 = PatreonEffects_PatreonHelper__RemotePlayerHasNameEffectAccess(player,method);
-  return bVar1;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$LocalPlayerHasCharacterEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__LocalPlayerHasCharacterEffectAccess (const MethodInfo* method);
-// 0x43312a0
+// 0x1820cd2a0
 
-bool_conflict PatreonEffects_PatreonHelper__LocalPlayerHasCharacterEffectAccess(MethodInfo *method)
+bool PatreonEffects_PatreonHelper__LocalPlayerHasCharacterEffectAccess(MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  MethodInfo *in_RCX;
-  uint uVar2;
-  char local_b;
-  char local_a;
-  undefined1 local_9;
+  bool bVar1;
+  bool local_res10 [8];
+  bool local_res18 [8];
+  bool local_res20 [8];
   
-  if (g_data_057ae07b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-    g_data_057ae07b = '\x01';
+  if (Il2CppMethodInitialized_184346993 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+    Il2CppMethodInitialized_184346993 = '\x01';
   }
-  local_a = '\0';
-  local_9 = 0;
-  local_b = '\0';
-  if (*(int *)(TypeInfo_AccountManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_res10[0] = false;
+  local_res20[0] = false;
+  local_res18[0] = false;
+  if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
   }
-  uVar2 = 0;
   bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
+  if (bVar1) {
     bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                      ((bool_conflict *)&local_a,(bool_conflict *)&local_9,(bool_conflict *)&local_b,in_RCX);
-    uVar2 = 0;
-    if ((local_a != '\0') && ((char)bVar1 != '\0')) {
-      uVar2 = (uint)(local_b != '\0');
+                      (local_res10,local_res20,local_res18,(MethodInfo *)0x0);
+    if ((bVar1) && (local_res10[0] != false)) {
+      return local_res18[0];
     }
   }
-  return uVar2;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$RemotePlayerHasCharacterEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__RemotePlayerHasCharacterEffectAccess (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x4331330
+// 0x1820cd3c0
 
-bool_conflict
-PatreonEffects_PatreonHelper__RemotePlayerHasCharacterEffectAccess
-          (Photon_Realtime_Player_o *player,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__RemotePlayerHasCharacterEffectAccess
+               (Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  Il2CppClass *extraout_RDX;
-  Il2CppClass *method_00;
-  MethodInfo *method_01;
-  undefined1 auVar3 [16];
-  System_Collections_IEnumerable_o *local_18;
+  bool bVar1;
+  Il2CppObject *obj;
+  char *pcVar2;
+  Il2CppObject *pIVar3;
+  System_Collections_IEnumerable_o *local_res8 [4];
   
-  if (g_data_057ae07c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerProperty);
-    il2cpp_runtime_helper_023445d0(&"28767505");
-    g_data_057ae07c = '\x01';
+  if (Il2CppMethodInitialized_184346994 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+    il2cpp_codegen_initialize_runtime_metadata(&"28767505");
+    Il2CppMethodInitialized_184346994 = '\x01';
   }
-  local_18 = (System_Collections_IEnumerable_o *)0x0;
+  local_res8[0] = (System_Collections_IEnumerable_o *)0x0;
   if (player != (Photon_Realtime_Player_o *)0x0) {
-    if (*(int *)(TypeInfo_PlayerProperty + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
     }
-    pIVar2 = PhotonExtensions__GetCustomProperty
-                       (player,*(System_String_o **)(*(long *)(TypeInfo_PlayerProperty + 0xb8) + 0xb8),(MethodInfo *)0x0)
-    ;
-    method_00 = extraout_RDX;
-    if ((pIVar2 != (Il2CppObject *)0x0) && (method_00 = pIVar2->klass, method_00 == g_data_057b9b98)) {
-      auVar3 = il2cpp_runtime_helper_02305440(pIVar2);
-      method_00 = auVar3._8_8_;
-      if (*auVar3._0_8_ == '\0') {
-        return 0;
+    obj = PhotonExtensions__GetCustomProperty
+                    (player,TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,
+                     (MethodInfo *)0x0);
+    if (obj != (Il2CppObject *)0x0) {
+      pIVar3 = (Il2CppObject *)0x0;
+      if (obj->klass == g_data_184354de8) {
+        pIVar3 = obj;
+      }
+      if (pIVar3 != (Il2CppObject *)0x0) {
+        if ((obj->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
+          il2cpp_codegen_raise_invalid_cast_exception();
+        }
+        pcVar2 = il2cpp_object_unbox(obj);
+        if (*pcVar2 == '\0') {
+          return false;
+        }
       }
     }
-    bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,&local_18,(MethodInfo *)method_00);
-    if ((char)bVar1 != '\0') {
-      bVar1 = PatreonEffects_PatreonHelper__HasTier_422fd10(local_18,"28767505",method_01);
+    bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,local_res8,(MethodInfo *)0x0);
+    if (bVar1) {
+      bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                        (local_res8[0],"28767505",(MethodInfo *)0x0);
       return bVar1;
     }
   }
-  return 0;
+  return false;
 }
 
 
 // PatreonEffects.PatreonHelper$$HasCharacterEffectAccess
 // il2cpp: bool PatreonEffects_PatreonHelper__HasCharacterEffectAccess (Photon_Realtime_Player_o* player, const MethodInfo* method);
-// 0x4331400
+// 0x1820cccf0
 
-bool_conflict
-PatreonEffects_PatreonHelper__HasCharacterEffectAccess(Photon_Realtime_Player_o *player,MethodInfo *method)
+bool PatreonEffects_PatreonHelper__HasCharacterEffectAccess
+               (Photon_Realtime_Player_o *player,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  MethodInfo *in_RCX;
-  uint uVar2;
-  char local_b;
-  char local_a;
-  undefined1 local_9;
+  bool bVar1;
+  Il2CppObject *obj;
+  char *pcVar2;
+  Il2CppObject *pIVar3;
+  System_Collections_IEnumerable_o *local_res8 [2];
+  bool local_res18 [8];
+  bool local_res20 [8];
   
-  if (player == (Photon_Realtime_Player_o *)0x0) {
-    return 0;
-  }
-  if ((char)(player->fields).IsLocal != '\0') {
-    if (g_data_057ae07b == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AccountManager);
-      g_data_057ae07b = '\x01';
-    }
-    local_a = '\0';
-    local_9 = 0;
-    local_b = '\0';
-    if (*(int *)(TypeInfo_AccountManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    uVar2 = 0;
-    bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
-                        ((bool_conflict *)&local_a,(bool_conflict *)&local_9,(bool_conflict *)&local_b,in_RCX)
-      ;
-      uVar2 = 0;
-      if ((local_a != '\0') && ((char)bVar1 != '\0')) {
-        uVar2 = (uint)(local_b != '\0');
+  if (player != (Photon_Realtime_Player_o *)0x0) {
+    if ((player->fields).IsLocal == false) {
+      if (Il2CppMethodInitialized_184346994 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerProperty);
+        il2cpp_codegen_initialize_runtime_metadata(&"28767505");
+        Il2CppMethodInitialized_184346994 = '\x01';
+      }
+      local_res8[0] = (System_Collections_IEnumerable_o *)0x0;
+      if ((TypeInfo_GameManagers_PlayerProperty->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_GameManagers_PlayerProperty);
+      }
+      obj = PhotonExtensions__GetCustomProperty
+                      (player,TypeInfo_GameManagers_PlayerProperty->static_fields->PatreonLinked,
+                       (MethodInfo *)0x0);
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar3 = (Il2CppObject *)0x0;
+        if (obj->klass == g_data_184354de8) {
+          pIVar3 = obj;
+        }
+        if (pIVar3 != (Il2CppObject *)0x0) {
+          if ((obj->klass->_1).element_class != (g_data_184354de8->_1).element_class) {
+            il2cpp_codegen_raise_invalid_cast_exception();
+          }
+          pcVar2 = il2cpp_object_unbox(obj);
+          if (*pcVar2 == '\0') {
+            return false;
+          }
+        }
+      }
+      bVar1 = PatreonEffects_PatreonHelper__TryGetRemoteTierIds(player,local_res8,(MethodInfo *)0x0);
+      if (bVar1) {
+        bVar1 = PatreonEffects_PatreonHelper__HasTier_20cd0c0
+                          (local_res8[0],"28767505",(MethodInfo *)0x0);
+        return bVar1;
       }
     }
-    return uVar2;
+    else {
+      if (Il2CppMethodInitialized_184346993 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_AccountManager);
+        Il2CppMethodInitialized_184346993 = '\x01';
+      }
+      local_res8[0] = (System_Collections_IEnumerable_o *)((ulonglong)local_res8[0] & 0xffffffffffffff00);
+      local_res20[0] = false;
+      local_res18[0] = false;
+      if ((TypeInfo_ApplicationManagers_AccountManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_AccountManager);
+      }
+      bVar1 = ApplicationManagers_AccountManager__get_IsLoggedIn((MethodInfo *)0x0);
+      if (((bVar1) &&
+          (bVar1 = PatreonEffects_PatreonHelper__TryGetLocalPatreonFlags
+                             ((bool *)local_res8,local_res20,local_res18,(MethodInfo *)0x0), bVar1)) &&
+         ((char)local_res8[0] != '\0')) {
+        return local_res18[0];
+      }
+    }
   }
-  bVar1 = PatreonEffects_PatreonHelper__RemotePlayerHasCharacterEffectAccess(player,method);
-  return bVar1;
+  return false;
 }
 
 

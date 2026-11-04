@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000384")]
+[Token(Token = "0x2000426")]
 public enum StyleKeyword
 {
-	[Token(Token = "0x4000A93")]
+	[Token(Token = "0x4000DE1")]
 	Undefined,
-	[Token(Token = "0x4000A94")]
+	[Token(Token = "0x4000DE2")]
 	Null,
-	[Token(Token = "0x4000A95")]
+	[Token(Token = "0x4000DE3")]
 	Auto,
-	[Token(Token = "0x4000A96")]
+	[Token(Token = "0x4000DE4")]
 	None,
-	[Token(Token = "0x4000A97")]
+	[Token(Token = "0x4000DE5")]
 	Initial
 }

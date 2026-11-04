@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200042D")]
+[Token(Token = "0x20004F6")]
 public class UxmlBoolAttributeDescription : TypedUxmlAttributeDescription<bool>
 {
-	[Token(Token = "0x6001ABF")]
-	[Address(RVA = "0x4F5EDB0", Offset = "0x4F5EDB0", VA = "0x4F5EDB0")]
+	[Token(Token = "0x600268A")]
+	[Address(RVA = "0x3156360", Offset = "0x3154960", VA = "0x183156360")]
 	public UxmlBoolAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AC0")]
-	[Address(RVA = "0x4F6AD70", Offset = "0x4F6AD70", VA = "0x4F6AD70", Slot = "4")]
+	[Token(Token = "0x600268B")]
+	[Address(RVA = "0x31561F0", Offset = "0x31547F0", VA = "0x1831561F0", Slot = "4")]
 	public override bool GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001AC1")]
-	[Address(RVA = "0x4F6AF40", Offset = "0x4F6AF40", VA = "0x4F6AF40")]
+	[Token(Token = "0x600268C")]
+	[Address(RVA = "0x3156190", Offset = "0x3154790", VA = "0x183156190")]
 	private static bool ConvertValueToBool(string v, bool defaultValue)
 	{
 		return default(bool);

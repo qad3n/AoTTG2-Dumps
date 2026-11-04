@@ -34,13 +34,13 @@ public class XmlRootAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D8C")]
-		[Address(RVA = "0x481E620", Offset = "0x481E620", VA = "0x481E620")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D8D")]
-		[Address(RVA = "0x481E650", Offset = "0x481E650", VA = "0x481E650")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
@@ -50,13 +50,13 @@ public class XmlRootAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D8E")]
-		[Address(RVA = "0x4819630", Offset = "0x4819630", VA = "0x4819630")]
+		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D8F")]
-		[Address(RVA = "0x481E660", Offset = "0x481E660", VA = "0x481E660")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
@@ -66,13 +66,13 @@ public class XmlRootAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D90")]
-		[Address(RVA = "0x481E670", Offset = "0x481E670", VA = "0x481E670")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000D91")]
-		[Address(RVA = "0x481E680", Offset = "0x481E680", VA = "0x481E680")]
+		[Address(RVA = "0x138BAA0", Offset = "0x138A0A0", VA = "0x18138BAA0")]
 		set
 		{
 		}
@@ -82,32 +82,32 @@ public class XmlRootAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D92")]
-		[Address(RVA = "0x481E690", Offset = "0x481E690", VA = "0x481E690")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D93")]
-		[Address(RVA = "0x481E6A0", Offset = "0x481E6A0", VA = "0x481E6A0")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000D8A")]
-	[Address(RVA = "0x481E5E0", Offset = "0x481E5E0", VA = "0x481E5E0")]
+	[Address(RVA = "0x27662C0", Offset = "0x27648C0", VA = "0x1827662C0")]
 	public XmlRootAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000D8B")]
-	[Address(RVA = "0x481E5F0", Offset = "0x481E5F0", VA = "0x481E5F0")]
+	[Address(RVA = "0x27662D0", Offset = "0x27648D0", VA = "0x1827662D0")]
 	public XmlRootAttribute(string elementName)
 	{
 	}
 
 	[Token(Token = "0x6000D94")]
-	[Address(RVA = "0x4813B80", Offset = "0x4813B80", VA = "0x4813B80")]
+	[Address(RVA = "0x2766200", Offset = "0x2764800", VA = "0x182766200")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

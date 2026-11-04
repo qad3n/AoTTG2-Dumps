@@ -11,90 +11,90 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000515")]
+[Token(Token = "0x200066F")]
 public class HumanSetupMaterials
 {
-	[Token(Token = "0x40017FB")]
+	[Token(Token = "0x4001E98")]
 	[FieldOffset(Offset = "0x0")]
 	public static Dictionary<string, Material> HairMaterials;
 
-	[Token(Token = "0x40017FC")]
+	[Token(Token = "0x4001E99")]
 	[FieldOffset(Offset = "0x8")]
 	public static Dictionary<string, Material> PartMaterials;
 
-	[Token(Token = "0x40017FD")]
+	[Token(Token = "0x4001E9A")]
 	[FieldOffset(Offset = "0x10")]
 	public static Dictionary<string, Material> FaceMaterials;
 
-	[Token(Token = "0x40017FE")]
+	[Token(Token = "0x4001E9B")]
 	[FieldOffset(Offset = "0x18")]
 	public static Dictionary<string, Material> TitanEyeMaterials;
 
-	[Token(Token = "0x40017FF")]
+	[Token(Token = "0x4001E9C")]
 	[FieldOffset(Offset = "0x20")]
 	public static string TexturePath;
 
-	[Token(Token = "0x4001800")]
+	[Token(Token = "0x4001E9D")]
 	[FieldOffset(Offset = "0x28")]
 	public static string MaterialPath;
 
-	[Token(Token = "0x6003583")]
-	[Address(RVA = "0x41E7710", Offset = "0x41E7710", VA = "0x41E7710")]
+	[Token(Token = "0x6003FC1")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6003584")]
-	[Address(RVA = "0x41EA130", Offset = "0x41EA130", VA = "0x41EA130")]
+	[Token(Token = "0x6003FC2")]
+	[Address(RVA = "0x216E480", Offset = "0x216CA80", VA = "0x18216E480")]
 	public static Material GetCostumeMaterial(string mainTexture, string maskTexture, string colorTexture, string pantsTexture, Color shirt, Color straps, Color pants, Color jacket, Color boots)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003585")]
-	[Address(RVA = "0x41EE120", Offset = "0x41EE120", VA = "0x41EE120")]
+	[Token(Token = "0x6003FC3")]
+	[Address(RVA = "0x216EED0", Offset = "0x216D4D0", VA = "0x18216EED0")]
 	public static Material GetPartMaterial(string texture, bool isOneSided = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003586")]
-	[Address(RVA = "0x41F18F0", Offset = "0x41F18F0", VA = "0x41F18F0")]
+	[Token(Token = "0x6003FC4")]
+	[Address(RVA = "0x216E8F0", Offset = "0x216CEF0", VA = "0x18216E8F0")]
 	public static Material GetCustomSkinMaterial()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003587")]
-	[Address(RVA = "0x41EFB70", Offset = "0x41EFB70", VA = "0x41EFB70")]
+	[Token(Token = "0x6003FC5")]
+	[Address(RVA = "0x216EC70", Offset = "0x216D270", VA = "0x18216EC70")]
 	public static Material GetHairMaterial(string texture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003588")]
-	[Address(RVA = "0x41F1480", Offset = "0x41F1480", VA = "0x41F1480")]
+	[Token(Token = "0x6003FC6")]
+	[Address(RVA = "0x216E9E0", Offset = "0x216CFE0", VA = "0x18216E9E0")]
 	public static Material GetFaceMaterial(string texture, bool untiled)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003589")]
-	[Address(RVA = "0x41F19E0", Offset = "0x41F19E0", VA = "0x41F19E0")]
+	[Token(Token = "0x6003FC7")]
+	[Address(RVA = "0x216F360", Offset = "0x216D960", VA = "0x18216F360")]
 	public static Material GetTitanEyeMaterial(string texture)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600358A")]
-	[Address(RVA = "0x41F05A0", Offset = "0x41F05A0", VA = "0x41F05A0")]
+	[Token(Token = "0x6003FC8")]
+	[Address(RVA = "0x216F1E0", Offset = "0x216D7E0", VA = "0x18216F1E0")]
 	public static Material GetSkinMaterial(string texture, Color color)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600358B")]
-	[Address(RVA = "0x41F1C50", Offset = "0x41F1C50", VA = "0x41F1C50")]
+	[Token(Token = "0x6003FC9")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public HumanSetupMaterials()
 	{
 	}

@@ -39,7 +39,7 @@ internal class HybridReferenceDictionary<TKey, TValue> where TKey : class
 		[Token(Token = "0x1700024B")]
 		private KeyValuePair<TKey, TValue> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ECollections_002EGeneric_002EKeyValuePair_003CTKey_002CTValue_003E_003E_002ECurrent
 		{
-			[Token(Token = "0x6000B40")]
+			[Token(Token = "0x6000B3F")]
 			[DebuggerHidden]
 			get
 			{
@@ -50,7 +50,7 @@ internal class HybridReferenceDictionary<TKey, TValue> where TKey : class
 		[Token(Token = "0x1700024C")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000B42")]
+			[Token(Token = "0x6000B41")]
 			[DebuggerHidden]
 			get
 			{
@@ -58,25 +58,25 @@ internal class HybridReferenceDictionary<TKey, TValue> where TKey : class
 			}
 		}
 
-		[Token(Token = "0x6000B3D")]
+		[Token(Token = "0x6000B3C")]
 		[DebuggerHidden]
 		public _003CGetEnumeratorWorker_003Ed__7(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000B3E")]
+		[Token(Token = "0x6000B3D")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000B3F")]
+		[Token(Token = "0x6000B3E")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000B41")]
+		[Token(Token = "0x6000B40")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -94,48 +94,48 @@ internal class HybridReferenceDictionary<TKey, TValue> where TKey : class
 	[Token(Token = "0x1700024A")]
 	public TValue this[TKey key]
 	{
-		[Token(Token = "0x6000B3A")]
+		[Token(Token = "0x6000B39")]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x6000B3B")]
+		[Token(Token = "0x6000B3A")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000B35")]
+	[Token(Token = "0x6000B34")]
 	public bool TryGetValue(TKey key, out TValue value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B36")]
+	[Token(Token = "0x6000B35")]
 	public void Remove(TKey key)
 	{
 	}
 
-	[Token(Token = "0x6000B37")]
+	[Token(Token = "0x6000B36")]
 	public bool ContainsKey(TKey key)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000B38")]
+	[Token(Token = "0x6000B37")]
 	public IEnumerator<KeyValuePair<TKey, TValue>> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B39")]
+	[Token(Token = "0x6000B38")]
 	[IteratorStateMachine(typeof(HybridReferenceDictionary<, >._003CGetEnumeratorWorker_003Ed__7))]
 	private IEnumerator<KeyValuePair<TKey, TValue>> GetEnumeratorWorker()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B3C")]
+	[Token(Token = "0x6000B3B")]
 	public HybridReferenceDictionary()
 	{
 	}

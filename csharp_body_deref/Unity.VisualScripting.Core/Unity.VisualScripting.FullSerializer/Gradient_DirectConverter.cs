@@ -12,38 +12,38 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001EF")]
+[Token(Token = "0x20001E1")]
 public class Gradient_DirectConverter : fsDirectConverter<Gradient>
 {
-	[Token(Token = "0x60011D2")]
-	[Address(RVA = "0x4D74720", Offset = "0x4D74720", VA = "0x4D74720", Slot = "10")]
+	[Token(Token = "0x6001184")]
+	[Address(RVA = "0x2E52EF0", Offset = "0x2E514F0", VA = "0x182E52EF0", Slot = "10")]
 	protected override fsResult DoSerialize(Gradient model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011D3")]
-	[Address(RVA = "0x4D74BE0", Offset = "0x4D74BE0", VA = "0x4D74BE0", Slot = "11")]
+	[Token(Token = "0x6001185")]
+	[Address(RVA = "0x2E52BE0", Offset = "0x2E511E0", VA = "0x182E52BE0", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Gradient model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011D4")]
-	[Address(RVA = "0x4D74A70", Offset = "0x4D74A70", VA = "0x4D74A70")]
+	[Token(Token = "0x6001186")]
+	[Address(RVA = "0x2E53150", Offset = "0x2E51750", VA = "0x182E53150")]
 	private static void LogWarning(string phase)
 	{
 	}
 
-	[Token(Token = "0x60011D5")]
-	[Address(RVA = "0x4D74FC0", Offset = "0x4D74FC0", VA = "0x4D74FC0", Slot = "4")]
+	[Token(Token = "0x6001187")]
+	[Address(RVA = "0x2E52B90", Offset = "0x2E51190", VA = "0x182E52B90", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011D6")]
-	[Address(RVA = "0x4D75000", Offset = "0x4D75000", VA = "0x4D75000")]
+	[Token(Token = "0x6001188")]
+	[Address(RVA = "0x2E532C0", Offset = "0x2E518C0", VA = "0x182E532C0")]
 	public Gradient_DirectConverter()
 	{
 	}

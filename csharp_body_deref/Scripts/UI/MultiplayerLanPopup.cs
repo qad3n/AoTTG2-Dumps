@@ -11,67 +11,67 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20006A0")]
+[Token(Token = "0x20007FB")]
 internal class MultiplayerLanPopup : PromptPopup
 {
-	[Token(Token = "0x17000CB3")]
+	[Token(Token = "0x17000DF9")]
 	protected override string Title
 	{
-		[Token(Token = "0x6004217")]
-		[Address(RVA = "0x430A100", Offset = "0x430A100", VA = "0x430A100", Slot = "35")]
+		[Token(Token = "0x6004D0B")]
+		[Address(RVA = "0x2291B90", Offset = "0x2290190", VA = "0x182291B90", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000CB4")]
+	[Token(Token = "0x17000DFA")]
 	protected override float Width
 	{
-		[Token(Token = "0x6004218")]
-		[Address(RVA = "0x430A130", Offset = "0x430A130", VA = "0x430A130", Slot = "5")]
+		[Token(Token = "0x6004D0C")]
+		[Address(RVA = "0x1DA8B00", Offset = "0x1DA7100", VA = "0x181DA8B00", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CB5")]
+	[Token(Token = "0x17000DFB")]
 	protected override float Height
 	{
-		[Token(Token = "0x6004219")]
-		[Address(RVA = "0x430A140", Offset = "0x430A140", VA = "0x430A140", Slot = "6")]
+		[Token(Token = "0x6004D0D")]
+		[Address(RVA = "0x2291B80", Offset = "0x2290180", VA = "0x182291B80", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000CB6")]
+	[Token(Token = "0x17000DFC")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x600421A")]
-		[Address(RVA = "0x430A150", Offset = "0x430A150", VA = "0x430A150", Slot = "12")]
+		[Token(Token = "0x6004D0E")]
+		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x600421B")]
-	[Address(RVA = "0x430A160", Offset = "0x430A160", VA = "0x430A160", Slot = "20")]
+	[Token(Token = "0x6004D0F")]
+	[Address(RVA = "0x22916E0", Offset = "0x228FCE0", VA = "0x1822916E0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600421C")]
-	[Address(RVA = "0x430A540", Offset = "0x430A540", VA = "0x430A540")]
+	[Token(Token = "0x6004D10")]
+	[Address(RVA = "0x22915F0", Offset = "0x228FBF0", VA = "0x1822915F0")]
 	protected void OnButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x600421D")]
-	[Address(RVA = "0x430A620", Offset = "0x430A620", VA = "0x430A620")]
+	[Token(Token = "0x6004D11")]
+	[Address(RVA = "0x1DD9CD0", Offset = "0x1DD82D0", VA = "0x181DD9CD0")]
 	public MultiplayerLanPopup()
 	{
 	}

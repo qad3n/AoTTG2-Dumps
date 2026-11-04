@@ -17,7 +17,7 @@ internal class Root : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001BC4")]
-		[Address(RVA = "0x4786D30", Offset = "0x4786D30", VA = "0x4786D30", Slot = "4")]
+		[Address(RVA = "0x868060", Offset = "0x866660", VA = "0x180868060", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -28,7 +28,7 @@ internal class Root : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001BC5")]
-		[Address(RVA = "0x4786D40", Offset = "0x4786D40", VA = "0x4786D40", Slot = "5")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -36,7 +36,7 @@ internal class Root : AstNode
 	}
 
 	[Token(Token = "0x6001BC3")]
-	[Address(RVA = "0x4786D20", Offset = "0x4786D20", VA = "0x4786D20")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public Root()
 	{
 	}

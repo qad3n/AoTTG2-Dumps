@@ -9,110 +9,110 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000BE")]
+[Token(Token = "0x20000DC")]
 internal class SetSettingsContainer<T> : BaseSettingsContainer, ISetSettingsContainer where T : BaseSetSetting, new()
 {
-	[Token(Token = "0x4000497")]
+	[Token(Token = "0x4000522")]
 	[FieldOffset(Offset = "0x0")]
 	public IntSetting SelectedSetIndex;
 
-	[Token(Token = "0x4000498")]
+	[Token(Token = "0x4000523")]
 	[FieldOffset(Offset = "0x0")]
 	public ListSetting<T> Sets;
 
-	[Token(Token = "0x1700009E")]
+	[Token(Token = "0x170000AD")]
 	protected virtual bool PresetsOnly
 	{
-		[Token(Token = "0x60003E3")]
+		[Token(Token = "0x6000471")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700009F")]
+	[Token(Token = "0x170000AE")]
 	protected virtual bool AllowPresets
 	{
-		[Token(Token = "0x60003E4")]
+		[Token(Token = "0x6000472")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60003E5")]
+	[Token(Token = "0x6000473")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003E6")]
+	[Token(Token = "0x6000474")]
 	public override void Apply()
 	{
 	}
 
-	[Token(Token = "0x60003E7")]
+	[Token(Token = "0x6000475")]
 	private void MigrateUniqueIds()
 	{
 	}
 
-	[Token(Token = "0x60003E8")]
+	[Token(Token = "0x6000476")]
 	public BaseSetSetting GetSelectedSet()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003E9")]
+	[Token(Token = "0x6000477")]
 	public IntSetting GetSelectedSetIndex()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003EA")]
+	[Token(Token = "0x6000478")]
 	public void CreateSet(string name)
 	{
 	}
 
-	[Token(Token = "0x60003EB")]
+	[Token(Token = "0x6000479")]
 	public void CopySelectedSet(string name)
 	{
 	}
 
-	[Token(Token = "0x60003EC")]
+	[Token(Token = "0x600047A")]
 	public bool CanDeleteSelectedSet()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003ED")]
+	[Token(Token = "0x600047B")]
 	public bool CanEditSelectedSet()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60003EE")]
+	[Token(Token = "0x600047C")]
 	public void DeleteSelectedSet()
 	{
 	}
 
-	[Token(Token = "0x60003EF")]
+	[Token(Token = "0x600047D")]
 	public IListSetting GetSets()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003F0")]
+	[Token(Token = "0x600047E")]
 	public void SetPresetsFromJsonString(string json)
 	{
 	}
 
-	[Token(Token = "0x60003F1")]
+	[Token(Token = "0x600047F")]
 	public string[] GetSetNames()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003F2")]
+	[Token(Token = "0x6000480")]
 	public SetSettingsContainer()
 	{
 	}

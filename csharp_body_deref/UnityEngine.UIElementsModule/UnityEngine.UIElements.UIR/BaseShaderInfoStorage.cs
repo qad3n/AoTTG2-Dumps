@@ -12,73 +12,73 @@ using Unity.Profiling;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004C8")]
+[Token(Token = "0x20005D0")]
 internal abstract class BaseShaderInfoStorage : IDisposable
 {
-	[Token(Token = "0x4000F70")]
+	[Token(Token = "0x4001586")]
 	[FieldOffset(Offset = "0x0")]
 	protected static int s_TextureCounter;
 
-	[Token(Token = "0x4000F71")]
+	[Token(Token = "0x4001587")]
 	[FieldOffset(Offset = "0x8")]
 	internal static ProfilerMarker s_MarkerCopyTexture;
 
-	[Token(Token = "0x4000F72")]
+	[Token(Token = "0x4001588")]
 	[FieldOffset(Offset = "0x10")]
 	internal static ProfilerMarker s_MarkerGetTextureData;
 
-	[Token(Token = "0x4000F73")]
+	[Token(Token = "0x4001589")]
 	[FieldOffset(Offset = "0x18")]
 	internal static ProfilerMarker s_MarkerUpdateTexture;
 
-	[Token(Token = "0x17000787")]
+	[Token(Token = "0x17000AA1")]
 	public abstract Texture2D texture
 	{
-		[Token(Token = "0x6001DAF")]
+		[Token(Token = "0x6002B35")]
 		get;
 	}
 
-	[Token(Token = "0x17000788")]
+	[Token(Token = "0x17000AA2")]
 	protected bool disposed
 	{
-		[Token(Token = "0x6001DB3")]
-		[Address(RVA = "0x4FA6070", Offset = "0x4FA6070", VA = "0x4FA6070")]
+		[Token(Token = "0x6002B39")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6001DB4")]
-		[Address(RVA = "0x4FA6080", Offset = "0x4FA6080", VA = "0x4FA6080")]
+		[Token(Token = "0x6002B3A")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001DB0")]
+	[Token(Token = "0x6002B36")]
 	public abstract bool AllocateRect(int width, int height, out RectInt uvs);
 
-	[Token(Token = "0x6001DB1")]
+	[Token(Token = "0x6002B37")]
 	public abstract void SetTexel(int x, int y, Color color);
 
-	[Token(Token = "0x6001DB2")]
+	[Token(Token = "0x6002B38")]
 	public abstract void UpdateTexture();
 
-	[Token(Token = "0x6001DB5")]
-	[Address(RVA = "0x4FA6090", Offset = "0x4FA6090", VA = "0x4FA6090", Slot = "4")]
+	[Token(Token = "0x6002B3B")]
+	[Address(RVA = "0x31A2350", Offset = "0x31A0950", VA = "0x1831A2350", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6001DB6")]
-	[Address(RVA = "0x4FA6100", Offset = "0x4FA6100", VA = "0x4FA6100", Slot = "9")]
+	[Token(Token = "0x6002B3C")]
+	[Address(RVA = "0x19B9B70", Offset = "0x19B8170", VA = "0x1819B9B70", Slot = "9")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6001DB7")]
-	[Address(RVA = "0x4FA6110", Offset = "0x4FA6110", VA = "0x4FA6110")]
+	[Token(Token = "0x6002B3D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected BaseShaderInfoStorage()
 	{
 	}

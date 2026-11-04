@@ -17,64 +17,64 @@ using UnityEngine;
 
 namespace Utility;
 
-[Token(Token = "0x200071F")]
+[Token(Token = "0x20008AA")]
 public static class CharacterPreviewGenerator
 {
-	[Token(Token = "0x2000720")]
+	[Token(Token = "0x20008AB")]
 	private class PreviewCameraData
 	{
-		[Token(Token = "0x4002256")]
+		[Token(Token = "0x4002B19")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		public Camera Camera;
 
-		[Token(Token = "0x4002257")]
+		[Token(Token = "0x4002B1A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public RenderTexture RenderTexture;
 
-		[Token(Token = "0x4002258")]
+		[Token(Token = "0x4002B1B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public bool IsInitialized;
 
-		[Token(Token = "0x4002259")]
+		[Token(Token = "0x4002B1C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x21")]
 		public bool IsCleanedUp;
 
-		[Token(Token = "0x6004658")]
-		[Address(RVA = "0x4385AD0", Offset = "0x4385AD0", VA = "0x4385AD0")]
+		[Token(Token = "0x60052D1")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public PreviewCameraData()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000721")]
+	[Token(Token = "0x20008AC")]
 	[CompilerGenerated]
 	private sealed class _003CDebouncedPreviewCoroutine_003Ed__24 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400225A")]
+		[Token(Token = "0x4002B1D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x400225B")]
+		[Token(Token = "0x4002B1E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x400225C")]
+		[Token(Token = "0x4002B1F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public float delaySeconds;
 
-		[Token(Token = "0x400225D")]
+		[Token(Token = "0x4002B20")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public Action generateAction;
 
-		[Token(Token = "0x400225E")]
+		[Token(Token = "0x4002B21")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string debounceKey;
 
-		[Token(Token = "0x17000DA8")]
+		[Token(Token = "0x17000F11")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600465C")]
-			[Address(RVA = "0x4388710", Offset = "0x4388710", VA = "0x4388710", Slot = "4")]
+			[Token(Token = "0x60052D5")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -82,11 +82,11 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x17000DA9")]
+		[Token(Token = "0x17000F12")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600465E")]
-			[Address(RVA = "0x4388760", Offset = "0x4388760", VA = "0x4388760", Slot = "7")]
+			[Token(Token = "0x60052D7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -94,60 +94,60 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x6004659")]
-		[Address(RVA = "0x4387FF0", Offset = "0x4387FF0", VA = "0x4387FF0")]
+		[Token(Token = "0x60052D2")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CDebouncedPreviewCoroutine_003Ed__24(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600465A")]
-		[Address(RVA = "0x43885A0", Offset = "0x43885A0", VA = "0x43885A0", Slot = "5")]
+		[Token(Token = "0x60052D3")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600465B")]
-		[Address(RVA = "0x43885B0", Offset = "0x43885B0", VA = "0x43885B0", Slot = "6")]
+		[Token(Token = "0x60052D4")]
+		[Address(RVA = "0x233F8A0", Offset = "0x233DEA0", VA = "0x18233F8A0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600465D")]
-		[Address(RVA = "0x4388720", Offset = "0x4388720", VA = "0x4388720", Slot = "8")]
+		[Token(Token = "0x60052D6")]
+		[Address(RVA = "0x233FA10", Offset = "0x233E010", VA = "0x18233FA10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000722")]
+	[Token(Token = "0x20008AD")]
 	[CompilerGenerated]
 	private sealed class _003CGeneratePreviewForHumanSetCoroutine_003Ed__21 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x400225F")]
+		[Token(Token = "0x4002B22")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002260")]
+		[Token(Token = "0x4002B23")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002261")]
+		[Token(Token = "0x4002B24")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public CharacterEditorHumanMenu humanMenu;
 
-		[Token(Token = "0x4002262")]
+		[Token(Token = "0x4002B25")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public bool isRebuild;
 
-		[Token(Token = "0x17000DAA")]
+		[Token(Token = "0x17000F13")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004662")]
-			[Address(RVA = "0x4388850", Offset = "0x4388850", VA = "0x4388850", Slot = "4")]
+			[Token(Token = "0x60052DB")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -155,11 +155,11 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x17000DAB")]
+		[Token(Token = "0x17000F14")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004664")]
-			[Address(RVA = "0x43888A0", Offset = "0x43888A0", VA = "0x43888A0", Slot = "7")]
+			[Token(Token = "0x60052DD")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -167,60 +167,60 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x600465F")]
-		[Address(RVA = "0x4387C40", Offset = "0x4387C40", VA = "0x4387C40")]
+		[Token(Token = "0x60052D8")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CGeneratePreviewForHumanSetCoroutine_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004660")]
-		[Address(RVA = "0x4388770", Offset = "0x4388770", VA = "0x4388770", Slot = "5")]
+		[Token(Token = "0x60052D9")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004661")]
-		[Address(RVA = "0x4388780", Offset = "0x4388780", VA = "0x4388780", Slot = "6")]
+		[Token(Token = "0x60052DA")]
+		[Address(RVA = "0x233FD00", Offset = "0x233E300", VA = "0x18233FD00", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004663")]
-		[Address(RVA = "0x4388860", Offset = "0x4388860", VA = "0x4388860", Slot = "8")]
+		[Token(Token = "0x60052DC")]
+		[Address(RVA = "0x233FE10", Offset = "0x233E410", VA = "0x18233FE10", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000723")]
+	[Token(Token = "0x20008AE")]
 	[CompilerGenerated]
 	private sealed class _003CGeneratePreviewForTitanSetCoroutine_003Ed__22 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002263")]
+		[Token(Token = "0x4002B26")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002264")]
+		[Token(Token = "0x4002B27")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002265")]
+		[Token(Token = "0x4002B28")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public CharacterEditorTitanMenu titanMenu;
 
-		[Token(Token = "0x4002266")]
+		[Token(Token = "0x4002B29")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public bool isRebuild;
 
-		[Token(Token = "0x17000DAC")]
+		[Token(Token = "0x17000F15")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6004668")]
-			[Address(RVA = "0x4388990", Offset = "0x4388990", VA = "0x4388990", Slot = "4")]
+			[Token(Token = "0x60052E1")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -228,11 +228,11 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x17000DAD")]
+		[Token(Token = "0x17000F16")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600466A")]
-			[Address(RVA = "0x43889E0", Offset = "0x43889E0", VA = "0x43889E0", Slot = "7")]
+			[Token(Token = "0x60052E3")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -240,76 +240,76 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x6004665")]
-		[Address(RVA = "0x4387CE0", Offset = "0x4387CE0", VA = "0x4387CE0")]
+		[Token(Token = "0x60052DE")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CGeneratePreviewForTitanSetCoroutine_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6004666")]
-		[Address(RVA = "0x43888B0", Offset = "0x43888B0", VA = "0x43888B0", Slot = "5")]
+		[Token(Token = "0x60052DF")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6004667")]
-		[Address(RVA = "0x43888C0", Offset = "0x43888C0", VA = "0x43888C0", Slot = "6")]
+		[Token(Token = "0x60052E0")]
+		[Address(RVA = "0x233FE50", Offset = "0x233E450", VA = "0x18233FE50", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6004669")]
-		[Address(RVA = "0x43889A0", Offset = "0x43889A0", VA = "0x43889A0", Slot = "8")]
+		[Token(Token = "0x60052E2")]
+		[Address(RVA = "0x233FF60", Offset = "0x233E560", VA = "0x18233FF60", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000724")]
+	[Token(Token = "0x20008AF")]
 	[CompilerGenerated]
 	private sealed class _003CGeneratePreviewWithPersistentCameraCoroutine_003Ed__26 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4002267")]
+		[Token(Token = "0x4002B2A")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4002268")]
+		[Token(Token = "0x4002B2B")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4002269")]
+		[Token(Token = "0x4002B2C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public string cameraId;
 
-		[Token(Token = "0x400226A")]
+		[Token(Token = "0x4002B2D")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 		public GameObject character;
 
-		[Token(Token = "0x400226B")]
+		[Token(Token = "0x4002B2E")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 		public string fileName;
 
-		[Token(Token = "0x400226C")]
+		[Token(Token = "0x4002B2F")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 		public int size;
 
-		[Token(Token = "0x400226D")]
+		[Token(Token = "0x4002B30")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x3C")]
 		public bool isHuman;
 
-		[Token(Token = "0x400226E")]
+		[Token(Token = "0x4002B31")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 		public Transform cameraParent;
 
-		[Token(Token = "0x17000DAE")]
+		[Token(Token = "0x17000F17")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600466E")]
-			[Address(RVA = "0x4388AF0", Offset = "0x4388AF0", VA = "0x4388AF0", Slot = "4")]
+			[Token(Token = "0x60052E7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -317,11 +317,11 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x17000DAF")]
+		[Token(Token = "0x17000F18")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6004670")]
-			[Address(RVA = "0x4388B40", Offset = "0x4388B40", VA = "0x4388B40", Slot = "7")]
+			[Token(Token = "0x60052E9")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -329,187 +329,187 @@ public static class CharacterPreviewGenerator
 			}
 		}
 
-		[Token(Token = "0x600466B")]
-		[Address(RVA = "0x4388400", Offset = "0x4388400", VA = "0x4388400")]
+		[Token(Token = "0x60052E4")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CGeneratePreviewWithPersistentCameraCoroutine_003Ed__26(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600466C")]
-		[Address(RVA = "0x43889F0", Offset = "0x43889F0", VA = "0x43889F0", Slot = "5")]
+		[Token(Token = "0x60052E5")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600466D")]
-		[Address(RVA = "0x4388A00", Offset = "0x4388A00", VA = "0x4388A00", Slot = "6")]
+		[Token(Token = "0x60052E6")]
+		[Address(RVA = "0x233FFA0", Offset = "0x233E5A0", VA = "0x18233FFA0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600466F")]
-		[Address(RVA = "0x4388B00", Offset = "0x4388B00", VA = "0x4388B00", Slot = "8")]
+		[Token(Token = "0x60052E8")]
+		[Address(RVA = "0x2340100", Offset = "0x233E700", VA = "0x182340100", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4002252")]
+	[Token(Token = "0x4002B15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly HashSet<string> _currentlyGenerating;
 
-	[Token(Token = "0x4002253")]
+	[Token(Token = "0x4002B16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static Dictionary<string, PreviewCameraData> _persistentCameras;
 
-	[Token(Token = "0x4002254")]
+	[Token(Token = "0x4002B17")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private static Dictionary<string, Coroutine> _activeDebounceCoroutines;
 
-	[Token(Token = "0x4002255")]
+	[Token(Token = "0x4002B18")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private static HashSet<string> _generatedPreviewKeys;
 
-	[Token(Token = "0x6004641")]
-	[Address(RVA = "0x43846D0", Offset = "0x43846D0", VA = "0x43846D0")]
+	[Token(Token = "0x60052BA")]
+	[Address(RVA = "0x232FCF0", Offset = "0x232E2F0", VA = "0x18232FCF0")]
 	public static void CleanupOrphanedPreviews()
 	{
 	}
 
-	[Token(Token = "0x6004642")]
-	[Address(RVA = "0x4384720", Offset = "0x4384720", VA = "0x4384720")]
+	[Token(Token = "0x60052BB")]
+	[Address(RVA = "0x232F750", Offset = "0x232DD50", VA = "0x18232F750")]
 	private static void CleanupOrphanedPreviewsInFolder(bool isHuman)
 	{
 	}
 
-	[Token(Token = "0x6004643")]
-	[Address(RVA = "0x4385000", Offset = "0x4385000", VA = "0x4385000")]
+	[Token(Token = "0x60052BC")]
+	[Address(RVA = "0x2331EA0", Offset = "0x23304A0", VA = "0x182331EA0")]
 	public static void SetLayerRecursively(GameObject obj, int newLayer)
 	{
 	}
 
-	[Token(Token = "0x6004644")]
-	[Address(RVA = "0x43853A0", Offset = "0x43853A0", VA = "0x43853A0")]
+	[Token(Token = "0x60052BD")]
+	[Address(RVA = "0x2331160", Offset = "0x232F760", VA = "0x182331160")]
 	private static PreviewCameraData GetOrCreatePersistentCamera(string cameraId, [Optional] Transform parent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004645")]
-	[Address(RVA = "0x4385AE0", Offset = "0x4385AE0", VA = "0x4385AE0")]
+	[Token(Token = "0x60052BE")]
+	[Address(RVA = "0x2331950", Offset = "0x232FF50", VA = "0x182331950")]
 	private static void PositionCameraForCharacter(Camera camera, GameObject character, bool isHuman = true)
 	{
 	}
 
-	[Token(Token = "0x6004646")]
-	[Address(RVA = "0x4385C00", Offset = "0x4385C00", VA = "0x4385C00")]
+	[Token(Token = "0x60052BF")]
+	[Address(RVA = "0x232EF90", Offset = "0x232D590", VA = "0x18232EF90")]
 	private static Texture2D CapturePreviewWithCamera(PreviewCameraData cameraData, GameObject character, int size = 128, bool isHuman = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004647")]
-	[Address(RVA = "0x4386170", Offset = "0x4386170", VA = "0x4386170")]
+	[Token(Token = "0x60052C0")]
+	[Address(RVA = "0x232FD40", Offset = "0x232E340", VA = "0x18232FD40")]
 	public static void CleanupPersistentCamera(string cameraId)
 	{
 	}
 
-	[Token(Token = "0x6004648")]
-	[Address(RVA = "0x43863C0", Offset = "0x43863C0", VA = "0x43863C0")]
+	[Token(Token = "0x60052C1")]
+	[Address(RVA = "0x232F5A0", Offset = "0x232DBA0", VA = "0x18232F5A0")]
 	public static void CleanupAllPersistentCameras()
 	{
 	}
 
-	[Token(Token = "0x6004649")]
-	[Address(RVA = "0x43865B0", Offset = "0x43865B0", VA = "0x43865B0")]
+	[Token(Token = "0x60052C2")]
+	[Address(RVA = "0x2330D20", Offset = "0x232F320", VA = "0x182330D20")]
 	public static void GeneratePreviewWithPersistentCamera(string cameraId, GameObject character, string fileName, [Optional][DefaultParameterValue(128)] int size, [Optional][DefaultParameterValue(true)] bool isHuman, [Optional] Transform cameraParent)
 	{
 	}
 
-	[Token(Token = "0x600464A")]
-	[Address(RVA = "0x4386AB0", Offset = "0x4386AB0", VA = "0x4386AB0")]
+	[Token(Token = "0x60052C3")]
+	[Address(RVA = "0x2331AB0", Offset = "0x23300B0", VA = "0x182331AB0")]
 	public static void SaveCachedPreviewsToDisk()
 	{
 	}
 
-	[Token(Token = "0x600464B")]
-	[Address(RVA = "0x4387080", Offset = "0x4387080", VA = "0x4387080")]
+	[Token(Token = "0x60052C4")]
+	[Address(RVA = "0x232FFC0", Offset = "0x232E5C0", VA = "0x18232FFC0")]
 	public static void ClearSessionGeneratedPreviews()
 	{
 	}
 
-	[Token(Token = "0x600464C")]
-	[Address(RVA = "0x4387340", Offset = "0x4387340", VA = "0x4387340")]
+	[Token(Token = "0x60052C5")]
+	[Address(RVA = "0x232FF80", Offset = "0x232E580", VA = "0x18232FF80")]
 	public static void ClearNonPersistentPreviews()
 	{
 	}
 
-	[Token(Token = "0x600464D")]
-	[Address(RVA = "0x43873A0", Offset = "0x43873A0", VA = "0x43873A0")]
+	[Token(Token = "0x60052C6")]
+	[Address(RVA = "0x2331100", Offset = "0x232F700", VA = "0x182331100")]
 	public static void GetCacheInfo(out int totalCached, out int persistent)
 	{
 	}
 
-	[Token(Token = "0x600464E")]
-	[Address(RVA = "0x4387400", Offset = "0x4387400", VA = "0x4387400")]
+	[Token(Token = "0x60052C7")]
+	[Address(RVA = "0x232EBE0", Offset = "0x232D1E0", VA = "0x18232EBE0")]
 	public static void CaptureCurrentCharacterPreview(bool isHuman = true)
 	{
 	}
 
-	[Token(Token = "0x600464F")]
-	[Address(RVA = "0x43877A0", Offset = "0x43877A0", VA = "0x43877A0")]
+	[Token(Token = "0x60052C8")]
+	[Address(RVA = "0x23318D0", Offset = "0x232FED0", VA = "0x1823318D0")]
 	public static void InitializePreviewSystem()
 	{
 	}
 
-	[Token(Token = "0x6004650")]
-	[Address(RVA = "0x4387840", Offset = "0x4387840", VA = "0x4387840")]
+	[Token(Token = "0x60052C9")]
+	[Address(RVA = "0x2330310", Offset = "0x232E910", VA = "0x182330310")]
 	internal static void GeneratePreviewForHumanSet(CharacterEditorHumanMenu humanMenu, bool isRebuild = false)
 	{
 	}
 
-	[Token(Token = "0x6004651")]
-	[Address(RVA = "0x4387BC0", Offset = "0x4387BC0", VA = "0x4387BC0")]
+	[Token(Token = "0x60052CA")]
+	[Address(RVA = "0x2330290", Offset = "0x232E890", VA = "0x182330290")]
 	[IteratorStateMachine(typeof(_003CGeneratePreviewForHumanSetCoroutine_003Ed__21))]
 	internal static IEnumerator GeneratePreviewForHumanSetCoroutine(CharacterEditorHumanMenu humanMenu, bool isRebuild = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004652")]
-	[Address(RVA = "0x4387C60", Offset = "0x4387C60", VA = "0x4387C60")]
+	[Token(Token = "0x60052CB")]
+	[Address(RVA = "0x2330690", Offset = "0x232EC90", VA = "0x182330690")]
 	[IteratorStateMachine(typeof(_003CGeneratePreviewForTitanSetCoroutine_003Ed__22))]
 	internal static IEnumerator GeneratePreviewForTitanSetCoroutine(CharacterEditorTitanMenu titanMenu, bool isRebuild = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004653")]
-	[Address(RVA = "0x4387D00", Offset = "0x4387D00", VA = "0x4387D00")]
+	[Token(Token = "0x60052CC")]
+	[Address(RVA = "0x2330A30", Offset = "0x232F030", VA = "0x182330A30")]
 	public static void GeneratePreviewWithDebounce(MonoBehaviour coroutineRunner, string debounceKey, Action generateAction, float delaySeconds = 0.1f)
 	{
 	}
 
-	[Token(Token = "0x6004654")]
-	[Address(RVA = "0x4387F50", Offset = "0x4387F50", VA = "0x4387F50")]
+	[Token(Token = "0x60052CD")]
+	[Address(RVA = "0x23301F0", Offset = "0x232E7F0", VA = "0x1823301F0")]
 	[IteratorStateMachine(typeof(_003CDebouncedPreviewCoroutine_003Ed__24))]
 	private static IEnumerator DebouncedPreviewCoroutine(string debounceKey, Action generateAction, float delaySeconds)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004655")]
-	[Address(RVA = "0x4388010", Offset = "0x4388010", VA = "0x4388010")]
+	[Token(Token = "0x60052CE")]
+	[Address(RVA = "0x2330710", Offset = "0x232ED10", VA = "0x182330710")]
 	internal static void GeneratePreviewForTitanSet(CharacterEditorTitanMenu titanMenu, bool isRebuild = false)
 	{
 	}
 
-	[Token(Token = "0x6004656")]
-	[Address(RVA = "0x4388330", Offset = "0x4388330", VA = "0x4388330")]
+	[Token(Token = "0x60052CF")]
+	[Address(RVA = "0x2330C70", Offset = "0x232F270", VA = "0x182330C70")]
 	[IteratorStateMachine(typeof(_003CGeneratePreviewWithPersistentCameraCoroutine_003Ed__26))]
 	public static IEnumerator GeneratePreviewWithPersistentCameraCoroutine(string cameraId, GameObject character, string fileName, [Optional][DefaultParameterValue(128)] int size, [Optional][DefaultParameterValue(true)] bool isHuman, [Optional] Transform cameraParent)
 	{

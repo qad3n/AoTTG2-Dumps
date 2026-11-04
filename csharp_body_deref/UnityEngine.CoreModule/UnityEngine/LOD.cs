@@ -10,24 +10,24 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000FA")]
+[Token(Token = "0x200011E")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct LOD
 {
-	[Token(Token = "0x400033D")]
+	[Token(Token = "0x4000391")]
 	[FieldOffset(Offset = "0x0")]
 	public float screenRelativeTransitionHeight;
 
-	[Token(Token = "0x400033E")]
+	[Token(Token = "0x4000392")]
 	[FieldOffset(Offset = "0x4")]
 	public float fadeTransitionWidth;
 
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x4000393")]
 	[FieldOffset(Offset = "0x8")]
 	public Renderer[] renderers;
 
-	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x4DD0770", Offset = "0x4DD0770", VA = "0x4DD0770")]
+	[Token(Token = "0x600073D")]
+	[Address(RVA = "0x2EDBC20", Offset = "0x2EDA220", VA = "0x182EDBC20")]
 	public LOD(float screenRelativeTransitionHeight, Renderer[] renderers)
 	{
 	}

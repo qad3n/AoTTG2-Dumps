@@ -13,113 +13,113 @@ using UnityEngine;
 
 namespace UI;
 
-[Token(Token = "0x20006E0")]
+[Token(Token = "0x200085E")]
 internal class MapEditorWeatherPopup : BasePopup
 {
-	[Token(Token = "0x400217D")]
+	[Token(Token = "0x4002A02")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private BoolSetting _hasWeather;
 
-	[Token(Token = "0x400217E")]
+	[Token(Token = "0x4002A03")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private ToggleSettingElement _hasWeatherElement;
 
-	[Token(Token = "0x400217F")]
+	[Token(Token = "0x4002A04")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	protected List<GameObject> _elements;
 
-	[Token(Token = "0x17000D65")]
+	[Token(Token = "0x17000EC5")]
 	protected override string Title
 	{
-		[Token(Token = "0x60044A5")]
-		[Address(RVA = "0x433E9D0", Offset = "0x433E9D0", VA = "0x433E9D0", Slot = "35")]
+		[Token(Token = "0x60050D1")]
+		[Address(RVA = "0x22DE850", Offset = "0x22DCE50", VA = "0x1822DE850", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000D66")]
+	[Token(Token = "0x17000EC6")]
 	protected override float Width
 	{
-		[Token(Token = "0x60044A6")]
-		[Address(RVA = "0x433EA00", Offset = "0x433EA00", VA = "0x433EA00", Slot = "5")]
+		[Token(Token = "0x60050D2")]
+		[Address(RVA = "0x22D3970", Offset = "0x22D1F70", VA = "0x1822D3970", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D67")]
+	[Token(Token = "0x17000EC7")]
 	protected override float Height
 	{
-		[Token(Token = "0x60044A7")]
-		[Address(RVA = "0x433EA10", Offset = "0x433EA10", VA = "0x433EA10", Slot = "6")]
+		[Token(Token = "0x60050D3")]
+		[Address(RVA = "0x228D430", Offset = "0x228BA30", VA = "0x18228D430", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000D68")]
+	[Token(Token = "0x17000EC8")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x60044A8")]
-		[Address(RVA = "0x433EA20", Offset = "0x433EA20", VA = "0x433EA20", Slot = "13")]
+		[Token(Token = "0x60050D4")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D69")]
+	[Token(Token = "0x17000EC9")]
 	protected override bool DoublePanelDivider
 	{
-		[Token(Token = "0x60044A9")]
-		[Address(RVA = "0x433EA30", Offset = "0x433EA30", VA = "0x433EA30", Slot = "14")]
+		[Token(Token = "0x60050D5")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000D6A")]
+	[Token(Token = "0x17000ECA")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x60044AA")]
-		[Address(RVA = "0x433EA40", Offset = "0x433EA40", VA = "0x433EA40", Slot = "15")]
+		[Token(Token = "0x60050D6")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60044AB")]
-	[Address(RVA = "0x433EA50", Offset = "0x433EA50", VA = "0x433EA50", Slot = "20")]
+	[Token(Token = "0x60050D7")]
+	[Address(RVA = "0x22DCD70", Offset = "0x22DB370", VA = "0x1822DCD70", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044AC")]
-	[Address(RVA = "0x433F040", Offset = "0x433F040", VA = "0x433F040", Slot = "21")]
+	[Token(Token = "0x60050D8")]
+	[Address(RVA = "0x22DD170", Offset = "0x22DB770", VA = "0x1822DD170", Slot = "21")]
 	public override void Show()
 	{
 	}
 
-	[Token(Token = "0x60044AD")]
-	[Address(RVA = "0x43405C0", Offset = "0x43405C0", VA = "0x43405C0")]
+	[Token(Token = "0x60050D9")]
+	[Address(RVA = "0x22DC4B0", Offset = "0x22DAAB0", VA = "0x1822DC4B0")]
 	private void OnWeatherButtonClick(string name)
 	{
 	}
 
-	[Token(Token = "0x60044AE")]
-	[Address(RVA = "0x4340B80", Offset = "0x4340B80", VA = "0x4340B80")]
+	[Token(Token = "0x60050DA")]
+	[Address(RVA = "0x22DCA30", Offset = "0x22DB030", VA = "0x1822DCA30")]
 	private void OnWeatherSetOperationFinish(string name)
 	{
 	}
 
-	[Token(Token = "0x60044AF")]
-	[Address(RVA = "0x4340FB0", Offset = "0x4340FB0", VA = "0x4340FB0")]
+	[Token(Token = "0x60050DB")]
+	[Address(RVA = "0x22DE790", Offset = "0x22DCD90", VA = "0x1822DE790")]
 	public MapEditorWeatherPopup()
 	{
 	}

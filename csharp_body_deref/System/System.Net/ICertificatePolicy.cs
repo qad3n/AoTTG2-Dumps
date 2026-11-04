@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200013E")]
+[Token(Token = "0x20002C6")]
 public interface ICertificatePolicy
 {
-	[Token(Token = "0x60007C5")]
+	[Token(Token = "0x6001384")]
 	bool CheckValidationResult(ServicePoint srvPoint, X509Certificate certificate, WebRequest request, int certificateProblem);
 }

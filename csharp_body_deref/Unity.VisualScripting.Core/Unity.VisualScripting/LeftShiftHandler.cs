@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200011D")]
 public class LeftShiftHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000A20")]
-	[Address(RVA = "0x4D09F30", Offset = "0x4D09F30", VA = "0x4D09F30")]
+	[Token(Token = "0x6000A2A")]
+	[Address(RVA = "0x2DF7C40", Offset = "0x2DF6240", VA = "0x182DF7C40")]
 	public LeftShiftHandler()
 	{
 	}

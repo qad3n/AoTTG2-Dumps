@@ -25,8 +25,8 @@ internal sealed class StringSwitchInstruction : Instruction
 	[Token(Token = "0x1700018E")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000674")]
-		[Address(RVA = "0x44C9C10", Offset = "0x44C9C10", VA = "0x44C9C10", Slot = "9")]
+		[Token(Token = "0x6000673")]
+		[Address(RVA = "0x243F350", Offset = "0x243D950", VA = "0x18243F350", Slot = "9")]
 		get
 		{
 			return null;
@@ -36,22 +36,22 @@ internal sealed class StringSwitchInstruction : Instruction
 	[Token(Token = "0x1700018F")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000675")]
-		[Address(RVA = "0x44C9C40", Offset = "0x44C9C40", VA = "0x44C9C40", Slot = "4")]
+		[Token(Token = "0x6000674")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x44C9BD0", Offset = "0x44C9BD0", VA = "0x44C9BD0")]
+	[Token(Token = "0x6000672")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	internal StringSwitchInstruction(Dictionary<string, int> cases, StrongBox<int> nullCase)
 	{
 	}
 
-	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x44C9C50", Offset = "0x44C9C50", VA = "0x44C9C50", Slot = "8")]
+	[Token(Token = "0x6000675")]
+	[Address(RVA = "0x243F290", Offset = "0x243D890", VA = "0x18243F290", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

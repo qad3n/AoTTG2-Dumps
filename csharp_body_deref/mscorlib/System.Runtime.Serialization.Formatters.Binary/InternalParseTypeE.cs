@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003FA")]
+[Token(Token = "0x2000429")]
 internal enum InternalParseTypeE
 {
-	[Token(Token = "0x400106E")]
-	Empty,
-	[Token(Token = "0x400106F")]
-	SerializedStreamHeader,
 	[Token(Token = "0x4001070")]
-	Object,
+	Empty,
 	[Token(Token = "0x4001071")]
-	Member,
+	SerializedStreamHeader,
 	[Token(Token = "0x4001072")]
-	ObjectEnd,
+	Object,
 	[Token(Token = "0x4001073")]
-	MemberEnd,
+	Member,
 	[Token(Token = "0x4001074")]
-	Headers,
+	ObjectEnd,
 	[Token(Token = "0x4001075")]
-	HeadersEnd,
+	MemberEnd,
 	[Token(Token = "0x4001076")]
-	SerializedStreamHeaderEnd,
+	Headers,
 	[Token(Token = "0x4001077")]
-	Envelope,
+	HeadersEnd,
 	[Token(Token = "0x4001078")]
-	EnvelopeEnd,
+	SerializedStreamHeaderEnd,
 	[Token(Token = "0x4001079")]
-	Body,
+	Envelope,
 	[Token(Token = "0x400107A")]
+	EnvelopeEnd,
+	[Token(Token = "0x400107B")]
+	Body,
+	[Token(Token = "0x400107C")]
 	BodyEnd
 }

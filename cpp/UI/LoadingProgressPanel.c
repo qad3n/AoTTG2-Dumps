@@ -1,54 +1,39 @@
 // Type: UI.LoadingProgressPanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/LoadingProgressPanel.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/LoadingMenu/LoadingProgressPanel.cs
 // --------------------------------
 
 // UI.LoadingProgressPanel$$get_Title
 // il2cpp: System_String_o* UI_LoadingProgressPanel__get_Title (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efc70
+// 0x18227b3f0
 
 System_String_o * UI_LoadingProgressPanel__get_Title(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
 
 {
   System_String_o *pSVar1;
   
-  if (g_data_057ae513 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"Loading");
-    g_data_057ae513 = '\x01';
+  if (Il2CppMethodInitialized_1843473a8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Loading");
+    Il2CppMethodInitialized_1843473a8 = '\x01';
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
   pSVar1 = UI_UIManager__GetLocaleCommon("Loading",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
-// UI.LoadingProgressPanel$$get_ThemePanel
-// il2cpp: System_String_o* UI_LoadingProgressPanel__get_ThemePanel (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efcd0
-
-System_String_o *
-UI_LoadingProgressPanel__get_ThemePanel(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  if (g_data_057ae514 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadingPanel");
-    g_data_057ae514 = '\x01';
-  }
-  return "LoadingPanel";
-}
-
-
 // UI.LoadingProgressPanel$$get_Width
 // il2cpp: float UI_LoadingProgressPanel__get_Width (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd00
+// 0x1821d9b60
 
-float UI_LoadingProgressPanel__get_Width(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
+float
+UI_LoadingProgressPanel__get_Width(UI_LoadingProgressPanel_o* __this, MethodInfo* method)
 
 {
   return 340.0;
@@ -57,7 +42,7 @@ float UI_LoadingProgressPanel__get_Width(UI_LoadingProgressPanel_o *__this,Metho
 
 // UI.LoadingProgressPanel$$get_Height
 // il2cpp: float UI_LoadingProgressPanel__get_Height (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd10
+// 0x18227b3e0
 
 float UI_LoadingProgressPanel__get_Height(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
 
@@ -68,86 +53,33 @@ float UI_LoadingProgressPanel__get_Height(UI_LoadingProgressPanel_o *__this,Meth
 
 // UI.LoadingProgressPanel$$get_TopBarHeight
 // il2cpp: float UI_LoadingProgressPanel__get_TopBarHeight (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd20
+// 0x1820cf520
 
-float UI_LoadingProgressPanel__get_TopBarHeight(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
+float
+UI_LoadingProgressPanel__get_TopBarHeight(UI_LoadingProgressPanel_o* __this, MethodInfo* method)
 
 {
-  return 55.0;
+  return 50.0;
 }
 
 
 // UI.LoadingProgressPanel$$get_BottomBarHeight
 // il2cpp: float UI_LoadingProgressPanel__get_BottomBarHeight (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd30
+// 0x1820cf520
 
 float UI_LoadingProgressPanel__get_BottomBarHeight(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
 
 {
-  return 55.0;
-}
-
-
-// UI.LoadingProgressPanel$$get_TitleFontSize
-// il2cpp: int32_t UI_LoadingProgressPanel__get_TitleFontSize (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd40
-
-int32_t UI_LoadingProgressPanel__get_TitleFontSize(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  return 0x1a;
-}
-
-
-// UI.LoadingProgressPanel$$get_ButtonFontSize
-// il2cpp: int32_t UI_LoadingProgressPanel__get_ButtonFontSize (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd50
-
-int32_t UI_LoadingProgressPanel__get_ButtonFontSize(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  return 0x16;
-}
-
-
-// UI.LoadingProgressPanel$$get_VerticalPadding
-// il2cpp: int32_t UI_LoadingProgressPanel__get_VerticalPadding (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd60
-
-int32_t UI_LoadingProgressPanel__get_VerticalPadding(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  return 0x14;
-}
-
-
-// UI.LoadingProgressPanel$$get_HorizontalPadding
-// il2cpp: int32_t UI_LoadingProgressPanel__get_HorizontalPadding (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd70
-
-int32_t UI_LoadingProgressPanel__get_HorizontalPadding(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  return 0;
-}
-
-
-// UI.LoadingProgressPanel$$get_PanelAlignment
-// il2cpp: int32_t UI_LoadingProgressPanel__get_PanelAlignment (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd80
-
-int32_t UI_LoadingProgressPanel__get_PanelAlignment(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  return 4;
+  return 50.0;
 }
 
 
 // UI.LoadingProgressPanel$$get_PopupAnimationType
 // il2cpp: int32_t UI_LoadingProgressPanel__get_PopupAnimationType (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efd90
+// 0x180564040
 
-int32_t UI_LoadingProgressPanel__get_PopupAnimationType(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
+int32_t
+UI_LoadingProgressPanel__get_PopupAnimationType(UI_LoadingProgressPanel_o* __this, MethodInfo* method)
 
 {
   return 1;
@@ -156,7 +88,7 @@ int32_t UI_LoadingProgressPanel__get_PopupAnimationType(UI_LoadingProgressPanel_
 
 // UI.LoadingProgressPanel$$get_AnimationTime
 // il2cpp: float UI_LoadingProgressPanel__get_AnimationTime (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43efda0
+// 0x182245d40
 
 float UI_LoadingProgressPanel__get_AnimationTime(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
 
@@ -167,406 +99,222 @@ float UI_LoadingProgressPanel__get_AnimationTime(UI_LoadingProgressPanel_o *__th
 
 // UI.LoadingProgressPanel$$Setup
 // il2cpp: void UI_LoadingProgressPanel__Setup (UI_LoadingProgressPanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x43efdb0
+// 0x18227af80
 
 void UI_LoadingProgressPanel__Setup
                (UI_LoadingProgressPanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
-  UnityEngine_UI_Slider_o **ppUVar1;
-  int iVar2;
-  int32_t fontSize;
-  System_String_o *pSVar3;
-  UI_ElementStyle_o *pUVar4;
-  UnityEngine_Events_UnityAction_o *onClick;
-  UnityEngine_GameObject_o *__this_00;
-  UnityEngine_Transform_o *pUVar5;
-  UnityEngine_UI_Text_o *pUVar6;
-  UnityEngine_UI_Slider_o *pUVar7;
-  Il2CppObject *pIVar8;
-  UnityEngine_Color_o UVar9;
+  UnityEngine_Transform_o *pUVar1;
+  Gisketch_Aottg2UI_Game_AottgInGameView_o *__this_00;
+  System_String_o *pSVar2;
+  TMPro_TMP_Text_o *value;
+  UnityEngine_RectTransform_o *value_00;
+  float fVar3;
+  float fVar4;
+  float headerHeight;
+  float footerHeight;
+  System_Nullable_float__Fields local_res8;
   
-  if (g_data_057ae515 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Image_GetComponent_Image);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayoutElement_GetComponent_LayoutElement);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Slider_GetComponent_Slider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Text_GetComponent_Text);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__30_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"TextColor");
-    il2cpp_runtime_helper_023445d0(&"DefaultPanel");
-    il2cpp_runtime_helper_023445d0(&"ProgressBarFillColor");
-    il2cpp_runtime_helper_023445d0(&"ProgressBar");
-    il2cpp_runtime_helper_023445d0(&"Background");
-    il2cpp_runtime_helper_023445d0(&"Quit");
-    il2cpp_runtime_helper_023445d0(&"Fill Area/Fill");
-    il2cpp_runtime_helper_023445d0(&"Prefabs/InGame/LoadingSlider");
-    il2cpp_runtime_helper_023445d0(&"Value");
-    il2cpp_runtime_helper_023445d0(&"Slider");
-    il2cpp_runtime_helper_023445d0(&"ProgressBarBackgroundColor");
-    il2cpp_runtime_helper_023445d0(&"DefaultLabel");
-    g_data_057ae515 = '\x01';
+  if (Il2CppMethodInitialized_1843473a9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_float_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"clear");
+    il2cpp_codegen_initialize_runtime_metadata(&"0%");
+    il2cpp_codegen_initialize_runtime_metadata(&"inGameText");
+    il2cpp_codegen_initialize_runtime_metadata(&"Quit");
+    il2cpp_codegen_initialize_runtime_metadata(&"ingame.loading.quit");
+    il2cpp_codegen_initialize_runtime_metadata(&"inGameHeader");
+    il2cpp_codegen_initialize_runtime_metadata(&"inGameTitle");
+    Il2CppMethodInitialized_1843473a9 = '\x01';
   }
-  UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,(MethodInfo *)0x0);
-  pSVar3 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar4,0x18,120.0,20.0,pSVar3,(MethodInfo *)0x0);
-  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
-                       (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
-  pSVar3 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar4 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar4,fontSize,120.0,20.0,pSVar3,(MethodInfo *)0x0);
-  pUVar5 = (__this->fields).BottomBar;
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  (__this->fields).Parent = parent;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Parent,parent);
+  pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  fVar3 = (*(__this->klass->vtable)._5_get_Width.methodPtr)
+                    (__this,(__this->klass->vtable)._5_get_Width.method);
+  fVar4 = (*(__this->klass->vtable)._6_get_Height.methodPtr)
+                    (__this,(__this->klass->vtable)._6_get_Height.method);
+  headerHeight = (*(__this->klass->vtable)._36_get_TopBarHeight.methodPtr)
+                           (__this,(__this->klass->vtable)._36_get_TopBarHeight.method);
+  footerHeight = (*(__this->klass->vtable)._37_get_BottomBarHeight.methodPtr)
+                           (__this,(__this->klass->vtable)._37_get_BottomBarHeight.method);
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
   }
-  pSVar3 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
-  onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-  UnityEngine_Events_UnityAction___ctor();
-  UI_ElementFactory__CreateTextButton(pUVar5,pUVar4,pSVar3,0.0,onClick,(MethodInfo *)0x0);
-  __this_00 = UI_ElementFactory__InstantiateAndBind
-                        ((__this->fields).SinglePanel,"Prefabs/InGame/LoadingSlider",(MethodInfo *)0x0);
-  if (((__this_00 != (UnityEngine_GameObject_o *)0x0) &&
-      (pUVar5 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0),
-      pUVar5 != (UnityEngine_Transform_o *)0x0)) &&
-     (pUVar5 = UnityEngine_Transform__Find(pUVar5,"Value",(MethodInfo *)0x0),
-     pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-    pUVar6 = (UnityEngine_UI_Text_o *)
-             UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar5,MethodInfo_Text_GetComponent_Text);
-    (__this->fields)._label = pUVar6;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._label);
-    pUVar5 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-    if ((pUVar5 != (UnityEngine_Transform_o *)0x0) &&
-       (pUVar5 = UnityEngine_Transform__Find(pUVar5,"Slider",(MethodInfo *)0x0),
-       pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-      pUVar7 = (UnityEngine_UI_Slider_o *)
-               UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar5,MethodInfo_Slider_GetComponent_Slider);
-      ppUVar1 = &(__this->fields)._slider;
-      (__this->fields)._slider = pUVar7;
-      il2cpp_runtime_helper_022b4080(ppUVar1,pUVar7);
-      pUVar7 = (__this->fields)._slider;
-      if ((pUVar7 != (UnityEngine_UI_Slider_o *)0x0) &&
-         (pIVar8 = UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pUVar7,MethodInfo_LayoutElement_GetComponent_LayoutElement)
-         , pIVar8 != (Il2CppObject *)0x0)) {
-        (*pIVar8->klass->vtable[0x24].methodPtr)
-                  ((ulong)(uint)(__this->fields).SliderWidth,pIVar8,pIVar8->klass->vtable[0x24].method);
-        pUVar7 = (__this->fields)._slider;
-        if ((pUVar7 != (UnityEngine_UI_Slider_o *)0x0) &&
-           (pIVar8 = UnityEngine_Component__GetComponent_object_
-                               ((UnityEngine_Component_o *)pUVar7,MethodInfo_LayoutElement_GetComponent_LayoutElement), pIVar8 != (Il2CppObject *)0x0
-           )) {
-          (*pIVar8->klass->vtable[0x26].methodPtr)((ulong)(uint)(__this->fields).SliderHeight,pIVar8);
-          pUVar7 = (__this->fields)._slider;
-          if ((pUVar7 != (UnityEngine_UI_Slider_o *)0x0) &&
-             ((pUVar5 = UnityEngine_Component__get_transform
-                                  ((UnityEngine_Component_o *)pUVar7,(MethodInfo *)0x0),
-              pUVar5 != (UnityEngine_Transform_o *)0x0 &&
-              (pUVar5 = UnityEngine_Transform__Find(pUVar5,"Background",(MethodInfo *)0x0),
-              pUVar5 != (UnityEngine_Transform_o *)0x0)))) {
-            pIVar8 = UnityEngine_Component__GetComponent_object_
-                               ((UnityEngine_Component_o *)pUVar5,MethodInfo_Image_GetComponent_Image);
-            pSVar3 = (System_String_o *)
-                     (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                               (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-            UVar9 = UI_UIManager__GetThemeColor
-                              (pSVar3,"ProgressBar","ProgressBarBackgroundColor","DefaultPanel",(MethodInfo *)0x0);
-            if (pIVar8 != (Il2CppObject *)0x0) {
-              (*pIVar8->klass->vtable[0x17].methodPtr)(UVar9.fields._0_8_,UVar9.fields._8_8_,pIVar8);
-              if (((*ppUVar1 != (UnityEngine_UI_Slider_o *)0x0) &&
-                  (pUVar5 = UnityEngine_Component__get_transform
-                                      ((UnityEngine_Component_o *)*ppUVar1,(MethodInfo *)0x0),
-                  pUVar5 != (UnityEngine_Transform_o *)0x0)) &&
-                 (pUVar5 = UnityEngine_Transform__Find(pUVar5,"Fill Area/Fill",(MethodInfo *)0x0),
-                 pUVar5 != (UnityEngine_Transform_o *)0x0)) {
-                pIVar8 = UnityEngine_Component__GetComponent_object_
-                                   ((UnityEngine_Component_o *)pUVar5,MethodInfo_Image_GetComponent_Image);
-                pSVar3 = (System_String_o *)
-                         (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                                   (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-                UVar9 = UI_UIManager__GetThemeColor
-                                  (pSVar3,"ProgressBar","ProgressBarFillColor","DefaultPanel",(MethodInfo *)0x0);
-                if (pIVar8 != (Il2CppObject *)0x0) {
-                  (*pIVar8->klass->vtable[0x17].methodPtr)(UVar9.fields._0_8_,UVar9.fields._8_8_,pIVar8);
-                  if (*ppUVar1 != (UnityEngine_UI_Slider_o *)0x0) {
-                    UnityEngine_UI_Selectable__set_interactable
-                              ((UnityEngine_UI_Selectable_o *)*ppUVar1,0,(MethodInfo *)0x0);
-                    pUVar6 = (__this->fields)._label;
-                    pSVar3 = (System_String_o *)
-                             (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                                       (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-                    UVar9 = UI_UIManager__GetThemeColor
-                                      (pSVar3,"DefaultLabel","TextColor","DefaultPanel",(MethodInfo *)0x0);
-                    if (pUVar6 != (UnityEngine_UI_Text_o *)0x0) {
-                      (*(pUVar6->klass->vtable)._23_set_color.methodPtr)
-                                (UVar9.fields._0_8_,UVar9.fields._8_8_,pUVar6,
-                                 (pUVar6->klass->vtable)._23_set_color.method);
-                      return;
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+  __this_00 = Gisketch_Aottg2UI_Game_AottgInGameView__ScaledPopupShell
+                        (pUVar1,fVar3,fVar4,headerHeight,footerHeight,&(__this->fields).TopBar,
+                         &(__this->fields).BottomBar,"inGameHeader",(MethodInfo *)0x0);
+  pUVar1 = (__this->fields).TopBar;
+  pSVar2 = (*(__this->klass->vtable)._35_get_Title.methodPtr)
+                     (__this,(__this->klass->vtable)._35_get_Title.method);
+  fVar3 = (*(__this->klass->vtable)._5_get_Width.methodPtr)
+                    (__this,(__this->klass->vtable)._5_get_Width.method);
+  if (__this_00 != (Gisketch_Aottg2UI_Game_AottgInGameView_o *)0x0) {
+    Gisketch_Aottg2UI_Game_AottgInGameView__Text
+              (__this_00,pUVar1,pSVar2,fVar3 - 48.0,40.0,"inGameTitle",(MethodInfo *)0x0);
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    fVar3 = (*(__this->klass->vtable)._5_get_Width.methodPtr)
+                      (__this,(__this->klass->vtable)._5_get_Width.method);
+    fVar4 = (*(__this->klass->vtable)._31_GetPanelHeight.methodPtr)
+                      (__this,(__this->klass->vtable)._31_GetPanelHeight.method);
+    local_res8.hasValue = false;
+    local_res8._1_3_ = 0;
+    local_res8.value = 0.0;
+    System_Nullable_float____ctor
+              ((System_Nullable_float__o *)&local_res8,8.0,
+               (MethodInfo_AE2920 *)MethodInfo_System_Nullable_float_ctor);
+    pUVar1 = Gisketch_Aottg2UI_Game_AottgInGameView__Panel
+                       (__this_00,pUVar1,"clear",fVar3 - 64.0,fVar4,false,
+                        (System_Nullable_float__o)local_res8,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
     }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae518 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameManager);
-    g_data_057ae518 = '\x01';
-    iVar2 = *(int *)(TypeInfo_InGameManager + 0xe4);
-  }
-  else {
-    iVar2 = *(int *)(TypeInfo_InGameManager + 0xe4);
-  }
-  if (iVar2 != 0) {
-    GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgInGameView__Position
+              (pUVar1,(UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+               (MethodInfo *)0x0);
+    fVar3 = (*(__this->klass->vtable)._5_get_Width.methodPtr)
+                      (__this,(__this->klass->vtable)._5_get_Width.method);
+    value = Gisketch_Aottg2UI_Game_AottgInGameView__Text
+                      (__this_00,pUVar1,"0%",fVar3 - 64.0,28.0,"inGameText",
+                       (MethodInfo *)0x0);
+    (__this->fields)._label = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._label,value);
+    fVar3 = (*(__this->klass->vtable)._5_get_Width.methodPtr)
+                      (__this,(__this->klass->vtable)._5_get_Width.method);
+    value_00 = Gisketch_Aottg2UI_Game_AottgInGameView__ProgressBar
+                         (__this_00,pUVar1,fVar3 - 64.0,10.0,(MethodInfo *)0x0);
+    (__this->fields)._fill = value_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._fill,value_00);
+    pUVar1 = (__this->fields).BottomBar;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pSVar2 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Game_AottgInGameView__Button
+              (__this_00,pUVar1,pSVar2,"ingame.loading.quit",(System_String_o *)0x0,200.0,36.0,3,
+               (MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_02337ed0();
-  GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.LoadingProgressPanel$$ShowImmediate
 // il2cpp: void UI_LoadingProgressPanel__ShowImmediate (UI_LoadingProgressPanel_o* __this, float progress, const MethodInfo* method);
-// 0x43ef850
+// 0x18227b3a0
 
 void UI_LoadingProgressPanel__ShowImmediate
                (UI_LoadingProgressPanel_o *__this,float progress,MethodInfo *method)
 
 {
-  UnityEngine_UI_Text_o *pUVar1;
-  UnityEngine_UI_Slider_o *pUVar2;
-  long *plVar3;
-  System_String_o *pSVar4;
-  UI_BasePopup_o *__this_00;
-  Il2CppClass *str0;
-  Il2CppObject *__this_01;
-  undefined4 uVar5;
-  Il2CppObject *__this_02;
-  float fVar6;
-  
-  if (g_data_057ae516 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"%");
-    g_data_057ae516 = '\x01';
-  }
-  pUVar1 = (__this->fields)._label;
-  if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_00 = (UI_BasePopup_o *)0x0;
-  pSVar4 = Utility_Util__FormatFloat(progress * 100.0,0,(MethodInfo *)0x0);
-  if (pSVar4 != (System_String_o *)0x0) {
-    __this_00 = (UI_BasePopup_o *)
-                (*(pSVar4->klass->vtable)._3_ToString.methodPtr)
-                          (pSVar4,(pSVar4->klass->vtable)._3_ToString.method);
-    pSVar4 = System_String__Concat_3ae5ba0((System_String_o *)__this_00,"%",(MethodInfo *)0x0);
-    if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-      (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                (pUVar1,pSVar4,(pUVar1->klass->vtable)._75_set_text.method);
-      pUVar2 = (__this->fields)._slider;
-      __this_00 = (UI_BasePopup_o *)0x0;
-      if (pUVar2 != (UnityEngine_UI_Slider_o *)0x0) {
-        (*(pUVar2->klass->vtable)._47_set_value.methodPtr)(progress);
-        UI_BasePopup__ShowImmediate((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-  fVar6 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae517 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"%");
-    g_data_057ae517 = '\x01';
-  }
-  plVar3 = __this_00[1].monitor;
-  if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  str0 = (Il2CppClass *)0x0;
-  pSVar4 = Utility_Util__FormatFloat(fVar6 * 100.0,0,(MethodInfo *)0x0);
-  if (pSVar4 != (System_String_o *)0x0) {
-    str0 = (Il2CppClass *)
-           (*(pSVar4->klass->vtable)._3_ToString.methodPtr)(pSVar4,(pSVar4->klass->vtable)._3_ToString.method)
-    ;
-    pSVar4 = System_String__Concat_3ae5ba0((System_String_o *)str0,"%",(MethodInfo *)0x0);
-    if (plVar3 != (long *)0x0) {
-      (**(code **)(*plVar3 + 0x5e8))(plVar3,pSVar4,*(undefined8 *)(*plVar3 + 0x5f0));
-      plVar3 = (long *)__this_00[1].fields.m_CachedPtr;
-      str0 = (Il2CppClass *)0x0;
-      if (plVar3 != (long *)0x0) {
-        (**(code **)(*plVar3 + 0x428))(fVar6);
-        UI_BasePopup__Show(__this_00,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae511 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndHide_d__7);
-    g_data_057ae511 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndHide_d__7);
-  uVar5 = 0;
-  __this_02 = __this_01;
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = 0;
-  if (__this_01 != (Il2CppObject *)0x0) {
-    __this_01[2].klass = str0;
-    il2cpp_runtime_helper_022b4080(__this_01 + 2,str0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_02,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_02[1].klass = uVar5;
+  UI_LoadingProgressPanel__SetProgress(__this,progress,(MethodInfo *)0x0);
+  UI_BasePopup__ShowImmediate((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.LoadingProgressPanel$$Show
 // il2cpp: void UI_LoadingProgressPanel__Show (UI_LoadingProgressPanel_o* __this, float progress, const MethodInfo* method);
-// 0x43ef940
+// 0x18227b3c0
 
 void UI_LoadingProgressPanel__Show(UI_LoadingProgressPanel_o *__this,float progress,MethodInfo *method)
 
 {
-  UnityEngine_UI_Text_o *pUVar1;
-  UnityEngine_UI_Slider_o *pUVar2;
-  System_String_o *pSVar3;
-  Il2CppClass *str0;
-  Il2CppObject *__this_00;
-  undefined4 uVar4;
-  Il2CppObject *__this_01;
-  
-  if (g_data_057ae517 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"%");
-    g_data_057ae517 = '\x01';
-  }
-  pUVar1 = (__this->fields)._label;
-  if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  str0 = (Il2CppClass *)0x0;
-  pSVar3 = Utility_Util__FormatFloat(progress * 100.0,0,(MethodInfo *)0x0);
-  if (pSVar3 != (System_String_o *)0x0) {
-    str0 = (Il2CppClass *)
-           (*(pSVar3->klass->vtable)._3_ToString.methodPtr)(pSVar3,(pSVar3->klass->vtable)._3_ToString.method)
-    ;
-    pSVar3 = System_String__Concat_3ae5ba0((System_String_o *)str0,"%",(MethodInfo *)0x0);
-    if (pUVar1 != (UnityEngine_UI_Text_o *)0x0) {
-      (*(pUVar1->klass->vtable)._75_set_text.methodPtr)
-                (pUVar1,pSVar3,(pUVar1->klass->vtable)._75_set_text.method);
-      pUVar2 = (__this->fields)._slider;
-      str0 = (Il2CppClass *)0x0;
-      if (pUVar2 != (UnityEngine_UI_Slider_o *)0x0) {
-        (*(pUVar2->klass->vtable)._47_set_value.methodPtr)(progress);
-        UI_BasePopup__Show((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae511 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WaitAndHide_d__7);
-    g_data_057ae511 = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_WaitAndHide_d__7);
-  uVar4 = 0;
-  __this_01 = __this_00;
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
-  if (__this_00 != (Il2CppObject *)0x0) {
-    __this_00[2].klass = str0;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,str0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_01[1].klass = uVar4;
+  UI_LoadingProgressPanel__SetProgress(__this,progress,(MethodInfo *)0x0);
+  UI_BasePopup__Show((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.LoadingProgressPanel$$OnButtonClick
-// il2cpp: void UI_LoadingProgressPanel__OnButtonClick (UI_LoadingProgressPanel_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x43f02f0
+// UI.LoadingProgressPanel$$SetProgress
+// il2cpp: void UI_LoadingProgressPanel__SetProgress (UI_LoadingProgressPanel_o* __this, float progress, const MethodInfo* method);
+// 0x18227adc0
 
-void UI_LoadingProgressPanel__OnButtonClick
-               (UI_LoadingProgressPanel_o *__this,System_String_o *name,MethodInfo *method)
+void UI_LoadingProgressPanel__SetProgress(UI_LoadingProgressPanel_o *__this,float progress,MethodInfo *method)
 
 {
-  int iVar1;
+  TMPro_TMP_Text_o *pTVar1;
+  UnityEngine_RectTransform_o *fill;
+  double x;
+  System_String_o *pSVar2;
+  MethodInfo *method_00;
+  double dVar3;
+  Il2CppMethodPointer local_res8;
+  int32_t local_res10 [2];
   
-  if (g_data_057ae518 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameManager);
-    g_data_057ae518 = '\x01';
-    iVar1 = *(int *)(TypeInfo_InGameManager + 0xe4);
+  if (Il2CppMethodInitialized_1843473aa == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
+    il2cpp_codegen_initialize_runtime_metadata(&"%");
+    Il2CppMethodInitialized_1843473aa = '\x01';
+  }
+  local_res10[0] = 0;
+  if (progress < 0.0) {
+    progress = 0.0;
+  }
+  else if (1.0 < progress) {
+    progress = 1.0;
+  }
+  pTVar1 = (__this->fields)._label;
+  if (Il2CppMethodInitialized_184340a0c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Math);
+    Il2CppMethodInitialized_184340a0c = '\x01';
+  }
+  if ((TypeInfo_System_Math->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Math);
+  }
+  x = (double)(progress * 100.0);
+  method_00 = (MethodInfo *)&local_res8;
+  if (x < 0.0) {
+    dVar3 = il2cpp_runtime_helper_1804f3b80(x,(double *)method_00,method);
+    if (dVar3 == -0.5) {
+      if (((longlong)(double)local_res8 & 1U) != 0) {
+        local_res8 = (Il2CppMethodPointer)((double)local_res8 - 1.0);
+      }
+    }
+    else {
+      local_res8 = (Il2CppMethodPointer)il2cpp_runtime_helper_1804f45c0(x - 0.5,method_00);
+    }
   }
   else {
-    iVar1 = *(int *)(TypeInfo_InGameManager + 0xe4);
+    dVar3 = il2cpp_runtime_helper_1804f3b80(x,(double *)method_00,method);
+    if (dVar3 == 0.5) {
+      if (((longlong)(double)local_res8 & 1U) != 0) {
+        local_res8 = (Il2CppMethodPointer)((double)local_res8 + 1.0);
+      }
+    }
+    else {
+      local_res8 = (Il2CppMethodPointer)il2cpp_runtime_helper_1804f4690(x + 0.5,method_00);
+    }
   }
-  if (iVar1 != 0) {
-    GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
-    return;
+  local_res10[0] = (int32_t)(double)local_res8;
+  pSVar2 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+  pSVar2 = System_String__Concat_1969e50(pSVar2,"%",(MethodInfo *)0x0);
+  if (pTVar1 == (TMPro_TMP_Text_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  il2cpp_runtime_helper_02337ed0();
-  GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
+  (*(pTVar1->klass->vtable)._66_set_text.methodPtr)(pTVar1,pSVar2,(pTVar1->klass->vtable)._66_set_text.method)
+  ;
+  fill = (__this->fields)._fill;
+  if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgInGameView);
+  }
+  Gisketch_Aottg2UI_Game_AottgInGameView__SetProgress(fill,progress,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.LoadingProgressPanel$$.ctor
 // il2cpp: void UI_LoadingProgressPanel___ctor (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43f0350
+// 0x1821c11a0
 
-void UI_LoadingProgressPanel___ctor(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
-
-{
-  (__this->fields).SliderWidth = 200.0;
-  (__this->fields).SliderHeight = 30.0;
-  UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.LoadingProgressPanel$$<Setup>b__30_0
-// il2cpp: void UI_LoadingProgressPanel___Setup_b__30_0 (UI_LoadingProgressPanel_o* __this, const MethodInfo* method);
-// 0x43f0370
-
-void UI_LoadingProgressPanel___Setup_b__30_0(UI_LoadingProgressPanel_o *__this,MethodInfo *method)
+void
+UI_LoadingProgressPanel___ctor(UI_LoadingProgressPanel_o* __this, MethodInfo* method)
 
 {
-  int iVar1;
-  
-  if (g_data_057ae519 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Quit");
-    g_data_057ae519 = '\x01';
-  }
-  if (g_data_057ae518 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_InGameManager);
-    g_data_057ae518 = '\x01';
-    iVar1 = *(int *)(TypeInfo_InGameManager + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_InGameManager + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
-    return;
-  }
-  GameManagers_InGameManager__LeaveRoom((MethodInfo *)0x0);
+  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

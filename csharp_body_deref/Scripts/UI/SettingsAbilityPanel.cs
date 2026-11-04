@@ -13,80 +13,80 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20006E4")]
+[Token(Token = "0x2000863")]
 internal class SettingsAbilityPanel : SettingsCategoryPanel
 {
-	[Token(Token = "0x4002186")]
+	[Token(Token = "0x4002A1E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	protected Text _pointsLeftLabel;
 
-	[Token(Token = "0x4002187")]
+	[Token(Token = "0x4002A1F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	protected GameObject _radiusElement;
 
-	[Token(Token = "0x4002188")]
+	[Token(Token = "0x4002A20")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	protected GameObject _rangeElement;
 
-	[Token(Token = "0x4002189")]
+	[Token(Token = "0x4002A21")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	protected GameObject _speedElement;
 
-	[Token(Token = "0x400218A")]
+	[Token(Token = "0x4002A22")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	protected GameObject _cooldownElement;
 
-	[Token(Token = "0x17000D6B")]
+	[Token(Token = "0x17000ECB")]
 	protected override TextAnchor PanelAlignment
 	{
-		[Token(Token = "0x60044B8")]
-		[Address(RVA = "0x4341160", Offset = "0x4341160", VA = "0x4341160", Slot = "12")]
+		[Token(Token = "0x60050F1")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "12")]
 		get
 		{
 			return default(TextAnchor);
 		}
 	}
 
-	[Token(Token = "0x60044B9")]
-	[Address(RVA = "0x4341170", Offset = "0x4341170", VA = "0x4341170", Slot = "20")]
+	[Token(Token = "0x60050F2")]
+	[Address(RVA = "0x22E0660", Offset = "0x22DEC60", VA = "0x1822E0660", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x60044BA")]
-	[Address(RVA = "0x4341FD0", Offset = "0x4341FD0", VA = "0x4341FD0")]
+	[Token(Token = "0x60050F3")]
+	[Address(RVA = "0x22DFD80", Offset = "0x22DE380", VA = "0x1822DFD80")]
 	protected string GetBombStatLabel(string cat, string sub, string statName, int pointsSpent, float oldMinCost, float oldMaxCost, float cutoff, string unit, float divisor = 1f)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60044BB")]
-	[Address(RVA = "0x4342420", Offset = "0x4342420", VA = "0x4342420")]
+	[Token(Token = "0x60050F4")]
+	[Address(RVA = "0x22DFCE0", Offset = "0x22DE2E0", VA = "0x1822DFCE0")]
 	private string CenterString(string text, int totalWidth)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60044BC")]
-	[Address(RVA = "0x4342410", Offset = "0x4342410", VA = "0x4342410")]
+	[Token(Token = "0x60050F5")]
+	[Address(RVA = "0x22E01E0", Offset = "0x22DE7E0", VA = "0x1822E01E0")]
 	protected void OnStatChanged(IntSetting setting)
 	{
 	}
 
-	[Token(Token = "0x60044BD")]
-	[Address(RVA = "0x4342490", Offset = "0x4342490", VA = "0x4342490")]
+	[Token(Token = "0x60050F6")]
+	[Address(RVA = "0x22E01F0", Offset = "0x22DE7F0", VA = "0x1822E01F0")]
 	protected void RefreshBombStatLabels()
 	{
 	}
 
-	[Token(Token = "0x60044BE")]
-	[Address(RVA = "0x4342850", Offset = "0x4342850", VA = "0x4342850")]
+	[Token(Token = "0x60050F7")]
+	[Address(RVA = "0x22E1150", Offset = "0x22DF750", VA = "0x1822E1150")]
 	protected void UpdateElementLabel(GameObject element, string newText)
 	{
 	}
 
-	[Token(Token = "0x60044BF")]
-	[Address(RVA = "0x4342920", Offset = "0x4342920", VA = "0x4342920")]
+	[Token(Token = "0x60050F8")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public SettingsAbilityPanel()
 	{
 	}

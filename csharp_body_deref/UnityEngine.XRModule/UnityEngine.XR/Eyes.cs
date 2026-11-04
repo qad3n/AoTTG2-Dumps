@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x200000C")]
-[UnityEngine.Bindings.NativeHeader("XRScriptingClasses.h")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.StaticAccessor("XRInputDevices::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputDevices.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/XRPrefix.h")]
+[UnityEngine.Bindings.NativeHeader("XRScriptingClasses.h")]
 [UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct Eyes : IEquatable<Eyes>
 {
 	[Token(Token = "0x400003C")]
@@ -33,7 +33,7 @@ public struct Eyes : IEquatable<Eyes>
 	internal ulong deviceId
 	{
 		[Token(Token = "0x6000014")]
-		[Address(RVA = "0x510C620", Offset = "0x510C620", VA = "0x510C620")]
+		[Address(RVA = "0x737B90", Offset = "0x736190", VA = "0x180737B90")]
 		get
 		{
 			return default(ulong);
@@ -44,7 +44,7 @@ public struct Eyes : IEquatable<Eyes>
 	internal uint featureIndex
 	{
 		[Token(Token = "0x6000015")]
-		[Address(RVA = "0x510C630", Offset = "0x510C630", VA = "0x510C630")]
+		[Address(RVA = "0xA50840", Offset = "0xA4EE40", VA = "0x180A50840")]
 		get
 		{
 			return default(uint);
@@ -52,21 +52,21 @@ public struct Eyes : IEquatable<Eyes>
 	}
 
 	[Token(Token = "0x6000016")]
-	[Address(RVA = "0x510C640", Offset = "0x510C640", VA = "0x510C640", Slot = "0")]
+	[Address(RVA = "0x3312F10", Offset = "0x3311510", VA = "0x183312F10", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000017")]
-	[Address(RVA = "0x510C6B0", Offset = "0x510C6B0", VA = "0x510C6B0", Slot = "4")]
+	[Address(RVA = "0x3312E00", Offset = "0x3311400", VA = "0x183312E00", Slot = "4")]
 	public bool Equals(Eyes other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000018")]
-	[Address(RVA = "0x510C6C0", Offset = "0x510C6C0", VA = "0x510C6C0", Slot = "2")]
+	[Address(RVA = "0x3312EC0", Offset = "0x33114C0", VA = "0x183312EC0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

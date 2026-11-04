@@ -15,43 +15,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200006B")]
 public class GraphData<TGraph> : IGraphData where TGraph : class, IGraph
 {
-	[Token(Token = "0x170000A2")]
+	[Token(Token = "0x170000A5")]
 	protected TGraph definition
 	{
-		[Token(Token = "0x60002DD")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000A3")]
-	protected Dictionary<IGraphElementWithData, IGraphElementData> elementsData
-	{
-		[Token(Token = "0x60002DE")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000A4")]
-	protected Dictionary<IGraphParentElement, IGraphData> childrenGraphsData
-	{
-		[Token(Token = "0x60002DF")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x170000A5")]
-	protected Dictionary<Guid, IGraphElementData> phantomElementsData
-	{
-		[Token(Token = "0x60002E0")]
+		[Token(Token = "0x60002E4")]
 		[CompilerGenerated]
 		get
 		{
@@ -60,9 +27,9 @@ public class GraphData<TGraph> : IGraphData where TGraph : class, IGraph
 	}
 
 	[Token(Token = "0x170000A6")]
-	protected Dictionary<Guid, IGraphData> phantomChildrenGraphsData
+	protected Dictionary<IGraphElementWithData, IGraphElementData> elementsData
 	{
-		[Token(Token = "0x60002E1")]
+		[Token(Token = "0x60002E5")]
 		[CompilerGenerated]
 		get
 		{
@@ -70,41 +37,74 @@ public class GraphData<TGraph> : IGraphData where TGraph : class, IGraph
 		}
 	}
 
-	[Token(Token = "0x60002DC")]
+	[Token(Token = "0x170000A7")]
+	protected Dictionary<IGraphParentElement, IGraphData> childrenGraphsData
+	{
+		[Token(Token = "0x60002E6")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A8")]
+	protected Dictionary<Guid, IGraphElementData> phantomElementsData
+	{
+		[Token(Token = "0x60002E7")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x170000A9")]
+	protected Dictionary<Guid, IGraphData> phantomChildrenGraphsData
+	{
+		[Token(Token = "0x60002E8")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x60002E3")]
 	public GraphData(TGraph definition)
 	{
 	}
 
-	[Token(Token = "0x60002E2")]
+	[Token(Token = "0x60002E9")]
 	public bool TryGetElementData(IGraphElementWithData element, out IGraphElementData data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002E3")]
+	[Token(Token = "0x60002EA")]
 	public bool TryGetChildGraphData(IGraphParentElement element, out IGraphData data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002E4")]
+	[Token(Token = "0x60002EB")]
 	public IGraphElementData CreateElementData(IGraphElementWithData element)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002E5")]
+	[Token(Token = "0x60002EC")]
 	public void FreeElementData(IGraphElementWithData element)
 	{
 	}
 
-	[Token(Token = "0x60002E6")]
+	[Token(Token = "0x60002ED")]
 	public IGraphData CreateChildGraphData(IGraphParentElement element)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002E7")]
+	[Token(Token = "0x60002EE")]
 	public void FreeChildGraphData(IGraphParentElement element)
 	{
 	}

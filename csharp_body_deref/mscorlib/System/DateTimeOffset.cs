@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.DateTimeOffset
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -14,52 +14,34 @@ namespace System;
 
 [Serializable]
 [StructLayout((LayoutKind)3)]
-[Token(Token = "0x20000A4")]
+[Token(Token = "0x20000CC")]
 public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<DateTimeOffset>, IEquatable<DateTimeOffset>, ISerializable, IDeserializationCallback, System.ISpanFormattable
 {
-	[Token(Token = "0x4000257")]
-	internal const long MaxOffset = 504000000000L;
-
-	[Token(Token = "0x4000258")]
-	internal const long MinOffset = -504000000000L;
-
-	[Token(Token = "0x4000259")]
-	private const long UnixEpochSeconds = 62135596800L;
-
-	[Token(Token = "0x400025A")]
-	private const long UnixEpochMilliseconds = 62135596800000L;
-
-	[Token(Token = "0x400025B")]
-	internal const long UnixMinSeconds = -62135596800L;
-
-	[Token(Token = "0x400025C")]
-	internal const long UnixMaxSeconds = 253402300799L;
-
-	[Token(Token = "0x400025D")]
+	[Token(Token = "0x40002EF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly DateTimeOffset MinValue;
 
-	[Token(Token = "0x400025E")]
+	[Token(Token = "0x40002F0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public static readonly DateTimeOffset MaxValue;
 
-	[Token(Token = "0x400025F")]
+	[Token(Token = "0x40002F1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public static readonly DateTimeOffset UnixEpoch;
 
-	[Token(Token = "0x4000260")]
+	[Token(Token = "0x40002F2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private readonly DateTime _dateTime;
 
-	[Token(Token = "0x4000261")]
+	[Token(Token = "0x40002F3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private readonly short _offsetMinutes;
 
 	[Token(Token = "0x17000078")]
 	public static DateTimeOffset Now
 	{
-		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x3C95C80", Offset = "0x3C95C80", VA = "0x3C95C80")]
+		[Token(Token = "0x600066D")]
+		[Address(RVA = "0x1B0F920", Offset = "0x1B0DF20", VA = "0x181B0F920")]
 		get
 		{
 			return default(DateTimeOffset);
@@ -69,8 +51,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000079")]
 	public static DateTimeOffset UtcNow
 	{
-		[Token(Token = "0x600063B")]
-		[Address(RVA = "0x3C95CE0", Offset = "0x3C95CE0", VA = "0x3C95CE0")]
+		[Token(Token = "0x600066E")]
+		[Address(RVA = "0x1B0FD20", Offset = "0x1B0E320", VA = "0x181B0FD20")]
 		get
 		{
 			return default(DateTimeOffset);
@@ -80,8 +62,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007A")]
 	public DateTime DateTime
 	{
-		[Token(Token = "0x600063C")]
-		[Address(RVA = "0x3C95DD0", Offset = "0x3C95DD0", VA = "0x3C95DD0")]
+		[Token(Token = "0x600066F")]
+		[Address(RVA = "0x1B0F3D0", Offset = "0x1B0D9D0", VA = "0x181B0F3D0")]
 		get
 		{
 			return default(DateTime);
@@ -91,8 +73,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007B")]
 	public DateTime UtcDateTime
 	{
-		[Token(Token = "0x600063D")]
-		[Address(RVA = "0x3C95F80", Offset = "0x3C95F80", VA = "0x3C95F80")]
+		[Token(Token = "0x6000670")]
+		[Address(RVA = "0x1B0FC10", Offset = "0x1B0E210", VA = "0x181B0FC10")]
 		get
 		{
 			return default(DateTime);
@@ -102,8 +84,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007C")]
 	public DateTime LocalDateTime
 	{
-		[Token(Token = "0x600063E")]
-		[Address(RVA = "0x3C96090", Offset = "0x3C96090", VA = "0x3C96090")]
+		[Token(Token = "0x6000671")]
+		[Address(RVA = "0x1B0F5D0", Offset = "0x1B0DBD0", VA = "0x181B0F5D0")]
 		get
 		{
 			return default(DateTime);
@@ -113,8 +95,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007D")]
 	private DateTime ClockDateTime
 	{
-		[Token(Token = "0x600063F")]
-		[Address(RVA = "0x3C95E30", Offset = "0x3C95E30", VA = "0x3C95E30")]
+		[Token(Token = "0x6000672")]
+		[Address(RVA = "0x1B0F1D0", Offset = "0x1B0D7D0", VA = "0x181B0F1D0")]
 		get
 		{
 			return default(DateTime);
@@ -124,8 +106,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007E")]
 	public int Day
 	{
-		[Token(Token = "0x6000640")]
-		[Address(RVA = "0x3C96190", Offset = "0x3C96190", VA = "0x3C96190")]
+		[Token(Token = "0x6000673")]
+		[Address(RVA = "0x1B0F420", Offset = "0x1B0DA20", VA = "0x181B0F420")]
 		get
 		{
 			return default(int);
@@ -135,8 +117,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x1700007F")]
 	public int Hour
 	{
-		[Token(Token = "0x6000641")]
-		[Address(RVA = "0x3C96260", Offset = "0x3C96260", VA = "0x3C96260")]
+		[Token(Token = "0x6000674")]
+		[Address(RVA = "0x1B0F4E0", Offset = "0x1B0DAE0", VA = "0x181B0F4E0")]
 		get
 		{
 			return default(int);
@@ -146,8 +128,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000080")]
 	public int Millisecond
 	{
-		[Token(Token = "0x6000642")]
-		[Address(RVA = "0x3C96350", Offset = "0x3C96350", VA = "0x3C96350")]
+		[Token(Token = "0x6000675")]
+		[Address(RVA = "0x1B0F680", Offset = "0x1B0DC80", VA = "0x181B0F680")]
 		get
 		{
 			return default(int);
@@ -157,8 +139,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000081")]
 	public int Minute
 	{
-		[Token(Token = "0x6000643")]
-		[Address(RVA = "0x3C96450", Offset = "0x3C96450", VA = "0x3C96450")]
+		[Token(Token = "0x6000676")]
+		[Address(RVA = "0x1B0F770", Offset = "0x1B0DD70", VA = "0x181B0F770")]
 		get
 		{
 			return default(int);
@@ -168,8 +150,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000082")]
 	public int Month
 	{
-		[Token(Token = "0x6000644")]
-		[Address(RVA = "0x3C96550", Offset = "0x3C96550", VA = "0x3C96550")]
+		[Token(Token = "0x6000677")]
+		[Address(RVA = "0x1B0F860", Offset = "0x1B0DE60", VA = "0x181B0F860")]
 		get
 		{
 			return default(int);
@@ -179,8 +161,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000083")]
 	public TimeSpan Offset
 	{
-		[Token(Token = "0x6000645")]
-		[Address(RVA = "0x3C96160", Offset = "0x3C96160", VA = "0x3C96160")]
+		[Token(Token = "0x6000678")]
+		[Address(RVA = "0x1B0F980", Offset = "0x1B0DF80", VA = "0x181B0F980")]
 		get
 		{
 			return default(TimeSpan);
@@ -190,8 +172,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000084")]
 	public int Second
 	{
-		[Token(Token = "0x6000646")]
-		[Address(RVA = "0x3C96620", Offset = "0x3C96620", VA = "0x3C96620")]
+		[Token(Token = "0x6000679")]
+		[Address(RVA = "0x1B0F9B0", Offset = "0x1B0DFB0", VA = "0x181B0F9B0")]
 		get
 		{
 			return default(int);
@@ -201,8 +183,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000085")]
 	public long Ticks
 	{
-		[Token(Token = "0x6000647")]
-		[Address(RVA = "0x3C96720", Offset = "0x3C96720", VA = "0x3C96720")]
+		[Token(Token = "0x600067A")]
+		[Address(RVA = "0x1B0FAA0", Offset = "0x1B0E0A0", VA = "0x181B0FAA0")]
 		get
 		{
 			return default(long);
@@ -212,8 +194,8 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000086")]
 	public TimeSpan TimeOfDay
 	{
-		[Token(Token = "0x6000648")]
-		[Address(RVA = "0x3C967F0", Offset = "0x3C967F0", VA = "0x3C967F0")]
+		[Token(Token = "0x600067B")]
+		[Address(RVA = "0x1B0FB50", Offset = "0x1B0E150", VA = "0x181B0FB50")]
 		get
 		{
 			return default(TimeSpan);
@@ -223,294 +205,266 @@ public readonly struct DateTimeOffset : IComparable, IFormattable, IComparable<D
 	[Token(Token = "0x17000087")]
 	public int Year
 	{
-		[Token(Token = "0x6000649")]
-		[Address(RVA = "0x3C968E0", Offset = "0x3C968E0", VA = "0x3C968E0")]
+		[Token(Token = "0x600067C")]
+		[Address(RVA = "0x1B0FDD0", Offset = "0x1B0E3D0", VA = "0x181B0FDD0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x3C95220", Offset = "0x3C95220", VA = "0x3C95220")]
+	[Token(Token = "0x6000667")]
+	[Address(RVA = "0x1B0ECE0", Offset = "0x1B0D2E0", VA = "0x181B0ECE0")]
 	public DateTimeOffset(long ticks, TimeSpan offset)
 	{
 	}
 
-	[Token(Token = "0x6000635")]
-	[Address(RVA = "0x3C955B0", Offset = "0x3C955B0", VA = "0x3C955B0")]
+	[Token(Token = "0x6000668")]
+	[Address(RVA = "0x1B0EFB0", Offset = "0x1B0D5B0", VA = "0x181B0EFB0")]
 	public DateTimeOffset(DateTime dateTime)
 	{
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x3C95740", Offset = "0x3C95740", VA = "0x3C95740")]
+	[Token(Token = "0x6000669")]
+	[Address(RVA = "0x1B0EA40", Offset = "0x1B0D040", VA = "0x181B0EA40")]
 	public DateTimeOffset(DateTime dateTime, TimeSpan offset)
 	{
 	}
 
-	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x3C95A20", Offset = "0x3C95A20", VA = "0x3C95A20")]
+	[Token(Token = "0x600066A")]
+	[Address(RVA = "0x1B0EDF0", Offset = "0x1B0D3F0", VA = "0x181B0EDF0")]
 	public DateTimeOffset(int year, int month, int day, int hour, int minute, int second, TimeSpan offset)
 	{
 	}
 
-	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x3C95B00", Offset = "0x3C95B00", VA = "0x3C95B00")]
+	[Token(Token = "0x600066B")]
+	[Address(RVA = "0x1B0F100", Offset = "0x1B0D700", VA = "0x181B0F100")]
 	public DateTimeOffset(int year, int month, int day, int hour, int minute, int second, int millisecond, TimeSpan offset)
 	{
 	}
 
-	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x3C95BC0", Offset = "0x3C95BC0", VA = "0x3C95BC0")]
+	[Token(Token = "0x600066C")]
+	[Address(RVA = "0x1B0EED0", Offset = "0x1B0D4D0", VA = "0x181B0EED0")]
 	public DateTimeOffset(int year, int month, int day, int hour, int minute, int second, int millisecond, Calendar calendar, TimeSpan offset)
 	{
 	}
 
-	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x3C96970", Offset = "0x3C96970", VA = "0x3C96970")]
+	[Token(Token = "0x600067D")]
+	[Address(RVA = "0x1B0C4F0", Offset = "0x1B0AAF0", VA = "0x181B0C4F0")]
 	public DateTimeOffset AddMinutes(double minutes)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x3C96AA0", Offset = "0x3C96AA0", VA = "0x3C96AA0")]
-	public DateTimeOffset AddTicks(long ticks)
-	{
-		return default(DateTimeOffset);
-	}
-
-	[Token(Token = "0x600064C")]
-	[Address(RVA = "0x3C96B80", Offset = "0x3C96B80", VA = "0x3C96B80")]
+	[Token(Token = "0x600067E")]
+	[Address(RVA = "0x1B0C760", Offset = "0x1B0AD60", VA = "0x181B0C760")]
 	public static int Compare(DateTimeOffset first, DateTimeOffset second)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600064D")]
-	[Address(RVA = "0x3C96C80", Offset = "0x3C96C80", VA = "0x3C96C80", Slot = "4")]
+	[Token(Token = "0x600067F")]
+	[Address(RVA = "0x1B0D3B0", Offset = "0x1B0B9B0", VA = "0x181B0D3B0", Slot = "4")]
 	private int System_002EIComparable_002ECompareTo(object obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600064E")]
-	[Address(RVA = "0x3C96E40", Offset = "0x3C96E40", VA = "0x3C96E40", Slot = "6")]
+	[Token(Token = "0x6000680")]
+	[Address(RVA = "0x1B0C610", Offset = "0x1B0AC10", VA = "0x181B0C610", Slot = "6")]
 	public int CompareTo(DateTimeOffset other)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600064F")]
-	[Address(RVA = "0x3C96F90", Offset = "0x3C96F90", VA = "0x3C96F90", Slot = "0")]
+	[Token(Token = "0x6000681")]
+	[Address(RVA = "0x1B0C800", Offset = "0x1B0AE00", VA = "0x181B0C800", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000650")]
-	[Address(RVA = "0x3C970B0", Offset = "0x3C970B0", VA = "0x3C970B0", Slot = "7")]
+	[Token(Token = "0x6000682")]
+	[Address(RVA = "0x1B0C930", Offset = "0x1B0AF30", VA = "0x181B0C930", Slot = "7")]
 	public bool Equals(DateTimeOffset other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x3C97190", Offset = "0x3C97190", VA = "0x3C97190")]
+	[Token(Token = "0x6000683")]
+	[Address(RVA = "0x1B0CA00", Offset = "0x1B0B000", VA = "0x181B0CA00")]
 	public static DateTimeOffset FromFileTime(long fileTime)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x6000652")]
-	[Address(RVA = "0x3C97200", Offset = "0x3C97200", VA = "0x3C97200")]
-	public static DateTimeOffset FromUnixTimeSeconds(long seconds)
-	{
-		return default(DateTimeOffset);
-	}
-
-	[Token(Token = "0x6000653")]
-	[Address(RVA = "0x3C97350", Offset = "0x3C97350", VA = "0x3C97350", Slot = "9")]
+	[Token(Token = "0x6000684")]
+	[Address(RVA = "0x1B0D520", Offset = "0x1B0BB20", VA = "0x181B0D520", Slot = "9")]
 	private void System_002ERuntime_002ESerialization_002EIDeserializationCallback_002EOnDeserialization(object sender)
 	{
 	}
 
-	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x3C974F0", Offset = "0x3C974F0", VA = "0x3C974F0", Slot = "8")]
+	[Token(Token = "0x6000685")]
+	[Address(RVA = "0x1B0D640", Offset = "0x1B0BC40", VA = "0x181B0D640", Slot = "8")]
 	private void System_002ERuntime_002ESerialization_002EISerializable_002EGetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000655")]
-	[Address(RVA = "0x3C975B0", Offset = "0x3C975B0", VA = "0x3C975B0")]
+	[Token(Token = "0x6000686")]
+	[Address(RVA = "0x1B0E8B0", Offset = "0x1B0CEB0", VA = "0x181B0E8B0")]
 	private DateTimeOffset(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000656")]
-	[Address(RVA = "0x3C97730", Offset = "0x3C97730", VA = "0x3C97730", Slot = "2")]
+	[Token(Token = "0x6000687")]
+	[Address(RVA = "0x1B0CBD0", Offset = "0x1B0B1D0", VA = "0x181B0CBD0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000657")]
-	[Address(RVA = "0x3C97800", Offset = "0x3C97800", VA = "0x3C97800")]
+	[Token(Token = "0x6000688")]
+	[Address(RVA = "0x1B0D320", Offset = "0x1B0B920", VA = "0x181B0D320")]
 	public static DateTimeOffset Parse(string input, IFormatProvider formatProvider)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x6000658")]
-	[Address(RVA = "0x3C97880", Offset = "0x3C97880", VA = "0x3C97880")]
+	[Token(Token = "0x6000689")]
+	[Address(RVA = "0x1B0D080", Offset = "0x1B0B680", VA = "0x181B0D080")]
 	public static DateTimeOffset Parse(string input, IFormatProvider formatProvider, DateTimeStyles styles)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x6000659")]
-	[Address(RVA = "0x3C97C70", Offset = "0x3C97C70", VA = "0x3C97C70")]
+	[Token(Token = "0x600068A")]
+	[Address(RVA = "0x1B0CC90", Offset = "0x1B0B290", VA = "0x181B0CC90")]
 	public static DateTimeOffset ParseExact(string input, string format, IFormatProvider formatProvider, DateTimeStyles styles)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x600065A")]
-	[Address(RVA = "0x3C980A0", Offset = "0x3C980A0", VA = "0x3C980A0")]
+	[Token(Token = "0x600068B")]
+	[Address(RVA = "0x1B0DB60", Offset = "0x1B0C160", VA = "0x181B0DB60")]
 	public long ToUnixTimeSeconds()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600065B")]
-	[Address(RVA = "0x3C98190", Offset = "0x3C98190", VA = "0x3C98190")]
+	[Token(Token = "0x600068C")]
+	[Address(RVA = "0x1B0DA90", Offset = "0x1B0C090", VA = "0x181B0DA90")]
 	public long ToUnixTimeMilliseconds()
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x600065C")]
-	[Address(RVA = "0x3C98280", Offset = "0x3C98280", VA = "0x3C98280")]
-	public DateTimeOffset ToLocalTime()
-	{
-		return default(DateTimeOffset);
-	}
-
-	[Token(Token = "0x600065D")]
-	[Address(RVA = "0x3C982E0", Offset = "0x3C982E0", VA = "0x3C982E0")]
-	internal DateTimeOffset ToLocalTime(bool throwOnOverflow)
-	{
-		return default(DateTimeOffset);
-	}
-
-	[Token(Token = "0x600065E")]
-	[Address(RVA = "0x3C98390", Offset = "0x3C98390", VA = "0x3C98390", Slot = "3")]
+	[Token(Token = "0x600068D")]
+	[Address(RVA = "0x1B0D7C0", Offset = "0x1B0BDC0", VA = "0x181B0D7C0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x3C986D0", Offset = "0x3C986D0", VA = "0x3C986D0")]
+	[Token(Token = "0x600068E")]
+	[Address(RVA = "0x1B0D880", Offset = "0x1B0BE80", VA = "0x181B0D880")]
 	public string ToString(string format)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x3C98780", Offset = "0x3C98780", VA = "0x3C98780")]
+	[Token(Token = "0x600068F")]
+	[Address(RVA = "0x1B0D950", Offset = "0x1B0BF50", VA = "0x181B0D950")]
 	public string ToString(IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x3C98830", Offset = "0x3C98830", VA = "0x3C98830", Slot = "5")]
+	[Token(Token = "0x6000690")]
+	[Address(RVA = "0x1B0D700", Offset = "0x1B0BD00", VA = "0x181B0D700", Slot = "5")]
 	public string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x3C988E0", Offset = "0x3C988E0", VA = "0x3C988E0", Slot = "10")]
+	[Token(Token = "0x6000691")]
+	[Address(RVA = "0x1B0DC30", Offset = "0x1B0C230", VA = "0x181B0DC30", Slot = "10")]
 	public bool TryFormat(Span<char> destination, out int charsWritten, [Optional] ReadOnlySpan<char> format, [Optional] IFormatProvider formatProvider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x3C98BB0", Offset = "0x3C98BB0", VA = "0x3C98BB0")]
+	[Token(Token = "0x6000692")]
+	[Address(RVA = "0x1B0DA20", Offset = "0x1B0C020", VA = "0x181B0DA20")]
 	public DateTimeOffset ToUniversalTime()
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x3C98C20", Offset = "0x3C98C20", VA = "0x3C98C20")]
+	[Token(Token = "0x6000693")]
+	[Address(RVA = "0x1B0DFB0", Offset = "0x1B0C5B0", VA = "0x181B0DFB0")]
 	public static bool TryParse(string input, IFormatProvider formatProvider, DateTimeStyles styles, out DateTimeOffset result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x3C98F80", Offset = "0x3C98F80", VA = "0x3C98F80")]
+	[Token(Token = "0x6000694")]
+	[Address(RVA = "0x1B0DD40", Offset = "0x1B0C340", VA = "0x181B0DD40")]
 	public static bool TryParseExact(string input, string format, IFormatProvider formatProvider, DateTimeStyles styles, out DateTimeOffset result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x3C95310", Offset = "0x3C95310", VA = "0x3C95310")]
+	[Token(Token = "0x6000695")]
+	[Address(RVA = "0x1B0E3C0", Offset = "0x1B0C9C0", VA = "0x181B0E3C0")]
 	private static short ValidateOffset(TimeSpan offset)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x3C95450", Offset = "0x3C95450", VA = "0x3C95450")]
+	[Token(Token = "0x6000696")]
+	[Address(RVA = "0x1B0E2A0", Offset = "0x1B0C8A0", VA = "0x181B0E2A0")]
 	private static DateTime ValidateDate(DateTime dateTime, TimeSpan offset)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x3C97AB0", Offset = "0x3C97AB0", VA = "0x3C97AB0")]
+	[Token(Token = "0x6000697")]
+	[Address(RVA = "0x1B0E540", Offset = "0x1B0CB40", VA = "0x181B0E540")]
 	private static DateTimeStyles ValidateStyles(DateTimeStyles style, string parameterName)
 	{
 		return default(DateTimeStyles);
 	}
 
-	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x3C99380", Offset = "0x3C99380", VA = "0x3C99380")]
+	[Token(Token = "0x6000698")]
+	[Address(RVA = "0x1B10020", Offset = "0x1B0E620", VA = "0x181B10020")]
 	public static implicit operator DateTimeOffset(DateTime dateTime)
 	{
 		return default(DateTimeOffset);
 	}
 
-	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x3C993B0", Offset = "0x3C993B0", VA = "0x3C993B0")]
+	[Token(Token = "0x6000699")]
+	[Address(RVA = "0x1B10110", Offset = "0x1B0E710", VA = "0x181B10110")]
 	public static TimeSpan operator -(DateTimeOffset left, DateTimeOffset right)
 	{
 		return default(TimeSpan);
 	}
 
-	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x3C994A0", Offset = "0x3C994A0", VA = "0x3C994A0")]
+	[Token(Token = "0x600069A")]
+	[Address(RVA = "0x1B0FE80", Offset = "0x1B0E480", VA = "0x181B0FE80")]
 	public static bool operator ==(DateTimeOffset left, DateTimeOffset right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x3C99590", Offset = "0x3C99590", VA = "0x3C99590")]
+	[Token(Token = "0x600069B")]
+	[Address(RVA = "0x1B10040", Offset = "0x1B0E640", VA = "0x181B10040")]
 	public static bool operator !=(DateTimeOffset left, DateTimeOffset right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x3C99680", Offset = "0x3C99680", VA = "0x3C99680")]
+	[Token(Token = "0x600069C")]
+	[Address(RVA = "0x1B0FF50", Offset = "0x1B0E550", VA = "0x181B0FF50")]
 	public static bool operator >=(DateTimeOffset left, DateTimeOffset right)
 	{
 		return default(bool);

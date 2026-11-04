@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000287")]
+[Token(Token = "0x2000192")]
 public enum InheritanceLevel
 {
-	[Token(Token = "0x4000D4F")]
+	[Token(Token = "0x4000686")]
 	Inherited = 1,
-	[Token(Token = "0x4000D50")]
+	[Token(Token = "0x4000687")]
 	InheritedReadOnly,
-	[Token(Token = "0x4000D51")]
+	[Token(Token = "0x4000688")]
 	NotInherited
 }

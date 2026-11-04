@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000681")]
+[Token(Token = "0x20007DC")]
 internal class DuelCategoryPanel : CategoryPanel
 {
-	[Token(Token = "0x17000C79")]
+	[Token(Token = "0x17000DBF")]
 	protected override bool ScrollBar
 	{
-		[Token(Token = "0x600413E")]
-		[Address(RVA = "0x42FAA90", Offset = "0x42FAA90", VA = "0x42FAA90", Slot = "15")]
+		[Token(Token = "0x6004C33")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "15")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C7A")]
+	[Token(Token = "0x17000DC0")]
 	protected override string ThemePanel
 	{
-		[Token(Token = "0x600413F")]
-		[Address(RVA = "0x42FAAA0", Offset = "0x42FAAA0", VA = "0x42FAAA0", Slot = "4")]
+		[Token(Token = "0x6004C34")]
+		[Address(RVA = "0x2278830", Offset = "0x2276E30", VA = "0x182278830", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6004140")]
-	[Address(RVA = "0x42FAAD0", Offset = "0x42FAAD0", VA = "0x42FAAD0")]
+	[Token(Token = "0x6004C35")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public DuelCategoryPanel()
 	{
 	}

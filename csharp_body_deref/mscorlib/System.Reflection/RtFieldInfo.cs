@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x2000514")]
+[Token(Token = "0x2000544")]
 internal abstract class RtFieldInfo : FieldInfo
 {
-	[Token(Token = "0x6002655")]
+	[Token(Token = "0x60026D8")]
 	internal abstract object UnsafeGetValue(object obj);
 
-	[Token(Token = "0x6002656")]
+	[Token(Token = "0x60026D9")]
 	internal abstract void UnsafeSetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, CultureInfo culture);
 
-	[Token(Token = "0x6002657")]
+	[Token(Token = "0x60026DA")]
 	internal abstract void CheckConsistency(object target);
 
-	[Token(Token = "0x6002658")]
-	[Address(RVA = "0x3BE0CA0", Offset = "0x3BE0CA0", VA = "0x3BE0CA0")]
+	[Token(Token = "0x60026DB")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	protected RtFieldInfo()
 	{
 	}

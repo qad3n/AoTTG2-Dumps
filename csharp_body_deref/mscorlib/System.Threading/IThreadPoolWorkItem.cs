@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000207")]
+[Token(Token = "0x2000238")]
 internal interface IThreadPoolWorkItem
 {
-	[Token(Token = "0x60012CC")]
+	[Token(Token = "0x600133D")]
 	void ExecuteWorkItem();
 
-	[Token(Token = "0x60012CD")]
+	[Token(Token = "0x600133E")]
 	void MarkAborted(ThreadAbortException tae);
 }

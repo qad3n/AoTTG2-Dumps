@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x20003F6")]
+[Token(Token = "0x2000425")]
 internal enum BinaryHeaderEnum
 {
-	[Token(Token = "0x4001043")]
-	SerializedStreamHeader,
-	[Token(Token = "0x4001044")]
-	Object,
 	[Token(Token = "0x4001045")]
-	ObjectWithMap,
+	SerializedStreamHeader,
 	[Token(Token = "0x4001046")]
-	ObjectWithMapAssemId,
+	Object,
 	[Token(Token = "0x4001047")]
-	ObjectWithMapTyped,
+	ObjectWithMap,
 	[Token(Token = "0x4001048")]
-	ObjectWithMapTypedAssemId,
+	ObjectWithMapAssemId,
 	[Token(Token = "0x4001049")]
-	ObjectString,
+	ObjectWithMapTyped,
 	[Token(Token = "0x400104A")]
-	Array,
+	ObjectWithMapTypedAssemId,
 	[Token(Token = "0x400104B")]
-	MemberPrimitiveTyped,
+	ObjectString,
 	[Token(Token = "0x400104C")]
-	MemberReference,
+	Array,
 	[Token(Token = "0x400104D")]
-	ObjectNull,
+	MemberPrimitiveTyped,
 	[Token(Token = "0x400104E")]
-	MessageEnd,
+	MemberReference,
 	[Token(Token = "0x400104F")]
-	Assembly,
+	ObjectNull,
 	[Token(Token = "0x4001050")]
-	ObjectNullMultiple256,
+	MessageEnd,
 	[Token(Token = "0x4001051")]
-	ObjectNullMultiple,
+	Assembly,
 	[Token(Token = "0x4001052")]
-	ArraySinglePrimitive,
+	ObjectNullMultiple256,
 	[Token(Token = "0x4001053")]
-	ArraySingleObject,
+	ObjectNullMultiple,
 	[Token(Token = "0x4001054")]
-	ArraySingleString,
+	ArraySinglePrimitive,
 	[Token(Token = "0x4001055")]
-	CrossAppDomainMap,
+	ArraySingleObject,
 	[Token(Token = "0x4001056")]
-	CrossAppDomainString,
+	ArraySingleString,
 	[Token(Token = "0x4001057")]
-	CrossAppDomainAssembly,
+	CrossAppDomainMap,
 	[Token(Token = "0x4001058")]
-	MethodCall,
+	CrossAppDomainString,
 	[Token(Token = "0x4001059")]
+	CrossAppDomainAssembly,
+	[Token(Token = "0x400105A")]
+	MethodCall,
+	[Token(Token = "0x400105B")]
 	MethodReturn
 }

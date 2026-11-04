@@ -11,85 +11,85 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B5")]
+[Token(Token = "0x20004E5")]
 internal sealed class FastResourceComparer : IComparer, IEqualityComparer, IComparer<string>, IEqualityComparer<string>
 {
 	[Token(Token = "0x4001370")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly System.Resources.FastResourceComparer Default;
 
-	[Token(Token = "0x6002355")]
-	[Address(RVA = "0x3BC5BE0", Offset = "0x3BC5BE0", VA = "0x3BC5BE0", Slot = "6")]
+	[Token(Token = "0x60023D7")]
+	[Address(RVA = "0x1A44B10", Offset = "0x1A43110", VA = "0x181A44B10", Slot = "6")]
 	public int GetHashCode(object key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002356")]
-	[Address(RVA = "0x3BC5D00", Offset = "0x3BC5D00", VA = "0x3BC5D00", Slot = "9")]
+	[Token(Token = "0x60023D8")]
+	[Address(RVA = "0x1A44BC0", Offset = "0x1A431C0", VA = "0x181A44BC0", Slot = "9")]
 	public int GetHashCode(string key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002357")]
-	[Address(RVA = "0x3BC5CA0", Offset = "0x3BC5CA0", VA = "0x3BC5CA0")]
+	[Token(Token = "0x60023D9")]
+	[Address(RVA = "0x1A44C50", Offset = "0x1A43250", VA = "0x181A44C50")]
 	internal static int HashFunction(string key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002358")]
-	[Address(RVA = "0x3BC5DB0", Offset = "0x3BC5DB0", VA = "0x3BC5DB0", Slot = "4")]
+	[Token(Token = "0x60023DA")]
+	[Address(RVA = "0x1A44A10", Offset = "0x1A43010", VA = "0x181A44A10", Slot = "4")]
 	public int Compare(object a, object b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002359")]
-	[Address(RVA = "0x3BC5E00", Offset = "0x3BC5E00", VA = "0x3BC5E00", Slot = "7")]
+	[Token(Token = "0x60023DB")]
+	[Address(RVA = "0x1A449F0", Offset = "0x1A42FF0", VA = "0x181A449F0", Slot = "7")]
 	public int Compare(string a, string b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600235A")]
-	[Address(RVA = "0x3BC5E10", Offset = "0x3BC5E10", VA = "0x3BC5E10", Slot = "8")]
+	[Token(Token = "0x60023DC")]
+	[Address(RVA = "0x1A44AF0", Offset = "0x1A430F0", VA = "0x181A44AF0", Slot = "8")]
 	public bool Equals(string a, string b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600235B")]
-	[Address(RVA = "0x3BC5E20", Offset = "0x3BC5E20", VA = "0x3BC5E20", Slot = "5")]
+	[Token(Token = "0x60023DD")]
+	[Address(RVA = "0x1A44A80", Offset = "0x1A43080", VA = "0x181A44A80", Slot = "5")]
 	public new bool Equals(object a, object b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600235C")]
-	[Address(RVA = "0x3BC5E70", Offset = "0x3BC5E70", VA = "0x3BC5E70")]
+	[Token(Token = "0x60023DE")]
+	[Address(RVA = "0x1A44910", Offset = "0x1A42F10", VA = "0x181A44910")]
 	public static int CompareOrdinal(string a, byte[] bytes, int bCharLength)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600235D")]
-	[Address(RVA = "0x3BC5F20", Offset = "0x3BC5F20", VA = "0x3BC5F20")]
+	[Token(Token = "0x60023DF")]
+	[Address(RVA = "0x1A44770", Offset = "0x1A42D70", VA = "0x181A44770")]
 	public static int CompareOrdinal(byte[] bytes, int aCharLength, string b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600235E")]
-	[Address(RVA = "0x3BC6020", Offset = "0x3BC6020", VA = "0x3BC6020")]
+	[Token(Token = "0x60023E0")]
+	[Address(RVA = "0x1A44860", Offset = "0x1A42E60", VA = "0x181A44860")]
 	internal unsafe static int CompareOrdinal(byte* a, int byteLen, string b)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600235F")]
-	[Address(RVA = "0x3BC60C0", Offset = "0x3BC60C0", VA = "0x3BC60C0")]
+	[Token(Token = "0x60023E1")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public FastResourceComparer()
 	{
 	}

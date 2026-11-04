@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000151")]
+[Token(Token = "0x200017B")]
 internal sealed class LocalDataStoreHolder
 {
-	[Token(Token = "0x4000517")]
+	[Token(Token = "0x400057B")]
 	[FieldOffset(Offset = "0x10")]
 	private System.LocalDataStore m_Store;
 
-	[Token(Token = "0x17000126")]
+	[Token(Token = "0x17000127")]
 	public System.LocalDataStore Store
 	{
-		[Token(Token = "0x6000D59")]
-		[Address(RVA = "0x3CE58E0", Offset = "0x3CE58E0", VA = "0x3CE58E0")]
+		[Token(Token = "0x6000DA6")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000D57")]
-	[Address(RVA = "0x3CE57F0", Offset = "0x3CE57F0", VA = "0x3CE57F0")]
+	[Token(Token = "0x6000DA4")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public LocalDataStoreHolder(System.LocalDataStore store)
 	{
 	}
 
-	[Token(Token = "0x6000D58")]
-	[Address(RVA = "0x3CE5820", Offset = "0x3CE5820", VA = "0x3CE5820", Slot = "1")]
+	[Token(Token = "0x6000DA5")]
+	[Address(RVA = "0x1B6B5E0", Offset = "0x1B69BE0", VA = "0x181B6B5E0", Slot = "1")]
 	~LocalDataStoreHolder()
 	{
 	}

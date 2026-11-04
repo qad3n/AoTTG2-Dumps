@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005E1")]
+[Token(Token = "0x20005B3")]
 [ComVisible(true)]
 public enum DebuggerBrowsableState
 {
-	[Token(Token = "0x4001A02")]
+	[Token(Token = "0x400181E")]
 	Never = 0,
-	[Token(Token = "0x4001A03")]
+	[Token(Token = "0x400181F")]
 	Collapsed = 2,
-	[Token(Token = "0x4001A04")]
+	[Token(Token = "0x4001820")]
 	RootHidden = 3
 }

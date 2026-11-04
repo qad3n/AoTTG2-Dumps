@@ -17,13 +17,13 @@ internal class TernaryTreeReadOnly
 	private byte[] nodeBuffer;
 
 	[Token(Token = "0x60001A1")]
-	[Address(RVA = "0x4794B50", Offset = "0x4794B50", VA = "0x4794B50")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public TernaryTreeReadOnly(byte[] nodeBuffer)
 	{
 	}
 
 	[Token(Token = "0x60001A2")]
-	[Address(RVA = "0x47936A0", Offset = "0x47936A0", VA = "0x47936A0")]
+	[Address(RVA = "0x26E21F0", Offset = "0x26E07F0", VA = "0x1826E21F0")]
 	public byte FindCaseInsensitiveString(string stringToFind)
 	{
 		return default(byte);

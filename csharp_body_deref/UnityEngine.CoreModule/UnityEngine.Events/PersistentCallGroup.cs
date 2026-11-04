@@ -13,23 +13,23 @@ using UnityEngine.Serialization;
 namespace UnityEngine.Events;
 
 [Serializable]
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x200022A")]
 internal class PersistentCallGroup
 {
-	[Token(Token = "0x4000693")]
+	[Token(Token = "0x400072A")]
 	[FieldOffset(Offset = "0x10")]
-	[SerializeField]
 	[FormerlySerializedAs("m_Listeners")]
+	[SerializeField]
 	private List<PersistentCall> m_Calls;
 
-	[Token(Token = "0x6000D52")]
-	[Address(RVA = "0x4E12470", Offset = "0x4E12470", VA = "0x4E12470")]
+	[Token(Token = "0x6001131")]
+	[Address(RVA = "0x2F4BD40", Offset = "0x2F4A340", VA = "0x182F4BD40")]
 	public PersistentCallGroup()
 	{
 	}
 
-	[Token(Token = "0x6000D53")]
-	[Address(RVA = "0x4E124F0", Offset = "0x4E124F0", VA = "0x4E124F0")]
+	[Token(Token = "0x6001132")]
+	[Address(RVA = "0x2F4BBD0", Offset = "0x2F4A1D0", VA = "0x182F4BBD0")]
 	public void Initialize(InvokableCallList invokableList, UnityEventBase unityEventBase)
 	{
 	}

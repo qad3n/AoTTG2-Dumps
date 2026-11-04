@@ -11,20 +11,20 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000678")]
+[Token(Token = "0x200064C")]
 internal sealed class ShortEnumEqualityComparer<T> : System.Collections.Generic.EnumEqualityComparer<T>, ISerializable where T : struct
 {
-	[Token(Token = "0x6003333")]
+	[Token(Token = "0x600304D")]
 	public ShortEnumEqualityComparer()
 	{
 	}
 
-	[Token(Token = "0x6003334")]
+	[Token(Token = "0x600304E")]
 	public ShortEnumEqualityComparer(SerializationInfo information, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6003335")]
+	[Token(Token = "0x600304F")]
 	public override int GetHashCode(T obj)
 	{
 		return default(int);

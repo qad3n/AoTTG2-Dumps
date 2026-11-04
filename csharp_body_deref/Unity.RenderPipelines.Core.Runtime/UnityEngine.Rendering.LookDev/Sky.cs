@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.LookDev;
 
-[Token(Token = "0x200020F")]
+[Token(Token = "0x20002CE")]
 public struct Sky
 {
-	[Token(Token = "0x4000848")]
+	[Token(Token = "0x4000D1A")]
 	[FieldOffset(Offset = "0x0")]
 	public Cubemap cubemap;
 
-	[Token(Token = "0x4000849")]
+	[Token(Token = "0x4000D1B")]
 	[FieldOffset(Offset = "0x8")]
 	public float longitudeOffset;
 
-	[Token(Token = "0x400084A")]
+	[Token(Token = "0x4000D1C")]
 	[FieldOffset(Offset = "0xC")]
 	public float exposure;
 }

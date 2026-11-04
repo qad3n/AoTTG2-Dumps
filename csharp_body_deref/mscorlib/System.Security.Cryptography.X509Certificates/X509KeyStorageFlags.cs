@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x2000326")]
+[Token(Token = "0x2000355")]
 [Flags]
 public enum X509KeyStorageFlags
 {
-	[Token(Token = "0x4000E27")]
+	[Token(Token = "0x4000E34")]
 	DefaultKeySet = 0,
-	[Token(Token = "0x4000E28")]
+	[Token(Token = "0x4000E35")]
 	UserKeySet = 1,
-	[Token(Token = "0x4000E29")]
+	[Token(Token = "0x4000E36")]
 	MachineKeySet = 2,
-	[Token(Token = "0x4000E2A")]
+	[Token(Token = "0x4000E37")]
 	Exportable = 4,
-	[Token(Token = "0x4000E2B")]
+	[Token(Token = "0x4000E38")]
 	UserProtected = 8,
-	[Token(Token = "0x4000E2C")]
+	[Token(Token = "0x4000E39")]
 	PersistKeySet = 0x10,
-	[Token(Token = "0x4000E2D")]
+	[Token(Token = "0x4000E3A")]
 	EphemeralKeySet = 0x20
 }

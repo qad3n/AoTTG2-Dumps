@@ -10,63 +10,63 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000009")]
 public class PhotonStatsGui : MonoBehaviour
 {
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x400002C")]
 	[FieldOffset(Offset = "0x20")]
 	public bool statsWindowOn;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x400002D")]
 	[FieldOffset(Offset = "0x21")]
 	public bool statsOn;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400002E")]
 	[FieldOffset(Offset = "0x22")]
 	public bool healthStatsVisible;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400002F")]
 	[FieldOffset(Offset = "0x23")]
 	public bool trafficStatsOn;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000030")]
 	[FieldOffset(Offset = "0x24")]
 	public bool buttonsOn;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x28")]
 	public Rect statsRect;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x4000032")]
 	[FieldOffset(Offset = "0x38")]
 	public int WindowId;
 
-	[Token(Token = "0x600002D")]
-	[Address(RVA = "0x3EFEC10", Offset = "0x3EFEC10", VA = "0x3EFEC10")]
+	[Token(Token = "0x600002B")]
+	[Address(RVA = "0x1D55560", Offset = "0x1D53B60", VA = "0x181D55560")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x600002E")]
-	[Address(RVA = "0x3EFEC20", Offset = "0x3EFEC20", VA = "0x3EFEC20")]
+	[Token(Token = "0x600002C")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public void Update()
 	{
 	}
 
-	[Token(Token = "0x600002F")]
-	[Address(RVA = "0x3EFEC30", Offset = "0x3EFEC30", VA = "0x3EFEC30")]
+	[Token(Token = "0x600002D")]
+	[Address(RVA = "0x1D553C0", Offset = "0x1D539C0", VA = "0x181D553C0")]
 	public void OnGUI()
 	{
 	}
 
-	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3EFEE80", Offset = "0x3EFEE80", VA = "0x3EFEE80")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x1D555D0", Offset = "0x1D53BD0", VA = "0x181D555D0")]
 	public void TrafficStatsWindow(int windowID)
 	{
 	}
 
-	[Token(Token = "0x6000031")]
-	[Address(RVA = "0x3F005C0", Offset = "0x3F005C0", VA = "0x3F005C0")]
+	[Token(Token = "0x600002F")]
+	[Address(RVA = "0x1D563C0", Offset = "0x1D549C0", VA = "0x181D563C0")]
 	public PhotonStatsGui()
 	{
 	}

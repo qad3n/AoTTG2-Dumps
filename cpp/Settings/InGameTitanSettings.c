@@ -1,101 +1,267 @@
 // Type: Settings.InGameTitanSettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Settings/InGameTitanSettings.cs
 // Prior real C# source (older reference): Assets/Scripts/Settings/InGame/InGameTitanSettings.cs
 // --------------------------------
 
 // Settings.InGameTitanSettings$$.ctor
 // il2cpp: void Settings_InGameTitanSettings___ctor (Settings_InGameTitanSettings_o* __this, const MethodInfo* method);
-// 0x408bff0
+// 0x181f1bde0
 
 void Settings_InGameTitanSettings___ctor(Settings_InGameTitanSettings_o *__this,MethodInfo *method)
 
 {
-  Settings_BoolSetting_o *pSVar1;
-  Settings_FloatSetting_o *pSVar2;
-  Settings_IntSetting_o *pSVar3;
+  Settings_IntSetting_c *pSVar1;
+  int32_t iVar2;
+  Settings_BoolSetting_o *pSVar3;
+  Settings_FloatSetting_o *pSVar4;
+  Settings_IntSetting_o *pSVar5;
   
-  if (g_data_057ac3f8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BoolSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_FloatSetting);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IntSetting);
-    g_data_057ac3f8 = '\x01';
+  if (Il2CppMethodInitialized_18434544e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BoolSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_FloatSetting);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
+    Il2CppMethodInitialized_18434544e = '\x01';
   }
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnEnabled = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnEnabled);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,20.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnNormal = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnNormal);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,20.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnAbnormal = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnAbnormal);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,15.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnJumper = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnJumper);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,15.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnCrawler = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnCrawler);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,15.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnThrower = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnThrower);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,15.0,0.0,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSpawnPunk = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSpawnPunk);
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,0,(MethodInfo *)0x0);
-  (__this->fields).TitanSizeEnabled = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSizeEnabled);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,1.0,0.1,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSizeMin = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSizeMin);
-  pSVar2 = (Settings_FloatSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_FloatSetting);
-  Settings_FloatSetting___ctor_40f3a30(pSVar2,3.0,0.1,100.0,(MethodInfo *)0x0);
-  (__this->fields).TitanSizeMax = pSVar2;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSizeMax);
-  pSVar3 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor_40f39a0(pSVar3,0,0,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).TitanHealthMode = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanHealthMode,pSVar3);
-  pSVar3 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor_40f39a0(pSVar3,100,0,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).TitanHealthMin = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanHealthMin,pSVar3);
-  pSVar3 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor_40f39a0(pSVar3,200,0,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).TitanHealthMax = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanHealthMax);
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,0,(MethodInfo *)0x0);
-  (__this->fields).TitanArmorEnabled = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanArmorEnabled);
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,0,(MethodInfo *)0x0);
-  (__this->fields).TitanArmorCrawlerEnabled = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanArmorCrawlerEnabled,pSVar1);
-  pSVar3 = (Settings_IntSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_IntSetting);
-  Settings_IntSetting___ctor_40f39a0(pSVar3,1000,0,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields).TitanArmor = pSVar3;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanArmor);
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,0,(MethodInfo *)0x0);
-  (__this->fields).TitanStandardModels = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanStandardModels,pSVar1);
-  pSVar1 = (Settings_BoolSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_BoolSetting);
-  Settings_BoolSetting___ctor_40f3960(pSVar1,1,(MethodInfo *)0x0);
-  (__this->fields).TitanSmartMovement = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).TitanSmartMovement);
-  Settings_BaseSettingsContainer___ctor((Settings_PresetSettingsContainer_o *)__this,(MethodInfo *)0x0);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanSpawnEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnEnabled,pSVar3);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,20.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnNormal = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnNormal,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,20.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnAbnormal = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnAbnormal,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,15.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnJumper = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnJumper,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,15.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnCrawler = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnCrawler,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,15.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnThrower = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnThrower,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,15.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSpawnPunk = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSpawnPunk,pSVar4);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanSizeEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSizeEnabled,pSVar3);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,1.0,0.1,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSizeMin = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSizeMin,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,3.0,0.1,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanSizeMax = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSizeMax,pSVar4);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar5,0,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanHealthMode = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHealthMode,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar5,100,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanHealthMin = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHealthMin,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar5,200,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanHealthMax = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHealthMax,pSVar5);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 1;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)(pSVar5,0,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanHeadMode = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHeadMode,pSVar5);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,0.75,0.1,10.0,(MethodInfo *)0x0);
+  (__this->fields).TitanHeadRandomMin = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHeadRandomMin,pSVar4);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,1.25,0.1,10.0,(MethodInfo *)0x0);
+  (__this->fields).TitanHeadRandomMax = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanHeadRandomMax,pSVar4);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanDecapitationEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanDecapitationEnabled,pSVar3);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar5,1000,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanDecapitationMinDamage = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanDecapitationMinDamage,pSVar5);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanArmorEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanArmorEnabled,pSVar3);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanArmorCrawlerEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanArmorCrawlerEnabled,pSVar3);
+  pSVar5 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  if (Il2CppMethodInitialized_18434549c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_ctor);
+    Il2CppMethodInitialized_18434549c = '\x01';
+  }
+  (pSVar5->fields).MinValue = -0x80000000;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  Settings_TypedSetting___Il2CppFullySharedGenericType____ctor
+            ((Settings_TypedSetting_T__o *)pSVar5,
+             (MethodInfo_E8F180 *)MethodInfo_Settings_TypedSetting_int_ctor);
+  pSVar1 = pSVar5->klass;
+  (pSVar5->fields).MinValue = 0;
+  (pSVar5->fields).MaxValue = 0x7fffffff;
+  iVar2 = (*(pSVar1->vtable)._11_SanitizeValue.methodPtr)
+                    (pSVar5,1000,(pSVar1->vtable)._11_SanitizeValue.method);
+  (pSVar5->fields).DefaultValue = iVar2;
+  (*(pSVar5->klass->vtable)._4_SetDefault.methodPtr)(pSVar5,(pSVar5->klass->vtable)._4_SetDefault.method);
+  (__this->fields).TitanArmor = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanArmor,pSVar5);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanStandardModels = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanStandardModels,pSVar3);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,true,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanSmartMovement = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanSmartMovement,pSVar3);
+  pSVar4 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_FloatSetting);
+  Settings_FloatSetting___ctor_1f12570(pSVar4,20.0,0.0,100.0,(MethodInfo *)0x0);
+  (__this->fields).TitanChanceWarded = pSVar4;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanChanceWarded,pSVar4);
+  pSVar3 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_BoolSetting);
+  if (Il2CppMethodInitialized_18434548a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_ctor);
+    Il2CppMethodInitialized_18434548a = '\x01';
+  }
+  Settings_TypedSetting_bool____ctor_e8f2c0
+            ((Settings_TypedSetting_bool__o *)pSVar3,false,
+             (MethodInfo_E8F2C0 *)MethodInfo_Settings_TypedSetting_bool_ctor);
+  (__this->fields).TitanWardedEnabled = pSVar3;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).TitanWardedEnabled,pSVar3);
+  Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

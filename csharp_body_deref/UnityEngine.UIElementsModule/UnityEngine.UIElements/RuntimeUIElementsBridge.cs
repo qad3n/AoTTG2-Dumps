@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003F9")]
+[Token(Token = "0x20004C0")]
 internal class RuntimeUIElementsBridge : UIElementsBridge
 {
-	[Token(Token = "0x60019CE")]
-	[Address(RVA = "0x4F5FA80", Offset = "0x4F5FA80", VA = "0x4F5FA80", Slot = "4")]
+	[Token(Token = "0x600252D")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public override void SetWantsMouseJumping(int value)
 	{
 	}
 
-	[Token(Token = "0x60019CF")]
-	[Address(RVA = "0x4F5FA90", Offset = "0x4F5FA90", VA = "0x4F5FA90")]
+	[Token(Token = "0x600252E")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public RuntimeUIElementsBridge()
 	{
 	}

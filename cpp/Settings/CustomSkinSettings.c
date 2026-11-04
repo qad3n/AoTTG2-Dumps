@@ -1,5 +1,5 @@
 // Type: Settings.CustomSkinSettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Settings/CustomSkinSettings.cs
@@ -8,15 +8,15 @@
 
 // Settings.CustomSkinSettings$$get_FileName
 // il2cpp: System_String_o* Settings_CustomSkinSettings__get_FileName (Settings_CustomSkinSettings_o* __this, const MethodInfo* method);
-// 0x40854d0
+// 0x181dba500
 
 System_String_o *
 Settings_CustomSkinSettings__get_FileName(Settings_CustomSkinSettings_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ac3d3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"CustomSkins.json");
-    g_data_057ac3d3 = '\x01';
+  if (Il2CppMethodInitialized_184344a09 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"CustomSkins.json");
+    Il2CppMethodInitialized_184344a09 = '\x01';
   }
   return "CustomSkins.json";
 }
@@ -24,7 +24,7 @@ Settings_CustomSkinSettings__get_FileName(Settings_CustomSkinSettings_o *__this,
 
 // Settings.CustomSkinSettings$$.ctor
 // il2cpp: void Settings_CustomSkinSettings___ctor (Settings_CustomSkinSettings_o* __this, const MethodInfo* method);
-// 0x4085500
+// 0x181dba3c0
 
 void Settings_CustomSkinSettings___ctor(Settings_CustomSkinSettings_o *__this,MethodInfo *method)
 
@@ -34,35 +34,45 @@ void Settings_CustomSkinSettings___ctor(Settings_CustomSkinSettings_o *__this,Me
   Settings_BaseCustomSkinSettings_ShifterCustomSkinSet__o *__this_02;
   Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet__o *__this_03;
   
-  if (g_data_057ac3d4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCustomSkinSettings_1_TitanCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCustomSkinSettings_1_SkyboxCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseCustomSkinSettings_1_ShifterCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseCustomSkinSettings_SkyboxCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseCustomSkinSettings_TitanCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BaseCustomSkinSettings_ShifterCustomSkinSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSkinSettings);
-    g_data_057ac3d4 = '\x01';
+  if (Il2CppMethodInitialized_184344a0a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_BaseCustomSkinSettings_TitanCustomSkinSet_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_BaseCustomSkinSettings_ShifterCustomSkinSet_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseCustomSkinSettings_TitanCustomSkinSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_BaseCustomSkinSettings_ShifterCustomSkinSet)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSkinSettings);
+    Il2CppMethodInitialized_184344a0a = '\x01';
   }
-  __this_00 = (Settings_HumanCustomSkinSettings_o *)il2cpp_runtime_helper_023052d0(TypeInfo_HumanCustomSkinSettings);
-  Settings_HumanCustomSkinSettings___ctor(__this_00,method);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_HumanCustomSkinSettings);
+  Settings_HumanCustomSkinSettings___ctor(__this_00,(MethodInfo *)0x0);
   (__this->fields).Human = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Human,__this_00);
-  __this_01 = (Settings_BaseCustomSkinSettings_TitanCustomSkinSet__o *)il2cpp_runtime_helper_023052d0(TypeInfo_BaseCustomSkinSettings_TitanCustomSkinSet);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Human,__this_00);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Settings_BaseCustomSkinSettings_TitanCustomSkinSet);
   Settings_BaseCustomSkinSettings_object____ctor
-            ((Settings_BaseCustomSkinSettings_T__o *)__this_01,MethodInfo_BaseCustomSkinSettings_1_TitanCustomSkinSet);
+            ((Settings_BaseCustomSkinSettings_T__o *)__this_01,
+             (MethodInfo_FF5F20 *)MethodInfo_Settings_BaseCustomSkinSettings_TitanCustomSkinSet_ctor);
   (__this->fields).Titan = __this_01;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Titan,__this_01);
-  __this_02 = (Settings_BaseCustomSkinSettings_ShifterCustomSkinSet__o *)il2cpp_runtime_helper_023052d0(TypeInfo_BaseCustomSkinSettings_ShifterCustomSkinSet);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Titan,__this_01);
+  __this_02 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Settings_BaseCustomSkinSettings_ShifterCustomSkinSet);
   Settings_BaseCustomSkinSettings_object____ctor
-            ((Settings_BaseCustomSkinSettings_T__o *)__this_02,MethodInfo_BaseCustomSkinSettings_1_ShifterCustomSkinSet);
+            ((Settings_BaseCustomSkinSettings_T__o *)__this_02,
+             (MethodInfo_FF5F20 *)MethodInfo_Settings_BaseCustomSkinSettings_ShifterCustomSkinSet_ctor);
   (__this->fields).Shifter = __this_02;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Shifter,__this_02);
-  __this_03 = (Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet__o *)il2cpp_runtime_helper_023052d0(TypeInfo_BaseCustomSkinSettings_SkyboxCustomSkinSet);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Shifter,__this_02);
+  __this_03 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet);
   Settings_BaseCustomSkinSettings_object____ctor
-            ((Settings_BaseCustomSkinSettings_T__o *)__this_03,MethodInfo_BaseCustomSkinSettings_1_SkyboxCustomSkinSet);
+            ((Settings_BaseCustomSkinSettings_T__o *)__this_03,
+             (MethodInfo_FF5F20 *)MethodInfo_Settings_BaseCustomSkinSettings_SkyboxCustomSkinSet_ctor);
   (__this->fields).Skybox = __this_03;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Skybox);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Skybox,__this_03);
   Settings_SaveableSettingsContainer___ctor((Settings_SaveableSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }

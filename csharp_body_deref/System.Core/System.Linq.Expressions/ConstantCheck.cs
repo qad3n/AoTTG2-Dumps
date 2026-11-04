@@ -12,15 +12,15 @@ namespace System.Linq.Expressions;
 [Token(Token = "0x2000076")]
 internal static class ConstantCheck
 {
-	[Token(Token = "0x6000307")]
-	[Address(RVA = "0x44B0200", Offset = "0x44B0200", VA = "0x44B0200")]
+	[Token(Token = "0x6000306")]
+	[Address(RVA = "0x242B6F0", Offset = "0x2429CF0", VA = "0x18242B6F0")]
 	internal static AnalyzeTypeIsResult AnalyzeTypeIs(TypeBinaryExpression typeIs)
 	{
 		return default(AnalyzeTypeIsResult);
 	}
 
-	[Token(Token = "0x6000308")]
-	[Address(RVA = "0x44B0220", Offset = "0x44B0220", VA = "0x44B0220")]
+	[Token(Token = "0x6000307")]
+	[Address(RVA = "0x242B720", Offset = "0x2429D20", VA = "0x18242B720")]
 	private static AnalyzeTypeIsResult AnalyzeTypeIs(Expression operand, Type testType)
 	{
 		return default(AnalyzeTypeIsResult);

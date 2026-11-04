@@ -23,5 +23,5 @@ internal enum NativeInputUpdateType
 	[Token(Token = "0x4000009")]
 	Editor = 8,
 	[Token(Token = "0x400000A")]
-	IgnoreFocus = int.MinValue
+	IgnoreFocus = -2147483648
 }

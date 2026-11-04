@@ -21,26 +21,26 @@ internal class DoubleLinkAxis : Axis
 	internal Axis Next
 	{
 		[Token(Token = "0x6000F37")]
-		[Address(RVA = "0x483EC00", Offset = "0x483EC00", VA = "0x483EC00")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F38")]
-		[Address(RVA = "0x483EC10", Offset = "0x483EC10", VA = "0x483EC10")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6000F39")]
-	[Address(RVA = "0x483EC20", Offset = "0x483EC20", VA = "0x483EC20")]
+	[Address(RVA = "0x277DA80", Offset = "0x277C080", VA = "0x18277DA80")]
 	internal DoubleLinkAxis(Axis axis, DoubleLinkAxis inputaxis)
 	{
 	}
 
 	[Token(Token = "0x6000F3A")]
-	[Address(RVA = "0x483ECB0", Offset = "0x483ECB0", VA = "0x483ECB0")]
+	[Address(RVA = "0x277D950", Offset = "0x277BF50", VA = "0x18277D950")]
 	internal static DoubleLinkAxis ConvertTree(Axis axis)
 	{
 		return null;

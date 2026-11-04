@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000195")]
+[Token(Token = "0x20001C0")]
 internal sealed class MonoType : System.RuntimeType
 {
 }

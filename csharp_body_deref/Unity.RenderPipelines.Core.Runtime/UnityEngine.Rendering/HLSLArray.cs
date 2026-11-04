@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000172")]
+[Token(Token = "0x2000189")]
 [AttributeUsage(AttributeTargets.Field)]
 public class HLSLArray : Attribute
 {
-	[Token(Token = "0x4000670")]
+	[Token(Token = "0x40007B5")]
 	[FieldOffset(Offset = "0x10")]
 	public int arraySize;
 
-	[Token(Token = "0x4000671")]
+	[Token(Token = "0x40007B6")]
 	[FieldOffset(Offset = "0x18")]
 	public Type elementType;
 
-	[Token(Token = "0x6000ACB")]
-	[Address(RVA = "0x4BDEC20", Offset = "0x4BDEC20", VA = "0x4BDEC20")]
+	[Token(Token = "0x6000BAF")]
+	[Address(RVA = "0x246F640", Offset = "0x246DC40", VA = "0x18246F640")]
 	public HLSLArray(int arraySize, Type elementType)
 	{
 	}

@@ -11,114 +11,114 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x200048D")]
+[Token(Token = "0x20004BC")]
 public readonly struct ConfiguredTaskAwaitable
 {
-	[Token(Token = "0x200048E")]
+	[Token(Token = "0x20004BD")]
 	public readonly struct ConfiguredTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x4001310")]
+		[Token(Token = "0x4001312")]
 		[FieldOffset(Offset = "0x0")]
 		internal readonly Task m_task;
 
-		[Token(Token = "0x4001311")]
+		[Token(Token = "0x4001313")]
 		[FieldOffset(Offset = "0x8")]
 		internal readonly bool m_continueOnCapturedContext;
 
-		[Token(Token = "0x1700047B")]
+		[Token(Token = "0x1700047E")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60022B3")]
-			[Address(RVA = "0x3BC22A0", Offset = "0x3BC22A0", VA = "0x3BC22A0")]
+			[Token(Token = "0x6002333")]
+			[Address(RVA = "0xD25160", Offset = "0xD23760", VA = "0x180D25160")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60022B2")]
-		[Address(RVA = "0x3BC2270", Offset = "0x3BC2270", VA = "0x3BC2270")]
+		[Token(Token = "0x6002332")]
+		[Address(RVA = "0x1028BD0", Offset = "0x10271D0", VA = "0x181028BD0")]
 		internal ConfiguredTaskAwaiter(Task task, bool continueOnCapturedContext)
 		{
 		}
 
-		[Token(Token = "0x60022B4")]
-		[Address(RVA = "0x3BC0B40", Offset = "0x3BC0B40", VA = "0x3BC0B40", Slot = "5")]
+		[Token(Token = "0x6002334")]
+		[Address(RVA = "0x1A292E0", Offset = "0x1A278E0", VA = "0x181A292E0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60022B5")]
-		[Address(RVA = "0x3BC0D00", Offset = "0x3BC0D00", VA = "0x3BC0D00", Slot = "4")]
+		[Token(Token = "0x6002335")]
+		[Address(RVA = "0x1A293A0", Offset = "0x1A279A0", VA = "0x181A293A0", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60022B6")]
-		[Address(RVA = "0x3BC22C0", Offset = "0x3BC22C0", VA = "0x3BC22C0")]
+		[Token(Token = "0x6002336")]
+		[Address(RVA = "0x1A29290", Offset = "0x1A27890", VA = "0x181A29290")]
 		[System.Diagnostics.StackTraceHidden]
 		public void GetResult()
 		{
 		}
 	}
 
-	[Token(Token = "0x400130F")]
+	[Token(Token = "0x4001311")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ConfiguredTaskAwaiter m_configuredTaskAwaiter;
 
-	[Token(Token = "0x60022B0")]
-	[Address(RVA = "0x3BC2210", Offset = "0x3BC2210", VA = "0x3BC2210")]
+	[Token(Token = "0x6002330")]
+	[Address(RVA = "0x1A29240", Offset = "0x1A27840", VA = "0x181A29240")]
 	internal ConfiguredTaskAwaitable(Task task, bool continueOnCapturedContext)
 	{
 	}
 
-	[Token(Token = "0x60022B1")]
-	[Address(RVA = "0x3BC2290", Offset = "0x3BC2290", VA = "0x3BC2290")]
+	[Token(Token = "0x6002331")]
+	[Address(RVA = "0x72FD20", Offset = "0x72E320", VA = "0x18072FD20")]
 	public ConfiguredTaskAwaiter GetAwaiter()
 	{
 		return default(ConfiguredTaskAwaiter);
 	}
 }
-[Token(Token = "0x200048F")]
+[Token(Token = "0x20004BE")]
 public readonly struct ConfiguredTaskAwaitable<TResult>
 {
-	[Token(Token = "0x2000490")]
+	[Token(Token = "0x20004BF")]
 	public readonly struct ConfiguredTaskAwaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x4001313")]
+		[Token(Token = "0x4001315")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly Task<TResult> m_task;
 
-		[Token(Token = "0x4001314")]
+		[Token(Token = "0x4001316")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly bool m_continueOnCapturedContext;
 
-		[Token(Token = "0x1700047C")]
+		[Token(Token = "0x1700047F")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x60022BA")]
+			[Token(Token = "0x600233A")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x60022B9")]
+		[Token(Token = "0x6002339")]
 		internal ConfiguredTaskAwaiter(Task<TResult> task, bool continueOnCapturedContext)
 		{
 		}
 
-		[Token(Token = "0x60022BB")]
+		[Token(Token = "0x600233B")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60022BC")]
+		[Token(Token = "0x600233C")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x60022BD")]
+		[Token(Token = "0x600233D")]
 		[System.Diagnostics.StackTraceHidden]
 		public TResult GetResult()
 		{
@@ -126,16 +126,16 @@ public readonly struct ConfiguredTaskAwaitable<TResult>
 		}
 	}
 
-	[Token(Token = "0x4001312")]
+	[Token(Token = "0x4001314")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ConfiguredTaskAwaiter m_configuredTaskAwaiter;
 
-	[Token(Token = "0x60022B7")]
+	[Token(Token = "0x6002337")]
 	internal ConfiguredTaskAwaitable(Task<TResult> task, bool continueOnCapturedContext)
 	{
 	}
 
-	[Token(Token = "0x60022B8")]
+	[Token(Token = "0x6002338")]
 	public ConfiguredTaskAwaiter GetAwaiter()
 	{
 		return default(ConfiguredTaskAwaiter);

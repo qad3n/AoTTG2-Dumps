@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.VFX;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000E")]
 public struct VFXOutputEventArgs
 {
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private readonly int _003CnameId_003Ek__BackingField;
 
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x400001F")]
 	[FieldOffset(Offset = "0x8")]
 	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly VFXEventAttribute _003CeventAttribute_003Ek__BackingField;
 
-	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x510A2A0", Offset = "0x510A2A0", VA = "0x510A2A0")]
+	[Token(Token = "0x6000024")]
+	[Address(RVA = "0x1028B90", Offset = "0x1027190", VA = "0x181028B90")]
 	public VFXOutputEventArgs(int nameId, VFXEventAttribute eventAttribute)
 	{
 	}

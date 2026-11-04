@@ -17,14 +17,14 @@ internal class InstanceMethodCallExpression : MethodCallExpression, IArgumentPro
 	[FieldOffset(Offset = "0x18")]
 	private readonly Expression _instance;
 
-	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x44BD2B0", Offset = "0x44BD2B0", VA = "0x44BD2B0")]
+	[Token(Token = "0x600048D")]
+	[Address(RVA = "0x243AAA0", Offset = "0x24390A0", VA = "0x18243AAA0")]
 	public InstanceMethodCallExpression(MethodInfo method, Expression instance)
 	{
 	}
 
-	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x44BD330", Offset = "0x44BD330", VA = "0x44BD330", Slot = "12")]
+	[Token(Token = "0x600048E")]
+	[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
 	internal override Expression GetInstance()
 	{
 		return null;

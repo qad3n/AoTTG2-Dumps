@@ -11,52 +11,52 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x2000064")]
+[Token(Token = "0x2000078")]
 public static class AottgCodeManifestBuilder
 {
-	[Token(Token = "0x60002A1")]
-	[Address(RVA = "0x3A5D4D0", Offset = "0x3A5D4D0", VA = "0x3A5D4D0")]
+	[Token(Token = "0x600037E")]
+	[Address(RVA = "0x18C32D0", Offset = "0x18C18D0", VA = "0x1818C32D0")]
 	public static GisketchManifestDefinition Build(string selectedScreenId, GisketchThemeDefinition theme, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A2")]
-	[Address(RVA = "0x3A5D500", Offset = "0x3A5D500", VA = "0x3A5D500")]
+	[Token(Token = "0x600037F")]
+	[Address(RVA = "0x18C2F50", Offset = "0x18C1550", VA = "0x1818C2F50")]
 	public static GisketchManifestDefinition Build(AottgCodeCatalog catalog, string selectedScreenId, GisketchThemeDefinition theme, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A3")]
-	[Address(RVA = "0x3A5D950", Offset = "0x3A5D950", VA = "0x3A5D950")]
+	[Token(Token = "0x6000380")]
+	[Address(RVA = "0x18C2BB0", Offset = "0x18C11B0", VA = "0x1818C2BB0")]
 	private static GisketchOverlayDefinition[] BuildDialogs(AottgCodeCatalog catalog, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A4")]
-	[Address(RVA = "0x3A5DD50", Offset = "0x3A5DD50", VA = "0x3A5DD50")]
+	[Token(Token = "0x6000381")]
+	[Address(RVA = "0x18C2A50", Offset = "0x18C1050", VA = "0x1818C2A50")]
 	public static GisketchOverlayDefinition BuildDialog(string id, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A5")]
-	[Address(RVA = "0x3A5DD80", Offset = "0x3A5DD80", VA = "0x3A5DD80")]
+	[Token(Token = "0x6000382")]
+	[Address(RVA = "0x18C28F0", Offset = "0x18C0EF0", VA = "0x1818C28F0")]
 	public static GisketchOverlayDefinition BuildDialog(AottgCodeCatalog catalog, string id, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A6")]
-	[Address(RVA = "0x3A5DB50", Offset = "0x3A5DB50", VA = "0x3A5DB50")]
+	[Token(Token = "0x6000383")]
+	[Address(RVA = "0x18C2D80", Offset = "0x18C1380", VA = "0x1818C2D80")]
 	private static GisketchOverlayDefinition[] BuildPopovers(AottgCodeCatalog catalog, AottgActionRegistry actions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002A7")]
+	[Token(Token = "0x6000384")]
 	private static T Instance<T>(Type type)
 	{
 		return (T)null;

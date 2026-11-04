@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000E0")]
+[Token(Token = "0x2000101")]
 public enum MeshTopology
 {
-	[Token(Token = "0x4000260")]
+	[Token(Token = "0x40002B7")]
 	Triangles = 0,
-	[Token(Token = "0x4000261")]
+	[Token(Token = "0x40002B8")]
 	Quads = 2,
-	[Token(Token = "0x4000262")]
+	[Token(Token = "0x40002B9")]
 	Lines = 3,
-	[Token(Token = "0x4000263")]
+	[Token(Token = "0x40002BA")]
 	LineStrip = 4,
-	[Token(Token = "0x4000264")]
+	[Token(Token = "0x40002BB")]
 	Points = 5
 }

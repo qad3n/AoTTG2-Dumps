@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200008F")]
+[Token(Token = "0x2000099")]
 internal sealed class XmlIgnoreNamespaceReader : XmlNodeReader
 {
-	[Token(Token = "0x40002EE")]
+	[Token(Token = "0x4000301")]
 	[FieldOffset(Offset = "0x30")]
 	private List<string> _namespacesToIgnore;
 
-	[Token(Token = "0x600082F")]
-	[Address(RVA = "0x45E1110", Offset = "0x45E1110", VA = "0x45E1110")]
+	[Token(Token = "0x600084E")]
+	[Address(RVA = "0x2544C10", Offset = "0x2543210", VA = "0x182544C10")]
 	internal XmlIgnoreNamespaceReader(XmlDocument xdoc, string[] namespacesToIgnore)
 	{
 	}
 
-	[Token(Token = "0x6000830")]
-	[Address(RVA = "0x45E11A0", Offset = "0x45E11A0", VA = "0x45E11A0", Slot = "27")]
+	[Token(Token = "0x600084F")]
+	[Address(RVA = "0x2544A00", Offset = "0x2543000", VA = "0x182544A00", Slot = "27")]
 	public override bool MoveToFirstAttribute()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000831")]
-	[Address(RVA = "0x45E12B0", Offset = "0x45E12B0", VA = "0x45E12B0", Slot = "28")]
+	[Token(Token = "0x6000850")]
+	[Address(RVA = "0x2544B10", Offset = "0x2543110", VA = "0x182544B10", Slot = "28")]
 	public override bool MoveToNextAttribute()
 	{
 		return default(bool);

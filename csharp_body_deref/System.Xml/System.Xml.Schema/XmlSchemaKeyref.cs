@@ -22,20 +22,20 @@ public class XmlSchemaKeyref : XmlSchemaIdentityConstraint
 	public XmlQualifiedName Refer
 	{
 		[Token(Token = "0x6001698")]
-		[Address(RVA = "0x4725190", Offset = "0x4725190", VA = "0x4725190")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001699")]
-		[Address(RVA = "0x47251A0", Offset = "0x47251A0", VA = "0x47251A0")]
+		[Address(RVA = "0x266CBB0", Offset = "0x266B1B0", VA = "0x18266CBB0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600169A")]
-	[Address(RVA = "0x4725230", Offset = "0x4725230", VA = "0x4725230")]
+	[Address(RVA = "0x266CAB0", Offset = "0x266B0B0", VA = "0x18266CAB0")]
 	public XmlSchemaKeyref()
 	{
 	}

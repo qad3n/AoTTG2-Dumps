@@ -12,51 +12,52 @@ using UnityEngine;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x2000029")]
+[Token(Token = "0x200001A")]
+[TMPro.TMPHelpURL("ColorGradients")]
 [ExcludeFromPreset]
 public class TMP_ColorGradient : ScriptableObject
 {
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x400006E")]
 	[FieldOffset(Offset = "0x18")]
 	public ColorMode colorMode;
 
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x400006F")]
 	[FieldOffset(Offset = "0x1C")]
 	public Color topLeft;
 
-	[Token(Token = "0x4000153")]
+	[Token(Token = "0x4000070")]
 	[FieldOffset(Offset = "0x2C")]
 	public Color topRight;
 
-	[Token(Token = "0x4000154")]
+	[Token(Token = "0x4000071")]
 	[FieldOffset(Offset = "0x3C")]
 	public Color bottomLeft;
 
-	[Token(Token = "0x4000155")]
+	[Token(Token = "0x4000072")]
 	[FieldOffset(Offset = "0x4C")]
 	public Color bottomRight;
 
-	[Token(Token = "0x4000156")]
+	[Token(Token = "0x4000073")]
 	private const ColorMode k_DefaultColorMode = ColorMode.FourCornersGradient;
 
-	[Token(Token = "0x4000157")]
+	[Token(Token = "0x4000074")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Color k_DefaultColor;
 
-	[Token(Token = "0x6000143")]
-	[Address(RVA = "0x4C453C0", Offset = "0x4C453C0", VA = "0x4C453C0")]
+	[Token(Token = "0x600007D")]
+	[Address(RVA = "0x2CDFDC0", Offset = "0x2CDE3C0", VA = "0x182CDFDC0")]
 	public TMP_ColorGradient()
 	{
 	}
 
-	[Token(Token = "0x6000144")]
-	[Address(RVA = "0x4C45460", Offset = "0x4C45460", VA = "0x4C45460")]
+	[Token(Token = "0x600007E")]
+	[Address(RVA = "0x2CDFE70", Offset = "0x2CDE470", VA = "0x182CDFE70")]
 	public TMP_ColorGradient(Color color)
 	{
 	}
 
-	[Token(Token = "0x6000145")]
-	[Address(RVA = "0x4C454B0", Offset = "0x4C454B0", VA = "0x4C454B0")]
+	[Token(Token = "0x600007F")]
+	[Address(RVA = "0x2CDFEC0", Offset = "0x2CDE4C0", VA = "0x182CDFEC0")]
 	public TMP_ColorGradient(Color color0, Color color1, Color color2, Color color3)
 	{
 	}

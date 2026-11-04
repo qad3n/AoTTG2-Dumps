@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000D3")]
+[Token(Token = "0x20000F3")]
 public enum ReplayEventChatAction
 {
-	[Token(Token = "0x4000517")]
+	[Token(Token = "0x40005B7")]
 	AddLine
 }

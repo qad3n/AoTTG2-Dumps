@@ -15,36 +15,36 @@ namespace Unity.VisualScripting;
 [IncludeInSettings(false)]
 public sealed class VariablesAsset : LudiqScriptableObject
 {
-	[Token(Token = "0x170001F5")]
+	[Token(Token = "0x170001F8")]
 	[Serialize]
 	[Inspectable]
 	[InspectorWide(true)]
 	public VariableDeclarations declarations
 	{
-		[Token(Token = "0x600115A")]
-		[Address(RVA = "0x4D68780", Offset = "0x4D68780", VA = "0x4D68780")]
+		[Token(Token = "0x6001167")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600115B")]
-		[Address(RVA = "0x4D68790", Offset = "0x4D68790", VA = "0x4D68790")]
+		[Token(Token = "0x6001168")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		internal set
 		{
 		}
 	}
 
-	[Token(Token = "0x600115C")]
-	[Address(RVA = "0x4D687A0", Offset = "0x4D687A0", VA = "0x4D687A0", Slot = "11")]
+	[Token(Token = "0x6001169")]
+	[Address(RVA = "0x2E5B5A0", Offset = "0x2E59BA0", VA = "0x182E5B5A0", Slot = "11")]
 	[ContextMenu("Show Data...")]
 	protected override void ShowData()
 	{
 	}
 
-	[Token(Token = "0x600115D")]
-	[Address(RVA = "0x4D687B0", Offset = "0x4D687B0", VA = "0x4D687B0")]
+	[Token(Token = "0x600116A")]
+	[Address(RVA = "0x2E5B5B0", Offset = "0x2E59BB0", VA = "0x182E5B5B0")]
 	public VariablesAsset()
 	{
 	}

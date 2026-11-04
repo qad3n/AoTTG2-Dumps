@@ -6,121 +6,79 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x2000024")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 internal class GUILayoutEntry
 {
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000D3")]
 	[FieldOffset(Offset = "0x10")]
 	public float minWidth;
 
-	[Token(Token = "0x40000CE")]
+	[Token(Token = "0x40000D4")]
 	[FieldOffset(Offset = "0x14")]
 	public float maxWidth;
 
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40000D5")]
 	[FieldOffset(Offset = "0x18")]
 	public float minHeight;
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000D6")]
 	[FieldOffset(Offset = "0x1C")]
 	public float maxHeight;
 
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40000D7")]
 	[FieldOffset(Offset = "0x20")]
 	public Rect rect;
 
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x40000D8")]
 	[FieldOffset(Offset = "0x30")]
 	public int stretchWidth;
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x34")]
 	public int stretchHeight;
 
-	[Token(Token = "0x40000D4")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x38")]
 	public bool consideredForMargin;
 
-	[Token(Token = "0x40000D5")]
+	[Token(Token = "0x40000DB")]
 	[FieldOffset(Offset = "0x40")]
 	private GUIStyle m_Style;
 
-	[Token(Token = "0x40000D6")]
+	[Token(Token = "0x40000DC")]
 	[FieldOffset(Offset = "0x0")]
 	internal static Rect kDummyRect;
 
-	[Token(Token = "0x40000D7")]
+	[Token(Token = "0x40000DD")]
 	[FieldOffset(Offset = "0x10")]
 	protected static int indent;
 
-	[Token(Token = "0x17000081")]
+	[Token(Token = "0x17000085")]
 	public GUIStyle style
 	{
-		[Token(Token = "0x6000210")]
-		[Address(RVA = "0x4E5CF60", Offset = "0x4E5CF60", VA = "0x4E5CF60")]
+		[Token(Token = "0x6000264")]
+		[Address(RVA = "0xAD2BF0", Offset = "0xAD11F0", VA = "0x180AD2BF0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000211")]
-		[Address(RVA = "0x4E5CF70", Offset = "0x4E5CF70", VA = "0x4E5CF70")]
+		[Token(Token = "0x6000265")]
+		[Address(RVA = "0x2F88450", Offset = "0x2F86A50", VA = "0x182F88450")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000082")]
+	[Token(Token = "0x17000086")]
 	public virtual int marginLeft
 	{
-		[Token(Token = "0x6000212")]
-		[Address(RVA = "0x4E5CFB0", Offset = "0x4E5CFB0", VA = "0x4E5CFB0", Slot = "4")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000083")]
-	public virtual int marginRight
-	{
-		[Token(Token = "0x6000213")]
-		[Address(RVA = "0x4E5CFE0", Offset = "0x4E5CFE0", VA = "0x4E5CFE0", Slot = "5")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000084")]
-	public virtual int marginTop
-	{
-		[Token(Token = "0x6000214")]
-		[Address(RVA = "0x4E5D010", Offset = "0x4E5D010", VA = "0x4E5D010", Slot = "6")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000085")]
-	public virtual int marginBottom
-	{
-		[Token(Token = "0x6000215")]
-		[Address(RVA = "0x4E5D040", Offset = "0x4E5D040", VA = "0x4E5D040", Slot = "7")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000086")]
-	public int marginHorizontal
-	{
-		[Token(Token = "0x6000216")]
-		[Address(RVA = "0x4E5D070", Offset = "0x4E5D070", VA = "0x4E5D070")]
+		[Token(Token = "0x6000266")]
+		[Address(RVA = "0x2F88380", Offset = "0x2F86980", VA = "0x182F88380", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -128,66 +86,110 @@ internal class GUILayoutEntry
 	}
 
 	[Token(Token = "0x17000087")]
-	public int marginVertical
+	public virtual int marginRight
 	{
-		[Token(Token = "0x6000217")]
-		[Address(RVA = "0x4E5D0B0", Offset = "0x4E5D0B0", VA = "0x4E5D0B0")]
+		[Token(Token = "0x6000267")]
+		[Address(RVA = "0x2F883B0", Offset = "0x2F869B0", VA = "0x182F883B0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000218")]
-	[Address(RVA = "0x4E5D0F0", Offset = "0x4E5D0F0", VA = "0x4E5D0F0")]
+	[Token(Token = "0x17000088")]
+	public virtual int marginTop
+	{
+		[Token(Token = "0x6000268")]
+		[Address(RVA = "0x2F883E0", Offset = "0x2F869E0", VA = "0x182F883E0", Slot = "6")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000089")]
+	public virtual int marginBottom
+	{
+		[Token(Token = "0x6000269")]
+		[Address(RVA = "0x2F88310", Offset = "0x2F86910", VA = "0x182F88310", Slot = "7")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x1700008A")]
+	public int marginHorizontal
+	{
+		[Token(Token = "0x600026A")]
+		[Address(RVA = "0x2F88340", Offset = "0x2F86940", VA = "0x182F88340")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x1700008B")]
+	public int marginVertical
+	{
+		[Token(Token = "0x600026B")]
+		[Address(RVA = "0x2F88410", Offset = "0x2F86A10", VA = "0x182F88410")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x600026C")]
+	[Address(RVA = "0x2F880F0", Offset = "0x2F866F0", VA = "0x182F880F0")]
 	public GUILayoutEntry(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style)
 	{
 	}
 
-	[Token(Token = "0x6000219")]
-	[Address(RVA = "0x4E5D200", Offset = "0x4E5D200", VA = "0x4E5D200")]
+	[Token(Token = "0x600026D")]
+	[Address(RVA = "0x2F88200", Offset = "0x2F86800", VA = "0x182F88200")]
 	public GUILayoutEntry(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle _style, GUILayoutOption[] options)
 	{
 	}
 
-	[Token(Token = "0x600021A")]
-	[Address(RVA = "0x4E5D310", Offset = "0x4E5D310", VA = "0x4E5D310", Slot = "8")]
+	[Token(Token = "0x600026E")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public virtual void CalcWidth()
 	{
 	}
 
-	[Token(Token = "0x600021B")]
-	[Address(RVA = "0x4E5D320", Offset = "0x4E5D320", VA = "0x4E5D320", Slot = "9")]
+	[Token(Token = "0x600026F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "9")]
 	public virtual void CalcHeight()
 	{
 	}
 
-	[Token(Token = "0x600021C")]
-	[Address(RVA = "0x4E5D330", Offset = "0x4E5D330", VA = "0x4E5D330", Slot = "10")]
+	[Token(Token = "0x6000270")]
+	[Address(RVA = "0x2F879F0", Offset = "0x2F85FF0", VA = "0x182F879F0", Slot = "10")]
 	public virtual void SetHorizontal(float x, float width)
 	{
 	}
 
-	[Token(Token = "0x600021D")]
-	[Address(RVA = "0x4E5D340", Offset = "0x4E5D340", VA = "0x4E5D340", Slot = "11")]
+	[Token(Token = "0x6000271")]
+	[Address(RVA = "0x2F87A60", Offset = "0x2F86060", VA = "0x182F87A60", Slot = "11")]
 	public virtual void SetVertical(float y, float height)
 	{
 	}
 
-	[Token(Token = "0x600021E")]
-	[Address(RVA = "0x4E5D350", Offset = "0x4E5D350", VA = "0x4E5D350", Slot = "12")]
+	[Token(Token = "0x6000272")]
+	[Address(RVA = "0x2F877D0", Offset = "0x2F85DD0", VA = "0x182F877D0", Slot = "12")]
 	protected virtual void ApplyStyleSettings(GUIStyle style)
 	{
 	}
 
-	[Token(Token = "0x600021F")]
-	[Address(RVA = "0x4E5D3E0", Offset = "0x4E5D3E0", VA = "0x4E5D3E0", Slot = "13")]
+	[Token(Token = "0x6000273")]
+	[Address(RVA = "0x2F87450", Offset = "0x2F85A50", VA = "0x182F87450", Slot = "13")]
 	public virtual void ApplyOptions(GUILayoutOption[] options)
 	{
 	}
 
-	[Token(Token = "0x6000220")]
-	[Address(RVA = "0x4E5D730", Offset = "0x4E5D730", VA = "0x4E5D730", Slot = "3")]
+	[Token(Token = "0x6000274")]
+	[Address(RVA = "0x2F87AD0", Offset = "0x2F860D0", VA = "0x182F87AD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

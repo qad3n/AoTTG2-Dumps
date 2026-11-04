@@ -13,67 +13,67 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000ED")]
 public struct LooseAssemblyName
 {
-	[Token(Token = "0x400017F")]
+	[Token(Token = "0x400017D")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly string name;
 
-	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x4CC1E80", Offset = "0x4CC1E80", VA = "0x4CC1E80")]
+	[Token(Token = "0x60005AA")]
+	[Address(RVA = "0x2DB22B0", Offset = "0x2DB08B0", VA = "0x182DB22B0")]
 	public LooseAssemblyName(string name)
 	{
 	}
 
-	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x4CC1EE0", Offset = "0x4CC1EE0", VA = "0x4CC1EE0", Slot = "0")]
+	[Token(Token = "0x60005AB")]
+	[Address(RVA = "0x2DB21E0", Offset = "0x2DB07E0", VA = "0x182DB21E0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x4CC1F40", Offset = "0x4CC1F40", VA = "0x4CC1F40", Slot = "2")]
+	[Token(Token = "0x60005AC")]
+	[Address(RVA = "0x2DB2270", Offset = "0x2DB0870", VA = "0x182DB2270", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x4CC1F80", Offset = "0x4CC1F80", VA = "0x4CC1F80")]
+	[Token(Token = "0x60005AD")]
+	[Address(RVA = "0x2DB2320", Offset = "0x2DB0920", VA = "0x182DB2320")]
 	public static bool operator ==(LooseAssemblyName a, LooseAssemblyName b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x4CC2020", Offset = "0x4CC2020", VA = "0x4CC2020")]
+	[Token(Token = "0x60005AE")]
+	[Address(RVA = "0x2DB24F0", Offset = "0x2DB0AF0", VA = "0x182DB24F0")]
 	public static bool operator !=(LooseAssemblyName a, LooseAssemblyName b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A5")]
-	[Address(RVA = "0x4CC20C0", Offset = "0x4CC20C0", VA = "0x4CC20C0")]
+	[Token(Token = "0x60005AF")]
+	[Address(RVA = "0x2DB2470", Offset = "0x2DB0A70", VA = "0x182DB2470")]
 	public static implicit operator LooseAssemblyName(string name)
 	{
 		return default(LooseAssemblyName);
 	}
 
-	[Token(Token = "0x60005A6")]
-	[Address(RVA = "0x4CC2140", Offset = "0x4CC2140", VA = "0x4CC2140")]
+	[Token(Token = "0x60005B0")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 	public static implicit operator string(LooseAssemblyName name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005A7")]
-	[Address(RVA = "0x4CC2150", Offset = "0x4CC2150", VA = "0x4CC2150")]
+	[Token(Token = "0x60005B1")]
+	[Address(RVA = "0x2DB23E0", Offset = "0x2DB09E0", VA = "0x182DB23E0")]
 	public static explicit operator LooseAssemblyName(AssemblyName strongAssemblyName)
 	{
 		return default(LooseAssemblyName);
 	}
 
-	[Token(Token = "0x60005A8")]
-	[Address(RVA = "0x4CC21E0", Offset = "0x4CC21E0", VA = "0x4CC21E0", Slot = "3")]
+	[Token(Token = "0x60005B2")]
+	[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.ConstrainedExecution;
 
-[Token(Token = "0x2000461")]
+[Token(Token = "0x2000490")]
 [AttributeUsage(AttributeTargets.Constructor | AttributeTargets.Method, Inherited = false)]
 public sealed class PrePrepareMethodAttribute : Attribute
 {
-	[Token(Token = "0x600224B")]
-	[Address(RVA = "0x3BC0660", Offset = "0x3BC0660", VA = "0x3BC0660")]
+	[Token(Token = "0x60022CB")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public PrePrepareMethodAttribute()
 	{
 	}

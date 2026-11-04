@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000179")]
+[Token(Token = "0x20001A4")]
 internal sealed class TypeNameParser
 {
-	[Token(Token = "0x6000F3F")]
-	[Address(RVA = "0x3D074B0", Offset = "0x3D074B0", VA = "0x3D074B0")]
+	[Token(Token = "0x6000F93")]
+	[Address(RVA = "0x1B916F0", Offset = "0x1B8FCF0", VA = "0x181B916F0")]
 	internal static Type GetType(string typeName, Func<AssemblyName, Assembly> assemblyResolver, Func<Assembly, string, bool, Type> typeResolver, bool throwOnError, bool ignoreCase, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;

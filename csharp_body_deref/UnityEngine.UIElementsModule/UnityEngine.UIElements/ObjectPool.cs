@@ -11,53 +11,53 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000232")]
+[Token(Token = "0x20002AB")]
 internal class ObjectPool<T> where T : new()
 {
-	[Token(Token = "0x40007EF")]
+	[Token(Token = "0x4000A23")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Stack<T> m_Stack;
 
-	[Token(Token = "0x40007F0")]
+	[Token(Token = "0x4000A24")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_MaxSize;
 
-	[Token(Token = "0x40007F1")]
+	[Token(Token = "0x4000A25")]
 	[FieldOffset(Offset = "0x0")]
 	internal Func<T> CreateFunc;
 
-	[Token(Token = "0x170002A6")]
+	[Token(Token = "0x1700038F")]
 	public int maxSize
 	{
-		[Token(Token = "0x6000E3A")]
+		[Token(Token = "0x60011DD")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000E3B")]
+		[Token(Token = "0x60011DE")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000E3C")]
+	[Token(Token = "0x60011DF")]
 	public ObjectPool(Func<T> CreateFunc, int maxSize = 100)
 	{
 	}
 
-	[Token(Token = "0x6000E3D")]
+	[Token(Token = "0x60011E0")]
 	public int Size()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E3E")]
+	[Token(Token = "0x60011E1")]
 	public T Get()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000E3F")]
+	[Token(Token = "0x60011E2")]
 	public void Release(T element)
 	{
 	}

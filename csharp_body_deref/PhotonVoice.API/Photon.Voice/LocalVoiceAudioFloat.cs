@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200006B")]
+[Token(Token = "0x2000069")]
 public class LocalVoiceAudioFloat : LocalVoiceAudio<float>
 {
-	[Token(Token = "0x6000248")]
-	[Address(RVA = "0x3F26B60", Offset = "0x3F26B60", VA = "0x3F26B60")]
+	[Token(Token = "0x6000246")]
+	[Address(RVA = "0x1D6C0F0", Offset = "0x1D6A6F0", VA = "0x181D6C0F0")]
 	internal LocalVoiceAudioFloat(VoiceClient voiceClient, byte id, VoiceInfo voiceInfo, IAudioDesc audioSourceDesc, int channelId, VoiceCreateOptions opt)
 	{
 	}

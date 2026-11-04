@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200019A")]
+[Token(Token = "0x20001C5")]
 public ref struct RuntimeArgumentHandle
 {
-	[Token(Token = "0x40006C1")]
+	[Token(Token = "0x4000725")]
 	[FieldOffset(Offset = "0x0")]
 	internal IntPtr args;
 }

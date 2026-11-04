@@ -15,54 +15,54 @@ namespace Unity.VisualScripting;
 [SerializationVersion("A", new Type[] { })]
 public struct SerializableType : IEquatable<SerializableType>, IComparable<SerializableType>
 {
-	[Token(Token = "0x40008B2")]
+	[Token(Token = "0x40008B0")]
 	[FieldOffset(Offset = "0x0")]
 	[Serialize]
 	public string Identification;
 
-	[Token(Token = "0x6000F70")]
-	[Address(RVA = "0x4D58430", Offset = "0x4D58430", VA = "0x4D58430")]
+	[Token(Token = "0x6000F7A")]
+	[Address(RVA = "0xD25150", Offset = "0xD23750", VA = "0x180D25150")]
 	public SerializableType(string identification)
 	{
 	}
 
-	[Token(Token = "0x6000F71")]
-	[Address(RVA = "0x4D58440", Offset = "0x4D58440", VA = "0x4D58440", Slot = "4")]
+	[Token(Token = "0x6000F7B")]
+	[Address(RVA = "0x19A9FB0", Offset = "0x19A85B0", VA = "0x1819A9FB0", Slot = "4")]
 	public bool Equals(SerializableType other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F72")]
-	[Address(RVA = "0x4D58450", Offset = "0x4D58450", VA = "0x4D58450", Slot = "0")]
+	[Token(Token = "0x6000F7C")]
+	[Address(RVA = "0x2E39D40", Offset = "0x2E38340", VA = "0x182E39D40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x4D584B0", Offset = "0x4D584B0", VA = "0x4D584B0", Slot = "2")]
+	[Token(Token = "0x6000F7D")]
+	[Address(RVA = "0x1BC4E00", Offset = "0x1BC3400", VA = "0x181BC4E00", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000F74")]
-	[Address(RVA = "0x4D584D0", Offset = "0x4D584D0", VA = "0x4D584D0")]
+	[Token(Token = "0x6000F7E")]
+	[Address(RVA = "0x19AA140", Offset = "0x19A8740", VA = "0x1819AA140")]
 	public static bool operator ==(SerializableType left, SerializableType right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F75")]
-	[Address(RVA = "0x4D584E0", Offset = "0x4D584E0", VA = "0x4D584E0")]
+	[Token(Token = "0x6000F7F")]
+	[Address(RVA = "0x19AA150", Offset = "0x19A8750", VA = "0x1819AA150")]
 	public static bool operator !=(SerializableType left, SerializableType right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F76")]
-	[Address(RVA = "0x4D584F0", Offset = "0x4D584F0", VA = "0x4D584F0", Slot = "5")]
+	[Token(Token = "0x6000F80")]
+	[Address(RVA = "0x2E39D20", Offset = "0x2E38320", VA = "0x182E39D20", Slot = "5")]
 	public int CompareTo(SerializableType other)
 	{
 		return default(int);

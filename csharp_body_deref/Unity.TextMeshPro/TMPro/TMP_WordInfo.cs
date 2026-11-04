@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x20000AC")]
 public struct TMP_WordInfo
 {
-	[Token(Token = "0x40000BB")]
+	[Token(Token = "0x40005CD")]
 	[FieldOffset(Offset = "0x0")]
 	public TMP_Text textComponent;
 
-	[Token(Token = "0x40000BC")]
+	[Token(Token = "0x40005CE")]
 	[FieldOffset(Offset = "0x8")]
 	public int firstCharacterIndex;
 
-	[Token(Token = "0x40000BD")]
+	[Token(Token = "0x40005CF")]
 	[FieldOffset(Offset = "0xC")]
 	public int lastCharacterIndex;
 
-	[Token(Token = "0x40000BE")]
+	[Token(Token = "0x40005D0")]
 	[FieldOffset(Offset = "0x10")]
 	public int characterCount;
 
-	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x4C44540", Offset = "0x4C44540", VA = "0x4C44540")]
+	[Token(Token = "0x6000658")]
+	[Address(RVA = "0x2D69130", Offset = "0x2D67730", VA = "0x182D69130")]
 	public string GetWord()
 	{
 		return null;

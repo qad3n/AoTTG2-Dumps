@@ -24,13 +24,13 @@ public class XProcessingInstruction : XNode
 	public string Data
 	{
 		[Token(Token = "0x60000DA")]
-		[Address(RVA = "0x4696610", Offset = "0x4696610", VA = "0x4696610")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x4696620", Offset = "0x4696620", VA = "0x4696620")]
+		[Address(RVA = "0x25ED6F0", Offset = "0x25EBCF0", VA = "0x1825ED6F0")]
 		set
 		{
 		}
@@ -40,7 +40,7 @@ public class XProcessingInstruction : XNode
 	public override XmlNodeType NodeType
 	{
 		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x4696850", Offset = "0x4696850", VA = "0x4696850", Slot = "7")]
+		[Address(RVA = "0x106DD80", Offset = "0x106C380", VA = "0x18106DD80", Slot = "7")]
 		get
 		{
 			return default(XmlNodeType);
@@ -51,7 +51,7 @@ public class XProcessingInstruction : XNode
 	public string Target
 	{
 		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x4696860", Offset = "0x4696860", VA = "0x4696860")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -59,32 +59,32 @@ public class XProcessingInstruction : XNode
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x46917B0", Offset = "0x46917B0", VA = "0x46917B0")]
+	[Address(RVA = "0x25ED4F0", Offset = "0x25EBAF0", VA = "0x1825ED4F0")]
 	public XProcessingInstruction(string target, string data)
 	{
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4696580", Offset = "0x4696580", VA = "0x4696580")]
+	[Address(RVA = "0x25ED650", Offset = "0x25EBC50", VA = "0x1825ED650")]
 	public XProcessingInstruction(XProcessingInstruction other)
 	{
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x4696870", Offset = "0x4696870", VA = "0x4696870", Slot = "8")]
+	[Address(RVA = "0x25ED470", Offset = "0x25EBA70", VA = "0x1825ED470", Slot = "8")]
 	public override void WriteTo(XmlWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x46968E0", Offset = "0x46968E0", VA = "0x46968E0", Slot = "10")]
+	[Address(RVA = "0x25ED2D0", Offset = "0x25EB8D0", VA = "0x1825ED2D0", Slot = "10")]
 	internal override XNode CloneNode()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x46964B0", Offset = "0x46964B0", VA = "0x46964B0")]
+	[Address(RVA = "0x25ED390", Offset = "0x25EB990", VA = "0x1825ED390")]
 	private static void ValidateName(string name)
 	{
 	}

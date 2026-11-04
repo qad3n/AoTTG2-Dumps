@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200004B")]
+[Token(Token = "0x2000049")]
 public struct UserAchievement
 {
-	[Token(Token = "0x40000EB")]
+	[Token(Token = "0x40000E6")]
 	[FieldOffset(Offset = "0x0")]
 	public long UserId;
 
-	[Token(Token = "0x40000EC")]
+	[Token(Token = "0x40000E7")]
 	[FieldOffset(Offset = "0x8")]
 	public long AchievementId;
 
-	[Token(Token = "0x40000ED")]
+	[Token(Token = "0x40000E8")]
 	[FieldOffset(Offset = "0x10")]
 	public byte PercentComplete;
 
-	[Token(Token = "0x40000EE")]
+	[Token(Token = "0x40000E9")]
 	[FieldOffset(Offset = "0x18")]
 	public string UnlockedAt;
 }

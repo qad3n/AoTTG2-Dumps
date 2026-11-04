@@ -10,66 +10,66 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x200021A")]
+[Token(Token = "0x200024B")]
 [ComVisible(true)]
 public sealed class RegisteredWaitHandle : MarshalByRefObject
 {
-	[Token(Token = "0x4000A0D")]
+	[Token(Token = "0x4000A6B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private WaitHandle _waitObject;
 
-	[Token(Token = "0x4000A0E")]
+	[Token(Token = "0x4000A6C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private WaitOrTimerCallback _callback;
 
-	[Token(Token = "0x4000A0F")]
+	[Token(Token = "0x4000A6D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private object _state;
 
-	[Token(Token = "0x4000A10")]
+	[Token(Token = "0x4000A6E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private WaitHandle _finalEvent;
 
-	[Token(Token = "0x4000A11")]
+	[Token(Token = "0x4000A6F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private ManualResetEvent _cancelEvent;
 
-	[Token(Token = "0x4000A12")]
+	[Token(Token = "0x4000A70")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private TimeSpan _timeout;
 
-	[Token(Token = "0x4000A13")]
+	[Token(Token = "0x4000A71")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private int _callsInProcess;
 
-	[Token(Token = "0x4000A14")]
+	[Token(Token = "0x4000A72")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4C")]
 	private bool _executeOnlyOnce;
 
-	[Token(Token = "0x4000A15")]
+	[Token(Token = "0x4000A73")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4D")]
 	private bool _unregistered;
 
-	[Token(Token = "0x6001349")]
-	[Address(RVA = "0x3D39E50", Offset = "0x3D39E50", VA = "0x3D39E50")]
+	[Token(Token = "0x60013BA")]
+	[Address(RVA = "0x1BB2960", Offset = "0x1BB0F60", VA = "0x181BB2960")]
 	internal RegisteredWaitHandle(WaitHandle waitObject, WaitOrTimerCallback callback, object state, TimeSpan timeout, bool executeOnlyOnce)
 	{
 	}
 
-	[Token(Token = "0x600134A")]
-	[Address(RVA = "0x3D3C2E0", Offset = "0x3D3C2E0", VA = "0x3D3C2E0")]
+	[Token(Token = "0x60013BB")]
+	[Address(RVA = "0x1BB2310", Offset = "0x1BB0910", VA = "0x181BB2310")]
 	internal void Wait(object state)
 	{
 	}
 
-	[Token(Token = "0x600134B")]
-	[Address(RVA = "0x3D3C8A0", Offset = "0x3D3C8A0", VA = "0x3D3C8A0")]
+	[Token(Token = "0x60013BC")]
+	[Address(RVA = "0x1BB2100", Offset = "0x1BB0700", VA = "0x181BB2100")]
 	private void DoCallBack(object timedOut)
 	{
 	}
 
-	[Token(Token = "0x600134C")]
-	[Address(RVA = "0x3D3C990", Offset = "0x3D3C990", VA = "0x3D3C990")]
+	[Token(Token = "0x60013BD")]
+	[Address(RVA = "0x1BB21C0", Offset = "0x1BB07C0", VA = "0x181BB21C0")]
 	[ComVisible(true)]
 	public bool Unregister(WaitHandle waitObject)
 	{

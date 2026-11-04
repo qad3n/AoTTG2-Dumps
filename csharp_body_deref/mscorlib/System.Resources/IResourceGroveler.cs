@@ -12,9 +12,9 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B7")]
+[Token(Token = "0x20004E7")]
 internal interface IResourceGroveler
 {
-	[Token(Token = "0x6002365")]
+	[Token(Token = "0x60023E7")]
 	ResourceSet GrovelForResourceSet(CultureInfo culture, Dictionary<string, ResourceSet> localResourceSets, bool tryParents, bool createIfNotExists, ref System.Threading.StackCrawlMark stackMark);
 }

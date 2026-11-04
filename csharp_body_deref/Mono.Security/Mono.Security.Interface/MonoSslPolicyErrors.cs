@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x200003F")]
 [Flags]
 public enum MonoSslPolicyErrors
 {
-	[Token(Token = "0x40001DE")]
+	[Token(Token = "0x40001E4")]
 	None = 0,
-	[Token(Token = "0x40001DF")]
+	[Token(Token = "0x40001E5")]
 	RemoteCertificateNotAvailable = 1,
-	[Token(Token = "0x40001E0")]
+	[Token(Token = "0x40001E6")]
 	RemoteCertificateNameMismatch = 2,
-	[Token(Token = "0x40001E1")]
+	[Token(Token = "0x40001E7")]
 	RemoteCertificateChainErrors = 4
 }

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x2000026")]
 public enum ActivityType
 {
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x4000059")]
 	Playing,
-	[Token(Token = "0x400005F")]
+	[Token(Token = "0x400005A")]
 	Streaming,
-	[Token(Token = "0x4000060")]
+	[Token(Token = "0x400005B")]
 	Listening,
-	[Token(Token = "0x4000061")]
+	[Token(Token = "0x400005C")]
 	Watching
 }

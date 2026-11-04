@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x2000082")]
 public enum ImageFormat
 {
-	[Token(Token = "0x4000200")]
+	[Token(Token = "0x40001FB")]
 	Undefined,
-	[Token(Token = "0x4000201")]
+	[Token(Token = "0x40001FC")]
 	I420,
-	[Token(Token = "0x4000202")]
+	[Token(Token = "0x40001FD")]
 	YV12,
-	[Token(Token = "0x4000203")]
+	[Token(Token = "0x40001FE")]
 	Android420,
-	[Token(Token = "0x4000204")]
+	[Token(Token = "0x40001FF")]
 	ABGR,
-	[Token(Token = "0x4000205")]
+	[Token(Token = "0x4000200")]
 	BGRA,
-	[Token(Token = "0x4000206")]
+	[Token(Token = "0x4000201")]
 	ARGB,
-	[Token(Token = "0x4000207")]
+	[Token(Token = "0x4000202")]
 	NV12
 }

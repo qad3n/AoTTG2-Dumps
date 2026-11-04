@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000086")]
+[Token(Token = "0x20000A3")]
 public enum HumanSex
 {
-	[Token(Token = "0x40002F4")]
+	[Token(Token = "0x4000361")]
 	Male,
-	[Token(Token = "0x40002F5")]
+	[Token(Token = "0x4000362")]
 	Female
 }

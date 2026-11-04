@@ -9,44 +9,44 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.X509.Extensions;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200002D")]
 public class AuthorityKeyIdentifierExtension : X509Extension
 {
-	[Token(Token = "0x400007F")]
+	[Token(Token = "0x4000085")]
 	[FieldOffset(Offset = "0x28")]
 	private byte[] aki;
 
-	[Token(Token = "0x1700004A")]
+	[Token(Token = "0x1700004D")]
 	public byte[] Identifier
 	{
-		[Token(Token = "0x60000DD")]
-		[Address(RVA = "0x3AB6F40", Offset = "0x3AB6F40", VA = "0x3AB6F40")]
+		[Token(Token = "0x6000101")]
+		[Address(RVA = "0x19132E0", Offset = "0x19118E0", VA = "0x1819132E0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x3AB6AA0", Offset = "0x3AB6AA0", VA = "0x3AB6AA0")]
+	[Token(Token = "0x60000FE")]
+	[Address(RVA = "0x19132D0", Offset = "0x19118D0", VA = "0x1819132D0")]
 	public AuthorityKeyIdentifierExtension(X509Extension extension)
 	{
 	}
 
-	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x3AB6AB0", Offset = "0x3AB6AB0", VA = "0x3AB6AB0", Slot = "4")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x1912E80", Offset = "0x1911480", VA = "0x181912E80", Slot = "4")]
 	protected override void Decode()
 	{
 	}
 
-	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x3AB6D10", Offset = "0x3AB6D10", VA = "0x3AB6D10", Slot = "5")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x1912FD0", Offset = "0x19115D0", VA = "0x181912FD0", Slot = "5")]
 	protected override void Encode()
 	{
 	}
 
-	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x3AB6FB0", Offset = "0x3AB6FB0", VA = "0x3AB6FB0", Slot = "3")]
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x1913140", Offset = "0x1911740", VA = "0x181913140", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

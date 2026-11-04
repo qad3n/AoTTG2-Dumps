@@ -11,22 +11,22 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000F3")]
+[Token(Token = "0x200011B")]
 [System.Runtime.Versioning.NonVersionable]
 public struct Nullable<T> where T : struct
 {
-	[Token(Token = "0x4000391")]
+	[Token(Token = "0x4000416")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly bool hasValue;
 
-	[Token(Token = "0x4000392")]
+	[Token(Token = "0x4000417")]
 	[FieldOffset(Offset = "0x0")]
 	internal T value;
 
 	[Token(Token = "0x17000099")]
 	public bool HasValue
 	{
-		[Token(Token = "0x60008C4")]
+		[Token(Token = "0x60008FF")]
 		[System.Runtime.Versioning.NonVersionable]
 		get
 		{
@@ -37,74 +37,74 @@ public struct Nullable<T> where T : struct
 	[Token(Token = "0x1700009A")]
 	public T Value
 	{
-		[Token(Token = "0x60008C5")]
+		[Token(Token = "0x6000900")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x60008C3")]
+	[Token(Token = "0x60008FE")]
 	[System.Runtime.Versioning.NonVersionable]
 	public Nullable(T value)
 	{
 	}
 
-	[Token(Token = "0x60008C6")]
+	[Token(Token = "0x6000901")]
 	[System.Runtime.Versioning.NonVersionable]
 	public T GetValueOrDefault()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60008C7")]
+	[Token(Token = "0x6000902")]
 	[System.Runtime.Versioning.NonVersionable]
 	public T GetValueOrDefault(T defaultValue)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60008C8")]
+	[Token(Token = "0x6000903")]
 	public override bool Equals(object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60008C9")]
+	[Token(Token = "0x6000904")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60008CA")]
+	[Token(Token = "0x6000905")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008CB")]
+	[Token(Token = "0x6000906")]
 	private static object Box(T? o)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008CC")]
+	[Token(Token = "0x6000907")]
 	private static T? Unbox(object o)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008CD")]
+	[Token(Token = "0x6000908")]
 	private static T? UnboxExact(object o)
 	{
 		return null;
 	}
 }
-[Token(Token = "0x20000F4")]
+[Token(Token = "0x200011C")]
 public static class Nullable
 {
-	[Token(Token = "0x60008CE")]
-	[Address(RVA = "0x3CB9520", Offset = "0x3CB9520", VA = "0x3CB9520")]
+	[Token(Token = "0x6000909")]
+	[Address(RVA = "0x1B2E500", Offset = "0x1B2CB00", VA = "0x181B2E500")]
 	public static Type GetUnderlyingType(Type nullableType)
 	{
 		return null;

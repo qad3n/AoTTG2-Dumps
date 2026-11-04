@@ -18,7 +18,7 @@ public abstract class ConfigurationElementCollection : ConfigurationElement
 	protected virtual bool ThrowOnDuplicate
 	{
 		[Token(Token = "0x600000C")]
-		[Address(RVA = "0x448AB30", Offset = "0x448AB30", VA = "0x448AB30", Slot = "11")]
+		[Address(RVA = "0x23FF410", Offset = "0x23FDA10", VA = "0x1823FF410", Slot = "11")]
 		get
 		{
 			return default(bool);

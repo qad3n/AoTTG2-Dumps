@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000245")]
+[Token(Token = "0x200035F")]
 public enum ErenCustomSkinPartId
 {
-	[Token(Token = "0x4000C63")]
+	[Token(Token = "0x400118F")]
 	Body
 }

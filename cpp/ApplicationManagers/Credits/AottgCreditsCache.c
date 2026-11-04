@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Credits.AottgCreditsCache
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Credits/AottgCreditsCache.cs
@@ -8,656 +8,406 @@
 
 // ApplicationManagers.Credits.AottgCreditsCache.<>c$$.cctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache___c___cctor (const MethodInfo* method);
-// 0x44c5d90
+// 0x182376fb0
 
 void ApplicationManagers_Credits_AottgCreditsCache___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  ApplicationManagers_Credits_AottgCreditsCache___c_o *__this;
   
-  if (g_data_057aeacc == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057aeacc = '\x01';
+  if (Il2CppMethodInitialized_184347a0c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c);
+    Il2CppMethodInitialized_184347a0c = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9,__this);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache.<>c$$.ctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache___c___ctor (ApplicationManagers_Credits_AottgCreditsCache___c_o* __this, const MethodInfo* method);
-// 0x44c5e00
+// 0x18054c890
 
-void ApplicationManagers_Credits_AottgCreditsCache___c___ctor
-               (ApplicationManagers_Credits_AottgCreditsCache___c_o *__this,MethodInfo *method)
+void
+ApplicationManagers_Credits_AottgCreditsCache___c___ctor(ApplicationManagers_Credits_AottgCreditsCache___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache.<>c$$<.ctor>b__8_0
 // il2cpp: System_DateTimeOffset_o ApplicationManagers_Credits_AottgCreditsCache___c____ctor_b__8_0 (ApplicationManagers_Credits_AottgCreditsCache___c_o* __this, const MethodInfo* method);
-// 0x44c5e10
+// 0x1823748a0
 
-System_DateTimeOffset_o
+System_DateTimeOffset_o *
 ApplicationManagers_Credits_AottgCreditsCache___c____ctor_b__8_0
-          (ApplicationManagers_Credits_AottgCreditsCache___c_o *__this,MethodInfo *method)
+          (System_DateTimeOffset_o *__return_storage_ptr__,
+          ApplicationManagers_Credits_AottgCreditsCache___c_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  System_DateTimeOffset_Fields SVar2;
+  int16_t iVar1;
+  undefined6 uVar2;
+  System_DateTimeOffset_o *pSVar3;
+  System_DateTimeOffset_o local_18;
   
-  if (g_data_057aeacd == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    g_data_057aeacd = '\x01';
-    iVar1 = *(int *)(TypeInfo_DateTimeOffset + 0xe4);
+  if (Il2CppMethodInitialized_184347a0d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+    Il2CppMethodInitialized_184347a0d = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_DateTimeOffset + 0xe4);
+  if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
   }
-  if (iVar1 != 0) {
-    SVar2 = (System_DateTimeOffset_Fields)System_DateTimeOffset__get_UtcNow((MethodInfo *)0x0);
-    return (System_DateTimeOffset_o)SVar2;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  SVar2 = (System_DateTimeOffset_Fields)System_DateTimeOffset__get_UtcNow((MethodInfo *)0x0);
-  return (System_DateTimeOffset_o)SVar2;
+  pSVar3 = System_DateTimeOffset__get_UtcNow(&local_18,(MethodInfo *)0x0);
+  iVar1 = (pSVar3->fields)._offsetMinutes;
+  uVar2 = *(undefined6 *)&(pSVar3->fields).field_0xa;
+  (__return_storage_ptr__->fields)._dateTime.fields._dateData = (pSVar3->fields)._dateTime.fields._dateData;
+  (__return_storage_ptr__->fields)._offsetMinutes = iVar1;
+  *(undefined6 *)&(__return_storage_ptr__->fields).field_0xa = uVar2;
+  return __return_storage_ptr__;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$.ctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache___ctor (ApplicationManagers_Credits_AottgCreditsCache_o* __this, System_Action_Action_AottgCreditsFetchResponse___o* fetch, System_Func_DateTimeOffset__o* now, System_Nullable_TimeSpan__o ttl, const MethodInfo* method);
-// 0x44c5180
+// 0x182363fc0
 
 void ApplicationManagers_Credits_AottgCreditsCache___ctor
                (ApplicationManagers_Credits_AottgCreditsCache_o *__this,
                System_Action_Action_AottgCreditsFetchResponse___o *fetch,System_Func_DateTimeOffset__o *now,
-               System_Nullable_TimeSpan__o ttl,MethodInfo *method)
+               System_Nullable_TimeSpan__o *ttl,MethodInfo *method)
 
 {
-  long lVar1;
+  Il2CppObject *object;
   System_Collections_Generic_List_Action_AottgCreditsResult___o *__this_00;
-  undefined8 uVar2;
+  Il2CppClass *klass;
   System_ArgumentNullException_o *__this_01;
   System_String_o *paramName;
-  System_TimeSpan_Fields SVar3;
+  MethodInfo *lastManagedFrame;
+  undefined1 uStack_30;
   
-  SVar3._ticks = (int64_t)ttl.fields.value.fields._ticks;
-  if (g_data_057aeac6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsCache);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_DateTimeOffset);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Action_1_ApplicationManagers_Credits_Aottg);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Action_AottgCreditsResult);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TimeSpan_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_DateTimeOffset_ctor_b__8_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057aeac6 = '\x01';
+  if (Il2CppMethodInitialized_184347a06 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_DateTimeOffset);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_Action_AottgCreditsResult);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_TimeSpan_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_TimeSpan_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_Credits_AottgCreditsCache_c_ctor_b__8_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c);
+    Il2CppMethodInitialized_184347a06 = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_List_Action_AottgCreditsResult);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_Action_AottgCreditsResult);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_System_Action_1_ApplicationManagers_Credits_Aottg);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_ctor);
   (__this->fields)._subscribers = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._subscribers);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._subscribers,__this_00);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   if (fetch == (System_Action_Action_AottgCreditsFetchResponse___o *)0x0) {
-    uVar2 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentNullException);
-    __this_01 = (System_ArgumentNullException_o *)il2cpp_runtime_helper_023052d0(uVar2);
-    paramName = (System_String_o *)il2cpp_runtime_helper_023445d0(&"fetch");
-    System_ArgumentNullException___ctor_3c0ad60(__this_01,paramName,(MethodInfo *)0x0);
-    uVar2 = il2cpp_runtime_helper_023445d0(&MethodInfo_AottgCreditsCache);
-    il2cpp_runtime_helper_022b2b10(__this_01,uVar2);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentNullException);
+    __this_01 = (System_ArgumentNullException_o *)il2cpp_codegen_object_new(klass);
+    paramName = il2cpp_codegen_get_runtime_metadata(&"fetch");
+    System_ArgumentNullException___ctor_1a77f20(__this_01,paramName,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata(&MethodInfo_ApplicationManagers_Credits_AottgCreditsCache_ctor);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
   }
-  else if (__this != (ApplicationManagers_Credits_AottgCreditsCache_o *)0x0) {
-    (__this->fields)._fetch = fetch;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._fetch,fetch);
-    if (now == (System_Func_DateTimeOffset__o *)0x0) {
-      if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        now = *(System_Func_DateTimeOffset__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-      }
-      else {
-        now = *(System_Func_DateTimeOffset__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-      }
-      if (now == (System_Func_DateTimeOffset__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        now = (System_Func_DateTimeOffset__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_DateTimeOffset);
-        System_Func_DateTimeOffset____ctor();
-        lVar1 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_DateTimeOffset__o **)(lVar1 + 8) = now;
-        il2cpp_runtime_helper_022b4080(lVar1 + 8,now);
-      }
+  (__this->fields)._fetch = fetch;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._fetch,fetch);
+  if (now == (System_Func_DateTimeOffset__o *)0x0) {
+    if ((TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c);
     }
-    (__this->fields)._now = now;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._now,now);
-    if ((char)ttl.fields.hasValue == '\0') {
-      if (*(int *)(TypeInfo_AottgCreditsCache + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    now = TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9__8_0;
+    if ((DG_Tweening_Core_DOGetter_Vector4__o *)now == (DG_Tweening_Core_DOGetter_Vector4__o *)0x0) {
+      if ((TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c);
       }
-      SVar3._ticks = **(int64_t **)(TypeInfo_AottgCreditsCache + 0xb8);
+      object = (Il2CppObject *)TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9;
+      now = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_DateTimeOffset);
+      System_Func_DateTimeOffset____ctor
+                ((DG_Tweening_Core_DOGetter_Vector4__o *)now,object,
+                 (intptr_t)MethodInfo_ApplicationManagers_Credits_AottgCreditsCache_c_ctor_b__8_0,
+                 (MethodInfo_13876B0 *)0x0);
+      TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9__8_0 = now;
+      Il2CppCodeGenWriteBarrier
+                (&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache_c->static_fields->__9__8_0,now);
     }
-    (__this->fields)._ttl.fields._ticks = SVar3._ticks;
+  }
+  (__this->fields)._now = now;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._now,now);
+  uStack_30 = (undefined1)((ulonglong)*(undefined8 *)&(ttl->fields).field_0x1 >> 0x38);
+  if ((ttl->fields).hasValue != false) {
+    (__this->fields)._ttl.fields._ticks =
+         CONCAT17(*(undefined1 *)((longlong)&(ttl->fields).value.fields._ticks + 7),
+                  CONCAT25(*(undefined2 *)((longlong)&(ttl->fields).value.fields._ticks + 5),
+                           CONCAT41(*(undefined4 *)((longlong)&(ttl->fields).value.fields._ticks + 1),
+                                    uStack_30)));
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
+  if ((TypeInfo_ApplicationManagers_Credits_AottgCreditsCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_Credits_AottgCreditsCache);
+  }
+  (__this->fields)._ttl.fields._ticks =
+       (TypeInfo_ApplicationManagers_Credits_AottgCreditsCache->static_fields->DefaultTtl).fields._ticks;
   return;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$get_HasCache
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsCache__get_HasCache (ApplicationManagers_Credits_AottgCreditsCache_o* __this, const MethodInfo* method);
-// 0x44c53c0
+// 0x181a1e5d0
 
-bool_conflict
-ApplicationManagers_Credits_AottgCreditsCache__get_HasCache
-          (ApplicationManagers_Credits_AottgCreditsCache_o *__this,MethodInfo *method)
+bool
+ApplicationManagers_Credits_AottgCreditsCache__get_HasCache(ApplicationManagers_Credits_AottgCreditsCache_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),
-                  (__this->fields)._cachedCredits != (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0
-                 );
+  return (__this->fields)._cachedCredits != (UnityEngine_UIElements_UxmlAsset_o *)0x0;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$get_IsInFlight
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsCache__get_IsInFlight (ApplicationManagers_Credits_AottgCreditsCache_o* __this, const MethodInfo* method);
-// 0x44c53d0
+// 0x18058a530
 
-bool_conflict
-ApplicationManagers_Credits_AottgCreditsCache__get_IsInFlight
-          (ApplicationManagers_Credits_AottgCreditsCache_o *__this,MethodInfo *method)
+bool
+ApplicationManagers_Credits_AottgCreditsCache__get_IsInFlight(ApplicationManagers_Credits_AottgCreditsCache_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(char)(__this->fields)._inFlight);
+  return (__this->fields)._inFlight;
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$Clear
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache__Clear (ApplicationManagers_Credits_AottgCreditsCache_o* __this, const MethodInfo* method);
-// 0x44c53e0
+// 0x182363a00
 
 void ApplicationManagers_Credits_AottgCreditsCache__Clear
                (ApplicationManagers_Credits_AottgCreditsCache_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  char cVar2;
   int32_t length;
-  uint uVar3;
-  ApplicationManagers_Credits_AottgCreditsResponse_o *pAVar4;
-  System_Action_AottgCreditsResult__array *pSVar5;
-  System_Action_Action_AottgCreditsFetchResponse___o *pSVar6;
-  long lVar7;
-  System_TimeSpan_o t2;
-  unkuint10 Var8;
-  bool_conflict bVar9;
-  System_Collections_Generic_List_Action_AottgCreditsResult___o *pSVar10;
-  Il2CppObject *pIVar11;
-  code *vtableDispatch;
-  System_TimeSpan_o t1;
-  char extraout_DL;
-  Il2CppType *pIVar12;
-  undefined1 uVar13;
-  System_Action_AottgCreditsResult__o *item;
-  System_Action_AottgCreditsResult__o *method_00;
-  ApplicationManagers_Credits_AottgCreditsCache_o *__this_00;
-  System_Collections_Generic_List_Action_AottgCreditsResult___o *__this_01;
-  void *pvVar14;
-  undefined1 auVar15 [16];
-  System_DateTimeOffset_o right;
-  System_DateTimeOffset_o left;
+  System_Collections_Generic_List_Action_AottgCreditsResult___o *pSVar2;
   
-  if (g_data_057aeac7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    g_data_057aeac7 = '\x01';
+  if (Il2CppMethodInitialized_184347a07 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_Clear);
+    Il2CppMethodInitialized_184347a07 = '\x01';
   }
-  __this_00 = (ApplicationManagers_Credits_AottgCreditsCache_o *)&(__this->fields)._cachedCredits;
   (__this->fields)._cachedCredits = (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0;
-  item = (System_Action_AottgCreditsResult__o *)0x0;
-  il2cpp_runtime_helper_022b4080();
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._cachedCredits,(void *)0x0);
   (__this->fields)._cachedAt.fields._dateTime.fields._dateData = 0;
   *(undefined8 *)&(__this->fields)._cachedAt.fields._offsetMinutes = 0;
-  *(undefined1 *)&(__this->fields)._inFlight = 0;
-  pSVar10 = (__this->fields)._subscribers;
-  if (pSVar10 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
-    piVar1 = &(pSVar10->fields)._version;
+  pSVar2 = (__this->fields)._subscribers;
+  (__this->fields)._inFlight = false;
+  if (pSVar2 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
+    length = (pSVar2->fields)._size;
+    piVar1 = &(pSVar2->fields)._version;
     *piVar1 = *piVar1 + 1;
-    length = (pSVar10->fields)._size;
-    (pSVar10->fields)._size = 0;
+    (pSVar2->fields)._size = 0;
     if (0 < length) {
-      System_Array__Clear((System_Array_o *)(pSVar10->fields)._items,0,length,(MethodInfo *)0x0);
+      System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
       return;
     }
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  method_00 = item;
-  if (g_data_057aeac8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgCreditsFetchResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CompleteFetch);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    g_data_057aeac8 = '\x01';
-  }
-  if (item == (System_Action_AottgCreditsResult__o *)0x0) {
-    return;
-  }
-  if ((extraout_DL == '\0') &&
-     (bVar9 = ApplicationManagers_Credits_AottgCreditsCache__IsFresh(__this_00,(MethodInfo *)method_00),
-     (char)bVar9 != '\0')) {
-    pAVar4 = (__this_00->fields)._cachedCredits;
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor((Il2CppObject *)pSVar10,(MethodInfo *)0x0);
-    *(undefined4 *)&(pSVar10->fields)._items = 1;
-    *(ApplicationManagers_Credits_AottgCreditsResponse_o **)&(pSVar10->fields)._size = pAVar4;
-    il2cpp_runtime_helper_022b4080(&(pSVar10->fields)._size,pAVar4);
-    (pSVar10->fields)._syncRoot = (Il2CppObject *)0x0;
-    il2cpp_runtime_helper_022b4080(&(pSVar10->fields)._syncRoot,0);
-    *(undefined2 *)&pSVar10[1].klass = 1;
-    *(undefined1 *)((long)&pSVar10[1].klass + 2) = 0;
-    pvVar14 = ((_union_14 *)&(item->fields).method_code)->genericMethod;
-    vtableDispatch = (code *)(item->fields).invoke_impl;
-    pIVar12 = (Il2CppType *)(item->fields).method;
-label_044c56ed:
-    (*vtableDispatch)(pvVar14,pSVar10,pIVar12);
-    return;
-  }
-  pAVar4 = (__this_00->fields)._cachedCredits;
-  if (pAVar4 == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
-    if (g_data_057aead1 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead1 = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 0;
-    pIVar11[1].monitor = (void *)0x0;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,0);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined2 *)&pIVar11[2].monitor = 0;
-  }
-  else {
-    if (g_data_057aead3 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead3 = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 2;
-    pIVar11[1].monitor = pAVar4;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,pAVar4);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined2 *)&pIVar11[2].monitor = 0x101;
-  }
-  *(undefined1 *)((long)&pIVar11[2].monitor + 2) = 1;
-  (*(code *)(item->fields).invoke_impl)
-            (((_union_14 *)&(item->fields).method_code)->genericMethod,pIVar11,
-             (Il2CppType *)(item->fields).method);
-  lVar7 = MethodInfo_Void_Add;
-  uVar13 = SUB81(pIVar11,0);
-  __this_01 = (__this_00->fields)._subscribers;
-  if (__this_01 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
-    piVar1 = &(__this_01->fields)._version;
-    *piVar1 = *piVar1 + 1;
-    pSVar5 = (__this_01->fields)._items;
-    if (pSVar5 != (System_Action_AottgCreditsResult__array *)0x0) {
-      uVar3 = (__this_01->fields)._size;
-      if (uVar3 < (uint)pSVar5->max_length) {
-        (__this_01->fields)._size = uVar3 + 1;
-        pSVar5->m_Items[(int)uVar3] = item;
-        il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar3,item);
-        cVar2 = (char)(__this_00->fields)._inFlight;
-      }
-      else {
-        System_Collections_Generic_List_object___AddWithResize
-                  ((System_Collections_Generic_List_object__o *)__this_01,(Il2CppObject *)item,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        cVar2 = (char)(__this_00->fields)._inFlight;
-      }
-      if (cVar2 != '\0') {
-        return;
-      }
-      *(undefined1 *)&(__this_00->fields)._inFlight = 1;
-      pSVar6 = (__this_00->fields)._fetch;
-      pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)
-                il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgCreditsFetchResponse);
-      __this_01 = pSVar10;
-      System_Action_object____ctor();
-      uVar13 = SUB81(__this_00,0);
-      if (pSVar6 != (System_Action_Action_AottgCreditsFetchResponse___o *)0x0) {
-        pvVar14 = (void *)(pSVar6->fields).method_code;
-        vtableDispatch = (code *)(pSVar6->fields).invoke_impl;
-        pIVar12 = (Il2CppType *)(pSVar6->fields).method;
-        goto label_044c56ed;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar10 = __this_01;
-  if (g_data_057aeac9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)&TypeInfo_TimeSpan;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeac9 = '\x01';
-  }
-  if (__this_01[1].monitor != (void *)0x0) {
-    lVar7 = *(long *)&(__this_01->fields)._size;
-    if (lVar7 != 0) {
-      auVar15 = (**(code **)(lVar7 + 0x18))(*(undefined8 *)(lVar7 + 0x40),*(undefined8 *)(lVar7 + 0x28));
-      Var8 = *(unkuint10 *)&__this_01[1].fields;
-      if (*(int *)(TypeInfo_DateTimeOffset + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      right.fields._10_6_ = 0;
-      right.fields._0_10_ = Var8;
-      left.fields._8_8_ = auVar15._8_8_ & 0xffffffff;
-      left.fields._dateTime.fields._dateData = (System_DateTime_Fields)(uint64_t)auVar15._0_8_;
-      t1 = System_DateTimeOffset__op_Subtraction(left,right,(MethodInfo *)0x0);
-      t2.fields._ticks = (System_TimeSpan_Fields)(__this_01->fields)._items;
-      if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      System_TimeSpan__op_LessThan(t1,t2,(MethodInfo *)0x0);
-      return;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 1;
-    pIVar11[1].monitor = pSVar10;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,pSVar10);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined1 *)&pIVar11[2].monitor = uVar13;
-    *(undefined2 *)((long)&pIVar11[2].monitor + 1) = 0;
-    return;
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$Get
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache__Get (ApplicationManagers_Credits_AottgCreditsCache_o* __this, System_Action_AottgCreditsResult__o* onResult, bool forceRefresh, const MethodInfo* method);
-// 0x44c5450
+// 0x182363c10
 
 void ApplicationManagers_Credits_AottgCreditsCache__Get
                (ApplicationManagers_Credits_AottgCreditsCache_o *__this,
-               System_Action_AottgCreditsResult__o *onResult,bool_conflict forceRefresh,MethodInfo *method)
+               System_Action_AottgCreditsResult__o *onResult,bool forceRefresh,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  char cVar2;
-  uint uVar3;
-  ApplicationManagers_Credits_AottgCreditsResponse_o *pAVar4;
-  System_Action_AottgCreditsResult__array *pSVar5;
-  System_Action_Action_AottgCreditsFetchResponse___o *pSVar6;
-  long lVar7;
+  uint uVar2;
+  System_Func_DateTimeOffset__o *pSVar3;
   System_TimeSpan_o t2;
-  unkuint10 Var8;
-  bool_conflict bVar9;
-  System_Collections_Generic_List_Action_AottgCreditsResult___o *pSVar10;
-  Il2CppObject *pIVar11;
-  code *vtableDispatch;
-  System_TimeSpan_o t1;
-  intptr_t iVar12;
-  undefined1 uVar13;
-  System_Action_AottgCreditsResult__o *method_00;
   System_Collections_Generic_List_Action_AottgCreditsResult___o *__this_00;
-  intptr_t iVar14;
-  undefined1 auVar15 [16];
-  System_DateTimeOffset_o right;
-  System_DateTimeOffset_o left;
+  System_Action_AottgCreditsResult__array *pSVar4;
+  System_Action_Action_AottgCreditsFetchResponse___o *pSVar5;
+  MethodInfo *pMVar6;
+  bool bVar7;
+  uint64_t *puVar8;
+  System_TimeSpan_o t1;
+  ApplicationManagers_Credits_AottgCreditsResult_o *pAVar9;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_01;
+  System_DateTimeOffset_o local_48;
+  System_DateTimeOffset_o local_38 [3];
   
-  method_00 = onResult;
-  if (g_data_057aeac8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgCreditsFetchResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CompleteFetch);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    g_data_057aeac8 = '\x01';
+  if (Il2CppMethodInitialized_184347a08 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgCreditsFetchResponse);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_Credits_AottgCreditsCache_CompleteFetch);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_Add);
+    Il2CppMethodInitialized_184347a08 = '\x01';
   }
   if (onResult == (System_Action_AottgCreditsResult__o *)0x0) {
     return;
   }
-  if (((char)forceRefresh == '\0') &&
-     (bVar9 = ApplicationManagers_Credits_AottgCreditsCache__IsFresh(__this,(MethodInfo *)method_00),
-     (char)bVar9 != '\0')) {
-    pAVar4 = (__this->fields)._cachedCredits;
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor((Il2CppObject *)pSVar10,(MethodInfo *)0x0);
-    *(undefined4 *)&(pSVar10->fields)._items = 1;
-    *(ApplicationManagers_Credits_AottgCreditsResponse_o **)&(pSVar10->fields)._size = pAVar4;
-    il2cpp_runtime_helper_022b4080(&(pSVar10->fields)._size,pAVar4);
-    (pSVar10->fields)._syncRoot = (Il2CppObject *)0x0;
-    il2cpp_runtime_helper_022b4080(&(pSVar10->fields)._syncRoot,0);
-    *(undefined2 *)&pSVar10[1].klass = 1;
-    *(undefined1 *)((long)&pSVar10[1].klass + 2) = 0;
-    iVar14 = (onResult->fields).method_code;
-    vtableDispatch = (code *)(onResult->fields).invoke_impl;
-    iVar12 = (onResult->fields).method;
-label_044c56ed:
-    (*vtableDispatch)(iVar14,pSVar10,iVar12);
-    return;
-  }
-  pAVar4 = (__this->fields)._cachedCredits;
-  if (pAVar4 == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
-    if (g_data_057aead1 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead1 = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 0;
-    pIVar11[1].monitor = (void *)0x0;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,0);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined2 *)&pIVar11[2].monitor = 0;
+  if (forceRefresh) {
+label_182363d72:
+    if ((__this->fields)._cachedCredits == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0)
+    goto label_182363d79;
+    pAVar9 = ApplicationManagers_Credits_AottgCreditsResult__ReadyStaleRefreshing
+                       ((__this->fields)._cachedCredits,(MethodInfo *)0x0);
   }
   else {
-    if (g_data_057aead3 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead3 = '\x01';
+    if (Il2CppMethodInitialized_184347a09 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+      Il2CppMethodInitialized_184347a09 = '\x01';
     }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 2;
-    pIVar11[1].monitor = pAVar4;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,pAVar4);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined2 *)&pIVar11[2].monitor = 0x101;
+    if ((__this->fields)._cachedCredits != (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
+      pSVar3 = (__this->fields)._now;
+      if (pSVar3 == (System_Func_DateTimeOffset__o *)0x0) goto label_182363e52;
+      puVar8 = (uint64_t *)(*(code *)(pSVar3->fields).invoke_impl)(local_38,(pSVar3->fields).method_code);
+      local_48.fields._dateTime.fields._dateData =
+           (System_DateTime_Fields)(__this->fields)._cachedAt.fields._dateTime.fields._dateData;
+      local_48.fields._offsetMinutes = (__this->fields)._cachedAt.fields._offsetMinutes;
+      local_48.fields._10_6_ = *(undefined6 *)&(__this->fields)._cachedAt.fields.field_0xa;
+      local_38[0].fields._dateTime.fields._dateData = (System_DateTime_Fields)*puVar8;
+      local_38[0].fields._8_8_ = puVar8[1];
+      if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
+      }
+      t1 = System_DateTimeOffset__op_Subtraction(local_38,&local_48,(MethodInfo *)0x0);
+      t2.fields._ticks = (System_TimeSpan_Fields)(__this->fields)._ttl.fields._ticks;
+      if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
+      }
+      bVar7 = System_TimeSpan__op_LessThan(t1,t2,(MethodInfo *)0x0);
+      if (bVar7) {
+        pAVar9 = ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh
+                           ((__this->fields)._cachedCredits,true,(MethodInfo *)0x0);
+        (*(code *)(onResult->fields).invoke_impl)
+                  ((onResult->fields).method_code,pAVar9,(onResult->fields).method);
+        return;
+      }
+      goto label_182363d72;
+    }
+label_182363d79:
+    pAVar9 = ApplicationManagers_Credits_AottgCreditsResult__LoadingNoCache((MethodInfo *)0x0);
   }
-  *(undefined1 *)((long)&pIVar11[2].monitor + 2) = 1;
-  (*(code *)(onResult->fields).invoke_impl)((onResult->fields).method_code,pIVar11,(onResult->fields).method);
-  lVar7 = MethodInfo_Void_Add;
-  uVar13 = SUB81(pIVar11,0);
+  (*(code *)(onResult->fields).invoke_impl)((onResult->fields).method_code,pAVar9,(onResult->fields).method);
+  pMVar6 = MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_Add;
   __this_00 = (__this->fields)._subscribers;
   if (__this_00 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
     piVar1 = &(__this_00->fields)._version;
     *piVar1 = *piVar1 + 1;
-    pSVar5 = (__this_00->fields)._items;
-    if (pSVar5 != (System_Action_AottgCreditsResult__array *)0x0) {
-      uVar3 = (__this_00->fields)._size;
-      if (uVar3 < (uint)pSVar5->max_length) {
-        (__this_00->fields)._size = uVar3 + 1;
-        pSVar5->m_Items[(int)uVar3] = onResult;
-        il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar3,onResult);
-        cVar2 = (char)(__this->fields)._inFlight;
+    pSVar4 = (__this_00->fields)._items;
+    if (pSVar4 != (System_Action_AottgCreditsResult__array *)0x0) {
+      uVar2 = (__this_00->fields)._size;
+      if (uVar2 < (uint)pSVar4->max_length) {
+        (__this_00->fields)._size = uVar2 + 1;
+        if ((uint)pSVar4->max_length <= uVar2) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar4->m_Items[(int)uVar2] = onResult;
+        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,onResult);
       }
       else {
         System_Collections_Generic_List_object___AddWithResize
                   ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)onResult,
-                   *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        cVar2 = (char)(__this->fields)._inFlight;
+                   (MethodInfo_93DD50 *)pMVar6->klass->rgctx_data[0xe].method);
       }
-      if (cVar2 != '\0') {
-        return;
+      if ((__this->fields)._inFlight == false) {
+        pSVar5 = (__this->fields)._fetch;
+        (__this->fields)._inFlight = true;
+        __this_01 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                    il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_AottgCreditsFetchResponse)
+        ;
+        UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate___ctor
+                  (__this_01,(Il2CppObject *)__this,
+                   (intptr_t)MethodInfo_ApplicationManagers_Credits_AottgCreditsCache_CompleteFetch,
+                   (MethodInfo *)0x0);
+        if (pSVar5 == (System_Action_Action_AottgCreditsFetchResponse___o *)0x0) goto label_182363e52;
+        (*(code *)(pSVar5->fields).invoke_impl)
+                  ((pSVar5->fields).method_code,__this_01,(pSVar5->fields).method);
       }
-      *(undefined1 *)&(__this->fields)._inFlight = 1;
-      pSVar6 = (__this->fields)._fetch;
-      pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)
-                il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgCreditsFetchResponse);
-      __this_00 = pSVar10;
-      System_Action_object____ctor();
-      uVar13 = SUB81(__this,0);
-      if (pSVar6 != (System_Action_Action_AottgCreditsFetchResponse___o *)0x0) {
-        iVar14 = (pSVar6->fields).method_code;
-        vtableDispatch = (code *)(pSVar6->fields).invoke_impl;
-        iVar12 = (pSVar6->fields).method;
-        goto label_044c56ed;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar10 = __this_00;
-  if (g_data_057aeac9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    pSVar10 = (System_Collections_Generic_List_Action_AottgCreditsResult___o *)&TypeInfo_TimeSpan;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeac9 = '\x01';
-  }
-  if (__this_00[1].monitor != (void *)0x0) {
-    lVar7 = *(long *)&(__this_00->fields)._size;
-    if (lVar7 != 0) {
-      auVar15 = (**(code **)(lVar7 + 0x18))(*(undefined8 *)(lVar7 + 0x40),*(undefined8 *)(lVar7 + 0x28));
-      Var8 = *(unkuint10 *)&__this_00[1].fields;
-      if (*(int *)(TypeInfo_DateTimeOffset + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      right.fields._10_6_ = 0;
-      right.fields._0_10_ = Var8;
-      left.fields._8_8_ = auVar15._8_8_ & 0xffffffff;
-      left.fields._dateTime.fields._dateData = (System_DateTime_Fields)(uint64_t)auVar15._0_8_;
-      t1 = System_DateTimeOffset__op_Subtraction(left,right,(MethodInfo *)0x0);
-      t2.fields._ticks = (System_TimeSpan_Fields)(__this_00->fields)._items;
-      if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      System_TimeSpan__op_LessThan(t1,t2,(MethodInfo *)0x0);
       return;
     }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    pIVar11 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(pIVar11,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar11[1].klass = 1;
-    pIVar11[1].monitor = pSVar10;
-    il2cpp_runtime_helper_022b4080(&pIVar11[1].monitor,pSVar10);
-    pIVar11[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(pIVar11 + 2,0);
-    *(undefined1 *)&pIVar11[2].monitor = uVar13;
-    *(undefined2 *)((long)&pIVar11[2].monitor + 1) = 0;
-    return;
   }
-  return;
+label_182363e52:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$IsFresh
 // il2cpp: bool ApplicationManagers_Credits_AottgCreditsCache__IsFresh (ApplicationManagers_Credits_AottgCreditsCache_o* __this, const MethodInfo* method);
-// 0x44c5700
+// 0x182363e60
 
-bool_conflict
-ApplicationManagers_Credits_AottgCreditsCache__IsFresh
-          (ApplicationManagers_Credits_AottgCreditsCache_o *__this,MethodInfo *method)
+bool ApplicationManagers_Credits_AottgCreditsCache__IsFresh
+               (ApplicationManagers_Credits_AottgCreditsCache_o *__this,MethodInfo *method)
 
 {
   System_Func_DateTimeOffset__o *pSVar1;
   System_TimeSpan_o t2;
-  undefined8 uVar2;
-  undefined2 uVar3;
-  bool_conflict bVar4;
+  bool bVar2;
+  uint64_t *puVar3;
   System_TimeSpan_o t1;
-  Il2CppObject *__this_00;
-  undefined1 uVar5;
-  ApplicationManagers_Credits_AottgCreditsCache_o *pAVar6;
-  undefined1 auVar7 [16];
-  System_DateTimeOffset_o right;
-  System_DateTimeOffset_o left;
+  System_DateTimeOffset_o local_48;
+  System_DateTimeOffset_o local_38 [3];
   
-  uVar5 = SUB81(method,0);
-  pAVar6 = __this;
-  if (g_data_057aeac9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    pAVar6 = (ApplicationManagers_Credits_AottgCreditsCache_o *)&TypeInfo_TimeSpan;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeac9 = '\x01';
+  if (Il2CppMethodInitialized_184347a09 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+    Il2CppMethodInitialized_184347a09 = '\x01';
   }
-  if ((__this->fields)._cachedCredits != (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
-    pSVar1 = (__this->fields)._now;
-    if (pSVar1 != (System_Func_DateTimeOffset__o *)0x0) {
-      auVar7 = (*(code *)(pSVar1->fields).invoke_impl)((pSVar1->fields).method_code,(pSVar1->fields).method);
-      uVar2 = (__this->fields)._cachedAt.fields._dateTime;
-      uVar3 = (__this->fields)._cachedAt.fields._offsetMinutes;
-      right.fields._offsetMinutes = uVar3;
-      right.fields._dateTime.fields._dateData = (System_DateTime_Fields)(System_DateTime_Fields)uVar2;
-      if (*(int *)(TypeInfo_DateTimeOffset + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      right.fields._10_6_ = 0;
-      left.fields._8_8_ = auVar7._8_8_ & 0xffffffff;
-      left.fields._dateTime.fields._dateData = (System_DateTime_Fields)(uint64_t)auVar7._0_8_;
-      t1 = System_DateTimeOffset__op_Subtraction(left,right,(MethodInfo *)0x0);
-      t2.fields._ticks = (System_TimeSpan_Fields)(__this->fields)._ttl.fields._ticks;
-      if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar4 = System_TimeSpan__op_LessThan(t1,t2,(MethodInfo *)0x0);
-      return bVar4;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor(__this_00,(MethodInfo *)0x0);
-    *(undefined4 *)&__this_00[1].klass = 1;
-    __this_00[1].monitor = pAVar6;
-    il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,pAVar6);
-    __this_00[2].klass = (Il2CppClass *)0x0;
-    il2cpp_runtime_helper_022b4080(__this_00 + 2,0);
-    *(undefined1 *)&__this_00[2].monitor = uVar5;
-    *(undefined2 *)((long)&__this_00[2].monitor + 1) = 0;
-    return (bool_conflict)__this_00;
+  if ((__this->fields)._cachedCredits == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
+    return false;
   }
-  return 0;
+  pSVar1 = (__this->fields)._now;
+  if (pSVar1 != (System_Func_DateTimeOffset__o *)0x0) {
+    puVar3 = (uint64_t *)(*(code *)(pSVar1->fields).invoke_impl)(local_38,(pSVar1->fields).method_code);
+    local_48.fields._dateTime.fields._dateData =
+         (System_DateTime_Fields)(__this->fields)._cachedAt.fields._dateTime.fields._dateData;
+    local_48.fields._offsetMinutes = (__this->fields)._cachedAt.fields._offsetMinutes;
+    local_48.fields._10_6_ = *(undefined6 *)&(__this->fields)._cachedAt.fields.field_0xa;
+    local_38[0].fields._dateTime.fields._dateData = (System_DateTime_Fields)*puVar3;
+    local_38[0].fields._8_8_ = puVar3[1];
+    if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
+    }
+    t1 = System_DateTimeOffset__op_Subtraction(local_38,&local_48,(MethodInfo *)0x0);
+    t2.fields._ticks = (System_TimeSpan_Fields)(__this->fields)._ttl.fields._ticks;
+    if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
+    }
+    bVar2 = System_TimeSpan__op_LessThan(t1,t2,(MethodInfo *)0x0);
+    return bVar2;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$CompleteFetch
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache__CompleteFetch (ApplicationManagers_Credits_AottgCreditsCache_o* __this, ApplicationManagers_Credits_AottgCreditsFetchResponse_o* response, const MethodInfo* method);
-// 0x44c5960
+// 0x182363a80
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182363b5d: mov rdx, qword ptr [rip + 0x1d182e4]  ; "unknown_error"
 
 void ApplicationManagers_Credits_AottgCreditsCache__CompleteFetch
                (ApplicationManagers_Credits_AottgCreditsCache_o *__this,
@@ -666,170 +416,121 @@ void ApplicationManagers_Credits_AottgCreditsCache__CompleteFetch
 {
   int32_t *piVar1;
   int32_t length;
-  uint uVar2;
-  ApplicationManagers_Credits_AottgCreditsResponse_o *pAVar3;
-  System_Func_DateTimeOffset__o *pSVar4;
-  System_Collections_Generic_List_Action_AottgCreditsResult___o *pSVar5;
-  Il2CppClass *__this_00;
-  System_Object_array *pSVar6;
-  Il2CppObject *pIVar7;
-  undefined1 uVar8;
-  ulong uVar9;
-  System_Collections_Generic_List_T__c *pSVar10;
-  Il2CppClass *pIVar11;
-  System_Action_AottgCreditsResult__array *__this_01;
-  unkbyte10 Var12;
+  ApplicationManagers_Credits_AottgCreditsResponse_o *pAVar2;
+  System_Func_DateTimeOffset__o *pSVar3;
+  System_Collections_Generic_List_Action_AottgCreditsResult___o *pSVar4;
+  uint64_t uVar5;
+  uint64_t *puVar6;
+  ApplicationManagers_Credits_AottgCreditsResult_o *pAVar7;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar8;
+  System_String_o *pSVar9;
+  uint uVar10;
+  undefined1 local_18 [16];
   
-  if (g_data_057aeaca == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Action_1_ApplicationManagers_Credits_AottgCreditsResult);
-    il2cpp_runtime_helper_023445d0(&"unknown_error");
-    g_data_057aeaca = '\x01';
+  if (Il2CppMethodInitialized_184347a0a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
+    Il2CppMethodInitialized_184347a0a = '\x01';
   }
-  *(undefined1 *)&(__this->fields)._inFlight = 0;
+  (__this->fields)._inFlight = false;
   if (((response == (ApplicationManagers_Credits_AottgCreditsFetchResponse_o *)0x0) ||
-      ((char)(response->fields)._Success_k__BackingField == '\0')) ||
-     (pAVar3 = (response->fields)._Credits_k__BackingField,
-     pAVar3 == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0)) {
-    pAVar3 = (__this->fields)._cachedCredits;
-    pSVar10 = "unknown_error";
-    if (response != (ApplicationManagers_Credits_AottgCreditsFetchResponse_o *)0x0) {
-      pSVar10 = (System_Collections_Generic_List_T__c *)(response->fields)._Error_k__BackingField;
-    }
-    if (pAVar3 == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
-      if (g_data_057aead4 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-        g_data_057aead4 = '\x01';
+      ((response->fields)._Success_k__BackingField == false)) ||
+     ((response->fields)._Credits_k__BackingField == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0
+     )) {
+    if ((__this->fields)._cachedCredits == (ApplicationManagers_Credits_AottgCreditsResponse_o *)0x0) {
+      if (response == (ApplicationManagers_Credits_AottgCreditsFetchResponse_o *)0x0) {
+        pAVar7 = ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache
+                           ("unknown_error",(MethodInfo *)0x0);
       }
-      __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-      System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-      *(undefined4 *)&(__this_00->_1).name = 3;
-      (__this_00->_1).namespaze = (char *)0x0;
-      il2cpp_runtime_helper_022b4080(&(__this_00->_1).namespaze,0);
-      (__this_00->_1).byval_arg.data = pSVar10;
-      goto label_044c5b47;
+      else {
+        pAVar7 = ApplicationManagers_Credits_AottgCreditsResult__FailedNoCache
+                           ((response->fields)._Error_k__BackingField,(MethodInfo *)0x0);
+      }
     }
-    if (g_data_057aead5 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead5 = '\x01';
+    else {
+      pSVar9 = "unknown_error";
+      if (response != (ApplicationManagers_Credits_AottgCreditsFetchResponse_o *)0x0) {
+        pSVar9 = (response->fields)._Error_k__BackingField;
+      }
+      pAVar7 = ApplicationManagers_Credits_AottgCreditsResult__FailedRefreshStale
+                         ((__this->fields)._cachedCredits,pSVar9,(MethodInfo *)0x0);
     }
-    __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    *(undefined4 *)&(__this_00->_1).name = 4;
-    (__this_00->_1).namespaze = (char *)pAVar3;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).namespaze,pAVar3);
-    (__this_00->_1).byval_arg.data = pSVar10;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,pSVar10);
-    uVar8 = 1;
   }
   else {
-    (__this->fields)._cachedCredits = pAVar3;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._cachedCredits);
-    pSVar4 = (__this->fields)._now;
-    if (pSVar4 == (System_Func_DateTimeOffset__o *)0x0) goto label_044c5c0a;
-    Var12 = (*(code *)(pSVar4->fields).invoke_impl)((pSVar4->fields).method_code);
-    (__this->fields)._cachedAt.fields._dateTime = (System_DateTime_o)(long)Var12;
-    (__this->fields)._cachedAt.fields._offsetMinutes = (short)((unkuint10)Var12 >> 0x40);
-    pAVar3 = (__this->fields)._cachedCredits;
-    if (g_data_057aead2 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-      g_data_057aead2 = '\x01';
-    }
-    __this_00 = (Il2CppClass *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-    System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-    *(undefined4 *)&(__this_00->_1).name = 1;
-    (__this_00->_1).namespaze = (char *)pAVar3;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).namespaze,pAVar3);
-    (__this_00->_1).byval_arg.data = (System_Collections_Generic_List_T__c *)0x0;
-    pSVar10 = (System_Collections_Generic_List_T__c *)0x0;
-label_044c5b47:
-    uVar8 = 0;
-    il2cpp_runtime_helper_022b4080(&(__this_00->_1).byval_arg,pSVar10);
+    pAVar2 = (response->fields)._Credits_k__BackingField;
+    (__this->fields)._cachedCredits = pAVar2;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._cachedCredits,pAVar2);
+    pSVar3 = (__this->fields)._now;
+    if (pSVar3 == (System_Func_DateTimeOffset__o *)0x0) goto label_182363c09;
+    puVar6 = (uint64_t *)(*(code *)(pSVar3->fields).invoke_impl)(local_18);
+    pAVar2 = (__this->fields)._cachedCredits;
+    uVar5 = puVar6[1];
+    (__this->fields)._cachedAt.fields._dateTime.fields._dateData = *puVar6;
+    *(uint64_t *)&(__this->fields)._cachedAt.fields._offsetMinutes = uVar5;
+    pAVar7 = ApplicationManagers_Credits_AottgCreditsResult__ReadyFresh(pAVar2,false,(MethodInfo *)0x0);
   }
-  *(undefined1 *)&(__this_00->_1).byval_arg.bits = uVar8;
-  *(undefined1 *)((long)&(__this_00->_1).byval_arg.bits + 1) = uVar8;
-  *(undefined1 *)((long)&(__this_00->_1).byval_arg.bits + 2) = 0;
-  __this_01 = (System_Action_AottgCreditsResult__array *)(__this->fields)._subscribers;
-  if (__this_01 != (System_Action_AottgCreditsResult__array *)0x0) {
-    pIVar11 = MethodInfo_Action_1_ApplicationManagers_Credits_AottgCreditsResult;
-    pSVar6 = System_Collections_Generic_List_object___ToArray
-                       ((System_Collections_Generic_List_object__o *)__this_01,
-                        (MethodInfo_362E340 *)MethodInfo_Action_1_ApplicationManagers_Credits_AottgCreditsResult);
-    pSVar5 = (__this->fields)._subscribers;
-    if (pSVar5 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
-      piVar1 = &(pSVar5->fields)._version;
+  pSVar4 = (__this->fields)._subscribers;
+  if (pSVar4 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
+    pUVar8 = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
+                       ((System_Collections_Generic_List_T__o *)pSVar4,
+                        (MethodInfo_929FE0 *)
+                        MethodInfo_System_Collections_Generic_List_Action_AottgCreditsResult_ToArray);
+    pSVar4 = (__this->fields)._subscribers;
+    if (pSVar4 != (System_Collections_Generic_List_Action_AottgCreditsResult___o *)0x0) {
+      length = (pSVar4->fields)._size;
+      piVar1 = &(pSVar4->fields)._version;
       *piVar1 = *piVar1 + 1;
-      length = (pSVar5->fields)._size;
-      (pSVar5->fields)._size = 0;
+      (pSVar4->fields)._size = 0;
       if (0 < length) {
-        __this_01 = (pSVar5->fields)._items;
-        pIVar11 = (Il2CppClass *)0x0;
-        System_Array__Clear((System_Array_o *)__this_01,0,length,(MethodInfo *)0x0);
+        System_Array__Clear((System_Array_o *)(pSVar4->fields)._items,0,length,(MethodInfo *)0x0);
       }
-      if (pSVar6 != (System_Object_array *)0x0) {
-        if ((int)pSVar6->max_length < 1) {
-          return;
+      if (pUVar8 != (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+                     *)0x0) {
+        uVar10 = 0;
+        while( true ) {
+          if ((int)pUVar8->max_length <= (int)uVar10) {
+            return;
+          }
+          if ((uint)pUVar8->max_length <= uVar10) break;
+          pSVar9 = (&pUVar8->m_Items[0].fields.message)[(int)uVar10];
+          if (pSVar9 != (System_String_o *)0x0) {
+            (*(code *)(*(uint64_t *)((char *)pSVar9 + 0x18)))(pSVar9[2].fields,pAVar7,pSVar9[1].fields);
+          }
+          uVar10 = uVar10 + 1;
         }
-        uVar9 = 0;
-        if ((pSVar6->max_length & 0xffffffff) != 0) {
-          do {
-            pIVar7 = pSVar6->m_Items[uVar9];
-            if (pIVar7 != (Il2CppObject *)0x0) {
-              if (pIVar7 == (Il2CppObject *)0x0) goto label_044c5c0a;
-              __this_01 = (System_Action_AottgCreditsResult__array *)pIVar7[4].klass;
-              pIVar11 = __this_00;
-              (*pIVar7[1].monitor)(__this_01,__this_00,pIVar7[2].monitor);
-            }
-            uVar9 = uVar9 + 1;
-            uVar2 = (uint)pSVar6->max_length;
-            if ((long)(int)uVar2 <= (long)uVar9) {
-              return;
-            }
-          } while (uVar9 < uVar2);
-        }
-        il2cpp_runtime_helper_022b2ca0();
-        if (g_data_057aead5 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsResult);
-          g_data_057aead5 = '\x01';
-        }
-        pIVar7 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgCreditsResult);
-        System_Object___ctor(pIVar7,(MethodInfo *)0x0);
-        *(undefined4 *)&pIVar7[1].klass = 4;
-        pIVar7[1].monitor = __this_01;
-        il2cpp_runtime_helper_022b4080(&pIVar7[1].monitor,__this_01);
-        pIVar7[2].klass = pIVar11;
-        il2cpp_runtime_helper_022b4080(pIVar7 + 2,pIVar11);
-        *(undefined2 *)&pIVar7[2].monitor = 0x101;
-        *(undefined1 *)((long)&pIVar7[2].monitor + 2) = 0;
-        return;
+        ThrowIndexOutOfRangeException();
       }
     }
   }
-label_044c5c0a:
-  il2cpp_runtime_helper_022b2c90();
-  return;
+label_182363c09:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Credits.AottgCreditsCache$$.cctor
 // il2cpp: void ApplicationManagers_Credits_AottgCreditsCache___cctor (const MethodInfo* method);
-// 0x44c5d20
+// 0x182363f50
 
 void ApplicationManagers_Credits_AottgCreditsCache___cctor(MethodInfo *method)
 
 {
-  System_TimeSpan_Fields SVar1;
+  System_TimeSpan_o SVar1;
   
-  if (g_data_057aeacb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgCreditsCache);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TimeSpan);
-    g_data_057aeacb = '\x01';
+  if (Il2CppMethodInitialized_184347a0b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Credits_AottgCreditsCache);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+    Il2CppMethodInitialized_184347a0b = '\x01';
   }
-  if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
   }
-  SVar1._ticks = (int64_t)System_TimeSpan__FromMinutes(30.0,(MethodInfo *)0x0);
-  (*(System_TimeSpan_Fields **)(TypeInfo_AottgCreditsCache + 0xb8))->_ticks = SVar1._ticks;
+  SVar1 = System_TimeSpan__FromMinutes(30.0,(MethodInfo *)0x0);
+  (TypeInfo_ApplicationManagers_Credits_AottgCreditsCache->static_fields->DefaultTtl).fields._ticks =
+       (int64_t)SVar1.fields._ticks;
   return;
 }
 

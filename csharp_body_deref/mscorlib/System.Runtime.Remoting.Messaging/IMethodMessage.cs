@@ -11,66 +11,66 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003B1")]
+[Token(Token = "0x20003E0")]
 [ComVisible(true)]
 public interface IMethodMessage : IMessage
 {
-	[Token(Token = "0x170003BF")]
+	[Token(Token = "0x170003C1")]
 	int ArgCount
 	{
-		[Token(Token = "0x6001E71")]
-		get;
-	}
-
-	[Token(Token = "0x170003C0")]
-	object[] Args
-	{
-		[Token(Token = "0x6001E72")]
-		get;
-	}
-
-	[Token(Token = "0x170003C1")]
-	LogicalCallContext LogicalCallContext
-	{
-		[Token(Token = "0x6001E73")]
+		[Token(Token = "0x6001EE0")]
 		get;
 	}
 
 	[Token(Token = "0x170003C2")]
-	MethodBase MethodBase
+	object[] Args
 	{
-		[Token(Token = "0x6001E74")]
+		[Token(Token = "0x6001EE1")]
 		get;
 	}
 
 	[Token(Token = "0x170003C3")]
-	string MethodName
+	LogicalCallContext LogicalCallContext
 	{
-		[Token(Token = "0x6001E75")]
+		[Token(Token = "0x6001EE2")]
 		get;
 	}
 
 	[Token(Token = "0x170003C4")]
-	object MethodSignature
+	MethodBase MethodBase
 	{
-		[Token(Token = "0x6001E76")]
+		[Token(Token = "0x6001EE3")]
 		get;
 	}
 
 	[Token(Token = "0x170003C5")]
-	string TypeName
+	string MethodName
 	{
-		[Token(Token = "0x6001E77")]
+		[Token(Token = "0x6001EE4")]
 		get;
 	}
 
 	[Token(Token = "0x170003C6")]
-	string Uri
+	object MethodSignature
 	{
-		[Token(Token = "0x6001E78")]
+		[Token(Token = "0x6001EE5")]
 		get;
 	}
 
-	[Token(Token = "0x6001E79")]
+	[Token(Token = "0x170003C7")]
+	string TypeName
+	{
+		[Token(Token = "0x6001EE6")]
+		get;
+	}
+
+	[Token(Token = "0x170003C8")]
+	string Uri
+	{
+		[Token(Token = "0x6001EE7")]
+		get;
+	}
+
+	[Token(Token = "0x6001EE8")]
 	object GetArg(int argNum);
 }

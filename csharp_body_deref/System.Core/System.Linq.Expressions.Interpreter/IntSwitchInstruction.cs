@@ -20,7 +20,7 @@ internal sealed class IntSwitchInstruction<T> : Instruction
 	[Token(Token = "0x1700018C")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000670")]
+		[Token(Token = "0x600066F")]
 		get
 		{
 			return null;
@@ -30,19 +30,19 @@ internal sealed class IntSwitchInstruction<T> : Instruction
 	[Token(Token = "0x1700018D")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000671")]
+		[Token(Token = "0x6000670")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600066F")]
+	[Token(Token = "0x600066E")]
 	internal IntSwitchInstruction(Dictionary<T, int> cases)
 	{
 	}
 
-	[Token(Token = "0x6000672")]
+	[Token(Token = "0x6000671")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

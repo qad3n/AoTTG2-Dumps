@@ -11,28 +11,28 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x200038D")]
+[Token(Token = "0x20003BC")]
 internal class RemoteActivationAttribute : Attribute, IContextAttribute
 {
-	[Token(Token = "0x4000F1D")]
+	[Token(Token = "0x4000F2A")]
 	[FieldOffset(Offset = "0x10")]
 	private IList _contextProperties;
 
-	[Token(Token = "0x6001DC7")]
-	[Address(RVA = "0x3B83890", Offset = "0x3B83890", VA = "0x3B83890")]
+	[Token(Token = "0x6001E36")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public RemoteActivationAttribute(IList contextProperties)
 	{
 	}
 
-	[Token(Token = "0x6001DC8")]
-	[Address(RVA = "0x3B838C0", Offset = "0x3B838C0", VA = "0x3B838C0", Slot = "8")]
+	[Token(Token = "0x6001E37")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
 	public bool IsContextOK(Context ctx, IConstructionCallMessage ctor)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001DC9")]
-	[Address(RVA = "0x3B838D0", Offset = "0x3B838D0", VA = "0x3B838D0", Slot = "7")]
+	[Token(Token = "0x6001E38")]
+	[Address(RVA = "0x1A05FD0", Offset = "0x1A045D0", VA = "0x181A05FD0", Slot = "7")]
 	public void GetPropertiesForNewContext(IConstructionCallMessage ctor)
 	{
 	}

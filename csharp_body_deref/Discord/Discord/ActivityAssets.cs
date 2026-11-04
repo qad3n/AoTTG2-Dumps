@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200003C")]
+[Token(Token = "0x200003A")]
 public struct ActivityAssets
 {
-	[Token(Token = "0x40000B2")]
+	[Token(Token = "0x40000AD")]
 	[FieldOffset(Offset = "0x0")]
 	public string LargeImage;
 
-	[Token(Token = "0x40000B3")]
+	[Token(Token = "0x40000AE")]
 	[FieldOffset(Offset = "0x8")]
 	public string LargeText;
 
-	[Token(Token = "0x40000B4")]
+	[Token(Token = "0x40000AF")]
 	[FieldOffset(Offset = "0x10")]
 	public string SmallImage;
 
-	[Token(Token = "0x40000B5")]
+	[Token(Token = "0x40000B0")]
 	[FieldOffset(Offset = "0x18")]
 	public string SmallText;
 }

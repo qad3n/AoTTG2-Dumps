@@ -11,31 +11,31 @@ using UnityEngine;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000004")]
 public sealed class AnimationCurveCloner : Cloner<AnimationCurve>
 {
-	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x4C9E520", Offset = "0x4C9E520", VA = "0x4C9E520", Slot = "9")]
+	[Token(Token = "0x600000C")]
+	[Address(RVA = "0x2D98F90", Offset = "0x2D97590", VA = "0x182D98F90", Slot = "9")]
 	public override bool Handles(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4C9E590", Offset = "0x4C9E590", VA = "0x4C9E590", Slot = "11")]
+	[Token(Token = "0x600000D")]
+	[Address(RVA = "0x2D98E70", Offset = "0x2D97470", VA = "0x182D98E70", Slot = "11")]
 	public override AnimationCurve ConstructClone(Type type, AnimationCurve original)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600000F")]
-	[Address(RVA = "0x4C9E5D0", Offset = "0x4C9E5D0", VA = "0x4C9E5D0", Slot = "12")]
+	[Token(Token = "0x600000E")]
+	[Address(RVA = "0x2D98EC0", Offset = "0x2D974C0", VA = "0x182D98EC0", Slot = "12")]
 	public override void FillClone(Type type, ref AnimationCurve clone, AnimationCurve original, CloningContext context)
 	{
 	}
 
-	[Token(Token = "0x6000010")]
-	[Address(RVA = "0x4C9E6F0", Offset = "0x4C9E6F0", VA = "0x4C9E6F0")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x2D99000", Offset = "0x2D97600", VA = "0x182D99000")]
 	public AnimationCurveCloner()
 	{
 	}

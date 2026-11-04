@@ -24,11 +24,23 @@
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>../../dumps/il2cpp/DummyDll/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>../../dumps/il2cpp/DummyDll/Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.Physics2DModule.dll</HintPath>

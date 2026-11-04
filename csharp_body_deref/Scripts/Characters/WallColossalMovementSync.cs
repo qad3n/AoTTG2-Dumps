@@ -10,33 +10,33 @@ using Photon.Pun;
 
 namespace Characters;
 
-[Token(Token = "0x2000546")]
+[Token(Token = "0x20006A4")]
 internal class WallColossalMovementSync : BaseMovementSync
 {
-	[Token(Token = "0x40018C5")]
+	[Token(Token = "0x4001F8B")]
 	[FieldOffset(Offset = "0x98")]
 	protected WallColossalShifter _wallColossal;
 
-	[Token(Token = "0x60036AC")]
-	[Address(RVA = "0x4205130", Offset = "0x4205130", VA = "0x4205130", Slot = "5")]
+	[Token(Token = "0x600410B")]
+	[Address(RVA = "0x2194160", Offset = "0x2192760", VA = "0x182194160", Slot = "5")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x60036AD")]
-	[Address(RVA = "0x4205190", Offset = "0x4205190", VA = "0x4205190", Slot = "6")]
+	[Token(Token = "0x600410C")]
+	[Address(RVA = "0x2194310", Offset = "0x2192910", VA = "0x182194310", Slot = "6")]
 	protected override void SendCustomStream(PhotonStream stream)
 	{
 	}
 
-	[Token(Token = "0x60036AE")]
-	[Address(RVA = "0x4205220", Offset = "0x4205220", VA = "0x4205220", Slot = "7")]
+	[Token(Token = "0x600410D")]
+	[Address(RVA = "0x21941C0", Offset = "0x21927C0", VA = "0x1821941C0", Slot = "7")]
 	protected override void ReceiveCustomStream(PhotonStream stream)
 	{
 	}
 
-	[Token(Token = "0x60036AF")]
-	[Address(RVA = "0x4205A60", Offset = "0x4205A60", VA = "0x4205A60")]
+	[Token(Token = "0x600410E")]
+	[Address(RVA = "0x21531C0", Offset = "0x21517C0", VA = "0x1821531C0")]
 	public WallColossalMovementSync()
 	{
 	}

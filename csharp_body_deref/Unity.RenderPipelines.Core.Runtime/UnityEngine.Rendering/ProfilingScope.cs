@@ -7,33 +7,32 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
-using UnityEngine.Experimental.Rendering;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000101")]
+[Token(Token = "0x20000D7")]
 public struct ProfilingScope : IDisposable
 {
-	[Token(Token = "0x6000860")]
-	[Address(RVA = "0x4BAD990", Offset = "0x4BAD990", VA = "0x4BAD990")]
+	[Token(Token = "0x60007C1")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public ProfilingScope(ProfilingSampler sampler)
 	{
 	}
 
-	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x4BAD9A0", Offset = "0x4BAD9A0", VA = "0x4BAD9A0")]
+	[Token(Token = "0x60007C2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public ProfilingScope(CommandBuffer cmd, ProfilingSampler sampler)
 	{
 	}
 
-	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x4BAD9B0", Offset = "0x4BAD9B0", VA = "0x4BAD9B0")]
+	[Token(Token = "0x60007C3")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public ProfilingScope(BaseCommandBuffer cmd, ProfilingSampler sampler)
 	{
 	}
 
-	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x4BAD9C0", Offset = "0x4BAD9C0", VA = "0x4BAD9C0", Slot = "4")]
+	[Token(Token = "0x60007C4")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void Dispose()
 	{
 	}

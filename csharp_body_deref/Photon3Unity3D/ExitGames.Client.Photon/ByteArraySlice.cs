@@ -34,38 +34,38 @@ public class ByteArraySlice : IDisposable
 	private readonly int stackIndex;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x3E5C780", Offset = "0x3E5C780", VA = "0x3E5C780")]
+	[Address(RVA = "0x1CBB7D0", Offset = "0x1CB9DD0", VA = "0x181CBB7D0")]
 	internal ByteArraySlice(ByteArraySlicePool returnPool, int stackIndex)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x3E5C820", Offset = "0x3E5C820", VA = "0x3E5C820")]
+	[Address(RVA = "0x1CBB870", Offset = "0x1CB9E70", VA = "0x181CBB870")]
 	public ByteArraySlice(byte[] buffer, int offset = 0, int count = 0)
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3E5C880", Offset = "0x3E5C880", VA = "0x3E5C880")]
+	[Address(RVA = "0x1CBB8D0", Offset = "0x1CB9ED0", VA = "0x181CBB8D0")]
 	public ByteArraySlice()
 	{
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x3E5C8B0", Offset = "0x3E5C8B0", VA = "0x3E5C8B0", Slot = "4")]
+	[Address(RVA = "0x1CBB740", Offset = "0x1CB9D40", VA = "0x181CBB740", Slot = "4")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x3E5C8E0", Offset = "0x3E5C8E0", VA = "0x3E5C8E0")]
+	[Address(RVA = "0x1CBB780", Offset = "0x1CB9D80", VA = "0x181CBB780")]
 	public bool Release()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3E5CB30", Offset = "0x3E5CB30", VA = "0x3E5CB30")]
+	[Address(RVA = "0x1CBB7C0", Offset = "0x1CB9DC0", VA = "0x181CBB7C0")]
 	public void Reset()
 	{
 	}

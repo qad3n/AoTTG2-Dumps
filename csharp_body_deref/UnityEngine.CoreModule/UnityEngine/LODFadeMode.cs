@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F9")]
+[Token(Token = "0x200011D")]
 public enum LODFadeMode
 {
-	[Token(Token = "0x400033A")]
+	[Token(Token = "0x400038E")]
 	None,
-	[Token(Token = "0x400033B")]
+	[Token(Token = "0x400038F")]
 	CrossFade,
-	[Token(Token = "0x400033C")]
+	[Token(Token = "0x4000390")]
 	SpeedTree
 }

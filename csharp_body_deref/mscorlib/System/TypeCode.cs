@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000122")]
+[Token(Token = "0x2000149")]
 public enum TypeCode
 {
-	[Token(Token = "0x4000406")]
+	[Token(Token = "0x4000469")]
 	Empty = 0,
-	[Token(Token = "0x4000407")]
+	[Token(Token = "0x400046A")]
 	Object = 1,
-	[Token(Token = "0x4000408")]
+	[Token(Token = "0x400046B")]
 	DBNull = 2,
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x400046C")]
 	Boolean = 3,
-	[Token(Token = "0x400040A")]
+	[Token(Token = "0x400046D")]
 	Char = 4,
-	[Token(Token = "0x400040B")]
+	[Token(Token = "0x400046E")]
 	SByte = 5,
-	[Token(Token = "0x400040C")]
+	[Token(Token = "0x400046F")]
 	Byte = 6,
-	[Token(Token = "0x400040D")]
+	[Token(Token = "0x4000470")]
 	Int16 = 7,
-	[Token(Token = "0x400040E")]
+	[Token(Token = "0x4000471")]
 	UInt16 = 8,
-	[Token(Token = "0x400040F")]
+	[Token(Token = "0x4000472")]
 	Int32 = 9,
-	[Token(Token = "0x4000410")]
+	[Token(Token = "0x4000473")]
 	UInt32 = 10,
-	[Token(Token = "0x4000411")]
+	[Token(Token = "0x4000474")]
 	Int64 = 11,
-	[Token(Token = "0x4000412")]
+	[Token(Token = "0x4000475")]
 	UInt64 = 12,
-	[Token(Token = "0x4000413")]
+	[Token(Token = "0x4000476")]
 	Single = 13,
-	[Token(Token = "0x4000414")]
+	[Token(Token = "0x4000477")]
 	Double = 14,
-	[Token(Token = "0x4000415")]
+	[Token(Token = "0x4000478")]
 	Decimal = 15,
-	[Token(Token = "0x4000416")]
+	[Token(Token = "0x4000479")]
 	DateTime = 16,
-	[Token(Token = "0x4000417")]
+	[Token(Token = "0x400047A")]
 	String = 18
 }

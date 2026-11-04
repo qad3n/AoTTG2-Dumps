@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace GameProgress;
 
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x20002FF")]
 public enum AchievementTier
 {
-	[Token(Token = "0x4000A68")]
+	[Token(Token = "0x4000F43")]
 	Bronze,
-	[Token(Token = "0x4000A69")]
+	[Token(Token = "0x4000F44")]
 	Silver,
-	[Token(Token = "0x4000A6A")]
+	[Token(Token = "0x4000F45")]
 	Gold
 }

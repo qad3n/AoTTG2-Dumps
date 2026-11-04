@@ -33,7 +33,7 @@ internal sealed class AllElementsContentValidator : ContentValidator
 	public override bool IsEmptiable
 	{
 		[Token(Token = "0x6001044")]
-		[Address(RVA = "0x484E480", Offset = "0x484E480", VA = "0x484E480", Slot = "4")]
+		[Address(RVA = "0x278FFD0", Offset = "0x278E5D0", VA = "0x18278FFD0", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -41,47 +41,47 @@ internal sealed class AllElementsContentValidator : ContentValidator
 	}
 
 	[Token(Token = "0x6001042")]
-	[Address(RVA = "0x484E240", Offset = "0x484E240", VA = "0x484E240")]
+	[Address(RVA = "0x278FEC0", Offset = "0x278E4C0", VA = "0x18278FEC0")]
 	public AllElementsContentValidator(XmlSchemaContentType contentType, int size, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x6001043")]
-	[Address(RVA = "0x484E350", Offset = "0x484E350", VA = "0x484E350")]
+	[Address(RVA = "0x278F430", Offset = "0x278DA30", VA = "0x18278F430")]
 	public bool AddElement(XmlQualifiedName name, object particle, bool isEmptiable)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001045")]
-	[Address(RVA = "0x484E4A0", Offset = "0x484E4A0", VA = "0x484E4A0", Slot = "5")]
+	[Address(RVA = "0x278FD00", Offset = "0x278E300", VA = "0x18278FD00", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x6001046")]
-	[Address(RVA = "0x484E530", Offset = "0x484E530", VA = "0x484E530", Slot = "6")]
+	[Address(RVA = "0x278FDA0", Offset = "0x278E3A0", VA = "0x18278FDA0", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001047")]
-	[Address(RVA = "0x484E640", Offset = "0x484E640", VA = "0x484E640", Slot = "7")]
+	[Address(RVA = "0x278F570", Offset = "0x278DB70", VA = "0x18278F570", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001048")]
-	[Address(RVA = "0x484E680", Offset = "0x484E680", VA = "0x484E680", Slot = "8")]
+	[Address(RVA = "0x278F5C0", Offset = "0x278DBC0", VA = "0x18278F5C0", Slot = "8")]
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001049")]
-	[Address(RVA = "0x484EB40", Offset = "0x484EB40", VA = "0x484EB40", Slot = "9")]
+	[Address(RVA = "0x278F910", Offset = "0x278DF10", VA = "0x18278F910", Slot = "9")]
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;

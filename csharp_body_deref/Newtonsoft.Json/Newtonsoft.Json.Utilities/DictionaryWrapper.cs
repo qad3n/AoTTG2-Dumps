@@ -159,18 +159,18 @@ internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, ICol
 		}
 	}
 
-	[Token(Token = "0x170000BD")]
-	private object? System_002ECollections_002EIDictionary_002EItem
+	// C# has no syntax for parameterized property 'System.Collections.IDictionary.Item'.
+	// Its 'property:' attributes below are ignored by the compiler (CS0657).
+	[property: Token(Token = "0x170000BD")]
+	[Token(Token = "0x600058E")]
+	private object System_002ECollections_002EIDictionary_002Eget_Item(object key)
 	{
-		[Token(Token = "0x600058E")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600058F")]
-		set
-		{
-		}
+		return null;
+	}
+
+	[Token(Token = "0x600058F")]
+	private void System_002ECollections_002EIDictionary_002Eset_Item(object key, object? value)
+	{
 	}
 
 	[Token(Token = "0x170000BE")]

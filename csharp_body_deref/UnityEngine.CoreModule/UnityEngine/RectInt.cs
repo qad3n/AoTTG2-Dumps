@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.RectInt
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,197 +12,221 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x20000BD")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public struct RectInt : IEquatable<RectInt>, IFormattable
 {
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x40001FE")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_XMin;
 
-	[Token(Token = "0x40001AB")]
+	[Token(Token = "0x40001FF")]
 	[FieldOffset(Offset = "0x4")]
 	private int m_YMin;
 
-	[Token(Token = "0x40001AC")]
+	[Token(Token = "0x4000200")]
 	[FieldOffset(Offset = "0x8")]
 	private int m_Width;
 
-	[Token(Token = "0x40001AD")]
+	[Token(Token = "0x4000201")]
 	[FieldOffset(Offset = "0xC")]
 	private int m_Height;
 
-	[Token(Token = "0x17000084")]
+	[Token(Token = "0x4000202")]
+	[FieldOffset(Offset = "0x0")]
+	private static readonly RectInt kZero;
+
+	[Token(Token = "0x170000A0")]
 	public int x
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C0")]
-		[Address(RVA = "0x4DBE0C0", Offset = "0x4DBE0C0", VA = "0x4DBE0C0")]
-		get
+		[Token(Token = "0x60003E6")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
+		readonly get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C1")]
-		[Address(RVA = "0x4DBE0D0", Offset = "0x4DBE0D0", VA = "0x4DBE0D0")]
+		[Token(Token = "0x60003E7")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000085")]
+	[Token(Token = "0x170000A1")]
 	public int y
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C2")]
-		[Address(RVA = "0x4DBE0E0", Offset = "0x4DBE0E0", VA = "0x4DBE0E0")]
-		get
+		[Token(Token = "0x60003E8")]
+		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
+		readonly get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C3")]
-		[Address(RVA = "0x4DBE0F0", Offset = "0x4DBE0F0", VA = "0x4DBE0F0")]
+		[Token(Token = "0x60003E9")]
+		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000086")]
+	[Token(Token = "0x170000A2")]
 	public int width
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C4")]
-		[Address(RVA = "0x4DBE100", Offset = "0x4DBE100", VA = "0x4DBE100")]
-		get
+		[Token(Token = "0x60003EA")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
+		readonly get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x4DBE110", Offset = "0x4DBE110", VA = "0x4DBE110")]
+		[Token(Token = "0x60003EB")]
+		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000087")]
+	[Token(Token = "0x170000A3")]
 	public int height
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C6")]
-		[Address(RVA = "0x4DBE120", Offset = "0x4DBE120", VA = "0x4DBE120")]
-		get
+		[Token(Token = "0x60003EC")]
+		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
+		readonly get
 		{
 			return default(int);
 		}
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C7")]
-		[Address(RVA = "0x4DBE130", Offset = "0x4DBE130", VA = "0x4DBE130")]
+		[Token(Token = "0x60003ED")]
+		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000088")]
-	public int xMin
+	[Token(Token = "0x170000A4")]
+	public readonly int xMin
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C8")]
-		[Address(RVA = "0x4DBE140", Offset = "0x4DBE140", VA = "0x4DBE140")]
+		[Token(Token = "0x60003EE")]
+		[Address(RVA = "0x2ED0980", Offset = "0x2ECEF80", VA = "0x182ED0980")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000089")]
-	public int yMin
+	[Token(Token = "0x170000A5")]
+	public readonly int yMin
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002C9")]
-		[Address(RVA = "0x4DBE1A0", Offset = "0x4DBE1A0", VA = "0x4DBE1A0")]
+		[Token(Token = "0x60003EF")]
+		[Address(RVA = "0x2ED09C0", Offset = "0x2ECEFC0", VA = "0x182ED09C0")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700008A")]
-	public int xMax
+	[Token(Token = "0x170000A6")]
+	public readonly int xMax
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002CA")]
-		[Address(RVA = "0x4DBE200", Offset = "0x4DBE200", VA = "0x4DBE200")]
+		[Token(Token = "0x60003F0")]
+		[Address(RVA = "0x2ED0960", Offset = "0x2ECEF60", VA = "0x182ED0960")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700008B")]
-	public int yMax
+	[Token(Token = "0x170000A7")]
+	public readonly int yMax
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x4DBE260", Offset = "0x4DBE260", VA = "0x4DBE260")]
+		[Token(Token = "0x60003F1")]
+		[Address(RVA = "0x2ED09A0", Offset = "0x2ECEFA0", VA = "0x182ED09A0")]
 		get
 		{
 			return default(int);
+		}
+	}
+
+	[Token(Token = "0x170000A8")]
+	public static RectInt zero
+	{
+		[MethodImpl((MethodImplOptions)256)]
+		[Token(Token = "0x60003F3")]
+		[Address(RVA = "0x2ED09E0", Offset = "0x2ECEFE0", VA = "0x182ED09E0")]
+		get
+		{
+			return default(RectInt);
 		}
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002CC")]
-	[Address(RVA = "0x4DBE2C0", Offset = "0x4DBE2C0", VA = "0x4DBE2C0")]
+	[Token(Token = "0x60003F2")]
+	[Address(RVA = "0x1055D90", Offset = "0x1054390", VA = "0x181055D90")]
 	public RectInt(int xMin, int yMin, int width, int height)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002CD")]
-	[Address(RVA = "0x4DBE2D0", Offset = "0x4DBE2D0", VA = "0x4DBE2D0")]
-	public bool Overlaps(RectInt other)
+	[Token(Token = "0x60003F4")]
+	[Address(RVA = "0x2ED04E0", Offset = "0x2ECEAE0", VA = "0x182ED04E0")]
+	public readonly bool Overlaps(RectInt other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002CE")]
-	[Address(RVA = "0x4DBE5B0", Offset = "0x4DBE5B0", VA = "0x4DBE5B0", Slot = "3")]
-	public override string ToString()
+	[Token(Token = "0x60003F5")]
+	[Address(RVA = "0x2ED08D0", Offset = "0x2ECEED0", VA = "0x182ED08D0", Slot = "3")]
+	public override readonly string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x4DBE5C0", Offset = "0x4DBE5C0", VA = "0x4DBE5C0", Slot = "5")]
-	public string ToString(string format, IFormatProvider formatProvider)
+	[Token(Token = "0x60003F6")]
+	[Address(RVA = "0x2ED0630", Offset = "0x2ECEC30", VA = "0x182ED0630", Slot = "5")]
+	public readonly string ToString(string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x4DBE800", Offset = "0x4DBE800", VA = "0x4DBE800", Slot = "2")]
-	public override int GetHashCode()
+	[Token(Token = "0x60003F7")]
+	[Address(RVA = "0x2ED0480", Offset = "0x2ECEA80", VA = "0x182ED0480", Slot = "2")]
+	public override readonly int GetHashCode()
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x4DBE8A0", Offset = "0x4DBE8A0", VA = "0x4DBE8A0", Slot = "0")]
-	public override bool Equals(object other)
+	[Token(Token = "0x60003F8")]
+	[Address(RVA = "0x2ED0360", Offset = "0x2ECE960", VA = "0x182ED0360", Slot = "0")]
+	public override readonly bool Equals(object other)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x4DBE920", Offset = "0x4DBE920", VA = "0x4DBE920", Slot = "4")]
-	public bool Equals(RectInt other)
+	[Token(Token = "0x60003F9")]
+	[Address(RVA = "0x2ED0450", Offset = "0x2ECEA50", VA = "0x182ED0450", Slot = "4")]
+	public readonly bool Equals(RectInt other)
+	{
+		return default(bool);
+	}
+
+	[MethodImpl((MethodImplOptions)256)]
+	[Token(Token = "0x60003FA")]
+	[Address(RVA = "0x2ED0450", Offset = "0x2ECEA50", VA = "0x182ED0450")]
+	public readonly bool Equals(in RectInt other)
 	{
 		return default(bool);
 	}

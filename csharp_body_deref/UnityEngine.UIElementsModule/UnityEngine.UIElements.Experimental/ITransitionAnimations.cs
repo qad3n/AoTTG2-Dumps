@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Experimental;
 
-[Token(Token = "0x2000563")]
+[Token(Token = "0x2000659")]
 public interface ITransitionAnimations
 {
-	[Token(Token = "0x60020FF")]
+	[Token(Token = "0x6002E71")]
 	ValueAnimation<StyleValues> Start(StyleValues to, int durationMs);
 }

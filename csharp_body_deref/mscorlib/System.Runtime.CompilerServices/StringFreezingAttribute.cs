@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x2000483")]
+[Token(Token = "0x20004B2")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class StringFreezingAttribute : Attribute
 {
-	[Token(Token = "0x600228C")]
-	[Address(RVA = "0x3BC1310", Offset = "0x3BC1310", VA = "0x3BC1310")]
+	[Token(Token = "0x600230C")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public StringFreezingAttribute()
 	{
 	}

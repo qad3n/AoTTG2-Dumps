@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Activation;
 
-[Token(Token = "0x200038E")]
+[Token(Token = "0x20003BD")]
 internal class RemoteActivator : MarshalByRefObject, IActivator
 {
-	[Token(Token = "0x17000387")]
+	[Token(Token = "0x17000389")]
 	public IActivator NextActivator
 	{
-		[Token(Token = "0x6001DCB")]
-		[Address(RVA = "0x3B84210", Offset = "0x3B84210", VA = "0x3B84210", Slot = "6")]
+		[Token(Token = "0x6001E3A")]
+		[Address(RVA = "0x1A065D0", Offset = "0x1A04BD0", VA = "0x181A065D0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001DCA")]
-	[Address(RVA = "0x3B83D60", Offset = "0x3B83D60", VA = "0x3B83D60", Slot = "7")]
+	[Token(Token = "0x6001E39")]
+	[Address(RVA = "0x1A062C0", Offset = "0x1A048C0", VA = "0x181A062C0", Slot = "7")]
 	public IConstructionReturnMessage Activate(IConstructionCallMessage msg)
 	{
 		return null;

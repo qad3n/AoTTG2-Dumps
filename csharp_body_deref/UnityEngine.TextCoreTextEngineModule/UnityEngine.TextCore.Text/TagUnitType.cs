@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x2000069")]
 internal enum TagUnitType
 {
-	[Token(Token = "0x400031F")]
+	[Token(Token = "0x4000473")]
 	Pixels,
-	[Token(Token = "0x4000320")]
+	[Token(Token = "0x4000474")]
 	FontUnits,
-	[Token(Token = "0x4000321")]
+	[Token(Token = "0x4000475")]
 	Percentage
 }

@@ -1,361 +1,303 @@
 // Type: Gisketch.Aottg2UI.Game.AottgChangelogMarkdown
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.Game/AottgChangelogMarkdown.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$Parse
 // il2cpp: System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o* Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Parse (System_String_o* markdown, const MethodInfo* method);
-// 0x44e0450
+// 0x1823a5e40
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823a5f9a: mov ebx, r12d
+// asm:   0x1823a5f9d: mov eax, r12d
+// asm:   0x1823a61f8: jmp 0x1823a6203
+// asm:   0x1823a6368: jmp 0x1823a63b2
 
 System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *
 Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Parse(System_String_o *markdown,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  System_Collections_Generic_List_object__o *__this;
-  System_String_o *text;
-  bool_conflict bVar2;
-  uint uVar3;
-  System_Collections_Generic_List_object__o *__this_00;
-  System_String_o *pSVar4;
-  System_Collections_Generic_List_object__o *__this_01;
-  System_String_array *pSVar5;
+  uint uVar1;
+  bool bVar2;
+  System_Collections_Generic_List_AottgChangelogMarkdownBlock__o *__this;
+  System_String_o *pSVar3;
+  System_String_array *pSVar4;
+  System_Collections_Generic_List_string__o *__this_00;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *array;
+  Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *__this_01;
+  System_Collections_ObjectModel_ReadOnlyCollection_T__o *pSVar5;
   System_Object_array *pSVar6;
-  System_Collections_Generic_List_object__o *pSVar7;
-  System_String_array *items;
-  System_String_c *pSVar8;
-  long lVar9;
-  MethodInfo *extraout_RDX;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *method_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *extraout_RDX_02;
-  MethodInfo *extraout_RDX_03;
-  System_String_o **ppSVar10;
-  int32_t iVar11;
-  MethodInfo_362B8B0 *__this_02;
-  MethodInfo_362B8B0 *__this_03;
-  MethodInfo *in_R8;
-  uint uVar12;
-  System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *pSVar13;
-  System_String_o *local_48;
-  System_String_o **local_40;
-  System_String_o *local_38;
-  MethodInfo_362C220 *method_01;
+  int32_t startIndex;
+  uint uVar7;
+  System_String_o *value;
+  System_String_o *local_res8;
   
-  if (g_data_057aebd6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogMarkdownBlock);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogMarkdown);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBloc);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_AottgChangelogMarkdownBlock);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&"\n");
-    il2cpp_runtime_helper_023445d0(&"\r\n");
-    g_data_057aebd6 = '\x01';
+  if (Il2CppMethodInitialized_184347ca4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"\n");
+    il2cpp_codegen_initialize_runtime_metadata(&"\r\n");
+    Il2CppMethodInitialized_184347ca4 = '\x01';
   }
-  local_48 = (System_String_o *)0x0;
-  __this_00 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_AottgChangelogMarkdownBlock);
-  System_Collections_Generic_List_object____ctor(__this_00,MethodInfo_List_1_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBloc);
+  uVar7 = 0;
+  local_res8 = (System_String_o *)0x0;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock_ctor)
+  ;
   bVar2 = System_String__IsNullOrWhiteSpace(markdown,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    if (((markdown != (System_String_o *)0x0) &&
-        (pSVar4 = System_String__Replace_3af9030(markdown,"\r\n","\n",(MethodInfo *)0x0),
-        pSVar4 != (System_String_o *)0x0)) &&
-       (__this_01 = (System_Collections_Generic_List_object__o *)
-                    System_String__Replace(pSVar4,0xd,10,(MethodInfo *)0x0),
-       __this_01 != (System_Collections_Generic_List_object__o *)0x0)) {
-      __this_02 = (MethodInfo_362B8B0 *)0xa;
-      pSVar5 = System_String__Split((System_String_o *)__this_01,10,0,(MethodInfo *)0x0);
-      if (pSVar5 != (System_String_array *)0x0) {
-        uVar3 = (uint)pSVar5->max_length;
-        if ((int)uVar3 < 1) {
-          return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this_00;
+  if (!bVar2) {
+    if ((((markdown == (System_String_o *)0x0) ||
+         (pSVar3 = System_String__Replace_1970e80
+                             (markdown,"\r\n","\n",(MethodInfo *)0x0),
+         pSVar3 == (System_String_o *)0x0)) ||
+        (pSVar3 = System_String__Replace(pSVar3,0xd,10,(MethodInfo *)0x0), pSVar3 == (System_String_o *)0x0))
+       || (pSVar4 = System_String__Split(pSVar3,10,0,(MethodInfo *)0x0), pSVar4 == (System_String_array *)0x0)
+       ) {
+label_1823a64cd:
+      ThrowNullReferenceException();
+    }
+    for (; (int)uVar7 < (int)pSVar4->max_length; uVar7 = uVar7 + 1) {
+      if ((uint)pSVar4->max_length <= uVar7) {
+label_1823a64d3:
+        ThrowIndexOutOfRangeException();
+      }
+      pSVar3 = pSVar4->m_Items[(int)uVar7];
+      if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+      }
+      if (Il2CppMethodInitialized_184347ca6 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&"## ");
+        il2cpp_codegen_initialize_runtime_metadata(&"# ");
+        Il2CppMethodInitialized_184347ca6 = '\x01';
+      }
+      local_res8 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+      Il2CppCodeGenWriteBarrier(&local_res8,local_res8);
+      if (pSVar3 == (System_String_o *)0x0) goto label_1823a64cd;
+      bVar2 = System_String__StartsWith_19722c0(pSVar3,"# ",4,(MethodInfo *)0x0);
+      if (bVar2) {
+        startIndex = 2;
+label_1823a6067:
+        local_res8 = System_String__Substring(pSVar3,startIndex,(MethodInfo *)0x0);
+        Il2CppCodeGenWriteBarrier(&local_res8,local_res8);
+        if (local_res8 == (System_String_o *)0x0) goto label_1823a64cd;
+        local_res8 = System_String__Trim(local_res8,(MethodInfo *)0x0);
+        Il2CppCodeGenWriteBarrier(&local_res8,local_res8);
+        value = local_res8;
+        if (local_res8 == (System_String_o *)0x0) goto label_1823a64cd;
+        if ((local_res8->fields)._stringLength < 1) goto label_1823a60c3;
+        __this_01 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock);
+        if (Il2CppMethodInitialized_184347ca3 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_string);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+          Il2CppMethodInitialized_184347ca3 = '\x01';
         }
-        local_40 = pSVar5->m_Items;
-        uVar12 = 0;
-        method_00 = extraout_RDX;
-        do {
-          while( true ) {
-            if (uVar3 <= uVar12) goto label_044e0ae6;
-            pSVar4 = pSVar5->m_Items[(int)uVar12];
-            if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              method_00 = extraout_RDX_01;
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
+        (__this_01->fields)._Type_k__BackingField = 0;
+        if (value == (System_String_o *)0x0) {
+          value = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+        }
+        if (__this_01 == (Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)0x0) goto label_1823a64cd;
+        (__this_01->fields)._Text_k__BackingField = value;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Text_k__BackingField,value);
+        pSVar6 = (System_Object_array *)SZArrayNew(TypeInfo_string_array,0);
+        pSVar5 = System_Array__AsReadOnly_object_
+                           (pSVar6,(MethodInfo_68BBD0 *)MethodInfo_System_Array_AsReadOnly_string);
+label_1823a6480:
+        (__this_01->fields)._Items_k__BackingField =
+             (System_Collections_Generic_IReadOnlyList_string__o *)pSVar5;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Items_k__BackingField,pSVar5);
+        if (__this == (System_Collections_Generic_List_AottgChangelogMarkdownBlock__o *)0x0)
+        goto label_1823a64cd;
+      }
+      else {
+        bVar2 = System_String__StartsWith_19722c0(pSVar3,"## ",4,(MethodInfo *)0x0);
+        if (bVar2) {
+          startIndex = 3;
+          goto label_1823a6067;
+        }
+label_1823a60c3:
+        if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+        }
+        if (Il2CppMethodInitialized_184347ca7 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&"- ");
+          Il2CppMethodInitialized_184347ca7 = '\x01';
+        }
+        bVar2 = System_String__StartsWith_19722c0(pSVar3,"- ",4,(MethodInfo *)0x0);
+        if ((!bVar2) || ((pSVar3->fields)._stringLength < 3)) {
+          bVar2 = System_String__IsNullOrWhiteSpace(pSVar3,(MethodInfo *)0x0);
+          if (bVar2) {
+            pSVar3 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+            __this_01 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock)
+            ;
+            if (Il2CppMethodInitialized_184347ca3 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_string);
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+              Il2CppMethodInitialized_184347ca3 = '\x01';
             }
-            bVar2 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__TryReadHeader(pSVar4,&local_48,method_00);
-            text = local_48;
-            if ((char)bVar2 == '\0') break;
-            __this_02 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgChangelogMarkdownBlock);
-            Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock___ctor
-                      ((Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)__this_02,0,text,
-                       (System_String_array *)0x0,in_R8);
-            lVar9 = MethodInfo_Void_Add;
-            if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) goto label_044e0a28;
-            piVar1 = &(__this_00->fields)._version;
-            *piVar1 = *piVar1 + 1;
-            pSVar6 = (__this_00->fields)._items;
-            if (pSVar6 == (System_Object_array *)0x0) goto label_044e0a28;
-label_044e0679:
-            uVar3 = (__this_00->fields)._size;
-            if (uVar3 < (uint)pSVar6->max_length) {
-              (__this_00->fields)._size = uVar3 + 1;
-              __this_01 = (System_Collections_Generic_List_object__o *)(pSVar6->m_Items + (int)uVar3);
-              pSVar6->m_Items[(int)uVar3] = (Il2CppObject *)__this_02;
-              il2cpp_runtime_helper_022b4080();
-              uVar12 = uVar12 + 1;
-              uVar3 = (uint)pSVar5->max_length;
-              method_00 = extraout_RDX_00;
-              if ((int)uVar3 <= (int)uVar12) {
-                return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this_00;
-              }
+            System_Object___ctor
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,
+                       (MethodInfo *)0x0);
+            (__this_01->fields)._Type_k__BackingField = 3;
+            if (pSVar3 == (System_String_o *)0x0) {
+              pSVar3 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
             }
-            else {
-              method_01 = *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar9 + 0x20) + 0xc0) + 0x70);
-label_044e0855:
-              __this_01 = __this_00;
-              System_Collections_Generic_List_object___AddWithResize
-                        (__this_00,(Il2CppObject *)__this_02,method_01);
-              uVar12 = uVar12 + 1;
-              uVar3 = (uint)pSVar5->max_length;
-              method_00 = extraout_RDX_03;
-              if ((int)uVar3 <= (int)uVar12) {
-                return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this_00;
-              }
-            }
-          }
-          if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057aebd9 == '\0') {
-            il2cpp_runtime_helper_023445d0(&"- ");
-            g_data_057aebd9 = '\x01';
-          }
-          if (((pSVar4 != (System_String_o *)0x0) &&
-              (bVar2 = System_String__StartsWith_3af5570
-                                 (pSVar4,(System_String_o *)"- ",4,(MethodInfo *)0x0),
-              (char)bVar2 != '\0')) && (2 < (pSVar4->fields)._stringLength)) {
-            pSVar7 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-            __this_02 = MethodInfo_List_1_System_String;
-            __this_01 = pSVar7;
-            System_Collections_Generic_List_object____ctor(pSVar7,MethodInfo_List_1_System_String);
-            uVar3 = (uint)pSVar5->max_length;
-            if ((int)uVar3 <= (int)uVar12) {
-label_044e099a:
-              if (pSVar7 != (System_Collections_Generic_List_object__o *)0x0) {
-label_044e09a3:
-                uVar12 = uVar12 - 1;
-                local_38 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-                items = (System_String_array *)
-                        System_Collections_Generic_List_object___ToArray(pSVar7,MethodInfo_String_ToArray);
-                __this_02 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgChangelogMarkdownBlock);
-                Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock___ctor
-                          ((Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)__this_02,2,local_38,items,
-                           in_R8);
-                lVar9 = MethodInfo_Void_Add;
-                if (__this_00 != (System_Collections_Generic_List_object__o *)0x0) {
-                  piVar1 = &(__this_00->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pSVar6 = (__this_00->fields)._items;
-                  if (pSVar6 != (System_Object_array *)0x0) goto label_044e0679;
-                }
-              }
-              break;
-            }
-            if (pSVar7 == (System_Collections_Generic_List_object__o *)0x0) {
-              if (uVar12 < uVar3) {
-                pSVar7 = (System_Collections_Generic_List_object__o *)pSVar5->m_Items[(int)uVar12];
-                if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-                  il2cpp_runtime_helper_02337ed0();
-                }
-                __this_02 = "- ";
-                if (g_data_057aebd9 == '\0') {
-                  il2cpp_runtime_helper_023445d0(&"- ");
-                  g_data_057aebd9 = '\x01';
-                  __this_02 = "- ";
-                }
-                "- " = __this_02;
-                if (((pSVar7 == (System_Collections_Generic_List_object__o *)0x0) ||
-                    (__this_01 = pSVar7,
-                    bVar2 = System_String__StartsWith_3af5570
-                                      ((System_String_o *)pSVar7,(System_String_o *)__this_02,4,
-                                       (MethodInfo *)0x0), (char)bVar2 == '\0')) ||
-                   (*(int *)&(pSVar7->fields)._items < 3)) break;
-                if (uVar12 < (uint)pSVar5->max_length) {
-                  __this_01 = (System_Collections_Generic_List_object__o *)pSVar5->m_Items[(int)uVar12];
-                  if (__this_01 == (System_Collections_Generic_List_object__o *)0x0) break;
-                  __this_02 = (MethodInfo_362B8B0 *)0x2;
-                  System_String__Substring((System_String_o *)__this_01,2,(MethodInfo *)0x0);
-                  il2cpp_runtime_helper_022b2c90();
-                }
-              }
-            }
-            else {
-              ppSVar10 = local_40 + (int)uVar12;
-              if (uVar12 < uVar3) {
-                while( true ) {
-                  __this = (System_Collections_Generic_List_object__o *)*ppSVar10;
-                  if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
-                  }
-                  __this_02 = "- ";
-                  if (g_data_057aebd9 == '\0') {
-                    il2cpp_runtime_helper_023445d0(&"- ");
-                    g_data_057aebd9 = '\x01';
-                    __this_02 = "- ";
-                  }
-                  "- " = __this_02;
-                  if (((__this == (System_Collections_Generic_List_object__o *)0x0) ||
-                      (__this_01 = __this,
-                      bVar2 = System_String__StartsWith_3af5570
-                                        ((System_String_o *)__this,(System_String_o *)__this_02,4,
-                                         (MethodInfo *)0x0), (char)bVar2 == '\0')) ||
-                     (*(int *)&(__this->fields)._items < 3)) goto label_044e099a;
-                  if ((uint)pSVar5->max_length <= uVar12) goto label_044e0ae6;
-                  if (*ppSVar10 == (System_String_o *)0x0) goto label_044e0a28;
-                  __this_02 = (MethodInfo_362B8B0 *)System_String__Substring(*ppSVar10,2,(MethodInfo *)0x0);
-                  lVar9 = MethodInfo_Void_Add;
-                  piVar1 = &(pSVar7->fields)._version;
-                  *piVar1 = *piVar1 + 1;
-                  pSVar6 = (pSVar7->fields)._items;
-                  if (pSVar6 == (System_Object_array *)0x0) goto label_044e0a28;
-                  uVar3 = (pSVar7->fields)._size;
-                  if (uVar3 < (uint)pSVar6->max_length) {
-                    (pSVar7->fields)._size = uVar3 + 1;
-                    __this_01 = (System_Collections_Generic_List_object__o *)(pSVar6->m_Items + (int)uVar3);
-                    pSVar6->m_Items[(int)uVar3] = (Il2CppObject *)__this_02;
-                    il2cpp_runtime_helper_022b4080();
-                  }
-                  else {
-                    __this_01 = pSVar7;
-                    System_Collections_Generic_List_object___AddWithResize
-                              (pSVar7,(Il2CppObject *)__this_02,
-                               *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar9 + 0x20) + 0xc0) + 0x70));
-                  }
-                  uVar12 = uVar12 + 1;
-                  uVar3 = (uint)pSVar5->max_length;
-                  ppSVar10 = ppSVar10 + 1;
-                  if ((int)uVar3 <= (int)uVar12) break;
-                  if (uVar3 <= uVar12) goto label_044e0ae6;
-                }
-                goto label_044e09a3;
-              }
-            }
-label_044e0ae6:
-            il2cpp_runtime_helper_022b2ca0();
-            if (g_data_057aebd8 == '\0') {
-              il2cpp_runtime_helper_023445d0(&"## ");
-              il2cpp_runtime_helper_023445d0(&"# ");
-              g_data_057aebd8 = '\x01';
-            }
-            __this_02->methodPointer = (Il2CppMethodPointer)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-            __this_03 = __this_02;
-            il2cpp_runtime_helper_022b4080();
-            if (__this_01 != (System_Collections_Generic_List_object__o *)0x0) {
-              bVar2 = System_String__StartsWith_3af5570
-                                ((System_String_o *)__this_01,"# ",4,(MethodInfo *)0x0);
-              iVar11 = 2;
-              if ((char)bVar2 == '\0') {
-                __this_00 = (System_Collections_Generic_List_object__o *)0x0;
-                bVar2 = System_String__StartsWith_3af5570
-                                  ((System_String_o *)__this_01,"## ",4,(MethodInfo *)0x0);
-                iVar11 = 3;
-                if ((char)bVar2 == '\0') goto label_044e0bdb;
-              }
-              pSVar8 = (System_String_c *)
-                       System_String__Substring((System_String_o *)__this_01,iVar11,(MethodInfo *)0x0);
-              __this_02->methodPointer = (Il2CppMethodPointer)pSVar8;
-              il2cpp_runtime_helper_022b4080(__this_02);
-              __this_03 = (MethodInfo_362B8B0 *)0x0;
-              if ((System_String_c *)__this_02->methodPointer != (System_String_c *)0x0) {
-                pSVar8 = (System_String_c *)
-                         System_String__Trim((System_String_o *)__this_02->methodPointer,(MethodInfo *)0x0);
-                __this_02->methodPointer = (Il2CppMethodPointer)pSVar8;
-                __this_03 = __this_02;
-                il2cpp_runtime_helper_022b4080(__this_02,pSVar8);
-                if ((System_String_c *)__this_02->methodPointer != (System_String_c *)0x0) {
-                  __this_00 = (System_Collections_Generic_List_object__o *)
-                              CONCAT71((int7)((ulong)__this_00 >> 8),
-                                       0 < *(int *)&(((System_String_c *)__this_02->methodPointer)->_1).name);
-label_044e0bdb:
-                  return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)
-                         ((ulong)__this_00 & 0xffffffff);
-                }
-              }
-            }
-            il2cpp_runtime_helper_022b2c90();
-            if (g_data_057aebd9 == '\0') {
-              il2cpp_runtime_helper_023445d0(&"- ");
-              g_data_057aebd9 = '\x01';
-            }
-            if (__this_03 == (MethodInfo_362B8B0 *)0x0) {
-              pSVar13 = (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)0x0;
-            }
-            else {
-              pSVar13 = (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)0x0;
-              bVar2 = System_String__StartsWith_3af5570
-                                ((System_String_o *)__this_03,(System_String_o *)"- ",4,
-                                 (MethodInfo *)0x0);
-              if ((char)bVar2 != '\0') {
-                pSVar13 = (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)
-                          (ulong)(2 < *(int *)&__this_03->invoker_method);
-              }
-            }
-            return pSVar13;
-          }
-          bVar2 = System_String__IsNullOrWhiteSpace(pSVar4,(MethodInfo *)0x0);
-          if ((char)bVar2 == '\0') {
-            __this_02 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgChangelogMarkdownBlock);
-            iVar11 = 1;
+            if (__this_01 == (Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)0x0) goto label_1823a64cd;
           }
           else {
-            pSVar4 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-            __this_02 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgChangelogMarkdownBlock);
-            iVar11 = 3;
+            __this_01 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock)
+            ;
+            if (Il2CppMethodInitialized_184347ca3 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_string);
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+              Il2CppMethodInitialized_184347ca3 = '\x01';
+            }
+            System_Object___ctor
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,
+                       (MethodInfo *)0x0);
+            (__this_01->fields)._Type_k__BackingField = 1;
           }
-          Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock___ctor
-                    ((Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)__this_02,iVar11,pSVar4,
-                     (System_String_array *)0x0,in_R8);
-          lVar9 = MethodInfo_Void_Add;
-          if (__this_00 == (System_Collections_Generic_List_object__o *)0x0) break;
-          piVar1 = &(__this_00->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pSVar6 = (__this_00->fields)._items;
-          if (pSVar6 == (System_Object_array *)0x0) break;
-          uVar3 = (__this_00->fields)._size;
-          if ((uint)pSVar6->max_length <= uVar3) {
-            method_01 = *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar9 + 0x20) + 0xc0) + 0x70);
-            goto label_044e0855;
-          }
-          (__this_00->fields)._size = uVar3 + 1;
-          __this_01 = (System_Collections_Generic_List_object__o *)(pSVar6->m_Items + (int)uVar3);
-          pSVar6->m_Items[(int)uVar3] = (Il2CppObject *)__this_02;
-          il2cpp_runtime_helper_022b4080();
-          uVar12 = uVar12 + 1;
-          uVar3 = (uint)pSVar5->max_length;
-          method_00 = extraout_RDX_02;
-          if ((int)uVar3 <= (int)uVar12) {
-            return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this_00;
-          }
-        } while( true );
+          (__this_01->fields)._Text_k__BackingField = pSVar3;
+          Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Text_k__BackingField,pSVar3);
+          pSVar6 = (System_Object_array *)SZArrayNew(TypeInfo_string_array,0);
+          pSVar5 = System_Array__AsReadOnly_object_
+                             (pSVar6,(MethodInfo_68BBD0 *)MethodInfo_System_Array_AsReadOnly_string);
+          goto label_1823a6480;
+        }
+        __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+        System_Collections_Generic_List_object____ctor
+                  ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+                   (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+        uVar1 = (uint)pSVar4->max_length;
+        bVar2 = uVar7 < uVar1;
+        if ((int)uVar7 < (int)uVar1) {
+          do {
+            if (!bVar2) goto label_1823a64d3;
+            pSVar3 = pSVar4->m_Items[(int)uVar7];
+            if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0)
+            {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+            }
+            if (Il2CppMethodInitialized_184347ca7 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&"- ");
+              Il2CppMethodInitialized_184347ca7 = '\x01';
+            }
+            if (((pSVar3 == (System_String_o *)0x0) ||
+                (bVar2 = System_String__StartsWith_19722c0(pSVar3,"- ",4,(MethodInfo *)0x0),
+                !bVar2)) || ((pSVar3->fields)._stringLength < 3)) goto label_1823a61fa;
+            if ((uint)pSVar4->max_length <= uVar7) goto label_1823a64d3;
+            if ((pSVar4->m_Items[(int)uVar7] == (System_String_o *)0x0) ||
+               (pSVar3 = System_String__Substring(pSVar4->m_Items[(int)uVar7],2,(MethodInfo *)0x0),
+               __this_00 == (System_Collections_Generic_List_string__o *)0x0)) goto label_1823a64cd;
+            il2cpp_runtime_helper_180012890(__this_00,pSVar3,MethodInfo_System_Collections_Generic_List_string_Add);
+            uVar7 = uVar7 + 1;
+            uVar1 = (uint)pSVar4->max_length;
+            bVar2 = uVar7 < uVar1;
+          } while ((int)uVar7 < (int)uVar1);
+        }
+        else {
+label_1823a61fa:
+          if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1823a64cd;
+        }
+        pSVar3 = (System_String_o *)**(longlong **)(g_data_184354e50 + 0xb8);
+        array = System_Collections_Generic_List_object___ToArray
+                          ((System_Collections_Generic_List_T__o *)__this_00,
+                           (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+        __this_01 = il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock);
+        if (Il2CppMethodInitialized_184347ca3 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_AsReadOnly_string);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+          Il2CppMethodInitialized_184347ca3 = '\x01';
+        }
+        System_Object___ctor
+                  ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_01,(MethodInfo *)0x0);
+        (__this_01->fields)._Type_k__BackingField = 2;
+        if (pSVar3 == (System_String_o *)0x0) {
+          pSVar3 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+        }
+        if (__this_01 == (Gisketch_Aottg2UI_Game_AottgChangelogMarkdownBlock_o *)0x0) goto label_1823a64cd;
+        (__this_01->fields)._Text_k__BackingField = pSVar3;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Text_k__BackingField,pSVar3);
+        if (array == (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+                      *)0x0) {
+          array = (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+                   *)SZArrayNew(TypeInfo_string_array,0);
+        }
+        pSVar5 = System_Array__AsReadOnly_object_
+                           ((System_Object_array *)array,
+                            (MethodInfo_68BBD0 *)MethodInfo_System_Array_AsReadOnly_string);
+        (__this_01->fields)._Items_k__BackingField =
+             (System_Collections_Generic_IReadOnlyList_string__o *)pSVar5;
+        Il2CppCodeGenWriteBarrier(&(__this_01->fields)._Items_k__BackingField,pSVar5);
+        if (__this == (System_Collections_Generic_List_AottgChangelogMarkdownBlock__o *)0x0)
+        goto label_1823a64cd;
+        uVar7 = uVar7 - 1;
       }
+      il2cpp_runtime_helper_180012890(__this,__this_01,
+                    MethodInfo_System_Collections_Generic_List_AottgChangelogMarkdownBlock_Add);
     }
-label_044e0a28:
-    il2cpp_runtime_helper_022b2c90();
   }
-  return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this_00;
+  return (System_Collections_Generic_IReadOnlyList_AottgChangelogMarkdownBlock__o *)__this;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$RenderInline
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__RenderInline (System_String_o* text, const MethodInfo* method);
-// 0x44e0c50
+// 0x1823a64e0
+// eh: try 0x1823a6670..0x1823a675a -> pad 0x183324010 catch Il2CppExceptionWrapper
+// eh: try 0x1823a675a..0x1823a67de -> pad 0x18022ee70 cleanup
+// eh: try 0x1823a67de..0x1823a6b46 -> pad 0x183324010 (+1 call sites) catch Il2CppExceptionWrapper
+// asm: 26 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1823a6797: mov rdx, qword ptr [rip + 0x1d1b70a]  ; TypeInfo_System_Text_RegularExpressions_Match
+// asm:   0x1823a679e: mov r8, qword ptr [rax]
+// asm:   0x1823a67a1: movzx eax, byte ptr [rdx + 0x130]
+// asm:   0x1823a67a8: cmp byte ptr [r8 + 0x130], al
+// asm:   0x1823a67af: jb 0x1823a6b33
+// asm:   0x1823a6a3e: lea rcx, [rsp + 0x48]
+// asm:   0x1823a6a43: call 0x1818789e0  ; il2cpp_runtime_helper_1818789e0()
+// asm:   0x1823a6a48: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x1823a6a4d: test rcx, rcx
+// asm:   0x1823a6a50: jne 0x1823a6b46
+// asm:   0x1823a6a56: mov r15, qword ptr [rsp + 0x90]
+// asm:   0x1823a6a5e: mov r14, qword ptr [rsp + 0x28]
+// asm:   0x1823a6a63: mov edi, dword ptr [rsp + 0xa0]
+// asm:   0x1823a6a6a: mov r12, r14
+// asm:   0x1823a6b46: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183324010: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183324015: push rbp
+// asm:   0x183324016: sub rsp, 0x20
+// asm:   0x18332401a: mov rbp, rdx
+// asm:   0x18332401d: mov rax, qword ptr [rbp + 0x38]
+// asm:   0x183324021: mov rcx, qword ptr [rax]
+// asm:   0x183324024: mov qword ptr [rbp + 0x40], rcx
+// asm:   0x183324028: movabs rax, 0
+// asm:   0x183324032: add rsp, 0x20
+// asm:   0x183324036: pop rbp
+// asm:   0x183324037: ret 
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__RenderInline(System_String_o *text,MethodInfo *method)
@@ -363,459 +305,365 @@ Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__RenderInline(System_String_o *tex
 {
   byte bVar1;
   ushort uVar2;
-  ushort uVar3;
   int32_t capacity;
-  System_Collections_IEnumerator_c *pSVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  char cVar6;
-  bool_conflict bVar7;
-  System_Text_StringBuilder_o *__this;
-  System_Text_RegularExpressions_MatchCollection_o *__this_00;
-  VirtualInvokeData *pVVar8;
-  System_Text_RegularExpressions_Capture_o *__this_01;
-  System_String_o *pSVar9;
-  System_Text_StringBuilder_o *pSVar10;
-  long *plVar11;
-  undefined8 *puVar12;
-  int length;
-  MethodInfo *pMVar13;
-  long lVar14;
-  long lVar15;
-  int iVar16;
+  System_Text_RegularExpressions_Regex_o *__this;
+  Il2CppClass *pIVar3;
+  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
+  Il2CppObject *pIVar5;
+  bool bVar6;
+  System_Text_StringBuilder_o *__this_00;
+  System_Text_RegularExpressions_MatchCollection_o *__this_01;
+  VirtualInvokeData *pVVar7;
+  System_Text_RegularExpressions_Capture_o *__this_02;
+  System_String_o *pSVar8;
+  System_Text_StringBuilder_o *pSVar9;
+  ushort uVar10;
   int startIndex;
-  System_Collections_IEnumerator_o *unaff_R15;
-  undefined1 auVar17 [12];
-  System_Text_StringBuilder_o *local_48;
-  long local_40;
-  System_String_o *local_38;
+  Il2CppObject *local_res20;
+  undefined8 local_68;
+  System_Text_StringBuilder_o *local_60;
+  undefined8 local_48;
+  Il2CppObject **local_40;
+  undefined8 *local_38;
   
-  if (g_data_057aebd7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogMarkdown);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Match);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_StringBuilder);
-    il2cpp_runtime_helper_023445d0(&"<b>");
-    il2cpp_runtime_helper_023445d0(&"**");
-    il2cpp_runtime_helper_023445d0(&"</b>");
-    il2cpp_runtime_helper_023445d0(&"*");
-    il2cpp_runtime_helper_023445d0(&"</i>");
-    il2cpp_runtime_helper_023445d0(&"<i>");
-    g_data_057aebd7 = '\x01';
+  if (Il2CppMethodInitialized_184347ca5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_RegularExpressions_Match);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_StringBuilder);
+    il2cpp_codegen_initialize_runtime_metadata(&"<b>");
+    il2cpp_codegen_initialize_runtime_metadata(&"**");
+    il2cpp_codegen_initialize_runtime_metadata(&"</b>");
+    il2cpp_codegen_initialize_runtime_metadata(&"*");
+    il2cpp_codegen_initialize_runtime_metadata(&"</i>");
+    il2cpp_codegen_initialize_runtime_metadata(&"<i>");
+    Il2CppMethodInitialized_184347ca5 = '\x01';
   }
-  bVar7 = System_String__IsNullOrEmpty(text,(MethodInfo *)0x0);
-  if ((char)bVar7 != '\0') {
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  local_res20 = (Il2CppObject *)0x0;
+  local_68 = 0;
+  bVar6 = System_String__IsNullOrEmpty(text,(MethodInfo *)0x0);
+  if (bVar6) {
+    return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
   if (text != (System_String_o *)0x0) {
     capacity = (text->fields)._stringLength;
-    __this = (System_Text_StringBuilder_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringBuilder);
-    System_Text_StringBuilder___ctor_3b026e0(__this,capacity,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_StringBuilder);
+    System_Text_StringBuilder___ctor_1980e60(__this_00,capacity,(MethodInfo *)0x0);
+    if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown)
+      ;
     }
-    if (((System_Text_RegularExpressions_Regex_o *)**(undefined8 **)(TypeInfo_AottgChangelogMarkdown + 0xb8) !=
-         (System_Text_RegularExpressions_Regex_o *)0x0) &&
-       (__this_00 = System_Text_RegularExpressions_Regex__Matches_4906660
-                              ((System_Text_RegularExpressions_Regex_o *)
-                               **(undefined8 **)(TypeInfo_AottgChangelogMarkdown + 0xb8),text,(MethodInfo *)0x0), local_38 = text
-       , __this_00 != (System_Text_RegularExpressions_MatchCollection_o *)0x0)) {
-      local_40 = 0;
-      unaff_R15 = System_Text_RegularExpressions_MatchCollection__GetEnumerator(__this_00,(MethodInfo *)0x0);
-      local_48 = __this;
-      if (unaff_R15 == (System_Collections_IEnumerator_o *)0x0) goto label_044e12cc;
-      pMVar13 = (MethodInfo *)0x0;
-label_044e0ddf:
-      pSVar4 = unaff_R15->klass;
-      uVar2._0_1_ = (pSVar4->_2).rank;
-      uVar2._1_1_ = (pSVar4->_2).minimumAlignment;
-      if ((ulong)uVar2 != 0) {
-        pIVar5 = (pSVar4->_1).interfaceOffsets;
-        lVar14 = 0;
-        do {
-          if (*(long *)((long)&pIVar5->interfaceType + lVar14) == TypeInfo_IEnumerator) {
-            pVVar8 = pSVar4->vtable + *(int *)((long)&pIVar5->offset + lVar14);
-            goto label_044e0e33;
-          }
-          lVar14 = lVar14 + 0x10;
-        } while ((ulong)uVar2 << 4 != lVar14);
-      }
-      pVVar8 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(unaff_R15,TypeInfo_IEnumerator,0);
-label_044e0e33:
-      cVar6 = (*pVVar8->methodPtr)(unaff_R15,pVVar8->method);
-      if (cVar6 == '\0') {
-        iVar16 = 9;
-        goto label_044e1162;
-      }
-      pSVar4 = unaff_R15->klass;
-      uVar3._0_1_ = (pSVar4->_2).rank;
-      uVar3._1_1_ = (pSVar4->_2).minimumAlignment;
-      if ((ulong)uVar3 != 0) {
-        pIVar5 = (pSVar4->_1).interfaceOffsets;
-        lVar14 = 0;
-        do {
-          if (*(long *)((long)&pIVar5->interfaceType + lVar14) == TypeInfo_IEnumerator) {
-            pVVar8 = pSVar4->vtable + (*(int *)((long)&pIVar5->offset + lVar14) + 1);
-            goto label_044e0eb8;
-          }
-          lVar14 = lVar14 + 0x10;
-        } while ((ulong)uVar3 << 4 != lVar14);
-      }
-      pVVar8 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(unaff_R15,TypeInfo_IEnumerator,1);
-label_044e0eb8:
-      __this_01 = (System_Text_RegularExpressions_Capture_o *)(*pVVar8->methodPtr)(unaff_R15,pVVar8->method);
-      if (__this_01 != (System_Text_RegularExpressions_Capture_o *)0x0) {
-        bVar1 = (TypeInfo_Match->_2).naturalAligment;
-        if (((__this_01->klass->_2).naturalAligment < bVar1) ||
-           ((__this_01->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_Match)) {
-          il2cpp_runtime_helper_022b2fd0(__this_01);
-          goto label_044e1295;
+    __this = TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->static_fields->InlinePattern;
+    if ((__this != (System_Text_RegularExpressions_Regex_o *)0x0) &&
+       (__this_01 = System_Text_RegularExpressions_Regex__Matches_285d470(__this,text,(MethodInfo *)0x0),
+       __this_01 != (System_Text_RegularExpressions_MatchCollection_o *)0x0)) {
+      startIndex = 0;
+      local_60 = __this_00;
+      local_res20 = (Il2CppObject *)
+                    System_Text_RegularExpressions_MatchCollection__GetEnumerator(__this_01,(MethodInfo *)0x0)
+      ;
+      local_48 = 0;
+      local_40 = &local_res20;
+      local_38 = &local_68;
+      do {
+        pIVar5 = local_res20;
+        if (local_res20 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
         }
-        iVar16 = (__this_01->fields)._Index_k__BackingField;
-        startIndex = (int)pMVar13;
-        length = iVar16 - startIndex;
-        if (length != 0 && startIndex <= iVar16) {
-          pSVar9 = System_String__Substring_3af8da0(text,startIndex,length,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar9 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar9,pMVar13);
-          if (__this != (System_Text_StringBuilder_o *)0x0) {
-            System_Text_StringBuilder__Append_3b03f90(__this,pSVar9,(MethodInfo *)0x0);
-            goto label_044e0f53;
-          }
-          goto label_044e12a4;
-        }
-label_044e0f53:
-        pSVar9 = System_Text_RegularExpressions_Capture__get_Value(__this_01,(MethodInfo *)0x0);
-        if (pSVar9 == (System_String_o *)0x0) goto label_044e129a;
-        bVar7 = System_String__StartsWith_3af5570(pSVar9,"**",4,(MethodInfo *)0x0);
-        if (((char)bVar7 != '\0') &&
-           (bVar7 = System_String__EndsWith_3af4a10(pSVar9,"**",4,(MethodInfo *)0x0),
-           (char)bVar7 != '\0')) {
-          if (__this == (System_Text_StringBuilder_o *)0x0) goto label_044e12a9;
-          pSVar10 = System_Text_StringBuilder__Append_3b03f90(__this,"<b>",(MethodInfo *)0x0);
-          pMVar13 = (MethodInfo *)0x2;
-          pSVar9 = System_String__Substring_3af8da0
-                             (pSVar9,2,(pSVar9->fields)._stringLength + -4,(MethodInfo *)0x0);
-          if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar9 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar9,pMVar13);
-          if (pSVar10 == (System_Text_StringBuilder_o *)0x0) goto label_044e12ae;
-          pSVar10 = System_Text_StringBuilder__Append_3b03f90(pSVar10,pSVar9,(MethodInfo *)0x0);
-          if (pSVar10 != (System_Text_StringBuilder_o *)0x0) {
-            System_Text_StringBuilder__Append_3b03f90(pSVar10,"</b>",(MethodInfo *)0x0);
-            goto label_044e0dd0;
-          }
-          goto label_044e12b3;
-        }
-        pMVar13 = "*";
-        bVar7 = System_String__StartsWith_3af5570(pSVar9,(System_String_o *)"*",4,(MethodInfo *)0x0);
-        if (((char)bVar7 == '\0') ||
-           (pMVar13 = "*",
-           bVar7 = System_String__EndsWith_3af4a10(pSVar9,(System_String_o *)"*",4,(MethodInfo *)0x0)
-           , (char)bVar7 == '\0')) {
-          if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar9 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar9,pMVar13);
-          if (__this != (System_Text_StringBuilder_o *)0x0) {
-            System_Text_StringBuilder__Append_3b03f90(__this,pSVar9,(MethodInfo *)0x0);
-            goto label_044e0dd0;
-          }
-          goto label_044e129f;
-        }
-        if (__this == (System_Text_StringBuilder_o *)0x0) goto label_044e12bd;
-        pSVar10 = System_Text_StringBuilder__Append_3b03f90(__this,"<i>",(MethodInfo *)0x0);
-        pMVar13 = (MethodInfo *)0x1;
-        pSVar9 = System_String__Substring_3af8da0
-                           (pSVar9,1,(pSVar9->fields)._stringLength + -2,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar9 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar9,pMVar13);
-        if (pSVar10 == (System_Text_StringBuilder_o *)0x0) goto label_044e12c2;
-        pSVar10 = System_Text_StringBuilder__Append_3b03f90(pSVar10,pSVar9,(MethodInfo *)0x0);
-        if (pSVar10 == (System_Text_StringBuilder_o *)0x0) goto label_044e12b8;
-        System_Text_StringBuilder__Append_3b03f90(pSVar10,"</i>",(MethodInfo *)0x0);
-label_044e0dd0:
-        pMVar13 = (MethodInfo *)
-                  (ulong)(uint)((__this_01->fields)._Length_k__BackingField +
-                               (__this_01->fields)._Index_k__BackingField);
-        goto label_044e0ddf;
-      }
-label_044e1295:
-      il2cpp_runtime_helper_022b2c90();
-label_044e129a:
-      il2cpp_runtime_helper_022b2c90();
-label_044e129f:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12a4:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12a9:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12ae:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12b3:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12b8:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12bd:
-      il2cpp_runtime_helper_022b2c90();
-label_044e12c2:
-      il2cpp_runtime_helper_022b2c90();
-    }
-  }
-label_044e12c7:
-  do {
-    il2cpp_runtime_helper_022b2c90();
-label_044e12cc:
-    il2cpp_runtime_helper_022b2c90();
-    do {
-      auVar17 = il2cpp_runtime_helper_022fefe0();
-      pMVar13 = (MethodInfo *)0x0;
-      iVar16 = 0;
-      if (auVar17._8_4_ != 1) {
-        plVar11 = (long *)il2cpp_runtime_helper_023051f0(unaff_R15,TypeInfo_IDisposable);
-        if (plVar11 == (long *)0x0) goto label_044e15e6;
-        lVar14 = *plVar11;
-        if ((ulong)*(ushort *)(lVar14 + 0x12e) == 0) goto label_044e15bf;
-        lVar15 = 0;
-        goto label_044e15b0;
-      }
-      plVar11 = (long *)__cxa_begin_catch(auVar17._0_8_);
-      local_40 = *plVar11;
-      __cxa_end_catch();
-label_044e1162:
-      plVar11 = (long *)il2cpp_runtime_helper_023051f0(unaff_R15,TypeInfo_IDisposable);
-      pSVar9 = (System_String_o *)0x0;
-      if (plVar11 != (long *)0x0) {
-        lVar14 = *plVar11;
-        if ((ulong)*(ushort *)(lVar14 + 0x12e) != 0) {
-          lVar15 = 0;
+        pIVar3 = local_res20->klass;
+        uVar2 = (pIVar3->_2).interface_offsets_count;
+        if (uVar2 != 0) {
+          uVar10 = 0;
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
           do {
-            if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar15) == TypeInfo_IDisposable) {
-              puVar12 = (undefined8 *)
-                        (lVar14 + (long)*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar15) * 0x10 + 0x138);
-              goto label_044e11dd;
+            if (pIVar4[uVar10].interfaceType == (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
+              pVVar7 = pIVar3->vtable + pIVar4[uVar10].offset;
+              goto label_1823a66d6;
             }
-            lVar15 = lVar15 + 0x10;
-          } while ((ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar15);
+            uVar10 = uVar10 + 1;
+          } while (uVar10 < uVar2);
         }
-        puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar11,TypeInfo_IDisposable,0);
-label_044e11dd:
-        pSVar9 = (System_String_o *)(*(code *)*puVar12)(plVar11,puVar12[1]);
-      }
-    } while (local_40 != 0);
-    if ((iVar16 != 9) && (iVar16 != 0)) {
-      return pSVar9;
-    }
-    if ((int)pMVar13 < (local_38->fields)._stringLength) {
-      pSVar9 = System_String__Substring(local_38,(int)pMVar13,(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_AottgChangelogMarkdown + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar9 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar9,pMVar13);
-      if (local_48 != (System_Text_StringBuilder_o *)0x0) {
-        System_Text_StringBuilder__Append_3b03f90(local_48,pSVar9,(MethodInfo *)0x0);
-        goto label_044e1269;
-      }
-      goto label_044e12c7;
-    }
-    if (local_48 != (System_Text_StringBuilder_o *)0x0) {
-label_044e1269:
-      pSVar9 = (System_String_o *)
-               (*(local_48->klass->vtable)._3_ToString.methodPtr)
-                         (local_48,(local_48->klass->vtable)._3_ToString.method);
-      return pSVar9;
-    }
-  } while( true );
-  while (lVar15 = lVar15 + 0x10, (ulong)*(ushort *)(lVar14 + 0x12e) << 4 != lVar15) {
-label_044e15b0:
-    if (*(long *)(*(long *)(lVar14 + 0xb0) + lVar15) == TypeInfo_IDisposable) {
-      puVar12 = (undefined8 *)(lVar14 + (long)*(int *)(*(long *)(lVar14 + 0xb0) + 8 + lVar15) * 0x10 + 0x138);
-      goto label_044e15dd;
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (local_res20,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,0);
+label_1823a66d6:
+        bVar6 = (*pVVar7->methodPtr)(pIVar5,pVVar7->method);
+        pIVar5 = local_res20;
+        if (!bVar6) {
+          il2cpp_runtime_helper_1818789e0(&local_40);
+          if (startIndex < (text->fields)._stringLength) {
+            pSVar8 = System_String__Substring(text,startIndex,(MethodInfo *)0x0);
+            if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0)
+            {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+            }
+            pSVar8 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar8,(MethodInfo *)0x0);
+            if (__this_00 == (System_Text_StringBuilder_o *)0x0) break;
+            System_Text_StringBuilder__Append_197dca0(__this_00,pSVar8,(MethodInfo *)0x0);
+          }
+          else if (__this_00 == (System_Text_StringBuilder_o *)0x0) break;
+          pSVar8 = (*(__this_00->klass->vtable)._3_ToString.methodPtr)
+                             (__this_00,(__this_00->klass->vtable)._3_ToString.method);
+          return pSVar8;
+        }
+        if (local_res20 == (Il2CppObject *)0x0) {
+          ThrowNullReferenceException();
+        }
+        pIVar3 = local_res20->klass;
+        uVar2 = (pIVar3->_2).interface_offsets_count;
+        if (uVar2 != 0) {
+          uVar10 = 0;
+          pIVar4 = (pIVar3->_1).interfaceOffsets;
+          do {
+            if (pIVar4[uVar10].interfaceType == (Il2CppClass *)TypeInfo_System_Collections_IEnumerator) {
+              pVVar7 = pIVar3->vtable + (pIVar4[uVar10].offset + 1);
+              goto label_1823a6745;
+            }
+            uVar10 = uVar10 + 1;
+          } while (uVar10 < uVar2);
+        }
+        pVVar7 = GetInterfaceInvokeDataFromVTableSlowPath
+                           (local_res20,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,1);
+label_1823a6745:
+        __this_02 = (System_Text_RegularExpressions_Capture_o *)(*pVVar7->methodPtr)(pIVar5,pVVar7->method);
+        if (__this_02 == (System_Text_RegularExpressions_Capture_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        bVar1 = (TypeInfo_System_Text_RegularExpressions_Match->_2).typeHierarchyDepth;
+        if (((__this_02->klass->_2).typeHierarchyDepth < bVar1) ||
+           ((__this_02->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+            (Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Match)) {
+          il2cpp_codegen_raise_invalid_cast_exception(__this_02);
+        }
+        if (startIndex < (__this_02->fields)._Index_k__BackingField) {
+          pSVar8 = System_String__Substring_1972740
+                             (text,startIndex,(__this_02->fields)._Index_k__BackingField - startIndex,
+                              (MethodInfo *)0x0);
+          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+          }
+          pSVar8 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar8,(MethodInfo *)0x0);
+          if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          System_Text_StringBuilder__Append_197dca0(__this_00,pSVar8,(MethodInfo *)0x0);
+        }
+        pSVar8 = System_Text_RegularExpressions_Capture__ToString(__this_02,(MethodInfo *)0x0);
+        if (pSVar8 == (System_String_o *)0x0) {
+          ThrowNullReferenceException();
+        }
+        bVar6 = System_String__StartsWith_19722c0(pSVar8,"**",4,(MethodInfo *)0x0);
+        if ((bVar6) &&
+           (bVar6 = System_String__EndsWith_196bd20(pSVar8,"**",4,(MethodInfo *)0x0), bVar6))
+        {
+          if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar9 = System_Text_StringBuilder__Append_197dca0
+                             (__this_00,"<b>",(MethodInfo *)0x0);
+          pSVar8 = System_String__Substring_1972740
+                             (pSVar8,2,(pSVar8->fields)._stringLength + -4,(MethodInfo *)0x0);
+          if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+          }
+          pSVar8 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar8,(MethodInfo *)0x0);
+          if (pSVar9 == (System_Text_StringBuilder_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar9 = System_Text_StringBuilder__Append_197dca0(pSVar9,pSVar8,(MethodInfo *)0x0);
+          if (pSVar9 == (System_Text_StringBuilder_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          System_Text_StringBuilder__Append_197dca0(pSVar9,"</b>",(MethodInfo *)0x0);
+          startIndex = (__this_02->fields)._Length_k__BackingField +
+                       (__this_02->fields)._Index_k__BackingField;
+        }
+        else {
+          bVar6 = System_String__StartsWith_19722c0(pSVar8,"*",4,(MethodInfo *)0x0);
+          if ((bVar6) &&
+             (bVar6 = System_String__EndsWith_196bd20(pSVar8,"*",4,(MethodInfo *)0x0), bVar6
+             )) {
+            if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            pSVar9 = System_Text_StringBuilder__Append_197dca0
+                               (__this_00,"<i>",(MethodInfo *)0x0);
+            pSVar8 = System_String__Substring_1972740
+                               (pSVar8,1,(pSVar8->fields)._stringLength + -2,(MethodInfo *)0x0);
+            if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0)
+            {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+            }
+            pSVar8 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar8,(MethodInfo *)0x0);
+            if (pSVar9 == (System_Text_StringBuilder_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            pSVar9 = System_Text_StringBuilder__Append_197dca0(pSVar9,pSVar8,(MethodInfo *)0x0);
+            if (pSVar9 == (System_Text_StringBuilder_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            System_Text_StringBuilder__Append_197dca0(pSVar9,"</i>",(MethodInfo *)0x0);
+            startIndex = (__this_02->fields)._Length_k__BackingField +
+                         (__this_02->fields)._Index_k__BackingField;
+          }
+          else {
+            if ((TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->_2).cctor_finished_or_no_cctor == 0)
+            {
+              il2cpp_codegen_runtime_class_init
+                        ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+            }
+            pSVar8 = Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(pSVar8,(MethodInfo *)0x0);
+            if (__this_00 == (System_Text_StringBuilder_o *)0x0) {
+              ThrowNullReferenceException();
+            }
+            System_Text_StringBuilder__Append_197dca0(__this_00,pSVar8,(MethodInfo *)0x0);
+            startIndex = (__this_02->fields)._Length_k__BackingField +
+                         (__this_02->fields)._Index_k__BackingField;
+          }
+        }
+      } while( true );
     }
   }
-label_044e15bf:
-  puVar12 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar11,TypeInfo_IDisposable,0);
-label_044e15dd:
-  (*(code *)*puVar12)(plVar11,puVar12[1]);
-label_044e15e6:
-  _Unwind_Resume(auVar17._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$TryReadHeader
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__TryReadHeader (System_String_o* line, System_String_o** header, const MethodInfo* method);
-// 0x44e0af0
+// 0x1823a6b60
 
-bool_conflict
-Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__TryReadHeader
-          (System_String_o *line,System_String_o **header,MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__TryReadHeader
+               (System_String_o *line,System_String_o **header,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   System_String_o *pSVar2;
-  MethodInfo *extraout_RDX;
   int32_t startIndex;
-  System_String_o *__this;
-  uint uVar3;
-  undefined8 unaff_R15;
   
-  if (g_data_057aebd8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"## ");
-    il2cpp_runtime_helper_023445d0(&"# ");
-    g_data_057aebd8 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184347ca6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"## ");
+    il2cpp_codegen_initialize_runtime_metadata(&"# ");
+    Il2CppMethodInitialized_184347ca6 = '\x01';
   }
-  pSVar2 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  pSVar2 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   *header = pSVar2;
-  __this = (System_String_o *)header;
-  il2cpp_runtime_helper_022b4080(header,pSVar2,method);
+  Il2CppCodeGenWriteBarrier(header,pSVar2);
   if (line != (System_String_o *)0x0) {
-    bVar1 = System_String__StartsWith_3af5570(line,"# ",4,(MethodInfo *)0x0);
-    startIndex = 2;
-    if ((char)bVar1 == '\0') {
-      unaff_R15 = 0;
-      bVar1 = System_String__StartsWith_3af5570(line,"## ",4,(MethodInfo *)0x0);
-      startIndex = 3;
-      if ((char)bVar1 == '\0') {
-        return 0;
+    bVar1 = System_String__StartsWith_19722c0(line,"# ",4,(MethodInfo *)0x0);
+    if (bVar1) {
+      startIndex = 2;
+    }
+    else {
+      bVar1 = System_String__StartsWith_19722c0(line,"## ",4,(MethodInfo *)0x0);
+      if (!bVar1) {
+        return false;
       }
+      startIndex = 3;
     }
     pSVar2 = System_String__Substring(line,startIndex,(MethodInfo *)0x0);
     *header = pSVar2;
-    il2cpp_runtime_helper_022b4080(header);
-    __this = (System_String_o *)0x0;
+    Il2CppCodeGenWriteBarrier(header,pSVar2);
     if (*header != (System_String_o *)0x0) {
       pSVar2 = System_String__Trim(*header,(MethodInfo *)0x0);
       *header = pSVar2;
-      __this = (System_String_o *)header;
-      il2cpp_runtime_helper_022b4080(header,pSVar2);
+      Il2CppCodeGenWriteBarrier(header,pSVar2);
       if (*header != (System_String_o *)0x0) {
-        return (bool_conflict)CONCAT71((int7)((ulong)unaff_R15 >> 8),0 < ((*header)->fields)._stringLength);
+        return 0 < ((*header)->fields)._stringLength;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebd9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"- ");
-    g_data_057aebd9 = '\x01';
-  }
-  if (__this == (System_String_o *)0x0) {
-    uVar3 = 0;
-  }
-  else {
-    uVar3 = 0;
-    bVar1 = System_String__StartsWith_3af5570(__this,"- ",4,(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      uVar3 = (uint)(2 < (__this->fields)._stringLength);
-    }
-  }
-  return uVar3;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$IsBullet
 // il2cpp: bool Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__IsBullet (System_String_o* line, const MethodInfo* method);
-// 0x44e0bf0
+// 0x1823a5de0
 
-bool_conflict
-Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__IsBullet(System_String_o *line,MethodInfo *method)
+bool Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__IsBullet(System_String_o *line,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  uint uVar2;
+  bool bVar1;
   
-  if (g_data_057aebd9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"- ");
-    g_data_057aebd9 = '\x01';
+  if (Il2CppMethodInitialized_184347ca7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"- ");
+    Il2CppMethodInitialized_184347ca7 = '\x01';
   }
-  if (line == (System_String_o *)0x0) {
-    uVar2 = 0;
-  }
-  else {
-    uVar2 = 0;
-    bVar1 = System_String__StartsWith_3af5570(line,"- ",4,(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      uVar2 = (uint)(2 < (line->fields)._stringLength);
+  if (line != (System_String_o *)0x0) {
+    bVar1 = System_String__StartsWith_19722c0(line,"- ",4,(MethodInfo *)0x0);
+    if (bVar1) {
+      return 2 < (line->fields)._stringLength;
     }
   }
-  return uVar2;
+  return false;
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$Escape
 // il2cpp: System_String_o* Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape (System_String_o* value, const MethodInfo* method);
-// 0x44e1610
+// 0x1823a5cf0
 
 System_String_o *
 Gisketch_Aottg2UI_Game_AottgChangelogMarkdown__Escape(System_String_o *value,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
+  bool bVar1;
   System_String_o *pSVar2;
-  System_Text_RegularExpressions_Regex_o *__this;
   
-  if (g_data_057aebda == '\0') {
-    il2cpp_runtime_helper_023445d0(&"&amp;");
-    il2cpp_runtime_helper_023445d0(&"<");
-    il2cpp_runtime_helper_023445d0(&"&gt;");
-    il2cpp_runtime_helper_023445d0(&"&");
-    il2cpp_runtime_helper_023445d0(&"&lt;");
-    il2cpp_runtime_helper_023445d0(&">");
-    g_data_057aebda = '\x01';
+  if (Il2CppMethodInitialized_184347ca8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"&amp;");
+    il2cpp_codegen_initialize_runtime_metadata(&"<");
+    il2cpp_codegen_initialize_runtime_metadata(&"&gt;");
+    il2cpp_codegen_initialize_runtime_metadata(&"&");
+    il2cpp_codegen_initialize_runtime_metadata(&"&lt;");
+    il2cpp_codegen_initialize_runtime_metadata(&">");
+    Il2CppMethodInitialized_184347ca8 = '\x01';
   }
   bVar1 = System_String__IsNullOrEmpty(value,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  }
-  if (value != (System_String_o *)0x0) {
-    pSVar2 = System_String__Replace_3af9030(value,"&","&amp;",(MethodInfo *)0x0);
-    if (pSVar2 != (System_String_o *)0x0) {
-      pSVar2 = System_String__Replace_3af9030(pSVar2,"<","&lt;",(MethodInfo *)0x0);
+  if (!bVar1) {
+    if (value != (System_String_o *)0x0) {
+      pSVar2 = System_String__Replace_1970e80
+                         (value,"&","&amp;",(MethodInfo *)0x0);
       if (pSVar2 != (System_String_o *)0x0) {
-        pSVar2 = System_String__Replace_3af9030(pSVar2,">","&gt;",(MethodInfo *)0x0);
-        return pSVar2;
+        pSVar2 = System_String__Replace_1970e80
+                           (pSVar2,"<","&lt;",(MethodInfo *)0x0);
+        if (pSVar2 != (System_String_o *)0x0) {
+          pSVar2 = System_String__Replace_1970e80
+                             (pSVar2,">","&gt;",(MethodInfo *)0x0);
+          return pSVar2;
+        }
       }
     }
+    ThrowNullReferenceException();
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aebdb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogMarkdown);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Regex);
-    il2cpp_runtime_helper_023445d0(&"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)");
-    g_data_057aebdb = '\x01';
-  }
-  __this = (System_Text_RegularExpressions_Regex_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Regex);
-  System_Text_RegularExpressions_Regex___ctor_4907710(__this,"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)",8,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_AottgChangelogMarkdown + 0xb8) = __this;
-  pSVar2 = (System_String_o *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgChangelogMarkdown + 0xb8),__this);
-  return pSVar2;
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // Gisketch.Aottg2UI.Game.AottgChangelogMarkdown$$.cctor
 // il2cpp: void Gisketch_Aottg2UI_Game_AottgChangelogMarkdown___cctor (const MethodInfo* method);
-// 0x44e1710
+// 0x1823a6c70
 
 void Gisketch_Aottg2UI_Game_AottgChangelogMarkdown___cctor(MethodInfo *method)
 
 {
   System_Text_RegularExpressions_Regex_o *__this;
   
-  if (g_data_057aebdb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgChangelogMarkdown);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Regex);
-    il2cpp_runtime_helper_023445d0(&"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)");
-    g_data_057aebdb = '\x01';
+  if (Il2CppMethodInitialized_184347ca9 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Text_RegularExpressions_Regex);
+    il2cpp_codegen_initialize_runtime_metadata(&"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)");
+    Il2CppMethodInitialized_184347ca9 = '\x01';
   }
-  __this = (System_Text_RegularExpressions_Regex_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Regex);
-  System_Text_RegularExpressions_Regex___ctor_4907710(__this,"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)",8,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_AottgChangelogMarkdown + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_AottgChangelogMarkdown + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Text_RegularExpressions_Regex);
+  System_Text_RegularExpressions_Regex___ctor_285f6f0(__this,"(\\*\\*[^*]+\\*\\*|\\*[^*]+\\*)",8,(MethodInfo *)0x0);
+  TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->static_fields->InlinePattern = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Gisketch_Aottg2UI_Game_AottgChangelogMarkdown->static_fields->InlinePattern,__this);
   return;
 }
 

@@ -34,40 +34,40 @@ internal sealed class NfaContentValidator : ContentValidator
 	private int endMarkerPos;
 
 	[Token(Token = "0x6001036")]
-	[Address(RVA = "0x484C900", Offset = "0x484C900", VA = "0x484C900")]
+	[Address(RVA = "0x27AC8D0", Offset = "0x27AAED0", VA = "0x1827AC8D0")]
 	internal NfaContentValidator(BitSet firstpos, BitSet[] followpos, SymbolsDictionary symbols, Positions positions, int endMarkerPos, XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x6001037")]
-	[Address(RVA = "0x484C9D0", Offset = "0x484C9D0", VA = "0x484C9D0", Slot = "5")]
+	[Address(RVA = "0x27AC620", Offset = "0x27AAC20", VA = "0x1827AC620", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x6001038")]
-	[Address(RVA = "0x484CAB0", Offset = "0x484CAB0", VA = "0x484CAB0", Slot = "6")]
+	[Address(RVA = "0x27AC710", Offset = "0x27AAD10", VA = "0x1827AC710", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001039")]
-	[Address(RVA = "0x484CC70", Offset = "0x484CC70", VA = "0x484CC70", Slot = "7")]
+	[Address(RVA = "0x27AC240", Offset = "0x27AA840", VA = "0x1827AC240", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600103A")]
-	[Address(RVA = "0x484CCB0", Offset = "0x484CCB0", VA = "0x484CCB0", Slot = "8")]
+	[Address(RVA = "0x27AC290", Offset = "0x27AA890", VA = "0x1827AC290", Slot = "8")]
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600103B")]
-	[Address(RVA = "0x484CEB0", Offset = "0x484CEB0", VA = "0x484CEB0", Slot = "9")]
+	[Address(RVA = "0x27AC490", Offset = "0x27AAA90", VA = "0x1827AC490", Slot = "9")]
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;

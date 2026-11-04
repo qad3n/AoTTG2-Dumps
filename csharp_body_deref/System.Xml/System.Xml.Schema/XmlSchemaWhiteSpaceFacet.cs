@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaWhiteSpaceFacet : XmlSchemaFacet
 {
 	[Token(Token = "0x600166B")]
-	[Address(RVA = "0x4724D80", Offset = "0x4724D80", VA = "0x4724D80")]
+	[Address(RVA = "0x266D3C0", Offset = "0x266B9C0", VA = "0x18266D3C0")]
 	public XmlSchemaWhiteSpaceFacet()
 	{
 	}

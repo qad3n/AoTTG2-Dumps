@@ -18,69 +18,69 @@ public static class ConversionUtility
 	[Token(Token = "0x20000E4")]
 	public enum ConversionType
 	{
-		[Token(Token = "0x400016A")]
+		[Token(Token = "0x4000168")]
 		Impossible,
-		[Token(Token = "0x400016B")]
+		[Token(Token = "0x4000169")]
 		Identity,
-		[Token(Token = "0x400016C")]
+		[Token(Token = "0x400016A")]
 		Upcast,
-		[Token(Token = "0x400016D")]
+		[Token(Token = "0x400016B")]
 		Downcast,
-		[Token(Token = "0x400016E")]
+		[Token(Token = "0x400016C")]
 		NumericImplicit,
-		[Token(Token = "0x400016F")]
+		[Token(Token = "0x400016D")]
 		NumericExplicit,
-		[Token(Token = "0x4000170")]
+		[Token(Token = "0x400016E")]
 		UserDefinedImplicit,
-		[Token(Token = "0x4000171")]
+		[Token(Token = "0x400016F")]
 		UserDefinedExplicit,
-		[Token(Token = "0x4000172")]
+		[Token(Token = "0x4000170")]
 		UserDefinedThenNumericImplicit,
-		[Token(Token = "0x4000173")]
+		[Token(Token = "0x4000171")]
 		UserDefinedThenNumericExplicit,
-		[Token(Token = "0x4000174")]
+		[Token(Token = "0x4000172")]
 		UnityHierarchy,
-		[Token(Token = "0x4000175")]
+		[Token(Token = "0x4000173")]
 		EnumerableToArray,
-		[Token(Token = "0x4000176")]
+		[Token(Token = "0x4000174")]
 		EnumerableToList,
-		[Token(Token = "0x4000177")]
+		[Token(Token = "0x4000175")]
 		ToString
 	}
 
 	[Token(Token = "0x20000E5")]
 	private struct ConversionQuery : IEquatable<ConversionQuery>
 	{
-		[Token(Token = "0x4000178")]
+		[Token(Token = "0x4000176")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly Type source;
 
-		[Token(Token = "0x4000179")]
+		[Token(Token = "0x4000177")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly Type destination;
 
-		[Token(Token = "0x600058C")]
-		[Address(RVA = "0x4CBDCF0", Offset = "0x4CBDCF0", VA = "0x4CBDCF0")]
+		[Token(Token = "0x6000596")]
+		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
 		public ConversionQuery(Type source, Type destination)
 		{
 		}
 
-		[Token(Token = "0x600058D")]
-		[Address(RVA = "0x4CC17A0", Offset = "0x4CC17A0", VA = "0x4CC17A0", Slot = "4")]
+		[Token(Token = "0x6000597")]
+		[Address(RVA = "0x2D9DC00", Offset = "0x2D9C200", VA = "0x182D9DC00", Slot = "4")]
 		public bool Equals(ConversionQuery other)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600058E")]
-		[Address(RVA = "0x4CC1820", Offset = "0x4CC1820", VA = "0x4CC1820", Slot = "0")]
+		[Token(Token = "0x6000598")]
+		[Address(RVA = "0x2D9DC90", Offset = "0x2D9C290", VA = "0x182D9DC90", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600058F")]
-		[Address(RVA = "0x4CC18E0", Offset = "0x4CC18E0", VA = "0x4CC18E0", Slot = "2")]
+		[Token(Token = "0x6000599")]
+		[Address(RVA = "0x2D9DD90", Offset = "0x2D9C390", VA = "0x182D9DD90", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
@@ -90,269 +90,269 @@ public static class ConversionUtility
 	[Token(Token = "0x20000E6")]
 	private struct ConversionQueryComparer : IEqualityComparer<ConversionQuery>
 	{
-		[Token(Token = "0x6000590")]
-		[Address(RVA = "0x4CC1920", Offset = "0x4CC1920", VA = "0x4CC1920", Slot = "4")]
+		[Token(Token = "0x600059A")]
+		[Address(RVA = "0x2D9DB40", Offset = "0x2D9C140", VA = "0x182D9DB40", Slot = "4")]
 		public bool Equals(ConversionQuery x, ConversionQuery y)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000591")]
-		[Address(RVA = "0x4CC19A0", Offset = "0x4CC19A0", VA = "0x4CC19A0", Slot = "5")]
+		[Token(Token = "0x600059B")]
+		[Address(RVA = "0x2D9DBC0", Offset = "0x2D9C1C0", VA = "0x182D9DBC0", Slot = "5")]
 		public int GetHashCode(ConversionQuery obj)
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x4000164")]
+	[Token(Token = "0x4000162")]
 	private const BindingFlags UserDefinedBindingFlags = BindingFlags.Static | BindingFlags.Public;
 
-	[Token(Token = "0x4000165")]
+	[Token(Token = "0x4000163")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Dictionary<ConversionQuery, ConversionType> conversionTypesCache;
 
-	[Token(Token = "0x4000166")]
+	[Token(Token = "0x4000164")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Dictionary<ConversionQuery, MethodInfo[]> userConversionMethodsCache;
 
-	[Token(Token = "0x4000167")]
+	[Token(Token = "0x4000165")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly Dictionary<Type, HashSet<Type>> implicitNumericConversions;
 
-	[Token(Token = "0x4000168")]
+	[Token(Token = "0x4000166")]
 	[FieldOffset(Offset = "0x18")]
 	private static readonly Dictionary<Type, HashSet<Type>> explicitNumericConversions;
 
-	[Token(Token = "0x6000569")]
-	[Address(RVA = "0x4CBD4B0", Offset = "0x4CBD4B0", VA = "0x4CBD4B0")]
+	[Token(Token = "0x6000573")]
+	[Address(RVA = "0x2DA02A0", Offset = "0x2D9E8A0", VA = "0x182DA02A0")]
 	private static bool RespectsIdentity(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056A")]
-	[Address(RVA = "0x4CBD4F0", Offset = "0x4CBD4F0", VA = "0x4CBD4F0")]
+	[Token(Token = "0x6000574")]
+	[Address(RVA = "0x248BC60", Offset = "0x248A260", VA = "0x18248BC60")]
 	private static bool IsUpcast(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056B")]
-	[Address(RVA = "0x4CBD520", Offset = "0x4CBD520", VA = "0x4CBD520")]
+	[Token(Token = "0x6000575")]
+	[Address(RVA = "0x1D67630", Offset = "0x1D65C30", VA = "0x181D67630")]
 	private static bool IsDowncast(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056C")]
-	[Address(RVA = "0x4CBD540", Offset = "0x4CBD540", VA = "0x4CBD540")]
+	[Token(Token = "0x6000576")]
+	[Address(RVA = "0x2D9EF60", Offset = "0x2D9D560", VA = "0x182D9EF60")]
 	private static bool ExpectsString(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056D")]
-	[Address(RVA = "0x4CBD590", Offset = "0x4CBD590", VA = "0x4CBD590")]
+	[Token(Token = "0x6000577")]
+	[Address(RVA = "0x2D9FD70", Offset = "0x2D9E370", VA = "0x182D9FD70")]
 	public static bool HasImplicitNumericConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056E")]
-	[Address(RVA = "0x4CBD6B0", Offset = "0x4CBD6B0", VA = "0x4CBD6B0")]
+	[Token(Token = "0x6000578")]
+	[Address(RVA = "0x2D9FC60", Offset = "0x2D9E260", VA = "0x182D9FC60")]
 	public static bool HasExplicitNumericConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600056F")]
-	[Address(RVA = "0x4CBD7D0", Offset = "0x4CBD7D0", VA = "0x4CBD7D0")]
+	[Token(Token = "0x6000579")]
+	[Address(RVA = "0x2D9FE80", Offset = "0x2D9E480", VA = "0x182D9FE80")]
 	public static bool HasNumericConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000570")]
-	[Address(RVA = "0x4CBD850", Offset = "0x4CBD850", VA = "0x4CBD850")]
+	[Token(Token = "0x600057A")]
+	[Address(RVA = "0x2D9EFB0", Offset = "0x2D9D5B0", VA = "0x182D9EFB0")]
 	private static IEnumerable<MethodInfo> FindUserDefinedConversionMethods(ConversionQuery query)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000571")]
-	[Address(RVA = "0x4CBDB50", Offset = "0x4CBDB50", VA = "0x4CBDB50")]
+	[Token(Token = "0x600057B")]
+	[Address(RVA = "0x2D9F4C0", Offset = "0x2D9DAC0", VA = "0x182D9F4C0")]
 	private static MethodInfo[] GetUserDefinedConversionMethods(Type source, Type destination)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000572")]
-	[Address(RVA = "0x4CBDD20", Offset = "0x4CBDD20", VA = "0x4CBDD20")]
+	[Token(Token = "0x600057C")]
+	[Address(RVA = "0x2D9F680", Offset = "0x2D9DC80", VA = "0x182D9F680")]
 	private static ConversionType GetUserDefinedConversionType(Type source, Type destination)
 	{
 		return default(ConversionType);
 	}
 
-	[Token(Token = "0x6000573")]
-	[Address(RVA = "0x4CBE0C0", Offset = "0x4CBE0C0", VA = "0x4CBE0C0")]
+	[Token(Token = "0x600057D")]
+	[Address(RVA = "0x2D9F9F0", Offset = "0x2D9DFF0", VA = "0x182D9F9F0")]
 	private static bool HasEnumerableToArrayConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000574")]
-	[Address(RVA = "0x4CBE1C0", Offset = "0x4CBE1C0", VA = "0x4CBE1C0")]
+	[Token(Token = "0x600057E")]
+	[Address(RVA = "0x2D9FB00", Offset = "0x2D9E100", VA = "0x182D9FB00")]
 	private static bool HasEnumerableToListConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000575")]
-	[Address(RVA = "0x4CBE320", Offset = "0x4CBE320", VA = "0x4CBE320")]
+	[Token(Token = "0x600057F")]
+	[Address(RVA = "0x2D9FF10", Offset = "0x2D9E510", VA = "0x182D9FF10")]
 	private static bool HasUnityHierarchyConversion(Type source, Type destination)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000576")]
-	[Address(RVA = "0x4CBE4C0", Offset = "0x4CBE4C0", VA = "0x4CBE4C0")]
+	[Token(Token = "0x6000580")]
+	[Address(RVA = "0x2DA0220", Offset = "0x2D9E820", VA = "0x182DA0220")]
 	private static bool IsValidConversion(ConversionType conversionType, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000577")]
-	[Address(RVA = "0x4CBE4E0", Offset = "0x4CBE4E0", VA = "0x4CBE4E0")]
+	[Token(Token = "0x6000581")]
+	[Address(RVA = "0x2D9DE60", Offset = "0x2D9C460", VA = "0x182D9DE60")]
 	public static bool CanConvert(object value, Type type, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000578")]
-	[Address(RVA = "0x4CBE700", Offset = "0x4CBE700", VA = "0x4CBE700")]
+	[Token(Token = "0x6000582")]
+	[Address(RVA = "0x2D9DDD0", Offset = "0x2D9C3D0", VA = "0x182D9DDD0")]
 	public static bool CanConvert(Type source, Type destination, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000579")]
-	[Address(RVA = "0x4CBE8B0", Offset = "0x4CBE8B0", VA = "0x4CBE8B0")]
+	[Token(Token = "0x6000583")]
+	[Address(RVA = "0x2D9DF90", Offset = "0x2D9C590", VA = "0x182D9DF90")]
 	public static object Convert(object value, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057A")]
+	[Token(Token = "0x6000584")]
 	public static T Convert<T>(object value)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600057B")]
-	[Address(RVA = "0x4CBEE80", Offset = "0x4CBEE80", VA = "0x4CBEE80")]
+	[Token(Token = "0x6000585")]
+	[Address(RVA = "0x2DA02E0", Offset = "0x2D9E8E0", VA = "0x182DA02E0")]
 	public static bool TryConvert(object value, Type type, out object result, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600057C")]
+	[Token(Token = "0x6000586")]
 	public static bool TryConvert<T>(object value, out T result, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x4CBEF40", Offset = "0x4CBEF40", VA = "0x4CBEF40")]
+	[Token(Token = "0x6000587")]
+	[Address(RVA = "0x2DA0160", Offset = "0x2D9E760", VA = "0x182DA0160")]
 	public static bool IsConvertibleTo(this Type source, Type destination, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x4CBF020", Offset = "0x4CBF020", VA = "0x4CBF020")]
+	[Token(Token = "0x6000588")]
+	[Address(RVA = "0x2DA00A0", Offset = "0x2D9E6A0", VA = "0x182DA00A0")]
 	public static bool IsConvertibleTo(this object source, Type type, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600057F")]
+	[Token(Token = "0x6000589")]
 	public static bool IsConvertibleTo<T>(this object source, bool guaranteed)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x4CBF100", Offset = "0x4CBF100", VA = "0x4CBF100")]
+	[Token(Token = "0x600058A")]
+	[Address(RVA = "0x2D9DEF0", Offset = "0x2D9C4F0", VA = "0x182D9DEF0")]
 	public static object ConvertTo(this object source, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000581")]
+	[Token(Token = "0x600058B")]
 	public static T ConvertTo<T>(this object source)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x4CBE770", Offset = "0x4CBE770", VA = "0x4CBE770")]
+	[Token(Token = "0x600058C")]
+	[Address(RVA = "0x2D9F360", Offset = "0x2D9D960", VA = "0x182D9F360")]
 	public static ConversionType GetRequiredConversion(Type source, Type destination)
 	{
 		return default(ConversionType);
 	}
 
-	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x4CBF1C0", Offset = "0x4CBF1C0", VA = "0x4CBF1C0")]
+	[Token(Token = "0x600058D")]
+	[Address(RVA = "0x2D9E520", Offset = "0x2D9CB20", VA = "0x182D9E520")]
 	private static ConversionType DetermineConversionType(ConversionQuery query)
 	{
 		return default(ConversionType);
 	}
 
-	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x4CBE550", Offset = "0x4CBE550", VA = "0x4CBE550")]
+	[Token(Token = "0x600058E")]
+	[Address(RVA = "0x2D9F290", Offset = "0x2D9D890", VA = "0x182D9F290")]
 	public static ConversionType GetRequiredConversion(object value, Type type)
 	{
 		return default(ConversionType);
 	}
 
-	[Token(Token = "0x6000585")]
-	[Address(RVA = "0x4CBF530", Offset = "0x4CBF530", VA = "0x4CBF530")]
+	[Token(Token = "0x600058F")]
+	[Address(RVA = "0x2DA0240", Offset = "0x2D9E840", VA = "0x182DA0240")]
 	private static object NumericConversion(object value, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000586")]
-	[Address(RVA = "0x4CBF590", Offset = "0x4CBF590", VA = "0x4CBF590")]
+	[Token(Token = "0x6000590")]
+	[Address(RVA = "0x2DA0650", Offset = "0x2D9EC50", VA = "0x182DA0650")]
 	private static object UserDefinedConversion(ConversionType conversion, object value, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000587")]
-	[Address(RVA = "0x4CBF880", Offset = "0x4CBF880", VA = "0x4CBF880")]
+	[Token(Token = "0x6000591")]
+	[Address(RVA = "0x2D9EB90", Offset = "0x2D9D190", VA = "0x182D9EB90")]
 	private static object EnumerableToArrayConversion(object value, Type arrayType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000588")]
-	[Address(RVA = "0x4CBF9D0", Offset = "0x4CBF9D0", VA = "0x4CBF9D0")]
+	[Token(Token = "0x6000592")]
+	[Address(RVA = "0x2D9ED00", Offset = "0x2D9D300", VA = "0x182D9ED00")]
 	private static object EnumerableToListConversion(object value, Type listType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000589")]
-	[Address(RVA = "0x4CBFC40", Offset = "0x4CBFC40", VA = "0x4CBFC40")]
+	[Token(Token = "0x6000593")]
+	[Address(RVA = "0x2DA03B0", Offset = "0x2D9E9B0", VA = "0x182DA03B0")]
 	private static object UnityHierarchyConversion(object value, Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600058A")]
-	[Address(RVA = "0x4CBE910", Offset = "0x4CBE910", VA = "0x4CBE910")]
+	[Token(Token = "0x6000594")]
+	[Address(RVA = "0x2D9E000", Offset = "0x2D9C600", VA = "0x182D9E000")]
 	private static object Convert(object value, Type type, ConversionType conversionType)
 	{
 		return null;

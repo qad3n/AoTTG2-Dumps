@@ -10,59 +10,59 @@ using Il2CppDummyDll;
 
 namespace Assets.Scripts.Utility;
 
-[Token(Token = "0x2000715")]
+[Token(Token = "0x200089A")]
 public class SetItem<TKey, TValue>
 {
-	[Token(Token = "0x17000D94")]
+	[Token(Token = "0x17000EF5")]
 	public TKey Key
 	{
-		[Token(Token = "0x60045DD")]
+		[Token(Token = "0x6005239")]
 		[CompilerGenerated]
 		get
 		{
 			return (TKey)null;
 		}
-		[Token(Token = "0x60045DE")]
+		[Token(Token = "0x600523A")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000D95")]
+	[Token(Token = "0x17000EF6")]
 	public TValue Value
 	{
-		[Token(Token = "0x60045DF")]
+		[Token(Token = "0x600523B")]
 		[CompilerGenerated]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x60045E0")]
+		[Token(Token = "0x600523C")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60045E1")]
+	[Token(Token = "0x600523D")]
 	public SetItem(TKey key, TValue value)
 	{
 	}
 
-	[Token(Token = "0x60045E2")]
+	[Token(Token = "0x600523E")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60045E3")]
+	[Token(Token = "0x600523F")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60045E4")]
+	[Token(Token = "0x6005240")]
 	public override string ToString()
 	{
 		return null;

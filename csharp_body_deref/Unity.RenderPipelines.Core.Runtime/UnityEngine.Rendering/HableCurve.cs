@@ -10,296 +10,296 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001BD")]
+[Token(Token = "0x20001DA")]
 public class HableCurve
 {
-	[Token(Token = "0x20001BE")]
+	[Token(Token = "0x20001DB")]
 	public class Segment
 	{
-		[Token(Token = "0x40007B5")]
+		[Token(Token = "0x4000938")]
 		[FieldOffset(Offset = "0x10")]
 		public float offsetX;
 
-		[Token(Token = "0x40007B6")]
+		[Token(Token = "0x4000939")]
 		[FieldOffset(Offset = "0x14")]
 		public float offsetY;
 
-		[Token(Token = "0x40007B7")]
+		[Token(Token = "0x400093A")]
 		[FieldOffset(Offset = "0x18")]
 		public float scaleX;
 
-		[Token(Token = "0x40007B8")]
+		[Token(Token = "0x400093B")]
 		[FieldOffset(Offset = "0x1C")]
 		public float scaleY;
 
-		[Token(Token = "0x40007B9")]
+		[Token(Token = "0x400093C")]
 		[FieldOffset(Offset = "0x20")]
 		public float lnA;
 
-		[Token(Token = "0x40007BA")]
+		[Token(Token = "0x400093D")]
 		[FieldOffset(Offset = "0x24")]
 		public float B;
 
-		[Token(Token = "0x6000D09")]
-		[Address(RVA = "0x4C00A20", Offset = "0x4C00A20", VA = "0x4C00A20")]
+		[Token(Token = "0x6000E4D")]
+		[Address(RVA = "0x2B60CE0", Offset = "0x2B5F2E0", VA = "0x182B60CE0")]
 		public float Eval(float x)
 		{
 			return default(float);
 		}
 
-		[Token(Token = "0x6000D0A")]
-		[Address(RVA = "0x4C00930", Offset = "0x4C00930", VA = "0x4C00930")]
+		[Token(Token = "0x6000E4E")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public Segment()
 		{
 		}
 	}
 
-	[Token(Token = "0x20001BF")]
+	[Token(Token = "0x20001DC")]
 	private struct DirectParams
 	{
-		[Token(Token = "0x40007BB")]
+		[Token(Token = "0x400093E")]
 		[FieldOffset(Offset = "0x0")]
 		internal float x0;
 
-		[Token(Token = "0x40007BC")]
+		[Token(Token = "0x400093F")]
 		[FieldOffset(Offset = "0x4")]
 		internal float y0;
 
-		[Token(Token = "0x40007BD")]
+		[Token(Token = "0x4000940")]
 		[FieldOffset(Offset = "0x8")]
 		internal float x1;
 
-		[Token(Token = "0x40007BE")]
+		[Token(Token = "0x4000941")]
 		[FieldOffset(Offset = "0xC")]
 		internal float y1;
 
-		[Token(Token = "0x40007BF")]
+		[Token(Token = "0x4000942")]
 		[FieldOffset(Offset = "0x10")]
 		internal float W;
 
-		[Token(Token = "0x40007C0")]
+		[Token(Token = "0x4000943")]
 		[FieldOffset(Offset = "0x14")]
 		internal float overshootX;
 
-		[Token(Token = "0x40007C1")]
+		[Token(Token = "0x4000944")]
 		[FieldOffset(Offset = "0x18")]
 		internal float overshootY;
 
-		[Token(Token = "0x40007C2")]
+		[Token(Token = "0x4000945")]
 		[FieldOffset(Offset = "0x1C")]
 		internal float gamma;
 	}
 
-	[Token(Token = "0x20001C0")]
+	[Token(Token = "0x20001DD")]
 	public class Uniforms
 	{
-		[Token(Token = "0x40007C3")]
+		[Token(Token = "0x4000946")]
 		[FieldOffset(Offset = "0x10")]
 		private HableCurve parent;
 
-		[Token(Token = "0x17000183")]
+		[Token(Token = "0x170001D0")]
 		public Vector4 curve
 		{
-			[Token(Token = "0x6000D0C")]
-			[Address(RVA = "0x4C01210", Offset = "0x4C01210", VA = "0x4C01210")]
+			[Token(Token = "0x6000E50")]
+			[Address(RVA = "0x2B64250", Offset = "0x2B62850", VA = "0x182B64250")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000184")]
+		[Token(Token = "0x170001D1")]
 		public Vector4 toeSegmentA
 		{
-			[Token(Token = "0x6000D0D")]
-			[Address(RVA = "0x4C01230", Offset = "0x4C01230", VA = "0x4C01230")]
+			[Token(Token = "0x6000E51")]
+			[Address(RVA = "0x2B64470", Offset = "0x2B62A70", VA = "0x182B64470")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000185")]
+		[Token(Token = "0x170001D2")]
 		public Vector4 toeSegmentB
 		{
-			[Token(Token = "0x6000D0E")]
-			[Address(RVA = "0x4C01270", Offset = "0x4C01270", VA = "0x4C01270")]
+			[Token(Token = "0x6000E52")]
+			[Address(RVA = "0x2B644F0", Offset = "0x2B62AF0", VA = "0x182B644F0")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000186")]
+		[Token(Token = "0x170001D3")]
 		public Vector4 midSegmentA
 		{
-			[Token(Token = "0x6000D0F")]
-			[Address(RVA = "0x4C012B0", Offset = "0x4C012B0", VA = "0x4C012B0")]
+			[Token(Token = "0x6000E53")]
+			[Address(RVA = "0x2B64290", Offset = "0x2B62890", VA = "0x182B64290")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000187")]
+		[Token(Token = "0x170001D4")]
 		public Vector4 midSegmentB
 		{
-			[Token(Token = "0x6000D10")]
-			[Address(RVA = "0x4C012F0", Offset = "0x4C012F0", VA = "0x4C012F0")]
+			[Token(Token = "0x6000E54")]
+			[Address(RVA = "0x2B64310", Offset = "0x2B62910", VA = "0x182B64310")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000188")]
+		[Token(Token = "0x170001D5")]
 		public Vector4 shoSegmentA
 		{
-			[Token(Token = "0x6000D11")]
-			[Address(RVA = "0x4C01330", Offset = "0x4C01330", VA = "0x4C01330")]
+			[Token(Token = "0x6000E55")]
+			[Address(RVA = "0x2B64380", Offset = "0x2B62980", VA = "0x182B64380")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x17000189")]
+		[Token(Token = "0x170001D6")]
 		public Vector4 shoSegmentB
 		{
-			[Token(Token = "0x6000D12")]
-			[Address(RVA = "0x4C01370", Offset = "0x4C01370", VA = "0x4C01370")]
+			[Token(Token = "0x6000E56")]
+			[Address(RVA = "0x2B64400", Offset = "0x2B62A00", VA = "0x182B64400")]
 			get
 			{
 				return default(Vector4);
 			}
 		}
 
-		[Token(Token = "0x6000D0B")]
-		[Address(RVA = "0x4C00940", Offset = "0x4C00940", VA = "0x4C00940")]
+		[Token(Token = "0x6000E4F")]
+		[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 		internal Uniforms(HableCurve parent)
 		{
 		}
 	}
 
-	[Token(Token = "0x40007B3")]
+	[Token(Token = "0x4000936")]
 	[FieldOffset(Offset = "0x20")]
 	public readonly Segment[] segments;
 
-	[Token(Token = "0x40007B4")]
+	[Token(Token = "0x4000937")]
 	[FieldOffset(Offset = "0x28")]
 	public readonly Uniforms uniforms;
 
-	[Token(Token = "0x1700017F")]
+	[Token(Token = "0x170001CC")]
 	public float whitePoint
 	{
-		[Token(Token = "0x6000CFA")]
-		[Address(RVA = "0x4C006C0", Offset = "0x4C006C0", VA = "0x4C006C0")]
+		[Token(Token = "0x6000E3E")]
+		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CFB")]
-		[Address(RVA = "0x4C006D0", Offset = "0x4C006D0", VA = "0x4C006D0")]
+		[Token(Token = "0x6000E3F")]
+		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000180")]
+	[Token(Token = "0x170001CD")]
 	public float inverseWhitePoint
 	{
-		[Token(Token = "0x6000CFC")]
-		[Address(RVA = "0x4C006E0", Offset = "0x4C006E0", VA = "0x4C006E0")]
+		[Token(Token = "0x6000E40")]
+		[Address(RVA = "0x15477E0", Offset = "0x1545DE0", VA = "0x1815477E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CFD")]
-		[Address(RVA = "0x4C006F0", Offset = "0x4C006F0", VA = "0x4C006F0")]
+		[Token(Token = "0x6000E41")]
+		[Address(RVA = "0x2B5B5E0", Offset = "0x2B59BE0", VA = "0x182B5B5E0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000181")]
+	[Token(Token = "0x170001CE")]
 	public float x0
 	{
-		[Token(Token = "0x6000CFE")]
-		[Address(RVA = "0x4C00700", Offset = "0x4C00700", VA = "0x4C00700")]
+		[Token(Token = "0x6000E42")]
+		[Address(RVA = "0x584FF0", Offset = "0x5835F0", VA = "0x180584FF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000CFF")]
-		[Address(RVA = "0x4C00710", Offset = "0x4C00710", VA = "0x4C00710")]
+		[Token(Token = "0x6000E43")]
+		[Address(RVA = "0x585060", Offset = "0x583660", VA = "0x180585060")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000182")]
+	[Token(Token = "0x170001CF")]
 	public float x1
 	{
-		[Token(Token = "0x6000D00")]
-		[Address(RVA = "0x4C00720", Offset = "0x4C00720", VA = "0x4C00720")]
+		[Token(Token = "0x6000E44")]
+		[Address(RVA = "0xE8F460", Offset = "0xE8DA60", VA = "0x180E8F460")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000D01")]
-		[Address(RVA = "0x4C00730", Offset = "0x4C00730", VA = "0x4C00730")]
+		[Token(Token = "0x6000E45")]
+		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000D02")]
-	[Address(RVA = "0x4C00740", Offset = "0x4C00740", VA = "0x4C00740")]
+	[Token(Token = "0x6000E46")]
+	[Address(RVA = "0x2B5B4B0", Offset = "0x2B59AB0", VA = "0x182B5B4B0")]
 	public HableCurve()
 	{
 	}
 
-	[Token(Token = "0x6000D03")]
-	[Address(RVA = "0x4C00970", Offset = "0x4C00970", VA = "0x4C00970")]
+	[Token(Token = "0x6000E47")]
+	[Address(RVA = "0x2B5ACF0", Offset = "0x2B592F0", VA = "0x182B5ACF0")]
 	public float Eval(float x)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000D04")]
-	[Address(RVA = "0x4C00A80", Offset = "0x4C00A80", VA = "0x4C00A80")]
+	[Token(Token = "0x6000E48")]
+	[Address(RVA = "0x2B5B270", Offset = "0x2B59870", VA = "0x182B5B270")]
 	public void Init(float toeStrength, float toeLength, float shoulderStrength, float shoulderLength, float shoulderAngle, float gamma)
 	{
 	}
 
-	[Token(Token = "0x6000D05")]
-	[Address(RVA = "0x4C00C70", Offset = "0x4C00C70", VA = "0x4C00C70")]
+	[Token(Token = "0x6000E49")]
+	[Address(RVA = "0x2B5AD90", Offset = "0x2B59390", VA = "0x182B5AD90")]
 	private void InitSegments(DirectParams srcParams)
 	{
 	}
 
-	[Token(Token = "0x6000D06")]
-	[Address(RVA = "0x4C011B0", Offset = "0x4C011B0", VA = "0x4C011B0")]
+	[Token(Token = "0x6000E4A")]
+	[Address(RVA = "0x2B5B440", Offset = "0x2B59A40", VA = "0x182B5B440")]
 	private void SolveAB(out float lnA, out float B, float x0, float y0, float m)
 	{
 	}
 
-	[Token(Token = "0x6000D07")]
-	[Address(RVA = "0x4C01130", Offset = "0x4C01130", VA = "0x4C01130")]
+	[Token(Token = "0x6000E4B")]
+	[Address(RVA = "0x2B5AC40", Offset = "0x2B59240", VA = "0x182B5AC40")]
 	private void AsSlopeIntercept(out float m, out float b, float x0, float x1, float y0, float y1)
 	{
 	}
 
-	[Token(Token = "0x6000D08")]
-	[Address(RVA = "0x4C01170", Offset = "0x4C01170", VA = "0x4C01170")]
+	[Token(Token = "0x6000E4C")]
+	[Address(RVA = "0x2B5ACA0", Offset = "0x2B592A0", VA = "0x182B5ACA0")]
 	private float EvalDerivativeLinearGamma(float m, float b, float g, float x)
 	{
 		return default(float);

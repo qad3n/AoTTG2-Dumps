@@ -99,7 +99,7 @@ internal static class PluginsManager
 	}
 
 	[Token(Token = "0x600038E")]
-	[Address(RVA = "0x237FCE0", Offset = "0x237FCE0", VA = "0x237FCE0")]
+	[Address(RVA = "0x56DD40", Offset = "0x56C340", VA = "0x18056DD40")]
 	internal static void PurgeAll()
 	{
 	}

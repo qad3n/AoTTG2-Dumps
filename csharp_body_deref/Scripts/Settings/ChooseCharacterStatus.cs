@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200008A")]
+[Token(Token = "0x20000A7")]
 public enum ChooseCharacterStatus
 {
-	[Token(Token = "0x4000306")]
+	[Token(Token = "0x4000373")]
 	Choosing,
-	[Token(Token = "0x4000307")]
+	[Token(Token = "0x4000374")]
 	Spectating,
-	[Token(Token = "0x4000308")]
+	[Token(Token = "0x4000375")]
 	Chosen
 }

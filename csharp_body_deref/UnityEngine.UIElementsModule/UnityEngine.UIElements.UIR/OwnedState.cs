@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004D3")]
+[Token(Token = "0x20005E4")]
 internal enum OwnedState : byte
 {
-	[Token(Token = "0x4000FAB")]
+	[Token(Token = "0x40015EC")]
 	Inherited,
-	[Token(Token = "0x4000FAC")]
+	[Token(Token = "0x40015ED")]
 	Owned
 }

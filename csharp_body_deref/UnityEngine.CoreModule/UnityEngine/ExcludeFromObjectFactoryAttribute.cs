@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200016A")]
+[Token(Token = "0x200019E")]
 [UnityEngine.Scripting.UsedByNativeCode]
 [AttributeUsage(AttributeTargets.Class)]
 public class ExcludeFromObjectFactoryAttribute : Attribute
 {
-	[Token(Token = "0x6000A35")]
-	[Address(RVA = "0x4DFB440", Offset = "0x4DFB440", VA = "0x4DFB440")]
+	[Token(Token = "0x6000D7B")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ExcludeFromObjectFactoryAttribute()
 	{
 	}

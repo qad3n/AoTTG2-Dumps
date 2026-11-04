@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties.Internal;
 
-[Token(Token = "0x200006F")]
+[Token(Token = "0x20000A2")]
 internal class ReflectedPropertyBagAttribute : Attribute
 {
-	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x4E9C7D0", Offset = "0x4E9C7D0", VA = "0x4E9C7D0")]
+	[Token(Token = "0x6000274")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ReflectedPropertyBagAttribute()
 	{
 	}

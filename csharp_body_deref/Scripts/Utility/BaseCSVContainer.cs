@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace Utility;
 
-[Token(Token = "0x200072D")]
+[Token(Token = "0x20008A4")]
 public class BaseCSVContainer : BaseCSVObject
 {
-	[Token(Token = "0x17000DB3")]
+	[Token(Token = "0x17000F09")]
 	public override char Delimiter
 	{
-		[Token(Token = "0x6004698")]
-		[Address(RVA = "0x438C830", Offset = "0x438C830", VA = "0x438C830", Slot = "4")]
+		[Token(Token = "0x600529D")]
+		[Address(RVA = "0x2329C60", Offset = "0x2328260", VA = "0x182329C60", Slot = "4")]
 		get
 		{
 			return default(char);
 		}
 	}
 
-	[Token(Token = "0x17000DB4")]
+	[Token(Token = "0x17000F0A")]
 	protected virtual bool UseNewlines
 	{
-		[Token(Token = "0x6004699")]
-		[Address(RVA = "0x438C840", Offset = "0x438C840", VA = "0x438C840", Slot = "18")]
+		[Token(Token = "0x600529E")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "18")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600469A")]
-	[Address(RVA = "0x438C850", Offset = "0x438C850", VA = "0x438C850", Slot = "8")]
+	[Token(Token = "0x600529F")]
+	[Address(RVA = "0x2329BB0", Offset = "0x23281B0", VA = "0x182329BB0", Slot = "8")]
 	public override string Serialize()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600469B")]
-	[Address(RVA = "0x438CAD0", Offset = "0x438CAD0", VA = "0x438CAD0", Slot = "19")]
+	[Token(Token = "0x60052A0")]
+	[Address(RVA = "0x2329AE0", Offset = "0x23280E0", VA = "0x182329AE0", Slot = "19")]
 	public virtual string InsertNewlines(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600469C")]
-	[Address(RVA = "0x438CBA0", Offset = "0x438CBA0", VA = "0x438CBA0")]
+	[Token(Token = "0x60052A1")]
+	[Address(RVA = "0x2329C10", Offset = "0x2328210", VA = "0x182329C10")]
 	public BaseCSVContainer()
 	{
 	}

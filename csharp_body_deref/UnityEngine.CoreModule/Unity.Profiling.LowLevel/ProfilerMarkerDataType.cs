@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling.LowLevel;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x2000033")]
 public enum ProfilerMarkerDataType : byte
 {
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x4000080")]
 	InstanceId = 1,
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x4000081")]
 	Int32 = 2,
-	[Token(Token = "0x4000065")]
+	[Token(Token = "0x4000082")]
 	UInt32 = 3,
-	[Token(Token = "0x4000066")]
+	[Token(Token = "0x4000083")]
 	Int64 = 4,
-	[Token(Token = "0x4000067")]
+	[Token(Token = "0x4000084")]
 	UInt64 = 5,
-	[Token(Token = "0x4000068")]
+	[Token(Token = "0x4000085")]
 	Float = 6,
-	[Token(Token = "0x4000069")]
+	[Token(Token = "0x4000086")]
 	Double = 7,
-	[Token(Token = "0x400006A")]
+	[Token(Token = "0x4000087")]
 	String16 = 9,
-	[Token(Token = "0x400006B")]
+	[Token(Token = "0x4000088")]
 	Blob8 = 11,
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x4000089")]
 	GfxResourceId = 12
 }

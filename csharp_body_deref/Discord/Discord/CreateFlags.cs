@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000022")]
+[Token(Token = "0x2000020")]
 public enum CreateFlags
 {
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x4000042")]
 	Default,
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000043")]
 	NoRequireDiscord
 }

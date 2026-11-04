@@ -15,14 +15,14 @@ namespace ExitGames.Client.Photon.StructWrapping;
 public class StructWrapperPool
 {
 	[Token(Token = "0x60003B8")]
-	[Address(RVA = "0x3E9C510", Offset = "0x3E9C510", VA = "0x3E9C510")]
+	[Address(RVA = "0x1CF06B0", Offset = "0x1CEECB0", VA = "0x181CF06B0")]
 	public static WrappedType GetWrappedType(Type type)
 	{
 		return default(WrappedType);
 	}
 
 	[Token(Token = "0x60003B9")]
-	[Address(RVA = "0x3E9C700", Offset = "0x3E9C700", VA = "0x3E9C700")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public StructWrapperPool()
 	{
 	}

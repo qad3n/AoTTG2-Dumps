@@ -10,39 +10,39 @@ using UnityEngine;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000040")]
+[Token(Token = "0x200003E")]
 public class PhotonTransformViewScaleControl
 {
-	[Token(Token = "0x4000150")]
+	[Token(Token = "0x400014B")]
 	[FieldOffset(Offset = "0x10")]
 	private PhotonTransformViewScaleModel m_Model;
 
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x400014C")]
 	[FieldOffset(Offset = "0x18")]
 	private Vector3 m_NetworkScale;
 
-	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x3F12FB0", Offset = "0x3F12FB0", VA = "0x3F12FB0")]
+	[Token(Token = "0x60001D8")]
+	[Address(RVA = "0x1D66850", Offset = "0x1D64E50", VA = "0x181D66850")]
 	public PhotonTransformViewScaleControl(PhotonTransformViewScaleModel model)
 	{
 	}
 
-	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x3F14ED0", Offset = "0x3F14ED0", VA = "0x3F14ED0")]
+	[Token(Token = "0x60001D9")]
+	[Address(RVA = "0x111AD10", Offset = "0x1119310", VA = "0x18111AD10")]
 	public Vector3 GetNetworkScale()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x3F13E30", Offset = "0x3F13E30", VA = "0x3F13E30")]
+	[Token(Token = "0x60001DA")]
+	[Address(RVA = "0x1D66580", Offset = "0x1D64B80", VA = "0x181D66580")]
 	public Vector3 GetScale(Vector3 currentScale)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x3F144D0", Offset = "0x3F144D0", VA = "0x3F144D0")]
+	[Token(Token = "0x60001DB")]
+	[Address(RVA = "0x1D66740", Offset = "0x1D64D40", VA = "0x181D66740")]
 	public void OnPhotonSerializeView(Vector3 currentScale, PhotonStream stream, PhotonMessageInfo info)
 	{
 	}

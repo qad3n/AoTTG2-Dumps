@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200036E")]
+[Token(Token = "0x200028F")]
 [Flags]
 public enum WatcherChangeTypes
 {
-	[Token(Token = "0x4000FA0")]
+	[Token(Token = "0x4000918")]
 	All = 0xF,
-	[Token(Token = "0x4000FA1")]
+	[Token(Token = "0x4000919")]
 	Changed = 4,
-	[Token(Token = "0x4000FA2")]
+	[Token(Token = "0x400091A")]
 	Created = 1,
-	[Token(Token = "0x4000FA3")]
+	[Token(Token = "0x400091B")]
 	Deleted = 2,
-	[Token(Token = "0x4000FA4")]
+	[Token(Token = "0x400091C")]
 	Renamed = 8
 }

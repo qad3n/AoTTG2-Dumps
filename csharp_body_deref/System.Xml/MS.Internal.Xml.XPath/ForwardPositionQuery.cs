@@ -14,26 +14,26 @@ namespace MS.Internal.Xml.XPath;
 internal class ForwardPositionQuery : CacheOutputQuery
 {
 	[Token(Token = "0x6001B00")]
-	[Address(RVA = "0x477C130", Offset = "0x477C130", VA = "0x477C130")]
+	[Address(RVA = "0x26B7950", Offset = "0x26B5F50", VA = "0x1826B7950")]
 	public ForwardPositionQuery(Query input)
 	{
 	}
 
 	[Token(Token = "0x6001B01")]
-	[Address(RVA = "0x477C140", Offset = "0x477C140", VA = "0x477C140")]
+	[Address(RVA = "0x26B7940", Offset = "0x26B5F40", VA = "0x1826B7940")]
 	protected ForwardPositionQuery(ForwardPositionQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B02")]
-	[Address(RVA = "0x477C150", Offset = "0x477C150", VA = "0x477C150", Slot = "14")]
+	[Address(RVA = "0x26B9930", Offset = "0x26B7F30", VA = "0x1826B9930", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B03")]
-	[Address(RVA = "0x477C2D0", Offset = "0x477C2D0", VA = "0x477C2D0", Slot = "6")]
+	[Address(RVA = "0x26B98D0", Offset = "0x26B7ED0", VA = "0x1826B98D0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

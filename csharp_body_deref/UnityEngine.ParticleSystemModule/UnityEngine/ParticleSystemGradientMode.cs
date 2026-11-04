@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000015")]
 public enum ParticleSystemGradientMode
 {
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000050")]
 	Color,
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000051")]
 	Gradient,
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x4000052")]
 	TwoColors,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x4000053")]
 	TwoGradients,
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000054")]
 	RandomColor
 }

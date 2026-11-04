@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200007E")]
+[Token(Token = "0x200009A")]
 public enum MotionBlurLevel
 {
-	[Token(Token = "0x40002A7")]
+	[Token(Token = "0x400030E")]
 	Off,
-	[Token(Token = "0x40002A8")]
+	[Token(Token = "0x400030F")]
 	Low,
-	[Token(Token = "0x40002A9")]
+	[Token(Token = "0x4000310")]
 	Medium,
-	[Token(Token = "0x40002AA")]
+	[Token(Token = "0x4000311")]
 	High
 }

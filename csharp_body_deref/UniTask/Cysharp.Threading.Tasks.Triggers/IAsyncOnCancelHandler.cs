@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000205")]
+[Token(Token = "0x2000208")]
 public interface IAsyncOnCancelHandler
 {
-	[Token(Token = "0x6000BF8")]
+	[Token(Token = "0x6000C1C")]
 	UniTask<BaseEventData> OnCancelAsync();
 }

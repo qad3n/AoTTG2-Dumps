@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005A4")]
+[Token(Token = "0x2000578")]
 internal enum HebrewNumberParsingState
 {
-	[Token(Token = "0x4001820")]
+	[Token(Token = "0x4001671")]
 	InvalidHebrewNumber,
-	[Token(Token = "0x4001821")]
+	[Token(Token = "0x4001672")]
 	NotHebrewDigit,
-	[Token(Token = "0x4001822")]
+	[Token(Token = "0x4001673")]
 	FoundEndOfHebrewNumber,
-	[Token(Token = "0x4001823")]
+	[Token(Token = "0x4001674")]
 	ContinueParsing
 }

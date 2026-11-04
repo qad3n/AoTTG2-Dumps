@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002BB")]
+[Token(Token = "0x20001C6")]
 [AttributeUsage(AttributeTargets.Class)]
 public sealed class LookupBindingPropertiesAttribute : Attribute
 {
-	[Token(Token = "0x4000DA1")]
+	[Token(Token = "0x40006D8")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly LookupBindingPropertiesAttribute Default;
 
-	[Token(Token = "0x170003D8")]
+	[Token(Token = "0x17000247")]
 	public string DataSource
 	{
-		[Token(Token = "0x6001129")]
-		[Address(RVA = "0x48980C0", Offset = "0x48980C0", VA = "0x48980C0")]
+		[Token(Token = "0x6000B71")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,11 +30,11 @@ public sealed class LookupBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170003D9")]
+	[Token(Token = "0x17000248")]
 	public string DisplayMember
 	{
-		[Token(Token = "0x600112A")]
-		[Address(RVA = "0x48980D0", Offset = "0x48980D0", VA = "0x48980D0")]
+		[Token(Token = "0x6000B72")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,11 +42,11 @@ public sealed class LookupBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170003DA")]
+	[Token(Token = "0x17000249")]
 	public string ValueMember
 	{
-		[Token(Token = "0x600112B")]
-		[Address(RVA = "0x48980E0", Offset = "0x48980E0", VA = "0x48980E0")]
+		[Token(Token = "0x6000B73")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -54,11 +54,11 @@ public sealed class LookupBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x170003DB")]
+	[Token(Token = "0x1700024A")]
 	public string LookupMember
 	{
-		[Token(Token = "0x600112C")]
-		[Address(RVA = "0x48980F0", Offset = "0x48980F0", VA = "0x48980F0")]
+		[Token(Token = "0x6000B74")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
@@ -66,27 +66,27 @@ public sealed class LookupBindingPropertiesAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6001127")]
-	[Address(RVA = "0x4897FF0", Offset = "0x4897FF0", VA = "0x4897FF0")]
+	[Token(Token = "0x6000B6F")]
+	[Address(RVA = "0x28A2160", Offset = "0x28A0760", VA = "0x1828A2160")]
 	public LookupBindingPropertiesAttribute()
 	{
 	}
 
-	[Token(Token = "0x6001128")]
-	[Address(RVA = "0x4898050", Offset = "0x4898050", VA = "0x4898050")]
+	[Token(Token = "0x6000B70")]
+	[Address(RVA = "0x2308D90", Offset = "0x2307390", VA = "0x182308D90")]
 	public LookupBindingPropertiesAttribute(string dataSource, string displayMember, string valueMember, string lookupMember)
 	{
 	}
 
-	[Token(Token = "0x600112D")]
-	[Address(RVA = "0x4898100", Offset = "0x4898100", VA = "0x4898100", Slot = "0")]
+	[Token(Token = "0x6000B75")]
+	[Address(RVA = "0x28A1FF0", Offset = "0x28A05F0", VA = "0x1828A1FF0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600112E")]
-	[Address(RVA = "0x48981B0", Offset = "0x48981B0", VA = "0x48981B0", Slot = "2")]
+	[Token(Token = "0x6000B76")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

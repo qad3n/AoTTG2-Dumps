@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000076")]
 public enum ListViewReorderMode
 {
-	[Token(Token = "0x40000DB")]
+	[Token(Token = "0x40001A9")]
 	Simple,
-	[Token(Token = "0x40000DC")]
+	[Token(Token = "0x40001AA")]
 	Animated
 }

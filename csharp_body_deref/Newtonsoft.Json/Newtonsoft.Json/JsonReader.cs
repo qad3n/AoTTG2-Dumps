@@ -78,13 +78,13 @@ public abstract class JsonReader : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x3D606D0", Offset = "0x3D606D0", VA = "0x3D606D0", Slot = "4")]
+		[Address(RVA = "0x1BE78A0", Offset = "0x1BE5EA0", VA = "0x181BE78A0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600012A")]
-		[Address(RVA = "0x3D609E0", Offset = "0x3D609E0", VA = "0x3D609E0", Slot = "5")]
+		[Address(RVA = "0x1BE7B00", Offset = "0x1BE6100", VA = "0x181BE7B00", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -117,13 +117,13 @@ public abstract class JsonReader : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600012B")]
-		[Address(RVA = "0x3D60A50", Offset = "0x3D60A50", VA = "0x3D60A50", Slot = "4")]
+		[Address(RVA = "0x1BE7B70", Offset = "0x1BE6170", VA = "0x181BE7B70", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600012C")]
-		[Address(RVA = "0x3D60EE0", Offset = "0x3D60EE0", VA = "0x3D60EE0", Slot = "5")]
+		[Address(RVA = "0x1BE7FD0", Offset = "0x1BE65D0", VA = "0x181BE7FD0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -160,13 +160,13 @@ public abstract class JsonReader : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600012D")]
-		[Address(RVA = "0x3D60F50", Offset = "0x3D60F50", VA = "0x3D60F50", Slot = "4")]
+		[Address(RVA = "0x1BE8040", Offset = "0x1BE6640", VA = "0x181BE8040", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x3D61390", Offset = "0x3D61390", VA = "0x3D61390", Slot = "5")]
+		[Address(RVA = "0x1BE8370", Offset = "0x1BE6970", VA = "0x181BE8370", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -199,13 +199,13 @@ public abstract class JsonReader : IDisposable
 		private ConfiguredTaskAwaitable<bool>.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x600012F")]
-		[Address(RVA = "0x3D61400", Offset = "0x3D61400", VA = "0x3D61400", Slot = "4")]
+		[Address(RVA = "0x1BE83E0", Offset = "0x1BE69E0", VA = "0x181BE83E0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3D61740", Offset = "0x3D61740", VA = "0x3D61740", Slot = "5")]
+		[Address(RVA = "0x1BE85F0", Offset = "0x1BE6BF0", VA = "0x181BE85F0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -242,13 +242,13 @@ public abstract class JsonReader : IDisposable
 		private int _003Cdepth_003E5__2;
 
 		[Token(Token = "0x6000131")]
-		[Address(RVA = "0x3D617A0", Offset = "0x3D617A0", VA = "0x3D617A0", Slot = "4")]
+		[Address(RVA = "0x1BE8650", Offset = "0x1BE6C50", VA = "0x181BE8650", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x6000132")]
-		[Address(RVA = "0x3D61C80", Offset = "0x3D61C80", VA = "0x3D61C80", Slot = "5")]
+		[Address(RVA = "0x1BE89E0", Offset = "0x1BE6FE0", VA = "0x181BE89E0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -311,7 +311,7 @@ public abstract class JsonReader : IDisposable
 	protected State CurrentState
 	{
 		[Token(Token = "0x60000E5")]
-		[Address(RVA = "0x3D5C010", Offset = "0x3D5C010", VA = "0x3D5C010")]
+		[Address(RVA = "0xBDB280", Offset = "0xBD9880", VA = "0x180BDB280")]
 		get
 		{
 			return default(State);
@@ -322,14 +322,14 @@ public abstract class JsonReader : IDisposable
 	public bool CloseInput
 	{
 		[Token(Token = "0x60000E6")]
-		[Address(RVA = "0x3D5C020", Offset = "0x3D5C020", VA = "0x3D5C020")]
+		[Address(RVA = "0xABD390", Offset = "0xABB990", VA = "0x180ABD390")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x3D5C030", Offset = "0x3D5C030", VA = "0x3D5C030")]
+		[Address(RVA = "0xABD3A0", Offset = "0xABB9A0", VA = "0x180ABD3A0")]
 		[CompilerGenerated]
 		set
 		{
@@ -340,14 +340,14 @@ public abstract class JsonReader : IDisposable
 	public bool SupportMultipleContent
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x3D5C040", Offset = "0x3D5C040", VA = "0x3D5C040")]
+		[Address(RVA = "0x1BD3E60", Offset = "0x1BD2460", VA = "0x181BD3E60")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60000E9")]
-		[Address(RVA = "0x3D5C050", Offset = "0x3D5C050", VA = "0x3D5C050")]
+		[Address(RVA = "0x1BD40B0", Offset = "0x1BD26B0", VA = "0x181BD40B0")]
 		[CompilerGenerated]
 		set
 		{
@@ -358,13 +358,13 @@ public abstract class JsonReader : IDisposable
 	public virtual char QuoteChar
 	{
 		[Token(Token = "0x60000EA")]
-		[Address(RVA = "0x3D5C060", Offset = "0x3D5C060", VA = "0x3D5C060", Slot = "14")]
+		[Address(RVA = "0x1BD3E50", Offset = "0x1BD2450", VA = "0x181BD3E50", Slot = "14")]
 		get
 		{
 			return default(char);
 		}
 		[Token(Token = "0x60000EB")]
-		[Address(RVA = "0x3D5C070", Offset = "0x3D5C070", VA = "0x3D5C070", Slot = "15")]
+		[Address(RVA = "0x1BD40A0", Offset = "0x1BD26A0", VA = "0x181BD40A0", Slot = "15")]
 		protected internal set
 		{
 		}
@@ -374,13 +374,13 @@ public abstract class JsonReader : IDisposable
 	public DateTimeZoneHandling DateTimeZoneHandling
 	{
 		[Token(Token = "0x60000EC")]
-		[Address(RVA = "0x3D5C080", Offset = "0x3D5C080", VA = "0x3D5C080")]
+		[Address(RVA = "0xB3DFC0", Offset = "0xB3C5C0", VA = "0x180B3DFC0")]
 		get
 		{
 			return default(DateTimeZoneHandling);
 		}
 		[Token(Token = "0x60000ED")]
-		[Address(RVA = "0x3D5C090", Offset = "0x3D5C090", VA = "0x3D5C090")]
+		[Address(RVA = "0x1BD3F00", Offset = "0x1BD2500", VA = "0x181BD3F00")]
 		set
 		{
 		}
@@ -390,13 +390,13 @@ public abstract class JsonReader : IDisposable
 	public DateParseHandling DateParseHandling
 	{
 		[Token(Token = "0x60000EE")]
-		[Address(RVA = "0x3D5C0F0", Offset = "0x3D5C0F0", VA = "0x3D5C0F0")]
+		[Address(RVA = "0x1BD3CB0", Offset = "0x1BD22B0", VA = "0x181BD3CB0")]
 		get
 		{
 			return default(DateParseHandling);
 		}
 		[Token(Token = "0x60000EF")]
-		[Address(RVA = "0x3D5C100", Offset = "0x3D5C100", VA = "0x3D5C100")]
+		[Address(RVA = "0x1BD3E90", Offset = "0x1BD2490", VA = "0x181BD3E90")]
 		set
 		{
 		}
@@ -406,13 +406,13 @@ public abstract class JsonReader : IDisposable
 	public FloatParseHandling FloatParseHandling
 	{
 		[Token(Token = "0x60000F0")]
-		[Address(RVA = "0x3D5C160", Offset = "0x3D5C160", VA = "0x3D5C160")]
+		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
 		get
 		{
 			return default(FloatParseHandling);
 		}
 		[Token(Token = "0x60000F1")]
-		[Address(RVA = "0x3D5C170", Offset = "0x3D5C170", VA = "0x3D5C170")]
+		[Address(RVA = "0x1BD3F70", Offset = "0x1BD2570", VA = "0x181BD3F70")]
 		set
 		{
 		}
@@ -422,13 +422,13 @@ public abstract class JsonReader : IDisposable
 	public string? DateFormatString
 	{
 		[Token(Token = "0x60000F2")]
-		[Address(RVA = "0x3D5C1D0", Offset = "0x3D5C1D0", VA = "0x3D5C1D0")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000F3")]
-		[Address(RVA = "0x3D5C1E0", Offset = "0x3D5C1E0", VA = "0x3D5C1E0")]
+		[Address(RVA = "0x152F2F0", Offset = "0x152D8F0", VA = "0x18152F2F0")]
 		set
 		{
 		}
@@ -438,13 +438,13 @@ public abstract class JsonReader : IDisposable
 	public int? MaxDepth
 	{
 		[Token(Token = "0x60000F4")]
-		[Address(RVA = "0x3D5C1F0", Offset = "0x3D5C1F0", VA = "0x3D5C1F0")]
+		[Address(RVA = "0x1BD3D30", Offset = "0x1BD2330", VA = "0x181BD3D30")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000F5")]
-		[Address(RVA = "0x3D5C200", Offset = "0x3D5C200", VA = "0x3D5C200")]
+		[Address(RVA = "0x1BD3FE0", Offset = "0x1BD25E0", VA = "0x181BD3FE0")]
 		set
 		{
 		}
@@ -454,7 +454,7 @@ public abstract class JsonReader : IDisposable
 	public virtual JsonToken TokenType
 	{
 		[Token(Token = "0x60000F6")]
-		[Address(RVA = "0x3D5C2B0", Offset = "0x3D5C2B0", VA = "0x3D5C2B0", Slot = "16")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860", Slot = "16")]
 		get
 		{
 			return default(JsonToken);
@@ -465,7 +465,7 @@ public abstract class JsonReader : IDisposable
 	public virtual object? Value
 	{
 		[Token(Token = "0x60000F7")]
-		[Address(RVA = "0x3D5C2C0", Offset = "0x3D5C2C0", VA = "0x3D5C2C0", Slot = "17")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "17")]
 		get
 		{
 			return null;
@@ -476,7 +476,7 @@ public abstract class JsonReader : IDisposable
 	public virtual Type? ValueType
 	{
 		[Token(Token = "0x60000F8")]
-		[Address(RVA = "0x3D5C2D0", Offset = "0x3D5C2D0", VA = "0x3D5C2D0", Slot = "18")]
+		[Address(RVA = "0x1BD3E70", Offset = "0x1BD2470", VA = "0x181BD3E70", Slot = "18")]
 		get
 		{
 			return null;
@@ -487,7 +487,7 @@ public abstract class JsonReader : IDisposable
 	public virtual int Depth
 	{
 		[Token(Token = "0x60000F9")]
-		[Address(RVA = "0x3D5C2F0", Offset = "0x3D5C2F0", VA = "0x3D5C2F0", Slot = "19")]
+		[Address(RVA = "0x1BD3CC0", Offset = "0x1BD22C0", VA = "0x181BD3CC0", Slot = "19")]
 		get
 		{
 			return default(int);
@@ -498,7 +498,7 @@ public abstract class JsonReader : IDisposable
 	public virtual string Path
 	{
 		[Token(Token = "0x60000FA")]
-		[Address(RVA = "0x3D5C360", Offset = "0x3D5C360", VA = "0x3D5C360", Slot = "20")]
+		[Address(RVA = "0x1BD3D40", Offset = "0x1BD2340", VA = "0x181BD3D40", Slot = "20")]
 		get
 		{
 			return null;
@@ -509,27 +509,27 @@ public abstract class JsonReader : IDisposable
 	public CultureInfo Culture
 	{
 		[Token(Token = "0x60000FB")]
-		[Address(RVA = "0x3D5C480", Offset = "0x3D5C480", VA = "0x3D5C480")]
+		[Address(RVA = "0x1BD3C50", Offset = "0x1BD2250", VA = "0x181BD3C50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60000FC")]
-		[Address(RVA = "0x3D5C4E0", Offset = "0x3D5C4E0", VA = "0x3D5C4E0")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x3D5B300", Offset = "0x3D5B300", VA = "0x3D5B300", Slot = "5")]
+	[Address(RVA = "0x1BD1E30", Offset = "0x1BD0430", VA = "0x181BD1E30", Slot = "5")]
 	public virtual Task<bool> ReadAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x3D5B3A0", Offset = "0x3D5B3A0", VA = "0x3D5B3A0")]
+	[Address(RVA = "0x1BD36C0", Offset = "0x1BD1CC0", VA = "0x181BD36C0")]
 	[AsyncStateMachine(typeof(_003CSkipAsync_003Ed__1))]
 	public Task SkipAsync([Optional] CancellationToken cancellationToken)
 	{
@@ -537,7 +537,7 @@ public abstract class JsonReader : IDisposable
 	}
 
 	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x3D5B4A0", Offset = "0x3D5B4A0", VA = "0x3D5B4A0")]
+	[Address(RVA = "0x1BD31F0", Offset = "0x1BD17F0", VA = "0x181BD31F0")]
 	[AsyncStateMachine(typeof(_003CReaderReadAndAssertAsync_003Ed__2))]
 	internal Task ReaderReadAndAssertAsync(CancellationToken cancellationToken)
 	{
@@ -545,21 +545,21 @@ public abstract class JsonReader : IDisposable
 	}
 
 	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x3D5B5A0", Offset = "0x3D5B5A0", VA = "0x3D5B5A0", Slot = "6")]
+	[Address(RVA = "0x1BCFAE0", Offset = "0x1BCE0E0", VA = "0x181BCFAE0", Slot = "6")]
 	public virtual Task<bool?> ReadAsBooleanAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x3D5B670", Offset = "0x3D5B670", VA = "0x3D5B670", Slot = "7")]
+	[Address(RVA = "0x1BCFF50", Offset = "0x1BCE550", VA = "0x181BCFF50", Slot = "7")]
 	public virtual Task<byte[]?>? ReadAsBytesAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DB")]
-	[Address(RVA = "0x3D5B740", Offset = "0x3D5B740", VA = "0x3D5B740")]
+	[Address(RVA = "0x1BCF8C0", Offset = "0x1BCDEC0", VA = "0x181BCF8C0")]
 	[AsyncStateMachine(typeof(_003CReadArrayIntoByteArrayAsync_003Ed__5))]
 	internal Task<byte[]?>? ReadArrayIntoByteArrayAsync(CancellationToken cancellationToken)
 	{
@@ -567,49 +567,49 @@ public abstract class JsonReader : IDisposable
 	}
 
 	[Token(Token = "0x60000DC")]
-	[Address(RVA = "0x3D5B860", Offset = "0x3D5B860", VA = "0x3D5B860", Slot = "8")]
+	[Address(RVA = "0x1BD0490", Offset = "0x1BCEA90", VA = "0x181BD0490", Slot = "8")]
 	public virtual Task<DateTime?> ReadAsDateTimeAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DD")]
-	[Address(RVA = "0x3D5B930", Offset = "0x3D5B930", VA = "0x3D5B930", Slot = "9")]
+	[Address(RVA = "0x1BD0570", Offset = "0x1BCEB70", VA = "0x181BD0570", Slot = "9")]
 	public virtual Task<DateTimeOffset?> ReadAsDateTimeOffsetAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DE")]
-	[Address(RVA = "0x3D5BA30", Offset = "0x3D5BA30", VA = "0x3D5BA30", Slot = "10")]
+	[Address(RVA = "0x1BD0C50", Offset = "0x1BCF250", VA = "0x181BD0C50", Slot = "10")]
 	public virtual Task<decimal?> ReadAsDecimalAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000DF")]
-	[Address(RVA = "0x3D5BB30", Offset = "0x3D5BB30", VA = "0x3D5BB30", Slot = "11")]
+	[Address(RVA = "0x1BD11D0", Offset = "0x1BCF7D0", VA = "0x181BD11D0", Slot = "11")]
 	public virtual Task<double?> ReadAsDoubleAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E0")]
-	[Address(RVA = "0x3D5BBB0", Offset = "0x3D5BBB0", VA = "0x3D5BBB0", Slot = "12")]
+	[Address(RVA = "0x1BD15D0", Offset = "0x1BCFBD0", VA = "0x181BD15D0", Slot = "12")]
 	public virtual Task<int?> ReadAsInt32Async([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x3D5BC80", Offset = "0x3D5BC80", VA = "0x3D5BC80", Slot = "13")]
+	[Address(RVA = "0x1BD1A90", Offset = "0x1BD0090", VA = "0x181BD1A90", Slot = "13")]
 	public virtual Task<string?>? ReadAsStringAsync([Optional] CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E2")]
-	[Address(RVA = "0x3D5BD50", Offset = "0x3D5BD50", VA = "0x3D5BD50")]
+	[Address(RVA = "0x1BCF500", Offset = "0x1BCDB00", VA = "0x181BCF500")]
 	[AsyncStateMachine(typeof(_003CReadAndMoveToContentAsync_003Ed__12))]
 	internal Task<bool> ReadAndMoveToContentAsync(CancellationToken cancellationToken)
 	{
@@ -617,14 +617,14 @@ public abstract class JsonReader : IDisposable
 	}
 
 	[Token(Token = "0x60000E3")]
-	[Address(RVA = "0x3D5BE70", Offset = "0x3D5BE70", VA = "0x3D5BE70")]
+	[Address(RVA = "0x1BCED10", Offset = "0x1BCD310", VA = "0x181BCED10")]
 	internal Task<bool> MoveToContentAsync(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E4")]
-	[Address(RVA = "0x3D5BEF0", Offset = "0x3D5BEF0", VA = "0x3D5BEF0")]
+	[Address(RVA = "0x1BCEEA0", Offset = "0x1BCD4A0", VA = "0x181BCEEA0")]
 	[AsyncStateMachine(typeof(_003CMoveToContentFromNonContentAsync_003Ed__14))]
 	private Task<bool> MoveToContentFromNonContentAsync(CancellationToken cancellationToken)
 	{
@@ -632,33 +632,33 @@ public abstract class JsonReader : IDisposable
 	}
 
 	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3D5C4F0", Offset = "0x3D5C4F0", VA = "0x3D5C4F0")]
+	[Address(RVA = "0x1BCEB70", Offset = "0x1BCD170", VA = "0x181BCEB70")]
 	internal JsonPosition GetPosition(int depth)
 	{
 		return default(JsonPosition);
 	}
 
 	[Token(Token = "0x60000FE")]
-	[Address(RVA = "0x3D5C580", Offset = "0x3D5C580", VA = "0x3D5C580")]
+	[Address(RVA = "0x1BD3BD0", Offset = "0x1BD21D0", VA = "0x181BD3BD0")]
 	protected JsonReader()
 	{
 	}
 
 	[Token(Token = "0x60000FF")]
-	[Address(RVA = "0x3D5C600", Offset = "0x3D5C600", VA = "0x3D5C600")]
+	[Address(RVA = "0x1BCF150", Offset = "0x1BCD750", VA = "0x181BCF150")]
 	private void Push(JsonContainerType value)
 	{
 	}
 
 	[Token(Token = "0x6000100")]
-	[Address(RVA = "0x3D5CA00", Offset = "0x3D5CA00", VA = "0x3D5CA00")]
+	[Address(RVA = "0x1BCF020", Offset = "0x1BCD620", VA = "0x181BCF020")]
 	private JsonContainerType Pop()
 	{
 		return default(JsonContainerType);
 	}
 
 	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3D5CB20", Offset = "0x3D5CB20", VA = "0x3D5CB20")]
+	[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 	private JsonContainerType Peek()
 	{
 		return default(JsonContainerType);
@@ -668,250 +668,250 @@ public abstract class JsonReader : IDisposable
 	public abstract bool Read();
 
 	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x3D5CB30", Offset = "0x3D5CB30", VA = "0x3D5CB30", Slot = "22")]
+	[Address(RVA = "0x1BD1690", Offset = "0x1BCFC90", VA = "0x181BD1690", Slot = "22")]
 	public virtual int? ReadAsInt32()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3D5D140", Offset = "0x3D5D140", VA = "0x3D5D140")]
+	[Address(RVA = "0x1BD2DB0", Offset = "0x1BD13B0", VA = "0x181BD2DB0")]
 	internal int? ReadInt32String(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000105")]
-	[Address(RVA = "0x3D5D320", Offset = "0x3D5D320", VA = "0x3D5D320", Slot = "23")]
+	[Address(RVA = "0x1BD1B50", Offset = "0x1BD0150", VA = "0x181BD1B50", Slot = "23")]
 	public virtual string? ReadAsString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000106")]
-	[Address(RVA = "0x3D5D640", Offset = "0x3D5D640", VA = "0x3D5D640", Slot = "24")]
+	[Address(RVA = "0x1BD0010", Offset = "0x1BCE610", VA = "0x181BD0010", Slot = "24")]
 	public virtual byte[]? ReadAsBytes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000107")]
-	[Address(RVA = "0x3D5DDA0", Offset = "0x3D5DDA0", VA = "0x3D5DDA0")]
+	[Address(RVA = "0x1BCF9E0", Offset = "0x1BCDFE0", VA = "0x181BCF9E0")]
 	internal byte[] ReadArrayIntoByteArray()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000108")]
-	[Address(RVA = "0x3D5DEC0", Offset = "0x3D5DEC0", VA = "0x3D5DEC0")]
+	[Address(RVA = "0x1BCF680", Offset = "0x1BCDC80", VA = "0x181BCF680")]
 	private bool ReadArrayElementIntoByteArrayReportDone(List<byte> buffer)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000109")]
-	[Address(RVA = "0x3D5E0B0", Offset = "0x3D5E0B0", VA = "0x3D5E0B0", Slot = "25")]
+	[Address(RVA = "0x1BD1260", Offset = "0x1BCF860", VA = "0x181BD1260", Slot = "25")]
 	public virtual double? ReadAsDouble()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010A")]
-	[Address(RVA = "0x3D5E3D0", Offset = "0x3D5E3D0", VA = "0x3D5E3D0")]
+	[Address(RVA = "0x1BD2900", Offset = "0x1BD0F00", VA = "0x181BD2900")]
 	internal double? ReadDoubleString(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010B")]
-	[Address(RVA = "0x3D5E5C0", Offset = "0x3D5E5C0", VA = "0x3D5E5C0", Slot = "26")]
+	[Address(RVA = "0x1BCFBA0", Offset = "0x1BCE1A0", VA = "0x181BCFBA0", Slot = "26")]
 	public virtual bool? ReadAsBoolean()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010C")]
-	[Address(RVA = "0x3D5E8F0", Offset = "0x3D5E8F0", VA = "0x3D5E8F0")]
+	[Address(RVA = "0x1BD1EE0", Offset = "0x1BD04E0", VA = "0x181BD1EE0")]
 	internal bool? ReadBooleanString(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x3D5EA90", Offset = "0x3D5EA90", VA = "0x3D5EA90", Slot = "27")]
+	[Address(RVA = "0x1BD0D40", Offset = "0x1BCF340", VA = "0x181BD0D40", Slot = "27")]
 	public virtual decimal? ReadAsDecimal()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x3D5EEA0", Offset = "0x3D5EEA0", VA = "0x3D5EEA0")]
+	[Address(RVA = "0x1BD2620", Offset = "0x1BD0C20", VA = "0x181BD2620")]
 	internal decimal? ReadDecimalString(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3D5F160", Offset = "0x3D5F160", VA = "0x3D5F160", Slot = "28")]
+	[Address(RVA = "0x1BD0970", Offset = "0x1BCEF70", VA = "0x181BD0970", Slot = "28")]
 	public virtual DateTime? ReadAsDateTime()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3D5F440", Offset = "0x3D5F440", VA = "0x3D5F440")]
+	[Address(RVA = "0x1BD2370", Offset = "0x1BD0970", VA = "0x181BD2370")]
 	internal DateTime? ReadDateTimeString(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3D5F7A0", Offset = "0x3D5F7A0", VA = "0x3D5F7A0", Slot = "29")]
+	[Address(RVA = "0x1BD0660", Offset = "0x1BCEC60", VA = "0x181BD0660", Slot = "29")]
 	public virtual DateTimeOffset? ReadAsDateTimeOffset()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3D5FA60", Offset = "0x3D5FA60", VA = "0x3D5FA60")]
+	[Address(RVA = "0x1BD2070", Offset = "0x1BD0670", VA = "0x181BD2070")]
 	internal DateTimeOffset? ReadDateTimeOffsetString(string? s)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000113")]
-	[Address(RVA = "0x3D5DD60", Offset = "0x3D5DD60", VA = "0x3D5DD60")]
+	[Address(RVA = "0x1BD32E0", Offset = "0x1BD18E0", VA = "0x181BD32E0")]
 	internal void ReaderReadAndAssert()
 	{
 	}
 
 	[Token(Token = "0x6000114")]
-	[Address(RVA = "0x3D5FD80", Offset = "0x3D5FD80", VA = "0x3D5FD80")]
+	[Address(RVA = "0x1BCEA90", Offset = "0x1BCD090", VA = "0x181BCEA90")]
 	internal JsonReaderException CreateUnexpectedEndException()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000115")]
-	[Address(RVA = "0x3D5DAF0", Offset = "0x3D5DAF0", VA = "0x3D5DAF0")]
+	[Address(RVA = "0x1BD2F70", Offset = "0x1BD1570", VA = "0x181BD2F70")]
 	internal void ReadIntoWrappedTypeObject()
 	{
 	}
 
 	[Token(Token = "0x6000116")]
-	[Address(RVA = "0x3D5FE30", Offset = "0x3D5FE30", VA = "0x3D5FE30")]
+	[Address(RVA = "0x1BD37C0", Offset = "0x1BD1DC0", VA = "0x181BD37C0")]
 	public void Skip()
 	{
 	}
 
 	[Token(Token = "0x6000117")]
-	[Address(RVA = "0x3D5DEB0", Offset = "0x3D5DEB0", VA = "0x3D5DEB0")]
+	[Address(RVA = "0x1BD36A0", Offset = "0x1BD1CA0", VA = "0x181BD36A0")]
 	protected void SetToken(JsonToken newToken)
 	{
 	}
 
 	[Token(Token = "0x6000118")]
-	[Address(RVA = "0x3D5FEE0", Offset = "0x3D5FEE0", VA = "0x3D5FEE0")]
+	[Address(RVA = "0x1BD3680", Offset = "0x1BD1C80", VA = "0x181BD3680")]
 	protected void SetToken(JsonToken newToken, object? value)
 	{
 	}
 
 	[Token(Token = "0x6000119")]
-	[Address(RVA = "0x3D5D000", Offset = "0x3D5D000", VA = "0x3D5D000")]
+	[Address(RVA = "0x1BD3490", Offset = "0x1BD1A90", VA = "0x181BD3490")]
 	protected void SetToken(JsonToken newToken, object? value, bool updateIndex)
 	{
 	}
 
 	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x3D5FFF0", Offset = "0x3D5FFF0", VA = "0x3D5FFF0")]
+	[Address(RVA = "0x1BD3350", Offset = "0x1BD1950", VA = "0x181BD3350")]
 	internal void SetPostValueState(bool updateIndex)
 	{
 	}
 
 	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x3D5C980", Offset = "0x3D5C980", VA = "0x3D5C980")]
+	[Address(RVA = "0x1BD38D0", Offset = "0x1BD1ED0", VA = "0x181BD38D0")]
 	private void UpdateScopeWithFinishedValue()
 	{
 	}
 
 	[Token(Token = "0x600011C")]
-	[Address(RVA = "0x3D5FEF0", Offset = "0x3D5FEF0", VA = "0x3D5FEF0")]
+	[Address(RVA = "0x1BD38E0", Offset = "0x1BD1EE0", VA = "0x181BD38E0")]
 	private void ValidateEnd(JsonToken endToken)
 	{
 	}
 
 	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x3D60100", Offset = "0x3D60100", VA = "0x3D60100")]
+	[Address(RVA = "0x1BD3380", Offset = "0x1BD1980", VA = "0x181BD3380")]
 	protected void SetStateBasedOnCurrent()
 	{
 	}
 
 	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x3D60030", Offset = "0x3D60030", VA = "0x3D60030")]
+	[Address(RVA = "0x1BD3330", Offset = "0x1BD1930", VA = "0x181BD3330")]
 	private void SetFinished()
 	{
 	}
 
 	[Token(Token = "0x600011F")]
-	[Address(RVA = "0x3D60050", Offset = "0x3D60050", VA = "0x3D60050")]
+	[Address(RVA = "0x1BCEC20", Offset = "0x1BCD220", VA = "0x181BCEC20")]
 	private JsonContainerType GetTypeForCloseToken(JsonToken token)
 	{
 		return default(JsonContainerType);
 	}
 
 	[Token(Token = "0x6000120")]
-	[Address(RVA = "0x3D601E0", Offset = "0x3D601E0", VA = "0x3D601E0", Slot = "4")]
+	[Address(RVA = "0x1BD3870", Offset = "0x1BD1E70", VA = "0x181BD3870", Slot = "4")]
 	private void System_002EIDisposable_002EDispose()
 	{
 	}
 
 	[Token(Token = "0x6000121")]
-	[Address(RVA = "0x3D60250", Offset = "0x3D60250", VA = "0x3D60250", Slot = "30")]
+	[Address(RVA = "0x1BCEAD0", Offset = "0x1BCD0D0", VA = "0x181BCEAD0", Slot = "30")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
 	[Token(Token = "0x6000122")]
-	[Address(RVA = "0x3D60270", Offset = "0x3D60270", VA = "0x3D60270", Slot = "31")]
+	[Address(RVA = "0x1BCEA70", Offset = "0x1BCD070", VA = "0x181BCEA70", Slot = "31")]
 	public virtual void Close()
 	{
 	}
 
 	[Token(Token = "0x6000123")]
-	[Address(RVA = "0x3D602A0", Offset = "0x3D602A0", VA = "0x3D602A0")]
+	[Address(RVA = "0x1BCF4A0", Offset = "0x1BCDAA0", VA = "0x181BCF4A0")]
 	internal void ReadAndAssert()
 	{
 	}
 
 	[Token(Token = "0x6000124")]
-	[Address(RVA = "0x3D602F0", Offset = "0x3D602F0", VA = "0x3D602F0")]
+	[Address(RVA = "0x1BD2AC0", Offset = "0x1BD10C0", VA = "0x181BD2AC0")]
 	internal void ReadForTypeAndAssert(JsonContract? contract, bool hasConverter)
 	{
 	}
 
 	[Token(Token = "0x6000125")]
-	[Address(RVA = "0x3D60330", Offset = "0x3D60330", VA = "0x3D60330")]
+	[Address(RVA = "0x1BD2B10", Offset = "0x1BD1110", VA = "0x181BD2B10")]
 	internal bool ReadForType(JsonContract? contract, bool hasConverter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000126")]
-	[Address(RVA = "0x3D60610", Offset = "0x3D60610", VA = "0x3D60610")]
+	[Address(RVA = "0x1BCF620", Offset = "0x1BCDC20", VA = "0x181BCF620")]
 	internal bool ReadAndMoveToContent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000127")]
-	[Address(RVA = "0x3D60670", Offset = "0x3D60670", VA = "0x3D60670")]
+	[Address(RVA = "0x1BCEFC0", Offset = "0x1BCD5C0", VA = "0x181BCEFC0")]
 	internal bool MoveToContent()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000128")]
-	[Address(RVA = "0x3D5CF10", Offset = "0x3D5CF10", VA = "0x3D5CF10")]
+	[Address(RVA = "0x1BCEB00", Offset = "0x1BCD100", VA = "0x181BCEB00")]
 	private JsonToken GetContentToken()
 	{
 		return default(JsonToken);

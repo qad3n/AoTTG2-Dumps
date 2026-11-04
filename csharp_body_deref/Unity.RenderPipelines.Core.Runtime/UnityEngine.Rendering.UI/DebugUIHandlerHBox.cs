@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000221")]
+[Token(Token = "0x20002E0")]
 public class DebugUIHandlerHBox : DebugUIHandlerWidget
 {
-	[Token(Token = "0x4000886")]
+	[Token(Token = "0x4000D58")]
 	[FieldOffset(Offset = "0x60")]
 	private DebugUIHandlerContainer m_Container;
 
-	[Token(Token = "0x6000EB8")]
-	[Address(RVA = "0x4C14020", Offset = "0x4C14020", VA = "0x4C14020", Slot = "5")]
+	[Token(Token = "0x6001450")]
+	[Address(RVA = "0x2BADA10", Offset = "0x2BAC010", VA = "0x182BADA10", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000EB9")]
-	[Address(RVA = "0x4C14090", Offset = "0x4C14090", VA = "0x4C14090", Slot = "6")]
+	[Token(Token = "0x6001451")]
+	[Address(RVA = "0x2BAD950", Offset = "0x2BABF50", VA = "0x182BAD950", Slot = "6")]
 	public override bool OnSelection(bool fromNext, DebugUIHandlerWidget previous)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000EBA")]
-	[Address(RVA = "0x4C14130", Offset = "0x4C14130", VA = "0x4C14130", Slot = "12")]
+	[Token(Token = "0x6001452")]
+	[Address(RVA = "0x2BAD890", Offset = "0x2BABE90", VA = "0x182BAD890", Slot = "12")]
 	public override DebugUIHandlerWidget Next()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000EBB")]
-	[Address(RVA = "0x4C141E0", Offset = "0x4C141E0", VA = "0x4C141E0")]
+	[Token(Token = "0x6001453")]
+	[Address(RVA = "0x2BA8B70", Offset = "0x2BA7170", VA = "0x182BA8B70")]
 	public DebugUIHandlerHBox()
 	{
 	}

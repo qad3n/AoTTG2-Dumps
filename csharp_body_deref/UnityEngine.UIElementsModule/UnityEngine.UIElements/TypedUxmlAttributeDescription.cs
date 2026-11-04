@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200041E")]
+[Token(Token = "0x20004E7")]
 public abstract class TypedUxmlAttributeDescription<T> : UxmlAttributeDescription
 {
-	[Token(Token = "0x17000718")]
+	[Token(Token = "0x170009E7")]
 	public T defaultValue
 	{
-		[Token(Token = "0x6001A8F")]
+		[Token(Token = "0x600265A")]
 		[CompilerGenerated]
 		get
 		{
 			return (T)null;
 		}
-		[Token(Token = "0x6001A90")]
+		[Token(Token = "0x600265B")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001A8E")]
+	[Token(Token = "0x6002659")]
 	public abstract T GetValueFromBag(IUxmlAttributes bag, CreationContext cc);
 
-	[Token(Token = "0x6001A91")]
+	[Token(Token = "0x600265C")]
 	protected TypedUxmlAttributeDescription()
 	{
 	}

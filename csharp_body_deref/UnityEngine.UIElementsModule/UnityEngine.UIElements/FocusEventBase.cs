@@ -10,91 +10,91 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000190")]
+[Token(Token = "0x20001D5")]
 [EventCategory(EventCategory.Focus)]
 public abstract class FocusEventBase<T> : EventBase<T> where T : FocusEventBase<T>, new()
 {
-	[Token(Token = "0x170001E2")]
+	[Token(Token = "0x17000263")]
 	public Focusable relatedTarget
 	{
-		[Token(Token = "0x6000AAC")]
+		[Token(Token = "0x6000CC6")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AAD")]
+		[Token(Token = "0x6000CC7")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E3")]
+	[Token(Token = "0x17000264")]
 	public FocusChangeDirection direction
 	{
-		[Token(Token = "0x6000AAE")]
+		[Token(Token = "0x6000CC8")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AAF")]
+		[Token(Token = "0x6000CC9")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E4")]
+	[Token(Token = "0x17000265")]
 	protected FocusController focusController
 	{
-		[Token(Token = "0x6000AB0")]
+		[Token(Token = "0x6000CCA")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000AB1")]
+		[Token(Token = "0x6000CCB")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001E5")]
+	[Token(Token = "0x17000266")]
 	internal bool IsFocusDelegated
 	{
-		[Token(Token = "0x6000AB2")]
+		[Token(Token = "0x6000CCC")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000AB3")]
+		[Token(Token = "0x6000CCD")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000AB4")]
+	[Token(Token = "0x6000CCE")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000AB5")]
+	[Token(Token = "0x6000CCF")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000AB6")]
+	[Token(Token = "0x6000CD0")]
 	public static T GetPooled(IEventHandler target, Focusable relatedTarget, FocusChangeDirection direction, FocusController focusController, bool bIsFocusDelegated = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB7")]
+	[Token(Token = "0x6000CD1")]
 	protected FocusEventBase()
 	{
 	}

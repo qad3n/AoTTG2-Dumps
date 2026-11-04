@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Activation;
 
 [Serializable]
-[Token(Token = "0x2000388")]
+[Token(Token = "0x20003B7")]
 internal class ConstructionLevelActivator : IActivator
 {
-	[Token(Token = "0x1700037F")]
+	[Token(Token = "0x17000381")]
 	public IActivator NextActivator
 	{
-		[Token(Token = "0x6001DB9")]
-		[Address(RVA = "0x3B833F0", Offset = "0x3B833F0", VA = "0x3B833F0", Slot = "4")]
+		[Token(Token = "0x6001E28")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001DBA")]
-	[Address(RVA = "0x3B83400", Offset = "0x3B83400", VA = "0x3B83400", Slot = "5")]
+	[Token(Token = "0x6001E29")]
+	[Address(RVA = "0x19F58A0", Offset = "0x19F3EA0", VA = "0x1819F58A0", Slot = "5")]
 	public IConstructionReturnMessage Activate(IConstructionCallMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DBB")]
-	[Address(RVA = "0x3B826B0", Offset = "0x3B826B0", VA = "0x3B826B0")]
+	[Token(Token = "0x6001E2A")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ConstructionLevelActivator()
 	{
 	}

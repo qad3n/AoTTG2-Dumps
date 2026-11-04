@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 public interface ILobbyCallbacks
 {
-	[Token(Token = "0x60000CA")]
+	[Token(Token = "0x60000C8")]
 	void OnJoinedLobby();
 
-	[Token(Token = "0x60000CB")]
+	[Token(Token = "0x60000C9")]
 	void OnLeftLobby();
 
-	[Token(Token = "0x60000CC")]
+	[Token(Token = "0x60000CA")]
 	void OnRoomListUpdate(List<RoomInfo> roomList);
 
-	[Token(Token = "0x60000CD")]
+	[Token(Token = "0x60000CB")]
 	void OnLobbyStatisticsUpdate(List<TypedLobbyInfo> lobbyStatistics);
 }

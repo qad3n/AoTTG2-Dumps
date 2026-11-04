@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000243")]
+[Token(Token = "0x2000273")]
 [Flags]
 public enum TaskCreationOptions
 {
-	[Token(Token = "0x4000ABE")]
+	[Token(Token = "0x4000B09")]
 	None = 0,
-	[Token(Token = "0x4000ABF")]
+	[Token(Token = "0x4000B0A")]
 	PreferFairness = 1,
-	[Token(Token = "0x4000AC0")]
+	[Token(Token = "0x4000B0B")]
 	LongRunning = 2,
-	[Token(Token = "0x4000AC1")]
+	[Token(Token = "0x4000B0C")]
 	AttachedToParent = 4,
-	[Token(Token = "0x4000AC2")]
+	[Token(Token = "0x4000B0D")]
 	DenyChildAttach = 8,
-	[Token(Token = "0x4000AC3")]
+	[Token(Token = "0x4000B0E")]
 	HideScheduler = 0x10,
-	[Token(Token = "0x4000AC4")]
+	[Token(Token = "0x4000B0F")]
 	RunContinuationsAsynchronously = 0x40
 }

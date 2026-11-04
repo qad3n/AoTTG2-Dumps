@@ -11,103 +11,103 @@ using Settings;
 
 namespace Controllers;
 
-[Token(Token = "0x20004C8")]
+[Token(Token = "0x200061D")]
 internal class BasicTitanPlayerController : BasePlayerController
 {
-	[Token(Token = "0x400150D")]
+	[Token(Token = "0x4001B5F")]
 	[FieldOffset(Offset = "0x58")]
 	protected BasicTitan _titan;
 
-	[Token(Token = "0x400150E")]
+	[Token(Token = "0x4001B60")]
 	[FieldOffset(Offset = "0x60")]
 	protected TitanInputSettings _titanInput;
 
-	[Token(Token = "0x400150F")]
+	[Token(Token = "0x4001B61")]
 	[FieldOffset(Offset = "0x68")]
 	protected float _enemyTimeLeft;
 
-	[Token(Token = "0x4001510")]
+	[Token(Token = "0x4001B62")]
 	[FieldOffset(Offset = "0x6C")]
 	protected float RockCooldown;
 
-	[Token(Token = "0x4001511")]
+	[Token(Token = "0x4001B63")]
 	[FieldOffset(Offset = "0x70")]
 	protected float _rockCooldownLeft;
 
-	[Token(Token = "0x600325F")]
-	[Address(RVA = "0x41917D0", Offset = "0x41917D0", VA = "0x41917D0", Slot = "4")]
+	[Token(Token = "0x6003BFA")]
+	[Address(RVA = "0x20FA070", Offset = "0x20F8670", VA = "0x1820FA070", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003260")]
-	[Address(RVA = "0x4191A20", Offset = "0x4191A20", VA = "0x4191A20", Slot = "9")]
+	[Token(Token = "0x6003BFB")]
+	[Address(RVA = "0x20FB100", Offset = "0x20F9700", VA = "0x1820FB100", Slot = "9")]
 	protected override void UpdateUI(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003261")]
-	[Address(RVA = "0x4191A90", Offset = "0x4191A90", VA = "0x4191A90", Slot = "7")]
+	[Token(Token = "0x6003BFC")]
+	[Address(RVA = "0x20FA370", Offset = "0x20F8970", VA = "0x1820FA370", Slot = "7")]
 	protected override void UpdateActionInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x6003262")]
-	[Address(RVA = "0x4192700", Offset = "0x4192700", VA = "0x4192700")]
+	[Token(Token = "0x6003BFD")]
+	[Address(RVA = "0x20F9FE0", Offset = "0x20F85E0", VA = "0x1820F9FE0")]
 	protected void AttackSwing()
 	{
 	}
 
-	[Token(Token = "0x6003263")]
-	[Address(RVA = "0x4192790", Offset = "0x4192790", VA = "0x4192790")]
+	[Token(Token = "0x6003BFE")]
+	[Address(RVA = "0x20F9B00", Offset = "0x20F8100", VA = "0x1820F9B00")]
 	protected void AttackGrabAirFar()
 	{
 	}
 
-	[Token(Token = "0x6003264")]
-	[Address(RVA = "0x4192820", Offset = "0x4192820", VA = "0x4192820")]
+	[Token(Token = "0x6003BFF")]
+	[Address(RVA = "0x20F9B90", Offset = "0x20F8190", VA = "0x1820F9B90")]
 	protected void AttackGrabAir()
 	{
 	}
 
-	[Token(Token = "0x6003265")]
-	[Address(RVA = "0x41928B0", Offset = "0x41928B0", VA = "0x41928B0")]
+	[Token(Token = "0x6003C00")]
+	[Address(RVA = "0x20F9C20", Offset = "0x20F8220", VA = "0x1820F9C20")]
 	protected void AttackGrabBody()
 	{
 	}
 
-	[Token(Token = "0x6003266")]
-	[Address(RVA = "0x41929B0", Offset = "0x41929B0", VA = "0x41929B0")]
+	[Token(Token = "0x6003C01")]
+	[Address(RVA = "0x20F9D00", Offset = "0x20F8300", VA = "0x1820F9D00")]
 	protected void AttackGrabCore()
 	{
 	}
 
-	[Token(Token = "0x6003267")]
-	[Address(RVA = "0x4192A40", Offset = "0x4192A40", VA = "0x4192A40")]
+	[Token(Token = "0x6003C02")]
+	[Address(RVA = "0x20F9D90", Offset = "0x20F8390", VA = "0x1820F9D90")]
 	protected void AttackGrabGround()
 	{
 	}
 
-	[Token(Token = "0x6003268")]
-	[Address(RVA = "0x4192B40", Offset = "0x4192B40", VA = "0x4192B40")]
+	[Token(Token = "0x6003C03")]
+	[Address(RVA = "0x20F9E70", Offset = "0x20F8470", VA = "0x1820F9E70")]
 	protected void AttackGrabHead()
 	{
 	}
 
-	[Token(Token = "0x6003269")]
-	[Address(RVA = "0x4192C40", Offset = "0x4192C40", VA = "0x4192C40")]
+	[Token(Token = "0x6003C04")]
+	[Address(RVA = "0x20F9F50", Offset = "0x20F8550", VA = "0x1820F9F50")]
 	protected void AttackGrabHigh()
 	{
 	}
 
-	[Token(Token = "0x600326A")]
-	[Address(RVA = "0x4192CD0", Offset = "0x4192CD0", VA = "0x4192CD0")]
+	[Token(Token = "0x6003C05")]
+	[Address(RVA = "0x20F9A70", Offset = "0x20F8070", VA = "0x1820F9A70")]
 	protected void AttackBrushChest()
 	{
 	}
 
-	[Token(Token = "0x600326B")]
-	[Address(RVA = "0x4192D60", Offset = "0x4192D60", VA = "0x4192D60")]
+	[Token(Token = "0x6003C06")]
+	[Address(RVA = "0x20FB160", Offset = "0x20F9760", VA = "0x1820FB160")]
 	public BasicTitanPlayerController()
 	{
 	}

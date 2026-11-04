@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x200033A")]
+[Token(Token = "0x20003E1")]
 public enum FalloffType : byte
 {
-	[Token(Token = "0x4000A4C")]
+	[Token(Token = "0x4000CD3")]
 	InverseSquared,
-	[Token(Token = "0x4000A4D")]
+	[Token(Token = "0x4000CD4")]
 	InverseSquaredNoRangeAttenuation,
-	[Token(Token = "0x4000A4E")]
+	[Token(Token = "0x4000CD5")]
 	Linear,
-	[Token(Token = "0x4000A4F")]
+	[Token(Token = "0x4000CD6")]
 	Legacy,
-	[Token(Token = "0x4000A50")]
+	[Token(Token = "0x4000CD7")]
 	Undefined
 }

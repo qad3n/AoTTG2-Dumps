@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.ShaderTagId
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,69 +10,80 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002FC")]
+[Token(Token = "0x20003C5")]
 public struct ShaderTagId : IEquatable<ShaderTagId>
 {
-	[Token(Token = "0x4000912")]
+	[Token(Token = "0x4000C19")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ShaderTagId none;
 
-	[Token(Token = "0x4000913")]
+	[Token(Token = "0x4000C1A")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Id;
 
-	[Token(Token = "0x170002A0")]
+	[Token(Token = "0x17000397")]
 	internal int id
 	{
-		[Token(Token = "0x60010B5")]
-		[Address(RVA = "0x4E2DA20", Offset = "0x4E2DA20", VA = "0x4E2DA20")]
+		[Token(Token = "0x60016FF")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60010B6")]
-		[Address(RVA = "0x4E2DC00", Offset = "0x4E2DC00", VA = "0x4E2DC00")]
+		[Token(Token = "0x6001700")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60010B4")]
-	[Address(RVA = "0x4E32CC0", Offset = "0x4E32CC0", VA = "0x4E32CC0")]
+	[Token(Token = "0x17000398")]
+	public string name
+	{
+		[Token(Token = "0x6001701")]
+		[Address(RVA = "0x2F71600", Offset = "0x2F6FC00", VA = "0x182F71600")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x60016FE")]
+	[Address(RVA = "0x2F715E0", Offset = "0x2F6FBE0", VA = "0x182F715E0")]
 	public ShaderTagId(string name)
 	{
 	}
 
-	[Token(Token = "0x60010B7")]
-	[Address(RVA = "0x4E32CE0", Offset = "0x4E32CE0", VA = "0x4E32CE0", Slot = "0")]
+	[Token(Token = "0x6001702")]
+	[Address(RVA = "0x2F71530", Offset = "0x2F6FB30", VA = "0x182F71530", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B8")]
-	[Address(RVA = "0x4E2DEC0", Offset = "0x4E2DEC0", VA = "0x4E2DEC0", Slot = "4")]
+	[Token(Token = "0x6001703")]
+	[Address(RVA = "0x2ED9400", Offset = "0x2ED7A00", VA = "0x182ED9400", Slot = "4")]
 	public bool Equals(ShaderTagId other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010B9")]
-	[Address(RVA = "0x4E31830", Offset = "0x4E31830", VA = "0x4E31830", Slot = "2")]
+	[Token(Token = "0x6001704")]
+	[Address(RVA = "0x2F715C0", Offset = "0x2F6FBC0", VA = "0x182F715C0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60010BA")]
-	[Address(RVA = "0x4E31610", Offset = "0x4E31610", VA = "0x4E31610")]
+	[Token(Token = "0x6001705")]
+	[Address(RVA = "0x2F24CA0", Offset = "0x2F232A0", VA = "0x182F24CA0")]
 	public static bool operator ==(ShaderTagId tag1, ShaderTagId tag2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010BB")]
-	[Address(RVA = "0x4E32D40", Offset = "0x4E32D40", VA = "0x4E32D40")]
+	[Token(Token = "0x6001706")]
+	[Address(RVA = "0x2F71610", Offset = "0x2F6FC10", VA = "0x182F71610")]
 	public static bool operator !=(ShaderTagId tag1, ShaderTagId tag2)
 	{
 		return default(bool);

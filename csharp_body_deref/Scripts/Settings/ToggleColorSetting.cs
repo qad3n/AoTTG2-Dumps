@@ -11,44 +11,44 @@ using Utility;
 
 namespace Settings;
 
-[Token(Token = "0x20000C4")]
+[Token(Token = "0x20000E2")]
 internal class ToggleColorSetting : BaseSetting
 {
-	[Token(Token = "0x40004A7")]
-	[FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x4000532")]
+	[FieldOffset(Offset = "0x18")]
 	public BoolSetting Enabled;
 
-	[Token(Token = "0x40004A8")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000533")]
+	[FieldOffset(Offset = "0x20")]
 	public ColorSetting Color;
 
-	[Token(Token = "0x6000400")]
-	[Address(RVA = "0x40FD920", Offset = "0x40FD920", VA = "0x40FD920")]
+	[Token(Token = "0x600048E")]
+	[Address(RVA = "0x1F29DA0", Offset = "0x1F283A0", VA = "0x181F29DA0")]
 	public ToggleColorSetting()
 	{
 	}
 
-	[Token(Token = "0x6000401")]
-	[Address(RVA = "0x4103830", Offset = "0x4103830", VA = "0x4103830")]
+	[Token(Token = "0x600048F")]
+	[Address(RVA = "0x1F29C10", Offset = "0x1F28210", VA = "0x181F29C10")]
 	public ToggleColorSetting(bool defaultEnabled, Color255 defaultColor)
 	{
 	}
 
-	[Token(Token = "0x6000402")]
-	[Address(RVA = "0x4103AC0", Offset = "0x4103AC0", VA = "0x4103AC0", Slot = "4")]
+	[Token(Token = "0x6000490")]
+	[Address(RVA = "0x1F29BC0", Offset = "0x1F281C0", VA = "0x181F29BC0", Slot = "4")]
 	public override void SetDefault()
 	{
 	}
 
-	[Token(Token = "0x6000403")]
-	[Address(RVA = "0x4103B00", Offset = "0x4103B00", VA = "0x4103B00", Slot = "5")]
+	[Token(Token = "0x6000491")]
+	[Address(RVA = "0x1F29AD0", Offset = "0x1F280D0", VA = "0x181F29AD0", Slot = "5")]
 	public override JSONNode SerializeToJsonObject()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000404")]
-	[Address(RVA = "0x4103BE0", Offset = "0x4103BE0", VA = "0x4103BE0", Slot = "6")]
+	[Token(Token = "0x6000492")]
+	[Address(RVA = "0x1F29840", Offset = "0x1F27E40", VA = "0x181F29840", Slot = "6")]
 	public override void DeserializeFromJsonObject(JSONNode json)
 	{
 	}

@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001EC")]
+[Token(Token = "0x20001EF")]
 [DisallowMultipleComponent]
 public sealed class AsyncTransformChildrenChangedTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000B9E")]
-	[Address(RVA = "0x4A12940", Offset = "0x4A12940", VA = "0x4A12940")]
+	[Token(Token = "0x6000BC2")]
+	[Address(RVA = "0x2939200", Offset = "0x2937800", VA = "0x182939200")]
 	private void OnTransformChildrenChanged()
 	{
 	}
 
-	[Token(Token = "0x6000B9F")]
-	[Address(RVA = "0x4A129B0", Offset = "0x4A129B0", VA = "0x4A129B0")]
+	[Token(Token = "0x6000BC3")]
+	[Address(RVA = "0x2938EF0", Offset = "0x29374F0", VA = "0x182938EF0")]
 	public IAsyncOnTransformChildrenChangedHandler GetOnTransformChildrenChangedAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BA0")]
-	[Address(RVA = "0x4A12A20", Offset = "0x4A12A20", VA = "0x4A12A20")]
+	[Token(Token = "0x6000BC4")]
+	[Address(RVA = "0x2938F60", Offset = "0x2937560", VA = "0x182938F60")]
 	public IAsyncOnTransformChildrenChangedHandler GetOnTransformChildrenChangedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BA1")]
-	[Address(RVA = "0x4A12A90", Offset = "0x4A12A90", VA = "0x4A12A90")]
+	[Token(Token = "0x6000BC5")]
+	[Address(RVA = "0x29390F0", Offset = "0x29376F0", VA = "0x1829390F0")]
 	public UniTask OnTransformChildrenChangedAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BA2")]
-	[Address(RVA = "0x4A12B80", Offset = "0x4A12B80", VA = "0x4A12B80")]
+	[Token(Token = "0x6000BC6")]
+	[Address(RVA = "0x2938FE0", Offset = "0x29375E0", VA = "0x182938FE0")]
 	public UniTask OnTransformChildrenChangedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000BA3")]
-	[Address(RVA = "0x4A12C70", Offset = "0x4A12C70", VA = "0x4A12C70")]
+	[Token(Token = "0x6000BC7")]
+	[Address(RVA = "0x2939270", Offset = "0x2937870", VA = "0x182939270")]
 	public AsyncTransformChildrenChangedTrigger()
 	{
 	}

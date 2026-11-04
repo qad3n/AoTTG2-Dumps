@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x200002F")]
 public enum ReceiverGroup : byte
 {
-	[Token(Token = "0x400018E")]
+	[Token(Token = "0x4000189")]
 	Others,
-	[Token(Token = "0x400018F")]
+	[Token(Token = "0x400018A")]
 	All,
-	[Token(Token = "0x4000190")]
+	[Token(Token = "0x400018B")]
 	MasterClient
 }

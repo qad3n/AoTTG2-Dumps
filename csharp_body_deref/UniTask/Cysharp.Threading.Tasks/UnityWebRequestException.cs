@@ -13,42 +13,18 @@ using UnityEngine.Networking;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000185")]
+[Token(Token = "0x2000188")]
 public class UnityWebRequestException : Exception
 {
-	[Token(Token = "0x400061F")]
+	[Token(Token = "0x4000632")]
 	[FieldOffset(Offset = "0xC0")]
 	private string msg;
 
-	[Token(Token = "0x17000067")]
+	[Token(Token = "0x17000069")]
 	public UnityWebRequest UnityWebRequest
 	{
-		[Token(Token = "0x6000933")]
-		[Address(RVA = "0x4A05750", Offset = "0x4A05750", VA = "0x4A05750")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000068")]
-	public UnityWebRequest.Result Result
-	{
-		[Token(Token = "0x6000934")]
-		[Address(RVA = "0x4A05760", Offset = "0x4A05760", VA = "0x4A05760")]
-		[CompilerGenerated]
-		get
-		{
-			return default(UnityWebRequest.Result);
-		}
-	}
-
-	[Token(Token = "0x17000069")]
-	public string Error
-	{
-		[Token(Token = "0x6000935")]
-		[Address(RVA = "0x4A05770", Offset = "0x4A05770", VA = "0x4A05770")]
+		[Token(Token = "0x6000957")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -57,10 +33,22 @@ public class UnityWebRequestException : Exception
 	}
 
 	[Token(Token = "0x1700006A")]
-	public string Text
+	public UnityWebRequest.Result Result
 	{
-		[Token(Token = "0x6000936")]
-		[Address(RVA = "0x4A05780", Offset = "0x4A05780", VA = "0x4A05780")]
+		[Token(Token = "0x6000958")]
+		[Address(RVA = "0xB5B9F0", Offset = "0xB59FF0", VA = "0x180B5B9F0")]
+		[CompilerGenerated]
+		get
+		{
+			return default(UnityWebRequest.Result);
+		}
+	}
+
+	[Token(Token = "0x1700006B")]
+	public string Error
+	{
+		[Token(Token = "0x6000959")]
+		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
 		[CompilerGenerated]
 		get
 		{
@@ -68,23 +56,11 @@ public class UnityWebRequestException : Exception
 		}
 	}
 
-	[Token(Token = "0x1700006B")]
-	public long ResponseCode
-	{
-		[Token(Token = "0x6000937")]
-		[Address(RVA = "0x4A05790", Offset = "0x4A05790", VA = "0x4A05790")]
-		[CompilerGenerated]
-		get
-		{
-			return default(long);
-		}
-	}
-
 	[Token(Token = "0x1700006C")]
-	public Dictionary<string, string> ResponseHeaders
+	public string Text
 	{
-		[Token(Token = "0x6000938")]
-		[Address(RVA = "0x4A057A0", Offset = "0x4A057A0", VA = "0x4A057A0")]
+		[Token(Token = "0x600095A")]
+		[Address(RVA = "0x58A890", Offset = "0x588E90", VA = "0x18058A890")]
 		[CompilerGenerated]
 		get
 		{
@@ -93,18 +69,42 @@ public class UnityWebRequestException : Exception
 	}
 
 	[Token(Token = "0x1700006D")]
-	public override string Message
+	public long ResponseCode
 	{
-		[Token(Token = "0x600093A")]
-		[Address(RVA = "0x4A057B0", Offset = "0x4A057B0", VA = "0x4A057B0", Slot = "5")]
+		[Token(Token = "0x600095B")]
+		[Address(RVA = "0x1537220", Offset = "0x1535820", VA = "0x181537220")]
+		[CompilerGenerated]
+		get
+		{
+			return default(long);
+		}
+	}
+
+	[Token(Token = "0x1700006E")]
+	public Dictionary<string, string> ResponseHeaders
+	{
+		[Token(Token = "0x600095C")]
+		[Address(RVA = "0x187BC10", Offset = "0x187A210", VA = "0x18187BC10")]
+		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000939")]
-	[Address(RVA = "0x49FAFB0", Offset = "0x49FAFB0", VA = "0x49FAFB0")]
+	[Token(Token = "0x1700006F")]
+	public override string Message
+	{
+		[Token(Token = "0x600095E")]
+		[Address(RVA = "0x294FF00", Offset = "0x294E500", VA = "0x18294FF00", Slot = "5")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600095D")]
+	[Address(RVA = "0x294FDC0", Offset = "0x294E3C0", VA = "0x18294FDC0")]
 	public UnityWebRequestException(UnityWebRequest unityWebRequest)
 	{
 	}

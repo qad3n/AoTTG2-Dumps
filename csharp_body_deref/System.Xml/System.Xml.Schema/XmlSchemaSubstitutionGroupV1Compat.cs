@@ -22,7 +22,7 @@ internal class XmlSchemaSubstitutionGroupV1Compat : XmlSchemaSubstitutionGroup
 	internal XmlSchemaChoice Choice
 	{
 		[Token(Token = "0x6001785")]
-		[Address(RVA = "0x47333B0", Offset = "0x47333B0", VA = "0x47333B0")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
@@ -30,7 +30,7 @@ internal class XmlSchemaSubstitutionGroupV1Compat : XmlSchemaSubstitutionGroup
 	}
 
 	[Token(Token = "0x6001786")]
-	[Address(RVA = "0x47333C0", Offset = "0x47333C0", VA = "0x47333C0")]
+	[Address(RVA = "0x267F640", Offset = "0x267DC40", VA = "0x18267F640")]
 	public XmlSchemaSubstitutionGroupV1Compat()
 	{
 	}

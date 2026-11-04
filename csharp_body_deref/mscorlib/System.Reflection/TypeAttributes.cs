@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004FE")]
+[Token(Token = "0x200052E")]
 [Flags]
 public enum TypeAttributes
 {
@@ -30,7 +30,7 @@ public enum TypeAttributes
 	[Token(Token = "0x4001477")]
 	NestedFamANDAssem = 6,
 	[Token(Token = "0x4001478")]
-	NestedFamORAssem = 7,
+	NestedFamORAssem = VisibilityMask,
 	[Token(Token = "0x4001479")]
 	LayoutMask = 0x18,
 	[Token(Token = "0x400147A")]
@@ -44,7 +44,7 @@ public enum TypeAttributes
 	[Token(Token = "0x400147E")]
 	Class = 0,
 	[Token(Token = "0x400147F")]
-	Interface = 0x20,
+	Interface = ClassSemanticsMask,
 	[Token(Token = "0x4001480")]
 	Abstract = 0x80,
 	[Token(Token = "0x4001481")]
@@ -66,7 +66,7 @@ public enum TypeAttributes
 	[Token(Token = "0x4001489")]
 	AutoClass = 0x20000,
 	[Token(Token = "0x400148A")]
-	CustomFormatClass = 0x30000,
+	CustomFormatClass = StringFormatMask,
 	[Token(Token = "0x400148B")]
 	CustomFormatMask = 0xC00000,
 	[Token(Token = "0x400148C")]
@@ -76,5 +76,5 @@ public enum TypeAttributes
 	[Token(Token = "0x400148E")]
 	HasSecurity = 0x40000,
 	[Token(Token = "0x400148F")]
-	ReservedMask = 0x40800
+	ReservedMask = RTSpecialName | HasSecurity
 }

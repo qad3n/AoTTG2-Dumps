@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000062")]
+[Token(Token = "0x2000060")]
 public interface IResettable
 {
-	[Token(Token = "0x600022A")]
+	[Token(Token = "0x6000228")]
 	void Reset();
 }

@@ -17,14 +17,14 @@ internal class MethodBinaryExpression : SimpleBinaryExpression
 	[FieldOffset(Offset = "0x30")]
 	private readonly MethodInfo _method;
 
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x4496D80", Offset = "0x4496D80", VA = "0x4496D80")]
+	[Token(Token = "0x60001D8")]
+	[Address(RVA = "0x24247D0", Offset = "0x2422DD0", VA = "0x1824247D0")]
 	internal MethodBinaryExpression(ExpressionType nodeType, Expression left, Expression right, Type type, MethodInfo method)
 	{
 	}
 
-	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x4496F00", Offset = "0x4496F00", VA = "0x4496F00", Slot = "10")]
+	[Token(Token = "0x60001D9")]
+	[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "10")]
 	internal override MethodInfo GetMethod()
 	{
 		return null;

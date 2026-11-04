@@ -10,13 +10,13 @@ using UnityEngine.UIElements.Experimental;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200046D")]
+[Token(Token = "0x2000547")]
 public interface IExperimentalFeatures
 {
-	[Token(Token = "0x17000746")]
+	[Token(Token = "0x17000A2E")]
 	ITransitionAnimations animation
 	{
-		[Token(Token = "0x6001B90")]
+		[Token(Token = "0x60027F3")]
 		get;
 	}
 }

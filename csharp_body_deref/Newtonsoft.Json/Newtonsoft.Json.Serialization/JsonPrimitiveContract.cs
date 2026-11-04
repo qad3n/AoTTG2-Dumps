@@ -24,14 +24,14 @@ public class JsonPrimitiveContract : JsonContract
 	internal PrimitiveTypeCode TypeCode
 	{
 		[Token(Token = "0x600085E")]
-		[Address(RVA = "0x3DDA630", Offset = "0x3DDA630", VA = "0x3DDA630")]
+		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(PrimitiveTypeCode);
 		}
 		[Token(Token = "0x600085F")]
-		[Address(RVA = "0x3DDA640", Offset = "0x3DDA640", VA = "0x3DDA640")]
+		[Address(RVA = "0xE92690", Offset = "0xE90C90", VA = "0x180E92690")]
 		[CompilerGenerated]
 		set
 		{
@@ -39,7 +39,7 @@ public class JsonPrimitiveContract : JsonContract
 	}
 
 	[Token(Token = "0x6000860")]
-	[Address(RVA = "0x3DD2400", Offset = "0x3DD2400", VA = "0x3DD2400")]
+	[Address(RVA = "0x1C43790", Offset = "0x1C41D90", VA = "0x181C43790")]
 	public JsonPrimitiveContract(Type underlyingType)
 	{
 	}

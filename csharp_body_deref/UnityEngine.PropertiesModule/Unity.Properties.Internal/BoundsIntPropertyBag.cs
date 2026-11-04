@@ -10,53 +10,101 @@ using UnityEngine;
 
 namespace Unity.Properties.Internal;
 
-[Token(Token = "0x2000064")]
+[Token(Token = "0x2000096")]
 internal class BoundsIntPropertyBag : ContainerPropertyBag<BoundsInt>
 {
-	[Token(Token = "0x2000065")]
+	[Token(Token = "0x2000097")]
 	private class PositionProperty : Property<BoundsInt, Vector3Int>
 	{
-		[Token(Token = "0x1700004B")]
+		[Token(Token = "0x1700007C")]
 		public override string Name
 		{
-			[Token(Token = "0x60001D5")]
-			[Address(RVA = "0x4E9BCA0", Offset = "0x4E9BCA0", VA = "0x4E9BCA0", Slot = "7")]
+			[Token(Token = "0x6000248")]
+			[Address(RVA = "0x2FEB790", Offset = "0x2FE9D90", VA = "0x182FEB790", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60001D6")]
-		[Address(RVA = "0x4E9BC20", Offset = "0x4E9BC20", VA = "0x4E9BC20")]
+		[Token(Token = "0x1700007D")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x6000249")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x600024A")]
+		[Address(RVA = "0xE8EB70", Offset = "0xE8D170", VA = "0x180E8EB70", Slot = "14")]
+		public override Vector3Int GetValue(ref BoundsInt container)
+		{
+			return default(Vector3Int);
+		}
+
+		[Token(Token = "0x600024B")]
+		[Address(RVA = "0x2FE9AA0", Offset = "0x2FE80A0", VA = "0x182FE9AA0", Slot = "15")]
+		public override void SetValue(ref BoundsInt container, Vector3Int value)
+		{
+		}
+
+		[Token(Token = "0x600024C")]
+		[Address(RVA = "0x2FEB750", Offset = "0x2FE9D50", VA = "0x182FEB750")]
 		public PositionProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x2000066")]
+	[Token(Token = "0x2000098")]
 	private class SizeProperty : Property<BoundsInt, Vector3Int>
 	{
-		[Token(Token = "0x1700004C")]
+		[Token(Token = "0x1700007E")]
 		public override string Name
 		{
-			[Token(Token = "0x60001D7")]
-			[Address(RVA = "0x4E9BCD0", Offset = "0x4E9BCD0", VA = "0x4E9BCD0", Slot = "7")]
+			[Token(Token = "0x600024D")]
+			[Address(RVA = "0x2FF2C60", Offset = "0x2FF1260", VA = "0x182FF2C60", Slot = "12")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60001D8")]
-		[Address(RVA = "0x4E9BC60", Offset = "0x4E9BC60", VA = "0x4E9BC60")]
+		[Token(Token = "0x1700007F")]
+		public override bool IsReadOnly
+		{
+			[Token(Token = "0x600024E")]
+			[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "13")]
+			get
+			{
+				return default(bool);
+			}
+		}
+
+		[Token(Token = "0x600024F")]
+		[Address(RVA = "0x2FEAB50", Offset = "0x2FE9150", VA = "0x182FEAB50", Slot = "14")]
+		public override Vector3Int GetValue(ref BoundsInt container)
+		{
+			return default(Vector3Int);
+		}
+
+		[Token(Token = "0x6000250")]
+		[Address(RVA = "0x2FEAB70", Offset = "0x2FE9170", VA = "0x182FEAB70", Slot = "15")]
+		public override void SetValue(ref BoundsInt container, Vector3Int value)
+		{
+		}
+
+		[Token(Token = "0x6000251")]
+		[Address(RVA = "0x2FF2C20", Offset = "0x2FF1220", VA = "0x182FF2C20")]
 		public SizeProperty()
 		{
 		}
 	}
 
-	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x4E9AD60", Offset = "0x4E9AD60", VA = "0x4E9AD60")]
+	[Token(Token = "0x6000247")]
+	[Address(RVA = "0x2FE9760", Offset = "0x2FE7D60", VA = "0x182FE9760")]
 	public BoundsIntPropertyBag()
 	{
 	}

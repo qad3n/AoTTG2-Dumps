@@ -15,45 +15,45 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000137")]
 public abstract class UnaryOperatorHandler : OperatorHandler
 {
-	[Token(Token = "0x4000810")]
+	[Token(Token = "0x400080E")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly Dictionary<Type, Func<object, object>> manualHandlers;
 
-	[Token(Token = "0x4000811")]
+	[Token(Token = "0x400080F")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly Dictionary<Type, IOptimizedInvoker> userDefinedOperators;
 
-	[Token(Token = "0x4000812")]
+	[Token(Token = "0x4000810")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly Dictionary<Type, Type> userDefinedOperandTypes;
 
-	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x4D3E5F0", Offset = "0x4D3E5F0", VA = "0x4D3E5F0")]
+	[Token(Token = "0x6000D3B")]
+	[Address(RVA = "0x2E4DE70", Offset = "0x2E4C470", VA = "0x182E4DE70")]
 	protected UnaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
-	[Token(Token = "0x6000D32")]
-	[Address(RVA = "0x4D3E730", Offset = "0x4D3E730", VA = "0x4D3E730")]
+	[Token(Token = "0x6000D3C")]
+	[Address(RVA = "0x2E4DA70", Offset = "0x2E4C070", VA = "0x182E4DA70")]
 	public object Operate(object operand)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D33")]
-	[Address(RVA = "0x4D3EC60", Offset = "0x4D3EC60", VA = "0x4D3EC60", Slot = "4")]
+	[Token(Token = "0x6000D3D")]
+	[Address(RVA = "0x2E4D9F0", Offset = "0x2E4BFF0", VA = "0x182E4D9F0", Slot = "4")]
 	protected virtual object CustomHandling(object operand)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D34")]
+	[Token(Token = "0x6000D3E")]
 	protected void Handle<T>(Func<T, object> handler)
 	{
 	}
 
-	[Token(Token = "0x6000D35")]
-	[Address(RVA = "0x4D3EBB0", Offset = "0x4D3EBB0", VA = "0x4D3EBB0")]
+	[Token(Token = "0x6000D3F")]
+	[Address(RVA = "0x2E4DE20", Offset = "0x2E4C420", VA = "0x182E4DE20")]
 	private static Type ResolveUserDefinedOperandType(MethodInfo userDefinedOperator)
 	{
 		return null;

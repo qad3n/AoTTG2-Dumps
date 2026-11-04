@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004C3")]
+[Token(Token = "0x20004F3")]
 public enum AssemblyContentType
 {
 	[Token(Token = "0x40013A7")]

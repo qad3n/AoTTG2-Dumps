@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x200006F")]
 internal sealed class Operators
 {
-	[Token(Token = "0x4000232")]
+	[Token(Token = "0x4000245")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly int[] s_priority;
 
-	[Token(Token = "0x4000233")]
+	[Token(Token = "0x4000246")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly string[] s_looks;
 
-	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x45B4120", Offset = "0x45B4120", VA = "0x45B4120")]
+	[Token(Token = "0x600069D")]
+	[Address(RVA = "0x25227F0", Offset = "0x2520DF0", VA = "0x1825227F0")]
 	internal static bool IsArithmetical(int op)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x45B4140", Offset = "0x45B4140", VA = "0x45B4140")]
+	[Token(Token = "0x600069E")]
+	[Address(RVA = "0x2522810", Offset = "0x2520E10", VA = "0x182522810")]
 	internal static bool IsLogical(int op)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x45B4170", Offset = "0x45B4170", VA = "0x45B4170")]
+	[Token(Token = "0x600069F")]
+	[Address(RVA = "0x2522830", Offset = "0x2520E30", VA = "0x182522830")]
 	internal static bool IsRelational(int op)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000681")]
-	[Address(RVA = "0x45B4180", Offset = "0x45B4180", VA = "0x45B4180")]
+	[Token(Token = "0x60006A0")]
+	[Address(RVA = "0x2522840", Offset = "0x2520E40", VA = "0x182522840")]
 	internal static int Priority(int op)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000682")]
-	[Address(RVA = "0x45B4240", Offset = "0x45B4240", VA = "0x45B4240")]
+	[Token(Token = "0x60006A1")]
+	[Address(RVA = "0x25228E0", Offset = "0x2520EE0", VA = "0x1825228E0")]
 	internal static string ToString(int op)
 	{
 		return null;

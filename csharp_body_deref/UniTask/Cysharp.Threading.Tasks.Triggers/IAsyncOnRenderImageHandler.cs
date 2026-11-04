@@ -10,9 +10,9 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001E5")]
+[Token(Token = "0x20001E8")]
 public interface IAsyncOnRenderImageHandler
 {
-	[Token(Token = "0x6000B88")]
+	[Token(Token = "0x6000BAC")]
 	UniTask<(RenderTexture, RenderTexture)> OnRenderImageAsync();
 }

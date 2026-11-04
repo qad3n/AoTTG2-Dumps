@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: ApplicationManagers.Changelog.PublicChangelogListResponse
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/ApplicationManagers/Changelog/PublicChangelogListResponse.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,83 +11,83 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Changelog;
 
-[Token(Token = "0x20007B1")]
+[Token(Token = "0x200093C")]
 public sealed class PublicChangelogListResponse
 {
-	[Token(Token = "0x17000E32")]
+	[Token(Token = "0x17000F95")]
 	public int Total
 	{
-		[Token(Token = "0x60049FC")]
-		[Address(RVA = "0x43C8730", Offset = "0x43C8730", VA = "0x43C8730")]
+		[Token(Token = "0x6005674")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60049FD")]
-		[Address(RVA = "0x43C8740", Offset = "0x43C8740", VA = "0x43C8740")]
+		[Token(Token = "0x6005675")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E33")]
+	[Token(Token = "0x17000F96")]
 	public int Page
 	{
-		[Token(Token = "0x60049FE")]
-		[Address(RVA = "0x43C8750", Offset = "0x43C8750", VA = "0x43C8750")]
+		[Token(Token = "0x6005676")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60049FF")]
-		[Address(RVA = "0x43C8760", Offset = "0x43C8760", VA = "0x43C8760")]
+		[Token(Token = "0x6005677")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E34")]
+	[Token(Token = "0x17000F97")]
 	public int PageSize
 	{
-		[Token(Token = "0x6004A00")]
-		[Address(RVA = "0x43C8770", Offset = "0x43C8770", VA = "0x43C8770")]
+		[Token(Token = "0x6005678")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6004A01")]
-		[Address(RVA = "0x43C8780", Offset = "0x43C8780", VA = "0x43C8780")]
+		[Token(Token = "0x6005679")]
+		[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E35")]
+	[Token(Token = "0x17000F98")]
 	public IReadOnlyList<ChangelogSummaryResponse> Entries
 	{
-		[Token(Token = "0x6004A02")]
-		[Address(RVA = "0x43C8790", Offset = "0x43C8790", VA = "0x43C8790")]
+		[Token(Token = "0x600567A")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004A03")]
-		[Address(RVA = "0x43C87A0", Offset = "0x43C87A0", VA = "0x43C87A0")]
+		[Token(Token = "0x600567B")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60049FB")]
-	[Address(RVA = "0x43C8690", Offset = "0x43C8690", VA = "0x43C8690")]
+	[Token(Token = "0x6005673")]
+	[Address(RVA = "0x2371AD0", Offset = "0x23700D0", VA = "0x182371AD0")]
 	public PublicChangelogListResponse(int total, int page, int pageSize, ChangelogSummaryResponse[] entries)
 	{
 	}

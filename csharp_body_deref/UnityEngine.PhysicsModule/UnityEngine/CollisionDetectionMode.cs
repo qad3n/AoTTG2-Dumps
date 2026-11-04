@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000004")]
 public enum CollisionDetectionMode
 {
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x400000C")]
 	Discrete,
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x400000D")]
 	Continuous,
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x400000E")]
 	ContinuousDynamic,
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x400000F")]
 	ContinuousSpeculative
 }

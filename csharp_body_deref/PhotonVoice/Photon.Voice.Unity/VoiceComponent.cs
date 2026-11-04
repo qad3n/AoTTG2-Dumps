@@ -10,19 +10,19 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 [HelpURL("https://doc.photonengine.com/en-us/voice/v2")]
 public abstract class VoiceComponent : MonoBehaviour
 {
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000070")]
 	[FieldOffset(Offset = "0x20")]
 	private VoiceComponentImpl impl;
 
 	[Token(Token = "0x1700003A")]
 	protected ILogger Logger
 	{
-		[Token(Token = "0x60000CE")]
-		[Address(RVA = "0x3F3E6C0", Offset = "0x3F3E6C0", VA = "0x3F3E6C0")]
+		[Token(Token = "0x60000CC")]
+		[Address(RVA = "0x1D959B0", Offset = "0x1D93FB0", VA = "0x181D959B0")]
 		get
 		{
 			return null;
@@ -32,8 +32,8 @@ public abstract class VoiceComponent : MonoBehaviour
 	[Token(Token = "0x1700003B")]
 	public VoiceLogger VoiceLogger
 	{
-		[Token(Token = "0x60000CF")]
-		[Address(RVA = "0x3F4CF20", Offset = "0x3F4CF20", VA = "0x3F4CF20")]
+		[Token(Token = "0x60000CD")]
+		[Address(RVA = "0x1D959D0", Offset = "0x1D93FD0", VA = "0x181D959D0")]
 		get
 		{
 			return null;
@@ -43,21 +43,21 @@ public abstract class VoiceComponent : MonoBehaviour
 	[Token(Token = "0x1700003C")]
 	public string Name
 	{
-		[Token(Token = "0x60000D0")]
-		[Address(RVA = "0x3F4C850", Offset = "0x3F4C850", VA = "0x3F4C850")]
+		[Token(Token = "0x60000CE")]
+		[Address(RVA = "0x1D959F0", Offset = "0x1D93FF0", VA = "0x181D959F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x3F3E6A0", Offset = "0x3F3E6A0", VA = "0x3F3E6A0", Slot = "4")]
+	[Token(Token = "0x60000CB")]
+	[Address(RVA = "0x1D95980", Offset = "0x1D93F80", VA = "0x181D95980", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x3F3F1D0", Offset = "0x3F3F1D0", VA = "0x3F3F1D0")]
+	[Token(Token = "0x60000CF")]
+	[Address(RVA = "0x1D8D100", Offset = "0x1D8B700", VA = "0x181D8D100")]
 	protected VoiceComponent()
 	{
 	}

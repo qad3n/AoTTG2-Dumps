@@ -12,31 +12,31 @@ using UnityEngine;
 
 namespace TMPro.SpriteAssetUtilities;
 
-[Token(Token = "0x20000A8")]
+[Token(Token = "0x20000BA")]
 public class TexturePacker_JsonArray
 {
 	[Serializable]
-	[Token(Token = "0x20000A9")]
+	[Token(Token = "0x20000BB")]
 	public struct SpriteFrame
 	{
-		[Token(Token = "0x4000610")]
+		[Token(Token = "0x400069C")]
 		[FieldOffset(Offset = "0x0")]
 		public float x;
 
-		[Token(Token = "0x4000611")]
+		[Token(Token = "0x400069D")]
 		[FieldOffset(Offset = "0x4")]
 		public float y;
 
-		[Token(Token = "0x4000612")]
+		[Token(Token = "0x400069E")]
 		[FieldOffset(Offset = "0x8")]
 		public float w;
 
-		[Token(Token = "0x4000613")]
+		[Token(Token = "0x400069F")]
 		[FieldOffset(Offset = "0xC")]
 		public float h;
 
-		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x4C9E180", Offset = "0x4C9E180", VA = "0x4C9E180", Slot = "3")]
+		[Token(Token = "0x6000727")]
+		[Address(RVA = "0x2D7E700", Offset = "0x2D7CD00", VA = "0x182D7E700", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -44,19 +44,19 @@ public class TexturePacker_JsonArray
 	}
 
 	[Serializable]
-	[Token(Token = "0x20000AA")]
+	[Token(Token = "0x20000BC")]
 	public struct SpriteSize
 	{
-		[Token(Token = "0x4000614")]
+		[Token(Token = "0x40006A0")]
 		[FieldOffset(Offset = "0x0")]
 		public float w;
 
-		[Token(Token = "0x4000615")]
+		[Token(Token = "0x40006A1")]
 		[FieldOffset(Offset = "0x4")]
 		public float h;
 
-		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x4C9E340", Offset = "0x4C9E340", VA = "0x4C9E340", Slot = "3")]
+		[Token(Token = "0x6000728")]
+		[Address(RVA = "0x2D7E8D0", Offset = "0x2D7CED0", VA = "0x182D7E8D0", Slot = "3")]
 		public override string ToString()
 		{
 			return null;
@@ -64,92 +64,92 @@ public class TexturePacker_JsonArray
 	}
 
 	[Serializable]
-	[Token(Token = "0x20000AB")]
+	[Token(Token = "0x20000BD")]
 	public struct Frame
 	{
-		[Token(Token = "0x4000616")]
+		[Token(Token = "0x40006A2")]
 		[FieldOffset(Offset = "0x0")]
 		public string filename;
 
-		[Token(Token = "0x4000617")]
+		[Token(Token = "0x40006A3")]
 		[FieldOffset(Offset = "0x8")]
 		public SpriteFrame frame;
 
-		[Token(Token = "0x4000618")]
+		[Token(Token = "0x40006A4")]
 		[FieldOffset(Offset = "0x18")]
 		public bool rotated;
 
-		[Token(Token = "0x4000619")]
+		[Token(Token = "0x40006A5")]
 		[FieldOffset(Offset = "0x19")]
 		public bool trimmed;
 
-		[Token(Token = "0x400061A")]
+		[Token(Token = "0x40006A6")]
 		[FieldOffset(Offset = "0x1C")]
 		public SpriteFrame spriteSourceSize;
 
-		[Token(Token = "0x400061B")]
+		[Token(Token = "0x40006A7")]
 		[FieldOffset(Offset = "0x2C")]
 		public SpriteSize sourceSize;
 
-		[Token(Token = "0x400061C")]
+		[Token(Token = "0x40006A8")]
 		[FieldOffset(Offset = "0x34")]
 		public Vector2 pivot;
 	}
 
 	[Serializable]
-	[Token(Token = "0x20000AC")]
+	[Token(Token = "0x20000BE")]
 	public struct Meta
 	{
-		[Token(Token = "0x400061D")]
+		[Token(Token = "0x40006A9")]
 		[FieldOffset(Offset = "0x0")]
 		public string app;
 
-		[Token(Token = "0x400061E")]
+		[Token(Token = "0x40006AA")]
 		[FieldOffset(Offset = "0x8")]
 		public string version;
 
-		[Token(Token = "0x400061F")]
+		[Token(Token = "0x40006AB")]
 		[FieldOffset(Offset = "0x10")]
 		public string image;
 
-		[Token(Token = "0x4000620")]
+		[Token(Token = "0x40006AC")]
 		[FieldOffset(Offset = "0x18")]
 		public string format;
 
-		[Token(Token = "0x4000621")]
+		[Token(Token = "0x40006AD")]
 		[FieldOffset(Offset = "0x20")]
 		public SpriteSize size;
 
-		[Token(Token = "0x4000622")]
+		[Token(Token = "0x40006AE")]
 		[FieldOffset(Offset = "0x28")]
 		public float scale;
 
-		[Token(Token = "0x4000623")]
+		[Token(Token = "0x40006AF")]
 		[FieldOffset(Offset = "0x30")]
 		public string smartupdate;
 	}
 
 	[Serializable]
-	[Token(Token = "0x20000AD")]
+	[Token(Token = "0x20000BF")]
 	public class SpriteDataObject
 	{
-		[Token(Token = "0x4000624")]
+		[Token(Token = "0x40006B0")]
 		[FieldOffset(Offset = "0x10")]
 		public List<Frame> frames;
 
-		[Token(Token = "0x4000625")]
+		[Token(Token = "0x40006B1")]
 		[FieldOffset(Offset = "0x18")]
 		public Meta meta;
 
-		[Token(Token = "0x6000654")]
-		[Address(RVA = "0x4C9E3D0", Offset = "0x4C9E3D0", VA = "0x4C9E3D0")]
+		[Token(Token = "0x6000729")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public SpriteDataObject()
 		{
 		}
 	}
 
-	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x4C9E170", Offset = "0x4C9E170", VA = "0x4C9E170")]
+	[Token(Token = "0x6000726")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public TexturePacker_JsonArray()
 	{
 	}

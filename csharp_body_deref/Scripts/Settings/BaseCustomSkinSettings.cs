@@ -12,37 +12,37 @@ namespace Settings;
 [Token(Token = "0x2000066")]
 internal class BaseCustomSkinSettings<T> : SetSettingsContainer<T>, ICustomSkinSettings, ISetSettingsContainer where T : BaseSetSetting, new()
 {
-	[Token(Token = "0x4000200")]
+	[Token(Token = "0x400020C")]
 	[FieldOffset(Offset = "0x0")]
 	public BoolSetting SkinsLocal;
 
-	[Token(Token = "0x4000201")]
+	[Token(Token = "0x400020D")]
 	[FieldOffset(Offset = "0x0")]
 	public BoolSetting SkinsEnabled;
 
-	[Token(Token = "0x4000202")]
+	[Token(Token = "0x400020E")]
 	[FieldOffset(Offset = "0x0")]
 	public ListSetting<T> SkinSets;
 
-	[Token(Token = "0x6000305")]
+	[Token(Token = "0x6000315")]
 	public BoolSetting GetSkinsEnabled()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000306")]
+	[Token(Token = "0x6000316")]
 	public IListSetting GetSkinSets()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000307")]
+	[Token(Token = "0x6000317")]
 	public BoolSetting GetSkinsLocal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000308")]
+	[Token(Token = "0x6000318")]
 	public BaseCustomSkinSettings()
 	{
 	}

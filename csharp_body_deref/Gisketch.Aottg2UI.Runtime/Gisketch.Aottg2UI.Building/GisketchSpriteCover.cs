@@ -13,80 +13,80 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x2000099")]
+[Token(Token = "0x20000B7")]
 internal sealed class GisketchSpriteCover : MonoBehaviour
 {
-	[Token(Token = "0x400031C")]
+	[Token(Token = "0x40003C5")]
 	[FieldOffset(Offset = "0x20")]
 	private Image _image;
 
-	[Token(Token = "0x400031D")]
+	[Token(Token = "0x40003C6")]
 	[FieldOffset(Offset = "0x28")]
 	private FlexLayout _flex;
 
-	[Token(Token = "0x400031E")]
+	[Token(Token = "0x40003C7")]
 	[FieldOffset(Offset = "0x30")]
 	private Vector2 _lastParent;
 
-	[Token(Token = "0x400031F")]
+	[Token(Token = "0x40003C8")]
 	[FieldOffset(Offset = "0x38")]
 	private Sprite _lastSprite;
 
-	[Token(Token = "0x4000320")]
+	[Token(Token = "0x40003C9")]
 	[FieldOffset(Offset = "0x40")]
 	private float _lastWidth;
 
-	[Token(Token = "0x4000321")]
+	[Token(Token = "0x40003CA")]
 	[FieldOffset(Offset = "0x44")]
 	private float _lastHeight;
 
-	[Token(Token = "0x6000473")]
-	[Address(RVA = "0x3A88760", Offset = "0x3A88760", VA = "0x3A88760")]
+	[Token(Token = "0x60005A6")]
+	[Address(RVA = "0x1908500", Offset = "0x1906B00", VA = "0x181908500")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000474")]
-	[Address(RVA = "0x3A887E0", Offset = "0x3A887E0", VA = "0x3A887E0")]
+	[Token(Token = "0x60005A7")]
+	[Address(RVA = "0x19085F0", Offset = "0x1906BF0", VA = "0x1819085F0")]
 	private void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000475")]
-	[Address(RVA = "0x3A88EA0", Offset = "0x3A88EA0", VA = "0x3A88EA0")]
+	[Token(Token = "0x60005A8")]
+	[Address(RVA = "0x19085F0", Offset = "0x1906BF0", VA = "0x1819085F0")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000476")]
-	[Address(RVA = "0x3A88EB0", Offset = "0x3A88EB0", VA = "0x3A88EB0")]
+	[Token(Token = "0x60005A9")]
+	[Address(RVA = "0x19085F0", Offset = "0x1906BF0", VA = "0x1819085F0")]
 	private void OnRectTransformDimensionsChange()
 	{
 	}
 
-	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x3A887F0", Offset = "0x3A887F0", VA = "0x3A887F0")]
+	[Token(Token = "0x60005AA")]
+	[Address(RVA = "0x1908600", Offset = "0x1906C00", VA = "0x181908600")]
 	private bool Refresh()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x3A88EC0", Offset = "0x3A88EC0", VA = "0x3A88EC0")]
+	[Token(Token = "0x60005AB")]
+	[Address(RVA = "0x1908580", Offset = "0x1906B80", VA = "0x181908580")]
 	internal static Vector2 CoverSize(Vector2 parentSize, Vector2 spriteSize)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x3A88F10", Offset = "0x3A88F10", VA = "0x3A88F10")]
+	[Token(Token = "0x60005AC")]
+	[Address(RVA = "0x1908BB0", Offset = "0x19071B0", VA = "0x181908BB0")]
 	private static bool SamePoint(YGValue value, float expected)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600047A")]
-	[Address(RVA = "0x3A88FB0", Offset = "0x3A88FB0", VA = "0x3A88FB0")]
+	[Token(Token = "0x60005AD")]
+	[Address(RVA = "0x1908BE0", Offset = "0x19071E0", VA = "0x181908BE0")]
 	public GisketchSpriteCover()
 	{
 	}

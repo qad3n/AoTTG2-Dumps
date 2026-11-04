@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.IO.FileInfo
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,89 +12,100 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x200055E")]
+[Token(Token = "0x2000688")]
 public sealed class FileInfo : FileSystemInfo
 {
-	[Token(Token = "0x170005F9")]
+	[Token(Token = "0x17000811")]
+	public long Length
+	{
+		[Token(Token = "0x600323E")]
+		[Address(RVA = "0x1AE87F0", Offset = "0x1AE6DF0", VA = "0x181AE87F0")]
+		get
+		{
+			return default(long);
+		}
+	}
+
+	[Token(Token = "0x17000812")]
 	public string DirectoryName
 	{
-		[Token(Token = "0x600295E")]
-		[Address(RVA = "0x3C01200", Offset = "0x3C01200", VA = "0x3C01200")]
+		[Token(Token = "0x600323F")]
+		[Address(RVA = "0x1AE86F0", Offset = "0x1AE6CF0", VA = "0x181AE86F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005FA")]
+	[Token(Token = "0x17000813")]
 	public DirectoryInfo Directory
 	{
-		[Token(Token = "0x600295F")]
-		[Address(RVA = "0x3C01260", Offset = "0x3C01260", VA = "0x3C01260")]
+		[Token(Token = "0x6003240")]
+		[Address(RVA = "0x1AE8740", Offset = "0x1AE6D40", VA = "0x181AE8740")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005FB")]
+	[Token(Token = "0x17000814")]
 	public override string Name
 	{
-		[Token(Token = "0x6002965")]
-		[Address(RVA = "0x3C01A20", Offset = "0x3C01A20", VA = "0x3C01A20", Slot = "9")]
+		[Token(Token = "0x6003246")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600295B")]
-	[Address(RVA = "0x3C01090", Offset = "0x3C01090", VA = "0x3C01090")]
+	[Token(Token = "0x600323B")]
+	[Address(RVA = "0x1AE86E0", Offset = "0x1AE6CE0", VA = "0x181AE86E0")]
 	private FileInfo()
 	{
 	}
 
-	[Token(Token = "0x600295C")]
-	[Address(RVA = "0x3C010A0", Offset = "0x3C010A0", VA = "0x3C010A0")]
+	[Token(Token = "0x600323C")]
+	[Address(RVA = "0x1AE8430", Offset = "0x1AE6A30", VA = "0x181AE8430")]
 	public FileInfo(string fileName)
 	{
 	}
 
-	[Token(Token = "0x600295D")]
-	[Address(RVA = "0x3C010B0", Offset = "0x3C010B0", VA = "0x3C010B0")]
+	[Token(Token = "0x600323D")]
+	[Address(RVA = "0x1AE8580", Offset = "0x1AE6B80", VA = "0x181AE8580")]
 	internal FileInfo(string originalPath, [Optional] string fullPath, [Optional] string fileName, bool isNormalized = false)
 	{
 	}
 
-	[Token(Token = "0x6002960")]
-	[Address(RVA = "0x3C01360", Offset = "0x3C01360", VA = "0x3C01360")]
+	[Token(Token = "0x6003241")]
+	[Address(RVA = "0x1AE83B0", Offset = "0x1AE69B0", VA = "0x181AE83B0")]
 	public StreamWriter CreateText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002961")]
-	[Address(RVA = "0x3C013C0", Offset = "0x3C013C0", VA = "0x3C013C0")]
+	[Token(Token = "0x6003242")]
+	[Address(RVA = "0x1AE80C0", Offset = "0x1AE66C0", VA = "0x181AE80C0")]
 	public StreamWriter AppendText()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002962")]
-	[Address(RVA = "0x3C01420", Offset = "0x3C01420", VA = "0x3C01420")]
+	[Token(Token = "0x6003243")]
+	[Address(RVA = "0x1AE8130", Offset = "0x1AE6730", VA = "0x181AE8130")]
 	public FileInfo CopyTo(string destFileName, bool overwrite)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002963")]
-	[Address(RVA = "0x3C01A00", Offset = "0x3C01A00", VA = "0x3C01A00", Slot = "11")]
+	[Token(Token = "0x6003244")]
+	[Address(RVA = "0x1AE8420", Offset = "0x1AE6A20", VA = "0x181AE8420", Slot = "11")]
 	public override void Delete()
 	{
 	}
 
-	[Token(Token = "0x6002964")]
-	[Address(RVA = "0x3C01A10", Offset = "0x3C01A10", VA = "0x3C01A10")]
+	[Token(Token = "0x6003245")]
+	[Address(RVA = "0x1AE7020", Offset = "0x1AE5620", VA = "0x181AE7020")]
 	private FileInfo(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -21,7 +21,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private XmlSchemaValidity System_002EXml_002ESchema_002EIXmlSchemaInfo_002EValidity
 	{
 		[Token(Token = "0x6000234")]
-		[Address(RVA = "0x4797380", Offset = "0x4797380", VA = "0x4797380", Slot = "62")]
+		[Address(RVA = "0x26E2BE0", Offset = "0x26E11E0", VA = "0x1826E2BE0", Slot = "62")]
 		get
 		{
 			return default(XmlSchemaValidity);
@@ -32,7 +32,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private bool System_002EXml_002ESchema_002EIXmlSchemaInfo_002EIsDefault
 	{
 		[Token(Token = "0x6000235")]
-		[Address(RVA = "0x4797410", Offset = "0x4797410", VA = "0x4797410", Slot = "63")]
+		[Address(RVA = "0x26E2840", Offset = "0x26E0E40", VA = "0x1826E2840", Slot = "63")]
 		get
 		{
 			return default(bool);
@@ -43,7 +43,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private bool System_002EXml_002ESchema_002EIXmlSchemaInfo_002EIsNil
 	{
 		[Token(Token = "0x6000236")]
-		[Address(RVA = "0x47974B0", Offset = "0x47974B0", VA = "0x47974B0", Slot = "64")]
+		[Address(RVA = "0x26E2890", Offset = "0x26E0E90", VA = "0x1826E2890", Slot = "64")]
 		get
 		{
 			return default(bool);
@@ -54,7 +54,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private XmlSchemaSimpleType System_002EXml_002ESchema_002EIXmlSchemaInfo_002EMemberType
 	{
 		[Token(Token = "0x6000237")]
-		[Address(RVA = "0x4797550", Offset = "0x4797550", VA = "0x4797550", Slot = "65")]
+		[Address(RVA = "0x26E28E0", Offset = "0x26E0EE0", VA = "0x1826E28E0", Slot = "65")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private XmlSchemaType System_002EXml_002ESchema_002EIXmlSchemaInfo_002ESchemaType
 	{
 		[Token(Token = "0x6000238")]
-		[Address(RVA = "0x47975F0", Offset = "0x47975F0", VA = "0x47975F0", Slot = "66")]
+		[Address(RVA = "0x26E2B20", Offset = "0x26E1120", VA = "0x1826E2B20", Slot = "66")]
 		get
 		{
 			return null;
@@ -76,7 +76,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private XmlSchemaElement System_002EXml_002ESchema_002EIXmlSchemaInfo_002ESchemaElement
 	{
 		[Token(Token = "0x6000239")]
-		[Address(RVA = "0x4797690", Offset = "0x4797690", VA = "0x4797690", Slot = "67")]
+		[Address(RVA = "0x26E2A60", Offset = "0x26E1060", VA = "0x1826E2A60", Slot = "67")]
 		get
 		{
 			return null;
@@ -87,7 +87,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	private XmlSchemaAttribute System_002EXml_002ESchema_002EIXmlSchemaInfo_002ESchemaAttribute
 	{
 		[Token(Token = "0x600023A")]
-		[Address(RVA = "0x4797730", Offset = "0x4797730", VA = "0x4797730", Slot = "68")]
+		[Address(RVA = "0x26E29A0", Offset = "0x26E0FA0", VA = "0x1826E29A0", Slot = "68")]
 		get
 		{
 			return null;
@@ -95,7 +95,7 @@ internal class XmlAsyncCheckReaderWithLineInfoNSSchema : XmlAsyncCheckReaderWith
 	}
 
 	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x4795E60", Offset = "0x4795E60", VA = "0x4795E60")]
+	[Address(RVA = "0x26E2C30", Offset = "0x26E1230", VA = "0x1826E2C30")]
 	public XmlAsyncCheckReaderWithLineInfoNSSchema(XmlReader reader)
 	{
 	}

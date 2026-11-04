@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x2000279")]
+[Token(Token = "0x20002A9")]
 public sealed class EncoderExceptionFallbackBuffer : EncoderFallbackBuffer
 {
-	[Token(Token = "0x17000227")]
+	[Token(Token = "0x17000229")]
 	public override int Remaining
 	{
-		[Token(Token = "0x600159A")]
-		[Address(RVA = "0x3AFEC40", Offset = "0x3AFEC40", VA = "0x3AFEC40", Slot = "8")]
+		[Token(Token = "0x6001606")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "8")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6001595")]
-	[Address(RVA = "0x3AFE710", Offset = "0x3AFE710", VA = "0x3AFE710")]
+	[Token(Token = "0x6001601")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EncoderExceptionFallbackBuffer()
 	{
 	}
 
-	[Token(Token = "0x6001596")]
-	[Address(RVA = "0x3AFE780", Offset = "0x3AFE780", VA = "0x3AFE780", Slot = "4")]
+	[Token(Token = "0x6001602")]
+	[Address(RVA = "0x1977180", Offset = "0x1975780", VA = "0x181977180", Slot = "4")]
 	public override bool Fallback(char charUnknown, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001597")]
-	[Address(RVA = "0x3AFE850", Offset = "0x3AFE850", VA = "0x3AFE850", Slot = "5")]
+	[Token(Token = "0x6001603")]
+	[Address(RVA = "0x1977230", Offset = "0x1975830", VA = "0x181977230", Slot = "5")]
 	public override bool Fallback(char charUnknownHigh, char charUnknownLow, int index)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001598")]
-	[Address(RVA = "0x3AFEC20", Offset = "0x3AFEC20", VA = "0x3AFEC20", Slot = "6")]
+	[Token(Token = "0x6001604")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
 	public override char GetNextChar()
 	{
 		return default(char);
 	}
 
-	[Token(Token = "0x6001599")]
-	[Address(RVA = "0x3AFEC30", Offset = "0x3AFEC30", VA = "0x3AFEC30", Slot = "7")]
+	[Token(Token = "0x6001605")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "7")]
 	public override bool MovePrevious()
 	{
 		return default(bool);

@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x200005C")]
 public sealed class ListChangedEventArgs<T> : EventArgs
 {
-	[Token(Token = "0x4000229")]
+	[Token(Token = "0x400014C")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly int index;
 
-	[Token(Token = "0x400022A")]
+	[Token(Token = "0x400014D")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly T item;
 
-	[Token(Token = "0x600062B")]
+	[Token(Token = "0x6000547")]
 	public ListChangedEventArgs(int index, T item)
 	{
 	}

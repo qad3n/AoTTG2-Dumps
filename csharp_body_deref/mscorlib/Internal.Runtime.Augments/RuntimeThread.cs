@@ -10,68 +10,68 @@ using Il2CppDummyDll;
 
 namespace Internal.Runtime.Augments;
 
-[Token(Token = "0x2000064")]
+[Token(Token = "0x200008D")]
 internal sealed class RuntimeThread
 {
-	[Token(Token = "0x4000196")]
+	[Token(Token = "0x4000245")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly int OptimalMaxSpinWaitsPerSpinIteration;
 
-	[Token(Token = "0x4000197")]
+	[Token(Token = "0x4000246")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Thread thread;
 
 	[Token(Token = "0x1700003C")]
 	public bool IsBackground
 	{
-		[Token(Token = "0x6000231")]
-		[Address(RVA = "0x3AF36F0", Offset = "0x3AF36F0", VA = "0x3AF36F0")]
+		[Token(Token = "0x6000270")]
+		[Address(RVA = "0x1967AD0", Offset = "0x19660D0", VA = "0x181967AD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600022F")]
-	[Address(RVA = "0x3AF3630", Offset = "0x3AF3630", VA = "0x3AF3630")]
+	[Token(Token = "0x600026E")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	private RuntimeThread(Thread t)
 	{
 	}
 
-	[Token(Token = "0x6000230")]
-	[Address(RVA = "0x3AF3660", Offset = "0x3AF3660", VA = "0x3AF3660")]
+	[Token(Token = "0x600026F")]
+	[Address(RVA = "0x1967990", Offset = "0x1965F90", VA = "0x181967990")]
 	public static Internal.Runtime.Augments.RuntimeThread Create(ParameterizedThreadStart start, int maxStackSize)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000232")]
-	[Address(RVA = "0x3AF3710", Offset = "0x3AF3710", VA = "0x3AF3710")]
+	[Token(Token = "0x6000271")]
+	[Address(RVA = "0x1967A60", Offset = "0x1966060", VA = "0x181967A60")]
 	public void Start(object state)
 	{
 	}
 
-	[Token(Token = "0x6000233")]
-	[Address(RVA = "0x3AF3730", Offset = "0x3AF3730", VA = "0x3AF3730")]
+	[Token(Token = "0x6000272")]
+	[Address(RVA = "0x1967A30", Offset = "0x1966030", VA = "0x181967A30")]
 	public static void Sleep(int millisecondsTimeout)
 	{
 	}
 
-	[Token(Token = "0x6000234")]
-	[Address(RVA = "0x3AF3740", Offset = "0x3AF3740", VA = "0x3AF3740")]
+	[Token(Token = "0x6000273")]
+	[Address(RVA = "0x1967A80", Offset = "0x1966080", VA = "0x181967A80")]
 	public static bool Yield()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000235")]
-	[Address(RVA = "0x3AF3750", Offset = "0x3AF3750", VA = "0x3AF3750")]
+	[Token(Token = "0x6000274")]
+	[Address(RVA = "0x1967A40", Offset = "0x1966040", VA = "0x181967A40")]
 	public static bool SpinWait(int iterations)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000236")]
-	[Address(RVA = "0x3AF3760", Offset = "0x3AF3760", VA = "0x3AF3760")]
+	[Token(Token = "0x6000275")]
+	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040")]
 	public static int GetCurrentProcessorId()
 	{
 		return default(int);

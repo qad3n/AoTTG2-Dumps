@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x200044D")]
+[Token(Token = "0x200047C")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 [ComVisible(true)]
 public sealed class ComCompatibleVersionAttribute : Attribute
 {
-	[Token(Token = "0x40012C2")]
+	[Token(Token = "0x40012C4")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal int _major;
 
-	[Token(Token = "0x40012C3")]
+	[Token(Token = "0x40012C5")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	internal int _minor;
 
-	[Token(Token = "0x40012C4")]
+	[Token(Token = "0x40012C6")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal int _build;
 
-	[Token(Token = "0x40012C5")]
+	[Token(Token = "0x40012C7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	internal int _revision;
 
-	[Token(Token = "0x60021DC")]
-	[Address(RVA = "0x3BBD8C0", Offset = "0x3BBD8C0", VA = "0x3BBD8C0")]
+	[Token(Token = "0x600224D")]
+	[Address(RVA = "0x1A29160", Offset = "0x1A27760", VA = "0x181A29160")]
 	public ComCompatibleVersionAttribute(int major, int minor, int build, int revision)
 	{
 	}

@@ -11,83 +11,83 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x200022C")]
+[Token(Token = "0x200022F")]
 internal static class Error
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000C98")]
+	[Token(Token = "0x6000CBC")]
 	public static void ThrowArgumentNullException<T>(T value, string paramName) where T : class
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000C99")]
-	[Address(RVA = "0x4A1B7C0", Offset = "0x4A1B7C0", VA = "0x4A1B7C0")]
+	[Token(Token = "0x6000CBD")]
+	[Address(RVA = "0x29424E0", Offset = "0x2940AE0", VA = "0x1829424E0")]
 	private static void ThrowArgumentNullExceptionCore(string paramName)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000C9A")]
-	[Address(RVA = "0x4A1B810", Offset = "0x4A1B810", VA = "0x4A1B810")]
+	[Token(Token = "0x6000CBE")]
+	[Address(RVA = "0x2942370", Offset = "0x2940970", VA = "0x182942370")]
 	public static Exception ArgumentOutOfRange(string paramName)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000C9B")]
-	[Address(RVA = "0x4A1B860", Offset = "0x4A1B860", VA = "0x4A1B860")]
+	[Token(Token = "0x6000CBF")]
+	[Address(RVA = "0x2942430", Offset = "0x2940A30", VA = "0x182942430")]
 	public static Exception NoElements()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000C9C")]
-	[Address(RVA = "0x4A1B8C0", Offset = "0x4A1B8C0", VA = "0x4A1B8C0")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x29423D0", Offset = "0x29409D0", VA = "0x1829423D0")]
 	public static Exception MoreThanOneElement()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000C9D")]
-	[Address(RVA = "0x4A1B920", Offset = "0x4A1B920", VA = "0x4A1B920")]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x2942490", Offset = "0x2940A90", VA = "0x182942490")]
 	public static void ThrowArgumentException(string message)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000C9E")]
-	[Address(RVA = "0x4A1B970", Offset = "0x4A1B970", VA = "0x4A1B970")]
+	[Token(Token = "0x6000CC2")]
+	[Address(RVA = "0x2942580", Offset = "0x2940B80", VA = "0x182942580")]
 	public static void ThrowNotYetCompleted()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000C9F")]
+	[Token(Token = "0x6000CC3")]
 	public static T ThrowNotYetCompleted<T>()
 	{
 		return (T)null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000CA0")]
+	[Token(Token = "0x6000CC4")]
 	public static void ThrowWhenContinuationIsAlreadyRegistered<T>(T continuationField) where T : class
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000CA1")]
-	[Address(RVA = "0x4A1B9C0", Offset = "0x4A1B9C0", VA = "0x4A1B9C0")]
+	[Token(Token = "0x6000CC5")]
+	[Address(RVA = "0x2942530", Offset = "0x2940B30", VA = "0x182942530")]
 	private static void ThrowInvalidOperationExceptionCore(string message)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6000CA2")]
-	[Address(RVA = "0x4A1BA10", Offset = "0x4A1BA10", VA = "0x4A1BA10")]
+	[Token(Token = "0x6000CC6")]
+	[Address(RVA = "0x29425D0", Offset = "0x2940BD0", VA = "0x1829425D0")]
 	public static void ThrowOperationCanceledException()
 	{
 	}

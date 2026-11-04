@@ -10,30 +10,30 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000232")]
+[Token(Token = "0x2000235")]
 internal static class RuntimeHelpersAbstraction
 {
-	[Token(Token = "0x2000233")]
+	[Token(Token = "0x2000236")]
 	private static class WellKnownNoReferenceContainsType<T>
 	{
-		[Token(Token = "0x400066B")]
+		[Token(Token = "0x400067E")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly bool IsWellKnownType;
 
-		[Token(Token = "0x6000CCE")]
+		[Token(Token = "0x6000CF2")]
 		static WellKnownNoReferenceContainsType()
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CCC")]
+	[Token(Token = "0x6000CF0")]
 	public static bool IsWellKnownNoReferenceContainsType<T>()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CCD")]
-	[Address(RVA = "0x4A1CFC0", Offset = "0x4A1CFC0", VA = "0x4A1CFC0")]
+	[Token(Token = "0x6000CF1")]
+	[Address(RVA = "0x2944520", Offset = "0x2942B20", VA = "0x182944520")]
 	private static bool WellKnownNoReferenceContainsTypeInitialize(Type t)
 	{
 		return default(bool);

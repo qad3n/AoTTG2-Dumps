@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000261")]
+[Token(Token = "0x2000291")]
 internal enum CausalityRelation
 {
-	[Token(Token = "0x4000B14")]
+	[Token(Token = "0x4000B5D")]
 	AssignDelegate,
-	[Token(Token = "0x4000B15")]
+	[Token(Token = "0x4000B5E")]
 	Join,
-	[Token(Token = "0x4000B16")]
+	[Token(Token = "0x4000B5F")]
 	Choice,
-	[Token(Token = "0x4000B17")]
+	[Token(Token = "0x4000B60")]
 	Cancel,
-	[Token(Token = "0x4000B18")]
+	[Token(Token = "0x4000B61")]
 	Error
 }

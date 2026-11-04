@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000154")]
+[Token(Token = "0x2000199")]
 internal interface IReorderable
 {
-	[Token(Token = "0x170001AE")]
+	[Token(Token = "0x1700022F")]
 	bool enableReordering
 	{
-		[Token(Token = "0x600096C")]
+		[Token(Token = "0x6000B65")]
 		get;
-		[Token(Token = "0x600096D")]
+		[Token(Token = "0x6000B66")]
 		set;
 	}
 }

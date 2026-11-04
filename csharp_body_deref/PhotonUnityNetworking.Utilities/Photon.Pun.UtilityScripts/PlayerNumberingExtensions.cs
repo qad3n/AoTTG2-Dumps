@@ -10,18 +10,18 @@ using Photon.Realtime;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x2000012")]
 public static class PlayerNumberingExtensions
 {
-	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x3F06B90", Offset = "0x3F06B90", VA = "0x3F06B90")]
+	[Token(Token = "0x600007A")]
+	[Address(RVA = "0x1D5A000", Offset = "0x1D58600", VA = "0x181D5A000")]
 	public static int GetPlayerNumber(this Player player)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x3F06D40", Offset = "0x3F06D40", VA = "0x3F06D40")]
+	[Token(Token = "0x600007B")]
+	[Address(RVA = "0x1D5A140", Offset = "0x1D58740", VA = "0x181D5A140")]
 	public static void SetPlayerNumber(this Player player, int playerNumber)
 	{
 	}

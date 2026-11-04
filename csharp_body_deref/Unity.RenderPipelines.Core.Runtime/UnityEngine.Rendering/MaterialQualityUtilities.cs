@@ -10,57 +10,57 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001C8")]
+[Token(Token = "0x20001E4")]
 [MovedFrom("Utilities")]
 public static class MaterialQualityUtilities
 {
-	[Token(Token = "0x40007DA")]
+	[Token(Token = "0x4000951")]
 	[FieldOffset(Offset = "0x0")]
 	public static string[] KeywordNames;
 
-	[Token(Token = "0x40007DB")]
+	[Token(Token = "0x4000952")]
 	[FieldOffset(Offset = "0x8")]
 	public static string[] EnumNames;
 
-	[Token(Token = "0x40007DC")]
+	[Token(Token = "0x4000953")]
 	[FieldOffset(Offset = "0x10")]
 	public static ShaderKeyword[] Keywords;
 
-	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x4C02240", Offset = "0x4C02240", VA = "0x4C02240")]
+	[Token(Token = "0x6000E83")]
+	[Address(RVA = "0x2B5DC70", Offset = "0x2B5C270", VA = "0x182B5DC70")]
 	public static MaterialQuality GetHighestQuality(this MaterialQuality levels)
 	{
 		return default(MaterialQuality);
 	}
 
-	[Token(Token = "0x6000D1F")]
-	[Address(RVA = "0x4C022F0", Offset = "0x4C022F0", VA = "0x4C022F0")]
+	[Token(Token = "0x6000E84")]
+	[Address(RVA = "0x2B5DAB0", Offset = "0x2B5C0B0", VA = "0x182B5DAB0")]
 	public static MaterialQuality GetClosestQuality(this MaterialQuality availableLevels, MaterialQuality requestedLevel)
 	{
 		return default(MaterialQuality);
 	}
 
-	[Token(Token = "0x6000D20")]
-	[Address(RVA = "0x4C02540", Offset = "0x4C02540", VA = "0x4C02540")]
+	[Token(Token = "0x6000E85")]
+	[Address(RVA = "0x2B5DCF0", Offset = "0x2B5C2F0", VA = "0x182B5DCF0")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level)
 	{
 	}
 
-	[Token(Token = "0x6000D21")]
-	[Address(RVA = "0x4C02630", Offset = "0x4C02630", VA = "0x4C02630")]
+	[Token(Token = "0x6000E86")]
+	[Address(RVA = "0x2B5DE00", Offset = "0x2B5C400", VA = "0x182B5DE00")]
 	public static void SetGlobalShaderKeywords(this MaterialQuality level, CommandBuffer cmd)
 	{
 	}
 
-	[Token(Token = "0x6000D22")]
-	[Address(RVA = "0x4C024B0", Offset = "0x4C024B0", VA = "0x4C024B0")]
+	[Token(Token = "0x6000E87")]
+	[Address(RVA = "0x2B5DF40", Offset = "0x2B5C540", VA = "0x182B5DF40")]
 	public static int ToFirstIndex(this MaterialQuality level)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x4C02530", Offset = "0x4C02530", VA = "0x4C02530")]
+	[Token(Token = "0x6000E88")]
+	[Address(RVA = "0x2B5DAA0", Offset = "0x2B5C0A0", VA = "0x182B5DAA0")]
 	public static MaterialQuality FromIndex(int index)
 	{
 		return default(MaterialQuality);

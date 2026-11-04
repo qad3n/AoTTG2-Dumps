@@ -7,140 +7,82 @@
 // ===============================================================
 using System;
 using System.Runtime.InteropServices;
+using Gisketch.Aottg2UI.Game;
 using Il2CppDummyDll;
-using Settings;
-using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 namespace UI;
 
-[Token(Token = "0x200064C")]
-internal class PlayerPropEditPopup : PromptPopup
+[Token(Token = "0x20007AA")]
+internal class PlayerPropEditPopup : AottgScoreboardPopup
 {
-	[Token(Token = "0x4001EF3")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
-	private readonly StringSetting _keySetting;
-
-	[Token(Token = "0x4001EF4")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
-	private readonly StringSetting _valueSetting;
-
-	[Token(Token = "0x4001EF5")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x40026C0")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	private Action<string> _onSave;
 
-	[Token(Token = "0x4001EF6")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x40026C1")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	private Action<string, string> _onAdd;
 
-	[Token(Token = "0x4001EF7")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
-	private bool _addMode;
-
-	[Token(Token = "0x4001EF8")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xCC")]
+	[Token(Token = "0x40026C2")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	private int _targetActorNumber;
 
-	[Token(Token = "0x4001EF9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
-	private InputField _keyInputField;
+	[Token(Token = "0x40026C3")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
+	private TMP_InputField _keyInput;
 
-	[Token(Token = "0x4001EFA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
-	private Text _statusLabel;
+	[Token(Token = "0x40026C4")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xF0")]
+	private TMP_InputField _valueInput;
 
-	[Token(Token = "0x17000C14")]
-	protected override string Title
+	[Token(Token = "0x40026C5")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xF8")]
+	private TMP_Text _statusLabel;
+
+	[Token(Token = "0x17000D6A")]
+	protected override string DialogId
 	{
-		[Token(Token = "0x6003F8F")]
-		[Address(RVA = "0x42D9400", Offset = "0x42D9400", VA = "0x42D9400", Slot = "35")]
+		[Token(Token = "0x6004A95")]
+		[Address(RVA = "0x2260DD0", Offset = "0x225F3D0", VA = "0x182260DD0", Slot = "62")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000C15")]
-	protected override float Width
-	{
-		[Token(Token = "0x6003F90")]
-		[Address(RVA = "0x42D9450", Offset = "0x42D9450", VA = "0x42D9450", Slot = "5")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000C16")]
-	protected override float Height
-	{
-		[Token(Token = "0x6003F91")]
-		[Address(RVA = "0x42D9460", Offset = "0x42D9460", VA = "0x42D9460", Slot = "6")]
-		get
-		{
-			return default(float);
-		}
-	}
-
-	[Token(Token = "0x17000C17")]
-	protected override int VerticalPadding
-	{
-		[Token(Token = "0x6003F92")]
-		[Address(RVA = "0x42D9470", Offset = "0x42D9470", VA = "0x42D9470", Slot = "9")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000C18")]
-	protected override int HorizontalPadding
-	{
-		[Token(Token = "0x6003F93")]
-		[Address(RVA = "0x42D9480", Offset = "0x42D9480", VA = "0x42D9480", Slot = "10")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x17000C19")]
-	protected override TextAnchor PanelAlignment
-	{
-		[Token(Token = "0x6003F94")]
-		[Address(RVA = "0x42D9490", Offset = "0x42D9490", VA = "0x42D9490", Slot = "12")]
-		get
-		{
-			return default(TextAnchor);
-		}
-	}
-
-	[Token(Token = "0x6003F95")]
-	[Address(RVA = "0x42D94A0", Offset = "0x42D94A0", VA = "0x42D94A0", Slot = "20")]
+	[Token(Token = "0x6004A96")]
+	[Address(RVA = "0x2260960", Offset = "0x225EF60", VA = "0x182260960", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003F96")]
-	[Address(RVA = "0x42D9840", Offset = "0x42D9840", VA = "0x42D9840")]
+	[Token(Token = "0x6004A97")]
+	[Address(RVA = "0x2260C20", Offset = "0x225F220", VA = "0x182260C20")]
 	public void ShowEdit(int targetActorNumber, string key, string currentValue, Action<string> onSave)
 	{
 	}
 
-	[Token(Token = "0x6003F97")]
-	[Address(RVA = "0x42D99D0", Offset = "0x42D99D0", VA = "0x42D99D0")]
+	[Token(Token = "0x6004A98")]
+	[Address(RVA = "0x2260AC0", Offset = "0x225F0C0", VA = "0x182260AC0")]
 	public void ShowAdd(int targetActorNumber, Action<string, string> onAdd)
 	{
 	}
 
-	[Token(Token = "0x6003F98")]
-	[Address(RVA = "0x42D9B50", Offset = "0x42D9B50", VA = "0x42D9B50")]
-	private void OnButtonClick(string name)
+	[Token(Token = "0x6004A99")]
+	[Address(RVA = "0x2260CA0", Offset = "0x225F2A0", VA = "0x182260CA0")]
+	private void ShowForm(int targetActorNumber, string key, string value, bool addMode)
 	{
 	}
 
-	[Token(Token = "0x6003F99")]
-	[Address(RVA = "0x42D9DC0", Offset = "0x42D9DC0", VA = "0x42D9DC0")]
+	[Token(Token = "0x6004A9A")]
+	[Address(RVA = "0x2260750", Offset = "0x225ED50", VA = "0x182260750")]
+	internal void Save()
+	{
+	}
+
+	[Token(Token = "0x6004A9B")]
+	[Address(RVA = "0x225DAF0", Offset = "0x225C0F0", VA = "0x18225DAF0")]
 	public PlayerPropEditPopup()
 	{
 	}

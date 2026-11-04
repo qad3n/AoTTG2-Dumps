@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000174")]
+[Token(Token = "0x200018B")]
 public struct ShaderGenUInt4
 {
 }

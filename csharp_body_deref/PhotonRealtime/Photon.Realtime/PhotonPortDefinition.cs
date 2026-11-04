@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x200000F")]
 public struct PhotonPortDefinition
 {
-	[Token(Token = "0x400008A")]
+	[Token(Token = "0x4000085")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly PhotonPortDefinition AlternativeUdpPorts;
 
-	[Token(Token = "0x400008B")]
+	[Token(Token = "0x4000086")]
 	[FieldOffset(Offset = "0x0")]
 	public ushort NameServerPort;
 
-	[Token(Token = "0x400008C")]
+	[Token(Token = "0x4000087")]
 	[FieldOffset(Offset = "0x2")]
 	public ushort MasterServerPort;
 
-	[Token(Token = "0x400008D")]
+	[Token(Token = "0x4000088")]
 	[FieldOffset(Offset = "0x4")]
 	public ushort GameServerPort;
 }

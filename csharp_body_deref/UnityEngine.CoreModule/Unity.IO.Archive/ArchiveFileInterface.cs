@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.Archive;
 
-[Token(Token = "0x2000039")]
+[Token(Token = "0x200004C")]
 [UnityEngine.Bindings.StaticAccessor("GetManagedArchiveSystem()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Runtime/VirtualFileSystem/ArchiveFileSystem/ArchiveFileHandle.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]

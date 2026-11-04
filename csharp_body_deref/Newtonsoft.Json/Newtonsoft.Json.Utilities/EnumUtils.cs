@@ -31,7 +31,7 @@ internal static class EnumUtils
 	private static CamelCaseNamingStrategy _camelCaseNamingStrategy;
 
 	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x3DB7560", Offset = "0x3DB7560", VA = "0x3DB7560")]
+	[Address(RVA = "0x1C23D20", Offset = "0x1C22320", VA = "0x181C23D20")]
 	private static EnumInfo InitializeValuesAndNames(StructMultiKey<Type, NamingStrategy?> key)
 	{
 		return null;
@@ -44,56 +44,56 @@ internal static class EnumUtils
 	}
 
 	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x3DB7D30", Offset = "0x3DB7D30", VA = "0x3DB7D30")]
+	[Address(RVA = "0x1C250D0", Offset = "0x1C236D0", VA = "0x181C250D0")]
 	public static bool TryToString(Type enumType, object value, bool camelCase, [NotNullWhen(true)] out string? name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x3DB7DD0", Offset = "0x3DB7DD0", VA = "0x3DB7DD0")]
+	[Address(RVA = "0x1C24F30", Offset = "0x1C23530", VA = "0x181C24F30")]
 	public static bool TryToString(Type enumType, object value, NamingStrategy? namingStrategy, [NotNullWhen(true)] out string? name)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x3DB7F60", Offset = "0x3DB7F60", VA = "0x3DB7F60")]
+	[Address(RVA = "0x1C24210", Offset = "0x1C22810", VA = "0x181C24210")]
 	private static string InternalFlagsFormat(EnumInfo entry, ulong result)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000600")]
-	[Address(RVA = "0x3DB8200", Offset = "0x3DB8200", VA = "0x3DB8200")]
+	[Address(RVA = "0x1C23C60", Offset = "0x1C22260", VA = "0x181C23C60")]
 	public static EnumInfo GetEnumValuesAndNames(Type enumType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000601")]
-	[Address(RVA = "0x3DB7A70", Offset = "0x3DB7A70", VA = "0x3DB7A70")]
+	[Address(RVA = "0x1C24C20", Offset = "0x1C23220", VA = "0x181C24C20")]
 	private static ulong ToUInt64(object value)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000602")]
-	[Address(RVA = "0x3DB82B0", Offset = "0x3DB82B0", VA = "0x3DB82B0")]
+	[Address(RVA = "0x1C24480", Offset = "0x1C22A80", VA = "0x181C24480")]
 	public static object ParseEnum(Type enumType, NamingStrategy? namingStrategy, string value, bool disallowNumber)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x3DB8BA0", Offset = "0x3DB8BA0", VA = "0x3DB8BA0")]
+	[Address(RVA = "0x1C243B0", Offset = "0x1C229B0", VA = "0x181C243B0")]
 	private static int? MatchName(string value, string[] enumNames, string[] resolvedNames, int valueIndex, int valueSubstringLength, StringComparison comparison)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x3DB8AB0", Offset = "0x3DB8AB0", VA = "0x3DB8AB0")]
+	[Address(RVA = "0x1C23B60", Offset = "0x1C22160", VA = "0x181C23B60")]
 	private static int? FindIndexByName(string[] enumNames, string value, int valueIndex, int valueSubstringLength, StringComparison comparison)
 	{
 		return null;

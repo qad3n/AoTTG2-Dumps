@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x2000330")]
+[Token(Token = "0x2000307")]
 public enum DirectorUpdateMode
 {
-	[Token(Token = "0x4000A20")]
+	[Token(Token = "0x40007AA")]
 	DSPClock,
-	[Token(Token = "0x4000A21")]
+	[Token(Token = "0x40007AB")]
 	GameTime,
-	[Token(Token = "0x4000A22")]
+	[Token(Token = "0x40007AC")]
 	UnscaledGameTime,
-	[Token(Token = "0x4000A23")]
+	[Token(Token = "0x40007AD")]
 	Manual
 }

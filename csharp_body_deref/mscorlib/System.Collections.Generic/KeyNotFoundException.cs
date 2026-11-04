@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Collections.Generic;
 
 [Serializable]
-[Token(Token = "0x2000652")]
+[Token(Token = "0x2000626")]
 public class KeyNotFoundException : SystemException
 {
-	[Token(Token = "0x6003211")]
-	[Address(RVA = "0x3C8EAB0", Offset = "0x3C8EAB0", VA = "0x3C8EAB0")]
+	[Token(Token = "0x6002F26")]
+	[Address(RVA = "0x1AD5A40", Offset = "0x1AD4040", VA = "0x181AD5A40")]
 	public KeyNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x6003212")]
-	[Address(RVA = "0x3C8EAF0", Offset = "0x3C8EAF0", VA = "0x3C8EAF0")]
+	[Token(Token = "0x6002F27")]
+	[Address(RVA = "0x1AD5A90", Offset = "0x1AD4090", VA = "0x181AD5A90")]
 	public KeyNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x6003213")]
-	[Address(RVA = "0x3C8EB10", Offset = "0x3C8EB10", VA = "0x3C8EB10")]
+	[Token(Token = "0x6002F28")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected KeyNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}

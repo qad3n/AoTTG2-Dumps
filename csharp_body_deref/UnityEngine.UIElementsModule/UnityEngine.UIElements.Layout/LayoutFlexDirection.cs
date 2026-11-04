@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200051F")]
+[Token(Token = "0x2000613")]
 internal enum LayoutFlexDirection
 {
-	[Token(Token = "0x4001142")]
+	[Token(Token = "0x40016BB")]
 	Column,
-	[Token(Token = "0x4001143")]
+	[Token(Token = "0x40016BC")]
 	ColumnReverse,
-	[Token(Token = "0x4001144")]
+	[Token(Token = "0x40016BD")]
 	Row,
-	[Token(Token = "0x4001145")]
+	[Token(Token = "0x40016BE")]
 	RowReverse
 }

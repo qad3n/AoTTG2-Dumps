@@ -10,52 +10,52 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200001C")]
+[Token(Token = "0x200001A")]
 [RequireComponent(typeof(PhotonView))]
 public class MoveByKeys : MonoBehaviourPun
 {
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400006A")]
 	[FieldOffset(Offset = "0x28")]
 	public float Speed;
 
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x400006B")]
 	[FieldOffset(Offset = "0x2C")]
 	public float JumpForce;
 
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x400006C")]
 	[FieldOffset(Offset = "0x30")]
 	public float JumpTimeout;
 
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x400006D")]
 	[FieldOffset(Offset = "0x34")]
 	private bool isSprite;
 
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400006E")]
 	[FieldOffset(Offset = "0x38")]
 	private float jumpingTime;
 
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400006F")]
 	[FieldOffset(Offset = "0x40")]
 	private Rigidbody body;
 
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000070")]
 	[FieldOffset(Offset = "0x48")]
 	private Rigidbody2D body2d;
 
-	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x3F08BF0", Offset = "0x3F08BF0", VA = "0x3F08BF0")]
+	[Token(Token = "0x6000097")]
+	[Address(RVA = "0x1D53880", Offset = "0x1D51E80", VA = "0x181D53880")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x3F08CD0", Offset = "0x3F08CD0", VA = "0x3F08CD0")]
+	[Token(Token = "0x6000098")]
+	[Address(RVA = "0x1D533B0", Offset = "0x1D519B0", VA = "0x181D533B0")]
 	public void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x3F09100", Offset = "0x3F09100", VA = "0x3F09100")]
+	[Token(Token = "0x6000099")]
+	[Address(RVA = "0x1D53950", Offset = "0x1D51F50", VA = "0x181D53950")]
 	public MoveByKeys()
 	{
 	}

@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200008A")]
+[Token(Token = "0x2000054")]
 public static class UnsafeGenericPool<T> where T : new()
 {
-	[Token(Token = "0x4000222")]
+	[Token(Token = "0x4000143")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ObjectPool<T> s_Pool;
 
-	[Token(Token = "0x6000612")]
+	[Token(Token = "0x6000529")]
 	public static T Get()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000613")]
+	[Token(Token = "0x600052A")]
 	public static ObjectPool<T>.PooledObject Get(out T value)
 	{
 		return default(ObjectPool<T>.PooledObject);
 	}
 
-	[Token(Token = "0x6000614")]
+	[Token(Token = "0x600052B")]
 	public static void Release(T toRelease)
 	{
 	}

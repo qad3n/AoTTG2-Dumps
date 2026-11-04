@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000C9")]
+[Token(Token = "0x2000107")]
 internal enum ColumnDataType
 {
-	[Token(Token = "0x4000334")]
+	[Token(Token = "0x4000474")]
 	Name,
-	[Token(Token = "0x4000335")]
+	[Token(Token = "0x4000475")]
 	Title,
-	[Token(Token = "0x4000336")]
+	[Token(Token = "0x4000476")]
 	Icon,
-	[Token(Token = "0x4000337")]
+	[Token(Token = "0x4000477")]
 	Visibility,
-	[Token(Token = "0x4000338")]
+	[Token(Token = "0x4000478")]
 	Width,
-	[Token(Token = "0x4000339")]
+	[Token(Token = "0x4000479")]
 	MaxWidth,
-	[Token(Token = "0x400033A")]
+	[Token(Token = "0x400047A")]
 	MinWidth,
-	[Token(Token = "0x400033B")]
+	[Token(Token = "0x400047B")]
 	Stretchable,
-	[Token(Token = "0x400033C")]
+	[Token(Token = "0x400047C")]
 	Sortable,
-	[Token(Token = "0x400033D")]
+	[Token(Token = "0x400047D")]
 	Optional,
-	[Token(Token = "0x400033E")]
+	[Token(Token = "0x400047E")]
 	Resizable,
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x400047F")]
 	HeaderTemplate,
-	[Token(Token = "0x4000340")]
+	[Token(Token = "0x4000480")]
 	CellTemplate
 }

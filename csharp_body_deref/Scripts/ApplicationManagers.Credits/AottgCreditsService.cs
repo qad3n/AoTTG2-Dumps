@@ -17,101 +17,101 @@ using UnityEngine;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x20007AD")]
+[Token(Token = "0x2000938")]
 public sealed class AottgCreditsService : MonoBehaviour
 {
-	[Token(Token = "0x20007AE")]
+	[Token(Token = "0x2000939")]
 	private struct UnitKey
 	{
-		[Token(Token = "0x4002506")]
+		[Token(Token = "0x4002DD4")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public static readonly UnitKey Value;
 	}
 
 	[StructLayout((LayoutKind)3)]
-	[Token(Token = "0x20007B0")]
+	[Token(Token = "0x200093B")]
 	[CompilerGenerated]
 	private struct _003CFetchCreditsAsync_003Ed__6 : IAsyncStateMachine
 	{
-		[Token(Token = "0x4002508")]
+		[Token(Token = "0x4002DD6")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 		public int _003C_003E1__state;
 
-		[Token(Token = "0x4002509")]
+		[Token(Token = "0x4002DD7")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		public AsyncUniTaskMethodBuilder _003C_003Et__builder;
 
-		[Token(Token = "0x400250A")]
+		[Token(Token = "0x4002DD8")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		public Action<AottgQueryFetchResult<AottgCreditsResponse>> onComplete;
 
-		[Token(Token = "0x400250B")]
+		[Token(Token = "0x4002DD9")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private UniTask<AottgApiResult>.Awaiter _003C_003Eu__1;
 
-		[Token(Token = "0x60049F9")]
-		[Address(RVA = "0x43C7F80", Offset = "0x43C7F80", VA = "0x43C7F80", Slot = "4")]
+		[Token(Token = "0x6005671")]
+		[Address(RVA = "0x2372160", Offset = "0x2370760", VA = "0x182372160", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
-		[Token(Token = "0x60049FA")]
-		[Address(RVA = "0x43C8680", Offset = "0x43C8680", VA = "0x43C8680", Slot = "5")]
+		[Token(Token = "0x6005672")]
+		[Address(RVA = "0x8E6930", Offset = "0x8E4F30", VA = "0x1808E6930", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
 		}
 	}
 
-	[Token(Token = "0x4002504")]
+	[Token(Token = "0x4002DD2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static AottgCreditsService _instance;
 
-	[Token(Token = "0x4002505")]
+	[Token(Token = "0x4002DD3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private AottgQueryCache<UnitKey, AottgCreditsResponse> _cache;
 
-	[Token(Token = "0x60049EF")]
-	[Address(RVA = "0x43C7670", Offset = "0x43C7670", VA = "0x43C7670")]
+	[Token(Token = "0x6005667")]
+	[Address(RVA = "0x2365EF0", Offset = "0x23644F0", VA = "0x182365EF0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x60049F0")]
-	[Address(RVA = "0x43C7800", Offset = "0x43C7800", VA = "0x43C7800")]
+	[Token(Token = "0x6005668")]
+	[Address(RVA = "0x2365D10", Offset = "0x2364310", VA = "0x182365D10")]
 	public static void GetCredits(Action<AottgCreditsResult> onResult, bool forceRefresh = false)
 	{
 	}
 
-	[Token(Token = "0x60049F1")]
-	[Address(RVA = "0x43C7A50", Offset = "0x43C7A50", VA = "0x43C7A50")]
+	[Token(Token = "0x6005669")]
+	[Address(RVA = "0x2365AD0", Offset = "0x23640D0", VA = "0x182365AD0")]
 	public static void ClearSessionCache()
 	{
 	}
 
-	[Token(Token = "0x60049F2")]
-	[Address(RVA = "0x43C7B10", Offset = "0x43C7B10", VA = "0x43C7B10")]
+	[Token(Token = "0x600566A")]
+	[Address(RVA = "0x2365C50", Offset = "0x2364250", VA = "0x182365C50")]
 	private void FetchCredits(UnitKey key, Action<AottgQueryFetchResult<AottgCreditsResponse>> onComplete)
 	{
 	}
 
-	[Token(Token = "0x60049F3")]
-	[Address(RVA = "0x43C7BC0", Offset = "0x43C7BC0", VA = "0x43C7BC0")]
+	[Token(Token = "0x600566B")]
+	[Address(RVA = "0x2365B80", Offset = "0x2364180", VA = "0x182365B80")]
 	[AsyncStateMachine(typeof(_003CFetchCreditsAsync_003Ed__6))]
 	private UniTask FetchCreditsAsync(Action<AottgQueryFetchResult<AottgCreditsResponse>> onComplete)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x60049F4")]
-	[Address(RVA = "0x43C7C60", Offset = "0x43C7C60", VA = "0x43C7C60")]
+	[Token(Token = "0x600566C")]
+	[Address(RVA = "0x23660A0", Offset = "0x23646A0", VA = "0x1823660A0")]
 	private static AottgCreditsResult MapResult(AottgQueryResult<AottgCreditsResponse> result)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60049F5")]
-	[Address(RVA = "0x43C7F30", Offset = "0x43C7F30", VA = "0x43C7F30")]
+	[Token(Token = "0x600566D")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgCreditsService()
 	{
 	}

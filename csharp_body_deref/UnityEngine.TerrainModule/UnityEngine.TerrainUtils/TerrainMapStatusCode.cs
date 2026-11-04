@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TerrainUtils;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x200000B")]
 internal enum TerrainMapStatusCode
 {
-	[Token(Token = "0x4000016")]
+	[Token(Token = "0x4000021")]
 	OK = 0,
-	[Token(Token = "0x4000017")]
+	[Token(Token = "0x4000022")]
 	Overlapping = 1,
-	[Token(Token = "0x4000018")]
+	[Token(Token = "0x4000023")]
 	SizeMismatch = 4,
-	[Token(Token = "0x4000019")]
+	[Token(Token = "0x4000024")]
 	EdgeAlignmentMismatch = 8
 }

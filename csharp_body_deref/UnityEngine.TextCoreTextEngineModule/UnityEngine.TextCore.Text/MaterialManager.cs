@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x2000026")]
 internal static class MaterialManager
 {
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x40000FF")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<long, Material> s_FallbackMaterials;
 
-	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x4EB3920", Offset = "0x4EB3920", VA = "0x4EB3920")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x3013850", Offset = "0x3011E50", VA = "0x183013850")]
 	public static Material GetFallbackMaterial(Material sourceMaterial, Material targetMaterial)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x4EB3FC0", Offset = "0x4EB3FC0", VA = "0x4EB3FC0")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x3013D10", Offset = "0x3012310", VA = "0x183013D10")]
 	public static Material GetFallbackMaterial(FontAsset fontAsset, Material sourceMaterial, int atlasIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x4EB3D20", Offset = "0x4EB3D20", VA = "0x4EB3D20")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x3013560", Offset = "0x3011B60", VA = "0x183013560")]
 	private static void CopyMaterialPresetProperties(Material source, Material destination)
 	{
 	}

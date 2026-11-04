@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002B8")]
+[Token(Token = "0x20002E7")]
 public interface ICspAsymmetricAlgorithm
 {
-	[Token(Token = "0x17000270")]
+	[Token(Token = "0x17000272")]
 	CspKeyContainerInfo CspKeyContainerInfo
 	{
-		[Token(Token = "0x60017FB")]
+		[Token(Token = "0x6001863")]
 		get;
 	}
 
-	[Token(Token = "0x60017FC")]
+	[Token(Token = "0x6001864")]
 	byte[] ExportCspBlob(bool includePrivateParameters);
 
-	[Token(Token = "0x60017FD")]
+	[Token(Token = "0x6001865")]
 	void ImportCspBlob(byte[] rawData);
 }

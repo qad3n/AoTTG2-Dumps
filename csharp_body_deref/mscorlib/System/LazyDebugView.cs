@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000E4")]
+[Token(Token = "0x200010C")]
 internal sealed class LazyDebugView<T>
 {
 }

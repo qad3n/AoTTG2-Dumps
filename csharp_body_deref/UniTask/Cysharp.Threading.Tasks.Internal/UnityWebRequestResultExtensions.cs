@@ -10,11 +10,11 @@ using UnityEngine.Networking;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x200024A")]
+[Token(Token = "0x200024D")]
 internal static class UnityWebRequestResultExtensions
 {
-	[Token(Token = "0x6000D10")]
-	[Address(RVA = "0x49FAF80", Offset = "0x49FAF80", VA = "0x49FAF80")]
+	[Token(Token = "0x6000D34")]
+	[Address(RVA = "0x294FFA0", Offset = "0x294E5A0", VA = "0x18294FFA0")]
 	public static bool IsError(this UnityWebRequest unityWebRequest)
 	{
 		return default(bool);

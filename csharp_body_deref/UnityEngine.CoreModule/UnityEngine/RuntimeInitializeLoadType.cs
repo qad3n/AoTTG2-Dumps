@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000177")]
+[Token(Token = "0x20001AC")]
 public enum RuntimeInitializeLoadType
 {
-	[Token(Token = "0x4000598")]
+	[Token(Token = "0x400062B")]
 	AfterSceneLoad,
-	[Token(Token = "0x4000599")]
+	[Token(Token = "0x400062C")]
 	BeforeSceneLoad,
-	[Token(Token = "0x400059A")]
+	[Token(Token = "0x400062D")]
 	AfterAssembliesLoaded,
-	[Token(Token = "0x400059B")]
+	[Token(Token = "0x400062E")]
 	BeforeSplashScreen,
-	[Token(Token = "0x400059C")]
+	[Token(Token = "0x400062F")]
 	SubsystemRegistration
 }

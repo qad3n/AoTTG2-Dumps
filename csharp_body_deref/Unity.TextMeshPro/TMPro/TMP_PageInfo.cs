@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000019")]
+[Token(Token = "0x20000AA")]
 public struct TMP_PageInfo
 {
-	[Token(Token = "0x40000AF")]
+	[Token(Token = "0x40005C1")]
 	[FieldOffset(Offset = "0x0")]
 	public int firstCharacterIndex;
 
-	[Token(Token = "0x40000B0")]
+	[Token(Token = "0x40005C2")]
 	[FieldOffset(Offset = "0x4")]
 	public int lastCharacterIndex;
 
-	[Token(Token = "0x40000B1")]
+	[Token(Token = "0x40005C3")]
 	[FieldOffset(Offset = "0x8")]
 	public float ascender;
 
-	[Token(Token = "0x40000B2")]
+	[Token(Token = "0x40005C4")]
 	[FieldOffset(Offset = "0xC")]
 	public float baseLine;
 
-	[Token(Token = "0x40000B3")]
+	[Token(Token = "0x40005C5")]
 	[FieldOffset(Offset = "0x10")]
 	public float descender;
 }

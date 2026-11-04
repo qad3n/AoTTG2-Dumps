@@ -25,7 +25,7 @@ internal class NamespaceListNode : SyntaxTreeNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FE4")]
-		[Address(RVA = "0x48477C0", Offset = "0x48477C0", VA = "0x48477C0", Slot = "6")]
+		[Address(RVA = "0x27803A0", Offset = "0x277E9A0", VA = "0x1827803A0", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -33,26 +33,26 @@ internal class NamespaceListNode : SyntaxTreeNode
 	}
 
 	[Token(Token = "0x6000FE0")]
-	[Address(RVA = "0x48470D0", Offset = "0x48470D0", VA = "0x48470D0")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public NamespaceListNode(NamespaceList namespaceList, object particle)
 	{
 	}
 
 	[Token(Token = "0x6000FE1")]
-	[Address(RVA = "0x4847110", Offset = "0x4847110", VA = "0x4847110", Slot = "8")]
+	[Address(RVA = "0x2780370", Offset = "0x277E970", VA = "0x182780370", Slot = "8")]
 	public virtual ICollection GetResolvedSymbols(SymbolsDictionary symbols)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FE2")]
-	[Address(RVA = "0x4847130", Offset = "0x4847130", VA = "0x4847130", Slot = "4")]
+	[Address(RVA = "0x2780010", Offset = "0x277E610", VA = "0x182780010", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FE3")]
-	[Address(RVA = "0x4847780", Offset = "0x4847780", VA = "0x4847780", Slot = "5")]
+	[Address(RVA = "0x277FFD0", Offset = "0x277E5D0", VA = "0x18277FFD0", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}

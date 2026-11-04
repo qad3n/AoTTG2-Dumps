@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000211")]
+[Token(Token = "0x2000214")]
 public interface IAsyncOnMoveHandler
 {
-	[Token(Token = "0x6000C22")]
+	[Token(Token = "0x6000C46")]
 	UniTask<AxisEventData> OnMoveAsync();
 }

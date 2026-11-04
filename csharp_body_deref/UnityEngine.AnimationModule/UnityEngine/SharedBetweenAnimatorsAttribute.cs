@@ -12,8 +12,8 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Token(Token = "0x2000002")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class SharedBetweenAnimatorsAttribute : Attribute
 {
 }

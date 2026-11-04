@@ -9,36 +9,36 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200018F")]
+[Token(Token = "0x20001BA")]
 internal static class KnownTerminals
 {
-	[Token(Token = "0x1700016B")]
+	[Token(Token = "0x1700016D")]
 	public static byte[] linux
 	{
-		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x3D0CA50", Offset = "0x3D0CA50", VA = "0x3D0CA50")]
+		[Token(Token = "0x6001000")]
+		[Address(RVA = "0x1B82870", Offset = "0x1B80E70", VA = "0x181B82870")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700016C")]
+	[Token(Token = "0x1700016E")]
 	public static byte[] xterm
 	{
-		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x3D0CAB0", Offset = "0x3D0CAB0", VA = "0x3D0CAB0")]
+		[Token(Token = "0x6001001")]
+		[Address(RVA = "0x1B828D0", Offset = "0x1B80ED0", VA = "0x181B828D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700016D")]
+	[Token(Token = "0x1700016F")]
 	public static byte[] ansi
 	{
-		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x3D0CB10", Offset = "0x3D0CB10", VA = "0x3D0CB10")]
+		[Token(Token = "0x6001002")]
+		[Address(RVA = "0x1B82810", Offset = "0x1B80E10", VA = "0x181B82810")]
 		get
 		{
 			return null;

@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaMaxLengthFacet : XmlSchemaNumericFacet
 {
 	[Token(Token = "0x6001662")]
-	[Address(RVA = "0x4724C60", Offset = "0x4724C60", VA = "0x4724C60")]
+	[Address(RVA = "0x266CCC0", Offset = "0x266B2C0", VA = "0x18266CCC0")]
 	public XmlSchemaMaxLengthFacet()
 	{
 	}

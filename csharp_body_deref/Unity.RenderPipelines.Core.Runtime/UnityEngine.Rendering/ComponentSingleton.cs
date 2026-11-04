@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000066")]
+[Token(Token = "0x2000029")]
 public static class ComponentSingleton<TType> where TType : Component
 {
-	[Token(Token = "0x40001B4")]
+	[Token(Token = "0x40000B7")]
 	[FieldOffset(Offset = "0x0")]
 	private static TType s_Instance;
 
-	[Token(Token = "0x1700004F")]
+	[Token(Token = "0x1700002D")]
 	public static TType instance
 	{
-		[Token(Token = "0x600055B")]
+		[Token(Token = "0x600044B")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600055C")]
+	[Token(Token = "0x600044C")]
 	public static void Release()
 	{
 	}

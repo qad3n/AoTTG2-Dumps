@@ -25,7 +25,7 @@ public abstract class XmlSchemaGroupBase : XmlSchemaParticle
 	internal abstract void SetItems(XmlSchemaObjectCollection newItems);
 
 	[Token(Token = "0x600167F")]
-	[Address(RVA = "0x471DDE0", Offset = "0x471DDE0", VA = "0x471DDE0")]
+	[Address(RVA = "0x266C2D0", Offset = "0x266A8D0", VA = "0x18266C2D0")]
 	protected XmlSchemaGroupBase()
 	{
 	}

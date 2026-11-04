@@ -10,17 +10,17 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x2000535")]
+[Token(Token = "0x2000690")]
 internal interface ITargetable
 {
-	[Token(Token = "0x600363E")]
+	[Token(Token = "0x600407E")]
 	string GetTeam();
 
-	[Token(Token = "0x600363F")]
+	[Token(Token = "0x600407F")]
 	Vector3 GetPosition();
 
-	[Token(Token = "0x6003640")]
-	[Address(RVA = "0x41FD000", Offset = "0x41FD000", VA = "0x41FD000", Slot = "2")]
+	[Token(Token = "0x6004080")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "2")]
 	bool ValidTarget()
 	{
 		return default(bool);

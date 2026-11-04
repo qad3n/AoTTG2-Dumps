@@ -15,8 +15,8 @@ namespace RuntimeSceneGizmo;
 [Token(Token = "0x200005D")]
 public class ComponentClickedEvent : UnityEvent<GizmoComponent>
 {
-	[Token(Token = "0x60002E1")]
-	[Address(RVA = "0x3F83BB0", Offset = "0x3F83BB0", VA = "0x3F83BB0")]
+	[Token(Token = "0x60002F1")]
+	[Address(RVA = "0x1DBA380", Offset = "0x1DB8980", VA = "0x181DBA380")]
 	public ComponentClickedEvent()
 	{
 	}

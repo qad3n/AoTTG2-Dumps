@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002AC")]
+[Token(Token = "0x20001B7")]
 public class LicFileLicenseProvider : LicenseProvider
 {
-	[Token(Token = "0x20002AD")]
+	[Token(Token = "0x20001B8")]
 	private class LicFileLicense : License
 	{
-		[Token(Token = "0x4000D77")]
+		[Token(Token = "0x40006AE")]
 		[FieldOffset(Offset = "0x10")]
 		private LicFileLicenseProvider _owner;
 
-		[Token(Token = "0x170003C3")]
+		[Token(Token = "0x17000232")]
 		public override string LicenseKey
 		{
-			[Token(Token = "0x60010D3")]
-			[Address(RVA = "0x48954F0", Offset = "0x48954F0", VA = "0x48954F0", Slot = "5")]
+			[Token(Token = "0x6000B1B")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 			[CompilerGenerated]
 			get
 			{
@@ -32,42 +32,42 @@ public class LicFileLicenseProvider : LicenseProvider
 			}
 		}
 
-		[Token(Token = "0x60010D2")]
-		[Address(RVA = "0x4895480", Offset = "0x4895480", VA = "0x4895480")]
+		[Token(Token = "0x6000B1A")]
+		[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 		public LicFileLicense(LicFileLicenseProvider owner, string key)
 		{
 		}
 
-		[Token(Token = "0x60010D4")]
-		[Address(RVA = "0x4895500", Offset = "0x4895500", VA = "0x4895500", Slot = "6")]
+		[Token(Token = "0x6000B1C")]
+		[Address(RVA = "0x289F890", Offset = "0x289DE90", VA = "0x18289F890", Slot = "6")]
 		public override void Dispose()
 		{
 		}
 	}
 
-	[Token(Token = "0x60010CE")]
-	[Address(RVA = "0x4894F10", Offset = "0x4894F10", VA = "0x4894F10", Slot = "5")]
+	[Token(Token = "0x6000B16")]
+	[Address(RVA = "0x289F850", Offset = "0x289DE50", VA = "0x18289F850", Slot = "5")]
 	protected virtual bool IsKeyValid(string key, Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60010CF")]
-	[Address(RVA = "0x4894F50", Offset = "0x4894F50", VA = "0x4894F50", Slot = "6")]
+	[Token(Token = "0x6000B17")]
+	[Address(RVA = "0x289F370", Offset = "0x289D970", VA = "0x18289F370", Slot = "6")]
 	protected virtual string GetKey(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D0")]
-	[Address(RVA = "0x4895000", Offset = "0x4895000", VA = "0x4895000", Slot = "4")]
+	[Token(Token = "0x6000B18")]
+	[Address(RVA = "0x289F410", Offset = "0x289DA10", VA = "0x18289F410", Slot = "4")]
 	public override License GetLicense(LicenseContext context, Type type, object instance, bool allowExceptions)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010D1")]
-	[Address(RVA = "0x48954C0", Offset = "0x48954C0", VA = "0x48954C0")]
+	[Token(Token = "0x6000B19")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public LicFileLicenseProvider()
 	{
 	}

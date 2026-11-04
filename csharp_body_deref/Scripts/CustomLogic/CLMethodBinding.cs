@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002A5")]
+[Token(Token = "0x20003F0")]
 internal abstract class CLMethodBinding : ICLMemberBinding
 {
-	[Token(Token = "0x6000FAF")]
+	[Token(Token = "0x6001831")]
 	public abstract object Call(object instance, object[] parameters);
 
-	[Token(Token = "0x6000FB0")]
-	[Address(RVA = "0x3FB9890", Offset = "0x3FB9890", VA = "0x3FB9890")]
+	[Token(Token = "0x6001832")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected CLMethodBinding()
 	{
 	}
 }
-[Token(Token = "0x20002A6")]
+[Token(Token = "0x20003F1")]
 internal class CLMethodBinding<T> : CLMethodBinding where T : CustomLogicClassInstance
 {
-	[Token(Token = "0x4000DF4")]
+	[Token(Token = "0x4001414")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Func<T, object[], object> _function;
 
-	[Token(Token = "0x6000FB1")]
+	[Token(Token = "0x6001833")]
 	public CLMethodBinding(Func<T, object[], object> function)
 	{
 	}
 
-	[Token(Token = "0x6000FB2")]
+	[Token(Token = "0x6001834")]
 	public override object Call(object instance, object[] parameters)
 	{
 		return null;

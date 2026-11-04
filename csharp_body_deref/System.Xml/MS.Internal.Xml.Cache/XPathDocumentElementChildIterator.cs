@@ -22,26 +22,26 @@ internal class XPathDocumentElementChildIterator : XPathDocumentBaseIterator
 	private string _namespaceUri;
 
 	[Token(Token = "0x6001C6E")]
-	[Address(RVA = "0x478F0F0", Offset = "0x478F0F0", VA = "0x478F0F0")]
+	[Address(RVA = "0x26D5210", Offset = "0x26D3810", VA = "0x1826D5210")]
 	public XPathDocumentElementChildIterator(XPathDocumentNavigator parent, string name, string namespaceURI)
 	{
 	}
 
 	[Token(Token = "0x6001C6F")]
-	[Address(RVA = "0x478F210", Offset = "0x478F210", VA = "0x478F210")]
+	[Address(RVA = "0x26D51C0", Offset = "0x26D37C0", VA = "0x1826D51C0")]
 	public XPathDocumentElementChildIterator(XPathDocumentElementChildIterator iter)
 	{
 	}
 
 	[Token(Token = "0x6001C70")]
-	[Address(RVA = "0x478F2C0", Offset = "0x478F2C0", VA = "0x478F2C0", Slot = "6")]
+	[Address(RVA = "0x26D50D0", Offset = "0x26D36D0", VA = "0x1826D50D0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C71")]
-	[Address(RVA = "0x478F310", Offset = "0x478F310", VA = "0x478F310", Slot = "7")]
+	[Address(RVA = "0x26D5160", Offset = "0x26D3760", VA = "0x1826D5160", Slot = "7")]
 	public override bool MoveNext()
 	{
 		return default(bool);

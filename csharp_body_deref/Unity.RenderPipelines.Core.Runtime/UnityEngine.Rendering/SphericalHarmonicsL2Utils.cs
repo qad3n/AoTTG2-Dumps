@@ -9,66 +9,66 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000156")]
+[Token(Token = "0x200014B")]
 public class SphericalHarmonicsL2Utils
 {
-	[Token(Token = "0x6000A6D")]
-	[Address(RVA = "0x4BD40C0", Offset = "0x4BD40C0", VA = "0x4BD40C0")]
+	[Token(Token = "0x6000AED")]
+	[Address(RVA = "0x2B34090", Offset = "0x2B32690", VA = "0x182B34090")]
 	public static void GetL1(SphericalHarmonicsL2 sh, out Vector3 L1_R, out Vector3 L1_G, out Vector3 L1_B)
 	{
 	}
 
-	[Token(Token = "0x6000A6E")]
-	[Address(RVA = "0x4BD4200", Offset = "0x4BD4200", VA = "0x4BD4200")]
+	[Token(Token = "0x6000AEE")]
+	[Address(RVA = "0x2B341C0", Offset = "0x2B327C0", VA = "0x182B341C0")]
 	public static void GetL2(SphericalHarmonicsL2 sh, out Vector3 L2_0, out Vector3 L2_1, out Vector3 L2_2, out Vector3 L2_3, out Vector3 L2_4)
 	{
 	}
 
-	[Token(Token = "0x6000A6F")]
-	[Address(RVA = "0x4BD4410", Offset = "0x4BD4410", VA = "0x4BD4410")]
+	[Token(Token = "0x6000AEF")]
+	[Address(RVA = "0x2B34420", Offset = "0x2B32A20", VA = "0x182B34420")]
 	public static void SetL0(ref SphericalHarmonicsL2 sh, Vector3 L0)
 	{
 	}
 
-	[Token(Token = "0x6000A70")]
-	[Address(RVA = "0x4BD4470", Offset = "0x4BD4470", VA = "0x4BD4470")]
+	[Token(Token = "0x6000AF0")]
+	[Address(RVA = "0x2B34590", Offset = "0x2B32B90", VA = "0x182B34590")]
 	public static void SetL1R(ref SphericalHarmonicsL2 sh, Vector3 L1_R)
 	{
 	}
 
-	[Token(Token = "0x6000A71")]
-	[Address(RVA = "0x4BD44D0", Offset = "0x4BD44D0", VA = "0x4BD44D0")]
+	[Token(Token = "0x6000AF1")]
+	[Address(RVA = "0x2B34510", Offset = "0x2B32B10", VA = "0x182B34510")]
 	public static void SetL1G(ref SphericalHarmonicsL2 sh, Vector3 L1_G)
 	{
 	}
 
-	[Token(Token = "0x6000A72")]
-	[Address(RVA = "0x4BD4530", Offset = "0x4BD4530", VA = "0x4BD4530")]
+	[Token(Token = "0x6000AF2")]
+	[Address(RVA = "0x2B34490", Offset = "0x2B32A90", VA = "0x182B34490")]
 	public static void SetL1B(ref SphericalHarmonicsL2 sh, Vector3 L1_B)
 	{
 	}
 
-	[Token(Token = "0x6000A73")]
-	[Address(RVA = "0x4BD4590", Offset = "0x4BD4590", VA = "0x4BD4590")]
+	[Token(Token = "0x6000AF3")]
+	[Address(RVA = "0x2B34610", Offset = "0x2B32C10", VA = "0x182B34610")]
 	public static void SetL1(ref SphericalHarmonicsL2 sh, Vector3 L1_R, Vector3 L1_G, Vector3 L1_B)
 	{
 	}
 
-	[Token(Token = "0x6000A74")]
-	[Address(RVA = "0x4BD46A0", Offset = "0x4BD46A0", VA = "0x4BD46A0")]
+	[Token(Token = "0x6000AF4")]
+	[Address(RVA = "0x2B343A0", Offset = "0x2B329A0", VA = "0x182B343A0")]
 	public static void SetCoefficient(ref SphericalHarmonicsL2 sh, int index, Vector3 coefficient)
 	{
 	}
 
-	[Token(Token = "0x6000A75")]
-	[Address(RVA = "0x4BD4700", Offset = "0x4BD4700", VA = "0x4BD4700")]
+	[Token(Token = "0x6000AF5")]
+	[Address(RVA = "0x2B34000", Offset = "0x2B32600", VA = "0x182B34000")]
 	public static Vector3 GetCoefficient(SphericalHarmonicsL2 sh, int index)
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6000A76")]
-	[Address(RVA = "0x4BD4760", Offset = "0x4BD4760", VA = "0x4BD4760")]
+	[Token(Token = "0x6000AF6")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public SphericalHarmonicsL2Utils()
 	{
 	}

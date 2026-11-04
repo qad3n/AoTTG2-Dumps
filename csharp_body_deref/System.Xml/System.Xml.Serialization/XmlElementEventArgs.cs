@@ -33,7 +33,7 @@ public class XmlElementEventArgs : EventArgs
 	private int linePosition;
 
 	[Token(Token = "0x6000CBB")]
-	[Address(RVA = "0x48095C0", Offset = "0x48095C0", VA = "0x48095C0")]
+	[Address(RVA = "0x2755130", Offset = "0x2753730", VA = "0x182755130")]
 	internal XmlElementEventArgs(XmlElement elem, int lineNumber, int linePosition, object o, string qnames)
 	{
 	}

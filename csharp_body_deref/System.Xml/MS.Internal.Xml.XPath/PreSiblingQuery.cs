@@ -18,7 +18,7 @@ internal class PreSiblingQuery : CacheAxisQuery
 	public override QueryProps Properties
 	{
 		[Token(Token = "0x6001B95")]
-		[Address(RVA = "0x4784390", Offset = "0x4784390", VA = "0x4784390", Slot = "17")]
+		[Address(RVA = "0x26C39F0", Offset = "0x26C1FF0", VA = "0x1826C39F0", Slot = "17")]
 		get
 		{
 			return default(QueryProps);
@@ -26,33 +26,33 @@ internal class PreSiblingQuery : CacheAxisQuery
 	}
 
 	[Token(Token = "0x6001B90")]
-	[Address(RVA = "0x4783E70", Offset = "0x4783E70", VA = "0x4783E70")]
+	[Address(RVA = "0x26C1810", Offset = "0x26BFE10", VA = "0x1826C1810")]
 	public PreSiblingQuery(Query qyInput, string name, string prefix, XPathNodeType typeTest)
 	{
 	}
 
 	[Token(Token = "0x6001B91")]
-	[Address(RVA = "0x4783F10", Offset = "0x4783F10", VA = "0x4783F10")]
+	[Address(RVA = "0x26C1820", Offset = "0x26BFE20", VA = "0x1826C1820")]
 	protected PreSiblingQuery(PreSiblingQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001B92")]
-	[Address(RVA = "0x4783F20", Offset = "0x4783F20", VA = "0x4783F20")]
+	[Address(RVA = "0x26C38F0", Offset = "0x26C1EF0", VA = "0x1826C38F0")]
 	private static bool NotVisited(XPathNavigator nav, List<XPathNavigator> parentStk)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001B93")]
-	[Address(RVA = "0x4784050", Offset = "0x4784050", VA = "0x4784050", Slot = "14")]
+	[Address(RVA = "0x26C3660", Offset = "0x26C1C60", VA = "0x1826C3660", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B94")]
-	[Address(RVA = "0x4784340", Offset = "0x4784340", VA = "0x4784340", Slot = "6")]
+	[Address(RVA = "0x26C3600", Offset = "0x26C1C00", VA = "0x1826C3600", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

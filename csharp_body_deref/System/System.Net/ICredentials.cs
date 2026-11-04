@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200013F")]
+[Token(Token = "0x20002C7")]
 public interface ICredentials
 {
-	[Token(Token = "0x60007C6")]
+	[Token(Token = "0x6001385")]
 	NetworkCredential GetCredential(Uri uri, string authType);
 }

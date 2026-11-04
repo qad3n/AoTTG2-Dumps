@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200004F")]
+[Token(Token = "0x2000084")]
 public enum AlternatingRowBackground
 {
-	[Token(Token = "0x4000151")]
+	[Token(Token = "0x4000251")]
 	None,
-	[Token(Token = "0x4000152")]
+	[Token(Token = "0x4000252")]
 	ContentOnly,
-	[Token(Token = "0x4000153")]
+	[Token(Token = "0x4000253")]
 	All
 }

@@ -11,60 +11,60 @@ using Il2CppDummyDll;
 namespace System.ComponentModel;
 
 [Serializable]
-[Token(Token = "0x2000300")]
+[Token(Token = "0x200020B")]
 public class LicenseException : SystemException
 {
-	[Token(Token = "0x4000E55")]
+	[Token(Token = "0x400078C")]
 	[FieldOffset(Offset = "0x90")]
 	private Type type;
 
-	[Token(Token = "0x4000E56")]
+	[Token(Token = "0x400078D")]
 	[FieldOffset(Offset = "0x98")]
 	private object instance;
 
-	[Token(Token = "0x17000462")]
+	[Token(Token = "0x170002D1")]
 	public Type LicensedType
 	{
-		[Token(Token = "0x6001362")]
-		[Address(RVA = "0x48B41D0", Offset = "0x48B41D0", VA = "0x48B41D0")]
+		[Token(Token = "0x6000DAA")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600135D")]
-	[Address(RVA = "0x48B3CD0", Offset = "0x48B3CD0", VA = "0x48B3CD0")]
+	[Token(Token = "0x6000DA5")]
+	[Address(RVA = "0x28B4340", Offset = "0x28B2940", VA = "0x1828B4340")]
 	public LicenseException(Type type)
 	{
 	}
 
-	[Token(Token = "0x600135E")]
-	[Address(RVA = "0x48B3E60", Offset = "0x48B3E60", VA = "0x48B3E60")]
+	[Token(Token = "0x6000DA6")]
+	[Address(RVA = "0x28B4000", Offset = "0x28B2600", VA = "0x1828B4000")]
 	public LicenseException(Type type, object instance)
 	{
 	}
 
-	[Token(Token = "0x600135F")]
-	[Address(RVA = "0x48B3E00", Offset = "0x48B3E00", VA = "0x48B3E00")]
+	[Token(Token = "0x6000DA7")]
+	[Address(RVA = "0x28B3F90", Offset = "0x28B2590", VA = "0x1828B3F90")]
 	public LicenseException(Type type, object instance, string message)
 	{
 	}
 
-	[Token(Token = "0x6001360")]
-	[Address(RVA = "0x48B4000", Offset = "0x48B4000", VA = "0x48B4000")]
+	[Token(Token = "0x6000DA8")]
+	[Address(RVA = "0x28B3F20", Offset = "0x28B2520", VA = "0x1828B3F20")]
 	public LicenseException(Type type, object instance, string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6001361")]
-	[Address(RVA = "0x48B4060", Offset = "0x48B4060", VA = "0x48B4060")]
+	[Token(Token = "0x6000DA9")]
+	[Address(RVA = "0x28B41B0", Offset = "0x28B27B0", VA = "0x1828B41B0")]
 	protected LicenseException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6001363")]
-	[Address(RVA = "0x48B41E0", Offset = "0x48B41E0", VA = "0x48B41E0", Slot = "11")]
+	[Token(Token = "0x6000DAB")]
+	[Address(RVA = "0x28B3E30", Offset = "0x28B2430", VA = "0x1828B3E30", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20001AD")]
+[Token(Token = "0x2000088")]
 public enum SpritePackingRotation
 {
-	[Token(Token = "0x400061A")]
+	[Token(Token = "0x4000129")]
 	None = 0,
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x400012A")]
 	FlipHorizontal = 1,
-	[Token(Token = "0x400061C")]
+	[Token(Token = "0x400012B")]
 	FlipVertical = 2,
-	[Token(Token = "0x400061D")]
+	[Token(Token = "0x400012C")]
 	Rotate180 = 3,
-	[Token(Token = "0x400061E")]
+	[Token(Token = "0x400012D")]
 	Any = 15
 }

@@ -24,7 +24,7 @@ internal struct XPathNodeRef
 	public XPathNode[] Page
 	{
 		[Token(Token = "0x6001CC7")]
-		[Address(RVA = "0x47931F0", Offset = "0x47931F0", VA = "0x47931F0")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return null;
@@ -35,7 +35,7 @@ internal struct XPathNodeRef
 	public int Index
 	{
 		[Token(Token = "0x6001CC8")]
-		[Address(RVA = "0x4793200", Offset = "0x4793200", VA = "0x4793200")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
 		get
 		{
 			return default(int);
@@ -43,13 +43,13 @@ internal struct XPathNodeRef
 	}
 
 	[Token(Token = "0x6001CC6")]
-	[Address(RVA = "0x47931D0", Offset = "0x47931D0", VA = "0x47931D0")]
+	[Address(RVA = "0xCFB160", Offset = "0xCF9760", VA = "0x180CFB160")]
 	public XPathNodeRef(XPathNode[] page, int idx)
 	{
 	}
 
 	[Token(Token = "0x6001CC9")]
-	[Address(RVA = "0x4793210", Offset = "0x4793210", VA = "0x4793210", Slot = "2")]
+	[Address(RVA = "0x26D9E80", Offset = "0x26D8480", VA = "0x1826D9E80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

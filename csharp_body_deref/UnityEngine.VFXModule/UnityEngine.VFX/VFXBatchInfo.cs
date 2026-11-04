@@ -10,15 +10,15 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.VFX;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000008")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal struct VFXBatchInfo
 {
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x4000016")]
 	[FieldOffset(Offset = "0x0")]
 	public uint capacity;
 
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x4000017")]
 	[FieldOffset(Offset = "0x4")]
 	public uint activeInstanceCount;
 }

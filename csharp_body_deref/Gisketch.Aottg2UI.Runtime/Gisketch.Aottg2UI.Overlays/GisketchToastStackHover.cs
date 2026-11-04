@@ -12,33 +12,33 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Overlays;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x200004B")]
 public sealed class GisketchToastStackHover : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerExitHandler
 {
-	[Token(Token = "0x400011F")]
+	[Token(Token = "0x4000173")]
 	[FieldOffset(Offset = "0x20")]
 	private Action<bool> _hover;
 
-	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x3A53D90", Offset = "0x3A53D90", VA = "0x3A53D90")]
+	[Token(Token = "0x60002A6")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 	public void Setup(Action<bool> hover)
 	{
 	}
 
-	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x3A53DA0", Offset = "0x3A53DA0", VA = "0x3A53DA0", Slot = "4")]
+	[Token(Token = "0x60002A7")]
+	[Address(RVA = "0x18B9C80", Offset = "0x18B8280", VA = "0x1818B9C80", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x3A53DC0", Offset = "0x3A53DC0", VA = "0x3A53DC0", Slot = "5")]
+	[Token(Token = "0x60002A8")]
+	[Address(RVA = "0x18B9CA0", Offset = "0x18B82A0", VA = "0x1818B9CA0", Slot = "5")]
 	public void OnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x3A53DE0", Offset = "0x3A53DE0", VA = "0x3A53DE0")]
+	[Token(Token = "0x60002A9")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchToastStackHover()
 	{
 	}

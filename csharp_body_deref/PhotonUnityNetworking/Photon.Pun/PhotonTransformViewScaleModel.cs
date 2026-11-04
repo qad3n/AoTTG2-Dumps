@@ -11,38 +11,38 @@ using Il2CppDummyDll;
 namespace Photon.Pun;
 
 [Serializable]
-[Token(Token = "0x200003E")]
+[Token(Token = "0x200003C")]
 public class PhotonTransformViewScaleModel
 {
-	[Token(Token = "0x200003F")]
+	[Token(Token = "0x200003D")]
 	public enum InterpolateOptions
 	{
-		[Token(Token = "0x400014D")]
+		[Token(Token = "0x4000148")]
 		Disabled,
-		[Token(Token = "0x400014E")]
+		[Token(Token = "0x4000149")]
 		MoveTowards,
-		[Token(Token = "0x400014F")]
+		[Token(Token = "0x400014A")]
 		Lerp
 	}
 
-	[Token(Token = "0x4000148")]
+	[Token(Token = "0x4000143")]
 	[FieldOffset(Offset = "0x10")]
 	public bool SynchronizeEnabled;
 
-	[Token(Token = "0x4000149")]
+	[Token(Token = "0x4000144")]
 	[FieldOffset(Offset = "0x14")]
 	public InterpolateOptions InterpolateOption;
 
-	[Token(Token = "0x400014A")]
+	[Token(Token = "0x4000145")]
 	[FieldOffset(Offset = "0x18")]
 	public float InterpolateMoveTowardsSpeed;
 
-	[Token(Token = "0x400014B")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x1C")]
 	public float InterpolateLerpSpeed;
 
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x3F14740", Offset = "0x3F14740", VA = "0x3F14740")]
+	[Token(Token = "0x60001D7")]
+	[Address(RVA = "0x1D668C0", Offset = "0x1D64EC0", VA = "0x181D668C0")]
 	public PhotonTransformViewScaleModel()
 	{
 	}

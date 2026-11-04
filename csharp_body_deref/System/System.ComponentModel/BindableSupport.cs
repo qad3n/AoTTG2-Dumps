@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x200026B")]
+[Token(Token = "0x2000176")]
 public enum BindableSupport
 {
-	[Token(Token = "0x4000D0F")]
+	[Token(Token = "0x4000646")]
 	No,
-	[Token(Token = "0x4000D10")]
+	[Token(Token = "0x4000647")]
 	Yes,
-	[Token(Token = "0x4000D11")]
+	[Token(Token = "0x4000648")]
 	Default
 }

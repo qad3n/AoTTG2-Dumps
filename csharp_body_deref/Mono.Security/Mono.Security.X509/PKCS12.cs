@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Mono.Security.X509.PKCS12
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -50,8 +50,8 @@ public class PKCS12 : ICloneable
 		[Token(Token = "0x1700001E")]
 		public string HashName
 		{
-			[Token(Token = "0x6000063")]
-			[Address(RVA = "0x3AACE80", Offset = "0x3AACE80", VA = "0x3AACE80")]
+			[Token(Token = "0x6000066")]
+			[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 			set
 			{
 			}
@@ -60,8 +60,8 @@ public class PKCS12 : ICloneable
 		[Token(Token = "0x1700001F")]
 		public int IterationCount
 		{
-			[Token(Token = "0x6000064")]
-			[Address(RVA = "0x3AACE90", Offset = "0x3AACE90", VA = "0x3AACE90")]
+			[Token(Token = "0x6000067")]
+			[Address(RVA = "0x111C9C0", Offset = "0x111AFC0", VA = "0x18111C9C0")]
 			set
 			{
 			}
@@ -70,8 +70,8 @@ public class PKCS12 : ICloneable
 		[Token(Token = "0x17000020")]
 		public byte[] Password
 		{
-			[Token(Token = "0x6000065")]
-			[Address(RVA = "0x3AA5410", Offset = "0x3AA5410", VA = "0x3AA5410")]
+			[Token(Token = "0x6000068")]
+			[Address(RVA = "0x1916F30", Offset = "0x1915530", VA = "0x181916F30")]
 			set
 			{
 			}
@@ -80,48 +80,48 @@ public class PKCS12 : ICloneable
 		[Token(Token = "0x17000021")]
 		public byte[] Salt
 		{
-			[Token(Token = "0x6000066")]
-			[Address(RVA = "0x3AA54E0", Offset = "0x3AA54E0", VA = "0x3AA54E0")]
+			[Token(Token = "0x6000069")]
+			[Address(RVA = "0x1917010", Offset = "0x1915610", VA = "0x181917010")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x3AA5400", Offset = "0x3AA5400", VA = "0x3AA5400")]
+		[Token(Token = "0x6000065")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public DeriveBytes()
 		{
 		}
 
-		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x3AACEA0", Offset = "0x3AACEA0", VA = "0x3AACEA0")]
+		[Token(Token = "0x600006A")]
+		[Address(RVA = "0x1916740", Offset = "0x1914D40", VA = "0x181916740")]
 		private void Adjust(byte[] a, int aOff, byte[] b)
 		{
 		}
 
-		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x3AACFA0", Offset = "0x3AACFA0", VA = "0x3AACFA0")]
+		[Token(Token = "0x600006B")]
+		[Address(RVA = "0x1916950", Offset = "0x1914F50", VA = "0x181916950")]
 		private byte[] Derive(byte[] diversifier, int n)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x3AA55A0", Offset = "0x3AA55A0", VA = "0x3AA55A0")]
+		[Token(Token = "0x600006C")]
+		[Address(RVA = "0x1916870", Offset = "0x1914E70", VA = "0x181916870")]
 		public byte[] DeriveKey(int size)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x3AA5600", Offset = "0x3AA5600", VA = "0x3AA5600")]
+		[Token(Token = "0x600006D")]
+		[Address(RVA = "0x1916800", Offset = "0x1914E00", VA = "0x181916800")]
 		public byte[] DeriveIV(int size)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x3AA7E30", Offset = "0x3AA7E30", VA = "0x3AA7E30")]
+		[Token(Token = "0x600006E")]
+		[Address(RVA = "0x19168E0", Offset = "0x1914EE0", VA = "0x1819168E0")]
 		public byte[] DeriveMAC(int size)
 		{
 			return null;
@@ -176,7 +176,7 @@ public class PKCS12 : ICloneable
 	public string Password
 	{
 		[Token(Token = "0x6000049")]
-		[Address(RVA = "0x3AA1C50", Offset = "0x3AA1C50", VA = "0x3AA1C50")]
+		[Address(RVA = "0x191FEF0", Offset = "0x191E4F0", VA = "0x18191FEF0")]
 		set
 		{
 		}
@@ -186,13 +186,13 @@ public class PKCS12 : ICloneable
 	public int IterationCount
 	{
 		[Token(Token = "0x600004A")]
-		[Address(RVA = "0x3AA3880", Offset = "0x3AA3880", VA = "0x3AA3880")]
+		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600004B")]
-		[Address(RVA = "0x3AA3890", Offset = "0x3AA3890", VA = "0x3AA3890")]
+		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
 		set
 		{
 		}
@@ -202,7 +202,7 @@ public class PKCS12 : ICloneable
 	public ArrayList Keys
 	{
 		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x3AA38A0", Offset = "0x3AA38A0", VA = "0x3AA38A0")]
+		[Address(RVA = "0x191F880", Offset = "0x191DE80", VA = "0x18191F880")]
 		get
 		{
 			return null;
@@ -213,7 +213,7 @@ public class PKCS12 : ICloneable
 	public X509CertificateCollection Certificates
 	{
 		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x3AA46B0", Offset = "0x3AA46B0", VA = "0x3AA46B0")]
+		[Address(RVA = "0x191F4A0", Offset = "0x191DAA0", VA = "0x18191F4A0")]
 		get
 		{
 			return null;
@@ -224,7 +224,7 @@ public class PKCS12 : ICloneable
 	internal RandomNumberGenerator RNG
 	{
 		[Token(Token = "0x600004E")]
-		[Address(RVA = "0x3AA4DF0", Offset = "0x3AA4DF0", VA = "0x3AA4DF0")]
+		[Address(RVA = "0x191FEB0", Offset = "0x191E4B0", VA = "0x18191FEB0")]
 		get
 		{
 			return null;
@@ -234,8 +234,8 @@ public class PKCS12 : ICloneable
 	[Token(Token = "0x1700001D")]
 	public static int MaximumPasswordLength
 	{
-		[Token(Token = "0x6000060")]
-		[Address(RVA = "0x3AACDD0", Offset = "0x3AACDD0", VA = "0x3AACDD0")]
+		[Token(Token = "0x6000063")]
+		[Address(RVA = "0x191FE60", Offset = "0x191E460", VA = "0x18191FE60")]
 		get
 		{
 			return default(int);
@@ -243,143 +243,163 @@ public class PKCS12 : ICloneable
 	}
 
 	[Token(Token = "0x6000044")]
-	[Address(RVA = "0x3AA1AD0", Offset = "0x3AA1AD0", VA = "0x3AA1AD0")]
+	[Address(RVA = "0x191F3A0", Offset = "0x191D9A0", VA = "0x18191F3A0")]
 	public PKCS12()
 	{
 	}
 
 	[Token(Token = "0x6000045")]
-	[Address(RVA = "0x3AA1BD0", Offset = "0x3AA1BD0", VA = "0x3AA1BD0")]
+	[Address(RVA = "0x191F310", Offset = "0x191D910", VA = "0x18191F310")]
 	public PKCS12(byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x3AA2990", Offset = "0x3AA2990", VA = "0x3AA2990")]
+	[Address(RVA = "0x191F2C0", Offset = "0x191D8C0", VA = "0x18191F2C0")]
 	public PKCS12(byte[] data, string password)
 	{
 	}
 
 	[Token(Token = "0x6000047")]
-	[Address(RVA = "0x3AA1E80", Offset = "0x3AA1E80", VA = "0x3AA1E80")]
+	[Address(RVA = "0x1918FB0", Offset = "0x19175B0", VA = "0x181918FB0")]
 	private void Decode(byte[] data)
 	{
 	}
 
 	[Token(Token = "0x6000048")]
-	[Address(RVA = "0x3AA37D0", Offset = "0x3AA37D0", VA = "0x3AA37D0", Slot = "1")]
+	[Address(RVA = "0x191A5F0", Offset = "0x1918BF0", VA = "0x18191A5F0", Slot = "1")]
 	~PKCS12()
 	{
 	}
 
 	[Token(Token = "0x600004F")]
-	[Address(RVA = "0x3AA2B40", Offset = "0x3AA2B40", VA = "0x3AA2B40")]
+	[Address(RVA = "0x1918F40", Offset = "0x1917540", VA = "0x181918F40")]
 	private bool Compare(byte[] expected, byte[] actual)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x3AA4E20", Offset = "0x3AA4E20", VA = "0x3AA4E20")]
+	[Address(RVA = "0x191CF60", Offset = "0x191B560", VA = "0x18191CF60")]
 	private SymmetricAlgorithm GetSymmetricAlgorithm(string algorithmOid, byte[] salt, int iterationCount)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x3AA44F0", Offset = "0x3AA44F0", VA = "0x3AA44F0")]
+	[Address(RVA = "0x1919A90", Offset = "0x1918090", VA = "0x181919A90")]
 	public byte[] Decrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] encryptedData)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000052")]
-	[Address(RVA = "0x3AA3630", Offset = "0x3AA3630", VA = "0x3AA3630")]
+	[Address(RVA = "0x1919950", Offset = "0x1917F50", VA = "0x181919950")]
 	public byte[] Decrypt(PKCS7.EncryptedData ed)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x3AA5660", Offset = "0x3AA5660", VA = "0x3AA5660")]
+	[Address(RVA = "0x1919BD0", Offset = "0x19181D0", VA = "0x181919BD0")]
 	public byte[] Encrypt(string algorithmOid, byte[] salt, int iterationCount, byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x3AA58F0", Offset = "0x3AA58F0", VA = "0x3AA58F0")]
+	[Address(RVA = "0x191CCA0", Offset = "0x191B2A0", VA = "0x18191CCA0")]
 	private DSAParameters GetExistingParameters(out bool found)
 	{
 		return default(DSAParameters);
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x3AA65F0", Offset = "0x3AA65F0", VA = "0x3AA65F0")]
+	[Address(RVA = "0x1918000", Offset = "0x1916600", VA = "0x181918000")]
 	private void AddPrivateKey(PKCS8.PrivateKeyInfo pki)
 	{
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x3AA2B90", Offset = "0x3AA2B90", VA = "0x3AA2B90")]
+	[Address(RVA = "0x191E350", Offset = "0x191C950", VA = "0x18191E350")]
 	private void ReadSafeBag(ASN1 safeBag)
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x3AA68D0", Offset = "0x3AA68D0", VA = "0x3AA68D0")]
-	private ASN1 CertificateSafeBag(X509Certificate x509, IDictionary attributes)
+	[Address(RVA = "0x191D730", Offset = "0x191BD30", VA = "0x18191D730")]
+	private ASN1 Pkcs8ShroudedKeyBagSafeBag(AsymmetricAlgorithm aa, IDictionary attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x3AA29C0", Offset = "0x3AA29C0", VA = "0x3AA29C0")]
-	private byte[] MAC(byte[] password, byte[] salt, int iterations, byte[] data)
+	[Address(RVA = "0x19182A0", Offset = "0x19168A0", VA = "0x1819182A0")]
+	private ASN1 CertificateSafeBag(X509Certificate x509, IDictionary attributes)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000059")]
-	[Address(RVA = "0x3AA7E90", Offset = "0x3AA7E90", VA = "0x3AA7E90")]
-	public byte[] GetBytes()
+	[Address(RVA = "0x191D590", Offset = "0x191BB90", VA = "0x18191D590")]
+	private byte[] MAC(byte[] password, byte[] salt, int iterations, byte[] data)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005A")]
-	[Address(RVA = "0x3AAB7B0", Offset = "0x3AAB7B0", VA = "0x3AAB7B0")]
-	private PKCS7.ContentInfo EncryptedContentInfo(ASN1 safeBags, string algorithmOid)
+	[Address(RVA = "0x191A680", Offset = "0x1918C80", VA = "0x18191A680")]
+	public byte[] GetBytes()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600005B")]
-	[Address(RVA = "0x3AAB7A0", Offset = "0x3AAB7A0", VA = "0x3AAB7A0")]
+	[Address(RVA = "0x1919D30", Offset = "0x1918330", VA = "0x181919D30")]
+	private PKCS7.ContentInfo EncryptedContentInfo(ASN1 safeBags, string algorithmOid)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x600005C")]
+	[Address(RVA = "0x19178F0", Offset = "0x1915EF0", VA = "0x1819178F0")]
 	public void AddCertificate(X509Certificate cert)
 	{
 	}
 
-	[Token(Token = "0x600005C")]
-	[Address(RVA = "0x3AABFF0", Offset = "0x3AABFF0", VA = "0x3AABFF0")]
+	[Token(Token = "0x600005D")]
+	[Address(RVA = "0x1917900", Offset = "0x1915F00", VA = "0x181917900")]
 	public void AddCertificate(X509Certificate cert, IDictionary attributes)
 	{
 	}
 
-	[Token(Token = "0x600005D")]
-	[Address(RVA = "0x3AAB790", Offset = "0x3AAB790", VA = "0x3AAB790")]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x191F270", Offset = "0x191D870", VA = "0x18191F270")]
 	public void RemoveCertificate(X509Certificate cert)
 	{
 	}
 
-	[Token(Token = "0x600005E")]
-	[Address(RVA = "0x3AAC430", Offset = "0x3AAC430", VA = "0x3AAC430")]
+	[Token(Token = "0x600005F")]
+	[Address(RVA = "0x191EC50", Offset = "0x191D250", VA = "0x18191EC50")]
 	public void RemoveCertificate(X509Certificate cert, IDictionary attrs)
 	{
 	}
 
-	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x3AACCA0", Offset = "0x3AACCA0", VA = "0x3AACCA0", Slot = "4")]
+	[Token(Token = "0x6000060")]
+	[Address(RVA = "0x1918E80", Offset = "0x1917480", VA = "0x181918E80")]
+	private bool CompareAsymmetricAlgorithm(AsymmetricAlgorithm a1, AsymmetricAlgorithm a2)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000061")]
+	[Address(RVA = "0x1917C10", Offset = "0x1916210", VA = "0x181917C10")]
+	public void AddPkcs8ShroudedKeyBag(AsymmetricAlgorithm aa, IDictionary attributes)
+	{
+	}
+
+	[Token(Token = "0x6000062")]
+	[Address(RVA = "0x1918D30", Offset = "0x1917330", VA = "0x181918D30", Slot = "4")]
 	public object Clone()
 	{
 		return null;

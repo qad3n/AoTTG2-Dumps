@@ -10,10 +10,10 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x20004F6")]
+[Token(Token = "0x20005EC")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal enum LayoutConfigDataType
 {
-	[Token(Token = "0x4001090")]
+	[Token(Token = "0x4001622")]
 	Config
 }

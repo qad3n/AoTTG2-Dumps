@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x200043D")]
-[ComVisible(true)]
+[Token(Token = "0x200046C")]
 [AttributeUsage(AttributeTargets.Class, Inherited = false)]
+[ComVisible(true)]
 public sealed class ComDefaultInterfaceAttribute : Attribute
 {
-	[Token(Token = "0x4001253")]
+	[Token(Token = "0x4001255")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal Type _val;
 
-	[Token(Token = "0x60021CC")]
-	[Address(RVA = "0x3BBD490", Offset = "0x3BBD490", VA = "0x3BBD490")]
+	[Token(Token = "0x600223D")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public ComDefaultInterfaceAttribute(Type defaultInterface)
 	{
 	}

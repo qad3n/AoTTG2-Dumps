@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200021A")]
+[Token(Token = "0x200021D")]
 [DisallowMultipleComponent]
 public sealed class AsyncPointerExitTrigger : AsyncTriggerBase<PointerEventData>, IPointerExitHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x4A17960", Offset = "0x4A17960", VA = "0x4A17960", Slot = "5")]
+	[Token(Token = "0x6000C63")]
+	[Address(RVA = "0x2935B90", Offset = "0x2934190", VA = "0x182935B90", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIPointerExitHandler_002EOnPointerExit(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C40")]
-	[Address(RVA = "0x4A179B0", Offset = "0x4A179B0", VA = "0x4A179B0")]
+	[Token(Token = "0x6000C64")]
+	[Address(RVA = "0x29358F0", Offset = "0x2933EF0", VA = "0x1829358F0")]
 	public IAsyncOnPointerExitHandler GetOnPointerExitAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C41")]
-	[Address(RVA = "0x4A17A20", Offset = "0x4A17A20", VA = "0x4A17A20")]
+	[Token(Token = "0x6000C65")]
+	[Address(RVA = "0x2935870", Offset = "0x2933E70", VA = "0x182935870")]
 	public IAsyncOnPointerExitHandler GetOnPointerExitAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C42")]
-	[Address(RVA = "0x4A17A90", Offset = "0x4A17A90", VA = "0x4A17A90")]
+	[Token(Token = "0x6000C66")]
+	[Address(RVA = "0x2935960", Offset = "0x2933F60", VA = "0x182935960")]
 	public UniTask<PointerEventData> OnPointerExitAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C43")]
-	[Address(RVA = "0x4A17B90", Offset = "0x4A17B90", VA = "0x4A17B90")]
+	[Token(Token = "0x6000C67")]
+	[Address(RVA = "0x2935A80", Offset = "0x2934080", VA = "0x182935A80")]
 	public UniTask<PointerEventData> OnPointerExitAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C44")]
-	[Address(RVA = "0x4A17CA0", Offset = "0x4A17CA0", VA = "0x4A17CA0")]
+	[Token(Token = "0x6000C68")]
+	[Address(RVA = "0x2935BE0", Offset = "0x29341E0", VA = "0x182935BE0")]
 	public AsyncPointerExitTrigger()
 	{
 	}

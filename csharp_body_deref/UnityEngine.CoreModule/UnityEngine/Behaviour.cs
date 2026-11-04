@@ -13,35 +13,35 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200015B")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x200018E")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Mono/MonoBehaviour.h")]
+[UnityEngine.Scripting.UsedByNativeCode]
 public class Behaviour : Component
 {
-	[Token(Token = "0x170001BF")]
-	[UnityEngine.Bindings.NativeProperty]
+	[Token(Token = "0x1700022B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
+	[UnityEngine.Bindings.NativeProperty]
 	public bool enabled
 	{
-		[Token(Token = "0x60009D3")]
-		[Address(RVA = "0x4DF64B0", Offset = "0x4DF64B0", VA = "0x4DF64B0")]
+		[Token(Token = "0x6000D14")]
+		[Address(RVA = "0x2F129F0", Offset = "0x2F10FF0", VA = "0x182F129F0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60009D4")]
-		[Address(RVA = "0x4DF6570", Offset = "0x4DF6570", VA = "0x4DF6570")]
+		[Token(Token = "0x6000D15")]
+		[Address(RVA = "0x2F12B80", Offset = "0x2F11180", VA = "0x182F12B80")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001C0")]
+	[Token(Token = "0x1700022C")]
 	[UnityEngine.Bindings.NativeProperty]
 	public bool isActiveAndEnabled
 	{
-		[Token(Token = "0x60009D5")]
-		[Address(RVA = "0x4DF6640", Offset = "0x4DF6640", VA = "0x4DF6640")]
+		[Token(Token = "0x6000D16")]
+		[Address(RVA = "0x2F12AB0", Offset = "0x2F110B0", VA = "0x182F12AB0")]
 		[UnityEngine.Bindings.NativeMethod("IsAddedToManager")]
 		get
 		{
@@ -49,24 +49,24 @@ public class Behaviour : Component
 		}
 	}
 
-	[Token(Token = "0x60009D6")]
-	[Address(RVA = "0x4DF6700", Offset = "0x4DF6700", VA = "0x4DF6700")]
+	[Token(Token = "0x6000D17")]
+	[Address(RVA = "0x2F12960", Offset = "0x2F10F60", VA = "0x182F12960")]
 	public Behaviour()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009D7")]
-	[Address(RVA = "0x4DF6540", Offset = "0x4DF6540", VA = "0x4DF6540")]
+	[Token(Token = "0x6000D18")]
+	[Address(RVA = "0x2F129B0", Offset = "0x2F10FB0", VA = "0x182F129B0")]
 	private static extern bool get_enabled_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009D8")]
-	[Address(RVA = "0x4DF6600", Offset = "0x4DF6600", VA = "0x4DF6600")]
+	[Token(Token = "0x6000D19")]
+	[Address(RVA = "0x2F12B30", Offset = "0x2F11130", VA = "0x182F12B30")]
 	private static extern void set_enabled_Injected(IntPtr _unity_self, bool value);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009D9")]
-	[Address(RVA = "0x4DF66D0", Offset = "0x4DF66D0", VA = "0x4DF66D0")]
+	[Token(Token = "0x6000D1A")]
+	[Address(RVA = "0x2F12A70", Offset = "0x2F11070", VA = "0x182F12A70")]
 	private static extern bool get_isActiveAndEnabled_Injected(IntPtr _unity_self);
 }

@@ -10,59 +10,60 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200043D")]
+[Token(Token = "0x200050A")]
+[Obsolete("BaseUxmlFactory<TCreatedType, TTraits> is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 public abstract class BaseUxmlFactory<TCreatedType, TTraits> where TCreatedType : new() where TTraits : BaseUxmlTraits, new()
 {
-	[Token(Token = "0x4000CA5")]
+	[Token(Token = "0x40010FB")]
 	[FieldOffset(Offset = "0x0")]
 	internal TTraits m_Traits;
 
-	[Token(Token = "0x1700071D")]
+	[Token(Token = "0x170009EC")]
 	public virtual string uxmlName
 	{
-		[Token(Token = "0x6001AE9")]
+		[Token(Token = "0x60026B8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071E")]
+	[Token(Token = "0x170009ED")]
 	public virtual string uxmlNamespace
 	{
-		[Token(Token = "0x6001AEA")]
+		[Token(Token = "0x60026B9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700071F")]
+	[Token(Token = "0x170009EE")]
 	public virtual string uxmlQualifiedName
 	{
-		[Token(Token = "0x6001AEB")]
+		[Token(Token = "0x60026BA")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000720")]
+	[Token(Token = "0x170009EF")]
 	public virtual Type uxmlType
 	{
-		[Token(Token = "0x6001AEC")]
+		[Token(Token = "0x60026BB")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001AE8")]
+	[Token(Token = "0x60026B7")]
 	protected BaseUxmlFactory()
 	{
 	}
 
-	[Token(Token = "0x6001AED")]
+	[Token(Token = "0x60026BC")]
 	public virtual bool AcceptsAttributeBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(bool);

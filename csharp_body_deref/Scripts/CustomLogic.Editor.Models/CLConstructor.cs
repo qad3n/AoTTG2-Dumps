@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x20004BA")]
+[Token(Token = "0x200060F")]
 internal class CLConstructor : BaseModel
 {
-	[Token(Token = "0x1700097B")]
+	[Token(Token = "0x17000A72")]
 	public CLParameter[] Parameters
 	{
-		[Token(Token = "0x60031BB")]
-		[Address(RVA = "0x4186B50", Offset = "0x4186B50", VA = "0x4186B50")]
+		[Token(Token = "0x6003B2E")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031BC")]
-		[Address(RVA = "0x4186B60", Offset = "0x4186B60", VA = "0x4186B60")]
+		[Token(Token = "0x6003B2F")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700097C")]
+	[Token(Token = "0x17000A73")]
 	public XmlInfo Info
 	{
-		[Token(Token = "0x60031BD")]
-		[Address(RVA = "0x4186B70", Offset = "0x4186B70", VA = "0x4186B70")]
+		[Token(Token = "0x6003B30")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031BE")]
-		[Address(RVA = "0x4186B80", Offset = "0x4186B80", VA = "0x4186B80")]
+		[Token(Token = "0x6003B31")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60031BF")]
-	[Address(RVA = "0x4186B90", Offset = "0x4186B90", VA = "0x4186B90")]
+	[Token(Token = "0x6003B32")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CLConstructor()
 	{
 	}

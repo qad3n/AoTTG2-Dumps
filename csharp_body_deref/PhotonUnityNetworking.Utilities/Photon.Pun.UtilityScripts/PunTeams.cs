@@ -13,82 +13,82 @@ using Photon.Realtime;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000017")]
+[Token(Token = "0x2000015")]
 [Obsolete("do not use this or add it to the scene. use PhotonTeamsManager instead")]
 public class PunTeams : MonoBehaviourPunCallbacks
 {
-	[Token(Token = "0x2000018")]
+	[Token(Token = "0x2000016")]
 	[Obsolete("use custom PhotonTeam instead")]
 	public enum Team : byte
 	{
-		[Token(Token = "0x4000065")]
+		[Token(Token = "0x4000060")]
 		none,
-		[Token(Token = "0x4000066")]
+		[Token(Token = "0x4000061")]
 		red,
-		[Token(Token = "0x4000067")]
+		[Token(Token = "0x4000062")]
 		blue
 	}
 
-	[Token(Token = "0x4000062")]
+	[Token(Token = "0x400005D")]
 	[FieldOffset(Offset = "0x0")]
 	[Obsolete("use PhotonTeamsManager.Instance.TryGetTeamMembers instead")]
 	public static Dictionary<Team, List<Player>> PlayersPerTeam;
 
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x400005E")]
 	[Obsolete("do not use this. PhotonTeamsManager.TeamPlayerProp is used internally instead.")]
 	public const string TeamPlayerProp = "team";
 
-	[Token(Token = "0x6000082")]
-	[Address(RVA = "0x3F07480", Offset = "0x3F07480", VA = "0x3F07480")]
+	[Token(Token = "0x6000080")]
+	[Address(RVA = "0x1D5B5E0", Offset = "0x1D59BE0", VA = "0x181D5B5E0")]
 	public void Start()
 	{
 	}
 
-	[Token(Token = "0x6000083")]
-	[Address(RVA = "0x3F078F0", Offset = "0x3F078F0", VA = "0x3F078F0", Slot = "29")]
+	[Token(Token = "0x6000081")]
+	[Address(RVA = "0x1D5B5A0", Offset = "0x1D59BA0", VA = "0x181D5B5A0", Slot = "29")]
 	public override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000084")]
-	[Address(RVA = "0x3F07900", Offset = "0x3F07900", VA = "0x3F07900", Slot = "41")]
+	[Token(Token = "0x6000082")]
+	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "41")]
 	public override void OnJoinedRoom()
 	{
 	}
 
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x3F07E90", Offset = "0x3F07E90", VA = "0x3F07E90", Slot = "31")]
+	[Token(Token = "0x6000083")]
+	[Address(RVA = "0x1D5B5D0", Offset = "0x1D59BD0", VA = "0x181D5B5D0", Slot = "31")]
 	public override void OnLeftRoom()
 	{
 	}
 
-	[Token(Token = "0x6000086")]
-	[Address(RVA = "0x3F07EA0", Offset = "0x3F07EA0", VA = "0x3F07EA0", Slot = "47")]
+	[Token(Token = "0x6000084")]
+	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "47")]
 	public override void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps)
 	{
 	}
 
-	[Token(Token = "0x6000087")]
-	[Address(RVA = "0x3F07EB0", Offset = "0x3F07EB0", VA = "0x3F07EB0", Slot = "43")]
+	[Token(Token = "0x6000085")]
+	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "43")]
 	public override void OnPlayerLeftRoom(Player otherPlayer)
 	{
 	}
 
-	[Token(Token = "0x6000088")]
-	[Address(RVA = "0x3F07EC0", Offset = "0x3F07EC0", VA = "0x3F07EC0", Slot = "42")]
+	[Token(Token = "0x6000086")]
+	[Address(RVA = "0x1D5B5C0", Offset = "0x1D59BC0", VA = "0x181D5B5C0", Slot = "42")]
 	public override void OnPlayerEnteredRoom(Player newPlayer)
 	{
 	}
 
-	[Token(Token = "0x6000089")]
-	[Address(RVA = "0x3F07910", Offset = "0x3F07910", VA = "0x3F07910")]
+	[Token(Token = "0x6000087")]
+	[Address(RVA = "0x1D5B910", Offset = "0x1D59F10", VA = "0x181D5B910")]
 	[Obsolete("do not call this.")]
 	public void UpdateTeams()
 	{
 	}
 
-	[Token(Token = "0x600008A")]
-	[Address(RVA = "0x3F07F90", Offset = "0x3F07F90", VA = "0x3F07F90")]
+	[Token(Token = "0x6000088")]
+	[Address(RVA = "0x190EDA0", Offset = "0x190D3A0", VA = "0x18190EDA0")]
 	public PunTeams()
 	{
 	}

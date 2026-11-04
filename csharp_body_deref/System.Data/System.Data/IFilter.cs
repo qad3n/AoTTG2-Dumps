@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000062")]
+[Token(Token = "0x200006C")]
 internal interface IFilter
 {
-	[Token(Token = "0x6000664")]
+	[Token(Token = "0x6000683")]
 	bool Invoke(DataRow row, DataRowVersion version);
 }

@@ -12,7 +12,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000007")]
 [VisibleToOtherModules]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, Inherited = false)]
 internal sealed class NativeClassAttribute : Attribute
@@ -20,8 +20,8 @@ internal sealed class NativeClassAttribute : Attribute
 	[Token(Token = "0x17000001")]
 	private string QualifiedNativeName
 	{
-		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x4E9DA00", Offset = "0x4E9DA00", VA = "0x4E9DA00")]
+		[Token(Token = "0x6000006")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
@@ -31,22 +31,22 @@ internal sealed class NativeClassAttribute : Attribute
 	[Token(Token = "0x17000002")]
 	private string Declaration
 	{
-		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4E9DA10", Offset = "0x4E9DA10", VA = "0x4E9DA10")]
+		[Token(Token = "0x6000007")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x4E9DA20", Offset = "0x4E9DA20", VA = "0x4E9DA20")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x2FF6D70", Offset = "0x2FF5370", VA = "0x182FF6D70")]
 	public NativeClassAttribute(string qualifiedCppName)
 	{
 	}
 
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4E9DA90", Offset = "0x4E9DA90", VA = "0x4E9DA90")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public NativeClassAttribute(string qualifiedCppName, string declaration)
 	{
 	}

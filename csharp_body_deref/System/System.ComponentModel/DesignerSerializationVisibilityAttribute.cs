@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000252")]
+[Token(Token = "0x200015D")]
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Event)]
 public sealed class DesignerSerializationVisibilityAttribute : Attribute
 {
-	[Token(Token = "0x4000CDD")]
+	[Token(Token = "0x4000614")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly DesignerSerializationVisibilityAttribute Content;
 
-	[Token(Token = "0x4000CDE")]
+	[Token(Token = "0x4000615")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly DesignerSerializationVisibilityAttribute Hidden;
 
-	[Token(Token = "0x4000CDF")]
+	[Token(Token = "0x4000616")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly DesignerSerializationVisibilityAttribute Visible;
 
-	[Token(Token = "0x4000CE0")]
+	[Token(Token = "0x4000617")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly DesignerSerializationVisibilityAttribute Default;
 
-	[Token(Token = "0x1700033D")]
+	[Token(Token = "0x170001AC")]
 	public DesignerSerializationVisibility Visibility
 	{
-		[Token(Token = "0x6000E88")]
-		[Address(RVA = "0x4882010", Offset = "0x4882010", VA = "0x4882010")]
+		[Token(Token = "0x60008D0")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -42,28 +42,28 @@ public sealed class DesignerSerializationVisibilityAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000E87")]
-	[Address(RVA = "0x4881FF0", Offset = "0x4881FF0", VA = "0x4881FF0")]
+	[Token(Token = "0x60008CF")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public DesignerSerializationVisibilityAttribute(DesignerSerializationVisibility visibility)
 	{
 	}
 
-	[Token(Token = "0x6000E89")]
-	[Address(RVA = "0x4882020", Offset = "0x4882020", VA = "0x4882020", Slot = "0")]
+	[Token(Token = "0x60008D1")]
+	[Address(RVA = "0x287D560", Offset = "0x287BB60", VA = "0x18287D560", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E8A")]
-	[Address(RVA = "0x48820D0", Offset = "0x48820D0", VA = "0x48820D0", Slot = "2")]
+	[Token(Token = "0x60008D2")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E8B")]
-	[Address(RVA = "0x48820E0", Offset = "0x48820E0", VA = "0x48820E0", Slot = "6")]
+	[Token(Token = "0x60008D3")]
+	[Address(RVA = "0x287D640", Offset = "0x287BC40", VA = "0x18287D640", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x2000273")]
+[Token(Token = "0x20003B2")]
 public static class MapObjectPhysicsMaterial
 {
-	[Token(Token = "0x4000D54")]
+	[Token(Token = "0x4001356")]
 	[FieldOffset(Offset = "0x0")]
 	public static string Default;
 
-	[Token(Token = "0x4000D55")]
+	[Token(Token = "0x4001357")]
 	[FieldOffset(Offset = "0x8")]
 	public static string Ice;
 }

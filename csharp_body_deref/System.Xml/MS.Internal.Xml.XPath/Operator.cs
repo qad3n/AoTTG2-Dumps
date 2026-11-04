@@ -68,7 +68,7 @@ internal class Operator : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B86")]
-		[Address(RVA = "0x4783BD0", Offset = "0x4783BD0", VA = "0x4783BD0", Slot = "4")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -79,7 +79,7 @@ internal class Operator : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B87")]
-		[Address(RVA = "0x4783BE0", Offset = "0x4783BE0", VA = "0x4783BE0", Slot = "5")]
+		[Address(RVA = "0x26C16C0", Offset = "0x26BFCC0", VA = "0x1826C16C0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -90,7 +90,7 @@ internal class Operator : AstNode
 	public Op OperatorType
 	{
 		[Token(Token = "0x6001B88")]
-		[Address(RVA = "0x4783C00", Offset = "0x4783C00", VA = "0x4783C00")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(Op);
@@ -101,7 +101,7 @@ internal class Operator : AstNode
 	public AstNode Operand1
 	{
 		[Token(Token = "0x6001B89")]
-		[Address(RVA = "0x4783C10", Offset = "0x4783C10", VA = "0x4783C10")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -112,7 +112,7 @@ internal class Operator : AstNode
 	public AstNode Operand2
 	{
 		[Token(Token = "0x6001B8A")]
-		[Address(RVA = "0x4783C20", Offset = "0x4783C20", VA = "0x4783C20")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -120,14 +120,14 @@ internal class Operator : AstNode
 	}
 
 	[Token(Token = "0x6001B84")]
-	[Address(RVA = "0x477E300", Offset = "0x477E300", VA = "0x477E300")]
+	[Address(RVA = "0x26C15C0", Offset = "0x26BFBC0", VA = "0x1826C15C0")]
 	public static Op InvertOperator(Op op)
 	{
 		return default(Op);
 	}
 
 	[Token(Token = "0x6001B85")]
-	[Address(RVA = "0x4783B80", Offset = "0x4783B80", VA = "0x4783B80")]
+	[Address(RVA = "0x1522E90", Offset = "0x1521490", VA = "0x181522E90")]
 	public Operator(Op op, AstNode opnd1, AstNode opnd2)
 	{
 	}

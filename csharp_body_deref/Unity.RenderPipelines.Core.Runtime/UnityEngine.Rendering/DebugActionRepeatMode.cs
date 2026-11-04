@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000BC")]
+[Token(Token = "0x200008A")]
 internal enum DebugActionRepeatMode
 {
-	[Token(Token = "0x40002A0")]
+	[Token(Token = "0x40001D1")]
 	Never,
-	[Token(Token = "0x40002A1")]
+	[Token(Token = "0x40001D2")]
 	Delay
 }

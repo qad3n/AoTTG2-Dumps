@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000106")]
 public class AndHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x6000746")]
-	[Address(RVA = "0x4CD9230", Offset = "0x4CD9230", VA = "0x4CD9230")]
+	[Token(Token = "0x6000750")]
+	[Address(RVA = "0x2DC5CA0", Offset = "0x2DC42A0", VA = "0x182DC5CA0")]
 	public AndHandler()
 	{
 	}

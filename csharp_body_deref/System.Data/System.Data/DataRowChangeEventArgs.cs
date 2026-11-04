@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200002D")]
+[Token(Token = "0x200003E")]
 public class DataRowChangeEventArgs : EventArgs
 {
-	[Token(Token = "0x400009F")]
+	[Token(Token = "0x4000151")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly DataRow _003CRow_003Ek__BackingField;
 
-	[Token(Token = "0x40000A0")]
+	[Token(Token = "0x4000152")]
 	[FieldOffset(Offset = "0x18")]
 	[CompilerGenerated]
 	private readonly DataRowAction _003CAction_003Ek__BackingField;
 
-	[Token(Token = "0x6000327")]
-	[Address(RVA = "0x457DA90", Offset = "0x457DA90", VA = "0x457DA90")]
+	[Token(Token = "0x6000495")]
+	[Address(RVA = "0x24F43A0", Offset = "0x24F29A0", VA = "0x1824F43A0")]
 	public DataRowChangeEventArgs(DataRow row, DataRowAction action)
 	{
 	}

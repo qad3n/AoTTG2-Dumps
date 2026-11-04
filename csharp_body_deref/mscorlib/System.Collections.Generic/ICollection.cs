@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000644")]
+[Token(Token = "0x2000618")]
 public interface ICollection<T> : IEnumerable<T>, IEnumerable
 {
-	[Token(Token = "0x1700081A")]
+	[Token(Token = "0x170007A9")]
 	int Count
 	{
-		[Token(Token = "0x60031F1")]
+		[Token(Token = "0x6002F06")]
 		get;
 	}
 
-	[Token(Token = "0x1700081B")]
+	[Token(Token = "0x170007AA")]
 	bool IsReadOnly
 	{
-		[Token(Token = "0x60031F2")]
+		[Token(Token = "0x6002F07")]
 		get;
 	}
 
-	[Token(Token = "0x60031F3")]
+	[Token(Token = "0x6002F08")]
 	void Add(T item);
 
-	[Token(Token = "0x60031F4")]
+	[Token(Token = "0x6002F09")]
 	void Clear();
 
-	[Token(Token = "0x60031F5")]
+	[Token(Token = "0x6002F0A")]
 	bool Contains(T item);
 
-	[Token(Token = "0x60031F6")]
+	[Token(Token = "0x6002F0B")]
 	void CopyTo(T[] array, int arrayIndex);
 
-	[Token(Token = "0x60031F7")]
+	[Token(Token = "0x6002F0C")]
 	bool Remove(T item);
 }

@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000081")]
+[Token(Token = "0x200007F")]
 internal class UnsupportedCodecException : Exception
 {
-	[Token(Token = "0x60002C9")]
-	[Address(RVA = "0x3F2F270", Offset = "0x3F2F270", VA = "0x3F2F270")]
+	[Token(Token = "0x60002C7")]
+	[Address(RVA = "0x1D76BC0", Offset = "0x1D751C0", VA = "0x181D76BC0")]
 	public UnsupportedCodecException(string info, Codec codec)
 	{
 	}

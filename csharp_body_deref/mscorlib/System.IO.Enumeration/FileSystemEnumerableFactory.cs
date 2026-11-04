@@ -10,63 +10,63 @@ using Il2CppDummyDll;
 
 namespace System.IO.Enumeration;
 
-[Token(Token = "0x200058A")]
+[Token(Token = "0x20006B2")]
 internal static class FileSystemEnumerableFactory
 {
-	[Token(Token = "0x400173E")]
+	[Token(Token = "0x4001B1E")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly char[] s_unixEscapeChars;
 
-	[Token(Token = "0x6002B18")]
-	[Address(RVA = "0x3C385C0", Offset = "0x3C385C0", VA = "0x3C385C0")]
+	[Token(Token = "0x60033F8")]
+	[Address(RVA = "0x1B049C0", Offset = "0x1B02FC0", VA = "0x181B049C0")]
 	internal static void NormalizeInputs(ref string directory, ref string expression, EnumerationOptions options)
 	{
 	}
 
-	[Token(Token = "0x6002B19")]
-	[Address(RVA = "0x3C38EB0", Offset = "0x3C38EB0", VA = "0x3C38EB0")]
+	[Token(Token = "0x60033F9")]
+	[Address(RVA = "0x1B04700", Offset = "0x1B02D00", VA = "0x181B04700")]
 	private static bool MatchesPattern(string expression, ReadOnlySpan<char> name, EnumerationOptions options)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B1A")]
-	[Address(RVA = "0x3C392C0", Offset = "0x3C392C0", VA = "0x3C392C0")]
+	[Token(Token = "0x60033FA")]
+	[Address(RVA = "0x1B052E0", Offset = "0x1B038E0", VA = "0x181B052E0")]
 	internal static IEnumerable<string> UserFiles(string directory, string expression, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B1B")]
-	[Address(RVA = "0x3C394D0", Offset = "0x3C394D0", VA = "0x3C394D0")]
+	[Token(Token = "0x60033FB")]
+	[Address(RVA = "0x1B04EE0", Offset = "0x1B034E0", VA = "0x181B04EE0")]
 	internal static IEnumerable<string> UserDirectories(string directory, string expression, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B1C")]
-	[Address(RVA = "0x3C396E0", Offset = "0x3C396E0", VA = "0x3C396E0")]
+	[Token(Token = "0x60033FC")]
+	[Address(RVA = "0x1B050E0", Offset = "0x1B036E0", VA = "0x181B050E0")]
 	internal static IEnumerable<string> UserEntries(string directory, string expression, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B1D")]
-	[Address(RVA = "0x3C398F0", Offset = "0x3C398F0", VA = "0x3C398F0")]
+	[Token(Token = "0x60033FD")]
+	[Address(RVA = "0x1B04300", Offset = "0x1B02900", VA = "0x181B04300")]
 	internal static IEnumerable<FileInfo> FileInfos(string directory, string expression, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B1E")]
-	[Address(RVA = "0x3C39B00", Offset = "0x3C39B00", VA = "0x3C39B00")]
+	[Token(Token = "0x60033FE")]
+	[Address(RVA = "0x1B04100", Offset = "0x1B02700", VA = "0x181B04100")]
 	internal static IEnumerable<DirectoryInfo> DirectoryInfos(string directory, string expression, EnumerationOptions options)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B1F")]
-	[Address(RVA = "0x3C39D10", Offset = "0x3C39D10", VA = "0x3C39D10")]
+	[Token(Token = "0x60033FF")]
+	[Address(RVA = "0x1B04500", Offset = "0x1B02B00", VA = "0x181B04500")]
 	internal static IEnumerable<FileSystemInfo> FileSystemInfos(string directory, string expression, EnumerationOptions options)
 	{
 		return null;

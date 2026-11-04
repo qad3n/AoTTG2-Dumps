@@ -14,10 +14,10 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI.CoroutineTween;
 
-[Token(Token = "0x2000090")]
+[Token(Token = "0x200008E")]
 internal class TweenRunner<T> where T : struct, ITweenValue
 {
-	[Token(Token = "0x2000091")]
+	[Token(Token = "0x200008F")]
 	[CompilerGenerated]
 	private sealed class _003CStart_003Ed__2 : IEnumerator<object>, IEnumerator, IDisposable
 	{
@@ -37,10 +37,10 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 		[FieldOffset(Offset = "0x0")]
 		private float _003CelapsedTime_003E5__2;
 
-		[Token(Token = "0x17000167")]
+		[Token(Token = "0x17000168")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000584")]
+			[Token(Token = "0x6000590")]
 			[DebuggerHidden]
 			get
 			{
@@ -48,10 +48,10 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 			}
 		}
 
-		[Token(Token = "0x17000168")]
+		[Token(Token = "0x17000169")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000586")]
+			[Token(Token = "0x6000592")]
 			[DebuggerHidden]
 			get
 			{
@@ -59,25 +59,25 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 			}
 		}
 
-		[Token(Token = "0x6000581")]
+		[Token(Token = "0x600058D")]
 		[DebuggerHidden]
 		public _003CStart_003Ed__2(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000582")]
+		[Token(Token = "0x600058E")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000583")]
+		[Token(Token = "0x600058F")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000585")]
+		[Token(Token = "0x6000591")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -92,29 +92,29 @@ internal class TweenRunner<T> where T : struct, ITweenValue
 	[FieldOffset(Offset = "0x0")]
 	protected IEnumerator m_Tween;
 
-	[Token(Token = "0x600057C")]
+	[Token(Token = "0x6000588")]
 	[IteratorStateMachine(typeof(TweenRunner<>._003CStart_003Ed__2))]
 	private static IEnumerator Start(T tweenInfo)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600057D")]
+	[Token(Token = "0x6000589")]
 	public void Init(MonoBehaviour coroutineContainer)
 	{
 	}
 
-	[Token(Token = "0x600057E")]
+	[Token(Token = "0x600058A")]
 	public void StartTween(T info)
 	{
 	}
 
-	[Token(Token = "0x600057F")]
+	[Token(Token = "0x600058B")]
 	public void StopTween()
 	{
 	}
 
-	[Token(Token = "0x6000580")]
+	[Token(Token = "0x600058C")]
 	public TweenRunner()
 	{
 	}

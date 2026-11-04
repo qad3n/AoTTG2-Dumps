@@ -12,73 +12,73 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000219")]
+[Token(Token = "0x200024A")]
 [ComVisible(true)]
 public sealed class ReaderWriterLock : CriticalFinalizerObject
 {
-	[Token(Token = "0x4000A07")]
+	[Token(Token = "0x4000A65")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int seq_num;
 
-	[Token(Token = "0x4000A08")]
+	[Token(Token = "0x4000A66")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x14")]
 	private int state;
 
-	[Token(Token = "0x4000A09")]
+	[Token(Token = "0x4000A67")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private int readers;
 
-	[Token(Token = "0x4000A0A")]
+	[Token(Token = "0x4000A68")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private int writer_lock_owner;
 
-	[Token(Token = "0x4000A0B")]
+	[Token(Token = "0x4000A69")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private System.Threading.LockQueue writer_queue;
 
-	[Token(Token = "0x4000A0C")]
+	[Token(Token = "0x4000A6A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private Hashtable reader_locks;
 
-	[Token(Token = "0x6001342")]
-	[Address(RVA = "0x3D3BE40", Offset = "0x3D3BE40", VA = "0x3D3BE40")]
+	[Token(Token = "0x60013B3")]
+	[Address(RVA = "0x1BB1F30", Offset = "0x1BB0530", VA = "0x181BB1F30")]
 	public ReaderWriterLock()
 	{
 	}
 
-	[Token(Token = "0x6001343")]
-	[Address(RVA = "0x3D3BF20", Offset = "0x3D3BF20", VA = "0x3D3BF20", Slot = "1")]
+	[Token(Token = "0x60013B4")]
+	[Address(RVA = "0x1BB1C20", Offset = "0x1BB0220", VA = "0x181BB1C20", Slot = "1")]
 	~ReaderWriterLock()
 	{
 	}
 
-	[Token(Token = "0x6001344")]
-	[Address(RVA = "0x3D3BF30", Offset = "0x3D3BF30", VA = "0x3D3BF30")]
+	[Token(Token = "0x60013B5")]
+	[Address(RVA = "0x1BB1C10", Offset = "0x1BB0210", VA = "0x181BB1C10")]
 	public void AcquireWriterLock(int millisecondsTimeout)
 	{
 	}
 
-	[Token(Token = "0x6001345")]
-	[Address(RVA = "0x3D3BF40", Offset = "0x3D3BF40", VA = "0x3D3BF40")]
+	[Token(Token = "0x60013B6")]
+	[Address(RVA = "0x1BB1A30", Offset = "0x1BB0030", VA = "0x181BB1A30")]
 	private void AcquireWriterLock(int millisecondsTimeout, int initialLockCount)
 	{
 	}
 
-	[Token(Token = "0x6001346")]
-	[Address(RVA = "0x3D3C120", Offset = "0x3D3C120", VA = "0x3D3C120")]
+	[Token(Token = "0x60013B7")]
+	[Address(RVA = "0x1BB1C90", Offset = "0x1BB0290", VA = "0x181BB1C90")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 	public void ReleaseWriterLock()
 	{
 	}
 
-	[Token(Token = "0x6001347")]
-	[Address(RVA = "0x3D3C290", Offset = "0x3D3C290", VA = "0x3D3C290")]
+	[Token(Token = "0x60013B8")]
+	[Address(RVA = "0x1BB1E80", Offset = "0x1BB0480", VA = "0x181BB1E80")]
 	private void ReleaseWriterLock(int releaseCount)
 	{
 	}
 
-	[Token(Token = "0x6001348")]
-	[Address(RVA = "0x3D3C100", Offset = "0x3D3C100", VA = "0x3D3C100")]
+	[Token(Token = "0x60013B9")]
+	[Address(RVA = "0x1BB1C60", Offset = "0x1BB0260", VA = "0x181BB1C60")]
 	private bool HasWriterLock()
 	{
 		return default(bool);

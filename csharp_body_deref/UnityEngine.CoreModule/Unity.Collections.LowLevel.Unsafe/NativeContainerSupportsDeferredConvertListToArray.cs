@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x200005B")]
+[Token(Token = "0x200006F")]
 [AttributeUsage(AttributeTargets.Struct)]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeContainerSupportsDeferredConvertListToArray : Attribute
 {
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x4DAD870", Offset = "0x4DAD870", VA = "0x4DAD870")]
+	[Token(Token = "0x6000154")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeContainerSupportsDeferredConvertListToArray()
 	{
 	}

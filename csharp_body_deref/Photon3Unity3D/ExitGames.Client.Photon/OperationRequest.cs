@@ -21,7 +21,7 @@ public class OperationRequest
 	public ParameterDictionary Parameters;
 
 	[Token(Token = "0x60001CD")]
-	[Address(RVA = "0x3E79050", Offset = "0x3E79050", VA = "0x3E79050")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public OperationRequest()
 	{
 	}

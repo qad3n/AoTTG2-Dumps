@@ -11,47 +11,47 @@ using UnityEngine.UI;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000A")]
 public class PointedAtGameObjectInfo : MonoBehaviour
 {
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x4000033")]
 	[FieldOffset(Offset = "0x0")]
 	public static PointedAtGameObjectInfo Instance;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x4000034")]
 	[FieldOffset(Offset = "0x20")]
 	public Text text;
 
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000035")]
 	[FieldOffset(Offset = "0x28")]
 	private Transform focus;
 
-	[Token(Token = "0x6000032")]
-	[Address(RVA = "0x3F005E0", Offset = "0x3F005E0", VA = "0x3F005E0")]
+	[Token(Token = "0x6000030")]
+	[Address(RVA = "0x1D5B490", Offset = "0x1D59A90", VA = "0x181D5B490")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x3F006F0", Offset = "0x3F006F0", VA = "0x3F006F0")]
+	[Token(Token = "0x6000031")]
+	[Address(RVA = "0x1D5B160", Offset = "0x1D59760", VA = "0x181D5B160")]
 	public void SetFocus(PhotonView pv)
 	{
 	}
 
-	[Token(Token = "0x6000034")]
-	[Address(RVA = "0x3F00A10", Offset = "0x3F00A10", VA = "0x3F00A10")]
+	[Token(Token = "0x6000032")]
+	[Address(RVA = "0x1D5B080", Offset = "0x1D59680", VA = "0x181D5B080")]
 	public void RemoveFocus(PhotonView pv)
 	{
 	}
 
-	[Token(Token = "0x6000035")]
-	[Address(RVA = "0x3F00AF0", Offset = "0x3F00AF0", VA = "0x3F00AF0")]
+	[Token(Token = "0x6000033")]
+	[Address(RVA = "0x1D5AF90", Offset = "0x1D59590", VA = "0x181D5AF90")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000036")]
-	[Address(RVA = "0x3F00BB0", Offset = "0x3F00BB0", VA = "0x3F00BB0")]
+	[Token(Token = "0x6000034")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public PointedAtGameObjectInfo()
 	{
 	}

@@ -9,31 +9,31 @@ using Il2CppDummyDll;
 
 namespace Map;
 
-[Token(Token = "0x2000282")]
+[Token(Token = "0x20003CA")]
 internal class MapTags
 {
-	[Token(Token = "0x4000D93")]
+	[Token(Token = "0x40013AA")]
 	[FieldOffset(Offset = "0x0")]
 	public static string CameraSpawnPoint;
 
-	[Token(Token = "0x4000D94")]
+	[Token(Token = "0x40013AB")]
 	[FieldOffset(Offset = "0x8")]
 	public static string HumanSpawnPoint;
 
-	[Token(Token = "0x4000D95")]
+	[Token(Token = "0x40013AC")]
 	[FieldOffset(Offset = "0x10")]
 	public static string HumanSpawnPointBlue;
 
-	[Token(Token = "0x4000D96")]
+	[Token(Token = "0x40013AD")]
 	[FieldOffset(Offset = "0x18")]
 	public static string HumanSpawnPointRed;
 
-	[Token(Token = "0x4000D97")]
+	[Token(Token = "0x40013AE")]
 	[FieldOffset(Offset = "0x20")]
 	public static string TitanSpawnPoint;
 
-	[Token(Token = "0x6000F54")]
-	[Address(RVA = "0x3FB6450", Offset = "0x3FB6450", VA = "0x3FB6450")]
+	[Token(Token = "0x60017CC")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public MapTags()
 	{
 	}

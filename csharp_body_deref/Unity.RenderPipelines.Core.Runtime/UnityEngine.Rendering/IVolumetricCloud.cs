@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200016B")]
+[Token(Token = "0x2000163")]
 public interface IVolumetricCloud
 {
-	[Token(Token = "0x6000AC4")]
+	[Token(Token = "0x6000B59")]
 	bool IsVolumetricCloudUsable();
 }

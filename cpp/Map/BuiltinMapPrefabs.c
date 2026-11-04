@@ -1,5 +1,5 @@
 // Type: Map.BuiltinMapPrefabs
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/BuiltinMapPrefabs.cs
@@ -8,828 +8,832 @@
 
 // Map.BuiltinMapPrefabs$$Init
 // il2cpp: void Map_BuiltinMapPrefabs__Init (const MethodInfo* method);
-// 0x409f1c0
+// 0x181e84a30
+// asm: 6 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e84ebc: nop dword ptr [rax]
+// asm:   0x181e850c5: nop word ptr [rax + rax]
+// asm:   0x181e853e7: mov rsi, rax
+// asm:   0x181e853fa: mov rax, qword ptr [rip + 0x22185c7]  ; "None"
+// asm:   0x181e856f4: nop dword ptr [rax]
+// asm:   0x181e856f8: nop dword ptr [rax + rax]
 
 void Map_BuiltinMapPrefabs__Init(MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  byte bVar2;
-  uint uVar3;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar4;
-  System_Object_array *pSVar5;
-  Il2CppObject *pIVar6;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_00;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_01;
-  SimpleJSONFixed_JSONNode_KeyEnumerator_o __this_02;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_03;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_04;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_05;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_06;
-  SimpleJSONFixed_JSONNode_Enumerator_o __this_07;
-  long lVar7;
-  char cVar8;
-  undefined1 uVar9;
-  bool_conflict bVar10;
-  UnityEngine_Object_o *__this_08;
-  System_String_o *pSVar11;
-  SimpleJSONFixed_JSONNode_o *pSVar12;
-  long *plVar13;
-  long *plVar14;
-  long *plVar15;
-  System_Collections_Generic_List_object__o *pSVar16;
-  Map_MapScriptSceneObject_o *__this_09;
-  undefined8 uVar17;
-  System_String_o *__this_10;
-  System_String_o *pSVar18;
-  Map_MapScriptBaseMaterial_o *pMVar19;
-  SimpleJSONFixed_JSONNode_o *pSVar20;
-  Map_MapScriptComponent_o *__this_11;
-  Il2CppObject *value;
-  bool_conflict *pbVar21;
-  float fVar22;
-  System_Collections_Generic_KeyValuePair_string__JSONNode__o SVar23;
-  undefined8 in_stack_fffffffffffffe28;
-  System_String_o *in_stack_fffffffffffffe30;
-  long *in_stack_fffffffffffffe38;
-  bool_conflict *in_stack_fffffffffffffe40;
-  Il2CppMethodPointer in_stack_fffffffffffffe48;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *in_stack_fffffffffffffe50;
-  InvokerMethod in_stack_fffffffffffffe58;
-  Il2CppObject *in_stack_fffffffffffffe60;
-  Il2CppClass *in_stack_fffffffffffffe68;
-  Il2CppType *pIStack_190;
-  System_Collections_Generic_List_T__o *local_188;
-  _union_13 _Stack_180;
-  _union_14 local_178;
-  undefined1 local_168 [80];
-  undefined1 local_118 [80];
-  undefined1 local_c8 [80];
-  Il2CppMethodPointer local_78;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *pSStack_70;
-  InvokerMethod local_68;
-  Il2CppObject *pIStack_60;
-  Il2CppClass *local_58;
-  Il2CppType *pIStack_50;
-  System_Collections_Generic_List_T__o *local_48;
-  _union_13 _Stack_40;
-  _union_14 local_38;
+  byte bVar1;
+  System_Collections_Generic_Dictionary_string__List_MapScriptBaseObject___o *__this;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  System_Xml_Schema_XmlSchema_c *pSVar3;
+  System_String_c *pSVar4;
+  System_Collections_Generic_Dictionary_string__List_string___o *__this_00;
+  SimpleJSONFixed_JSONNode_Enumerator_o *pSVar5;
+  bool bVar6;
+  char cVar7;
+  int32_t iVar8;
+  UnityEngine_Object_o *__this_01;
+  System_String_o *pSVar9;
+  SimpleJSONFixed_JSONNode_o *pSVar10;
+  SimpleJSONFixed_JSONNode_ValueEnumerator_o *pSVar11;
+  SimpleJSONFixed_JSONNode_KeyEnumerator_o *pSVar12;
+  MethodInfo *key;
+  System_Xml_Schema_XmlSchema_o *pSVar13;
+  undefined4 extraout_var;
+  System_Collections_Generic_List_MapScriptBaseObject__o *__this_02;
+  System_String_o *pSVar15;
+  undefined8 *puVar16;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o *pSVar17;
+  Map_MapScriptSceneObject_o *__this_03;
+  undefined4 extraout_var_00;
+  undefined4 extraout_var_01;
+  undefined4 extraout_var_02;
+  System_String_o *__this_04;
+  undefined4 extraout_var_03;
+  System_String_o *value;
+  Map_MapScriptBaseMaterial_o *value_00;
+  SimpleJSONFixed_JSONNode_o *pSVar18;
+  Map_MapScriptComponent_o *__this_05;
+  Il2CppObject *pIVar19;
+  System_Collections_Generic_List_string__o *__this_06;
+  float fVar20;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_1f8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_1e8;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_198;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_148;
+  SimpleJSONFixed_JSONNode_Enumerator_Fields local_f8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_a8;
+  System_Collections_Generic_KeyValuePair_string__JSONNode__o local_98;
+  SimpleJSONFixed_JSONNode_ValueEnumerator_o local_88;
+  longlong *plVar14;
   
-  if (g_data_057ac48a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinMapPrefabs);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Map_MapScriptBaseObject_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String_get_Item);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_Map_MapScriptBaseObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_MapScriptBaseObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapScriptComponent);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MapScriptSceneObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TextAsset);
-    il2cpp_runtime_helper_023445d0(&"AssetBasePath");
-    il2cpp_runtime_helper_023445d0(&"Asset");
-    il2cpp_runtime_helper_023445d0(&"Preview");
-    il2cpp_runtime_helper_023445d0(&"CollideMode");
-    il2cpp_runtime_helper_023445d0(&"AssetPrefix");
-    il2cpp_runtime_helper_023445d0(&"ScaleY");
-    il2cpp_runtime_helper_023445d0(&"Prefabs");
-    il2cpp_runtime_helper_023445d0(&"Networked");
-    il2cpp_runtime_helper_023445d0(&"None");
-    il2cpp_runtime_helper_023445d0(&"Name");
-    il2cpp_runtime_helper_023445d0(&"Visible");
-    il2cpp_runtime_helper_023445d0(&"Info");
-    il2cpp_runtime_helper_023445d0(&"/");
-    il2cpp_runtime_helper_023445d0(&"Category");
-    il2cpp_runtime_helper_023445d0(&"ScaleX");
-    il2cpp_runtime_helper_023445d0(&"Type");
-    il2cpp_runtime_helper_023445d0(&"Static");
-    il2cpp_runtime_helper_023445d0(&"ScaleZ");
-    il2cpp_runtime_helper_023445d0(&"CollideWith");
-    il2cpp_runtime_helper_023445d0(&"Variant");
-    il2cpp_runtime_helper_023445d0(&"");
-    il2cpp_runtime_helper_023445d0(&"AssetSameAsName");
-    il2cpp_runtime_helper_023445d0(&"Material");
-    il2cpp_runtime_helper_023445d0(&"Hidden");
-    il2cpp_runtime_helper_023445d0(&"MapPrefabList");
-    il2cpp_runtime_helper_023445d0(&"Components");
-    g_data_057ac48a = '\x01';
+  if (Il2CppMethodInitialized_184345037 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_BuiltinMapPrefabs);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_string_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_string_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapScriptBaseObject_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapScriptComponent_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_MapScriptBaseObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_MapScriptBaseObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptComponent);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_MapScriptSceneObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_TextAsset);
+    il2cpp_codegen_initialize_runtime_metadata(&"AssetBasePath");
+    il2cpp_codegen_initialize_runtime_metadata(&"Asset");
+    il2cpp_codegen_initialize_runtime_metadata(&"Preview");
+    il2cpp_codegen_initialize_runtime_metadata(&"CollideMode");
+    il2cpp_codegen_initialize_runtime_metadata(&"AssetPrefix");
+    il2cpp_codegen_initialize_runtime_metadata(&"ScaleY");
+    il2cpp_codegen_initialize_runtime_metadata(&"Prefabs");
+    il2cpp_codegen_initialize_runtime_metadata(&"Networked");
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    il2cpp_codegen_initialize_runtime_metadata(&"Name");
+    il2cpp_codegen_initialize_runtime_metadata(&"Visible");
+    il2cpp_codegen_initialize_runtime_metadata(&"Info");
+    il2cpp_codegen_initialize_runtime_metadata(&"/");
+    il2cpp_codegen_initialize_runtime_metadata(&"Category");
+    il2cpp_codegen_initialize_runtime_metadata(&"ScaleX");
+    il2cpp_codegen_initialize_runtime_metadata(&"Type");
+    il2cpp_codegen_initialize_runtime_metadata(&"Static");
+    il2cpp_codegen_initialize_runtime_metadata(&"ScaleZ");
+    il2cpp_codegen_initialize_runtime_metadata(&"CollideWith");
+    il2cpp_codegen_initialize_runtime_metadata(&"Variant");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"AssetSameAsName");
+    il2cpp_codegen_initialize_runtime_metadata(&"Material");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hidden");
+    il2cpp_codegen_initialize_runtime_metadata(&"MapPrefabList");
+    il2cpp_codegen_initialize_runtime_metadata(&"Components");
+    Il2CppMethodInitialized_184345037 = '\x01';
   }
-  local_118._48_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_118._56_8_ = (Il2CppRGCTXData *)0x0;
-  local_118._32_8_ = (Il2CppClass *)0x0;
-  local_118._40_8_ = (Il2CppType *)0x0;
-  local_118._16_8_ = (InvokerMethod)0x0;
-  local_118._24_8_ = (Il2CppObject *)0x0;
-  local_118._0_8_ = (Il2CppMethodPointer)0x0;
-  local_118._8_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_118._64_8_ = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_48 = (System_Collections_Generic_List_T__o *)0x0;
-  _Stack_40.rgctx_data = (Il2CppRGCTXData *)0x0;
-  local_58 = (Il2CppClass *)0x0;
-  pIStack_50 = (Il2CppType *)0x0;
-  local_68 = (InvokerMethod)0x0;
-  pIStack_60 = (Il2CppObject *)0x0;
-  local_78 = (Il2CppMethodPointer)0x0;
-  pSStack_70 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_38.genericMethod = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_c8._48_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_c8._56_8_ = (Il2CppRGCTXData *)0x0;
-  local_c8._32_8_ = (Il2CppClass *)0x0;
-  local_c8._40_8_ = (Il2CppType *)0x0;
-  local_c8._16_8_ = (InvokerMethod)0x0;
-  local_c8._24_8_ = (Il2CppObject *)0x0;
-  local_c8._0_8_ = (Il2CppMethodPointer)0x0;
-  local_c8._8_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_c8._64_8_ = (SimpleJSONFixed_JSONNode_o *)0x0;
-  local_168._48_8_ = (System_Collections_Generic_List_T__o *)0x0;
-  local_168._56_8_ = (Il2CppRGCTXData *)0x0;
-  local_168._32_8_ = (Il2CppClass *)0x0;
-  local_168._40_8_ = (Il2CppType *)0x0;
-  local_168._16_8_ = (InvokerMethod)0x0;
-  local_168._24_8_ = (Il2CppObject *)0x0;
-  local_168._0_8_ = (Il2CppMethodPointer)0x0;
-  local_168._8_8_ = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  local_168._64_8_ = (SimpleJSONFixed_JSONNode_o *)0x0;
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_148.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_f8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_198.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_1e8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)0x0;
+  local_148.type = 0;
+  local_148._4_4_ = 0;
+  local_148.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_148.m_Object.fields._version = 0;
+  local_148.m_Object.fields._index = 0;
+  local_148.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_148.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_148.m_Object.fields._getEnumeratorRetType = 0;
+  local_148.m_Object.fields._36_4_ = 0;
+  local_148.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_148.m_Array.fields._index = 0;
+  local_148.m_Array.fields._version = 0;
+  local_f8.type = 0;
+  local_f8._4_4_ = 0;
+  local_f8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_f8.m_Object.fields._version = 0;
+  local_f8.m_Object.fields._index = 0;
+  local_f8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_f8.m_Object.fields._getEnumeratorRetType = 0;
+  local_f8.m_Object.fields._36_4_ = 0;
+  local_f8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_f8.m_Array.fields._index = 0;
+  local_f8.m_Array.fields._version = 0;
+  local_198.type = 0;
+  local_198._4_4_ = 0;
+  local_198.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_198.m_Object.fields._version = 0;
+  local_198.m_Object.fields._index = 0;
+  local_198.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_198.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_198.m_Object.fields._getEnumeratorRetType = 0;
+  local_198.m_Object.fields._36_4_ = 0;
+  local_198.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_198.m_Array.fields._index = 0;
+  local_198.m_Array.fields._version = 0;
+  local_1e8.type = 0;
+  local_1e8._4_4_ = 0;
+  local_1e8.m_Object.fields._dictionary = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
+  local_1e8.m_Object.fields._version = 0;
+  local_1e8.m_Object.fields._index = 0;
+  local_1e8.m_Object.fields._current.fields.key = (Il2CppObject *)0x0;
+  local_1e8.m_Object.fields._current.fields.value = (Il2CppObject *)0x0;
+  local_1e8.m_Object.fields._getEnumeratorRetType = 0;
+  local_1e8.m_Object.fields._36_4_ = 0;
+  local_1e8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)0x0;
+  local_1e8.m_Array.fields._index = 0;
+  local_1e8.m_Array.fields._version = 0;
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  pSVar11 = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x18);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pSVar9 = TypeInfo_Utility_ResourcePaths->static_fields->Info;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  __this_08 = ApplicationManagers_ResourceManager__LoadAsset(pSVar11,"MapPrefabList",0,(MethodInfo *)0x0);
-  if (__this_08 != (UnityEngine_Object_o *)0x0) {
-    bVar2 = (TypeInfo_TextAsset->_2).naturalAligment;
-    if (((__this_08->klass->_2).naturalAligment < bVar2) ||
-       ((__this_08->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_TextAsset)) goto label_040a0635;
-    pSVar11 = UnityEngine_TextAsset__get_text((UnityEngine_TextAsset_o *)__this_08,(MethodInfo *)0x0);
-    pSVar12 = SimpleJSONFixed_JSON__Parse(pSVar11,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this_01 = ApplicationManagers_ResourceManager__LoadAsset
+                        (pSVar9,"MapPrefabList",false,(MethodInfo *)0x0);
+  if (__this_01 != (UnityEngine_Object_o *)0x0) {
+    bVar1 = (TypeInfo_UnityEngine_TextAsset->_2).typeHierarchyDepth;
+    if (((__this_01->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((__this_01->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_UnityEngine_TextAsset)) {
+      il2cpp_codegen_raise_invalid_cast_exception(__this_01,TypeInfo_UnityEngine_TextAsset);
     }
-    **(undefined8 **)(TypeInfo_BuiltinMapPrefabs + 0xb8) = pSVar12;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_BuiltinMapPrefabs + 0xb8),pSVar12);
-    if ((SimpleJSONFixed_JSONNode_o *)**(undefined8 **)(TypeInfo_BuiltinMapPrefabs + 0xb8) !=
-        (SimpleJSONFixed_JSONNode_o *)0x0) {
-      SimpleJSONFixed_JSONNode__get_Keys
-                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&stack0xfffffffffffffe48,
-                 (SimpleJSONFixed_JSONNode_o *)**(undefined8 **)(TypeInfo_BuiltinMapPrefabs + 0xb8),(MethodInfo *)0x0);
-      local_38 = local_178;
-      local_48 = local_188;
-      _Stack_40 = _Stack_180;
-      pIStack_50 = pIStack_190;
-      __this.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-      __this.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffe28;
-      __this.fields.m_Enumerator.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-      __this.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
-           (Il2CppObject *)in_stack_fffffffffffffe40;
-      __this.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-           (Il2CppObject *)in_stack_fffffffffffffe48;
-      __this.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-      __this.fields.m_Enumerator.fields.m_Array.fields._list =
-           (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-      __this.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-      __this.fields.m_Enumerator.fields.m_Array.fields._current =
-           (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-      local_78 = in_stack_fffffffffffffe48;
-      pSStack_70 = in_stack_fffffffffffffe50;
-      local_68 = in_stack_fffffffffffffe58;
-      pIStack_60 = in_stack_fffffffffffffe60;
-      local_58 = in_stack_fffffffffffffe68;
-      SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
-                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&stack0xfffffffffffffe48,__this,
-                 (MethodInfo *)&local_78);
-      local_118._64_8_ = local_178;
-      local_118._48_8_ = local_188;
-      local_118._56_8_ = _Stack_180;
-      local_118._40_8_ = pIStack_190;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-      __this_00.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffe28;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
-           (Il2CppObject *)in_stack_fffffffffffffe40;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-           (Il2CppObject *)in_stack_fffffffffffffe48;
-      __this_00.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._list =
-           (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-      __this_00.fields.m_Enumerator.fields.m_Array.fields._current =
-           (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-      local_118._0_8_ = in_stack_fffffffffffffe48;
-      local_118._8_8_ = in_stack_fffffffffffffe50;
-      local_118._16_8_ = in_stack_fffffffffffffe58;
-      local_118._24_8_ = in_stack_fffffffffffffe60;
-      local_118._32_8_ = in_stack_fffffffffffffe68;
-      bVar10 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext(__this_00,(MethodInfo *)local_118);
-      cVar8 = (char)bVar10;
-      do {
-        if (cVar8 == '\0') {
-          return;
-        }
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-        __this_02.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffe28;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
-             (Il2CppObject *)in_stack_fffffffffffffe40;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-             (Il2CppObject *)in_stack_fffffffffffffe48;
-        __this_02.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._list =
-             (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-        __this_02.fields.m_Enumerator.fields.m_Array.fields._current =
-             (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-        in_stack_fffffffffffffe30 =
-             SimpleJSONFixed_JSONNode_KeyEnumerator__get_Current(__this_02,(MethodInfo *)local_118);
-        if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        plVar13 = (long *)**(long **)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-        if (((plVar13 == (long *)0x0) ||
-            (plVar13 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                         (plVar13,in_stack_fffffffffffffe30,*(undefined8 *)(*plVar13 + 0x1b0))
-            , plVar13 == (long *)0x0)) ||
-           (plVar14 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                        (plVar13,"Info",*(undefined8 *)(*plVar13 + 0x1b0)),
-           plVar14 == (long *)0x0)) break;
-        cVar8 = (**(code **)(*plVar14 + 0x2f8))(plVar14,"Category",*(undefined8 *)(*plVar14 + 0x300));
-        if (cVar8 != '\0') {
-          plVar15 = (long *)(**(code **)(*plVar14 + 0x1a8))
-                                      (plVar14,"Category",*(undefined8 *)(*plVar14 + 0x1b0));
-          if (plVar15 == (long *)0x0) break;
-          in_stack_fffffffffffffe30 = (System_String_o *)(**(code **)(*plVar15 + 0x1c8))(plVar15);
-        }
-        if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                  (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x10);
-        if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-        bVar10 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                           (pSVar4,(Il2CppObject *)in_stack_fffffffffffffe30,MethodInfo_Boolean_ContainsKey);
-        if ((char)bVar10 == '\0') {
-          if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
+    pSVar9 = UnityEngine_TextAsset__ToString((UnityEngine_TextAsset_o *)__this_01,(MethodInfo *)0x0);
+    pSVar10 = SimpleJSONFixed_JSON__Parse(pSVar9,(MethodInfo *)0x0);
+    if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+    }
+    TypeInfo_Map_BuiltinMapPrefabs->static_fields->_prefabList = pSVar10;
+    Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->_prefabList,pSVar10);
+    pSVar10 = TypeInfo_Map_BuiltinMapPrefabs->static_fields->_prefabList;
+    if (pSVar10 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+      pSVar11 = SimpleJSONFixed_JSONNode__get_Values(&local_88,pSVar10,(MethodInfo *)0x0);
+      local_f8.type = (pSVar11->fields).m_Enumerator.fields.type;
+      local_f8._4_4_ = *(undefined4 *)&(pSVar11->fields).m_Enumerator.fields.field_0x4;
+      local_f8.m_Object.fields._dictionary = (pSVar11->fields).m_Enumerator.fields.m_Object.fields._dictionary
+      ;
+      pSVar5 = &(pSVar11->fields).m_Enumerator;
+      local_f8.m_Object.fields._version = (pSVar5->fields).m_Object.fields._version;
+      local_f8.m_Object.fields._index = (pSVar5->fields).m_Object.fields._index;
+      local_f8.m_Object.fields._current.fields.key =
+           (pSVar11->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
+      local_f8.m_Object.fields._current.fields.value =
+           (pSVar11->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
+      pSVar5 = &(pSVar11->fields).m_Enumerator;
+      local_f8.m_Object.fields._getEnumeratorRetType = (pSVar5->fields).m_Object.fields._getEnumeratorRetType;
+      local_f8.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar5->fields).m_Object.fields.field_0x24;
+      local_f8.m_Array.fields._list = (pSVar11->fields).m_Enumerator.fields.m_Array.fields._list;
+      pSVar5 = &(pSVar11->fields).m_Enumerator;
+      local_f8.m_Array.fields._index = (pSVar5->fields).m_Array.fields._index;
+      local_f8.m_Array.fields._version = (pSVar5->fields).m_Array.fields._version;
+      local_f8.m_Array.fields._current = (pSVar11->fields).m_Enumerator.fields.m_Array.fields._current;
+      pSVar12 = SimpleJSONFixed_JSONNode_KeyEnumerator__GetEnumerator
+                          ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_88,
+                           (SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_f8,(MethodInfo *)0x0);
+      local_148.type = (pSVar12->fields).m_Enumerator.fields.type;
+      local_148._4_4_ = *(undefined4 *)&(pSVar12->fields).m_Enumerator.fields.field_0x4;
+      local_148.m_Object.fields._dictionary =
+           (pSVar12->fields).m_Enumerator.fields.m_Object.fields._dictionary;
+      pSVar5 = &(pSVar12->fields).m_Enumerator;
+      local_148.m_Object.fields._version = (pSVar5->fields).m_Object.fields._version;
+      local_148.m_Object.fields._index = (pSVar5->fields).m_Object.fields._index;
+      local_148.m_Object.fields._current.fields.key =
+           (pSVar12->fields).m_Enumerator.fields.m_Object.fields._current.fields.key;
+      local_148.m_Object.fields._current.fields.value =
+           (pSVar12->fields).m_Enumerator.fields.m_Object.fields._current.fields.value;
+      pSVar5 = &(pSVar12->fields).m_Enumerator;
+      local_148.m_Object.fields._getEnumeratorRetType = (pSVar5->fields).m_Object.fields._getEnumeratorRetType
+      ;
+      local_148.m_Object.fields._36_4_ = *(undefined4 *)&(pSVar5->fields).m_Object.fields.field_0x24;
+      local_148.m_Array.fields._list = (pSVar12->fields).m_Enumerator.fields.m_Array.fields._list;
+      pSVar5 = &(pSVar12->fields).m_Enumerator;
+      local_148.m_Array.fields._index = (pSVar5->fields).m_Array.fields._index;
+      local_148.m_Array.fields._version = (pSVar5->fields).m_Array.fields._version;
+      local_148.m_Array.fields._current = (pSVar12->fields).m_Enumerator.fields.m_Array.fields._current;
+      bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                        ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_148,(MethodInfo *)0x0);
+      if (bVar6) {
+        do {
+          key = (MethodInfo *)
+                SimpleJSONFixed_JSONNode_KeyEnumerator__get_Current
+                          ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_148,(MethodInfo *)0x0);
+          if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
           }
-          pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                    (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x10);
-          pSVar16 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_MapScriptBaseObject);
-          System_Collections_Generic_List_object____ctor(pSVar16,MethodInfo_List_1_Map_MapScriptBaseObject);
-          if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
-          System_Collections_Generic_Dictionary_object__object___Add
-                    (pSVar4,(Il2CppObject *)in_stack_fffffffffffffe30,(Il2CppObject *)pSVar16,MethodInfo_Void_Add);
-        }
-        plVar13 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                    (plVar13,"Prefabs",*(undefined8 *)(*plVar13 + 0x1b0));
-        if (plVar13 == (long *)0x0) break;
-        (**(code **)(*plVar13 + 0x338))(&stack0xfffffffffffffe48,plVar13,*(undefined8 *)(*plVar13 + 0x340));
-        local_c8._64_8_ = local_178;
-        local_c8._48_8_ = local_188;
-        local_c8._56_8_ = _Stack_180;
-        local_c8._40_8_ = pIStack_190;
-        __this_03.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-        __this_03.fields._0_8_ = in_stack_fffffffffffffe28;
-        __this_03.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-        __this_03.fields.m_Object.fields._current.fields.key = (Il2CppObject *)in_stack_fffffffffffffe40;
-        __this_03.fields.m_Object.fields._current.fields.value = (Il2CppObject *)in_stack_fffffffffffffe48;
-        __this_03.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-        __this_03.fields.m_Array.fields._list =
-             (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-        __this_03.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-        __this_03.fields.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-        local_c8._0_8_ = in_stack_fffffffffffffe48;
-        local_c8._8_8_ = in_stack_fffffffffffffe50;
-        local_c8._16_8_ = in_stack_fffffffffffffe58;
-        local_c8._24_8_ = in_stack_fffffffffffffe60;
-        local_c8._32_8_ = in_stack_fffffffffffffe68;
-        bVar10 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_03,(MethodInfo *)local_c8);
-        cVar8 = (char)bVar10;
-        plVar13 = plVar14;
-        while (plVar15 = plVar14, cVar8 != '\0') {
-          __this_05.fields.m_Object.fields._dictionary =
-               (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-          __this_05.fields._0_8_ = in_stack_fffffffffffffe28;
-          __this_05.fields.m_Object.fields._8_8_ = plVar15;
-          __this_05.fields.m_Object.fields._current.fields.key = (Il2CppObject *)in_stack_fffffffffffffe40;
-          __this_05.fields.m_Object.fields._current.fields.value = (Il2CppObject *)in_stack_fffffffffffffe48;
-          __this_05.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-          __this_05.fields.m_Array.fields._list =
-               (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-          __this_05.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-          __this_05.fields.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-          SVar23 = SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_05,(MethodInfo *)local_c8);
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
+          pSVar10 = TypeInfo_Map_BuiltinMapPrefabs->static_fields->_prefabList;
+          if (((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+              (pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)(pSVar10,key),
+              pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0)) ||
+             (pSVar9 = (*(pSVar13->klass->vtable)._7_get_IdAttribute.methodPtr)
+                                 (pSVar13,(MethodInfo *)"Info"),
+             pSVar9 == (System_String_o *)0x0)) goto label_181e85ccc;
+          cVar7 = (*(code *)((Il2CppClass *)pSVar9->klass)->vtable[28].methodPtr)
+                            (pSVar9,"Category",((Il2CppClass *)pSVar9->klass)->vtable[28].method);
+          if (cVar7 != '\0') {
+            iVar8 = (*(pSVar9->klass->vtable)._7_CompareTo.methodPtr)
+                              (pSVar9,"Category",(pSVar9->klass->vtable)._7_CompareTo.method);
+            plVar14 = (longlong *)CONCAT44(extraout_var,iVar8);
+            if (plVar14 == (longlong *)0x0) goto label_181e85ccc;
+            key = (MethodInfo *)(**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0));
           }
-          pSVar12 = SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar23,(MethodInfo *)0x0);
-          __this_09 = (Map_MapScriptSceneObject_o *)il2cpp_runtime_helper_023052d0(TypeInfo_MapScriptSceneObject);
-          Map_MapScriptSceneObject___ctor(__this_09,(MethodInfo *)0x0);
-          plVar14 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                      (plVar13,"Type",*(undefined8 *)(*plVar13 + 0x1b0));
-          if ((plVar14 == (long *)0x0) ||
-             (pSVar11 = (System_String_o *)(**(code **)(*plVar14 + 0x1c8))(plVar14),
-             __this_09 == (Map_MapScriptSceneObject_o *)0x0)) goto label_040a0630;
-          (__this_09->fields).Type = pSVar11;
-          il2cpp_runtime_helper_022b4080(&__this_09->fields);
-          if ((pSVar12 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
-             (plVar14 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                          (pSVar12,"Name",(pSVar12->klass->vtable)._7_get_Item.method),
-             plVar14 == (long *)0x0)) goto label_040a0630;
-          uVar17 = (**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0));
-          pbVar21 = &(__this_09->fields).Visible;
-          (__this_09->fields).Visible = (int)uVar17;
-          (__this_09->fields).Networked = (int)((ulong)uVar17 >> 0x20);
-          il2cpp_runtime_helper_022b4080(pbVar21,uVar17);
-          pSVar11 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-          cVar8 = (**(code **)(*plVar13 + 0x2f8))(plVar13,"AssetSameAsName",*(undefined8 *)(*plVar13 + 0x300));
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                        (plVar13,"AssetSameAsName",*(undefined8 *)(*plVar13 + 0x1b0));
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            cVar8 = (**(code **)(*plVar13 + 0x3a8))(plVar13,*(undefined8 *)(*plVar13 + 0x3b0));
-            if (cVar8 != '\0') {
-              plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                          (pSVar12,"Name",(pSVar12->klass->vtable)._7_get_Item.method);
-              if (plVar13 == (long *)0x0) goto label_040a0630;
-              pSVar11 = (System_String_o *)
-                        (**(code **)(*plVar13 + 0x1c8))(plVar13,*(undefined8 *)(*plVar13 + 0x1d0));
+          if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+          }
+          __this = TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabCategories;
+          if (__this == (System_Collections_Generic_Dictionary_string__List_MapScriptBaseObject___o *)0x0)
+          goto label_181e85ccc;
+          bVar6 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+                             (Il2CppObject *)key,
+                             (MethodInfo_1455450 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_ContainsKey
+                            );
+          if (!bVar6) {
+            if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
             }
+            pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                     TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabCategories;
+            __this_02 = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_MapScriptBaseObject
+                                  );
+            System_Collections_Generic_List_object____ctor
+                      ((System_Collections_Generic_LowLevelList_T__o *)__this_02,
+                       (MethodInfo_92A240 *)
+                       MethodInfo_System_Collections_Generic_List_MapScriptBaseObject_ctor);
+            if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181e85ccc;
+            System_Collections_Generic_Dictionary_object__object___Add
+                      (pSVar2,(Il2CppObject *)key,(Il2CppObject *)__this_02,
+                       (MethodInfo_146B4B0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_Add);
           }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Asset",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Asset",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            pSVar11 = (System_String_o *)
-                      (**(code **)(*plVar13 + 0x1c8))(plVar13,*(undefined8 *)(*plVar13 + 0x1d0));
-          }
-          bVar10 = System_String__op_Equality
-                             (pSVar11,(System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8),
-                              (MethodInfo *)0x0);
-          pSVar18 = "None";
-          if (((char)bVar10 == '\0') &&
-             (bVar10 = System_String__op_Equality(pSVar11,"None",(MethodInfo *)0x0),
-             __this_10 = "", pSVar18 = "None", (char)bVar10 == '\0')) {
-            plVar13 = plVar15;
-            cVar8 = (**(code **)(*plVar15 + 0x2f8))(plVar15,"AssetBasePath",*(undefined8 *)(*plVar15 + 0x300));
-            if (cVar8 == '\0') {
-              cVar8 = (**(code **)(*plVar15 + 0x2f8))(plVar15,"AssetPrefix",*(undefined8 *)(*plVar15 + 0x300));
-              in_stack_fffffffffffffe40 = pbVar21;
-              if (cVar8 != '\0') {
-                plVar14 = (long *)(**(code **)(*plVar13 + 0x1a8))
-                                            (plVar13,"AssetPrefix",*(undefined8 *)(*plVar13 + 0x1b0));
-                if (plVar14 == (long *)0x0) goto label_040a0630;
-                __this_10 = (System_String_o *)
-                            (**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0));
+          pSVar15 = (*(pSVar13->klass->vtable)._7_get_IdAttribute.methodPtr)
+                              (pSVar13,(MethodInfo *)"Prefabs");
+          if (pSVar15 == (System_String_o *)0x0) goto label_181e85ccc;
+          puVar16 = (undefined8 *)(*(code *)((Il2CppClass *)pSVar15->klass)->vtable[32].methodPtr)(&local_88);
+          local_198._0_8_ = *puVar16;
+          local_198.m_Object.fields._dictionary =
+               (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar16[1];
+          local_198.m_Object.fields._8_8_ = puVar16[2];
+          local_198.m_Object.fields._current.fields.key = (Il2CppObject *)puVar16[3];
+          local_198.m_Object.fields._current.fields.value = (Il2CppObject *)puVar16[4];
+          local_198.m_Object.fields._32_8_ = puVar16[5];
+          local_198.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar16[6];
+          local_198.m_Array.fields._8_8_ = puVar16[7];
+          local_198.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar16[8];
+          bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                            ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_198,(MethodInfo *)0x0);
+          if (bVar6) {
+            do {
+              pSVar17 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                                  (&local_a8,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_198,
+                                   (MethodInfo *)0x0);
+              pSVar15 = (pSVar17->fields).key;
+              pSVar10 = (pSVar17->fields).value;
+              if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
               }
-            }
-            else {
-              plVar14 = (long *)(**(code **)(*plVar15 + 0x1a8))
-                                          (plVar15,"AssetBasePath",*(undefined8 *)(*plVar15 + 0x1b0));
-              if ((plVar14 == (long *)0x0) ||
-                 (__this_10 = (System_String_o *)(**(code **)(*plVar14 + 0x1c8))(plVar14),
-                 __this_10 == (System_String_o *)0x0)) goto label_040a0630;
-              in_stack_fffffffffffffe40 = pbVar21;
-              bVar10 = System_String__EndsWith(__this_10,"/",(MethodInfo *)0x0);
-              if ((char)bVar10 == '\0') {
-                __this_10 = System_String__Concat_3ae5ba0(__this_10,"/",(MethodInfo *)0x0);
-              }
-            }
-            pSVar18 = System_String__Concat_3ae5ba0(__this_10,pSVar11,(MethodInfo *)0x0);
-            plVar15 = plVar13;
-          }
-          (__this_09->fields).Asset = pSVar18;
-          il2cpp_runtime_helper_022b4080(&(__this_09->fields).Asset);
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Static",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Static",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            uVar9 = (**(code **)(*plVar13 + 0x3a8))(plVar13,*(undefined8 *)(*plVar13 + 0x3b0));
-            *(undefined1 *)((long)&(__this_09->fields).Active + 1) = uVar9;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Networked",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Networked",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            uVar9 = (**(code **)(*plVar13 + 0x3a8))(plVar13,*(undefined8 *)(*plVar13 + 0x3b0));
-            *(undefined1 *)((long)&(__this_09->fields).Active + 3) = uVar9;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Visible",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Visible",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            uVar9 = (**(code **)(*plVar13 + 0x3a8))(plVar13,*(undefined8 *)(*plVar13 + 0x3b0));
-            *(undefined1 *)((long)&(__this_09->fields).Active + 2) = uVar9;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"CollideMode",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"CollideMode",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            uVar17 = (**(code **)(*plVar13 + 0x1c8))(plVar13,*(undefined8 *)(*plVar13 + 0x1d0));
-            *(undefined8 *)&(__this_09->fields).ScaleZ = uVar17;
-            il2cpp_runtime_helper_022b4080(&(__this_09->fields).ScaleZ,uVar17);
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"CollideWith",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"CollideWith",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            pSVar11 = (System_String_o *)
-                      (**(code **)(*plVar13 + 0x1c8))(plVar13,*(undefined8 *)(*plVar13 + 0x1d0));
-            (__this_09->fields).CollideMode = pSVar11;
-            il2cpp_runtime_helper_022b4080(&(__this_09->fields).CollideMode,pSVar11);
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Material",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Material",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            pSVar11 = (System_String_o *)(**(code **)(*plVar13 + 0x1c8))(plVar13);
-            pMVar19 = Map_MapScriptSceneObject__DeserializeMaterial(pSVar11,(MethodInfo *)0x0);
-            (__this_09->fields).PhysicsMaterial = (System_String_o *)pMVar19;
-            il2cpp_runtime_helper_022b4080(&(__this_09->fields).PhysicsMaterial,pMVar19);
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Components",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Components",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            (**(code **)(*plVar13 + 0x338))
-                      (&stack0xfffffffffffffe48,plVar13,*(undefined8 *)(*plVar13 + 0x340));
-            local_168._64_8_ = local_178;
-            local_168._48_8_ = local_188;
-            local_168._56_8_ = _Stack_180;
-            local_168._40_8_ = pIStack_190;
-            local_168._0_8_ = in_stack_fffffffffffffe48;
-            local_168._8_8_ = in_stack_fffffffffffffe50;
-            local_168._16_8_ = in_stack_fffffffffffffe58;
-            local_168._24_8_ = in_stack_fffffffffffffe60;
-            local_168._32_8_ = in_stack_fffffffffffffe68;
-            while( true ) {
-              __this_06.fields.m_Object.fields._dictionary =
-                   (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-              __this_06.fields._0_8_ = in_stack_fffffffffffffe28;
-              __this_06.fields.m_Object.fields._8_8_ = plVar15;
-              __this_06.fields.m_Object.fields._current.fields.key = (Il2CppObject *)in_stack_fffffffffffffe40
-              ;
-              __this_06.fields.m_Object.fields._current.fields.value =
-                   (Il2CppObject *)in_stack_fffffffffffffe48;
-              __this_06.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-              __this_06.fields.m_Array.fields._list =
-                   (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-              __this_06.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-              __this_06.fields.m_Array.fields._current =
-                   (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-              bVar10 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_06,(MethodInfo *)local_168);
-              if ((char)bVar10 == '\0') break;
-              __this_07.fields.m_Object.fields._dictionary =
-                   (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-              __this_07.fields._0_8_ = in_stack_fffffffffffffe28;
-              __this_07.fields.m_Object.fields._8_8_ = plVar15;
-              __this_07.fields.m_Object.fields._current.fields.key = (Il2CppObject *)in_stack_fffffffffffffe40
-              ;
-              __this_07.fields.m_Object.fields._current.fields.value =
-                   (Il2CppObject *)in_stack_fffffffffffffe48;
-              __this_07.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-              __this_07.fields.m_Array.fields._list =
-                   (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-              __this_07.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-              __this_07.fields.m_Array.fields._current =
-                   (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-              SVar23 = SimpleJSONFixed_JSONNode_Enumerator__get_Current(__this_07,(MethodInfo *)local_168);
-              if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              pSVar20 = SimpleJSONFixed_JSONNode__op_Implicit_3f7a5a0(SVar23,(MethodInfo *)0x0);
-              __this_11 = (Map_MapScriptComponent_o *)il2cpp_runtime_helper_023052d0(TypeInfo_MapScriptComponent);
-              Map_MapScriptComponent___ctor(__this_11,(MethodInfo *)0x0);
-              if ((pSVar20 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
-                 (uVar17 = (*(pSVar20->klass->vtable)._9_get_Value.methodPtr)(pSVar20),
-                 __this_11 == (Map_MapScriptComponent_o *)0x0)) goto label_040a0630;
-              (*(__this_11->klass->vtable)._9_Deserialize.methodPtr)
-                        (__this_11,uVar17,(__this_11->klass->vtable)._9_Deserialize.method);
-              lVar7 = MethodInfo_Void_Add;
-              pSVar16 = (System_Collections_Generic_List_object__o *)(__this_09->fields).Material;
-              if (pSVar16 == (System_Collections_Generic_List_object__o *)0x0) goto label_040a0630;
-              piVar1 = &(pSVar16->fields)._version;
-              *piVar1 = *piVar1 + 1;
-              pSVar5 = (pSVar16->fields)._items;
-              if (pSVar5 == (System_Object_array *)0x0) goto label_040a0630;
-              uVar3 = (pSVar16->fields)._size;
-              if (uVar3 < (uint)pSVar5->max_length) {
-                (pSVar16->fields)._size = uVar3 + 1;
-                pSVar5->m_Items[(int)uVar3] = (Il2CppObject *)__this_11;
-                il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar3,__this_11);
-              }
-              else {
-                System_Collections_Generic_List_object___AddWithResize
-                          (pSVar16,(Il2CppObject *)__this_11,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-              }
-            }
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"ScaleX",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"ScaleX",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            fVar22 = (float)(**(code **)(*plVar13 + 0x388))(plVar13,*(undefined8 *)(*plVar13 + 0x390));
-            (__this_09->fields).RotationY = fVar22;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"ScaleY",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"ScaleY",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            fVar22 = (float)(**(code **)(*plVar13 + 0x388))(plVar13,*(undefined8 *)(*plVar13 + 0x390));
-            (__this_09->fields).RotationY = fVar22;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"ScaleZ",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"ScaleZ",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            fVar22 = (float)(**(code **)(*plVar13 + 0x388))(plVar13,*(undefined8 *)(*plVar13 + 0x390));
-            (__this_09->fields).RotationY = fVar22;
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Preview",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                      (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x20);
-            pIVar6 = *(Il2CppObject **)pbVar21;
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Preview",(pSVar12->klass->vtable)._7_get_Item.method);
-            if ((plVar13 == (long *)0x0) ||
-               (value = (Il2CppObject *)(**(code **)(*plVar13 + 0x1c8))(plVar13),
-               pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)) goto label_040a0630;
-            System_Collections_Generic_Dictionary_object__object___Add(pSVar4,pIVar6,value,MethodInfo_Void_Add);
-          }
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Variant",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 != '\0') {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Variant",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            pSVar11 = (System_String_o *)
-                      (**(code **)(*plVar13 + 0x1c8))(plVar13,*(undefined8 *)(*plVar13 + 0x1d0));
-            bVar10 = System_String__op_Inequality(pSVar11,*(System_String_o **)pbVar21,(MethodInfo *)0x0);
-            if ((char)bVar10 != '\0') {
-              if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                        (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x28);
-              if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_040a0630;
-              bVar10 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                                 (pSVar4,(Il2CppObject *)pSVar11,MethodInfo_Boolean_ContainsKey);
-              if ((char)bVar10 == '\0') {
-                if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-                  il2cpp_runtime_helper_02337ed0();
+              local_1f8.fields.key = pSVar15;
+              local_1f8.fields.value = pSVar10;
+              pSVar10 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_1f8,(MethodInfo *)0x0);
+              __this_03 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptSceneObject);
+              Map_MapScriptSceneObject___ctor(__this_03,(MethodInfo *)0x0);
+              iVar8 = (*(pSVar9->klass->vtable)._7_CompareTo.methodPtr)
+                                (pSVar9,"Type",(pSVar9->klass->vtable)._7_CompareTo.method);
+              plVar14 = (longlong *)CONCAT44(extraout_var_00,iVar8);
+              if ((plVar14 == (longlong *)0x0) ||
+                 (pSVar15 = (System_String_o *)
+                            (**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0)),
+                 __this_03 == (Map_MapScriptSceneObject_o *)0x0)) goto label_181e85ccc;
+              (__this_03->fields).Type = pSVar15;
+              Il2CppCodeGenWriteBarrier(&(__this_03->fields).Type,pSVar15);
+              if ((pSVar10 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+                 (pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                      (pSVar10,(MethodInfo *)"Name"),
+                 pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0)) goto label_181e85ccc;
+              pSVar3 = pSVar13->klass;
+              pSVar15 = (System_String_o *)
+                        (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                  (pSVar13,(UnityEngine_GameObject_o *)
+                                           (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                   (MethodInfo *)pSVar3);
+              (__this_03->fields).Name = pSVar15;
+              Il2CppCodeGenWriteBarrier(&(__this_03->fields).Name,pSVar15);
+              pSVar15 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+              cVar7 = (*(code *)((Il2CppClass *)pSVar9->klass)->vtable[28].methodPtr)
+                                (pSVar9,"AssetSameAsName",((Il2CppClass *)pSVar9->klass)->vtable[28].method);
+              if (cVar7 != '\0') {
+                iVar8 = (*(pSVar9->klass->vtable)._7_CompareTo.methodPtr)
+                                  (pSVar9,"AssetSameAsName",(pSVar9->klass->vtable)._7_CompareTo.method);
+                plVar14 = (longlong *)CONCAT44(extraout_var_01,iVar8);
+                if (plVar14 == (longlong *)0x0) goto label_181e85ccc;
+                cVar7 = (**(code **)(*plVar14 + 0x3a8))(plVar14,*(undefined8 *)(*plVar14 + 0x3b0));
+                if (cVar7 != '\0') {
+                  pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                      (pSVar10,(MethodInfo *)"Name");
+                  if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                  pSVar3 = pSVar13->klass;
+                  pSVar15 = (System_String_o *)
+                            (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                      (pSVar13,(UnityEngine_GameObject_o *)
+                                               (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                       (MethodInfo *)pSVar3);
                 }
-                pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                          (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x28);
-                pSVar16 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-                System_Collections_Generic_List_object____ctor(pSVar16,MethodInfo_List_1_System_String);
-                if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-                goto label_040a0630;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Asset");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Asset");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pSVar15 = (System_String_o *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+              }
+              bVar6 = System_String__op_Equality
+                                (pSVar15,(System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8),
+                                 (MethodInfo *)0x0);
+              value = "None";
+              if ((!bVar6) &&
+                 (bVar6 = System_String__op_Equality(pSVar15,"None",(MethodInfo *)0x0),
+                 __this_04 = "", value = "None", !bVar6)) {
+                cVar7 = (*(code *)((Il2CppClass *)pSVar9->klass)->vtable[28].methodPtr)
+                                  (pSVar9,"AssetBasePath",((Il2CppClass *)pSVar9->klass)->vtable[28].method);
+                pSVar4 = pSVar9->klass;
+                if (cVar7 == '\0') {
+                  cVar7 = (*(code *)((Il2CppClass *)pSVar4)->vtable[28].methodPtr)(pSVar9,"AssetPrefix");
+                  if (cVar7 != '\0') {
+                    iVar8 = (*(pSVar9->klass->vtable)._7_CompareTo.methodPtr)
+                                      (pSVar9,"AssetPrefix",
+                                       (pSVar9->klass->vtable)._7_CompareTo.method);
+                    plVar14 = (longlong *)CONCAT44(extraout_var_02,iVar8);
+                    if (plVar14 == (longlong *)0x0) goto label_181e85ccc;
+                    __this_04 = (System_String_o *)
+                                (**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0));
+                  }
+                }
+                else {
+                  iVar8 = (*(pSVar4->vtable)._7_CompareTo.methodPtr)
+                                    (pSVar9,"AssetBasePath",(pSVar4->vtable)._7_CompareTo.method);
+                  plVar14 = (longlong *)CONCAT44(extraout_var_03,iVar8);
+                  if ((plVar14 == (longlong *)0x0) ||
+                     (__this_04 = (System_String_o *)
+                                  (**(code **)(*plVar14 + 0x1c8))(plVar14,*(undefined8 *)(*plVar14 + 0x1d0)),
+                     __this_04 == (System_String_o *)0x0)) goto label_181e85ccc;
+                  bVar6 = System_String__EndsWith(__this_04,"/",(MethodInfo *)0x0);
+                  if (!bVar6) {
+                    __this_04 = System_String__Concat_1969e50
+                                          (__this_04,"/",(MethodInfo *)0x0);
+                  }
+                }
+                value = System_String__Concat_1969e50(__this_04,pSVar15,(MethodInfo *)0x0);
+              }
+              (__this_03->fields).Asset = value;
+              Il2CppCodeGenWriteBarrier(&(__this_03->fields).Asset,value);
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Static");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Static");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                bVar6 = (bool)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[39].methodPtr)
+                                        (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[39].method);
+                (__this_03->fields).Static = bVar6;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Networked");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Networked");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                bVar6 = (bool)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[39].methodPtr)
+                                        (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[39].method);
+                (__this_03->fields).Networked = bVar6;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Visible");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Visible");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                bVar6 = (bool)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[39].methodPtr)
+                                        (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[39].method);
+                (__this_03->fields).Visible = bVar6;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"CollideMode");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"CollideMode");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pSVar15 = (System_String_o *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+                (__this_03->fields).CollideMode = pSVar15;
+                Il2CppCodeGenWriteBarrier(&(__this_03->fields).CollideMode,pSVar15);
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"CollideWith");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"CollideWith");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pSVar15 = (System_String_o *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+                (__this_03->fields).CollideWith = pSVar15;
+                Il2CppCodeGenWriteBarrier(&(__this_03->fields).CollideWith,pSVar15);
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Material");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Material");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pSVar15 = (System_String_o *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+                value_00 = Map_MapScriptSceneObject__DeserializeMaterial(pSVar15,(MethodInfo *)0x0);
+                (__this_03->fields).Material = value_00;
+                Il2CppCodeGenWriteBarrier(&(__this_03->fields).Material,value_00);
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Components");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Components");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                puVar16 = (undefined8 *)(**(code **)&((Il2CppClass *)pSVar13->klass)->vtable[32].methodPtr)(&local_88);
+                local_1e8._0_8_ = *puVar16;
+                local_1e8.m_Object.fields._dictionary =
+                     (System_Collections_Generic_Dictionary_TKey__TValue__o *)puVar16[1];
+                local_1e8.m_Object.fields._8_8_ = puVar16[2];
+                local_1e8.m_Object.fields._current.fields.key = (Il2CppObject *)puVar16[3];
+                local_1e8.m_Object.fields._current.fields.value = (Il2CppObject *)puVar16[4];
+                local_1e8.m_Object.fields._32_8_ = puVar16[5];
+                local_1e8.m_Array.fields._list = (System_Collections_Generic_List_T__o *)puVar16[6];
+                local_1e8.m_Array.fields._8_8_ = puVar16[7];
+                local_1e8.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)puVar16[8];
+                bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                  ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_1e8,(MethodInfo *)0x0);
+                if (bVar6) {
+                  do {
+                    pSVar17 = SimpleJSONFixed_JSONNode_Enumerator__get_Current
+                                        (&local_98,(SimpleJSONFixed_JSONNode_Enumerator_o *)&local_1e8,
+                                         (MethodInfo *)0x0);
+                    pSVar15 = (pSVar17->fields).key;
+                    pSVar18 = (pSVar17->fields).value;
+                    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+                    }
+                    local_1f8.fields.key = pSVar15;
+                    local_1f8.fields.value = pSVar18;
+                    pSVar18 = SimpleJSONFixed_JSONNode__op_Implicit_1dc4410(&local_1f8,(MethodInfo *)0x0);
+                    __this_05 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Map_MapScriptComponent);
+                    Map_MapScriptComponent___ctor(__this_05,(MethodInfo *)0x0);
+                    if (((pSVar18 == (SimpleJSONFixed_JSONNode_o *)0x0) ||
+                        (pSVar15 = (*(pSVar18->klass->vtable)._9_get_Value.methodPtr)
+                                             (pSVar18,(pSVar18->klass->vtable)._9_get_Value.method),
+                        __this_05 == (Map_MapScriptComponent_o *)0x0)) ||
+                       ((*(__this_05->klass->vtable)._9_Deserialize.methodPtr)
+                                  (__this_05,pSVar15,(__this_05->klass->vtable)._9_Deserialize.method),
+                       (__this_03->fields).Components ==
+                       (System_Collections_Generic_List_MapScriptComponent__o *)0x0)) goto label_181e85ccc;
+                    il2cpp_runtime_helper_180012890();
+                    bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                      ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_1e8,
+                                       (MethodInfo *)0x0);
+                  } while (bVar6);
+                }
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"ScaleX");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"ScaleX");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                fVar20 = (float)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[37].methodPtr)
+                                          (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[37].method);
+                (__this_03->fields).ScaleX = fVar20;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"ScaleY");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"ScaleY");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                fVar20 = (float)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[37].methodPtr)
+                                          (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[37].method);
+                (__this_03->fields).ScaleX = fVar20;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"ScaleZ");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"ScaleZ");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                fVar20 = (float)(*(code *)((Il2CppClass *)pSVar13->klass)->vtable[37].methodPtr)
+                                          (pSVar13,((Il2CppClass *)pSVar13->klass)->vtable[37].method);
+                (__this_03->fields).ScaleX = fVar20;
+              }
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Preview");
+              if (bVar6) {
+                if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+                }
+                pSVar15 = (__this_03->fields).Name;
+                pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                         TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabPreviews;
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Preview");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pIVar19 = (Il2CppObject *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+                if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
+                goto label_181e85ccc;
                 System_Collections_Generic_Dictionary_object__object___Add
-                          (pSVar4,(Il2CppObject *)pSVar11,(Il2CppObject *)pSVar16,MethodInfo_Void_Add);
+                          (pSVar2,(Il2CppObject *)pSVar15,pIVar19,
+                           (MethodInfo_146B4B0 *)
+                           MethodInfo_System_Collections_Generic_Dictionary_string_string_Add);
               }
-              if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Variant");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Variant");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                pSVar3 = pSVar13->klass;
+                pSVar15 = (System_String_o *)
+                          (*(pSVar3->vtable)._9_SetUnhandledAttributes.methodPtr)
+                                    (pSVar13,(UnityEngine_GameObject_o *)
+                                             (pSVar3->vtable)._9_SetUnhandledAttributes.method,
+                                     (MethodInfo *)pSVar3);
+                bVar6 = System_String__op_Inequality(pSVar15,(__this_03->fields).Name,(MethodInfo *)0x0);
+                if (bVar6) {
+                  if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+                  }
+                  __this_00 = TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabVariants;
+                  if (__this_00 == (System_Collections_Generic_Dictionary_string__List_string___o *)0x0)
+                  goto label_181e85ccc;
+                  bVar6 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                                    ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+                                     (Il2CppObject *)pSVar15,
+                                     (MethodInfo_1455450 *)
+                                     MethodInfo_System_Collections_Generic_Dictionary_string_List_string_ContainsKey
+                                    );
+                  if (!bVar6) {
+                    if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+                    }
+                    pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                             TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabVariants;
+                    __this_06 = il2cpp_codegen_object_new
+                                          ((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+                    System_Collections_Generic_List_object____ctor
+                              ((System_Collections_Generic_LowLevelList_T__o *)__this_06,
+                               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+                    if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
+                    goto label_181e85ccc;
+                    System_Collections_Generic_Dictionary_object__object___Add
+                              (pSVar2,(Il2CppObject *)pSVar15,(Il2CppObject *)__this_06,
+                               (MethodInfo_146B4B0 *)
+                               MethodInfo_System_Collections_Generic_Dictionary_string_List_string_Add);
+                  }
+                  if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+                  }
+                  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                           TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabVariants;
+                  if ((pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+                     (pIVar19 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                          (pSVar2,(Il2CppObject *)pSVar15,
+                                           (MethodInfo_147A5B0 *)
+                                           MethodInfo_System_Collections_Generic_Dictionary_string_List_string_get_Item
+                                          ), pIVar19 == (Il2CppObject *)0x0)) goto label_181e85ccc;
+                  il2cpp_runtime_helper_180012890(pIVar19,(__this_03->fields).Name,
+                                MethodInfo_System_Collections_Generic_List_string_Add);
+                  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                           TypeInfo_Map_BuiltinMapPrefabs->static_fields->VariantToBasePrefab;
+                  if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
+                  goto label_181e85ccc;
+                  System_Collections_Generic_Dictionary_object__object___set_Item
+                            (pSVar2,(Il2CppObject *)(__this_03->fields).Name,(Il2CppObject *)pSVar15,
+                             (MethodInfo_147A7F0 *)
+                             MethodInfo_System_Collections_Generic_Dictionary_string_string_set_Item);
+                }
               }
-              pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                        (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x28);
-              if ((pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
-                 (pSVar16 = (System_Collections_Generic_List_object__o *)
-                            System_Collections_Generic_Dictionary_object__object___get_Item
-                                      (pSVar4,(Il2CppObject *)pSVar11,MethodInfo_List_1_System_String_get_Item), lVar7 = MethodInfo_Void_Add,
-                 pSVar16 == (System_Collections_Generic_List_object__o *)0x0)) goto label_040a0630;
-              pIVar6 = *(Il2CppObject **)pbVar21;
-              piVar1 = &(pSVar16->fields)._version;
-              *piVar1 = *piVar1 + 1;
-              pSVar5 = (pSVar16->fields)._items;
-              if (pSVar5 == (System_Object_array *)0x0) goto label_040a0630;
-              uVar3 = (pSVar16->fields)._size;
-              if (uVar3 < (uint)pSVar5->max_length) {
-                (pSVar16->fields)._size = uVar3 + 1;
-                pSVar5->m_Items[(int)uVar3] = pIVar6;
-                il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar3);
+              if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+              }
+              pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                       TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabs;
+              if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
+              goto label_181e85ccc;
+              System_Collections_Generic_Dictionary_object__object___Add
+                        (pSVar2,(Il2CppObject *)(__this_03->fields).Name,(Il2CppObject *)__this_03,
+                         (MethodInfo_146B4B0 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_Add);
+              pSVar15 = (__this_03->fields).Name;
+              if (pSVar15 == (System_String_o *)0x0) goto label_181e85ccc;
+              pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                       TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabsLower;
+              pSVar15 = System_String__ToLower(pSVar15,(MethodInfo *)0x0);
+              if (pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
+              goto label_181e85ccc;
+              System_Collections_Generic_Dictionary_object__object___Add
+                        (pSVar2,(Il2CppObject *)pSVar15,(Il2CppObject *)__this_03,
+                         (MethodInfo_146B4B0 *)
+                         MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_Add);
+              bVar6 = (*(pSVar10->klass->vtable)._28_HasKey.methodPtr)
+                                (pSVar10,(MethodInfo *)"Hidden");
+              if (bVar6) {
+                pSVar13 = (*(pSVar10->klass->vtable)._7_get_Item.methodPtr)
+                                    (pSVar10,(MethodInfo *)"Hidden");
+                if (pSVar13 == (System_Xml_Schema_XmlSchema_o *)0x0) goto label_181e85ccc;
+                cVar7 = (*(code *)((Il2CppClass *)pSVar13->klass)->vtable[39].methodPtr)(pSVar13);
+                if (cVar7 == '\0') goto label_181e85c0b;
               }
               else {
-                System_Collections_Generic_List_object___AddWithResize
-                          (pSVar16,pIVar6,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
+label_181e85c0b:
+                if ((TypeInfo_Map_BuiltinMapPrefabs->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Map_BuiltinMapPrefabs);
+                }
+                pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)
+                         TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabCategories;
+                if ((pSVar2 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
+                   (pIVar19 = System_Collections_Generic_Dictionary_object__object___get_Item
+                                        (pSVar2,(Il2CppObject *)key,
+                                         (MethodInfo_147A5B0 *)
+                                         MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_get_Item
+                                        ), pIVar19 == (Il2CppObject *)0x0)) goto label_181e85ccc;
+                il2cpp_runtime_helper_180012890(pIVar19);
               }
-              pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                        (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x30);
-              if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_040a0630;
-              System_Collections_Generic_Dictionary_object__object___set_Item
-                        (pSVar4,*(Il2CppObject **)pbVar21,(Il2CppObject *)pSVar11,MethodInfo_Void_set_Item);
-            }
+              bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                                ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_198,(MethodInfo *)0x0);
+            } while (bVar6);
           }
-          if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                    (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 8);
-          if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_040a0630;
-          in_stack_fffffffffffffe38 = plVar15;
-          System_Collections_Generic_Dictionary_object__object___Add
-                    (pSVar4,*(Il2CppObject **)&(__this_09->fields).Visible,(Il2CppObject *)__this_09,
-                     MethodInfo_Void_Add);
-          pSVar11 = *(System_String_o **)&(__this_09->fields).Visible;
-          if (pSVar11 == (System_String_o *)0x0) goto label_040a0630;
-          pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                    (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x18);
-          pSVar11 = System_String__ToLower(pSVar11,(MethodInfo *)0x0);
-          if (pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_040a0630;
-          System_Collections_Generic_Dictionary_object__object___Add
-                    (pSVar4,(Il2CppObject *)pSVar11,(Il2CppObject *)__this_09,MethodInfo_Void_Add);
-          cVar8 = (*(pSVar12->klass->vtable)._28_HasKey.methodPtr)
-                            (pSVar12,"Hidden",(pSVar12->klass->vtable)._28_HasKey.method);
-          if (cVar8 == '\0') {
-label_040a059b:
-            if (*(int *)(TypeInfo_BuiltinMapPrefabs + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar4 = *(System_Collections_Generic_Dictionary_object__object__o **)
-                      (*(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8) + 0x10);
-            if ((pSVar4 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) ||
-               (pSVar16 = (System_Collections_Generic_List_object__o *)
-                          System_Collections_Generic_Dictionary_object__object___get_Item
-                                    (pSVar4,(Il2CppObject *)in_stack_fffffffffffffe30,MethodInfo_List_1_Map_MapScriptBaseObject_get_Item),
-               lVar7 = MethodInfo_Void_Add, pSVar16 == (System_Collections_Generic_List_object__o *)0x0))
-            goto label_040a0630;
-            piVar1 = &(pSVar16->fields)._version;
-            *piVar1 = *piVar1 + 1;
-            pSVar5 = (pSVar16->fields)._items;
-            if (pSVar5 == (System_Object_array *)0x0) goto label_040a0630;
-            uVar3 = (pSVar16->fields)._size;
-            if (uVar3 < (uint)pSVar5->max_length) {
-              (pSVar16->fields)._size = uVar3 + 1;
-              pSVar5->m_Items[(int)uVar3] = (Il2CppObject *)__this_09;
-              il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar3);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        (pSVar16,(Il2CppObject *)__this_09,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-          }
-          else {
-            plVar13 = (long *)(*(pSVar12->klass->vtable)._7_get_Item.methodPtr)
-                                        (pSVar12,"Hidden",(pSVar12->klass->vtable)._7_get_Item.method);
-            if (plVar13 == (long *)0x0) goto label_040a0630;
-            cVar8 = (**(code **)(*plVar13 + 0x3a8))(plVar13);
-            if (cVar8 == '\0') goto label_040a059b;
-          }
-          __this_04.fields.m_Object.fields._dictionary =
-               (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-          __this_04.fields._0_8_ = in_stack_fffffffffffffe28;
-          __this_04.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-          __this_04.fields.m_Object.fields._current.fields.key = (Il2CppObject *)in_stack_fffffffffffffe40;
-          __this_04.fields.m_Object.fields._current.fields.value = (Il2CppObject *)in_stack_fffffffffffffe48;
-          __this_04.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-          __this_04.fields.m_Array.fields._list =
-               (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-          __this_04.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-          __this_04.fields.m_Array.fields._current = (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-          bVar10 = SimpleJSONFixed_JSONNode_Enumerator__MoveNext(__this_04,(MethodInfo *)local_c8);
-          plVar14 = in_stack_fffffffffffffe38;
-          plVar13 = plVar15;
-          cVar8 = (char)bVar10;
-        }
-        __this_01.fields.m_Enumerator.fields.m_Object.fields._dictionary =
-             (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_fffffffffffffe30;
-        __this_01.fields.m_Enumerator.fields._0_8_ = in_stack_fffffffffffffe28;
-        __this_01.fields.m_Enumerator.fields.m_Object.fields._8_8_ = in_stack_fffffffffffffe38;
-        __this_01.fields.m_Enumerator.fields.m_Object.fields._current.fields.key =
-             (Il2CppObject *)in_stack_fffffffffffffe40;
-        __this_01.fields.m_Enumerator.fields.m_Object.fields._current.fields.value =
-             (Il2CppObject *)in_stack_fffffffffffffe48;
-        __this_01.fields.m_Enumerator.fields.m_Object.fields._32_8_ = in_stack_fffffffffffffe50;
-        __this_01.fields.m_Enumerator.fields.m_Array.fields._list =
-             (System_Collections_Generic_List_T__o *)in_stack_fffffffffffffe58;
-        __this_01.fields.m_Enumerator.fields.m_Array.fields._8_8_ = in_stack_fffffffffffffe60;
-        __this_01.fields.m_Enumerator.fields.m_Array.fields._current =
-             (SimpleJSONFixed_JSONNode_o *)in_stack_fffffffffffffe68;
-        bVar10 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext(__this_01,(MethodInfo *)local_118);
-        cVar8 = (char)bVar10;
-      } while( true );
+          bVar6 = SimpleJSONFixed_JSONNode_KeyEnumerator__MoveNext
+                            ((SimpleJSONFixed_JSONNode_KeyEnumerator_o *)&local_148,(MethodInfo *)0x0);
+        } while (bVar6);
+      }
+      return;
     }
   }
-label_040a0630:
-  __this_08 = (UnityEngine_Object_o *)il2cpp_runtime_helper_022b2c90();
-label_040a0635:
-  il2cpp_runtime_helper_022b2fd0();
-  System_Object___ctor((Il2CppObject *)__this_08,(MethodInfo *)0x0);
-  return;
+label_181e85ccc:
+  ThrowNullReferenceException();
 }
 
 
 // Map.BuiltinMapPrefabs$$.ctor
 // il2cpp: void Map_BuiltinMapPrefabs___ctor (Map_BuiltinMapPrefabs_o* __this, const MethodInfo* method);
-// 0x40a0640
+// 0x18054c890
 
-void Map_BuiltinMapPrefabs___ctor(Map_BuiltinMapPrefabs_o *__this,MethodInfo *method)
+void
+Map_BuiltinMapPrefabs___ctor(Map_BuiltinMapPrefabs_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Map.BuiltinMapPrefabs$$.cctor
 // il2cpp: void Map_BuiltinMapPrefabs___cctor (const MethodInfo* method);
-// 0x40a0650
+// 0x181e85ce0
 
 void Map_BuiltinMapPrefabs___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar2;
+  System_Collections_Generic_Dictionary_string__MapScriptBaseObject__o *pSVar1;
+  System_Collections_Generic_Dictionary_string__List_MapScriptBaseObject___o *__this;
+  System_Collections_Generic_Dictionary_string__string__o *pSVar2;
+  System_Collections_Generic_Dictionary_string__List_string___o *__this_00;
   
-  if (g_data_057ac48b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinMapPrefabs);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_List_1_Map_MapScriptBaseObjec);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_Map_MapScriptBaseObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_List_MapScriptBaseObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_MapScriptBaseObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_List_string);
-    g_data_057ac48b = '\x01';
+  if (Il2CppMethodInitialized_184345038 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Map_BuiltinMapPrefabs);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_string_string);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_List_string);
+    Il2CppMethodInitialized_184345038 = '\x01';
   }
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_MapScriptBaseObject);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_Map_MapScriptBaseObject);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 8) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 8,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_List_MapScriptBaseObject);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_List_1_Map_MapScriptBaseObjec);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x10) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_MapScriptBaseObject);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_Map_MapScriptBaseObject);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x18) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_System_String);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x20) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_List_string);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_List_1_System_String);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x28) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28,pSVar2);
-  pSVar2 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_string);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar2,MethodInfo_Dictionary_2_System_String_System_String);
-  lVar1 = *(long *)(TypeInfo_BuiltinMapPrefabs + 0xb8);
-  *(System_Collections_Generic_Dictionary_object__object__o **)(lVar1 + 0x30) = pSVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30,pSVar2);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject
+                     );
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+             (MethodInfo_1454140 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabs = pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabs,pSVar1);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1454140 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_List_MapScriptBaseObject_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabCategories = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabCategories,__this);
+  pSVar1 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject
+                     );
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar1,
+             (MethodInfo_1454140 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_MapScriptBaseObject_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabsLower = pSVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->AllPrefabsLower,pSVar1);
+  pSVar2 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabPreviews = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabPreviews,pSVar2);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_List_string);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_List_string_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabVariants = __this_00;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->PrefabVariants,__this_00);
+  pSVar2 = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_string);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)pSVar2,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_string_ctor);
+  TypeInfo_Map_BuiltinMapPrefabs->static_fields->VariantToBasePrefab = pSVar2;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Map_BuiltinMapPrefabs->static_fields->VariantToBasePrefab,pSVar2);
   return;
 }
 

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004D6")]
+[Token(Token = "0x2000506")]
 [Flags]
 public enum EventAttributes
 {
@@ -20,5 +20,5 @@ public enum EventAttributes
 	[Token(Token = "0x40013DD")]
 	RTSpecialName = 0x400,
 	[Token(Token = "0x40013DE")]
-	ReservedMask = 0x400
+	ReservedMask = RTSpecialName
 }

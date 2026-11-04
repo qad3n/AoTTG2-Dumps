@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x2000285")]
+[Token(Token = "0x20002B5")]
 internal static class StringBuilderCache
 {
-	[Token(Token = "0x4000B75")]
+	[Token(Token = "0x4000BB5")]
 	[ThreadStatic]
 	private static StringBuilder t_cachedInstance;
 
-	[Token(Token = "0x600162B")]
-	[Address(RVA = "0x3B068D0", Offset = "0x3B068D0", VA = "0x3B068D0")]
+	[Token(Token = "0x6001697")]
+	[Address(RVA = "0x197CAE0", Offset = "0x197B0E0", VA = "0x18197CAE0")]
 	public static StringBuilder Acquire(int capacity = 16)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600162C")]
-	[Address(RVA = "0x3B069A0", Offset = "0x3B069A0", VA = "0x3B069A0")]
+	[Token(Token = "0x6001698")]
+	[Address(RVA = "0x197CC60", Offset = "0x197B260", VA = "0x18197CC60")]
 	public static void Release(StringBuilder sb)
 	{
 	}
 
-	[Token(Token = "0x600162D")]
-	[Address(RVA = "0x3B06A20", Offset = "0x3B06A20", VA = "0x3B06A20")]
+	[Token(Token = "0x6001699")]
+	[Address(RVA = "0x197CBC0", Offset = "0x197B1C0", VA = "0x18197CBC0")]
 	public static string GetStringAndRelease(StringBuilder sb)
 	{
 		return null;

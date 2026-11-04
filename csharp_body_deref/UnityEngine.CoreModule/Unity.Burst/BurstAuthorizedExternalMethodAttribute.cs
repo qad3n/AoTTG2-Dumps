@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.Burst;
 
-[Token(Token = "0x2000066")]
+[Token(Token = "0x200007B")]
 [AttributeUsage(AttributeTargets.Method)]
 public class BurstAuthorizedExternalMethodAttribute : Attribute
 {
-	[Token(Token = "0x60000F0")]
-	[Address(RVA = "0x4DADEB0", Offset = "0x4DADEB0", VA = "0x4DADEB0")]
+	[Token(Token = "0x6000192")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public BurstAuthorizedExternalMethodAttribute()
 	{
 	}

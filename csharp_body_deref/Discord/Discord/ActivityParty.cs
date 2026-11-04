@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200003E")]
+[Token(Token = "0x200003C")]
 public struct ActivityParty
 {
-	[Token(Token = "0x40000B8")]
+	[Token(Token = "0x40000B3")]
 	[FieldOffset(Offset = "0x0")]
 	public string Id;
 
-	[Token(Token = "0x40000B9")]
+	[Token(Token = "0x40000B4")]
 	[FieldOffset(Offset = "0x8")]
 	public PartySize Size;
 
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000B5")]
 	[FieldOffset(Offset = "0x10")]
 	public ActivityPartyPrivacy Privacy;
 }

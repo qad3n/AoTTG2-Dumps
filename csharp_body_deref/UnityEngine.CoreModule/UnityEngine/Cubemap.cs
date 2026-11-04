@@ -16,16 +16,16 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000102")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CubemapTexture.h")]
+[Token(Token = "0x2000126")]
 [ExcludeFromPreset]
+[UnityEngine.Bindings.NativeHeader("Runtime/Graphics/CubemapTexture.h")]
 public sealed class Cubemap : Texture
 {
-	[Token(Token = "0x17000131")]
+	[Token(Token = "0x17000187")]
 	public override bool isReadable
 	{
-		[Token(Token = "0x6000632")]
-		[Address(RVA = "0x4DD9EC0", Offset = "0x4DD9EC0", VA = "0x4DD9EC0", Slot = "11")]
+		[Token(Token = "0x60008B8")]
+		[Address(RVA = "0x2ED9380", Offset = "0x2ED7980", VA = "0x182ED9380", Slot = "11")]
 		get
 		{
 			return default(bool);
@@ -33,148 +33,148 @@ public sealed class Cubemap : Texture
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600062F")]
-	[Address(RVA = "0x4DD9CB0", Offset = "0x4DD9CB0", VA = "0x4DD9CB0")]
+	[Token(Token = "0x60008B5")]
+	[Address(RVA = "0x2ED8560", Offset = "0x2ED6B60", VA = "0x182ED8560")]
 	[UnityEngine.Bindings.FreeFunction("CubemapScripting::Create")]
 	private static extern bool Internal_CreateImpl([UnityEngine.Writable] Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureColorSpace colorSpace, TextureCreationFlags flags, IntPtr nativeTex);
 
-	[Token(Token = "0x6000630")]
-	[Address(RVA = "0x4DD9D10", Offset = "0x4DD9D10", VA = "0x4DD9D10")]
+	[Token(Token = "0x60008B6")]
+	[Address(RVA = "0x2ED85B0", Offset = "0x2ED6BB0", VA = "0x182ED85B0")]
 	private static void Internal_Create([UnityEngine.Writable] Cubemap mono, int ext, int mipCount, GraphicsFormat format, TextureColorSpace colorSpace, TextureCreationFlags flags, IntPtr nativeTex)
 	{
 	}
 
-	[Token(Token = "0x6000631")]
-	[Address(RVA = "0x4DD9DD0", Offset = "0x4DD9DD0", VA = "0x4DD9DD0")]
+	[Token(Token = "0x60008B7")]
+	[Address(RVA = "0x2ED8340", Offset = "0x2ED6940", VA = "0x182ED8340")]
 	[UnityEngine.Bindings.FreeFunction(Name = "CubemapScripting::Apply", HasExplicitThis = true)]
 	private void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable)
 	{
 	}
 
-	[Token(Token = "0x6000633")]
-	[Address(RVA = "0x4DD9F90", Offset = "0x4DD9F90", VA = "0x4DD9F90")]
+	[Token(Token = "0x60008B9")]
+	[Address(RVA = "0x2ED86C0", Offset = "0x2ED6CC0", VA = "0x182ED86C0")]
 	[UnityEngine.Bindings.NativeName("SetPixel")]
 	private void SetPixelImpl(int image, int mip, int x, int y, Color color)
 	{
 	}
 
-	[Token(Token = "0x6000634")]
-	[Address(RVA = "0x4DDA0C0", Offset = "0x4DDA0C0", VA = "0x4DDA0C0")]
+	[Token(Token = "0x60008BA")]
+	[Address(RVA = "0x2ED8950", Offset = "0x2ED6F50", VA = "0x182ED8950")]
 	internal bool ValidateFormat(TextureFormat format, int width)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000635")]
-	[Address(RVA = "0x4DDA1A0", Offset = "0x4DDA1A0", VA = "0x4DDA1A0")]
+	[Token(Token = "0x60008BB")]
+	[Address(RVA = "0x2ED8A10", Offset = "0x2ED7010", VA = "0x182ED8A10")]
 	internal bool ValidateFormat(GraphicsFormat format, int width)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x4DDA2C0", Offset = "0x4DDA2C0", VA = "0x4DDA2C0")]
+	[Token(Token = "0x60008BC")]
+	[Address(RVA = "0x2ED8C30", Offset = "0x2ED7230", VA = "0x182ED8C30")]
 	[ExcludeFromDocs]
 	public Cubemap(int width, DefaultFormat format, TextureCreationFlags flags)
 	{
 	}
 
-	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x4DDA3B0", Offset = "0x4DDA3B0", VA = "0x4DDA3B0")]
+	[Token(Token = "0x60008BD")]
+	[Address(RVA = "0x2ED8CC0", Offset = "0x2ED72C0", VA = "0x182ED8CC0")]
 	[ExcludeFromDocs]
 	public Cubemap(int width, DefaultFormat format, TextureCreationFlags flags, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x4DDA340", Offset = "0x4DDA340", VA = "0x4DDA340")]
+	[Token(Token = "0x60008BE")]
+	[Address(RVA = "0x2ED8D10", Offset = "0x2ED7310", VA = "0x182ED8D10")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	[ExcludeFromDocs]
 	public Cubemap(int width, GraphicsFormat format, TextureCreationFlags flags)
 	{
 	}
 
-	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x4DDA3F0", Offset = "0x4DDA3F0", VA = "0x4DDA3F0")]
+	[Token(Token = "0x60008BF")]
+	[Address(RVA = "0x2ED8D90", Offset = "0x2ED7390", VA = "0x182ED8D90")]
 	[ExcludeFromDocs]
 	public Cubemap(int width, GraphicsFormat format, TextureCreationFlags flags, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x600063A")]
-	[Address(RVA = "0x4DDA550", Offset = "0x4DDA550", VA = "0x4DDA550")]
+	[Token(Token = "0x60008C0")]
+	[Address(RVA = "0x2ED90C0", Offset = "0x2ED76C0", VA = "0x182ED90C0")]
 	internal Cubemap(int width, TextureFormat textureFormat, int mipCount, IntPtr nativeTex, bool createUninitialized)
 	{
 	}
 
-	[Token(Token = "0x600063B")]
-	[Address(RVA = "0x4DDA6E0", Offset = "0x4DDA6E0", VA = "0x4DDA6E0")]
+	[Token(Token = "0x60008C1")]
+	[Address(RVA = "0x2ED9000", Offset = "0x2ED7600", VA = "0x182ED9000")]
 	public Cubemap(int width, TextureFormat textureFormat, bool mipChain)
 	{
 	}
 
-	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x4DDA760", Offset = "0x4DDA760", VA = "0x4DDA760")]
+	[Token(Token = "0x60008C2")]
+	[Address(RVA = "0x2ED8B90", Offset = "0x2ED7190", VA = "0x182ED8B90")]
 	public Cubemap(int width, TextureFormat textureFormat, bool mipChain, [DefaultValue("false")] bool createUninitialized)
 	{
 	}
 
-	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x4DDA7F0", Offset = "0x4DDA7F0", VA = "0x4DDA7F0")]
+	[Token(Token = "0x60008C3")]
+	[Address(RVA = "0x2ED8FE0", Offset = "0x2ED75E0", VA = "0x182ED8FE0")]
 	public Cubemap(int width, TextureFormat format, int mipCount)
 	{
 	}
 
-	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x4DDA800", Offset = "0x4DDA800", VA = "0x4DDA800")]
+	[Token(Token = "0x60008C4")]
+	[Address(RVA = "0x2ED9090", Offset = "0x2ED7690", VA = "0x182ED9090")]
 	public Cubemap(int width, TextureFormat format, int mipCount, [DefaultValue("false")] bool createUninitialized)
 	{
 	}
 
-	[Token(Token = "0x600063F")]
-	[Address(RVA = "0x4DDA810", Offset = "0x4DDA810", VA = "0x4DDA810")]
+	[Token(Token = "0x60008C5")]
+	[Address(RVA = "0x2ED8770", Offset = "0x2ED6D70", VA = "0x182ED8770")]
 	[ExcludeFromDocs]
 	public void SetPixel(CubemapFace face, int x, int y, Color color)
 	{
 	}
 
-	[Token(Token = "0x6000640")]
-	[Address(RVA = "0x4DDA820", Offset = "0x4DDA820", VA = "0x4DDA820")]
+	[Token(Token = "0x60008C6")]
+	[Address(RVA = "0x2ED8860", Offset = "0x2ED6E60", VA = "0x182ED8860")]
 	public void SetPixel(CubemapFace face, int x, int y, Color color, [DefaultValue("0")] int mip)
 	{
 	}
 
-	[Token(Token = "0x6000641")]
-	[Address(RVA = "0x4DDA940", Offset = "0x4DDA940", VA = "0x4DDA940")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x2ED8490", Offset = "0x2ED6A90", VA = "0x182ED8490")]
 	public void Apply([DefaultValue("true")] bool updateMipmaps, [DefaultValue("false")] bool makeNoLongerReadable)
 	{
 	}
 
-	[Token(Token = "0x6000642")]
-	[Address(RVA = "0x4DDAA30", Offset = "0x4DDAA30", VA = "0x4DDAA30")]
+	[Token(Token = "0x60008C8")]
+	[Address(RVA = "0x2ED83E0", Offset = "0x2ED69E0", VA = "0x182ED83E0")]
 	[ExcludeFromDocs]
 	public void Apply()
 	{
 	}
 
-	[Token(Token = "0x6000643")]
-	[Address(RVA = "0x4DDA500", Offset = "0x4DDA500", VA = "0x4DDA500")]
+	[Token(Token = "0x60008C9")]
+	[Address(RVA = "0x2ED8B30", Offset = "0x2ED7130", VA = "0x182ED8B30")]
 	private static void ValidateIsNotCrunched(TextureCreationFlags flags)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x4DD9E80", Offset = "0x4DD9E80", VA = "0x4DD9E80")]
+	[Token(Token = "0x60008CA")]
+	[Address(RVA = "0x2ED82E0", Offset = "0x2ED68E0", VA = "0x182ED82E0")]
 	private static extern void ApplyImpl_Injected(IntPtr _unity_self, bool updateMipmaps, bool makeNoLongerReadable);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x4DD9F60", Offset = "0x4DD9F60", VA = "0x4DD9F60")]
+	[Token(Token = "0x60008CB")]
+	[Address(RVA = "0x2ED9340", Offset = "0x2ED7940", VA = "0x182ED9340")]
 	private static extern bool get_isReadable_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000646")]
-	[Address(RVA = "0x4DDA060", Offset = "0x4DDA060", VA = "0x4DDA060")]
+	[Token(Token = "0x60008CC")]
+	[Address(RVA = "0x2ED8670", Offset = "0x2ED6C70", VA = "0x182ED8670")]
 	private static extern void SetPixelImpl_Injected(IntPtr _unity_self, int image, int mip, int x, int y, [In] ref Color color);
 }

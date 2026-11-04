@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x20001DD")]
 public class AnimationCurve_DirectConverter : fsDirectConverter<AnimationCurve>
 {
-	[Token(Token = "0x60011CA")]
-	[Address(RVA = "0x4D73CF0", Offset = "0x4D73CF0", VA = "0x4D73CF0", Slot = "10")]
+	[Token(Token = "0x6001174")]
+	[Address(RVA = "0x2E4EFB0", Offset = "0x2E4D5B0", VA = "0x182E4EFB0", Slot = "10")]
 	protected override fsResult DoSerialize(AnimationCurve model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011CB")]
-	[Address(RVA = "0x4D73F60", Offset = "0x4D73F60", VA = "0x4D73F60", Slot = "11")]
+	[Token(Token = "0x6001175")]
+	[Address(RVA = "0x2E4ED30", Offset = "0x2E4D330", VA = "0x182E4ED30", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref AnimationCurve model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011CC")]
-	[Address(RVA = "0x4D74240", Offset = "0x4D74240", VA = "0x4D74240", Slot = "4")]
+	[Token(Token = "0x6001176")]
+	[Address(RVA = "0x2E4ECE0", Offset = "0x2E4D2E0", VA = "0x182E4ECE0", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011CD")]
-	[Address(RVA = "0x4D74280", Offset = "0x4D74280", VA = "0x4D74280")]
+	[Token(Token = "0x6001177")]
+	[Address(RVA = "0x2E4F1B0", Offset = "0x2E4D7B0", VA = "0x182E4F1B0")]
 	public AnimationCurve_DirectConverter()
 	{
 	}

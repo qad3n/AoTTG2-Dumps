@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002B7")]
+[Token(Token = "0x20001C2")]
 public enum ListChangedType
 {
-	[Token(Token = "0x4000D8F")]
+	[Token(Token = "0x40006C6")]
 	Reset,
-	[Token(Token = "0x4000D90")]
+	[Token(Token = "0x40006C7")]
 	ItemAdded,
-	[Token(Token = "0x4000D91")]
+	[Token(Token = "0x40006C8")]
 	ItemDeleted,
-	[Token(Token = "0x4000D92")]
+	[Token(Token = "0x40006C9")]
 	ItemMoved,
-	[Token(Token = "0x4000D93")]
+	[Token(Token = "0x40006CA")]
 	ItemChanged,
-	[Token(Token = "0x4000D94")]
+	[Token(Token = "0x40006CB")]
 	PropertyDescriptorAdded,
-	[Token(Token = "0x4000D95")]
+	[Token(Token = "0x40006CC")]
 	PropertyDescriptorDeleted,
-	[Token(Token = "0x4000D96")]
+	[Token(Token = "0x40006CD")]
 	PropertyDescriptorChanged
 }

@@ -11,81 +11,81 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000FC")]
-[Obsolete("This variant is obsolete and kept only for not breaking user code. Use IVolumeDebugSettings2 for all new usage.", false)]
+[Token(Token = "0x20000D2")]
+[Obsolete("This is not longer supported Please use DebugDisplaySettingsVolume. #from(6000.2)")]
 public interface IVolumeDebugSettings
 {
-	[Token(Token = "0x170000C9")]
+	[Token(Token = "0x170000B2")]
 	int selectedComponent
 	{
-		[Token(Token = "0x6000833")]
+		[Token(Token = "0x6000794")]
 		get;
-		[Token(Token = "0x6000834")]
+		[Token(Token = "0x6000795")]
 		set;
 	}
 
-	[Token(Token = "0x170000CA")]
+	[Token(Token = "0x170000B3")]
 	Camera selectedCamera
 	{
-		[Token(Token = "0x6000835")]
+		[Token(Token = "0x6000796")]
 		get;
 	}
 
-	[Token(Token = "0x170000CB")]
+	[Token(Token = "0x170000B4")]
 	IEnumerable<Camera> cameras
 	{
-		[Token(Token = "0x6000836")]
+		[Token(Token = "0x6000797")]
 		get;
 	}
 
-	[Token(Token = "0x170000CC")]
+	[Token(Token = "0x170000B5")]
 	int selectedCameraIndex
 	{
-		[Token(Token = "0x6000837")]
+		[Token(Token = "0x6000798")]
 		get;
-		[Token(Token = "0x6000838")]
+		[Token(Token = "0x6000799")]
 		set;
 	}
 
-	[Token(Token = "0x170000CD")]
+	[Token(Token = "0x170000B6")]
 	VolumeStack selectedCameraVolumeStack
 	{
-		[Token(Token = "0x6000839")]
+		[Token(Token = "0x600079A")]
 		get;
 	}
 
-	[Token(Token = "0x170000CE")]
+	[Token(Token = "0x170000B7")]
 	LayerMask selectedCameraLayerMask
 	{
-		[Token(Token = "0x600083A")]
+		[Token(Token = "0x600079B")]
 		get;
 	}
 
-	[Token(Token = "0x170000CF")]
+	[Token(Token = "0x170000B8")]
 	Vector3 selectedCameraPosition
 	{
-		[Token(Token = "0x600083B")]
+		[Token(Token = "0x600079C")]
 		get;
 	}
 
-	[Token(Token = "0x170000D0")]
+	[Token(Token = "0x170000B9")]
 	Type selectedComponentType
 	{
-		[Token(Token = "0x600083C")]
+		[Token(Token = "0x600079D")]
 		get;
-		[Token(Token = "0x600083D")]
+		[Token(Token = "0x600079E")]
 		set;
 	}
 
-	[Token(Token = "0x600083E")]
+	[Token(Token = "0x600079F")]
 	Volume[] GetVolumes();
 
-	[Token(Token = "0x600083F")]
+	[Token(Token = "0x60007A0")]
 	bool VolumeHasInfluence(Volume volume);
 
-	[Token(Token = "0x6000840")]
+	[Token(Token = "0x60007A1")]
 	bool RefreshVolumes(Volume[] newVolumes);
 
-	[Token(Token = "0x6000841")]
+	[Token(Token = "0x60007A2")]
 	float GetVolumeWeight(Volume volume);
 }

@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000020")]
+[Token(Token = "0x2000019")]
 internal enum CollisionPairFlags : ushort
 {
-	[Token(Token = "0x4000060")]
+	[Token(Token = "0x4000050")]
 	RemovedShape = 1,
-	[Token(Token = "0x4000061")]
+	[Token(Token = "0x4000051")]
 	RemovedOtherShape = 2,
-	[Token(Token = "0x4000062")]
+	[Token(Token = "0x4000052")]
 	ActorPairHasFirstTouch = 4,
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x4000053")]
 	ActorPairLostTouch = 8,
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x4000054")]
 	InternalHasImpulses = 0x10,
-	[Token(Token = "0x4000065")]
+	[Token(Token = "0x4000055")]
 	InternalContactsAreFlipped = 0x20
 }

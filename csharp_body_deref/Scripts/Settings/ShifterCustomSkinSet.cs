@@ -12,20 +12,20 @@ namespace Settings;
 [Token(Token = "0x200006D")]
 internal class ShifterCustomSkinSet : BaseSetSetting
 {
-	[Token(Token = "0x400022C")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000239")]
+	[FieldOffset(Offset = "0x48")]
 	public StringSetting Eren;
 
-	[Token(Token = "0x400022D")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x400023A")]
+	[FieldOffset(Offset = "0x50")]
 	public StringSetting Annie;
 
-	[Token(Token = "0x400022E")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x400023B")]
+	[FieldOffset(Offset = "0x58")]
 	public StringSetting Colossal;
 
-	[Token(Token = "0x6000314")]
-	[Address(RVA = "0x3F86060", Offset = "0x3F86060", VA = "0x3F86060")]
+	[Token(Token = "0x6000324")]
+	[Address(RVA = "0x1DCEF60", Offset = "0x1DCD560", VA = "0x181DCEF60")]
 	public ShifterCustomSkinSet()
 	{
 	}

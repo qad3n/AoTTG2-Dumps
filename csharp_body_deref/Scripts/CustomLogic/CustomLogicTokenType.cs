@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000494")]
+[Token(Token = "0x20005EB")]
 public enum CustomLogicTokenType
 {
-	[Token(Token = "0x40013F0")]
+	[Token(Token = "0x4001A39")]
 	Symbol,
-	[Token(Token = "0x40013F1")]
+	[Token(Token = "0x4001A3A")]
 	Primitive,
-	[Token(Token = "0x40013F2")]
+	[Token(Token = "0x4001A3B")]
 	Name
 }

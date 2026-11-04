@@ -12,33 +12,33 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001E6")]
+[Token(Token = "0x2000204")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class MinIntParameter : IntParameter
 {
 	[NonSerialized]
-	[Token(Token = "0x4000820")]
-	[FieldOffset(Offset = "0x18")]
+	[Token(Token = "0x4000991")]
+	[FieldOffset(Offset = "0x20")]
 	public int min;
 
-	[Token(Token = "0x1700019B")]
+	[Token(Token = "0x170001EC")]
 	public override int value
 	{
-		[Token(Token = "0x6000DBE")]
-		[Address(RVA = "0x4C0AEF0", Offset = "0x4C0AEF0", VA = "0x4C0AEF0", Slot = "14")]
+		[Token(Token = "0x6000F1D")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "14")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000DBF")]
-		[Address(RVA = "0x4C0AF00", Offset = "0x4C0AF00", VA = "0x4C0AF00", Slot = "15")]
+		[Token(Token = "0x6000F1E")]
+		[Address(RVA = "0x2B5F3C0", Offset = "0x2B5D9C0", VA = "0x182B5F3C0", Slot = "15")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000DC0")]
-	[Address(RVA = "0x4C0AF10", Offset = "0x4C0AF10", VA = "0x4C0AF10")]
+	[Token(Token = "0x6000F1F")]
+	[Address(RVA = "0x2B5E330", Offset = "0x2B5C930", VA = "0x182B5E330")]
 	public MinIntParameter(int value, int min, bool overrideState = false)
 	{
 	}

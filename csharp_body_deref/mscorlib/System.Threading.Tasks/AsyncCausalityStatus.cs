@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000260")]
+[Token(Token = "0x2000290")]
 [System.Runtime.CompilerServices.FriendAccessAllowed]
 internal enum AsyncCausalityStatus
 {
-	[Token(Token = "0x4000B0F")]
+	[Token(Token = "0x4000B58")]
 	Started,
-	[Token(Token = "0x4000B10")]
+	[Token(Token = "0x4000B59")]
 	Completed,
-	[Token(Token = "0x4000B11")]
+	[Token(Token = "0x4000B5A")]
 	Canceled,
-	[Token(Token = "0x4000B12")]
+	[Token(Token = "0x4000B5B")]
 	Error
 }

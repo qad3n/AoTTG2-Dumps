@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.Api.AottgUnityWebRequestTransport
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.Api/AottgUnityWebRequestTransport.cs
@@ -8,512 +8,697 @@
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport.<SendAsync>d__0$$MoveNext
 // il2cpp: void ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0__MoveNext (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o __this, const MethodInfo* method);
-// 0x44cf2b0
+// 0x182373800
+// eh: try 0x182373944..0x1823739c9 -> pad 0x183340ba0 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x1823739c9..0x182373e4a -> pad 0x183340b70 (+6 call sites) catch Il2CppExceptionWrapper
+// eh: try 0x182373e4a..0x182373e6e -> pad 0x183340ba0 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x182373eae..0x182373f77 -> pad 0x183340a60 catch Il2CppExceptionWrapper
+// eh: try 0x182373f77..0x182373f9b -> pad 0x183340ba0 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x182373fdc..0x182374123 -> pad 0x183340b70 catch Il2CppExceptionWrapper
+// eh: try 0x182374123..0x18237421b -> pad 0x183340ba0 (+2 call sites) catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x18237421b..0x182374284 -> pad 0x183340b70 (+4 call sites) catch Il2CppExceptionWrapper
+// eh: try 0x182374284..0x18237428b -> pad 0x183340ba0 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// asm: 280 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x182373b7e: nop 
+// asm:   0x182373bdb: nop 
+// asm:   0x182373c2d: mov rax, qword ptr [rsp + 0x28]
+// asm:   0x182373c32: cmp dword ptr [rax], 0
+// asm:   0x182373c35: jge 0x182373c48
+// asm:   0x182373c37: mov rdx, qword ptr [rip + 0x1d4a662]  ; MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_Dispose
+// asm:   0x182373c3e: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x182373c43: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182373c48: mov rcx, qword ptr [rsp + 0x20]
+// asm:   0x182373c4d: test rcx, rcx
+// asm:   0x182373c50: jne 0x182374236
+// asm:   0x182373c56: xor edi, edi
+// asm:   0x182373c58: mov r15, qword ptr [rsp + 0x60]
+// asm:   0x182373c5d: mov r12, qword ptr [rsp + 0x58]
+// asm:   0x182373c62: jmp 0x182373bdc
+// asm:   0x182373e6d: nop 
+// asm:   0x182373fa0: mov rax, qword ptr [rsp + 0x168]
+// asm:   0x182373fa8: test rax, rax
+// asm:   0x182373fab: je 0x18237427e
+// asm:   0x182373fb1: mov rsi, qword ptr [rax + 0x90]
+// asm:   0x182373fb8: mov r14, qword ptr [rax + 0xa8]
+// asm:   0x182373fbf: mov r15, qword ptr [rax + 0xa0]
+// asm:   0x182373fc6: mov rbx, qword ptr [rax + 0xb0]
+// asm:   0x182373fcd: xorps xmm0, xmm0
+// asm:   0x182373fd0: movups xmmword ptr [rsp + 0x20], xmm0
+// asm:   0x182373fd5: lea rcx, [rip + 0x1d489fc]  ; MethodInfo_System_Nullable_long_ctor
+// asm:   0x182373fdc: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x182373fe1: mov r8, rax
+// asm:   0x182373fe4: mov rdx, rbx
+// asm:   0x182373fe7: lea rcx, [rsp + 0x20]
+// asm:   0x182373fec: call 0x180ae2650  ; System_Nullable_DateTime____ctor()
+// asm:   0x182373ff1: movzx r13d, byte ptr [rsp + 0x20]
+// asm:   0x182373ff7: mov r12, qword ptr [rsp + 0x28]
+// asm:   0x182373ffc: cmp byte ptr [rip + 0x1fd3a5a], 0
+// asm:   0x182374003: jne 0x182374030
+// asm:   0x182374005: lea rcx, [rip + 0x1d4c32c]  ; TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse
+// asm:   0x18237400c: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x182374011: lea rcx, [rip + 0x1d48aa0]  ; MethodInfo_System_Nullable_long_GetValueOrDefault
+// asm:   0x182374018: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x18237401d: lea rcx, [rip + 0x1d48b74]  ; MethodInfo_System_Nullable_long_get_HasValue
+// asm:   0x182374024: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x182374029: mov byte ptr [rip + 0x1fd3a2d], 1
+// asm:   0x182374030: mov rcx, qword ptr [rip + 0x1d4c301]  ; TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse
+// asm:   0x182374037: call 0x1804170d0  ; il2cpp_runtime_helper_1804170d0()
+// asm:   0x18237403c: mov rbx, rax
+// asm:   0x18237403f: xor edx, edx
+// asm:   0x182374041: mov rcx, rax
+// asm:   0x182374044: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x182374049: test rsi, rsi
+// asm:   0x18237404c: je 0x182374279
+// asm:   0x182374052: xor edx, edx
+// asm:   0x182374054: mov rcx, rsi
+// asm:   0x182374057: call 0x18330cc50  ; UnityEngine_Networking_UnityWebRequest__get_result()
+// asm:   0x18237405c: lea ecx, [rax - 2]
+// asm:   0x18237405f: test ecx, ecx
+// asm:   0x182374061: je 0x18237407f
+// asm:   0x182374063: sub ecx, 1
+// asm:   0x182374066: je 0x182374078
+// asm:   0x182374068: cmp ecx, 1
+// asm:   0x18237406b: je 0x182374071
+// asm:   0x18237406d: xor edi, edi
+// asm:   0x18237406f: jmp 0x182374084
+// asm:   0x182374071: mov edi, 3
+// asm:   0x182374076: jmp 0x182374084
+// asm:   0x182374078: mov edi, 2
+// asm:   0x18237407d: jmp 0x182374084
+// asm:   0x18237407f: mov edi, 1
+// asm:   0x182374084: test rbx, rbx
+// asm:   0x182374087: je 0x182374274
+// asm:   0x18237408d: mov dword ptr [rbx + 0x10], edi
+// asm:   0x182374090: test r13b, r13b
+// asm:   0x182374093: jne 0x1823740a2
+// asm:   0x182374095: xor edx, edx
+// asm:   0x182374097: mov rcx, rsi
+// asm:   0x18237409a: call 0x18330cbb0  ; UnityEngine_Networking_UnityWebRequest__get_responseCode()
+// asm:   0x18237409f: mov r12, rax
+// asm:   0x1823740a2: mov qword ptr [rbx + 0x18], r12
+// asm:   0x1823740a6: test r14, r14
+// asm:   0x1823740a9: jne 0x1823740ed
+// asm:   0x1823740ab: xor edx, edx
+// asm:   0x1823740ad: mov rcx, rsi
+// asm:   0x1823740b0: call 0x181536bf0  ; UnityEngine_UIElements_PanelSettings__get_themeStyleSheet()
+// asm:   0x1823740b5: test rax, rax
+// asm:   0x1823740b8: je 0x1823740dc
+// asm:   0x1823740ba: xor edx, edx
+// asm:   0x1823740bc: mov rcx, rsi
+// asm:   0x1823740bf: call 0x181536bf0  ; UnityEngine_UIElements_PanelSettings__get_themeStyleSheet()
+// asm:   0x1823740c4: test rax, rax
+// asm:   0x1823740c7: je 0x18237426f
+// asm:   0x1823740cd: xor edx, edx
+// asm:   0x1823740cf: mov rcx, rax
+// asm:   0x1823740d2: call 0x181b53230  ; System_Type__InternalGetNameIfAvailable()
+// asm:   0x1823740d7: mov r14, rax
+// asm:   0x1823740da: jmp 0x1823740ed
+// asm:   0x1823740dc: mov rax, qword ptr [rip + 0x1fe0d6d]
+// asm:   0x1823740e3: mov rcx, qword ptr [rax + 0xb8]
+// asm:   0x1823740ea: mov r14, qword ptr [rcx]
+// asm:   0x1823740ed: mov qword ptr [rbx + 0x20], r14
+// asm:   0x1823740f1: lea rcx, [rbx + 0x20]
+// asm:   0x1823740f5: mov rdx, r14
+// asm:   0x1823740f8: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1823740fd: test r15, r15
+// asm:   0x182374100: jne 0x18237410f
+// asm:   0x182374102: xor edx, edx
+// asm:   0x182374104: mov rcx, rsi
+// asm:   0x182374107: call 0x18330c8e0  ; UnityEngine_Networking_UnityWebRequest__get_error()
+// asm:   0x18237410c: mov r15, rax
+// asm:   0x18237410f: mov qword ptr [rbx + 0x28], r15
+// asm:   0x182374113: lea rcx, [rbx + 0x28]
+// asm:   0x182374117: mov rdx, r15
+// asm:   0x18237411a: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x18237411f: dec dword ptr [rsp + 0x48]
+// asm:   0x182374123: mov rax, qword ptr [rsp + 0x58]
+// asm:   0x182374128: cmp dword ptr [rax], 0
+// asm:   0x18237412b: jge 0x18237414f
+// asm:   0x18237412d: mov r8, qword ptr [rsp + 0x60]
+// asm:   0x182374132: mov rax, qword ptr [r8]
+// asm:   0x182374135: cmp qword ptr [rax + 0x30], 0
+// asm:   0x18237413a: je 0x18237414f
+// asm:   0x18237413c: xor ecx, ecx
+// asm:   0x18237413e: mov r8, qword ptr [rax + 0x30]
+// asm:   0x182374142: mov rdx, qword ptr [rip + 0x1d251b7]  ; TypeInfo_System_IDisposable
+// asm:   0x182374149: call 0x180014840  ; InterfaceInvoker0_Invoke()
+// asm:   0x18237414e: nop 
+// asm:   0x18237419b: mov rax, qword ptr [rsp + 0x58]
+// asm:   0x1823741a0: cmp dword ptr [rax], 0
+// asm:   0x1823741a3: jge 0x1823741c6
+// asm:   0x1823741a5: mov r8, qword ptr [rsp + 0x60]
+// asm:   0x1823741aa: mov rax, qword ptr [r8]
+// asm:   0x1823741ad: cmp qword ptr [rax + 0x30], 0
+// asm:   0x1823741b2: je 0x1823741c6
+// asm:   0x1823741b4: xor ecx, ecx
+// asm:   0x1823741b6: mov r8, qword ptr [rax + 0x30]
+// asm:   0x1823741ba: mov rdx, qword ptr [rip + 0x1d2513f]  ; TypeInfo_System_IDisposable
+// asm:   0x1823741c1: call 0x180014840  ; InterfaceInvoker0_Invoke()
+// asm:   0x1823741c6: mov rcx, qword ptr [rsp + 0x50]
+// asm:   0x1823741cb: test rcx, rcx
+// asm:   0x1823741ce: jne 0x182374284
+// asm:   0x1823741d4: mov rax, qword ptr [rsp + 0x150]
+// asm:   0x1823741dc: mov dword ptr [rax], 0xfffffffe
+// asm:   0x1823741e2: mov rbx, qword ptr [rsp + 0x150]
+// asm:   0x1823741ea: lea rcx, [rip + 0x1d831df]  ; MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Set
+// asm:   0x1823741f1: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1823741f6: mov r8, rax
+// asm:   0x1823741f9: mov eax, dword ptr [rsp + 0x48]
+// asm:   0x1823741fd: dec eax
+// asm:   0x1823741ff: movsxd rdx, eax
+// asm:   0x182374202: mov rdx, qword ptr [rsp + rdx*8 + 0x38]
+// asm:   0x182374207: lea rcx, [rbx + 8]
+// asm:   0x18237420b: call 0x180dda900  ; Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_bool___SetException()
+// asm:   0x182374210: jmp 0x182374178
+// asm:   0x182374236: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x18237426f: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x182374274: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x182374279: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x18237427e: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x182374284: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x18333fdb0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x18333fdb5: push rbp
+// asm:   0x18333fdb6: sub rsp, 0x20
+// asm:   0x18333fdba: mov rbp, rdx
+// asm:   0x18333fdbd: mov rax, qword ptr [rbp + 0xd0]
+// asm:   0x18333fdc4: mov rcx, qword ptr [rax]
+// asm:   0x18333fdc7: mov qword ptr [rbp + 0x20], rcx
+// asm:   0x18333fdcb: movabs rax, 0
+// asm:   0x18333fdd5: add rsp, 0x20
+// asm:   0x18333fdd9: pop rbp
+// asm:   0x18333fdda: ret 
+// asm:   0x183340a60: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340a65: push rbx
+// asm:   0x183340a66: push rbp
+// asm:   0x183340a67: push rdi
+// asm:   0x183340a68: sub rsp, 0x20
+// asm:   0x183340a6c: mov rbp, rdx
+// asm:   0x183340a6f: mov rbx, qword ptr [rbp + 0x90]
+// asm:   0x183340a76: mov rdi, qword ptr [rbx]
+// asm:   0x183340a79: lea rcx, [rip + 0xd4c640]  ; TypeInfo_Cysharp_Threading_Tasks_UnityWebRequestException
+// asm:   0x183340a80: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340a85: mov rdx, rax
+// asm:   0x183340a88: test rdi, rdi
+// asm:   0x183340a8b: je 0x183340b12
+// asm:   0x183340a91: mov r8, qword ptr [rdi]
+// asm:   0x183340a94: movzx ecx, byte ptr [rax + 0x130]
+// asm:   0x183340a9b: cmp byte ptr [r8 + 0x130], cl
+// asm:   0x183340aa2: jb 0x183340abd
+// asm:   0x183340aa4: movzx eax, cl
+// asm:   0x183340aa7: dec eax
+// asm:   0x183340aa9: movsxd rcx, eax
+// asm:   0x183340aac: mov rax, qword ptr [r8 + 0xc8]
+// asm:   0x183340ab3: cmp qword ptr [rax + rcx*8], rdx
+// asm:   0x183340ab7: jne 0x183340abd
+// asm:   0x183340ab9: mov cl, 1
+// asm:   0x183340abb: jmp 0x183340abf
+// asm:   0x183340abd: xor cl, cl
+// asm:   0x183340abf: xor eax, eax
+// asm:   0x183340ac1: test cl, cl
+// asm:   0x183340ac3: cmovne rax, rdi
+// asm:   0x183340ac7: test rax, rax
+// asm:   0x183340aca: je 0x183340b12
+// asm:   0x183340acc: mov qword ptr [rbp + 0x168], rax
+// asm:   0x183340ad3: mov rdi, qword ptr [rbp + 0x150]
+// asm:   0x183340ada: lea rcx, [rip + 0xd9abf7]  ; TypeInfo_System_Threading_CancellationToken
+// asm:   0x183340ae1: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340ae6: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x183340aed: jne 0x183340af7
+// asm:   0x183340aef: mov rcx, rax
+// asm:   0x183340af2: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x183340af7: xor edx, edx
+// asm:   0x183340af9: lea rcx, [rdi + 0x28]
+// asm:   0x183340afd: call 0x181b96f60  ; System_Threading_CancellationToken__get_IsCancellationRequested()
+// asm:   0x183340b02: xor ecx, ecx
+// asm:   0x183340b04: test al, al
+// asm:   0x183340b06: sete cl
+// asm:   0x183340b09: xor eax, eax
+// asm:   0x183340b0b: test ecx, ecx
+// asm:   0x183340b0d: setne al
+// asm:   0x183340b10: jmp 0x183340b14
+// asm:   0x183340b12: xor eax, eax
+// asm:   0x183340b14: test eax, eax
+// asm:   0x183340b16: setne al
+// asm:   0x183340b19: test al, al
+// asm:   0x183340b1b: je 0x183340b3f
+// asm:   0x183340b1d: movsxd rcx, dword ptr [rbp + 0x48]
+// asm:   0x183340b21: mov rax, qword ptr [rbx]
+// asm:   0x183340b24: mov qword ptr [rbp + rcx*8 + 0x38], rax
+// asm:   0x183340b29: inc dword ptr [rbp + 0x48]
+// asm:   0x183340b2c: movabs rax, 0
+// asm:   0x183340b36: jmp 0x183340b5d
+// asm:   0x183340b3f: mov rax, qword ptr [rbx]
+// asm:   0x183340b42: mov qword ptr [rbp + 0x98], rax
+// asm:   0x183340b49: lea rdx, [rip + 0xc9b438]
+// asm:   0x183340b50: lea rcx, [rbp + 0x98]
+// asm:   0x183340b57: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183340b5d: add rsp, 0x20
+// asm:   0x183340b61: pop rdi
+// asm:   0x183340b62: pop rbp
+// asm:   0x183340b63: pop rbx
+// asm:   0x183340b64: ret 
+// asm:   0x183340b70: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340b75: push rbp
+// asm:   0x183340b76: sub rsp, 0x20
+// asm:   0x183340b7a: mov rbp, rdx
+// asm:   0x183340b7d: mov rax, qword ptr [rbp + 0xd8]
+// asm:   0x183340b84: mov rcx, qword ptr [rax]
+// asm:   0x183340b87: mov qword ptr [rbp + 0x50], rcx
+// asm:   0x183340b8b: movabs rax, 0
+// asm:   0x183340b95: add rsp, 0x20
+// asm:   0x183340b99: pop rbp
+// asm:   0x183340b9a: ret 
+// asm:   0x183340ba0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340ba5: push rbx
+// asm:   0x183340ba6: push rbp
+// asm:   0x183340ba7: push rdi
+// asm:   0x183340ba8: sub rsp, 0x20
+// asm:   0x183340bac: mov rbp, rdx
+// asm:   0x183340baf: mov rdi, qword ptr [rbp + 0xe0]
+// asm:   0x183340bb6: mov rax, qword ptr [rdi]
+// asm:   0x183340bb9: mov rbx, qword ptr [rax]
+// asm:   0x183340bbc: lea rcx, [rip + 0xd38395]  ; TypeInfo_System_Exception
+// asm:   0x183340bc3: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340bc8: mov rcx, rax
+// asm:   0x183340bcb: mov rdx, rbx
+// asm:   0x183340bce: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x183340bd3: test al, al
+// asm:   0x183340bd5: mov rax, qword ptr [rdi]
+// asm:   0x183340bd8: je 0x183340bf2
+// asm:   0x183340bda: movsxd rcx, dword ptr [rbp + 0x48]
+// asm:   0x183340bde: mov qword ptr [rbp + rcx*8 + 0x38], rax
+// asm:   0x183340be3: inc dword ptr [rbp + 0x48]
+// asm:   0x183340be6: movabs rax, 0
+// asm:   0x183340bf0: jmp 0x183340c0d
+// asm:   0x183340bf2: mov qword ptr [rbp + 0xa0], rax
+// asm:   0x183340bf9: lea rdx, [rip + 0xc9b388]
+// asm:   0x183340c00: lea rcx, [rbp + 0xa0]
+// asm:   0x183340c07: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x183340c0d: add rsp, 0x20
+// asm:   0x183340c11: pop rdi
+// asm:   0x183340c12: pop rbp
+// asm:   0x183340c13: pop rbx
+// asm:   0x183340c14: ret 
 
 void ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0__MoveNext
-               (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o __this,
+               (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o *__this,
                MethodInfo *method)
 
 {
-  Il2CppType ***pppIVar1;
-  byte bVar2;
-  ushort uVar3;
-  undefined4 uVar4;
-  UnityEngine_Networking_UnityWebRequest_o *pUVar5;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Il2CppType *pIVar6;
-  Il2CppMethodPointer pIVar7;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__c *pSVar8;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_01;
-  System_Collections_Generic_Dictionary_Enumerator_object__object__o __this_02;
-  int iVar9;
-  int32_t iVar10;
-  Il2CppObject *pIVar11;
-  char cVar12;
-  bool_conflict bVar13;
-  int32_t iVar14;
-  int iVar15;
-  Il2CppType **ppIVar16;
-  UnityEngine_Networking_DownloadHandlerBuffer_o *__this_03;
-  System_Text_Encoding_o *pSVar17;
+  ApplicationManagers_Api_AottgApiTransportRequest_o *pAVar1;
+  System_String_o *method_00;
+  System_Collections_Generic_Dictionary_string__string__o *__this_00;
+  Il2CppObject *obj;
+  System_Collections_Generic_Dictionary_TKey__TValue__o *pSVar2;
+  MethodInfo *pMVar3;
+  ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o *stateMachine;
+  bool bVar4;
+  uint32_t value;
+  int32_t iVar5;
+  UnityEngine_Networking_UnityWebRequest_o *pUVar6;
+  UnityEngine_Networking_DownloadHandlerBuffer_o *__this_01;
+  System_Text_Encoding_o *pSVar7;
   System_Byte_array *data;
-  UnityEngine_Networking_UploadHandlerRaw_o *__this_04;
+  UnityEngine_Networking_UploadHandlerRaw_o *__this_02;
   UnityEngine_Networking_UnityWebRequestAsyncOperation_o *asyncOperation;
-  uint *puVar18;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAVar19;
-  long lVar20;
-  undefined8 *puVar21;
-  undefined8 uVar22;
-  undefined8 *puVar23;
-  long *plVar24;
-  MethodInfo *pMVar25;
-  Il2CppClass *pIVar26;
-  long lVar27;
-  long lVar28;
-  MethodInfo *in_R9;
-  int iVar29;
-  undefined1 auVar30 [12];
-  undefined1 auVar31 [16];
-  undefined8 in_stack_ffffffffffffff08;
-  ulong in_stack_ffffffffffffff10;
-  MethodInfo *in_stack_ffffffffffffff18;
-  int in_stack_ffffffffffffff20;
-  undefined4 uVar32;
-  undefined4 uVar33;
-  undefined4 uVar34;
-  short local_c8;
-  undefined1 local_b8 [8];
-  undefined8 uStack_b0;
-  Il2CppObject *local_a8;
-  Il2CppObject *pIStack_a0;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__c *local_98 [3];
-  uint local_80;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_78;
-  UnityEngine_Networking_UnityWebRequest_o *pUStack_70;
-  Il2CppObject *local_68;
-  System_Collections_Generic_Dictionary_TKey__TValue__o *local_58;
-  UnityEngine_Networking_UnityWebRequest_o *pUStack_50;
-  Il2CppObject *local_48;
-  Il2CppObject *pIStack_40;
-  System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__c *local_38;
+  Cysharp_Threading_Tasks_UniTask_UnityWebRequest__o *pCVar8;
+  ApplicationManagers_Api_AottgApiTransportResponse_o *result;
+  int64_t iVar9;
+  uint64_t uVar10;
+  UnityEngine_Networking_DownloadHandler_o *__this_03;
+  System_String_o *pSVar11;
+  Il2CppClass *pIVar12;
+  void *pvVar13;
+  int32_t iVar14;
+  ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o *local_res8 [2];
+  Il2CppObject local_res18;
+  undefined1 local_128 [40];
+  undefined4 local_100;
+  undefined8 local_f8;
+  Il2CppObject *local_f0;
+  ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o **local_e8;
+  undefined1 local_e0 [8];
+  UnityEngine_Networking_UnityWebRequest_o *pUStack_d8;
+  System_String_o *local_d0;
+  System_String_o *pSStack_c8;
+  int32_t local_c0;
+  undefined4 uStack_bc;
+  undefined1 local_a0 [8];
+  UnityEngine_Networking_UnityWebRequest_o *pUStack_98;
+  System_String_o *local_90;
+  System_String_o *pSStack_88;
+  undefined8 local_80;
   
-  if (g_data_057aeb1e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_AwaitUnsafeOnCompleted_UniTask_1_T_Awaiter_UnityEng);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetResult);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_UnityWebRequest_GetResult);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_IsCompleted);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_System);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DownloadHandlerBuffer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_KeyValuePair_2_System_String_System_String_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Key);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_UniTask_1_T_Awaiter_UnityEngine_Networking_UnityWebReque);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityWebRequest);
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aeb1e = '\x01';
+  local_res8[0] = __this;
+  if (Il2CppMethodInitialized_184347a5e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Awa
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Set_40f74a8
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_UnityWebRequest_GetResult);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_UnityWebRequest_get_IsCompleted);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_string_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Networking_DownloadHandlerBuffer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_KeyValuePair_string_string_get_Key);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_KeyValuePair_string_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_int_get_HasValue);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Cysharp_Threading_Tasks_UniTask_UnityWebRequest_GetAwaiter);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Networking_UnityWebRequest);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Networking_UploadHandlerRaw);
+    Il2CppMethodInitialized_184347a5e = '\x01';
   }
-  local_48 = (Il2CppObject *)0x0;
-  pIStack_40 = (Il2CppObject *)0x0;
-  local_58 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  pUStack_50 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
-  local_38 = (System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__c *)0x0;
-  uVar33 = 0;
-  uVar34 = 0;
-  local_78 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)0x0;
-  pUStack_70 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
-  local_68 = (Il2CppObject *)0x0;
-  local_80 = 0;
-  iVar29 = *(int *)&method->methodPointer;
-  if (iVar29 == 0) {
-    uVar4 = method->token;
-    local_c8 = (short)uVar4;
-    plVar24 = (method->field7_0x38).methodMetadataHandle;
-    (method->field7_0x38).rgctx_data = (Il2CppRGCTXData *)0x0;
-    (method->field8_0x40).genericMethod = (void *)0x0;
-    method->token = 0;
-    method->flags = 0;
-    method->iflags = 0;
-    *(undefined4 *)&method->methodPointer = 0xffffffff;
-    iVar29 = -1;
+  iVar14 = 0;
+  local_a0 = (undefined1  [8])0x0;
+  pUStack_98 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
+  local_90 = (System_String_o *)0x0;
+  pSStack_88 = (System_String_o *)0x0;
+  local_80._0_4_ = 0;
+  local_80._4_4_ = 0;
+  local_res18.monitor = (void *)0x0;
+  local_100 = 0;
+  local_res18.klass._0_4_ = (local_res8[0]->fields).__1__state;
+  if ((int)local_res18.klass != 0) {
+    pAVar1 = (local_res8[0]->fields).request;
+    if (pAVar1 == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar11 = (pAVar1->fields).Url;
+    method_00 = (pAVar1->fields).Method;
+    pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Networking_UnityWebRequest);
+    UnityEngine_Networking_UnityWebRequest___ctor_330c7c0(pUVar6,pSVar11,method_00,(MethodInfo *)0x0);
+    (local_res8[0]->fields)._unityRequest_5__2 = pUVar6;
+    Il2CppCodeGenWriteBarrier(&(local_res8[0]->fields)._unityRequest_5__2,pUVar6);
+  }
+  local_f8 = 0;
+  local_f0 = &local_res18;
+  local_e8 = local_res8;
+  if ((int)local_res18.klass != 0) {
+    pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+    __this_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_UnityEngine_Networking_DownloadHandlerBuffer);
+    UnityEngine_Networking_DownloadHandlerBuffer___ctor(__this_01,(MethodInfo *)0x0);
+    if (pUVar6 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    UnityEngine_Networking_UnityWebRequest__set_downloadHandler
+              (pUVar6,(UnityEngine_Networking_DownloadHandler_o *)__this_01,(MethodInfo *)0x0);
+    pAVar1 = (local_res8[0]->fields).request;
+    if (pAVar1 == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    bVar4 = System_String__IsNullOrEmpty((pAVar1->fields).JsonBody,(MethodInfo *)0x0);
+    if (!bVar4) {
+      pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+      pSVar7 = System_Text_Encoding__get_UTF8((MethodInfo *)0x0);
+      pAVar1 = (local_res8[0]->fields).request;
+      if (pAVar1 == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if (pSVar7 == (System_Text_Encoding_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      data = (*(pSVar7->klass->vtable)._18_GetBytes.methodPtr)
+                       (pSVar7,(pAVar1->fields).JsonBody,(pSVar7->klass->vtable)._18_GetBytes.method);
+      __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Networking_UploadHandlerRaw);
+      UnityEngine_Networking_UploadHandlerRaw___ctor(__this_02,data,(MethodInfo *)0x0);
+      if (pUVar6 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      UnityEngine_Networking_UnityWebRequest__set_uploadHandler
+                (pUVar6,(UnityEngine_Networking_UploadHandler_o *)__this_02,(MethodInfo *)0x0);
+    }
+    pAVar1 = (local_res8[0]->fields).request;
+    if (pAVar1 == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if ((pAVar1->fields).TimeoutSeconds.fields.hasValue != false) {
+      pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+      value = System_Nullable_uint___get_Value
+                        ((System_Nullable_uint__o *)&(pAVar1->fields).TimeoutSeconds,
+                         (MethodInfo_AE29B0 *)MethodInfo_System_Nullable_int_get_Value);
+      if (pUVar6 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      UnityEngine_Networking_UnityWebRequest__set_timeout(pUVar6,value,(MethodInfo *)0x0);
+    }
+    pAVar1 = (local_res8[0]->fields).request;
+    if (pAVar1 == (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    __this_00 = (pAVar1->fields).Headers;
+    if (__this_00 == (System_Collections_Generic_Dictionary_string__string__o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    System_Collections_Generic_Dictionary_PhotonNetwork_RaiseEventBatch__object___GetEnumerator
+              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_e0,
+               (System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+               (MethodInfo_13C1150 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_string_GetEnumerator);
+    local_a0 = local_e0;
+    pUStack_98 = pUStack_d8;
+    local_90 = local_d0;
+    pSStack_88 = pSStack_c8;
+    local_80._0_4_ = local_c0;
+    local_80._4_4_ = uStack_bc;
+    local_128._0_8_ = (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+    local_128._8_8_ = &local_res18;
+    local_128._16_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0;
+    while (bVar4 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
+                             ((System_Collections_Generic_Dictionary_Enumerator_object__object__o *)local_a0,
+                              (MethodInfo_1585360 *)
+                              MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_MoveNext
+                             ), bVar4) {
+      pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+      if (pUVar6 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      UnityEngine_Networking_UnityWebRequest__SetRequestHeader(pUVar6,local_90,pSStack_88,(MethodInfo *)0x0);
+    }
+    if ((int)local_res18.klass < 0) {
+      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_a0,
+                 MethodInfo_System_Collections_Generic_Dictionary_Enumerator_string_string_Dispose);
+    }
+  }
+  if ((int)local_res18.klass == 0) {
+    local_128._0_8_ = (local_res8[0]->fields).__u__1.fields.task.fields.source;
+    local_128._8_8_ = (local_res8[0]->fields).__u__1.fields.task.fields.result;
+    local_128._16_8_ = *(undefined8 *)&(local_res8[0]->fields).__u__1.fields.task.fields.token;
+    (local_res8[0]->fields).__u__1.fields.task.fields.source =
+         (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+    (local_res8[0]->fields).__u__1.fields.task.fields.result = (Il2CppObject *)0x0;
+    *(undefined8 *)&(local_res8[0]->fields).__u__1.fields.task.fields.token = 0;
+    local_res18.klass._0_4_ = -1;
+    (local_res8[0]->fields).__1__state = -1;
   }
   else {
-    uVar32 = 0;
-    if (method->klass == (Il2CppClass *)0x0) goto label_044cfb0b;
-    ppIVar16 = (Il2CppType **)il2cpp_runtime_helper_023052d0(TypeInfo_UnityWebRequest);
-    UnityEngine_Networking_UnityWebRequest___ctor_51070d0();
-    pppIVar1 = &method->parameters;
-    method->parameters = ppIVar16;
-    il2cpp_runtime_helper_022b4080(pppIVar1);
-    pUVar5 = (UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1;
-    __this_03 = (UnityEngine_Networking_DownloadHandlerBuffer_o *)il2cpp_runtime_helper_023052d0(TypeInfo_DownloadHandlerBuffer);
-    UnityEngine_Networking_DownloadHandlerBuffer___ctor(__this_03,(MethodInfo *)0x0);
-    if (pUVar5 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) goto label_044cfb10;
-    UnityEngine_Networking_UnityWebRequest__set_downloadHandler
-              (pUVar5,(UnityEngine_Networking_DownloadHandler_o *)__this_03,(MethodInfo *)0x0);
-    if (method->klass == (Il2CppClass *)0x0) goto label_044cfb15;
-    bVar13 = System_String__IsNullOrEmpty((method->klass->_1).byval_arg.data,(MethodInfo *)0x0);
-    if ((char)bVar13 == '\0') {
-      pUVar5 = (UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1;
-      pSVar17 = System_Text_Encoding__get_UTF8((MethodInfo *)0x0);
-      if (method->klass == (Il2CppClass *)0x0) goto label_044cfb3b;
-      in_stack_ffffffffffffff10 = 0;
-      if (pSVar17 == (System_Text_Encoding_o *)0x0) goto label_044cfb47;
-      data = (System_Byte_array *)
-             (*(pSVar17->klass->vtable)._18_GetBytes.methodPtr)
-                       (pSVar17,(method->klass->_1).byval_arg.data,
-                        (pSVar17->klass->vtable)._18_GetBytes.method);
-      __this_04 = (UnityEngine_Networking_UploadHandlerRaw_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UploadHandlerRaw);
-      UnityEngine_Networking_UploadHandlerRaw___ctor(__this_04,data,(MethodInfo *)0x0);
-      if (pUVar5 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) goto label_044cfb4c;
-      UnityEngine_Networking_UnityWebRequest__set_uploadHandler
-                (pUVar5,(UnityEngine_Networking_UploadHandler_o *)__this_04,(MethodInfo *)0x0);
+    pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+    if (pUVar6 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    pIVar26 = method->klass;
-    if (pIVar26 == (Il2CppClass *)0x0) goto label_044cfb1a;
-    if ((char)(pIVar26->_1).byval_arg.bits != '\0') {
-      pUVar5 = (UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1;
-      iVar14 = System_Nullable_int___get_Value
-                         ((System_Nullable_int__o)&(pIVar26->_1).byval_arg.bits,MethodInfo_Int32_get_Value);
-      if (pUVar5 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) goto label_044cfb31;
-      UnityEngine_Networking_UnityWebRequest__set_timeout(pUVar5,iVar14,(MethodInfo *)0x0);
-      pIVar26 = method->klass;
-      if (pIVar26 == (Il2CppClass *)0x0) goto label_044cfb36;
+    asyncOperation = UnityEngine_Networking_UnityWebRequest__SendWebRequest(pUVar6,(MethodInfo *)0x0);
+    pCVar8 = Cysharp_Threading_Tasks_UnityAsyncExtensions__WithCancellation_294d560
+                       ((Cysharp_Threading_Tasks_UniTask_UnityWebRequest__o *)local_e0,asyncOperation,
+                        (System_Threading_CancellationToken_o)
+                        (local_res8[0]->fields).cancellationToken.fields._source,(MethodInfo *)0x0);
+    pSVar2 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)(pCVar8->fields).source;
+    pUVar6 = (pCVar8->fields).result;
+    pSVar11 = *(System_String_o **)&(pCVar8->fields).token;
+    local_e0 = (undefined1  [8])0x0;
+    pUStack_d8 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
+    local_d0 = (System_String_o *)0x0;
+    if (((MethodInfo_Cysharp_Threading_Tasks_UniTask_UnityWebRequest_GetAwaiter->klass->_2).bitflags1 & 1) ==
+        0) {
+      il2cpp_codegen_class_init_checked
+                (MethodInfo_Cysharp_Threading_Tasks_UniTask_UnityWebRequest_GetAwaiter->klass);
     }
-    __this_00 = (pIVar26->_1).this_arg.data;
-    if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_044cfb1f;
-    System_Collections_Generic_Dictionary_object__object___GetEnumerator
-              ((System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__o *)local_b8,__this_00,
-               MethodInfo_Dictionary_2_TKey_TValue_Enumerator_System_String_System);
-    local_38 = local_98[0];
-    local_48 = local_a8;
-    pIStack_40 = pIStack_a0;
-    local_58 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_b8;
-    pUStack_50 = uStack_b0;
-    lVar20 = 0;
-    while (__this_01.fields._version = (int)in_stack_ffffffffffffff10,
-          __this_01.fields._index = (int)(in_stack_ffffffffffffff10 >> 0x20),
-          __this_01.fields._dictionary =
-               (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff08,
-          __this_01.fields._current.fields.key = (Il2CppObject *)method,
-          __this_01.fields._current.fields.value._0_4_ = iVar29,
-          __this_01.fields._current.fields.value._4_4_ = uVar32,
-          __this_01.fields._getEnumeratorRetType = uVar33, __this_01.fields._36_4_ = uVar34,
-          bVar13 = System_Collections_Generic_Dictionary_Enumerator_object__object___MoveNext
-                             (__this_01,(MethodInfo_3251160 *)&local_58), (char)bVar13 != '\0') {
-      auVar31 = il2cpp_runtime_helper_03343020((MethodInfo_3251160 *)&local_58,MethodInfo_KeyValuePair_2_System_String_System_String_get_Current);
-      if ((UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1 ==
-          (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
-        il2cpp_runtime_helper_022b2c90();
-        goto label_044cfb03;
+    local_e0 = (undefined1  [8])pSVar2;
+    pUStack_d8 = pUVar6;
+    local_d0 = pSVar11;
+    Il2CppCodeGenWriteBarrier((void **)local_e0,(void *)0x0);
+    local_128._0_8_ = local_e0;
+    local_128._8_8_ = pUStack_d8;
+    local_128._16_8_ = local_d0;
+    bVar4 = Cysharp_Threading_Tasks_UniTask_Awaiter_Vector2___get_IsCompleted
+                      ((Cysharp_Threading_Tasks_UniTask_Awaiter_T__o *)local_128,
+                       (MethodInfo_EE1910 *)
+                       MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_UnityWebRequest_get_IsCompleted);
+    if (!bVar4) {
+      local_res18.klass._0_4_ = 0;
+      (local_res8[0]->fields).__1__state = 0;
+      (local_res8[0]->fields).__u__1.fields.task.fields.source =
+           (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)local_128._0_8_;
+      (local_res8[0]->fields).__u__1.fields.task.fields.result = (Il2CppObject *)local_128._8_8_;
+      *(undefined8 *)&(local_res8[0]->fields).__u__1.fields.task.fields.token = local_128._16_8_;
+      Il2CppCodeGenWriteBarrier((void **)&(local_res8[0]->fields).__u__1,(void *)0x0);
+      stateMachine = local_res8[0];
+      pMVar3 = 
+      MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Awa
+      ;
+      if ((
+          MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Awa
+          ->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+        il2cpp_codegen_rgctx_method_init
+                  (
+                  MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Awa
+                  );
       }
-      UnityEngine_Networking_UnityWebRequest__SetRequestHeader
-                ((UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1,auVar31._0_8_,auVar31._8_8_,
-                 (MethodInfo *)0x0);
-    }
-    if (iVar29 < 0) {
-      __this_02.fields._version = (int)in_stack_ffffffffffffff10;
-      __this_02.fields._index = (int)(in_stack_ffffffffffffff10 >> 0x20);
-      __this_02.fields._dictionary =
-           (System_Collections_Generic_Dictionary_TKey__TValue__o *)in_stack_ffffffffffffff08;
-      __this_02.fields._current.fields.key = (Il2CppObject *)method;
-      __this_02.fields._current.fields.value._0_4_ = iVar29;
-      __this_02.fields._current.fields.value._4_4_ = uVar32;
-      __this_02.fields._getEnumeratorRetType = uVar33;
-      __this_02.fields._36_4_ = uVar34;
-      System_Collections_Generic_Dictionary_Enumerator_object__object___Dispose
-                (__this_02,(MethodInfo_3251280 *)&local_58);
-    }
-    if ((UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1 ==
-        (UnityEngine_Networking_UnityWebRequest_o *)0x0) goto label_044cfb2c;
-    in_stack_ffffffffffffff18 = method;
-    asyncOperation =
-         UnityEngine_Networking_UnityWebRequest__SendWebRequest
-                   ((UnityEngine_Networking_UnityWebRequest_o *)*pppIVar1,(MethodInfo *)0x0);
-    in_stack_ffffffffffffff20 = iVar29;
-    Cysharp_Threading_Tasks_UnityAsyncExtensions__WithCancellation_49fac90
-              ((Cysharp_Threading_Tasks_UniTask_UnityWebRequest__o *)local_b8,asyncOperation,
-               (System_Threading_CancellationToken_o)method->return_type,(MethodInfo *)0x0);
-    local_68 = local_a8;
-    local_78 = (System_Collections_Generic_Dictionary_TKey__TValue__o *)local_b8;
-    pUStack_70 = uStack_b0;
-    local_b8 = (undefined1  [8])0x0;
-    uStack_b0 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
-    local_a8 = (Il2CppObject *)0x0;
-    if ((*(byte *)(*(long *)(MethodInfo_UniTask_1_T_Awaiter_UnityEngine_Networking_UnityWebReque + 0x20) + 0x135) & 1) == 0) {
-      il2cpp_runtime_helper_023009c0();
-    }
-    local_a8 = local_68;
-    local_b8 = (undefined1  [8])local_78;
-    uStack_b0 = pUStack_70;
-    il2cpp_runtime_helper_022b4080();
-    pIVar11 = local_a8;
-    local_c8 = (short)local_a8;
-    iVar10 = uStack_b0._4_4_;
-    iVar14 = (int32_t)uStack_b0;
-    lVar20 = *(long *)(MethodInfo_Boolean_get_IsCompleted + 0x20);
-    uVar33 = local_b8._0_4_;
-    uVar34 = local_b8._4_4_;
-    if ((*(byte *)(lVar20 + 0x135) & 1) == 0) {
-      lVar20 = il2cpp_runtime_helper_023009c0();
-    }
-    plVar24 = (long *)CONCAT44(uVar34,uVar33);
-    if (plVar24 != (long *)0x0) {
-      lVar20 = *(long *)(*(long *)(*(long *)(lVar20 + 0xc0) + 0x18) + 0x20);
-      if ((*(byte *)(lVar20 + 0x135) & 1) == 0) {
-        lVar20 = il2cpp_runtime_helper_023009c0();
-      }
-      lVar20 = *(long *)(*(long *)(lVar20 + 0xc0) + 8);
-      if ((*(byte *)(lVar20 + 0x135) & 1) == 0) {
-        lVar20 = il2cpp_runtime_helper_023009c0();
-      }
-      lVar27 = *plVar24;
-      if ((ulong)*(ushort *)(lVar27 + 0x12e) != 0) {
-        lVar28 = 0;
-        do {
-          if (*(long *)(*(long *)(lVar27 + 0xb0) + lVar28) == lVar20) {
-            puVar21 = (undefined8 *)
-                      ((long)(*(int *)(*(long *)(lVar27 + 0xb0) + 8 + lVar28) + 1) * 0x10 + lVar27 + 0x138);
-            goto label_044cf89a;
-          }
-          lVar28 = lVar28 + 0x10;
-        } while ((ulong)*(ushort *)(lVar27 + 0x12e) << 4 != lVar28);
-      }
-      puVar21 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar24,lVar20,1);
-label_044cf89a:
-      iVar15 = (*(code *)*puVar21)(plVar24,(int)local_c8,puVar21[1]);
-      if (iVar15 == 0) {
-        *(undefined4 *)&method->methodPointer = 0;
-        *(undefined4 *)&method->field7_0x38 = uVar33;
-        *(undefined4 *)((long)&method->field7_0x38 + 4) = uVar34;
-        *(int32_t *)&method->field8_0x40 = iVar14;
-        *(int32_t *)((long)&method->field8_0x40 + 4) = iVar10;
-        *(Il2CppObject **)&method->token = pIVar11;
-        il2cpp_runtime_helper_022b4080(&method->field7_0x38,0);
-        il2cpp_runtime_helper_024eaf10(&method->virtualMethodPointer,&stack0xffffffffffffff28,method,MethodInfo_Void_AwaitUnsafeOnCompleted_UniTask_1_T_Awaiter_UnityEng);
-        return;
-      }
-    }
-    plVar24 = (long *)CONCAT44(uVar34,uVar33);
-  }
-  if (plVar24 != (long *)0x0) {
-    lVar20 = *(long *)(MethodInfo_UnityWebRequest_GetResult + 0x20);
-    if ((*(byte *)(lVar20 + 0x135) & 1) == 0) {
-      lVar20 = il2cpp_runtime_helper_023009c0();
-    }
-    lVar20 = *(long *)(*(long *)(lVar20 + 0xc0) + 0x28);
-    if ((*(byte *)(lVar20 + 0x135) & 1) == 0) {
-      lVar20 = il2cpp_runtime_helper_023009c0();
-    }
-    lVar27 = *plVar24;
-    if ((ulong)*(ushort *)(lVar27 + 0x12e) != 0) {
-      lVar28 = 0;
-      do {
-        if (*(long *)(*(long *)(lVar27 + 0xb0) + lVar28) == lVar20) {
-          puVar21 = (undefined8 *)
-                    ((long)*(int *)(*(long *)(lVar27 + 0xb0) + 8 + lVar28) * 0x10 + lVar27 + 0x138);
-          goto label_044cf951;
+      if ((stateMachine->fields).__t__builder.fields.runnerPromise ==
+          (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)0x0) {
+        pIVar12 = (pMVar3->field7_0x38).rgctx_data[2].klass;
+        if (((pIVar12->_2).bitflags1 & 1) == 0) {
+          pIVar12 = il2cpp_codegen_class_init_checked(pIVar12);
         }
-        lVar28 = lVar28 + 0x10;
-      } while ((ulong)*(ushort *)(lVar27 + 0x12e) << 4 != lVar28);
+        if ((pIVar12->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init(pIVar12);
+        }
+        Cysharp_Threading_Tasks_CompilerServices_AsyncUniTask_AottgUnityWebRequestTransport__SendAsync_d__0__object___SetStateMachine
+                  (stateMachine,
+                   (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o **)
+                   &(stateMachine->fields).__t__builder,
+                   (MethodInfo_DFF0B0 *)(pMVar3->field7_0x38).rgctx_data[1].method);
+      }
+      obj = (Il2CppObject *)(stateMachine->fields).__t__builder.fields.runnerPromise;
+      if (obj != (Il2CppObject *)0x0) {
+        pIVar12 = pMVar3->klass;
+        if (((pIVar12->_2).bitflags1 & 1) == 0) {
+          pIVar12 = il2cpp_codegen_class_init_checked(pIVar12);
+        }
+        pIVar12 = pIVar12->rgctx_data[1].klass;
+        if (((pIVar12->_2).bitflags1 & 1) == 0) {
+          pIVar12 = il2cpp_codegen_class_init_checked(pIVar12);
+        }
+        pvVar13 = InterfaceInvoker0_Invoke(0,pIVar12,obj);
+        il2cpp_runtime_helper_1800142b0(local_128,pvVar13,(pMVar3->field7_0x38).rgctx_data[5].rgctxDataDummy);
+        if (-1 < (int)local_res18.klass) {
+          return;
+        }
+        if ((local_res8[0]->fields)._unityRequest_5__2 == (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+          return;
+        }
+        InterfaceInvoker0_Invoke
+                  (0,(Il2CppClass *)TypeInfo_System_IDisposable,
+                   (Il2CppObject *)(local_res8[0]->fields)._unityRequest_5__2);
+        return;
+      }
+      ThrowNullReferenceException();
     }
-    puVar21 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar24,lVar20,0);
-label_044cf951:
-    (*(code *)*puVar21)(plVar24,(int)local_c8,puVar21[1]);
   }
-  in_stack_ffffffffffffff10 = 0;
-  pAVar19 = ApplicationManagers_Api_AottgUnityWebRequestTransport__BuildResponse
-                      ((UnityEngine_Networking_UnityWebRequest_o *)method->parameters,(System_String_o *)0x0,
-                       (System_String_o *)0x0,(System_Nullable_long__o)ZEXT816(0),in_R9);
-  iVar15 = 0x11;
-  lVar20 = 0;
-  pMVar25 = method;
-  iVar9 = iVar29;
-  do {
-    iVar29 = in_stack_ffffffffffffff20;
-    method = in_stack_ffffffffffffff18;
-    if ((iVar9 < 0) && (ppIVar16 = pMVar25->parameters, ppIVar16 != (Il2CppType **)0x0)) {
-      pIVar6 = *ppIVar16;
-      if ((ulong)*(ushort *)&pIVar6[0x12].field_0xe != 0) {
-        lVar27 = 0;
-        do {
-          if (*(long *)((long)pIVar6[0xb].data + lVar27) == TypeInfo_IDisposable) {
-            puVar18 = &pIVar6[(long)*(int *)((long)pIVar6[0xb].data + lVar27 + 8) + 0x13].bits;
-            goto label_044cf9e3;
-          }
-          lVar27 = lVar27 + 0x10;
-        } while ((ulong)*(ushort *)&pIVar6[0x12].field_0xe << 4 != lVar27);
-      }
-      puVar18 = (uint *)il2cpp_runtime_helper_02300d20(ppIVar16,TypeInfo_IDisposable,0);
-label_044cf9e3:
-      (**(code **)puVar18)(ppIVar16,*(undefined8 *)(puVar18 + 2));
+  Cysharp_Threading_Tasks_UniTask_Awaiter_object___GetResult
+            ((Cysharp_Threading_Tasks_UniTask_Awaiter_object__o *)local_128,
+             (MethodInfo_EE11A0 *)MethodInfo_Cysharp_Threading_Tasks_UniTask_Awaiter_UnityWebRequest_GetResult
+            );
+  pUVar6 = (local_res8[0]->fields)._unityRequest_5__2;
+  if (Il2CppMethodInitialized_184347a5d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_long_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_long_get_HasValue);
+    Il2CppMethodInitialized_184347a5d = '\x01';
+  }
+  result = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)result,(MethodInfo *)0x0);
+  if (pUVar6 != (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
+    iVar5 = UnityEngine_Networking_UnityWebRequest__get_result(pUVar6,(MethodInfo *)0x0);
+    if (iVar5 == 2) {
+      iVar14 = 1;
     }
-    if (lVar20 == 0) {
-      if (iVar15 == 0) goto label_044cfe85;
-      if (iVar15 != 0x11) {
-        return;
-      }
-      *(undefined4 *)&pMVar25->methodPointer = 0xfffffffe;
-      pIVar7 = pMVar25->virtualMethodPointer;
-      if (pIVar7 == (Il2CppMethodPointer)0x0) {
-        pMVar25->name = (char *)pAVar19;
-        il2cpp_runtime_helper_022b4080(&pMVar25->name,pAVar19);
-        return;
-      }
-      if ((*(byte *)(*(long *)(MethodInfo_Void_SetResult + 0x20) + 0x135) & 1) == 0) {
-        lVar20 = il2cpp_runtime_helper_023009c0();
-        lVar20 = *(long *)(*(long *)(lVar20 + 0xc0) + 8);
-        if ((*(byte *)(lVar20 + 0x135) & 1) != 0) goto label_044cfa4f;
-label_044cfa74:
-        lVar20 = il2cpp_runtime_helper_023009c0();
-        lVar27 = *(long *)pIVar7;
-        uVar3 = *(ushort *)(lVar27 + 0x12e);
+    else if (iVar5 == 3) {
+      iVar14 = 2;
+    }
+    else if (iVar5 == 4) {
+      iVar14 = 3;
+    }
+    if (result != (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) {
+      (result->fields).Result = iVar14;
+      iVar9 = UnityEngine_Networking_UnityWebRequest__get_responseCode(pUVar6,(MethodInfo *)0x0);
+      (result->fields).StatusCode = iVar9;
+      uVar10 = UnityEngine_Networking_UnityWebRequest__get_downloadHandler
+                         ((Unity_Collections_NativeArray_Enumerator_T__o *)pUVar6,(MethodInfo_1536BF0 *)0x0);
+      if (uVar10 == 0) {
+        pSVar11 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
       }
       else {
-        lVar20 = *(long *)(*(long *)(*(long *)(MethodInfo_Void_SetResult + 0x20) + 0xc0) + 8);
-        if ((*(byte *)(lVar20 + 0x135) & 1) == 0) goto label_044cfa74;
-label_044cfa4f:
-        lVar27 = *(long *)pIVar7;
-        uVar3 = *(ushort *)(lVar27 + 0x12e);
-      }
-      if ((ulong)uVar3 == 0) goto label_044cfaaf;
-      lVar28 = 0;
-      break;
-    }
-label_044cfb03:
-    il2cpp_runtime_helper_022fefe0(lVar20);
-label_044cfb0b:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb10:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb15:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb1a:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb1f:
-    il2cpp_runtime_helper_022b2c90();
-    il2cpp_runtime_helper_022fefe0();
-label_044cfb2c:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb31:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb36:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb3b:
-    in_stack_ffffffffffffff10 = 0;
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb47:
-    il2cpp_runtime_helper_022b2c90();
-label_044cfb4c:
-    auVar30 = il2cpp_runtime_helper_022b2c90();
-    if (auVar30._8_4_ != 1) goto label_044cfdac;
-    plVar24 = (long *)__cxa_begin_catch();
-    lVar20 = *plVar24;
-    __cxa_end_catch();
-    iVar15 = 0;
-    pAVar19 = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
-    in_stack_ffffffffffffff18 = method;
-    in_stack_ffffffffffffff20 = iVar29;
-    pMVar25 = method;
-    iVar9 = iVar29;
-  } while( true );
-  while (lVar28 = lVar28 + 0x10, (ulong)uVar3 * 0x10 != lVar28) {
-    if (*(long *)(*(long *)(lVar27 + 0xb0) + lVar28) == lVar20) {
-      puVar21 = (undefined8 *)
-                (lVar27 + (long)(*(int *)(*(long *)(lVar27 + 0xb0) + 8 + lVar28) + 2) * 0x10 + 0x138);
-      goto label_044cfaed;
-    }
-  }
-label_044cfaaf:
-  puVar21 = (undefined8 *)il2cpp_runtime_helper_02300d20(pIVar7,lVar20,2);
-label_044cfaed:
-  (*(code *)*puVar21)(pIVar7,pAVar19,puVar21[1]);
-  return;
-label_044cfdac:
-  pMVar25 = method;
-  if ((iVar29 < 0) && (ppIVar16 = method->parameters, ppIVar16 != (Il2CppType **)0x0)) {
-    pIVar6 = *ppIVar16;
-    if ((ulong)*(ushort *)&pIVar6[0x12].field_0xe != 0) {
-      lVar20 = 0;
-      do {
-        if (*(long *)((long)pIVar6[0xb].data + lVar20) == TypeInfo_IDisposable) {
-          puVar18 = &pIVar6[(long)*(int *)((long)pIVar6[0xb].data + lVar20 + 8) + 0x13].bits;
-          goto label_044cfe17;
+        __this_03 = (UnityEngine_Networking_DownloadHandler_o *)
+                    UnityEngine_Networking_UnityWebRequest__get_downloadHandler
+                              ((Unity_Collections_NativeArray_Enumerator_T__o *)pUVar6,
+                               (MethodInfo_1536BF0 *)0x0);
+        if (__this_03 == (UnityEngine_Networking_DownloadHandler_o *)0x0) {
+          ThrowNullReferenceException();
         }
-        lVar20 = lVar20 + 0x10;
-      } while ((ulong)*(ushort *)&pIVar6[0x12].field_0xe << 4 != lVar20);
-    }
-    puVar18 = (uint *)il2cpp_runtime_helper_02300d20(ppIVar16,TypeInfo_IDisposable,0);
-    pMVar25 = method;
-label_044cfe17:
-    (**(code **)puVar18)(ppIVar16,*(undefined8 *)(puVar18 + 2));
-  }
-  if (auVar30._8_4_ != 1) {
-    _Unwind_Resume(auVar30._0_8_);
-  }
-  puVar21 = (undefined8 *)__cxa_begin_catch(auVar30._0_8_);
-  uVar22 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  cVar12 = il2cpp_runtime_helper_0233e000(uVar22,*(undefined8 *)*puVar21);
-  if (cVar12 == '\0') {
-    puVar23 = (undefined8 *)__cxa_allocate_exception(8);
-    *puVar23 = *puVar21;
-    __cxa_throw(puVar23,&PTR_PTR_05215060,0);
-  }
-  local_98[(in_stack_ffffffffffffff10 & 0xffffffff) + 1] =
-       (System_Collections_Generic_Dictionary_Enumerator_TKey__TValue__c *)*puVar21;
-  local_80 = (int)in_stack_ffffffffffffff10 + 1;
-  in_stack_ffffffffffffff10 = (ulong)local_80;
-  __cxa_end_catch();
-label_044cfe85:
-  pSVar8 = local_98[in_stack_ffffffffffffff10 & 0xffffffff];
-  *(undefined4 *)&pMVar25->methodPointer = 0xfffffffe;
-  lVar20 = il2cpp_runtime_helper_023445d0();
-  pIVar7 = pMVar25->virtualMethodPointer;
-  if (pIVar7 == (Il2CppMethodPointer)0x0) {
-    pMVar25->invoker_method = (InvokerMethod)pSVar8;
-    il2cpp_runtime_helper_022b4080(&pMVar25->invoker_method,pSVar8);
-    return;
-  }
-  if ((*(byte *)(*(long *)(lVar20 + 0x20) + 0x135) & 1) == 0) {
-    lVar20 = il2cpp_runtime_helper_023009c0();
-    lVar20 = *(long *)(*(long *)(lVar20 + 0xc0) + 8);
-    bVar2 = *(byte *)(lVar20 + 0x135);
-  }
-  else {
-    lVar20 = *(long *)(*(long *)(*(long *)(lVar20 + 0x20) + 0xc0) + 8);
-    bVar2 = *(byte *)(lVar20 + 0x135);
-  }
-  if ((bVar2 & 1) == 0) {
-    lVar20 = il2cpp_runtime_helper_023009c0();
-    lVar27 = *(long *)pIVar7;
-    uVar3 = *(ushort *)(lVar27 + 0x12e);
-  }
-  else {
-    lVar27 = *(long *)pIVar7;
-    uVar3 = *(ushort *)(lVar27 + 0x12e);
-  }
-  if ((ulong)uVar3 != 0) {
-    lVar28 = 0;
-    do {
-      if (*(long *)(*(long *)(lVar27 + 0xb0) + lVar28) == lVar20) {
-        puVar21 = (undefined8 *)
-                  (lVar27 + (long)(*(int *)(*(long *)(lVar27 + 0xb0) + 8 + lVar28) + 3) * 0x10 + 0x138);
-        goto label_044cff7a;
+        pSVar11 = UnityEngine_Networking_DownloadHandler__get_text(__this_03,(MethodInfo *)0x0);
       }
-      lVar28 = lVar28 + 0x10;
-    } while ((ulong)uVar3 * 0x10 != lVar28);
+      (result->fields).Text = pSVar11;
+      Il2CppCodeGenWriteBarrier(&(result->fields).Text,pSVar11);
+      pSVar11 = UnityEngine_Networking_UnityWebRequest__get_error(pUVar6,(MethodInfo *)0x0);
+      (result->fields).Error = pSVar11;
+      Il2CppCodeGenWriteBarrier(&(result->fields).Error,pSVar11);
+      if (((int)local_res18.klass < 0) &&
+         ((local_res8[0]->fields)._unityRequest_5__2 != (UnityEngine_Networking_UnityWebRequest_o *)0x0)) {
+        InterfaceInvoker0_Invoke
+                  (0,(Il2CppClass *)TypeInfo_System_IDisposable,
+                   (Il2CppObject *)(local_res8[0]->fields)._unityRequest_5__2);
+      }
+      (local_res8[0]->fields).__1__state = -2;
+      Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_object___SetResult
+                ((Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_T__o *)
+                 &(local_res8[0]->fields).__t__builder,(Il2CppObject *)result,
+                 (MethodInfo_DDA980 *)
+                 MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Set_40f74a8
+                );
+      return;
+    }
+    ThrowNullReferenceException();
   }
-  puVar21 = (undefined8 *)il2cpp_runtime_helper_02300d20(pIVar7,lVar20,3);
-label_044cff7a:
-  (*(code *)*puVar21)(pIVar7,pSVar8,puVar21[1]);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport.<SendAsync>d__0$$SetStateMachine
 // il2cpp: void ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0__SetStateMachine (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o __this, System_Runtime_CompilerServices_IAsyncStateMachine_o* stateMachine, const MethodInfo* method);
-// 0x44d00a0
+// 0x182374290
 
 void ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0__SetStateMachine
-               (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o __this,
+               (ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o *__this,
                System_Runtime_CompilerServices_IAsyncStateMachine_o *stateMachine,MethodInfo *method)
 
 {
-  if (g_data_057aeb1f == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetStateMachine);
-    g_data_057aeb1f = '\x01';
+  if (Il2CppMethodInitialized_184347a5f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Set_40f7588
+              );
+    Il2CppMethodInitialized_184347a5f = '\x01';
   }
+  System_Configuration_ConfigurationCollectionAttribute___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)&(__this->fields).__t__builder,
+             (MethodInfo *)stateMachine);
   return;
 }
 
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport$$SendAsync
 // il2cpp: Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse__o ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync (ApplicationManagers_Api_AottgUnityWebRequestTransport_o* __this, ApplicationManagers_Api_AottgApiTransportRequest_o* request, System_Threading_CancellationToken_o cancellationToken, const MethodInfo* method);
-// 0x44cf020
+// 0x182368410
 
 Cysharp_Threading_Tasks_UniTask_AottgApiTransportResponse__o *
 ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync
@@ -523,170 +708,183 @@ ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync
           System_Threading_CancellationToken_o cancellationToken,MethodInfo *method)
 
 {
-  ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o __this_00;
-  undefined4 uVar1;
-  undefined4 uVar2;
-  Il2CppMethodPointer pIVar3;
-  InvokerMethod pIVar4;
-  char *pcVar5;
-  Il2CppType **ppIVar6;
-  _union_13 _Var7;
-  _union_14 _Var8;
-  undefined8 uVar9;
-  Cysharp_Threading_Tasks_IUniTaskSource_T__o *local_40;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_38;
-  undefined8 local_30;
+  MethodInfo *pMVar1;
+  Cysharp_Threading_Tasks_IUniTaskSource_T__o *local_78;
+  ApplicationManagers_Api_AottgApiTransportResponse_o *pAStack_70;
+  undefined8 local_68;
+  ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_Fields local_58;
   
-  if (g_data_057aeb1c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AsyncUniTaskMethodBuilder_1_ApplicationManagers_Api_Aott);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Start_AottgUnityWebRequestTransport_SendAsync_d__0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_UniTask_1_ApplicationManagers_Api_AottgApiTransportRespo);
-    g_data_057aeb1c = '\x01';
+  if (Il2CppMethodInitialized_184347a5c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Cre
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Sta
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_get
+              );
+    Il2CppMethodInitialized_184347a5c = '\x01';
   }
-  uVar2 = 0;
-  _Var8.genericMethod = (void *)0x0;
-  uVar9._0_4_ = 0;
-  uVar9._4_2_ = 0;
-  uVar9._6_2_ = 0;
-  ppIVar6 = (Il2CppType **)0x0;
-  _Var7.rgctx_data = (Il2CppRGCTXData *)0x0;
-  pIVar3 = (Il2CppMethodPointer)0x0;
-  pIVar4 = (InvokerMethod)0x0;
-  pcVar5 = (char *)0x0;
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff70,0);
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff88,request);
-  il2cpp_runtime_helper_022b4080(&stack0xffffffffffffff90,0);
-  uVar1 = 0xffffffff;
-  if (*(long *)(MethodInfo_Void_Start_AottgUnityWebRequestTransport_SendAsync_d__0 + 0x38) == 0) {
-    il2cpp_runtime_helper_02300a20();
+  local_58.__1__state = 0;
+  local_58._4_4_ = 0;
+  local_58.request = (ApplicationManagers_Api_AottgApiTransportRequest_o *)0x0;
+  local_58.cancellationToken.fields._source =
+       (System_Threading_CancellationToken_Fields)(System_Threading_CancellationTokenSource_o *)0x0;
+  local_58._unityRequest_5__2 = (UnityEngine_Networking_UnityWebRequest_o *)0x0;
+  local_58.__u__1.fields.task.fields.source = (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)0x0;
+  local_58.__u__1.fields.task.fields.result = (Il2CppObject *)0x0;
+  local_58.__u__1.fields.task.fields.token = 0;
+  local_58.__u__1.fields.task.fields._18_6_ = 0;
+  local_58.__t__builder.fields.runnerPromise =
+       (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)0x0;
+  local_58.__t__builder.fields.ex = (System_Exception_o *)0x0;
+  local_58.__t__builder.fields.result = (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
+  Il2CppCodeGenWriteBarrier((void **)&local_58.__t__builder,(void *)0x0);
+  local_58.request = request;
+  Il2CppCodeGenWriteBarrier(&local_58.request,request);
+  local_58.cancellationToken.fields._source = cancellationToken.fields._source;
+  Il2CppCodeGenWriteBarrier((void **)&local_58.cancellationToken,(void *)0x0);
+  pMVar1 = 
+  MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Sta;
+  local_58.__1__state = -1;
+  if ((
+      MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Sta
+      ->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+    il2cpp_codegen_rgctx_method_init
+              (
+              MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_Sta
+              );
   }
-  __this_00.fields._4_4_ = uVar2;
-  __this_00.fields.__1__state = uVar1;
-  __this_00.fields.__t__builder.fields.runnerPromise =
-       (Cysharp_Threading_Tasks_CompilerServices_IStateMachineRunnerPromise_T__o *)pIVar3;
-  __this_00.fields.__t__builder.fields.ex = (System_Exception_o *)pIVar4;
-  __this_00.fields.__t__builder.fields.result = (ApplicationManagers_Api_AottgApiTransportResponse_o *)pcVar5;
-  __this_00.fields.request = request;
-  __this_00.fields.cancellationToken.fields._source = cancellationToken.fields._source;
-  __this_00.fields._unityRequest_5__2 = (UnityEngine_Networking_UnityWebRequest_o *)ppIVar6;
-  __this_00.fields.__u__1.fields.task.fields.source =
-       (Cysharp_Threading_Tasks_IUniTaskSource_T__o *)_Var7.rgctx_data;
-  __this_00.fields.__u__1.fields.task.fields.result = _Var8.genericMethod;
-  __this_00.fields.__u__1.fields.task.fields._16_8_ = uVar9;
   ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0__MoveNext
-            (__this_00,(MethodInfo *)&stack0xffffffffffffff68);
-  il2cpp_runtime_helper_02f6cd90(&local_40,&stack0xffffffffffffff70,MethodInfo_UniTask_1_ApplicationManagers_Api_AottgApiTransportRespo);
-  *(undefined8 *)&(__return_storage_ptr__->fields).token = local_30;
-  (__return_storage_ptr__->fields).source = local_40;
-  (__return_storage_ptr__->fields).result = pAStack_38;
+            ((ApplicationManagers_Api_AottgUnityWebRequestTransport__SendAsync_d__0_o *)&local_58,
+             (pMVar1->field7_0x38).rgctx_data[2].method);
+  il2cpp_runtime_helper_180ddb120(&local_78,&local_58.__t__builder,
+                MethodInfo_Cysharp_Threading_Tasks_CompilerServices_AsyncUniTaskMethodBuilder_AottgApiTransportResponse_get
+               );
+  (__return_storage_ptr__->fields).source = local_78;
+  (__return_storage_ptr__->fields).result = pAStack_70;
+  *(undefined8 *)&(__return_storage_ptr__->fields).token = local_68;
   return __return_storage_ptr__;
 }
 
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport$$BuildResponse
 // il2cpp: ApplicationManagers_Api_AottgApiTransportResponse_o* ApplicationManagers_Api_AottgUnityWebRequestTransport__BuildResponse (UnityEngine_Networking_UnityWebRequest_o* unityRequest, System_String_o* textOverride, System_String_o* errorOverride, System_Nullable_long__o statusCodeOverride, const MethodInfo* method);
-// 0x44cf130
+// 0x182368290
 
 ApplicationManagers_Api_AottgApiTransportResponse_o *
 ApplicationManagers_Api_AottgUnityWebRequestTransport__BuildResponse
           (UnityEngine_Networking_UnityWebRequest_o *unityRequest,System_String_o *textOverride,
-          System_String_o *errorOverride,System_Nullable_long__o statusCodeOverride,MethodInfo *method)
+          System_String_o *errorOverride,System_Nullable_long__o *statusCodeOverride,MethodInfo *method)
 
 {
-  int32_t iVar1;
+  bool bVar1;
+  int32_t iVar2;
   ApplicationManagers_Api_AottgApiTransportResponse_o *__this;
-  int64_t iVar2;
-  UnityEngine_Networking_DownloadHandler_o *pUVar3;
-  int iVar4;
-  ApplicationManagers_Api_AottgApiTransportResponse_o *pAVar5;
-  UnityEngine_Networking_UnityWebRequest_o *pUVar6;
-  char local_34;
+  int64_t iVar3;
+  uint64_t uVar4;
+  UnityEngine_Networking_DownloadHandler_o *__this_00;
   
-  if (g_data_057aeb1d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgApiTransportResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int64_GetValueOrDefault);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_HasValue);
-    g_data_057aeb1d = '\x01';
+  if (Il2CppMethodInitialized_184347a5d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_long_GetValueOrDefault);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Nullable_long_get_HasValue);
+    Il2CppMethodInitialized_184347a5d = '\x01';
   }
-  __this = (ApplicationManagers_Api_AottgApiTransportResponse_o *)il2cpp_runtime_helper_023052d0(TypeInfo_AottgApiTransportResponse);
-  pAVar5 = __this;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  iVar4 = (int)pAVar5;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_ApplicationManagers_Api_AottgApiTransportResponse);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   if (unityRequest != (UnityEngine_Networking_UnityWebRequest_o *)0x0) {
-    pUVar6 = unityRequest;
-    iVar1 = UnityEngine_Networking_UnityWebRequest__get_result(unityRequest,(MethodInfo *)0x0);
-    iVar4 = (int)pUVar6;
+    iVar2 = UnityEngine_Networking_UnityWebRequest__get_result(unityRequest,(MethodInfo *)0x0);
+    if (iVar2 == 2) {
+      iVar2 = 1;
+    }
+    else if (iVar2 == 3) {
+      iVar2 = 2;
+    }
+    else if (iVar2 == 4) {
+      iVar2 = 3;
+    }
+    else {
+      iVar2 = 0;
+    }
     if (__this != (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0) {
-      iVar4 = 0;
-      if (iVar1 - 2U < 3) {
-        iVar4 = iVar1 + -1;
-      }
-      (__this->fields).Result = iVar4;
-      local_34 = (char)statusCodeOverride.fields.hasValue;
-      if (local_34 == '\0') {
-        iVar2 = UnityEngine_Networking_UnityWebRequest__get_responseCode(unityRequest,(MethodInfo *)0x0);
-        (__this->fields).StatusCode = iVar2;
+      bVar1 = (statusCodeOverride->fields).hasValue;
+      (__this->fields).Result = iVar2;
+      if (bVar1 == false) {
+        iVar3 = UnityEngine_Networking_UnityWebRequest__get_responseCode(unityRequest,(MethodInfo *)0x0);
       }
       else {
-        (__this->fields).StatusCode = statusCodeOverride.fields.value;
+        iVar3 = (statusCodeOverride->fields).value;
       }
+      (__this->fields).StatusCode = iVar3;
       if (textOverride == (System_String_o *)0x0) {
-        pUVar3 = UnityEngine_Networking_UnityWebRequest__get_downloadHandler(unityRequest,(MethodInfo *)0x0);
-        if (pUVar3 == (UnityEngine_Networking_DownloadHandler_o *)0x0) {
-          textOverride = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+        uVar4 = UnityEngine_Tilemaps_Tile__get_sprite
+                          ((Unity_Collections_NativeArray_Enumerator_T__o *)unityRequest,
+                           (MethodInfo_1536BF0 *)0x0);
+        if (uVar4 == 0) {
+          textOverride = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
         }
         else {
-          pUVar6 = unityRequest;
-          pUVar3 = UnityEngine_Networking_UnityWebRequest__get_downloadHandler(unityRequest,(MethodInfo *)0x0)
-          ;
-          iVar4 = (int)pUVar6;
-          if (pUVar3 == (UnityEngine_Networking_DownloadHandler_o *)0x0) goto label_044cf27c;
-          textOverride = UnityEngine_Networking_DownloadHandler__get_text(pUVar3,(MethodInfo *)0x0);
+          __this_00 = (UnityEngine_Networking_DownloadHandler_o *)
+                      UnityEngine_Tilemaps_Tile__get_sprite
+                                ((Unity_Collections_NativeArray_Enumerator_T__o *)unityRequest,
+                                 (MethodInfo_1536BF0 *)0x0);
+          if (__this_00 == (UnityEngine_Networking_DownloadHandler_o *)0x0) goto label_1823683d6;
+          textOverride = UnityEngine_Networking_DownloadHandler__get_text(__this_00,(MethodInfo *)0x0);
         }
       }
       (__this->fields).Text = textOverride;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).Text);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).Text,textOverride);
       if (errorOverride == (System_String_o *)0x0) {
         errorOverride = UnityEngine_Networking_UnityWebRequest__get_error(unityRequest,(MethodInfo *)0x0);
       }
       (__this->fields).Error = errorOverride;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).Error,errorOverride);
+      Il2CppCodeGenWriteBarrier(&(__this->fields).Error,errorOverride);
       return __this;
     }
   }
-label_044cf27c:
-  il2cpp_runtime_helper_022b2c90();
-  if (iVar4 - 2U < 3) {
-    return (ApplicationManagers_Api_AottgApiTransportResponse_o *)(ulong)(iVar4 - 1);
-  }
-  return (ApplicationManagers_Api_AottgApiTransportResponse_o *)0x0;
+label_1823683d6:
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport$$ConvertResult
 // il2cpp: int32_t ApplicationManagers_Api_AottgUnityWebRequestTransport__ConvertResult (int32_t result, const MethodInfo* method);
-// 0x44cf290
+// 0x1823683e0
 
 int32_t ApplicationManagers_Api_AottgUnityWebRequestTransport__ConvertResult
                   (int32_t result,MethodInfo *method)
 
 {
-  if (result - 2U < 3) {
-    return result + -1;
+  if (result == 2) {
+    return 1;
   }
-  return 0;
+  if (result != 3) {
+    if (result != 4) {
+      return 0;
+    }
+    return 3;
+  }
+  return 2;
 }
 
 
 // ApplicationManagers.Api.AottgUnityWebRequestTransport$$.ctor
 // il2cpp: void ApplicationManagers_Api_AottgUnityWebRequestTransport___ctor (ApplicationManagers_Api_AottgUnityWebRequestTransport_o* __this, const MethodInfo* method);
-// 0x44cd1b0
+// 0x18054c890
 
-void ApplicationManagers_Api_AottgUnityWebRequestTransport___ctor
-               (ApplicationManagers_Api_AottgUnityWebRequestTransport_o *__this,MethodInfo *method)
+void
+ApplicationManagers_Api_AottgUnityWebRequestTransport___ctor(ApplicationManagers_Api_AottgUnityWebRequestTransport_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

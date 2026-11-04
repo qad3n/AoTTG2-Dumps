@@ -10,23 +10,23 @@ using UnityEngine;
 
 namespace Replay;
 
-[Token(Token = "0x20000DB")]
+[Token(Token = "0x20000FB")]
 internal class BaseReplayState : MonoBehaviour
 {
-	[Token(Token = "0x4000524")]
+	[Token(Token = "0x40005C4")]
 	[FieldOffset(Offset = "0x20")]
 	public Vector3 Position;
 
-	[Token(Token = "0x4000525")]
+	[Token(Token = "0x40005C5")]
 	[FieldOffset(Offset = "0x2C")]
 	public Quaternion Rotation;
 
-	[Token(Token = "0x4000526")]
+	[Token(Token = "0x40005C6")]
 	[FieldOffset(Offset = "0x40")]
 	public string Animation;
 
-	[Token(Token = "0x6000420")]
-	[Address(RVA = "0x4104630", Offset = "0x4104630", VA = "0x4104630")]
+	[Token(Token = "0x60004B9")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public BaseReplayState()
 	{
 	}

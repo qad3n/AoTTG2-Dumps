@@ -10,14 +10,14 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000011")]
 public struct TMP_MaterialReference
 {
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x4000023")]
 	[FieldOffset(Offset = "0x0")]
 	public Material material;
 
-	[Token(Token = "0x4000014")]
+	[Token(Token = "0x4000024")]
 	[FieldOffset(Offset = "0x8")]
 	public int referenceCount;
 }

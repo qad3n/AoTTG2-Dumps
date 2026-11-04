@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000217")]
+[Token(Token = "0x200021A")]
 public interface IAsyncOnPointerEnterHandler
 {
-	[Token(Token = "0x6000C37")]
+	[Token(Token = "0x6000C5B")]
 	UniTask<PointerEventData> OnPointerEnterAsync();
 }

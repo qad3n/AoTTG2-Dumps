@@ -13,10 +13,10 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000008")]
-[UnityEngine.Bindings.NativeHeader("Modules/Terrain/Public/TerrainLayerScriptingInterface.h")]
-[UnityEngine.Scripting.UsedByNativeCode]
+[Token(Token = "0x200000A")]
 [UnityEngine.Bindings.NativeHeader("TerrainScriptingClasses.h")]
+[UnityEngine.Scripting.UsedByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Terrain/Public/TerrainLayerScriptingInterface.h")]
 public sealed class TerrainLayer : Object
 {
 }

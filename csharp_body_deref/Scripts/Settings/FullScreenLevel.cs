@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000083")]
+[Token(Token = "0x200009F")]
 public enum FullScreenLevel
 {
-	[Token(Token = "0x40002BE")]
+	[Token(Token = "0x4000325")]
 	Windowed,
-	[Token(Token = "0x40002BF")]
+	[Token(Token = "0x4000326")]
 	Borderless,
-	[Token(Token = "0x40002C0")]
+	[Token(Token = "0x4000327")]
 	Exclusive
 }

@@ -11,9 +11,9 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x200003F")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x2000053")]
 [AttributeUsage(AttributeTargets.Field)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeFixedLengthAttribute : Attribute
 {
 }

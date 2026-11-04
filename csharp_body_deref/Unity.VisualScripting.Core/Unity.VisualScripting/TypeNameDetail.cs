@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000173")]
 public enum TypeNameDetail
 {
-	[Token(Token = "0x4000889")]
+	[Token(Token = "0x4000887")]
 	Name,
-	[Token(Token = "0x400088A")]
+	[Token(Token = "0x4000888")]
 	NameAndAssembly,
-	[Token(Token = "0x400088B")]
+	[Token(Token = "0x4000889")]
 	Full
 }

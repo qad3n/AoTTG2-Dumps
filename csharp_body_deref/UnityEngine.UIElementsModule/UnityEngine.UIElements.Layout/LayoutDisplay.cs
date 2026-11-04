@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200051D")]
+[Token(Token = "0x2000611")]
 internal enum LayoutDisplay
 {
-	[Token(Token = "0x4001135")]
+	[Token(Token = "0x40016AE")]
 	Flex,
-	[Token(Token = "0x4001136")]
+	[Token(Token = "0x40016AF")]
 	None
 }

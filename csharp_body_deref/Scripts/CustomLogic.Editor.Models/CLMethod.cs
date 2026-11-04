@@ -11,84 +11,84 @@ using Newtonsoft.Json;
 
 namespace CustomLogic.Editor.Models;
 
-[Token(Token = "0x20004BB")]
+[Token(Token = "0x2000610")]
 internal class CLMethod : BaseModel
 {
-	[Token(Token = "0x1700097D")]
+	[Token(Token = "0x17000A74")]
 	public CLParameter[] Parameters
 	{
-		[Token(Token = "0x60031C0")]
-		[Address(RVA = "0x4186BA0", Offset = "0x4186BA0", VA = "0x4186BA0")]
+		[Token(Token = "0x6003B33")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031C1")]
-		[Address(RVA = "0x4186BB0", Offset = "0x4186BB0", VA = "0x4186BB0")]
+		[Token(Token = "0x6003B34")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700097E")]
+	[Token(Token = "0x17000A75")]
 	public TypeReference ReturnType
 	{
-		[Token(Token = "0x60031C2")]
-		[Address(RVA = "0x4186BC0", Offset = "0x4186BC0", VA = "0x4186BC0")]
+		[Token(Token = "0x6003B35")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031C3")]
-		[Address(RVA = "0x4186BD0", Offset = "0x4186BD0", VA = "0x4186BD0")]
+		[Token(Token = "0x6003B36")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700097F")]
+	[Token(Token = "0x17000A76")]
 	[JsonProperty("label")]
 	public string Name
 	{
-		[Token(Token = "0x60031C4")]
-		[Address(RVA = "0x4186BE0", Offset = "0x4186BE0", VA = "0x4186BE0")]
+		[Token(Token = "0x6003B37")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031C5")]
-		[Address(RVA = "0x4186BF0", Offset = "0x4186BF0", VA = "0x4186BF0")]
+		[Token(Token = "0x6003B38")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000980")]
+	[Token(Token = "0x17000A77")]
 	public XmlInfo Info
 	{
-		[Token(Token = "0x60031C6")]
-		[Address(RVA = "0x4186C00", Offset = "0x4186C00", VA = "0x4186C00")]
+		[Token(Token = "0x6003B39")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60031C7")]
-		[Address(RVA = "0x4186C10", Offset = "0x4186C10", VA = "0x4186C10")]
+		[Token(Token = "0x6003B3A")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60031C8")]
-	[Address(RVA = "0x4186C20", Offset = "0x4186C20", VA = "0x4186C20")]
+	[Token(Token = "0x6003B3B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CLMethod()
 	{
 	}

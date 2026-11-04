@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnBecameVisibleMessageListener : MessageListener
 {
-	[Token(Token = "0x6000425")]
-	[Address(RVA = "0x4CB5A50", Offset = "0x4CB5A50", VA = "0x4CB5A50")]
+	[Token(Token = "0x600042F")]
+	[Address(RVA = "0x2DBD5C0", Offset = "0x2DBBBC0", VA = "0x182DBD5C0")]
 	private void OnBecameVisible()
 	{
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x4CB5AC0", Offset = "0x4CB5AC0", VA = "0x4CB5AC0")]
+	[Token(Token = "0x6000430")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnBecameVisibleMessageListener()
 	{
 	}

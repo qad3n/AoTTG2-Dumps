@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000071")]
+[Token(Token = "0x200008C")]
 public enum WeightedMode
 {
-	[Token(Token = "0x40000EC")]
+	[Token(Token = "0x4000132")]
 	None,
-	[Token(Token = "0x40000ED")]
+	[Token(Token = "0x4000133")]
 	In,
-	[Token(Token = "0x40000EE")]
+	[Token(Token = "0x4000134")]
 	Out,
-	[Token(Token = "0x40000EF")]
+	[Token(Token = "0x4000135")]
 	Both
 }

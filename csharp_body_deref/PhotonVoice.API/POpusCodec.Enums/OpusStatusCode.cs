@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000010")]
 public enum OpusStatusCode
 {
-	[Token(Token = "0x400006E")]
+	[Token(Token = "0x4000069")]
 	OK = 0,
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400006A")]
 	BadArguments = -1,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x400006B")]
 	BufferTooSmall = -2,
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x400006C")]
 	InternalError = -3,
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x400006D")]
 	InvalidPacket = -4,
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400006E")]
 	Unimplemented = -5,
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400006F")]
 	InvalidState = -6,
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000070")]
 	AllocFail = -7
 }

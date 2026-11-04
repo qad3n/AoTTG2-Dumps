@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: System.Lazy
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,27 +12,27 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000E3")]
-[DebuggerTypeProxy(typeof(System.LazyDebugView<>))]
+[Token(Token = "0x200010B")]
 [DebuggerDisplay("ThreadSafetyMode={Mode}, IsValueCreated={IsValueCreated}, IsValueFaulted={IsValueFaulted}, Value={ValueForDebugDisplay}")]
+[DebuggerTypeProxy(typeof(System.LazyDebugView<>))]
 public class Lazy<T>
 {
-	[Token(Token = "0x4000385")]
+	[Token(Token = "0x400040A")]
 	[FieldOffset(Offset = "0x0")]
 	private System.LazyHelper _state;
 
-	[Token(Token = "0x4000386")]
+	[Token(Token = "0x400040B")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<T> _factory;
 
-	[Token(Token = "0x4000387")]
+	[Token(Token = "0x400040C")]
 	[FieldOffset(Offset = "0x0")]
 	private T _value;
 
 	[Token(Token = "0x17000092")]
 	public bool IsValueCreated
 	{
-		[Token(Token = "0x600083D")]
+		[Token(Token = "0x6000870")]
 		get
 		{
 			return default(bool);
@@ -43,81 +43,86 @@ public class Lazy<T>
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	public T Value
 	{
-		[Token(Token = "0x600083E")]
+		[Token(Token = "0x6000871")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x600082F")]
+	[Token(Token = "0x6000861")]
 	private static T CreateViaDefaultConstructor()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000830")]
+	[Token(Token = "0x6000862")]
 	public Lazy()
 	{
 	}
 
-	[Token(Token = "0x6000831")]
+	[Token(Token = "0x6000863")]
 	public Lazy(Func<T> valueFactory)
 	{
 	}
 
-	[Token(Token = "0x6000832")]
+	[Token(Token = "0x6000864")]
+	public Lazy(bool isThreadSafe)
+	{
+	}
+
+	[Token(Token = "0x6000865")]
 	public Lazy(Func<T> valueFactory, bool isThreadSafe)
 	{
 	}
 
-	[Token(Token = "0x6000833")]
+	[Token(Token = "0x6000866")]
 	private Lazy(Func<T> valueFactory, LazyThreadSafetyMode mode, bool useDefaultConstructor)
 	{
 	}
 
-	[Token(Token = "0x6000834")]
+	[Token(Token = "0x6000867")]
 	private void ViaConstructor()
 	{
 	}
 
-	[Token(Token = "0x6000835")]
+	[Token(Token = "0x6000868")]
 	private void ViaFactory(LazyThreadSafetyMode mode)
 	{
 	}
 
-	[Token(Token = "0x6000836")]
+	[Token(Token = "0x6000869")]
 	private void ExecutionAndPublication(System.LazyHelper executionAndPublication, bool useDefaultConstructor)
 	{
 	}
 
-	[Token(Token = "0x6000837")]
+	[Token(Token = "0x600086A")]
 	private void PublicationOnly(System.LazyHelper publicationOnly, T possibleValue)
 	{
 	}
 
-	[Token(Token = "0x6000838")]
+	[Token(Token = "0x600086B")]
 	private void PublicationOnlyViaConstructor(System.LazyHelper initializer)
 	{
 	}
 
-	[Token(Token = "0x6000839")]
+	[Token(Token = "0x600086C")]
 	private void PublicationOnlyViaFactory(System.LazyHelper initializer)
 	{
 	}
 
-	[Token(Token = "0x600083A")]
+	[Token(Token = "0x600086D")]
 	private void PublicationOnlyWaitForOtherThreadToPublish()
 	{
 	}
 
-	[Token(Token = "0x600083B")]
+	[Token(Token = "0x600086E")]
 	private T CreateValue()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600083C")]
+	[Token(Token = "0x600086F")]
 	public override string ToString()
 	{
 		return null;

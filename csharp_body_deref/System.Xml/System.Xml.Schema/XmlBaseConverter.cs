@@ -144,7 +144,7 @@ internal abstract class XmlBaseConverter : XmlValueConverter
 	protected XmlSchemaType SchemaType
 	{
 		[Token(Token = "0x6001884")]
-		[Address(RVA = "0x47439E0", Offset = "0x47439E0", VA = "0x47439E0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -155,7 +155,7 @@ internal abstract class XmlBaseConverter : XmlValueConverter
 	protected XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001885")]
-		[Address(RVA = "0x47439F0", Offset = "0x47439F0", VA = "0x47439F0")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -166,7 +166,7 @@ internal abstract class XmlBaseConverter : XmlValueConverter
 	protected string XmlTypeName
 	{
 		[Token(Token = "0x6001886")]
-		[Address(RVA = "0x4743A00", Offset = "0x4743A00", VA = "0x4743A00")]
+		[Address(RVA = "0x2675600", Offset = "0x2673C00", VA = "0x182675600")]
 		get
 		{
 			return null;
@@ -177,7 +177,7 @@ internal abstract class XmlBaseConverter : XmlValueConverter
 	protected Type DefaultClrType
 	{
 		[Token(Token = "0x6001887")]
-		[Address(RVA = "0x4743BF0", Offset = "0x4743BF0", VA = "0x4743BF0")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
@@ -185,843 +185,843 @@ internal abstract class XmlBaseConverter : XmlValueConverter
 	}
 
 	[Token(Token = "0x6001847")]
-	[Address(RVA = "0x4740EA0", Offset = "0x4740EA0", VA = "0x4740EA0")]
+	[Address(RVA = "0x26753A0", Offset = "0x26739A0", VA = "0x1826753A0")]
 	protected XmlBaseConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x6001848")]
-	[Address(RVA = "0x47410E0", Offset = "0x47410E0", VA = "0x47410E0")]
+	[Address(RVA = "0x26752B0", Offset = "0x26738B0", VA = "0x1826752B0")]
 	protected XmlBaseConverter(XmlTypeCode typeCode)
 	{
 	}
 
 	[Token(Token = "0x6001849")]
-	[Address(RVA = "0x47411C0", Offset = "0x47411C0", VA = "0x47411C0")]
+	[Address(RVA = "0x2675590", Offset = "0x2673B90", VA = "0x182675590")]
 	protected XmlBaseConverter(XmlBaseConverter converterAtomic)
 	{
 	}
 
 	[Token(Token = "0x600184A")]
-	[Address(RVA = "0x4741230", Offset = "0x4741230", VA = "0x4741230")]
+	[Address(RVA = "0x2675250", Offset = "0x2673850", VA = "0x182675250")]
 	protected XmlBaseConverter(XmlBaseConverter converterAtomic, Type clrTypeDefault)
 	{
 	}
 
 	[Token(Token = "0x600184B")]
-	[Address(RVA = "0x4741280", Offset = "0x4741280", VA = "0x4741280", Slot = "7")]
+	[Address(RVA = "0x2672380", Offset = "0x2670980", VA = "0x182672380", Slot = "7")]
 	public override bool ToBoolean(DateTime value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600184C")]
-	[Address(RVA = "0x4741360", Offset = "0x4741360", VA = "0x4741360", Slot = "6")]
+	[Address(RVA = "0x26722A0", Offset = "0x26708A0", VA = "0x1826722A0", Slot = "6")]
 	public override bool ToBoolean(double value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600184D")]
-	[Address(RVA = "0x4741440", Offset = "0x4741440", VA = "0x4741440", Slot = "5")]
+	[Address(RVA = "0x2672110", Offset = "0x2670710", VA = "0x182672110", Slot = "5")]
 	public override bool ToBoolean(int value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600184E")]
-	[Address(RVA = "0x4741500", Offset = "0x4741500", VA = "0x4741500", Slot = "4")]
+	[Address(RVA = "0x2672520", Offset = "0x2670B20", VA = "0x182672520", Slot = "4")]
 	public override bool ToBoolean(long value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600184F")]
-	[Address(RVA = "0x47415C0", Offset = "0x47415C0", VA = "0x47415C0", Slot = "8")]
+	[Address(RVA = "0x26721E0", Offset = "0x26707E0", VA = "0x1826721E0", Slot = "8")]
 	public override bool ToBoolean(string value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001850")]
-	[Address(RVA = "0x4741670", Offset = "0x4741670", VA = "0x4741670", Slot = "9")]
+	[Address(RVA = "0x2672460", Offset = "0x2670A60", VA = "0x182672460", Slot = "9")]
 	public override bool ToBoolean(object value)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001851")]
-	[Address(RVA = "0x4741720", Offset = "0x4741720", VA = "0x4741720", Slot = "33")]
+	[Address(RVA = "0x2672C30", Offset = "0x2671230", VA = "0x182672C30", Slot = "33")]
 	public override DateTime ToDateTime(bool value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001852")]
-	[Address(RVA = "0x4741800", Offset = "0x4741800", VA = "0x4741800", Slot = "37")]
+	[Address(RVA = "0x2672DE0", Offset = "0x26713E0", VA = "0x182672DE0", Slot = "37")]
 	public override DateTime ToDateTime(DateTimeOffset value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001853")]
-	[Address(RVA = "0x4741900", Offset = "0x4741900", VA = "0x4741900", Slot = "36")]
+	[Address(RVA = "0x26728B0", Offset = "0x2670EB0", VA = "0x1826728B0", Slot = "36")]
 	public override DateTime ToDateTime(double value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001854")]
-	[Address(RVA = "0x47419E0", Offset = "0x47419E0", VA = "0x47419E0", Slot = "34")]
+	[Address(RVA = "0x2672B50", Offset = "0x2671150", VA = "0x182672B50", Slot = "34")]
 	public override DateTime ToDateTime(int value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001855")]
-	[Address(RVA = "0x4741AC0", Offset = "0x4741AC0", VA = "0x4741AC0", Slot = "35")]
+	[Address(RVA = "0x26729A0", Offset = "0x2670FA0", VA = "0x1826729A0", Slot = "35")]
 	public override DateTime ToDateTime(long value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001856")]
-	[Address(RVA = "0x4741BA0", Offset = "0x4741BA0", VA = "0x4741BA0", Slot = "38")]
+	[Address(RVA = "0x2672D10", Offset = "0x2671310", VA = "0x182672D10", Slot = "38")]
 	public override DateTime ToDateTime(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001857")]
-	[Address(RVA = "0x4741C50", Offset = "0x4741C50", VA = "0x4741C50", Slot = "39")]
+	[Address(RVA = "0x2672A80", Offset = "0x2671080", VA = "0x182672A80", Slot = "39")]
 	public override DateTime ToDateTime(object value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001858")]
-	[Address(RVA = "0x4741D00", Offset = "0x4741D00", VA = "0x4741D00", Slot = "40")]
+	[Address(RVA = "0x26726D0", Offset = "0x2670CD0", VA = "0x1826726D0", Slot = "40")]
 	public override DateTimeOffset ToDateTimeOffset(DateTime value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6001859")]
-	[Address(RVA = "0x4741DF0", Offset = "0x4741DF0", VA = "0x4741DF0", Slot = "41")]
+	[Address(RVA = "0x26725F0", Offset = "0x2670BF0", VA = "0x1826725F0", Slot = "41")]
 	public override DateTimeOffset ToDateTimeOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600185A")]
-	[Address(RVA = "0x4741EB0", Offset = "0x4741EB0", VA = "0x4741EB0", Slot = "42")]
+	[Address(RVA = "0x26727D0", Offset = "0x2670DD0", VA = "0x1826727D0", Slot = "42")]
 	public override DateTimeOffset ToDateTimeOffset(object value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600185B")]
-	[Address(RVA = "0x4741F70", Offset = "0x4741F70", VA = "0x4741F70", Slot = "22")]
+	[Address(RVA = "0x2672FB0", Offset = "0x26715B0", VA = "0x182672FB0", Slot = "22")]
 	public override decimal ToDecimal(string value)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
 	[Token(Token = "0x600185C")]
-	[Address(RVA = "0x4742030", Offset = "0x4742030", VA = "0x4742030", Slot = "23")]
+	[Address(RVA = "0x2672ED0", Offset = "0x26714D0", VA = "0x182672ED0", Slot = "23")]
 	public override decimal ToDecimal(object value)
 	{
-		return default(decimal);
+		return 0m;
 	}
 
 	[Token(Token = "0x600185D")]
-	[Address(RVA = "0x47420F0", Offset = "0x47420F0", VA = "0x47420F0", Slot = "24")]
+	[Address(RVA = "0x2673230", Offset = "0x2671830", VA = "0x182673230", Slot = "24")]
 	public override double ToDouble(bool value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600185E")]
-	[Address(RVA = "0x47421C0", Offset = "0x47421C0", VA = "0x47421C0", Slot = "27")]
+	[Address(RVA = "0x2673150", Offset = "0x2671750", VA = "0x182673150", Slot = "27")]
 	public override double ToDouble(DateTime value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x600185F")]
-	[Address(RVA = "0x47422A0", Offset = "0x47422A0", VA = "0x47422A0", Slot = "25")]
+	[Address(RVA = "0x26733C0", Offset = "0x26719C0", VA = "0x1826733C0", Slot = "25")]
 	public override double ToDouble(int value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001860")]
-	[Address(RVA = "0x4742370", Offset = "0x4742370", VA = "0x4742370", Slot = "26")]
+	[Address(RVA = "0x2673490", Offset = "0x2671A90", VA = "0x182673490", Slot = "26")]
 	public override double ToDouble(long value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001861")]
-	[Address(RVA = "0x4742440", Offset = "0x4742440", VA = "0x4742440", Slot = "28")]
+	[Address(RVA = "0x2673300", Offset = "0x2671900", VA = "0x182673300", Slot = "28")]
 	public override double ToDouble(string value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001862")]
-	[Address(RVA = "0x47424F0", Offset = "0x47424F0", VA = "0x47424F0", Slot = "29")]
+	[Address(RVA = "0x2673090", Offset = "0x2671690", VA = "0x182673090", Slot = "29")]
 	public override double ToDouble(object value)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6001863")]
-	[Address(RVA = "0x47425A0", Offset = "0x47425A0", VA = "0x47425A0", Slot = "10")]
+	[Address(RVA = "0x2673980", Offset = "0x2671F80", VA = "0x182673980", Slot = "10")]
 	public override int ToInt32(bool value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001864")]
-	[Address(RVA = "0x4742660", Offset = "0x4742660", VA = "0x4742660", Slot = "13")]
+	[Address(RVA = "0x2673630", Offset = "0x2671C30", VA = "0x182673630", Slot = "13")]
 	public override int ToInt32(DateTime value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001865")]
-	[Address(RVA = "0x4742730", Offset = "0x4742730", VA = "0x4742730", Slot = "12")]
+	[Address(RVA = "0x26738A0", Offset = "0x2671EA0", VA = "0x1826738A0", Slot = "12")]
 	public override int ToInt32(double value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001866")]
-	[Address(RVA = "0x4742800", Offset = "0x4742800", VA = "0x4742800", Slot = "11")]
+	[Address(RVA = "0x26737D0", Offset = "0x2671DD0", VA = "0x1826737D0", Slot = "11")]
 	public override int ToInt32(long value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001867")]
-	[Address(RVA = "0x47428C0", Offset = "0x47428C0", VA = "0x47428C0", Slot = "14")]
+	[Address(RVA = "0x2673570", Offset = "0x2671B70", VA = "0x182673570", Slot = "14")]
 	public override int ToInt32(string value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001868")]
-	[Address(RVA = "0x4742960", Offset = "0x4742960", VA = "0x4742960", Slot = "15")]
+	[Address(RVA = "0x2673710", Offset = "0x2671D10", VA = "0x182673710", Slot = "15")]
 	public override int ToInt32(object value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6001869")]
-	[Address(RVA = "0x4742A00", Offset = "0x4742A00", VA = "0x4742A00", Slot = "16")]
+	[Address(RVA = "0x2673E60", Offset = "0x2672460", VA = "0x182673E60", Slot = "16")]
 	public override long ToInt64(bool value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186A")]
-	[Address(RVA = "0x4742AC0", Offset = "0x4742AC0", VA = "0x4742AC0", Slot = "19")]
+	[Address(RVA = "0x2673B20", Offset = "0x2672120", VA = "0x182673B20", Slot = "19")]
 	public override long ToInt64(DateTime value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186B")]
-	[Address(RVA = "0x4742B90", Offset = "0x4742B90", VA = "0x4742B90", Slot = "18")]
+	[Address(RVA = "0x2673CC0", Offset = "0x26722C0", VA = "0x182673CC0", Slot = "18")]
 	public override long ToInt64(double value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186C")]
-	[Address(RVA = "0x4742C70", Offset = "0x4742C70", VA = "0x4742C70", Slot = "17")]
+	[Address(RVA = "0x2673A50", Offset = "0x2672050", VA = "0x182673A50", Slot = "17")]
 	public override long ToInt64(int value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186D")]
-	[Address(RVA = "0x4742D30", Offset = "0x4742D30", VA = "0x4742D30", Slot = "20")]
+	[Address(RVA = "0x2673C00", Offset = "0x2672200", VA = "0x182673C00", Slot = "20")]
 	public override long ToInt64(string value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186E")]
-	[Address(RVA = "0x4742DD0", Offset = "0x4742DD0", VA = "0x4742DD0", Slot = "21")]
+	[Address(RVA = "0x2673DA0", Offset = "0x26723A0", VA = "0x182673DA0", Slot = "21")]
 	public override long ToInt64(object value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x600186F")]
-	[Address(RVA = "0x4742E70", Offset = "0x4742E70", VA = "0x4742E70", Slot = "30")]
+	[Address(RVA = "0x2673FF0", Offset = "0x26725F0", VA = "0x182673FF0", Slot = "30")]
 	public override float ToSingle(double value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6001870")]
-	[Address(RVA = "0x4742F50", Offset = "0x4742F50", VA = "0x4742F50", Slot = "31")]
+	[Address(RVA = "0x2673F30", Offset = "0x2672530", VA = "0x182673F30", Slot = "31")]
 	public override float ToSingle(string value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6001871")]
-	[Address(RVA = "0x4743000", Offset = "0x4743000", VA = "0x4743000", Slot = "32")]
+	[Address(RVA = "0x26740D0", Offset = "0x26726D0", VA = "0x1826740D0", Slot = "32")]
 	public override float ToSingle(object value)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6001872")]
-	[Address(RVA = "0x47430B0", Offset = "0x47430B0", VA = "0x47430B0", Slot = "43")]
+	[Address(RVA = "0x2674800", Offset = "0x2672E00", VA = "0x182674800", Slot = "43")]
 	public override string ToString(bool value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001873")]
-	[Address(RVA = "0x4743160", Offset = "0x4743160", VA = "0x4743160", Slot = "49")]
+	[Address(RVA = "0x26744B0", Offset = "0x2672AB0", VA = "0x1826744B0", Slot = "49")]
 	public override string ToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001874")]
-	[Address(RVA = "0x4743220", Offset = "0x4743220", VA = "0x4743220", Slot = "50")]
+	[Address(RVA = "0x2674250", Offset = "0x2672850", VA = "0x182674250", Slot = "50")]
 	public override string ToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001875")]
-	[Address(RVA = "0x4743300", Offset = "0x4743300", VA = "0x4743300", Slot = "46")]
+	[Address(RVA = "0x26743E0", Offset = "0x26729E0", VA = "0x1826743E0", Slot = "46")]
 	public override string ToString(decimal value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001876")]
-	[Address(RVA = "0x47433C0", Offset = "0x47433C0", VA = "0x47433C0", Slot = "48")]
+	[Address(RVA = "0x2674580", Offset = "0x2672B80", VA = "0x182674580", Slot = "48")]
 	public override string ToString(double value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001877")]
-	[Address(RVA = "0x4743480", Offset = "0x4743480", VA = "0x4743480", Slot = "44")]
+	[Address(RVA = "0x2674190", Offset = "0x2672790", VA = "0x182674190", Slot = "44")]
 	public override string ToString(int value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001878")]
-	[Address(RVA = "0x4743530", Offset = "0x4743530", VA = "0x4743530", Slot = "45")]
+	[Address(RVA = "0x2674720", Offset = "0x2672D20", VA = "0x182674720", Slot = "45")]
 	public override string ToString(long value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001879")]
-	[Address(RVA = "0x47435E0", Offset = "0x47435E0", VA = "0x47435E0", Slot = "47")]
+	[Address(RVA = "0x2674650", Offset = "0x2672C50", VA = "0x182674650", Slot = "47")]
 	public override string ToString(float value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187A")]
-	[Address(RVA = "0x47436A0", Offset = "0x47436A0", VA = "0x47436A0", Slot = "52")]
+	[Address(RVA = "0x2674320", Offset = "0x2672920", VA = "0x182674320", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187B")]
-	[Address(RVA = "0x4743740", Offset = "0x4743740", VA = "0x4743740", Slot = "51")]
+	[Address(RVA = "0x26747E0", Offset = "0x2672DE0", VA = "0x1826747E0", Slot = "51")]
 	public override string ToString(object value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187C")]
-	[Address(RVA = "0x4743760", Offset = "0x4743760", VA = "0x4743760", Slot = "53")]
+	[Address(RVA = "0x266F560", Offset = "0x266DB60", VA = "0x18266F560", Slot = "53")]
 	public override object ChangeType(bool value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187D")]
-	[Address(RVA = "0x47437B0", Offset = "0x47437B0", VA = "0x47437B0", Slot = "58")]
+	[Address(RVA = "0x266F680", Offset = "0x266DC80", VA = "0x18266F680", Slot = "58")]
 	public override object ChangeType(DateTime value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187E")]
-	[Address(RVA = "0x4743820", Offset = "0x4743820", VA = "0x4743820", Slot = "56")]
+	[Address(RVA = "0x266F480", Offset = "0x266DA80", VA = "0x18266F480", Slot = "56")]
 	public override object ChangeType(decimal value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600187F")]
-	[Address(RVA = "0x47438A0", Offset = "0x47438A0", VA = "0x47438A0", Slot = "57")]
+	[Address(RVA = "0x266F620", Offset = "0x266DC20", VA = "0x18266F620", Slot = "57")]
 	public override object ChangeType(double value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001880")]
-	[Address(RVA = "0x4743900", Offset = "0x4743900", VA = "0x4743900", Slot = "54")]
+	[Address(RVA = "0x266F500", Offset = "0x266DB00", VA = "0x18266F500", Slot = "54")]
 	public override object ChangeType(int value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001881")]
-	[Address(RVA = "0x4743950", Offset = "0x4743950", VA = "0x4743950", Slot = "55")]
+	[Address(RVA = "0x266F5C0", Offset = "0x266DBC0", VA = "0x18266F5C0", Slot = "55")]
 	public override object ChangeType(long value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001882")]
-	[Address(RVA = "0x47439A0", Offset = "0x47439A0", VA = "0x47439A0", Slot = "59")]
+	[Address(RVA = "0x266F460", Offset = "0x266DA60", VA = "0x18266F460", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001883")]
-	[Address(RVA = "0x47439C0", Offset = "0x47439C0", VA = "0x47439C0", Slot = "60")]
+	[Address(RVA = "0x266F430", Offset = "0x266DA30", VA = "0x18266F430", Slot = "60")]
 	public override object ChangeType(object value, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001888")]
-	[Address(RVA = "0x4743C00", Offset = "0x4743C00", VA = "0x4743C00")]
+	[Address(RVA = "0x2670E70", Offset = "0x266F470", VA = "0x182670E70")]
 	protected static bool IsDerivedFrom(Type derivedType, Type baseType)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001889")]
-	[Address(RVA = "0x4743CC0", Offset = "0x4743CC0", VA = "0x4743CC0")]
+	[Address(RVA = "0x266F700", Offset = "0x266DD00", VA = "0x18266F700")]
 	protected Exception CreateInvalidClrMappingException(Type sourceType, Type destinationType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600188A")]
-	[Address(RVA = "0x4743AE0", Offset = "0x4743AE0", VA = "0x4743AE0")]
+	[Address(RVA = "0x2670F10", Offset = "0x266F510", VA = "0x182670F10")]
 	protected static string QNameToString(XmlQualifiedName name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600188B")]
-	[Address(RVA = "0x4743F70", Offset = "0x4743F70", VA = "0x4743F70", Slot = "62")]
+	[Address(RVA = "0x266F3D0", Offset = "0x266D9D0", VA = "0x18266F3D0", Slot = "62")]
 	protected virtual object ChangeListType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600188C")]
-	[Address(RVA = "0x4743FC0", Offset = "0x4743FC0", VA = "0x4743FC0")]
+	[Address(RVA = "0x2671210", Offset = "0x266F810", VA = "0x182671210")]
 	protected static byte[] StringToBase64Binary(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600188D")]
-	[Address(RVA = "0x4744040", Offset = "0x4744040", VA = "0x4744040")]
+	[Address(RVA = "0x2671430", Offset = "0x266FA30", VA = "0x182671430")]
 	protected static DateTime StringToDate(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600188E")]
-	[Address(RVA = "0x47440B0", Offset = "0x47440B0", VA = "0x47440B0")]
+	[Address(RVA = "0x26713B0", Offset = "0x266F9B0", VA = "0x1826713B0")]
 	protected static DateTime StringToDateTime(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x600188F")]
-	[Address(RVA = "0x4744120", Offset = "0x4744120", VA = "0x4744120")]
+	[Address(RVA = "0x26714B0", Offset = "0x266FAB0", VA = "0x1826714B0")]
 	protected static TimeSpan StringToDayTimeDuration(string value)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001890")]
-	[Address(RVA = "0x4744180", Offset = "0x4744180", VA = "0x4744180")]
+	[Address(RVA = "0x2671520", Offset = "0x266FB20", VA = "0x182671520")]
 	protected static TimeSpan StringToDuration(string value)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x6001891")]
-	[Address(RVA = "0x47441D0", Offset = "0x47441D0", VA = "0x47441D0")]
+	[Address(RVA = "0x2671610", Offset = "0x266FC10", VA = "0x182671610")]
 	protected static DateTime StringToGDay(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001892")]
-	[Address(RVA = "0x4744240", Offset = "0x4744240", VA = "0x4744240")]
+	[Address(RVA = "0x2671830", Offset = "0x266FE30", VA = "0x182671830")]
 	protected static DateTime StringToGMonth(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001893")]
-	[Address(RVA = "0x47442B0", Offset = "0x47442B0", VA = "0x47442B0")]
+	[Address(RVA = "0x2671720", Offset = "0x266FD20", VA = "0x182671720")]
 	protected static DateTime StringToGMonthDay(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001894")]
-	[Address(RVA = "0x4744320", Offset = "0x4744320", VA = "0x4744320")]
+	[Address(RVA = "0x2671A50", Offset = "0x2670050", VA = "0x182671A50")]
 	protected static DateTime StringToGYear(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001895")]
-	[Address(RVA = "0x4744390", Offset = "0x4744390", VA = "0x4744390")]
+	[Address(RVA = "0x2671940", Offset = "0x266FF40", VA = "0x182671940")]
 	protected static DateTime StringToGYearMonth(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001896")]
-	[Address(RVA = "0x4744400", Offset = "0x4744400", VA = "0x4744400")]
+	[Address(RVA = "0x2671290", Offset = "0x266F890", VA = "0x182671290")]
 	protected static DateTimeOffset StringToDateOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6001897")]
-	[Address(RVA = "0x4744470", Offset = "0x4744470", VA = "0x4744470")]
+	[Address(RVA = "0x2671320", Offset = "0x266F920", VA = "0x182671320")]
 	protected static DateTimeOffset StringToDateTimeOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6001898")]
-	[Address(RVA = "0x47444E0", Offset = "0x47444E0", VA = "0x47444E0")]
+	[Address(RVA = "0x2671580", Offset = "0x266FB80", VA = "0x182671580")]
 	protected static DateTimeOffset StringToGDayOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6001899")]
-	[Address(RVA = "0x4744550", Offset = "0x4744550", VA = "0x4744550")]
+	[Address(RVA = "0x26717A0", Offset = "0x266FDA0", VA = "0x1826717A0")]
 	protected static DateTimeOffset StringToGMonthOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600189A")]
-	[Address(RVA = "0x47445C0", Offset = "0x47445C0", VA = "0x47445C0")]
+	[Address(RVA = "0x2671690", Offset = "0x266FC90", VA = "0x182671690")]
 	protected static DateTimeOffset StringToGMonthDayOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600189B")]
-	[Address(RVA = "0x4744630", Offset = "0x4744630", VA = "0x4744630")]
+	[Address(RVA = "0x26719C0", Offset = "0x266FFC0", VA = "0x1826719C0")]
 	protected static DateTimeOffset StringToGYearOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600189C")]
-	[Address(RVA = "0x47446A0", Offset = "0x47446A0", VA = "0x47446A0")]
+	[Address(RVA = "0x26718B0", Offset = "0x266FEB0", VA = "0x1826718B0")]
 	protected static DateTimeOffset StringToGYearMonthOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x600189D")]
-	[Address(RVA = "0x4744710", Offset = "0x4744710", VA = "0x4744710")]
+	[Address(RVA = "0x2671AD0", Offset = "0x26700D0", VA = "0x182671AD0")]
 	protected static byte[] StringToHexBinary(string value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600189E")]
-	[Address(RVA = "0x4744860", Offset = "0x4744860", VA = "0x4744860")]
+	[Address(RVA = "0x2671BA0", Offset = "0x26701A0", VA = "0x182671BA0")]
 	protected static XmlQualifiedName StringToQName(string value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600189F")]
-	[Address(RVA = "0x4744B30", Offset = "0x4744B30", VA = "0x4744B30")]
+	[Address(RVA = "0x2671F10", Offset = "0x2670510", VA = "0x182671F10")]
 	protected static DateTime StringToTime(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018A0")]
-	[Address(RVA = "0x4744BA0", Offset = "0x4744BA0", VA = "0x4744BA0")]
+	[Address(RVA = "0x2671E80", Offset = "0x2670480", VA = "0x182671E80")]
 	protected static DateTimeOffset StringToTimeOffset(string value)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x60018A1")]
-	[Address(RVA = "0x4744C10", Offset = "0x4744C10", VA = "0x4744C10")]
+	[Address(RVA = "0x2671F90", Offset = "0x2670590", VA = "0x182671F90")]
 	protected static TimeSpan StringToYearMonthDuration(string value)
 	{
 		return default(TimeSpan);
 	}
 
 	[Token(Token = "0x60018A2")]
-	[Address(RVA = "0x4744C70", Offset = "0x4744C70", VA = "0x4744C70")]
+	[Address(RVA = "0x266F360", Offset = "0x266D960", VA = "0x18266F360")]
 	protected static string AnyUriToString(Uri value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A3")]
-	[Address(RVA = "0x4744C90", Offset = "0x4744C90", VA = "0x4744C90")]
+	[Address(RVA = "0x266F380", Offset = "0x266D980", VA = "0x18266F380")]
 	protected static string Base64BinaryToString(byte[] value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A4")]
-	[Address(RVA = "0x4744D00", Offset = "0x4744D00", VA = "0x4744D00")]
+	[Address(RVA = "0x266FBF0", Offset = "0x266E1F0", VA = "0x18266FBF0")]
 	protected static string DateToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A5")]
-	[Address(RVA = "0x4744D80", Offset = "0x4744D80", VA = "0x4744D80")]
+	[Address(RVA = "0x266FB70", Offset = "0x266E170", VA = "0x18266FB70")]
 	protected static string DateTimeToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A6")]
-	[Address(RVA = "0x4744E00", Offset = "0x4744E00", VA = "0x4744E00")]
+	[Address(RVA = "0x266FC70", Offset = "0x266E270", VA = "0x18266FC70")]
 	protected static string DayTimeDurationToString(TimeSpan value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A7")]
-	[Address(RVA = "0x4744E60", Offset = "0x4744E60", VA = "0x4744E60")]
+	[Address(RVA = "0x26702C0", Offset = "0x266E8C0", VA = "0x1826702C0")]
 	protected static string DurationToString(TimeSpan value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A8")]
-	[Address(RVA = "0x4744EB0", Offset = "0x4744EB0", VA = "0x4744EB0")]
+	[Address(RVA = "0x26703B0", Offset = "0x266E9B0", VA = "0x1826703B0")]
 	protected static string GDayToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018A9")]
-	[Address(RVA = "0x4744F30", Offset = "0x4744F30", VA = "0x4744F30")]
+	[Address(RVA = "0x26705D0", Offset = "0x266EBD0", VA = "0x1826705D0")]
 	protected static string GMonthToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AA")]
-	[Address(RVA = "0x4744FB0", Offset = "0x4744FB0", VA = "0x4744FB0")]
+	[Address(RVA = "0x26704C0", Offset = "0x266EAC0", VA = "0x1826704C0")]
 	protected static string GMonthDayToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AB")]
-	[Address(RVA = "0x4745030", Offset = "0x4745030", VA = "0x4745030")]
+	[Address(RVA = "0x26707F0", Offset = "0x266EDF0", VA = "0x1826707F0")]
 	protected static string GYearToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AC")]
-	[Address(RVA = "0x47450B0", Offset = "0x47450B0", VA = "0x47450B0")]
+	[Address(RVA = "0x26706E0", Offset = "0x266ECE0", VA = "0x1826706E0")]
 	protected static string GYearMonthToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AD")]
-	[Address(RVA = "0x4745130", Offset = "0x4745130", VA = "0x4745130")]
+	[Address(RVA = "0x266FA00", Offset = "0x266E000", VA = "0x18266FA00")]
 	protected static string DateOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AE")]
-	[Address(RVA = "0x47451B0", Offset = "0x47451B0", VA = "0x47451B0")]
+	[Address(RVA = "0x266FAE0", Offset = "0x266E0E0", VA = "0x18266FAE0")]
 	protected static string DateTimeOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018AF")]
-	[Address(RVA = "0x4745230", Offset = "0x4745230", VA = "0x4745230")]
+	[Address(RVA = "0x2670320", Offset = "0x266E920", VA = "0x182670320")]
 	protected static string GDayOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B0")]
-	[Address(RVA = "0x47452B0", Offset = "0x47452B0", VA = "0x47452B0")]
+	[Address(RVA = "0x2670540", Offset = "0x266EB40", VA = "0x182670540")]
 	protected static string GMonthOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B1")]
-	[Address(RVA = "0x4745330", Offset = "0x4745330", VA = "0x4745330")]
+	[Address(RVA = "0x2670430", Offset = "0x266EA30", VA = "0x182670430")]
 	protected static string GMonthDayOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B2")]
-	[Address(RVA = "0x47453B0", Offset = "0x47453B0", VA = "0x47453B0")]
+	[Address(RVA = "0x2670760", Offset = "0x266ED60", VA = "0x182670760")]
 	protected static string GYearOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B3")]
-	[Address(RVA = "0x4745430", Offset = "0x4745430", VA = "0x4745430")]
+	[Address(RVA = "0x2670650", Offset = "0x266EC50", VA = "0x182670650")]
 	protected static string GYearMonthOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B4")]
-	[Address(RVA = "0x47454B0", Offset = "0x47454B0", VA = "0x47454B0")]
+	[Address(RVA = "0x2671030", Offset = "0x266F630", VA = "0x182671030")]
 	protected static string QNameToString(XmlQualifiedName qname, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B5")]
-	[Address(RVA = "0x47456D0", Offset = "0x47456D0", VA = "0x47456D0")]
+	[Address(RVA = "0x2672090", Offset = "0x2670690", VA = "0x182672090")]
 	protected static string TimeToString(DateTime value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B6")]
-	[Address(RVA = "0x4745750", Offset = "0x4745750", VA = "0x4745750")]
+	[Address(RVA = "0x2672000", Offset = "0x2670600", VA = "0x182672000")]
 	protected static string TimeOffsetToString(DateTimeOffset value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B7")]
-	[Address(RVA = "0x47457D0", Offset = "0x47457D0", VA = "0x47457D0")]
+	[Address(RVA = "0x26749D0", Offset = "0x2672FD0", VA = "0x1826749D0")]
 	protected static string YearMonthDurationToString(TimeSpan value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60018B8")]
-	[Address(RVA = "0x4745830", Offset = "0x4745830", VA = "0x4745830")]
+	[Address(RVA = "0x266FA90", Offset = "0x266E090", VA = "0x18266FA90")]
 	internal static DateTime DateTimeOffsetToDateTime(DateTimeOffset value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018B9")]
-	[Address(RVA = "0x4745890", Offset = "0x4745890", VA = "0x4745890")]
+	[Address(RVA = "0x266FCE0", Offset = "0x266E2E0", VA = "0x18266FCE0")]
 	internal static int DecimalToInt32(decimal value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60018BA")]
-	[Address(RVA = "0x4745A40", Offset = "0x4745A40", VA = "0x4745A40")]
+	[Address(RVA = "0x266FED0", Offset = "0x266E4D0", VA = "0x18266FED0")]
 	protected static long DecimalToInt64(decimal value)
 	{
 		return default(long);
 	}
 
 	[Token(Token = "0x60018BB")]
-	[Address(RVA = "0x4745C00", Offset = "0x4745C00", VA = "0x4745C00")]
+	[Address(RVA = "0x26700D0", Offset = "0x266E6D0", VA = "0x1826700D0")]
 	protected static ulong DecimalToUInt64(decimal value)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x60018BC")]
-	[Address(RVA = "0x4745DB0", Offset = "0x4745DB0", VA = "0x4745DB0")]
+	[Address(RVA = "0x2670870", Offset = "0x266EE70", VA = "0x182670870")]
 	protected static byte Int32ToByte(int value)
 	{
 		return default(byte);
 	}
 
 	[Token(Token = "0x60018BD")]
-	[Address(RVA = "0x4745EA0", Offset = "0x4745EA0", VA = "0x4745EA0")]
+	[Address(RVA = "0x2670970", Offset = "0x266EF70", VA = "0x182670970")]
 	protected static short Int32ToInt16(int value)
 	{
 		return default(short);
 	}
 
 	[Token(Token = "0x60018BE")]
-	[Address(RVA = "0x4745F90", Offset = "0x4745F90", VA = "0x4745F90")]
+	[Address(RVA = "0x2670A70", Offset = "0x266F070", VA = "0x182670A70")]
 	protected static sbyte Int32ToSByte(int value)
 	{
 		return default(sbyte);
 	}
 
 	[Token(Token = "0x60018BF")]
-	[Address(RVA = "0x4746080", Offset = "0x4746080", VA = "0x4746080")]
+	[Address(RVA = "0x2670B70", Offset = "0x266F170", VA = "0x182670B70")]
 	protected static ushort Int32ToUInt16(int value)
 	{
 		return default(ushort);
 	}
 
 	[Token(Token = "0x60018C0")]
-	[Address(RVA = "0x4746170", Offset = "0x4746170", VA = "0x4746170")]
+	[Address(RVA = "0x2670C70", Offset = "0x266F270", VA = "0x182670C70")]
 	protected static int Int64ToInt32(long value)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60018C1")]
-	[Address(RVA = "0x4746260", Offset = "0x4746260", VA = "0x4746260")]
+	[Address(RVA = "0x2670D70", Offset = "0x266F370", VA = "0x182670D70")]
 	protected static uint Int64ToUInt32(long value)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x60018C2")]
-	[Address(RVA = "0x4746350", Offset = "0x4746350", VA = "0x4746350")]
+	[Address(RVA = "0x2674950", Offset = "0x2672F50", VA = "0x182674950")]
 	protected static DateTime UntypedAtomicToDateTime(string value)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x60018C3")]
-	[Address(RVA = "0x47463C0", Offset = "0x47463C0", VA = "0x47463C0")]
+	[Address(RVA = "0x26748C0", Offset = "0x2672EC0", VA = "0x1826748C0")]
 	protected static DateTimeOffset UntypedAtomicToDateTimeOffset(string value)
 	{
 		return default(DateTimeOffset);

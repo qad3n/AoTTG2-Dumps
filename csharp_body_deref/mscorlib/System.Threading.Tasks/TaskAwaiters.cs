@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000230")]
+[Token(Token = "0x2000261")]
 internal static class TaskAwaiters
 {
-	[Token(Token = "0x60013B4")]
-	[Address(RVA = "0x3D3FCB0", Offset = "0x3D3FCB0", VA = "0x3D3FCB0")]
+	[Token(Token = "0x6001425")]
+	[Address(RVA = "0x1BB49C0", Offset = "0x1BB2FC0", VA = "0x181BB49C0")]
 	public static System.Threading.Tasks.ForceAsyncAwaiter ForceAsync(this Task task)
 	{
 		return default(System.Threading.Tasks.ForceAsyncAwaiter);

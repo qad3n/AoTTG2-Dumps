@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001E9")]
+[Token(Token = "0x2000233")]
 [EventCategory(EventCategory.EnterLeave)]
 public sealed class PointerOverEvent : PointerEventBase<PointerOverEvent>
 {
-	[Token(Token = "0x6000C9F")]
-	[Address(RVA = "0x503B5E0", Offset = "0x503B5E0", VA = "0x503B5E0")]
+	[Token(Token = "0x6000EE3")]
+	[Address(RVA = "0x326D220", Offset = "0x326B820", VA = "0x18326D220")]
 	static PointerOverEvent()
 	{
 	}
 
-	[Token(Token = "0x6000CA0")]
-	[Address(RVA = "0x503B6B0", Offset = "0x503B6B0", VA = "0x503B6B0", Slot = "10")]
+	[Token(Token = "0x6000EE4")]
+	[Address(RVA = "0x31ED1B0", Offset = "0x31EB7B0", VA = "0x1831ED1B0", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}
 
-	[Token(Token = "0x6000CA1")]
-	[Address(RVA = "0x503B6C0", Offset = "0x503B6C0", VA = "0x503B6C0")]
+	[Token(Token = "0x6000EE5")]
+	[Address(RVA = "0x326D300", Offset = "0x326B900", VA = "0x18326D300")]
 	public PointerOverEvent()
 	{
 	}

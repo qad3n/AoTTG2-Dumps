@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000647")]
+[Token(Token = "0x200061B")]
 public interface IDictionary<TKey, TValue> : ICollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable
 {
-	[Token(Token = "0x1700081C")]
+	[Token(Token = "0x170007AB")]
 	TValue this[TKey key]
 	{
-		[Token(Token = "0x60031F9")]
+		[Token(Token = "0x6002F0E")]
 		get;
-		[Token(Token = "0x60031FA")]
+		[Token(Token = "0x6002F0F")]
 		set;
 	}
 
-	[Token(Token = "0x1700081D")]
+	[Token(Token = "0x170007AC")]
 	ICollection<TKey> Keys
 	{
-		[Token(Token = "0x60031FB")]
+		[Token(Token = "0x6002F10")]
 		get;
 	}
 
-	[Token(Token = "0x1700081E")]
+	[Token(Token = "0x170007AD")]
 	ICollection<TValue> Values
 	{
-		[Token(Token = "0x60031FC")]
+		[Token(Token = "0x6002F11")]
 		get;
 	}
 
-	[Token(Token = "0x60031FD")]
+	[Token(Token = "0x6002F12")]
 	bool ContainsKey(TKey key);
 
-	[Token(Token = "0x60031FE")]
+	[Token(Token = "0x6002F13")]
 	void Add(TKey key, TValue value);
 
-	[Token(Token = "0x60031FF")]
+	[Token(Token = "0x6002F14")]
 	bool Remove(TKey key);
 
-	[Token(Token = "0x6003200")]
+	[Token(Token = "0x6002F15")]
 	bool TryGetValue(TKey key, out TValue value);
 }

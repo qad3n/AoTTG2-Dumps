@@ -31,13 +31,13 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	public string Value
 	{
 		[Token(Token = "0x6001658")]
-		[Address(RVA = "0x4724B10", Offset = "0x4724B10", VA = "0x4724B10")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001659")]
-		[Address(RVA = "0x4724B20", Offset = "0x4724B20", VA = "0x4724B20")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		set
 		{
 		}
@@ -49,13 +49,13 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	public virtual bool IsFixed
 	{
 		[Token(Token = "0x600165A")]
-		[Address(RVA = "0x4724B30", Offset = "0x4724B30", VA = "0x4724B30", Slot = "14")]
+		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790", Slot = "14")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600165B")]
-		[Address(RVA = "0x4724B40", Offset = "0x4724B40", VA = "0x4724B40", Slot = "15")]
+		[Address(RVA = "0x266C210", Offset = "0x266A810", VA = "0x18266C210", Slot = "15")]
 		set
 		{
 		}
@@ -65,20 +65,20 @@ public abstract class XmlSchemaFacet : XmlSchemaAnnotated
 	internal FacetType FacetType
 	{
 		[Token(Token = "0x600165C")]
-		[Address(RVA = "0x4724BE0", Offset = "0x4724BE0", VA = "0x4724BE0")]
+		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
 		get
 		{
 			return default(FacetType);
 		}
 		[Token(Token = "0x600165D")]
-		[Address(RVA = "0x4724BF0", Offset = "0x4724BF0", VA = "0x4724BF0")]
+		[Address(RVA = "0x1CFDDD0", Offset = "0x1CFC3D0", VA = "0x181CFDDD0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600165E")]
-	[Address(RVA = "0x4724C00", Offset = "0x4724C00", VA = "0x4724C00")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSchemaFacet()
 	{
 	}

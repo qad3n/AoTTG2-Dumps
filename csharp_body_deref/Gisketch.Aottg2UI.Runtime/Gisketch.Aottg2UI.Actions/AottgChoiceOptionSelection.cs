@@ -11,43 +11,43 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000C4")]
 public sealed class AottgChoiceOptionSelection : MonoBehaviour, IPointerEnterHandler, IEventSystemHandler, IPointerMoveHandler, ISelectHandler
 {
-	[Token(Token = "0x400034B")]
+	[Token(Token = "0x40003F8")]
 	[FieldOffset(Offset = "0x20")]
 	private AottgChoiceControl _owner;
 
-	[Token(Token = "0x400034C")]
+	[Token(Token = "0x40003F9")]
 	[FieldOffset(Offset = "0x28")]
 	private int _index;
 
-	[Token(Token = "0x60004C2")]
-	[Address(RVA = "0x3A8C6E0", Offset = "0x3A8C6E0", VA = "0x3A8C6E0")]
+	[Token(Token = "0x60005F9")]
+	[Address(RVA = "0x18F7330", Offset = "0x18F5930", VA = "0x1818F7330")]
 	public void Setup(AottgChoiceControl owner, int index)
 	{
 	}
 
-	[Token(Token = "0x60004C3")]
-	[Address(RVA = "0x3A8DAD0", Offset = "0x3A8DAD0", VA = "0x3A8DAD0", Slot = "4")]
+	[Token(Token = "0x60005FA")]
+	[Address(RVA = "0x18F71E0", Offset = "0x18F57E0", VA = "0x1818F71E0", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004C4")]
-	[Address(RVA = "0x3A8DB10", Offset = "0x3A8DB10", VA = "0x3A8DB10", Slot = "5")]
+	[Token(Token = "0x60005FB")]
+	[Address(RVA = "0x18F71E0", Offset = "0x18F57E0", VA = "0x1818F71E0", Slot = "5")]
 	public void OnPointerMove(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004C5")]
-	[Address(RVA = "0x3A8DB50", Offset = "0x3A8DB50", VA = "0x3A8DB50", Slot = "6")]
+	[Token(Token = "0x60005FC")]
+	[Address(RVA = "0x18F7270", Offset = "0x18F5870", VA = "0x1818F7270", Slot = "6")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x60004C6")]
-	[Address(RVA = "0x3A8DB80", Offset = "0x3A8DB80", VA = "0x3A8DB80")]
+	[Token(Token = "0x60005FD")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgChoiceOptionSelection()
 	{
 	}

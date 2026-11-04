@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200016E")]
+[Token(Token = "0x20001A2")]
 [AttributeUsage(AttributeTargets.Enum)]
 public sealed class InspectorOrderAttribute : PropertyAttribute
 {
-	[Token(Token = "0x170001CE")]
+	[Token(Token = "0x1700023C")]
 	internal InspectorSort m_inspectorSort
 	{
-		[Token(Token = "0x6000A7D")]
-		[Address(RVA = "0x4DFC6C0", Offset = "0x4DFC6C0", VA = "0x4DFC6C0")]
+		[Token(Token = "0x6000DD1")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,11 +27,11 @@ public sealed class InspectorOrderAttribute : PropertyAttribute
 		}
 	}
 
-	[Token(Token = "0x170001CF")]
+	[Token(Token = "0x1700023D")]
 	internal InspectorSortDirection m_sortDirection
 	{
-		[Token(Token = "0x6000A7E")]
-		[Address(RVA = "0x4DFC6D0", Offset = "0x4DFC6D0", VA = "0x4DFC6D0")]
+		[Token(Token = "0x6000DD2")]
+		[Address(RVA = "0xD23EC0", Offset = "0xD224C0", VA = "0x180D23EC0")]
 		[CompilerGenerated]
 		get
 		{

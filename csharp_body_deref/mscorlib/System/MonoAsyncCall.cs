@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace System;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000191")]
+[Token(Token = "0x20001BC")]
 internal class MonoAsyncCall
 {
-	[Token(Token = "0x40006AA")]
+	[Token(Token = "0x400070E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private object msg;
 
-	[Token(Token = "0x40006AB")]
+	[Token(Token = "0x400070F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private IntPtr cb_method;
 
-	[Token(Token = "0x40006AC")]
+	[Token(Token = "0x4000710")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private object cb_target;
 
-	[Token(Token = "0x40006AD")]
+	[Token(Token = "0x4000711")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private object state;
 
-	[Token(Token = "0x40006AE")]
+	[Token(Token = "0x4000712")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private object res;
 
-	[Token(Token = "0x40006AF")]
+	[Token(Token = "0x4000713")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private object out_args;
 
-	[Token(Token = "0x6000FB1")]
-	[Address(RVA = "0x3D0CC70", Offset = "0x3D0CC70", VA = "0x3D0CC70")]
+	[Token(Token = "0x6001008")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public MonoAsyncCall()
 	{
 	}

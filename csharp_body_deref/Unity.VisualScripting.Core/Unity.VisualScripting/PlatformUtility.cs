@@ -13,32 +13,32 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000D0")]
 public static class PlatformUtility
 {
-	[Token(Token = "0x400013A")]
+	[Token(Token = "0x4000138")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly bool supportsJit;
 
-	[Token(Token = "0x6000500")]
-	[Address(RVA = "0x4CB9CB0", Offset = "0x4CB9CB0", VA = "0x4CB9CB0")]
+	[Token(Token = "0x600050A")]
+	[Address(RVA = "0x2DB8B40", Offset = "0x2DB7140", VA = "0x182DB8B40")]
 	static PlatformUtility()
 	{
 	}
 
-	[Token(Token = "0x6000501")]
-	[Address(RVA = "0x4CB9CF0", Offset = "0x4CB9CF0", VA = "0x4CB9CF0")]
+	[Token(Token = "0x600050B")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 	private static bool CheckJitSupport()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000502")]
-	[Address(RVA = "0x4CB9D00", Offset = "0x4CB9D00", VA = "0x4CB9D00")]
+	[Token(Token = "0x600050C")]
+	[Address(RVA = "0x2DB8B00", Offset = "0x2DB7100", VA = "0x182DB8B00")]
 	public static bool IsEditor(this RuntimePlatform platform)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000503")]
-	[Address(RVA = "0x4CB9D20", Offset = "0x4CB9D20", VA = "0x4CB9D20")]
+	[Token(Token = "0x600050D")]
+	[Address(RVA = "0x2DB8B20", Offset = "0x2DB7120", VA = "0x182DB8B20")]
 	public static bool IsStandalone(this RuntimePlatform platform)
 	{
 		return default(bool);

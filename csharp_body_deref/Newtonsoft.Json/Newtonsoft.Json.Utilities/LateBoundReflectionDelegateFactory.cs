@@ -23,7 +23,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	internal static ReflectionDelegateFactory Instance
 	{
 		[Token(Token = "0x600065E")]
-		[Address(RVA = "0x3DBFC30", Offset = "0x3DBFC30", VA = "0x3DBFC30")]
+		[Address(RVA = "0x1C2A5C0", Offset = "0x1C28BC0", VA = "0x181C2A5C0")]
 		get
 		{
 			return null;
@@ -31,7 +31,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	}
 
 	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x3DBFCA0", Offset = "0x3DBFCA0", VA = "0x3DBFCA0", Slot = "5")]
+	[Address(RVA = "0x1C2A3B0", Offset = "0x1C289B0", VA = "0x181C2A3B0", Slot = "5")]
 	public override ObjectConstructor<object> CreateParameterizedConstructor(MethodBase method)
 	{
 		return null;
@@ -74,7 +74,7 @@ internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
 	}
 
 	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x3DBFE20", Offset = "0x3DBFE20", VA = "0x3DBFE20")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public LateBoundReflectionDelegateFactory()
 	{
 	}

@@ -12,40 +12,40 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001A5")]
+[Token(Token = "0x20002AB")]
 internal static class AottgGuildPresetChoicePreview
 {
-	[Token(Token = "0x4000930")]
+	[Token(Token = "0x4000DD7")]
 	private const string Renderer = "profile-character-guild-preset-preview";
 
-	[Token(Token = "0x4000931")]
+	[Token(Token = "0x4000DD8")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Color DarkSurface;
 
-	[Token(Token = "0x4000932")]
+	[Token(Token = "0x4000DD9")]
 	[FieldOffset(Offset = "0x10")]
 	private static bool _registered;
 
-	[Token(Token = "0x60009EC")]
-	[Address(RVA = "0x4419C40", Offset = "0x4419C40", VA = "0x4419C40")]
+	[Token(Token = "0x60010A9")]
+	[Address(RVA = "0x1E128C0", Offset = "0x1E10EC0", VA = "0x181E128C0")]
 	public static void Register()
 	{
 	}
 
-	[Token(Token = "0x60009ED")]
-	[Address(RVA = "0x4416010", Offset = "0x4416010", VA = "0x4416010")]
+	[Token(Token = "0x60010AA")]
+	[Address(RVA = "0x1E12C70", Offset = "0x1E11270", VA = "0x181E12C70")]
 	public static void UseRenderer(GisketchNodeDefinition node)
 	{
 	}
 
-	[Token(Token = "0x60009EE")]
-	[Address(RVA = "0x4419D50", Offset = "0x4419D50", VA = "0x4419D50")]
+	[Token(Token = "0x60010AB")]
+	[Address(RVA = "0x1E129C0", Offset = "0x1E10FC0", VA = "0x181E129C0")]
 	private static void Render(GisketchChoiceOptionRenderContext context)
 	{
 	}
 
-	[Token(Token = "0x60009EF")]
-	[Address(RVA = "0x4419FF0", Offset = "0x4419FF0", VA = "0x4419FF0")]
+	[Token(Token = "0x60010AC")]
+	[Address(RVA = "0x1E12630", Offset = "0x1E10C30", VA = "0x181E12630")]
 	private static void ApplyDarkSurface(GisketchChoiceOptionRenderContext context)
 	{
 	}

@@ -13,80 +13,80 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000B5")]
+[Token(Token = "0x20000D6")]
 public class GisketchController : MonoBehaviour, IGisketchActionHandler
 {
-	[Token(Token = "0x400039D")]
+	[Token(Token = "0x4000456")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly Dictionary<string, Action<GisketchActionContext>> _actions;
 
-	[Token(Token = "0x400039E")]
+	[Token(Token = "0x4000457")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	private GisketchUIRoot _root;
 
-	[Token(Token = "0x17000077")]
+	[Token(Token = "0x170000A9")]
 	protected GisketchUIRoot Root
 	{
-		[Token(Token = "0x6000530")]
-		[Address(RVA = "0x3A93830", Offset = "0x3A93830", VA = "0x3A93830")]
+		[Token(Token = "0x6000682")]
+		[Address(RVA = "0x18FD460", Offset = "0x18FBA60", VA = "0x1818FD460")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000078")]
+	[Token(Token = "0x170000AA")]
 	protected GisketchUIState State
 	{
-		[Token(Token = "0x6000531")]
-		[Address(RVA = "0x3A93890", Offset = "0x3A93890", VA = "0x3A93890")]
+		[Token(Token = "0x6000683")]
+		[Address(RVA = "0x18FD4D0", Offset = "0x18FBAD0", VA = "0x1818FD4D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000532")]
-	[Address(RVA = "0x3A93900", Offset = "0x3A93900", VA = "0x3A93900", Slot = "5")]
+	[Token(Token = "0x6000684")]
+	[Address(RVA = "0x18FD0A0", Offset = "0x18FB6A0", VA = "0x1818FD0A0", Slot = "5")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x6000533")]
-	[Address(RVA = "0x3A93990", Offset = "0x3A93990", VA = "0x3A93990", Slot = "4")]
+	[Token(Token = "0x6000685")]
+	[Address(RVA = "0x18FD160", Offset = "0x18FB760", VA = "0x1818FD160", Slot = "4")]
 	public void HandleAction(string actionId, GisketchActionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x3A93AB0", Offset = "0x3A93AB0", VA = "0x3A93AB0")]
+	[Token(Token = "0x6000686")]
+	[Address(RVA = "0x18FD2B0", Offset = "0x18FB8B0", VA = "0x1818FD2B0")]
 	protected void RegisterAction(string actionId, Action<GisketchActionContext> action)
 	{
 	}
 
-	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x3A93B20", Offset = "0x3A93B20", VA = "0x3A93B20")]
+	[Token(Token = "0x6000687")]
+	[Address(RVA = "0x18FD330", Offset = "0x18FB930", VA = "0x1818FD330")]
 	protected bool TryBeginOperation(string operationKey, string message)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000536")]
-	[Address(RVA = "0x3A93BB0", Offset = "0x3A93BB0", VA = "0x3A93BB0")]
+	[Token(Token = "0x6000688")]
+	[Address(RVA = "0x18FD130", Offset = "0x18FB730", VA = "0x1818FD130")]
 	protected void EndOperation(string operationKey)
 	{
 	}
 
-	[Token(Token = "0x6000537")]
-	[Address(RVA = "0x3A93C40", Offset = "0x3A93C40", VA = "0x3A93C40")]
+	[Token(Token = "0x6000689")]
+	[Address(RVA = "0x18FD280", Offset = "0x18FB880", VA = "0x1818FD280")]
 	protected bool IsOperationActive(string operationKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000538")]
-	[Address(RVA = "0x3A93CD0", Offset = "0x3A93CD0", VA = "0x3A93CD0")]
+	[Token(Token = "0x600068A")]
+	[Address(RVA = "0x18FD370", Offset = "0x18FB970", VA = "0x1818FD370")]
 	public GisketchController()
 	{
 	}

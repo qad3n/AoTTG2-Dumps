@@ -12,41 +12,41 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x2000019")]
 public static class CancellationTokenSourceExtensions
 {
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000051")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Action<object> CancelCancellationTokenSourceStateDelegate;
 
-	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x49D3560", Offset = "0x49D3560", VA = "0x49D3560")]
+	[Token(Token = "0x600009D")]
+	[Address(RVA = "0x290A6A0", Offset = "0x2908CA0", VA = "0x18290A6A0")]
 	private static void CancelCancellationTokenSourceState(object state)
 	{
 	}
 
-	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x49D35D0", Offset = "0x49D35D0", VA = "0x49D35D0")]
+	[Token(Token = "0x600009E")]
+	[Address(RVA = "0x290A590", Offset = "0x2908B90", VA = "0x18290A590")]
 	public static IDisposable CancelAfterSlim(this CancellationTokenSource cts, int millisecondsDelay, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x49D3660", Offset = "0x49D3660", VA = "0x49D3660")]
+	[Token(Token = "0x600009F")]
+	[Address(RVA = "0x290A4E0", Offset = "0x2908AE0", VA = "0x18290A4E0")]
 	public static IDisposable CancelAfterSlim(this CancellationTokenSource cts, TimeSpan delayTimeSpan, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A2")]
-	[Address(RVA = "0x49D3750", Offset = "0x49D3750", VA = "0x49D3750")]
+	[Token(Token = "0x60000A0")]
+	[Address(RVA = "0x290A7F0", Offset = "0x2908DF0", VA = "0x18290A7F0")]
 	public static void RegisterRaiseCancelOnDestroy(this CancellationTokenSource cts, Component component)
 	{
 	}
 
-	[Token(Token = "0x60000A3")]
-	[Address(RVA = "0x49D37C0", Offset = "0x49D37C0", VA = "0x49D37C0")]
+	[Token(Token = "0x60000A1")]
+	[Address(RVA = "0x290A720", Offset = "0x2908D20", VA = "0x18290A720")]
 	public static void RegisterRaiseCancelOnDestroy(this CancellationTokenSource cts, GameObject gameObject)
 	{
 	}

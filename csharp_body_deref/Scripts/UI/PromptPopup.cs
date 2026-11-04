@@ -10,67 +10,67 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000582")]
+[Token(Token = "0x20006F4")]
 internal class PromptPopup : BasePopup
 {
-	[Token(Token = "0x17000ADD")]
+	[Token(Token = "0x17000C34")]
 	protected override float TopBarHeight
 	{
-		[Token(Token = "0x6003946")]
-		[Address(RVA = "0x4250420", Offset = "0x4250420", VA = "0x4250420", Slot = "36")]
+		[Token(Token = "0x6004471")]
+		[Address(RVA = "0x21C6600", Offset = "0x21C4C00", VA = "0x1821C6600", Slot = "36")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000ADE")]
+	[Token(Token = "0x17000C35")]
 	protected override float BottomBarHeight
 	{
-		[Token(Token = "0x6003947")]
-		[Address(RVA = "0x4250430", Offset = "0x4250430", VA = "0x4250430", Slot = "37")]
+		[Token(Token = "0x6004472")]
+		[Address(RVA = "0x21C6600", Offset = "0x21C4C00", VA = "0x1821C6600", Slot = "37")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000ADF")]
+	[Token(Token = "0x17000C36")]
 	protected override int TitleFontSize
 	{
-		[Token(Token = "0x6003948")]
-		[Address(RVA = "0x4250440", Offset = "0x4250440", VA = "0x4250440", Slot = "40")]
+		[Token(Token = "0x6004473")]
+		[Address(RVA = "0x21C6620", Offset = "0x21C4C20", VA = "0x1821C6620", Slot = "40")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000AE0")]
+	[Token(Token = "0x17000C37")]
 	protected override int ButtonFontSize
 	{
-		[Token(Token = "0x6003949")]
-		[Address(RVA = "0x4250450", Offset = "0x4250450", VA = "0x4250450", Slot = "41")]
+		[Token(Token = "0x6004474")]
+		[Address(RVA = "0x21C6610", Offset = "0x21C4C10", VA = "0x1821C6610", Slot = "41")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600394A")]
-	[Address(RVA = "0x4246E40", Offset = "0x4246E40", VA = "0x4246E40", Slot = "20")]
+	[Token(Token = "0x6004475")]
+	[Address(RVA = "0x21C63C0", Offset = "0x21C49C0", VA = "0x1821C63C0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600394B")]
-	[Address(RVA = "0x4250460", Offset = "0x4250460", VA = "0x4250460")]
+	[Token(Token = "0x6004476")]
+	[Address(RVA = "0x21C64F0", Offset = "0x21C4AF0", VA = "0x1821C64F0")]
 	public void Update()
 	{
 	}
 
-	[Token(Token = "0x600394C")]
-	[Address(RVA = "0x424AC10", Offset = "0x424AC10", VA = "0x424AC10")]
+	[Token(Token = "0x6004477")]
+	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
 	public PromptPopup()
 	{
 	}

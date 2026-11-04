@@ -10,37 +10,37 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20005B4")]
+[Token(Token = "0x2000728")]
 internal class PerkButton : Button
 {
-	[Token(Token = "0x4001BF8")]
+	[Token(Token = "0x40023BC")]
 	[FieldOffset(Offset = "0x108")]
 	private string _tooltipMessage;
 
-	[Token(Token = "0x4001BF9")]
+	[Token(Token = "0x40023BD")]
 	[FieldOffset(Offset = "0x110")]
 	private float _offset;
 
-	[Token(Token = "0x6003AFC")]
-	[Address(RVA = "0x426D350", Offset = "0x426D350", VA = "0x426D350")]
+	[Token(Token = "0x600463D")]
+	[Address(RVA = "0x2216C30", Offset = "0x2215230", VA = "0x182216C30")]
 	private new void Awake()
 	{
 	}
 
-	[Token(Token = "0x6003AFD")]
-	[Address(RVA = "0x426D3E0", Offset = "0x426D3E0", VA = "0x426D3E0", Slot = "43")]
+	[Token(Token = "0x600463E")]
+	[Address(RVA = "0x2216E80", Offset = "0x2215480", VA = "0x182216E80", Slot = "43")]
 	public virtual void Setup(string tooltipMessage, ElementStyle style, float offset)
 	{
 	}
 
-	[Token(Token = "0x6003AFE")]
-	[Address(RVA = "0x426D5D0", Offset = "0x426D5D0", VA = "0x426D5D0", Slot = "26")]
+	[Token(Token = "0x600463F")]
+	[Address(RVA = "0x2216CC0", Offset = "0x22152C0", VA = "0x182216CC0", Slot = "26")]
 	protected override void DoStateTransition(SelectionState state, bool instant)
 	{
 	}
 
-	[Token(Token = "0x6003AFF")]
-	[Address(RVA = "0x426D750", Offset = "0x426D750", VA = "0x426D750")]
+	[Token(Token = "0x6004640")]
+	[Address(RVA = "0x18F43B0", Offset = "0x18F29B0", VA = "0x1818F43B0")]
 	public PerkButton()
 	{
 	}

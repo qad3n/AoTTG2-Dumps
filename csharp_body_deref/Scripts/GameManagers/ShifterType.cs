@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x200022E")]
+[Token(Token = "0x2000346")]
 internal class ShifterType
 {
-	[Token(Token = "0x4000BEE")]
+	[Token(Token = "0x40010F5")]
 	public const string Titan = "Titan";
 
-	[Token(Token = "0x4000BEF")]
+	[Token(Token = "0x40010F6")]
 	public const string Annie = "Annie";
 
-	[Token(Token = "0x4000BF0")]
+	[Token(Token = "0x40010F7")]
 	public const string Eren = "Eren";
 
-	[Token(Token = "0x4000BF1")]
+	[Token(Token = "0x40010F8")]
 	public const string Armored = "Armored";
 
-	[Token(Token = "0x4000BF2")]
+	[Token(Token = "0x40010F9")]
 	public const string WallColossal = "WallColossal";
 
-	[Token(Token = "0x6000D92")]
-	[Address(RVA = "0x446FE10", Offset = "0x446FE10", VA = "0x446FE10")]
+	[Token(Token = "0x60014DA")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ShifterType()
 	{
 	}

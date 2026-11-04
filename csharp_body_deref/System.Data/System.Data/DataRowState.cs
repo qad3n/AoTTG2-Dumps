@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000044")]
 [Flags]
 public enum DataRowState
 {
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x4000157")]
 	Detached = 1,
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x4000158")]
 	Unchanged = 2,
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x4000159")]
 	Added = 4,
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x400015A")]
 	Deleted = 8,
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x400015B")]
 	Modified = 0x10
 }

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200009A")]
+[Token(Token = "0x2000098")]
 internal class VoiceEvent
 {
-	[Token(Token = "0x4000288")]
+	[Token(Token = "0x4000283")]
 	public const byte Code = 202;
 
-	[Token(Token = "0x4000289")]
+	[Token(Token = "0x4000284")]
 	public const byte FrameCode = 203;
 
-	[Token(Token = "0x600034B")]
-	[Address(RVA = "0x3F33E90", Offset = "0x3F33E90", VA = "0x3F33E90")]
+	[Token(Token = "0x6000349")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public VoiceEvent()
 	{
 	}

@@ -10,5 +10,5 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000092")]
+[Token(Token = "0x20000BB")]
 public delegate void AssemblyLoadEventHandler(object sender, AssemblyLoadEventArgs args);

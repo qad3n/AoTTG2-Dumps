@@ -30,7 +30,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public object? WrappedNode
 	{
 		[Token(Token = "0x6000F22")]
-		[Address(RVA = "0x3E489F0", Offset = "0x3E489F0", VA = "0x3E489F0", Slot = "13")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "13")]
 		get
 		{
 			return null;
@@ -41,7 +41,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public XmlNodeType NodeType
 	{
 		[Token(Token = "0x6000F23")]
-		[Address(RVA = "0x3E48A00", Offset = "0x3E48A00", VA = "0x3E48A00", Slot = "4")]
+		[Address(RVA = "0x1A1F3F0", Offset = "0x1A1D9F0", VA = "0x181A1F3F0", Slot = "4")]
 		get
 		{
 			return default(XmlNodeType);
@@ -52,7 +52,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public virtual string? LocalName
 	{
 		[Token(Token = "0x6000F24")]
-		[Address(RVA = "0x3E48A30", Offset = "0x3E48A30", VA = "0x3E48A30", Slot = "14")]
+		[Address(RVA = "0x1CBA930", Offset = "0x1CB8F30", VA = "0x181CBA930", Slot = "14")]
 		get
 		{
 			return null;
@@ -63,7 +63,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public List<IXmlNode> ChildNodes
 	{
 		[Token(Token = "0x6000F25")]
-		[Address(RVA = "0x3E48A60", Offset = "0x3E48A60", VA = "0x3E48A60", Slot = "6")]
+		[Address(RVA = "0x1CBA480", Offset = "0x1CB8A80", VA = "0x181CBA480", Slot = "6")]
 		get
 		{
 			return null;
@@ -74,7 +74,7 @@ internal class XmlNodeWrapper : IXmlNode
 	protected virtual bool HasChildNodes
 	{
 		[Token(Token = "0x6000F26")]
-		[Address(RVA = "0x3E490E0", Offset = "0x3E490E0", VA = "0x3E490E0", Slot = "15")]
+		[Address(RVA = "0x1CBA900", Offset = "0x1CB8F00", VA = "0x181CBA900", Slot = "15")]
 		get
 		{
 			return default(bool);
@@ -85,7 +85,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public List<IXmlNode> Attributes
 	{
 		[Token(Token = "0x6000F28")]
-		[Address(RVA = "0x3E49110", Offset = "0x3E49110", VA = "0x3E49110", Slot = "7")]
+		[Address(RVA = "0x1CBA040", Offset = "0x1CB8640", VA = "0x181CBA040", Slot = "7")]
 		get
 		{
 			return null;
@@ -96,7 +96,7 @@ internal class XmlNodeWrapper : IXmlNode
 	private bool HasAttributes
 	{
 		[Token(Token = "0x6000F29")]
-		[Address(RVA = "0x3E49690", Offset = "0x3E49690", VA = "0x3E49690")]
+		[Address(RVA = "0x1CBA850", Offset = "0x1CB8E50", VA = "0x181CBA850")]
 		get
 		{
 			return default(bool);
@@ -107,7 +107,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F2A")]
-		[Address(RVA = "0x3E49730", Offset = "0x3E49730", VA = "0x3E49730", Slot = "8")]
+		[Address(RVA = "0x1CBA990", Offset = "0x1CB8F90", VA = "0x181CBA990", Slot = "8")]
 		get
 		{
 			return null;
@@ -118,13 +118,13 @@ internal class XmlNodeWrapper : IXmlNode
 	public string? Value
 	{
 		[Token(Token = "0x6000F2B")]
-		[Address(RVA = "0x3E497C0", Offset = "0x3E497C0", VA = "0x3E497C0", Slot = "9")]
+		[Address(RVA = "0x1A1F330", Offset = "0x1A1D930", VA = "0x181A1F330", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F2C")]
-		[Address(RVA = "0x3E485E0", Offset = "0x3E485E0", VA = "0x3E485E0", Slot = "10")]
+		[Address(RVA = "0x1CBAA30", Offset = "0x1CB9030", VA = "0x181CBAA30", Slot = "10")]
 		set
 		{
 		}
@@ -134,7 +134,7 @@ internal class XmlNodeWrapper : IXmlNode
 	public string? NamespaceUri
 	{
 		[Token(Token = "0x6000F2E")]
-		[Address(RVA = "0x3E498B0", Offset = "0x3E498B0", VA = "0x3E498B0", Slot = "12")]
+		[Address(RVA = "0x1CBA960", Offset = "0x1CB8F60", VA = "0x181CBA960", Slot = "12")]
 		get
 		{
 			return null;
@@ -142,20 +142,20 @@ internal class XmlNodeWrapper : IXmlNode
 	}
 
 	[Token(Token = "0x6000F21")]
-	[Address(RVA = "0x3E47E60", Offset = "0x3E47E60", VA = "0x3E47E60")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public XmlNodeWrapper(XmlNode node)
 	{
 	}
 
 	[Token(Token = "0x6000F27")]
-	[Address(RVA = "0x3E48F60", Offset = "0x3E48F60", VA = "0x3E48F60")]
+	[Address(RVA = "0x1CB9E50", Offset = "0x1CB8450", VA = "0x181CB9E50")]
 	internal static IXmlNode WrapNode(XmlNode node)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000F2D")]
-	[Address(RVA = "0x3E497F0", Offset = "0x3E497F0", VA = "0x3E497F0", Slot = "11")]
+	[Address(RVA = "0x1CB9D90", Offset = "0x1CB8390", VA = "0x181CB9D90", Slot = "11")]
 	public IXmlNode AppendChild(IXmlNode newChild)
 	{
 		return null;

@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000DC")]
+[Token(Token = "0x20000FC")]
 internal class HumanReplayState : BaseReplayState
 {
-	[Token(Token = "0x6000421")]
-	[Address(RVA = "0x4104640", Offset = "0x4104640", VA = "0x4104640")]
+	[Token(Token = "0x60004BA")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public HumanReplayState()
 	{
 	}

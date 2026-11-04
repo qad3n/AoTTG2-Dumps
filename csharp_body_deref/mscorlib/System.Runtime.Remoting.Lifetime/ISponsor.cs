@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x2000360")]
+[Token(Token = "0x200038F")]
 [ComVisible(true)]
 public interface ISponsor
 {
-	[Token(Token = "0x6001D17")]
+	[Token(Token = "0x6001D86")]
 	TimeSpan Renewal(ILease lease);
 }

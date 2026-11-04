@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000163")]
+[Token(Token = "0x2000157")]
 public enum SRPLensFlareBlendMode
 {
-	[Token(Token = "0x400061B")]
+	[Token(Token = "0x40006A0")]
 	Additive,
-	[Token(Token = "0x400061C")]
+	[Token(Token = "0x40006A1")]
 	Screen,
-	[Token(Token = "0x400061D")]
+	[Token(Token = "0x40006A2")]
 	Premultiply,
-	[Token(Token = "0x400061E")]
+	[Token(Token = "0x40006A3")]
 	Lerp
 }

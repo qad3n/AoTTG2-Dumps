@@ -14,7 +14,7 @@ namespace System.Xml.Serialization;
 public class XmlAnyAttributeAttribute : Attribute
 {
 	[Token(Token = "0x6000CFF")]
-	[Address(RVA = "0x4810960", Offset = "0x4810960", VA = "0x4810960")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public XmlAnyAttributeAttribute()
 	{
 	}

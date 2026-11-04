@@ -17,21 +17,21 @@ internal abstract class PathFilter
 	public abstract IEnumerable<JToken> ExecuteFilter(JToken root, IEnumerable<JToken> current, JsonSelectSettings? settings);
 
 	[Token(Token = "0x6000E52")]
-	[Address(RVA = "0x3E31B70", Offset = "0x3E31B70", VA = "0x3E31B70")]
+	[Address(RVA = "0x1CA2360", Offset = "0x1CA0960", VA = "0x181CA2360")]
 	protected static JToken? GetTokenIndex(JToken t, JsonSelectSettings? settings, int index)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E53")]
-	[Address(RVA = "0x3E396A0", Offset = "0x3E396A0", VA = "0x3E396A0")]
+	[Address(RVA = "0x1CA22A0", Offset = "0x1CA08A0", VA = "0x181CA22A0")]
 	protected static JToken? GetNextScanValue(JToken originalParent, JToken? container, JToken? value)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000E54")]
-	[Address(RVA = "0x3E31000", Offset = "0x3E31000", VA = "0x3E31000")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected PathFilter()
 	{
 	}

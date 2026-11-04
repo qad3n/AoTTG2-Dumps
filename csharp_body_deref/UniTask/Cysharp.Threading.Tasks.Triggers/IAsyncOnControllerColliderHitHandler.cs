@@ -10,9 +10,9 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001B5")]
+[Token(Token = "0x20001B8")]
 public interface IAsyncOnControllerColliderHitHandler
 {
-	[Token(Token = "0x6000AE0")]
+	[Token(Token = "0x6000B04")]
 	UniTask<ControllerColliderHit> OnControllerColliderHitAsync();
 }

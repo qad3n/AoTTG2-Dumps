@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Characters.HookUseable
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Characters/HookUseable.c
 // Prior real C# source (older reference): Assets/Scripts/Characters/Human/HookUseable.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,166 +11,166 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x20004F5")]
+[Token(Token = "0x200064D")]
 internal class HookUseable : HoldUseable
 {
-	[Token(Token = "0x400160D")]
-	[FieldOffset(Offset = "0x3C")]
+	[Token(Token = "0x4001C7B")]
+	[FieldOffset(Offset = "0x40")]
 	public bool Enabled;
 
-	[Token(Token = "0x400160E")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4001C7C")]
+	[FieldOffset(Offset = "0x48")]
 	public List<Hook> Hooks;
 
-	[Token(Token = "0x400160F")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4001C7D")]
+	[FieldOffset(Offset = "0x50")]
 	public bool HookBoth;
 
-	[Token(Token = "0x4001610")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x4001C7E")]
+	[FieldOffset(Offset = "0x58")]
 	private Hook _activeHook;
 
-	[Token(Token = "0x4001611")]
-	[FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x4001C7F")]
+	[FieldOffset(Offset = "0x60")]
 	private bool _left;
 
-	[Token(Token = "0x4001612")]
-	[FieldOffset(Offset = "0x5C")]
+	[Token(Token = "0x4001C80")]
+	[FieldOffset(Offset = "0x64")]
 	private float _hookSpeed;
 
-	[Token(Token = "0x600341F")]
-	[Address(RVA = "0x41B50C0", Offset = "0x41B50C0", VA = "0x41B50C0")]
+	[Token(Token = "0x6003E01")]
+	[Address(RVA = "0x21484C0", Offset = "0x2146AC0", VA = "0x1821484C0")]
 	public HookUseable(BaseCharacter owner, bool left, bool gun)
 	{
 	}
 
-	[Token(Token = "0x6003420")]
-	[Address(RVA = "0x41B5570", Offset = "0x41B5570", VA = "0x41B5570")]
+	[Token(Token = "0x6003E02")]
+	[Address(RVA = "0x2147900", Offset = "0x2145F00", VA = "0x182147900")]
 	public List<Renderer> GetRenderers()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003421")]
-	[Address(RVA = "0x41B57D0", Offset = "0x41B57D0", VA = "0x41B57D0")]
+	[Token(Token = "0x6003E03")]
+	[Address(RVA = "0x2147BE0", Offset = "0x21461E0", VA = "0x182147BE0")]
 	public bool IsHooked()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003422")]
-	[Address(RVA = "0x41B5840", Offset = "0x41B5840", VA = "0x41B5840")]
+	[Token(Token = "0x6003E04")]
+	[Address(RVA = "0x2147AE0", Offset = "0x21460E0", VA = "0x182147AE0")]
 	public bool HasHook()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003423")]
-	[Address(RVA = "0x41B58B0", Offset = "0x41B58B0", VA = "0x41B58B0")]
+	[Token(Token = "0x6003E05")]
+	[Address(RVA = "0x2147C60", Offset = "0x2146260", VA = "0x182147C60")]
 	public bool IsHooking()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003424")]
-	[Address(RVA = "0x41B5920", Offset = "0x41B5920", VA = "0x41B5920")]
+	[Token(Token = "0x6003E06")]
+	[Address(RVA = "0x2147CE0", Offset = "0x21462E0", VA = "0x182147CE0")]
 	public bool IsReady()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003425")]
-	[Address(RVA = "0x41B5990", Offset = "0x41B5990", VA = "0x41B5990")]
+	[Token(Token = "0x6003E07")]
+	[Address(RVA = "0x21478E0", Offset = "0x2145EE0", VA = "0x1821478E0")]
 	public HookState GetHookState()
 	{
 		return default(HookState);
 	}
 
-	[Token(Token = "0x6003426")]
-	[Address(RVA = "0x41B59B0", Offset = "0x41B59B0", VA = "0x41B59B0")]
+	[Token(Token = "0x6003E08")]
+	[Address(RVA = "0x2147810", Offset = "0x2145E10", VA = "0x182147810")]
 	public Vector3 GetHookPosition()
 	{
 		return default(Vector3);
 	}
 
-	[Token(Token = "0x6003427")]
-	[Address(RVA = "0x41B5A60", Offset = "0x41B5A60", VA = "0x41B5A60")]
+	[Token(Token = "0x6003E09")]
+	[Address(RVA = "0x21476F0", Offset = "0x2145CF0", VA = "0x1821476F0")]
 	public Vector3? GetCLHookPosition()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003428")]
-	[Address(RVA = "0x41B5B10", Offset = "0x41B5B10", VA = "0x41B5B10")]
+	[Token(Token = "0x6003E0A")]
+	[Address(RVA = "0x2147B60", Offset = "0x2146160", VA = "0x182147B60")]
 	public bool IsHookOffset()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003429")]
-	[Address(RVA = "0x41B5B80", Offset = "0x41B5B80", VA = "0x41B5B80")]
+	[Token(Token = "0x6003E0B")]
+	[Address(RVA = "0x21477F0", Offset = "0x2145DF0", VA = "0x1821477F0")]
 	public Transform GetHookParent()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600342A")]
-	[Address(RVA = "0x41B5BA0", Offset = "0x41B5BA0", VA = "0x41B5BA0")]
+	[Token(Token = "0x6003E0C")]
+	[Address(RVA = "0x21477D0", Offset = "0x2145DD0", VA = "0x1821477D0")]
 	public BaseCharacter GetHookCharacter()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600342B")]
-	[Address(RVA = "0x41B5BC0", Offset = "0x41B5BC0", VA = "0x41B5BC0")]
+	[Token(Token = "0x6003E0D")]
+	[Address(RVA = "0x2147160", Offset = "0x2145760", VA = "0x182147160")]
 	public void DisableActiveHook()
 	{
 	}
 
-	[Token(Token = "0x600342C")]
-	[Address(RVA = "0x41B5C50", Offset = "0x41B5C50", VA = "0x41B5C50")]
+	[Token(Token = "0x6003E0E")]
+	[Address(RVA = "0x2147200", Offset = "0x2145800", VA = "0x182147200")]
 	public void DisableAnyHook()
 	{
 	}
 
-	[Token(Token = "0x600342D")]
-	[Address(RVA = "0x41B5CF0", Offset = "0x41B5CF0", VA = "0x41B5CF0")]
-	public void LocalClearAllHooks()
+	[Token(Token = "0x6003E0F")]
+	[Address(RVA = "0x2146F90", Offset = "0x2145590", VA = "0x182146F90")]
+	public void DestroyHooks()
 	{
 	}
 
-	[Token(Token = "0x600342E")]
-	[Address(RVA = "0x41B5E80", Offset = "0x41B5E80", VA = "0x41B5E80", Slot = "9")]
+	[Token(Token = "0x6003E10")]
+	[Address(RVA = "0x2146F80", Offset = "0x2145580", VA = "0x182146F80", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x600342F")]
-	[Address(RVA = "0x41B66D0", Offset = "0x41B66D0", VA = "0x41B66D0", Slot = "16")]
+	[Token(Token = "0x6003E11")]
+	[Address(RVA = "0x2146F80", Offset = "0x2145580", VA = "0x182146F80", Slot = "16")]
 	protected override void ActiveFixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x6003430")]
-	[Address(RVA = "0x41B66E0", Offset = "0x41B66E0", VA = "0x41B66E0")]
+	[Token(Token = "0x6003E12")]
+	[Address(RVA = "0x2147500", Offset = "0x2145B00", VA = "0x182147500")]
 	public void FixedUpdateMock()
 	{
 	}
 
-	[Token(Token = "0x6003431")]
-	[Address(RVA = "0x41B5E90", Offset = "0x41B5E90", VA = "0x41B5E90")]
+	[Token(Token = "0x6003E13")]
+	[Address(RVA = "0x2147D70", Offset = "0x2146370", VA = "0x182147D70")]
 	private void StartHook()
 	{
 	}
 
-	[Token(Token = "0x6003432")]
-	[Address(RVA = "0x41B69F0", Offset = "0x41B69F0", VA = "0x41B69F0", Slot = "10")]
+	[Token(Token = "0x6003E14")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}
 
-	[Token(Token = "0x6003433")]
-	[Address(RVA = "0x41B6760", Offset = "0x41B6760", VA = "0x41B6760")]
+	[Token(Token = "0x6003E15")]
+	[Address(RVA = "0x21472B0", Offset = "0x21458B0", VA = "0x1821472B0")]
 	private Hook FindAvailableHook()
 	{
 		return null;

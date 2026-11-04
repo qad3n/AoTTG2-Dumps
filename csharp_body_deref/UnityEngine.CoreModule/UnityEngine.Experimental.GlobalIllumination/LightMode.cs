@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x2000339")]
+[Token(Token = "0x20003E0")]
 public enum LightMode : byte
 {
-	[Token(Token = "0x4000A47")]
+	[Token(Token = "0x4000CCE")]
 	Realtime,
-	[Token(Token = "0x4000A48")]
+	[Token(Token = "0x4000CCF")]
 	Mixed,
-	[Token(Token = "0x4000A49")]
+	[Token(Token = "0x4000CD0")]
 	Baked,
-	[Token(Token = "0x4000A4A")]
+	[Token(Token = "0x4000CD1")]
 	Unknown
 }

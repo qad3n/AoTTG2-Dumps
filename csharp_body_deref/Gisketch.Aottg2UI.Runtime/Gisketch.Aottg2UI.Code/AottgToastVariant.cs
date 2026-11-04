@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Code;
 
-[Token(Token = "0x200006E")]
+[Token(Token = "0x2000082")]
 public enum AottgToastVariant
 {
-	[Token(Token = "0x4000237")]
+	[Token(Token = "0x40002B1")]
 	Error,
-	[Token(Token = "0x4000238")]
+	[Token(Token = "0x40002B2")]
 	Warning,
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x40002B3")]
 	Information,
-	[Token(Token = "0x400023A")]
+	[Token(Token = "0x40002B4")]
 	Workshop,
-	[Token(Token = "0x400023B")]
+	[Token(Token = "0x40002B5")]
 	Success
 }

@@ -16,11 +16,11 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
 public sealed class VariableKindAttribute : Attribute
 {
-	[Token(Token = "0x170001ED")]
+	[Token(Token = "0x170001F0")]
 	public VariableKind kind
 	{
-		[Token(Token = "0x600113B")]
-		[Address(RVA = "0x4D67610", Offset = "0x4D67610", VA = "0x4D67610")]
+		[Token(Token = "0x6001148")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,8 +28,8 @@ public sealed class VariableKindAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600113A")]
-	[Address(RVA = "0x4D675F0", Offset = "0x4D675F0", VA = "0x4D675F0")]
+	[Token(Token = "0x6001147")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	public VariableKindAttribute(VariableKind kind)
 	{
 	}

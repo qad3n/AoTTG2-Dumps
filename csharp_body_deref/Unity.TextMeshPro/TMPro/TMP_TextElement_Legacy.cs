@@ -11,47 +11,47 @@ using Il2CppDummyDll;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x200009C")]
+[Token(Token = "0x2000093")]
 public class TMP_TextElement_Legacy
 {
-	[Token(Token = "0x40005C0")]
+	[Token(Token = "0x400053B")]
 	[FieldOffset(Offset = "0x10")]
 	public int id;
 
-	[Token(Token = "0x40005C1")]
+	[Token(Token = "0x400053C")]
 	[FieldOffset(Offset = "0x14")]
 	public float x;
 
-	[Token(Token = "0x40005C2")]
+	[Token(Token = "0x400053D")]
 	[FieldOffset(Offset = "0x18")]
 	public float y;
 
-	[Token(Token = "0x40005C3")]
+	[Token(Token = "0x400053E")]
 	[FieldOffset(Offset = "0x1C")]
 	public float width;
 
-	[Token(Token = "0x40005C4")]
+	[Token(Token = "0x400053F")]
 	[FieldOffset(Offset = "0x20")]
 	public float height;
 
-	[Token(Token = "0x40005C5")]
+	[Token(Token = "0x4000540")]
 	[FieldOffset(Offset = "0x24")]
 	public float xOffset;
 
-	[Token(Token = "0x40005C6")]
+	[Token(Token = "0x4000541")]
 	[FieldOffset(Offset = "0x28")]
 	public float yOffset;
 
-	[Token(Token = "0x40005C7")]
+	[Token(Token = "0x4000542")]
 	[FieldOffset(Offset = "0x2C")]
 	public float xAdvance;
 
-	[Token(Token = "0x40005C8")]
+	[Token(Token = "0x4000543")]
 	[FieldOffset(Offset = "0x30")]
 	public float scale;
 
-	[Token(Token = "0x60005E9")]
-	[Address(RVA = "0x4C8D5B0", Offset = "0x4C8D5B0", VA = "0x4C8D5B0")]
+	[Token(Token = "0x6000598")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public TMP_TextElement_Legacy()
 	{
 	}

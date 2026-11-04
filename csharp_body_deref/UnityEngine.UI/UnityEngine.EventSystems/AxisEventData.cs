@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.EventSystems;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x2000098")]
 public class AxisEventData : BaseEventData
 {
-	[Token(Token = "0x1700018C")]
+	[Token(Token = "0x1700019C")]
 	public Vector2 moveVector
 	{
-		[Token(Token = "0x60005E7")]
-		[Address(RVA = "0x50F4E50", Offset = "0x50F4E50", VA = "0x50F4E50")]
+		[Token(Token = "0x600062E")]
+		[Address(RVA = "0x32F0910", Offset = "0x32EEF10", VA = "0x1832F0910")]
 		[CompilerGenerated]
 		get
 		{
 			return default(Vector2);
 		}
-		[Token(Token = "0x60005E8")]
-		[Address(RVA = "0x50F4E60", Offset = "0x50F4E60", VA = "0x50F4E60")]
+		[Token(Token = "0x600062F")]
+		[Address(RVA = "0x1112310", Offset = "0x1110910", VA = "0x181112310")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700018D")]
+	[Token(Token = "0x1700019D")]
 	public MoveDirection moveDir
 	{
-		[Token(Token = "0x60005E9")]
-		[Address(RVA = "0x50F4E70", Offset = "0x50F4E70", VA = "0x50F4E70")]
+		[Token(Token = "0x6000630")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		[CompilerGenerated]
 		get
 		{
 			return default(MoveDirection);
 		}
-		[Token(Token = "0x60005EA")]
-		[Address(RVA = "0x50F4E80", Offset = "0x50F4E80", VA = "0x50F4E80")]
+		[Token(Token = "0x6000631")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60005EB")]
-	[Address(RVA = "0x50F4E90", Offset = "0x50F4E90", VA = "0x50F4E90")]
+	[Token(Token = "0x6000632")]
+	[Address(RVA = "0x32F0890", Offset = "0x32EEE90", VA = "0x1832F0890")]
 	public AxisEventData(EventSystem eventSystem)
 	{
 	}

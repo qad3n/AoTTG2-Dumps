@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001E2")]
+[Token(Token = "0x20001EC")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface)]
 public sealed class fsForwardAttribute : Attribute
 {
-	[Token(Token = "0x4000963")]
+	[Token(Token = "0x400096B")]
 	[FieldOffset(Offset = "0x10")]
 	public string MemberName;
 
-	[Token(Token = "0x6001187")]
-	[Address(RVA = "0x4D6DF20", Offset = "0x4D6DF20", VA = "0x4D6DF20")]
+	[Token(Token = "0x60011BB")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public fsForwardAttribute(string memberName)
 	{
 	}

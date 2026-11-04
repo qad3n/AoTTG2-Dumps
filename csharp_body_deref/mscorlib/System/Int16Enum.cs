@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000186")]
+[Token(Token = "0x20001B1")]
 internal enum Int16Enum : short
 {
 

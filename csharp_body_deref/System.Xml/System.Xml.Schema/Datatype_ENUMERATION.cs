@@ -16,7 +16,7 @@ internal class Datatype_ENUMERATION : Datatype_NMTOKEN
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x60011C8")]
-		[Address(RVA = "0x4865630", Offset = "0x4865630", VA = "0x4865630", Slot = "5")]
+		[Address(RVA = "0x1B28F50", Offset = "0x1B27550", VA = "0x181B28F50", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -24,7 +24,7 @@ internal class Datatype_ENUMERATION : Datatype_NMTOKEN
 	}
 
 	[Token(Token = "0x60011C9")]
-	[Address(RVA = "0x4856980", Offset = "0x4856980", VA = "0x4856980")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_ENUMERATION()
 	{
 	}

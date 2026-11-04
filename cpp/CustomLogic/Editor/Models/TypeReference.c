@@ -1,5 +1,5 @@
 // Type: CustomLogic.Editor.Models.TypeReference
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic.Editor.Models/TypeReference.cs
@@ -8,74 +8,60 @@
 
 // CustomLogic.Editor.Models.TypeReference$$.ctor
 // il2cpp: void CustomLogic_Editor_Models_TypeReference___ctor (CustomLogic_Editor_Models_TypeReference_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x4287020
+// 0x182101b30
 
 void CustomLogic_Editor_Models_TypeReference___ctor
                (CustomLogic_Editor_Models_TypeReference_o *__this,System_String_o *name,MethodInfo *method)
 
 {
-  byte bVar1;
-  int iVar2;
-  long lVar3;
-  long lVar4;
+  CustomLogic_Editor_Models_TypeReference_array *value;
+  MethodInfo *pMVar1;
+  Il2CppClass *pIVar2;
   
-  if (g_data_057adcb1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_TypeReference_Empty_TypeReference);
-    g_data_057adcb1 = '\x01';
+  if (Il2CppMethodInitialized_184346a6c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Empty_TypeReference);
+    Il2CppMethodInitialized_184346a6c = '\x01';
   }
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).Name = name;
-  il2cpp_runtime_helper_022b4080(&__this->fields,name);
-  lVar3 = MethodInfo_TypeReference_Empty_TypeReference;
-  if (*(long *)(MethodInfo_TypeReference_Empty_TypeReference + 0x38) == 0) {
-    il2cpp_runtime_helper_02300a20(MethodInfo_TypeReference_Empty_TypeReference);
-    lVar4 = *(long *)(*(long *)(lVar3 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar4 + 0x135);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Name,name);
+  pMVar1 = MethodInfo_System_Array_Empty_TypeReference;
+  if ((MethodInfo_System_Array_Empty_TypeReference->field7_0x38).rgctx_data == (Il2CppRGCTXData *)0x0) {
+    il2cpp_codegen_rgctx_method_init(MethodInfo_System_Array_Empty_TypeReference);
   }
-  else {
-    lVar4 = *(long *)(*(long *)(MethodInfo_TypeReference_Empty_TypeReference + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar4 + 0x135);
+  pIVar2 = (pMVar1->field7_0x38).rgctx_data[2].klass;
+  if (((pIVar2->_2).bitflags1 & 1) == 0) {
+    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
   }
-  if ((bVar1 & 1) == 0) {
-    lVar4 = il2cpp_runtime_helper_023009c0();
-    iVar2 = *(int *)(lVar4 + 0xe4);
+  if ((pIVar2->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(pIVar2);
   }
-  else {
-    iVar2 = *(int *)(lVar4 + 0xe4);
+  pIVar2 = (pMVar1->field7_0x38).rgctx_data[2].klass;
+  if (((pIVar2->_2).bitflags1 & 1) == 0) {
+    pIVar2 = il2cpp_codegen_class_init_checked(pIVar2);
   }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    lVar3 = *(long *)(*(long *)(lVar3 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar3 + 0x135);
-  }
-  else {
-    lVar3 = *(long *)(*(long *)(lVar3 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar3 + 0x135);
-  }
-  if ((bVar1 & 1) == 0) {
-    lVar3 = il2cpp_runtime_helper_023009c0(lVar3);
-  }
-  (__this->fields).Arguments =
-       (CustomLogic_Editor_Models_TypeReference_array *)**(undefined8 **)(lVar3 + 0xb8);
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Arguments);
+  value = *(CustomLogic_Editor_Models_TypeReference_array **)pIVar2->static_fields;
+  (__this->fields).Arguments = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Arguments,value);
   return;
 }
 
 
 // CustomLogic.Editor.Models.TypeReference$$.ctor
 // il2cpp: void CustomLogic_Editor_Models_TypeReference___ctor (CustomLogic_Editor_Models_TypeReference_o* __this, System_String_o* name, CustomLogic_Editor_Models_TypeReference_array* arguments, const MethodInfo* method);
-// 0x4287110
+// 0x180c8dad0
 
-void CustomLogic_Editor_Models_TypeReference___ctor_4187110
-               (CustomLogic_Editor_Models_TypeReference_o *__this,System_String_o *name,
-               CustomLogic_Editor_Models_TypeReference_array *arguments,MethodInfo *method)
+void
+CustomLogic_Editor_Models_TypeReference___ctor(CustomLogic_Editor_Models_TypeReference_o* __this, System_String_o* name, CustomLogic_Editor_Models_TypeReference_array* arguments, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  (__this->fields).Name = name;
-  il2cpp_runtime_helper_022b4080(&__this->fields,name);
-  (__this->fields).Arguments = arguments;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Arguments,arguments);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  (__this->fields).Name = _country;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Name,_country);
+  (__this->fields).Arguments = _language;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Arguments,_language);
   return;
 }
 

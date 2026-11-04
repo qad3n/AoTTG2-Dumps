@@ -28,36 +28,36 @@ internal sealed class Block3 : BlockExpression
 	[Token(Token = "0x17000060")]
 	internal override int ExpressionCount
 	{
-		[Token(Token = "0x60002C5")]
-		[Address(RVA = "0x44AE5F0", Offset = "0x44AE5F0", VA = "0x44AE5F0", Slot = "11")]
+		[Token(Token = "0x60002C4")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60002C3")]
-	[Address(RVA = "0x44AE4D0", Offset = "0x44AE4D0", VA = "0x44AE4D0")]
+	[Token(Token = "0x60002C2")]
+	[Address(RVA = "0x2428580", Offset = "0x2426B80", VA = "0x182428580")]
 	internal Block3(Expression arg0, Expression arg1, Expression arg2)
 	{
 	}
 
-	[Token(Token = "0x60002C4")]
-	[Address(RVA = "0x44AE560", Offset = "0x44AE560", VA = "0x44AE560", Slot = "10")]
+	[Token(Token = "0x60002C3")]
+	[Address(RVA = "0x24283C0", Offset = "0x24269C0", VA = "0x1824283C0", Slot = "10")]
 	internal override Expression GetExpression(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002C6")]
-	[Address(RVA = "0x44AE600", Offset = "0x44AE600", VA = "0x44AE600", Slot = "12")]
+	[Token(Token = "0x60002C5")]
+	[Address(RVA = "0x2428240", Offset = "0x2426840", VA = "0x182428240", Slot = "12")]
 	internal override ReadOnlyCollection<Expression> GetOrMakeExpressions()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002C7")]
-	[Address(RVA = "0x44AE610", Offset = "0x44AE610", VA = "0x44AE610", Slot = "14")]
+	[Token(Token = "0x60002C6")]
+	[Address(RVA = "0x2428470", Offset = "0x2426A70", VA = "0x182428470", Slot = "14")]
 	internal override BlockExpression Rewrite(ReadOnlyCollection<ParameterExpression> variables, Expression[] args)
 	{
 		return null;

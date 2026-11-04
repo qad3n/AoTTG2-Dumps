@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.IO.Compression;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000F")]
 internal enum BrotliEncoderOperation
 {
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x4000028")]
 	Process,
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x4000029")]
 	Flush,
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x400002A")]
 	Finish,
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x400002B")]
 	EmitMetadata
 }

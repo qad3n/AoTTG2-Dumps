@@ -14,26 +14,26 @@ namespace System.Xml;
 internal class DocumentXPathNodeIterator_AllElemChildren : DocumentXPathNodeIterator_ElemDescendants
 {
 	[Token(Token = "0x6000796")]
-	[Address(RVA = "0x47C6690", Offset = "0x47C6690", VA = "0x47C6690")]
+	[Address(RVA = "0x270A790", Offset = "0x2708D90", VA = "0x18270A790")]
 	internal DocumentXPathNodeIterator_AllElemChildren(DocumentXPathNavigator nav)
 	{
 	}
 
 	[Token(Token = "0x6000797")]
-	[Address(RVA = "0x47C6DB0", Offset = "0x47C6DB0", VA = "0x47C6DB0")]
+	[Address(RVA = "0x270A7A0", Offset = "0x2708DA0", VA = "0x18270A7A0")]
 	internal DocumentXPathNodeIterator_AllElemChildren(DocumentXPathNodeIterator_AllElemChildren other)
 	{
 	}
 
 	[Token(Token = "0x6000798")]
-	[Address(RVA = "0x47C6DC0", Offset = "0x47C6DC0", VA = "0x47C6DC0", Slot = "6")]
+	[Address(RVA = "0x270A7B0", Offset = "0x2708DB0", VA = "0x18270A7B0", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000799")]
-	[Address(RVA = "0x47C6E10", Offset = "0x47C6E10", VA = "0x47C6E10", Slot = "12")]
+	[Address(RVA = "0x270A810", Offset = "0x2708E10", VA = "0x18270A810", Slot = "12")]
 	protected override bool Match(XmlNode node)
 	{
 		return default(bool);

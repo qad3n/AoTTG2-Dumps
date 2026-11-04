@@ -11,44 +11,44 @@ using UnityEngine;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000258")]
+[Token(Token = "0x2000373")]
 internal class SkyboxCustomSkinPart : BaseCustomSkinPart
 {
-	[Token(Token = "0x4000CBD")]
+	[Token(Token = "0x40011F2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private Material _skyboxMaterial;
 
-	[Token(Token = "0x4000CBE")]
+	[Token(Token = "0x40011F3")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private string _textureName;
 
-	[Token(Token = "0x6000E5A")]
-	[Address(RVA = "0x3F92450", Offset = "0x3F92450", VA = "0x3F92450")]
+	[Token(Token = "0x60015C4")]
+	[Address(RVA = "0x1E94520", Offset = "0x1E92B20", VA = "0x181E94520")]
 	public SkyboxCustomSkinPart(BaseCustomSkinLoader loader, Material skyboxMaterial, string textureName, string rendererId, int maxSize, [Optional] Vector2? textureScale)
 	{
 	}
 
-	[Token(Token = "0x6000E5B")]
-	[Address(RVA = "0x3F94F50", Offset = "0x3F94F50", VA = "0x3F94F50", Slot = "4")]
+	[Token(Token = "0x60015C5")]
+	[Address(RVA = "0x1E94400", Offset = "0x1E92A00", VA = "0x181E94400", Slot = "4")]
 	protected override bool IsValidPart()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000E5C")]
-	[Address(RVA = "0x3F94FA0", Offset = "0x3F94FA0", VA = "0x3F94FA0", Slot = "5")]
+	[Token(Token = "0x60015C6")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	protected override void DisableRenderers()
 	{
 	}
 
-	[Token(Token = "0x6000E5D")]
-	[Address(RVA = "0x3F94FB0", Offset = "0x3F94FB0", VA = "0x3F94FB0", Slot = "6")]
+	[Token(Token = "0x60015C7")]
+	[Address(RVA = "0x1E94450", Offset = "0x1E92A50", VA = "0x181E94450", Slot = "6")]
 	protected override void SetMaterial(Material material)
 	{
 	}
 
-	[Token(Token = "0x6000E5E")]
-	[Address(RVA = "0x3F94FF0", Offset = "0x3F94FF0", VA = "0x3F94FF0", Slot = "7")]
+	[Token(Token = "0x60015C8")]
+	[Address(RVA = "0x1E944A0", Offset = "0x1E92AA0", VA = "0x181E944A0", Slot = "8")]
 	protected override Material SetNewTexture(Texture2D texture)
 	{
 		return null;

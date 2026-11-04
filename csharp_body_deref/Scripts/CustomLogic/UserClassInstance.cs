@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20004A1")]
+[Token(Token = "0x20005FA")]
 internal class UserClassInstance : CustomLogicClassInstance
 {
-	[Token(Token = "0x4001433")]
+	[Token(Token = "0x4001A7E")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly string _className;
 
-	[Token(Token = "0x17000953")]
+	[Token(Token = "0x17000A4A")]
 	public override string ClassName
 	{
-		[Token(Token = "0x60030E8")]
-		[Address(RVA = "0x417AC40", Offset = "0x417AC40", VA = "0x417AC40", Slot = "4")]
+		[Token(Token = "0x6003A70")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60030E7")]
-	[Address(RVA = "0x416FBC0", Offset = "0x416FBC0", VA = "0x416FBC0")]
+	[Token(Token = "0x6003A6F")]
+	[Address(RVA = "0x20EF6E0", Offset = "0x20EDCE0", VA = "0x1820EF6E0")]
 	public UserClassInstance(string className)
 	{
 	}

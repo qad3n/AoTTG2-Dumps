@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000207")]
+[Token(Token = "0x200020A")]
 public interface IAsyncOnDeselectHandler
 {
-	[Token(Token = "0x6000BFF")]
+	[Token(Token = "0x6000C23")]
 	UniTask<BaseEventData> OnDeselectAsync();
 }

@@ -24,8 +24,8 @@ public class NewExpression : Expression
 	[Token(Token = "0x170000DF")]
 	public ConstructorInfo Constructor
 	{
-		[Token(Token = "0x60004CA")]
-		[Address(RVA = "0x44BF760", Offset = "0x44BF760", VA = "0x44BF760")]
+		[Token(Token = "0x60004C9")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,8 +33,8 @@ public class NewExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x60004CB")]
-	[Address(RVA = "0x44BF770", Offset = "0x44BF770", VA = "0x44BF770", Slot = "10")]
+	[Token(Token = "0x60004CA")]
+	[Address(RVA = "0x243DE70", Offset = "0x243C470", VA = "0x18243DE70", Slot = "10")]
 	public Expression GetArgument(int index)
 	{
 		return null;

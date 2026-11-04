@@ -12,132 +12,132 @@ using UnityEngine;
 
 namespace Cameras;
 
-[Token(Token = "0x2000709")]
+[Token(Token = "0x200088C")]
 internal class MapEditorCamera : BaseCamera
 {
-	[Token(Token = "0x4002207")]
+	[Token(Token = "0x4002AC3")]
 	[FieldOffset(Offset = "0x38")]
 	private MapEditorInputSettings _input;
 
-	[Token(Token = "0x4002208")]
+	[Token(Token = "0x4002AC4")]
 	[FieldOffset(Offset = "0x40")]
 	private MapEditorSettings _settings;
 
-	[Token(Token = "0x4002209")]
+	[Token(Token = "0x4002AC5")]
 	[FieldOffset(Offset = "0x48")]
 	private MapEditorMenu _menu;
 
-	[Token(Token = "0x400220A")]
+	[Token(Token = "0x4002AC6")]
 	[FieldOffset(Offset = "0x50")]
 	private Camera _uiCamera;
 
-	[Token(Token = "0x400220B")]
+	[Token(Token = "0x4002AC7")]
 	[FieldOffset(Offset = "0x58")]
 	private bool _wasRotating;
 
-	[Token(Token = "0x400220C")]
+	[Token(Token = "0x4002AC8")]
 	[FieldOffset(Offset = "0x59")]
 	private bool _startDrag;
 
-	[Token(Token = "0x400220D")]
+	[Token(Token = "0x4002AC9")]
 	[FieldOffset(Offset = "0x5C")]
 	private Vector3 _lastDragPosition;
 
-	[Token(Token = "0x400220E")]
+	[Token(Token = "0x4002ACA")]
 	private const float MaxDeltaTime = 1f / 30f;
 
-	[Token(Token = "0x400220F")]
+	[Token(Token = "0x4002ACB")]
 	private const float ReferenceScreenHeight = 1080f;
 
-	[Token(Token = "0x6004593")]
-	[Address(RVA = "0x437BC90", Offset = "0x437BC90", VA = "0x437BC90")]
+	[Token(Token = "0x60051E8")]
+	[Address(RVA = "0x22F6770", Offset = "0x22F4D70", VA = "0x1822F6770")]
 	private static float GetClampedDeltaTime()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004594")]
-	[Address(RVA = "0x437BCB0", Offset = "0x437BCB0", VA = "0x437BCB0")]
+	[Token(Token = "0x60051E9")]
+	[Address(RVA = "0x22F6790", Offset = "0x22F4D90", VA = "0x1822F6790")]
 	private static float GetScreenScale()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6004595")]
-	[Address(RVA = "0x437BCE0", Offset = "0x437BCE0", VA = "0x437BCE0", Slot = "4")]
+	[Token(Token = "0x60051EA")]
+	[Address(RVA = "0x22F6660", Offset = "0x22F4C60", VA = "0x1822F6660", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x6004596")]
-	[Address(RVA = "0x437BDC0", Offset = "0x437BDC0", VA = "0x437BDC0")]
+	[Token(Token = "0x60051EB")]
+	[Address(RVA = "0x22F65E0", Offset = "0x22F4BE0", VA = "0x1822F65E0")]
 	public void ApplyGraphicsSettings()
 	{
 	}
 
-	[Token(Token = "0x6004597")]
-	[Address(RVA = "0x437BE30", Offset = "0x437BE30", VA = "0x437BE30")]
+	[Token(Token = "0x60051EC")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	protected void CreateUICamera()
 	{
 	}
 
-	[Token(Token = "0x6004598")]
-	[Address(RVA = "0x437BE40", Offset = "0x437BE40", VA = "0x437BE40")]
+	[Token(Token = "0x60051ED")]
+	[Address(RVA = "0x22F8340", Offset = "0x22F6940", VA = "0x1822F8340")]
 	protected void Update()
 	{
 	}
 
-	[Token(Token = "0x6004599")]
-	[Address(RVA = "0x437BED0", Offset = "0x437BED0", VA = "0x437BED0")]
+	[Token(Token = "0x60051EE")]
+	[Address(RVA = "0x22F7560", Offset = "0x22F5B60", VA = "0x1822F7560")]
 	private void UpdateMovement()
 	{
 	}
 
-	[Token(Token = "0x600459A")]
-	[Address(RVA = "0x437C7D0", Offset = "0x437C7D0", VA = "0x437C7D0")]
+	[Token(Token = "0x60051EF")]
+	[Address(RVA = "0x22F71B0", Offset = "0x22F57B0", VA = "0x1822F71B0")]
 	private void UpdateDragMovement(float speed)
 	{
 	}
 
-	[Token(Token = "0x600459B")]
-	[Address(RVA = "0x437CAC0", Offset = "0x437CAC0", VA = "0x437CAC0")]
+	[Token(Token = "0x60051F0")]
+	[Address(RVA = "0x22F7F00", Offset = "0x22F6500", VA = "0x1822F7F00")]
 	private void UpdateZoomMovement(float speed)
 	{
 	}
 
-	[Token(Token = "0x600459C")]
-	[Address(RVA = "0x437C3D0", Offset = "0x437C3D0", VA = "0x437C3D0")]
+	[Token(Token = "0x60051F1")]
+	[Address(RVA = "0x22F7A70", Offset = "0x22F6070", VA = "0x1822F7A70")]
 	private void UpdateRotation()
 	{
 	}
 
-	[Token(Token = "0x600459D")]
-	[Address(RVA = "0x437D4A0", Offset = "0x437D4A0", VA = "0x437D4A0")]
+	[Token(Token = "0x60051F2")]
+	[Address(RVA = "0x22F6230", Offset = "0x22F4830", VA = "0x1822F6230")]
 	private bool AlignedWithWorldAxis()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600459E")]
-	[Address(RVA = "0x437D890", Offset = "0x437D890", VA = "0x437D890")]
+	[Token(Token = "0x60051F3")]
+	[Address(RVA = "0x22F5D10", Offset = "0x22F4310", VA = "0x1822F5D10")]
 	private void AlignToWorldAxis()
 	{
 	}
 
-	[Token(Token = "0x600459F")]
-	[Address(RVA = "0x437CE40", Offset = "0x437CE40", VA = "0x437CE40")]
+	[Token(Token = "0x60051F4")]
+	[Address(RVA = "0x22F6AE0", Offset = "0x22F50E0", VA = "0x1822F6AE0")]
 	private void SnapCameraToAxis(Vector3 direction)
 	{
 	}
 
-	[Token(Token = "0x60045A0")]
-	[Address(RVA = "0x437DFC0", Offset = "0x437DFC0", VA = "0x437DFC0", Slot = "6")]
+	[Token(Token = "0x60051F5")]
+	[Address(RVA = "0x22F67C0", Offset = "0x22F4DC0", VA = "0x1822F67C0", Slot = "6")]
 	protected override void SetDefaultCameraPosition()
 	{
 	}
 
-	[Token(Token = "0x60045A1")]
-	[Address(RVA = "0x437E2B0", Offset = "0x437E2B0", VA = "0x437E2B0")]
+	[Token(Token = "0x60051F6")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public MapEditorCamera()
 	{
 	}

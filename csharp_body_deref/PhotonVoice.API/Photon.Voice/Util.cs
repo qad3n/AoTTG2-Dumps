@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000058")]
+[Token(Token = "0x2000056")]
 internal static class Util
 {
-	[Token(Token = "0x60001C5")]
-	[Address(RVA = "0x3F1C040", Offset = "0x3F1C040", VA = "0x3F1C040")]
+	[Token(Token = "0x60001C3")]
+	[Address(RVA = "0x1D76EB0", Offset = "0x1D754B0", VA = "0x181D76EB0")]
 	public static void SetThreadName(Thread t, string name)
 	{
 	}

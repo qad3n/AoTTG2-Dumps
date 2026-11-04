@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000383")]
-internal interface IStyleValue<T>
+[Token(Token = "0x2000425")]
+public interface IStyleValue<T>
 {
-	[Token(Token = "0x17000651")]
+	[Token(Token = "0x170008E7")]
 	T value
 	{
-		[Token(Token = "0x60016EC")]
+		[Token(Token = "0x60020D4")]
 		get;
-		[Token(Token = "0x60016ED")]
+		[Token(Token = "0x60020D5")]
 		set;
 	}
 
-	[Token(Token = "0x17000652")]
+	[Token(Token = "0x170008E8")]
 	StyleKeyword keyword
 	{
-		[Token(Token = "0x60016EE")]
+		[Token(Token = "0x60020D6")]
 		get;
-		[Token(Token = "0x60016EF")]
+		[Token(Token = "0x60020D7")]
 		set;
 	}
 }

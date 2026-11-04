@@ -24,8 +24,8 @@ internal class MethodInfoCallInstruction : CallInstruction
 	[Token(Token = "0x1700015A")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x60005FA")]
-		[Address(RVA = "0x44C6780", Offset = "0x44C6780", VA = "0x44C6780", Slot = "11")]
+		[Token(Token = "0x60005F9")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -35,36 +35,36 @@ internal class MethodInfoCallInstruction : CallInstruction
 	[Token(Token = "0x1700015B")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60005FC")]
-		[Address(RVA = "0x44C6790", Offset = "0x44C6790", VA = "0x44C6790", Slot = "5")]
+		[Token(Token = "0x60005FB")]
+		[Address(RVA = "0x242A4B0", Offset = "0x2428AB0", VA = "0x18242A4B0", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x44C6530", Offset = "0x44C6530", VA = "0x44C6530")]
+	[Token(Token = "0x60005FA")]
+	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
 	internal MethodInfoCallInstruction(MethodInfo target, int argumentCount)
 	{
 	}
 
-	[Token(Token = "0x60005FD")]
-	[Address(RVA = "0x44C6800", Offset = "0x44C6800", VA = "0x44C6800", Slot = "8")]
+	[Token(Token = "0x60005FC")]
+	[Address(RVA = "0x243D5E0", Offset = "0x243BBE0", VA = "0x18243D5E0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60005FE")]
-	[Address(RVA = "0x44C6B40", Offset = "0x44C6B40", VA = "0x44C6B40")]
+	[Token(Token = "0x60005FD")]
+	[Address(RVA = "0x243D450", Offset = "0x243BA50", VA = "0x18243D450")]
 	protected object[] GetArgs(InterpretedFrame frame, int first, int skip)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FF")]
-	[Address(RVA = "0x44C6D40", Offset = "0x44C6D40", VA = "0x44C6D40", Slot = "3")]
+	[Token(Token = "0x60005FE")]
+	[Address(RVA = "0x243D880", Offset = "0x243BE80", VA = "0x18243D880", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

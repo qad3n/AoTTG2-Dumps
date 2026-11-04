@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200016E")]
+[Token(Token = "0x2000185")]
 public enum FieldPacking
 {
-	[Token(Token = "0x4000658")]
+	[Token(Token = "0x400079D")]
 	NoPacking,
-	[Token(Token = "0x4000659")]
+	[Token(Token = "0x400079E")]
 	R11G11B10,
-	[Token(Token = "0x400065A")]
+	[Token(Token = "0x400079F")]
 	PackedFloat,
-	[Token(Token = "0x400065B")]
+	[Token(Token = "0x40007A0")]
 	PackedUint
 }

@@ -10,70 +10,70 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000009")]
 public enum ClientState
 {
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x4000040")]
 	PeerCreated = 0,
-	[Token(Token = "0x4000046")]
+	[Token(Token = "0x4000041")]
 	Authenticating = 1,
-	[Token(Token = "0x4000047")]
+	[Token(Token = "0x4000042")]
 	Authenticated = 2,
-	[Token(Token = "0x4000048")]
+	[Token(Token = "0x4000043")]
 	JoiningLobby = 3,
-	[Token(Token = "0x4000049")]
+	[Token(Token = "0x4000044")]
 	JoinedLobby = 4,
-	[Token(Token = "0x400004A")]
+	[Token(Token = "0x4000045")]
 	DisconnectingFromMasterServer = 5,
-	[Token(Token = "0x400004B")]
+	[Token(Token = "0x4000046")]
 	[Obsolete("Renamed to DisconnectingFromMasterServer")]
-	DisconnectingFromMasterserver = 5,
-	[Token(Token = "0x400004C")]
+	DisconnectingFromMasterserver = DisconnectingFromMasterServer,
+	[Token(Token = "0x4000047")]
 	ConnectingToGameServer = 6,
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000048")]
 	[Obsolete("Renamed to ConnectingToGameServer")]
-	ConnectingToGameserver = 6,
-	[Token(Token = "0x400004E")]
+	ConnectingToGameserver = ConnectingToGameServer,
+	[Token(Token = "0x4000049")]
 	ConnectedToGameServer = 7,
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x400004A")]
 	[Obsolete("Renamed to ConnectedToGameServer")]
-	ConnectedToGameserver = 7,
-	[Token(Token = "0x4000050")]
+	ConnectedToGameserver = ConnectedToGameServer,
+	[Token(Token = "0x400004B")]
 	Joining = 8,
-	[Token(Token = "0x4000051")]
+	[Token(Token = "0x400004C")]
 	Joined = 9,
-	[Token(Token = "0x4000052")]
+	[Token(Token = "0x400004D")]
 	Leaving = 10,
-	[Token(Token = "0x4000053")]
+	[Token(Token = "0x400004E")]
 	DisconnectingFromGameServer = 11,
-	[Token(Token = "0x4000054")]
+	[Token(Token = "0x400004F")]
 	[Obsolete("Renamed to DisconnectingFromGameServer")]
-	DisconnectingFromGameserver = 11,
-	[Token(Token = "0x4000055")]
+	DisconnectingFromGameserver = DisconnectingFromGameServer,
+	[Token(Token = "0x4000050")]
 	ConnectingToMasterServer = 12,
-	[Token(Token = "0x4000056")]
+	[Token(Token = "0x4000051")]
 	[Obsolete("Renamed to ConnectingToMasterServer.")]
-	ConnectingToMasterserver = 12,
-	[Token(Token = "0x4000057")]
+	ConnectingToMasterserver = ConnectingToMasterServer,
+	[Token(Token = "0x4000052")]
 	Disconnecting = 13,
-	[Token(Token = "0x4000058")]
+	[Token(Token = "0x4000053")]
 	Disconnected = 14,
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x4000054")]
 	ConnectedToMasterServer = 15,
-	[Token(Token = "0x400005A")]
+	[Token(Token = "0x4000055")]
 	[Obsolete("Renamed to ConnectedToMasterServer.")]
-	ConnectedToMasterserver = 15,
-	[Token(Token = "0x400005B")]
+	ConnectedToMasterserver = ConnectedToMasterServer,
+	[Token(Token = "0x4000056")]
 	[Obsolete("Renamed to ConnectedToMasterServer.")]
-	ConnectedToMaster = 15,
-	[Token(Token = "0x400005C")]
+	ConnectedToMaster = ConnectedToMasterServer,
+	[Token(Token = "0x4000057")]
 	ConnectingToNameServer = 16,
-	[Token(Token = "0x400005D")]
+	[Token(Token = "0x4000058")]
 	ConnectedToNameServer = 17,
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x4000059")]
 	DisconnectingFromNameServer = 18,
-	[Token(Token = "0x400005F")]
+	[Token(Token = "0x400005A")]
 	ConnectWithFallbackProtocol = 19,
-	[Token(Token = "0x4000060")]
+	[Token(Token = "0x400005B")]
 	ConnectWithoutAuthOnceWss = 20
 }

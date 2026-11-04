@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200000F")]
 public class DeletedRowInaccessibleException : DataException
 {
-	[Token(Token = "0x6000150")]
-	[Address(RVA = "0x4547880", Offset = "0x4547880", VA = "0x4547880")]
+	[Token(Token = "0x60000AB")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected DeletedRowInaccessibleException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x4547890", Offset = "0x4547890", VA = "0x4547890")]
+	[Token(Token = "0x60000AC")]
+	[Address(RVA = "0x24D4A20", Offset = "0x24D3020", VA = "0x1824D4A20")]
 	public DeletedRowInaccessibleException()
 	{
 	}
 
-	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x45478D0", Offset = "0x45478D0", VA = "0x45478D0")]
+	[Token(Token = "0x60000AD")]
+	[Address(RVA = "0x24D4A70", Offset = "0x24D3070", VA = "0x1824D4A70")]
 	public DeletedRowInaccessibleException(string s)
 	{
 	}

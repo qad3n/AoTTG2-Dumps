@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000114")]
 public class GreaterThanHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x60008BD")]
-	[Address(RVA = "0x4CF1AD0", Offset = "0x4CF1AD0", VA = "0x4CF1AD0")]
+	[Token(Token = "0x60008C7")]
+	[Address(RVA = "0x2DE55C0", Offset = "0x2DE3BC0", VA = "0x182DE55C0")]
 	public GreaterThanHandler()
 	{
 	}

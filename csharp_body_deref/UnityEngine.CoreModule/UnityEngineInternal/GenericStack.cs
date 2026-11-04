@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngineInternal;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000009")]
 public class GenericStack : Stack
 {
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x4DAB880", Offset = "0x4DAB880", VA = "0x4DAB880")]
+	[Token(Token = "0x600000A")]
+	[Address(RVA = "0x2EC7B90", Offset = "0x2EC6190", VA = "0x182EC7B90")]
 	public GenericStack()
 	{
 	}

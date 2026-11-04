@@ -12,54 +12,54 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20005F9")]
+[Token(Token = "0x200074F")]
 internal class KeybindSettingElement : BaseSettingElement
 {
-	[Token(Token = "0x4001CB2")]
+	[Token(Token = "0x4002443")]
 	[FieldOffset(Offset = "0x38")]
 	private List<Text> _buttonLabels;
 
-	[Token(Token = "0x4001CB3")]
+	[Token(Token = "0x4002444")]
 	[FieldOffset(Offset = "0x40")]
 	private KeybindPopup _keybindPopup;
 
-	[Token(Token = "0x17000B86")]
+	[Token(Token = "0x17000CCB")]
 	protected override HashSet<SettingType> SupportedSettingTypes
 	{
-		[Token(Token = "0x6003C95")]
-		[Address(RVA = "0x4293C90", Offset = "0x4293C90", VA = "0x4293C90", Slot = "4")]
+		[Token(Token = "0x600474D")]
+		[Address(RVA = "0x2214670", Offset = "0x2212C70", VA = "0x182214670", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003C96")]
-	[Address(RVA = "0x4293D10", Offset = "0x4293D10", VA = "0x4293D10")]
+	[Token(Token = "0x600474E")]
+	[Address(RVA = "0x22143D0", Offset = "0x22129D0", VA = "0x1822143D0")]
 	public void Setup(BaseSetting setting, ElementStyle style, string title, KeybindPopup keybindPopup, string tooltip, float elementWidth, float elementHeight, int bindCount)
 	{
 	}
 
-	[Token(Token = "0x6003C97")]
-	[Address(RVA = "0x4293DB0", Offset = "0x4293DB0", VA = "0x4293DB0")]
+	[Token(Token = "0x600474F")]
+	[Address(RVA = "0x2213E20", Offset = "0x2212420", VA = "0x182213E20")]
 	private void CreateKeybindButton(int index, ElementStyle style, float width, float height)
 	{
 	}
 
-	[Token(Token = "0x6003C98")]
-	[Address(RVA = "0x42942A0", Offset = "0x42942A0", VA = "0x42942A0")]
+	[Token(Token = "0x6004750")]
+	[Address(RVA = "0x22142D0", Offset = "0x22128D0", VA = "0x1822142D0")]
 	protected void OnButtonClicked(int index)
 	{
 	}
 
-	[Token(Token = "0x6003C99")]
-	[Address(RVA = "0x4294380", Offset = "0x4294380", VA = "0x4294380", Slot = "6")]
+	[Token(Token = "0x6004751")]
+	[Address(RVA = "0x22144A0", Offset = "0x2212AA0", VA = "0x1822144A0", Slot = "6")]
 	public override void SyncElement()
 	{
 	}
 
-	[Token(Token = "0x6003C9A")]
-	[Address(RVA = "0x42944C0", Offset = "0x42944C0", VA = "0x42944C0")]
+	[Token(Token = "0x6004752")]
+	[Address(RVA = "0x22145F0", Offset = "0x2212BF0", VA = "0x1822145F0")]
 	public KeybindSettingElement()
 	{
 	}

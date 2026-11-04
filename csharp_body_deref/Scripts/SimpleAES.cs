@@ -9,65 +9,65 @@ using System.Security.Cryptography;
 using System.Text;
 using Il2CppDummyDll;
 
-[Token(Token = "0x2000029")]
+[Token(Token = "0x200002B")]
 public class SimpleAES
 {
-	[Token(Token = "0x40000CF")]
+	[Token(Token = "0x40000DF")]
 	[FieldOffset(Offset = "0x10")]
 	private ICryptoTransform decryptor;
 
-	[Token(Token = "0x40000D0")]
+	[Token(Token = "0x40000E0")]
 	[FieldOffset(Offset = "0x18")]
 	private UTF8Encoding encoder;
 
-	[Token(Token = "0x40000D1")]
+	[Token(Token = "0x40000E1")]
 	[FieldOffset(Offset = "0x20")]
 	private ICryptoTransform encryptor;
 
-	[Token(Token = "0x40000D2")]
+	[Token(Token = "0x40000E2")]
 	[FieldOffset(Offset = "0x0")]
 	private static byte[] key;
 
-	[Token(Token = "0x40000D3")]
+	[Token(Token = "0x40000E3")]
 	[FieldOffset(Offset = "0x8")]
 	private static byte[] vector;
 
-	[Token(Token = "0x600010D")]
-	[Address(RVA = "0x3F68560", Offset = "0x3F68560", VA = "0x3F68560")]
+	[Token(Token = "0x600011F")]
+	[Address(RVA = "0x1DAE880", Offset = "0x1DACE80", VA = "0x181DAE880")]
 	public SimpleAES()
 	{
 	}
 
-	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x3F68690", Offset = "0x3F68690", VA = "0x3F68690")]
+	[Token(Token = "0x6000120")]
+	[Address(RVA = "0x1DAE4D0", Offset = "0x1DACAD0", VA = "0x181DAE4D0")]
 	public string Decrypt(string encrypted)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3F68720", Offset = "0x3F68720", VA = "0x3F68720")]
+	[Token(Token = "0x6000121")]
+	[Address(RVA = "0x1DAE570", Offset = "0x1DACB70", VA = "0x181DAE570")]
 	public byte[] Decrypt(byte[] buffer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3F68950", Offset = "0x3F68950", VA = "0x3F68950")]
+	[Token(Token = "0x6000122")]
+	[Address(RVA = "0x1DAE590", Offset = "0x1DACB90", VA = "0x181DAE590")]
 	public string Encrypt(string unencrypted)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3F689D0", Offset = "0x3F689D0", VA = "0x3F689D0")]
+	[Token(Token = "0x6000123")]
+	[Address(RVA = "0x1DAE580", Offset = "0x1DACB80", VA = "0x181DAE580")]
 	public byte[] Encrypt(byte[] buffer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3F68730", Offset = "0x3F68730", VA = "0x3F68730")]
+	[Token(Token = "0x6000124")]
+	[Address(RVA = "0x1DAE620", Offset = "0x1DACC20", VA = "0x181DAE620")]
 	protected byte[] Transform(byte[] buffer, ICryptoTransform transform)
 	{
 		return null;

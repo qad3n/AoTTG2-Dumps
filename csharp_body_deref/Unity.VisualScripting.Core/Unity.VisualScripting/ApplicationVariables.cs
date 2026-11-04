@@ -13,102 +13,102 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001CA")]
 public static class ApplicationVariables
 {
-	[Token(Token = "0x4000939")]
+	[Token(Token = "0x4000937")]
 	public const string assetPath = "ApplicationVariables";
 
-	[Token(Token = "0x400093A")]
+	[Token(Token = "0x4000938")]
 	[FieldOffset(Offset = "0x0")]
 	private static VariablesAsset _asset;
 
-	[Token(Token = "0x170001DB")]
+	[Token(Token = "0x170001DE")]
 	public static VariablesAsset asset
 	{
-		[Token(Token = "0x60010EA")]
-		[Address(RVA = "0x4D63EB0", Offset = "0x4D63EB0", VA = "0x4D63EB0")]
+		[Token(Token = "0x60010F7")]
+		[Address(RVA = "0x2E4F3C0", Offset = "0x2E4D9C0", VA = "0x182E4F3C0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001DC")]
+	[Token(Token = "0x170001DF")]
 	public static VariableDeclarations runtime
 	{
-		[Token(Token = "0x60010EC")]
-		[Address(RVA = "0x4D63FE0", Offset = "0x4D63FE0", VA = "0x4D63FE0")]
+		[Token(Token = "0x60010F9")]
+		[Address(RVA = "0x2E4F580", Offset = "0x2E4DB80", VA = "0x182E4F580")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60010ED")]
-		[Address(RVA = "0x4D64020", Offset = "0x4D64020", VA = "0x4D64020")]
+		[Token(Token = "0x60010FA")]
+		[Address(RVA = "0x2E4F5C0", Offset = "0x2E4DBC0", VA = "0x182E4F5C0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170001DD")]
+	[Token(Token = "0x170001E0")]
 	public static VariableDeclarations initial
 	{
-		[Token(Token = "0x60010EE")]
-		[Address(RVA = "0x4D64070", Offset = "0x4D64070", VA = "0x4D64070")]
+		[Token(Token = "0x60010FB")]
+		[Address(RVA = "0x2E4F560", Offset = "0x2E4DB60", VA = "0x182E4F560")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001DE")]
+	[Token(Token = "0x170001E1")]
 	public static VariableDeclarations current
 	{
-		[Token(Token = "0x60010EF")]
-		[Address(RVA = "0x4D64100", Offset = "0x4D64100", VA = "0x4D64100")]
+		[Token(Token = "0x60010FC")]
+		[Address(RVA = "0x2E4F4D0", Offset = "0x2E4DAD0", VA = "0x182E4F4D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60010EB")]
-	[Address(RVA = "0x4D63F40", Offset = "0x4D63F40", VA = "0x4D63F40")]
+	[Token(Token = "0x60010F8")]
+	[Address(RVA = "0x2E4F320", Offset = "0x2E4D920", VA = "0x182E4F320")]
 	public static void Load()
 	{
 	}
 
-	[Token(Token = "0x60010F0")]
-	[Address(RVA = "0x4D641A0", Offset = "0x4D641A0", VA = "0x4D641A0")]
+	[Token(Token = "0x60010FD")]
+	[Address(RVA = "0x2E4F2C0", Offset = "0x2E4D8C0", VA = "0x182E4F2C0")]
 	public static void OnEnterEditMode()
 	{
 	}
 
-	[Token(Token = "0x60010F1")]
-	[Address(RVA = "0x4D64240", Offset = "0x4D64240", VA = "0x4D64240")]
+	[Token(Token = "0x60010FE")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public static void OnExitEditMode()
 	{
 	}
 
-	[Token(Token = "0x60010F2")]
-	[Address(RVA = "0x4D61770", Offset = "0x4D61770", VA = "0x4D61770")]
+	[Token(Token = "0x60010FF")]
+	[Address(RVA = "0x2E4F1F0", Offset = "0x2E4D7F0", VA = "0x182E4F1F0")]
 	internal static void OnEnterPlayMode()
 	{
 	}
 
-	[Token(Token = "0x60010F3")]
-	[Address(RVA = "0x4D64370", Offset = "0x4D64370", VA = "0x4D64370")]
+	[Token(Token = "0x6001100")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	internal static void OnExitPlayMode()
 	{
 	}
 
-	[Token(Token = "0x60010F4")]
-	[Address(RVA = "0x4D64250", Offset = "0x4D64250", VA = "0x4D64250")]
+	[Token(Token = "0x6001101")]
+	[Address(RVA = "0x2E4F1F0", Offset = "0x2E4D7F0", VA = "0x182E4F1F0")]
 	private static void CreateRuntimeDeclarations()
 	{
 	}
 
-	[Token(Token = "0x60010F5")]
-	[Address(RVA = "0x4D641F0", Offset = "0x4D641F0", VA = "0x4D641F0")]
+	[Token(Token = "0x6001102")]
+	[Address(RVA = "0x2E4F2C0", Offset = "0x2E4D8C0", VA = "0x182E4F2C0")]
 	private static void DestroyRuntimeDeclarations()
 	{
 	}

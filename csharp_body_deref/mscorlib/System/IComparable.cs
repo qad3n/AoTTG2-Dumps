@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000CC")]
+[Token(Token = "0x20000F4")]
 public interface IComparable
 {
-	[Token(Token = "0x6000796")]
+	[Token(Token = "0x60007C8")]
 	int CompareTo(object obj);
 }
-[Token(Token = "0x20000CD")]
+[Token(Token = "0x20000F5")]
 public interface IComparable<in T>
 {
-	[Token(Token = "0x6000797")]
+	[Token(Token = "0x60007C9")]
 	int CompareTo(T other);
 }

@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000299")]
+[Token(Token = "0x20001A4")]
 public interface ICancelAddNew
 {
-	[Token(Token = "0x6001085")]
+	[Token(Token = "0x6000ACD")]
 	void CancelNew(int itemIndex);
 
-	[Token(Token = "0x6001086")]
+	[Token(Token = "0x6000ACE")]
 	void EndNew(int itemIndex);
 }

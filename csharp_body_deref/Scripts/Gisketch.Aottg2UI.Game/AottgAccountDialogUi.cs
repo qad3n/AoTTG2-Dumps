@@ -13,71 +13,71 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000168")]
+[Token(Token = "0x200026E")]
 internal static class AottgAccountDialogUi
 {
-	[Token(Token = "0x40007D6")]
+	[Token(Token = "0x4000C77")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly IGisketchLocalizer Localizer;
 
-	[Token(Token = "0x60007F4")]
-	[Address(RVA = "0x43ED6A0", Offset = "0x43ED6A0", VA = "0x43ED6A0")]
+	[Token(Token = "0x6000EA8")]
+	[Address(RVA = "0x1DD5B20", Offset = "0x1DD4120", VA = "0x181DD5B20")]
 	public static void Intro(AottgUi body, string key, string fallback)
 	{
 	}
 
-	[Token(Token = "0x60007F5")]
-	[Address(RVA = "0x43ED860", Offset = "0x43ED860", VA = "0x43ED860")]
+	[Token(Token = "0x6000EA9")]
+	[Address(RVA = "0x1DD6320", Offset = "0x1DD4920", VA = "0x181DD6320")]
 	public static void Providers(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60007F6")]
-	[Address(RVA = "0x43EDC20", Offset = "0x43EDC20", VA = "0x43EDC20")]
+	[Token(Token = "0x6000EAA")]
+	[Address(RVA = "0x1DD5680", Offset = "0x1DD3C80", VA = "0x181DD5680")]
 	public static void Divider(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60007F7")]
-	[Address(RVA = "0x43EDF30", Offset = "0x43EDF30", VA = "0x43EDF30")]
+	[Token(Token = "0x6000EAB")]
+	[Address(RVA = "0x1DD5E00", Offset = "0x1DD4400", VA = "0x181DD5E00")]
 	public static void LabeledInput(AottgUi ui, string id, string labelKey, string label, string placeholderKey, string placeholder, AottgInputType type, [Optional][DefaultParameterValue(0)] int maxCharacters, [Optional] string value)
 	{
 	}
 
-	[Token(Token = "0x60007F8")]
-	[Address(RVA = "0x43EE230", Offset = "0x43EE230", VA = "0x43EE230")]
+	[Token(Token = "0x6000EAC")]
+	[Address(RVA = "0x1DD5BE0", Offset = "0x1DD41E0", VA = "0x181DD5BE0")]
 	public static void KeepSignedIn(AottgUi ui, string id)
 	{
 	}
 
-	[Token(Token = "0x60007F9")]
-	[Address(RVA = "0x43EE450", Offset = "0x43EE450", VA = "0x43EE450")]
+	[Token(Token = "0x6000EAD")]
+	[Address(RVA = "0x1DD5940", Offset = "0x1DD3F40", VA = "0x181DD5940")]
 	public static void EmptyMethods(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60007FA")]
-	[Address(RVA = "0x43ED750", Offset = "0x43ED750", VA = "0x43ED750")]
+	[Token(Token = "0x6000EAE")]
+	[Address(RVA = "0x1DD64C0", Offset = "0x1DD4AC0", VA = "0x181DD64C0")]
 	public static string Text(string key, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007FB")]
-	[Address(RVA = "0x43EDA00", Offset = "0x43EDA00", VA = "0x43EDA00")]
+	[Token(Token = "0x6000EAF")]
+	[Address(RVA = "0x1DD60C0", Offset = "0x1DD46C0", VA = "0x181DD60C0")]
 	private static void Provider(AottgUi body, string id, string style, string icon, string textKey, string fallback, string action, string visibleKey)
 	{
 	}
 
-	[Token(Token = "0x60007FC")]
-	[Address(RVA = "0x43EDEC0", Offset = "0x43EDEC0", VA = "0x43EDEC0")]
+	[Token(Token = "0x6000EB0")]
+	[Address(RVA = "0x1DD6550", Offset = "0x1DD4B50", VA = "0x181DD6550")]
 	private static GisketchUIBindingDefinition Visible(string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007FD")]
-	[Address(RVA = "0x43EE1C0", Offset = "0x43EE1C0", VA = "0x43EE1C0")]
+	[Token(Token = "0x6000EB1")]
+	[Address(RVA = "0x1DD5AB0", Offset = "0x1DD40B0", VA = "0x181DD5AB0")]
 	private static GisketchUIBindingDefinition Enabled(string key)
 	{
 		return null;

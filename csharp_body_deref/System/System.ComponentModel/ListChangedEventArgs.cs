@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002B5")]
+[Token(Token = "0x20001C0")]
 public class ListChangedEventArgs : EventArgs
 {
-	[Token(Token = "0x170003CB")]
+	[Token(Token = "0x1700023A")]
 	public ListChangedType ListChangedType
 	{
-		[Token(Token = "0x6001106")]
-		[Address(RVA = "0x4897730", Offset = "0x4897730", VA = "0x4897730")]
+		[Token(Token = "0x6000B4E")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public class ListChangedEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x170003CC")]
+	[Token(Token = "0x1700023B")]
 	public int NewIndex
 	{
-		[Token(Token = "0x6001107")]
-		[Address(RVA = "0x4897740", Offset = "0x4897740", VA = "0x4897740")]
+		[Token(Token = "0x6000B4F")]
+		[Address(RVA = "0x8E79A0", Offset = "0x8E5FA0", VA = "0x1808E79A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,11 +37,11 @@ public class ListChangedEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x170003CD")]
+	[Token(Token = "0x1700023C")]
 	public int OldIndex
 	{
-		[Token(Token = "0x6001108")]
-		[Address(RVA = "0x4897750", Offset = "0x4897750", VA = "0x4897750")]
+		[Token(Token = "0x6000B50")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,11 +49,11 @@ public class ListChangedEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x170003CE")]
+	[Token(Token = "0x1700023D")]
 	public PropertyDescriptor PropertyDescriptor
 	{
-		[Token(Token = "0x6001109")]
-		[Address(RVA = "0x4897760", Offset = "0x4897760", VA = "0x4897760")]
+		[Token(Token = "0x6000B51")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -61,26 +61,26 @@ public class ListChangedEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x6001102")]
-	[Address(RVA = "0x4897570", Offset = "0x4897570", VA = "0x4897570")]
+	[Token(Token = "0x6000B4A")]
+	[Address(RVA = "0x28A1960", Offset = "0x289FF60", VA = "0x1828A1960")]
 	public ListChangedEventArgs(ListChangedType listChangedType, int newIndex)
 	{
 	}
 
-	[Token(Token = "0x6001103")]
-	[Address(RVA = "0x4897640", Offset = "0x4897640", VA = "0x4897640")]
+	[Token(Token = "0x6000B4B")]
+	[Address(RVA = "0x28A19D0", Offset = "0x289FFD0", VA = "0x1828A19D0")]
 	public ListChangedEventArgs(ListChangedType listChangedType, int newIndex, PropertyDescriptor propDesc)
 	{
 	}
 
-	[Token(Token = "0x6001104")]
-	[Address(RVA = "0x48976C0", Offset = "0x48976C0", VA = "0x48976C0")]
+	[Token(Token = "0x6000B4C")]
+	[Address(RVA = "0x28A1870", Offset = "0x289FE70", VA = "0x1828A1870")]
 	public ListChangedEventArgs(ListChangedType listChangedType, PropertyDescriptor propDesc)
 	{
 	}
 
-	[Token(Token = "0x6001105")]
-	[Address(RVA = "0x48975D0", Offset = "0x48975D0", VA = "0x48975D0")]
+	[Token(Token = "0x6000B4D")]
+	[Address(RVA = "0x28A18F0", Offset = "0x289FEF0", VA = "0x1828A18F0")]
 	public ListChangedEventArgs(ListChangedType listChangedType, int newIndex, int oldIndex)
 	{
 	}

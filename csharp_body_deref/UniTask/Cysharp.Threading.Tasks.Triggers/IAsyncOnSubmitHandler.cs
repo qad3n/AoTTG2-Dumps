@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000221")]
+[Token(Token = "0x2000224")]
 public interface IAsyncOnSubmitHandler
 {
-	[Token(Token = "0x6000C5A")]
+	[Token(Token = "0x6000C7E")]
 	UniTask<BaseEventData> OnSubmitAsync();
 }

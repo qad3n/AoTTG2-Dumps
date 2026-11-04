@@ -9,29 +9,29 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000249")]
+[Token(Token = "0x20002C5")]
 public abstract class PointerManipulator : MouseManipulator
 {
-	[Token(Token = "0x4000867")]
-	[FieldOffset(Offset = "0x2C")]
+	[Token(Token = "0x4000AAF")]
+	[FieldOffset(Offset = "0x20")]
 	private int m_CurrentPointerId;
 
-	[Token(Token = "0x6000F14")]
-	[Address(RVA = "0x5053390", Offset = "0x5053390", VA = "0x5053390")]
+	[Token(Token = "0x60012CE")]
+	[Address(RVA = "0x32B5660", Offset = "0x32B3C60", VA = "0x1832B5660")]
 	protected bool CanStartManipulation(IPointerEvent e)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F15")]
-	[Address(RVA = "0x50535C0", Offset = "0x50535C0", VA = "0x50535C0")]
+	[Token(Token = "0x60012CF")]
+	[Address(RVA = "0x32B5850", Offset = "0x32B3E50", VA = "0x1832B5850")]
 	protected bool CanStopManipulation(IPointerEvent e)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F16")]
-	[Address(RVA = "0x5053680", Offset = "0x5053680", VA = "0x5053680")]
+	[Token(Token = "0x60012D0")]
+	[Address(RVA = "0x32B0E00", Offset = "0x32AF400", VA = "0x1832B0E00")]
 	protected PointerManipulator()
 	{
 	}

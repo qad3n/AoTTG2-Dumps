@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000061")]
+[Token(Token = "0x200005F")]
 public interface IPlayerLoopItem
 {
-	[Token(Token = "0x6000138")]
+	[Token(Token = "0x6000136")]
 	bool MoveNext();
 }

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000FF")]
+[Token(Token = "0x2000127")]
 public class PlatformNotSupportedException : NotSupportedException
 {
-	[Token(Token = "0x600095E")]
-	[Address(RVA = "0x3CCB0E0", Offset = "0x3CCB0E0", VA = "0x3CCB0E0")]
+	[Token(Token = "0x6000999")]
+	[Address(RVA = "0x1B47910", Offset = "0x1B45F10", VA = "0x181B47910")]
 	public PlatformNotSupportedException()
 	{
 	}
 
-	[Token(Token = "0x600095F")]
-	[Address(RVA = "0x3CCB120", Offset = "0x3CCB120", VA = "0x3CCB120")]
+	[Token(Token = "0x600099A")]
+	[Address(RVA = "0x1B478F0", Offset = "0x1B45EF0", VA = "0x181B478F0")]
 	public PlatformNotSupportedException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000960")]
-	[Address(RVA = "0x3CCB140", Offset = "0x3CCB140", VA = "0x3CCB140")]
+	[Token(Token = "0x600099B")]
+	[Address(RVA = "0x1A42BE0", Offset = "0x1A411E0", VA = "0x181A42BE0")]
 	protected PlatformNotSupportedException(SerializationInfo info, StreamingContext context)
 	{
 	}

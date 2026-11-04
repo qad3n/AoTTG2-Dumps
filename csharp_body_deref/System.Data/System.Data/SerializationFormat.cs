@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000047")]
 public enum SerializationFormat
 {
-	[Token(Token = "0x40000B5")]
+	[Token(Token = "0x4000167")]
 	Xml,
-	[Token(Token = "0x40000B6")]
+	[Token(Token = "0x4000168")]
 	Binary
 }

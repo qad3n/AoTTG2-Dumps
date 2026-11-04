@@ -12,80 +12,80 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TerrainUtils;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000D")]
 public class TerrainMap
 {
-	[Token(Token = "0x400001C")]
+	[Token(Token = "0x4000027")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private Vector3 m_patchSize;
 
-	[Token(Token = "0x400001D")]
+	[Token(Token = "0x4000028")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private TerrainMapStatusCode m_errorCode;
 
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x4000029")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private Dictionary<TerrainTileCoord, Terrain> m_terrainTiles;
 
-	[Token(Token = "0x17000007")]
+	[Token(Token = "0x17000013")]
 	public Dictionary<TerrainTileCoord, Terrain> terrainTiles
 	{
-		[Token(Token = "0x600001F")]
-		[Address(RVA = "0x4EA1210", Offset = "0x4EA1210", VA = "0x4EA1210")]
+		[Token(Token = "0x600003D")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600001C")]
-	[Address(RVA = "0x4EA0370", Offset = "0x4EA0370", VA = "0x4EA0370")]
+	[Token(Token = "0x600003A")]
+	[Address(RVA = "0x2FFAA60", Offset = "0x2FF9060", VA = "0x182FFAA60")]
 	public Terrain GetTerrain(int tileX, int tileZ)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600001D")]
-	[Address(RVA = "0x4EA03E0", Offset = "0x4EA03E0", VA = "0x4EA03E0")]
+	[Token(Token = "0x600003B")]
+	[Address(RVA = "0x2FFA550", Offset = "0x2FF8B50", VA = "0x182FFA550")]
 	public static TerrainMap CreateFromPlacement(Terrain originTerrain, [Optional] Predicate<Terrain> filter, bool fullValidation = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600001E")]
-	[Address(RVA = "0x4EA08B0", Offset = "0x4EA08B0", VA = "0x4EA08B0")]
+	[Token(Token = "0x600003C")]
+	[Address(RVA = "0x2FFA190", Offset = "0x2FF8790", VA = "0x182FFA190")]
 	public static TerrainMap CreateFromPlacement(Vector2 gridOrigin, Vector2 gridSize, [Optional] Predicate<Terrain> filter, bool fullValidation = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000020")]
-	[Address(RVA = "0x4EA0ED0", Offset = "0x4EA0ED0", VA = "0x4EA0ED0")]
+	[Token(Token = "0x600003E")]
+	[Address(RVA = "0x2FFB580", Offset = "0x2FF9B80", VA = "0x182FFB580")]
 	public TerrainMap()
 	{
 	}
 
-	[Token(Token = "0x6000021")]
-	[Address(RVA = "0x4EA1220", Offset = "0x4EA1220", VA = "0x4EA1220")]
+	[Token(Token = "0x600003F")]
+	[Address(RVA = "0x2FF9E70", Offset = "0x2FF8470", VA = "0x182FF9E70")]
 	private void AddTerrainInternal(int x, int z, Terrain terrain)
 	{
 	}
 
-	[Token(Token = "0x6000022")]
-	[Address(RVA = "0x4EA0F50", Offset = "0x4EA0F50", VA = "0x4EA0F50")]
+	[Token(Token = "0x6000040")]
+	[Address(RVA = "0x2FFAAE0", Offset = "0x2FF90E0", VA = "0x182FFAAE0")]
 	private bool TryToAddTerrain(int tileX, int tileZ, Terrain terrain)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000023")]
-	[Address(RVA = "0x4EA13E0", Offset = "0x4EA13E0", VA = "0x4EA13E0")]
+	[Token(Token = "0x6000041")]
+	[Address(RVA = "0x2FFABF0", Offset = "0x2FF91F0", VA = "0x182FFABF0")]
 	private void ValidateTerrain(int tileX, int tileZ)
 	{
 	}
 
-	[Token(Token = "0x6000024")]
-	[Address(RVA = "0x4EA1090", Offset = "0x4EA1090", VA = "0x4EA1090")]
+	[Token(Token = "0x6000042")]
+	[Address(RVA = "0x2FFB430", Offset = "0x2FF9A30", VA = "0x182FFB430")]
 	private TerrainMapStatusCode Validate()
 	{
 		return default(TerrainMapStatusCode);

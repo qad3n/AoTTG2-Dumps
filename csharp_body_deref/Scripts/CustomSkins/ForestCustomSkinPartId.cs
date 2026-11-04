@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000248")]
+[Token(Token = "0x2000362")]
 public enum ForestCustomSkinPartId
 {
-	[Token(Token = "0x4000C74")]
+	[Token(Token = "0x40011A0")]
 	TreeTrunk,
-	[Token(Token = "0x4000C75")]
+	[Token(Token = "0x40011A1")]
 	TreeLeaf,
-	[Token(Token = "0x4000C76")]
+	[Token(Token = "0x40011A2")]
 	Ground
 }

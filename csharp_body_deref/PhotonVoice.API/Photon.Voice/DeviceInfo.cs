@@ -11,33 +11,33 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000031")]
 public struct DeviceInfo
 {
-	[Token(Token = "0x40000EC")]
+	[Token(Token = "0x40000E7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private DeviceFeatures features;
 
-	[Token(Token = "0x40000ED")]
+	[Token(Token = "0x40000E8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private bool useStringID;
 
-	[Token(Token = "0x40000EE")]
+	[Token(Token = "0x40000E9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly DeviceInfo Default;
 
 	[Token(Token = "0x1700003F")]
 	public bool IsDefault
 	{
-		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x3F19520", Offset = "0x3F19520", VA = "0x3F19520")]
+		[Token(Token = "0x6000103")]
+		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x3F19530", Offset = "0x3F19530", VA = "0x3F19530")]
+		[Token(Token = "0x6000104")]
+		[Address(RVA = "0xFA0680", Offset = "0xF9EC80", VA = "0x180FA0680")]
 		[CompilerGenerated]
 		private set
 		{
@@ -47,15 +47,15 @@ public struct DeviceInfo
 	[Token(Token = "0x17000040")]
 	public int IDInt
 	{
-		[Token(Token = "0x6000107")]
-		[Address(RVA = "0x3F19540", Offset = "0x3F19540", VA = "0x3F19540")]
+		[Token(Token = "0x6000105")]
+		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6000108")]
-		[Address(RVA = "0x3F19550", Offset = "0x3F19550", VA = "0x3F19550")]
+		[Token(Token = "0x6000106")]
+		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -65,15 +65,15 @@ public struct DeviceInfo
 	[Token(Token = "0x17000041")]
 	public string IDString
 	{
-		[Token(Token = "0x6000109")]
-		[Address(RVA = "0x3F19560", Offset = "0x3F19560", VA = "0x3F19560")]
+		[Token(Token = "0x6000107")]
+		[Address(RVA = "0xADC170", Offset = "0xADA770", VA = "0x180ADC170")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
-		[Token(Token = "0x600010A")]
-		[Address(RVA = "0x3F19570", Offset = "0x3F19570", VA = "0x3F19570")]
+		[Token(Token = "0x6000108")]
+		[Address(RVA = "0x1D69900", Offset = "0x1D67F00", VA = "0x181D69900")]
 		[CompilerGenerated]
 		private set
 		{
@@ -83,15 +83,15 @@ public struct DeviceInfo
 	[Token(Token = "0x17000042")]
 	public string Name
 	{
-		[Token(Token = "0x600010B")]
-		[Address(RVA = "0x3F19580", Offset = "0x3F19580", VA = "0x3F19580")]
+		[Token(Token = "0x6000109")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return null;
 		}
-		[Token(Token = "0x600010C")]
-		[Address(RVA = "0x3F19590", Offset = "0x3F19590", VA = "0x3F19590")]
+		[Token(Token = "0x600010A")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -101,68 +101,68 @@ public struct DeviceInfo
 	[Token(Token = "0x17000043")]
 	public DeviceFeatures Features
 	{
-		[Token(Token = "0x600010D")]
-		[Address(RVA = "0x3F195A0", Offset = "0x3F195A0", VA = "0x3F195A0")]
+		[Token(Token = "0x600010B")]
+		[Address(RVA = "0x1D69770", Offset = "0x1D67D70", VA = "0x181D69770")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3F192B0", Offset = "0x3F192B0", VA = "0x3F192B0")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x1D69650", Offset = "0x1D67C50", VA = "0x181D69650")]
 	private DeviceInfo(bool isDefault, int idInt, string idString, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
-	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x3F19350", Offset = "0x3F19350", VA = "0x3F19350")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x1D69510", Offset = "0x1D67B10", VA = "0x181D69510")]
 	public DeviceInfo(int id, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
-	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x3F193F0", Offset = "0x3F193F0", VA = "0x3F193F0")]
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x1D696E0", Offset = "0x1D67CE0", VA = "0x181D696E0")]
 	public DeviceInfo(string id, string name, [Optional] DeviceFeatures features)
 	{
 	}
 
-	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3F19490", Offset = "0x3F19490", VA = "0x3F19490")]
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x1D695B0", Offset = "0x1D67BB0", VA = "0x181D695B0")]
 	public DeviceInfo(string name, [Optional] DeviceFeatures features)
 	{
 	}
 
-	[Token(Token = "0x600010E")]
-	[Address(RVA = "0x3F19610", Offset = "0x3F19610", VA = "0x3F19610")]
+	[Token(Token = "0x600010C")]
+	[Address(RVA = "0x1D697E0", Offset = "0x1D67DE0", VA = "0x181D697E0")]
 	public static bool operator ==(DeviceInfo d1, DeviceInfo d2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600010F")]
-	[Address(RVA = "0x3F19770", Offset = "0x3F19770", VA = "0x3F19770")]
+	[Token(Token = "0x600010D")]
+	[Address(RVA = "0x1D69870", Offset = "0x1D67E70", VA = "0x181D69870")]
 	public static bool operator !=(DeviceInfo d1, DeviceInfo d2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000110")]
-	[Address(RVA = "0x3F19700", Offset = "0x3F19700", VA = "0x3F19700", Slot = "0")]
+	[Token(Token = "0x600010E")]
+	[Address(RVA = "0x1D69110", Offset = "0x1D67710", VA = "0x181D69110", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000111")]
-	[Address(RVA = "0x3F19860", Offset = "0x3F19860", VA = "0x3F19860", Slot = "2")]
+	[Token(Token = "0x600010F")]
+	[Address(RVA = "0x1D69190", Offset = "0x1D67790", VA = "0x181D69190", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000112")]
-	[Address(RVA = "0x3F198C0", Offset = "0x3F198C0", VA = "0x3F198C0", Slot = "3")]
+	[Token(Token = "0x6000110")]
+	[Address(RVA = "0x1D69200", Offset = "0x1D67800", VA = "0x181D69200", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

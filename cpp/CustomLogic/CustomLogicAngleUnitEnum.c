@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicAngleUnitEnum
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicAngleUnitEnum.cs
@@ -8,599 +8,492 @@
 
 // CustomLogic.CustomLogicAngleUnitEnum.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicAngleUnitEnum_o* CustomLogic_CustomLogicAngleUnitEnum_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x4146180
+// 0x181fa3e90
 
 CustomLogic_CustomLogicAngleUnitEnum_o *
 CustomLogic_CustomLogicAngleUnitEnum_Factory__CreateInstance(System_Object_array *args,MethodInfo *method)
 
 {
-  uint in_EAX;
-  bool_conflict bVar1;
   CustomLogic_BuiltinClassInstance_o *__this;
-  System_String_o *pSVar2;
-  System_String_o *pSVar3;
+  System_String_o *pSVar1;
   System_String_o *str2;
-  undefined8 uVar4;
+  System_String_o *str0;
+  Il2CppClass *klass;
   System_ArgumentException_o *__this_00;
-  undefined8 *puVar5;
-  System_ArgumentException_o *pSVar6;
-  System_Func_T__object__o *pSVar7;
-  CustomLogic_CustomLogicAngleUnitEnum_o *pCVar8;
-  undefined8 **ppuVar9;
-  undefined8 *puStack_30;
-  System_ArgumentException_o *pSStack_28;
-  System_String_o *pSStack_20;
-  undefined8 uStack_18;
+  MethodInfo *lastManagedFrame;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057acb9d == '\0') {
-    pSStack_20 = (System_String_o *)0x414619c;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicAngleUnitEnum);
-    g_data_057acb9d = '\x01';
+  if (Il2CppMethodInitialized_1843458cf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAngleUnitEnum);
+    Il2CppMethodInitialized_1843458cf = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
-  if (args == (System_Object_array *)0x0) {
-    pSStack_20 = (System_String_o *)0x4146217;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (args->max_length == 0) {
-    pSStack_20 = (System_String_o *)0x41461c6;
-    __this = (CustomLogic_BuiltinClassInstance_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicAngleUnitEnum);
-    if (g_data_057acb9b == '\0') {
-      pSStack_20 = (System_String_o *)0x41461de;
-      il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-      g_data_057acb9b = '\x01';
-    }
-    if (*(int *)(TypeInfo_BuiltinClassInstance + 0xe4) == 0) {
-      pSStack_20 = (System_String_o *)0x41461fd;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_20 = (System_String_o *)0x4146207;
-    CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
-    return (CustomLogic_CustomLogicAngleUnitEnum_o *)__this;
-  }
-  pSStack_20 = (System_String_o *)0x414621f;
-  il2cpp_runtime_helper_01f681a0(args);
-  uStack_18 = CONCAT44((int)args->max_length,(uint)uStack_18);
-  pSStack_20 = (System_String_o *)0x4146232;
-  pSVar2 = System_Int32__ToString((int)&uStack_18 + 4,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x4146241;
-  pSVar3 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"No CustomLogicAngleUnitEnum constructor found that takes ");
-  pSStack_20 = (System_String_o *)0x4146250;
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&" arguments");
-  pSStack_20 = (System_String_o *)0x4146260;
-  pSVar2 = System_String__Concat_3af7150(pSVar3,pSVar2,str2,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x414626f;
-  uVar4 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentException);
-  pSStack_20 = (System_String_o *)0x4146277;
-  __this_00 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar4);
-  pSStack_20 = (System_String_o *)0x4146287;
-  System_ArgumentException___ctor_3c12490(__this_00,pSVar2,(MethodInfo *)0x0);
-  pSStack_20 = (System_String_o *)0x4146293;
-  uVar4 = il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicAngleUnitEnum_CreateInstance);
-  pSStack_20 = (System_String_o *)0x414629e;
-  pSVar6 = __this_00;
-  puStack_30 = (undefined8 *)il2cpp_runtime_helper_022b2b10(__this_00,uVar4);
-  ppuVar9 = &puStack_30;
-  pSStack_28 = __this_00;
-  pSStack_20 = pSVar2;
-  if (g_data_057acb9e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Radian");
-    il2cpp_runtime_helper_023445d0(&"Turn");
-    il2cpp_runtime_helper_023445d0(&"Degree");
-    il2cpp_runtime_helper_023445d0(&"Gradian");
-    g_data_057acb9e = '\x01';
-  }
-  bVar1 = System_String__op_Equality((System_String_o *)pSVar6,"Degree",(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    bVar1 = System_String__op_Equality((System_String_o *)pSVar6,"Gradian",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puVar5 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar5 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+  local_res8[0] = 0;
+  if (args != (System_Object_array *)0x0) {
+    if (args->max_length == 0) {
+      __this = (CustomLogic_BuiltinClassInstance_o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAngleUnitEnum);
+      if (Il2CppMethodInitialized_1843458cd == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+        Il2CppMethodInitialized_1843458cd = '\x01';
       }
-      puStack_30 = puVar5;
-      if (g_data_057acba0 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Gradian_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba0 = '\x01';
+      if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
       }
-      pSVar7 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar8 = (CustomLogic_CustomLogicAngleUnitEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar8,pSVar7,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return pCVar8;
+      CustomLogic_BuiltinClassInstance___ctor(__this,(MethodInfo *)0x0);
+      return (CustomLogic_CustomLogicAngleUnitEnum_o *)__this;
     }
-    bVar1 = System_String__op_Equality((System_String_o *)pSVar6,"Radian",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puVar5 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar5 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar5;
-      if (g_data_057acba1 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Radian_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba1 = '\x01';
-      }
-      pSVar7 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar8 = (CustomLogic_CustomLogicAngleUnitEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar8,pSVar7,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return pCVar8;
-    }
-    bVar1 = System_String__op_Equality((System_String_o *)pSVar6,"Turn",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puVar5 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puVar5 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_30 = puVar5;
-      if (g_data_057acba2 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Turn_g____getter_5_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba2 = '\x01';
-      }
-      pSVar7 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar8 = (CustomLogic_CustomLogicAngleUnitEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar8,pSVar7,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return pCVar8;
-    }
-    pSVar2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-    pSVar3 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAngleUnitEnum not found");
-    pSVar2 = System_String__Concat_3af7150(pSVar2,(System_String_o *)pSVar6,pSVar3,(MethodInfo *)0x0);
-    uVar4 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-    pSVar6 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar4);
-    System_Exception___ctor_3cf6120((System_Exception_o *)pSVar6,pSVar2,(MethodInfo *)0x0);
-    uVar4 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-    puVar5 = (undefined8 *)il2cpp_runtime_helper_022b2b10(pSVar6,uVar4);
+    NullCheck(args);
+    local_res8[0] = (int32_t)args->max_length;
+    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicAngleUnitEnum constructor found that takes ");
+    pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_1a77cc0(__this_00,pSVar1,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Factory_CreateInstance);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  else {
-    puVar5 = &TypeInfo_Bindings;
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      puVar5 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      ppuVar9 = (undefined8 **)&uStack_18;
-      pSVar6 = pSStack_28;
-      pSVar2 = pSStack_20;
-    }
-    else {
-      ppuVar9 = (undefined8 **)&uStack_18;
-      pSVar6 = pSStack_28;
-      pSVar2 = pSStack_20;
-    }
-  }
-  *(System_String_o **)((long)ppuVar9 + -8) = pSVar2;
-  *(System_ArgumentException_o **)((long)ppuVar9 + -0x10) = pSVar6;
-  *(undefined8 **)((long)ppuVar9 + -0x18) = puVar5;
-  if (g_data_057acb9f == '\0') {
-    *(undefined8 *)((long)ppuVar9 + -0x20) = 0x4146499;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Degree_g____getter_2_0);
-    *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464a5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464b1;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464bd;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acb9f = '\x01';
-  }
-  *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464d3;
-  pSVar7 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464ec;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)ppuVar9 + -0x20) = 0x41464fb;
-  pCVar8 = (CustomLogic_CustomLogicAngleUnitEnum_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-  *(undefined8 *)((long)ppuVar9 + -0x20) = 0x4146515;
-  CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)pCVar8,pSVar7,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return pCVar8;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicAngleUnitEnum_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x41462a0
+// 0x181f85850
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicAngleUnitEnum_Bindings__CreateMemberBinding(System_String_o *name,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  undefined8 *puVar2;
+  bool bVar1;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this_00;
+  System_String_o *pSVar2;
   System_String_o *str0;
-  System_String_o *str2;
-  undefined8 uVar3;
-  System_Func_T__object__o *pSVar4;
-  CustomLogic_CLPropertyBinding_T__o *pCVar5;
-  System_Exception_o *unaff_RBX;
-  System_String_o *unaff_R14;
-  undefined8 *puStack_18;
+  Il2CppClass *klass;
+  System_Exception_o *__this_01;
+  MethodInfo *pMVar3;
   
-  if (g_data_057acb9e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Radian");
-    il2cpp_runtime_helper_023445d0(&"Turn");
-    il2cpp_runtime_helper_023445d0(&"Degree");
-    il2cpp_runtime_helper_023445d0(&"Gradian");
-    g_data_057acb9e = '\x01';
+  if (Il2CppMethodInitialized_1843458d0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"Radian");
+    il2cpp_codegen_initialize_runtime_metadata(&"Turn");
+    il2cpp_codegen_initialize_runtime_metadata(&"Degree");
+    il2cpp_codegen_initialize_runtime_metadata(&"Gradian");
+    Il2CppMethodInitialized_1843458d0 = '\x01';
   }
   bVar1 = System_String__op_Equality(name,"Degree",(MethodInfo *)0x0);
-  if ((char)bVar1 == '\0') {
-    bVar1 = System_String__op_Equality(name,"Gradian",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acba0 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Gradian_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba0 = '\x01';
-      }
-      pSVar4 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar5 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar5,pSVar4,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar5;
+  if (bVar1) {
+    if ((TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings)
+      ;
     }
-    bVar1 = System_String__op_Equality(name,"Radian",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acba1 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Radian_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba1 = '\x01';
-      }
-      pSVar4 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar5 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar5,pSVar4,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar5;
+    if (Il2CppMethodInitialized_1843458d1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&
+                 MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Degree_g____getter_2_0
+                );
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+      Il2CppMethodInitialized_1843458d1 = '\x01';
     }
-    bVar1 = System_String__op_Equality(name,"Turn",(MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057acba2 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Turn_g____getter_5_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-        g_data_057acba2 = '\x01';
-      }
-      pSVar4 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-      System_Func_object__object____ctor();
-      pCVar5 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar5,pSVar4,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar5;
-    }
-    str0 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-    str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAngleUnitEnum not found");
-    unaff_R14 = System_String__Concat_3af7150(str0,name,str2,(MethodInfo *)0x0);
-    uVar3 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-    unaff_RBX = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar3);
-    System_Exception___ctor_3cf6120(unaff_RBX,unaff_R14,(MethodInfo *)0x0);
-    uVar3 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-    puVar2 = (undefined8 *)il2cpp_runtime_helper_022b2b10(unaff_RBX,uVar3);
-    register0x00000020 = (BADSPACEBASE *)&puStack_18;
+    __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+             il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+    pMVar3 = 
+    MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Degree_g____getter_2_0;
   }
   else {
-    puVar2 = &TypeInfo_Bindings;
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      puVar2 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
+    bVar1 = System_String__op_Equality(name,"Gradian",(MethodInfo *)0x0);
+    if (bVar1) {
+      if ((TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings);
+      }
+      if (Il2CppMethodInitialized_1843458d2 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Gradian_g____getter_3_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+        Il2CppMethodInitialized_1843458d2 = '\x01';
+      }
+      __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+               il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+      pMVar3 = 
+      MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Gradian_g____getter_3_0
+      ;
+    }
+    else {
+      bVar1 = System_String__op_Equality(name,"Radian",(MethodInfo *)0x0);
+      if (bVar1) {
+        if ((TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_1843458d3 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Radian_g____getter_4_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+          Il2CppMethodInitialized_1843458d3 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+        pMVar3 = 
+        MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Radian_g____getter_4_0
+        ;
+      }
+      else {
+        bVar1 = System_String__op_Equality(name,"Turn",(MethodInfo *)0x0);
+        if (!bVar1) {
+          pSVar2 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicAngleUnitEnum not found");
+          str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+          pSVar2 = System_String__Concat_1969b70(str0,name,pSVar2,(MethodInfo *)0x0);
+          klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+          __this_01 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+          System_Exception___ctor_1b6abf0(__this_01,pSVar2,(MethodInfo *)0x0);
+          pMVar3 = il2cpp_codegen_get_runtime_metadata
+                             (&MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings_CreateMemberBinding);
+          il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,pMVar3);
+        }
+        if ((TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings);
+        }
+        if (Il2CppMethodInitialized_1843458d4 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Turn_g____getter_5_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+          Il2CppMethodInitialized_1843458d4 = '\x01';
+        }
+        __this = (System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)
+                 il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+        pMVar3 = 
+        MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Turn_g____getter_5_0
+        ;
+      }
     }
   }
-  *(System_String_o **)((long)register0x00000020 + -8) = unaff_R14;
-  *(System_Exception_o **)((long)register0x00000020 + -0x10) = unaff_RBX;
-  *(undefined8 **)((long)register0x00000020 + -0x18) = puVar2;
-  if (g_data_057acb9f == '\0') {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4146499;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Degree_g____getter_2_0);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464a5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464b1;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464bd;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acb9f = '\x01';
-  }
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464d3;
-  pSVar4 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464ec;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x41464fb;
-  pCVar5 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x4146515;
-  CustomLogic_CLPropertyBinding_object____ctor(pCVar5,pSVar4,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return (CustomLogic_ICLMemberBinding_o *)pCVar5;
+  System_Func_object__object____ctor
+            (__this,(Il2CppObject *)0x0,(intptr_t)pMVar3,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+  CustomLogic_CLPropertyBinding_object____ctor
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+  return (CustomLogic_ICLMemberBinding_o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$__CreatePropertyBinding__Degree
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o* CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Degree (const MethodInfo* method);
-// 0x4146480
+// 0x181f965d0
 
 CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *
 CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Degree(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this;
+  System_Func_CustomLogicAngleUnitEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this_00;
   
-  if (g_data_057acb9f == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Degree_g____getter_2_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acb9f = '\x01';
+  if (Il2CppMethodInitialized_1843458d1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Degree_g____getter_2_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+    Il2CppMethodInitialized_1843458d1 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Degree_g____getter_2_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$__CreatePropertyBinding__Gradian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o* CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Gradian (const MethodInfo* method);
-// 0x4146520
+// 0x181f97610
 
 CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *
 CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Gradian(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this;
+  System_Func_CustomLogicAngleUnitEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this_00;
   
-  if (g_data_057acba0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Gradian_g____getter_3_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acba0 = '\x01';
+  if (Il2CppMethodInitialized_1843458d2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Gradian_g____getter_3_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+    Il2CppMethodInitialized_1843458d2 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Gradian_g____getter_3_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$__CreatePropertyBinding__Radian
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o* CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Radian (const MethodInfo* method);
-// 0x41465c0
+// 0x181f99b90
 
 CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *
 CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Radian(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this;
+  System_Func_CustomLogicAngleUnitEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this_00;
   
-  if (g_data_057acba1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Radian_g____getter_4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acba1 = '\x01';
+  if (Il2CppMethodInitialized_1843458d3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Radian_g____getter_4_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+    Il2CppMethodInitialized_1843458d3 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Radian_g____getter_4_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$__CreatePropertyBinding__Turn
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o* CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Turn (const MethodInfo* method);
-// 0x4146660
+// 0x181f9c070
 
 CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *
 CustomLogic_CustomLogicAngleUnitEnum_Bindings____CreatePropertyBinding__Turn(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this;
+  System_Func_CustomLogicAngleUnitEnum__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *__this_00;
   
-  if (g_data_057acba2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Turn_g____getter_5_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-    g_data_057acba2 = '\x01';
+  if (Il2CppMethodInitialized_1843458d4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Turn_g____getter_5_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+    Il2CppMethodInitialized_1843458d4 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAngleUnitEnum_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAngleUnitEnum);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAngleUnitEnum_object);
+  System_Func_object__object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings___CreatePropertyBinding__Turn_g____getter_5_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAngleUnitEnum);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAngleUnitEnum_ctor);
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicAngleUnitEnum_Bindings___cctor (const MethodInfo* method);
-// 0x4146700
+// 0x181f9d070
 
 void CustomLogic_CustomLogicAngleUnitEnum_Bindings___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_HashSet_object__o *__this;
-  undefined8 uStack_20;
+  System_Collections_Generic_HashSet_string__o *__this;
   
-  if (g_data_057acba3 == '\0') {
-    uStack_20 = 0x4146719;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    uStack_20 = 0x4146725;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    uStack_20 = 0x4146731;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    uStack_20 = 0x414673d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    uStack_20 = 0x4146749;
-    il2cpp_runtime_helper_023445d0(&"Radian");
-    uStack_20 = 0x4146755;
-    il2cpp_runtime_helper_023445d0(&"Turn");
-    uStack_20 = 0x4146761;
-    il2cpp_runtime_helper_023445d0(&"Degree");
-    uStack_20 = 0x414676d;
-    il2cpp_runtime_helper_023445d0(&"Gradian");
-    g_data_057acba3 = '\x01';
+  if (Il2CppMethodInitialized_1843458d5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"Radian");
+    il2cpp_codegen_initialize_runtime_metadata(&"Turn");
+    il2cpp_codegen_initialize_runtime_metadata(&"Degree");
+    il2cpp_codegen_initialize_runtime_metadata(&"Gradian");
+    Il2CppMethodInitialized_1843458d5 = '\x01';
   }
-  uStack_20 = 0x4146783;
-  __this = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  uStack_20 = 0x4146798;
-  System_Collections_Generic_HashSet_object____ctor(__this,MethodInfo_HashSet_1_System_String);
-  if (__this != (System_Collections_Generic_HashSet_object__o *)0x0) {
-    uStack_20 = 0x41467bd;
-    System_Collections_Generic_HashSet_object___Add(__this,"Degree",MethodInfo_Boolean_Add);
-    uStack_20 = 0x41467d2;
-    System_Collections_Generic_HashSet_object___Add(__this,"Gradian",MethodInfo_Boolean_Add);
-    uStack_20 = 0x41467e7;
-    System_Collections_Generic_HashSet_object___Add(__this,"Radian",MethodInfo_Boolean_Add);
-    uStack_20 = 0x41467fc;
-    System_Collections_Generic_HashSet_object___Add(__this,"Turn",MethodInfo_Boolean_Add);
-    **(undefined8 **)(TypeInfo_Bindings + 0xb8) = __this;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_Bindings + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Degree",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Gradian",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Radian",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Turn",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->static_fields->MemberNames = __this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAngleUnitEnum_Bindings->static_fields->MemberNames,__this);
     return;
   }
-  uStack_20 = 0x414682e;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  uStack_20 = uStack_20 & 0xffffffff;
-  il2cpp_runtime_helper_02304f30(g_data_057b9bb8,(long)&uStack_20 + 4);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$<__CreatePropertyBinding__Degree>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Degree_g____getter_2_0 (CustomLogic_CustomLogicAngleUnitEnum_o* __i, const MethodInfo* method);
-// 0x4146830
+// 0x181ef2260
 
-Il2CppObject *
-CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Degree_g____getter_2_0
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Degree_g____getter_2_0(CustomLogic_CustomLogicAngleUnitEnum_o* __i, MethodInfo* method)
 
 {
-  uint in_EAX;
   Il2CppObject *pIVar1;
-  undefined8 uStack_8;
+  undefined4 local_res18 [4];
   
-  uStack_8 = (ulong)in_EAX;
-  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,(long)&uStack_8 + 4);
+  local_res18[0] = 0;
+  pIVar1 = il2cpp_value_box(g_data_184354e08,local_res18);
   return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$<__CreatePropertyBinding__Gradian>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Gradian_g____getter_3_0 (CustomLogic_CustomLogicAngleUnitEnum_o* __i, const MethodInfo* method);
-// 0x4146850
+// 0x181ef2200
 
-Il2CppObject *
-CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Gradian_g____getter_3_0
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Gradian_g____getter_3_0(CustomLogic_CustomLogicAngleUnitEnum_o* __i, MethodInfo* method)
 
 {
   Il2CppObject *pIVar1;
-  undefined1 auStack_4 [4];
+  undefined4 local_res18 [4];
   
-  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_4);
+  local_res18[0] = 1;
+  pIVar1 = il2cpp_value_box(g_data_184354e08,local_res18);
   return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$<__CreatePropertyBinding__Radian>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Radian_g____getter_4_0 (CustomLogic_CustomLogicAngleUnitEnum_o* __i, const MethodInfo* method);
-// 0x4146870
+// 0x181ef2230
 
-Il2CppObject *
-CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Radian_g____getter_4_0
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Radian_g____getter_4_0(CustomLogic_CustomLogicAngleUnitEnum_o* __i, MethodInfo* method)
 
 {
   Il2CppObject *pIVar1;
-  undefined1 auStack_4 [4];
+  undefined4 local_res18 [4];
   
-  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_4);
+  local_res18[0] = 2;
+  pIVar1 = il2cpp_value_box(g_data_184354e08,local_res18);
   return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum.Bindings$$<__CreatePropertyBinding__Turn>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Turn_g____getter_5_0 (CustomLogic_CustomLogicAngleUnitEnum_o* __i, const MethodInfo* method);
-// 0x4146890
+// 0x181f8d5d0
 
-Il2CppObject *
-CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Turn_g____getter_5_0
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__i,MethodInfo *method)
+Il2CppObject*
+CustomLogic_CustomLogicAngleUnitEnum_Bindings_____CreatePropertyBinding__Turn_g____getter_5_0(CustomLogic_CustomLogicAngleUnitEnum_o* __i, MethodInfo* method)
 
 {
   Il2CppObject *pIVar1;
-  undefined1 auStack_4 [4];
+  undefined4 local_res18 [4];
   
-  pIVar1 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,auStack_4);
+  local_res18[0] = 3;
+  pIVar1 = il2cpp_value_box(g_data_184354e08,local_res18);
   return pIVar1;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum$$.ctor
 // il2cpp: void CustomLogic_CustomLogicAngleUnitEnum___ctor (CustomLogic_CustomLogicAngleUnitEnum_o* __this, const MethodInfo* method);
-// 0x4146070
+// 0x181f9f650
 
 void CustomLogic_CustomLogicAngleUnitEnum___ctor
                (CustomLogic_CustomLogicAngleUnitEnum_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  
-  if (g_data_057acb9b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057acb9b = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if (Il2CppMethodInitialized_1843458cd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_BuiltinClassInstance);
+    Il2CppMethodInitialized_1843458cd = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
+  if ((TypeInfo_CustomLogic_BuiltinClassInstance->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_BuiltinClassInstance);
   }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_02337ed0();
   CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
   return;
 }
@@ -608,20 +501,22 @@ void CustomLogic_CustomLogicAngleUnitEnum___ctor
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_Degree
 // il2cpp: int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Degree (const MethodInfo* method);
-// 0x41460e0
+// 0x18059b2e0
 
-int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Degree(MethodInfo *method)
+int32_t
+CustomLogic_CustomLogicAngleUnitEnum__get_Degree(MethodInfo* method)
 
 {
-  return 0;
+  return (Unity_Collections_AllocatorManager_TryFunction_o *)0x0;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_Gradian
 // il2cpp: int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Gradian (const MethodInfo* method);
-// 0x41460f0
+// 0x180564040
 
-int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Gradian(MethodInfo *method)
+int32_t
+CustomLogic_CustomLogicAngleUnitEnum__get_Gradian(MethodInfo* method)
 
 {
   return 1;
@@ -630,9 +525,10 @@ int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Gradian(MethodInfo *method)
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_Radian
 // il2cpp: int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Radian (const MethodInfo* method);
-// 0x4146100
+// 0x180846f80
 
-int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Radian(MethodInfo *method)
+int32_t
+CustomLogic_CustomLogicAngleUnitEnum__get_Radian(MethodInfo* method)
 
 {
   return 2;
@@ -641,9 +537,10 @@ int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Radian(MethodInfo *method)
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_Turn
 // il2cpp: int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Turn (const MethodInfo* method);
-// 0x4146110
+// 0x180565fb0
 
-int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Turn(MethodInfo *method)
+int32_t
+CustomLogic_CustomLogicAngleUnitEnum__get_Turn(MethodInfo* method)
 
 {
   return 3;
@@ -652,16 +549,16 @@ int32_t CustomLogic_CustomLogicAngleUnitEnum__get_Turn(MethodInfo *method)
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicAngleUnitEnum__get_ClassName (CustomLogic_CustomLogicAngleUnitEnum_o* __this, const MethodInfo* method);
-// 0x4146120
+// 0x181f9f6a0
 
 System_String_o *
 CustomLogic_CustomLogicAngleUnitEnum__get_ClassName
           (CustomLogic_CustomLogicAngleUnitEnum_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057acb9c == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AngleUnitEnum");
-    g_data_057acb9c = '\x01';
+  if (Il2CppMethodInitialized_1843458ce == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"AngleUnitEnum");
+    Il2CppMethodInitialized_1843458ce = '\x01';
   }
   return "AngleUnitEnum";
 }
@@ -669,46 +566,37 @@ CustomLogic_CustomLogicAngleUnitEnum__get_ClassName
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicAngleUnitEnum__get_IsAbstract (CustomLogic_CustomLogicAngleUnitEnum_o* __this, const MethodInfo* method);
-// 0x4146150
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAngleUnitEnum__get_IsAbstract
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAngleUnitEnum__get_IsAbstract(CustomLogic_CustomLogicAngleUnitEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicAngleUnitEnum__get_IsStatic (CustomLogic_CustomLogicAngleUnitEnum_o* __this, const MethodInfo* method);
-// 0x4146160
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAngleUnitEnum__get_IsStatic
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAngleUnitEnum__get_IsStatic(CustomLogic_CustomLogicAngleUnitEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicAngleUnitEnum$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicAngleUnitEnum__get_InheritBaseMembers (CustomLogic_CustomLogicAngleUnitEnum_o* __this, const MethodInfo* method);
-// 0x4146170
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAngleUnitEnum__get_InheritBaseMembers
-          (CustomLogic_CustomLogicAngleUnitEnum_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAngleUnitEnum__get_InheritBaseMembers(CustomLogic_CustomLogicAngleUnitEnum_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 

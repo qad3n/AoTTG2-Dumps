@@ -11,24 +11,24 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000B4")]
+[Token(Token = "0x20000D8")]
 public class ColorGamutUtility
 {
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x4DC42B0", Offset = "0x4DC42B0", VA = "0x4DC42B0")]
+	[Token(Token = "0x60004C7")]
+	[Address(RVA = "0x2EC0F40", Offset = "0x2EBF540", VA = "0x182EC0F40")]
 	[UnityEngine.Bindings.FreeFunction(IsThreadSafe = true)]
 	public static extern ColorPrimaries GetColorPrimaries(ColorGamut gamut);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x4DC42E0", Offset = "0x4DC42E0", VA = "0x4DC42E0")]
+	[Token(Token = "0x60004C8")]
+	[Address(RVA = "0x2EC0FC0", Offset = "0x2EBF5C0", VA = "0x182EC0FC0")]
 	[UnityEngine.Bindings.FreeFunction(IsThreadSafe = true)]
 	public static extern WhitePoint GetWhitePoint(ColorGamut gamut);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x4DC4310", Offset = "0x4DC4310", VA = "0x4DC4310")]
+	[Token(Token = "0x60004C9")]
+	[Address(RVA = "0x2EC0F80", Offset = "0x2EBF580", VA = "0x182EC0F80")]
 	[UnityEngine.Bindings.FreeFunction(IsThreadSafe = true)]
 	public static extern TransferFunction GetTransferFunction(ColorGamut gamut);
 }

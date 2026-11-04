@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace GameProgress;
 
-[Token(Token = "0x20001F8")]
+[Token(Token = "0x2000309")]
 public enum KillWeapon
 {
-	[Token(Token = "0x4000A8A")]
+	[Token(Token = "0x4000F65")]
 	Blade,
-	[Token(Token = "0x4000A8B")]
+	[Token(Token = "0x4000F66")]
 	AHSS,
-	[Token(Token = "0x4000A8C")]
+	[Token(Token = "0x4000F67")]
 	Thunderspear,
-	[Token(Token = "0x4000A8D")]
+	[Token(Token = "0x4000F68")]
 	APG,
-	[Token(Token = "0x4000A8E")]
+	[Token(Token = "0x4000F69")]
 	Other,
-	[Token(Token = "0x4000A8F")]
+	[Token(Token = "0x4000F6A")]
 	Shifter,
-	[Token(Token = "0x4000A90")]
+	[Token(Token = "0x4000F6B")]
 	Titan
 }

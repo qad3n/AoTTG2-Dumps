@@ -21,29 +21,29 @@ internal class ScopeExpression : BlockExpression
 	[Token(Token = "0x17000064")]
 	protected IReadOnlyList<ParameterExpression> VariablesList
 	{
-		[Token(Token = "0x60002D9")]
-		[Address(RVA = "0x44AEEA0", Offset = "0x44AEEA0", VA = "0x44AEEA0")]
+		[Token(Token = "0x60002D8")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60002D7")]
-	[Address(RVA = "0x44AEDF0", Offset = "0x44AEDF0", VA = "0x44AEDF0")]
+	[Token(Token = "0x60002D6")]
+	[Address(RVA = "0x2429580", Offset = "0x2427B80", VA = "0x182429580")]
 	internal ScopeExpression(IReadOnlyList<ParameterExpression> variables)
 	{
 	}
 
-	[Token(Token = "0x60002D8")]
-	[Address(RVA = "0x44AEE60", Offset = "0x44AEE60", VA = "0x44AEE60", Slot = "13")]
+	[Token(Token = "0x60002D7")]
+	[Address(RVA = "0x243EBE0", Offset = "0x243D1E0", VA = "0x18243EBE0", Slot = "13")]
 	internal override ReadOnlyCollection<ParameterExpression> GetOrMakeVariables()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60002DA")]
-	[Address(RVA = "0x44AEEB0", Offset = "0x44AEEB0", VA = "0x44AEEB0")]
+	[Token(Token = "0x60002D9")]
+	[Address(RVA = "0x243EC20", Offset = "0x243D220", VA = "0x18243EC20")]
 	internal IReadOnlyList<ParameterExpression> ReuseOrValidateVariables(ReadOnlyCollection<ParameterExpression> variables)
 	{
 		return null;

@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000147")]
+[Token(Token = "0x2000178")]
 [UnityEngine.Scripting.UsedByNativeCode]
 public sealed class HideInInspector : Attribute
 {
-	[Token(Token = "0x6000988")]
-	[Address(RVA = "0x4DF3E20", Offset = "0x4DF3E20", VA = "0x4DF3E20")]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public HideInInspector()
 	{
 	}

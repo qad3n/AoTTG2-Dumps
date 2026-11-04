@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000435")]
+[Token(Token = "0x2000464")]
 public enum GCHandleType
 {
-	[Token(Token = "0x4001245")]
-	Weak,
-	[Token(Token = "0x4001246")]
-	WeakTrackResurrection,
 	[Token(Token = "0x4001247")]
-	Normal,
+	Weak,
 	[Token(Token = "0x4001248")]
+	WeakTrackResurrection,
+	[Token(Token = "0x4001249")]
+	Normal,
+	[Token(Token = "0x400124A")]
 	Pinned
 }

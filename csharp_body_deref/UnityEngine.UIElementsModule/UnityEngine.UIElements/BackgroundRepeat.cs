@@ -6,33 +6,27 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
-using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 using Unity.Properties;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200000F")]
+[Serializable]
+[Token(Token = "0x2000013")]
 public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 {
-	[Token(Token = "0x2000010")]
+	[Token(Token = "0x2000014")]
 	internal class PropertyBag : ContainerPropertyBag<BackgroundRepeat>
 	{
-		[Token(Token = "0x2000011")]
+		[Token(Token = "0x2000015")]
 		private class XProperty : Property<BackgroundRepeat, Repeat>
 		{
-			[Token(Token = "0x4000021")]
-			[FieldOffset(Offset = "0x20")]
-			[CompilerGenerated]
-			[DebuggerBrowsable(DebuggerBrowsableState.Never)]
-			private readonly bool _003CIsReadOnly_003Ek__BackingField;
-
-			[Token(Token = "0x1700000A")]
+			[Token(Token = "0x17000013")]
 			public override string Name
 			{
-				[Token(Token = "0x6000045")]
-				[Address(RVA = "0x4F0DB40", Offset = "0x4F0DB40", VA = "0x4F0DB40", Slot = "7")]
+				[Token(Token = "0x6000062")]
+				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -40,27 +34,46 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 				}
 			}
 
-			[Token(Token = "0x6000046")]
-			[Address(RVA = "0x4F0DA80", Offset = "0x4F0DA80", VA = "0x4F0DA80")]
+			[Token(Token = "0x17000014")]
+			public override bool IsReadOnly
+			{
+				[Token(Token = "0x6000063")]
+				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[CompilerGenerated]
+				get
+				{
+					return default(bool);
+				}
+			}
+
+			[Token(Token = "0x6000064")]
+			[Address(RVA = "0x1392600", Offset = "0x1390C00", VA = "0x181392600", Slot = "14")]
+			public override Repeat GetValue(ref BackgroundRepeat container)
+			{
+				return default(Repeat);
+			}
+
+			[Token(Token = "0x6000065")]
+			[Address(RVA = "0x2FF6340", Offset = "0x2FF4940", VA = "0x182FF6340", Slot = "15")]
+			public override void SetValue(ref BackgroundRepeat container, Repeat value)
+			{
+			}
+
+			[Token(Token = "0x6000066")]
+			[Address(RVA = "0x309D6E0", Offset = "0x309BCE0", VA = "0x18309D6E0")]
 			public XProperty()
 			{
 			}
 		}
 
-		[Token(Token = "0x2000012")]
+		[Token(Token = "0x2000016")]
 		private class YProperty : Property<BackgroundRepeat, Repeat>
 		{
-			[Token(Token = "0x4000023")]
-			[FieldOffset(Offset = "0x20")]
-			[CompilerGenerated]
-			[DebuggerBrowsable(DebuggerBrowsableState.Never)]
-			private readonly bool _003CIsReadOnly_003Ek__BackingField;
-
-			[Token(Token = "0x1700000B")]
+			[Token(Token = "0x17000015")]
 			public override string Name
 			{
-				[Token(Token = "0x6000047")]
-				[Address(RVA = "0x4F0DB50", Offset = "0x4F0DB50", VA = "0x4F0DB50", Slot = "7")]
+				[Token(Token = "0x6000067")]
+				[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "12")]
 				[CompilerGenerated]
 				get
 				{
@@ -68,78 +81,103 @@ public struct BackgroundRepeat : IEquatable<BackgroundRepeat>
 				}
 			}
 
-			[Token(Token = "0x6000048")]
-			[Address(RVA = "0x4F0DAE0", Offset = "0x4F0DAE0", VA = "0x4F0DAE0")]
+			[Token(Token = "0x17000016")]
+			public override bool IsReadOnly
+			{
+				[Token(Token = "0x6000068")]
+				[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "13")]
+				[CompilerGenerated]
+				get
+				{
+					return default(bool);
+				}
+			}
+
+			[Token(Token = "0x6000069")]
+			[Address(RVA = "0x2FF6710", Offset = "0x2FF4D10", VA = "0x182FF6710", Slot = "14")]
+			public override Repeat GetValue(ref BackgroundRepeat container)
+			{
+				return default(Repeat);
+			}
+
+			[Token(Token = "0x600006A")]
+			[Address(RVA = "0x2FF6870", Offset = "0x2FF4E70", VA = "0x182FF6870", Slot = "15")]
+			public override void SetValue(ref BackgroundRepeat container, Repeat value)
+			{
+			}
+
+			[Token(Token = "0x600006B")]
+			[Address(RVA = "0x309D7E0", Offset = "0x309BDE0", VA = "0x18309D7E0")]
 			public YProperty()
 			{
 			}
 		}
 
-		[Token(Token = "0x6000044")]
-		[Address(RVA = "0x4F0D900", Offset = "0x4F0D900", VA = "0x4F0D900")]
+		[Token(Token = "0x6000061")]
+		[Address(RVA = "0x3095FC0", Offset = "0x30945C0", VA = "0x183095FC0")]
 		public PropertyBag()
 		{
 		}
 	}
 
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x400002F")]
 	[FieldOffset(Offset = "0x0")]
 	public Repeat x;
 
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x4000030")]
 	[FieldOffset(Offset = "0x4")]
 	public Repeat y;
 
-	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4F0D110", Offset = "0x4F0D110", VA = "0x4F0D110")]
+	[Token(Token = "0x6000059")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	public BackgroundRepeat(Repeat repeatX, Repeat repeatY)
 	{
 	}
 
-	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4F0D770", Offset = "0x4F0D770", VA = "0x4F0D770")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x2FDFD60", Offset = "0x2FDE360", VA = "0x182FDFD60")]
 	internal static BackgroundRepeat Initial()
 	{
 		return default(BackgroundRepeat);
 	}
 
-	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4F0D780", Offset = "0x4F0D780", VA = "0x4F0D780", Slot = "0")]
+	[Token(Token = "0x600005B")]
+	[Address(RVA = "0x307E050", Offset = "0x307C650", VA = "0x18307E050", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600003F")]
-	[Address(RVA = "0x4F0D7F0", Offset = "0x4F0D7F0", VA = "0x4F0D7F0", Slot = "4")]
+	[Token(Token = "0x600005C")]
+	[Address(RVA = "0x2F7ECA0", Offset = "0x2F7D2A0", VA = "0x182F7ECA0", Slot = "4")]
 	public bool Equals(BackgroundRepeat other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000040")]
-	[Address(RVA = "0x4F0D810", Offset = "0x4F0D810", VA = "0x4F0D810", Slot = "2")]
+	[Token(Token = "0x600005D")]
+	[Address(RVA = "0x307E0E0", Offset = "0x307C6E0", VA = "0x18307E0E0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4F0D6F0", Offset = "0x4F0D6F0", VA = "0x4F0D6F0")]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x307E1B0", Offset = "0x307C7B0", VA = "0x18307E1B0")]
 	public static bool operator ==(BackgroundRepeat style1, BackgroundRepeat style2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4F0D850", Offset = "0x4F0D850", VA = "0x4F0D850")]
+	[Token(Token = "0x600005F")]
+	[Address(RVA = "0x307E1D0", Offset = "0x307C7D0", VA = "0x18307E1D0")]
 	public static bool operator !=(BackgroundRepeat style1, BackgroundRepeat style2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000043")]
-	[Address(RVA = "0x4F0D870", Offset = "0x4F0D870", VA = "0x4F0D870", Slot = "3")]
+	[Token(Token = "0x6000060")]
+	[Address(RVA = "0x307E120", Offset = "0x307C720", VA = "0x18307E120", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

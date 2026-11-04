@@ -10,175 +10,175 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005AB")]
+[Token(Token = "0x200057F")]
 internal static class TimeSpanFormat
 {
-	[Token(Token = "0x20005AC")]
+	[Token(Token = "0x2000580")]
 	internal enum Pattern
 	{
-		[Token(Token = "0x4001860")]
+		[Token(Token = "0x40016AF")]
 		None,
-		[Token(Token = "0x4001861")]
+		[Token(Token = "0x40016B0")]
 		Minimum,
-		[Token(Token = "0x4001862")]
+		[Token(Token = "0x40016B1")]
 		Full
 	}
 
-	[Token(Token = "0x20005AD")]
+	[Token(Token = "0x2000581")]
 	internal struct FormatLiterals
 	{
-		[Token(Token = "0x4001863")]
+		[Token(Token = "0x40016B2")]
 		[FieldOffset(Offset = "0x0")]
 		internal string AppCompatLiteral;
 
-		[Token(Token = "0x4001864")]
+		[Token(Token = "0x40016B3")]
 		[FieldOffset(Offset = "0x8")]
 		internal int dd;
 
-		[Token(Token = "0x4001865")]
+		[Token(Token = "0x40016B4")]
 		[FieldOffset(Offset = "0xC")]
 		internal int hh;
 
-		[Token(Token = "0x4001866")]
+		[Token(Token = "0x40016B5")]
 		[FieldOffset(Offset = "0x10")]
 		internal int mm;
 
-		[Token(Token = "0x4001867")]
+		[Token(Token = "0x40016B6")]
 		[FieldOffset(Offset = "0x14")]
 		internal int ss;
 
-		[Token(Token = "0x4001868")]
+		[Token(Token = "0x40016B7")]
 		[FieldOffset(Offset = "0x18")]
 		internal int ff;
 
-		[Token(Token = "0x4001869")]
+		[Token(Token = "0x40016B8")]
 		[FieldOffset(Offset = "0x20")]
 		private string[] _literals;
 
-		[Token(Token = "0x1700067C")]
+		[Token(Token = "0x1700060B")]
 		internal string Start
 		{
-			[Token(Token = "0x6002C28")]
-			[Address(RVA = "0x3C4BFD0", Offset = "0x3C4BFD0", VA = "0x3C4BFD0")]
+			[Token(Token = "0x6002946")]
+			[Address(RVA = "0x1AA40B0", Offset = "0x1AA26B0", VA = "0x181AA40B0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x1700067D")]
+		[Token(Token = "0x1700060C")]
 		internal string DayHourSep
 		{
-			[Token(Token = "0x6002C29")]
-			[Address(RVA = "0x3C4BFF0", Offset = "0x3C4BFF0", VA = "0x3C4BFF0")]
+			[Token(Token = "0x6002947")]
+			[Address(RVA = "0x1AA3FC0", Offset = "0x1AA25C0", VA = "0x181AA3FC0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x1700067E")]
+		[Token(Token = "0x1700060D")]
 		internal string HourMinuteSep
 		{
-			[Token(Token = "0x6002C2A")]
-			[Address(RVA = "0x3C4C010", Offset = "0x3C4C010", VA = "0x3C4C010")]
+			[Token(Token = "0x6002948")]
+			[Address(RVA = "0x1AA4020", Offset = "0x1AA2620", VA = "0x181AA4020")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x1700067F")]
+		[Token(Token = "0x1700060E")]
 		internal string MinuteSecondSep
 		{
-			[Token(Token = "0x6002C2B")]
-			[Address(RVA = "0x3C4C030", Offset = "0x3C4C030", VA = "0x3C4C030")]
+			[Token(Token = "0x6002949")]
+			[Address(RVA = "0x1AA4050", Offset = "0x1AA2650", VA = "0x181AA4050")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000680")]
+		[Token(Token = "0x1700060F")]
 		internal string SecondFractionSep
 		{
-			[Token(Token = "0x6002C2C")]
-			[Address(RVA = "0x3C4C050", Offset = "0x3C4C050", VA = "0x3C4C050")]
+			[Token(Token = "0x600294A")]
+			[Address(RVA = "0x1AA4080", Offset = "0x1AA2680", VA = "0x181AA4080")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000681")]
+		[Token(Token = "0x17000610")]
 		internal string End
 		{
-			[Token(Token = "0x6002C2D")]
-			[Address(RVA = "0x3C4C070", Offset = "0x3C4C070", VA = "0x3C4C070")]
+			[Token(Token = "0x600294B")]
+			[Address(RVA = "0x1AA3FF0", Offset = "0x1AA25F0", VA = "0x181AA3FF0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6002C2E")]
-		[Address(RVA = "0x3C4C150", Offset = "0x3C4C150", VA = "0x3C4C150")]
+		[Token(Token = "0x600294C")]
+		[Address(RVA = "0x1AA3A00", Offset = "0x1AA2000", VA = "0x181AA3A00")]
 		internal static FormatLiterals InitInvariant(bool isNegative)
 		{
 			return default(FormatLiterals);
 		}
 
-		[Token(Token = "0x6002C2F")]
-		[Address(RVA = "0x3C4BAB0", Offset = "0x3C4BAB0", VA = "0x3C4BAB0")]
+		[Token(Token = "0x600294D")]
+		[Address(RVA = "0x1AA3C10", Offset = "0x1AA2210", VA = "0x181AA3C10")]
 		internal void Init(ReadOnlySpan<char> format, bool useInvariantFieldLengths)
 		{
 		}
 	}
 
-	[Token(Token = "0x400185D")]
+	[Token(Token = "0x40016AC")]
 	[FieldOffset(Offset = "0x0")]
 	internal static readonly FormatLiterals PositiveInvariantFormatLiterals;
 
-	[Token(Token = "0x400185E")]
+	[Token(Token = "0x40016AD")]
 	[FieldOffset(Offset = "0x28")]
 	internal static readonly FormatLiterals NegativeInvariantFormatLiterals;
 
-	[Token(Token = "0x6002C21")]
-	[Address(RVA = "0x3C4A4E0", Offset = "0x3C4A4E0", VA = "0x3C4A4E0")]
+	[Token(Token = "0x600293F")]
+	[Address(RVA = "0x1A731D0", Offset = "0x1A717D0", VA = "0x181A731D0")]
 	private static void AppendNonNegativeInt32(StringBuilder sb, int n, int digits)
 	{
 	}
 
-	[Token(Token = "0x6002C22")]
-	[Address(RVA = "0x3C4A5B0", Offset = "0x3C4A5B0", VA = "0x3C4A5B0")]
+	[Token(Token = "0x6002940")]
+	[Address(RVA = "0x1A742D0", Offset = "0x1A728D0", VA = "0x181A742D0")]
 	internal static string Format(TimeSpan value, string format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C23")]
-	[Address(RVA = "0x3C4A9E0", Offset = "0x3C4A9E0", VA = "0x3C4A9E0")]
+	[Token(Token = "0x6002941")]
+	[Address(RVA = "0x1A743A0", Offset = "0x1A729A0", VA = "0x181A743A0")]
 	internal static bool TryFormat(TimeSpan value, Span<char> destination, out int charsWritten, ReadOnlySpan<char> format, IFormatProvider formatProvider)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002C24")]
-	[Address(RVA = "0x3C4A680", Offset = "0x3C4A680", VA = "0x3C4A680")]
+	[Token(Token = "0x6002942")]
+	[Address(RVA = "0x1A73F80", Offset = "0x1A72580", VA = "0x181A73F80")]
 	private static StringBuilder FormatToBuilder(TimeSpan value, ReadOnlySpan<char> format, IFormatProvider formatProvider)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C25")]
-	[Address(RVA = "0x3C4AAE0", Offset = "0x3C4AAE0", VA = "0x3C4AAE0")]
+	[Token(Token = "0x6002943")]
+	[Address(RVA = "0x1A73A70", Offset = "0x1A72070", VA = "0x181A73A70")]
 	private static StringBuilder FormatStandard(TimeSpan value, bool isInvariant, ReadOnlySpan<char> format, Pattern pattern)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002C26")]
-	[Address(RVA = "0x3C4B160", Offset = "0x3C4B160", VA = "0x3C4B160")]
+	[Token(Token = "0x6002944")]
+	[Address(RVA = "0x1A732A0", Offset = "0x1A718A0", VA = "0x181A732A0")]
 	private static StringBuilder FormatCustomized(TimeSpan value, ReadOnlySpan<char> format, DateTimeFormatInfo dtfi, StringBuilder result)
 	{
 		return null;

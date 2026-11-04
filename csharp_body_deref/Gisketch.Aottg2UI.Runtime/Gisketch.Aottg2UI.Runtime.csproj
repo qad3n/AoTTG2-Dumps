@@ -21,6 +21,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Gilzoide.FlexUi">
+      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core">
       <HintPath>../../dumps/il2cpp/DummyDll/System.Core.dll</HintPath>
     </Reference>
@@ -35,9 +38,6 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>../../dumps/il2cpp/DummyDll/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Gilzoide.FlexUi">
-      <HintPath>../../dumps/il2cpp/DummyDll/Gilzoide.FlexUi.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.AudioModule.dll</HintPath>

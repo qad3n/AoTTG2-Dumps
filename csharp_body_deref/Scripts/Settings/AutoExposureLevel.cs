@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200007F")]
+[Token(Token = "0x200009B")]
 public enum AutoExposureLevel
 {
-	[Token(Token = "0x40002AC")]
+	[Token(Token = "0x4000313")]
 	Off,
-	[Token(Token = "0x40002AD")]
+	[Token(Token = "0x4000314")]
 	On
 }

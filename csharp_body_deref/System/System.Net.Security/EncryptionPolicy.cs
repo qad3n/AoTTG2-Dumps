@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Net.Security;
 
-[Token(Token = "0x2000233")]
+[Token(Token = "0x20003CB")]
 public enum EncryptionPolicy
 {
-	[Token(Token = "0x4000C82")]
+	[Token(Token = "0x40010D5")]
 	RequireEncryption,
-	[Token(Token = "0x4000C83")]
+	[Token(Token = "0x40010D6")]
 	AllowNoEncryption,
-	[Token(Token = "0x4000C84")]
+	[Token(Token = "0x40010D7")]
 	NoEncryption
 }

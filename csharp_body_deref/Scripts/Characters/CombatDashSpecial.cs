@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x200051F")]
+[Token(Token = "0x2000679")]
 internal class CombatDashSpecial : BaseEmoteSpecial
 {
-	[Token(Token = "0x4001813")]
+	[Token(Token = "0x4001EB0")]
 	[FieldOffset(Offset = "0x48")]
 	protected float Range;
 
-	[Token(Token = "0x170009EB")]
+	[Token(Token = "0x17000B1F")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60035CC")]
-		[Address(RVA = "0x41F4370", Offset = "0x41F4370", VA = "0x41F4370", Slot = "14")]
+		[Token(Token = "0x600400A")]
+		[Address(RVA = "0x1D9F790", Offset = "0x1D9DD90", VA = "0x181D9F790", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170009EC")]
+	[Token(Token = "0x17000B20")]
 	protected override bool GroundedOnly
 	{
-		[Token(Token = "0x60035CD")]
-		[Address(RVA = "0x41F4380", Offset = "0x41F4380", VA = "0x41F4380", Slot = "17")]
+		[Token(Token = "0x600400B")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60035CE")]
-	[Address(RVA = "0x41F4390", Offset = "0x41F4390", VA = "0x41F4390")]
+	[Token(Token = "0x600400C")]
+	[Address(RVA = "0x216A690", Offset = "0x2168C90", VA = "0x18216A690")]
 	public CombatDashSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60035CF")]
-	[Address(RVA = "0x41F43B0", Offset = "0x41F43B0", VA = "0x41F43B0", Slot = "9")]
+	[Token(Token = "0x600400D")]
+	[Address(RVA = "0x216A4C0", Offset = "0x2168AC0", VA = "0x18216A4C0", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60035D0")]
-	[Address(RVA = "0x41F45D0", Offset = "0x41F45D0", VA = "0x41F45D0", Slot = "10")]
+	[Token(Token = "0x600400E")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

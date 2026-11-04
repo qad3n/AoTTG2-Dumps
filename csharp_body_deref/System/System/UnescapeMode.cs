@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000088")]
+[Token(Token = "0x20000C7")]
 [Flags]
 internal enum UnescapeMode
 {
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x40002D9")]
 	CopyOnly = 0,
-	[Token(Token = "0x400020A")]
+	[Token(Token = "0x40002DA")]
 	Escape = 1,
-	[Token(Token = "0x400020B")]
+	[Token(Token = "0x40002DB")]
 	Unescape = 2,
-	[Token(Token = "0x400020C")]
-	EscapeUnescape = 3,
-	[Token(Token = "0x400020D")]
+	[Token(Token = "0x40002DC")]
+	EscapeUnescape = Escape | Unescape,
+	[Token(Token = "0x40002DD")]
 	V1ToStringFlag = 4,
-	[Token(Token = "0x400020E")]
+	[Token(Token = "0x40002DE")]
 	UnescapeAll = 8,
-	[Token(Token = "0x400020F")]
+	[Token(Token = "0x40002DF")]
 	UnescapeAllOrThrow = 0x18
 }

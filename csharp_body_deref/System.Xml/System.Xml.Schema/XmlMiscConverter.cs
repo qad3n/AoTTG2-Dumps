@@ -13,48 +13,48 @@ namespace System.Xml.Schema;
 internal class XmlMiscConverter : XmlBaseConverter
 {
 	[Token(Token = "0x60018FE")]
-	[Address(RVA = "0x474F0F0", Offset = "0x474F0F0", VA = "0x474F0F0")]
+	[Address(RVA = "0x2698760", Offset = "0x2696D60", VA = "0x182698760")]
 	protected XmlMiscConverter(XmlSchemaType schemaType)
 	{
 	}
 
 	[Token(Token = "0x60018FF")]
-	[Address(RVA = "0x474F150", Offset = "0x474F150", VA = "0x474F150")]
+	[Address(RVA = "0x2698040", Offset = "0x2696640", VA = "0x182698040")]
 	public static XmlValueConverter Create(XmlSchemaType schemaType)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001900")]
-	[Address(RVA = "0x474F1E0", Offset = "0x474F1E0", VA = "0x474F1E0", Slot = "52")]
+	[Address(RVA = "0x26980D0", Offset = "0x26966D0", VA = "0x1826980D0", Slot = "52")]
 	public override string ToString(object value, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001901")]
-	[Address(RVA = "0x474F820", Offset = "0x474F820", VA = "0x474F820", Slot = "59")]
+	[Address(RVA = "0x26969E0", Offset = "0x2694FE0", VA = "0x1826969E0", Slot = "59")]
 	public override object ChangeType(string value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001902")]
-	[Address(RVA = "0x474FE40", Offset = "0x474FE40", VA = "0x474FE40", Slot = "61")]
+	[Address(RVA = "0x2697030", Offset = "0x2695630", VA = "0x182697030", Slot = "61")]
 	public override object ChangeType(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001903")]
-	[Address(RVA = "0x474F700", Offset = "0x474F700", VA = "0x474F700")]
+	[Address(RVA = "0x2696740", Offset = "0x2694D40", VA = "0x182696740")]
 	private object ChangeTypeWildcardDestination(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001904")]
-	[Address(RVA = "0x474FCF0", Offset = "0x474FCF0", VA = "0x474FCF0")]
+	[Address(RVA = "0x2696880", Offset = "0x2694E80", VA = "0x182696880")]
 	private object ChangeTypeWildcardSource(object value, Type destinationType, IXmlNamespaceResolver nsResolver)
 	{
 		return null;

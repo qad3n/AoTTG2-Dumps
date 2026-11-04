@@ -10,52 +10,52 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x2000507")]
+[Token(Token = "0x2000537")]
 [Flags]
 internal enum PInvokeAttributes
 {
-	[Token(Token = "0x40014E3")]
+	[Token(Token = "0x40014E2")]
 	NoMangle = 1,
-	[Token(Token = "0x40014E4")]
+	[Token(Token = "0x40014E3")]
 	CharSetMask = 6,
-	[Token(Token = "0x40014E5")]
+	[Token(Token = "0x40014E4")]
 	CharSetNotSpec = 0,
-	[Token(Token = "0x40014E6")]
+	[Token(Token = "0x40014E5")]
 	CharSetAnsi = 2,
-	[Token(Token = "0x40014E7")]
+	[Token(Token = "0x40014E6")]
 	CharSetUnicode = 4,
+	[Token(Token = "0x40014E7")]
+	CharSetAuto = CharSetMask,
 	[Token(Token = "0x40014E8")]
-	CharSetAuto = 6,
-	[Token(Token = "0x40014E9")]
 	BestFitUseAssem = 0,
-	[Token(Token = "0x40014EA")]
+	[Token(Token = "0x40014E9")]
 	BestFitEnabled = 0x10,
-	[Token(Token = "0x40014EB")]
+	[Token(Token = "0x40014EA")]
 	BestFitDisabled = 0x20,
+	[Token(Token = "0x40014EB")]
+	BestFitMask = BestFitEnabled | BestFitDisabled,
 	[Token(Token = "0x40014EC")]
-	BestFitMask = 0x30,
-	[Token(Token = "0x40014ED")]
 	ThrowOnUnmappableCharUseAssem = 0,
-	[Token(Token = "0x40014EE")]
+	[Token(Token = "0x40014ED")]
 	ThrowOnUnmappableCharEnabled = 0x1000,
-	[Token(Token = "0x40014EF")]
+	[Token(Token = "0x40014EE")]
 	ThrowOnUnmappableCharDisabled = 0x2000,
+	[Token(Token = "0x40014EF")]
+	ThrowOnUnmappableCharMask = ThrowOnUnmappableCharEnabled | ThrowOnUnmappableCharDisabled,
 	[Token(Token = "0x40014F0")]
-	ThrowOnUnmappableCharMask = 0x3000,
-	[Token(Token = "0x40014F1")]
 	SupportsLastError = 0x40,
-	[Token(Token = "0x40014F2")]
+	[Token(Token = "0x40014F1")]
 	CallConvMask = 0x700,
-	[Token(Token = "0x40014F3")]
+	[Token(Token = "0x40014F2")]
 	CallConvWinapi = 0x100,
-	[Token(Token = "0x40014F4")]
+	[Token(Token = "0x40014F3")]
 	CallConvCdecl = 0x200,
-	[Token(Token = "0x40014F5")]
+	[Token(Token = "0x40014F4")]
 	CallConvStdcall = 0x300,
-	[Token(Token = "0x40014F6")]
+	[Token(Token = "0x40014F5")]
 	CallConvThiscall = 0x400,
-	[Token(Token = "0x40014F7")]
+	[Token(Token = "0x40014F6")]
 	CallConvFastcall = 0x500,
-	[Token(Token = "0x40014F8")]
+	[Token(Token = "0x40014F7")]
 	MaxValue = 0xFFFF
 }

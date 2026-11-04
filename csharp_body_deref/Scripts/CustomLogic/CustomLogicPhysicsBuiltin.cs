@@ -11,249 +11,249 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x2000419")]
+[Token(Token = "0x200056F")]
 [CompilerGenerated]
 internal class CustomLogicPhysicsBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x200041A")]
+	[Token(Token = "0x2000570")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002A26")]
-		[Address(RVA = "0x40DF570", Offset = "0x40DF570", VA = "0x40DF570")]
+		[Token(Token = "0x600338A")]
+		[Address(RVA = "0x203C390", Offset = "0x203A990", VA = "0x18203C390")]
 		public static CustomLogicPhysicsBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200041B")]
+	[Token(Token = "0x2000571")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400115A")]
+		[Token(Token = "0x4001797")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002A27")]
-		[Address(RVA = "0x40DF690", Offset = "0x40DF690", VA = "0x40DF690")]
+		[Token(Token = "0x600338B")]
+		[Address(RVA = "0x20208F0", Offset = "0x201EEF0", VA = "0x1820208F0")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A28")]
-		[Address(RVA = "0x40DFC20", Offset = "0x40DFC20", VA = "0x40DFC20")]
+		[Token(Token = "0x600338C")]
+		[Address(RVA = "0x20282F0", Offset = "0x20268F0", VA = "0x1820282F0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__GetPhysicsLayerMask()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A29")]
-		[Address(RVA = "0x40DFD70", Offset = "0x40DFD70", VA = "0x40DFD70")]
+		[Token(Token = "0x600338D")]
+		[Address(RVA = "0x2029190", Offset = "0x2027790", VA = "0x182029190")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__LineCast()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2A")]
-		[Address(RVA = "0x40DFEC0", Offset = "0x40DFEC0", VA = "0x40DFEC0")]
+		[Token(Token = "0x600338E")]
+		[Address(RVA = "0x2029070", Offset = "0x2027670", VA = "0x182029070")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__LineCastWithMask()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2B")]
-		[Address(RVA = "0x40E0010", Offset = "0x40E0010", VA = "0x40E0010")]
+		[Token(Token = "0x600338F")]
+		[Address(RVA = "0x2028F50", Offset = "0x2027550", VA = "0x182028F50")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__LineCastAll()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2C")]
-		[Address(RVA = "0x40E0160", Offset = "0x40E0160", VA = "0x40E0160")]
+		[Token(Token = "0x6003390")]
+		[Address(RVA = "0x202D7E0", Offset = "0x202BDE0", VA = "0x18202D7E0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__SphereCast()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2D")]
-		[Address(RVA = "0x40E02B0", Offset = "0x40E02B0", VA = "0x40E02B0")]
+		[Token(Token = "0x6003391")]
+		[Address(RVA = "0x202D6C0", Offset = "0x202BCC0", VA = "0x18202D6C0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__SphereCastWithMask()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2E")]
-		[Address(RVA = "0x40E0400", Offset = "0x40E0400", VA = "0x40E0400")]
+		[Token(Token = "0x6003392")]
+		[Address(RVA = "0x202D5A0", Offset = "0x202BBA0", VA = "0x18202D5A0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__SphereCastAll()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A2F")]
-		[Address(RVA = "0x40E0550", Offset = "0x40E0550", VA = "0x40E0550")]
+		[Token(Token = "0x6003393")]
+		[Address(RVA = "0x20256D0", Offset = "0x2023CD0", VA = "0x1820256D0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__BoxCast()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A30")]
-		[Address(RVA = "0x40E06A0", Offset = "0x40E06A0", VA = "0x40E06A0")]
+		[Token(Token = "0x6003394")]
+		[Address(RVA = "0x20255B0", Offset = "0x2023BB0", VA = "0x1820255B0")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__BoxCastAll()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A31")]
-		[Address(RVA = "0x40E07F0", Offset = "0x40E07F0", VA = "0x40E07F0")]
+		[Token(Token = "0x6003395")]
+		[Address(RVA = "0x2025B50", Offset = "0x2024150", VA = "0x182025B50")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__ClosestPoint()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A32")]
-		[Address(RVA = "0x40E0940", Offset = "0x40E0940", VA = "0x40E0940")]
+		[Token(Token = "0x6003396")]
+		[Address(RVA = "0x2025C70", Offset = "0x2024270", VA = "0x182025C70")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__ComputePenetration()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A33")]
-		[Address(RVA = "0x40E0A90", Offset = "0x40E0A90", VA = "0x40E0A90")]
+		[Token(Token = "0x6003397")]
+		[Address(RVA = "0x2025490", Offset = "0x2023A90", VA = "0x182025490")]
 		public static CLMethodBinding<CustomLogicPhysicsBuiltin> __CreateMethodBinding__AreCollidersOverlapping()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700088A")]
+	[Token(Token = "0x1700097D")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002A22")]
-		[Address(RVA = "0x40DF510", Offset = "0x40DF510", VA = "0x40DF510", Slot = "4")]
+		[Token(Token = "0x6003386")]
+		[Address(RVA = "0x203ACE0", Offset = "0x20392E0", VA = "0x18203ACE0", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700088B")]
+	[Token(Token = "0x1700097E")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002A23")]
-		[Address(RVA = "0x40DF540", Offset = "0x40DF540", VA = "0x40DF540", Slot = "6")]
+		[Token(Token = "0x6003387")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700088C")]
+	[Token(Token = "0x1700097F")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002A24")]
-		[Address(RVA = "0x40DF550", Offset = "0x40DF550", VA = "0x40DF550", Slot = "7")]
+		[Token(Token = "0x6003388")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700088D")]
+	[Token(Token = "0x17000980")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002A25")]
-		[Address(RVA = "0x40DF560", Offset = "0x40DF560", VA = "0x40DF560", Slot = "8")]
+		[Token(Token = "0x6003389")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002A15")]
-	[Address(RVA = "0x40DC960", Offset = "0x40DC960", VA = "0x40DC960")]
+	[Token(Token = "0x6003379")]
+	[Address(RVA = "0x203AC90", Offset = "0x2039290", VA = "0x18203AC90")]
 	public CustomLogicPhysicsBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6002A16")]
-	[Address(RVA = "0x40DC9D0", Offset = "0x40DC9D0", VA = "0x40DC9D0")]
+	[Token(Token = "0x600337A")]
+	[Address(RVA = "0x2039350", Offset = "0x2037950", VA = "0x182039350")]
 	public static int GetPhysicsLayerMask(CustomLogicListBuiltin layers)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002A17")]
-	[Address(RVA = "0x40DCB50", Offset = "0x40DCB50", VA = "0x40DCB50")]
+	[Token(Token = "0x600337B")]
+	[Address(RVA = "0x2039E20", Offset = "0x2038420", VA = "0x182039E20")]
 	public static CustomLogicLineCastHitResultBuiltin LineCast(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A18")]
-	[Address(RVA = "0x40DCF10", Offset = "0x40DCF10", VA = "0x40DCF10")]
+	[Token(Token = "0x600337C")]
+	[Address(RVA = "0x2039AB0", Offset = "0x20380B0", VA = "0x182039AB0")]
 	public static CustomLogicLineCastHitResultBuiltin LineCastWithMask(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, int mask)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A19")]
-	[Address(RVA = "0x40DD240", Offset = "0x40DD240", VA = "0x40DD240")]
+	[Token(Token = "0x600337D")]
+	[Address(RVA = "0x20394E0", Offset = "0x2037AE0", VA = "0x1820394E0")]
 	public static CustomLogicListBuiltin LineCastAll(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1A")]
-	[Address(RVA = "0x40DD8F0", Offset = "0x40DD8F0", VA = "0x40DD8F0")]
+	[Token(Token = "0x600337E")]
+	[Address(RVA = "0x203AA00", Offset = "0x2039000", VA = "0x18203AA00")]
 	public static object SphereCast(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, float radius, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1B")]
-	[Address(RVA = "0x40DDBF0", Offset = "0x40DDBF0", VA = "0x40DDBF0")]
+	[Token(Token = "0x600337F")]
+	[Address(RVA = "0x203A800", Offset = "0x2038E00", VA = "0x18203A800")]
 	public static object SphereCastWithMask(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, float radius, int mask)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1C")]
-	[Address(RVA = "0x40DDEB0", Offset = "0x40DDEB0", VA = "0x40DDEB0")]
+	[Token(Token = "0x6003380")]
+	[Address(RVA = "0x203A210", Offset = "0x2038810", VA = "0x18203A210")]
 	public static CustomLogicListBuiltin SphereCastAll(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, float radius, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1D")]
-	[Address(RVA = "0x40DE570", Offset = "0x40DE570", VA = "0x40DE570")]
+	[Token(Token = "0x6003381")]
+	[Address(RVA = "0x2038CC0", Offset = "0x20372C0", VA = "0x182038CC0")]
 	public static object BoxCast(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, CustomLogicVector3Builtin dimensions, CustomLogicQuaternionBuiltin orientation, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1E")]
-	[Address(RVA = "0x40DE920", Offset = "0x40DE920", VA = "0x40DE920")]
+	[Token(Token = "0x6003382")]
+	[Address(RVA = "0x2038640", Offset = "0x2036C40", VA = "0x182038640")]
 	public static CustomLogicListBuiltin BoxCastAll(CustomLogicVector3Builtin start, CustomLogicVector3Builtin end, CustomLogicVector3Builtin dimensions, CustomLogicQuaternionBuiltin orientation, string collideWith)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A1F")]
-	[Address(RVA = "0x40DF080", Offset = "0x40DF080", VA = "0x40DF080")]
+	[Token(Token = "0x6003383")]
+	[Address(RVA = "0x2038FF0", Offset = "0x20375F0", VA = "0x182038FF0")]
 	public static CustomLogicVector3Builtin ClosestPoint(CustomLogicVector3Builtin point, CustomLogicColliderBuiltin collider, CustomLogicVector3Builtin position, CustomLogicQuaternionBuiltin rotation)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A20")]
-	[Address(RVA = "0x40DF1C0", Offset = "0x40DF1C0", VA = "0x40DF1C0")]
+	[Token(Token = "0x6003384")]
+	[Address(RVA = "0x2039140", Offset = "0x2037740", VA = "0x182039140")]
 	public static CustomLogicVector3Builtin ComputePenetration(CustomLogicColliderBuiltin colliderA, CustomLogicVector3Builtin positionA, CustomLogicQuaternionBuiltin rotationA, CustomLogicColliderBuiltin colliderB, CustomLogicVector3Builtin positionB, CustomLogicQuaternionBuiltin rotationB)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A21")]
-	[Address(RVA = "0x40DF3A0", Offset = "0x40DF3A0", VA = "0x40DF3A0")]
+	[Token(Token = "0x6003385")]
+	[Address(RVA = "0x20384B0", Offset = "0x2036AB0", VA = "0x1820384B0")]
 	public static bool AreCollidersOverlapping(CustomLogicColliderBuiltin colliderA, CustomLogicVector3Builtin positionA, CustomLogicQuaternionBuiltin rotationA, CustomLogicColliderBuiltin colliderB, CustomLogicVector3Builtin positionB, CustomLogicQuaternionBuiltin rotationB)
 	{
 		return default(bool);

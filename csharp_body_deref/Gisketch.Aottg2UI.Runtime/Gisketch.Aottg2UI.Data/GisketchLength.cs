@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x2000053")]
+[Token(Token = "0x2000066")]
 public sealed class GisketchLength
 {
-	[Token(Token = "0x40001D5")]
+	[Token(Token = "0x4000240")]
 	[FieldOffset(Offset = "0x10")]
 	public float value;
 
-	[Token(Token = "0x40001D6")]
+	[Token(Token = "0x4000241")]
 	[FieldOffset(Offset = "0x18")]
 	public string unit;
 
-	[Token(Token = "0x600025E")]
-	[Address(RVA = "0x3A57660", Offset = "0x3A57660", VA = "0x3A57660")]
+	[Token(Token = "0x600032A")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public GisketchLength()
 	{
 	}

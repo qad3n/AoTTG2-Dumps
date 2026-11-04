@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics;
 
-[Token(Token = "0x20005E4")]
-[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Delegate, AllowMultiple = true)]
+[Token(Token = "0x20005B6")]
 [ComVisible(true)]
+[AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Delegate, AllowMultiple = true)]
 public sealed class DebuggerDisplayAttribute : Attribute
 {
-	[Token(Token = "0x4001A07")]
+	[Token(Token = "0x4001823")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string name;
 
-	[Token(Token = "0x4001A08")]
+	[Token(Token = "0x4001824")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string value;
 
-	[Token(Token = "0x4001A09")]
+	[Token(Token = "0x4001825")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private string type;
 
-	[Token(Token = "0x1700070F")]
+	[Token(Token = "0x1700069C")]
 	public string Name
 	{
-		[Token(Token = "0x6002E61")]
-		[Address(RVA = "0x3C7A740", Offset = "0x3C7A740", VA = "0x3C7A740")]
+		[Token(Token = "0x6002B6E")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000710")]
+	[Token(Token = "0x1700069D")]
 	public string Type
 	{
-		[Token(Token = "0x6002E62")]
-		[Address(RVA = "0x3C7A750", Offset = "0x3C7A750", VA = "0x3C7A750")]
+		[Token(Token = "0x6002B6F")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002E60")]
-	[Address(RVA = "0x3C7A6B0", Offset = "0x3C7A6B0", VA = "0x3C7A6B0")]
+	[Token(Token = "0x6002B6D")]
+	[Address(RVA = "0x1ABF600", Offset = "0x1ABDC00", VA = "0x181ABF600")]
 	public DebuggerDisplayAttribute(string value)
 	{
 	}

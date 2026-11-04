@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001A8")]
+[Token(Token = "0x20001AB")]
 [DisallowMultipleComponent]
 public sealed class AsyncOnCanvasGroupChangedTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0x4A0B370", Offset = "0x4A0B370", VA = "0x4A0B370")]
+	[Token(Token = "0x6000AD4")]
+	[Address(RVA = "0x2933180", Offset = "0x2931780", VA = "0x182933180")]
 	private void OnCanvasGroupChanged()
 	{
 	}
 
-	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x4A0B3E0", Offset = "0x4A0B3E0", VA = "0x4A0B3E0")]
+	[Token(Token = "0x6000AD5")]
+	[Address(RVA = "0x2932E70", Offset = "0x2931470", VA = "0x182932E70")]
 	public IAsyncOnCanvasGroupChangedHandler GetOnCanvasGroupChangedAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0x4A0B450", Offset = "0x4A0B450", VA = "0x4A0B450")]
+	[Token(Token = "0x6000AD6")]
+	[Address(RVA = "0x2932EE0", Offset = "0x29314E0", VA = "0x182932EE0")]
 	public IAsyncOnCanvasGroupChangedHandler GetOnCanvasGroupChangedAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x4A0B4C0", Offset = "0x4A0B4C0", VA = "0x4A0B4C0")]
+	[Token(Token = "0x6000AD7")]
+	[Address(RVA = "0x2933070", Offset = "0x2931670", VA = "0x182933070")]
 	public UniTask OnCanvasGroupChangedAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x4A0B5B0", Offset = "0x4A0B5B0", VA = "0x4A0B5B0")]
+	[Token(Token = "0x6000AD8")]
+	[Address(RVA = "0x2932F60", Offset = "0x2931560", VA = "0x182932F60")]
 	public UniTask OnCanvasGroupChangedAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x4A0B6A0", Offset = "0x4A0B6A0", VA = "0x4A0B6A0")]
+	[Token(Token = "0x6000AD9")]
+	[Address(RVA = "0x29331F0", Offset = "0x29317F0", VA = "0x1829331F0")]
 	public AsyncOnCanvasGroupChangedTrigger()
 	{
 	}

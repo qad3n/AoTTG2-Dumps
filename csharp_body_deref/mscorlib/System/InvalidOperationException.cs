@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000DE")]
+[Token(Token = "0x2000106")]
 public class InvalidOperationException : SystemException
 {
-	[Token(Token = "0x600081D")]
-	[Address(RVA = "0x3CB6AB0", Offset = "0x3CB6AB0", VA = "0x3CB6AB0")]
+	[Token(Token = "0x600084F")]
+	[Address(RVA = "0x1B2AE50", Offset = "0x1B29450", VA = "0x181B2AE50")]
 	public InvalidOperationException()
 	{
 	}
 
-	[Token(Token = "0x600081E")]
-	[Address(RVA = "0x3CB6AF0", Offset = "0x3CB6AF0", VA = "0x3CB6AF0")]
+	[Token(Token = "0x6000850")]
+	[Address(RVA = "0x1B2AEC0", Offset = "0x1B294C0", VA = "0x181B2AEC0")]
 	public InvalidOperationException(string message)
 	{
 	}
 
-	[Token(Token = "0x600081F")]
-	[Address(RVA = "0x3CB6B10", Offset = "0x3CB6B10", VA = "0x3CB6B10")]
+	[Token(Token = "0x6000851")]
+	[Address(RVA = "0x1B2AEA0", Offset = "0x1B294A0", VA = "0x181B2AEA0")]
 	public InvalidOperationException(string message, Exception innerException)
 	{
 	}
 
-	[Token(Token = "0x6000820")]
-	[Address(RVA = "0x3CB6B30", Offset = "0x3CB6B30", VA = "0x3CB6B30")]
+	[Token(Token = "0x6000852")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected InvalidOperationException(SerializationInfo info, StreamingContext context)
 	{
 	}

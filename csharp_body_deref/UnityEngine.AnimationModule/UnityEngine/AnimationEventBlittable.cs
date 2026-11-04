@@ -12,7 +12,7 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Serializable]
-[Token(Token = "0x200000B")]
+[Token(Token = "0x200000C")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 internal struct AnimationEventBlittable : IDisposable
 {
@@ -64,29 +64,29 @@ internal struct AnimationEventBlittable : IDisposable
 	[ThreadStatic]
 	private static GCHandlePool s_handlePool;
 
-	[Token(Token = "0x600003A")]
-	[Address(RVA = "0x4DA2990", Offset = "0x4DA2990", VA = "0x4DA2990")]
+	[Token(Token = "0x6000046")]
+	[Address(RVA = "0x2EAACC0", Offset = "0x2EA92C0", VA = "0x182EAACC0")]
 	internal unsafe static void FromAnimationEvents(AnimationEvent[] animationEvents, AnimationEventBlittable* animationEventBlittables)
 	{
 	}
 
-	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x4DA2C20", Offset = "0x4DA2C20", VA = "0x4DA2C20")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x2EAAED0", Offset = "0x2EA94D0", VA = "0x182EAAED0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal static AnimationEvent PointerToAnimationEvent(IntPtr animationEventBlittable)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x4DA2CF0", Offset = "0x4DA2CF0", VA = "0x4DA2CF0")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x2EAAF40", Offset = "0x2EA9540", VA = "0x182EAAF40")]
 	internal static AnimationEvent ToAnimationEvent(AnimationEventBlittable animationEventBlittable)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x4DA3180", Offset = "0x4DA3180", VA = "0x4DA3180", Slot = "4")]
+	[Token(Token = "0x6000049")]
+	[Address(RVA = "0x2EAAB60", Offset = "0x2EA9160", VA = "0x182EAAB60", Slot = "4")]
 	public void Dispose()
 	{
 	}

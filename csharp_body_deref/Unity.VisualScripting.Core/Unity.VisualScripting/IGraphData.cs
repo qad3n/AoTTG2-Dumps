@@ -12,21 +12,21 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200007D")]
 public interface IGraphData
 {
-	[Token(Token = "0x60003CC")]
+	[Token(Token = "0x60003D6")]
 	bool TryGetElementData(IGraphElementWithData element, out IGraphElementData data);
 
-	[Token(Token = "0x60003CD")]
+	[Token(Token = "0x60003D7")]
 	bool TryGetChildGraphData(IGraphParentElement element, out IGraphData data);
 
-	[Token(Token = "0x60003CE")]
+	[Token(Token = "0x60003D8")]
 	IGraphElementData CreateElementData(IGraphElementWithData element);
 
-	[Token(Token = "0x60003CF")]
+	[Token(Token = "0x60003D9")]
 	void FreeElementData(IGraphElementWithData element);
 
-	[Token(Token = "0x60003D0")]
+	[Token(Token = "0x60003DA")]
 	IGraphData CreateChildGraphData(IGraphParentElement element);
 
-	[Token(Token = "0x60003D1")]
+	[Token(Token = "0x60003DB")]
 	void FreeChildGraphData(IGraphParentElement element);
 }

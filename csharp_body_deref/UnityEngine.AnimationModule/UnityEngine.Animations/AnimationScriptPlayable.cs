@@ -14,13 +14,13 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000028")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationScriptPlayable.bindings.h")]
+[Token(Token = "0x2000029")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayableGraph.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.StaticAccessor("AnimationScriptPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationScriptPlayable.bindings.h")]
 [MovedFrom("UnityEngine.Experimental.Animations")]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.StaticAccessor("AnimationScriptPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable>
 {
 	[Token(Token = "0x4000065")]
@@ -31,21 +31,21 @@ public struct AnimationScriptPlayable : IEquatable<AnimationScriptPlayable>
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationScriptPlayable m_NullPlayable;
 
-	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x4DA6FD0", Offset = "0x4DA6FD0", VA = "0x4DA6FD0")]
+	[Token(Token = "0x60000CA")]
+	[Address(RVA = "0x2EAC700", Offset = "0x2EAAD00", VA = "0x182EAC700")]
 	internal AnimationScriptPlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x4DA70C0", Offset = "0x4DA70C0", VA = "0x4DA70C0", Slot = "5")]
+	[Token(Token = "0x60000CB")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4DA70D0", Offset = "0x4DA70D0", VA = "0x4DA70D0", Slot = "4")]
+	[Token(Token = "0x60000CC")]
+	[Address(RVA = "0x2EAC520", Offset = "0x2EAAB20", VA = "0x182EAC520", Slot = "4")]
 	public bool Equals(AnimationScriptPlayable other)
 	{
 		return default(bool);

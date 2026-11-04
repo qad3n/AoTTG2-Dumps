@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002DE")]
+[Token(Token = "0x200030D")]
 [ComVisible(true)]
 public class DSASignatureFormatter : AsymmetricSignatureFormatter
 {
-	[Token(Token = "0x4000D08")]
+	[Token(Token = "0x4000D15")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private DSA _dsaKey;
 
-	[Token(Token = "0x4000D09")]
+	[Token(Token = "0x4000D16")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string _oid;
 
-	[Token(Token = "0x6001910")]
-	[Address(RVA = "0x3B31810", Offset = "0x3B31810", VA = "0x3B31810")]
+	[Token(Token = "0x6001978")]
+	[Address(RVA = "0x19A5650", Offset = "0x19A3C50", VA = "0x1819A5650")]
 	public DSASignatureFormatter()
 	{
 	}
 
-	[Token(Token = "0x6001911")]
-	[Address(RVA = "0x3B31890", Offset = "0x3B31890", VA = "0x3B31890")]
+	[Token(Token = "0x6001979")]
+	[Address(RVA = "0x19A56D0", Offset = "0x19A3CD0", VA = "0x1819A56D0")]
 	public DSASignatureFormatter(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001912")]
-	[Address(RVA = "0x3B319E0", Offset = "0x3B319E0", VA = "0x3B319E0", Slot = "4")]
+	[Token(Token = "0x600197A")]
+	[Address(RVA = "0x19A5540", Offset = "0x19A3B40", VA = "0x1819A5540", Slot = "4")]
 	public override void SetKey(AsymmetricAlgorithm key)
 	{
 	}
 
-	[Token(Token = "0x6001913")]
-	[Address(RVA = "0x3B31AC0", Offset = "0x3B31AC0", VA = "0x3B31AC0", Slot = "5")]
+	[Token(Token = "0x600197B")]
+	[Address(RVA = "0x19A5480", Offset = "0x19A3A80", VA = "0x1819A5480", Slot = "5")]
 	public override void SetHashAlgorithm(string strName)
 	{
 	}
 
-	[Token(Token = "0x6001914")]
-	[Address(RVA = "0x3B31B80", Offset = "0x3B31B80", VA = "0x3B31B80", Slot = "7")]
+	[Token(Token = "0x600197C")]
+	[Address(RVA = "0x19A5340", Offset = "0x19A3940", VA = "0x1819A5340", Slot = "7")]
 	public override byte[] CreateSignature(byte[] rgbHash)
 	{
 		return null;

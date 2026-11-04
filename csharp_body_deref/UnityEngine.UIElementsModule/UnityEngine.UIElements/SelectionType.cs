@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000221")]
+[Token(Token = "0x2000297")]
 public enum SelectionType
 {
-	[Token(Token = "0x40007A6")]
+	[Token(Token = "0x40009C4")]
 	None,
-	[Token(Token = "0x40007A7")]
+	[Token(Token = "0x40009C5")]
 	Single,
-	[Token(Token = "0x40007A8")]
+	[Token(Token = "0x40009C6")]
 	Multiple
 }

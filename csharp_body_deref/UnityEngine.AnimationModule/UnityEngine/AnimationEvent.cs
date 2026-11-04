@@ -12,7 +12,7 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Serializable]
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000D")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class AnimationEvent
 {
@@ -60,8 +60,8 @@ public sealed class AnimationEvent
 	[FieldOffset(Offset = "0x6C")]
 	internal AnimatorClipInfo m_AnimatorClipInfo;
 
-	[Token(Token = "0x600003E")]
-	[Address(RVA = "0x4DA30F0", Offset = "0x4DA30F0", VA = "0x4DA30F0")]
+	[Token(Token = "0x600004A")]
+	[Address(RVA = "0x2EAB400", Offset = "0x2EA9A00", VA = "0x182EAB400")]
 	public AnimationEvent()
 	{
 	}

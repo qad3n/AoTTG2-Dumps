@@ -12,16 +12,16 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000087")]
 public interface IGraphNester : IGraphParent
 {
-	[Token(Token = "0x170000F2")]
+	[Token(Token = "0x170000F5")]
 	IGraphNest nest
 	{
-		[Token(Token = "0x60003EF")]
+		[Token(Token = "0x60003F9")]
 		get;
 	}
 
-	[Token(Token = "0x60003F0")]
+	[Token(Token = "0x60003FA")]
 	void InstantiateNest();
 
-	[Token(Token = "0x60003F1")]
+	[Token(Token = "0x60003FB")]
 	void UninstantiateNest();
 }

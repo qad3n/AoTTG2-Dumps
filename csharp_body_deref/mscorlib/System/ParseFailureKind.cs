@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000BF")]
+[Token(Token = "0x20000E7")]
 internal enum ParseFailureKind
 {
-	[Token(Token = "0x40002DF")]
+	[Token(Token = "0x400036A")]
 	None,
-	[Token(Token = "0x40002E0")]
+	[Token(Token = "0x400036B")]
 	ArgumentNull,
-	[Token(Token = "0x40002E1")]
+	[Token(Token = "0x400036C")]
 	Format,
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x400036D")]
 	FormatWithParameter,
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x400036E")]
 	FormatWithOriginalDateTime,
-	[Token(Token = "0x40002E4")]
+	[Token(Token = "0x400036F")]
 	FormatWithFormatSpecifier,
-	[Token(Token = "0x40002E5")]
+	[Token(Token = "0x4000370")]
 	FormatWithOriginalDateTimeAndParameter,
-	[Token(Token = "0x40002E6")]
+	[Token(Token = "0x4000371")]
 	FormatBadDateTimeCalendar
 }

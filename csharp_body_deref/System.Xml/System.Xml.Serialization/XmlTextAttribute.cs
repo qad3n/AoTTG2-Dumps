@@ -26,7 +26,7 @@ public class XmlTextAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000E78")]
-		[Address(RVA = "0x4837AD0", Offset = "0x4837AD0", VA = "0x4837AD0")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -37,7 +37,7 @@ public class XmlTextAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000E79")]
-		[Address(RVA = "0x4837B00", Offset = "0x4837B00", VA = "0x4837B00")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -45,13 +45,13 @@ public class XmlTextAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000E77")]
-	[Address(RVA = "0x4837AC0", Offset = "0x4837AC0", VA = "0x4837AC0")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public XmlTextAttribute()
 	{
 	}
 
 	[Token(Token = "0x6000E7A")]
-	[Address(RVA = "0x4837B10", Offset = "0x4837B10", VA = "0x4837B10")]
+	[Address(RVA = "0x278CBC0", Offset = "0x278B1C0", VA = "0x18278CBC0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

@@ -99,13 +99,13 @@ public sealed class XmlReaderSettings
 	public bool Async
 	{
 		[Token(Token = "0x6000370")]
-		[Address(RVA = "0x47A1DC0", Offset = "0x47A1DC0", VA = "0x47A1DC0")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000371")]
-		[Address(RVA = "0x47963C0", Offset = "0x47963C0", VA = "0x47963C0")]
+		[Address(RVA = "0x26EDD00", Offset = "0x26EC300", VA = "0x1826EDD00")]
 		set
 		{
 		}
@@ -115,13 +115,13 @@ public sealed class XmlReaderSettings
 	public XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000372")]
-		[Address(RVA = "0x47A1E80", Offset = "0x47A1E80", VA = "0x47A1E80")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000373")]
-		[Address(RVA = "0x47A1E90", Offset = "0x47A1E90", VA = "0x47A1E90")]
+		[Address(RVA = "0x26EE210", Offset = "0x26EC810", VA = "0x1826EE210")]
 		set
 		{
 		}
@@ -131,14 +131,14 @@ public sealed class XmlReaderSettings
 	internal bool IsXmlResolverSet
 	{
 		[Token(Token = "0x6000374")]
-		[Address(RVA = "0x47A1EF0", Offset = "0x47A1EF0", VA = "0x47A1EF0")]
+		[Address(RVA = "0x26EDC80", Offset = "0x26EC280", VA = "0x1826EDC80")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000375")]
-		[Address(RVA = "0x47A1F00", Offset = "0x47A1F00", VA = "0x47A1F00")]
+		[Address(RVA = "0x26EE020", Offset = "0x26EC620", VA = "0x1826EE020")]
 		[CompilerGenerated]
 		set
 		{
@@ -149,7 +149,7 @@ public sealed class XmlReaderSettings
 	public XmlResolver XmlResolver
 	{
 		[Token(Token = "0x6000376")]
-		[Address(RVA = "0x47A1F10", Offset = "0x47A1F10", VA = "0x47A1F10")]
+		[Address(RVA = "0x26EE410", Offset = "0x26ECA10", VA = "0x1826EE410")]
 		set
 		{
 		}
@@ -159,13 +159,13 @@ public sealed class XmlReaderSettings
 	public int LineNumberOffset
 	{
 		[Token(Token = "0x6000379")]
-		[Address(RVA = "0x47A1FA0", Offset = "0x47A1FA0", VA = "0x47A1FA0")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600037A")]
-		[Address(RVA = "0x47A1FB0", Offset = "0x47A1FB0", VA = "0x47A1FB0")]
+		[Address(RVA = "0x26EE030", Offset = "0x26EC630", VA = "0x1826EE030")]
 		set
 		{
 		}
@@ -175,13 +175,13 @@ public sealed class XmlReaderSettings
 	public int LinePositionOffset
 	{
 		[Token(Token = "0x600037B")]
-		[Address(RVA = "0x47A1FF0", Offset = "0x47A1FF0", VA = "0x47A1FF0")]
+		[Address(RVA = "0xB3E080", Offset = "0xB3C680", VA = "0x180B3E080")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600037C")]
-		[Address(RVA = "0x47A2000", Offset = "0x47A2000", VA = "0x47A2000")]
+		[Address(RVA = "0x26EE080", Offset = "0x26EC680", VA = "0x1826EE080")]
 		set
 		{
 		}
@@ -191,13 +191,13 @@ public sealed class XmlReaderSettings
 	public ConformanceLevel ConformanceLevel
 	{
 		[Token(Token = "0x600037D")]
-		[Address(RVA = "0x47A2040", Offset = "0x47A2040", VA = "0x47A2040")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		get
 		{
 			return default(ConformanceLevel);
 		}
 		[Token(Token = "0x600037E")]
-		[Address(RVA = "0x47A2050", Offset = "0x47A2050", VA = "0x47A2050")]
+		[Address(RVA = "0x26EDDF0", Offset = "0x26EC3F0", VA = "0x1826EDDF0")]
 		set
 		{
 		}
@@ -207,13 +207,13 @@ public sealed class XmlReaderSettings
 	public bool CheckCharacters
 	{
 		[Token(Token = "0x600037F")]
-		[Address(RVA = "0x47A20E0", Offset = "0x47A20E0", VA = "0x47A20E0")]
+		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000380")]
-		[Address(RVA = "0x47A20F0", Offset = "0x47A20F0", VA = "0x47A20F0")]
+		[Address(RVA = "0x26EDD50", Offset = "0x26EC350", VA = "0x1826EDD50")]
 		set
 		{
 		}
@@ -223,13 +223,13 @@ public sealed class XmlReaderSettings
 	public long MaxCharactersInDocument
 	{
 		[Token(Token = "0x6000381")]
-		[Address(RVA = "0x47A2140", Offset = "0x47A2140", VA = "0x47A2140")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000382")]
-		[Address(RVA = "0x47A2150", Offset = "0x47A2150", VA = "0x47A2150")]
+		[Address(RVA = "0x26EE170", Offset = "0x26EC770", VA = "0x1826EE170")]
 		set
 		{
 		}
@@ -239,13 +239,13 @@ public sealed class XmlReaderSettings
 	public long MaxCharactersFromEntities
 	{
 		[Token(Token = "0x6000383")]
-		[Address(RVA = "0x47A21E0", Offset = "0x47A21E0", VA = "0x47A21E0")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return default(long);
 		}
 		[Token(Token = "0x6000384")]
-		[Address(RVA = "0x47A21F0", Offset = "0x47A21F0", VA = "0x47A21F0")]
+		[Address(RVA = "0x26EE0D0", Offset = "0x26EC6D0", VA = "0x1826EE0D0")]
 		set
 		{
 		}
@@ -255,13 +255,13 @@ public sealed class XmlReaderSettings
 	public bool IgnoreWhitespace
 	{
 		[Token(Token = "0x6000385")]
-		[Address(RVA = "0x47A2280", Offset = "0x47A2280", VA = "0x47A2280")]
+		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000386")]
-		[Address(RVA = "0x47A2290", Offset = "0x47A2290", VA = "0x47A2290")]
+		[Address(RVA = "0x26EDFD0", Offset = "0x26EC5D0", VA = "0x1826EDFD0")]
 		set
 		{
 		}
@@ -271,13 +271,13 @@ public sealed class XmlReaderSettings
 	public bool IgnoreProcessingInstructions
 	{
 		[Token(Token = "0x6000387")]
-		[Address(RVA = "0x47A22E0", Offset = "0x47A22E0", VA = "0x47A22E0")]
+		[Address(RVA = "0x58A880", Offset = "0x588E80", VA = "0x18058A880")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000388")]
-		[Address(RVA = "0x47A22F0", Offset = "0x47A22F0", VA = "0x47A22F0")]
+		[Address(RVA = "0x26EDF80", Offset = "0x26EC580", VA = "0x1826EDF80")]
 		set
 		{
 		}
@@ -287,13 +287,13 @@ public sealed class XmlReaderSettings
 	public bool IgnoreComments
 	{
 		[Token(Token = "0x6000389")]
-		[Address(RVA = "0x47A2340", Offset = "0x47A2340", VA = "0x47A2340")]
+		[Address(RVA = "0x26EDC70", Offset = "0x26EC270", VA = "0x1826EDC70")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600038A")]
-		[Address(RVA = "0x47A2350", Offset = "0x47A2350", VA = "0x47A2350")]
+		[Address(RVA = "0x26EDF30", Offset = "0x26EC530", VA = "0x1826EDF30")]
 		set
 		{
 		}
@@ -303,13 +303,13 @@ public sealed class XmlReaderSettings
 	public DtdProcessing DtdProcessing
 	{
 		[Token(Token = "0x600038B")]
-		[Address(RVA = "0x47A23A0", Offset = "0x47A23A0", VA = "0x47A23A0")]
+		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
 		get
 		{
 			return default(DtdProcessing);
 		}
 		[Token(Token = "0x600038C")]
-		[Address(RVA = "0x47A23B0", Offset = "0x47A23B0", VA = "0x47A23B0")]
+		[Address(RVA = "0x26EDE90", Offset = "0x26EC490", VA = "0x1826EDE90")]
 		set
 		{
 		}
@@ -319,13 +319,13 @@ public sealed class XmlReaderSettings
 	public bool CloseInput
 	{
 		[Token(Token = "0x600038D")]
-		[Address(RVA = "0x47A2440", Offset = "0x47A2440", VA = "0x47A2440")]
+		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x600038E")]
-		[Address(RVA = "0x47A2450", Offset = "0x47A2450", VA = "0x47A2450")]
+		[Address(RVA = "0x26EDDA0", Offset = "0x26EC3A0", VA = "0x1826EDDA0")]
 		set
 		{
 		}
@@ -335,13 +335,13 @@ public sealed class XmlReaderSettings
 	public ValidationType ValidationType
 	{
 		[Token(Token = "0x600038F")]
-		[Address(RVA = "0x47A24A0", Offset = "0x47A24A0", VA = "0x47A24A0")]
+		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
 		get
 		{
 			return default(ValidationType);
 		}
 		[Token(Token = "0x6000390")]
-		[Address(RVA = "0x47A24B0", Offset = "0x47A24B0", VA = "0x47A24B0")]
+		[Address(RVA = "0x26EE370", Offset = "0x26EC970", VA = "0x1826EE370")]
 		set
 		{
 		}
@@ -351,13 +351,13 @@ public sealed class XmlReaderSettings
 	public XmlSchemaValidationFlags ValidationFlags
 	{
 		[Token(Token = "0x6000391")]
-		[Address(RVA = "0x47A2540", Offset = "0x47A2540", VA = "0x47A2540")]
+		[Address(RVA = "0xB57820", Offset = "0xB55E20", VA = "0x180B57820")]
 		get
 		{
 			return default(XmlSchemaValidationFlags);
 		}
 		[Token(Token = "0x6000392")]
-		[Address(RVA = "0x47A2550", Offset = "0x47A2550", VA = "0x47A2550")]
+		[Address(RVA = "0x26EE2D0", Offset = "0x26EC8D0", VA = "0x1826EE2D0")]
 		set
 		{
 		}
@@ -367,13 +367,13 @@ public sealed class XmlReaderSettings
 	public XmlSchemaSet Schemas
 	{
 		[Token(Token = "0x6000393")]
-		[Address(RVA = "0x47A25E0", Offset = "0x47A25E0", VA = "0x47A25E0")]
+		[Address(RVA = "0x26EDC90", Offset = "0x26EC290", VA = "0x1826EDC90")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000394")]
-		[Address(RVA = "0x47A2660", Offset = "0x47A2660", VA = "0x47A2660")]
+		[Address(RVA = "0x26EE270", Offset = "0x26EC870", VA = "0x1826EE270")]
 		set
 		{
 		}
@@ -383,101 +383,101 @@ public sealed class XmlReaderSettings
 	internal bool ReadOnly
 	{
 		[Token(Token = "0x6000399")]
-		[Address(RVA = "0x47A26D0", Offset = "0x47A26D0", VA = "0x47A26D0")]
+		[Address(RVA = "0x12BF1C0", Offset = "0x12BD7C0", VA = "0x1812BF1C0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600036F")]
-	[Address(RVA = "0x47963A0", Offset = "0x47963A0", VA = "0x47963A0")]
+	[Address(RVA = "0x26EDB90", Offset = "0x26EC190", VA = "0x1826EDB90")]
 	public XmlReaderSettings()
 	{
 	}
 
 	[Token(Token = "0x6000377")]
-	[Address(RVA = "0x47A1F70", Offset = "0x47A1F70", VA = "0x47A1F70")]
+	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 	internal XmlResolver GetXmlResolver()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000378")]
-	[Address(RVA = "0x47A1F80", Offset = "0x47A1F80", VA = "0x47A1F80")]
+	[Address(RVA = "0x26ED9C0", Offset = "0x26EBFC0", VA = "0x1826ED9C0")]
 	internal XmlResolver GetXmlResolver_CheckConfig()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000395")]
-	[Address(RVA = "0x4796350", Offset = "0x4796350", VA = "0x4796350")]
+	[Address(RVA = "0x26ED520", Offset = "0x26EBB20", VA = "0x1826ED520")]
 	public XmlReaderSettings Clone()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000396")]
-	[Address(RVA = "0x47A26C0", Offset = "0x47A26C0", VA = "0x47A26C0")]
+	[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 	internal ValidationEventHandler GetEventHandler()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000397")]
-	[Address(RVA = "0x47A1500", Offset = "0x47A1500", VA = "0x47A1500")]
+	[Address(RVA = "0x26ED750", Offset = "0x26EBD50", VA = "0x1826ED750")]
 	internal XmlReader CreateReader(Stream input, Uri baseUri, string baseUriString, XmlParserContext inputContext)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000398")]
-	[Address(RVA = "0x47A1700", Offset = "0x47A1700", VA = "0x47A1700")]
+	[Address(RVA = "0x26ED640", Offset = "0x26EBC40", VA = "0x1826ED640")]
 	internal XmlReader CreateReader(TextReader input, string baseUriString, XmlParserContext inputContext)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039A")]
-	[Address(RVA = "0x47A1DD0", Offset = "0x47A1DD0", VA = "0x47A1DD0")]
+	[Address(RVA = "0x26ED470", Offset = "0x26EBA70", VA = "0x1826ED470")]
 	private void CheckReadOnly(string propertyName)
 	{
 	}
 
 	[Token(Token = "0x600039B")]
-	[Address(RVA = "0x47A1DB0", Offset = "0x47A1DB0", VA = "0x47A1DB0")]
+	[Address(RVA = "0x26EDAC0", Offset = "0x26EC0C0", VA = "0x1826EDAC0")]
 	private void Initialize()
 	{
 	}
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x47A26E0", Offset = "0x47A26E0", VA = "0x47A26E0")]
+	[Address(RVA = "0x26ED9F0", Offset = "0x26EBFF0", VA = "0x1826ED9F0")]
 	private void Initialize(XmlResolver resolver)
 	{
 	}
 
 	[Token(Token = "0x600039D")]
-	[Address(RVA = "0x47A27B0", Offset = "0x47A27B0", VA = "0x47A27B0")]
+	[Address(RVA = "0x26ED580", Offset = "0x26EBB80", VA = "0x1826ED580")]
 	private static XmlResolver CreateDefaultResolver()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x47A1C30", Offset = "0x47A1C30", VA = "0x47A1C30")]
+	[Address(RVA = "0x26ED330", Offset = "0x26EB930", VA = "0x1826ED330")]
 	internal XmlReader AddValidation(XmlReader reader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x47A28F0", Offset = "0x47A28F0", VA = "0x47A28F0")]
+	[Address(RVA = "0x26ED5D0", Offset = "0x26EBBD0", VA = "0x1826ED5D0")]
 	private XmlValidatingReaderImpl CreateDtdValidatingReader(XmlReader baseReader)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x47A27F0", Offset = "0x47A27F0", VA = "0x47A27F0")]
+	[Address(RVA = "0x26ED8F0", Offset = "0x26EBEF0", VA = "0x1826ED8F0")]
 	internal static bool EnableLegacyXmlSettings()
 	{
 		return default(bool);

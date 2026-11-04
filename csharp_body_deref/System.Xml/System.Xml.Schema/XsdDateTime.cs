@@ -109,70 +109,70 @@ internal struct XsdDateTime
 		private static int[] Power10;
 
 		[Token(Token = "0x6001A08")]
-		[Address(RVA = "0x476AD00", Offset = "0x476AD00", VA = "0x476AD00")]
+		[Address(RVA = "0x26C24B0", Offset = "0x26C0AB0", VA = "0x1826C24B0")]
 		public bool Parse(string text, XsdDateTimeFlags kinds)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A09")]
-		[Address(RVA = "0x476EBF0", Offset = "0x476EBF0", VA = "0x476EBF0")]
+		[Address(RVA = "0x26C1A10", Offset = "0x26C0010", VA = "0x1826C1A10")]
 		private bool ParseDate(int start)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0A")]
-		[Address(RVA = "0x476EF30", Offset = "0x476EF30", VA = "0x476EF30")]
+		[Address(RVA = "0x26C1D70", Offset = "0x26C0370", VA = "0x1826C1D70")]
 		private bool ParseTimeAndZoneAndWhitespace(int start)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0B")]
-		[Address(RVA = "0x476F2E0", Offset = "0x476F2E0", VA = "0x476F2E0")]
+		[Address(RVA = "0x26C1CF0", Offset = "0x26C02F0", VA = "0x1826C1CF0")]
 		private bool ParseTimeAndWhitespace(int start)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0C")]
-		[Address(RVA = "0x476F4D0", Offset = "0x476F4D0", VA = "0x476F4D0")]
+		[Address(RVA = "0x26C1E00", Offset = "0x26C0400", VA = "0x1826C1E00")]
 		private bool ParseTime(ref int start)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0D")]
-		[Address(RVA = "0x476EFC0", Offset = "0x476EFC0", VA = "0x476EFC0")]
+		[Address(RVA = "0x26C2210", Offset = "0x26C0810", VA = "0x1826C2210")]
 		private bool ParseZoneAndWhitespace(int start)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0E")]
-		[Address(RVA = "0x476F360", Offset = "0x476F360", VA = "0x476F360")]
+		[Address(RVA = "0x26C18C0", Offset = "0x26BFEC0", VA = "0x1826C18C0")]
 		private bool Parse4Dig(int start, ref int num)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A0F")]
-		[Address(RVA = "0x476F450", Offset = "0x476F450", VA = "0x476F450")]
+		[Address(RVA = "0x26C1830", Offset = "0x26BFE30", VA = "0x1826C1830")]
 		private bool Parse2Dig(int start, ref int num)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A10")]
-		[Address(RVA = "0x476EF00", Offset = "0x476EF00", VA = "0x476EF00")]
+		[Address(RVA = "0x26C19D0", Offset = "0x26BFFD0", VA = "0x1826C19D0")]
 		private bool ParseChar(int start, char ch)
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6001A11")]
-		[Address(RVA = "0x476EBE0", Offset = "0x476EBE0", VA = "0x476EBE0")]
+		[Address(RVA = "0x26C3560", Offset = "0x26C1B60", VA = "0x1826C3560")]
 		private static bool Test(XsdDateTimeFlags left, XsdDateTimeFlags right)
 		{
 			return default(bool);
@@ -283,7 +283,7 @@ internal struct XsdDateTime
 	private DateTimeTypeCode InternalTypeCode
 	{
 		[Token(Token = "0x60019F4")]
-		[Address(RVA = "0x476C600", Offset = "0x476C600", VA = "0x476C600")]
+		[Address(RVA = "0x26C63C0", Offset = "0x26C49C0", VA = "0x1826C63C0")]
 		get
 		{
 			return default(DateTimeTypeCode);
@@ -294,7 +294,7 @@ internal struct XsdDateTime
 	private XsdDateTimeKind InternalKind
 	{
 		[Token(Token = "0x60019F5")]
-		[Address(RVA = "0x476C610", Offset = "0x476C610", VA = "0x476C610")]
+		[Address(RVA = "0x1A931A0", Offset = "0x1A917A0", VA = "0x181A931A0")]
 		get
 		{
 			return default(XsdDateTimeKind);
@@ -305,7 +305,7 @@ internal struct XsdDateTime
 	public int Year
 	{
 		[Token(Token = "0x60019F6")]
-		[Address(RVA = "0x476C620", Offset = "0x476C620", VA = "0x476C620")]
+		[Address(RVA = "0x26C64C0", Offset = "0x26C4AC0", VA = "0x1826C64C0")]
 		get
 		{
 			return default(int);
@@ -316,7 +316,7 @@ internal struct XsdDateTime
 	public int Month
 	{
 		[Token(Token = "0x60019F7")]
-		[Address(RVA = "0x476C690", Offset = "0x476C690", VA = "0x476C690")]
+		[Address(RVA = "0x26C6420", Offset = "0x26C4A20", VA = "0x1826C6420")]
 		get
 		{
 			return default(int);
@@ -327,7 +327,7 @@ internal struct XsdDateTime
 	public int Day
 	{
 		[Token(Token = "0x60019F8")]
-		[Address(RVA = "0x476C700", Offset = "0x476C700", VA = "0x476C700")]
+		[Address(RVA = "0x26C6200", Offset = "0x26C4800", VA = "0x1826C6200")]
 		get
 		{
 			return default(int);
@@ -338,7 +338,7 @@ internal struct XsdDateTime
 	public int Hour
 	{
 		[Token(Token = "0x60019F9")]
-		[Address(RVA = "0x476C770", Offset = "0x476C770", VA = "0x476C770")]
+		[Address(RVA = "0x26C6370", Offset = "0x26C4970", VA = "0x1826C6370")]
 		get
 		{
 			return default(int);
@@ -349,7 +349,7 @@ internal struct XsdDateTime
 	public int Minute
 	{
 		[Token(Token = "0x60019FA")]
-		[Address(RVA = "0x476C7E0", Offset = "0x476C7E0", VA = "0x476C7E0")]
+		[Address(RVA = "0x26C63D0", Offset = "0x26C49D0", VA = "0x1826C63D0")]
 		get
 		{
 			return default(int);
@@ -360,7 +360,7 @@ internal struct XsdDateTime
 	public int Second
 	{
 		[Token(Token = "0x60019FB")]
-		[Address(RVA = "0x476C850", Offset = "0x476C850", VA = "0x476C850")]
+		[Address(RVA = "0x26C6470", Offset = "0x26C4A70", VA = "0x1826C6470")]
 		get
 		{
 			return default(int);
@@ -371,7 +371,7 @@ internal struct XsdDateTime
 	public int Fraction
 	{
 		[Token(Token = "0x60019FC")]
-		[Address(RVA = "0x476C8C0", Offset = "0x476C8C0", VA = "0x476C8C0")]
+		[Address(RVA = "0x26C6250", Offset = "0x26C4850", VA = "0x1826C6250")]
 		get
 		{
 			return default(int);
@@ -382,7 +382,7 @@ internal struct XsdDateTime
 	public int ZoneHour
 	{
 		[Token(Token = "0x60019FD")]
-		[Address(RVA = "0x476C9C0", Offset = "0x476C9C0", VA = "0x476C9C0")]
+		[Address(RVA = "0x1A931B0", Offset = "0x1A917B0", VA = "0x181A931B0")]
 		get
 		{
 			return default(int);
@@ -393,7 +393,7 @@ internal struct XsdDateTime
 	public int ZoneMinute
 	{
 		[Token(Token = "0x60019FE")]
-		[Address(RVA = "0x476C9D0", Offset = "0x476C9D0", VA = "0x476C9D0")]
+		[Address(RVA = "0x180F960", Offset = "0x180DF60", VA = "0x18180F960")]
 		get
 		{
 			return default(int);
@@ -401,95 +401,95 @@ internal struct XsdDateTime
 	}
 
 	[Token(Token = "0x60019ED")]
-	[Address(RVA = "0x476AA30", Offset = "0x476AA30", VA = "0x476AA30")]
+	[Address(RVA = "0x26C5D20", Offset = "0x26C4320", VA = "0x1826C5D20")]
 	public XsdDateTime(string text, XsdDateTimeFlags kinds)
 	{
 	}
 
 	[Token(Token = "0x60019EE")]
-	[Address(RVA = "0x476BFF0", Offset = "0x476BFF0", VA = "0x476BFF0")]
+	[Address(RVA = "0x26C5F50", Offset = "0x26C4550", VA = "0x1826C5F50")]
 	private XsdDateTime(Parser parser)
 	{
 	}
 
 	[Token(Token = "0x60019EF")]
-	[Address(RVA = "0x476BF30", Offset = "0x476BF30", VA = "0x476BF30")]
+	[Address(RVA = "0x26C42E0", Offset = "0x26C28E0", VA = "0x1826C42E0")]
 	private void InitiateXsdDateTime(Parser parser)
 	{
 	}
 
 	[Token(Token = "0x60019F0")]
-	[Address(RVA = "0x476C1A0", Offset = "0x476C1A0", VA = "0x476C1A0")]
+	[Address(RVA = "0x26C5440", Offset = "0x26C3A40", VA = "0x1826C5440")]
 	internal static bool TryParse(string text, XsdDateTimeFlags kinds, out XsdDateTime result)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60019F1")]
-	[Address(RVA = "0x476C270", Offset = "0x476C270", VA = "0x476C270")]
+	[Address(RVA = "0x26C5FE0", Offset = "0x26C45E0", VA = "0x1826C5FE0")]
 	public XsdDateTime(DateTime dateTime, XsdDateTimeFlags kinds)
 	{
 	}
 
 	[Token(Token = "0x60019F2")]
-	[Address(RVA = "0x476C410", Offset = "0x476C410", VA = "0x476C410")]
+	[Address(RVA = "0x26C6190", Offset = "0x26C4790", VA = "0x1826C6190")]
 	public XsdDateTime(DateTimeOffset dateTimeOffset)
 	{
 	}
 
 	[Token(Token = "0x60019F3")]
-	[Address(RVA = "0x476C470", Offset = "0x476C470", VA = "0x476C470")]
+	[Address(RVA = "0x26C5BA0", Offset = "0x26C41A0", VA = "0x1826C5BA0")]
 	public XsdDateTime(DateTimeOffset dateTimeOffset, XsdDateTimeFlags kinds)
 	{
 	}
 
 	[Token(Token = "0x60019FF")]
-	[Address(RVA = "0x476C9E0", Offset = "0x476C9E0", VA = "0x476C9E0")]
+	[Address(RVA = "0x26C6510", Offset = "0x26C4B10", VA = "0x1826C6510")]
 	public static implicit operator DateTime(XsdDateTime xdt)
 	{
 		return default(DateTime);
 	}
 
 	[Token(Token = "0x6001A00")]
-	[Address(RVA = "0x476D0E0", Offset = "0x476D0E0", VA = "0x476D0E0")]
+	[Address(RVA = "0x26C6B70", Offset = "0x26C5170", VA = "0x1826C6B70")]
 	public static implicit operator DateTimeOffset(XsdDateTime xdt)
 	{
 		return default(DateTimeOffset);
 	}
 
 	[Token(Token = "0x6001A01")]
-	[Address(RVA = "0x476D5F0", Offset = "0x476D5F0", VA = "0x476D5F0", Slot = "3")]
+	[Address(RVA = "0x26C4E40", Offset = "0x26C3440", VA = "0x1826C4E40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001A02")]
-	[Address(RVA = "0x476DE90", Offset = "0x476DE90", VA = "0x476DE90")]
+	[Address(RVA = "0x26C4440", Offset = "0x26C2A40", VA = "0x1826C4440")]
 	private void PrintDate(StringBuilder sb)
 	{
 	}
 
 	[Token(Token = "0x6001A03")]
-	[Address(RVA = "0x476E1A0", Offset = "0x476E1A0", VA = "0x476E1A0")]
+	[Address(RVA = "0x26C4750", Offset = "0x26C2D50", VA = "0x1826C4750")]
 	private void PrintTime(StringBuilder sb)
 	{
 	}
 
 	[Token(Token = "0x6001A04")]
-	[Address(RVA = "0x476E620", Offset = "0x476E620", VA = "0x476E620")]
+	[Address(RVA = "0x26C4B70", Offset = "0x26C3170", VA = "0x1826C4B70")]
 	private void PrintZone(StringBuilder sb)
 	{
 	}
 
 	[Token(Token = "0x6001A05")]
-	[Address(RVA = "0x476E550", Offset = "0x476E550", VA = "0x476E550")]
+	[Address(RVA = "0x26C43A0", Offset = "0x26C29A0", VA = "0x1826C43A0")]
 	private void IntToCharArray(char[] text, int start, int value, int digits)
 	{
 	}
 
 	[Token(Token = "0x6001A06")]
-	[Address(RVA = "0x476E5C0", Offset = "0x476E5C0", VA = "0x476E5C0")]
+	[Address(RVA = "0x26C4DC0", Offset = "0x26C33C0", VA = "0x1826C4DC0")]
 	private void ShortToCharArray(char[] text, int start, int value)
 	{
 	}

@@ -9,83 +9,83 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200019F")]
+[Token(Token = "0x20001B6")]
 public static class BitArrayUtilities
 {
-	[Token(Token = "0x6000C2C")]
-	[Address(RVA = "0x4BF07D0", Offset = "0x4BF07D0", VA = "0x4BF07D0")]
+	[Token(Token = "0x6000D45")]
+	[Address(RVA = "0x2B380A0", Offset = "0x2B366A0", VA = "0x182B380A0")]
 	public static bool Get8(uint index, byte data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C2D")]
-	[Address(RVA = "0x4BF0C60", Offset = "0x4BF0C60", VA = "0x4BF0C60")]
+	[Token(Token = "0x6000D46")]
+	[Address(RVA = "0x2B38020", Offset = "0x2B36620", VA = "0x182B38020")]
 	public static bool Get16(uint index, ushort data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C2E")]
-	[Address(RVA = "0x4BF1160", Offset = "0x4BF1160", VA = "0x4BF1160")]
+	[Token(Token = "0x6000D47")]
+	[Address(RVA = "0x2B38080", Offset = "0x2B36680", VA = "0x182B38080")]
 	public static bool Get32(uint index, uint data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C2F")]
-	[Address(RVA = "0x4BF1600", Offset = "0x4BF1600", VA = "0x4BF1600")]
+	[Token(Token = "0x6000D48")]
+	[Address(RVA = "0x2B38090", Offset = "0x2B36690", VA = "0x182B38090")]
 	public static bool Get64(uint index, ulong data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C30")]
-	[Address(RVA = "0x4BF1B70", Offset = "0x4BF1B70", VA = "0x4BF1B70")]
+	[Token(Token = "0x6000D49")]
+	[Address(RVA = "0x2B38000", Offset = "0x2B36600", VA = "0x182B38000")]
 	public static bool Get128(uint index, ulong data1, ulong data2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C31")]
-	[Address(RVA = "0x4BF2300", Offset = "0x4BF2300", VA = "0x4BF2300")]
+	[Token(Token = "0x6000D4A")]
+	[Address(RVA = "0x2B38040", Offset = "0x2B36640", VA = "0x182B38040")]
 	public static bool Get256(uint index, ulong data1, ulong data2, ulong data3, ulong data4)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000C32")]
-	[Address(RVA = "0x4BF0800", Offset = "0x4BF0800", VA = "0x4BF0800")]
+	[Token(Token = "0x6000D4B")]
+	[Address(RVA = "0x2B381D0", Offset = "0x2B367D0", VA = "0x182B381D0")]
 	public static void Set8(uint index, ref byte data, bool value)
 	{
 	}
 
-	[Token(Token = "0x6000C33")]
-	[Address(RVA = "0x4BF0C90", Offset = "0x4BF0C90", VA = "0x4BF0C90")]
+	[Token(Token = "0x6000D4C")]
+	[Address(RVA = "0x2B38100", Offset = "0x2B36700", VA = "0x182B38100")]
 	public static void Set16(uint index, ref ushort data, bool value)
 	{
 	}
 
-	[Token(Token = "0x6000C34")]
-	[Address(RVA = "0x4BF1190", Offset = "0x4BF1190", VA = "0x4BF1190")]
+	[Token(Token = "0x6000D4D")]
+	[Address(RVA = "0x2B38190", Offset = "0x2B36790", VA = "0x182B38190")]
 	public static void Set32(uint index, ref uint data, bool value)
 	{
 	}
 
-	[Token(Token = "0x6000C35")]
-	[Address(RVA = "0x4BF1630", Offset = "0x4BF1630", VA = "0x4BF1630")]
+	[Token(Token = "0x6000D4E")]
+	[Address(RVA = "0x2B381B0", Offset = "0x2B367B0", VA = "0x182B381B0")]
 	public static void Set64(uint index, ref ulong data, bool value)
 	{
 	}
 
-	[Token(Token = "0x6000C36")]
-	[Address(RVA = "0x4BF1BB0", Offset = "0x4BF1BB0", VA = "0x4BF1BB0")]
+	[Token(Token = "0x6000D4F")]
+	[Address(RVA = "0x2B380C0", Offset = "0x2B366C0", VA = "0x182B380C0")]
 	public static void Set128(uint index, ref ulong data1, ref ulong data2, bool value)
 	{
 	}
 
-	[Token(Token = "0x6000C37")]
-	[Address(RVA = "0x4BF23B0", Offset = "0x4BF23B0", VA = "0x4BF23B0")]
+	[Token(Token = "0x6000D50")]
+	[Address(RVA = "0x2B38120", Offset = "0x2B36720", VA = "0x182B38120")]
 	public static void Set256(uint index, ref ulong data1, ref ulong data2, ref ulong data3, ref ulong data4, bool value)
 	{
 	}

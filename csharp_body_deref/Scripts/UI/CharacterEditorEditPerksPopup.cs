@@ -13,119 +13,119 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x200059D")]
+[Token(Token = "0x2000710")]
 internal class CharacterEditorEditPerksPopup : BasePopup
 {
-	[Token(Token = "0x4001BA5")]
+	[Token(Token = "0x4002362")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
 	private Text _pointsLeftLabel;
 
-	[Token(Token = "0x4001BA6")]
+	[Token(Token = "0x4002363")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	private Dictionary<string, GameObject> _perkButtons;
 
-	[Token(Token = "0x4001BA7")]
+	[Token(Token = "0x4002364")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	private Dictionary<string, string> _perkDescriptions;
 
-	[Token(Token = "0x17000B19")]
+	[Token(Token = "0x17000C71")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003A27")]
-		[Address(RVA = "0x425E890", Offset = "0x425E890", VA = "0x425E890", Slot = "35")]
+		[Token(Token = "0x6004558")]
+		[Address(RVA = "0x21D8210", Offset = "0x21D6810", VA = "0x1821D8210", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B1A")]
+	[Token(Token = "0x17000C72")]
 	protected override float Width
 	{
-		[Token(Token = "0x6003A28")]
-		[Address(RVA = "0x425E930", Offset = "0x425E930", VA = "0x425E930", Slot = "5")]
+		[Token(Token = "0x6004559")]
+		[Address(RVA = "0x21D82B0", Offset = "0x21D68B0", VA = "0x1821D82B0", Slot = "5")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B1B")]
+	[Token(Token = "0x17000C73")]
 	protected override float Height
 	{
-		[Token(Token = "0x6003A29")]
-		[Address(RVA = "0x425E940", Offset = "0x425E940", VA = "0x425E940", Slot = "6")]
+		[Token(Token = "0x600455A")]
+		[Address(RVA = "0x21D8200", Offset = "0x21D6800", VA = "0x1821D8200", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B1C")]
+	[Token(Token = "0x17000C74")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6003A2A")]
-		[Address(RVA = "0x425E950", Offset = "0x425E950", VA = "0x425E950", Slot = "11")]
+		[Token(Token = "0x600455B")]
+		[Address(RVA = "0x2160800", Offset = "0x215EE00", VA = "0x182160800", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000B1D")]
+	[Token(Token = "0x17000C75")]
 	protected override int HorizontalPadding
 	{
-		[Token(Token = "0x6003A2B")]
-		[Address(RVA = "0x425E960", Offset = "0x425E960", VA = "0x425E960", Slot = "10")]
+		[Token(Token = "0x600455C")]
+		[Address(RVA = "0x847000", Offset = "0x845600", VA = "0x180847000", Slot = "10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000B1E")]
+	[Token(Token = "0x17000C76")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6003A2C")]
-		[Address(RVA = "0x425E970", Offset = "0x425E970", VA = "0x425E970", Slot = "9")]
+		[Token(Token = "0x600455D")]
+		[Address(RVA = "0x21BB430", Offset = "0x21B9A30", VA = "0x1821BB430", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6003A2D")]
-	[Address(RVA = "0x425E980", Offset = "0x425E980", VA = "0x425E980", Slot = "20")]
+	[Token(Token = "0x600455E")]
+	[Address(RVA = "0x21D7AF0", Offset = "0x21D60F0", VA = "0x1821D7AF0", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003A2E")]
-	[Address(RVA = "0x425EEF0", Offset = "0x425EEF0", VA = "0x425EEF0")]
+	[Token(Token = "0x600455F")]
+	[Address(RVA = "0x21D6F40", Offset = "0x21D5540", VA = "0x1821D6F40")]
 	protected void CreatePerkButton(Transform group, ElementStyle style, string name, string desc)
 	{
 	}
 
-	[Token(Token = "0x6003A2F")]
-	[Address(RVA = "0x425F060", Offset = "0x425F060", VA = "0x425F060")]
+	[Token(Token = "0x6004560")]
+	[Address(RVA = "0x21D6EE0", Offset = "0x21D54E0", VA = "0x1821D6EE0")]
 	protected void CreateArrow(Transform group, ElementStyle style)
 	{
 	}
 
-	[Token(Token = "0x6003A30")]
-	[Address(RVA = "0x425F8B0", Offset = "0x425F8B0", VA = "0x425F8B0")]
+	[Token(Token = "0x6004561")]
+	[Address(RVA = "0x21D70E0", Offset = "0x21D56E0", VA = "0x1821D70E0")]
 	protected void OnButtonClick(string button)
 	{
 	}
 
-	[Token(Token = "0x6003A31")]
-	[Address(RVA = "0x425F0B0", Offset = "0x425F0B0", VA = "0x425F0B0")]
+	[Token(Token = "0x6004562")]
+	[Address(RVA = "0x21D73A0", Offset = "0x21D59A0", VA = "0x1821D73A0")]
 	protected void OnPerkChanged(string perkName)
 	{
 	}
 
-	[Token(Token = "0x6003A32")]
-	[Address(RVA = "0x425FB50", Offset = "0x425FB50", VA = "0x425FB50")]
+	[Token(Token = "0x6004563")]
+	[Address(RVA = "0x21D8130", Offset = "0x21D6730", VA = "0x1821D8130")]
 	public CharacterEditorEditPerksPopup()
 	{
 	}

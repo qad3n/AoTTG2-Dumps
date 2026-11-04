@@ -11,157 +11,157 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000054")]
+[Token(Token = "0x2000061")]
 internal abstract class ExpressionNode
 {
-	[Token(Token = "0x40001B3")]
+	[Token(Token = "0x40001FB")]
 	[FieldOffset(Offset = "0x10")]
 	private DataTable _table;
 
-	[Token(Token = "0x1700010D")]
+	[Token(Token = "0x17000112")]
 	internal IFormatProvider FormatProvider
 	{
-		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x45A6E50", Offset = "0x45A6E50", VA = "0x45A6E50")]
+		[Token(Token = "0x6000612")]
+		[Address(RVA = "0x2511F40", Offset = "0x2510540", VA = "0x182511F40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700010E")]
+	[Token(Token = "0x17000113")]
 	internal virtual bool IsSqlColumn
 	{
-		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x45AB610", Offset = "0x45AB610", VA = "0x45AB610", Slot = "4")]
+		[Token(Token = "0x6000613")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700010F")]
+	[Token(Token = "0x17000114")]
 	protected DataTable table
 	{
-		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x45AB620", Offset = "0x45AB620", VA = "0x45AB620")]
+		[Token(Token = "0x6000614")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60005DE")]
-	[Address(RVA = "0x459B100", Offset = "0x459B100", VA = "0x459B100")]
+	[Token(Token = "0x6000611")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	protected ExpressionNode(DataTable table)
 	{
 	}
 
-	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x45AB630", Offset = "0x45AB630", VA = "0x45AB630")]
+	[Token(Token = "0x6000615")]
+	[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 	protected void BindTable(DataTable table)
 	{
 	}
 
-	[Token(Token = "0x60005E3")]
+	[Token(Token = "0x6000616")]
 	internal abstract void Bind(DataTable table, List<DataColumn> list);
 
-	[Token(Token = "0x60005E4")]
+	[Token(Token = "0x6000617")]
 	internal abstract object Eval();
 
-	[Token(Token = "0x60005E5")]
+	[Token(Token = "0x6000618")]
 	internal abstract object Eval(DataRow row, DataRowVersion version);
 
-	[Token(Token = "0x60005E6")]
+	[Token(Token = "0x6000619")]
 	internal abstract object Eval(int[] recordNos);
 
-	[Token(Token = "0x60005E7")]
+	[Token(Token = "0x600061A")]
 	internal abstract bool IsConstant();
 
-	[Token(Token = "0x60005E8")]
+	[Token(Token = "0x600061B")]
 	internal abstract bool IsTableConstant();
 
-	[Token(Token = "0x60005E9")]
+	[Token(Token = "0x600061C")]
 	internal abstract bool HasLocalAggregate();
 
-	[Token(Token = "0x60005EA")]
+	[Token(Token = "0x600061D")]
 	internal abstract bool HasRemoteAggregate();
 
-	[Token(Token = "0x60005EB")]
+	[Token(Token = "0x600061E")]
 	internal abstract ExpressionNode Optimize();
 
-	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x45AB640", Offset = "0x45AB640", VA = "0x45AB640", Slot = "14")]
+	[Token(Token = "0x600061F")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "14")]
 	internal virtual bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x45A8190", Offset = "0x45A8190", VA = "0x45A8190")]
+	[Token(Token = "0x6000620")]
+	[Address(RVA = "0x2511E20", Offset = "0x2510420", VA = "0x182511E20")]
 	internal static bool IsInteger(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005EE")]
-	[Address(RVA = "0x45A7D80", Offset = "0x45A7D80", VA = "0x45A7D80")]
+	[Token(Token = "0x6000621")]
+	[Address(RVA = "0x2511E00", Offset = "0x2510400", VA = "0x182511E00")]
 	internal static bool IsIntegerSql(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x45A8040", Offset = "0x45A8040", VA = "0x45A8040")]
+	[Token(Token = "0x6000622")]
+	[Address(RVA = "0x2511EE0", Offset = "0x25104E0", VA = "0x182511EE0")]
 	internal static bool IsSigned(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x45A8110", Offset = "0x45A8110", VA = "0x45A8110")]
+	[Token(Token = "0x6000623")]
+	[Address(RVA = "0x2511EA0", Offset = "0x25104A0", VA = "0x182511EA0")]
 	internal static bool IsSignedSql(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x45A8070", Offset = "0x45A8070", VA = "0x45A8070")]
+	[Token(Token = "0x6000624")]
+	[Address(RVA = "0x2511F20", Offset = "0x2510520", VA = "0x182511F20")]
 	internal static bool IsUnsigned(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x45A8140", Offset = "0x45A8140", VA = "0x45A8140")]
+	[Token(Token = "0x6000625")]
+	[Address(RVA = "0x2511F00", Offset = "0x2510500", VA = "0x182511F00")]
 	internal static bool IsUnsignedSql(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x45A8170", Offset = "0x45A8170", VA = "0x45A8170")]
+	[Token(Token = "0x6000626")]
+	[Address(RVA = "0x2511E70", Offset = "0x2510470", VA = "0x182511E70")]
 	internal static bool IsNumeric(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x45A82F0", Offset = "0x45A82F0", VA = "0x45A82F0")]
+	[Token(Token = "0x6000627")]
+	[Address(RVA = "0x2511E40", Offset = "0x2510440", VA = "0x182511E40")]
 	internal static bool IsNumericSql(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x45AB650", Offset = "0x45AB650", VA = "0x45AB650")]
+	[Token(Token = "0x6000628")]
+	[Address(RVA = "0x2511DE0", Offset = "0x25103E0", VA = "0x182511DE0")]
 	internal static bool IsFloat(StorageType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005F6")]
-	[Address(RVA = "0x45AB670", Offset = "0x45AB670", VA = "0x45AB670")]
+	[Token(Token = "0x6000629")]
+	[Address(RVA = "0x2511DC0", Offset = "0x25103C0", VA = "0x182511DC0")]
 	internal static bool IsFloatSql(StorageType type)
 	{
 		return default(bool);

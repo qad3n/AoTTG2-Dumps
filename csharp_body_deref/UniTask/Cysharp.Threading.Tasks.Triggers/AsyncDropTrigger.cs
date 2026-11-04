@@ -12,46 +12,46 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200020C")]
+[Token(Token = "0x200020F")]
 [DisallowMultipleComponent]
 public sealed class AsyncDropTrigger : AsyncTriggerBase<PointerEventData>, IDropHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000C0E")]
-	[Address(RVA = "0x4A160E0", Offset = "0x4A160E0", VA = "0x4A160E0", Slot = "5")]
+	[Token(Token = "0x6000C32")]
+	[Address(RVA = "0x292DB20", Offset = "0x292C120", VA = "0x18292DB20", Slot = "5")]
 	private void UnityEngine_002EEventSystems_002EIDropHandler_002EOnDrop(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000C0F")]
-	[Address(RVA = "0x4A16130", Offset = "0x4A16130", VA = "0x4A16130")]
+	[Token(Token = "0x6000C33")]
+	[Address(RVA = "0x292D800", Offset = "0x292BE00", VA = "0x18292D800")]
 	public IAsyncOnDropHandler GetOnDropAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C10")]
-	[Address(RVA = "0x4A161A0", Offset = "0x4A161A0", VA = "0x4A161A0")]
+	[Token(Token = "0x6000C34")]
+	[Address(RVA = "0x292D870", Offset = "0x292BE70", VA = "0x18292D870")]
 	public IAsyncOnDropHandler GetOnDropAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C11")]
-	[Address(RVA = "0x4A16210", Offset = "0x4A16210", VA = "0x4A16210")]
+	[Token(Token = "0x6000C35")]
+	[Address(RVA = "0x292D8F0", Offset = "0x292BEF0", VA = "0x18292D8F0")]
 	public UniTask<PointerEventData> OnDropAsync()
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C12")]
-	[Address(RVA = "0x4A16310", Offset = "0x4A16310", VA = "0x4A16310")]
+	[Token(Token = "0x6000C36")]
+	[Address(RVA = "0x292DA10", Offset = "0x292C010", VA = "0x18292DA10")]
 	public UniTask<PointerEventData> OnDropAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<PointerEventData>);
 	}
 
-	[Token(Token = "0x6000C13")]
-	[Address(RVA = "0x4A16420", Offset = "0x4A16420", VA = "0x4A16420")]
+	[Token(Token = "0x6000C37")]
+	[Address(RVA = "0x292DB70", Offset = "0x292C170", VA = "0x18292DB70")]
 	public AsyncDropTrigger()
 	{
 	}

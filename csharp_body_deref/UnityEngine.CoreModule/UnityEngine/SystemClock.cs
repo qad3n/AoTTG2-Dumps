@@ -11,19 +11,19 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200019C")]
+[Token(Token = "0x20001D8")]
 [UnityEngine.Bindings.VisibleToOtherModules]
 internal class SystemClock
 {
-	[Token(Token = "0x40005CF")]
+	[Token(Token = "0x400066C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly DateTime s_Epoch;
 
-	[Token(Token = "0x170001FB")]
+	[Token(Token = "0x17000279")]
 	public static DateTime now
 	{
-		[Token(Token = "0x6000BB9")]
-		[Address(RVA = "0x4E059F0", Offset = "0x4E059F0", VA = "0x4E059F0")]
+		[Token(Token = "0x6000F87")]
+		[Address(RVA = "0x2F27C90", Offset = "0x2F26290", VA = "0x182F27C90")]
 		get
 		{
 			return default(DateTime);

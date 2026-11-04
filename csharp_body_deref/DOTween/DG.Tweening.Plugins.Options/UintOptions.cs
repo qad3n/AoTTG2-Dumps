@@ -17,7 +17,7 @@ public struct UintOptions : IPlugOptions
 	public bool isNegativeChangeValue;
 
 	[Token(Token = "0x6000373")]
-	[Address(RVA = "0x237F8A0", Offset = "0x237F8A0", VA = "0x237F8A0", Slot = "4")]
+	[Address(RVA = "0x564910", Offset = "0x562F10", VA = "0x180564910", Slot = "4")]
 	public void Reset()
 	{
 	}

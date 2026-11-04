@@ -26,13 +26,13 @@ public class JsonContainerContract : JsonContract
 	internal JsonContract? ItemContract
 	{
 		[Token(Token = "0x60007DC")]
-		[Address(RVA = "0x3DD7830", Offset = "0x3DD7830", VA = "0x3DD7830")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007DD")]
-		[Address(RVA = "0x3DD7840", Offset = "0x3DD7840", VA = "0x3DD7840")]
+		[Address(RVA = "0x1C3FBE0", Offset = "0x1C3E1E0", VA = "0x181C3FBE0")]
 		set
 		{
 		}
@@ -42,7 +42,7 @@ public class JsonContainerContract : JsonContract
 	internal JsonContract? FinalItemContract
 	{
 		[Token(Token = "0x60007DE")]
-		[Address(RVA = "0x3DD78D0", Offset = "0x3DD78D0", VA = "0x3DD78D0")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		get
 		{
 			return null;
@@ -53,14 +53,14 @@ public class JsonContainerContract : JsonContract
 	public JsonConverter? ItemConverter
 	{
 		[Token(Token = "0x60007DF")]
-		[Address(RVA = "0x3DD78E0", Offset = "0x3DD78E0", VA = "0x3DD78E0")]
+		[Address(RVA = "0x187BC20", Offset = "0x187A220", VA = "0x18187BC20")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E0")]
-		[Address(RVA = "0x3DD78F0", Offset = "0x3DD78F0", VA = "0x3DD78F0")]
+		[Address(RVA = "0x189BA60", Offset = "0x189A060", VA = "0x18189BA60")]
 		[CompilerGenerated]
 		set
 		{
@@ -71,14 +71,14 @@ public class JsonContainerContract : JsonContract
 	public bool? ItemIsReference
 	{
 		[Token(Token = "0x60007E1")]
-		[Address(RVA = "0x3DD7910", Offset = "0x3DD7910", VA = "0x3DD7910")]
+		[Address(RVA = "0x1C3FBB0", Offset = "0x1C3E1B0", VA = "0x181C3FBB0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E2")]
-		[Address(RVA = "0x3DD7920", Offset = "0x3DD7920", VA = "0x3DD7920")]
+		[Address(RVA = "0x1C3FC50", Offset = "0x1C3E250", VA = "0x181C3FC50")]
 		[CompilerGenerated]
 		set
 		{
@@ -89,14 +89,14 @@ public class JsonContainerContract : JsonContract
 	public ReferenceLoopHandling? ItemReferenceLoopHandling
 	{
 		[Token(Token = "0x60007E3")]
-		[Address(RVA = "0x3DD7930", Offset = "0x3DD7930", VA = "0x3DD7930")]
+		[Address(RVA = "0x1C3FBC0", Offset = "0x1C3E1C0", VA = "0x181C3FBC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E4")]
-		[Address(RVA = "0x3DD7940", Offset = "0x3DD7940", VA = "0x3DD7940")]
+		[Address(RVA = "0x1C3FC60", Offset = "0x1C3E260", VA = "0x181C3FC60")]
 		[CompilerGenerated]
 		set
 		{
@@ -107,14 +107,14 @@ public class JsonContainerContract : JsonContract
 	public TypeNameHandling? ItemTypeNameHandling
 	{
 		[Token(Token = "0x60007E5")]
-		[Address(RVA = "0x3DD7950", Offset = "0x3DD7950", VA = "0x3DD7950")]
+		[Address(RVA = "0x1C3FBD0", Offset = "0x1C3E1D0", VA = "0x181C3FBD0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007E6")]
-		[Address(RVA = "0x3DD7960", Offset = "0x3DD7960", VA = "0x3DD7960")]
+		[Address(RVA = "0x1C3FC70", Offset = "0x1C3E270", VA = "0x181C3FC70")]
 		[CompilerGenerated]
 		set
 		{
@@ -122,7 +122,7 @@ public class JsonContainerContract : JsonContract
 	}
 
 	[Token(Token = "0x60007E7")]
-	[Address(RVA = "0x3DD6D80", Offset = "0x3DD6D80", VA = "0x3DD6D80")]
+	[Address(RVA = "0x1C3FA80", Offset = "0x1C3E080", VA = "0x181C3FA80")]
 	internal JsonContainerContract(Type underlyingType)
 	{
 	}

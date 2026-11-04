@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200019A")]
+[Token(Token = "0x200019D")]
 [DisallowMultipleComponent]
 public sealed class AsyncApplicationFocusTrigger : AsyncTriggerBase<bool>
 {
-	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x4A09B70", Offset = "0x4A09B70", VA = "0x4A09B70")]
+	[Token(Token = "0x6000AA3")]
+	[Address(RVA = "0x2928780", Offset = "0x2926D80", VA = "0x182928780")]
 	private void OnApplicationFocus(bool hasFocus)
 	{
 	}
 
-	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x4A09BB0", Offset = "0x4A09BB0", VA = "0x4A09BB0")]
+	[Token(Token = "0x6000AA4")]
+	[Address(RVA = "0x2928470", Offset = "0x2926A70", VA = "0x182928470")]
 	public IAsyncOnApplicationFocusHandler GetOnApplicationFocusAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x4A09C20", Offset = "0x4A09C20", VA = "0x4A09C20")]
+	[Token(Token = "0x6000AA5")]
+	[Address(RVA = "0x29284E0", Offset = "0x2926AE0", VA = "0x1829284E0")]
 	public IAsyncOnApplicationFocusHandler GetOnApplicationFocusAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A82")]
-	[Address(RVA = "0x4A09C90", Offset = "0x4A09C90", VA = "0x4A09C90")]
+	[Token(Token = "0x6000AA6")]
+	[Address(RVA = "0x2928670", Offset = "0x2926C70", VA = "0x182928670")]
 	public UniTask<bool> OnApplicationFocusAsync()
 	{
 		return default(UniTask<bool>);
 	}
 
-	[Token(Token = "0x6000A83")]
-	[Address(RVA = "0x4A09D80", Offset = "0x4A09D80", VA = "0x4A09D80")]
+	[Token(Token = "0x6000AA7")]
+	[Address(RVA = "0x2928560", Offset = "0x2926B60", VA = "0x182928560")]
 	public UniTask<bool> OnApplicationFocusAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<bool>);
 	}
 
-	[Token(Token = "0x6000A84")]
-	[Address(RVA = "0x4A09E70", Offset = "0x4A09E70", VA = "0x4A09E70")]
+	[Token(Token = "0x6000AA8")]
+	[Address(RVA = "0x29287D0", Offset = "0x2926DD0", VA = "0x1829287D0")]
 	public AsyncApplicationFocusTrigger()
 	{
 	}

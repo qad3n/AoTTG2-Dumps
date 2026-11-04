@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200015D")]
+[Token(Token = "0x20001A2")]
 public abstract class DropdownMenuItem
 {
-	[Token(Token = "0x60009A5")]
-	[Address(RVA = "0x5027DE0", Offset = "0x5027DE0", VA = "0x5027DE0")]
+	[Token(Token = "0x6000BA2")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected DropdownMenuItem()
 	{
 	}

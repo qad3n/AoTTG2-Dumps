@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Projectiles;
 
-[Token(Token = "0x20000E6")]
+[Token(Token = "0x2000106")]
 internal class Rock2Projectile : Rock1Projectile
 {
-	[Token(Token = "0x170000AE")]
+	[Token(Token = "0x170000BD")]
 	protected override bool DestroyOnImpact
 	{
-		[Token(Token = "0x6000461")]
-		[Address(RVA = "0x41093B0", Offset = "0x41093B0", VA = "0x41093B0", Slot = "20")]
+		[Token(Token = "0x60004FA")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "20")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170000AF")]
+	[Token(Token = "0x170000BE")]
 	protected override float MinImpactVelocity
 	{
-		[Token(Token = "0x6000462")]
-		[Address(RVA = "0x41093C0", Offset = "0x41093C0", VA = "0x41093C0", Slot = "21")]
+		[Token(Token = "0x60004FB")]
+		[Address(RVA = "0x20CF520", Offset = "0x20CDB20", VA = "0x1820CF520", Slot = "21")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x41093D0", Offset = "0x41093D0", VA = "0x41093D0", Slot = "15")]
+	[Token(Token = "0x60004FC")]
+	[Address(RVA = "0x20CF440", Offset = "0x20CDA40", VA = "0x1820CF440", Slot = "15")]
 	protected override void RegisterObjects()
 	{
 	}
 
-	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x41094A0", Offset = "0x41094A0", VA = "0x41094A0")]
+	[Token(Token = "0x60004FD")]
+	[Address(RVA = "0x20B6310", Offset = "0x20B4910", VA = "0x1820B6310")]
 	public Rock2Projectile()
 	{
 	}

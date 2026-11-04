@@ -5,13 +5,15 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200043A")]
+[Token(Token = "0x2000507")]
+[Obsolete("IUxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 public interface IUxmlFactory : IBaseUxmlFactory
 {
-	[Token(Token = "0x6001AE6")]
+	[Token(Token = "0x60026B5")]
 	VisualElement Create(IUxmlAttributes bag, CreationContext cc);
 }

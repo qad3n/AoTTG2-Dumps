@@ -29,7 +29,7 @@ public abstract class ABSSequentiable
 	internal TweenCallback onStart;
 
 	[Token(Token = "0x60003C4")]
-	[Address(RVA = "0x2383BA0", Offset = "0x2383BA0", VA = "0x2383BA0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ABSSequentiable()
 	{
 	}

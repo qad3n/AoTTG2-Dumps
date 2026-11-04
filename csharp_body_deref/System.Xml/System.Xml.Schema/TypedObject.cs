@@ -27,13 +27,13 @@ internal class TypedObject
 		public bool IsDecimal
 		{
 			[Token(Token = "0x6000FB3")]
-			[Address(RVA = "0x4844990", Offset = "0x4844990", VA = "0x4844990")]
+			[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 			get
 			{
 				return default(bool);
 			}
 			[Token(Token = "0x6000FB4")]
-			[Address(RVA = "0x48449A0", Offset = "0x48449A0", VA = "0x48449A0")]
+			[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 			set
 			{
 			}
@@ -43,7 +43,7 @@ internal class TypedObject
 		public decimal[] Dvalue
 		{
 			[Token(Token = "0x6000FB5")]
-			[Address(RVA = "0x48449B0", Offset = "0x48449B0", VA = "0x48449B0")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 			get
 			{
 				return null;
@@ -51,13 +51,13 @@ internal class TypedObject
 		}
 
 		[Token(Token = "0x6000FB6")]
-		[Address(RVA = "0x4844560", Offset = "0x4844560", VA = "0x4844560")]
+		[Address(RVA = "0x277D2D0", Offset = "0x277B8D0", VA = "0x18277D2D0")]
 		public DecimalStruct()
 		{
 		}
 
 		[Token(Token = "0x6000FB7")]
-		[Address(RVA = "0x4844500", Offset = "0x4844500", VA = "0x4844500")]
+		[Address(RVA = "0x277D270", Offset = "0x277B870", VA = "0x18277D270")]
 		public DecimalStruct(int dim)
 		{
 		}
@@ -91,7 +91,7 @@ internal class TypedObject
 	public int Dim
 	{
 		[Token(Token = "0x6000FA8")]
-		[Address(RVA = "0x4843F70", Offset = "0x4843F70", VA = "0x4843F70")]
+		[Address(RVA = "0xAB9F60", Offset = "0xAB8560", VA = "0x180AB9F60")]
 		get
 		{
 			return default(int);
@@ -102,7 +102,7 @@ internal class TypedObject
 	public bool IsList
 	{
 		[Token(Token = "0x6000FA9")]
-		[Address(RVA = "0x4843F80", Offset = "0x4843F80", VA = "0x4843F80")]
+		[Address(RVA = "0xAB9F70", Offset = "0xAB8570", VA = "0x180AB9F70")]
 		get
 		{
 			return default(bool);
@@ -113,7 +113,7 @@ internal class TypedObject
 	public bool IsDecimal
 	{
 		[Token(Token = "0x6000FAA")]
-		[Address(RVA = "0x4843F90", Offset = "0x4843F90", VA = "0x4843F90")]
+		[Address(RVA = "0x27868E0", Offset = "0x2784EE0", VA = "0x1827868E0")]
 		get
 		{
 			return default(bool);
@@ -124,7 +124,7 @@ internal class TypedObject
 	public decimal[] Dvalue
 	{
 		[Token(Token = "0x6000FAB")]
-		[Address(RVA = "0x4843FB0", Offset = "0x4843FB0", VA = "0x4843FB0")]
+		[Address(RVA = "0x19BCDF0", Offset = "0x19BB3F0", VA = "0x1819BCDF0")]
 		get
 		{
 			return null;
@@ -135,7 +135,7 @@ internal class TypedObject
 	public object Value
 	{
 		[Token(Token = "0x6000FAC")]
-		[Address(RVA = "0x4843FD0", Offset = "0x4843FD0", VA = "0x4843FD0")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -146,7 +146,7 @@ internal class TypedObject
 	public XmlSchemaDatatype Type
 	{
 		[Token(Token = "0x6000FAD")]
-		[Address(RVA = "0x4843FE0", Offset = "0x4843FE0", VA = "0x4843FE0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -154,33 +154,33 @@ internal class TypedObject
 	}
 
 	[Token(Token = "0x6000FAE")]
-	[Address(RVA = "0x4843FF0", Offset = "0x4843FF0", VA = "0x4843FF0")]
+	[Address(RVA = "0x2786790", Offset = "0x2784D90", VA = "0x182786790")]
 	public TypedObject(object obj, string svalue, XmlSchemaDatatype xsdtype)
 	{
 	}
 
 	[Token(Token = "0x6000FAF")]
-	[Address(RVA = "0x4844150", Offset = "0x4844150", VA = "0x4844150", Slot = "3")]
+	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000FB0")]
-	[Address(RVA = "0x4844160", Offset = "0x4844160", VA = "0x4844160")]
+	[Address(RVA = "0x2786500", Offset = "0x2784B00", VA = "0x182786500")]
 	public void SetDecimal()
 	{
 	}
 
 	[Token(Token = "0x6000FB1")]
-	[Address(RVA = "0x48445C0", Offset = "0x48445C0", VA = "0x48445C0")]
+	[Address(RVA = "0x27863E0", Offset = "0x27849E0", VA = "0x1827863E0")]
 	private bool ListDValueEquals(TypedObject other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000FB2")]
-	[Address(RVA = "0x4844710", Offset = "0x4844710", VA = "0x4844710")]
+	[Address(RVA = "0x2786060", Offset = "0x2784660", VA = "0x182786060")]
 	public bool Equals(TypedObject other)
 	{
 		return default(bool);

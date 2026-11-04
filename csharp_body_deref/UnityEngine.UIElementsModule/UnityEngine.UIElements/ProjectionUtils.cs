@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200024A")]
+[Token(Token = "0x20002C6")]
 internal static class ProjectionUtils
 {
-	[Token(Token = "0x6000F17")]
-	[Address(RVA = "0x5053700", Offset = "0x5053700", VA = "0x5053700")]
+	[Token(Token = "0x60012D1")]
+	[Address(RVA = "0x32B58B0", Offset = "0x32B3EB0", VA = "0x1832B58B0")]
 	public static Matrix4x4 Ortho(float left, float right, float bottom, float top, float near, float far)
 	{
 		return default(Matrix4x4);

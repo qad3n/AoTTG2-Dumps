@@ -39,7 +39,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x60003FC")]
-			[Address(RVA = "0x23863F0", Offset = "0x23863F0", VA = "0x23863F0", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -51,7 +51,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x60003FE")]
-			[Address(RVA = "0x2386440", Offset = "0x2386440", VA = "0x2386440", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -60,28 +60,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x60003F9")]
-		[Address(RVA = "0x2385E80", Offset = "0x2385E80", VA = "0x2385E80")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForCompletion_003Ed__17(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x60003FA")]
-		[Address(RVA = "0x2386380", Offset = "0x2386380", VA = "0x2386380", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x60003FB")]
-		[Address(RVA = "0x2386390", Offset = "0x2386390", VA = "0x2386390", Slot = "6")]
+		[Address(RVA = "0x573E20", Offset = "0x572420", VA = "0x180573E20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x60003FD")]
-		[Address(RVA = "0x2386400", Offset = "0x2386400", VA = "0x2386400", Slot = "8")]
+		[Address(RVA = "0x573EA0", Offset = "0x5724A0", VA = "0x180573EA0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -112,7 +112,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000402")]
-			[Address(RVA = "0x23864C0", Offset = "0x23864C0", VA = "0x23864C0", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -124,7 +124,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000404")]
-			[Address(RVA = "0x2386510", Offset = "0x2386510", VA = "0x2386510", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -133,28 +133,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x60003FF")]
-		[Address(RVA = "0x2386020", Offset = "0x2386020", VA = "0x2386020")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForElapsedLoops_003Ed__20(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000400")]
-		[Address(RVA = "0x2386450", Offset = "0x2386450", VA = "0x2386450", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000401")]
-		[Address(RVA = "0x2386460", Offset = "0x2386460", VA = "0x2386460", Slot = "6")]
+		[Address(RVA = "0x573F20", Offset = "0x572520", VA = "0x180573F20", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000403")]
-		[Address(RVA = "0x23864D0", Offset = "0x23864D0", VA = "0x23864D0", Slot = "8")]
+		[Address(RVA = "0x573F90", Offset = "0x572590", VA = "0x180573F90", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -181,7 +181,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000408")]
-			[Address(RVA = "0x2386580", Offset = "0x2386580", VA = "0x2386580", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -193,7 +193,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600040A")]
-			[Address(RVA = "0x23865D0", Offset = "0x23865D0", VA = "0x23865D0", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -202,28 +202,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x6000405")]
-		[Address(RVA = "0x2385F80", Offset = "0x2385F80", VA = "0x2385F80")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForKill_003Ed__19(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000406")]
-		[Address(RVA = "0x2386520", Offset = "0x2386520", VA = "0x2386520", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000407")]
-		[Address(RVA = "0x2386530", Offset = "0x2386530", VA = "0x2386530", Slot = "6")]
+		[Address(RVA = "0x573FD0", Offset = "0x5725D0", VA = "0x180573FD0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000409")]
-		[Address(RVA = "0x2386590", Offset = "0x2386590", VA = "0x2386590", Slot = "8")]
+		[Address(RVA = "0x574030", Offset = "0x572630", VA = "0x180574030", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -254,7 +254,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x600040E")]
-			[Address(RVA = "0x2386870", Offset = "0x2386870", VA = "0x2386870", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -266,7 +266,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000410")]
-			[Address(RVA = "0x23868C0", Offset = "0x23868C0", VA = "0x23868C0", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -275,28 +275,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x600040B")]
-		[Address(RVA = "0x23867D0", Offset = "0x23867D0", VA = "0x23867D0")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForPosition_003Ed__21(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x600040C")]
-		[Address(RVA = "0x23867F0", Offset = "0x23867F0", VA = "0x23867F0", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x600040D")]
-		[Address(RVA = "0x2386800", Offset = "0x2386800", VA = "0x2386800", Slot = "6")]
+		[Address(RVA = "0x5823D0", Offset = "0x5809D0", VA = "0x1805823D0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600040F")]
-		[Address(RVA = "0x2386880", Offset = "0x2386880", VA = "0x2386880", Slot = "8")]
+		[Address(RVA = "0x582450", Offset = "0x580A50", VA = "0x180582450", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -323,7 +323,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x6000414")]
-			[Address(RVA = "0x2386970", Offset = "0x2386970", VA = "0x2386970", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -335,7 +335,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x6000416")]
-			[Address(RVA = "0x23869C0", Offset = "0x23869C0", VA = "0x23869C0", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -344,28 +344,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x6000411")]
-		[Address(RVA = "0x23868D0", Offset = "0x23868D0", VA = "0x23868D0")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForRewind_003Ed__18(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000412")]
-		[Address(RVA = "0x23868F0", Offset = "0x23868F0", VA = "0x23868F0", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000413")]
-		[Address(RVA = "0x2386900", Offset = "0x2386900", VA = "0x2386900", Slot = "6")]
+		[Address(RVA = "0x582490", Offset = "0x580A90", VA = "0x180582490", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x6000415")]
-		[Address(RVA = "0x2386980", Offset = "0x2386980", VA = "0x2386980", Slot = "8")]
+		[Address(RVA = "0x582510", Offset = "0x580B10", VA = "0x180582510", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -392,7 +392,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
 			[Token(Token = "0x600041A")]
-			[Address(RVA = "0x2386A60", Offset = "0x2386A60", VA = "0x2386A60", Slot = "4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -404,7 +404,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
 			[Token(Token = "0x600041C")]
-			[Address(RVA = "0x2386AB0", Offset = "0x2386AB0", VA = "0x2386AB0", Slot = "7")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -413,28 +413,28 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 		}
 
 		[Token(Token = "0x6000417")]
-		[Address(RVA = "0x23869D0", Offset = "0x23869D0", VA = "0x23869D0")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForStart_003Ed__22(int _003C_003E1__state)
 		{
 		}
 
 		[Token(Token = "0x6000418")]
-		[Address(RVA = "0x23869F0", Offset = "0x23869F0", VA = "0x23869F0", Slot = "5")]
+		[Address(RVA = "0x573EE0", Offset = "0x5724E0", VA = "0x180573EE0", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
 		[Token(Token = "0x6000419")]
-		[Address(RVA = "0x2386A00", Offset = "0x2386A00", VA = "0x2386A00", Slot = "6")]
+		[Address(RVA = "0x582550", Offset = "0x580B50", VA = "0x180582550", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
 		[Token(Token = "0x600041B")]
-		[Address(RVA = "0x2386A70", Offset = "0x2386A70", VA = "0x2386A70", Slot = "8")]
+		[Address(RVA = "0x5825C0", Offset = "0x580BC0", VA = "0x1805825C0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -470,68 +470,68 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	private bool _duplicateToDestroy;
 
 	[Token(Token = "0x60003E6")]
-	[Address(RVA = "0x2384C60", Offset = "0x2384C60", VA = "0x2384C60")]
+	[Address(RVA = "0x565FC0", Offset = "0x5645C0", VA = "0x180565FC0")]
 	private void Awake()
 	{
 	}
 
 	[Token(Token = "0x60003E7")]
-	[Address(RVA = "0x2384EA0", Offset = "0x2384EA0", VA = "0x2384EA0")]
+	[Address(RVA = "0x567280", Offset = "0x565880", VA = "0x180567280")]
 	private void Start()
 	{
 	}
 
 	[Token(Token = "0x60003E8")]
-	[Address(RVA = "0x2384F60", Offset = "0x2384F60", VA = "0x2384F60")]
+	[Address(RVA = "0x567350", Offset = "0x565950", VA = "0x180567350")]
 	private void Update()
 	{
 	}
 
 	[Token(Token = "0x60003E9")]
-	[Address(RVA = "0x2385340", Offset = "0x2385340", VA = "0x2385340")]
+	[Address(RVA = "0x5667F0", Offset = "0x564DF0", VA = "0x1805667F0")]
 	private void LateUpdate()
 	{
 	}
 
 	[Token(Token = "0x60003EA")]
-	[Address(RVA = "0x23854E0", Offset = "0x23854E0", VA = "0x23854E0")]
+	[Address(RVA = "0x566650", Offset = "0x564C50", VA = "0x180566650")]
 	private void FixedUpdate()
 	{
 	}
 
 	[Token(Token = "0x60003EB")]
-	[Address(RVA = "0x23856C0", Offset = "0x23856C0", VA = "0x23856C0")]
+	[Address(RVA = "0x5670B0", Offset = "0x5656B0", VA = "0x1805670B0")]
 	private void OnDrawGizmos()
 	{
 	}
 
 	[Token(Token = "0x60003EC")]
-	[Address(RVA = "0x2385860", Offset = "0x2385860", VA = "0x2385860")]
+	[Address(RVA = "0x566A40", Offset = "0x565040", VA = "0x180566A40")]
 	private void OnDestroy()
 	{
 	}
 
 	[Token(Token = "0x60003ED")]
-	[Address(RVA = "0x2385CB0", Offset = "0x2385CB0", VA = "0x2385CB0")]
+	[Address(RVA = "0x566940", Offset = "0x564F40", VA = "0x180566940")]
 	public void OnApplicationPause(bool pauseStatus)
 	{
 	}
 
 	[Token(Token = "0x60003EE")]
-	[Address(RVA = "0x2385D10", Offset = "0x2385D10", VA = "0x2385D10")]
+	[Address(RVA = "0x5669A0", Offset = "0x564FA0", VA = "0x1805669A0")]
 	private void OnApplicationQuit()
 	{
 	}
 
 	[Token(Token = "0x60003EF")]
-	[Address(RVA = "0x2385DB0", Offset = "0x2385DB0", VA = "0x2385DB0", Slot = "4")]
+	[Address(RVA = "0x567210", Offset = "0x565810", VA = "0x180567210", Slot = "4")]
 	public IDOTweenInit SetCapacity(int tweenersCapacity, int sequencesCapacity)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60003F0")]
-	[Address(RVA = "0x2385E10", Offset = "0x2385E10", VA = "0x2385E10")]
+	[Address(RVA = "0x567700", Offset = "0x565D00", VA = "0x180567700")]
 	[IteratorStateMachine(typeof(_003CWaitForCompletion_003Ed__17))]
 	internal IEnumerator WaitForCompletion(Tween t)
 	{
@@ -539,7 +539,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F1")]
-	[Address(RVA = "0x2385EA0", Offset = "0x2385EA0", VA = "0x2385EA0")]
+	[Address(RVA = "0x5678E0", Offset = "0x565EE0", VA = "0x1805678E0")]
 	[IteratorStateMachine(typeof(_003CWaitForRewind_003Ed__18))]
 	internal IEnumerator WaitForRewind(Tween t)
 	{
@@ -547,7 +547,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F2")]
-	[Address(RVA = "0x2385F10", Offset = "0x2385F10", VA = "0x2385F10")]
+	[Address(RVA = "0x5677F0", Offset = "0x565DF0", VA = "0x1805677F0")]
 	[IteratorStateMachine(typeof(_003CWaitForKill_003Ed__19))]
 	internal IEnumerator WaitForKill(Tween t)
 	{
@@ -555,7 +555,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F3")]
-	[Address(RVA = "0x2385FA0", Offset = "0x2385FA0", VA = "0x2385FA0")]
+	[Address(RVA = "0x567770", Offset = "0x565D70", VA = "0x180567770")]
 	[IteratorStateMachine(typeof(_003CWaitForElapsedLoops_003Ed__20))]
 	internal IEnumerator WaitForElapsedLoops(Tween t, int elapsedLoops)
 	{
@@ -563,7 +563,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F4")]
-	[Address(RVA = "0x2386040", Offset = "0x2386040", VA = "0x2386040")]
+	[Address(RVA = "0x567860", Offset = "0x565E60", VA = "0x180567860")]
 	[IteratorStateMachine(typeof(_003CWaitForPosition_003Ed__21))]
 	internal IEnumerator WaitForPosition(Tween t, float position)
 	{
@@ -571,7 +571,7 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F5")]
-	[Address(RVA = "0x23860C0", Offset = "0x23860C0", VA = "0x23860C0")]
+	[Address(RVA = "0x567950", Offset = "0x565F50", VA = "0x180567950")]
 	[IteratorStateMachine(typeof(_003CWaitForStart_003Ed__22))]
 	internal IEnumerator WaitForStart(Tween t)
 	{
@@ -579,19 +579,19 @@ public class DOTweenComponent : MonoBehaviour, IDOTweenInit
 	}
 
 	[Token(Token = "0x60003F6")]
-	[Address(RVA = "0x2386130", Offset = "0x2386130", VA = "0x2386130")]
+	[Address(RVA = "0x5663D0", Offset = "0x5649D0", VA = "0x1805663D0")]
 	internal static void Create()
 	{
 	}
 
 	[Token(Token = "0x60003F7")]
-	[Address(RVA = "0x2386270", Offset = "0x2386270", VA = "0x2386270")]
+	[Address(RVA = "0x566520", Offset = "0x564B20", VA = "0x180566520")]
 	internal static void DestroyInstance()
 	{
 	}
 
 	[Token(Token = "0x60003F8")]
-	[Address(RVA = "0x2386370", Offset = "0x2386370", VA = "0x2386370")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public DOTweenComponent()
 	{
 	}

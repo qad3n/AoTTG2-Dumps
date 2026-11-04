@@ -23,7 +23,7 @@ public struct DictionaryEntryEnumerator : IEnumerator<DictionaryEntry>, IEnumera
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
 		[Token(Token = "0x6000051")]
-		[Address(RVA = "0x3E5E850", Offset = "0x3E5E850", VA = "0x3E5E850", Slot = "7")]
+		[Address(RVA = "0x1CBB9F0", Offset = "0x1CB9FF0", VA = "0x181CBB9F0", Slot = "7")]
 		get
 		{
 			return null;
@@ -34,7 +34,7 @@ public struct DictionaryEntryEnumerator : IEnumerator<DictionaryEntry>, IEnumera
 	public DictionaryEntry Current
 	{
 		[Token(Token = "0x6000052")]
-		[Address(RVA = "0x3E5E8E0", Offset = "0x3E5E8E0", VA = "0x3E5E8E0", Slot = "4")]
+		[Address(RVA = "0x1CBBA80", Offset = "0x1CBA080", VA = "0x181CBBA80", Slot = "4")]
 		get
 		{
 			return default(DictionaryEntry);
@@ -45,7 +45,7 @@ public struct DictionaryEntryEnumerator : IEnumerator<DictionaryEntry>, IEnumera
 	public object Key
 	{
 		[Token(Token = "0x6000053")]
-		[Address(RVA = "0x3E5E950", Offset = "0x3E5E950", VA = "0x3E5E950")]
+		[Address(RVA = "0x1CBBB00", Offset = "0x1CBA100", VA = "0x181CBBB00")]
 		get
 		{
 			return null;
@@ -56,7 +56,7 @@ public struct DictionaryEntryEnumerator : IEnumerator<DictionaryEntry>, IEnumera
 	public object Value
 	{
 		[Token(Token = "0x6000054")]
-		[Address(RVA = "0x3E5E990", Offset = "0x3E5E990", VA = "0x3E5E990")]
+		[Address(RVA = "0x1CBBB50", Offset = "0x1CBA150", VA = "0x181CBBB50")]
 		get
 		{
 			return null;
@@ -64,26 +64,26 @@ public struct DictionaryEntryEnumerator : IEnumerator<DictionaryEntry>, IEnumera
 	}
 
 	[Token(Token = "0x6000050")]
-	[Address(RVA = "0x3E5DF00", Offset = "0x3E5DF00", VA = "0x3E5DF00")]
+	[Address(RVA = "0xF43010", Offset = "0xF41610", VA = "0x180F43010")]
 	public DictionaryEntryEnumerator(Dictionary<object, object>.Enumerator original)
 	{
 	}
 
 	[Token(Token = "0x6000055")]
-	[Address(RVA = "0x3E5E9D0", Offset = "0x3E5E9D0", VA = "0x3E5E9D0", Slot = "6")]
+	[Address(RVA = "0x1CBB900", Offset = "0x1CB9F00", VA = "0x181CBB900", Slot = "6")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000056")]
-	[Address(RVA = "0x3E5EA10", Offset = "0x3E5EA10", VA = "0x3E5EA10", Slot = "8")]
+	[Address(RVA = "0x1CBB940", Offset = "0x1CB9F40", VA = "0x181CBB940", Slot = "8")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x6000057")]
-	[Address(RVA = "0x3E5EAB0", Offset = "0x3E5EAB0", VA = "0x3E5EAB0", Slot = "5")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	public void Dispose()
 	{
 	}

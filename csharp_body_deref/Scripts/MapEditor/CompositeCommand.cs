@@ -10,27 +10,27 @@ using Il2CppDummyDll;
 
 namespace MapEditor;
 
-[Token(Token = "0x2000106")]
+[Token(Token = "0x2000136")]
 internal class CompositeCommand : BaseCommand
 {
-	[Token(Token = "0x4000640")]
+	[Token(Token = "0x4000709")]
 	[FieldOffset(Offset = "0x10")]
 	private List<BaseCommand> _commands;
 
-	[Token(Token = "0x6000546")]
-	[Address(RVA = "0x4238F70", Offset = "0x4238F70", VA = "0x4238F70")]
+	[Token(Token = "0x6000610")]
+	[Address(RVA = "0x21ED500", Offset = "0x21EBB00", VA = "0x1821ED500")]
 	public CompositeCommand(List<BaseCommand> commands)
 	{
 	}
 
-	[Token(Token = "0x6000547")]
-	[Address(RVA = "0x4239000", Offset = "0x4239000", VA = "0x4239000", Slot = "4")]
+	[Token(Token = "0x6000611")]
+	[Address(RVA = "0x21ED350", Offset = "0x21EB950", VA = "0x1821ED350", Slot = "4")]
 	public override void Execute()
 	{
 	}
 
-	[Token(Token = "0x6000548")]
-	[Address(RVA = "0x4239150", Offset = "0x4239150", VA = "0x4239150", Slot = "5")]
+	[Token(Token = "0x6000612")]
+	[Address(RVA = "0x21ED470", Offset = "0x21EBA70", VA = "0x1821ED470", Slot = "5")]
 	public override void Unexecute()
 	{
 	}

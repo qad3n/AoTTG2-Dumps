@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000112")]
+[Token(Token = "0x200010B")]
 public readonly struct WhenEachResult<T>
 {
-	[Token(Token = "0x1700004A")]
+	[Token(Token = "0x17000048")]
 	public T Result
 	{
-		[Token(Token = "0x60006B8")]
+		[Token(Token = "0x6000698")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,10 +25,10 @@ public readonly struct WhenEachResult<T>
 		}
 	}
 
-	[Token(Token = "0x1700004B")]
+	[Token(Token = "0x17000049")]
 	public Exception Exception
 	{
-		[Token(Token = "0x60006B9")]
+		[Token(Token = "0x6000699")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,48 +36,48 @@ public readonly struct WhenEachResult<T>
 		}
 	}
 
-	[Token(Token = "0x1700004C")]
+	[Token(Token = "0x1700004A")]
 	public bool IsCompletedSuccessfully
 	{
-		[Token(Token = "0x60006BA")]
+		[Token(Token = "0x600069A")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700004D")]
+	[Token(Token = "0x1700004B")]
 	public bool IsFaulted
 	{
-		[Token(Token = "0x60006BB")]
+		[Token(Token = "0x600069B")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60006BC")]
+	[Token(Token = "0x600069C")]
 	public WhenEachResult(T result)
 	{
 	}
 
-	[Token(Token = "0x60006BD")]
+	[Token(Token = "0x600069D")]
 	public WhenEachResult(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x60006BE")]
+	[Token(Token = "0x600069E")]
 	public void TryThrow()
 	{
 	}
 
-	[Token(Token = "0x60006BF")]
+	[Token(Token = "0x600069F")]
 	public T GetResult()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60006C0")]
+	[Token(Token = "0x60006A0")]
 	public override string ToString()
 	{
 		return null;

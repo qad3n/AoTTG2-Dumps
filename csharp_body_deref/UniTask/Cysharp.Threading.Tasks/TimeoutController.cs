@@ -11,88 +11,88 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000071")]
+[Token(Token = "0x200006F")]
 public sealed class TimeoutController : IDisposable
 {
-	[Token(Token = "0x40000F1")]
+	[Token(Token = "0x40000EC")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Action<object> CancelCancellationTokenSourceStateDelegate;
 
-	[Token(Token = "0x40000F2")]
+	[Token(Token = "0x40000ED")]
 	[FieldOffset(Offset = "0x10")]
 	private CancellationTokenSource timeoutSource;
 
-	[Token(Token = "0x40000F3")]
+	[Token(Token = "0x40000EE")]
 	[FieldOffset(Offset = "0x18")]
 	private CancellationTokenSource linkedSource;
 
-	[Token(Token = "0x40000F4")]
+	[Token(Token = "0x40000EF")]
 	[FieldOffset(Offset = "0x20")]
 	private PlayerLoopTimer timer;
 
-	[Token(Token = "0x40000F5")]
+	[Token(Token = "0x40000F0")]
 	[FieldOffset(Offset = "0x28")]
 	private bool isDisposed;
 
-	[Token(Token = "0x40000F6")]
+	[Token(Token = "0x40000F1")]
 	[FieldOffset(Offset = "0x2C")]
 	private readonly DelayType delayType;
 
-	[Token(Token = "0x40000F7")]
+	[Token(Token = "0x40000F2")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly PlayerLoopTiming delayTiming;
 
-	[Token(Token = "0x40000F8")]
+	[Token(Token = "0x40000F3")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly CancellationTokenSource originalLinkCancellationTokenSource;
 
-	[Token(Token = "0x6000181")]
-	[Address(RVA = "0x49DA1F0", Offset = "0x49DA1F0", VA = "0x49DA1F0")]
+	[Token(Token = "0x600017F")]
+	[Address(RVA = "0x2912980", Offset = "0x2910F80", VA = "0x182912980")]
 	private static void CancelCancellationTokenSourceState(object state)
 	{
 	}
 
-	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x49DA260", Offset = "0x49DA260", VA = "0x49DA260")]
+	[Token(Token = "0x6000180")]
+	[Address(RVA = "0x2913020", Offset = "0x2911620", VA = "0x182913020")]
 	public TimeoutController(DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
-	[Token(Token = "0x6000183")]
-	[Address(RVA = "0x49DA300", Offset = "0x49DA300", VA = "0x49DA300")]
+	[Token(Token = "0x6000181")]
+	[Address(RVA = "0x2912F30", Offset = "0x2911530", VA = "0x182912F30")]
 	public TimeoutController(CancellationTokenSource linkCancellationTokenSource, DelayType delayType = DelayType.DeltaTime, PlayerLoopTiming delayTiming = PlayerLoopTiming.Update)
 	{
 	}
 
-	[Token(Token = "0x6000184")]
-	[Address(RVA = "0x49DA3F0", Offset = "0x49DA3F0", VA = "0x49DA3F0")]
+	[Token(Token = "0x6000182")]
+	[Address(RVA = "0x2912E30", Offset = "0x2911430", VA = "0x182912E30")]
 	public CancellationToken Timeout(int millisecondsTimeout)
 	{
 		return default(CancellationToken);
 	}
 
-	[Token(Token = "0x6000185")]
-	[Address(RVA = "0x49DA450", Offset = "0x49DA450", VA = "0x49DA450")]
+	[Token(Token = "0x6000183")]
+	[Address(RVA = "0x2912B00", Offset = "0x2911100", VA = "0x182912B00")]
 	public CancellationToken Timeout(TimeSpan timeout)
 	{
 		return default(CancellationToken);
 	}
 
-	[Token(Token = "0x6000186")]
-	[Address(RVA = "0x49DA690", Offset = "0x49DA690", VA = "0x49DA690")]
+	[Token(Token = "0x6000184")]
+	[Address(RVA = "0x2912AD0", Offset = "0x29110D0", VA = "0x182912AD0")]
 	public bool IsTimeout()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000187")]
-	[Address(RVA = "0x49DA6B0", Offset = "0x49DA6B0", VA = "0x49DA6B0")]
+	[Token(Token = "0x6000185")]
+	[Address(RVA = "0x2912AF0", Offset = "0x29110F0", VA = "0x182912AF0")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000188")]
-	[Address(RVA = "0x49DA6C0", Offset = "0x49DA6C0", VA = "0x49DA6C0", Slot = "4")]
+	[Token(Token = "0x6000186")]
+	[Address(RVA = "0x2912A00", Offset = "0x2911000", VA = "0x182912A00", Slot = "4")]
 	public void Dispose()
 	{
 	}

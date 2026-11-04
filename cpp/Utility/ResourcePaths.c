@@ -1,5 +1,5 @@
 // Type: Utility.ResourcePaths
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/ResourcePaths.cs
@@ -8,76 +8,68 @@
 
 // Utility.ResourcePaths$$.ctor
 // il2cpp: void Utility_ResourcePaths___ctor (Utility_ResourcePaths_o* __this, const MethodInfo* method);
-// 0x4493de0
+// 0x18054c890
 
-void Utility_ResourcePaths___ctor(Utility_ResourcePaths_o *__this,MethodInfo *method)
+void
+Utility_ResourcePaths___ctor(Utility_ResourcePaths_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Utility.ResourcePaths$$.cctor
 // il2cpp: void Utility_ResourcePaths___cctor (const MethodInfo* method);
-// 0x4493df0
+// 0x18233ef80
 
 void Utility_ResourcePaths___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057ae91c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"Weather");
-    il2cpp_runtime_helper_023445d0(&"Characters");
-    il2cpp_runtime_helper_023445d0(&"Data/Maps");
-    il2cpp_runtime_helper_023445d0(&"Data/Info");
-    il2cpp_runtime_helper_023445d0(&"Data/Modes");
-    il2cpp_runtime_helper_023445d0(&"Map");
-    il2cpp_runtime_helper_023445d0(&"UI");
-    il2cpp_runtime_helper_023445d0(&"Projectiles/Prefabs");
-    il2cpp_runtime_helper_023445d0(&"Data/CharacterData");
-    il2cpp_runtime_helper_023445d0(&"Spawnables/Prefabs");
-    il2cpp_runtime_helper_023445d0(&"Data/Addons");
-    il2cpp_runtime_helper_023445d0(&"Effects/Prefabs");
-    g_data_057ae91c = '\x01';
+  if (Il2CppMethodInitialized_184347845 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"Weather");
+    il2cpp_codegen_initialize_runtime_metadata(&"Characters");
+    il2cpp_codegen_initialize_runtime_metadata(&"Data/Maps");
+    il2cpp_codegen_initialize_runtime_metadata(&"Data/Info");
+    il2cpp_codegen_initialize_runtime_metadata(&"Data/Modes");
+    il2cpp_codegen_initialize_runtime_metadata(&"Map");
+    il2cpp_codegen_initialize_runtime_metadata(&"UI");
+    il2cpp_codegen_initialize_runtime_metadata(&"Projectiles/Prefabs");
+    il2cpp_codegen_initialize_runtime_metadata(&"Data/CharacterData");
+    il2cpp_codegen_initialize_runtime_metadata(&"Spawnables/Prefabs");
+    il2cpp_codegen_initialize_runtime_metadata(&"Data/Addons");
+    il2cpp_codegen_initialize_runtime_metadata(&"Effects/Prefabs");
+    Il2CppMethodInitialized_184347845 = '\x01';
   }
-  **(undefined8 **)(TypeInfo_ResourcePaths + 0xb8) = "UI";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_ResourcePaths + 0xb8),"UI");
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "Characters";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Data/CharacterData";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x18) = "Data/Info";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x20) = "Data/Maps";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "Data/Modes";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "Data/Addons";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x38) = "Map";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x38);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x40) = "Effects/Prefabs";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x40);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x48) = "Spawnables/Prefabs";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x48);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x50) = "Projectiles/Prefabs";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x50);
-  lVar1 = *(long *)(TypeInfo_ResourcePaths + 0xb8);
-  *(undefined8 *)(lVar1 + 0x58) = "Weather";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x58);
+  TypeInfo_Utility_ResourcePaths->static_fields->UI = "UI";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->UI,"UI");
+  TypeInfo_Utility_ResourcePaths->static_fields->Characters = "Characters";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Characters,"Characters");
+  TypeInfo_Utility_ResourcePaths->static_fields->CharacterData = "Data/CharacterData";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_Utility_ResourcePaths->static_fields->CharacterData,"Data/CharacterData");
+  TypeInfo_Utility_ResourcePaths->static_fields->Info = "Data/Info";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Info,"Data/Info");
+  TypeInfo_Utility_ResourcePaths->static_fields->BuiltinMaps = "Data/Maps";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->BuiltinMaps,"Data/Maps")
+  ;
+  TypeInfo_Utility_ResourcePaths->static_fields->Modes = "Data/Modes";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Modes,"Data/Modes");
+  TypeInfo_Utility_ResourcePaths->static_fields->Addons = "Data/Addons";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Addons,"Data/Addons");
+  TypeInfo_Utility_ResourcePaths->static_fields->Map = "Map";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Map,"Map");
+  TypeInfo_Utility_ResourcePaths->static_fields->Effects = "Effects/Prefabs";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Effects,"Effects/Prefabs");
+  TypeInfo_Utility_ResourcePaths->static_fields->Spawnables = "Spawnables/Prefabs";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Spawnables,"Spawnables/Prefabs");
+  TypeInfo_Utility_ResourcePaths->static_fields->Projectiles = "Projectiles/Prefabs";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Projectiles,"Projectiles/Prefabs")
+  ;
+  TypeInfo_Utility_ResourcePaths->static_fields->Weather = "Weather";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_ResourcePaths->static_fields->Weather,"Weather");
   return;
 }
 

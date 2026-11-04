@@ -8,31 +8,31 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-[Token(Token = "0x2000013")]
+[Token(Token = "0x2000015")]
 public class LookAtTarget : MonoBehaviour
 {
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x400004C")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private Transform _target;
 
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x400004D")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	private float _speed;
 
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x400004E")]
 	[FieldOffset(Offset = "0x2C")]
 	private Vector3 _lookAtTarget;
 
-	[Token(Token = "0x6000053")]
-	[Address(RVA = "0x3F5F510", Offset = "0x3F5F510", VA = "0x3F5F510")]
+	[Token(Token = "0x6000065")]
+	[Address(RVA = "0x1DA3EF0", Offset = "0x1DA24F0", VA = "0x181DA3EF0")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000054")]
-	[Address(RVA = "0x3F5F5E0", Offset = "0x3F5F5E0", VA = "0x3F5F5E0")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x1DA4020", Offset = "0x1DA2620", VA = "0x181DA4020")]
 	public LookAtTarget()
 	{
 	}

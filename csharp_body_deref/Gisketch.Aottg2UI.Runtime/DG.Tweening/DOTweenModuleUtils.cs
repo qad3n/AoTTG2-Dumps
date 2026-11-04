@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace DG.Tweening;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000002")]
 public static class DOTweenModuleUtils
 {
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3A29620", Offset = "0x3A29620", VA = "0x3A29620")]
+	[Token(Token = "0x6000001")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[Preserve]
 	public static void Init()
 	{

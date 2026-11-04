@@ -10,56 +10,56 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000041")]
 public class FactoryPrimitiveArrayPool<T> : ObjectFactory<T[], int>, IDisposable
 {
-	[Token(Token = "0x4000128")]
+	[Token(Token = "0x4000123")]
 	[FieldOffset(Offset = "0x0")]
 	private PrimitiveArrayPool<T> pool;
 
 	[Token(Token = "0x1700005F")]
 	public int Info
 	{
-		[Token(Token = "0x6000165")]
+		[Token(Token = "0x6000163")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000163")]
+	[Token(Token = "0x6000161")]
 	public FactoryPrimitiveArrayPool(int capacity, string name)
 	{
 	}
 
-	[Token(Token = "0x6000164")]
+	[Token(Token = "0x6000162")]
 	public FactoryPrimitiveArrayPool(int capacity, string name, int info)
 	{
 	}
 
-	[Token(Token = "0x6000166")]
+	[Token(Token = "0x6000164")]
 	public T[] New()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000167")]
+	[Token(Token = "0x6000165")]
 	public T[] New(int size)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000168")]
+	[Token(Token = "0x6000166")]
 	public void Free(T[] obj)
 	{
 	}
 
-	[Token(Token = "0x6000169")]
+	[Token(Token = "0x6000167")]
 	public void Free(T[] obj, int info)
 	{
 	}
 
-	[Token(Token = "0x600016A")]
+	[Token(Token = "0x6000168")]
 	public void Dispose()
 	{
 	}

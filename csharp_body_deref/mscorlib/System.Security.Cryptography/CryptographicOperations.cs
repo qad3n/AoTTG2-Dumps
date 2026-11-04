@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002C1")]
+[Token(Token = "0x20002F0")]
 public static class CryptographicOperations
 {
 	[MethodImpl((MethodImplOptions)72)]
-	[Token(Token = "0x600182B")]
-	[Address(RVA = "0x3B29B20", Offset = "0x3B29B20", VA = "0x3B29B20")]
+	[Token(Token = "0x6001893")]
+	[Address(RVA = "0x19A33C0", Offset = "0x19A19C0", VA = "0x1819A33C0")]
 	public static bool FixedTimeEquals(ReadOnlySpan<byte> left, ReadOnlySpan<byte> right)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)72)]
-	[Token(Token = "0x600182C")]
-	[Address(RVA = "0x3B27E50", Offset = "0x3B27E50", VA = "0x3B27E50")]
+	[Token(Token = "0x6001894")]
+	[Address(RVA = "0x19A3580", Offset = "0x19A1B80", VA = "0x1819A3580")]
 	public static void ZeroMemory(Span<byte> buffer)
 	{
 	}

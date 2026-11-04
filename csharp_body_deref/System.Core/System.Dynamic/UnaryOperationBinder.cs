@@ -12,18 +12,18 @@ namespace System.Dynamic;
 [Token(Token = "0x200027C")]
 public abstract class UnaryOperationBinder : DynamicMetaObjectBinder
 {
-	[Token(Token = "0x6000C82")]
-	[Address(RVA = "0x45111A0", Offset = "0x45111A0", VA = "0x45111A0")]
+	[Token(Token = "0x6000C81")]
+	[Address(RVA = "0x193D700", Offset = "0x193BD00", VA = "0x18193D700")]
 	public DynamicMetaObject FallbackUnaryOperation(DynamicMetaObject target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000C83")]
+	[Token(Token = "0x6000C82")]
 	public abstract DynamicMetaObject FallbackUnaryOperation(DynamicMetaObject target, DynamicMetaObject errorSuggestion);
 
-	[Token(Token = "0x6000C84")]
-	[Address(RVA = "0x45111C0", Offset = "0x45111C0", VA = "0x45111C0", Slot = "7")]
+	[Token(Token = "0x6000C83")]
+	[Address(RVA = "0x248E1E0", Offset = "0x248C7E0", VA = "0x18248E1E0", Slot = "7")]
 	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
 	{
 		return null;

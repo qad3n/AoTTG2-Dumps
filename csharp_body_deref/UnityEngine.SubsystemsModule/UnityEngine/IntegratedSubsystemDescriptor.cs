@@ -14,38 +14,39 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000005")]
 [UnityEngine.Scripting.UsedByNativeCode("SubsystemDescriptorBase")]
 public abstract class IntegratedSubsystemDescriptor : ISubsystemDescriptor
 {
 	[Token(Token = "0x4000003")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.XRModule" })]
 	internal IntPtr m_Ptr;
 
-	[Token(Token = "0x17000004")]
+	[Token(Token = "0x17000003")]
 	public string id
 	{
-		[Token(Token = "0x6000008")]
-		[Address(RVA = "0x4E9E5B0", Offset = "0x4E9E5B0", VA = "0x4E9E5B0", Slot = "4")]
+		[Token(Token = "0x600000A")]
+		[Address(RVA = "0x2FF7480", Offset = "0x2FF5A80", VA = "0x182FF7480", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x4E9E610", Offset = "0x4E9E610", VA = "0x4E9E610")]
+	[Token(Token = "0x600000B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected IntegratedSubsystemDescriptor()
 	{
 	}
 }
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x2000007")]
-[UnityEngine.Scripting.UsedByNativeCode("SubsystemDescriptor")]
+[Token(Token = "0x2000006")]
 [UnityEngine.Bindings.NativeHeader("Modules/Subsystems/SubsystemDescriptor.h")]
+[UnityEngine.Scripting.UsedByNativeCode("SubsystemDescriptor")]
 public class IntegratedSubsystemDescriptor<TSubsystem> : IntegratedSubsystemDescriptor where TSubsystem : IntegratedSubsystem
 {
-	[Token(Token = "0x600000A")]
+	[Token(Token = "0x600000C")]
 	public IntegratedSubsystemDescriptor()
 	{
 	}

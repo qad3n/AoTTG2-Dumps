@@ -27,7 +27,7 @@ internal abstract class ABSPathDecoder
 	internal abstract Vector3 GetPoint(float perc, Vector3[] wps, Path p, ControlPoint[] controlPoints);
 
 	[Token(Token = "0x600039C")]
-	[Address(RVA = "0x2380F90", Offset = "0x2380F90", VA = "0x2380F90")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ABSPathDecoder()
 	{
 	}

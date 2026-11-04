@@ -37,19 +37,19 @@ public class ITilemap
 	internal NativeArray<Vector3Int> m_RefreshPos;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4EEE800", Offset = "0x4EEE800", VA = "0x4EEE800")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal ITilemap()
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4EEE810", Offset = "0x4EEE810", VA = "0x4EEE810")]
+	[Address(RVA = "0x3060490", Offset = "0x305EA90", VA = "0x183060490")]
 	public void RefreshTile(Vector3Int position)
 	{
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4EEEAA0", Offset = "0x4EEEAA0", VA = "0x4EEEAA0")]
+	[Address(RVA = "0x305FDC0", Offset = "0x305E3C0", VA = "0x18305FDC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static ITilemap CreateInstance()
 	{
@@ -57,14 +57,14 @@ public class ITilemap
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x4EEEB10", Offset = "0x4EEEB10", VA = "0x4EEEB10")]
+	[Address(RVA = "0x305FE40", Offset = "0x305E440", VA = "0x18305FE40")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void FindAllRefreshPositions(ITilemap tilemap, int count, IntPtr oldTilesIntPtr, IntPtr newTilesIntPtr, IntPtr positionsIntPtr)
 	{
 	}
 
 	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x4EEEF60", Offset = "0x4EEEF60", VA = "0x4EEEF60")]
+	[Address(RVA = "0x3060210", Offset = "0x305E810", VA = "0x183060210")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void GetAllTileData(ITilemap tilemap, int count, IntPtr tilesIntPtr, IntPtr positionsIntPtr, IntPtr outTileDataIntPtr)
 	{

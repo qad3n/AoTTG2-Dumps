@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000203")]
+[Token(Token = "0x200020A")]
 public sealed class fsMissingVersionConstructorException : Exception
 {
-	[Token(Token = "0x600123B")]
-	[Address(RVA = "0x4D7BD80", Offset = "0x4D7BD80", VA = "0x4D7BD80")]
+	[Token(Token = "0x6001273")]
+	[Address(RVA = "0x2E6C020", Offset = "0x2E6A620", VA = "0x182E6C020")]
 	public fsMissingVersionConstructorException(Type versionedType, Type constructorType)
 	{
 	}

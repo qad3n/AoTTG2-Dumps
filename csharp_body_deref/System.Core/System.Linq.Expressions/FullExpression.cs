@@ -17,7 +17,7 @@ internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 	[Token(Token = "0x170000B5")]
 	internal override string NameCore
 	{
-		[Token(Token = "0x6000462")]
+		[Token(Token = "0x6000461")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,7 +28,7 @@ internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 	[Token(Token = "0x170000B6")]
 	internal override bool TailCallCore
 	{
-		[Token(Token = "0x6000463")]
+		[Token(Token = "0x6000462")]
 		[CompilerGenerated]
 		get
 		{
@@ -36,7 +36,7 @@ internal sealed class FullExpression<TDelegate> : ExpressionN<TDelegate>
 		}
 	}
 
-	[Token(Token = "0x6000461")]
+	[Token(Token = "0x6000460")]
 	public FullExpression(Expression body, string name, bool tailCall, IReadOnlyList<ParameterExpression> parameters)
 	{
 	}

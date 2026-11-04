@@ -13,10 +13,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000035")]
 public interface IDecoratorAttribute
 {
-	[Token(Token = "0x17000059")]
+	[Token(Token = "0x1700005A")]
 	Type type
 	{
-		[Token(Token = "0x60001C9")]
+		[Token(Token = "0x60001CD")]
 		get;
 	}
 }

@@ -6,38 +6,40 @@
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003DF")]
+[Token(Token = "0x200048C")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEditor.UIBuilderModule" })]
 internal enum StyleValueType
 {
-	[Token(Token = "0x4000BA1")]
+	[Token(Token = "0x4000F1C")]
 	Invalid,
-	[Token(Token = "0x4000BA2")]
+	[Token(Token = "0x4000F1D")]
 	Keyword,
-	[Token(Token = "0x4000BA3")]
+	[Token(Token = "0x4000F1E")]
 	Float,
-	[Token(Token = "0x4000BA4")]
+	[Token(Token = "0x4000F1F")]
 	Dimension,
-	[Token(Token = "0x4000BA5")]
+	[Token(Token = "0x4000F20")]
 	Color,
-	[Token(Token = "0x4000BA6")]
+	[Token(Token = "0x4000F21")]
 	ResourcePath,
-	[Token(Token = "0x4000BA7")]
+	[Token(Token = "0x4000F22")]
 	AssetReference,
-	[Token(Token = "0x4000BA8")]
+	[Token(Token = "0x4000F23")]
 	Enum,
-	[Token(Token = "0x4000BA9")]
+	[Token(Token = "0x4000F24")]
 	Variable,
-	[Token(Token = "0x4000BAA")]
+	[Token(Token = "0x4000F25")]
 	String,
-	[Token(Token = "0x4000BAB")]
+	[Token(Token = "0x4000F26")]
 	Function,
-	[Token(Token = "0x4000BAC")]
+	[Token(Token = "0x4000F27")]
 	CommaSeparator,
-	[Token(Token = "0x4000BAD")]
+	[Token(Token = "0x4000F28")]
 	ScalableImage,
-	[Token(Token = "0x4000BAE")]
+	[Token(Token = "0x4000F29")]
 	MissingAssetReference
 }

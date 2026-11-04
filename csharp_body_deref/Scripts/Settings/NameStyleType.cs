@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x20000CA")]
+[Token(Token = "0x20000EA")]
 public enum NameStyleType
 {
-	[Token(Token = "0x40004F4")]
+	[Token(Token = "0x4000594")]
 	Off,
-	[Token(Token = "0x40004F5")]
+	[Token(Token = "0x4000595")]
 	Outline,
-	[Token(Token = "0x40004F6")]
+	[Token(Token = "0x4000596")]
 	Background
 }

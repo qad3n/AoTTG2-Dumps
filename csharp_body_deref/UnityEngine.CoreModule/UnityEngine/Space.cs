@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200007E")]
+[Token(Token = "0x200009A")]
 public enum Space
 {
-	[Token(Token = "0x400011F")]
+	[Token(Token = "0x4000166")]
 	World,
-	[Token(Token = "0x4000120")]
+	[Token(Token = "0x4000167")]
 	Self
 }

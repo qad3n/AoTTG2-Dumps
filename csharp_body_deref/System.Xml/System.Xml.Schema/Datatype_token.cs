@@ -16,7 +16,7 @@ internal class Datatype_token : Datatype_normalizedString
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001144")]
-		[Address(RVA = "0x4861920", Offset = "0x4861920", VA = "0x4861920", Slot = "8")]
+		[Address(RVA = "0x846F70", Offset = "0x845570", VA = "0x180846F70", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -27,7 +27,7 @@ internal class Datatype_token : Datatype_normalizedString
 	internal override XmlSchemaWhiteSpace BuiltInWhitespaceFacet
 	{
 		[Token(Token = "0x6001145")]
-		[Address(RVA = "0x4861930", Offset = "0x4861930", VA = "0x4861930", Slot = "19")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "19")]
 		get
 		{
 			return default(XmlSchemaWhiteSpace);
@@ -35,7 +35,7 @@ internal class Datatype_token : Datatype_normalizedString
 	}
 
 	[Token(Token = "0x6001146")]
-	[Address(RVA = "0x4857F50", Offset = "0x4857F50", VA = "0x4857F50")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_token()
 	{
 	}

@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x20004A1")]
+[Token(Token = "0x20004D1")]
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = true, Inherited = false)]
 public sealed class InternalsVisibleToAttribute : Attribute
 {
-	[Token(Token = "0x4001337")]
+	[Token(Token = "0x400133B")]
 	[FieldOffset(Offset = "0x10")]
 	private string _assemblyName;
 
-	[Token(Token = "0x4001338")]
+	[Token(Token = "0x400133C")]
 	[FieldOffset(Offset = "0x18")]
 	private bool _allInternalsVisible;
 
-	[Token(Token = "0x17000482")]
+	[Token(Token = "0x17000485")]
 	public bool AllInternalsVisible
 	{
-		[Token(Token = "0x60022FD")]
-		[Address(RVA = "0x3BC4090", Offset = "0x3BC4090", VA = "0x3BC4090")]
+		[Token(Token = "0x600237E")]
+		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60022FC")]
-	[Address(RVA = "0x3BC4060", Offset = "0x3BC4060", VA = "0x3BC4060")]
+	[Token(Token = "0x600237D")]
+	[Address(RVA = "0x1A46230", Offset = "0x1A44830", VA = "0x181A46230")]
 	public InternalsVisibleToAttribute(string assemblyName)
 	{
 	}

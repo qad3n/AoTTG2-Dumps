@@ -18,14 +18,14 @@ internal class CompositeExpression : QueryExpression
 	public List<QueryExpression> Expressions
 	{
 		[Token(Token = "0x6000E58")]
-		[Address(RVA = "0x3E39780", Offset = "0x3E39780", VA = "0x3E39780")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000E59")]
-		[Address(RVA = "0x3E39790", Offset = "0x3E39790", VA = "0x3E39790")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
@@ -33,13 +33,13 @@ internal class CompositeExpression : QueryExpression
 	}
 
 	[Token(Token = "0x6000E5A")]
-	[Address(RVA = "0x3E38E80", Offset = "0x3E38E80", VA = "0x3E38E80")]
+	[Address(RVA = "0x1C90590", Offset = "0x1C8EB90", VA = "0x181C90590")]
 	public CompositeExpression(QueryOperator @operator)
 	{
 	}
 
 	[Token(Token = "0x6000E5B")]
-	[Address(RVA = "0x3E397A0", Offset = "0x3E397A0", VA = "0x3E397A0", Slot = "4")]
+	[Address(RVA = "0x1C902E0", Offset = "0x1C8E8E0", VA = "0x181C902E0", Slot = "4")]
 	public override bool IsMatch(JToken root, JToken t, JsonSelectSettings? settings)
 	{
 		return default(bool);

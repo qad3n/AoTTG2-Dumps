@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x200000A")]
 public enum HorizontalWrapMode
 {
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400003A")]
 	Wrap,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400003B")]
 	Overflow
 }

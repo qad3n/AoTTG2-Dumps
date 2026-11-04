@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200005F")]
+[Token(Token = "0x200005D")]
 public enum PlayerLoopTiming
 {
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x4000099")]
 	Initialization,
-	[Token(Token = "0x400009F")]
+	[Token(Token = "0x400009A")]
 	LastInitialization,
-	[Token(Token = "0x40000A0")]
+	[Token(Token = "0x400009B")]
 	EarlyUpdate,
-	[Token(Token = "0x40000A1")]
+	[Token(Token = "0x400009C")]
 	LastEarlyUpdate,
-	[Token(Token = "0x40000A2")]
+	[Token(Token = "0x400009D")]
 	FixedUpdate,
-	[Token(Token = "0x40000A3")]
+	[Token(Token = "0x400009E")]
 	LastFixedUpdate,
-	[Token(Token = "0x40000A4")]
+	[Token(Token = "0x400009F")]
 	PreUpdate,
-	[Token(Token = "0x40000A5")]
+	[Token(Token = "0x40000A0")]
 	LastPreUpdate,
-	[Token(Token = "0x40000A6")]
+	[Token(Token = "0x40000A1")]
 	Update,
-	[Token(Token = "0x40000A7")]
+	[Token(Token = "0x40000A2")]
 	LastUpdate,
-	[Token(Token = "0x40000A8")]
+	[Token(Token = "0x40000A3")]
 	PreLateUpdate,
-	[Token(Token = "0x40000A9")]
+	[Token(Token = "0x40000A4")]
 	LastPreLateUpdate,
-	[Token(Token = "0x40000AA")]
+	[Token(Token = "0x40000A5")]
 	PostLateUpdate,
-	[Token(Token = "0x40000AB")]
+	[Token(Token = "0x40000A6")]
 	LastPostLateUpdate,
-	[Token(Token = "0x40000AC")]
+	[Token(Token = "0x40000A7")]
 	TimeUpdate,
-	[Token(Token = "0x40000AD")]
+	[Token(Token = "0x40000A8")]
 	LastTimeUpdate
 }

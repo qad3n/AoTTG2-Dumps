@@ -1,57 +1,55 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgIntSettingAdapter.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, Settings_IntSetting_o* setting, const MethodInfo* method);
-// 0x44600e0
+// 0x180577fb0
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter___ctor
-               (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,
-               Settings_IntSetting_o *setting,MethodInfo *method)
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter___ctor(Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, Settings_IntSetting_o* setting, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  (__this->fields)._setting = setting;
-  il2cpp_runtime_helper_022b4080(&__this->fields,setting);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  (__this->fields)._setting = method;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._setting,method);
   return;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_TextValue
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_TextValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x4460110
+// 0x182304720
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_TextValue
           (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  Settings_IntSetting_o *pSVar1;
   System_Globalization_CultureInfo_o *provider;
-  System_String_o *pSVar2;
-  int32_t local_c;
+  System_String_o *pSVar1;
+  int32_t local_res8 [8];
   
-  if (g_data_057ae780 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CultureInfo);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"0");
-    g_data_057ae780 = '\x01';
+  if (Il2CppMethodInitialized_184347715 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Globalization_CultureInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"0");
+    Il2CppMethodInitialized_184347715 = '\x01';
   }
-  pSVar1 = (__this->fields)._setting;
-  if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-    local_c = (pSVar1->fields)._value;
-    if (*(int *)(TypeInfo_CultureInfo + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
+    local_res8[0] = (((__this->fields)._setting)->fields)._value;
+    if ((TypeInfo_System_Globalization_CultureInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Globalization_CultureInfo);
     }
     provider = System_Globalization_CultureInfo__get_InvariantCulture((MethodInfo *)0x0);
-    pSVar2 = System_Int32__ToString_3cb4470
-                       ((int32_t)&local_c,(System_IFormatProvider_o *)provider,(MethodInfo *)0x0);
-    return pSVar2;
+    pSVar1 = System_Int32__ToString_1b29900(local_res8,(System_IFormatProvider_o *)provider,(MethodInfo *)0x0)
+    ;
+    return pSVar1;
   }
   return "0";
 }
@@ -59,21 +57,18 @@ Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_TextValue
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_FloatValue
 // il2cpp: float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_FloatValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x44601b0
+// 0x182304630
 
 float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_FloatValue
                 (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  Settings_IntSetting_o *pSVar1;
-  
-  if (g_data_057ae781 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    g_data_057ae781 = '\x01';
+  if (Il2CppMethodInitialized_184347716 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    Il2CppMethodInitialized_184347716 = '\x01';
   }
-  pSVar1 = (__this->fields)._setting;
-  if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-    return (float)(pSVar1->fields)._value;
+  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
+    return (float)(((__this->fields)._setting)->fields)._value;
   }
   return 0.0;
 }
@@ -81,24 +76,17 @@ float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_FloatValue
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_MinValue
 // il2cpp: float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MinValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x44601f0
+// 0x1823046f0
 
 float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MinValue
                 (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  Settings_IntSetting_o *pSVar2;
-  float fVar3;
+  Settings_IntSetting_o *pSVar1;
   
-  pSVar2 = (__this->fields)._setting;
-  if (pSVar2 != (Settings_IntSetting_o *)0x0) {
-    iVar1 = (pSVar2->fields).MinValue;
-    fVar3 = 0.0;
-    if (iVar1 != -0x80000000) {
-      fVar3 = (float)iVar1;
-    }
-    return fVar3;
+  if (((__this->fields)._setting != (Settings_IntSetting_o *)0x0) &&
+     (pSVar1 = (__this->fields)._setting, (pSVar1->fields).MinValue != -0x80000000)) {
+    return (float)(pSVar1->fields).MinValue;
   }
   return 0.0;
 }
@@ -106,18 +94,17 @@ float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MinValue
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_MaxValue
 // il2cpp: float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MaxValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x4460220
+// 0x1823046c0
 
 float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MaxValue
                 (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  Settings_IntSetting_o *pSVar2;
+  Settings_IntSetting_o *pSVar1;
   
-  pSVar2 = (__this->fields)._setting;
-  if ((pSVar2 != (Settings_IntSetting_o *)0x0) && (iVar1 = (pSVar2->fields).MaxValue, iVar1 != 0x7fffffff)) {
-    return (float)iVar1;
+  if (((__this->fields)._setting != (Settings_IntSetting_o *)0x0) &&
+     (pSVar1 = (__this->fields)._setting, (pSVar1->fields).MaxValue != 0x7fffffff)) {
+    return (float)(pSVar1->fields).MaxValue;
   }
   return 1.0;
 }
@@ -125,61 +112,63 @@ float Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MaxValue
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_HasMinValue
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMinValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x4460250
+// 0x1823046a0
 
-bool_conflict
-Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMinValue
-          (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
+bool Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMinValue
+               (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  Settings_IntSetting_o *pSVar1;
-  
-  pSVar1 = (__this->fields)._setting;
-  if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-    return (bool_conflict)CONCAT71((int7)((ulong)pSVar1 >> 8),(pSVar1->fields).MinValue != -0x80000000);
+  if ((__this->fields)._setting == (Settings_IntSetting_o *)0x0) {
+    return false;
   }
-  return 0;
+  return (((__this->fields)._setting)->fields).MinValue != -0x80000000;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_HasMaxValue
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMaxValue (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
-// 0x4460270
+// 0x182304680
 
-bool_conflict
-Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMaxValue
-          (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
+bool Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_HasMaxValue
+               (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,MethodInfo *method)
 
 {
-  Settings_IntSetting_o *pSVar1;
-  
-  pSVar1 = (__this->fields)._setting;
-  if (pSVar1 != (Settings_IntSetting_o *)0x0) {
-    return (bool_conflict)CONCAT71((int7)((ulong)pSVar1 >> 8),(pSVar1->fields).MaxValue != 0x7fffffff);
+  if ((__this->fields)._setting == (Settings_IntSetting_o *)0x0) {
+    return false;
   }
-  return 0;
+  return (((__this->fields)._setting)->fields).MaxValue != 0x7fffffff;
+}
+
+
+// Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$get_MaxCharacters
+// il2cpp: int32_t Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MaxCharacters (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, const MethodInfo* method);
+// 0x181b2a120
+
+int32_t
+Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__get_MaxCharacters(Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, MethodInfo* method)
+
+{
+  return 0xb;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$SetFloat
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__SetFloat (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, float value, const MethodInfo* method);
-// 0x4460290
+// 0x182304520
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__SetFloat
                (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,float value,
                MethodInfo *method)
 
 {
-  Settings_IntSetting_o *__this_00;
-  
-  if (g_data_057ae782 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057ae782 = '\x01';
+  if (Il2CppMethodInitialized_184347717 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184347717 = '\x01';
   }
-  __this_00 = (__this->fields)._setting;
-  if (__this_00 != (Settings_IntSetting_o *)0x0) {
-    Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)__this_00,(int)value,MethodInfo_Void_set_Value);
-    return;
+  if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
+    Settings_TypedSetting_int___set_Value
+              ((Settings_TypedSetting_int__o *)(__this->fields)._setting,(int)value,
+               (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
   }
   return;
 }
@@ -187,49 +176,39 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__SetFloat
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgIntSettingAdapter$$SetText
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__SetText (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44602f0
+// 0x182304580
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter__SetText
                (Gisketch_Aottg2UI_SettingsScreen_AottgIntSettingAdapter_o *__this,System_String_o *value,
                MethodInfo *method)
 
 {
-  uint in_EAX;
-  bool_conflict bVar1;
-  System_Globalization_CultureInfo_o *provider;
-  Settings_TypedSetting_int__Fields SVar2;
   Settings_IntSetting_o *__this_00;
-  undefined8 uStack_18;
+  bool bVar1;
+  System_Globalization_CultureInfo_o *provider;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057ae783 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CultureInfo);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    g_data_057ae783 = '\x01';
+  if (Il2CppMethodInitialized_184347718 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Globalization_CultureInfo);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184347718 = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
+  local_res8[0] = 0;
   if ((__this->fields)._setting != (Settings_IntSetting_o *)0x0) {
-    if (*(int *)(TypeInfo_CultureInfo + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((TypeInfo_System_Globalization_CultureInfo->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_Globalization_CultureInfo);
     }
     provider = System_Globalization_CultureInfo__get_InvariantCulture((MethodInfo *)0x0);
-    SVar2.DefaultValue = 7;
-    SVar2._value = 0;
-    bVar1 = System_Int32__TryParse_3cb4bf0
-                      (value,7,(System_IFormatProvider_o *)provider,(int32_t *)((long)&uStack_18 + 4),
-                       (MethodInfo *)0x0);
-    if ((char)bVar1 != '\0') {
+    bVar1 = System_Int32__TryParse_1b29d60
+                      (value,7,(System_IFormatProvider_o *)provider,local_res8,(MethodInfo *)0x0);
+    if (bVar1) {
       __this_00 = (__this->fields)._setting;
       if (__this_00 == (Settings_IntSetting_o *)0x0) {
-        il2cpp_runtime_helper_022b2c90();
-        System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-        (__this_00->fields).DefaultValue = SVar2.DefaultValue;
-        (__this_00->fields)._value = SVar2._value;
-        il2cpp_runtime_helper_022b4080(&__this_00->fields,SVar2);
-        return;
+        ThrowNullReferenceException();
       }
       Settings_TypedSetting_int___set_Value
-                ((Settings_TypedSetting_int__o *)__this_00,uStack_18._4_4_,MethodInfo_Void_set_Value);
+                ((Settings_TypedSetting_int__o *)__this_00,local_res8[0],
+                 (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
     }
   }
   return;

@@ -11,37 +11,37 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000144")]
+[Token(Token = "0x2000175")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
 public sealed class ContextMenu : Attribute
 {
-	[Token(Token = "0x4000540")]
+	[Token(Token = "0x40005C8")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly string menuItem;
 
-	[Token(Token = "0x4000541")]
+	[Token(Token = "0x40005C9")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly bool validate;
 
-	[Token(Token = "0x4000542")]
+	[Token(Token = "0x40005CA")]
 	[FieldOffset(Offset = "0x1C")]
 	public readonly int priority;
 
-	[Token(Token = "0x6000983")]
-	[Address(RVA = "0x4DF3D40", Offset = "0x4DF3D40", VA = "0x4DF3D40")]
+	[Token(Token = "0x6000CBC")]
+	[Address(RVA = "0x2F16870", Offset = "0x2F14E70", VA = "0x182F16870")]
 	public ContextMenu(string itemName)
 	{
 	}
 
-	[Token(Token = "0x6000984")]
-	[Address(RVA = "0x4DF3D80", Offset = "0x4DF3D80", VA = "0x4DF3D80")]
+	[Token(Token = "0x6000CBD")]
+	[Address(RVA = "0x2F16820", Offset = "0x2F14E20", VA = "0x182F16820")]
 	public ContextMenu(string itemName, bool isValidateFunction)
 	{
 	}
 
-	[Token(Token = "0x6000985")]
-	[Address(RVA = "0x4DF3DC0", Offset = "0x4DF3DC0", VA = "0x4DF3DC0")]
+	[Token(Token = "0x6000CBE")]
+	[Address(RVA = "0x2F167E0", Offset = "0x2F14DE0", VA = "0x182F167E0")]
 	public ContextMenu(string itemName, bool isValidateFunction, int priority)
 	{
 	}

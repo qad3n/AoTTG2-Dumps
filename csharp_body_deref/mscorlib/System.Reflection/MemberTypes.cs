@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004E4")]
+[Token(Token = "0x2000514")]
 [Flags]
 public enum MemberTypes
 {
@@ -30,5 +30,5 @@ public enum MemberTypes
 	[Token(Token = "0x400140D")]
 	NestedType = 0x80,
 	[Token(Token = "0x400140E")]
-	All = 0xBF
+	All = Constructor | Event | Field | Method | Property | TypeInfo | NestedType
 }

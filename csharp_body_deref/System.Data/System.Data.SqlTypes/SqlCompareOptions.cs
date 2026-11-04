@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x20000AE")]
+[Token(Token = "0x20000B8")]
 [Flags]
 public enum SqlCompareOptions
 {
-	[Token(Token = "0x40003EF")]
+	[Token(Token = "0x4000402")]
 	None = 0,
-	[Token(Token = "0x40003F0")]
+	[Token(Token = "0x4000403")]
 	IgnoreCase = 1,
-	[Token(Token = "0x40003F1")]
+	[Token(Token = "0x4000404")]
 	IgnoreNonSpace = 2,
-	[Token(Token = "0x40003F2")]
+	[Token(Token = "0x4000405")]
 	IgnoreKanaType = 8,
-	[Token(Token = "0x40003F3")]
+	[Token(Token = "0x4000406")]
 	IgnoreWidth = 0x10,
-	[Token(Token = "0x40003F4")]
+	[Token(Token = "0x4000407")]
 	BinarySort = 0x8000,
-	[Token(Token = "0x40003F5")]
+	[Token(Token = "0x4000408")]
 	BinarySort2 = 0x4000
 }

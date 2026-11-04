@@ -12,18 +12,18 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200001C")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/Motion.h")]
 public class Motion : Object
 {
 	[Token(Token = "0x4000055")]
 	[FieldOffset(Offset = "0x18")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private readonly bool _003CisAnimatorMotion_003Ek__BackingField;
 
-	[Token(Token = "0x600009E")]
-	[Address(RVA = "0x4DA3480", Offset = "0x4DA3480", VA = "0x4DA3480")]
+	[Token(Token = "0x60000AC")]
+	[Address(RVA = "0x2EB12F0", Offset = "0x2EAF8F0", VA = "0x182EB12F0")]
 	protected Motion()
 	{
 	}

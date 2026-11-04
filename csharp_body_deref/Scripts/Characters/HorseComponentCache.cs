@@ -11,15 +11,15 @@ using Utility;
 
 namespace Characters;
 
-[Token(Token = "0x20004F9")]
+[Token(Token = "0x2000652")]
 internal class HorseComponentCache : BaseComponentCache
 {
-	[Token(Token = "0x400162D")]
+	[Token(Token = "0x4001C9F")]
 	[FieldOffset(Offset = "0x38")]
 	public ParticleSystem Dust;
 
-	[Token(Token = "0x6003445")]
-	[Address(RVA = "0x41DE080", Offset = "0x41DE080", VA = "0x41DE080")]
+	[Token(Token = "0x6003E4B")]
+	[Address(RVA = "0x214D010", Offset = "0x214B610", VA = "0x18214D010")]
 	public HorseComponentCache(GameObject owner)
 	{
 	}

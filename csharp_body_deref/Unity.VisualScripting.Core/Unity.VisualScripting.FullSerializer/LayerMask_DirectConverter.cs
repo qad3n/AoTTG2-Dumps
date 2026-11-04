@@ -12,32 +12,32 @@ using UnityEngine;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001F3")]
+[Token(Token = "0x20001E3")]
 public class LayerMask_DirectConverter : fsDirectConverter<LayerMask>
 {
-	[Token(Token = "0x60011E3")]
-	[Address(RVA = "0x4D782E0", Offset = "0x4D782E0", VA = "0x4D782E0", Slot = "10")]
+	[Token(Token = "0x600118D")]
+	[Address(RVA = "0x2E53B90", Offset = "0x2E52190", VA = "0x182E53B90", Slot = "10")]
 	protected override fsResult DoSerialize(LayerMask model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011E4")]
-	[Address(RVA = "0x4D783E0", Offset = "0x4D783E0", VA = "0x4D783E0", Slot = "11")]
+	[Token(Token = "0x600118E")]
+	[Address(RVA = "0x2E53A60", Offset = "0x2E52060", VA = "0x182E53A60", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref LayerMask model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011E5")]
-	[Address(RVA = "0x4D78510", Offset = "0x4D78510", VA = "0x4D78510", Slot = "4")]
+	[Token(Token = "0x600118F")]
+	[Address(RVA = "0x2E53A20", Offset = "0x2E52020", VA = "0x182E53A20", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011E6")]
-	[Address(RVA = "0x4D78550", Offset = "0x4D78550", VA = "0x4D78550")]
+	[Token(Token = "0x6001190")]
+	[Address(RVA = "0x2E53CA0", Offset = "0x2E522A0", VA = "0x182E53CA0")]
 	public LayerMask_DirectConverter()
 	{
 	}

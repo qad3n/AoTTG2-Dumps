@@ -11,169 +11,169 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002DC")]
+[Token(Token = "0x200030B")]
 [ComVisible(true)]
 public abstract class DSA : AsymmetricAlgorithm
 {
-	[Token(Token = "0x60018F1")]
-	[Address(RVA = "0x3B2F470", Offset = "0x3B2F470", VA = "0x3B2F470")]
+	[Token(Token = "0x6001959")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected DSA()
 	{
 	}
 
-	[Token(Token = "0x60018F2")]
-	[Address(RVA = "0x3B2F480", Offset = "0x3B2F480", VA = "0x3B2F480")]
+	[Token(Token = "0x600195A")]
+	[Address(RVA = "0x19A5840", Offset = "0x19A3E40", VA = "0x1819A5840")]
 	public new static DSA Create()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F3")]
-	[Address(RVA = "0x3B2F4C0", Offset = "0x3B2F4C0", VA = "0x3B2F4C0")]
+	[Token(Token = "0x600195B")]
+	[Address(RVA = "0x19A5940", Offset = "0x19A3F40", VA = "0x1819A5940")]
 	public new static DSA Create(string algName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F4")]
+	[Token(Token = "0x600195C")]
 	public abstract byte[] CreateSignature(byte[] rgbHash);
 
-	[Token(Token = "0x60018F5")]
+	[Token(Token = "0x600195D")]
 	public abstract bool VerifySignature(byte[] rgbHash, byte[] rgbSignature);
 
-	[Token(Token = "0x60018F6")]
-	[Address(RVA = "0x3B2F550", Offset = "0x3B2F550", VA = "0x3B2F550", Slot = "27")]
+	[Token(Token = "0x600195E")]
+	[Address(RVA = "0x19A6670", Offset = "0x19A4C70", VA = "0x1819A6670", Slot = "27")]
 	protected virtual byte[] HashData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F7")]
-	[Address(RVA = "0x3B2F5E0", Offset = "0x3B2F5E0", VA = "0x3B2F5E0", Slot = "28")]
+	[Token(Token = "0x600195F")]
+	[Address(RVA = "0x19A6640", Offset = "0x19A4C40", VA = "0x1819A6640", Slot = "28")]
 	protected virtual byte[] HashData(Stream data, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F8")]
-	[Address(RVA = "0x3B2F600", Offset = "0x3B2F600", VA = "0x3B2F600")]
+	[Token(Token = "0x6001960")]
+	[Address(RVA = "0x19A66A0", Offset = "0x19A4CA0", VA = "0x1819A66A0")]
 	public byte[] SignData(byte[] data, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018F9")]
-	[Address(RVA = "0x3B2F670", Offset = "0x3B2F670", VA = "0x3B2F670", Slot = "29")]
+	[Token(Token = "0x6001961")]
+	[Address(RVA = "0x19A6730", Offset = "0x19A4D30", VA = "0x1819A6730", Slot = "29")]
 	public virtual byte[] SignData(byte[] data, int offset, int count, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018FA")]
-	[Address(RVA = "0x3B2F820", Offset = "0x3B2F820", VA = "0x3B2F820", Slot = "30")]
+	[Token(Token = "0x6001962")]
+	[Address(RVA = "0x19A68D0", Offset = "0x19A4ED0", VA = "0x1819A68D0", Slot = "30")]
 	public virtual byte[] SignData(Stream data, HashAlgorithmName hashAlgorithm)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60018FB")]
-	[Address(RVA = "0x3B2F8D0", Offset = "0x3B2F8D0", VA = "0x3B2F8D0")]
+	[Token(Token = "0x6001963")]
+	[Address(RVA = "0x19A72B0", Offset = "0x19A58B0", VA = "0x1819A72B0")]
 	public bool VerifyData(byte[] data, byte[] signature, HashAlgorithmName hashAlgorithm)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018FC")]
-	[Address(RVA = "0x3B2F950", Offset = "0x3B2F950", VA = "0x3B2F950", Slot = "31")]
+	[Token(Token = "0x6001964")]
+	[Address(RVA = "0x19A7340", Offset = "0x19A5940", VA = "0x1819A7340", Slot = "31")]
 	public virtual bool VerifyData(byte[] data, int offset, int count, byte[] signature, HashAlgorithmName hashAlgorithm)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018FD")]
-	[Address(RVA = "0x3B2FAD0", Offset = "0x3B2FAD0", VA = "0x3B2FAD0", Slot = "32")]
+	[Token(Token = "0x6001965")]
+	[Address(RVA = "0x19A7540", Offset = "0x19A5B40", VA = "0x1819A7540", Slot = "32")]
 	public virtual bool VerifyData(Stream data, byte[] signature, HashAlgorithmName hashAlgorithm)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60018FE")]
-	[Address(RVA = "0x3B2FBC0", Offset = "0x3B2FBC0", VA = "0x3B2FBC0", Slot = "11")]
+	[Token(Token = "0x6001966")]
+	[Address(RVA = "0x19A5B30", Offset = "0x19A4130", VA = "0x1819A5B30", Slot = "11")]
 	public override void FromXmlString(string xmlString)
 	{
 	}
 
-	[Token(Token = "0x60018FF")]
-	[Address(RVA = "0x3B303C0", Offset = "0x3B303C0", VA = "0x3B303C0", Slot = "12")]
+	[Token(Token = "0x6001967")]
+	[Address(RVA = "0x19A69B0", Offset = "0x19A4FB0", VA = "0x1819A69B0", Slot = "12")]
 	public override string ToXmlString(bool includePrivateParameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001900")]
+	[Token(Token = "0x6001968")]
 	public abstract DSAParameters ExportParameters(bool includePrivateParameters);
 
-	[Token(Token = "0x6001901")]
+	[Token(Token = "0x6001969")]
 	public abstract void ImportParameters(DSAParameters parameters);
 
-	[Token(Token = "0x6001902")]
-	[Address(RVA = "0x3B2F570", Offset = "0x3B2F570", VA = "0x3B2F570")]
+	[Token(Token = "0x600196A")]
+	[Address(RVA = "0x19A5AC0", Offset = "0x19A40C0", VA = "0x1819A5AC0")]
 	private static Exception DerivedClassMustOverride()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001903")]
-	[Address(RVA = "0x3B2F7A0", Offset = "0x3B2F7A0", VA = "0x3B2F7A0")]
+	[Token(Token = "0x600196B")]
+	[Address(RVA = "0x19A65B0", Offset = "0x19A4BB0", VA = "0x1819A65B0")]
 	internal static Exception HashAlgorithmNameNullOrEmpty()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001904")]
-	[Address(RVA = "0x3B307F0", Offset = "0x3B307F0", VA = "0x3B307F0")]
+	[Token(Token = "0x600196C")]
+	[Address(RVA = "0x19A5890", Offset = "0x19A3E90", VA = "0x1819A5890")]
 	public static DSA Create(int keySizeInBits)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001905")]
-	[Address(RVA = "0x3B308E0", Offset = "0x3B308E0", VA = "0x3B308E0")]
+	[Token(Token = "0x600196D")]
+	[Address(RVA = "0x19A59E0", Offset = "0x19A3FE0", VA = "0x1819A59E0")]
 	public static DSA Create(DSAParameters parameters)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001906")]
-	[Address(RVA = "0x3B30A30", Offset = "0x3B30A30", VA = "0x3B30A30", Slot = "35")]
+	[Token(Token = "0x600196E")]
+	[Address(RVA = "0x19A6DC0", Offset = "0x19A53C0", VA = "0x1819A6DC0", Slot = "35")]
 	public virtual bool TryCreateSignature(ReadOnlySpan<byte> hash, Span<byte> destination, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001907")]
-	[Address(RVA = "0x3B30B20", Offset = "0x3B30B20", VA = "0x3B30B20", Slot = "36")]
+	[Token(Token = "0x600196F")]
+	[Address(RVA = "0x19A6EC0", Offset = "0x19A54C0", VA = "0x1819A6EC0", Slot = "36")]
 	protected virtual bool TryHashData(ReadOnlySpan<byte> data, Span<byte> destination, HashAlgorithmName hashAlgorithm, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001908")]
-	[Address(RVA = "0x3B30E50", Offset = "0x3B30E50", VA = "0x3B30E50", Slot = "37")]
+	[Token(Token = "0x6001970")]
+	[Address(RVA = "0x19A7100", Offset = "0x19A5700", VA = "0x1819A7100", Slot = "37")]
 	public virtual bool TrySignData(ReadOnlySpan<byte> data, Span<byte> destination, HashAlgorithmName hashAlgorithm, out int bytesWritten)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001909")]
-	[Address(RVA = "0x3B30F90", Offset = "0x3B30F90", VA = "0x3B30F90", Slot = "38")]
+	[Token(Token = "0x6001971")]
+	[Address(RVA = "0x19A7670", Offset = "0x19A5C70", VA = "0x1819A7670", Slot = "38")]
 	public virtual bool VerifyData(ReadOnlySpan<byte> data, ReadOnlySpan<byte> signature, HashAlgorithmName hashAlgorithm)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600190A")]
-	[Address(RVA = "0x3B31330", Offset = "0x3B31330", VA = "0x3B31330", Slot = "39")]
+	[Token(Token = "0x6001972")]
+	[Address(RVA = "0x19A79B0", Offset = "0x19A5FB0", VA = "0x1819A79B0", Slot = "39")]
 	public virtual bool VerifySignature(ReadOnlySpan<byte> hash, ReadOnlySpan<byte> signature)
 	{
 		return default(bool);

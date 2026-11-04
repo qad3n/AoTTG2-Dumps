@@ -16,7 +16,7 @@ internal sealed class ChoiceNode : InteriorNode
 	public override bool IsNullable
 	{
 		[Token(Token = "0x6000FF3")]
-		[Address(RVA = "0x48487D0", Offset = "0x48487D0", VA = "0x48487D0", Slot = "6")]
+		[Address(RVA = "0x277A860", Offset = "0x2778E60", VA = "0x18277A860", Slot = "6")]
 		get
 		{
 			return default(bool);
@@ -24,25 +24,25 @@ internal sealed class ChoiceNode : InteriorNode
 	}
 
 	[Token(Token = "0x6000FF1")]
-	[Address(RVA = "0x48484A0", Offset = "0x48484A0", VA = "0x48484A0")]
+	[Address(RVA = "0x277A3A0", Offset = "0x27789A0", VA = "0x18277A3A0")]
 	private static void ConstructChildPos(SyntaxTreeNode child, BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FF2")]
-	[Address(RVA = "0x4848610", Offset = "0x4848610", VA = "0x4848610", Slot = "5")]
+	[Address(RVA = "0x277A5D0", Offset = "0x2778BD0", VA = "0x18277A5D0", Slot = "5")]
 	public override void ConstructPos(BitSet firstpos, BitSet lastpos, BitSet[] followpos)
 	{
 	}
 
 	[Token(Token = "0x6000FF4")]
-	[Address(RVA = "0x4848890", Offset = "0x4848890", VA = "0x4848890", Slot = "4")]
+	[Address(RVA = "0x277A850", Offset = "0x2778E50", VA = "0x18277A850", Slot = "4")]
 	public override void ExpandTree(InteriorNode parent, SymbolsDictionary symbols, Positions positions)
 	{
 	}
 
 	[Token(Token = "0x6000FF5")]
-	[Address(RVA = "0x4847770", Offset = "0x4847770", VA = "0x4847770")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ChoiceNode()
 	{
 	}

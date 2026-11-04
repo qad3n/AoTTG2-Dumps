@@ -44,7 +44,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 			[Token(Token = "0x17000033")]
 			private TElement System_002ECollections_002EGeneric_002EIEnumerator_003CTElement_003E_002ECurrent
 			{
-				[Token(Token = "0x6000180")]
+				[Token(Token = "0x600017F")]
 				[DebuggerHidden]
 				get
 				{
@@ -55,7 +55,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 			[Token(Token = "0x17000034")]
 			private object System_002ECollections_002EIEnumerator_002ECurrent
 			{
-				[Token(Token = "0x6000182")]
+				[Token(Token = "0x6000181")]
 				[DebuggerHidden]
 				get
 				{
@@ -63,25 +63,25 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 				}
 			}
 
-			[Token(Token = "0x600017D")]
+			[Token(Token = "0x600017C")]
 			[DebuggerHidden]
 			public _003CGetEnumerator_003Ed__7(int _003C_003E1__state)
 			{
 			}
 
-			[Token(Token = "0x600017E")]
+			[Token(Token = "0x600017D")]
 			[DebuggerHidden]
 			private void System_002EIDisposable_002EDispose()
 			{
 			}
 
-			[Token(Token = "0x600017F")]
+			[Token(Token = "0x600017E")]
 			private bool MoveNext()
 			{
 				return default(bool);
 			}
 
-			[Token(Token = "0x6000181")]
+			[Token(Token = "0x6000180")]
 			[DebuggerHidden]
 			private void System_002ECollections_002EIEnumerator_002EReset()
 			{
@@ -115,7 +115,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 		[Token(Token = "0x1700002F")]
 		public TKey Key
 		{
-			[Token(Token = "0x600016F")]
+			[Token(Token = "0x600016E")]
 			get
 			{
 				return (TKey)null;
@@ -125,7 +125,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 		[Token(Token = "0x17000030")]
 		private int System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002ECount
 		{
-			[Token(Token = "0x6000170")]
+			[Token(Token = "0x600016F")]
 			get
 			{
 				return default(int);
@@ -135,89 +135,89 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 		[Token(Token = "0x17000031")]
 		private bool System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002EIsReadOnly
 		{
-			[Token(Token = "0x6000171")]
+			[Token(Token = "0x6000170")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x17000032")]
-		private TElement System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002EItem
+		// C# has no syntax for parameterized property 'System.Collections.Generic.IList<TElement>.Item'.
+		// Its 'property:' attributes below are ignored by the compiler (CS0657).
+		[property: Token(Token = "0x17000032")]
+		[Token(Token = "0x6000179")]
+		private TElement System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002Eget_Item(int index)
 		{
-			[Token(Token = "0x600017A")]
-			get
-			{
-				return (TElement)null;
-			}
-			[Token(Token = "0x600017B")]
-			set
-			{
-			}
+			return (TElement)null;
 		}
 
-		[Token(Token = "0x600016C")]
+		[Token(Token = "0x600017A")]
+		private void System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002Eset_Item(int index, TElement value)
+		{
+		}
+
+		[Token(Token = "0x600016B")]
 		internal void Add(TElement element)
 		{
 		}
 
-		[Token(Token = "0x600016D")]
+		[Token(Token = "0x600016C")]
 		[IteratorStateMachine(typeof(Lookup<, >.Grouping._003CGetEnumerator_003Ed__7))]
 		public IEnumerator<TElement> GetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600016E")]
+		[Token(Token = "0x600016D")]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000172")]
+		[Token(Token = "0x6000171")]
 		private void System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002EAdd(TElement item)
 		{
 		}
 
-		[Token(Token = "0x6000173")]
+		[Token(Token = "0x6000172")]
 		private void System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002EClear()
 		{
 		}
 
-		[Token(Token = "0x6000174")]
+		[Token(Token = "0x6000173")]
 		private bool System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002EContains(TElement item)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000175")]
+		[Token(Token = "0x6000174")]
 		private void System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002ECopyTo(TElement[] array, int arrayIndex)
 		{
 		}
 
-		[Token(Token = "0x6000176")]
+		[Token(Token = "0x6000175")]
 		private bool System_002ECollections_002EGeneric_002EICollection_003CTElement_003E_002ERemove(TElement item)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000177")]
+		[Token(Token = "0x6000176")]
 		private int System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002EIndexOf(TElement item)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000178")]
+		[Token(Token = "0x6000177")]
 		private void System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002EInsert(int index, TElement item)
 		{
 		}
 
-		[Token(Token = "0x6000179")]
+		[Token(Token = "0x6000178")]
 		private void System_002ECollections_002EGeneric_002EIList_003CTElement_003E_002ERemoveAt(int index)
 		{
 		}
 
-		[Token(Token = "0x600017C")]
+		[Token(Token = "0x600017B")]
 		public Grouping()
 		{
 		}
@@ -246,7 +246,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 		[Token(Token = "0x17000035")]
 		private IGrouping<TKey, TElement> System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002ELinq_002EIGrouping_003CTKey_002CTElement_003E_003E_002ECurrent
 		{
-			[Token(Token = "0x6000186")]
+			[Token(Token = "0x6000185")]
 			[DebuggerHidden]
 			get
 			{
@@ -257,7 +257,7 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 		[Token(Token = "0x17000036")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000188")]
+			[Token(Token = "0x6000187")]
 			[DebuggerHidden]
 			get
 			{
@@ -265,25 +265,25 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 			}
 		}
 
-		[Token(Token = "0x6000183")]
+		[Token(Token = "0x6000182")]
 		[DebuggerHidden]
 		public _003CGetEnumerator_003Ed__12(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000184")]
+		[Token(Token = "0x6000183")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000185")]
+		[Token(Token = "0x6000184")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000187")]
+		[Token(Token = "0x6000186")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
@@ -306,43 +306,43 @@ public class Lookup<TKey, TElement> : IEnumerable<IGrouping<TKey, TElement>>, IE
 	[FieldOffset(Offset = "0x0")]
 	private int count;
 
-	[Token(Token = "0x6000165")]
+	[Token(Token = "0x6000164")]
 	internal static Lookup<TKey, TElement> Create<TSource>(IEnumerable<TSource> source, Func<TSource, TKey> keySelector, Func<TSource, TElement> elementSelector, IEqualityComparer<TKey> comparer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000166")]
+	[Token(Token = "0x6000165")]
 	private Lookup(IEqualityComparer<TKey> comparer)
 	{
 	}
 
-	[Token(Token = "0x6000167")]
+	[Token(Token = "0x6000166")]
 	[IteratorStateMachine(typeof(Lookup<, >._003CGetEnumerator_003Ed__12))]
 	public IEnumerator<IGrouping<TKey, TElement>> GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000168")]
+	[Token(Token = "0x6000167")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000169")]
+	[Token(Token = "0x6000168")]
 	internal int InternalGetHashCode(TKey key)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600016A")]
+	[Token(Token = "0x6000169")]
 	internal Grouping GetGrouping(TKey key, bool create)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600016B")]
+	[Token(Token = "0x600016A")]
 	private void Resize()
 	{
 	}

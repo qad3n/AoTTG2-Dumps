@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200008F")]
 public enum PressState
 {
-	[Token(Token = "0x400012A")]
+	[Token(Token = "0x4000128")]
 	Hold,
-	[Token(Token = "0x400012B")]
+	[Token(Token = "0x4000129")]
 	Down,
-	[Token(Token = "0x400012C")]
+	[Token(Token = "0x400012A")]
 	Up
 }

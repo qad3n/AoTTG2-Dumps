@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x200013D")]
+[Token(Token = "0x200013F")]
 public abstract class InstanceActionInvokerBase<TTarget> : InstanceInvokerBase<TTarget>
 {
-	[Token(Token = "0x6000D48")]
+	[Token(Token = "0x6000D5D")]
 	protected InstanceActionInvokerBase(MethodInfo methodInfo)
 	{
 	}

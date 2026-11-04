@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x2000200")]
+[Token(Token = "0x200038D")]
 public enum SocketOptionLevel
 {
-	[Token(Token = "0x4000B01")]
+	[Token(Token = "0x4000F30")]
 	Socket = 65535,
-	[Token(Token = "0x4000B02")]
+	[Token(Token = "0x4000F31")]
 	IP = 0,
-	[Token(Token = "0x4000B03")]
+	[Token(Token = "0x4000F32")]
 	IPv6 = 41,
-	[Token(Token = "0x4000B04")]
+	[Token(Token = "0x4000F33")]
 	Tcp = 6,
-	[Token(Token = "0x4000B05")]
+	[Token(Token = "0x4000F34")]
 	Udp = 17
 }

@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x20004F8")]
+[Token(Token = "0x20005EE")]
 internal delegate float LayoutBaselineFunction(ref LayoutNode node, float width, float height);

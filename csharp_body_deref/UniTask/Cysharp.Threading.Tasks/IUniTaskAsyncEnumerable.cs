@@ -11,9 +11,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x200002E")]
 public interface IUniTaskAsyncEnumerable<out T>
 {
-	[Token(Token = "0x6000110")]
+	[Token(Token = "0x6000108")]
 	IUniTaskAsyncEnumerator<T> GetAsyncEnumerator([Optional] CancellationToken cancellationToken);
 }

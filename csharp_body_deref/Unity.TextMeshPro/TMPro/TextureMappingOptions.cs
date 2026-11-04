@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000090")]
+[Token(Token = "0x2000086")]
 public enum TextureMappingOptions
 {
-	[Token(Token = "0x40004A6")]
+	[Token(Token = "0x4000416")]
 	Character,
-	[Token(Token = "0x40004A7")]
+	[Token(Token = "0x4000417")]
 	Line,
-	[Token(Token = "0x40004A8")]
+	[Token(Token = "0x4000418")]
 	Paragraph,
-	[Token(Token = "0x40004A9")]
+	[Token(Token = "0x4000419")]
 	MatchAspect
 }

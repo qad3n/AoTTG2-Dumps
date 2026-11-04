@@ -1,275 +1,312 @@
 // Type: Effects.ThunderspearExplodeEffect
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/Effects/ThunderspearExplodeEffect.cs
 // Prior real C# source (older reference): Assets/Scripts/Effects/ThunderspearExplodeEffect.cs
 // --------------------------------
 
 // Effects.ThunderspearExplodeEffect$$Setup
 // il2cpp: void Effects_ThunderspearExplodeEffect__Setup (Effects_ThunderspearExplodeEffect_o* __this, Photon_Realtime_Player_o* owner, float liveTime, System_Object_array* settings, const MethodInfo* method);
-// 0x4573050
+// 0x181e777f0
 
 void Effects_ThunderspearExplodeEffect__Setup
                (Effects_ThunderspearExplodeEffect_o *__this,Photon_Realtime_Player_o *owner,float liveTime,
                System_Object_array *settings,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  undefined8 uVar2;
-  undefined8 uVar3;
-  long lVar4;
-  UnityEngine_ParticleSystem_MinMaxGradient_o value;
-  Effects_ThunderspearExplodeEffect_o *pEVar5;
-  Effects_ThunderspearExplodeEffect_o *pEVar6;
-  undefined8 *puVar7;
-  undefined4 *puVar8;
-  UnityEngine_ParticleSystem_MainModule_o main;
-  Il2CppObject *arg0;
-  System_String_o *n;
-  UnityEngine_AudioSource_o *__this_00;
-  float fVar9;
-  float fVar10;
-  float fVar11;
-  float fVar12;
-  UnityEngine_Color_o color;
-  UnityEngine_ParticleSystem_MainModule_Fields UStack_b8;
-  UnityEngine_ParticleSystem_MinMaxGradient_o UStack_b0;
-  undefined8 uStack_78;
-  undefined8 uStack_70;
-  UnityEngine_Gradient_o *pUStack_60;
-  UnityEngine_Gradient_o *pUStack_58;
-  UnityEngine_Color_Fields UStack_50;
-  UnityEngine_Color_Fields UStack_40;
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  uint uVar4;
+  Settings_AbilitySettings_o *pSVar5;
+  Settings_BoolSetting_o *pSVar6;
+  Il2CppObject *pIVar7;
+  Projectiles_ThunderspearProjectile_StaticFields *pPVar8;
+  UnityEngine_ParticleSystem_o *__this_00;
+  UnityEngine_ParticleSystem_NoiseModule_o main;
+  UnityEngine_Transform_o *pUVar9;
+  UnityEngine_GameObject_o *__this_01;
+  float *pfVar10;
+  UnityEngine_ParticleSystem_MinMaxGradient_o *pUVar11;
+  int32_t *piVar12;
+  float fVar13;
+  float fVar14;
+  float fVar15;
+  float fVar16;
+  float fVar17;
+  UnityEngine_ParticleSystem_MainModule_o local_res8 [4];
+  UnityEngine_Color_o local_f8;
+  UnityEngine_ParticleSystem_MinMaxGradient_Fields local_e8;
+  UnityEngine_ParticleSystem_MinMaxGradient_o local_a8 [2];
   
-  if (g_data_057af088 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Color);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_AudioSource_GetComponent_AudioSource);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ParticleSystem_GetComponent_ParticleSystem);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TSKillType);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderspearExplodeEffect);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderspearProjectile);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    il2cpp_runtime_helper_023445d0(&"TSHitTitan{0}");
-    il2cpp_runtime_helper_023445d0(&"TSKill{0}");
-    il2cpp_runtime_helper_023445d0(&"OldExplodeEffect");
-    il2cpp_runtime_helper_023445d0(&"TSAir{0}");
-    il2cpp_runtime_helper_023445d0(&"TSArmor{0}");
-    g_data_057af088 = '\x01';
+  if (Il2CppMethodInitialized_184344f63 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Color);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Projectiles_TSKillType);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Effects_ThunderspearExplodeEffect);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Projectiles_ThunderspearProjectile);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    il2cpp_codegen_initialize_runtime_metadata(&"OldExplodeEffect");
+    Il2CppMethodInitialized_184344f63 = '\x01';
   }
-  UStack_b8.m_ParticleSystem = (UnityEngine_ParticleSystem_o *)0x0;
+  local_res8[0].fields.m_ParticleSystem =
+       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_o *)0x0;
   (__this->fields)._owner = owner;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._owner,owner);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._owner,owner);
   (__this->fields)._timeLeft = liveTime;
-  main.fields.m_ParticleSystem =
-       (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_MainModule_Fields)__this;
-  pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_ParticleSystem_GetComponent_ParticleSystem);
-  lVar4 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x30);
-  if (((lVar4 == 0) || (lVar4 = *(long *)(lVar4 + 0x58), lVar4 == 0)) ||
-     (pEVar5 == (Effects_ThunderspearExplodeEffect_o *)0x0)) {
-label_045735f6:
-    il2cpp_runtime_helper_022b2c90();
+  __this_00 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)__this,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem);
+  pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->AbilitySettings;
+  if (((pSVar5 == (Settings_AbilitySettings_o *)0x0) ||
+      (pSVar6 = (pSVar5->fields).UseOldEffect, pSVar6 == (Settings_BoolSetting_o *)0x0)) ||
+     (__this_00 == (UnityEngine_ParticleSystem_o *)0x0)) goto label_181e77be4;
+  if ((pSVar6->fields)._value == false) {
+    main = UnityEngine_ParticleSystem__get_noise(__this_00,(MethodInfo *)0x0);
+    if ((TypeInfo_Effects_ThunderspearExplodeEffect->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Effects_ThunderspearExplodeEffect);
+    }
+    fVar1 = TypeInfo_Effects_ThunderspearExplodeEffect->static_fields->SizeMultiplier;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+    }
+    Utility_Util__ScaleParticleStartSize
+              ((UnityEngine_ParticleSystem_MainModule_o)main.fields.m_ParticleSystem,fVar1,(MethodInfo *)0x0);
   }
   else {
-    if (*(char *)(lVar4 + 0x11) != '\0') {
-      UnityEngine_ParticleSystem__Stop_4e72b10((UnityEngine_ParticleSystem_o *)pEVar5,(MethodInfo *)0x0);
-      UnityEngine_ParticleSystem__Clear_4e72ca0((UnityEngine_ParticleSystem_o *)pEVar5,(MethodInfo *)0x0);
-      main.fields.m_ParticleSystem =
-           (UnityEngine_ParticleSystem_MainModule_Fields)(UnityEngine_ParticleSystem_MainModule_Fields)__this;
-      pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-               UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      if (((pEVar5 != (Effects_ThunderspearExplodeEffect_o *)0x0) &&
-          (pEVar6 = (Effects_ThunderspearExplodeEffect_o *)
-                    UnityEngine_Transform__Find
-                              ((UnityEngine_Transform_o *)pEVar5,"OldExplodeEffect",(MethodInfo *)0x0),
-          main.fields.m_ParticleSystem =
-               (UnityEngine_ParticleSystem_MainModule_Fields)
-               (UnityEngine_ParticleSystem_MainModule_Fields)pEVar5,
-          pEVar6 != (Effects_ThunderspearExplodeEffect_o *)0x0)) &&
-         ((pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-                    UnityEngine_Component__GetComponent_object_
-                              ((UnityEngine_Component_o *)pEVar6,MethodInfo_ParticleSystem_GetComponent_ParticleSystem),
-          main.fields.m_ParticleSystem =
-               (UnityEngine_ParticleSystem_MainModule_Fields)
-               (UnityEngine_ParticleSystem_MainModule_Fields)pEVar6,
-          pEVar5 != (Effects_ThunderspearExplodeEffect_o *)0x0 &&
-          ((main.fields.m_ParticleSystem =
-                 (UnityEngine_ParticleSystem_MainModule_Fields)
-                 (UnityEngine_ParticleSystem_MainModule_Fields)pEVar5,
-           pEVar6 = (Effects_ThunderspearExplodeEffect_o *)
-                    UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)pEVar5,(MethodInfo *)0x0)
-           , pEVar6 != (Effects_ThunderspearExplodeEffect_o *)0x0 &&
-           (UnityEngine_GameObject__SetActive((UnityEngine_GameObject_o *)pEVar6,1,(MethodInfo *)0x0),
-           main.fields.m_ParticleSystem =
-                (UnityEngine_ParticleSystem_MainModule_Fields)
-                (UnityEngine_ParticleSystem_MainModule_Fields)pEVar6, settings != (System_Object_array *)0x0))
-          )))) goto label_0457322d;
-      goto label_045735f6;
+    UnityEngine_ParticleSystem__Stop_2fca820(__this_00,(MethodInfo *)0x0);
+    UnityEngine_ParticleSystem__Clear_2fc98e0(__this_00,(MethodInfo *)0x0);
+    pUVar9 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) goto label_181e77be4;
+    pUVar9 = UnityEngine_Transform__Find(pUVar9,"OldExplodeEffect",(MethodInfo *)0x0);
+    if (pUVar9 == (UnityEngine_Transform_o *)0x0) goto label_181e77be4;
+    __this_00 = UnityEngine_Component__GetComponent_object_
+                          ((UnityEngine_Component_o *)pUVar9,
+                           (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_ParticleSystem);
+    if (__this_00 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181e77be4;
+    __this_01 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
+    if (__this_01 == (UnityEngine_GameObject_o *)0x0) goto label_181e77be4;
+    UnityEngine_GameObject__SetActive(__this_01,true,(MethodInfo *)0x0);
+  }
+  if (settings == (System_Object_array *)0x0) goto label_181e77be4;
+  if ((int)settings->max_length == 0) goto label_181e77bcc;
+  pIVar7 = settings->m_Items[0];
+  if (pIVar7 == (Il2CppObject *)0x0) goto label_181e77be4;
+  if ((pIVar7->klass->_1).element_class != (TypeInfo_UnityEngine_Color->_1).element_class) {
+    il2cpp_codegen_raise_invalid_cast_exception(pIVar7,TypeInfo_UnityEngine_Color);
+  }
+  pfVar10 = il2cpp_object_unbox(pIVar7);
+  pSVar5 = TypeInfo_Settings_SettingsManager->static_fields->AbilitySettings;
+  if ((pSVar5 == (Settings_AbilitySettings_o *)0x0) ||
+     (pSVar6 = (pSVar5->fields).ShowBombColors, pSVar6 == (Settings_BoolSetting_o *)0x0)) goto label_181e77be4;
+  fVar1 = *pfVar10;
+  fVar2 = pfVar10[1];
+  fVar3 = pfVar10[2];
+  fVar17 = pfVar10[3];
+  if ((pSVar6->fields)._value == false) {
+    if ((TypeInfo_Projectiles_ThunderspearProjectile->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Projectiles_ThunderspearProjectile);
     }
-    main = UnityEngine_ParticleSystem__get_main((UnityEngine_ParticleSystem_o *)pEVar5,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_ThunderspearExplodeEffect + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    pPVar8 = TypeInfo_Projectiles_ThunderspearProjectile->static_fields;
+    fVar15 = fVar1 - (pPVar8->CritColor).fields.r;
+    fVar16 = fVar2 - (pPVar8->CritColor).fields.g;
+    fVar13 = fVar3 - (pPVar8->CritColor).fields.b;
+    fVar14 = fVar17 - (pPVar8->CritColor).fields.a;
+    if (fVar16 * fVar16 + fVar15 * fVar15 + fVar13 * fVar13 + fVar14 * fVar14 < 9.9999994e-11)
+    goto label_181e77ad8;
+  }
+  else {
+label_181e77ad8:
+    if (__this_00 == (UnityEngine_ParticleSystem_o *)0x0) goto label_181e77be4;
+    local_res8[0].fields.m_ParticleSystem =
+         (UnityEngine_ParticleSystem_MainModule_Fields)
+         UnityEngine_ParticleSystem__get_noise(__this_00,(MethodInfo *)0x0);
+    if (fVar17 <= 0.5) {
+      fVar17 = 0.5;
     }
-    fVar10 = **(float **)(TypeInfo_ThunderspearExplodeEffect + 0xb8);
-    if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    local_f8.fields.r = fVar1;
+    local_f8.fields.g = fVar2;
+    local_f8.fields.b = fVar3;
+    local_f8.fields.a = fVar17;
+    pUVar11 = UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit(local_a8,&local_f8,(MethodInfo *)0x0);
+    local_e8.m_Mode = (pUVar11->fields).m_Mode;
+    local_e8._4_4_ = *(undefined4 *)&(pUVar11->fields).field_0x4;
+    local_e8.m_GradientMin = (pUVar11->fields).m_GradientMin;
+    local_e8.m_GradientMax = (pUVar11->fields).m_GradientMax;
+    local_e8.m_ColorMin.fields.r = (pUVar11->fields).m_ColorMin.fields.r;
+    local_e8.m_ColorMin.fields.g = (pUVar11->fields).m_ColorMin.fields.g;
+    local_e8.m_ColorMin.fields.b = (pUVar11->fields).m_ColorMin.fields.b;
+    local_e8.m_ColorMin.fields.a = (pUVar11->fields).m_ColorMin.fields.a;
+    local_e8.m_ColorMax.fields.r = (pUVar11->fields).m_ColorMax.fields.r;
+    local_e8.m_ColorMax.fields.g = (pUVar11->fields).m_ColorMax.fields.g;
+    local_e8.m_ColorMax.fields.b = (pUVar11->fields).m_ColorMax.fields.b;
+    local_e8.m_ColorMax.fields.a = (pUVar11->fields).m_ColorMax.fields.a;
+    UnityEngine_ParticleSystem_MainModule__set_startColor
+              (local_res8,(UnityEngine_ParticleSystem_MinMaxGradient_o *)&local_e8,(MethodInfo *)0x0);
+  }
+  if (1 < (uint)settings->max_length) {
+    pIVar7 = settings->m_Items[1];
+    if (pIVar7 == (Il2CppObject *)0x0) {
+label_181e77be4:
+      ThrowNullReferenceException();
     }
-    Utility_Util__ScaleParticleStartSize(main,fVar10,(MethodInfo *)0x0);
-    if (settings == (System_Object_array *)0x0) goto label_045735f6;
-label_0457322d:
-    if ((int)settings->max_length != 0) {
-      main.fields.m_ParticleSystem = (UnityEngine_ParticleSystem_MainModule_Fields)settings->m_Items[0];
-      if (main.fields.m_ParticleSystem == (UnityEngine_ParticleSystem_o *)0x0) goto label_045735f6;
-      if ((((System_String_c *)((Effects_ThunderspearExplodeEffect_o *)main.fields.m_ParticleSystem)->klass)->
-          _1).element_class != *(Il2CppClass **)(TypeInfo_Color + 0x40)) goto label_04573600;
-      puVar7 = (undefined8 *)il2cpp_runtime_helper_02305440();
-      lVar4 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x30);
-      if ((lVar4 == 0) || (lVar4 = *(long *)(lVar4 + 0x50), lVar4 == 0)) goto label_045735f6;
-      uVar1 = *puVar7;
-      uStack_78 = puVar7[1];
-      uStack_70 = 0;
-      if (*(char *)(lVar4 + 0x11) == '\0') {
-        fVar10 = (float)((ulong)uStack_78 >> 0x20);
-        if (*(int *)((long)&TypeInfo_ThunderspearProjectile[4].fields._owner + 4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          fVar10 = uStack_78._4_4_;
-        }
-        lVar4 = *(long *)&TypeInfo_ThunderspearProjectile[3].fields._timeLeft;
-        uVar2 = *(undefined8 *)(lVar4 + 8);
-        uVar3 = *(undefined8 *)(lVar4 + 0x10);
-        fVar11 = (float)uVar1 - (float)uVar2;
-        fVar12 = (float)((ulong)uVar1 >> 0x20) - (float)((ulong)uVar2 >> 0x20);
-        fVar9 = (float)uStack_78 - (float)uVar3;
-        fVar10 = fVar10 - (float)((ulong)uVar3 >> 0x20);
-        main.fields.m_ParticleSystem =
-             (UnityEngine_ParticleSystem_MainModule_Fields)
-             (UnityEngine_ParticleSystem_MainModule_Fields)TypeInfo_ThunderspearProjectile;
-        if (fVar10 * fVar10 + fVar12 * fVar12 + fVar11 * fVar11 + fVar9 * fVar9 < 9.9999994e-11)
-        goto label_0457331b;
-      }
-      else {
-label_0457331b:
-        if (pEVar5 == (Effects_ThunderspearExplodeEffect_o *)0x0) goto label_045735f6;
-        UStack_b8.m_ParticleSystem =
-             (UnityEngine_ParticleSystem_o *)
-             UnityEngine_ParticleSystem__get_main((UnityEngine_ParticleSystem_o *)pEVar5,(MethodInfo *)0x0);
-        fVar10 = uStack_78._4_4_;
-        if (uStack_78._4_4_ <= 0.5) {
-          fVar10 = 0.5;
-        }
-        color.fields.a = fVar10;
-        color.fields.b = (float)uStack_78;
-        color.fields.r = (float)(int)uVar1;
-        color.fields.g = (float)(int)((ulong)uVar1 >> 0x20);
-        UnityEngine_ParticleSystem_MinMaxGradient__op_Implicit(&UStack_b0,color,(MethodInfo *)0x0);
-        UStack_40.b = UStack_b0.fields.m_ColorMax.fields.b;
-        UStack_40.a = UStack_b0.fields.m_ColorMax.fields.a;
-        value.fields._4_4_ = UStack_b0.fields._4_4_;
-        value.fields.m_Mode = UStack_b0.fields.m_Mode;
-        UStack_50.b = UStack_b0.fields.m_ColorMin.fields.b;
-        UStack_50.a = UStack_b0.fields.m_ColorMin.fields.a;
-        UStack_40.r = UStack_b0.fields.m_ColorMax.fields.r;
-        UStack_40.g = UStack_b0.fields.m_ColorMax.fields.g;
-        pUStack_58 = UStack_b0.fields.m_GradientMax;
-        UStack_50.r = UStack_b0.fields.m_ColorMin.fields.r;
-        UStack_50.g = UStack_b0.fields.m_ColorMin.fields.g;
-        pUStack_60 = UStack_b0.fields.m_GradientMin;
-        main.fields.m_ParticleSystem = (UnityEngine_ParticleSystem_MainModule_Fields)&UStack_b8;
-        value.fields.m_GradientMin = UStack_b0.fields.m_GradientMin;
-        value.fields.m_GradientMax = UStack_b0.fields.m_GradientMax;
-        value.fields.m_ColorMin.fields.r = UStack_b0.fields.m_ColorMin.fields.r;
-        value.fields.m_ColorMin.fields.g = UStack_b0.fields.m_ColorMin.fields.g;
-        value.fields.m_ColorMin.fields.b = UStack_b0.fields.m_ColorMin.fields.b;
-        value.fields.m_ColorMin.fields.a = UStack_b0.fields.m_ColorMin.fields.a;
-        value.fields.m_ColorMax.fields.r = UStack_b0.fields.m_ColorMax.fields.r;
-        value.fields.m_ColorMax.fields.g = UStack_b0.fields.m_ColorMax.fields.g;
-        value.fields.m_ColorMax.fields.b = UStack_b0.fields.m_ColorMax.fields.b;
-        value.fields.m_ColorMax.fields.a = UStack_b0.fields.m_ColorMax.fields.a;
-        UnityEngine_ParticleSystem_MainModule__set_startColor(main,value,(MethodInfo *)0x0);
-      }
-      if (1 < (uint)settings->max_length) {
-        main.fields.m_ParticleSystem = (UnityEngine_ParticleSystem_MainModule_Fields)settings->m_Items[1];
-        if (main.fields.m_ParticleSystem != (UnityEngine_ParticleSystem_o *)0x0) {
-          if ((((System_String_c *)
-               ((Effects_ThunderspearExplodeEffect_o *)main.fields.m_ParticleSystem)->klass)->_1).
-              element_class != *(Il2CppClass **)(TypeInfo_TSKillType + 0x40)) goto label_04573600;
-          puVar8 = (undefined4 *)il2cpp_runtime_helper_02305440();
-          switch(*puVar8) {
-          default:
-            pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-                     UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-            UStack_b0.fields.m_Mode = UnityEngine_Random__Range_4df2410(1,2,(MethodInfo *)0x0);
-            arg0 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&UStack_b0);
-            puVar7 = &"TSAir{0}";
-            break;
-          case 1:
-            pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-                     UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-            UStack_b0.fields.m_Mode = UnityEngine_Random__Range_4df2410(1,2,(MethodInfo *)0x0);
-            arg0 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&UStack_b0);
-            puVar7 = &"TSHitTitan{0}";
-            break;
-          case 2:
-          case 4:
-            pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-                     UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-            UStack_b0.fields.m_Mode = UnityEngine_Random__Range_4df2410(1,2,(MethodInfo *)0x0);
-            arg0 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&UStack_b0);
-            puVar7 = &"TSKill{0}";
-            break;
-          case 3:
-          case 5:
-            pEVar5 = (Effects_ThunderspearExplodeEffect_o *)
-                     UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0)
-            ;
-            UStack_b0.fields.m_Mode = UnityEngine_Random__Range_4df2410(1,2,(MethodInfo *)0x0);
-            arg0 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9bb8,&UStack_b0);
-            puVar7 = &"TSArmor{0}";
-          }
-          main.fields.m_ParticleSystem = (UnityEngine_ParticleSystem_MainModule_Fields)*puVar7;
-          n = System_String__Format((System_String_o *)main.fields.m_ParticleSystem,arg0,(MethodInfo *)0x0);
-          if (((pEVar5 != (Effects_ThunderspearExplodeEffect_o *)0x0) &&
-              (pEVar6 = (Effects_ThunderspearExplodeEffect_o *)
-                        UnityEngine_Transform__Find((UnityEngine_Transform_o *)pEVar5,n,(MethodInfo *)0x0),
-              main.fields.m_ParticleSystem =
-                   (UnityEngine_ParticleSystem_MainModule_Fields)
-                   (UnityEngine_ParticleSystem_MainModule_Fields)pEVar5,
-              pEVar6 != (Effects_ThunderspearExplodeEffect_o *)0x0)) &&
-             (__this_00 = (UnityEngine_AudioSource_o *)
-                          UnityEngine_Component__GetComponent_object_
-                                    ((UnityEngine_Component_o *)pEVar6,MethodInfo_AudioSource_GetComponent_AudioSource),
-             main.fields.m_ParticleSystem =
-                  (UnityEngine_ParticleSystem_MainModule_Fields)
-                  (UnityEngine_ParticleSystem_MainModule_Fields)pEVar6,
-             __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
-            UnityEngine_AudioSource__Play_4daa2c0(__this_00,(MethodInfo *)0x0);
-            return;
-          }
-        }
-        goto label_045735f6;
-      }
+    if ((pIVar7->klass->_1).element_class != (TypeInfo_Projectiles_TSKillType->_1).element_class) {
+      il2cpp_codegen_raise_invalid_cast_exception(pIVar7,TypeInfo_Projectiles_TSKillType);
+    }
+    piVar12 = il2cpp_object_unbox(pIVar7);
+    (__this->fields)._killType = *piVar12;
+    uVar4 = (uint)settings->max_length;
+    if (((int)uVar4 < 3) || (2 < uVar4)) {
+      return;
     }
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_04573600:
-  il2cpp_runtime_helper_022b2fd0();
-  UnityEngine_MonoBehaviour___ctor
-            ((UnityEngine_MonoBehaviour_o *)main.fields.m_ParticleSystem,(MethodInfo *)0x0);
+label_181e77bcc:
+  ThrowIndexOutOfRangeException();
+}
+
+
+// Effects.ThunderspearExplodeEffect$$PlayAudio
+// il2cpp: void Effects_ThunderspearExplodeEffect__PlayAudio (Effects_ThunderspearExplodeEffect_o* __this, const MethodInfo* method);
+// 0x181e773a0
+
+void Effects_ThunderspearExplodeEffect__PlayAudio
+               (Effects_ThunderspearExplodeEffect_o *__this,MethodInfo *method)
+
+{
+  UnityEngine_Transform_o *pUVar1;
+  Il2CppObject *pIVar2;
+  System_String_o *pSVar3;
+  UnityEngine_AudioSource_o *__this_00;
+  int32_t local_res8 [8];
+  
+  if (Il2CppMethodInitialized_184344f64 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_AudioSource);
+    il2cpp_codegen_initialize_runtime_metadata(&"TSHitTitan{0}");
+    il2cpp_codegen_initialize_runtime_metadata(&"TSKill{0}");
+    il2cpp_codegen_initialize_runtime_metadata(&"TSAir{0}");
+    il2cpp_codegen_initialize_runtime_metadata(&"TSArmor{0}");
+    Il2CppMethodInitialized_184344f64 = '\x01';
+  }
+  switch((__this->fields)._killType) {
+  case 0:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSAir{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  case 1:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSHitTitan{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  case 2:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSKill{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  case 3:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSArmor{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  case 4:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSKill{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  case 5:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSArmor{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+    break;
+  default:
+    pUVar1 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    local_res8[0] = UnityEngine_Random__RandomRangeInt(1,3,(MethodInfo *)0x0);
+    pIVar2 = il2cpp_value_box(g_data_184354e08,local_res8);
+    pSVar3 = System_String__Format("TSAir{0}",pIVar2,(MethodInfo *)0x0);
+    if (((pUVar1 == (UnityEngine_Transform_o *)0x0) ||
+        (pUVar1 = UnityEngine_Transform__Find(pUVar1,pSVar3,(MethodInfo *)0x0),
+        pUVar1 == (UnityEngine_Transform_o *)0x0)) ||
+       (__this_00 = UnityEngine_Component__GetComponent_object_
+                              ((UnityEngine_Component_o *)pUVar1,
+                               (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_AudioSource)
+       , __this_00 == (UnityEngine_AudioSource_o *)0x0)) {
+      ThrowNullReferenceException();
+    }
+  }
+  UnityEngine_AudioSource__Play_2eb4470(__this_00,(MethodInfo *)0x0);
   return;
 }
 
 
 // Effects.ThunderspearExplodeEffect$$.ctor
 // il2cpp: void Effects_ThunderspearExplodeEffect___ctor (Effects_ThunderspearExplodeEffect_o* __this, const MethodInfo* method);
-// 0x4573610
+// 0x180528540
 
-void Effects_ThunderspearExplodeEffect___ctor(Effects_ThunderspearExplodeEffect_o *__this,MethodInfo *method)
+void
+Effects_ThunderspearExplodeEffect___ctor(Effects_ThunderspearExplodeEffect_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
@@ -279,16 +316,16 @@ void Effects_ThunderspearExplodeEffect___ctor(Effects_ThunderspearExplodeEffect_
 
 // Effects.ThunderspearExplodeEffect$$.cctor
 // il2cpp: void Effects_ThunderspearExplodeEffect___cctor (const MethodInfo* method);
-// 0x4573620
+// 0x181e77bf0
 
 void Effects_ThunderspearExplodeEffect___cctor(MethodInfo *method)
 
 {
-  if (g_data_057af089 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ThunderspearExplodeEffect);
-    g_data_057af089 = '\x01';
+  if (Il2CppMethodInitialized_184344f65 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Effects_ThunderspearExplodeEffect);
+    Il2CppMethodInitialized_184344f65 = '\x01';
   }
-  **(undefined4 **)(TypeInfo_ThunderspearExplodeEffect + 0xb8) = 0x3f8ccccd;
+  TypeInfo_Effects_ThunderspearExplodeEffect->static_fields->SizeMultiplier = 1.1;
   return;
 }
 

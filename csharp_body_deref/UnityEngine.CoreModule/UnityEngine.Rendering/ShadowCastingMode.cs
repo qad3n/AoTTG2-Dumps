@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002B3")]
+[Token(Token = "0x200032B")]
 public enum ShadowCastingMode
 {
-	[Token(Token = "0x4000775")]
+	[Token(Token = "0x400088B")]
 	Off,
-	[Token(Token = "0x4000776")]
+	[Token(Token = "0x400088C")]
 	On,
-	[Token(Token = "0x4000777")]
+	[Token(Token = "0x400088D")]
 	TwoSided,
-	[Token(Token = "0x4000778")]
+	[Token(Token = "0x400088E")]
 	ShadowsOnly
 }

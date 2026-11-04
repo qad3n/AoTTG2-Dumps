@@ -11,24 +11,24 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x20000AD")]
+[Token(Token = "0x20000D5")]
 [Obsolete("This type previously indicated an unspecified fatal error in the runtime. The runtime no longer raises this exception so this type is obsolete.")]
 public sealed class ExecutionEngineException : SystemException
 {
-	[Token(Token = "0x60006A4")]
-	[Address(RVA = "0x3C9AE90", Offset = "0x3C9AE90", VA = "0x3C9AE90")]
+	[Token(Token = "0x60006D3")]
+	[Address(RVA = "0x1B22DE0", Offset = "0x1B213E0", VA = "0x181B22DE0")]
 	public ExecutionEngineException()
 	{
 	}
 
-	[Token(Token = "0x60006A5")]
-	[Address(RVA = "0x3C9AED0", Offset = "0x3C9AED0", VA = "0x3C9AED0")]
+	[Token(Token = "0x60006D4")]
+	[Address(RVA = "0x1B22E30", Offset = "0x1B21430", VA = "0x181B22E30")]
 	public ExecutionEngineException(string message)
 	{
 	}
 
-	[Token(Token = "0x60006A6")]
-	[Address(RVA = "0x3C9AEF0", Offset = "0x3C9AEF0", VA = "0x3C9AEF0")]
+	[Token(Token = "0x60006D5")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	internal ExecutionEngineException(SerializationInfo info, StreamingContext context)
 	{
 	}

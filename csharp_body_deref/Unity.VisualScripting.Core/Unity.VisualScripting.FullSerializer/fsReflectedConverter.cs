@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001E9")]
+[Token(Token = "0x20001F3")]
 public class fsReflectedConverter : fsConverter
 {
-	[Token(Token = "0x60011B5")]
-	[Address(RVA = "0x4D71AB0", Offset = "0x4D71AB0", VA = "0x4D71AB0", Slot = "9")]
+	[Token(Token = "0x60011E9")]
+	[Address(RVA = "0x2E6D720", Offset = "0x2E6BD20", VA = "0x182E6D720", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60011B6")]
-	[Address(RVA = "0x4D71B80", Offset = "0x4D71B80", VA = "0x4D71B80", Slot = "7")]
+	[Token(Token = "0x60011EA")]
+	[Address(RVA = "0x2E6DB80", Offset = "0x2E6C180", VA = "0x182E6DB80", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011B7")]
-	[Address(RVA = "0x4D723C0", Offset = "0x4D723C0", VA = "0x4D723C0", Slot = "8")]
+	[Token(Token = "0x60011EB")]
+	[Address(RVA = "0x2E6D870", Offset = "0x2E6BE70", VA = "0x182E6D870", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x60011B8")]
-	[Address(RVA = "0x4D72CF0", Offset = "0x4D72CF0", VA = "0x4D72CF0", Slot = "4")]
+	[Token(Token = "0x60011EC")]
+	[Address(RVA = "0x2E6D7F0", Offset = "0x2E6BDF0", VA = "0x182E6D7F0", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011B9")]
-	[Address(RVA = "0x4D72D70", Offset = "0x4D72D70", VA = "0x4D72D70")]
+	[Token(Token = "0x60011ED")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public fsReflectedConverter()
 	{
 	}

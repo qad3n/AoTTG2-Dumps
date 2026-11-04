@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mail;
 
-[Token(Token = "0x2000242")]
+[Token(Token = "0x200039E")]
 internal static class WhitespaceReader
 {
-	[Token(Token = "0x6000E17")]
-	[Address(RVA = "0x49CDC70", Offset = "0x49CDC70", VA = "0x49CDC70")]
+	[Token(Token = "0x60018DE")]
+	[Address(RVA = "0x28299F0", Offset = "0x2827FF0", VA = "0x1828299F0")]
 	internal static int ReadFwsReverse(string data, int index)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000E18")]
-	[Address(RVA = "0x49CEE60", Offset = "0x49CEE60", VA = "0x49CEE60")]
+	[Token(Token = "0x60018DF")]
+	[Address(RVA = "0x2829650", Offset = "0x2827C50", VA = "0x182829650")]
 	internal static int ReadCfwsReverse(string data, int index)
 	{
 		return default(int);

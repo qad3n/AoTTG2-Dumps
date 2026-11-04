@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.PublicProfiles.AottgPublicProfileCache
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.PublicProfiles/AottgPublicProfileCache.cs
@@ -8,69 +8,75 @@
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.Entry$$HasFreshValue
 // il2cpp: bool ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o* __this, System_DateTimeOffset_o now, const MethodInfo* method);
-// 0x44c28d0
+// 0x18236b330
 
-bool_conflict
-ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue
-          (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *__this,
-          System_DateTimeOffset_o now,MethodInfo *method)
+bool ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue
+               (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *__this,
+               System_DateTimeOffset_o *now,MethodInfo *method)
 
 {
-  ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *pAVar1;
-  System_TimeSpan_Fields t2;
-  undefined1 auVar2 [12];
-  undefined8 uVar3;
-  undefined2 uVar4;
-  bool_conflict bVar5;
+  System_DateTime_Fields SVar1;
+  undefined8 uVar2;
+  bool bVar3;
   System_TimeSpan_o t1;
-  System_TimeSpan_Fields *pSVar6;
-  System_DateTimeOffset_o right;
-  System_DateTimeOffset_o left;
+  System_TimeSpan_Fields t2;
+  System_DateTimeOffset_o local_38;
+  System_DateTimeOffset_o local_28 [2];
   
-  if (g_data_057aeab2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgPublicProfileCache);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TimeSpan);
-    g_data_057aeab2 = '\x01';
+  if (Il2CppMethodInitialized_1843479f2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+    Il2CppMethodInitialized_1843479f2 = '\x01';
   }
-  pAVar1 = (__this->fields).Response;
-  if (pAVar1 != (ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *)0x0) {
-    bVar5 = (pAVar1->fields)._Success_k__BackingField;
-    if (*(int *)(TypeInfo_AottgPublicProfileCache + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if ((__this->fields).Response != (ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *)0x0
+     ) {
+    if ((((__this->fields).Response)->fields)._Success_k__BackingField == false) {
+      if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->_2).cctor_finished_or_no_cctor
+          == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+      }
+      t2._ticks = (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->
+                  FailureTtl).fields._ticks;
     }
-    pSVar6 = *(System_TimeSpan_Fields **)(TypeInfo_AottgPublicProfileCache + 0xb8) + 1;
-    if ((char)bVar5 != '\0') {
-      pSVar6 = *(System_TimeSpan_Fields **)(TypeInfo_AottgPublicProfileCache + 0xb8);
+    else {
+      if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->_2).cctor_finished_or_no_cctor
+          == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+      }
+      t2._ticks = (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->
+                  SuccessTtl).fields._ticks;
     }
-    t2._ticks = pSVar6->_ticks;
-    uVar3 = (__this->fields).CachedAt.fields._dateTime;
-    uVar4 = (__this->fields).CachedAt.fields._offsetMinutes;
-    right.fields._offsetMinutes = uVar4;
-    right.fields._dateTime.fields._dateData = (System_DateTime_Fields)(System_DateTime_Fields)uVar3;
-    if (*(int *)(TypeInfo_DateTimeOffset + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    SVar1._dateData = (__this->fields).CachedAt.fields._dateTime.fields._dateData;
+    uVar2._0_2_ = (__this->fields).CachedAt.fields._offsetMinutes;
+    uVar2._2_6_ = *(undefined6 *)&(__this->fields).CachedAt.fields.field_0xa;
+    if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
     }
-    right.fields._10_6_ = 0;
-    auVar2 = now.fields._0_12_;
-    left.fields._12_4_ = 0;
-    left.fields._dateTime.fields._dateData = (System_DateTime_Fields)(System_DateTime_Fields)auVar2._0_8_;
-    left.fields._offsetMinutes = auVar2._8_2_;
-    left.fields._10_2_ = auVar2._10_2_;
-    t1 = System_DateTimeOffset__op_Subtraction(left,right,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    local_28[0].fields._dateTime.fields._dateData =
+         (System_DateTime_Fields)(now->fields)._dateTime.fields._dateData;
+    local_28[0].fields._offsetMinutes = (now->fields)._offsetMinutes;
+    local_28[0].fields._10_6_ = *(undefined6 *)&(now->fields).field_0xa;
+    local_38.fields._dateTime.fields._dateData =
+         (System_DateTime_Fields)(System_DateTime_Fields)SVar1._dateData;
+    local_38.fields._8_8_ = uVar2;
+    t1 = System_DateTimeOffset__op_Subtraction(local_28,&local_38,(MethodInfo *)0x0);
+    if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
     }
-    bVar5 = System_TimeSpan__op_LessThan(t1,(System_TimeSpan_o)t2._ticks,(MethodInfo *)0x0);
-    return bVar5;
+    bVar3 = System_TimeSpan__op_LessThan(t1,(System_TimeSpan_o)t2._ticks,(MethodInfo *)0x0);
+    return bVar3;
   }
-  return 0;
+  return false;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.Entry$$.ctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry___ctor (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o* __this, const MethodInfo* method);
-// 0x44c2850
+// 0x18236b470
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry___ctor
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *__this,MethodInfo *method)
@@ -78,103 +84,117 @@ void ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry___ctor
 {
   System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse___o *__this_00;
   
-  if (g_data_057aeab3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-    g_data_057aeab3 = '\x01';
+  if (Il2CppMethodInitialized_1843479f3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse);
+    Il2CppMethodInitialized_1843479f3 = '\x01';
   }
-  __this_00 = (System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse___o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_List_Action_AottgPublicProfileFetchResponse);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse);
   System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)
+             MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ctor);
   (__this->fields).Subscribers = __this_00;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Subscribers,__this_00);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.<>c$$.cctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c___cctor (const MethodInfo* method);
-// 0x44c2c40
+// 0x182376f40
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o *__this;
   
-  if (g_data_057aeab4 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057aeab4 = '\x01';
+  if (Il2CppMethodInitialized_1843479f4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c);
+    Il2CppMethodInitialized_1843479f4 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->__9,__this
+            );
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.<>c$$.ctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c___ctor (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o* __this, const MethodInfo* method);
-// 0x44c2cb0
+// 0x18054c890
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c___ctor
-               (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o *__this,MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c___ctor(ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.<>c$$<.ctor>b__5_0
 // il2cpp: System_DateTimeOffset_o ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c____ctor_b__5_0 (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o* __this, const MethodInfo* method);
-// 0x44c2cc0
+// 0x182374840
 
-System_DateTimeOffset_o
+System_DateTimeOffset_o *
 ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c____ctor_b__5_0
-          (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o *__this,MethodInfo *method)
+          (System_DateTimeOffset_o *__return_storage_ptr__,
+          ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c_o *__this,MethodInfo *method)
 
 {
-  int iVar1;
-  System_DateTimeOffset_Fields SVar2;
+  int16_t iVar1;
+  undefined6 uVar2;
+  System_DateTimeOffset_o *pSVar3;
+  System_DateTimeOffset_o local_18;
   
-  if (g_data_057aeab5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DateTimeOffset);
-    g_data_057aeab5 = '\x01';
-    iVar1 = *(int *)(TypeInfo_DateTimeOffset + 0xe4);
+  if (Il2CppMethodInitialized_1843479f5 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+    Il2CppMethodInitialized_1843479f5 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_DateTimeOffset + 0xe4);
+  if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
   }
-  if (iVar1 != 0) {
-    SVar2 = (System_DateTimeOffset_Fields)System_DateTimeOffset__get_UtcNow((MethodInfo *)0x0);
-    return (System_DateTimeOffset_o)SVar2;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  SVar2 = (System_DateTimeOffset_Fields)System_DateTimeOffset__get_UtcNow((MethodInfo *)0x0);
-  return (System_DateTimeOffset_o)SVar2;
+  pSVar3 = System_DateTimeOffset__get_UtcNow(&local_18,(MethodInfo *)0x0);
+  iVar1 = (pSVar3->fields)._offsetMinutes;
+  uVar2 = *(undefined6 *)&(pSVar3->fields).field_0xa;
+  (__return_storage_ptr__->fields)._dateTime.fields._dateData = (pSVar3->fields)._dateTime.fields._dateData;
+  (__return_storage_ptr__->fields)._offsetMinutes = iVar1;
+  *(undefined6 *)&(__return_storage_ptr__->fields).field_0xa = uVar2;
+  return __return_storage_ptr__;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.<>c__DisplayClass7_0$$.ctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0___ctor (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o* __this, const MethodInfo* method);
-// 0x44c27a0
+// 0x18054c890
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0___ctor
-               (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o *__this,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0___ctor(ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache.<>c__DisplayClass7_0$$<Get>b__0
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0___Get_b__0 (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o* __this, ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o* response, const MethodInfo* method);
-// 0x44c2d20
+// 0x182375420
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0___Get_b__0
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o *__this,
@@ -182,86 +202,21 @@ void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClas
                MethodInfo *method)
 
 {
-  byte bVar1;
-  long lVar2;
-  long lVar3;
-  MethodInfo *in_RCX;
-  System_Func_DateTimeOffset__o *extraout_RDX;
   ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *__this_00;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c *in_R8;
-  void *in_R9;
-  System_Action_string__Action_AottgPublicProfileFetchResponse___o *unaff_retaddr;
-  System_Func_DateTimeOffset__o *in_stack_00000008;
-  System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *in_stack_00000010;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c *in_stack_00000018;
-  undefined2 in_stack_00000020;
   
   __this_00 = (__this->fields).__4__this;
   if (__this_00 != (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *)0x0) {
     ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Complete
-              (__this_00,(__this->fields).accountId,response,in_RCX);
+              (__this_00,(__this->fields).accountId,response,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aeab6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_Empty_String);
-    g_data_057aeab6 = '\x01';
-  }
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  (__this_00->fields)._fetch = (System_Action_string__Action_AottgPublicProfileFetchResponse___o *)response;
-  il2cpp_runtime_helper_022b4080(&__this_00->fields,response);
-  (__this_00->fields)._now = extraout_RDX;
-  il2cpp_runtime_helper_022b4080(&(__this_00->fields)._now,extraout_RDX);
-  (__this_00->fields)._entries =
-       (System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *)in_RCX;
-  il2cpp_runtime_helper_022b4080(&(__this_00->fields)._entries);
-  __this_00[1].klass = in_R8;
-  il2cpp_runtime_helper_022b4080(__this_00 + 1);
-  lVar2 = MethodInfo_String_Empty_String;
-  if (in_R9 != (void *)0x0) goto label_044c2e3f;
-  if (*(long *)(MethodInfo_String_Empty_String + 0x38) == 0) {
-    il2cpp_runtime_helper_02300a20(MethodInfo_String_Empty_String);
-    lVar3 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    if ((*(byte *)(lVar3 + 0x135) & 1) == 0) goto label_044c2ec2;
-label_044c2e0a:
-    if (*(int *)(lVar3 + 0xe4) != 0) goto label_044c2e17;
-label_044c2ed7:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar2 + 0x135);
-  }
-  else {
-    lVar3 = *(long *)(*(long *)(MethodInfo_String_Empty_String + 0x38) + 0x10);
-    if ((*(byte *)(lVar3 + 0x135) & 1) != 0) goto label_044c2e0a;
-label_044c2ec2:
-    lVar3 = il2cpp_runtime_helper_023009c0();
-    if (*(int *)(lVar3 + 0xe4) == 0) goto label_044c2ed7;
-label_044c2e17:
-    lVar2 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar2 + 0x135);
-  }
-  if ((bVar1 & 1) == 0) {
-    lVar2 = il2cpp_runtime_helper_023009c0(lVar2);
-  }
-  in_R9 = (void *)**(undefined8 **)(lVar2 + 0xb8);
-label_044c2e3f:
-  __this_00[1].monitor = in_R9;
-  il2cpp_runtime_helper_022b4080(&__this_00[1].monitor,in_R9);
-  __this_00[1].fields._fetch = unaff_retaddr;
-  il2cpp_runtime_helper_022b4080(&__this_00[1].fields,unaff_retaddr);
-  __this_00[1].fields._now = in_stack_00000008;
-  il2cpp_runtime_helper_022b4080(&__this_00[1].fields._now,in_stack_00000008);
-  __this_00[1].fields._entries = in_stack_00000010;
-  il2cpp_runtime_helper_022b4080(&__this_00[1].fields._entries,in_stack_00000010);
-  __this_00[2].klass = in_stack_00000018;
-  *(undefined2 *)&__this_00[2].monitor = in_stack_00000020;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache$$.ctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___ctor (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o* __this, System_Action_string__Action_AottgPublicProfileFetchResponse___o* fetch, System_Func_DateTimeOffset__o* now, const MethodInfo* method);
-// 0x44c2240
+// 0x182366850
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___ctor
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *__this,
@@ -269,393 +224,111 @@ void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___ctor
                System_Func_DateTimeOffset__o *now,MethodInfo *method)
 
 {
-  uint uVar1;
-  long lVar2;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **ppSVar3;
-  undefined1 *puVar4;
-  bool_conflict bVar5;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  undefined8 uVar6;
+  Il2CppObject *object;
+  System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *__this_00;
+  Il2CppClass *klass;
   System_ArgumentNullException_o *__this_01;
   System_String_o *paramName;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *pSVar7;
-  System_Int32_array *pSVar8;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *pAVar9;
-  System_Int32_array *pSVar10;
-  System_Int32_array *pSVar11;
-  Il2CppObject *item;
-  MethodInfo *method_00;
-  System_Int32_array *pSVar12;
-  undefined1 auVar13 [16];
-  System_DateTimeOffset_o now_00;
-  System_Int32_array *pSStack_68;
-  System_ArgumentNullException_o *pSStack_60;
-  System_Action_string__Action_AottgPublicProfileFetchResponse___o *pSStack_58;
+  MethodInfo *lastManagedFrame;
   
-  if (g_data_057aeaad == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_ApplicationManagers_PublicPro);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Entry);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_DateTimeOffset);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_DateTimeOffset_ctor_b__5_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057aeaad = '\x01';
+  if (Il2CppMethodInitialized_1843479ed == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_DateTimeOffset);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c_ctor_b__5_0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c);
+    Il2CppMethodInitialized_1843479ed = '\x01';
   }
-  __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Entry);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this_00,MethodInfo_Dictionary_2_System_String_ApplicationManagers_PublicPro);
-  (__this->fields)._entries =
-       (System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *)__this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._entries);
-  pSVar7 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)0x0;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  if (fetch == (System_Action_string__Action_AottgPublicProfileFetchResponse___o *)0x0) {
-    uVar6 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentNullException);
-    __this_01 = (System_ArgumentNullException_o *)il2cpp_runtime_helper_023052d0(uVar6);
-    paramName = (System_String_o *)il2cpp_runtime_helper_023445d0(&"fetch");
-    System_ArgumentNullException___ctor_3c0ad60(__this_01,paramName,(MethodInfo *)0x0);
-    pSVar7 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)
-             il2cpp_runtime_helper_023445d0(&MethodInfo_AottgPublicProfileCache);
-    il2cpp_runtime_helper_022b2b10();
-  }
-  else {
-    __this_01 = (System_ArgumentNullException_o *)0x0;
-    if (__this != (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *)0x0) {
-      (__this->fields)._fetch = fetch;
-      il2cpp_runtime_helper_022b4080(&__this->fields,fetch);
-      if (now == (System_Func_DateTimeOffset__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          now = *(System_Func_DateTimeOffset__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-        }
-        else {
-          now = *(System_Func_DateTimeOffset__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-        }
-        if (now == (System_Func_DateTimeOffset__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          now = (System_Func_DateTimeOffset__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_DateTimeOffset);
-          System_Func_DateTimeOffset____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_DateTimeOffset__o **)(lVar2 + 8) = now;
-          il2cpp_runtime_helper_022b4080(lVar2 + 8,now);
-        }
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry);
+  System_Collections_Generic_Dictionary_object__ProbeReferenceVolume_CellData_PerScenarioData____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+             (MethodInfo_1454140 *)
+             MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_ctor);
+  (__this->fields)._entries = __this_00;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._entries,__this_00);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  if (fetch != (System_Action_string__Action_AottgPublicProfileFetchResponse___o *)0x0) {
+    (__this->fields)._fetch = fetch;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._fetch,fetch);
+    if (now == (System_Func_DateTimeOffset__o *)0x0) {
+      if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->_2).
+          cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c);
       }
-      (__this->fields)._now = now;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._now,now);
-      return;
+      now = TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->__9__5_0;
+      if ((DG_Tweening_Core_DOGetter_Vector4__o *)now == (DG_Tweening_Core_DOGetter_Vector4__o *)0x0) {
+        if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->_2).
+            cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c);
+        }
+        object = (Il2CppObject *)
+                 TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->__9;
+        now = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_DateTimeOffset);
+        System_Func_DateTimeOffset____ctor
+                  ((DG_Tweening_Core_DOGetter_Vector4__o *)now,object,
+                   (intptr_t)
+                   MethodInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c_ctor_b__5_0,
+                   (MethodInfo_13876B0 *)0x0);
+        TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->__9__5_0 = now;
+        Il2CppCodeGenWriteBarrier
+                  (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c->static_fields->
+                    __9__5_0,now);
+      }
     }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aeaae == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    g_data_057aeaae = '\x01';
-  }
-  pSVar12 = (System_Int32_array *)(__this_01->fields)._data;
-  if (pSVar12 != (System_Int32_array *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear
-              ((System_Collections_Generic_Dictionary_object__object__o *)pSVar12,MethodInfo_Void_Clear);
+    (__this->fields)._now = now;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._now,now);
     return;
   }
-  auVar13 = il2cpp_runtime_helper_022b2c90();
-  item = auVar13._8_8_;
-  pSStack_68 = auVar13._0_8_;
-  pSStack_60 = __this_01;
-  pSStack_58 = fetch;
-  if (g_data_057aeaaf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgPublicProfileFetchResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Entry);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Get_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass7_0);
-    il2cpp_runtime_helper_023445d0(&"bad_account_id");
-    g_data_057aeaaf = '\x01';
-  }
-  pSStack_68 = (System_Int32_array *)0x0;
-  pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass7_0);
-  pSVar11 = pSVar8;
-  System_Object___ctor((Il2CppObject *)pSVar8,(MethodInfo *)0x0);
-  if (pSVar8 != (System_Int32_array *)0x0) {
-    ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds)->_buckets = pSVar12;
-    il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds,pSVar12
-                      );
-    ppSVar3 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **)&pSVar8->max_length;
-    pSVar8->max_length = (il2cpp_array_size_t)pSVar7;
-    il2cpp_runtime_helper_022b4080(ppSVar3);
-    method_00 = (MethodInfo *)0x0;
-    bVar5 = System_String__IsNullOrEmpty((System_String_o *)pSVar8->max_length,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      if (item == (Il2CppObject *)0x0) {
-        return;
-      }
-      pAVar9 = ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse__Fail
-                         ("bad_account_id",method_00);
-      (*item[1].monitor)(item[4].klass,pAVar9,item[2].monitor);
-      return;
-    }
-    pSVar11 = *(System_Int32_array **)pSVar12->m_Items;
-    if (pSVar11 != (System_Int32_array *)0x0) {
-      bVar5 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pSVar11,&(*ppSVar3)->obj,
-                         (Il2CppObject **)&pSStack_68,MethodInfo_Boolean_TryGetValue);
-      if ((char)bVar5 == '\0') {
-        pSVar10 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Entry);
-        if (g_data_057aeab3 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-          g_data_057aeab3 = '\x01';
-        }
-        pSVar11 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_List_object__o *)pSVar11,MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-        ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar10->bounds)->_buckets = pSVar11
-        ;
-        il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar10->bounds);
-        System_Object___ctor((Il2CppObject *)pSVar10,(MethodInfo *)0x0);
-        pSVar11 = *(System_Int32_array **)pSVar12->m_Items;
-        pSStack_68 = pSVar10;
-        if (pSVar11 == (System_Int32_array *)0x0) goto label_044c278d;
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  ((System_Collections_Generic_Dictionary_object__object__o *)pSVar11,&(*ppSVar3)->obj,
-                   (Il2CppObject *)pSVar10,MethodInfo_Void_set_Item);
-      }
-      pSVar10 = pSStack_68;
-      pSVar7 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)pSVar12->max_length;
-      if (pSVar7 != (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)0x0) {
-        pSVar11 = (System_Int32_array *)pSVar7->m_Items[1].fields.key;
-        now_00.fields = (System_DateTimeOffset_Fields)(*(code *)pSVar7->max_length)();
-        if (pSVar10 != (System_Int32_array *)0x0) {
-          bVar5 = ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue
-                            ((ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)pSVar10,
-                             now_00,(MethodInfo *)pSVar7);
-          lVar2 = MethodInfo_Void_Add;
-          pSVar11 = pSVar10;
-          if ((char)bVar5 == '\0') {
-            if (item != (Il2CppObject *)0x0) {
-              if ((pSStack_68 == (System_Int32_array *)0x0) ||
-                 (pSVar11 = ((System_Collections_Generic_Dictionary_object__object__Fields *)
-                            &pSStack_68->bounds)->_buckets, pSVar11 == (System_Int32_array *)0x0))
-              goto label_044c278d;
-              puVar4 = (undefined1 *)((long)&pSVar11->max_length + 4);
-              *(int *)puVar4 = *(int *)puVar4 + 1;
-              pSVar10 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar11->bounds)->
-                        _buckets;
-              if (pSVar10 == (System_Int32_array *)0x0) goto label_044c278d;
-              uVar1 = *(uint *)&pSVar11->max_length;
-              if (uVar1 < (uint)pSVar10->max_length) {
-                *(uint *)&pSVar11->max_length = uVar1 + 1;
-                pSVar11 = (System_Int32_array *)(pSVar10->m_Items + (long)(int)uVar1 * 2);
-                *(Il2CppObject **)(pSVar10->m_Items + (long)(int)uVar1 * 2) = item;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pSVar11,item,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar2 + 0x20) + 0xc0) + 0x70));
-              }
-            }
-            if (pSStack_68 == (System_Int32_array *)0x0) goto label_044c278d;
-            if (*(char *)(pSStack_68->m_Items + 4) == '\0') {
-              *(undefined1 *)(pSStack_68->m_Items + 4) = 1;
-              pSVar12 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar12->bounds)->
-                        _buckets;
-              pSVar7 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)pSVar8->max_length;
-              pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgPublicProfileFetchResponse);
-              pSVar11 = pSVar8;
-              System_Action_object____ctor();
-              if (pSVar12 == (System_Int32_array *)0x0) goto label_044c278d;
-              (*(code *)pSVar12->max_length)
-                        (*(undefined8 *)(pSVar12->m_Items + 8),pSVar7,pSVar8,
-                         *(undefined8 *)(pSVar12->m_Items + 2));
-            }
-          }
-          else if (item != (Il2CppObject *)0x0) {
-            if (pSStack_68 == (System_Int32_array *)0x0) goto label_044c278d;
-            (*item[1].monitor)(item[4].klass,
-                               (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)
-                               pSStack_68->max_length,item[2].monitor);
-          }
-          return;
-        }
-      }
-    }
-  }
-label_044c278d:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(&pSVar11->obj,(MethodInfo *)0x0);
-  return;
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentNullException);
+  __this_01 = (System_ArgumentNullException_o *)il2cpp_codegen_object_new(klass);
+  paramName = il2cpp_codegen_get_runtime_metadata(&"fetch");
+  System_ArgumentNullException___ctor_1a77f20(__this_01,paramName,(MethodInfo *)0x0);
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&MethodInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_ctor);
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_01,lastManagedFrame);
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache$$Clear
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Clear (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o* __this, const MethodInfo* method);
-// 0x44c2420
+// 0x182366170
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Clear
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *__this,MethodInfo *method)
 
 {
-  uint uVar1;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **ppSVar2;
-  undefined1 *puVar3;
-  long lVar4;
-  bool_conflict bVar5;
-  System_Int32_array *pSVar6;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *pAVar7;
-  System_Int32_array *pSVar8;
-  System_Int32_array *pSVar9;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *pSVar10;
-  Il2CppObject *item;
-  MethodInfo *method_00;
-  System_Int32_array *pSVar11;
-  undefined1 auVar12 [16];
-  System_DateTimeOffset_o now;
-  System_Int32_array *local_40;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *pAStack_38;
+  System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *__this_00;
   
-  if (g_data_057aeaae == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    g_data_057aeaae = '\x01';
+  if (Il2CppMethodInitialized_1843479ee == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_Clear);
+    Il2CppMethodInitialized_1843479ee = '\x01';
   }
-  pSVar11 = (System_Int32_array *)(__this->fields)._entries;
-  if (pSVar11 != (System_Int32_array *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear
-              ((System_Collections_Generic_Dictionary_object__object__o *)pSVar11,MethodInfo_Void_Clear);
+  __this_00 = (__this->fields)._entries;
+  if (__this_00 != (System_Collections_Generic_Dictionary_string__AottgPublicProfileCache_Entry__o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this_00,
+               (MethodInfo_13BF1C0 *)
+               MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_Clear);
     return;
   }
-  auVar12 = il2cpp_runtime_helper_022b2c90();
-  item = auVar12._8_8_;
-  local_40 = auVar12._0_8_;
-  pAStack_38 = __this;
-  if (g_data_057aeaaf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgPublicProfileFetchResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Entry);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Get_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass7_0);
-    il2cpp_runtime_helper_023445d0(&"bad_account_id");
-    g_data_057aeaaf = '\x01';
-  }
-  local_40 = (System_Int32_array *)0x0;
-  pSVar6 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass7_0);
-  pSVar9 = pSVar6;
-  System_Object___ctor((Il2CppObject *)pSVar6,(MethodInfo *)0x0);
-  if (pSVar6 != (System_Int32_array *)0x0) {
-    ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar6->bounds)->_buckets = pSVar11;
-    il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar6->bounds,pSVar11
-                      );
-    ppSVar2 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **)&pSVar6->max_length;
-    pSVar6->max_length = (il2cpp_array_size_t)method;
-    il2cpp_runtime_helper_022b4080(ppSVar2);
-    method_00 = (MethodInfo *)0x0;
-    bVar5 = System_String__IsNullOrEmpty((System_String_o *)pSVar6->max_length,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      if (item == (Il2CppObject *)0x0) {
-        return;
-      }
-      pAVar7 = ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse__Fail
-                         ("bad_account_id",method_00);
-      (*item[1].monitor)(item[4].klass,pAVar7,item[2].monitor);
-      return;
-    }
-    pSVar9 = *(System_Int32_array **)pSVar11->m_Items;
-    if (pSVar9 != (System_Int32_array *)0x0) {
-      bVar5 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pSVar9,&(*ppSVar2)->obj,
-                         (Il2CppObject **)&local_40,MethodInfo_Boolean_TryGetValue);
-      if ((char)bVar5 == '\0') {
-        pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Entry);
-        if (g_data_057aeab3 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-          g_data_057aeab3 = '\x01';
-        }
-        pSVar9 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_List_object__o *)pSVar9,MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-        ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds)->_buckets = pSVar9;
-        il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds);
-        System_Object___ctor((Il2CppObject *)pSVar8,(MethodInfo *)0x0);
-        pSVar9 = *(System_Int32_array **)pSVar11->m_Items;
-        local_40 = pSVar8;
-        if (pSVar9 == (System_Int32_array *)0x0) goto label_044c278d;
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  ((System_Collections_Generic_Dictionary_object__object__o *)pSVar9,&(*ppSVar2)->obj,
-                   (Il2CppObject *)pSVar8,MethodInfo_Void_set_Item);
-      }
-      pSVar8 = local_40;
-      pSVar10 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)pSVar11->max_length;
-      if (pSVar10 != (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)0x0) {
-        pSVar9 = (System_Int32_array *)pSVar10->m_Items[1].fields.key;
-        now.fields = (System_DateTimeOffset_Fields)(*(code *)pSVar10->max_length)();
-        if (pSVar8 != (System_Int32_array *)0x0) {
-          bVar5 = ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue
-                            ((ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)pSVar8,now,
-                             (MethodInfo *)pSVar10);
-          lVar4 = MethodInfo_Void_Add;
-          pSVar9 = pSVar8;
-          if ((char)bVar5 == '\0') {
-            if (item != (Il2CppObject *)0x0) {
-              if ((local_40 == (System_Int32_array *)0x0) ||
-                 (pSVar9 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&local_40->bounds)
-                           ->_buckets, pSVar9 == (System_Int32_array *)0x0)) goto label_044c278d;
-              puVar3 = (undefined1 *)((long)&pSVar9->max_length + 4);
-              *(int *)puVar3 = *(int *)puVar3 + 1;
-              pSVar8 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar9->bounds)->
-                       _buckets;
-              if (pSVar8 == (System_Int32_array *)0x0) goto label_044c278d;
-              uVar1 = *(uint *)&pSVar9->max_length;
-              if (uVar1 < (uint)pSVar8->max_length) {
-                *(uint *)&pSVar9->max_length = uVar1 + 1;
-                pSVar9 = (System_Int32_array *)(pSVar8->m_Items + (long)(int)uVar1 * 2);
-                *(Il2CppObject **)(pSVar8->m_Items + (long)(int)uVar1 * 2) = item;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pSVar9,item,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar4 + 0x20) + 0xc0) + 0x70));
-              }
-            }
-            if (local_40 == (System_Int32_array *)0x0) goto label_044c278d;
-            if (*(char *)(local_40->m_Items + 4) == '\0') {
-              *(undefined1 *)(local_40->m_Items + 4) = 1;
-              pSVar11 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar11->bounds)->
-                        _buckets;
-              pSVar10 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)pSVar6->max_length;
-              pSVar6 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgPublicProfileFetchResponse);
-              pSVar9 = pSVar6;
-              System_Action_object____ctor();
-              if (pSVar11 == (System_Int32_array *)0x0) goto label_044c278d;
-              (*(code *)pSVar11->max_length)
-                        (*(undefined8 *)(pSVar11->m_Items + 8),pSVar10,pSVar6,
-                         *(undefined8 *)(pSVar11->m_Items + 2));
-            }
-          }
-          else if (item != (Il2CppObject *)0x0) {
-            if (local_40 == (System_Int32_array *)0x0) goto label_044c278d;
-            (*item[1].monitor)(item[4].klass,
-                               (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)
-                               local_40->max_length,item[2].monitor);
-          }
-          return;
-        }
-      }
-    }
-  }
-label_044c278d:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(&pSVar9->obj,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache$$Get
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Get (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o* __this, System_String_o* accountId, System_Action_AottgPublicProfileFetchResponse__o* onResult, const MethodInfo* method);
-// 0x44c2460
+// 0x182366390
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Get
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *__this,
@@ -663,155 +336,235 @@ void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Get
                MethodInfo *method)
 
 {
-  uint uVar1;
-  System_Action_string__Action_AottgPublicProfileFetchResponse___o *pSVar2;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *pSVar3;
-  System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **ppSVar4;
-  undefined1 *puVar5;
-  long lVar6;
-  bool_conflict bVar7;
-  System_Int32_array *pSVar8;
-  ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *pAVar9;
-  System_Int32_array *pSVar10;
-  System_Int32_array *pSVar11;
-  System_Func_DateTimeOffset__o *method_00;
-  MethodInfo *method_01;
-  System_DateTimeOffset_o now;
-  System_Int32_array *pSStack_38;
+  int32_t *piVar1;
+  uint uVar2;
+  System_Collections_Generic_Dictionary_object__object__o *pSVar3;
+  System_Func_DateTimeOffset__o *pSVar4;
+  System_Action_AottgPublicProfileFetchResponse__array *pSVar5;
+  System_Action_string__Action_AottgPublicProfileFetchResponse___o *pSVar6;
+  System_String_o *pSVar7;
+  System_DateTime_Fields SVar8;
+  uint64_t uVar9;
+  System_DateTime_Fields SVar10;
+  undefined8 uVar11;
+  MethodInfo *pMVar12;
+  bool bVar13;
+  ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o *object;
+  ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *pAVar14;
+  System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse___o *pSVar15;
+  uint64_t *puVar16;
+  System_TimeSpan_o t1;
+  UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *__this_00;
+  ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *pAVar17;
+  System_TimeSpan_Fields t2;
+  intptr_t iVar18;
+  ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *local_78 [2];
+  System_DateTimeOffset_o local_68;
+  System_DateTimeOffset_o local_58 [3];
   
-  if (g_data_057aeaaf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_AottgPublicProfileFetchResponse);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Entry);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Get_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass7_0);
-    il2cpp_runtime_helper_023445d0(&"bad_account_id");
-    g_data_057aeaaf = '\x01';
+  if (Il2CppMethodInitialized_1843479ef == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_AottgPublicProfileFetchResponse);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_TryGetValue
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_set_Item
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_Add);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c__DisplayClass7_0_Get_b__0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c__DisplayClass7_0);
+    il2cpp_codegen_initialize_runtime_metadata(&"bad_account_id");
+    Il2CppMethodInitialized_1843479ef = '\x01';
   }
-  pSStack_38 = (System_Int32_array *)0x0;
-  pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass7_0);
-  pSVar11 = pSVar8;
-  System_Object___ctor((Il2CppObject *)pSVar8,(MethodInfo *)0x0);
-  if (pSVar8 != (System_Int32_array *)0x0) {
-    ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds)->_buckets =
-         (System_Int32_array *)__this;
-    il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar8->bounds,__this)
-    ;
-    ppSVar4 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array **)&pSVar8->max_length;
-    pSVar8->max_length = (il2cpp_array_size_t)accountId;
-    il2cpp_runtime_helper_022b4080(ppSVar4);
-    method_01 = (MethodInfo *)0x0;
-    bVar7 = System_String__IsNullOrEmpty((System_String_o *)pSVar8->max_length,(MethodInfo *)0x0);
-    if ((char)bVar7 != '\0') {
-      if (onResult == (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
-        return;
-      }
-      pAVar9 = ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse__Fail
-                         ("bad_account_id",method_01);
-      (*(code *)(onResult->fields).invoke_impl)
-                ((onResult->fields).method_code,pAVar9,(onResult->fields).method);
+  local_78[0] = (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)0x0;
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)
+                      TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c__DisplayClass7_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object == (ApplicationManagers_PublicProfiles_AottgPublicProfileCache___c__DisplayClass7_0_o *)0x0)
+  goto label_1823667a7;
+  (object->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+  (object->fields).accountId = accountId;
+  Il2CppCodeGenWriteBarrier(&(object->fields).accountId,accountId);
+  bVar13 = System_String__IsNullOrEmpty((object->fields).accountId,(MethodInfo *)0x0);
+  if (bVar13) {
+    if (onResult == (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
       return;
     }
-    pSVar11 = (System_Int32_array *)(__this->fields)._entries;
-    if (pSVar11 != (System_Int32_array *)0x0) {
-      bVar7 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                        ((System_Collections_Generic_Dictionary_object__object__o *)pSVar11,&(*ppSVar4)->obj,
-                         (Il2CppObject **)&pSStack_38,MethodInfo_Boolean_TryGetValue);
-      if ((char)bVar7 == '\0') {
-        pSVar10 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Entry);
-        if (g_data_057aeab3 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-          g_data_057aeab3 = '\x01';
-        }
-        pSVar11 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_List_Action_AottgPublicProfileFetchResponse);
-        System_Collections_Generic_List_object____ctor
-                  ((System_Collections_Generic_List_object__o *)pSVar11,MethodInfo_List_1_System_Action_1_ApplicationManagers_PublicProfile);
-        ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar10->bounds)->_buckets = pSVar11
-        ;
-        il2cpp_runtime_helper_022b4080((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar10->bounds);
-        System_Object___ctor((Il2CppObject *)pSVar10,(MethodInfo *)0x0);
-        pSVar11 = (System_Int32_array *)(__this->fields)._entries;
-        pSStack_38 = pSVar10;
-        if (pSVar11 == (System_Int32_array *)0x0) goto label_044c278d;
-        System_Collections_Generic_Dictionary_object__object___set_Item
-                  ((System_Collections_Generic_Dictionary_object__object__o *)pSVar11,&(*ppSVar4)->obj,
-                   (Il2CppObject *)pSVar10,MethodInfo_Void_set_Item);
+    pAVar17 = ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse__Fail
+                        ("bad_account_id",(MethodInfo *)0x0);
+    iVar18 = (onResult->fields).method;
+label_182366687:
+    (*(code *)(onResult->fields).invoke_impl)((onResult->fields).method_code,pAVar17,iVar18);
+  }
+  else {
+    pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._entries;
+    if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1823667a7;
+    bVar13 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                       (pSVar3,(Il2CppObject *)(object->fields).accountId,(Il2CppObject **)local_78,
+                        (MethodInfo_14769C0 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_TryGetValue
+                       );
+    if (!bVar13) {
+      pAVar14 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry);
+      if (Il2CppMethodInitialized_1843479f3 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse);
+        Il2CppMethodInitialized_1843479f3 = '\x01';
       }
-      pSVar10 = pSStack_38;
-      method_00 = (__this->fields)._now;
-      if (method_00 != (System_Func_DateTimeOffset__o *)0x0) {
-        pSVar11 = ((_union_14 *)&(method_00->fields).method_code)->genericMethod;
-        now.fields = (System_DateTimeOffset_Fields)(*(code *)(method_00->fields).invoke_impl)();
-        if (pSVar10 != (System_Int32_array *)0x0) {
-          bVar7 = ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry__HasFreshValue
-                            ((ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)pSVar10,now
-                             ,(MethodInfo *)method_00);
-          lVar6 = MethodInfo_Void_Add;
-          pSVar11 = pSVar10;
-          if ((char)bVar7 == '\0') {
-            if (onResult != (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
-              if ((pSStack_38 == (System_Int32_array *)0x0) ||
-                 (pSVar11 = ((System_Collections_Generic_Dictionary_object__object__Fields *)
-                            &pSStack_38->bounds)->_buckets, pSVar11 == (System_Int32_array *)0x0))
-              goto label_044c278d;
-              puVar5 = (undefined1 *)((long)&pSVar11->max_length + 4);
-              *(int *)puVar5 = *(int *)puVar5 + 1;
-              pSVar10 = ((System_Collections_Generic_Dictionary_object__object__Fields *)&pSVar11->bounds)->
-                        _buckets;
-              if (pSVar10 == (System_Int32_array *)0x0) goto label_044c278d;
-              uVar1 = *(uint *)&pSVar11->max_length;
-              if (uVar1 < (uint)pSVar10->max_length) {
-                *(uint *)&pSVar11->max_length = uVar1 + 1;
-                pSVar11 = (System_Int32_array *)(pSVar10->m_Items + (long)(int)uVar1 * 2);
-                *(System_Action_AottgPublicProfileFetchResponse__o **)
-                 (pSVar10->m_Items + (long)(int)uVar1 * 2) = onResult;
-                il2cpp_runtime_helper_022b4080();
-              }
-              else {
-                System_Collections_Generic_List_object___AddWithResize
-                          ((System_Collections_Generic_List_object__o *)pSVar11,(Il2CppObject *)onResult,
-                           *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-              }
-            }
-            if (pSStack_38 == (System_Int32_array *)0x0) goto label_044c278d;
-            if (*(char *)(pSStack_38->m_Items + 4) == '\0') {
-              *(undefined1 *)(pSStack_38->m_Items + 4) = 1;
-              pSVar2 = (__this->fields)._fetch;
-              pSVar3 = (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)pSVar8->max_length;
-              pSVar8 = (System_Int32_array *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_AottgPublicProfileFetchResponse);
-              pSVar11 = pSVar8;
-              System_Action_object____ctor();
-              if (pSVar2 == (System_Action_string__Action_AottgPublicProfileFetchResponse___o *)0x0)
-              goto label_044c278d;
-              (*(code *)(pSVar2->fields).invoke_impl)
-                        ((pSVar2->fields).method_code,pSVar3,pSVar8,(pSVar2->fields).method);
-            }
-          }
-          else if (onResult != (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
-            if (pSStack_38 == (System_Int32_array *)0x0) goto label_044c278d;
-            (*(code *)(onResult->fields).invoke_impl)
-                      ((onResult->fields).method_code,
-                       (System_Collections_Generic_Dictionary_Entry_TKey__TValue__array *)
-                       pSStack_38->max_length,(onResult->fields).method);
-          }
+      pSVar15 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse);
+      System_Collections_Generic_List_object____ctor
+                ((System_Collections_Generic_LowLevelList_T__o *)pSVar15,
+                 (MethodInfo_92A240 *)
+                 MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ctor);
+      (pAVar14->fields).Subscribers = pSVar15;
+      Il2CppCodeGenWriteBarrier(&(pAVar14->fields).Subscribers,pSVar15);
+      System_Configuration_ConfigurationCollectionAttribute___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pAVar14,(MethodInfo *)0x0);
+      pSVar3 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._entries;
+      local_78[0] = pAVar14;
+      if (pSVar3 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_1823667a7;
+      System_Collections_Generic_Dictionary_object__object___set_Item
+                (pSVar3,(Il2CppObject *)(object->fields).accountId,(Il2CppObject *)pAVar14,
+                 (MethodInfo_147A7F0 *)
+                 MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_set_Item
+                );
+    }
+    pAVar14 = local_78[0];
+    pSVar4 = (__this->fields)._now;
+    if ((pSVar4 == (System_Func_DateTimeOffset__o *)0x0) ||
+       (puVar16 = (uint64_t *)(*(code *)(pSVar4->fields).invoke_impl)(local_58,(pSVar4->fields).method_code),
+       pAVar14 == (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)0x0))
+    goto label_1823667a7;
+    SVar8._dateData = *puVar16;
+    uVar9 = puVar16[1];
+    if (Il2CppMethodInitialized_1843479f2 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_DateTimeOffset);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+      Il2CppMethodInitialized_1843479f2 = '\x01';
+    }
+    if ((pAVar14->fields).Response !=
+        (ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *)0x0) {
+      if ((((pAVar14->fields).Response)->fields)._Success_k__BackingField == false) {
+        if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->_2).
+            cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+        }
+        t2._ticks = (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->
+                    FailureTtl).fields._ticks;
+      }
+      else {
+        if ((TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->_2).
+            cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+        }
+        t2._ticks = (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->
+                    SuccessTtl).fields._ticks;
+      }
+      SVar10._dateData = (pAVar14->fields).CachedAt.fields._dateTime.fields._dateData;
+      uVar11._0_2_ = (pAVar14->fields).CachedAt.fields._offsetMinutes;
+      uVar11._2_6_ = *(undefined6 *)&(pAVar14->fields).CachedAt.fields.field_0xa;
+      if ((TypeInfo_System_DateTimeOffset->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_DateTimeOffset);
+      }
+      local_68.fields._dateTime.fields._dateData =
+           (System_DateTime_Fields)(System_DateTime_Fields)SVar10._dateData;
+      local_68.fields._8_8_ = uVar11;
+      local_58[0].fields._dateTime.fields._dateData =
+           (System_DateTime_Fields)(System_DateTime_Fields)SVar8._dateData;
+      local_58[0].fields._8_8_ = uVar9;
+      t1 = System_DateTimeOffset__op_Subtraction(local_58,&local_68,(MethodInfo *)0x0);
+      if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
+      }
+      bVar13 = System_TimeSpan__op_LessThan(t1,(System_TimeSpan_o)t2._ticks,(MethodInfo *)0x0);
+      if (bVar13) {
+        if (onResult == (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
           return;
         }
+        if (local_78[0] == (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)0x0)
+        goto label_1823667a7;
+        iVar18 = (onResult->fields).method;
+        pAVar17 = (local_78[0]->fields).Response;
+        goto label_182366687;
       }
     }
+    pMVar12 = MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_Add;
+    if (onResult != (System_Action_AottgPublicProfileFetchResponse__o *)0x0) {
+      if ((local_78[0] == (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)0x0) ||
+         (pSVar15 = (local_78[0]->fields).Subscribers,
+         pSVar15 == (System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse___o *)0x0))
+      goto label_1823667a7;
+      piVar1 = &(pSVar15->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar5 = (pSVar15->fields)._items;
+      if (pSVar5 == (System_Action_AottgPublicProfileFetchResponse__array *)0x0) goto label_1823667a7;
+      uVar2 = (pSVar15->fields)._size;
+      if (uVar2 < (uint)pSVar5->max_length) {
+        (pSVar15->fields)._size = uVar2 + 1;
+        if ((uint)pSVar5->max_length <= uVar2) {
+          ThrowIndexOutOfRangeException();
+        }
+        pSVar5->m_Items[(int)uVar2] = onResult;
+        Il2CppCodeGenWriteBarrier(pSVar5->m_Items + (int)uVar2,onResult);
+      }
+      else {
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)pSVar15,(Il2CppObject *)onResult,
+                   (MethodInfo_93DD50 *)pMVar12->klass->rgctx_data[0xe].method);
+      }
+    }
+    if (local_78[0] == (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_Entry_o *)0x0) {
+label_1823667a7:
+      ThrowNullReferenceException();
+    }
+    if ((local_78[0]->fields).InFlight == false) {
+      (local_78[0]->fields).InFlight = true;
+      pSVar6 = (__this->fields)._fetch;
+      pSVar7 = (object->fields).accountId;
+      __this_00 = (UnityEngine_Playables_PlayableSystems_PlayableSystemDelegate_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_System_Action_AottgPublicProfileFetchResponse);
+      System_Action_object____ctor
+                (__this_00,(Il2CppObject *)object,
+                 (intptr_t)
+                 MethodInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache_c__DisplayClass7_0_Get_b__0
+                 ,(MethodInfo *)0x0);
+      if (pSVar6 == (System_Action_string__Action_AottgPublicProfileFetchResponse___o *)0x0)
+      goto label_1823667a7;
+      (*(code *)(pSVar6->fields).invoke_impl)
+                ((pSVar6->fields).method_code,pSVar7,__this_00,(pSVar6->fields).method);
+    }
   }
-label_044c278d:
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor(&pSVar11->obj,(MethodInfo *)0x0);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache$$Complete
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Complete (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o* __this, System_String_o* accountId, ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o* response, const MethodInfo* method);
-// 0x44c29d0
+// 0x1823661c0
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18236632d: nop dword ptr [rax]
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Complete
                (ApplicationManagers_PublicProfiles_AottgPublicProfileCache_o *__this,
@@ -822,132 +575,129 @@ void ApplicationManagers_PublicProfiles_AottgPublicProfileCache__Complete
 {
   int *piVar1;
   int32_t length;
-  uint uVar2;
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  System_Func_DateTimeOffset__o *pSVar3;
-  Il2CppClass *pIVar4;
-  Il2CppObject *pIVar5;
-  bool_conflict bVar6;
-  System_Object_array *pSVar7;
-  System_TimeSpan_Fields SVar8;
-  ulong uVar9;
-  unkbyte10 Var10;
-  Il2CppObject *local_28;
-  undefined4 local_1e;
-  undefined2 local_1a;
+  System_Func_DateTimeOffset__o *pSVar2;
+  Il2CppClass *pIVar3;
+  System_String_o *pSVar4;
+  void *pvVar5;
+  Il2CppObject *pIVar6;
+  bool bVar7;
+  undefined8 *puVar8;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar9;
+  uint uVar10;
+  Il2CppObject *local_res8;
+  undefined1 local_18 [16];
   
-  if (g_data_057aeab0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_TryGetValue);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Action_1_ApplicationManagers_PublicProfiles_AottgPublicP);
-    il2cpp_runtime_helper_023445d0(&"unknown_error");
-    g_data_057aeab0 = '\x01';
+  if (Il2CppMethodInitialized_1843479f0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_TryGetValue
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_Clear);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&"unknown_error");
+    Il2CppMethodInitialized_1843479f0 = '\x01';
   }
-  local_28 = (Il2CppObject *)0x0;
   __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._entries;
+  local_res8 = (Il2CppObject *)0x0;
   if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar6 = System_Collections_Generic_Dictionary_object__object___TryGetValue
-                      (__this_00,(Il2CppObject *)accountId,&local_28,MethodInfo_Boolean_TryGetValue);
-    pIVar5 = local_28;
-    if ((char)bVar6 == '\0') {
+    bVar7 = System_Collections_Generic_Dictionary_object__object___TryGetValue
+                      (__this_00,(Il2CppObject *)accountId,&local_res8,
+                       (MethodInfo_14769C0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_AottgPublicProfileCache_Entry_TryGetValue
+                      );
+    pIVar6 = local_res8;
+    if (!bVar7) {
       return;
     }
-    if (local_28 != (Il2CppObject *)0x0) {
-      *(undefined1 *)&local_28[3].klass = 0;
+    if (local_res8 != (Il2CppObject *)0x0) {
+      *(undefined1 *)&local_res8[3].klass = 0;
       if (response == (ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse_o *)0x0) {
         response = ApplicationManagers_PublicProfiles_AottgPublicProfileFetchResponse__Fail
-                             ("unknown_error",(MethodInfo *)accountId);
+                             ("unknown_error",(MethodInfo *)0x0);
       }
-      pIVar5[1].monitor = response;
-      il2cpp_runtime_helper_022b4080(&pIVar5[1].monitor,response);
-      pIVar5 = local_28;
-      pSVar3 = (__this->fields)._now;
-      if ((pSVar3 != (System_Func_DateTimeOffset__o *)0x0) &&
-         (Var10 = (*(code *)(pSVar3->fields).invoke_impl)
-                            ((pSVar3->fields).method_code,(pSVar3->fields).method),
-         pIVar5 != (Il2CppObject *)0x0)) {
-        *(unkbyte10 *)(pIVar5 + 2) = Var10;
-        *(undefined2 *)((long)&pIVar5[2].monitor + 6) = local_1a;
-        *(undefined4 *)((long)&pIVar5[2].monitor + 2) = local_1e;
-        if ((local_28 != (Il2CppObject *)0x0) &&
-           (((local_28[1].klass != (Il2CppClass *)0x0 &&
-             (pSVar7 = System_Collections_Generic_List_object___ToArray
-                                 ((System_Collections_Generic_List_object__o *)local_28[1].klass,MethodInfo_Action_1_ApplicationManagers_PublicProfiles_AottgPublicP)
-             , local_28 != (Il2CppObject *)0x0)) && (pIVar4 = local_28[1].klass, pIVar4 != (Il2CppClass *)0x0)
-            ))) {
-          piVar1 = (int *)((long)&(pIVar4->_1).namespaze + 4);
-          *piVar1 = *piVar1 + 1;
-          length = *(int32_t *)&(pIVar4->_1).namespaze;
-          *(undefined4 *)&(pIVar4->_1).namespaze = 0;
-          if (0 < length) {
-            System_Array__Clear((System_Array_o *)(pIVar4->_1).name,0,length,(MethodInfo *)0x0);
-          }
-          if (pSVar7 != (System_Object_array *)0x0) {
-            if ((int)pSVar7->max_length < 1) {
-              return;
+      if (pIVar6 != (Il2CppObject *)0x0) {
+        pIVar6[1].monitor = response;
+        Il2CppCodeGenWriteBarrier(&pIVar6[1].monitor,response);
+        pIVar6 = local_res8;
+        pSVar2 = (__this->fields)._now;
+        if ((pSVar2 != (System_Func_DateTimeOffset__o *)0x0) &&
+           (puVar8 = (undefined8 *)
+                     (*(code *)(pSVar2->fields).invoke_impl)
+                               (local_18,(pSVar2->fields).method_code,(pSVar2->fields).method),
+           pIVar6 != (Il2CppObject *)0x0)) {
+          pvVar5 = (void *)puVar8[1];
+          pIVar6[2].klass = (Il2CppClass *)*puVar8;
+          pIVar6[2].monitor = pvVar5;
+          if ((local_res8 != (Il2CppObject *)0x0) &&
+             (((local_res8[1].klass != (Il2CppClass *)0x0 &&
+               (pUVar9 = System_Collections_Generic_List_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo___ToArray
+                                   ((System_Collections_Generic_List_T__o *)local_res8[1].klass,
+                                    (MethodInfo_929FE0 *)
+                                    MethodInfo_System_Collections_Generic_List_Action_AottgPublicProfileFetchResponse_ToArray
+                                   ), local_res8 != (Il2CppObject *)0x0)) &&
+              (pIVar3 = local_res8[1].klass, pIVar3 != (Il2CppClass *)0x0)))) {
+            length = *(int32_t *)&(pIVar3->_1).namespaze;
+            piVar1 = (int *)((longlong)&(pIVar3->_1).namespaze + 4);
+            *piVar1 = *piVar1 + 1;
+            *(undefined4 *)&(pIVar3->_1).namespaze = 0;
+            if (0 < length) {
+              System_Array__Clear((System_Array_o *)(pIVar3->_1).name,0,length,(MethodInfo *)0x0);
             }
-            uVar9 = 0;
-            if ((pSVar7->max_length & 0xffffffff) != 0) {
+            if (pUVar9 != (UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+                           *)0x0) {
+              uVar10 = 0;
               do {
-                pIVar5 = pSVar7->m_Items[uVar9];
-                if (pIVar5 != (Il2CppObject *)0x0) {
-                  if ((local_28 == (Il2CppObject *)0x0) || (pIVar5 == (Il2CppObject *)0x0)) goto label_044c2b9f;
-                  (*pIVar5[1].monitor)(pIVar5[4].klass,local_28[1].monitor,pIVar5[2].monitor);
-                }
-                uVar9 = uVar9 + 1;
-                uVar2 = (uint)pSVar7->max_length;
-                if ((long)(int)uVar2 <= (long)uVar9) {
+                if ((int)pUVar9->max_length <= (int)uVar10) {
                   return;
                 }
-              } while (uVar9 < uVar2);
+                if ((uint)pUVar9->max_length <= uVar10) {
+                  ThrowIndexOutOfRangeException();
+                }
+                pSVar4 = (&pUVar9->m_Items[0].fields.message)[(int)uVar10];
+                if (pSVar4 != (System_String_o *)0x0) {
+                  if (local_res8 == (Il2CppObject *)0x0) break;
+                  (*(code *)(*(uint64_t *)((char *)pSVar4 + 0x18)))(pSVar4[2].fields,local_res8[1].monitor,pSVar4[1].fields);
+                }
+                uVar10 = uVar10 + 1;
+              } while( true );
             }
-            goto label_044c2ba4;
           }
         }
       }
     }
   }
-label_044c2b9f:
-  il2cpp_runtime_helper_022b2c90();
-label_044c2ba4:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057aeab1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgPublicProfileCache);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TimeSpan);
-    g_data_057aeab1 = '\x01';
-  }
-  if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  SVar8._ticks = (int64_t)System_TimeSpan__FromMinutes(10.0,(MethodInfo *)0x0);
-  (*(System_TimeSpan_Fields **)(TypeInfo_AottgPublicProfileCache + 0xb8))->_ticks = SVar8._ticks;
-  SVar8._ticks = (int64_t)System_TimeSpan__FromSeconds(45.0,(MethodInfo *)0x0);
-  ((System_TimeSpan_Fields *)(*(long *)(TypeInfo_AottgPublicProfileCache + 0xb8) + 8))->_ticks = SVar8._ticks;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfileCache$$.cctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___cctor (const MethodInfo* method);
-// 0x44c2bb0
+// 0x1823667c0
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfileCache___cctor(MethodInfo *method)
 
 {
-  System_TimeSpan_Fields SVar1;
+  System_TimeSpan_o SVar1;
   
-  if (g_data_057aeab1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AottgPublicProfileCache);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_TimeSpan);
-    g_data_057aeab1 = '\x01';
+  if (Il2CppMethodInitialized_1843479f1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_TimeSpan);
+    Il2CppMethodInitialized_1843479f1 = '\x01';
   }
-  if (*(int *)(TypeInfo_TimeSpan + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_System_TimeSpan->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_System_TimeSpan);
   }
-  SVar1._ticks = (int64_t)System_TimeSpan__FromMinutes(10.0,(MethodInfo *)0x0);
-  (*(System_TimeSpan_Fields **)(TypeInfo_AottgPublicProfileCache + 0xb8))->_ticks = SVar1._ticks;
-  SVar1._ticks = (int64_t)System_TimeSpan__FromSeconds(45.0,(MethodInfo *)0x0);
-  ((System_TimeSpan_Fields *)(*(long *)(TypeInfo_AottgPublicProfileCache + 0xb8) + 8))->_ticks = SVar1._ticks;
+  SVar1 = System_TimeSpan__FromMinutes(10.0,(MethodInfo *)0x0);
+  (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->SuccessTtl).fields.
+  _ticks = (int64_t)SVar1.fields._ticks;
+  SVar1 = System_TimeSpan__FromSeconds(45.0,(MethodInfo *)0x0);
+  (TypeInfo_ApplicationManagers_PublicProfiles_AottgPublicProfileCache->static_fields->FailureTtl).fields.
+  _ticks = (int64_t)SVar1.fields._ticks;
   return;
 }
 

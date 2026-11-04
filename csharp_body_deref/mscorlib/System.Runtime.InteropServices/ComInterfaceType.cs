@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 namespace System.Runtime.InteropServices;
 
 [Serializable]
-[Token(Token = "0x200043B")]
+[Token(Token = "0x200046A")]
 [ComVisible(true)]
 public enum ComInterfaceType
 {
-	[Token(Token = "0x400124E")]
-	InterfaceIsDual,
-	[Token(Token = "0x400124F")]
-	InterfaceIsIUnknown,
 	[Token(Token = "0x4001250")]
-	InterfaceIsIDispatch,
+	InterfaceIsDual,
 	[Token(Token = "0x4001251")]
+	InterfaceIsIUnknown,
+	[Token(Token = "0x4001252")]
+	InterfaceIsIDispatch,
+	[Token(Token = "0x4001253")]
 	[ComVisible(false)]
 	InterfaceIsIInspectable
 }

@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnInputFieldEndEditMessageListener : MessageListener
 {
-	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x4CB6BD0", Offset = "0x4CB6BD0", VA = "0x4CB6BD0")]
+	[Token(Token = "0x6000469")]
+	[Address(RVA = "0x2DBDFF0", Offset = "0x2DBC5F0", VA = "0x182DBDFF0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x4CB6C90", Offset = "0x4CB6C90", VA = "0x4CB6C90")]
+	[Token(Token = "0x600046A")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnInputFieldEndEditMessageListener()
 	{
 	}

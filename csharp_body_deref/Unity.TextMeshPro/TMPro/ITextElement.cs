@@ -11,19 +11,19 @@ using UnityEngine.UI;
 
 namespace TMPro;
 
-[Token(Token = "0x2000087")]
+[Token(Token = "0x200007C")]
 public interface ITextElement
 {
-	[Token(Token = "0x17000109")]
+	[Token(Token = "0x1700010A")]
 	Material sharedMaterial
 	{
-		[Token(Token = "0x60004A2")]
+		[Token(Token = "0x6000441")]
 		get;
 	}
 
-	[Token(Token = "0x60004A3")]
+	[Token(Token = "0x6000442")]
 	void Rebuild(CanvasUpdate update);
 
-	[Token(Token = "0x60004A4")]
+	[Token(Token = "0x6000443")]
 	int GetInstanceID();
 }

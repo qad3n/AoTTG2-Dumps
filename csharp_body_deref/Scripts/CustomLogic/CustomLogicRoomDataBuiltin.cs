@@ -11,122 +11,122 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200041E")]
+[Token(Token = "0x2000574")]
 [CompilerGenerated]
 internal class CustomLogicRoomDataBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x200041F")]
+	[Token(Token = "0x2000575")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002A4E")]
-		[Address(RVA = "0x40E1EA0", Offset = "0x40E1EA0", VA = "0x40E1EA0")]
+		[Token(Token = "0x60033B2")]
+		[Address(RVA = "0x203C260", Offset = "0x203A860", VA = "0x18203C260")]
 		public static CustomLogicRoomDataBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x2000420")]
+	[Token(Token = "0x2000576")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400116A")]
+		[Token(Token = "0x40017A7")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002A4F")]
-		[Address(RVA = "0x40E1FC0", Offset = "0x40E1FC0", VA = "0x40E1FC0")]
+		[Token(Token = "0x60033B3")]
+		[Address(RVA = "0x2022E70", Offset = "0x2021470", VA = "0x182022E70")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A50")]
-		[Address(RVA = "0x40E2150", Offset = "0x40E2150", VA = "0x40E2150")]
+		[Token(Token = "0x60033B4")]
+		[Address(RVA = "0x202B5E0", Offset = "0x2029BE0", VA = "0x18202B5E0")]
 		public static CLMethodBinding<CustomLogicRoomDataBuiltin> __CreateMethodBinding__SetProperty()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A51")]
-		[Address(RVA = "0x40E22A0", Offset = "0x40E22A0", VA = "0x40E22A0")]
+		[Token(Token = "0x60033B5")]
+		[Address(RVA = "0x2028410", Offset = "0x2026A10", VA = "0x182028410")]
 		public static CLMethodBinding<CustomLogicRoomDataBuiltin> __CreateMethodBinding__GetProperty()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002A52")]
-		[Address(RVA = "0x40E23F0", Offset = "0x40E23F0", VA = "0x40E23F0")]
+		[Token(Token = "0x60033B6")]
+		[Address(RVA = "0x2025910", Offset = "0x2023F10", VA = "0x182025910")]
 		public static CLMethodBinding<CustomLogicRoomDataBuiltin> __CreateMethodBinding__Clear()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700088E")]
+	[Token(Token = "0x17000981")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002A4A")]
-		[Address(RVA = "0x40E1E40", Offset = "0x40E1E40", VA = "0x40E1E40", Slot = "4")]
+		[Token(Token = "0x60033AE")]
+		[Address(RVA = "0x203AF90", Offset = "0x2039590", VA = "0x18203AF90", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700088F")]
+	[Token(Token = "0x17000982")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002A4B")]
-		[Address(RVA = "0x40E1E70", Offset = "0x40E1E70", VA = "0x40E1E70", Slot = "6")]
+		[Token(Token = "0x60033AF")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000890")]
+	[Token(Token = "0x17000983")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002A4C")]
-		[Address(RVA = "0x40E1E80", Offset = "0x40E1E80", VA = "0x40E1E80", Slot = "7")]
+		[Token(Token = "0x60033B0")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000891")]
+	[Token(Token = "0x17000984")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002A4D")]
-		[Address(RVA = "0x40E1E90", Offset = "0x40E1E90", VA = "0x40E1E90", Slot = "8")]
+		[Token(Token = "0x60033B1")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002A46")]
-	[Address(RVA = "0x40E1BB0", Offset = "0x40E1BB0", VA = "0x40E1BB0")]
+	[Token(Token = "0x60033AA")]
+	[Address(RVA = "0x203AF40", Offset = "0x2039540", VA = "0x18203AF40")]
 	public CustomLogicRoomDataBuiltin()
 	{
 	}
 
-	[Token(Token = "0x6002A47")]
-	[Address(RVA = "0x40E1C20", Offset = "0x40E1C20", VA = "0x40E1C20")]
+	[Token(Token = "0x60033AB")]
+	[Address(RVA = "0x203AE10", Offset = "0x2039410", VA = "0x18203AE10")]
 	public static void SetProperty(string property, object value)
 	{
 	}
 
-	[Token(Token = "0x6002A48")]
-	[Address(RVA = "0x40E1D20", Offset = "0x40E1D20", VA = "0x40E1D20")]
+	[Token(Token = "0x60033AC")]
+	[Address(RVA = "0x203AD90", Offset = "0x2039390", VA = "0x18203AD90")]
 	public static object GetProperty(string property, object defaultValue)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A49")]
-	[Address(RVA = "0x40E1DA0", Offset = "0x40E1DA0", VA = "0x40E1DA0")]
+	[Token(Token = "0x60033AD")]
+	[Address(RVA = "0x203AD10", Offset = "0x2039310", VA = "0x18203AD10")]
 	public static void Clear()
 	{
 	}

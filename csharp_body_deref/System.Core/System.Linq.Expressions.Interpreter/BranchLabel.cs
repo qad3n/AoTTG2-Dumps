@@ -33,15 +33,15 @@ internal sealed class BranchLabel
 	[Token(Token = "0x17000154")]
 	internal int LabelIndex
 	{
-		[Token(Token = "0x60005E5")]
-		[Address(RVA = "0x44C5A70", Offset = "0x44C5A70", VA = "0x44C5A70")]
+		[Token(Token = "0x60005E4")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x60005E6")]
-		[Address(RVA = "0x44C5A80", Offset = "0x44C5A80", VA = "0x44C5A80")]
+		[Token(Token = "0x60005E5")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		[CompilerGenerated]
 		set
 		{
@@ -51,8 +51,8 @@ internal sealed class BranchLabel
 	[Token(Token = "0x17000155")]
 	internal bool HasRuntimeLabel
 	{
-		[Token(Token = "0x60005E7")]
-		[Address(RVA = "0x44C5A90", Offset = "0x44C5A90", VA = "0x44C5A90")]
+		[Token(Token = "0x60005E6")]
+		[Address(RVA = "0x2429E10", Offset = "0x2428410", VA = "0x182429E10")]
 		get
 		{
 			return default(bool);
@@ -62,41 +62,41 @@ internal sealed class BranchLabel
 	[Token(Token = "0x17000156")]
 	internal int TargetIndex
 	{
-		[Token(Token = "0x60005E8")]
-		[Address(RVA = "0x44C5AA0", Offset = "0x44C5AA0", VA = "0x44C5AA0")]
+		[Token(Token = "0x60005E7")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x60005E9")]
-	[Address(RVA = "0x44C5AB0", Offset = "0x44C5AB0", VA = "0x44C5AB0")]
+	[Token(Token = "0x60005E8")]
+	[Address(RVA = "0x2429DC0", Offset = "0x24283C0", VA = "0x182429DC0")]
 	internal RuntimeLabel ToRuntimeLabel()
 	{
 		return default(RuntimeLabel);
 	}
 
-	[Token(Token = "0x60005EA")]
-	[Address(RVA = "0x44C5AC0", Offset = "0x44C5AC0", VA = "0x44C5AC0")]
+	[Token(Token = "0x60005E9")]
+	[Address(RVA = "0x2429C50", Offset = "0x2428250", VA = "0x182429C50")]
 	internal void Mark(InstructionList instructions)
 	{
 	}
 
-	[Token(Token = "0x60005EB")]
-	[Address(RVA = "0x44C5C90", Offset = "0x44C5C90", VA = "0x44C5C90")]
+	[Token(Token = "0x60005EA")]
+	[Address(RVA = "0x2429AF0", Offset = "0x24280F0", VA = "0x182429AF0")]
 	internal void AddBranch(InstructionList instructions, int branchIndex)
 	{
 	}
 
-	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x44C5C70", Offset = "0x44C5C70", VA = "0x44C5C70")]
+	[Token(Token = "0x60005EB")]
+	[Address(RVA = "0x2429C20", Offset = "0x2428220", VA = "0x182429C20")]
 	internal void FixupBranch(InstructionList instructions, int branchIndex)
 	{
 	}
 
-	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x44C5D90", Offset = "0x44C5D90", VA = "0x44C5D90")]
+	[Token(Token = "0x60005EC")]
+	[Address(RVA = "0x2429DE0", Offset = "0x24283E0", VA = "0x182429DE0")]
 	public BranchLabel()
 	{
 	}

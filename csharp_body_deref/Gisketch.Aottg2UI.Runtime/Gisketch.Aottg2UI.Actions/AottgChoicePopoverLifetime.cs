@@ -11,27 +11,27 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000A6")]
+[Token(Token = "0x20000C6")]
 public sealed class AottgChoicePopoverLifetime : MonoBehaviour
 {
-	[Token(Token = "0x400034D")]
+	[Token(Token = "0x40003FC")]
 	[FieldOffset(Offset = "0x20")]
 	private Action _closed;
 
-	[Token(Token = "0x60004C7")]
-	[Address(RVA = "0x3A8DB90", Offset = "0x3A8DB90", VA = "0x3A8DB90")]
+	[Token(Token = "0x6000608")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 	public void Setup(Action closed)
 	{
 	}
 
-	[Token(Token = "0x60004C8")]
-	[Address(RVA = "0x3A8DBA0", Offset = "0x3A8DBA0", VA = "0x3A8DBA0")]
+	[Token(Token = "0x6000609")]
+	[Address(RVA = "0x18F79C0", Offset = "0x18F5FC0", VA = "0x1818F79C0")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60004C9")]
-	[Address(RVA = "0x3A8DBC0", Offset = "0x3A8DBC0", VA = "0x3A8DBC0")]
+	[Token(Token = "0x600060A")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgChoicePopoverLifetime()
 	{
 	}

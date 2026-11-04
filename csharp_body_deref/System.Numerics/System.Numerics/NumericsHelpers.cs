@@ -13,61 +13,61 @@ namespace System.Numerics;
 internal static class NumericsHelpers
 {
 	[Token(Token = "0x6000092")]
-	[Address(RVA = "0x4665100", Offset = "0x4665100", VA = "0x4665100")]
+	[Address(RVA = "0x25CB180", Offset = "0x25C9780", VA = "0x1825CB180")]
 	public static void GetDoubleParts(double dbl, out int sign, out int exp, out ulong man, out bool fFinite)
 	{
 	}
 
 	[Token(Token = "0x6000093")]
-	[Address(RVA = "0x4668F90", Offset = "0x4668F90", VA = "0x4668F90")]
+	[Address(RVA = "0x25CB000", Offset = "0x25C9600", VA = "0x1825CB000")]
 	public static double GetDoubleFromParts(int sign, int exp, ulong man)
 	{
 		return default(double);
 	}
 
 	[Token(Token = "0x6000094")]
-	[Address(RVA = "0x4665BC0", Offset = "0x4665BC0", VA = "0x4665BC0")]
+	[Address(RVA = "0x25CAF70", Offset = "0x25C9570", VA = "0x1825CAF70")]
 	public static void DangerousMakeTwosComplement(uint[] d)
 	{
 	}
 
 	[Token(Token = "0x6000095")]
-	[Address(RVA = "0x4666EA0", Offset = "0x4666EA0", VA = "0x4666EA0")]
+	[Address(RVA = "0x25CB210", Offset = "0x25C9810", VA = "0x1825CB210")]
 	public static ulong MakeUlong(uint uHi, uint uLo)
 	{
 		return default(ulong);
 	}
 
 	[Token(Token = "0x6000096")]
-	[Address(RVA = "0x4666620", Offset = "0x4666620", VA = "0x4666620")]
+	[Address(RVA = "0x25CAE90", Offset = "0x25C9490", VA = "0x1825CAE90")]
 	public static uint Abs(int a)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000097")]
-	[Address(RVA = "0x4671B20", Offset = "0x4671B20", VA = "0x4671B20")]
+	[Address(RVA = "0x25CAF60", Offset = "0x25C9560", VA = "0x1825CAF60")]
 	public static uint CombineHash(uint u1, uint u2)
 	{
 		return default(uint);
 	}
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x4666CE0", Offset = "0x4666CE0", VA = "0x4666CE0")]
+	[Address(RVA = "0x25CAF60", Offset = "0x25C9560", VA = "0x1825CAF60")]
 	public static int CombineHash(int n1, int n2)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x4668F20", Offset = "0x4668F20", VA = "0x4668F20")]
+	[Address(RVA = "0x25BB5F0", Offset = "0x25B9BF0", VA = "0x1825BB5F0")]
 	public static int CbitHighZero(uint u)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x4671A30", Offset = "0x4671A30", VA = "0x4671A30")]
+	[Address(RVA = "0x25CAEA0", Offset = "0x25C94A0", VA = "0x1825CAEA0")]
 	public static int CbitHighZero(ulong uu)
 	{
 		return default(int);

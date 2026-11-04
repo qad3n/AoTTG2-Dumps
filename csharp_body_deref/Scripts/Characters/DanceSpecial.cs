@@ -9,49 +9,49 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000521")]
+[Token(Token = "0x200067B")]
 internal class DanceSpecial : BaseEmoteSpecial
 {
-	[Token(Token = "0x4001815")]
+	[Token(Token = "0x4001EB2")]
 	[FieldOffset(Offset = "0x48")]
 	protected float Range;
 
-	[Token(Token = "0x170009EF")]
+	[Token(Token = "0x17000B23")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60035D6")]
-		[Address(RVA = "0x41F49F0", Offset = "0x41F49F0", VA = "0x41F49F0", Slot = "14")]
+		[Token(Token = "0x6004014")]
+		[Address(RVA = "0x1D9F790", Offset = "0x1D9DD90", VA = "0x181D9F790", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170009F0")]
+	[Token(Token = "0x17000B24")]
 	protected override bool GroundedOnly
 	{
-		[Token(Token = "0x60035D7")]
-		[Address(RVA = "0x41F4A00", Offset = "0x41F4A00", VA = "0x41F4A00", Slot = "17")]
+		[Token(Token = "0x6004015")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60035D8")]
-	[Address(RVA = "0x41E4100", Offset = "0x41E4100", VA = "0x41E4100")]
+	[Token(Token = "0x6004016")]
+	[Address(RVA = "0x216AE10", Offset = "0x2169410", VA = "0x18216AE10")]
 	public DanceSpecial(BaseCharacter owner)
 	{
 	}
 
-	[Token(Token = "0x60035D9")]
-	[Address(RVA = "0x41F4A10", Offset = "0x41F4A10", VA = "0x41F4A10", Slot = "9")]
+	[Token(Token = "0x6004017")]
+	[Address(RVA = "0x216AA60", Offset = "0x2169060", VA = "0x18216AA60", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60035DA")]
-	[Address(RVA = "0x41F4A80", Offset = "0x41F4A80", VA = "0x41F4A80", Slot = "10")]
+	[Token(Token = "0x6004018")]
+	[Address(RVA = "0x216AAE0", Offset = "0x21690E0", VA = "0x18216AAE0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

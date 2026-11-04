@@ -11,12 +11,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F8")]
+[Token(Token = "0x200011B")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Graphics/Mesh/MeshRenderer.h")]
 public class MeshRenderer : Renderer
 {
-	[Token(Token = "0x6000534")]
-	[Address(RVA = "0x4DD0760", Offset = "0x4DD0760", VA = "0x4DD0760")]
+	[Token(Token = "0x600073C")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private void DontStripMeshRenderer()
 	{

@@ -11,35 +11,35 @@ using Il2CppDummyDll;
 namespace Gisketch.Aottg2UI.Data;
 
 [Serializable]
-[Token(Token = "0x200004E")]
+[Token(Token = "0x2000061")]
 public sealed class GisketchChoiceOptionDefinition
 {
-	[Token(Token = "0x40001A6")]
+	[Token(Token = "0x4000210")]
 	[FieldOffset(Offset = "0x10")]
 	public string value;
 
-	[Token(Token = "0x40001A7")]
+	[Token(Token = "0x4000211")]
 	[FieldOffset(Offset = "0x18")]
 	public string text;
 
-	[Token(Token = "0x40001A8")]
+	[Token(Token = "0x4000212")]
 	[FieldOffset(Offset = "0x20")]
 	public string textKey;
 
-	[Token(Token = "0x40001A9")]
+	[Token(Token = "0x4000213")]
 	[FieldOffset(Offset = "0x28")]
 	public bool enabled;
 
-	[Token(Token = "0x40001AA")]
+	[Token(Token = "0x4000214")]
 	[FieldOffset(Offset = "0x30")]
 	public string tooltip;
 
-	[Token(Token = "0x40001AB")]
+	[Token(Token = "0x4000215")]
 	[FieldOffset(Offset = "0x38")]
 	public string tooltipKey;
 
-	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x3A5B2C0", Offset = "0x3A5B2C0", VA = "0x3A5B2C0")]
+	[Token(Token = "0x6000325")]
+	[Address(RVA = "0x18CB390", Offset = "0x18C9990", VA = "0x1818CB390")]
 	public GisketchChoiceOptionDefinition()
 	{
 	}

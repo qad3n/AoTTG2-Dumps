@@ -21,13 +21,13 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public override string Value
 	{
 		[Token(Token = "0x600080C")]
-		[Address(RVA = "0x47CB150", Offset = "0x47CB150", VA = "0x47CB150", Slot = "9")]
+		[Address(RVA = "0x270E920", Offset = "0x270CF20", VA = "0x18270E920", Slot = "9")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080D")]
-		[Address(RVA = "0x47CB170", Offset = "0x47CB170", VA = "0x47CB170", Slot = "10")]
+		[Address(RVA = "0x270EA20", Offset = "0x270D020", VA = "0x18270EA20", Slot = "10")]
 		set
 		{
 		}
@@ -37,13 +37,13 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public override string InnerText
 	{
 		[Token(Token = "0x600080E")]
-		[Address(RVA = "0x47CB190", Offset = "0x47CB190", VA = "0x47CB190", Slot = "41")]
+		[Address(RVA = "0x1B78A70", Offset = "0x1B77070", VA = "0x181B78A70", Slot = "41")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600080F")]
-		[Address(RVA = "0x47CB1B0", Offset = "0x47CB1B0", VA = "0x47CB1B0", Slot = "42")]
+		[Address(RVA = "0x270EA00", Offset = "0x270D000", VA = "0x18270EA00", Slot = "42")]
 		set
 		{
 		}
@@ -53,33 +53,33 @@ public abstract class XmlCharacterData : XmlLinkedNode
 	public virtual string Data
 	{
 		[Token(Token = "0x6000810")]
-		[Address(RVA = "0x47CB1D0", Offset = "0x47CB1D0", VA = "0x47CB1D0", Slot = "62")]
+		[Address(RVA = "0x270E900", Offset = "0x270CF00", VA = "0x18270E900", Slot = "62")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000811")]
-		[Address(RVA = "0x47CB200", Offset = "0x47CB200", VA = "0x47CB200", Slot = "63")]
+		[Address(RVA = "0x270E940", Offset = "0x270CF40", VA = "0x18270E940", Slot = "63")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x47CAF30", Offset = "0x47CAF30", VA = "0x47CAF30")]
+	[Address(RVA = "0x270E6A0", Offset = "0x270CCA0", VA = "0x18270E6A0")]
 	protected internal XmlCharacterData(string data, XmlDocument doc)
 	{
 	}
 
 	[Token(Token = "0x6000812")]
-	[Address(RVA = "0x47CB2C0", Offset = "0x47CB2C0", VA = "0x47CB2C0")]
+	[Address(RVA = "0x270E7F0", Offset = "0x270CDF0", VA = "0x18270E7F0")]
 	internal bool CheckOnData(string data)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000813")]
-	[Address(RVA = "0x47CB2F0", Offset = "0x47CB2F0", VA = "0x47CB2F0")]
+	[Address(RVA = "0x270E830", Offset = "0x270CE30", VA = "0x18270E830")]
 	internal bool DecideXPNodeTypeForTextNodes(XmlNode node, ref XPathNodeType xnt)
 	{
 		return default(bool);

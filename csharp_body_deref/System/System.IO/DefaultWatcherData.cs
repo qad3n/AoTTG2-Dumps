@@ -10,47 +10,47 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x200035C")]
+[Token(Token = "0x200027D")]
 internal class DefaultWatcherData
 {
-	[Token(Token = "0x4000F4F")]
+	[Token(Token = "0x40008C7")]
 	[FieldOffset(Offset = "0x10")]
 	public FileSystemWatcher FSW;
 
-	[Token(Token = "0x4000F50")]
+	[Token(Token = "0x40008C8")]
 	[FieldOffset(Offset = "0x18")]
 	public string Directory;
 
-	[Token(Token = "0x4000F51")]
+	[Token(Token = "0x40008C9")]
 	[FieldOffset(Offset = "0x20")]
 	public string FileMask;
 
-	[Token(Token = "0x4000F52")]
+	[Token(Token = "0x40008CA")]
 	[FieldOffset(Offset = "0x28")]
 	public bool IncludeSubdirs;
 
-	[Token(Token = "0x4000F53")]
+	[Token(Token = "0x40008CB")]
 	[FieldOffset(Offset = "0x29")]
 	public bool Enabled;
 
-	[Token(Token = "0x4000F54")]
+	[Token(Token = "0x40008CC")]
 	[FieldOffset(Offset = "0x2A")]
 	public bool NoWildcards;
 
-	[Token(Token = "0x4000F55")]
+	[Token(Token = "0x40008CD")]
 	[FieldOffset(Offset = "0x30")]
 	public DateTime DisabledTime;
 
-	[Token(Token = "0x4000F56")]
+	[Token(Token = "0x40008CE")]
 	[FieldOffset(Offset = "0x38")]
 	public object FilesLock;
 
-	[Token(Token = "0x4000F57")]
+	[Token(Token = "0x40008CF")]
 	[FieldOffset(Offset = "0x40")]
 	public Dictionary<string, FileData> Files;
 
-	[Token(Token = "0x6001698")]
-	[Address(RVA = "0x48E9F50", Offset = "0x48E9F50", VA = "0x48E9F50")]
+	[Token(Token = "0x600119A")]
+	[Address(RVA = "0x28D0570", Offset = "0x28CEB70", VA = "0x1828D0570")]
 	public DefaultWatcherData()
 	{
 	}

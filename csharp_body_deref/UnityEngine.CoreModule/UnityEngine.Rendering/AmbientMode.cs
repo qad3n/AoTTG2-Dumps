@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002AE")]
+[Token(Token = "0x2000328")]
 public enum AmbientMode
 {
-	[Token(Token = "0x400073B")]
+	[Token(Token = "0x400086B")]
 	Skybox = 0,
-	[Token(Token = "0x400073C")]
+	[Token(Token = "0x400086C")]
 	Trilight = 1,
-	[Token(Token = "0x400073D")]
+	[Token(Token = "0x400086D")]
 	Flat = 3,
-	[Token(Token = "0x400073E")]
+	[Token(Token = "0x400086E")]
 	Custom = 4
 }

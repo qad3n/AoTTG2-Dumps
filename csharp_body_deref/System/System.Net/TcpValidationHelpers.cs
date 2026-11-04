@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000118")]
+[Token(Token = "0x20002A0")]
 internal static class TcpValidationHelpers
 {
-	[Token(Token = "0x60006AC")]
-	[Address(RVA = "0x4948D50", Offset = "0x4948D50", VA = "0x4948D50")]
+	[Token(Token = "0x600126B")]
+	[Address(RVA = "0x27D4D20", Offset = "0x27D3320", VA = "0x1827D4D20")]
 	public static bool ValidatePortNumber(int port)
 	{
 		return default(bool);

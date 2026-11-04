@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x2000019")]
 public interface IErrorInfoCallback
 {
-	[Token(Token = "0x60000DC")]
+	[Token(Token = "0x60000DA")]
 	void OnErrorInfo(ErrorInfo errorInfo);
 }

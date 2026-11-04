@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000097")]
+[Token(Token = "0x20000A1")]
 internal enum SchemaFormat
 {
-	[Token(Token = "0x400031C")]
+	[Token(Token = "0x400032F")]
 	Public = 1,
-	[Token(Token = "0x400031D")]
+	[Token(Token = "0x4000330")]
 	Remoting,
-	[Token(Token = "0x400031E")]
+	[Token(Token = "0x4000331")]
 	WebService,
-	[Token(Token = "0x400031F")]
+	[Token(Token = "0x4000332")]
 	RemotingSkipSchema,
-	[Token(Token = "0x4000320")]
+	[Token(Token = "0x4000333")]
 	WebServiceSkipSchema
 }

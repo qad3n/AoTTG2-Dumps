@@ -11,37 +11,37 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000189")]
+[Token(Token = "0x200028F")]
 internal sealed class AottgCharacterNamePreviewPanel : AottgComponent
 {
-	[Token(Token = "0x4000882")]
+	[Token(Token = "0x4000D23")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly string _id;
 
-	[Token(Token = "0x4000883")]
+	[Token(Token = "0x4000D24")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly float _width;
 
-	[Token(Token = "0x4000884")]
+	[Token(Token = "0x4000D25")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	private readonly bool _liveDialog;
 
-	[Token(Token = "0x4000885")]
+	[Token(Token = "0x4000D26")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly string _alignSelf;
 
-	[Token(Token = "0x4000886")]
+	[Token(Token = "0x4000D27")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private readonly bool _fullWidth;
 
-	[Token(Token = "0x60008DC")]
-	[Address(RVA = "0x44015D0", Offset = "0x44015D0", VA = "0x44015D0")]
+	[Token(Token = "0x6000F90")]
+	[Address(RVA = "0x1DF5A50", Offset = "0x1DF4050", VA = "0x181DF5A50")]
 	public AottgCharacterNamePreviewPanel(string id, [Optional][DefaultParameterValue(420f)] float width, [Optional][DefaultParameterValue(false)] bool liveDialog, [Optional] string alignSelf, bool fullWidth = false)
 	{
 	}
 
-	[Token(Token = "0x60008DD")]
-	[Address(RVA = "0x4401640", Offset = "0x4401640", VA = "0x4401640", Slot = "4")]
+	[Token(Token = "0x6000F91")]
+	[Address(RVA = "0x1DF5390", Offset = "0x1DF3990", VA = "0x181DF5390", Slot = "4")]
 	public override void Build(AottgUi ui)
 	{
 	}

@@ -11,84 +11,84 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000232")]
+[Token(Token = "0x2000286")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 public struct FixedUpdate
 {
-	[Token(Token = "0x2000233")]
+	[Token(Token = "0x2000287")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ClearLines
 	{
 	}
 
-	[Token(Token = "0x2000234")]
+	[Token(Token = "0x2000288")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorFixedSampleTime
 	{
 	}
 
-	[Token(Token = "0x2000235")]
+	[Token(Token = "0x2000289")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AudioFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000236")]
+	[Token(Token = "0x200028A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunBehaviourFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000237")]
+	[Token(Token = "0x200028B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x2000238")]
+	[Token(Token = "0x200028C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct LegacyFixedAnimationUpdate
 	{
 	}
 
-	[Token(Token = "0x2000239")]
+	[Token(Token = "0x200028D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct XRFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x200023A")]
+	[Token(Token = "0x200028E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PhysicsFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x200023B")]
+	[Token(Token = "0x200028F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct Physics2DFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x200023C")]
+	[Token(Token = "0x2000290")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private struct PhysicsClothFixedUpdate
 	{
 	}
 
-	[Token(Token = "0x200023D")]
+	[Token(Token = "0x2000291")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorFixedUpdatePostPhysics
 	{
 	}
 
-	[Token(Token = "0x200023E")]
+	[Token(Token = "0x2000292")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunDelayedFixedFrameRate
 	{
 	}
 
-	[Token(Token = "0x200023F")]
+	[Token(Token = "0x2000293")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct NewInputFixedUpdate
 	{

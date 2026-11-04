@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace Unity.Collections;
 
-[Token(Token = "0x200004B")]
+[Token(Token = "0x200005F")]
 internal sealed class NativeArrayDebugView<T> where T : struct
 {
 }

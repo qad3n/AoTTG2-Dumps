@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004E1")]
+[Token(Token = "0x2000511")]
 public class ManifestResourceInfo
 {
-	[Token(Token = "0x170004AF")]
+	[Token(Token = "0x170004B2")]
 	public virtual Assembly ReferencedAssembly
 	{
-		[Token(Token = "0x6002429")]
-		[Address(RVA = "0x3BD2260", Offset = "0x3BD2260", VA = "0x3BD2260", Slot = "4")]
+		[Token(Token = "0x60024AB")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public class ManifestResourceInfo
 		}
 	}
 
-	[Token(Token = "0x170004B0")]
+	[Token(Token = "0x170004B3")]
 	public virtual string FileName
 	{
-		[Token(Token = "0x600242A")]
-		[Address(RVA = "0x3BD2270", Offset = "0x3BD2270", VA = "0x3BD2270", Slot = "5")]
+		[Token(Token = "0x60024AC")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,11 +37,11 @@ public class ManifestResourceInfo
 		}
 	}
 
-	[Token(Token = "0x170004B1")]
+	[Token(Token = "0x170004B4")]
 	public virtual ResourceLocation ResourceLocation
 	{
-		[Token(Token = "0x600242B")]
-		[Address(RVA = "0x3BD2280", Offset = "0x3BD2280", VA = "0x3BD2280", Slot = "6")]
+		[Token(Token = "0x60024AD")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170", Slot = "6")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,8 +49,8 @@ public class ManifestResourceInfo
 		}
 	}
 
-	[Token(Token = "0x6002428")]
-	[Address(RVA = "0x3BD2210", Offset = "0x3BD2210", VA = "0x3BD2210")]
+	[Token(Token = "0x60024AA")]
+	[Address(RVA = "0x1A48980", Offset = "0x1A46F80", VA = "0x181A48980")]
 	public ManifestResourceInfo(Assembly containingAssembly, string containingFileName, ResourceLocation resourceLocation)
 	{
 	}

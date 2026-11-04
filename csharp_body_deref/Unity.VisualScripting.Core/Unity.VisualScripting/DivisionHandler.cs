@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200010E")]
 public sealed class DivisionHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x600079E")]
-	[Address(RVA = "0x4CDE530", Offset = "0x4CDE530", VA = "0x4CDE530")]
+	[Token(Token = "0x60007A8")]
+	[Address(RVA = "0x2DCA610", Offset = "0x2DC8C10", VA = "0x182DCA610")]
 	public DivisionHandler()
 	{
 	}

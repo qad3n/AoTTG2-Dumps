@@ -12,150 +12,12 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x200013E")]
+[Token(Token = "0x2000140")]
 public sealed class InstanceActionInvoker<TTarget> : InstanceActionInvokerBase<TTarget>
 {
-	[Token(Token = "0x4000814")]
+	[Token(Token = "0x4000812")]
 	[FieldOffset(Offset = "0x0")]
 	private Action<TTarget> invoke;
-
-	[Token(Token = "0x6000D49")]
-	public InstanceActionInvoker(MethodInfo methodInfo)
-	{
-	}
-
-	[Token(Token = "0x6000D4A")]
-	public override object Invoke(object target, params object[] args)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D4B")]
-	public override object Invoke(object target)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D4C")]
-	private object InvokeUnsafe(object target)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D4D")]
-	protected override Type[] GetParameterTypes()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D4E")]
-	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
-	{
-	}
-
-	[Token(Token = "0x6000D4F")]
-	protected override void CreateDelegate()
-	{
-	}
-}
-[Token(Token = "0x200013F")]
-public sealed class InstanceActionInvoker<TTarget, TParam0> : InstanceActionInvokerBase<TTarget>
-{
-	[Token(Token = "0x4000815")]
-	[FieldOffset(Offset = "0x0")]
-	private Action<TTarget, TParam0> invoke;
-
-	[Token(Token = "0x6000D50")]
-	public InstanceActionInvoker(MethodInfo methodInfo)
-	{
-	}
-
-	[Token(Token = "0x6000D51")]
-	public override object Invoke(object target, params object[] args)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D52")]
-	public override object Invoke(object target, object arg0)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D53")]
-	private object InvokeUnsafe(object target, object arg0)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D54")]
-	protected override Type[] GetParameterTypes()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D55")]
-	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
-	{
-	}
-
-	[Token(Token = "0x6000D56")]
-	protected override void CreateDelegate()
-	{
-	}
-}
-[Token(Token = "0x2000140")]
-public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1> : InstanceActionInvokerBase<TTarget>
-{
-	[Token(Token = "0x4000816")]
-	[FieldOffset(Offset = "0x0")]
-	private Action<TTarget, TParam0, TParam1> invoke;
-
-	[Token(Token = "0x6000D57")]
-	public InstanceActionInvoker(MethodInfo methodInfo)
-	{
-	}
-
-	[Token(Token = "0x6000D58")]
-	public override object Invoke(object target, params object[] args)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D59")]
-	public override object Invoke(object target, object arg0, object arg1)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D5A")]
-	public object InvokeUnsafe(object target, object arg0, object arg1)
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D5B")]
-	protected override Type[] GetParameterTypes()
-	{
-		return null;
-	}
-
-	[Token(Token = "0x6000D5C")]
-	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
-	{
-	}
-
-	[Token(Token = "0x6000D5D")]
-	protected override void CreateDelegate()
-	{
-	}
-}
-[Token(Token = "0x2000141")]
-public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2> : InstanceActionInvokerBase<TTarget>
-{
-	[Token(Token = "0x4000817")]
-	[FieldOffset(Offset = "0x0")]
-	private Action<TTarget, TParam0, TParam1, TParam2> invoke;
 
 	[Token(Token = "0x6000D5E")]
 	public InstanceActionInvoker(MethodInfo methodInfo)
@@ -169,13 +31,13 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2> : 
 	}
 
 	[Token(Token = "0x6000D60")]
-	public override object Invoke(object target, object arg0, object arg1, object arg2)
+	public override object Invoke(object target)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D61")]
-	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2)
+	private object InvokeUnsafe(object target)
 	{
 		return null;
 	}
@@ -196,12 +58,12 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2> : 
 	{
 	}
 }
-[Token(Token = "0x2000142")]
-public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TParam3> : InstanceActionInvokerBase<TTarget>
+[Token(Token = "0x2000141")]
+public sealed class InstanceActionInvoker<TTarget, TParam0> : InstanceActionInvokerBase<TTarget>
 {
-	[Token(Token = "0x4000818")]
+	[Token(Token = "0x4000813")]
 	[FieldOffset(Offset = "0x0")]
-	private Action<TTarget, TParam0, TParam1, TParam2, TParam3> invoke;
+	private Action<TTarget, TParam0> invoke;
 
 	[Token(Token = "0x6000D65")]
 	public InstanceActionInvoker(MethodInfo methodInfo)
@@ -215,13 +77,13 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TP
 	}
 
 	[Token(Token = "0x6000D67")]
-	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
+	public override object Invoke(object target, object arg0)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D68")]
-	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3)
+	private object InvokeUnsafe(object target, object arg0)
 	{
 		return null;
 	}
@@ -242,12 +104,12 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TP
 	{
 	}
 }
-[Token(Token = "0x2000143")]
-public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TParam3, TParam4> : InstanceActionInvokerBase<TTarget>
+[Token(Token = "0x2000142")]
+public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1> : InstanceActionInvokerBase<TTarget>
 {
-	[Token(Token = "0x4000819")]
+	[Token(Token = "0x4000814")]
 	[FieldOffset(Offset = "0x0")]
-	private Action<TTarget, TParam0, TParam1, TParam2, TParam3, TParam4> invoke;
+	private Action<TTarget, TParam0, TParam1> invoke;
 
 	[Token(Token = "0x6000D6C")]
 	public InstanceActionInvoker(MethodInfo methodInfo)
@@ -261,13 +123,13 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TP
 	}
 
 	[Token(Token = "0x6000D6E")]
-	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
+	public override object Invoke(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000D6F")]
-	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
+	public object InvokeUnsafe(object target, object arg0, object arg1)
 	{
 		return null;
 	}
@@ -284,6 +146,144 @@ public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TP
 	}
 
 	[Token(Token = "0x6000D72")]
+	protected override void CreateDelegate()
+	{
+	}
+}
+[Token(Token = "0x2000143")]
+public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2> : InstanceActionInvokerBase<TTarget>
+{
+	[Token(Token = "0x4000815")]
+	[FieldOffset(Offset = "0x0")]
+	private Action<TTarget, TParam0, TParam1, TParam2> invoke;
+
+	[Token(Token = "0x6000D73")]
+	public InstanceActionInvoker(MethodInfo methodInfo)
+	{
+	}
+
+	[Token(Token = "0x6000D74")]
+	public override object Invoke(object target, params object[] args)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D75")]
+	public override object Invoke(object target, object arg0, object arg1, object arg2)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D76")]
+	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D77")]
+	protected override Type[] GetParameterTypes()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D78")]
+	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
+	{
+	}
+
+	[Token(Token = "0x6000D79")]
+	protected override void CreateDelegate()
+	{
+	}
+}
+[Token(Token = "0x2000144")]
+public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TParam3> : InstanceActionInvokerBase<TTarget>
+{
+	[Token(Token = "0x4000816")]
+	[FieldOffset(Offset = "0x0")]
+	private Action<TTarget, TParam0, TParam1, TParam2, TParam3> invoke;
+
+	[Token(Token = "0x6000D7A")]
+	public InstanceActionInvoker(MethodInfo methodInfo)
+	{
+	}
+
+	[Token(Token = "0x6000D7B")]
+	public override object Invoke(object target, params object[] args)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D7C")]
+	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D7D")]
+	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D7E")]
+	protected override Type[] GetParameterTypes()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D7F")]
+	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
+	{
+	}
+
+	[Token(Token = "0x6000D80")]
+	protected override void CreateDelegate()
+	{
+	}
+}
+[Token(Token = "0x2000145")]
+public sealed class InstanceActionInvoker<TTarget, TParam0, TParam1, TParam2, TParam3, TParam4> : InstanceActionInvokerBase<TTarget>
+{
+	[Token(Token = "0x4000817")]
+	[FieldOffset(Offset = "0x0")]
+	private Action<TTarget, TParam0, TParam1, TParam2, TParam3, TParam4> invoke;
+
+	[Token(Token = "0x6000D81")]
+	public InstanceActionInvoker(MethodInfo methodInfo)
+	{
+	}
+
+	[Token(Token = "0x6000D82")]
+	public override object Invoke(object target, params object[] args)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D83")]
+	public override object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D84")]
+	public object InvokeUnsafe(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D85")]
+	protected override Type[] GetParameterTypes()
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000D86")]
+	protected override void CompileExpression(MethodCallExpression callExpression, ParameterExpression[] parameterExpressions)
+	{
+	}
+
+	[Token(Token = "0x6000D87")]
 	protected override void CreateDelegate()
 	{
 	}

@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000244")]
+[Token(Token = "0x2000274")]
 [Flags]
 internal enum InternalTaskOptions
 {
-	[Token(Token = "0x4000AC6")]
+	[Token(Token = "0x4000B11")]
 	None = 0,
-	[Token(Token = "0x4000AC7")]
+	[Token(Token = "0x4000B12")]
 	InternalOptionsMask = 0xFF00,
-	[Token(Token = "0x4000AC8")]
+	[Token(Token = "0x4000B13")]
 	ContinuationTask = 0x200,
-	[Token(Token = "0x4000AC9")]
+	[Token(Token = "0x4000B14")]
 	PromiseTask = 0x400,
-	[Token(Token = "0x4000ACA")]
+	[Token(Token = "0x4000B15")]
 	LazyCancellation = 0x1000,
-	[Token(Token = "0x4000ACB")]
+	[Token(Token = "0x4000B16")]
 	QueuedByRuntime = 0x2000,
-	[Token(Token = "0x4000ACC")]
+	[Token(Token = "0x4000B17")]
 	DoNotDispose = 0x4000
 }

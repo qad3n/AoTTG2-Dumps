@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.SceneManagement;
 
-[Token(Token = "0x20001FF")]
+[Token(Token = "0x2000250")]
 public enum LoadSceneMode
 {
-	[Token(Token = "0x40006B3")]
+	[Token(Token = "0x400075D")]
 	Single,
-	[Token(Token = "0x40006B4")]
+	[Token(Token = "0x400075E")]
 	Additive
 }

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000007")]
 public enum RenderMode
 {
 	[Token(Token = "0x4000004")]

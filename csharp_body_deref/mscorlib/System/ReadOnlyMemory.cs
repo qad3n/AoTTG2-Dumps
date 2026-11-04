@@ -11,27 +11,27 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000102")]
+[Token(Token = "0x200012A")]
 [DebuggerTypeProxy(typeof(System.MemoryDebugView<>))]
 [DebuggerDisplay("{ToString(),raw}")]
 public readonly struct ReadOnlyMemory<T> : IEquatable<ReadOnlyMemory<T>>
 {
-	[Token(Token = "0x40003B5")]
+	[Token(Token = "0x4000437")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly object _object;
 
-	[Token(Token = "0x40003B6")]
+	[Token(Token = "0x4000438")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _index;
 
-	[Token(Token = "0x40003B7")]
+	[Token(Token = "0x4000439")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly int _length;
 
 	[Token(Token = "0x170000A4")]
 	public int Length
 	{
-		[Token(Token = "0x6000974")]
+		[Token(Token = "0x60009AF")]
 		get
 		{
 			return default(int);
@@ -42,7 +42,7 @@ public readonly struct ReadOnlyMemory<T> : IEquatable<ReadOnlyMemory<T>>
 	public ReadOnlySpan<T> Span
 	{
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000977")]
+		[Token(Token = "0x60009B2")]
 		get
 		{
 			return default(ReadOnlySpan<T>);
@@ -50,74 +50,74 @@ public readonly struct ReadOnlyMemory<T> : IEquatable<ReadOnlyMemory<T>>
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000970")]
+	[Token(Token = "0x60009AB")]
 	public ReadOnlyMemory(T[] array)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000971")]
+	[Token(Token = "0x60009AC")]
 	public ReadOnlyMemory(T[] array, int start, int length)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000972")]
+	[Token(Token = "0x60009AD")]
 	internal ReadOnlyMemory(object obj, int start, int length)
 	{
 	}
 
-	[Token(Token = "0x6000973")]
+	[Token(Token = "0x60009AE")]
 	public static implicit operator ReadOnlyMemory<T>(ArraySegment<T> segment)
 	{
 		return default(ReadOnlyMemory<T>);
 	}
 
-	[Token(Token = "0x6000975")]
+	[Token(Token = "0x60009B0")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6000976")]
+	[Token(Token = "0x60009B1")]
 	public ReadOnlyMemory<T> Slice(int start)
 	{
 		return default(ReadOnlyMemory<T>);
 	}
 
-	[Token(Token = "0x6000978")]
+	[Token(Token = "0x60009B3")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000979")]
+	[Token(Token = "0x60009B4")]
 	public bool Equals(ReadOnlyMemory<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600097A")]
+	[Token(Token = "0x60009B5")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600097B")]
+	[Token(Token = "0x60009B6")]
 	private static int CombineHashCodes(int left, int right)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600097C")]
+	[Token(Token = "0x60009B7")]
 	private static int CombineHashCodes(int h1, int h2, int h3)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600097D")]
+	[Token(Token = "0x60009B8")]
 	internal object GetObjectStartLength(out int start, out int length)
 	{
 		return null;

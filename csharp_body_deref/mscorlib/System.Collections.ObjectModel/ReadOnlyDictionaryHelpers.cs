@@ -10,10 +10,10 @@ using Il2CppDummyDll;
 
 namespace System.Collections.ObjectModel;
 
-[Token(Token = "0x200063B")]
+[Token(Token = "0x200060F")]
 internal static class ReadOnlyDictionaryHelpers
 {
-	[Token(Token = "0x600318A")]
+	[Token(Token = "0x6002E9D")]
 	internal static void CopyToNonGenericICollectionHelper<T>(ICollection<T> collection, Array array, int index)
 	{
 	}

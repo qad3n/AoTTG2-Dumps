@@ -11,88 +11,88 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200017A")]
+[Token(Token = "0x2000280")]
 public sealed class AottgMainMenuPanelHoverSlide : MonoBehaviour
 {
-	[Token(Token = "0x4000846")]
+	[Token(Token = "0x4000CE7")]
 	private const float HoverWidthScale = 1f;
 
-	[Token(Token = "0x4000847")]
+	[Token(Token = "0x4000CE8")]
 	private const float SlideSeconds = 0.22f;
 
-	[Token(Token = "0x4000848")]
+	[Token(Token = "0x4000CE9")]
 	[FieldOffset(Offset = "0x20")]
 	private GisketchUIRoot _root;
 
-	[Token(Token = "0x4000849")]
+	[Token(Token = "0x4000CEA")]
 	[FieldOffset(Offset = "0x28")]
 	private GameObject _panel;
 
-	[Token(Token = "0x400084A")]
+	[Token(Token = "0x4000CEB")]
 	[FieldOffset(Offset = "0x30")]
 	private GameObject _visual;
 
-	[Token(Token = "0x400084B")]
+	[Token(Token = "0x4000CEC")]
 	[FieldOffset(Offset = "0x38")]
 	private Tween _tween;
 
-	[Token(Token = "0x400084C")]
+	[Token(Token = "0x4000CED")]
 	[FieldOffset(Offset = "0x40")]
 	private bool _shown;
 
-	[Token(Token = "0x6000861")]
-	[Address(RVA = "0x43F72F0", Offset = "0x43F72F0", VA = "0x43F72F0")]
+	[Token(Token = "0x6000F15")]
+	[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 	public void Setup(GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x6000862")]
-	[Address(RVA = "0x43F7300", Offset = "0x43F7300", VA = "0x43F7300")]
+	[Token(Token = "0x6000F16")]
+	[Address(RVA = "0x1DE1800", Offset = "0x1DDFE00", VA = "0x181DE1800")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6000863")]
-	[Address(RVA = "0x43F75B0", Offset = "0x43F75B0", VA = "0x43F75B0")]
+	[Token(Token = "0x6000F17")]
+	[Address(RVA = "0x1DE1310", Offset = "0x1DDF910", VA = "0x181DE1310")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000864")]
-	[Address(RVA = "0x43F73C0", Offset = "0x43F73C0", VA = "0x43F73C0")]
+	[Token(Token = "0x6000F18")]
+	[Address(RVA = "0x1DE10D0", Offset = "0x1DDF6D0", VA = "0x181DE10D0")]
 	private bool HoverPanelBand()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000865")]
-	[Address(RVA = "0x43F75E0", Offset = "0x43F75E0", VA = "0x43F75E0")]
+	[Token(Token = "0x6000F19")]
+	[Address(RVA = "0x1DE1350", Offset = "0x1DDF950", VA = "0x181DE1350")]
 	private RectTransform PanelRect()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000866")]
-	[Address(RVA = "0x43F74F0", Offset = "0x43F74F0", VA = "0x43F74F0")]
+	[Token(Token = "0x6000F1A")]
+	[Address(RVA = "0x1DE1600", Offset = "0x1DDFC00", VA = "0x181DE1600")]
 	private void SetShown(bool shown)
 	{
 	}
 
-	[Token(Token = "0x6000867")]
-	[Address(RVA = "0x43F76F0", Offset = "0x43F76F0", VA = "0x43F76F0")]
+	[Token(Token = "0x6000F1B")]
+	[Address(RVA = "0x1DE1460", Offset = "0x1DDFA60", VA = "0x181DE1460")]
 	private GameObject PanelVisual()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000868")]
-	[Address(RVA = "0x43F77A0", Offset = "0x43F77A0", VA = "0x43F77A0")]
+	[Token(Token = "0x6000F1C")]
+	[Address(RVA = "0x1DE1520", Offset = "0x1DDFB20", VA = "0x181DE1520")]
 	private void SetBrushButtonsFaded(bool faded)
 	{
 	}
 
-	[Token(Token = "0x6000869")]
-	[Address(RVA = "0x43F7870", Offset = "0x43F7870", VA = "0x43F7870")]
+	[Token(Token = "0x6000F1D")]
+	[Address(RVA = "0x1DE18D0", Offset = "0x1DDFED0", VA = "0x181DE18D0")]
 	public AottgMainMenuPanelHoverSlide()
 	{
 	}

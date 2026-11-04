@@ -19,8 +19,8 @@ internal sealed class ValueTypeCopyInstruction : Instruction
 	[Token(Token = "0x170001EA")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x6000977")]
-		[Address(RVA = "0x44F68D0", Offset = "0x44F68D0", VA = "0x44F68D0", Slot = "4")]
+		[Token(Token = "0x6000976")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -30,8 +30,8 @@ internal sealed class ValueTypeCopyInstruction : Instruction
 	[Token(Token = "0x170001EB")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000978")]
-		[Address(RVA = "0x44F68E0", Offset = "0x44F68E0", VA = "0x44F68E0", Slot = "5")]
+		[Token(Token = "0x6000977")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -41,23 +41,23 @@ internal sealed class ValueTypeCopyInstruction : Instruction
 	[Token(Token = "0x170001EC")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000979")]
-		[Address(RVA = "0x44F68F0", Offset = "0x44F68F0", VA = "0x44F68F0", Slot = "9")]
+		[Token(Token = "0x6000978")]
+		[Address(RVA = "0x2482CE0", Offset = "0x24812E0", VA = "0x182482CE0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600097A")]
-	[Address(RVA = "0x44F6920", Offset = "0x44F6920", VA = "0x44F6920", Slot = "8")]
+	[Token(Token = "0x6000979")]
+	[Address(RVA = "0x2482C20", Offset = "0x2481220", VA = "0x182482C20", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600097B")]
-	[Address(RVA = "0x44F6970", Offset = "0x44F6970", VA = "0x44F6970")]
+	[Token(Token = "0x600097A")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ValueTypeCopyInstruction()
 	{
 	}

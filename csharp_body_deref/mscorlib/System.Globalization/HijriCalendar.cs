@@ -11,233 +11,233 @@ using Il2CppDummyDll;
 namespace System.Globalization;
 
 [Serializable]
-[Token(Token = "0x20005C0")]
+[Token(Token = "0x2000592")]
 [ComVisible(true)]
 public class HijriCalendar : Calendar
 {
-	[Token(Token = "0x400191C")]
+	[Token(Token = "0x400173D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public static readonly int HijriEra;
 
-	[Token(Token = "0x400191D")]
+	[Token(Token = "0x400173E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	internal static readonly int[] HijriMonthDays;
 
-	[Token(Token = "0x400191E")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
+	[Token(Token = "0x400173F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private int m_HijriAdvance;
 
-	[Token(Token = "0x400191F")]
+	[Token(Token = "0x4001740")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal static readonly DateTime calendarMinValue;
 
-	[Token(Token = "0x4001920")]
+	[Token(Token = "0x4001741")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal static readonly DateTime calendarMaxValue;
 
-	[Token(Token = "0x17000698")]
+	[Token(Token = "0x17000625")]
 	[ComVisible(false)]
 	public override DateTime MinSupportedDateTime
 	{
-		[Token(Token = "0x6002CC8")]
-		[Address(RVA = "0x3C5AB80", Offset = "0x3C5AB80", VA = "0x3C5AB80", Slot = "5")]
+		[Token(Token = "0x60029D5")]
+		[Address(RVA = "0x1AA8AF0", Offset = "0x1AA70F0", VA = "0x181AA8AF0", Slot = "5")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x17000699")]
+	[Token(Token = "0x17000626")]
 	[ComVisible(false)]
 	public override DateTime MaxSupportedDateTime
 	{
-		[Token(Token = "0x6002CC9")]
-		[Address(RVA = "0x3C5ABF0", Offset = "0x3C5ABF0", VA = "0x3C5ABF0", Slot = "6")]
+		[Token(Token = "0x60029D6")]
+		[Address(RVA = "0x1AA8AA0", Offset = "0x1AA70A0", VA = "0x181AA8AA0", Slot = "6")]
 		get
 		{
 			return default(DateTime);
 		}
 	}
 
-	[Token(Token = "0x1700069A")]
+	[Token(Token = "0x17000627")]
 	internal override int ID
 	{
-		[Token(Token = "0x6002CCB")]
-		[Address(RVA = "0x3C5AC70", Offset = "0x3C5AC70", VA = "0x3C5AC70", Slot = "7")]
+		[Token(Token = "0x60029D8")]
+		[Address(RVA = "0x868060", Offset = "0x866660", VA = "0x180868060", Slot = "7")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700069B")]
+	[Token(Token = "0x17000628")]
 	public int HijriAdjustment
 	{
-		[Token(Token = "0x6002CCE")]
-		[Address(RVA = "0x3C5AEC0", Offset = "0x3C5AEC0", VA = "0x3C5AEC0")]
+		[Token(Token = "0x60029DB")]
+		[Address(RVA = "0x1AA8A40", Offset = "0x1AA7040", VA = "0x181AA8A40")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700069C")]
+	[Token(Token = "0x17000629")]
 	public override int[] Eras
 	{
-		[Token(Token = "0x6002CDA")]
-		[Address(RVA = "0x3C5BE20", Offset = "0x3C5BE20", VA = "0x3C5BE20", Slot = "16")]
+		[Token(Token = "0x60029E7")]
+		[Address(RVA = "0x1AA89B0", Offset = "0x1AA6FB0", VA = "0x181AA89B0", Slot = "16")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700069D")]
+	[Token(Token = "0x1700062A")]
 	public override int TwoDigitYearMax
 	{
-		[Token(Token = "0x6002CE0")]
-		[Address(RVA = "0x3C5C220", Offset = "0x3C5C220", VA = "0x3C5C220", Slot = "28")]
+		[Token(Token = "0x60029ED")]
+		[Address(RVA = "0x1AA8B40", Offset = "0x1AA7140", VA = "0x181AA8B40", Slot = "28")]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6002CE1")]
-		[Address(RVA = "0x3C5C260", Offset = "0x3C5C260", VA = "0x3C5C260", Slot = "29")]
+		[Token(Token = "0x60029EE")]
+		[Address(RVA = "0x1AA8BB0", Offset = "0x1AA71B0", VA = "0x181AA8BB0", Slot = "29")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6002CCA")]
-	[Address(RVA = "0x3C5AC60", Offset = "0x3C5AC60", VA = "0x3C5AC60")]
+	[Token(Token = "0x60029D7")]
+	[Address(RVA = "0x1AA8990", Offset = "0x1AA6F90", VA = "0x181AA8990")]
 	public HijriCalendar()
 	{
 	}
 
-	[Token(Token = "0x6002CCC")]
-	[Address(RVA = "0x3C5AC80", Offset = "0x3C5AC80", VA = "0x3C5AC80")]
+	[Token(Token = "0x60029D9")]
+	[Address(RVA = "0x1AA7A50", Offset = "0x1AA6050", VA = "0x181AA7A50")]
 	private long GetAbsoluteDateHijri(int y, int m, int d)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6002CCD")]
-	[Address(RVA = "0x3C5AE00", Offset = "0x3C5AE00", VA = "0x3C5AE00")]
+	[Token(Token = "0x60029DA")]
+	[Address(RVA = "0x1AA7990", Offset = "0x1AA5F90", VA = "0x181AA7990")]
 	private long DaysUpToHijriYear(int HijriYear)
 	{
 		return default(long);
 	}
 
-	[Token(Token = "0x6002CCF")]
-	[Address(RVA = "0x3C5AF30", Offset = "0x3C5AF30", VA = "0x3C5AF30")]
+	[Token(Token = "0x60029DC")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 	private static int GetAdvanceHijriDate()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CD0")]
-	[Address(RVA = "0x3C5AF40", Offset = "0x3C5AF40", VA = "0x3C5AF40")]
+	[Token(Token = "0x60029DD")]
+	[Address(RVA = "0x1AA73F0", Offset = "0x1AA59F0", VA = "0x181AA73F0")]
 	internal static void CheckTicksRange(long ticks)
 	{
 	}
 
-	[Token(Token = "0x6002CD1")]
-	[Address(RVA = "0x3C5B1D0", Offset = "0x3C5B1D0", VA = "0x3C5B1D0")]
+	[Token(Token = "0x60029DE")]
+	[Address(RVA = "0x1AA7320", Offset = "0x1AA5920", VA = "0x181AA7320")]
 	internal static void CheckEraRange(int era)
 	{
 	}
 
-	[Token(Token = "0x6002CD2")]
-	[Address(RVA = "0x3C5B290", Offset = "0x3C5B290", VA = "0x3C5B290")]
+	[Token(Token = "0x60029DF")]
+	[Address(RVA = "0x1AA77B0", Offset = "0x1AA5DB0", VA = "0x181AA77B0")]
 	internal static void CheckYearRange(int year, int era)
 	{
 	}
 
-	[Token(Token = "0x6002CD3")]
-	[Address(RVA = "0x3C5B3E0", Offset = "0x3C5B3E0", VA = "0x3C5B3E0")]
+	[Token(Token = "0x60029E0")]
+	[Address(RVA = "0x1AA75F0", Offset = "0x1AA5BF0", VA = "0x181AA75F0")]
 	internal static void CheckYearMonthRange(int year, int month, int era)
 	{
 	}
 
-	[Token(Token = "0x6002CD4")]
-	[Address(RVA = "0x3C5B540", Offset = "0x3C5B540", VA = "0x3C5B540", Slot = "31")]
+	[Token(Token = "0x60029E1")]
+	[Address(RVA = "0x1AA7B40", Offset = "0x1AA6140", VA = "0x181AA7B40", Slot = "31")]
 	internal virtual int GetDatePart(long ticks, int part)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CD5")]
-	[Address(RVA = "0x3C5BB70", Offset = "0x3C5BB70", VA = "0x3C5BB70", Slot = "11")]
+	[Token(Token = "0x60029E2")]
+	[Address(RVA = "0x1AA7DE0", Offset = "0x1AA63E0", VA = "0x181AA7DE0", Slot = "11")]
 	public override int GetDayOfMonth(DateTime time)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CD6")]
-	[Address(RVA = "0x3C5BBE0", Offset = "0x3C5BBE0", VA = "0x3C5BBE0", Slot = "12")]
+	[Token(Token = "0x60029E3")]
+	[Address(RVA = "0x1AA7E50", Offset = "0x1AA6450", VA = "0x181AA7E50", Slot = "12")]
 	public override DayOfWeek GetDayOfWeek(DateTime time)
 	{
 		return default(DayOfWeek);
 	}
 
-	[Token(Token = "0x6002CD7")]
-	[Address(RVA = "0x3C5BC80", Offset = "0x3C5BC80", VA = "0x3C5BC80", Slot = "13")]
+	[Token(Token = "0x60029E4")]
+	[Address(RVA = "0x1AA7ED0", Offset = "0x1AA64D0", VA = "0x181AA7ED0", Slot = "13")]
 	public override int GetDaysInMonth(int year, int month, int era)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CD8")]
-	[Address(RVA = "0x3C5BD20", Offset = "0x3C5BD20", VA = "0x3C5BD20", Slot = "14")]
+	[Token(Token = "0x60029E5")]
+	[Address(RVA = "0x1AA8120", Offset = "0x1AA6720", VA = "0x181AA8120", Slot = "14")]
 	public override int GetDaysInYear(int year, int era)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CD9")]
-	[Address(RVA = "0x3C5BD90", Offset = "0x3C5BD90", VA = "0x3C5BD90", Slot = "15")]
+	[Token(Token = "0x60029E6")]
+	[Address(RVA = "0x1AA81B0", Offset = "0x1AA67B0", VA = "0x181AA81B0", Slot = "15")]
 	public override int GetEra(DateTime time)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CDB")]
-	[Address(RVA = "0x3C5BEB0", Offset = "0x3C5BEB0", VA = "0x3C5BEB0", Slot = "17")]
+	[Token(Token = "0x60029E8")]
+	[Address(RVA = "0x1AA8240", Offset = "0x1AA6840", VA = "0x181AA8240", Slot = "17")]
 	public override int GetMonth(DateTime time)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CDC")]
-	[Address(RVA = "0x3C5BF20", Offset = "0x3C5BF20", VA = "0x3C5BF20", Slot = "18")]
+	[Token(Token = "0x60029E9")]
+	[Address(RVA = "0x1AA82B0", Offset = "0x1AA68B0", VA = "0x181AA82B0", Slot = "18")]
 	public override int GetMonthsInYear(int year, int era)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CDD")]
-	[Address(RVA = "0x3C5BF70", Offset = "0x3C5BF70", VA = "0x3C5BF70", Slot = "19")]
+	[Token(Token = "0x60029EA")]
+	[Address(RVA = "0x1AA8310", Offset = "0x1AA6910", VA = "0x181AA8310", Slot = "19")]
 	public override int GetYear(DateTime time)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002CDE")]
-	[Address(RVA = "0x3C5BFE0", Offset = "0x3C5BFE0", VA = "0x3C5BFE0", Slot = "21")]
+	[Token(Token = "0x60029EB")]
+	[Address(RVA = "0x1AA8380", Offset = "0x1AA6980", VA = "0x181AA8380", Slot = "21")]
 	public override bool IsLeapYear(int year, int era)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002CDF")]
-	[Address(RVA = "0x3C5C070", Offset = "0x3C5C070", VA = "0x3C5C070", Slot = "23")]
+	[Token(Token = "0x60029EC")]
+	[Address(RVA = "0x1AA8400", Offset = "0x1AA6A00", VA = "0x181AA8400", Slot = "23")]
 	public override DateTime ToDateTime(int year, int month, int day, int hour, int minute, int second, int millisecond, int era)
 	{
 		return default(DateTime);
 	}
 
-	[Token(Token = "0x6002CE2")]
-	[Address(RVA = "0x3C5C360", Offset = "0x3C5C360", VA = "0x3C5C360", Slot = "30")]
+	[Token(Token = "0x60029EF")]
+	[Address(RVA = "0x1AA86D0", Offset = "0x1AA6CD0", VA = "0x181AA86D0", Slot = "30")]
 	public override int ToFourDigitYear(int year)
 	{
 		return default(int);

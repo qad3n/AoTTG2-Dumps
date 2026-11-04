@@ -16,14 +16,14 @@ internal sealed class CastReferenceToEnumInstruction : CastInstruction
 	[FieldOffset(Offset = "0x10")]
 	private readonly Type _t;
 
-	[Token(Token = "0x6000B22")]
-	[Address(RVA = "0x45062F0", Offset = "0x45062F0", VA = "0x45062F0")]
+	[Token(Token = "0x6000B21")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public CastReferenceToEnumInstruction(Type t)
 	{
 	}
 
-	[Token(Token = "0x6000B23")]
-	[Address(RVA = "0x4506320", Offset = "0x4506320", VA = "0x4506320", Slot = "8")]
+	[Token(Token = "0x6000B22")]
+	[Address(RVA = "0x2467DD0", Offset = "0x24663D0", VA = "0x182467DD0", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

@@ -11,30 +11,30 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000042")]
+[Token(Token = "0x2000043")]
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
 public sealed class InspectorAdaptiveWidthAttribute : Attribute
 {
-	[Token(Token = "0x17000065")]
+	[Token(Token = "0x17000066")]
 	public float width
 	{
-		[Token(Token = "0x60001E9")]
-		[Address(RVA = "0x4CA3AE0", Offset = "0x4CA3AE0", VA = "0x4CA3AE0")]
+		[Token(Token = "0x60001EE")]
+		[Address(RVA = "0x5606A0", Offset = "0x55ECA0", VA = "0x1805606A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60001EA")]
-		[Address(RVA = "0x4CA3AF0", Offset = "0x4CA3AF0", VA = "0x4CA3AF0")]
+		[Token(Token = "0x60001EF")]
+		[Address(RVA = "0x5606B0", Offset = "0x55ECB0", VA = "0x1805606B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x4CA3AB0", Offset = "0x4CA3AB0", VA = "0x4CA3AB0")]
+	[Token(Token = "0x60001ED")]
+	[Address(RVA = "0x2DB1820", Offset = "0x2DAFE20", VA = "0x182DB1820")]
 	public InspectorAdaptiveWidthAttribute(float width)
 	{
 	}

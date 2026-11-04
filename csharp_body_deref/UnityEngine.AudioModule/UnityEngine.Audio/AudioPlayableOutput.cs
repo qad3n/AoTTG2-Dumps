@@ -12,15 +12,15 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Audio;
 
-[Token(Token = "0x2000015")]
-[UnityEngine.Scripting.RequiredByNativeCode]
+[Token(Token = "0x200002D")]
 [UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/ScriptBindings/AudioPlayableOutput.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/Director/AudioPlayableOutput.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/AudioSource.h")]
 [UnityEngine.Bindings.StaticAccessor("AudioPlayableOutputBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Audio/Public/AudioSource.h")]
 public struct AudioPlayableOutput
 {
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x400004B")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableOutputHandle m_Handle;
 }

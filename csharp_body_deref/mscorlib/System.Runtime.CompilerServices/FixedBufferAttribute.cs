@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000473")]
+[Token(Token = "0x20004A2")]
 [AttributeUsage(AttributeTargets.Field, Inherited = false)]
 public sealed class FixedBufferAttribute : Attribute
 {
-	[Token(Token = "0x1700046D")]
+	[Token(Token = "0x17000470")]
 	public Type ElementType
 	{
-		[Token(Token = "0x6002270")]
-		[Address(RVA = "0x3BC0E40", Offset = "0x3BC0E40", VA = "0x3BC0E40")]
+		[Token(Token = "0x60022F0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public sealed class FixedBufferAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x1700046E")]
+	[Token(Token = "0x17000471")]
 	public int Length
 	{
-		[Token(Token = "0x6002271")]
-		[Address(RVA = "0x3BC0E50", Offset = "0x3BC0E50", VA = "0x3BC0E50")]
+		[Token(Token = "0x60022F1")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,8 +37,8 @@ public sealed class FixedBufferAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600226F")]
-	[Address(RVA = "0x3BC0E10", Offset = "0x3BC0E10", VA = "0x3BC0E10")]
+	[Token(Token = "0x60022EF")]
+	[Address(RVA = "0x1A2A540", Offset = "0x1A28B40", VA = "0x181A2A540")]
 	public FixedBufferAttribute(Type elementType, int length)
 	{
 	}

@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001B8")]
+[Token(Token = "0x20002BE")]
 internal readonly struct AottgProfileEntitlementOption
 {
-	[Token(Token = "0x4000969")]
+	[Token(Token = "0x4000E14")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly string Id;
 
-	[Token(Token = "0x400096A")]
+	[Token(Token = "0x4000E15")]
 	[FieldOffset(Offset = "0x8")]
 	public readonly string Label;
 
-	[Token(Token = "0x400096B")]
+	[Token(Token = "0x4000E16")]
 	[FieldOffset(Offset = "0x10")]
 	public readonly string Icon;
 
-	[Token(Token = "0x400096C")]
+	[Token(Token = "0x4000E17")]
 	[FieldOffset(Offset = "0x18")]
 	public readonly bool Enabled;
 
-	[Token(Token = "0x6000A7B")]
-	[Address(RVA = "0x4426B20", Offset = "0x4426B20", VA = "0x4426B20")]
+	[Token(Token = "0x600113B")]
+	[Address(RVA = "0x1E19210", Offset = "0x1E17810", VA = "0x181E19210")]
 	public AottgProfileEntitlementOption(string id, string label, string icon, bool enabled = true)
 	{
 	}

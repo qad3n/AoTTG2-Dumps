@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003CB")]
+[Token(Token = "0x2000475")]
 internal enum Salt
 {
-	[Token(Token = "0x4000B4A")]
+	[Token(Token = "0x4000EAB")]
 	TagNameSalt = 13,
-	[Token(Token = "0x4000B4B")]
+	[Token(Token = "0x4000EAC")]
 	IdSalt = 17,
-	[Token(Token = "0x4000B4C")]
+	[Token(Token = "0x4000EAD")]
 	ClassSalt = 19
 }

@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000044")]
+[Token(Token = "0x2000038")]
 public struct KerningPairKey
 {
-	[Token(Token = "0x4000211")]
+	[Token(Token = "0x400014A")]
 	[FieldOffset(Offset = "0x0")]
 	public uint ascii_Left;
 
-	[Token(Token = "0x4000212")]
+	[Token(Token = "0x400014B")]
 	[FieldOffset(Offset = "0x4")]
 	public uint ascii_Right;
 
-	[Token(Token = "0x4000213")]
+	[Token(Token = "0x400014C")]
 	[FieldOffset(Offset = "0x8")]
 	public uint key;
 
-	[Token(Token = "0x600023C")]
-	[Address(RVA = "0x4C564A0", Offset = "0x4C564A0", VA = "0x4C564A0")]
+	[Token(Token = "0x60001A4")]
+	[Address(RVA = "0x2CF4600", Offset = "0x2CF2C00", VA = "0x182CF4600")]
 	public KerningPairKey(uint ascii_left, uint ascii_right)
 	{
 	}

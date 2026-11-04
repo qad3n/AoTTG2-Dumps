@@ -10,12 +10,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200018D")]
+[Token(Token = "0x20001C7")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class WaitForFixedUpdate : YieldInstruction
 {
-	[Token(Token = "0x6000B55")]
-	[Address(RVA = "0x4E03BA0", Offset = "0x4E03BA0", VA = "0x4E03BA0")]
+	[Token(Token = "0x6000EE5")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public WaitForFixedUpdate()
 	{
 	}

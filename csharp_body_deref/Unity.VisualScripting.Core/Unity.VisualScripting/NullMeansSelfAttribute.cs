@@ -14,8 +14,8 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.All, AllowMultiple = false, Inherited = true)]
 public sealed class NullMeansSelfAttribute : Attribute
 {
-	[Token(Token = "0x6000207")]
-	[Address(RVA = "0x4CA3E70", Offset = "0x4CA3E70", VA = "0x4CA3E70")]
+	[Token(Token = "0x600020B")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NullMeansSelfAttribute()
 	{
 	}

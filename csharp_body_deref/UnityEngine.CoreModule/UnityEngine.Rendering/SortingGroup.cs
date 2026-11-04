@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.Rendering.SortingGroup
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,62 +12,63 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000324")]
-[RequireComponent(typeof(Transform))]
+[Token(Token = "0x2000315")]
 [UnityEngine.Bindings.NativeType(Header = "Runtime/2D/Sorting/SortingGroup.h")]
+[RequireComponent(typeof(Transform))]
 public sealed class SortingGroup : Behaviour
 {
-	[Token(Token = "0x170002BA")]
+	[Token(Token = "0x170002E9")]
 	[UnityEngine.Bindings.StaticAccessor("SortingGroup", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 	internal static extern int invalidSortingGroupID
 	{
 		[MethodImpl((MethodImplOptions)4096)]
-		[Token(Token = "0x600112C")]
-		[Address(RVA = "0x4E366A0", Offset = "0x4E366A0", VA = "0x4E366A0")]
+		[Token(Token = "0x6001273")]
+		[Address(RVA = "0x2F57AE0", Offset = "0x2F560E0", VA = "0x182F57AE0")]
 		get;
 	}
 
-	[Token(Token = "0x170002BB")]
+	[Token(Token = "0x170002EA")]
 	public int sortingLayerID
 	{
-		[Token(Token = "0x600112E")]
-		[Address(RVA = "0x4E36700", Offset = "0x4E36700", VA = "0x4E36700")]
+		[Token(Token = "0x6001275")]
+		[Address(RVA = "0x2F57B50", Offset = "0x2F56150", VA = "0x182F57B50")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170002BC")]
+	[Token(Token = "0x170002EB")]
 	public int sortingOrder
 	{
-		[Token(Token = "0x600112F")]
-		[Address(RVA = "0x4E367D0", Offset = "0x4E367D0", VA = "0x4E367D0")]
+		[Token(Token = "0x6001276")]
+		[Address(RVA = "0x2F57C10", Offset = "0x2F56210", VA = "0x182F57C10")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600112D")]
-	[Address(RVA = "0x4E366D0", Offset = "0x4E366D0", VA = "0x4E366D0")]
+	[Token(Token = "0x6001274")]
+	[Address(RVA = "0x2F57A80", Offset = "0x2F56080", VA = "0x182F57A80")]
 	[UnityEngine.Bindings.StaticAccessor("SortingGroup", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-	internal static extern SortingGroup GetSortingGroupByIndex(int index);
-
-	[Token(Token = "0x6001130")]
-	[Address(RVA = "0x4E368A0", Offset = "0x4E368A0", VA = "0x4E368A0")]
-	public SortingGroup()
+	internal static SortingGroup GetSortingGroupByIndex(int index)
 	{
+		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001131")]
-	[Address(RVA = "0x4E367A0", Offset = "0x4E367A0", VA = "0x4E367A0")]
+	[Token(Token = "0x6001277")]
+	[Address(RVA = "0x2F57A40", Offset = "0x2F56040", VA = "0x182F57A40")]
+	private static extern IntPtr GetSortingGroupByIndex_Injected(int index);
+
+	[MethodImpl((MethodImplOptions)4096)]
+	[Token(Token = "0x6001278")]
+	[Address(RVA = "0x2F57B10", Offset = "0x2F56110", VA = "0x182F57B10")]
 	private static extern int get_sortingLayerID_Injected(IntPtr _unity_self);
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6001132")]
-	[Address(RVA = "0x4E36870", Offset = "0x4E36870", VA = "0x4E36870")]
+	[Token(Token = "0x6001279")]
+	[Address(RVA = "0x2F57BD0", Offset = "0x2F561D0", VA = "0x182F57BD0")]
 	private static extern int get_sortingOrder_Injected(IntPtr _unity_self);
 }

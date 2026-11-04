@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x200014F")]
+[Token(Token = "0x200013D")]
 public interface IOptimizedAccessor
 {
-	[Token(Token = "0x6000DBF")]
+	[Token(Token = "0x6000D52")]
 	void Compile();
 
-	[Token(Token = "0x6000DC0")]
+	[Token(Token = "0x6000D53")]
 	object GetValue(object target);
 
-	[Token(Token = "0x6000DC1")]
+	[Token(Token = "0x6000D54")]
 	void SetValue(object target, object value);
 }

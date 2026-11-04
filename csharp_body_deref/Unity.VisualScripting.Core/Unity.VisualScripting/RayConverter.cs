@@ -16,29 +16,29 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200017F")]
 public class RayConverter : fsDirectConverter<Ray>
 {
-	[Token(Token = "0x6000F48")]
-	[Address(RVA = "0x4D56BC0", Offset = "0x4D56BC0", VA = "0x4D56BC0", Slot = "10")]
+	[Token(Token = "0x6000F52")]
+	[Address(RVA = "0x2E35C00", Offset = "0x2E34200", VA = "0x182E35C00", Slot = "10")]
 	protected override fsResult DoSerialize(Ray model, Dictionary<string, fsData> serialized)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6000F49")]
-	[Address(RVA = "0x4D56CE0", Offset = "0x4D56CE0", VA = "0x4D56CE0", Slot = "11")]
+	[Token(Token = "0x6000F53")]
+	[Address(RVA = "0x2E35950", Offset = "0x2E33F50", VA = "0x182E35950", Slot = "11")]
 	protected override fsResult DoDeserialize(Dictionary<string, fsData> data, ref Ray model)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6000F4A")]
-	[Address(RVA = "0x4D56F70", Offset = "0x4D56F70", VA = "0x4D56F70", Slot = "4")]
+	[Token(Token = "0x6000F54")]
+	[Address(RVA = "0x2E35900", Offset = "0x2E33F00", VA = "0x182E35900", Slot = "4")]
 	public override object CreateInstance(fsData data, Type storageType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F4B")]
-	[Address(RVA = "0x4D56FC0", Offset = "0x4D56FC0", VA = "0x4D56FC0")]
+	[Token(Token = "0x6000F55")]
+	[Address(RVA = "0x2E35D90", Offset = "0x2E34390", VA = "0x182E35D90")]
 	public RayConverter()
 	{
 	}

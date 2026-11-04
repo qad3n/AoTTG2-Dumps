@@ -11,54 +11,54 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200019F")]
+[Token(Token = "0x20002A5")]
 [AottgDialog("profile-change-emote-sticker")]
 public sealed class AottgChangeEmoteStickerDialog : AottgDialog
 {
-	[Token(Token = "0x4000917")]
+	[Token(Token = "0x4000DBE")]
 	public const string Id = "profile-change-emote-sticker";
 
-	[Token(Token = "0x1700014B")]
+	[Token(Token = "0x170001D2")]
 	protected override string Title
 	{
-		[Token(Token = "0x60009D4")]
-		[Address(RVA = "0x4418370", Offset = "0x4418370", VA = "0x4418370", Slot = "4")]
+		[Token(Token = "0x6001091")]
+		[Address(RVA = "0x1E0EC90", Offset = "0x1E0D290", VA = "0x181E0EC90", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700014C")]
+	[Token(Token = "0x170001D3")]
 	protected override string TitleIcon
 	{
-		[Token(Token = "0x60009D5")]
-		[Address(RVA = "0x44183A0", Offset = "0x44183A0", VA = "0x44183A0", Slot = "5")]
+		[Token(Token = "0x6001092")]
+		[Address(RVA = "0x1E0EC60", Offset = "0x1E0D260", VA = "0x181E0EC60", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700014D")]
+	[Token(Token = "0x170001D4")]
 	protected override GisketchLayoutDefinition RootLayout
 	{
-		[Token(Token = "0x60009D6")]
-		[Address(RVA = "0x44183D0", Offset = "0x44183D0", VA = "0x44183D0", Slot = "14")]
+		[Token(Token = "0x6001093")]
+		[Address(RVA = "0x1E0EB30", Offset = "0x1E0D130", VA = "0x181E0EB30", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009D7")]
-	[Address(RVA = "0x44184D0", Offset = "0x44184D0", VA = "0x44184D0", Slot = "19")]
+	[Token(Token = "0x6001094")]
+	[Address(RVA = "0x1E0E920", Offset = "0x1E0CF20", VA = "0x181E0E920", Slot = "20")]
 	protected override void BuildBody(AottgUi body)
 	{
 	}
 
-	[Token(Token = "0x60009D8")]
-	[Address(RVA = "0x4418930", Offset = "0x4418930", VA = "0x4418930")]
+	[Token(Token = "0x6001095")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public AottgChangeEmoteStickerDialog()
 	{
 	}

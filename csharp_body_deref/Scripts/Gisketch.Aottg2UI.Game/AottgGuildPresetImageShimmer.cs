@@ -11,60 +11,60 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x20001A8")]
+[Token(Token = "0x20002AE")]
 internal sealed class AottgGuildPresetImageShimmer : MonoBehaviour
 {
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000DDD")]
 	private const string ShaderName = "UI/AoTTG Guild Image Shimmer";
 
-	[Token(Token = "0x4000937")]
+	[Token(Token = "0x4000DDE")]
 	[FieldOffset(Offset = "0x20")]
 	private Image _source;
 
-	[Token(Token = "0x4000938")]
+	[Token(Token = "0x4000DDF")]
 	[FieldOffset(Offset = "0x28")]
 	private Material _material;
 
-	[Token(Token = "0x4000939")]
+	[Token(Token = "0x4000DE0")]
 	[FieldOffset(Offset = "0x30")]
 	private Material _originalMaterial;
 
-	[Token(Token = "0x400093A")]
+	[Token(Token = "0x4000DE1")]
 	[FieldOffset(Offset = "0x38")]
 	private bool _enabled;
 
-	[Token(Token = "0x60009FB")]
-	[Address(RVA = "0x441AFC0", Offset = "0x441AFC0", VA = "0x441AFC0")]
+	[Token(Token = "0x60010B8")]
+	[Address(RVA = "0x1E13590", Offset = "0x1E11B90", VA = "0x181E13590")]
 	public static void SetEnabled(Image image, bool enabled)
 	{
 	}
 
-	[Token(Token = "0x60009FC")]
-	[Address(RVA = "0x441B0F0", Offset = "0x441B0F0", VA = "0x441B0F0")]
+	[Token(Token = "0x60010B9")]
+	[Address(RVA = "0x1E131B0", Offset = "0x1E117B0", VA = "0x181E131B0")]
 	private void Configure(Image source, bool enabled)
 	{
 	}
 
-	[Token(Token = "0x60009FD")]
-	[Address(RVA = "0x441B270", Offset = "0x441B270", VA = "0x441B270")]
+	[Token(Token = "0x60010BA")]
+	[Address(RVA = "0x1E13370", Offset = "0x1E11970", VA = "0x181E13370")]
 	private void EnsureMaterial()
 	{
 	}
 
-	[Token(Token = "0x60009FE")]
-	[Address(RVA = "0x441B1D0", Offset = "0x441B1D0", VA = "0x441B1D0")]
+	[Token(Token = "0x60010BB")]
+	[Address(RVA = "0x1E134F0", Offset = "0x1E11AF0", VA = "0x181E134F0")]
 	private void RestoreMaterial()
 	{
 	}
 
-	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x441B360", Offset = "0x441B360", VA = "0x441B360")]
+	[Token(Token = "0x60010BC")]
+	[Address(RVA = "0x1E13460", Offset = "0x1E11A60", VA = "0x181E13460")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x441B3F0", Offset = "0x441B3F0", VA = "0x441B3F0")]
+	[Token(Token = "0x60010BD")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgGuildPresetImageShimmer()
 	{
 	}

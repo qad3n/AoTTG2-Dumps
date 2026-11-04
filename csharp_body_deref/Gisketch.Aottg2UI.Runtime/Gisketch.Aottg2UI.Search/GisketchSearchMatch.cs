@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Search;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200003A")]
 public readonly struct GisketchSearchMatch
 {
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x4000114")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public readonly int Score;
 
-	[Token(Token = "0x40000E6")]
+	[Token(Token = "0x4000115")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	public readonly int DisplayStart;
 
-	[Token(Token = "0x40000E7")]
+	[Token(Token = "0x4000116")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	public readonly int DisplayLength;
 
-	[Token(Token = "0x40000E8")]
+	[Token(Token = "0x4000117")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly string HiddenText;
 
-	[Token(Token = "0x40000E9")]
+	[Token(Token = "0x4000118")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public readonly int[] DisplayIndices;
 
-	[Token(Token = "0x6000182")]
-	[Address(RVA = "0x3A4BE00", Offset = "0x3A4BE00", VA = "0x3A4BE00")]
+	[Token(Token = "0x60001FF")]
+	[Address(RVA = "0x18B1EB0", Offset = "0x18B04B0", VA = "0x1818B1EB0")]
 	public GisketchSearchMatch(int score, int displayStart, int displayLength, string hiddenText, [Optional] int[] displayIndices)
 	{
 	}

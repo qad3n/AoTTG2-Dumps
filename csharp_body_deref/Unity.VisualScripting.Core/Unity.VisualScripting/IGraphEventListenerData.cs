@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000094")]
 public interface IGraphEventListenerData : IGraphData
 {
-	[Token(Token = "0x170000FA")]
+	[Token(Token = "0x170000FD")]
 	bool isListening
 	{
-		[Token(Token = "0x600041B")]
+		[Token(Token = "0x6000425")]
 		get;
 	}
 }

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace UnityEngine.TextCore.Text;
 
 [Serializable]
-[Token(Token = "0x2000002")]
+[Token(Token = "0x200001A")]
 public class Character : TextElement
 {
-	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x4EA6920", Offset = "0x4EA6920", VA = "0x4EA6920")]
+	[Token(Token = "0x6000054")]
+	[Address(RVA = "0x3003180", Offset = "0x3001780", VA = "0x183003180")]
 	public Character()
 	{
 	}
 
-	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x4EA6960", Offset = "0x4EA6960", VA = "0x4EA6960")]
+	[Token(Token = "0x6000055")]
+	[Address(RVA = "0x30031B0", Offset = "0x30017B0", VA = "0x1830031B0")]
 	public Character(uint unicode, FontAsset fontAsset, Glyph glyph)
 	{
 	}
 
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4EA6A10", Offset = "0x4EA6A10", VA = "0x4EA6A10")]
+	[Token(Token = "0x6000056")]
+	[Address(RVA = "0x3003100", Offset = "0x3001700", VA = "0x183003100")]
 	internal Character(uint unicode, uint glyphIndex)
 	{
 	}

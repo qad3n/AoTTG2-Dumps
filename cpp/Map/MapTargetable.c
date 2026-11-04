@@ -1,5 +1,5 @@
 // Type: Map.MapTargetable
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapTargetable.cs
@@ -8,29 +8,29 @@
 
 // Map.MapTargetable$$get_GameObject
 // il2cpp: UnityEngine_GameObject_o* Map_MapTargetable__get_GameObject (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b6570
+// 0x181edab30
 
 UnityEngine_GameObject_o * Map_MapTargetable__get_GameObject(Map_MapTargetable_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_GameObject_o *pUVar1;
   UnityEngine_Transform_o *__this_00;
+  UnityEngine_GameObject_o *pUVar1;
   
   __this_00 = (__this->fields)._transform;
   if (__this_00 != (UnityEngine_Transform_o *)0x0) {
     pUVar1 = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this_00,(MethodInfo *)0x0);
     return pUVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  return (UnityEngine_GameObject_o *)((UnityEngine_Component_Fields *)&__this_00[1].fields)->m_CachedPtr;
+  ThrowNullReferenceException();
 }
 
 
 // Map.MapTargetable$$get_Team
 // il2cpp: System_String_o* Map_MapTargetable__get_Team (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b6590
+// 0x180584c80
 
-System_String_o * Map_MapTargetable__get_Team(Map_MapTargetable_o *__this,MethodInfo *method)
+System_String_o*
+Map_MapTargetable__get_Team(Map_MapTargetable_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Team_k__BackingField;
@@ -39,121 +39,138 @@ System_String_o * Map_MapTargetable__get_Team(Map_MapTargetable_o *__this,Method
 
 // Map.MapTargetable$$set_Team
 // il2cpp: void Map_MapTargetable__set_Team (Map_MapTargetable_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x40b65a0
+// 0x180584ca0
 
-void Map_MapTargetable__set_Team(Map_MapTargetable_o *__this,System_String_o *value,MethodInfo *method)
+void
+Map_MapTargetable__set_Team(Map_MapTargetable_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Team_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Team_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Team_k__BackingField,value);
   return;
 }
 
 
 // Map.MapTargetable$$get_Enabled
 // il2cpp: bool Map_MapTargetable__get_Enabled (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b65b0
+// 0x180acdd00
 
-bool_conflict Map_MapTargetable__get_Enabled(Map_MapTargetable_o *__this,MethodInfo *method)
+bool
+Map_MapTargetable__get_Enabled(Map_MapTargetable_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),(char)(__this->fields)._Enabled_k__BackingField);
+  return (__this->fields)._Enabled_k__BackingField;
 }
 
 
 // Map.MapTargetable$$set_Enabled
 // il2cpp: void Map_MapTargetable__set_Enabled (Map_MapTargetable_o* __this, bool value, const MethodInfo* method);
-// 0x40b65c0
+// 0x180ace1a0
 
-void Map_MapTargetable__set_Enabled(Map_MapTargetable_o *__this,bool_conflict value,MethodInfo *method)
+void
+Map_MapTargetable__set_Enabled(Map_MapTargetable_o* __this, bool value, MethodInfo* method)
 
 {
-  *(char *)&(__this->fields)._Enabled_k__BackingField = (char)value;
+  (__this->fields)._Enabled_k__BackingField = value;
   return;
 }
 
 
 // Map.MapTargetable$$.ctor
 // il2cpp: void Map_MapTargetable___ctor (Map_MapTargetable_o* __this, UnityEngine_Transform_o* transform, UnityEngine_Vector3_o center, System_String_o* team, const MethodInfo* method);
-// 0x40b65d0
+// 0x181edaad0
 
 void Map_MapTargetable___ctor
-               (Map_MapTargetable_o *__this,UnityEngine_Transform_o *transform,UnityEngine_Vector3_o center,
+               (Map_MapTargetable_o *__this,UnityEngine_Transform_o *transform,UnityEngine_Vector3_o *center,
                System_String_o *team,MethodInfo *method)
 
 {
-  *(undefined1 *)&(__this->fields)._Enabled_k__BackingField = 1;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  float fVar1;
+  float fVar2;
+  
+  (__this->fields)._Enabled_k__BackingField = true;
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields)._transform = transform;
-  il2cpp_runtime_helper_022b4080(&__this->fields,transform);
-  (__this->fields)._center.fields.x = (float)(int)center.fields._0_8_;
-  (__this->fields)._center.fields.y = (float)(int)((ulong)center.fields._0_8_ >> 0x20);
-  (__this->fields)._center.fields.z = center.fields.z;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._transform,transform);
+  fVar2 = (center->fields).y;
+  fVar1 = (center->fields).z;
+  (__this->fields)._center.fields.x = (center->fields).x;
+  (__this->fields)._center.fields.y = fVar2;
+  (__this->fields)._center.fields.z = fVar1;
   (__this->fields)._Team_k__BackingField = team;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Team_k__BackingField,team);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Team_k__BackingField,team);
   return;
 }
 
 
 // Map.MapTargetable$$ValidTarget
 // il2cpp: bool Map_MapTargetable__ValidTarget (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b6640
+// 0x181edaa70
 
-bool_conflict Map_MapTargetable__ValidTarget(Map_MapTargetable_o *__this,MethodInfo *method)
+bool Map_MapTargetable__ValidTarget(Map_MapTargetable_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Transform_o *x;
-  bool_conflict bVar1;
+  bool bVar1;
   
-  if (g_data_057ac4f1 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ac4f1 = '\x01';
+  if (Il2CppMethodInitialized_184345123 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184345123 = '\x01';
   }
-  if ((char)(__this->fields)._Enabled_k__BackingField != '\0') {
-    x = (__this->fields)._transform;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar1 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    return bVar1;
+  if ((__this->fields)._Enabled_k__BackingField == false) {
+    return false;
   }
-  return 0;
+  x = (__this->fields)._transform;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  return bVar1;
 }
 
 
 // Map.MapTargetable$$GetPosition
 // il2cpp: UnityEngine_Vector3_o Map_MapTargetable__GetPosition (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b66a0
+// 0x181edaa10
 
-UnityEngine_Vector3_o Map_MapTargetable__GetPosition(Map_MapTargetable_o *__this,MethodInfo *method)
+UnityEngine_Vector3_o *
+Map_MapTargetable__GetPosition
+          (UnityEngine_Vector3_o *__return_storage_ptr__,Map_MapTargetable_o *__this,MethodInfo *method)
 
 {
+  float fVar1;
   UnityEngine_Transform_o *__this_00;
-  float in_XMM1_Da;
-  UnityEngine_Vector3_Fields UVar1;
-  UnityEngine_Vector3_o UVar2;
+  float fVar2;
+  UnityEngine_Vector3_o *pUVar3;
+  UnityEngine_Vector3_Fields local_28;
+  UnityEngine_Vector3_o local_18;
   
   __this_00 = (__this->fields)._transform;
   if (__this_00 != (UnityEngine_Transform_o *)0x0) {
-    UVar1 = (UnityEngine_Vector3_Fields)
-            UnityEngine_Transform__TransformPoint
-                      (__this_00,(UnityEngine_Vector3_o)(__this->fields)._center.fields,(MethodInfo *)0x0);
-    return (UnityEngine_Vector3_o)UVar1;
+    local_28.x = (__this->fields)._center.fields.x;
+    local_28.y = (__this->fields)._center.fields.y;
+    local_28.z = (__this->fields)._center.fields.z;
+    pUVar3 = UnityEngine_Transform__TransformPoint
+                       (&local_18,__this_00,(UnityEngine_Vector3_o *)&local_28,(MethodInfo *)0x0);
+    fVar2 = (pUVar3->fields).y;
+    fVar1 = (pUVar3->fields).z;
+    (__return_storage_ptr__->fields).x = (pUVar3->fields).x;
+    (__return_storage_ptr__->fields).y = fVar2;
+    (__return_storage_ptr__->fields).z = fVar1;
+    return __return_storage_ptr__;
   }
-  UVar2.fields._0_8_ = il2cpp_runtime_helper_022b2c90();
-  UVar2.fields.z = in_XMM1_Da;
-  return (UnityEngine_Vector3_o)UVar2.fields;
+  ThrowNullReferenceException();
 }
 
 
 // Map.MapTargetable$$GetTeam
 // il2cpp: System_String_o* Map_MapTargetable__GetTeam (Map_MapTargetable_o* __this, const MethodInfo* method);
-// 0x40b66d0
+// 0x180584c80
 
-System_String_o * Map_MapTargetable__GetTeam(Map_MapTargetable_o *__this,MethodInfo *method)
+System_String_o*
+Map_MapTargetable__GetTeam(Map_MapTargetable_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Team_k__BackingField;

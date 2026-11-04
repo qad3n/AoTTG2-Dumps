@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004CA")]
+[Token(Token = "0x20005D2")]
 internal class ShaderInfoStorageRGBAFloat : ShaderInfoStorage<Color>
 {
-	[Token(Token = "0x4000F7C")]
+	[Token(Token = "0x4001592")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Func<Color, Color> s_Convert;
 
-	[Token(Token = "0x6001DC1")]
-	[Address(RVA = "0x4FA61F0", Offset = "0x4FA61F0", VA = "0x4FA61F0")]
+	[Token(Token = "0x6002B47")]
+	[Address(RVA = "0x31AFE60", Offset = "0x31AE460", VA = "0x1831AFE60")]
 	public ShaderInfoStorageRGBAFloat(int initialSize = 64, int maxSize = 4096)
 	{
 	}

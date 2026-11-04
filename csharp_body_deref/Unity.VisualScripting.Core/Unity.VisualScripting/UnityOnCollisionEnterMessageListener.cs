@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnCollisionEnterMessageListener : MessageListener
 {
-	[Token(Token = "0x6000429")]
-	[Address(RVA = "0x4CB5B70", Offset = "0x4CB5B70", VA = "0x4CB5B70")]
+	[Token(Token = "0x6000433")]
+	[Address(RVA = "0x2DBD900", Offset = "0x2DBBF00", VA = "0x182DBD900")]
 	private void OnCollisionEnter(Collision collision)
 	{
 	}
 
-	[Token(Token = "0x600042A")]
-	[Address(RVA = "0x4CB5C00", Offset = "0x4CB5C00", VA = "0x4CB5C00")]
+	[Token(Token = "0x6000434")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnCollisionEnterMessageListener()
 	{
 	}

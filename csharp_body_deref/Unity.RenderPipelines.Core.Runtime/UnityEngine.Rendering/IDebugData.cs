@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20000C3")]
+[Token(Token = "0x2000093")]
 public interface IDebugData
 {
-	[Token(Token = "0x600073F")]
+	[Token(Token = "0x600067C")]
 	Action GetReset();
 }

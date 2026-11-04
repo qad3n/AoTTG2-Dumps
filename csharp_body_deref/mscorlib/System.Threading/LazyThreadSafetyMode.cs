@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001CD")]
+[Token(Token = "0x20001F8")]
 public enum LazyThreadSafetyMode
 {
-	[Token(Token = "0x4000932")]
+	[Token(Token = "0x4000993")]
 	None,
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000994")]
 	PublicationOnly,
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000995")]
 	ExecutionAndPublication
 }

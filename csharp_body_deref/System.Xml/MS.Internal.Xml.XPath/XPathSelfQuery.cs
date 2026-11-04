@@ -14,26 +14,26 @@ namespace MS.Internal.Xml.XPath;
 internal sealed class XPathSelfQuery : BaseAxisQuery
 {
 	[Token(Token = "0x6001C5D")]
-	[Address(RVA = "0x4785A40", Offset = "0x4785A40", VA = "0x4785A40")]
+	[Address(RVA = "0x26DF270", Offset = "0x26DD870", VA = "0x1826DF270")]
 	public XPathSelfQuery(Query qyInput, string Name, string Prefix, XPathNodeType Type)
 	{
 	}
 
 	[Token(Token = "0x6001C5E")]
-	[Address(RVA = "0x478EC50", Offset = "0x478EC50", VA = "0x478EC50")]
+	[Address(RVA = "0x26DF260", Offset = "0x26DD860", VA = "0x1826DF260")]
 	private XPathSelfQuery(XPathSelfQuery other)
 	{
 	}
 
 	[Token(Token = "0x6001C5F")]
-	[Address(RVA = "0x478EC60", Offset = "0x478EC60", VA = "0x478EC60", Slot = "15")]
+	[Address(RVA = "0x26DF160", Offset = "0x26DD760", VA = "0x1826DF160", Slot = "15")]
 	public override XPathNavigator Advance()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001C60")]
-	[Address(RVA = "0x478ECF0", Offset = "0x478ECF0", VA = "0x478ECF0", Slot = "6")]
+	[Address(RVA = "0x26DF200", Offset = "0x26DD800", VA = "0x1826DF200", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

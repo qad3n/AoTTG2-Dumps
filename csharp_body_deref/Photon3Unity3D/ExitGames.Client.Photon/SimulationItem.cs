@@ -30,14 +30,14 @@ internal class SimulationItem
 	public int Delay
 	{
 		[Token(Token = "0x60000E2")]
-		[Address(RVA = "0x3E6D710", Offset = "0x3E6D710", VA = "0x3E6D710")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60000E3")]
-		[Address(RVA = "0x3E6D720", Offset = "0x3E6D720", VA = "0x3E6D720")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -45,7 +45,7 @@ internal class SimulationItem
 	}
 
 	[Token(Token = "0x60000E1")]
-	[Address(RVA = "0x3E6D690", Offset = "0x3E6D690", VA = "0x3E6D690")]
+	[Address(RVA = "0x1CCDAA0", Offset = "0x1CCC0A0", VA = "0x181CCDAA0")]
 	public SimulationItem()
 	{
 	}

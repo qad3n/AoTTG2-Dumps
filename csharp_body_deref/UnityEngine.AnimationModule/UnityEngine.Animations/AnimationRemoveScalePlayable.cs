@@ -13,12 +13,12 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x2000027")]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationRemoveScalePlayable.h")]
+[Token(Token = "0x2000028")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
 [UnityEngine.Bindings.StaticAccessor("AnimationRemoveScalePlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
-[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationRemoveScalePlayable.bindings.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/Director/AnimationRemoveScalePlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Modules/Animation/ScriptBindings/AnimationRemoveScalePlayable.bindings.h")]
 internal struct AnimationRemoveScalePlayable : IEquatable<AnimationRemoveScalePlayable>
 {
 	[Token(Token = "0x4000063")]
@@ -29,21 +29,21 @@ internal struct AnimationRemoveScalePlayable : IEquatable<AnimationRemoveScalePl
 	[FieldOffset(Offset = "0x0")]
 	private static readonly AnimationRemoveScalePlayable m_NullPlayable;
 
-	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x4DA6DA0", Offset = "0x4DA6DA0", VA = "0x4DA6DA0")]
+	[Token(Token = "0x60000C6")]
+	[Address(RVA = "0x2EAC440", Offset = "0x2EAAA40", VA = "0x182EAC440")]
 	internal AnimationRemoveScalePlayable(PlayableHandle handle)
 	{
 	}
 
-	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x4DA6E90", Offset = "0x4DA6E90", VA = "0x4DA6E90", Slot = "5")]
+	[Token(Token = "0x60000C7")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x4DA6EA0", Offset = "0x4DA6EA0", VA = "0x4DA6EA0", Slot = "4")]
+	[Token(Token = "0x60000C8")]
+	[Address(RVA = "0x2EAC260", Offset = "0x2EAA860", VA = "0x182EAC260", Slot = "4")]
 	public bool Equals(AnimationRemoveScalePlayable other)
 	{
 		return default(bool);

@@ -11,59 +11,59 @@ using Settings;
 
 namespace UI;
 
-[Token(Token = "0x20005A0")]
+[Token(Token = "0x2000713")]
 internal class CharacterEditorHumanCategoryPanel : CharacterEditorCategoryPanel
 {
-	[Token(Token = "0x4001BAF")]
+	[Token(Token = "0x400236C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
 	private CharacterEditorHumanMenu _menu;
 
-	[Token(Token = "0x4001BB0")]
+	[Token(Token = "0x400236D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	private StringSetting _emote;
 
-	[Token(Token = "0x17000B25")]
+	[Token(Token = "0x17000C7D")]
 	protected override string Title
 	{
-		[Token(Token = "0x6003A47")]
-		[Address(RVA = "0x4260C10", Offset = "0x4260C10", VA = "0x4260C10", Slot = "35")]
+		[Token(Token = "0x6004578")]
+		[Address(RVA = "0x21D9B70", Offset = "0x21D8170", VA = "0x1821D9B70", Slot = "35")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000B26")]
+	[Token(Token = "0x17000C7E")]
 	protected override float Height
 	{
-		[Token(Token = "0x6003A48")]
-		[Address(RVA = "0x4260C70", Offset = "0x4260C70", VA = "0x4260C70", Slot = "6")]
+		[Token(Token = "0x6004579")]
+		[Address(RVA = "0x21D9B60", Offset = "0x21D8160", VA = "0x1821D9B60", Slot = "6")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6003A49")]
-	[Address(RVA = "0x4260C80", Offset = "0x4260C80", VA = "0x4260C80", Slot = "20")]
+	[Token(Token = "0x600457A")]
+	[Address(RVA = "0x21D9400", Offset = "0x21D7A00", VA = "0x1821D9400", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003A4A")]
-	[Address(RVA = "0x42612B0", Offset = "0x42612B0", VA = "0x42612B0")]
+	[Token(Token = "0x600457B")]
+	[Address(RVA = "0x21D92B0", Offset = "0x21D78B0", VA = "0x1821D92B0")]
 	private void OnWeaponChanged()
 	{
 	}
 
-	[Token(Token = "0x6003A4B")]
-	[Address(RVA = "0x42613D0", Offset = "0x42613D0", VA = "0x42613D0")]
+	[Token(Token = "0x600457C")]
+	[Address(RVA = "0x21D9250", Offset = "0x21D7850", VA = "0x1821D9250")]
 	private void OnEmote()
 	{
 	}
 
-	[Token(Token = "0x6003A4C")]
-	[Address(RVA = "0x4261430", Offset = "0x4261430", VA = "0x4261430")]
+	[Token(Token = "0x600457D")]
+	[Address(RVA = "0x21D9A80", Offset = "0x21D8080", VA = "0x1821D9A80")]
 	public CharacterEditorHumanCategoryPanel()
 	{
 	}

@@ -16,28 +16,28 @@ namespace DG.Tweening.Plugins.Core;
 internal static class SpecialPluginsUtils
 {
 	[Token(Token = "0x600037B")]
-	[Address(RVA = "0x2377D40", Offset = "0x2377D40", VA = "0x2377D40")]
+	[Address(RVA = "0x5721F0", Offset = "0x5707F0", VA = "0x1805721F0")]
 	internal static bool SetLookAt(TweenerCore<Quaternion, Vector3, QuaternionOptions> t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600037C")]
-	[Address(RVA = "0x237F950", Offset = "0x237F950", VA = "0x237F950")]
+	[Address(RVA = "0x5723C0", Offset = "0x5709C0", VA = "0x1805723C0")]
 	internal static bool SetPunch(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600037D")]
-	[Address(RVA = "0x237FAD0", Offset = "0x237FAD0", VA = "0x237FAD0")]
+	[Address(RVA = "0x5724E0", Offset = "0x570AE0", VA = "0x1805724E0")]
 	internal static bool SetShake(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600037E")]
-	[Address(RVA = "0x237FB00", Offset = "0x237FB00", VA = "0x237FB00")]
+	[Address(RVA = "0x571FA0", Offset = "0x5705A0", VA = "0x180571FA0")]
 	internal static bool SetCameraShakePosition(TweenerCore<Vector3, Vector3[], Vector3ArrayOptions> t)
 	{
 		return default(bool);

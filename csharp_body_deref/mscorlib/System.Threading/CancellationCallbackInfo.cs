@@ -9,57 +9,57 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001E7")]
+[Token(Token = "0x2000212")]
 internal class CancellationCallbackInfo
 {
-	[Token(Token = "0x20001E8")]
+	[Token(Token = "0x2000213")]
 	internal sealed class WithSyncContext : System.Threading.CancellationCallbackInfo
 	{
-		[Token(Token = "0x400097A")]
+		[Token(Token = "0x40009CD")]
 		[FieldOffset(Offset = "0x30")]
 		internal readonly SynchronizationContext TargetSyncContext;
 
-		[Token(Token = "0x60011E3")]
-		[Address(RVA = "0x3D2C770", Offset = "0x3D2C770", VA = "0x3D2C770")]
+		[Token(Token = "0x600123E")]
+		[Address(RVA = "0x18CB310", Offset = "0x18C9910", VA = "0x1818CB310")]
 		internal WithSyncContext(Action<object> callback, object stateForCallback, ExecutionContext targetExecutionContext, CancellationTokenSource cancellationTokenSource, SynchronizationContext targetSyncContext)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000975")]
+	[Token(Token = "0x40009C8")]
 	[FieldOffset(Offset = "0x10")]
 	internal readonly Action<object> Callback;
 
-	[Token(Token = "0x4000976")]
+	[Token(Token = "0x40009C9")]
 	[FieldOffset(Offset = "0x18")]
 	internal readonly object StateForCallback;
 
-	[Token(Token = "0x4000977")]
+	[Token(Token = "0x40009CA")]
 	[FieldOffset(Offset = "0x20")]
 	internal readonly ExecutionContext TargetExecutionContext;
 
-	[Token(Token = "0x4000978")]
+	[Token(Token = "0x40009CB")]
 	[FieldOffset(Offset = "0x28")]
 	internal readonly CancellationTokenSource CancellationTokenSource;
 
-	[Token(Token = "0x4000979")]
+	[Token(Token = "0x40009CC")]
 	[FieldOffset(Offset = "0x0")]
 	private static ContextCallback s_executionContextCallback;
 
-	[Token(Token = "0x60011E0")]
-	[Address(RVA = "0x3D2C700", Offset = "0x3D2C700", VA = "0x3D2C700")]
+	[Token(Token = "0x600123B")]
+	[Address(RVA = "0x1B947D0", Offset = "0x1B92DD0", VA = "0x181B947D0")]
 	internal CancellationCallbackInfo(Action<object> callback, object stateForCallback, ExecutionContext targetExecutionContext, CancellationTokenSource cancellationTokenSource)
 	{
 	}
 
-	[Token(Token = "0x60011E1")]
-	[Address(RVA = "0x3D2CF50", Offset = "0x3D2CF50", VA = "0x3D2CF50")]
+	[Token(Token = "0x600123C")]
+	[Address(RVA = "0x1B943E0", Offset = "0x1B929E0", VA = "0x181B943E0")]
 	internal void ExecuteCallback()
 	{
 	}
 
-	[Token(Token = "0x60011E2")]
-	[Address(RVA = "0x3D2E040", Offset = "0x3D2E040", VA = "0x3D2E040")]
+	[Token(Token = "0x600123D")]
+	[Address(RVA = "0x1B94750", Offset = "0x1B92D50", VA = "0x181B94750")]
 	private static void ExecutionContextCallback(object obj)
 	{
 	}

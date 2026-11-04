@@ -64,13 +64,13 @@ internal class Base64Encoder
 		private ConfiguredTaskAwaitable.ConfiguredTaskAwaiter _003C_003Eu__1;
 
 		[Token(Token = "0x60004F7")]
-		[Address(RVA = "0x3DAA900", Offset = "0x3DAA900", VA = "0x3DAA900", Slot = "4")]
+		[Address(RVA = "0x1C30BA0", Offset = "0x1C2F1A0", VA = "0x181C30BA0", Slot = "4")]
 		private void MoveNext()
 		{
 		}
 
 		[Token(Token = "0x60004F8")]
-		[Address(RVA = "0x3DAAF10", Offset = "0x3DAAF10", VA = "0x3DAAF10", Slot = "5")]
+		[Address(RVA = "0x1C30FF0", Offset = "0x1C2F5F0", VA = "0x181C30FF0", Slot = "5")]
 		[DebuggerHidden]
 		private void SetStateMachine(IAsyncStateMachine stateMachine)
 		{
@@ -100,50 +100,50 @@ internal class Base64Encoder
 	private int _leftOverBytesCount;
 
 	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x3DAA040", Offset = "0x3DAA040", VA = "0x3DAA040")]
+	[Address(RVA = "0x1C17E90", Offset = "0x1C16490", VA = "0x181C17E90")]
 	public Base64Encoder(TextWriter writer)
 	{
 	}
 
 	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x3DAA0D0", Offset = "0x3DAA0D0", VA = "0x3DAA0D0")]
+	[Address(RVA = "0x1C17C90", Offset = "0x1C16290", VA = "0x181C17C90")]
 	private void ValidateEncode(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60004EF")]
-	[Address(RVA = "0x3DAA190", Offset = "0x3DAA190", VA = "0x3DAA190")]
+	[Address(RVA = "0x1C176C0", Offset = "0x1C15CC0", VA = "0x181C176C0")]
 	public void Encode(byte[] buffer, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60004F0")]
-	[Address(RVA = "0x3DAA440", Offset = "0x3DAA440", VA = "0x3DAA440")]
+	[Address(RVA = "0x1C17BC0", Offset = "0x1C161C0", VA = "0x181C17BC0")]
 	private void StoreLeftOverBytes(byte[] buffer, int index, ref int count)
 	{
 	}
 
 	[Token(Token = "0x60004F1")]
-	[Address(RVA = "0x3DAA380", Offset = "0x3DAA380", VA = "0x3DAA380")]
+	[Address(RVA = "0x1C17B30", Offset = "0x1C16130", VA = "0x181C17B30")]
 	private bool FulfillFromLeftover(byte[] buffer, int index, ref int count)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60004F2")]
-	[Address(RVA = "0x3DAA540", Offset = "0x3DAA540", VA = "0x3DAA540")]
+	[Address(RVA = "0x1C17A60", Offset = "0x1C16060", VA = "0x181C17A60")]
 	public void Flush()
 	{
 	}
 
 	[Token(Token = "0x60004F3")]
-	[Address(RVA = "0x3DAA410", Offset = "0x3DAA410", VA = "0x3DAA410")]
+	[Address(RVA = "0x1C17E60", Offset = "0x1C16460", VA = "0x181C17E60")]
 	private void WriteChars(char[] chars, int index, int count)
 	{
 	}
 
 	[Token(Token = "0x60004F4")]
-	[Address(RVA = "0x3DAA5E0", Offset = "0x3DAA5E0", VA = "0x3DAA5E0")]
+	[Address(RVA = "0x1C17590", Offset = "0x1C15B90", VA = "0x181C17590")]
 	[AsyncStateMachine(typeof(_003CEncodeAsync_003Ed__13))]
 	public Task EncodeAsync(byte[] buffer, int index, int count, CancellationToken cancellationToken)
 	{
@@ -151,14 +151,14 @@ internal class Base64Encoder
 	}
 
 	[Token(Token = "0x60004F5")]
-	[Address(RVA = "0x3DAA720", Offset = "0x3DAA720", VA = "0x3DAA720")]
+	[Address(RVA = "0x1C17DF0", Offset = "0x1C163F0", VA = "0x181C17DF0")]
 	private Task WriteCharsAsync(char[] chars, int index, int count, CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60004F6")]
-	[Address(RVA = "0x3DAA790", Offset = "0x3DAA790", VA = "0x3DAA790")]
+	[Address(RVA = "0x1C178C0", Offset = "0x1C15EC0", VA = "0x181C178C0")]
 	public Task FlushAsync(CancellationToken cancellationToken)
 	{
 		return null;

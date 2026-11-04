@@ -11,151 +11,151 @@ using SimpleJSONFixed;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007C8")]
+[Token(Token = "0x2000955")]
 public sealed class AottgApiResult
 {
-	[Token(Token = "0x17000E52")]
+	[Token(Token = "0x17000FB5")]
 	public bool Success
 	{
-		[Token(Token = "0x6004A8F")]
-		[Address(RVA = "0x43CEE10", Offset = "0x43CEE10", VA = "0x43CEE10")]
+		[Token(Token = "0x6005708")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6004A90")]
-		[Address(RVA = "0x43CEE20", Offset = "0x43CEE20", VA = "0x43CEE20")]
+		[Token(Token = "0x6005709")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E53")]
+	[Token(Token = "0x17000FB6")]
 	public long StatusCode
 	{
-		[Token(Token = "0x6004A91")]
-		[Address(RVA = "0x43CEE30", Offset = "0x43CEE30", VA = "0x43CEE30")]
+		[Token(Token = "0x600570A")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6004A92")]
-		[Address(RVA = "0x43CEE40", Offset = "0x43CEE40", VA = "0x43CEE40")]
+		[Token(Token = "0x600570B")]
+		[Address(RVA = "0x111C9B0", Offset = "0x111AFB0", VA = "0x18111C9B0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E54")]
+	[Token(Token = "0x17000FB7")]
 	public string ResponseText
 	{
-		[Token(Token = "0x6004A93")]
-		[Address(RVA = "0x43CEE50", Offset = "0x43CEE50", VA = "0x43CEE50")]
+		[Token(Token = "0x600570C")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004A94")]
-		[Address(RVA = "0x43CEE60", Offset = "0x43CEE60", VA = "0x43CEE60")]
+		[Token(Token = "0x600570D")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E55")]
+	[Token(Token = "0x17000FB8")]
 	public JSONNode Json
 	{
-		[Token(Token = "0x6004A95")]
-		[Address(RVA = "0x43CEE70", Offset = "0x43CEE70", VA = "0x43CEE70")]
+		[Token(Token = "0x600570E")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004A96")]
-		[Address(RVA = "0x43CEE80", Offset = "0x43CEE80", VA = "0x43CEE80")]
+		[Token(Token = "0x600570F")]
+		[Address(RVA = "0x584CA0", Offset = "0x5832A0", VA = "0x180584CA0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E56")]
+	[Token(Token = "0x17000FB9")]
 	public string Error
 	{
-		[Token(Token = "0x6004A97")]
-		[Address(RVA = "0x43CEE90", Offset = "0x43CEE90", VA = "0x43CEE90")]
+		[Token(Token = "0x6005710")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004A98")]
-		[Address(RVA = "0x43CEEA0", Offset = "0x43CEEA0", VA = "0x43CEEA0")]
+		[Token(Token = "0x6005711")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E57")]
+	[Token(Token = "0x17000FBA")]
 	public string RawError
 	{
-		[Token(Token = "0x6004A99")]
-		[Address(RVA = "0x43CEEB0", Offset = "0x43CEEB0", VA = "0x43CEEB0")]
+		[Token(Token = "0x6005712")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004A9A")]
-		[Address(RVA = "0x43CEEC0", Offset = "0x43CEEC0", VA = "0x43CEEC0")]
+		[Token(Token = "0x6005713")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E58")]
+	[Token(Token = "0x17000FBB")]
 	public bool IsCanceled
 	{
-		[Token(Token = "0x6004A9B")]
-		[Address(RVA = "0x43CEED0", Offset = "0x43CEED0", VA = "0x43CEED0")]
+		[Token(Token = "0x6005714")]
+		[Address(RVA = "0xA374E0", Offset = "0xA35AE0", VA = "0x180A374E0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6004A9C")]
-		[Address(RVA = "0x43CEEE0", Offset = "0x43CEEE0", VA = "0x43CEEE0")]
+		[Token(Token = "0x6005715")]
+		[Address(RVA = "0xA374F0", Offset = "0xA35AF0", VA = "0x180A374F0")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6004A9D")]
-	[Address(RVA = "0x43CE2C0", Offset = "0x43CE2C0", VA = "0x43CE2C0")]
+	[Token(Token = "0x6005716")]
+	[Address(RVA = "0x2360950", Offset = "0x235EF50", VA = "0x182360950")]
 	public static AottgApiResult Ok(long statusCode, string responseText, JSONNode json)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004A9E")]
-	[Address(RVA = "0x43CE1F0", Offset = "0x43CE1F0", VA = "0x43CE1F0")]
+	[Token(Token = "0x6005717")]
+	[Address(RVA = "0x2360890", Offset = "0x235EE90", VA = "0x182360890")]
 	public static AottgApiResult Fail(long statusCode, string responseText, string error, string rawError, bool isCanceled = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004A9F")]
-	[Address(RVA = "0x43CEEF0", Offset = "0x43CEEF0", VA = "0x43CEEF0")]
+	[Token(Token = "0x6005718")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public AottgApiResult()
 	{
 	}

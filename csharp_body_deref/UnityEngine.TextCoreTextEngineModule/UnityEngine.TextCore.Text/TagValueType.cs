@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x2000068")]
 internal enum TagValueType
 {
-	[Token(Token = "0x400031A")]
+	[Token(Token = "0x400046E")]
 	None = 0,
-	[Token(Token = "0x400031B")]
+	[Token(Token = "0x400046F")]
 	NumericalValue = 1,
-	[Token(Token = "0x400031C")]
+	[Token(Token = "0x4000470")]
 	StringValue = 2,
-	[Token(Token = "0x400031D")]
+	[Token(Token = "0x4000471")]
 	ColorValue = 4
 }

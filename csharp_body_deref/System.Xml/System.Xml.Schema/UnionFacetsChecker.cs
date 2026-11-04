@@ -14,21 +14,21 @@ namespace System.Xml.Schema;
 internal class UnionFacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x6001254")]
-	[Address(RVA = "0x46ADF50", Offset = "0x46ADF50", VA = "0x46ADF50", Slot = "5")]
+	[Address(RVA = "0x2612120", Offset = "0x2610720", VA = "0x182612120", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001255")]
-	[Address(RVA = "0x46AE030", Offset = "0x46AE030", VA = "0x46AE030", Slot = "17")]
+	[Address(RVA = "0x2604170", Offset = "0x2602770", VA = "0x182604170", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001256")]
-	[Address(RVA = "0x46AE100", Offset = "0x46AE100", VA = "0x46AE100")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public UnionFacetsChecker()
 	{
 	}

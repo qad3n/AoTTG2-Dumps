@@ -22,14 +22,14 @@ public class UnixDateTimeConverter : DateTimeConverterBase
 	public bool AllowPreEpoch
 	{
 		[Token(Token = "0x6000EF8")]
-		[Address(RVA = "0x3E47300", Offset = "0x3E47300", VA = "0x3E47300")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000EF9")]
-		[Address(RVA = "0x3E47310", Offset = "0x3E47310", VA = "0x3E47310")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
@@ -37,25 +37,25 @@ public class UnixDateTimeConverter : DateTimeConverterBase
 	}
 
 	[Token(Token = "0x6000EFA")]
-	[Address(RVA = "0x3E47320", Offset = "0x3E47320", VA = "0x3E47320")]
+	[Address(RVA = "0x1CAF940", Offset = "0x1CADF40", VA = "0x181CAF940")]
 	public UnixDateTimeConverter()
 	{
 	}
 
 	[Token(Token = "0x6000EFB")]
-	[Address(RVA = "0x3E47340", Offset = "0x3E47340", VA = "0x3E47340")]
+	[Address(RVA = "0x1CAF960", Offset = "0x1CADF60", VA = "0x181CAF960")]
 	public UnixDateTimeConverter(bool allowPreEpoch)
 	{
 	}
 
 	[Token(Token = "0x6000EFC")]
-	[Address(RVA = "0x3E47360", Offset = "0x3E47360", VA = "0x3E47360", Slot = "4")]
+	[Address(RVA = "0x1CAF5E0", Offset = "0x1CADBE0", VA = "0x181CAF5E0", Slot = "4")]
 	public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
 	{
 	}
 
 	[Token(Token = "0x6000EFD")]
-	[Address(RVA = "0x3E475A0", Offset = "0x3E475A0", VA = "0x3E475A0", Slot = "5")]
+	[Address(RVA = "0x1CAF110", Offset = "0x1CAD710", VA = "0x181CAF110", Slot = "5")]
 	public override object ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
 	{
 		return null;

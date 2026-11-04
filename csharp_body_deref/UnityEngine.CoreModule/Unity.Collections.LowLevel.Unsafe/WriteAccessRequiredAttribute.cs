@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x200005E")]
+[Token(Token = "0x2000072")]
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Property)]
 public class WriteAccessRequiredAttribute : Attribute
 {
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x4DAD880", Offset = "0x4DAD880", VA = "0x4DAD880")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public WriteAccessRequiredAttribute()
 	{
 	}

@@ -10,78 +10,78 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x200008C")]
+[Token(Token = "0x20000A5")]
 [ExecuteAlways]
 internal sealed class GisketchLayoutOffset : MonoBehaviour
 {
-	[Token(Token = "0x40002DF")]
+	[Token(Token = "0x4000370")]
 	[FieldOffset(Offset = "0x20")]
 	private RectTransform _rect;
 
-	[Token(Token = "0x40002E0")]
+	[Token(Token = "0x4000371")]
 	[FieldOffset(Offset = "0x28")]
 	private Vector2 _layoutOffset;
 
-	[Token(Token = "0x40002E1")]
+	[Token(Token = "0x4000372")]
 	[FieldOffset(Offset = "0x30")]
 	private Vector2 _motionOffset;
 
-	[Token(Token = "0x40002E2")]
+	[Token(Token = "0x4000373")]
 	[FieldOffset(Offset = "0x38")]
 	private Vector2 _basePosition;
 
-	[Token(Token = "0x40002E3")]
+	[Token(Token = "0x4000374")]
 	[FieldOffset(Offset = "0x40")]
 	private Vector2 _lastOffset;
 
-	[Token(Token = "0x40002E4")]
+	[Token(Token = "0x4000375")]
 	[FieldOffset(Offset = "0x48")]
 	private bool _hasBase;
 
-	[Token(Token = "0x1700006E")]
+	[Token(Token = "0x17000099")]
 	public Vector2 MotionOffset
 	{
-		[Token(Token = "0x60003D5")]
-		[Address(RVA = "0x3A736D0", Offset = "0x3A736D0", VA = "0x3A736D0")]
+		[Token(Token = "0x60004EE")]
+		[Address(RVA = "0x18DAD90", Offset = "0x18D9390", VA = "0x1818DAD90")]
 		get
 		{
 			return default(Vector2);
 		}
 	}
 
-	[Token(Token = "0x60003D6")]
-	[Address(RVA = "0x3A736E0", Offset = "0x3A736E0", VA = "0x3A736E0")]
+	[Token(Token = "0x60004EF")]
+	[Address(RVA = "0x18DABC0", Offset = "0x18D91C0", VA = "0x1818DABC0")]
 	public static GisketchLayoutOffset For(RectTransform rect)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003D7")]
-	[Address(RVA = "0x3A73850", Offset = "0x3A73850", VA = "0x3A73850")]
+	[Token(Token = "0x60004F0")]
+	[Address(RVA = "0x18DAD20", Offset = "0x18D9320", VA = "0x1818DAD20")]
 	public void Setup(Vector2 offset)
 	{
 	}
 
-	[Token(Token = "0x60003D8")]
-	[Address(RVA = "0x3A73A20", Offset = "0x3A73A20", VA = "0x3A73A20")]
+	[Token(Token = "0x60004F1")]
+	[Address(RVA = "0x18DAD10", Offset = "0x18D9310", VA = "0x1818DAD10")]
 	public void SetMotionOffset(Vector2 offset)
 	{
 	}
 
-	[Token(Token = "0x60003D9")]
-	[Address(RVA = "0x3A73A30", Offset = "0x3A73A30", VA = "0x3A73A30")]
+	[Token(Token = "0x60004F2")]
+	[Address(RVA = "0x18DAD00", Offset = "0x18D9300", VA = "0x1818DAD00")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x60003DA")]
-	[Address(RVA = "0x3A738B0", Offset = "0x3A738B0", VA = "0x3A738B0")]
+	[Token(Token = "0x60004F3")]
+	[Address(RVA = "0x18DAA30", Offset = "0x18D9030", VA = "0x1818DAA30")]
 	private void Apply()
 	{
 	}
 
-	[Token(Token = "0x60003DB")]
-	[Address(RVA = "0x3A73A40", Offset = "0x3A73A40", VA = "0x3A73A40")]
+	[Token(Token = "0x60004F4")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchLayoutOffset()
 	{
 	}

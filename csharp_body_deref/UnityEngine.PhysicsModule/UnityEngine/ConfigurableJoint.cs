@@ -10,7 +10,8 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000019")]
+[Token(Token = "0x200000C")]
+[RequireComponent(typeof(Rigidbody))]
 [UnityEngine.NativeClass("Unity::ConfigurableJoint")]
 [UnityEngine.Bindings.NativeHeader("Modules/Physics/ConfigurableJoint.h")]
 public class ConfigurableJoint : Joint

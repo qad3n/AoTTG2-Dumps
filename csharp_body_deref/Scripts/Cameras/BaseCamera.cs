@@ -11,47 +11,47 @@ using Utility;
 
 namespace Cameras;
 
-[Token(Token = "0x2000704")]
+[Token(Token = "0x2000883")]
 internal class BaseCamera : MonoBehaviour
 {
-	[Token(Token = "0x40021E3")]
+	[Token(Token = "0x4002A7A")]
 	[FieldOffset(Offset = "0x20")]
 	public Camera Camera;
 
-	[Token(Token = "0x40021E4")]
+	[Token(Token = "0x4002A7B")]
 	[FieldOffset(Offset = "0x28")]
 	public BaseComponentCache Cache;
 
-	[Token(Token = "0x40021E5")]
+	[Token(Token = "0x4002A7C")]
 	[FieldOffset(Offset = "0x30")]
 	public Skybox Skybox;
 
-	[Token(Token = "0x6004568")]
-	[Address(RVA = "0x43757D0", Offset = "0x43757D0", VA = "0x43757D0", Slot = "4")]
+	[Token(Token = "0x60051A0")]
+	[Address(RVA = "0x22EAA90", Offset = "0x22E9090", VA = "0x1822EAA90", Slot = "4")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x6004569")]
-	[Address(RVA = "0x4375B70", Offset = "0x4375B70", VA = "0x4375B70", Slot = "5")]
+	[Token(Token = "0x60051A1")]
+	[Address(RVA = "0x21B9E00", Offset = "0x21B8400", VA = "0x1821B9E00", Slot = "5")]
 	public virtual void OnFinishLoading()
 	{
 	}
 
-	[Token(Token = "0x600456A")]
-	[Address(RVA = "0x4375B90", Offset = "0x4375B90", VA = "0x4375B90", Slot = "6")]
+	[Token(Token = "0x60051A2")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	protected virtual void SetDefaultCameraPosition()
 	{
 	}
 
-	[Token(Token = "0x600456B")]
-	[Address(RVA = "0x4375BA0", Offset = "0x4375BA0", VA = "0x4375BA0", Slot = "7")]
+	[Token(Token = "0x60051A3")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "7")]
 	protected virtual void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x600456C")]
-	[Address(RVA = "0x4375BB0", Offset = "0x4375BB0", VA = "0x4375BB0")]
+	[Token(Token = "0x60051A4")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public BaseCamera()
 	{
 	}

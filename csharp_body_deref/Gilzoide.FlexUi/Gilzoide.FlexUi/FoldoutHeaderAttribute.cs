@@ -12,7 +12,7 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000005")]
 [Conditional("UNITY_EDITOR")]
 [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
 public class FoldoutHeaderAttribute : Attribute
@@ -20,8 +20,8 @@ public class FoldoutHeaderAttribute : Attribute
 	[Token(Token = "0x1700002B")]
 	public string Title
 	{
-		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x3A25F90", Offset = "0x3A25F90", VA = "0x3A25F90")]
+		[Token(Token = "0x600006B")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,8 +29,8 @@ public class FoldoutHeaderAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x3A25FA0", Offset = "0x3A25FA0", VA = "0x3A25FA0")]
+	[Token(Token = "0x600006C")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public FoldoutHeaderAttribute(string title)
 	{
 	}

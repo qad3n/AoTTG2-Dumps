@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TextCore.Text;
 
-[Token(Token = "0x200002B")]
+[Token(Token = "0x2000052")]
 internal struct RichTextTagAttribute
 {
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x400033A")]
 	[FieldOffset(Offset = "0x0")]
 	public int nameHashCode;
 
-	[Token(Token = "0x400020A")]
+	[Token(Token = "0x400033B")]
 	[FieldOffset(Offset = "0x4")]
 	public int valueHashCode;
 
-	[Token(Token = "0x400020B")]
+	[Token(Token = "0x400033C")]
 	[FieldOffset(Offset = "0x8")]
 	public TagValueType valueType;
 
-	[Token(Token = "0x400020C")]
+	[Token(Token = "0x400033D")]
 	[FieldOffset(Offset = "0xC")]
 	public int valueStartIndex;
 
-	[Token(Token = "0x400020D")]
+	[Token(Token = "0x400033E")]
 	[FieldOffset(Offset = "0x10")]
 	public int valueLength;
 
-	[Token(Token = "0x400020E")]
+	[Token(Token = "0x400033F")]
 	[FieldOffset(Offset = "0x14")]
 	public TagUnitType unitType;
 }

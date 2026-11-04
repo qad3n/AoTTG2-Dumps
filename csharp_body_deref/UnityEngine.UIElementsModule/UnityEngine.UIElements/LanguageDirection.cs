@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200045E")]
+[Token(Token = "0x2000534")]
 public enum LanguageDirection
 {
-	[Token(Token = "0x4000D23")]
+	[Token(Token = "0x40011BA")]
 	Inherit,
-	[Token(Token = "0x4000D24")]
+	[Token(Token = "0x40011BB")]
 	LTR,
-	[Token(Token = "0x4000D25")]
+	[Token(Token = "0x40011BC")]
 	RTL
 }

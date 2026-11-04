@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200035A")]
+[Token(Token = "0x20003EF")]
 internal interface IStyleDataGroup<T>
 {
-	[Token(Token = "0x600158E")]
+	[Token(Token = "0x6001D72")]
 	T Copy();
 
-	[Token(Token = "0x600158F")]
+	[Token(Token = "0x6001D73")]
 	void CopyFrom(ref T other);
 }

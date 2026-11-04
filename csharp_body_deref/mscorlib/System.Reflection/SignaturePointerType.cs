@@ -9,71 +9,71 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004F8")]
+[Token(Token = "0x2000528")]
 internal sealed class SignaturePointerType : System.Reflection.SignatureHasElementType
 {
-	[Token(Token = "0x17000503")]
+	[Token(Token = "0x17000506")]
 	public sealed override bool IsSZArray
 	{
-		[Token(Token = "0x60024F2")]
-		[Address(RVA = "0x3BD59F0", Offset = "0x3BD59F0", VA = "0x3BD59F0", Slot = "42")]
+		[Token(Token = "0x6002574")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "42")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000504")]
+	[Token(Token = "0x17000507")]
 	public sealed override bool IsVariableBoundArray
 	{
-		[Token(Token = "0x60024F3")]
-		[Address(RVA = "0x3BD5A00", Offset = "0x3BD5A00", VA = "0x3BD5A00", Slot = "43")]
+		[Token(Token = "0x6002575")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "43")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000505")]
+	[Token(Token = "0x17000508")]
 	protected sealed override string Suffix
 	{
-		[Token(Token = "0x60024F5")]
-		[Address(RVA = "0x3BD5A60", Offset = "0x3BD5A60", VA = "0x3BD5A60", Slot = "134")]
+		[Token(Token = "0x6002577")]
+		[Address(RVA = "0x1A56300", Offset = "0x1A54900", VA = "0x181A56300", Slot = "136")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60024EE")]
-	[Address(RVA = "0x3BD5970", Offset = "0x3BD5970", VA = "0x3BD5970")]
+	[Token(Token = "0x6002570")]
+	[Address(RVA = "0x1A55A50", Offset = "0x1A54050", VA = "0x181A55A50")]
 	internal SignaturePointerType(System.Reflection.SignatureType elementType)
 	{
 	}
 
-	[Token(Token = "0x60024EF")]
-	[Address(RVA = "0x3BD59C0", Offset = "0x3BD59C0", VA = "0x3BD59C0", Slot = "32")]
+	[Token(Token = "0x6002571")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "32")]
 	protected sealed override bool IsArrayImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024F0")]
-	[Address(RVA = "0x3BD59D0", Offset = "0x3BD59D0", VA = "0x3BD59D0", Slot = "34")]
+	[Token(Token = "0x6002572")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "34")]
 	protected sealed override bool IsByRefImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024F1")]
-	[Address(RVA = "0x3BD59E0", Offset = "0x3BD59E0", VA = "0x3BD59E0", Slot = "36")]
+	[Token(Token = "0x6002573")]
+	[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "36")]
 	protected sealed override bool IsPointerImpl()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024F4")]
-	[Address(RVA = "0x3BD5A10", Offset = "0x3BD5A10", VA = "0x3BD5A10", Slot = "48")]
+	[Token(Token = "0x6002576")]
+	[Address(RVA = "0x1A562B0", Offset = "0x1A548B0", VA = "0x181A562B0", Slot = "48")]
 	public sealed override int GetArrayRank()
 	{
 		return default(int);

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200002D")]
 public enum JoinMode : byte
 {
-	[Token(Token = "0x4000185")]
+	[Token(Token = "0x4000180")]
 	Default,
-	[Token(Token = "0x4000186")]
+	[Token(Token = "0x4000181")]
 	CreateIfNotExists,
-	[Token(Token = "0x4000187")]
+	[Token(Token = "0x4000182")]
 	JoinOrRejoin,
-	[Token(Token = "0x4000188")]
+	[Token(Token = "0x4000183")]
 	RejoinOnly
 }

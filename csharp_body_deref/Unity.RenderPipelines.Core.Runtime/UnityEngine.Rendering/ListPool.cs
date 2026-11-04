@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x2000055")]
 public static class ListPool<T>
 {
-	[Token(Token = "0x4000223")]
+	[Token(Token = "0x4000144")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ObjectPool<List<T>> s_Pool;
 
-	[Token(Token = "0x6000616")]
+	[Token(Token = "0x600052D")]
 	public static List<T> Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000617")]
+	[Token(Token = "0x600052E")]
 	public static ObjectPool<List<T>>.PooledObject Get(out List<T> value)
 	{
 		return default(ObjectPool<List<T>>.PooledObject);
 	}
 
-	[Token(Token = "0x6000618")]
+	[Token(Token = "0x600052F")]
 	public static void Release(List<T> toRelease)
 	{
 	}

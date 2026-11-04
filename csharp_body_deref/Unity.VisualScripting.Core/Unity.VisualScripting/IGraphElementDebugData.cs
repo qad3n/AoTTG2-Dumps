@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000082")]
 public interface IGraphElementDebugData
 {
-	[Token(Token = "0x170000E8")]
+	[Token(Token = "0x170000EB")]
 	Exception runtimeException
 	{
-		[Token(Token = "0x60003DE")]
+		[Token(Token = "0x60003E8")]
 		get;
-		[Token(Token = "0x60003DF")]
+		[Token(Token = "0x60003E9")]
 		set;
 	}
 }

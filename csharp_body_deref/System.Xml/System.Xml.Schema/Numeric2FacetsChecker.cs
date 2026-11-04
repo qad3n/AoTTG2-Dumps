@@ -14,42 +14,42 @@ namespace System.Xml.Schema;
 internal class Numeric2FacetsChecker : FacetsChecker
 {
 	[Token(Token = "0x600122E")]
-	[Address(RVA = "0x486EEA0", Offset = "0x486EEA0", VA = "0x486EEA0", Slot = "5")]
+	[Address(RVA = "0x27ADD30", Offset = "0x27AC330", VA = "0x1827ADD30", Slot = "5")]
 	internal override Exception CheckValueFacets(object value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x600122F")]
-	[Address(RVA = "0x486EF10", Offset = "0x486EF10", VA = "0x486EF10", Slot = "11")]
+	[Address(RVA = "0x27AD9F0", Offset = "0x27ABFF0", VA = "0x1827AD9F0", Slot = "11")]
 	internal override Exception CheckValueFacets(double value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001230")]
-	[Address(RVA = "0x486F370", Offset = "0x486F370", VA = "0x486F370", Slot = "12")]
+	[Address(RVA = "0x27ADD10", Offset = "0x27AC310", VA = "0x1827ADD10", Slot = "12")]
 	internal override Exception CheckValueFacets(float value, XmlSchemaDatatype datatype)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001231")]
-	[Address(RVA = "0x486F390", Offset = "0x486F390", VA = "0x486F390", Slot = "17")]
+	[Address(RVA = "0x27ADE50", Offset = "0x27AC450", VA = "0x1827ADE50", Slot = "17")]
 	internal override bool MatchEnumeration(object value, ArrayList enumeration, XmlSchemaDatatype datatype)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001232")]
-	[Address(RVA = "0x486F2A0", Offset = "0x486F2A0", VA = "0x486F2A0")]
+	[Address(RVA = "0x27ADDB0", Offset = "0x27AC3B0", VA = "0x1827ADDB0")]
 	private bool MatchEnumeration(double value, ArrayList enumeration, XmlValueConverter valueConverter)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001233")]
-	[Address(RVA = "0x48558C0", Offset = "0x48558C0", VA = "0x48558C0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public Numeric2FacetsChecker()
 	{
 	}

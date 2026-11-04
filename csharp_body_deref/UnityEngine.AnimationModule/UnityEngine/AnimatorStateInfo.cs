@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000012")]
+[Token(Token = "0x2000013")]
 [UnityEngine.Bindings.NativeHeader("Modules/Animation/AnimatorInfo.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public struct AnimatorStateInfo
@@ -55,23 +55,23 @@ public struct AnimatorStateInfo
 	[Token(Token = "0x1700000E")]
 	public float normalizedTime
 	{
-		[Token(Token = "0x600004D")]
-		[Address(RVA = "0x4DA3AD0", Offset = "0x4DA3AD0", VA = "0x4DA3AD0")]
+		[Token(Token = "0x6000059")]
+		[Address(RVA = "0x2EAE460", Offset = "0x2EACA60", VA = "0x182EAE460")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x600004C")]
-	[Address(RVA = "0x4DA3A50", Offset = "0x4DA3A50", VA = "0x4DA3A50")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x2EAE3F0", Offset = "0x2EAC9F0", VA = "0x182EAE3F0")]
 	public bool IsName(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x4DA3AE0", Offset = "0x4DA3AE0", VA = "0x4DA3AE0")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x2EAE430", Offset = "0x2EACA30", VA = "0x182EAE430")]
 	public bool IsTag(string tag)
 	{
 		return default(bool);

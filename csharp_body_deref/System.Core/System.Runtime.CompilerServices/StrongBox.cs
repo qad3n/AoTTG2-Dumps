@@ -19,23 +19,23 @@ public class StrongBox<T> : IStrongBox
 	[Token(Token = "0x1700025C")]
 	private object System_002ERuntime_002ECompilerServices_002EIStrongBox_002EValue
 	{
-		[Token(Token = "0x6000BA2")]
+		[Token(Token = "0x6000BA1")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000BA3")]
+		[Token(Token = "0x6000BA2")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000BA0")]
+	[Token(Token = "0x6000B9F")]
 	public StrongBox()
 	{
 	}
 
-	[Token(Token = "0x6000BA1")]
+	[Token(Token = "0x6000BA0")]
 	public StrongBox(T value)
 	{
 	}

@@ -7,34 +7,36 @@
 // ===============================================================
 using System;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine.UIElements;
 
 [Serializable]
-[Token(Token = "0x2000458")]
+[Token(Token = "0x200052E")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.VectorGraphicsModule", "UnityEditor.VectorGraphicsModule" })]
 internal struct VectorImageVertex
 {
-	[Token(Token = "0x4000CF7")]
+	[Token(Token = "0x4001184")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector3 position;
 
-	[Token(Token = "0x4000CF8")]
+	[Token(Token = "0x4001185")]
 	[FieldOffset(Offset = "0xC")]
 	public Color32 tint;
 
-	[Token(Token = "0x4000CF9")]
+	[Token(Token = "0x4001186")]
 	[FieldOffset(Offset = "0x10")]
 	public Vector2 uv;
 
-	[Token(Token = "0x4000CFA")]
+	[Token(Token = "0x4001187")]
 	[FieldOffset(Offset = "0x18")]
 	public uint settingIndex;
 
-	[Token(Token = "0x4000CFB")]
+	[Token(Token = "0x4001188")]
 	[FieldOffset(Offset = "0x1C")]
 	public Color32 flags;
 
-	[Token(Token = "0x4000CFC")]
+	[Token(Token = "0x4001189")]
 	[FieldOffset(Offset = "0x20")]
 	public Vector4 circle;
 }

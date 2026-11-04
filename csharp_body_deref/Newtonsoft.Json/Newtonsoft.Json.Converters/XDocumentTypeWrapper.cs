@@ -21,7 +21,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string Name
 	{
 		[Token(Token = "0x6000F5B")]
-		[Address(RVA = "0x3E49A50", Offset = "0x3E49A50", VA = "0x3E49A50", Slot = "23")]
+		[Address(RVA = "0x1CB0D40", Offset = "0x1CAF340", VA = "0x181CB0D40", Slot = "23")]
 		get
 		{
 			return null;
@@ -32,7 +32,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? System
 	{
 		[Token(Token = "0x6000F5C")]
-		[Address(RVA = "0x3E49A70", Offset = "0x3E49A70", VA = "0x3E49A70", Slot = "24")]
+		[Address(RVA = "0x1CB0D80", Offset = "0x1CAF380", VA = "0x181CB0D80", Slot = "24")]
 		get
 		{
 			return null;
@@ -43,7 +43,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? Public
 	{
 		[Token(Token = "0x6000F5D")]
-		[Address(RVA = "0x3E49A90", Offset = "0x3E49A90", VA = "0x3E49A90", Slot = "25")]
+		[Address(RVA = "0x1CB0D60", Offset = "0x1CAF360", VA = "0x181CB0D60", Slot = "25")]
 		get
 		{
 			return null;
@@ -54,7 +54,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public string? InternalSubset
 	{
 		[Token(Token = "0x6000F5E")]
-		[Address(RVA = "0x3E49AB0", Offset = "0x3E49AB0", VA = "0x3E49AB0", Slot = "26")]
+		[Address(RVA = "0x1CB0CF0", Offset = "0x1CAF2F0", VA = "0x181CB0CF0", Slot = "26")]
 		get
 		{
 			return null;
@@ -65,7 +65,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	public override string? LocalName
 	{
 		[Token(Token = "0x6000F5F")]
-		[Address(RVA = "0x3E49AD0", Offset = "0x3E49AD0", VA = "0x3E49AD0", Slot = "15")]
+		[Address(RVA = "0x1CB0D10", Offset = "0x1CAF310", VA = "0x181CB0D10", Slot = "15")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType, IXmlNode
 	}
 
 	[Token(Token = "0x6000F5A")]
-	[Address(RVA = "0x3E49A10", Offset = "0x3E49A10", VA = "0x3E49A10")]
+	[Address(RVA = "0x1CB0CA0", Offset = "0x1CAF2A0", VA = "0x181CB0CA0")]
 	public XDocumentTypeWrapper(XDocumentType documentType)
 	{
 	}

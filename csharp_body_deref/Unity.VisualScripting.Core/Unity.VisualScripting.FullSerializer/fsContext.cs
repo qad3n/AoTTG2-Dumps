@@ -11,38 +11,38 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001FD")]
+[Token(Token = "0x2000204")]
 public sealed class fsContext
 {
-	[Token(Token = "0x4000986")]
+	[Token(Token = "0x4000996")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly Dictionary<Type, object> _contextObjects;
 
-	[Token(Token = "0x600120A")]
-	[Address(RVA = "0x4D7AEA0", Offset = "0x4D7AEA0", VA = "0x4D7AEA0")]
+	[Token(Token = "0x6001242")]
+	[Address(RVA = "0x2E5EF00", Offset = "0x2E5D500", VA = "0x182E5EF00")]
 	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x600120B")]
+	[Token(Token = "0x6001243")]
 	public void Set<T>(T obj)
 	{
 	}
 
-	[Token(Token = "0x600120C")]
+	[Token(Token = "0x6001244")]
 	public bool Has<T>()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600120D")]
+	[Token(Token = "0x6001245")]
 	public T Get<T>()
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600120E")]
-	[Address(RVA = "0x4D7AEE0", Offset = "0x4D7AEE0", VA = "0x4D7AEE0")]
+	[Token(Token = "0x6001246")]
+	[Address(RVA = "0x2E5EF50", Offset = "0x2E5D550", VA = "0x182E5EF50")]
 	public fsContext()
 	{
 	}

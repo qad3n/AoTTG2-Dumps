@@ -10,44 +10,44 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000545")]
+[Token(Token = "0x200066E")]
 internal sealed class PinnedBufferMemoryStream : UnmanagedMemoryStream
 {
-	[Token(Token = "0x40015DB")]
+	[Token(Token = "0x40019BC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	private byte[] _array;
 
-	[Token(Token = "0x40015DC")]
+	[Token(Token = "0x40019BD")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	private GCHandle _pinningHandle;
 
-	[Token(Token = "0x6002842")]
-	[Address(RVA = "0x3BEE460", Offset = "0x3BEE460", VA = "0x3BEE460")]
+	[Token(Token = "0x6003117")]
+	[Address(RVA = "0x1AD9F90", Offset = "0x1AD8590", VA = "0x181AD9F90")]
 	internal PinnedBufferMemoryStream(byte[] array)
 	{
 	}
 
-	[Token(Token = "0x6002843")]
-	[Address(RVA = "0x3BEE7B0", Offset = "0x3BEE7B0", VA = "0x3BEE7B0", Slot = "33")]
+	[Token(Token = "0x6003118")]
+	[Address(RVA = "0x1AD9F50", Offset = "0x1AD8550", VA = "0x181AD9F50", Slot = "33")]
 	public override int Read(Span<byte> buffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002844")]
-	[Address(RVA = "0x3BEEA40", Offset = "0x3BEEA40", VA = "0x3BEEA40", Slot = "36")]
+	[Token(Token = "0x6003119")]
+	[Address(RVA = "0x1AD9F70", Offset = "0x1AD8570", VA = "0x181AD9F70", Slot = "36")]
 	public override void Write(ReadOnlySpan<byte> buffer)
 	{
 	}
 
-	[Token(Token = "0x6002845")]
-	[Address(RVA = "0x3BEEDA0", Offset = "0x3BEEDA0", VA = "0x3BEEDA0", Slot = "1")]
+	[Token(Token = "0x600311A")]
+	[Address(RVA = "0x1AD9EE0", Offset = "0x1AD84E0", VA = "0x181AD9EE0", Slot = "1")]
 	~PinnedBufferMemoryStream()
 	{
 	}
 
-	[Token(Token = "0x6002846")]
-	[Address(RVA = "0x3BEEE30", Offset = "0x3BEEE30", VA = "0x3BEEE30", Slot = "19")]
+	[Token(Token = "0x600311B")]
+	[Address(RVA = "0x1AD9EA0", Offset = "0x1AD84A0", VA = "0x181AD9EA0", Slot = "19")]
 	protected override void Dispose(bool disposing)
 	{
 	}

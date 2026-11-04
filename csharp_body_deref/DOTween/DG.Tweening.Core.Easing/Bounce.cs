@@ -13,21 +13,21 @@ namespace DG.Tweening.Core.Easing;
 public static class Bounce
 {
 	[Token(Token = "0x6000477")]
-	[Address(RVA = "0x238D480", Offset = "0x238D480", VA = "0x238D480")]
+	[Address(RVA = "0x577240", Offset = "0x575840", VA = "0x180577240")]
 	public static float EaseIn(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000478")]
-	[Address(RVA = "0x238D560", Offset = "0x238D560", VA = "0x238D560")]
+	[Address(RVA = "0x577320", Offset = "0x575920", VA = "0x180577320")]
 	public static float EaseOut(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
 	{
 		return default(float);
 	}
 
 	[Token(Token = "0x6000479")]
-	[Address(RVA = "0x238D610", Offset = "0x238D610", VA = "0x238D610")]
+	[Address(RVA = "0x577100", Offset = "0x575700", VA = "0x180577100")]
 	public static float EaseInOut(float time, float duration, float unusedOvershootOrAmplitude, float unusedPeriod)
 	{
 		return default(float);

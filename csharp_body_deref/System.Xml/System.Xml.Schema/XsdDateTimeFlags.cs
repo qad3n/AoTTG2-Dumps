@@ -36,5 +36,5 @@ internal enum XsdDateTimeFlags
 	[Token(Token = "0x4000D83")]
 	XdrTimeNoTz = 0x400,
 	[Token(Token = "0x4000D84")]
-	AllXsd = 0xFF
+	AllXsd = DateTime | Time | Date | GYearMonth | GYear | GMonthDay | GDay | GMonth
 }

@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x200017F")]
+[Token(Token = "0x2000307")]
 internal class AutoWebProxyScriptEngine
 {
-	[Token(Token = "0x6000967")]
-	[Address(RVA = "0x497AB90", Offset = "0x497AB90", VA = "0x497AB90")]
+	[Token(Token = "0x6001527")]
+	[Address(RVA = "0x27DC690", Offset = "0x27DAC90", VA = "0x1827DC690")]
 	public bool GetProxies(Uri destination, out IList<string> proxyList)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000968")]
-	[Address(RVA = "0x497AFA0", Offset = "0x497AFA0", VA = "0x497AFA0")]
+	[Token(Token = "0x6001528")]
+	[Address(RVA = "0x27DC690", Offset = "0x27DAC90", VA = "0x1827DC690")]
 	public bool GetProxies(Uri destination, out IList<string> proxyList, ref int syncStatus)
 	{
 		return default(bool);

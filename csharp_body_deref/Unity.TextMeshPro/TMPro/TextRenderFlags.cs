@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200008B")]
+[Token(Token = "0x2000080")]
 public enum TextRenderFlags
 {
-	[Token(Token = "0x4000491")]
+	[Token(Token = "0x40003FC")]
 	DontRender = 0,
-	[Token(Token = "0x4000492")]
+	[Token(Token = "0x40003FD")]
 	Render = 255
 }

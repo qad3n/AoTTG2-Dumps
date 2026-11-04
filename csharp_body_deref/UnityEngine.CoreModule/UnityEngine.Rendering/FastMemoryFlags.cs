@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002A9")]
+[Token(Token = "0x2000321")]
 [Flags]
 public enum FastMemoryFlags
 {
-	[Token(Token = "0x400071A")]
+	[Token(Token = "0x4000819")]
 	None = 0,
-	[Token(Token = "0x400071B")]
+	[Token(Token = "0x400081A")]
 	SpillTop = 1,
-	[Token(Token = "0x400071C")]
+	[Token(Token = "0x400081B")]
 	SpillBottom = 2
 }

@@ -19,8 +19,8 @@ public sealed class ListInitExpression : Expression
 	[Token(Token = "0x170000B7")]
 	public NewExpression NewExpression
 	{
-		[Token(Token = "0x6000464")]
-		[Address(RVA = "0x44BCB70", Offset = "0x44BCB70", VA = "0x44BCB70")]
+		[Token(Token = "0x6000463")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,8 +31,8 @@ public sealed class ListInitExpression : Expression
 	[Token(Token = "0x170000B8")]
 	public ReadOnlyCollection<ElementInit> Initializers
 	{
-		[Token(Token = "0x6000465")]
-		[Address(RVA = "0x44BCB80", Offset = "0x44BCB80", VA = "0x44BCB80")]
+		[Token(Token = "0x6000464")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{

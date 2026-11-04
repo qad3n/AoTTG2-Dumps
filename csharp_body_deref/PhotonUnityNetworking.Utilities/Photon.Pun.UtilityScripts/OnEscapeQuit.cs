@@ -11,19 +11,19 @@ using UnityEngine;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000023")]
+[Token(Token = "0x2000021")]
 public class OnEscapeQuit : MonoBehaviour
 {
-	[Token(Token = "0x60000B1")]
-	[Address(RVA = "0x3F09DD0", Offset = "0x3F09DD0", VA = "0x3F09DD0")]
+	[Token(Token = "0x60000AF")]
+	[Address(RVA = "0x1D53F50", Offset = "0x1D52550", VA = "0x181D53F50")]
 	[Conditional("UNITY_ANDROID")]
 	[Conditional("UNITY_IOS")]
 	public void Update()
 	{
 	}
 
-	[Token(Token = "0x60000B2")]
-	[Address(RVA = "0x3F09E30", Offset = "0x3F09E30", VA = "0x3F09E30")]
+	[Token(Token = "0x60000B0")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public OnEscapeQuit()
 	{
 	}

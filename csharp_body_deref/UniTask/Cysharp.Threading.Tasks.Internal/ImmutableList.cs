@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000256")]
+[Token(Token = "0x2000259")]
 internal class ImmutableList<T>
 {
-	[Token(Token = "0x40006AF")]
+	[Token(Token = "0x40006C2")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly ImmutableList<T> Empty;
 
-	[Token(Token = "0x40006B0")]
+	[Token(Token = "0x40006C3")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] data;
 
-	[Token(Token = "0x1700007F")]
+	[Token(Token = "0x17000081")]
 	public T[] Data
 	{
-		[Token(Token = "0x6000D4E")]
+		[Token(Token = "0x6000D72")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000D4F")]
+	[Token(Token = "0x6000D73")]
 	private ImmutableList()
 	{
 	}
 
-	[Token(Token = "0x6000D50")]
+	[Token(Token = "0x6000D74")]
 	public ImmutableList(T[] data)
 	{
 	}
 
-	[Token(Token = "0x6000D51")]
+	[Token(Token = "0x6000D75")]
 	public ImmutableList<T> Add(T value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D52")]
+	[Token(Token = "0x6000D76")]
 	public ImmutableList<T> Remove(T value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D53")]
+	[Token(Token = "0x6000D77")]
 	public int IndexOf(T value)
 	{
 		return default(int);

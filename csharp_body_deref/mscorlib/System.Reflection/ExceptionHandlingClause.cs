@@ -11,46 +11,46 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200050E")]
+[Token(Token = "0x200053E")]
 [ComVisible(true)]
 public class ExceptionHandlingClause
 {
-	[Token(Token = "0x4001516")]
+	[Token(Token = "0x4001515")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	internal Type catch_type;
 
-	[Token(Token = "0x4001517")]
+	[Token(Token = "0x4001516")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	internal int filter_offset;
 
-	[Token(Token = "0x4001518")]
+	[Token(Token = "0x4001517")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x1C")]
 	internal ExceptionHandlingClauseOptions flags;
 
-	[Token(Token = "0x4001519")]
+	[Token(Token = "0x4001518")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	internal int try_offset;
 
-	[Token(Token = "0x400151A")]
+	[Token(Token = "0x4001519")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 	internal int try_length;
 
-	[Token(Token = "0x400151B")]
+	[Token(Token = "0x400151A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	internal int handler_offset;
 
-	[Token(Token = "0x400151C")]
+	[Token(Token = "0x400151B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2C")]
 	internal int handler_length;
 
-	[Token(Token = "0x6002619")]
-	[Address(RVA = "0x3BDF220", Offset = "0x3BDF220", VA = "0x3BDF220")]
+	[Token(Token = "0x600269C")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected ExceptionHandlingClause()
 	{
 	}
 
-	[Token(Token = "0x600261A")]
-	[Address(RVA = "0x3BDF230", Offset = "0x3BDF230", VA = "0x3BDF230", Slot = "3")]
+	[Token(Token = "0x600269D")]
+	[Address(RVA = "0x1A69310", Offset = "0x1A67910", VA = "0x181A69310", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

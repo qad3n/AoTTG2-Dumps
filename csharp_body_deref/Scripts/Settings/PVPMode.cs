@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x200008F")]
+[Token(Token = "0x20000AC")]
 public enum PVPMode
 {
-	[Token(Token = "0x400033D")]
+	[Token(Token = "0x40003AD")]
 	Off,
-	[Token(Token = "0x400033E")]
+	[Token(Token = "0x40003AE")]
 	FFA,
-	[Token(Token = "0x400033F")]
+	[Token(Token = "0x40003AF")]
 	Team
 }

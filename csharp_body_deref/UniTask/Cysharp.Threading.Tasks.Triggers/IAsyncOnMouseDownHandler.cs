@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001C5")]
+[Token(Token = "0x20001C8")]
 public interface IAsyncOnMouseDownHandler
 {
-	[Token(Token = "0x6000B18")]
+	[Token(Token = "0x6000B3C")]
 	UniTask OnMouseDownAsync();
 }

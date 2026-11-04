@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000030")]
 public class DeviceFeatures
 {
-	[Token(Token = "0x40000E7")]
+	[Token(Token = "0x40000E2")]
 	[FieldOffset(Offset = "0x0")]
 	internal static DeviceFeatures Default;
 
 	[Token(Token = "0x1700003E")]
 	public CameraFacing CameraFacing
 	{
-		[Token(Token = "0x60000FE")]
-		[Address(RVA = "0x3F19220", Offset = "0x3F19220", VA = "0x3F19220")]
+		[Token(Token = "0x60000FC")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
 			return default(CameraFacing);
 		}
-		[Token(Token = "0x60000FF")]
-		[Address(RVA = "0x3F19230", Offset = "0x3F19230", VA = "0x3F19230")]
+		[Token(Token = "0x60000FD")]
+		[Address(RVA = "0x560B20", Offset = "0x55F120", VA = "0x180560B20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60000FC")]
-	[Address(RVA = "0x3F191F0", Offset = "0x3F191F0", VA = "0x3F191F0")]
+	[Token(Token = "0x60000FA")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public DeviceFeatures()
 	{
 	}
 
-	[Token(Token = "0x60000FD")]
-	[Address(RVA = "0x3F19200", Offset = "0x3F19200", VA = "0x3F19200")]
+	[Token(Token = "0x60000FB")]
+	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 	public DeviceFeatures(CameraFacing facing)
 	{
 	}

@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001E8")]
+[Token(Token = "0x20001EB")]
 [DisallowMultipleComponent]
 public sealed class AsyncRenderObjectTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000B90")]
-	[Address(RVA = "0x4A12260", Offset = "0x4A12260", VA = "0x4A12260")]
+	[Token(Token = "0x6000BB4")]
+	[Address(RVA = "0x2937990", Offset = "0x2935F90", VA = "0x182937990")]
 	private void OnRenderObject()
 	{
 	}
 
-	[Token(Token = "0x6000B91")]
-	[Address(RVA = "0x4A122D0", Offset = "0x4A122D0", VA = "0x4A122D0")]
+	[Token(Token = "0x6000BB5")]
+	[Address(RVA = "0x2937700", Offset = "0x2935D00", VA = "0x182937700")]
 	public IAsyncOnRenderObjectHandler GetOnRenderObjectAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B92")]
-	[Address(RVA = "0x4A12340", Offset = "0x4A12340", VA = "0x4A12340")]
+	[Token(Token = "0x6000BB6")]
+	[Address(RVA = "0x2937680", Offset = "0x2935C80", VA = "0x182937680")]
 	public IAsyncOnRenderObjectHandler GetOnRenderObjectAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B93")]
-	[Address(RVA = "0x4A123B0", Offset = "0x4A123B0", VA = "0x4A123B0")]
+	[Token(Token = "0x6000BB7")]
+	[Address(RVA = "0x2937770", Offset = "0x2935D70", VA = "0x182937770")]
 	public UniTask OnRenderObjectAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B94")]
-	[Address(RVA = "0x4A124A0", Offset = "0x4A124A0", VA = "0x4A124A0")]
+	[Token(Token = "0x6000BB8")]
+	[Address(RVA = "0x2937880", Offset = "0x2935E80", VA = "0x182937880")]
 	public UniTask OnRenderObjectAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B95")]
-	[Address(RVA = "0x4A12590", Offset = "0x4A12590", VA = "0x4A12590")]
+	[Token(Token = "0x6000BB9")]
+	[Address(RVA = "0x2937A00", Offset = "0x2936000", VA = "0x182937A00")]
 	public AsyncRenderObjectTrigger()
 	{
 	}

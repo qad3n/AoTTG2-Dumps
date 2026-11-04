@@ -1,11 +1,12 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.EventCallbackRegistry
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
 using System;
+using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Il2CppDummyDll;
@@ -13,159 +14,142 @@ using JetBrains.Annotations;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200018A")]
+[Token(Token = "0x20001CF")]
 internal class EventCallbackRegistry
 {
-	[Token(Token = "0x200018B")]
-	private struct DynamicCallbackList
+	[Token(Token = "0x20001D0")]
+	internal struct DynamicCallbackList
 	{
-		[Token(Token = "0x400067A")]
+		[Token(Token = "0x40007AE")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
+		private TrickleDown m_UseTrickleDown;
+
+		[Token(Token = "0x40007AF")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 		[NotNull]
 		private EventCallbackList m_Callbacks;
 
-		[Token(Token = "0x400067B")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
+		[Token(Token = "0x40007B0")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		[CanBeNull]
 		private EventCallbackList m_TemporaryCallbacks;
 
-		[Token(Token = "0x400067C")]
-		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
+		[Token(Token = "0x40007B1")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
+		[CanBeNull]
+		private List<EventCallbackFunctorBase> m_UnregisteredCallbacksDuringInvoke;
+
+		[Token(Token = "0x40007B2")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private int m_IsInvoking;
 
-		[Token(Token = "0x170001E1")]
-		public int Count
-		{
-			[Token(Token = "0x6000A83")]
-			[Address(RVA = "0x502DC70", Offset = "0x502DC70", VA = "0x502DC70")]
-			get
-			{
-				return default(int);
-			}
-		}
-
-		[Token(Token = "0x6000A84")]
-		[Address(RVA = "0x502DE10", Offset = "0x502DE10", VA = "0x502DE10")]
-		public static DynamicCallbackList Create()
+		[Token(Token = "0x6000C8F")]
+		[Address(RVA = "0x3259E50", Offset = "0x3258450", VA = "0x183259E50")]
+		public static DynamicCallbackList Create(TrickleDown useTrickleDown)
 		{
 			return default(DynamicCallbackList);
 		}
 
-		[Token(Token = "0x6000A85")]
-		[Address(RVA = "0x502D6E0", Offset = "0x502D6E0", VA = "0x502D6E0")]
+		[Token(Token = "0x6000C90")]
+		[Address(RVA = "0x325A1B0", Offset = "0x32587B0", VA = "0x18325A1B0")]
 		[NotNull]
 		public EventCallbackList GetCallbackListForWriting()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000A86")]
-		[Address(RVA = "0x502DF90", Offset = "0x502DF90", VA = "0x502DF90")]
+		[Token(Token = "0x6000C91")]
+		[Address(RVA = "0x325A190", Offset = "0x3258790", VA = "0x18325A190")]
 		[NotNull]
 		public readonly EventCallbackList GetCallbackListForReading()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000A87")]
-		[Address(RVA = "0x502D8F0", Offset = "0x502D8F0", VA = "0x502D8F0")]
+		[Token(Token = "0x6000C92")]
+		[Address(RVA = "0x325A550", Offset = "0x3258B50", VA = "0x18325A550")]
+		public bool UnregisterCallback(long eventTypeId, [NotNull] Delegate callback)
+		{
+			return default(bool);
+		}
+
+		[Token(Token = "0x6000C93")]
+		[Address(RVA = "0x325A2B0", Offset = "0x32588B0", VA = "0x18325A2B0")]
 		public void Invoke(EventBase evt, BaseVisualElementPanel panel, VisualElement target)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000A88")]
-		[Address(RVA = "0x502DFA0", Offset = "0x502DFA0", VA = "0x502DFA0")]
+		[Token(Token = "0x6000C94")]
+		[Address(RVA = "0x3259E40", Offset = "0x3258440", VA = "0x183259E40")]
 		private void BeginInvoke()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)256)]
-		[Token(Token = "0x6000A89")]
-		[Address(RVA = "0x502DFB0", Offset = "0x502DFB0", VA = "0x502DFB0")]
+		[Token(Token = "0x6000C95")]
+		[Address(RVA = "0x3259F30", Offset = "0x3258530", VA = "0x183259F30")]
 		private void EndInvoke()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000677")]
+	[Token(Token = "0x40007AB")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly EventCallbackListPool s_ListPool;
 
-	[Token(Token = "0x4000678")]
+	[Token(Token = "0x40007AC")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
-	private DynamicCallbackList m_TrickleDownCallbacks;
+	internal DynamicCallbackList m_TrickleDownCallbacks;
 
-	[Token(Token = "0x4000679")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
-	private DynamicCallbackList m_BubbleUpCallbacks;
+	[Token(Token = "0x40007AD")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	internal DynamicCallbackList m_BubbleUpCallbacks;
 
-	[Token(Token = "0x6000A77")]
-	[Address(RVA = "0x502D500", Offset = "0x502D500", VA = "0x502D500")]
+	[Token(Token = "0x6000C86")]
+	[Address(RVA = "0x325C8E0", Offset = "0x325AEE0", VA = "0x18325C8E0")]
 	private static EventCallbackList GetCallbackList([Optional] EventCallbackList initializer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000A78")]
-	[Address(RVA = "0x502D590", Offset = "0x502D590", VA = "0x502D590")]
+	[Token(Token = "0x6000C87")]
+	[Address(RVA = "0x325C970", Offset = "0x325AF70", VA = "0x18325C970")]
 	private static void ReleaseCallbackList(EventCallbackList toRelease)
 	{
 	}
 
-	[Token(Token = "0x6000A79")]
-	[Address(RVA = "0x502D680", Offset = "0x502D680", VA = "0x502D680")]
-	private unsafe ref DynamicCallbackList GetDynamicCallbackList(CallbackPhase phase)
+	[Token(Token = "0x6000C88")]
+	[Address(RVA = "0x325C950", Offset = "0x325AF50", VA = "0x18325C950")]
+	private unsafe ref DynamicCallbackList GetDynamicCallbackList(CallbackOptions callbackOptions)
 	{
 		return ref *(DynamicCallbackList*)null;
 	}
 
-	[Token(Token = "0x6000A7A")]
-	[Address(RVA = "0x502D690", Offset = "0x502D690", VA = "0x502D690")]
-	private bool UnregisterCallback(long eventTypeId, [NotNull] Delegate callback, TrickleDown useTrickleDown)
+	[Token(Token = "0x6000C89")]
+	public void RegisterCallback<TEventType>([NotNull] EventCallback<TEventType> callback, CallbackOptions callbackOptions = CallbackOptions.Default) where TEventType : EventBase<TEventType>, new()
+	{
+	}
+
+	[Token(Token = "0x6000C8A")]
+	public void RegisterCallback<TEventType, TCallbackArgs>([NotNull] EventCallback<TEventType, TCallbackArgs> callback, TCallbackArgs userArgs, CallbackOptions callbackOptions = CallbackOptions.Default) where TEventType : EventBase<TEventType>, new()
+	{
+	}
+
+	[Token(Token = "0x6000C8B")]
+	public bool UnregisterCallback<TEventType>([NotNull] EventCallback<TEventType> callback, CallbackOptions callbackOptions = CallbackOptions.Default) where TEventType : EventBase<TEventType>, new()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A7B")]
-	public void RegisterCallback<TEventType>([NotNull] EventCallback<TEventType> callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown, InvokePolicy invokePolicy = InvokePolicy.Default) where TEventType : EventBase<TEventType>, new()
-	{
-	}
-
-	[Token(Token = "0x6000A7C")]
-	public bool UnregisterCallback<TEventType>([NotNull] EventCallback<TEventType> callback, TrickleDown useTrickleDown = TrickleDown.NoTrickleDown) where TEventType : EventBase<TEventType>, new()
+	[Token(Token = "0x6000C8C")]
+	public bool UnregisterCallback<TEventType, TCallbackArgs>([NotNull] EventCallback<TEventType, TCallbackArgs> callback, CallbackOptions callbackOptions = CallbackOptions.Default) where TEventType : EventBase<TEventType>, new()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A7D")]
-	[Address(RVA = "0x502D8D0", Offset = "0x502D8D0", VA = "0x502D8D0")]
-	public void InvokeCallbacks(EventBase evt, [NotNull] BaseVisualElementPanel panel, [NotNull] VisualElement target, CallbackPhase phase)
-	{
-	}
-
-	[Token(Token = "0x6000A7E")]
-	[Address(RVA = "0x502DBF0", Offset = "0x502DBF0", VA = "0x502DBF0")]
-	public void InvokeCallbacksAtTarget(EventBase evt, [NotNull] BaseVisualElementPanel panel, [NotNull] VisualElement target)
-	{
-	}
-
-	[Token(Token = "0x6000A7F")]
-	[Address(RVA = "0x502DC50", Offset = "0x502DC50", VA = "0x502DC50")]
-	public bool HasTrickleDownHandlers()
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000A80")]
-	[Address(RVA = "0x502DC90", Offset = "0x502DC90", VA = "0x502DC90")]
-	public bool HasBubbleHandlers()
-	{
-		return default(bool);
-	}
-
-	[Token(Token = "0x6000A81")]
-	[Address(RVA = "0x502DCB0", Offset = "0x502DCB0", VA = "0x502DCB0")]
+	[Token(Token = "0x6000C8D")]
+	[Address(RVA = "0x325CB10", Offset = "0x325B110", VA = "0x18325CB10")]
 	public EventCallbackRegistry()
 	{
 	}

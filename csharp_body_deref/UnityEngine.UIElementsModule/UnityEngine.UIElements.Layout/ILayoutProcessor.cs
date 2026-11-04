@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x20004FD")]
+[Token(Token = "0x20005F4")]
 internal interface ILayoutProcessor
 {
-	[Token(Token = "0x6001F16")]
+	[Token(Token = "0x6002C5D")]
 	void CalculateLayout(LayoutNode node, float parentWidth, float parentHeight, LayoutDirection parentDirection);
 }

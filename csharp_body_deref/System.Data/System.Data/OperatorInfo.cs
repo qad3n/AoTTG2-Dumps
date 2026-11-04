@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200005A")]
+[Token(Token = "0x2000067")]
 internal sealed class OperatorInfo
 {
-	[Token(Token = "0x40001F3")]
+	[Token(Token = "0x400023B")]
 	[FieldOffset(Offset = "0x10")]
 	internal Nodes _type;
 
-	[Token(Token = "0x40001F4")]
+	[Token(Token = "0x400023C")]
 	[FieldOffset(Offset = "0x14")]
 	internal int _op;
 
-	[Token(Token = "0x40001F5")]
+	[Token(Token = "0x400023D")]
 	[FieldOffset(Offset = "0x18")]
 	internal int _priority;
 
-	[Token(Token = "0x6000611")]
-	[Address(RVA = "0x45AB740", Offset = "0x45AB740", VA = "0x45AB740")]
+	[Token(Token = "0x6000644")]
+	[Address(RVA = "0x19AB170", Offset = "0x19A9770", VA = "0x1819AB170")]
 	internal OperatorInfo(Nodes type, int op, int pri)
 	{
 	}

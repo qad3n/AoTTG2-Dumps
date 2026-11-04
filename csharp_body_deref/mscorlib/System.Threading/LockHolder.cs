@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001EC")]
+[Token(Token = "0x2000217")]
 [System.Runtime.CompilerServices.ReflectionBlocked]
 public struct LockHolder : IDisposable
 {
-	[Token(Token = "0x4000983")]
+	[Token(Token = "0x40009D6")]
 	[FieldOffset(Offset = "0x0")]
 	private Lock _lock;
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60011F0")]
-	[Address(RVA = "0x3D2E0B0", Offset = "0x3D2E0B0", VA = "0x3D2E0B0")]
+	[Token(Token = "0x600124B")]
+	[Address(RVA = "0x1BA1400", Offset = "0x1B9FA00", VA = "0x181BA1400")]
 	public static LockHolder Hold(Lock l)
 	{
 		return default(LockHolder);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60011F1")]
-	[Address(RVA = "0x3D2E110", Offset = "0x3D2E110", VA = "0x3D2E110", Slot = "4")]
+	[Token(Token = "0x600124C")]
+	[Address(RVA = "0x1BA13D0", Offset = "0x1B9F9D0", VA = "0x181BA13D0", Slot = "4")]
 	public void Dispose()
 	{
 	}

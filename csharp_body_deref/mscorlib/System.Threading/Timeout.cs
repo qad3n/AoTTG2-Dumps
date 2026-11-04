@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001D7")]
+[Token(Token = "0x2000202")]
 public static class Timeout
 {
-	[Token(Token = "0x4000940")]
+	[Token(Token = "0x40009A1")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly TimeSpan InfiniteTimeSpan;
 }

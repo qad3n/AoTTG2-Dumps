@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Events;
 
-[Token(Token = "0x20001E6")]
+[Token(Token = "0x2000228")]
 public enum UnityEventCallState
 {
-	[Token(Token = "0x400068A")]
+	[Token(Token = "0x4000721")]
 	Off,
-	[Token(Token = "0x400068B")]
+	[Token(Token = "0x4000722")]
 	EditorAndRuntime,
-	[Token(Token = "0x400068C")]
+	[Token(Token = "0x4000723")]
 	RuntimeOnly
 }

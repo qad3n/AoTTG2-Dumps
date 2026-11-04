@@ -13,128 +13,128 @@ using UnityEngine.Events;
 namespace UnityEngine.Networking.PlayerConnection;
 
 [Serializable]
-[Token(Token = "0x2000299")]
+[Token(Token = "0x20002F7")]
 internal class PlayerEditorConnectionEvents
 {
 	[Serializable]
-	[Token(Token = "0x200029A")]
+	[Token(Token = "0x20002F8")]
 	public class MessageEvent : UnityEvent<MessageEventArgs>
 	{
-		[Token(Token = "0x6000E06")]
-		[Address(RVA = "0x4E181A0", Offset = "0x4E181A0", VA = "0x4E181A0")]
+		[Token(Token = "0x600120F")]
+		[Address(RVA = "0x2F4B390", Offset = "0x2F49990", VA = "0x182F4B390")]
 		public MessageEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x200029B")]
+	[Token(Token = "0x20002F9")]
 	public class ConnectionChangeEvent : UnityEvent<int>
 	{
-		[Token(Token = "0x6000E07")]
-		[Address(RVA = "0x4E181E0", Offset = "0x4E181E0", VA = "0x4E181E0")]
+		[Token(Token = "0x6001210")]
+		[Address(RVA = "0x2F48AB0", Offset = "0x2F470B0", VA = "0x182F48AB0")]
 		public ConnectionChangeEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x200029C")]
+	[Token(Token = "0x20002FA")]
 	public class MessageTypeSubscribers
 	{
-		[Token(Token = "0x40006E0")]
+		[Token(Token = "0x400078D")]
 		[FieldOffset(Offset = "0x10")]
 		[SerializeField]
 		private string m_messageTypeId;
 
-		[Token(Token = "0x40006E1")]
+		[Token(Token = "0x400078E")]
 		[FieldOffset(Offset = "0x18")]
 		public int subscriberCount;
 
-		[Token(Token = "0x40006E2")]
+		[Token(Token = "0x400078F")]
 		[FieldOffset(Offset = "0x20")]
 		public MessageEvent messageCallback;
 
-		[Token(Token = "0x1700025D")]
+		[Token(Token = "0x170002E1")]
 		public Guid MessageTypeId
 		{
-			[Token(Token = "0x6000E08")]
-			[Address(RVA = "0x4E17C10", Offset = "0x4E17C10", VA = "0x4E17C10")]
+			[Token(Token = "0x6001211")]
+			[Address(RVA = "0x2F4B460", Offset = "0x2F49A60", VA = "0x182F4B460")]
 			get
 			{
 				return default(Guid);
 			}
-			[Token(Token = "0x6000E09")]
-			[Address(RVA = "0x4E18160", Offset = "0x4E18160", VA = "0x4E18160")]
+			[Token(Token = "0x6001212")]
+			[Address(RVA = "0x2F4B4A0", Offset = "0x2F49AA0", VA = "0x182F4B4A0")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x6000E0A")]
-		[Address(RVA = "0x4E180D0", Offset = "0x4E180D0", VA = "0x4E180D0")]
+		[Token(Token = "0x6001213")]
+		[Address(RVA = "0x2F4B3D0", Offset = "0x2F499D0", VA = "0x182F4B3D0")]
 		public MessageTypeSubscribers()
 		{
 		}
 	}
 
-	[Token(Token = "0x40006DC")]
+	[Token(Token = "0x4000789")]
 	[FieldOffset(Offset = "0x10")]
 	[SerializeField]
 	private List<MessageTypeSubscribers> m_MessageTypeSubscribers;
 
-	[Token(Token = "0x40006DD")]
+	[Token(Token = "0x400078A")]
 	[FieldOffset(Offset = "0x18")]
 	private Dictionary<Guid, MessageTypeSubscribers> m_SubscriberLookup;
 
-	[Token(Token = "0x40006DE")]
+	[Token(Token = "0x400078B")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	public ConnectionChangeEvent connectionEvent;
 
-	[Token(Token = "0x40006DF")]
+	[Token(Token = "0x400078C")]
 	[FieldOffset(Offset = "0x28")]
 	[SerializeField]
 	public ConnectionChangeEvent disconnectionEvent;
 
-	[Token(Token = "0x1700025C")]
+	[Token(Token = "0x170002E0")]
 	public IReadOnlyList<MessageTypeSubscribers> messageTypeSubscribers
 	{
-		[Token(Token = "0x6000E00")]
-		[Address(RVA = "0x4E17CA0", Offset = "0x4E17CA0", VA = "0x4E17CA0")]
+		[Token(Token = "0x6001209")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000E01")]
-	[Address(RVA = "0x4E17CB0", Offset = "0x4E17CB0", VA = "0x4E17CB0")]
+	[Token(Token = "0x600120A")]
+	[Address(RVA = "0x2F4FE70", Offset = "0x2F4E470", VA = "0x182F4FE70")]
 	private void BuildLookup()
 	{
 	}
 
-	[Token(Token = "0x6000E02")]
-	[Address(RVA = "0x4E17530", Offset = "0x4E17530", VA = "0x4E17530")]
+	[Token(Token = "0x600120B")]
+	[Address(RVA = "0x2F50140", Offset = "0x2F4E740", VA = "0x182F50140")]
 	public void InvokeMessageIdSubscribers(Guid messageId, byte[] data, int playerId)
 	{
 	}
 
-	[Token(Token = "0x6000E03")]
-	[Address(RVA = "0x4E163B0", Offset = "0x4E163B0", VA = "0x4E163B0")]
+	[Token(Token = "0x600120C")]
+	[Address(RVA = "0x2F4FBF0", Offset = "0x2F4E1F0", VA = "0x182F4FBF0")]
 	public UnityEvent<MessageEventArgs> AddAndCreate(Guid messageId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x4E16840", Offset = "0x4E16840", VA = "0x4E16840")]
+	[Token(Token = "0x600120D")]
+	[Address(RVA = "0x2F502B0", Offset = "0x2F4E8B0", VA = "0x182F502B0")]
 	public void UnregisterManagedCallback(Guid messageId, UnityAction<MessageEventArgs> callback)
 	{
 	}
 
-	[Token(Token = "0x6000E05")]
-	[Address(RVA = "0x4E17AA0", Offset = "0x4E17AA0", VA = "0x4E17AA0")]
+	[Token(Token = "0x600120E")]
+	[Address(RVA = "0x2F503E0", Offset = "0x2F4E9E0", VA = "0x182F503E0")]
 	public PlayerEditorConnectionEvents()
 	{
 	}

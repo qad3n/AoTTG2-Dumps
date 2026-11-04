@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001CA")]
+[Token(Token = "0x20001F5")]
 public sealed class AutoResetEvent : EventWaitHandle
 {
-	[Token(Token = "0x600115E")]
-	[Address(RVA = "0x3D28090", Offset = "0x3D28090", VA = "0x3D28090")]
+	[Token(Token = "0x60011B7")]
+	[Address(RVA = "0x1B94290", Offset = "0x1B92890", VA = "0x181B94290")]
 	public AutoResetEvent(bool initialState)
 	{
 	}

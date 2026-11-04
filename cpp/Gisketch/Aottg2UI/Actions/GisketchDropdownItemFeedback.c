@@ -1,14 +1,16 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: CHANGED in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchDropdownItemFeedback.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$Setup
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Setup (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_UI_Image_o* image, TMPro_TextMeshProUGUI_o* label, Gisketch_Aottg2UI_Styling_GisketchTheme_o* theme, UnityEngine_UI_Image_o* icon, const MethodInfo* method);
-// 0x3b943f0
+// 0x1818fe570
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818feaef: mov rsi, r14
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Setup
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,UnityEngine_UI_Image_o *image
@@ -16,246 +18,340 @@ void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Setup
                UnityEngine_UI_Image_o *icon,MethodInfo *method)
 
 {
-  int iVar1;
-  bool_conflict bVar2;
-  int32_t iVar3;
-  UnityEngine_Color32_o UVar4;
+  bool bVar1;
+  _union_53103 _Var2;
+  Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *pUVar3;
+  UnityEngine_Color_o *pUVar4;
   System_String_o *pSVar5;
-  UnityEngine_GameObject_o *viewport;
-  Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *pGVar6;
-  MethodInfo *method_00;
-  undefined8 uVar7;
+  UnityEngine_Object_o *x;
+  Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *__this_00;
+  float fVar6;
+  float fVar7;
   float fVar8;
-  undefined4 uVar9;
+  float fVar9;
   float fVar10;
-  UnityEngine_Color_o UVar11;
-  UnityEngine_Color_o fallback_00;
-  UnityEngine_Color_o fallback;
+  float fVar11;
+  UnityEngine_Color_Fields local_68;
+  UnityEngine_Color_o local_58 [3];
   
-  method_00 = (MethodInfo *)theme;
-  if (g_data_057a9ee2 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"primary");
-    il2cpp_runtime_helper_023445d0(&"surface");
-    il2cpp_runtime_helper_023445d0(&"buttonText");
-    g_data_057a9ee2 = '\x01';
+  if (Il2CppMethodInitialized_184342222 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&"primary");
+    il2cpp_codegen_initialize_runtime_metadata(&"surface");
+    il2cpp_codegen_initialize_runtime_metadata(&"buttonText");
+    Il2CppMethodInitialized_184342222 = '\x01';
   }
   (__this->fields)._image = image;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._image,image);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._image,image);
   (__this->fields)._icon = icon;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._icon,icon);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._icon,icon);
   (__this->fields)._label = label;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._label);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._label,label);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar2 = UnityEngine_Object__op_Inequality
+  bVar1 = UnityEngine_Object__op_Inequality
                     ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  uVar7 = 0;
-  fVar8 = 0.0;
-  fVar10 = 0.0;
-  if ((char)bVar2 != '\0') {
-    if (image == (UnityEngine_UI_Image_o *)0x0) goto label_03b947eb;
-    uVar7 = (*(image->klass->vtable)._22_get_color.methodPtr)(image);
-  }
-  (__this->fields)._normalBg.fields.r = (float)(int)uVar7;
-  (__this->fields)._normalBg.fields.g = (float)(int)((ulong)uVar7 >> 0x20);
-  (__this->fields)._normalBg.fields.b = fVar8;
-  (__this->fields)._normalBg.fields.a = fVar10;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)icon,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    fVar8 = 1.0;
-    fVar10 = 1.0;
-    uVar7 = 0x3f8000003f800000;
+  fVar11 = 0.0;
+  if (bVar1) {
+    if (image == (UnityEngine_UI_Image_o *)0x0) goto label_1818feb1d;
+    pUVar3 = (*(image->klass->vtable)._22_get_color.methodPtr)
+                       ((Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *)&local_68,image,
+                        (image->klass->vtable)._22_get_color.method);
+    fVar10 = *(float *)&(pUVar3->fields).m_Ptr;
+    fVar6 = *(float *)((longlong)&(pUVar3->fields).m_Ptr + 4);
+    fVar7 = (float)(pUVar3->fields).m_Count;
+    fVar8 = *(float *)&(pUVar3->fields).field_0xc;
   }
   else {
-    if (icon == (UnityEngine_UI_Image_o *)0x0) goto label_03b947eb;
-    uVar7 = (*(icon->klass->vtable)._22_get_color.methodPtr)(icon);
-  }
-  (__this->fields)._normalIcon.fields.r = (float)(int)uVar7;
-  (__this->fields)._normalIcon.fields.g = (float)(int)((ulong)uVar7 >> 0x20);
-  (__this->fields)._normalIcon.fields.b = fVar8;
-  (__this->fields)._normalIcon.fields.a = fVar10;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    fVar8 = 1.0;
-    fVar10 = 1.0;
-    uVar7 = 0x3f8000003f800000;
-  }
-  else {
-    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b947eb;
-    uVar7 = (*(label->klass->vtable)._22_get_color.methodPtr)(label);
-  }
-  (__this->fields)._normalText.fields.r = (float)(int)uVar7;
-  (__this->fields)._normalText.fields.g = (float)(int)((ulong)uVar7 >> 0x20);
-  (__this->fields)._normalText.fields.b = fVar8;
-  (__this->fields)._normalText.fields.a = fVar10;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    fVar8 = 1.0;
-    iVar3 = il2cpp_runtime_helper_03b428b0(0);
-    (__this->fields)._normalFace.fields.rgba = iVar3;
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
-  }
-  else {
-    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b947eb;
-    UVar4 = TMPro_TMP_Text__get_faceColor((TMPro_TMP_Text_o *)label,(MethodInfo *)0x0);
-    (__this->fields)._normalFace.fields.rgba = UVar4.fields.rgba;
-    iVar1 = *(int *)(TypeInfo_Object + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar2 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    if (theme == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_03b947eb;
-    UVar11.fields.b = 1.0;
-    UVar11.fields.a = 1.0;
-    UVar11.fields.r = 1.0;
-    UVar11.fields.g = 1.0;
-    UVar11 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor(theme,"surface",UVar11,(MethodInfo *)0x0);
-    fVar8 = UVar11.fields.b;
-    uVar7 = UVar11.fields._0_8_;
-  }
-  else {
-    if (image == (UnityEngine_UI_Image_o *)0x0) goto label_03b947eb;
-    uVar7 = (*(image->klass->vtable)._22_get_color.methodPtr)
-                      (image,(image->klass->vtable)._22_get_color.method);
-  }
-  fVar10 = 0.0;
-  if (fVar8 * 0.0722 + (float)((ulong)uVar7 >> 0x20) * 0.7152 + (float)uVar7 * 0.2126 < 0.5) {
-    uVar9 = 0x3f800000;
-    fVar8 = 1.0;
-    fVar10 = 1.0;
-  }
-  else {
-    uVar9 = 0;
+    fVar10 = 0.0;
+    fVar6 = 0.0;
+    fVar7 = 0.0;
     fVar8 = 0.0;
   }
-  (__this->fields)._normalFace.fields.r = (char)uVar9;
-  (__this->fields)._normalFace.fields.g = (char)((uint)uVar9 >> 8);
-  (__this->fields)._normalFace.fields.b = (char)((uint)uVar9 >> 0x10);
-  (__this->fields)._normalFace.fields.a = (char)((uint)uVar9 >> 0x18);
-  (__this->fields)._disabledText.fields.r = fVar8;
-  (__this->fields)._disabledText.fields.g = fVar10;
-  (__this->fields)._disabledText.fields.b = 0.5;
-  if (theme != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
-    fallback.fields.b = 0.0;
-    fallback.fields.a = 1.0;
-    fallback.fields.r = 1.0;
-    fallback.fields.g = 0.0;
-    UVar11 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor(theme,"primary",fallback,(MethodInfo *)0x0);
-    *(UnityEngine_Color_Fields *)&(__this->fields)._disabledText.fields.a = UVar11.fields;
-    fallback_00.fields.b = 1.0;
-    fallback_00.fields.a = 1.0;
-    fallback_00.fields.r = 1.0;
-    fallback_00.fields.g = 1.0;
-    UVar11 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
-                       (theme,"buttonText",fallback_00,(MethodInfo *)0x0);
-    *(UnityEngine_Color_Fields *)&(__this->fields)._hoverBg.fields.a = UVar11.fields;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar2 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 == '\0') {
-      pSVar5 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    else {
-      if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b947eb;
-      pSVar5 = (System_String_o *)
-               (*(label->klass->vtable)._65_get_text.methodPtr)
-                         (label,(label->klass->vtable)._65_get_text.method);
-    }
-    (__this->fields)._normalLabelText = pSVar5;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._normalLabelText);
-    (__this->fields)._activeLabelText = (__this->fields)._normalLabelText;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._activeLabelText);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar2 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar2 == '\0') {
-      return;
-    }
-    if (label != (TMPro_TextMeshProUGUI_o *)0x0) {
-      TMPro_TMP_Text__set_richText((TMPro_TMP_Text_o *)label,1,(MethodInfo *)0x0);
-      viewport = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-      pGVar6 = Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText__Setup(viewport,label,0,method_00);
-      (__this->fields)._marquee = pGVar6;
-      il2cpp_runtime_helper_022b4080(&(__this->fields)._marquee,pGVar6);
-      return;
-    }
+  (__this->fields)._normalBg.fields.r = fVar10;
+  (__this->fields)._normalBg.fields.g = fVar6;
+  (__this->fields)._normalBg.fields.b = fVar7;
+  (__this->fields)._normalBg.fields.a = fVar8;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-label_03b947eb:
-  il2cpp_runtime_helper_022b2c90();
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)icon,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  fVar10 = 1.0;
+  if (bVar1) {
+    if (icon == (UnityEngine_UI_Image_o *)0x0) goto label_1818feb1d;
+    pUVar3 = (*(icon->klass->vtable)._22_get_color.methodPtr)
+                       ((Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *)&local_68,icon,
+                        (icon->klass->vtable)._22_get_color.method);
+    fVar6 = *(float *)&(pUVar3->fields).m_Ptr;
+    fVar7 = *(float *)((longlong)&(pUVar3->fields).m_Ptr + 4);
+    fVar8 = (float)(pUVar3->fields).m_Count;
+    fVar9 = *(float *)&(pUVar3->fields).field_0xc;
+  }
+  else {
+    fVar6 = 1.0;
+    fVar7 = 1.0;
+    fVar8 = 1.0;
+    fVar9 = 1.0;
+  }
+  (__this->fields)._normalIcon.fields.r = fVar6;
+  (__this->fields)._normalIcon.fields.g = fVar7;
+  (__this->fields)._normalIcon.fields.b = fVar8;
+  (__this->fields)._normalIcon.fields.a = fVar9;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818feb1d;
+    pUVar4 = (*(label->klass->vtable)._22_get_color.methodPtr)
+                       ((UnityEngine_Color_o *)&local_68,label,(label->klass->vtable)._22_get_color.method);
+    fVar6 = (pUVar4->fields).r;
+    fVar7 = (pUVar4->fields).g;
+    fVar8 = (pUVar4->fields).b;
+    fVar9 = (pUVar4->fields).a;
+  }
+  else {
+    fVar6 = 1.0;
+    fVar7 = 1.0;
+    fVar8 = 1.0;
+    fVar9 = 1.0;
+  }
+  (__this->fields)._normalText.fields.r = fVar6;
+  (__this->fields)._normalText.fields.g = fVar7;
+  (__this->fields)._normalText.fields.b = fVar8;
+  (__this->fields)._normalText.fields.a = fVar9;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818feb1d;
+    _Var2._at_rgba.rgba =
+         (_struct_53104)TMPro_TMP_Text__get_faceColor((TMPro_TMP_Text_o *)label,(MethodInfo *)0x0);
+  }
+  else {
+    local_68.r = 1.0;
+    local_68.g = 1.0;
+    local_68.b = 1.0;
+    local_68.a = 1.0;
+    _Var2._at_rgba.rgba =
+         (_struct_53104)UnityEngine_Color32__op_Implicit((UnityEngine_Color_o *)&local_68,(MethodInfo *)0x0);
+  }
+  (__this->fields)._normalFace.fields._overlap_0._at_rgba.rgba = (int32_t)_Var2;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)image,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  __this_00 = (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0;
+  if (bVar1) {
+    if (image == (UnityEngine_UI_Image_o *)0x0) goto label_1818feb1d;
+    pUVar4 = (UnityEngine_Color_o *)
+             (*(image->klass->vtable)._22_get_color.methodPtr)
+                       ((Unity_Hierarchy_ReadOnlyNativeVector_HierarchyFlattenedNode__o *)&local_68,image,
+                        (image->klass->vtable)._22_get_color.method);
+  }
+  else {
+    if (theme == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_1818feb1d;
+    local_68.r = 1.0;
+    local_68.g = 1.0;
+    local_68.b = 1.0;
+    local_68.a = 1.0;
+    pUVar4 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                       (local_58,theme,"surface",(UnityEngine_Color_o *)&local_68,
+                        (MethodInfo *)0x0);
+  }
+  if (0.5 <= (pUVar4->fields).g * 0.7152 + (pUVar4->fields).r * 0.2126 + (pUVar4->fields).b * 0.0722) {
+    fVar10 = 0.0;
+    fVar6 = 0.0;
+  }
+  else {
+    fVar11 = 1.0;
+    fVar6 = 1.0;
+  }
+  (__this->fields)._disabledText.fields.r = fVar10;
+  (__this->fields)._disabledText.fields.g = fVar11;
+  (__this->fields)._disabledText.fields.b = fVar6;
+  (__this->fields)._disabledText.fields.a = 0.5;
+  if (theme == (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) goto label_1818feb1d;
+  local_68.r = 1.0;
+  local_68.g = 0.0;
+  local_68.b = 0.0;
+  local_68.a = 1.0;
+  pUVar4 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                     (local_58,theme,"primary",(UnityEngine_Color_o *)&local_68,(MethodInfo *)0x0)
+  ;
+  local_68.r = 1.0;
+  local_68.g = 1.0;
+  local_68.b = 1.0;
+  local_68.a = 1.0;
+  fVar11 = (pUVar4->fields).g;
+  fVar10 = (pUVar4->fields).b;
+  fVar6 = (pUVar4->fields).a;
+  (__this->fields)._hoverBg.fields.r = (pUVar4->fields).r;
+  (__this->fields)._hoverBg.fields.g = fVar11;
+  (__this->fields)._hoverBg.fields.b = fVar10;
+  (__this->fields)._hoverBg.fields.a = fVar6;
+  pUVar4 = Gisketch_Aottg2UI_Styling_GisketchTheme__GetColor
+                     (local_58,theme,"buttonText",(UnityEngine_Color_o *)&local_68,(MethodInfo *)0x0)
+  ;
+  fVar11 = (pUVar4->fields).g;
+  fVar10 = (pUVar4->fields).b;
+  fVar6 = (pUVar4->fields).a;
+  (__this->fields)._hoverText.fields.r = (pUVar4->fields).r;
+  (__this->fields)._hoverText.fields.g = fVar11;
+  (__this->fields)._hoverText.fields.b = fVar10;
+  (__this->fields)._hoverText.fields.a = fVar6;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818feb1d;
+    pSVar5 = (*(label->klass->vtable)._65_get_text.methodPtr)
+                       (label,(label->klass->vtable)._65_get_text.method);
+  }
+  else {
+    pSVar5 = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
+  }
+  (__this->fields)._normalLabelText = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._normalLabelText,pSVar5);
+  pSVar5 = (__this->fields)._normalLabelText;
+  (__this->fields)._activeLabelText = pSVar5;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._activeLabelText,pSVar5);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar1 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar1) {
+    if (label == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818feb1d;
+    TMPro_TMP_Text__set_richText((TMPro_TMP_Text_o *)label,true,(MethodInfo *)0x0);
+    x = (UnityEngine_Object_o *)
+        UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184342224 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchHoverMarqueeText);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchHoverMarqueeText);
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+      Il2CppMethodInitialized_184342224 = '\x01';
+    }
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    bVar1 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (!bVar1) {
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar1 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)label,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (!bVar1) {
+        if (x == (UnityEngine_Object_o *)0x0) {
+label_1818feb1d:
+          ThrowNullReferenceException();
+        }
+        __this_00 = UnityEngine_GameObject__GetComponent_object_
+                              ((UnityEngine_GameObject_o *)x,
+                               (MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_GisketchHoverMarqueeText);
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar1 = UnityEngine_Object__op_Equality
+                          ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar1) {
+          __this_00 = UnityEngine_GameObject__AddComponent_object_
+                                ((UnityEngine_GameObject_o *)x,
+                                 (MethodInfo_6F4D60 *)
+                                 MethodInfo_UnityEngine_GameObject_AddComponent_GisketchHoverMarqueeText);
+        }
+        if (__this_00 == (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0) goto label_1818feb1d;
+        Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText__Configure(__this_00,label,false,(MethodInfo *)0x0)
+        ;
+      }
+    }
+    (__this->fields)._marquee = __this_00;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._marquee,__this_00);
+  }
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$get_NormalTextColor
 // il2cpp: UnityEngine_Color_o Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__get_NormalTextColor (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, const MethodInfo* method);
-// 0x3b94960
+// 0x1818feb30
 
-UnityEngine_Color_o
+UnityEngine_Color_o *
 Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__get_NormalTextColor
-          (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,MethodInfo *method)
+          (UnityEngine_Color_o *__return_storage_ptr__,
+          Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,MethodInfo *method)
 
 {
-  return (UnityEngine_Color_o)(__this->fields)._normalText.fields;
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  
+  fVar1 = (__this->fields)._normalText.fields.g;
+  fVar2 = (__this->fields)._normalText.fields.b;
+  fVar3 = (__this->fields)._normalText.fields.a;
+  (__return_storage_ptr__->fields).r = (__this->fields)._normalText.fields.r;
+  (__return_storage_ptr__->fields).g = fVar1;
+  (__return_storage_ptr__->fields).b = fVar2;
+  (__return_storage_ptr__->fields).a = fVar3;
+  return __return_storage_ptr__;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$SetActiveTextColor
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetActiveTextColor (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_Color_o color, const MethodInfo* method);
-// 0x3b8fc20
+// 0x1818fe4a0
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetActiveTextColor
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,UnityEngine_Color_o color,
+               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,UnityEngine_Color_o *color,
                MethodInfo *method)
 
 {
-  *(UnityEngine_Color_Fields *)&(__this->fields)._hoverBg.fields.a = color.fields;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,method);
+  float fVar1;
+  float fVar2;
+  float fVar3;
+  
+  fVar1 = (color->fields).g;
+  fVar2 = (color->fields).b;
+  fVar3 = (color->fields).a;
+  (__this->fields)._hoverText.fields.r = (color->fields).r;
+  (__this->fields)._hoverText.fields.g = fVar1;
+  (__this->fields)._hoverText.fields.b = fVar2;
+  (__this->fields)._hoverText.fields.a = fVar3;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$SetDisabled
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetDisabled (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, bool disabled, const MethodInfo* method);
-// 0x3b8c700
+// 0x1818fe4c0
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetDisabled
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,bool_conflict disabled,
+               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,bool disabled,
                MethodInfo *method)
 
 {
-  undefined4 in_register_00000034;
-  
-  *(char *)((long)&(__this->fields)._hovered + 3) = (char)disabled;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh
-            (__this,(MethodInfo *)CONCAT44(in_register_00000034,disabled));
+  (__this->fields)._disabled = disabled;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$OnPointerEnter
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerEnter (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x3b94c70
+// 0x1818fe120
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerEnter
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,
@@ -264,41 +360,39 @@ void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerEnter
 {
   System_Func_bool__o *pSVar1;
   char cVar2;
+  bool bVar3;
   
-  pSVar1 = (__this->fields)._pointerHoverAllowed;
-  if (pSVar1 != (System_Func_bool__o *)0x0) {
-    eventData = (UnityEngine_EventSystems_PointerEventData_o *)(pSVar1->fields).method;
+  if ((__this->fields)._pointerHoverAllowed != (System_Func_bool__o *)0x0) {
+    pSVar1 = (__this->fields)._pointerHoverAllowed;
     cVar2 = (*(code *)(pSVar1->fields).invoke_impl)((pSVar1->fields).method_code);
-    if (cVar2 == '\0') {
-      *(undefined1 *)&(__this->fields)._hovered = 0;
-      Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)eventData);
-      return;
-    }
+    bVar3 = false;
+    if (cVar2 == '\0') goto label_1818fe14b;
   }
-  *(undefined1 *)&(__this->fields)._hovered = 1;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)eventData);
+  bVar3 = true;
+label_1818fe14b:
+  (__this->fields)._hovered = bVar3;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$OnPointerExit
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerExit (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, const MethodInfo* method);
-// 0x3b94cc0
+// 0x1818fe060
 
-void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerExit
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,
-               UnityEngine_EventSystems_PointerEventData_o *eventData,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnPointerExit(Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_EventSystems_PointerEventData_o* eventData, MethodInfo* method)
 
 {
-  *(undefined1 *)&(__this->fields)._hovered = 0;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)eventData);
+  (__this->fields)._hovered = false;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$OnSelect
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnSelect (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_EventSystems_BaseEventData_o* eventData, const MethodInfo* method);
-// 0x3b94cd0
+// 0x1818fe160
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnSelect
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,
@@ -306,545 +400,350 @@ void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnSelect
 
 {
   UnityEngine_GameObject_o *focused;
-  MethodInfo *method_00;
   
-  *(undefined1 *)((long)&(__this->fields)._hovered + 1) = 1;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)eventData);
-  method_00 = (MethodInfo *)0x0;
-  focused = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-  Gisketch_Aottg2UI_Actions_GisketchScrollFocus__Reveal(focused,12.0,method_00);
+  (__this->fields)._selected = true;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184341f35 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Actions_GisketchFocusInputMode);
+    Il2CppMethodInitialized_184341f35 = '\x01';
+  }
+  if (TypeInfo_Gisketch_Aottg2UI_Actions_GisketchFocusInputMode->static_fields->_Mode_k__BackingField == 1) {
+    focused = UnityEngine_Component__get_gameObject((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Actions_GisketchScrollFocus__Reveal(focused,12.0,(MethodInfo *)0x0);
+    return;
+  }
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$OnDeselect
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnDeselect (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, UnityEngine_EventSystems_BaseEventData_o* eventData, const MethodInfo* method);
-// 0x3b94d00
+// 0x1818fe110
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__OnDeselect
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,
                UnityEngine_EventSystems_BaseEventData_o *eventData,MethodInfo *method)
 
 {
-  *(undefined1 *)((long)&(__this->fields)._hovered + 1) = 0;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)eventData);
+  (__this->fields)._selected = false;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$SetForcedActive
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetForcedActive (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, bool active, const MethodInfo* method);
-// 0x3b8c710
+// 0x1818fe4d0
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetForcedActive
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,bool_conflict active,
+               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,bool active,
                MethodInfo *method)
 
 {
-  undefined4 in_register_00000034;
-  
-  *(char *)((long)&(__this->fields)._hovered + 2) = (char)active;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh
-            (__this,(MethodInfo *)CONCAT44(in_register_00000034,active));
+  (__this->fields)._forced = active;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$SetPointerHoverAllowed
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetPointerHoverAllowed (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, System_Func_bool__o* allowed, const MethodInfo* method);
-// 0x3b94d10
+// 0x180c8ffc0
 
-void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetPointerHoverAllowed
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,System_Func_bool__o *allowed,
-               MethodInfo *method)
+void
+Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetPointerHoverAllowed(Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, System_Func_bool__o* allowed, MethodInfo* method)
 
 {
-  (__this->fields)._pointerHoverAllowed = allowed;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._pointerHoverAllowed);
+  (__this->fields)._pointerHoverAllowed = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._pointerHoverAllowed,value);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$ClearPointerHover
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__ClearPointerHover (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, const MethodInfo* method);
-// 0x3b8d1e0
+// 0x1818fe060
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__ClearPointerHover
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,MethodInfo *method)
 
 {
-  *(undefined1 *)&(__this->fields)._hovered = 0;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,method);
+  (__this->fields)._hovered = false;
+  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$SetLabelText
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetLabelText (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, System_String_o* normal, System_String_o* active, bool normalOwnsColor, const MethodInfo* method);
-// 0x3b8fc30
+// 0x1818fe4e0
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__SetLabelText
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,System_String_o *normal,
-               System_String_o *active,bool_conflict normalOwnsColor,MethodInfo *method)
+               System_String_o *active,bool normalOwnsColor,MethodInfo *method)
 
 {
-  System_String_o **ppSVar1;
-  undefined4 extraout_EDX;
-  
   if (normal == (System_String_o *)0x0) {
-    normal = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+    normal = (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
   }
   if (__this != (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)0x0) {
-    ppSVar1 = &(__this->fields)._normalLabelText;
     (__this->fields)._normalLabelText = normal;
-    il2cpp_runtime_helper_022b4080(ppSVar1);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._normalLabelText,normal);
     if (active == (System_String_o *)0x0) {
-      active = *ppSVar1;
+      active = (__this->fields)._normalLabelText;
     }
     (__this->fields)._activeLabelText = active;
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._activeLabelText);
-    *(char *)&(__this->fields)._normalLabelOwnsColor = (char)normalOwnsColor;
-    Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)active);
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._activeLabelText,active);
+    (__this->fields)._normalLabelOwnsColor = normalOwnsColor;
+    Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh(__this,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  (__this->fields)._image = (UnityEngine_UI_Image_o *)normal;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._image);
-  *(undefined4 *)&(__this->fields)._icon = extraout_EDX;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$Refresh
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, const MethodInfo* method);
-// 0x3b94970
+// 0x1818fe1d0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1818fe436: mov rcx, rdi
+// asm:   0x1818fe439: mov edx, eax
 
 void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh
                (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,MethodInfo *method)
 
 {
-  float fVar1;
-  undefined4 uVar2;
-  undefined4 uVar3;
-  undefined4 uVar4;
-  undefined4 uVar5;
-  undefined4 uVar6;
-  UnityEngine_UI_Image_o *pUVar7;
-  TMPro_TextMeshProUGUI_c *pTVar8;
-  long lVar9;
-  UnityEngine_RectTransform_o *pUVar10;
-  Il2CppMethodPointer pIVar11;
-  undefined1 auVar12 [16];
-  UnityEngine_Vector2_o UVar13;
-  undefined1 auVar14 [16];
-  float fVar15;
-  UnityEngine_Color_o *pUVar16;
-  ulong uVar17;
-  char cVar18;
-  bool_conflict bVar19;
-  uint uVar20;
-  MethodInfo *pMVar21;
-  long *unaff_RBX;
-  undefined1 *puVar22;
-  TMPro_TextMeshProUGUI_o *unaff_RBP;
-  UnityEngine_Color32_o value;
-  float *pfVar23;
-  ulong uVar24;
-  TMPro_TextMeshProUGUI_o *pTVar25;
-  Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *pGVar26;
-  long *__this_00;
-  ulong unaff_R14;
-  TMPro_TextMeshProUGUI_o *pTVar27;
-  Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *unaff_R15;
-  undefined4 extraout_XMM0_Dc;
-  undefined4 extraout_XMM0_Dd;
-  undefined4 in_XMM1_Dc;
-  undefined4 in_XMM1_Dd;
-  UnityEngine_Rect_o UVar28;
+  UnityEngine_UI_Image_o *pUVar1;
+  Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *pGVar2;
+  bool bVar3;
+  _union_53103 value;
+  TMPro_TextMeshProUGUI_o *pTVar4;
+  longlong lVar5;
+  char cVar6;
+  undefined8 uVar7;
+  undefined8 uVar8;
+  undefined8 uVar9;
+  undefined8 uVar10;
+  undefined8 uVar11;
+  undefined8 uVar12;
+  UnityEngine_Color_Fields local_38;
   
-  if (g_data_057a9ee3 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9ee3 = '\x01';
+  if (Il2CppMethodInitialized_184342223 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184342223 = '\x01';
   }
-  cVar18 = '\0';
-  if (((*(char *)((long)&(__this->fields)._hovered + 3) == '\0') &&
-      (cVar18 = '\x01', (char)(__this->fields)._hovered == '\0')) &&
-     (*(char *)((long)&(__this->fields)._hovered + 1) == '\0')) {
-    cVar18 = *(char *)((long)&(__this->fields)._hovered + 2);
-  }
-  pUVar7 = (__this->fields)._image;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pMVar21 = (MethodInfo *)0x0;
-  bVar19 = UnityEngine_Object__op_Inequality
-                     ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar19 != '\0') {
-    pUVar7 = (__this->fields)._image;
-    pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-    if (pUVar7 == (UnityEngine_UI_Image_o *)0x0) goto label_03b94c69;
-    pfVar23 = &(__this->fields)._normalBg.fields.b;
-    pUVar16 = &(__this->fields)._normalBg;
-    if (cVar18 != '\0') {
-      pfVar23 = &(__this->fields)._hoverBg.fields.g;
-      pUVar16 = (UnityEngine_Color_o *)&(__this->fields)._disabledText.fields.a;
+  if ((__this->fields)._disabled == false) {
+    if (((__this->fields)._hovered == false) && ((__this->fields)._selected == false)) {
+      cVar6 = (__this->fields)._forced;
     }
-    uVar2 = (pUVar16->fields).r;
-    in_XMM1_Dc = 0;
-    in_XMM1_Dd = 0;
-    (*(pUVar7->klass->vtable)._23_set_color.methodPtr)(uVar2,(int)*(undefined8 *)pfVar23);
+    else {
+      cVar6 = '\x01';
+    }
   }
-  pUVar7 = (__this->fields)._icon;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  else {
+    cVar6 = '\0';
   }
-  pMVar21 = (MethodInfo *)0x0;
-  bVar19 = UnityEngine_Object__op_Inequality
-                     ((UnityEngine_Object_o *)pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar19 != '\0') {
-    pUVar7 = (__this->fields)._icon;
-    if (*(char *)((long)&(__this->fields)._hovered + 3) == '\0') {
-      if (cVar18 == '\0') {
-        pUVar16 = &(__this->fields)._normalIcon;
-        pfVar23 = &(__this->fields)._normalIcon.fields.b;
+  pUVar1 = (__this->fields)._image;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pUVar1 = (__this->fields)._image;
+    if (cVar6 == '\0') {
+      uVar7._0_4_ = (__this->fields)._normalBg.fields.r;
+      uVar7._4_4_ = (__this->fields)._normalBg.fields.g;
+      uVar10._0_4_ = (__this->fields)._normalBg.fields.b;
+      uVar10._4_4_ = (__this->fields)._normalBg.fields.a;
+    }
+    else {
+      uVar7._0_4_ = (__this->fields)._hoverBg.fields.r;
+      uVar7._4_4_ = (__this->fields)._hoverBg.fields.g;
+      uVar10._0_4_ = (__this->fields)._hoverBg.fields.b;
+      uVar10._4_4_ = (__this->fields)._hoverBg.fields.a;
+    }
+    if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) goto label_1818fe491;
+    local_38._0_8_ = uVar7;
+    local_38._8_8_ = uVar10;
+    (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
+              (pUVar1,(UnityEngine_Color_o *)&local_38,(pUVar1->klass->vtable)._23_set_color.method);
+  }
+  pUVar1 = (__this->fields)._icon;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pUVar1 = (__this->fields)._icon;
+    if ((__this->fields)._disabled == false) {
+      if (cVar6 == '\0') {
+        uVar8._0_4_ = (__this->fields)._normalIcon.fields.r;
+        uVar8._4_4_ = (__this->fields)._normalIcon.fields.g;
+        uVar11._0_4_ = (__this->fields)._normalIcon.fields.b;
+        uVar11._4_4_ = (__this->fields)._normalIcon.fields.a;
       }
       else {
-        pUVar16 = (UnityEngine_Color_o *)&(__this->fields)._hoverBg.fields.a;
-        pfVar23 = &(__this->fields)._hoverText.fields.g;
+        uVar8._0_4_ = (__this->fields)._hoverText.fields.r;
+        uVar8._4_4_ = (__this->fields)._hoverText.fields.g;
+        uVar11._0_4_ = (__this->fields)._hoverText.fields.b;
+        uVar11._4_4_ = (__this->fields)._hoverText.fields.a;
       }
     }
     else {
-      pUVar16 = (UnityEngine_Color_o *)&(__this->fields)._normalFace.fields.r;
-      pfVar23 = &(__this->fields)._disabledText.fields.g;
+      uVar8._0_4_ = (__this->fields)._disabledText.fields.r;
+      uVar8._4_4_ = (__this->fields)._disabledText.fields.g;
+      uVar11._0_4_ = (__this->fields)._disabledText.fields.b;
+      uVar11._4_4_ = (__this->fields)._disabledText.fields.a;
     }
-    pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-    if (pUVar7 == (UnityEngine_UI_Image_o *)0x0) goto label_03b94c69;
-    uVar3 = (pUVar16->fields).r;
-    in_XMM1_Dc = 0;
-    in_XMM1_Dd = 0;
-    (*(pUVar7->klass->vtable)._23_set_color.methodPtr)(uVar3,(int)*(undefined8 *)pfVar23);
+    if (pUVar1 == (UnityEngine_UI_Image_o *)0x0) goto label_1818fe491;
+    local_38._0_8_ = uVar8;
+    local_38._8_8_ = uVar11;
+    (*(pUVar1->klass->vtable)._23_set_color.methodPtr)
+              (pUVar1,(UnityEngine_Color_o *)&local_38,(pUVar1->klass->vtable)._23_set_color.method);
   }
-  pTVar25 = (__this->fields)._label;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pTVar4 = (__this->fields)._label;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pMVar21 = (MethodInfo *)0x0;
-  bVar19 = UnityEngine_Object__op_Inequality
-                     ((UnityEngine_Object_o *)pTVar25,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar19 != '\0') {
-    pTVar27 = (__this->fields)._label;
-    pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-    if (pTVar27 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
-    pMVar21 = (MethodInfo *)(&(__this->fields)._normalLabelText)[cVar18 != '\0'];
-    (*(pTVar27->klass->vtable)._66_set_text.methodPtr)
-              (pTVar27,pMVar21,(pTVar27->klass->vtable)._66_set_text.method);
-    if (*(char *)((long)&(__this->fields)._hovered + 3) == '\0') {
-      pTVar25 = (__this->fields)._label;
-      if ((char)(__this->fields)._normalLabelOwnsColor != '\0') {
-        if (pTVar25 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
-        pMVar21 = (pTVar25->klass->vtable)._23_set_color.method;
-        (*(pTVar25->klass->vtable)._23_set_color.methodPtr)(0x3f800000,0x3f800000);
-        pTVar27 = (__this->fields)._label;
-        in_XMM1_Dc = 0;
-        in_XMM1_Dd = 0;
-        pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-        uVar20 = il2cpp_runtime_helper_03b428b0(0x3f800000,0x3f800000);
-        goto joined_r0x03b94bb5;
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pTVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pTVar4 = (__this->fields)._label;
+    lVar5 = 0xa8;
+    if (cVar6 == '\0') {
+      lVar5 = 0xa0;
+    }
+    if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
+    (*(pTVar4->klass->vtable)._66_set_text.methodPtr)
+              (pTVar4,*(System_String_o **)((longlong)&__this->klass + lVar5),
+               (pTVar4->klass->vtable)._66_set_text.method);
+    pTVar4 = (__this->fields)._label;
+    if ((__this->fields)._disabled == false) {
+      if ((__this->fields)._normalLabelOwnsColor != false) {
+        if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
+        local_38.r = 1.0;
+        local_38.g = 1.0;
+        local_38.b = 1.0;
+        local_38.a = 1.0;
+        (*(pTVar4->klass->vtable)._23_set_color.methodPtr)
+                  (pTVar4,(UnityEngine_Color_o *)&local_38,(pTVar4->klass->vtable)._23_set_color.method);
+        local_38.r = 1.0;
+        local_38.g = 1.0;
+        local_38.b = 1.0;
+        local_38.a = 1.0;
+        goto label_1818fe41c;
       }
-      if (pTVar25 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
-      pfVar23 = &(__this->fields)._normalText.fields.b;
-      pUVar16 = &(__this->fields)._normalText;
-      if (cVar18 != '\0') {
-        pfVar23 = &(__this->fields)._hoverText.fields.g;
-        pUVar16 = (UnityEngine_Color_o *)&(__this->fields)._hoverBg.fields.a;
+      if (cVar6 == '\0') {
+        uVar9._0_4_ = (__this->fields)._normalText.fields.r;
+        uVar9._4_4_ = (__this->fields)._normalText.fields.g;
+        uVar12._0_4_ = (__this->fields)._normalText.fields.b;
+        uVar12._4_4_ = (__this->fields)._normalText.fields.a;
       }
-      uVar6 = (pUVar16->fields).r;
-      in_XMM1_Dc = 0;
-      in_XMM1_Dd = 0;
-      pMVar21 = (pTVar25->klass->vtable)._23_set_color.method;
-      (*(pTVar25->klass->vtable)._23_set_color.methodPtr)(uVar6,(int)*(undefined8 *)pfVar23);
-      pTVar27 = (__this->fields)._label;
-      if (pTVar27 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
-      uVar20 = (__this->fields)._normalFace.fields.rgba;
+      else {
+        uVar9._0_4_ = (__this->fields)._hoverText.fields.r;
+        uVar9._4_4_ = (__this->fields)._hoverText.fields.g;
+        uVar12._0_4_ = (__this->fields)._hoverText.fields.b;
+        uVar12._4_4_ = (__this->fields)._hoverText.fields.a;
+      }
+      if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
+      local_38._0_8_ = uVar9;
+      local_38._8_8_ = uVar12;
+      (*(pTVar4->klass->vtable)._23_set_color.methodPtr)
+                (pTVar4,(UnityEngine_Color_o *)&local_38,(pTVar4->klass->vtable)._23_set_color.method);
+      pTVar4 = (__this->fields)._label;
+      if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
+      value = (_union_53103)(__this->fields)._normalFace.fields._overlap_0._at_rgba.rgba;
     }
     else {
-      pTVar27 = (__this->fields)._label;
-      pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-      if (pTVar27 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
-      uVar4 = (__this->fields)._disabledText.fields.g;
-      pTVar8 = pTVar27->klass;
-      pMVar21 = (pTVar8->vtable)._23_set_color.method;
-      (*(pTVar8->vtable)._23_set_color.methodPtr)
-                ((int)*(undefined8 *)&(__this->fields)._normalFace.fields.r,uVar4);
-      pTVar27 = (__this->fields)._label;
-      uVar5 = (__this->fields)._disabledText.fields.g;
-      in_XMM1_Dc = 0;
-      in_XMM1_Dd = 0;
-      pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-      uVar20 = il2cpp_runtime_helper_03b428b0((int)*(undefined8 *)&(__this->fields)._normalFace.fields.r,uVar5);
-joined_r0x03b94bb5:
-      if (pTVar27 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_03b94c69;
+      if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
+      local_38.r = (__this->fields)._disabledText.fields.r;
+      local_38.g = (__this->fields)._disabledText.fields.g;
+      local_38.b = (__this->fields)._disabledText.fields.b;
+      local_38.a = (__this->fields)._disabledText.fields.a;
+      (*(pTVar4->klass->vtable)._23_set_color.methodPtr)
+                (pTVar4,(UnityEngine_Color_o *)&local_38,(pTVar4->klass->vtable)._23_set_color.method);
+      local_38.r = (__this->fields)._disabledText.fields.r;
+      local_38.g = (__this->fields)._disabledText.fields.g;
+      local_38.b = (__this->fields)._disabledText.fields.b;
+      local_38.a = (__this->fields)._disabledText.fields.a;
+label_1818fe41c:
+      pTVar4 = (__this->fields)._label;
+      value._at_rgba.rgba =
+           (_struct_53104)UnityEngine_Color32__op_Implicit((UnityEngine_Color_o *)&local_38,(MethodInfo *)0x0)
+      ;
+      if (pTVar4 == (TMPro_TextMeshProUGUI_o *)0x0) goto label_1818fe491;
     }
-    value.fields.r = '\0';
-    value.fields.g = '\0';
-    value.fields.b = '\0';
-    value.fields.a = '\0';
-    value.fields.rgba = uVar20;
-    TMPro_TMP_Text__set_faceColor((TMPro_TMP_Text_o *)pTVar27,value,(MethodInfo *)0x0);
+    TMPro_TMP_Text__set_faceColor((TMPro_TMP_Text_o *)pTVar4,(UnityEngine_Color32_o)value,(MethodInfo *)0x0);
   }
-  pGVar26 = (__this->fields)._marquee;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pGVar2 = (__this->fields)._marquee;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pMVar21 = (MethodInfo *)0x0;
-  bVar19 = UnityEngine_Object__op_Inequality
-                     ((UnityEngine_Object_o *)pGVar26,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar19 == '\0') {
-    return;
-  }
-  __this_00 = (long *)(__this->fields)._marquee;
-  pTVar25 = (TMPro_TextMeshProUGUI_o *)0x0;
-  if ((Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00 !=
-      (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0) {
-    puVar22 = (undefined1 *)register0x00000020;
-    uVar17 = (ulong)(cVar18 != '\0');
-    do {
-      pGVar26 = (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00;
-      uVar24 = uVar17;
-      *(TMPro_TextMeshProUGUI_o **)(puVar22 + -8) = unaff_RBP;
-      *(Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o **)(puVar22 + -0x10) = unaff_R15;
-      *(ulong *)(puVar22 + -0x18) = unaff_R14;
-      *(long **)(puVar22 + -0x20) = unaff_RBX;
-      if (g_data_057a9ee7 == '\0') {
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b94fa5;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Application);
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b94fb1;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-        g_data_057a9ee7 = '\x01';
-      }
-      pTVar25 = (pGVar26->fields)._label;
-      unaff_RBX = &TypeInfo_Object;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b94fd4;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      *(undefined8 *)(puVar22 + -0x50) = 0x3b94fe0;
-      bVar19 = UnityEngine_Object__op_Equality
-                         ((UnityEngine_Object_o *)pTVar25,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar19 != '\0') {
-        return;
-      }
-      pUVar10 = (pGVar26->fields)._textRect;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b94ff9;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      *(undefined8 *)(puVar22 + -0x50) = 0x3b95005;
-      bVar19 = UnityEngine_Object__op_Equality
-                         ((UnityEngine_Object_o *)pUVar10,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar19 != '\0') {
-        return;
-      }
-      unaff_RBP = (TMPro_TextMeshProUGUI_o *)(pGVar26->fields)._viewport;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b9501e;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      *(undefined8 *)(puVar22 + -0x50) = 0x3b9502a;
-      bVar19 = UnityEngine_Object__op_Equality
-                         ((UnityEngine_Object_o *)unaff_RBP,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar19 != '\0') {
-        return;
-      }
-      __this_00 = (long *)(pGVar26->fields)._viewport;
-      if ((Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00 !=
-          (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0) {
-        *(undefined8 *)(puVar22 + -0x50) = 0x3b9504d;
-        UVar28 = UnityEngine_RectTransform__get_rect
-                           ((UnityEngine_RectTransform_o *)__this_00,(MethodInfo *)0x0);
-        auVar14._8_4_ = in_XMM1_Dc;
-        auVar14._0_8_ = UVar28.fields._8_8_;
-        auVar14._12_4_ = in_XMM1_Dd;
-        *(undefined1 (*) [16])(puVar22 + -0x38) = auVar14;
-        unaff_RBP = (pGVar26->fields)._label;
-        if (unaff_RBP != (TMPro_TextMeshProUGUI_o *)0x0) {
-          pMVar21 = (unaff_RBP->klass->vtable)._65_get_text.method;
-          pIVar11 = (unaff_RBP->klass->vtable)._65_get_text.methodPtr;
-          *(undefined8 *)(puVar22 + -0x50) = 0x3b95073;
-          pMVar21 = (MethodInfo *)(*pIVar11)(UVar28.fields.m_XMin,unaff_RBP,pMVar21);
-          *(undefined8 *)(puVar22 + -0x50) = 0x3b95080;
-          UVar13 = TMPro_TMP_Text__GetPreferredValues_4c6ffa0
-                             ((TMPro_TMP_Text_o *)unaff_RBP,(System_String_o *)pMVar21,(MethodInfo *)0x0);
-          if (((*(float *)(puVar22 + -0x38) <= 1.0) || (UVar13.fields.x <= *(float *)(puVar22 + -0x38) + 1.0))
-             || ((char)uVar24 == '\0')) {
-label_03b95206:
-            Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText__Restore(pGVar26,pMVar21);
-            return;
-          }
-          auVar12._8_4_ = extraout_XMM0_Dc;
-          auVar12._0_4_ = UVar13.fields.x;
-          auVar12._4_4_ = UVar13.fields.y;
-          auVar12._12_4_ = extraout_XMM0_Dd;
-          *(undefined1 (*) [16])(puVar22 + -0x48) = auVar12;
-          if (*(int *)(TypeInfo_Application + 0xe4) == 0) {
-            *(undefined8 *)(puVar22 + -0x50) = 0x3b950cf;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          *(undefined8 *)(puVar22 + -0x50) = 0x3b950d6;
-          bVar19 = UnityEngine_Application__get_isPlaying((MethodInfo *)0x0);
-          fVar1 = *(float *)(puVar22 + -0x48);
-          fVar15 = *(float *)(puVar22 + -0x38);
-          in_XMM1_Dc = *(undefined4 *)(puVar22 + -0x30);
-          in_XMM1_Dd = *(undefined4 *)(puVar22 + -0x2c);
-          if ((char)bVar19 == '\0') goto label_03b95206;
-          *(undefined1 *)((long)&(pGVar26->fields)._selfActivate + 3) = 1;
-          (pGVar26->fields)._hovered = 0;
-          (pGVar26->fields)._selected = (bool_conflict)((fVar1 - fVar15) + 24.0);
-          pTVar25 = (pGVar26->fields)._label;
-          __this_00 = (long *)0x0;
-          if (pTVar25 != (TMPro_TextMeshProUGUI_o *)0x0) {
-            *(undefined8 *)(puVar22 + -0x50) = 0x3b9511c;
-            TMPro_TMP_Text__set_overflowMode((TMPro_TMP_Text_o *)pTVar25,0,(MethodInfo *)0x0);
-            pTVar25 = (pGVar26->fields)._label;
-            __this_00 = (long *)0x0;
-            if (pTVar25 != (TMPro_TextMeshProUGUI_o *)0x0) {
-              *(undefined8 *)(puVar22 + -0x50) = 0x3b95135;
-              TMPro_TMP_Text__set_alignment((TMPro_TMP_Text_o *)pTVar25,0x1001,(MethodInfo *)0x0);
-              pUVar10 = (pGVar26->fields)._textRect;
-              __this_00 = (long *)0x0;
-              if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-                fVar1 = (pGVar26->fields)._normalAnchorMin.fields.y;
-                in_XMM1_Dc = 0;
-                in_XMM1_Dd = 0;
-                *(undefined8 *)(puVar22 + -0x50) = 0x3b9515a;
-                UnityEngine_RectTransform__set_anchorMin
-                          (pUVar10,(UnityEngine_Vector2_o)((ulong)(uint)fVar1 << 0x20),(MethodInfo *)0x0);
-                pUVar10 = (pGVar26->fields)._textRect;
-                __this_00 = (long *)0x0;
-                if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-                  fVar1 = (pGVar26->fields)._normalAnchorMax.fields.y;
-                  in_XMM1_Dc = 0;
-                  in_XMM1_Dd = 0;
-                  *(undefined8 *)(puVar22 + -0x50) = 0x3b9517f;
-                  UnityEngine_RectTransform__set_anchorMax
-                            (pUVar10,(UnityEngine_Vector2_o)((ulong)(uint)fVar1 << 0x20),(MethodInfo *)0x0);
-                  pUVar10 = (pGVar26->fields)._textRect;
-                  __this_00 = (long *)0x0;
-                  if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-                    *(undefined8 *)(puVar22 + -0x50) = 0x3b9519a;
-                    UnityEngine_RectTransform__set_pivot
-                              (pUVar10,(UnityEngine_Vector2_o)0x3f00000000000000,(MethodInfo *)0x0);
-                    __this_00 = (long *)(pGVar26->fields)._textRect;
-                    if ((Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00 !=
-                        (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0) {
-                      *(undefined8 *)(puVar22 + -0x50) = 0x3b951b8;
-                      UnityEngine_RectTransform__SetSizeWithCurrentAnchors
-                                ((UnityEngine_RectTransform_o *)__this_00,0,*(float *)(puVar22 + -0x48) + 24.0
-                                 ,(MethodInfo *)0x0);
-                      pUVar10 = (pGVar26->fields)._textRect;
-                      if (g_data_057a694c == '\0') {
-                        __this_00 = &TypeInfo_Vector2;
-                        *(undefined8 *)(puVar22 + -0x50) = 0x3b951d1;
-                        il2cpp_runtime_helper_023445d0();
-                        g_data_057a694c = '\x01';
-                      }
-                      unaff_RBX = (long *)0x0;
-                      if (pUVar10 != (UnityEngine_RectTransform_o *)0x0) {
-                        UnityEngine_RectTransform__set_anchoredPosition
-                                  (pUVar10,(UnityEngine_Vector2_o)
-                                           **(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),
-                                   (MethodInfo *)0x0);
-                        return;
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-      *(undefined8 *)(puVar22 + -0x50) = 0x3b9521d;
-      il2cpp_runtime_helper_022b2c90();
-      if ((char)(((Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00)->fields)._selfActivate ==
-          '\0') {
-        return;
-      }
-      *(undefined1 *)
-       ((long)&(((Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)__this_00)->fields)._selfActivate + 1
-       ) = 1;
-      puVar22 = puVar22 + -0x48;
-      uVar17 = 1;
-      unaff_R14 = uVar24;
-      unaff_R15 = pGVar26;
-    } while( true );
-  }
-label_03b94c69:
-  il2cpp_runtime_helper_022b2c90();
-  lVar9 = *(long *)&(pTVar25->fields).m_Maskable;
-  if (lVar9 != 0) {
-    pMVar21 = *(MethodInfo **)(lVar9 + 0x28);
-    cVar18 = (**(code **)(lVar9 + 0x18))(*(undefined8 *)(lVar9 + 0x40));
-    if (cVar18 == '\0') {
-      *(undefined1 *)&(pTVar25->fields).m_IncludeForMasking = 0;
-      Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh
-                ((Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)pTVar25,pMVar21);
-      return;
+  bVar3 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)pGVar2,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar3) {
+    pGVar2 = (__this->fields)._marquee;
+    if (pGVar2 == (Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText_o *)0x0) {
+label_1818fe491:
+      ThrowNullReferenceException();
     }
+    Gisketch_Aottg2UI_Actions_GisketchHoverMarqueeText__Refresh(pGVar2,cVar6 != '\0',(MethodInfo *)0x0);
   }
-  *(undefined1 *)&(pTVar25->fields).m_IncludeForMasking = 1;
-  Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Refresh
-            ((Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *)pTVar25,pMVar21);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$Muted
 // il2cpp: UnityEngine_Color_o Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Muted (UnityEngine_Color_o surface, const MethodInfo* method);
-// 0x3b947f0
+// 0x1818fe0a0
 
-UnityEngine_Color_o
-Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Muted(UnityEngine_Color_o surface,MethodInfo *method)
+UnityEngine_Color_o *
+Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Muted
+          (UnityEngine_Color_o *__return_storage_ptr__,UnityEngine_Color_o *surface,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  undefined4 uVar2;
-  UnityEngine_Color_o UVar3;
+  float fVar1;
+  float fVar2;
+  float fVar3;
   
-  uVar2 = 0;
-  if (surface.fields.b * 0.0722 + surface.fields.g * 0.7152 + surface.fields.r * 0.2126 < 0.5) {
-    uVar1 = 0x3f8000003f800000;
-    uVar2 = 0x3f800000;
+  if (0.5 <= (surface->fields).g * 0.7152 + (surface->fields).r * 0.2126 + (surface->fields).b * 0.0722) {
+    fVar1 = 0.0;
+    fVar2 = 0.0;
+    fVar3 = 0.0;
   }
   else {
-    uVar1 = 0;
+    fVar1 = 1.0;
+    fVar2 = 1.0;
+    fVar3 = 1.0;
   }
-  UVar3.fields.a = 0.5;
-  UVar3.fields.b = (float)uVar2;
-  UVar3.fields.r = (float)(int)uVar1;
-  UVar3.fields.g = (float)(int)((ulong)uVar1 >> 0x20);
-  return (UnityEngine_Color_o)UVar3.fields;
+  (__return_storage_ptr__->fields).r = fVar1;
+  (__return_storage_ptr__->fields).g = fVar2;
+  (__return_storage_ptr__->fields).b = fVar3;
+  (__return_storage_ptr__->fields).a = 0.5;
+  return __return_storage_ptr__;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$Luminance
 // il2cpp: float Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Luminance (UnityEngine_Color_o color, const MethodInfo* method);
-// 0x3b94d40
+// 0x1818fe070
 
 float Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback__Luminance
-                (UnityEngine_Color_o color,MethodInfo *method)
+                (UnityEngine_Color_o *color,MethodInfo *method)
 
 {
-  return color.fields.g * 0.7152 + color.fields.r * 0.2126 + color.fields.b * 0.0722;
+  return (color->fields).g * 0.7152 + (color->fields).r * 0.2126 + (color->fields).b * 0.0722;
 }
 
 
 // Gisketch.Aottg2UI.Actions.GisketchDropdownItemFeedback$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback___ctor (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, const MethodInfo* method);
-// 0x3b94d70
+// 0x180528540
 
-void Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback___ctor
-               (Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o *__this,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback___ctor(Gisketch_Aottg2UI_Actions_GisketchDropdownItemFeedback_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

@@ -19,8 +19,8 @@ internal sealed class CoalesceConversionBinaryExpression : BinaryExpression
 	[Token(Token = "0x17000053")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x60001D2")]
-		[Address(RVA = "0x4496D10", Offset = "0x4496D10", VA = "0x4496D10", Slot = "4")]
+		[Token(Token = "0x60001D1")]
+		[Address(RVA = "0x106DD80", Offset = "0x106C380", VA = "0x18106DD80", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -30,22 +30,22 @@ internal sealed class CoalesceConversionBinaryExpression : BinaryExpression
 	[Token(Token = "0x17000054")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60001D3")]
-		[Address(RVA = "0x4496D20", Offset = "0x4496D20", VA = "0x4496D20", Slot = "5")]
+		[Token(Token = "0x60001D2")]
+		[Address(RVA = "0x1C702C0", Offset = "0x1C6E8C0", VA = "0x181C702C0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60001D0")]
-	[Address(RVA = "0x4496C70", Offset = "0x4496C70", VA = "0x4496C70")]
+	[Token(Token = "0x60001CF")]
+	[Address(RVA = "0x2409A70", Offset = "0x2408070", VA = "0x182409A70")]
 	internal CoalesceConversionBinaryExpression(Expression left, Expression right, LambdaExpression conversion)
 	{
 	}
 
-	[Token(Token = "0x60001D1")]
-	[Address(RVA = "0x4496D00", Offset = "0x4496D00", VA = "0x4496D00", Slot = "11")]
+	[Token(Token = "0x60001D0")]
+	[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0", Slot = "11")]
 	internal override LambdaExpression GetConversion()
 	{
 		return null;

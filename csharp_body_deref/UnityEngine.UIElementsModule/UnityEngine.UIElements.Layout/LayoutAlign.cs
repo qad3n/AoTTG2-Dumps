@@ -9,23 +9,23 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200051A")]
+[Token(Token = "0x200060E")]
 internal enum LayoutAlign
 {
-	[Token(Token = "0x4001124")]
+	[Token(Token = "0x400169D")]
 	Auto,
-	[Token(Token = "0x4001125")]
+	[Token(Token = "0x400169E")]
 	FlexStart,
-	[Token(Token = "0x4001126")]
+	[Token(Token = "0x400169F")]
 	Center,
-	[Token(Token = "0x4001127")]
+	[Token(Token = "0x40016A0")]
 	FlexEnd,
-	[Token(Token = "0x4001128")]
+	[Token(Token = "0x40016A1")]
 	Stretch,
-	[Token(Token = "0x4001129")]
+	[Token(Token = "0x40016A2")]
 	Baseline,
-	[Token(Token = "0x400112A")]
+	[Token(Token = "0x40016A3")]
 	SpaceBetween,
-	[Token(Token = "0x400112B")]
+	[Token(Token = "0x40016A4")]
 	SpaceAround
 }

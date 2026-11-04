@@ -11,37 +11,37 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x20006B1")]
+[Token(Token = "0x200080C")]
 internal class TipPanel : MonoBehaviour
 {
-	[Token(Token = "0x4002091")]
+	[Token(Token = "0x4002865")]
 	[FieldOffset(Offset = "0x20")]
 	private Text _label;
 
-	[Token(Token = "0x4002092")]
+	[Token(Token = "0x4002866")]
 	[FieldOffset(Offset = "0x28")]
 	private int currentTipIndex;
 
-	[Token(Token = "0x60042A6")]
-	[Address(RVA = "0x4313740", Offset = "0x4313740", VA = "0x4313740")]
+	[Token(Token = "0x6004D9A")]
+	[Address(RVA = "0x229AF40", Offset = "0x2299540", VA = "0x18229AF40")]
 	public void Setup()
 	{
 	}
 
-	[Token(Token = "0x60042A7")]
-	[Address(RVA = "0x43137C0", Offset = "0x43137C0", VA = "0x43137C0")]
+	[Token(Token = "0x6004D9B")]
+	[Address(RVA = "0x229AD60", Offset = "0x2299360", VA = "0x18229AD60")]
 	public void SetRandomTip()
 	{
 	}
 
-	[Token(Token = "0x60042A8")]
-	[Address(RVA = "0x4313990", Offset = "0x4313990", VA = "0x4313990")]
+	[Token(Token = "0x6004D9C")]
+	[Address(RVA = "0x229ACE0", Offset = "0x22992E0", VA = "0x18229ACE0")]
 	public void SetPressAnyKey()
 	{
 	}
 
-	[Token(Token = "0x60042A9")]
-	[Address(RVA = "0x4313A10", Offset = "0x4313A10", VA = "0x4313A10")]
+	[Token(Token = "0x6004D9D")]
+	[Address(RVA = "0x229AFD0", Offset = "0x22995D0", VA = "0x18229AFD0")]
 	public TipPanel()
 	{
 	}

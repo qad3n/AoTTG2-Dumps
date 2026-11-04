@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: CustomLogic.CustomLogicTimeBuiltin
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/CustomLogic/CustomLogicTimeBuiltin.c
 // Prior real C# source (older reference): Assets/Scripts/CustomLogic/Builtin/CustomLogicTimeBuiltin.cs
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,177 +11,195 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200042A")]
+[Token(Token = "0x2000580")]
 [CompilerGenerated]
 internal class CustomLogicTimeBuiltin : BuiltinClassInstance
 {
-	[Token(Token = "0x200042B")]
+	[Token(Token = "0x2000581")]
 	public static class Factory
 	{
-		[Token(Token = "0x6002AA6")]
-		[Address(RVA = "0x40E6990", Offset = "0x40E6990", VA = "0x40E6990")]
+		[Token(Token = "0x600340B")]
+		[Address(RVA = "0x2074CF0", Offset = "0x20732F0", VA = "0x182074CF0")]
 		public static CustomLogicTimeBuiltin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x200042C")]
+	[Token(Token = "0x2000582")]
 	public static class Bindings
 	{
-		[Token(Token = "0x400118F")]
+		[Token(Token = "0x40017CC")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x6002AA7")]
-		[Address(RVA = "0x40E6AB0", Offset = "0x40E6AB0", VA = "0x40E6AB0")]
+		[Token(Token = "0x600340C")]
+		[Address(RVA = "0x2048A70", Offset = "0x2047070", VA = "0x182048A70")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AA8")]
-		[Address(RVA = "0x40E6CE0", Offset = "0x40E6CE0", VA = "0x40E6CE0")]
+		[Token(Token = "0x600340D")]
+		[Address(RVA = "0x2063860", Offset = "0x2061E60", VA = "0x182063860")]
 		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__TickTime()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AA9")]
-		[Address(RVA = "0x40E6D80", Offset = "0x40E6D80", VA = "0x40E6D80")]
+		[Token(Token = "0x600340E")]
+		[Address(RVA = "0x2061E70", Offset = "0x2060470", VA = "0x182061E70")]
 		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__FrameTime()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AAA")]
-		[Address(RVA = "0x40E6E20", Offset = "0x40E6E20", VA = "0x40E6E20")]
+		[Token(Token = "0x600340F")]
+		[Address(RVA = "0x2063AE0", Offset = "0x20620E0", VA = "0x182063AE0")]
+		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__UnscaledFrameTime()
+		{
+			return null;
+		}
+
+		[Token(Token = "0x6003410")]
+		[Address(RVA = "0x2061F10", Offset = "0x2060510", VA = "0x182061F10")]
 		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__GameTime()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AAB")]
-		[Address(RVA = "0x40E6EC0", Offset = "0x40E6EC0", VA = "0x40E6EC0")]
+		[Token(Token = "0x6003411")]
+		[Address(RVA = "0x2061CE0", Offset = "0x20602E0", VA = "0x182061CE0")]
 		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__EngineTime()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002AAC")]
-		[Address(RVA = "0x40E6F60", Offset = "0x40E6F60", VA = "0x40E6F60")]
+		[Token(Token = "0x6003412")]
+		[Address(RVA = "0x2063900", Offset = "0x2061F00", VA = "0x182063900")]
 		public static CLPropertyBinding<CustomLogicTimeBuiltin> __CreatePropertyBinding__TimeScale()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700089E")]
+	[Token(Token = "0x17000991")]
 	public static float TickTime
 	{
-		[Token(Token = "0x6002A9C")]
-		[Address(RVA = "0x40E6860", Offset = "0x40E6860", VA = "0x40E6860")]
+		[Token(Token = "0x6003400")]
+		[Address(RVA = "0x2069FD0", Offset = "0x20685D0", VA = "0x182069FD0")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700089F")]
+	[Token(Token = "0x17000992")]
 	public static float FrameTime
 	{
-		[Token(Token = "0x6002A9D")]
-		[Address(RVA = "0x40E6870", Offset = "0x40E6870", VA = "0x40E6870")]
+		[Token(Token = "0x6003401")]
+		[Address(RVA = "0x2069F60", Offset = "0x2068560", VA = "0x182069F60")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170008A0")]
+	[Token(Token = "0x17000993")]
+	public static float UnscaledFrameTime
+	{
+		[Token(Token = "0x6003402")]
+		[Address(RVA = "0x2069FF0", Offset = "0x20685F0", VA = "0x182069FF0")]
+		get
+		{
+			return default(float);
+		}
+	}
+
+	[Token(Token = "0x17000994")]
 	public static float GameTime
 	{
-		[Token(Token = "0x6002A9E")]
-		[Address(RVA = "0x40E6880", Offset = "0x40E6880", VA = "0x40E6880")]
+		[Token(Token = "0x6003403")]
+		[Address(RVA = "0x2069F70", Offset = "0x2068570", VA = "0x182069F70")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170008A1")]
+	[Token(Token = "0x17000995")]
 	public static float EngineTime
 	{
-		[Token(Token = "0x6002A9F")]
-		[Address(RVA = "0x40E6900", Offset = "0x40E6900", VA = "0x40E6900")]
+		[Token(Token = "0x6003404")]
+		[Address(RVA = "0x2069F50", Offset = "0x2068550", VA = "0x182069F50")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x170008A2")]
+	[Token(Token = "0x17000996")]
 	public static float TimeScale
 	{
-		[Token(Token = "0x6002AA0")]
-		[Address(RVA = "0x40E6910", Offset = "0x40E6910", VA = "0x40E6910")]
+		[Token(Token = "0x6003405")]
+		[Address(RVA = "0x2069FE0", Offset = "0x20685E0", VA = "0x182069FE0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6002AA1")]
-		[Address(RVA = "0x40E6920", Offset = "0x40E6920", VA = "0x40E6920")]
+		[Token(Token = "0x6003406")]
+		[Address(RVA = "0x206A000", Offset = "0x2068600", VA = "0x18206A000")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170008A3")]
+	[Token(Token = "0x17000997")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002AA2")]
-		[Address(RVA = "0x40E6930", Offset = "0x40E6930", VA = "0x40E6930", Slot = "4")]
+		[Token(Token = "0x6003407")]
+		[Address(RVA = "0x2069F20", Offset = "0x2068520", VA = "0x182069F20", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170008A4")]
+	[Token(Token = "0x17000998")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002AA3")]
-		[Address(RVA = "0x40E6960", Offset = "0x40E6960", VA = "0x40E6960", Slot = "6")]
+		[Token(Token = "0x6003408")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008A5")]
+	[Token(Token = "0x17000999")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002AA4")]
-		[Address(RVA = "0x40E6970", Offset = "0x40E6970", VA = "0x40E6970", Slot = "7")]
+		[Token(Token = "0x6003409")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170008A6")]
+	[Token(Token = "0x1700099A")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002AA5")]
-		[Address(RVA = "0x40E6980", Offset = "0x40E6980", VA = "0x40E6980", Slot = "8")]
+		[Token(Token = "0x600340A")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002A9B")]
-	[Address(RVA = "0x40E67F0", Offset = "0x40E67F0", VA = "0x40E67F0")]
+	[Token(Token = "0x60033FF")]
+	[Address(RVA = "0x2069ED0", Offset = "0x20684D0", VA = "0x182069ED0")]
 	public CustomLogicTimeBuiltin()
 	{
 	}

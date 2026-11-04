@@ -10,49 +10,49 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x20001DD")]
+[Token(Token = "0x20001E7")]
 public class fsDateConverter : fsConverter
 {
-	[Token(Token = "0x400095C")]
+	[Token(Token = "0x4000964")]
 	private const string DefaultDateTimeFormatString = "o";
 
-	[Token(Token = "0x400095D")]
+	[Token(Token = "0x4000965")]
 	private const string DateTimeOffsetFormatString = "o";
 
-	[Token(Token = "0x170001F7")]
+	[Token(Token = "0x170001FA")]
 	private string DateTimeFormatString
 	{
-		[Token(Token = "0x600116C")]
-		[Address(RVA = "0x4D69680", Offset = "0x4D69680", VA = "0x4D69680")]
+		[Token(Token = "0x60011A0")]
+		[Address(RVA = "0x2E60E60", Offset = "0x2E5F460", VA = "0x182E60E60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600116D")]
-	[Address(RVA = "0x4D696D0", Offset = "0x4D696D0", VA = "0x4D696D0", Slot = "9")]
+	[Token(Token = "0x60011A1")]
+	[Address(RVA = "0x2E603E0", Offset = "0x2E5E9E0", VA = "0x182E603E0", Slot = "9")]
 	public override bool CanProcess(Type type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600116E")]
-	[Address(RVA = "0x4D697D0", Offset = "0x4D697D0", VA = "0x4D697D0", Slot = "7")]
+	[Token(Token = "0x60011A2")]
+	[Address(RVA = "0x2E60B80", Offset = "0x2E5F180", VA = "0x182E60B80", Slot = "7")]
 	public override fsResult TrySerialize(object instance, out fsData serialized, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x600116F")]
-	[Address(RVA = "0x4D69A60", Offset = "0x4D69A60", VA = "0x4D69A60", Slot = "8")]
+	[Token(Token = "0x60011A3")]
+	[Address(RVA = "0x2E604E0", Offset = "0x2E5EAE0", VA = "0x182E604E0", Slot = "8")]
 	public override fsResult TryDeserialize(fsData data, ref object instance, Type storageType)
 	{
 		return default(fsResult);
 	}
 
-	[Token(Token = "0x6001170")]
-	[Address(RVA = "0x4D6A3D0", Offset = "0x4D6A3D0", VA = "0x4D6A3D0")]
+	[Token(Token = "0x60011A4")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public fsDateConverter()
 	{
 	}

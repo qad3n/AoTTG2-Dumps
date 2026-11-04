@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000024")]
 internal enum AggregateType
 {
-	[Token(Token = "0x4000005")]
+	[Token(Token = "0x40000E1")]
 	None = 0,
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x40000E2")]
 	Sum = 4,
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x40000E3")]
 	Mean = 5,
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x40000E4")]
 	Min = 6,
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x40000E5")]
 	Max = 7,
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x40000E6")]
 	First = 8,
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x40000E7")]
 	Count = 9,
-	[Token(Token = "0x400000C")]
+	[Token(Token = "0x40000E8")]
 	Var = 10,
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x40000E9")]
 	StDev = 11
 }

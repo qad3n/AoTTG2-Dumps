@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Versioning;
 
-[Token(Token = "0x20003C4")]
+[Token(Token = "0x20003F3")]
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Constructor | AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
 internal sealed class NonVersionableAttribute : Attribute
 {
-	[Token(Token = "0x6001F1A")]
-	[Address(RVA = "0x3B93990", Offset = "0x3B93990", VA = "0x3B93990")]
+	[Token(Token = "0x6001F89")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NonVersionableAttribute()
 	{
 	}

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004D1")]
+[Token(Token = "0x2000501")]
 [Flags]
 public enum BindingFlags
 {

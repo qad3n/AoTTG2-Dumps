@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200008D")]
+[Token(Token = "0x2000082")]
 public enum MaskingTypes
 {
-	[Token(Token = "0x4000497")]
+	[Token(Token = "0x4000402")]
 	MaskOff,
-	[Token(Token = "0x4000498")]
+	[Token(Token = "0x4000403")]
 	MaskHard,
-	[Token(Token = "0x4000499")]
+	[Token(Token = "0x4000404")]
 	MaskSoft
 }

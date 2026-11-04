@@ -14,12 +14,12 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Experimental.Video;
 
 [Token(Token = "0x2000002")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
-[UnityEngine.Bindings.StaticAccessor("VideoClipPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Video/Public/Director/VideoClipPlayable.h")]
 [UnityEngine.Bindings.NativeHeader("Modules/Video/Public/VideoClip.h")]
-[UnityEngine.Bindings.NativeHeader("Modules/Video/Public/ScriptBindings/VideoClipPlayable.bindings.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.StaticAccessor("VideoClipPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct VideoClipPlayable : IEquatable<VideoClipPlayable>
 {
 	[Token(Token = "0x4000001")]
@@ -27,14 +27,14 @@ public struct VideoClipPlayable : IEquatable<VideoClipPlayable>
 	private PlayableHandle m_Handle;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x510A5E0", Offset = "0x510A5E0", VA = "0x510A5E0", Slot = "5")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x510A5F0", Offset = "0x510A5F0", VA = "0x510A5F0", Slot = "4")]
+	[Address(RVA = "0x33115D0", Offset = "0x330FBD0", VA = "0x1833115D0", Slot = "4")]
 	public bool Equals(VideoClipPlayable other)
 	{
 		return default(bool);

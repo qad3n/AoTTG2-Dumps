@@ -14,58 +14,64 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.U2D;
 
-[Token(Token = "0x20001B3")]
-[UnityEngine.Bindings.StaticAccessor("GetSpriteAtlasManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
+[Token(Token = "0x2000402")]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/SpriteAtlas/SpriteAtlasManager.h")]
+[UnityEngine.Bindings.StaticAccessor("GetSpriteAtlasManager()", UnityEngine.Bindings.StaticAccessorType.Dot)]
 [UnityEngine.Bindings.NativeHeader("Runtime/2D/SpriteAtlas/SpriteAtlas.h")]
 public class SpriteAtlasManager
 {
-	[Token(Token = "0x4000628")]
+	[Token(Token = "0x4000E0F")]
 	[FieldOffset(Offset = "0x0")]
-	[CompilerGenerated]
 	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
 	private static Action<string, Action<SpriteAtlas>> atlasRequested;
 
-	[Token(Token = "0x14000004")]
+	[Token(Token = "0x4000E10")]
+	[FieldOffset(Offset = "0x8")]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	[CompilerGenerated]
+	private static Action<SpriteAtlas> m_atlasRegistered;
+
+	[Token(Token = "0x14000011")]
 	public static event Action<SpriteAtlas> atlasRegistered
 	{
-		[Token(Token = "0x6000CA4")]
-		[Address(RVA = "0x4E0DD70", Offset = "0x4E0DD70", VA = "0x4E0DD70")]
+		[Token(Token = "0x6001813")]
+		[Address(RVA = "0x2F79D70", Offset = "0x2F78370", VA = "0x182F79D70")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6000CA5")]
-		[Address(RVA = "0x4E0DE50", Offset = "0x4E0DE50", VA = "0x4E0DE50")]
+		[Token(Token = "0x6001814")]
+		[Address(RVA = "0x2F79E40", Offset = "0x2F78440", VA = "0x182F79E40")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CA3")]
-	[Address(RVA = "0x4E0DCD0", Offset = "0x4E0DCD0", VA = "0x4E0DCD0")]
+	[Token(Token = "0x6001812")]
+	[Address(RVA = "0x2F79CC0", Offset = "0x2F782C0", VA = "0x182F79CC0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static bool RequestAtlas(string tag)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000CA6")]
-	[Address(RVA = "0x4E0DF30", Offset = "0x4E0DF30", VA = "0x4E0DF30")]
+	[Token(Token = "0x6001815")]
+	[Address(RVA = "0x2F79BB0", Offset = "0x2F781B0", VA = "0x182F79BB0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void PostRegisteredAtlas(SpriteAtlas spriteAtlas)
 	{
 	}
 
-	[Token(Token = "0x6000CA7")]
-	[Address(RVA = "0x4E0DF80", Offset = "0x4E0DF80", VA = "0x4E0DF80")]
+	[Token(Token = "0x6001816")]
+	[Address(RVA = "0x2F79C50", Offset = "0x2F78250", VA = "0x182F79C50")]
 	internal static void Register(SpriteAtlas spriteAtlas)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x6000CA8")]
-	[Address(RVA = "0x4E0E030", Offset = "0x4E0E030", VA = "0x4E0E030")]
+	[Token(Token = "0x6001817")]
+	[Address(RVA = "0x2F79C10", Offset = "0x2F78210", VA = "0x182F79C10")]
 	private static extern void Register_Injected(IntPtr spriteAtlas);
 }

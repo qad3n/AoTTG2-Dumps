@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000085")]
+[Token(Token = "0x200004F")]
 public struct ListBuffer<T> where T : struct
 {
-	[Token(Token = "0x4000217")]
+	[Token(Token = "0x4000138")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe T* m_BufferPtr;
 
-	[Token(Token = "0x4000218")]
+	[Token(Token = "0x4000139")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_Capacity;
 
-	[Token(Token = "0x4000219")]
+	[Token(Token = "0x400013A")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe int* m_CountPtr;
 
-	[Token(Token = "0x1700005D")]
+	[Token(Token = "0x1700003C")]
 	internal unsafe T* BufferPtr
 	{
-		[Token(Token = "0x60005F9")]
+		[Token(Token = "0x6000510")]
 		get
 		{
 			//IL_0002: Expected I, but got O
@@ -35,65 +35,65 @@ public struct ListBuffer<T> where T : struct
 		}
 	}
 
-	[Token(Token = "0x1700005E")]
+	[Token(Token = "0x1700003D")]
 	public int Count
 	{
-		[Token(Token = "0x60005FA")]
+		[Token(Token = "0x6000511")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700005F")]
+	[Token(Token = "0x1700003E")]
 	public int Capacity
 	{
-		[Token(Token = "0x60005FB")]
+		[Token(Token = "0x6000512")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000060")]
+	[Token(Token = "0x1700003F")]
 	public unsafe ref T this[in int index]
 	{
-		[Token(Token = "0x60005FD")]
+		[Token(Token = "0x6000514")]
 		get
 		{
 			return ref *(T*)null;
 		}
 	}
 
-	[Token(Token = "0x60005FC")]
+	[Token(Token = "0x6000513")]
 	public unsafe ListBuffer(T* bufferPtr, int* countPtr, int capacity)
 	{
 	}
 
-	[Token(Token = "0x60005FE")]
+	[Token(Token = "0x6000515")]
 	public unsafe ref T GetUnchecked(in int index)
 	{
 		return ref *(T*)null;
 	}
 
-	[Token(Token = "0x60005FF")]
+	[Token(Token = "0x6000516")]
 	public bool TryAdd(in T value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000600")]
+	[Token(Token = "0x6000517")]
 	public unsafe void CopyTo(T* dstBuffer, int startDstIndex, int copyCount)
 	{
 	}
 
-	[Token(Token = "0x6000601")]
+	[Token(Token = "0x6000518")]
 	public bool TryCopyTo(ListBuffer<T> other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000602")]
+	[Token(Token = "0x6000519")]
 	public unsafe bool TryCopyFrom(T* srcPtr, int count)
 	{
 		return default(bool);

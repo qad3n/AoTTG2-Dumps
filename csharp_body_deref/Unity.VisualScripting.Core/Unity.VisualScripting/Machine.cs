@@ -15,97 +15,64 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000CB")]
 public abstract class Machine<TGraph, TMacro> : LudiqBehaviour, IMachine, IGraphRoot, IGraphParent, IGraphNester, IAotStubbable where TGraph : class, IGraph, new() where TMacro : Macro<TGraph>
 {
-	[Token(Token = "0x4000131")]
+	[Token(Token = "0x400012F")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	private bool _alive;
 
-	[Token(Token = "0x4000132")]
+	[Token(Token = "0x4000130")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	private bool _enabled;
 
-	[Token(Token = "0x4000133")]
+	[Token(Token = "0x4000131")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	private GameObject threadSafeGameObject;
 
-	[Token(Token = "0x4000134")]
+	[Token(Token = "0x4000132")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	private bool isReferenceCached;
 
-	[Token(Token = "0x4000135")]
+	[Token(Token = "0x4000133")]
 	[FieldOffset(Offset = "0x0")]
 	[DoNotSerialize]
 	private GraphReference _reference;
 
-	[Token(Token = "0x170000FE")]
+	[Token(Token = "0x17000101")]
 	[Serialize]
 	public GraphNest<TGraph, TMacro> nest
 	{
-		[Token(Token = "0x60004C8")]
+		[Token(Token = "0x60004D2")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004C9")]
+		[Token(Token = "0x60004D3")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000FF")]
+	[Token(Token = "0x17000102")]
 	[DoNotSerialize]
 	private IGraphNest Unity_002EVisualScripting_002EIGraphNester_002Enest
 	{
-		[Token(Token = "0x60004CA")]
+		[Token(Token = "0x60004D4")]
 		get
 		{
 			return null;
-		}
-	}
-
-	[Token(Token = "0x17000100")]
-	[DoNotSerialize]
-	private GameObject Unity_002EVisualScripting_002EIMachine_002EthreadSafeGameObject
-	{
-		[Token(Token = "0x60004CB")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000101")]
-	[DoNotSerialize]
-	protected GraphReference reference
-	{
-		[Token(Token = "0x60004CC")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000102")]
-	[DoNotSerialize]
-	protected bool hasGraph
-	{
-		[Token(Token = "0x60004CD")]
-		get
-		{
-			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x17000103")]
 	[DoNotSerialize]
-	public TGraph graph
+	private GameObject Unity_002EVisualScripting_002EIMachine_002EthreadSafeGameObject
 	{
-		[Token(Token = "0x60004CE")]
+		[Token(Token = "0x60004D5")]
 		get
 		{
 			return null;
@@ -114,26 +81,20 @@ public abstract class Machine<TGraph, TMacro> : LudiqBehaviour, IMachine, IGraph
 
 	[Token(Token = "0x17000104")]
 	[DoNotSerialize]
-	public IGraphData graphData
+	protected GraphReference reference
 	{
-		[Token(Token = "0x60004CF")]
-		[CompilerGenerated]
+		[Token(Token = "0x60004D6")]
 		get
 		{
 			return null;
-		}
-		[Token(Token = "0x60004D0")]
-		[CompilerGenerated]
-		set
-		{
 		}
 	}
 
 	[Token(Token = "0x17000105")]
 	[DoNotSerialize]
-	private bool Unity_002EVisualScripting_002EIGraphParent_002EisSerializationRoot
+	protected bool hasGraph
 	{
-		[Token(Token = "0x60004D1")]
+		[Token(Token = "0x60004D7")]
 		get
 		{
 			return default(bool);
@@ -142,9 +103,9 @@ public abstract class Machine<TGraph, TMacro> : LudiqBehaviour, IMachine, IGraph
 
 	[Token(Token = "0x17000106")]
 	[DoNotSerialize]
-	private Object Unity_002EVisualScripting_002EIGraphParent_002EserializedObject
+	public TGraph graph
 	{
-		[Token(Token = "0x60004D2")]
+		[Token(Token = "0x60004D8")]
 		get
 		{
 			return null;
@@ -153,115 +114,154 @@ public abstract class Machine<TGraph, TMacro> : LudiqBehaviour, IMachine, IGraph
 
 	[Token(Token = "0x17000107")]
 	[DoNotSerialize]
-	private IGraph Unity_002EVisualScripting_002EIGraphParent_002EchildGraph
+	public IGraphData graphData
 	{
-		[Token(Token = "0x60004D3")]
+		[Token(Token = "0x60004D9")]
+		[CompilerGenerated]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x60004DA")]
+		[CompilerGenerated]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000108")]
+	[DoNotSerialize]
+	private bool Unity_002EVisualScripting_002EIGraphParent_002EisSerializationRoot
+	{
+		[Token(Token = "0x60004DB")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000109")]
+	[DoNotSerialize]
+	private Object Unity_002EVisualScripting_002EIGraphParent_002EserializedObject
+	{
+		[Token(Token = "0x60004DC")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000108")]
+	[Token(Token = "0x1700010A")]
+	[DoNotSerialize]
+	private IGraph Unity_002EVisualScripting_002EIGraphParent_002EchildGraph
+	{
+		[Token(Token = "0x60004DD")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x1700010B")]
 	public bool isDescriptionValid
 	{
-		[Token(Token = "0x60004D5")]
+		[Token(Token = "0x60004DF")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60004D6")]
+		[Token(Token = "0x60004E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60004C7")]
+	[Token(Token = "0x60004D1")]
 	protected Machine()
 	{
 	}
 
-	[Token(Token = "0x60004D4")]
+	[Token(Token = "0x60004DE")]
 	public IEnumerable<object> GetAotStubs(HashSet<object> visited)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004D7")]
+	[Token(Token = "0x60004E1")]
 	protected virtual void Awake()
 	{
 	}
 
-	[Token(Token = "0x60004D8")]
+	[Token(Token = "0x60004E2")]
 	protected virtual void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x60004D9")]
+	[Token(Token = "0x60004E3")]
 	protected virtual void OnInstantiateWhileEnabled()
 	{
 	}
 
-	[Token(Token = "0x60004DA")]
+	[Token(Token = "0x60004E4")]
 	protected virtual void OnUninstantiateWhileEnabled()
 	{
 	}
 
-	[Token(Token = "0x60004DB")]
+	[Token(Token = "0x60004E5")]
 	protected virtual void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x60004DC")]
+	[Token(Token = "0x60004E6")]
 	protected virtual void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60004DD")]
+	[Token(Token = "0x60004E7")]
 	protected virtual void OnValidate()
 	{
 	}
 
-	[Token(Token = "0x60004DE")]
+	[Token(Token = "0x60004E8")]
 	public GraphPointer GetReference()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004DF")]
+	[Token(Token = "0x60004E9")]
 	private void CacheReference()
 	{
 	}
 
-	[Token(Token = "0x60004E0")]
+	[Token(Token = "0x60004EA")]
 	private void ClearCachedReference()
 	{
 	}
 
-	[Token(Token = "0x60004E1")]
+	[Token(Token = "0x60004EB")]
 	public virtual void InstantiateNest()
 	{
 	}
 
-	[Token(Token = "0x60004E2")]
+	[Token(Token = "0x60004EC")]
 	public virtual void UninstantiateNest()
 	{
 	}
 
-	[Token(Token = "0x60004E3")]
+	[Token(Token = "0x60004ED")]
 	public virtual void TriggerAnimationEvent(AnimationEvent animationEvent)
 	{
 	}
 
-	[Token(Token = "0x60004E4")]
+	[Token(Token = "0x60004EE")]
 	public virtual void TriggerUnityEvent(string name)
 	{
 	}
 
-	[Token(Token = "0x60004E5")]
+	[Token(Token = "0x60004EF")]
 	public abstract TGraph DefaultGraph();
 
-	[Token(Token = "0x60004E6")]
+	[Token(Token = "0x60004F0")]
 	private IGraph Unity_002EVisualScripting_002EIGraphParent_002EDefaultGraph()
 	{
 		return null;

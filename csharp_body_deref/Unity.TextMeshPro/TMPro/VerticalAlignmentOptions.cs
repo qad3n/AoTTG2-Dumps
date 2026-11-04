@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200008A")]
+[Token(Token = "0x200007F")]
 public enum VerticalAlignmentOptions
 {
-	[Token(Token = "0x400048A")]
+	[Token(Token = "0x40003F5")]
 	Top = 0x100,
-	[Token(Token = "0x400048B")]
+	[Token(Token = "0x40003F6")]
 	Middle = 0x200,
-	[Token(Token = "0x400048C")]
+	[Token(Token = "0x40003F7")]
 	Bottom = 0x400,
-	[Token(Token = "0x400048D")]
+	[Token(Token = "0x40003F8")]
 	Baseline = 0x800,
-	[Token(Token = "0x400048E")]
+	[Token(Token = "0x40003F9")]
 	Geometry = 0x1000,
-	[Token(Token = "0x400048F")]
+	[Token(Token = "0x40003FA")]
 	Capline = 0x2000
 }

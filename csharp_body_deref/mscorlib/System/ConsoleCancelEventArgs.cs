@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000139")]
+[Token(Token = "0x2000161")]
 public sealed class ConsoleCancelEventArgs : EventArgs
 {
-	[Token(Token = "0x400044C")]
+	[Token(Token = "0x40004A9")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly ConsoleSpecialKey _type;
 
-	[Token(Token = "0x1700010F")]
+	[Token(Token = "0x17000110")]
 	public bool Cancel
 	{
-		[Token(Token = "0x6000C3E")]
-		[Address(RVA = "0x3CDC040", Offset = "0x3CDC040", VA = "0x3CDC040")]
+		[Token(Token = "0x6000C88")]
+		[Address(RVA = "0x1537420", Offset = "0x1535A20", VA = "0x181537420")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,14 +30,14 @@ public sealed class ConsoleCancelEventArgs : EventArgs
 		}
 	}
 
-	[Token(Token = "0x6000C3D")]
-	[Address(RVA = "0x3CDBFF0", Offset = "0x3CDBFF0", VA = "0x3CDBFF0")]
+	[Token(Token = "0x6000C87")]
+	[Address(RVA = "0x1B43680", Offset = "0x1B41C80", VA = "0x181B43680")]
 	internal ConsoleCancelEventArgs(ConsoleSpecialKey type)
 	{
 	}
 
-	[Token(Token = "0x6000C3F")]
-	[Address(RVA = "0x3CDC050", Offset = "0x3CDC050", VA = "0x3CDC050")]
+	[Token(Token = "0x6000C89")]
+	[Address(RVA = "0x1B436E0", Offset = "0x1B41CE0", VA = "0x181B436E0")]
 	internal ConsoleCancelEventArgs()
 	{
 	}

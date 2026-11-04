@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x200048B")]
+[Token(Token = "0x2000569")]
 internal struct DrawBufferRange
 {
-	[Token(Token = "0x4000DB0")]
+	[Token(Token = "0x400125B")]
 	[FieldOffset(Offset = "0x0")]
 	public int firstIndex;
 
-	[Token(Token = "0x4000DB1")]
+	[Token(Token = "0x400125C")]
 	[FieldOffset(Offset = "0x4")]
 	public int indexCount;
 
-	[Token(Token = "0x4000DB2")]
+	[Token(Token = "0x400125D")]
 	[FieldOffset(Offset = "0x8")]
 	public int minIndexVal;
 
-	[Token(Token = "0x4000DB3")]
+	[Token(Token = "0x400125E")]
 	[FieldOffset(Offset = "0xC")]
 	public int vertsReferenced;
 }

@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.CompilerServices;
 
-[Token(Token = "0x200025D")]
+[Token(Token = "0x2000260")]
 internal static class StateMachineUtility
 {
-	[Token(Token = "0x6000D78")]
-	[Address(RVA = "0x4A1FB00", Offset = "0x4A1FB00", VA = "0x4A1FB00")]
+	[Token(Token = "0x6000D9C")]
+	[Address(RVA = "0x2944D90", Offset = "0x2943390", VA = "0x182944D90")]
 	public static int GetState(IAsyncStateMachine stateMachine)
 	{
 		return default(int);

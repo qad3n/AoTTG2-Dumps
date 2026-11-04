@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.TerrainUtils;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x200000C")]
 public readonly struct TerrainTileCoord
 {
-	[Token(Token = "0x400001A")]
+	[Token(Token = "0x4000025")]
 	[FieldOffset(Offset = "0x0")]
 	public readonly int tileX;
 
-	[Token(Token = "0x400001B")]
+	[Token(Token = "0x4000026")]
 	[FieldOffset(Offset = "0x4")]
 	public readonly int tileZ;
 
-	[Token(Token = "0x600001B")]
-	[Address(RVA = "0x4EA0360", Offset = "0x4EA0360", VA = "0x4EA0360")]
+	[Token(Token = "0x6000039")]
+	[Address(RVA = "0xACCA30", Offset = "0xACB030", VA = "0x180ACCA30")]
 	public TerrainTileCoord(int tileX, int tileZ)
 	{
 	}

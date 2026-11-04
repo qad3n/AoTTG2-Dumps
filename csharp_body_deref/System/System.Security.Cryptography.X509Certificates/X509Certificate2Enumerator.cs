@@ -10,57 +10,57 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography.X509Certificates;
 
-[Token(Token = "0x20000FA")]
+[Token(Token = "0x200013A")]
 public sealed class X509Certificate2Enumerator : IEnumerator
 {
-	[Token(Token = "0x40004DB")]
+	[Token(Token = "0x40005AD")]
 	[FieldOffset(Offset = "0x10")]
 	private IEnumerator enumerator;
 
-	[Token(Token = "0x17000113")]
+	[Token(Token = "0x1700014C")]
 	public X509Certificate2 Current
 	{
-		[Token(Token = "0x6000593")]
-		[Address(RVA = "0x4937400", Offset = "0x4937400", VA = "0x4937400")]
+		[Token(Token = "0x6000778")]
+		[Address(RVA = "0x2883220", Offset = "0x2881820", VA = "0x182883220")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000114")]
+	[Token(Token = "0x1700014D")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x6000595")]
-		[Address(RVA = "0x4937570", Offset = "0x4937570", VA = "0x4937570", Slot = "5")]
+		[Token(Token = "0x600077A")]
+		[Address(RVA = "0x2883160", Offset = "0x2881760", VA = "0x182883160", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000592")]
-	[Address(RVA = "0x49372A0", Offset = "0x49372A0", VA = "0x49372A0")]
+	[Token(Token = "0x6000777")]
+	[Address(RVA = "0x28831B0", Offset = "0x28817B0", VA = "0x1828831B0")]
 	internal X509Certificate2Enumerator(X509Certificate2Collection collection)
 	{
 	}
 
-	[Token(Token = "0x6000594")]
-	[Address(RVA = "0x49374E0", Offset = "0x49374E0", VA = "0x49374E0")]
+	[Token(Token = "0x6000779")]
+	[Address(RVA = "0x2883070", Offset = "0x2881670", VA = "0x182883070")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000596")]
-	[Address(RVA = "0x4937610", Offset = "0x4937610", VA = "0x4937610", Slot = "4")]
+	[Token(Token = "0x600077B")]
+	[Address(RVA = "0x28830C0", Offset = "0x28816C0", VA = "0x1828830C0", Slot = "4")]
 	private bool System_002ECollections_002EIEnumerator_002EMoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000597")]
-	[Address(RVA = "0x49376A0", Offset = "0x49376A0", VA = "0x49376A0", Slot = "6")]
+	[Token(Token = "0x600077C")]
+	[Address(RVA = "0x2883110", Offset = "0x2881710", VA = "0x182883110", Slot = "6")]
 	private void System_002ECollections_002EIEnumerator_002EReset()
 	{
 	}

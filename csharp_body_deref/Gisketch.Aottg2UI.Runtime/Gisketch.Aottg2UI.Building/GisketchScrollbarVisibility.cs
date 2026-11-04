@@ -13,96 +13,96 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Building;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x20000B4")]
 [ExecuteAlways]
 internal sealed class GisketchScrollbarVisibility : MonoBehaviour
 {
-	[Token(Token = "0x4000304")]
+	[Token(Token = "0x40003AD")]
 	private const float InitialOverflowEpsilon = 0.5f;
 
-	[Token(Token = "0x4000305")]
+	[Token(Token = "0x40003AE")]
 	private const float ToggleOverflowEpsilon = 2f;
 
-	[Token(Token = "0x4000306")]
+	[Token(Token = "0x40003AF")]
 	private const int StablePasses = 2;
 
-	[Token(Token = "0x4000307")]
+	[Token(Token = "0x40003B0")]
 	[FieldOffset(Offset = "0x20")]
 	private ScrollRect _scroll;
 
-	[Token(Token = "0x4000308")]
+	[Token(Token = "0x40003B1")]
 	[FieldOffset(Offset = "0x28")]
 	private FlexLayout _flex;
 
-	[Token(Token = "0x4000309")]
+	[Token(Token = "0x40003B2")]
 	[FieldOffset(Offset = "0x30")]
 	private bool? _autoHeight;
 
-	[Token(Token = "0x400030A")]
+	[Token(Token = "0x40003B3")]
 	[FieldOffset(Offset = "0x32")]
 	private bool _hasVisibleState;
 
-	[Token(Token = "0x400030B")]
+	[Token(Token = "0x40003B4")]
 	[FieldOffset(Offset = "0x33")]
 	private bool _visible;
 
-	[Token(Token = "0x400030C")]
+	[Token(Token = "0x40003B5")]
 	[FieldOffset(Offset = "0x34")]
 	private bool? _pendingVisible;
 
-	[Token(Token = "0x400030D")]
+	[Token(Token = "0x40003B6")]
 	[FieldOffset(Offset = "0x38")]
 	private int _pendingPasses;
 
-	[Token(Token = "0x600045E")]
-	[Address(RVA = "0x3A87080", Offset = "0x3A87080", VA = "0x3A87080")]
+	[Token(Token = "0x6000591")]
+	[Address(RVA = "0x1905420", Offset = "0x1903A20", VA = "0x181905420")]
 	public void Setup(ScrollRect scroll)
 	{
 	}
 
-	[Token(Token = "0x600045F")]
-	[Address(RVA = "0x3A87350", Offset = "0x3A87350", VA = "0x3A87350")]
+	[Token(Token = "0x6000592")]
+	[Address(RVA = "0x19053F0", Offset = "0x19039F0", VA = "0x1819053F0")]
 	private void LateUpdate()
 	{
 	}
 
-	[Token(Token = "0x6000460")]
-	[Address(RVA = "0x3A870A0", Offset = "0x3A870A0", VA = "0x3A870A0")]
+	[Token(Token = "0x6000593")]
+	[Address(RVA = "0x19055A0", Offset = "0x1903BA0", VA = "0x1819055A0")]
 	public bool UpdateVisibility()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000461")]
-	[Address(RVA = "0x3A87360", Offset = "0x3A87360", VA = "0x3A87360")]
+	[Token(Token = "0x6000594")]
+	[Address(RVA = "0x1905120", Offset = "0x1903720", VA = "0x181905120")]
 	private bool FitAutoHeightToContent()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000462")]
-	[Address(RVA = "0x3A87600", Offset = "0x3A87600", VA = "0x3A87600")]
+	[Token(Token = "0x6000595")]
+	[Address(RVA = "0x1905450", Offset = "0x1903A50", VA = "0x181905450")]
 	private bool UpdateStableVisibility(GameObject scrollbar, bool desired)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000463")]
-	[Address(RVA = "0x3A875C0", Offset = "0x3A875C0", VA = "0x3A875C0")]
+	[Token(Token = "0x6000596")]
+	[Address(RVA = "0x19050D0", Offset = "0x19036D0", VA = "0x1819050D0")]
 	private static bool ApplyVisibility(GameObject scrollbar, bool visible)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000464")]
-	[Address(RVA = "0x3A87750", Offset = "0x3A87750", VA = "0x3A87750")]
+	[Token(Token = "0x6000597")]
+	[Address(RVA = "0x1905400", Offset = "0x1903A00", VA = "0x181905400")]
 	private static float Point(YGValue value)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6000465")]
-	[Address(RVA = "0x3A87770", Offset = "0x3A87770", VA = "0x3A87770")]
+	[Token(Token = "0x6000598")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchScrollbarVisibility()
 	{
 	}

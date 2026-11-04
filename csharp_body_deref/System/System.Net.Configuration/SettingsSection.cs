@@ -10,121 +10,121 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200039D")]
+[Token(Token = "0x20003F8")]
 public sealed class SettingsSection : ConfigurationSection
 {
-	[Token(Token = "0x1700056C")]
+	[Token(Token = "0x170005D6")]
 	public HttpListenerElement HttpListener
 	{
-		[Token(Token = "0x6001801")]
-		[Address(RVA = "0x48F4A90", Offset = "0x48F4A90", VA = "0x48F4A90")]
+		[Token(Token = "0x6001AA5")]
+		[Address(RVA = "0x282BF20", Offset = "0x282A520", VA = "0x18282BF20")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700056D")]
+	[Token(Token = "0x170005D7")]
 	public HttpWebRequestElement HttpWebRequest
 	{
-		[Token(Token = "0x6001802")]
-		[Address(RVA = "0x48F4AC0", Offset = "0x48F4AC0", VA = "0x48F4AC0")]
+		[Token(Token = "0x6001AA6")]
+		[Address(RVA = "0x282BF50", Offset = "0x282A550", VA = "0x18282BF50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700056E")]
+	[Token(Token = "0x170005D8")]
 	public Ipv6Element Ipv6
 	{
-		[Token(Token = "0x6001803")]
-		[Address(RVA = "0x48F4AF0", Offset = "0x48F4AF0", VA = "0x48F4AF0")]
+		[Token(Token = "0x6001AA7")]
+		[Address(RVA = "0x282BF80", Offset = "0x282A580", VA = "0x18282BF80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700056F")]
+	[Token(Token = "0x170005D9")]
 	public PerformanceCountersElement PerformanceCounters
 	{
-		[Token(Token = "0x6001804")]
-		[Address(RVA = "0x48F4B20", Offset = "0x48F4B20", VA = "0x48F4B20")]
+		[Token(Token = "0x6001AA8")]
+		[Address(RVA = "0x282BFB0", Offset = "0x282A5B0", VA = "0x18282BFB0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000570")]
+	[Token(Token = "0x170005DA")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x6001805")]
-		[Address(RVA = "0x48F4B50", Offset = "0x48F4B50", VA = "0x48F4B50", Slot = "4")]
+		[Token(Token = "0x6001AA9")]
+		[Address(RVA = "0x282BFE0", Offset = "0x282A5E0", VA = "0x18282BFE0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000571")]
+	[Token(Token = "0x170005DB")]
 	public ServicePointManagerElement ServicePointManager
 	{
-		[Token(Token = "0x6001806")]
-		[Address(RVA = "0x48F4B80", Offset = "0x48F4B80", VA = "0x48F4B80")]
+		[Token(Token = "0x6001AAA")]
+		[Address(RVA = "0x282C010", Offset = "0x282A610", VA = "0x18282C010")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000572")]
+	[Token(Token = "0x170005DC")]
 	public SocketElement Socket
 	{
-		[Token(Token = "0x6001807")]
-		[Address(RVA = "0x48F4BB0", Offset = "0x48F4BB0", VA = "0x48F4BB0")]
+		[Token(Token = "0x6001AAB")]
+		[Address(RVA = "0x282C040", Offset = "0x282A640", VA = "0x18282C040")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000573")]
+	[Token(Token = "0x170005DD")]
 	public WebProxyScriptElement WebProxyScript
 	{
-		[Token(Token = "0x6001808")]
-		[Address(RVA = "0x48F4BE0", Offset = "0x48F4BE0", VA = "0x48F4BE0")]
+		[Token(Token = "0x6001AAC")]
+		[Address(RVA = "0x282C070", Offset = "0x282A670", VA = "0x18282C070")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000574")]
+	[Token(Token = "0x170005DE")]
 	public WebUtilityElement WebUtility
 	{
-		[Token(Token = "0x6001809")]
-		[Address(RVA = "0x48F4C10", Offset = "0x48F4C10", VA = "0x48F4C10")]
+		[Token(Token = "0x6001AAD")]
+		[Address(RVA = "0x282C0A0", Offset = "0x282A6A0", VA = "0x18282C0A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000575")]
+	[Token(Token = "0x170005DF")]
 	public WindowsAuthenticationElement WindowsAuthentication
 	{
-		[Token(Token = "0x600180A")]
-		[Address(RVA = "0x48F4C40", Offset = "0x48F4C40", VA = "0x48F4C40")]
+		[Token(Token = "0x6001AAE")]
+		[Address(RVA = "0x282C0D0", Offset = "0x282A6D0", VA = "0x18282C0D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001800")]
-	[Address(RVA = "0x48F4A60", Offset = "0x48F4A60", VA = "0x48F4A60")]
+	[Token(Token = "0x6001AA4")]
+	[Address(RVA = "0x282BEF0", Offset = "0x282A4F0", VA = "0x18282BEF0")]
 	public SettingsSection()
 	{
 	}

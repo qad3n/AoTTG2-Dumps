@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x2000482")]
+[Token(Token = "0x20004B1")]
 [AttributeUsage(AttributeTargets.Method, Inherited = false, AllowMultiple = false)]
 public class StateMachineAttribute : Attribute
 {
-	[Token(Token = "0x17000475")]
+	[Token(Token = "0x17000478")]
 	public Type StateMachineType
 	{
-		[Token(Token = "0x600228B")]
-		[Address(RVA = "0x3BC1300", Offset = "0x3BC1300", VA = "0x3BC1300")]
+		[Token(Token = "0x600230B")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,8 +26,8 @@ public class StateMachineAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600228A")]
-	[Address(RVA = "0x3BC06E0", Offset = "0x3BC06E0", VA = "0x3BC06E0")]
+	[Token(Token = "0x600230A")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public StateMachineAttribute(Type stateMachineType)
 	{
 	}

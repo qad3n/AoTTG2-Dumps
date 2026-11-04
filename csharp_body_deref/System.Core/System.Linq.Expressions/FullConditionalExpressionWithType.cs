@@ -16,8 +16,8 @@ internal sealed class FullConditionalExpressionWithType : FullConditionalExpress
 	[Token(Token = "0x17000077")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000316")]
-		[Address(RVA = "0x44B09E0", Offset = "0x44B09E0", VA = "0x44B09E0", Slot = "5")]
+		[Token(Token = "0x6000315")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal sealed class FullConditionalExpressionWithType : FullConditionalExpress
 		}
 	}
 
-	[Token(Token = "0x6000315")]
-	[Address(RVA = "0x44B06C0", Offset = "0x44B06C0", VA = "0x44B06C0")]
+	[Token(Token = "0x6000314")]
+	[Address(RVA = "0x2439840", Offset = "0x2437E40", VA = "0x182439840")]
 	internal FullConditionalExpressionWithType(Expression test, Expression ifTrue, Expression ifFalse, Type type)
 	{
 	}

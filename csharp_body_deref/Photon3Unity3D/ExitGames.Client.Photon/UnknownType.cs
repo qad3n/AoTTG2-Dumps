@@ -25,7 +25,7 @@ public class UnknownType
 	public byte[] Data;
 
 	[Token(Token = "0x6000058")]
-	[Address(RVA = "0x3E5EAC0", Offset = "0x3E5EAC0", VA = "0x3E5EAC0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public UnknownType()
 	{
 	}

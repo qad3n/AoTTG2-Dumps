@@ -12,18 +12,18 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001FC")]
+[Token(Token = "0x200021A")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class Vector4Parameter : VolumeParameter<Vector4>
 {
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x4C0BBB0", Offset = "0x4C0BBB0", VA = "0x4C0BBB0")]
+	[Token(Token = "0x6000F56")]
+	[Address(RVA = "0x2B64680", Offset = "0x2B62C80", VA = "0x182B64680")]
 	public Vector4Parameter(Vector4 value, bool overrideState = false)
 	{
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x4C0BC10", Offset = "0x4C0BC10", VA = "0x4C0BC10", Slot = "16")]
+	[Token(Token = "0x6000F57")]
+	[Address(RVA = "0x2B4FFD0", Offset = "0x2B4E5D0", VA = "0x182B4FFD0", Slot = "16")]
 	public override void Interp(Vector4 from, Vector4 to, float t)
 	{
 	}

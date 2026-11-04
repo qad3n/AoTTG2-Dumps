@@ -13,43 +13,43 @@ using UnityEngine.Bindings;
 namespace UnityEngine;
 
 [StructLayout((LayoutKind)2)]
-[Token(Token = "0x2000002")]
+[Token(Token = "0x200000B")]
 [UnityEngine.Bindings.NativeType(UnityEngine.Bindings.CodegenOptions.Custom, "ScriptingJvalue")]
 public struct jvalue
 {
-	[Token(Token = "0x4000001")]
+	[Token(Token = "0x4000015")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public bool z;
 
-	[Token(Token = "0x4000002")]
+	[Token(Token = "0x4000016")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public sbyte b;
 
-	[Token(Token = "0x4000003")]
+	[Token(Token = "0x4000017")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public char c;
 
-	[Token(Token = "0x4000004")]
+	[Token(Token = "0x4000018")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public short s;
 
-	[Token(Token = "0x4000005")]
+	[Token(Token = "0x4000019")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public int i;
 
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x400001A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public long j;
 
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x400001B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public float f;
 
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x400001C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public double d;
 
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x400001D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public IntPtr l;
 }

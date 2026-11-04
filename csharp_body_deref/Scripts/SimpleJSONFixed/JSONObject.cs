@@ -22,31 +22,31 @@ public class JSONObject : JSONNode
 	[CompilerGenerated]
 	private sealed class _003Cget_Children_003Ed__27 : IEnumerable<JSONNode>, IEnumerable, IEnumerator<JSONNode>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40001AB")]
+		[Token(Token = "0x40001B7")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40001AC")]
+		[Token(Token = "0x40001B8")]
 		[FieldOffset(Offset = "0x18")]
 		private JSONNode _003C_003E2__current;
 
-		[Token(Token = "0x40001AD")]
+		[Token(Token = "0x40001B9")]
 		[FieldOffset(Offset = "0x20")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x40001AE")]
+		[Token(Token = "0x40001BA")]
 		[FieldOffset(Offset = "0x28")]
 		public JSONObject _003C_003E4__this;
 
-		[Token(Token = "0x40001AF")]
+		[Token(Token = "0x40001BB")]
 		[FieldOffset(Offset = "0x30")]
 		private Dictionary<string, JSONNode>.Enumerator _003C_003E7__wrap1;
 
-		[Token(Token = "0x1700005E")]
+		[Token(Token = "0x17000060")]
 		private JSONNode System_002ECollections_002EGeneric_002EIEnumerator_003CSimpleJSONFixed_002EJSONNode_003E_002ECurrent
 		{
-			[Token(Token = "0x6000260")]
-			[Address(RVA = "0x3F7F540", Offset = "0x3F7F540", VA = "0x3F7F540", Slot = "6")]
+			[Token(Token = "0x6000270")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "6")]
 			[DebuggerHidden]
 			get
 			{
@@ -54,11 +54,11 @@ public class JSONObject : JSONNode
 			}
 		}
 
-		[Token(Token = "0x1700005F")]
+		[Token(Token = "0x17000061")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000262")]
-			[Address(RVA = "0x3F7F590", Offset = "0x3F7F590", VA = "0x3F7F590", Slot = "9")]
+			[Token(Token = "0x6000272")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "9")]
 			[DebuggerHidden]
 			get
 			{
@@ -66,50 +66,50 @@ public class JSONObject : JSONNode
 			}
 		}
 
-		[Token(Token = "0x600025C")]
-		[Address(RVA = "0x3F7ED40", Offset = "0x3F7ED40", VA = "0x3F7ED40")]
+		[Token(Token = "0x600026C")]
+		[Address(RVA = "0x8E2870", Offset = "0x8E0E70", VA = "0x1808E2870")]
 		[DebuggerHidden]
 		public _003Cget_Children_003Ed__27(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x3F7F270", Offset = "0x3F7F270", VA = "0x3F7F270", Slot = "7")]
+		[Token(Token = "0x600026D")]
+		[Address(RVA = "0x1DD1530", Offset = "0x1DCFB30", VA = "0x181DD1530", Slot = "7")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x3F7F2C0", Offset = "0x3F7F2C0", VA = "0x3F7F2C0", Slot = "8")]
+		[Token(Token = "0x600026E")]
+		[Address(RVA = "0x1DD1270", Offset = "0x1DCF870", VA = "0x181DD1270", Slot = "8")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x3F7F500", Offset = "0x3F7F500", VA = "0x3F7F500")]
+		[Token(Token = "0x600026F")]
+		[Address(RVA = "0x1DD15C0", Offset = "0x1DCFBC0", VA = "0x181DD15C0")]
 		private void _003C_003Em__Finally1()
 		{
 		}
 
-		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x3F7F550", Offset = "0x3F7F550", VA = "0x3F7F550", Slot = "10")]
+		[Token(Token = "0x6000271")]
+		[Address(RVA = "0x1DD14F0", Offset = "0x1DCFAF0", VA = "0x181DD14F0", Slot = "10")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x3F7F5A0", Offset = "0x3F7F5A0", VA = "0x3F7F5A0", Slot = "4")]
+		[Token(Token = "0x6000273")]
+		[Address(RVA = "0x1DD1450", Offset = "0x1DCFA50", VA = "0x181DD1450", Slot = "4")]
 		[DebuggerHidden]
 		private IEnumerator<JSONNode> System_002ECollections_002EGeneric_002EIEnumerable_003CSimpleJSONFixed_002EJSONNode_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x3F7F640", Offset = "0x3F7F640", VA = "0x3F7F640", Slot = "5")]
+		[Token(Token = "0x6000274")]
+		[Address(RVA = "0x1DD1450", Offset = "0x1DCFA50", VA = "0x181DD1450", Slot = "5")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -117,100 +117,100 @@ public class JSONObject : JSONNode
 		}
 	}
 
-	[Token(Token = "0x40001A8")]
+	[Token(Token = "0x40001B4")]
 	[FieldOffset(Offset = "0x10")]
 	private Dictionary<string, JSONNode> m_Dict;
 
-	[Token(Token = "0x40001A9")]
+	[Token(Token = "0x40001B5")]
 	[FieldOffset(Offset = "0x18")]
 	private bool inline;
 
-	[Token(Token = "0x17000057")]
+	[Token(Token = "0x17000059")]
 	public override bool Inline
 	{
-		[Token(Token = "0x6000245")]
-		[Address(RVA = "0x3F7DF40", Offset = "0x3F7DF40", VA = "0x3F7DF40", Slot = "18")]
+		[Token(Token = "0x6000255")]
+		[Address(RVA = "0x111AD30", Offset = "0x1119330", VA = "0x18111AD30", Slot = "18")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000246")]
-		[Address(RVA = "0x3F7DF50", Offset = "0x3F7DF50", VA = "0x3F7DF50", Slot = "19")]
+		[Token(Token = "0x6000256")]
+		[Address(RVA = "0x111C9F0", Offset = "0x111AFF0", VA = "0x18111C9F0", Slot = "19")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000058")]
+	[Token(Token = "0x1700005A")]
 	public override JSONNodeType Tag
 	{
-		[Token(Token = "0x6000247")]
-		[Address(RVA = "0x3F7DF60", Offset = "0x3F7DF60", VA = "0x3F7DF60", Slot = "4")]
+		[Token(Token = "0x6000257")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(JSONNodeType);
 		}
 	}
 
-	[Token(Token = "0x17000059")]
+	[Token(Token = "0x1700005B")]
 	public override bool IsObject
 	{
-		[Token(Token = "0x6000248")]
-		[Address(RVA = "0x3F7DF70", Offset = "0x3F7DF70", VA = "0x3F7DF70", Slot = "17")]
+		[Token(Token = "0x6000258")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "17")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700005A")]
+	[Token(Token = "0x1700005C")]
 	public override JSONNode this[string aKey]
 	{
-		[Token(Token = "0x600024A")]
-		[Address(RVA = "0x3F7E030", Offset = "0x3F7E030", VA = "0x3F7E030", Slot = "7")]
+		[Token(Token = "0x600025A")]
+		[Address(RVA = "0x1DC6890", Offset = "0x1DC4E90", VA = "0x181DC6890", Slot = "7")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600024B")]
-		[Address(RVA = "0x3F7E1C0", Offset = "0x3F7E1C0", VA = "0x3F7E1C0", Slot = "8")]
+		[Token(Token = "0x600025B")]
+		[Address(RVA = "0x1DC6B30", Offset = "0x1DC5130", VA = "0x181DC6B30", Slot = "8")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700005B")]
+	[Token(Token = "0x1700005D")]
 	public override JSONNode this[int aIndex]
 	{
-		[Token(Token = "0x600024C")]
-		[Address(RVA = "0x3F7E2D0", Offset = "0x3F7E2D0", VA = "0x3F7E2D0", Slot = "5")]
+		[Token(Token = "0x600025C")]
+		[Address(RVA = "0x1DC67F0", Offset = "0x1DC4DF0", VA = "0x181DC67F0", Slot = "5")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600024D")]
-		[Address(RVA = "0x3F7E360", Offset = "0x3F7E360", VA = "0x3F7E360", Slot = "6")]
+		[Token(Token = "0x600025D")]
+		[Address(RVA = "0x1DC6950", Offset = "0x1DC4F50", VA = "0x181DC6950", Slot = "6")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700005C")]
+	[Token(Token = "0x1700005E")]
 	public override int Count
 	{
-		[Token(Token = "0x600024E")]
-		[Address(RVA = "0x3F7E470", Offset = "0x3F7E470", VA = "0x3F7E470", Slot = "11")]
+		[Token(Token = "0x600025E")]
+		[Address(RVA = "0x1DC67A0", Offset = "0x1DC4DA0", VA = "0x181DC67A0", Slot = "11")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700005D")]
+	[Token(Token = "0x1700005F")]
 	public override IEnumerable<JSONNode> Children
 	{
-		[Token(Token = "0x6000257")]
-		[Address(RVA = "0x3F7ECC0", Offset = "0x3F7ECC0", VA = "0x3F7ECC0", Slot = "27")]
+		[Token(Token = "0x6000267")]
+		[Address(RVA = "0x1DC6720", Offset = "0x1DC4D20", VA = "0x181DC6720", Slot = "27")]
 		[IteratorStateMachine(typeof(_003Cget_Children_003Ed__27))]
 		get
 		{
@@ -218,75 +218,75 @@ public class JSONObject : JSONNode
 		}
 	}
 
-	[Token(Token = "0x6000249")]
-	[Address(RVA = "0x3F7DF80", Offset = "0x3F7DF80", VA = "0x3F7DF80", Slot = "32")]
+	[Token(Token = "0x6000259")]
+	[Address(RVA = "0x1DC5F10", Offset = "0x1DC4510", VA = "0x181DC5F10", Slot = "32")]
 	public override Enumerator GetEnumerator()
 	{
 		return default(Enumerator);
 	}
 
-	[Token(Token = "0x600024F")]
-	[Address(RVA = "0x3F7E4B0", Offset = "0x3F7E4B0", VA = "0x3F7E4B0", Slot = "20")]
+	[Token(Token = "0x600025F")]
+	[Address(RVA = "0x1DC5AF0", Offset = "0x1DC40F0", VA = "0x181DC5AF0", Slot = "20")]
 	public override void Add(string aKey, JSONNode aItem)
 	{
 	}
 
-	[Token(Token = "0x6000250")]
-	[Address(RVA = "0x3F7E600", Offset = "0x3F7E600", VA = "0x3F7E600", Slot = "22")]
+	[Token(Token = "0x6000260")]
+	[Address(RVA = "0x1DC60A0", Offset = "0x1DC46A0", VA = "0x181DC60A0", Slot = "22")]
 	public override JSONNode Remove(string aKey)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000251")]
-	[Address(RVA = "0x3F7E6B0", Offset = "0x3F7E6B0", VA = "0x3F7E6B0", Slot = "23")]
+	[Token(Token = "0x6000261")]
+	[Address(RVA = "0x1DC62A0", Offset = "0x1DC48A0", VA = "0x181DC62A0", Slot = "23")]
 	public override JSONNode Remove(int aIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000252")]
-	[Address(RVA = "0x3F7E770", Offset = "0x3F7E770", VA = "0x3F7E770", Slot = "24")]
+	[Token(Token = "0x6000262")]
+	[Address(RVA = "0x1DC6170", Offset = "0x1DC4770", VA = "0x181DC6170", Slot = "24")]
 	public override JSONNode Remove(JSONNode aNode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000253")]
-	[Address(RVA = "0x3F7E950", Offset = "0x3F7E950", VA = "0x3F7E950", Slot = "25")]
+	[Token(Token = "0x6000263")]
+	[Address(RVA = "0x1DC5D00", Offset = "0x1DC4300", VA = "0x181DC5D00", Slot = "25")]
 	public override void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000254")]
-	[Address(RVA = "0x3F7E990", Offset = "0x3F7E990", VA = "0x3F7E990", Slot = "26")]
+	[Token(Token = "0x6000264")]
+	[Address(RVA = "0x1DC5D50", Offset = "0x1DC4350", VA = "0x181DC5D50", Slot = "26")]
 	public override JSONNode Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000255")]
-	[Address(RVA = "0x3F7EBF0", Offset = "0x3F7EBF0", VA = "0x3F7EBF0", Slot = "28")]
+	[Token(Token = "0x6000265")]
+	[Address(RVA = "0x1DC6040", Offset = "0x1DC4640", VA = "0x181DC6040", Slot = "28")]
 	public override bool HasKey(string aKey)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000256")]
-	[Address(RVA = "0x3F7EC40", Offset = "0x3F7EC40", VA = "0x3F7EC40", Slot = "29")]
+	[Token(Token = "0x6000266")]
+	[Address(RVA = "0x1DC5FC0", Offset = "0x1DC45C0", VA = "0x181DC5FC0", Slot = "29")]
 	public override JSONNode GetValueOrDefault(string aKey, JSONNode aDefault)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000258")]
-	[Address(RVA = "0x3F7ED70", Offset = "0x3F7ED70", VA = "0x3F7ED70", Slot = "31")]
+	[Token(Token = "0x6000268")]
+	[Address(RVA = "0x1DC6370", Offset = "0x1DC4970", VA = "0x181DC6370", Slot = "31")]
 	internal override void WriteToStringBuilder(StringBuilder aSB, int aIndent, int aIndentInc, JSONTextMode aMode)
 	{
 	}
 
-	[Token(Token = "0x6000259")]
-	[Address(RVA = "0x3F7B690", Offset = "0x3F7B690", VA = "0x3F7B690")]
+	[Token(Token = "0x6000269")]
+	[Address(RVA = "0x1DC6680", Offset = "0x1DC4C80", VA = "0x181DC6680")]
 	public JSONObject()
 	{
 	}

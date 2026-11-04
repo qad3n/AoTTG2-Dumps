@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200005C")]
+[Token(Token = "0x200005A")]
 public class FrameOut<T>
 {
 	[Token(Token = "0x1700006B")]
 	public T[] Buf
 	{
-		[Token(Token = "0x60001CB")]
+		[Token(Token = "0x60001C9")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60001CC")]
+		[Token(Token = "0x60001CA")]
 		[CompilerGenerated]
 		private set
 		{
@@ -32,25 +32,25 @@ public class FrameOut<T>
 	[Token(Token = "0x1700006C")]
 	public bool EndOfStream
 	{
-		[Token(Token = "0x60001CD")]
+		[Token(Token = "0x60001CB")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60001CE")]
+		[Token(Token = "0x60001CC")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60001C9")]
+	[Token(Token = "0x60001C7")]
 	public FrameOut(T[] buf, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x60001CA")]
+	[Token(Token = "0x60001C8")]
 	public FrameOut<T> Set(T[] buf, bool endOfStream)
 	{
 		return null;

@@ -13,22 +13,22 @@ namespace System.Dynamic.Utils;
 [Token(Token = "0x2000283")]
 internal static class ExpressionVisitorUtils
 {
-	[Token(Token = "0x6000CA4")]
-	[Address(RVA = "0x4512370", Offset = "0x4512370", VA = "0x4512370")]
+	[Token(Token = "0x6000CA3")]
+	[Address(RVA = "0x2484A90", Offset = "0x2483090", VA = "0x182484A90")]
 	public static Expression[] VisitBlockExpressions(ExpressionVisitor visitor, BlockExpression block)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA5")]
-	[Address(RVA = "0x45125C0", Offset = "0x45125C0", VA = "0x45125C0")]
+	[Token(Token = "0x6000CA4")]
+	[Address(RVA = "0x2484CC0", Offset = "0x24832C0", VA = "0x182484CC0")]
 	public static ParameterExpression[] VisitParameters(ExpressionVisitor visitor, IParameterProvider nodes, string callerName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CA6")]
-	[Address(RVA = "0x45129A0", Offset = "0x45129A0", VA = "0x45129A0")]
+	[Token(Token = "0x6000CA5")]
+	[Address(RVA = "0x2484860", Offset = "0x2482E60", VA = "0x182484860")]
 	public static Expression[] VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
 	{
 		return null;

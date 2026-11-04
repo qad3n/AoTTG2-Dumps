@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000007")]
 public enum OwnershipOption
 {
-	[Token(Token = "0x400001E")]
+	[Token(Token = "0x4000019")]
 	Fixed,
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x400001A")]
 	Takeover,
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x400001B")]
 	Request
 }

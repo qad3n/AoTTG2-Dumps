@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace Settings;
 
-[Token(Token = "0x2000098")]
+[Token(Token = "0x20000B6")]
 internal class WeatherSettings : PresetSettingsContainer
 {
-	[Token(Token = "0x400037D")]
-	[FieldOffset(Offset = "0x20")]
+	[Token(Token = "0x40003FE")]
+	[FieldOffset(Offset = "0x38")]
 	public SetSettingsContainer<WeatherSet> WeatherSets;
 
-	[Token(Token = "0x1700008E")]
+	[Token(Token = "0x17000099")]
 	protected override string FileName
 	{
-		[Token(Token = "0x6000338")]
-		[Address(RVA = "0x3F8CD60", Offset = "0x3F8CD60", VA = "0x3F8CD60", Slot = "14")]
+		[Token(Token = "0x60003BF")]
+		[Address(RVA = "0x1F2CA30", Offset = "0x1F2B030", VA = "0x181F2CA30", Slot = "15")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000339")]
-	[Address(RVA = "0x3F8CD90", Offset = "0x3F8CD90", VA = "0x3F8CD90")]
+	[Token(Token = "0x60003C0")]
+	[Address(RVA = "0x1F2C9B0", Offset = "0x1F2AFB0", VA = "0x181F2C9B0")]
 	public WeatherSettings()
 	{
 	}

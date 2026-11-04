@@ -21,7 +21,7 @@ public sealed class EnumMemberAttribute : Attribute
 	public string Value
 	{
 		[Token(Token = "0x6000006")]
-		[Address(RVA = "0x4678350", Offset = "0x4678350", VA = "0x4678350")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;

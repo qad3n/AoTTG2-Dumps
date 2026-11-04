@@ -10,45 +10,47 @@ using UnityEngine.Bindings;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x2000051")]
+[Token(Token = "0x2000065")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.ParticleSystemModule", "UnityEngine.AudioModule" })]
 [UnityEngine.Bindings.StaticAccessor("BurstLike", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/BurstLike/BurstLike.bindings.h")]
 internal static class BurstLike
 {
-	[Token(Token = "0x2000052")]
+	[Token(Token = "0x2000066")]
+	[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.ParticleSystemModule", "UnityEngine.AudioModule" })]
 	internal readonly struct SharedStatic<T> where T : struct
 	{
-		[Token(Token = "0x40000E0")]
+		[Token(Token = "0x4000115")]
 		[FieldOffset(Offset = "0x0")]
 		private unsafe readonly void* _buffer;
 
-		[Token(Token = "0x1700001F")]
+		[Token(Token = "0x1700002A")]
 		public unsafe ref T Data
 		{
-			[Token(Token = "0x60000BC")]
+			[Token(Token = "0x6000149")]
 			get
 			{
 				return ref *(T*)null;
 			}
 		}
 
-		[Token(Token = "0x60000BB")]
+		[Token(Token = "0x6000148")]
 		private unsafe SharedStatic(void* buffer)
 		{
 		}
 
-		[Token(Token = "0x60000BD")]
+		[Token(Token = "0x600014A")]
 		public static SharedStatic<T> GetOrCreate<TContext>(uint alignment = 0u)
 		{
 			return default(SharedStatic<T>);
 		}
 	}
 
-	[Token(Token = "0x2000053")]
+	[Token(Token = "0x2000067")]
 	internal static class SharedStatic
 	{
-		[Token(Token = "0x60000BE")]
-		[Address(RVA = "0x4DAD700", Offset = "0x4DAD700", VA = "0x4DAD700")]
+		[Token(Token = "0x600014B")]
+		[Address(RVA = "0x2ED4150", Offset = "0x2ED2750", VA = "0x182ED4150")]
 		public unsafe static void* GetOrCreateSharedStaticInternal(long getHashCode64, long getSubHashCode64, uint sizeOf, uint alignment)
 		{
 			//IL_0002: Expected I, but got O

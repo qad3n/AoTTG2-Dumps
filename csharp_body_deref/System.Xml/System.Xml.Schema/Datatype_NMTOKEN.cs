@@ -16,7 +16,7 @@ internal class Datatype_NMTOKEN : Datatype_token
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600114B")]
-		[Address(RVA = "0x4861960", Offset = "0x4861960", VA = "0x4861960", Slot = "8")]
+		[Address(RVA = "0x26F0610", Offset = "0x26EEC10", VA = "0x1826F0610", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -27,7 +27,7 @@ internal class Datatype_NMTOKEN : Datatype_token
 	public override XmlTokenizedType TokenizedType
 	{
 		[Token(Token = "0x600114C")]
-		[Address(RVA = "0x4861970", Offset = "0x4861970", VA = "0x4861970", Slot = "5")]
+		[Address(RVA = "0x868060", Offset = "0x866660", VA = "0x180868060", Slot = "5")]
 		get
 		{
 			return default(XmlTokenizedType);
@@ -35,7 +35,7 @@ internal class Datatype_NMTOKEN : Datatype_token
 	}
 
 	[Token(Token = "0x600114D")]
-	[Address(RVA = "0x4857610", Offset = "0x4857610", VA = "0x4857610")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_NMTOKEN()
 	{
 	}

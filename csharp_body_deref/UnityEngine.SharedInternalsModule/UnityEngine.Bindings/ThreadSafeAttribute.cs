@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Bindings;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000014")]
 [AttributeUsage(AttributeTargets.Method)]
 [VisibleToOtherModules]
 internal class ThreadSafeAttribute : NativeMethodAttribute
 {
-	[Token(Token = "0x6000033")]
-	[Address(RVA = "0x4E9E300", Offset = "0x4E9E300", VA = "0x4E9E300")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x2FF7460", Offset = "0x2FF5A60", VA = "0x182FF7460")]
 	public ThreadSafeAttribute()
 	{
 	}

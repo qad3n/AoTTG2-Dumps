@@ -15,7 +15,7 @@ using UnityEngine.Bindings;
 namespace UnityEngine.Networking;
 
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000015")]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityWebRequest/Public/UploadHandler/UploadHandlerRaw.h")]
 public sealed class UploadHandlerRaw : UploadHandler
 {
@@ -24,24 +24,24 @@ public sealed class UploadHandlerRaw : UploadHandler
 	private NativeArray<byte> m_Payload;
 
 	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x600007B")]
-	[Address(RVA = "0x5108F30", Offset = "0x5108F30", VA = "0x5108F30")]
-	private unsafe static extern IntPtr Create(UploadHandlerRaw self, byte* data, int dataLength);
+	[Token(Token = "0x60000A1")]
+	[Address(RVA = "0x330D500", Offset = "0x330BB00", VA = "0x18330D500")]
+	private unsafe static extern IntPtr Create([UnityEngine.Bindings.UnityMarshalAs(UnityEngine.Bindings.NativeType.ScriptingObjectPtr)] UploadHandlerRaw self, byte* data, int dataLength);
 
-	[Token(Token = "0x600007C")]
-	[Address(RVA = "0x5108990", Offset = "0x5108990", VA = "0x5108990")]
+	[Token(Token = "0x60000A2")]
+	[Address(RVA = "0x330D5F0", Offset = "0x330BBF0", VA = "0x18330D5F0")]
 	public UploadHandlerRaw(byte[] data)
 	{
 	}
 
-	[Token(Token = "0x600007D")]
-	[Address(RVA = "0x5108F70", Offset = "0x5108F70", VA = "0x5108F70")]
+	[Token(Token = "0x60000A3")]
+	[Address(RVA = "0x330D750", Offset = "0x330BD50", VA = "0x18330D750")]
 	public UploadHandlerRaw(NativeArray<byte> data, bool transferOwnership)
 	{
 	}
 
-	[Token(Token = "0x600007E")]
-	[Address(RVA = "0x5109050", Offset = "0x5109050", VA = "0x5109050", Slot = "5")]
+	[Token(Token = "0x60000A4")]
+	[Address(RVA = "0x330D560", Offset = "0x330BB60", VA = "0x18330D560", Slot = "5")]
 	public override void Dispose()
 	{
 	}

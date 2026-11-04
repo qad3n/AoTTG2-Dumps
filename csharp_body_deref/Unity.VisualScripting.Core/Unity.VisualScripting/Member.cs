@@ -22,158 +22,110 @@ public sealed class Member : ISerializationCallbackReceiver
 	[Token(Token = "0x20000EF")]
 	public enum Source
 	{
-		[Token(Token = "0x4000193")]
+		[Token(Token = "0x4000191")]
 		Unknown,
-		[Token(Token = "0x4000194")]
+		[Token(Token = "0x4000192")]
 		Field,
-		[Token(Token = "0x4000195")]
+		[Token(Token = "0x4000193")]
 		Property,
-		[Token(Token = "0x4000196")]
+		[Token(Token = "0x4000194")]
 		Method,
-		[Token(Token = "0x4000197")]
+		[Token(Token = "0x4000195")]
 		Constructor
 	}
 
-	[Token(Token = "0x4000180")]
+	[Token(Token = "0x400017E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	[SerializeAs("name")]
 	private string _name;
 
-	[Token(Token = "0x4000181")]
+	[Token(Token = "0x400017F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	[SerializeAs("parameterTypes")]
 	private Type[] _parameterTypes;
 
-	[Token(Token = "0x4000182")]
+	[Token(Token = "0x4000180")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	[SerializeAs("targetType")]
 	private Type _targetType;
 
-	[Token(Token = "0x4000183")]
+	[Token(Token = "0x4000181")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	[SerializeAs("targetTypeName")]
 	private string _targetTypeName;
 
-	[Token(Token = "0x4000184")]
+	[Token(Token = "0x4000182")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	[DoNotSerialize]
 	private Source _source;
 
-	[Token(Token = "0x4000185")]
+	[Token(Token = "0x4000183")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	[DoNotSerialize]
 	private FieldInfo _fieldInfo;
 
-	[Token(Token = "0x4000186")]
+	[Token(Token = "0x4000184")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	[DoNotSerialize]
 	private PropertyInfo _propertyInfo;
 
-	[Token(Token = "0x4000187")]
+	[Token(Token = "0x4000185")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	[DoNotSerialize]
 	private MethodInfo _methodInfo;
 
-	[Token(Token = "0x4000188")]
+	[Token(Token = "0x4000186")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	[DoNotSerialize]
 	private ConstructorInfo _constructorInfo;
 
-	[Token(Token = "0x4000189")]
+	[Token(Token = "0x4000187")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	[DoNotSerialize]
 	private bool _isExtension;
 
-	[Token(Token = "0x400018A")]
+	[Token(Token = "0x4000188")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x59")]
 	[DoNotSerialize]
 	private bool _isInvokedAsExtension;
 
-	[Token(Token = "0x400018B")]
+	[Token(Token = "0x4000189")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	[DoNotSerialize]
 	private IOptimizedAccessor fieldAccessor;
 
-	[Token(Token = "0x400018C")]
+	[Token(Token = "0x400018A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	[DoNotSerialize]
 	private IOptimizedAccessor propertyAccessor;
 
-	[Token(Token = "0x400018D")]
+	[Token(Token = "0x400018B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	[DoNotSerialize]
 	private IOptimizedInvoker methodInvoker;
 
-	[Token(Token = "0x400018F")]
+	[Token(Token = "0x400018D")]
 	public const MemberTypes SupportedMemberTypes = MemberTypes.Constructor | MemberTypes.Field | MemberTypes.Method | MemberTypes.Property;
 
-	[Token(Token = "0x4000190")]
+	[Token(Token = "0x400018E")]
 	public const BindingFlags SupportedBindingFlags = BindingFlags.Instance | BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.FlattenHierarchy;
 
-	[Token(Token = "0x4000191")]
+	[Token(Token = "0x400018F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly object[] EmptyObjects;
 
-	[Token(Token = "0x1700011D")]
+	[Token(Token = "0x17000120")]
 	[DoNotSerialize]
 	public Type targetType
 	{
-		[Token(Token = "0x60005AF")]
-		[Address(RVA = "0x4CC32E0", Offset = "0x4CC32E0", VA = "0x4CC32E0")]
+		[Token(Token = "0x60005B9")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005B0")]
-		[Address(RVA = "0x4CC2530", Offset = "0x4CC2530", VA = "0x4CC2530")]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700011E")]
-	[DoNotSerialize]
-	public string targetTypeName
-	{
-		[Token(Token = "0x60005B1")]
-		[Address(RVA = "0x4CC32F0", Offset = "0x4CC32F0", VA = "0x4CC32F0")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x1700011F")]
-	[DoNotSerialize]
-	public string name
-	{
-		[Token(Token = "0x60005B2")]
-		[Address(RVA = "0x4CC3300", Offset = "0x4CC3300", VA = "0x4CC3300")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60005B3")]
-		[Address(RVA = "0x4CC2630", Offset = "0x4CC2630", VA = "0x4CC2630")]
-		private set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000120")]
-	[DoNotSerialize]
-	public bool isReflected
-	{
-		[Token(Token = "0x60005B4")]
-		[Address(RVA = "0x4CC3310", Offset = "0x4CC3310", VA = "0x4CC3310")]
-		[CompilerGenerated]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60005B5")]
-		[Address(RVA = "0x4CC3320", Offset = "0x4CC3320", VA = "0x4CC3320")]
-		[CompilerGenerated]
+		[Token(Token = "0x60005BA")]
+		[Address(RVA = "0x2DB80F0", Offset = "0x2DB66F0", VA = "0x182DB80F0")]
 		private set
 		{
 		}
@@ -181,33 +133,28 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000121")]
 	[DoNotSerialize]
-	public Source source
+	public string targetTypeName
 	{
-		[Token(Token = "0x60005B6")]
-		[Address(RVA = "0x4CC3330", Offset = "0x4CC3330", VA = "0x4CC3330")]
+		[Token(Token = "0x60005BB")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
-			return default(Source);
-		}
-		[Token(Token = "0x60005B7")]
-		[Address(RVA = "0x4CC3360", Offset = "0x4CC3360", VA = "0x4CC3360")]
-		private set
-		{
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000122")]
 	[DoNotSerialize]
-	public FieldInfo fieldInfo
+	public string name
 	{
-		[Token(Token = "0x60005B8")]
-		[Address(RVA = "0x4CC3370", Offset = "0x4CC3370", VA = "0x4CC3370")]
+		[Token(Token = "0x60005BC")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005B9")]
-		[Address(RVA = "0x4CC3390", Offset = "0x4CC3390", VA = "0x4CC3390")]
+		[Token(Token = "0x60005BD")]
+		[Address(RVA = "0x2DB8080", Offset = "0x2DB6680", VA = "0x182DB8080")]
 		private set
 		{
 		}
@@ -215,16 +162,18 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000123")]
 	[DoNotSerialize]
-	public PropertyInfo propertyInfo
+	public bool isReflected
 	{
-		[Token(Token = "0x60005BA")]
-		[Address(RVA = "0x4CC33A0", Offset = "0x4CC33A0", VA = "0x4CC33A0")]
+		[Token(Token = "0x60005BE")]
+		[Address(RVA = "0x1D2B360", Offset = "0x1D29960", VA = "0x181D2B360")]
+		[CompilerGenerated]
 		get
 		{
-			return null;
+			return default(bool);
 		}
-		[Token(Token = "0x60005BB")]
-		[Address(RVA = "0x4CC33C0", Offset = "0x4CC33C0", VA = "0x4CC33C0")]
+		[Token(Token = "0x60005BF")]
+		[Address(RVA = "0x1D2B400", Offset = "0x1D29A00", VA = "0x181D2B400")]
+		[CompilerGenerated]
 		private set
 		{
 		}
@@ -232,16 +181,16 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000124")]
 	[DoNotSerialize]
-	public MethodInfo methodInfo
+	public Source source
 	{
-		[Token(Token = "0x60005BC")]
-		[Address(RVA = "0x4CC33D0", Offset = "0x4CC33D0", VA = "0x4CC33D0")]
+		[Token(Token = "0x60005C0")]
+		[Address(RVA = "0x2DB7E60", Offset = "0x2DB6460", VA = "0x182DB7E60")]
 		get
 		{
-			return null;
+			return default(Source);
 		}
-		[Token(Token = "0x60005BD")]
-		[Address(RVA = "0x4CC33F0", Offset = "0x4CC33F0", VA = "0x4CC33F0")]
+		[Token(Token = "0x60005C1")]
+		[Address(RVA = "0x1826560", Offset = "0x1824B60", VA = "0x181826560")]
 		private set
 		{
 		}
@@ -249,16 +198,16 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000125")]
 	[DoNotSerialize]
-	public ConstructorInfo constructorInfo
+	public FieldInfo fieldInfo
 	{
-		[Token(Token = "0x60005BE")]
-		[Address(RVA = "0x4CC3400", Offset = "0x4CC3400", VA = "0x4CC3400")]
+		[Token(Token = "0x60005C2")]
+		[Address(RVA = "0x2DB7070", Offset = "0x2DB5670", VA = "0x182DB7070")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005BF")]
-		[Address(RVA = "0x4CC3420", Offset = "0x4CC3420", VA = "0x4CC3420")]
+		[Token(Token = "0x60005C3")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		private set
 		{
 		}
@@ -266,16 +215,16 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000126")]
 	[DoNotSerialize]
-	public bool isExtension
+	public PropertyInfo propertyInfo
 	{
-		[Token(Token = "0x60005C0")]
-		[Address(RVA = "0x4CC3430", Offset = "0x4CC3430", VA = "0x4CC3430")]
+		[Token(Token = "0x60005C4")]
+		[Address(RVA = "0x2DB7990", Offset = "0x2DB5F90", VA = "0x182DB7990")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
-		[Token(Token = "0x60005C1")]
-		[Address(RVA = "0x4CC3450", Offset = "0x4CC3450", VA = "0x4CC3450")]
+		[Token(Token = "0x60005C5")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		private set
 		{
 		}
@@ -283,16 +232,16 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000127")]
 	[DoNotSerialize]
-	public bool isInvokedAsExtension
+	public MethodInfo methodInfo
 	{
-		[Token(Token = "0x60005C2")]
-		[Address(RVA = "0x4CC3460", Offset = "0x4CC3460", VA = "0x4CC3460")]
+		[Token(Token = "0x60005C6")]
+		[Address(RVA = "0x2DB7930", Offset = "0x2DB5F30", VA = "0x182DB7930")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
-		[Token(Token = "0x60005C3")]
-		[Address(RVA = "0x4CC3480", Offset = "0x4CC3480", VA = "0x4CC3480")]
+		[Token(Token = "0x60005C7")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		private set
 		{
 		}
@@ -300,59 +249,77 @@ public sealed class Member : ISerializationCallbackReceiver
 
 	[Token(Token = "0x17000128")]
 	[DoNotSerialize]
-	public Type[] parameterTypes
+	public ConstructorInfo constructorInfo
 	{
-		[Token(Token = "0x60005C4")]
-		[Address(RVA = "0x4CC3490", Offset = "0x4CC3490", VA = "0x4CC3490")]
+		[Token(Token = "0x60005C8")]
+		[Address(RVA = "0x2DB6FC0", Offset = "0x2DB55C0", VA = "0x182DB6FC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005C5")]
-		[Address(RVA = "0x4CC2670", Offset = "0x4CC2670", VA = "0x4CC2670")]
+		[Token(Token = "0x60005C9")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		private set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000129")]
-	public MethodBase methodBase
+	[DoNotSerialize]
+	public bool isExtension
 	{
-		[Token(Token = "0x60005C6")]
-		[Address(RVA = "0x4CC34A0", Offset = "0x4CC34A0", VA = "0x4CC34A0")]
+		[Token(Token = "0x60005CA")]
+		[Address(RVA = "0x2DB7380", Offset = "0x2DB5980", VA = "0x182DB7380")]
 		get
 		{
-			return null;
+			return default(bool);
+		}
+		[Token(Token = "0x60005CB")]
+		[Address(RVA = "0x19377D0", Offset = "0x1935DD0", VA = "0x1819377D0")]
+		private set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700012A")]
-	private MemberInfo _info
+	[DoNotSerialize]
+	public bool isInvokedAsExtension
 	{
-		[Token(Token = "0x60005C7")]
-		[Address(RVA = "0x4CC3500", Offset = "0x4CC3500", VA = "0x4CC3500")]
+		[Token(Token = "0x60005CC")]
+		[Address(RVA = "0x2DB7550", Offset = "0x2DB5B50", VA = "0x182DB7550")]
 		get
 		{
-			return null;
+			return default(bool);
+		}
+		[Token(Token = "0x60005CD")]
+		[Address(RVA = "0x1C5E470", Offset = "0x1C5CA70", VA = "0x181C5E470")]
+		private set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700012B")]
-	public MemberInfo info
+	[DoNotSerialize]
+	public Type[] parameterTypes
 	{
-		[Token(Token = "0x60005C8")]
-		[Address(RVA = "0x4CC35A0", Offset = "0x4CC35A0", VA = "0x4CC35A0")]
+		[Token(Token = "0x60005CE")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
+		[Token(Token = "0x60005CF")]
+		[Address(RVA = "0x2DB80D0", Offset = "0x2DB66D0", VA = "0x182DB80D0")]
+		private set
+		{
+		}
 	}
 
 	[Token(Token = "0x1700012C")]
-	public Type type
+	public MethodBase methodBase
 	{
-		[Token(Token = "0x60005C9")]
-		[Address(RVA = "0x4CC3690", Offset = "0x4CC3690", VA = "0x4CC3690")]
+		[Token(Token = "0x60005D0")]
+		[Address(RVA = "0x2DB78D0", Offset = "0x2DB5ED0", VA = "0x182DB78D0")]
 		get
 		{
 			return null;
@@ -360,43 +327,43 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x1700012D")]
-	public bool isCoroutine
+	private MemberInfo _info
 	{
-		[Token(Token = "0x60005CA")]
-		[Address(RVA = "0x4CC37F0", Offset = "0x4CC37F0", VA = "0x4CC37F0")]
+		[Token(Token = "0x60005D1")]
+		[Address(RVA = "0x2DB6DF0", Offset = "0x2DB53F0", VA = "0x182DB6DF0")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x1700012E")]
-	public bool isYieldInstruction
+	public MemberInfo info
 	{
-		[Token(Token = "0x60005CB")]
-		[Address(RVA = "0x4CC3890", Offset = "0x4CC3890", VA = "0x4CC3890")]
+		[Token(Token = "0x60005D2")]
+		[Address(RVA = "0x2DB70A0", Offset = "0x2DB56A0", VA = "0x182DB70A0")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x1700012F")]
-	public bool isGettable
+	public Type type
 	{
-		[Token(Token = "0x60005CC")]
-		[Address(RVA = "0x4CC3880", Offset = "0x4CC3880", VA = "0x4CC3880")]
+		[Token(Token = "0x60005D3")]
+		[Address(RVA = "0x2DB7E90", Offset = "0x2DB6490", VA = "0x182DB7E90")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000130")]
-	public bool isPubliclyGettable
+	public bool isCoroutine
 	{
-		[Token(Token = "0x60005CD")]
-		[Address(RVA = "0x4CC3B60", Offset = "0x4CC3B60", VA = "0x4CC3B60")]
+		[Token(Token = "0x60005D4")]
+		[Address(RVA = "0x2DB72F0", Offset = "0x2DB58F0", VA = "0x182DB72F0")]
 		get
 		{
 			return default(bool);
@@ -404,10 +371,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000131")]
-	public bool isSettable
+	public bool isYieldInstruction
 	{
-		[Token(Token = "0x60005CE")]
-		[Address(RVA = "0x4CC3B70", Offset = "0x4CC3B70", VA = "0x4CC3B70")]
+		[Token(Token = "0x60005D5")]
+		[Address(RVA = "0x2DB7820", Offset = "0x2DB5E20", VA = "0x182DB7820")]
 		get
 		{
 			return default(bool);
@@ -415,10 +382,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000132")]
-	public bool isPubliclySettable
+	public bool isGettable
 	{
-		[Token(Token = "0x60005CF")]
-		[Address(RVA = "0x4CC3D20", Offset = "0x4CC3D20", VA = "0x4CC3D20")]
+		[Token(Token = "0x60005D6")]
+		[Address(RVA = "0x2DB73E0", Offset = "0x2DB59E0", VA = "0x182DB73E0")]
 		get
 		{
 			return default(bool);
@@ -426,10 +393,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000133")]
-	public bool isInvocable
+	public bool isPubliclyGettable
 	{
-		[Token(Token = "0x60005D0")]
-		[Address(RVA = "0x4CC3D30", Offset = "0x4CC3D30", VA = "0x4CC3D30")]
+		[Token(Token = "0x60005D7")]
+		[Address(RVA = "0x2DB77E0", Offset = "0x2DB5DE0", VA = "0x182DB77E0")]
 		get
 		{
 			return default(bool);
@@ -437,10 +404,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000134")]
-	public bool isPubliclyInvocable
+	public bool isSettable
 	{
-		[Token(Token = "0x60005D1")]
-		[Address(RVA = "0x4CC3E30", Offset = "0x4CC3E30", VA = "0x4CC3E30")]
+		[Token(Token = "0x60005D8")]
+		[Address(RVA = "0x2DB7810", Offset = "0x2DB5E10", VA = "0x182DB7810")]
 		get
 		{
 			return default(bool);
@@ -448,10 +415,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000135")]
-	public bool isAccessor
+	public bool isPubliclySettable
 	{
-		[Token(Token = "0x60005D2")]
-		[Address(RVA = "0x4CC3E40", Offset = "0x4CC3E40", VA = "0x4CC3E40")]
+		[Token(Token = "0x60005D9")]
+		[Address(RVA = "0x2DB7800", Offset = "0x2DB5E00", VA = "0x182DB7800")]
 		get
 		{
 			return default(bool);
@@ -459,10 +426,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000136")]
-	public bool isField
+	public bool isInvocable
 	{
-		[Token(Token = "0x60005D3")]
-		[Address(RVA = "0x4CC3EC0", Offset = "0x4CC3EC0", VA = "0x4CC3EC0")]
+		[Token(Token = "0x60005DA")]
+		[Address(RVA = "0x2DB74B0", Offset = "0x2DB5AB0", VA = "0x182DB74B0")]
 		get
 		{
 			return default(bool);
@@ -470,10 +437,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000137")]
-	public bool isProperty
+	public bool isPubliclyInvocable
 	{
-		[Token(Token = "0x60005D4")]
-		[Address(RVA = "0x4CC3EF0", Offset = "0x4CC3EF0", VA = "0x4CC3EF0")]
+		[Token(Token = "0x60005DB")]
+		[Address(RVA = "0x2DB77F0", Offset = "0x2DB5DF0", VA = "0x182DB77F0")]
 		get
 		{
 			return default(bool);
@@ -481,10 +448,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000138")]
-	public bool isMethod
+	public bool isAccessor
 	{
-		[Token(Token = "0x60005D5")]
-		[Address(RVA = "0x4CC3F20", Offset = "0x4CC3F20", VA = "0x4CC3F20")]
+		[Token(Token = "0x60005DC")]
+		[Address(RVA = "0x2DB71A0", Offset = "0x2DB57A0", VA = "0x182DB71A0")]
 		get
 		{
 			return default(bool);
@@ -492,10 +459,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000139")]
-	public bool isConstructor
+	public bool isField
 	{
-		[Token(Token = "0x60005D6")]
-		[Address(RVA = "0x4CC3F50", Offset = "0x4CC3F50", VA = "0x4CC3F50")]
+		[Token(Token = "0x60005DD")]
+		[Address(RVA = "0x2DB73B0", Offset = "0x2DB59B0", VA = "0x182DB73B0")]
 		get
 		{
 			return default(bool);
@@ -503,10 +470,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x1700013A")]
-	public bool requiresTarget
+	public bool isProperty
 	{
-		[Token(Token = "0x60005D7")]
-		[Address(RVA = "0x4CC3F80", Offset = "0x4CC3F80", VA = "0x4CC3F80")]
+		[Token(Token = "0x60005DE")]
+		[Address(RVA = "0x2DB76C0", Offset = "0x2DB5CC0", VA = "0x182DB76C0")]
 		get
 		{
 			return default(bool);
@@ -514,10 +481,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x1700013B")]
-	public bool isOperator
+	public bool isMethod
 	{
-		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x4CC4100", Offset = "0x4CC4100", VA = "0x4CC4100")]
+		[Token(Token = "0x60005DF")]
+		[Address(RVA = "0x2DB7580", Offset = "0x2DB5B80", VA = "0x182DB7580")]
 		get
 		{
 			return default(bool);
@@ -525,10 +492,10 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x1700013C")]
-	public bool isConversion
+	public bool isConstructor
 	{
-		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x4CC4190", Offset = "0x4CC4190", VA = "0x4CC4190")]
+		[Token(Token = "0x60005E0")]
+		[Address(RVA = "0x2DB7240", Offset = "0x2DB5840", VA = "0x182DB7240")]
 		get
 		{
 			return default(bool);
@@ -536,32 +503,32 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x1700013D")]
-	public int order
+	public bool requiresTarget
 	{
-		[Token(Token = "0x60005DA")]
-		[Address(RVA = "0x4CC4220", Offset = "0x4CC4220", VA = "0x4CC4220")]
+		[Token(Token = "0x60005E1")]
+		[Address(RVA = "0x2DB7CD0", Offset = "0x2DB62D0", VA = "0x182DB7CD0")]
 		get
 		{
-			return default(int);
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1700013E")]
-	public Type declaringType
+	public bool isOperator
 	{
-		[Token(Token = "0x60005DB")]
-		[Address(RVA = "0x4CC4250", Offset = "0x4CC4250", VA = "0x4CC4250")]
+		[Token(Token = "0x60005E2")]
+		[Address(RVA = "0x2DB75B0", Offset = "0x2DB5BB0", VA = "0x182DB75B0")]
 		get
 		{
-			return null;
+			return default(bool);
 		}
 	}
 
 	[Token(Token = "0x1700013F")]
-	public bool isInherited
+	public bool isConversion
 	{
-		[Token(Token = "0x60005DC")]
-		[Address(RVA = "0x4CC42C0", Offset = "0x4CC42C0", VA = "0x4CC42C0")]
+		[Token(Token = "0x60005E3")]
+		[Address(RVA = "0x2DB7270", Offset = "0x2DB5870", VA = "0x182DB7270")]
 		get
 		{
 			return default(bool);
@@ -569,32 +536,32 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000140")]
-	public Type pseudoDeclaringType
+	public int order
 	{
-		[Token(Token = "0x60005DD")]
-		[Address(RVA = "0x4CC4360", Offset = "0x4CC4360", VA = "0x4CC4360")]
+		[Token(Token = "0x60005E4")]
+		[Address(RVA = "0x2DB7960", Offset = "0x2DB5F60", VA = "0x182DB7960")]
+		get
+		{
+			return default(int);
+		}
+	}
+
+	[Token(Token = "0x17000141")]
+	public Type declaringType
+	{
+		[Token(Token = "0x60005E5")]
+		[Address(RVA = "0x2DB6FF0", Offset = "0x2DB55F0", VA = "0x182DB6FF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000141")]
-	public bool isPseudoInherited
-	{
-		[Token(Token = "0x60005DE")]
-		[Address(RVA = "0x4CC46C0", Offset = "0x4CC46C0", VA = "0x4CC46C0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
 	[Token(Token = "0x17000142")]
-	public bool isIndexer
+	public bool isInherited
 	{
-		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x4CC4780", Offset = "0x4CC4780", VA = "0x4CC4780")]
+		[Token(Token = "0x60005E6")]
+		[Address(RVA = "0x2DB7460", Offset = "0x2DB5A60", VA = "0x182DB7460")]
 		get
 		{
 			return default(bool);
@@ -602,326 +569,359 @@ public sealed class Member : ISerializationCallbackReceiver
 	}
 
 	[Token(Token = "0x17000143")]
-	public bool isPredictable
+	public Type pseudoDeclaringType
 	{
-		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x4CC47E0", Offset = "0x4CC47E0", VA = "0x4CC47E0")]
+		[Token(Token = "0x60005E7")]
+		[Address(RVA = "0x2DB79C0", Offset = "0x2DB5FC0", VA = "0x182DB79C0")]
 		get
 		{
-			return default(bool);
+			return null;
 		}
 	}
 
 	[Token(Token = "0x17000144")]
-	public bool allowsNull
+	public bool isPseudoInherited
 	{
-		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x4CC4870", Offset = "0x4CC4870", VA = "0x4CC4870")]
+		[Token(Token = "0x60005E8")]
+		[Address(RVA = "0x2DB76F0", Offset = "0x2DB5CF0", VA = "0x182DB76F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x60005A9")]
-	[Address(RVA = "0x4CC21F0", Offset = "0x4CC21F0", VA = "0x4CC21F0")]
+	[Token(Token = "0x17000145")]
+	public bool isIndexer
+	{
+		[Token(Token = "0x60005E9")]
+		[Address(RVA = "0x2DB73F0", Offset = "0x2DB59F0", VA = "0x182DB73F0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000146")]
+	public bool isPredictable
+	{
+		[Token(Token = "0x60005EA")]
+		[Address(RVA = "0x2DB7630", Offset = "0x2DB5C30", VA = "0x182DB7630")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000147")]
+	public bool allowsNull
+	{
+		[Token(Token = "0x60005EB")]
+		[Address(RVA = "0x2DB6EB0", Offset = "0x2DB54B0", VA = "0x182DB6EB0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x60005B3")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	[Obsolete("This parameterless constructor is only made public for serialization. Use another constructor instead.")]
 	public Member()
 	{
 	}
 
-	[Token(Token = "0x60005AA")]
-	[Address(RVA = "0x4CC2200", Offset = "0x4CC2200", VA = "0x4CC2200")]
+	[Token(Token = "0x60005B4")]
+	[Address(RVA = "0x2DB6420", Offset = "0x2DB4A20", VA = "0x182DB6420")]
 	public Member(Type targetType, string name, [Optional] Type[] parameterTypes)
 	{
 	}
 
-	[Token(Token = "0x60005AB")]
-	[Address(RVA = "0x4CC2690", Offset = "0x4CC2690", VA = "0x4CC2690")]
+	[Token(Token = "0x60005B5")]
+	[Address(RVA = "0x2DB62B0", Offset = "0x2DB48B0", VA = "0x182DB62B0")]
 	public Member(Type targetType, FieldInfo fieldInfo)
 	{
 	}
 
-	[Token(Token = "0x60005AC")]
-	[Address(RVA = "0x4CC2900", Offset = "0x4CC2900", VA = "0x4CC2900")]
+	[Token(Token = "0x60005B6")]
+	[Address(RVA = "0x2DB6720", Offset = "0x2DB4D20", VA = "0x182DB6720")]
 	public Member(Type targetType, PropertyInfo propertyInfo)
 	{
 	}
 
-	[Token(Token = "0x60005AD")]
-	[Address(RVA = "0x4CC2B70", Offset = "0x4CC2B70", VA = "0x4CC2B70")]
+	[Token(Token = "0x60005B7")]
+	[Address(RVA = "0x2DB6B20", Offset = "0x2DB5120", VA = "0x182DB6B20")]
 	public Member(Type targetType, MethodInfo methodInfo)
 	{
 	}
 
-	[Token(Token = "0x60005AE")]
-	[Address(RVA = "0x4CC2F50", Offset = "0x4CC2F50", VA = "0x4CC2F50")]
+	[Token(Token = "0x60005B8")]
+	[Address(RVA = "0x2DB6890", Offset = "0x2DB4E90", VA = "0x182DB6890")]
 	public Member(Type targetType, ConstructorInfo constructorInfo)
 	{
 	}
 
-	[Token(Token = "0x60005E2")]
-	[Address(RVA = "0x4CC4990", Offset = "0x4CC4990", VA = "0x4CC4990", Slot = "4")]
+	[Token(Token = "0x60005EC")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnBeforeSerialize()
 	{
 	}
 
-	[Token(Token = "0x60005E3")]
-	[Address(RVA = "0x4CC49A0", Offset = "0x4CC49A0", VA = "0x4CC49A0", Slot = "5")]
+	[Token(Token = "0x60005ED")]
+	[Address(RVA = "0x2DB6160", Offset = "0x2DB4760", VA = "0x182DB6160", Slot = "5")]
 	private void UnityEngine_002EISerializationCallbackReceiver_002EOnAfterDeserialize()
 	{
 	}
 
-	[Token(Token = "0x60005E4")]
-	[Address(RVA = "0x4CC3940", Offset = "0x4CC3940", VA = "0x4CC3940")]
+	[Token(Token = "0x60005EE")]
+	[Address(RVA = "0x2DB3F30", Offset = "0x2DB2530", VA = "0x182DB3F30")]
 	public bool IsGettable(bool nonPublic)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005E5")]
-	[Address(RVA = "0x4CC3B80", Offset = "0x4CC3B80", VA = "0x4CC3B80")]
+	[Token(Token = "0x60005EF")]
+	[Address(RVA = "0x2DB4280", Offset = "0x2DB2880", VA = "0x182DB4280")]
 	public bool IsSettable(bool nonPublic)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005E6")]
-	[Address(RVA = "0x4CC3D40", Offset = "0x4CC3D40", VA = "0x4CC3D40")]
+	[Token(Token = "0x60005F0")]
+	[Address(RVA = "0x2DB4180", Offset = "0x2DB2780", VA = "0x182DB4180")]
 	public bool IsInvocable(bool nonPublic)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005E7")]
-	[Address(RVA = "0x4CC4B00", Offset = "0x4CC4B00", VA = "0x4CC4B00")]
+	[Token(Token = "0x60005F1")]
+	[Address(RVA = "0x2DB25B0", Offset = "0x2DB0BB0", VA = "0x182DB25B0")]
 	private void EnsureExplicitParameterTypes()
 	{
 	}
 
-	[Token(Token = "0x60005E8")]
-	[Address(RVA = "0x4CC4B60", Offset = "0x4CC4B60", VA = "0x4CC4B60")]
+	[Token(Token = "0x60005F2")]
+	[Address(RVA = "0x2DB51A0", Offset = "0x2DB37A0", VA = "0x182DB51A0")]
 	public void Reflect()
 	{
 	}
 
-	[Token(Token = "0x60005E9")]
-	[Address(RVA = "0x4CC5680", Offset = "0x4CC5680", VA = "0x4CC5680")]
+	[Token(Token = "0x60005F3")]
+	[Address(RVA = "0x2DB49D0", Offset = "0x2DB2FD0", VA = "0x182DB49D0")]
 	private void ReflectField(IEnumerable<MemberInfo> candidates)
 	{
 	}
 
-	[Token(Token = "0x60005EA")]
-	[Address(RVA = "0x4CC5850", Offset = "0x4CC5850", VA = "0x4CC5850")]
+	[Token(Token = "0x60005F4")]
+	[Address(RVA = "0x2DB4FC0", Offset = "0x2DB35C0", VA = "0x182DB4FC0")]
 	private void ReflectProperty(IEnumerable<MemberInfo> candidates)
 	{
 	}
 
-	[Token(Token = "0x60005EB")]
-	[Address(RVA = "0x4CC5E30", Offset = "0x4CC5E30", VA = "0x4CC5E30")]
+	[Token(Token = "0x60005F5")]
+	[Address(RVA = "0x2DB4570", Offset = "0x2DB2B70", VA = "0x182DB4570")]
 	private void ReflectConstructor(IEnumerable<MemberInfo> candidates)
 	{
 	}
 
-	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x4CC5A20", Offset = "0x4CC5A20", VA = "0x4CC5A20")]
+	[Token(Token = "0x60005F6")]
+	[Address(RVA = "0x2DB4BB0", Offset = "0x2DB31B0", VA = "0x182DB4BB0")]
 	private void ReflectMethod(IEnumerable<MemberInfo> candidates)
 	{
 	}
 
-	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x4CC6290", Offset = "0x4CC6290", VA = "0x4CC6290")]
+	[Token(Token = "0x60005F7")]
+	[Address(RVA = "0x2DB4440", Offset = "0x2DB2A40", VA = "0x182DB4440")]
 	public void Prewarm()
 	{
 	}
 
-	[Token(Token = "0x60005EE")]
-	[Address(RVA = "0x4CC3350", Offset = "0x4CC3350", VA = "0x4CC3350")]
+	[Token(Token = "0x60005F8")]
+	[Address(RVA = "0x2DB2A30", Offset = "0x2DB1030", VA = "0x182DB2A30")]
 	public void EnsureReflected()
 	{
 	}
 
-	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x4CC6410", Offset = "0x4CC6410", VA = "0x4CC6410")]
+	[Token(Token = "0x60005F9")]
+	[Address(RVA = "0x2DB28F0", Offset = "0x2DB0EF0", VA = "0x182DB28F0")]
 	public void EnsureReady(object target)
 	{
 	}
 
-	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x4CC64D0", Offset = "0x4CC64D0", VA = "0x4CC64D0")]
+	[Token(Token = "0x60005FA")]
+	[Address(RVA = "0x2DB2D80", Offset = "0x2DB1380", VA = "0x182DB2D80")]
 	public object Get(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F1")]
+	[Token(Token = "0x60005FB")]
 	public T Get<T>(object target)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x4CC6770", Offset = "0x4CC6770", VA = "0x4CC6770")]
+	[Token(Token = "0x60005FC")]
+	[Address(RVA = "0x2DB5C80", Offset = "0x2DB4280", VA = "0x182DB5C80")]
 	public object Set(object target, object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F3")]
-	[Address(RVA = "0x4CC6A10", Offset = "0x4CC6A10", VA = "0x4CC6A10")]
+	[Token(Token = "0x60005FD")]
+	[Address(RVA = "0x2DB2620", Offset = "0x2DB0C20", VA = "0x182DB2620")]
 	private void EnsureInvocable(object target)
 	{
 	}
 
-	[Token(Token = "0x60005F4")]
-	[Address(RVA = "0x4CC6C60", Offset = "0x4CC6C60", VA = "0x4CC6C60")]
+	[Token(Token = "0x60005FE")]
+	[Address(RVA = "0x2DB2CB0", Offset = "0x2DB12B0", VA = "0x182DB2CB0")]
 	public IEnumerable<ParameterInfo> GetParameterInfos()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F5")]
-	[Address(RVA = "0x4CC6D40", Offset = "0x4CC6D40", VA = "0x4CC6D40")]
+	[Token(Token = "0x60005FF")]
+	[Address(RVA = "0x2DB3BF0", Offset = "0x2DB21F0", VA = "0x182DB3BF0")]
 	public object Invoke(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F6")]
-	[Address(RVA = "0x4CC6F00", Offset = "0x4CC6F00", VA = "0x4CC6F00")]
+	[Token(Token = "0x6000600")]
+	[Address(RVA = "0x2DB3610", Offset = "0x2DB1C10", VA = "0x182DB3610")]
 	public object Invoke(object target, object arg0)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F7")]
-	[Address(RVA = "0x4CC7130", Offset = "0x4CC7130", VA = "0x4CC7130")]
+	[Token(Token = "0x6000601")]
+	[Address(RVA = "0x2DB37A0", Offset = "0x2DB1DA0", VA = "0x182DB37A0")]
 	public object Invoke(object target, object arg0, object arg1)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F8")]
-	[Address(RVA = "0x4CC73A0", Offset = "0x4CC73A0", VA = "0x4CC73A0")]
+	[Token(Token = "0x6000602")]
+	[Address(RVA = "0x2DB3D10", Offset = "0x2DB2310", VA = "0x182DB3D10")]
 	public object Invoke(object target, object arg0, object arg1, object arg2)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005F9")]
-	[Address(RVA = "0x4CC7660", Offset = "0x4CC7660", VA = "0x4CC7660")]
+	[Token(Token = "0x6000603")]
+	[Address(RVA = "0x2DB3960", Offset = "0x2DB1F60", VA = "0x182DB3960")]
 	public object Invoke(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FA")]
-	[Address(RVA = "0x4CC7980", Offset = "0x4CC7980", VA = "0x4CC7980")]
+	[Token(Token = "0x6000604")]
+	[Address(RVA = "0x2DB2FC0", Offset = "0x2DB15C0", VA = "0x182DB2FC0")]
 	public object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FB")]
-	[Address(RVA = "0x4CC7EA0", Offset = "0x4CC7EA0", VA = "0x4CC7EA0")]
+	[Token(Token = "0x6000605")]
+	[Address(RVA = "0x2DB3480", Offset = "0x2DB1A80", VA = "0x182DB3480")]
 	public object Invoke(object target, params object[] arguments)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005FC")]
+	[Token(Token = "0x6000606")]
 	public T Invoke<T>(object target)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60005FD")]
+	[Token(Token = "0x6000607")]
 	public T Invoke<T>(object target, object arg0)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60005FE")]
+	[Token(Token = "0x6000608")]
 	public T Invoke<T>(object target, object arg0, object arg1)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x60005FF")]
+	[Token(Token = "0x6000609")]
 	public T Invoke<T>(object target, object arg0, object arg1, object arg2)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000600")]
+	[Token(Token = "0x600060A")]
 	public T Invoke<T>(object target, object arg0, object arg1, object arg2, object arg3)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000601")]
+	[Token(Token = "0x600060B")]
 	public T Invoke<T>(object target, object arg0, object arg1, object arg2, object arg3, object arg4)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000602")]
+	[Token(Token = "0x600060C")]
 	public T Invoke<T>(object target, params object[] arguments)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6000603")]
-	[Address(RVA = "0x4CC8120", Offset = "0x4CC8120", VA = "0x4CC8120", Slot = "0")]
+	[Token(Token = "0x600060D")]
+	[Address(RVA = "0x2DB2A40", Offset = "0x2DB1040", VA = "0x182DB2A40", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000604")]
-	[Address(RVA = "0x4CC83B0", Offset = "0x4CC83B0", VA = "0x4CC83B0", Slot = "2")]
+	[Token(Token = "0x600060E")]
+	[Address(RVA = "0x2DB2BF0", Offset = "0x2DB11F0", VA = "0x182DB2BF0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x4CBCEA0", Offset = "0x4CBCEA0", VA = "0x4CBCEA0")]
+	[Token(Token = "0x600060F")]
+	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
 	public static bool operator ==(Member a, Member b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x4CC8310", Offset = "0x4CC8310", VA = "0x4CC8310")]
+	[Token(Token = "0x6000610")]
+	[Address(RVA = "0x2DB7FF0", Offset = "0x2DB65F0", VA = "0x182DB7FF0")]
 	public static bool operator !=(Member a, Member b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x4CC84B0", Offset = "0x4CC84B0", VA = "0x4CC84B0")]
+	[Token(Token = "0x6000611")]
+	[Address(RVA = "0x2DB6050", Offset = "0x2DB4650", VA = "0x182DB6050")]
 	public string ToUniqueString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000608")]
-	[Address(RVA = "0x4CC85D0", Offset = "0x4CC85D0", VA = "0x4CC85D0", Slot = "3")]
+	[Token(Token = "0x6000612")]
+	[Address(RVA = "0x2DB5FD0", Offset = "0x2DB45D0", VA = "0x182DB5FD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000609")]
-	[Address(RVA = "0x4CC8650", Offset = "0x4CC8650", VA = "0x4CC8650")]
+	[Token(Token = "0x6000613")]
+	[Address(RVA = "0x2DB5ED0", Offset = "0x2DB44D0", VA = "0x182DB5ED0")]
 	public Member ToDeclarer()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600060A")]
-	[Address(RVA = "0x4CC8710", Offset = "0x4CC8710", VA = "0x4CC8710")]
+	[Token(Token = "0x6000614")]
+	[Address(RVA = "0x2DB5F50", Offset = "0x2DB4550", VA = "0x182DB5F50")]
 	public Member ToPseudoDeclarer()
 	{
 		return null;

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000102")]
+[Token(Token = "0x2000141")]
 public enum ScrollerVisibility
 {
-	[Token(Token = "0x4000415")]
+	[Token(Token = "0x4000590")]
 	Auto,
-	[Token(Token = "0x4000416")]
+	[Token(Token = "0x4000591")]
 	AlwaysVisible,
-	[Token(Token = "0x4000417")]
+	[Token(Token = "0x4000592")]
 	Hidden
 }

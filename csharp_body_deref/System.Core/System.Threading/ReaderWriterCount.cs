@@ -32,8 +32,8 @@ internal class ReaderWriterCount
 	[FieldOffset(Offset = "0x28")]
 	public ReaderWriterCount next;
 
-	[Token(Token = "0x6000D1E")]
-	[Address(RVA = "0x4516FD0", Offset = "0x4516FD0", VA = "0x4516FD0")]
+	[Token(Token = "0x6000D1D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ReaderWriterCount()
 	{
 	}

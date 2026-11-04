@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000E")]
 public enum FocusType
 {
-	[Token(Token = "0x400005A")]
+	[Token(Token = "0x400005C")]
 	[Obsolete("FocusType.Native now behaves the same as FocusType.Passive in all OS cases. (UnityUpgradable) -> Passive", false)]
 	Native,
-	[Token(Token = "0x400005B")]
+	[Token(Token = "0x400005D")]
 	Keyboard,
-	[Token(Token = "0x400005C")]
+	[Token(Token = "0x400005E")]
 	Passive
 }

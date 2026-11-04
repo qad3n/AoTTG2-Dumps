@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000091")]
+[Token(Token = "0x200009B")]
 public enum XmlReadMode
 {
-	[Token(Token = "0x4000309")]
+	[Token(Token = "0x400031C")]
 	Auto,
-	[Token(Token = "0x400030A")]
+	[Token(Token = "0x400031D")]
 	ReadSchema,
-	[Token(Token = "0x400030B")]
+	[Token(Token = "0x400031E")]
 	IgnoreSchema,
-	[Token(Token = "0x400030C")]
+	[Token(Token = "0x400031F")]
 	InferSchema,
-	[Token(Token = "0x400030D")]
+	[Token(Token = "0x4000320")]
 	DiffGram,
-	[Token(Token = "0x400030E")]
+	[Token(Token = "0x4000321")]
 	Fragment,
-	[Token(Token = "0x400030F")]
+	[Token(Token = "0x4000322")]
 	InferTypedSchema
 }

@@ -11,15 +11,15 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.XR;
 
-[Token(Token = "0x2000017")]
-[UnityEngine.Bindings.NativeType(Header = "Modules/XR/Subsystems/Input/XRInputSubsystemDescriptor.h")]
-[UnityEngine.Scripting.UsedByNativeCode]
-[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
+[Token(Token = "0x2000018")]
 [UnityEngine.Bindings.NativeHeader("Modules/XR/XRPrefix.h")]
+[UnityEngine.Bindings.NativeType(Header = "Modules/XR/Subsystems/Input/XRInputSubsystemDescriptor.h")]
+[UnityEngine.Bindings.NativeConditional("ENABLE_XR")]
+[UnityEngine.Scripting.UsedByNativeCode]
 public class XRInputSubsystemDescriptor : IntegratedSubsystemDescriptor<XRInputSubsystem>
 {
-	[Token(Token = "0x600003B")]
-	[Address(RVA = "0x510D3D0", Offset = "0x510D3D0", VA = "0x510D3D0")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x3315350", Offset = "0x3313950", VA = "0x183315350")]
 	public XRInputSubsystemDescriptor()
 	{
 	}

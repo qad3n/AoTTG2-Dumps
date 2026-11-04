@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x200011E")]
+[Token(Token = "0x2000120")]
 public enum ProbeVolumeTextureMemoryBudget
 {
-	[Token(Token = "0x4000432")]
+	[Token(Token = "0x400054A")]
 	MemoryBudgetLow = 0x200,
-	[Token(Token = "0x4000433")]
+	[Token(Token = "0x400054B")]
 	MemoryBudgetMedium = 0x400,
-	[Token(Token = "0x4000434")]
+	[Token(Token = "0x400054C")]
 	MemoryBudgetHigh = 0x800
 }

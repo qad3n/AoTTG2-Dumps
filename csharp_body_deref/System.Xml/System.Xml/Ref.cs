@@ -13,7 +13,7 @@ namespace System.Xml;
 internal static class Ref
 {
 	[Token(Token = "0x6000A90")]
-	[Address(RVA = "0x47DA2A0", Offset = "0x47DA2A0", VA = "0x47DA2A0")]
+	[Address(RVA = "0x841F20", Offset = "0x840520", VA = "0x180841F20")]
 	public static bool Equal(string strA, string strB)
 	{
 		return default(bool);

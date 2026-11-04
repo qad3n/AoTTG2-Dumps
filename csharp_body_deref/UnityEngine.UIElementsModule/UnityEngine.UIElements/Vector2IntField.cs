@@ -5,76 +5,79 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200007A")]
+[Token(Token = "0x20000B6")]
 [MovedFrom(true, "UnityEditor.UIElements", "UnityEditor.UIElementsModule", null)]
 public class Vector2IntField : BaseCompositeField<Vector2Int, IntegerField, int>
 {
-	[Token(Token = "0x200007B")]
+	[Token(Token = "0x20000B7")]
+	[Obsolete("UxmlFactory is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlFactory : UxmlFactory<Vector2IntField, UxmlTraits>
 	{
-		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0x4F36830", Offset = "0x4F36830", VA = "0x4F36830")]
+		[Token(Token = "0x6000572")]
+		[Address(RVA = "0x31E3C00", Offset = "0x31E2200", VA = "0x1831E3C00")]
 		public UxmlFactory()
 		{
 		}
 	}
 
-	[Token(Token = "0x200007C")]
+	[Token(Token = "0x20000B8")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : BaseField<Vector2Int>.UxmlTraits
 	{
-		[Token(Token = "0x400020A")]
-		[FieldOffset(Offset = "0x80")]
+		[Token(Token = "0x4000335")]
+		[FieldOffset(Offset = "0x98")]
 		private UxmlIntAttributeDescription m_XValue;
 
-		[Token(Token = "0x400020B")]
-		[FieldOffset(Offset = "0x88")]
+		[Token(Token = "0x4000336")]
+		[FieldOffset(Offset = "0xA0")]
 		private UxmlIntAttributeDescription m_YValue;
 
-		[Token(Token = "0x60003A3")]
-		[Address(RVA = "0x4F36870", Offset = "0x4F36870", VA = "0x4F36870", Slot = "4")]
+		[Token(Token = "0x6000573")]
+		[Address(RVA = "0x31E5570", Offset = "0x31E3B70", VA = "0x1831E5570", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
-		[Token(Token = "0x60003A4")]
-		[Address(RVA = "0x4F369F0", Offset = "0x4F369F0", VA = "0x4F369F0")]
+		[Token(Token = "0x6000574")]
+		[Address(RVA = "0x31E6770", Offset = "0x31E4D70", VA = "0x1831E6770")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x4000207")]
+	[Token(Token = "0x4000332")]
 	[FieldOffset(Offset = "0x0")]
 	public new static readonly string ussClassName;
 
-	[Token(Token = "0x4000208")]
+	[Token(Token = "0x4000333")]
 	[FieldOffset(Offset = "0x8")]
 	public new static readonly string labelUssClassName;
 
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x4000334")]
 	[FieldOffset(Offset = "0x10")]
 	public new static readonly string inputUssClassName;
 
-	[Token(Token = "0x600039E")]
-	[Address(RVA = "0x4F36170", Offset = "0x4F36170", VA = "0x4F36170", Slot = "115")]
+	[Token(Token = "0x600056E")]
+	[Address(RVA = "0x31E8100", Offset = "0x31E6700", VA = "0x1831E8100", Slot = "161")]
 	internal override FieldDescription[] DescribeFields()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600039F")]
-	[Address(RVA = "0x4F36610", Offset = "0x4F36610", VA = "0x4F36610")]
+	[Token(Token = "0x600056F")]
+	[Address(RVA = "0x31E87B0", Offset = "0x31E6DB0", VA = "0x1831E87B0")]
 	public Vector2IntField()
 	{
 	}
 
-	[Token(Token = "0x60003A0")]
-	[Address(RVA = "0x4F36620", Offset = "0x4F36620", VA = "0x4F36620")]
+	[Token(Token = "0x6000570")]
+	[Address(RVA = "0x31E8680", Offset = "0x31E6C80", VA = "0x1831E8680")]
 	public Vector2IntField(string label)
 	{
 	}

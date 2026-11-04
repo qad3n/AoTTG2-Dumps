@@ -1,238 +1,279 @@
 // Type: MapEditor.EditorGizmoIcon
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/MapEditor/EditorGizmoIcon.cs
 // Prior real C# source: none
 // --------------------------------
 
 // MapEditor.EditorGizmoIcon$$Setup
 // il2cpp: void MapEditor_EditorGizmoIcon__Setup (MapEditor_EditorGizmoIcon_o* __this, const MethodInfo* method);
-// 0x433bec0
+// 0x1821ef390
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821ef9e4: mov eax, ecx
+// asm:   0x1821ef9e6: unpcklps xmm0, xmm1
+// asm:   0x1821ef9e9: jmp 0x1821efa17
 
 void MapEditor_EditorGizmoIcon__Setup(MapEditor_EditorGizmoIcon_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_GameObject_o **ppUVar1;
-  UnityEngine_SphereCollider_o **ppUVar2;
-  undefined8 uVar3;
+  undefined4 uVar1;
+  undefined4 uVar2;
   System_String_o *path;
-  long lVar4;
-  bool_conflict bVar5;
+  UnityEngine_Vector3_StaticFields *pUVar3;
+  undefined8 uVar4;
+  bool bVar5;
   UnityEngine_GameObject_o *pUVar6;
   UnityEngine_Object_o *pUVar7;
   UnityEngine_Transform_o *pUVar8;
-  MapEditor_EditorGizmoIcon_o *pMVar9;
   UnityEngine_Shader_o *shader;
-  MapEditor_EditorGizmoIcon_o *pMVar10;
-  UnityEngine_Material_o *__this_00;
-  UnityEngine_Transform_o *p;
+  UnityEngine_Material_o *pUVar9;
+  UnityEngine_Transform_o *pUVar10;
   UnityEngine_SphereCollider_o *pUVar11;
-  MapEditor_EditorGizmoIcon_o *__this_01;
-  MapEditor_EditorGizmoIcon_o *pMVar12;
-  UnityEngine_Color_o value;
-  UnityEngine_Vector3_o value_00;
-  UnityEngine_Vector3_Fields value_01;
-  UnityEngine_Bounds_o local_48;
+  UnityEngine_Bounds_o *pUVar12;
+  UnityEngine_Vector3_o *pUVar13;
+  float fVar14;
+  undefined8 uVar15;
+  undefined8 uVar16;
+  UnityEngine_Vector3_Fields local_38;
+  UnityEngine_Bounds_o local_28;
   
-  pMVar12 = (MapEditor_EditorGizmoIcon_o *)&local_48;
-  if (g_data_057ae0b5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SphereCollider_AddComponent_SphereCollider);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponentInChildren_Renderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_GetComponent_Renderer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_SphereCollider_GetComponent_SphereCollider);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Material);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GameObject_InstantiateAsset_GameObject);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"Unlit/Color");
-    il2cpp_runtime_helper_023445d0(&"EditorGizmoIcon: Could not load Gizmos/MissingRenderer prefab - creating fallback");
-    il2cpp_runtime_helper_023445d0(&"Gizmos/MissingRenderer");
-    g_data_057ae0b5 = '\x01';
+  if (Il2CppMethodInitialized_18434701d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_AddComponent_SphereCollider)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Renderer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Renderer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_SphereCollider)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Material);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"Unlit/Color");
+    il2cpp_codegen_initialize_runtime_metadata(&"EditorGizmoIcon: Could not load Gizmos/MissingRenderer prefab - creating fallback");
+    il2cpp_codegen_initialize_runtime_metadata(&"EditorSelectionCollider");
+    il2cpp_codegen_initialize_runtime_metadata(&"Gizmos/MissingRenderer");
+    Il2CppMethodInitialized_18434701d = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  path = *(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x38);
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  path = TypeInfo_Utility_ResourcePaths->static_fields->Map;
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  pUVar6 = (UnityEngine_GameObject_o *)
-           ApplicationManagers_ResourceManager__InstantiateAsset_object_(path,"Gizmos/MissingRenderer",0,MethodInfo_GameObject_InstantiateAsset_GameObject);
-  ppUVar1 = &(__this->fields)._iconObject;
+  pUVar6 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                     (path,"Gizmos/MissingRenderer",false,
+                      (MethodInfo_795F00 *)
+                      MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_GameObject);
   (__this->fields)._iconObject = pUVar6;
-  il2cpp_runtime_helper_022b4080(ppUVar1);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._iconObject,pUVar6);
   pUVar7 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar5 = UnityEngine_Object__op_Equality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if (bVar5) {
+    if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
     }
-    UnityEngine_Debug__LogWarning("EditorGizmoIcon: Could not load Gizmos/MissingRenderer prefab - creating fallback",(MethodInfo *)0x0);
+    UnityEngine_Debug__LogWarning((Il2CppObject *)"EditorGizmoIcon: Could not load Gizmos/MissingRenderer prefab - creating fallback",(MethodInfo *)0x0);
     pUVar6 = UnityEngine_GameObject__CreatePrimitive(0,(MethodInfo *)0x0);
-    *ppUVar1 = pUVar6;
-    il2cpp_runtime_helper_022b4080(ppUVar1);
-    __this_01 = (MapEditor_EditorGizmoIcon_o *)0x0;
-    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_0433c476;
-    pUVar7 = (UnityEngine_Object_o *)UnityEngine_GameObject__GetComponent_object_(*ppUVar1,MethodInfo_SphereCollider_GetComponent_SphereCollider);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    (__this->fields)._iconObject = pUVar6;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._iconObject,pUVar6);
+    pUVar6 = (__this->fields)._iconObject;
+    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1821efaad;
+    pUVar7 = (UnityEngine_Object_o *)
+             UnityEngine_GameObject__GetComponent_object_
+                       (pUVar6,(MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_SphereCollider);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    UnityEngine_Object__DestroyImmediate_4e01e00(pUVar7,(MethodInfo *)0x0);
-    __this_01 = (MapEditor_EditorGizmoIcon_o *)*ppUVar1;
-    if (__this_01 == (MapEditor_EditorGizmoIcon_o *)0x0) goto label_0433c476;
-    pUVar8 = UnityEngine_GameObject__get_transform((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-    if (g_data_057a6932 == '\0') {
-      __this_01 = (MapEditor_EditorGizmoIcon_o *)&TypeInfo_Vector3;
-      il2cpp_runtime_helper_023445d0();
-      g_data_057a6932 = '\x01';
+    UnityEngine_Object__DestroyImmediate_2f1fb90(pUVar7,(MethodInfo *)0x0);
+    pUVar6 = (__this->fields)._iconObject;
+    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1821efaad;
+    pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433dbeb == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+      Il2CppMethodInitialized_18433dbeb = '\x01';
     }
-    if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_0433c476;
-    uVar3 = *(undefined8 *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc);
-    value_00.fields.x = (float)uVar3 * 0.3;
-    value_00.fields.y = (float)((ulong)uVar3 >> 0x20) * 0.3;
-    value_00.fields.z = *(float *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0x14) * 0.3;
-    UnityEngine_Transform__set_localScale(pUVar8,value_00,(MethodInfo *)0x0);
-    __this_01 = (MapEditor_EditorGizmoIcon_o *)0x0;
-    if (*ppUVar1 == (UnityEngine_GameObject_o *)0x0) goto label_0433c476;
-    pMVar9 = (MapEditor_EditorGizmoIcon_o *)
-             UnityEngine_GameObject__GetComponent_object_(*ppUVar1,MethodInfo_Renderer_GetComponent_Renderer);
-    bVar5 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)pMVar9,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
+    pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+    uVar1 = (pUVar3->oneVector).fields.x;
+    uVar2 = (pUVar3->oneVector).fields.y;
+    uVar16._0_4_ = (float)uVar1 * 0.3;
+    uVar16._4_4_ = (float)uVar2 * 0.3;
+    if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_1821efaad;
+    local_38.z = (pUVar3->oneVector).fields.z * 0.3;
+    local_38._0_8_ = uVar16;
+    UnityEngine_Transform__set_localScale(pUVar8,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
+    pUVar6 = (__this->fields)._iconObject;
+    if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_1821efaad;
+    pUVar7 = (UnityEngine_Object_o *)
+             UnityEngine_GameObject__GetComponent_object_
+                       (pUVar6,(MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Renderer);
+    bVar5 = UnityEngine_Object__op_Inequality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar5) {
       shader = UnityEngine_Shader__Find("Unlit/Color",(MethodInfo *)0x0);
-      pMVar10 = (MapEditor_EditorGizmoIcon_o *)il2cpp_runtime_helper_023052d0(TypeInfo_Material);
-      __this_01 = pMVar10;
-      UnityEngine_Material___ctor((UnityEngine_Material_o *)pMVar10,shader,(MethodInfo *)0x0);
-      if (pMVar9 == (MapEditor_EditorGizmoIcon_o *)0x0) goto label_0433c476;
-      UnityEngine_Renderer__set_material
-                ((UnityEngine_Renderer_o *)pMVar9,(UnityEngine_Material_o *)pMVar10,(MethodInfo *)0x0);
-      __this_00 = UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)pMVar9,(MethodInfo *)0x0);
-      __this_01 = pMVar9;
-      if (__this_00 == (UnityEngine_Material_o *)0x0) goto label_0433c476;
-      value.fields.b = 0.0;
-      value.fields.a = 0.7;
-      value.fields.r = 1.0;
-      value.fields.g = 1.0;
-      UnityEngine_Material__set_color(__this_00,value,(MethodInfo *)0x0);
+      pUVar9 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Material);
+      UnityEngine_Material___ctor(pUVar9,shader,(MethodInfo *)0x0);
+      if (pUVar7 == (UnityEngine_Object_o *)0x0) goto label_1821efaad;
+      UnityEngine_Renderer__set_sharedMaterial((UnityEngine_Renderer_o *)pUVar7,pUVar9,(MethodInfo *)0x0);
+      pUVar9 = UnityEngine_Renderer__get_material((UnityEngine_Renderer_o *)pUVar7,(MethodInfo *)0x0);
+      if (pUVar9 == (UnityEngine_Material_o *)0x0) goto label_1821efaad;
+      local_28.fields.m_Center.fields.x = 1.0;
+      local_28.fields.m_Center.fields.y = 1.0;
+      local_28.fields.m_Center.fields.z = 0.0;
+      local_28.fields.m_Extents.fields.x = 0.7;
+      UnityEngine_Material__set_color(pUVar9,(UnityEngine_Color_o *)&local_28,(MethodInfo *)0x0);
     }
   }
-  __this_01 = (MapEditor_EditorGizmoIcon_o *)0x0;
-  if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
-    pUVar8 = UnityEngine_GameObject__get_transform(*ppUVar1,(MethodInfo *)0x0);
-    __this_01 = __this;
-    p = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+  pUVar6 = (__this->fields)._iconObject;
+  if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+    pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+    pUVar10 = UnityEngine_Component__get_transform((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
     if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
-      UnityEngine_Transform__SetParent(pUVar8,p,(MethodInfo *)0x0);
-      __this_01 = (MapEditor_EditorGizmoIcon_o *)*ppUVar1;
-      if (__this_01 != (MapEditor_EditorGizmoIcon_o *)0x0) {
-        pUVar8 = UnityEngine_GameObject__get_transform
-                           ((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-        if (g_data_057a65d5 == '\0') {
-          __this_01 = (MapEditor_EditorGizmoIcon_o *)&TypeInfo_Vector3;
-          il2cpp_runtime_helper_023445d0();
-          g_data_057a65d5 = '\x01';
+      UnityEngine_Transform__SetParent(pUVar8,pUVar10,(MethodInfo *)0x0);
+      pUVar6 = (__this->fields)._iconObject;
+      if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+        if (Il2CppMethodInitialized_18433dbea == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+          Il2CppMethodInitialized_18433dbea = '\x01';
         }
         if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+          pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+          local_38.x = (pUVar3->zeroVector).fields.x;
+          local_38.y = (pUVar3->zeroVector).fields.y;
+          local_38.z = (pUVar3->zeroVector).fields.z;
           UnityEngine_Transform__set_localPosition
-                    (pUVar8,(UnityEngine_Vector3_o)**(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8),
-                     (MethodInfo *)0x0);
-          __this_01 = (MapEditor_EditorGizmoIcon_o *)*ppUVar1;
-          if (__this_01 != (MapEditor_EditorGizmoIcon_o *)0x0) {
-            pUVar8 = UnityEngine_GameObject__get_transform
-                               ((UnityEngine_GameObject_o *)__this_01,(MethodInfo *)0x0);
-            if (g_data_057a6932 == '\0') {
-              __this_01 = (MapEditor_EditorGizmoIcon_o *)&TypeInfo_Vector3;
-              il2cpp_runtime_helper_023445d0();
-              g_data_057a6932 = '\x01';
+                    (pUVar8,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
+          pUVar6 = (__this->fields)._iconObject;
+          if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+            pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+            if (Il2CppMethodInitialized_18433dbeb == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+              Il2CppMethodInitialized_18433dbeb = '\x01';
             }
             if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+              pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+              local_38.x = (pUVar3->oneVector).fields.x;
+              local_38.y = (pUVar3->oneVector).fields.y;
+              local_38.z = (pUVar3->oneVector).fields.z;
               UnityEngine_Transform__set_localScale
-                        (pUVar8,(UnityEngine_Vector3_o)
-                                *(UnityEngine_Vector3_Fields *)(*(long *)(TypeInfo_Vector3 + 0xb8) + 0xc),
-                         (MethodInfo *)0x0);
-              __this_01 = __this;
-              pUVar6 = UnityEngine_Component__get_gameObject
-                                 ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                        (pUVar8,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
+              pUVar6 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_GameObject);
+              UnityEngine_GameObject___ctor(pUVar6,"EditorSelectionCollider",(MethodInfo *)0x0);
+              (__this->fields)._colliderObject = pUVar6;
+              Il2CppCodeGenWriteBarrier(&(__this->fields)._colliderObject,pUVar6);
+              pUVar6 = (__this->fields)._colliderObject;
               if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                pUVar11 = (UnityEngine_SphereCollider_o *)
-                          UnityEngine_GameObject__GetComponent_object_(pUVar6,MethodInfo_SphereCollider_GetComponent_SphereCollider);
-                ppUVar2 = &(__this->fields)._collider;
-                (__this->fields)._collider = pUVar11;
-                il2cpp_runtime_helper_022b4080(ppUVar2);
-                pUVar7 = (UnityEngine_Object_o *)(__this->fields)._collider;
-                if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                  il2cpp_runtime_helper_02337ed0();
-                }
-                bVar5 = UnityEngine_Object__op_Equality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                if ((char)bVar5 != '\0') {
-                  __this_01 = __this;
-                  pUVar6 = UnityEngine_Component__get_gameObject
-                                     ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                  if (pUVar6 == (UnityEngine_GameObject_o *)0x0) goto label_0433c476;
-                  pUVar11 = (UnityEngine_SphereCollider_o *)
-                            UnityEngine_GameObject__AddComponent_object_(pUVar6,MethodInfo_SphereCollider_AddComponent_SphereCollider);
-                  *ppUVar2 = pUVar11;
-                  il2cpp_runtime_helper_022b4080(ppUVar2);
-                }
-                __this_01 = (MapEditor_EditorGizmoIcon_o *)0x0;
-                if (*ppUVar1 != (UnityEngine_GameObject_o *)0x0) {
-                  pMVar9 = (MapEditor_EditorGizmoIcon_o *)
-                           UnityEngine_GameObject__GetComponentInChildren_object_(*ppUVar1,MethodInfo_Renderer_GetComponentInChildren_Renderer);
-                  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
+                pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
+                pUVar10 = UnityEngine_Component__get_transform
+                                    ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                if (pUVar8 != (UnityEngine_Transform_o *)0x0) {
+                  UnityEngine_Transform__SetParent_2f5a7e0(pUVar8,pUVar10,false,(MethodInfo *)0x0);
+                  pUVar6 = (__this->fields)._colliderObject;
+                  if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
                   }
-                  __this_01 = pMVar9;
-                  bVar5 = UnityEngine_Object__op_Inequality
-                                    ((UnityEngine_Object_o *)pMVar9,(UnityEngine_Object_o *)0x0,
-                                     (MethodInfo *)0x0);
-                  pUVar11 = *ppUVar2;
-                  if ((char)bVar5 == '\0') {
-                    if (g_data_057a65d5 == '\0') {
-                      __this_01 = (MapEditor_EditorGizmoIcon_o *)&TypeInfo_Vector3;
-                      il2cpp_runtime_helper_023445d0();
-                      g_data_057a65d5 = '\x01';
-                    }
-                    if (pUVar11 == (UnityEngine_SphereCollider_o *)0x0) goto label_0433c476;
-                    value_01 = **(UnityEngine_Vector3_Fields **)(TypeInfo_Vector3 + 0xb8);
-                  }
-                  else {
-                    __this_01 = __this;
-                    pMVar10 = (MapEditor_EditorGizmoIcon_o *)
-                              UnityEngine_Component__get_transform
-                                        ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                    if (((pMVar9 == (MapEditor_EditorGizmoIcon_o *)0x0) ||
-                        (UnityEngine_Renderer__get_bounds
-                                   (&local_48,(UnityEngine_Renderer_o *)pMVar9,(MethodInfo *)0x0),
-                        __this_01 = pMVar12, pMVar10 == (MapEditor_EditorGizmoIcon_o *)0x0)) ||
-                       (value_01 = (UnityEngine_Vector3_Fields)
-                                   UnityEngine_Transform__InverseTransformPoint
-                                             ((UnityEngine_Transform_o *)pMVar10,local_48.fields.m_Center,
-                                              (MethodInfo *)0x0), __this_01 = pMVar10,
-                       pUVar11 == (UnityEngine_SphereCollider_o *)0x0)) goto label_0433c476;
-                  }
-                  UnityEngine_SphereCollider__set_center
-                            (pUVar11,(UnityEngine_Vector3_o)value_01,(MethodInfo *)0x0);
-                  __this_01 = (MapEditor_EditorGizmoIcon_o *)0x0;
-                  if (*ppUVar2 != (UnityEngine_SphereCollider_o *)0x0) {
-                    UnityEngine_SphereCollider__set_radius(*ppUVar2,1.0,(MethodInfo *)0x0);
-                    pUVar6 = UnityEngine_Component__get_gameObject
-                                       ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
-                    __this_01 = TypeInfo_PhysicsLayer;
-                    if (*(int *)((long)&TypeInfo_PhysicsLayer[4].fields._iconObject + 4) == 0) {
-                      il2cpp_runtime_helper_02337ed0();
-                    }
+                  if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                    UnityEngine_GameObject__set_layer
+                              (pUVar6,TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorObject,
+                               (MethodInfo *)0x0);
+                    pUVar6 = (__this->fields)._colliderObject;
                     if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-                      UnityEngine_GameObject__set_layer
-                                (pUVar6,(int32_t)TypeInfo_PhysicsLayer[3].fields._collider[2].fields.m_CachedPtr,
-                                 (MethodInfo *)0x0);
-                      return;
+                      pUVar11 = UnityEngine_GameObject__AddComponent_object_
+                                          (pUVar6,(MethodInfo_6F4D60 *)
+                                                  MethodInfo_UnityEngine_GameObject_AddComponent_SphereCollider
+                                          );
+                      (__this->fields)._collider = pUVar11;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields)._collider,pUVar11);
+                      pUVar6 = (__this->fields)._iconObject;
+                      if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                        pUVar7 = (UnityEngine_Object_o *)
+                                 UnityEngine_GameObject__GetComponentInChildren_object_
+                                           (pUVar6,(MethodInfo_6F5040 *)
+                                                   MethodInfo_UnityEngine_GameObject_GetComponentInChildren_Renderer
+                                           );
+                        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+                        }
+                        bVar5 = UnityEngine_Object__op_Inequality
+                                          (pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+                        if (bVar5) {
+                          pUVar8 = UnityEngine_Component__get_transform
+                                             ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                          if (pUVar7 == (UnityEngine_Object_o *)0x0) goto label_1821efaad;
+                          pUVar12 = UnityEngine_Renderer__get_bounds
+                                              (&local_28,(UnityEngine_Renderer_o *)pUVar7,(MethodInfo *)0x0);
+                          local_28.fields.m_Extents.fields.y = (pUVar12->fields).m_Extents.fields.y;
+                          local_28.fields.m_Extents.fields.z = (pUVar12->fields).m_Extents.fields.z;
+                          uVar4._0_4_ = (pUVar12->fields).m_Center.fields.x;
+                          uVar4._4_4_ = (pUVar12->fields).m_Center.fields.y;
+                          if (pUVar8 == (UnityEngine_Transform_o *)0x0) goto label_1821efaad;
+                          local_38._0_8_ = uVar4;
+                          local_38.z = (pUVar12->fields).m_Center.fields.z;
+                          pUVar13 = UnityEngine_Transform__InverseTransformPoint
+                                              ((UnityEngine_Vector3_o *)&local_28,pUVar8,
+                                               (UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
+                          uVar15._0_4_ = (pUVar13->fields).x;
+                          uVar15._4_4_ = (pUVar13->fields).y;
+                          fVar14 = (pUVar13->fields).z;
+                        }
+                        else {
+                          if (Il2CppMethodInitialized_18433dbea == '\0') {
+                            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                            Il2CppMethodInitialized_18433dbea = '\x01';
+                          }
+                          pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+                          uVar15._0_4_ = (pUVar3->zeroVector).fields.x;
+                          uVar15._4_4_ = (pUVar3->zeroVector).fields.y;
+                          fVar14 = (pUVar3->zeroVector).fields.z;
+                        }
+                        pUVar11 = (__this->fields)._collider;
+                        local_38._0_8_ = uVar15;
+                        if ((((0x7f800000 < (uint)ABS((float)uVar15)) || (ABS((float)uVar15) == INFINITY)) ||
+                            (local_38.y = SUB84(uVar15,4), 0x7f800000 < (uint)ABS(local_38.y))) ||
+                           (((ABS(local_38.y) == INFINITY || (0x7f800000 < (uint)ABS(fVar14))) ||
+                            (ABS(fVar14) == INFINITY)))) {
+                          if (Il2CppMethodInitialized_18433dbea == '\0') {
+                            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector3);
+                            Il2CppMethodInitialized_18433dbea = '\x01';
+                          }
+                          pUVar3 = TypeInfo_UnityEngine_Vector3->static_fields;
+                          uVar15._0_4_ = (pUVar3->zeroVector).fields.x;
+                          uVar15._4_4_ = (pUVar3->zeroVector).fields.y;
+                          fVar14 = (pUVar3->zeroVector).fields.z;
+                        }
+                        if (pUVar11 != (UnityEngine_SphereCollider_o *)0x0) {
+                          local_38._0_8_ = uVar15;
+                          local_38.z = fVar14;
+                          UnityEngine_SphereCollider__set_center
+                                    (pUVar11,(UnityEngine_Vector3_o *)&local_38,(MethodInfo *)0x0);
+                          pUVar11 = (__this->fields)._collider;
+                          if (pUVar11 != (UnityEngine_SphereCollider_o *)0x0) {
+                            UnityEngine_SphereCollider__set_radius(pUVar11,1.0,(MethodInfo *)0x0);
+                            pUVar6 = UnityEngine_Component__get_gameObject
+                                               ((UnityEngine_Component_o *)__this,(MethodInfo *)0x0);
+                            if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+                              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+                            }
+                            if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
+                              UnityEngine_GameObject__set_layer
+                                        (pUVar6,TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorObject,
+                                         (MethodInfo *)0x0);
+                              return;
+                            }
+                          }
+                        }
+                      }
                     }
                   }
                 }
@@ -243,132 +284,61 @@ void MapEditor_EditorGizmoIcon__Setup(MapEditor_EditorGizmoIcon_o *__this,Method
       }
     }
   }
-label_0433c476:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae0b6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    g_data_057ae0b6 = '\x01';
-  }
-  pUVar7 = (UnityEngine_Object_o *)(__this_01->fields)._iconObject;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar5 = UnityEngine_Object__op_Inequality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar5 != '\0') {
-    pUVar7 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar5 = UnityEngine_Object__op_Inequality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      pUVar6 = (__this_01->fields)._iconObject;
-      if (pUVar6 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0);
-        lVar4 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-        if (((lVar4 != 0) && (lVar4 = *(long *)(lVar4 + 0x28), lVar4 != 0)) &&
-           (pUVar8 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__LookAt(pUVar8,*(UnityEngine_Transform_o **)(lVar4 + 0x10),(MethodInfo *)0x0);
-          pUVar6 = (__this_01->fields)._iconObject;
-          if ((pUVar6 != (UnityEngine_GameObject_o *)0x0) &&
-             (pUVar8 = UnityEngine_GameObject__get_transform(pUVar6,(MethodInfo *)0x0),
-             pUVar8 != (UnityEngine_Transform_o *)0x0)) {
-            UnityEngine_Transform__Rotate_4e0a530(pUVar8,0.0,180.0,0.0,(MethodInfo *)0x0);
-            return;
-          }
-        }
-      }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae0b7 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-        g_data_057ae0b7 = '\x01';
-      }
-      pUVar7 = pUVar6[1].monitor;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar5 = UnityEngine_Object__op_Inequality(pUVar7,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar5 == '\0') {
-        return;
-      }
-      pUVar7 = pUVar6[1].monitor;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      UnityEngine_Object__Destroy_4e01c60(pUVar7,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  return;
+label_1821efaad:
+  ThrowNullReferenceException();
 }
 
 
 // MapEditor.EditorGizmoIcon$$LateUpdate
 // il2cpp: void MapEditor_EditorGizmoIcon__LateUpdate (MapEditor_EditorGizmoIcon_o* __this, const MethodInfo* method);
-// 0x433c480
+// 0x1821ef190
 
 void MapEditor_EditorGizmoIcon__LateUpdate(MapEditor_EditorGizmoIcon_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_Object_o *pUVar1;
-  long lVar2;
-  bool_conflict bVar3;
-  UnityEngine_Transform_o *pUVar4;
-  UnityEngine_GameObject_o *__this_00;
+  UnityEngine_Object_o *x;
+  Cameras_BaseCamera_o *pCVar1;
+  UnityEngine_GameObject_o *pUVar2;
+  Utility_BaseComponentCache_o *pUVar3;
+  bool bVar4;
+  UnityEngine_Transform_o *pUVar5;
   
-  if (g_data_057ae0b6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    g_data_057ae0b6 = '\x01';
+  if (Il2CppMethodInitialized_18434701e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    Il2CppMethodInitialized_18434701e = '\x01';
   }
-  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  x = (UnityEngine_Object_o *)(__this->fields)._iconObject;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    pUVar1 = *(UnityEngine_Object_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  bVar4 = UnityEngine_Object__op_Inequality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar4) {
+    pCVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      __this_00 = (__this->fields)._iconObject;
-      if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-        pUVar4 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-        lVar2 = *(long *)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x18);
-        if (((lVar2 != 0) && (lVar2 = *(long *)(lVar2 + 0x28), lVar2 != 0)) &&
-           (pUVar4 != (UnityEngine_Transform_o *)0x0)) {
-          UnityEngine_Transform__LookAt(pUVar4,*(UnityEngine_Transform_o **)(lVar2 + 0x10),(MethodInfo *)0x0);
-          __this_00 = (__this->fields)._iconObject;
-          if (__this_00 != (UnityEngine_GameObject_o *)0x0) {
-            pUVar4 = UnityEngine_GameObject__get_transform(__this_00,(MethodInfo *)0x0);
-            if (pUVar4 != (UnityEngine_Transform_o *)0x0) {
-              UnityEngine_Transform__Rotate_4e0a530(pUVar4,0.0,180.0,0.0,(MethodInfo *)0x0);
-              return;
-            }
+    bVar4 = UnityEngine_Object__op_Inequality
+                      ((UnityEngine_Object_o *)pCVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      pUVar2 = (__this->fields)._iconObject;
+      if (pUVar2 != (UnityEngine_GameObject_o *)0x0) {
+        pUVar5 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0);
+        pCVar1 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentCamera;
+        if (((pCVar1 != (Cameras_BaseCamera_o *)0x0) &&
+            (pUVar3 = (pCVar1->fields).Cache, pUVar3 != (Utility_BaseComponentCache_o *)0x0)) &&
+           (pUVar5 != (UnityEngine_Transform_o *)0x0)) {
+          UnityEngine_Transform__LookAt(pUVar5,(pUVar3->fields).Transform,(MethodInfo *)0x0);
+          pUVar2 = (__this->fields)._iconObject;
+          if ((pUVar2 != (UnityEngine_GameObject_o *)0x0) &&
+             (pUVar5 = UnityEngine_GameObject__get_transform(pUVar2,(MethodInfo *)0x0),
+             pUVar5 != (UnityEngine_Transform_o *)0x0)) {
+            UnityEngine_Transform__Rotate_2f59e60(pUVar5,0.0,180.0,0.0,(MethodInfo *)0x0);
+            return;
           }
         }
       }
-      il2cpp_runtime_helper_022b2c90();
-      if (g_data_057ae0b7 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-        g_data_057ae0b7 = '\x01';
-      }
-      pUVar1 = __this_00[1].monitor;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      bVar3 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar3 != '\0') {
-        pUVar1 = __this_00[1].monitor;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        UnityEngine_Object__Destroy_4e01c60(pUVar1,(MethodInfo *)0x0);
-        return;
-      }
-      return;
+      ThrowNullReferenceException();
     }
   }
   return;
@@ -377,40 +347,87 @@ void MapEditor_EditorGizmoIcon__LateUpdate(MapEditor_EditorGizmoIcon_o *__this,M
 
 // MapEditor.EditorGizmoIcon$$OnDestroy
 // il2cpp: void MapEditor_EditorGizmoIcon__OnDestroy (MapEditor_EditorGizmoIcon_o* __this, const MethodInfo* method);
-// 0x433c5b0
+// 0x1821ef2c0
 
 void MapEditor_EditorGizmoIcon__OnDestroy(MapEditor_EditorGizmoIcon_o *__this,MethodInfo *method)
 
 {
   UnityEngine_Object_o *pUVar1;
-  bool_conflict bVar2;
+  bool bVar2;
   
-  if (g_data_057ae0b7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057ae0b7 = '\x01';
+  if (Il2CppMethodInitialized_18434701f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_18434701f = '\x01';
   }
-  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._colliderObject;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
   bVar2 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    pUVar1 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  if (bVar2) {
+    pUVar1 = (UnityEngine_Object_o *)(__this->fields)._colliderObject;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    UnityEngine_Object__Destroy_4e01c60(pUVar1,(MethodInfo *)0x0);
-    return;
+    UnityEngine_Object__Destroy_2f1ff70(pUVar1,(MethodInfo *)0x0);
+  }
+  pUVar1 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar2 = UnityEngine_Object__op_Inequality(pUVar1,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (bVar2) {
+    pUVar1 = (UnityEngine_Object_o *)(__this->fields)._iconObject;
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+    }
+    UnityEngine_Object__Destroy_2f1ff70(pUVar1,(MethodInfo *)0x0);
   }
   return;
 }
 
 
+// MapEditor.EditorGizmoIcon$$IsFinite
+// il2cpp: bool MapEditor_EditorGizmoIcon__IsFinite (UnityEngine_Vector3_o value, const MethodInfo* method);
+// 0x1820fdce0
+
+bool
+MapEditor_EditorGizmoIcon__IsFinite_20fdce0(UnityEngine_Vector3_o value, MethodInfo* method)
+
+{
+  float fVar1;
+  
+  fVar1 = (value->fields).x;
+  if (((((uint)ABS(fVar1) < 0x7f800001) && (ABS(fVar1) != INFINITY)) &&
+      (fVar1 = (value->fields).y, (uint)ABS(fVar1) < 0x7f800001)) &&
+     ((ABS(fVar1) != INFINITY && (fVar1 = (value->fields).z, (uint)ABS(fVar1) < 0x7f800001)))) {
+    return ABS(fVar1) != INFINITY;
+  }
+  return false;
+}
+
+
+// MapEditor.EditorGizmoIcon$$IsFinite
+// il2cpp: bool MapEditor_EditorGizmoIcon__IsFinite (float value, const MethodInfo* method);
+// 0x181eac170
+
+bool
+MapEditor_EditorGizmoIcon__IsFinite(float value, MethodInfo* method)
+
+{
+  if (0x7f800000 < (uint)ABS(value)) {
+    return false;
+  }
+  return ABS(value) != INFINITY;
+}
+
+
 // MapEditor.EditorGizmoIcon$$.ctor
 // il2cpp: void MapEditor_EditorGizmoIcon___ctor (MapEditor_EditorGizmoIcon_o* __this, const MethodInfo* method);
-// 0x433c630
+// 0x180528540
 
-void MapEditor_EditorGizmoIcon___ctor(MapEditor_EditorGizmoIcon_o *__this,MethodInfo *method)
+void
+MapEditor_EditorGizmoIcon___ctor(MapEditor_EditorGizmoIcon_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

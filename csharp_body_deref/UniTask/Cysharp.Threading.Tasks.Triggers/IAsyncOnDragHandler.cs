@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x2000209")]
+[Token(Token = "0x200020C")]
 public interface IAsyncOnDragHandler
 {
-	[Token(Token = "0x6000C06")]
+	[Token(Token = "0x6000C2A")]
 	UniTask<PointerEventData> OnDragAsync();
 }

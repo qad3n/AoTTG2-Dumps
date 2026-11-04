@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000014")]
 public enum ParticleSystemCurveMode
 {
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x400004B")]
 	Constant,
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x400004C")]
 	Curve,
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x400004D")]
 	TwoCurves,
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x400004E")]
 	TwoConstants
 }

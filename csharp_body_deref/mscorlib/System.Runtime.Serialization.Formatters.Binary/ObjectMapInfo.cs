@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x200041B")]
+[Token(Token = "0x200044A")]
 internal sealed class ObjectMapInfo
 {
-	[Token(Token = "0x400115A")]
+	[Token(Token = "0x400115C")]
 	[FieldOffset(Offset = "0x10")]
 	internal int objectId;
 
-	[Token(Token = "0x400115B")]
+	[Token(Token = "0x400115D")]
 	[FieldOffset(Offset = "0x14")]
 	private int numMembers;
 
-	[Token(Token = "0x400115C")]
+	[Token(Token = "0x400115E")]
 	[FieldOffset(Offset = "0x18")]
 	private string[] memberNames;
 
-	[Token(Token = "0x400115D")]
+	[Token(Token = "0x400115F")]
 	[FieldOffset(Offset = "0x20")]
 	private Type[] memberTypes;
 
-	[Token(Token = "0x60020E0")]
-	[Address(RVA = "0x3BAA160", Offset = "0x3BAA160", VA = "0x3BAA160")]
+	[Token(Token = "0x600214F")]
+	[Address(RVA = "0x1A1AB90", Offset = "0x1A19190", VA = "0x181A1AB90")]
 	internal ObjectMapInfo(int objectId, int numMembers, string[] memberNames, Type[] memberTypes)
 	{
 	}
 
-	[Token(Token = "0x60020E1")]
-	[Address(RVA = "0x3BA9FE0", Offset = "0x3BA9FE0", VA = "0x3BA9FE0")]
+	[Token(Token = "0x6002150")]
+	[Address(RVA = "0x1A1ABE0", Offset = "0x1A191E0", VA = "0x181A1ABE0")]
 	internal bool isCompatible(int numMembers, string[] memberNames, Type[] memberTypes)
 	{
 		return default(bool);

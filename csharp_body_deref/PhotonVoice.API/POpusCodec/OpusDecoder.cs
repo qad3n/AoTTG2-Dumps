@@ -12,73 +12,73 @@ using Photon.Voice;
 
 namespace POpusCodec;
 
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000002")]
 public class OpusDecoder<T> : IDisposable
 {
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x4000001")]
 	private const bool UseInbandFEC = true;
 
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x0")]
 	protected Action<FrameOut<T>> output;
 
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000003")]
 	[FieldOffset(Offset = "0x0")]
 	protected bool TisFloat;
 
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x0")]
 	protected int sizeofT;
 
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x0")]
 	protected FrameOut<T> frameOut;
 
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x4000006")]
 	[FieldOffset(Offset = "0x0")]
 	protected IntPtr handle;
 
-	[Token(Token = "0x400000C")]
+	[Token(Token = "0x4000007")]
 	[FieldOffset(Offset = "0x0")]
 	protected int channels;
 
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x4000008")]
 	[FieldOffset(Offset = "0x0")]
 	protected int frameSamples;
 
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x4000009")]
 	[FieldOffset(Offset = "0x0")]
 	protected static readonly T[] EmptyBuffer;
 
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x400000A")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] buffer;
 
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x400000B")]
 	[FieldOffset(Offset = "0x0")]
 	private bool prevPacketInvalid;
 
-	[Token(Token = "0x6000003")]
+	[Token(Token = "0x6000001")]
 	public OpusDecoder(Action<FrameOut<T>> output, SamplingRate outputSamplingRateHz, Channels channels, int frameSamples)
 	{
 	}
 
-	[Token(Token = "0x6000004")]
+	[Token(Token = "0x6000002")]
 	protected void decodePacket(FrameBuffer data, int decodeFEC, int channels, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x6000005")]
+	[Token(Token = "0x6000003")]
 	protected void procOutput(T[] buffer, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x6000006")]
+	[Token(Token = "0x6000004")]
 	public void DecodePacket(ref FrameBuffer packetData, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x6000007")]
+	[Token(Token = "0x6000005")]
 	public virtual void Dispose()
 	{
 	}

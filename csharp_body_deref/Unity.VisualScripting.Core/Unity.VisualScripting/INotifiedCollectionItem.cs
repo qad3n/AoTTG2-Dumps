@@ -12,15 +12,15 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200001B")]
 public interface INotifiedCollectionItem
 {
-	[Token(Token = "0x6000099")]
+	[Token(Token = "0x600009D")]
 	void BeforeAdd();
 
-	[Token(Token = "0x600009A")]
+	[Token(Token = "0x600009E")]
 	void AfterAdd();
 
-	[Token(Token = "0x600009B")]
+	[Token(Token = "0x600009F")]
 	void BeforeRemove();
 
-	[Token(Token = "0x600009C")]
+	[Token(Token = "0x60000A0")]
 	void AfterRemove();
 }

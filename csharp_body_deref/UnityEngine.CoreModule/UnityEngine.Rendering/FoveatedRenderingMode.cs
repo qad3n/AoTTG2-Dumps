@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002C6")]
+[Token(Token = "0x2000341")]
 public enum FoveatedRenderingMode
 {
-	[Token(Token = "0x40007F1")]
+	[Token(Token = "0x400093D")]
 	Disabled,
-	[Token(Token = "0x40007F2")]
+	[Token(Token = "0x400093E")]
 	Enabled
 }

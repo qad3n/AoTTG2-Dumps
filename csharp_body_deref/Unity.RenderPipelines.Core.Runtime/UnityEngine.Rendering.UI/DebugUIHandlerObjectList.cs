@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x2000227")]
+[Token(Token = "0x20002E6")]
 public class DebugUIHandlerObjectList : DebugUIHandlerField<DebugUI.ObjectListField>
 {
-	[Token(Token = "0x400089F")]
+	[Token(Token = "0x4000D71")]
 	[FieldOffset(Offset = "0x88")]
 	private int m_Index;
 
-	[Token(Token = "0x6000EDB")]
-	[Address(RVA = "0x4C14DD0", Offset = "0x4C14DD0", VA = "0x4C14DD0", Slot = "5")]
+	[Token(Token = "0x6001474")]
+	[Address(RVA = "0x2BAE4A0", Offset = "0x2BACAA0", VA = "0x182BAE4A0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000EDC")]
-	[Address(RVA = "0x4C14E20", Offset = "0x4C14E20", VA = "0x4C14E20", Slot = "9")]
+	[Token(Token = "0x6001475")]
+	[Address(RVA = "0x2BAE480", Offset = "0x2BACA80", VA = "0x182BAE480", Slot = "9")]
 	public override void OnIncrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EDD")]
-	[Address(RVA = "0x4C14E40", Offset = "0x4C14E40", VA = "0x4C14E40", Slot = "10")]
+	[Token(Token = "0x6001476")]
+	[Address(RVA = "0x2BAE460", Offset = "0x2BACA60", VA = "0x182BAE460", Slot = "10")]
 	public override void OnDecrement(bool fast)
 	{
 	}
 
-	[Token(Token = "0x6000EDE")]
-	[Address(RVA = "0x4C14E60", Offset = "0x4C14E60", VA = "0x4C14E60", Slot = "13")]
+	[Token(Token = "0x6001477")]
+	[Address(RVA = "0x2BAE500", Offset = "0x2BACB00", VA = "0x182BAE500", Slot = "13")]
 	public override void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6000EDF")]
-	[Address(RVA = "0x4C14FD0", Offset = "0x4C14FD0", VA = "0x4C14FD0")]
+	[Token(Token = "0x6001478")]
+	[Address(RVA = "0x2BAE660", Offset = "0x2BACC60", VA = "0x182BAE660")]
 	public DebugUIHandlerObjectList()
 	{
 	}

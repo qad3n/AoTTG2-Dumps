@@ -14,26 +14,26 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000015")]
 public sealed class AotList : ArrayList
 {
-	[Token(Token = "0x600005F")]
-	[Address(RVA = "0x4CA3230", Offset = "0x4CA3230", VA = "0x4CA3230")]
+	[Token(Token = "0x6000063")]
+	[Address(RVA = "0x278CD10", Offset = "0x278B310", VA = "0x18278CD10")]
 	public AotList()
 	{
 	}
 
-	[Token(Token = "0x6000060")]
-	[Address(RVA = "0x4CA3240", Offset = "0x4CA3240", VA = "0x4CA3240")]
+	[Token(Token = "0x6000064")]
+	[Address(RVA = "0x2D99330", Offset = "0x2D97930", VA = "0x182D99330")]
 	public AotList(int capacity)
 	{
 	}
 
-	[Token(Token = "0x6000061")]
-	[Address(RVA = "0x4CA3250", Offset = "0x4CA3250", VA = "0x4CA3250")]
+	[Token(Token = "0x6000065")]
+	[Address(RVA = "0x2D99320", Offset = "0x2D97920", VA = "0x182D99320")]
 	public AotList(ICollection c)
 	{
 	}
 
-	[Token(Token = "0x6000062")]
-	[Address(RVA = "0x4CA3260", Offset = "0x4CA3260", VA = "0x4CA3260")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x2D99230", Offset = "0x2D97830", VA = "0x182D99230")]
 	[Preserve]
 	public static void AotStubs()
 	{

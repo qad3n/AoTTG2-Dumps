@@ -10,50 +10,50 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x2000685")]
+[Token(Token = "0x20007E0")]
 internal class DuelSpectatePanel : DuelCategoryPanel
 {
-	[Token(Token = "0x17000C83")]
+	[Token(Token = "0x17000DC9")]
 	protected override bool DoublePanel
 	{
-		[Token(Token = "0x6004157")]
-		[Address(RVA = "0x42FB2E0", Offset = "0x42FB2E0", VA = "0x42FB2E0", Slot = "13")]
+		[Token(Token = "0x6004C4C")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "13")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000C84")]
+	[Token(Token = "0x17000DCA")]
 	protected override float VerticalSpacing
 	{
-		[Token(Token = "0x6004158")]
-		[Address(RVA = "0x42FB2F0", Offset = "0x42FB2F0", VA = "0x42FB2F0", Slot = "11")]
+		[Token(Token = "0x6004C4D")]
+		[Address(RVA = "0x2182AB0", Offset = "0x21810B0", VA = "0x182182AB0", Slot = "11")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x17000C85")]
+	[Token(Token = "0x17000DCB")]
 	protected override int VerticalPadding
 	{
-		[Token(Token = "0x6004159")]
-		[Address(RVA = "0x42FB300", Offset = "0x42FB300", VA = "0x42FB300", Slot = "9")]
+		[Token(Token = "0x6004C4E")]
+		[Address(RVA = "0x1B9BE70", Offset = "0x1B9A470", VA = "0x181B9BE70", Slot = "9")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x600415A")]
-	[Address(RVA = "0x42FB310", Offset = "0x42FB310", VA = "0x42FB310", Slot = "20")]
+	[Token(Token = "0x6004C4F")]
+	[Address(RVA = "0x2278860", Offset = "0x2276E60", VA = "0x182278860", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x600415B")]
-	[Address(RVA = "0x42FB320", Offset = "0x42FB320", VA = "0x42FB320")]
+	[Token(Token = "0x6004C50")]
+	[Address(RVA = "0x1DA8AE0", Offset = "0x1DA70E0", VA = "0x181DA8AE0")]
 	public DuelSpectatePanel()
 	{
 	}

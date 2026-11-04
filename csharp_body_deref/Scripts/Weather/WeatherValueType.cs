@@ -12,18 +12,18 @@ namespace Weather;
 [Token(Token = "0x200003A")]
 public enum WeatherValueType
 {
-	[Token(Token = "0x4000135")]
+	[Token(Token = "0x4000140")]
 	None,
-	[Token(Token = "0x4000136")]
+	[Token(Token = "0x4000141")]
 	Float,
-	[Token(Token = "0x4000137")]
+	[Token(Token = "0x4000142")]
 	Int,
-	[Token(Token = "0x4000138")]
+	[Token(Token = "0x4000143")]
 	String,
-	[Token(Token = "0x4000139")]
+	[Token(Token = "0x4000144")]
 	Color,
-	[Token(Token = "0x400013A")]
+	[Token(Token = "0x4000145")]
 	Bool,
-	[Token(Token = "0x400013B")]
+	[Token(Token = "0x4000146")]
 	Vector3
 }

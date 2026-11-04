@@ -51,7 +51,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D10")]
-		[Address(RVA = "0x4811180", Offset = "0x4811180", VA = "0x4811180")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -62,7 +62,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string ElementName
 	{
 		[Token(Token = "0x6000D11")]
-		[Address(RVA = "0x48111B0", Offset = "0x48111B0", VA = "0x48111B0")]
+		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
 		get
 		{
 			return null;
@@ -73,7 +73,7 @@ public class XmlArrayItemAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D12")]
-		[Address(RVA = "0x48111E0", Offset = "0x48111E0", VA = "0x48111E0")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -84,7 +84,7 @@ public class XmlArrayItemAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D13")]
-		[Address(RVA = "0x48111F0", Offset = "0x48111F0", VA = "0x48111F0")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
@@ -95,7 +95,7 @@ public class XmlArrayItemAttribute : Attribute
 	public bool IsNullable
 	{
 		[Token(Token = "0x6000D14")]
-		[Address(RVA = "0x4811200", Offset = "0x4811200", VA = "0x4811200")]
+		[Address(RVA = "0xACDD00", Offset = "0xACC300", VA = "0x180ACDD00")]
 		get
 		{
 			return default(bool);
@@ -106,7 +106,7 @@ public class XmlArrayItemAttribute : Attribute
 	internal bool IsNullableSpecified
 	{
 		[Token(Token = "0x6000D15")]
-		[Address(RVA = "0x4811210", Offset = "0x4811210", VA = "0x4811210")]
+		[Address(RVA = "0x1D6A540", Offset = "0x1D68B40", VA = "0x181D6A540")]
 		get
 		{
 			return default(bool);
@@ -117,7 +117,7 @@ public class XmlArrayItemAttribute : Attribute
 	public Type Type
 	{
 		[Token(Token = "0x6000D16")]
-		[Address(RVA = "0x4811220", Offset = "0x4811220", VA = "0x4811220")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
@@ -128,7 +128,7 @@ public class XmlArrayItemAttribute : Attribute
 	public int NestingLevel
 	{
 		[Token(Token = "0x6000D17")]
-		[Address(RVA = "0x4811230", Offset = "0x4811230", VA = "0x4811230")]
+		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
 		get
 		{
 			return default(int);
@@ -136,7 +136,7 @@ public class XmlArrayItemAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D18")]
-	[Address(RVA = "0x4811240", Offset = "0x4811240", VA = "0x4811240")]
+	[Address(RVA = "0x275A450", Offset = "0x2758A50", VA = "0x18275A450")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000D7")]
+[Token(Token = "0x20000F9")]
 public enum FogMode
 {
-	[Token(Token = "0x4000238")]
+	[Token(Token = "0x4000295")]
 	Linear = 1,
-	[Token(Token = "0x4000239")]
+	[Token(Token = "0x4000296")]
 	Exponential,
-	[Token(Token = "0x400023A")]
+	[Token(Token = "0x4000297")]
 	ExponentialSquared
 }

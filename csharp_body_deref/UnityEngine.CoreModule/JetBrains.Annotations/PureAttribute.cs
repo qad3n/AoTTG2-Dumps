@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace JetBrains.Annotations;
 
-[Token(Token = "0x200006B")]
+[Token(Token = "0x2000081")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class PureAttribute : Attribute
 {
-	[Token(Token = "0x60000F5")]
-	[Address(RVA = "0x4DADEF0", Offset = "0x4DADEF0", VA = "0x4DADEF0")]
+	[Token(Token = "0x60001A2")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public PureAttribute()
 	{
 	}

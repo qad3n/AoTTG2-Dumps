@@ -18,8 +18,8 @@ public sealed class LoopExpression : Expression
 	[Token(Token = "0x170000B9")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x6000467")]
-		[Address(RVA = "0x44BCC20", Offset = "0x44BCC20", VA = "0x44BCC20", Slot = "5")]
+		[Token(Token = "0x6000466")]
+		[Address(RVA = "0x243C1F0", Offset = "0x243A7F0", VA = "0x18243C1F0", Slot = "5")]
 		get
 		{
 			return null;
@@ -29,8 +29,8 @@ public sealed class LoopExpression : Expression
 	[Token(Token = "0x170000BA")]
 	public sealed override ExpressionType NodeType
 	{
-		[Token(Token = "0x6000468")]
-		[Address(RVA = "0x44BCC70", Offset = "0x44BCC70", VA = "0x44BCC70", Slot = "4")]
+		[Token(Token = "0x6000467")]
+		[Address(RVA = "0x232BB20", Offset = "0x232A120", VA = "0x18232BB20", Slot = "4")]
 		get
 		{
 			return default(ExpressionType);
@@ -40,8 +40,8 @@ public sealed class LoopExpression : Expression
 	[Token(Token = "0x170000BB")]
 	public Expression Body
 	{
-		[Token(Token = "0x6000469")]
-		[Address(RVA = "0x44BCC80", Offset = "0x44BCC80", VA = "0x44BCC80")]
+		[Token(Token = "0x6000468")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -52,8 +52,8 @@ public sealed class LoopExpression : Expression
 	[Token(Token = "0x170000BC")]
 	public LabelTarget BreakLabel
 	{
-		[Token(Token = "0x600046A")]
-		[Address(RVA = "0x44BCC90", Offset = "0x44BCC90", VA = "0x44BCC90")]
+		[Token(Token = "0x6000469")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -64,8 +64,8 @@ public sealed class LoopExpression : Expression
 	[Token(Token = "0x170000BD")]
 	public LabelTarget ContinueLabel
 	{
-		[Token(Token = "0x600046B")]
-		[Address(RVA = "0x44BCCA0", Offset = "0x44BCCA0", VA = "0x44BCCA0")]
+		[Token(Token = "0x600046A")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,21 +73,21 @@ public sealed class LoopExpression : Expression
 		}
 	}
 
-	[Token(Token = "0x6000466")]
-	[Address(RVA = "0x44BCB90", Offset = "0x44BCB90", VA = "0x44BCB90")]
+	[Token(Token = "0x6000465")]
+	[Address(RVA = "0x243C160", Offset = "0x243A760", VA = "0x18243C160")]
 	internal LoopExpression(Expression body, LabelTarget @break, LabelTarget @continue)
 	{
 	}
 
-	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x44BCCB0", Offset = "0x44BCCB0", VA = "0x44BCCB0", Slot = "9")]
+	[Token(Token = "0x600046B")]
+	[Address(RVA = "0x243C0B0", Offset = "0x243A6B0", VA = "0x18243C0B0", Slot = "9")]
 	protected internal override Expression Accept(ExpressionVisitor visitor)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600046D")]
-	[Address(RVA = "0x44BA750", Offset = "0x44BA750", VA = "0x44BA750")]
+	[Token(Token = "0x600046C")]
+	[Address(RVA = "0x243C0E0", Offset = "0x243A6E0", VA = "0x18243C0E0")]
 	public LoopExpression Update(LabelTarget breakLabel, LabelTarget continueLabel, Expression body)
 	{
 		return null;

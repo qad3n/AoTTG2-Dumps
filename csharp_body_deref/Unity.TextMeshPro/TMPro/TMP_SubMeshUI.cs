@@ -12,420 +12,421 @@ using UnityEngine.UI;
 
 namespace TMPro;
 
-[Token(Token = "0x2000086")]
+[Token(Token = "0x200007B")]
 [ExecuteAlways]
 [RequireComponent(typeof(CanvasRenderer))]
+[TMPro.TMPHelpURL("index")]
 public class TMP_SubMeshUI : MaskableGraphic
 {
-	[Token(Token = "0x400044E")]
-	[FieldOffset(Offset = "0xD8")]
+	[Token(Token = "0x40003B9")]
+	[FieldOffset(Offset = "0xE0")]
 	[SerializeField]
 	private TMP_FontAsset m_fontAsset;
 
-	[Token(Token = "0x400044F")]
-	[FieldOffset(Offset = "0xE0")]
+	[Token(Token = "0x40003BA")]
+	[FieldOffset(Offset = "0xE8")]
 	[SerializeField]
 	private TMP_SpriteAsset m_spriteAsset;
 
-	[Token(Token = "0x4000450")]
-	[FieldOffset(Offset = "0xE8")]
+	[Token(Token = "0x40003BB")]
+	[FieldOffset(Offset = "0xF0")]
 	[SerializeField]
 	private Material m_material;
 
-	[Token(Token = "0x4000451")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x40003BC")]
+	[FieldOffset(Offset = "0xF8")]
 	[SerializeField]
 	private Material m_sharedMaterial;
 
-	[Token(Token = "0x4000452")]
-	[FieldOffset(Offset = "0xF8")]
+	[Token(Token = "0x40003BD")]
+	[FieldOffset(Offset = "0x100")]
 	private Material m_fallbackMaterial;
 
-	[Token(Token = "0x4000453")]
-	[FieldOffset(Offset = "0x100")]
+	[Token(Token = "0x40003BE")]
+	[FieldOffset(Offset = "0x108")]
 	private Material m_fallbackSourceMaterial;
 
-	[Token(Token = "0x4000454")]
-	[FieldOffset(Offset = "0x108")]
+	[Token(Token = "0x40003BF")]
+	[FieldOffset(Offset = "0x110")]
 	[SerializeField]
 	private bool m_isDefaultMaterial;
 
-	[Token(Token = "0x4000455")]
-	[FieldOffset(Offset = "0x10C")]
+	[Token(Token = "0x40003C0")]
+	[FieldOffset(Offset = "0x114")]
 	[SerializeField]
 	private float m_padding;
 
-	[Token(Token = "0x4000456")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x40003C1")]
+	[FieldOffset(Offset = "0x118")]
 	private Mesh m_mesh;
 
-	[Token(Token = "0x4000457")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x40003C2")]
+	[FieldOffset(Offset = "0x120")]
 	[SerializeField]
 	private TextMeshProUGUI m_TextComponent;
 
 	[NonSerialized]
-	[Token(Token = "0x4000458")]
-	[FieldOffset(Offset = "0x120")]
+	[Token(Token = "0x40003C3")]
+	[FieldOffset(Offset = "0x128")]
 	private bool m_isRegisteredForEvents;
 
-	[Token(Token = "0x4000459")]
-	[FieldOffset(Offset = "0x121")]
+	[Token(Token = "0x40003C4")]
+	[FieldOffset(Offset = "0x129")]
 	private bool m_materialDirty;
 
-	[Token(Token = "0x400045A")]
-	[FieldOffset(Offset = "0x124")]
+	[Token(Token = "0x40003C5")]
+	[FieldOffset(Offset = "0x12C")]
 	[SerializeField]
 	private int m_materialReferenceIndex;
 
-	[Token(Token = "0x400045B")]
-	[FieldOffset(Offset = "0x128")]
+	[Token(Token = "0x40003C6")]
+	[FieldOffset(Offset = "0x130")]
 	private Transform m_RootCanvasTransform;
 
-	[Token(Token = "0x170000FD")]
+	[Token(Token = "0x170000FE")]
 	public TMP_FontAsset fontAsset
 	{
-		[Token(Token = "0x6000472")]
-		[Address(RVA = "0x4C92820", Offset = "0x4C92820", VA = "0x4C92820")]
+		[Token(Token = "0x6000411")]
+		[Address(RVA = "0x187BC50", Offset = "0x187A250", VA = "0x18187BC50")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000473")]
-		[Address(RVA = "0x4C92830", Offset = "0x4C92830", VA = "0x4C92830")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x170000FE")]
-	public TMP_SpriteAsset spriteAsset
-	{
-		[Token(Token = "0x6000474")]
-		[Address(RVA = "0x4C92850", Offset = "0x4C92850", VA = "0x4C92850")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000475")]
-		[Address(RVA = "0x4C92860", Offset = "0x4C92860", VA = "0x4C92860")]
+		[Token(Token = "0x6000412")]
+		[Address(RVA = "0x1BD5200", Offset = "0x1BD3800", VA = "0x181BD5200")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000FF")]
-	public override Texture mainTexture
+	public TMP_SpriteAsset spriteAsset
 	{
-		[Token(Token = "0x6000476")]
-		[Address(RVA = "0x4C92880", Offset = "0x4C92880", VA = "0x4C92880", Slot = "35")]
+		[Token(Token = "0x6000413")]
+		[Address(RVA = "0x187BC30", Offset = "0x187A230", VA = "0x18187BC30")]
 		get
 		{
 			return null;
 		}
-	}
-
-	[Token(Token = "0x17000100")]
-	public override Material material
-	{
-		[Token(Token = "0x6000477")]
-		[Address(RVA = "0x4C92930", Offset = "0x4C92930", VA = "0x4C92930", Slot = "32")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x6000478")]
-		[Address(RVA = "0x4C92AA0", Offset = "0x4C92AA0", VA = "0x4C92AA0", Slot = "33")]
+		[Token(Token = "0x6000414")]
+		[Address(RVA = "0x1BD53E0", Offset = "0x1BD39E0", VA = "0x181BD53E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000101")]
-	public Material sharedMaterial
+	[Token(Token = "0x17000100")]
+	public override Texture mainTexture
 	{
-		[Token(Token = "0x6000479")]
-		[Address(RVA = "0x4C92C70", Offset = "0x4C92C70", VA = "0x4C92C70")]
+		[Token(Token = "0x6000415")]
+		[Address(RVA = "0x2D443F0", Offset = "0x2D429F0", VA = "0x182D443F0", Slot = "35")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600047A")]
-		[Address(RVA = "0x4C92C80", Offset = "0x4C92C80", VA = "0x4C92C80")]
+	}
+
+	[Token(Token = "0x17000101")]
+	public override Material material
+	{
+		[Token(Token = "0x6000416")]
+		[Address(RVA = "0x2D44510", Offset = "0x2D42B10", VA = "0x182D44510", Slot = "32")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000417")]
+		[Address(RVA = "0x2D449E0", Offset = "0x2D42FE0", VA = "0x182D449E0", Slot = "33")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000102")]
-	public Material fallbackMaterial
+	public Material sharedMaterial
 	{
-		[Token(Token = "0x600047B")]
-		[Address(RVA = "0x4C92D50", Offset = "0x4C92D50", VA = "0x4C92D50")]
+		[Token(Token = "0x6000418")]
+		[Address(RVA = "0x1BD4F90", Offset = "0x1BD3590", VA = "0x181BD4F90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600047C")]
-		[Address(RVA = "0x4C92D60", Offset = "0x4C92D60", VA = "0x4C92D60")]
+		[Token(Token = "0x6000419")]
+		[Address(RVA = "0x2D44110", Offset = "0x2D42710", VA = "0x182D44110")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000103")]
-	public Material fallbackSourceMaterial
+	public Material fallbackMaterial
 	{
-		[Token(Token = "0x600047D")]
-		[Address(RVA = "0x4C92E90", Offset = "0x4C92E90", VA = "0x4C92E90")]
+		[Token(Token = "0x600041A")]
+		[Address(RVA = "0x187BC70", Offset = "0x187A270", VA = "0x18187BC70")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600047E")]
-		[Address(RVA = "0x4C92EA0", Offset = "0x4C92EA0", VA = "0x4C92EA0")]
+		[Token(Token = "0x600041B")]
+		[Address(RVA = "0x2D44850", Offset = "0x2D42E50", VA = "0x182D44850")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000104")]
+	public Material fallbackSourceMaterial
+	{
+		[Token(Token = "0x600041C")]
+		[Address(RVA = "0x1BD4C80", Offset = "0x1BD3280", VA = "0x181BD4C80")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600041D")]
+		[Address(RVA = "0x1BD5400", Offset = "0x1BD3A00", VA = "0x181BD5400")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000105")]
 	public override Material materialForRendering
 	{
-		[Token(Token = "0x600047F")]
-		[Address(RVA = "0x4C92EC0", Offset = "0x4C92EC0", VA = "0x4C92EC0", Slot = "34")]
+		[Token(Token = "0x600041E")]
+		[Address(RVA = "0x2D444B0", Offset = "0x2D42AB0", VA = "0x182D444B0", Slot = "34")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000105")]
+	[Token(Token = "0x17000106")]
 	public bool isDefaultMaterial
 	{
-		[Token(Token = "0x6000480")]
-		[Address(RVA = "0x4C92F20", Offset = "0x4C92F20", VA = "0x4C92F20")]
+		[Token(Token = "0x600041F")]
+		[Address(RVA = "0x1C3F920", Offset = "0x1C3DF20", VA = "0x181C3F920")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000481")]
-		[Address(RVA = "0x4C92F30", Offset = "0x4C92F30", VA = "0x4C92F30")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000106")]
-	public float padding
-	{
-		[Token(Token = "0x6000482")]
-		[Address(RVA = "0x4C92F40", Offset = "0x4C92F40", VA = "0x4C92F40")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000483")]
-		[Address(RVA = "0x4C92F50", Offset = "0x4C92F50", VA = "0x4C92F50")]
+		[Token(Token = "0x6000420")]
+		[Address(RVA = "0x1C3FA40", Offset = "0x1C3E040", VA = "0x181C3FA40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000107")]
-	public Mesh mesh
+	public float padding
 	{
-		[Token(Token = "0x6000484")]
-		[Address(RVA = "0x4C92F60", Offset = "0x4C92F60", VA = "0x4C92F60")]
+		[Token(Token = "0x6000421")]
+		[Address(RVA = "0x2D447A0", Offset = "0x2D42DA0", VA = "0x182D447A0")]
 		get
 		{
-			return null;
+			return default(float);
 		}
-		[Token(Token = "0x6000485")]
-		[Address(RVA = "0x4C93020", Offset = "0x4C93020", VA = "0x4C93020")]
+		[Token(Token = "0x6000422")]
+		[Address(RVA = "0x2D44AF0", Offset = "0x2D430F0", VA = "0x182D44AF0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000108")]
+	public Mesh mesh
+	{
+		[Token(Token = "0x6000423")]
+		[Address(RVA = "0x2D446D0", Offset = "0x2D42CD0", VA = "0x182D446D0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000424")]
+		[Address(RVA = "0x1C61340", Offset = "0x1C5F940", VA = "0x181C61340")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000109")]
 	public TMP_Text textComponent
 	{
-		[Token(Token = "0x6000486")]
-		[Address(RVA = "0x4C93040", Offset = "0x4C93040", VA = "0x4C93040")]
+		[Token(Token = "0x6000425")]
+		[Address(RVA = "0x2D447B0", Offset = "0x2D42DB0", VA = "0x182D447B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000487")]
-	[Address(RVA = "0x4C930E0", Offset = "0x4C930E0", VA = "0x4C930E0")]
+	[Token(Token = "0x6000426")]
+	[Address(RVA = "0x2D432E0", Offset = "0x2D418E0", VA = "0x182D432E0")]
 	public static TMP_SubMeshUI AddSubTextObject(TextMeshProUGUI textComponent, MaterialReference materialReference)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000488")]
-	[Address(RVA = "0x4C934C0", Offset = "0x4C934C0", VA = "0x4C934C0", Slot = "5")]
+	[Token(Token = "0x6000427")]
+	[Address(RVA = "0x2D43F20", Offset = "0x2D42520", VA = "0x182D43F20", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000489")]
-	[Address(RVA = "0x4C93530", Offset = "0x4C93530", VA = "0x4C93530", Slot = "7")]
+	[Token(Token = "0x6000428")]
+	[Address(RVA = "0x2D43E60", Offset = "0x2D42460", VA = "0x182D43E60", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600048A")]
-	[Address(RVA = "0x4C935F0", Offset = "0x4C935F0", VA = "0x4C935F0", Slot = "8")]
+	[Token(Token = "0x6000429")]
+	[Address(RVA = "0x2D43C80", Offset = "0x2D42280", VA = "0x182D43C80", Slot = "8")]
 	protected override void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600048B")]
-	[Address(RVA = "0x4C937D0", Offset = "0x4C937D0", VA = "0x4C937D0", Slot = "12")]
+	[Token(Token = "0x600042A")]
+	[Address(RVA = "0x2D43F90", Offset = "0x2D42590", VA = "0x182D43F90", Slot = "12")]
 	protected override void OnTransformParentChanged()
 	{
 	}
 
-	[Token(Token = "0x600048C")]
-	[Address(RVA = "0x4C93820", Offset = "0x4C93820", VA = "0x4C93820", Slot = "58")]
+	[Token(Token = "0x600042B")]
+	[Address(RVA = "0x2D43910", Offset = "0x2D41F10", VA = "0x182D43910", Slot = "58")]
 	public override Material GetModifiedMaterial(Material baseMaterial)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600048D")]
-	[Address(RVA = "0x4C92C00", Offset = "0x4C92C00", VA = "0x4C92C00")]
+	[Token(Token = "0x600042C")]
+	[Address(RVA = "0x2D43B00", Offset = "0x2D42100", VA = "0x182D43B00")]
 	public float GetPaddingForMaterial()
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600048E")]
-	[Address(RVA = "0x4C93940", Offset = "0x4C93940", VA = "0x4C93940")]
+	[Token(Token = "0x600042D")]
+	[Address(RVA = "0x2D43A70", Offset = "0x2D42070", VA = "0x182D43A70")]
 	public float GetPaddingForMaterial(Material mat)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600048F")]
-	[Address(RVA = "0x4C939B0", Offset = "0x4C939B0", VA = "0x4C939B0")]
+	[Token(Token = "0x600042E")]
+	[Address(RVA = "0x2D44380", Offset = "0x2D42980", VA = "0x182D44380")]
 	public void UpdateMeshPadding(bool isExtraPadding, bool isUsingBold)
 	{
 	}
 
-	[Token(Token = "0x6000490")]
-	[Address(RVA = "0x4C93A10", Offset = "0x4C93A10", VA = "0x4C93A10", Slot = "26")]
+	[Token(Token = "0x600042F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "26")]
 	public override void SetAllDirty()
 	{
 	}
 
-	[Token(Token = "0x6000491")]
-	[Address(RVA = "0x4C93A20", Offset = "0x4C93A20", VA = "0x4C93A20", Slot = "28")]
+	[Token(Token = "0x6000430")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "28")]
 	public override void SetVerticesDirty()
 	{
 	}
 
-	[Token(Token = "0x6000492")]
-	[Address(RVA = "0x4C93AE0", Offset = "0x4C93AE0", VA = "0x4C93AE0", Slot = "27")]
+	[Token(Token = "0x6000431")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "27")]
 	public override void SetLayoutDirty()
 	{
 	}
 
-	[Token(Token = "0x6000493")]
-	[Address(RVA = "0x4C93AF0", Offset = "0x4C93AF0", VA = "0x4C93AF0", Slot = "29")]
+	[Token(Token = "0x6000432")]
+	[Address(RVA = "0x2D44040", Offset = "0x2D42640", VA = "0x182D44040", Slot = "29")]
 	public override void SetMaterialDirty()
 	{
 	}
 
-	[Token(Token = "0x6000494")]
-	[Address(RVA = "0x4C93B30", Offset = "0x4C93B30", VA = "0x4C93B30")]
+	[Token(Token = "0x6000433")]
+	[Address(RVA = "0x2D44090", Offset = "0x2D42690", VA = "0x182D44090")]
 	public void SetPivotDirty()
 	{
 	}
 
-	[Token(Token = "0x6000495")]
-	[Address(RVA = "0x4C93BA0", Offset = "0x4C93BA0", VA = "0x4C93BA0")]
+	[Token(Token = "0x6000434")]
+	[Address(RVA = "0x2D43B90", Offset = "0x2D42190", VA = "0x182D43B90")]
 	private Transform GetRootCanvasTransform()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000496")]
-	[Address(RVA = "0x4C93C50", Offset = "0x4C93C50", VA = "0x4C93C50", Slot = "59")]
+	[Token(Token = "0x6000435")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "59")]
 	public override void Cull(Rect clipRect, bool validRect)
 	{
 	}
 
-	[Token(Token = "0x6000497")]
-	[Address(RVA = "0x4C93C60", Offset = "0x4C93C60", VA = "0x4C93C60", Slot = "41")]
+	[Token(Token = "0x6000436")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "41")]
 	protected override void UpdateGeometry()
 	{
 	}
 
-	[Token(Token = "0x6000498")]
-	[Address(RVA = "0x4C93C70", Offset = "0x4C93C70", VA = "0x4C93C70", Slot = "37")]
+	[Token(Token = "0x6000437")]
+	[Address(RVA = "0x2D43FF0", Offset = "0x2D425F0", VA = "0x182D43FF0", Slot = "37")]
 	public override void Rebuild(CanvasUpdate update)
 	{
 	}
 
-	[Token(Token = "0x6000499")]
-	[Address(RVA = "0x4C93CA0", Offset = "0x4C93CA0", VA = "0x4C93CA0")]
+	[Token(Token = "0x6000438")]
+	[Address(RVA = "0x1AC67A0", Offset = "0x1AC4DA0", VA = "0x181AC67A0")]
 	public void RefreshMaterial()
 	{
 	}
 
-	[Token(Token = "0x600049A")]
-	[Address(RVA = "0x4C93CC0", Offset = "0x4C93CC0", VA = "0x4C93CC0", Slot = "40")]
+	[Token(Token = "0x6000439")]
+	[Address(RVA = "0x2D44170", Offset = "0x2D42770", VA = "0x182D44170", Slot = "40")]
 	protected override void UpdateMaterial()
 	{
 	}
 
-	[Token(Token = "0x600049B")]
-	[Address(RVA = "0x4C93E50", Offset = "0x4C93E50", VA = "0x4C93E50", Slot = "63")]
+	[Token(Token = "0x600043A")]
+	[Address(RVA = "0x2D44030", Offset = "0x2D42630", VA = "0x182D44030", Slot = "63")]
 	public override void RecalculateClipping()
 	{
 	}
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x4C93E60", Offset = "0x4C93E60", VA = "0x4C93E60")]
+	[Token(Token = "0x600043B")]
+	[Address(RVA = "0x1BD4F90", Offset = "0x1BD3590", VA = "0x181BD4F90")]
 	private Material GetMaterial()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x4C92940", Offset = "0x4C92940", VA = "0x4C92940")]
+	[Token(Token = "0x600043C")]
+	[Address(RVA = "0x2D43760", Offset = "0x2D41D60", VA = "0x182D43760")]
 	private Material GetMaterial(Material mat)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600049E")]
-	[Address(RVA = "0x4C93E70", Offset = "0x4C93E70", VA = "0x4C93E70")]
+	[Token(Token = "0x600043D")]
+	[Address(RVA = "0x2D436A0", Offset = "0x2D41CA0", VA = "0x182D436A0")]
 	private Material CreateMaterialInstance(Material source)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600049F")]
-	[Address(RVA = "0x4C93F20", Offset = "0x4C93F20", VA = "0x4C93F20")]
+	[Token(Token = "0x600043E")]
+	[Address(RVA = "0x2D43C50", Offset = "0x2D42250", VA = "0x182D43C50")]
 	private Material GetSharedMaterial()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004A0")]
-	[Address(RVA = "0x4C92C90", Offset = "0x4C92C90", VA = "0x4C92C90")]
+	[Token(Token = "0x600043F")]
+	[Address(RVA = "0x2D44110", Offset = "0x2D42710", VA = "0x182D44110")]
 	private void SetSharedMaterial(Material mat)
 	{
 	}
 
-	[Token(Token = "0x60004A1")]
-	[Address(RVA = "0x4C93F40", Offset = "0x4C93F40", VA = "0x4C93F40")]
+	[Token(Token = "0x6000440")]
+	[Address(RVA = "0x23BE660", Offset = "0x23BCC60", VA = "0x1823BE660")]
 	public TMP_SubMeshUI()
 	{
 	}

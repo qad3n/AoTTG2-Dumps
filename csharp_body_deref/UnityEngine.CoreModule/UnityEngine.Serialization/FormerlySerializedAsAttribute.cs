@@ -11,17 +11,17 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Serialization;
 
-[Token(Token = "0x20001F5")]
-[AttributeUsage(AttributeTargets.Field, AllowMultiple = true, Inherited = false)]
+[Token(Token = "0x2000237")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[AttributeUsage(AttributeTargets.Field, AllowMultiple = true, Inherited = false)]
 public class FormerlySerializedAsAttribute : Attribute
 {
-	[Token(Token = "0x40006A0")]
+	[Token(Token = "0x4000737")]
 	[FieldOffset(Offset = "0x10")]
 	private string m_oldName;
 
-	[Token(Token = "0x6000D8F")]
-	[Address(RVA = "0x4E13AC0", Offset = "0x4E13AC0", VA = "0x4E13AC0")]
+	[Token(Token = "0x600116E")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public FormerlySerializedAsAttribute(string oldName)
 	{
 	}

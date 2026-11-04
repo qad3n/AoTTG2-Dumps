@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200002C")]
 [Flags]
 internal enum CertificateImportFlags
 {
-	[Token(Token = "0x4000085")]
+	[Token(Token = "0x4000107")]
 	None = 0,
-	[Token(Token = "0x4000086")]
+	[Token(Token = "0x4000108")]
 	DisableNativeBackend = 1,
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x4000109")]
 	DisableAutomaticFallback = 2
 }

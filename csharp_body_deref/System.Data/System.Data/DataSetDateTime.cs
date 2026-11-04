@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000038")]
+[Token(Token = "0x2000048")]
 public enum DataSetDateTime
 {
-	[Token(Token = "0x40000D6")]
+	[Token(Token = "0x400016A")]
 	Local = 1,
-	[Token(Token = "0x40000D7")]
+	[Token(Token = "0x400016B")]
 	Unspecified,
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x400016C")]
 	UnspecifiedLocal,
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x400016D")]
 	Utc
 }

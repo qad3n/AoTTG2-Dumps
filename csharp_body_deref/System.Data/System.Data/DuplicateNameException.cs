@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Data;
 
 [Serializable]
-[Token(Token = "0x200001C")]
+[Token(Token = "0x2000010")]
 public class DuplicateNameException : DataException
 {
-	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x45478F0", Offset = "0x45478F0", VA = "0x45478F0")]
+	[Token(Token = "0x60000AE")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected DuplicateNameException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x4547900", Offset = "0x4547900", VA = "0x4547900")]
+	[Token(Token = "0x60000AF")]
+	[Address(RVA = "0x24D4AB0", Offset = "0x24D30B0", VA = "0x1824D4AB0")]
 	public DuplicateNameException()
 	{
 	}
 
-	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x4547940", Offset = "0x4547940", VA = "0x4547940")]
+	[Token(Token = "0x60000B0")]
+	[Address(RVA = "0x24D4A90", Offset = "0x24D3090", VA = "0x1824D4A90")]
 	public DuplicateNameException(string s)
 	{
 	}

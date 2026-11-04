@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001AA")]
+[Token(Token = "0x20001AD")]
 [DisallowMultipleComponent]
 public sealed class AsyncCollisionEnterTrigger : AsyncTriggerBase<Collision>
 {
-	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x4A0B6E0", Offset = "0x4A0B6E0", VA = "0x4A0B6E0")]
+	[Token(Token = "0x6000ADB")]
+	[Address(RVA = "0x292AE70", Offset = "0x2929470", VA = "0x18292AE70")]
 	private void OnCollisionEnter(Collision coll)
 	{
 	}
 
-	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x4A0B730", Offset = "0x4A0B730", VA = "0x4A0B730")]
+	[Token(Token = "0x6000ADC")]
+	[Address(RVA = "0x292AB50", Offset = "0x2929150", VA = "0x18292AB50")]
 	public IAsyncOnCollisionEnterHandler GetOnCollisionEnterAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x4A0B7A0", Offset = "0x4A0B7A0", VA = "0x4A0B7A0")]
+	[Token(Token = "0x6000ADD")]
+	[Address(RVA = "0x292ABC0", Offset = "0x29291C0", VA = "0x18292ABC0")]
 	public IAsyncOnCollisionEnterHandler GetOnCollisionEnterAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000ABA")]
-	[Address(RVA = "0x4A0B810", Offset = "0x4A0B810", VA = "0x4A0B810")]
+	[Token(Token = "0x6000ADE")]
+	[Address(RVA = "0x292AD50", Offset = "0x2929350", VA = "0x18292AD50")]
 	public UniTask<Collision> OnCollisionEnterAsync()
 	{
 		return default(UniTask<Collision>);
 	}
 
-	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0x4A0B910", Offset = "0x4A0B910", VA = "0x4A0B910")]
+	[Token(Token = "0x6000ADF")]
+	[Address(RVA = "0x292AC40", Offset = "0x2929240", VA = "0x18292AC40")]
 	public UniTask<Collision> OnCollisionEnterAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collision>);
 	}
 
-	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x4A0BA20", Offset = "0x4A0BA20", VA = "0x4A0BA20")]
+	[Token(Token = "0x6000AE0")]
+	[Address(RVA = "0x292AEC0", Offset = "0x29294C0", VA = "0x18292AEC0")]
 	public AsyncCollisionEnterTrigger()
 	{
 	}

@@ -20,8 +20,8 @@ public class DebugInfoExpression : Expression
 	[ExcludeFromCodeCoverage]
 	public virtual int StartLine
 	{
-		[Token(Token = "0x600031E")]
-		[Address(RVA = "0x44B0B90", Offset = "0x44B0B90", VA = "0x44B0B90", Slot = "10")]
+		[Token(Token = "0x600031D")]
+		[Address(RVA = "0x242BB50", Offset = "0x242A150", VA = "0x18242BB50", Slot = "10")]
 		get
 		{
 			return default(int);
@@ -32,8 +32,8 @@ public class DebugInfoExpression : Expression
 	[ExcludeFromCodeCoverage]
 	public virtual int EndLine
 	{
-		[Token(Token = "0x600031F")]
-		[Address(RVA = "0x44B0BC0", Offset = "0x44B0BC0", VA = "0x44B0BC0", Slot = "11")]
+		[Token(Token = "0x600031E")]
+		[Address(RVA = "0x242BAF0", Offset = "0x242A0F0", VA = "0x18242BAF0", Slot = "11")]
 		get
 		{
 			return default(int);
@@ -43,8 +43,8 @@ public class DebugInfoExpression : Expression
 	[Token(Token = "0x1700007E")]
 	public SymbolDocumentInfo Document
 	{
-		[Token(Token = "0x6000320")]
-		[Address(RVA = "0x44B0BF0", Offset = "0x44B0BF0", VA = "0x44B0BF0")]
+		[Token(Token = "0x600031F")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -56,8 +56,8 @@ public class DebugInfoExpression : Expression
 	[ExcludeFromCodeCoverage]
 	public virtual bool IsClear
 	{
-		[Token(Token = "0x6000321")]
-		[Address(RVA = "0x44B0C00", Offset = "0x44B0C00", VA = "0x44B0C00", Slot = "12")]
+		[Token(Token = "0x6000320")]
+		[Address(RVA = "0x242BB20", Offset = "0x242A120", VA = "0x18242BB20", Slot = "12")]
 		get
 		{
 			return default(bool);

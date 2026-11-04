@@ -15,14 +15,14 @@ internal sealed class PrimitiveParameterExpression<T> : ParameterExpression
 	[Token(Token = "0x170000E5")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60004D9")]
+		[Token(Token = "0x60004D8")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60004D8")]
+	[Token(Token = "0x60004D7")]
 	internal PrimitiveParameterExpression(string name)
 	{
 	}

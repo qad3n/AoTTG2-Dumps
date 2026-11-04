@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000003")]
+[Token(Token = "0x2000005")]
 public enum ForceMode
 {
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x4000011")]
 	Force = 0,
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x4000012")]
 	Acceleration = 5,
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x4000013")]
 	Impulse = 1,
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x4000014")]
 	VelocityChange = 2
 }

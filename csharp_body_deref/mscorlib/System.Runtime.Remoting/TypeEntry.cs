@@ -10,52 +10,52 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000354")]
+[Token(Token = "0x2000383")]
 [ComVisible(true)]
 public class TypeEntry
 {
-	[Token(Token = "0x4000EBC")]
+	[Token(Token = "0x4000EC9")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private string assembly_name;
 
-	[Token(Token = "0x4000EBD")]
+	[Token(Token = "0x4000ECA")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private string type_name;
 
-	[Token(Token = "0x1700034B")]
+	[Token(Token = "0x1700034D")]
 	public string AssemblyName
 	{
-		[Token(Token = "0x6001CD6")]
-		[Address(RVA = "0x3B70920", Offset = "0x3B70920", VA = "0x3B70920")]
+		[Token(Token = "0x6001D45")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001CD7")]
-		[Address(RVA = "0x3B70930", Offset = "0x3B70930", VA = "0x3B70930")]
+		[Token(Token = "0x6001D46")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700034C")]
+	[Token(Token = "0x1700034E")]
 	public string TypeName
 	{
-		[Token(Token = "0x6001CD8")]
-		[Address(RVA = "0x3B70940", Offset = "0x3B70940", VA = "0x3B70940")]
+		[Token(Token = "0x6001D47")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001CD9")]
-		[Address(RVA = "0x3B70950", Offset = "0x3B70950", VA = "0x3B70950")]
+		[Token(Token = "0x6001D48")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6001CD5")]
-	[Address(RVA = "0x3B5F670", Offset = "0x3B5F670", VA = "0x3B5F670")]
+	[Token(Token = "0x6001D44")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected TypeEntry()
 	{
 	}

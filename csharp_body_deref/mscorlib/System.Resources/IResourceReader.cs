@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004AB")]
+[Token(Token = "0x20004DB")]
 public interface IResourceReader : IEnumerable, IDisposable
 {
-	[Token(Token = "0x6002333")]
+	[Token(Token = "0x60023B5")]
 	void Close();
 
-	[Token(Token = "0x6002334")]
+	[Token(Token = "0x60023B6")]
 	new IDictionaryEnumerator GetEnumerator();
 }

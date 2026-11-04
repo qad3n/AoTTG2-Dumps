@@ -11,26 +11,26 @@ using POpusCodec.Enums;
 
 namespace POpusCodec;
 
-[Token(Token = "0x2000008")]
+[Token(Token = "0x2000006")]
 public class OpusException : Exception
 {
-	[Token(Token = "0x4000020")]
-	[FieldOffset(Offset = "0x8C")]
+	[Token(Token = "0x400001B")]
+	[FieldOffset(Offset = "0x90")]
 	private OpusStatusCode _statusCode;
 
 	[Token(Token = "0x17000010")]
 	public OpusStatusCode StatusCode
 	{
-		[Token(Token = "0x600002F")]
-		[Address(RVA = "0x3F16C40", Offset = "0x3F16C40", VA = "0x3F16C40")]
+		[Token(Token = "0x600002D")]
+		[Address(RVA = "0xE925C0", Offset = "0xE90BC0", VA = "0x180E925C0")]
 		get
 		{
 			return default(OpusStatusCode);
 		}
 	}
 
-	[Token(Token = "0x6000030")]
-	[Address(RVA = "0x3F16200", Offset = "0x3F16200", VA = "0x3F16200")]
+	[Token(Token = "0x600002E")]
+	[Address(RVA = "0x1D70430", Offset = "0x1D6EA30", VA = "0x181D70430")]
 	public OpusException(OpusStatusCode statusCode, string message)
 	{
 	}

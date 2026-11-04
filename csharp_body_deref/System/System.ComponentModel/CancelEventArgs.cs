@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002E3")]
+[Token(Token = "0x20001EE")]
 public class CancelEventArgs : EventArgs
 {
-	[Token(Token = "0x17000433")]
+	[Token(Token = "0x170002A2")]
 	public bool Cancel
 	{
-		[Token(Token = "0x60012C4")]
-		[Address(RVA = "0x48AC960", Offset = "0x48AC960", VA = "0x48AC960")]
+		[Token(Token = "0x6000D0C")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60012C5")]
-		[Address(RVA = "0x48AC970", Offset = "0x48AC970", VA = "0x48AC970")]
+		[Token(Token = "0x6000D0D")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60012C6")]
-	[Address(RVA = "0x48AC980", Offset = "0x48AC980", VA = "0x48AC980")]
+	[Token(Token = "0x6000D0E")]
+	[Address(RVA = "0x28ADBB0", Offset = "0x28AC1B0", VA = "0x1828ADBB0")]
 	public CancelEventArgs()
 	{
 	}
 
-	[Token(Token = "0x60012C7")]
-	[Address(RVA = "0x48AC9F0", Offset = "0x48AC9F0", VA = "0x48AC9F0")]
+	[Token(Token = "0x6000D0F")]
+	[Address(RVA = "0x28ADC00", Offset = "0x28AC200", VA = "0x1828ADC00")]
 	public CancelEventArgs(bool cancel)
 	{
 	}

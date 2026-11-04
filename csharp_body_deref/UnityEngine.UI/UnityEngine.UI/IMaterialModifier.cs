@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000059")]
+[Token(Token = "0x2000057")]
 public interface IMaterialModifier
 {
-	[Token(Token = "0x6000360")]
+	[Token(Token = "0x600036B")]
 	Material GetModifiedMaterial(Material baseMaterial);
 }

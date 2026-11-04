@@ -16,8 +16,8 @@ internal class TypedParameterExpression : ParameterExpression
 	[Token(Token = "0x170000E4")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x44C0130", Offset = "0x44C0130", VA = "0x44C0130", Slot = "5")]
+		[Token(Token = "0x60004D6")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal class TypedParameterExpression : ParameterExpression
 		}
 	}
 
-	[Token(Token = "0x60004D6")]
-	[Address(RVA = "0x44C0000", Offset = "0x44C0000", VA = "0x44C0000")]
+	[Token(Token = "0x60004D5")]
+	[Address(RVA = "0x2441A70", Offset = "0x2440070", VA = "0x182441A70")]
 	internal TypedParameterExpression(Type type, string name)
 	{
 	}

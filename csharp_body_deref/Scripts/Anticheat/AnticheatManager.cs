@@ -13,78 +13,78 @@ using UnityEngine;
 
 namespace Anticheat;
 
-[Token(Token = "0x20007D7")]
+[Token(Token = "0x2000964")]
 internal class AnticheatManager : MonoBehaviour
 {
-	[Token(Token = "0x4002599")]
+	[Token(Token = "0x4002E6B")]
 	[FieldOffset(Offset = "0x0")]
 	private static AnticheatManager _instance;
 
-	[Token(Token = "0x400259A")]
+	[Token(Token = "0x4002E6C")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly Dictionary<int, Dictionary<PhotonEventType, BaseEventFilter>> _IdToEventFilters;
 
-	[Token(Token = "0x400259B")]
+	[Token(Token = "0x4002E6D")]
 	[FieldOffset(Offset = "0x10")]
 	private static BallotBox VoteKick;
 
-	[Token(Token = "0x400259C")]
+	[Token(Token = "0x4002E6E")]
 	[FieldOffset(Offset = "0x18")]
 	public static HashSet<string> BanList;
 
-	[Token(Token = "0x6004AD6")]
-	[Address(RVA = "0x43D00F0", Offset = "0x43D00F0", VA = "0x43D00F0")]
+	[Token(Token = "0x600574F")]
+	[Address(RVA = "0x235EB40", Offset = "0x235D140", VA = "0x18235EB40")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004AD7")]
-	[Address(RVA = "0x43D01C0", Offset = "0x43D01C0", VA = "0x43D01C0")]
+	[Token(Token = "0x6005750")]
+	[Address(RVA = "0x235F040", Offset = "0x235D640", VA = "0x18235F040")]
 	public static void Reset()
 	{
 	}
 
-	[Token(Token = "0x6004AD8")]
-	[Address(RVA = "0x43D03C0", Offset = "0x43D03C0", VA = "0x43D03C0")]
+	[Token(Token = "0x6005751")]
+	[Address(RVA = "0x235EF50", Offset = "0x235D550", VA = "0x18235EF50")]
 	private static void OnLoadScene(SceneName sceneName)
 	{
 	}
 
-	[Token(Token = "0x6004AD9")]
-	[Address(RVA = "0x43D0450", Offset = "0x43D0450", VA = "0x43D0450")]
+	[Token(Token = "0x6005752")]
+	[Address(RVA = "0x235E860", Offset = "0x235CE60", VA = "0x18235E860")]
 	public static bool CheckPhotonEvent(Player sender, PhotonEventType eventType, object[] data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004ADA")]
-	[Address(RVA = "0x43D06C0", Offset = "0x43D06C0", VA = "0x43D06C0")]
+	[Token(Token = "0x6005753")]
+	[Address(RVA = "0x235EAC0", Offset = "0x235D0C0", VA = "0x18235EAC0")]
 	private static bool HasModPassword()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004ADB")]
-	[Address(RVA = "0x43D0740", Offset = "0x43D0740", VA = "0x43D0740")]
+	[Token(Token = "0x6005754")]
+	[Address(RVA = "0x235EC20", Offset = "0x235D220", VA = "0x18235EC20")]
 	public static void KickPlayer(Player player, bool ban = false, string reason = "")
 	{
 	}
 
-	[Token(Token = "0x6004ADC")]
-	[Address(RVA = "0x43D0AA0", Offset = "0x43D0AA0", VA = "0x43D0AA0")]
+	[Token(Token = "0x6005755")]
+	[Address(RVA = "0x235F110", Offset = "0x235D710", VA = "0x18235F110")]
 	public static BallotBox.Result TryVoteKickPlayer(Player voter, Player target)
 	{
 		return default(BallotBox.Result);
 	}
 
-	[Token(Token = "0x6004ADD")]
-	[Address(RVA = "0x43D11D0", Offset = "0x43D11D0", VA = "0x43D11D0")]
+	[Token(Token = "0x6005756")]
+	[Address(RVA = "0x235EFD0", Offset = "0x235D5D0", VA = "0x18235EFD0")]
 	public static void ResetVoteKicks(Player voter)
 	{
 	}
 
-	[Token(Token = "0x6004ADE")]
-	[Address(RVA = "0x43D1460", Offset = "0x43D1460", VA = "0x43D1460")]
+	[Token(Token = "0x6005757")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AnticheatManager()
 	{
 	}

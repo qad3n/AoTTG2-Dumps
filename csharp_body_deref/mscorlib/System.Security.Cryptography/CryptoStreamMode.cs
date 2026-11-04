@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002C0")]
+[Token(Token = "0x20002EF")]
 public enum CryptoStreamMode
 {
-	[Token(Token = "0x4000CB7")]
+	[Token(Token = "0x4000CC4")]
 	Read,
-	[Token(Token = "0x4000CB8")]
+	[Token(Token = "0x4000CC5")]
 	Write
 }

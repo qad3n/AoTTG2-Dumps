@@ -29,7 +29,7 @@ public struct InputDevice : IEquatable<InputDevice>
 	private ulong deviceId
 	{
 		[Token(Token = "0x600000B")]
-		[Address(RVA = "0x510C440", Offset = "0x510C440", VA = "0x510C440")]
+		[Address(RVA = "0x33132B0", Offset = "0x33118B0", VA = "0x1833132B0")]
 		get
 		{
 			return default(ulong);
@@ -37,27 +37,27 @@ public struct InputDevice : IEquatable<InputDevice>
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x510C430", Offset = "0x510C430", VA = "0x510C430")]
+	[Address(RVA = "0x33132A0", Offset = "0x33118A0", VA = "0x1833132A0")]
 	internal InputDevice(ulong deviceId)
 	{
 	}
 
 	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x510C460", Offset = "0x510C460", VA = "0x510C460", Slot = "0")]
+	[Address(RVA = "0x33131A0", Offset = "0x33117A0", VA = "0x1833131A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000D")]
-	[Address(RVA = "0x510C4E0", Offset = "0x510C4E0", VA = "0x510C4E0", Slot = "4")]
+	[Address(RVA = "0x3313240", Offset = "0x3311840", VA = "0x183313240", Slot = "4")]
 	public bool Equals(InputDevice other)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x510C510", Offset = "0x510C510", VA = "0x510C510", Slot = "2")]
+	[Address(RVA = "0x3313270", Offset = "0x3311870", VA = "0x183313270", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

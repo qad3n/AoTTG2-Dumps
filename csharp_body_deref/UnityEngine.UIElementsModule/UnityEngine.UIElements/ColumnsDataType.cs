@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000D6")]
+[Token(Token = "0x2000111")]
 internal enum ColumnsDataType
 {
-	[Token(Token = "0x4000389")]
+	[Token(Token = "0x40004D4")]
 	PrimaryColumn,
-	[Token(Token = "0x400038A")]
+	[Token(Token = "0x40004D5")]
 	StretchMode,
-	[Token(Token = "0x400038B")]
+	[Token(Token = "0x40004D6")]
 	Reorderable,
-	[Token(Token = "0x400038C")]
+	[Token(Token = "0x40004D7")]
 	Resizable,
-	[Token(Token = "0x400038D")]
+	[Token(Token = "0x40004D8")]
 	ResizePreview
 }

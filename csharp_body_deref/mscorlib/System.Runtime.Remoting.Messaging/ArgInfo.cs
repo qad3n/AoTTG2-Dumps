@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x200039B")]
+[Token(Token = "0x20003CA")]
 internal class ArgInfo
 {
-	[Token(Token = "0x4000F41")]
+	[Token(Token = "0x4000F4B")]
 	[FieldOffset(Offset = "0x10")]
 	private int[] _paramMap;
 
-	[Token(Token = "0x4000F42")]
+	[Token(Token = "0x4000F4C")]
 	[FieldOffset(Offset = "0x18")]
 	private int _inoutArgCount;
 
-	[Token(Token = "0x4000F43")]
+	[Token(Token = "0x4000F4D")]
 	[FieldOffset(Offset = "0x20")]
 	private MethodBase _method;
 
-	[Token(Token = "0x6001E06")]
-	[Address(RVA = "0x3B86540", Offset = "0x3B86540", VA = "0x3B86540")]
+	[Token(Token = "0x6001E75")]
+	[Address(RVA = "0x19ED660", Offset = "0x19EBC60", VA = "0x1819ED660")]
 	public ArgInfo(MethodBase method, System.Runtime.Remoting.Messaging.ArgInfoType type)
 	{
 	}
 
-	[Token(Token = "0x6001E07")]
-	[Address(RVA = "0x3B86710", Offset = "0x3B86710", VA = "0x3B86710")]
+	[Token(Token = "0x6001E76")]
+	[Address(RVA = "0x19ED570", Offset = "0x19EBB70", VA = "0x1819ED570")]
 	public object[] GetInOutArgs(object[] args)
 	{
 		return null;

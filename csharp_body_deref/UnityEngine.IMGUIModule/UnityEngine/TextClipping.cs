@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x200001E")]
 public enum TextClipping
 {
-	[Token(Token = "0x40000B7")]
-	Overflow,
-	[Token(Token = "0x40000B8")]
-	Clip,
 	[Token(Token = "0x40000B9")]
+	Overflow,
+	[Token(Token = "0x40000BA")]
+	Clip,
+	[Token(Token = "0x40000BB")]
 	Ellipsis
 }

@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x2000575")]
+[Token(Token = "0x2000670")]
 internal class MultiColumnHeaderColumnIcon : Image
 {
-	[Token(Token = "0x40012E2")]
+	[Token(Token = "0x400189C")]
 	[FieldOffset(Offset = "0x0")]
 	public new static readonly string ussClassName;
 
-	[Token(Token = "0x170008A0")]
+	[Token(Token = "0x17000BC6")]
 	public bool isImageInline
 	{
-		[Token(Token = "0x60021A2")]
-		[Address(RVA = "0x4FE0BC0", Offset = "0x4FE0BC0", VA = "0x4FE0BC0")]
+		[Token(Token = "0x6002F33")]
+		[Address(RVA = "0x3203DD0", Offset = "0x32023D0", VA = "0x183203DD0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60021A3")]
-		[Address(RVA = "0x4FE0BD0", Offset = "0x4FE0BD0", VA = "0x4FE0BD0")]
+		[Token(Token = "0x6002F34")]
+		[Address(RVA = "0x100CCF0", Offset = "0x100B2F0", VA = "0x18100CCF0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60021A4")]
-	[Address(RVA = "0x4FE0BE0", Offset = "0x4FE0BE0", VA = "0x4FE0BE0")]
+	[Token(Token = "0x6002F35")]
+	[Address(RVA = "0x3203CE0", Offset = "0x32022E0", VA = "0x183203CE0")]
 	public MultiColumnHeaderColumnIcon()
 	{
 	}
 
-	[Token(Token = "0x60021A5")]
-	[Address(RVA = "0x4FE0CD0", Offset = "0x4FE0CD0", VA = "0x4FE0CD0")]
+	[Token(Token = "0x6002F36")]
+	[Address(RVA = "0x3203AC0", Offset = "0x32020C0", VA = "0x183203AC0")]
 	public void UpdateClassList()
 	{
 	}

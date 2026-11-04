@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200001F")]
 internal class ErrorInfoCallbacksContainer : List<IErrorInfoCallback>, IErrorInfoCallback
 {
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000C8")]
 	[FieldOffset(Offset = "0x28")]
 	private LoadBalancingClient client;
 
-	[Token(Token = "0x60000F9")]
-	[Address(RVA = "0x3EBF610", Offset = "0x3EBF610", VA = "0x3EBF610")]
+	[Token(Token = "0x60000F7")]
+	[Address(RVA = "0x1D14570", Offset = "0x1D12B70", VA = "0x181D14570")]
 	public ErrorInfoCallbacksContainer(LoadBalancingClient client)
 	{
 	}
 
-	[Token(Token = "0x60000FA")]
-	[Address(RVA = "0x3ECAC80", Offset = "0x3ECAC80", VA = "0x3ECAC80", Slot = "35")]
+	[Token(Token = "0x60000F8")]
+	[Address(RVA = "0x1D143D0", Offset = "0x1D129D0", VA = "0x181D143D0", Slot = "35")]
 	public void OnErrorInfo(ErrorInfo errorInfo)
 	{
 	}

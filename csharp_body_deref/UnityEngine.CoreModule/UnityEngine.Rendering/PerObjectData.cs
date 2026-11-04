@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002ED")]
+[Token(Token = "0x20003B3")]
 [Flags]
 public enum PerObjectData
 {
-	[Token(Token = "0x40008BD")]
+	[Token(Token = "0x4000BB6")]
 	None = 0,
-	[Token(Token = "0x40008BE")]
+	[Token(Token = "0x4000BB7")]
 	LightProbe = 1,
-	[Token(Token = "0x40008BF")]
+	[Token(Token = "0x4000BB8")]
 	ReflectionProbes = 2,
-	[Token(Token = "0x40008C0")]
+	[Token(Token = "0x4000BB9")]
 	LightProbeProxyVolume = 4,
-	[Token(Token = "0x40008C1")]
+	[Token(Token = "0x4000BBA")]
 	Lightmaps = 8,
-	[Token(Token = "0x40008C2")]
+	[Token(Token = "0x4000BBB")]
 	LightData = 0x10,
-	[Token(Token = "0x40008C3")]
+	[Token(Token = "0x4000BBC")]
 	MotionVectors = 0x20,
-	[Token(Token = "0x40008C4")]
+	[Token(Token = "0x4000BBD")]
 	LightIndices = 0x40,
-	[Token(Token = "0x40008C5")]
+	[Token(Token = "0x4000BBE")]
 	ReflectionProbeData = 0x80,
-	[Token(Token = "0x40008C6")]
+	[Token(Token = "0x4000BBF")]
 	OcclusionProbe = 0x100,
-	[Token(Token = "0x40008C7")]
+	[Token(Token = "0x4000BC0")]
 	OcclusionProbeProxyVolume = 0x200,
-	[Token(Token = "0x40008C8")]
+	[Token(Token = "0x4000BC1")]
 	ShadowMask = 0x400
 }

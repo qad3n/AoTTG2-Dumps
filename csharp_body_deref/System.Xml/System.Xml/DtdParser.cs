@@ -220,7 +220,7 @@ internal class DtdParser : IDtdParser
 		internal UndeclaredNotation next;
 
 		[Token(Token = "0x6000AF9")]
-		[Address(RVA = "0x47F2450", Offset = "0x47F2450", VA = "0x47F2450")]
+		[Address(RVA = "0x27468B0", Offset = "0x2744EB0", VA = "0x1827468B0")]
 		internal UndeclaredNotation(string name, int lineNo, int linePos)
 		{
 		}
@@ -238,7 +238,7 @@ internal class DtdParser : IDtdParser
 		public Token parsingSchema;
 
 		[Token(Token = "0x6000AFA")]
-		[Address(RVA = "0x47F24B0", Offset = "0x47F24B0", VA = "0x47F24B0")]
+		[Address(RVA = "0x273D400", Offset = "0x273BA00", VA = "0x18273D400")]
 		public ParseElementOnlyContent_LocalFrame(int startParentEntityIdParam)
 		{
 		}
@@ -380,7 +380,7 @@ internal class DtdParser : IDtdParser
 	private bool ParsingInternalSubset
 	{
 		[Token(Token = "0x6000A97")]
-		[Address(RVA = "0x47E70C0", Offset = "0x47E70C0", VA = "0x47E70C0")]
+		[Address(RVA = "0x2728290", Offset = "0x2726890", VA = "0x182728290")]
 		get
 		{
 			return default(bool);
@@ -391,7 +391,7 @@ internal class DtdParser : IDtdParser
 	private bool IgnoreEntityReferences
 	{
 		[Token(Token = "0x6000A98")]
-		[Address(RVA = "0x47E70D0", Offset = "0x47E70D0", VA = "0x47E70D0")]
+		[Address(RVA = "0x27281D0", Offset = "0x27267D0", VA = "0x1827281D0")]
 		get
 		{
 			return default(bool);
@@ -402,7 +402,7 @@ internal class DtdParser : IDtdParser
 	private bool SaveInternalSubsetValue
 	{
 		[Token(Token = "0x6000A99")]
-		[Address(RVA = "0x47E70E0", Offset = "0x47E70E0", VA = "0x47E70E0")]
+		[Address(RVA = "0x27282C0", Offset = "0x27268C0", VA = "0x1827282C0")]
 		get
 		{
 			return default(bool);
@@ -413,7 +413,7 @@ internal class DtdParser : IDtdParser
 	private bool ParsingTopLevelMarkup
 	{
 		[Token(Token = "0x6000A9A")]
-		[Address(RVA = "0x47E71B0", Offset = "0x47E71B0", VA = "0x47E71B0")]
+		[Address(RVA = "0x27282A0", Offset = "0x27268A0", VA = "0x1827282A0")]
 		get
 		{
 			return default(bool);
@@ -424,7 +424,7 @@ internal class DtdParser : IDtdParser
 	private bool SupportNamespaces
 	{
 		[Token(Token = "0x6000A9B")]
-		[Address(RVA = "0x47E71D0", Offset = "0x47E71D0", VA = "0x47E71D0")]
+		[Address(RVA = "0x26EDC70", Offset = "0x26EC270", VA = "0x1826EDC70")]
 		get
 		{
 			return default(bool);
@@ -435,7 +435,7 @@ internal class DtdParser : IDtdParser
 	private bool Normalize
 	{
 		[Token(Token = "0x6000A9C")]
-		[Address(RVA = "0x47E71E0", Offset = "0x47E71E0", VA = "0x47E71E0")]
+		[Address(RVA = "0x58A530", Offset = "0x588B30", VA = "0x18058A530")]
 		get
 		{
 			return default(bool);
@@ -446,7 +446,7 @@ internal class DtdParser : IDtdParser
 	private int LineNo
 	{
 		[Token(Token = "0x6000AEB")]
-		[Address(RVA = "0x47EB270", Offset = "0x47EB270", VA = "0x47EB270")]
+		[Address(RVA = "0x27281E0", Offset = "0x27267E0", VA = "0x1827281E0")]
 		get
 		{
 			return default(int);
@@ -457,7 +457,7 @@ internal class DtdParser : IDtdParser
 	private int LinePos
 	{
 		[Token(Token = "0x6000AEC")]
-		[Address(RVA = "0x47EB310", Offset = "0x47EB310", VA = "0x47EB310")]
+		[Address(RVA = "0x2728230", Offset = "0x2726830", VA = "0x182728230")]
 		get
 		{
 			return default(int);
@@ -468,7 +468,7 @@ internal class DtdParser : IDtdParser
 	private string BaseUriStr
 	{
 		[Token(Token = "0x6000AED")]
-		[Address(RVA = "0x47E7410", Offset = "0x47E7410", VA = "0x47E7410")]
+		[Address(RVA = "0x2728120", Offset = "0x2726720", VA = "0x182728120")]
 		get
 		{
 			return null;
@@ -476,623 +476,623 @@ internal class DtdParser : IDtdParser
 	}
 
 	[Token(Token = "0x6000A91")]
-	[Address(RVA = "0x47E6380", Offset = "0x47E6380", VA = "0x47E6380")]
+	[Address(RVA = "0x2728040", Offset = "0x2726640", VA = "0x182728040")]
 	private DtdParser()
 	{
 	}
 
 	[Token(Token = "0x6000A92")]
-	[Address(RVA = "0x47D8FA0", Offset = "0x47D8FA0", VA = "0x47D8FA0")]
+	[Address(RVA = "0x271C7E0", Offset = "0x271ADE0", VA = "0x18271C7E0")]
 	internal static IDtdParser Create()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A93")]
-	[Address(RVA = "0x47E6460", Offset = "0x47E6460", VA = "0x47E6460")]
+	[Address(RVA = "0x271E8F0", Offset = "0x271CEF0", VA = "0x18271E8F0")]
 	private void Initialize(IDtdParserAdapter readerAdapter)
 	{
 	}
 
 	[Token(Token = "0x6000A94")]
-	[Address(RVA = "0x47E68B0", Offset = "0x47E68B0", VA = "0x47E68B0")]
+	[Address(RVA = "0x271E510", Offset = "0x271CB10", VA = "0x18271E510")]
 	private void InitializeFreeFloatingDtd(string baseUri, string docTypeName, string publicId, string systemId, string internalSubset, IDtdParserAdapter adapter)
 	{
 	}
 
 	[Token(Token = "0x6000A95")]
-	[Address(RVA = "0x47E6DB0", Offset = "0x47E6DB0", VA = "0x47E6DB0", Slot = "4")]
+	[Address(RVA = "0x2727660", Offset = "0x2725C60", VA = "0x182727660", Slot = "4")]
 	private IDtdInfo System_002EXml_002EIDtdParser_002EParseInternalDtd(IDtdParserAdapter adapter, bool saveInternalSubset)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A96")]
-	[Address(RVA = "0x47E7090", Offset = "0x47E7090", VA = "0x47E7090", Slot = "5")]
+	[Address(RVA = "0x2727610", Offset = "0x2725C10", VA = "0x182727610", Slot = "5")]
 	private IDtdInfo System_002EXml_002EIDtdParser_002EParseFreeFloatingDtd(string baseUri, string docTypeName, string publicId, string systemId, string internalSubset, IDtdParserAdapter adapter)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000A9D")]
-	[Address(RVA = "0x47E6DE0", Offset = "0x47E6DE0", VA = "0x47E6DE0")]
+	[Address(RVA = "0x27224F0", Offset = "0x2720AF0", VA = "0x1827224F0")]
 	private void Parse(bool saveInternalSubset)
 	{
 	}
 
 	[Token(Token = "0x6000A9E")]
-	[Address(RVA = "0x47E7240", Offset = "0x47E7240", VA = "0x47E7240")]
+	[Address(RVA = "0x2721780", Offset = "0x271FD80", VA = "0x182721780")]
 	private void ParseInDocumentDtd(bool saveInternalSubset)
 	{
 	}
 
 	[Token(Token = "0x6000A9F")]
-	[Address(RVA = "0x47E71F0", Offset = "0x47E71F0", VA = "0x47E71F0")]
+	[Address(RVA = "0x27216B0", Offset = "0x271FCB0", VA = "0x1827216B0")]
 	private void ParseFreeFloatingDtd()
 	{
 	}
 
 	[Token(Token = "0x6000AA0")]
-	[Address(RVA = "0x47E8D60", Offset = "0x47E8D60", VA = "0x47E8D60")]
+	[Address(RVA = "0x2721980", Offset = "0x271FF80", VA = "0x182721980")]
 	private void ParseInternalSubset()
 	{
 	}
 
 	[Token(Token = "0x6000AA1")]
-	[Address(RVA = "0x47E8D70", Offset = "0x47E8D70", VA = "0x47E8D70")]
+	[Address(RVA = "0x2721520", Offset = "0x271FB20", VA = "0x182721520")]
 	private void ParseExternalSubset()
 	{
 	}
 
 	[Token(Token = "0x6000AA2")]
-	[Address(RVA = "0x47E8F50", Offset = "0x47E8F50", VA = "0x47E8F50")]
+	[Address(RVA = "0x2721D80", Offset = "0x2720380", VA = "0x182721D80")]
 	private void ParseSubset()
 	{
 	}
 
 	[Token(Token = "0x6000AA3")]
-	[Address(RVA = "0x47E9370", Offset = "0x47E9370", VA = "0x47E9370")]
+	[Address(RVA = "0x271ED30", Offset = "0x271D330", VA = "0x18271ED30")]
 	private void ParseAttlistDecl()
 	{
 	}
 
 	[Token(Token = "0x6000AA4")]
-	[Address(RVA = "0x47EB5C0", Offset = "0x47EB5C0", VA = "0x47EB5C0")]
+	[Address(RVA = "0x271F5C0", Offset = "0x271DBC0", VA = "0x18271F5C0")]
 	private void ParseAttlistType(SchemaAttDef attrDef, SchemaElementDecl elementDecl, bool ignoreErrors)
 	{
 	}
 
 	[Token(Token = "0x6000AA5")]
-	[Address(RVA = "0x47EBE10", Offset = "0x47EBE10", VA = "0x47EBE10")]
+	[Address(RVA = "0x271F350", Offset = "0x271D950", VA = "0x18271F350")]
 	private void ParseAttlistDefault(SchemaAttDef attrDef, bool ignoreErrors)
 	{
 	}
 
 	[Token(Token = "0x6000AA6")]
-	[Address(RVA = "0x47E9B30", Offset = "0x47E9B30", VA = "0x47E9B30")]
+	[Address(RVA = "0x2720130", Offset = "0x271E730", VA = "0x182720130")]
 	private void ParseElementDecl()
 	{
 	}
 
 	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x47ECA10", Offset = "0x47ECA10", VA = "0x47ECA10")]
+	[Address(RVA = "0x2720860", Offset = "0x271EE60", VA = "0x182720860")]
 	private void ParseElementOnlyContent(ParticleContentValidator pcv, int startParenEntityId)
 	{
 	}
 
 	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x47ECDD0", Offset = "0x47ECDD0", VA = "0x47ECDD0")]
+	[Address(RVA = "0x2721710", Offset = "0x271FD10", VA = "0x182721710")]
 	private void ParseHowMany(ParticleContentValidator pcv)
 	{
 	}
 
 	[Token(Token = "0x6000AA9")]
-	[Address(RVA = "0x47EC650", Offset = "0x47EC650", VA = "0x47EC650")]
+	[Address(RVA = "0x2720590", Offset = "0x271EB90", VA = "0x182720590")]
 	private void ParseElementMixedContent(ParticleContentValidator pcv, int startParenEntityId)
 	{
 	}
 
 	[Token(Token = "0x6000AAA")]
-	[Address(RVA = "0x47E9F60", Offset = "0x47E9F60", VA = "0x47E9F60")]
+	[Address(RVA = "0x2720C60", Offset = "0x271F260", VA = "0x182720C60")]
 	private void ParseEntityDecl()
 	{
 	}
 
 	[Token(Token = "0x6000AAB")]
-	[Address(RVA = "0x47EA390", Offset = "0x47EA390", VA = "0x47EA390")]
+	[Address(RVA = "0x2721990", Offset = "0x271FF90", VA = "0x182721990")]
 	private void ParseNotationDecl()
 	{
 	}
 
 	[Token(Token = "0x6000AAC")]
-	[Address(RVA = "0x47EC270", Offset = "0x47EC270", VA = "0x47EC270")]
+	[Address(RVA = "0x271C5C0", Offset = "0x271ABC0", VA = "0x18271C5C0")]
 	private void AddUndeclaredNotation(string notationName)
 	{
 	}
 
 	[Token(Token = "0x6000AAD")]
-	[Address(RVA = "0x47EA680", Offset = "0x47EA680", VA = "0x47EA680")]
+	[Address(RVA = "0x271FCD0", Offset = "0x271E2D0", VA = "0x18271FCD0")]
 	private void ParseComment()
 	{
 	}
 
 	[Token(Token = "0x6000AAE")]
-	[Address(RVA = "0x47EA9A0", Offset = "0x47EA9A0", VA = "0x47EA9A0")]
+	[Address(RVA = "0x2721C80", Offset = "0x2720280", VA = "0x182721C80")]
 	private void ParsePI()
 	{
 	}
 
 	[Token(Token = "0x6000AAF")]
-	[Address(RVA = "0x47EABD0", Offset = "0x47EABD0", VA = "0x47EABD0")]
+	[Address(RVA = "0x271FE70", Offset = "0x271E470", VA = "0x18271FE70")]
 	private void ParseCondSection()
 	{
 	}
 
 	[Token(Token = "0x6000AB0")]
-	[Address(RVA = "0x47E8540", Offset = "0x47E8540", VA = "0x47E8540")]
+	[Address(RVA = "0x2721050", Offset = "0x271F650", VA = "0x182721050")]
 	private void ParseExternalId(Token idTokenType, Token declType, out string publicId, out string systemId)
 	{
 	}
 
 	[Token(Token = "0x6000AB1")]
-	[Address(RVA = "0x47E7810", Offset = "0x47E7810", VA = "0x47E7810")]
+	[Address(RVA = "0x271CC30", Offset = "0x271B230", VA = "0x18271CC30")]
 	private Token GetToken(bool needWhiteSpace)
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB2")]
-	[Address(RVA = "0x47ED7A0", Offset = "0x47ED7A0", VA = "0x47ED7A0")]
+	[Address(RVA = "0x2726780", Offset = "0x2724D80", VA = "0x182726780")]
 	private Token ScanSubsetContent()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB3")]
-	[Address(RVA = "0x47ED740", Offset = "0x47ED740", VA = "0x47ED740")]
+	[Address(RVA = "0x2726010", Offset = "0x2724610", VA = "0x182726010")]
 	private Token ScanNameExpected()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB4")]
-	[Address(RVA = "0x47ED760", Offset = "0x47ED760", VA = "0x47ED760")]
+	[Address(RVA = "0x27264B0", Offset = "0x2724AB0", VA = "0x1827264B0")]
 	private Token ScanQNameExpected()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB5")]
-	[Address(RVA = "0x47ED780", Offset = "0x47ED780", VA = "0x47ED780")]
+	[Address(RVA = "0x2726050", Offset = "0x2724650", VA = "0x182726050")]
 	private Token ScanNmtokenExpected()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB6")]
-	[Address(RVA = "0x47EDEF0", Offset = "0x47EDEF0", VA = "0x47EDEF0")]
+	[Address(RVA = "0x27243B0", Offset = "0x27229B0", VA = "0x1827243B0")]
 	private Token ScanDoctype1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB7")]
-	[Address(RVA = "0x47EE050", Offset = "0x47EE050", VA = "0x47EE050")]
+	[Address(RVA = "0x2724530", Offset = "0x2722B30", VA = "0x182724530")]
 	private Token ScanDoctype2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB8")]
-	[Address(RVA = "0x47F03A0", Offset = "0x47F03A0", VA = "0x47F03A0")]
+	[Address(RVA = "0x2723940", Offset = "0x2721F40", VA = "0x182723940")]
 	private Token ScanClosingTag()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AB9")]
-	[Address(RVA = "0x47EE100", Offset = "0x47EE100", VA = "0x47EE100")]
+	[Address(RVA = "0x27245F0", Offset = "0x2722BF0", VA = "0x1827245F0")]
 	private Token ScanElement1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABA")]
-	[Address(RVA = "0x47EE310", Offset = "0x47EE310", VA = "0x47EE310")]
+	[Address(RVA = "0x2724870", Offset = "0x2722E70", VA = "0x182724870")]
 	private Token ScanElement2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABB")]
-	[Address(RVA = "0x47EE4C0", Offset = "0x47EE4C0", VA = "0x47EE4C0")]
+	[Address(RVA = "0x2724A90", Offset = "0x2723090", VA = "0x182724A90")]
 	private Token ScanElement3()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABC")]
-	[Address(RVA = "0x47EE530", Offset = "0x47EE530", VA = "0x47EE530")]
+	[Address(RVA = "0x2724B10", Offset = "0x2723110", VA = "0x182724B10")]
 	private Token ScanElement4()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABD")]
-	[Address(RVA = "0x47EE600", Offset = "0x47EE600", VA = "0x47EE600")]
+	[Address(RVA = "0x2724BF0", Offset = "0x27231F0", VA = "0x182724BF0")]
 	private Token ScanElement5()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABE")]
-	[Address(RVA = "0x47EE6F0", Offset = "0x47EE6F0", VA = "0x47EE6F0")]
+	[Address(RVA = "0x2724CF0", Offset = "0x27232F0", VA = "0x182724CF0")]
 	private Token ScanElement6()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ABF")]
-	[Address(RVA = "0x47EE7A0", Offset = "0x47EE7A0", VA = "0x47EE7A0")]
+	[Address(RVA = "0x2724DC0", Offset = "0x27233C0", VA = "0x182724DC0")]
 	private Token ScanElement7()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC0")]
-	[Address(RVA = "0x47EE7F0", Offset = "0x47EE7F0", VA = "0x47EE7F0")]
+	[Address(RVA = "0x2722940", Offset = "0x2720F40", VA = "0x182722940")]
 	private Token ScanAttlist1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC1")]
-	[Address(RVA = "0x47EE8A0", Offset = "0x47EE8A0", VA = "0x47EE8A0")]
+	[Address(RVA = "0x2722A10", Offset = "0x2721010", VA = "0x182722A10")]
 	private Token ScanAttlist2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC2")]
-	[Address(RVA = "0x47EEF80", Offset = "0x47EEF80", VA = "0x47EEF80")]
+	[Address(RVA = "0x27231C0", Offset = "0x27217C0", VA = "0x1827231C0")]
 	private Token ScanAttlist3()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC3")]
-	[Address(RVA = "0x47EF000", Offset = "0x47EF000", VA = "0x47EF000")]
+	[Address(RVA = "0x2723260", Offset = "0x2721860", VA = "0x182723260")]
 	private Token ScanAttlist4()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC4")]
-	[Address(RVA = "0x47EF0B0", Offset = "0x47EF0B0", VA = "0x47EF0B0")]
+	[Address(RVA = "0x2723330", Offset = "0x2721930", VA = "0x182723330")]
 	private Token ScanAttlist5()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC5")]
-	[Address(RVA = "0x47EF160", Offset = "0x47EF160", VA = "0x47EF160")]
+	[Address(RVA = "0x2723400", Offset = "0x2721A00", VA = "0x182723400")]
 	private Token ScanAttlist6()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC6")]
-	[Address(RVA = "0x47EF4F0", Offset = "0x47EF4F0", VA = "0x47EF4F0")]
+	[Address(RVA = "0x2723890", Offset = "0x2721E90", VA = "0x182723890")]
 	private Token ScanAttlist7()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC7")]
-	[Address(RVA = "0x47F0990", Offset = "0x47F0990", VA = "0x47F0990")]
+	[Address(RVA = "0x2725210", Offset = "0x2723810", VA = "0x182725210")]
 	private Token ScanLiteral(LiteralType literalType)
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AC8")]
-	[Address(RVA = "0x47F1880", Offset = "0x47F1880", VA = "0x47F1880")]
+	[Address(RVA = "0x2725100", Offset = "0x2723700", VA = "0x182725100")]
 	private XmlQualifiedName ScanEntityName()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AC9")]
-	[Address(RVA = "0x47EF590", Offset = "0x47EF590", VA = "0x47EF590")]
+	[Address(RVA = "0x2726250", Offset = "0x2724850", VA = "0x182726250")]
 	private Token ScanNotation1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACA")]
-	[Address(RVA = "0x47EF6D0", Offset = "0x47EF6D0", VA = "0x47EF6D0")]
+	[Address(RVA = "0x2726FE0", Offset = "0x27255E0", VA = "0x182726FE0")]
 	private Token ScanSystemId()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACB")]
-	[Address(RVA = "0x47EF840", Offset = "0x47EF840", VA = "0x47EF840")]
+	[Address(RVA = "0x2724E10", Offset = "0x2723410", VA = "0x182724E10")]
 	private Token ScanEntity1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACC")]
-	[Address(RVA = "0x47EF8A0", Offset = "0x47EF8A0", VA = "0x47EF8A0")]
+	[Address(RVA = "0x2724E80", Offset = "0x2723480", VA = "0x182724E80")]
 	private Token ScanEntity2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACD")]
-	[Address(RVA = "0x47EFA00", Offset = "0x47EFA00", VA = "0x47EFA00")]
+	[Address(RVA = "0x2725000", Offset = "0x2723600", VA = "0x182725000")]
 	private Token ScanEntity3()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACE")]
-	[Address(RVA = "0x47EF760", Offset = "0x47EF760", VA = "0x47EF760")]
+	[Address(RVA = "0x2726390", Offset = "0x2724990", VA = "0x182726390")]
 	private Token ScanPublicId1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000ACF")]
-	[Address(RVA = "0x47EF7F0", Offset = "0x47EF7F0", VA = "0x47EF7F0")]
+	[Address(RVA = "0x2726440", Offset = "0x2724A40", VA = "0x182726440")]
 	private Token ScanPublicId2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AD0")]
-	[Address(RVA = "0x47EFAE0", Offset = "0x47EFAE0", VA = "0x47EFAE0")]
+	[Address(RVA = "0x27239C0", Offset = "0x2721FC0", VA = "0x1827239C0")]
 	private Token ScanCondSection1()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AD1")]
-	[Address(RVA = "0x47EFD90", Offset = "0x47EFD90", VA = "0x47EFD90")]
+	[Address(RVA = "0x2723D20", Offset = "0x2722320", VA = "0x182723D20")]
 	private Token ScanCondSection2()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AD2")]
-	[Address(RVA = "0x47EFE00", Offset = "0x47EFE00", VA = "0x47EFE00")]
+	[Address(RVA = "0x2723DA0", Offset = "0x27223A0", VA = "0x182723DA0")]
 	private Token ScanCondSection3()
 	{
 		return default(Token);
 	}
 
 	[Token(Token = "0x6000AD3")]
-	[Address(RVA = "0x47F06A0", Offset = "0x47F06A0", VA = "0x47F06A0")]
+	[Address(RVA = "0x2726040", Offset = "0x2724640", VA = "0x182726040")]
 	private void ScanName()
 	{
 	}
 
 	[Token(Token = "0x6000AD4")]
-	[Address(RVA = "0x47F06B0", Offset = "0x47F06B0", VA = "0x47F06B0")]
+	[Address(RVA = "0x2726770", Offset = "0x2724D70", VA = "0x182726770")]
 	private void ScanQName()
 	{
 	}
 
 	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x47F1C10", Offset = "0x47F1C10", VA = "0x47F1C10")]
+	[Address(RVA = "0x27264E0", Offset = "0x2724AE0", VA = "0x1827264E0")]
 	private void ScanQName(bool isQName)
 	{
 	}
 
 	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x47F1F00", Offset = "0x47F1F00", VA = "0x47F1F00")]
+	[Address(RVA = "0x2722780", Offset = "0x2720D80", VA = "0x182722780")]
 	private bool ReadDataInName()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x47F06C0", Offset = "0x47F06C0", VA = "0x47F06C0")]
+	[Address(RVA = "0x2726080", Offset = "0x2724680", VA = "0x182726080")]
 	private void ScanNmtoken()
 	{
 	}
 
 	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x47F0830", Offset = "0x47F0830", VA = "0x47F0830")]
+	[Address(RVA = "0x271C8E0", Offset = "0x271AEE0", VA = "0x18271C8E0")]
 	private bool EatPublicKeyword()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x47F08E0", Offset = "0x47F08E0", VA = "0x47F08E0")]
+	[Address(RVA = "0x271C9A0", Offset = "0x271AFA0", VA = "0x18271C9A0")]
 	private bool EatSystemKeyword()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ADA")]
-	[Address(RVA = "0x47E83F0", Offset = "0x47E83F0", VA = "0x47E83F0")]
+	[Address(RVA = "0x271CA60", Offset = "0x271B060", VA = "0x18271CA60")]
 	private XmlQualifiedName GetNameQualified(bool canHavePrefix)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ADB")]
-	[Address(RVA = "0x47EC250", Offset = "0x47EC250", VA = "0x47EC250")]
+	[Address(RVA = "0x271CC00", Offset = "0x271B200", VA = "0x18271CC00")]
 	private string GetNameString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ADC")]
-	[Address(RVA = "0x47EC560", Offset = "0x47EC560", VA = "0x47EC560")]
+	[Address(RVA = "0x271CC00", Offset = "0x271B200", VA = "0x18271CC00")]
 	private string GetNmtokenString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ADD")]
-	[Address(RVA = "0x47EC5F0", Offset = "0x47EC5F0", VA = "0x47EC5F0")]
+	[Address(RVA = "0x271E030", Offset = "0x271C630", VA = "0x18271E030")]
 	private string GetValue()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ADE")]
-	[Address(RVA = "0x47EC580", Offset = "0x47EC580", VA = "0x47EC580")]
+	[Address(RVA = "0x271DFA0", Offset = "0x271C5A0", VA = "0x18271DFA0")]
 	private string GetValueWithStrippedSpaces()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000ADF")]
-	[Address(RVA = "0x47F0420", Offset = "0x47F0420", VA = "0x47F0420")]
+	[Address(RVA = "0x27227C0", Offset = "0x2720DC0", VA = "0x1827227C0")]
 	private int ReadData()
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x6000AE0")]
-	[Address(RVA = "0x47E7660", Offset = "0x47E7660", VA = "0x47E7660")]
+	[Address(RVA = "0x271EBC0", Offset = "0x271D1C0", VA = "0x18271EBC0")]
 	private void LoadParsingBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000AE1")]
-	[Address(RVA = "0x47E8D50", Offset = "0x47E8D50", VA = "0x47E8D50")]
+	[Address(RVA = "0x2722930", Offset = "0x2720F30", VA = "0x182722930")]
 	private void SaveParsingBuffer()
 	{
 	}
 
 	[Token(Token = "0x6000AE2")]
-	[Address(RVA = "0x47EB040", Offset = "0x47EB040", VA = "0x47EB040")]
+	[Address(RVA = "0x2722840", Offset = "0x2720E40", VA = "0x182722840")]
 	private void SaveParsingBuffer(int internalSubsetValueEndPos)
 	{
 	}
 
 	[Token(Token = "0x6000AE3")]
-	[Address(RVA = "0x47ED640", Offset = "0x47ED640", VA = "0x47ED640")]
+	[Address(RVA = "0x271E4C0", Offset = "0x271CAC0", VA = "0x18271E4C0")]
 	private bool HandleEntityReference(bool paramEntity, bool inLiteral, bool inAttribute)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AE4")]
-	[Address(RVA = "0x47F2150", Offset = "0x47F2150", VA = "0x47F2150")]
+	[Address(RVA = "0x271E220", Offset = "0x271C820", VA = "0x18271E220")]
 	private bool HandleEntityReference(XmlQualifiedName entityName, bool paramEntity, bool inLiteral, bool inAttribute)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AE5")]
-	[Address(RVA = "0x47F04E0", Offset = "0x47F04E0", VA = "0x47F04E0")]
+	[Address(RVA = "0x271E0A0", Offset = "0x271C6A0", VA = "0x18271E0A0")]
 	private bool HandleEntityEnd(bool inLiteral)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AE6")]
-	[Address(RVA = "0x47F19E0", Offset = "0x47F19E0", VA = "0x47F19E0")]
+	[Address(RVA = "0x2727E10", Offset = "0x2726410", VA = "0x182727E10")]
 	private SchemaEntity VerifyEntityReference(XmlQualifiedName entityName, bool paramEntity, bool mustBeDeclared, bool inAttribute)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AE7")]
-	[Address(RVA = "0x47EAE40", Offset = "0x47EAE40", VA = "0x47EAE40")]
+	[Address(RVA = "0x2727090", Offset = "0x2725690", VA = "0x182727090")]
 	private void SendValidationEvent(int pos, XmlSeverityType severity, string code, string arg)
 	{
 	}
 
 	[Token(Token = "0x6000AE8")]
-	[Address(RVA = "0x47EC060", Offset = "0x47EC060", VA = "0x47EC060")]
+	[Address(RVA = "0x27271F0", Offset = "0x27257F0", VA = "0x1827271F0")]
 	private void SendValidationEvent(XmlSeverityType severity, string code, string arg)
 	{
 	}
 
 	[Token(Token = "0x6000AE9")]
-	[Address(RVA = "0x47E7520", Offset = "0x47E7520", VA = "0x47E7520")]
+	[Address(RVA = "0x2727330", Offset = "0x2725930", VA = "0x182727330")]
 	private void SendValidationEvent(XmlSeverityType severity, XmlSchemaException e)
 	{
 	}
 
 	[Token(Token = "0x6000AEA")]
-	[Address(RVA = "0x47EC050", Offset = "0x47EC050", VA = "0x47EC050")]
+	[Address(RVA = "0x271EBB0", Offset = "0x271D1B0", VA = "0x18271EBB0")]
 	private bool IsAttributeValueType(Token token)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000AEE")]
-	[Address(RVA = "0x47E83A0", Offset = "0x47E83A0", VA = "0x47E83A0")]
+	[Address(RVA = "0x271ECD0", Offset = "0x271D2D0", VA = "0x18271ECD0")]
 	private void OnUnexpectedError()
 	{
 	}
 
 	[Token(Token = "0x6000AEF")]
-	[Address(RVA = "0x47EABB0", Offset = "0x47EABB0", VA = "0x47EABB0")]
+	[Address(RVA = "0x2727900", Offset = "0x2725F00", VA = "0x182727900")]
 	private void Throw(int curPos, string res)
 	{
 	}
 
 	[Token(Token = "0x6000AF0")]
-	[Address(RVA = "0x47ECE30", Offset = "0x47ECE30", VA = "0x47ECE30")]
+	[Address(RVA = "0x2727930", Offset = "0x2725F30", VA = "0x182727930")]
 	private void Throw(int curPos, string res, string arg)
 	{
 	}
 
 	[Token(Token = "0x6000AF1")]
-	[Address(RVA = "0x47ED2B0", Offset = "0x47ED2B0", VA = "0x47ED2B0")]
+	[Address(RVA = "0x2727C40", Offset = "0x2726240", VA = "0x182727C40")]
 	private void Throw(int curPos, string res, string[] args)
 	{
 	}
 
 	[Token(Token = "0x6000AF2")]
-	[Address(RVA = "0x47EB3D0", Offset = "0x47EB3D0", VA = "0x47EB3D0")]
+	[Address(RVA = "0x2727B00", Offset = "0x2726100", VA = "0x182727B00")]
 	private void Throw(string res, string arg, int lineNo, int linePos)
 	{
 	}
 
 	[Token(Token = "0x6000AF3")]
-	[Address(RVA = "0x47E6D50", Offset = "0x47E6D50", VA = "0x47E6D50")]
+	[Address(RVA = "0x2727710", Offset = "0x2725D10", VA = "0x182727710")]
 	private void ThrowInvalidChar(int pos, string data, int invCharPos)
 	{
 	}
 
 	[Token(Token = "0x6000AF4")]
-	[Address(RVA = "0x47ED5E0", Offset = "0x47ED5E0", VA = "0x47ED5E0")]
+	[Address(RVA = "0x27276A0", Offset = "0x2725CA0", VA = "0x1827276A0")]
 	private void ThrowInvalidChar(char[] data, int length, int invCharPos)
 	{
 	}
 
 	[Token(Token = "0x6000AF5")]
-	[Address(RVA = "0x47EB260", Offset = "0x47EB260", VA = "0x47EB260")]
+	[Address(RVA = "0x2727780", Offset = "0x2725D80", VA = "0x182727780")]
 	private void ThrowUnexpectedToken(int pos, string expectedToken)
 	{
 	}
 
 	[Token(Token = "0x6000AF6")]
-	[Address(RVA = "0x47ED160", Offset = "0x47ED160", VA = "0x47ED160")]
+	[Address(RVA = "0x27277A0", Offset = "0x2725DA0", VA = "0x1827277A0")]
 	private void ThrowUnexpectedToken(int pos, string expectedToken1, string expectedToken2)
 	{
 	}
 
 	[Token(Token = "0x6000AF7")]
-	[Address(RVA = "0x47ED680", Offset = "0x47ED680", VA = "0x47ED680")]
+	[Address(RVA = "0x2722420", Offset = "0x2720A20", VA = "0x182722420")]
 	private string ParseUnexpectedToken(int startPos)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000AF8")]
-	[Address(RVA = "0x47F1F30", Offset = "0x47F1F30", VA = "0x47F1F30")]
+	[Address(RVA = "0x2727430", Offset = "0x2725A30", VA = "0x182727430")]
 	internal static string StripSpaces(string value)
 	{
 		return null;

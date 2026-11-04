@@ -11,61 +11,61 @@ using Settings;
 
 namespace Controllers;
 
-[Token(Token = "0x20004C3")]
+[Token(Token = "0x2000618")]
 internal class AnnieShifterPlayerController : BasePlayerController
 {
-	[Token(Token = "0x40014CC")]
+	[Token(Token = "0x4001B09")]
 	[FieldOffset(Offset = "0x58")]
 	protected AnnieShifter _shifter;
 
-	[Token(Token = "0x40014CD")]
+	[Token(Token = "0x4001B0A")]
 	[FieldOffset(Offset = "0x60")]
 	protected AnnieShifterInputSettings _shifterInput;
 
-	[Token(Token = "0x600321C")]
-	[Address(RVA = "0x4189090", Offset = "0x4189090", VA = "0x4189090", Slot = "4")]
+	[Token(Token = "0x6003B91")]
+	[Address(RVA = "0x20EFBA0", Offset = "0x20EE1A0", VA = "0x1820EFBA0", Slot = "4")]
 	protected override void Awake()
 	{
 	}
 
-	[Token(Token = "0x600321D")]
-	[Address(RVA = "0x4189450", Offset = "0x4189450", VA = "0x4189450", Slot = "7")]
+	[Token(Token = "0x6003B92")]
+	[Address(RVA = "0x20EFD40", Offset = "0x20EE340", VA = "0x1820EFD40", Slot = "7")]
 	protected override void UpdateActionInput(bool inMenu)
 	{
 	}
 
-	[Token(Token = "0x600321E")]
-	[Address(RVA = "0x4189DF0", Offset = "0x4189DF0", VA = "0x4189DF0")]
+	[Token(Token = "0x6003B93")]
+	[Address(RVA = "0x20EF8B0", Offset = "0x20EDEB0", VA = "0x1820EF8B0")]
 	protected void AttackBrushFront()
 	{
 	}
 
-	[Token(Token = "0x600321F")]
-	[Address(RVA = "0x4189E80", Offset = "0x4189E80", VA = "0x4189E80")]
+	[Token(Token = "0x6003B94")]
+	[Address(RVA = "0x20EF940", Offset = "0x20EDF40", VA = "0x1820EF940")]
 	protected void AttackBrushHead()
 	{
 	}
 
-	[Token(Token = "0x6003220")]
-	[Address(RVA = "0x4189F10", Offset = "0x4189F10", VA = "0x4189F10")]
+	[Token(Token = "0x6003B95")]
+	[Address(RVA = "0x20EF9D0", Offset = "0x20EDFD0", VA = "0x1820EF9D0")]
 	protected void AttackGrabBottom()
 	{
 	}
 
-	[Token(Token = "0x6003221")]
-	[Address(RVA = "0x4189FA0", Offset = "0x4189FA0", VA = "0x4189FA0")]
+	[Token(Token = "0x6003B96")]
+	[Address(RVA = "0x20EFA60", Offset = "0x20EE060", VA = "0x1820EFA60")]
 	protected void AttackGrabMid()
 	{
 	}
 
-	[Token(Token = "0x6003222")]
-	[Address(RVA = "0x418A030", Offset = "0x418A030", VA = "0x418A030")]
+	[Token(Token = "0x6003B97")]
+	[Address(RVA = "0x20EFAF0", Offset = "0x20EE0F0", VA = "0x1820EFAF0")]
 	protected void AttackGrabUp()
 	{
 	}
 
-	[Token(Token = "0x6003223")]
-	[Address(RVA = "0x418A4A0", Offset = "0x418A4A0", VA = "0x418A4A0")]
+	[Token(Token = "0x6003B98")]
+	[Address(RVA = "0x20F04E0", Offset = "0x20EEAE0", VA = "0x1820F04E0")]
 	public AnnieShifterPlayerController()
 	{
 	}

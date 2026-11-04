@@ -10,156 +10,156 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000003")]
 public class AsyncLazy
 {
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x0")]
 	private static Action<object> continuation;
 
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000003")]
 	[FieldOffset(Offset = "0x10")]
 	private Func<UniTask> taskFactory;
 
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000004")]
 	[FieldOffset(Offset = "0x18")]
 	private UniTaskCompletionSource completionSource;
 
-	[Token(Token = "0x400000A")]
+	[Token(Token = "0x4000005")]
 	[FieldOffset(Offset = "0x20")]
 	private UniTask.Awaiter awaiter;
 
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x4000006")]
 	[FieldOffset(Offset = "0x30")]
 	private object syncLock;
 
-	[Token(Token = "0x400000C")]
+	[Token(Token = "0x4000007")]
 	[FieldOffset(Offset = "0x38")]
 	private bool initialized;
 
 	[Token(Token = "0x17000002")]
 	public UniTask Task
 	{
-		[Token(Token = "0x6000007")]
-		[Address(RVA = "0x49D1640", Offset = "0x49D1640", VA = "0x49D1640")]
+		[Token(Token = "0x6000005")]
+		[Address(RVA = "0x2907320", Offset = "0x2905920", VA = "0x182907320")]
 		get
 		{
 			return default(UniTask);
 		}
 	}
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x49D1130", Offset = "0x49D1130", VA = "0x49D1130")]
+	[Token(Token = "0x6000003")]
+	[Address(RVA = "0x2907260", Offset = "0x2905860", VA = "0x182907260")]
 	public AsyncLazy(Func<UniTask> taskFactory)
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x49D11F0", Offset = "0x49D11F0", VA = "0x49D11F0")]
+	[Token(Token = "0x6000004")]
+	[Address(RVA = "0x2907060", Offset = "0x2905660", VA = "0x182907060")]
 	internal AsyncLazy(UniTask task)
 	{
 	}
 
-	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x49D1710", Offset = "0x49D1710", VA = "0x49D1710")]
+	[Token(Token = "0x6000006")]
+	[Address(RVA = "0x2906CD0", Offset = "0x29052D0", VA = "0x182906CD0")]
 	public UniTask.Awaiter GetAwaiter()
 	{
 		return default(UniTask.Awaiter);
 	}
 
-	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x49D16A0", Offset = "0x49D16A0", VA = "0x49D16A0")]
+	[Token(Token = "0x6000007")]
+	[Address(RVA = "0x2906CA0", Offset = "0x29052A0", VA = "0x182906CA0")]
 	private void EnsureInitialized()
 	{
 	}
 
-	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x49D17F0", Offset = "0x49D17F0", VA = "0x49D17F0")]
+	[Token(Token = "0x6000008")]
+	[Address(RVA = "0x2906A30", Offset = "0x2905030", VA = "0x182906A30")]
 	private void EnsureInitializedCore()
 	{
 	}
 
-	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x49D14C0", Offset = "0x49D14C0", VA = "0x49D14C0")]
+	[Token(Token = "0x6000009")]
+	[Address(RVA = "0x2906D90", Offset = "0x2905390", VA = "0x182906D90")]
 	private void SetCompletionSource(in UniTask.Awaiter awaiter)
 	{
 	}
 
-	[Token(Token = "0x600000C")]
-	[Address(RVA = "0x49D1CD0", Offset = "0x49D1CD0", VA = "0x49D1CD0")]
+	[Token(Token = "0x600000A")]
+	[Address(RVA = "0x2906E30", Offset = "0x2905430", VA = "0x182906E30")]
 	private static void SetCompletionSource(object state)
 	{
 	}
 }
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000004")]
 public class AsyncLazy<T>
 {
-	[Token(Token = "0x400000D")]
+	[Token(Token = "0x4000008")]
 	[FieldOffset(Offset = "0x0")]
 	private static Action<object> continuation;
 
-	[Token(Token = "0x400000E")]
+	[Token(Token = "0x4000009")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<UniTask<T>> taskFactory;
 
-	[Token(Token = "0x400000F")]
+	[Token(Token = "0x400000A")]
 	[FieldOffset(Offset = "0x0")]
 	private UniTaskCompletionSource<T> completionSource;
 
-	[Token(Token = "0x4000010")]
+	[Token(Token = "0x400000B")]
 	[FieldOffset(Offset = "0x0")]
 	private UniTask<T>.Awaiter awaiter;
 
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x400000C")]
 	[FieldOffset(Offset = "0x0")]
 	private object syncLock;
 
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x400000D")]
 	[FieldOffset(Offset = "0x0")]
 	private bool initialized;
 
 	[Token(Token = "0x17000003")]
 	public UniTask<T> Task
 	{
-		[Token(Token = "0x6000010")]
+		[Token(Token = "0x600000E")]
 		get
 		{
 			return default(UniTask<T>);
 		}
 	}
 
-	[Token(Token = "0x600000E")]
+	[Token(Token = "0x600000C")]
 	public AsyncLazy(Func<UniTask<T>> taskFactory)
 	{
 	}
 
-	[Token(Token = "0x600000F")]
+	[Token(Token = "0x600000D")]
 	internal AsyncLazy(UniTask<T> task)
 	{
 	}
 
-	[Token(Token = "0x6000011")]
+	[Token(Token = "0x600000F")]
 	public UniTask<T>.Awaiter GetAwaiter()
 	{
 		return default(UniTask<T>.Awaiter);
 	}
 
-	[Token(Token = "0x6000012")]
+	[Token(Token = "0x6000010")]
 	private void EnsureInitialized()
 	{
 	}
 
-	[Token(Token = "0x6000013")]
+	[Token(Token = "0x6000011")]
 	private void EnsureInitializedCore()
 	{
 	}
 
-	[Token(Token = "0x6000014")]
+	[Token(Token = "0x6000012")]
 	private void SetCompletionSource(in UniTask<T>.Awaiter awaiter)
 	{
 	}
 
-	[Token(Token = "0x6000015")]
+	[Token(Token = "0x6000013")]
 	private static void SetCompletionSource(object state)
 	{
 	}

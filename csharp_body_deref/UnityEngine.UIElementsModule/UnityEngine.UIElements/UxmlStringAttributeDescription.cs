@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200041F")]
+[Token(Token = "0x20004E8")]
 public class UxmlStringAttributeDescription : TypedUxmlAttributeDescription<string>
 {
-	[Token(Token = "0x6001A92")]
-	[Address(RVA = "0x4F50280", Offset = "0x4F50280", VA = "0x4F50280")]
+	[Token(Token = "0x600265D")]
+	[Address(RVA = "0x3158970", Offset = "0x3156F70", VA = "0x183158970")]
 	public UxmlStringAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001A93")]
-	[Address(RVA = "0x4F691C0", Offset = "0x4F691C0", VA = "0x4F691C0", Slot = "4")]
+	[Token(Token = "0x600265E")]
+	[Address(RVA = "0x3158670", Offset = "0x3156C70", VA = "0x183158670", Slot = "4")]
 	public override string GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001A94")]
-	[Address(RVA = "0x4F69390", Offset = "0x4F69390", VA = "0x4F69390")]
+	[Token(Token = "0x600265F")]
+	[Address(RVA = "0x31587E0", Offset = "0x3156DE0", VA = "0x1831587E0")]
 	public bool TryGetValueFromBag(IUxmlAttributes bag, CreationContext cc, ref string value)
 	{
 		return default(bool);

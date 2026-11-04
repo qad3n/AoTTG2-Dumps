@@ -9,47 +9,47 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x2000021")]
+[Token(Token = "0x200001F")]
 internal class PunEvent
 {
-	[Token(Token = "0x40000C0")]
+	[Token(Token = "0x40000BB")]
 	public const byte RPC = 200;
 
-	[Token(Token = "0x40000C1")]
+	[Token(Token = "0x40000BC")]
 	public const byte SendSerialize = 201;
 
-	[Token(Token = "0x40000C2")]
+	[Token(Token = "0x40000BD")]
 	public const byte Instantiation = 202;
 
-	[Token(Token = "0x40000C3")]
+	[Token(Token = "0x40000BE")]
 	public const byte CloseConnection = 203;
 
-	[Token(Token = "0x40000C4")]
+	[Token(Token = "0x40000BF")]
 	public const byte Destroy = 204;
 
-	[Token(Token = "0x40000C5")]
+	[Token(Token = "0x40000C0")]
 	public const byte RemoveCachedRPCs = 205;
 
-	[Token(Token = "0x40000C6")]
+	[Token(Token = "0x40000C1")]
 	public const byte SendSerializeReliable = 206;
 
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x40000C2")]
 	public const byte DestroyPlayer = 207;
 
-	[Token(Token = "0x40000C8")]
+	[Token(Token = "0x40000C3")]
 	public const byte OwnershipRequest = 209;
 
-	[Token(Token = "0x40000C9")]
+	[Token(Token = "0x40000C4")]
 	public const byte OwnershipTransfer = 210;
 
-	[Token(Token = "0x40000CA")]
+	[Token(Token = "0x40000C5")]
 	public const byte VacantViewIds = 211;
 
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000C6")]
 	public const byte OwnershipUpdate = 212;
 
-	[Token(Token = "0x6000158")]
-	[Address(RVA = "0x3EFAF00", Offset = "0x3EFAF00", VA = "0x3EFAF00")]
+	[Token(Token = "0x6000156")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public PunEvent()
 	{
 	}

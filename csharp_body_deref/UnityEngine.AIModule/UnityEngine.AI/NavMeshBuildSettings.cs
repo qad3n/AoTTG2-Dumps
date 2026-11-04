@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.AI.NavMeshBuildSettings
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -10,182 +10,172 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.AI;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x2000012")]
 [UnityEngine.Bindings.NativeHeader("Modules/AI/Public/NavMeshBuildSettings.h")]
 public struct NavMeshBuildSettings
 {
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_AgentTypeID;
 
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x4000032")]
 	[FieldOffset(Offset = "0x4")]
 	private float m_AgentRadius;
 
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x4000033")]
 	[FieldOffset(Offset = "0x8")]
 	private float m_AgentHeight;
 
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000034")]
 	[FieldOffset(Offset = "0xC")]
 	private float m_AgentSlope;
 
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000035")]
 	[FieldOffset(Offset = "0x10")]
 	private float m_AgentClimb;
 
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000036")]
 	[FieldOffset(Offset = "0x14")]
 	private float m_LedgeDropHeight;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000037")]
 	[FieldOffset(Offset = "0x18")]
 	private float m_MaxJumpAcrossDistance;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000038")]
 	[FieldOffset(Offset = "0x1C")]
 	private float m_MinRegionArea;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x20")]
 	private int m_OverrideVoxelSize;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x24")]
 	private float m_VoxelSize;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400003B")]
 	[FieldOffset(Offset = "0x28")]
 	private int m_OverrideTileSize;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x400003C")]
 	[FieldOffset(Offset = "0x2C")]
 	private int m_TileSize;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x400003D")]
 	[FieldOffset(Offset = "0x30")]
 	private int m_BuildHeightMesh;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400003E")]
 	[FieldOffset(Offset = "0x34")]
 	private uint m_MaxJobWorkers;
 
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400003F")]
 	[FieldOffset(Offset = "0x38")]
 	private int m_PreserveTilesOutsideBounds;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x4000040")]
 	[FieldOffset(Offset = "0x3C")]
 	private NavMeshBuildDebugSettings m_Debug;
 
-	[Token(Token = "0x17000020")]
+	[Token(Token = "0x1700001F")]
 	public int agentTypeID
 	{
-		[Token(Token = "0x6000062")]
-		[Address(RVA = "0x4D921F0", Offset = "0x4D921F0", VA = "0x4D921F0")]
+		[Token(Token = "0x600006C")]
+		[Address(RVA = "0xD18930", Offset = "0xD16F30", VA = "0x180D18930")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000021")]
+	[Token(Token = "0x17000020")]
 	public float agentRadius
 	{
-		[Token(Token = "0x6000063")]
-		[Address(RVA = "0x4D92200", Offset = "0x4D92200", VA = "0x4D92200")]
+		[Token(Token = "0x600006D")]
+		[Address(RVA = "0x2E97670", Offset = "0x2E95C70", VA = "0x182E97670")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000064")]
-		[Address(RVA = "0x4D92210", Offset = "0x4D92210", VA = "0x4D92210")]
-		set
+	}
+
+	[Token(Token = "0x17000021")]
+	public float agentHeight
+	{
+		[Token(Token = "0x600006E")]
+		[Address(RVA = "0x2E97660", Offset = "0x2E95C60", VA = "0x182E97660")]
+		get
 		{
+			return default(float);
 		}
 	}
 
 	[Token(Token = "0x17000022")]
-	public float agentHeight
+	public float minRegionArea
 	{
-		[Token(Token = "0x6000065")]
-		[Address(RVA = "0x4D92220", Offset = "0x4D92220", VA = "0x4D92220")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x6000066")]
-		[Address(RVA = "0x4D92230", Offset = "0x4D92230", VA = "0x4D92230")]
+		[Token(Token = "0x600006F")]
+		[Address(RVA = "0x2B5B5F0", Offset = "0x2B59BF0", VA = "0x182B5B5F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000023")]
-	public float minRegionArea
+	public bool overrideVoxelSize
 	{
-		[Token(Token = "0x6000067")]
-		[Address(RVA = "0x4D92240", Offset = "0x4D92240", VA = "0x4D92240")]
+		[Token(Token = "0x6000070")]
+		[Address(RVA = "0x2E976A0", Offset = "0x2E95CA0", VA = "0x182E976A0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000024")]
-	public bool overrideVoxelSize
+	public float voxelSize
 	{
-		[Token(Token = "0x6000068")]
-		[Address(RVA = "0x4D92250", Offset = "0x4D92250", VA = "0x4D92250")]
+		[Token(Token = "0x6000071")]
+		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000025")]
-	public float voxelSize
+	public bool overrideTileSize
 	{
-		[Token(Token = "0x6000069")]
-		[Address(RVA = "0x4D92260", Offset = "0x4D92260", VA = "0x4D92260")]
+		[Token(Token = "0x6000072")]
+		[Address(RVA = "0x2E97690", Offset = "0x2E95C90", VA = "0x182E97690")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000026")]
-	public bool overrideTileSize
+	public int tileSize
 	{
-		[Token(Token = "0x600006A")]
-		[Address(RVA = "0x4D92270", Offset = "0x4D92270", VA = "0x4D92270")]
+		[Token(Token = "0x6000073")]
+		[Address(RVA = "0xB3E0E0", Offset = "0xB3C6E0", VA = "0x180B3E0E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000027")]
-	public int tileSize
+	public uint maxJobWorkers
 	{
-		[Token(Token = "0x600006B")]
-		[Address(RVA = "0x4D92280", Offset = "0x4D92280", VA = "0x4D92280")]
+		[Token(Token = "0x6000074")]
+		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000028")]
-	public uint maxJobWorkers
-	{
-		[Token(Token = "0x600006C")]
-		[Address(RVA = "0x4D92290", Offset = "0x4D92290", VA = "0x4D92290")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000029")]
 	public bool buildHeightMesh
 	{
-		[Token(Token = "0x600006D")]
-		[Address(RVA = "0x4D922A0", Offset = "0x4D922A0", VA = "0x4D922A0")]
+		[Token(Token = "0x6000075")]
+		[Address(RVA = "0x2E97680", Offset = "0x2E95C80", VA = "0x182E97680")]
 		set
 		{
 		}

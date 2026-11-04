@@ -10,35 +10,35 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Lifetime;
 
-[Token(Token = "0x2000364")]
+[Token(Token = "0x2000393")]
 internal class LeaseSink : IMessageSink
 {
-	[Token(Token = "0x4000EE5")]
+	[Token(Token = "0x4000EF2")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink _nextSink;
 
-	[Token(Token = "0x6001D2C")]
-	[Address(RVA = "0x3B78610", Offset = "0x3B78610", VA = "0x3B78610")]
+	[Token(Token = "0x6001D9B")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public LeaseSink(IMessageSink nextSink)
 	{
 	}
 
-	[Token(Token = "0x6001D2D")]
-	[Address(RVA = "0x3B78640", Offset = "0x3B78640", VA = "0x3B78640", Slot = "4")]
+	[Token(Token = "0x6001D9C")]
+	[Address(RVA = "0x19FBF60", Offset = "0x19FA560", VA = "0x1819FBF60", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D2E")]
-	[Address(RVA = "0x3B789A0", Offset = "0x3B789A0", VA = "0x3B789A0", Slot = "5")]
+	[Token(Token = "0x6001D9D")]
+	[Address(RVA = "0x19FBD20", Offset = "0x19FA320", VA = "0x1819FBD20", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001D2F")]
-	[Address(RVA = "0x3B786F0", Offset = "0x3B786F0", VA = "0x3B786F0")]
+	[Token(Token = "0x6001D9E")]
+	[Address(RVA = "0x19FBDA0", Offset = "0x19FA3A0", VA = "0x1819FBDA0")]
 	private void RenewLease(IMessage msg)
 	{
 	}

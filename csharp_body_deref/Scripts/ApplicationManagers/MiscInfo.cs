@@ -11,29 +11,29 @@ using UnityEngine;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x200078B")]
+[Token(Token = "0x2000916")]
 public class MiscInfo : MonoBehaviour
 {
-	[Token(Token = "0x400245D")]
+	[Token(Token = "0x4002D2C")]
 	[FieldOffset(Offset = "0x0")]
 	public static JSONNode Social;
 
-	[Token(Token = "0x400245E")]
+	[Token(Token = "0x4002D2D")]
 	[FieldOffset(Offset = "0x8")]
 	public static JSONNode Help;
 
-	[Token(Token = "0x400245F")]
+	[Token(Token = "0x4002D2E")]
 	[FieldOffset(Offset = "0x10")]
 	public static JSONNode Credits;
 
-	[Token(Token = "0x60048FF")]
-	[Address(RVA = "0x43BA1C0", Offset = "0x43BA1C0", VA = "0x43BA1C0")]
+	[Token(Token = "0x6005575")]
+	[Address(RVA = "0x23519C0", Offset = "0x234FFC0", VA = "0x1823519C0")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004900")]
-	[Address(RVA = "0x43BA490", Offset = "0x43BA490", VA = "0x43BA490")]
+	[Token(Token = "0x6005576")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public MiscInfo()
 	{
 	}

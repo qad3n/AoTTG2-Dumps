@@ -10,22 +10,22 @@ using Utility.Algorithms;
 
 namespace Utility;
 
-[Token(Token = "0x2000729")]
+[Token(Token = "0x20008B4")]
 internal static class DataCompressors
 {
-	[Token(Token = "0x400227C")]
+	[Token(Token = "0x4002B3F")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly BrotliAlgorithm Brotli;
 
-	[Token(Token = "0x400227D")]
+	[Token(Token = "0x4002B40")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly GZipAlgorithm GZip;
 
-	[Token(Token = "0x400227E")]
+	[Token(Token = "0x4002B41")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly DeflateAlgorithm ZLib;
 
-	[Token(Token = "0x400227F")]
+	[Token(Token = "0x4002B42")]
 	[FieldOffset(Offset = "0x18")]
 	public static readonly LZFAlgorithm LZF;
 }

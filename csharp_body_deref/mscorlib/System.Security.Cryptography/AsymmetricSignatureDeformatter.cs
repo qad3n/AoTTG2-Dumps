@@ -10,29 +10,29 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20002CC")]
+[Token(Token = "0x20002FB")]
 [ComVisible(true)]
 public abstract class AsymmetricSignatureDeformatter
 {
-	[Token(Token = "0x6001898")]
-	[Address(RVA = "0x3B2C730", Offset = "0x3B2C730", VA = "0x3B2C730")]
+	[Token(Token = "0x6001900")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AsymmetricSignatureDeformatter()
 	{
 	}
 
-	[Token(Token = "0x6001899")]
+	[Token(Token = "0x6001901")]
 	public abstract void SetKey(AsymmetricAlgorithm key);
 
-	[Token(Token = "0x600189A")]
+	[Token(Token = "0x6001902")]
 	public abstract void SetHashAlgorithm(string strName);
 
-	[Token(Token = "0x600189B")]
-	[Address(RVA = "0x3B2C740", Offset = "0x3B2C740", VA = "0x3B2C740", Slot = "6")]
+	[Token(Token = "0x6001903")]
+	[Address(RVA = "0x19A3030", Offset = "0x19A1630", VA = "0x1819A3030", Slot = "6")]
 	public virtual bool VerifySignature(HashAlgorithm hash, byte[] rgbSignature)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600189C")]
+	[Token(Token = "0x6001904")]
 	public abstract bool VerifySignature(byte[] rgbHash, byte[] rgbSignature);
 }

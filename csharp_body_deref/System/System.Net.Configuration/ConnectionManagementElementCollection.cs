@@ -11,94 +11,94 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x2000389")]
+[Token(Token = "0x20003E4")]
 [ConfigurationCollection(typeof(ConnectionManagementElement))]
 public sealed class ConnectionManagementElementCollection : ConfigurationElementCollection
 {
-	[Token(Token = "0x17000523")]
+	[Token(Token = "0x1700058D")]
 	public ConnectionManagementElement this[string name]
 	{
-		[Token(Token = "0x6001771")]
-		[Address(RVA = "0x48F2F90", Offset = "0x48F2F90", VA = "0x48F2F90")]
+		[Token(Token = "0x6001A15")]
+		[Address(RVA = "0x282A5D0", Offset = "0x2828BD0", VA = "0x18282A5D0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6001772")]
-		[Address(RVA = "0x48F2FC0", Offset = "0x48F2FC0", VA = "0x48F2FC0")]
+		[Token(Token = "0x6001A16")]
+		[Address(RVA = "0x282A630", Offset = "0x2828C30", VA = "0x18282A630")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600176E")]
-	[Address(RVA = "0x48F2F00", Offset = "0x48F2F00", VA = "0x48F2F00")]
+	[Token(Token = "0x6001A12")]
+	[Address(RVA = "0x282A5A0", Offset = "0x2828BA0", VA = "0x18282A5A0")]
 	public ConnectionManagementElementCollection()
 	{
 	}
 
 	[SpecialName]
-	[Token(Token = "0x600176F")]
-	[Address(RVA = "0x48F2F30", Offset = "0x48F2F30", VA = "0x48F2F30")]
+	[Token(Token = "0x6001A13")]
+	[Address(RVA = "0x282A600", Offset = "0x2828C00", VA = "0x18282A600")]
 	public ConnectionManagementElement get_Item(int index)
 	{
 		return null;
 	}
 
 	[SpecialName]
-	[Token(Token = "0x6001770")]
-	[Address(RVA = "0x48F2F60", Offset = "0x48F2F60", VA = "0x48F2F60")]
+	[Token(Token = "0x6001A14")]
+	[Address(RVA = "0x282A660", Offset = "0x2828C60", VA = "0x18282A660")]
 	public void set_Item(int index, ConnectionManagementElement value)
 	{
 	}
 
-	[Token(Token = "0x6001773")]
-	[Address(RVA = "0x48F2FF0", Offset = "0x48F2FF0", VA = "0x48F2FF0")]
+	[Token(Token = "0x6001A17")]
+	[Address(RVA = "0x282A420", Offset = "0x2828A20", VA = "0x18282A420")]
 	public void Add(ConnectionManagementElement element)
 	{
 	}
 
-	[Token(Token = "0x6001774")]
-	[Address(RVA = "0x48F3020", Offset = "0x48F3020", VA = "0x48F3020")]
+	[Token(Token = "0x6001A18")]
+	[Address(RVA = "0x282A450", Offset = "0x2828A50", VA = "0x18282A450")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6001775")]
-	[Address(RVA = "0x48F3050", Offset = "0x48F3050", VA = "0x48F3050", Slot = "12")]
+	[Token(Token = "0x6001A19")]
+	[Address(RVA = "0x282A480", Offset = "0x2828A80", VA = "0x18282A480", Slot = "12")]
 	protected override ConfigurationElement CreateNewElement()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001776")]
-	[Address(RVA = "0x48F3080", Offset = "0x48F3080", VA = "0x48F3080", Slot = "13")]
+	[Token(Token = "0x6001A1A")]
+	[Address(RVA = "0x282A4B0", Offset = "0x2828AB0", VA = "0x18282A4B0", Slot = "13")]
 	protected override object GetElementKey(ConfigurationElement element)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001777")]
-	[Address(RVA = "0x48F30B0", Offset = "0x48F30B0", VA = "0x48F30B0")]
+	[Token(Token = "0x6001A1B")]
+	[Address(RVA = "0x282A4E0", Offset = "0x2828AE0", VA = "0x18282A4E0")]
 	public int IndexOf(ConnectionManagementElement element)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001778")]
-	[Address(RVA = "0x48F30E0", Offset = "0x48F30E0", VA = "0x48F30E0")]
+	[Token(Token = "0x6001A1C")]
+	[Address(RVA = "0x282A570", Offset = "0x2828B70", VA = "0x18282A570")]
 	public void Remove(ConnectionManagementElement element)
 	{
 	}
 
-	[Token(Token = "0x6001779")]
-	[Address(RVA = "0x48F3110", Offset = "0x48F3110", VA = "0x48F3110")]
+	[Token(Token = "0x6001A1D")]
+	[Address(RVA = "0x282A540", Offset = "0x2828B40", VA = "0x18282A540")]
 	public void Remove(string name)
 	{
 	}
 
-	[Token(Token = "0x600177A")]
-	[Address(RVA = "0x48F3140", Offset = "0x48F3140", VA = "0x48F3140")]
+	[Token(Token = "0x6001A1E")]
+	[Address(RVA = "0x282A510", Offset = "0x2828B10", VA = "0x18282A510")]
 	public void RemoveAt(int index)
 	{
 	}

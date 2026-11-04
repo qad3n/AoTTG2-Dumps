@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001FE")]
+[Token(Token = "0x2000248")]
 [EventCategory(EventCategory.IMGUI)]
 public class IMGUIEvent : EventBase<IMGUIEvent>
 {
-	[Token(Token = "0x6000CE6")]
-	[Address(RVA = "0x503D490", Offset = "0x503D490", VA = "0x503D490")]
+	[Token(Token = "0x6000F2A")]
+	[Address(RVA = "0x3266490", Offset = "0x3264A90", VA = "0x183266490")]
 	static IMGUIEvent()
 	{
 	}
 
-	[Token(Token = "0x6000CE7")]
-	[Address(RVA = "0x503D560", Offset = "0x503D560", VA = "0x503D560")]
+	[Token(Token = "0x6000F2B")]
+	[Address(RVA = "0x3266320", Offset = "0x3264920", VA = "0x183266320")]
 	public static IMGUIEvent GetPooled(Event systemEvent)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000CE8")]
-	[Address(RVA = "0x503D5E0", Offset = "0x503D5E0", VA = "0x503D5E0", Slot = "13")]
+	[Token(Token = "0x6000F2C")]
+	[Address(RVA = "0x3266440", Offset = "0x3264A40", VA = "0x183266440", Slot = "13")]
 	protected override void Init()
 	{
 	}
 
-	[Token(Token = "0x6000CE9")]
-	[Address(RVA = "0x503D620", Offset = "0x503D620", VA = "0x503D620")]
+	[Token(Token = "0x6000F2D")]
+	[Address(RVA = "0x31ED2A0", Offset = "0x31EB8A0", VA = "0x1831ED2A0")]
 	private void LocalInit()
 	{
 	}
 
-	[Token(Token = "0x6000CEA")]
-	[Address(RVA = "0x503D630", Offset = "0x503D630", VA = "0x503D630")]
+	[Token(Token = "0x6000F2E")]
+	[Address(RVA = "0x3266570", Offset = "0x3264B70", VA = "0x183266570")]
 	public IMGUIEvent()
 	{
 	}
 
-	[Token(Token = "0x6000CEB")]
-	[Address(RVA = "0x503D690", Offset = "0x503D690", VA = "0x503D690", Slot = "10")]
+	[Token(Token = "0x6000F2F")]
+	[Address(RVA = "0x325D370", Offset = "0x325B970", VA = "0x18325D370", Slot = "10")]
 	internal override void Dispatch(BaseVisualElementPanel panel)
 	{
 	}

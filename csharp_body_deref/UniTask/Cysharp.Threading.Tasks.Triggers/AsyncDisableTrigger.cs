@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001B8")]
+[Token(Token = "0x20001BB")]
 [DisallowMultipleComponent]
 public sealed class AsyncDisableTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000AE8")]
-	[Address(RVA = "0x4A0CF60", Offset = "0x4A0CF60", VA = "0x4A0CF60")]
+	[Token(Token = "0x6000B0C")]
+	[Address(RVA = "0x292CC20", Offset = "0x292B220", VA = "0x18292CC20")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000AE9")]
-	[Address(RVA = "0x4A0CFD0", Offset = "0x4A0CFD0", VA = "0x4A0CFD0")]
+	[Token(Token = "0x6000B0D")]
+	[Address(RVA = "0x292C910", Offset = "0x292AF10", VA = "0x18292C910")]
 	public IAsyncOnDisableHandler GetOnDisableAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AEA")]
-	[Address(RVA = "0x4A0D040", Offset = "0x4A0D040", VA = "0x4A0D040")]
+	[Token(Token = "0x6000B0E")]
+	[Address(RVA = "0x292C980", Offset = "0x292AF80", VA = "0x18292C980")]
 	public IAsyncOnDisableHandler GetOnDisableAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AEB")]
-	[Address(RVA = "0x4A0D0B0", Offset = "0x4A0D0B0", VA = "0x4A0D0B0")]
+	[Token(Token = "0x6000B0F")]
+	[Address(RVA = "0x292CB10", Offset = "0x292B110", VA = "0x18292CB10")]
 	public UniTask OnDisableAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000AEC")]
-	[Address(RVA = "0x4A0D1A0", Offset = "0x4A0D1A0", VA = "0x4A0D1A0")]
+	[Token(Token = "0x6000B10")]
+	[Address(RVA = "0x292CA00", Offset = "0x292B000", VA = "0x18292CA00")]
 	public UniTask OnDisableAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000AED")]
-	[Address(RVA = "0x4A0D290", Offset = "0x4A0D290", VA = "0x4A0D290")]
+	[Token(Token = "0x6000B11")]
+	[Address(RVA = "0x292CC90", Offset = "0x292B290", VA = "0x18292CC90")]
 	public AsyncDisableTrigger()
 	{
 	}

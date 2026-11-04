@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20000FD")]
+[Token(Token = "0x2000125")]
 internal readonly struct ParamsArray
 {
-	[Token(Token = "0x40003A6")]
+	[Token(Token = "0x400042B")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly object[] s_oneArgArray;
 
-	[Token(Token = "0x40003A7")]
+	[Token(Token = "0x400042C")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly object[] s_twoArgArray;
 
-	[Token(Token = "0x40003A8")]
+	[Token(Token = "0x400042D")]
 	[FieldOffset(Offset = "0x10")]
 	private static readonly object[] s_threeArgArray;
 
-	[Token(Token = "0x40003A9")]
+	[Token(Token = "0x400042E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly object _arg0;
 
-	[Token(Token = "0x40003AA")]
+	[Token(Token = "0x400042F")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly object _arg1;
 
-	[Token(Token = "0x40003AB")]
+	[Token(Token = "0x4000430")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly object _arg2;
 
-	[Token(Token = "0x40003AC")]
+	[Token(Token = "0x4000431")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly object[] _args;
 
 	[Token(Token = "0x170000A2")]
 	public int Length
 	{
-		[Token(Token = "0x600094C")]
-		[Address(RVA = "0x3CC9620", Offset = "0x3CC9620", VA = "0x3CC9620")]
+		[Token(Token = "0x6000987")]
+		[Address(RVA = "0x1A07BE0", Offset = "0x1A061E0", VA = "0x181A07BE0")]
 		get
 		{
 			return default(int);
@@ -54,40 +54,40 @@ internal readonly struct ParamsArray
 	[Token(Token = "0x170000A3")]
 	public object this[int index]
 	{
-		[Token(Token = "0x600094D")]
-		[Address(RVA = "0x3CC9640", Offset = "0x3CC9640", VA = "0x3CC9640")]
+		[Token(Token = "0x6000988")]
+		[Address(RVA = "0x1B46080", Offset = "0x1B44680", VA = "0x181B46080")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000948")]
-	[Address(RVA = "0x3CC9390", Offset = "0x3CC9390", VA = "0x3CC9390")]
+	[Token(Token = "0x6000983")]
+	[Address(RVA = "0x1B45E90", Offset = "0x1B44490", VA = "0x181B45E90")]
 	public ParamsArray(object arg0)
 	{
 	}
 
-	[Token(Token = "0x6000949")]
-	[Address(RVA = "0x3CC9430", Offset = "0x3CC9430", VA = "0x3CC9430")]
+	[Token(Token = "0x6000984")]
+	[Address(RVA = "0x1B45FD0", Offset = "0x1B445D0", VA = "0x181B45FD0")]
 	public ParamsArray(object arg0, object arg1)
 	{
 	}
 
-	[Token(Token = "0x600094A")]
-	[Address(RVA = "0x3CC94D0", Offset = "0x3CC94D0", VA = "0x3CC94D0")]
+	[Token(Token = "0x6000985")]
+	[Address(RVA = "0x1B45F30", Offset = "0x1B44530", VA = "0x181B45F30")]
 	public ParamsArray(object arg0, object arg1, object arg2)
 	{
 	}
 
-	[Token(Token = "0x600094B")]
-	[Address(RVA = "0x3CC9570", Offset = "0x3CC9570", VA = "0x3CC9570")]
+	[Token(Token = "0x6000986")]
+	[Address(RVA = "0x1B45DD0", Offset = "0x1B443D0", VA = "0x181B45DD0")]
 	public ParamsArray(object[] args)
 	{
 	}
 
-	[Token(Token = "0x600094E")]
-	[Address(RVA = "0x3CC96D0", Offset = "0x3CC96D0", VA = "0x3CC96D0")]
+	[Token(Token = "0x6000989")]
+	[Address(RVA = "0x1B45C90", Offset = "0x1B44290", VA = "0x181B45C90")]
 	private object GetAtSlow(int index)
 	{
 		return null;

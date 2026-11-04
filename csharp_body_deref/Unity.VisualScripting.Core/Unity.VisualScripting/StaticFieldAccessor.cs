@@ -14,50 +14,50 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200015E")]
 public class StaticFieldAccessor<TField> : IOptimizedAccessor
 {
-	[Token(Token = "0x400083C")]
+	[Token(Token = "0x400083A")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly FieldInfo fieldInfo;
 
-	[Token(Token = "0x400083D")]
+	[Token(Token = "0x400083B")]
 	[FieldOffset(Offset = "0x0")]
 	private Func<TField> getter;
 
-	[Token(Token = "0x400083E")]
+	[Token(Token = "0x400083C")]
 	[FieldOffset(Offset = "0x0")]
 	private Action<TField> setter;
 
-	[Token(Token = "0x400083F")]
+	[Token(Token = "0x400083D")]
 	[FieldOffset(Offset = "0x0")]
 	private Type targetType;
 
-	[Token(Token = "0x6000E34")]
+	[Token(Token = "0x6000E3E")]
 	public StaticFieldAccessor(FieldInfo fieldInfo)
 	{
 	}
 
-	[Token(Token = "0x6000E35")]
+	[Token(Token = "0x6000E3F")]
 	public void Compile()
 	{
 	}
 
-	[Token(Token = "0x6000E36")]
+	[Token(Token = "0x6000E40")]
 	public object GetValue(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E37")]
+	[Token(Token = "0x6000E41")]
 	private object GetValueUnsafe(object target)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E38")]
+	[Token(Token = "0x6000E42")]
 	public void SetValue(object target, object value)
 	{
 	}
 
-	[Token(Token = "0x6000E39")]
+	[Token(Token = "0x6000E43")]
 	private void SetValueUnsafe(object target, object value)
 	{
 	}

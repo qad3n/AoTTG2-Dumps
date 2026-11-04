@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Building.GisketchFullscreenStretch
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Building/GisketchFullscreenStretch.cs
@@ -8,434 +8,228 @@
 
 // Gisketch.Aottg2UI.Building.GisketchFullscreenStretch$$Mark
 // il2cpp: void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Mark (UnityEngine_GameObject_o* go, const MethodInfo* method);
-// 0x3b86bf0
+// 0x1819023c0
 
 void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Mark
                (UnityEngine_GameObject_o *go,MethodInfo *method)
 
 {
-  undefined8 uVar1;
-  UnityEngine_Vector2_o UVar2;
-  bool_conflict bVar3;
-  uint uVar4;
-  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *pGVar5;
-  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *pGVar6;
-  System_Object_array *pSVar7;
-  uint uVar8;
-  MethodInfo *pMVar9;
-  float fVar10;
-  float fVar11;
+  bool bVar1;
+  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *__this;
   
-  if (g_data_057a9e80 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchFullscreenStretch_AddComponent_GisketchFullscree);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchFullscreenStretch_GetComponent_GisketchFullscree);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e80 = '\x01';
+  if (Il2CppMethodInitialized_1843421ac == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_AddComponent_GisketchFullscreenStretch);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFullscreenStretch);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843421ac = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  pGVar6 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)go;
-  bVar3 = UnityEngine_Object__op_Equality
+  bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)go,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
+  if (bVar1) {
     return;
   }
   if (go != (UnityEngine_GameObject_o *)0x0) {
-    pGVar5 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)
-             UnityEngine_GameObject__GetComponent_object_(go,MethodInfo_GisketchFullscreenStretch_GetComponent_GisketchFullscree);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    __this = UnityEngine_GameObject__GetComponent_object_
+                       (go,(MethodInfo_6F5650 *)
+                           MethodInfo_UnityEngine_GameObject_GetComponent_GisketchFullscreenStretch);
+    if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
     }
-    pMVar9 = (MethodInfo *)0x0;
-    pGVar6 = pGVar5;
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      pMVar9 = MethodInfo_GisketchFullscreenStretch_AddComponent_GisketchFullscree;
-      pGVar5 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)
-               UnityEngine_GameObject__AddComponent_object_(go,(MethodInfo_255A020 *)MethodInfo_GisketchFullscreenStretch_AddComponent_GisketchFullscree);
-      pGVar6 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)go;
+    bVar1 = UnityEngine_Object__op_Equality
+                      ((UnityEngine_Object_o *)__this,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    if (bVar1) {
+      __this = UnityEngine_GameObject__AddComponent_object_
+                         (go,(MethodInfo_6F4D60 *)
+                             MethodInfo_UnityEngine_GameObject_AddComponent_GisketchFullscreenStretch);
     }
-    if (pGVar5 != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
-      Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply(pGVar5,pMVar9);
+    if (__this != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
+      Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply(__this,(MethodInfo *)0x0);
       return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a9e82 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e82 = '\x01';
-  }
-  pGVar6 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)pGVar6,MethodInfo_RectTransform_GetComponent_RectTransform);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pGVar5 = pGVar6;
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pGVar6,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    return;
-  }
-  if (pGVar6 != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
-    UVar2 = UnityEngine_RectTransform__get_anchorMin((UnityEngine_RectTransform_o *)pGVar6,(MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
-    }
-    fVar10 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-    fVar11 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-    if (fVar11 * fVar11 + fVar10 * fVar10 < 9.9999994e-11) {
-      UVar2 = UnityEngine_RectTransform__get_anchorMax
-                        ((UnityEngine_RectTransform_o *)pGVar6,(MethodInfo *)0x0);
-      if (g_data_057a9c86 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-        g_data_057a9c86 = '\x01';
-      }
-      uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8);
-      fVar10 = UVar2.fields.x - (float)uVar1;
-      fVar11 = UVar2.fields.y - (float)((ulong)uVar1 >> 0x20);
-      if (9.9999994e-11 <= fVar11 * fVar11 + fVar10 * fVar10) {
-        if (g_data_057a694c == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-          g_data_057a694c = '\x01';
-        }
-      }
-      else {
-        UVar2 = UnityEngine_RectTransform__get_offsetMin
-                          ((UnityEngine_RectTransform_o *)pGVar6,(MethodInfo *)0x0);
-        if (g_data_057a694c == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-          g_data_057a694c = '\x01';
-        }
-        fVar10 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-        fVar11 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-        if (fVar11 * fVar11 + fVar10 * fVar10 < 9.9999994e-11) {
-          UVar2 = UnityEngine_RectTransform__get_offsetMax
-                            ((UnityEngine_RectTransform_o *)pGVar6,(MethodInfo *)0x0);
-          if (g_data_057a694c == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-            g_data_057a694c = '\x01';
-          }
-          fVar10 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-          fVar11 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-          if (fVar11 * fVar11 + fVar10 * fVar10 < 9.9999994e-11) {
-            return;
-          }
-        }
-      }
-    }
-    UnityEngine_RectTransform__set_anchorMin
-              ((UnityEngine_RectTransform_o *)pGVar6,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a9c86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a9c86 = '\x01';
-    }
-    UnityEngine_RectTransform__set_anchorMax
-              ((UnityEngine_RectTransform_o *)pGVar6,
-               (UnityEngine_Vector2_o)*(UnityEngine_Vector2_Fields *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8),
-               (MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
-    }
-    UnityEngine_RectTransform__set_offsetMin
-              ((UnityEngine_RectTransform_o *)pGVar6,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
-    }
-    UnityEngine_RectTransform__set_offsetMax
-              ((UnityEngine_RectTransform_o *)pGVar6,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a9e81 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e81 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pGVar6 = pGVar5;
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    return;
-  }
-  if (pGVar5 != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
-    pMVar9 = (MethodInfo *)0x1;
-    pSVar7 = UnityEngine_GameObject__GetComponentsInChildren_object_
-                       ((UnityEngine_GameObject_o *)pGVar5,1,MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    pGVar6 = pGVar5;
-    if (pSVar7 != (System_Object_array *)0x0) {
-      uVar4 = (uint)pSVar7->max_length;
-      if ((int)uVar4 < 1) {
-        return;
-      }
-      uVar8 = 0;
-      while (uVar8 < uVar4) {
-        pGVar5 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)pSVar7->m_Items[(int)uVar8];
-        pGVar6 = pGVar5;
-        if (pGVar5 == (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) goto label_03b8705c;
-        Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply(pGVar5,pMVar9);
-        uVar8 = uVar8 + 1;
-        uVar4 = (uint)pSVar7->max_length;
-        if ((int)uVar4 <= (int)uVar8) {
-          return;
-        }
-      }
-      il2cpp_runtime_helper_022b2ca0();
-      pGVar6 = pGVar5;
-    }
-  }
-label_03b8705c:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)pGVar6,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.Building.GisketchFullscreenStretch$$ApplyAll
 // il2cpp: void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__ApplyAll (UnityEngine_GameObject_o* root, const MethodInfo* method);
-// 0x3b86fa0
+// 0x181901ff0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18190206e: nop 
+// asm:   0x181902094: mov rdi, qword ptr [rsp + 0x30]
 
 void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__ApplyAll
                (UnityEngine_GameObject_o *root,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  uint uVar2;
-  System_Object_array *pSVar3;
-  uint uVar4;
-  MethodInfo *method_00;
-  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *__this;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *__this;
+  bool bVar1;
+  Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *pUVar2;
+  uint uVar3;
   
-  if (g_data_057a9e81 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e81 = '\x01';
+  if (Il2CppMethodInitialized_1843421ad == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_GisketchFullscreenStretch);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843421ad = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  __this = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root;
   bVar1 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    return;
-  }
-  if (root != (UnityEngine_GameObject_o *)0x0) {
-    method_00 = (MethodInfo *)0x1;
-    pSVar3 = UnityEngine_GameObject__GetComponentsInChildren_object_(root,1,MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    __this = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root;
-    if (pSVar3 != (System_Object_array *)0x0) {
-      uVar2 = (uint)pSVar3->max_length;
-      if ((int)uVar2 < 1) {
-        return;
+  if (!bVar1) {
+    if ((root == (UnityEngine_GameObject_o *)0x0) ||
+       (pUVar2 = UnityEngine_GameObject__GetComponentsInChildren___Il2CppFullySharedGenericType_
+                           (root,true,
+                            (MethodInfo_6F5750 *)
+                            MethodInfo_UnityEngine_GameObject_GetComponentsInChildren_GisketchFullscreenStretch
+                           ), pUVar2 == (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_array *)0x0)) {
+label_1819020a5:
+      ThrowNullReferenceException();
+    }
+    for (uVar3 = 0; (int)uVar3 < (int)pUVar2->max_length; uVar3 = uVar3 + 1) {
+      if ((uint)pUVar2->max_length <= uVar3) {
+        ThrowIndexOutOfRangeException();
       }
-      uVar4 = 0;
-      while (uVar4 < uVar2) {
-        root = (UnityEngine_GameObject_o *)pSVar3->m_Items[(int)uVar4];
-        __this = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root;
-        if ((Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root ==
-            (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) goto label_03b8705c;
-        Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply
-                  ((Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root,method_00);
-        uVar4 = uVar4 + 1;
-        uVar2 = (uint)pSVar3->max_length;
-        if ((int)uVar2 <= (int)uVar4) {
-          return;
-        }
-      }
-      il2cpp_runtime_helper_022b2ca0();
-      __this = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)root;
+      __this = (&pUVar2->m_Items[0].klass)[(int)uVar3];
+      if (__this == (Unity_IL2CPP_Metadata___Il2CppFullySharedGenericType_c *)0x0) goto label_1819020a5;
+      Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply
+                ((Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)__this,(MethodInfo *)0x0);
     }
   }
-label_03b8705c:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Building.GisketchFullscreenStretch$$Apply
 // il2cpp: void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o* __this, const MethodInfo* method);
-// 0x3b86cc0
+// 0x1819020b0
+// asm: 3 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1819023a4: movaps xmm7, xmmword ptr [rsp + 0x30]
+// asm:   0x1819023a9: movaps xmm6, xmmword ptr [rsp + 0x40]
+// asm:   0x1819023ae: movaps xmm8, xmmword ptr [rsp + 0x20]
 
 void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply
                (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  bool bVar1;
+  UnityEngine_RectTransform_o *__this_00;
   UnityEngine_Vector2_o UVar2;
-  bool_conflict bVar3;
-  uint uVar4;
-  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *pGVar5;
-  System_Object_array *pSVar6;
-  uint uVar7;
+  UnityEngine_Vector2_o UVar3;
   MethodInfo *method_00;
-  Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *__this_00;
-  float fVar8;
-  float fVar9;
+  float in_XMM1_Da;
+  float fVar4;
+  float fVar5;
+  float fStackX_1c;
   
-  if (g_data_057a9e82 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_RectTransform_GetComponent_RectTransform);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e82 = '\x01';
+  if (Il2CppMethodInitialized_1843421ae == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_1843421ae = '\x01';
   }
-  pGVar5 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)
-           UnityEngine_Component__GetComponent_object_((UnityEngine_Component_o *)__this,MethodInfo_RectTransform_GetComponent_RectTransform);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  __this_00 = UnityEngine_Component__GetComponent_object_
+                        ((UnityEngine_Component_o *)__this,
+                         (MethodInfo_6651A0 *)MethodInfo_UnityEngine_Component_GetComponent_RectTransform);
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  __this_00 = pGVar5;
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pGVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    return;
-  }
-  if (pGVar5 != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
-    UVar2 = UnityEngine_RectTransform__get_anchorMin((UnityEngine_RectTransform_o *)pGVar5,(MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
+  method_00 = (MethodInfo *)0x0;
+  bVar1 = UnityEngine_Object__op_Equality
+                    ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+  if (!bVar1) {
+    if (__this_00 == (UnityEngine_RectTransform_o *)0x0) {
+      ThrowNullReferenceException();
     }
-    fVar8 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-    fVar9 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-    if (fVar9 * fVar9 + fVar8 * fVar8 < 9.9999994e-11) {
-      UVar2 = UnityEngine_RectTransform__get_anchorMax
-                        ((UnityEngine_RectTransform_o *)pGVar5,(MethodInfo *)0x0);
-      if (g_data_057a9c86 == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-        g_data_057a9c86 = '\x01';
+    UVar2 = UnityEngine_RectTransform__get_anchorMin(__this_00,(MethodInfo *)0x0);
+    fStackX_1c = UVar2.fields.y;
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
+    }
+    fVar4 = UVar2.fields.x - (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.x;
+    fStackX_1c = fStackX_1c - (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.y;
+    if (fStackX_1c * fStackX_1c + fVar4 * fVar4 < 9.9999994e-11) {
+      UVar2 = UnityEngine_RectTransform__get_anchorMax(__this_00,(MethodInfo *)0x0);
+      fStackX_1c = UVar2.fields.y;
+      if (Il2CppMethodInitialized_184341f36 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+        Il2CppMethodInitialized_184341f36 = '\x01';
       }
-      uVar1 = *(undefined8 *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8);
-      fVar8 = UVar2.fields.x - (float)uVar1;
-      fVar9 = UVar2.fields.y - (float)((ulong)uVar1 >> 0x20);
-      if (9.9999994e-11 <= fVar9 * fVar9 + fVar8 * fVar8) {
-        if (g_data_057a694c == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-          g_data_057a694c = '\x01';
+      fVar4 = UVar2.fields.x - (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.x;
+      fStackX_1c = fStackX_1c - (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.y;
+      if (fStackX_1c * fStackX_1c + fVar4 * fVar4 < 9.9999994e-11) {
+        UVar2 = UnityEngine_RectTransform__get_offsetMin(__this_00,(MethodInfo *)0x0);
+        fStackX_1c = UVar2.fields.y;
+        if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+          Il2CppMethodInitialized_18433e3c9 = '\x01';
         }
-      }
-      else {
-        UVar2 = UnityEngine_RectTransform__get_offsetMin
-                          ((UnityEngine_RectTransform_o *)pGVar5,(MethodInfo *)0x0);
-        if (g_data_057a694c == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-          g_data_057a694c = '\x01';
-        }
-        fVar8 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-        fVar9 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-        if (fVar9 * fVar9 + fVar8 * fVar8 < 9.9999994e-11) {
-          UVar2 = UnityEngine_RectTransform__get_offsetMax
-                            ((UnityEngine_RectTransform_o *)pGVar5,(MethodInfo *)0x0);
-          if (g_data_057a694c == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-            g_data_057a694c = '\x01';
-          }
-          fVar8 = UVar2.fields.x - (float)**(undefined8 **)(TypeInfo_Vector2 + 0xb8);
-          fVar9 = UVar2.fields.y - (float)((ulong)**(undefined8 **)(TypeInfo_Vector2 + 0xb8) >> 0x20);
-          if (fVar9 * fVar9 + fVar8 * fVar8 < 9.9999994e-11) {
+        fVar4 = UVar2.fields.x - (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.x;
+        fStackX_1c = fStackX_1c - (TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields.y;
+        if (fStackX_1c * fStackX_1c + fVar4 * fVar4 < 9.9999994e-11) {
+          UVar2 = UnityEngine_RectTransform__get_offsetMax(__this_00,(MethodInfo *)0x0);
+          fStackX_1c = UVar2.fields.y;
+          fVar4 = fStackX_1c;
+          UVar3 = UnityEngine_Rendering_MousePositionDebug__GetMouseClickPosition
+                            ((UnityEngine_Rendering_MousePositionDebug_o *)0x0,in_XMM1_Da,method_00);
+          fVar5 = UVar2.fields.x - UVar3.fields.x;
+          fStackX_1c = UVar3.fields.y;
+          if ((fVar4 - fStackX_1c) * (fVar4 - fStackX_1c) + fVar5 * fVar5 < 9.9999994e-11) {
             return;
           }
         }
       }
     }
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
+    }
     UnityEngine_RectTransform__set_anchorMin
-              ((UnityEngine_RectTransform_o *)pGVar5,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a9c86 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a9c86 = '\x01';
+              (__this_00,
+               (UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+               (MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184341f36 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_184341f36 = '\x01';
     }
     UnityEngine_RectTransform__set_anchorMax
-              ((UnityEngine_RectTransform_o *)pGVar5,
-               (UnityEngine_Vector2_o)*(UnityEngine_Vector2_Fields *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8),
+              (__this_00,
+               (UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields,
                (MethodInfo *)0x0);
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMin
-              ((UnityEngine_RectTransform_o *)pGVar5,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    if (g_data_057a694c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-      g_data_057a694c = '\x01';
+              (__this_00,
+               (UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+               (MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_18433e3c9 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+      Il2CppMethodInitialized_18433e3c9 = '\x01';
     }
     UnityEngine_RectTransform__set_offsetMax
-              ((UnityEngine_RectTransform_o *)pGVar5,
-               (UnityEngine_Vector2_o)**(UnityEngine_Vector2_Fields **)(TypeInfo_Vector2 + 0xb8),(MethodInfo *)0x0
-              );
-    return;
+              (__this_00,
+               (UnityEngine_Vector2_o)(TypeInfo_UnityEngine_Vector2->static_fields->zeroVector).fields,
+               (MethodInfo *)0x0);
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057a9e81 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    g_data_057a9e81 = '\x01';
-  }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  pGVar5 = __this_00;
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    return;
-  }
-  if (__this_00 != (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) {
-    method_00 = (MethodInfo *)0x1;
-    pSVar6 = UnityEngine_GameObject__GetComponentsInChildren_object_
-                       ((UnityEngine_GameObject_o *)__this_00,1,MethodInfo_GisketchFullscreenStretch_GetComponentsInChildren_Gisket);
-    pGVar5 = __this_00;
-    if (pSVar6 != (System_Object_array *)0x0) {
-      uVar4 = (uint)pSVar6->max_length;
-      if ((int)uVar4 < 1) {
-        return;
-      }
-      uVar7 = 0;
-      while (uVar7 < uVar4) {
-        __this_00 = (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)pSVar6->m_Items[(int)uVar7];
-        pGVar5 = __this_00;
-        if (__this_00 == (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *)0x0) goto label_03b8705c;
-        Gisketch_Aottg2UI_Building_GisketchFullscreenStretch__Apply(__this_00,method_00);
-        uVar7 = uVar7 + 1;
-        uVar4 = (uint)pSVar6->max_length;
-        if ((int)uVar4 <= (int)uVar7) {
-          return;
-        }
-      }
-      il2cpp_runtime_helper_022b2ca0();
-      pGVar5 = __this_00;
-    }
-  }
-label_03b8705c:
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)pGVar5,(MethodInfo *)0x0);
   return;
 }
 
 
 // Gisketch.Aottg2UI.Building.GisketchFullscreenStretch$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch___ctor (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o* __this, const MethodInfo* method);
-// 0x3b87070
+// 0x180528540
 
-void Gisketch_Aottg2UI_Building_GisketchFullscreenStretch___ctor
-               (Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o *__this,MethodInfo *method)
+void
+Gisketch_Aottg2UI_Building_GisketchFullscreenStretch___ctor(Gisketch_Aottg2UI_Building_GisketchFullscreenStretch_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

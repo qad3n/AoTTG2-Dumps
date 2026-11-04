@@ -11,32 +11,32 @@ using Il2CppDummyDll;
 
 namespace Anticheat;
 
-[Token(Token = "0x20007DD")]
+[Token(Token = "0x200096A")]
 internal static class ChatFilter
 {
-	[Token(Token = "0x40025B3")]
+	[Token(Token = "0x4002E85")]
 	[FieldOffset(Offset = "0x0")]
 	private static List<Regex> _bannedRegex;
 
-	[Token(Token = "0x40025B4")]
+	[Token(Token = "0x4002E86")]
 	[FieldOffset(Offset = "0x8")]
 	private static List<char> _bannedChar;
 
-	[Token(Token = "0x6004AF6")]
-	[Address(RVA = "0x43D2650", Offset = "0x43D2650", VA = "0x43D2650")]
+	[Token(Token = "0x600576F")]
+	[Address(RVA = "0x236AD70", Offset = "0x2369370", VA = "0x18236AD70")]
 	public static void Init()
 	{
 	}
 
-	[Token(Token = "0x6004AF7")]
-	[Address(RVA = "0x43D2B10", Offset = "0x43D2B10", VA = "0x43D2B10")]
+	[Token(Token = "0x6005770")]
+	[Address(RVA = "0x236A400", Offset = "0x2368A00", VA = "0x18236A400")]
 	public static string FilterBadWords(this string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004AF8")]
-	[Address(RVA = "0x43D2F60", Offset = "0x43D2F60", VA = "0x43D2F60")]
+	[Token(Token = "0x6005771")]
+	[Address(RVA = "0x236A790", Offset = "0x2368D90", VA = "0x18236A790")]
 	public static string FilterSizeTag(this string text)
 	{
 		return null;

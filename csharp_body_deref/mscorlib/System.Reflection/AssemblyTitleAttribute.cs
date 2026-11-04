@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004CE")]
+[Token(Token = "0x20004FE")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyTitleAttribute : Attribute
 {
@@ -19,8 +19,8 @@ public sealed class AssemblyTitleAttribute : Attribute
 	[CompilerGenerated]
 	private readonly string _003CTitle_003Ek__BackingField;
 
-	[Token(Token = "0x60023DB")]
-	[Address(RVA = "0x3BD06D0", Offset = "0x3BD06D0", VA = "0x3BD06D0")]
+	[Token(Token = "0x600245D")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public AssemblyTitleAttribute(string title)
 	{
 	}

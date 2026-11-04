@@ -9,45 +9,45 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x2000211")]
+[Token(Token = "0x2000242")]
 internal sealed class QueueUserWorkItemCallback : System.Threading.IThreadPoolWorkItem
 {
-	[Token(Token = "0x40009F4")]
+	[Token(Token = "0x4000A52")]
 	[FieldOffset(Offset = "0x10")]
 	private WaitCallback callback;
 
-	[Token(Token = "0x40009F5")]
+	[Token(Token = "0x4000A53")]
 	[FieldOffset(Offset = "0x18")]
 	private ExecutionContext context;
 
-	[Token(Token = "0x40009F6")]
+	[Token(Token = "0x4000A54")]
 	[FieldOffset(Offset = "0x20")]
 	private object state;
 
-	[Token(Token = "0x40009F7")]
+	[Token(Token = "0x4000A55")]
 	[FieldOffset(Offset = "0x0")]
 	internal static ContextCallback ccb;
 
-	[Token(Token = "0x60012F0")]
-	[Address(RVA = "0x3D399E0", Offset = "0x3D399E0", VA = "0x3D399E0")]
+	[Token(Token = "0x6001361")]
+	[Address(RVA = "0x1BB1960", Offset = "0x1BAFF60", VA = "0x181BB1960")]
 	internal QueueUserWorkItemCallback(WaitCallback waitCallback, object stateObj, bool compressStack, ref System.Threading.StackCrawlMark stackMark)
 	{
 	}
 
-	[Token(Token = "0x60012F1")]
-	[Address(RVA = "0x3D39AC0", Offset = "0x3D39AC0", VA = "0x3D39AC0", Slot = "4")]
+	[Token(Token = "0x6001362")]
+	[Address(RVA = "0x1BB1770", Offset = "0x1BAFD70", VA = "0x181BB1770", Slot = "4")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EExecuteWorkItem()
 	{
 	}
 
-	[Token(Token = "0x60012F2")]
-	[Address(RVA = "0x3D39BA0", Offset = "0x3D39BA0", VA = "0x3D39BA0", Slot = "5")]
+	[Token(Token = "0x6001363")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 	private void System_002EThreading_002EIThreadPoolWorkItem_002EMarkAborted(ThreadAbortException tae)
 	{
 	}
 
-	[Token(Token = "0x60012F3")]
-	[Address(RVA = "0x3D39BB0", Offset = "0x3D39BB0", VA = "0x3D39BB0")]
+	[Token(Token = "0x6001364")]
+	[Address(RVA = "0x1BB1860", Offset = "0x1BAFE60", VA = "0x181BB1860")]
 	private static void WaitCallback_Context(object state)
 	{
 	}

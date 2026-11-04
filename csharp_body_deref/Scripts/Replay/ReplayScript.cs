@@ -11,19 +11,19 @@ using Utility;
 
 namespace Replay;
 
-[Token(Token = "0x20000D8")]
+[Token(Token = "0x20000F8")]
 internal class ReplayScript : BaseCSVContainer
 {
-	[Token(Token = "0x400051D")]
+	[Token(Token = "0x40005BD")]
 	[FieldOffset(Offset = "0x10")]
 	public ReplayScriptOptions Options;
 
-	[Token(Token = "0x400051E")]
+	[Token(Token = "0x40005BE")]
 	[FieldOffset(Offset = "0x18")]
 	public List<ReplayScriptEvent> Events;
 
-	[Token(Token = "0x600041D")]
-	[Address(RVA = "0x4104590", Offset = "0x4104590", VA = "0x4104590")]
+	[Token(Token = "0x60004B6")]
+	[Address(RVA = "0x1F251D0", Offset = "0x1F237D0", VA = "0x181F251D0")]
 	public ReplayScript()
 	{
 	}

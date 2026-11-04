@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public abstract class XmlSchemaSimpleTypeContent : XmlSchemaAnnotated
 {
 	[Token(Token = "0x600176A")]
-	[Address(RVA = "0x4732C80", Offset = "0x4732C80", VA = "0x4732C80")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	protected XmlSchemaSimpleTypeContent()
 	{
 	}

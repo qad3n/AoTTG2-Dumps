@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Actions.GisketchSearchActivator
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Actions/GisketchSearchActivator.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -17,38 +17,38 @@ using UnityEngine;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000C1")]
+[Token(Token = "0x20000E6")]
 internal static class GisketchSearchActivator
 {
-	[Token(Token = "0x20000C3")]
+	[Token(Token = "0x20000E8")]
 	[CompilerGenerated]
 	private sealed class _003CFocusAfterBuild_003Ed__4 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40003DF")]
+		[Token(Token = "0x40004A2")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40003E0")]
+		[Token(Token = "0x40004A3")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40003E1")]
+		[Token(Token = "0x40004A4")]
 		[FieldOffset(Offset = "0x20")]
 		public GisketchUIRoot root;
 
-		[Token(Token = "0x40003E2")]
+		[Token(Token = "0x40004A5")]
 		[FieldOffset(Offset = "0x28")]
 		public GisketchView view;
 
-		[Token(Token = "0x40003E3")]
+		[Token(Token = "0x40004A6")]
 		[FieldOffset(Offset = "0x30")]
 		public GisketchSearchEntry entry;
 
-		[Token(Token = "0x1700007F")]
+		[Token(Token = "0x170000B4")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x600059A")]
-			[Address(RVA = "0x3A98420", Offset = "0x3A98420", VA = "0x3A98420", Slot = "4")]
+			[Token(Token = "0x600070E")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -56,11 +56,11 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x17000080")]
+		[Token(Token = "0x170000B5")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600059C")]
-			[Address(RVA = "0x3A98470", Offset = "0x3A98470", VA = "0x3A98470", Slot = "7")]
+			[Token(Token = "0x6000710")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -68,72 +68,72 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x6000597")]
-		[Address(RVA = "0x3A97CF0", Offset = "0x3A97CF0", VA = "0x3A97CF0")]
+		[Token(Token = "0x600070B")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CFocusAfterBuild_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000598")]
-		[Address(RVA = "0x3A982B0", Offset = "0x3A982B0", VA = "0x3A982B0", Slot = "5")]
+		[Token(Token = "0x600070C")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000599")]
-		[Address(RVA = "0x3A982C0", Offset = "0x3A982C0", VA = "0x3A982C0", Slot = "6")]
+		[Token(Token = "0x600070D")]
+		[Address(RVA = "0x1909840", Offset = "0x1907E40", VA = "0x181909840", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600059B")]
-		[Address(RVA = "0x3A98430", Offset = "0x3A98430", VA = "0x3A98430", Slot = "8")]
+		[Token(Token = "0x600070F")]
+		[Address(RVA = "0x19099A0", Offset = "0x1907FA0", VA = "0x1819099A0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000C4")]
+	[Token(Token = "0x20000E9")]
 	[CompilerGenerated]
 	private sealed class _003CFocusInView_003Ed__5 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40003E4")]
+		[Token(Token = "0x40004A7")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40003E5")]
+		[Token(Token = "0x40004A8")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40003E6")]
+		[Token(Token = "0x40004A9")]
 		[FieldOffset(Offset = "0x20")]
 		public GisketchSearchEntry entry;
 
-		[Token(Token = "0x40003E7")]
+		[Token(Token = "0x40004AA")]
 		[FieldOffset(Offset = "0x28")]
 		public GisketchView view;
 
-		[Token(Token = "0x40003E8")]
+		[Token(Token = "0x40004AB")]
 		[FieldOffset(Offset = "0x30")]
 		public bool playSpotlight;
 
-		[Token(Token = "0x40003E9")]
+		[Token(Token = "0x40004AC")]
 		[FieldOffset(Offset = "0x38")]
 		private GameObject _003Ctarget_003E5__2;
 
-		[Token(Token = "0x40003EA")]
+		[Token(Token = "0x40004AD")]
 		[FieldOffset(Offset = "0x40")]
 		private int _003Ci_003E5__3;
 
-		[Token(Token = "0x17000081")]
+		[Token(Token = "0x170000B6")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60005A0")]
-			[Address(RVA = "0x3A99220", Offset = "0x3A99220", VA = "0x3A99220", Slot = "4")]
+			[Token(Token = "0x6000714")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -141,11 +141,11 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x17000082")]
+		[Token(Token = "0x170000B7")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60005A2")]
-			[Address(RVA = "0x3A99270", Offset = "0x3A99270", VA = "0x3A99270", Slot = "7")]
+			[Token(Token = "0x6000716")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -153,64 +153,64 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x600059D")]
-		[Address(RVA = "0x3A97DA0", Offset = "0x3A97DA0", VA = "0x3A97DA0")]
+		[Token(Token = "0x6000711")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CFocusInView_003Ed__5(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x600059E")]
-		[Address(RVA = "0x3A98480", Offset = "0x3A98480", VA = "0x3A98480", Slot = "5")]
+		[Token(Token = "0x6000712")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x600059F")]
-		[Address(RVA = "0x3A98490", Offset = "0x3A98490", VA = "0x3A98490", Slot = "6")]
+		[Token(Token = "0x6000713")]
+		[Address(RVA = "0x19099E0", Offset = "0x1907FE0", VA = "0x1819099E0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60005A1")]
-		[Address(RVA = "0x3A99230", Offset = "0x3A99230", VA = "0x3A99230", Slot = "8")]
+		[Token(Token = "0x6000715")]
+		[Address(RVA = "0x1909F50", Offset = "0x1908550", VA = "0x181909F50", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000C5")]
+	[Token(Token = "0x20000EA")]
 	[CompilerGenerated]
 	private sealed class _003CRevealUntilVisible_003Ed__6 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40003EB")]
+		[Token(Token = "0x40004AE")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40003EC")]
+		[Token(Token = "0x40004AF")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40003ED")]
+		[Token(Token = "0x40004B0")]
 		[FieldOffset(Offset = "0x20")]
 		public GisketchSearchEntry entry;
 
-		[Token(Token = "0x40003EE")]
+		[Token(Token = "0x40004B1")]
 		[FieldOffset(Offset = "0x28")]
 		public GisketchView view;
 
-		[Token(Token = "0x40003EF")]
+		[Token(Token = "0x40004B2")]
 		[FieldOffset(Offset = "0x30")]
 		private int _003Ci_003E5__2;
 
-		[Token(Token = "0x17000083")]
+		[Token(Token = "0x170000B8")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60005A6")]
-			[Address(RVA = "0x3A99500", Offset = "0x3A99500", VA = "0x3A99500", Slot = "4")]
+			[Token(Token = "0x600071A")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -218,11 +218,11 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x17000084")]
+		[Token(Token = "0x170000B9")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60005A8")]
-			[Address(RVA = "0x3A99550", Offset = "0x3A99550", VA = "0x3A99550", Slot = "7")]
+			[Token(Token = "0x600071C")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -230,56 +230,56 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x60005A3")]
-		[Address(RVA = "0x3A97E40", Offset = "0x3A97E40", VA = "0x3A97E40")]
+		[Token(Token = "0x6000717")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CRevealUntilVisible_003Ed__6(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60005A4")]
-		[Address(RVA = "0x3A99280", Offset = "0x3A99280", VA = "0x3A99280", Slot = "5")]
+		[Token(Token = "0x6000718")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60005A5")]
-		[Address(RVA = "0x3A99290", Offset = "0x3A99290", VA = "0x3A99290", Slot = "6")]
+		[Token(Token = "0x6000719")]
+		[Address(RVA = "0x190A0C0", Offset = "0x19086C0", VA = "0x18190A0C0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60005A7")]
-		[Address(RVA = "0x3A99510", Offset = "0x3A99510", VA = "0x3A99510", Slot = "8")]
+		[Token(Token = "0x600071B")]
+		[Address(RVA = "0x190A2D0", Offset = "0x19088D0", VA = "0x18190A2D0", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x20000C6")]
+	[Token(Token = "0x20000EB")]
 	[CompilerGenerated]
 	private sealed class _003CWaitForMotion_003Ed__7 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x40003F0")]
+		[Token(Token = "0x40004B3")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x40003F1")]
+		[Token(Token = "0x40004B4")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x40003F2")]
+		[Token(Token = "0x40004B5")]
 		[FieldOffset(Offset = "0x20")]
 		private float _003Cstart_003E5__2;
 
-		[Token(Token = "0x17000085")]
+		[Token(Token = "0x170000BA")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x60005AC")]
-			[Address(RVA = "0x3A99650", Offset = "0x3A99650", VA = "0x3A99650", Slot = "4")]
+			[Token(Token = "0x6000720")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -287,11 +287,11 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x17000086")]
+		[Token(Token = "0x170000BB")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x60005AE")]
-			[Address(RVA = "0x3A996A0", Offset = "0x3A996A0", VA = "0x3A996A0", Slot = "7")]
+			[Token(Token = "0x6000722")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -299,91 +299,105 @@ internal static class GisketchSearchActivator
 			}
 		}
 
-		[Token(Token = "0x60005A9")]
-		[Address(RVA = "0x3A97EB0", Offset = "0x3A97EB0", VA = "0x3A97EB0")]
+		[Token(Token = "0x600071D")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CWaitForMotion_003Ed__7(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x60005AA")]
-		[Address(RVA = "0x3A99560", Offset = "0x3A99560", VA = "0x3A99560", Slot = "5")]
+		[Token(Token = "0x600071E")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x60005AB")]
-		[Address(RVA = "0x3A99570", Offset = "0x3A99570", VA = "0x3A99570", Slot = "6")]
+		[Token(Token = "0x600071F")]
+		[Address(RVA = "0x190B8B0", Offset = "0x1909EB0", VA = "0x18190B8B0", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60005AD")]
-		[Address(RVA = "0x3A99660", Offset = "0x3A99660", VA = "0x3A99660", Slot = "8")]
+		[Token(Token = "0x6000721")]
+		[Address(RVA = "0x190B960", Offset = "0x1909F60", VA = "0x18190B960", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x40003DA")]
+	[Token(Token = "0x400049D")]
 	private const int TargetWaitFrames = 15;
 
-	[Token(Token = "0x40003DB")]
+	[Token(Token = "0x400049E")]
 	private const int VisibilityWaitFrames = 8;
 
-	[Token(Token = "0x40003DC")]
+	[Token(Token = "0x400049F")]
 	private const float MotionWaitSeconds = 0.35f;
 
-	[Token(Token = "0x600058E")]
-	[Address(RVA = "0x3A90030", Offset = "0x3A90030", VA = "0x3A90030")]
+	[Token(Token = "0x6000700")]
+	[Address(RVA = "0x1905970", Offset = "0x1903F70", VA = "0x181905970")]
 	public static void Activate(GisketchSearchEntry entry, GisketchUIRoot root)
 	{
 	}
 
-	[Token(Token = "0x600058F")]
-	[Address(RVA = "0x3A97C50", Offset = "0x3A97C50", VA = "0x3A97C50")]
+	[Token(Token = "0x6000701")]
+	[Address(RVA = "0x1905D50", Offset = "0x1904350", VA = "0x181905D50")]
 	[IteratorStateMachine(typeof(_003CFocusAfterBuild_003Ed__4))]
 	private static IEnumerator FocusAfterBuild(GisketchSearchEntry entry, GisketchUIRoot root, GisketchView view)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000590")]
-	[Address(RVA = "0x3A97D10", Offset = "0x3A97D10", VA = "0x3A97D10")]
+	[Token(Token = "0x6000702")]
+	[Address(RVA = "0x1905DE0", Offset = "0x19043E0", VA = "0x181905DE0")]
 	[IteratorStateMachine(typeof(_003CFocusInView_003Ed__5))]
 	public static IEnumerator FocusInView(GisketchSearchEntry entry, GisketchView view, bool playSpotlight)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000591")]
-	[Address(RVA = "0x3A97DC0", Offset = "0x3A97DC0", VA = "0x3A97DC0")]
+	[Token(Token = "0x6000703")]
+	[Address(RVA = "0x19060F0", Offset = "0x19046F0", VA = "0x1819060F0")]
 	[IteratorStateMachine(typeof(_003CRevealUntilVisible_003Ed__6))]
 	private static IEnumerator RevealUntilVisible(GisketchSearchEntry entry, GisketchView view)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000592")]
-	[Address(RVA = "0x3A97E60", Offset = "0x3A97E60", VA = "0x3A97E60")]
+	[Token(Token = "0x6000704")]
+	[Address(RVA = "0x1906480", Offset = "0x1904A80", VA = "0x181906480")]
 	[IteratorStateMachine(typeof(_003CWaitForMotion_003Ed__7))]
 	private static IEnumerator WaitForMotion()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000593")]
-	[Address(RVA = "0x3A97ED0", Offset = "0x3A97ED0", VA = "0x3A97ED0")]
+	[Token(Token = "0x6000705")]
+	[Address(RVA = "0x1906180", Offset = "0x1904780", VA = "0x181906180")]
 	private static GameObject Target(GisketchSearchEntry entry, GisketchView view)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000594")]
-	[Address(RVA = "0x3A98060", Offset = "0x3A98060", VA = "0x3A98060")]
+	[Token(Token = "0x6000706")]
+	[Address(RVA = "0x1905E60", Offset = "0x1904460", VA = "0x181905E60")]
+	private static GameObject MaterializeTarget(string targetId, GameObject root)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x6000707")]
+	[Address(RVA = "0x1905FD0", Offset = "0x19045D0", VA = "0x181905FD0")]
+	private static bool PrepareTarget(string targetId, GameObject root)
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x6000708")]
+	[Address(RVA = "0x1905C00", Offset = "0x1904200", VA = "0x181905C00")]
 	private static GameObject FindSection(Transform root, string sectionId)
 	{
 		return null;

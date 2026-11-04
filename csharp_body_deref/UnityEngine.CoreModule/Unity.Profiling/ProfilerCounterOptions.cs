@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x200001F")]
+[Token(Token = "0x200002A")]
 [Flags]
 public enum ProfilerCounterOptions : ushort
 {
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000052")]
 	None = 0,
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000053")]
 	FlushOnEndOfFrame = 2,
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000054")]
 	ResetToZeroOnFlush = 4
 }

@@ -12,75 +12,75 @@ using UnityEngine;
 namespace PatreonEffects;
 
 [Serializable]
-[Token(Token = "0x20000F1")]
+[Token(Token = "0x2000112")]
 public class NameEffectSettings
 {
-	[Token(Token = "0x4000597")]
+	[Token(Token = "0x4000639")]
 	[FieldOffset(Offset = "0x10")]
 	public Color gradientA;
 
-	[Token(Token = "0x4000598")]
+	[Token(Token = "0x400063A")]
 	[FieldOffset(Offset = "0x20")]
 	public Color gradientB;
 
-	[Token(Token = "0x4000599")]
+	[Token(Token = "0x400063B")]
 	[FieldOffset(Offset = "0x30")]
 	public Color gradientC;
 
-	[Token(Token = "0x400059A")]
+	[Token(Token = "0x400063C")]
 	[FieldOffset(Offset = "0x40")]
 	public Color gradientD;
 
-	[Token(Token = "0x400059B")]
+	[Token(Token = "0x400063D")]
 	[FieldOffset(Offset = "0x50")]
 	public int effectMode;
 
-	[Token(Token = "0x400059C")]
+	[Token(Token = "0x400063E")]
 	[FieldOffset(Offset = "0x54")]
 	public float gradientScale;
 
-	[Token(Token = "0x400059D")]
+	[Token(Token = "0x400063F")]
 	[FieldOffset(Offset = "0x58")]
 	public float gradientSpeed;
 
-	[Token(Token = "0x400059E")]
+	[Token(Token = "0x4000640")]
 	[FieldOffset(Offset = "0x5C")]
 	public float glow;
 
-	[Token(Token = "0x400059F")]
+	[Token(Token = "0x4000641")]
 	[FieldOffset(Offset = "0x60")]
 	public float scanlineStrength;
 
-	[Token(Token = "0x40005A0")]
+	[Token(Token = "0x4000642")]
 	[FieldOffset(Offset = "0x64")]
 	public float scanlineDensity;
 
-	[Token(Token = "0x40005A1")]
+	[Token(Token = "0x4000643")]
 	[FieldOffset(Offset = "0x68")]
 	public float scanlineSpeed;
 
-	[Token(Token = "0x40005A2")]
+	[Token(Token = "0x4000644")]
 	[FieldOffset(Offset = "0x6C")]
 	public float flickerStrength;
 
-	[Token(Token = "0x40005A3")]
+	[Token(Token = "0x4000645")]
 	[FieldOffset(Offset = "0x70")]
 	public float flickerSpeed;
 
-	[Token(Token = "0x40005A4")]
+	[Token(Token = "0x4000646")]
 	[FieldOffset(Offset = "0x74")]
 	public float softness;
 
-	[Token(Token = "0x40005A5")]
+	[Token(Token = "0x4000647")]
 	[FieldOffset(Offset = "0x78")]
 	public Vector2 popShadowOffset;
 
-	[Token(Token = "0x40005A6")]
+	[Token(Token = "0x4000648")]
 	[FieldOffset(Offset = "0x80")]
 	public Vector2 popExtrusionOffset;
 
-	[Token(Token = "0x600049D")]
-	[Address(RVA = "0x42293A0", Offset = "0x42293A0", VA = "0x42293A0")]
+	[Token(Token = "0x600053C")]
+	[Address(RVA = "0x20CBCE0", Offset = "0x20CA2E0", VA = "0x1820CBCE0")]
 	public NameEffectSettings()
 	{
 	}

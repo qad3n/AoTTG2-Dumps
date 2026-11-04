@@ -12,89 +12,89 @@ using UnityEngine.UIElements.StyleSheets;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000273")]
+[Token(Token = "0x20002F7")]
 internal static class ComputedTransitionUtils
 {
-	[Token(Token = "0x400090F")]
+	[Token(Token = "0x4000B80")]
 	[FieldOffset(Offset = "0x0")]
 	private static List<ComputedTransitionProperty> s_ComputedTransitionsBuffer;
 
-	[Token(Token = "0x6001080")]
-	[Address(RVA = "0x5079760", Offset = "0x5079760", VA = "0x5079760")]
+	[Token(Token = "0x60014A0")]
+	[Address(RVA = "0x32AC8B0", Offset = "0x32AAEB0", VA = "0x1832AC8B0")]
 	internal static void UpdateComputedTransitions(ref ComputedStyle computedStyle)
 	{
 	}
 
-	[Token(Token = "0x6001081")]
-	[Address(RVA = "0x5079970", Offset = "0x5079970", VA = "0x5079970")]
+	[Token(Token = "0x60014A1")]
+	[Address(RVA = "0x32AC3C0", Offset = "0x32AA9C0", VA = "0x1832AC3C0")]
 	internal static bool HasTransitionProperty(this ref ComputedStyle computedStyle, StylePropertyId id)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001082")]
-	[Address(RVA = "0x5079A30", Offset = "0x5079A30", VA = "0x5079A30")]
+	[Token(Token = "0x60014A2")]
+	[Address(RVA = "0x32AC2B0", Offset = "0x32AA8B0", VA = "0x1832AC2B0")]
 	internal static bool GetTransitionProperty(this ref ComputedStyle computedStyle, StylePropertyId id, out ComputedTransitionProperty result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001083")]
-	[Address(RVA = "0x50797D0", Offset = "0x50797D0", VA = "0x50797D0")]
+	[Token(Token = "0x60014A3")]
+	[Address(RVA = "0x32ABC70", Offset = "0x32AA270", VA = "0x1832ABC70")]
 	private static ComputedTransitionProperty[] GetOrComputeTransitionPropertyData(ref ComputedStyle computedStyle)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001084")]
-	[Address(RVA = "0x5079B60", Offset = "0x5079B60", VA = "0x5079B60")]
+	[Token(Token = "0x60014A4")]
+	[Address(RVA = "0x32ABE30", Offset = "0x32AA430", VA = "0x1832ABE30")]
 	private static int GetTransitionHashCode(ref ComputedStyle cs)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001085")]
-	[Address(RVA = "0x507A410", Offset = "0x507A410", VA = "0x507A410")]
+	[Token(Token = "0x60014A5")]
+	[Address(RVA = "0x32AC5B0", Offset = "0x32AABB0", VA = "0x1832AC5B0")]
 	internal static bool SameTransitionProperty(ref ComputedStyle x, ref ComputedStyle y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001086")]
-	[Address(RVA = "0x507A520", Offset = "0x507A520", VA = "0x507A520")]
+	[Token(Token = "0x60014A6")]
+	[Address(RVA = "0x32AC480", Offset = "0x32AAA80", VA = "0x1832AC480")]
 	private static bool SameTransitionProperty(List<StylePropertyName> a, List<StylePropertyName> b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001087")]
-	[Address(RVA = "0x507A5F0", Offset = "0x507A5F0", VA = "0x507A5F0")]
+	[Token(Token = "0x60014A7")]
+	[Address(RVA = "0x32AC7B0", Offset = "0x32AADB0", VA = "0x1832AC7B0")]
 	private static bool SameTransitionProperty(List<TimeValue> a, List<TimeValue> b)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001088")]
-	[Address(RVA = "0x507A0D0", Offset = "0x507A0D0", VA = "0x507A0D0")]
+	[Token(Token = "0x60014A8")]
+	[Address(RVA = "0x32AA8E0", Offset = "0x32A8EE0", VA = "0x1832AA8E0")]
 	private static void ComputeTransitionPropertyData(ref ComputedStyle computedStyle, List<ComputedTransitionProperty> outData)
 	{
 	}
 
-	[Token(Token = "0x6001089")]
+	[Token(Token = "0x60014A9")]
 	private static T GetWrappingTransitionData<T>(List<T> list, int i, T defaultValue)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x600108A")]
-	[Address(RVA = "0x507A6B0", Offset = "0x507A6B0", VA = "0x507A6B0")]
+	[Token(Token = "0x60014AA")]
+	[Address(RVA = "0x32ABC40", Offset = "0x32AA240", VA = "0x1832ABC40")]
 	private static int ConvertTransitionTime(TimeValue time)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600108B")]
-	[Address(RVA = "0x507A820", Offset = "0x507A820", VA = "0x507A820")]
+	[Token(Token = "0x60014AB")]
+	[Address(RVA = "0x32AAC30", Offset = "0x32A9230", VA = "0x1832AAC30")]
 	private static Func<float, float> ConvertTransitionFunction(EasingMode mode)
 	{
 		return null;

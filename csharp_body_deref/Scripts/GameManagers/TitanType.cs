@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x200022D")]
+[Token(Token = "0x2000345")]
 internal class TitanType
 {
-	[Token(Token = "0x4000BE6")]
+	[Token(Token = "0x40010ED")]
 	public const string Normal = "Normal";
 
-	[Token(Token = "0x4000BE7")]
+	[Token(Token = "0x40010EE")]
 	public const string Abnormal = "Abnormal";
 
-	[Token(Token = "0x4000BE8")]
+	[Token(Token = "0x40010EF")]
 	public const string Jumper = "Jumper";
 
-	[Token(Token = "0x4000BE9")]
+	[Token(Token = "0x40010F0")]
 	public const string Crawler = "Crawler";
 
-	[Token(Token = "0x4000BEA")]
+	[Token(Token = "0x40010F1")]
 	public const string Thrower = "Thrower";
 
-	[Token(Token = "0x4000BEB")]
+	[Token(Token = "0x40010F2")]
 	public const string Punk = "Punk";
 
-	[Token(Token = "0x4000BEC")]
+	[Token(Token = "0x40010F3")]
 	public const string Default = "Default";
 
-	[Token(Token = "0x4000BED")]
+	[Token(Token = "0x40010F4")]
 	public const string Random = "Random";
 
-	[Token(Token = "0x6000D91")]
-	[Address(RVA = "0x446FE00", Offset = "0x446FE00", VA = "0x446FE00")]
+	[Token(Token = "0x60014D9")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public TitanType()
 	{
 	}

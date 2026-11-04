@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001C4")]
+[Token(Token = "0x20001C7")]
 [DisallowMultipleComponent]
 public sealed class AsyncJointBreak2DTrigger : AsyncTriggerBase<Joint2D>
 {
-	[Token(Token = "0x6000B12")]
-	[Address(RVA = "0x4A0E3E0", Offset = "0x4A0E3E0", VA = "0x4A0E3E0")]
+	[Token(Token = "0x6000B36")]
+	[Address(RVA = "0x2930890", Offset = "0x292EE90", VA = "0x182930890")]
 	private void OnJointBreak2D(Joint2D brokenJoint)
 	{
 	}
 
-	[Token(Token = "0x6000B13")]
-	[Address(RVA = "0x4A0E430", Offset = "0x4A0E430", VA = "0x4A0E430")]
+	[Token(Token = "0x6000B37")]
+	[Address(RVA = "0x29305F0", Offset = "0x292EBF0", VA = "0x1829305F0")]
 	public IAsyncOnJointBreak2DHandler GetOnJointBreak2DAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B14")]
-	[Address(RVA = "0x4A0E4A0", Offset = "0x4A0E4A0", VA = "0x4A0E4A0")]
+	[Token(Token = "0x6000B38")]
+	[Address(RVA = "0x2930570", Offset = "0x292EB70", VA = "0x182930570")]
 	public IAsyncOnJointBreak2DHandler GetOnJointBreak2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B15")]
-	[Address(RVA = "0x4A0E510", Offset = "0x4A0E510", VA = "0x4A0E510")]
+	[Token(Token = "0x6000B39")]
+	[Address(RVA = "0x2930770", Offset = "0x292ED70", VA = "0x182930770")]
 	public UniTask<Joint2D> OnJointBreak2DAsync()
 	{
 		return default(UniTask<Joint2D>);
 	}
 
-	[Token(Token = "0x6000B16")]
-	[Address(RVA = "0x4A0E610", Offset = "0x4A0E610", VA = "0x4A0E610")]
+	[Token(Token = "0x6000B3A")]
+	[Address(RVA = "0x2930660", Offset = "0x292EC60", VA = "0x182930660")]
 	public UniTask<Joint2D> OnJointBreak2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Joint2D>);
 	}
 
-	[Token(Token = "0x6000B17")]
-	[Address(RVA = "0x4A0E720", Offset = "0x4A0E720", VA = "0x4A0E720")]
+	[Token(Token = "0x6000B3B")]
+	[Address(RVA = "0x29308E0", Offset = "0x292EEE0", VA = "0x1829308E0")]
 	public AsyncJointBreak2DTrigger()
 	{
 	}

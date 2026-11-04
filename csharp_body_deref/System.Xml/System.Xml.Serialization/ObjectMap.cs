@@ -13,7 +13,7 @@ namespace System.Xml.Serialization;
 internal class ObjectMap
 {
 	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x4815950", Offset = "0x4815950", VA = "0x4815950")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ObjectMap()
 	{
 	}

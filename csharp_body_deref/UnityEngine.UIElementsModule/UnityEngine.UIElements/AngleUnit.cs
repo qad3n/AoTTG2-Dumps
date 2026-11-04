@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200026A")]
+[Token(Token = "0x20002E9")]
 public enum AngleUnit
 {
-	[Token(Token = "0x40008F1")]
+	[Token(Token = "0x4000B55")]
 	Degree,
-	[Token(Token = "0x40008F2")]
+	[Token(Token = "0x4000B56")]
 	Gradian,
-	[Token(Token = "0x40008F3")]
+	[Token(Token = "0x4000B57")]
 	Radian,
-	[Token(Token = "0x40008F4")]
+	[Token(Token = "0x4000B58")]
 	Turn
 }

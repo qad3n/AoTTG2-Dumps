@@ -11,15 +11,15 @@ using Utility;
 
 namespace Map;
 
-[Token(Token = "0x2000279")]
+[Token(Token = "0x20003B8")]
 public class MapScriptCustomAssets : BaseCSVContainer
 {
-	[Token(Token = "0x4000D81")]
+	[Token(Token = "0x4001385")]
 	[FieldOffset(Offset = "0x10")]
 	public List<string> CustomAssets;
 
-	[Token(Token = "0x6000F46")]
-	[Address(RVA = "0x3FB5B90", Offset = "0x3FB5B90", VA = "0x3FB5B90")]
+	[Token(Token = "0x6001790")]
+	[Address(RVA = "0x1EB57A0", Offset = "0x1EB3DA0", VA = "0x181EB57A0")]
 	public MapScriptCustomAssets()
 	{
 	}

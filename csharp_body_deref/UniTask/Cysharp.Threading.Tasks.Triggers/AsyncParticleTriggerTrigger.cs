@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001D8")]
+[Token(Token = "0x20001DB")]
 [DisallowMultipleComponent]
 public sealed class AsyncParticleTriggerTrigger : AsyncTriggerBase<AsyncUnit>
 {
-	[Token(Token = "0x6000B58")]
-	[Address(RVA = "0x4A10660", Offset = "0x4A10660", VA = "0x4A10660")]
+	[Token(Token = "0x6000B7C")]
+	[Address(RVA = "0x2934850", Offset = "0x2932E50", VA = "0x182934850")]
 	private void OnParticleTrigger()
 	{
 	}
 
-	[Token(Token = "0x6000B59")]
-	[Address(RVA = "0x4A106D0", Offset = "0x4A106D0", VA = "0x4A106D0")]
+	[Token(Token = "0x6000B7D")]
+	[Address(RVA = "0x2934540", Offset = "0x2932B40", VA = "0x182934540")]
 	public IAsyncOnParticleTriggerHandler GetOnParticleTriggerAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B5A")]
-	[Address(RVA = "0x4A10740", Offset = "0x4A10740", VA = "0x4A10740")]
+	[Token(Token = "0x6000B7E")]
+	[Address(RVA = "0x29345B0", Offset = "0x2932BB0", VA = "0x1829345B0")]
 	public IAsyncOnParticleTriggerHandler GetOnParticleTriggerAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000B5B")]
-	[Address(RVA = "0x4A107B0", Offset = "0x4A107B0", VA = "0x4A107B0")]
+	[Token(Token = "0x6000B7F")]
+	[Address(RVA = "0x2934630", Offset = "0x2932C30", VA = "0x182934630")]
 	public UniTask OnParticleTriggerAsync()
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B5C")]
-	[Address(RVA = "0x4A108A0", Offset = "0x4A108A0", VA = "0x4A108A0")]
+	[Token(Token = "0x6000B80")]
+	[Address(RVA = "0x2934740", Offset = "0x2932D40", VA = "0x182934740")]
 	public UniTask OnParticleTriggerAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask);
 	}
 
-	[Token(Token = "0x6000B5D")]
-	[Address(RVA = "0x4A10990", Offset = "0x4A10990", VA = "0x4A10990")]
+	[Token(Token = "0x6000B81")]
+	[Address(RVA = "0x29348C0", Offset = "0x2932EC0", VA = "0x1829348C0")]
 	public AsyncParticleTriggerTrigger()
 	{
 	}

@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x2000048")]
 public struct InputMode
 {
-	[Token(Token = "0x40000E9")]
+	[Token(Token = "0x40000E4")]
 	[FieldOffset(Offset = "0x0")]
 	public InputModeType Type;
 
-	[Token(Token = "0x40000EA")]
+	[Token(Token = "0x40000E5")]
 	[FieldOffset(Offset = "0x8")]
 	public string Shortcut;
 }

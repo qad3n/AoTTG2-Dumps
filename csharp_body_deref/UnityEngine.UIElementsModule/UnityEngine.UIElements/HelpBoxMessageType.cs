@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000A0")]
+[Token(Token = "0x20000DD")]
 public enum HelpBoxMessageType
 {
-	[Token(Token = "0x400026C")]
+	[Token(Token = "0x40003A5")]
 	None,
-	[Token(Token = "0x400026D")]
+	[Token(Token = "0x40003A6")]
 	Info,
-	[Token(Token = "0x400026E")]
+	[Token(Token = "0x40003A7")]
 	Warning,
-	[Token(Token = "0x400026F")]
+	[Token(Token = "0x40003A8")]
 	Error
 }

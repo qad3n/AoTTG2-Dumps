@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200003B")]
+[Token(Token = "0x2000039")]
 public class AudioInChangeNotifierNotSupported : IAudioInChangeNotifier, IDisposable
 {
 	[Token(Token = "0x1700004E")]
 	public bool IsSupported
 	{
-		[Token(Token = "0x600012E")]
-		[Address(RVA = "0x3F1A230", Offset = "0x3F1A230", VA = "0x3F1A230", Slot = "4")]
+		[Token(Token = "0x600012C")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -27,22 +27,22 @@ public class AudioInChangeNotifierNotSupported : IAudioInChangeNotifier, IDispos
 	[Token(Token = "0x1700004F")]
 	public string Error
 	{
-		[Token(Token = "0x6000130")]
-		[Address(RVA = "0x3F1A250", Offset = "0x3F1A250", VA = "0x3F1A250", Slot = "5")]
+		[Token(Token = "0x600012E")]
+		[Address(RVA = "0x1D67D50", Offset = "0x1D66350", VA = "0x181D67D50", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x3F1A240", Offset = "0x3F1A240", VA = "0x3F1A240")]
+	[Token(Token = "0x600012D")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public AudioInChangeNotifierNotSupported(Action callback, ILogger logger)
 	{
 	}
 
-	[Token(Token = "0x6000131")]
-	[Address(RVA = "0x3F1A280", Offset = "0x3F1A280", VA = "0x3F1A280", Slot = "6")]
+	[Token(Token = "0x600012F")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "6")]
 	public void Dispose()
 	{
 	}

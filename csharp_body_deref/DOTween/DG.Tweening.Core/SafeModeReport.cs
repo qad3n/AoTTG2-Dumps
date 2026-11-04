@@ -30,14 +30,14 @@ internal struct SafeModeReport
 	public int totMissingTargetOrFieldErrors
 	{
 		[Token(Token = "0x6000426")]
-		[Address(RVA = "0x2386DF0", Offset = "0x2386DF0", VA = "0x2386DF0")]
+		[Address(RVA = "0x57AED0", Offset = "0x5794D0", VA = "0x18057AED0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000427")]
-		[Address(RVA = "0x2386E00", Offset = "0x2386E00", VA = "0x2386E00")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		[CompilerGenerated]
 		private set
 		{
@@ -48,14 +48,14 @@ internal struct SafeModeReport
 	public int totCallbackErrors
 	{
 		[Token(Token = "0x6000428")]
-		[Address(RVA = "0x2386E10", Offset = "0x2386E10", VA = "0x2386E10")]
+		[Address(RVA = "0x57AEC0", Offset = "0x5794C0", VA = "0x18057AEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x6000429")]
-		[Address(RVA = "0x2386E20", Offset = "0x2386E20", VA = "0x2386E20")]
+		[Address(RVA = "0x57AF00", Offset = "0x579500", VA = "0x18057AF00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -66,14 +66,14 @@ internal struct SafeModeReport
 	public int totStartupErrors
 	{
 		[Token(Token = "0x600042A")]
-		[Address(RVA = "0x2386E30", Offset = "0x2386E30", VA = "0x2386E30")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600042B")]
-		[Address(RVA = "0x2386E40", Offset = "0x2386E40", VA = "0x2386E40")]
+		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
 		[CompilerGenerated]
 		private set
 		{
@@ -84,14 +84,14 @@ internal struct SafeModeReport
 	public int totUnsetErrors
 	{
 		[Token(Token = "0x600042C")]
-		[Address(RVA = "0x2386E50", Offset = "0x2386E50", VA = "0x2386E50")]
+		[Address(RVA = "0x57AEF0", Offset = "0x5794F0", VA = "0x18057AEF0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x600042D")]
-		[Address(RVA = "0x2386E60", Offset = "0x2386E60", VA = "0x2386E60")]
+		[Address(RVA = "0x57AF30", Offset = "0x579530", VA = "0x18057AF30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -99,13 +99,13 @@ internal struct SafeModeReport
 	}
 
 	[Token(Token = "0x600042E")]
-	[Address(RVA = "0x2386E70", Offset = "0x2386E70", VA = "0x2386E70")]
+	[Address(RVA = "0x57AE90", Offset = "0x579490", VA = "0x18057AE90")]
 	public void Add(SafeModeReportType type)
 	{
 	}
 
 	[Token(Token = "0x600042F")]
-	[Address(RVA = "0x2386EA0", Offset = "0x2386EA0", VA = "0x2386EA0")]
+	[Address(RVA = "0x57AEB0", Offset = "0x5794B0", VA = "0x18057AEB0")]
 	public int GetTotErrors()
 	{
 		return default(int);

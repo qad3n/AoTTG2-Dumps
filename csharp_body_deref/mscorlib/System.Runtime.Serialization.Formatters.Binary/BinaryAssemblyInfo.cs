@@ -10,31 +10,31 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000404")]
+[Token(Token = "0x2000433")]
 internal sealed class BinaryAssemblyInfo
 {
-	[Token(Token = "0x40010AE")]
+	[Token(Token = "0x40010B0")]
 	[FieldOffset(Offset = "0x10")]
 	internal string assemblyString;
 
-	[Token(Token = "0x40010AF")]
+	[Token(Token = "0x40010B1")]
 	[FieldOffset(Offset = "0x18")]
 	private Assembly assembly;
 
-	[Token(Token = "0x6002038")]
-	[Address(RVA = "0x3BA2CD0", Offset = "0x3BA2CD0", VA = "0x3BA2CD0")]
+	[Token(Token = "0x60020A7")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	internal BinaryAssemblyInfo(string assemblyString)
 	{
 	}
 
-	[Token(Token = "0x6002039")]
-	[Address(RVA = "0x3BA2D00", Offset = "0x3BA2D00", VA = "0x3BA2D00")]
+	[Token(Token = "0x60020A8")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	internal BinaryAssemblyInfo(string assemblyString, Assembly assembly)
 	{
 	}
 
-	[Token(Token = "0x600203A")]
-	[Address(RVA = "0x3BA2D40", Offset = "0x3BA2D40", VA = "0x3BA2D40")]
+	[Token(Token = "0x60020A9")]
+	[Address(RVA = "0x1A0BF70", Offset = "0x1A0A570", VA = "0x181A0BF70")]
 	internal Assembly GetAssembly()
 	{
 		return null;

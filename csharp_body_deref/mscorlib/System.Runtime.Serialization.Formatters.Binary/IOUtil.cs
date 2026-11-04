@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Serialization.Formatters.Binary;
 
-[Token(Token = "0x2000403")]
+[Token(Token = "0x2000432")]
 internal static class IOUtil
 {
-	[Token(Token = "0x6002035")]
-	[Address(RVA = "0x3BA2300", Offset = "0x3BA2300", VA = "0x3BA2300")]
+	[Token(Token = "0x60020A4")]
+	[Address(RVA = "0x1A14800", Offset = "0x1A12E00", VA = "0x181A14800")]
 	internal static bool FlagTest(System.Runtime.Serialization.Formatters.Binary.MessageEnum flag, System.Runtime.Serialization.Formatters.Binary.MessageEnum target)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002036")]
-	[Address(RVA = "0x3BA2310", Offset = "0x3BA2310", VA = "0x3BA2310")]
+	[Token(Token = "0x60020A5")]
+	[Address(RVA = "0x1A14810", Offset = "0x1A12E10", VA = "0x181A14810")]
 	internal static void WriteStringWithCode(string value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}
 
-	[Token(Token = "0x6002037")]
-	[Address(RVA = "0x3BA23A0", Offset = "0x3BA23A0", VA = "0x3BA23A0")]
+	[Token(Token = "0x60020A6")]
+	[Address(RVA = "0x1A148A0", Offset = "0x1A12EA0", VA = "0x181A148A0")]
 	internal static void WriteWithCode(Type type, object value, System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
 	{
 	}

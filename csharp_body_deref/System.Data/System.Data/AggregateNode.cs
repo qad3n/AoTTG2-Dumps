@@ -10,123 +10,123 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200004E")]
+[Token(Token = "0x200005B")]
 internal sealed class AggregateNode : ExpressionNode
 {
-	[Token(Token = "0x400017A")]
+	[Token(Token = "0x40001C2")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly AggregateType _type;
 
-	[Token(Token = "0x400017B")]
+	[Token(Token = "0x40001C3")]
 	[FieldOffset(Offset = "0x1C")]
 	private readonly Aggregate _aggregate;
 
-	[Token(Token = "0x400017C")]
+	[Token(Token = "0x40001C4")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly bool _local;
 
-	[Token(Token = "0x400017D")]
+	[Token(Token = "0x40001C5")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly string _relationName;
 
-	[Token(Token = "0x400017E")]
+	[Token(Token = "0x40001C6")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly string _columnName;
 
-	[Token(Token = "0x400017F")]
+	[Token(Token = "0x40001C7")]
 	[FieldOffset(Offset = "0x38")]
 	private DataTable _childTable;
 
-	[Token(Token = "0x4000180")]
+	[Token(Token = "0x40001C8")]
 	[FieldOffset(Offset = "0x40")]
 	private DataColumn _column;
 
-	[Token(Token = "0x4000181")]
+	[Token(Token = "0x40001C9")]
 	[FieldOffset(Offset = "0x48")]
 	private DataRelation _relation;
 
-	[Token(Token = "0x600059B")]
-	[Address(RVA = "0x459AFF0", Offset = "0x459AFF0", VA = "0x459AFF0")]
+	[Token(Token = "0x60005CE")]
+	[Address(RVA = "0x25014C0", Offset = "0x24FFAC0", VA = "0x1825014C0")]
 	internal AggregateNode(DataTable table, FunctionId aggregateType, string columnName)
 	{
 	}
 
-	[Token(Token = "0x600059C")]
-	[Address(RVA = "0x459B010", Offset = "0x459B010", VA = "0x459B010")]
+	[Token(Token = "0x60005CF")]
+	[Address(RVA = "0x2501390", Offset = "0x24FF990", VA = "0x182501390")]
 	internal AggregateNode(DataTable table, FunctionId aggregateType, string columnName, bool local, string relationName)
 	{
 	}
 
-	[Token(Token = "0x600059D")]
-	[Address(RVA = "0x459B1C0", Offset = "0x459B1C0", VA = "0x459B1C0", Slot = "5")]
+	[Token(Token = "0x60005D0")]
+	[Address(RVA = "0x2500A30", Offset = "0x24FF030", VA = "0x182500A30", Slot = "5")]
 	internal override void Bind(DataTable table, List<DataColumn> list)
 	{
 	}
 
-	[Token(Token = "0x600059E")]
-	[Address(RVA = "0x459B650", Offset = "0x459B650", VA = "0x459B650")]
+	[Token(Token = "0x60005D1")]
+	[Address(RVA = "0x2500DF0", Offset = "0x24FF3F0", VA = "0x182500DF0")]
 	internal static void Bind(DataRelation relation, List<DataColumn> list)
 	{
 	}
 
-	[Token(Token = "0x600059F")]
-	[Address(RVA = "0x459B880", Offset = "0x459B880", VA = "0x459B880", Slot = "6")]
+	[Token(Token = "0x60005D2")]
+	[Address(RVA = "0x24E2A50", Offset = "0x24E1050", VA = "0x1824E2A50", Slot = "6")]
 	internal override object Eval()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005A0")]
-	[Address(RVA = "0x459B8A0", Offset = "0x459B8A0", VA = "0x459B8A0", Slot = "7")]
+	[Token(Token = "0x60005D3")]
+	[Address(RVA = "0x2501060", Offset = "0x24FF660", VA = "0x182501060", Slot = "7")]
 	internal override object Eval(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005A1")]
-	[Address(RVA = "0x459BCF0", Offset = "0x459BCF0", VA = "0x459BCF0", Slot = "8")]
+	[Token(Token = "0x60005D4")]
+	[Address(RVA = "0x2500FC0", Offset = "0x24FF5C0", VA = "0x182500FC0", Slot = "8")]
 	internal override object Eval(int[] records)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60005A2")]
-	[Address(RVA = "0x459BE00", Offset = "0x459BE00", VA = "0x459BE00", Slot = "9")]
+	[Token(Token = "0x60005D5")]
+	[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "9")]
 	internal override bool IsConstant()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A3")]
-	[Address(RVA = "0x459BE10", Offset = "0x459BE10", VA = "0x459BE10", Slot = "10")]
+	[Token(Token = "0x60005D6")]
+	[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "10")]
 	internal override bool IsTableConstant()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A4")]
-	[Address(RVA = "0x459BE20", Offset = "0x459BE20", VA = "0x459BE20", Slot = "11")]
+	[Token(Token = "0x60005D7")]
+	[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050", Slot = "11")]
 	internal override bool HasLocalAggregate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A5")]
-	[Address(RVA = "0x459BE30", Offset = "0x459BE30", VA = "0x459BE30", Slot = "12")]
+	[Token(Token = "0x60005D8")]
+	[Address(RVA = "0x2501380", Offset = "0x24FF980", VA = "0x182501380", Slot = "12")]
 	internal override bool HasRemoteAggregate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A6")]
-	[Address(RVA = "0x459BE40", Offset = "0x459BE40", VA = "0x459BE40", Slot = "14")]
+	[Token(Token = "0x60005D9")]
+	[Address(RVA = "0x2500F30", Offset = "0x24FF530", VA = "0x182500F30", Slot = "14")]
 	internal override bool DependsOn(DataColumn column)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60005A7")]
-	[Address(RVA = "0x459BEE0", Offset = "0x459BEE0", VA = "0x459BEE0", Slot = "13")]
+	[Token(Token = "0x60005DA")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510", Slot = "13")]
 	internal override ExpressionNode Optimize()
 	{
 		return null;

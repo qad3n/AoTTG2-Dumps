@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000476")]
+[Token(Token = "0x20004A5")]
 public interface IAsyncStateMachine
 {
-	[Token(Token = "0x6002279")]
+	[Token(Token = "0x60022F9")]
 	void MoveNext();
 
-	[Token(Token = "0x600227A")]
+	[Token(Token = "0x60022FA")]
 	void SetStateMachine(IAsyncStateMachine stateMachine);
 }

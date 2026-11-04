@@ -18,14 +18,14 @@ public class JsonISerializableContract : JsonContainerContract
 	public ObjectConstructor<object>? ISerializableCreator
 	{
 		[Token(Token = "0x6000841")]
-		[Address(RVA = "0x3DD9E80", Offset = "0x3DD9E80", VA = "0x3DD9E80")]
+		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000842")]
-		[Address(RVA = "0x3DD9E90", Offset = "0x3DD9E90", VA = "0x3DD9E90")]
+		[Address(RVA = "0xC8FFC0", Offset = "0xC8E5C0", VA = "0x180C8FFC0")]
 		[CompilerGenerated]
 		set
 		{
@@ -33,7 +33,7 @@ public class JsonISerializableContract : JsonContainerContract
 	}
 
 	[Token(Token = "0x6000843")]
-	[Address(RVA = "0x3DD27C0", Offset = "0x3DD27C0", VA = "0x3DD27C0")]
+	[Address(RVA = "0x1C42E10", Offset = "0x1C41410", VA = "0x181C42E10")]
 	public JsonISerializableContract(Type underlyingType)
 	{
 	}

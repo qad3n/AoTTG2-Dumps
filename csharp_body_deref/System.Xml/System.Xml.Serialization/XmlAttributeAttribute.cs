@@ -39,7 +39,7 @@ public class XmlAttributeAttribute : Attribute
 	public string AttributeName
 	{
 		[Token(Token = "0x6000D1E")]
-		[Address(RVA = "0x4811630", Offset = "0x4811630", VA = "0x4811630")]
+		[Address(RVA = "0x2759E80", Offset = "0x2758480", VA = "0x182759E80")]
 		get
 		{
 			return null;
@@ -50,13 +50,13 @@ public class XmlAttributeAttribute : Attribute
 	public string DataType
 	{
 		[Token(Token = "0x6000D1F")]
-		[Address(RVA = "0x4811660", Offset = "0x4811660", VA = "0x4811660")]
+		[Address(RVA = "0x1A8E540", Offset = "0x1A8CB40", VA = "0x181A8E540")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000D20")]
-		[Address(RVA = "0x4811690", Offset = "0x4811690", VA = "0x4811690")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		set
 		{
 		}
@@ -66,7 +66,7 @@ public class XmlAttributeAttribute : Attribute
 	public XmlSchemaForm Form
 	{
 		[Token(Token = "0x6000D21")]
-		[Address(RVA = "0x48116A0", Offset = "0x48116A0", VA = "0x48116A0")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		get
 		{
 			return default(XmlSchemaForm);
@@ -77,7 +77,7 @@ public class XmlAttributeAttribute : Attribute
 	public string Namespace
 	{
 		[Token(Token = "0x6000D22")]
-		[Address(RVA = "0x48116B0", Offset = "0x48116B0", VA = "0x48116B0")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
@@ -85,13 +85,13 @@ public class XmlAttributeAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000D1D")]
-	[Address(RVA = "0x4811600", Offset = "0x4811600", VA = "0x4811600")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public XmlAttributeAttribute(string attributeName)
 	{
 	}
 
 	[Token(Token = "0x6000D23")]
-	[Address(RVA = "0x48116C0", Offset = "0x48116C0", VA = "0x48116C0")]
+	[Address(RVA = "0x275A9A0", Offset = "0x2758FA0", VA = "0x18275A9A0")]
 	internal void AddKeyHash(StringBuilder sb)
 	{
 	}

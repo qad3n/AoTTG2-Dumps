@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI;
 
-[Token(Token = "0x2000009")]
+[Token(Token = "0x2000007")]
 public enum AottgUiScalePreset
 {
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x400002B")]
 	VerySmall,
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x400002C")]
 	Small,
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x400002D")]
 	Normal,
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400002E")]
 	Large,
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400002F")]
 	VeryLarge
 }

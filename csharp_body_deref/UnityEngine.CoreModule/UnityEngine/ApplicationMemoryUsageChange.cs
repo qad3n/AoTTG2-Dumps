@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200007A")]
+[Token(Token = "0x2000096")]
 public struct ApplicationMemoryUsageChange
 {
-	[Token(Token = "0x1700003D")]
+	[Token(Token = "0x17000058")]
 	private ApplicationMemoryUsage memoryUsage
 	{
-		[Token(Token = "0x6000158")]
-		[Address(RVA = "0x4DB04B0", Offset = "0x4DB04B0", VA = "0x4DB04B0")]
+		[Token(Token = "0x600025A")]
+		[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000159")]
-	[Address(RVA = "0x4DAF490", Offset = "0x4DAF490", VA = "0x4DAF490")]
+	[Token(Token = "0x600025B")]
+	[Address(RVA = "0x57AF10", Offset = "0x579510", VA = "0x18057AF10")]
 	public ApplicationMemoryUsageChange(ApplicationMemoryUsage usage)
 	{
 	}

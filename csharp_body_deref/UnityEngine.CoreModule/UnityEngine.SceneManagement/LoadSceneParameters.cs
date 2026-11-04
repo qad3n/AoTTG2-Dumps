@@ -11,21 +11,21 @@ using Il2CppDummyDll;
 namespace UnityEngine.SceneManagement;
 
 [Serializable]
-[Token(Token = "0x2000201")]
+[Token(Token = "0x2000252")]
 public struct LoadSceneParameters
 {
-	[Token(Token = "0x40006B9")]
+	[Token(Token = "0x4000763")]
 	[FieldOffset(Offset = "0x0")]
 	[SerializeField]
 	private LoadSceneMode m_LoadSceneMode;
 
-	[Token(Token = "0x40006BA")]
+	[Token(Token = "0x4000764")]
 	[FieldOffset(Offset = "0x4")]
 	[SerializeField]
 	private LocalPhysicsMode m_LocalPhysicsMode;
 
-	[Token(Token = "0x6000DC8")]
-	[Address(RVA = "0x4E14E80", Offset = "0x4E14E80", VA = "0x4E14E80")]
+	[Token(Token = "0x60011C8")]
+	[Address(RVA = "0xD16C20", Offset = "0xD15220", VA = "0x180D16C20")]
 	public LoadSceneParameters(LoadSceneMode mode)
 	{
 	}

@@ -25,34 +25,34 @@ internal class SecureStringHasher : IEqualityComparer<string>
 	private int hashCodeRandomizer;
 
 	[Token(Token = "0x60001A3")]
-	[Address(RVA = "0x4794B80", Offset = "0x4794B80", VA = "0x4794B80")]
+	[Address(RVA = "0x26E21D0", Offset = "0x26E07D0", VA = "0x1826E21D0")]
 	public SecureStringHasher()
 	{
 	}
 
 	[Token(Token = "0x60001A4")]
-	[Address(RVA = "0x4794BA0", Offset = "0x4794BA0", VA = "0x4794BA0", Slot = "4")]
+	[Address(RVA = "0x26E1EA0", Offset = "0x26E04A0", VA = "0x1826E1EA0", Slot = "4")]
 	public bool Equals(string x, string y)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60001A5")]
-	[Address(RVA = "0x4794BC0", Offset = "0x4794BC0", VA = "0x4794BC0", Slot = "5")]
+	[Address(RVA = "0x26E2110", Offset = "0x26E0710", VA = "0x1826E2110", Slot = "5")]
 	public int GetHashCode(string key)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001A6")]
-	[Address(RVA = "0x4794E30", Offset = "0x4794E30", VA = "0x4794E30")]
+	[Address(RVA = "0x26E2090", Offset = "0x26E0690", VA = "0x1826E2090")]
 	private static int GetHashCodeOfString(string key, int sLen, long additionalEntropy)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x60001A7")]
-	[Address(RVA = "0x4794C60", Offset = "0x4794C60", VA = "0x4794C60")]
+	[Address(RVA = "0x26E1EC0", Offset = "0x26E04C0", VA = "0x1826E1EC0")]
 	private static HashCodeOfStringDelegate GetHashCodeDelegate()
 	{
 		return null;

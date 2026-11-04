@@ -16,7 +16,7 @@ internal class IncrementalReadDummyDecoder : IncrementalReadDecoder
 	internal override bool IsFull
 	{
 		[Token(Token = "0x600017D")]
-		[Address(RVA = "0x4793BA0", Offset = "0x4793BA0", VA = "0x4793BA0", Slot = "4")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "4")]
 		get
 		{
 			return default(bool);
@@ -24,14 +24,14 @@ internal class IncrementalReadDummyDecoder : IncrementalReadDecoder
 	}
 
 	[Token(Token = "0x600017E")]
-	[Address(RVA = "0x4793BB0", Offset = "0x4793BB0", VA = "0x4793BB0", Slot = "5")]
+	[Address(RVA = "0x26E02E0", Offset = "0x26DE8E0", VA = "0x1826E02E0", Slot = "5")]
 	internal override int Decode(char[] chars, int startPos, int len)
 	{
 		return default(int);
 	}
 
 	[Token(Token = "0x600017F")]
-	[Address(RVA = "0x4793BC0", Offset = "0x4793BC0", VA = "0x4793BC0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public IncrementalReadDummyDecoder()
 	{
 	}

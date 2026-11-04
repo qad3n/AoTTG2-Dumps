@@ -42,13 +42,13 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	public string SchemaLocation
 	{
 		[Token(Token = "0x600164A")]
-		[Address(RVA = "0x4724A30", Offset = "0x4724A30", VA = "0x4724A30")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600164B")]
-		[Address(RVA = "0x4724A40", Offset = "0x4724A40", VA = "0x4724A40")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
@@ -59,13 +59,13 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	public XmlSchema Schema
 	{
 		[Token(Token = "0x600164C")]
-		[Address(RVA = "0x4724A50", Offset = "0x4724A50", VA = "0x4724A50")]
+		[Address(RVA = "0xC7FB50", Offset = "0xC7E150", VA = "0x180C7FB50")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600164D")]
-		[Address(RVA = "0x4724A60", Offset = "0x4724A60", VA = "0x4724A60")]
+		[Address(RVA = "0xF1DB10", Offset = "0xF1C110", VA = "0x180F1DB10")]
 		set
 		{
 		}
@@ -76,13 +76,13 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	public string Id
 	{
 		[Token(Token = "0x600164E")]
-		[Address(RVA = "0x4724A70", Offset = "0x4724A70", VA = "0x4724A70")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x600164F")]
-		[Address(RVA = "0x4724A80", Offset = "0x4724A80", VA = "0x4724A80")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0")]
 		set
 		{
 		}
@@ -93,13 +93,13 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	internal Uri BaseUri
 	{
 		[Token(Token = "0x6001650")]
-		[Address(RVA = "0x4724A90", Offset = "0x4724A90", VA = "0x4724A90")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001651")]
-		[Address(RVA = "0x4724AA0", Offset = "0x4724AA0", VA = "0x4724AA0")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
@@ -110,13 +110,13 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	internal override string IdAttribute
 	{
 		[Token(Token = "0x6001652")]
-		[Address(RVA = "0x4724AB0", Offset = "0x4724AB0", VA = "0x4724AB0", Slot = "7")]
+		[Address(RVA = "0x5853D0", Offset = "0x5839D0", VA = "0x1805853D0", Slot = "7")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001653")]
-		[Address(RVA = "0x4724AC0", Offset = "0x4724AC0", VA = "0x4724AC0", Slot = "8")]
+		[Address(RVA = "0xF1D7F0", Offset = "0xF1BDF0", VA = "0x180F1D7F0", Slot = "8")]
 		set
 		{
 		}
@@ -126,26 +126,26 @@ public abstract class XmlSchemaExternal : XmlSchemaObject
 	internal Compositor Compositor
 	{
 		[Token(Token = "0x6001655")]
-		[Address(RVA = "0x4724AE0", Offset = "0x4724AE0", VA = "0x4724AE0")]
+		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
 		get
 		{
 			return default(Compositor);
 		}
 		[Token(Token = "0x6001656")]
-		[Address(RVA = "0x4724AF0", Offset = "0x4724AF0", VA = "0x4724AF0")]
+		[Address(RVA = "0x1B6A390", Offset = "0x1B68990", VA = "0x181B6A390")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001654")]
-	[Address(RVA = "0x4724AD0", Offset = "0x4724AD0", VA = "0x4724AD0", Slot = "9")]
+	[Address(RVA = "0xA37140", Offset = "0xA35740", VA = "0x180A37140", Slot = "9")]
 	internal override void SetUnhandledAttributes(XmlAttribute[] moreAttributes)
 	{
 	}
 
 	[Token(Token = "0x6001657")]
-	[Address(RVA = "0x4724B00", Offset = "0x4724B00", VA = "0x4724B00")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSchemaExternal()
 	{
 	}

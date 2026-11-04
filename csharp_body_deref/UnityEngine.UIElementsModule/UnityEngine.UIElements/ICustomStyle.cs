@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000276")]
+[Token(Token = "0x20002FA")]
 public interface ICustomStyle
 {
-	[Token(Token = "0x60010AC")]
+	[Token(Token = "0x60014CC")]
 	bool TryGetValue(CustomStyleProperty<float> property, out float value);
 
-	[Token(Token = "0x60010AD")]
+	[Token(Token = "0x60014CD")]
 	bool TryGetValue(CustomStyleProperty<int> property, out int value);
 
-	[Token(Token = "0x60010AE")]
+	[Token(Token = "0x60014CE")]
 	bool TryGetValue(CustomStyleProperty<Color> property, out Color value);
 
-	[Token(Token = "0x60010AF")]
+	[Token(Token = "0x60014CF")]
 	bool TryGetValue(CustomStyleProperty<Texture2D> property, out Texture2D value);
 
-	[Token(Token = "0x60010B0")]
+	[Token(Token = "0x60014D0")]
 	bool TryGetValue(CustomStyleProperty<Sprite> property, out Sprite value);
 
-	[Token(Token = "0x60010B1")]
+	[Token(Token = "0x60014D1")]
 	bool TryGetValue(CustomStyleProperty<VectorImage> property, out VectorImage value);
 
-	[Token(Token = "0x60010B2")]
+	[Token(Token = "0x60014D2")]
 	bool TryGetValue(CustomStyleProperty<string> property, out string value);
 }

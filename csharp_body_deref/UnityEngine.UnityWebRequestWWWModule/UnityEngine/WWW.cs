@@ -23,7 +23,7 @@ public class WWW : CustomYieldInstruction, IDisposable
 	public string error
 	{
 		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x51093E0", Offset = "0x51093E0", VA = "0x51093E0")]
+		[Address(RVA = "0x330FCA0", Offset = "0x330E2A0", VA = "0x18330FCA0")]
 		get
 		{
 			return null;
@@ -34,7 +34,7 @@ public class WWW : CustomYieldInstruction, IDisposable
 	public string text
 	{
 		[Token(Token = "0x6000003")]
-		[Address(RVA = "0x51094E0", Offset = "0x51094E0", VA = "0x51094E0")]
+		[Address(RVA = "0x330FDE0", Offset = "0x330E3E0", VA = "0x18330FDE0")]
 		get
 		{
 			return null;
@@ -45,7 +45,7 @@ public class WWW : CustomYieldInstruction, IDisposable
 	public string url
 	{
 		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x5109650", Offset = "0x5109650", VA = "0x5109650")]
+		[Address(RVA = "0x330FF30", Offset = "0x330E530", VA = "0x18330FF30")]
 		get
 		{
 			return null;
@@ -56,7 +56,7 @@ public class WWW : CustomYieldInstruction, IDisposable
 	public override bool keepWaiting
 	{
 		[Token(Token = "0x6000005")]
-		[Address(RVA = "0x5109670", Offset = "0x5109670", VA = "0x5109670", Slot = "7")]
+		[Address(RVA = "0x330FDB0", Offset = "0x330E3B0", VA = "0x18330FDB0", Slot = "7")]
 		get
 		{
 			return default(bool);
@@ -64,19 +64,19 @@ public class WWW : CustomYieldInstruction, IDisposable
 	}
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x5109390", Offset = "0x5109390", VA = "0x5109390")]
+	[Address(RVA = "0x330FC40", Offset = "0x330E240", VA = "0x18330FC40")]
 	public WWW(string url)
 	{
 	}
 
 	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x5109690", Offset = "0x5109690", VA = "0x5109690", Slot = "9")]
+	[Address(RVA = "0x330FB10", Offset = "0x330E110", VA = "0x18330FB10", Slot = "9")]
 	public void Dispose()
 	{
 	}
 
 	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x5109560", Offset = "0x5109560", VA = "0x5109560")]
+	[Address(RVA = "0x330FB50", Offset = "0x330E150", VA = "0x18330FB50")]
 	private bool WaitUntilDoneIfPossible()
 	{
 		return default(bool);

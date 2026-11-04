@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001D8")]
+[Token(Token = "0x20001F6")]
 [AttributeUsage(AttributeTargets.Class)]
-[Obsolete("VolumeComponentDeprecated has been deprecated (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector", false)]
+[Obsolete("VolumeComponentDeprecated has been deprecated. #from(2023.1) (UnityUpgradable) -> [UnityEngine] UnityEngine.HideInInspector")]
 public sealed class VolumeComponentDeprecated : Attribute
 {
-	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x4C06770", Offset = "0x4C06770", VA = "0x4C06770")]
+	[Token(Token = "0x6000EE5")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public VolumeComponentDeprecated()
 	{
 	}

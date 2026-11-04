@@ -11,10 +11,10 @@ using Il2CppDummyDll;
 
 namespace System.Diagnostics.Contracts;
 
-[Token(Token = "0x20005E9")]
+[Token(Token = "0x20005BB")]
 public static class Contract
 {
-	[Token(Token = "0x6002E84")]
+	[Token(Token = "0x6002B91")]
 	[ReliabilityContract(Consistency.WillNotCorruptState, Cer.MayFail)]
 	public static bool ForAll<T>(IEnumerable<T> collection, Predicate<T> predicate)
 	{

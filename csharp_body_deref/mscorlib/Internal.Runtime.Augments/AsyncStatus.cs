@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Internal.Runtime.Augments;
 
-[Token(Token = "0x2000060")]
+[Token(Token = "0x2000089")]
 internal enum AsyncStatus
 {
-	[Token(Token = "0x4000191")]
+	[Token(Token = "0x4000240")]
 	Started,
-	[Token(Token = "0x4000192")]
+	[Token(Token = "0x4000241")]
 	Completed,
-	[Token(Token = "0x4000193")]
+	[Token(Token = "0x4000242")]
 	Canceled,
-	[Token(Token = "0x4000194")]
+	[Token(Token = "0x4000243")]
 	Error
 }

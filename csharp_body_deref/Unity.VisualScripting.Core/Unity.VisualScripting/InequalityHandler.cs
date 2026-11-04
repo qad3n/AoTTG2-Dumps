@@ -12,28 +12,28 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200011A")]
 public class InequalityHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x60009AB")]
-	[Address(RVA = "0x4D01EF0", Offset = "0x4D01EF0", VA = "0x4D01EF0")]
+	[Token(Token = "0x60009B5")]
+	[Address(RVA = "0x2DF1B40", Offset = "0x2DF0140", VA = "0x182DF1B40")]
 	public InequalityHandler()
 	{
 	}
 
-	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x4D080F0", Offset = "0x4D080F0", VA = "0x4D080F0", Slot = "6")]
+	[Token(Token = "0x60009B6")]
+	[Address(RVA = "0x2DD0440", Offset = "0x2DCEA40", VA = "0x182DD0440", Slot = "6")]
 	protected override object BothNullHandling()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x4D08110", Offset = "0x4D08110", VA = "0x4D08110", Slot = "7")]
+	[Token(Token = "0x60009B7")]
+	[Address(RVA = "0x2DD0440", Offset = "0x2DCEA40", VA = "0x182DD0440", Slot = "7")]
 	protected override object SingleNullHandling()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x4D08130", Offset = "0x4D08130", VA = "0x4D08130", Slot = "5")]
+	[Token(Token = "0x60009B8")]
+	[Address(RVA = "0x2DF1B00", Offset = "0x2DF0100", VA = "0x182DF1B00", Slot = "5")]
 	protected override object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;

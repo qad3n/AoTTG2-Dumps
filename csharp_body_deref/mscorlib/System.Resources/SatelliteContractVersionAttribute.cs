@@ -10,15 +10,15 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004B3")]
+[Token(Token = "0x20004E3")]
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = false)]
 public sealed class SatelliteContractVersionAttribute : Attribute
 {
-	[Token(Token = "0x1700048A")]
+	[Token(Token = "0x1700048D")]
 	public string Version
 	{
-		[Token(Token = "0x6002354")]
-		[Address(RVA = "0x3BC5BD0", Offset = "0x3BC5BD0", VA = "0x3BC5BD0")]
+		[Token(Token = "0x60023D6")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -26,8 +26,8 @@ public sealed class SatelliteContractVersionAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6002353")]
-	[Address(RVA = "0x3BC5B50", Offset = "0x3BC5B50", VA = "0x3BC5B50")]
+	[Token(Token = "0x60023D5")]
+	[Address(RVA = "0x1A55860", Offset = "0x1A53E60", VA = "0x181A55860")]
 	public SatelliteContractVersionAttribute(string version)
 	{
 	}

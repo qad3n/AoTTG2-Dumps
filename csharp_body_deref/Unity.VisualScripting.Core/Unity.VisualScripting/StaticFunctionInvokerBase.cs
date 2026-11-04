@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000160")]
 public abstract class StaticFunctionInvokerBase<TResult> : StaticInvokerBase
 {
-	[Token(Token = "0x6000E3E")]
+	[Token(Token = "0x6000E48")]
 	protected StaticFunctionInvokerBase(MethodInfo methodInfo)
 	{
 	}

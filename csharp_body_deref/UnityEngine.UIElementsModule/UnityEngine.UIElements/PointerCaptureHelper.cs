@@ -9,69 +9,69 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000247")]
+[Token(Token = "0x20002C3")]
 public static class PointerCaptureHelper
 {
-	[Token(Token = "0x6000EFF")]
-	[Address(RVA = "0x5052060", Offset = "0x5052060", VA = "0x5052060")]
+	[Token(Token = "0x60012B9")]
+	[Address(RVA = "0x32B45E0", Offset = "0x32B2BE0", VA = "0x1832B45E0")]
 	private static PointerDispatchState GetStateFor(IEventHandler handler)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F00")]
-	[Address(RVA = "0x504CD30", Offset = "0x504CD30", VA = "0x504CD30")]
+	[Token(Token = "0x60012BA")]
+	[Address(RVA = "0x32B4680", Offset = "0x32B2C80", VA = "0x1832B4680")]
 	public static bool HasPointerCapture(this IEventHandler handler, int pointerId)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F01")]
-	[Address(RVA = "0x504CE60", Offset = "0x504CE60", VA = "0x504CE60")]
+	[Token(Token = "0x60012BB")]
+	[Address(RVA = "0x32B42F0", Offset = "0x32B28F0", VA = "0x1832B42F0")]
 	public static void CapturePointer(this IEventHandler handler, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000F02")]
-	[Address(RVA = "0x50522E0", Offset = "0x50522E0", VA = "0x50522E0")]
+	[Token(Token = "0x60012BC")]
+	[Address(RVA = "0x32B4850", Offset = "0x32B2E50", VA = "0x1832B4850")]
 	public static void ReleasePointer(this IEventHandler handler, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000F03")]
-	[Address(RVA = "0x5052380", Offset = "0x5052380", VA = "0x5052380")]
+	[Token(Token = "0x60012BD")]
+	[Address(RVA = "0x32B4550", Offset = "0x32B2B50", VA = "0x1832B4550")]
 	public static IEventHandler GetCapturingElement(this IPanel panel, int pointerId)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000F04")]
-	[Address(RVA = "0x503A4C0", Offset = "0x503A4C0", VA = "0x503A4C0")]
+	[Token(Token = "0x60012BE")]
+	[Address(RVA = "0x32B4930", Offset = "0x32B2F30", VA = "0x1832B4930")]
 	public static void ReleasePointer(this IPanel panel, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000F05")]
-	[Address(RVA = "0x503A5E0", Offset = "0x503A5E0", VA = "0x503A5E0")]
+	[Token(Token = "0x60012BF")]
+	[Address(RVA = "0x32B4270", Offset = "0x32B2870", VA = "0x1832B4270")]
 	internal static void ActivateCompatibilityMouseEvents(this IPanel panel, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000F06")]
-	[Address(RVA = "0x50524D0", Offset = "0x50524D0", VA = "0x50524D0")]
+	[Token(Token = "0x60012C0")]
+	[Address(RVA = "0x32B4760", Offset = "0x32B2D60", VA = "0x1832B4760")]
 	internal static void PreventCompatibilityMouseEvents(this IPanel panel, int pointerId)
 	{
 	}
 
-	[Token(Token = "0x6000F07")]
-	[Address(RVA = "0x50398D0", Offset = "0x50398D0", VA = "0x50398D0")]
+	[Token(Token = "0x60012C1")]
+	[Address(RVA = "0x32B49A0", Offset = "0x32B2FA0", VA = "0x1832B49A0")]
 	internal static bool ShouldSendCompatibilityMouseEvents(this IPanel panel, IPointerEvent evt)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000F08")]
-	[Address(RVA = "0x504CE90", Offset = "0x504CE90", VA = "0x504CE90")]
+	[Token(Token = "0x60012C2")]
+	[Address(RVA = "0x32B47E0", Offset = "0x32B2DE0", VA = "0x1832B47E0")]
 	internal static void ProcessPointerCapture(this IPanel panel, int pointerId)
 	{
 	}

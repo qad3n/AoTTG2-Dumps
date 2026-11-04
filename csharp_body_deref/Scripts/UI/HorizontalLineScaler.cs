@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UI;
 
-[Token(Token = "0x20005E4")]
+[Token(Token = "0x200073A")]
 internal class HorizontalLineScaler : BaseScaler
 {
-	[Token(Token = "0x6003C2A")]
-	[Address(RVA = "0x428E210", Offset = "0x428E210", VA = "0x428E210", Slot = "5")]
+	[Token(Token = "0x60046E1")]
+	[Address(RVA = "0x22118E0", Offset = "0x220FEE0", VA = "0x1822118E0", Slot = "5")]
 	public override void ApplyScale()
 	{
 	}
 
-	[Token(Token = "0x6003C2B")]
-	[Address(RVA = "0x428E2E0", Offset = "0x428E2E0", VA = "0x428E2E0")]
+	[Token(Token = "0x60046E2")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public HorizontalLineScaler()
 	{
 	}

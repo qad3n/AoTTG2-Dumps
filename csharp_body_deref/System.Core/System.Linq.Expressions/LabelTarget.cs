@@ -16,8 +16,8 @@ public sealed class LabelTarget
 	[Token(Token = "0x170000A0")]
 	public string Name
 	{
-		[Token(Token = "0x6000433")]
-		[Address(RVA = "0x44BC8D0", Offset = "0x44BC8D0", VA = "0x44BC8D0")]
+		[Token(Token = "0x6000432")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -28,8 +28,8 @@ public sealed class LabelTarget
 	[Token(Token = "0x170000A1")]
 	public Type Type
 	{
-		[Token(Token = "0x6000434")]
-		[Address(RVA = "0x44BC8E0", Offset = "0x44BC8E0", VA = "0x44BC8E0")]
+		[Token(Token = "0x6000433")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,14 +37,14 @@ public sealed class LabelTarget
 		}
 	}
 
-	[Token(Token = "0x6000432")]
-	[Address(RVA = "0x44BC890", Offset = "0x44BC890", VA = "0x44BC890")]
+	[Token(Token = "0x6000431")]
+	[Address(RVA = "0x19DB2A0", Offset = "0x19D98A0", VA = "0x1819DB2A0")]
 	internal LabelTarget(Type type, string name)
 	{
 	}
 
-	[Token(Token = "0x6000435")]
-	[Address(RVA = "0x44BC8F0", Offset = "0x44BC8F0", VA = "0x44BC8F0", Slot = "3")]
+	[Token(Token = "0x6000434")]
+	[Address(RVA = "0x243BA50", Offset = "0x243A050", VA = "0x18243BA50", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

@@ -10,11 +10,11 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x2000329")]
+[Token(Token = "0x2000300")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public interface INotificationReceiver
 {
-	[Token(Token = "0x600113A")]
+	[Token(Token = "0x6001219")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnNotify(Playable origin, INotification notification, object context);
 }

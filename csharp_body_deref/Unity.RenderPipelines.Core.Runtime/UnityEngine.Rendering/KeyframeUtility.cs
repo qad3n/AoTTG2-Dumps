@@ -11,57 +11,57 @@ using Unity.Collections;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001D4")]
+[Token(Token = "0x20001F1")]
 public class KeyframeUtility
 {
-	[Token(Token = "0x6000D4B")]
-	[Address(RVA = "0x4C040A0", Offset = "0x4C040A0", VA = "0x4C040A0")]
+	[Token(Token = "0x6000EC1")]
+	[Address(RVA = "0x2B5C880", Offset = "0x2B5AE80", VA = "0x182B5C880")]
 	public static void ResetAnimationCurve(AnimationCurve curve)
 	{
 	}
 
-	[Token(Token = "0x6000D4C")]
-	[Address(RVA = "0x4C040C0", Offset = "0x4C040C0", VA = "0x4C040C0")]
+	[Token(Token = "0x6000EC2")]
+	[Address(RVA = "0x2B5C630", Offset = "0x2B5AC30", VA = "0x182B5C630")]
 	private static Keyframe LerpSingleKeyframe(Keyframe lhs, Keyframe rhs, float t)
 	{
 		return default(Keyframe);
 	}
 
-	[Token(Token = "0x6000D4D")]
-	[Address(RVA = "0x4C042A0", Offset = "0x4C042A0", VA = "0x4C042A0")]
+	[Token(Token = "0x6000EC3")]
+	[Address(RVA = "0x2B5BEA0", Offset = "0x2B5A4A0", VA = "0x182B5BEA0")]
 	private static Keyframe GetKeyframeAndClampEdge([DisallowNull] NativeArray<Keyframe> keys, int index)
 	{
 		return default(Keyframe);
 	}
 
-	[Token(Token = "0x6000D4E")]
-	[Address(RVA = "0x4C043A0", Offset = "0x4C043A0", VA = "0x4C043A0")]
+	[Token(Token = "0x6000EC4")]
+	[Address(RVA = "0x2B5BC70", Offset = "0x2B5A270", VA = "0x182B5BC70")]
 	private static Keyframe FetchKeyFromIndexClampEdge([DisallowNull] NativeArray<Keyframe> keys, int index, float segmentStartTime, float segmentEndTime)
 	{
 		return default(Keyframe);
 	}
 
-	[Token(Token = "0x6000D4F")]
-	[Address(RVA = "0x4C04520", Offset = "0x4C04520", VA = "0x4C04520")]
+	[Token(Token = "0x6000EC5")]
+	[Address(RVA = "0x2B5B920", Offset = "0x2B59F20", VA = "0x182B5B920")]
 	private static void EvalCurveSegmentAndDeriv(out float dstValue, out float dstDeriv, Keyframe lhsKey, Keyframe rhsKey, float desiredTime)
 	{
 	}
 
-	[Token(Token = "0x6000D50")]
-	[Address(RVA = "0x4C04710", Offset = "0x4C04710", VA = "0x4C04710")]
+	[Token(Token = "0x6000EC6")]
+	[Address(RVA = "0x2B5BB10", Offset = "0x2B5A110", VA = "0x182B5BB10")]
 	private static Keyframe EvalKeyAtTime([DisallowNull] NativeArray<Keyframe> keys, int lhsIndex, int rhsIndex, float startTime, float endTime, float currTime)
 	{
 		return default(Keyframe);
 	}
 
-	[Token(Token = "0x6000D51")]
-	[Address(RVA = "0x4C04820", Offset = "0x4C04820", VA = "0x4C04820")]
+	[Token(Token = "0x6000EC7")]
+	[Address(RVA = "0x2B5BFA0", Offset = "0x2B5A5A0", VA = "0x182B5BFA0")]
 	public static void InterpAnimationCurve(ref AnimationCurve lhsAndResultCurve, [DisallowNull] AnimationCurve rhsCurve, float t)
 	{
 	}
 
-	[Token(Token = "0x6000D52")]
-	[Address(RVA = "0x4C054C0", Offset = "0x4C054C0", VA = "0x4C054C0")]
+	[Token(Token = "0x6000EC8")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public KeyframeUtility()
 	{
 	}

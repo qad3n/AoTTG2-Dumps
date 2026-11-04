@@ -11,26 +11,26 @@ using Il2CppDummyDll;
 namespace Photon.Pun.UtilityScripts;
 
 [Serializable]
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000C")]
 public class PhotonTeam
 {
-	[Token(Token = "0x400004E")]
+	[Token(Token = "0x4000049")]
 	[FieldOffset(Offset = "0x10")]
 	public string Name;
 
-	[Token(Token = "0x400004F")]
+	[Token(Token = "0x400004A")]
 	[FieldOffset(Offset = "0x18")]
 	public byte Code;
 
-	[Token(Token = "0x600003C")]
-	[Address(RVA = "0x3F02CC0", Offset = "0x3F02CC0", VA = "0x3F02CC0", Slot = "3")]
+	[Token(Token = "0x600003A")]
+	[Address(RVA = "0x1D57990", Offset = "0x1D55F90", VA = "0x181D57990", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600003D")]
-	[Address(RVA = "0x3F02D30", Offset = "0x3F02D30", VA = "0x3F02D30")]
+	[Token(Token = "0x600003B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public PhotonTeam()
 	{
 	}

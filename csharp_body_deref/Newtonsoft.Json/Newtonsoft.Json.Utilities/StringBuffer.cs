@@ -24,13 +24,13 @@ internal struct StringBuffer
 	public int Position
 	{
 		[Token(Token = "0x60006EC")]
-		[Address(RVA = "0x3DC6720", Offset = "0x3DC6720", VA = "0x3DC6720")]
+		[Address(RVA = "0x57AEE0", Offset = "0x5794E0", VA = "0x18057AEE0")]
 		get
 		{
 			return default(int);
 		}
 		[Token(Token = "0x60006ED")]
-		[Address(RVA = "0x3DC6730", Offset = "0x3DC6730", VA = "0x3DC6730")]
+		[Address(RVA = "0x57AF20", Offset = "0x579520", VA = "0x18057AF20")]
 		set
 		{
 		}
@@ -40,7 +40,7 @@ internal struct StringBuffer
 	public bool IsEmpty
 	{
 		[Token(Token = "0x60006EE")]
-		[Address(RVA = "0x3DC6740", Offset = "0x3DC6740", VA = "0x3DC6740")]
+		[Address(RVA = "0x187E270", Offset = "0x187C870", VA = "0x18187E270")]
 		get
 		{
 			return default(bool);
@@ -51,7 +51,7 @@ internal struct StringBuffer
 	public char[]? InternalBuffer
 	{
 		[Token(Token = "0x60006F7")]
-		[Address(RVA = "0x3DC69C0", Offset = "0x3DC69C0", VA = "0x3DC69C0")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return null;
@@ -59,50 +59,50 @@ internal struct StringBuffer
 	}
 
 	[Token(Token = "0x60006EF")]
-	[Address(RVA = "0x3DC6750", Offset = "0x3DC6750", VA = "0x3DC6750")]
+	[Address(RVA = "0x1C52280", Offset = "0x1C50880", VA = "0x181C52280")]
 	public StringBuffer(IArrayPool<char>? bufferPool, int initalSize)
 	{
 	}
 
 	[Token(Token = "0x60006F0")]
-	[Address(RVA = "0x3DC6780", Offset = "0x3DC6780", VA = "0x3DC6780")]
+	[Address(RVA = "0x1C522C0", Offset = "0x1C508C0", VA = "0x181C522C0")]
 	private StringBuffer(char[] buffer)
 	{
 	}
 
 	[Token(Token = "0x60006F1")]
-	[Address(RVA = "0x3DC67A0", Offset = "0x3DC67A0", VA = "0x3DC67A0")]
+	[Address(RVA = "0x1C51FD0", Offset = "0x1C505D0", VA = "0x181C51FD0")]
 	public void Append(IArrayPool<char>? bufferPool, char value)
 	{
 	}
 
 	[Token(Token = "0x60006F2")]
-	[Address(RVA = "0x3DC68A0", Offset = "0x3DC68A0", VA = "0x3DC68A0")]
+	[Address(RVA = "0x1C52090", Offset = "0x1C50690", VA = "0x181C52090")]
 	public void Append(IArrayPool<char>? bufferPool, char[] buffer, int startIndex, int count)
 	{
 	}
 
 	[Token(Token = "0x60006F3")]
-	[Address(RVA = "0x3DC6940", Offset = "0x3DC6940", VA = "0x3DC6940")]
+	[Address(RVA = "0x1C52160", Offset = "0x1C50760", VA = "0x181C52160")]
 	public void Clear(IArrayPool<char>? bufferPool)
 	{
 	}
 
 	[Token(Token = "0x60006F4")]
-	[Address(RVA = "0x3DC6840", Offset = "0x3DC6840", VA = "0x3DC6840")]
+	[Address(RVA = "0x1C521B0", Offset = "0x1C507B0", VA = "0x181C521B0")]
 	private void EnsureSize(IArrayPool<char>? bufferPool, int appendLength)
 	{
 	}
 
 	[Token(Token = "0x60006F5")]
-	[Address(RVA = "0x3DC6980", Offset = "0x3DC6980", VA = "0x3DC6980", Slot = "3")]
+	[Address(RVA = "0x1C52220", Offset = "0x1C50820", VA = "0x181C52220", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60006F6")]
-	[Address(RVA = "0x3DC69A0", Offset = "0x3DC69A0", VA = "0x3DC69A0")]
+	[Address(RVA = "0x1C52250", Offset = "0x1C50850", VA = "0x181C52250")]
 	public string ToString(int start, int length)
 	{
 		return null;

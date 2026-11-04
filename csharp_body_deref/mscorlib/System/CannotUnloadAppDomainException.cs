@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000141")]
+[Token(Token = "0x2000169")]
 public class CannotUnloadAppDomainException : SystemException
 {
-	[Token(Token = "0x6000C78")]
-	[Address(RVA = "0x3CDD6E0", Offset = "0x3CDD6E0", VA = "0x3CDD6E0")]
+	[Token(Token = "0x6000CC2")]
+	[Address(RVA = "0x1B435F0", Offset = "0x1B41BF0", VA = "0x181B435F0")]
 	public CannotUnloadAppDomainException()
 	{
 	}
 
-	[Token(Token = "0x6000C79")]
-	[Address(RVA = "0x3CDD790", Offset = "0x3CDD790", VA = "0x3CDD790")]
+	[Token(Token = "0x6000CC3")]
+	[Address(RVA = "0x1B43580", Offset = "0x1B41B80", VA = "0x181B43580")]
 	public CannotUnloadAppDomainException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000C7A")]
-	[Address(RVA = "0x3CDD7F0", Offset = "0x3CDD7F0", VA = "0x3CDD7F0")]
+	[Token(Token = "0x6000CC4")]
+	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
 	protected CannotUnloadAppDomainException(SerializationInfo info, StreamingContext context)
 	{
 	}

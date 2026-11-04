@@ -10,10 +10,10 @@ using Unity.Jobs.LowLevel.Unsafe;
 
 namespace Unity.Jobs;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x2000014")]
 [JobProducerType(typeof(IJobParallelForExtensions.ParallelForJobStruct<>))]
 public interface IJobParallelFor
 {
-	[Token(Token = "0x6000010")]
+	[Token(Token = "0x6000020")]
 	void Execute(int index);
 }

@@ -14,22 +14,22 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000026")]
 public abstract class NonNullableCollection<T> : Collection<T>
 {
-	[Token(Token = "0x6000105")]
+	[Token(Token = "0x6000109")]
 	protected override void InsertItem(int index, T item)
 	{
 	}
 
-	[Token(Token = "0x6000106")]
+	[Token(Token = "0x600010A")]
 	protected override void SetItem(int index, T item)
 	{
 	}
 
-	[Token(Token = "0x6000107")]
+	[Token(Token = "0x600010B")]
 	public void AddRange(IEnumerable<T> collection)
 	{
 	}
 
-	[Token(Token = "0x6000108")]
+	[Token(Token = "0x600010C")]
 	protected NonNullableCollection()
 	{
 	}

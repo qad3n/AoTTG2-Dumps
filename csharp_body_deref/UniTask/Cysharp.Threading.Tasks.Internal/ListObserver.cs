@@ -10,40 +10,40 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Internal;
 
-[Token(Token = "0x2000252")]
+[Token(Token = "0x2000255")]
 internal class ListObserver<T> : IObserver<T>
 {
-	[Token(Token = "0x40006AB")]
+	[Token(Token = "0x40006BE")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly ImmutableList<IObserver<T>> _observers;
 
-	[Token(Token = "0x6000D39")]
+	[Token(Token = "0x6000D5D")]
 	public ListObserver(ImmutableList<IObserver<T>> observers)
 	{
 	}
 
-	[Token(Token = "0x6000D3A")]
+	[Token(Token = "0x6000D5E")]
 	public void OnCompleted()
 	{
 	}
 
-	[Token(Token = "0x6000D3B")]
+	[Token(Token = "0x6000D5F")]
 	public void OnError(Exception error)
 	{
 	}
 
-	[Token(Token = "0x6000D3C")]
+	[Token(Token = "0x6000D60")]
 	public void OnNext(T value)
 	{
 	}
 
-	[Token(Token = "0x6000D3D")]
+	[Token(Token = "0x6000D61")]
 	internal IObserver<T> Add(IObserver<T> observer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D3E")]
+	[Token(Token = "0x6000D62")]
 	internal IObserver<T> Remove(IObserver<T> observer)
 	{
 		return null;

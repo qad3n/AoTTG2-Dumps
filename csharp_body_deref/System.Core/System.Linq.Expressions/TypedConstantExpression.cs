@@ -16,8 +16,8 @@ internal class TypedConstantExpression : ConstantExpression
 	[Token(Token = "0x1700007B")]
 	public sealed override Type Type
 	{
-		[Token(Token = "0x600031D")]
-		[Address(RVA = "0x44B0B80", Offset = "0x44B0B80", VA = "0x44B0B80", Slot = "5")]
+		[Token(Token = "0x600031C")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +25,8 @@ internal class TypedConstantExpression : ConstantExpression
 		}
 	}
 
-	[Token(Token = "0x600031C")]
-	[Address(RVA = "0x44B0B00", Offset = "0x44B0B00", VA = "0x44B0B00")]
+	[Token(Token = "0x600031B")]
+	[Address(RVA = "0x24419E0", Offset = "0x243FFE0", VA = "0x1824419E0")]
 	internal TypedConstantExpression(object value, Type type)
 	{
 	}

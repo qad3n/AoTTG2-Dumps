@@ -9,37 +9,37 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x2000574")]
+[Token(Token = "0x200066F")]
 internal class MultiColumnHeaderColumnSortIndicator : VisualElement
 {
-	[Token(Token = "0x40012DE")]
+	[Token(Token = "0x4001898")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x40012DF")]
+	[Token(Token = "0x4001899")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly string arrowUssClassName;
 
-	[Token(Token = "0x40012E0")]
+	[Token(Token = "0x400189A")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly string indexLabelUssClassName;
 
-	[Token(Token = "0x40012E1")]
-	[FieldOffset(Offset = "0x3D8")]
+	[Token(Token = "0x400189B")]
+	[FieldOffset(Offset = "0x2C8")]
 	private Label m_IndexLabel;
 
-	[Token(Token = "0x1700089F")]
+	[Token(Token = "0x17000BC5")]
 	public string sortOrderLabel
 	{
-		[Token(Token = "0x600219F")]
-		[Address(RVA = "0x4FE0900", Offset = "0x4FE0900", VA = "0x4FE0900")]
+		[Token(Token = "0x6002F30")]
+		[Address(RVA = "0x3204820", Offset = "0x3202E20", VA = "0x183204820")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x60021A0")]
-	[Address(RVA = "0x4FE0930", Offset = "0x4FE0930", VA = "0x4FE0930")]
+	[Token(Token = "0x6002F31")]
+	[Address(RVA = "0x3204690", Offset = "0x3202C90", VA = "0x183204690")]
 	public MultiColumnHeaderColumnSortIndicator()
 	{
 	}

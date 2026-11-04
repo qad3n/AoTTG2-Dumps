@@ -1,5 +1,5 @@
 // Type: Characters.ErenAnimations
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Characters/ErenAnimations.cs
@@ -8,14 +8,14 @@
 
 // Characters.ErenAnimations$$get_Idle
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Idle (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303820
+// 0x18216b840
 
 System_String_o * Characters_ErenAnimations__get_Idle(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf38 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_idle");
-    g_data_057adf38 = '\x01';
+  if (Il2CppMethodInitialized_184346d47 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_idle");
+    Il2CppMethodInitialized_184346d47 = '\x01';
   }
   return "ErenRig_VER2|et_idle";
 }
@@ -23,14 +23,14 @@ System_String_o * Characters_ErenAnimations__get_Idle(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$get_Run
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Run (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303850
+// 0x18216b8d0
 
 System_String_o * Characters_ErenAnimations__get_Run(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf39 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_run");
-    g_data_057adf39 = '\x01';
+  if (Il2CppMethodInitialized_184346d48 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_run");
+    Il2CppMethodInitialized_184346d48 = '\x01';
   }
   return "ErenRig_VER2|et_run";
 }
@@ -38,14 +38,14 @@ System_String_o * Characters_ErenAnimations__get_Run(Characters_ErenAnimations_o
 
 // Characters.ErenAnimations$$get_Walk
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Walk (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303880
+// 0x18216b930
 
 System_String_o * Characters_ErenAnimations__get_Walk(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3a == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_walk");
-    g_data_057adf3a = '\x01';
+  if (Il2CppMethodInitialized_184346d49 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_walk");
+    Il2CppMethodInitialized_184346d49 = '\x01';
   }
   return "ErenRig_VER2|et_walk";
 }
@@ -53,14 +53,14 @@ System_String_o * Characters_ErenAnimations__get_Walk(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$get_Jump
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Jump (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x43038b0
+// 0x18216b870
 
 System_String_o * Characters_ErenAnimations__get_Jump(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_jump_start");
-    g_data_057adf3b = '\x01';
+  if (Il2CppMethodInitialized_184346d4a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_jump_start");
+    Il2CppMethodInitialized_184346d4a = '\x01';
   }
   return "ErenRig_VER2|et_jump_start";
 }
@@ -68,14 +68,14 @@ System_String_o * Characters_ErenAnimations__get_Jump(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$get_Fall
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Fall (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x43038e0
+// 0x18216b810
 
 System_String_o * Characters_ErenAnimations__get_Fall(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3c == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_jump_air");
-    g_data_057adf3c = '\x01';
+  if (Il2CppMethodInitialized_184346d4b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_jump_air");
+    Il2CppMethodInitialized_184346d4b = '\x01';
   }
   return "ErenRig_VER2|et_jump_air";
 }
@@ -83,14 +83,14 @@ System_String_o * Characters_ErenAnimations__get_Fall(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$get_Land
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Land (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303910
+// 0x18216b8a0
 
 System_String_o * Characters_ErenAnimations__get_Land(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3d == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_jump_land");
-    g_data_057adf3d = '\x01';
+  if (Il2CppMethodInitialized_184346d4c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_jump_land");
+    Il2CppMethodInitialized_184346d4c = '\x01';
   }
   return "ErenRig_VER2|et_jump_land";
 }
@@ -98,14 +98,14 @@ System_String_o * Characters_ErenAnimations__get_Land(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$get_Die
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Die (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303940
+// 0x18216b7e0
 
 System_String_o * Characters_ErenAnimations__get_Die(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3e == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_die");
-    g_data_057adf3e = '\x01';
+  if (Il2CppMethodInitialized_184346d4d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_die");
+    Il2CppMethodInitialized_184346d4d = '\x01';
   }
   return "ErenRig_VER2|et_die";
 }
@@ -113,14 +113,14 @@ System_String_o * Characters_ErenAnimations__get_Die(Characters_ErenAnimations_o
 
 // Characters.ErenAnimations$$get_Stun
 // il2cpp: System_String_o* Characters_ErenAnimations__get_Stun (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x4303970
+// 0x18216b900
 
 System_String_o * Characters_ErenAnimations__get_Stun(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf3f == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_hit_titan");
-    g_data_057adf3f = '\x01';
+  if (Il2CppMethodInitialized_184346d4e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_hit_titan");
+    Il2CppMethodInitialized_184346d4e = '\x01';
   }
   return "ErenRig_VER2|et_hit_titan";
 }
@@ -128,39 +128,40 @@ System_String_o * Characters_ErenAnimations__get_Stun(Characters_ErenAnimations_
 
 // Characters.ErenAnimations$$.ctor
 // il2cpp: void Characters_ErenAnimations___ctor (Characters_ErenAnimations_o* __this, const MethodInfo* method);
-// 0x43039a0
+// 0x18216b680
 
 void Characters_ErenAnimations___ctor(Characters_ErenAnimations_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057adf40 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_rock_fix_hole");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_attack_combo_full");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_born");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_attack_kick");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_yes");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_rock_lift");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_rock_walk");
-    il2cpp_runtime_helper_023445d0(&"ErenRig_VER2|et_rock_lift.001");
-    g_data_057adf40 = '\x01';
+  if (Il2CppMethodInitialized_184346d4f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_rock_fix_hole");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_attack_combo_full");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_born");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_attack_kick");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_yes");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_rock_lift");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_rock_walk");
+    il2cpp_codegen_initialize_runtime_metadata(&"ErenRig_VER2|et_rock_lift.001");
+    Il2CppMethodInitialized_184346d4f = '\x01';
   }
   (__this->fields).AttackCombo = "ErenRig_VER2|et_attack_combo_full";
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).AttackCombo,"ErenRig_VER2|et_attack_combo_full");
   (__this->fields).AttackKick = "ErenRig_VER2|et_attack_kick";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).AttackKick);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).AttackKick,"ErenRig_VER2|et_attack_kick");
   (__this->fields).EmoteNod = "ErenRig_VER2|et_yes";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).EmoteNod);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).EmoteNod,"ErenRig_VER2|et_yes");
   (__this->fields).EmoteRoar = "ErenRig_VER2|et_born";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).EmoteRoar);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).EmoteRoar,"ErenRig_VER2|et_born");
   (__this->fields).RockLift = "ErenRig_VER2|et_rock_lift";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).RockLift);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).RockLift,"ErenRig_VER2|et_rock_lift");
   (__this->fields).RockLift001 = "ErenRig_VER2|et_rock_lift.001";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).RockLift001);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).RockLift001,"ErenRig_VER2|et_rock_lift.001");
   (__this->fields).RockWalk = "ErenRig_VER2|et_rock_walk";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).RockWalk);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).RockWalk,"ErenRig_VER2|et_rock_walk");
   (__this->fields).RockFixHole = "ErenRig_VER2|et_rock_fix_hole";
-  il2cpp_runtime_helper_022b4080(&(__this->fields).RockFixHole);
-  Characters_BaseTitanAnimations___ctor((Characters_BaseTitanAnimations_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).RockFixHole,"ErenRig_VER2|et_rock_fix_hole");
+  Characters_BaseTitanAnimations___ctor
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

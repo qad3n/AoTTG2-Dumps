@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000038")]
 public enum CustomAuthenticationType : byte
 {
-	[Token(Token = "0x40001C6")]
+	[Token(Token = "0x40001C1")]
 	Custom = 0,
-	[Token(Token = "0x40001C7")]
+	[Token(Token = "0x40001C2")]
 	Steam = 1,
-	[Token(Token = "0x40001C8")]
+	[Token(Token = "0x40001C3")]
 	Facebook = 2,
-	[Token(Token = "0x40001C9")]
+	[Token(Token = "0x40001C4")]
 	Oculus = 3,
-	[Token(Token = "0x40001CA")]
+	[Token(Token = "0x40001C5")]
 	PlayStation4 = 4,
+	[Token(Token = "0x40001C6")]
+	[Obsolete("Use PlayStation4 or PlayStation5 as needed")]
+	PlayStation = PlayStation4,
+	[Token(Token = "0x40001C7")]
+	Xbox = 5,
+	[Token(Token = "0x40001C8")]
+	Viveport = 10,
+	[Token(Token = "0x40001C9")]
+	NintendoSwitch = 11,
+	[Token(Token = "0x40001CA")]
+	PlayStation5 = 12,
 	[Token(Token = "0x40001CB")]
 	[Obsolete("Use PlayStation4 or PlayStation5 as needed")]
-	PlayStation = 4,
+	Playstation5 = PlayStation5,
 	[Token(Token = "0x40001CC")]
-	Xbox = 5,
-	[Token(Token = "0x40001CD")]
-	Viveport = 10,
-	[Token(Token = "0x40001CE")]
-	NintendoSwitch = 11,
-	[Token(Token = "0x40001CF")]
-	PlayStation5 = 12,
-	[Token(Token = "0x40001D0")]
-	[Obsolete("Use PlayStation4 or PlayStation5 as needed")]
-	Playstation5 = 12,
-	[Token(Token = "0x40001D1")]
 	Epic = 13,
-	[Token(Token = "0x40001D2")]
+	[Token(Token = "0x40001CD")]
 	FacebookGaming = 15,
-	[Token(Token = "0x40001D3")]
-	None = byte.MaxValue
+	[Token(Token = "0x40001CE")]
+	None = 255
 }

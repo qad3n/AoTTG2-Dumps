@@ -10,42 +10,42 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000163")]
+[Token(Token = "0x2000197")]
 public abstract class CustomYieldInstruction : IEnumerator
 {
-	[Token(Token = "0x170001C4")]
+	[Token(Token = "0x17000231")]
 	public abstract bool keepWaiting
 	{
-		[Token(Token = "0x6000A20")]
+		[Token(Token = "0x6000D66")]
 		get;
 	}
 
-	[Token(Token = "0x170001C5")]
+	[Token(Token = "0x17000232")]
 	public object Current
 	{
-		[Token(Token = "0x6000A21")]
-		[Address(RVA = "0x4DF9320", Offset = "0x4DF9320", VA = "0x4DF9320", Slot = "5")]
+		[Token(Token = "0x6000D67")]
+		[Address(RVA = "0xB62B40", Offset = "0xB61140", VA = "0x180B62B40", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000A22")]
-	[Address(RVA = "0x4DF9330", Offset = "0x4DF9330", VA = "0x4DF9330", Slot = "4")]
+	[Token(Token = "0x6000D68")]
+	[Address(RVA = "0x1A96900", Offset = "0x1A94F00", VA = "0x181A96900", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000A23")]
-	[Address(RVA = "0x4DF9350", Offset = "0x4DF9350", VA = "0x4DF9350", Slot = "8")]
+	[Token(Token = "0x6000D69")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public virtual void Reset()
 	{
 	}
 
-	[Token(Token = "0x6000A24")]
-	[Address(RVA = "0x4DF9360", Offset = "0x4DF9360", VA = "0x4DF9360")]
+	[Token(Token = "0x6000D6A")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected CustomYieldInstruction()
 	{
 	}

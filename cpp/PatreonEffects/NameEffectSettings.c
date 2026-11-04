@@ -1,5 +1,5 @@
 // Type: PatreonEffects.NameEffectSettings
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/PatreonEffects/NameEffectSettings.cs
@@ -8,12 +8,13 @@
 
 // PatreonEffects.NameEffectSettings$$.ctor
 // il2cpp: void PatreonEffects_NameEffectSettings___ctor (PatreonEffects_NameEffectSettings_o* __this, const MethodInfo* method);
-// 0x43293a0
+// 0x1820cbce0
 
 void PatreonEffects_NameEffectSettings___ctor(PatreonEffects_NameEffectSettings_o *__this,MethodInfo *method)
 
 {
   (__this->fields).gradientA.fields.r = 0.78;
+  (__this->fields).popExtrusionOffset.fields.x = 0.0;
   (__this->fields).gradientA.fields.g = 1.0;
   (__this->fields).gradientA.fields.b = 0.9;
   (__this->fields).gradientA.fields.a = 1.0;
@@ -38,9 +39,11 @@ void PatreonEffects_NameEffectSettings___ctor(PatreonEffects_NameEffectSettings_
   (__this->fields).flickerStrength = 0.05;
   (__this->fields).flickerSpeed = 18.0;
   (__this->fields).softness = 1.0;
-  (__this->fields).popShadowOffset.fields = (UnityEngine_Vector2_Fields)0xbfc0000000000000;
-  (__this->fields).popExtrusionOffset.fields = (UnityEngine_Vector2_Fields)0xc0c0000000000000;
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  (__this->fields).popShadowOffset.fields.x = 0.0;
+  (__this->fields).popShadowOffset.fields.y = -1.5;
+  (__this->fields).popExtrusionOffset.fields.y = -6.0;
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

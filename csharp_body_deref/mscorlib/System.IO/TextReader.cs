@@ -13,28 +13,28 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000550")]
+[Token(Token = "0x2000679")]
 public abstract class TextReader : MarshalByRefObject, IDisposable
 {
 	[Serializable]
-	[Token(Token = "0x2000551")]
+	[Token(Token = "0x200067A")]
 	private sealed class NullTextReader : TextReader
 	{
-		[Token(Token = "0x60028B4")]
-		[Address(RVA = "0x3BF9730", Offset = "0x3BF9730", VA = "0x3BF9730")]
+		[Token(Token = "0x6003189")]
+		[Address(RVA = "0x1AF15F0", Offset = "0x1AEFBF0", VA = "0x181AF15F0")]
 		public NullTextReader()
 		{
 		}
 
-		[Token(Token = "0x60028B5")]
-		[Address(RVA = "0x3BF97A0", Offset = "0x3BF97A0", VA = "0x3BF97A0", Slot = "11")]
+		[Token(Token = "0x600318A")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "11")]
 		public override int Read(char[] buffer, int index, int count)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x60028B6")]
-		[Address(RVA = "0x3BF97B0", Offset = "0x3BF97B0", VA = "0x3BF97B0", Slot = "14")]
+		[Token(Token = "0x600318B")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "14")]
 		public override string ReadLine()
 		{
 			return null;
@@ -42,168 +42,168 @@ public abstract class TextReader : MarshalByRefObject, IDisposable
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000552")]
+	[Token(Token = "0x200067B")]
 	internal sealed class SyncTextReader : TextReader
 	{
-		[Token(Token = "0x4001648")]
+		[Token(Token = "0x4001A29")]
 		[FieldOffset(Offset = "0x18")]
 		internal readonly TextReader _in;
 
-		[Token(Token = "0x60028B7")]
-		[Address(RVA = "0x3BF9610", Offset = "0x3BF9610", VA = "0x3BF9610")]
+		[Token(Token = "0x600318C")]
+		[Address(RVA = "0x1AFAD60", Offset = "0x1AF9360", VA = "0x181AFAD60")]
 		internal SyncTextReader(TextReader t)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028B8")]
-		[Address(RVA = "0x3BF97C0", Offset = "0x3BF97C0", VA = "0x3BF97C0", Slot = "7")]
+		[Token(Token = "0x600318D")]
+		[Address(RVA = "0x1AFAA60", Offset = "0x1AF9060", VA = "0x181AFAA60", Slot = "7")]
 		public override void Close()
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028B9")]
-		[Address(RVA = "0x3BF97F0", Offset = "0x3BF97F0", VA = "0x3BF97F0", Slot = "8")]
+		[Token(Token = "0x600318E")]
+		[Address(RVA = "0x1AFAA90", Offset = "0x1AF9090", VA = "0x181AFAA90", Slot = "8")]
 		protected override void Dispose(bool disposing)
 		{
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BA")]
-		[Address(RVA = "0x3BF98A0", Offset = "0x3BF98A0", VA = "0x3BF98A0", Slot = "9")]
+		[Token(Token = "0x600318F")]
+		[Address(RVA = "0x1953CF0", Offset = "0x19522F0", VA = "0x181953CF0", Slot = "9")]
 		public override int Peek()
 		{
 			return default(int);
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BB")]
-		[Address(RVA = "0x3BF98D0", Offset = "0x3BF98D0", VA = "0x3BF98D0", Slot = "10")]
+		[Token(Token = "0x6003190")]
+		[Address(RVA = "0x1AFAD30", Offset = "0x1AF9330", VA = "0x181AFAD30", Slot = "10")]
 		public override int Read()
 		{
 			return default(int);
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BC")]
-		[Address(RVA = "0x3BF9900", Offset = "0x3BF9900", VA = "0x3BF9900", Slot = "11")]
+		[Token(Token = "0x6003191")]
+		[Address(RVA = "0x1AFAD00", Offset = "0x1AF9300", VA = "0x181AFAD00", Slot = "11")]
 		public override int Read(char[] buffer, int index, int count)
 		{
 			return default(int);
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BD")]
-		[Address(RVA = "0x3BF9930", Offset = "0x3BF9930", VA = "0x3BF9930", Slot = "14")]
+		[Token(Token = "0x6003192")]
+		[Address(RVA = "0x1AFACA0", Offset = "0x1AF92A0", VA = "0x181AFACA0", Slot = "14")]
 		public override string ReadLine()
 		{
 			return null;
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BE")]
-		[Address(RVA = "0x3BF9960", Offset = "0x3BF9960", VA = "0x3BF9960", Slot = "13")]
+		[Token(Token = "0x6003193")]
+		[Address(RVA = "0x1AFACD0", Offset = "0x1AF92D0", VA = "0x181AFACD0", Slot = "13")]
 		public override string ReadToEnd()
 		{
 			return null;
 		}
 
 		[MethodImpl((MethodImplOptions)32)]
-		[Token(Token = "0x60028BF")]
-		[Address(RVA = "0x3BF9990", Offset = "0x3BF9990", VA = "0x3BF9990", Slot = "15")]
+		[Token(Token = "0x6003194")]
+		[Address(RVA = "0x1AFAAF0", Offset = "0x1AF90F0", VA = "0x181AFAAF0", Slot = "15")]
 		public override Task<int> ReadAsync(char[] buffer, int index, int count)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4001647")]
+	[Token(Token = "0x4001A28")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly TextReader Null;
 
-	[Token(Token = "0x60028A6")]
-	[Address(RVA = "0x3BEF030", Offset = "0x3BEF030", VA = "0x3BEF030")]
+	[Token(Token = "0x600317B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected TextReader()
 	{
 	}
 
-	[Token(Token = "0x60028A7")]
-	[Address(RVA = "0x3BF8DB0", Offset = "0x3BF8DB0", VA = "0x3BF8DB0", Slot = "7")]
+	[Token(Token = "0x600317C")]
+	[Address(RVA = "0x1AFB520", Offset = "0x1AF9B20", VA = "0x181AFB520", Slot = "7")]
 	public virtual void Close()
 	{
 	}
 
-	[Token(Token = "0x60028A8")]
-	[Address(RVA = "0x3BF8E20", Offset = "0x3BF8E20", VA = "0x3BF8E20", Slot = "6")]
+	[Token(Token = "0x600317D")]
+	[Address(RVA = "0x1AFB580", Offset = "0x1AF9B80", VA = "0x181AFB580", Slot = "6")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60028A9")]
-	[Address(RVA = "0x3BF8E90", Offset = "0x3BF8E90", VA = "0x3BF8E90", Slot = "8")]
+	[Token(Token = "0x600317E")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	protected virtual void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60028AA")]
-	[Address(RVA = "0x3BF8EA0", Offset = "0x3BF8EA0", VA = "0x3BF8EA0", Slot = "9")]
+	[Token(Token = "0x600317F")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0", Slot = "9")]
 	public virtual int Peek()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60028AB")]
-	[Address(RVA = "0x3BF8EB0", Offset = "0x3BF8EB0", VA = "0x3BF8EB0", Slot = "10")]
+	[Token(Token = "0x6003180")]
+	[Address(RVA = "0x1A5F1E0", Offset = "0x1A5D7E0", VA = "0x181A5F1E0", Slot = "10")]
 	public virtual int Read()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60028AC")]
-	[Address(RVA = "0x3BF8EC0", Offset = "0x3BF8EC0", VA = "0x3BF8EC0", Slot = "11")]
+	[Token(Token = "0x6003181")]
+	[Address(RVA = "0x1AFBE90", Offset = "0x1AFA490", VA = "0x181AFBE90", Slot = "11")]
 	public virtual int Read(char[] buffer, int index, int count)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60028AD")]
-	[Address(RVA = "0x3BEFFA0", Offset = "0x3BEFFA0", VA = "0x3BEFFA0", Slot = "12")]
+	[Token(Token = "0x6003182")]
+	[Address(RVA = "0x1AFBC40", Offset = "0x1AFA240", VA = "0x181AFBC40", Slot = "12")]
 	public virtual int Read(Span<char> buffer)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60028AE")]
-	[Address(RVA = "0x3BF9070", Offset = "0x3BF9070", VA = "0x3BF9070", Slot = "13")]
+	[Token(Token = "0x6003183")]
+	[Address(RVA = "0x1AFBB40", Offset = "0x1AFA140", VA = "0x181AFBB40", Slot = "13")]
 	public virtual string ReadToEnd()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60028AF")]
-	[Address(RVA = "0x3BF9160", Offset = "0x3BF9160", VA = "0x3BF9160", Slot = "14")]
+	[Token(Token = "0x6003184")]
+	[Address(RVA = "0x1AFBA30", Offset = "0x1AFA030", VA = "0x181AFBA30", Slot = "14")]
 	public virtual string ReadLine()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60028B0")]
-	[Address(RVA = "0x3BF1320", Offset = "0x3BF1320", VA = "0x3BF1320", Slot = "15")]
+	[Token(Token = "0x6003185")]
+	[Address(RVA = "0x1AFB830", Offset = "0x1AF9E30", VA = "0x181AFB830", Slot = "15")]
 	public virtual Task<int> ReadAsync(char[] buffer, int index, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60028B1")]
-	[Address(RVA = "0x3BF9270", Offset = "0x3BF9270", VA = "0x3BF9270", Slot = "16")]
+	[Token(Token = "0x6003186")]
+	[Address(RVA = "0x1AFB5E0", Offset = "0x1AF9BE0", VA = "0x181AFB5E0", Slot = "16")]
 	internal virtual ValueTask<int> ReadAsyncInternal(Memory<char> buffer, CancellationToken cancellationToken)
 	{
 		return default(ValueTask<int>);
 	}
 
-	[Token(Token = "0x60028B2")]
-	[Address(RVA = "0x3BF9520", Offset = "0x3BF9520", VA = "0x3BF9520")]
+	[Token(Token = "0x6003187")]
+	[Address(RVA = "0x1AFC080", Offset = "0x1AFA680", VA = "0x181AFC080")]
 	public static TextReader Synchronized(TextReader reader)
 	{
 		return null;

@@ -11,14 +11,15 @@ using UnityEngine.EventSystems;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200003C")]
+[Token(Token = "0x200003A")]
 [RequireComponent(typeof(Canvas))]
 [ExecuteAlways]
 [AddComponentMenu("Layout/Canvas Scaler", 101)]
 [DisallowMultipleComponent]
+[UnityEngine.UGUIHelpURL("CanvasScaler")]
 public class CanvasScaler : UIBehaviour
 {
-	[Token(Token = "0x200003D")]
+	[Token(Token = "0x200003B")]
 	public enum ScaleMode
 	{
 		[Token(Token = "0x4000142")]
@@ -29,7 +30,7 @@ public class CanvasScaler : UIBehaviour
 		ConstantPhysicalSize
 	}
 
-	[Token(Token = "0x200003E")]
+	[Token(Token = "0x200003C")]
 	public enum ScreenMatchMode
 	{
 		[Token(Token = "0x4000146")]
@@ -40,7 +41,7 @@ public class CanvasScaler : UIBehaviour
 		Shrink
 	}
 
-	[Token(Token = "0x200003F")]
+	[Token(Token = "0x200003D")]
 	public enum Unit
 	{
 		[Token(Token = "0x400014A")]
@@ -138,228 +139,228 @@ public class CanvasScaler : UIBehaviour
 	[SerializeField]
 	protected bool m_PresetInfoIsWorld;
 
-	[Token(Token = "0x1700009B")]
+	[Token(Token = "0x1700009C")]
 	public ScaleMode uiScaleMode
 	{
-		[Token(Token = "0x6000258")]
-		[Address(RVA = "0x50CD0A0", Offset = "0x50CD0A0", VA = "0x50CD0A0")]
+		[Token(Token = "0x6000261")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		get
 		{
 			return default(ScaleMode);
 		}
-		[Token(Token = "0x6000259")]
-		[Address(RVA = "0x50CD0B0", Offset = "0x50CD0B0", VA = "0x50CD0B0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700009C")]
-	public float referencePixelsPerUnit
-	{
-		[Token(Token = "0x600025A")]
-		[Address(RVA = "0x50CD0C0", Offset = "0x50CD0C0", VA = "0x50CD0C0")]
-		get
-		{
-			return default(float);
-		}
-		[Token(Token = "0x600025B")]
-		[Address(RVA = "0x50CD0D0", Offset = "0x50CD0D0", VA = "0x50CD0D0")]
+		[Token(Token = "0x6000262")]
+		[Address(RVA = "0xE4C6E0", Offset = "0xE4ACE0", VA = "0x180E4C6E0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700009D")]
-	public float scaleFactor
+	public float referencePixelsPerUnit
 	{
-		[Token(Token = "0x600025C")]
-		[Address(RVA = "0x50CD0E0", Offset = "0x50CD0E0", VA = "0x50CD0E0")]
+		[Token(Token = "0x6000263")]
+		[Address(RVA = "0x18A4260", Offset = "0x18A2860", VA = "0x1818A4260")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600025D")]
-		[Address(RVA = "0x50CD0F0", Offset = "0x50CD0F0", VA = "0x50CD0F0")]
+		[Token(Token = "0x6000264")]
+		[Address(RVA = "0x18A4270", Offset = "0x18A2870", VA = "0x1818A4270")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700009E")]
-	public Vector2 referenceResolution
+	public float scaleFactor
 	{
-		[Token(Token = "0x600025E")]
-		[Address(RVA = "0x50CD110", Offset = "0x50CD110", VA = "0x50CD110")]
+		[Token(Token = "0x6000265")]
+		[Address(RVA = "0x584AC0", Offset = "0x5830C0", VA = "0x180584AC0")]
 		get
 		{
-			return default(Vector2);
+			return default(float);
 		}
-		[Token(Token = "0x600025F")]
-		[Address(RVA = "0x50CD120", Offset = "0x50CD120", VA = "0x50CD120")]
+		[Token(Token = "0x6000266")]
+		[Address(RVA = "0x32C3B40", Offset = "0x32C2140", VA = "0x1832C3B40")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x1700009F")]
-	public ScreenMatchMode screenMatchMode
+	public Vector2 referenceResolution
 	{
-		[Token(Token = "0x6000260")]
-		[Address(RVA = "0x50CD190", Offset = "0x50CD190", VA = "0x50CD190")]
+		[Token(Token = "0x6000267")]
+		[Address(RVA = "0x32C3A80", Offset = "0x32C2080", VA = "0x1832C3A80")]
 		get
 		{
-			return default(ScreenMatchMode);
+			return default(Vector2);
 		}
-		[Token(Token = "0x6000261")]
-		[Address(RVA = "0x50CD1A0", Offset = "0x50CD1A0", VA = "0x50CD1A0")]
+		[Token(Token = "0x6000268")]
+		[Address(RVA = "0x32C3AC0", Offset = "0x32C20C0", VA = "0x1832C3AC0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000A0")]
-	public float matchWidthOrHeight
+	public ScreenMatchMode screenMatchMode
 	{
-		[Token(Token = "0x6000262")]
-		[Address(RVA = "0x50CD1B0", Offset = "0x50CD1B0", VA = "0x50CD1B0")]
+		[Token(Token = "0x6000269")]
+		[Address(RVA = "0x16EF8A0", Offset = "0x16EDEA0", VA = "0x1816EF8A0")]
 		get
 		{
-			return default(float);
+			return default(ScreenMatchMode);
 		}
-		[Token(Token = "0x6000263")]
-		[Address(RVA = "0x50CD1C0", Offset = "0x50CD1C0", VA = "0x50CD1C0")]
+		[Token(Token = "0x600026A")]
+		[Address(RVA = "0x16EFA10", Offset = "0x16EE010", VA = "0x1816EFA10")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000A1")]
-	public Unit physicalUnit
+	public float matchWidthOrHeight
 	{
-		[Token(Token = "0x6000264")]
-		[Address(RVA = "0x50CD1D0", Offset = "0x50CD1D0", VA = "0x50CD1D0")]
+		[Token(Token = "0x600026B")]
+		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
 		get
 		{
-			return default(Unit);
+			return default(float);
 		}
-		[Token(Token = "0x6000265")]
-		[Address(RVA = "0x50CD1E0", Offset = "0x50CD1E0", VA = "0x50CD1E0")]
+		[Token(Token = "0x600026C")]
+		[Address(RVA = "0x1ED2F30", Offset = "0x1ED1530", VA = "0x181ED2F30")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000A2")]
-	public float fallbackScreenDPI
+	public Unit physicalUnit
 	{
-		[Token(Token = "0x6000266")]
-		[Address(RVA = "0x50CD1F0", Offset = "0x50CD1F0", VA = "0x50CD1F0")]
+		[Token(Token = "0x600026D")]
+		[Address(RVA = "0x19CF1C0", Offset = "0x19CD7C0", VA = "0x1819CF1C0")]
 		get
 		{
-			return default(float);
+			return default(Unit);
 		}
-		[Token(Token = "0x6000267")]
-		[Address(RVA = "0x50CD200", Offset = "0x50CD200", VA = "0x50CD200")]
+		[Token(Token = "0x600026E")]
+		[Address(RVA = "0x1CFE070", Offset = "0x1CFC670", VA = "0x181CFE070")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000A3")]
-	public float defaultSpriteDPI
+	public float fallbackScreenDPI
 	{
-		[Token(Token = "0x6000268")]
-		[Address(RVA = "0x50CD210", Offset = "0x50CD210", VA = "0x50CD210")]
+		[Token(Token = "0x600026F")]
+		[Address(RVA = "0xE8F6E0", Offset = "0xE8DCE0", VA = "0x180E8F6E0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000269")]
-		[Address(RVA = "0x50CD220", Offset = "0x50CD220", VA = "0x50CD220")]
+		[Token(Token = "0x6000270")]
+		[Address(RVA = "0xE8F730", Offset = "0xE8DD30", VA = "0x180E8F730")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x170000A4")]
-	public float dynamicPixelsPerUnit
+	public float defaultSpriteDPI
 	{
-		[Token(Token = "0x600026A")]
-		[Address(RVA = "0x50CD240", Offset = "0x50CD240", VA = "0x50CD240")]
+		[Token(Token = "0x6000271")]
+		[Address(RVA = "0x2AC3BA0", Offset = "0x2AC21A0", VA = "0x182AC3BA0")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600026B")]
-		[Address(RVA = "0x50CD250", Offset = "0x50CD250", VA = "0x50CD250")]
+		[Token(Token = "0x6000272")]
+		[Address(RVA = "0x32C3AA0", Offset = "0x32C20A0", VA = "0x1832C3AA0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600026C")]
-	[Address(RVA = "0x50CD260", Offset = "0x50CD260", VA = "0x50CD260")]
+	[Token(Token = "0x170000A5")]
+	public float dynamicPixelsPerUnit
+	{
+		[Token(Token = "0x6000273")]
+		[Address(RVA = "0x5853E0", Offset = "0x5839E0", VA = "0x1805853E0")]
+		get
+		{
+			return default(float);
+		}
+		[Token(Token = "0x6000274")]
+		[Address(RVA = "0x2E847A0", Offset = "0x2E82DA0", VA = "0x182E847A0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x6000275")]
+	[Address(RVA = "0x32C3A30", Offset = "0x32C2030", VA = "0x1832C3A30")]
 	protected CanvasScaler()
 	{
 	}
 
-	[Token(Token = "0x600026D")]
-	[Address(RVA = "0x50CD2B0", Offset = "0x50CD2B0", VA = "0x50CD2B0", Slot = "5")]
+	[Token(Token = "0x6000276")]
+	[Address(RVA = "0x32C38D0", Offset = "0x32C1ED0", VA = "0x1832C38D0", Slot = "5")]
 	protected override void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x600026E")]
-	[Address(RVA = "0x50CD370", Offset = "0x50CD370", VA = "0x50CD370")]
+	[Token(Token = "0x6000277")]
+	[Address(RVA = "0x1F0DB10", Offset = "0x1F0C110", VA = "0x181F0DB10")]
 	private void Canvas_preWillRenderCanvases()
 	{
 	}
 
-	[Token(Token = "0x600026F")]
-	[Address(RVA = "0x50CD390", Offset = "0x50CD390", VA = "0x50CD390", Slot = "7")]
+	[Token(Token = "0x6000278")]
+	[Address(RVA = "0x32C37E0", Offset = "0x32C1DE0", VA = "0x1832C37E0", Slot = "7")]
 	protected override void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x6000270")]
-	[Address(RVA = "0x50CD530", Offset = "0x50CD530", VA = "0x50CD530", Slot = "17")]
+	[Token(Token = "0x6000279")]
+	[Address(RVA = "0x32C36C0", Offset = "0x32C1CC0", VA = "0x1832C36C0", Slot = "17")]
 	protected virtual void Handle()
 	{
 	}
 
-	[Token(Token = "0x6000271")]
-	[Address(RVA = "0x50CD630", Offset = "0x50CD630", VA = "0x50CD630", Slot = "18")]
+	[Token(Token = "0x600027A")]
+	[Address(RVA = "0x32C3640", Offset = "0x32C1C40", VA = "0x1832C3640", Slot = "18")]
 	protected virtual void HandleWorldCanvas()
 	{
 	}
 
-	[Token(Token = "0x6000272")]
-	[Address(RVA = "0x50CD6B0", Offset = "0x50CD6B0", VA = "0x50CD6B0", Slot = "19")]
+	[Token(Token = "0x600027B")]
+	[Address(RVA = "0x32C3380", Offset = "0x32C1980", VA = "0x1832C3380", Slot = "19")]
 	protected virtual void HandleConstantPixelSize()
 	{
 	}
 
-	[Token(Token = "0x6000273")]
-	[Address(RVA = "0x50CD730", Offset = "0x50CD730", VA = "0x50CD730", Slot = "20")]
+	[Token(Token = "0x600027C")]
+	[Address(RVA = "0x32C3400", Offset = "0x32C1A00", VA = "0x1832C3400", Slot = "20")]
 	protected virtual void HandleScaleWithScreenSize()
 	{
 	}
 
-	[Token(Token = "0x6000274")]
-	[Address(RVA = "0x50CDA50", Offset = "0x50CDA50", VA = "0x50CDA50", Slot = "21")]
+	[Token(Token = "0x600027D")]
+	[Address(RVA = "0x32C3280", Offset = "0x32C1880", VA = "0x1832C3280", Slot = "21")]
 	protected virtual void HandleConstantPhysicalSize()
 	{
 	}
 
-	[Token(Token = "0x6000275")]
-	[Address(RVA = "0x50CD490", Offset = "0x50CD490", VA = "0x50CD490")]
+	[Token(Token = "0x600027E")]
+	[Address(RVA = "0x32C39D0", Offset = "0x32C1FD0", VA = "0x1832C39D0")]
 	protected void SetScaleFactor(float scaleFactor)
 	{
 	}
 
-	[Token(Token = "0x6000276")]
-	[Address(RVA = "0x50CD4E0", Offset = "0x50CD4E0", VA = "0x50CD4E0")]
+	[Token(Token = "0x600027F")]
+	[Address(RVA = "0x32C3990", Offset = "0x32C1F90", VA = "0x1832C3990")]
 	protected void SetReferencePixelsPerUnit(float referencePixelsPerUnit)
 	{
 	}

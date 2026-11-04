@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting.Messaging;
 
-[Token(Token = "0x20003B8")]
+[Token(Token = "0x20003E7")]
 internal class MethodReturnDictionary : System.Runtime.Remoting.Messaging.MessageDictionary
 {
-	[Token(Token = "0x4000F99")]
+	[Token(Token = "0x4000F9F")]
 	[FieldOffset(Offset = "0x0")]
 	public static string[] InternalReturnKeys;
 
-	[Token(Token = "0x4000F9A")]
+	[Token(Token = "0x4000FA0")]
 	[FieldOffset(Offset = "0x8")]
 	public static string[] InternalExceptionKeys;
 
-	[Token(Token = "0x6001ED2")]
-	[Address(RVA = "0x3B90A00", Offset = "0x3B90A00", VA = "0x3B90A00")]
+	[Token(Token = "0x6001F41")]
+	[Address(RVA = "0x1A03700", Offset = "0x1A01D00", VA = "0x181A03700")]
 	public MethodReturnDictionary(IMethodReturnMessage message)
 	{
 	}

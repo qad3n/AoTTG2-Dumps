@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005A3")]
+[Token(Token = "0x2000577")]
 internal struct HebrewNumberParsingContext
 {
-	[Token(Token = "0x400181D")]
+	[Token(Token = "0x400166E")]
 	[FieldOffset(Offset = "0x0")]
 	internal System.Globalization.HebrewNumber.HS state;
 
-	[Token(Token = "0x400181E")]
+	[Token(Token = "0x400166F")]
 	[FieldOffset(Offset = "0x4")]
 	internal int result;
 
-	[Token(Token = "0x6002C1B")]
-	[Address(RVA = "0x3C48120", Offset = "0x3C48120", VA = "0x3C48120")]
+	[Token(Token = "0x6002939")]
+	[Address(RVA = "0x1A69F60", Offset = "0x1A68560", VA = "0x181A69F60")]
 	public HebrewNumberParsingContext(int result)
 	{
 	}

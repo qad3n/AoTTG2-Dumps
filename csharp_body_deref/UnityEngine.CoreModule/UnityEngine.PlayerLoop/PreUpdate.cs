@@ -11,68 +11,74 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000240")]
-[MovedFrom("UnityEngine.Experimental.PlayerLoop")]
+[Token(Token = "0x2000294")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 public struct PreUpdate
 {
-	[Token(Token = "0x2000241")]
+	[Token(Token = "0x2000295")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PhysicsUpdate
 	{
 	}
 
-	[Token(Token = "0x2000242")]
+	[Token(Token = "0x2000296")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct Physics2DUpdate
 	{
 	}
 
-	[Token(Token = "0x2000243")]
+	[Token(Token = "0x2000297")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	internal struct PhysicsClothUpdate
 	{
 	}
 
-	[Token(Token = "0x2000244")]
+	[Token(Token = "0x2000298")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct CheckTexFieldInput
 	{
 	}
 
-	[Token(Token = "0x2000245")]
+	[Token(Token = "0x2000299")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct IMGUISendQueuedEvents
 	{
 	}
 
-	[Token(Token = "0x2000246")]
+	[Token(Token = "0x200029A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct SendMouseEvents
 	{
 	}
 
-	[Token(Token = "0x2000247")]
+	[Token(Token = "0x200029B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AIUpdate
 	{
 	}
 
-	[Token(Token = "0x2000248")]
+	[Token(Token = "0x200029C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct WindUpdate
 	{
 	}
 
-	[Token(Token = "0x2000249")]
+	[Token(Token = "0x200029D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateVideo
 	{
 	}
 
-	[Token(Token = "0x200024A")]
+	[Token(Token = "0x200029E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct NewInputUpdate
+	{
+	}
+
+	[Token(Token = "0x200029F")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	public struct InputForUIUpdate
 	{
 	}
 }

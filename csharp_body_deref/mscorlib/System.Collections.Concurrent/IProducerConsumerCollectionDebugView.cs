@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Concurrent;
 
-[Token(Token = "0x2000633")]
+[Token(Token = "0x2000607")]
 internal sealed class IProducerConsumerCollectionDebugView<T>
 {
 }

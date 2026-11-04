@@ -9,10 +9,10 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.InteropServices;
 
-[Token(Token = "0x2000438")]
+[Token(Token = "0x2000467")]
 public sealed class ErrorWrapper
 {
-	[Token(Token = "0x400124B")]
+	[Token(Token = "0x400124D")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private int m_ErrorCode;
 }

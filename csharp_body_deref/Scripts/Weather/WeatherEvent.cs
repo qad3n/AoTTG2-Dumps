@@ -14,84 +14,84 @@ namespace Weather;
 [Token(Token = "0x2000036")]
 internal class WeatherEvent
 {
-	[Token(Token = "0x4000102")]
+	[Token(Token = "0x400010D")]
 	[FieldOffset(Offset = "0x0")]
 	private static string[] AllWeatherEffects;
 
-	[Token(Token = "0x4000103")]
+	[Token(Token = "0x400010E")]
 	[FieldOffset(Offset = "0x8")]
 	private static string[] AllWeatherValueSelectTypes;
 
-	[Token(Token = "0x4000104")]
+	[Token(Token = "0x400010F")]
 	[FieldOffset(Offset = "0x10")]
 	public WeatherAction Action;
 
-	[Token(Token = "0x4000105")]
+	[Token(Token = "0x4000110")]
 	[FieldOffset(Offset = "0x14")]
 	public WeatherEffect Effect;
 
-	[Token(Token = "0x4000106")]
+	[Token(Token = "0x4000111")]
 	[FieldOffset(Offset = "0x18")]
 	public WeatherValueSelectType ValueSelectType;
 
-	[Token(Token = "0x4000107")]
+	[Token(Token = "0x4000112")]
 	[FieldOffset(Offset = "0x20")]
 	public List<object> Values;
 
-	[Token(Token = "0x4000108")]
+	[Token(Token = "0x4000113")]
 	[FieldOffset(Offset = "0x28")]
 	public List<float> Weights;
 
-	[Token(Token = "0x6000163")]
-	[Address(RVA = "0x3F6D9E0", Offset = "0x3F6D9E0", VA = "0x3F6D9E0")]
+	[Token(Token = "0x6000173")]
+	[Address(RVA = "0x1DB2A90", Offset = "0x1DB1090", VA = "0x181DB2A90")]
 	public WeatherEvent()
 	{
 	}
 
-	[Token(Token = "0x6000164")]
-	[Address(RVA = "0x3F6DAA0", Offset = "0x3F6DAA0", VA = "0x3F6DAA0")]
+	[Token(Token = "0x6000174")]
+	[Address(RVA = "0x1DB1D80", Offset = "0x1DB0380", VA = "0x181DB1D80")]
 	public object GetValue()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000165")]
-	[Address(RVA = "0x3F6E0D0", Offset = "0x3F6E0D0", VA = "0x3F6E0D0")]
+	[Token(Token = "0x6000175")]
+	[Address(RVA = "0x1DB1C90", Offset = "0x1DB0290", VA = "0x181DB1C90")]
 	public WeatherValueType GetValueType()
 	{
 		return default(WeatherValueType);
 	}
 
-	[Token(Token = "0x6000166")]
-	[Address(RVA = "0x3F6E110", Offset = "0x3F6E110", VA = "0x3F6E110")]
+	[Token(Token = "0x6000176")]
+	[Address(RVA = "0x1DB1C00", Offset = "0x1DB0200", VA = "0x181DB1C00")]
 	public SettingType GetSettingType()
 	{
 		return default(SettingType);
 	}
 
-	[Token(Token = "0x6000167")]
-	[Address(RVA = "0x3F6E150", Offset = "0x3F6E150", VA = "0x3F6E150")]
+	[Token(Token = "0x6000177")]
+	[Address(RVA = "0x1DB2430", Offset = "0x1DB0A30", VA = "0x181DB2430")]
 	public string[] SupportedWeatherEffects()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000168")]
-	[Address(RVA = "0x3F6E1E0", Offset = "0x3F6E1E0", VA = "0x3F6E1E0")]
+	[Token(Token = "0x6000178")]
+	[Address(RVA = "0x1DB26E0", Offset = "0x1DB0CE0", VA = "0x181DB26E0")]
 	public bool SupportsWeatherEffects()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000169")]
-	[Address(RVA = "0x3F6E270", Offset = "0x3F6E270", VA = "0x3F6E270")]
+	[Token(Token = "0x6000179")]
+	[Address(RVA = "0x1DB24E0", Offset = "0x1DB0AE0", VA = "0x181DB24E0")]
 	public string[] SupportedWeatherValueSelectTypes()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600016A")]
-	[Address(RVA = "0x3F6E450", Offset = "0x3F6E450", VA = "0x3F6E450")]
+	[Token(Token = "0x600017A")]
+	[Address(RVA = "0x1DB27A0", Offset = "0x1DB0DA0", VA = "0x181DB27A0")]
 	public bool SupportsWeatherValueSelectTypes()
 	{
 		return default(bool);

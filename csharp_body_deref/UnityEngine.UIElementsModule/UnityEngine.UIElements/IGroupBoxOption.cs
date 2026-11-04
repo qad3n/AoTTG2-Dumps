@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000215")]
+[Token(Token = "0x200028B")]
 internal interface IGroupBoxOption
 {
-	[Token(Token = "0x6000DC3")]
+	[Token(Token = "0x600115E")]
 	void SetSelected(bool selected);
 }

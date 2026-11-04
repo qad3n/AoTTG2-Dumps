@@ -11,11 +11,11 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000120")]
+[Token(Token = "0x2000122")]
 public enum ProbeVolumeSHBands
 {
-	[Token(Token = "0x400043A")]
+	[Token(Token = "0x4000552")]
 	SphericalHarmonicsL1 = 1,
-	[Token(Token = "0x400043B")]
+	[Token(Token = "0x4000553")]
 	SphericalHarmonicsL2
 }

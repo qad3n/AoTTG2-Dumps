@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200000E")]
+[Token(Token = "0x200000C")]
 public interface IClipper
 {
-	[Token(Token = "0x6000052")]
+	[Token(Token = "0x6000050")]
 	void PerformClipping();
 }

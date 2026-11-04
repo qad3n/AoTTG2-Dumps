@@ -11,13 +11,13 @@ using UnityEngine.Scripting;
 
 namespace Unity.Collections.LowLevel.Unsafe;
 
-[Token(Token = "0x2000060")]
+[Token(Token = "0x2000074")]
 [AttributeUsage(AttributeTargets.Field)]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public sealed class NativeDisableContainerSafetyRestrictionAttribute : Attribute
 {
-	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x4DAD8A0", Offset = "0x4DAD8A0", VA = "0x4DAD8A0")]
+	[Token(Token = "0x6000158")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public NativeDisableContainerSafetyRestrictionAttribute()
 	{
 	}

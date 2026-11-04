@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x20001DF")]
+[Token(Token = "0x200036C")]
 public enum UnicodeDecodingConformance
 {
-	[Token(Token = "0x40009D0")]
+	[Token(Token = "0x4000DFF")]
 	Auto,
-	[Token(Token = "0x40009D1")]
+	[Token(Token = "0x4000E00")]
 	Strict,
-	[Token(Token = "0x40009D2")]
+	[Token(Token = "0x4000E01")]
 	Compat,
-	[Token(Token = "0x40009D3")]
+	[Token(Token = "0x4000E02")]
 	Loose
 }

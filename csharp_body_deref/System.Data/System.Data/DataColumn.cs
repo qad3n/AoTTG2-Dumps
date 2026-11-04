@@ -18,345 +18,517 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000009")]
+[ToolboxItem(false)]
 [DesignTimeVisible(false)]
 [DefaultProperty("ColumnName")]
-[ToolboxItem(false)]
 public class DataColumn : MarshalByValueComponent
 {
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x4000009")]
 	[FieldOffset(Offset = "0x20")]
 	private bool _allowNull;
 
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x400000A")]
 	[FieldOffset(Offset = "0x28")]
 	private string _caption;
 
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x400000B")]
 	[FieldOffset(Offset = "0x30")]
 	private string _columnName;
 
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x400000C")]
 	[FieldOffset(Offset = "0x38")]
 	private Type _dataType;
 
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x400000D")]
 	[FieldOffset(Offset = "0x40")]
 	private StorageType _storageType;
 
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x400000E")]
 	[FieldOffset(Offset = "0x48")]
 	internal object _defaultValue;
 
-	[Token(Token = "0x4000029")]
+	[Token(Token = "0x400000F")]
 	[FieldOffset(Offset = "0x50")]
 	private DataSetDateTime _dateTimeMode;
 
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x4000010")]
 	[FieldOffset(Offset = "0x58")]
 	private DataExpression _expression;
 
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x4000011")]
 	[FieldOffset(Offset = "0x60")]
 	private int _maxLength;
 
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x4000012")]
 	[FieldOffset(Offset = "0x64")]
 	private int _ordinal;
 
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000013")]
 	[FieldOffset(Offset = "0x68")]
 	private bool _readOnly;
 
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000014")]
 	[FieldOffset(Offset = "0x70")]
 	internal Index _sortIndex;
 
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000015")]
 	[FieldOffset(Offset = "0x78")]
 	internal DataTable _table;
 
-	[Token(Token = "0x4000030")]
+	[Token(Token = "0x4000016")]
 	[FieldOffset(Offset = "0x80")]
 	private bool _unique;
 
-	[Token(Token = "0x4000031")]
+	[Token(Token = "0x4000017")]
 	[FieldOffset(Offset = "0x84")]
 	internal MappingType _columnMapping;
 
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x4000018")]
 	[FieldOffset(Offset = "0x88")]
 	internal int _hashCode;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x4000019")]
 	[FieldOffset(Offset = "0x8C")]
 	internal int _errors;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x400001A")]
 	[FieldOffset(Offset = "0x90")]
 	private bool _isSqlType;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x400001B")]
 	[FieldOffset(Offset = "0x91")]
 	private bool _implementsINullable;
 
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x400001C")]
 	[FieldOffset(Offset = "0x92")]
 	private bool _implementsIChangeTracking;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400001D")]
 	[FieldOffset(Offset = "0x93")]
 	private bool _implementsIRevertibleChangeTracking;
 
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400001E")]
 	[FieldOffset(Offset = "0x94")]
 	private bool _implementsIXMLSerializable;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x400001F")]
 	[FieldOffset(Offset = "0x95")]
 	private bool _defaultValueIsNull;
 
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000020")]
 	[FieldOffset(Offset = "0x98")]
 	internal List<DataColumn> _dependentColumns;
 
-	[Token(Token = "0x400003B")]
+	[Token(Token = "0x4000021")]
 	[FieldOffset(Offset = "0xA0")]
 	internal PropertyCollection _extendedProperties;
 
-	[Token(Token = "0x400003C")]
+	[Token(Token = "0x4000022")]
 	[FieldOffset(Offset = "0xA8")]
 	private DataStorage _storage;
 
-	[Token(Token = "0x400003D")]
+	[Token(Token = "0x4000023")]
 	[FieldOffset(Offset = "0xB0")]
 	private AutoIncrementValue _autoInc;
 
-	[Token(Token = "0x400003E")]
+	[Token(Token = "0x4000024")]
 	[FieldOffset(Offset = "0xB8")]
 	internal string _columnUri;
 
-	[Token(Token = "0x400003F")]
+	[Token(Token = "0x4000025")]
 	[FieldOffset(Offset = "0xC0")]
 	private string _columnPrefix;
 
-	[Token(Token = "0x4000040")]
+	[Token(Token = "0x4000026")]
 	[FieldOffset(Offset = "0xC8")]
 	internal string _encodedColumnName;
 
-	[Token(Token = "0x4000041")]
+	[Token(Token = "0x4000027")]
 	[FieldOffset(Offset = "0xD0")]
 	internal SimpleType _simpleType;
 
-	[Token(Token = "0x4000042")]
+	[Token(Token = "0x4000028")]
 	[FieldOffset(Offset = "0x0")]
 	private static int s_objectTypeCount;
 
-	[Token(Token = "0x4000043")]
+	[Token(Token = "0x4000029")]
 	[FieldOffset(Offset = "0xD8")]
 	private readonly int _objectID;
 
-	[Token(Token = "0x4000045")]
+	[Token(Token = "0x400002B")]
 	[FieldOffset(Offset = "0xE8")]
 	[CompilerGenerated]
 	private PropertyChangedEventHandler PropertyChanging;
 
-	[Token(Token = "0x17000010")]
+	[Token(Token = "0x17000003")]
 	[DefaultValue(true)]
 	public bool AllowDBNull
 	{
-		[Token(Token = "0x6000070")]
-		[Address(RVA = "0x4539450", Offset = "0x4539450", VA = "0x4539450")]
+		[Token(Token = "0x6000013")]
+		[Address(RVA = "0xF40050", Offset = "0xF3E650", VA = "0x180F40050")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000071")]
-		[Address(RVA = "0x4539460", Offset = "0x4539460", VA = "0x4539460")]
+		[Token(Token = "0x6000014")]
+		[Address(RVA = "0x24C5670", Offset = "0x24C3C70", VA = "0x1824C5670")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000011")]
+	[Token(Token = "0x17000004")]
 	[DefaultValue(false)]
 	[RefreshProperties(RefreshProperties.All)]
 	public bool AutoIncrement
 	{
-		[Token(Token = "0x6000072")]
-		[Address(RVA = "0x4539B50", Offset = "0x4539B50", VA = "0x4539B50")]
+		[Token(Token = "0x6000015")]
+		[Address(RVA = "0x24C5070", Offset = "0x24C3670", VA = "0x1824C5070")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000073")]
-		[Address(RVA = "0x4539B70", Offset = "0x4539B70", VA = "0x4539B70")]
+		[Token(Token = "0x6000016")]
+		[Address(RVA = "0x24C5B70", Offset = "0x24C4170", VA = "0x1824C5B70")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000012")]
+	[Token(Token = "0x17000005")]
 	internal object AutoIncrementCurrent
 	{
-		[Token(Token = "0x6000074")]
-		[Address(RVA = "0x453AE40", Offset = "0x453AE40", VA = "0x453AE40")]
+		[Token(Token = "0x6000017")]
+		[Address(RVA = "0x24C4FC0", Offset = "0x24C35C0", VA = "0x1824C4FC0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000075")]
-		[Address(RVA = "0x453AEB0", Offset = "0x453AEB0", VA = "0x453AEB0")]
+		[Token(Token = "0x6000018")]
+		[Address(RVA = "0x24C57D0", Offset = "0x24C3DD0", VA = "0x1824C57D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000013")]
+	[Token(Token = "0x17000006")]
 	internal AutoIncrementValue AutoInc
 	{
-		[Token(Token = "0x6000076")]
-		[Address(RVA = "0x453AD00", Offset = "0x453AD00", VA = "0x453AD00")]
+		[Token(Token = "0x6000019")]
+		[Address(RVA = "0x24C4EC0", Offset = "0x24C34C0", VA = "0x1824C4EC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000014")]
+	[Token(Token = "0x17000007")]
 	[DefaultValue(0L)]
 	public long AutoIncrementSeed
 	{
-		[Token(Token = "0x6000077")]
-		[Address(RVA = "0x453AE80", Offset = "0x453AE80", VA = "0x453AE80")]
+		[Token(Token = "0x600001A")]
+		[Address(RVA = "0x24C5010", Offset = "0x24C3610", VA = "0x1824C5010")]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x6000078")]
-		[Address(RVA = "0x453B130", Offset = "0x453B130", VA = "0x453B130")]
+		[Token(Token = "0x600001B")]
+		[Address(RVA = "0x24C5970", Offset = "0x24C3F70", VA = "0x1824C5970")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000015")]
+	[Token(Token = "0x17000008")]
 	[DefaultValue(1L)]
 	public long AutoIncrementStep
 	{
-		[Token(Token = "0x6000079")]
-		[Address(RVA = "0x453B250", Offset = "0x453B250", VA = "0x453B250")]
+		[Token(Token = "0x600001C")]
+		[Address(RVA = "0x24C5040", Offset = "0x24C3640", VA = "0x1824C5040")]
 		get
 		{
 			return default(long);
 		}
-		[Token(Token = "0x600007A")]
-		[Address(RVA = "0x453B280", Offset = "0x453B280", VA = "0x453B280")]
+		[Token(Token = "0x600001D")]
+		[Address(RVA = "0x24C5A70", Offset = "0x24C4070", VA = "0x1824C5A70")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000016")]
+	[Token(Token = "0x17000009")]
 	public string Caption
 	{
-		[Token(Token = "0x600007B")]
-		[Address(RVA = "0x453B3A0", Offset = "0x453B3A0", VA = "0x453B3A0")]
+		[Token(Token = "0x600001E")]
+		[Address(RVA = "0x24C5090", Offset = "0x24C3690", VA = "0x1824C5090")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600007C")]
-		[Address(RVA = "0x453B3B0", Offset = "0x453B3B0", VA = "0x453B3B0")]
+		[Token(Token = "0x600001F")]
+		[Address(RVA = "0x24C5D50", Offset = "0x24C4350", VA = "0x1824C5D50")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000017")]
+	[Token(Token = "0x1700000A")]
 	[DefaultValue("")]
 	[RefreshProperties(RefreshProperties.All)]
 	public string ColumnName
 	{
-		[Token(Token = "0x600007D")]
-		[Address(RVA = "0x453B4E0", Offset = "0x453B4E0", VA = "0x453B4E0")]
+		[Token(Token = "0x6000020")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600007E")]
-		[Address(RVA = "0x453B4F0", Offset = "0x453B4F0", VA = "0x453B4F0")]
+		[Token(Token = "0x6000021")]
+		[Address(RVA = "0x24C60E0", Offset = "0x24C46E0", VA = "0x1824C60E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000018")]
+	[Token(Token = "0x1700000B")]
 	internal string EncodedColumnName
 	{
-		[Token(Token = "0x600007F")]
-		[Address(RVA = "0x453BFE0", Offset = "0x453BFE0", VA = "0x453BFE0")]
+		[Token(Token = "0x6000022")]
+		[Address(RVA = "0x24C5220", Offset = "0x24C3820", VA = "0x1824C5220")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000019")]
+	[Token(Token = "0x1700000C")]
 	internal IFormatProvider FormatProvider
 	{
-		[Token(Token = "0x6000080")]
-		[Address(RVA = "0x453B050", Offset = "0x453B050", VA = "0x453B050")]
+		[Token(Token = "0x6000023")]
+		[Address(RVA = "0x24C5370", Offset = "0x24C3970", VA = "0x1824C5370")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x1700000D")]
 	internal CultureInfo Locale
 	{
-		[Token(Token = "0x6000081")]
-		[Address(RVA = "0x453B480", Offset = "0x453B480", VA = "0x453B480")]
+		[Token(Token = "0x6000024")]
+		[Address(RVA = "0x24C54D0", Offset = "0x24C3AD0", VA = "0x1824C54D0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700001B")]
+	[Token(Token = "0x1700000E")]
 	internal int ObjectID
 	{
-		[Token(Token = "0x6000082")]
-		[Address(RVA = "0x453C070", Offset = "0x453C070", VA = "0x453C070")]
+		[Token(Token = "0x6000025")]
+		[Address(RVA = "0x24C5570", Offset = "0x24C3B70", VA = "0x1824C5570")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x1700001C")]
+	[Token(Token = "0x1700000F")]
 	[DefaultValue("")]
 	public string Prefix
 	{
-		[Token(Token = "0x6000083")]
-		[Address(RVA = "0x453C080", Offset = "0x453C080", VA = "0x453C080")]
+		[Token(Token = "0x6000026")]
+		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000084")]
-		[Address(RVA = "0x453C090", Offset = "0x453C090", VA = "0x453C090")]
+		[Token(Token = "0x6000027")]
+		[Address(RVA = "0x24C8180", Offset = "0x24C6780", VA = "0x1824C8180")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700001D")]
+	[Token(Token = "0x17000010")]
 	internal bool Computed
 	{
-		[Token(Token = "0x6000086")]
-		[Address(RVA = "0x453C4C0", Offset = "0x453C4C0", VA = "0x453C4C0")]
+		[Token(Token = "0x6000029")]
+		[Address(RVA = "0x24C50B0", Offset = "0x24C36B0", VA = "0x1824C50B0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000011")]
+	internal DataExpression DataExpression
+	{
+		[Token(Token = "0x600002A")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000012")]
+	[DefaultValue(typeof(string))]
+	[RefreshProperties(RefreshProperties.All)]
+	[TypeConverter(typeof(ColumnTypeConverter))]
+	public Type DataType
+	{
+		[Token(Token = "0x600002B")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600002C")]
+		[Address(RVA = "0x24C64E0", Offset = "0x24C4AE0", VA = "0x1824C64E0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000013")]
+	[RefreshProperties(RefreshProperties.All)]
+	[DefaultValue(DataSetDateTime.UnspecifiedLocal)]
+	public DataSetDateTime DateTimeMode
+	{
+		[Token(Token = "0x600002D")]
+		[Address(RVA = "0x58A540", Offset = "0x588B40", VA = "0x18058A540")]
+		get
+		{
+			return default(DataSetDateTime);
+		}
+		[Token(Token = "0x600002E")]
+		[Address(RVA = "0x24C6FF0", Offset = "0x24C55F0", VA = "0x1824C6FF0")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000014")]
+	[TypeConverter(typeof(DefaultValueTypeConverter))]
+	public object DefaultValue
+	{
+		[Token(Token = "0x600002F")]
+		[Address(RVA = "0x24C50D0", Offset = "0x24C36D0", VA = "0x1824C50D0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000030")]
+		[Address(RVA = "0x24C7160", Offset = "0x24C5760", VA = "0x1824C7160")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000015")]
+	internal bool DefaultValueIsNull
+	{
+		[Token(Token = "0x6000031")]
+		[Address(RVA = "0x24C50C0", Offset = "0x24C36C0", VA = "0x1824C50C0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000016")]
+	[RefreshProperties(RefreshProperties.All)]
+	[DefaultValue("")]
+	public string Expression
+	{
+		[Token(Token = "0x6000033")]
+		[Address(RVA = "0x24C52A0", Offset = "0x24C38A0", VA = "0x1824C52A0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x6000034")]
+		[Address(RVA = "0x24C7450", Offset = "0x24C5A50", VA = "0x1824C7450")]
+		set
+		{
+		}
+	}
+
+	[Token(Token = "0x17000017")]
+	[Browsable(false)]
+	public PropertyCollection ExtendedProperties
+	{
+		[Token(Token = "0x6000035")]
+		[Address(RVA = "0x24C52F0", Offset = "0x24C38F0", VA = "0x1824C52F0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000018")]
+	internal bool HasData
+	{
+		[Token(Token = "0x6000036")]
+		[Address(RVA = "0x24C53D0", Offset = "0x24C39D0", VA = "0x1824C53D0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x17000019")]
+	internal bool ImplementsINullable
+	{
+		[Token(Token = "0x6000037")]
+		[Address(RVA = "0x24C53F0", Offset = "0x24C39F0", VA = "0x1824C53F0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700001A")]
+	internal bool ImplementsIChangeTracking
+	{
+		[Token(Token = "0x6000038")]
+		[Address(RVA = "0x24C53E0", Offset = "0x24C39E0", VA = "0x1824C53E0")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700001B")]
+	internal bool ImplementsIRevertibleChangeTracking
+	{
+		[Token(Token = "0x6000039")]
+		[Address(RVA = "0x24C5400", Offset = "0x24C3A00", VA = "0x1824C5400")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700001C")]
+	internal bool IsValueType
+	{
+		[Token(Token = "0x600003A")]
+		[Address(RVA = "0x24C5480", Offset = "0x24C3A80", VA = "0x1824C5480")]
+		get
+		{
+			return default(bool);
+		}
+	}
+
+	[Token(Token = "0x1700001D")]
+	internal bool IsSqlType
+	{
+		[Token(Token = "0x600003B")]
+		[Address(RVA = "0xB5B960", Offset = "0xB59F60", VA = "0x180B5B960")]
 		get
 		{
 			return default(bool);
@@ -364,160 +536,183 @@ public class DataColumn : MarshalByValueComponent
 	}
 
 	[Token(Token = "0x1700001E")]
-	internal DataExpression DataExpression
+	[DefaultValue(-1)]
+	public int MaxLength
 	{
-		[Token(Token = "0x6000087")]
-		[Address(RVA = "0x453C4D0", Offset = "0x453C4D0", VA = "0x453C4D0")]
+		[Token(Token = "0x600003D")]
+		[Address(RVA = "0x1A2A530", Offset = "0x1A28B30", VA = "0x181A2A530")]
 		get
 		{
-			return null;
+			return default(int);
+		}
+		[Token(Token = "0x600003E")]
+		[Address(RVA = "0x24C7C20", Offset = "0x24C6220", VA = "0x1824C7C20")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x1700001F")]
-	[DefaultValue(typeof(string))]
-	[TypeConverter(typeof(ColumnTypeConverter))]
-	[RefreshProperties(RefreshProperties.All)]
-	public Type DataType
+	public string Namespace
 	{
-		[Token(Token = "0x6000088")]
-		[Address(RVA = "0x453C4E0", Offset = "0x453C4E0", VA = "0x453C4E0")]
+		[Token(Token = "0x600003F")]
+		[Address(RVA = "0x24C5530", Offset = "0x24C3B30", VA = "0x1824C5530")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000089")]
-		[Address(RVA = "0x453A1E0", Offset = "0x453A1E0", VA = "0x453A1E0")]
+		[Token(Token = "0x6000040")]
+		[Address(RVA = "0x24C8000", Offset = "0x24C6600", VA = "0x1824C8000")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000020")]
-	[DefaultValue(DataSetDateTime.UnspecifiedLocal)]
-	[RefreshProperties(RefreshProperties.All)]
-	public DataSetDateTime DateTimeMode
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+	[Browsable(false)]
+	public int Ordinal
 	{
-		[Token(Token = "0x600008A")]
-		[Address(RVA = "0x453D020", Offset = "0x453D020", VA = "0x453D020")]
+		[Token(Token = "0x6000041")]
+		[Address(RVA = "0xCDE980", Offset = "0xCDCF80", VA = "0x180CDE980")]
 		get
 		{
-			return default(DataSetDateTime);
-		}
-		[Token(Token = "0x600008B")]
-		[Address(RVA = "0x453D030", Offset = "0x453D030", VA = "0x453D030")]
-		set
-		{
+			return default(int);
 		}
 	}
 
 	[Token(Token = "0x17000021")]
-	[TypeConverter(typeof(DefaultValueTypeConverter))]
-	public object DefaultValue
+	[DefaultValue(false)]
+	public bool ReadOnly
 	{
-		[Token(Token = "0x600008C")]
-		[Address(RVA = "0x453C810", Offset = "0x453C810", VA = "0x453C810")]
+		[Token(Token = "0x6000043")]
+		[Address(RVA = "0x12BF1A0", Offset = "0x12BD7A0", VA = "0x1812BF1A0")]
 		get
 		{
-			return null;
+			return default(bool);
 		}
-		[Token(Token = "0x600008D")]
-		[Address(RVA = "0x453C9A0", Offset = "0x453C9A0", VA = "0x453C9A0")]
+		[Token(Token = "0x6000044")]
+		[Address(RVA = "0x24C82F0", Offset = "0x24C68F0", VA = "0x1824C82F0")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x17000022")]
-	internal bool DefaultValueIsNull
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
+	private Index SortIndex
 	{
-		[Token(Token = "0x600008E")]
-		[Address(RVA = "0x453D4E0", Offset = "0x453D4E0", VA = "0x453D4E0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000023")]
-	[RefreshProperties(RefreshProperties.All)]
-	[DefaultValue("")]
-	public string Expression
-	{
-		[Token(Token = "0x6000090")]
-		[Address(RVA = "0x453D510", Offset = "0x453D510", VA = "0x453D510")]
+		[Token(Token = "0x6000045")]
+		[Address(RVA = "0x24C5580", Offset = "0x24C3B80", VA = "0x1824C5580")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6000091")]
-		[Address(RVA = "0x45388E0", Offset = "0x45388E0", VA = "0x45388E0")]
+	}
+
+	[Token(Token = "0x17000023")]
+	[Browsable(false)]
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+	public DataTable Table
+	{
+		[Token(Token = "0x6000046")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000024")]
+	internal object this[int record]
+	{
+		[Token(Token = "0x6000049")]
+		[Address(RVA = "0x24C54A0", Offset = "0x24C3AA0", VA = "0x1824C54A0")]
+		get
+		{
+			return null;
+		}
+		[Token(Token = "0x600004A")]
+		[Address(RVA = "0x24C7A90", Offset = "0x24C6090", VA = "0x1824C7A90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000024")]
-	[Browsable(false)]
-	public PropertyCollection ExtendedProperties
-	{
-		[Token(Token = "0x6000092")]
-		[Address(RVA = "0x453DC20", Offset = "0x453DC20", VA = "0x453DC20")]
-		get
-		{
-			return null;
-		}
-	}
-
 	[Token(Token = "0x17000025")]
-	internal bool HasData
+	[DefaultValue(false)]
+	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+	public bool Unique
 	{
-		[Token(Token = "0x6000093")]
-		[Address(RVA = "0x453A0C0", Offset = "0x453A0C0", VA = "0x453A0C0")]
+		[Token(Token = "0x600004E")]
+		[Address(RVA = "0x1720FF0", Offset = "0x171F5F0", VA = "0x181720FF0")]
 		get
 		{
 			return default(bool);
+		}
+		[Token(Token = "0x600004F")]
+		[Address(RVA = "0x24C8430", Offset = "0x24C6A30", VA = "0x1824C8430")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000026")]
-	internal bool ImplementsINullable
+	internal string XmlDataType
 	{
-		[Token(Token = "0x6000094")]
-		[Address(RVA = "0x453DC90", Offset = "0x453DC90", VA = "0x453DC90")]
+		[Token(Token = "0x6000051")]
+		[Address(RVA = "0x187BC50", Offset = "0x187A250", VA = "0x18187BC50")]
+		[CompilerGenerated]
 		get
 		{
-			return default(bool);
+			return null;
+		}
+		[Token(Token = "0x6000052")]
+		[Address(RVA = "0x1BD5200", Offset = "0x1BD3800", VA = "0x181BD5200")]
+		[CompilerGenerated]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000027")]
-	internal bool ImplementsIChangeTracking
+	internal SimpleType SimpleType
 	{
-		[Token(Token = "0x6000095")]
-		[Address(RVA = "0x453DCA0", Offset = "0x453DCA0", VA = "0x453DCA0")]
+		[Token(Token = "0x6000053")]
+		[Address(RVA = "0x187BC40", Offset = "0x187A240", VA = "0x18187BC40")]
 		get
 		{
-			return default(bool);
+			return null;
+		}
+		[Token(Token = "0x6000054")]
+		[Address(RVA = "0x24C83D0", Offset = "0x24C69D0", VA = "0x1824C83D0")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000028")]
-	internal bool ImplementsIRevertibleChangeTracking
+	[DefaultValue(MappingType.Element)]
+	public virtual MappingType ColumnMapping
 	{
-		[Token(Token = "0x6000096")]
-		[Address(RVA = "0x453DCB0", Offset = "0x453DCB0", VA = "0x453DCB0")]
+		[Token(Token = "0x6000055")]
+		[Address(RVA = "0xA4D4C0", Offset = "0xA4BAC0", VA = "0x180A4D4C0", Slot = "16")]
 		get
 		{
-			return default(bool);
+			return default(MappingType);
+		}
+		[Token(Token = "0x6000056")]
+		[Address(RVA = "0x24C5E10", Offset = "0x24C4410", VA = "0x1824C5E10", Slot = "17")]
+		set
+		{
 		}
 	}
 
 	[Token(Token = "0x17000029")]
-	internal bool IsValueType
+	internal bool IsCustomType
 	{
-		[Token(Token = "0x6000097")]
-		[Address(RVA = "0x453DCC0", Offset = "0x453DCC0", VA = "0x453DCC0")]
+		[Token(Token = "0x6000067")]
+		[Address(RVA = "0x24C5410", Offset = "0x24C3A10", VA = "0x1824C5410")]
 		get
 		{
 			return default(bool);
@@ -525,534 +720,339 @@ public class DataColumn : MarshalByValueComponent
 	}
 
 	[Token(Token = "0x1700002A")]
-	internal bool IsSqlType
-	{
-		[Token(Token = "0x6000098")]
-		[Address(RVA = "0x453DCE0", Offset = "0x453DCE0", VA = "0x453DCE0")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x1700002B")]
-	[DefaultValue(-1)]
-	public int MaxLength
-	{
-		[Token(Token = "0x600009A")]
-		[Address(RVA = "0x453DDC0", Offset = "0x453DDC0", VA = "0x453DDC0")]
-		get
-		{
-			return default(int);
-		}
-		[Token(Token = "0x600009B")]
-		[Address(RVA = "0x453DDD0", Offset = "0x453DDD0", VA = "0x453DDD0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700002C")]
-	public string Namespace
-	{
-		[Token(Token = "0x600009C")]
-		[Address(RVA = "0x453E910", Offset = "0x453E910", VA = "0x453E910")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x453E960", Offset = "0x453E960", VA = "0x453E960")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700002D")]
-	[Browsable(false)]
-	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-	public int Ordinal
-	{
-		[Token(Token = "0x600009E")]
-		[Address(RVA = "0x453EC80", Offset = "0x453EC80", VA = "0x453EC80")]
-		get
-		{
-			return default(int);
-		}
-	}
-
-	[Token(Token = "0x1700002E")]
-	[DefaultValue(false)]
-	public bool ReadOnly
-	{
-		[Token(Token = "0x60000A0")]
-		[Address(RVA = "0x453EDD0", Offset = "0x453EDD0", VA = "0x453EDD0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60000A1")]
-		[Address(RVA = "0x453D6D0", Offset = "0x453D6D0", VA = "0x453D6D0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x1700002F")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
-	private Index SortIndex
-	{
-		[Token(Token = "0x60000A2")]
-		[Address(RVA = "0x453EE60", Offset = "0x453EE60", VA = "0x453EE60")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000030")]
-	[Browsable(false)]
-	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-	public DataTable Table
-	{
-		[Token(Token = "0x60000A3")]
-		[Address(RVA = "0x453EF50", Offset = "0x453EF50", VA = "0x453EF50")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000031")]
-	internal object this[int record]
-	{
-		[Token(Token = "0x60000A6")]
-		[Address(RVA = "0x453C3E0", Offset = "0x453C3E0", VA = "0x453C3E0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60000A7")]
-		[Address(RVA = "0x453F060", Offset = "0x453F060", VA = "0x453F060")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000032")]
-	[DefaultValue(false)]
-	[DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
-	public bool Unique
-	{
-		[Token(Token = "0x60000AB")]
-		[Address(RVA = "0x453F4D0", Offset = "0x453F4D0", VA = "0x453F4D0")]
-		get
-		{
-			return default(bool);
-		}
-		[Token(Token = "0x60000AC")]
-		[Address(RVA = "0x453F4E0", Offset = "0x453F4E0", VA = "0x453F4E0")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000033")]
-	internal string XmlDataType
-	{
-		[Token(Token = "0x60000AE")]
-		[Address(RVA = "0x453FC70", Offset = "0x453FC70", VA = "0x453FC70")]
-		[CompilerGenerated]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60000AF")]
-		[Address(RVA = "0x453FC80", Offset = "0x453FC80", VA = "0x453FC80")]
-		[CompilerGenerated]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000034")]
-	internal SimpleType SimpleType
-	{
-		[Token(Token = "0x60000B0")]
-		[Address(RVA = "0x453FCA0", Offset = "0x453FCA0", VA = "0x453FCA0")]
-		get
-		{
-			return null;
-		}
-		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x4538780", Offset = "0x4538780", VA = "0x4538780")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000035")]
-	[DefaultValue(MappingType.Element)]
-	public virtual MappingType ColumnMapping
-	{
-		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x453FCB0", Offset = "0x453FCB0", VA = "0x453FCB0", Slot = "16")]
-		get
-		{
-			return default(MappingType);
-		}
-		[Token(Token = "0x60000B3")]
-		[Address(RVA = "0x453FCC0", Offset = "0x453FCC0", VA = "0x453FCC0", Slot = "17")]
-		set
-		{
-		}
-	}
-
-	[Token(Token = "0x17000036")]
-	internal bool IsCustomType
-	{
-		[Token(Token = "0x60000C4")]
-		[Address(RVA = "0x4541380", Offset = "0x4541380", VA = "0x4541380")]
-		get
-		{
-			return default(bool);
-		}
-	}
-
-	[Token(Token = "0x17000037")]
 	internal bool ImplementsIXMLSerializable
 	{
-		[Token(Token = "0x60000C6")]
-		[Address(RVA = "0x4541490", Offset = "0x4541490", VA = "0x4541490")]
+		[Token(Token = "0x6000069")]
+		[Address(RVA = "0x1CD34F0", Offset = "0x1CD1AF0", VA = "0x181CD34F0")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600006C")]
-	[Address(RVA = "0x4538370", Offset = "0x4538370", VA = "0x4538370")]
+	[Token(Token = "0x600000F")]
+	[Address(RVA = "0x24C4AF0", Offset = "0x24C30F0", VA = "0x1824C4AF0")]
 	public DataColumn()
 	{
 	}
 
-	[Token(Token = "0x600006D")]
-	[Address(RVA = "0x4538710", Offset = "0x4538710", VA = "0x4538710")]
+	[Token(Token = "0x6000010")]
+	[Address(RVA = "0x24C4AC0", Offset = "0x24C30C0", VA = "0x1824C4AC0")]
 	public DataColumn(string columnName, Type dataType)
 	{
 	}
 
-	[Token(Token = "0x600006E")]
-	[Address(RVA = "0x45383D0", Offset = "0x45383D0", VA = "0x45383D0")]
+	[Token(Token = "0x6000011")]
+	[Address(RVA = "0x24C4B50", Offset = "0x24C3150", VA = "0x1824C4B50")]
 	public DataColumn(string columnName, Type dataType, string expr, MappingType type)
 	{
 	}
 
-	[Token(Token = "0x600006F")]
-	[Address(RVA = "0x45387D0", Offset = "0x45387D0", VA = "0x45387D0")]
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x24C49B0", Offset = "0x24C2FB0", VA = "0x1824C49B0")]
 	private void UpdateColumnType(Type type, StorageType typeCode)
 	{
 	}
 
-	[Token(Token = "0x6000085")]
-	[Address(RVA = "0x453C340", Offset = "0x453C340", VA = "0x453C340")]
+	[Token(Token = "0x6000028")]
+	[Address(RVA = "0x24C32D0", Offset = "0x24C18D0", VA = "0x1824C32D0")]
 	internal string GetColumnValueAsString(DataRow row, DataRowVersion version)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600008F")]
-	[Address(RVA = "0x453D4F0", Offset = "0x453D4F0", VA = "0x453D4F0")]
+	[Token(Token = "0x6000032")]
+	[Address(RVA = "0x24C1F60", Offset = "0x24C0560", VA = "0x1824C1F60")]
 	internal void BindExpression()
 	{
 	}
 
-	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x453DCF0", Offset = "0x453DCF0", VA = "0x453DCF0")]
+	[Token(Token = "0x600003C")]
+	[Address(RVA = "0x24C4480", Offset = "0x24C2A80", VA = "0x1824C4480")]
 	private void SetMaxLengthSimpleType()
 	{
 	}
 
-	[Token(Token = "0x600009F")]
-	[Address(RVA = "0x453EC90", Offset = "0x453EC90", VA = "0x453EC90")]
+	[Token(Token = "0x6000042")]
+	[Address(RVA = "0x24C45B0", Offset = "0x24C2BB0", VA = "0x1824C45B0")]
 	internal void SetOrdinalInternal(int ordinal)
 	{
 	}
 
-	[Token(Token = "0x60000A4")]
-	[Address(RVA = "0x453EF60", Offset = "0x453EF60", VA = "0x453EF60")]
+	[Token(Token = "0x6000047")]
+	[Address(RVA = "0x24C4740", Offset = "0x24C2D40", VA = "0x1824C4740")]
 	internal void SetTable(DataTable table)
 	{
 	}
 
-	[Token(Token = "0x60000A5")]
-	[Address(RVA = "0x453F040", Offset = "0x453F040", VA = "0x453F040")]
+	[Token(Token = "0x6000048")]
+	[Address(RVA = "0x24C33C0", Offset = "0x24C19C0", VA = "0x1824C33C0")]
 	private DataRow GetDataRow(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x453DB10", Offset = "0x453DB10", VA = "0x453DB10")]
+	[Token(Token = "0x600004B")]
+	[Address(RVA = "0x24C37B0", Offset = "0x24C1DB0", VA = "0x1824C37B0")]
 	internal void InitializeRecord(int record)
 	{
 	}
 
-	[Token(Token = "0x60000A9")]
-	[Address(RVA = "0x453F370", Offset = "0x453F370", VA = "0x453F370")]
+	[Token(Token = "0x600004C")]
+	[Address(RVA = "0x24C4820", Offset = "0x24C2E20", VA = "0x1824C4820")]
 	internal void SetValue(int record, object value)
 	{
 	}
 
-	[Token(Token = "0x60000AA")]
-	[Address(RVA = "0x453F4A0", Offset = "0x453F4A0", VA = "0x453F4A0")]
+	[Token(Token = "0x600004D")]
+	[Address(RVA = "0x24C31B0", Offset = "0x24C17B0", VA = "0x1824C31B0")]
 	internal void FreeRecord(int record)
 	{
 	}
 
-	[Token(Token = "0x60000AD")]
-	[Address(RVA = "0x453FC60", Offset = "0x453FC60", VA = "0x453FC60")]
+	[Token(Token = "0x6000050")]
+	[Address(RVA = "0x1721000", Offset = "0x171F600", VA = "0x181721000")]
 	internal void InternalUnique(bool value)
 	{
 	}
 
-	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x4540250", Offset = "0x4540250", VA = "0x4540250")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x24C1F90", Offset = "0x24C0590", VA = "0x1824C1F90")]
 	internal void CheckColumnConstraint(DataRow row, DataRowAction action)
 	{
 	}
 
-	[Token(Token = "0x60000B5")]
-	[Address(RVA = "0x453E3A0", Offset = "0x453E3A0", VA = "0x453E3A0")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x24C2140", Offset = "0x24C0740", VA = "0x1824C2140")]
 	internal bool CheckMaxLength()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000B6")]
-	[Address(RVA = "0x4540320", Offset = "0x4540320", VA = "0x4540320")]
+	[Token(Token = "0x6000059")]
+	[Address(RVA = "0x24C20B0", Offset = "0x24C06B0", VA = "0x1824C20B0")]
 	internal void CheckMaxLength(DataRow dr)
 	{
 	}
 
-	[Token(Token = "0x60000B7")]
-	[Address(RVA = "0x4539640", Offset = "0x4539640", VA = "0x4539640")]
+	[Token(Token = "0x600005A")]
+	[Address(RVA = "0x24C2380", Offset = "0x24C0980", VA = "0x1824C2380")]
 	protected internal void CheckNotAllowNull()
 	{
 	}
 
-	[Token(Token = "0x60000B8")]
-	[Address(RVA = "0x45402A0", Offset = "0x45402A0", VA = "0x45402A0")]
+	[Token(Token = "0x600005B")]
+	[Address(RVA = "0x24C26A0", Offset = "0x24C0CA0", VA = "0x1824C26A0")]
 	internal void CheckNullable(DataRow row)
 	{
 	}
 
-	[Token(Token = "0x60000B9")]
-	[Address(RVA = "0x453FC10", Offset = "0x453FC10", VA = "0x453FC10")]
+	[Token(Token = "0x600005C")]
+	[Address(RVA = "0x24C2730", Offset = "0x24C0D30", VA = "0x1824C2730")]
 	protected void CheckUnique()
 	{
 	}
 
-	[Token(Token = "0x60000BA")]
-	[Address(RVA = "0x45407D0", Offset = "0x45407D0", VA = "0x45407D0")]
+	[Token(Token = "0x600005D")]
+	[Address(RVA = "0x24C2F70", Offset = "0x24C1570", VA = "0x1824C2F70")]
 	internal int Compare(int record1, int record2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000BB")]
-	[Address(RVA = "0x4540800", Offset = "0x4540800", VA = "0x4540800")]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x24C2D70", Offset = "0x24C1370", VA = "0x1824C2D70")]
 	internal bool CompareValueTo(int record1, object value, bool checkType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000BC")]
-	[Address(RVA = "0x45409C0", Offset = "0x45409C0", VA = "0x45409C0")]
+	[Token(Token = "0x600005F")]
+	[Address(RVA = "0x24C2F40", Offset = "0x24C1540", VA = "0x1824C2F40")]
 	internal int CompareValueTo(int record1, object value)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000BD")]
-	[Address(RVA = "0x45409F0", Offset = "0x45409F0", VA = "0x45409F0")]
+	[Token(Token = "0x6000060")]
+	[Address(RVA = "0x24C3050", Offset = "0x24C1650", VA = "0x1824C3050")]
 	internal object ConvertValue(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000BE")]
-	[Address(RVA = "0x4540A20", Offset = "0x4540A20", VA = "0x4540A20")]
+	[Token(Token = "0x6000061")]
+	[Address(RVA = "0x24C3160", Offset = "0x24C1760", VA = "0x1824C3160")]
 	internal void Copy(int srcRecordNo, int dstRecordNo)
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x60000BF")]
-	[Address(RVA = "0x4540A50", Offset = "0x4540A50", VA = "0x4540A50")]
+	[Token(Token = "0x6000062")]
+	[Address(RVA = "0x24C2790", Offset = "0x24C0D90", VA = "0x1824C2790")]
 	internal DataColumn Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000C0")]
-	[Address(RVA = "0x4541240", Offset = "0x4541240", VA = "0x4541240")]
+	[Token(Token = "0x6000063")]
+	[Address(RVA = "0x24C31F0", Offset = "0x24C17F0", VA = "0x1824C31F0")]
 	internal object GetAggregateValue(int[] records, AggregateType kind)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000C1")]
-	[Address(RVA = "0x4540390", Offset = "0x4540390", VA = "0x4540390")]
+	[Token(Token = "0x6000064")]
+	[Address(RVA = "0x24C3430", Offset = "0x24C1A30", VA = "0x1824C3430")]
 	private int GetStringLength(int record)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000C2")]
-	[Address(RVA = "0x45412F0", Offset = "0x45412F0", VA = "0x45412F0")]
+	[Token(Token = "0x6000065")]
+	[Address(RVA = "0x24C3700", Offset = "0x24C1D00", VA = "0x1824C3700")]
 	internal void Init(int record)
 	{
 	}
 
-	[Token(Token = "0x60000C3")]
-	[Address(RVA = "0x4539E30", Offset = "0x4539E30", VA = "0x4539E30")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x24C3890", Offset = "0x24C1E90", VA = "0x1824C3890")]
 	internal static bool IsAutoIncrementType(Type dataType)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x45413F0", Offset = "0x45413F0", VA = "0x45413F0")]
+	[Token(Token = "0x6000068")]
+	[Address(RVA = "0x24C4220", Offset = "0x24C2820", VA = "0x1824C4220")]
 	internal bool IsValueCustomTypeInstance(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x453C5F0", Offset = "0x453C5F0", VA = "0x453C5F0")]
+	[Token(Token = "0x600006A")]
+	[Address(RVA = "0x24C3B20", Offset = "0x24C2120", VA = "0x1824C3B20")]
 	internal bool IsInRelation()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C8")]
-	[Address(RVA = "0x4541510", Offset = "0x4541510", VA = "0x4541510")]
+	[Token(Token = "0x600006B")]
+	[Address(RVA = "0x24C3C60", Offset = "0x24C2260", VA = "0x1824C3C60")]
 	internal bool IsMaxLengthViolated()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000C9")]
-	[Address(RVA = "0x4541D70", Offset = "0x4541D70", VA = "0x4541D70")]
+	[Token(Token = "0x600006C")]
+	[Address(RVA = "0x24C4070", Offset = "0x24C2670", VA = "0x1824C4070")]
 	internal bool IsNotAllowDBNullViolated()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60000CA")]
-	[Address(RVA = "0x4542000", Offset = "0x4542000", VA = "0x4542000")]
+	[Token(Token = "0x600006D")]
+	[Address(RVA = "0x24C3190", Offset = "0x24C1790", VA = "0x1824C3190")]
 	internal void FinishInitInProgress()
 	{
 	}
 
-	[Token(Token = "0x60000CB")]
-	[Address(RVA = "0x4542020", Offset = "0x4542020", VA = "0x4542020", Slot = "18")]
+	[Token(Token = "0x600006E")]
+	[Address(RVA = "0x24C42F0", Offset = "0x24C28F0", VA = "0x1824C42F0", Slot = "18")]
 	protected virtual void OnPropertyChanging(PropertyChangedEventArgs pcevent)
 	{
 	}
 
-	[Token(Token = "0x60000CC")]
-	[Address(RVA = "0x453BF20", Offset = "0x453BF20", VA = "0x453BF20")]
+	[Token(Token = "0x600006F")]
+	[Address(RVA = "0x24C4310", Offset = "0x24C2910", VA = "0x1824C4310")]
 	protected internal void RaisePropertyChanging(string name)
 	{
 	}
 
-	[Token(Token = "0x60000CD")]
-	[Address(RVA = "0x4542050", Offset = "0x4542050", VA = "0x4542050")]
+	[Token(Token = "0x6000070")]
+	[Address(RVA = "0x24C3800", Offset = "0x24C1E00", VA = "0x1824C3800")]
 	private void InsureStorage()
 	{
 	}
 
-	[Token(Token = "0x60000CE")]
-	[Address(RVA = "0x45420E0", Offset = "0x45420E0", VA = "0x45420E0")]
+	[Token(Token = "0x6000071")]
+	[Address(RVA = "0x24C4430", Offset = "0x24C2A30", VA = "0x1824C4430")]
 	internal void SetCapacity(int capacity)
 	{
 	}
 
-	[Token(Token = "0x60000CF")]
-	[Address(RVA = "0x4542190", Offset = "0x4542190", VA = "0x4542190")]
+	[Token(Token = "0x6000072")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	internal void OnSetDataSet()
 	{
 	}
 
-	[Token(Token = "0x60000D0")]
-	[Address(RVA = "0x45421A0", Offset = "0x45421A0", VA = "0x45421A0", Slot = "3")]
+	[Token(Token = "0x6000073")]
+	[Address(RVA = "0x24C4910", Offset = "0x24C2F10", VA = "0x1824C4910", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D1")]
-	[Address(RVA = "0x4542230", Offset = "0x4542230", VA = "0x4542230")]
+	[Token(Token = "0x6000074")]
+	[Address(RVA = "0x24C3080", Offset = "0x24C1680", VA = "0x1824C3080")]
 	internal object ConvertXmlToObject(string s)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D2")]
-	[Address(RVA = "0x45422E0", Offset = "0x45422E0", VA = "0x45422E0")]
+	[Token(Token = "0x6000075")]
+	[Address(RVA = "0x24C30D0", Offset = "0x24C16D0", VA = "0x1824C30D0")]
 	internal object ConvertXmlToObject(XmlReader xmlReader, XmlRootAttribute xmlAttrib)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D3")]
-	[Address(RVA = "0x453C410", Offset = "0x453C410", VA = "0x453C410")]
+	[Token(Token = "0x6000076")]
+	[Address(RVA = "0x24C2FA0", Offset = "0x24C15A0", VA = "0x1824C2FA0")]
 	internal string ConvertObjectToXml(object value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D4")]
-	[Address(RVA = "0x45423A0", Offset = "0x45423A0", VA = "0x45423A0")]
+	[Token(Token = "0x6000077")]
+	[Address(RVA = "0x24C2FF0", Offset = "0x24C15F0", VA = "0x1824C2FF0")]
 	internal void ConvertObjectToXml(object value, XmlWriter xmlWriter, XmlRootAttribute xmlAttrib)
 	{
 	}
 
-	[Token(Token = "0x60000D5")]
-	[Address(RVA = "0x4542470", Offset = "0x4542470", VA = "0x4542470")]
+	[Token(Token = "0x6000078")]
+	[Address(RVA = "0x24C33F0", Offset = "0x24C19F0", VA = "0x1824C33F0")]
 	internal object GetEmptyColumnStore(int recordCount)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x4542510", Offset = "0x4542510", VA = "0x4542510")]
+	[Token(Token = "0x6000079")]
+	[Address(RVA = "0x24C3130", Offset = "0x24C1730", VA = "0x1824C3130")]
 	internal void CopyValueIntoStore(int record, object store, BitArray nullbits, int storeIndex)
 	{
 	}
 
-	[Token(Token = "0x60000D7")]
-	[Address(RVA = "0x4542530", Offset = "0x4542530", VA = "0x4542530")]
+	[Token(Token = "0x600007A")]
+	[Address(RVA = "0x24C46F0", Offset = "0x24C2CF0", VA = "0x1824C46F0")]
 	internal void SetStorage(object store, BitArray nullbits)
 	{
 	}
 
-	[Token(Token = "0x60000D8")]
-	[Address(RVA = "0x45425E0", Offset = "0x45425E0", VA = "0x45425E0")]
+	[Token(Token = "0x600007B")]
+	[Address(RVA = "0x24C1E40", Offset = "0x24C0440", VA = "0x1824C1E40")]
 	internal void AddDependentColumn(DataColumn expressionColumn)
 	{
 	}
 
-	[Token(Token = "0x60000D9")]
-	[Address(RVA = "0x4542700", Offset = "0x4542700", VA = "0x4542700")]
+	[Token(Token = "0x600007C")]
+	[Address(RVA = "0x24C4390", Offset = "0x24C2990", VA = "0x1824C4390")]
 	internal void RemoveDependentColumn(DataColumn expressionColumn)
 	{
 	}
 
-	[Token(Token = "0x60000DA")]
-	[Address(RVA = "0x453D9B0", Offset = "0x453D9B0", VA = "0x453D9B0")]
+	[Token(Token = "0x600007D")]
+	[Address(RVA = "0x24C3460", Offset = "0x24C1A60", VA = "0x1824C3460")]
 	internal void HandleDependentColumnList(DataExpression oldExpression, DataExpression newExpression)
 	{
 	}

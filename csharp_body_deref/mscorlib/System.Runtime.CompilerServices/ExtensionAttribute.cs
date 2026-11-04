@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000472")]
+[Token(Token = "0x20004A1")]
 [AttributeUsage(AttributeTargets.Assembly | AttributeTargets.Class | AttributeTargets.Method)]
 public sealed class ExtensionAttribute : Attribute
 {
-	[Token(Token = "0x600226E")]
-	[Address(RVA = "0x3BC0E00", Offset = "0x3BC0E00", VA = "0x3BC0E00")]
+	[Token(Token = "0x60022EE")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public ExtensionAttribute()
 	{
 	}

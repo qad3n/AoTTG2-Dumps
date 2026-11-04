@@ -14,22 +14,22 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000F2")]
 public class MemberInfoComparer : EqualityComparer<MemberInfo>
 {
-	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x4CCAB20", Offset = "0x4CCAB20", VA = "0x4CCAB20", Slot = "8")]
+	[Token(Token = "0x6000653")]
+	[Address(RVA = "0x2DD7CE0", Offset = "0x2DD62E0", VA = "0x182DD7CE0", Slot = "8")]
 	public override bool Equals(MemberInfo x, MemberInfo y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600064A")]
-	[Address(RVA = "0x4CCAC20", Offset = "0x4CCAC20", VA = "0x4CCAC20", Slot = "9")]
+	[Token(Token = "0x6000654")]
+	[Address(RVA = "0x8E1690", Offset = "0x8DFC90", VA = "0x1808E1690", Slot = "9")]
 	public override int GetHashCode(MemberInfo obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600064B")]
-	[Address(RVA = "0x4CCAC50", Offset = "0x4CCAC50", VA = "0x4CCAC50")]
+	[Token(Token = "0x6000655")]
+	[Address(RVA = "0x2DD7DC0", Offset = "0x2DD63C0", VA = "0x182DD7DC0")]
 	public MemberInfoComparer()
 	{
 	}

@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 namespace System.Net;
 
 [Serializable]
-[Token(Token = "0x200013A")]
+[Token(Token = "0x20002C2")]
 public abstract class EndPoint
 {
-	[Token(Token = "0x170001AE")]
+	[Token(Token = "0x17000403")]
 	public virtual AddressFamily AddressFamily
 	{
-		[Token(Token = "0x60007BE")]
-		[Address(RVA = "0x495DF30", Offset = "0x495DF30", VA = "0x495DF30", Slot = "4")]
+		[Token(Token = "0x600137D")]
+		[Address(RVA = "0x27C93E0", Offset = "0x27C79E0", VA = "0x1827C93E0", Slot = "4")]
 		get
 		{
 			return default(AddressFamily);
 		}
 	}
 
-	[Token(Token = "0x60007BF")]
-	[Address(RVA = "0x495DFC0", Offset = "0x495DFC0", VA = "0x495DFC0", Slot = "5")]
+	[Token(Token = "0x600137E")]
+	[Address(RVA = "0x27C93B0", Offset = "0x27C79B0", VA = "0x1827C93B0", Slot = "5")]
 	public virtual SocketAddress Serialize()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007C0")]
-	[Address(RVA = "0x495E050", Offset = "0x495E050", VA = "0x495E050", Slot = "6")]
+	[Token(Token = "0x600137F")]
+	[Address(RVA = "0x27C9380", Offset = "0x27C7980", VA = "0x1827C9380", Slot = "6")]
 	public virtual EndPoint Create(SocketAddress socketAddress)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60007C1")]
-	[Address(RVA = "0x494BB60", Offset = "0x494BB60", VA = "0x494BB60")]
+	[Token(Token = "0x6001380")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected EndPoint()
 	{
 	}

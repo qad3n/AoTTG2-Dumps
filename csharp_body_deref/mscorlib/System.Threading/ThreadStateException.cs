@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x20001D6")]
+[Token(Token = "0x2000201")]
 public class ThreadStateException : SystemException
 {
-	[Token(Token = "0x6001175")]
-	[Address(RVA = "0x3D28650", Offset = "0x3D28650", VA = "0x3D28650")]
+	[Token(Token = "0x60011D0")]
+	[Address(RVA = "0x1BA5D20", Offset = "0x1BA4320", VA = "0x181BA5D20")]
 	public ThreadStateException()
 	{
 	}
 
-	[Token(Token = "0x6001176")]
-	[Address(RVA = "0x3D28690", Offset = "0x3D28690", VA = "0x3D28690")]
+	[Token(Token = "0x60011D1")]
+	[Address(RVA = "0x1BA5D00", Offset = "0x1BA4300", VA = "0x181BA5D00")]
 	public ThreadStateException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001177")]
-	[Address(RVA = "0x3D286B0", Offset = "0x3D286B0", VA = "0x3D286B0")]
+	[Token(Token = "0x60011D2")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected ThreadStateException(SerializationInfo info, StreamingContext context)
 	{
 	}

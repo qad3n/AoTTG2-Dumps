@@ -1,5 +1,5 @@
 // Type: UI.EditProfilePopup
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/UI/EditProfilePopup.cs
@@ -8,159 +8,108 @@
 
 // UI.EditProfilePopup.<>c__DisplayClass15_0$$.ctor
 // il2cpp: void UI_EditProfilePopup___c__DisplayClass15_0___ctor (UI_EditProfilePopup___c__DisplayClass15_0_o* __this, const MethodInfo* method);
-// 0x43fc410
+// 0x18054c890
 
-void UI_EditProfilePopup___c__DisplayClass15_0___ctor
-               (UI_EditProfilePopup___c__DisplayClass15_0_o *__this,MethodInfo *method)
+void
+UI_EditProfilePopup___c__DisplayClass15_0___ctor(UI_EditProfilePopup___c__DisplayClass15_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.EditProfilePopup.<>c__DisplayClass15_0$$<SetupTopButtons>b__0
 // il2cpp: void UI_EditProfilePopup___c__DisplayClass15_0___SetupTopButtons_b__0 (UI_EditProfilePopup___c__DisplayClass15_0_o* __this, const MethodInfo* method);
-// 0x43fc680
+// 0x182283300
 
-void UI_EditProfilePopup___c__DisplayClass15_0___SetupTopButtons_b__0
-               (UI_EditProfilePopup___c__DisplayClass15_0_o *__this,MethodInfo *method)
+void
+UI_EditProfilePopup___c__DisplayClass15_0___SetupTopButtons_b__0(UI_EditProfilePopup___c__DisplayClass15_0_o* __this, MethodInfo* method)
 
 {
-  long *plVar1;
-  System_Threading_CancellationTokenSource_c *pSVar2;
-  code *vtableDispatch;
-  undefined8 uVar3;
-  Il2CppMethodPointer UNRECOVERED_JUMPTABLE_00;
-  System_Threading_CancellationTokenSource_o *pSVar4;
-  System_String_o *a;
-  bool_conflict bVar5;
-  undefined8 extraout_RDX;
-  UI_TooltipPopup_o *__this_00;
-  UI_EditProfilePopup_o *pUVar6;
+  UI_SettingsPopup_o *pUVar1;
   
-  pUVar6 = (__this->fields).__4__this;
-  if (pUVar6 != (UI_EditProfilePopup_o *)0x0) {
-    UNRECOVERED_JUMPTABLE_00 = (pUVar6->klass->vtable)._28_SetCategoryPanel.methodPtr;
-    (*UNRECOVERED_JUMPTABLE_00)
-              (pUVar6,(__this->fields).buttonName,(pUVar6->klass->vtable)._28_SetCategoryPanel.method,
-               UNRECOVERED_JUMPTABLE_00);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_SettingsPopup_o *)0x0) {
+    (*(pUVar1->klass->vtable)._28_SetCategoryPanel.methodPtr)
+              (pUVar1,(__this->fields).buttonName,(pUVar1->klass->vtable)._28_SetCategoryPanel.method);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar4 = (pUVar6->fields).m_CancellationTokenSource;
-  if (pSVar4 != (System_Threading_CancellationTokenSource_o *)0x0) {
-    a = (System_String_o *)(pUVar6->fields).m_CachedPtr;
-    if (g_data_057ae56c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-      il2cpp_runtime_helper_023445d0(&"Save");
-      g_data_057ae56c = '\x01';
-    }
-    bVar5 = System_String__op_Equality(a,"Save",(MethodInfo *)0x0);
-    if ((char)bVar5 != '\0') {
-      plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 8);
-      if (plVar1 != (long *)0x0) {
-        (**(code **)(*plVar1 + 0x238))();
-        plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x88);
-        if (plVar1 != (long *)0x0) {
-          (**(code **)(*plVar1 + 0x238))(plVar1,*(undefined8 *)(*plVar1 + 0x240));
-          pSVar2 = pSVar4->klass;
-          vtableDispatch = *(code **)&pSVar2[1]._2.element_size;
-          uVar3._0_4_ = pSVar2[1]._2.static_fields_size;
-          uVar3._4_4_ = pSVar2[1]._2.thread_static_fields_size;
-          (*vtableDispatch)(pSVar4,uVar3,extraout_RDX,vtableDispatch);
-          return;
-        }
-      }
-      __this_00 = (UI_TooltipPopup_o *)0x0;
-      il2cpp_runtime_helper_022b2c90();
-      UI_BasePopup___ctor(__this_00,(MethodInfo *)0x0);
-      return;
-    }
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup.<>c__DisplayClass19_0$$.ctor
 // il2cpp: void UI_EditProfilePopup___c__DisplayClass19_0___ctor (UI_EditProfilePopup___c__DisplayClass19_0_o* __this, const MethodInfo* method);
-// 0x43fc590
+// 0x18054c890
 
-void UI_EditProfilePopup___c__DisplayClass19_0___ctor
-               (UI_EditProfilePopup___c__DisplayClass19_0_o *__this,MethodInfo *method)
+void
+UI_EditProfilePopup___c__DisplayClass19_0___ctor(UI_EditProfilePopup___c__DisplayClass19_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.EditProfilePopup.<>c__DisplayClass19_0$$<SetupBottomButtons>b__0
 // il2cpp: void UI_EditProfilePopup___c__DisplayClass19_0___SetupBottomButtons_b__0 (UI_EditProfilePopup___c__DisplayClass19_0_o* __this, const MethodInfo* method);
-// 0x43fc6b0
+// 0x18229cb10
 
 void UI_EditProfilePopup___c__DisplayClass19_0___SetupBottomButtons_b__0
                (UI_EditProfilePopup___c__DisplayClass19_0_o *__this,MethodInfo *method)
 
 {
-  long *plVar1;
-  Il2CppMethodPointer vtableDispatch;
-  UI_EditProfilePopup_o *pUVar2;
+  UI_EditProfilePopup_o *pUVar1;
   System_String_o *a;
-  bool_conflict bVar3;
-  undefined8 extraout_RDX;
-  UI_TooltipPopup_o *__this_00;
+  Settings_ProfileSettings_o *pSVar2;
+  Settings_EmoteSettings_o *pSVar3;
+  bool bVar4;
   
-  pUVar2 = (__this->fields).__4__this;
-  if (pUVar2 == (UI_EditProfilePopup_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    return;
-  }
-  a = (__this->fields).buttonName;
-  if (g_data_057ae56c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&"Save");
-    g_data_057ae56c = '\x01';
-  }
-  bVar3 = System_String__op_Equality(a,"Save",(MethodInfo *)0x0);
-  if ((char)bVar3 != '\0') {
-    plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 8);
-    if (plVar1 != (long *)0x0) {
-      (**(code **)(*plVar1 + 0x238))();
-      plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x88);
-      if (plVar1 != (long *)0x0) {
-        (**(code **)(*plVar1 + 0x238))(plVar1,*(undefined8 *)(*plVar1 + 0x240));
-        vtableDispatch = (pUVar2->klass->vtable)._22_Hide.methodPtr;
-        (*vtableDispatch)
-                  (pUVar2,(pUVar2->klass->vtable)._22_Hide.method,extraout_RDX,vtableDispatch);
+  pUVar1 = (__this->fields).__4__this;
+  if (pUVar1 != (UI_EditProfilePopup_o *)0x0) {
+    a = (__this->fields).buttonName;
+    if (Il2CppMethodInitialized_184347400 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+      il2cpp_codegen_initialize_runtime_metadata(&"Save");
+      Il2CppMethodInitialized_184347400 = '\x01';
+    }
+    bVar4 = System_String__op_Equality(a,"Save",(MethodInfo *)0x0);
+    if (!bVar4) {
+      return;
+    }
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+    if (pSVar2 != (Settings_ProfileSettings_o *)0x0) {
+      (*(pSVar2->klass->vtable)._18_Save.methodPtr)(pSVar2,(pSVar2->klass->vtable)._18_Save.method);
+      pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->EmoteSettings;
+      if (pSVar3 != (Settings_EmoteSettings_o *)0x0) {
+        (*(pSVar3->klass->vtable)._18_Save.methodPtr)(pSVar3,(pSVar3->klass->vtable)._18_Save.method);
+        (*(pUVar1->klass->vtable)._22_Hide.methodPtr)(pUVar1,(pUVar1->klass->vtable)._22_Hide.method);
         return;
       }
     }
-    __this_00 = (UI_TooltipPopup_o *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    UI_BasePopup___ctor(__this_00,(MethodInfo *)0x0);
-    return;
   }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup$$get_Title
 // il2cpp: System_String_o* UI_EditProfilePopup__get_Title (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbe40
+// 0x1818c6010
 
-System_String_o * UI_EditProfilePopup__get_Title(UI_EditProfilePopup_o *__this,MethodInfo *method)
+System_String_o*
+UI_EditProfilePopup__get_Title(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  return (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
+  return (System_String_o *)**(undefined8 **)(g_data_184354e50 + 0xb8);
 }
 
 
 // UI.EditProfilePopup$$get_Width
 // il2cpp: float UI_EditProfilePopup__get_Width (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbe60
+// 0x1822852d0
 
 float UI_EditProfilePopup__get_Width(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
@@ -171,7 +120,7 @@ float UI_EditProfilePopup__get_Width(UI_EditProfilePopup_o *__this,MethodInfo *m
 
 // UI.EditProfilePopup$$get_Height
 // il2cpp: float UI_EditProfilePopup__get_Height (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbe70
+// 0x1822852c0
 
 float UI_EditProfilePopup__get_Height(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
@@ -182,41 +131,39 @@ float UI_EditProfilePopup__get_Height(UI_EditProfilePopup_o *__this,MethodInfo *
 
 // UI.EditProfilePopup$$get_CategoryPanel
 // il2cpp: bool UI_EditProfilePopup__get_CategoryPanel (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbe80
+// 0x1808ed110
 
-bool_conflict UI_EditProfilePopup__get_CategoryPanel(UI_EditProfilePopup_o *__this,MethodInfo *method)
+bool
+UI_EditProfilePopup__get_CategoryPanel(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // UI.EditProfilePopup$$get_CategoryButtons
 // il2cpp: bool UI_EditProfilePopup__get_CategoryButtons (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbe90
+// 0x1808ed110
 
-bool_conflict UI_EditProfilePopup__get_CategoryButtons(UI_EditProfilePopup_o *__this,MethodInfo *method)
+bool
+UI_EditProfilePopup__get_CategoryButtons(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // UI.EditProfilePopup$$get_DefaultCategoryPanel
 // il2cpp: System_String_o* UI_EditProfilePopup__get_DefaultCategoryPanel (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbea0
+// 0x182285290
 
 System_String_o *
 UI_EditProfilePopup__get_DefaultCategoryPanel(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ae568 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Profile");
-    g_data_057ae568 = '\x01';
+  if (Il2CppMethodInitialized_1843473fc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Profile");
+    Il2CppMethodInitialized_1843473fc = '\x01';
   }
   return "Profile";
 }
@@ -224,353 +171,211 @@ UI_EditProfilePopup__get_DefaultCategoryPanel(UI_EditProfilePopup_o *__this,Meth
 
 // UI.EditProfilePopup$$get_UseSound
 // il2cpp: bool UI_EditProfilePopup__get_UseSound (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbed0
+// 0x1808ed110
 
-bool_conflict UI_EditProfilePopup__get_UseSound(UI_EditProfilePopup_o *__this,MethodInfo *method)
+bool
+UI_EditProfilePopup__get_UseSound(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // UI.EditProfilePopup$$Setup
 // il2cpp: void UI_EditProfilePopup__Setup (UI_EditProfilePopup_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x43fbee0
+// 0x182285250
 
 void UI_EditProfilePopup__Setup(UI_EditProfilePopup_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
-  UnityEngine_Transform_o *parent_00;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Il2CppObject *key;
-  int32_t fontSize;
-  System_String_o *pSVar1;
-  UI_ElementStyle_o *pUVar2;
-  long lVar3;
-  UnityEngine_Events_UnityAction_o *pUVar4;
-  UI_HeadedPanel_o *pUVar5;
-  UI_HeadedPanel_o *__this_01;
-  UI_HeadedPanel_o *__this_02;
-  Il2CppObject *value;
-  UI_HeadedPanel_o *__this_03;
-  ulong uVar6;
-  
   UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,(MethodInfo *)0x0);
-  if (g_data_057ae56b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetupBottomButtons_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass19_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Save");
-    g_data_057ae56b = '\x01';
-  }
-  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
-                       (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
-  pSVar1 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar2 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar2,fontSize,120.0,20.0,pSVar1,(MethodInfo *)0x0);
-  __this_03 = TypeInfo_string;
-  lVar3 = il2cpp_runtime_helper_022b2a40(TypeInfo_string,1);
-  if (lVar3 == 0) {
-label_043fc12a:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (*(int *)(lVar3 + 0x18) != 0) {
-    *(undefined8 *)(lVar3 + 0x20) = "Save";
-    il2cpp_runtime_helper_022b4080(lVar3 + 0x20);
-    if (0 < *(int *)(lVar3 + 0x18)) {
-      uVar6 = 0;
-      do {
-        pUVar5 = (UI_HeadedPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass19_0);
-        __this_03 = pUVar5;
-        System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
-        if (pUVar5 == (UI_HeadedPanel_o *)0x0) goto label_043fc12a;
-        __this_03 = (UI_HeadedPanel_o *)&(pUVar5->fields).m_CancellationTokenSource;
-        (pUVar5->fields).m_CancellationTokenSource = (System_Threading_CancellationTokenSource_o *)__this;
-        il2cpp_runtime_helper_022b4080(__this_03,__this);
-        if (*(uint *)(lVar3 + 0x18) <= uVar6) goto label_043fc12f;
-        (pUVar5->fields).m_CachedPtr = *(intptr_t *)(lVar3 + 0x20 + uVar6 * 8);
-        il2cpp_runtime_helper_022b4080(&pUVar5->fields);
-        parent_00 = (__this->fields).BottomBar;
-        pSVar1 = (System_String_o *)(pUVar5->fields).m_CachedPtr;
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
-        pUVar4 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateTextButton(parent_00,pUVar2,pSVar1,0.0,pUVar4,(MethodInfo *)0x0);
-        uVar6 = uVar6 + 1;
-      } while ((long)uVar6 < (long)*(int *)(lVar3 + 0x18));
-    }
-    return;
-  }
-label_043fc12f:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057ae569 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_GetComponent_Button);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetupTopButtons_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass15_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Emote");
-    il2cpp_runtime_helper_023445d0(&"Stats");
-    il2cpp_runtime_helper_023445d0(&"Profile");
-    g_data_057ae569 = '\x01';
-  }
-  pSVar1 = (System_String_o *)
-           (*(__this_03->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this_03,(__this_03->klass->vtable)._4_get_ThemePanel.method);
-  pUVar2 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar2,0x1c,120.0,20.0,pSVar1,(MethodInfo *)0x0);
-  pUVar5 = TypeInfo_string;
-  lVar3 = il2cpp_runtime_helper_022b2a40();
-  if (lVar3 == 0) {
-label_043fc403:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (*(int *)(lVar3 + 0x18) != 0) {
-    pUVar5 = (UI_HeadedPanel_o *)(lVar3 + 0x20);
-    *(undefined8 *)(lVar3 + 0x20) = "Profile";
-    il2cpp_runtime_helper_022b4080();
-    if (1 < *(uint *)(lVar3 + 0x18)) {
-      pUVar5 = (UI_HeadedPanel_o *)(lVar3 + 0x28);
-      *(undefined8 *)(lVar3 + 0x28) = "Emote";
-      il2cpp_runtime_helper_022b4080();
-      if (2 < *(uint *)(lVar3 + 0x18)) {
-        *(undefined8 *)(lVar3 + 0x30) = "Stats";
-        il2cpp_runtime_helper_022b4080(lVar3 + 0x30);
-        if (0 < *(int *)(lVar3 + 0x18)) {
-          uVar6 = 0;
-          do {
-            __this_01 = (UI_HeadedPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass15_0);
-            pUVar5 = __this_01;
-            System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-            if (__this_01 == (UI_HeadedPanel_o *)0x0) goto label_043fc403;
-            pUVar5 = (UI_HeadedPanel_o *)&(__this_01->fields).m_CancellationTokenSource;
-            (__this_01->fields).m_CancellationTokenSource =
-                 (System_Threading_CancellationTokenSource_o *)__this_03;
-            il2cpp_runtime_helper_022b4080();
-            if (*(uint *)(lVar3 + 0x18) <= uVar6) goto label_043fc408;
-            (__this_01->fields).m_CachedPtr = *(intptr_t *)(lVar3 + 0x20 + uVar6 * 8);
-            il2cpp_runtime_helper_022b4080(&__this_01->fields);
-            pUVar5 = (UI_HeadedPanel_o *)(__this_03->fields).TopBar;
-            pSVar1 = (System_String_o *)(__this_01->fields).m_CachedPtr;
-            if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
-            pUVar4 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            __this_02 = (UI_HeadedPanel_o *)
-                        UI_ElementFactory__CreateCategoryButton
-                                  ((UnityEngine_Transform_o *)pUVar5,pUVar2,pSVar1,pUVar4,(MethodInfo *)0x0);
-            if (__this_02 == (UI_HeadedPanel_o *)0x0) goto label_043fc403;
-            __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                        (__this_03->fields)._topButtons;
-            key = (Il2CppObject *)(__this_01->fields).m_CachedPtr;
-            value = UnityEngine_GameObject__GetComponent_object_
-                              ((UnityEngine_GameObject_o *)__this_02,MethodInfo_Button_GetComponent_Button);
-            pUVar5 = __this_02;
-            if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-            goto label_043fc403;
-            System_Collections_Generic_Dictionary_object__object___Add(__this_00,key,value,MethodInfo_Void_Add);
-            uVar6 = uVar6 + 1;
-          } while ((long)uVar6 < (long)*(int *)(lVar3 + 0x18));
-        }
-        UI_HeadedPanel__SetupTopButtons(__this_03,(MethodInfo *)0x0);
-        return;
-      }
-    }
-  }
-label_043fc408:
-  il2cpp_runtime_helper_022b2ca0();
-  System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
+  UI_EditProfilePopup__SetupBottomButtons(__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.EditProfilePopup$$SetupTopButtons
 // il2cpp: void UI_EditProfilePopup__SetupTopButtons (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fc140
+// 0x182284f90
 
 void UI_EditProfilePopup__SetupTopButtons(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
 {
+  Il2CppClass *value;
+  UnityEngine_Transform_o *parent;
   System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Il2CppObject *key;
   System_String_o *pSVar1;
   UI_ElementStyle_o *__this_01;
-  long lVar2;
-  UnityEngine_Transform_o *__this_02;
-  UnityEngine_Events_UnityAction_o *onClick;
-  UnityEngine_Transform_o *__this_03;
-  Il2CppObject *value;
-  UnityEngine_Transform_o *parent;
-  ulong uVar3;
+  Il2CppObject *pIVar2;
+  UI_EditProfilePopup___c__DisplayClass15_0_o *object;
+  UnityEngine_Events_UnityAction_o *__this_02;
+  UnityEngine_GameObject_o *__this_03;
+  UnityEngine_UI_Button_o *value_00;
+  uint uVar3;
   
-  if (g_data_057ae569 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_GetComponent_Button);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetupTopButtons_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass15_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Emote");
-    il2cpp_runtime_helper_023445d0(&"Stats");
-    il2cpp_runtime_helper_023445d0(&"Profile");
-    g_data_057ae569 = '\x01';
+  if (Il2CppMethodInitialized_1843473fd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Button_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_EditProfilePopup_c__DisplayClass15_0_SetupTopButtons_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_EditProfilePopup_c__DisplayClass15_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"Emote");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stats");
+    il2cpp_codegen_initialize_runtime_metadata(&"Profile");
+    Il2CppMethodInitialized_1843473fd = '\x01';
   }
-  pSVar1 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+  pSVar1 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  __this_01 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
+  __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
   UI_ElementStyle___ctor(__this_01,0x1c,120.0,20.0,pSVar1,(MethodInfo *)0x0);
-  parent = TypeInfo_string;
-  lVar2 = il2cpp_runtime_helper_022b2a40();
-  if (lVar2 == 0) {
-label_043fc403:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (*(int *)(lVar2 + 0x18) != 0) {
-    parent = (UnityEngine_Transform_o *)(lVar2 + 0x20);
-    *(undefined8 *)(lVar2 + 0x20) = "Profile";
-    il2cpp_runtime_helper_022b4080();
-    if (1 < *(uint *)(lVar2 + 0x18)) {
-      parent = (UnityEngine_Transform_o *)(lVar2 + 0x28);
-      *(undefined8 *)(lVar2 + 0x28) = "Emote";
-      il2cpp_runtime_helper_022b4080();
-      if (2 < *(uint *)(lVar2 + 0x18)) {
-        *(undefined8 *)(lVar2 + 0x30) = "Stats";
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x30);
-        if (0 < *(int *)(lVar2 + 0x18)) {
+  pIVar2 = SZArrayNew(TypeInfo_string_array,3);
+  pSVar1 = "Profile";
+  if (pIVar2 != (Il2CppObject *)0x0) {
+    if (*(int *)&pIVar2[1].monitor != 0) {
+      pIVar2[2].klass = (Il2CppClass *)"Profile";
+      Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,pSVar1);
+      pSVar1 = "Emote";
+      if (1 < *(uint *)&pIVar2[1].monitor) {
+        pIVar2[2].monitor = "Emote";
+        Il2CppCodeGenWriteBarrier(&pIVar2[2].monitor,pSVar1);
+        pSVar1 = "Stats";
+        if (2 < *(uint *)&pIVar2[1].monitor) {
+          pIVar2[3].klass = (Il2CppClass *)"Stats";
+          Il2CppCodeGenWriteBarrier(&pIVar2[3].klass,pSVar1);
           uVar3 = 0;
-          do {
-            __this_02 = (UnityEngine_Transform_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass15_0);
-            parent = __this_02;
-            System_Object___ctor((Il2CppObject *)__this_02,(MethodInfo *)0x0);
-            if (__this_02 == (UnityEngine_Transform_o *)0x0) goto label_043fc403;
-            parent = __this_02 + 1;
-            __this_02[1].klass = (UnityEngine_Transform_c *)__this;
-            il2cpp_runtime_helper_022b4080();
-            if (*(uint *)(lVar2 + 0x18) <= uVar3) goto label_043fc408;
-            (__this_02->fields).m_CachedPtr = *(intptr_t *)(lVar2 + 0x20 + uVar3 * 8);
-            il2cpp_runtime_helper_022b4080(&__this_02->fields);
+          while( true ) {
+            if (*(int *)&pIVar2[1].monitor <= (int)uVar3) {
+              UI_HeadedPanel__SetupTopButtons((UI_HeadedPanel_o *)__this,(MethodInfo *)0x0);
+              return;
+            }
+            object = il2cpp_codegen_object_new
+                               ((Il2CppClass *)TypeInfo_UI_EditProfilePopup_c__DisplayClass15_0);
+            System_Object___ctor
+                      ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0)
+            ;
+            if (object == (UI_EditProfilePopup___c__DisplayClass15_0_o *)0x0) break;
+            (object->fields).__4__this = __this;
+            Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+            if (*(uint *)&pIVar2[1].monitor <= uVar3) goto label_182285247;
+            value = (&pIVar2[2].klass)[(int)uVar3];
+            (object->fields).buttonName = (System_String_o *)value;
+            Il2CppCodeGenWriteBarrier(&(object->fields).buttonName,value);
             parent = (__this->fields).TopBar;
-            pSVar1 = (System_String_o *)(__this_02->fields).m_CachedPtr;
-            if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+            pSVar1 = (object->fields).buttonName;
+            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
             }
             pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
-            onClick = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            __this_03 = (UnityEngine_Transform_o *)
-                        UI_ElementFactory__CreateCategoryButton
-                                  (parent,__this_01,pSVar1,onClick,(MethodInfo *)0x0);
-            if (__this_03 == (UnityEngine_Transform_o *)0x0) goto label_043fc403;
+            __this_02 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+            UnityEngine_Events_UnityAction___ctor
+                      ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_02,(Il2CppObject *)object,
+                       (intptr_t)MethodInfo_UI_EditProfilePopup_c__DisplayClass15_0_SetupTopButtons_b__0,
+                       (MethodInfo *)0x0);
+            __this_03 = UI_ElementFactory__CreateCategoryButton
+                                  (parent,__this_01,pSVar1,__this_02,(MethodInfo *)0x0);
+            if (__this_03 == (UnityEngine_GameObject_o *)0x0) break;
             __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
                         (__this->fields)._topButtons;
-            key = (Il2CppObject *)(__this_02->fields).m_CachedPtr;
-            value = UnityEngine_GameObject__GetComponent_object_
-                              ((UnityEngine_GameObject_o *)__this_03,MethodInfo_Button_GetComponent_Button);
-            parent = __this_03;
-            if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-            goto label_043fc403;
-            System_Collections_Generic_Dictionary_object__object___Add(__this_00,key,value,MethodInfo_Void_Add);
+            pSVar1 = (object->fields).buttonName;
+            value_00 = UnityEngine_GameObject__GetComponent_object_
+                                 (__this_03,
+                                  (MethodInfo_6F5650 *)MethodInfo_UnityEngine_GameObject_GetComponent_Button);
+            if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) break;
+            System_Collections_Generic_Dictionary_object__object___Add
+                      (__this_00,(Il2CppObject *)pSVar1,(Il2CppObject *)value_00,
+                       (MethodInfo_146B4B0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Button_Add);
             uVar3 = uVar3 + 1;
-          } while ((long)uVar3 < (long)*(int *)(lVar2 + 0x18));
+          }
+          goto label_182285241;
         }
-        UI_HeadedPanel__SetupTopButtons((UI_HeadedPanel_o *)__this,(MethodInfo *)0x0);
-        return;
       }
     }
+label_182285247:
+    ThrowIndexOutOfRangeException();
   }
-label_043fc408:
-  il2cpp_runtime_helper_022b2ca0();
-  System_Object___ctor((Il2CppObject *)parent,(MethodInfo *)0x0);
-  return;
+label_182285241:
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup$$RegisterCategoryPanels
 // il2cpp: void UI_EditProfilePopup__RegisterCategoryPanels (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fc420
+// 0x182284c30
 
 void UI_EditProfilePopup__RegisterCategoryPanels(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
 {
   System_Collections_Generic_Dictionary_object__object__o *pSVar1;
+  Il2CppType *handle;
   System_Type_o *pSVar2;
-  System_RuntimeTypeHandle_o handle;
   
-  if (g_data_057ae56a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeRef_EditProfileEmotePanel);
-    il2cpp_runtime_helper_023445d0(&TypeRef_EditProfileProfilePanel);
-    il2cpp_runtime_helper_023445d0(&TypeRef_EditProfileStatsPanel);
-    il2cpp_runtime_helper_023445d0(&"Emote");
-    il2cpp_runtime_helper_023445d0(&"Stats");
-    il2cpp_runtime_helper_023445d0(&"Profile");
-    g_data_057ae56a = '\x01';
+  if (Il2CppMethodInitialized_1843473fe == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UI_EditProfileEmotePanel);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UI_EditProfileProfilePanel);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeRef_UI_EditProfileStatsPanel);
+    il2cpp_codegen_initialize_runtime_metadata(&"Emote");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stats");
+    il2cpp_codegen_initialize_runtime_metadata(&"Profile");
+    Il2CppMethodInitialized_1843473fe = '\x01';
   }
-  handle.fields.value = TypeRef_EditProfileProfilePanel.fields.value;
+  handle = TypeRef_UI_EditProfileProfilePanel;
   pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._categoryPanelTypes;
-  if (*(int *)(g_data_057b9c50 + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((g_data_184354ea0->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init(g_data_184354ea0);
   }
-  pSVar2 = System_Type__GetTypeFromHandle(handle,(MethodInfo *)0x0);
+  pSVar2 = System_Type__GetTypeFromHandle((System_RuntimeTypeHandle_o)handle,(MethodInfo *)0x0);
   if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
     System_Collections_Generic_Dictionary_object__object___Add
-              (pSVar1,"Profile",(Il2CppObject *)pSVar2,MethodInfo_Void_Add);
+              (pSVar1,(Il2CppObject *)"Profile",(Il2CppObject *)pSVar2,
+               (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
     pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._categoryPanelTypes;
-    handle.fields.value = TypeRef_EditProfileEmotePanel.fields.value;
-    pSVar2 = System_Type__GetTypeFromHandle(TypeRef_EditProfileEmotePanel,(MethodInfo *)0x0);
+    pSVar2 = System_Type__GetTypeFromHandle
+                       ((System_RuntimeTypeHandle_o)TypeRef_UI_EditProfileEmotePanel,(MethodInfo *)0x0);
     if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
       System_Collections_Generic_Dictionary_object__object___Add
-                (pSVar1,"Emote",(Il2CppObject *)pSVar2,MethodInfo_Void_Add);
+                (pSVar1,(Il2CppObject *)"Emote",(Il2CppObject *)pSVar2,
+                 (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
       pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)(__this->fields)._categoryPanelTypes
       ;
-      handle.fields.value = TypeRef_EditProfileStatsPanel.fields.value;
-      pSVar2 = System_Type__GetTypeFromHandle(TypeRef_EditProfileStatsPanel,(MethodInfo *)0x0);
+      pSVar2 = System_Type__GetTypeFromHandle
+                         ((System_RuntimeTypeHandle_o)TypeRef_UI_EditProfileStatsPanel,(MethodInfo *)0x0);
       if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
         System_Collections_Generic_Dictionary_object__object___Add
-                  (pSVar1,"Stats",(Il2CppObject *)pSVar2,MethodInfo_Void_Add);
+                  (pSVar1,(Il2CppObject *)"Stats",(Il2CppObject *)pSVar2,
+                   (MethodInfo_146B4B0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Type_Add);
         return;
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  UI_BasePanel__SetupPopups((UI_BasePanel_o *)handle.fields.value,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup$$SetupPopups
 // il2cpp: void UI_EditProfilePopup__SetupPopups (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fc560
+// 0x18054c890
 
-void UI_EditProfilePopup__SetupPopups(UI_EditProfilePopup_o *__this,MethodInfo *method)
+void
+UI_EditProfilePopup__SetupPopups(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  UI_BasePanel__SetupPopups((UI_BasePanel_o *)__this,(MethodInfo *)0x0);
+  System_Configuration_ConfigurationCollectionAttribute___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.EditProfilePopup$$Show
 // il2cpp: void UI_EditProfilePopup__Show (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fc570
+// 0x182285270
 
 void UI_EditProfilePopup__Show(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
@@ -583,217 +388,124 @@ void UI_EditProfilePopup__Show(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
 // UI.EditProfilePopup$$SetupBottomButtons
 // il2cpp: void UI_EditProfilePopup__SetupBottomButtons (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fbf00
+// 0x182284d70
 
 void UI_EditProfilePopup__SetupBottomButtons(UI_EditProfilePopup_o *__this,MethodInfo *method)
 
 {
+  Il2CppClass *value;
   UnityEngine_Transform_o *parent;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
-  Il2CppObject *key;
   int32_t fontSize;
   System_String_o *pSVar1;
-  UI_ElementStyle_o *pUVar2;
-  long lVar3;
-  UnityEngine_Events_UnityAction_o *pUVar4;
-  UI_HeadedPanel_o *pUVar5;
-  UI_HeadedPanel_o *__this_01;
-  UI_HeadedPanel_o *__this_02;
-  Il2CppObject *value;
-  UI_HeadedPanel_o *__this_03;
-  ulong uVar6;
+  UI_ElementStyle_o *__this_00;
+  Il2CppObject *pIVar2;
+  UI_EditProfilePopup___c__DisplayClass19_0_o *object;
+  UnityEngine_Events_UnityAction_o *__this_01;
+  uint uVar3;
   
-  if (g_data_057ae56b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetupBottomButtons_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass19_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Save");
-    g_data_057ae56b = '\x01';
+  if (Il2CppMethodInitialized_1843473ff == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_EditProfilePopup_c__DisplayClass19_0_SetupBottomButtons_b__0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_EditProfilePopup_c__DisplayClass19_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"Save");
+    Il2CppMethodInitialized_1843473ff = '\x01';
   }
-  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)
-                       (__this,(__this->klass->vtable)._41_get_ButtonFontSize.method);
-  pSVar1 = (System_String_o *)
-           (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+  fontSize = (*(__this->klass->vtable)._41_get_ButtonFontSize.methodPtr)(__this);
+  pSVar1 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-  pUVar2 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar2,fontSize,120.0,20.0,pSVar1,(MethodInfo *)0x0);
-  __this_03 = TypeInfo_string;
-  lVar3 = il2cpp_runtime_helper_022b2a40(TypeInfo_string,1);
-  if (lVar3 == 0) {
-label_043fc12a:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (*(int *)(lVar3 + 0x18) != 0) {
-    *(undefined8 *)(lVar3 + 0x20) = "Save";
-    il2cpp_runtime_helper_022b4080(lVar3 + 0x20);
-    if (0 < *(int *)(lVar3 + 0x18)) {
-      uVar6 = 0;
-      do {
-        pUVar5 = (UI_HeadedPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass19_0);
-        __this_03 = pUVar5;
-        System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
-        if (pUVar5 == (UI_HeadedPanel_o *)0x0) goto label_043fc12a;
-        __this_03 = (UI_HeadedPanel_o *)&(pUVar5->fields).m_CancellationTokenSource;
-        (pUVar5->fields).m_CancellationTokenSource = (System_Threading_CancellationTokenSource_o *)__this;
-        il2cpp_runtime_helper_022b4080(__this_03,__this);
-        if (*(uint *)(lVar3 + 0x18) <= uVar6) goto label_043fc12f;
-        (pUVar5->fields).m_CachedPtr = *(intptr_t *)(lVar3 + 0x20 + uVar6 * 8);
-        il2cpp_runtime_helper_022b4080(&pUVar5->fields);
-        parent = (__this->fields).BottomBar;
-        pSVar1 = (System_String_o *)(pUVar5->fields).m_CachedPtr;
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
-        pUVar4 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateTextButton(parent,pUVar2,pSVar1,0.0,pUVar4,(MethodInfo *)0x0);
-        uVar6 = uVar6 + 1;
-      } while ((long)uVar6 < (long)*(int *)(lVar3 + 0x18));
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+  UI_ElementStyle___ctor(__this_00,fontSize,120.0,20.0,pSVar1,(MethodInfo *)0x0);
+  pIVar2 = SZArrayNew(TypeInfo_string_array,1);
+  pSVar1 = "Save";
+  if (pIVar2 != (Il2CppObject *)0x0) {
+    if (*(int *)&pIVar2[1].monitor == 0) {
+label_182284f82:
+      ThrowIndexOutOfRangeException();
     }
-    return;
-  }
-label_043fc12f:
-  il2cpp_runtime_helper_022b2ca0();
-  if (g_data_057ae569 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Button_GetComponent_Button);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_SetupTopButtons_b__0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass15_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Emote");
-    il2cpp_runtime_helper_023445d0(&"Stats");
-    il2cpp_runtime_helper_023445d0(&"Profile");
-    g_data_057ae569 = '\x01';
-  }
-  pSVar1 = (System_String_o *)
-           (*(__this_03->klass->vtable)._4_get_ThemePanel.methodPtr)
-                     (__this_03,(__this_03->klass->vtable)._4_get_ThemePanel.method);
-  pUVar2 = (UI_ElementStyle_o *)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-  UI_ElementStyle___ctor(pUVar2,0x1c,120.0,20.0,pSVar1,(MethodInfo *)0x0);
-  pUVar5 = TypeInfo_string;
-  lVar3 = il2cpp_runtime_helper_022b2a40();
-  if (lVar3 == 0) {
-label_043fc403:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  else if (*(int *)(lVar3 + 0x18) != 0) {
-    pUVar5 = (UI_HeadedPanel_o *)(lVar3 + 0x20);
-    *(undefined8 *)(lVar3 + 0x20) = "Profile";
-    il2cpp_runtime_helper_022b4080();
-    if (1 < *(uint *)(lVar3 + 0x18)) {
-      pUVar5 = (UI_HeadedPanel_o *)(lVar3 + 0x28);
-      *(undefined8 *)(lVar3 + 0x28) = "Emote";
-      il2cpp_runtime_helper_022b4080();
-      if (2 < *(uint *)(lVar3 + 0x18)) {
-        *(undefined8 *)(lVar3 + 0x30) = "Stats";
-        il2cpp_runtime_helper_022b4080(lVar3 + 0x30);
-        if (0 < *(int *)(lVar3 + 0x18)) {
-          uVar6 = 0;
-          do {
-            __this_01 = (UI_HeadedPanel_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass15_0);
-            pUVar5 = __this_01;
-            System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-            if (__this_01 == (UI_HeadedPanel_o *)0x0) goto label_043fc403;
-            pUVar5 = (UI_HeadedPanel_o *)&(__this_01->fields).m_CancellationTokenSource;
-            (__this_01->fields).m_CancellationTokenSource =
-                 (System_Threading_CancellationTokenSource_o *)__this_03;
-            il2cpp_runtime_helper_022b4080();
-            if (*(uint *)(lVar3 + 0x18) <= uVar6) goto label_043fc408;
-            (__this_01->fields).m_CachedPtr = *(intptr_t *)(lVar3 + 0x20 + uVar6 * 8);
-            il2cpp_runtime_helper_022b4080(&__this_01->fields);
-            pUVar5 = (UI_HeadedPanel_o *)(__this_03->fields).TopBar;
-            pSVar1 = (System_String_o *)(__this_01->fields).m_CachedPtr;
-            if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
-            pUVar4 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            __this_02 = (UI_HeadedPanel_o *)
-                        UI_ElementFactory__CreateCategoryButton
-                                  ((UnityEngine_Transform_o *)pUVar5,pUVar2,pSVar1,pUVar4,(MethodInfo *)0x0);
-            if (__this_02 == (UI_HeadedPanel_o *)0x0) goto label_043fc403;
-            __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                        (__this_03->fields)._topButtons;
-            key = (Il2CppObject *)(__this_01->fields).m_CachedPtr;
-            value = UnityEngine_GameObject__GetComponent_object_
-                              ((UnityEngine_GameObject_o *)__this_02,MethodInfo_Button_GetComponent_Button);
-            pUVar5 = __this_02;
-            if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0)
-            goto label_043fc403;
-            System_Collections_Generic_Dictionary_object__object___Add(__this_00,key,value,MethodInfo_Void_Add);
-            uVar6 = uVar6 + 1;
-          } while ((long)uVar6 < (long)*(int *)(lVar3 + 0x18));
-        }
-        UI_HeadedPanel__SetupTopButtons(__this_03,(MethodInfo *)0x0);
+    pIVar2[2].klass = (Il2CppClass *)"Save";
+    Il2CppCodeGenWriteBarrier(&pIVar2[2].klass,pSVar1);
+    uVar3 = 0;
+    while( true ) {
+      if (*(int *)&pIVar2[1].monitor <= (int)uVar3) {
         return;
       }
+      object = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_EditProfilePopup_c__DisplayClass19_0);
+      System_Object___ctor
+                ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+      if (object == (UI_EditProfilePopup___c__DisplayClass19_0_o *)0x0) break;
+      (object->fields).__4__this = __this;
+      Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+      if (*(uint *)&pIVar2[1].monitor <= uVar3) goto label_182284f82;
+      value = (&pIVar2[2].klass)[(int)uVar3];
+      (object->fields).buttonName = (System_String_o *)value;
+      Il2CppCodeGenWriteBarrier(&(object->fields).buttonName,value);
+      parent = (__this->fields).BottomBar;
+      pSVar1 = (object->fields).buttonName;
+      if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+      }
+      pSVar1 = UI_UIManager__GetLocaleCommon(pSVar1,(MethodInfo *)0x0);
+      __this_01 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+      UnityEngine_Events_UnityAction___ctor
+                ((UnityEngine_Font_FontTextureRebuildCallback_o *)__this_01,(Il2CppObject *)object,
+                 (intptr_t)MethodInfo_UI_EditProfilePopup_c__DisplayClass19_0_SetupBottomButtons_b__0,
+                 (MethodInfo *)0x0);
+      UI_ElementFactory__CreateTextButton(parent,__this_00,pSVar1,0.0,__this_01,(MethodInfo *)0x0);
+      uVar3 = uVar3 + 1;
     }
   }
-label_043fc408:
-  il2cpp_runtime_helper_022b2ca0();
-  System_Object___ctor((Il2CppObject *)pUVar5,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup$$OnBottomBarButtonClick
 // il2cpp: void UI_EditProfilePopup__OnBottomBarButtonClick (UI_EditProfilePopup_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x43fc5a0
+// 0x182284b60
 
 void UI_EditProfilePopup__OnBottomBarButtonClick
                (UI_EditProfilePopup_o *__this,System_String_o *name,MethodInfo *method)
 
 {
-  long *plVar1;
-  Il2CppMethodPointer vtableDispatch;
-  bool_conflict bVar2;
-  undefined8 extraout_RDX;
-  UI_TooltipPopup_o *__this_00;
+  Settings_ProfileSettings_o *pSVar1;
+  Settings_EmoteSettings_o *pSVar2;
+  bool bVar3;
   
-  if (g_data_057ae56c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&"Save");
-    g_data_057ae56c = '\x01';
+  if (Il2CppMethodInitialized_184347400 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Save");
+    Il2CppMethodInitialized_184347400 = '\x01';
   }
-  bVar2 = System_String__op_Equality(name,"Save",(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 8);
-    if (plVar1 != (long *)0x0) {
-      (**(code **)(*plVar1 + 0x238))();
-      plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x88);
-      if (plVar1 != (long *)0x0) {
-        (**(code **)(*plVar1 + 0x238))(plVar1,*(undefined8 *)(*plVar1 + 0x240));
-        vtableDispatch = (__this->klass->vtable)._22_Hide.methodPtr;
-        (*vtableDispatch)
-                  (__this,(__this->klass->vtable)._22_Hide.method,extraout_RDX,vtableDispatch);
-        return;
-      }
-    }
-    __this_00 = (UI_TooltipPopup_o *)0x0;
-    il2cpp_runtime_helper_022b2c90();
-    UI_BasePopup___ctor(__this_00,(MethodInfo *)0x0);
+  bVar3 = System_String__op_Equality(name,"Save",(MethodInfo *)0x0);
+  if (!bVar3) {
     return;
   }
-  return;
+  pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->ProfileSettings;
+  if (pSVar1 != (Settings_ProfileSettings_o *)0x0) {
+    (*(pSVar1->klass->vtable)._18_Save.methodPtr)(pSVar1,(pSVar1->klass->vtable)._18_Save.method);
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->EmoteSettings;
+    if (pSVar2 != (Settings_EmoteSettings_o *)0x0) {
+      (*(pSVar2->klass->vtable)._18_Save.methodPtr)(pSVar2,(pSVar2->klass->vtable)._18_Save.method);
+      (*(__this->klass->vtable)._22_Hide.methodPtr)(__this,(__this->klass->vtable)._22_Hide.method);
+      return;
+    }
+  }
+  ThrowNullReferenceException();
 }
 
 
 // UI.EditProfilePopup$$.ctor
 // il2cpp: void UI_EditProfilePopup___ctor (UI_EditProfilePopup_o* __this, const MethodInfo* method);
-// 0x43fc670
+// 0x1821c11a0
 
-void UI_EditProfilePopup___ctor(UI_EditProfilePopup_o *__this,MethodInfo *method)
+void
+UI_EditProfilePopup___ctor(UI_EditProfilePopup_o* __this, MethodInfo* method)
 
 {
-  UI_BasePopup___ctor((UI_TooltipPopup_o *)__this,(MethodInfo *)0x0);
+  UI_BasePopup___ctor((UI_BasePopup_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

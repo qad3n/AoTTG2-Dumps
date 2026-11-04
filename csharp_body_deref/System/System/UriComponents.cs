@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000084")]
+[Token(Token = "0x20000C3")]
 [Flags]
 public enum UriComponents
 {
-	[Token(Token = "0x40001E0")]
+	[Token(Token = "0x40002B0")]
 	Scheme = 1,
-	[Token(Token = "0x40001E1")]
+	[Token(Token = "0x40002B1")]
 	UserInfo = 2,
-	[Token(Token = "0x40001E2")]
+	[Token(Token = "0x40002B2")]
 	Host = 4,
-	[Token(Token = "0x40001E3")]
+	[Token(Token = "0x40002B3")]
 	Port = 8,
-	[Token(Token = "0x40001E4")]
+	[Token(Token = "0x40002B4")]
 	Path = 0x10,
-	[Token(Token = "0x40001E5")]
+	[Token(Token = "0x40002B5")]
 	Query = 0x20,
-	[Token(Token = "0x40001E6")]
+	[Token(Token = "0x40002B6")]
 	Fragment = 0x40,
-	[Token(Token = "0x40001E7")]
+	[Token(Token = "0x40002B7")]
 	StrongPort = 0x80,
-	[Token(Token = "0x40001E8")]
+	[Token(Token = "0x40002B8")]
 	NormalizedHost = 0x100,
-	[Token(Token = "0x40001E9")]
+	[Token(Token = "0x40002B9")]
 	KeepDelimiter = 0x40000000,
-	[Token(Token = "0x40001EA")]
-	SerializationInfoString = int.MinValue,
-	[Token(Token = "0x40001EB")]
-	AbsoluteUri = 0x7F,
-	[Token(Token = "0x40001EC")]
-	HostAndPort = 0x84,
-	[Token(Token = "0x40001ED")]
-	StrongAuthority = 0x86,
-	[Token(Token = "0x40001EE")]
+	[Token(Token = "0x40002BA")]
+	SerializationInfoString = -2147483648,
+	[Token(Token = "0x40002BB")]
+	AbsoluteUri = Scheme | UserInfo | Host | Port | Path | Query | Fragment,
+	[Token(Token = "0x40002BC")]
+	HostAndPort = Host | StrongPort,
+	[Token(Token = "0x40002BD")]
+	StrongAuthority = HostAndPort | UserInfo,
+	[Token(Token = "0x40002BE")]
 	SchemeAndServer = 0xD,
-	[Token(Token = "0x40001EF")]
+	[Token(Token = "0x40002BF")]
 	HttpRequestUrl = 0x3D,
-	[Token(Token = "0x40001F0")]
+	[Token(Token = "0x40002C0")]
 	PathAndQuery = 0x30
 }

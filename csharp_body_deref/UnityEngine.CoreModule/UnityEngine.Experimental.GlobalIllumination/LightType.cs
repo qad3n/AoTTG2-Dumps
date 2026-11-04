@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.GlobalIllumination;
 
-[Token(Token = "0x2000338")]
+[Token(Token = "0x20003DF")]
 public enum LightType : byte
 {
-	[Token(Token = "0x4000A3F")]
+	[Token(Token = "0x4000CC6")]
 	Directional,
-	[Token(Token = "0x4000A40")]
+	[Token(Token = "0x4000CC7")]
 	Point,
-	[Token(Token = "0x4000A41")]
+	[Token(Token = "0x4000CC8")]
 	Spot,
-	[Token(Token = "0x4000A42")]
+	[Token(Token = "0x4000CC9")]
 	Rectangle,
-	[Token(Token = "0x4000A43")]
+	[Token(Token = "0x4000CCA")]
 	Disc,
-	[Token(Token = "0x4000A44")]
+	[Token(Token = "0x4000CCB")]
 	SpotPyramidShape,
-	[Token(Token = "0x4000A45")]
+	[Token(Token = "0x4000CCC")]
 	SpotBoxShape
 }

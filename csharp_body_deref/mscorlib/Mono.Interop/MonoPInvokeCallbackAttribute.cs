@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 
 namespace Mono.Interop;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200004D")]
 [AttributeUsage(AttributeTargets.Method)]
 internal sealed class MonoPInvokeCallbackAttribute : Attribute
 {
-	[Token(Token = "0x60000A1")]
-	[Address(RVA = "0x3AD1500", Offset = "0x3AD1500", VA = "0x3AD1500")]
+	[Token(Token = "0x60000B9")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public MonoPInvokeCallbackAttribute(Type t)
 	{
 	}

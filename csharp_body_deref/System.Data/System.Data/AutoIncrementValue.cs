@@ -10,79 +10,79 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000010")]
+[Token(Token = "0x200000A")]
 internal abstract class AutoIncrementValue
 {
-	[Token(Token = "0x17000038")]
+	[Token(Token = "0x1700002B")]
 	internal bool Auto
 	{
-		[Token(Token = "0x60000DB")]
-		[Address(RVA = "0x45427A0", Offset = "0x45427A0", VA = "0x45427A0")]
+		[Token(Token = "0x600007E")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60000DC")]
-		[Address(RVA = "0x45427B0", Offset = "0x45427B0", VA = "0x45427B0")]
+		[Token(Token = "0x600007F")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000039")]
+	[Token(Token = "0x1700002C")]
 	internal abstract object Current
 	{
-		[Token(Token = "0x60000DD")]
+		[Token(Token = "0x6000080")]
 		get;
-		[Token(Token = "0x60000DE")]
+		[Token(Token = "0x6000081")]
 		set;
 	}
 
-	[Token(Token = "0x1700003A")]
+	[Token(Token = "0x1700002D")]
 	internal abstract long Seed
 	{
-		[Token(Token = "0x60000DF")]
+		[Token(Token = "0x6000082")]
 		get;
-		[Token(Token = "0x60000E0")]
+		[Token(Token = "0x6000083")]
 		set;
 	}
 
-	[Token(Token = "0x1700003B")]
+	[Token(Token = "0x1700002E")]
 	internal abstract long Step
 	{
-		[Token(Token = "0x60000E1")]
+		[Token(Token = "0x6000084")]
 		get;
-		[Token(Token = "0x60000E2")]
+		[Token(Token = "0x6000085")]
 		set;
 	}
 
-	[Token(Token = "0x1700003C")]
+	[Token(Token = "0x1700002F")]
 	internal abstract Type DataType
 	{
-		[Token(Token = "0x60000E3")]
+		[Token(Token = "0x6000086")]
 		get;
 	}
 
-	[Token(Token = "0x60000E4")]
+	[Token(Token = "0x6000087")]
 	internal abstract void SetCurrent(object value, IFormatProvider formatProvider);
 
-	[Token(Token = "0x60000E5")]
+	[Token(Token = "0x6000088")]
 	internal abstract void SetCurrentAndIncrement(object value);
 
-	[Token(Token = "0x60000E6")]
+	[Token(Token = "0x6000089")]
 	internal abstract void MoveAfter();
 
-	[Token(Token = "0x60000E7")]
-	[Address(RVA = "0x45410D0", Offset = "0x45410D0", VA = "0x45410D0")]
+	[Token(Token = "0x600008A")]
+	[Address(RVA = "0x24C1C20", Offset = "0x24C0220", VA = "0x1824C1C20")]
 	internal AutoIncrementValue Clone()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60000E8")]
-	[Address(RVA = "0x45427C0", Offset = "0x45427C0", VA = "0x45427C0")]
+	[Token(Token = "0x600008B")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected AutoIncrementValue()
 	{
 	}

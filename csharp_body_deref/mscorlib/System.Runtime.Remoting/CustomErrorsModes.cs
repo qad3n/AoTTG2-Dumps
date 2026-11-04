@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x200033C")]
+[Token(Token = "0x200036B")]
 [ComVisible(true)]
 public enum CustomErrorsModes
 {
-	[Token(Token = "0x4000E6D")]
+	[Token(Token = "0x4000E7A")]
 	On,
-	[Token(Token = "0x4000E6E")]
+	[Token(Token = "0x4000E7B")]
 	Off,
-	[Token(Token = "0x4000E6F")]
+	[Token(Token = "0x4000E7C")]
 	RemoteOnly
 }

@@ -14,11 +14,11 @@ using Il2CppDummyDll;
 
 namespace System.Resources;
 
-[Token(Token = "0x20004BD")]
+[Token(Token = "0x20004ED")]
 [ComVisible(true)]
 public sealed class ResourceReader : IResourceReader, IEnumerable, IDisposable
 {
-	[Token(Token = "0x20004BE")]
+	[Token(Token = "0x20004EE")]
 	internal sealed class ResourceEnumerator : IDictionaryEnumerator, IEnumerator
 	{
 		[Token(Token = "0x400139D")]
@@ -37,76 +37,76 @@ public sealed class ResourceReader : IResourceReader, IEnumerable, IDisposable
 		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		private int _dataPosition;
 
-		[Token(Token = "0x1700049B")]
+		[Token(Token = "0x1700049E")]
 		public object Key
 		{
-			[Token(Token = "0x60023B9")]
-			[Address(RVA = "0x3BCF2C0", Offset = "0x3BCF2C0", VA = "0x3BCF2C0", Slot = "4")]
+			[Token(Token = "0x600243B")]
+			[Address(RVA = "0x1A4CC40", Offset = "0x1A4B240", VA = "0x181A4CC40", Slot = "4")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x1700049C")]
+		[Token(Token = "0x1700049F")]
 		public object Current
 		{
-			[Token(Token = "0x60023BA")]
-			[Address(RVA = "0x3BCF370", Offset = "0x3BCF370", VA = "0x3BCF370", Slot = "8")]
+			[Token(Token = "0x600243C")]
+			[Address(RVA = "0x1A4C7E0", Offset = "0x1A4ADE0", VA = "0x181A4C7E0", Slot = "8")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x1700049D")]
+		[Token(Token = "0x170004A0")]
 		internal int DataPosition
 		{
-			[Token(Token = "0x60023BB")]
-			[Address(RVA = "0x3BCF760", Offset = "0x3BCF760", VA = "0x3BCF760")]
+			[Token(Token = "0x600243D")]
+			[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 			get
 			{
 				return default(int);
 			}
 		}
 
-		[Token(Token = "0x1700049E")]
+		[Token(Token = "0x170004A1")]
 		public DictionaryEntry Entry
 		{
-			[Token(Token = "0x60023BC")]
-			[Address(RVA = "0x3BCF3C0", Offset = "0x3BCF3C0", VA = "0x3BCF3C0", Slot = "6")]
+			[Token(Token = "0x600243E")]
+			[Address(RVA = "0x1A4C840", Offset = "0x1A4AE40", VA = "0x181A4C840", Slot = "6")]
 			get
 			{
 				return default(DictionaryEntry);
 			}
 		}
 
-		[Token(Token = "0x1700049F")]
+		[Token(Token = "0x170004A2")]
 		public object Value
 		{
-			[Token(Token = "0x60023BD")]
-			[Address(RVA = "0x3BCF770", Offset = "0x3BCF770", VA = "0x3BCF770", Slot = "5")]
+			[Token(Token = "0x600243F")]
+			[Address(RVA = "0x1A4CDA0", Offset = "0x1A4B3A0", VA = "0x181A4CDA0", Slot = "5")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x60023B7")]
-		[Address(RVA = "0x3BCBAF0", Offset = "0x3BCBAF0", VA = "0x3BCBAF0")]
+		[Token(Token = "0x6002439")]
+		[Address(RVA = "0x1A4C7A0", Offset = "0x1A4ADA0", VA = "0x181A4C7A0")]
 		internal ResourceEnumerator(ResourceReader reader)
 		{
 		}
 
-		[Token(Token = "0x60023B8")]
-		[Address(RVA = "0x3BCF270", Offset = "0x3BCF270", VA = "0x3BCF270", Slot = "7")]
+		[Token(Token = "0x600243A")]
+		[Address(RVA = "0x1A4C6B0", Offset = "0x1A4ACB0", VA = "0x181A4C6B0", Slot = "7")]
 		public bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x60023BE")]
-		[Address(RVA = "0x3BCF810", Offset = "0x3BCF810", VA = "0x3BCF810", Slot = "9")]
+		[Token(Token = "0x6002440")]
+		[Address(RVA = "0x1A4C700", Offset = "0x1A4AD00", VA = "0x181A4C700", Slot = "9")]
 		public void Reset()
 		{
 		}
@@ -168,176 +168,176 @@ public sealed class ResourceReader : IResourceReader, IEnumerable, IDisposable
 	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	private int _version;
 
-	[Token(Token = "0x600239D")]
-	[Address(RVA = "0x3BCB470", Offset = "0x3BCB470", VA = "0x3BCB470")]
+	[Token(Token = "0x600241F")]
+	[Address(RVA = "0x1A538B0", Offset = "0x1A51EB0", VA = "0x181A538B0")]
 	internal ResourceReader(Stream stream, Dictionary<string, System.Resources.ResourceLocator> resCache)
 	{
 	}
 
-	[Token(Token = "0x600239E")]
-	[Address(RVA = "0x3BCB710", Offset = "0x3BCB710", VA = "0x3BCB710", Slot = "4")]
+	[Token(Token = "0x6002420")]
+	[Address(RVA = "0x1A4FE50", Offset = "0x1A4E450", VA = "0x181A4FE50", Slot = "4")]
 	public void Close()
 	{
 	}
 
-	[Token(Token = "0x600239F")]
-	[Address(RVA = "0x3BCB7E0", Offset = "0x3BCB7E0", VA = "0x3BCB7E0", Slot = "7")]
+	[Token(Token = "0x6002421")]
+	[Address(RVA = "0x1A50550", Offset = "0x1A4EB50", VA = "0x181A50550", Slot = "7")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60023A0")]
-	[Address(RVA = "0x3BCB720", Offset = "0x3BCB720", VA = "0x3BCB720")]
+	[Token(Token = "0x6002422")]
+	[Address(RVA = "0x1A50490", Offset = "0x1A4EA90", VA = "0x181A50490")]
 	private void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x60023A1")]
-	[Address(RVA = "0x3BCB7F0", Offset = "0x3BCB7F0", VA = "0x3BCB7F0")]
+	[Token(Token = "0x6002423")]
+	[Address(RVA = "0x1A51A20", Offset = "0x1A50020", VA = "0x181A51A20")]
 	internal unsafe static int ReadUnalignedI4(int* p)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023A2")]
-	[Address(RVA = "0x3BCB800", Offset = "0x3BCB800", VA = "0x3BCB800")]
+	[Token(Token = "0x6002424")]
+	[Address(RVA = "0x1A51A40", Offset = "0x1A50040", VA = "0x181A51A40")]
 	private void SkipString()
 	{
 	}
 
-	[Token(Token = "0x60023A3")]
-	[Address(RVA = "0x3BCB8C0", Offset = "0x3BCB8C0", VA = "0x3BCB8C0")]
+	[Token(Token = "0x6002425")]
+	[Address(RVA = "0x1A50F10", Offset = "0x1A4F510", VA = "0x181A50F10")]
 	private int GetNameHash(int index)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023A4")]
-	[Address(RVA = "0x3BCB900", Offset = "0x3BCB900", VA = "0x3BCB900")]
+	[Token(Token = "0x6002426")]
+	[Address(RVA = "0x1A50F80", Offset = "0x1A4F580", VA = "0x181A50F80")]
 	private int GetNamePosition(int index)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023A5")]
-	[Address(RVA = "0x3BCBA10", Offset = "0x3BCBA10", VA = "0x3BCBA10", Slot = "6")]
+	[Token(Token = "0x6002427")]
+	[Address(RVA = "0x1A50E40", Offset = "0x1A4F440", VA = "0x181A50E40", Slot = "6")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023A6")]
-	[Address(RVA = "0x3BCBA20", Offset = "0x3BCBA20", VA = "0x3BCBA20", Slot = "5")]
+	[Token(Token = "0x6002428")]
+	[Address(RVA = "0x1A50E40", Offset = "0x1A4F440", VA = "0x181A50E40", Slot = "5")]
 	public IDictionaryEnumerator GetEnumerator()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023A7")]
-	[Address(RVA = "0x3BCBB30", Offset = "0x3BCBB30", VA = "0x3BCBB30")]
+	[Token(Token = "0x6002429")]
+	[Address(RVA = "0x1A50DD0", Offset = "0x1A4F3D0", VA = "0x181A50DD0")]
 	internal ResourceEnumerator GetEnumeratorInternal()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023A8")]
-	[Address(RVA = "0x3BCBBA0", Offset = "0x3BCBBA0", VA = "0x3BCBBA0")]
+	[Token(Token = "0x600242A")]
+	[Address(RVA = "0x1A50560", Offset = "0x1A4EB60", VA = "0x181A50560")]
 	internal int FindPosForResource(string name)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60023A9")]
-	[Address(RVA = "0x3BCC150", Offset = "0x3BCC150", VA = "0x3BCC150")]
+	[Token(Token = "0x600242B")]
+	[Address(RVA = "0x1A4FF00", Offset = "0x1A4E500", VA = "0x181A4FF00")]
 	private bool CompareStringEqualsName(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60023AA")]
-	[Address(RVA = "0x3BCC360", Offset = "0x3BCC360", VA = "0x3BCC360")]
+	[Token(Token = "0x600242C")]
+	[Address(RVA = "0x1A4F720", Offset = "0x1A4DD20", VA = "0x181A4F720")]
 	private string AllocateStringForNameIndex(int index, out int dataOffset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AB")]
-	[Address(RVA = "0x3BCCC00", Offset = "0x3BCCC00", VA = "0x3BCCC00")]
+	[Token(Token = "0x600242D")]
+	[Address(RVA = "0x1A510B0", Offset = "0x1A4F6B0", VA = "0x181A510B0")]
 	private object GetValueForNameIndex(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AC")]
-	[Address(RVA = "0x3BCD150", Offset = "0x3BCD150", VA = "0x3BCD150")]
+	[Token(Token = "0x600242E")]
+	[Address(RVA = "0x1A515D0", Offset = "0x1A4FBD0", VA = "0x181A515D0")]
 	internal string LoadString(int pos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AD")]
-	[Address(RVA = "0x3BCD800", Offset = "0x3BCD800", VA = "0x3BCD800")]
+	[Token(Token = "0x600242F")]
+	[Address(RVA = "0x1A51540", Offset = "0x1A4FB40", VA = "0x181A51540")]
 	internal object LoadObject(int pos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AE")]
-	[Address(RVA = "0x3BCD830", Offset = "0x3BCD830", VA = "0x3BCD830")]
+	[Token(Token = "0x6002430")]
+	[Address(RVA = "0x1A51570", Offset = "0x1A4FB70", VA = "0x181A51570")]
 	internal object LoadObject(int pos, out System.Resources.ResourceTypeCode typeCode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023AF")]
-	[Address(RVA = "0x3BCCF50", Offset = "0x3BCCF50", VA = "0x3BCCF50")]
+	[Token(Token = "0x6002431")]
+	[Address(RVA = "0x1A51340", Offset = "0x1A4F940", VA = "0x181A51340")]
 	internal object LoadObjectV1(int pos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023B0")]
-	[Address(RVA = "0x3BCD880", Offset = "0x3BCD880", VA = "0x3BCD880")]
+	[Token(Token = "0x6002432")]
+	[Address(RVA = "0x1A51B10", Offset = "0x1A50110", VA = "0x181A51B10")]
 	private object _LoadObjectV1(int pos)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023B1")]
-	[Address(RVA = "0x3BCD050", Offset = "0x3BCD050", VA = "0x3BCD050")]
+	[Token(Token = "0x6002433")]
+	[Address(RVA = "0x1A51440", Offset = "0x1A4FA40", VA = "0x181A51440")]
 	internal object LoadObjectV2(int pos, out System.Resources.ResourceTypeCode typeCode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023B2")]
-	[Address(RVA = "0x3BCE160", Offset = "0x3BCE160", VA = "0x3BCE160")]
+	[Token(Token = "0x6002434")]
+	[Address(RVA = "0x1A522E0", Offset = "0x1A508E0", VA = "0x181A522E0")]
 	private object _LoadObjectV2(int pos, out System.Resources.ResourceTypeCode typeCode)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023B3")]
-	[Address(RVA = "0x3BCDFC0", Offset = "0x3BCDFC0", VA = "0x3BCDFC0")]
+	[Token(Token = "0x6002435")]
+	[Address(RVA = "0x1A502E0", Offset = "0x1A4E8E0", VA = "0x181A502E0")]
 	private object DeserializeObject(int typeIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60023B4")]
-	[Address(RVA = "0x3BCB590", Offset = "0x3BCB590", VA = "0x3BCB590")]
+	[Token(Token = "0x6002436")]
+	[Address(RVA = "0x1A518A0", Offset = "0x1A4FEA0", VA = "0x181A518A0")]
 	private void ReadResources()
 	{
 	}
 
-	[Token(Token = "0x60023B5")]
-	[Address(RVA = "0x3BCE8A0", Offset = "0x3BCE8A0", VA = "0x3BCE8A0")]
+	[Token(Token = "0x6002437")]
+	[Address(RVA = "0x1A52E70", Offset = "0x1A51470", VA = "0x181A52E70")]
 	private void _ReadResources()
 	{
 	}
 
-	[Token(Token = "0x60023B6")]
-	[Address(RVA = "0x3BCD3D0", Offset = "0x3BCD3D0", VA = "0x3BCD3D0")]
+	[Token(Token = "0x6002438")]
+	[Address(RVA = "0x1A50A10", Offset = "0x1A4F010", VA = "0x181A50A10")]
 	private System.RuntimeType FindType(int typeIndex)
 	{
 		return null;

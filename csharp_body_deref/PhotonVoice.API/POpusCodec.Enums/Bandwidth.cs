@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace POpusCodec.Enums;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x2000008")]
 public enum Bandwidth
 {
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x4000022")]
 	Narrowband = 1101,
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x4000023")]
 	Mediumband,
-	[Token(Token = "0x4000029")]
+	[Token(Token = "0x4000024")]
 	Wideband,
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x4000025")]
 	SuperWideband,
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x4000026")]
 	Fullband
 }

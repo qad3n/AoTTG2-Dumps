@@ -30,7 +30,7 @@ internal sealed class NodeFunctions : ValueQuery
 	public override XPathResultType StaticType
 	{
 		[Token(Token = "0x6001B65")]
-		[Address(RVA = "0x4782D50", Offset = "0x4782D50", VA = "0x4782D50", Slot = "16")]
+		[Address(RVA = "0x26C0690", Offset = "0x26BEC90", VA = "0x1826C0690", Slot = "16")]
 		get
 		{
 			return default(XPathResultType);
@@ -38,33 +38,33 @@ internal sealed class NodeFunctions : ValueQuery
 	}
 
 	[Token(Token = "0x6001B61")]
-	[Address(RVA = "0x4782920", Offset = "0x4782920", VA = "0x4782920")]
+	[Address(RVA = "0x26C0650", Offset = "0x26BEC50", VA = "0x1826C0650")]
 	public NodeFunctions(Function.FunctionType funcType, Query arg)
 	{
 	}
 
 	[Token(Token = "0x6001B62")]
-	[Address(RVA = "0x4782950", Offset = "0x4782950", VA = "0x4782950", Slot = "13")]
+	[Address(RVA = "0x26C05D0", Offset = "0x26BEBD0", VA = "0x1826C05D0", Slot = "13")]
 	public override void SetXsltContext(XsltContext context)
 	{
 	}
 
 	[Token(Token = "0x6001B63")]
-	[Address(RVA = "0x47829C0", Offset = "0x47829C0", VA = "0x47829C0")]
+	[Address(RVA = "0x26C02F0", Offset = "0x26BE8F0", VA = "0x1826C02F0")]
 	private XPathNavigator EvaluateArg(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B64")]
-	[Address(RVA = "0x4782A20", Offset = "0x4782A20", VA = "0x4782A20", Slot = "14")]
+	[Address(RVA = "0x26C0360", Offset = "0x26BE960", VA = "0x1826C0360", Slot = "14")]
 	public override object Evaluate(XPathNodeIterator context)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001B66")]
-	[Address(RVA = "0x4782DE0", Offset = "0x4782DE0", VA = "0x4782DE0", Slot = "6")]
+	[Address(RVA = "0x26C0260", Offset = "0x26BE860", VA = "0x1826C0260", Slot = "6")]
 	public override XPathNodeIterator Clone()
 	{
 		return null;

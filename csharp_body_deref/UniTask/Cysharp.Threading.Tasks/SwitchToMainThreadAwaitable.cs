@@ -12,72 +12,72 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000106")]
+[Token(Token = "0x20000FF")]
 public struct SwitchToMainThreadAwaitable
 {
-	[Token(Token = "0x2000107")]
+	[Token(Token = "0x2000100")]
 	public struct Awaiter : ICriticalNotifyCompletion, INotifyCompletion
 	{
-		[Token(Token = "0x400040A")]
+		[Token(Token = "0x40003FB")]
 		[FieldOffset(Offset = "0x0")]
 		private readonly PlayerLoopTiming playerLoopTiming;
 
-		[Token(Token = "0x400040B")]
+		[Token(Token = "0x40003FC")]
 		[FieldOffset(Offset = "0x8")]
 		private readonly CancellationToken cancellationToken;
 
-		[Token(Token = "0x17000044")]
+		[Token(Token = "0x17000042")]
 		public bool IsCompleted
 		{
-			[Token(Token = "0x600068B")]
-			[Address(RVA = "0x49E9C40", Offset = "0x49E9C40", VA = "0x49E9C40")]
+			[Token(Token = "0x600066B")]
+			[Address(RVA = "0x2909650", Offset = "0x2907C50", VA = "0x182909650")]
 			get
 			{
 				return default(bool);
 			}
 		}
 
-		[Token(Token = "0x600068A")]
-		[Address(RVA = "0x49E9C20", Offset = "0x49E9C20", VA = "0x49E9C20")]
+		[Token(Token = "0x600066A")]
+		[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
 		public Awaiter(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 		{
 		}
 
-		[Token(Token = "0x600068C")]
-		[Address(RVA = "0x49E9D00", Offset = "0x49E9D00", VA = "0x49E9D00")]
+		[Token(Token = "0x600066C")]
+		[Address(RVA = "0x29085D0", Offset = "0x2906BD0", VA = "0x1829085D0")]
 		public void GetResult()
 		{
 		}
 
-		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x49E9D60", Offset = "0x49E9D60", VA = "0x49E9D60", Slot = "5")]
+		[Token(Token = "0x600066D")]
+		[Address(RVA = "0x29086C0", Offset = "0x2906CC0", VA = "0x1829086C0", Slot = "5")]
 		public void OnCompleted(Action continuation)
 		{
 		}
 
-		[Token(Token = "0x600068E")]
-		[Address(RVA = "0x49E9DB0", Offset = "0x49E9DB0", VA = "0x49E9DB0", Slot = "4")]
+		[Token(Token = "0x600066E")]
+		[Address(RVA = "0x2908CC0", Offset = "0x29072C0", VA = "0x182908CC0", Slot = "4")]
 		public void UnsafeOnCompleted(Action continuation)
 		{
 		}
 	}
 
-	[Token(Token = "0x4000408")]
+	[Token(Token = "0x40003F9")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly PlayerLoopTiming playerLoopTiming;
 
-	[Token(Token = "0x4000409")]
+	[Token(Token = "0x40003FA")]
 	[FieldOffset(Offset = "0x8")]
 	private readonly CancellationToken cancellationToken;
 
-	[Token(Token = "0x6000688")]
-	[Address(RVA = "0x49DECD0", Offset = "0x49DECD0", VA = "0x49DECD0")]
+	[Token(Token = "0x6000668")]
+	[Address(RVA = "0x29093F0", Offset = "0x29079F0", VA = "0x1829093F0")]
 	public SwitchToMainThreadAwaitable(PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken)
 	{
 	}
 
-	[Token(Token = "0x6000689")]
-	[Address(RVA = "0x49E9BE0", Offset = "0x49E9BE0", VA = "0x49E9BE0")]
+	[Token(Token = "0x6000669")]
+	[Address(RVA = "0x2911D30", Offset = "0x2910330", VA = "0x182911D30")]
 	public Awaiter GetAwaiter()
 	{
 		return default(Awaiter);

@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnMouseExitMessageListener : MessageListener
 {
-	[Token(Token = "0x600043F")]
-	[Address(RVA = "0x4CB61F0", Offset = "0x4CB61F0", VA = "0x4CB61F0")]
+	[Token(Token = "0x6000449")]
+	[Address(RVA = "0x2DBE500", Offset = "0x2DBCB00", VA = "0x182DBE500")]
 	private void OnMouseExit()
 	{
 	}
 
-	[Token(Token = "0x6000440")]
-	[Address(RVA = "0x4CB6260", Offset = "0x4CB6260", VA = "0x4CB6260")]
+	[Token(Token = "0x600044A")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnMouseExitMessageListener()
 	{
 	}

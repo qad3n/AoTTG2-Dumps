@@ -42,7 +42,7 @@ internal class XmlTextEncoder
 	internal char QuoteChar
 	{
 		[Token(Token = "0x60003A2")]
-		[Address(RVA = "0x47A29B0", Offset = "0x47A29B0", VA = "0x47A29B0")]
+		[Address(RVA = "0x26F1D10", Offset = "0x26F0310", VA = "0x1826F1D10")]
 		set
 		{
 		}
@@ -52,7 +52,7 @@ internal class XmlTextEncoder
 	internal string AttributeValue
 	{
 		[Token(Token = "0x60003A5")]
-		[Address(RVA = "0x47A2A90", Offset = "0x47A2A90", VA = "0x47A2A90")]
+		[Address(RVA = "0x26F1CC0", Offset = "0x26F02C0", VA = "0x1826F1CC0")]
 		get
 		{
 			return null;
@@ -60,91 +60,91 @@ internal class XmlTextEncoder
 	}
 
 	[Token(Token = "0x60003A1")]
-	[Address(RVA = "0x47A2960", Offset = "0x47A2960", VA = "0x47A2960")]
+	[Address(RVA = "0x26F1C70", Offset = "0x26F0270", VA = "0x1826F1C70")]
 	internal XmlTextEncoder(TextWriter textWriter)
 	{
 	}
 
 	[Token(Token = "0x60003A3")]
-	[Address(RVA = "0x47A29C0", Offset = "0x47A29C0", VA = "0x47A29C0")]
+	[Address(RVA = "0x26F06E0", Offset = "0x26EECE0", VA = "0x1826F06E0")]
 	internal void StartAttribute(bool cacheAttrValue)
 	{
 	}
 
 	[Token(Token = "0x60003A4")]
-	[Address(RVA = "0x47A2A60", Offset = "0x47A2A60", VA = "0x47A2A60")]
+	[Address(RVA = "0x26F06A0", Offset = "0x26EECA0", VA = "0x1826F06A0")]
 	internal void EndAttribute()
 	{
 	}
 
 	[Token(Token = "0x60003A6")]
-	[Address(RVA = "0x47A2AE0", Offset = "0x47A2AE0", VA = "0x47A2AE0")]
+	[Address(RVA = "0x26F10B0", Offset = "0x26EF6B0", VA = "0x1826F10B0")]
 	internal void WriteSurrogateChar(char lowChar, char highChar)
 	{
 	}
 
 	[Token(Token = "0x60003A7")]
-	[Address(RVA = "0x47A2B90", Offset = "0x47A2B90", VA = "0x47A2B90")]
+	[Address(RVA = "0x26F16E0", Offset = "0x26EFCE0", VA = "0x1826F16E0")]
 	internal void Write(char[] array, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x60003A8")]
-	[Address(RVA = "0x47A31E0", Offset = "0x47A31E0", VA = "0x47A31E0")]
+	[Address(RVA = "0x26F0F20", Offset = "0x26EF520", VA = "0x1826F0F20")]
 	internal void WriteSurrogateCharEntity(char lowChar, char highChar)
 	{
 	}
 
 	[Token(Token = "0x60003A9")]
-	[Address(RVA = "0x47A3360", Offset = "0x47A3360", VA = "0x47A3360")]
+	[Address(RVA = "0x26F1170", Offset = "0x26EF770", VA = "0x1826F1170")]
 	internal void Write(string text)
 	{
 	}
 
 	[Token(Token = "0x60003AA")]
-	[Address(RVA = "0x47A3A60", Offset = "0x47A3A60", VA = "0x47A3A60")]
+	[Address(RVA = "0x26F0AC0", Offset = "0x26EF0C0", VA = "0x1826F0AC0")]
 	internal void WriteRawWithSurrogateChecking(string text)
 	{
 	}
 
 	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x47A3C50", Offset = "0x47A3C50", VA = "0x47A3C50")]
+	[Address(RVA = "0x26F0CC0", Offset = "0x26EF2C0", VA = "0x1826F0CC0")]
 	internal void WriteRaw(char[] array, int offset, int count)
 	{
 	}
 
 	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x47A3D70", Offset = "0x47A3D70", VA = "0x47A3D70")]
+	[Address(RVA = "0x26F0880", Offset = "0x26EEE80", VA = "0x1826F0880")]
 	internal void WriteCharEntity(char ch)
 	{
 	}
 
 	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x47A3F40", Offset = "0x47A3F40", VA = "0x47A3F40")]
+	[Address(RVA = "0x26F0A40", Offset = "0x26EF040", VA = "0x1826F0A40")]
 	internal void WriteEntityRef(string name)
 	{
 	}
 
 	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x47A39D0", Offset = "0x47A39D0", VA = "0x47A39D0")]
+	[Address(RVA = "0x26F0E70", Offset = "0x26EF470", VA = "0x1826F0E70")]
 	private void WriteStringFragment(string str, int offset, int count, char[] helperBuffer)
 	{
 	}
 
 	[Token(Token = "0x60003AF")]
-	[Address(RVA = "0x47A3100", Offset = "0x47A3100", VA = "0x47A3100")]
+	[Address(RVA = "0x26F0770", Offset = "0x26EED70", VA = "0x1826F0770")]
 	private void WriteCharEntityImpl(char ch)
 	{
 	}
 
 	[Token(Token = "0x60003B0")]
-	[Address(RVA = "0x47A3EA0", Offset = "0x47A3EA0", VA = "0x47A3EA0")]
+	[Address(RVA = "0x26F07E0", Offset = "0x26EEDE0", VA = "0x1826F07E0")]
 	private void WriteCharEntityImpl(string strVal)
 	{
 	}
 
 	[Token(Token = "0x60003B1")]
-	[Address(RVA = "0x47A3160", Offset = "0x47A3160", VA = "0x47A3160")]
+	[Address(RVA = "0x26F09C0", Offset = "0x26EEFC0", VA = "0x1826F09C0")]
 	private void WriteEntityRefImpl(string name)
 	{
 	}

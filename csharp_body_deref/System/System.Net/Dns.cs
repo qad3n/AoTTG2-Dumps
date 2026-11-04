@@ -11,99 +11,99 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000193")]
+[Token(Token = "0x200031B")]
 public static class Dns
 {
-	[Token(Token = "0x2000194")]
+	[Token(Token = "0x200031C")]
 	private delegate IPAddress[] GetHostAddressesCallback(string hostName);
 
-	[Token(Token = "0x60009AC")]
-	[Address(RVA = "0x4980910", Offset = "0x4980910", VA = "0x4980910")]
+	[Token(Token = "0x600156C")]
+	[Address(RVA = "0x27E00E0", Offset = "0x27DE6E0", VA = "0x1827E00E0")]
 	public static IAsyncResult BeginGetHostAddresses(string hostNameOrAddress, AsyncCallback requestCallback, object state)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009AD")]
-	[Address(RVA = "0x4980BE0", Offset = "0x4980BE0", VA = "0x4980BE0")]
+	[Token(Token = "0x600156D")]
+	[Address(RVA = "0x27E0310", Offset = "0x27DE910", VA = "0x1827E0310")]
 	public static IPAddress[] EndGetHostAddresses(IAsyncResult asyncResult)
 	{
 		return null;
 	}
 
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009AE")]
-	[Address(RVA = "0x4980CE0", Offset = "0x4980CE0", VA = "0x4980CE0")]
+	[MethodImpl(MethodImplOptions.InternalCall)]
+	[Token(Token = "0x600156E")]
+	[Address(RVA = "0x27E08E0", Offset = "0x27DEEE0", VA = "0x1827E08E0")]
 	private static extern bool GetHostByName_icall(string host, out string h_name, out string[] h_aliases, out string[] h_addr_list, int hint);
 
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009AF")]
-	[Address(RVA = "0x4980CF0", Offset = "0x4980CF0", VA = "0x4980CF0")]
+	[MethodImpl(MethodImplOptions.InternalCall)]
+	[Token(Token = "0x600156F")]
+	[Address(RVA = "0x27E07A0", Offset = "0x27DEDA0", VA = "0x1827E07A0")]
 	private static extern bool GetHostByAddr_icall(string addr, out string h_name, out string[] h_aliases, out string[] h_addr_list, int hint);
 
-	[MethodImpl((MethodImplOptions)4096)]
-	[Token(Token = "0x60009B0")]
-	[Address(RVA = "0x4980D00", Offset = "0x4980D00", VA = "0x4980D00")]
+	[MethodImpl(MethodImplOptions.InternalCall)]
+	[Token(Token = "0x6001570")]
+	[Address(RVA = "0x27E0E80", Offset = "0x27DF480", VA = "0x1827E0E80")]
 	private static extern bool GetHostName_icall(out string h_name);
 
-	[Token(Token = "0x60009B1")]
-	[Address(RVA = "0x4980D10", Offset = "0x4980D10", VA = "0x4980D10")]
+	[Token(Token = "0x6001571")]
+	[Address(RVA = "0x27E0420", Offset = "0x27DEA20", VA = "0x1827E0420")]
 	private static void Error_11001(string hostName)
 	{
 	}
 
-	[Token(Token = "0x60009B2")]
-	[Address(RVA = "0x4980D80", Offset = "0x4980D80", VA = "0x4980D80")]
+	[Token(Token = "0x6001572")]
+	[Address(RVA = "0x27E0ED0", Offset = "0x27DF4D0", VA = "0x1827E0ED0")]
 	private static IPHostEntry hostent_to_IPHostEntry(string originalHostName, string h_name, string[] h_aliases, string[] h_addrlist)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B3")]
-	[Address(RVA = "0x4981150", Offset = "0x4981150", VA = "0x4981150")]
+	[Token(Token = "0x6001573")]
+	[Address(RVA = "0x27E07B0", Offset = "0x27DEDB0", VA = "0x1827E07B0")]
 	private static IPHostEntry GetHostByAddressFromString(string address, bool parse)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B4")]
-	[Address(RVA = "0x4981270", Offset = "0x4981270", VA = "0x4981270")]
+	[Token(Token = "0x6001574")]
+	[Address(RVA = "0x27E09F0", Offset = "0x27DEFF0", VA = "0x1827E09F0")]
 	public static IPHostEntry GetHostEntry(string hostNameOrAddress)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B5")]
-	[Address(RVA = "0x49813D0", Offset = "0x49813D0", VA = "0x49813D0")]
+	[Token(Token = "0x6001575")]
+	[Address(RVA = "0x27E0D20", Offset = "0x27DF320", VA = "0x1827E0D20")]
 	public static IPHostEntry GetHostEntry(IPAddress address)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B6")]
-	[Address(RVA = "0x4981530", Offset = "0x4981530", VA = "0x4981530")]
+	[Token(Token = "0x6001576")]
+	[Address(RVA = "0x27E0590", Offset = "0x27DEB90", VA = "0x1827E0590")]
 	public static IPAddress[] GetHostAddresses(string hostNameOrAddress)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B7")]
-	[Address(RVA = "0x4981440", Offset = "0x4981440", VA = "0x4981440")]
+	[Token(Token = "0x6001577")]
+	[Address(RVA = "0x27E08F0", Offset = "0x27DEEF0", VA = "0x1827E08F0")]
 	[Obsolete("Use GetHostEntry instead")]
 	public static IPHostEntry GetHostByName(string hostName)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B8")]
-	[Address(RVA = "0x4981720", Offset = "0x4981720", VA = "0x4981720")]
+	[Token(Token = "0x6001578")]
+	[Address(RVA = "0x27E0E90", Offset = "0x27DF490", VA = "0x1827E0E90")]
 	public static string GetHostName()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60009B9")]
-	[Address(RVA = "0x4981750", Offset = "0x4981750", VA = "0x4981750")]
+	[Token(Token = "0x6001579")]
+	[Address(RVA = "0x27E0490", Offset = "0x27DEA90", VA = "0x1827E0490")]
 	public static Task<IPAddress[]> GetHostAddressesAsync(string hostNameOrAddress)
 	{
 		return null;

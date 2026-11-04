@@ -9,66 +9,66 @@ using Il2CppDummyDll;
 
 namespace System.Threading;
 
-[Token(Token = "0x20001EB")]
+[Token(Token = "0x2000216")]
 internal class SparselyPopulatedArrayFragment<T> where T : class
 {
-	[Token(Token = "0x400097F")]
+	[Token(Token = "0x40009D2")]
 	[FieldOffset(Offset = "0x0")]
 	internal readonly T[] _elements;
 
-	[Token(Token = "0x4000980")]
+	[Token(Token = "0x40009D3")]
 	[FieldOffset(Offset = "0x0")]
 	internal int _freeCount;
 
-	[Token(Token = "0x4000981")]
+	[Token(Token = "0x40009D4")]
 	[FieldOffset(Offset = "0x0")]
 	internal System.Threading.SparselyPopulatedArrayFragment<T> _next;
 
-	[Token(Token = "0x4000982")]
+	[Token(Token = "0x40009D5")]
 	[FieldOffset(Offset = "0x0")]
 	internal System.Threading.SparselyPopulatedArrayFragment<T> _prev;
 
-	[Token(Token = "0x170001AC")]
+	[Token(Token = "0x170001AE")]
 	internal T this[int index]
 	{
-		[Token(Token = "0x60011EC")]
+		[Token(Token = "0x6001247")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170001AD")]
+	[Token(Token = "0x170001AF")]
 	internal int Length
 	{
-		[Token(Token = "0x60011ED")]
+		[Token(Token = "0x6001248")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170001AE")]
+	[Token(Token = "0x170001B0")]
 	internal System.Threading.SparselyPopulatedArrayFragment<T> Prev
 	{
-		[Token(Token = "0x60011EE")]
+		[Token(Token = "0x6001249")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60011EA")]
+	[Token(Token = "0x6001245")]
 	internal SparselyPopulatedArrayFragment(int size)
 	{
 	}
 
-	[Token(Token = "0x60011EB")]
+	[Token(Token = "0x6001246")]
 	internal SparselyPopulatedArrayFragment(int size, System.Threading.SparselyPopulatedArrayFragment<T> prev)
 	{
 	}
 
-	[Token(Token = "0x60011EF")]
+	[Token(Token = "0x600124A")]
 	internal T SafeAtomicRemove(int index, T expectedElement)
 	{
 		return null;

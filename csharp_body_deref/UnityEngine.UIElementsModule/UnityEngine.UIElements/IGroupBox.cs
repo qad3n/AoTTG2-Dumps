@@ -9,16 +9,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000216")]
+[Token(Token = "0x200028C")]
 internal interface IGroupBox
 {
-	[Token(Token = "0x6000DC4")]
+	[Token(Token = "0x600115F")]
 	void OnOptionAdded(IGroupBoxOption option);
 
-	[Token(Token = "0x6000DC5")]
+	[Token(Token = "0x6001160")]
 	void OnOptionRemoved(IGroupBoxOption option);
 }
-[Token(Token = "0x2000217")]
+[Token(Token = "0x200028D")]
 internal interface IGroupBox<T> : IGroupBox where T : IGroupManager
 {
 }

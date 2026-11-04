@@ -16,7 +16,7 @@ internal class Datatype_NCName : Datatype_Name
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x6001150")]
-		[Address(RVA = "0x4861990", Offset = "0x4861990", VA = "0x4861990", Slot = "8")]
+		[Address(RVA = "0x847010", Offset = "0x845610", VA = "0x180847010", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -24,14 +24,14 @@ internal class Datatype_NCName : Datatype_Name
 	}
 
 	[Token(Token = "0x6001151")]
-	[Address(RVA = "0x48619A0", Offset = "0x48619A0", VA = "0x48619A0", Slot = "16")]
+	[Address(RVA = "0x279A360", Offset = "0x2798960", VA = "0x18279A360", Slot = "16")]
 	internal override Exception TryParseValue(string s, XmlNameTable nameTable, IXmlNamespaceResolver nsmgr, out object typedValue)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001152")]
-	[Address(RVA = "0x48574F0", Offset = "0x48574F0", VA = "0x48574F0")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_NCName()
 	{
 	}

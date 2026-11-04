@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001C1")]
+[Token(Token = "0x20001DE")]
 public static class HaltonSequence
 {
-	[Token(Token = "0x6000D13")]
-	[Address(RVA = "0x4C013B0", Offset = "0x4C013B0", VA = "0x4C013B0")]
+	[Token(Token = "0x6000E57")]
+	[Address(RVA = "0x2B5B600", Offset = "0x2B59C00", VA = "0x182B5B600")]
 	public static float Get(int index, int radix)
 	{
 		return default(float);

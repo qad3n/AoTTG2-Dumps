@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Resources;
 
 [Serializable]
-[Token(Token = "0x20004AC")]
+[Token(Token = "0x20004DC")]
 public class MissingManifestResourceException : SystemException
 {
-	[Token(Token = "0x6002335")]
-	[Address(RVA = "0x3BC4270", Offset = "0x3BC4270", VA = "0x3BC4270")]
+	[Token(Token = "0x60023B7")]
+	[Address(RVA = "0x1A4B090", Offset = "0x1A49690", VA = "0x181A4B090")]
 	public MissingManifestResourceException()
 	{
 	}
 
-	[Token(Token = "0x6002336")]
-	[Address(RVA = "0x3BC42B0", Offset = "0x3BC42B0", VA = "0x3BC42B0")]
+	[Token(Token = "0x60023B8")]
+	[Address(RVA = "0x1A4B070", Offset = "0x1A49670", VA = "0x181A4B070")]
 	public MissingManifestResourceException(string message)
 	{
 	}
 
-	[Token(Token = "0x6002337")]
-	[Address(RVA = "0x3BC42D0", Offset = "0x3BC42D0", VA = "0x3BC42D0")]
+	[Token(Token = "0x60023B9")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected MissingManifestResourceException(SerializationInfo info, StreamingContext context)
 	{
 	}

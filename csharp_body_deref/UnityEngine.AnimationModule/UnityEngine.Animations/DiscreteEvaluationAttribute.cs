@@ -11,7 +11,7 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Animations;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x200001E")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [AttributeUsage(AttributeTargets.Field)]
 public class DiscreteEvaluationAttribute : Attribute

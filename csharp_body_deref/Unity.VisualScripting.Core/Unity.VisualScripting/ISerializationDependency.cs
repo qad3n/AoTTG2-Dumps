@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000183")]
 public interface ISerializationDependency : ISerializationCallbackReceiver
 {
-	[Token(Token = "0x170001AB")]
+	[Token(Token = "0x170001AE")]
 	internal bool IsDeserialized
 	{
-		[Token(Token = "0x6000F6D")]
+		[Token(Token = "0x6000F77")]
 		get;
-		[Token(Token = "0x6000F6C")]
+		[Token(Token = "0x6000F76")]
 		set;
 	}
 }

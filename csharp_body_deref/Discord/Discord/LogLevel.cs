@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000023")]
+[Token(Token = "0x2000021")]
 public enum LogLevel
 {
-	[Token(Token = "0x400004A")]
+	[Token(Token = "0x4000045")]
 	Error = 1,
-	[Token(Token = "0x400004B")]
+	[Token(Token = "0x4000046")]
 	Warn,
-	[Token(Token = "0x400004C")]
+	[Token(Token = "0x4000047")]
 	Info,
-	[Token(Token = "0x400004D")]
+	[Token(Token = "0x4000048")]
 	Debug
 }

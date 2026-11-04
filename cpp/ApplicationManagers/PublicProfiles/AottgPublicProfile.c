@@ -1,5 +1,5 @@
 // Type: ApplicationManagers.PublicProfiles.AottgPublicProfile
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/ApplicationManagers.PublicProfiles/AottgPublicProfile.cs
@@ -8,82 +8,61 @@
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$.ctor
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile___ctor (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* accountId, System_String_o* displayName, System_String_o* characterName, System_String_o* characterInfoJson, System_String_array* roles, System_String_o* description, System_String_o* avatarKey, System_String_o* bannerKey, System_DateTimeOffset_o createdAt, const MethodInfo* method);
-// 0x44c2d40
+// 0x182367f20
 
 void ApplicationManagers_PublicProfiles_AottgPublicProfile___ctor
                (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *accountId,
                System_String_o *displayName,System_String_o *characterName,System_String_o *characterInfoJson,
                System_String_array *roles,System_String_o *description,System_String_o *avatarKey,
-               System_String_o *bannerKey,System_DateTimeOffset_o createdAt,MethodInfo *method)
+               System_String_o *bannerKey,System_DateTimeOffset_o *createdAt,MethodInfo *method)
 
 {
-  byte bVar1;
-  long lVar2;
-  long lVar3;
+  int16_t iVar1;
+  undefined6 uVar2;
   
-  if (g_data_057aeab6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_Empty_String);
-    g_data_057aeab6 = '\x01';
+  if (Il2CppMethodInitialized_1843479f6 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Array_Empty_string);
+    Il2CppMethodInitialized_1843479f6 = '\x01';
   }
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields)._AccountId_k__BackingField = accountId;
-  il2cpp_runtime_helper_022b4080(&__this->fields,accountId);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._AccountId_k__BackingField,accountId);
   (__this->fields)._DisplayName_k__BackingField = displayName;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._DisplayName_k__BackingField,displayName);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._DisplayName_k__BackingField,displayName);
   (__this->fields)._CharacterName_k__BackingField = characterName;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._CharacterName_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CharacterName_k__BackingField,characterName);
   (__this->fields)._CharacterInfoJson_k__BackingField = characterInfoJson;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._CharacterInfoJson_k__BackingField);
-  lVar2 = MethodInfo_String_Empty_String;
-  if (roles != (System_String_array *)0x0) goto label_044c2e3f;
-  if (*(long *)(MethodInfo_String_Empty_String + 0x38) == 0) {
-    il2cpp_runtime_helper_02300a20(MethodInfo_String_Empty_String);
-    lVar3 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    if ((*(byte *)(lVar3 + 0x135) & 1) == 0) goto label_044c2ec2;
-label_044c2e0a:
-    if (*(int *)(lVar3 + 0xe4) != 0) goto label_044c2e17;
-label_044c2ed7:
-    il2cpp_runtime_helper_02337ed0();
-    lVar2 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar2 + 0x135);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CharacterInfoJson_k__BackingField,characterInfoJson);
+  if (roles == (System_String_array *)0x0) {
+    roles = (System_String_array *)
+            System_Linq_Enumerable__Empty___Il2CppFullySharedGenericType_
+                      ((MethodInfo_660C30 *)MethodInfo_System_Array_Empty_string);
   }
-  else {
-    lVar3 = *(long *)(*(long *)(MethodInfo_String_Empty_String + 0x38) + 0x10);
-    if ((*(byte *)(lVar3 + 0x135) & 1) != 0) goto label_044c2e0a;
-label_044c2ec2:
-    lVar3 = il2cpp_runtime_helper_023009c0();
-    if (*(int *)(lVar3 + 0xe4) == 0) goto label_044c2ed7;
-label_044c2e17:
-    lVar2 = *(long *)(*(long *)(lVar2 + 0x38) + 0x10);
-    bVar1 = *(byte *)(lVar2 + 0x135);
-  }
-  if ((bVar1 & 1) == 0) {
-    lVar2 = il2cpp_runtime_helper_023009c0(lVar2);
-  }
-  roles = (System_String_array *)**(undefined8 **)(lVar2 + 0xb8);
-label_044c2e3f:
   (__this->fields)._Roles_k__BackingField = roles;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Roles_k__BackingField,roles);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Roles_k__BackingField,roles);
   (__this->fields)._Description_k__BackingField = description;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField,description);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,description);
   (__this->fields)._AvatarKey_k__BackingField = avatarKey;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._AvatarKey_k__BackingField,avatarKey);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._AvatarKey_k__BackingField,avatarKey);
   (__this->fields)._BannerKey_k__BackingField = bannerKey;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._BannerKey_k__BackingField,bannerKey);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._BannerKey_k__BackingField,bannerKey);
+  iVar1 = (createdAt->fields)._offsetMinutes;
+  uVar2 = *(undefined6 *)&(createdAt->fields).field_0xa;
   (__this->fields)._CreatedAt_k__BackingField.fields._dateTime.fields._dateData =
-       (uint64_t)createdAt.fields._dateTime.fields._dateData;
-  (__this->fields)._CreatedAt_k__BackingField.fields._offsetMinutes = createdAt.fields._offsetMinutes;
+       (createdAt->fields)._dateTime.fields._dateData;
+  (__this->fields)._CreatedAt_k__BackingField.fields._offsetMinutes = iVar1;
+  *(undefined6 *)&(__this->fields)._CreatedAt_k__BackingField.fields.field_0xa = uVar2;
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_AccountId
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AccountId (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2f00
+// 0x1808fb3a0
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AccountId
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AccountId(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._AccountId_k__BackingField;
@@ -92,26 +71,24 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AccountId
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_AccountId
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AccountId (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2f10
+// 0x180b8ac00
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AccountId
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AccountId(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._AccountId_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&__this->fields);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._AccountId_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_DisplayName
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_DisplayName (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2f20
+// 0x180573e90
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_DisplayName
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_DisplayName(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._DisplayName_k__BackingField;
@@ -120,26 +97,24 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_DisplayName
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_DisplayName
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_DisplayName (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2f30
+// 0x180c8de30
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_DisplayName
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_DisplayName(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._DisplayName_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._DisplayName_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._DisplayName_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_CharacterName
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterName (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2f40
+// 0x1805852b0
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterName
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterName(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._CharacterName_k__BackingField;
@@ -148,26 +123,24 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterName
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_CharacterName
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterName (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2f50
+// 0x180ace2f0
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterName
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterName(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._CharacterName_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._CharacterName_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CharacterName_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_CharacterInfoJson
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterInfoJson (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2f60
+// 0x180584c80
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterInfoJson
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterInfoJson(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._CharacterInfoJson_k__BackingField;
@@ -176,26 +149,24 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CharacterInfoJson
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_CharacterInfoJson
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterInfoJson (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2f70
+// 0x180584ca0
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterInfoJson
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CharacterInfoJson(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._CharacterInfoJson_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._CharacterInfoJson_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._CharacterInfoJson_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_Roles
 // il2cpp: System_String_array* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Roles (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2f80
+// 0x1805853f0
 
-System_String_array *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Roles
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_array*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Roles(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Roles_k__BackingField;
@@ -204,26 +175,24 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Roles
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_Roles
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Roles (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_array* value, const MethodInfo* method);
-// 0x44c2f90
+// 0x18058aa00
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Roles
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_array *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Roles(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_array* value, MethodInfo* method)
 
 {
   (__this->fields)._Roles_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Roles_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Roles_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_Description
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Description (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2fa0
+// 0x180c8eec0
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Description
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Description(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
   return (__this->fields)._Description_k__BackingField;
@@ -232,109 +201,109 @@ ApplicationManagers_PublicProfiles_AottgPublicProfile__get_Description
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_Description
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Description (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2fb0
+// 0x1818be8a0
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Description
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_Description(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
   (__this->fields)._Description_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._Description_k__BackingField);
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Description_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_AvatarKey
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AvatarKey (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2fc0
+// 0x1805853c0
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AvatarKey
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_AvatarKey(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields)._AvatarKey_k__BackingField;
+  return *(Unity_Properties_IProperty_TContainer__o **)
+          &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_AvatarKey
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AvatarKey (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2fd0
+// 0x180e8f700
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AvatarKey
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_AvatarKey(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
-  (__this->fields)._AvatarKey_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._AvatarKey_k__BackingField);
+  *(Unity_Properties_IProperty_TContainer__o **)
+   &(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position = value;
+  Il2CppCodeGenWriteBarrier((void **)&(__this->fields).m_IndexedCollectionPropertyBag.fields.m_Position,value)
+  ;
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_BannerKey
 // il2cpp: System_String_o* ApplicationManagers_PublicProfiles_AottgPublicProfile__get_BannerKey (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c2fe0
+// 0x180c7fb50
 
-System_String_o *
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_BannerKey
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+System_String_o*
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_BannerKey(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
-  return (__this->fields)._BannerKey_k__BackingField;
+  return (__this->fields)._Current_k__BackingField;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_BannerKey
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_BannerKey (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, const MethodInfo* method);
-// 0x44c2ff0
+// 0x180f1db10
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_BannerKey
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_String_o *value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_BannerKey(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_String_o* value, MethodInfo* method)
 
 {
-  (__this->fields)._BannerKey_k__BackingField = value;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._BannerKey_k__BackingField);
+  (__this->fields)._Current_k__BackingField = value;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._Current_k__BackingField,value);
   return;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$get_CreatedAt
 // il2cpp: System_DateTimeOffset_o ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CreatedAt (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, const MethodInfo* method);
-// 0x44c3000
+// 0x180d73860
 
 System_DateTimeOffset_o
-ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CreatedAt
-          (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,MethodInfo *method)
+ApplicationManagers_PublicProfiles_AottgPublicProfile__get_CreatedAt(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, MethodInfo* method)
 
 {
-  undefined8 uVar1;
-  undefined2 uVar2;
-  System_DateTimeOffset_o SVar3;
+  double dVar1;
+  undefined7 uVar2;
   
-  uVar1 = (__this->fields)._CreatedAt_k__BackingField.fields._dateTime;
-  uVar2 = (__this->fields)._CreatedAt_k__BackingField.fields._offsetMinutes;
-  SVar3.fields._offsetMinutes = uVar2;
-  SVar3.fields._dateTime.fields._dateData = (System_DateTime_Fields)(System_DateTime_Fields)uVar1;
-  SVar3.fields._10_6_ = 0;
-  return (System_DateTimeOffset_o)SVar3.fields;
+  uVar2 = *(undefined7 *)&(__this->fields)._CreatedAt_k__BackingField.fields.field_0x1;
+  dVar1 = (__this->fields)._CreatedAt_k__BackingField.fields.value;
+  (__return_storage_ptr__->fields).hasValue = (__this->fields)._CreatedAt_k__BackingField.fields.hasValue;
+  *(undefined7 *)&(__return_storage_ptr__->fields).field_0x1 = uVar2;
+  (__return_storage_ptr__->fields).value = dVar1;
+  return __return_storage_ptr__;
 }
 
 
 // ApplicationManagers.PublicProfiles.AottgPublicProfile$$set_CreatedAt
 // il2cpp: void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CreatedAt (ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_DateTimeOffset_o value, const MethodInfo* method);
-// 0x44c3010
+// 0x181c61370
 
-void ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CreatedAt
-               (ApplicationManagers_PublicProfiles_AottgPublicProfile_o *__this,System_DateTimeOffset_o value,
-               MethodInfo *method)
+void
+ApplicationManagers_PublicProfiles_AottgPublicProfile__set_CreatedAt(ApplicationManagers_PublicProfiles_AottgPublicProfile_o* __this, System_DateTimeOffset_o value, MethodInfo* method)
 
 {
-  (__this->fields)._CreatedAt_k__BackingField.fields._dateTime.fields._dateData =
-       (uint64_t)value.fields._dateTime.fields._dateData.fields;
-  (__this->fields)._CreatedAt_k__BackingField.fields._offsetMinutes = value.fields._offsetMinutes;
+  double dVar1;
+  undefined7 uVar2;
+  
+  uVar2 = *(undefined7 *)&(value->fields).field_0x1;
+  dVar1 = (value->fields).value;
+  (__this->fields)._CreatedAt_k__BackingField.fields.hasValue = (value->fields).hasValue;
+  *(undefined7 *)&(__this->fields)._CreatedAt_k__BackingField.fields.field_0x1 = uVar2;
+  (__this->fields)._CreatedAt_k__BackingField.fields.value = dVar1;
   return;
 }
 

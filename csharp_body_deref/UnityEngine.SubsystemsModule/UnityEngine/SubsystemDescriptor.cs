@@ -5,19 +5,21 @@
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200000A")]
+[Token(Token = "0x200000B")]
+[Obsolete("Use SubsystemDescriptorWithProvider instead.", false)]
 public abstract class SubsystemDescriptor : ISubsystemDescriptor
 {
 	[Token(Token = "0x17000005")]
 	public string id
 	{
-		[Token(Token = "0x600000D")]
-		[Address(RVA = "0x4E9E630", Offset = "0x4E9E630", VA = "0x4E9E630", Slot = "4")]
+		[Token(Token = "0x6000011")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,8 +27,8 @@ public abstract class SubsystemDescriptor : ISubsystemDescriptor
 		}
 	}
 
-	[Token(Token = "0x600000E")]
-	[Address(RVA = "0x4E9E640", Offset = "0x4E9E640", VA = "0x4E9E640")]
+	[Token(Token = "0x6000012")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected SubsystemDescriptor()
 	{
 	}

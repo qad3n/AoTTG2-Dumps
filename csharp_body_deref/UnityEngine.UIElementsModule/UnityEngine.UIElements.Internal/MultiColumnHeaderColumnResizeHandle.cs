@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Internal;
 
-[Token(Token = "0x2000577")]
+[Token(Token = "0x2000672")]
 internal class MultiColumnHeaderColumnResizeHandle : VisualElement
 {
-	[Token(Token = "0x40012FC")]
+	[Token(Token = "0x40018B6")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x40012FD")]
+	[Token(Token = "0x40018B7")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly string dragAreaUssClassName;
 
-	[Token(Token = "0x170008A7")]
+	[Token(Token = "0x17000BCD")]
 	public VisualElement dragArea
 	{
-		[Token(Token = "0x60021C1")]
-		[Address(RVA = "0x4FE2750", Offset = "0x4FE2750", VA = "0x4FE2750")]
+		[Token(Token = "0x6002F53")]
+		[Address(RVA = "0xDB75F0", Offset = "0xDB5BF0", VA = "0x180DB75F0")]
 		[CompilerGenerated]
 		get
 		{
@@ -33,8 +33,8 @@ internal class MultiColumnHeaderColumnResizeHandle : VisualElement
 		}
 	}
 
-	[Token(Token = "0x60021C2")]
-	[Address(RVA = "0x4FDC980", Offset = "0x4FDC980", VA = "0x4FDC980")]
+	[Token(Token = "0x6002F54")]
+	[Address(RVA = "0x3204210", Offset = "0x3202810", VA = "0x183204210")]
 	public MultiColumnHeaderColumnResizeHandle()
 	{
 	}

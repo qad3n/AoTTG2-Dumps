@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x200009E")]
+[Token(Token = "0x20000A8")]
 public interface INullable
 {
-	[Token(Token = "0x17000170")]
+	[Token(Token = "0x17000173")]
 	bool IsNull
 	{
-		[Token(Token = "0x6000903")]
+		[Token(Token = "0x6000922")]
 		get;
 	}
 }

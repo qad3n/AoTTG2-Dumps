@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace Mono.Xml;
 
-[Token(Token = "0x200002E")]
+[Token(Token = "0x200004C")]
 internal class SmallXmlParserException : SystemException
 {
-	[Token(Token = "0x40000CE")]
-	[FieldOffset(Offset = "0x8C")]
+	[Token(Token = "0x4000150")]
+	[FieldOffset(Offset = "0x90")]
 	private int line;
 
-	[Token(Token = "0x40000CF")]
-	[FieldOffset(Offset = "0x90")]
+	[Token(Token = "0x4000151")]
+	[FieldOffset(Offset = "0x94")]
 	private int column;
 
-	[Token(Token = "0x60000A0")]
-	[Address(RVA = "0x3ACED70", Offset = "0x3ACED70", VA = "0x3ACED70")]
+	[Token(Token = "0x60000B8")]
+	[Address(RVA = "0x19534A0", Offset = "0x1951AA0", VA = "0x1819534A0")]
 	public SmallXmlParserException(string msg, int line, int column)
 	{
 	}

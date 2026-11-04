@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000E9")]
+[Token(Token = "0x200010A")]
 public enum TextureWrapMode
 {
-	[Token(Token = "0x4000292")]
+	[Token(Token = "0x40002E9")]
 	Repeat,
-	[Token(Token = "0x4000293")]
+	[Token(Token = "0x40002EA")]
 	Clamp,
-	[Token(Token = "0x4000294")]
+	[Token(Token = "0x40002EB")]
 	Mirror,
-	[Token(Token = "0x4000295")]
+	[Token(Token = "0x40002EC")]
 	MirrorOnce
 }

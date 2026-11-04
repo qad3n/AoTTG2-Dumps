@@ -12,30 +12,30 @@ using UnityEngine.Scripting;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000002")]
+[Token(Token = "0x200000A")]
 [AttributeUsage(AttributeTargets.Property | AttributeTargets.Field)]
 public class CreatePropertyAttribute : RequiredMemberAttribute
 {
-	[Token(Token = "0x17000001")]
+	[Token(Token = "0x17000002")]
 	public bool ReadOnly
 	{
-		[Token(Token = "0x6000001")]
-		[Address(RVA = "0x4E837F0", Offset = "0x4E837F0", VA = "0x4E837F0")]
+		[Token(Token = "0x6000019")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6000002")]
-		[Address(RVA = "0x4E83800", Offset = "0x4E83800", VA = "0x4E83800")]
+		[Token(Token = "0x600001A")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x4E83810", Offset = "0x4E83810", VA = "0x4E83810")]
+	[Token(Token = "0x600001B")]
+	[Address(RVA = "0x2FEAB40", Offset = "0x2FE9140", VA = "0x182FEAB40")]
 	public CreatePropertyAttribute()
 	{
 	}

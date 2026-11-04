@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000094")]
+[Token(Token = "0x2000092")]
 public class BufferReaderPushAdapterAsyncPoolFloatToShort : BufferReaderPushAdapterBase<float>
 {
-	[Token(Token = "0x4000246")]
+	[Token(Token = "0x4000241")]
 	[FieldOffset(Offset = "0x18")]
 	private float[] buffer;
 
-	[Token(Token = "0x600032B")]
-	[Address(RVA = "0x3F2A780", Offset = "0x3F2A780", VA = "0x3F2A780")]
+	[Token(Token = "0x6000329")]
+	[Address(RVA = "0x1D685D0", Offset = "0x1D66BD0", VA = "0x181D685D0")]
 	public BufferReaderPushAdapterAsyncPoolFloatToShort(IDataReader<float> reader)
 	{
 	}
 
-	[Token(Token = "0x600032C")]
-	[Address(RVA = "0x3F30740", Offset = "0x3F30740", VA = "0x3F30740", Slot = "5")]
+	[Token(Token = "0x600032A")]
+	[Address(RVA = "0x1D68310", Offset = "0x1D66910", VA = "0x181D68310", Slot = "5")]
 	public override void Service(LocalVoice localVoice)
 	{
 	}

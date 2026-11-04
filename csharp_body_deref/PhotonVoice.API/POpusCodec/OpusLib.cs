@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace POpusCodec;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000004")]
 public static class OpusLib
 {
 	[Token(Token = "0x17000001")]
 	public static string Version
 	{
-		[Token(Token = "0x600000E")]
-		[Address(RVA = "0x3F15020", Offset = "0x3F15020", VA = "0x3F15020")]
+		[Token(Token = "0x600000C")]
+		[Address(RVA = "0x1D6EFE0", Offset = "0x1D6D5E0", VA = "0x181D6EFE0")]
 		get
 		{
 			return null;

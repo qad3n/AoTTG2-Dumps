@@ -17,8 +17,8 @@ internal class AsyncProtocolResult
 	[Token(Token = "0x1700001A")]
 	public int UserResult
 	{
-		[Token(Token = "0x60000B1")]
-		[Address(RVA = "0x4522180", Offset = "0x4522180", VA = "0x4522180")]
+		[Token(Token = "0x60000B3")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -29,8 +29,8 @@ internal class AsyncProtocolResult
 	[Token(Token = "0x1700001B")]
 	public ExceptionDispatchInfo Error
 	{
-		[Token(Token = "0x60000B2")]
-		[Address(RVA = "0x4522190", Offset = "0x4522190", VA = "0x4522190")]
+		[Token(Token = "0x60000B4")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,14 +38,14 @@ internal class AsyncProtocolResult
 		}
 	}
 
-	[Token(Token = "0x60000B3")]
-	[Address(RVA = "0x45221A0", Offset = "0x45221A0", VA = "0x45221A0")]
+	[Token(Token = "0x60000B5")]
+	[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 	public AsyncProtocolResult(int result)
 	{
 	}
 
-	[Token(Token = "0x60000B4")]
-	[Address(RVA = "0x45221C0", Offset = "0x45221C0", VA = "0x45221C0")]
+	[Token(Token = "0x60000B6")]
+	[Address(RVA = "0x19FFAE0", Offset = "0x19FE0E0", VA = "0x1819FFAE0")]
 	public AsyncProtocolResult(ExceptionDispatchInfo error)
 	{
 	}

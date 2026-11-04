@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace System.Buffers;
 
-[Token(Token = "0x2000686")]
+[Token(Token = "0x200065A")]
 internal static class Utilities
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003368")]
-	[Address(RVA = "0x3C8F4F0", Offset = "0x3C8F4F0", VA = "0x3C8F4F0")]
+	[Token(Token = "0x6003082")]
+	[Address(RVA = "0xE29110", Offset = "0xE27710", VA = "0x180E29110")]
 	internal static int SelectBucketIndex(int bufferSize)
 	{
 		return default(int);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x6003369")]
-	[Address(RVA = "0x3C8F550", Offset = "0x3C8F550", VA = "0x3C8F550")]
+	[Token(Token = "0x6003083")]
+	[Address(RVA = "0x1AE2A70", Offset = "0x1AE1070", VA = "0x181AE2A70")]
 	internal static int GetMaxSizeForBucket(int binIndex)
 	{
 		return default(int);

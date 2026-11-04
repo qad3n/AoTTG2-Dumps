@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace Unity.Profiling;
 
-[Token(Token = "0x200001B")]
+[Token(Token = "0x2000026")]
 public enum ProfilerCategoryColor : ushort
 {
-	[Token(Token = "0x400001F")]
+	[Token(Token = "0x4000037")]
 	Render,
-	[Token(Token = "0x4000020")]
+	[Token(Token = "0x4000038")]
 	Scripts,
-	[Token(Token = "0x4000021")]
+	[Token(Token = "0x4000039")]
 	BurstJobs,
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x400003A")]
 	Other,
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x400003B")]
 	Physics,
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x400003C")]
 	Animation,
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x400003D")]
 	Audio,
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x400003E")]
 	AudioJob,
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x400003F")]
 	AudioUpdateJob,
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x4000040")]
 	Lighting,
-	[Token(Token = "0x4000029")]
+	[Token(Token = "0x4000041")]
 	GC,
-	[Token(Token = "0x400002A")]
+	[Token(Token = "0x4000042")]
 	VSync,
-	[Token(Token = "0x400002B")]
+	[Token(Token = "0x4000043")]
 	Memory,
-	[Token(Token = "0x400002C")]
+	[Token(Token = "0x4000044")]
 	Internal,
-	[Token(Token = "0x400002D")]
+	[Token(Token = "0x4000045")]
 	UI,
-	[Token(Token = "0x400002E")]
+	[Token(Token = "0x4000046")]
 	Build,
-	[Token(Token = "0x400002F")]
+	[Token(Token = "0x4000047")]
 	Input
 }

@@ -9,41 +9,41 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000502")]
+[Token(Token = "0x200065C")]
 public enum HumanState
 {
-	[Token(Token = "0x40016C2")]
+	[Token(Token = "0x4001D48")]
 	Idle,
-	[Token(Token = "0x40016C3")]
+	[Token(Token = "0x4001D49")]
 	Attack,
-	[Token(Token = "0x40016C4")]
+	[Token(Token = "0x4001D4A")]
 	GroundDodge,
-	[Token(Token = "0x40016C5")]
+	[Token(Token = "0x4001D4B")]
 	AirDodge,
-	[Token(Token = "0x40016C6")]
+	[Token(Token = "0x4001D4C")]
 	Reload,
-	[Token(Token = "0x40016C7")]
+	[Token(Token = "0x4001D4D")]
 	Refill,
-	[Token(Token = "0x40016C8")]
+	[Token(Token = "0x4001D4E")]
 	Die,
-	[Token(Token = "0x40016C9")]
+	[Token(Token = "0x4001D4F")]
 	Grab,
-	[Token(Token = "0x40016CA")]
+	[Token(Token = "0x4001D50")]
 	EmoteAction,
-	[Token(Token = "0x40016CB")]
+	[Token(Token = "0x4001D51")]
 	SpecialAttack,
-	[Token(Token = "0x40016CC")]
+	[Token(Token = "0x4001D52")]
 	SpecialAction,
-	[Token(Token = "0x40016CD")]
+	[Token(Token = "0x4001D53")]
 	Slide,
-	[Token(Token = "0x40016CE")]
+	[Token(Token = "0x4001D54")]
 	Run,
-	[Token(Token = "0x40016CF")]
+	[Token(Token = "0x4001D55")]
 	Land,
-	[Token(Token = "0x40016D0")]
+	[Token(Token = "0x4001D56")]
 	MountingHorse,
-	[Token(Token = "0x40016D1")]
+	[Token(Token = "0x4001D57")]
 	Stun,
-	[Token(Token = "0x40016D2")]
+	[Token(Token = "0x4001D58")]
 	WallSlide
 }

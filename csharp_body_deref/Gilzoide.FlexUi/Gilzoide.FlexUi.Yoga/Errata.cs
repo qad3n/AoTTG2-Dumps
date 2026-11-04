@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x200000D")]
 [Flags]
 public enum Errata
 {
-	[Token(Token = "0x4000059")]
+	[Token(Token = "0x4000054")]
 	None = 0,
-	[Token(Token = "0x400005A")]
+	[Token(Token = "0x4000055")]
 	StretchFlexBasis = 1,
-	[Token(Token = "0x400005B")]
+	[Token(Token = "0x4000056")]
 	StartingEndingEdgeFromFlexDirection = 2,
-	[Token(Token = "0x400005C")]
+	[Token(Token = "0x4000057")]
 	PositionStaticBehavesLikeRelative = 4,
-	[Token(Token = "0x400005D")]
-	All = int.MaxValue,
-	[Token(Token = "0x400005E")]
+	[Token(Token = "0x4000058")]
+	All = 0x7FFFFFFF,
+	[Token(Token = "0x4000059")]
 	Classic = 0x7FFFFFFE
 }

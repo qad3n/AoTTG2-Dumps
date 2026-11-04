@@ -13,56 +13,56 @@ using UnityEngine;
 namespace Photon.Voice;
 
 [Serializable]
-[Token(Token = "0x2000004")]
+[Token(Token = "0x2000002")]
 public class PhotonAppSettings : ScriptableObject
 {
-	[Token(Token = "0x4000006")]
+	[Token(Token = "0x4000001")]
 	[FieldOffset(Offset = "0x18")]
 	[Tooltip("Core Photon Server/Cloud settings.")]
 	public AppSettings AppSettings;
 
-	[Token(Token = "0x4000007")]
+	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x0")]
 	private static PhotonAppSettings instance;
 
-	[Token(Token = "0x4000008")]
+	[Token(Token = "0x4000003")]
 	private const string SettingsFileName = "VoiceAppSettings";
 
-	[Token(Token = "0x4000009")]
+	[Token(Token = "0x4000004")]
 	private const string PhotonVoiceFolderGUID = "d3a9df3027b4a45679a2a3e978dde78e";
 
 	[Token(Token = "0x17000001")]
 	public static PhotonAppSettings Instance
 	{
-		[Token(Token = "0x6000004")]
-		[Address(RVA = "0x3F3B490", Offset = "0x3F3B490", VA = "0x3F3B490")]
+		[Token(Token = "0x6000002")]
+		[Address(RVA = "0x1D8AAA0", Offset = "0x1D890A0", VA = "0x181D8AAA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x3F3B410", Offset = "0x3F3B410", VA = "0x3F3B410")]
+	[Token(Token = "0x6000001")]
+	[Address(RVA = "0x1D67A10", Offset = "0x1D66010", VA = "0x181D67A10")]
 	public void UseCloud(string cloudAppid, string code = "")
 	{
 	}
 
-	[Token(Token = "0x6000005")]
-	[Address(RVA = "0x3F3B520", Offset = "0x3F3B520", VA = "0x3F3B520")]
+	[Token(Token = "0x6000003")]
+	[Address(RVA = "0x1D8A730", Offset = "0x1D88D30", VA = "0x181D8A730")]
 	public static void LoadOrCreateSettings()
 	{
 	}
 
-	[Token(Token = "0x6000006")]
-	[Address(RVA = "0x3F3B7D0", Offset = "0x3F3B7D0", VA = "0x3F3B7D0", Slot = "3")]
+	[Token(Token = "0x6000004")]
+	[Address(RVA = "0x1D8AA40", Offset = "0x1D89040", VA = "0x181D8AA40", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000007")]
-	[Address(RVA = "0x3F3B820", Offset = "0x3F3B820", VA = "0x3F3B820")]
+	[Token(Token = "0x6000005")]
+	[Address(RVA = "0xC8D110", Offset = "0xC8B710", VA = "0x180C8D110")]
 	public PhotonAppSettings()
 	{
 	}

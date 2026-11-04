@@ -11,14 +11,14 @@ using Il2CppDummyDll;
 namespace UnityEngine.TextCore.Text;
 
 [Serializable]
-[Token(Token = "0x2000005")]
+[Token(Token = "0x200002E")]
 public struct FontWeightPair
 {
-	[Token(Token = "0x400000B")]
+	[Token(Token = "0x400012A")]
 	[FieldOffset(Offset = "0x0")]
 	public FontAsset regularTypeface;
 
-	[Token(Token = "0x400000C")]
+	[Token(Token = "0x400012B")]
 	[FieldOffset(Offset = "0x8")]
 	public FontAsset italicTypeface;
 }

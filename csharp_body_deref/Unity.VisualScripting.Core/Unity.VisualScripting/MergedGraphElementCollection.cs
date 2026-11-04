@@ -14,17 +14,32 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200008C")]
 public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, IGraphElement>, INotifyCollectionChanged<IGraphElement>
 {
+	[Token(Token = "0x400011B")]
+	[FieldOffset(Offset = "0x20")]
+	[CompilerGenerated]
+	private Action<IGraphElement> m_ItemAdded;
+
+	[Token(Token = "0x400011C")]
+	[FieldOffset(Offset = "0x28")]
+	[CompilerGenerated]
+	private Action<IGraphElement> m_ItemRemoved;
+
+	[Token(Token = "0x400011D")]
+	[FieldOffset(Offset = "0x30")]
+	[CompilerGenerated]
+	private Action m_CollectionChanged;
+
 	[Token(Token = "0x1400000F")]
 	public event Action<IGraphElement> ItemAdded
 	{
-		[Token(Token = "0x60003F7")]
-		[Address(RVA = "0x4CB4130", Offset = "0x4CB4130", VA = "0x4CB4130", Slot = "17")]
+		[Token(Token = "0x6000401")]
+		[Address(RVA = "0x2DB82B0", Offset = "0x2DB68B0", VA = "0x182DB82B0", Slot = "17")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60003F8")]
-		[Address(RVA = "0x4CB41E0", Offset = "0x4CB41E0", VA = "0x4CB41E0", Slot = "18")]
+		[Token(Token = "0x6000402")]
+		[Address(RVA = "0x2DB84B0", Offset = "0x2DB6AB0", VA = "0x182DB84B0", Slot = "18")]
 		[CompilerGenerated]
 		remove
 		{
@@ -34,14 +49,14 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	[Token(Token = "0x14000010")]
 	public event Action<IGraphElement> ItemRemoved
 	{
-		[Token(Token = "0x60003F9")]
-		[Address(RVA = "0x4CB4290", Offset = "0x4CB4290", VA = "0x4CB4290", Slot = "19")]
+		[Token(Token = "0x6000403")]
+		[Address(RVA = "0x2DB8360", Offset = "0x2DB6960", VA = "0x182DB8360", Slot = "19")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60003FA")]
-		[Address(RVA = "0x4CB4340", Offset = "0x4CB4340", VA = "0x4CB4340", Slot = "20")]
+		[Token(Token = "0x6000404")]
+		[Address(RVA = "0x2DB8560", Offset = "0x2DB6B60", VA = "0x182DB8560", Slot = "20")]
 		[CompilerGenerated]
 		remove
 		{
@@ -51,27 +66,27 @@ public sealed class MergedGraphElementCollection : MergedKeyedCollection<Guid, I
 	[Token(Token = "0x14000011")]
 	public event Action CollectionChanged
 	{
-		[Token(Token = "0x60003FB")]
-		[Address(RVA = "0x4CB43F0", Offset = "0x4CB43F0", VA = "0x4CB43F0", Slot = "21")]
+		[Token(Token = "0x6000405")]
+		[Address(RVA = "0x2DB8210", Offset = "0x2DB6810", VA = "0x182DB8210", Slot = "21")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x60003FC")]
-		[Address(RVA = "0x4CB4480", Offset = "0x4CB4480", VA = "0x4CB4480", Slot = "22")]
+		[Token(Token = "0x6000406")]
+		[Address(RVA = "0x2DB8410", Offset = "0x2DB6A10", VA = "0x182DB8410", Slot = "22")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x60003FD")]
+	[Token(Token = "0x6000407")]
 	public override void Include<TSubItem>(IKeyedCollection<Guid, TSubItem> collection)
 	{
 	}
 
-	[Token(Token = "0x60003FE")]
-	[Address(RVA = "0x4CA8970", Offset = "0x4CA8970", VA = "0x4CA8970")]
+	[Token(Token = "0x6000408")]
+	[Address(RVA = "0x2DB81D0", Offset = "0x2DB67D0", VA = "0x182DB81D0")]
 	public MergedGraphElementCollection()
 	{
 	}

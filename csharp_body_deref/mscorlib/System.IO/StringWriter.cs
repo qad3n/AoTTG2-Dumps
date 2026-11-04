@@ -13,121 +13,121 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x2000574")]
+[Token(Token = "0x200069C")]
 [ComVisible(true)]
 public class StringWriter : TextWriter
 {
-	[Token(Token = "0x40016D5")]
+	[Token(Token = "0x4001AB0")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static UnicodeEncoding m_encoding;
 
-	[Token(Token = "0x40016D6")]
+	[Token(Token = "0x4001AB1")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private StringBuilder _sb;
 
-	[Token(Token = "0x40016D7")]
+	[Token(Token = "0x4001AB2")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private bool _isOpen;
 
-	[Token(Token = "0x1700061C")]
+	[Token(Token = "0x17000832")]
 	public override Encoding Encoding
 	{
-		[Token(Token = "0x6002A4F")]
-		[Address(RVA = "0x3C2C310", Offset = "0x3C2C310", VA = "0x3C2C310", Slot = "11")]
+		[Token(Token = "0x6003316")]
+		[Address(RVA = "0x1AFA9A0", Offset = "0x1AF8FA0", VA = "0x181AFA9A0", Slot = "11")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002A49")]
-	[Address(RVA = "0x3C2C0C0", Offset = "0x3C2C0C0", VA = "0x3C2C0C0")]
+	[Token(Token = "0x6003310")]
+	[Address(RVA = "0x1AFA530", Offset = "0x1AF8B30", VA = "0x181AFA530")]
 	public StringWriter()
 	{
 	}
 
-	[Token(Token = "0x6002A4A")]
-	[Address(RVA = "0x3C2C220", Offset = "0x3C2C220", VA = "0x3C2C220")]
+	[Token(Token = "0x6003311")]
+	[Address(RVA = "0x1AFA760", Offset = "0x1AF8D60", VA = "0x181AFA760")]
 	public StringWriter(IFormatProvider formatProvider)
 	{
 	}
 
-	[Token(Token = "0x6002A4B")]
-	[Address(RVA = "0x3C2C280", Offset = "0x3C2C280", VA = "0x3C2C280")]
+	[Token(Token = "0x6003312")]
+	[Address(RVA = "0x1AFA880", Offset = "0x1AF8E80", VA = "0x181AFA880")]
 	public StringWriter(StringBuilder sb)
 	{
 	}
 
-	[Token(Token = "0x6002A4C")]
-	[Address(RVA = "0x3C2C140", Offset = "0x3C2C140", VA = "0x3C2C140")]
+	[Token(Token = "0x6003313")]
+	[Address(RVA = "0x1AFA670", Offset = "0x1AF8C70", VA = "0x181AFA670")]
 	public StringWriter(StringBuilder sb, IFormatProvider formatProvider)
 	{
 	}
 
-	[Token(Token = "0x6002A4D")]
-	[Address(RVA = "0x3C2C2E0", Offset = "0x3C2C2E0", VA = "0x3C2C2E0", Slot = "8")]
+	[Token(Token = "0x6003314")]
+	[Address(RVA = "0x1AF9F90", Offset = "0x1AF8590", VA = "0x181AF9F90", Slot = "8")]
 	public override void Close()
 	{
 	}
 
-	[Token(Token = "0x6002A4E")]
-	[Address(RVA = "0x3C2C300", Offset = "0x3C2C300", VA = "0x3C2C300", Slot = "9")]
+	[Token(Token = "0x6003315")]
+	[Address(RVA = "0x1AF9FB0", Offset = "0x1AF85B0", VA = "0x181AF9FB0", Slot = "9")]
 	protected override void Dispose(bool disposing)
 	{
 	}
 
-	[Token(Token = "0x6002A50")]
-	[Address(RVA = "0x3C2C3C0", Offset = "0x3C2C3C0", VA = "0x3C2C3C0", Slot = "13")]
+	[Token(Token = "0x6003317")]
+	[Address(RVA = "0x1AFA500", Offset = "0x1AF8B00", VA = "0x181AFA500", Slot = "13")]
 	public override void Write(char value)
 	{
 	}
 
-	[Token(Token = "0x6002A51")]
-	[Address(RVA = "0x3C2C3F0", Offset = "0x3C2C3F0", VA = "0x3C2C3F0", Slot = "15")]
+	[Token(Token = "0x6003318")]
+	[Address(RVA = "0x1AFA2D0", Offset = "0x1AF88D0", VA = "0x181AFA2D0", Slot = "15")]
 	public override void Write(char[] buffer, int index, int count)
 	{
 	}
 
-	[Token(Token = "0x6002A52")]
-	[Address(RVA = "0x3C2C580", Offset = "0x3C2C580", VA = "0x3C2C580", Slot = "18")]
+	[Token(Token = "0x6003319")]
+	[Address(RVA = "0x1AFA4C0", Offset = "0x1AF8AC0", VA = "0x181AFA4C0", Slot = "18")]
 	public override void Write(string value)
 	{
 	}
 
-	[Token(Token = "0x6002A53")]
-	[Address(RVA = "0x3C2C5B0", Offset = "0x3C2C5B0", VA = "0x3C2C5B0", Slot = "22")]
+	[Token(Token = "0x600331A")]
+	[Address(RVA = "0x1AFA150", Offset = "0x1AF8750", VA = "0x181AFA150", Slot = "24")]
 	[ComVisible(false)]
 	public override Task WriteAsync(char value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A54")]
-	[Address(RVA = "0x3C2C660", Offset = "0x3C2C660", VA = "0x3C2C660", Slot = "23")]
+	[Token(Token = "0x600331B")]
+	[Address(RVA = "0x1AFA210", Offset = "0x1AF8810", VA = "0x181AFA210", Slot = "25")]
 	[ComVisible(false)]
 	public override Task WriteAsync(string value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A55")]
-	[Address(RVA = "0x3C2C710", Offset = "0x3C2C710", VA = "0x3C2C710", Slot = "24")]
+	[Token(Token = "0x600331C")]
+	[Address(RVA = "0x1AFA080", Offset = "0x1AF8680", VA = "0x181AFA080", Slot = "26")]
 	[ComVisible(false)]
 	public override Task WriteAsync(char[] buffer, int index, int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A56")]
-	[Address(RVA = "0x3C2C7E0", Offset = "0x3C2C7E0", VA = "0x3C2C7E0", Slot = "25")]
+	[Token(Token = "0x600331D")]
+	[Address(RVA = "0x1AF9FC0", Offset = "0x1AF85C0", VA = "0x181AF9FC0", Slot = "27")]
 	[ComVisible(false)]
 	public override Task FlushAsync()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002A57")]
-	[Address(RVA = "0x3C2C890", Offset = "0x3C2C890", VA = "0x3C2C890", Slot = "3")]
+	[Token(Token = "0x600331E")]
+	[Address(RVA = "0x1AFA050", Offset = "0x1AF8650", VA = "0x181AFA050", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

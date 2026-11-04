@@ -13,7 +13,7 @@ namespace System.Xml.Serialization;
 public abstract class XmlSerializationGeneratedCode
 {
 	[Token(Token = "0x6000D9D")]
-	[Address(RVA = "0x481E960", Offset = "0x481E960", VA = "0x481E960")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected XmlSerializationGeneratedCode()
 	{
 	}

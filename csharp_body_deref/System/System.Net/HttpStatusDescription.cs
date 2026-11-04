@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000114")]
+[Token(Token = "0x200029C")]
 internal static class HttpStatusDescription
 {
-	[Token(Token = "0x6000690")]
-	[Address(RVA = "0x4946C10", Offset = "0x4946C10", VA = "0x4946C10")]
+	[Token(Token = "0x600124F")]
+	[Address(RVA = "0x28FEF90", Offset = "0x28FD590", VA = "0x1828FEF90")]
 	internal static string Get(HttpStatusCode code)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000691")]
-	[Address(RVA = "0x4946C20", Offset = "0x4946C20", VA = "0x4946C20")]
+	[Token(Token = "0x6001250")]
+	[Address(RVA = "0x28FEFA0", Offset = "0x28FD5A0", VA = "0x1828FEFA0")]
 	internal static string Get(int code)
 	{
 		return null;

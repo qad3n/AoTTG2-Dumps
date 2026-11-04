@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004DA")]
+[Token(Token = "0x200050A")]
 [Flags]
 public enum FieldAttributes
 {
@@ -50,5 +50,5 @@ public enum FieldAttributes
 	[Token(Token = "0x40013F7")]
 	HasFieldRVA = 0x100,
 	[Token(Token = "0x40013F8")]
-	ReservedMask = 0x9500
+	ReservedMask = RTSpecialName | HasFieldMarshal | HasDefault | HasFieldRVA
 }

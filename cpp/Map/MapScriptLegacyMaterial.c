@@ -1,5 +1,5 @@
 // Type: Map.MapScriptLegacyMaterial
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Map/MapScriptLegacyMaterial.cs
@@ -8,17 +8,21 @@
 
 // Map.MapScriptLegacyMaterial$$.ctor
 // il2cpp: void Map_MapScriptLegacyMaterial___ctor (Map_MapScriptLegacyMaterial_o* __this, const MethodInfo* method);
-// 0x40b6400
+// 0x181ed9f10
 
 void Map_MapScriptLegacyMaterial___ctor(Map_MapScriptLegacyMaterial_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057a9c86 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Vector2);
-    g_data_057a9c86 = '\x01';
+  float fVar1;
+  
+  if (Il2CppMethodInitialized_184341f36 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Vector2);
+    Il2CppMethodInitialized_184341f36 = '\x01';
   }
-  (__this->fields).Tiling.fields = *(UnityEngine_Vector2_Fields *)(*(long *)(TypeInfo_Vector2 + 0xb8) + 8);
-  Map_MapScriptBaseMaterial___ctor((Map_MapScriptBaseMaterial_o *)__this,method);
+  fVar1 = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.y;
+  (__this->fields).Tiling.fields.x = (TypeInfo_UnityEngine_Vector2->static_fields->oneVector).fields.x;
+  (__this->fields).Tiling.fields.y = fVar1;
+  Map_MapScriptBaseMaterial___ctor((Map_MapScriptBaseMaterial_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

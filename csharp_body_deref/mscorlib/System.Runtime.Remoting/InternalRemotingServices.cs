@@ -12,16 +12,16 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000343")]
+[Token(Token = "0x2000372")]
 [ComVisible(true)]
 public class InternalRemotingServices
 {
-	[Token(Token = "0x4000E79")]
+	[Token(Token = "0x4000E86")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static Hashtable _soapAttributes;
 
-	[Token(Token = "0x6001C31")]
-	[Address(RVA = "0x3B5FCD0", Offset = "0x3B5FCD0", VA = "0x3B5FCD0")]
+	[Token(Token = "0x6001CA0")]
+	[Address(RVA = "0x19DA130", Offset = "0x19D8730", VA = "0x1819DA130")]
 	public static SoapAttribute GetCachedSoapAttribute(object reflectionObject)
 	{
 		return null;

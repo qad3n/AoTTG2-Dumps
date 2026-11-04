@@ -11,39 +11,39 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Messaging;
 
 [Serializable]
-[Token(Token = "0x2000394")]
+[Token(Token = "0x20003C3")]
 [ComVisible(true)]
 public sealed class CallContext
 {
-	[Token(Token = "0x6001DE2")]
-	[Address(RVA = "0x3B848D0", Offset = "0x3B848D0", VA = "0x3B848D0")]
+	[Token(Token = "0x6001E51")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	private CallContext()
 	{
 	}
 
-	[Token(Token = "0x6001DE3")]
-	[Address(RVA = "0x3B848E0", Offset = "0x3B848E0", VA = "0x3B848E0")]
+	[Token(Token = "0x6001E52")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0")]
 	internal static object SetCurrentCallContext(LogicalCallContext ctx)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DE4")]
-	[Address(RVA = "0x3B848F0", Offset = "0x3B848F0", VA = "0x3B848F0")]
+	[Token(Token = "0x6001E53")]
+	[Address(RVA = "0x19F1610", Offset = "0x19EFC10", VA = "0x1819F1610")]
 	internal static LogicalCallContext SetLogicalCallContext(LogicalCallContext callCtx)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DE5")]
-	[Address(RVA = "0x3B84950", Offset = "0x3B84950", VA = "0x3B84950")]
+	[Token(Token = "0x6001E54")]
+	[Address(RVA = "0x19F13A0", Offset = "0x19EF9A0", VA = "0x1819F13A0")]
 	public static object LogicalGetData(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001DE6")]
-	[Address(RVA = "0x3B84AC0", Offset = "0x3B84AC0", VA = "0x3B84AC0")]
+	[Token(Token = "0x6001E55")]
+	[Address(RVA = "0x19F1480", Offset = "0x19EFA80", VA = "0x1819F1480")]
 	public static void LogicalSetData(string name, object data)
 	{
 	}

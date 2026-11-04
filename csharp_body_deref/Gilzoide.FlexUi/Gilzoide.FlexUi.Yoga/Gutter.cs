@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000013")]
+[Token(Token = "0x2000011")]
 public enum Gutter
 {
-	[Token(Token = "0x400006B")]
+	[Token(Token = "0x4000066")]
 	Column,
-	[Token(Token = "0x400006C")]
+	[Token(Token = "0x4000067")]
 	Row,
-	[Token(Token = "0x400006D")]
+	[Token(Token = "0x4000068")]
 	All
 }

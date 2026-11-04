@@ -20,14 +20,14 @@ public class JsonSchemaResolver
 	public IList<JsonSchema> LoadedSchemas
 	{
 		[Token(Token = "0x6000AC8")]
-		[Address(RVA = "0x3E04AF0", Offset = "0x3E04AF0", VA = "0x3E04AF0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000AC9")]
-		[Address(RVA = "0x3E04B00", Offset = "0x3E04B00", VA = "0x3E04B00")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		protected set
 		{
@@ -35,13 +35,13 @@ public class JsonSchemaResolver
 	}
 
 	[Token(Token = "0x6000ACA")]
-	[Address(RVA = "0x3DF8860", Offset = "0x3DF8860", VA = "0x3DF8860")]
+	[Address(RVA = "0x1C5ED80", Offset = "0x1C5D380", VA = "0x181C5ED80")]
 	public JsonSchemaResolver()
 	{
 	}
 
 	[Token(Token = "0x6000ACB")]
-	[Address(RVA = "0x3E04B10", Offset = "0x3E04B10", VA = "0x3E04B10", Slot = "4")]
+	[Address(RVA = "0x1C5EC50", Offset = "0x1C5D250", VA = "0x181C5EC50", Slot = "4")]
 	public virtual JsonSchema GetSchema(string reference)
 	{
 		return null;

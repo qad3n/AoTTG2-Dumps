@@ -12,25 +12,25 @@ using UnityEngine;
 namespace TMPro;
 
 [Serializable]
-[Token(Token = "0x200001E")]
+[Token(Token = "0x20000AF")]
 public struct Mesh_Extents
 {
-	[Token(Token = "0x40000C6")]
+	[Token(Token = "0x40005D8")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector2 min;
 
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x40005D9")]
 	[FieldOffset(Offset = "0x8")]
 	public Vector2 max;
 
-	[Token(Token = "0x600011D")]
-	[Address(RVA = "0x4C448B0", Offset = "0x4C448B0", VA = "0x4C448B0")]
+	[Token(Token = "0x600065C")]
+	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
 	public Mesh_Extents(Vector2 min, Vector2 max)
 	{
 	}
 
-	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x4C448C0", Offset = "0x4C448C0", VA = "0x4C448C0", Slot = "3")]
+	[Token(Token = "0x600065D")]
+	[Address(RVA = "0x2D613B0", Offset = "0x2D5F9B0", VA = "0x182D613B0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

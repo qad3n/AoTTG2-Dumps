@@ -3,71 +3,71 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000348")]
+[Token(Token = "0x2000253")]
 internal ref struct ValueListBuilder<T>
 {
-	[Token(Token = "0x4000F19")]
+	[Token(Token = "0x4000850")]
 	[FieldOffset(Offset = "0x0")]
 	private Span<T> _span;
 
-	[Token(Token = "0x4000F1A")]
+	[Token(Token = "0x4000851")]
 	[FieldOffset(Offset = "0x0")]
 	private T[] _arrayFromPool;
 
-	[Token(Token = "0x4000F1B")]
+	[Token(Token = "0x4000852")]
 	[FieldOffset(Offset = "0x0")]
 	private int _pos;
 
-	[Token(Token = "0x170004CD")]
+	[Token(Token = "0x1700033C")]
 	public int Length
 	{
-		[Token(Token = "0x60015EA")]
+		[Token(Token = "0x6001031")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x170004CE")]
+	[Token(Token = "0x1700033D")]
 	public unsafe ref T this[int index]
 	{
-		[Token(Token = "0x60015EB")]
+		[Token(Token = "0x6001032")]
 		get
 		{
 			return ref *(T*)null;
 		}
 	}
 
-	[Token(Token = "0x60015E9")]
+	[Token(Token = "0x6001030")]
 	public ValueListBuilder(Span<T> initialSpan)
 	{
 	}
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015EC")]
+	[MethodImpl(MethodImplOptions.AggressiveInlining)]
+	[Token(Token = "0x6001033")]
 	public void Append(T item)
 	{
 	}
 
-	[Token(Token = "0x60015ED")]
+	[Token(Token = "0x6001034")]
 	public ReadOnlySpan<T> AsSpan()
 	{
 		return default(ReadOnlySpan<T>);
 	}
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015EE")]
+	[MethodImpl(MethodImplOptions.AggressiveInlining)]
+	[Token(Token = "0x6001035")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x60015EF")]
+	[Token(Token = "0x6001036")]
 	private void Grow()
 	{
 	}
 
-	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x60015F0")]
+	[MethodImpl(MethodImplOptions.AggressiveInlining)]
+	[Token(Token = "0x6001037")]
 	public T Pop()
 	{
 		return (T)null;

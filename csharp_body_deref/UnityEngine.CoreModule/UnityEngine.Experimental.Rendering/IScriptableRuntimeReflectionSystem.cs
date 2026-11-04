@@ -10,9 +10,9 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Experimental.Rendering;
 
-[Token(Token = "0x200034D")]
+[Token(Token = "0x20003F4")]
 public interface IScriptableRuntimeReflectionSystem : IDisposable
 {
-	[Token(Token = "0x60011A3")]
+	[Token(Token = "0x60017DF")]
 	bool TickRealtimeProbes();
 }

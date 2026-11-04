@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting.FullSerializer;
 
-[Token(Token = "0x2000217")]
+[Token(Token = "0x20001FB")]
 public static class fsReflectionUtility
 {
-	[Token(Token = "0x60012DD")]
-	[Address(RVA = "0x4D8ACC0", Offset = "0x4D8ACC0", VA = "0x4D8ACC0")]
+	[Token(Token = "0x6001226")]
+	[Address(RVA = "0x2E6DE40", Offset = "0x2E6C440", VA = "0x182E6DE40")]
 	public static Type GetInterface(Type type, Type interfaceType)
 	{
 		return null;

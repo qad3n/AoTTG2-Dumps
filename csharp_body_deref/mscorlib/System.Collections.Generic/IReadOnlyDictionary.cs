@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000650")]
+[Token(Token = "0x2000624")]
 public interface IReadOnlyDictionary<TKey, TValue> : IReadOnlyCollection<KeyValuePair<TKey, TValue>>, IEnumerable<KeyValuePair<TKey, TValue>>, IEnumerable
 {
-	[Token(Token = "0x17000822")]
+	[Token(Token = "0x170007B1")]
 	TValue this[TKey key]
 	{
-		[Token(Token = "0x600320D")]
+		[Token(Token = "0x6002F22")]
 		get;
 	}
 
-	[Token(Token = "0x17000823")]
+	[Token(Token = "0x170007B2")]
 	IEnumerable<TKey> Keys
 	{
-		[Token(Token = "0x600320E")]
+		[Token(Token = "0x6002F23")]
 		get;
 	}
 
-	[Token(Token = "0x17000824")]
+	[Token(Token = "0x170007B3")]
 	IEnumerable<TValue> Values
 	{
-		[Token(Token = "0x600320F")]
+		[Token(Token = "0x6002F24")]
 		get;
 	}
 
-	[Token(Token = "0x600320B")]
+	[Token(Token = "0x6002F20")]
 	bool ContainsKey(TKey key);
 
-	[Token(Token = "0x600320C")]
+	[Token(Token = "0x6002F21")]
 	bool TryGetValue(TKey key, out TValue value);
 }

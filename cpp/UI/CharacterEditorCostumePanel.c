@@ -1,108 +1,176 @@
 // Type: UI.CharacterEditorCostumePanel
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/UI/CharacterEditorCostumePanel.cs
 // Prior real C# source (older reference): Assets/Scripts/UI/CharacterEditorMenu/CharacterEditorCostumePanel.cs
 // --------------------------------
 
 // UI.CharacterEditorCostumePanel.<>c$$.cctor
 // il2cpp: void UI_CharacterEditorCostumePanel___c___cctor (const MethodInfo* method);
-// 0x435d450
+// 0x1821e8560
 
 void UI_CharacterEditorCostumePanel___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  UI_CharacterEditorCostumePanel___c_o *__this;
   
-  if (g_data_057ae189 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ae189 = '\x01';
+  if (Il2CppMethodInitialized_184346f88 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c);
+    Il2CppMethodInitialized_184346f88 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9,__this);
   return;
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel___c___ctor (UI_CharacterEditorCostumePanel___c_o* __this, const MethodInfo* method);
-// 0x435d4c0
+// 0x18054c890
 
-void UI_CharacterEditorCostumePanel___c___ctor
-               (UI_CharacterEditorCostumePanel___c_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c___ctor(UI_CharacterEditorCostumePanel___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c$$<OnButtonClick>b__33_6
 // il2cpp: void UI_CharacterEditorCostumePanel___c___OnButtonClick_b__33_6 (UI_CharacterEditorCostumePanel___c_o* __this, const MethodInfo* method);
-// 0x435d4d0
+// 0x1821e8040
 
 void UI_CharacterEditorCostumePanel___c___OnButtonClick_b__33_6
                (UI_CharacterEditorCostumePanel___c_o *__this,MethodInfo *method)
 
 {
-  long *plVar1;
+  Settings_HumanCustomSettings_o *pSVar1;
+  Settings_CustomSkinSettings_o *pSVar2;
   
-  if (g_data_057ae18a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    g_data_057ae18a = '\x01';
+  if (Il2CppMethodInitialized_184346f89 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    Il2CppMethodInitialized_184346f89 = '\x01';
   }
-  if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
   }
   Utility_CharacterPreviewGenerator__ClearSessionGeneratedPreviews((MethodInfo *)0x0);
   Utility_CharacterPreviewGenerator__ClearNonPersistentPreviews((MethodInfo *)0x0);
-  plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (plVar1 != (long *)0x0) {
-    (**(code **)(*plVar1 + 0x248))(plVar1,*(undefined8 *)(*plVar1 + 0x250));
-    plVar1 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (plVar1 != (long *)0x0) {
-      (**(code **)(*plVar1 + 0x248))();
-      if (g_data_057ae1ae == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-        g_data_057ae1ae = '\x01';
+  pSVar1 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if (pSVar1 != (Settings_HumanCustomSettings_o *)0x0) {
+    (*(pSVar1->klass->vtable)._19_Load.methodPtr)(pSVar1,(pSVar1->klass->vtable)._19_Load.method);
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+    if (pSVar2 != (Settings_CustomSkinSettings_o *)0x0) {
+      (*(pSVar2->klass->vtable)._19_Load.methodPtr)(pSVar2,(pSVar2->klass->vtable)._19_Load.method);
+      if (Il2CppMethodInitialized_184346fb1 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+        Il2CppMethodInitialized_184346fb1 = '\x01';
       }
-      **(undefined2 **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) = 0;
+      TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview = false;
+      TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview = false;
       ApplicationManagers_SceneLoader__LoadScene(1,(MethodInfo *)0x0);
       return;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae1ae == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae1ae = '\x01';
-  }
-  **(undefined2 **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) = 0;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___ctor (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
-// 0x435d5f0
+// 0x18054c890
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___ctor
-               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___ctor(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__27
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__27 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
-// 0x435d600
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__0
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__0 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81a0
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__27
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__0
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  if (Il2CppMethodInitialized_184346f8a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Quit");
+    Il2CppMethodInitialized_184346f8a = '\x01';
+  }
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,"Quit",(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__1
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__1 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e82e0
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__1
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  if (Il2CppMethodInitialized_184346f8b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"LoadPreset");
+    Il2CppMethodInitialized_184346f8b = '\x01';
+  }
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,"LoadPreset",(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__2
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__2 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e8330
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__2
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  if (Il2CppMethodInitialized_184346f8c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"SaveQuit");
+    Il2CppMethodInitialized_184346f8c = '\x01';
+  }
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,"SaveQuit",(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__3
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__3 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e8380
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__3
                (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
 
 {
@@ -110,347 +178,701 @@ void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__27
   
   __this_00 = (__this->fields).__4__this;
   if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,(__this->fields).button,(MethodInfo *)0x0);
+    UI_CharacterEditorCostumePanel__OnCustomSetSelected(__this_00,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__4
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__4 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e83a0
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__4
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnSexChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__5
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__5 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__5(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__6
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__6 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__6(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__7
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__7 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__7(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__8
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__8 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__8(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__9
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__9 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__9(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__10
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__10 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__10(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__11
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__11 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__11(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__12
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__12 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__12(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__13
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__13 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__13(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__14
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__14 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__14(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__15
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__15 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e8210
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__15
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  Settings_HumanCustomSet_o *pSVar1;
+  Settings_IntSetting_o *pSVar2;
+  Settings_IntSetting_o *__this_00;
+  Settings_BoolSetting_o *__this_01;
+  UI_CharacterEditorCostumePanel_o *__this_02;
+  int32_t value;
+  
+  if (Il2CppMethodInitialized_184346f8d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184346f8d = '\x01';
+  }
+  pSVar1 = (__this->fields).set;
+  if ((pSVar1 != (Settings_HumanCustomSet_o *)0x0) &&
+     (pSVar2 = (__this->fields).capeOption, pSVar2 != (Settings_IntSetting_o *)0x0)) {
+    value = 2;
+    __this_00 = (pSVar1->fields).Cape;
+    if ((pSVar2->fields)._value != 3) {
+      value = (pSVar2->fields)._value;
+    }
+    if (__this_00 != (Settings_IntSetting_o *)0x0) {
+      Settings_TypedSetting_int___set_Value
+                ((Settings_TypedSetting_int__o *)__this_00,value,
+                 (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      pSVar1 = (__this->fields).set;
+      if (((pSVar1 != (Settings_HumanCustomSet_o *)0x0) &&
+          (pSVar2 = (__this->fields).capeOption, pSVar2 != (Settings_IntSetting_o *)0x0)) &&
+         (__this_01 = (pSVar1->fields).HoodUp, __this_01 != (Settings_BoolSetting_o *)0x0)) {
+        Settings_TypedSetting_bool___set_Value
+                  ((Settings_TypedSetting_bool__o *)__this_01,(pSVar2->fields)._value == 3,
+                   (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+        __this_02 = (__this->fields).__4__this;
+        if (__this_02 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+          UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_02,(MethodInfo *)0x0);
+          return;
+        }
+      }
+    }
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__16
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__16 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__16(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__17
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__17 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__17(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__18
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__18 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__18(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__19
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__19 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__19(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__20
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__20 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__20(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__21
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__21 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__21(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__22
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__22 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__22(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__23
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__23 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__23(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__24
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__24 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__24(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__25
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__25 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__25(UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_0$$<Setup>b__26
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__26 (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o* __this, const MethodInfo* method);
+// 0x1821e81f0
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_0___Setup_b__26
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCharacterChanged(__this_00,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c__DisplayClass21_1$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_1___ctor (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o* __this, const MethodInfo* method);
-// 0x435d620
+// 0x18054c890
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass21_1___ctor
-               (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_1___ctor(UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_1$$<Setup>b__28
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_1___Setup_b__28 (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o* __this, const MethodInfo* method);
-// 0x435d630
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_1$$<Setup>b__27
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_1___Setup_b__27 (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o* __this, const MethodInfo* method);
+// 0x1821e83c0
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass21_1___Setup_b__28
-               (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_1___Setup_b__27(UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o* __this, MethodInfo* method)
 
 {
+  UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *pUVar1;
   UI_CharacterEditorCostumePanel_o *__this_00;
   
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+  pUVar1 = (__this->fields).CS___8__locals1;
+  if ((pUVar1 != (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)0x0) &&
+     (__this_00 = (pUVar1->fields).__4__this, __this_00 != (UI_CharacterEditorCostumePanel_o *)0x0)) {
     UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,(__this->fields).button,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_2$$.ctor
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_2___ctor (UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o* __this, const MethodInfo* method);
+// 0x18054c890
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass21_2___ctor(UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o* __this, MethodInfo* method)
+
+{
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass21_2$$<Setup>b__28
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass21_2___Setup_b__28 (UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o* __this, const MethodInfo* method);
+// 0x1821e83c0
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass21_2___Setup_b__28
+               (UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *pUVar1;
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  pUVar1 = (__this->fields).CS___8__locals2;
+  if ((pUVar1 != (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)0x0) &&
+     (__this_00 = (pUVar1->fields).__4__this, __this_00 != (UI_CharacterEditorCostumePanel_o *)0x0)) {
+    UI_CharacterEditorCostumePanel__OnButtonClick(__this_00,(__this->fields).button,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___ctor (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d650
+// 0x18054c890
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___ctor
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass33_0___ctor(UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__0
 // il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__0 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d660
+// 0x1821e8470
 
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__0
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
-
-{
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *pUVar2;
-  UI_CharacterEditorCostumePanel_o *pUVar3;
-  
-  uVar1 = SUB84(method,0);
-  pUVar2 = (__this->fields).__4__this;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(__this->fields).name,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar3->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(System_String_o *)(pUVar3->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae18b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae18b = '\x01';
-  }
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar3->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish(pUVar2,"LoadPreset",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar3,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar3->fields).m_CachedPtr = uVar1;
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__1
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__1 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d680
-
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__1
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__0(UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, MethodInfo* method)
 
 {
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *pUVar2;
-  UI_CharacterEditorCostumePanel_o *pUVar3;
-  
-  uVar1 = SUB84(method,0);
-  pUVar2 = (__this->fields).__4__this;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(__this->fields).name,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar3->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(System_String_o *)(pUVar3->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae18b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae18b = '\x01';
-  }
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish(pUVar2,"LoadPreset",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar3,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar3->fields).m_CachedPtr = uVar1;
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__2
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__2 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d6a0
-
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__2
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
-
-{
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *pUVar2;
-  UI_CharacterEditorCostumePanel_o *pUVar3;
-  
-  uVar1 = SUB84(method,0);
-  pUVar2 = (__this->fields).__4__this;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(__this->fields).name,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae18b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae18b = '\x01';
-  }
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar3->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish(pUVar2,"LoadPreset",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar3 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar3 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar3,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pUVar3,(MethodInfo *)0x0);
-  *(undefined4 *)&(pUVar3->fields).m_CachedPtr = uVar1;
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__3
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__3 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d6c0
-
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__3
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
-
-{
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *pUVar2;
   UI_CharacterEditorCostumePanel_o *__this_00;
   
-  uVar1 = SUB84(method,0);
-  pUVar2 = (__this->fields).__4__this;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (pUVar2,(__this->fields).name,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae18b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae18b = '\x01';
-  }
-  pUVar2 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (pUVar2 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish(pUVar2,"LoadPreset",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  __this_00 = (UI_CharacterEditorCostumePanel_o *)(pUVar2->fields).m_CachedPtr;
-  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (__this_00,(System_String_o *)(pUVar2->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->fields).m_CachedPtr = uVar1;
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__4
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__4 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d6e0
-
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__4
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
-
-{
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *__this_00;
-  UI_CharacterEditorCostumePanel_o *__this_01;
-  
-  uVar1 = SUB84(method,0);
-  if (g_data_057ae18b == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae18b = '\x01';
-  }
-  __this_00 = (__this->fields).__4__this;
-  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish(__this_00,"LoadPreset",(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  __this_01 = (UI_CharacterEditorCostumePanel_o *)(__this_00->fields).m_CachedPtr;
-  if (__this_01 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
-              (__this_01,(System_String_o *)(__this_00->fields).m_CancellationTokenSource,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_01->fields).m_CachedPtr = uVar1;
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__5
-// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__5 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
-// 0x435d720
-
-void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__5
-               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
-
-{
-  undefined4 uVar1;
-  UI_CharacterEditorCostumePanel_o *__this_00;
-  
-  uVar1 = SUB84(method,0);
   __this_00 = (__this->fields).__4__this;
   if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
     UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
               (__this_00,(__this->fields).name,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&(__this_00->fields).m_CachedPtr = uVar1;
-  return;
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__1
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__1 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1821e8470
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__1(UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
+              (__this_00,(__this->fields).name,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__2
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__2 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1821e8470
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__2(UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
+              (__this_00,(__this->fields).name,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__3
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__3 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1821e8470
+
+void
+UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__3(UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, MethodInfo* method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
+              (__this_00,(__this->fields).name,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__4
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__4 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1821e84a0
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__4
+               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  if (Il2CppMethodInitialized_184346f8e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"LoadPreset");
+    Il2CppMethodInitialized_184346f8e = '\x01';
+  }
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
+              (__this_00,"LoadPreset",(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
+}
+
+
+// UI.CharacterEditorCostumePanel.<>c__DisplayClass33_0$$<OnButtonClick>b__5
+// il2cpp: void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__5 (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o* __this, const MethodInfo* method);
+// 0x1821e8470
+
+void UI_CharacterEditorCostumePanel___c__DisplayClass33_0___OnButtonClick_b__5
+               (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this,MethodInfo *method)
+
+{
+  UI_CharacterEditorCostumePanel_o *__this_00;
+  
+  __this_00 = (__this->fields).__4__this;
+  if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+    UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
+              (__this_00,(__this->fields).name,(MethodInfo *)0x0);
+    return;
+  }
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x435d740
+// 0x180573ef0
 
-void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
-               int32_t __1__state,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -458,11 +880,10 @@ void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$System.IDisposable.Dispose
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_IDisposable_Dispose (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, const MethodInfo* method);
-// 0x435d760
+// 0x180547020
 
-void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_IDisposable_Dispose
-               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
-               MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_IDisposable_Dispose(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, MethodInfo* method)
 
 {
   return;
@@ -471,160 +892,152 @@ void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__S
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$MoveNext
 // il2cpp: bool UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__MoveNext (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, const MethodInfo* method);
-// 0x435d770
+// 0x1821e5500
 
-bool_conflict
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__MoveNext
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
-          MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__MoveNext
+               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
+               MethodInfo *method)
 
 {
   byte bVar1;
   int iVar2;
+  Settings_CustomSkinSettings_o *pSVar3;
+  Settings_HumanCustomSkinSettings_o *pSVar4;
+  Settings_BoolSetting_o *pSVar5;
+  GameManagers_BaseGameManager_o *pGVar6;
   Characters_DummyHuman_o *__this_00;
-  long lVar3;
-  Settings_TypedSetting_bool__o *__this_01;
-  Il2CppObject *pIVar4;
-  undefined8 uVar5;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this_02;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this_03;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this_04;
+  Il2CppObject *pIVar7;
   
-  __this_02 = __this;
-  if (g_data_057ae18c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DummyHuman);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    __this_02 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)&TypeInfo_Util;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae18c = '\x01';
+  if (Il2CppMethodInitialized_184346f8f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_DummyHuman);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    Il2CppMethodInitialized_184346f8f = '\x01';
   }
   iVar2 = (__this->fields).__1__state;
-  if (iVar2 == 2) {
+  if (iVar2 == 0) {
     (__this->fields).__1__state = -1;
-    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) &&
-       (__this_02 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o **)
-                     (lVar3 + 0x60),
-       __this_02 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)0x0)) {
-      Settings_TypedSetting_bool___set_Value
-                ((Settings_TypedSetting_bool__o *)__this_02,
-                 (uint)(byte)(__this->fields)._originalGlobalEnabled_5__2,MethodInfo_Void_set_Value);
-      lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-      if ((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) {
-        __this_01 = *(Settings_TypedSetting_bool__o **)(lVar3 + 0x58);
-        __this_02 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)0x0;
-        if (__this_01 != (Settings_TypedSetting_bool__o *)0x0) {
-          Settings_TypedSetting_bool___set_Value
-                    (__this_01,(uint)*(byte *)((long)&(__this->fields)._originalGlobalEnabled_5__2 + 1),
-                     MethodInfo_Void_set_Value);
-          return 0;
-        }
-      }
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
     }
+    pIVar7 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
+    (__this->fields).__2__current = pIVar7;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
+    (__this->fields).__1__state = 1;
+    return true;
   }
-  else {
-    if (iVar2 != 1) {
-      if (iVar2 != 0) {
-        return 0;
-      }
-      (__this->fields).__1__state = -1;
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pIVar4 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
-      (__this->fields).__2__current = pIVar4;
-      uVar5 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
-      (__this->fields).__1__state = 1;
-      return (bool_conflict)CONCAT71((int7)((ulong)uVar5 >> 8),1);
-    }
+  if (iVar2 == 1) {
     (__this->fields).__1__state = -1;
-    __this_02 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o **)
-                 (*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-    if (__this_02 == (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)0x0) {
-      return 0;
-    }
-    bVar1 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-    if (((((Settings_TypedSetting_bool__c *)__this_02->klass)->_2).naturalAligment < bVar1) ||
-       ((((Settings_TypedSetting_bool__c *)__this_02->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
-        TypeInfo_CharacterEditorGameManager)) goto label_0435dac1;
-    __this_00 = *(Characters_DummyHuman_o **)&__this_02[1].fields;
-    if (__this_00 == (Characters_DummyHuman_o *)0x0) {
-      return 0;
-    }
-    bVar1 = (TypeInfo_DummyHuman->_2).naturalAligment;
-    if ((__this_00->klass->_2).naturalAligment < bVar1) {
-      return 0;
-    }
-    if ((__this_00->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_DummyHuman) {
-      return 0;
-    }
-    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) &&
-       (__this_03 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o **)
-                     (lVar3 + 0x60),
-       __this_03 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)0x0)) {
-      *(undefined1 *)&(__this->fields)._originalGlobalEnabled_5__2 =
-           *(undefined1 *)((long)&(__this_03->fields).__1__state + 1);
-      if (*(long *)(lVar3 + 0x58) != 0) {
-        *(undefined1 *)((long)&(__this->fields)._originalGlobalEnabled_5__2 + 1) =
-             *(undefined1 *)(*(long *)(lVar3 + 0x58) + 0x11);
-        if (g_data_057ae187 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-          g_data_057ae187 = '\x01';
-        }
-        Settings_TypedSetting_bool___set_Value
-                  ((Settings_TypedSetting_bool__o *)__this_03,(uint)**(byte **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8),
-                   MethodInfo_Void_set_Value);
-        lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-        __this_02 = __this_03;
-        if ((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) {
-          __this_04 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o **)
-                       (lVar3 + 0x58);
-          if (g_data_057ae188 == '\0') {
-            __this_03 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-                        &TypeInfo_CharacterEditorSkinsPanel;
-            il2cpp_runtime_helper_023445d0();
-            g_data_057ae188 = '\x01';
-          }
-          __this_02 = __this_03;
-          if ((__this_04 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)0x0)
-             && (Settings_TypedSetting_bool___set_Value
-                           ((Settings_TypedSetting_bool__o *)__this_04,
-                            (uint)*(byte *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1),MethodInfo_Void_set_Value),
-                __this_02 = __this_04, __this_00 != (Characters_DummyHuman_o *)0x0)) {
-            Characters_DummyHuman__LoadSkin(__this_00,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+    pGVar6 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+    if (pGVar6 != (GameManagers_BaseGameManager_o *)0x0) {
+      bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+      if (((pGVar6->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pGVar6->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+          (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+        il2cpp_codegen_raise_invalid_cast_exception(pGVar6);
+      }
+      __this_00 = (Characters_DummyHuman_o *)(*(uint64_t *)((char *)pGVar6 + 0x38));
+      if (__this_00 != (Characters_DummyHuman_o *)0x0) {
+        bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+        if ((bVar1 <= (__this_00->klass->_2).typeHierarchyDepth) &&
+           ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+            (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+          pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+          if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+             ((pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0 &&
+              (pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0))
+             )) {
+            (__this->fields)._originalGlobalEnabled_5__2 = (pSVar5->fields)._value;
+            pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+            if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+               ((pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0 &&
+                (pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)))
+               ) {
+              (__this->fields)._originalSetEnabled_5__3 = (pSVar5->fields)._value;
+              pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+              if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+                 (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) {
+                pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled;
+                if (Il2CppMethodInitialized_184346ff7 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+                  Il2CppMethodInitialized_184346ff7 = '\x01';
+                }
+                if (pSVar5 != (Settings_BoolSetting_o *)0x0) {
+                  Settings_TypedSetting_bool___set_Value
+                            ((Settings_TypedSetting_bool__o *)pSVar5,
+                             TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->
+                             _persistentGlobalSkinPreview,
+                             (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+                  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+                  if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+                     (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) {
+                    pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled;
+                    if (Il2CppMethodInitialized_184346ff8 == '\0') {
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+                      Il2CppMethodInitialized_184346ff8 = '\x01';
+                    }
+                    if (pSVar5 != (Settings_BoolSetting_o *)0x0) {
+                      Settings_TypedSetting_bool___set_Value
+                                ((Settings_TypedSetting_bool__o *)pSVar5,
+                                 TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->
+                                 _persistentCustomSkinPreview,
+                                 (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+                      Characters_DummyHuman__LoadSkin(__this_00,(MethodInfo *)0x0);
+                      if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+                      }
+                      pIVar7 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
+                      (__this->fields).__2__current = pIVar7;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
+                      (__this->fields).__1__state = 2;
+                      return true;
+                    }
+                  }
+                }
+              }
             }
-            pIVar4 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
-            (__this->fields).__2__current = pIVar4;
-            uVar5 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
-            (__this->fields).__1__state = 2;
-            return (bool_conflict)CONCAT71((int7)((ulong)uVar5 >> 8),1);
           }
+          goto label_1821e58ba;
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_0435dac1:
-  il2cpp_runtime_helper_022b2fd0();
-  return (bool_conflict)(__this_02->fields).__2__current;
+  else if (iVar2 == 2) {
+    (__this->fields).__1__state = -1;
+    pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+    if (((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+        (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) &&
+       (pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)) {
+      Settings_TypedSetting_bool___set_Value
+                ((Settings_TypedSetting_bool__o *)pSVar5,(__this->fields)._originalGlobalEnabled_5__2,
+                 (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+      pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+      if (((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+          (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) &&
+         (pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)) {
+        Settings_TypedSetting_bool___set_Value
+                  ((Settings_TypedSetting_bool__o *)pSVar5,(__this->fields)._originalSetEnabled_5__3,
+                   (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+        return false;
+      }
+    }
+label_1821e58ba:
+    ThrowNullReferenceException();
+  }
+  return false;
 }
 
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, const MethodInfo* method);
-// 0x435dad0
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
-          MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -633,33 +1046,35 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_IEnumerator_Reset (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, const MethodInfo* method);
-// 0x435dae0
+// 0x1821e58d0
 
 void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_IEnumerator_Reset
                (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
                MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterCostumeChange_d__31_System_Collections_IEnum
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterCostumeChange>d__31$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_IEnumerator_get_Current (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, const MethodInfo* method);
-// 0x435db20
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_IEnumerator_get_Current
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this,
-          MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System_Collections_IEnumerator_get_Current(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -668,14 +1083,14 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31__System
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x435db30
+// 0x180573ef0
 
-void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -683,10 +1098,10 @@ void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$System.IDisposable.Dispose
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_IDisposable_Dispose (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, const MethodInfo* method);
-// 0x435db50
+// 0x180547020
 
-void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_IDisposable_Dispose
-               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_IDisposable_Dispose(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, MethodInfo* method)
 
 {
   return;
@@ -695,154 +1110,151 @@ void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_ID
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$MoveNext
 // il2cpp: bool UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__MoveNext (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, const MethodInfo* method);
-// 0x435db60
+// 0x1821e61a0
 
-bool_conflict
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__MoveNext
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__MoveNext
+               (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
   int iVar2;
+  Settings_CustomSkinSettings_o *pSVar3;
+  Settings_HumanCustomSkinSettings_o *pSVar4;
+  Settings_BoolSetting_o *pSVar5;
+  GameManagers_BaseGameManager_o *pGVar6;
   Characters_DummyHuman_o *__this_00;
-  long lVar3;
-  Settings_TypedSetting_bool__o *__this_01;
-  Il2CppObject *pIVar4;
-  undefined8 uVar5;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_02;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_03;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_04;
+  Il2CppObject *pIVar7;
   
-  __this_02 = __this;
-  if (g_data_057ae18d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DummyHuman);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    __this_02 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)&TypeInfo_Util;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae18d = '\x01';
+  if (Il2CppMethodInitialized_184346f90 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_DummyHuman);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    Il2CppMethodInitialized_184346f90 = '\x01';
   }
   iVar2 = (__this->fields).__1__state;
-  if (iVar2 == 2) {
+  if (iVar2 == 0) {
     (__this->fields).__1__state = -1;
-    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) &&
-       (__this_02 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o **)(lVar3 + 0x60),
-       __this_02 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)0x0)) {
-      Settings_TypedSetting_bool___set_Value
-                ((Settings_TypedSetting_bool__o *)__this_02,
-                 (uint)(byte)(__this->fields)._originalGlobalEnabled_5__2,MethodInfo_Void_set_Value);
-      lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-      if ((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) {
-        __this_01 = *(Settings_TypedSetting_bool__o **)(lVar3 + 0x58);
-        __this_02 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)0x0;
-        if (__this_01 != (Settings_TypedSetting_bool__o *)0x0) {
-          Settings_TypedSetting_bool___set_Value
-                    (__this_01,(uint)*(byte *)((long)&(__this->fields)._originalGlobalEnabled_5__2 + 1),
-                     MethodInfo_Void_set_Value);
-          return 0;
-        }
-      }
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
     }
+    pIVar7 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
+    (__this->fields).__2__current = pIVar7;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
+    (__this->fields).__1__state = 1;
+    return true;
   }
-  else {
-    if (iVar2 != 1) {
-      if (iVar2 != 0) {
-        return 0;
-      }
-      (__this->fields).__1__state = -1;
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pIVar4 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
-      (__this->fields).__2__current = pIVar4;
-      uVar5 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
-      (__this->fields).__1__state = 1;
-      return (bool_conflict)CONCAT71((int7)((ulong)uVar5 >> 8),1);
-    }
+  if (iVar2 == 1) {
     (__this->fields).__1__state = -1;
-    __this_02 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o **)
-                 (*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-    if (__this_02 == (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)0x0) {
-      return 0;
-    }
-    bVar1 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-    if (((((Settings_TypedSetting_bool__c *)__this_02->klass)->_2).naturalAligment < bVar1) ||
-       ((((Settings_TypedSetting_bool__c *)__this_02->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] !=
-        TypeInfo_CharacterEditorGameManager)) goto label_0435deb1;
-    __this_00 = *(Characters_DummyHuman_o **)&__this_02[1].fields;
-    if (__this_00 == (Characters_DummyHuman_o *)0x0) {
-      return 0;
-    }
-    bVar1 = (TypeInfo_DummyHuman->_2).naturalAligment;
-    if ((__this_00->klass->_2).naturalAligment < bVar1) {
-      return 0;
-    }
-    if ((__this_00->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_DummyHuman) {
-      return 0;
-    }
-    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-    if (((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) &&
-       (__this_03 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o **)(lVar3 + 0x60),
-       __this_03 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)0x0)) {
-      *(undefined1 *)&(__this->fields)._originalGlobalEnabled_5__2 =
-           *(undefined1 *)((long)&(__this_03->fields).__1__state + 1);
-      if (*(long *)(lVar3 + 0x58) != 0) {
-        *(undefined1 *)((long)&(__this->fields)._originalGlobalEnabled_5__2 + 1) =
-             *(undefined1 *)(*(long *)(lVar3 + 0x58) + 0x11);
-        if (g_data_057ae187 == '\0') {
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-          g_data_057ae187 = '\x01';
-        }
-        Settings_TypedSetting_bool___set_Value
-                  ((Settings_TypedSetting_bool__o *)__this_03,(uint)**(byte **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8),
-                   MethodInfo_Void_set_Value);
-        lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-        __this_02 = __this_03;
-        if ((lVar3 != 0) && (lVar3 = *(long *)(lVar3 + 0x20), lVar3 != 0)) {
-          __this_04 = *(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o **)(lVar3 + 0x58);
-          if (g_data_057ae188 == '\0') {
-            __this_03 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)&TypeInfo_CharacterEditorSkinsPanel;
-            il2cpp_runtime_helper_023445d0();
-            g_data_057ae188 = '\x01';
-          }
-          __this_02 = __this_03;
-          if ((__this_04 != (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)0x0) &&
-             (Settings_TypedSetting_bool___set_Value
-                        ((Settings_TypedSetting_bool__o *)__this_04,
-                         (uint)*(byte *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1),MethodInfo_Void_set_Value),
-             __this_02 = __this_04, __this_00 != (Characters_DummyHuman_o *)0x0)) {
-            Characters_DummyHuman__LoadSkin(__this_00,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
+    pGVar6 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+    if (pGVar6 != (GameManagers_BaseGameManager_o *)0x0) {
+      bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+      if (((pGVar6->klass->_2).typeHierarchyDepth < bVar1) ||
+         ((pGVar6->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+          (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+        il2cpp_codegen_raise_invalid_cast_exception(pGVar6);
+      }
+      __this_00 = (Characters_DummyHuman_o *)(*(uint64_t *)((char *)pGVar6 + 0x38));
+      if (__this_00 != (Characters_DummyHuman_o *)0x0) {
+        bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+        if ((bVar1 <= (__this_00->klass->_2).typeHierarchyDepth) &&
+           ((__this_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+            (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+          pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+          if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+             ((pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0 &&
+              (pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0))
+             )) {
+            (__this->fields)._originalGlobalEnabled_5__2 = (pSVar5->fields)._value;
+            pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+            if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+               ((pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0 &&
+                (pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)))
+               ) {
+              (__this->fields)._originalSetEnabled_5__3 = (pSVar5->fields)._value;
+              pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+              if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+                 (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) {
+                pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled;
+                if (Il2CppMethodInitialized_184346ff7 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+                  Il2CppMethodInitialized_184346ff7 = '\x01';
+                }
+                if (pSVar5 != (Settings_BoolSetting_o *)0x0) {
+                  Settings_TypedSetting_bool___set_Value
+                            ((Settings_TypedSetting_bool__o *)pSVar5,
+                             TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->
+                             _persistentGlobalSkinPreview,
+                             (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+                  pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+                  if ((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+                     (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) {
+                    pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled;
+                    if (Il2CppMethodInitialized_184346ff8 == '\0') {
+                      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+                      Il2CppMethodInitialized_184346ff8 = '\x01';
+                    }
+                    if (pSVar5 != (Settings_BoolSetting_o *)0x0) {
+                      Settings_TypedSetting_bool___set_Value
+                                ((Settings_TypedSetting_bool__o *)pSVar5,
+                                 TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->
+                                 _persistentCustomSkinPreview,
+                                 (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+                      Characters_DummyHuman__LoadSkin(__this_00,(MethodInfo *)0x0);
+                      if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+                      }
+                      pIVar7 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
+                      (__this->fields).__2__current = pIVar7;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar7);
+                      (__this->fields).__1__state = 2;
+                      return true;
+                    }
+                  }
+                }
+              }
             }
-            pIVar4 = (Il2CppObject *)Utility_Util__YieldForFrames(2,(MethodInfo *)0x0);
-            (__this->fields).__2__current = pIVar4;
-            uVar5 = il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar4);
-            (__this->fields).__1__state = 2;
-            return (bool_conflict)CONCAT71((int7)((ulong)uVar5 >> 8),1);
           }
+          goto label_1821e655a;
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_0435deb1:
-  il2cpp_runtime_helper_022b2fd0();
-  return (bool_conflict)(__this_02->fields).__2__current;
+  else if (iVar2 == 2) {
+    (__this->fields).__1__state = -1;
+    pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+    if (((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+        (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) &&
+       (pSVar5 = (pSVar4->fields).GlobalSkinOverridesEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)) {
+      Settings_TypedSetting_bool___set_Value
+                ((Settings_TypedSetting_bool__o *)pSVar5,(__this->fields)._originalGlobalEnabled_5__2,
+                 (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+      pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+      if (((pSVar3 != (Settings_CustomSkinSettings_o *)0x0) &&
+          (pSVar4 = (pSVar3->fields).Human, pSVar4 != (Settings_HumanCustomSkinSettings_o *)0x0)) &&
+         (pSVar5 = (pSVar4->fields).SetSpecificSkinsEnabled, pSVar5 != (Settings_BoolSetting_o *)0x0)) {
+        Settings_TypedSetting_bool___set_Value
+                  ((Settings_TypedSetting_bool__o *)pSVar5,(__this->fields)._originalSetEnabled_5__3,
+                   (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+        return false;
+      }
+    }
+label_1821e655a:
+    ThrowNullReferenceException();
+  }
+  return false;
 }
 
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, const MethodInfo* method);
-// 0x435dec0
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -851,31 +1263,34 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collect
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_IEnumerator_Reset (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, const MethodInfo* method);
-// 0x435ded0
+// 0x1821e6570
 
 void UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_IEnumerator_Reset
                (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29_System_Collections_IEnumerator_R
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.CharacterEditorCostumePanel.<ApplySkinPreviewAfterReset>d__29$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_IEnumerator_get_Current (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, const MethodInfo* method);
-// 0x435df10
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_IEnumerator_get_Current
-          (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collections_IEnumerator_get_Current(UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -884,14 +1299,14 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29__System_Collect
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x435df20
+// 0x180573ef0
 
-void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor
-               (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
-               int32_t __1__state,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor(UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -899,11 +1314,10 @@ void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$System.IDisposable.Dispose
 // il2cpp: void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_IDisposable_Dispose (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, const MethodInfo* method);
-// 0x435df40
+// 0x180547020
 
-void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_IDisposable_Dispose
-               (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
-               MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_IDisposable_Dispose(UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, MethodInfo* method)
 
 {
   return;
@@ -912,330 +1326,328 @@ void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$MoveNext
 // il2cpp: bool UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__MoveNext (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, const MethodInfo* method);
-// 0x435df50
+// 0x1821e65b0
+// asm: 24 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821e66d0: xor al, al
+// asm:   0x1821e66d2: jmp 0x1821e688c
+// asm:   0x1821e677a: mov r10, r14
+// asm:   0x1821e677d: jmp 0x1821e67b2
+// asm:   0x1821e691b: nop dword ptr [rax + rax]
+// asm:   0x1821e6b77: xor edx, edx
+// asm:   0x1821e6b79: mov ecx, 3
+// asm:   0x1821e6b7e: call 0x182343cd0  ; Utility_Util__WaitForFrames()
+// asm:   0x1821e6b83: lea rcx, [rbx + 0x18]
+// asm:   0x1821e6b87: mov qword ptr [rbx + 0x18], rax
+// asm:   0x1821e6b8b: mov rdx, rax
+// asm:   0x1821e6b8e: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1821e6b93: mov dword ptr [rbx + 0x10], 1
+// asm:   0x1821e6b9a: jmp 0x1821e688a
+// asm:   0x1821e6c48: mov r14, rdi
+// asm:   0x1821e6c65: xor edx, edx
+// asm:   0x1821e6c67: mov rcx, r15
+// asm:   0x1821e6c6a: call 0x1821d2070  ; UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset()
+// asm:   0x1821e6c6f: lea rcx, [rbx + 0x18]
+// asm:   0x1821e6c73: mov qword ptr [rbx + 0x18], rax
+// asm:   0x1821e6c77: mov rdx, rax
+// asm:   0x1821e6c7a: call 0x180416180  ; Il2CppCodeGenWriteBarrier()
+// asm:   0x1821e6c7f: mov dword ptr [rbx + 0x10], 3
+// asm:   0x1821e6c86: jmp 0x1821e688a
 
-bool_conflict
-UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__MoveNext
-          (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
-          MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__MoveNext
+               (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
+               MethodInfo *method)
 
 {
-  Settings_HumanCustomSettings_o **ppSVar1;
-  byte bVar2;
-  ushort uVar3;
-  uint uVar4;
+  byte bVar1;
   UI_CharacterEditorCostumePanel_o *__this_00;
-  Settings_ListSetting_T__o *pSVar5;
-  Settings_ListSetting_T__c *pSVar6;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar7;
-  Settings_HumanCustomSettings_o *pSVar8;
-  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar9;
-  Settings_IntSetting_o *pSVar10;
-  void *pvVar11;
-  Characters_DummyHuman_o *pCVar12;
-  Settings_StringSetting_o *pSVar13;
-  Characters_HumanSetup_o *pCVar14;
-  UI_ConfirmPopup_c *pUVar15;
-  bool_conflict bVar16;
-  Il2CppMethodPointer *ppIVar17;
-  Il2CppClass *pIVar18;
-  Il2CppObject *pIVar19;
-  Il2CppClass *pIVar20;
-  int index;
-  Characters_DummyHuman_o **ppCVar21;
-  UI_ConfirmPopup_o *unaff_RBP;
-  UI_ConfirmPopup_o *pUVar22;
-  Il2CppClass *b;
-  long lVar23;
-  Settings_HumanCustomSet_o *pSVar24;
-  Settings_HumanCustomSet_o *unaff_R13;
-  Settings_HumanCustomSet_o *pSVar25;
+  Settings_HumanCustomSettings_o *pSVar2;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar3;
+  Settings_IntSetting_o *pSVar4;
+  UI_CharacterEditorMenu_o *pUVar5;
+  UI_ExternalLinkPopup_o *pUVar6;
+  Characters_HumanSetup_o *pCVar7;
+  Settings_ListSetting_T__o *obj;
+  Settings_StringSetting_o *pSVar8;
+  GameManagers_BaseGameManager_o *pGVar9;
+  bool bVar10;
+  Settings_HumanCustomSet_o *pSVar11;
+  Il2CppObject *pIVar12;
+  System_Collections_Generic_List_object__o *__this_01;
+  Settings_HumanCustomSet_o *pSVar13;
+  int iVar14;
+  Characters_DummyHuman_o *pCVar15;
+  Characters_DummyHuman_o *x;
   
-  if (g_data_057ae18e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorHumanMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DummyHuman);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IListSetting);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetting_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IListSetting_GetSets);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    g_data_057ae18e = '\x01';
+  if (Il2CppMethodInitialized_184346f91 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorHumanMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_DummyHuman);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IListSetting);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BaseSetting_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BaseSetting_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSets);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    Il2CppMethodInitialized_184346f91 = '\x01';
   }
-  uVar4 = (__this->fields).__1__state;
-  if (3 < uVar4) {
-    return 0;
-  }
+  iVar14 = (__this->fields).__1__state;
   __this_00 = (__this->fields).__4__this;
-  pSVar25 = unaff_R13;
-  switch(uVar4) {
-  case 0:
+  if (iVar14 == 0) {
     (__this->fields).__1__state = -1;
-    b = *(Il2CppClass **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-    ppSVar1 = &(__this->fields)._settings_5__2;
-    (__this->fields)._settings_5__2 = (Settings_HumanCustomSettings_o *)b;
-    il2cpp_runtime_helper_022b4080();
-    pSVar8 = (__this->fields)._settings_5__2;
-    pUVar22 = (UI_ConfirmPopup_o *)ppSVar1;
-    if (((pSVar8 == (Settings_HumanCustomSettings_o *)0x0) ||
-        (pSVar9 = (pSVar8->fields).CustomSets,
-        pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-       (pSVar5 = (pSVar9->fields).Sets, pSVar5 == (Settings_ListSetting_T__o *)0x0)) {
-label_0435e66f:
-      il2cpp_runtime_helper_022b2c90();
-      unaff_RBP = pUVar22;
-      pSVar24 = pSVar25;
-    }
-    else {
-      pSVar6 = pSVar5->klass;
-      uVar3._0_1_ = (pSVar6->_2).rank;
-      uVar3._1_1_ = (pSVar6->_2).minimumAlignment;
-      if ((ulong)uVar3 != 0) {
-        pIVar7 = (pSVar6->_1).interfaceOffsets;
-        lVar23 = 0;
-        do {
-          if (*(long *)((long)&pIVar7->interfaceType + lVar23) == TypeInfo_IListSetting) {
-            ppIVar17 = &(&(pSVar6->vtable)._0_Equals)[*(int *)((long)&pIVar7->offset + lVar23) + 2].methodPtr;
-            goto label_0435e2f7;
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+    (__this->fields)._settings_5__2 = pSVar2;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._settings_5__2,pSVar2);
+    pSVar2 = (__this->fields)._settings_5__2;
+    if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+        (pSVar3 = (pSVar2->fields).CustomSets,
+        pSVar3 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+       (obj = (pSVar3->fields).Sets, obj != (Settings_ListSetting_T__o *)0x0)) {
+      __this_01 = InterfaceInvoker0_Invoke
+                            (2,(Il2CppClass *)TypeInfo_Settings_IListSetting,(Il2CppObject *)obj);
+      x = (Characters_DummyHuman_o *)0x0;
+      pCVar15 = x;
+      if (__this_01 != (System_Collections_Generic_List_object__o *)0x0) {
+        while (iVar14 = (int)pCVar15, iVar14 < (__this_01->fields)._size) {
+          pSVar13 = (Settings_HumanCustomSet_o *)
+                    System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                              (__this_01,iVar14,
+                               (MethodInfo_92B830 *)
+                               MethodInfo_System_Collections_Generic_List_BaseSetting_get_Item);
+          if (pSVar13 == (Settings_HumanCustomSet_o *)0x0) goto label_1821e6c8b;
+          bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+          if (((pSVar13->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((pSVar13->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pSVar13);
           }
-          lVar23 = lVar23 + 0x10;
-        } while ((ulong)uVar3 << 4 != lVar23);
-      }
-      ppIVar17 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pSVar5,TypeInfo_IListSetting,2);
-label_0435e2f7:
-      b = (Il2CppClass *)ppIVar17[1];
-      unaff_RBP = (UI_ConfirmPopup_o *)(**ppIVar17)(pSVar5,b);
-      if (unaff_RBP == (UI_ConfirmPopup_o *)0x0) goto label_0435e66f;
-      pUVar22 = unaff_RBP;
-      if (0 < *(int *)&(unaff_RBP->fields).m_CancellationTokenSource) {
-        pIVar18 = (Il2CppClass *)0x0;
-        do {
-          index = (int)pIVar18;
-          b = pIVar18;
-          unaff_R13 = (Settings_HumanCustomSet_o *)
-                      System_Collections_Generic_List_object___get_Item
-                                ((System_Collections_Generic_List_object__o *)unaff_RBP,index,MethodInfo_BaseSetting_get_Item);
-          if (unaff_R13 == (Settings_HumanCustomSet_o *)0x0) goto label_0435e66f;
-          bVar2 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-          b = TypeInfo_HumanCustomSet;
-          pSVar24 = unaff_R13;
-          if (((unaff_R13->klass->_2).naturalAligment < bVar2) ||
-             ((unaff_R13->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_HumanCustomSet)) goto label_0435e677;
-          pSVar13 = (unaff_R13->fields).UniqueId;
-          b = TypeInfo_HumanCustomSet;
-          pSVar25 = unaff_R13;
-          if (pSVar13 == (Settings_StringSetting_o *)0x0) goto label_0435e66f;
-          b = (Il2CppClass *)(__this->fields).previousProfileId;
-          bVar16 = System_String__op_Equality((pSVar13->fields)._value,(System_String_o *)b,(MethodInfo *)0x0)
-          ;
-          if ((char)bVar16 != '\0') {
-            if (((*ppSVar1 == (Settings_HumanCustomSettings_o *)0x0) ||
-                (pSVar9 = ((*ppSVar1)->fields).CustomSets,
-                pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-               (pSVar10 = (pSVar9->fields).SelectedSetIndex, pSVar10 == (Settings_IntSetting_o *)0x0))
-            goto label_0435e66f;
-            (__this->fields)._currentSelectedIndex_5__3 = (pSVar10->fields)._value;
-            Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar10,index,MethodInfo_Void_set_Value);
-            pIVar20 = TypeInfo_DummyHuman;
-            pSVar24 = *(Settings_HumanCustomSet_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-            b = pIVar18;
-            if (pSVar24 == (Settings_HumanCustomSet_o *)0x0) goto label_0435e66f;
-            bVar2 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-            b = TypeInfo_CharacterEditorGameManager;
-            if (((pSVar24->klass->_2).naturalAligment < bVar2) ||
-               (b = TypeInfo_CharacterEditorGameManager, (pSVar24->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_CharacterEditorGameManager))
-            goto label_0435e677;
-            b = (Il2CppClass *)(pSVar24->fields).Sex;
-            if (b == (Il2CppClass *)0x0) {
-              (__this->fields)._character_5__4 = (Characters_DummyHuman_o *)0x0;
-            }
-            else {
-              pUVar15 = (b->_1).image;
-              bVar2 = (TypeInfo_DummyHuman->_2).naturalAligment;
-              if (((pUVar15->_2).naturalAligment < bVar2) ||
-                 ((pUVar15->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_DummyHuman)) goto label_0435e684;
-              (__this->fields)._character_5__4 = (Characters_DummyHuman_o *)b;
-              pUVar15 = (b->_1).image;
-              if (((pUVar15->_2).naturalAligment < bVar2) ||
-                 ((pUVar15->_2).typeHierarchy[(ulong)bVar2 - 1] != pIVar20)) goto label_0435e684;
-            }
-            ppCVar21 = &(__this->fields)._character_5__4;
-            il2cpp_runtime_helper_022b4080(ppCVar21);
-            if (((*ppCVar21 == (Characters_DummyHuman_o *)0x0) ||
-                (__this_00 == (UI_CharacterEditorCostumePanel_o *)0x0)) ||
-               (pSVar24 = (Settings_HumanCustomSet_o *)(__this_00->fields)._menu,
-               pSVar24 == (Settings_HumanCustomSet_o *)0x0)) goto label_0435e66f;
-            bVar2 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-            b = TypeInfo_CharacterEditorHumanMenu;
-            if (((pSVar24->klass->_2).naturalAligment < bVar2) ||
-               ((pSVar24->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_CharacterEditorHumanMenu)) goto label_0435e677;
-            pSVar13 = (pSVar24->fields).BladeEffect;
-            if ((pSVar13 != (Settings_StringSetting_o *)0x0) &&
-               (pCVar14 = ((*ppCVar21)->fields).Setup, pCVar14 != (Characters_HumanSetup_o *)0x0)) {
-              Characters_HumanSetup__Load
-                        (pCVar14,unaff_R13,*(int32_t *)((long)&(pSVar13->fields).DefaultValue + 4),0,
-                         (MethodInfo *)0x0);
-              if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
+          pSVar8 = (pSVar13->fields).UniqueId;
+          if (pSVar8 == (Settings_StringSetting_o *)0x0) goto label_1821e6c8b;
+          bVar10 = System_String__op_Equality
+                             ((pSVar8->fields)._value,(__this->fields).previousProfileId,(MethodInfo *)0x0);
+          if (bVar10) {
+            pSVar2 = (__this->fields)._settings_5__2;
+            if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+                (pSVar3 = (pSVar2->fields).CustomSets,
+                pSVar3 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+               (pSVar4 = (pSVar3->fields).SelectedSetIndex, pSVar4 != (Settings_IntSetting_o *)0x0)) {
+              (__this->fields)._currentSelectedIndex_5__3 = (pSVar4->fields)._value;
+              pSVar2 = (__this->fields)._settings_5__2;
+              if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+                  (pSVar3 = (pSVar2->fields).CustomSets,
+                  pSVar3 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+                 (pSVar4 = (pSVar3->fields).SelectedSetIndex, pSVar4 != (Settings_IntSetting_o *)0x0)) {
+                Settings_TypedSetting_int___set_Value
+                          ((Settings_TypedSetting_int__o *)pSVar4,iVar14,
+                           (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+                pGVar9 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+                if (pGVar9 != (GameManagers_BaseGameManager_o *)0x0) {
+                  bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+                  if (((pGVar9->klass->_2).typeHierarchyDepth < bVar1) ||
+                     ((pGVar9->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                      (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+                    il2cpp_codegen_raise_invalid_cast_exception(pGVar9);
+                  }
+                  pCVar15 = (Characters_DummyHuman_o *)(*(uint64_t *)((char *)pGVar9 + 0x38));
+                  if (pCVar15 == (Characters_DummyHuman_o *)0x0) {
+                    (__this->fields)._character_5__4 = (Characters_DummyHuman_o *)0x0;
+                    pCVar15 = x;
+                  }
+                  else {
+                    bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+                    if (((pCVar15->klass->_2).typeHierarchyDepth < bVar1) ||
+                       ((pCVar15->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                        (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+                      il2cpp_codegen_raise_invalid_cast_exception(pCVar15);
+                    }
+                    (__this->fields)._character_5__4 = pCVar15;
+                    bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+                    if (((pCVar15->klass->_2).typeHierarchyDepth < bVar1) ||
+                       ((pCVar15->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                        (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+                      il2cpp_codegen_raise_invalid_cast_exception(pCVar15);
+                    }
+                  }
+                  Il2CppCodeGenWriteBarrier(&(__this->fields)._character_5__4,pCVar15);
+                  pCVar15 = (__this->fields)._character_5__4;
+                  if (((pCVar15 != (Characters_DummyHuman_o *)0x0) &&
+                      (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0)) &&
+                     (pUVar5 = (__this_00->fields)._menu, pUVar5 != (UI_CharacterEditorMenu_o *)0x0)) {
+                    bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+                    if (((pUVar5->klass->_2).typeHierarchyDepth < bVar1) ||
+                       ((pUVar5->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                        (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+                      il2cpp_codegen_raise_invalid_cast_exception(pUVar5);
+                    }
+                    pUVar6 = (*(uint64_t *)((char *)pUVar5 + 0xe0));
+                    if ((pUVar6 != (UI_ExternalLinkPopup_o *)0x0) &&
+                       (pCVar7 = (pCVar15->fields).Setup, pCVar7 != (Characters_HumanSetup_o *)0x0)) {
+                      Characters_HumanSetup__Load
+                                (pCVar7,pSVar13,
+                                 *(int32_t *)((longlong)&(pUVar6->fields).m_CancellationTokenSource + 4),false
+                                 ,(MethodInfo *)0x0);
+                      if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+                        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
+                      }
+                      pIVar12 = (Il2CppObject *)Utility_Util__WaitForFrames(3,(MethodInfo *)0x0);
+                      (__this->fields).__2__current = pIVar12;
+                      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar12);
+                      (__this->fields).__1__state = 1;
+                      return true;
+                    }
+                  }
+                }
               }
-              pIVar19 = (Il2CppObject *)Utility_Util__WaitForFrames(3,(MethodInfo *)0x0);
-              (__this->fields).__2__current = pIVar19;
-              il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar19);
-              (__this->fields).__1__state = 1;
-              return (bool_conflict)CONCAT71((int7)((ulong)ppCVar21 >> 8),1);
             }
-            goto label_0435e66f;
+            goto label_1821e6c8b;
           }
-          pIVar18 = (Il2CppClass *)(ulong)(index + 1U);
-        } while ((int)(index + 1U) < *(int *)&(unaff_RBP->fields).m_CancellationTokenSource);
-      }
-      if ((char)(__this->fields).shouldApplySkinPreview == '\0') {
-        return 0;
-      }
-      pSVar24 = *(Settings_HumanCustomSet_o **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-      pSVar25 = unaff_R13;
-      if (pSVar24 == (Settings_HumanCustomSet_o *)0x0) goto label_0435e66f;
-      bVar2 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-      b = TypeInfo_CharacterEditorGameManager;
-      if ((bVar2 <= (pSVar24->klass->_2).naturalAligment) &&
-         (b = TypeInfo_CharacterEditorGameManager, (pSVar24->klass->_2).typeHierarchy[(ulong)bVar2 - 1] == TypeInfo_CharacterEditorGameManager)) {
-        unaff_RBP = (UI_ConfirmPopup_o *)(pSVar24->fields).Sex;
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
+          pCVar15 = (Characters_DummyHuman_o *)(ulonglong)(iVar14 + 1);
         }
-        if (unaff_RBP != (UI_ConfirmPopup_o *)0x0) {
-          bVar2 = (TypeInfo_DummyHuman->_2).naturalAligment;
-          if (((unaff_RBP->klass->_2).naturalAligment < bVar2) ||
-             ((unaff_RBP->klass->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_DummyHuman)) goto label_0435e68f;
+        if ((__this->fields).shouldApplySkinPreview == false) {
+          return false;
         }
-        b = (Il2CppClass *)0x0;
-        bVar16 = UnityEngine_Object__op_Inequality
-                           ((UnityEngine_Object_o *)unaff_RBP,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar16 == '\0') {
-          return 0;
-        }
-        pUVar22 = unaff_RBP;
-        if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-          pIVar19 = (Il2CppObject *)
-                    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset(__this_00,(MethodInfo *)0x0);
-          (__this->fields).__2__current = pIVar19;
-          il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar19);
-          (__this->fields).__1__state = 3;
-          return 1;
-        }
-        goto label_0435e66f;
-      }
-    }
-label_0435e677:
-    pIVar18 = (Il2CppClass *)il2cpp_runtime_helper_022b2fd0(pSVar24);
-    break;
-  case 1:
-    (__this->fields).__1__state = -1;
-    if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    b = (Il2CppClass *)0x0;
-    Utility_CharacterPreviewGenerator__CaptureCurrentCharacterPreview(1,(MethodInfo *)0x0);
-    pSVar8 = (__this->fields)._settings_5__2;
-    pUVar22 = unaff_RBP;
-    if (((pSVar8 == (Settings_HumanCustomSettings_o *)0x0) ||
-        (pSVar9 = (pSVar8->fields).CustomSets,
-        pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) ||
-       (pSVar10 = (pSVar9->fields).SelectedSetIndex, pSVar10 == (Settings_IntSetting_o *)0x0))
-    goto label_0435e66f;
-    uVar4 = (__this->fields)._currentSelectedIndex_5__3;
-    b = (Il2CppClass *)(ulong)uVar4;
-    Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar10,uVar4,MethodInfo_Void_set_Value);
-    pSVar8 = (__this->fields)._settings_5__2;
-    if ((pSVar8 == (Settings_HumanCustomSettings_o *)0x0) ||
-       (pSVar9 = (pSVar8->fields).CustomSets, pSVar9 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0
-       )) goto label_0435e66f;
-    b = MethodInfo_BaseSetSetting_GetSelectedSet;
-    pIVar18 = (Il2CppClass *)
-              Settings_SetSettingsContainer_object___GetSelectedSet
-                        ((Settings_SetSettingsContainer_T__o *)pSVar9,(MethodInfo_39E05D0 *)MethodInfo_BaseSetSetting_GetSelectedSet);
-    if (pIVar18 == (Il2CppClass *)0x0) {
-label_0435e1f8:
-      pCVar12 = (__this->fields)._character_5__4;
-      if ((pCVar12 != (Characters_DummyHuman_o *)0x0) &&
-         ((__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0 &&
-          (pSVar24 = (Settings_HumanCustomSet_o *)(__this_00->fields)._menu,
-          pSVar24 != (Settings_HumanCustomSet_o *)0x0)))) {
-        bVar2 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-        unaff_RBP = (UI_ConfirmPopup_o *)(ulong)bVar2;
-        b = TypeInfo_CharacterEditorHumanMenu;
-        if (((pSVar24->klass->_2).naturalAligment < bVar2) ||
-           ((pSVar24->klass->_2).typeHierarchy[(long)((long)&unaff_RBP[-1].fields._onConfirm + 7)] !=
-            TypeInfo_CharacterEditorHumanMenu)) goto label_0435e677;
-        pSVar13 = (pSVar24->fields).BladeEffect;
-        pUVar22 = unaff_RBP;
-        if ((pSVar13 != (Settings_StringSetting_o *)0x0) &&
-           (pCVar14 = (pCVar12->fields).Setup, pCVar14 != (Characters_HumanSetup_o *)0x0)) {
-          Characters_HumanSetup__Load
-                    (pCVar14,(Settings_HumanCustomSet_o *)pIVar18,
-                     *(int32_t *)((long)&(pSVar13->fields).DefaultValue + 4),0,(MethodInfo *)0x0);
-          pCVar12 = (__this->fields)._character_5__4;
-          b = pIVar18;
-          if (pCVar12 != (Characters_DummyHuman_o *)0x0) {
-            Characters_DummyCharacter__Idle((Characters_DummyCharacter_o *)pCVar12,(MethodInfo *)0x0);
-            if ((char)(__this->fields).shouldApplySkinPreview != '\0') {
-              pIVar19 = (Il2CppObject *)
-                        UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset
-                                  (__this_00,(MethodInfo *)0x0);
-              (__this->fields).__2__current = pIVar19;
-              il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar19);
-              (__this->fields).__1__state = 2;
-              return (bool_conflict)CONCAT71((int7)((ulong)__this_00 >> 8),1);
+        pGVar9 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+        if (pGVar9 != (GameManagers_BaseGameManager_o *)0x0) {
+          bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+          if (((pGVar9->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((pGVar9->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pGVar9);
+          }
+          pCVar15 = (Characters_DummyHuman_o *)(*(uint64_t *)((char *)pGVar9 + 0x38));
+          if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+          }
+          if (pCVar15 != (Characters_DummyHuman_o *)0x0) {
+            bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+            if (((pCVar15->klass->_2).typeHierarchyDepth < bVar1) ||
+               (x = pCVar15,
+               (pCVar15->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+               (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+              il2cpp_codegen_raise_invalid_cast_exception(pCVar15);
             }
-label_0435e2c2:
-            (__this->fields)._character_5__4 = (Characters_DummyHuman_o *)0x0;
-            il2cpp_runtime_helper_022b4080(&(__this->fields)._character_5__4,0);
-            return 0;
+          }
+          bVar10 = UnityEngine_Object__op_Inequality
+                             ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+          if (!bVar10) {
+            return false;
+          }
+          if (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0) {
+            pIVar12 = (Il2CppObject *)
+                      UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset(__this_00,(MethodInfo *)0x0);
+            (__this->fields).__2__current = pIVar12;
+            Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar12);
+            (__this->fields).__1__state = 3;
+            return true;
           }
         }
       }
-      goto label_0435e66f;
     }
-    pvVar11 = (pIVar18->_1).image;
-    bVar2 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-    b = TypeInfo_HumanCustomSet;
-    if ((bVar2 <= *(byte *)((long)pvVar11 + 0x130)) &&
-       (*(Il2CppClass **)(*(long *)((long)pvVar11 + 200) + -8 + (ulong)bVar2 * 8) == TypeInfo_HumanCustomSet))
-    goto label_0435e1f8;
-    break;
-  case 2:
-    (__this->fields).__1__state = -1;
-    goto label_0435e2c2;
-  case 3:
-    (__this->fields).__1__state = -1;
-    return 0;
   }
-  pIVar20 = (Il2CppClass *)il2cpp_runtime_helper_022b2fd0(pIVar18);
-label_0435e684:
-  il2cpp_runtime_helper_022b2fd0(b,pIVar20);
-label_0435e68f:
-  il2cpp_runtime_helper_022b2fd0();
-  return (bool_conflict)(unaff_RBP->fields).m_CancellationTokenSource;
+  else {
+    pSVar13 = (Settings_HumanCustomSet_o *)0x0;
+    if (iVar14 != 1) {
+      if (iVar14 != 2) {
+        if (iVar14 != 3) {
+          return false;
+        }
+        (__this->fields).__1__state = -1;
+        return false;
+      }
+      (__this->fields).__1__state = -1;
+label_1821e6856:
+      (__this->fields)._character_5__4 = (Characters_DummyHuman_o *)0x0;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._character_5__4,(void *)0x0);
+      return false;
+    }
+    (__this->fields).__1__state = -1;
+    if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
+    }
+    Utility_CharacterPreviewGenerator__CaptureCurrentCharacterPreview(true,(MethodInfo *)0x0);
+    pSVar2 = (__this->fields)._settings_5__2;
+    if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+        (pSVar3 = (pSVar2->fields).CustomSets,
+        pSVar3 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+       (pSVar4 = (pSVar3->fields).SelectedSetIndex, pSVar4 != (Settings_IntSetting_o *)0x0)) {
+      Settings_TypedSetting_int___set_Value
+                ((Settings_TypedSetting_int__o *)pSVar4,(__this->fields)._currentSelectedIndex_5__3,
+                 (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      pSVar2 = (__this->fields)._settings_5__2;
+      if ((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+         (pSVar3 = (pSVar2->fields).CustomSets,
+         pSVar3 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) {
+        pSVar11 = (Settings_HumanCustomSet_o *)
+                  Settings_SetSettingsContainer_object___GetSelectedSet
+                            ((Settings_SetSettingsContainer_T__o *)pSVar3,
+                             (MethodInfo_C8EAF0 *)
+                             MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+        if (pSVar11 != (Settings_HumanCustomSet_o *)0x0) {
+          bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+          if (((((Settings_BaseSetSetting_c *)pSVar11->klass)->_2).typeHierarchyDepth < bVar1) ||
+             (pSVar13 = pSVar11,
+             (((Settings_BaseSetSetting_c *)pSVar11->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+             (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pSVar11);
+          }
+        }
+        pCVar15 = (__this->fields)._character_5__4;
+        if (((pCVar15 != (Characters_DummyHuman_o *)0x0) &&
+            (__this_00 != (UI_CharacterEditorCostumePanel_o *)0x0)) &&
+           (pUVar5 = (__this_00->fields)._menu, pUVar5 != (UI_CharacterEditorMenu_o *)0x0)) {
+          bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+          if (((pUVar5->klass->_2).typeHierarchyDepth < bVar1) ||
+             ((pUVar5->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+              (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+            il2cpp_codegen_raise_invalid_cast_exception(pUVar5);
+          }
+          pUVar6 = (*(uint64_t *)((char *)pUVar5 + 0xe0));
+          if ((pUVar6 != (UI_ExternalLinkPopup_o *)0x0) &&
+             (pCVar7 = (pCVar15->fields).Setup, pCVar7 != (Characters_HumanSetup_o *)0x0)) {
+            Characters_HumanSetup__Load
+                      (pCVar7,pSVar13,*(int32_t *)((longlong)&(pUVar6->fields).m_CancellationTokenSource + 4),
+                       false,(MethodInfo *)0x0);
+            pCVar15 = (__this->fields)._character_5__4;
+            if (pCVar15 != (Characters_DummyHuman_o *)0x0) {
+              Characters_DummyCharacter__Idle((Characters_DummyCharacter_o *)pCVar15,(MethodInfo *)0x0);
+              if ((__this->fields).shouldApplySkinPreview != false) {
+                pIVar12 = (Il2CppObject *)
+                          UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset
+                                    (__this_00,(MethodInfo *)0x0);
+                (__this->fields).__2__current = pIVar12;
+                Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pIVar12);
+                (__this->fields).__1__state = 2;
+                return true;
+              }
+              goto label_1821e6856;
+            }
+          }
+        }
+      }
+    }
+  }
+label_1821e6c8b:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, const MethodInfo* method);
-// 0x435e6a0
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
-          MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1244,33 +1656,35 @@ UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_IEnumerator_Reset (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, const MethodInfo* method);
-// 0x435e6b0
+// 0x1821e6cf0
 
 void UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_IEnumerator_Reset
                (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
                MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_UI_CharacterEditorCostumePanel_CapturePreviousProfilePreviewAndApplySkins_d__28_System_Collectio
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.CharacterEditorCostumePanel.<CapturePreviousProfilePreviewAndApplySkins>d__28$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_IEnumerator_get_Current (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, const MethodInfo* method);
-// 0x435e6f0
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_IEnumerator_get_Current
-          (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this,
-          MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28__System_Collections_IEnumerator_get_Current(UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1279,14 +1693,14 @@ UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x435e700
+// 0x180573ef0
 
-void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor
-               (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor(UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
@@ -1294,10 +1708,10 @@ void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$System.IDisposable.Dispose
 // il2cpp: void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_IDisposable_Dispose (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, const MethodInfo* method);
-// 0x435e720
+// 0x180547020
 
-void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_IDisposable_Dispose
-               (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_IDisposable_Dispose(UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, MethodInfo* method)
 
 {
   return;
@@ -1306,59 +1720,57 @@ void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_IDis
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$MoveNext
 // il2cpp: bool UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__MoveNext (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, const MethodInfo* method);
-// 0x435e730
+// 0x1821e7e60
 
-bool_conflict
-UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__MoveNext
-          (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__MoveNext
+               (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
 
 {
   int iVar1;
-  Il2CppObject *pIVar2;
+  Il2CppObject *value;
   
-  if (g_data_057ae18f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Util);
-    g_data_057ae18f = '\x01';
+  if (Il2CppMethodInitialized_184346f92 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_Util);
+    Il2CppMethodInitialized_184346f92 = '\x01';
   }
   iVar1 = (__this->fields).__1__state;
-  if (iVar1 != 1) {
-    if (iVar1 == 0) {
-      (__this->fields).__1__state = -1;
-      if (*(int *)(TypeInfo_Util + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pIVar2 = (Il2CppObject *)Utility_Util__WaitForFrames(3,(MethodInfo *)0x0);
-      (__this->fields).__2__current = pIVar2;
-      il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current,pIVar2);
-      (__this->fields).__1__state = 1;
-      return (bool_conflict)CONCAT71((int7)((ulong)__this >> 8),1);
+  if (iVar1 == 0) {
+    (__this->fields).__1__state = -1;
+    if ((TypeInfo_Utility_Util->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_Util);
     }
-    return 0;
+    value = (Il2CppObject *)Utility_Util__WaitForFrames(3,(MethodInfo *)0x0);
+    (__this->fields).__2__current = value;
+    Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,value);
+    (__this->fields).__1__state = 1;
+    return true;
   }
-  (__this->fields).__1__state = -1;
-  if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (iVar1 == 1) {
+    (__this->fields).__1__state = -1;
+    if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
+    }
+    Utility_CharacterPreviewGenerator__CaptureCurrentCharacterPreview(true,(MethodInfo *)0x0);
+    Utility_CharacterPreviewGenerator__SaveCachedPreviewsToDisk((MethodInfo *)0x0);
+    if (Il2CppMethodInitialized_184346fb1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+      Il2CppMethodInitialized_184346fb1 = '\x01';
+    }
+    TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview = false;
+    TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview = false;
+    ApplicationManagers_SceneLoader__LoadScene(1,(MethodInfo *)0x0);
   }
-  Utility_CharacterPreviewGenerator__CaptureCurrentCharacterPreview(1,(MethodInfo *)0x0);
-  Utility_CharacterPreviewGenerator__SaveCachedPreviewsToDisk((MethodInfo *)0x0);
-  if (g_data_057ae1ae == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae1ae = '\x01';
-  }
-  **(undefined2 **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) = 0;
-  ApplicationManagers_SceneLoader__LoadScene(1,(MethodInfo *)0x0);
-  return 0;
+  return false;
 }
 
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_Generic_IEnumerator_System_Object__get_Current (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, const MethodInfo* method);
-// 0x435e830
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_Generic_IEnumerator_System_Object__get_Current(UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1367,31 +1779,34 @@ UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collectio
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$System.Collections.IEnumerator.Reset
 // il2cpp: void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_IEnumerator_Reset (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, const MethodInfo* method);
-// 0x435e840
+// 0x1821e7f70
 
 void UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_IEnumerator_Reset
                (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_UI_CharacterEditorCostumePanel_SaveQuitCaptureCoroutine_d__35_System_Collections_IEnumerator_Res
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
 // UI.CharacterEditorCostumePanel.<SaveQuitCaptureCoroutine>d__35$$System.Collections.IEnumerator.get_Current
 // il2cpp: Il2CppObject* UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_IEnumerator_get_Current (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, const MethodInfo* method);
-// 0x435e880
+// 0x180573e90
 
-Il2CppObject *
-UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_IEnumerator_get_Current
-          (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this,MethodInfo *method)
+Il2CppObject*
+UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collections_IEnumerator_get_Current(UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -1400,7 +1815,7 @@ UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35__System_Collectio
 
 // UI.CharacterEditorCostumePanel$$get_Title
 // il2cpp: System_String_o* UI_CharacterEditorCostumePanel__get_Title (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x4358010
+// 0x1821d6e40
 
 System_String_o *
 UI_CharacterEditorCostumePanel__get_Title(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
@@ -1408,28 +1823,30 @@ UI_CharacterEditorCostumePanel__get_Title(UI_CharacterEditorCostumePanel_o *__th
 {
   System_String_o *pSVar1;
   
-  if (g_data_057ae175 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"Title");
-    il2cpp_runtime_helper_023445d0(&"CharacterEditor");
-    il2cpp_runtime_helper_023445d0(&"Costume");
-    il2cpp_runtime_helper_023445d0(&"");
-    g_data_057ae175 = '\x01';
+  if (Il2CppMethodInitialized_184346f79 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Title");
+    il2cpp_codegen_initialize_runtime_metadata(&"CharacterEditor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Costume");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    Il2CppMethodInitialized_184346f79 = '\x01';
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
   pSVar1 = UI_UIManager__GetLocale
-                     ("CharacterEditor","Costume","Title","","",(MethodInfo *)0x0);
+                     ("CharacterEditor","Costume","Title","",
+                      "",(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // UI.CharacterEditorCostumePanel$$get_Width
 // il2cpp: float UI_CharacterEditorCostumePanel__get_Width (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x43580b0
+// 0x1821c6340
 
-float UI_CharacterEditorCostumePanel__get_Width(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+float
+UI_CharacterEditorCostumePanel__get_Width(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
   return 380.0;
@@ -1438,9 +1855,10 @@ float UI_CharacterEditorCostumePanel__get_Width(UI_CharacterEditorCostumePanel_o
 
 // UI.CharacterEditorCostumePanel$$get_Height
 // il2cpp: float UI_CharacterEditorCostumePanel__get_Height (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x43580c0
+// 0x1821d6e30
 
-float UI_CharacterEditorCostumePanel__get_Height(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+float
+UI_CharacterEditorCostumePanel__get_Height(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
   return 1020.0;
@@ -1449,10 +1867,10 @@ float UI_CharacterEditorCostumePanel__get_Height(UI_CharacterEditorCostumePanel_
 
 // UI.CharacterEditorCostumePanel$$get_VerticalSpacing
 // il2cpp: float UI_CharacterEditorCostumePanel__get_VerticalSpacing (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x43580d0
+// 0x182168bc0
 
-float UI_CharacterEditorCostumePanel__get_VerticalSpacing
-                (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+float
+UI_CharacterEditorCostumePanel__get_VerticalSpacing(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
   return 20.0;
@@ -1461,10 +1879,10 @@ float UI_CharacterEditorCostumePanel__get_VerticalSpacing
 
 // UI.CharacterEditorCostumePanel$$get_HorizontalPadding
 // il2cpp: int32_t UI_CharacterEditorCostumePanel__get_HorizontalPadding (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x43580e0
+// 0x1821d1fa0
 
-int32_t UI_CharacterEditorCostumePanel__get_HorizontalPadding
-                  (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+int32_t
+UI_CharacterEditorCostumePanel__get_HorizontalPadding(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
   return 0x19;
@@ -1473,10 +1891,10 @@ int32_t UI_CharacterEditorCostumePanel__get_HorizontalPadding
 
 // UI.CharacterEditorCostumePanel$$get_VerticalPadding
 // il2cpp: int32_t UI_CharacterEditorCostumePanel__get_VerticalPadding (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x43580f0
+// 0x1821d1fa0
 
-int32_t UI_CharacterEditorCostumePanel__get_VerticalPadding
-                  (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+int32_t
+UI_CharacterEditorCostumePanel__get_VerticalPadding(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
   return 0x19;
@@ -1485,1101 +1903,1012 @@ int32_t UI_CharacterEditorCostumePanel__get_VerticalPadding
 
 // UI.CharacterEditorCostumePanel$$get_ScrollBar
 // il2cpp: bool UI_CharacterEditorCostumePanel__get_ScrollBar (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x4358100
+// 0x1808ed110
 
-bool_conflict
-UI_CharacterEditorCostumePanel__get_ScrollBar(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+bool
+UI_CharacterEditorCostumePanel__get_ScrollBar(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetPersistentGlobalPreview
 // il2cpp: bool UI_CharacterEditorCostumePanel__GetPersistentGlobalPreview (const MethodInfo* method);
-// 0x4358110
+// 0x1821d1600
 
-bool_conflict UI_CharacterEditorCostumePanel__GetPersistentGlobalPreview(MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__GetPersistentGlobalPreview(MethodInfo *method)
 
 {
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
+  if (Il2CppMethodInitialized_184346ff7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+    Il2CppMethodInitialized_184346ff7 = '\x01';
   }
-  return (bool_conflict)
-         CONCAT71((int7)((ulong)*(undefined1 **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) >> 8),
-                  **(undefined1 **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8));
+  return TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetPersistentCustomPreview
 // il2cpp: bool UI_CharacterEditorCostumePanel__GetPersistentCustomPreview (const MethodInfo* method);
-// 0x4358150
+// 0x1821d15c0
 
-bool_conflict UI_CharacterEditorCostumePanel__GetPersistentCustomPreview(MethodInfo *method)
+bool UI_CharacterEditorCostumePanel__GetPersistentCustomPreview(MethodInfo *method)
 
 {
-  if (g_data_057ae188 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae188 = '\x01';
+  if (Il2CppMethodInitialized_184346ff8 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+    Il2CppMethodInitialized_184346ff8 = '\x01';
   }
-  return (bool_conflict)
-         CONCAT71((int7)((ulong)*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) >> 8),
-                  *(undefined1 *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1));
+  return TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview;
 }
 
 
 // UI.CharacterEditorCostumePanel$$ResetSkinPreviewToggles
 // il2cpp: void UI_CharacterEditorCostumePanel__ResetSkinPreviewToggles (const MethodInfo* method);
-// 0x4357a00
+// 0x1821d1b70
 
-void UI_CharacterEditorCostumePanel__ResetSkinPreviewToggles(MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel__ResetSkinPreviewToggles(MethodInfo* method)
 
 {
-  UI_CharacterEditorSkinsPanel__ResetSkinPreviewToggles((MethodInfo *)0x0);
+  if (Il2CppMethodInitialized_184346fb1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+    Il2CppMethodInitialized_184346fb1 = '\x01';
+  }
+  TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview = false;
+  TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview = false;
   return;
 }
 
 
 // UI.CharacterEditorCostumePanel$$Setup
 // il2cpp: void UI_CharacterEditorCostumePanel__Setup (UI_CharacterEditorCostumePanel_o* __this, UI_BasePanel_o* parent, const MethodInfo* method);
-// 0x4358190
+// 0x1821d4860
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d525e: nop 
 
 void UI_CharacterEditorCostumePanel__Setup
                (UI_CharacterEditorCostumePanel_o *__this,UI_BasePanel_o *parent,MethodInfo *method)
 
 {
-  int32_t *piVar1;
-  int *piVar2;
-  byte bVar3;
-  char cVar4;
-  uint uVar5;
-  long lVar6;
-  Settings_SetSettingsContainer_T__o *pSVar7;
-  Settings_StringSetting_o *pSVar8;
-  Settings_IntSetting_o *pSVar9;
-  UI_IconPickPopup_o *pUVar10;
-  Settings_ColorSetting_o *pSVar11;
-  UI_ColorPickPopup_o *pUVar12;
-  System_Object_array *pSVar13;
-  InvokerMethod pIVar14;
-  UI_CharacterEditorMenu_o *pUVar15;
-  GameManagers_CharacterEditorGameManager_o *pGVar16;
-  Characters_DummyHuman_o *__this_00;
-  System_String_Fields category;
-  bool_conflict bVar17;
-  int iVar18;
-  Settings_HumanCustomSet_o *set;
-  System_String_o *pSVar19;
-  System_String_Fields __this_01;
-  UnityEngine_Events_UnityAction_o *pUVar20;
-  UnityEngine_GameObject_o *pUVar21;
-  System_String_Fields SVar22;
-  System_String_Fields SVar23;
-  UnityEngine_Transform_o *pUVar24;
-  System_String_array *pSVar25;
-  UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *__this_02;
-  System_Collections_Generic_List_object__o *__this_03;
-  UI_CharacterEditorCostumePanel_o **__this_04;
-  UI_CharacterEditorCostumePanel_o **__this_05;
-  UI_CharacterEditorCostumePanel_o **__this_06;
-  System_String_o *pSVar26;
-  MethodInfo_362B8B0 *pMVar27;
-  undefined8 *puVar28;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *pUVar29;
-  Settings_BaseSetSetting_c *in_RCX;
-  MethodInfo *extraout_RDX;
-  MethodInfo *method_00;
-  MethodInfo *method_01;
-  MethodInfo *method_02;
-  MethodInfo *method_03;
-  MethodInfo *extraout_RDX_00;
-  MethodInfo *extraout_RDX_01;
-  MethodInfo *method_04;
-  MethodInfo *method_05;
-  MethodInfo *method_06;
-  MethodInfo *method_07;
-  MethodInfo *method_08;
-  ulong extraout_RDX_02;
-  long *plVar30;
-  System_String_Fields SVar31;
-  System_String_Fields subCategory;
-  UI_CharacterEditorCostumePanel_o *pUVar32;
-  UI_CharacterEditorCostumePanel_o **ppUVar33;
-  Settings_BaseSetSetting_c *pSVar34;
-  long *unaff_R12;
-  Settings_BaseSetSetting_c **unaff_R13;
-  UI_CharacterEditorCostumePanel_o **ppUVar35;
-  System_String_Fields unaff_R15;
-  undefined8 uStackY_168;
-  System_Collections_Generic_List_object__o *pSStackY_160;
-  System_String_Fields SStackY_158;
-  System_String_Fields SStackY_150;
-  System_String_o *pSStackY_148;
-  System_Collections_Generic_List_object__o *pSStackY_140;
-  long *plStackY_138;
-  undefined1 auStackY_130 [8];
-  System_Collections_Generic_List_object__o *pSStackY_128;
-  System_String_Fields SStackY_120;
-  System_String_Fields SStackY_118;
-  System_String_o *pSStackY_110;
-  System_Collections_Generic_List_object__o *pSStackY_108;
-  long *plStackY_100;
-  undefined8 uStackY_f8;
-  System_Collections_Generic_List_object__o *pSStackY_f0;
-  System_String_Fields SStackY_e8;
-  System_String_Fields SStackY_e0;
-  System_String_Fields SStackY_d8;
-  ulong uStackY_d0;
-  long *plStackY_c8;
-  undefined8 uStackY_c0;
-  UI_CharacterEditorCostumePanel_o *pUStack_50;
+  byte bVar1;
+  Settings_HumanCustomSettings_o *pSVar2;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar3;
+  Settings_StringSetting_o *pSVar4;
+  Il2CppClass *pIVar5;
+  UI_BaseMenu_o *pUVar6;
+  UI_IconPickPopup_o *pUVar7;
+  Settings_ColorSetting_o *pSVar8;
+  UI_ColorPickPopup_o *pUVar9;
+  Settings_BoolSetting_o *pSVar10;
+  System_String_o *category;
+  bool bVar11;
+  UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *object;
+  Settings_BaseSetSetting_o *pSVar12;
+  System_String_o *pSVar13;
+  UI_ElementStyle_o *__this_00;
+  System_String_o *pSVar14;
+  UnityEngine_Events_UnityAction_o *pUVar15;
+  Settings_HumanCustomSet_o *pSVar16;
+  System_String_array *pSVar17;
+  UnityEngine_GameObject_o *pUVar18;
+  Il2CppObject *pIVar19;
+  UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *object_00;
+  UnityEngine_Transform_o *pUVar20;
+  UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o *object_01;
+  System_String_o *pSVar21;
+  System_String_array *pSVar22;
+  Settings_IntSetting_o *pSVar23;
+  UI_CharacterEditorMenu_o *value;
+  uint uVar24;
+  int32_t local_b8;
   
-  if (g_data_057ae176 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_10);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_11);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_12);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_13);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_14);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_15);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_16);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_17);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_18);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_19);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_20);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_21);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_22);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_23);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_24);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_25);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_26);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_2);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_3);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_4);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_5);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_6);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_7);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_8);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__21_9);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEffectPresets);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ElementStyle);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IntSetting_GetSelectedSetIndex);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_GetSetNames);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__27);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass21_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Setup_b__28);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass21_1);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"Blade Effect (Patreon T2)");
-    il2cpp_runtime_helper_023445d0(&"BootsColor");
-    il2cpp_runtime_helper_023445d0(&"PantsColor");
-    il2cpp_runtime_helper_023445d0(&"JacketColor");
-    il2cpp_runtime_helper_023445d0(&"Create");
-    il2cpp_runtime_helper_023445d0(&"SaveQuit");
-    il2cpp_runtime_helper_023445d0(&"No cape");
-    il2cpp_runtime_helper_023445d0(&"Back");
-    il2cpp_runtime_helper_023445d0(&"Logo");
-    il2cpp_runtime_helper_023445d0(&"CharacterEditor");
-    il2cpp_runtime_helper_023445d0(&"Costume");
-    il2cpp_runtime_helper_023445d0(&"Quit");
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    il2cpp_runtime_helper_023445d0(&"Copy");
-    il2cpp_runtime_helper_023445d0(&"Sex");
-    il2cpp_runtime_helper_023445d0(&"Boots");
-    il2cpp_runtime_helper_023445d0(&"Delete");
-    il2cpp_runtime_helper_023445d0(&"HairColor");
-    il2cpp_runtime_helper_023445d0(&"Face");
-    il2cpp_runtime_helper_023445d0(&"Head");
-    il2cpp_runtime_helper_023445d0(&"Glass");
-    il2cpp_runtime_helper_023445d0(&"Male");
-    il2cpp_runtime_helper_023445d0(&"StrapsColor");
-    il2cpp_runtime_helper_023445d0(&"Cape");
-    il2cpp_runtime_helper_023445d0(&"Rename");
-    il2cpp_runtime_helper_023445d0(&"Blade Effect Color (Patreon T2)");
-    il2cpp_runtime_helper_023445d0(&"ShirtColor");
-    il2cpp_runtime_helper_023445d0(&"Female");
-    il2cpp_runtime_helper_023445d0(&"Eye");
-    il2cpp_runtime_helper_023445d0(&"SkinColor");
-    il2cpp_runtime_helper_023445d0(&"Hair Effect Color (Patreon T2)");
-    il2cpp_runtime_helper_023445d0(&"Import");
-    il2cpp_runtime_helper_023445d0(&"Custom set");
-    il2cpp_runtime_helper_023445d0(&"Hair");
-    il2cpp_runtime_helper_023445d0(&"");
-    il2cpp_runtime_helper_023445d0(&"Export");
-    il2cpp_runtime_helper_023445d0(&"Hair Effect (Patreon T2)");
-    il2cpp_runtime_helper_023445d0(&"Hat");
-    g_data_057ae176 = '\x01';
-    method = extraout_RDX;
+  if (Il2CppMethodInitialized_184346f7a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_PatreonEffects_CharacterEffectPresets);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_ElementStyle);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IntSetting);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSetIndex);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__10);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__11);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__12);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__13);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__14);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__15);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__16);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__17);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__18);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__19);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__1);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__20);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__21);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__22);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__23);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__24);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__25);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__26);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__2);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__3);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__4);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__5);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__6);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__7);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__8);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__9);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_1_Setup_b__27);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_1);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_2_Setup_b__28);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_2);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"Blade Effect (Patreon T2)");
+    il2cpp_codegen_initialize_runtime_metadata(&"BootsColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"PantsColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"JacketColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Create");
+    il2cpp_codegen_initialize_runtime_metadata(&"SaveQuit");
+    il2cpp_codegen_initialize_runtime_metadata(&"No cape");
+    il2cpp_codegen_initialize_runtime_metadata(&"Back");
+    il2cpp_codegen_initialize_runtime_metadata(&"Logo");
+    il2cpp_codegen_initialize_runtime_metadata(&"CharacterEditor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Costume");
+    il2cpp_codegen_initialize_runtime_metadata(&"Quit");
+    il2cpp_codegen_initialize_runtime_metadata(&"LoadPreset");
+    il2cpp_codegen_initialize_runtime_metadata(&"Copy");
+    il2cpp_codegen_initialize_runtime_metadata(&"Sex");
+    il2cpp_codegen_initialize_runtime_metadata(&"Boots");
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Face");
+    il2cpp_codegen_initialize_runtime_metadata(&"Head");
+    il2cpp_codegen_initialize_runtime_metadata(&"Glass");
+    il2cpp_codegen_initialize_runtime_metadata(&"Male");
+    il2cpp_codegen_initialize_runtime_metadata(&"StrapsColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Cape");
+    il2cpp_codegen_initialize_runtime_metadata(&"Rename");
+    il2cpp_codegen_initialize_runtime_metadata(&"Blade Effect Color (Patreon T2)");
+    il2cpp_codegen_initialize_runtime_metadata(&"ShirtColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Female");
+    il2cpp_codegen_initialize_runtime_metadata(&"Cloak");
+    il2cpp_codegen_initialize_runtime_metadata(&"Eye");
+    il2cpp_codegen_initialize_runtime_metadata(&"SkinColor");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hair Effect Color (Patreon T2)");
+    il2cpp_codegen_initialize_runtime_metadata(&"Import");
+    il2cpp_codegen_initialize_runtime_metadata(&"Custom set");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hair");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"Export");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hair Effect (Patreon T2)");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hood");
+    il2cpp_codegen_initialize_runtime_metadata(&"Hat");
+    Il2CppMethodInitialized_184346f7a = '\x01';
   }
-  UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,method);
-  plVar30 = &TypeInfo_UIManager;
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    SVar31 = *(System_String_Fields *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-    if (SVar31 == (System_String_Fields)0x0) goto label_04358639;
-label_043585be:
-    lVar6 = TypeInfo_CharacterEditorMenu;
-    bVar3 = *(byte *)(TypeInfo_CharacterEditorMenu + 0x130);
-    in_RCX = (Settings_BaseSetSetting_c *)(ulong)bVar3;
-    if ((bVar3 <= *(byte *)(*(long *)SVar31 + 0x130)) &&
-       (*(long *)(*(long *)(*(long *)SVar31 + 200) + -8 + (long)in_RCX * 8) == TypeInfo_CharacterEditorMenu)) {
-      (__this->fields)._menu = (UI_CharacterEditorMenu_o *)SVar31;
-      if ((bVar3 <= *(byte *)(*(long *)SVar31 + 0x130)) &&
-         (*(long *)(*(long *)(*(long *)SVar31 + 200) + -8 + (long)in_RCX * 8) == lVar6)) goto label_0435864b;
-    }
-    set = (Settings_HumanCustomSet_o *)il2cpp_runtime_helper_022b2fd0(SVar31);
-label_0435a234:
-    il2cpp_runtime_helper_022b2fd0(set);
-label_0435a239:
-    __this_02 = (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass21_0);
-    SVar31._stringLength = 0;
-    SVar31._firstChar = 0;
-    SVar31._6_2_ = 0;
-    UI_CharacterEditorCostumePanel___c__DisplayClass21_0___ctor(__this_02,(MethodInfo *)0x0);
-    if (__this_02 != (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)0x0) {
-      (__this_02->fields).__4__this = pUStack_50;
-      il2cpp_runtime_helper_022b4080(&(__this_02->fields).__4__this);
-      iVar18 = *(int *)&((UnityEngine_Transform_o *)((long)unaff_R13 + 0x18))->klass;
-      while (iVar18 == 0) {
-label_0435a273:
-        il2cpp_runtime_helper_022b2ca0();
-label_0435a278:
-        __this_02 = (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass21_1)
-        ;
-        SVar31._stringLength = 0;
-        SVar31._firstChar = 0;
-        SVar31._6_2_ = 0;
-        UI_CharacterEditorCostumePanel___c__DisplayClass21_1___ctor
-                  ((UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *)__this_02,(MethodInfo *)0x0);
-        if (__this_02 == (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)0x0) goto label_0435a2c5;
-        (((UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *)__this_02)->fields).__4__this = pUStack_50
-        ;
-        il2cpp_runtime_helper_022b4080(&(((UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *)__this_02)->fields).
-                            __4__this);
-        iVar18 = *(int *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass;
-      }
-      SVar31 = (System_String_Fields)((UI_CharacterEditorCostumePanel_o *)plVar30)->klass;
-      (__this_02->fields).button = (System_String_o *)SVar31;
-      il2cpp_runtime_helper_022b4080(&__this_02->fields);
-    }
+  object = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object,(MethodInfo *)0x0);
+  if (object == (UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)0x0) goto label_1821d6de0;
+  (object->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(object->fields).__4__this,__this);
+  UI_HeadedPanel__Setup((UI_HeadedPanel_o *)__this,parent,(MethodInfo *)0x0);
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  value = (UI_CharacterEditorMenu_o *)TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (value == (UI_CharacterEditorMenu_o *)0x0) {
+    (__this->fields)._menu = (UI_CharacterEditorMenu_o *)0x0;
+    value = (UI_CharacterEditorMenu_o *)0x0;
   }
   else {
-    SVar31 = *(System_String_Fields *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-    if (SVar31 != (System_String_Fields)0x0) goto label_043585be;
-label_04358639:
-    (__this->fields)._menu = (UI_CharacterEditorMenu_o *)0x0;
-label_0435864b:
-    il2cpp_runtime_helper_022b4080(&(__this->fields)._menu);
-    *(undefined1 *)&(__this->fields)._isRebuildingPanel = 1;
-    lVar6 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-    if (((lVar6 != 0) &&
-        (pSVar7 = *(Settings_SetSettingsContainer_T__o **)(lVar6 + 0x20),
-        pSVar7 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-       (SVar31 = MethodInfo_BaseSetSetting_GetSelectedSet,
-       set = (Settings_HumanCustomSet_o *)
-             Settings_SetSettingsContainer_object___GetSelectedSet(pSVar7,(MethodInfo_39E05D0 *)MethodInfo_BaseSetSetting_GetSelectedSet),
-       set != (Settings_HumanCustomSet_o *)0x0)) {
-      in_RCX = (Settings_BaseSetSetting_c *)set->klass;
-      if (((in_RCX->_2).naturalAligment < *(byte *)((long)TypeInfo_HumanCustomSet + 0x130)) ||
-         (in_RCX = (Settings_BaseSetSetting_c *)(in_RCX->_2).typeHierarchy,
-         *(System_String_Fields *)((long)in_RCX + (ulong)*(byte *)((long)TypeInfo_HumanCustomSet + 0x130) * 8 + -8) !=
-         TypeInfo_HumanCustomSet)) goto label_0435a234;
-      pSVar8 = (set->fields).UniqueId;
-      SVar31 = TypeInfo_HumanCustomSet;
-      if (pSVar8 != (Settings_StringSetting_o *)0x0) {
-        (__this->fields)._previousProfileId = (pSVar8->fields)._value;
-        il2cpp_runtime_helper_022b4080(&(__this->fields)._previousProfileId);
-        pSVar19 = (System_String_o *)
-                  (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
-                            (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
-        __this_01 = (System_String_Fields)il2cpp_runtime_helper_023052d0(TypeInfo_ElementStyle);
-        UI_ElementStyle___ctor((UI_ElementStyle_o *)__this_01,0x18,130.0,20.0,pSVar19,(MethodInfo *)0x0);
-        subCategory = "Costume";
-        category = "CharacterEditor";
-        plVar30 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-        pUVar24 = (__this->fields).BottomBar;
-        pSVar19 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
-        pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateTextButton
-                  (pUVar24,(UI_ElementStyle_o *)__this_01,pSVar19,0.0,pUVar20,(MethodInfo *)0x0);
-        pUVar24 = (__this->fields).BottomBar;
-        pSVar19 = UI_UIManager__GetLocaleCommon("LoadPreset",(MethodInfo *)0x0);
-        pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        UI_ElementFactory__CreateTextButton
-                  (pUVar24,(UI_ElementStyle_o *)__this_01,pSVar19,0.0,pUVar20,(MethodInfo *)0x0);
-        pUVar24 = (__this->fields).BottomBar;
-        unaff_R12 = (long *)UI_UIManager__GetLocale
-                                      ((System_String_o *)category,(System_String_o *)subCategory,"SaveQuit"
-                                       ,(System_String_o *)"",(System_String_o *)"",
-                                       (MethodInfo *)0x0);
-        in_RCX = (Settings_BaseSetSetting_c *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        SVar31 = __this_01;
-        UI_ElementFactory__CreateTextButton
-                  (pUVar24,(UI_ElementStyle_o *)__this_01,(System_String_o *)unaff_R12,0.0,
-                   (UnityEngine_Events_UnityAction_o *)in_RCX,(MethodInfo *)0x0);
-        unaff_R13 = (Settings_BaseSetSetting_c **)subCategory;
-        if (((UI_CharacterEditorCostumePanel_o *)plVar30 != (UI_CharacterEditorCostumePanel_o *)0x0) &&
-           (pSVar7 = (Settings_SetSettingsContainer_T__o *)
-                     (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).SinglePanel,
-           pSVar7 != (Settings_SetSettingsContainer_T__o *)0x0)) {
-          SVar31 = MethodInfo_BaseSetSetting_GetSelectedSet;
-          set = (Settings_HumanCustomSet_o *)
-                Settings_SetSettingsContainer_object___GetSelectedSet
-                          (pSVar7,(MethodInfo_39E05D0 *)MethodInfo_BaseSetSetting_GetSelectedSet);
-          unaff_R13 = &"";
-          pUStack_50 = __this;
-          if (set != (Settings_HumanCustomSet_o *)0x0) {
-            in_RCX = (Settings_BaseSetSetting_c *)(ulong)*(byte *)((long)TypeInfo_HumanCustomSet + 0x130);
-            unaff_R15 = __this_01;
-            if (((set->klass->_2).naturalAligment < *(byte *)((long)TypeInfo_HumanCustomSet + 0x130)) ||
-               (SVar31 = TypeInfo_HumanCustomSet,
-               *(System_String_Fields *)
-                ((set->klass->_2).typeHierarchy + (long)((long)&in_RCX[-1].vtable._12_Validate.method + 7)) !=
-               TypeInfo_HumanCustomSet)) goto label_0435a234;
-          }
-          pSVar7 = (Settings_SetSettingsContainer_T__o *)
-                   (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).SinglePanel;
-          if (pSVar7 != (Settings_SetSettingsContainer_T__o *)0x0) {
-            unaff_R15 = (System_String_Fields)(__this->fields).SinglePanel;
-            pSVar9 = (pSVar7->fields).SelectedSetIndex;
-            unaff_R12 = (long *)Settings_SetSettingsContainer_object___GetSetNames(pSVar7,MethodInfo_String_GetSetNames);
-            pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            in_RCX = "Custom set";
+    bVar1 = (TypeInfo_UI_CharacterEditorMenu->_2).typeHierarchyDepth;
+    if (((value->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((value->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_UI_CharacterEditorMenu)) {
+      il2cpp_codegen_raise_invalid_cast_exception(value);
+    }
+    (__this->fields)._menu = value;
+    bVar1 = (TypeInfo_UI_CharacterEditorMenu->_2).typeHierarchyDepth;
+    if (((value->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((value->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_UI_CharacterEditorMenu)) {
+      il2cpp_codegen_raise_invalid_cast_exception(value);
+    }
+  }
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._menu,value);
+  (__this->fields)._isRebuildingPanel = true;
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if ((pSVar2 == (Settings_HumanCustomSettings_o *)0x0) ||
+     (pSVar3 = (pSVar2->fields).CustomSets, pSVar3 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0))
+  goto label_1821d6de0;
+  pSVar12 = Settings_SetSettingsContainer_object___GetSelectedSet
+                      ((Settings_SetSettingsContainer_T__o *)pSVar3,
+                       (MethodInfo_C8EAF0 *)
+                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+  if (pSVar12 == (Settings_BaseSetSetting_o *)0x0) goto label_1821d6de0;
+  bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+  if (((pSVar12->klass->_2).typeHierarchyDepth < bVar1) ||
+     ((pSVar12->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+      (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+    il2cpp_codegen_raise_invalid_cast_exception(pSVar12,TypeInfo_Settings_HumanCustomSet);
+  }
+  pSVar4 = (pSVar12->fields).UniqueId;
+  if (pSVar4 == (Settings_StringSetting_o *)0x0) goto label_1821d6de0;
+  pSVar13 = (pSVar4->fields)._value;
+  (__this->fields)._previousProfileId = pSVar13;
+  Il2CppCodeGenWriteBarrier(&(__this->fields)._previousProfileId,pSVar13);
+  pSVar13 = (*(__this->klass->vtable)._4_get_ThemePanel.methodPtr)
+                      (__this,(__this->klass->vtable)._4_get_ThemePanel.method);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UI_ElementStyle);
+  UI_ElementStyle___ctor(__this_00,0x18,130.0,20.0,pSVar13,(MethodInfo *)0x0);
+  category = "CharacterEditor";
+  pSVar13 = "Costume";
+  pUVar20 = (__this->fields).BottomBar;
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  pSVar14 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__0,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateTextButton(pUVar20,__this_00,pSVar14,0.0,pUVar15,(MethodInfo *)0x0);
+  pUVar20 = (__this->fields).BottomBar;
+  pSVar14 = UI_UIManager__GetLocaleCommon("LoadPreset",(MethodInfo *)0x0);
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__1,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateTextButton(pUVar20,__this_00,pSVar14,0.0,pUVar15,(MethodInfo *)0x0);
+  pUVar20 = (__this->fields).BottomBar;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"SaveQuit","","",
+                       (MethodInfo *)0x0);
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__2,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateTextButton(pUVar20,__this_00,pSVar14,0.0,pUVar15,(MethodInfo *)0x0);
+  if ((pSVar2 == (Settings_HumanCustomSettings_o *)0x0) ||
+     (pSVar3 = (pSVar2->fields).CustomSets, pSVar3 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0))
+  goto label_1821d6de0;
+  pSVar16 = (Settings_HumanCustomSet_o *)
+            Settings_SetSettingsContainer_object___GetSelectedSet
+                      ((Settings_SetSettingsContainer_T__o *)pSVar3,
+                       (MethodInfo_C8EAF0 *)
+                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) {
+    (object->fields).set = (Settings_HumanCustomSet_o *)0x0;
+  }
+  else {
+    bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+    if (((pSVar16->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((pSVar16->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar16);
+    }
+    (object->fields).set = pSVar16;
+    bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+    if (((pSVar16->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((pSVar16->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar16);
+    }
+  }
+  Il2CppCodeGenWriteBarrier(&(object->fields).set,pSVar16);
+  pSVar3 = (pSVar2->fields).CustomSets;
+  if (pSVar3 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar23 = (pSVar3->fields).SelectedSetIndex;
+  pSVar17 = Settings_SetSettingsContainer_object___GetSetNames
+                      ((Settings_SetSettingsContainer_T__o *)(pSVar2->fields).CustomSets,
+                       (MethodInfo_C8EC20 *)
+                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__3,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateDropdownSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,"Custom set",pSVar17,
+             "",170.0,40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  pUVar18 = UI_ElementFactory__CreateHorizontalGroup((__this->fields).SinglePanel,10.0,0,(MethodInfo *)0x0);
+  local_b8 = 3;
+  pIVar19 = SZArrayNew(TypeInfo_string_array,3);
+  pSVar14 = "Create";
+  if (pIVar19 == (Il2CppObject *)0x0) goto label_1821d6de0;
+  if (*(int *)&pIVar19[1].monitor == 0) goto label_1821d6de6;
+  pIVar19[2].klass = (Il2CppClass *)"Create";
+  Il2CppCodeGenWriteBarrier(&pIVar19[2].klass,pSVar14);
+  pSVar14 = "Delete";
+  if (*(uint *)&pIVar19[1].monitor < 2) goto label_1821d6de6;
+  pIVar19[2].monitor = "Delete";
+  Il2CppCodeGenWriteBarrier(&pIVar19[2].monitor,pSVar14);
+  pSVar14 = "Copy";
+  if (*(uint *)&pIVar19[1].monitor < 3) goto label_1821d6de6;
+  pIVar19[3].klass = (Il2CppClass *)"Copy";
+  Il2CppCodeGenWriteBarrier(&pIVar19[3].klass,pSVar14);
+  for (uVar24 = 0; (int)uVar24 < *(int *)&pIVar19[1].monitor; uVar24 = uVar24 + 1) {
+    object_00 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_1);
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object_00,(MethodInfo *)0x0);
+    if (object_00 == (UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *)0x0) goto label_1821d6de0;
+    (object_00->fields).CS___8__locals1 = object;
+    Il2CppCodeGenWriteBarrier(&(object_00->fields).CS___8__locals1,object);
+    if (*(uint *)&pIVar19[1].monitor <= uVar24) goto label_1821d6de6;
+    pIVar5 = (&pIVar19[2].klass)[(int)uVar24];
+    (object_00->fields).button = (System_String_o *)pIVar5;
+    Il2CppCodeGenWriteBarrier(&(object_00->fields).button,pIVar5);
+    if (pUVar18 == (UnityEngine_GameObject_o *)0x0) goto label_1821d6de0;
+    pUVar20 = UnityEngine_GameObject__get_transform(pUVar18,(MethodInfo *)0x0);
+    pSVar14 = (object_00->fields).button;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pSVar14 = UI_UIManager__GetLocaleCommon(pSVar14,(MethodInfo *)0x0);
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object_00,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_1_Setup_b__27,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateDefaultButton(pUVar20,__this_00,pSVar14,0.0,0.0,pUVar15,(MethodInfo *)0x0);
+  }
+  pUVar18 = UI_ElementFactory__CreateHorizontalGroup((__this->fields).SinglePanel,10.0,0,(MethodInfo *)0x0);
+  pIVar19 = SZArrayNew(TypeInfo_string_array,3);
+  pSVar14 = "Rename";
+  if (pIVar19 == (Il2CppObject *)0x0) goto label_1821d6de0;
+  if (*(int *)&pIVar19[1].monitor == 0) goto label_1821d6de6;
+  pIVar19[2].klass = (Il2CppClass *)"Rename";
+  Il2CppCodeGenWriteBarrier(&pIVar19[2].klass,pSVar14);
+  pSVar14 = "Import";
+  if (*(uint *)&pIVar19[1].monitor < 2) goto label_1821d6de6;
+  pIVar19[2].monitor = "Import";
+  Il2CppCodeGenWriteBarrier(&pIVar19[2].monitor,pSVar14);
+  pSVar14 = "Export";
+  if (*(uint *)&pIVar19[1].monitor < 3) goto label_1821d6de6;
+  pIVar19[3].klass = (Il2CppClass *)"Export";
+  Il2CppCodeGenWriteBarrier(&pIVar19[3].klass,pSVar14);
+  for (uVar24 = 0; (int)uVar24 < *(int *)&pIVar19[1].monitor; uVar24 = uVar24 + 1) {
+    object_01 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_2);
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object_01,(MethodInfo *)0x0);
+    if (object_01 == (UI_CharacterEditorCostumePanel___c__DisplayClass21_2_o *)0x0) goto label_1821d6de0;
+    (object_01->fields).CS___8__locals2 = object;
+    Il2CppCodeGenWriteBarrier(&(object_01->fields).CS___8__locals2,object);
+    if (*(uint *)&pIVar19[1].monitor <= uVar24) goto label_1821d6de6;
+    pIVar5 = (&pIVar19[2].klass)[(int)uVar24];
+    (object_01->fields).button = (System_String_o *)pIVar5;
+    Il2CppCodeGenWriteBarrier(&(object_01->fields).button,pIVar5);
+    if (pUVar18 == (UnityEngine_GameObject_o *)0x0) goto label_1821d6de0;
+    pUVar20 = UnityEngine_GameObject__get_transform(pUVar18,(MethodInfo *)0x0);
+    pSVar14 = (object_01->fields).button;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pSVar14 = UI_UIManager__GetLocaleCommon(pSVar14,(MethodInfo *)0x0);
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object_01,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_2_Setup_b__28,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateDefaultButton(pUVar20,__this_00,pSVar14,0.0,0.0,pUVar15,(MethodInfo *)0x0);
+  }
+  UI_BasePanel__CreateHorizontalDivider
+            ((UI_BasePanel_o *)__this,(__this->fields).SinglePanel,1.0,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar23 = (pSVar16->fields).Sex;
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  pSVar21 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Sex","","",
+                       (MethodInfo *)0x0);
+  pSVar17 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+  pSVar14 = "Male";
+  if (pSVar17 == (System_String_array *)0x0) goto label_1821d6de0;
+  if ((int)pSVar17->max_length == 0) goto label_1821d6de6;
+  pSVar17->m_Items[0] = "Male";
+  Il2CppCodeGenWriteBarrier(pSVar17->m_Items,pSVar14);
+  pSVar14 = "Female";
+  if ((uint)pSVar17->max_length < 2) goto label_1821d6de6;
+  pSVar17->m_Items[1] = "Female";
+  Il2CppCodeGenWriteBarrier(pSVar17->m_Items + 1,pSVar14);
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__4,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateDropdownSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar21,pSVar17,"",170.0,
+             40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,(System_Int32_array *)0x0,(MethodInfo *)0x0);
+  if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
+  }
+  pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                      (__this,"Eye",TypeInfo_Characters_HumanSetup->static_fields->EyeCount,
+                       false,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar23 = (pSVar16->fields).Eye;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Eye","","",
+                       (MethodInfo *)0x0);
+  pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+  pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+  pUVar7 = (pUVar6->fields).IconPickPopup;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__5,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateIconPickSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar14,pSVar17,pSVar22,pUVar7,
+             "",(System_String_array *)0x0,170.0,40.0,pUVar15,(UI_TooltipPopup_o *)0x0,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                      (__this,"Face",TypeInfo_Characters_HumanSetup->static_fields->FaceCount,
+                       true,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar4 = (pSVar16->fields).Face;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Face","","",
+                       (MethodInfo *)0x0);
+  pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+  pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+  pUVar7 = (pUVar6->fields).IconPickPopup;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__6,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateIconPickSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,pSVar22,pUVar7,
+             "",(System_String_array *)0x0,170.0,40.0,pUVar15,(UI_TooltipPopup_o *)0x0,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                      (__this,"Glass",TypeInfo_Characters_HumanSetup->static_fields->GlassCount,
+                       true,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar4 = (pSVar16->fields).Glass;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Glass","","",
+                       (MethodInfo *)0x0);
+  pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+  pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+  pUVar7 = (pUVar6->fields).IconPickPopup;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__7,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateIconPickSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,pSVar22,pUVar7,
+             "",(System_String_array *)0x0,170.0,40.0,pUVar15,(UI_TooltipPopup_o *)0x0,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  pSVar17 = UI_CharacterEditorCostumePanel__GetHairOptions(__this,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar4 = (pSVar16->fields).Hair;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Hair","","",
+                       (MethodInfo *)0x0);
+  pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+  pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+  pUVar7 = (pUVar6->fields).IconPickPopup;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__8,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateIconPickSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,pSVar22,pUVar7,
+             "",(System_String_array *)0x0,170.0,40.0,pUVar15,(UI_TooltipPopup_o *)0x0,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  bVar11 = PatreonEffects_PatreonHelper__LocalPlayerHasCharacterEffectAccess((MethodInfo *)0x0);
+  if (bVar11) {
+    pSVar16 = (object->fields).set;
+    if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+    pSVar4 = (pSVar16->fields).HairEffect;
+    pUVar20 = (__this->fields).SinglePanel;
+    if ((TypeInfo_PatreonEffects_CharacterEffectPresets->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_CharacterEffectPresets);
+    }
+    pSVar17 = TypeInfo_PatreonEffects_CharacterEffectPresets->static_fields->Options;
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__9,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateDropdownSetting
+              (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,"Hair Effect (Patreon T2)",pSVar17,
+               "",170.0,40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,
+               (System_Int32_array *)0x0,(MethodInfo *)0x0);
+    pSVar16 = (object->fields).set;
+    if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+    pSVar8 = (pSVar16->fields).HairEffectColor;
+    pUVar20 = (__this->fields).SinglePanel;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+    pUVar9 = (pUVar6->fields).ColorPickPopup;
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__10,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateColorSetting
+              (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,"Hair Effect Color (Patreon T2)",pUVar9,
+               "",90.0,30.0,pUVar15,(MethodInfo *)0x0);
+  }
+  pSVar17 = UI_CharacterEditorCostumePanel__GetCostumeOptions(__this,(object->fields).set,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar23 = (pSVar16->fields).Costume;
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Costume","","",
+                       (MethodInfo *)0x0);
+  pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+  pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+  pUVar7 = (pUVar6->fields).IconPickPopup;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__11,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateIconPickSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar14,pSVar17,pSVar22,pUVar7,
+             "",(System_String_array *)0x0,170.0,40.0,pUVar15,(UI_TooltipPopup_o *)0x0,
+             (System_Int32_array *)0x0,(MethodInfo *)0x0);
+  pSVar16 = (object->fields).set;
+  if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+  pUVar20 = (__this->fields).SinglePanel;
+  pSVar23 = (pSVar16->fields).Boots;
+  pSVar14 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Boots","","",
+                       (MethodInfo *)0x0);
+  pSVar17 = UI_CharacterEditorCostumePanel__GetOptions(__this,"Boots",2,false,(MethodInfo *)0x0)
+  ;
+  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+  UnityEngine_Events_UnityAction___ctor
+            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+             (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__12,
+             (MethodInfo *)0x0);
+  UI_ElementFactory__CreateDropdownSetting
+            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar14,pSVar17,"",170.0,
+             40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,(System_Int32_array *)0x0,(MethodInfo *)0x0);
+  if (bVar11) {
+    pSVar16 = (object->fields).set;
+    if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+    pSVar4 = (pSVar16->fields).BladeEffect;
+    pUVar20 = (__this->fields).SinglePanel;
+    if ((TypeInfo_PatreonEffects_CharacterEffectPresets->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_PatreonEffects_CharacterEffectPresets);
+    }
+    pSVar17 = TypeInfo_PatreonEffects_CharacterEffectPresets->static_fields->Options;
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__13,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateDropdownSetting
+              (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,"Blade Effect (Patreon T2)",pSVar17,
+               "",170.0,40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,
+               (System_Int32_array *)0x0,(MethodInfo *)0x0);
+    pSVar16 = (object->fields).set;
+    if (pSVar16 == (Settings_HumanCustomSet_o *)0x0) goto label_1821d6de0;
+    pSVar8 = (pSVar16->fields).BladeEffectColor;
+    pUVar20 = (__this->fields).SinglePanel;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+    }
+    pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar6 == (UI_BaseMenu_o *)0x0) goto label_1821d6de0;
+    pUVar9 = (pUVar6->fields).ColorPickPopup;
+    pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+    UnityEngine_Events_UnityAction___ctor
+              ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+               (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__14,
+               (MethodInfo *)0x0);
+    UI_ElementFactory__CreateColorSetting
+              (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,"Blade Effect Color (Patreon T2)",pUVar9,
+               "",90.0,30.0,pUVar15,(MethodInfo *)0x0);
+  }
+  pSVar16 = (object->fields).set;
+  if ((pSVar16 == (Settings_HumanCustomSet_o *)0x0) ||
+     (pSVar23 = (pSVar16->fields).Cape, pSVar23 == (Settings_IntSetting_o *)0x0)) goto label_1821d6de0;
+  if ((pSVar23->fields)._value == 2) {
+    pSVar10 = (pSVar16->fields).HoodUp;
+    if (pSVar10 == (Settings_BoolSetting_o *)0x0) goto label_1821d6de0;
+    if ((pSVar10->fields)._value == false) goto label_1821d60d2;
+  }
+  else {
+label_1821d60d2:
+    local_b8 = (((((object->fields).set)->fields).Cape)->fields)._value;
+  }
+  pSVar23 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_IntSetting);
+  Settings_IntSetting___ctor_1f1de00(pSVar23,local_b8,-0x80000000,0x7fffffff,(MethodInfo *)0x0);
+  (object->fields).capeOption = pSVar23;
+  Il2CppCodeGenWriteBarrier(&(object->fields).capeOption,pSVar23);
+  pSVar23 = (object->fields).capeOption;
+  pUVar20 = (__this->fields).SinglePanel;
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+  }
+  pSVar21 = UI_UIManager__GetLocale
+                      (category,pSVar13,"Cape","","",
+                       (MethodInfo *)0x0);
+  pSVar17 = (System_String_array *)SZArrayNew(TypeInfo_string_array,4);
+  pSVar14 = "No cape";
+  if (pSVar17 != (System_String_array *)0x0) {
+    if ((int)pSVar17->max_length != 0) {
+      pSVar17->m_Items[0] = "No cape";
+      Il2CppCodeGenWriteBarrier(pSVar17->m_Items,pSVar14);
+      pSVar14 = "Cape";
+      if (1 < (uint)pSVar17->max_length) {
+        pSVar17->m_Items[1] = "Cape";
+        Il2CppCodeGenWriteBarrier(pSVar17->m_Items + 1,pSVar14);
+        pSVar14 = "Cloak";
+        if (2 < (uint)pSVar17->max_length) {
+          pSVar17->m_Items[2] = "Cloak";
+          Il2CppCodeGenWriteBarrier(pSVar17->m_Items + 2,pSVar14);
+          pSVar14 = UI_UIManager__GetLocale
+                              (category,pSVar13,"Hood","",
+                               "",(MethodInfo *)0x0);
+          if (3 < (uint)pSVar17->max_length) {
+            pSVar17->m_Items[3] = pSVar14;
+            Il2CppCodeGenWriteBarrier(pSVar17->m_Items + 3,pSVar14);
+            pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+            UnityEngine_Events_UnityAction___ctor
+                      ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+                       (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__15,
+                       (MethodInfo *)0x0);
             UI_ElementFactory__CreateDropdownSetting
-                      ((UnityEngine_Transform_o *)unaff_R15,(UI_ElementStyle_o *)__this_01,
-                       (Settings_BaseSetting_o *)pSVar9,(System_String_o *)"Custom set",
-                       (System_String_array *)unaff_R12,(System_String_o *)"",170.0,40.0,300.0,
-                       (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-            pUVar21 = UI_ElementFactory__CreateHorizontalGroup
-                                ((__this->fields).SinglePanel,10.0,0,(MethodInfo *)0x0);
-            SVar31._stringLength = 3;
-            SVar31._firstChar = 0;
-            SVar31._6_2_ = 0;
-            SVar22 = (System_String_Fields)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-            if (SVar22 != (System_String_Fields)0x0) {
-              plVar30 = (long *)__this;
-              unaff_R13 = (Settings_BaseSetSetting_c **)SVar22;
-              if (*(int *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass == 0) goto label_0435a273;
-              plVar30 = (long *)((long)SVar22 + 0x20);
-              *(void **)((long)SVar22 + 0x20) = "Create";
-              il2cpp_runtime_helper_022b4080(plVar30);
-              if (*(uint *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass < 2) goto label_0435a273;
-              ((UnityEngine_Transform_Fields *)((long)SVar22 + 0x28))->m_CachedPtr = "Delete";
-              il2cpp_runtime_helper_022b4080((UnityEngine_Transform_Fields *)((long)SVar22 + 0x28));
-              if (*(uint *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass < 3) goto label_0435a273;
-              ((UnityEngine_Transform_o *)((long)SVar22 + 0x30))->klass = "Copy";
-              il2cpp_runtime_helper_022b4080((UnityEngine_Transform_o *)((long)SVar22 + 0x30));
-              if (0 < *(int *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass) {
-                if (pUVar21 == (UnityEngine_GameObject_o *)0x0) goto label_0435a239;
-                unaff_R15._stringLength = 0;
-                unaff_R15._firstChar = 0;
-                unaff_R15._6_2_ = 0;
-                do {
-                  plVar30 = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass21_0);
-                  SVar31._stringLength = 0;
-                  SVar31._firstChar = 0;
-                  SVar31._6_2_ = 0;
-                  UI_CharacterEditorCostumePanel___c__DisplayClass21_0___ctor
-                            ((UI_CharacterEditorCostumePanel___c__DisplayClass21_0_o *)plVar30,
-                             (MethodInfo *)0x0);
-                  if ((UI_CharacterEditorCostumePanel_o *)plVar30 == (UI_CharacterEditorCostumePanel_o *)0x0)
-                  goto label_0435a2c5;
-                  (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CancellationTokenSource =
-                       (System_Threading_CancellationTokenSource_o *)__this;
-                  il2cpp_runtime_helper_022b4080(&(((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).
-                                      m_CancellationTokenSource);
-                  SVar23._4_4_ = 0;
-                  SVar23._stringLength = *(uint *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass;
-                  if ((ulong)SVar23 <= (ulong)unaff_R15) goto label_0435a273;
-                  (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CachedPtr =
-                       (intptr_t)((void **)((long)SVar22 + 0x20))[(long)unaff_R15];
-                  il2cpp_runtime_helper_022b4080(&((UI_CharacterEditorCostumePanel_o *)plVar30)->fields);
-                  unaff_R12 = (long *)UnityEngine_GameObject__get_transform(pUVar21,(MethodInfo *)0x0);
-                  pSVar19 = (System_String_o *)
-                            (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CachedPtr;
-                  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
-                  }
-                  pSVar19 = UI_UIManager__GetLocaleCommon(pSVar19,(MethodInfo *)0x0);
-                  in_RCX = (Settings_BaseSetSetting_c *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                  UnityEngine_Events_UnityAction___ctor();
-                  UI_ElementFactory__CreateDefaultButton
-                            ((UnityEngine_Transform_o *)unaff_R12,(UI_ElementStyle_o *)__this_01,pSVar19,0.0,
-                             0.0,(UnityEngine_Events_UnityAction_o *)in_RCX,(MethodInfo *)0x0);
-                  unaff_R15 = (System_String_Fields)((long)unaff_R15 + 1);
-                } while ((long)unaff_R15 <
-                         (long)*(int *)&((UnityEngine_Transform_o *)((long)SVar22 + 0x18))->klass);
+                      (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar21,pSVar17,
+                       "",170.0,40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,
+                       (System_Int32_array *)0x0,(MethodInfo *)0x0);
+            pSVar16 = (object->fields).set;
+            if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+              pUVar20 = (__this->fields).SinglePanel;
+              pSVar23 = (pSVar16->fields).Logo;
+              pSVar14 = UI_UIManager__GetLocale
+                                  (category,pSVar13,"Logo","",
+                                   "",(MethodInfo *)0x0);
+              pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                                  (__this,"Logo",4,false,(MethodInfo *)0x0);
+              pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+              UnityEngine_Events_UnityAction___ctor
+                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+                         (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__16,
+                         (MethodInfo *)0x0);
+              UI_ElementFactory__CreateDropdownSetting
+                        (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar23,pSVar14,pSVar17,
+                         "",170.0,40.0,300.0,(System_Nullable_float__o)0x0,pUVar15,
+                         (System_Int32_array *)0x0,(MethodInfo *)0x0);
+              if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
               }
-              pUVar21 = UI_ElementFactory__CreateHorizontalGroup
-                                  ((__this->fields).SinglePanel,10.0,0,(MethodInfo *)0x0);
-              SVar31._stringLength = 3;
-              SVar31._firstChar = 0;
-              SVar31._6_2_ = 0;
-              unaff_R15 = (System_String_Fields)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-              if (unaff_R15 != (System_String_Fields)0x0) {
-                if (*(int *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass == 0)
-                goto label_0435a273;
-                plVar30 = (long *)((long)unaff_R15 + 0x20);
-                *(Settings_SetSettingsContainer_T__c **)((long)unaff_R15 + 0x20) = "Rename";
-                il2cpp_runtime_helper_022b4080(plVar30);
-                if (*(uint *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass < 2)
-                goto label_0435a273;
-                ((UnityEngine_Transform_Fields *)((long)unaff_R15 + 0x28))->m_CachedPtr = "Import";
-                il2cpp_runtime_helper_022b4080((UnityEngine_Transform_Fields *)((long)unaff_R15 + 0x28));
-                if (*(uint *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass < 3)
-                goto label_0435a273;
-                ((UnityEngine_Transform_o *)((long)unaff_R15 + 0x30))->klass = "Export";
-                il2cpp_runtime_helper_022b4080((UnityEngine_Transform_o *)((long)unaff_R15 + 0x30));
-                if (0 < *(int *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass) {
-                  if (pUVar21 == (UnityEngine_GameObject_o *)0x0) goto label_0435a278;
-                  unaff_R13._0_4_ = 0;
-                  unaff_R13._4_2_ = 0;
-                  unaff_R13._6_2_ = 0;
-                  do {
-                    plVar30 = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass21_1);
-                    SVar31._stringLength = 0;
-                    SVar31._firstChar = 0;
-                    SVar31._6_2_ = 0;
-                    UI_CharacterEditorCostumePanel___c__DisplayClass21_1___ctor
-                              ((UI_CharacterEditorCostumePanel___c__DisplayClass21_1_o *)plVar30,
-                               (MethodInfo *)0x0);
-                    if ((UI_CharacterEditorCostumePanel_o *)plVar30 == (UI_CharacterEditorCostumePanel_o *)0x0
-                       ) goto label_0435a2c5;
-                    (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CancellationTokenSource =
-                         (System_Threading_CancellationTokenSource_o *)__this;
-                    il2cpp_runtime_helper_022b4080(&(((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).
-                                        m_CancellationTokenSource);
-                    SVar22._4_4_ = 0;
-                    SVar22._stringLength =
-                         *(uint *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass;
-                    if ((ulong)SVar22 <= unaff_R13) goto label_0435a273;
-                    (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CachedPtr =
-                         (intptr_t)((void **)((long)unaff_R15 + 0x20))[(long)unaff_R13];
-                    il2cpp_runtime_helper_022b4080(&((UI_CharacterEditorCostumePanel_o *)plVar30)->fields);
-                    pUVar24 = UnityEngine_GameObject__get_transform(pUVar21,(MethodInfo *)0x0);
-                    pSVar19 = (System_String_o *)
-                              (((UI_CharacterEditorCostumePanel_o *)plVar30)->fields).m_CachedPtr;
-                    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                      il2cpp_runtime_helper_02337ed0();
-                    }
-                    unaff_R12 = (long *)UI_UIManager__GetLocaleCommon(pSVar19,(MethodInfo *)0x0);
-                    in_RCX = (Settings_BaseSetSetting_c *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                    UnityEngine_Events_UnityAction___ctor();
-                    UI_ElementFactory__CreateDefaultButton
-                              (pUVar24,(UI_ElementStyle_o *)__this_01,(System_String_o *)unaff_R12,0.0,0.0,
-                               (UnityEngine_Events_UnityAction_o *)in_RCX,(MethodInfo *)0x0);
-                    unaff_R13 = (Settings_BaseSetSetting_c **)((long)unaff_R13 + 1);
-                  } while ((long)unaff_R13 <
-                           (long)*(int *)&((UnityEngine_Transform_o *)((long)unaff_R15 + 0x18))->klass);
-                }
-                SVar31 = (System_String_Fields)(__this->fields).SinglePanel;
-                UI_BasePanel__CreateHorizontalDivider
-                          ((UI_BasePanel_o *)__this,(UnityEngine_Transform_o *)SVar31,1.0,(MethodInfo *)0x0);
-                if (set != (Settings_HumanCustomSet_o *)0x0) {
-                  unaff_R13 = (Settings_BaseSetSetting_c **)(__this->fields).SinglePanel;
-                  unaff_R15 = (System_String_Fields)(set->fields).Sex;
-                  plVar30 = &TypeInfo_UnityAction;
-                  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
-                  }
-                  in_RCX = "";
-                  pSVar19 = UI_UIManager__GetLocale
-                                      ((System_String_o *)category,(System_String_o *)subCategory,"Sex"
-                                       ,(System_String_o *)"",(System_String_o *)"",
+              pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                                  (__this,"Hat",
+                                   TypeInfo_Characters_HumanSetup->static_fields->HatCount,true,
+                                   (MethodInfo *)0x0);
+              pSVar16 = (object->fields).set;
+              if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                pUVar20 = (__this->fields).SinglePanel;
+                pSVar4 = (pSVar16->fields).Hat;
+                pSVar14 = UI_UIManager__GetLocale
+                                    (category,pSVar13,"Hat","",
+                                     "",(MethodInfo *)0x0);
+                pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+                pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                  pUVar7 = (pUVar6->fields).IconPickPopup;
+                  pUVar15 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                  UnityEngine_Events_UnityAction___ctor
+                            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,(Il2CppObject *)object,
+                             (intptr_t)
+                             MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__17,
+                             (MethodInfo *)0x0);
+                  UI_ElementFactory__CreateIconPickSetting
+                            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,pSVar22,pUVar7
+                             ,"",(System_String_array *)0x0,170.0,40.0,pUVar15,
+                             (UI_TooltipPopup_o *)0x0,(System_Int32_array *)0x0,(MethodInfo *)0x0);
+                  pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                                      (__this,"Head",
+                                       TypeInfo_Characters_HumanSetup->static_fields->HeadCount,true,
                                        (MethodInfo *)0x0);
-                  SVar31._stringLength = 2;
-                  SVar31._firstChar = 0;
-                  SVar31._6_2_ = 0;
-                  pSVar25 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-                  if (pSVar25 != (System_String_array *)0x0) {
-                    if ((int)pSVar25->max_length == 0) goto label_0435a273;
-                    pSVar25->m_Items[0] = "Male";
-                    il2cpp_runtime_helper_022b4080(pSVar25->m_Items);
-                    if ((uint)pSVar25->max_length < 2) goto label_0435a273;
-                    pSVar25->m_Items[1] = "Female";
-                    il2cpp_runtime_helper_022b4080(pSVar25->m_Items + 1);
-                    pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                    UnityEngine_Events_UnityAction___ctor();
-                    UI_ElementFactory__CreateDropdownSetting
-                              ((UnityEngine_Transform_o *)unaff_R13,(UI_ElementStyle_o *)__this_01,
-                               (Settings_BaseSetting_o *)unaff_R15,pSVar19,pSVar25,
-                               (System_String_o *)"",170.0,40.0,300.0,(System_Nullable_float__o)0x0,
-                               pUVar20,(MethodInfo *)0x0);
-                    if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-                      il2cpp_runtime_helper_02337ed0();
-                    }
-                    unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                  (TypeInfo_HumanSetup,"Eye",
-                                                   *(int32_t *)
-                                                    &((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->
-                                                     fields)._registeredCallbacksLists,0,(MethodInfo *)pSVar25
-                                                  );
-                    pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                    pSVar9 = (set->fields).Eye;
-                    in_RCX = "";
-                    SVar22 = category;
-                    pSVar19 = UI_UIManager__GetLocale
-                                        ((System_String_o *)category,(System_String_o *)subCategory,
-                                         "Eye",(System_String_o *)"",
-                                         (System_String_o *)"",(MethodInfo *)0x0);
-                    SVar31 = (System_String_Fields)unaff_R12;
-                    pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                        ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                         (System_String_array *)unaff_R12,method_00);
-                    lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                    unaff_R13 = (Settings_BaseSetSetting_c **)__this;
-                    if (lVar6 != 0) {
-                      pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                      pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                      UnityEngine_Events_UnityAction___ctor();
-                      uStackY_c0 = 0x4358f8e;
+                  pSVar16 = (object->fields).set;
+                  if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                    pUVar20 = (__this->fields).SinglePanel;
+                    pSVar4 = (pSVar16->fields).Head;
+                    pSVar14 = UI_UIManager__GetLocale
+                                        (category,pSVar13,"Head","",
+                                         "",(MethodInfo *)0x0);
+                    pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+                    pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                    if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                      pUVar7 = (pUVar6->fields).IconPickPopup;
+                      pUVar15 = il2cpp_codegen_object_new
+                                          ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                      UnityEngine_Events_UnityAction___ctor
+                                ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                 (Il2CppObject *)object,
+                                 (intptr_t)
+                                 MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__18,
+                                 (MethodInfo *)0x0);
                       UI_ElementFactory__CreateIconPickSetting
-                                ((UnityEngine_Transform_o *)pUVar32,(UI_ElementStyle_o *)__this_01,
-                                 (Settings_BaseSetting_o *)pSVar9,pSVar19,(System_String_array *)unaff_R12,
-                                 pSVar25,pUVar10,(System_String_o *)"",(System_String_array *)0x0,
-                                 170.0,40.0,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                      unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                    (pUVar32,"Face",
-                                                     *(int32_t *)
-                                                      ((long)&((TypeInfo_HumanSetup[1].fields.
-                                                               m_CancellationTokenSource)->fields).
-                                                              _registeredCallbacksLists + 4),1,
-                                                     (MethodInfo *)unaff_R12);
-                      pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                      pSVar8 = (set->fields).Face;
-                      in_RCX = "";
-                      SVar22 = category;
-                      pSVar19 = UI_UIManager__GetLocale
-                                          ((System_String_o *)category,(System_String_o *)subCategory,
-                                           "Face",(System_String_o *)"",
-                                           (System_String_o *)"",(MethodInfo *)0x0);
-                      SVar31 = (System_String_Fields)unaff_R12;
-                      pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                          ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                           (System_String_array *)unaff_R12,method_01);
-                      lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                      if (lVar6 != 0) {
-                        pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                        pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                        UnityEngine_Events_UnityAction___ctor();
-                        uStackY_c0 = 0x43590a4;
-                        UI_ElementFactory__CreateIconPickSetting
-                                  ((UnityEngine_Transform_o *)pUVar32,(UI_ElementStyle_o *)__this_01,
-                                   (Settings_BaseSetting_o *)pSVar8,pSVar19,(System_String_array *)unaff_R12,
-                                   pSVar25,pUVar10,(System_String_o *)"",(System_String_array *)0x0,
-                                   170.0,40.0,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                        unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                      (pUVar32,"Glass",
-                                                       ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->
-                                                       fields)._state,1,(MethodInfo *)unaff_R12);
-                        pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                        pSVar8 = (set->fields).Glass;
-                        in_RCX = "";
-                        SVar22 = category;
-                        pSVar19 = UI_UIManager__GetLocale
-                                            ((System_String_o *)category,(System_String_o *)subCategory,
-                                             "Glass",(System_String_o *)"",
-                                             (System_String_o *)"",(MethodInfo *)0x0);
-                        SVar31 = (System_String_Fields)unaff_R12;
-                        pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                            ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                             (System_String_array *)unaff_R12,method_02);
-                        lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                        if (lVar6 != 0) {
-                          pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                          pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                          UnityEngine_Events_UnityAction___ctor();
-                          uStackY_c0 = 0x43591c5;
-                          SVar31 = __this_01;
+                                (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,pSVar22,
+                                 pUVar7,"",(System_String_array *)0x0,170.0,40.0,pUVar15,
+                                 (UI_TooltipPopup_o *)0x0,(System_Int32_array *)0x0,(MethodInfo *)0x0);
+                      pSVar17 = UI_CharacterEditorCostumePanel__GetOptions
+                                          (__this,"Back",
+                                           TypeInfo_Characters_HumanSetup->static_fields->BackCount,true,
+                                           (MethodInfo *)0x0);
+                      pSVar16 = (object->fields).set;
+                      if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                        pUVar20 = (__this->fields).SinglePanel;
+                        pSVar4 = (pSVar16->fields).Back;
+                        pSVar14 = UI_UIManager__GetLocale
+                                            (category,pSVar13,"Back","",
+                                             "",(MethodInfo *)0x0);
+                        pSVar22 = UI_CharacterEditorCostumePanel__GetIcons(__this,pSVar17,(MethodInfo *)0x0);
+                        pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                        if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                          pUVar7 = (pUVar6->fields).IconPickPopup;
+                          pUVar15 = il2cpp_codegen_object_new
+                                              ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                          UnityEngine_Events_UnityAction___ctor
+                                    ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                     (Il2CppObject *)object,
+                                     (intptr_t)
+                                     MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__19
+                                     ,(MethodInfo *)0x0);
                           UI_ElementFactory__CreateIconPickSetting
-                                    ((UnityEngine_Transform_o *)pUVar32,(UI_ElementStyle_o *)__this_01,
-                                     (Settings_BaseSetting_o *)pSVar8,pSVar19,(System_String_array *)unaff_R12
-                                     ,pSVar25,pUVar10,(System_String_o *)"",
-                                     (System_String_array *)0x0,170.0,40.0,pUVar20,(UI_TooltipPopup_o *)0x0,
+                                    (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar4,pSVar14,pSVar17,
+                                     pSVar22,pUVar7,"",(System_String_array *)0x0,170.0,
+                                     40.0,pUVar15,(UI_TooltipPopup_o *)0x0,(System_Int32_array *)0x0,
                                      (MethodInfo *)0x0);
-                          unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetHairOptions
-                                                        (pUVar32,(MethodInfo *)SVar31);
-                          pUVar24 = (__this->fields).SinglePanel;
-                          pSVar8 = (set->fields).Hair;
-                          in_RCX = "";
-                          SVar22 = category;
-                          pSVar19 = UI_UIManager__GetLocale
-                                              ((System_String_o *)category,(System_String_o *)subCategory,
-                                               "Hair",(System_String_o *)"",
-                                               (System_String_o *)"",(MethodInfo *)0x0);
-                          SVar31 = (System_String_Fields)unaff_R12;
-                          pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                              ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                               (System_String_array *)unaff_R12,method_03);
-                          lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                          if (lVar6 != 0) {
-                            pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                            pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                            UnityEngine_Events_UnityAction___ctor();
-                            uStackY_c0 = 0x43592bd;
-                            UI_ElementFactory__CreateIconPickSetting
-                                      (pUVar24,(UI_ElementStyle_o *)__this_01,(Settings_BaseSetting_o *)pSVar8
-                                       ,pSVar19,(System_String_array *)unaff_R12,pSVar25,pUVar10,
-                                       (System_String_o *)"",(System_String_array *)0x0,170.0,40.0,
-                                       pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                            pUVar32 = (UI_CharacterEditorCostumePanel_o *)0x0;
-                            bVar17 = PatreonEffects_PatreonHelper__LocalPlayerHasCharacterEffectAccess
-                                               ((MethodInfo *)0x0);
-                            method_04 = extraout_RDX_00;
-                            if ((char)bVar17 != '\0') {
-                              pUVar24 = (__this->fields).SinglePanel;
-                              pSVar8 = (set->fields).HairEffect;
-                              if (*(int *)(TypeInfo_CharacterEffectPresets + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                              }
-                              pSVar25 = (System_String_array *)**(undefined8 **)(TypeInfo_CharacterEffectPresets + 0xb8);
-                              pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
-                              in_RCX = "Hair Effect (Patreon T2)";
-                              SVar31 = __this_01;
-                              UI_ElementFactory__CreateDropdownSetting
-                                        (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                         (Settings_BaseSetting_o *)pSVar8,(System_String_o *)"Hair Effect (Patreon T2)",
-                                         pSVar25,(System_String_o *)"",170.0,40.0,300.0,
-                                         (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-                              pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                              pSVar11 = (set->fields).HairEffectColor;
-                              if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                              }
-                              lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                              unaff_R12 = &TypeInfo_UnityAction;
-                              if (lVar6 == 0) goto label_0435a2c5;
-                              pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                              pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
+                          pSVar16 = (object->fields).set;
+                          if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                            pSVar8 = (pSVar16->fields).SkinColor;
+                            pUVar20 = (__this->fields).SinglePanel;
+                            pSVar14 = UI_UIManager__GetLocale
+                                                (category,pSVar13,"SkinColor","",
+                                                 "",(MethodInfo *)0x0);
+                            pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                            if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                              pUVar9 = (pUVar6->fields).ColorPickPopup;
+                              pUVar15 = il2cpp_codegen_object_new
+                                                  ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+                              UnityEngine_Events_UnityAction___ctor
+                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                         (Il2CppObject *)object,
+                                         (intptr_t)
+                                         MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__20
+                                         ,(MethodInfo *)0x0);
                               UI_ElementFactory__CreateColorSetting
-                                        ((UnityEngine_Transform_o *)pUVar32,(UI_ElementStyle_o *)__this_01,
-                                         (Settings_BaseSetting_o *)pSVar11,"Hair Effect Color (Patreon T2)",pUVar12,
-                                         (System_String_o *)"",90.0,30.0,pUVar20,(MethodInfo *)0x0);
-                              method_04 = extraout_RDX_01;
-                            }
-                            SVar22 = (System_String_Fields)
-                                     UI_CharacterEditorCostumePanel__GetCostumeOptions(pUVar32,set,method_04);
-                            pUVar24 = (__this->fields).SinglePanel;
-                            pSVar9 = (set->fields).Costume;
-                            if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                              il2cpp_runtime_helper_02337ed0();
-                            }
-                            in_RCX = "";
-                            SVar23 = category;
-                            pSVar19 = UI_UIManager__GetLocale
-                                                ((System_String_o *)category,(System_String_o *)subCategory,
-                                                 (System_String_o *)"Costume",
-                                                 (System_String_o *)"",
-                                                 (System_String_o *)"",(MethodInfo *)0x0);
-                            SVar31 = SVar22;
-                            pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                                ((UI_CharacterEditorCostumePanel_o *)SVar23,
-                                                 (System_String_array *)SVar22,method_05);
-                            lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                            unaff_R12 = (long *)category;
-                            if (lVar6 != 0) {
-                              pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                              pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
-                              uStackY_c0 = 0x4359547;
-                              UI_ElementFactory__CreateIconPickSetting
-                                        (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                         (Settings_BaseSetting_o *)pSVar9,pSVar19,
-                                         (System_String_array *)SVar22,pSVar25,pUVar10,
-                                         (System_String_o *)"",(System_String_array *)0x0,170.0,40.0
-                                         ,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                              pUVar24 = (__this->fields).SinglePanel;
-                              pSVar9 = (set->fields).Boots;
-                              SVar31 = category;
-                              pSVar34 = "";
-                              pSVar19 = UI_UIManager__GetLocale
-                                                  ((System_String_o *)category,(System_String_o *)subCategory,
-                                                   "Boots",(System_String_o *)"",
-                                                   (System_String_o *)"",(MethodInfo *)0x0);
-                              pSVar25 = UI_CharacterEditorCostumePanel__GetOptions
-                                                  ((UI_CharacterEditorCostumePanel_o *)SVar31,"Boots",2,0
-                                                   ,(MethodInfo *)pSVar34);
-                              pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                              UnityEngine_Events_UnityAction___ctor();
-                              UI_ElementFactory__CreateDropdownSetting
-                                        (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                         (Settings_BaseSetting_o *)pSVar9,pSVar19,pSVar25,
-                                         (System_String_o *)"",170.0,40.0,300.0,
-                                         (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-                              if ((char)bVar17 != '\0') {
-                                pUVar24 = (__this->fields).SinglePanel;
-                                pSVar8 = (set->fields).BladeEffect;
-                                if (*(int *)(TypeInfo_CharacterEffectPresets + 0xe4) == 0) {
-                                  il2cpp_runtime_helper_02337ed0();
-                                }
-                                unaff_R12 = &TypeInfo_UnityAction;
-                                unaff_R13 = &"";
-                                pSVar25 = (System_String_array *)**(undefined8 **)(TypeInfo_CharacterEffectPresets + 0xb8);
-                                pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction)
-                                ;
-                                UnityEngine_Events_UnityAction___ctor();
-                                in_RCX = "Blade Effect (Patreon T2)";
-                                SVar31 = __this_01;
-                                UI_ElementFactory__CreateDropdownSetting
-                                          (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                           (Settings_BaseSetting_o *)pSVar8,(System_String_o *)"Blade Effect (Patreon T2)",
-                                           pSVar25,(System_String_o *)"",170.0,40.0,300.0,
-                                           (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-                                pUVar24 = (__this->fields).SinglePanel;
-                                pSVar11 = (set->fields).BladeEffectColor;
-                                if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                                  il2cpp_runtime_helper_02337ed0();
-                                }
-                                lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                if (lVar6 == 0) goto label_0435a2c5;
-                                pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction)
-                                ;
-                                UnityEngine_Events_UnityAction___ctor();
-                                UI_ElementFactory__CreateColorSetting
-                                          (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                           (Settings_BaseSetting_o *)pSVar11,"Blade Effect Color (Patreon T2)",pUVar12,
-                                           (System_String_o *)"",90.0,30.0,pUVar20,(MethodInfo *)0x0
-                                          );
-                              }
-                              unaff_R13 = (Settings_BaseSetSetting_c **)(__this->fields).SinglePanel;
-                              unaff_R15 = (System_String_Fields)(set->fields).Cape;
-                              if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                                il2cpp_runtime_helper_02337ed0();
-                              }
-                              in_RCX = "";
-                              unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                            ((System_String_o *)category,
-                                                             (System_String_o *)subCategory,"Cape",
-                                                             (System_String_o *)"",
-                                                             (System_String_o *)"",(MethodInfo *)0x0
-                                                            );
-                              SVar31._stringLength = 2;
-                              SVar31._firstChar = 0;
-                              SVar31._6_2_ = 0;
-                              pSVar25 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string);
-                              plVar30 = &TypeInfo_UnityAction;
-                              if (pSVar25 != (System_String_array *)0x0) {
-                                if ((int)pSVar25->max_length == 0) goto label_0435a273;
-                                pSVar25->m_Items[0] = "No cape";
-                                il2cpp_runtime_helper_022b4080(pSVar25->m_Items);
-                                if ((uint)pSVar25->max_length < 2) goto label_0435a273;
-                                pSVar25->m_Items[1] = "Cape";
-                                il2cpp_runtime_helper_022b4080(pSVar25->m_Items + 1);
-                                pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction)
-                                ;
-                                UnityEngine_Events_UnityAction___ctor();
-                                UI_ElementFactory__CreateDropdownSetting
-                                          ((UnityEngine_Transform_o *)unaff_R13,(UI_ElementStyle_o *)__this_01
-                                           ,(Settings_BaseSetting_o *)unaff_R15,(System_String_o *)unaff_R12,
-                                           pSVar25,(System_String_o *)"",170.0,40.0,300.0,
-                                           (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-                                pUVar24 = (__this->fields).SinglePanel;
-                                pSVar9 = (set->fields).Logo;
-                                SVar31 = category;
-                                pSVar34 = "";
-                                pSVar19 = UI_UIManager__GetLocale
-                                                    ((System_String_o *)category,
-                                                     (System_String_o *)subCategory,"Logo",
-                                                     (System_String_o *)"",
-                                                     (System_String_o *)"",(MethodInfo *)0x0);
-                                pSVar25 = UI_CharacterEditorCostumePanel__GetOptions
-                                                    ((UI_CharacterEditorCostumePanel_o *)SVar31,"Logo",4
-                                                     ,0,(MethodInfo *)pSVar34);
-                                pUVar20 = (UnityEngine_Events_UnityAction_o *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction)
-                                ;
-                                UnityEngine_Events_UnityAction___ctor();
-                                UI_ElementFactory__CreateDropdownSetting
-                                          (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                           (Settings_BaseSetting_o *)pSVar9,pSVar19,pSVar25,
-                                           (System_String_o *)"",170.0,40.0,300.0,
-                                           (System_Nullable_float__o)0x0,pUVar20,(MethodInfo *)0x0);
-                                if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-                                  il2cpp_runtime_helper_02337ed0();
-                                }
-                                unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                              (TypeInfo_HumanSetup,"Hat",
-                                                               *(int32_t *)
-                                                                ((long)&((TypeInfo_HumanSetup[1].fields.
-                                                                         m_CancellationTokenSource)->fields).
-                                                                        _timer + 4),1,(MethodInfo *)pSVar25);
-                                pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                                pSVar8 = (set->fields).Hat;
-                                in_RCX = "";
-                                SVar22 = category;
-                                pSVar19 = UI_UIManager__GetLocale
-                                                    ((System_String_o *)category,
-                                                     (System_String_o *)subCategory,"Hat",
-                                                     (System_String_o *)"",
-                                                     (System_String_o *)"",(MethodInfo *)0x0);
-                                SVar31 = (System_String_Fields)unaff_R12;
-                                pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                                    ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                                     (System_String_array *)unaff_R12,method_06);
-                                lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                unaff_R13 = (Settings_BaseSetSetting_c **)__this;
-                                if (lVar6 != 0) {
-                                  pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                                  pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                            il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                  UnityEngine_Events_UnityAction___ctor();
-                                  uStackY_c0 = 0x4359a95;
-                                  UI_ElementFactory__CreateIconPickSetting
-                                            ((UnityEngine_Transform_o *)pUVar32,(UI_ElementStyle_o *)__this_01
-                                             ,(Settings_BaseSetting_o *)pSVar8,pSVar19,
-                                             (System_String_array *)unaff_R12,pSVar25,pUVar10,
-                                             (System_String_o *)"",(System_String_array *)0x0,170.0,
-                                             40.0,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                                  unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                                (pUVar32,"Head",
-                                                                 *(int32_t *)
-                                                                  &((TypeInfo_HumanSetup[1].fields.
-                                                                    m_CancellationTokenSource)->fields)._timer
-                                                                 ,1,(MethodInfo *)unaff_R12);
-                                  pUVar32 = (UI_CharacterEditorCostumePanel_o *)(__this->fields).SinglePanel;
-                                  pSVar8 = (set->fields).Head;
-                                  in_RCX = "";
-                                  SVar22 = category;
-                                  pSVar19 = UI_UIManager__GetLocale
-                                                      ((System_String_o *)category,
-                                                       (System_String_o *)subCategory,"Head",
-                                                       (System_String_o *)"",
-                                                       (System_String_o *)"",(MethodInfo *)0x0);
-                                  SVar31 = (System_String_Fields)unaff_R12;
-                                  pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                                      ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                                       (System_String_array *)unaff_R12,method_07);
-                                  lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                  if (lVar6 != 0) {
-                                    pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                                    pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                              il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                    UnityEngine_Events_UnityAction___ctor();
-                                    uStackY_c0 = 0x4359bb5;
-                                    UI_ElementFactory__CreateIconPickSetting
-                                              ((UnityEngine_Transform_o *)pUVar32,
-                                               (UI_ElementStyle_o *)__this_01,(Settings_BaseSetting_o *)pSVar8
-                                               ,pSVar19,(System_String_array *)unaff_R12,pSVar25,pUVar10,
-                                               (System_String_o *)"",(System_String_array *)0x0,
-                                               170.0,40.0,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0);
-                                    unaff_R12 = (long *)UI_CharacterEditorCostumePanel__GetOptions
-                                                                  (pUVar32,"Back",
-                                                                   *(int32_t *)
-                                                                    ((long)&((TypeInfo_HumanSetup[1].fields.
-                                                                             m_CancellationTokenSource)->
-                                                                            fields)._executingCallback + 4),1,
-                                                                   (MethodInfo *)unaff_R12);
-                                    pUVar24 = (__this->fields).SinglePanel;
-                                    pSVar8 = (set->fields).Back;
-                                    in_RCX = "";
-                                    SVar22 = category;
-                                    pSVar19 = UI_UIManager__GetLocale
-                                                        ((System_String_o *)category,
-                                                         (System_String_o *)subCategory,"Back",
-                                                         (System_String_o *)"",
-                                                         (System_String_o *)"",(MethodInfo *)0x0);
-                                    SVar31 = (System_String_Fields)unaff_R12;
-                                    pSVar25 = UI_CharacterEditorCostumePanel__GetIcons
-                                                        ((UI_CharacterEditorCostumePanel_o *)SVar22,
-                                                         (System_String_array *)unaff_R12,method_08);
-                                    lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                    if (lVar6 != 0) {
-                                      pUVar10 = *(UI_IconPickPopup_o **)(lVar6 + 0x50);
-                                      pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                      UnityEngine_Events_UnityAction___ctor();
-                                      uStackY_c0 = 0x4359cd9;
-                                      UI_ElementFactory__CreateIconPickSetting
-                                                (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                 (Settings_BaseSetting_o *)pSVar8,pSVar19,
-                                                 (System_String_array *)unaff_R12,pSVar25,pUVar10,
-                                                 (System_String_o *)"",(System_String_array *)0x0,
-                                                 170.0,40.0,pUVar20,(UI_TooltipPopup_o *)0x0,(MethodInfo *)0x0
-                                                );
-                                      pUVar24 = (__this->fields).SinglePanel;
-                                      pSVar11 = (set->fields).SkinColor;
-                                      in_RCX = "";
-                                      SVar31 = subCategory;
-                                      unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                    ((System_String_o *)category,
-                                                                     (System_String_o *)subCategory,
-                                                                     "SkinColor",
-                                                                     (System_String_o *)"",
-                                                                     (System_String_o *)"",
-                                                                     (MethodInfo *)0x0);
-                                      lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                      if (lVar6 != 0) {
-                                        pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                        pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                  il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                        UnityEngine_Events_UnityAction___ctor();
-                                        UI_ElementFactory__CreateColorSetting
-                                                  (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                   (Settings_BaseSetting_o *)pSVar11,
-                                                   (System_String_o *)unaff_R12,pUVar12,
-                                                   (System_String_o *)"",90.0,30.0,pUVar20,
-                                                   (MethodInfo *)0x0);
-                                        pUVar24 = (__this->fields).SinglePanel;
-                                        pSVar11 = (set->fields).HairColor;
-                                        in_RCX = "";
-                                        SVar31 = subCategory;
-                                        unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                      ((System_String_o *)category,
-                                                                       (System_String_o *)subCategory,
-                                                                       "HairColor",
-                                                                       (System_String_o *)"",
-                                                                       (System_String_o *)"",
-                                                                       (MethodInfo *)0x0);
-                                        lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                        if (lVar6 != 0) {
-                                          pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                          pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                    il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                          UnityEngine_Events_UnityAction___ctor();
-                                          UI_ElementFactory__CreateColorSetting
-                                                    (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                     (Settings_BaseSetting_o *)pSVar11,
-                                                     (System_String_o *)unaff_R12,pUVar12,
-                                                     (System_String_o *)"",90.0,30.0,pUVar20,
+                                        (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,pSVar14,pUVar9,
+                                         "",90.0,30.0,pUVar15,(MethodInfo *)0x0);
+                              pSVar16 = (object->fields).set;
+                              if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                pSVar8 = (pSVar16->fields).HairColor;
+                                pUVar20 = (__this->fields).SinglePanel;
+                                pSVar14 = UI_UIManager__GetLocale
+                                                    (category,pSVar13,"HairColor",
+                                                     "","",
                                                      (MethodInfo *)0x0);
-                                          pUVar24 = (__this->fields).SinglePanel;
-                                          pSVar11 = (set->fields).ShirtColor;
-                                          in_RCX = "";
-                                          SVar31 = subCategory;
-                                          unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                        ((System_String_o *)category,
-                                                                         (System_String_o *)subCategory,
-                                                                         "ShirtColor",
-                                                                         (System_String_o *)"",
-                                                                         (System_String_o *)"",
-                                                                         (MethodInfo *)0x0);
-                                          lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                          if (lVar6 != 0) {
-                                            pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                            pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                      il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                            UnityEngine_Events_UnityAction___ctor();
-                                            UI_ElementFactory__CreateColorSetting
-                                                      (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                       (Settings_BaseSetting_o *)pSVar11,
-                                                       (System_String_o *)unaff_R12,pUVar12,
-                                                       (System_String_o *)"",90.0,30.0,pUVar20,
-                                                       (MethodInfo *)0x0);
-                                            pUVar24 = (__this->fields).SinglePanel;
-                                            pSVar11 = (set->fields).StrapsColor;
-                                            in_RCX = "";
-                                            SVar31 = subCategory;
-                                            unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                          ((System_String_o *)category,
-                                                                           (System_String_o *)subCategory,
-                                                                           "StrapsColor",
-                                                                           (System_String_o *)"",
-                                                                           (System_String_o *)"",
-                                                                           (MethodInfo *)0x0);
-                                            lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                            if (lVar6 != 0) {
-                                              pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                              pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                        il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                              UnityEngine_Events_UnityAction___ctor();
-                                              UI_ElementFactory__CreateColorSetting
-                                                        (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                         (Settings_BaseSetting_o *)pSVar11,
-                                                         (System_String_o *)unaff_R12,pUVar12,
-                                                         (System_String_o *)"",90.0,30.0,pUVar20,
+                                pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                                if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                  pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                  pUVar15 = il2cpp_codegen_object_new
+                                                      ((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction)
+                                  ;
+                                  UnityEngine_Events_UnityAction___ctor
+                                            ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                             (Il2CppObject *)object,
+                                             (intptr_t)
+                                             MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__21
+                                             ,(MethodInfo *)0x0);
+                                  UI_ElementFactory__CreateColorSetting
+                                            (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,pSVar14,pUVar9
+                                             ,"",90.0,30.0,pUVar15,(MethodInfo *)0x0);
+                                  pSVar16 = (object->fields).set;
+                                  if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                    pSVar8 = (pSVar16->fields).ShirtColor;
+                                    pUVar20 = (__this->fields).SinglePanel;
+                                    pSVar14 = UI_UIManager__GetLocale
+                                                        (category,pSVar13,"ShirtColor",
+                                                         "","",
                                                          (MethodInfo *)0x0);
-                                              pUVar24 = (__this->fields).SinglePanel;
-                                              pSVar11 = (set->fields).PantsColor;
-                                              in_RCX = "";
-                                              SVar31 = subCategory;
-                                              unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                            ((System_String_o *)category,
-                                                                             (System_String_o *)subCategory,
-                                                                             "PantsColor",
-                                                                             (System_String_o *)"",
-                                                                             (System_String_o *)"",
-                                                                             (MethodInfo *)0x0);
-                                              lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                              if (lVar6 != 0) {
-                                                pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                                pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                          il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                                UnityEngine_Events_UnityAction___ctor();
-                                                UI_ElementFactory__CreateColorSetting
-                                                          (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                           (Settings_BaseSetting_o *)pSVar11,
-                                                           (System_String_o *)unaff_R12,pUVar12,
-                                                           (System_String_o *)"",90.0,30.0,pUVar20,
-                                                           (MethodInfo *)0x0);
-                                                pUVar24 = (__this->fields).SinglePanel;
-                                                pSVar11 = (set->fields).JacketColor;
-                                                in_RCX = "";
-                                                SVar31 = subCategory;
-                                                unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                              ((System_String_o *)category,
-                                                                               (System_String_o *)subCategory,
-                                                                               "JacketColor",
-                                                                               (System_String_o *)""
-                                                                               ,(System_String_o *)
-                                                                                "",(MethodInfo *)0x0
-                                                                              );
-                                                lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                                if (lVar6 != 0) {
-                                                  pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                                  pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                            il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                                  UnityEngine_Events_UnityAction___ctor();
+                                    pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                                    if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                      pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                      pUVar15 = il2cpp_codegen_object_new
+                                                          ((Il2CppClass *)
+                                                           TypeInfo_UnityEngine_Events_UnityAction);
+                                      UnityEngine_Events_UnityAction___ctor
+                                                ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                                 (Il2CppObject *)object,
+                                                 (intptr_t)
+                                                 MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__22
+                                                 ,(MethodInfo *)0x0);
+                                      UI_ElementFactory__CreateColorSetting
+                                                (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,pSVar14,
+                                                 pUVar9,"",90.0,30.0,pUVar15,
+                                                 (MethodInfo *)0x0);
+                                      pSVar16 = (object->fields).set;
+                                      if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                        pSVar8 = (pSVar16->fields).StrapsColor;
+                                        pUVar20 = (__this->fields).SinglePanel;
+                                        pSVar14 = UI_UIManager__GetLocale
+                                                            (category,pSVar13,"StrapsColor",
+                                                             "","",
+                                                             (MethodInfo *)0x0);
+                                        pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                                        if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                          pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                          pUVar15 = il2cpp_codegen_object_new
+                                                              ((Il2CppClass *)
+                                                               TypeInfo_UnityEngine_Events_UnityAction);
+                                          UnityEngine_Events_UnityAction___ctor
+                                                    ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15,
+                                                     (Il2CppObject *)object,
+                                                     (intptr_t)
+                                                     MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__23
+                                                     ,(MethodInfo *)0x0);
+                                          UI_ElementFactory__CreateColorSetting
+                                                    (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,
+                                                     pSVar14,pUVar9,"",90.0,30.0,pUVar15,
+                                                     (MethodInfo *)0x0);
+                                          pSVar16 = (object->fields).set;
+                                          if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                            pSVar8 = (pSVar16->fields).PantsColor;
+                                            pUVar20 = (__this->fields).SinglePanel;
+                                            pSVar14 = UI_UIManager__GetLocale
+                                                                (category,pSVar13,"PantsColor",
+                                                                 "","",
+                                                                 (MethodInfo *)0x0);
+                                            pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                                            if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                              pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                              pUVar15 = il2cpp_codegen_object_new
+                                                                  ((Il2CppClass *)
+                                                                   TypeInfo_UnityEngine_Events_UnityAction);
+                                              UnityEngine_Events_UnityAction___ctor
+                                                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)
+                                                         pUVar15,(Il2CppObject *)object,
+                                                         (intptr_t)
+                                                                                                                  
+                                                       MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__24
+                                                       ,(MethodInfo *)0x0);
+                                              UI_ElementFactory__CreateColorSetting
+                                                        (pUVar20,__this_00,(Settings_BaseSetting_o *)pSVar8,
+                                                         pSVar14,pUVar9,"",90.0,30.0,
+                                                         pUVar15,(MethodInfo *)0x0);
+                                              pSVar16 = (object->fields).set;
+                                              if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                                pSVar8 = (pSVar16->fields).JacketColor;
+                                                pUVar20 = (__this->fields).SinglePanel;
+                                                pSVar14 = UI_UIManager__GetLocale
+                                                                    (category,pSVar13,"JacketColor",
+                                                                     "",
+                                                                     "",(MethodInfo *)0x0);
+                                                pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                                                if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                                  pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                                  pUVar15 = il2cpp_codegen_object_new
+                                                                      ((Il2CppClass *)
+                                                                       TypeInfo_UnityEngine_Events_UnityAction
+                                                                      );
+                                                  UnityEngine_Events_UnityAction___ctor
+                                                            ((UnityEngine_Font_FontTextureRebuildCallback_o *)
+                                                             pUVar15,(Il2CppObject *)object,
+                                                             (intptr_t)
+                                                                                                                          
+                                                       MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__25
+                                                       ,(MethodInfo *)0x0);
                                                   UI_ElementFactory__CreateColorSetting
-                                                            (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                             (Settings_BaseSetting_o *)pSVar11,
-                                                             (System_String_o *)unaff_R12,pUVar12,
-                                                             (System_String_o *)"",90.0,30.0,pUVar20
-                                                             ,(MethodInfo *)0x0);
-                                                  pUVar24 = (__this->fields).SinglePanel;
-                                                  pSVar11 = (set->fields).BootsColor;
-                                                  in_RCX = "";
-                                                  unaff_R12 = (long *)UI_UIManager__GetLocale
-                                                                                ((System_String_o *)category,
-                                                                                 (System_String_o *)
-                                                                                 subCategory,"BootsColor",
-                                                                                 (System_String_o *)
-                                                                                 "",
-                                                                                 (System_String_o *)
-                                                                                 "",
-                                                                                 (MethodInfo *)0x0);
-                                                  lVar6 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                                                  SVar31 = subCategory;
-                                                  if (lVar6 != 0) {
-                                                    pUVar12 = *(UI_ColorPickPopup_o **)(lVar6 + 0x48);
-                                                    pUVar20 = (UnityEngine_Events_UnityAction_o *)
-                                                              il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-                                                    UnityEngine_Events_UnityAction___ctor();
-                                                    UI_ElementFactory__CreateColorSetting
-                                                              (pUVar24,(UI_ElementStyle_o *)__this_01,
-                                                               (Settings_BaseSetting_o *)pSVar11,
-                                                               (System_String_o *)unaff_R12,pUVar12,
-                                                               (System_String_o *)"",90.0,30.0,
-                                                               pUVar20,(MethodInfo *)0x0);
-                                                    *(undefined1 *)&(__this->fields)._isRebuildingPanel = 0;
-                                                    return;
+                                                            (pUVar20,__this_00,
+                                                             (Settings_BaseSetting_o *)pSVar8,pSVar14,pUVar9,
+                                                             "",90.0,30.0,pUVar15,
+                                                             (MethodInfo *)0x0);
+                                                  pSVar16 = (object->fields).set;
+                                                  if (pSVar16 != (Settings_HumanCustomSet_o *)0x0) {
+                                                    pSVar8 = (pSVar16->fields).BootsColor;
+                                                    pUVar20 = (__this->fields).SinglePanel;
+                                                    pSVar13 = UI_UIManager__GetLocale
+                                                                        (category,pSVar13,
+                                                                         "BootsColor",
+                                                                         "",
+                                                                         "",
+                                                                         (MethodInfo *)0x0);
+                                                    pUVar6 = TypeInfo_UI_UIManager->static_fields->CurrentMenu
+                                                    ;
+                                                    if (pUVar6 != (UI_BaseMenu_o *)0x0) {
+                                                      pUVar9 = (pUVar6->fields).ColorPickPopup;
+                                                      pUVar15 = il2cpp_codegen_object_new
+                                                                          ((Il2CppClass *)
+                                                                                                                                                      
+                                                       TypeInfo_UnityEngine_Events_UnityAction);
+                                                      UnityEngine_Font_FontTextureRebuildCallback___ctor
+                                                                ((
+                                                       UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar15
+                                                       ,(Il2CppObject *)object,
+                                                       (intptr_t)
+                                                       MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass21_0_Setup_b__26
+                                                       ,(MethodInfo *)0x0);
+                                                      UI_ElementFactory__CreateColorSetting
+                                                                (pUVar20,__this_00,
+                                                                 (Settings_BaseSetting_o *)pSVar8,pSVar13,
+                                                                 pUVar9,"",90.0,30.0,
+                                                                 pUVar15,(MethodInfo *)0x0);
+                                                      (__this->fields)._isRebuildingPanel = false;
+                                                      return;
+                                                    }
                                                   }
                                                 }
                                               }
@@ -2600,1690 +2929,214 @@ label_0435864b:
                 }
               }
             }
+            goto label_1821d6de0;
           }
         }
       }
     }
+label_1821d6de6:
+    ThrowIndexOutOfRangeException();
   }
-label_0435a2c5:
-  il2cpp_runtime_helper_022b2c90();
-  plVar30 = (long *)((ulong)in_RCX & 0xffffffff);
-  if (g_data_057ae177 == '\0') {
-    plStackY_c8 = (long *)0x435a2f9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    plStackY_c8 = (long *)0x435a305;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    plStackY_c8 = (long *)0x435a311;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    plStackY_c8 = (long *)0x435a31d;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    plStackY_c8 = (long *)0x435a329;
-    il2cpp_runtime_helper_023445d0(&"None");
-    g_data_057ae177 = '\x01';
-  }
-  plStackY_c8 = (long *)0x435a347;
-  __this_03 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  plStackY_c8 = (long *)0x435a35c;
-  System_Collections_Generic_List_object____ctor(__this_03,MethodInfo_List_1_System_String);
-  if ((char)plVar30 == '\0') {
-joined_r0x0435a3cc:
-    iVar18 = 0;
-    if ((int)extraout_RDX_02 < 1) {
-      if (__this_03 != (System_Collections_Generic_List_object__o *)0x0) goto label_0435a498;
-      goto label_0435a4b7;
-    }
-    if (__this_03 != (System_Collections_Generic_List_object__o *)0x0) {
-      unaff_R12 = (long *)&stack0xffffffffffffff4c;
-      plVar30 = &MethodInfo_Void_Add;
-      do {
-        plStackY_c8 = (long *)0x435a424;
-        pSVar19 = System_Int32__ToString((int32_t)unaff_R12,(MethodInfo *)0x0);
-        plStackY_c8 = (long *)0x435a431;
-        pSVar19 = System_String__Concat_3ae5ba0((System_String_o *)SVar31,pSVar19,(MethodInfo *)0x0);
-        lVar6 = MethodInfo_Void_Add;
-        piVar1 = &(__this_03->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar13 = (__this_03->fields)._items;
-        if (pSVar13 == (System_Object_array *)0x0) goto label_0435a4b7;
-        uVar5 = (__this_03->fields)._size;
-        if (uVar5 < (uint)pSVar13->max_length) {
-          (__this_03->fields)._size = uVar5 + 1;
-          pSVar13->m_Items[(int)uVar5] = (Il2CppObject *)pSVar19;
-          plStackY_c8 = (long *)0x435a466;
-          il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar5);
-        }
-        else {
-          plStackY_c8 = (long *)0x435a40a;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_03,(Il2CppObject *)pSVar19,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-        }
-        iVar18 = iVar18 + 1;
-      } while (iVar18 < (int)extraout_RDX_02);
-label_0435a498:
-      plStackY_c8 = (long *)0x435a4aa;
-      System_Collections_Generic_List_object___ToArray(__this_03,MethodInfo_String_ToArray);
-      return;
-    }
-  }
-  else {
-    plStackY_c8 = (long *)0x435a375;
-    pSVar19 = System_String__Concat_3ae5ba0((System_String_o *)SVar31,"None",(MethodInfo *)0x0);
-    lVar6 = MethodInfo_Void_Add;
-    if (__this_03 != (System_Collections_Generic_List_object__o *)0x0) {
-      piVar1 = &(__this_03->fields)._version;
-      *piVar1 = *piVar1 + 1;
-      pSVar13 = (__this_03->fields)._items;
-      if (pSVar13 != (System_Object_array *)0x0) {
-        uVar5 = (__this_03->fields)._size;
-        if (uVar5 < (uint)pSVar13->max_length) {
-          (__this_03->fields)._size = uVar5 + 1;
-          pSVar13->m_Items[(int)uVar5] = (Il2CppObject *)pSVar19;
-          plStackY_c8 = (long *)0x435a3c1;
-          il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar5);
-        }
-        else {
-          plStackY_c8 = (long *)0x435a482;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_03,(Il2CppObject *)pSVar19,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-        }
-        goto joined_r0x0435a3cc;
-      }
-    }
-label_0435a4b7:
-    plStackY_c8 = (long *)0x435a4bc;
-    il2cpp_runtime_helper_022b2c90();
-  }
-  plStackY_c8 = (long *)0x435a4c8;
-  pSVar19 = System_Int32__ToString((int32_t)&stack0xffffffffffffff4c,(MethodInfo *)0x0);
-  plStackY_c8 = (long *)0x435a4d5;
-  System_String__Concat_3ae5ba0((System_String_o *)SVar31,pSVar19,(MethodInfo *)0x0);
-  plStackY_c8 = (long *)0x435a4da;
-  uStackY_f8 = il2cpp_runtime_helper_022b2c90();
-  pSStackY_f0 = __this_03;
-  SStackY_e8 = (System_String_Fields)unaff_R12;
-  SStackY_e0 = (System_String_Fields)unaff_R13;
-  SStackY_d8 = SVar31;
-  uStackY_d0 = extraout_RDX_02 & 0xffffffff;
-  plStackY_c8 = plVar30;
-  if (g_data_057ae17a == '\0') {
-    plStackY_100 = (long *)0x435a503;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    plStackY_100 = (long *)0x435a50f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    plStackY_100 = (long *)0x435a51b;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    plStackY_100 = (long *)0x435a527;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    plStackY_100 = (long *)0x435a533;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    plStackY_100 = (long *)0x435a53f;
-    il2cpp_runtime_helper_023445d0(&"/Human/Previews/");
-    g_data_057ae17a = '\x01';
-  }
-  plStackY_100 = (long *)0x435a555;
-  __this_04 = (UI_CharacterEditorCostumePanel_o **)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  plStackY_100 = (long *)0x435a56a;
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_04,MethodInfo_List_1_System_String);
-  ppUVar35 = (UI_CharacterEditorCostumePanel_o **)unaff_R13;
-  if (pSVar19 != (System_String_o *)0x0) {
-    iVar18 = (int)pSVar19[1].klass;
-    if ((System_Collections_Generic_List_object__o *)__this_04 !=
-        (System_Collections_Generic_List_object__o *)0x0) {
-      if (iVar18 < 1) {
-label_0435a667:
-        System_Collections_Generic_List_object___ToArray
-                  ((System_Collections_Generic_List_object__o *)__this_04,MethodInfo_String_ToArray);
-        return;
-      }
-      __this_03 = (System_Collections_Generic_List_object__o *)0x0;
-      plVar30 = &MethodInfo_Void_Add;
-      ppUVar35 = (UI_CharacterEditorCostumePanel_o **)&TypeInfo_ResourcePaths;
-      if (((ulong)pSVar19[1].klass & 0xffffffff) != 0) {
-        do {
-          unaff_R12 = *(long **)(&pSVar19[1].monitor + (long)__this_03);
-          if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-            plStackY_100 = (long *)0x435a600;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          plStackY_100 = (long *)0x435a623;
-          pSVar26 = System_String__Concat_3af7150
-                              (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",
-                               (System_String_o *)unaff_R12,(MethodInfo *)0x0);
-          lVar6 = MethodInfo_Void_Add;
-          piVar1 = &(((System_Collections_Generic_List_object__o *)__this_04)->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pSVar13 = (((System_Collections_Generic_List_object__o *)__this_04)->fields)._items;
-          if (pSVar13 == (System_Object_array *)0x0) goto label_0435a6d0;
-          uVar5 = (((System_Collections_Generic_List_object__o *)__this_04)->fields)._size;
-          if (uVar5 < (uint)pSVar13->max_length) {
-            (((System_Collections_Generic_List_object__o *)__this_04)->fields)._size = uVar5 + 1;
-            pSVar13->m_Items[(int)uVar5] = (Il2CppObject *)pSVar26;
-            plStackY_100 = (long *)0x435a662;
-            il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar5,pSVar26);
-          }
-          else {
-            plStackY_100 = (long *)0x435a5ca;
-            System_Collections_Generic_List_object___AddWithResize
-                      ((System_Collections_Generic_List_object__o *)__this_04,(Il2CppObject *)pSVar26,
-                       *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-          }
-          __this_03 = (System_Collections_Generic_List_object__o *)((long)&__this_03->klass + 1);
-          if ((long)(int)*(uint *)&pSVar19[1].klass <= (long)__this_03) goto label_0435a667;
-        } while (__this_03 < (System_Collections_Generic_List_object__o *)(ulong)*(uint *)&pSVar19[1].klass);
-      }
-      plStackY_100 = (long *)0x435a68c;
-      iVar18 = il2cpp_runtime_helper_022b2ca0();
-    }
-    if (0 < iVar18) {
-      __this_03 = pSVar19[1].monitor;
-      plVar30 = &TypeInfo_ResourcePaths;
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        plStackY_100 = (long *)0x435a6ad;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      plStackY_100 = (long *)0x435a6d0;
-      System_String__Concat_3af7150
-                (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",
-                 (System_String_o *)__this_03,(MethodInfo *)0x0);
-    }
-  }
-label_0435a6d0:
-  plStackY_100 = (long *)0x435a6d5;
-  auStackY_130 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  pSStackY_128 = __this_03;
-  SStackY_120 = (System_String_Fields)unaff_R12;
-  SStackY_118 = (System_String_Fields)ppUVar35;
-  pSStackY_110 = pSVar19;
-  pSStackY_108 = (System_Collections_Generic_List_object__o *)__this_04;
-  plStackY_100 = plVar30;
-  if (g_data_057ae178 == '\0') {
-    plStackY_138 = (long *)0x435a700;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    plStackY_138 = (long *)0x435a70c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    plStackY_138 = (long *)0x435a718;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    plStackY_138 = (long *)0x435a724;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    plStackY_138 = (long *)0x435a730;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    plStackY_138 = (long *)0x435a73c;
-    il2cpp_runtime_helper_023445d0(&"HairF");
-    plStackY_138 = (long *)0x435a748;
-    il2cpp_runtime_helper_023445d0(&"HairM");
-    g_data_057ae178 = '\x01';
-  }
-  auStackY_130 = (undefined1  [8])0x0;
-  plStackY_138 = (long *)0x435a76d;
-  __this_05 = (UI_CharacterEditorCostumePanel_o **)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  plStackY_138 = (long *)0x435a782;
-  __this_06 = (UI_CharacterEditorCostumePanel_o **)MethodInfo_List_1_System_String;
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_05,MethodInfo_List_1_System_String);
-  if ((System_Collections_Generic_List_object__o *)__this_05 !=
-      (System_Collections_Generic_List_object__o *)0x0) {
-    plVar30 = (long *)0x0;
-    __this_04 = &TypeInfo_HumanSetup;
-    pSVar19 = (System_String_o *)(auStackY_130 + 4);
-    ppUVar35 = &"HairM";
-    unaff_R12 = &MethodInfo_Void_Add;
-    auStackY_130 = (undefined1  [8])((ulong)auStackY_130 & 0xffffffff);
-    if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435a811;
-    while( true ) {
-      plStackY_138 = (long *)0x435a7c5;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)plVar30)
-      break;
-      while( true ) {
-        plStackY_138 = (long *)0x435a827;
-        __this_06 = (UI_CharacterEditorCostumePanel_o **)
-                    System_Int32__ToString((int32_t)pSVar19,(MethodInfo *)0x0);
-        plStackY_138 = (long *)0x435a835;
-        ppUVar33 = (UI_CharacterEditorCostumePanel_o **)"HairM";
-        pSVar26 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairM",(System_String_o *)__this_06,(MethodInfo *)0x0);
-        lVar6 = MethodInfo_Void_Add;
-        piVar1 = &(((System_Collections_Generic_List_object__o *)__this_05)->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar13 = (((System_Collections_Generic_List_object__o *)__this_05)->fields)._items;
-        if (pSVar13 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar5 = (((System_Collections_Generic_List_object__o *)__this_05)->fields)._size;
-        if (uVar5 < (uint)pSVar13->max_length) {
-          (((System_Collections_Generic_List_object__o *)__this_05)->fields)._size = uVar5 + 1;
-          pSVar13->m_Items[(int)uVar5] = (Il2CppObject *)pSVar26;
-          plStackY_138 = (long *)0x435a86e;
-          il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar5);
-        }
-        else {
-          plStackY_138 = (long *)0x435a7fa;
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)__this_05,(Il2CppObject *)pSVar26,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-        }
-        plVar30 = (long *)(ulong)(auStackY_130._4_4_ + 1);
-        auStackY_130._4_4_ = auStackY_130._4_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435a811:
-        if (*(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)plVar30)
-        goto label_0435a870;
-      }
-    }
-label_0435a870:
-    plVar30 = (long *)0x0;
-    ppUVar35 = &"HairF";
-    auStackY_130 = (undefined1  [8])((ulong)auStackY_130 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435a8df;
-    while( true ) {
-      plStackY_138 = (long *)0x435a895;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-          (int)plVar30) break;
-      while( true ) {
-        plStackY_138 = (long *)0x435a8f5;
-        __this_06 = (UI_CharacterEditorCostumePanel_o **)
-                    System_Int32__ToString((int32_t)auStackY_130,(MethodInfo *)0x0);
-        plStackY_138 = (long *)0x435a903;
-        ppUVar33 = (UI_CharacterEditorCostumePanel_o **)"HairF";
-        pSVar26 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairF",(System_String_o *)__this_06,(MethodInfo *)0x0);
-        lVar6 = MethodInfo_Void_Add;
-        piVar1 = &(((System_Collections_Generic_List_object__o *)__this_05)->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar13 = (((System_Collections_Generic_List_object__o *)__this_05)->fields)._items;
-        pSVar19 = (System_String_o *)auStackY_130;
-        if (pSVar13 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar5 = (((System_Collections_Generic_List_object__o *)__this_05)->fields)._size;
-        if (uVar5 < (uint)pSVar13->max_length) {
-          (((System_Collections_Generic_List_object__o *)__this_05)->fields)._size = uVar5 + 1;
-          pSVar13->m_Items[(int)uVar5] = (Il2CppObject *)pSVar26;
-          plStackY_138 = (long *)0x435a93c;
-          il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar5);
-        }
-        else {
-          plStackY_138 = (long *)0x435a8ca;
-          System_Collections_Generic_List_object___AddWithResize
-                    ((System_Collections_Generic_List_object__o *)__this_05,(Il2CppObject *)pSVar26,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-        }
-        plVar30 = (long *)(ulong)(auStackY_130._0_4_ + 1);
-        auStackY_130._0_4_ = auStackY_130._0_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435a8df:
-        if (*(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-            (int)plVar30) goto label_0435a93e;
-      }
-    }
-label_0435a93e:
-    plStackY_138 = (long *)0x435a950;
-    System_Collections_Generic_List_object___ToArray
-              ((System_Collections_Generic_List_object__o *)__this_05,MethodInfo_String_ToArray);
-    return;
-  }
-  auStackY_130 = (undefined1  [8])((ulong)auStackY_130 & 0xffffffff);
-  __this_05 = &TypeInfo_HumanSetup;
-  if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-    plStackY_138 = (long *)0x435a97f;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (*(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields).field_0x1c < 1) {
-    auStackY_130 = (undefined1  [8])((ulong)auStackY_130 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-      plStackY_138 = (long *)0x435a9b9;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    ppUVar33 = (UI_CharacterEditorCostumePanel_o **)TypeInfo_HumanSetup;
-    if (0 < *(int *)&((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._executingCallback) {
-      plStackY_138 = (long *)0x435a9d3;
-      __this_06 = (UI_CharacterEditorCostumePanel_o **)
-                  System_Int32__ToString((int32_t)auStackY_130,(MethodInfo *)0x0);
-      ppUVar33 = &"HairF";
-      goto label_0435a9da;
-    }
-  }
-  else {
-    plStackY_138 = (long *)0x435a99b;
-    __this_06 = (UI_CharacterEditorCostumePanel_o **)
-                System_Int32__ToString((int)auStackY_130 + 4,(MethodInfo *)0x0);
-    ppUVar33 = &"HairM";
-label_0435a9da:
-    ppUVar33 = (UI_CharacterEditorCostumePanel_o **)*ppUVar33;
-    plStackY_138 = (long *)0x435a9e7;
-    System_String__Concat_3ae5ba0((System_String_o *)ppUVar33,(System_String_o *)__this_06,(MethodInfo *)0x0);
-  }
-label_0435a9e7:
-  plStackY_138 = (long *)0x435a9ec;
-  uStackY_168 = il2cpp_runtime_helper_022b2c90();
-  pSStackY_160 = (System_Collections_Generic_List_object__o *)__this_05;
-  SStackY_158 = (System_String_Fields)unaff_R12;
-  SStackY_150 = (System_String_Fields)ppUVar35;
-  pSStackY_148 = pSVar19;
-  pSStackY_140 = (System_Collections_Generic_List_object__o *)__this_04;
-  plStackY_138 = plVar30;
-  if (g_data_057ae179 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"CostumeM");
-    ppUVar33 = &"CostumeF";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae179 = '\x01';
-  }
-  uStackY_168 = 0;
-  if (((MethodInfo_362B8B0 *)__this_06 != (MethodInfo_362B8B0 *)0x0) &&
-     (((MethodInfo_362B8B0 *)__this_06)->rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    iVar18 = *(int *)((long)((MethodInfo_362B8B0 *)__this_06)->rgctx_data + 0x14);
-    __this_06 = (UI_CharacterEditorCostumePanel_o **)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)__this_06,MethodInfo_List_1_System_String);
-    if (iVar18 == 0) {
-      if ((MethodInfo_362B8B0 *)__this_06 != (MethodInfo_362B8B0 *)0x0) {
-        iVar18 = 0;
-        uStackY_168 = uStackY_168 & 0xffffffff;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435ac41;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar18 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields).
-                       _threadIDExecutingCallbacks) {
-          while( true ) {
-            pSVar19 = System_Int32__ToString((int)&uStackY_168 + 4,(MethodInfo *)0x0);
-            ppUVar33 = (UI_CharacterEditorCostumePanel_o **)"CostumeM";
-            pSVar19 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeM",pSVar19,(MethodInfo *)0x0)
-            ;
-            lVar6 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&((MethodInfo_362B8B0 *)__this_06)->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar14 = ((MethodInfo_362B8B0 *)__this_06)->invoker_method;
-            if (pIVar14 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar5 = *(uint *)&((MethodInfo_362B8B0 *)__this_06)->name;
-            if (uVar5 < *(uint *)(pIVar14 + 0x18)) {
-              *(uint *)&((MethodInfo_362B8B0 *)__this_06)->name = uVar5 + 1;
-              *(System_String_o **)(pIVar14 + (long)(int)uVar5 * 8 + 0x20) = pSVar19;
-              il2cpp_runtime_helper_022b4080(pIVar14 + (long)(int)uVar5 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_06,(Il2CppObject *)pSVar19,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar18 = uStackY_168._4_4_ + 1;
-            uStackY_168 = CONCAT44(iVar18,(int)uStackY_168);
-            if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435ac41:
-            if (((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks <=
-                iVar18) goto label_0435aca0;
-          }
-        }
-        goto label_0435aca0;
-      }
-      uStackY_168 = uStackY_168 & 0xffffffff;
-      __this_06 = &TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      ppUVar33 = (UI_CharacterEditorCostumePanel_o **)TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks) {
-        pSVar19 = System_Int32__ToString((int)&uStackY_168 + 4,(MethodInfo *)0x0);
-        ppUVar33 = &"CostumeM";
-        goto label_0435ad46;
-      }
-    }
-    else {
-      if ((MethodInfo_362B8B0 *)__this_06 != (MethodInfo_362B8B0 *)0x0) {
-        iVar18 = 0;
-        uStackY_168 = (ulong)uStackY_168._4_4_ << 0x20;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435ab4f;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar18 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed) {
-          while( true ) {
-            pSVar19 = System_Int32__ToString((int32_t)&uStackY_168,(MethodInfo *)0x0);
-            ppUVar33 = (UI_CharacterEditorCostumePanel_o **)"CostumeF";
-            pSVar19 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeF",pSVar19,(MethodInfo *)0x0)
-            ;
-            lVar6 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&((MethodInfo_362B8B0 *)__this_06)->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar14 = ((MethodInfo_362B8B0 *)__this_06)->invoker_method;
-            if (pIVar14 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar5 = *(uint *)&((MethodInfo_362B8B0 *)__this_06)->name;
-            if (uVar5 < *(uint *)(pIVar14 + 0x18)) {
-              *(uint *)&((MethodInfo_362B8B0 *)__this_06)->name = uVar5 + 1;
-              *(System_String_o **)(pIVar14 + (long)(int)uVar5 * 8 + 0x20) = pSVar19;
-              il2cpp_runtime_helper_022b4080(pIVar14 + (long)(int)uVar5 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_06,(Il2CppObject *)pSVar19,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar6 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar18 = (int)uStackY_168 + 1;
-            uStackY_168 = CONCAT44(uStackY_168._4_4_,iVar18);
-            if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435ab4f:
-            if (((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed <= iVar18)
-            goto label_0435aca0;
-          }
-        }
-label_0435aca0:
-        System_Collections_Generic_List_object___ToArray
-                  ((System_Collections_Generic_List_object__o *)__this_06,MethodInfo_String_ToArray);
-        return;
-      }
-      uStackY_168 = (ulong)uStackY_168._4_4_ << 0x20;
-      __this_06 = &TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      ppUVar33 = (UI_CharacterEditorCostumePanel_o **)TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed) {
-        pSVar19 = System_Int32__ToString((int32_t)&uStackY_168,(MethodInfo *)0x0);
-        ppUVar33 = &"CostumeF";
-label_0435ad46:
-        __this_06 = &TypeInfo_HumanSetup;
-        ppUVar33 = (UI_CharacterEditorCostumePanel_o **)*ppUVar33;
-        System_String__Concat_3ae5ba0((System_String_o *)ppUVar33,pSVar19,(MethodInfo *)0x0);
-      }
-    }
-  }
-label_0435ad53:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
-  }
-  lVar6 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  plVar30 = (long *)__this_06;
-  if (((lVar6 != 0) &&
-      (pSVar7 = *(Settings_SetSettingsContainer_T__o **)(lVar6 + 0x20),
-      pSVar7 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pMVar27 = (MethodInfo_362B8B0 *)
-                Settings_SetSettingsContainer_object___GetSelectedSet
-                          (pSVar7,(MethodInfo_39E05D0 *)MethodInfo_BaseSetSetting_GetSelectedSet), pMVar27 != (MethodInfo_362B8B0 *)0x0))
-  {
-    plVar30 = (long *)pMVar27;
-    if (((byte)pMVar27->methodPointer[0x130] < (byte)*(code *)((long)TypeInfo_HumanCustomSet + 0x130)) ||
-       (*(System_String_Fields *)
-         (*(long *)(pMVar27->methodPointer + 200) + -8 +
-         (ulong)(byte)*(code *)((long)TypeInfo_HumanCustomSet + 0x130) * 8) != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pMVar27->rgctx_data != (Il2CppRGCTXData *)0x0) &&
-       ((Settings_TypedSetting_T__o *)pMVar27[1].methodPointer != (Settings_TypedSetting_T__o *)0x0)) {
-      if (*(int *)((long)pMVar27->rgctx_data + 0x14) == 0) {
-        puVar28 = &"HairM0";
-      }
-      else {
-        puVar28 = &"HairF0";
-      }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)pMVar27[1].methodPointer,(Il2CppObject *)*puVar28,MethodInfo_Void_set_Value)
-      ;
-      if ((Settings_TypedSetting_int__o *)pMVar27[1].virtualMethodPointer !=
-          (Settings_TypedSetting_int__o *)0x0) {
-        Settings_TypedSetting_int___set_Value
-                  ((Settings_TypedSetting_int__o *)pMVar27[1].virtualMethodPointer,0,MethodInfo_Void_set_Value);
-        pUVar15 = (((UI_CharacterEditorCostumePanel_o *)ppUVar33)->fields)._menu;
-        if (pUVar15 != (UI_CharacterEditorMenu_o *)0x0) {
-          (*(pUVar15->klass->vtable)._8_RebuildPanels.methodPtr)
-                    (pUVar15,1,(pUVar15->klass->vtable)._8_RebuildPanels.method);
-          pUVar15 = (((UI_CharacterEditorCostumePanel_o *)ppUVar33)->fields)._menu;
-          if (pUVar15 != (UI_CharacterEditorMenu_o *)0x0) {
-            (*(pUVar15->klass->vtable)._9_ResetCharacter.methodPtr)
-                      (pUVar15,1,(pUVar15->klass->vtable)._9_ResetCharacter.method);
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            plVar30 = &TypeInfo_CharacterEditorSkinsPanel;
-            if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                cVar4 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-              }
-              else {
-                cVar4 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-              }
-              if (cVar4 == '\0') {
-                return;
-              }
-            }
-            pUVar15 = (((UI_CharacterEditorCostumePanel_o *)ppUVar33)->fields)._menu;
-            if ((pUVar15 != (UI_CharacterEditorMenu_o *)0x0) &&
-               (pGVar16 = (pUVar15->fields)._gameManager,
-               pGVar16 != (GameManagers_CharacterEditorGameManager_o *)0x0)) {
-              __this_00 = (pGVar16->fields).Human;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar17 = UnityEngine_Object__op_Inequality
-                                 ((UnityEngine_Object_o *)__this_00,(UnityEngine_Object_o *)0x0,
-                                  (MethodInfo *)0x0);
-              if ((char)bVar17 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                pUVar29 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                          il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (pUVar29,0,(MethodInfo *)0x0);
-                UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                          ((UnityEngine_MonoBehaviour_o *)ppUVar33,(System_Collections_IEnumerator_o *)pUVar29
-                           ,(MethodInfo *)0x0);
-                return;
-              }
-              plVar30 = (long *)0x0;
-              if (__this_00 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_00,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(plVar30);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pUVar29 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor(pUVar29,0,(MethodInfo *)0x0);
-  return;
+label_1821d6de0:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetOptions
 // il2cpp: System_String_array* UI_CharacterEditorCostumePanel__GetOptions (UI_CharacterEditorCostumePanel_o* __this, System_String_o* prefix, int32_t options, bool includeNone, const MethodInfo* method);
-// 0x435a2d0
+// 0x1821d28b0
+// asm: 2 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d2977: nop word ptr [rax + rax]
+// asm:   0x1821d2a10: jmp 0x1821d2a17
 
 System_String_array *
 UI_CharacterEditorCostumePanel__GetOptions
-          (UI_CharacterEditorCostumePanel_o *__this,System_String_o *prefix,int32_t options,
-          bool_conflict includeNone,MethodInfo *method)
+          (UI_CharacterEditorCostumePanel_o *__this,System_String_o *prefix,int32_t options,bool includeNone,
+          MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int *piVar2;
-  char cVar3;
-  uint uVar4;
-  System_Object_array *pSVar5;
-  InvokerMethod pIVar6;
-  long lVar7;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  UnityEngine_MonoBehaviour_c *pUVar8;
-  void *pvVar9;
-  Characters_DummyHuman_o *__this_01;
-  int iVar10;
-  bool_conflict bVar11;
-  System_Collections_Generic_List_object__o *pSVar12;
-  System_String_o *pSVar13;
-  System_String_array *pSVar14;
-  System_Collections_Generic_List_object__o *__this_02;
-  MethodInfo_362B8B0 *__this_03;
-  System_String_o *pSVar15;
-  MethodInfo_362B8B0 *pMVar16;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_04;
-  undefined8 *puVar17;
-  undefined8 *puVar18;
-  UnityEngine_MonoBehaviour_o *__this_05;
-  System_String_Fields unaff_R12;
-  undefined8 *unaff_R13;
-  undefined8 uStack_e0;
-  System_Collections_Generic_List_object__o *pSStack_d8;
-  System_String_Fields SStack_d0;
-  undefined8 *puStack_c8;
-  System_String_o *pSStack_c0;
-  System_Collections_Generic_List_object__o *pSStack_b8;
-  undefined8 *puStack_b0;
-  undefined1 auStack_a8 [8];
-  System_Collections_Generic_List_object__o *pSStack_a0;
-  System_String_Fields SStack_98;
-  undefined8 *puStack_90;
-  System_String_o *pSStack_88;
-  System_Collections_Generic_List_object__o *pSStack_80;
-  undefined8 *puStack_78;
-  undefined8 uStack_70;
-  System_Collections_Generic_List_object__o *pSStack_68;
-  System_String_Fields SStack_60;
-  int local_2c;
+  uint uVar2;
+  System_String_array *pSVar3;
+  MethodInfo *pMVar4;
+  System_Collections_Generic_List_string__o *__this_00;
+  System_String_o *pSVar5;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar6;
+  int32_t local_res20 [2];
   
-  puVar18 = (undefined8 *)(ulong)(uint)includeNone;
-  if (g_data_057ae177 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&"None");
-    g_data_057ae177 = '\x01';
+  if (Il2CppMethodInitialized_184346f7b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"None");
+    Il2CppMethodInitialized_184346f7b = '\x01';
   }
-  local_2c = 0;
-  pSVar12 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  System_Collections_Generic_List_object____ctor(pSVar12,MethodInfo_List_1_System_String);
-  if ((char)includeNone == '\0') {
-joined_r0x0435a48d:
-    if (options < 1) {
-      local_2c = 0;
-      if (pSVar12 != (System_Collections_Generic_List_object__o *)0x0) goto label_0435a498;
-      goto label_0435a4b7;
-    }
-    local_2c = 0;
-    if (pSVar12 != (System_Collections_Generic_List_object__o *)0x0) {
-      unaff_R12 = (System_String_Fields)&local_2c;
-      puVar18 = &MethodInfo_Void_Add;
-      do {
-        pSVar13 = System_Int32__ToString(unaff_R12._stringLength,(MethodInfo *)0x0);
-        pSVar13 = System_String__Concat_3ae5ba0(prefix,pSVar13,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(pSVar12->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (pSVar12->fields)._items;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a4b7;
-        uVar4 = (pSVar12->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (pSVar12->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar13;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar12,(Il2CppObject *)pSVar13,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        local_2c = local_2c + 1;
-      } while (local_2c < options);
-label_0435a498:
-      pSVar14 = (System_String_array *)System_Collections_Generic_List_object___ToArray(pSVar12,MethodInfo_String_ToArray);
-      return pSVar14;
+  local_res20[0] = 0;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  if (includeNone) {
+    System_String__Concat_1969e50(prefix,"None",(MethodInfo *)0x0);
+    if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d2a2f;
+    il2cpp_runtime_helper_180012890(__this_00);
+  }
+  local_res20[0] = 0;
+  if (options < 1) {
+    if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) {
+label_1821d2a2f:
+      ThrowNullReferenceException();
     }
   }
   else {
-    pSVar13 = System_String__Concat_3ae5ba0(prefix,"None",(MethodInfo *)0x0);
-    lVar7 = MethodInfo_Void_Add;
-    if (pSVar12 != (System_Collections_Generic_List_object__o *)0x0) {
-      piVar1 = &(pSVar12->fields)._version;
+    do {
+      pSVar5 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+      pSVar5 = System_String__Concat_1969e50(prefix,pSVar5,(MethodInfo *)0x0);
+      pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
+      if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d2a2f;
+      piVar1 = &(__this_00->fields)._version;
       *piVar1 = *piVar1 + 1;
-      pSVar5 = (pSVar12->fields)._items;
-      if (pSVar5 != (System_Object_array *)0x0) {
-        uVar4 = (pSVar12->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (pSVar12->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar13;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
+      pSVar3 = (__this_00->fields)._items;
+      if (pSVar3 == (System_String_array *)0x0) goto label_1821d2a2f;
+      uVar2 = (__this_00->fields)._size;
+      if (uVar2 < (uint)pSVar3->max_length) {
+        (__this_00->fields)._size = uVar2 + 1;
+        if ((uint)pSVar3->max_length <= uVar2) {
+          ThrowIndexOutOfRangeException();
         }
-        else {
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar12,(Il2CppObject *)pSVar13,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        goto joined_r0x0435a48d;
-      }
-    }
-label_0435a4b7:
-    il2cpp_runtime_helper_022b2c90();
-  }
-  pSVar13 = System_Int32__ToString((int32_t)&local_2c,(MethodInfo *)0x0);
-  System_String__Concat_3ae5ba0(prefix,pSVar13,(MethodInfo *)0x0);
-  uStack_70 = il2cpp_runtime_helper_022b2c90();
-  pSStack_68 = pSVar12;
-  SStack_60 = unaff_R12;
-  if (g_data_057ae17a == '\0') {
-    puStack_78 = (undefined8 *)0x435a503;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    puStack_78 = (undefined8 *)0x435a50f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    puStack_78 = (undefined8 *)0x435a51b;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    puStack_78 = (undefined8 *)0x435a527;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    puStack_78 = (undefined8 *)0x435a533;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    puStack_78 = (undefined8 *)0x435a53f;
-    il2cpp_runtime_helper_023445d0(&"/Human/Previews/");
-    g_data_057ae17a = '\x01';
-  }
-  puStack_78 = (undefined8 *)0x435a555;
-  __this_02 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  puStack_78 = (undefined8 *)0x435a56a;
-  System_Collections_Generic_List_object____ctor(__this_02,MethodInfo_List_1_System_String);
-  if (pSVar13 != (System_String_o *)0x0) {
-    iVar10 = (int)pSVar13[1].klass;
-    if (__this_02 != (System_Collections_Generic_List_object__o *)0x0) {
-      if (iVar10 < 1) {
-label_0435a667:
-        pSVar14 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray(__this_02,MethodInfo_String_ToArray);
-        return pSVar14;
-      }
-      pSVar12 = (System_Collections_Generic_List_object__o *)0x0;
-      unaff_R13 = &TypeInfo_ResourcePaths;
-      puVar18 = &MethodInfo_Void_Add;
-      if (((ulong)pSVar13[1].klass & 0xffffffff) != 0) {
-        do {
-          unaff_R12 = *(System_String_Fields *)(&pSVar13[1].monitor + (long)pSVar12);
-          if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-            puStack_78 = (undefined8 *)0x435a600;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          puStack_78 = (undefined8 *)0x435a623;
-          pSVar15 = System_String__Concat_3af7150
-                              (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",
-                               (System_String_o *)unaff_R12,(MethodInfo *)0x0);
-          lVar7 = MethodInfo_Void_Add;
-          piVar1 = &(__this_02->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pSVar5 = (__this_02->fields)._items;
-          if (pSVar5 == (System_Object_array *)0x0) goto label_0435a6d0;
-          uVar4 = (__this_02->fields)._size;
-          if (uVar4 < (uint)pSVar5->max_length) {
-            (__this_02->fields)._size = uVar4 + 1;
-            pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar15;
-            puStack_78 = (undefined8 *)0x435a662;
-            il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4,pSVar15);
-          }
-          else {
-            puStack_78 = (undefined8 *)0x435a5ca;
-            System_Collections_Generic_List_object___AddWithResize
-                      (__this_02,(Il2CppObject *)pSVar15,
-                       *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-          }
-          pSVar12 = (System_Collections_Generic_List_object__o *)((long)&pSVar12->klass + 1);
-          if ((long)(int)*(uint *)&pSVar13[1].klass <= (long)pSVar12) goto label_0435a667;
-        } while (pSVar12 < (System_Collections_Generic_List_object__o *)(ulong)*(uint *)&pSVar13[1].klass);
-      }
-      puStack_78 = (undefined8 *)0x435a68c;
-      iVar10 = il2cpp_runtime_helper_022b2ca0();
-    }
-    if (0 < iVar10) {
-      pSVar12 = pSVar13[1].monitor;
-      puVar18 = &TypeInfo_ResourcePaths;
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        puStack_78 = (undefined8 *)0x435a6ad;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      puStack_78 = (undefined8 *)0x435a6d0;
-      System_String__Concat_3af7150
-                (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",
-                 (System_String_o *)pSVar12,(MethodInfo *)0x0);
-    }
-  }
-label_0435a6d0:
-  puStack_78 = (undefined8 *)0x435a6d5;
-  auStack_a8 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  pSStack_a0 = pSVar12;
-  SStack_98 = unaff_R12;
-  puStack_90 = unaff_R13;
-  pSStack_88 = pSVar13;
-  pSStack_80 = __this_02;
-  puStack_78 = puVar18;
-  if (g_data_057ae178 == '\0') {
-    puStack_b0 = (undefined8 *)0x435a700;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    puStack_b0 = (undefined8 *)0x435a70c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    puStack_b0 = (undefined8 *)0x435a718;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    puStack_b0 = (undefined8 *)0x435a724;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    puStack_b0 = (undefined8 *)0x435a730;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    puStack_b0 = (undefined8 *)0x435a73c;
-    il2cpp_runtime_helper_023445d0(&"HairF");
-    puStack_b0 = (undefined8 *)0x435a748;
-    il2cpp_runtime_helper_023445d0(&"HairM");
-    g_data_057ae178 = '\x01';
-  }
-  auStack_a8 = (undefined1  [8])0x0;
-  puStack_b0 = (undefined8 *)0x435a76d;
-  pSVar12 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  puStack_b0 = (undefined8 *)0x435a782;
-  __this_03 = MethodInfo_List_1_System_String;
-  System_Collections_Generic_List_object____ctor(pSVar12,MethodInfo_List_1_System_String);
-  if (pSVar12 != (System_Collections_Generic_List_object__o *)0x0) {
-    puVar18 = (undefined8 *)0x0;
-    __this_02 = (System_Collections_Generic_List_object__o *)&TypeInfo_HumanSetup;
-    pSVar13 = (System_String_o *)(auStack_a8 + 4);
-    unaff_R13 = &"HairM";
-    unaff_R12 = (System_String_Fields)&MethodInfo_Void_Add;
-    auStack_a8 = (undefined1  [8])((ulong)auStack_a8 & 0xffffffff);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a811;
-    while( true ) {
-      puStack_b0 = (undefined8 *)0x435a7c5;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)puVar18)
-      break;
-      while( true ) {
-        puStack_b0 = (undefined8 *)0x435a827;
-        __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)pSVar13,(MethodInfo *)0x0);
-        puStack_b0 = (undefined8 *)0x435a835;
-        __this_05 = "HairM";
-        pSVar15 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairM",(System_String_o *)__this_03,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(pSVar12->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (pSVar12->fields)._items;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (pSVar12->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (pSVar12->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar15;
-          puStack_b0 = (undefined8 *)0x435a86e;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          puStack_b0 = (undefined8 *)0x435a7fa;
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar12,(Il2CppObject *)pSVar15,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        puVar18 = (undefined8 *)(ulong)(auStack_a8._4_4_ + 1);
-        auStack_a8._4_4_ = auStack_a8._4_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a811:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)puVar18)
-        goto label_0435a870;
-      }
-    }
-label_0435a870:
-    puVar18 = (undefined8 *)0x0;
-    unaff_R13 = &"HairF";
-    auStack_a8 = (undefined1  [8])((ulong)auStack_a8 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a8df;
-    while( true ) {
-      puStack_b0 = (undefined8 *)0x435a895;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-          (int)puVar18) break;
-      while( true ) {
-        puStack_b0 = (undefined8 *)0x435a8f5;
-        __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)auStack_a8,(MethodInfo *)0x0);
-        puStack_b0 = (undefined8 *)0x435a903;
-        __this_05 = "HairF";
-        pSVar15 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairF",(System_String_o *)__this_03,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(pSVar12->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (pSVar12->fields)._items;
-        pSVar13 = (System_String_o *)auStack_a8;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (pSVar12->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (pSVar12->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar15;
-          puStack_b0 = (undefined8 *)0x435a93c;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          puStack_b0 = (undefined8 *)0x435a8ca;
-          System_Collections_Generic_List_object___AddWithResize
-                    (pSVar12,(Il2CppObject *)pSVar15,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        puVar18 = (undefined8 *)(ulong)(auStack_a8._0_4_ + 1);
-        auStack_a8._0_4_ = auStack_a8._0_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a8df:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-            (int)puVar18) goto label_0435a93e;
-      }
-    }
-label_0435a93e:
-    puStack_b0 = (undefined8 *)0x435a950;
-    pSVar14 = (System_String_array *)System_Collections_Generic_List_object___ToArray(pSVar12,MethodInfo_String_ToArray);
-    return pSVar14;
-  }
-  auStack_a8 = (undefined1  [8])((ulong)auStack_a8 & 0xffffffff);
-  pSVar12 = (System_Collections_Generic_List_object__o *)&TypeInfo_HumanSetup;
-  if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-    puStack_b0 = (undefined8 *)0x435a97f;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c < 1) {
-    auStack_a8 = (undefined1  [8])((ulong)auStack_a8 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-      puStack_b0 = (undefined8 *)0x435a9b9;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    __this_05 = TypeInfo_HumanSetup;
-    if (0 < *(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback) {
-      puStack_b0 = (undefined8 *)0x435a9d3;
-      __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)auStack_a8,(MethodInfo *)0x0);
-      puVar17 = &"HairF";
-      goto label_0435a9da;
-    }
-  }
-  else {
-    puStack_b0 = (undefined8 *)0x435a99b;
-    __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int)auStack_a8 + 4,(MethodInfo *)0x0);
-    puVar17 = &"HairM";
-label_0435a9da:
-    __this_05 = (UnityEngine_MonoBehaviour_o *)*puVar17;
-    puStack_b0 = (undefined8 *)0x435a9e7;
-    System_String__Concat_3ae5ba0((System_String_o *)__this_05,(System_String_o *)__this_03,(MethodInfo *)0x0)
-    ;
-  }
-label_0435a9e7:
-  puStack_b0 = (undefined8 *)0x435a9ec;
-  uStack_e0 = il2cpp_runtime_helper_022b2c90();
-  pSStack_d8 = pSVar12;
-  SStack_d0 = unaff_R12;
-  puStack_c8 = unaff_R13;
-  pSStack_c0 = pSVar13;
-  pSStack_b8 = __this_02;
-  puStack_b0 = puVar18;
-  if (g_data_057ae179 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"CostumeM");
-    __this_05 = (UnityEngine_MonoBehaviour_o *)&"CostumeF";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae179 = '\x01';
-  }
-  uStack_e0 = 0;
-  if ((__this_03 != (MethodInfo_362B8B0 *)0x0) && (__this_03->rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    iVar10 = *(int *)((long)__this_03->rgctx_data + 0x14);
-    __this_03 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)__this_03,MethodInfo_List_1_System_String);
-    if (iVar10 == 0) {
-      if (__this_03 != (MethodInfo_362B8B0 *)0x0) {
-        iVar10 = 0;
-        uStack_e0 = uStack_e0 & 0xffffffff;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ac41;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar10 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).
-                       _threadIDExecutingCallbacks) {
-          while( true ) {
-            pSVar13 = System_Int32__ToString((int)&uStack_e0 + 4,(MethodInfo *)0x0);
-            __this_05 = "CostumeM";
-            pSVar13 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeM",pSVar13,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_03->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_03->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_03->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_03->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar13;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_03,(Il2CppObject *)pSVar13,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar10 = uStack_e0._4_4_ + 1;
-            uStack_e0 = CONCAT44(iVar10,(int)uStack_e0);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ac41:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks <=
-                iVar10) goto label_0435aca0;
-          }
-        }
-        goto label_0435aca0;
-      }
-      uStack_e0 = uStack_e0 & 0xffffffff;
-      __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_05 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks) {
-        pSVar13 = System_Int32__ToString((int)&uStack_e0 + 4,(MethodInfo *)0x0);
-        puVar18 = &"CostumeM";
-        goto label_0435ad46;
-      }
-    }
-    else {
-      if (__this_03 != (MethodInfo_362B8B0 *)0x0) {
-        iVar10 = 0;
-        uStack_e0 = (ulong)uStack_e0._4_4_ << 0x20;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ab4f;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar10 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-          while( true ) {
-            pSVar13 = System_Int32__ToString((int32_t)&uStack_e0,(MethodInfo *)0x0);
-            __this_05 = "CostumeF";
-            pSVar13 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeF",pSVar13,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_03->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_03->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_03->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_03->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar13;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_03,(Il2CppObject *)pSVar13,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar10 = (int)uStack_e0 + 1;
-            uStack_e0 = CONCAT44(uStack_e0._4_4_,iVar10);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ab4f:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed <= iVar10)
-            goto label_0435aca0;
-          }
-        }
-label_0435aca0:
-        pSVar14 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray
-                            ((System_Collections_Generic_List_object__o *)__this_03,MethodInfo_String_ToArray);
-        return pSVar14;
-      }
-      uStack_e0 = (ulong)uStack_e0._4_4_ << 0x20;
-      __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_05 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-        pSVar13 = System_Int32__ToString((int32_t)&uStack_e0,(MethodInfo *)0x0);
-        puVar18 = &"CostumeF";
-label_0435ad46:
-        __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-        __this_05 = (UnityEngine_MonoBehaviour_o *)*puVar18;
-        System_String__Concat_3ae5ba0((System_String_o *)__this_05,pSVar13,(MethodInfo *)0x0);
-      }
-    }
-  }
-label_0435ad53:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
-  }
-  lVar7 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar7 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar7 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pMVar16 = (MethodInfo_362B8B0 *)
-                Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pMVar16 != (MethodInfo_362B8B0 *)0x0)) {
-    __this_03 = pMVar16;
-    if (((byte)pMVar16->methodPointer[0x130] < (byte)*(code *)(TypeInfo_HumanCustomSet + 0x130)) ||
-       (*(long *)(*(long *)(pMVar16->methodPointer + 200) + -8 +
-                 (ulong)(byte)*(code *)(TypeInfo_HumanCustomSet + 0x130) * 8) != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pMVar16->rgctx_data != (Il2CppRGCTXData *)0x0) &&
-       ((Settings_TypedSetting_T__o *)pMVar16[1].methodPointer != (Settings_TypedSetting_T__o *)0x0)) {
-      if (*(int *)((long)pMVar16->rgctx_data + 0x14) == 0) {
-        puVar18 = &"HairM0";
+        pSVar3->m_Items[(int)uVar2] = pSVar5;
+        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar5);
       }
       else {
-        puVar18 = &"HairF0";
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar5,
+                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
       }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)pMVar16[1].methodPointer,(Il2CppObject *)*puVar18,MethodInfo_Void_set_Value)
-      ;
-      if ((Settings_TypedSetting_int__o *)pMVar16[1].virtualMethodPointer !=
-          (Settings_TypedSetting_int__o *)0x0) {
-        Settings_TypedSetting_int___set_Value
-                  ((Settings_TypedSetting_int__o *)pMVar16[1].virtualMethodPointer,0,MethodInfo_Void_set_Value);
-        pUVar8 = __this_05[4].klass;
-        if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-          pvVar9 = (pUVar8->_1).image;
-          (**(code **)((long)pvVar9 + 0x1b8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1c0));
-          pUVar8 = __this_05[4].klass;
-          if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-            pvVar9 = (pUVar8->_1).image;
-            (**(code **)((long)pvVar9 + 0x1c8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1d0));
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_CharacterEditorSkinsPanel;
-            pSVar14 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-            if (*(char *)&(pSVar14->obj).klass == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                pSVar14 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-                cVar3 = *(char *)((long)&(pSVar14->obj).klass + 1);
-              }
-              else {
-                cVar3 = *(char *)((long)&(pSVar14->obj).klass + 1);
-              }
-              if (cVar3 == '\0') {
-                return pSVar14;
-              }
-            }
-            if ((__this_05[4].klass != (UnityEngine_MonoBehaviour_c *)0x0) &&
-               (pvVar9 = ((__this_05[4].klass)->_1).methods, pvVar9 != (void *)0x0)) {
-              __this_01 = *(Characters_DummyHuman_o **)((long)pvVar9 + 0x28);
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar11 = UnityEngine_Object__op_Inequality
-                                 ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,
-                                  (MethodInfo *)0x0);
-              if ((char)bVar11 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                __this_04 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (__this_04,0,(MethodInfo *)0x0);
-                pSVar14 = (System_String_array *)
-                          UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                                    (__this_05,(System_Collections_IEnumerator_o *)__this_04,(MethodInfo *)0x0
-                                    );
-                return pSVar14;
-              }
-              __this_03 = (MethodInfo_362B8B0 *)0x0;
-              if (__this_01 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_01,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
-      }
-    }
+      local_res20[0] = local_res20[0] + 1;
+    } while (local_res20[0] < options);
   }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(__this_03);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pSVar14 = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-            ((UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)pSVar14,0,(MethodInfo *)0x0
-            );
-  return pSVar14;
+  pUVar6 = System_Collections_Generic_List_object___ToArray
+                     ((System_Collections_Generic_List_T__o *)__this_00,
+                      (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+  return (System_String_array *)pUVar6;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetHairOptions
 // il2cpp: System_String_array* UI_CharacterEditorCostumePanel__GetHairOptions (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435a6e0
+// 0x1821d2490
 
 System_String_array *
 UI_CharacterEditorCostumePanel__GetHairOptions(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
 
 {
   int32_t *piVar1;
-  int *piVar2;
-  char cVar3;
-  uint uVar4;
-  System_Object_array *pSVar5;
-  InvokerMethod pIVar6;
-  long lVar7;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  UnityEngine_MonoBehaviour_c *pUVar8;
-  void *pvVar9;
-  Characters_DummyHuman_o *__this_01;
-  bool_conflict bVar10;
-  System_Collections_Generic_List_object__o *__this_02;
-  MethodInfo_362B8B0 *__this_03;
-  System_String_o *pSVar11;
-  System_String_array *pSVar12;
-  MethodInfo_362B8B0 *pMVar13;
-  undefined8 *puVar14;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_04;
-  int iVar15;
-  ulong unaff_RBP;
-  UnityEngine_MonoBehaviour_o *__this_05;
-  undefined8 *unaff_R12;
-  undefined8 *unaff_R13;
-  undefined8 *unaff_R14;
-  undefined8 *unaff_R15;
-  undefined8 uStack_70;
-  System_Collections_Generic_List_object__o *pSStack_68;
-  undefined8 *puStack_60;
-  undefined8 *puStack_58;
-  undefined1 *puStack_50;
-  undefined8 *puStack_48;
-  ulong uStack_40;
-  undefined8 local_38;
+  uint uVar2;
+  System_String_array *pSVar3;
+  MethodInfo *pMVar4;
+  System_Collections_Generic_List_string__o *__this_00;
+  System_String_o *pSVar5;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar6;
+  int iVar7;
+  int32_t local_res18 [2];
+  int32_t local_res20 [2];
   
-  if (g_data_057ae178 == '\0') {
-    uStack_40 = 0x435a700;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    uStack_40 = 0x435a70c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    uStack_40 = 0x435a718;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    uStack_40 = 0x435a724;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    uStack_40 = 0x435a730;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    uStack_40 = 0x435a73c;
-    il2cpp_runtime_helper_023445d0(&"HairF");
-    uStack_40 = 0x435a748;
-    il2cpp_runtime_helper_023445d0(&"HairM");
-    g_data_057ae178 = '\x01';
+  if (Il2CppMethodInitialized_184346f7c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"HairF");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairM");
+    Il2CppMethodInitialized_184346f7c = '\x01';
   }
-  local_38 = 0;
-  uStack_40 = 0x435a76d;
-  __this_02 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  uStack_40 = 0x435a782;
-  __this_03 = MethodInfo_List_1_System_String;
-  System_Collections_Generic_List_object____ctor(__this_02,MethodInfo_List_1_System_String);
-  if (__this_02 != (System_Collections_Generic_List_object__o *)0x0) {
-    unaff_RBP = 0;
-    unaff_R15 = &TypeInfo_HumanSetup;
-    unaff_R14 = (undefined8 *)((long)&local_38 + 4);
-    unaff_R13 = &"HairM";
-    unaff_R12 = &MethodInfo_Void_Add;
-    local_38 = local_38 & 0xffffffff;
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a811;
+  local_res18[0] = 0;
+  local_res20[0] = 0;
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  iVar7 = 0;
+  while( true ) {
     while( true ) {
-      uStack_40 = 0x435a7c5;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)unaff_RBP)
-      break;
-      while( true ) {
-        uStack_40 = 0x435a827;
-        __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)unaff_R14,(MethodInfo *)0x0);
-        uStack_40 = 0x435a835;
-        __this_05 = "HairM";
-        pSVar11 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairM",(System_String_o *)__this_03,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(__this_02->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_02->fields)._items;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (__this_02->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (__this_02->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar11;
-          uStack_40 = 0x435a86e;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          uStack_40 = 0x435a7fa;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_02,(Il2CppObject *)pSVar11,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        unaff_RBP = (ulong)(local_38._4_4_ + 1U);
-        local_38 = CONCAT44(local_38._4_4_ + 1U,(int)local_38);
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a811:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)unaff_RBP
-           ) goto label_0435a870;
+      local_res18[0] = iVar7;
+      if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
       }
+      if (TypeInfo_Characters_HumanSetup->static_fields->HairMCount <= iVar7) {
+        iVar7 = 0;
+        goto label_1821d260c;
+      }
+      pSVar5 = System_Int32__ToString(local_res18,(MethodInfo *)0x0);
+      pSVar5 = System_String__Concat_1969e50("HairM",pSVar5,(MethodInfo *)0x0);
+      pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
+      if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d26fc;
+      piVar1 = &(__this_00->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar3 = (__this_00->fields)._items;
+      if (pSVar3 == (System_String_array *)0x0) goto label_1821d26fc;
+      uVar2 = (__this_00->fields)._size;
+      if (uVar2 < (uint)pSVar3->max_length) break;
+      System_Collections_Generic_List_object___AddWithResize
+                ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar5,
+                 (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
+      iVar7 = local_res18[0] + 1;
     }
-label_0435a870:
-    unaff_RBP = 0;
-    unaff_R13 = &"HairF";
-    local_38 = local_38 & 0xffffffff00000000;
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a8df;
-    while( true ) {
-      uStack_40 = 0x435a895;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-          (int)unaff_RBP) break;
-      while( true ) {
-        uStack_40 = 0x435a8f5;
-        __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)&local_38,(MethodInfo *)0x0);
-        uStack_40 = 0x435a903;
-        __this_05 = "HairF";
-        pSVar11 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairF",(System_String_o *)__this_03,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(__this_02->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_02->fields)._items;
-        unaff_R14 = &local_38;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (__this_02->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (__this_02->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar11;
-          uStack_40 = 0x435a93c;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          uStack_40 = 0x435a8ca;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_02,(Il2CppObject *)pSVar11,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        unaff_RBP = (ulong)((int)local_38 + 1U);
-        local_38 = CONCAT44(local_38._4_4_,(int)local_38 + 1U);
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a8df:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-            (int)unaff_RBP) goto label_0435a93e;
-      }
+    (__this_00->fields)._size = uVar2 + 1;
+    if ((uint)pSVar3->max_length <= uVar2) break;
+    pSVar3->m_Items[(int)uVar2] = pSVar5;
+    Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar5);
+    iVar7 = local_res18[0] + 1;
+  }
+label_1821d2702:
+  ThrowIndexOutOfRangeException();
+label_1821d260c:
+  local_res20[0] = iVar7;
+  if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
+  }
+  if (TypeInfo_Characters_HumanSetup->static_fields->HairFCount <= iVar7) {
+    if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+      pUVar6 = System_Collections_Generic_List_object___ToArray
+                         ((System_Collections_Generic_List_T__o *)__this_00,
+                          (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+      return (System_String_array *)pUVar6;
     }
-label_0435a93e:
-    uStack_40 = 0x435a950;
-    pSVar12 = (System_String_array *)System_Collections_Generic_List_object___ToArray(__this_02,MethodInfo_String_ToArray);
-    return pSVar12;
+label_1821d26fc:
+    ThrowNullReferenceException();
   }
-  local_38 = local_38 & 0xffffffff;
-  __this_02 = (System_Collections_Generic_List_object__o *)&TypeInfo_HumanSetup;
-  if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-    uStack_40 = 0x435a97f;
-    il2cpp_runtime_helper_02337ed0();
+  pSVar5 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+  pSVar5 = System_String__Concat_1969e50("HairF",pSVar5,(MethodInfo *)0x0);
+  pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
+  if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d26fc;
+  piVar1 = &(__this_00->fields)._version;
+  *piVar1 = *piVar1 + 1;
+  pSVar3 = (__this_00->fields)._items;
+  if (pSVar3 == (System_String_array *)0x0) goto label_1821d26fc;
+  uVar2 = (__this_00->fields)._size;
+  if ((uint)pSVar3->max_length <= uVar2) {
+    System_Collections_Generic_List_object___AddWithResize
+              ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar5,
+               (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
+    iVar7 = local_res20[0] + 1;
+    goto label_1821d260c;
   }
-  if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c < 1) {
-    local_38 = local_38 & 0xffffffff00000000;
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-      uStack_40 = 0x435a9b9;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    __this_05 = TypeInfo_HumanSetup;
-    if (0 < *(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback) {
-      uStack_40 = 0x435a9d3;
-      __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)&local_38,(MethodInfo *)0x0);
-      puVar14 = &"HairF";
-      goto label_0435a9da;
-    }
-  }
-  else {
-    uStack_40 = 0x435a99b;
-    __this_03 = (MethodInfo_362B8B0 *)System_Int32__ToString((int)&local_38 + 4,(MethodInfo *)0x0);
-    puVar14 = &"HairM";
-label_0435a9da:
-    __this_05 = (UnityEngine_MonoBehaviour_o *)*puVar14;
-    uStack_40 = 0x435a9e7;
-    System_String__Concat_3ae5ba0((System_String_o *)__this_05,(System_String_o *)__this_03,(MethodInfo *)0x0)
-    ;
-  }
-label_0435a9e7:
-  uStack_40 = 0x435a9ec;
-  uStack_70 = il2cpp_runtime_helper_022b2c90();
-  pSStack_68 = __this_02;
-  puStack_60 = unaff_R12;
-  puStack_58 = unaff_R13;
-  puStack_50 = (undefined1 *)unaff_R14;
-  puStack_48 = unaff_R15;
-  uStack_40 = unaff_RBP;
-  if (g_data_057ae179 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"CostumeM");
-    __this_05 = (UnityEngine_MonoBehaviour_o *)&"CostumeF";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae179 = '\x01';
-  }
-  uStack_70 = 0;
-  if ((__this_03 != (MethodInfo_362B8B0 *)0x0) && (__this_03->rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    iVar15 = *(int *)((long)__this_03->rgctx_data + 0x14);
-    __this_03 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)__this_03,MethodInfo_List_1_System_String);
-    if (iVar15 == 0) {
-      if (__this_03 != (MethodInfo_362B8B0 *)0x0) {
-        iVar15 = 0;
-        uStack_70 = uStack_70 & 0xffffffff;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ac41;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar15 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).
-                       _threadIDExecutingCallbacks) {
-          while( true ) {
-            pSVar11 = System_Int32__ToString((int)&uStack_70 + 4,(MethodInfo *)0x0);
-            __this_05 = "CostumeM";
-            pSVar11 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeM",pSVar11,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_03->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_03->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_03->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_03->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar11;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_03,(Il2CppObject *)pSVar11,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar15 = uStack_70._4_4_ + 1;
-            uStack_70 = CONCAT44(iVar15,(int)uStack_70);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ac41:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks <=
-                iVar15) goto label_0435aca0;
-          }
-        }
-        goto label_0435aca0;
-      }
-      uStack_70 = uStack_70 & 0xffffffff;
-      __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_05 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks) {
-        pSVar11 = System_Int32__ToString((int)&uStack_70 + 4,(MethodInfo *)0x0);
-        puVar14 = &"CostumeM";
-        goto label_0435ad46;
-      }
-    }
-    else {
-      if (__this_03 != (MethodInfo_362B8B0 *)0x0) {
-        iVar15 = 0;
-        uStack_70 = (ulong)uStack_70._4_4_ << 0x20;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ab4f;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar15 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-          while( true ) {
-            pSVar11 = System_Int32__ToString((int32_t)&uStack_70,(MethodInfo *)0x0);
-            __this_05 = "CostumeF";
-            pSVar11 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeF",pSVar11,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_03->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_03->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_03->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_03->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar11;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_03,(Il2CppObject *)pSVar11,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar15 = (int)uStack_70 + 1;
-            uStack_70 = CONCAT44(uStack_70._4_4_,iVar15);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ab4f:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed <= iVar15)
-            goto label_0435aca0;
-          }
-        }
-label_0435aca0:
-        pSVar12 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray
-                            ((System_Collections_Generic_List_object__o *)__this_03,MethodInfo_String_ToArray);
-        return pSVar12;
-      }
-      uStack_70 = (ulong)uStack_70._4_4_ << 0x20;
-      __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_05 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-        pSVar11 = System_Int32__ToString((int32_t)&uStack_70,(MethodInfo *)0x0);
-        puVar14 = &"CostumeF";
-label_0435ad46:
-        __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-        __this_05 = (UnityEngine_MonoBehaviour_o *)*puVar14;
-        System_String__Concat_3ae5ba0((System_String_o *)__this_05,pSVar11,(MethodInfo *)0x0);
-      }
-    }
-  }
-label_0435ad53:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
-  }
-  lVar7 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar7 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar7 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pMVar13 = (MethodInfo_362B8B0 *)
-                Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pMVar13 != (MethodInfo_362B8B0 *)0x0)) {
-    __this_03 = pMVar13;
-    if (((byte)pMVar13->methodPointer[0x130] < (byte)*(code *)(TypeInfo_HumanCustomSet + 0x130)) ||
-       (*(long *)(*(long *)(pMVar13->methodPointer + 200) + -8 +
-                 (ulong)(byte)*(code *)(TypeInfo_HumanCustomSet + 0x130) * 8) != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pMVar13->rgctx_data != (Il2CppRGCTXData *)0x0) &&
-       ((Settings_TypedSetting_T__o *)pMVar13[1].methodPointer != (Settings_TypedSetting_T__o *)0x0)) {
-      if (*(int *)((long)pMVar13->rgctx_data + 0x14) == 0) {
-        puVar14 = &"HairM0";
-      }
-      else {
-        puVar14 = &"HairF0";
-      }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)pMVar13[1].methodPointer,(Il2CppObject *)*puVar14,MethodInfo_Void_set_Value)
-      ;
-      if ((Settings_TypedSetting_int__o *)pMVar13[1].virtualMethodPointer !=
-          (Settings_TypedSetting_int__o *)0x0) {
-        Settings_TypedSetting_int___set_Value
-                  ((Settings_TypedSetting_int__o *)pMVar13[1].virtualMethodPointer,0,MethodInfo_Void_set_Value);
-        pUVar8 = __this_05[4].klass;
-        if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-          pvVar9 = (pUVar8->_1).image;
-          (**(code **)((long)pvVar9 + 0x1b8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1c0));
-          pUVar8 = __this_05[4].klass;
-          if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-            pvVar9 = (pUVar8->_1).image;
-            (**(code **)((long)pvVar9 + 0x1c8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1d0));
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            __this_03 = (MethodInfo_362B8B0 *)&TypeInfo_CharacterEditorSkinsPanel;
-            pSVar12 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-            if (*(char *)&(pSVar12->obj).klass == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                pSVar12 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-                cVar3 = *(char *)((long)&(pSVar12->obj).klass + 1);
-              }
-              else {
-                cVar3 = *(char *)((long)&(pSVar12->obj).klass + 1);
-              }
-              if (cVar3 == '\0') {
-                return pSVar12;
-              }
-            }
-            if ((__this_05[4].klass != (UnityEngine_MonoBehaviour_c *)0x0) &&
-               (pvVar9 = ((__this_05[4].klass)->_1).methods, pvVar9 != (void *)0x0)) {
-              __this_01 = *(Characters_DummyHuman_o **)((long)pvVar9 + 0x28);
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar10 = UnityEngine_Object__op_Inequality
-                                 ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,
-                                  (MethodInfo *)0x0);
-              if ((char)bVar10 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                __this_04 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (__this_04,0,(MethodInfo *)0x0);
-                pSVar12 = (System_String_array *)
-                          UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                                    (__this_05,(System_Collections_IEnumerator_o *)__this_04,(MethodInfo *)0x0
-                                    );
-                return pSVar12;
-              }
-              __this_03 = (MethodInfo_362B8B0 *)0x0;
-              if (__this_01 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_01,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(__this_03);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pSVar12 = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-            ((UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)pSVar12,0,(MethodInfo *)0x0
-            );
-  return pSVar12;
+  (__this_00->fields)._size = uVar2 + 1;
+  if ((uint)pSVar3->max_length <= uVar2) goto label_1821d2702;
+  pSVar3->m_Items[(int)uVar2] = pSVar5;
+  Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar5);
+  iVar7 = local_res20[0] + 1;
+  goto label_1821d260c;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetCostumeOptions
 // il2cpp: System_String_array* UI_CharacterEditorCostumePanel__GetCostumeOptions (UI_CharacterEditorCostumePanel_o* __this, Settings_HumanCustomSet_o* set, const MethodInfo* method);
-// 0x435a9f0
+// 0x1821d21e0
 
 System_String_array *
 UI_CharacterEditorCostumePanel__GetCostumeOptions
@@ -4291,282 +3144,118 @@ UI_CharacterEditorCostumePanel__GetCostumeOptions
 
 {
   int32_t *piVar1;
-  byte bVar2;
-  char cVar3;
-  uint uVar4;
-  Settings_IntSetting_o *pSVar5;
-  System_Object_array *pSVar6;
-  long lVar7;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  Settings_StringSetting_o *__this_01;
-  UI_CharacterEditorMenu_o *pUVar8;
-  GameManagers_CharacterEditorGameManager_o *pGVar9;
-  Characters_DummyHuman_o *__this_02;
-  bool_conflict bVar10;
-  System_String_o *pSVar11;
-  System_String_array *pSVar12;
-  Settings_HumanCustomSet_o *pSVar13;
-  undefined8 *puVar14;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_03;
-  long *plVar15;
-  int iVar16;
-  UI_CharacterEditorCostumePanel_o **ppUVar17;
-  undefined8 local_38;
+  uint uVar2;
+  Settings_IntSetting_o *pSVar3;
+  System_String_array *pSVar4;
+  MethodInfo *pMVar5;
+  System_Collections_Generic_List_string__o *__this_00;
+  System_String_o *pSVar6;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar7;
+  int iVar8;
+  int32_t local_res10 [4];
+  int32_t local_res20 [2];
   
-  if (g_data_057ae179 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"CostumeM");
-    ppUVar17 = &"CostumeF";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae179 = '\x01';
-    __this = (UI_CharacterEditorCostumePanel_o *)ppUVar17;
+  if (Il2CppMethodInitialized_184346f7d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_HumanSetup);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"CostumeM");
+    il2cpp_codegen_initialize_runtime_metadata(&"CostumeF");
+    Il2CppMethodInitialized_184346f7d = '\x01';
   }
-  local_38 = 0;
+  local_res20[0] = 0;
+  local_res10[0] = 0;
   if ((set != (Settings_HumanCustomSet_o *)0x0) &&
-     (pSVar5 = (set->fields).Sex, pSVar5 != (Settings_IntSetting_o *)0x0)) {
-    iVar16 = (pSVar5->fields)._value;
-    set = (Settings_HumanCustomSet_o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
+     (pSVar3 = (set->fields).Sex, pSVar3 != (Settings_IntSetting_o *)0x0)) {
+    iVar8 = (pSVar3->fields)._value;
+    __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
     System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)set,MethodInfo_List_1_System_String);
-    if (iVar16 == 0) {
-      if (set != (Settings_HumanCustomSet_o *)0x0) {
-        iVar16 = 0;
-        local_38 = local_38 & 0xffffffff;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435ac41;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar16 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields).
-                       _threadIDExecutingCallbacks) {
-          while( true ) {
-            pSVar11 = System_Int32__ToString((int)&local_38 + 4,(MethodInfo *)0x0);
-            __this = "CostumeM";
-            pSVar11 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeM",pSVar11,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar1 = (int32_t *)((long)&(set->fields).TypedSettings + 4);
-            *piVar1 = *piVar1 + 1;
-            pSVar6 = (System_Object_array *)(set->fields).Settings;
-            if (pSVar6 == (System_Object_array *)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&(set->fields).TypedSettings;
-            if (uVar4 < (uint)pSVar6->max_length) {
-              *(uint *)&(set->fields).TypedSettings = uVar4 + 1;
-              pSVar6->m_Items[(int)uVar4] = (Il2CppObject *)pSVar11;
-              il2cpp_runtime_helper_022b4080(pSVar6->m_Items + (int)uVar4);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)set,(Il2CppObject *)pSVar11,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar16 = local_38._4_4_ + 1;
-            local_38 = CONCAT44(iVar16,(int)local_38);
-            if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435ac41:
-            if (((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks <=
-                iVar16) goto label_0435aca0;
+              ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+               (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+    if (iVar8 == 0) {
+      iVar8 = 0;
+      while( true ) {
+        while( true ) {
+          local_res20[0] = iVar8;
+          if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
           }
+          if (TypeInfo_Characters_HumanSetup->static_fields->CostumeMCount <= iVar8) goto label_1821d2465;
+          pSVar6 = System_Int32__ToString(local_res20,(MethodInfo *)0x0);
+          pSVar6 = System_String__Concat_1969e50("CostumeM",pSVar6,(MethodInfo *)0x0);
+          pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+          if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d2484;
+          piVar1 = &(__this_00->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar4 = (__this_00->fields)._items;
+          if (pSVar4 == (System_String_array *)0x0) goto label_1821d2484;
+          uVar2 = (__this_00->fields)._size;
+          if (uVar2 < (uint)pSVar4->max_length) break;
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar6,
+                     (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+          iVar8 = local_res20[0] + 1;
         }
-        goto label_0435aca0;
-      }
-      local_38 = local_38 & 0xffffffff;
-      if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      set = (Settings_HumanCustomSet_o *)&TypeInfo_HumanSetup;
-      __this = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks) {
-        pSVar11 = System_Int32__ToString((int)&local_38 + 4,(MethodInfo *)0x0);
-        ppUVar17 = &"CostumeM";
-        goto label_0435ad46;
+        (__this_00->fields)._size = uVar2 + 1;
+        if ((uint)pSVar4->max_length <= uVar2) break;
+        pSVar4->m_Items[(int)uVar2] = pSVar6;
+        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pSVar6);
+        iVar8 = local_res20[0] + 1;
       }
     }
     else {
-      if (set != (Settings_HumanCustomSet_o *)0x0) {
-        iVar16 = 0;
-        local_38 = (ulong)local_38._4_4_ << 0x20;
-        if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) != 0) goto label_0435ab4f;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar16 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed) {
-          while( true ) {
-            pSVar11 = System_Int32__ToString((int32_t)&local_38,(MethodInfo *)0x0);
-            __this = "CostumeF";
-            pSVar11 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeF",pSVar11,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar1 = (int32_t *)((long)&(set->fields).TypedSettings + 4);
-            *piVar1 = *piVar1 + 1;
-            pSVar6 = (System_Object_array *)(set->fields).Settings;
-            if (pSVar6 == (System_Object_array *)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&(set->fields).TypedSettings;
-            if (uVar4 < (uint)pSVar6->max_length) {
-              *(uint *)&(set->fields).TypedSettings = uVar4 + 1;
-              pSVar6->m_Items[(int)uVar4] = (Il2CppObject *)pSVar11;
-              il2cpp_runtime_helper_022b4080(pSVar6->m_Items + (int)uVar4);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)set,(Il2CppObject *)pSVar11,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar16 = (int)local_38 + 1;
-            local_38 = CONCAT44(local_38._4_4_,iVar16);
-            if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) break;
-label_0435ab4f:
-            if (((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed <= iVar16)
-            goto label_0435aca0;
+      iVar8 = 0;
+      while( true ) {
+        while( true ) {
+          local_res10[0] = iVar8;
+          if ((TypeInfo_Characters_HumanSetup->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Characters_HumanSetup);
           }
+          if (TypeInfo_Characters_HumanSetup->static_fields->CostumeFCount <= iVar8) goto label_1821d2465;
+          pSVar6 = System_Int32__ToString(local_res10,(MethodInfo *)0x0);
+          pSVar6 = System_String__Concat_1969e50("CostumeF",pSVar6,(MethodInfo *)0x0);
+          pMVar5 = MethodInfo_System_Collections_Generic_List_string_Add;
+          if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d2484;
+          piVar1 = &(__this_00->fields)._version;
+          *piVar1 = *piVar1 + 1;
+          pSVar4 = (__this_00->fields)._items;
+          if (pSVar4 == (System_String_array *)0x0) goto label_1821d2484;
+          uVar2 = (__this_00->fields)._size;
+          if (uVar2 < (uint)pSVar4->max_length) break;
+          System_Collections_Generic_List_object___AddWithResize
+                    ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar6,
+                     (MethodInfo_93DD50 *)pMVar5->klass->rgctx_data[0xe].method);
+          iVar8 = local_res10[0] + 1;
         }
-label_0435aca0:
-        pSVar12 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray
-                            ((System_Collections_Generic_List_object__o *)set,MethodInfo_String_ToArray);
-        return pSVar12;
-      }
-      local_38 = (ulong)local_38._4_4_ << 0x20;
-      if (*(int *)((long)&TypeInfo_HumanSetup[1].fields._currentCategoryPanel + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      set = (Settings_HumanCustomSet_o *)&TypeInfo_HumanSetup;
-      __this = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[1].fields.m_CancellationTokenSource)->fields)._disposed) {
-        pSVar11 = System_Int32__ToString((int32_t)&local_38,(MethodInfo *)0x0);
-        ppUVar17 = &"CostumeF";
-label_0435ad46:
-        __this = *ppUVar17;
-        System_String__Concat_3ae5ba0((System_String_o *)__this,pSVar11,(MethodInfo *)0x0);
-        set = (Settings_HumanCustomSet_o *)&TypeInfo_HumanSetup;
+        (__this_00->fields)._size = uVar2 + 1;
+        if ((uint)pSVar4->max_length <= uVar2) break;
+        pSVar4->m_Items[(int)uVar2] = pSVar6;
+        Il2CppCodeGenWriteBarrier(pSVar4->m_Items + (int)uVar2,pSVar6);
+        iVar8 = local_res10[0] + 1;
       }
     }
+    ThrowIndexOutOfRangeException();
   }
-label_0435ad53:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
+label_1821d2484:
+  ThrowNullReferenceException();
+label_1821d2465:
+  if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+    pUVar7 = System_Collections_Generic_List_object___ToArray
+                       ((System_Collections_Generic_List_T__o *)__this_00,
+                        (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+    return (System_String_array *)pUVar7;
   }
-  lVar7 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  plVar15 = (long *)set;
-  if (((lVar7 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar7 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pSVar13 = (Settings_HumanCustomSet_o *)
-                Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pSVar13 != (Settings_HumanCustomSet_o *)0x0)) {
-    bVar2 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-    plVar15 = (long *)pSVar13;
-    if (((((Settings_BaseSetSetting_c *)pSVar13->klass)->_2).naturalAligment < bVar2) ||
-       ((((Settings_BaseSetSetting_c *)pSVar13->klass)->_2).typeHierarchy[(ulong)bVar2 - 1] != TypeInfo_HumanCustomSet))
-    goto label_0435b02b;
-    pSVar5 = (pSVar13->fields).Sex;
-    if ((pSVar5 != (Settings_IntSetting_o *)0x0) &&
-       (__this_01 = (pSVar13->fields).Hair, __this_01 != (Settings_StringSetting_o *)0x0)) {
-      if ((pSVar5->fields)._value == 0) {
-        puVar14 = &"HairM0";
-      }
-      else {
-        puVar14 = &"HairF0";
-      }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)*puVar14,MethodInfo_Void_set_Value);
-      pSVar5 = (pSVar13->fields).Costume;
-      if (pSVar5 != (Settings_IntSetting_o *)0x0) {
-        Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar5,0,MethodInfo_Void_set_Value);
-        pUVar8 = (__this->fields)._menu;
-        if (pUVar8 != (UI_CharacterEditorMenu_o *)0x0) {
-          (*(pUVar8->klass->vtable)._8_RebuildPanels.methodPtr)
-                    (pUVar8,1,(pUVar8->klass->vtable)._8_RebuildPanels.method);
-          pUVar8 = (__this->fields)._menu;
-          if (pUVar8 != (UI_CharacterEditorMenu_o *)0x0) {
-            (*(pUVar8->klass->vtable)._9_ResetCharacter.methodPtr)
-                      (pUVar8,1,(pUVar8->klass->vtable)._9_ResetCharacter.method);
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            plVar15 = &TypeInfo_CharacterEditorSkinsPanel;
-            pSVar12 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-            if (*(char *)&(pSVar12->obj).klass == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                pSVar12 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-                cVar3 = *(char *)((long)&(pSVar12->obj).klass + 1);
-              }
-              else {
-                cVar3 = *(char *)((long)&(pSVar12->obj).klass + 1);
-              }
-              if (cVar3 == '\0') {
-                return pSVar12;
-              }
-            }
-            pUVar8 = (__this->fields)._menu;
-            if ((pUVar8 != (UI_CharacterEditorMenu_o *)0x0) &&
-               (pGVar9 = (pUVar8->fields)._gameManager,
-               pGVar9 != (GameManagers_CharacterEditorGameManager_o *)0x0)) {
-              __this_02 = (pGVar9->fields).Human;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar10 = UnityEngine_Object__op_Inequality
-                                 ((UnityEngine_Object_o *)__this_02,(UnityEngine_Object_o *)0x0,
-                                  (MethodInfo *)0x0);
-              if ((char)bVar10 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                __this_03 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (__this_03,0,(MethodInfo *)0x0);
-                pSVar12 = (System_String_array *)
-                          UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                                    ((UnityEngine_MonoBehaviour_o *)__this,
-                                     (System_Collections_IEnumerator_o *)__this_03,(MethodInfo *)0x0);
-                return pSVar12;
-              }
-              plVar15 = (long *)0x0;
-              if (__this_02 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_02,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(plVar15);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pSVar12 = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-            ((UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)pSVar12,0,(MethodInfo *)0x0
-            );
-  return pSVar12;
+  goto label_1821d2484;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GetIcons
 // il2cpp: System_String_array* UI_CharacterEditorCostumePanel__GetIcons (UI_CharacterEditorCostumePanel_o* __this, System_String_array* options, const MethodInfo* method);
-// 0x435a4e0
+// 0x1821d2710
 
 System_String_array *
 UI_CharacterEditorCostumePanel__GetIcons
@@ -4574,1072 +3263,488 @@ UI_CharacterEditorCostumePanel__GetIcons
 
 {
   int32_t *piVar1;
-  int *piVar2;
-  char cVar3;
-  uint uVar4;
-  System_Object_array *pSVar5;
-  InvokerMethod pIVar6;
-  long lVar7;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  UnityEngine_MonoBehaviour_c *pUVar8;
-  void *pvVar9;
-  Characters_DummyHuman_o *__this_01;
-  int iVar10;
-  bool_conflict bVar11;
-  System_Collections_Generic_List_object__o *__this_02;
-  System_Collections_Generic_List_object__o *__this_03;
-  MethodInfo_362B8B0 *__this_04;
-  System_String_o *pSVar12;
-  System_String_array *pSVar13;
-  MethodInfo_362B8B0 *pMVar14;
-  undefined8 *puVar15;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_05;
-  System_String_o *unaff_RBX;
-  System_String_o *unaff_RBP;
-  UnityEngine_MonoBehaviour_o *__this_06;
-  System_String_o *unaff_R12;
-  undefined8 *unaff_R13;
-  undefined8 uStack_a8;
-  System_Collections_Generic_List_object__o *pSStack_a0;
-  System_String_o *pSStack_98;
-  undefined8 *puStack_90;
-  System_String_array *pSStack_88;
-  System_Collections_Generic_List_object__o *pSStack_80;
-  System_String_o *pSStack_78;
-  undefined1 auStack_70 [8];
-  System_String_o *pSStack_68;
-  System_String_o *pSStack_60;
-  undefined8 *puStack_58;
-  System_String_array *pSStack_50;
-  System_Collections_Generic_List_object__o *pSStack_48;
-  System_String_o *pSStack_40;
+  uint uVar2;
+  System_String_array *pSVar3;
+  MethodInfo *pMVar4;
+  System_Collections_Generic_List_string__o *__this_00;
+  System_String_o *pSVar5;
+  UnityEngine_Rendering_RenderGraphModule_RenderGraph_DebugData_PassData_NRPInfo_NativeRenderPassInfo_PassCompatibilityInfo_array
+  *pUVar6;
+  uint uVar7;
   
-  if (g_data_057ae17a == '\0') {
-    pSStack_40 = (System_String_o *)0x435a503;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSStack_40 = (System_String_o *)0x435a50f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    pSStack_40 = (System_String_o *)0x435a51b;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pSStack_40 = (System_String_o *)0x435a527;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    pSStack_40 = (System_String_o *)0x435a533;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    pSStack_40 = (System_String_o *)0x435a53f;
-    il2cpp_runtime_helper_023445d0(&"/Human/Previews/");
-    g_data_057ae17a = '\x01';
+  if (Il2CppMethodInitialized_184346f7e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ToArray);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"/Human/Previews/");
+    Il2CppMethodInitialized_184346f7e = '\x01';
   }
-  pSStack_40 = (System_String_o *)0x435a555;
-  __this_02 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  pSStack_40 = (System_String_o *)0x435a56a;
-  System_Collections_Generic_List_object____ctor(__this_02,MethodInfo_List_1_System_String);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
   if (options != (System_String_array *)0x0) {
-    iVar10 = (int)options->max_length;
-    if (__this_02 != (System_Collections_Generic_List_object__o *)0x0) {
-      if (iVar10 < 1) {
-label_0435a667:
-        pSVar13 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray(__this_02,MethodInfo_String_ToArray);
-        return pSVar13;
+    uVar7 = 0;
+    while ((int)uVar7 < (int)options->max_length) {
+      if ((uint)options->max_length <= uVar7) {
+label_1821d28a5:
+        ThrowIndexOutOfRangeException();
       }
-      unaff_RBX = (System_String_o *)0x0;
-      unaff_R13 = &TypeInfo_ResourcePaths;
-      unaff_RBP = (System_String_o *)&MethodInfo_Void_Add;
-      if ((options->max_length & 0xffffffff) != 0) {
-        do {
-          unaff_R12 = options->m_Items[(long)unaff_RBX];
-          if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-            pSStack_40 = (System_String_o *)0x435a600;
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSStack_40 = (System_String_o *)0x435a623;
-          pSVar12 = System_String__Concat_3af7150
-                              (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",
-                               unaff_R12,(MethodInfo *)0x0);
-          lVar7 = MethodInfo_Void_Add;
-          piVar1 = &(__this_02->fields)._version;
-          *piVar1 = *piVar1 + 1;
-          pSVar5 = (__this_02->fields)._items;
-          if (pSVar5 == (System_Object_array *)0x0) goto label_0435a6d0;
-          uVar4 = (__this_02->fields)._size;
-          if (uVar4 < (uint)pSVar5->max_length) {
-            (__this_02->fields)._size = uVar4 + 1;
-            pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar12;
-            pSStack_40 = (System_String_o *)0x435a662;
-            il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4,pSVar12);
-          }
-          else {
-            pSStack_40 = (System_String_o *)0x435a5ca;
-            System_Collections_Generic_List_object___AddWithResize
-                      (__this_02,(Il2CppObject *)pSVar12,
-                       *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-          }
-          unaff_RBX = (System_String_o *)((long)&unaff_RBX->klass + 1);
-          uVar4 = (uint)options->max_length;
-          if ((long)(int)uVar4 <= (long)unaff_RBX) goto label_0435a667;
-        } while (unaff_RBX < (System_String_o *)(ulong)uVar4);
+      pSVar5 = options->m_Items[(int)uVar7];
+      if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
       }
-      pSStack_40 = (System_String_o *)0x435a68c;
-      iVar10 = il2cpp_runtime_helper_022b2ca0();
-    }
-    if (0 < iVar10) {
-      unaff_RBX = options->m_Items[0];
-      unaff_RBP = (System_String_o *)&TypeInfo_ResourcePaths;
-      if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-        pSStack_40 = (System_String_o *)0x435a6ad;
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_40 = (System_String_o *)0x435a6d0;
-      System_String__Concat_3af7150
-                (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 8),"/Human/Previews/",unaff_RBX,
-                 (MethodInfo *)0x0);
-    }
-  }
-label_0435a6d0:
-  pSStack_40 = (System_String_o *)0x435a6d5;
-  auStack_70 = (undefined1  [8])il2cpp_runtime_helper_022b2c90();
-  pSStack_68 = unaff_RBX;
-  pSStack_60 = unaff_R12;
-  puStack_58 = unaff_R13;
-  pSStack_50 = options;
-  pSStack_48 = __this_02;
-  pSStack_40 = unaff_RBP;
-  if (g_data_057ae178 == '\0') {
-    pSStack_78 = (System_String_o *)0x435a700;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    pSStack_78 = (System_String_o *)0x435a70c;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    pSStack_78 = (System_String_o *)0x435a718;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    pSStack_78 = (System_String_o *)0x435a724;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    pSStack_78 = (System_String_o *)0x435a730;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    pSStack_78 = (System_String_o *)0x435a73c;
-    il2cpp_runtime_helper_023445d0(&"HairF");
-    pSStack_78 = (System_String_o *)0x435a748;
-    il2cpp_runtime_helper_023445d0(&"HairM");
-    g_data_057ae178 = '\x01';
-  }
-  auStack_70 = (undefined1  [8])0x0;
-  pSStack_78 = (System_String_o *)0x435a76d;
-  __this_03 = (System_Collections_Generic_List_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-  pSStack_78 = (System_String_o *)0x435a782;
-  __this_04 = MethodInfo_List_1_System_String;
-  System_Collections_Generic_List_object____ctor(__this_03,MethodInfo_List_1_System_String);
-  if (__this_03 != (System_Collections_Generic_List_object__o *)0x0) {
-    unaff_RBP = (System_String_o *)0x0;
-    __this_02 = (System_Collections_Generic_List_object__o *)&TypeInfo_HumanSetup;
-    options = (System_String_array *)(auStack_70 + 4);
-    unaff_R13 = &"HairM";
-    unaff_R12 = (System_String_o *)&MethodInfo_Void_Add;
-    auStack_70 = (undefined1  [8])((ulong)auStack_70 & 0xffffffff);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a811;
-    while( true ) {
-      pSStack_78 = (System_String_o *)0x435a7c5;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)unaff_RBP)
-      break;
-      while( true ) {
-        pSStack_78 = (System_String_o *)0x435a827;
-        __this_04 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)options,(MethodInfo *)0x0);
-        pSStack_78 = (System_String_o *)0x435a835;
-        __this_06 = "HairM";
-        pSVar12 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairM",(System_String_o *)__this_04,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(__this_03->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_03->fields)._items;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (__this_03->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (__this_03->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar12;
-          pSStack_78 = (System_String_o *)0x435a86e;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          pSStack_78 = (System_String_o *)0x435a7fa;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_03,(Il2CppObject *)pSVar12,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        unaff_RBP = (System_String_o *)(ulong)(auStack_70._4_4_ + 1);
-        auStack_70._4_4_ = auStack_70._4_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a811:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c <= (int)unaff_RBP
-           ) goto label_0435a870;
-      }
-    }
-label_0435a870:
-    unaff_RBP = (System_String_o *)0x0;
-    unaff_R13 = &"HairF";
-    auStack_70 = (undefined1  [8])((ulong)auStack_70 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435a8df;
-    while( true ) {
-      pSStack_78 = (System_String_o *)0x435a895;
-      il2cpp_runtime_helper_02337ed0();
-      if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-          (int)unaff_RBP) break;
-      while( true ) {
-        pSStack_78 = (System_String_o *)0x435a8f5;
-        __this_04 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)auStack_70,(MethodInfo *)0x0);
-        pSStack_78 = (System_String_o *)0x435a903;
-        __this_06 = "HairF";
-        pSVar12 = System_String__Concat_3ae5ba0
-                            ((System_String_o *)"HairF",(System_String_o *)__this_04,(MethodInfo *)0x0);
-        lVar7 = MethodInfo_Void_Add;
-        piVar1 = &(__this_03->fields)._version;
-        *piVar1 = *piVar1 + 1;
-        pSVar5 = (__this_03->fields)._items;
-        options = (System_String_array *)auStack_70;
-        if (pSVar5 == (System_Object_array *)0x0) goto label_0435a9e7;
-        uVar4 = (__this_03->fields)._size;
-        if (uVar4 < (uint)pSVar5->max_length) {
-          (__this_03->fields)._size = uVar4 + 1;
-          pSVar5->m_Items[(int)uVar4] = (Il2CppObject *)pSVar12;
-          pSStack_78 = (System_String_o *)0x435a93c;
-          il2cpp_runtime_helper_022b4080(pSVar5->m_Items + (int)uVar4);
-        }
-        else {
-          pSStack_78 = (System_String_o *)0x435a8ca;
-          System_Collections_Generic_List_object___AddWithResize
-                    (__this_03,(Il2CppObject *)pSVar12,
-                     *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-        }
-        unaff_RBP = (System_String_o *)(ulong)(auStack_70._0_4_ + 1);
-        auStack_70._0_4_ = auStack_70._0_4_ + 1;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435a8df:
-        if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback <=
-            (int)unaff_RBP) goto label_0435a93e;
-      }
-    }
-label_0435a93e:
-    pSStack_78 = (System_String_o *)0x435a950;
-    pSVar13 = (System_String_array *)System_Collections_Generic_List_object___ToArray(__this_03,MethodInfo_String_ToArray);
-    return pSVar13;
-  }
-  auStack_70 = (undefined1  [8])((ulong)auStack_70 & 0xffffffff);
-  __this_03 = (System_Collections_Generic_List_object__o *)&TypeInfo_HumanSetup;
-  if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-    pSStack_78 = (System_String_o *)0x435a97f;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  if (*(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).field_0x1c < 1) {
-    auStack_70 = (undefined1  [8])((ulong)auStack_70 & 0xffffffff00000000);
-    if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-      pSStack_78 = (System_String_o *)0x435a9b9;
-      il2cpp_runtime_helper_02337ed0();
-    }
-    __this_06 = TypeInfo_HumanSetup;
-    if (0 < *(int *)&((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._executingCallback) {
-      pSStack_78 = (System_String_o *)0x435a9d3;
-      __this_04 = (MethodInfo_362B8B0 *)System_Int32__ToString((int32_t)auStack_70,(MethodInfo *)0x0);
-      puVar15 = &"HairF";
-      goto label_0435a9da;
-    }
-  }
-  else {
-    pSStack_78 = (System_String_o *)0x435a99b;
-    __this_04 = (MethodInfo_362B8B0 *)System_Int32__ToString((int)auStack_70 + 4,(MethodInfo *)0x0);
-    puVar15 = &"HairM";
-label_0435a9da:
-    __this_06 = (UnityEngine_MonoBehaviour_o *)*puVar15;
-    pSStack_78 = (System_String_o *)0x435a9e7;
-    System_String__Concat_3ae5ba0((System_String_o *)__this_06,(System_String_o *)__this_04,(MethodInfo *)0x0)
-    ;
-  }
-label_0435a9e7:
-  pSStack_78 = (System_String_o *)0x435a9ec;
-  uStack_a8 = il2cpp_runtime_helper_022b2c90();
-  pSStack_a0 = __this_03;
-  pSStack_98 = unaff_R12;
-  puStack_90 = unaff_R13;
-  pSStack_88 = options;
-  pSStack_80 = __this_02;
-  pSStack_78 = unaff_RBP;
-  if (g_data_057ae179 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanSetup);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_ToArray);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&"CostumeM");
-    __this_06 = (UnityEngine_MonoBehaviour_o *)&"CostumeF";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae179 = '\x01';
-  }
-  uStack_a8 = 0;
-  if ((__this_04 != (MethodInfo_362B8B0 *)0x0) && (__this_04->rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    iVar10 = *(int *)((long)__this_04->rgctx_data + 0x14);
-    __this_04 = (MethodInfo_362B8B0 *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-    System_Collections_Generic_List_object____ctor
-              ((System_Collections_Generic_List_object__o *)__this_04,MethodInfo_List_1_System_String);
-    if (iVar10 == 0) {
-      if (__this_04 != (MethodInfo_362B8B0 *)0x0) {
-        iVar10 = 0;
-        uStack_a8 = uStack_a8 & 0xffffffff;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ac41;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar10 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields).
-                       _threadIDExecutingCallbacks) {
-          while( true ) {
-            pSVar12 = System_Int32__ToString((int)&uStack_a8 + 4,(MethodInfo *)0x0);
-            __this_06 = "CostumeM";
-            pSVar12 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeM",pSVar12,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_04->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_04->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_04->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_04->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar12;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_04,(Il2CppObject *)pSVar12,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar10 = uStack_a8._4_4_ + 1;
-            uStack_a8 = CONCAT44(iVar10,(int)uStack_a8);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ac41:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks <=
-                iVar10) goto label_0435aca0;
-          }
-        }
-        goto label_0435aca0;
-      }
-      uStack_a8 = uStack_a8 & 0xffffffff;
-      __this_04 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_06 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._threadIDExecutingCallbacks) {
-        pSVar12 = System_Int32__ToString((int)&uStack_a8 + 4,(MethodInfo *)0x0);
-        puVar15 = &"CostumeM";
-        goto label_0435ad46;
-      }
-    }
-    else {
-      if (__this_04 != (MethodInfo_362B8B0 *)0x0) {
-        iVar10 = 0;
-        uStack_a8 = (ulong)uStack_a8._4_4_ << 0x20;
-        if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) != 0) goto label_0435ab4f;
-        while (il2cpp_runtime_helper_02337ed0(),
-              iVar10 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-          while( true ) {
-            pSVar12 = System_Int32__ToString((int32_t)&uStack_a8,(MethodInfo *)0x0);
-            __this_06 = "CostumeF";
-            pSVar12 = System_String__Concat_3ae5ba0((System_String_o *)"CostumeF",pSVar12,(MethodInfo *)0x0)
-            ;
-            lVar7 = MethodInfo_Void_Add;
-            piVar2 = (int *)((long)&__this_04->name + 4);
-            *piVar2 = *piVar2 + 1;
-            pIVar6 = __this_04->invoker_method;
-            if (pIVar6 == (InvokerMethod)0x0) goto label_0435ad53;
-            uVar4 = *(uint *)&__this_04->name;
-            if (uVar4 < *(uint *)(pIVar6 + 0x18)) {
-              *(uint *)&__this_04->name = uVar4 + 1;
-              *(System_String_o **)(pIVar6 + (long)(int)uVar4 * 8 + 0x20) = pSVar12;
-              il2cpp_runtime_helper_022b4080(pIVar6 + (long)(int)uVar4 * 8 + 0x20);
-            }
-            else {
-              System_Collections_Generic_List_object___AddWithResize
-                        ((System_Collections_Generic_List_object__o *)__this_04,(Il2CppObject *)pSVar12,
-                         *(MethodInfo_362C220 **)(*(long *)(*(long *)(lVar7 + 0x20) + 0xc0) + 0x70));
-            }
-            iVar10 = (int)uStack_a8 + 1;
-            uStack_a8 = CONCAT44(uStack_a8._4_4_,iVar10);
-            if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) break;
-label_0435ab4f:
-            if (((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed <= iVar10)
-            goto label_0435aca0;
-          }
-        }
-label_0435aca0:
-        pSVar13 = (System_String_array *)
-                  System_Collections_Generic_List_object___ToArray
-                            ((System_Collections_Generic_List_object__o *)__this_04,MethodInfo_String_ToArray);
-        return pSVar13;
-      }
-      uStack_a8 = (ulong)uStack_a8._4_4_ << 0x20;
-      __this_04 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-      if (*(int *)((long)&TypeInfo_HumanSetup[7].klass + 4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      __this_06 = TypeInfo_HumanSetup;
-      if (0 < ((TypeInfo_HumanSetup[5].fields.m_CancellationTokenSource)->fields)._disposed) {
-        pSVar12 = System_Int32__ToString((int32_t)&uStack_a8,(MethodInfo *)0x0);
-        puVar15 = &"CostumeF";
-label_0435ad46:
-        __this_04 = (MethodInfo_362B8B0 *)&TypeInfo_HumanSetup;
-        __this_06 = (UnityEngine_MonoBehaviour_o *)*puVar15;
-        System_String__Concat_3ae5ba0((System_String_o *)__this_06,pSVar12,(MethodInfo *)0x0);
-      }
-    }
-  }
-label_0435ad53:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
-  }
-  lVar7 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar7 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar7 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pMVar14 = (MethodInfo_362B8B0 *)
-                Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pMVar14 != (MethodInfo_362B8B0 *)0x0)) {
-    __this_04 = pMVar14;
-    if (((byte)pMVar14->methodPointer[0x130] < (byte)*(code *)(TypeInfo_HumanCustomSet + 0x130)) ||
-       (*(long *)(*(long *)(pMVar14->methodPointer + 200) + -8 +
-                 (ulong)(byte)*(code *)(TypeInfo_HumanCustomSet + 0x130) * 8) != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pMVar14->rgctx_data != (Il2CppRGCTXData *)0x0) &&
-       ((Settings_TypedSetting_T__o *)pMVar14[1].methodPointer != (Settings_TypedSetting_T__o *)0x0)) {
-      if (*(int *)((long)pMVar14->rgctx_data + 0x14) == 0) {
-        puVar15 = &"HairM0";
+      pSVar5 = System_String__Concat_1969b70
+                         (TypeInfo_Utility_ResourcePaths->static_fields->Characters,"/Human/Previews/",
+                          pSVar5,(MethodInfo *)0x0);
+      pMVar4 = MethodInfo_System_Collections_Generic_List_string_Add;
+      if (__this_00 == (System_Collections_Generic_List_string__o *)0x0) goto label_1821d289f;
+      piVar1 = &(__this_00->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      pSVar3 = (__this_00->fields)._items;
+      if (pSVar3 == (System_String_array *)0x0) goto label_1821d289f;
+      uVar2 = (__this_00->fields)._size;
+      if (uVar2 < (uint)pSVar3->max_length) {
+        (__this_00->fields)._size = uVar2 + 1;
+        if ((uint)pSVar3->max_length <= uVar2) goto label_1821d28a5;
+        pSVar3->m_Items[(int)uVar2] = pSVar5;
+        Il2CppCodeGenWriteBarrier(pSVar3->m_Items + (int)uVar2,pSVar5);
+        uVar7 = uVar7 + 1;
       }
       else {
-        puVar15 = &"HairF0";
-      }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)pMVar14[1].methodPointer,(Il2CppObject *)*puVar15,MethodInfo_Void_set_Value)
-      ;
-      if ((Settings_TypedSetting_int__o *)pMVar14[1].virtualMethodPointer !=
-          (Settings_TypedSetting_int__o *)0x0) {
-        Settings_TypedSetting_int___set_Value
-                  ((Settings_TypedSetting_int__o *)pMVar14[1].virtualMethodPointer,0,MethodInfo_Void_set_Value);
-        pUVar8 = __this_06[4].klass;
-        if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-          pvVar9 = (pUVar8->_1).image;
-          (**(code **)((long)pvVar9 + 0x1b8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1c0));
-          pUVar8 = __this_06[4].klass;
-          if (pUVar8 != (UnityEngine_MonoBehaviour_c *)0x0) {
-            pvVar9 = (pUVar8->_1).image;
-            (**(code **)((long)pvVar9 + 0x1c8))(pUVar8,1,*(undefined8 *)((long)pvVar9 + 0x1d0));
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            __this_04 = (MethodInfo_362B8B0 *)&TypeInfo_CharacterEditorSkinsPanel;
-            pSVar13 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-            if (*(char *)&(pSVar13->obj).klass == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                pSVar13 = *(System_String_array **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-                cVar3 = *(char *)((long)&(pSVar13->obj).klass + 1);
-              }
-              else {
-                cVar3 = *(char *)((long)&(pSVar13->obj).klass + 1);
-              }
-              if (cVar3 == '\0') {
-                return pSVar13;
-              }
-            }
-            if ((__this_06[4].klass != (UnityEngine_MonoBehaviour_c *)0x0) &&
-               (pvVar9 = ((__this_06[4].klass)->_1).methods, pvVar9 != (void *)0x0)) {
-              __this_01 = *(Characters_DummyHuman_o **)((long)pvVar9 + 0x28);
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar11 = UnityEngine_Object__op_Inequality
-                                 ((UnityEngine_Object_o *)__this_01,(UnityEngine_Object_o *)0x0,
-                                  (MethodInfo *)0x0);
-              if ((char)bVar11 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                __this_05 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (__this_05,0,(MethodInfo *)0x0);
-                pSVar13 = (System_String_array *)
-                          UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                                    (__this_06,(System_Collections_IEnumerator_o *)__this_05,(MethodInfo *)0x0
-                                    );
-                return pSVar13;
-              }
-              __this_04 = (MethodInfo_362B8B0 *)0x0;
-              if (__this_01 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_01,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
+        System_Collections_Generic_List_object___AddWithResize
+                  ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)pSVar5,
+                   (MethodInfo_93DD50 *)pMVar4->klass->rgctx_data[0xe].method);
+        uVar7 = uVar7 + 1;
       }
     }
+    if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+      pUVar6 = System_Collections_Generic_List_object___ToArray
+                         ((System_Collections_Generic_List_T__o *)__this_00,
+                          (MethodInfo_929FE0 *)MethodInfo_System_Collections_Generic_List_string_ToArray);
+      return (System_String_array *)pUVar6;
+    }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(__this_04);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pSVar13 = (System_String_array *)il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-            ((UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)pSVar13,0,(MethodInfo *)0x0
-            );
-  return pSVar13;
+label_1821d289f:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$OnSexChanged
 // il2cpp: void UI_CharacterEditorCostumePanel__OnSexChanged (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435ad60
+// 0x1821d4550
 
 void UI_CharacterEditorCostumePanel__OnSexChanged(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
 
 {
   byte bVar1;
-  char cVar2;
-  long lVar3;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  Settings_StringSetting_o *__this_01;
-  Settings_BoolSetting_o *__this_02;
-  UI_CharacterEditorMenu_o *pUVar4;
-  GameManagers_CharacterEditorGameManager_o *pGVar5;
+  Settings_HumanCustomSettings_o *pSVar2;
+  Settings_SetSettingsContainer_HumanCustomSet__o *__this_00;
+  System_Collections_Generic_Dictionary_string__BaseSetting__o *__this_01;
+  System_Collections_Generic_HashSet_string__o *__this_02;
+  UI_CharacterEditorMenu_o *pUVar3;
+  GameManagers_CharacterEditorGameManager_o *pGVar4;
   Characters_DummyHuman_o *__this_03;
-  bool_conflict bVar6;
-  Settings_BaseSetSetting_o *pSVar7;
-  undefined8 *puVar8;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *pUVar9;
-  long *unaff_RBX;
+  bool bVar5;
+  Settings_BaseSetSetting_o *pSVar6;
+  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *routine;
+  System_String_o *value;
+  undefined8 uVar7;
+  System_Type_o *pSVar8;
   
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
+  if (Il2CppMethodInitialized_184346f7f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&"HairM0");
+    il2cpp_codegen_initialize_runtime_metadata(&"HairF0");
+    Il2CppMethodInitialized_184346f7f = '\x01';
   }
-  lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar3 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pSVar7 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pSVar7 != (Settings_BaseSetSetting_o *)0x0)) {
-    bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-    unaff_RBX = (long *)pSVar7;
-    if (((pSVar7->klass->_2).naturalAligment < bVar1) ||
-       ((pSVar7->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pSVar7[1].klass != (Settings_BaseSetSetting_c *)0x0) &&
-       (__this_01 = pSVar7[1].fields.Name, __this_01 != (Settings_StringSetting_o *)0x0)) {
-      if (*(int *)((long)&((pSVar7[1].klass)->_1).name + 4) == 0) {
-        puVar8 = &"HairM0";
-      }
-      else {
-        puVar8 = &"HairF0";
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+      (__this_00 = (pSVar2->fields).CustomSets,
+      __this_00 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+     (pSVar6 = Settings_SetSettingsContainer_object___GetSelectedSet
+                         ((Settings_SetSettingsContainer_T__o *)__this_00,
+                          (MethodInfo_C8EAF0 *)
+                          MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet),
+     pSVar6 != (Settings_BaseSetSetting_o *)0x0)) {
+    bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+    if (((pSVar6->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((pSVar6->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar6,TypeInfo_Settings_HumanCustomSet);
+    }
+    if (((*(uint64_t *)((char *)pSVar6 + 0x48)) != (Settings_BaseSetSetting_c *)0x0) &&
+       (__this_01 = (*(uint64_t *)((char *)pSVar6 + 0x68)),
+       __this_01 != (System_Collections_Generic_Dictionary_string__BaseSetting__o *)0x0)) {
+      value = "HairF0";
+      if (*(int *)((longlong)&(((*(Il2CppClass **)((char *)pSVar6 + 0x48)))->_1).namespaze + 4) == 0) {
+        value = "HairM0";
       }
       Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)*puVar8,MethodInfo_Void_set_Value);
-      __this_02 = pSVar7[1].fields.Preset;
-      if (__this_02 != (Settings_BoolSetting_o *)0x0) {
-        Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)__this_02,0,MethodInfo_Void_set_Value);
-        pUVar4 = (__this->fields)._menu;
-        if (pUVar4 != (UI_CharacterEditorMenu_o *)0x0) {
-          (*(pUVar4->klass->vtable)._8_RebuildPanels.methodPtr)
-                    (pUVar4,1,(pUVar4->klass->vtable)._8_RebuildPanels.method);
-          pUVar4 = (__this->fields)._menu;
-          if (pUVar4 != (UI_CharacterEditorMenu_o *)0x0) {
-            (*(pUVar4->klass->vtable)._9_ResetCharacter.methodPtr)
-                      (pUVar4,1,(pUVar4->klass->vtable)._9_ResetCharacter.method);
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
+                ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)value,
+                 (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+      __this_02 = (*(uint64_t *)((char *)pSVar6 + 0x70));
+      if (__this_02 != (System_Collections_Generic_HashSet_string__o *)0x0) {
+        uVar7 = 0;
+        Settings_TypedSetting_int___set_Value
+                  ((Settings_TypedSetting_int__o *)__this_02,0,
+                   (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+        pUVar3 = (__this->fields)._menu;
+        if (pUVar3 != (UI_CharacterEditorMenu_o *)0x0) {
+          pSVar8 = (System_Type_o *)CONCAT71((int7)((ulonglong)uVar7 >> 8),1);
+          (*(pUVar3->klass->vtable)._8_RebuildPanels.methodPtr)
+                    (pUVar3,pSVar8,(pUVar3->klass->vtable)._8_RebuildPanels.method);
+          pUVar3 = (__this->fields)._menu;
+          if (pUVar3 != (UI_CharacterEditorMenu_o *)0x0) {
+            (*(pUVar3->klass->vtable)._9_ResetCharacter.methodPtr)
+                      (pUVar3,(System_Type_o *)CONCAT71((int7)((ulonglong)pSVar8 >> 8),1),
+                       (pUVar3->klass->vtable)._9_ResetCharacter.method);
+            if (Il2CppMethodInitialized_184346ff7 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+              Il2CppMethodInitialized_184346ff7 = '\x01';
             }
-            unaff_RBX = &TypeInfo_CharacterEditorSkinsPanel;
-            if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                cVar2 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
+            if (TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview == false) {
+              if (Il2CppMethodInitialized_184346ff8 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+                Il2CppMethodInitialized_184346ff8 = '\x01';
               }
-              else {
-                cVar2 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-              }
-              if (cVar2 == '\0') {
+              if (TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview == false)
+              {
                 return;
               }
             }
-            pUVar4 = (__this->fields)._menu;
-            if ((pUVar4 != (UI_CharacterEditorMenu_o *)0x0) &&
-               (pGVar5 = (pUVar4->fields)._gameManager,
-               pGVar5 != (GameManagers_CharacterEditorGameManager_o *)0x0)) {
-              __this_03 = (pGVar5->fields).Human;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
+            pUVar3 = (__this->fields)._menu;
+            if ((pUVar3 != (UI_CharacterEditorMenu_o *)0x0) &&
+               (pGVar4 = (pUVar3->fields)._gameManager,
+               pGVar4 != (GameManagers_CharacterEditorGameManager_o *)0x0)) {
+              __this_03 = (pGVar4->fields).Human;
+              if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
               }
-              bVar6 = UnityEngine_Object__op_Inequality
+              bVar5 = UnityEngine_Object__op_Inequality
                                 ((UnityEngine_Object_o *)__this_03,(UnityEngine_Object_o *)0x0,
                                  (MethodInfo *)0x0);
-              if ((char)bVar6 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                pUVar9 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                         il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (pUVar9,0,(MethodInfo *)0x0);
-                UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar9,
-                           (MethodInfo *)0x0);
-                return;
-              }
-              unaff_RBX = (long *)0x0;
-              if (__this_03 != (Characters_DummyHuman_o *)0x0) {
+              if (bVar5) {
+                if (__this_03 == (Characters_DummyHuman_o *)0x0) goto label_1821d47f7;
                 Characters_DummyHuman__LoadSkin(__this_03,(MethodInfo *)0x0);
-                goto label_0435afad;
               }
+              if (Il2CppMethodInitialized_184346f82 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+                Il2CppMethodInitialized_184346f82 = '\x01';
+              }
+              routine = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+              System_Object___ctor
+                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,
+                         (MethodInfo *)0x0);
+              (routine->fields).__1__state = 0;
+              UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                        ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+                         (MethodInfo *)0x0);
+              return;
             }
           }
         }
       }
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(unaff_RBX);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pUVar9 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor(pUVar9,0,(MethodInfo *)0x0);
-  return;
+label_1821d47f7:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$OnCustomSetSelected
 // il2cpp: void UI_CharacterEditorCostumePanel__OnCustomSetSelected (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435b080
+// 0x1821d4000
+// asm: 4 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d415c: mov ebx, esi
+// asm:   0x1821d415e: jmp 0x1821d4199
+// asm:   0x1821d4306: mov rbx, rsi
+// asm:   0x1821d4309: jmp 0x1821d433e
 
 void UI_CharacterEditorCostumePanel__OnCustomSetSelected
                (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
 
 {
-  System_String_o **ppSVar1;
-  char cVar2;
-  int iVar3;
-  long lVar4;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  Settings_StringSetting_o *pSVar5;
+  byte bVar1;
+  Settings_HumanCustomSettings_o *pSVar2;
+  Settings_SetSettingsContainer_HumanCustomSet__o *__this_00;
+  Settings_StringSetting_o *pSVar3;
   System_String_o *b;
+  UI_CharacterEditorHumanMenu_o *pUVar4;
+  UI_PresetSkinEditPopup_o *pUVar5;
   UI_CharacterEditorMenu_o *pUVar6;
-  UI_MessagePopup_o *x;
-  UI_PresetSkinEditPopup_o *__this_01;
-  System_String_o *a;
-  UI_CharacterEditorHumanMenu_o *pUVar7;
-  long *plVar8;
-  bool_conflict bVar9;
-  Settings_BaseSetSetting_o *pSVar10;
-  char *pcVar11;
-  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *pUVar12;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *pUVar13;
-  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this_02;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar14;
-  byte bVar15;
-  Il2CppClass *in_RCX;
-  UI_CharacterEditorMenu_o *x_00;
-  Il2CppClass *pIVar16;
+  System_String_o *value;
+  bool bVar7;
+  bool bVar8;
+  Settings_BaseSetSetting_o *pSVar9;
+  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *routine;
+  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *pUVar10;
+  char cVar11;
+  UI_CharacterEditorHumanMenu_o *x;
   UI_CharacterEditorHumanMenu_o *humanMenu;
-  Il2CppClass **unaff_R12;
-  bool bVar17;
   
-  if (g_data_057ae17c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorHumanMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    g_data_057ae17c = '\x01';
+  if (Il2CppMethodInitialized_184346f80 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorHumanMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    Il2CppMethodInitialized_184346f80 = '\x01';
   }
-  lVar4 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar4 == 0) ||
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar4 + 0x20),
-      __this_00 == (Settings_SetSettingsContainer_T__o *)0x0)) ||
-     (method = (MethodInfo *)MethodInfo_BaseSetSetting_GetSelectedSet,
-     pSVar10 = Settings_SetSettingsContainer_object___GetSelectedSet
-                         (__this_00,(MethodInfo_39E05D0 *)MethodInfo_BaseSetSetting_GetSelectedSet),
-     pSVar10 == (Settings_BaseSetSetting_o *)0x0)) goto label_0435b5d3;
-  in_RCX = (Il2CppClass *)pSVar10->klass;
-  bVar15 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-  method = (MethodInfo *)TypeInfo_HumanCustomSet;
-  if ((bVar15 <= (in_RCX->_2).naturalAligment) &&
-     (in_RCX = (Il2CppClass *)(in_RCX->_2).typeHierarchy,
-     *(Il2CppClass **)((long)in_RCX + (ulong)bVar15 * 8 + -8) == TypeInfo_HumanCustomSet)) {
-    pSVar5 = (pSVar10->fields).UniqueId;
-    if (pSVar5 == (Settings_StringSetting_o *)0x0) goto label_0435b5d3;
-    b = (pSVar5->fields)._value;
-    ppSVar1 = &(__this->fields)._previousProfileId;
-    bVar9 = System_String__op_Equality((__this->fields)._previousProfileId,b,(MethodInfo *)0x0);
-    if (((char)bVar9 != '\0') && (*ppSVar1 != (System_String_o *)0x0)) {
-      return;
+  pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+  if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+      (__this_00 = (pSVar2->fields).CustomSets,
+      __this_00 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+     (pSVar9 = Settings_SetSettingsContainer_object___GetSelectedSet
+                         ((Settings_SetSettingsContainer_T__o *)__this_00,
+                          (MethodInfo_C8EAF0 *)
+                          MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet),
+     pSVar9 != (Settings_BaseSetSetting_o *)0x0)) {
+    bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+    if (((pSVar9->klass->_2).typeHierarchyDepth < bVar1) ||
+       ((pSVar9->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+        (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+      il2cpp_codegen_raise_invalid_cast_exception(pSVar9,TypeInfo_Settings_HumanCustomSet);
     }
-    pUVar6 = (__this->fields)._menu;
-    unaff_R12 = &TypeInfo_CharacterEditorHumanMenu;
-    if (pUVar6 == (UI_CharacterEditorMenu_o *)0x0) {
-label_0435b1f2:
-      x_00 = (UI_CharacterEditorMenu_o *)0x0;
-      iVar3 = *(int *)(TypeInfo_Object + 0xe4);
-    }
-    else {
-      bVar15 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-      in_RCX = TypeInfo_CharacterEditorHumanMenu;
-      if ((pUVar6->klass->_2).naturalAligment < bVar15) goto label_0435b1f2;
-      x_00 = (UI_CharacterEditorMenu_o *)0x0;
-      if ((pUVar6->klass->_2).typeHierarchy[(ulong)bVar15 - 1] == TypeInfo_CharacterEditorHumanMenu) {
-        x_00 = pUVar6;
+    pSVar3 = (pSVar9->fields).UniqueId;
+    if (pSVar3 != (Settings_StringSetting_o *)0x0) {
+      b = (pSVar3->fields)._value;
+      bVar7 = System_String__op_Equality((__this->fields)._previousProfileId,b,(MethodInfo *)0x0);
+      if ((bVar7) && ((__this->fields)._previousProfileId != (System_String_o *)0x0)) {
+        return;
       }
-      iVar3 = *(int *)(TypeInfo_Object + 0xe4);
-    }
-    if (iVar3 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    method = (MethodInfo *)0x0;
-    bVar9 = UnityEngine_Object__op_Inequality
-                      ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar9 == '\0') {
-label_0435b27a:
+      pUVar4 = (UI_CharacterEditorHumanMenu_o *)(__this->fields)._menu;
+      humanMenu = (UI_CharacterEditorHumanMenu_o *)0x0;
+      bVar7 = true;
+      x = humanMenu;
+      if (pUVar4 != (UI_CharacterEditorHumanMenu_o *)0x0) {
+        bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+        if (((((GameManagers_BaseGameManager_c *)pUVar4->klass)->_2).typeHierarchyDepth < bVar1) ||
+           (bVar8 = true,
+           (((GameManagers_BaseGameManager_c *)pUVar4->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+           (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+          bVar8 = false;
+        }
+        x = (UI_CharacterEditorHumanMenu_o *)0x0;
+        if (bVar8) {
+          x = pUVar4;
+        }
+      }
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar8 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (bVar8) {
+        if (x == (UI_CharacterEditorHumanMenu_o *)0x0) goto label_1821d452f;
+        pUVar5 = (x->fields)._editPresetSkinPopup;
+        if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+        }
+        bVar8 = UnityEngine_Object__op_Inequality
+                          ((UnityEngine_Object_o *)pUVar5,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+        if (bVar8) {
+          pUVar5 = (x->fields)._editPresetSkinPopup;
+          if (pUVar5 == (UI_PresetSkinEditPopup_o *)0x0) goto label_1821d452f;
+          if ((pUVar5->fields).IsActive != false) {
+            UI_PresetSkinEditPopup__OnCancelClick(pUVar5,(MethodInfo *)0x0);
+          }
+        }
+      }
       pUVar6 = (__this->fields)._menu;
       if (pUVar6 != (UI_CharacterEditorMenu_o *)0x0) {
-        method = (MethodInfo *)0x1;
         (*(pUVar6->klass->vtable)._8_RebuildPanels.methodPtr)
-                  (pUVar6,1,(pUVar6->klass->vtable)._8_RebuildPanels.method);
+                  (pUVar6,(System_Type_o *)0x1,(pUVar6->klass->vtable)._8_RebuildPanels.method);
         pUVar6 = (__this->fields)._menu;
         if (pUVar6 != (UI_CharacterEditorMenu_o *)0x0) {
           (*(pUVar6->klass->vtable)._9_ResetCharacter.methodPtr)
-                    (pUVar6,1,(pUVar6->klass->vtable)._9_ResetCharacter.method);
-          if (g_data_057ae187 == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-            g_data_057ae187 = '\x01';
+                    (pUVar6,(System_Type_o *)0x1,(pUVar6->klass->vtable)._9_ResetCharacter.method);
+          if (Il2CppMethodInitialized_184346ff7 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+            Il2CppMethodInitialized_184346ff7 = '\x01';
           }
-          pcVar11 = *(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-          bVar17 = true;
-          if (*pcVar11 == '\0') {
-            if (g_data_057ae188 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae188 = '\x01';
-              pcVar11 = *(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
+          if (TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview == false) {
+            if (Il2CppMethodInitialized_184346ff8 == '\0') {
+              il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+              Il2CppMethodInitialized_184346ff8 = '\x01';
             }
-            bVar17 = pcVar11[1] != '\0';
-            a = *ppSVar1;
+            cVar11 = TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview;
           }
           else {
-            a = *ppSVar1;
+            cVar11 = '\x01';
           }
-          if ((a == (System_String_o *)0x0) ||
-             (bVar9 = System_String__op_Inequality(a,b,(MethodInfo *)0x0), (char)bVar9 == '\0')) {
-            if ((char)(__this->fields)._shouldGeneratePreviewAfterRebuild == '\0') {
-              if (bVar17) {
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
+          if (((__this->fields)._previousProfileId == (System_String_o *)0x0) ||
+             (bVar8 = System_String__op_Inequality((__this->fields)._previousProfileId,b,(MethodInfo *)0x0),
+             !bVar8)) {
+            if ((__this->fields)._shouldGeneratePreviewAfterRebuild == false) {
+              if (cVar11 != '\0') {
+                if (Il2CppMethodInitialized_184346f82 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata
+                            (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+                  Il2CppMethodInitialized_184346f82 = '\x01';
                 }
-                pUVar13 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                          il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (pUVar13,0,(MethodInfo *)0x0);
-                UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar13,
+                pUVar10 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)
+                                     TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29)
+                ;
+                System_Configuration_ConfigurationCollectionAttribute___ctor
+                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pUVar10,
+                           (MethodInfo *)0x0);
+                (pUVar10->fields).__1__state = 0;
+                UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar10,
                            (MethodInfo *)0x0);
               }
-              goto label_0435b5b6;
-            }
-            *(undefined1 *)&(__this->fields)._shouldGeneratePreviewAfterRebuild = 0;
-            if (bVar17) {
-              if (g_data_057ae17e == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                g_data_057ae17e = '\x01';
-              }
-              pUVar13 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                        il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-              UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                        (pUVar13,0,(MethodInfo *)0x0);
-              UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                        ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar13,
-                         (MethodInfo *)0x0);
-            }
-            pUVar7 = (UI_CharacterEditorHumanMenu_o *)(__this->fields)._menu;
-            if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-              if (pUVar7 != (UI_CharacterEditorHumanMenu_o *)0x0) goto label_0435b57e;
-label_0435b594:
-              humanMenu = (UI_CharacterEditorHumanMenu_o *)0x0;
             }
             else {
-              if (pUVar7 == (UI_CharacterEditorHumanMenu_o *)0x0) goto label_0435b594;
-label_0435b57e:
-              bVar15 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-              if ((((UI_CharacterEditorMenu_c *)pUVar7->klass)->_2).naturalAligment < bVar15)
-              goto label_0435b594;
-              humanMenu = (UI_CharacterEditorHumanMenu_o *)0x0;
-              if ((((UI_CharacterEditorMenu_c *)pUVar7->klass)->_2).typeHierarchy[(ulong)bVar15 - 1] ==
-                  TypeInfo_CharacterEditorHumanMenu) {
-                humanMenu = pUVar7;
+              (__this->fields)._shouldGeneratePreviewAfterRebuild = false;
+              if (cVar11 != '\0') {
+                if (Il2CppMethodInitialized_184346f82 == '\0') {
+                  il2cpp_codegen_initialize_runtime_metadata
+                            (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+                  Il2CppMethodInitialized_184346f82 = '\x01';
+                }
+                pUVar10 = il2cpp_codegen_object_new
+                                    ((Il2CppClass *)
+                                     TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29)
+                ;
+                System_Configuration_ConfigurationCollectionAttribute___ctor
+                          ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)pUVar10,
+                           (MethodInfo *)0x0);
+                (pUVar10->fields).__1__state = 0;
+                UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar10,
+                           (MethodInfo *)0x0);
+              }
+              pUVar4 = (UI_CharacterEditorHumanMenu_o *)(__this->fields)._menu;
+              if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
+              }
+              if (pUVar4 != (UI_CharacterEditorHumanMenu_o *)0x0) {
+                bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+                if (((((UI_CharacterEditorMenu_c *)pUVar4->klass)->_2).typeHierarchyDepth < bVar1) ||
+                   ((((UI_CharacterEditorMenu_c *)pUVar4->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                    (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+                  bVar7 = false;
+                }
+                if (bVar7) {
+                  humanMenu = pUVar4;
+                }
+              }
+              Utility_CharacterPreviewGenerator__GeneratePreviewForHumanSet(humanMenu,true,(MethodInfo *)0x0);
+            }
+          }
+          else {
+            pUVar4 = (UI_CharacterEditorHumanMenu_o *)
+                     TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+            if (pUVar4 != (UI_CharacterEditorHumanMenu_o *)0x0) {
+              bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+              if (((((GameManagers_BaseGameManager_c *)pUVar4->klass)->_2).typeHierarchyDepth < bVar1) ||
+                 (humanMenu = pUVar4,
+                 (((GameManagers_BaseGameManager_c *)pUVar4->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1]
+                 != (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+                il2cpp_codegen_raise_invalid_cast_exception(pUVar4);
               }
             }
-            Utility_CharacterPreviewGenerator__GeneratePreviewForHumanSet(humanMenu,1,(MethodInfo *)0x0);
-label_0435b5b6:
-            *ppSVar1 = b;
-            il2cpp_runtime_helper_022b4080(ppSVar1,b);
-            return;
-          }
-          unaff_R12 = *(Il2CppClass ***)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-          if ((UI_CharacterEditorCostumePanel_o *)unaff_R12 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-            bVar15 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-            in_RCX = (Il2CppClass *)(ulong)bVar15;
-            method = (MethodInfo *)TypeInfo_CharacterEditorGameManager;
-            if (((((UI_CharacterEditorCostumePanel_o *)unaff_R12)->klass->_2).naturalAligment < bVar15) ||
-               ((((UI_CharacterEditorCostumePanel_o *)unaff_R12)->klass->_2).typeHierarchy
-                [(long)((long)&in_RCX[-1].vtable[0xfe].method + 7)] != TypeInfo_CharacterEditorGameManager)) goto label_0435b5e0;
-          }
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar9 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)unaff_R12,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if ((char)bVar9 == '\0') goto label_0435b5b6;
-          pIVar16 = (Il2CppClass *)*ppSVar1;
-          if (g_data_057ae17d == '\0') {
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-            g_data_057ae17d = '\x01';
-          }
-          pUVar12 = (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)
-                    il2cpp_runtime_helper_023052d0(TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-          method = (MethodInfo *)0x0;
-          UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor
-                    (pUVar12,0,(MethodInfo *)0x0);
-          if (pUVar12 !=
-              (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)0x0) {
-            (pUVar12->fields).__4__this = __this;
-            il2cpp_runtime_helper_022b4080(&(pUVar12->fields).__4__this,__this);
-            (pUVar12->fields).previousProfileId = (System_String_o *)pIVar16;
-            il2cpp_runtime_helper_022b4080(&(pUVar12->fields).previousProfileId);
-            *(bool *)&(pUVar12->fields).shouldApplySkinPreview = bVar17;
-            method = (MethodInfo *)pIVar16;
-            if ((UI_CharacterEditorCostumePanel_o *)unaff_R12 != (UI_CharacterEditorCostumePanel_o *)0x0) {
-              UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                        ((UnityEngine_MonoBehaviour_o *)unaff_R12,(System_Collections_IEnumerator_o *)pUVar12,
+            if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+            }
+            bVar7 = UnityEngine_Object__op_Inequality
+                              ((UnityEngine_Object_o *)humanMenu,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0
+                              );
+            if (bVar7) {
+              value = (__this->fields)._previousProfileId;
+              if (Il2CppMethodInitialized_184346f81 == '\0') {
+                il2cpp_codegen_initialize_runtime_metadata
+                          (&
+                           TypeInfo_UI_CharacterEditorCostumePanel_CapturePreviousProfilePreviewAndApplySkins_d__28
+                          );
+                Il2CppMethodInitialized_184346f81 = '\x01';
+              }
+              routine = il2cpp_codegen_object_new
+                                  ((Il2CppClass *)
+                                   TypeInfo_UI_CharacterEditorCostumePanel_CapturePreviousProfilePreviewAndApplySkins_d__28
+                                  );
+              System_Object___ctor
+                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,
                          (MethodInfo *)0x0);
-              goto label_0435b5b6;
+              (routine->fields).__1__state = 0;
+              (routine->fields).__4__this = __this;
+              Il2CppCodeGenWriteBarrier(&(routine->fields).__4__this,__this);
+              (routine->fields).previousProfileId = value;
+              Il2CppCodeGenWriteBarrier(&(routine->fields).previousProfileId,value);
+              (routine->fields).shouldApplySkinPreview = cVar11 != '\0';
+              if (humanMenu == (UI_CharacterEditorHumanMenu_o *)0x0) goto label_1821d452f;
+              UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                        ((UnityEngine_MonoBehaviour_o *)humanMenu,(System_Collections_IEnumerator_o *)routine,
+                         (MethodInfo *)0x0);
             }
           }
+          (__this->fields)._previousProfileId = b;
+          Il2CppCodeGenWriteBarrier(&(__this->fields)._previousProfileId,b);
+          return;
         }
       }
     }
-    else if (x_00 != (UI_CharacterEditorMenu_o *)0x0) {
-      x = x_00[1].fields.MessagePopup;
-      if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      method = (MethodInfo *)0x0;
-      bVar9 = UnityEngine_Object__op_Inequality
-                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-      if ((char)bVar9 != '\0') {
-        __this_01 = (UI_PresetSkinEditPopup_o *)x_00[1].fields.MessagePopup;
-        if (__this_01 == (UI_PresetSkinEditPopup_o *)0x0) goto label_0435b5d3;
-        if ((char)(__this_01->fields).IsActive != '\0') {
-          method = (MethodInfo *)0x0;
-          UI_PresetSkinEditPopup__OnCancelClick(__this_01,(MethodInfo *)0x0);
-        }
-      }
-      goto label_0435b27a;
-    }
-label_0435b5d3:
-    pSVar10 = (Settings_BaseSetSetting_o *)il2cpp_runtime_helper_022b2c90();
   }
-  bVar15 = (byte)in_RCX;
-  il2cpp_runtime_helper_022b2fd0(pSVar10);
-label_0435b5e0:
-  il2cpp_runtime_helper_022b2fd0();
-  if (g_data_057ae17d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-    g_data_057ae17d = '\x01';
-  }
-  __this_02 = (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-  pUVar12 = __this_02;
-  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor
-            (__this_02,0,(MethodInfo *)0x0);
-  if (__this_02 != (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)0x0)
-  {
-    (__this_02->fields).__4__this = (UI_CharacterEditorCostumePanel_o *)unaff_R12;
-    il2cpp_runtime_helper_022b4080(&(__this_02->fields).__4__this,unaff_R12);
-    (__this_02->fields).previousProfileId = (System_String_o *)method;
-    il2cpp_runtime_helper_022b4080(&(__this_02->fields).previousProfileId,method);
-    *(byte *)&(__this_02->fields).shouldApplySkinPreview = bVar15;
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  plVar8 = *(long **)&pUVar12[1].fields.shouldApplySkinPreview;
-  if (plVar8 == (long *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar14 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar14,0,(MethodInfo *)0x0);
-    return;
-  }
-  (**(code **)(*plVar8 + 0x1c8))(plVar8,0,*(undefined8 *)(*plVar8 + 0x1d0));
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar2 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar2 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar2 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar14 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-            il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar14,0,(MethodInfo *)0x0)
-  ;
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)pUVar12,(System_Collections_IEnumerator_o *)pUVar14,
-             (MethodInfo *)0x0);
-  return;
+label_1821d452f:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$CapturePreviousProfilePreviewAndApplySkins
 // il2cpp: System_Collections_IEnumerator_o* UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins (UI_CharacterEditorCostumePanel_o* __this, System_String_o* previousProfileId, System_String_o* currentProfileId, bool shouldApplySkinPreview, const MethodInfo* method);
-// 0x435b5f0
+// 0x1821d20c0
 
 System_Collections_IEnumerator_o *
 UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins
           (UI_CharacterEditorCostumePanel_o *__this,System_String_o *previousProfileId,
-          System_String_o *currentProfileId,bool_conflict shouldApplySkinPreview,MethodInfo *method)
+          System_String_o *currentProfileId,bool shouldApplySkinPreview,MethodInfo *method)
 
 {
-  char cVar1;
-  long *plVar2;
-  System_Collections_IEnumerator_o *pSVar3;
   UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this_00;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar4;
-  UnityEngine_Coroutine_o *pUVar5;
-  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *__this_01;
   
-  if (g_data_057ae17d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-    g_data_057ae17d = '\x01';
+  if (Il2CppMethodInitialized_184346f81 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_UI_CharacterEditorCostumePanel_CapturePreviousProfilePreviewAndApplySkins_d__28);
+    Il2CppMethodInitialized_184346f81 = '\x01';
   }
-  __this_00 = (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_CapturePreviousProfilePreviewAndApplySkins_d__28);
-  __this_01 = __this_00;
-  UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28___ctor
-            (__this_00,0,(MethodInfo *)0x0);
-  if (__this_00 != (UI_CharacterEditorCostumePanel__CapturePreviousProfilePreviewAndApplySkins_d__28_o *)0x0)
-  {
-    (__this_00->fields).__4__this = __this;
-    il2cpp_runtime_helper_022b4080(&(__this_00->fields).__4__this,__this);
-    (__this_00->fields).previousProfileId = previousProfileId;
-    il2cpp_runtime_helper_022b4080(&(__this_00->fields).previousProfileId,previousProfileId);
-    *(char *)&(__this_00->fields).shouldApplySkinPreview = (char)shouldApplySkinPreview;
-    return (System_Collections_IEnumerator_o *)__this_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  plVar2 = *(long **)&__this_01[1].fields.shouldApplySkinPreview;
-  if (plVar2 == (long *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar4 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar4,0,(MethodInfo *)0x0);
-    return (System_Collections_IEnumerator_o *)pUVar4;
-  }
-  (**(code **)(*plVar2 + 0x1c8))(plVar2,0,*(undefined8 *)(*plVar2 + 0x1d0));
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  pSVar3 = *(System_Collections_IEnumerator_o **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-  if (*(char *)&pSVar3->klass == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      pSVar3 = *(System_Collections_IEnumerator_o **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-      cVar1 = *(char *)((long)&pSVar3->klass + 1);
-    }
-    else {
-      cVar1 = *(char *)((long)&pSVar3->klass + 1);
-    }
-    if (cVar1 == '\0') {
-      return pSVar3;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar4 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar4,0,(MethodInfo *)0x0);
-  pUVar5 = UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                     ((UnityEngine_MonoBehaviour_o *)__this_01,(System_Collections_IEnumerator_o *)pUVar4,
-                      (MethodInfo *)0x0);
-  return (System_Collections_IEnumerator_o *)pUVar5;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_UI_CharacterEditorCostumePanel_CapturePreviousProfilePreviewAndApplySkins_d__28
+                        );
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
+  (__this_00->fields).__4__this = __this;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).__4__this,__this);
+  (__this_00->fields).previousProfileId = previousProfileId;
+  Il2CppCodeGenWriteBarrier(&(__this_00->fields).previousProfileId,previousProfileId);
+  (__this_00->fields).shouldApplySkinPreview = shouldApplySkinPreview;
+  return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.CharacterEditorCostumePanel$$ApplySkinPreviewAfterReset
 // il2cpp: System_Collections_IEnumerator_o* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435b040
+// 0x1821d2070
 
 System_Collections_IEnumerator_o *
 UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset
@@ -5648,70 +3753,64 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset
 {
   UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *__this_00;
   
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
+  if (Il2CppMethodInitialized_184346f82 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+    Il2CppMethodInitialized_184346f82 = '\x01';
   }
-  __this_00 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor(__this_00,0,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterReset_d__29);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.CharacterEditorCostumePanel$$OnCharacterChanged
 // il2cpp: void UI_CharacterEditorCostumePanel__OnCharacterChanged (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435b680
+// 0x1821d36b0
 
 void UI_CharacterEditorCostumePanel__OnCharacterChanged
                (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
 
 {
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
+  UI_CharacterEditorMenu_o *pUVar1;
+  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *routine;
   
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
+  pUVar1 = (__this->fields)._menu;
+  if (pUVar1 == (UI_CharacterEditorMenu_o *)0x0) {
+    ThrowNullReferenceException();
   }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
+  (*(pUVar1->klass->vtable)._9_ResetCharacter.methodPtr)
+            (pUVar1,(System_Type_o *)0x0,(pUVar1->klass->vtable)._9_ResetCharacter.method);
+  if (Il2CppMethodInitialized_184346ff7 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+    Il2CppMethodInitialized_184346ff7 = '\x01';
   }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
+  if (TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentGlobalSkinPreview == false) {
+    if (Il2CppMethodInitialized_184346ff8 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorSkinsPanel);
+      Il2CppMethodInitialized_184346ff8 = '\x01';
     }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
+    if (TypeInfo_UI_CharacterEditorSkinsPanel->static_fields->_persistentCustomSkinPreview == false) {
       return;
     }
   }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
+  if (Il2CppMethodInitialized_184346f83 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterCostumeChange_d__31);
+    Il2CppMethodInitialized_184346f83 = '\x01';
   }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
+  routine = il2cpp_codegen_object_new
+                      ((Il2CppClass *)
+                       TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterCostumeChange_d__31);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+  (routine->fields).__1__state = 0;
+  UnityEngine_MonoBehaviour__StartCoroutine_Auto
+            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
              (MethodInfo *)0x0);
   return;
 }
@@ -5719,7 +3818,7 @@ void UI_CharacterEditorCostumePanel__OnCharacterChanged
 
 // UI.CharacterEditorCostumePanel$$ApplySkinPreviewAfterCostumeChange
 // il2cpp: System_Collections_IEnumerator_o* UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435b770
+// 0x1821d2020
 
 System_Collections_IEnumerator_o *
 UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange
@@ -5728,21 +3827,24 @@ UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange
 {
   UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *__this_00;
   
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
+  if (Il2CppMethodInitialized_184346f83 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterCostumeChange_d__31);
+    Il2CppMethodInitialized_184346f83 = '\x01';
   }
-  __this_00 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-            (__this_00,0,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)
+                         TypeInfo_UI_CharacterEditorCostumePanel_ApplySkinPreviewAfterCostumeChange_d__31);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.CharacterEditorCostumePanel$$GeneratePreviewForCurrentSet
 // il2cpp: void UI_CharacterEditorCostumePanel__GeneratePreviewForCurrentSet (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435b7b0
+// 0x1821d2140
 
 void UI_CharacterEditorCostumePanel__GeneratePreviewForCurrentSet
                (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
@@ -5750,877 +3852,1021 @@ void UI_CharacterEditorCostumePanel__GeneratePreviewForCurrentSet
 {
   byte bVar1;
   UI_CharacterEditorHumanMenu_o *pUVar2;
+  bool bVar3;
   UI_CharacterEditorHumanMenu_o *humanMenu;
   
-  if (g_data_057ae180 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorHumanMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    g_data_057ae180 = '\x01';
+  if (Il2CppMethodInitialized_184346f84 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorHumanMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    Il2CppMethodInitialized_184346f84 = '\x01';
   }
   pUVar2 = (UI_CharacterEditorHumanMenu_o *)(__this->fields)._menu;
-  if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
   }
+  humanMenu = (UI_CharacterEditorHumanMenu_o *)0x0;
   if (pUVar2 != (UI_CharacterEditorHumanMenu_o *)0x0) {
-    bVar1 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-    if (bVar1 <= (((UI_CharacterEditorMenu_c *)pUVar2->klass)->_2).naturalAligment) {
-      humanMenu = (UI_CharacterEditorHumanMenu_o *)0x0;
-      if ((((UI_CharacterEditorMenu_c *)pUVar2->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_CharacterEditorHumanMenu) {
-        humanMenu = pUVar2;
-      }
-      Utility_CharacterPreviewGenerator__GeneratePreviewForHumanSet(humanMenu,0,(MethodInfo *)0x0);
-      return;
+    bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+    if (((((UI_CharacterEditorMenu_c *)pUVar2->klass)->_2).typeHierarchyDepth < bVar1) ||
+       (bVar3 = true,
+       (((UI_CharacterEditorMenu_c *)pUVar2->klass)->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+       (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+      bVar3 = false;
+    }
+    if (bVar3) {
+      humanMenu = pUVar2;
     }
   }
-  Utility_CharacterPreviewGenerator__GeneratePreviewForHumanSet
-            ((UI_CharacterEditorHumanMenu_o *)0x0,0,(MethodInfo *)0x0);
+  Utility_CharacterPreviewGenerator__GeneratePreviewForHumanSet(humanMenu,false,(MethodInfo *)0x0);
   return;
 }
 
 
 // UI.CharacterEditorCostumePanel$$OnButtonClick
 // il2cpp: void UI_CharacterEditorCostumePanel__OnButtonClick (UI_CharacterEditorCostumePanel_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x435b850
+// 0x1821d2a40
+// asm: 81 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d2e3f: xor edx, edx
+// asm:   0x1821d2e41: mov r9, rax
+// asm:   0x1821d2e44: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d2e49: mov r8, rdi
+// asm:   0x1821d2e4c: mov rdx, rbp
+// asm:   0x1821d2e4f: mov rcx, rsi
+// asm:   0x1821d2f1f: xor edx, edx
+// asm:   0x1821d2f21: mov r9, rax
+// asm:   0x1821d2f24: mov qword ptr [rsp + 0x28], rdx
+// asm:   0x1821d2f29: mov r8, rbx
+// asm:   0x1821d2f2c: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d2f31: mov rcx, rbp
+// asm:   0x1821d2f34: mov rdx, rsi
+// asm:   0x1821d2f37: call 0x1821cb5d0  ; UI_SetNamePopup__Show()
+// asm:   0x1821d2f3c: jmp 0x1821d2e57
+// asm:   0x1821d3097: xor r8d, r8d
+// asm:   0x1821d309a: mov rdx, rax
+// asm:   0x1821d309d: mov rcx, rdi
+// asm:   0x1821d30a0: call 0x1821c13f0  ; UI_ExportPopup__Show()
+// asm:   0x1821d30a5: jmp 0x1821d2e57
+// asm:   0x1821d3104: mov rcx, qword ptr [rip + 0x1eb0f35]  ; "Copy"
+// asm:   0x1821d310b: jmp 0x1821d3172
+// asm:   0x1821d316b: mov rcx, qword ptr [rip + 0x1eb9bae]  ; "Create"
+// asm:   0x1821d3182: xor edx, edx
+// asm:   0x1821d3184: mov r9, rax
+// asm:   0x1821d3187: mov qword ptr [rsp + 0x28], rdx
+// asm:   0x1821d318c: mov r8, rbx
+// asm:   0x1821d318f: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d3194: mov rcx, rbp
+// asm:   0x1821d3197: mov rdx, qword ptr [rip + 0x1eba402]  ; "New set"
+// asm:   0x1821d319e: call 0x1821cb5d0  ; UI_SetNamePopup__Show()
+// asm:   0x1821d31a3: jmp 0x1821d2e57
+// asm:   0x1821d3285: xor edx, edx
+// asm:   0x1821d3287: mov r9, rax
+// asm:   0x1821d328a: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d328f: mov r8, rsi
+// asm:   0x1821d3292: mov rdx, rbp
+// asm:   0x1821d3295: mov rcx, rbx
+// asm:   0x1821d3298: jmp 0x1821d2e52
+// asm:   0x1821d3381: mov r8, qword ptr [rip + 0x1f07330]  ; "Presets"
+// asm:   0x1821d3388: xor edx, edx
+// asm:   0x1821d338a: mov qword ptr [rsp + 0x30], rdx
+// asm:   0x1821d338f: mov r9, rsi
+// asm:   0x1821d3392: mov qword ptr [rsp + 0x28], rdx
+// asm:   0x1821d3397: mov rcx, rbx
+// asm:   0x1821d339a: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d339f: mov rdx, rbp
+// asm:   0x1821d33a2: call 0x1821ca2b0  ; UI_SelectListPopup__ShowLoad()
+// asm:   0x1821d33a7: jmp 0x1821d2e57
+// asm:   0x1821d34f3: mov r10d, edx
+// asm:   0x1821d34f6: jmp 0x1821d352c
+// asm:   0x1821d357a: mov r8d, edx
+// asm:   0x1821d358a: mov qword ptr [rsp + 0x20], rdx
+// asm:   0x1821d358f: xor r9d, r9d
+// asm:   0x1821d3592: mov rdx, r10
+// asm:   0x1821d3595: call 0x182159de0  ; Characters_HumanSetup__Load()
+// asm:   0x1821d359a: xor edx, edx
+// asm:   0x1821d359c: mov rcx, r14
+// asm:   0x1821d359f: call 0x1821d4810  ; UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine()
+// asm:   0x1821d35a4: mov rdx, rax
+// asm:   0x1821d35a7: xor r8d, r8d
+// asm:   0x1821d35aa: mov rcx, rbx
+// asm:   0x1821d35ad: call 0x182f1cef0  ; UnityEngine_MonoBehaviour__StartCoroutine()
+// asm:   0x1821d35b2: jmp 0x1821d2e57
+// asm:   0x1821d35b7: xor edx, edx
+// asm:   0x1821d35b9: mov rcx, r14
+// asm:   0x1821d35bc: call 0x1821d4810  ; UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine()
+// asm:   0x1821d35c1: mov rdx, rax
+// asm:   0x1821d35c4: xor r8d, r8d
+// asm:   0x1821d35c7: mov rcx, r14
+// asm:   0x1821d35ca: call 0x182f1cef0  ; UnityEngine_MonoBehaviour__StartCoroutine()
+// asm:   0x1821d35cf: jmp 0x1821d2e57
+// asm:   0x1821d3655: mov r9, qword ptr [rip + 0x1eab8cc]  ; ""
+// asm:   0x1821d365c: xor edx, edx
+// asm:   0x1821d365e: mov qword ptr [rsp + 0x28], rdx
+// asm:   0x1821d3663: mov r8b, 1
+// asm:   0x1821d3666: mov rdx, rsi
+// asm:   0x1821d3669: mov qword ptr [rsp + 0x20], r9
+// asm:   0x1821d366e: mov rcx, rbx
+// asm:   0x1821d3671: call 0x1821c4c20  ; UI_ImportPopup__Show()
+// asm:   0x1821d3676: jmp 0x1821d2e57
 
 void UI_CharacterEditorCostumePanel__OnButtonClick
                (UI_CharacterEditorCostumePanel_o *__this,System_String_o *name,MethodInfo *method)
 
 {
   byte bVar1;
-  int iVar2;
-  long lVar3;
-  long lVar4;
+  Settings_HumanCustomSettings_o *pSVar2;
+  UI_BaseMenu_o *pUVar3;
   UI_SetNamePopup_o *__this_00;
-  UI_ImportPopup_o *__this_01;
-  UI_SelectListPopup_o *__this_02;
-  Settings_BaseSetSetting_c *pSVar5;
-  Il2CppClass *pIVar6;
-  UI_ConfirmPopup_o *__this_03;
-  Settings_StringSetting_o *pSVar7;
-  UI_ExportPopup_o *__this_04;
-  Settings_SetSettingsContainer_T__o *pSVar8;
+  UI_ConfirmPopup_o *__this_01;
+  Il2CppObject *object;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar4;
+  Settings_StringSetting_o *pSVar5;
+  Settings_BaseSetSetting_c *pSVar6;
+  UI_ExportPopup_o *__this_02;
+  UI_SelectListPopup_o *__this_03;
+  Settings_CustomSkinSettings_o *pSVar7;
+  GameManagers_BaseGameManager_o *__this_04;
+  System_Threading_CancellationTokenSource_o *pSVar8;
   UI_CharacterEditorMenu_o *pUVar9;
   UI_ExternalLinkPopup_o *pUVar10;
-  char cVar11;
+  Characters_HumanSetup_o *__this_05;
+  UI_ImportPopup_o *__this_06;
+  bool bVar11;
   uint32_t uVar12;
-  bool_conflict bVar13;
-  MethodInfo *in_RAX;
-  UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *__this_05;
-  System_Collections_Generic_List_string__o *items;
-  long *plVar14;
+  UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *object_00;
+  System_String_o *pSVar13;
+  UnityEngine_Events_UnityAction_o *pUVar14;
   System_String_o *pSVar15;
-  System_String_o *pSVar16;
-  Settings_BaseSetSetting_o *pSVar17;
-  SimpleJSONFixed_JSONNode_o *pSVar18;
-  Settings_HumanCustomSet_o *customSet;
-  UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *pUVar19;
+  Settings_BaseSetSetting_o *pSVar16;
+  SimpleJSONFixed_JSONNode_o *pSVar17;
+  MethodInfo *pMVar18;
+  System_String_array *collection;
+  System_Collections_Generic_List_string__o *items;
+  Settings_HumanCustomSet_o *pSVar19;
+  System_Collections_IEnumerator_o *pSVar20;
   int32_t weapon;
-  long *unaff_RBX;
-  MethodInfo *in_R8;
-  MethodInfo *in_R9;
-  System_String_o **ppSVar20;
-  undefined1 auVar21 [16];
+  Settings_HumanCustomSet_o *customSet;
   
-  if (g_data_057ae181 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorGameManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorHumanMenu);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_DummyHuman);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_System_String);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SceneLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_CanDeleteSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_GetSetNames);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__33_6);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__2);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__3);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__4);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_OnButtonClick_b__5);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c__DisplayClass33_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UnityAction);
-    il2cpp_runtime_helper_023445d0(&"QuitWithoutSaveConfirm");
-    il2cpp_runtime_helper_023445d0(&"Presets");
-    il2cpp_runtime_helper_023445d0(&"Create");
-    il2cpp_runtime_helper_023445d0(&"SaveQuit");
-    il2cpp_runtime_helper_023445d0(&"Quit");
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    il2cpp_runtime_helper_023445d0(&"Copy");
-    il2cpp_runtime_helper_023445d0(&"Delete");
-    il2cpp_runtime_helper_023445d0(&"Rename");
-    il2cpp_runtime_helper_023445d0(&"DeleteWarning");
-    il2cpp_runtime_helper_023445d0(&"Import");
-    il2cpp_runtime_helper_023445d0(&"Preset");
-    il2cpp_runtime_helper_023445d0(&"");
-    il2cpp_runtime_helper_023445d0(&"Export");
-    il2cpp_runtime_helper_023445d0(&"New set");
-    g_data_057ae181 = '\x01';
+  if (Il2CppMethodInitialized_184346f85 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_CharacterEditorGameManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorHumanMenu);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Characters_DummyHuman);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_SceneLoader);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CanDeleteSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c_OnButtonClick_b__33_6);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__0);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__1);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__2);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__3);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__4);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__5);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_CharacterEditorCostumePanel_c);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Events_UnityAction);
+    il2cpp_codegen_initialize_runtime_metadata(&"QuitWithoutSaveConfirm");
+    il2cpp_codegen_initialize_runtime_metadata(&"Presets");
+    il2cpp_codegen_initialize_runtime_metadata(&"Create");
+    il2cpp_codegen_initialize_runtime_metadata(&"SaveQuit");
+    il2cpp_codegen_initialize_runtime_metadata(&"Quit");
+    il2cpp_codegen_initialize_runtime_metadata(&"LoadPreset");
+    il2cpp_codegen_initialize_runtime_metadata(&"Copy");
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete");
+    il2cpp_codegen_initialize_runtime_metadata(&"Rename");
+    il2cpp_codegen_initialize_runtime_metadata(&"DeleteWarning");
+    il2cpp_codegen_initialize_runtime_metadata(&"Import");
+    il2cpp_codegen_initialize_runtime_metadata(&"Preset");
+    il2cpp_codegen_initialize_runtime_metadata(&"");
+    il2cpp_codegen_initialize_runtime_metadata(&"Export");
+    il2cpp_codegen_initialize_runtime_metadata(&"New set");
+    Il2CppMethodInitialized_184346f85 = '\x01';
   }
-  __this_05 = (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *)il2cpp_runtime_helper_023052d0(TypeInfo_c__DisplayClass33_0);
-  UI_CharacterEditorCostumePanel___c__DisplayClass33_0___ctor(__this_05,(MethodInfo *)0x0);
-  if (__this_05 == (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *)0x0) {
-label_0435c51c:
-    customSet = (Settings_HumanCustomSet_o *)il2cpp_runtime_helper_022b2c90();
-  }
-  else {
-    (__this_05->fields).__4__this = __this;
-    il2cpp_runtime_helper_022b4080(&__this_05->fields,__this);
-    unaff_RBX = (long *)&(__this_05->fields).name;
-    (__this_05->fields).name = name;
-    il2cpp_runtime_helper_022b4080(unaff_RBX);
-    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-    if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  object_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)object_00,(MethodInfo *)0x0);
+  if (object_00 != (UI_CharacterEditorCostumePanel___c__DisplayClass33_0_o *)0x0) {
+    (object_00->fields).__4__this = __this;
+    Il2CppCodeGenWriteBarrier(&(object_00->fields).__4__this,__this);
+    (object_00->fields).name = name;
+    Il2CppCodeGenWriteBarrier(&(object_00->fields).name,name);
+    pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+    if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
     }
-    lVar4 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-    if (lVar4 == 0) goto label_0435c51c;
-    __this_00 = *(UI_SetNamePopup_o **)(lVar4 + 0x88);
-    unaff_RBX = (long *)*unaff_RBX;
-    uVar12 = _PrivateImplementationDetails___ComputeStringHash((System_String_o *)unaff_RBX,(MethodInfo *)0x0)
-    ;
-    if (uVar12 < 0x5cb46bab) {
-      if (uVar12 < 0x573e0af5) {
-        if (uVar12 == 0x547f6497) {
-          bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"SaveQuit",(MethodInfo *)0x0);
-          if ((char)bVar13 == '\0') {
+    pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+    if (pUVar3 != (UI_BaseMenu_o *)0x0) {
+      pSVar13 = (object_00->fields).name;
+      __this_00 = (pUVar3->fields).SetNamePopup;
+      uVar12 = _PrivateImplementationDetails___ComputeStringHash(pSVar13,(MethodInfo *)0x0);
+      if (uVar12 < 0x5cb46bab) {
+        if (uVar12 < 0x573e0af5) {
+          if (uVar12 == 0x547f6497) {
+            bVar11 = System_String__op_Equality(pSVar13,"SaveQuit",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+            if (pSVar2 != (Settings_HumanCustomSettings_o *)0x0) {
+              (*(pSVar2->klass->vtable)._18_Save.methodPtr)(pSVar2,(pSVar2->klass->vtable)._18_Save.method);
+              pSVar7 = TypeInfo_Settings_SettingsManager->static_fields->CustomSkinSettings;
+              if (pSVar7 != (Settings_CustomSkinSettings_o *)0x0) {
+                (*(pSVar7->klass->vtable)._18_Save.methodPtr)(pSVar7,(pSVar7->klass->vtable)._18_Save.method);
+                __this_04 = TypeInfo_ApplicationManagers_SceneLoader->static_fields->CurrentGameManager;
+                if (__this_04 != (GameManagers_BaseGameManager_o *)0x0) {
+                  bVar1 = (TypeInfo_GameManagers_CharacterEditorGameManager->_2).typeHierarchyDepth;
+                  if (((__this_04->klass->_2).typeHierarchyDepth < bVar1) ||
+                     ((__this_04->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                      (Il2CppClass *)TypeInfo_GameManagers_CharacterEditorGameManager)) {
+                    il2cpp_codegen_raise_invalid_cast_exception(__this_04);
+                  }
+                  pSVar8 = (System_Threading_CancellationTokenSource_o *)(*(uint64_t *)((char *)__this_04 + 0x38));
+                  if (pSVar8 != (System_Threading_CancellationTokenSource_o *)0x0) {
+                    bVar1 = (TypeInfo_Characters_DummyHuman->_2).typeHierarchyDepth;
+                    if ((bVar1 <= (pSVar8->klass->_2).typeHierarchyDepth) &&
+                       ((pSVar8->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+                        (Il2CppClass *)TypeInfo_Characters_DummyHuman)) {
+                      pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+                      if ((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+                         (pSVar4 = (pSVar2->fields).CustomSets,
+                         pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) {
+                        pSVar19 = (Settings_HumanCustomSet_o *)
+                                  Settings_SetSettingsContainer_object___GetSelectedSet
+                                            ((Settings_SetSettingsContainer_T__o *)pSVar4,
+                                             (MethodInfo_C8EAF0 *)
+                                             MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet
+                                            );
+                        customSet = (Settings_HumanCustomSet_o *)0x0;
+                        weapon = 0;
+                        if (pSVar19 != (Settings_HumanCustomSet_o *)0x0) {
+                          bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+                          if (((((Settings_BaseSetSetting_c *)pSVar19->klass)->_2).typeHierarchyDepth < bVar1)
+                             || (customSet = pSVar19,
+                                (((Settings_BaseSetSetting_c *)pSVar19->klass)->_2).typeHierarchy
+                                [(ulonglong)bVar1 - 1] != (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+                            il2cpp_codegen_raise_invalid_cast_exception
+                                      (pSVar19,TypeInfo_Settings_HumanCustomSet);
+                          }
+                        }
+                        pUVar9 = (__this->fields)._menu;
+                        if (pUVar9 != (UI_CharacterEditorMenu_o *)0x0) {
+                          bVar1 = (TypeInfo_UI_CharacterEditorHumanMenu->_2).typeHierarchyDepth;
+                          if ((bVar1 <= (pUVar9->klass->_2).typeHierarchyDepth) &&
+                             ((pUVar9->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] ==
+                              (Il2CppClass *)TypeInfo_UI_CharacterEditorHumanMenu)) {
+                            pUVar10 = (*(uint64_t *)((char *)pUVar9 + 0xe0));
+                            if (pUVar10 == (UI_ExternalLinkPopup_o *)0x0) goto label_1821d367b;
+                            weapon = *(int32_t *)((longlong)&(pUVar10->fields).m_CancellationTokenSource + 4);
+                          }
+                        }
+                        __this_05 = (Characters_HumanSetup_o *)(pSVar8->fields)._timer;
+                        if (__this_05 != (Characters_HumanSetup_o *)0x0) {
+                          Characters_HumanSetup__Load(__this_05,customSet,weapon,false,(MethodInfo *)0x0);
+                          pSVar20 = UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine
+                                              (__this,(MethodInfo *)0x0);
+                          UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                                    ((UnityEngine_MonoBehaviour_o *)__this_04,pSVar20,(MethodInfo *)0x0);
+                          return;
+                        }
+                      }
+                      goto label_1821d367b;
+                    }
+                  }
+                }
+                pSVar20 = UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine(__this,(MethodInfo *)0x0);
+                UnityEngine_MonoBehaviour__StartCoroutine_Auto
+                          ((UnityEngine_MonoBehaviour_o *)__this,pSVar20,(MethodInfo *)0x0);
+                return;
+              }
+            }
+          }
+          else {
+            if (uVar12 != 0x573e0af4) {
+              return;
+            }
+            bVar11 = System_String__op_Equality(pSVar13,"Import",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+            }
+            pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+            if (pUVar3 != (UI_BaseMenu_o *)0x0) {
+              __this_06 = (pUVar3->fields).ImportPopup;
+              pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+              UnityEngine_Events_UnityAction___ctor
+                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                         (intptr_t)
+                         MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__5,
+                         (MethodInfo *)0x0);
+              if (__this_06 != (UI_ImportPopup_o *)0x0) {
+                UI_ImportPopup__Show
+                          (__this_06,pUVar14,true,"","",
+                           (MethodInfo *)0x0);
+                return;
+              }
+            }
+          }
+          goto label_1821d367b;
+        }
+        if (uVar12 != 0x5797ea6a) {
+          if (uVar12 != 0x5cb46baa) {
             return;
           }
-          plVar14 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-          if (plVar14 != (long *)0x0) {
-            (**(code **)(*plVar14 + 0x238))();
-            plVar14 = *(long **)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x10);
-            if (plVar14 != (long *)0x0) {
-              (**(code **)(*plVar14 + 0x238))();
-              unaff_RBX = *(long **)(*(long *)(TypeInfo_SceneLoader + 0xb8) + 0x10);
-              if ((System_String_array *)unaff_RBX != (System_String_array *)0x0) {
-                pIVar6 = (((System_String_array *)unaff_RBX)->obj).klass;
-                bVar1 = (TypeInfo_CharacterEditorGameManager->_2).naturalAligment;
-                if (((pIVar6->_2).naturalAligment < bVar1) ||
-                   ((pIVar6->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_CharacterEditorGameManager)) goto label_0435c529;
-                pSVar15 = ((System_String_array *)unaff_RBX)->m_Items[3];
-                if (pSVar15 != (System_String_o *)0x0) {
-                  bVar1 = (TypeInfo_DummyHuman->_2).naturalAligment;
-                  if ((bVar1 <= (pSVar15->klass->_2).naturalAligment) &&
-                     ((pSVar15->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_DummyHuman)) {
-                    lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-                    if ((lVar3 != 0) &&
-                       (pSVar8 = *(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),
-                       pSVar8 != (Settings_SetSettingsContainer_T__o *)0x0)) {
-                      customSet = (Settings_HumanCustomSet_o *)
-                                  Settings_SetSettingsContainer_object___GetSelectedSet(pSVar8,MethodInfo_BaseSetSetting_GetSelectedSet);
-                      if (customSet != (Settings_HumanCustomSet_o *)0x0) {
-                        bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-                        if (((customSet->klass->_2).naturalAligment < bVar1) ||
-                           ((customSet->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_HumanCustomSet))
-                        goto label_0435c521;
-                      }
-                      pUVar9 = (__this->fields)._menu;
-                      weapon = 0;
-                      if (pUVar9 != (UI_CharacterEditorMenu_o *)0x0) {
-                        bVar1 = (TypeInfo_CharacterEditorHumanMenu->_2).naturalAligment;
-                        weapon = 0;
-                        if ((bVar1 <= (pUVar9->klass->_2).naturalAligment) &&
-                           ((pUVar9->klass->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_CharacterEditorHumanMenu)) {
-                          pUVar10 = pUVar9[1].fields.ExternalLinkPopup;
-                          if (pUVar10 == (UI_ExternalLinkPopup_o *)0x0) goto label_0435c51c;
-                          weapon = *(int32_t *)((long)&(pUVar10->fields).m_CachedPtr + 4);
-                        }
-                      }
-                      if (pSVar15[2].monitor != (Characters_HumanSetup_o *)0x0) {
-                        Characters_HumanSetup__Load(pSVar15[2].monitor,customSet,weapon,0,(MethodInfo *)0x0);
-                        if (g_data_057ae183 == '\0') {
-                          il2cpp_runtime_helper_023445d0(&TypeInfo_SaveQuitCaptureCoroutine_d__35);
-                          g_data_057ae183 = '\x01';
-                        }
-                        pUVar19 = (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *)
-                                  il2cpp_runtime_helper_023052d0(TypeInfo_SaveQuitCaptureCoroutine_d__35);
-                        UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor
-                                  (pUVar19,0,(MethodInfo *)0x0);
-                        __this = (UI_CharacterEditorCostumePanel_o *)unaff_RBX;
-                        goto label_0435bfa8;
-                      }
-                    }
-                    goto label_0435c51c;
+          bVar11 = System_String__op_Equality(pSVar13,"LoadPreset",(MethodInfo *)0x0);
+          if (!bVar11) {
+            return;
+          }
+          pSVar2 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings;
+          if ((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+             (pSVar4 = (pSVar2->fields).Costume1Sets,
+             pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) {
+            collection = Settings_SetSettingsContainer_object___GetSetNames
+                                   ((Settings_SetSettingsContainer_T__o *)pSVar4,
+                                    (MethodInfo_C8EC20 *)
+                                    MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSetNames);
+            items = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+            System_Collections_Generic_List_object____ctor_94fb10
+                      ((System_Collections_Generic_List_object__o *)items,
+                       (System_Collections_Generic_IEnumerable_T__o *)collection,
+                       (MethodInfo_94FB10 *)MethodInfo_System_Collections_Generic_List_string_ctor_40dbf80);
+            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+            }
+            pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+            if (pUVar3 != (UI_BaseMenu_o *)0x0) {
+              __this_03 = (pUVar3->fields).SelectListPopup;
+              pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+              UnityEngine_Events_UnityAction___ctor
+                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                         (intptr_t)
+                         MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__4,
+                         (MethodInfo *)0x0);
+              if (__this_03 != (UI_SelectListPopup_o *)0x0) {
+                UI_SelectListPopup__ShowLoad
+                          (__this_03,items,"Presets",pUVar14,
+                           (UnityEngine_Events_UnityAction_o *)0x0,
+                           (System_Collections_Generic_List_string__o *)0x0,(MethodInfo *)0x0);
+                return;
+              }
+            }
+          }
+          goto label_1821d367b;
+        }
+        bVar11 = System_String__op_Equality(pSVar13,"Delete",(MethodInfo *)0x0);
+        if (!bVar11) {
+          return;
+        }
+        if ((pSVar2 == (Settings_HumanCustomSettings_o *)0x0) ||
+           (pSVar4 = (pSVar2->fields).CustomSets,
+           pSVar4 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) goto label_1821d367b;
+        bVar11 = Settings_SetSettingsContainer_object___CanDeleteSelectedSet
+                           ((Settings_SetSettingsContainer_T__o *)pSVar4,
+                            (MethodInfo_C8E620 *)
+                            MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CanDeleteSelectedSet);
+        if (!bVar11) {
+          return;
+        }
+        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+        }
+        pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+        if (pUVar3 == (UI_BaseMenu_o *)0x0) goto label_1821d367b;
+        __this_01 = (pUVar3->fields).ConfirmPopup;
+        pSVar13 = UI_UIManager__GetLocaleCommon("DeleteWarning",(MethodInfo *)0x0);
+        pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+        UnityEngine_Events_UnityAction___ctor
+                  ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                   (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__1,
+                   (MethodInfo *)0x0);
+        pSVar15 = UI_UIManager__GetLocaleCommon("Delete",(MethodInfo *)0x0);
+      }
+      else {
+        if (uVar12 < 0x990de47e) {
+          if (uVar12 == 0x658f3664) {
+            bVar11 = System_String__op_Equality(pSVar13,"Copy",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+            UnityEngine_Events_UnityAction___ctor
+                      ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                       (intptr_t)
+                       MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__3,
+                       (MethodInfo *)0x0);
+            pSVar13 = "Copy";
+            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              pSVar13 = "Copy";
+            }
+          }
+          else {
+            if (uVar12 != 0x990de47d) {
+              return;
+            }
+            bVar11 = System_String__op_Equality(pSVar13,"Create",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+            UnityEngine_Events_UnityAction___ctor
+                      ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                       (intptr_t)
+                       MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__0,
+                       (MethodInfo *)0x0);
+            pSVar13 = "Create";
+            if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+              il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              pSVar13 = "Create";
+            }
+          }
+          pSVar13 = UI_UIManager__GetLocaleCommon(pSVar13,(MethodInfo *)0x0);
+          if (__this_00 != (UI_SetNamePopup_o *)0x0) {
+            UI_SetNamePopup__Show
+                      (__this_00,"New set",pUVar14,pSVar13,(System_String_o *)0x0,
+                       (MethodInfo *)0x0);
+            return;
+          }
+          goto label_1821d367b;
+        }
+        if (uVar12 != 0xc7b3d356) {
+          if (uVar12 == 0xc80631f3) {
+            bVar11 = System_String__op_Equality(pSVar13,"Rename",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+                (pSVar4 = (pSVar2->fields).CustomSets,
+                pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+               ((pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                                     ((Settings_SetSettingsContainer_T__o *)pSVar4,
+                                      (MethodInfo_C8EAF0 *)
+                                      MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet),
+                pSVar16 != (Settings_BaseSetSetting_o *)0x0 &&
+                (pSVar5 = (pSVar16->fields).Name, pSVar5 != (Settings_StringSetting_o *)0x0)))) {
+              pSVar13 = (pSVar5->fields)._value;
+              pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+              UnityEngine_Events_UnityAction___ctor
+                        ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,(Il2CppObject *)object_00,
+                         (intptr_t)
+                         MethodInfo_UI_CharacterEditorCostumePanel_c__DisplayClass33_0_OnButtonClick_b__2,
+                         (MethodInfo *)0x0);
+              if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+              }
+              pSVar15 = UI_UIManager__GetLocaleCommon("Rename",(MethodInfo *)0x0);
+              if (__this_00 != (UI_SetNamePopup_o *)0x0) {
+                UI_SetNamePopup__Show
+                          (__this_00,pSVar13,pUVar14,pSVar15,(System_String_o *)0x0,(MethodInfo *)0x0);
+                return;
+              }
+            }
+          }
+          else {
+            if (uVar12 != 0xe86349d3) {
+              return;
+            }
+            bVar11 = System_String__op_Equality(pSVar13,"Export",(MethodInfo *)0x0);
+            if (!bVar11) {
+              return;
+            }
+            if (((pSVar2 != (Settings_HumanCustomSettings_o *)0x0) &&
+                (pSVar4 = (pSVar2->fields).CustomSets,
+                pSVar4 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) &&
+               (pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                                    ((Settings_SetSettingsContainer_T__o *)pSVar4,
+                                     (MethodInfo_C8EAF0 *)
+                                     MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet),
+               pSVar16 != (Settings_BaseSetSetting_o *)0x0)) {
+              pSVar6 = pSVar16->klass;
+              bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+              if (((pSVar6->_2).typeHierarchyDepth < bVar1) ||
+                 ((pSVar6->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                  (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+                il2cpp_codegen_raise_invalid_cast_exception(pSVar16,TypeInfo_Settings_HumanCustomSet);
+              }
+              pSVar17 = (*(pSVar6->vtable)._5_SerializeToJsonObject.methodPtr)
+                                  (pSVar16,(pSVar6->vtable)._5_SerializeToJsonObject.method);
+              if (pSVar17 != (SimpleJSONFixed_JSONNode_o *)0x0) {
+                bVar11 = (*(pSVar17->klass->vtable)._28_HasKey.methodPtr)
+                                   (pSVar17,(MethodInfo *)"Preset");
+                if (bVar11) {
+                  if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+                    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+                  }
+                  pMVar18 = (MethodInfo *)
+                            SimpleJSONFixed_JSONNode__op_Implicit_1dc48c0(false,(MethodInfo *)0x0);
+                  (*(pSVar17->klass->vtable)._8_set_Item.methodPtr)
+                            (pSVar17,(System_Type_o *)"Preset",pMVar18);
+                }
+                if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+                }
+                pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                if (pUVar3 != (UI_BaseMenu_o *)0x0) {
+                  __this_02 = (pUVar3->fields).ExportPopup;
+                  pSVar13 = (*(pSVar17->klass->vtable)._30_ToString.methodPtr)
+                                      (pSVar17,4,(pSVar17->klass->vtable)._30_ToString.method);
+                  if (__this_02 != (UI_ExportPopup_o *)0x0) {
+                    UI_ExportPopup__Show(__this_02,pSVar13,(MethodInfo *)0x0);
+                    return;
                   }
                 }
               }
-              if (g_data_057ae183 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_SaveQuitCaptureCoroutine_d__35);
-                g_data_057ae183 = '\x01';
-              }
-              pUVar19 = (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *)
-                        il2cpp_runtime_helper_023052d0(TypeInfo_SaveQuitCaptureCoroutine_d__35);
-              UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor
-                        (pUVar19,0,(MethodInfo *)0x0);
-label_0435bfa8:
-              UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                        ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar19,
-                         (MethodInfo *)0x0);
-              return;
             }
           }
+          goto label_1821d367b;
         }
-        else {
-          if (uVar12 != 0x573e0af4) {
-            return;
-          }
-          bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Import",(MethodInfo *)0x0);
-          if ((char)bVar13 == '\0') {
-            return;
-          }
-          unaff_RBX = &TypeInfo_UIManager;
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar3 != 0) {
-            __this_01 = *(UI_ImportPopup_o **)(lVar3 + 0x70);
-            unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            if (__this_01 != (UI_ImportPopup_o *)0x0) {
-              UI_ImportPopup__Show
-                        (__this_01,(UnityEngine_Events_UnityAction_o *)unaff_RBX,1,"",in_R8);
-              return;
-            }
-          }
-        }
-      }
-      else if (uVar12 == 0x5797ea6a) {
-        bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Delete",(MethodInfo *)0x0);
-        if ((char)bVar13 == '\0') {
+        bVar11 = System_String__op_Equality(pSVar13,"Quit",(MethodInfo *)0x0);
+        if (!bVar11) {
           return;
         }
-        if ((lVar3 != 0) &&
-           (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20) !=
-            (Settings_SetSettingsContainer_T__o *)0x0)) {
-          bVar13 = Settings_SetSettingsContainer_object___CanDeleteSelectedSet
-                             (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),MethodInfo_Boolean_CanDeleteSelectedSet);
-          if ((char)bVar13 == '\0') {
-            return;
+        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+        }
+        pUVar3 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+        if (pUVar3 == (UI_BaseMenu_o *)0x0) goto label_1821d367b;
+        __this_01 = (pUVar3->fields).ConfirmPopup;
+        pSVar13 = UI_UIManager__GetLocaleCommon("QuitWithoutSaveConfirm",(MethodInfo *)0x0);
+        if ((TypeInfo_UI_CharacterEditorCostumePanel_c->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c);
+        }
+        pUVar14 = TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9__33_6;
+        if (pUVar14 == (UnityEngine_Events_UnityAction_o *)0x0) {
+          if ((TypeInfo_UI_CharacterEditorCostumePanel_c->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_c);
           }
-          unaff_RBX = &TypeInfo_UIManager;
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar3 != 0) {
-            __this_03 = *(UI_ConfirmPopup_o **)(lVar3 + 0x38);
-            pSVar15 = UI_UIManager__GetLocaleCommon("DeleteWarning",(MethodInfo *)0x0);
-            unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            pSVar16 = UI_UIManager__GetLocaleCommon("Delete",(MethodInfo *)0x0);
-            goto joined_r0x0435c107;
-          }
+          object = (Il2CppObject *)TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9;
+          pUVar14 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_Events_UnityAction);
+          UnityEngine_Events_UnityAction___ctor
+                    ((UnityEngine_Font_FontTextureRebuildCallback_o *)pUVar14,object,
+                     (intptr_t)MethodInfo_UI_CharacterEditorCostumePanel_c_OnButtonClick_b__33_6,
+                     (MethodInfo *)0x0);
+          TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9__33_6 = pUVar14;
+          Il2CppCodeGenWriteBarrier
+                    (&TypeInfo_UI_CharacterEditorCostumePanel_c->static_fields->__9__33_6,pUVar14);
         }
+        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+        }
+        pSVar15 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
       }
-      else {
-        if (uVar12 != 0x5cb46baa) {
-          return;
-        }
-        bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"LoadPreset",(MethodInfo *)0x0);
-        if ((char)bVar13 == '\0') {
-          return;
-        }
-        lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-        if ((lVar3 != 0) &&
-           (pSVar8 = *(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x28),
-           pSVar8 != (Settings_SetSettingsContainer_T__o *)0x0)) {
-          unaff_RBX = (long *)Settings_SetSettingsContainer_object___GetSetNames(pSVar8,MethodInfo_String_GetSetNames);
-          items = (System_Collections_Generic_List_string__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_string);
-          System_Collections_Generic_List_object____ctor_362ba10
-                    ((System_Collections_Generic_List_object__o *)items,
-                     (System_Collections_Generic_IEnumerable_T__o *)unaff_RBX,MethodInfo_List_1_System_String);
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-          if (lVar3 != 0) {
-            __this_02 = *(UI_SelectListPopup_o **)(lVar3 + 0x90);
-            unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-            UnityEngine_Events_UnityAction___ctor();
-            if (__this_02 != (UI_SelectListPopup_o *)0x0) {
-              UI_SelectListPopup__ShowLoad
-                        (__this_02,items,"Presets",(UnityEngine_Events_UnityAction_o *)unaff_RBX,
-                         (UnityEngine_Events_UnityAction_o *)0x0,
-                         (System_Collections_Generic_List_string__o *)0x0,in_RAX);
-              return;
-            }
-          }
-        }
-      }
-      goto label_0435c51c;
-    }
-    if (uVar12 < 0x990de47e) {
-      if (uVar12 == 0x990de47d) {
-        ppSVar20 = &"Create";
-        bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Create",(MethodInfo *)0x0);
-        if ((char)bVar13 == '\0') {
-          return;
-        }
-        unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      }
-      else {
-        if (uVar12 != 0x658f3664) {
-          return;
-        }
-        ppSVar20 = &"Copy";
-        bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Copy",(MethodInfo *)0x0);
-        if ((char)bVar13 == '\0') {
-          return;
-        }
-        unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-      }
-      UnityEngine_Events_UnityAction___ctor();
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar16 = UI_UIManager__GetLocaleCommon(*ppSVar20,(MethodInfo *)0x0);
-      pSVar15 = "New set";
-joined_r0x0435c027:
-      if (__this_00 != (UI_SetNamePopup_o *)0x0) {
-        UI_SetNamePopup__Show
-                  (__this_00,pSVar15,(UnityEngine_Events_UnityAction_o *)unaff_RBX,pSVar16,
-                   (System_String_o *)0x0,in_R9);
+      if (__this_01 != (UI_ConfirmPopup_o *)0x0) {
+        UI_ConfirmPopup__Show(__this_01,pSVar13,pUVar14,pSVar15,(MethodInfo *)0x0);
         return;
-      }
-      goto label_0435c51c;
-    }
-    if (uVar12 == 0xc7b3d356) {
-      bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Quit",(MethodInfo *)0x0);
-      if ((char)bVar13 == '\0') {
-        return;
-      }
-      unaff_RBX = &TypeInfo_UIManager;
-      if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-      if (lVar3 == 0) goto label_0435c51c;
-      __this_03 = *(UI_ConfirmPopup_o **)(lVar3 + 0x38);
-      pSVar15 = UI_UIManager__GetLocaleCommon("QuitWithoutSaveConfirm",(MethodInfo *)0x0);
-      if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        unaff_RBX = *(long **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-        if ((System_String_array *)unaff_RBX == (System_String_array *)0x0) goto label_0435c38d;
-label_0435c273:
-        iVar2 = *(int *)(TypeInfo_UIManager + 0xe4);
-      }
-      else {
-        unaff_RBX = *(long **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-        if ((System_String_array *)unaff_RBX != (System_String_array *)0x0) goto label_0435c273;
-label_0435c38d:
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        lVar3 = *(long *)(TypeInfo_c + 0xb8);
-        *(long **)(lVar3 + 8) = unaff_RBX;
-        il2cpp_runtime_helper_022b4080(lVar3 + 8);
-        iVar2 = *(int *)(TypeInfo_UIManager + 0xe4);
-      }
-      if (iVar2 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar16 = UI_UIManager__GetLocaleCommon("Quit",(MethodInfo *)0x0);
-joined_r0x0435c107:
-      if (__this_03 != (UI_ConfirmPopup_o *)0x0) {
-        UI_ConfirmPopup__Show(__this_03,pSVar15,(UnityEngine_Events_UnityAction_o *)unaff_RBX,pSVar16,in_R8);
-        return;
-      }
-      goto label_0435c51c;
-    }
-    if (uVar12 == 0xc80631f3) {
-      bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Rename",(MethodInfo *)0x0);
-      if ((char)bVar13 == '\0') {
-        return;
-      }
-      if ((((lVar3 != 0) &&
-           (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20) !=
-            (Settings_SetSettingsContainer_T__o *)0x0)) &&
-          (pSVar17 = Settings_SetSettingsContainer_object___GetSelectedSet
-                               (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),MethodInfo_BaseSetSetting_GetSelectedSet),
-          pSVar17 != (Settings_BaseSetSetting_o *)0x0)) &&
-         (pSVar7 = (pSVar17->fields).Name, pSVar7 != (Settings_StringSetting_o *)0x0)) {
-        pSVar15 = (pSVar7->fields)._value;
-        unaff_RBX = (long *)il2cpp_runtime_helper_023052d0(TypeInfo_UnityAction);
-        UnityEngine_Events_UnityAction___ctor();
-        if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar16 = UI_UIManager__GetLocaleCommon("Rename",(MethodInfo *)0x0);
-        goto joined_r0x0435c027;
-      }
-      goto label_0435c51c;
-    }
-    if (uVar12 != 0xe86349d3) {
-      return;
-    }
-    bVar13 = System_String__op_Equality((System_String_o *)unaff_RBX,"Export",(MethodInfo *)0x0);
-    if ((char)bVar13 == '\0') {
-      return;
-    }
-    if (((lVar3 == 0) ||
-        (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20) == (Settings_SetSettingsContainer_T__o *)0x0))
-       || (customSet = (Settings_HumanCustomSet_o *)
-                       Settings_SetSettingsContainer_object___GetSelectedSet
-                                 (*(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),MethodInfo_BaseSetSetting_GetSelectedSet),
-          customSet == (Settings_HumanCustomSet_o *)0x0)) goto label_0435c51c;
-    bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-    if ((bVar1 <= (((Settings_BaseSetSetting_c *)customSet->klass)->_2).naturalAligment) &&
-       ((((Settings_BaseSetSetting_c *)customSet->klass)->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_HumanCustomSet)
-       ) {
-      pSVar5 = (Settings_BaseSetSetting_c *)customSet->klass;
-      bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-      if ((bVar1 <= (pSVar5->_2).naturalAligment) &&
-         ((pSVar5->_2).typeHierarchy[(ulong)bVar1 - 1] == TypeInfo_HumanCustomSet)) {
-        plVar14 = (long *)(*(pSVar5->vtable)._5_SerializeToJsonObject.methodPtr)(customSet);
-        if (plVar14 == (long *)0x0) goto label_0435c51c;
-        unaff_RBX = &"Preset";
-        cVar11 = (**(code **)(*plVar14 + 0x2f8))(plVar14,"Preset",*(undefined8 *)(*plVar14 + 0x300));
-        if (cVar11 == '\0') {
-          if (*(int *)(TypeInfo_UIManager + 0xe4) != 0) goto label_0435be61;
-label_0435c316:
-          il2cpp_runtime_helper_02337ed0();
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        }
-        else {
-          if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar18 = SimpleJSONFixed_JSONNode__op_Implicit_3f7a450(0,(MethodInfo *)0x0);
-          (**(code **)(*plVar14 + 0x1b8))(plVar14,"Preset",pSVar18,*(undefined8 *)(*plVar14 + 0x1c0));
-          if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) goto label_0435c316;
-label_0435be61:
-          lVar3 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-        }
-        if (lVar3 != 0) {
-          __this_04 = *(UI_ExportPopup_o **)(lVar3 + 0x68);
-          auVar21 = (**(code **)(*plVar14 + 0x318))(plVar14,4,*(undefined8 *)(*plVar14 + 800));
-          unaff_RBX = (long *)0x0;
-          if (__this_04 != (UI_ExportPopup_o *)0x0) {
-            UI_ExportPopup__Show(__this_04,auVar21._0_8_,auVar21._8_8_);
-            return;
-          }
-        }
-        goto label_0435c51c;
       }
     }
   }
-label_0435c521:
-  il2cpp_runtime_helper_022b2fd0(customSet);
-label_0435c529:
-  il2cpp_runtime_helper_022b2fd0(unaff_RBX);
-  if (g_data_057ae183 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SaveQuitCaptureCoroutine_d__35);
-    g_data_057ae183 = '\x01';
-  }
-  pUVar19 = (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *)
-            il2cpp_runtime_helper_023052d0(TypeInfo_SaveQuitCaptureCoroutine_d__35);
-  UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor(pUVar19,0,(MethodInfo *)0x0);
-  return;
+label_1821d367b:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$OnCostumeSetOperationFinish
 // il2cpp: void UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish (UI_CharacterEditorCostumePanel_o* __this, System_String_o* name, const MethodInfo* method);
-// 0x435c580
+// 0x1821d37a0
+// eh: try 0x1821d3c20..0x1821d3d90 -> pad 0x183324cb0 catch Il2CppExceptionWrapper
+// eh: try 0x1821d3e2e..0x1821d3f24 -> pad 0x1833352b0 catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// eh: try 0x1821d3f82..0x1821d3fbd -> pad 0x183324cb0 catch Il2CppExceptionWrapper
+// eh: try 0x1821d3fc3..0x1821d3ff6 -> pad 0x1833352b0 catch Il2CppExceptionWrapper [managed catch: runtime default class]
+// asm: 54 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x1821d3da4: mov rdx, qword ptr [rip + 0x1ea272d]  ; MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose
+// asm:   0x1821d3dab: mov rcx, qword ptr [rsp + 0x40]
+// asm:   0x1821d3db0: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x1821d3db5: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x1821d3dba: test rcx, rcx
+// asm:   0x1821d3dbd: jne 0x1821d3fbd
+// asm:   0x1821d3dc3: mov r15, qword ptr [rsp + 0xa0]
+// asm:   0x1821d3dcb: mov rdi, qword ptr [rsp + 0xb8]
+// asm:   0x1821d3dd3: jmp 0x1821d3def
+// asm:   0x1821d3f26: mov rbx, qword ptr [rsp + 0xb8]
+// asm:   0x1821d3f2e: test rbx, rbx
+// asm:   0x1821d3f31: je 0x1821d3f7c
+// asm:   0x1821d3f33: lea rcx, [rip + 0x1eea62e]  ; "Invalid human preset."
+// asm:   0x1821d3f3a: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x1821d3f3f: mov rdx, rax
+// asm:   0x1821d3f42: xor r8d, r8d
+// asm:   0x1821d3f45: mov rcx, rbx
+// asm:   0x1821d3f48: call 0x1821c4b10  ; UI_ImportPopup__ShowError()
+// asm:   0x1821d3f4d: mov r15, qword ptr [rsp + 0xa0]
+// asm:   0x1821d3fbd: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183324cb0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183324cb5: push rbp
+// asm:   0x183324cb6: sub rsp, 0x20
+// asm:   0x183324cba: mov rbp, rdx
+// asm:   0x183324cbd: mov rax, qword ptr [rbp + 0x28]
+// asm:   0x183324cc1: mov rcx, qword ptr [rax]
+// asm:   0x183324cc4: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x183324cc8: movabs rax, 0
+// asm:   0x183324cd2: add rsp, 0x20
+// asm:   0x183324cd6: pop rbp
+// asm:   0x183324cd7: ret 
+// asm:   0x1833352b0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x1833352b5: push rbx
+// asm:   0x1833352b6: push rbp
+// asm:   0x1833352b7: sub rsp, 0x28
+// asm:   0x1833352bb: mov rbp, rdx
+// asm:   0x1833352be: mov rbx, qword ptr [rbp + 0x30]
+// asm:   0x1833352c2: mov rdx, qword ptr [rbx]
+// asm:   0x1833352c5: mov rdx, qword ptr [rdx]
+// asm:   0x1833352c8: mov rcx, qword ptr [rip + 0x101fb01]
+// asm:   0x1833352cf: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x1833352d4: test al, al
+// asm:   0x1833352d6: je 0x1833352e4
+// asm:   0x1833352d8: movabs rax, 0
+// asm:   0x1833352e2: jmp 0x1833352fc
+// asm:   0x1833352e4: mov rax, qword ptr [rbx]
+// asm:   0x1833352e7: mov qword ptr [rbp + 0x20], rax
+// asm:   0x1833352eb: lea rdx, [rip + 0xca6c96]
+// asm:   0x1833352f2: lea rcx, [rbp + 0x20]
+// asm:   0x1833352f6: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x1833352fc: add rsp, 0x28
+// asm:   0x183335300: pop rbp
+// asm:   0x183335301: pop rbx
+// asm:   0x183335302: ret 
 
 void UI_CharacterEditorCostumePanel__OnCostumeSetOperationFinish
                (UI_CharacterEditorCostumePanel_o *__this,System_String_o *name,MethodInfo *method)
 
 {
   byte bVar1;
-  ushort uVar2;
-  ushort uVar3;
-  ushort uVar4;
-  long lVar5;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  Settings_StringSetting_o *pSVar6;
-  System_String_o *pSVar7;
+  UI_BaseMenu_o *pUVar2;
+  Settings_HumanCustomSettings_o *pSVar3;
+  UI_SetNamePopup_o *pUVar4;
+  Settings_SetSettingsContainer_HumanCustomSet__o *__this_00;
+  Settings_StringSetting_o *pSVar5;
+  Settings_ListSetting_T__o *pSVar6;
+  Settings_IntSetting_o *pSVar7;
+  Settings_StringSetting_o *__this_01;
+  Settings_SetSettingsContainer_HumanCustomSet__o *pSVar8;
+  System_String_o *pSVar9;
   System_String_o *a;
-  Settings_BoolSetting_o *pSVar8;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  char cVar9;
-  bool_conflict bVar10;
-  int iVar11;
-  VirtualInvokeData *pVVar12;
-  Settings_BaseSetSetting_o *pSVar13;
-  Settings_ListSetting_T__c *pSVar14;
-  char *pcVar15;
-  System_Collections_Generic_List_object__o *__this_03;
-  undefined8 *puVar16;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar17;
-  MethodInfo *method_00;
-  long lVar18;
-  Settings_IntSetting_o *pSVar19;
-  UI_ImportPopup_o *__this_04;
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [12];
-  undefined8 in_stack_ffffffffffffff88;
-  System_Collections_Generic_List_Enumerator_T__c *pSVar22;
-  System_Collections_Generic_List_Enumerator_T__o local_48;
+  UI_SelectListPopup_o *pUVar10;
+  Settings_BoolSetting_o *pSVar11;
+  UI_ImportPopup_o *pUVar12;
+  Settings_BaseSetting_o *pSVar13;
+  bool bVar14;
+  void *pvVar15;
+  Settings_BaseSetSetting_o *pSVar16;
+  System_Collections_Generic_List_T__o *__this_02;
+  undefined1 local_60 [16];
+  Settings_BaseSetting_o *local_50;
+  undefined1 local_48 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_40;
+  Settings_BaseSetting_o *local_38;
   
-  if (g_data_057ae182 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterPreviewGenerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetting_get_Current);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IListSetting);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_Settings_BaseSetting_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CopySelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_CreateSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_DeleteSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IntSetting_GetSelectedSetIndex);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_IListSetting_GetSets);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_String_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_UIManager);
-    il2cpp_runtime_helper_023445d0(&"Create");
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    il2cpp_runtime_helper_023445d0(&"Copy");
-    il2cpp_runtime_helper_023445d0(&"Delete");
-    il2cpp_runtime_helper_023445d0(&"Rename");
-    il2cpp_runtime_helper_023445d0(&"Import");
-    g_data_057ae182 = '\x01';
+  if (Il2CppMethodInitialized_184346f86 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_CharacterPreviewGenerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_HumanCustomSet);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_IListSetting);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CopySelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CreateSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_DeleteSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSetIndex);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSets);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_SettingsManager);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_get_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_string_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_bool_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UI_UIManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"Create");
+    il2cpp_codegen_initialize_runtime_metadata(&"LoadPreset");
+    il2cpp_codegen_initialize_runtime_metadata(&"Copy");
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete");
+    il2cpp_codegen_initialize_runtime_metadata(&"Rename");
+    il2cpp_codegen_initialize_runtime_metadata(&"Import");
+    Il2CppMethodInitialized_184346f86 = '\x01';
   }
-  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_48 = (undefined1  [8])0x0;
+  pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_38 = (Settings_BaseSetting_o *)0x0;
+  if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
   }
-  lVar18 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-  if ((lVar18 != 0) && (lVar5 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60), lVar5 != 0)) {
-    lVar18 = *(long *)(lVar18 + 0x88);
-    __this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar5 + 0x20);
-    bVar10 = System_String__op_Equality(name,"Create",(MethodInfo *)0x0);
-    if ((char)bVar10 == '\0') {
-      bVar10 = System_String__op_Equality(name,"Delete",(MethodInfo *)0x0);
-      if ((char)bVar10 == '\0') {
-        bVar10 = System_String__op_Equality(name,"Rename",(MethodInfo *)0x0);
-        if ((char)bVar10 == '\0') {
-          bVar10 = System_String__op_Equality(name,"Copy",(MethodInfo *)0x0);
-          if ((char)bVar10 == '\0') {
-            bVar10 = System_String__op_Equality(name,"LoadPreset",(MethodInfo *)0x0);
-            if ((char)bVar10 == '\0') {
-              method_00 = "Import";
-              bVar10 = System_String__op_Equality(name,(System_String_o *)"Import",(MethodInfo *)0x0);
-              if ((char)bVar10 == '\0') goto label_0435c9dc;
-              if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              lVar18 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-              if (lVar18 == 0) goto label_0435d088;
-              __this_04 = *(UI_ImportPopup_o **)(lVar18 + 0x70);
-              if (__this_00 == (Settings_SetSettingsContainer_T__o *)0x0) {
-label_0435ce98:
-                il2cpp_runtime_helper_022b2c90();
-label_0435ce9d:
-                il2cpp_runtime_helper_022b2c90();
-label_0435cea2:
-                il2cpp_runtime_helper_022b2c90();
-label_0435cea7:
-                il2cpp_runtime_helper_022b2c90();
-label_0435ceac:
-                il2cpp_runtime_helper_022b2c90();
-label_0435ceb1:
-                il2cpp_runtime_helper_022b2c90();
-label_0435ceb6:
-                il2cpp_runtime_helper_022b2c90();
-label_0435cebb:
-                il2cpp_runtime_helper_022b2c90();
-label_0435cec0:
-                il2cpp_runtime_helper_022b2c90();
-label_0435cec5:
-                auVar21 = il2cpp_runtime_helper_022b2c90();
-                if (auVar21._8_4_ != 1) {
-                  _Unwind_Resume(auVar21._0_8_);
-                }
-                name = (System_String_o *)__cxa_begin_catch(auVar21._0_8_);
-                cVar9 = il2cpp_runtime_helper_0233e000(g_data_057b9b80,(((Settings_ListSetting_T__o *)name)->klass->_1).image
-                                          );
-                if (cVar9 == '\0') goto label_0435d08d;
-                __cxa_end_catch();
-                if (__this_04 == (UI_ImportPopup_o *)0x0) goto label_0435d088;
-                auVar20 = il2cpp_runtime_helper_023445d0(&"Invalid human preset.");
-                method_00 = auVar20._0_8_;
-                UI_ImportPopup__ShowError(__this_04,(System_String_o *)method_00,auVar20._8_8_);
-              }
-              else {
-                pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) goto label_0435ce9d;
-                pSVar6 = (pSVar13->fields).Name;
-                if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_0435cea2;
-                pSVar7 = (pSVar6->fields)._value;
-                pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                if (__this_04 == (UI_ImportPopup_o *)0x0) goto label_0435cea7;
-                pSVar6 = (__this_04->fields).ImportSetting;
-                if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_0435ceac;
-                if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) goto label_0435ceb1;
-                (*(pSVar13->klass->vtable)._8_DeserializeFromJsonString.methodPtr)
-                          (pSVar13,(pSVar6->fields)._value,
-                           (pSVar13->klass->vtable)._8_DeserializeFromJsonString.method);
-                pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) goto label_0435ceb6;
-                pSVar8 = (pSVar13->fields).Preset;
-                if (pSVar8 == (Settings_BoolSetting_o *)0x0) goto label_0435cebb;
-                Settings_TypedSetting_bool___set_Value((Settings_TypedSetting_bool__o *)pSVar8,0,MethodInfo_Void_set_Value)
-                ;
-                pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) goto label_0435cec0;
-                pSVar6 = (pSVar13->fields).Name;
-                if (pSVar6 == (Settings_StringSetting_o *)0x0) goto label_0435cec5;
-                Settings_TypedSetting_object___set_Value
-                          ((Settings_TypedSetting_T__o *)pSVar6,(Il2CppObject *)pSVar7,MethodInfo_Void_set_Value);
-                method_00 = (__this_04->klass->vtable)._22_Hide.method;
-                (*(__this_04->klass->vtable)._22_Hide.methodPtr)(__this_04);
-              }
-              if (g_data_057ae187 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae187 = '\x01';
-              }
-              pcVar15 = *(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-              cVar9 = '\x01';
-              if (*pcVar15 == '\0') {
-                if (g_data_057ae188 == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                  g_data_057ae188 = '\x01';
-                  pcVar15 = *(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8);
-                }
-                cVar9 = pcVar15[1];
-              }
-              name = (System_String_o *)&TypeInfo_CharacterEditorSkinsPanel;
-              if (__this != (UI_CharacterEditorCostumePanel_o *)0x0) {
-                *(char *)&(__this->fields)._shouldGeneratePreviewAfterRebuild = cVar9;
-label_0435c9dc:
-                UI_CharacterEditorCostumePanel__OnCustomSetSelected(__this,method_00);
-                return;
-              }
-            }
-            else if ((((__this_00 != (Settings_SetSettingsContainer_T__o *)0x0) &&
-                      (pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet)
-                      , pSVar13 != (Settings_BaseSetSetting_o *)0x0)) &&
-                     (pSVar6 = (pSVar13->fields).Name, pSVar6 != (Settings_StringSetting_o *)0x0)) &&
-                    (((lVar18 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60), lVar18 != 0 &&
-                      (lVar18 = *(long *)(lVar18 + 0x28), lVar18 != 0)) &&
-                     (name = *(System_String_o **)(lVar18 + 0x28),
-                     (Settings_ListSetting_T__o *)name != (Settings_ListSetting_T__o *)0x0)))) {
-              pSVar7 = (pSVar6->fields)._value;
-              pSVar14 = ((Settings_ListSetting_T__o *)name)->klass;
-              uVar4._0_1_ = (pSVar14->_2).rank;
-              uVar4._1_1_ = (pSVar14->_2).minimumAlignment;
-              if ((ulong)uVar4 != 0) {
-                pIVar17 = (pSVar14->_1).interfaceOffsets;
-                lVar18 = 0;
-                do {
-                  if (*(long *)((long)&pIVar17->interfaceType + lVar18) == TypeInfo_IListSetting) {
-                    pVVar12 = &(pSVar14->vtable)._0_Equals + (*(int *)((long)&pIVar17->offset + lVar18) + 2);
-                    goto label_0435cc94;
-                  }
-                  lVar18 = lVar18 + 0x10;
-                } while ((ulong)uVar4 << 4 != lVar18);
-              }
-              pVVar12 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(name,TypeInfo_IListSetting,2);
-label_0435cc94:
-              __this_03 = (System_Collections_Generic_List_object__o *)
-                          (*pVVar12->methodPtr)(name,pVVar12->method);
-              if (__this_03 != (System_Collections_Generic_List_object__o *)0x0) {
-                System_Collections_Generic_List_object___GetEnumerator(&local_48,__this_03,MethodInfo_List_1_T_Enumerator_Settings_BaseSetting_GetEnumerator);
-                __this_04 = (UI_ImportPopup_o *)&MethodInfo_Boolean_MoveNext;
-                pSVar22 = (System_Collections_Generic_List_Enumerator_T__c *)local_48.fields._list;
-label_0435cce0:
-                do {
-                  __this_01.fields._8_8_ = __this;
-                  __this_01.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff88;
-                  __this_01.fields._current = (Il2CppObject *)pSVar22;
-                  bVar10 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                     (__this_01,(MethodInfo_321A1D0 *)&stack0xffffffffffffff98);
-                  if ((char)bVar10 == '\0') goto label_0435ce45;
-                  if (local_48.fields._current == (Il2CppObject *)0x0) {
-label_0435ce70:
-                    il2cpp_runtime_helper_022b2c90();
-label_0435ce75:
-                    il2cpp_runtime_helper_022b2c90();
-label_0435ce7a:
-                    il2cpp_runtime_helper_022b2c90();
-                    goto label_0435ce7f;
-                  }
-                  bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-                  if ((((local_48.fields._current)->klass->_2).naturalAligment < bVar1) ||
-                     (((local_48.fields._current)->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_HumanCustomSet)
-                     ) {
-                    il2cpp_runtime_helper_022b2fd0(local_48.fields._current);
-label_0435ce66:
-                    il2cpp_runtime_helper_022b2c90();
-label_0435ce6b:
-                    il2cpp_runtime_helper_022b2c90();
-                    goto label_0435ce70;
-                  }
-                  if (local_48.fields._current[2].klass == (Il2CppClass *)0x0) goto label_0435ce66;
-                  a = (System_String_o *)((local_48.fields._current[2].klass)->_1).namespaze;
-                  if (*(int *)(TypeInfo_UIManager + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
-                  }
-                  lVar18 = *(long *)(*(long *)(TypeInfo_UIManager + 0xb8) + 0x28);
-                  if (lVar18 == 0) goto label_0435ce6b;
-                  lVar18 = *(long *)(lVar18 + 0x90);
-                  if (lVar18 == 0) goto label_0435ce75;
-                  lVar18 = *(long *)(lVar18 + 0x138);
-                  if (lVar18 == 0) goto label_0435ce7a;
-                  bVar10 = System_String__op_Equality
-                                     (a,*(System_String_o **)(lVar18 + 0x18),(MethodInfo *)0x0);
-                } while ((char)bVar10 == '\0');
-                pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) {
-label_0435ce7f:
-                  il2cpp_runtime_helper_022b2c90();
-label_0435ce84:
-                  il2cpp_runtime_helper_022b2c90();
-label_0435ce89:
-                  il2cpp_runtime_helper_022b2c90();
-                }
-                else {
-                  (*(pSVar13->klass->vtable)._9_Copy.methodPtr)
-                            (pSVar13,local_48.fields._current,(pSVar13->klass->vtable)._9_Copy.method);
-                  pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                  if (pSVar13 == (Settings_BaseSetSetting_o *)0x0) goto label_0435ce84;
-                  pSVar8 = (pSVar13->fields).Preset;
-                  if (pSVar8 == (Settings_BoolSetting_o *)0x0) goto label_0435ce89;
-                  Settings_TypedSetting_bool___set_Value
-                            ((Settings_TypedSetting_bool__o *)pSVar8,0,MethodInfo_Void_set_Value);
-                  pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet);
-                  if (pSVar13 != (Settings_BaseSetSetting_o *)0x0) {
-                    pSVar6 = (pSVar13->fields).Name;
-                    if (pSVar6 != (Settings_StringSetting_o *)0x0) {
-                      Settings_TypedSetting_object___set_Value
-                                ((Settings_TypedSetting_T__o *)pSVar6,(Il2CppObject *)pSVar7,MethodInfo_Void_set_Value);
-                      goto label_0435cce0;
-                    }
-                    goto label_0435ce93;
-                  }
-                }
-                il2cpp_runtime_helper_022b2c90();
-label_0435ce93:
-                il2cpp_runtime_helper_022b2c90();
-                goto label_0435ce98;
-              }
-            }
-          }
-          else if (((lVar18 != 0) && (*(long *)(lVar18 + 0xb8) != 0)) &&
-                  (__this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) {
-            Settings_SetSettingsContainer_object___CopySelectedSet
-                      (__this_00,*(System_String_o **)(*(long *)(lVar18 + 0xb8) + 0x18),MethodInfo_Void_CopySelectedSet);
-            name = (System_String_o *)(__this_00->fields).Sets;
-            if ((Settings_ListSetting_T__o *)name != (Settings_ListSetting_T__o *)0x0) {
-              pSVar19 = (__this_00->fields).SelectedSetIndex;
-              pSVar14 = ((Settings_ListSetting_T__o *)name)->klass;
-              uVar3._0_1_ = (pSVar14->_2).rank;
-              uVar3._1_1_ = (pSVar14->_2).minimumAlignment;
-              if ((ulong)uVar3 != 0) {
-                pIVar17 = (pSVar14->_1).interfaceOffsets;
-                lVar18 = 0;
-                do {
-                  if (*(long *)((long)&pIVar17->interfaceType + lVar18) == TypeInfo_IListSetting) goto label_0435c994;
-                  lVar18 = lVar18 + 0x10;
-                } while ((ulong)uVar3 << 4 != lVar18);
-              }
-              goto label_0435c7e3;
-            }
-          }
-        }
-        else if (((__this_00 != (Settings_SetSettingsContainer_T__o *)0x0) &&
-                 (pSVar13 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-                 pSVar13 != (Settings_BaseSetSetting_o *)0x0)) &&
-                ((lVar18 != 0 &&
-                 ((*(long *)(lVar18 + 0xb8) != 0 &&
-                  (pSVar6 = (pSVar13->fields).Name, pSVar6 != (Settings_StringSetting_o *)0x0)))))) {
-          method_00 = *(MethodInfo **)(*(long *)(lVar18 + 0xb8) + 0x18);
-          Settings_TypedSetting_object___set_Value
-                    ((Settings_TypedSetting_T__o *)pSVar6,(Il2CppObject *)method_00,MethodInfo_Void_set_Value);
-          goto label_0435c9dc;
-        }
-      }
-      else if (__this_00 != (Settings_SetSettingsContainer_T__o *)0x0) {
-        Settings_SetSettingsContainer_object___DeleteSelectedSet(__this_00,MethodInfo_Void_DeleteSelectedSet);
-        pSVar19 = (__this_00->fields).SelectedSetIndex;
-        if (pSVar19 != (Settings_IntSetting_o *)0x0) {
-          method_00 = (MethodInfo *)0x0;
-          Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar19,0,MethodInfo_Void_set_Value);
-          if (*(int *)(TypeInfo_CharacterPreviewGenerator + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
+  pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+  if ((pUVar2 == (UI_BaseMenu_o *)0x0) ||
+     (pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings,
+     pSVar3 == (Settings_HumanCustomSettings_o *)0x0)) goto label_1821d3f7c;
+  pUVar4 = (pUVar2->fields).SetNamePopup;
+  __this_00 = (pSVar3->fields).CustomSets;
+  bVar14 = System_String__op_Equality(name,"Create",(MethodInfo *)0x0);
+  if (bVar14) {
+    if (((pUVar4 == (UI_SetNamePopup_o *)0x0) ||
+        (pSVar5 = (pUVar4->fields).NameSetting, pSVar5 == (Settings_StringSetting_o *)0x0)) ||
+       (__this_00 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) goto label_1821d3f7c;
+    Settings_SetSettingsContainer_object___CreateSet
+              ((Settings_SetSettingsContainer_T__o *)__this_00,(pSVar5->fields)._value,
+               (MethodInfo_C8E8E0 *)MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CreateSet);
+  }
+  else {
+    bVar14 = System_String__op_Equality(name,"Delete",(MethodInfo *)0x0);
+    if (bVar14) {
+      if (__this_00 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) {
+        Settings_SetSettingsContainer_object___DeleteSelectedSet
+                  ((Settings_SetSettingsContainer_T__o *)__this_00,
+                   (MethodInfo_C8EA30 *)
+                   MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_DeleteSelectedSet);
+        pSVar7 = ((Settings_SetSettingsContainer_T__Fields *)&__this_00->fields)->SelectedSetIndex;
+        if (pSVar7 != (Settings_IntSetting_o *)0x0) {
+          Settings_TypedSetting_int___set_Value
+                    ((Settings_TypedSetting_int__o *)pSVar7,0,
+                     (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+          if ((TypeInfo_Utility_CharacterPreviewGenerator->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_CharacterPreviewGenerator);
           }
           Utility_CharacterPreviewGenerator__CleanupOrphanedPreviews((MethodInfo *)0x0);
-          goto label_0435c9dc;
+          goto label_1821d39fd;
         }
       }
+      goto label_1821d3f7c;
     }
-    else if (((lVar18 != 0) && (*(long *)(lVar18 + 0xb8) != 0)) &&
-            (__this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) {
-      Settings_SetSettingsContainer_object___CreateSet
-                (__this_00,*(System_String_o **)(*(long *)(lVar18 + 0xb8) + 0x18),MethodInfo_Void_CreateSet);
-      name = (System_String_o *)(__this_00->fields).Sets;
-      if ((Settings_ListSetting_T__o *)name != (Settings_ListSetting_T__o *)0x0) {
-        pSVar19 = (__this_00->fields).SelectedSetIndex;
-        pSVar14 = ((Settings_ListSetting_T__o *)name)->klass;
-        uVar2._0_1_ = (pSVar14->_2).rank;
-        uVar2._1_1_ = (pSVar14->_2).minimumAlignment;
-        if ((ulong)uVar2 != 0) {
-          pIVar17 = (pSVar14->_1).interfaceOffsets;
-          lVar18 = 0;
-          do {
-            if (*(long *)((long)&pIVar17->interfaceType + lVar18) == TypeInfo_IListSetting) goto label_0435c994;
-            lVar18 = lVar18 + 0x10;
-          } while ((ulong)uVar2 << 4 != lVar18);
+    bVar14 = System_String__op_Equality(name,"Rename",(MethodInfo *)0x0);
+    if (bVar14) {
+      if (__this_00 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) {
+        pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                            ((Settings_SetSettingsContainer_T__o *)__this_00,
+                             (MethodInfo_C8EAF0 *)
+                             MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+        if (((pSVar16 != (Settings_BaseSetSetting_o *)0x0) && (pUVar4 != (UI_SetNamePopup_o *)0x0)) &&
+           ((pSVar5 = (pUVar4->fields).NameSetting, pSVar5 != (Settings_StringSetting_o *)0x0 &&
+            (__this_01 = (pSVar16->fields).Name, __this_01 != (Settings_StringSetting_o *)0x0)))) {
+          Settings_TypedSetting_object___set_Value
+                    ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)(pSVar5->fields)._value,
+                     (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+          goto label_1821d39fd;
         }
-label_0435c7e3:
-        pVVar12 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(name,TypeInfo_IListSetting,0);
-        goto label_0435c9a7;
       }
+      goto label_1821d3f7c;
+    }
+    bVar14 = System_String__op_Equality(name,"Copy",(MethodInfo *)0x0);
+    if (!bVar14) {
+      bVar14 = System_String__op_Equality(name,"LoadPreset",(MethodInfo *)0x0);
+      if (bVar14) {
+        if (__this_00 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) {
+          pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                              ((Settings_SetSettingsContainer_T__o *)__this_00,
+                               (MethodInfo_C8EAF0 *)
+                               MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+          if ((((pSVar16 != (Settings_BaseSetSetting_o *)0x0) &&
+               (pSVar5 = (pSVar16->fields).Name, pSVar5 != (Settings_StringSetting_o *)0x0)) &&
+              (pSVar3 = TypeInfo_Settings_SettingsManager->static_fields->HumanCustomSettings,
+              pSVar3 != (Settings_HumanCustomSettings_o *)0x0)) &&
+             ((pSVar8 = (pSVar3->fields).Costume1Sets,
+              pSVar8 != (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0 &&
+              (pSVar6 = (pSVar8->fields).Sets, pSVar6 != (Settings_ListSetting_T__o *)0x0)))) {
+            pSVar9 = (pSVar5->fields)._value;
+            __this_02 = InterfaceInvoker0_Invoke
+                                  (2,(Il2CppClass *)TypeInfo_Settings_IListSetting,(Il2CppObject *)pSVar6);
+            if (__this_02 != (System_Collections_Generic_List_T__o *)0x0) {
+              System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                        ((System_Collections_Generic_List_Enumerator_T__o *)local_60,__this_02,
+                         (MethodInfo_91F180 *)
+                         MethodInfo_System_Collections_Generic_List_BaseSetting_GetEnumerator);
+              local_48 = (undefined1  [8])local_60._0_8_;
+              pUStack_40 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_60._8_8_;
+              local_38 = local_50;
+              local_60._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+              local_60._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48;
+              while( true ) {
+                bVar14 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                                   ((System_Collections_Generic_List_Enumerator_object__o *)local_48,
+                                    (MethodInfo_153A2A0 *)
+                                    MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_MoveNext
+                                   );
+                pSVar13 = local_38;
+                if (!bVar14) break;
+                if (local_38 == (Settings_BaseSetting_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                bVar1 = (TypeInfo_Settings_HumanCustomSet->_2).typeHierarchyDepth;
+                if (((local_38->klass->_2).typeHierarchyDepth < bVar1) ||
+                   ((local_38->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+                    (Il2CppClass *)TypeInfo_Settings_HumanCustomSet)) {
+                  il2cpp_codegen_raise_invalid_cast_exception(local_38);
+                }
+                if ((*(uint64_t *)((char *)local_38 + 0x30)) == (Settings_BaseSetting_c *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                a = (((*(Il2CppClass **)((char *)local_38 + 0x30)))->_1).byval_arg.data;
+                if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+                  il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+                }
+                pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+                if (pUVar2 == (UI_BaseMenu_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                pUVar10 = (pUVar2->fields).SelectListPopup;
+                if (pUVar10 == (UI_SelectListPopup_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                pSVar5 = (pUVar10->fields).FinishSetting;
+                if (pSVar5 == (Settings_StringSetting_o *)0x0) {
+                  ThrowNullReferenceException();
+                }
+                bVar14 = System_String__op_Equality(a,(pSVar5->fields)._value,(MethodInfo *)0x0);
+                if (bVar14) {
+                  pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                                      ((Settings_SetSettingsContainer_T__o *)__this_00,
+                                       (MethodInfo_C8EAF0 *)
+                                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet)
+                  ;
+                  if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  (*(pSVar16->klass->vtable)._10_Copy.methodPtr)
+                            (pSVar16,pSVar13,(pSVar16->klass->vtable)._10_Copy.method);
+                  pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                                      ((Settings_SetSettingsContainer_T__o *)__this_00,
+                                       (MethodInfo_C8EAF0 *)
+                                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet)
+                  ;
+                  if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  pSVar11 = (pSVar16->fields).Preset;
+                  if (pSVar11 == (Settings_BoolSetting_o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  Settings_TypedSetting_bool___set_Value
+                            ((Settings_TypedSetting_bool__o *)pSVar11,false,
+                             (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+                  pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                                      ((Settings_SetSettingsContainer_T__o *)__this_00,
+                                       (MethodInfo_C8EAF0 *)
+                                       MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet)
+                  ;
+                  if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  pSVar5 = (pSVar16->fields).Name;
+                  if (pSVar5 == (Settings_StringSetting_o *)0x0) {
+                    ThrowNullReferenceException();
+                  }
+                  Settings_TypedSetting_object___set_Value
+                            ((Settings_TypedSetting_T__o *)pSVar5,(Il2CppObject *)pSVar9,
+                             (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+                }
+              }
+              System_Collections_Generic_List_Enumerator_object___Dispose
+                        ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_48,
+                         MethodInfo_System_Collections_Generic_List_Enumerator_BaseSetting_Dispose);
+              goto label_1821d39fd;
+            }
+          }
+        }
+        goto label_1821d3f7c;
+      }
+      bVar14 = System_String__op_Equality(name,"Import",(MethodInfo *)0x0);
+      if (bVar14) {
+        if ((TypeInfo_UI_UIManager->_2).cctor_finished_or_no_cctor == 0) {
+          il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UI_UIManager);
+        }
+        pUVar2 = TypeInfo_UI_UIManager->static_fields->CurrentMenu;
+        if (pUVar2 != (UI_BaseMenu_o *)0x0) {
+          pUVar12 = (pUVar2->fields).ImportPopup;
+          if (__this_00 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                              ((Settings_SetSettingsContainer_T__o *)__this_00,
+                               (MethodInfo_C8EAF0 *)
+                               MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+          if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar5 = (pSVar16->fields).Name;
+          if (pSVar5 == (Settings_StringSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar9 = (pSVar5->fields)._value;
+          pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                              ((Settings_SetSettingsContainer_T__o *)__this_00,
+                               (MethodInfo_C8EAF0 *)
+                               MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+          if (pUVar12 == (UI_ImportPopup_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar5 = (pUVar12->fields).ImportSetting;
+          if (pSVar5 == (Settings_StringSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          (*(pSVar16->klass->vtable)._9_DeserializeFromJsonString.methodPtr)
+                    (pSVar16,(pSVar5->fields)._value,
+                     (pSVar16->klass->vtable)._9_DeserializeFromJsonString.method);
+          pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                              ((Settings_SetSettingsContainer_T__o *)__this_00,
+                               (MethodInfo_C8EAF0 *)
+                               MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+          if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar11 = (pSVar16->fields).Preset;
+          if (pSVar11 == (Settings_BoolSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          Settings_TypedSetting_bool___set_Value
+                    ((Settings_TypedSetting_bool__o *)pSVar11,false,
+                     (MethodInfo_E8F540 *)MethodInfo_Settings_TypedSetting_bool_set_Value);
+          pSVar16 = Settings_SetSettingsContainer_object___GetSelectedSet
+                              ((Settings_SetSettingsContainer_T__o *)__this_00,
+                               (MethodInfo_C8EAF0 *)
+                               MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_GetSelectedSet);
+          if (pSVar16 == (Settings_BaseSetSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          pSVar5 = (pSVar16->fields).Name;
+          if (pSVar5 == (Settings_StringSetting_o *)0x0) {
+            ThrowNullReferenceException();
+          }
+          Settings_TypedSetting_object___set_Value
+                    ((Settings_TypedSetting_T__o *)pSVar5,(Il2CppObject *)pSVar9,
+                     (MethodInfo_E8F4C0 *)MethodInfo_Settings_TypedSetting_string_set_Value);
+          (*(pUVar12->klass->vtable)._22_Hide.methodPtr)(pUVar12,(pUVar12->klass->vtable)._22_Hide.method);
+          bVar14 = UI_CharacterEditorCostumePanel__GetPersistentGlobalPreview((MethodInfo *)0x0);
+          if (bVar14) {
+            bVar14 = true;
+          }
+          else {
+            bVar14 = UI_CharacterEditorCostumePanel__GetPersistentCustomPreview((MethodInfo *)0x0);
+          }
+          if (__this != (UI_CharacterEditorCostumePanel_o *)0x0) {
+            (__this->fields)._shouldGeneratePreviewAfterRebuild = bVar14;
+            goto label_1821d39fd;
+          }
+        }
+        goto label_1821d3f7c;
+      }
+      goto label_1821d39fd;
+    }
+    if (((pUVar4 == (UI_SetNamePopup_o *)0x0) ||
+        (pSVar5 = (pUVar4->fields).NameSetting, pSVar5 == (Settings_StringSetting_o *)0x0)) ||
+       (__this_00 == (Settings_SetSettingsContainer_HumanCustomSet__o *)0x0)) goto label_1821d3f7c;
+    Settings_SetSettingsContainer_object___CopySelectedSet
+              ((Settings_SetSettingsContainer_T__o *)__this_00,(pSVar5->fields)._value,
+               (MethodInfo_C8E740 *)MethodInfo_Settings_SetSettingsContainer_HumanCustomSet_CopySelectedSet);
+  }
+  pSVar6 = ((Settings_SetSettingsContainer_T__Fields *)&__this_00->fields)->Sets;
+  if (pSVar6 != (Settings_ListSetting_T__o *)0x0) {
+    pSVar7 = ((Settings_SetSettingsContainer_T__Fields *)&__this_00->fields)->SelectedSetIndex;
+    pvVar15 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_Settings_IListSetting,(Il2CppObject *)pSVar6)
+    ;
+    if (pSVar7 != (Settings_IntSetting_o *)0x0) {
+      Settings_TypedSetting_int___set_Value
+                ((Settings_TypedSetting_int__o *)pSVar7,(int)pvVar15 + -1,
+                 (MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      (__this->fields)._shouldGeneratePreviewAfterRebuild = true;
+label_1821d39fd:
+      UI_CharacterEditorCostumePanel__OnCustomSetSelected(__this,(MethodInfo *)0x0);
+      return;
     }
   }
-label_0435d088:
-  il2cpp_runtime_helper_022b2c90();
-label_0435d08d:
-  puVar16 = (undefined8 *)__cxa_allocate_exception(8);
-  *puVar16 = ((Settings_ListSetting_T__o *)name)->klass;
-  __cxa_throw(puVar16,&PTR_PTR_05215060,0);
-label_0435ce45:
-  __this_02.fields._8_8_ = __this;
-  __this_02.fields._list = (System_Collections_Generic_List_T__o *)in_stack_ffffffffffffff88;
-  __this_02.fields._current = (Il2CppObject *)pSVar22;
-  method_00 = MethodInfo_Void_Dispose;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-  goto label_0435c9dc;
-label_0435c994:
-  pVVar12 = &(pSVar14->vtable)._0_Equals + *(int *)((long)&pIVar17->offset + lVar18);
-label_0435c9a7:
-  iVar11 = (*pVVar12->methodPtr)(name,pVVar12->method);
-  if (pSVar19 != (Settings_IntSetting_o *)0x0) {
-    method_00 = (MethodInfo *)(ulong)(iVar11 - 1U);
-    Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)pSVar19,iVar11 - 1U,MethodInfo_Void_set_Value);
-    *(undefined1 *)&(__this->fields)._shouldGeneratePreviewAfterRebuild = 1;
-    goto label_0435c9dc;
-  }
-  goto label_0435d088;
+label_1821d3f7c:
+  ThrowNullReferenceException();
 }
 
 
 // UI.CharacterEditorCostumePanel$$SaveQuitCaptureCoroutine
 // il2cpp: System_Collections_IEnumerator_o* UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435c540
+// 0x1821d4810
 
 System_Collections_IEnumerator_o *
 UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine
@@ -6629,1548 +4875,30 @@ UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine
 {
   UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *__this_00;
   
-  if (g_data_057ae183 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SaveQuitCaptureCoroutine_d__35);
-    g_data_057ae183 = '\x01';
+  if (Il2CppMethodInitialized_184346f87 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_UI_CharacterEditorCostumePanel_SaveQuitCaptureCoroutine_d__35);
+    Il2CppMethodInitialized_184346f87 = '\x01';
   }
-  __this_00 = (UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35_o *)
-              il2cpp_runtime_helper_023052d0(TypeInfo_SaveQuitCaptureCoroutine_d__35);
-  UI_CharacterEditorCostumePanel__SaveQuitCaptureCoroutine_d__35___ctor(__this_00,0,(MethodInfo *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_UI_CharacterEditorCostumePanel_SaveQuitCaptureCoroutine_d__35
+                        );
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // UI.CharacterEditorCostumePanel$$.ctor
 // il2cpp: void UI_CharacterEditorCostumePanel___ctor (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d190
+// 0x1821d6e20
 
-void UI_CharacterEditorCostumePanel___ctor(UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  System_String_o *defaultValue;
-  System_Collections_Generic_List_BasePopup__o *__this_00;
-  Settings_StringSetting_o *__this_01;
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  
-  if (g_data_057ae115 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_UnityEngine_UI_Button);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Button);
-    g_data_057ae115 = '\x01';
-  }
-  pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Button);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar1,MethodInfo_Dictionary_2_System_String_UnityEngine_UI_Button);
-  (__this->fields)._topButtons = (System_Collections_Generic_Dictionary_string__Button__o *)pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._topButtons,pSVar1);
-  if (g_data_057ae02c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_System_Type,0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Type);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_UI_BasePopup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_List_BasePopup);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_StringSetting);
-    g_data_057ae02c = '\x01';
-  }
-  __this_00 = (System_Collections_Generic_List_BasePopup__o *)il2cpp_runtime_helper_023052d0(TypeInfo_List_BasePopup);
-  System_Collections_Generic_List_object____ctor
-            ((System_Collections_Generic_List_object__o *)__this_00,MethodInfo_List_1_UI_BasePopup);
-  (__this->fields)._popups = __this_00;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._popups,__this_00);
-  defaultValue = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-  __this_01 = (Settings_StringSetting_o *)il2cpp_runtime_helper_023052d0(TypeInfo_StringSetting);
-  Settings_StringSetting___ctor_40f74f0(__this_01,defaultValue,0x7fffffff,(MethodInfo *)0x0);
-  (__this->fields)._currentCategoryPanelName = __this_01;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._currentCategoryPanelName,__this_01);
-  pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Type);
-  System_Collections_Generic_Dictionary_object__object____ctor(pSVar1,MethodInfo_Dictionary_2_System_String_System_Type);
-  (__this->fields)._categoryPanelTypes = (System_Collections_Generic_Dictionary_string__Type__o *)pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields)._categoryPanelTypes);
-  UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_0
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_0 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d210
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_0
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
+void
+UI_CharacterEditorCostumePanel___ctor(UI_CharacterEditorCostumePanel_o* __this, MethodInfo* method)
 
 {
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae184 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Quit");
-    g_data_057ae184 = '\x01';
-    in_RDX = extraout_RDX;
-  }
-  UI_CharacterEditorCostumePanel__OnButtonClick(__this,"Quit",in_RDX);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_1
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_1 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d250
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_1
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae185 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"LoadPreset");
-    g_data_057ae185 = '\x01';
-    in_RDX = extraout_RDX;
-  }
-  UI_CharacterEditorCostumePanel__OnButtonClick(__this,"LoadPreset",in_RDX);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_2
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_2 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d290
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_2
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  MethodInfo *in_RDX;
-  MethodInfo *extraout_RDX;
-  
-  if (g_data_057ae186 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"SaveQuit");
-    g_data_057ae186 = '\x01';
-    in_RDX = extraout_RDX;
-  }
-  UI_CharacterEditorCostumePanel__OnButtonClick(__this,"SaveQuit",in_RDX);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_3
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_3 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d2d0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_3
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  UI_CharacterEditorCostumePanel__OnCustomSetSelected(__this,method);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_4
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_4 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d2e0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_4
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  byte bVar1;
-  char cVar2;
-  long lVar3;
-  Settings_SetSettingsContainer_T__o *__this_00;
-  Settings_StringSetting_o *__this_01;
-  Settings_BoolSetting_o *__this_02;
-  UI_CharacterEditorMenu_o *pUVar4;
-  GameManagers_CharacterEditorGameManager_o *pGVar5;
-  Characters_DummyHuman_o *__this_03;
-  bool_conflict bVar6;
-  Settings_BaseSetSetting_o *pSVar7;
-  undefined8 *puVar8;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *pUVar9;
-  long *unaff_RBX;
-  
-  if (g_data_057ae17b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HumanCustomSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseSetSetting_GetSelectedSet);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_SettingsManager);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Value);
-    il2cpp_runtime_helper_023445d0(&"HairM0");
-    il2cpp_runtime_helper_023445d0(&"HairF0");
-    g_data_057ae17b = '\x01';
-  }
-  lVar3 = *(long *)(*(long *)(TypeInfo_SettingsManager + 0xb8) + 0x60);
-  if (((lVar3 != 0) &&
-      (__this_00 = *(Settings_SetSettingsContainer_T__o **)(lVar3 + 0x20),
-      __this_00 != (Settings_SetSettingsContainer_T__o *)0x0)) &&
-     (pSVar7 = Settings_SetSettingsContainer_object___GetSelectedSet(__this_00,MethodInfo_BaseSetSetting_GetSelectedSet),
-     pSVar7 != (Settings_BaseSetSetting_o *)0x0)) {
-    bVar1 = (TypeInfo_HumanCustomSet->_2).naturalAligment;
-    unaff_RBX = (long *)pSVar7;
-    if (((pSVar7->klass->_2).naturalAligment < bVar1) ||
-       ((pSVar7->klass->_2).typeHierarchy[(ulong)bVar1 - 1] != TypeInfo_HumanCustomSet)) goto label_0435b02b;
-    if ((pSVar7[1].klass != (Settings_BaseSetSetting_c *)0x0) &&
-       (__this_01 = pSVar7[1].fields.Name, __this_01 != (Settings_StringSetting_o *)0x0)) {
-      if (*(int *)((long)&((pSVar7[1].klass)->_1).name + 4) == 0) {
-        puVar8 = &"HairM0";
-      }
-      else {
-        puVar8 = &"HairF0";
-      }
-      Settings_TypedSetting_object___set_Value
-                ((Settings_TypedSetting_T__o *)__this_01,(Il2CppObject *)*puVar8,MethodInfo_Void_set_Value);
-      __this_02 = pSVar7[1].fields.Preset;
-      if (__this_02 != (Settings_BoolSetting_o *)0x0) {
-        Settings_TypedSetting_int___set_Value((Settings_TypedSetting_int__o *)__this_02,0,MethodInfo_Void_set_Value);
-        pUVar4 = (__this->fields)._menu;
-        if (pUVar4 != (UI_CharacterEditorMenu_o *)0x0) {
-          (*(pUVar4->klass->vtable)._8_RebuildPanels.methodPtr)
-                    (pUVar4,1,(pUVar4->klass->vtable)._8_RebuildPanels.method);
-          pUVar4 = (__this->fields)._menu;
-          if (pUVar4 != (UI_CharacterEditorMenu_o *)0x0) {
-            (*(pUVar4->klass->vtable)._9_ResetCharacter.methodPtr)
-                      (pUVar4,1,(pUVar4->klass->vtable)._9_ResetCharacter.method);
-            if (g_data_057ae187 == '\0') {
-              il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-              g_data_057ae187 = '\x01';
-            }
-            unaff_RBX = &TypeInfo_CharacterEditorSkinsPanel;
-            if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-              if (g_data_057ae188 == '\0') {
-                il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-                g_data_057ae188 = '\x01';
-                cVar2 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-              }
-              else {
-                cVar2 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-              }
-              if (cVar2 == '\0') {
-                return;
-              }
-            }
-            pUVar4 = (__this->fields)._menu;
-            if ((pUVar4 != (UI_CharacterEditorMenu_o *)0x0) &&
-               (pGVar5 = (pUVar4->fields)._gameManager,
-               pGVar5 != (GameManagers_CharacterEditorGameManager_o *)0x0)) {
-              __this_03 = (pGVar5->fields).Human;
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar6 = UnityEngine_Object__op_Inequality
-                                ((UnityEngine_Object_o *)__this_03,(UnityEngine_Object_o *)0x0,
-                                 (MethodInfo *)0x0);
-              if ((char)bVar6 == '\0') {
-label_0435afad:
-                if (g_data_057ae17e == '\0') {
-                  il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                  g_data_057ae17e = '\x01';
-                }
-                pUVar9 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-                         il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-                UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor
-                          (pUVar9,0,(MethodInfo *)0x0);
-                UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-                          ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar9,
-                           (MethodInfo *)0x0);
-                return;
-              }
-              unaff_RBX = (long *)0x0;
-              if (__this_03 != (Characters_DummyHuman_o *)0x0) {
-                Characters_DummyHuman__LoadSkin(__this_03,(MethodInfo *)0x0);
-                goto label_0435afad;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_0435b02b:
-  il2cpp_runtime_helper_022b2fd0(unaff_RBX);
-  if (g_data_057ae17e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterReset_d__29);
-    g_data_057ae17e = '\x01';
-  }
-  pUVar9 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterReset_d__29);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterReset_d__29___ctor(pUVar9,0,(MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_5
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_5 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d2f0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_5
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_6
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_6 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d300
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_6
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_7
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_7 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d310
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_7
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_8
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_8 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d320
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_8
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_9
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_9 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d330
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_9
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_10
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_10 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d340
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_10
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_11
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_11 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d350
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_11
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_12
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_12 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d360
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_12
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_13
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_13 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d370
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_13
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_14
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_14 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d380
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_14
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_15
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_15 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d390
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_15
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_16
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_16 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3a0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_16
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_17
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_17 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3b0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_17
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_18
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_18 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3c0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_18
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_19
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_19 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3d0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_19
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_20
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_20 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3e0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_20
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_21
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_21 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d3f0
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_21
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_22
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_22 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d400
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_22
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_23
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_23 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d410
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_23
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_24
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_24 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d420
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_24
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_25
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_25 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d430
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_25
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
-  return;
-}
-
-
-// UI.CharacterEditorCostumePanel$$<Setup>b__21_26
-// il2cpp: void UI_CharacterEditorCostumePanel___Setup_b__21_26 (UI_CharacterEditorCostumePanel_o* __this, const MethodInfo* method);
-// 0x435d440
-
-void UI_CharacterEditorCostumePanel___Setup_b__21_26
-               (UI_CharacterEditorCostumePanel_o *__this,MethodInfo *method)
-
-{
-  char cVar1;
-  UI_CharacterEditorMenu_o *pUVar2;
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *pUVar3;
-  
-  pUVar2 = (__this->fields)._menu;
-  if (pUVar2 == (UI_CharacterEditorMenu_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ae17f == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-      g_data_057ae17f = '\x01';
-    }
-    pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-             il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor
-              (pUVar3,0,(MethodInfo *)0x0);
-    return;
-  }
-  (*(pUVar2->klass->vtable)._9_ResetCharacter.methodPtr)
-            (pUVar2,0,(pUVar2->klass->vtable)._9_ResetCharacter.method);
-  if (g_data_057ae187 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-    g_data_057ae187 = '\x01';
-  }
-  if (**(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) == '\0') {
-    if (g_data_057ae188 == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CharacterEditorSkinsPanel);
-      g_data_057ae188 = '\x01';
-      cVar1 = *(char *)(*(long *)(TypeInfo_CharacterEditorSkinsPanel + 0xb8) + 1);
-    }
-    else {
-      cVar1 = (*(char **)(TypeInfo_CharacterEditorSkinsPanel + 0xb8))[1];
-    }
-    if (cVar1 == '\0') {
-      return;
-    }
-  }
-  if (g_data_057ae17f == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-    g_data_057ae17f = '\x01';
-  }
-  pUVar3 = (UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31_o *)
-           il2cpp_runtime_helper_023052d0(TypeInfo_ApplySkinPreviewAfterCostumeChange_d__31);
-  UI_CharacterEditorCostumePanel__ApplySkinPreviewAfterCostumeChange_d__31___ctor(pUVar3,0,(MethodInfo *)0x0);
-  UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-            ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)pUVar3,
-             (MethodInfo *)0x0);
+  UI_HeadedPanel___ctor((UI_HeadedPanel_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

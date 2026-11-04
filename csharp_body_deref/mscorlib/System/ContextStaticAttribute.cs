@@ -11,13 +11,13 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x200015A")]
+[Token(Token = "0x2000184")]
 [AttributeUsage(AttributeTargets.Field, Inherited = false)]
 [ComVisible(true)]
 public class ContextStaticAttribute : Attribute
 {
-	[Token(Token = "0x6000DA9")]
-	[Address(RVA = "0x3CEADB0", Offset = "0x3CEADB0", VA = "0x3CEADB0")]
+	[Token(Token = "0x6000DF6")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ContextStaticAttribute()
 	{
 	}

@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.UIR.RenderChainCommand
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,92 +11,114 @@ using Unity.Profiling;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004F2")]
+[Token(Token = "0x200058E")]
 internal class RenderChainCommand : LinkedPoolItem<RenderChainCommand>
 {
-	[Token(Token = "0x4001077")]
+	[Token(Token = "0x400135F")]
 	[FieldOffset(Offset = "0x18")]
-	internal VisualElement owner;
+	public RenderData owner;
 
-	[Token(Token = "0x4001078")]
+	[Token(Token = "0x4001360")]
 	[FieldOffset(Offset = "0x20")]
-	internal RenderChainCommand prev;
+	public RenderChainCommand prev;
 
-	[Token(Token = "0x4001079")]
+	[Token(Token = "0x4001361")]
 	[FieldOffset(Offset = "0x28")]
-	internal RenderChainCommand next;
+	public RenderChainCommand next;
 
-	[Token(Token = "0x400107A")]
+	[Token(Token = "0x4001362")]
 	[FieldOffset(Offset = "0x30")]
-	internal bool isTail;
+	public CommandType type;
 
-	[Token(Token = "0x400107B")]
+	[Token(Token = "0x4001363")]
 	[FieldOffset(Offset = "0x34")]
-	internal CommandType type;
+	public CommandFlags flags;
 
-	[Token(Token = "0x400107C")]
+	[Token(Token = "0x4001364")]
 	[FieldOffset(Offset = "0x38")]
-	internal State state;
+	public Material material;
 
-	[Token(Token = "0x400107D")]
+	[Token(Token = "0x4001365")]
+	[FieldOffset(Offset = "0x40")]
+	public MaterialPropertyBlock userProps;
+
+	[Token(Token = "0x4001366")]
+	[FieldOffset(Offset = "0x48")]
+	public TextureId texture;
+
+	[Token(Token = "0x4001367")]
+	[FieldOffset(Offset = "0x4C")]
+	public int stencilRef;
+
+	[Token(Token = "0x4001368")]
 	[FieldOffset(Offset = "0x50")]
-	internal MeshHandle mesh;
+	public float sdfScale;
 
-	[Token(Token = "0x400107E")]
+	[Token(Token = "0x4001369")]
+	[FieldOffset(Offset = "0x54")]
+	public float sharpness;
+
+	[Token(Token = "0x400136A")]
 	[FieldOffset(Offset = "0x58")]
-	internal int indexOffset;
+	public MeshHandle mesh;
 
-	[Token(Token = "0x400107F")]
-	[FieldOffset(Offset = "0x5C")]
-	internal int indexCount;
-
-	[Token(Token = "0x4001080")]
+	[Token(Token = "0x400136B")]
 	[FieldOffset(Offset = "0x60")]
-	internal Action callback;
+	public int indexOffset;
 
-	[Token(Token = "0x4001081")]
+	[Token(Token = "0x400136C")]
+	[FieldOffset(Offset = "0x64")]
+	public int indexCount;
+
+	[Token(Token = "0x400136D")]
+	[FieldOffset(Offset = "0x68")]
+	public Action callback;
+
+	[Token(Token = "0x400136E")]
 	[FieldOffset(Offset = "0x0")]
-	private static readonly int k_ID_MainTex;
-
-	[Token(Token = "0x4001082")]
-	[FieldOffset(Offset = "0x8")]
 	private static ProfilerMarker s_ImmediateOverheadMarker;
 
-	[Token(Token = "0x6001E80")]
-	[Address(RVA = "0x4FB2A00", Offset = "0x4FB2A00", VA = "0x4FB2A00")]
-	internal void Reset()
+	[Token(Token = "0x6002983")]
+	[Address(RVA = "0x31840A0", Offset = "0x31826A0", VA = "0x1831840A0")]
+	public RenderChainCommand()
 	{
 	}
 
-	[Token(Token = "0x6001E81")]
-	[Address(RVA = "0x4FB2A80", Offset = "0x4FB2A80", VA = "0x4FB2A80")]
-	internal void ExecuteNonDrawMesh(DrawParams drawParams, float pixelsPerPoint, ref Exception immediateException)
+	[Token(Token = "0x6002984")]
+	[Address(RVA = "0x3183F60", Offset = "0x3182560", VA = "0x183183F60")]
+	public void Reset()
 	{
 	}
 
-	[Token(Token = "0x6001E82")]
-	[Address(RVA = "0x4FB4070", Offset = "0x4FB4070", VA = "0x4FB4070")]
-	private void Blit(Texture source, RenderTexture destination, float depth)
+	[Token(Token = "0x6002985")]
+	[Address(RVA = "0x31830B0", Offset = "0x31816B0", VA = "0x1831830B0")]
+	public void ExecuteNonDrawMesh(DrawParams drawParams, float pixelsPerPoint, ref Exception immediateException)
 	{
 	}
 
-	[Token(Token = "0x6001E83")]
-	[Address(RVA = "0x4FB3F50", Offset = "0x4FB3F50", VA = "0x4FB3F50")]
+	[Token(Token = "0x6002986")]
+	[Address(RVA = "0x3183B60", Offset = "0x3182160", VA = "0x183183B60")]
+	public static void PushScissor(DrawParams drawParams, Rect scissor, float pixelsPerPoint)
+	{
+	}
+
+	[Token(Token = "0x6002987")]
+	[Address(RVA = "0x3183930", Offset = "0x3181F30", VA = "0x183183930")]
+	public static void PopScissor(DrawParams drawParams, float pixelsPerPoint)
+	{
+	}
+
+	[Token(Token = "0x6002988")]
+	[Address(RVA = "0x3182F70", Offset = "0x3181570", VA = "0x183182F70")]
 	private static Rect CombineScissorRects(Rect r0, Rect r1)
 	{
 		return default(Rect);
 	}
 
-	[Token(Token = "0x6001E84")]
-	[Address(RVA = "0x4FB3A40", Offset = "0x4FB3A40", VA = "0x4FB3A40")]
-	private static RectInt RectPointsToPixelsAndFlipYAxis(Rect rect, float pixelsPerPoint)
+	[Token(Token = "0x6002989")]
+	[Address(RVA = "0x3183E10", Offset = "0x3182410", VA = "0x183183E10")]
+	private static RectInt RectPointsToPixelsAndFlipYAxis(Rect rect, Vector2 boundsMin, float pixelsPerPoint)
 	{
 		return default(RectInt);
-	}
-
-	[Token(Token = "0x6001E85")]
-	[Address(RVA = "0x4FB41E0", Offset = "0x4FB41E0", VA = "0x4FB41E0")]
-	public RenderChainCommand()
-	{
 	}
 }

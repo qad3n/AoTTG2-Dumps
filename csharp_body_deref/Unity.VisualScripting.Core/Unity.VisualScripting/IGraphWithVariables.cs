@@ -15,13 +15,13 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001CC")]
 public interface IGraphWithVariables : IGraph, IDisposable, IPrewarmable, IAotStubbable, ISerializationDepender, ISerializationCallbackReceiver
 {
-	[Token(Token = "0x170001E0")]
+	[Token(Token = "0x170001E3")]
 	VariableDeclarations variables
 	{
-		[Token(Token = "0x60010F7")]
+		[Token(Token = "0x6001104")]
 		get;
 	}
 
-	[Token(Token = "0x60010F8")]
+	[Token(Token = "0x6001105")]
 	IEnumerable<string> GetDynamicVariableNames(VariableKind kind, GraphReference reference);
 }

@@ -9,20 +9,20 @@ using Il2CppDummyDll;
 
 namespace GameManagers;
 
-[Token(Token = "0x200022C")]
+[Token(Token = "0x2000344")]
 internal class TitanLoadout
 {
-	[Token(Token = "0x4000BE3")]
+	[Token(Token = "0x40010EA")]
 	public const string Small = "Small";
 
-	[Token(Token = "0x4000BE4")]
+	[Token(Token = "0x40010EB")]
 	public const string Medium = "Medium";
 
-	[Token(Token = "0x4000BE5")]
+	[Token(Token = "0x40010EC")]
 	public const string Large = "Large";
 
-	[Token(Token = "0x6000D90")]
-	[Address(RVA = "0x446FDF0", Offset = "0x446FDF0", VA = "0x446FDF0")]
+	[Token(Token = "0x60014D8")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public TitanLoadout()
 	{
 	}

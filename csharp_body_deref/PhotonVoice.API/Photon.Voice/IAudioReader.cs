@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000065")]
+[Token(Token = "0x2000063")]
 public interface IAudioReader<T> : IDataReader<T>, IDisposable, IAudioDesc
 {
 }

@@ -25,7 +25,7 @@ internal class Filter : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001AE7")]
-		[Address(RVA = "0x477B040", Offset = "0x477B040", VA = "0x477B040", Slot = "4")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -36,7 +36,7 @@ internal class Filter : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001AE8")]
-		[Address(RVA = "0x477B050", Offset = "0x477B050", VA = "0x477B050", Slot = "5")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -47,7 +47,7 @@ internal class Filter : AstNode
 	public AstNode Input
 	{
 		[Token(Token = "0x6001AE9")]
-		[Address(RVA = "0x477B060", Offset = "0x477B060", VA = "0x477B060")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -58,7 +58,7 @@ internal class Filter : AstNode
 	public AstNode Condition
 	{
 		[Token(Token = "0x6001AEA")]
-		[Address(RVA = "0x477B070", Offset = "0x477B070", VA = "0x477B070")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		get
 		{
 			return null;
@@ -66,7 +66,7 @@ internal class Filter : AstNode
 	}
 
 	[Token(Token = "0x6001AE6")]
-	[Address(RVA = "0x477B000", Offset = "0x477B000", VA = "0x477B000")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public Filter(AstNode input, AstNode condition)
 	{
 	}

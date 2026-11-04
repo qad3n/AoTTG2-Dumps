@@ -14,14 +14,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnSliderValueChangedMessageListener : MessageListener
 {
-	[Token(Token = "0x600046B")]
-	[Address(RVA = "0x4CB7150", Offset = "0x4CB7150", VA = "0x4CB7150")]
+	[Token(Token = "0x6000475")]
+	[Address(RVA = "0x2DBEE70", Offset = "0x2DBD470", VA = "0x182DBEE70")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x600046C")]
-	[Address(RVA = "0x4CB7210", Offset = "0x4CB7210", VA = "0x4CB7210")]
+	[Token(Token = "0x6000476")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnSliderValueChangedMessageListener()
 	{
 	}

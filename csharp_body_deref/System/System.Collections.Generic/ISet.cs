@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Collections.Generic;
 
-[Token(Token = "0x2000356")]
+[Token(Token = "0x2000277")]
 public interface ISet<T> : ICollection<T>, IEnumerable<T>, IEnumerable
 {
 }

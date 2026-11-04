@@ -12,15 +12,15 @@ using Il2CppDummyDll;
 namespace UnityEngine.Bindings;
 
 [Token(Token = "0x200000A")]
-[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.ReturnValue, AllowMultiple = true)]
 [VisibleToOtherModules]
+[AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Enum | AttributeTargets.Method | AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter | AttributeTargets.ReturnValue, AllowMultiple = true)]
 internal class NativeHeaderAttribute : Attribute
 {
 	[Token(Token = "0x17000006")]
 	public string Header
 	{
 		[Token(Token = "0x6000011")]
-		[Address(RVA = "0x4E9DC40", Offset = "0x4E9DC40", VA = "0x4E9DC40", Slot = "7")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00", Slot = "7")]
 		[CompilerGenerated]
 		set
 		{
@@ -28,7 +28,7 @@ internal class NativeHeaderAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000012")]
-	[Address(RVA = "0x4E9DC50", Offset = "0x4E9DC50", VA = "0x4E9DC50")]
+	[Address(RVA = "0x2FF6E90", Offset = "0x2FF5490", VA = "0x182FF6E90")]
 	public NativeHeaderAttribute(string header)
 	{
 	}

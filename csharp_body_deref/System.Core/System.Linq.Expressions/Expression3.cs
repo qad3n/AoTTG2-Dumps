@@ -27,25 +27,25 @@ internal sealed class Expression3<TDelegate> : Expression<TDelegate>
 	[Token(Token = "0x170000B3")]
 	internal override int ParameterCount
 	{
-		[Token(Token = "0x600045A")]
+		[Token(Token = "0x6000459")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000459")]
+	[Token(Token = "0x6000458")]
 	public Expression3(Expression body, ParameterExpression par0, ParameterExpression par1, ParameterExpression par2)
 	{
 	}
 
-	[Token(Token = "0x600045B")]
+	[Token(Token = "0x600045A")]
 	internal override ParameterExpression GetParameter(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600045C")]
+	[Token(Token = "0x600045B")]
 	internal override Expression<TDelegate> Rewrite(Expression body, ParameterExpression[] parameters)
 	{
 		return null;

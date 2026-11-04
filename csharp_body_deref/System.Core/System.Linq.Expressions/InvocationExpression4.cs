@@ -31,29 +31,29 @@ internal sealed class InvocationExpression4 : InvocationExpression
 	[Token(Token = "0x1700009A")]
 	public override int ArgumentCount
 	{
-		[Token(Token = "0x6000425")]
-		[Address(RVA = "0x44BC370", Offset = "0x44BC370", VA = "0x44BC370", Slot = "13")]
+		[Token(Token = "0x6000424")]
+		[Address(RVA = "0x846F40", Offset = "0x845540", VA = "0x180846F40", Slot = "13")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000423")]
-	[Address(RVA = "0x44BC1D0", Offset = "0x44BC1D0", VA = "0x44BC1D0")]
+	[Token(Token = "0x6000422")]
+	[Address(RVA = "0x243B340", Offset = "0x2439940", VA = "0x18243B340")]
 	public InvocationExpression4(Expression lambda, Type returnType, Expression arg0, Expression arg1, Expression arg2, Expression arg3)
 	{
 	}
 
-	[Token(Token = "0x6000424")]
-	[Address(RVA = "0x44BC2B0", Offset = "0x44BC2B0", VA = "0x44BC2B0", Slot = "12")]
+	[Token(Token = "0x6000423")]
+	[Address(RVA = "0x243B150", Offset = "0x2439750", VA = "0x18243B150", Slot = "12")]
 	public override Expression GetArgument(int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000426")]
-	[Address(RVA = "0x44BC380", Offset = "0x44BC380", VA = "0x44BC380", Slot = "14")]
+	[Token(Token = "0x6000425")]
+	[Address(RVA = "0x243B220", Offset = "0x2439820", VA = "0x18243B220", Slot = "14")]
 	internal override InvocationExpression Rewrite(Expression lambda, Expression[] arguments)
 	{
 		return null;

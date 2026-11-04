@@ -13,37 +13,37 @@ namespace Weather;
 [Token(Token = "0x2000033")]
 internal class RainWeatherEffect : BaseWeatherEffect
 {
-	[Token(Token = "0x17000020")]
+	[Token(Token = "0x17000022")]
 	protected override Vector3 _positionOffset
 	{
-		[Token(Token = "0x6000150")]
-		[Address(RVA = "0x3F6C1C0", Offset = "0x3F6C1C0", VA = "0x3F6C1C0", Slot = "4")]
+		[Token(Token = "0x6000160")]
+		[Address(RVA = "0x1DAE3B0", Offset = "0x1DAC9B0", VA = "0x181DAE3B0", Slot = "4")]
 		get
 		{
 			return default(Vector3);
 		}
 	}
 
-	[Token(Token = "0x6000151")]
-	[Address(RVA = "0x3F6C210", Offset = "0x3F6C210", VA = "0x3F6C210", Slot = "8")]
+	[Token(Token = "0x6000161")]
+	[Address(RVA = "0x1DADCD0", Offset = "0x1DAC2D0", VA = "0x181DADCD0", Slot = "8")]
 	public override void Randomize()
 	{
 	}
 
-	[Token(Token = "0x6000152")]
-	[Address(RVA = "0x3F6C6A0", Offset = "0x3F6C6A0", VA = "0x3F6C6A0", Slot = "10")]
+	[Token(Token = "0x6000162")]
+	[Address(RVA = "0x1DAE0A0", Offset = "0x1DAC6A0", VA = "0x181DAE0A0", Slot = "10")]
 	public override void SetLevel(float level)
 	{
 	}
 
-	[Token(Token = "0x6000153")]
-	[Address(RVA = "0x3F6CA60", Offset = "0x3F6CA60", VA = "0x3F6CA60", Slot = "11")]
+	[Token(Token = "0x6000163")]
+	[Address(RVA = "0x1DAE3A0", Offset = "0x1DAC9A0", VA = "0x181DAE3A0", Slot = "11")]
 	public override void Setup(Transform parent)
 	{
 	}
 
-	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x3F6CA70", Offset = "0x3F6CA70", VA = "0x3F6CA70")]
+	[Token(Token = "0x6000164")]
+	[Address(RVA = "0x1DA1230", Offset = "0x1D9F830", VA = "0x181DA1230")]
 	public RainWeatherEffect()
 	{
 	}

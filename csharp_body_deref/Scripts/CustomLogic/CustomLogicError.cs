@@ -10,136 +10,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200048A")]
+[Token(Token = "0x20005E1")]
 public class CustomLogicError
 {
-	[Token(Token = "0x1700093B")]
+	[Token(Token = "0x17000A32")]
 	public string Message
 	{
-		[Token(Token = "0x600301E")]
-		[Address(RVA = "0x415C2D0", Offset = "0x415C2D0", VA = "0x415C2D0")]
+		[Token(Token = "0x600399D")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600301F")]
-		[Address(RVA = "0x415C2E0", Offset = "0x415C2E0", VA = "0x415C2E0")]
+		[Token(Token = "0x600399E")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700093C")]
+	[Token(Token = "0x17000A33")]
 	public string ClassName
 	{
-		[Token(Token = "0x6003020")]
-		[Address(RVA = "0x415C2F0", Offset = "0x415C2F0", VA = "0x415C2F0")]
+		[Token(Token = "0x600399F")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003021")]
-		[Address(RVA = "0x415C300", Offset = "0x415C300", VA = "0x415C300")]
+		[Token(Token = "0x60039A0")]
+		[Address(RVA = "0xC8DE30", Offset = "0xC8C430", VA = "0x180C8DE30")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700093D")]
+	[Token(Token = "0x17000A34")]
 	public string MethodName
 	{
-		[Token(Token = "0x6003022")]
-		[Address(RVA = "0x415C310", Offset = "0x415C310", VA = "0x415C310")]
+		[Token(Token = "0x60039A1")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003023")]
-		[Address(RVA = "0x415C320", Offset = "0x415C320", VA = "0x415C320")]
+		[Token(Token = "0x60039A2")]
+		[Address(RVA = "0xACE2F0", Offset = "0xACC8F0", VA = "0x180ACE2F0")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700093E")]
+	[Token(Token = "0x17000A35")]
 	public int LineNumber
 	{
-		[Token(Token = "0x6003024")]
-		[Address(RVA = "0x415C330", Offset = "0x415C330", VA = "0x415C330")]
+		[Token(Token = "0x60039A3")]
+		[Address(RVA = "0x585030", Offset = "0x583630", VA = "0x180585030")]
 		[CompilerGenerated]
 		get
 		{
 			return default(int);
 		}
-		[Token(Token = "0x6003025")]
-		[Address(RVA = "0x415C340", Offset = "0x415C340", VA = "0x415C340")]
+		[Token(Token = "0x60039A4")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700093F")]
+	[Token(Token = "0x17000A36")]
 	public string FormattedLineNumber
 	{
-		[Token(Token = "0x6003026")]
-		[Address(RVA = "0x415C350", Offset = "0x415C350", VA = "0x415C350")]
+		[Token(Token = "0x60039A5")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003027")]
-		[Address(RVA = "0x415C360", Offset = "0x415C360", VA = "0x415C360")]
+		[Token(Token = "0x60039A6")]
+		[Address(RVA = "0x58AA00", Offset = "0x589000", VA = "0x18058AA00")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000940")]
+	[Token(Token = "0x17000A37")]
 	public CustomLogicSourceType? Namespace
 	{
-		[Token(Token = "0x6003028")]
-		[Address(RVA = "0x415C370", Offset = "0x415C370", VA = "0x415C370")]
+		[Token(Token = "0x60039A7")]
+		[Address(RVA = "0xC8EEC0", Offset = "0xC8D4C0", VA = "0x180C8EEC0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6003029")]
-		[Address(RVA = "0x415C380", Offset = "0x415C380", VA = "0x415C380")]
+		[Token(Token = "0x60039A8")]
+		[Address(RVA = "0x16EF920", Offset = "0x16EDF20", VA = "0x1816EF920")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000941")]
+	[Token(Token = "0x17000A38")]
 	public string FullMessage
 	{
-		[Token(Token = "0x600302A")]
-		[Address(RVA = "0x415C390", Offset = "0x415C390", VA = "0x415C390")]
+		[Token(Token = "0x60039A9")]
+		[Address(RVA = "0x209FF60", Offset = "0x209E560", VA = "0x18209FF60")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600302B")]
-	[Address(RVA = "0x415C540", Offset = "0x415C540", VA = "0x415C540")]
+	[Token(Token = "0x60039AA")]
+	[Address(RVA = "0x20A0110", Offset = "0x209E710", VA = "0x1820A0110")]
 	public CustomLogicError(string message, string className, string methodName, int lineNumber, string formattedLineNumber, CustomLogicSourceType? ns)
 	{
 	}
 
-	[Token(Token = "0x600302C")]
-	[Address(RVA = "0x415C5C0", Offset = "0x415C5C0", VA = "0x415C5C0", Slot = "3")]
+	[Token(Token = "0x60039AB")]
+	[Address(RVA = "0x209FF60", Offset = "0x209E560", VA = "0x18209FF60", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

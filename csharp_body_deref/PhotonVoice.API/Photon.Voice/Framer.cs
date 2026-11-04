@@ -14,45 +14,45 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200003D")]
+[Token(Token = "0x200003B")]
 public class Framer<T>
 {
-	[Token(Token = "0x200003E")]
+	[Token(Token = "0x200003C")]
 	[CompilerGenerated]
 	private sealed class _003CFrame_003Ed__4 : IEnumerable<T[]>, IEnumerable, IEnumerator<T[]>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000106")]
+		[Token(Token = "0x4000101")]
 		[FieldOffset(Offset = "0x0")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000107")]
+		[Token(Token = "0x4000102")]
 		[FieldOffset(Offset = "0x0")]
 		private T[] _003C_003E2__current;
 
-		[Token(Token = "0x4000108")]
+		[Token(Token = "0x4000103")]
 		[FieldOffset(Offset = "0x0")]
 		private int _003C_003El__initialThreadId;
 
-		[Token(Token = "0x4000109")]
+		[Token(Token = "0x4000104")]
 		[FieldOffset(Offset = "0x0")]
 		public Framer<T> _003C_003E4__this;
 
-		[Token(Token = "0x400010A")]
+		[Token(Token = "0x4000105")]
 		[FieldOffset(Offset = "0x0")]
 		private T[] buf;
 
-		[Token(Token = "0x400010B")]
+		[Token(Token = "0x4000106")]
 		[FieldOffset(Offset = "0x0")]
 		public T[] _003C_003E3__buf;
 
-		[Token(Token = "0x400010C")]
+		[Token(Token = "0x4000107")]
 		[FieldOffset(Offset = "0x0")]
 		private int _003CbufPos_003E5__2;
 
 		[Token(Token = "0x17000059")]
 		private T[] System_002ECollections_002EGeneric_002EIEnumerator_003CT_005B_005D_003E_002ECurrent
 		{
-			[Token(Token = "0x6000148")]
+			[Token(Token = "0x6000146")]
 			[DebuggerHidden]
 			get
 			{
@@ -63,7 +63,7 @@ public class Framer<T>
 		[Token(Token = "0x1700005A")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x600014A")]
+			[Token(Token = "0x6000148")]
 			[DebuggerHidden]
 			get
 			{
@@ -71,38 +71,38 @@ public class Framer<T>
 			}
 		}
 
-		[Token(Token = "0x6000145")]
+		[Token(Token = "0x6000143")]
 		[DebuggerHidden]
 		public _003CFrame_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000146")]
+		[Token(Token = "0x6000144")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000147")]
+		[Token(Token = "0x6000145")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000149")]
+		[Token(Token = "0x6000147")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 
-		[Token(Token = "0x600014B")]
+		[Token(Token = "0x6000149")]
 		[DebuggerHidden]
 		private IEnumerator<T[]> System_002ECollections_002EGeneric_002EIEnumerable_003CT_005B_005D_003E_002EGetEnumerator()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600014C")]
+		[Token(Token = "0x600014A")]
 		[DebuggerHidden]
 		private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 		{
@@ -110,24 +110,24 @@ public class Framer<T>
 		}
 	}
 
-	[Token(Token = "0x4000103")]
+	[Token(Token = "0x40000FE")]
 	[FieldOffset(Offset = "0x0")]
 	protected T[] frame;
 
-	[Token(Token = "0x4000104")]
+	[Token(Token = "0x40000FF")]
 	[FieldOffset(Offset = "0x0")]
 	protected int sizeofT;
 
-	[Token(Token = "0x4000105")]
+	[Token(Token = "0x4000100")]
 	[FieldOffset(Offset = "0x0")]
 	protected int framePos;
 
-	[Token(Token = "0x6000143")]
+	[Token(Token = "0x6000141")]
 	public Framer(int frameSize)
 	{
 	}
 
-	[Token(Token = "0x6000144")]
+	[Token(Token = "0x6000142")]
 	[IteratorStateMachine(typeof(Framer<>._003CFrame_003Ed__4))]
 	public virtual IEnumerable<T[]> Frame(T[] buf)
 	{

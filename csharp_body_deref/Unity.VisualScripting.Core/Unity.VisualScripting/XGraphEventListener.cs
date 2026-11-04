@@ -12,20 +12,20 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000093")]
 public static class XGraphEventListener
 {
-	[Token(Token = "0x6000418")]
-	[Address(RVA = "0x4CB4CB0", Offset = "0x4CB4CB0", VA = "0x4CB4CB0")]
+	[Token(Token = "0x6000422")]
+	[Address(RVA = "0x2DBF900", Offset = "0x2DBDF00", VA = "0x182DBF900")]
 	public static void StartListening(this IGraphEventListener listener, GraphReference reference)
 	{
 	}
 
-	[Token(Token = "0x6000419")]
-	[Address(RVA = "0x4CB4EC0", Offset = "0x4CB4EC0", VA = "0x4CB4EC0")]
+	[Token(Token = "0x6000423")]
+	[Address(RVA = "0x2DBF9F0", Offset = "0x2DBDFF0", VA = "0x182DBF9F0")]
 	public static void StopListening(this IGraphEventListener listener, GraphReference reference)
 	{
 	}
 
-	[Token(Token = "0x600041A")]
-	[Address(RVA = "0x4CB50D0", Offset = "0x4CB50D0", VA = "0x4CB50D0")]
+	[Token(Token = "0x6000424")]
+	[Address(RVA = "0x2DBF640", Offset = "0x2DBDC40", VA = "0x182DBF640")]
 	public static bool IsHierarchyListening(GraphReference reference)
 	{
 		return default(bool);

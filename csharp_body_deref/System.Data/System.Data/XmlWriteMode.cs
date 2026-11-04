@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000096")]
+[Token(Token = "0x20000A0")]
 public enum XmlWriteMode
 {
-	[Token(Token = "0x4000318")]
+	[Token(Token = "0x400032B")]
 	WriteSchema,
-	[Token(Token = "0x4000319")]
+	[Token(Token = "0x400032C")]
 	IgnoreSchema,
-	[Token(Token = "0x400031A")]
+	[Token(Token = "0x400032D")]
 	DiffGram
 }

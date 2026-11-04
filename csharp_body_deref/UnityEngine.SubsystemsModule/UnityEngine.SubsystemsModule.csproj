@@ -15,6 +15,9 @@
     <Reference Include="Il2CppDummyDll">
       <HintPath>../../dumps/il2cpp/DummyDll/Il2CppDummyDll.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>../../dumps/il2cpp/DummyDll/UnityEngine.SharedInternalsModule.dll</HintPath>
     </Reference>

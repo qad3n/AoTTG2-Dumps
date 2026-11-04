@@ -12,70 +12,70 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.CompilerServices;
 
-[Token(Token = "0x2000492")]
+[Token(Token = "0x20004C1")]
 public struct AsyncVoidMethodBuilder
 {
-	[Token(Token = "0x4001315")]
+	[Token(Token = "0x4001317")]
 	[FieldOffset(Offset = "0x0")]
 	private SynchronizationContext m_synchronizationContext;
 
-	[Token(Token = "0x4001316")]
+	[Token(Token = "0x4001318")]
 	[FieldOffset(Offset = "0x8")]
 	private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState;
 
-	[Token(Token = "0x4001317")]
+	[Token(Token = "0x4001319")]
 	[FieldOffset(Offset = "0x18")]
 	private Task m_task;
 
-	[Token(Token = "0x1700047D")]
+	[Token(Token = "0x17000480")]
 	internal Task Task
 	{
-		[Token(Token = "0x60022C6")]
-		[Address(RVA = "0x3BC24D0", Offset = "0x3BC24D0", VA = "0x3BC24D0")]
+		[Token(Token = "0x6002346")]
+		[Address(RVA = "0x1A28EA0", Offset = "0x1A274A0", VA = "0x181A28EA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60022BF")]
-	[Address(RVA = "0x3BC22E0", Offset = "0x3BC22E0", VA = "0x3BC22E0")]
+	[Token(Token = "0x600233F")]
+	[Address(RVA = "0x1A28BA0", Offset = "0x1A271A0", VA = "0x181A28BA0")]
 	public static AsyncVoidMethodBuilder Create()
 	{
 		return default(AsyncVoidMethodBuilder);
 	}
 
-	[Token(Token = "0x60022C0")]
+	[Token(Token = "0x6002340")]
 	[DebuggerStepThrough]
 	public void Start<TStateMachine>(ref TStateMachine stateMachine) where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022C1")]
-	[Address(RVA = "0x3BC2360", Offset = "0x3BC2360", VA = "0x3BC2360")]
+	[Token(Token = "0x6002341")]
+	[Address(RVA = "0x1A28DD0", Offset = "0x1A273D0", VA = "0x181A28DD0")]
 	public void SetStateMachine(IAsyncStateMachine stateMachine)
 	{
 	}
 
-	[Token(Token = "0x60022C2")]
+	[Token(Token = "0x6002342")]
 	public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
 	{
 	}
 
-	[Token(Token = "0x60022C3")]
-	[Address(RVA = "0x3BC2420", Offset = "0x3BC2420", VA = "0x3BC2420")]
+	[Token(Token = "0x6002343")]
+	[Address(RVA = "0x1A28D70", Offset = "0x1A27370", VA = "0x181A28D70")]
 	public void SetResult()
 	{
 	}
 
-	[Token(Token = "0x60022C4")]
-	[Address(RVA = "0x3BC25F0", Offset = "0x3BC25F0", VA = "0x3BC25F0")]
+	[Token(Token = "0x6002344")]
+	[Address(RVA = "0x1A28C50", Offset = "0x1A27250", VA = "0x181A28C50")]
 	public void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x60022C5")]
-	[Address(RVA = "0x3BC2550", Offset = "0x3BC2550", VA = "0x3BC2550")]
+	[Token(Token = "0x6002345")]
+	[Address(RVA = "0x1A28C10", Offset = "0x1A27210", VA = "0x181A28C10")]
 	private void NotifySynchronizationContextOfCompletion()
 	{
 	}

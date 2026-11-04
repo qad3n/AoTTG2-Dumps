@@ -1,5 +1,5 @@
 // Type: GameManagers.PlayerStatus
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameManagers/PlayerStatus.cs
@@ -8,40 +8,39 @@
 
 // GameManagers.PlayerStatus$$.ctor
 // il2cpp: void GameManagers_PlayerStatus___ctor (GameManagers_PlayerStatus_o* __this, const MethodInfo* method);
-// 0x456fb40
+// 0x18054c890
 
-void GameManagers_PlayerStatus___ctor(GameManagers_PlayerStatus_o *__this,MethodInfo *method)
+void
+GameManagers_PlayerStatus___ctor(GameManagers_PlayerStatus_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // GameManagers.PlayerStatus$$.cctor
 // il2cpp: void GameManagers_PlayerStatus___cctor (const MethodInfo* method);
-// 0x456fb50
+// 0x181e73800
 
 void GameManagers_PlayerStatus___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057af053 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PlayerStatus);
-    il2cpp_runtime_helper_023445d0(&"Dead");
-    il2cpp_runtime_helper_023445d0(&"Alive");
-    il2cpp_runtime_helper_023445d0(&"Spectating");
-    g_data_057af053 = '\x01';
+  if (Il2CppMethodInitialized_184344f17 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_GameManagers_PlayerStatus);
+    il2cpp_codegen_initialize_runtime_metadata(&"Dead");
+    il2cpp_codegen_initialize_runtime_metadata(&"Alive");
+    il2cpp_codegen_initialize_runtime_metadata(&"Spectating");
+    Il2CppMethodInitialized_184344f17 = '\x01';
   }
-  **(undefined8 **)(TypeInfo_PlayerStatus + 0xb8) = "Alive";
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_PlayerStatus + 0xb8),"Alive");
-  lVar1 = *(long *)(TypeInfo_PlayerStatus + 0xb8);
-  *(undefined8 *)(lVar1 + 8) = "Dead";
-  il2cpp_runtime_helper_022b4080(lVar1 + 8);
-  lVar1 = *(long *)(TypeInfo_PlayerStatus + 0xb8);
-  *(undefined8 *)(lVar1 + 0x10) = "Spectating";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x10);
+  TypeInfo_GameManagers_PlayerStatus->static_fields->Alive = "Alive";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerStatus->static_fields->Alive,"Alive");
+  TypeInfo_GameManagers_PlayerStatus->static_fields->Dead = "Dead";
+  Il2CppCodeGenWriteBarrier(&TypeInfo_GameManagers_PlayerStatus->static_fields->Dead,"Dead");
+  TypeInfo_GameManagers_PlayerStatus->static_fields->Spectating = "Spectating";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_GameManagers_PlayerStatus->static_fields->Spectating,"Spectating");
   return;
 }
 

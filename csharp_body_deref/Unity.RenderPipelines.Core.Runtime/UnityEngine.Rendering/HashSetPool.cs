@@ -10,26 +10,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200008D")]
+[Token(Token = "0x2000057")]
 public static class HashSetPool<T>
 {
-	[Token(Token = "0x4000225")]
+	[Token(Token = "0x4000146")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ObjectPool<HashSet<T>> s_Pool;
 
-	[Token(Token = "0x600061D")]
+	[Token(Token = "0x6000534")]
 	public static HashSet<T> Get()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600061E")]
+	[Token(Token = "0x6000535")]
 	public static ObjectPool<HashSet<T>>.PooledObject Get(out HashSet<T> value)
 	{
 		return default(ObjectPool<HashSet<T>>.PooledObject);
 	}
 
-	[Token(Token = "0x600061F")]
+	[Token(Token = "0x6000536")]
 	public static void Release(HashSet<T> toRelease)
 	{
 	}

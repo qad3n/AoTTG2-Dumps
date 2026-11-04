@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x200029A")]
+[Token(Token = "0x20002C9")]
 internal enum NormalizationCheck
 {
-	[Token(Token = "0x4000BF9")]
+	[Token(Token = "0x4000C09")]
 	Yes,
-	[Token(Token = "0x4000BFA")]
+	[Token(Token = "0x4000C0A")]
 	No,
-	[Token(Token = "0x4000BFB")]
+	[Token(Token = "0x4000C0B")]
 	Maybe
 }

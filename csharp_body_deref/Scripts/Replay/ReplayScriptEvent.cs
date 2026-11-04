@@ -11,27 +11,27 @@ using Utility;
 
 namespace Replay;
 
-[Token(Token = "0x20000D9")]
+[Token(Token = "0x20000F9")]
 internal class ReplayScriptEvent : BaseCSVRow
 {
-	[Token(Token = "0x400051F")]
+	[Token(Token = "0x40005BF")]
 	[FieldOffset(Offset = "0x10")]
 	public float Time;
 
-	[Token(Token = "0x4000520")]
+	[Token(Token = "0x40005C0")]
 	[FieldOffset(Offset = "0x18")]
 	public string Category;
 
-	[Token(Token = "0x4000521")]
+	[Token(Token = "0x40005C1")]
 	[FieldOffset(Offset = "0x20")]
 	public string Action;
 
-	[Token(Token = "0x4000522")]
+	[Token(Token = "0x40005C2")]
 	[FieldOffset(Offset = "0x28")]
 	public List<string> Parameters;
 
-	[Token(Token = "0x600041E")]
-	[Address(RVA = "0x41045A0", Offset = "0x41045A0", VA = "0x41045A0")]
+	[Token(Token = "0x60004B7")]
+	[Address(RVA = "0x1F25140", Offset = "0x1F23740", VA = "0x181F25140")]
 	public ReplayScriptEvent()
 	{
 	}

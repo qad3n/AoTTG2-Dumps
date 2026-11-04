@@ -13,19 +13,20 @@ using UnityEngine.Scripting;
 namespace UnityEngine.TextCore.LowLevel;
 
 [Serializable]
-[Token(Token = "0x2000017")]
+[Token(Token = "0x2000019")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.TextCoreTextEngineModule" })]
 [UnityEngine.Scripting.UsedByNativeCode]
 internal struct MultipleSubstitutionRecord
 {
-	[Token(Token = "0x4000086")]
+	[Token(Token = "0x400009E")]
 	[FieldOffset(Offset = "0x0")]
-	[UnityEngine.Bindings.NativeName("targetGlyphID")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("targetGlyphID")]
 	private uint m_TargetGlyphID;
 
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x400009F")]
 	[FieldOffset(Offset = "0x8")]
-	[UnityEngine.Bindings.NativeName("substituteGlyphIDs")]
 	[SerializeField]
+	[UnityEngine.Bindings.NativeName("substituteGlyphIDs")]
 	private uint[] m_SubstituteGlyphIDs;
 }

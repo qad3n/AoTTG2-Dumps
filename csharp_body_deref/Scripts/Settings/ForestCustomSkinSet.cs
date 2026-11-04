@@ -12,31 +12,31 @@ namespace Settings;
 [Token(Token = "0x2000069")]
 internal class ForestCustomSkinSet : BaseSetSetting
 {
-	[Token(Token = "0x400020B")]
-	[FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000217")]
+	[FieldOffset(Offset = "0x48")]
 	public BoolSetting RandomizedPairs;
 
-	[Token(Token = "0x400020C")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000218")]
+	[FieldOffset(Offset = "0x50")]
 	public ListSetting<StringSetting> TreeTrunks;
 
-	[Token(Token = "0x400020D")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000219")]
+	[FieldOffset(Offset = "0x58")]
 	public ListSetting<StringSetting> TreeLeafs;
 
-	[Token(Token = "0x400020E")]
-	[FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x400021A")]
+	[FieldOffset(Offset = "0x60")]
 	public StringSetting Ground;
 
-	[Token(Token = "0x600030D")]
-	[Address(RVA = "0x3F857F0", Offset = "0x3F857F0", VA = "0x3F857F0", Slot = "12")]
+	[Token(Token = "0x600031D")]
+	[Address(RVA = "0x1DBF930", Offset = "0x1DBDF30", VA = "0x181DBF930", Slot = "13")]
 	protected override bool Validate()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600030E")]
-	[Address(RVA = "0x3F85860", Offset = "0x3F85860", VA = "0x3F85860")]
+	[Token(Token = "0x600031E")]
+	[Address(RVA = "0x1DBF9B0", Offset = "0x1DBDFB0", VA = "0x181DBF9B0")]
 	public ForestCustomSkinSet()
 	{
 	}

@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000022")]
+[Token(Token = "0x200003F")]
 public class ListPropertyBag<TElement> : IndexedCollectionPropertyBag<List<TElement>, TElement>
 {
-	[Token(Token = "0x1700001A")]
+	[Token(Token = "0x17000030")]
 	protected override InstantiationKind InstantiationKind
 	{
-		[Token(Token = "0x6000063")]
+		[Token(Token = "0x60000EC")]
 		get
 		{
 			return default(InstantiationKind);
 		}
 	}
 
-	[Token(Token = "0x6000064")]
+	[Token(Token = "0x60000ED")]
 	protected override List<TElement> InstantiateWithCount(int count)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000065")]
+	[Token(Token = "0x60000EE")]
 	protected override List<TElement> Instantiate()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000066")]
+	[Token(Token = "0x60000EF")]
 	public ListPropertyBag()
 	{
 	}

@@ -14,13 +14,13 @@ namespace Mono.Unity;
 internal static class Debug
 {
 	[Token(Token = "0x6000025")]
-	[Address(RVA = "0x451AC10", Offset = "0x451AC10", VA = "0x451AC10")]
+	[Address(RVA = "0x24913B0", Offset = "0x248F9B0", VA = "0x1824913B0")]
 	public static void CheckAndThrow(UnityTls.unitytls_errorstate errorState, string context, AlertDescription defaultAlert = AlertDescription.InternalError)
 	{
 	}
 
 	[Token(Token = "0x6000026")]
-	[Address(RVA = "0x451ACB0", Offset = "0x451ACB0", VA = "0x451ACB0")]
+	[Address(RVA = "0x2491230", Offset = "0x248F830", VA = "0x182491230")]
 	public static void CheckAndThrow(UnityTls.unitytls_errorstate errorState, UnityTls.unitytls_x509verify_result verifyResult, string context, AlertDescription defaultAlert = AlertDescription.InternalError)
 	{
 	}

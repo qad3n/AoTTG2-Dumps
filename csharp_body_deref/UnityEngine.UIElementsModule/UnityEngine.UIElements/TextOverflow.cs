@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20003A1")]
+[Token(Token = "0x2000443")]
 public enum TextOverflow
 {
-	[Token(Token = "0x4000AE0")]
+	[Token(Token = "0x4000E2E")]
 	Clip,
-	[Token(Token = "0x4000AE1")]
+	[Token(Token = "0x4000E2F")]
 	Ellipsis
 }

@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000116")]
 public class GreaterThanOrEqualHandler : BinaryOperatorHandler
 {
-	[Token(Token = "0x600092D")]
-	[Address(RVA = "0x4CF9680", Offset = "0x4CF9680", VA = "0x4CF9680")]
+	[Token(Token = "0x6000937")]
+	[Address(RVA = "0x2DEB390", Offset = "0x2DE9990", VA = "0x182DEB390")]
 	public GreaterThanOrEqualHandler()
 	{
 	}

@@ -13,7 +13,7 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200002F")]
 public class ConnectionCollection<TConnection, TSource, TDestination> : ConnectionCollectionBase<TConnection, TSource, TDestination, List<TConnection>> where TConnection : IConnection<TSource, TDestination>
 {
-	[Token(Token = "0x6000198")]
+	[Token(Token = "0x600019C")]
 	public ConnectionCollection()
 	{
 	}

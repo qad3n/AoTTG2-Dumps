@@ -11,168 +11,168 @@ using Unity.Profiling;
 
 namespace TMPro;
 
-[Token(Token = "0x20000A5")]
+[Token(Token = "0x20000A1")]
 public class TMP_UpdateManager
 {
-	[Token(Token = "0x40005FA")]
+	[Token(Token = "0x4000587")]
 	[FieldOffset(Offset = "0x0")]
 	private static TMP_UpdateManager s_Instance;
 
-	[Token(Token = "0x40005FB")]
+	[Token(Token = "0x4000588")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly HashSet<int> m_LayoutQueueLookup;
 
-	[Token(Token = "0x40005FC")]
+	[Token(Token = "0x4000589")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly List<TMP_Text> m_LayoutRebuildQueue;
 
-	[Token(Token = "0x40005FD")]
+	[Token(Token = "0x400058A")]
 	[FieldOffset(Offset = "0x20")]
 	private readonly HashSet<int> m_GraphicQueueLookup;
 
-	[Token(Token = "0x40005FE")]
+	[Token(Token = "0x400058B")]
 	[FieldOffset(Offset = "0x28")]
 	private readonly List<TMP_Text> m_GraphicRebuildQueue;
 
-	[Token(Token = "0x40005FF")]
+	[Token(Token = "0x400058C")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly HashSet<int> m_InternalUpdateLookup;
 
-	[Token(Token = "0x4000600")]
+	[Token(Token = "0x400058D")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly List<TMP_Text> m_InternalUpdateQueue;
 
-	[Token(Token = "0x4000601")]
+	[Token(Token = "0x400058E")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly HashSet<int> m_CullingUpdateLookup;
 
-	[Token(Token = "0x4000602")]
+	[Token(Token = "0x400058F")]
 	[FieldOffset(Offset = "0x48")]
 	private readonly List<TMP_Text> m_CullingUpdateQueue;
 
-	[Token(Token = "0x4000603")]
+	[Token(Token = "0x4000590")]
 	[FieldOffset(Offset = "0x8")]
 	private static ProfilerMarker k_RegisterTextObjectForUpdateMarker;
 
-	[Token(Token = "0x4000604")]
+	[Token(Token = "0x4000591")]
 	[FieldOffset(Offset = "0x10")]
 	private static ProfilerMarker k_RegisterTextElementForGraphicRebuildMarker;
 
-	[Token(Token = "0x4000605")]
+	[Token(Token = "0x4000592")]
 	[FieldOffset(Offset = "0x18")]
 	private static ProfilerMarker k_RegisterTextElementForCullingUpdateMarker;
 
-	[Token(Token = "0x4000606")]
+	[Token(Token = "0x4000593")]
 	[FieldOffset(Offset = "0x20")]
 	private static ProfilerMarker k_UnregisterTextObjectForUpdateMarker;
 
-	[Token(Token = "0x4000607")]
+	[Token(Token = "0x4000594")]
 	[FieldOffset(Offset = "0x28")]
 	private static ProfilerMarker k_UnregisterTextElementForGraphicRebuildMarker;
 
-	[Token(Token = "0x17000171")]
+	[Token(Token = "0x17000187")]
 	private static TMP_UpdateManager instance
 	{
-		[Token(Token = "0x6000634")]
-		[Address(RVA = "0x4C9C510", Offset = "0x4C9C510", VA = "0x4C9C510")]
+		[Token(Token = "0x6000610")]
+		[Address(RVA = "0x2D68120", Offset = "0x2D66720", VA = "0x182D68120")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6000635")]
-	[Address(RVA = "0x4C9C5F0", Offset = "0x4C9C5F0", VA = "0x4C9C5F0")]
+	[Token(Token = "0x6000611")]
+	[Address(RVA = "0x2D67F00", Offset = "0x2D66500", VA = "0x182D67F00")]
 	private TMP_UpdateManager()
 	{
 	}
 
-	[Token(Token = "0x6000636")]
-	[Address(RVA = "0x4C9C800", Offset = "0x4C9C800", VA = "0x4C9C800")]
+	[Token(Token = "0x6000612")]
+	[Address(RVA = "0x2D67A10", Offset = "0x2D66010", VA = "0x182D67A10")]
 	internal static void RegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
-	[Token(Token = "0x6000637")]
-	[Address(RVA = "0x4C9C870", Offset = "0x4C9C870", VA = "0x4C9C870")]
+	[Token(Token = "0x6000613")]
+	[Address(RVA = "0x2D67460", Offset = "0x2D65A60", VA = "0x182D67460")]
 	private void InternalRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
-	[Token(Token = "0x6000638")]
-	[Address(RVA = "0x4C9C970", Offset = "0x4C9C970", VA = "0x4C9C970")]
+	[Token(Token = "0x6000614")]
+	[Address(RVA = "0x2D67910", Offset = "0x2D65F10", VA = "0x182D67910")]
 	public static void RegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x4C9C9E0", Offset = "0x4C9C9E0", VA = "0x4C9C9E0")]
+	[Token(Token = "0x6000615")]
+	[Address(RVA = "0x2D673A0", Offset = "0x2D659A0", VA = "0x182D673A0")]
 	private void InternalRegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x600063A")]
-	[Address(RVA = "0x4C9CAE0", Offset = "0x4C9CAE0", VA = "0x4C9CAE0")]
+	[Token(Token = "0x6000616")]
+	[Address(RVA = "0x2D67810", Offset = "0x2D65E10", VA = "0x182D67810")]
 	public static void RegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x600063B")]
-	[Address(RVA = "0x4C9CB50", Offset = "0x4C9CB50", VA = "0x4C9CB50")]
+	[Token(Token = "0x6000617")]
+	[Address(RVA = "0x2D672E0", Offset = "0x2D658E0", VA = "0x182D672E0")]
 	private void InternalRegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x600063C")]
-	[Address(RVA = "0x4C9CC50", Offset = "0x4C9CC50", VA = "0x4C9CC50")]
+	[Token(Token = "0x6000618")]
+	[Address(RVA = "0x2D67710", Offset = "0x2D65D10", VA = "0x182D67710")]
 	public static void RegisterTextElementForCullingUpdate(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x4C9CCC0", Offset = "0x4C9CCC0", VA = "0x4C9CCC0")]
+	[Token(Token = "0x6000619")]
+	[Address(RVA = "0x2D67220", Offset = "0x2D65820", VA = "0x182D67220")]
 	private void InternalRegisterTextElementForCullingUpdate(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x4C9CDC0", Offset = "0x4C9CDC0", VA = "0x4C9CDC0")]
+	[Token(Token = "0x600061A")]
+	[Address(RVA = "0x2D67700", Offset = "0x2D65D00", VA = "0x182D67700")]
 	private void OnCameraPreCull()
 	{
 	}
 
-	[Token(Token = "0x600063F")]
-	[Address(RVA = "0x4C9CDD0", Offset = "0x4C9CDD0", VA = "0x4C9CDD0")]
+	[Token(Token = "0x600061B")]
+	[Address(RVA = "0x2D66F30", Offset = "0x2D65530", VA = "0x182D66F30")]
 	private void DoRebuilds()
 	{
 	}
 
-	[Token(Token = "0x6000640")]
-	[Address(RVA = "0x4C9D020", Offset = "0x4C9D020", VA = "0x4C9D020")]
+	[Token(Token = "0x600061C")]
+	[Address(RVA = "0x2D67CE0", Offset = "0x2D662E0", VA = "0x182D67CE0")]
 	internal static void UnRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}
 
-	[Token(Token = "0x6000641")]
-	[Address(RVA = "0x4C9D120", Offset = "0x4C9D120", VA = "0x4C9D120")]
+	[Token(Token = "0x600061D")]
+	[Address(RVA = "0x2D67B10", Offset = "0x2D66110", VA = "0x182D67B10")]
 	public static void UnRegisterTextElementForRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x6000642")]
-	[Address(RVA = "0x4C9D1C0", Offset = "0x4C9D1C0", VA = "0x4C9D1C0")]
+	[Token(Token = "0x600061E")]
+	[Address(RVA = "0x2D67520", Offset = "0x2D65B20", VA = "0x182D67520")]
 	private void InternalUnRegisterTextElementForGraphicRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x6000643")]
-	[Address(RVA = "0x4C9D250", Offset = "0x4C9D250", VA = "0x4C9D250")]
+	[Token(Token = "0x600061F")]
+	[Address(RVA = "0x2D675C0", Offset = "0x2D65BC0", VA = "0x182D675C0")]
 	private void InternalUnRegisterTextElementForLayoutRebuild(TMP_Text element)
 	{
 	}
 
-	[Token(Token = "0x6000644")]
-	[Address(RVA = "0x4C9D090", Offset = "0x4C9D090", VA = "0x4C9D090")]
+	[Token(Token = "0x6000620")]
+	[Address(RVA = "0x2D67660", Offset = "0x2D65C60", VA = "0x182D67660")]
 	private void InternalUnRegisterTextObjectForUpdate(TMP_Text textObject)
 	{
 	}

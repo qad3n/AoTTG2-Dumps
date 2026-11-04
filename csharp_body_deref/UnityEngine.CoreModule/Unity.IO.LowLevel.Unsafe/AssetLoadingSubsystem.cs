@@ -9,27 +9,27 @@ using Il2CppDummyDll;
 
 namespace Unity.IO.LowLevel.Unsafe;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200003F")]
 public enum AssetLoadingSubsystem
 {
-	[Token(Token = "0x4000084")]
+	[Token(Token = "0x40000AD")]
 	Other,
-	[Token(Token = "0x4000085")]
+	[Token(Token = "0x40000AE")]
 	Texture,
-	[Token(Token = "0x4000086")]
+	[Token(Token = "0x40000AF")]
 	VirtualTexture,
-	[Token(Token = "0x4000087")]
+	[Token(Token = "0x40000B0")]
 	Mesh,
-	[Token(Token = "0x4000088")]
+	[Token(Token = "0x40000B1")]
 	Audio,
-	[Token(Token = "0x4000089")]
+	[Token(Token = "0x40000B2")]
 	Scripts,
-	[Token(Token = "0x400008A")]
+	[Token(Token = "0x40000B3")]
 	EntitiesScene,
-	[Token(Token = "0x400008B")]
+	[Token(Token = "0x40000B4")]
 	EntitiesStreamBinaryReader,
-	[Token(Token = "0x400008C")]
+	[Token(Token = "0x40000B5")]
 	FileInfo,
-	[Token(Token = "0x400008D")]
+	[Token(Token = "0x40000B6")]
 	ContentLoading
 }

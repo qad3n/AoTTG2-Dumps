@@ -16,7 +16,7 @@ internal class Datatype_Name : Datatype_token
 	public override XmlTypeCode TypeCode
 	{
 		[Token(Token = "0x600114E")]
-		[Address(RVA = "0x4861980", Offset = "0x4861980", VA = "0x4861980", Slot = "8")]
+		[Address(RVA = "0x229AC60", Offset = "0x2299260", VA = "0x18229AC60", Slot = "8")]
 		get
 		{
 			return default(XmlTypeCode);
@@ -24,7 +24,7 @@ internal class Datatype_Name : Datatype_token
 	}
 
 	[Token(Token = "0x600114F")]
-	[Address(RVA = "0x4857430", Offset = "0x4857430", VA = "0x4857430")]
+	[Address(RVA = "0x2799160", Offset = "0x2797760", VA = "0x182799160")]
 	public Datatype_Name()
 	{
 	}

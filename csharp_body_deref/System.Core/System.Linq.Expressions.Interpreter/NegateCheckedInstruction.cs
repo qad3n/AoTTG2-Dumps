@@ -15,15 +15,15 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x20001DB")]
 	private sealed class NegateCheckedInt32 : NegateCheckedInstruction
 	{
-		[Token(Token = "0x6000A01")]
-		[Address(RVA = "0x44FBB30", Offset = "0x44FBB30", VA = "0x44FBB30", Slot = "8")]
+		[Token(Token = "0x6000A00")]
+		[Address(RVA = "0x2477780", Offset = "0x2475D80", VA = "0x182477780", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000A02")]
-		[Address(RVA = "0x44FBB10", Offset = "0x44FBB10", VA = "0x44FBB10")]
+		[Token(Token = "0x6000A01")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public NegateCheckedInt32()
 		{
 		}
@@ -32,15 +32,15 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x20001DC")]
 	private sealed class NegateCheckedInt16 : NegateCheckedInstruction
 	{
-		[Token(Token = "0x6000A03")]
-		[Address(RVA = "0x44FBC20", Offset = "0x44FBC20", VA = "0x44FBC20", Slot = "8")]
+		[Token(Token = "0x6000A02")]
+		[Address(RVA = "0x24775F0", Offset = "0x2475BF0", VA = "0x1824775F0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000A04")]
-		[Address(RVA = "0x44FBB00", Offset = "0x44FBB00", VA = "0x44FBB00")]
+		[Token(Token = "0x6000A03")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public NegateCheckedInt16()
 		{
 		}
@@ -49,15 +49,15 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x20001DD")]
 	private sealed class NegateCheckedInt64 : NegateCheckedInstruction
 	{
-		[Token(Token = "0x6000A05")]
-		[Address(RVA = "0x44FBD30", Offset = "0x44FBD30", VA = "0x44FBD30", Slot = "8")]
+		[Token(Token = "0x6000A04")]
+		[Address(RVA = "0x24778C0", Offset = "0x2475EC0", VA = "0x1824778C0", Slot = "8")]
 		public override int Run(InterpretedFrame frame)
 		{
 			return default(int);
 		}
 
-		[Token(Token = "0x6000A06")]
-		[Address(RVA = "0x44FBB20", Offset = "0x44FBB20", VA = "0x44FBB20")]
+		[Token(Token = "0x6000A05")]
+		[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 		public NegateCheckedInt64()
 		{
 		}
@@ -78,8 +78,8 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x1700020A")]
 	public override int ConsumedStack
 	{
-		[Token(Token = "0x60009FC")]
-		[Address(RVA = "0x44FB8D0", Offset = "0x44FB8D0", VA = "0x44FB8D0", Slot = "4")]
+		[Token(Token = "0x60009FB")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "4")]
 		get
 		{
 			return default(int);
@@ -89,8 +89,8 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x1700020B")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x60009FD")]
-		[Address(RVA = "0x44FB8E0", Offset = "0x44FB8E0", VA = "0x44FB8E0", Slot = "5")]
+		[Token(Token = "0x60009FC")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -100,22 +100,22 @@ internal abstract class NegateCheckedInstruction : Instruction
 	[Token(Token = "0x1700020C")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x60009FE")]
-		[Address(RVA = "0x44FB8F0", Offset = "0x44FB8F0", VA = "0x44FB8F0", Slot = "9")]
+		[Token(Token = "0x60009FD")]
+		[Address(RVA = "0x24775C0", Offset = "0x2475BC0", VA = "0x1824775C0", Slot = "9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60009FF")]
-	[Address(RVA = "0x44FB920", Offset = "0x44FB920", VA = "0x44FB920")]
+	[Token(Token = "0x60009FE")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private NegateCheckedInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000A00")]
-	[Address(RVA = "0x44FB930", Offset = "0x44FB930", VA = "0x44FB930")]
+	[Token(Token = "0x60009FF")]
+	[Address(RVA = "0x24773C0", Offset = "0x24759C0", VA = "0x1824773C0")]
 	public static Instruction Create(Type type)
 	{
 		return null;

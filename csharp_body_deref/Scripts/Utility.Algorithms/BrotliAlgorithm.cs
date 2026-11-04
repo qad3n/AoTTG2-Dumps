@@ -10,25 +10,25 @@ using Il2CppDummyDll;
 
 namespace Utility.Algorithms;
 
-[Token(Token = "0x200074C")]
+[Token(Token = "0x20008D5")]
 internal class BrotliAlgorithm : CompressionAlgorithm
 {
-	[Token(Token = "0x6004758")]
-	[Address(RVA = "0x43972B0", Offset = "0x43972B0", VA = "0x43972B0", Slot = "4")]
+	[Token(Token = "0x60053C0")]
+	[Address(RVA = "0x232BFC0", Offset = "0x232A5C0", VA = "0x18232BFC0", Slot = "4")]
 	public override byte[] Compress(byte[] data, CompressionLevel level = CompressionLevel.Fastest)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004759")]
-	[Address(RVA = "0x4397720", Offset = "0x4397720", VA = "0x4397720", Slot = "5")]
+	[Token(Token = "0x60053C1")]
+	[Address(RVA = "0x232C1A0", Offset = "0x232A7A0", VA = "0x18232C1A0", Slot = "5")]
 	public override byte[] Decompress(byte[] data, int bufferSize = 4096, long maxSize = 10485760L)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600475A")]
-	[Address(RVA = "0x4397DD0", Offset = "0x4397DD0", VA = "0x4397DD0")]
+	[Token(Token = "0x60053C2")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public BrotliAlgorithm()
 	{
 	}

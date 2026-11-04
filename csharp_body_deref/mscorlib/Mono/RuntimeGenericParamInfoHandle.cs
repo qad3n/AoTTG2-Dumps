@@ -11,18 +11,18 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000015")]
+[Token(Token = "0x2000033")]
 internal struct RuntimeGenericParamInfoHandle
 {
-	[Token(Token = "0x400008D")]
+	[Token(Token = "0x400010F")]
 	[FieldOffset(Offset = "0x0")]
 	private unsafe Mono.RuntimeStructs.GenericParamInfo* value;
 
 	[Token(Token = "0x17000007")]
 	internal Type[] Constraints
 	{
-		[Token(Token = "0x6000047")]
-		[Address(RVA = "0x3ACDA50", Offset = "0x3ACDA50", VA = "0x3ACDA50")]
+		[Token(Token = "0x600005F")]
+		[Address(RVA = "0x194C890", Offset = "0x194AE90", VA = "0x18194C890")]
 		get
 		{
 			return null;
@@ -32,29 +32,29 @@ internal struct RuntimeGenericParamInfoHandle
 	[Token(Token = "0x17000008")]
 	internal GenericParameterAttributes Attributes
 	{
-		[Token(Token = "0x6000048")]
-		[Address(RVA = "0x3ACDC10", Offset = "0x3ACDC10", VA = "0x3ACDC10")]
+		[Token(Token = "0x6000060")]
+		[Address(RVA = "0x194C870", Offset = "0x194AE70", VA = "0x18194C870")]
 		get
 		{
 			return default(GenericParameterAttributes);
 		}
 	}
 
-	[Token(Token = "0x6000046")]
-	[Address(RVA = "0x3ACDA30", Offset = "0x3ACDA30", VA = "0x3ACDA30")]
+	[Token(Token = "0x600005E")]
+	[Address(RVA = "0x194C500", Offset = "0x194AB00", VA = "0x18194C500")]
 	internal RuntimeGenericParamInfoHandle(IntPtr ptr)
 	{
 	}
 
-	[Token(Token = "0x6000049")]
-	[Address(RVA = "0x3ACDA60", Offset = "0x3ACDA60", VA = "0x3ACDA60")]
+	[Token(Token = "0x6000061")]
+	[Address(RVA = "0x194C730", Offset = "0x194AD30", VA = "0x18194C730")]
 	private Type[] GetConstraints()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600004A")]
-	[Address(RVA = "0x3ACDC30", Offset = "0x3ACDC30", VA = "0x3ACDC30")]
+	[Token(Token = "0x6000062")]
+	[Address(RVA = "0x194C700", Offset = "0x194AD00", VA = "0x18194C700")]
 	private int GetConstraintsCount()
 	{
 		return default(int);

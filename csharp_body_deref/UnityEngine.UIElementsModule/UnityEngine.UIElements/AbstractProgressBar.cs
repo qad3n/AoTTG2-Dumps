@@ -1,209 +1,211 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: UnityEngine.UIElements.AbstractProgressBar
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // No native C: this type has no methods, or its assembly is out of native scope.
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
 // ===============================================================
+using System;
 using Il2CppDummyDll;
 using Unity.Properties;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20000F3")]
+[Token(Token = "0x200012E")]
 public abstract class AbstractProgressBar : BindableElement, INotifyValueChanged<float>
 {
-	[Token(Token = "0x20000F4")]
+	[Token(Token = "0x200012F")]
+	[Obsolete("UxmlTraits is deprecated and will be removed. Use UxmlElementAttribute instead.", false)]
 	public new class UxmlTraits : BindableElement.UxmlTraits
 	{
-		[Token(Token = "0x40003F3")]
-		[FieldOffset(Offset = "0x78")]
+		[Token(Token = "0x4000552")]
+		[FieldOffset(Offset = "0x90")]
 		private UxmlFloatAttributeDescription m_LowValue;
 
-		[Token(Token = "0x40003F4")]
-		[FieldOffset(Offset = "0x80")]
+		[Token(Token = "0x4000553")]
+		[FieldOffset(Offset = "0x98")]
 		private UxmlFloatAttributeDescription m_HighValue;
 
-		[Token(Token = "0x40003F5")]
-		[FieldOffset(Offset = "0x88")]
+		[Token(Token = "0x4000554")]
+		[FieldOffset(Offset = "0xA0")]
 		private UxmlFloatAttributeDescription m_Value;
 
-		[Token(Token = "0x40003F6")]
-		[FieldOffset(Offset = "0x90")]
+		[Token(Token = "0x4000555")]
+		[FieldOffset(Offset = "0xA8")]
 		private UxmlStringAttributeDescription m_Title;
 
-		[Token(Token = "0x600069A")]
-		[Address(RVA = "0x4FF1F90", Offset = "0x4FF1F90", VA = "0x4FF1F90", Slot = "4")]
+		[Token(Token = "0x60008C7")]
+		[Address(RVA = "0x3225CE0", Offset = "0x32242E0", VA = "0x183225CE0", Slot = "4")]
 		public override void Init(VisualElement ve, IUxmlAttributes bag, CreationContext cc)
 		{
 		}
 
-		[Token(Token = "0x600069B")]
-		[Address(RVA = "0x4FF21B0", Offset = "0x4FF21B0", VA = "0x4FF21B0")]
+		[Token(Token = "0x60008C8")]
+		[Address(RVA = "0x3226840", Offset = "0x3224E40", VA = "0x183226840")]
 		public UxmlTraits()
 		{
 		}
 	}
 
-	[Token(Token = "0x40003E3")]
+	[Token(Token = "0x4000542")]
 	[FieldOffset(Offset = "0x0")]
-	internal static readonly DataBindingProperty titleProperty;
+	internal static readonly BindingId titleProperty;
 
-	[Token(Token = "0x40003E4")]
-	[FieldOffset(Offset = "0xA0")]
-	internal static readonly DataBindingProperty lowValueProperty;
+	[Token(Token = "0x4000543")]
+	[FieldOffset(Offset = "0x98")]
+	internal static readonly BindingId lowValueProperty;
 
-	[Token(Token = "0x40003E5")]
-	[FieldOffset(Offset = "0x140")]
-	internal static readonly DataBindingProperty highValueProperty;
+	[Token(Token = "0x4000544")]
+	[FieldOffset(Offset = "0x130")]
+	internal static readonly BindingId highValueProperty;
 
-	[Token(Token = "0x40003E6")]
-	[FieldOffset(Offset = "0x1E0")]
-	internal static readonly DataBindingProperty valueProperty;
+	[Token(Token = "0x4000545")]
+	[FieldOffset(Offset = "0x1C8")]
+	internal static readonly BindingId valueProperty;
 
-	[Token(Token = "0x40003E7")]
-	[FieldOffset(Offset = "0x280")]
+	[Token(Token = "0x4000546")]
+	[FieldOffset(Offset = "0x260")]
 	public static readonly string ussClassName;
 
-	[Token(Token = "0x40003E8")]
-	[FieldOffset(Offset = "0x288")]
+	[Token(Token = "0x4000547")]
+	[FieldOffset(Offset = "0x268")]
 	public static readonly string containerUssClassName;
 
-	[Token(Token = "0x40003E9")]
-	[FieldOffset(Offset = "0x290")]
+	[Token(Token = "0x4000548")]
+	[FieldOffset(Offset = "0x270")]
 	public static readonly string titleUssClassName;
 
-	[Token(Token = "0x40003EA")]
-	[FieldOffset(Offset = "0x298")]
+	[Token(Token = "0x4000549")]
+	[FieldOffset(Offset = "0x278")]
 	public static readonly string titleContainerUssClassName;
 
-	[Token(Token = "0x40003EB")]
-	[FieldOffset(Offset = "0x2A0")]
+	[Token(Token = "0x400054A")]
+	[FieldOffset(Offset = "0x280")]
 	public static readonly string progressUssClassName;
 
-	[Token(Token = "0x40003EC")]
-	[FieldOffset(Offset = "0x2A8")]
+	[Token(Token = "0x400054B")]
+	[FieldOffset(Offset = "0x288")]
 	public static readonly string backgroundUssClassName;
 
-	[Token(Token = "0x40003ED")]
-	[FieldOffset(Offset = "0x3E8")]
+	[Token(Token = "0x400054C")]
+	[FieldOffset(Offset = "0x2D8")]
 	private readonly VisualElement m_Background;
 
-	[Token(Token = "0x40003EE")]
-	[FieldOffset(Offset = "0x3F0")]
+	[Token(Token = "0x400054D")]
+	[FieldOffset(Offset = "0x2E0")]
 	private readonly VisualElement m_Progress;
 
-	[Token(Token = "0x40003EF")]
-	[FieldOffset(Offset = "0x3F8")]
+	[Token(Token = "0x400054E")]
+	[FieldOffset(Offset = "0x2E8")]
 	private readonly Label m_Title;
 
-	[Token(Token = "0x40003F0")]
-	[FieldOffset(Offset = "0x400")]
+	[Token(Token = "0x400054F")]
+	[FieldOffset(Offset = "0x2F0")]
 	private float m_LowValue;
 
-	[Token(Token = "0x40003F1")]
-	[FieldOffset(Offset = "0x404")]
+	[Token(Token = "0x4000550")]
+	[FieldOffset(Offset = "0x2F4")]
 	private float m_HighValue;
 
-	[Token(Token = "0x40003F2")]
-	[FieldOffset(Offset = "0x408")]
+	[Token(Token = "0x4000551")]
+	[FieldOffset(Offset = "0x2F8")]
 	private float m_Value;
 
-	[Token(Token = "0x17000123")]
+	[Token(Token = "0x1700019C")]
 	[CreateProperty]
 	public string title
 	{
-		[Token(Token = "0x600068C")]
-		[Address(RVA = "0x4FF0ED0", Offset = "0x4FF0ED0", VA = "0x4FF0ED0")]
+		[Token(Token = "0x60008B9")]
+		[Address(RVA = "0x320AA90", Offset = "0x3209090", VA = "0x18320AA90")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600068D")]
-		[Address(RVA = "0x4FF0F00", Offset = "0x4FF0F00", VA = "0x4FF0F00")]
+		[Token(Token = "0x60008BA")]
+		[Address(RVA = "0x320AC50", Offset = "0x3209250", VA = "0x18320AC50")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000124")]
+	[Token(Token = "0x1700019D")]
 	[CreateProperty]
 	public float lowValue
 	{
-		[Token(Token = "0x600068E")]
-		[Address(RVA = "0x4FF1010", Offset = "0x4FF1010", VA = "0x4FF1010")]
+		[Token(Token = "0x60008BB")]
+		[Address(RVA = "0x2D24260", Offset = "0x2D22860", VA = "0x182D24260")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600068F")]
-		[Address(RVA = "0x4FF1020", Offset = "0x4FF1020", VA = "0x4FF1020")]
+		[Token(Token = "0x60008BC")]
+		[Address(RVA = "0x320AB90", Offset = "0x3209190", VA = "0x18320AB90")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000125")]
+	[Token(Token = "0x1700019E")]
 	[CreateProperty]
 	public float highValue
 	{
-		[Token(Token = "0x6000690")]
-		[Address(RVA = "0x4FF1300", Offset = "0x4FF1300", VA = "0x4FF1300")]
+		[Token(Token = "0x60008BD")]
+		[Address(RVA = "0x320AA80", Offset = "0x3209080", VA = "0x18320AA80")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000691")]
-		[Address(RVA = "0x4FF1310", Offset = "0x4FF1310", VA = "0x4FF1310")]
+		[Token(Token = "0x60008BE")]
+		[Address(RVA = "0x320AAD0", Offset = "0x32090D0", VA = "0x18320AAD0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000126")]
+	[Token(Token = "0x1700019F")]
 	[CreateProperty]
 	public virtual float value
 	{
-		[Token(Token = "0x6000694")]
-		[Address(RVA = "0x4FF17B0", Offset = "0x4FF17B0", VA = "0x4FF17B0", Slot = "103")]
+		[Token(Token = "0x60008C1")]
+		[Address(RVA = "0x320AAC0", Offset = "0x32090C0", VA = "0x18320AAC0", Slot = "146")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6000695")]
-		[Address(RVA = "0x4FF17C0", Offset = "0x4FF17C0", VA = "0x4FF17C0", Slot = "104")]
+		[Token(Token = "0x60008C2")]
+		[Address(RVA = "0x320AD40", Offset = "0x3209340", VA = "0x18320AD40", Slot = "147")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000692")]
-	[Address(RVA = "0x4FF1450", Offset = "0x4FF1450", VA = "0x4FF1450")]
+	[Token(Token = "0x60008BF")]
+	[Address(RVA = "0x320A720", Offset = "0x3208D20", VA = "0x18320A720")]
 	public AbstractProgressBar()
 	{
 	}
 
-	[Token(Token = "0x6000693")]
-	[Address(RVA = "0x4FF1790", Offset = "0x4FF1790", VA = "0x4FF1790")]
+	[Token(Token = "0x60008C0")]
+	[Address(RVA = "0x3209FB0", Offset = "0x32085B0", VA = "0x183209FB0")]
 	private void OnGeometryChanged(GeometryChangedEvent e)
 	{
 	}
 
-	[Token(Token = "0x6000696")]
-	[Address(RVA = "0x4FF1B10", Offset = "0x4FF1B10", VA = "0x4FF1B10", Slot = "102")]
+	[Token(Token = "0x60008C3")]
+	[Address(RVA = "0x320A140", Offset = "0x3208740", VA = "0x18320A140", Slot = "145")]
 	public void SetValueWithoutNotify(float newValue)
 	{
 	}
 
-	[Token(Token = "0x6000697")]
-	[Address(RVA = "0x4FF1160", Offset = "0x4FF1160", VA = "0x4FF1160")]
+	[Token(Token = "0x60008C4")]
+	[Address(RVA = "0x3209FE0", Offset = "0x32085E0", VA = "0x183209FE0")]
 	private void SetProgress(float p)
 	{
 	}
 
-	[Token(Token = "0x6000698")]
-	[Address(RVA = "0x4FF1B40", Offset = "0x4FF1B40", VA = "0x4FF1B40")]
-	private float CalculateProgressWidth(float width)
+	[Token(Token = "0x60008C5")]
+	[Address(RVA = "0x3209D80", Offset = "0x3208380", VA = "0x183209D80")]
+	private float CalculateOppositeProgressWidth(float width)
 	{
 		return default(float);
 	}

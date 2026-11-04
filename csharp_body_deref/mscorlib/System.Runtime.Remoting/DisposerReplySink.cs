@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace System.Runtime.Remoting;
 
-[Token(Token = "0x2000351")]
+[Token(Token = "0x2000380")]
 internal class DisposerReplySink : IMessageSink
 {
-	[Token(Token = "0x4000EB3")]
+	[Token(Token = "0x4000EC0")]
 	[FieldOffset(Offset = "0x10")]
 	private IMessageSink _next;
 
-	[Token(Token = "0x4000EB4")]
+	[Token(Token = "0x4000EC1")]
 	[FieldOffset(Offset = "0x18")]
 	private IDisposable _disposable;
 
-	[Token(Token = "0x6001CC1")]
-	[Address(RVA = "0x3B6FE80", Offset = "0x3B6FE80", VA = "0x3B6FE80")]
+	[Token(Token = "0x6001D30")]
+	[Address(RVA = "0xC8DAD0", Offset = "0xC8C0D0", VA = "0x180C8DAD0")]
 	public DisposerReplySink(IMessageSink next, IDisposable disposable)
 	{
 	}
 
-	[Token(Token = "0x6001CC2")]
-	[Address(RVA = "0x3B6FEC0", Offset = "0x3B6FEC0", VA = "0x3B6FEC0", Slot = "4")]
+	[Token(Token = "0x6001D31")]
+	[Address(RVA = "0x19D9EC0", Offset = "0x19D84C0", VA = "0x1819D9EC0", Slot = "4")]
 	public IMessage SyncProcessMessage(IMessage msg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001CC3")]
-	[Address(RVA = "0x3B6FFF0", Offset = "0x3B6FFF0", VA = "0x3B6FFF0", Slot = "5")]
+	[Token(Token = "0x6001D32")]
+	[Address(RVA = "0x19D9E80", Offset = "0x19D8480", VA = "0x1819D9E80", Slot = "5")]
 	public IMessageCtrl AsyncProcessMessage(IMessage msg, IMessageSink replySink)
 	{
 		return null;

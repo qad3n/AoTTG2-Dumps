@@ -9,30 +9,30 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000150")]
+[Token(Token = "0x200013E")]
 public interface IOptimizedInvoker
 {
-	[Token(Token = "0x6000DC2")]
+	[Token(Token = "0x6000D55")]
 	void Compile();
 
-	[Token(Token = "0x6000DC3")]
+	[Token(Token = "0x6000D56")]
 	object Invoke(object target);
 
-	[Token(Token = "0x6000DC4")]
+	[Token(Token = "0x6000D57")]
 	object Invoke(object target, object arg0);
 
-	[Token(Token = "0x6000DC5")]
+	[Token(Token = "0x6000D58")]
 	object Invoke(object target, object arg0, object arg1);
 
-	[Token(Token = "0x6000DC6")]
+	[Token(Token = "0x6000D59")]
 	object Invoke(object target, object arg0, object arg1, object arg2);
 
-	[Token(Token = "0x6000DC7")]
+	[Token(Token = "0x6000D5A")]
 	object Invoke(object target, object arg0, object arg1, object arg2, object arg3);
 
-	[Token(Token = "0x6000DC8")]
+	[Token(Token = "0x6000D5B")]
 	object Invoke(object target, object arg0, object arg1, object arg2, object arg3, object arg4);
 
-	[Token(Token = "0x6000DC9")]
+	[Token(Token = "0x6000D5C")]
 	object Invoke(object target, params object[] args);
 }

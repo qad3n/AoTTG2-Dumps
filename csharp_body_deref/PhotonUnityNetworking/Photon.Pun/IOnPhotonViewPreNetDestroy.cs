@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000B")]
+[Token(Token = "0x2000009")]
 public interface IOnPhotonViewPreNetDestroy : IPhotonViewCallback
 {
-	[Token(Token = "0x6000007")]
+	[Token(Token = "0x6000005")]
 	void OnPreNetDestroy(PhotonView rootView);
 }

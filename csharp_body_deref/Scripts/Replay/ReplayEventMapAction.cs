@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Replay;
 
-[Token(Token = "0x20000D1")]
+[Token(Token = "0x20000F1")]
 public enum ReplayEventMapAction
 {
-	[Token(Token = "0x4000513")]
+	[Token(Token = "0x40005B3")]
 	SetMap
 }

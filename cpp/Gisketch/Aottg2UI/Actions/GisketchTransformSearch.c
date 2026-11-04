@@ -1,5 +1,5 @@
 // Type: Gisketch.Aottg2UI.Actions.GisketchTransformSearch
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Gisketch.Aottg2UI.Runtime/Gisketch.Aottg2UI.Actions/GisketchTransformSearch.cs
@@ -8,7 +8,29 @@
 
 // Gisketch.Aottg2UI.Actions.GisketchTransformSearch$$FindDeep
 // il2cpp: UnityEngine_Transform_o* Gisketch_Aottg2UI_Actions_GisketchTransformSearch__FindDeep (UnityEngine_Transform_o* root, System_String_o* name, const MethodInfo* method);
-// 0x3b8f810
+// 0x18190fa30
+// eh: try 0x18190fb20..0x18190fbd7 -> pad 0x183315930 catch Il2CppExceptionWrapper
+// eh: try 0x18190fc21..0x18190fc49 -> pad 0x180026a30 cleanup
+// eh: try 0x18190fc49..0x18190fc59 -> pad 0x183315930 catch Il2CppExceptionWrapper
+// asm: 18 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18190fc0d: lea rcx, [rsp + 0x30]
+// asm:   0x18190fc12: call 0x1806aa210  ; il2cpp_runtime_helper_1806aa210()
+// asm:   0x18190fc17: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x18190fc1c: test rcx, rcx
+// asm:   0x18190fc1f: jne 0x18190fc59
+// asm:   0x18190fc21: jmp 0x18190fc35
+// asm:   0x18190fc59: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183315930: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183315935: push rbp
+// asm:   0x183315936: sub rsp, 0x20
+// asm:   0x18331593a: mov rbp, rdx
+// asm:   0x18331593d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183315941: mov rcx, qword ptr [rax]
+// asm:   0x183315944: mov qword ptr [rbp + 0x28], rcx
+// asm:   0x183315948: movabs rax, 0
+// asm:   0x183315952: add rsp, 0x20
+// asm:   0x183315956: pop rbp
+// asm:   0x183315957: ret 
 
 UnityEngine_Transform_o *
 Gisketch_Aottg2UI_Actions_GisketchTransformSearch__FindDeep
@@ -16,173 +38,76 @@ Gisketch_Aottg2UI_Actions_GisketchTransformSearch__FindDeep
 
 {
   byte bVar1;
-  ushort uVar2;
-  ushort uVar3;
-  System_Collections_IEnumerator_c *pSVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  char cVar6;
-  bool_conflict bVar7;
+  bool bVar2;
   System_String_o *a;
-  VirtualInvokeData *pVVar8;
-  UnityEngine_Transform_o *x;
-  long *plVar9;
-  undefined8 *puVar10;
-  MethodInfo *method_00;
-  long lVar11;
-  long lVar12;
-  System_Collections_IEnumerator_o *unaff_R12;
-  int iVar13;
-  UnityEngine_Transform_o *pUVar14;
-  undefined1 auVar15 [12];
-  undefined1 auVar16 [16];
-  long local_38;
+  void *pvVar3;
+  UnityEngine_Transform_o *root_00;
+  Il2CppObject *local_res8;
+  Il2CppObject *local_res20;
+  Il2CppObject **local_28;
+  Il2CppObject **local_20;
   
-  if (g_data_057a9f29 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IDisposable);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_IEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Transform);
-    g_data_057a9f29 = '\x01';
+  if (Il2CppMethodInitialized_184342288 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_IEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Transform);
+    Il2CppMethodInitialized_184342288 = '\x01';
   }
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  local_res8 = (Il2CppObject *)0x0;
+  local_res20 = (Il2CppObject *)0x0;
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
   }
-  bVar7 = UnityEngine_Object__op_Equality
+  bVar2 = UnityEngine_Object__op_Equality
                     ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  pUVar14 = (UnityEngine_Transform_o *)0x0;
-  if ((char)bVar7 == '\0') {
-    if (root == (UnityEngine_Transform_o *)0x0) {
-label_03b8faf4:
-      il2cpp_runtime_helper_022b2c90();
-    }
-    else {
-      a = UnityEngine_Object__get_name((UnityEngine_Object_o *)root,(MethodInfo *)0x0);
-      bVar7 = System_String__op_Equality(a,name,(MethodInfo *)0x0);
-      if ((char)bVar7 != '\0') {
-        return root;
-      }
-      unaff_R12 = UnityEngine_Transform__GetEnumerator(root,(MethodInfo *)0x0);
-      if (unaff_R12 != (System_Collections_IEnumerator_o *)0x0) {
-        local_38 = 0;
-        do {
-          pSVar4 = unaff_R12->klass;
-          uVar2._0_1_ = (pSVar4->_2).rank;
-          uVar2._1_1_ = (pSVar4->_2).minimumAlignment;
-          if ((ulong)uVar2 != 0) {
-            pIVar5 = (pSVar4->_1).interfaceOffsets;
-            lVar11 = 0;
-            do {
-              if (*(long *)((long)&pIVar5->interfaceType + lVar11) == TypeInfo_IEnumerator) {
-                pVVar8 = pSVar4->vtable + *(int *)((long)&pIVar5->offset + lVar11);
-                goto label_03b8f953;
-              }
-              lVar11 = lVar11 + 0x10;
-            } while ((ulong)uVar2 << 4 != lVar11);
-          }
-          pVVar8 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(unaff_R12,TypeInfo_IEnumerator,0);
-label_03b8f953:
-          cVar6 = (*pVVar8->methodPtr)(unaff_R12,pVVar8->method);
-          if (cVar6 == '\0') {
-            iVar13 = 7;
-            goto label_03b8fa53;
-          }
-          pSVar4 = unaff_R12->klass;
-          uVar3._0_1_ = (pSVar4->_2).rank;
-          uVar3._1_1_ = (pSVar4->_2).minimumAlignment;
-          if ((ulong)uVar3 != 0) {
-            pIVar5 = (pSVar4->_1).interfaceOffsets;
-            lVar11 = 0;
-            do {
-              if (*(long *)((long)&pIVar5->interfaceType + lVar11) == TypeInfo_IEnumerator) {
-                pVVar8 = pSVar4->vtable + (*(int *)((long)&pIVar5->offset + lVar11) + 1);
-                goto label_03b8f9d8;
-              }
-              lVar11 = lVar11 + 0x10;
-            } while ((ulong)uVar3 << 4 != lVar11);
-          }
-          pVVar8 = (VirtualInvokeData *)il2cpp_runtime_helper_02300d20(unaff_R12,TypeInfo_IEnumerator,1);
-label_03b8f9d8:
-          auVar16 = (*pVVar8->methodPtr)(unaff_R12,pVVar8->method);
-          method_00 = auVar16._8_8_;
-          pUVar14 = auVar16._0_8_;
-          if (pUVar14 != (UnityEngine_Transform_o *)0x0) {
-            bVar1 = (TypeInfo_Transform->_2).naturalAligment;
-            method_00 = (MethodInfo *)(ulong)bVar1;
-            if (((pUVar14->klass->_2).naturalAligment < bVar1) ||
-               ((pUVar14->klass->_2).typeHierarchy[(long)&method_00[-1].field_0x57] != TypeInfo_Transform)) {
-              il2cpp_runtime_helper_022b2fd0(pUVar14);
-              goto label_03b8faf4;
-            }
-          }
-          x = Gisketch_Aottg2UI_Actions_GisketchTransformSearch__FindDeep(pUVar14,name,method_00);
-          if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          bVar7 = UnityEngine_Object__op_Inequality
-                            ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          if ((char)bVar7 != '\0') {
-            iVar13 = 6;
-            goto label_03b8fa55;
-          }
-        } while( true );
-      }
-    }
-    il2cpp_runtime_helper_022b2c90();
+  if (bVar2) {
+    return (UnityEngine_Transform_o *)0x0;
+  }
+  if (root == (UnityEngine_Transform_o *)0x0) {
+    ThrowNullReferenceException();
+  }
+  a = UnityEngine_Object__get_name((UnityEngine_Object_o *)root,(MethodInfo *)0x0);
+  bVar2 = System_String__op_Equality(a,name,(MethodInfo *)0x0);
+  if (!bVar2) {
+    local_res8 = (Il2CppObject *)UnityEngine_Transform__GetEnumerator(root,(MethodInfo *)0x0);
+    local_28 = &local_res8;
+    local_20 = &local_res20;
     do {
-      auVar15 = il2cpp_runtime_helper_022fefe0();
-      iVar13 = 0;
-      if (auVar15._8_4_ != 1) {
-        plVar9 = (long *)il2cpp_runtime_helper_023051f0(unaff_R12,TypeInfo_IDisposable);
-        if (plVar9 == (long *)0x0) goto label_03b8fbf6;
-        lVar11 = *plVar9;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) == 0) goto label_03b8fbcf;
-        lVar12 = 0;
-        goto label_03b8fbc0;
+      if (local_res8 == (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
       }
-      plVar9 = (long *)__cxa_begin_catch(auVar15._0_8_);
-      local_38 = *plVar9;
-      __cxa_end_catch();
-label_03b8fa53:
-      x = (UnityEngine_Transform_o *)0x0;
-label_03b8fa55:
-      plVar9 = (long *)il2cpp_runtime_helper_023051f0(unaff_R12,TypeInfo_IDisposable);
-      if (plVar9 != (long *)0x0) {
-        lVar11 = *plVar9;
-        if ((ulong)*(ushort *)(lVar11 + 0x12e) != 0) {
-          lVar12 = 0;
-          do {
-            if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IDisposable) {
-              puVar10 = (undefined8 *)
-                        (lVar11 + (long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + 0x138);
-              goto label_03b8fabd;
-            }
-            lVar12 = lVar12 + 0x10;
-          } while ((ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12);
+      pvVar3 = InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res8);
+      if ((char)pvVar3 == '\0') {
+        local_res20 = il2cpp_vm_Object_IsInst(local_res8,(Il2CppClass *)TypeInfo_System_IDisposable);
+        if (local_res20 == (Il2CppObject *)0x0) {
+          return (UnityEngine_Transform_o *)0x0;
         }
-        puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IDisposable,0);
-label_03b8fabd:
-        (*(code *)*puVar10)(plVar9,puVar10[1]);
+        InterfaceInvoker0_Invoke(0,(Il2CppClass *)TypeInfo_System_IDisposable,local_res20);
+        return (UnityEngine_Transform_o *)0x0;
       }
-    } while (local_38 != 0);
-    pUVar14 = (UnityEngine_Transform_o *)0x0;
-    if (iVar13 == 6) {
-      pUVar14 = x;
-    }
+      if (local_res8 == (Il2CppObject *)0x0) {
+        ThrowNullReferenceException();
+      }
+      root_00 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_System_Collections_IEnumerator,local_res8);
+      if (root_00 != (UnityEngine_Transform_o *)0x0) {
+        bVar1 = (TypeInfo_UnityEngine_Transform->_2).typeHierarchyDepth;
+        if (((root_00->klass->_2).typeHierarchyDepth < bVar1) ||
+           ((root_00->klass->_2).typeHierarchy[(ulonglong)bVar1 - 1] !=
+            (Il2CppClass *)TypeInfo_UnityEngine_Transform)) {
+          il2cpp_codegen_raise_invalid_cast_exception(root_00,TypeInfo_UnityEngine_Transform);
+        }
+      }
+      root = Gisketch_Aottg2UI_Actions_GisketchTransformSearch__FindDeep(root_00,name,(MethodInfo *)0x0);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar2 = UnityEngine_Object__op_Inequality
+                        ((UnityEngine_Object_o *)root,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+    } while (!bVar2);
+    il2cpp_runtime_helper_1806aa210(&local_28);
   }
-  return pUVar14;
-  while (lVar12 = lVar12 + 0x10, (ulong)*(ushort *)(lVar11 + 0x12e) << 4 != lVar12) {
-label_03b8fbc0:
-    if (*(long *)(*(long *)(lVar11 + 0xb0) + lVar12) == TypeInfo_IDisposable) {
-      puVar10 = (undefined8 *)(lVar11 + (long)*(int *)(*(long *)(lVar11 + 0xb0) + 8 + lVar12) * 0x10 + 0x138);
-      goto label_03b8fbed;
-    }
-  }
-label_03b8fbcf:
-  puVar10 = (undefined8 *)il2cpp_runtime_helper_02300d20(plVar9,TypeInfo_IDisposable,0);
-label_03b8fbed:
-  (*(code *)*puVar10)(plVar9,puVar10[1]);
-label_03b8fbf6:
-  _Unwind_Resume(auVar15._0_8_);
+  return root;
 }
 
 

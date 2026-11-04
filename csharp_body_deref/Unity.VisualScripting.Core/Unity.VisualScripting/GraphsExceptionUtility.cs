@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace Unity.VisualScripting;
 
-[Token(Token = "0x2000078")]
+[Token(Token = "0x200007B")]
 public static class GraphsExceptionUtility
 {
-	[Token(Token = "0x4000116")]
+	[Token(Token = "0x400011A")]
 	private const string handledKey = "Bolt.Core.Handled";
 
-	[Token(Token = "0x60003AB")]
-	[Address(RVA = "0x4CB2ED0", Offset = "0x4CB2ED0", VA = "0x4CB2ED0")]
+	[Token(Token = "0x60003C7")]
+	[Address(RVA = "0x2DB1000", Offset = "0x2DAF600", VA = "0x182DB1000")]
 	public static Exception GetException(this IGraphElementWithDebugData element, GraphPointer pointer)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60003AC")]
-	[Address(RVA = "0x4CB2FF0", Offset = "0x4CB2FF0", VA = "0x4CB2FF0")]
+	[Token(Token = "0x60003C8")]
+	[Address(RVA = "0x2DB16D0", Offset = "0x2DAFCD0", VA = "0x182DB16D0")]
 	public static void SetException(this IGraphElementWithDebugData element, GraphPointer pointer, Exception ex)
 	{
 	}
 
-	[Token(Token = "0x60003AD")]
-	[Address(RVA = "0x4CB3130", Offset = "0x4CB3130", VA = "0x4CB3130")]
+	[Token(Token = "0x60003C9")]
+	[Address(RVA = "0x2DB1140", Offset = "0x2DAF740", VA = "0x182DB1140")]
 	public static void HandleException(this IGraphElementWithDebugData element, GraphPointer pointer, Exception ex)
 	{
 	}
 
-	[Token(Token = "0x60003AE")]
-	[Address(RVA = "0x4CB3460", Offset = "0x4CB3460", VA = "0x4CB3460")]
+	[Token(Token = "0x60003CA")]
+	[Address(RVA = "0x2DB1420", Offset = "0x2DAFA20", VA = "0x182DB1420")]
 	private static bool HandledIn(this Exception ex, GraphReference reference)
 	{
 		return default(bool);

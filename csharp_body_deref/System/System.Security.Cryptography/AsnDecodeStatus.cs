@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x20000E7")]
+[Token(Token = "0x2000127")]
 internal enum AsnDecodeStatus
 {
-	[Token(Token = "0x4000449")]
+	[Token(Token = "0x400051B")]
 	NotDecoded = -1,
-	[Token(Token = "0x400044A")]
+	[Token(Token = "0x400051C")]
 	Ok,
-	[Token(Token = "0x400044B")]
+	[Token(Token = "0x400051D")]
 	BadAsn,
-	[Token(Token = "0x400044C")]
+	[Token(Token = "0x400051E")]
 	BadTag,
-	[Token(Token = "0x400044D")]
+	[Token(Token = "0x400051F")]
 	BadLength,
-	[Token(Token = "0x400044E")]
+	[Token(Token = "0x4000520")]
 	InformationNotAvailable
 }

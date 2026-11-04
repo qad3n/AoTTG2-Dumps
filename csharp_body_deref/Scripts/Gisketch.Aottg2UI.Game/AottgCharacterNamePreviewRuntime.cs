@@ -15,154 +15,154 @@ using UnityEngine.UI;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200018C")]
+[Token(Token = "0x2000292")]
 internal sealed class AottgCharacterNamePreviewRuntime : MonoBehaviour
 {
-	[Token(Token = "0x400088D")]
+	[Token(Token = "0x4000D2E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private GisketchUIState _state;
 
-	[Token(Token = "0x400088E")]
+	[Token(Token = "0x4000D2F")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	private GameObject _guildRow;
 
-	[Token(Token = "0x400088F")]
+	[Token(Token = "0x4000D30")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
 	private AottgBadgeIconRowRuntime _guildBadges;
 
-	[Token(Token = "0x4000890")]
+	[Token(Token = "0x4000D31")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	private NameEffectLabel _guild;
 
-	[Token(Token = "0x4000891")]
+	[Token(Token = "0x4000D32")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private NameEffectLabel _name;
 
-	[Token(Token = "0x4000892")]
+	[Token(Token = "0x4000D33")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
 	private Image _guildPresetImage;
 
-	[Token(Token = "0x4000893")]
+	[Token(Token = "0x4000D34")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	private NameEffectController _guildPresetEffect;
 
-	[Token(Token = "0x4000894")]
+	[Token(Token = "0x4000D35")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	private bool _liveDialog;
 
-	[Token(Token = "0x60008E8")]
-	[Address(RVA = "0x4402810", Offset = "0x4402810", VA = "0x4402810")]
+	[Token(Token = "0x6000F9C")]
+	[Address(RVA = "0x1DF7DF0", Offset = "0x1DF63F0", VA = "0x181DF7DF0")]
 	public void Setup(GisketchUIState state, bool liveDialog)
 	{
 	}
 
-	[Token(Token = "0x60008E9")]
-	[Address(RVA = "0x4403470", Offset = "0x4403470", VA = "0x4403470")]
+	[Token(Token = "0x6000F9D")]
+	[Address(RVA = "0x1DF7380", Offset = "0x1DF5980", VA = "0x181DF7380")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x60008EA")]
-	[Address(RVA = "0x44034F0", Offset = "0x44034F0", VA = "0x44034F0")]
+	[Token(Token = "0x6000F9E")]
+	[Address(RVA = "0x1DF7410", Offset = "0x1DF5A10", VA = "0x181DF7410")]
 	private void OnStateChanged(string key)
 	{
 	}
 
-	[Token(Token = "0x60008EB")]
-	[Address(RVA = "0x4402090", Offset = "0x4402090", VA = "0x4402090")]
+	[Token(Token = "0x6000F9F")]
+	[Address(RVA = "0x1DF7530", Offset = "0x1DF5B30", VA = "0x181DF7530")]
 	public void Refresh()
 	{
 	}
 
-	[Token(Token = "0x60008EC")]
-	[Address(RVA = "0x44029D0", Offset = "0x44029D0", VA = "0x44029D0")]
+	[Token(Token = "0x6000FA0")]
+	[Address(RVA = "0x1DF6D30", Offset = "0x1DF5330", VA = "0x181DF6D30")]
 	private GameObject CreateRow(string id, float fontSize)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008ED")]
-	[Address(RVA = "0x4402C70", Offset = "0x4402C70", VA = "0x4402C70")]
+	[Token(Token = "0x6000FA1")]
+	[Address(RVA = "0x1DF64F0", Offset = "0x1DF4AF0", VA = "0x181DF64F0")]
 	private AottgBadgeIconRowRuntime CreateBadges(Transform parent, float size)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008EE")]
-	[Address(RVA = "0x4402E70", Offset = "0x4402E70", VA = "0x4402E70")]
+	[Token(Token = "0x6000FA2")]
+	[Address(RVA = "0x1DF69F0", Offset = "0x1DF4FF0", VA = "0x181DF69F0")]
 	private Image CreatePresetImage(Transform parent, float height)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008EF")]
-	[Address(RVA = "0x44031A0", Offset = "0x44031A0", VA = "0x44031A0")]
+	[Token(Token = "0x6000FA3")]
+	[Address(RVA = "0x1DF6700", Offset = "0x1DF4D00", VA = "0x181DF6700")]
 	private NameEffectLabel CreateLabel(string id, float fontSize, [Optional] Transform parent, bool flexibleWidth = true)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F0")]
-	[Address(RVA = "0x4403670", Offset = "0x4403670", VA = "0x4403670")]
+	[Token(Token = "0x6000FA4")]
+	[Address(RVA = "0x1DF6FC0", Offset = "0x1DF55C0", VA = "0x181DF6FC0")]
 	private static string DialogGuild(Transform root, JSONNode info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F1")]
-	[Address(RVA = "0x4404390", Offset = "0x4404390", VA = "0x4404390")]
+	[Token(Token = "0x6000FA5")]
+	[Address(RVA = "0x1DF5AC0", Offset = "0x1DF40C0", VA = "0x181DF5AC0")]
 	private void ApplyGuild(string text, string presetId, bool liveDialog, JSONNode effect, string font)
 	{
 	}
 
-	[Token(Token = "0x60008F2")]
-	[Address(RVA = "0x44045C0", Offset = "0x44045C0", VA = "0x44045C0")]
+	[Token(Token = "0x6000FA6")]
+	[Address(RVA = "0x1DF7D00", Offset = "0x1DF6300", VA = "0x181DF7D00")]
 	private void SetGuildRowSpacing(bool imageGuild)
 	{
 	}
 
-	[Token(Token = "0x60008F3")]
-	[Address(RVA = "0x44038D0", Offset = "0x44038D0", VA = "0x44038D0")]
+	[Token(Token = "0x6000FA7")]
+	[Address(RVA = "0x1DF7420", Offset = "0x1DF5A20", VA = "0x181DF7420")]
 	private static string PresetId(JSONNode info)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F4")]
-	[Address(RVA = "0x4403E30", Offset = "0x4403E30", VA = "0x4403E30")]
+	[Token(Token = "0x6000FA8")]
+	[Address(RVA = "0x1DF5D20", Offset = "0x1DF4320", VA = "0x181DF5D20")]
 	private static void Apply(NameEffectLabel label, string text, bool liveDialog, bool name, JSONNode effect, string font)
 	{
 	}
 
-	[Token(Token = "0x60008F5")]
-	[Address(RVA = "0x4403AD0", Offset = "0x4403AD0", VA = "0x4403AD0")]
+	[Token(Token = "0x6000FA9")]
+	[Address(RVA = "0x1DF7170", Offset = "0x1DF5770", VA = "0x181DF7170")]
 	private static string Font(JSONNode info, string key)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F6")]
-	[Address(RVA = "0x4404CC0", Offset = "0x4404CC0", VA = "0x4404CC0")]
+	[Token(Token = "0x6000FAA")]
+	[Address(RVA = "0x1DF6230", Offset = "0x1DF4830", VA = "0x181DF6230")]
 	private static Color ColorValue(bool liveDialog, bool name, JSONNode effect, int index)
 	{
 		return default(Color);
 	}
 
-	[Token(Token = "0x60008F7")]
-	[Address(RVA = "0x4403500", Offset = "0x4403500", VA = "0x4403500")]
+	[Token(Token = "0x6000FAB")]
+	[Address(RVA = "0x1DF72A0", Offset = "0x1DF58A0", VA = "0x181DF72A0")]
 	private static string Input(Transform root, string id, string fallback)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F8")]
+	[Token(Token = "0x6000FAC")]
 	private static T Find<T>(Transform root, string id) where T : Component
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008F9")]
-	[Address(RVA = "0x4404FF0", Offset = "0x4404FF0", VA = "0x4404FF0")]
+	[Token(Token = "0x6000FAD")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public AottgCharacterNamePreviewRuntime()
 	{
 	}

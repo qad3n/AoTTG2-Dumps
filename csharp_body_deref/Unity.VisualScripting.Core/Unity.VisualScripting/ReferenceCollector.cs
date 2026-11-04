@@ -14,25 +14,30 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001BE")]
 public static class ReferenceCollector
 {
+	[Token(Token = "0x400091D")]
+	[FieldOffset(Offset = "0x0")]
+	[CompilerGenerated]
+	private static Action m_onSceneUnloaded;
+
 	[Token(Token = "0x14000013")]
 	public static event Action onSceneUnloaded
 	{
-		[Token(Token = "0x6001094")]
-		[Address(RVA = "0x4D610B0", Offset = "0x4D610B0", VA = "0x4D610B0")]
+		[Token(Token = "0x60010A1")]
+		[Address(RVA = "0x2E55460", Offset = "0x2E53A60", VA = "0x182E55460")]
 		[CompilerGenerated]
 		add
 		{
 		}
-		[Token(Token = "0x6001095")]
-		[Address(RVA = "0x4D61150", Offset = "0x4D61150", VA = "0x4D61150")]
+		[Token(Token = "0x60010A2")]
+		[Address(RVA = "0x2E55520", Offset = "0x2E53B20", VA = "0x182E55520")]
 		[CompilerGenerated]
 		remove
 		{
 		}
 	}
 
-	[Token(Token = "0x6001096")]
-	[Address(RVA = "0x4D611F0", Offset = "0x4D611F0", VA = "0x4D611F0")]
+	[Token(Token = "0x60010A3")]
+	[Address(RVA = "0x2E55350", Offset = "0x2E53950", VA = "0x182E55350")]
 	internal static void Initialize()
 	{
 	}

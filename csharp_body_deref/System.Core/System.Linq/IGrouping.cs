@@ -17,7 +17,7 @@ public interface IGrouping<out TKey, out TElement> : IEnumerable<TElement>, IEnu
 	[Token(Token = "0x1700002E")]
 	TKey Key
 	{
-		[Token(Token = "0x6000164")]
+		[Token(Token = "0x6000163")]
 		get;
 	}
 }

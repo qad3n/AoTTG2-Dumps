@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x2000089")]
+[Token(Token = "0x200007E")]
 public enum HorizontalAlignmentOptions
 {
-	[Token(Token = "0x4000483")]
+	[Token(Token = "0x40003EE")]
 	Left = 1,
-	[Token(Token = "0x4000484")]
+	[Token(Token = "0x40003EF")]
 	Center = 2,
-	[Token(Token = "0x4000485")]
+	[Token(Token = "0x40003F0")]
 	Right = 4,
-	[Token(Token = "0x4000486")]
+	[Token(Token = "0x40003F1")]
 	Justified = 8,
-	[Token(Token = "0x4000487")]
+	[Token(Token = "0x40003F2")]
 	Flush = 0x10,
-	[Token(Token = "0x4000488")]
+	[Token(Token = "0x40003F3")]
 	Geometry = 0x20
 }

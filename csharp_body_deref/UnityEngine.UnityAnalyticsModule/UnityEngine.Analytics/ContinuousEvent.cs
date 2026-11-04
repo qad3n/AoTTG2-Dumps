@@ -13,10 +13,11 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Analytics;
 
 [Token(Token = "0x2000007")]
-[ExcludeFromDocs]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/ContinuousEvent/Manager.h")]
+[ExcludeFromDocs]
 [UnityEngine.Bindings.NativeHeader("Modules/UnityAnalytics/Public/UnityAnalytics.h")]
 [UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeHeader("Modules/UnityAnalyticsCommon/Public/UnityAnalyticsCommon.h")]
 public class ContinuousEvent
 {
 }

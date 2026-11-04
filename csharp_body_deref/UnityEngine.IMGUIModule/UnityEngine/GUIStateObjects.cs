@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000017")]
+[Token(Token = "0x2000018")]
 internal class GUIStateObjects
 {
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x40000A0")]
 	[FieldOffset(Offset = "0x0")]
 	private static Dictionary<int, object> s_StateCache;
 
-	[Token(Token = "0x6000140")]
-	[Address(RVA = "0x4E56C50", Offset = "0x4E56C50", VA = "0x4E56C50")]
+	[Token(Token = "0x6000160")]
+	[Address(RVA = "0x2F8FA60", Offset = "0x2F8E060", VA = "0x182F8FA60")]
 	internal static object GetStateObject(Type t, int controlID)
 	{
 		return null;

@@ -81,7 +81,7 @@ public abstract class JsonContract
 	public Type UnderlyingType
 	{
 		[Token(Token = "0x60007F8")]
-		[Address(RVA = "0x3DD7E40", Offset = "0x3DD7E40", VA = "0x3DD7E40")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		[CompilerGenerated]
 		get
 		{
@@ -93,13 +93,13 @@ public abstract class JsonContract
 	public Type CreatedType
 	{
 		[Token(Token = "0x60007F9")]
-		[Address(RVA = "0x3DD7E50", Offset = "0x3DD7E50", VA = "0x3DD7E50")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007FA")]
-		[Address(RVA = "0x3DD6EA0", Offset = "0x3DD6EA0", VA = "0x3DD6EA0")]
+		[Address(RVA = "0x1C40920", Offset = "0x1C3EF20", VA = "0x181C40920")]
 		set
 		{
 		}
@@ -109,14 +109,14 @@ public abstract class JsonContract
 	public bool? IsReference
 	{
 		[Token(Token = "0x60007FB")]
-		[Address(RVA = "0x3DD7E60", Offset = "0x3DD7E60", VA = "0x3DD7E60")]
+		[Address(RVA = "0x1C40690", Offset = "0x1C3EC90", VA = "0x181C40690")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007FC")]
-		[Address(RVA = "0x3DD7E70", Offset = "0x3DD7E70", VA = "0x3DD7E70")]
+		[Address(RVA = "0x1C40A20", Offset = "0x1C3F020", VA = "0x181C40A20")]
 		[CompilerGenerated]
 		set
 		{
@@ -127,14 +127,14 @@ public abstract class JsonContract
 	public JsonConverter? Converter
 	{
 		[Token(Token = "0x60007FD")]
-		[Address(RVA = "0x3DD7E80", Offset = "0x3DD7E80", VA = "0x3DD7E80")]
+		[Address(RVA = "0xB48770", Offset = "0xB46D70", VA = "0x180B48770")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007FE")]
-		[Address(RVA = "0x3DD7E90", Offset = "0x3DD7E90", VA = "0x3DD7E90")]
+		[Address(RVA = "0xB48780", Offset = "0xB46D80", VA = "0x180B48780")]
 		[CompilerGenerated]
 		set
 		{
@@ -145,14 +145,14 @@ public abstract class JsonContract
 	public JsonConverter? InternalConverter
 	{
 		[Token(Token = "0x60007FF")]
-		[Address(RVA = "0x3DD7EA0", Offset = "0x3DD7EA0", VA = "0x3DD7EA0")]
+		[Address(RVA = "0xCDB5A0", Offset = "0xCD9BA0", VA = "0x180CDB5A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000800")]
-		[Address(RVA = "0x3DD7EB0", Offset = "0x3DD7EB0", VA = "0x3DD7EB0")]
+		[Address(RVA = "0xCDB690", Offset = "0xCD9C90", VA = "0x180CDB690")]
 		[CompilerGenerated]
 		internal set
 		{
@@ -163,7 +163,7 @@ public abstract class JsonContract
 	public IList<SerializationCallback> OnDeserializedCallbacks
 	{
 		[Token(Token = "0x6000801")]
-		[Address(RVA = "0x3DCF070", Offset = "0x3DCF070", VA = "0x3DCF070")]
+		[Address(RVA = "0x1C406A0", Offset = "0x1C3ECA0", VA = "0x181C406A0")]
 		get
 		{
 			return null;
@@ -174,7 +174,7 @@ public abstract class JsonContract
 	public IList<SerializationCallback> OnDeserializingCallbacks
 	{
 		[Token(Token = "0x6000802")]
-		[Address(RVA = "0x3DCEFE0", Offset = "0x3DCEFE0", VA = "0x3DCEFE0")]
+		[Address(RVA = "0x1C40720", Offset = "0x1C3ED20", VA = "0x181C40720")]
 		get
 		{
 			return null;
@@ -185,7 +185,7 @@ public abstract class JsonContract
 	public IList<SerializationCallback> OnSerializedCallbacks
 	{
 		[Token(Token = "0x6000803")]
-		[Address(RVA = "0x3DCEF50", Offset = "0x3DCEF50", VA = "0x3DCEF50")]
+		[Address(RVA = "0x1C40820", Offset = "0x1C3EE20", VA = "0x181C40820")]
 		get
 		{
 			return null;
@@ -196,7 +196,7 @@ public abstract class JsonContract
 	public IList<SerializationCallback> OnSerializingCallbacks
 	{
 		[Token(Token = "0x6000804")]
-		[Address(RVA = "0x3DCC050", Offset = "0x3DCC050", VA = "0x3DCC050")]
+		[Address(RVA = "0x1C408A0", Offset = "0x1C3EEA0", VA = "0x181C408A0")]
 		get
 		{
 			return null;
@@ -207,7 +207,7 @@ public abstract class JsonContract
 	public IList<SerializationErrorCallback> OnErrorCallbacks
 	{
 		[Token(Token = "0x6000805")]
-		[Address(RVA = "0x3DCF100", Offset = "0x3DCF100", VA = "0x3DCF100")]
+		[Address(RVA = "0x1C407A0", Offset = "0x1C3EDA0", VA = "0x181C407A0")]
 		get
 		{
 			return null;
@@ -218,14 +218,14 @@ public abstract class JsonContract
 	public Func<object>? DefaultCreator
 	{
 		[Token(Token = "0x6000806")]
-		[Address(RVA = "0x3DD7EC0", Offset = "0x3DD7EC0", VA = "0x3DD7EC0")]
+		[Address(RVA = "0x58A5D0", Offset = "0x588BD0", VA = "0x18058A5D0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000807")]
-		[Address(RVA = "0x3DD7ED0", Offset = "0x3DD7ED0", VA = "0x3DD7ED0")]
+		[Address(RVA = "0x58A960", Offset = "0x588F60", VA = "0x18058A960")]
 		[CompilerGenerated]
 		set
 		{
@@ -236,14 +236,14 @@ public abstract class JsonContract
 	public bool DefaultCreatorNonPublic
 	{
 		[Token(Token = "0x6000808")]
-		[Address(RVA = "0x3DD7EE0", Offset = "0x3DD7EE0", VA = "0x3DD7EE0")]
+		[Address(RVA = "0x1C40680", Offset = "0x1C3EC80", VA = "0x181C40680")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x6000809")]
-		[Address(RVA = "0x3DD7EF0", Offset = "0x3DD7EF0", VA = "0x3DD7EF0")]
+		[Address(RVA = "0x1C40A10", Offset = "0x1C3F010", VA = "0x181C40A10")]
 		[CompilerGenerated]
 		set
 		{
@@ -251,50 +251,50 @@ public abstract class JsonContract
 	}
 
 	[Token(Token = "0x600080A")]
-	[Address(RVA = "0x3DD7970", Offset = "0x3DD7970", VA = "0x3DD7970")]
+	[Address(RVA = "0x1C404E0", Offset = "0x1C3EAE0", VA = "0x181C404E0")]
 	internal JsonContract(Type underlyingType)
 	{
 	}
 
 	[Token(Token = "0x600080B")]
-	[Address(RVA = "0x3DD7F00", Offset = "0x3DD7F00", VA = "0x3DD7F00")]
+	[Address(RVA = "0x1C403A0", Offset = "0x1C3E9A0", VA = "0x181C403A0")]
 	internal void InvokeOnSerializing(object o, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600080C")]
-	[Address(RVA = "0x3DD8070", Offset = "0x3DD8070", VA = "0x3DD8070")]
+	[Address(RVA = "0x1C40260", Offset = "0x1C3E860", VA = "0x181C40260")]
 	internal void InvokeOnSerialized(object o, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600080D")]
-	[Address(RVA = "0x3DD81E0", Offset = "0x3DD81E0", VA = "0x3DD81E0")]
+	[Address(RVA = "0x1C3FFD0", Offset = "0x1C3E5D0", VA = "0x181C3FFD0")]
 	internal void InvokeOnDeserializing(object o, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600080E")]
-	[Address(RVA = "0x3DD8350", Offset = "0x3DD8350", VA = "0x3DD8350")]
+	[Address(RVA = "0x1C3FE90", Offset = "0x1C3E490", VA = "0x181C3FE90")]
 	internal void InvokeOnDeserialized(object o, StreamingContext context)
 	{
 	}
 
 	[Token(Token = "0x600080F")]
-	[Address(RVA = "0x3DD84C0", Offset = "0x3DD84C0", VA = "0x3DD84C0")]
+	[Address(RVA = "0x1C40110", Offset = "0x1C3E710", VA = "0x181C40110")]
 	internal void InvokeOnError(object o, StreamingContext context, ErrorContext errorContext)
 	{
 	}
 
 	[Token(Token = "0x6000810")]
-	[Address(RVA = "0x3DCFA40", Offset = "0x3DCFA40", VA = "0x3DCFA40")]
+	[Address(RVA = "0x1C3FC80", Offset = "0x1C3E280", VA = "0x181C3FC80")]
 	internal static SerializationCallback CreateSerializationCallback(MethodInfo callbackMethodInfo)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000811")]
-	[Address(RVA = "0x3DCFAF0", Offset = "0x3DCFAF0", VA = "0x3DCFAF0")]
+	[Address(RVA = "0x1C3FD30", Offset = "0x1C3E330", VA = "0x181C3FD30")]
 	internal static SerializationErrorCallback CreateSerializationErrorCallback(MethodInfo callbackMethodInfo)
 	{
 		return null;

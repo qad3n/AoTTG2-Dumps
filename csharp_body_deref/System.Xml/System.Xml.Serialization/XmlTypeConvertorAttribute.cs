@@ -18,14 +18,14 @@ internal class XmlTypeConvertorAttribute : Attribute
 	public string Method
 	{
 		[Token(Token = "0x6000CD9")]
-		[Address(RVA = "0x480A850", Offset = "0x480A850", VA = "0x480A850")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000CDA")]
-		[Address(RVA = "0x480A860", Offset = "0x480A860", VA = "0x480A860")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
@@ -33,7 +33,7 @@ internal class XmlTypeConvertorAttribute : Attribute
 	}
 
 	[Token(Token = "0x6000CDB")]
-	[Address(RVA = "0x480A870", Offset = "0x480A870", VA = "0x480A870")]
+	[Address(RVA = "0x12B8CD0", Offset = "0x12B72D0", VA = "0x1812B8CD0")]
 	public XmlTypeConvertorAttribute(string method)
 	{
 	}

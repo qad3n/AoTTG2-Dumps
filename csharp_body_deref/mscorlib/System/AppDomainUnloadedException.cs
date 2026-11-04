@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 namespace System;
 
 [Serializable]
-[Token(Token = "0x2000140")]
+[Token(Token = "0x2000168")]
 public class AppDomainUnloadedException : SystemException
 {
-	[Token(Token = "0x6000C76")]
-	[Address(RVA = "0x3CDD5C0", Offset = "0x3CDD5C0", VA = "0x3CDD5C0")]
+	[Token(Token = "0x6000CC0")]
+	[Address(RVA = "0x1B3E140", Offset = "0x1B3C740", VA = "0x181B3E140")]
 	public AppDomainUnloadedException()
 	{
 	}
 
-	[Token(Token = "0x6000C77")]
-	[Address(RVA = "0x3CDD670", Offset = "0x3CDD670", VA = "0x3CDD670")]
+	[Token(Token = "0x6000CC1")]
+	[Address(RVA = "0x1B3E0C0", Offset = "0x1B3C6C0", VA = "0x181B3E0C0")]
 	protected AppDomainUnloadedException(SerializationInfo info, StreamingContext context)
 	{
 	}

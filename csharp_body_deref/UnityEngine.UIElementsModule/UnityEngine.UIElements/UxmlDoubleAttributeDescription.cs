@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000423")]
+[Token(Token = "0x20004EC")]
 public class UxmlDoubleAttributeDescription : TypedUxmlAttributeDescription<double>
 {
-	[Token(Token = "0x6001A9F")]
-	[Address(RVA = "0x4F69A00", Offset = "0x4F69A00", VA = "0x4F69A00")]
+	[Token(Token = "0x600266A")]
+	[Address(RVA = "0x3156600", Offset = "0x3154C00", VA = "0x183156600")]
 	public UxmlDoubleAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001AA0")]
-	[Address(RVA = "0x4F69A90", Offset = "0x4F69A90", VA = "0x4F69A90", Slot = "4")]
+	[Token(Token = "0x600266B")]
+	[Address(RVA = "0x3156490", Offset = "0x3154A90", VA = "0x183156490", Slot = "4")]
 	public override double GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return default(double);
 	}
 
-	[Token(Token = "0x6001AA1")]
-	[Address(RVA = "0x4F69C60", Offset = "0x4F69C60", VA = "0x4F69C60")]
+	[Token(Token = "0x600266C")]
+	[Address(RVA = "0x31563F0", Offset = "0x31549F0", VA = "0x1831563F0")]
 	private static double ConvertValueToDouble(string v, double defaultValue)
 	{
 		return default(double);

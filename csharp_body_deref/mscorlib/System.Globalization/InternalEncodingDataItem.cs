@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005CF")]
+[Token(Token = "0x20005A1")]
 internal struct InternalEncodingDataItem
 {
-	[Token(Token = "0x400199E")]
+	[Token(Token = "0x40017BA")]
 	[FieldOffset(Offset = "0x0")]
 	internal string webName;
 
-	[Token(Token = "0x400199F")]
+	[Token(Token = "0x40017BB")]
 	[FieldOffset(Offset = "0x8")]
 	internal ushort codePage;
 }

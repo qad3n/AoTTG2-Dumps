@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x200000C")]
+[Token(Token = "0x200000A")]
 internal enum JoinType
 {
-	[Token(Token = "0x4000062")]
+	[Token(Token = "0x400005D")]
 	CreateRoom,
-	[Token(Token = "0x4000063")]
+	[Token(Token = "0x400005E")]
 	JoinRoom,
-	[Token(Token = "0x4000064")]
+	[Token(Token = "0x400005F")]
 	JoinRandomRoom,
-	[Token(Token = "0x4000065")]
+	[Token(Token = "0x4000060")]
 	JoinRandomOrCreateRoom,
-	[Token(Token = "0x4000066")]
+	[Token(Token = "0x4000061")]
 	JoinOrCreateRoom
 }

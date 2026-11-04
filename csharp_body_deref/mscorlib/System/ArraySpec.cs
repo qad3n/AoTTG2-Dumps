@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001AD")]
+[Token(Token = "0x20001D8")]
 internal class ArraySpec : System.ModifierSpec
 {
-	[Token(Token = "0x40008AF")]
+	[Token(Token = "0x4000913")]
 	[FieldOffset(Offset = "0x10")]
 	private int dimensions;
 
-	[Token(Token = "0x40008B0")]
+	[Token(Token = "0x4000914")]
 	[FieldOffset(Offset = "0x14")]
 	private bool bound;
 
-	[Token(Token = "0x6001071")]
-	[Address(RVA = "0x3D1B8C0", Offset = "0x3D1B8C0", VA = "0x3D1B8C0")]
+	[Token(Token = "0x60010C8")]
+	[Address(RVA = "0x1B7BEC0", Offset = "0x1B7A4C0", VA = "0x181B7BEC0")]
 	internal ArraySpec(int dimensions, bool bound)
 	{
 	}
 
-	[Token(Token = "0x6001072")]
-	[Address(RVA = "0x3D1B8D0", Offset = "0x3D1B8D0", VA = "0x3D1B8D0", Slot = "4")]
+	[Token(Token = "0x60010C9")]
+	[Address(RVA = "0x1B7BD60", Offset = "0x1B7A360", VA = "0x181B7BD60", Slot = "4")]
 	public Type Resolve(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001073")]
-	[Address(RVA = "0x3D1B950", Offset = "0x3D1B950", VA = "0x3D1B950", Slot = "5")]
+	[Token(Token = "0x60010CA")]
+	[Address(RVA = "0x1B7BCC0", Offset = "0x1B7A2C0", VA = "0x181B7BCC0", Slot = "5")]
 	public StringBuilder Append(StringBuilder sb)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001074")]
-	[Address(RVA = "0x3D1B9F0", Offset = "0x3D1B9F0", VA = "0x3D1B9F0", Slot = "3")]
+	[Token(Token = "0x60010CB")]
+	[Address(RVA = "0x1B7BDD0", Offset = "0x1B7A3D0", VA = "0x181B7BDD0", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

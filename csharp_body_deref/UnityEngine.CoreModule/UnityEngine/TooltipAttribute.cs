@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200012D")]
+[Token(Token = "0x2000159")]
 [AttributeUsage(AttributeTargets.All, Inherited = true, AllowMultiple = false)]
 public class TooltipAttribute : PropertyAttribute
 {
-	[Token(Token = "0x400051C")]
-	[FieldOffset(Offset = "0x10")]
+	[Token(Token = "0x40005A3")]
+	[FieldOffset(Offset = "0x18")]
 	public readonly string tooltip;
 
-	[Token(Token = "0x600092A")]
-	[Address(RVA = "0x4DF1E90", Offset = "0x4DF1E90", VA = "0x4DF1E90")]
+	[Token(Token = "0x6000C38")]
+	[Address(RVA = "0x2F29970", Offset = "0x2F27F70", VA = "0x182F29970")]
 	public TooltipAttribute(string tooltip)
 	{
 	}

@@ -32,7 +32,7 @@ internal struct NamespaceResolver
 		public NamespaceDeclaration prev;
 
 		[Token(Token = "0x600009D")]
-		[Address(RVA = "0x4694D40", Offset = "0x4694D40", VA = "0x4694D40")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public NamespaceDeclaration()
 		{
 		}
@@ -51,31 +51,31 @@ internal struct NamespaceResolver
 	private NamespaceDeclaration _rover;
 
 	[Token(Token = "0x6000098")]
-	[Address(RVA = "0x4694BA0", Offset = "0x4694BA0", VA = "0x4694BA0")]
+	[Address(RVA = "0x25E48F0", Offset = "0x25E2EF0", VA = "0x1825E48F0")]
 	public void PushScope()
 	{
 	}
 
 	[Token(Token = "0x6000099")]
-	[Address(RVA = "0x4694CA0", Offset = "0x4694CA0", VA = "0x4694CA0")]
+	[Address(RVA = "0x25E4860", Offset = "0x25E2E60", VA = "0x1825E4860")]
 	public void PopScope()
 	{
 	}
 
 	[Token(Token = "0x600009A")]
-	[Address(RVA = "0x4694BB0", Offset = "0x4694BB0", VA = "0x4694BB0")]
+	[Address(RVA = "0x25E4680", Offset = "0x25E2C80", VA = "0x1825E4680")]
 	public void Add(string prefix, XNamespace ns)
 	{
 	}
 
 	[Token(Token = "0x600009B")]
-	[Address(RVA = "0x46949E0", Offset = "0x46949E0", VA = "0x46949E0")]
+	[Address(RVA = "0x25E4590", Offset = "0x25E2B90", VA = "0x1825E4590")]
 	public void AddFirst(string prefix, XNamespace ns)
 	{
 	}
 
 	[Token(Token = "0x600009C")]
-	[Address(RVA = "0x4694870", Offset = "0x4694870", VA = "0x4694870")]
+	[Address(RVA = "0x25E4760", Offset = "0x25E2D60", VA = "0x1825E4760")]
 	public string GetPrefixOfNamespace(XNamespace ns, bool allowDefaultNamespace)
 	{
 		return null;

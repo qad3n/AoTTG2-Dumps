@@ -13,15 +13,15 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20000DC")]
 public class ProfiledSegmentCollection : KeyedCollection<string, ProfiledSegment>
 {
-	[Token(Token = "0x6000529")]
-	[Address(RVA = "0x4CB9F20", Offset = "0x4CB9F20", VA = "0x4CB9F20", Slot = "39")]
+	[Token(Token = "0x6000533")]
+	[Address(RVA = "0x18D9D00", Offset = "0x18D8300", VA = "0x1818D9D00", Slot = "39")]
 	protected override string GetKeyForItem(ProfiledSegment item)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600052A")]
-	[Address(RVA = "0x4CB9E40", Offset = "0x4CB9E40", VA = "0x4CB9E40")]
+	[Token(Token = "0x6000534")]
+	[Address(RVA = "0x2DB8B80", Offset = "0x2DB7180", VA = "0x182DB8B80")]
 	public ProfiledSegmentCollection()
 	{
 	}

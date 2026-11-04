@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007C7")]
+[Token(Token = "0x2000954")]
 public sealed class AottgApiRequest
 {
-	[Token(Token = "0x4002557")]
+	[Token(Token = "0x4002E29")]
 	[FieldOffset(Offset = "0x10")]
 	public string Method;
 
-	[Token(Token = "0x4002558")]
+	[Token(Token = "0x4002E2A")]
 	[FieldOffset(Offset = "0x18")]
 	public string Path;
 
-	[Token(Token = "0x4002559")]
+	[Token(Token = "0x4002E2B")]
 	[FieldOffset(Offset = "0x20")]
 	public string JsonBody;
 
-	[Token(Token = "0x400255A")]
+	[Token(Token = "0x4002E2C")]
 	[FieldOffset(Offset = "0x28")]
 	public string BearerToken;
 
-	[Token(Token = "0x400255B")]
+	[Token(Token = "0x4002E2D")]
 	[FieldOffset(Offset = "0x30")]
 	public int? TimeoutSeconds;
 
-	[Token(Token = "0x400255C")]
+	[Token(Token = "0x4002E2E")]
 	[FieldOffset(Offset = "0x38")]
 	public bool ParseJson;
 
-	[Token(Token = "0x400255D")]
+	[Token(Token = "0x4002E2F")]
 	[FieldOffset(Offset = "0x39")]
 	public bool ReportNetworkError;
 
-	[Token(Token = "0x6004A8E")]
-	[Address(RVA = "0x43C4FF0", Offset = "0x43C4FF0", VA = "0x43C4FF0")]
+	[Token(Token = "0x6005707")]
+	[Address(RVA = "0x2360830", Offset = "0x235EE30", VA = "0x182360830")]
 	public AottgApiRequest()
 	{
 	}

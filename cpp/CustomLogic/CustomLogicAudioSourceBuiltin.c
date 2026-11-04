@@ -1,5 +1,5 @@
 // Type: CustomLogic.CustomLogicAudioSourceBuiltin
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/CustomLogic/CustomLogicAudioSourceBuiltin.cs
@@ -8,480 +8,95 @@
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Factory$$CreateInstance
 // il2cpp: CustomLogic_CustomLogicAudioSourceBuiltin_o* CustomLogic_CustomLogicAudioSourceBuiltin_Factory__CreateInstance (System_Object_array* args, const MethodInfo* method);
-// 0x40e4aa0
+// 0x181f07950
 
 CustomLogic_CustomLogicAudioSourceBuiltin_o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Factory__CreateInstance
           (System_Object_array *args,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  uint in_EAX;
-  uint32_t uVar3;
-  bool_conflict bVar4;
-  CustomLogic_CustomLogicAudioSourceBuiltin_o *pCVar5;
-  System_String_o *pSVar6;
-  System_String_o *pSVar7;
+  CustomLogic_CustomLogicAudioSourceBuiltin_o *__this;
+  System_String_o *pSVar1;
   System_String_o *str2;
-  System_ArgumentException_o *message;
-  undefined8 uVar8;
-  System_ArgumentException_o *__this;
-  System_ArgumentException_o *pSVar9;
-  System_Func_T__object__o *pSVar10;
-  System_Action_T__object__o *pSVar11;
-  System_Func_T__object____object__o *pSVar12;
-  System_ArgumentException_o **ppSVar13;
-  undefined8 unaff_R15;
-  System_ArgumentException_o *pSStack_30;
-  System_ArgumentException_o *pSStack_28;
-  undefined8 uStack_18;
+  System_String_o *str0;
+  Il2CppClass *klass;
+  System_ArgumentException_o *__this_00;
+  MethodInfo *lastManagedFrame;
+  int32_t local_res8 [2];
   
-  uStack_18._0_4_ = in_EAX;
-  if (g_data_057ac6f7 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicAudioSourceBuiltin);
-    g_data_057ac6f7 = '\x01';
+  if (Il2CppMethodInitialized_184345333 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin);
+    Il2CppMethodInitialized_184345333 = '\x01';
   }
-  uStack_18 = (ulong)(uint)uStack_18;
-  if (args == (System_Object_array *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
+  local_res8[0] = 0;
+  if (args != (System_Object_array *)0x0) {
+    if (args->max_length == 0) {
+      __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin);
+      CustomLogic_BuiltinComponentInstance___ctor
+                ((CustomLogic_BuiltinComponentInstance_o *)__this,(UnityEngine_Component_o *)0x0,
+                 (MethodInfo *)0x0);
+      return __this;
+    }
+    NullCheck(args);
+    local_res8[0] = (int32_t)args->max_length;
+    pSVar1 = System_Int32__ToString(local_res8,(MethodInfo *)0x0);
+    str2 = il2cpp_codegen_get_runtime_metadata(&" arguments");
+    str0 = il2cpp_codegen_get_runtime_metadata(&"No CustomLogicAudioSourceBuiltin constructor found that takes ");
+    pSVar1 = System_String__Concat_1969b70(str0,pSVar1,str2,(MethodInfo *)0x0);
+    klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_ArgumentException);
+    __this_00 = (System_ArgumentException_o *)il2cpp_codegen_object_new(klass);
+    System_ArgumentException___ctor_1a77cc0(__this_00,pSVar1,(MethodInfo *)0x0);
+    lastManagedFrame =
+         il2cpp_codegen_get_runtime_metadata
+                   (&MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Factory_CreateInstance);
+    il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
   }
-  else if (args->max_length == 0) {
-    pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CustomLogicAudioSourceBuiltin);
-    CustomLogic_BuiltinComponentInstance___ctor
-              ((CustomLogic_BuiltinComponentInstance_o *)pCVar5,(UnityEngine_Component_o *)0x0,
-               (MethodInfo *)0x0);
-    return pCVar5;
-  }
-  il2cpp_runtime_helper_01f681a0(args);
-  uStack_18 = CONCAT44((int)args->max_length,(uint)uStack_18);
-  pSVar6 = System_Int32__ToString((int)&uStack_18 + 4,(MethodInfo *)0x0);
-  pSVar7 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"No CustomLogicAudioSourceBuiltin constructor found that takes ");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&" arguments");
-  message = (System_ArgumentException_o *)System_String__Concat_3af7150(pSVar7,pSVar6,str2,(MethodInfo *)0x0);
-  uVar8 = il2cpp_runtime_helper_023445d0(&TypeInfo_ArgumentException);
-  __this = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar8);
-  System_ArgumentException___ctor_3c12490(__this,(System_String_o *)message,(MethodInfo *)0x0);
-  il2cpp_runtime_helper_023445d0(&MethodInfo_CustomLogicAudioSourceBuiltin_CreateInstance);
-  pSVar9 = __this;
-  pSStack_30 = (System_ArgumentException_o *)il2cpp_runtime_helper_022b2b10();
-  ppSVar13 = &pSStack_30;
-  pSStack_28 = __this;
-  if (g_data_057ac6f8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Unpause");
-    il2cpp_runtime_helper_023445d0(&"Play");
-    il2cpp_runtime_helper_023445d0(&"PlayDelayed");
-    il2cpp_runtime_helper_023445d0(&"Time");
-    il2cpp_runtime_helper_023445d0(&"Pitch");
-    il2cpp_runtime_helper_023445d0(&"Stop");
-    il2cpp_runtime_helper_023445d0(&"Pause");
-    il2cpp_runtime_helper_023445d0(&"IsPlaying");
-    il2cpp_runtime_helper_023445d0(&"Volume");
-    g_data_057ac6f8 = '\x01';
-  }
-  uVar3 = _PrivateImplementationDetails___ComputeStringHash((System_String_o *)pSVar9,(MethodInfo *)0x0);
-  if (uVar3 < 0x7324416d) {
-    if (uVar3 < 0x44f9bf2e) {
-      if (uVar3 == 0x29ab6f83) {
-        bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Play",(MethodInfo *)0x0);
-        if ((char)bVar4 != '\0') {
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSStack_30 = pSStack_28;
-          if (g_data_057ac6fd == '\0') {
-            pSStack_28 = message;
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Play_b__6_0);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-            g_data_057ac6fd = '\x01';
-            iVar1 = *(int *)(TypeInfo_c + 0xe4);
-          }
-          else {
-            iVar1 = *(int *)(TypeInfo_c + 0xe4);
-            pSStack_28 = message;
-          }
-          if (iVar1 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-          }
-          else {
-            pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-          }
-          if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-            System_Func_object__object__object____ctor();
-            lVar2 = *(long *)(TypeInfo_c + 0xb8);
-            *(System_Func_T__object____object__o **)(lVar2 + 8) = pSVar12;
-            il2cpp_runtime_helper_022b4080(lVar2 + 8,pSVar12);
-          }
-          pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          CustomLogic_CLMethodBinding_object____ctor
-                    ((CustomLogic_CLMethodBinding_T__o *)pCVar5,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          return pCVar5;
-        }
-      }
-      else if ((uVar3 == 0x44f9bf2d) &&
-              (bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Pause",(MethodInfo *)0x0),
-              (char)bVar4 != '\0')) {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSStack_30 = pSStack_28;
-        if (g_data_057ac700 == '\0') {
-          pSStack_28 = message;
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Pause_b__9_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057ac700 = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-          pSStack_28 = message;
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        else {
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x20) = pSVar12;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x20,pSVar12);
-        }
-        pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  ((CustomLogic_CLMethodBinding_T__o *)pCVar5,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        return pCVar5;
-      }
-    }
-    else if (uVar3 == 0x4b7f7705) {
-      bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Stop",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSStack_30 = pSStack_28;
-        if (g_data_057ac6ff == '\0') {
-          pSStack_28 = message;
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Stop_b__8_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057ac6ff = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-          pSStack_28 = message;
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        else {
-          pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x18) = pSVar12;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pSVar12);
-        }
-        pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor
-                  ((CustomLogic_CLMethodBinding_T__o *)pCVar5,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        return pCVar5;
-      }
-    }
-    else if ((uVar3 == 0x7324416c) &&
-            (bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Unpause",(MethodInfo *)0x0),
-            (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057ac701 == '\0') {
-        pSStack_28 = message;
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Unpause_b__10_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057ac701 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        pSStack_28 = message;
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      else {
-        pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x28) = pSVar12;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x28,pSVar12);
-      }
-      pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor
-                ((CustomLogic_CLMethodBinding_T__o *)pCVar5,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-      return pCVar5;
-    }
-  }
-  else if (uVar3 < 0x785a8152) {
-    if (uVar3 == 0x74f576af) {
-      bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Volume",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          ppSVar13 = (System_ArgumentException_o **)&uStack_18;
-          pSVar9 = pSStack_28;
-        }
-        else {
-          ppSVar13 = (System_ArgumentException_o **)&uStack_18;
-          pSVar9 = pSStack_28;
-        }
-        goto CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume;
-      }
-    }
-    else if ((uVar3 == 0x785a8151) &&
-            (bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Pitch",(MethodInfo *)0x0),
-            (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057ac6fb == '\0') {
-        pSStack_28 = message;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Pitch_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Pitch_g____setter_4_1);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fb = '\x01';
-        message = pSStack_28;
-      }
-      pSStack_28 = message;
-      pSVar10 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pSVar11 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-      System_Action_object__object____ctor();
-      pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar5,pSVar10,pSVar11,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return pCVar5;
-    }
-  }
-  else if (uVar3 == 0xdfe4e404) {
-    bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"Time",(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSStack_28;
-      if (g_data_057ac6fa == '\0') {
-        pSStack_28 = message;
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Time_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Time_g____setter_3_1);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fa = '\x01';
-        message = pSStack_28;
-      }
-      pSStack_28 = message;
-      pSVar10 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pSVar11 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-      System_Action_object__object____ctor();
-      pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar5,pSVar10,pSVar11,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return pCVar5;
-    }
-  }
-  else if (uVar3 == 0xe4b35065) {
-    bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"IsPlaying",(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      pSVar9 = (System_ArgumentException_o *)&TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        pSVar9 = (System_ArgumentException_o *)il2cpp_runtime_helper_02337ed0();
-      }
-      pSStack_30 = pSVar9;
-      if (g_data_057ac6fc == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__IsPlaying_g____getter_5);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fc = '\x01';
-      }
-      pSVar10 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor
-                ((CustomLogic_CLPropertyBinding_T__o *)pCVar5,pSVar10,(System_Action_T__object__o *)0x0,
-                 MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return pCVar5;
-    }
-  }
-  else if ((uVar3 == 0xf0f90de3) &&
-          (bVar4 = System_String__op_Equality((System_String_o *)pSVar9,"PlayDelayed",(MethodInfo *)0x0),
-          (char)bVar4 != '\0')) {
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pSStack_30 = pSStack_28;
-    if (g_data_057ac6fe == '\0') {
-      pSStack_28 = message;
-      il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PlayDelayed_b__7_0);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-      g_data_057ac6fe = '\x01';
-      iVar1 = *(int *)(TypeInfo_c + 0xe4);
-    }
-    else {
-      iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      pSStack_28 = message;
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-    }
-    else {
-      pSVar12 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-    }
-    if (pSVar12 == (System_Func_T__object____object__o *)0x0) {
-      if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar12 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-      System_Func_object__object__object____ctor();
-      lVar2 = *(long *)(TypeInfo_c + 0xb8);
-      *(System_Func_T__object____object__o **)(lVar2 + 0x10) = pSVar12;
-      il2cpp_runtime_helper_022b4080(lVar2 + 0x10,pSVar12);
-    }
-    pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    CustomLogic_CLMethodBinding_object____ctor
-              ((CustomLogic_CLMethodBinding_T__o *)pCVar5,pSVar12,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    return pCVar5;
-  }
-  pSVar6 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  pSVar7 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAudioSourceBuiltin not found");
-  message = (System_ArgumentException_o *)
-            System_String__Concat_3af7150(pSVar6,(System_String_o *)pSVar9,pSVar7,(MethodInfo *)0x0);
-  uVar8 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  pSVar9 = (System_ArgumentException_o *)il2cpp_runtime_helper_023052d0(uVar8);
-  System_Exception___ctor_3cf6120((System_Exception_o *)pSVar9,(System_String_o *)message,(MethodInfo *)0x0);
-  uVar8 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  il2cpp_runtime_helper_022b2b10(pSVar9,uVar8);
-CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume:
-  *(undefined8 *)((long)ppSVar13 + -8) = unaff_R15;
-  *(System_ArgumentException_o **)((long)ppSVar13 + -0x10) = message;
-  *(System_ArgumentException_o **)((long)ppSVar13 + -0x18) = pSVar9;
-  if (g_data_057ac6f9 == '\0') {
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e500a;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e5016;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Volume_g____getter_2_0);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e5022;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Volume_g____setter_2_1);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e502e;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e503a;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e5046;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6f9 = '\x01';
-  }
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e505c;
-  pSVar10 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e5075;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e5084;
-  pSVar11 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e509d;
-  System_Action_object__object____ctor();
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e50ac;
-  pCVar5 = (CustomLogic_CustomLogicAudioSourceBuiltin_o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-  *(undefined8 *)((long)ppSVar13 + -0x20) = 0x40e50c7;
-  CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)pCVar5,pSVar10,pSVar11,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return pCVar5;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$.cctor
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c___cctor (const MethodInfo* method);
-// 0x40e5e20
+// 0x181f0cb00
 
 void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c___cctor(MethodInfo *method)
 
 {
-  Il2CppObject *__this;
+  CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *__this;
   
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
+  if (Il2CppMethodInitialized_184345342 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_184345342 = '\x01';
   }
-  __this = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this);
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
+  TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9 = __this;
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9,__this);
   return;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$.ctor
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c___ctor (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, const MethodInfo* method);
-// 0x40e5e90
+// 0x18054c890
 
-void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c___ctor
-               (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *__this,MethodInfo *method)
+void
+CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c___ctor(CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$<__CreateMethodBinding__Play>b__6_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Play_b__6_0 (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicAudioSourceBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x40e5ea0
+// 0x181f0aef0
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Play_b__6_0
@@ -489,98 +104,20 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__
           CustomLogic_CustomLogicAudioSourceBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
   UnityEngine_AudioSource_o *__this_00;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  long extraout_RDX;
-  MethodInfo_24EED20 *pMVar2;
-  float delay;
   
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    __this_00 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Play_4daa2c0(__this_00,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
+  if ((__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
+     (__this_00 = (__c->fields).Value, __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__Play_2eb4470(__this_00,(MethodInfo *)0x0);
+    return (Il2CppObject *)0x0;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pMVar2 = (MethodInfo_24EED20 *)__c;
-  if (g_data_057ac707 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac707 = '\x01';
-  }
-  if (extraout_RDX != 0) {
-    if (*(int *)(extraout_RDX + 0x18) == 0) goto label_040e5f4f;
-    __this = *(CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o **)(extraout_RDX + 0x20);
-    if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    pMVar2 = MethodInfo_Single_ConvertTo_Single;
-    delay = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)__this,MethodInfo_Single_ConvertTo_Single);
-    if ((MethodInfo_24EED20 *)__c != (MethodInfo_24EED20 *)0x0) {
-      __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-      if ((UnityEngine_AudioSource_o *)((MethodInfo_24EED20 *)__c)->rgctx_data !=
-          (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__PlayDelayed
-                  ((UnityEngine_AudioSource_o *)((MethodInfo_24EED20 *)__c)->rgctx_data,delay,
-                   (MethodInfo *)0x0);
-        return (Il2CppObject *)0x0;
-      }
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_040e5f4f:
-  il2cpp_runtime_helper_022b2ca0();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Stop_4daa470((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0)
-      ;
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Pause((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__UnPause((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ac708 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$<__CreateMethodBinding__PlayDelayed>b__7_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__PlayDelayed_b__7_0 (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicAudioSourceBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x40e5ec0
+// 0x181f0ae50
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__PlayDelayed_b__7_0
@@ -588,86 +125,38 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__
           CustomLogic_CustomLogicAudioSourceBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
+  Il2CppObject *obj;
   UnityEngine_AudioSource_o *__this_00;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  MethodInfo_24EED20 *pMVar2;
   float delay;
   
-  pMVar2 = (MethodInfo_24EED20 *)__c;
-  if (g_data_057ac707 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)&TypeInfo_CustomLogicEvaluator;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ac707 = '\x01';
+  if (Il2CppMethodInitialized_184345343 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184345343 = '\x01';
   }
   if (__a != (System_Object_array *)0x0) {
-    if ((int)__a->max_length == 0) goto label_040e5f4f;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)__a->m_Items[0];
-    if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((int)__a->max_length == 0) {
+      ThrowIndexOutOfRangeException();
     }
-    pMVar2 = MethodInfo_Single_ConvertTo_Single;
-    delay = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)__this,MethodInfo_Single_ConvertTo_Single);
-    if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-      __this_00 = (__c->fields).Value;
-      __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-      if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
-        UnityEngine_AudioSource__PlayDelayed(__this_00,delay,(MethodInfo *)0x0);
-        return (Il2CppObject *)0x0;
-      }
+    obj = __a->m_Items[0];
+    if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
     }
-  }
-  il2cpp_runtime_helper_022b2c90();
-label_040e5f4f:
-  il2cpp_runtime_helper_022b2ca0();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Stop_4daa470((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0)
-      ;
+    delay = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                      (obj,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    if ((__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
+       (__this_00 = (__c->fields).Value, __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
+      UnityEngine_AudioSource__PlayDelayed(__this_00,delay,(MethodInfo *)0x0);
       return (Il2CppObject *)0x0;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Pause((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pMVar2 != (MethodInfo_24EED20 *)0x0) {
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if ((UnityEngine_AudioSource_o *)pMVar2->rgctx_data != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__UnPause((UnityEngine_AudioSource_o *)pMVar2->rgctx_data,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ac708 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$<__CreateMethodBinding__Stop>b__8_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Stop_b__8_0 (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicAudioSourceBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x40e5f60
+// 0x181f0c240
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Stop_b__8_0
@@ -675,59 +164,20 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__
           CustomLogic_CustomLogicAudioSourceBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_AudioSource_o *pUVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
+  UnityEngine_AudioSource_o *__this_00;
   
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    pUVar2 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Stop_4daa470(pUVar2,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
+  if ((__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
+     (__this_00 = (__c->fields).Value, __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__Stop_2eb4660(__this_00,(MethodInfo *)0x0);
+    return (Il2CppObject *)0x0;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    pUVar2 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Pause(pUVar2,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    pUVar2 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__UnPause(pUVar2,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ac708 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$<__CreateMethodBinding__Pause>b__9_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Pause_b__9_0 (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicAudioSourceBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x40e5f80
+// 0x181f0a730
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Pause_b__9_0
@@ -735,50 +185,20 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__
           CustomLogic_CustomLogicAudioSourceBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_AudioSource_o *pUVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
+  UnityEngine_AudioSource_o *__this_00;
   
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    pUVar2 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__Pause(pUVar2,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
+  if ((__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
+     (__this_00 = (__c->fields).Value, __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__Pause(__this_00,(MethodInfo *)0x0);
+    return (Il2CppObject *)0x0;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    pUVar2 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__UnPause(pUVar2,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ac708 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings.<>c$$<__CreateMethodBinding__Unpause>b__10_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Unpause_b__10_0 (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o* __this, CustomLogic_CustomLogicAudioSourceBuiltin_o* __c, System_Object_array* __a, const MethodInfo* method);
-// 0x40e5fa0
+// 0x181f0c270
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__Unpause_b__10_0
@@ -786,994 +206,1109 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_____CreateMethodBinding__
           CustomLogic_CustomLogicAudioSourceBuiltin_o *__c,System_Object_array *__a,MethodInfo *method)
 
 {
-  int iVar1;
   UnityEngine_AudioSource_o *__this_00;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
   
-  if (__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) {
-    __this_00 = (__c->fields).Value;
-    __this = (CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___c_o *)0x0;
-    if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
-      UnityEngine_AudioSource__UnPause(__this_00,(MethodInfo *)0x0);
-      return (Il2CppObject *)0x0;
-    }
+  if ((__c != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
+     (__this_00 = (__c->fields).Value, __this_00 != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__UnPause(__this_00,(MethodInfo *)0x0);
+    return (Il2CppObject *)0x0;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac708 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_BuiltinClassInstance);
-    g_data_057ac708 = '\x01';
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_BuiltinClassInstance + 0xe4);
-  }
-  if (iVar1 != 0) {
-    CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  il2cpp_runtime_helper_02337ed0();
-  CustomLogic_BuiltinClassInstance___ctor((CustomLogic_BuiltinClassInstance_o *)__this,(MethodInfo *)0x0);
-  return extraout_RAX_00;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$CreateMemberBinding
 // il2cpp: CustomLogic_ICLMemberBinding_o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings__CreateMemberBinding (System_String_o* name, const MethodInfo* method);
-// 0x40e4b90
+// 0x181eebbd0
 
 CustomLogic_ICLMemberBinding_o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings__CreateMemberBinding
           (System_String_o *name,MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
+  Il2CppObject *pIVar1;
+  bool bVar2;
   uint32_t uVar3;
-  bool_conflict bVar4;
+  System_Func_CustomLogicAudioSourceBuiltin__object__o *__this;
+  Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *__this_00;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this_01;
+  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this_02;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_03;
+  System_String_o *pSVar4;
   System_String_o *str0;
-  System_String_o *str2;
-  undefined8 uVar5;
-  System_Func_T__object__o *pSVar6;
-  System_Action_T__object__o *pSVar7;
-  CustomLogic_CLPropertyBinding_T__o *pCVar8;
-  System_Func_T__object____object__o *pSVar9;
-  CustomLogic_CLMethodBinding_T__o *pCVar10;
-  System_Exception_o *unaff_RBX;
-  System_String_o *unaff_R14;
-  undefined8 unaff_R15;
-  undefined8 *puStack_18;
+  Il2CppClass *klass;
+  System_Exception_o *__this_04;
+  MethodInfo *pMVar5;
+  System_Func_CustomLogicAudioSourceBuiltin__object____object__o **targetAddress;
   
-  if (g_data_057ac6f8 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    il2cpp_runtime_helper_023445d0(&"Unpause");
-    il2cpp_runtime_helper_023445d0(&"Play");
-    il2cpp_runtime_helper_023445d0(&"PlayDelayed");
-    il2cpp_runtime_helper_023445d0(&"Time");
-    il2cpp_runtime_helper_023445d0(&"Pitch");
-    il2cpp_runtime_helper_023445d0(&"Stop");
-    il2cpp_runtime_helper_023445d0(&"Pause");
-    il2cpp_runtime_helper_023445d0(&"IsPlaying");
-    il2cpp_runtime_helper_023445d0(&"Volume");
-    g_data_057ac6f8 = '\x01';
+  if (Il2CppMethodInitialized_184345334 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&"Unpause");
+    il2cpp_codegen_initialize_runtime_metadata(&"Play");
+    il2cpp_codegen_initialize_runtime_metadata(&"PlayDelayed");
+    il2cpp_codegen_initialize_runtime_metadata(&"Time");
+    il2cpp_codegen_initialize_runtime_metadata(&"Pitch");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stop");
+    il2cpp_codegen_initialize_runtime_metadata(&"Pause");
+    il2cpp_codegen_initialize_runtime_metadata(&"IsPlaying");
+    il2cpp_codegen_initialize_runtime_metadata(&"Volume");
+    Il2CppMethodInitialized_184345334 = '\x01';
   }
   uVar3 = _PrivateImplementationDetails___ComputeStringHash(name,(MethodInfo *)0x0);
-  if (uVar3 < 0x7324416d) {
-    if (uVar3 < 0x44f9bf2e) {
-      if (uVar3 == 0x29ab6f83) {
-        bVar4 = System_String__op_Equality(name,"Play",(MethodInfo *)0x0);
-        if ((char)bVar4 != '\0') {
-          if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          if (g_data_057ac6fd == '\0') {
-            il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-            il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Play_b__6_0);
-            il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-            g_data_057ac6fd = '\x01';
-            iVar1 = *(int *)(TypeInfo_c + 0xe4);
-          }
-          else {
-            iVar1 = *(int *)(TypeInfo_c + 0xe4);
-          }
-          if (iVar1 == 0) {
-            il2cpp_runtime_helper_02337ed0();
-            pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-          }
-          else {
-            pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-          }
-          if (pSVar9 == (System_Func_T__object____object__o *)0x0) {
-            if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            pSVar9 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-            System_Func_object__object__object____ctor();
-            lVar2 = *(long *)(TypeInfo_c + 0xb8);
-            *(System_Func_T__object____object__o **)(lVar2 + 8) = pSVar9;
-            il2cpp_runtime_helper_022b4080(lVar2 + 8,pSVar9);
-          }
-          pCVar10 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          CustomLogic_CLMethodBinding_object____ctor(pCVar10,pSVar9,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          return (CustomLogic_ICLMemberBinding_o *)pCVar10;
+  if (0x7324416c < uVar3) {
+    if (uVar3 < 0x785a8152) {
+      if (uVar3 == 0x74f576af) {
+        bVar2 = System_String__op_Equality(name,"Volume",(MethodInfo *)0x0);
+        if (!bVar2) goto label_181eec5cb;
+        if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
         }
+        if (Il2CppMethodInitialized_184345335 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____getter_2
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____setter_2
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+          Il2CppMethodInitialized_184345335 = '\x01';
+        }
+        __this = il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+        System_Func_object__object____ctor
+                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+                   (intptr_t)
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____getter_2
+                   ,(MethodInfo_16E67D0 *)0x0);
+        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+        pMVar5 = 
+        MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____setter_2
+        ;
       }
-      else if ((uVar3 == 0x44f9bf2d) &&
-              (bVar4 = System_String__op_Equality(name,"Pause",(MethodInfo *)0x0), (char)bVar4 != '\0'))
+      else {
+        if (uVar3 != 0x785a8151) {
+label_181eec5cb:
+          pSVar4 = il2cpp_codegen_get_runtime_metadata(&"' in CustomLogicAudioSourceBuiltin not found");
+          str0 = il2cpp_codegen_get_runtime_metadata(&"Binding for '");
+          pSVar4 = System_String__Concat_1969b70(str0,name,pSVar4,(MethodInfo *)0x0);
+          klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_Exception);
+          __this_04 = (System_Exception_o *)il2cpp_codegen_object_new(klass);
+          System_Exception___ctor_1b6abf0(__this_04,pSVar4,(MethodInfo *)0x0);
+          pMVar5 = il2cpp_codegen_get_runtime_metadata
+                             (&
+                              MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_CreateMemberBinding
+                             );
+          il2cpp_codegen_raise_exception((Il2CppObject *)__this_04,pMVar5);
+        }
+        bVar2 = System_String__op_Equality(name,"Pitch",(MethodInfo *)0x0);
+        if (!bVar2) goto label_181eec5cb;
+        if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+        }
+        if (Il2CppMethodInitialized_184345337 == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____getter_4
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____setter_4
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+          Il2CppMethodInitialized_184345337 = '\x01';
+        }
+        __this = il2cpp_codegen_object_new
+                           ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+        System_Func_object__object____ctor
+                  ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+                   (intptr_t)
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____getter_4
+                   ,(MethodInfo_16E67D0 *)0x0);
+        __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+        pMVar5 = 
+        MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____setter_4
+        ;
+      }
+    }
+    else {
+      if (uVar3 != 0xdfe4e404) {
+        if (uVar3 == 0xe4b35065) {
+          bVar2 = System_String__op_Equality(name,"IsPlaying",(MethodInfo *)0x0);
+          if (!bVar2) goto label_181eec5cb;
+          if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor ==
+              0) {
+            il2cpp_codegen_runtime_class_init
+                      ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+          }
+          if (Il2CppMethodInitialized_184345338 == '\0') {
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&
+                       MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__IsPlaying_g____gette
+                      );
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+            il2cpp_codegen_initialize_runtime_metadata
+                      (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+            Il2CppMethodInitialized_184345338 = '\x01';
+          }
+          __this = il2cpp_codegen_object_new
+                             ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+          System_Func_object__object____ctor
+                    ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+                     (intptr_t)
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__IsPlaying_g____gette
+                     ,(MethodInfo_16E67D0 *)0x0);
+          __this_02 = il2cpp_codegen_object_new
+                                ((Il2CppClass *)
+                                 TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+          __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)0x0;
+          goto label_181eec017;
+        }
+        if (uVar3 != 0xf0f90de3) goto label_181eec5cb;
+        bVar2 = System_String__op_Equality(name,"PlayDelayed",(MethodInfo *)0x0);
+        if (!bVar2) goto label_181eec5cb;
+        if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0)
+        {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+        }
+        if (Il2CppMethodInitialized_18434533a == '\0') {
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&
+                     MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__PlayDelayed_b__7_0
+                    );
+          il2cpp_codegen_initialize_runtime_metadata
+                    (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+          Il2CppMethodInitialized_18434533a = '\x01';
+        }
+        if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor ==
+            0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+        }
+        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0;
+        if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181eec597;
+        if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor ==
+            0) {
+          il2cpp_codegen_runtime_class_init
+                    ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+        }
+        pIVar1 = (Il2CppObject *)
+                 TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9;
+        __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                    il2cpp_codegen_object_new
+                              ((Il2CppClass *)
+                               TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+        System_Func_object__object__object____ctor
+                  (__this_01,pIVar1,
+                   (intptr_t)
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__PlayDelayed_b__7_0
+                   ,(MethodInfo *)0x0);
+        TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0 =
+             (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this_01;
+        targetAddress =
+             &TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0;
+        goto label_181eec58f;
+      }
+      bVar2 = System_String__op_Equality(name,"Time",(MethodInfo *)0x0);
+      if (!bVar2) goto label_181eec5cb;
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+      }
+      if (Il2CppMethodInitialized_184345336 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____getter_3_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____setter_3_1
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object)
+        ;
+        Il2CppMethodInitialized_184345336 = '\x01';
+      }
+      __this = il2cpp_codegen_object_new
+                         ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+      System_Func_object__object____ctor
+                ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____getter_3_0
+                 ,(MethodInfo_16E67D0 *)0x0);
+      __this_00 = (Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+      pMVar5 = 
+      MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____setter_3_1
+      ;
+    }
+    System_Action_object__object____ctor
+              (__this_00,(Il2CppObject *)0x0,(intptr_t)pMVar5,(MethodInfo *)0x0);
+    __this_02 = il2cpp_codegen_object_new
+                          ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin
+                          );
+label_181eec017:
+    CustomLogic_CLPropertyBinding_object____ctor
+              ((CustomLogic_CLPropertyBinding_T__o *)__this_02,(System_Func_T__object__o *)__this,
+               (System_Action_T__object__o *)__this_00,
+               (MethodInfo_12B8EE0 *)
+               MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+    return (CustomLogic_ICLMemberBinding_o *)__this_02;
+  }
+  if (uVar3 < 0x44f9bf2e) {
+    if (uVar3 == 0x29ab6f83) {
+      bVar2 = System_String__op_Equality(name,"Play",(MethodInfo *)0x0);
+      if (!bVar2) goto label_181eec5cb;
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+      }
+      if (Il2CppMethodInitialized_184345339 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Play_b__6_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+        Il2CppMethodInitialized_184345339 = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
       {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057ac700 == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Pause_b__9_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057ac700 = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        else {
-          pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-        }
-        if (pSVar9 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar9 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x20) = pSVar9;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x20,pSVar9);
-        }
-        pCVar10 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor(pCVar10,pSVar9,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar10;
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
       }
-    }
-    else if (uVar3 == 0x4b7f7705) {
-      bVar4 = System_String__op_Equality(name,"Stop",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        if (g_data_057ac6ff == '\0') {
-          il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Stop_b__8_0);
-          il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-          g_data_057ac6ff = '\x01';
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        else {
-          iVar1 = *(int *)(TypeInfo_c + 0xe4);
-        }
-        if (iVar1 == 0) {
-          il2cpp_runtime_helper_02337ed0();
-          pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        else {
-          pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-        }
-        if (pSVar9 == (System_Func_T__object____object__o *)0x0) {
-          if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar9 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-          System_Func_object__object__object____ctor();
-          lVar2 = *(long *)(TypeInfo_c + 0xb8);
-          *(System_Func_T__object____object__o **)(lVar2 + 0x18) = pSVar9;
-          il2cpp_runtime_helper_022b4080(lVar2 + 0x18,pSVar9);
-        }
-        pCVar10 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        CustomLogic_CLMethodBinding_object____ctor(pCVar10,pSVar9,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        return (CustomLogic_ICLMemberBinding_o *)pCVar10;
+      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                  TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0;
+      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181eec597;
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
+      {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
       }
-    }
-    else if ((uVar3 == 0x7324416c) &&
-            (bVar4 = System_String__op_Equality(name,"Unpause",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057ac701 == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Unpause_b__10_0);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-        g_data_057ac701 = '\x01';
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      else {
-        iVar1 = *(int *)(TypeInfo_c + 0xe4);
-      }
-      if (iVar1 == 0) {
-        il2cpp_runtime_helper_02337ed0();
-        pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      else {
-        pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-      }
-      if (pSVar9 == (System_Func_T__object____object__o *)0x0) {
-        if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        pSVar9 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-        System_Func_object__object__object____ctor();
-        lVar2 = *(long *)(TypeInfo_c + 0xb8);
-        *(System_Func_T__object____object__o **)(lVar2 + 0x28) = pSVar9;
-        il2cpp_runtime_helper_022b4080(lVar2 + 0x28,pSVar9);
-      }
-      pCVar10 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLMethodBinding_object____ctor(pCVar10,pSVar9,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar10;
-    }
-  }
-  else if (uVar3 < 0x785a8152) {
-    if (uVar3 == 0x74f576af) {
-      bVar4 = System_String__op_Equality(name,"Volume",(MethodInfo *)0x0);
-      if ((char)bVar4 != '\0') {
-        if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        goto CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume;
-      }
-    }
-    else if ((uVar3 == 0x785a8151) &&
-            (bVar4 = System_String__op_Equality(name,"Pitch",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057ac6fb == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Pitch_g____getter_4_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Pitch_g____setter_4_1);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fb = '\x01';
-      }
-      pSVar6 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pSVar7 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-      System_Action_object__object____ctor();
-      pCVar8 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor(pCVar8,pSVar6,pSVar7,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar8;
-    }
-  }
-  else if (uVar3 == 0xdfe4e404) {
-    bVar4 = System_String__op_Equality(name,"Time",(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057ac6fa == '\0') {
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Time_g____getter_3_0);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Time_g____setter_3_1);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fa = '\x01';
-      }
-      pSVar6 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pSVar7 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-      System_Action_object__object____ctor();
-      pCVar8 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor(pCVar8,pSVar6,pSVar7,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar8;
-    }
-  }
-  else if (uVar3 == 0xe4b35065) {
-    bVar4 = System_String__op_Equality(name,"IsPlaying",(MethodInfo *)0x0);
-    if ((char)bVar4 != '\0') {
-      puStack_18 = &TypeInfo_Bindings;
-      if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-        puStack_18 = (undefined8 *)il2cpp_runtime_helper_02337ed0();
-      }
-      if (g_data_057ac6fc == '\0') {
-        il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__IsPlaying_g____getter_5);
-        il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-        il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-        g_data_057ac6fc = '\x01';
-      }
-      pSVar6 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-      System_Func_object__object____ctor();
-      pCVar8 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-      CustomLogic_CLPropertyBinding_object____ctor
-                (pCVar8,pSVar6,(System_Action_T__object__o *)0x0,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-      return (CustomLogic_ICLMemberBinding_o *)pCVar8;
-    }
-  }
-  else if ((uVar3 == 0xf0f90de3) &&
-          (bVar4 = System_String__op_Equality(name,"PlayDelayed",(MethodInfo *)0x0), (char)bVar4 != '\0')) {
-    if (*(int *)(TypeInfo_Bindings + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (g_data_057ac6fe == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PlayDelayed_b__7_0);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-      g_data_057ac6fe = '\x01';
-      iVar1 = *(int *)(TypeInfo_c + 0xe4);
+      pIVar1 = (Il2CppObject *)
+               TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9;
+      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this_01,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Play_b__6_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0 =
+           (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this_01;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0;
     }
     else {
-      iVar1 = *(int *)(TypeInfo_c + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-    }
-    else {
-      pSVar9 = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-    }
-    if (pSVar9 == (System_Func_T__object____object__o *)0x0) {
-      if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+      if (uVar3 != 0x44f9bf2d) goto label_181eec5cb;
+      bVar2 = System_String__op_Equality(name,"Pause",(MethodInfo *)0x0);
+      if (!bVar2) goto label_181eec5cb;
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
       }
-      pSVar9 = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-      System_Func_object__object__object____ctor();
-      lVar2 = *(long *)(TypeInfo_c + 0xb8);
-      *(System_Func_T__object____object__o **)(lVar2 + 0x10) = pSVar9;
-      il2cpp_runtime_helper_022b4080(lVar2 + 0x10,pSVar9);
+      if (Il2CppMethodInitialized_18434533c == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&
+                   MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Pause_b__9_0
+                  );
+        il2cpp_codegen_initialize_runtime_metadata
+                  (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+        Il2CppMethodInitialized_18434533c = '\x01';
+      }
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
+      {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+      }
+      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                  TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0;
+      if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181eec597;
+      if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0)
+      {
+        il2cpp_codegen_runtime_class_init
+                  ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+      }
+      pIVar1 = (Il2CppObject *)
+               TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9;
+      __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                  il2cpp_codegen_object_new
+                            ((Il2CppClass *)
+                             TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+      System_Func_object__object__object____ctor
+                (__this_01,pIVar1,
+                 (intptr_t)
+                 MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Pause_b__9_0
+                 ,(MethodInfo *)0x0);
+      TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0 =
+           (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this_01;
+      targetAddress = &TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0;
     }
-    pCVar10 = (CustomLogic_CLMethodBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    CustomLogic_CLMethodBinding_object____ctor(pCVar10,pSVar9,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    return (CustomLogic_ICLMemberBinding_o *)pCVar10;
   }
-  str0 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"Binding for '");
-  str2 = (System_String_o *)il2cpp_runtime_helper_023445d0(&"' in CustomLogicAudioSourceBuiltin not found");
-  unaff_R14 = System_String__Concat_3af7150(str0,name,str2,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&TypeInfo_Exception);
-  unaff_RBX = (System_Exception_o *)il2cpp_runtime_helper_023052d0(uVar5);
-  System_Exception___ctor_3cf6120(unaff_RBX,unaff_R14,(MethodInfo *)0x0);
-  uVar5 = il2cpp_runtime_helper_023445d0(&MethodInfo_ICLMemberBinding_CreateMemberBinding);
-  il2cpp_runtime_helper_022b2b10(unaff_RBX,uVar5);
-  register0x00000020 = (BADSPACEBASE *)&puStack_18;
-CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume:
-  *(undefined8 *)((long)register0x00000020 + -8) = unaff_R15;
-  *(System_String_o **)((long)register0x00000020 + -0x10) = unaff_R14;
-  *(System_Exception_o **)((long)register0x00000020 + -0x18) = unaff_RBX;
-  if (g_data_057ac6f9 == '\0') {
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e500a;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e5016;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Volume_g____getter_2_0);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e5022;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Volume_g____setter_2_1);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e502e;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e503a;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e5046;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6f9 = '\x01';
+  else if (uVar3 == 0x4b7f7705) {
+    bVar2 = System_String__op_Equality(name,"Stop",(MethodInfo *)0x0);
+    if (!bVar2) goto label_181eec5cb;
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+    }
+    if (Il2CppMethodInitialized_18434533b == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&
+                 MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Stop_b__8_0
+                );
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+      Il2CppMethodInitialized_18434533b = '\x01';
+    }
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+    }
+    __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0;
+    if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181eec597;
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+    }
+    pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this_01,pIVar1,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Stop_b__8_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this_01;
+    targetAddress = &TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0;
   }
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e505c;
-  pSVar6 = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e5075;
-  System_Func_object__object____ctor();
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e5084;
-  pSVar7 = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e509d;
-  System_Action_object__object____ctor();
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e50ac;
-  pCVar8 = (CustomLogic_CLPropertyBinding_T__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-  *(undefined8 *)((long)register0x00000020 + -0x20) = 0x40e50c7;
-  CustomLogic_CLPropertyBinding_object____ctor(pCVar8,pSVar6,pSVar7,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return (CustomLogic_ICLMemberBinding_o *)pCVar8;
+  else {
+    if (uVar3 != 0x7324416c) goto label_181eec5cb;
+    bVar2 = System_String__op_Equality(name,"Unpause",(MethodInfo *)0x0);
+    if (!bVar2) goto label_181eec5cb;
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+    }
+    if (Il2CppMethodInitialized_18434533d == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+      il2cpp_codegen_initialize_runtime_metadata
+                (&
+                 MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Unpause_b__10_0
+                );
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+      Il2CppMethodInitialized_18434533d = '\x01';
+    }
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+    }
+    __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0;
+    if (__this_01 != (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) goto label_181eec597;
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
+    }
+    pIVar1 = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this_01 = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+                il2cpp_codegen_object_new
+                          ((Il2CppClass *)
+                           TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    System_Func_object__object__object____ctor
+              (__this_01,pIVar1,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Unpause_b__10_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this_01;
+    targetAddress = &TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0;
+  }
+label_181eec58f:
+  Il2CppCodeGenWriteBarrier(targetAddress,__this_01);
+label_181eec597:
+  __this_03 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_03,(System_String_o *)__this_01,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_ICLMemberBinding_o *)__this_03;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreatePropertyBinding__Volume
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume (const MethodInfo* method);
-// 0x40e4ff0
+// 0x181efea40
 
 CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Volume(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  System_Action_T__object__o *setter;
-  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  System_Func_CustomLogicAudioSourceBuiltin__object__o *__this;
+  System_Action_CustomLogicAudioSourceBuiltin__object__o *__this_00;
+  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this_01;
   
-  if (g_data_057ac6f9 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Volume_g____getter_2_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Volume_g____setter_2_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6f9 = '\x01';
+  if (Il2CppMethodInitialized_184345335 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____getter_2
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____setter_2
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+    Il2CppMethodInitialized_184345335 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  System_Func_object__object____ctor();
-  setter = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-  System_Action_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____getter_2
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+  System_Action_object__object____ctor
+            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
+             (Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Volume_g____setter_2
+             ,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,setter,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)__this_00,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor
+            );
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreatePropertyBinding__Time
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Time (const MethodInfo* method);
-// 0x40e50d0
+// 0x181efe630
 
 CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Time(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  System_Action_T__object__o *setter;
-  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  System_Func_CustomLogicAudioSourceBuiltin__object__o *__this;
+  System_Action_CustomLogicAudioSourceBuiltin__object__o *__this_00;
+  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this_01;
   
-  if (g_data_057ac6fa == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Time_g____getter_3_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Time_g____setter_3_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6fa = '\x01';
+  if (Il2CppMethodInitialized_184345336 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____getter_3_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____setter_3_1
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+    Il2CppMethodInitialized_184345336 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  System_Func_object__object____ctor();
-  setter = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-  System_Action_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____getter_3_0
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+  System_Action_object__object____ctor
+            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
+             (Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Time_g____setter_3_1
+             ,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,setter,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)__this_00,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor
+            );
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreatePropertyBinding__Pitch
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Pitch (const MethodInfo* method);
-// 0x40e51b0
+// 0x181efd050
 
 CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__Pitch(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  System_Action_T__object__o *setter;
-  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  System_Func_CustomLogicAudioSourceBuiltin__object__o *__this;
+  System_Action_CustomLogicAudioSourceBuiltin__object__o *__this_00;
+  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this_01;
   
-  if (g_data_057ac6fb == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__Pitch_g____getter_4_0);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void___CreatePropertyBinding__Pitch_g____setter_4_1);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6fb = '\x01';
+  if (Il2CppMethodInitialized_184345337 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____getter_4
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____setter_4
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+    Il2CppMethodInitialized_184345337 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  System_Func_object__object____ctor();
-  setter = (System_Action_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_CustomLogicAudioSourceBuiltin_object);
-  System_Action_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____getter_4
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_System_Action_CustomLogicAudioSourceBuiltin_object);
+  System_Action_object__object____ctor
+            ((Mono_Security_Cryptography_RSAManaged_KeyGeneratedEventHandler_1_o *)__this_00,
+             (Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__Pitch_g____setter_4
+             ,(MethodInfo *)0x0);
+  __this_01 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,setter,MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_01,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)__this_00,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor
+            );
+  return __this_01;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreatePropertyBinding__IsPlaying
 // il2cpp: CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__IsPlaying (const MethodInfo* method);
-// 0x40e5290
+// 0x181efc4c0
 
 CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreatePropertyBinding__IsPlaying(MethodInfo *method)
 
 {
-  System_Func_T__object__o *getter;
-  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  System_Func_CustomLogicAudioSourceBuiltin__object__o *__this;
+  CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *__this_00;
   
-  if (g_data_057ac6fc == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreatePropertyBinding__IsPlaying_g____getter_5);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-    g_data_057ac6fc = '\x01';
+  if (Il2CppMethodInitialized_184345338 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__IsPlaying_g____gette
+              );
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object);
+    Il2CppMethodInitialized_184345338 = '\x01';
   }
-  getter = (System_Func_T__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object);
-  System_Func_object__object____ctor();
-  __this = (CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object)
+  ;
+  System_Xml_Linq_XHashtable_ExtractKeyDelegate_object____ctor
+            ((System_Xml_Linq_XHashtable_ExtractKeyDelegate_TValue__o *)__this,(Il2CppObject *)0x0,
+             (intptr_t)
+             MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___CreatePropertyBinding__IsPlaying_g____gette
+             ,(MethodInfo_16E67D0 *)0x0);
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin);
   CustomLogic_CLPropertyBinding_object____ctor
-            ((CustomLogic_CLPropertyBinding_T__o *)__this,getter,(System_Action_T__object__o *)0x0,
-             MethodInfo_CLPropertyBinding_1_CustomLogicAudioSourceBuiltin);
-  return __this;
+            ((CustomLogic_CLPropertyBinding_T__o *)__this_00,(System_Func_T__object__o *)__this,
+             (System_Action_T__object__o *)0x0,
+             (MethodInfo_12B8EE0 *)MethodInfo_CustomLogic_CLPropertyBinding_CustomLogicAudioSourceBuiltin_ctor
+            );
+  return __this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreateMethodBinding__Play
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Play (const MethodInfo* method);
-// 0x40e5330
+// 0x181ef79f0
 
 CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Play(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057ac6fd == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Play_b__6_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac6fd = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_184345339 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Play_b__6_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_184345339 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 8);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 8) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 8,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object)
+    ;
+    ExitGames_Client_Photon_SerializeStreamMethod___ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Play_b__6_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__6_0,__this)
+    ;
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreateMethodBinding__PlayDelayed
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__PlayDelayed (const MethodInfo* method);
-// 0x40e5480
+// 0x181ef78d0
 
 CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__PlayDelayed(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057ac6fe == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__PlayDelayed_b__7_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac6fe = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434533a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__PlayDelayed_b__7_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_18434533a = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x10);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x10) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x10,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object)
+    ;
+    ExitGames_Client_Photon_SerializeStreamMethod___ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__PlayDelayed_b__7_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__7_0,__this)
+    ;
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreateMethodBinding__Stop
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Stop (const MethodInfo* method);
-// 0x40e55d0
+// 0x181ef96c0
 
 CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Stop(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057ac6ff == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Stop_b__8_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac6ff = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434533b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Stop_b__8_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_18434533b = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x18);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x18) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x18,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object)
+    ;
+    ExitGames_Client_Photon_SerializeStreamMethod___ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Stop_b__8_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__8_0,__this)
+    ;
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreateMethodBinding__Pause
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Pause (const MethodInfo* method);
-// 0x40e5720
+// 0x181ef7210
 
 CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Pause(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057ac700 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Pause_b__9_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac700 = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434533c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Pause_b__9_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_18434533c = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x20);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x20) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x20,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object)
+    ;
+    ExitGames_Client_Photon_SerializeStreamMethod___ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Pause_b__9_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__9_0,__this)
+    ;
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$__CreateMethodBinding__Unpause
 // il2cpp: CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Unpause (const MethodInfo* method);
-// 0x40e5870
+// 0x181ef97e0
 
 CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings____CreateMethodBinding__Unpause(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  System_Func_T__object____object__o *function;
-  CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *__this;
+  Il2CppObject *object;
+  ExitGames_Client_Photon_SerializeStreamMethod_o *__this;
+  System_Xml_Serialization_XmlTypeConvertorAttribute_o *__this_00;
   
-  if (g_data_057ac701 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Object___CreateMethodBinding__Unpause_b__10_0);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac701 = '\x01';
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if (Il2CppMethodInitialized_18434533d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Unpause_b__10_0
+              );
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c)
+    ;
+    Il2CppMethodInitialized_18434533d = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_c + 0xe4);
+  if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-  }
-  else {
-    function = *(System_Func_T__object____object__o **)(*(long *)(TypeInfo_c + 0xb8) + 0x28);
-  }
-  if (function == (System_Func_T__object____object__o *)0x0) {
-    if (*(int *)(TypeInfo_c + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+           TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0;
+  if (__this == (ExitGames_Client_Photon_SerializeStreamMethod_o *)0x0) {
+    if ((TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init
+                ((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c);
     }
-    function = (System_Func_T__object____object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Func_CustomLogicAudioSourceBuiltin_object_object);
-    System_Func_object__object__object____ctor();
-    lVar2 = *(long *)(TypeInfo_c + 0xb8);
-    *(System_Func_T__object____object__o **)(lVar2 + 0x28) = function;
-    il2cpp_runtime_helper_022b4080(lVar2 + 0x28,function);
+    object = (Il2CppObject *)TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9
+    ;
+    __this = (ExitGames_Client_Photon_SerializeStreamMethod_o *)
+             il2cpp_codegen_object_new
+                       ((Il2CppClass *)TypeInfo_System_Func_CustomLogicAudioSourceBuiltin_object_array_object)
+    ;
+    ExitGames_Client_Photon_SerializeStreamMethod___ctor
+              (__this,object,
+               (intptr_t)
+               MethodInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c___CreateMethodBinding__Unpause_b__10_0
+               ,(MethodInfo *)0x0);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0 =
+         (System_Func_CustomLogicAudioSourceBuiltin__object____object__o *)__this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_c->static_fields->__9__10_0,__this
+              );
   }
-  __this = (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)il2cpp_runtime_helper_023052d0(TypeInfo_CLMethodBinding_CustomLogicAudioSourceBuiltin);
-  CustomLogic_CLMethodBinding_object____ctor((CustomLogic_CLMethodBinding_T__o *)__this,function,MethodInfo_CLMethodBinding_1_CustomLogicAudioSourceBuiltin)
-  ;
-  return __this;
+  __this_00 = (System_Xml_Serialization_XmlTypeConvertorAttribute_o *)
+              il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin);
+  CustomLogic_CLMethodBinding_object____ctor
+            (__this_00,(System_String_o *)__this,
+             MethodInfo_CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin_ctor);
+  return (CustomLogic_CLMethodBinding_CustomLogicAudioSourceBuiltin__o *)__this_00;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$.cctor
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___cctor (const MethodInfo* method);
-// 0x40e59c0
+// 0x181f00f80
 
 void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings___cctor(MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  System_Collections_Generic_HashSet_object__o *__this_00;
-  Il2CppObject *__this_01;
-  MethodInfo_33E0570 *obj;
-  MethodInfo_24EED20 *obj_00;
-  MethodInfo_24EED20 *obj_01;
-  System_Collections_Generic_HashSet_object__o *pSVar2;
-  long lVar3;
-  MethodInfo_33E0570 *pMVar4;
-  long lVar5;
-  MethodInfo_24EED20 *pMVar6;
-  float fVar7;
-  undefined8 uStack_80;
-  undefined8 uStack_78;
-  long lStack_70;
-  MethodInfo_24EED20 *pMStack_68;
-  undefined8 uStack_60;
-  undefined8 uStack_58;
-  long lStack_50;
-  MethodInfo_33E0570 *pMStack_48;
-  undefined8 uStack_40;
-  undefined8 uStack_38;
-  System_Collections_Generic_HashSet_object__o *pSStack_30;
-  undefined8 uStack_20;
+  System_Collections_Generic_HashSet_string__o *__this;
   
-  if (g_data_057ac702 == '\0') {
-    uStack_20 = 0x40e59dd;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Bindings);
-    uStack_20 = 0x40e59e9;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e59f5;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_HashSet_1_System_String);
-    uStack_20 = 0x40e5a01;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_HashSet_string);
-    uStack_20 = 0x40e5a0d;
-    il2cpp_runtime_helper_023445d0(&"Unpause");
-    uStack_20 = 0x40e5a19;
-    il2cpp_runtime_helper_023445d0(&"Play");
-    uStack_20 = 0x40e5a25;
-    il2cpp_runtime_helper_023445d0(&"PlayDelayed");
-    uStack_20 = 0x40e5a31;
-    il2cpp_runtime_helper_023445d0(&"Time");
-    uStack_20 = 0x40e5a3d;
-    il2cpp_runtime_helper_023445d0(&"Pitch");
-    uStack_20 = 0x40e5a49;
-    il2cpp_runtime_helper_023445d0(&"Stop");
-    uStack_20 = 0x40e5a55;
-    il2cpp_runtime_helper_023445d0(&"Pause");
-    uStack_20 = 0x40e5a61;
-    il2cpp_runtime_helper_023445d0(&"IsPlaying");
-    uStack_20 = 0x40e5a6d;
-    il2cpp_runtime_helper_023445d0(&"Volume");
-    g_data_057ac702 = '\x01';
+  if (Il2CppMethodInitialized_18434533e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_HashSet_string);
+    il2cpp_codegen_initialize_runtime_metadata(&"Unpause");
+    il2cpp_codegen_initialize_runtime_metadata(&"Play");
+    il2cpp_codegen_initialize_runtime_metadata(&"PlayDelayed");
+    il2cpp_codegen_initialize_runtime_metadata(&"Time");
+    il2cpp_codegen_initialize_runtime_metadata(&"Pitch");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stop");
+    il2cpp_codegen_initialize_runtime_metadata(&"Pause");
+    il2cpp_codegen_initialize_runtime_metadata(&"IsPlaying");
+    il2cpp_codegen_initialize_runtime_metadata(&"Volume");
+    Il2CppMethodInitialized_18434533e = '\x01';
   }
-  uStack_20 = 0x40e5a83;
-  __this_00 = (System_Collections_Generic_HashSet_object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_HashSet_string);
-  uStack_20 = 0x40e5a98;
-  obj = MethodInfo_HashSet_1_System_String;
-  pSVar2 = __this_00;
-  System_Collections_Generic_HashSet_object____ctor(__this_00,MethodInfo_HashSet_1_System_String);
-  if (__this_00 != (System_Collections_Generic_HashSet_object__o *)0x0) {
-    uStack_20 = 0x40e5abd;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Volume",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5ad2;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Time",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5ae7;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Pitch",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5afc;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"IsPlaying",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5b11;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Play",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5b26;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"PlayDelayed",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5b3b;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Stop",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5b50;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Pause",MethodInfo_Boolean_Add);
-    uStack_20 = 0x40e5b65;
-    System_Collections_Generic_HashSet_object___Add(__this_00,"Unpause",MethodInfo_Boolean_Add);
-    **(undefined8 **)(TypeInfo_Bindings + 0xb8) = __this_00;
-    il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_Bindings + 0xb8),__this_00);
+  __this = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_HashSet_string);
+  System_Collections_Generic_HashSet_object____ctor
+            ((System_Collections_Generic_HashSet_object__o *)__this,
+             (MethodInfo_176CE80 *)MethodInfo_System_Collections_Generic_HashSet_string_ctor);
+  if (__this != (System_Collections_Generic_HashSet_string__o *)0x0) {
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Volume",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Time",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Pitch",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"IsPlaying",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Play",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"PlayDelayed",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Stop",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Pause",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    System_Collections_Generic_HashSet_object___Add
+              ((System_Collections_Generic_HashSet_object__o *)__this,(Il2CppObject *)"Unpause",
+               (MethodInfo_1757CE0 *)MethodInfo_System_Collections_Generic_HashSet_string_Add);
+    TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->static_fields->MemberNames = __this;
+    Il2CppCodeGenWriteBarrier
+              (&TypeInfo_CustomLogic_CustomLogicAudioSourceBuiltin_Bindings->static_fields->MemberNames,__this
+              );
     return;
   }
-  uStack_20 = 0x40e5b97;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if ((pSVar2 != (System_Collections_Generic_HashSet_object__o *)0x0) &&
-     (__this = *(UnityEngine_AudioSource_o **)&(pSVar2->fields)._version,
-     __this != (UnityEngine_AudioSource_o *)0x0)) {
-    fVar7 = UnityEngine_AudioSource__get_volume(__this,(MethodInfo *)0x0);
-    uStack_20 = CONCAT44(fVar7,(undefined4)uStack_20);
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_20 + 4);
-    return;
-  }
-  lVar3 = 0;
-  uStack_38 = il2cpp_runtime_helper_022b2c90();
-  pSStack_30 = __this_00;
-  if (g_data_057ac703 == '\0') {
-    uStack_40 = 0x40e5bff;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_40 = 0x40e5c0b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac703 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_40 = 0x40e5c2a;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_40 = 0x40e5c3c;
-  obj_00 = MethodInfo_Single_ConvertTo_Single;
-  pMVar4 = obj;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (pMVar4 = (MethodInfo_33E0570 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_volume(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar7,(MethodInfo *)0x0)
-    ;
-    return;
-  }
-  uStack_40 = 0x40e5c5d;
-  uStack_40 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar4 != (MethodInfo_33E0570 *)0x0) && (pMVar4->rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    pMStack_48 = (MethodInfo_33E0570 *)0x40e5c76;
-    fVar7 = UnityEngine_AudioSource__get_time
-                      ((UnityEngine_AudioSource_o *)pMVar4->rgctx_data,(MethodInfo *)0x0);
-    uStack_40 = CONCAT44(fVar7,(undefined4)uStack_40);
-    pMStack_48 = (MethodInfo_33E0570 *)0x40e5c91;
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_40 + 4);
-    return;
-  }
-  lVar5 = 0;
-  pMStack_48 = (MethodInfo_33E0570 *)0x40e5c98;
-  uStack_58 = il2cpp_runtime_helper_022b2c90();
-  lStack_50 = lVar3;
-  pMStack_48 = obj;
-  if (g_data_057ac704 == '\0') {
-    uStack_60 = 0x40e5cbf;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_60 = 0x40e5ccb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac704 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_60 = 0x40e5cea;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_60 = 0x40e5cfc;
-  obj_01 = MethodInfo_Single_ConvertTo_Single;
-  pMVar6 = obj_00;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj_00,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar5 != 0) &&
-     (pMVar6 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar5 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_time(*(UnityEngine_AudioSource_o **)(lVar5 + 0x38),fVar7,(MethodInfo *)0x0);
-    return;
-  }
-  uStack_60 = 0x40e5d1d;
-  uStack_60 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar6 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)pMVar6->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    pMStack_68 = (MethodInfo_24EED20 *)0x40e5d36;
-    fVar7 = UnityEngine_AudioSource__get_pitch
-                      ((UnityEngine_AudioSource_o *)pMVar6->rgctx_data,(MethodInfo *)0x0);
-    uStack_60 = CONCAT44(fVar7,(undefined4)uStack_60);
-    pMStack_68 = (MethodInfo_24EED20 *)0x40e5d51;
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_60 + 4);
-    return;
-  }
-  lVar3 = 0;
-  pMStack_68 = (MethodInfo_24EED20 *)0x40e5d58;
-  uStack_78 = il2cpp_runtime_helper_022b2c90();
-  lStack_70 = lVar5;
-  pMStack_68 = obj_00;
-  if (g_data_057ac705 == '\0') {
-    uStack_80 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_80 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_80 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_80 = 0x40e5dbc;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj_01,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (obj_01 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar7,(MethodInfo *)0x0);
-    return;
-  }
-  uStack_80 = 0x40e5ddd;
-  uStack_80 = il2cpp_runtime_helper_022b2c90();
-  if ((obj_01 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)obj_01->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)obj_01->rgctx_data,(MethodInfo *)0x0);
-    uStack_80 = CONCAT17((char)bVar1,(undefined7)uStack_80);
-    il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_80 + 7);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  __this_01 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this_01,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this_01;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this_01);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Volume>g____getter|2_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Volume_g____getter_2_0 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, const MethodInfo* method);
-// 0x40e5ba0
+// 0x181ef3bb0
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Volume_g____getter_2_0
@@ -1781,302 +1316,52 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Vo
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  Il2CppObject *extraout_RAX_01;
-  MethodInfo_24EED20 *obj;
-  MethodInfo_24EED20 *obj_00;
-  long lVar3;
-  MethodInfo *pMVar4;
-  long lVar5;
-  MethodInfo_24EED20 *pMVar6;
-  float fVar7;
-  undefined8 uStack_68;
-  undefined8 uStack_60;
-  long lStack_58;
-  MethodInfo_24EED20 *pMStack_50;
-  undefined8 uStack_48;
-  undefined8 uStack_40;
-  long lStack_38;
-  MethodInfo *pMStack_30;
-  undefined8 uStack_28;
-  undefined8 uStack_20;
-  undefined1 auStack_4 [4];
+  Il2CppObject *pIVar1;
+  float local_res8 [8];
   
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
      (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__get_volume(__this,(MethodInfo *)0x0);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,auStack_4);
-    return pIVar2;
+    local_res8[0] = UnityEngine_AudioSource__get_volume(__this,(MethodInfo *)0x0);
+    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+    return pIVar1;
   }
-  lVar3 = 0;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac703 == '\0') {
-    uStack_28 = 0x40e5bff;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_28 = 0x40e5c0b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac703 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_28 = 0x40e5c2a;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_28 = 0x40e5c3c;
-  obj = MethodInfo_Single_ConvertTo_Single;
-  pMVar4 = method;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)method,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (pMVar4 = (MethodInfo *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_volume(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar7,(MethodInfo *)0x0)
-    ;
-    return extraout_RAX;
-  }
-  uStack_28 = 0x40e5c5d;
-  uStack_28 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar4 != (MethodInfo *)0x0) && ((pMVar4->field7_0x38).rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    pMStack_30 = (MethodInfo *)0x40e5c76;
-    fVar7 = UnityEngine_AudioSource__get_time
-                      ((UnityEngine_AudioSource_o *)(pMVar4->field7_0x38).rgctx_data,(MethodInfo *)0x0);
-    uStack_28 = CONCAT44(fVar7,(undefined4)uStack_28);
-    pMStack_30 = (MethodInfo *)0x40e5c91;
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_28 + 4);
-    return pIVar2;
-  }
-  lVar5 = 0;
-  pMStack_30 = (MethodInfo *)0x40e5c98;
-  uStack_40 = il2cpp_runtime_helper_022b2c90();
-  lStack_38 = lVar3;
-  pMStack_30 = method;
-  if (g_data_057ac704 == '\0') {
-    uStack_48 = 0x40e5cbf;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_48 = 0x40e5ccb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac704 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_48 = 0x40e5cea;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_48 = 0x40e5cfc;
-  obj_00 = MethodInfo_Single_ConvertTo_Single;
-  pMVar6 = obj;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar5 != 0) &&
-     (pMVar6 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar5 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_time(*(UnityEngine_AudioSource_o **)(lVar5 + 0x38),fVar7,(MethodInfo *)0x0);
-    return extraout_RAX_00;
-  }
-  uStack_48 = 0x40e5d1d;
-  uStack_48 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar6 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)pMVar6->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    pMStack_50 = (MethodInfo_24EED20 *)0x40e5d36;
-    fVar7 = UnityEngine_AudioSource__get_pitch
-                      ((UnityEngine_AudioSource_o *)pMVar6->rgctx_data,(MethodInfo *)0x0);
-    uStack_48 = CONCAT44(fVar7,(undefined4)uStack_48);
-    pMStack_50 = (MethodInfo_24EED20 *)0x40e5d51;
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_48 + 4);
-    return pIVar2;
-  }
-  lVar3 = 0;
-  pMStack_50 = (MethodInfo_24EED20 *)0x40e5d58;
-  uStack_60 = il2cpp_runtime_helper_022b2c90();
-  lStack_58 = lVar5;
-  pMStack_50 = obj;
-  if (g_data_057ac705 == '\0') {
-    uStack_68 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_68 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_68 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_68 = 0x40e5dbc;
-  fVar7 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj_00,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (obj_00 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar7,(MethodInfo *)0x0);
-    return extraout_RAX_01;
-  }
-  uStack_68 = 0x40e5ddd;
-  uStack_68 = il2cpp_runtime_helper_022b2c90();
-  if ((obj_00 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)obj_00->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)obj_00->rgctx_data,(MethodInfo *)0x0);
-    uStack_68 = CONCAT17((char)bVar1,(undefined7)uStack_68);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_68 + 7);
-    return pIVar2;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return pIVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Volume>g____setter|2_1
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Volume_g____setter_2_1 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x40e5be0
+// 0x181ef3bf0
 
 void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Volume_g____setter_2_1
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  MethodInfo_24EED20 *obj;
-  MethodInfo_24EED20 *obj_00;
-  long lVar3;
-  MethodInfo_24EED20 *pMVar4;
-  long lVar5;
-  float fVar6;
-  undefined8 uStack_60;
-  undefined8 uStack_58;
-  long lStack_50;
-  MethodInfo_24EED20 *pMStack_48;
-  undefined8 uStack_40;
-  undefined8 uStack_38;
-  CustomLogic_CustomLogicAudioSourceBuiltin_o *pCStack_30;
-  Il2CppObject *pIStack_28;
-  undefined8 uStack_20;
+  float value;
   
-  if (g_data_057ac703 == '\0') {
-    uStack_20 = 0x40e5bff;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_20 = 0x40e5c0b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac703 = '\x01';
+  if (Il2CppMethodInitialized_18434533f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_18434533f = '\x01';
   }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_20 = 0x40e5c2a;
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  uStack_20 = 0x40e5c3c;
-  obj = MethodInfo_Single_ConvertTo_Single;
-  pIVar2 = __v;
-  fVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_(__v,MethodInfo_Single_ConvertTo_Single);
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
-     (__this = (__i->fields).Value, pIVar2 = (Il2CppObject *)0x0, __this != (UnityEngine_AudioSource_o *)0x0))
-  {
-    UnityEngine_AudioSource__set_volume(__this,fVar6,(MethodInfo *)0x0);
+     (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__set_volume(__this,value,(MethodInfo *)0x0);
     return;
   }
-  uStack_20 = 0x40e5c5d;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if ((pIVar2 != (Il2CppObject *)0x0) && (pIVar2[3].monitor != (UnityEngine_AudioSource_o *)0x0)) {
-    pIStack_28 = (Il2CppObject *)0x40e5c76;
-    fVar6 = UnityEngine_AudioSource__get_time(pIVar2[3].monitor,(MethodInfo *)0x0);
-    uStack_20 = CONCAT44(fVar6,(undefined4)uStack_20);
-    pIStack_28 = (Il2CppObject *)0x40e5c91;
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_20 + 4);
-    return;
-  }
-  lVar3 = 0;
-  pIStack_28 = (Il2CppObject *)0x40e5c98;
-  uStack_38 = il2cpp_runtime_helper_022b2c90();
-  pCStack_30 = __i;
-  pIStack_28 = __v;
-  if (g_data_057ac704 == '\0') {
-    uStack_40 = 0x40e5cbf;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_40 = 0x40e5ccb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac704 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_40 = 0x40e5cea;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_40 = 0x40e5cfc;
-  obj_00 = MethodInfo_Single_ConvertTo_Single;
-  pMVar4 = obj;
-  fVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (pMVar4 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_time(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar6,(MethodInfo *)0x0);
-    return;
-  }
-  uStack_40 = 0x40e5d1d;
-  uStack_40 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar4 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)pMVar4->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    pMStack_48 = (MethodInfo_24EED20 *)0x40e5d36;
-    fVar6 = UnityEngine_AudioSource__get_pitch
-                      ((UnityEngine_AudioSource_o *)pMVar4->rgctx_data,(MethodInfo *)0x0);
-    uStack_40 = CONCAT44(fVar6,(undefined4)uStack_40);
-    pMStack_48 = (MethodInfo_24EED20 *)0x40e5d51;
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_40 + 4);
-    return;
-  }
-  lVar5 = 0;
-  pMStack_48 = (MethodInfo_24EED20 *)0x40e5d58;
-  uStack_58 = il2cpp_runtime_helper_022b2c90();
-  lStack_50 = lVar3;
-  pMStack_48 = obj;
-  if (g_data_057ac705 == '\0') {
-    uStack_60 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_60 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_60 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_60 = 0x40e5dbc;
-  fVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj_00,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar5 != 0) &&
-     (obj_00 = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar5 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar5 + 0x38),fVar6,(MethodInfo *)0x0);
-    return;
-  }
-  uStack_60 = 0x40e5ddd;
-  uStack_60 = il2cpp_runtime_helper_022b2c90();
-  if ((obj_00 != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)obj_00->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)obj_00->rgctx_data,(MethodInfo *)0x0);
-    uStack_60 = CONCAT17((char)bVar1,(undefined7)uStack_60);
-    il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_60 + 7);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Time>g____getter|3_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Time_g____getter_3_0 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, const MethodInfo* method);
-// 0x40e5c60
+// 0x181ef38a0
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Time_g____getter_3_0
@@ -2084,211 +1369,52 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Ti
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  Il2CppObject *extraout_RAX;
-  Il2CppObject *extraout_RAX_00;
-  MethodInfo_24EED20 *obj;
-  long lVar3;
-  MethodInfo *pMVar4;
-  long lVar5;
-  float fVar6;
-  undefined8 uStack_48;
-  undefined8 uStack_40;
-  long lStack_38;
-  MethodInfo *pMStack_30;
-  undefined8 uStack_28;
-  undefined8 uStack_20;
-  undefined1 auStack_4 [4];
+  Il2CppObject *pIVar1;
+  float local_res8 [8];
   
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
      (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__get_time(__this,(MethodInfo *)0x0);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,auStack_4);
-    return pIVar2;
+    local_res8[0] = UnityEngine_AudioSource__get_time(__this,(MethodInfo *)0x0);
+    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+    return pIVar1;
   }
-  lVar3 = 0;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac704 == '\0') {
-    uStack_28 = 0x40e5cbf;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_28 = 0x40e5ccb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac704 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_28 = 0x40e5cea;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_28 = 0x40e5cfc;
-  obj = MethodInfo_Single_ConvertTo_Single;
-  pMVar4 = method;
-  fVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)method,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (pMVar4 = (MethodInfo *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_time(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar6,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  uStack_28 = 0x40e5d1d;
-  uStack_28 = il2cpp_runtime_helper_022b2c90();
-  if ((pMVar4 != (MethodInfo *)0x0) && ((pMVar4->field7_0x38).rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    pMStack_30 = (MethodInfo *)0x40e5d36;
-    fVar6 = UnityEngine_AudioSource__get_pitch
-                      ((UnityEngine_AudioSource_o *)(pMVar4->field7_0x38).rgctx_data,(MethodInfo *)0x0);
-    uStack_28 = CONCAT44(fVar6,(undefined4)uStack_28);
-    pMStack_30 = (MethodInfo *)0x40e5d51;
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_28 + 4);
-    return pIVar2;
-  }
-  lVar5 = 0;
-  pMStack_30 = (MethodInfo *)0x40e5d58;
-  uStack_40 = il2cpp_runtime_helper_022b2c90();
-  lStack_38 = lVar3;
-  pMStack_30 = method;
-  if (g_data_057ac705 == '\0') {
-    uStack_48 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_48 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_48 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_48 = 0x40e5dbc;
-  fVar6 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar5 != 0) &&
-     (obj = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar5 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar5 + 0x38),fVar6,(MethodInfo *)0x0);
-    return extraout_RAX_00;
-  }
-  uStack_48 = 0x40e5ddd;
-  uStack_48 = il2cpp_runtime_helper_022b2c90();
-  if ((obj != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)obj->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)obj->rgctx_data,(MethodInfo *)0x0);
-    uStack_48 = CONCAT17((char)bVar1,(undefined7)uStack_48);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_48 + 7);
-    return pIVar2;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return pIVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Time>g____setter|3_1
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Time_g____setter_3_1 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x40e5ca0
+// 0x181ef38e0
 
 void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Time_g____setter_3_1
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  MethodInfo_24EED20 *obj;
-  long lVar3;
-  float fVar4;
-  undefined8 uStack_40;
-  undefined8 uStack_38;
-  CustomLogic_CustomLogicAudioSourceBuiltin_o *pCStack_30;
-  Il2CppObject *pIStack_28;
-  undefined8 uStack_20;
+  float value;
   
-  if (g_data_057ac704 == '\0') {
-    uStack_20 = 0x40e5cbf;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_20 = 0x40e5ccb;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac704 = '\x01';
+  if (Il2CppMethodInitialized_184345340 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184345340 = '\x01';
   }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_20 = 0x40e5cea;
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  uStack_20 = 0x40e5cfc;
-  obj = MethodInfo_Single_ConvertTo_Single;
-  pIVar2 = __v;
-  fVar4 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_(__v,MethodInfo_Single_ConvertTo_Single);
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
-     (__this = (__i->fields).Value, pIVar2 = (Il2CppObject *)0x0, __this != (UnityEngine_AudioSource_o *)0x0))
-  {
-    UnityEngine_AudioSource__set_time(__this,fVar4,(MethodInfo *)0x0);
+     (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
+    UnityEngine_AudioSource__set_time(__this,value,(MethodInfo *)0x0);
     return;
   }
-  uStack_20 = 0x40e5d1d;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if ((pIVar2 != (Il2CppObject *)0x0) && (pIVar2[3].monitor != (UnityEngine_AudioSource_o *)0x0)) {
-    pIStack_28 = (Il2CppObject *)0x40e5d36;
-    fVar4 = UnityEngine_AudioSource__get_pitch(pIVar2[3].monitor,(MethodInfo *)0x0);
-    uStack_20 = CONCAT44(fVar4,(undefined4)uStack_20);
-    pIStack_28 = (Il2CppObject *)0x40e5d51;
-    il2cpp_runtime_helper_02304f30(g_data_057b9be8,(long)&uStack_20 + 4);
-    return;
-  }
-  lVar3 = 0;
-  pIStack_28 = (Il2CppObject *)0x40e5d58;
-  uStack_38 = il2cpp_runtime_helper_022b2c90();
-  pCStack_30 = __i;
-  pIStack_28 = __v;
-  if (g_data_057ac705 == '\0') {
-    uStack_40 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_40 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_40 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_40 = 0x40e5dbc;
-  fVar4 = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)obj,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (obj = (MethodInfo_24EED20 *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),fVar4,(MethodInfo *)0x0);
-    return;
-  }
-  uStack_40 = 0x40e5ddd;
-  uStack_40 = il2cpp_runtime_helper_022b2c90();
-  if ((obj != (MethodInfo_24EED20 *)0x0) &&
-     ((UnityEngine_AudioSource_o *)obj->rgctx_data != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)obj->rgctx_data,(MethodInfo *)0x0);
-    uStack_40 = CONCAT17((char)bVar1,(undefined7)uStack_40);
-    il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_40 + 7);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Pitch>g____getter|4_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Pitch_g____getter_4_0 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, const MethodInfo* method);
-// 0x40e5d20
+// 0x181ef2750
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Pitch_g____getter_4_0
@@ -2296,120 +1422,52 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Pi
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *pIVar2;
-  Il2CppObject *extraout_RAX;
-  long lVar3;
-  float value;
-  undefined8 uStack_28;
-  undefined8 uStack_20;
-  undefined1 auStack_4 [4];
+  Il2CppObject *pIVar1;
+  float local_res8 [8];
   
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
      (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__get_pitch(__this,(MethodInfo *)0x0);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9be8,auStack_4);
-    return pIVar2;
+    local_res8[0] = UnityEngine_AudioSource__get_pitch(__this,(MethodInfo *)0x0);
+    pIVar1 = il2cpp_value_box(g_data_184354e38,local_res8);
+    return pIVar1;
   }
-  lVar3 = 0;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac705 == '\0') {
-    uStack_28 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_28 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
-  }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_28 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uStack_28 = 0x40e5dbc;
-  value = CustomLogic_CustomLogicEvaluator__ConvertTo_float_((Il2CppObject *)method,MethodInfo_Single_ConvertTo_Single);
-  if ((lVar3 != 0) &&
-     (method = (MethodInfo *)0x0,
-     *(UnityEngine_AudioSource_o **)(lVar3 + 0x38) != (UnityEngine_AudioSource_o *)0x0)) {
-    UnityEngine_AudioSource__set_pitch(*(UnityEngine_AudioSource_o **)(lVar3 + 0x38),value,(MethodInfo *)0x0);
-    return extraout_RAX;
-  }
-  uStack_28 = 0x40e5ddd;
-  uStack_28 = il2cpp_runtime_helper_022b2c90();
-  if ((method != (MethodInfo *)0x0) && ((method->field7_0x38).rgctx_data != (Il2CppRGCTXData *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying
-                      ((UnityEngine_AudioSource_o *)(method->field7_0x38).rgctx_data,(MethodInfo *)0x0);
-    uStack_28 = CONCAT17((char)bVar1,(undefined7)uStack_28);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_28 + 7);
-    return pIVar2;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return pIVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__Pitch>g____setter|4_1
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Pitch_g____setter_4_1 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, Il2CppObject* __v, const MethodInfo* method);
-// 0x40e5d60
+// 0x181ef2790
 
 void CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Pitch_g____setter_4_1
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__i,Il2CppObject *__v,MethodInfo *method)
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  Il2CppObject *__this_00;
   float value;
-  undefined8 uStack_20;
   
-  if (g_data_057ac705 == '\0') {
-    uStack_20 = 0x40e5d7f;
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Single_ConvertTo_Single);
-    uStack_20 = 0x40e5d8b;
-    il2cpp_runtime_helper_023445d0(&TypeInfo_CustomLogicEvaluator);
-    g_data_057ac705 = '\x01';
+  if (Il2CppMethodInitialized_184345341 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomLogic_CustomLogicEvaluator);
+    Il2CppMethodInitialized_184345341 = '\x01';
   }
-  if (*(int *)(TypeInfo_CustomLogicEvaluator + 0xe4) == 0) {
-    uStack_20 = 0x40e5daa;
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_CustomLogic_CustomLogicEvaluator->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomLogic_CustomLogicEvaluator);
   }
-  uStack_20 = 0x40e5dbc;
-  value = CustomLogic_CustomLogicEvaluator__ConvertTo_float_(__v,MethodInfo_Single_ConvertTo_Single);
+  value = CustomLogic_CustomLogicEvaluator__ConvertTo_float_
+                    (__v,(MethodInfo_66ED40 *)MethodInfo_CustomLogic_CustomLogicEvaluator_ConvertTo_float);
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
-     (__this = (__i->fields).Value, __v = (Il2CppObject *)0x0, __this != (UnityEngine_AudioSource_o *)0x0)) {
+     (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
     UnityEngine_AudioSource__set_pitch(__this,value,(MethodInfo *)0x0);
     return;
   }
-  uStack_20 = 0x40e5ddd;
-  uStack_20 = il2cpp_runtime_helper_022b2c90();
-  if ((__v != (Il2CppObject *)0x0) && (__v[3].monitor != (UnityEngine_AudioSource_o *)0x0)) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying(__v[3].monitor,(MethodInfo *)0x0);
-    uStack_20 = CONCAT17((char)bVar1,(undefined7)uStack_20);
-    il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_20 + 7);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = __this_00;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),__this_00);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin.Bindings$$<__CreatePropertyBinding__IsPlaying>g____getter|5_0
 // il2cpp: Il2CppObject* CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__IsPlaying_g____getter_5_0 (CustomLogic_CustomLogicAudioSourceBuiltin_o* __i, const MethodInfo* method);
-// 0x40e5de0
+// 0x181ef2060
 
 Il2CppObject *
 CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__IsPlaying_g____getter_5_0
@@ -2417,38 +1475,25 @@ CustomLogic_CustomLogicAudioSourceBuiltin_Bindings_____CreatePropertyBinding__Is
 
 {
   UnityEngine_AudioSource_o *__this;
-  bool_conflict bVar1;
-  undefined8 in_RAX;
-  Il2CppObject *pIVar2;
-  undefined8 uStack_8;
+  Il2CppObject *pIVar1;
+  undefined1 local_res8 [32];
   
   if ((__i != (CustomLogic_CustomLogicAudioSourceBuiltin_o *)0x0) &&
      (__this = (__i->fields).Value, __this != (UnityEngine_AudioSource_o *)0x0)) {
-    uStack_8 = in_RAX;
-    bVar1 = UnityEngine_AudioSource__get_isPlaying(__this,(MethodInfo *)0x0);
-    uStack_8 = CONCAT17((char)bVar1,(undefined7)uStack_8);
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_02304f30(g_data_057b9b98,(long)&uStack_8 + 7);
-    return pIVar2;
+    local_res8[0] = UnityEngine_AudioSource__get_isPlaying(__this,(MethodInfo *)0x0);
+    pIVar1 = il2cpp_value_box(g_data_184354de8,local_res8);
+    return pIVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac706 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_c);
-    g_data_057ac706 = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_c);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  **(undefined8 **)(TypeInfo_c + 0xb8) = pIVar2;
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_c + 0xb8),pIVar2);
-  return pIVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin___ctor (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4820
+// 0x181f01510
 
-void CustomLogic_CustomLogicAudioSourceBuiltin___ctor
-               (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
+void
+CustomLogic_CustomLogicAudioSourceBuiltin___ctor(CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, MethodInfo* method)
 
 {
   CustomLogic_BuiltinComponentInstance___ctor
@@ -2460,702 +1505,249 @@ void CustomLogic_CustomLogicAudioSourceBuiltin___ctor
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$.ctor
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin___ctor (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, CustomLogic_BuiltinClassInstance_o* owner, UnityEngine_AudioSource_o* audioSource, const MethodInfo* method);
-// 0x40e4830
+// 0x181f01ea0
 
-void CustomLogic_CustomLogicAudioSourceBuiltin___ctor_3fe4830
+void CustomLogic_CustomLogicAudioSourceBuiltin___ctor_1f01ea0
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,CustomLogic_BuiltinClassInstance_o *owner,
                UnityEngine_AudioSource_o *audioSource,MethodInfo *method)
 
 {
   UnityEngine_Component_o *pUVar1;
-  UnityEngine_Component_c *pUVar2;
+  UnityEngine_Component_o *pUVar2;
+  UnityEngine_Component_o *value;
   
-  if (g_data_057ac6f5 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_AudioSource);
-    g_data_057ac6f5 = '\x01';
+  if (Il2CppMethodInitialized_184345331 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_AudioSource);
+    Il2CppMethodInitialized_184345331 = '\x01';
   }
   CustomLogic_BuiltinComponentInstance___ctor
             ((CustomLogic_BuiltinComponentInstance_o *)__this,(UnityEngine_Component_o *)audioSource,
              (MethodInfo *)0x0);
   (__this->fields).OwnerBuiltin = owner;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).OwnerBuiltin,owner);
-  pUVar2 = TypeInfo_AudioSource;
+  Il2CppCodeGenWriteBarrier(&(__this->fields).OwnerBuiltin,owner);
   pUVar1 = (__this->fields).Component;
-  if (pUVar1 != (UnityEngine_Component_o *)0x0) {
-    if ((pUVar1->klass == TypeInfo_AudioSource) &&
-       ((__this->fields).Value = (UnityEngine_AudioSource_o *)pUVar1, pUVar1->klass == pUVar2))
-    goto label_040e48ab;
-    il2cpp_runtime_helper_022b2fd0(pUVar1,pUVar2);
+  value = (UnityEngine_Component_o *)0x0;
+  if (pUVar1 == (UnityEngine_Component_o *)0x0) {
+    (__this->fields).Value = (UnityEngine_AudioSource_o *)0x0;
   }
-  (__this->fields).Value = (UnityEngine_AudioSource_o *)0x0;
-label_040e48ab:
-  il2cpp_runtime_helper_022b4080(&(__this->fields).Value);
+  else {
+    pUVar2 = value;
+    if ((UnityEngine_AudioSource_c *)pUVar1->klass == TypeInfo_UnityEngine_AudioSource) {
+      pUVar2 = pUVar1;
+    }
+    if (pUVar2 == (UnityEngine_Component_o *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar1,TypeInfo_UnityEngine_AudioSource);
+    }
+    (__this->fields).Value = (UnityEngine_AudioSource_o *)pUVar2;
+    if ((UnityEngine_AudioSource_c *)pUVar1->klass == TypeInfo_UnityEngine_AudioSource) {
+      value = pUVar1;
+    }
+    if (value == (UnityEngine_Component_o *)0x0) {
+      il2cpp_codegen_raise_invalid_cast_exception(pUVar1,TypeInfo_UnityEngine_AudioSource);
+    }
+  }
+  Il2CppCodeGenWriteBarrier(&(__this->fields).Value,value);
   return;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_Volume
 // il2cpp: float CustomLogic_CustomLogicAudioSourceBuiltin__get_Volume (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e48c0
+// 0x181f01ff0
 
 float CustomLogic_CustomLogicAudioSourceBuiltin__get_Volume
                 (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float fVar2;
-  float extraout_XMM0_Da;
-  float extraout_XMM0_Da_00;
-  float extraout_XMM0_Da_01;
-  float extraout_XMM0_Da_02;
-  float extraout_XMM0_Da_03;
-  float extraout_XMM0_Da_04;
-  float extraout_XMM0_Da_05;
-  float extraout_XMM0_Da_06;
-  float extraout_XMM0_Da_07;
+  UnityEngine_AudioSource_o *__this_00;
+  float fVar1;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_volume(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    fVar1 = UnityEngine_AudioSource__get_volume(__this_00,(MethodInfo *)0x0);
+    return fVar1;
   }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_volume(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_time(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_time(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_pitch(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_01;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_02;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_03;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_04;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_05;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_06;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_07;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    fVar2 = (float)il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return fVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$set_Volume
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__set_Volume (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x40e48e0
+// 0x181f02050
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__set_Volume
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float fVar2;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_volume(pUVar1,value,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__set_volume(__this_00,value,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_time(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_time(pUVar1,fVar2,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_pitch(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,fVar2,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,fVar2,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_Time
 // il2cpp: float CustomLogic_CustomLogicAudioSourceBuiltin__get_Time (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4900
+// 0x181f01fd0
 
 float CustomLogic_CustomLogicAudioSourceBuiltin__get_Time
                 (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float fVar2;
-  float extraout_XMM0_Da;
-  float extraout_XMM0_Da_00;
-  float extraout_XMM0_Da_01;
-  float extraout_XMM0_Da_02;
-  float extraout_XMM0_Da_03;
-  float extraout_XMM0_Da_04;
-  float extraout_XMM0_Da_05;
-  float extraout_XMM0_Da_06;
+  UnityEngine_AudioSource_o *__this_00;
+  float fVar1;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_time(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    fVar1 = UnityEngine_AudioSource__get_time(__this_00,(MethodInfo *)0x0);
+    return fVar1;
   }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_time(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_pitch(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_01;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_02;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_03;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_04;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_05;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_06;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    fVar2 = (float)il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return fVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$set_Time
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__set_Time (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x40e4920
+// 0x181f02030
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__set_Time
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float fVar2;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_time(pUVar1,value,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__set_time(__this_00,value,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_pitch(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,fVar2,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,fVar2,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_Pitch
 // il2cpp: float CustomLogic_CustomLogicAudioSourceBuiltin__get_Pitch (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4940
+// 0x181f01fb0
 
 float CustomLogic_CustomLogicAudioSourceBuiltin__get_Pitch
                 (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float fVar2;
-  float extraout_XMM0_Da;
-  float extraout_XMM0_Da_00;
-  float extraout_XMM0_Da_01;
-  float extraout_XMM0_Da_02;
-  float extraout_XMM0_Da_03;
-  float extraout_XMM0_Da_04;
-  float extraout_XMM0_Da_05;
+  UnityEngine_AudioSource_o *__this_00;
+  float fVar1;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    fVar2 = UnityEngine_AudioSource__get_pitch(pUVar1,(MethodInfo *)0x0);
-    return fVar2;
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    fVar1 = UnityEngine_AudioSource__get_pitch(__this_00,(MethodInfo *)0x0);
+    return fVar1;
   }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_01;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,fVar2,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_02;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_03;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_04;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return extraout_XMM0_Da_05;
-  }
-  fVar2 = (float)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    fVar2 = (float)il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return fVar2;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$set_Pitch
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__set_Pitch (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, float value, const MethodInfo* method);
-// 0x40e4960
+// 0x181f02010
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__set_Pitch
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,float value,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float delay;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__set_pitch(pUVar1,value,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__set_pitch(__this_00,value,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__get_isPlaying(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  delay = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,delay,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_IsPlaying
 // il2cpp: bool CustomLogic_CustomLogicAudioSourceBuiltin__get_IsPlaying (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4980
+// 0x181f01f90
 
-bool_conflict
-CustomLogic_CustomLogicAudioSourceBuiltin__get_IsPlaying
-          (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
+bool CustomLogic_CustomLogicAudioSourceBuiltin__get_IsPlaying
+               (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  bool_conflict bVar1;
-  bool_conflict extraout_EAX;
-  bool_conflict extraout_EAX_00;
-  bool_conflict extraout_EAX_01;
-  bool_conflict extraout_EAX_02;
-  bool_conflict extraout_EAX_03;
-  UnityEngine_AudioSource_o *pUVar2;
-  float delay;
+  UnityEngine_AudioSource_o *__this_00;
+  bool bVar1;
   
-  pUVar2 = (__this->fields).Value;
-  if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-    bVar1 = UnityEngine_AudioSource__get_isPlaying(pUVar2,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    bVar1 = UnityEngine_AudioSource__get_isPlaying(__this_00,(MethodInfo *)0x0);
     return bVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = pUVar2[2].monitor;
-  if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar2,(MethodInfo *)0x0);
-    return extraout_EAX;
-  }
-  delay = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar2 = pUVar2[2].monitor;
-  if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar2,delay,(MethodInfo *)0x0);
-    return extraout_EAX_00;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = pUVar2[2].monitor;
-  if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar2,(MethodInfo *)0x0);
-    return extraout_EAX_01;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar2 = pUVar2[2].monitor;
-  if (pUVar2 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar2,(MethodInfo *)0x0);
-    return extraout_EAX_02;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar2[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar2[2].monitor,(MethodInfo *)0x0);
-    return extraout_EAX_03;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return (bool_conflict)"AudioSource";
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$Play
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__Play (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e49a0
+// 0x181f01e40
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__Play
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
-  float delay;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Play_4daa2c0(pUVar1,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__Play_2eb4470(__this_00,(MethodInfo *)0x0);
     return;
   }
-  delay = (float)il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,delay,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$PlayDelayed
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__PlayDelayed (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, float seconds, const MethodInfo* method);
-// 0x40e49c0
+// 0x181f01e20
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__PlayDelayed
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,float seconds,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__PlayDelayed(pUVar1,seconds,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__PlayDelayed(__this_00,seconds,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$Stop
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__Stop (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e49e0
+// 0x181f01e60
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__Stop
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  UnityEngine_AudioSource_o *pUVar1;
+  UnityEngine_AudioSource_o *__this_00;
   
-  pUVar1 = (__this->fields).Value;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Stop_4daa470(pUVar1,(MethodInfo *)0x0);
+  __this_00 = (__this->fields).Value;
+  if (__this_00 != (UnityEngine_AudioSource_o *)0x0) {
+    UnityEngine_AudioSource__Stop_2eb4660(__this_00,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pUVar1 = pUVar1[2].monitor;
-  if (pUVar1 != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__Pause(pUVar1,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (pUVar1[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(pUVar1[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$Pause
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__Pause (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a00
+// 0x181f01e00
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__Pause
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
@@ -3168,23 +1760,13 @@ void CustomLogic_CustomLogicAudioSourceBuiltin__Pause
     UnityEngine_AudioSource__Pause(__this_00,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (__this_00[2].monitor != (UnityEngine_AudioSource_o *)0x0) {
-    UnityEngine_AudioSource__UnPause(__this_00[2].monitor,(MethodInfo *)0x0);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$Unpause
 // il2cpp: void CustomLogic_CustomLogicAudioSourceBuiltin__Unpause (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a20
+// 0x181f01e80
 
 void CustomLogic_CustomLogicAudioSourceBuiltin__Unpause
                (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
@@ -3197,27 +1779,22 @@ void CustomLogic_CustomLogicAudioSourceBuiltin__Unpause
     UnityEngine_AudioSource__UnPause(__this_00,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_ClassName
 // il2cpp: System_String_o* CustomLogic_CustomLogicAudioSourceBuiltin__get_ClassName (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a40
+// 0x181f01f60
 
 System_String_o *
 CustomLogic_CustomLogicAudioSourceBuiltin__get_ClassName
           (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ac6f6 == '\0') {
-    il2cpp_runtime_helper_023445d0(&"AudioSource");
-    g_data_057ac6f6 = '\x01';
+  if (Il2CppMethodInitialized_184345332 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"AudioSource");
+    Il2CppMethodInitialized_184345332 = '\x01';
   }
   return "AudioSource";
 }
@@ -3225,44 +1802,37 @@ CustomLogic_CustomLogicAudioSourceBuiltin__get_ClassName
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_IsAbstract
 // il2cpp: bool CustomLogic_CustomLogicAudioSourceBuiltin__get_IsAbstract (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a70
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAudioSourceBuiltin__get_IsAbstract
-          (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAudioSourceBuiltin__get_IsAbstract(CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_IsStatic
 // il2cpp: bool CustomLogic_CustomLogicAudioSourceBuiltin__get_IsStatic (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a80
+// 0x180668280
 
-bool_conflict
-CustomLogic_CustomLogicAudioSourceBuiltin__get_IsStatic
-          (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAudioSourceBuiltin__get_IsStatic(CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, MethodInfo* method)
 
 {
-  return 0;
+  return false;
 }
 
 
 // CustomLogic.CustomLogicAudioSourceBuiltin$$get_InheritBaseMembers
 // il2cpp: bool CustomLogic_CustomLogicAudioSourceBuiltin__get_InheritBaseMembers (CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, const MethodInfo* method);
-// 0x40e4a90
+// 0x1808ed110
 
-bool_conflict
-CustomLogic_CustomLogicAudioSourceBuiltin__get_InheritBaseMembers
-          (CustomLogic_CustomLogicAudioSourceBuiltin_o *__this,MethodInfo *method)
+bool
+CustomLogic_CustomLogicAudioSourceBuiltin__get_InheritBaseMembers(CustomLogic_CustomLogicAudioSourceBuiltin_o* __this, MethodInfo* method)
 
 {
-  undefined4 in_EAX;
-  
-  return CONCAT31((int3)((uint)in_EAX >> 8),1);
+  return true;
 }
 
 

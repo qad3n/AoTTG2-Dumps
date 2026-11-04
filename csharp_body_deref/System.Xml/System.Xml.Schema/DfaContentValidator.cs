@@ -22,40 +22,40 @@ internal sealed class DfaContentValidator : ContentValidator
 	private SymbolsDictionary symbols;
 
 	[Token(Token = "0x6001030")]
-	[Address(RVA = "0x484BF60", Offset = "0x484BF60", VA = "0x484BF60")]
+	[Address(RVA = "0x277D8C0", Offset = "0x277BEC0", VA = "0x18277D8C0")]
 	internal DfaContentValidator(int[][] transitionTable, SymbolsDictionary symbols, XmlSchemaContentType contentType, bool isOpen, bool isEmptiable)
 	{
 	}
 
 	[Token(Token = "0x6001031")]
-	[Address(RVA = "0x484C320", Offset = "0x484C320", VA = "0x484C320", Slot = "5")]
+	[Address(RVA = "0x277D690", Offset = "0x277BC90", VA = "0x18277D690", Slot = "5")]
 	public override void InitValidation(ValidationState context)
 	{
 	}
 
 	[Token(Token = "0x6001032")]
-	[Address(RVA = "0x484C380", Offset = "0x484C380", VA = "0x484C380", Slot = "6")]
+	[Address(RVA = "0x277D6F0", Offset = "0x277BCF0", VA = "0x18277D6F0", Slot = "6")]
 	public override object ValidateElement(XmlQualifiedName name, ValidationState context, out int errorCode)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001033")]
-	[Address(RVA = "0x484C4A0", Offset = "0x484C4A0", VA = "0x484C4A0", Slot = "7")]
+	[Address(RVA = "0x277D330", Offset = "0x277B930", VA = "0x18277D330", Slot = "7")]
 	public override bool CompleteValidation(ValidationState context)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6001034")]
-	[Address(RVA = "0x484C4B0", Offset = "0x484C4B0", VA = "0x484C4B0", Slot = "8")]
+	[Address(RVA = "0x277D350", Offset = "0x277B950", VA = "0x18277D350", Slot = "8")]
 	public override ArrayList ExpectedElements(ValidationState context, bool isRequiredOnly)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6001035")]
-	[Address(RVA = "0x484C6E0", Offset = "0x484C6E0", VA = "0x484C6E0", Slot = "9")]
+	[Address(RVA = "0x277D520", Offset = "0x277BB20", VA = "0x18277D520", Slot = "9")]
 	public override ArrayList ExpectedParticles(ValidationState context, bool isRequiredOnly, XmlSchemaSet schemaSet)
 	{
 		return null;

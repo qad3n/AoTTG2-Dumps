@@ -37,7 +37,7 @@ internal class CharEntityEncoderFallback : EncoderFallback
 	public override int MaxCharCount
 	{
 		[Token(Token = "0x60000E7")]
-		[Address(RVA = "0x4687E30", Offset = "0x4687E30", VA = "0x4687E30", Slot = "5")]
+		[Address(RVA = "0x847030", Offset = "0x845630", VA = "0x180847030", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -48,33 +48,33 @@ internal class CharEntityEncoderFallback : EncoderFallback
 	internal int StartOffset
 	{
 		[Token(Token = "0x60000E8")]
-		[Address(RVA = "0x4687E40", Offset = "0x4687E40", VA = "0x4687E40")]
+		[Address(RVA = "0x585090", Offset = "0x583690", VA = "0x180585090")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x60000E5")]
-	[Address(RVA = "0x4687D10", Offset = "0x4687D10", VA = "0x4687D10")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	internal CharEntityEncoderFallback()
 	{
 	}
 
 	[Token(Token = "0x60000E6")]
-	[Address(RVA = "0x4687D20", Offset = "0x4687D20", VA = "0x4687D20", Slot = "4")]
+	[Address(RVA = "0x25D1CA0", Offset = "0x25D02A0", VA = "0x1825D1CA0", Slot = "4")]
 	public override EncoderFallbackBuffer CreateFallbackBuffer()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60000E9")]
-	[Address(RVA = "0x4687E50", Offset = "0x4687E50", VA = "0x4687E50")]
+	[Address(RVA = "0x25D1D40", Offset = "0x25D0340", VA = "0x1825D1D40")]
 	internal void Reset(int[] textContentMarks, int endMarkPos)
 	{
 	}
 
 	[Token(Token = "0x60000EA")]
-	[Address(RVA = "0x4687E80", Offset = "0x4687E80", VA = "0x4687E80")]
+	[Address(RVA = "0x25D1C40", Offset = "0x25D0240", VA = "0x1825D1C40")]
 	internal bool CanReplaceAt(int index)
 	{
 		return default(bool);

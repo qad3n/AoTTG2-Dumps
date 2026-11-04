@@ -10,51 +10,51 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x2000026")]
 public class EnterRoomParams
 {
-	[Token(Token = "0x40000E4")]
+	[Token(Token = "0x40000DF")]
 	[FieldOffset(Offset = "0x10")]
 	public string RoomName;
 
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x40000E0")]
 	[FieldOffset(Offset = "0x18")]
 	public RoomOptions RoomOptions;
 
-	[Token(Token = "0x40000E6")]
+	[Token(Token = "0x40000E1")]
 	[FieldOffset(Offset = "0x20")]
 	public TypedLobby Lobby;
 
-	[Token(Token = "0x40000E7")]
+	[Token(Token = "0x40000E2")]
 	[FieldOffset(Offset = "0x28")]
 	public Hashtable PlayerProperties;
 
-	[Token(Token = "0x40000E8")]
+	[Token(Token = "0x40000E3")]
 	[FieldOffset(Offset = "0x30")]
 	public string Password;
 
-	[Token(Token = "0x40000E9")]
+	[Token(Token = "0x40000E4")]
 	[FieldOffset(Offset = "0x38")]
 	public string SessionID;
 
-	[Token(Token = "0x40000EA")]
+	[Token(Token = "0x40000E5")]
 	[FieldOffset(Offset = "0x40")]
 	public string Hash;
 
-	[Token(Token = "0x40000EB")]
+	[Token(Token = "0x40000E6")]
 	[FieldOffset(Offset = "0x48")]
 	protected internal bool OnGameServer;
 
-	[Token(Token = "0x40000EC")]
+	[Token(Token = "0x40000E7")]
 	[FieldOffset(Offset = "0x49")]
 	protected internal JoinMode JoinMode;
 
-	[Token(Token = "0x40000ED")]
+	[Token(Token = "0x40000E8")]
 	[FieldOffset(Offset = "0x50")]
 	public string[] ExpectedUsers;
 
-	[Token(Token = "0x600011E")]
-	[Address(RVA = "0x3EC1A60", Offset = "0x3EC1A60", VA = "0x3EC1A60")]
+	[Token(Token = "0x600011C")]
+	[Address(RVA = "0x1D143C0", Offset = "0x1D129C0", VA = "0x181D143C0")]
 	public EnterRoomParams()
 	{
 	}

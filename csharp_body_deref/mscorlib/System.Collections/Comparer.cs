@@ -12,41 +12,41 @@ using Il2CppDummyDll;
 namespace System.Collections;
 
 [Serializable]
-[Token(Token = "0x20005F5")]
+[Token(Token = "0x20005C9")]
 public sealed class Comparer : IComparer, ISerializable
 {
-	[Token(Token = "0x4001A48")]
+	[Token(Token = "0x4001863")]
 	[FieldOffset(Offset = "0x10")]
 	private CompareInfo _compareInfo;
 
-	[Token(Token = "0x4001A49")]
+	[Token(Token = "0x4001864")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Comparer Default;
 
-	[Token(Token = "0x4001A4A")]
+	[Token(Token = "0x4001865")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly Comparer DefaultInvariant;
 
-	[Token(Token = "0x6002EA5")]
-	[Address(RVA = "0x3C7CDB0", Offset = "0x3C7CDB0", VA = "0x3C7CDB0")]
+	[Token(Token = "0x6002BB4")]
+	[Address(RVA = "0x1AB92B0", Offset = "0x1AB78B0", VA = "0x181AB92B0")]
 	public Comparer(CultureInfo culture)
 	{
 	}
 
-	[Token(Token = "0x6002EA6")]
-	[Address(RVA = "0x3C7CE40", Offset = "0x3C7CE40", VA = "0x3C7CE40")]
+	[Token(Token = "0x6002BB5")]
+	[Address(RVA = "0x1AB9130", Offset = "0x1AB7730", VA = "0x181AB9130")]
 	private Comparer(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002EA7")]
-	[Address(RVA = "0x3C7CF90", Offset = "0x3C7CF90", VA = "0x3C7CF90", Slot = "5")]
+	[Token(Token = "0x6002BB6")]
+	[Address(RVA = "0x1AB8E50", Offset = "0x1AB7450", VA = "0x181AB8E50", Slot = "5")]
 	public void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002EA8")]
-	[Address(RVA = "0x3C7D030", Offset = "0x3C7D030", VA = "0x3C7D030", Slot = "4")]
+	[Token(Token = "0x6002BB7")]
+	[Address(RVA = "0x1AB8CB0", Offset = "0x1AB72B0", VA = "0x181AB8CB0", Slot = "4")]
 	public int Compare(object a, object b)
 	{
 		return default(int);

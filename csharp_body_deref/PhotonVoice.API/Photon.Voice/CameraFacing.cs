@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000031")]
+[Token(Token = "0x200002F")]
 public enum CameraFacing
 {
-	[Token(Token = "0x40000E3")]
+	[Token(Token = "0x40000DE")]
 	Undef,
-	[Token(Token = "0x40000E4")]
+	[Token(Token = "0x40000DF")]
 	Front,
-	[Token(Token = "0x40000E5")]
+	[Token(Token = "0x40000E0")]
 	Back
 }

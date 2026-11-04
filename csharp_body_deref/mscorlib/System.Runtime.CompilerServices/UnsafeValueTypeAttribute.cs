@@ -10,12 +10,12 @@ using Il2CppDummyDll;
 namespace System.Runtime.CompilerServices;
 
 [Serializable]
-[Token(Token = "0x2000486")]
+[Token(Token = "0x20004B5")]
 [AttributeUsage(AttributeTargets.Struct)]
 public sealed class UnsafeValueTypeAttribute : Attribute
 {
-	[Token(Token = "0x6002290")]
-	[Address(RVA = "0x3BC1430", Offset = "0x3BC1430", VA = "0x3BC1430")]
+	[Token(Token = "0x6002310")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public UnsafeValueTypeAttribute()
 	{
 	}

@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000093")]
+[Token(Token = "0x2000091")]
 public class BufferReaderPushAdapterAsyncPool<T> : BufferReaderPushAdapterBase<T>
 {
-	[Token(Token = "0x6000329")]
+	[Token(Token = "0x6000327")]
 	public BufferReaderPushAdapterAsyncPool(IDataReader<T> reader)
 	{
 	}
 
-	[Token(Token = "0x600032A")]
+	[Token(Token = "0x6000328")]
 	public override void Service(LocalVoice localVoice)
 	{
 	}

@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000220")]
+[Token(Token = "0x2000296")]
 internal class ImmediateModeException : Exception
 {
-	[Token(Token = "0x6000E04")]
-	[Address(RVA = "0x504BCA0", Offset = "0x504BCA0", VA = "0x504BCA0")]
+	[Token(Token = "0x600119A")]
+	[Address(RVA = "0x32AE2C0", Offset = "0x32AC8C0", VA = "0x1832AE2C0")]
 	public ImmediateModeException(Exception inner)
 	{
 	}

@@ -12,8 +12,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000130")]
 public sealed class PlusHandler : UnaryOperatorHandler
 {
-	[Token(Token = "0x6000C88")]
-	[Address(RVA = "0x4D2E5B0", Offset = "0x4D2E5B0", VA = "0x4D2E5B0")]
+	[Token(Token = "0x6000C92")]
+	[Address(RVA = "0x2E205F0", Offset = "0x2E1EBF0", VA = "0x182E205F0")]
 	public PlusHandler()
 	{
 	}

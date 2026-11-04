@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.StyleSheets;
 
-[Token(Token = "0x2000544")]
+[Token(Token = "0x200063A")]
 internal struct StyleValueManaged
 {
-	[Token(Token = "0x4001226")]
+	[Token(Token = "0x40017CE")]
 	[FieldOffset(Offset = "0x0")]
 	public StylePropertyId id;
 
-	[Token(Token = "0x4001227")]
+	[Token(Token = "0x40017CF")]
 	[FieldOffset(Offset = "0x4")]
 	public StyleKeyword keyword;
 
-	[Token(Token = "0x4001228")]
+	[Token(Token = "0x40017D0")]
 	[FieldOffset(Offset = "0x8")]
 	public object value;
 }

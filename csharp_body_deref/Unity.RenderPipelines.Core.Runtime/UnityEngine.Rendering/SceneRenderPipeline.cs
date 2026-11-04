@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001CE")]
+[Token(Token = "0x20001E7")]
 public class SceneRenderPipeline : MonoBehaviour
 {
-	[Token(Token = "0x6000D31")]
-	[Address(RVA = "0x4C03510", Offset = "0x4C03510", VA = "0x4C03510")]
+	[Token(Token = "0x6000E92")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SceneRenderPipeline()
 	{
 	}

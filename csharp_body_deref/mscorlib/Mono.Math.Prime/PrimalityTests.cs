@@ -9,32 +9,32 @@ using Il2CppDummyDll;
 
 namespace Mono.Math.Prime;
 
-[Token(Token = "0x2000055")]
+[Token(Token = "0x2000073")]
 internal sealed class PrimalityTests
 {
-	[Token(Token = "0x6000200")]
-	[Address(RVA = "0x3AF2070", Offset = "0x3AF2070", VA = "0x3AF2070")]
+	[Token(Token = "0x6000218")]
+	[Address(RVA = "0x1961CD0", Offset = "0x19602D0", VA = "0x181961CD0")]
 	private static int GetSPPRounds(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000201")]
-	[Address(RVA = "0x3AF0B90", Offset = "0x3AF0B90", VA = "0x3AF0B90")]
+	[Token(Token = "0x6000219")]
+	[Address(RVA = "0x19626C0", Offset = "0x1960CC0", VA = "0x1819626C0")]
 	public static bool Test(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000202")]
-	[Address(RVA = "0x3AF2450", Offset = "0x3AF2450", VA = "0x3AF2450")]
+	[Token(Token = "0x600021A")]
+	[Address(RVA = "0x1961FE0", Offset = "0x19605E0", VA = "0x181961FE0")]
 	public static bool RabinMillerTest(Mono.Math.BigInteger n, Mono.Math.Prime.ConfidenceFactor confidence)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000203")]
-	[Address(RVA = "0x3AF21D0", Offset = "0x3AF21D0", VA = "0x3AF21D0")]
+	[Token(Token = "0x600021B")]
+	[Address(RVA = "0x19623E0", Offset = "0x19609E0", VA = "0x1819623E0")]
 	public static bool SmallPrimeSppTest(Mono.Math.BigInteger bi, Mono.Math.Prime.ConfidenceFactor confidence)
 	{
 		return default(bool);

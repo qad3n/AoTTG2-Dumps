@@ -9,43 +9,43 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x2000071")]
+[Token(Token = "0x200007B")]
 internal enum RBTreeError
 {
-	[Token(Token = "0x4000257")]
+	[Token(Token = "0x400026A")]
 	InvalidPageSize = 1,
-	[Token(Token = "0x4000258")]
+	[Token(Token = "0x400026B")]
 	PagePositionInSlotInUse = 3,
-	[Token(Token = "0x4000259")]
+	[Token(Token = "0x400026C")]
 	NoFreeSlots = 4,
-	[Token(Token = "0x400025A")]
+	[Token(Token = "0x400026D")]
 	InvalidStateinInsert = 5,
-	[Token(Token = "0x400025B")]
+	[Token(Token = "0x400026E")]
 	InvalidNextSizeInDelete = 7,
-	[Token(Token = "0x400025C")]
+	[Token(Token = "0x400026F")]
 	InvalidStateinDelete = 8,
-	[Token(Token = "0x400025D")]
+	[Token(Token = "0x4000270")]
 	InvalidNodeSizeinDelete = 9,
-	[Token(Token = "0x400025E")]
+	[Token(Token = "0x4000271")]
 	InvalidStateinEndDelete = 10,
-	[Token(Token = "0x400025F")]
+	[Token(Token = "0x4000272")]
 	CannotRotateInvalidsuccessorNodeinDelete = 11,
-	[Token(Token = "0x4000260")]
+	[Token(Token = "0x4000273")]
 	IndexOutOFRangeinGetNodeByIndex = 13,
-	[Token(Token = "0x4000261")]
+	[Token(Token = "0x4000274")]
 	RBDeleteFixup = 14,
-	[Token(Token = "0x4000262")]
+	[Token(Token = "0x4000275")]
 	UnsupportedAccessMethod1 = 15,
-	[Token(Token = "0x4000263")]
+	[Token(Token = "0x4000276")]
 	UnsupportedAccessMethod2 = 16,
-	[Token(Token = "0x4000264")]
+	[Token(Token = "0x4000277")]
 	UnsupportedAccessMethodInNonNillRootSubtree = 17,
-	[Token(Token = "0x4000265")]
+	[Token(Token = "0x4000278")]
 	AttachedNodeWithZerorbTreeNodeId = 18,
-	[Token(Token = "0x4000266")]
+	[Token(Token = "0x4000279")]
 	CompareNodeInDataRowTree = 19,
-	[Token(Token = "0x4000267")]
+	[Token(Token = "0x400027A")]
 	CompareSateliteTreeNodeInDataRowTree = 20,
-	[Token(Token = "0x4000268")]
+	[Token(Token = "0x400027B")]
 	NestedSatelliteTreeEnumerator = 21
 }

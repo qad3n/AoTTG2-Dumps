@@ -14,158 +14,158 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Networking.PlayerConnection;
 
 [Serializable]
-[Token(Token = "0x2000295")]
+[Token(Token = "0x20002F3")]
 public class PlayerConnection : ScriptableObject
 {
-	[Token(Token = "0x40006D4")]
+	[Token(Token = "0x4000781")]
 	[FieldOffset(Offset = "0x0")]
 	internal static IPlayerEditorConnectionNative connectionNative;
 
-	[Token(Token = "0x40006D5")]
+	[Token(Token = "0x4000782")]
 	[FieldOffset(Offset = "0x18")]
 	[SerializeField]
 	private PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents;
 
-	[Token(Token = "0x40006D6")]
+	[Token(Token = "0x4000783")]
 	[FieldOffset(Offset = "0x20")]
 	[SerializeField]
 	private List<int> m_connectedPlayers;
 
-	[Token(Token = "0x40006D7")]
+	[Token(Token = "0x4000784")]
 	[FieldOffset(Offset = "0x28")]
 	private bool m_IsInitilized;
 
-	[Token(Token = "0x40006D8")]
+	[Token(Token = "0x4000785")]
 	[FieldOffset(Offset = "0x8")]
 	private static PlayerConnection s_Instance;
 
-	[Token(Token = "0x1700025A")]
+	[Token(Token = "0x170002DE")]
 	public static PlayerConnection instance
 	{
-		[Token(Token = "0x6000DE7")]
-		[Address(RVA = "0x4E15D60", Offset = "0x4E15D60", VA = "0x4E15D60")]
+		[Token(Token = "0x60011F0")]
+		[Address(RVA = "0x2F4FA40", Offset = "0x2F4E040", VA = "0x182F4FA40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700025B")]
+	[Token(Token = "0x170002DF")]
 	public bool isConnected
 	{
-		[Token(Token = "0x6000DE8")]
-		[Address(RVA = "0x4E15E80", Offset = "0x4E15E80", VA = "0x4E15E80")]
+		[Token(Token = "0x60011F1")]
+		[Address(RVA = "0x2F4FB50", Offset = "0x2F4E150", VA = "0x182F4FB50")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6000DE9")]
-	[Address(RVA = "0x4E15DF0", Offset = "0x4E15DF0", VA = "0x4E15DF0")]
+	[Token(Token = "0x60011F2")]
+	[Address(RVA = "0x2F4E7E0", Offset = "0x2F4CDE0", VA = "0x182F4E7E0")]
 	private static PlayerConnection CreateInstance()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DEA")]
-	[Address(RVA = "0x4E15FF0", Offset = "0x4E15FF0", VA = "0x4E15FF0")]
+	[Token(Token = "0x60011F3")]
+	[Address(RVA = "0x2F4ECA0", Offset = "0x2F4D2A0", VA = "0x182F4ECA0")]
 	public void OnEnable()
 	{
 	}
 
-	[Token(Token = "0x6000DEB")]
-	[Address(RVA = "0x4E15F80", Offset = "0x4E15F80", VA = "0x4E15F80")]
+	[Token(Token = "0x60011F4")]
+	[Address(RVA = "0x2F4E9C0", Offset = "0x2F4CFC0", VA = "0x182F4E9C0")]
 	private IPlayerEditorConnectionNative GetConnectionNativeApi()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000DEC")]
-	[Address(RVA = "0x4E160F0", Offset = "0x4E160F0", VA = "0x4E160F0", Slot = "4")]
+	[Token(Token = "0x60011F5")]
+	[Address(RVA = "0x2F4EED0", Offset = "0x2F4D4D0", VA = "0x182F4EED0", Slot = "4")]
 	public void Register(Guid messageId, UnityAction<MessageEventArgs> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DED")]
-	[Address(RVA = "0x4E16620", Offset = "0x4E16620", VA = "0x4E16620", Slot = "5")]
+	[Token(Token = "0x60011F6")]
+	[Address(RVA = "0x2F4F5D0", Offset = "0x2F4DBD0", VA = "0x182F4F5D0", Slot = "5")]
 	public void Unregister(Guid messageId, UnityAction<MessageEventArgs> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DEE")]
-	[Address(RVA = "0x4E16950", Offset = "0x4E16950", VA = "0x4E16950", Slot = "6")]
+	[Token(Token = "0x60011F7")]
+	[Address(RVA = "0x2F4ED00", Offset = "0x2F4D300", VA = "0x182F4ED00", Slot = "6")]
 	public void RegisterConnection(UnityAction<int> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DEF")]
-	[Address(RVA = "0x4E16B20", Offset = "0x4E16B20", VA = "0x4E16B20", Slot = "7")]
+	[Token(Token = "0x60011F8")]
+	[Address(RVA = "0x2F4EE70", Offset = "0x2F4D470", VA = "0x182F4EE70", Slot = "7")]
 	public void RegisterDisconnection(UnityAction<int> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DF0")]
-	[Address(RVA = "0x4E16B80", Offset = "0x4E16B80", VA = "0x4E16B80", Slot = "8")]
+	[Token(Token = "0x60011F9")]
+	[Address(RVA = "0x2F4F510", Offset = "0x2F4DB10", VA = "0x182F4F510", Slot = "8")]
 	public void UnregisterConnection(UnityAction<int> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DF1")]
-	[Address(RVA = "0x4E16BE0", Offset = "0x4E16BE0", VA = "0x4E16BE0", Slot = "9")]
+	[Token(Token = "0x60011FA")]
+	[Address(RVA = "0x2F4F570", Offset = "0x2F4DB70", VA = "0x182F4F570", Slot = "9")]
 	public void UnregisterDisconnection(UnityAction<int> callback)
 	{
 	}
 
-	[Token(Token = "0x6000DF2")]
-	[Address(RVA = "0x4E16C40", Offset = "0x4E16C40", VA = "0x4E16C40", Slot = "10")]
+	[Token(Token = "0x60011FB")]
+	[Address(RVA = "0x2F4F150", Offset = "0x2F4D750", VA = "0x182F4F150", Slot = "10")]
 	public void Send(Guid messageId, byte[] data)
 	{
 	}
 
-	[Token(Token = "0x6000DF3")]
-	[Address(RVA = "0x4E16E00", Offset = "0x4E16E00", VA = "0x4E16E00", Slot = "11")]
+	[Token(Token = "0x60011FC")]
+	[Address(RVA = "0x2F4F330", Offset = "0x2F4D930", VA = "0x182F4F330", Slot = "11")]
 	public bool TrySend(Guid messageId, byte[] data)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DF4")]
-	[Address(RVA = "0x4E16FC0", Offset = "0x4E16FC0", VA = "0x4E16FC0")]
+	[Token(Token = "0x60011FD")]
+	[Address(RVA = "0x2F4E450", Offset = "0x2F4CA50", VA = "0x182F4E450")]
 	public bool BlockUntilRecvMsg(Guid messageId, int timeout)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000DF5")]
-	[Address(RVA = "0x4E17290", Offset = "0x4E17290", VA = "0x4E17290", Slot = "12")]
+	[Token(Token = "0x60011FE")]
+	[Address(RVA = "0x2F4E890", Offset = "0x2F4CE90", VA = "0x182F4E890", Slot = "12")]
 	public void DisconnectAll()
 	{
 	}
 
-	[Token(Token = "0x6000DF6")]
-	[Address(RVA = "0x4E17390", Offset = "0x4E17390", VA = "0x4E17390")]
+	[Token(Token = "0x60011FF")]
+	[Address(RVA = "0x2F4EA30", Offset = "0x2F4D030", VA = "0x182F4EA30")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void MessageCallbackInternal(IntPtr data, ulong size, ulong guid, string messageId)
 	{
 	}
 
-	[Token(Token = "0x6000DF7")]
-	[Address(RVA = "0x4E176A0", Offset = "0x4E176A0", VA = "0x4E176A0")]
+	[Token(Token = "0x6001200")]
+	[Address(RVA = "0x2F4E710", Offset = "0x2F4CD10", VA = "0x182F4E710")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void ConnectedCallbackInternal(int playerId)
 	{
 	}
 
-	[Token(Token = "0x6000DF8")]
-	[Address(RVA = "0x4E17860", Offset = "0x4E17860", VA = "0x4E17860")]
+	[Token(Token = "0x6001201")]
+	[Address(RVA = "0x2F4E930", Offset = "0x2F4CF30", VA = "0x182F4E930")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void DisconnectedCallback(int playerId)
 	{
 	}
 
-	[Token(Token = "0x6000DF9")]
-	[Address(RVA = "0x4E179F0", Offset = "0x4E179F0", VA = "0x4E179F0")]
+	[Token(Token = "0x6001202")]
+	[Address(RVA = "0x2F4F890", Offset = "0x2F4DE90", VA = "0x182F4F890")]
 	public PlayerConnection()
 	{
 	}

@@ -12,96 +12,96 @@ namespace System.Globalization;
 
 [Serializable]
 [StructLayout((LayoutKind)0)]
-[Token(Token = "0x20005C9")]
+[Token(Token = "0x200059B")]
 [ComVisible(true)]
 public class SortKey
 {
-	[Token(Token = "0x4001962")]
+	[Token(Token = "0x4001780")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	private readonly string source;
 
-	[Token(Token = "0x4001963")]
+	[Token(Token = "0x4001781")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	private readonly byte[] key;
 
-	[Token(Token = "0x4001964")]
+	[Token(Token = "0x4001782")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	private readonly CompareOptions options;
 
-	[Token(Token = "0x4001965")]
+	[Token(Token = "0x4001783")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x24")]
 	private readonly int lcid;
 
-	[Token(Token = "0x170006D6")]
+	[Token(Token = "0x17000663")]
 	public virtual string OriginalString
 	{
-		[Token(Token = "0x6002D9B")]
-		[Address(RVA = "0x3C63B10", Offset = "0x3C63B10", VA = "0x3C63B10", Slot = "4")]
+		[Token(Token = "0x6002AA8")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170006D7")]
+	[Token(Token = "0x17000664")]
 	public virtual byte[] KeyData
 	{
-		[Token(Token = "0x6002D9C")]
-		[Address(RVA = "0x3C63B20", Offset = "0x3C63B20", VA = "0x3C63B20", Slot = "5")]
+		[Token(Token = "0x6002AA9")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002D97")]
-	[Address(RVA = "0x3C63830", Offset = "0x3C63830", VA = "0x3C63830")]
+	[Token(Token = "0x6002AA4")]
+	[Address(RVA = "0x1AAB050", Offset = "0x1AA9650", VA = "0x181AAB050")]
 	public static int Compare(SortKey sortkey1, SortKey sortkey2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002D98")]
-	[Address(RVA = "0x3C639A0", Offset = "0x3C639A0", VA = "0x3C639A0")]
+	[Token(Token = "0x6002AA5")]
+	[Address(RVA = "0x1AAB560", Offset = "0x1AA9B60", VA = "0x181AAB560")]
 	internal SortKey(int lcid, string source, CompareOptions opt)
 	{
 	}
 
-	[Token(Token = "0x6002D99")]
-	[Address(RVA = "0x3C63A80", Offset = "0x3C63A80", VA = "0x3C63A80")]
+	[Token(Token = "0x6002AA6")]
+	[Address(RVA = "0x1AAB4C0", Offset = "0x1AA9AC0", VA = "0x181AAB4C0")]
 	internal SortKey(int lcid, string source, byte[] buffer, CompareOptions opt, int lv1Length, int lv2Length, int lv3Length, int kanaSmallLength, int markTypeLength, int katakanaLength, int kanaWidthLength, int identLength)
 	{
 	}
 
-	[Token(Token = "0x6002D9A")]
-	[Address(RVA = "0x3C63AD0", Offset = "0x3C63AD0", VA = "0x3C63AD0")]
+	[Token(Token = "0x6002AA7")]
+	[Address(RVA = "0x1AAB510", Offset = "0x1AA9B10", VA = "0x181AAB510")]
 	internal SortKey(string localeName, string str, CompareOptions options, byte[] keyData)
 	{
 	}
 
-	[Token(Token = "0x6002D9D")]
-	[Address(RVA = "0x3C63B30", Offset = "0x3C63B30", VA = "0x3C63B30", Slot = "0")]
+	[Token(Token = "0x6002AAA")]
+	[Address(RVA = "0x1AAB250", Offset = "0x1AA9850", VA = "0x181AAB250", Slot = "0")]
 	public override bool Equals(object value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002D9E")]
-	[Address(RVA = "0x3C63BC0", Offset = "0x3C63BC0", VA = "0x3C63BC0", Slot = "2")]
+	[Token(Token = "0x6002AAB")]
+	[Address(RVA = "0x1AAB2F0", Offset = "0x1AA98F0", VA = "0x181AAB2F0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6002D9F")]
-	[Address(RVA = "0x3C63E90", Offset = "0x3C63E90", VA = "0x3C63E90", Slot = "3")]
+	[Token(Token = "0x6002AAC")]
+	[Address(RVA = "0x1AAB360", Offset = "0x1AA9960", VA = "0x181AAB360", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002DA0")]
-	[Address(RVA = "0x3C64000", Offset = "0x3C64000", VA = "0x3C64000")]
+	[Token(Token = "0x6002AAD")]
+	[Address(RVA = "0x1AAB630", Offset = "0x1AA9C30", VA = "0x181AAB630")]
 	internal SortKey()
 	{
 	}

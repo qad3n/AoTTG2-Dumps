@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001B2")]
+[Token(Token = "0x20001B5")]
 [DisallowMultipleComponent]
 public sealed class AsyncCollisionStayTrigger : AsyncTriggerBase<Collision>
 {
-	[Token(Token = "0x6000AD3")]
-	[Address(RVA = "0x4A0C4E0", Offset = "0x4A0C4E0", VA = "0x4A0C4E0")]
+	[Token(Token = "0x6000AF7")]
+	[Address(RVA = "0x292BD30", Offset = "0x292A330", VA = "0x18292BD30")]
 	private void OnCollisionStay(Collision coll)
 	{
 	}
 
-	[Token(Token = "0x6000AD4")]
-	[Address(RVA = "0x4A0C530", Offset = "0x4A0C530", VA = "0x4A0C530")]
+	[Token(Token = "0x6000AF8")]
+	[Address(RVA = "0x292BA10", Offset = "0x292A010", VA = "0x18292BA10")]
 	public IAsyncOnCollisionStayHandler GetOnCollisionStayAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AD5")]
-	[Address(RVA = "0x4A0C5A0", Offset = "0x4A0C5A0", VA = "0x4A0C5A0")]
+	[Token(Token = "0x6000AF9")]
+	[Address(RVA = "0x292BA80", Offset = "0x292A080", VA = "0x18292BA80")]
 	public IAsyncOnCollisionStayHandler GetOnCollisionStayAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000AD6")]
-	[Address(RVA = "0x4A0C610", Offset = "0x4A0C610", VA = "0x4A0C610")]
+	[Token(Token = "0x6000AFA")]
+	[Address(RVA = "0x292BB00", Offset = "0x292A100", VA = "0x18292BB00")]
 	public UniTask<Collision> OnCollisionStayAsync()
 	{
 		return default(UniTask<Collision>);
 	}
 
-	[Token(Token = "0x6000AD7")]
-	[Address(RVA = "0x4A0C710", Offset = "0x4A0C710", VA = "0x4A0C710")]
+	[Token(Token = "0x6000AFB")]
+	[Address(RVA = "0x292BC20", Offset = "0x292A220", VA = "0x18292BC20")]
 	public UniTask<Collision> OnCollisionStayAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collision>);
 	}
 
-	[Token(Token = "0x6000AD8")]
-	[Address(RVA = "0x4A0C820", Offset = "0x4A0C820", VA = "0x4A0C820")]
+	[Token(Token = "0x6000AFC")]
+	[Address(RVA = "0x292BD80", Offset = "0x292A380", VA = "0x18292BD80")]
 	public AsyncCollisionStayTrigger()
 	{
 	}

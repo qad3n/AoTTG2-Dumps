@@ -10,20 +10,20 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200003A")]
+[Token(Token = "0x2000038")]
 public interface IAudioInChangeNotifier : IDisposable
 {
 	[Token(Token = "0x1700004C")]
 	bool IsSupported
 	{
-		[Token(Token = "0x600012C")]
+		[Token(Token = "0x600012A")]
 		get;
 	}
 
 	[Token(Token = "0x1700004D")]
 	string Error
 	{
-		[Token(Token = "0x600012D")]
+		[Token(Token = "0x600012B")]
 		get;
 	}
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x2000251")]
+[Token(Token = "0x200015C")]
 public enum DesignerSerializationVisibility
 {
-	[Token(Token = "0x4000CDA")]
+	[Token(Token = "0x4000611")]
 	Hidden,
-	[Token(Token = "0x4000CDB")]
+	[Token(Token = "0x4000612")]
 	Visible,
-	[Token(Token = "0x4000CDC")]
+	[Token(Token = "0x4000613")]
 	Content
 }

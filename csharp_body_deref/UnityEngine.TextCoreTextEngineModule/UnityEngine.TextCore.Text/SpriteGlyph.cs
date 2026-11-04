@@ -11,15 +11,15 @@ using Il2CppDummyDll;
 namespace UnityEngine.TextCore.Text;
 
 [Serializable]
-[Token(Token = "0x2000019")]
+[Token(Token = "0x2000039")]
 public class SpriteGlyph : Glyph
 {
-	[Token(Token = "0x40000C7")]
+	[Token(Token = "0x400019F")]
 	[FieldOffset(Offset = "0x48")]
 	public Sprite sprite;
 
-	[Token(Token = "0x60000D6")]
-	[Address(RVA = "0x4EB8300", Offset = "0x4EB8300", VA = "0x4EB8300")]
+	[Token(Token = "0x600017F")]
+	[Address(RVA = "0x2D42A30", Offset = "0x2D41030", VA = "0x182D42A30")]
 	public SpriteGlyph()
 	{
 	}

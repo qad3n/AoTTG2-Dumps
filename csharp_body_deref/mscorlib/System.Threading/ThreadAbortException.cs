@@ -12,18 +12,18 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x2000205")]
+[Token(Token = "0x2000236")]
 [ComVisible(true)]
 public sealed class ThreadAbortException : SystemException
 {
-	[Token(Token = "0x60012C8")]
-	[Address(RVA = "0x3D36EA0", Offset = "0x3D36EA0", VA = "0x3D36EA0")]
+	[Token(Token = "0x6001339")]
+	[Address(RVA = "0x1BBFD50", Offset = "0x1BBE350", VA = "0x181BBFD50")]
 	private ThreadAbortException()
 	{
 	}
 
-	[Token(Token = "0x60012C9")]
-	[Address(RVA = "0x3D36F10", Offset = "0x3D36F10", VA = "0x3D36F10")]
+	[Token(Token = "0x600133A")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	internal ThreadAbortException(SerializationInfo info, StreamingContext context)
 	{
 	}

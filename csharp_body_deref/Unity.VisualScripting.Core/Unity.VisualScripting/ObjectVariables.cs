@@ -13,8 +13,8 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001CE")]
 public static class ObjectVariables
 {
-	[Token(Token = "0x60010FC")]
-	[Address(RVA = "0x4D643C0", Offset = "0x4D643C0", VA = "0x4D643C0")]
+	[Token(Token = "0x6001109")]
+	[Address(RVA = "0x2E53F20", Offset = "0x2E52520", VA = "0x182E53F20")]
 	public static VariableDeclarations Declarations(GameObject source, bool autoAddComponent, bool throwOnMissing)
 	{
 		return null;

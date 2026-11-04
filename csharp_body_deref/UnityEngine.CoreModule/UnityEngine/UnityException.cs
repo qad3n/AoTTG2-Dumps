@@ -13,24 +13,24 @@ using UnityEngine.Scripting;
 namespace UnityEngine;
 
 [Serializable]
-[Token(Token = "0x200017F")]
+[Token(Token = "0x20001B4")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public class UnityException : Exception
 {
-	[Token(Token = "0x6000AD9")]
-	[Address(RVA = "0x4DFF640", Offset = "0x4DFF640", VA = "0x4DFF640")]
+	[Token(Token = "0x6000E33")]
+	[Address(RVA = "0x2F2BAA0", Offset = "0x2F2A0A0", VA = "0x182F2BAA0")]
 	public UnityException()
 	{
 	}
 
-	[Token(Token = "0x6000ADA")]
-	[Address(RVA = "0x4DFD0F0", Offset = "0x4DFD0F0", VA = "0x4DFD0F0")]
+	[Token(Token = "0x6000E34")]
+	[Address(RVA = "0x2F2BB90", Offset = "0x2F2A190", VA = "0x182F2BB90")]
 	public UnityException(string message)
 	{
 	}
 
-	[Token(Token = "0x6000ADB")]
-	[Address(RVA = "0x4DFF6B0", Offset = "0x4DFF6B0", VA = "0x4DFF6B0")]
+	[Token(Token = "0x6000E35")]
+	[Address(RVA = "0x2F2BB10", Offset = "0x2F2A110", VA = "0x182F2BB10")]
 	protected UnityException(SerializationInfo info, StreamingContext context)
 	{
 	}

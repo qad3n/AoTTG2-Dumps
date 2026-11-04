@@ -1,5 +1,5 @@
 // Type: Utility.PhysicsLayer
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Utility/PhysicsLayer.cs
@@ -8,607 +8,282 @@
 
 // Utility.PhysicsLayer$$Init
 // il2cpp: void Utility_PhysicsLayer__Init (const MethodInfo* method);
-// 0x4492dc0
+// 0x18233bcd0
 
 void Utility_PhysicsLayer__Init(MethodInfo *method)
 
 {
-  uint uVar1;
-  uint uVar2;
-  UnityEngine_LayerMask_o UVar3;
-  uint uVar4;
-  System_Int32_array *pSVar5;
-  int iVar6;
-  uint uVar7;
-  MethodInfo *pMVar8;
-  long lVar9;
-  long lVar10;
-  ulong uVar11;
-  System_Int32_array *pSVar12;
-  int32_t iVar13;
-  undefined8 uVar14;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *pSVar15;
-  undefined1 auVar16 [16];
+  int32_t iVar1;
+  System_Int32_array *pSVar2;
   
-  if (g_data_057ae917 == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_int);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae917 = '\x01';
+  if (Il2CppMethodInitialized_18434783a == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_int_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    Il2CppMethodInitialized_18434783a = '\x01';
   }
-  if (*(int *)(TypeInfo_PhysicsLayer + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
   }
-  iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 4);
-  auVar16 = il2cpp_runtime_helper_022b2a40(TypeInfo_int,0);
-  Utility_PhysicsLayer__SetLayerCollisions(iVar13,auVar16._0_8_,auVar16._8_8_);
-  iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 8);
-  pSVar12 = (System_Int32_array *)0x3;
-  uVar14 = TypeInfo_int;
-  pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-  uVar4 = (uint)uVar14;
-  if (pSVar5 == (System_Int32_array *)0x0) goto label_0449368d;
-  uVar7 = (uint)pSVar5->max_length;
-  if (uVar7 != 0) {
-    pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-    uVar1 = *(uint *)((long)&pMVar8->virtualMethodPointer + 4);
-    pSVar12 = (System_Int32_array *)(ulong)uVar1;
-    pSVar5->m_Items[0] = uVar1;
-    if (uVar7 != 1) {
-      uVar1 = *(uint *)((long)&pMVar8->invoker_method + 4);
-      pSVar12 = (System_Int32_array *)(ulong)uVar1;
-      pSVar5->m_Items[1] = uVar1;
-      if (2 < uVar7) {
-        pSVar5->m_Items[2] = *(int32_t *)&pMVar8->name;
-        Utility_PhysicsLayer__SetLayerCollisions(iVar13,pSVar5,pMVar8);
-        iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0xc);
-        pSVar12 = (System_Int32_array *)&g_data_00000008;
-        uVar14 = TypeInfo_int;
-        pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-        uVar4 = (uint)uVar14;
-        if (pSVar5 == (System_Int32_array *)0x0) goto label_0449368d;
-        uVar7 = (uint)pSVar5->max_length;
-        if (uVar7 != 0) {
-          pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-          pSVar12 = (System_Int32_array *)(ulong)*(uint *)&pMVar8->virtualMethodPointer;
-          pSVar5->m_Items[0] = *(uint *)&pMVar8->virtualMethodPointer;
-          if (uVar7 != 1) {
-            uVar1 = *(uint *)((long)&pMVar8->invoker_method + 4);
-            pSVar12 = (System_Int32_array *)(ulong)uVar1;
-            pSVar5->m_Items[1] = uVar1;
-            if (2 < uVar7) {
-              uVar1 = *(uint *)((long)&pMVar8->name + 4);
-              pSVar12 = (System_Int32_array *)(ulong)uVar1;
-              pSVar5->m_Items[2] = uVar1;
-              if (uVar7 != 3) {
-                uVar1 = *(uint *)((long)&pMVar8->klass + 4);
-                pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                pSVar5->m_Items[3] = uVar1;
-                if (4 < uVar7) {
-                  uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4);
-                  pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                  pSVar5->m_Items[4] = uVar1;
-                  if (uVar7 != 5) {
-                    pSVar12 = (System_Int32_array *)(ulong)*(uint *)&pMVar8->field7_0x38;
-                    pSVar5->m_Items[5] = *(uint *)&pMVar8->field7_0x38;
-                    if (6 < uVar7) {
-                      uVar1 = *(uint *)((long)&pMVar8->parameters + 4);
-                      pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                      pSVar5->m_Items[6] = uVar1;
-                      if (uVar7 != 7) {
-                        pSVar5->m_Items[7] = *(int32_t *)&pMVar8->field_0x54;
-                        Utility_PhysicsLayer__SetLayerCollisions(iVar13,pSVar5,pMVar8);
-                        iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x10);
-                        pSVar12 = (System_Int32_array *)0x6;
-                        uVar14 = TypeInfo_int;
-                        pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                        uVar4 = (uint)uVar14;
-                        if (pSVar5 == (System_Int32_array *)0x0) goto label_0449368d;
-                        uVar7 = (uint)pSVar5->max_length;
-                        if (uVar7 != 0) {
-                          pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                          pSVar12 = (System_Int32_array *)(ulong)*(uint *)&pMVar8->invoker_method;
-                          pSVar5->m_Items[0] = *(uint *)&pMVar8->invoker_method;
-                          if (uVar7 != 1) {
-                            uVar1 = *(uint *)((long)&pMVar8->klass + 4);
-                            pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                            pSVar5->m_Items[1] = uVar1;
-                            if (2 < uVar7) {
-                              uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4);
-                              pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                              pSVar5->m_Items[2] = uVar1;
-                              if (uVar7 != 3) {
-                                pSVar12 = (System_Int32_array *)(ulong)*(uint *)&pMVar8->field7_0x38;
-                                pSVar5->m_Items[3] = *(uint *)&pMVar8->field7_0x38;
-                                if (4 < uVar7) {
-                                  uVar1 = *(uint *)((long)&pMVar8->parameters + 4);
-                                  pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                  pSVar5->m_Items[4] = uVar1;
-                                  if (uVar7 != 5) {
-                                    pSVar5->m_Items[5] = *(int32_t *)&pMVar8->slot;
-                                    Utility_PhysicsLayer__SetLayerCollisions(iVar13,pSVar5,pMVar8);
-                                    iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x14);
-                                    pSVar12 = (System_Int32_array *)&g_data_00000004;
-                                    uVar14 = TypeInfo_int;
-                                    pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                    uVar4 = (uint)uVar14;
-                                    if (pSVar5 == (System_Int32_array *)0x0) goto label_0449368d;
-                                    uVar7 = (uint)pSVar5->max_length;
-                                    if (uVar7 != 0) {
-                                      pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                      pSVar12 = (System_Int32_array *)
-                                                (ulong)*(uint *)&pMVar8->virtualMethodPointer;
-                                      pSVar5->m_Items[0] = *(uint *)&pMVar8->virtualMethodPointer;
-                                      if (uVar7 != 1) {
-                                        uVar1 = *(uint *)((long)&pMVar8->virtualMethodPointer + 4);
-                                        pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                        pSVar5->m_Items[1] = uVar1;
-                                        if (2 < uVar7) {
-                                          uVar1 = *(uint *)((long)&pMVar8->name + 4);
-                                          pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                          pSVar5->m_Items[2] = uVar1;
-                                          if (uVar7 != 3) {
-                                            pSVar5->m_Items[3] = *(int32_t *)&pMVar8->return_type;
-                                            Utility_PhysicsLayer__SetLayerCollisions(iVar13,pSVar5,pMVar8);
-                                            iVar13 = *(int32_t *)(*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x1c);
-                                            pSVar12 = (System_Int32_array *)0x6;
-                                            uVar14 = TypeInfo_int;
-                                            pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                            uVar4 = (uint)uVar14;
-                                            if (pSVar5 == (System_Int32_array *)0x0) goto label_0449368d;
-                                            uVar7 = (uint)pSVar5->max_length;
-                                            if (uVar7 != 0) {
-                                              pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                              uVar1 = *(uint *)((long)&pMVar8->virtualMethodPointer + 4);
-                                              pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                              pSVar5->m_Items[0] = uVar1;
-                                              if (uVar7 != 1) {
-                                                uVar1 = *(uint *)((long)&pMVar8->invoker_method + 4);
-                                                pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                pSVar5->m_Items[1] = uVar1;
-                                                if (2 < uVar7) {
-                                                  pSVar12 = (System_Int32_array *)
-                                                            (ulong)*(uint *)&pMVar8->klass;
-                                                  pSVar5->m_Items[2] = *(uint *)&pMVar8->klass;
-                                                  if (uVar7 != 3) {
-                                                    pSVar12 = (System_Int32_array *)
-                                                              (ulong)*(uint *)&pMVar8->field7_0x38;
-                                                    pSVar5->m_Items[3] = *(uint *)&pMVar8->field7_0x38;
-                                                    if (4 < uVar7) {
-                                                      uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4);
-                                                      pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                      pSVar5->m_Items[4] = uVar1;
-                                                      if (uVar7 != 5) {
-                                                        pSVar5->m_Items[5] = *(int32_t *)&pMVar8->parameters;
-                                                        Utility_PhysicsLayer__SetLayerCollisions
-                                                                  (iVar13,pSVar5,pMVar8);
-                                                        iVar13 = *(int32_t *)
-                                                                  (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x20);
-                                                        pSVar12 = (System_Int32_array *)0x1;
-                                                        uVar14 = TypeInfo_int;
-                                                        auVar16 = il2cpp_runtime_helper_022b2a40();
-                                                        pSVar5 = auVar16._0_8_;
-                                                        uVar4 = (uint)uVar14;
-                                                        if (pSVar5 == (System_Int32_array *)0x0)
-                                                        goto label_0449368d;
-                                                        if ((int)pSVar5->max_length != 0) {
-                                                          pSVar5->m_Items[0] =
-                                                               *(int32_t *)
-                                                                (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x1c);
-                                                          Utility_PhysicsLayer__SetLayerCollisions
-                                                                    (iVar13,pSVar5,auVar16._8_8_);
-                                                          iVar13 = *(int32_t *)
-                                                                    (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x24);
-                                                          pSVar12 = (System_Int32_array *)0x2;
-                                                          uVar14 = TypeInfo_int;
-                                                          pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                          uVar4 = (uint)uVar14;
-                                                          if (pSVar5 == (System_Int32_array *)0x0)
-                                                          goto label_0449368d;
-                                                          iVar6 = (int)pSVar5->max_length;
-                                                          if (iVar6 != 0) {
-                                                            pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                            uVar7 = *(uint *)((long)&pMVar8->
-                                                       virtualMethodPointer + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar7;
-                                                       pSVar5->m_Items[0] = uVar7;
-                                                       if (iVar6 != 1) {
-                                                         pSVar5->m_Items[1] =
-                                                              *(int32_t *)&pMVar8->invoker_method;
-                                                         Utility_PhysicsLayer__SetLayerCollisions
-                                                                   (iVar13,pSVar5,pMVar8);
-                                                         iVar13 = *(int32_t *)
-                                                                   (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x28);
-                                                         pSVar12 = (System_Int32_array *)&g_data_00000004;
-                                                         uVar14 = TypeInfo_int;
-                                                         pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                         uVar4 = (uint)uVar14;
-                                                         if (pSVar5 == (System_Int32_array *)0x0)
-                                                         goto label_0449368d;
-                                                         uVar7 = (uint)pSVar5->max_length;
-                                                         if (uVar7 != 0) {
-                                                           pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                           uVar1 = *(uint *)((long)&pMVar8->invoker_method + 4
-                                                                            );
-                                                           pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                           pSVar5->m_Items[0] = uVar1;
-                                                           if (uVar7 != 1) {
-                                                             uVar1 = *(uint *)((long)&pMVar8->parameters + 4);
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[1] = uVar1;
-                                                             if (2 < uVar7) {
-                                                               pSVar12 = (System_Int32_array *)
-                                                                         (ulong)*(uint *)&pMVar8->field7_0x38;
-                                                               pSVar5->m_Items[2] =
-                                                                    *(uint *)&pMVar8->field7_0x38;
-                                                               if (uVar7 != 3) {
-                                                                 pSVar5->m_Items[3] =
-                                                                      *(int32_t *)
-                                                                       ((long)&pMVar8->field7_0x38 + 4);
-                                                                 Utility_PhysicsLayer__SetLayerCollisions
-                                                                           (iVar13,pSVar5,pMVar8);
-                                                                 iVar13 = *(int32_t *)
-                                                                           (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                           0x18);
-                                                                 pSVar12 = (System_Int32_array *)0x1;
-                                                                 uVar14 = TypeInfo_int;
-                                                                 auVar16 = il2cpp_runtime_helper_022b2a40();
-                                                                 pSVar5 = auVar16._0_8_;
-                                                                 uVar4 = (uint)uVar14;
-                                                                 if (pSVar5 == (System_Int32_array *)0x0)
-                                                                 goto label_0449368d;
-                                                                 if ((int)pSVar5->max_length != 0) {
-                                                                   pSVar5->m_Items[0] =
-                                                                        *(int32_t *)
-                                                                         (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 8);
-                                                                   Utility_PhysicsLayer__SetLayerCollisions
-                                                                             (iVar13,pSVar5,auVar16._8_8_);
-                                                                   iVar13 = *(int32_t *)
-                                                                             (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                             0x2c);
-                                                                   pSVar12 = (System_Int32_array *)0x7;
-                                                                   uVar14 = TypeInfo_int;
-                                                                   pSVar5 = (System_Int32_array *)
-                                                                            il2cpp_runtime_helper_022b2a40();
-                                                                   uVar4 = (uint)uVar14;
-                                                                   if (pSVar5 == (System_Int32_array *)0x0)
-                                                                   goto label_0449368d;
-                                                                   uVar7 = (uint)pSVar5->max_length;
-                                                                   if (uVar7 != 0) {
-                                                                     pMVar8 = *(MethodInfo **)
-                                                                               (TypeInfo_PhysicsLayer + 0xb8);
-                                                                     uVar1 = *(uint *)((long)&pMVar8->
-                                                       field7_0x38 + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[0] = uVar1;
-                                                       if (uVar7 != 1) {
-                                                         uVar1 = *(uint *)((long)&pMVar8->return_type + 4);
-                                                         pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                         pSVar5->m_Items[1] = uVar1;
-                                                         if (2 < uVar7) {
-                                                           pSVar12 = (System_Int32_array *)
-                                                                     (ulong)*(uint *)&pMVar8->parameters;
-                                                           pSVar5->m_Items[2] = *(uint *)&pMVar8->parameters;
-                                                           if (uVar7 != 3) {
-                                                             uVar1._0_2_ = pMVar8->slot;
-                                                             uVar1._2_1_ = pMVar8->parameters_count;
-                                                             uVar1._3_1_ = pMVar8->bitflags;
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[3] = uVar1;
-                                                             if (4 < uVar7) {
-                                                               pSVar12 = (System_Int32_array *)
-                                                                         (ulong)*(uint *)&pMVar8->field_0x54;
-                                                               pSVar5->m_Items[4] =
-                                                                    *(uint *)&pMVar8->field_0x54;
-                                                               if (uVar7 != 5) {
-                                                                 uVar1 = *(uint *)((long)&pMVar8->parameters +
-                                                                                  4);
-                                                                 pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                                 pSVar5->m_Items[5] = uVar1;
-                                                                 if (6 < uVar7) {
-                                                                   pSVar5->m_Items[6] =
-                                                                        *(int32_t *)&pMVar8->field7_0x38;
-                                                                   Utility_PhysicsLayer__SetLayerCollisions
-                                                                             (iVar13,pSVar5,pMVar8);
-                                                                   iVar13 = *(int32_t *)
-                                                                             (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                             0x30);
-                                                                   pSVar12 = (System_Int32_array *)0x3;
-                                                                   uVar14 = TypeInfo_int;
-                                                                   pSVar5 = (System_Int32_array *)
-                                                                            il2cpp_runtime_helper_022b2a40();
-                                                                   uVar4 = (uint)uVar14;
-                                                                   if (pSVar5 == (System_Int32_array *)0x0)
-                                                                   goto label_0449368d;
-                                                                   uVar7 = (uint)pSVar5->max_length;
-                                                                   if (uVar7 != 0) {
-                                                                     pMVar8 = *(MethodInfo **)
-                                                                               (TypeInfo_PhysicsLayer + 0xb8);
-                                                                     uVar1 = *(uint *)((long)&pMVar8->
-                                                       field7_0x38 + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[0] = uVar1;
-                                                       if (uVar7 != 1) {
-                                                         uVar1 = *(uint *)((long)&pMVar8->return_type + 4);
-                                                         pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                         pSVar5->m_Items[1] = uVar1;
-                                                         if (2 < uVar7) {
-                                                           pSVar5->m_Items[2] =
-                                                                *(int32_t *)((long)&pMVar8->name + 4);
-                                                           Utility_PhysicsLayer__SetLayerCollisions
-                                                                     (iVar13,pSVar5,pMVar8);
-                                                           iVar13 = *(int32_t *)
-                                                                     (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x50);
-                                                           pSVar12 = (System_Int32_array *)0x3;
-                                                           uVar14 = TypeInfo_int;
-                                                           pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                           uVar4 = (uint)uVar14;
-                                                           if (pSVar5 == (System_Int32_array *)0x0)
-                                                           goto label_0449368d;
-                                                           uVar7 = (uint)pSVar5->max_length;
-                                                           if (uVar7 != 0) {
-                                                             pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                             uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4)
-                                                             ;
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[0] = uVar1;
-                                                             if (uVar7 != 1) {
-                                                               uVar1 = *(uint *)((long)&pMVar8->return_type +
-                                                                                4);
-                                                               pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                               pSVar5->m_Items[1] = uVar1;
-                                                               if (2 < uVar7) {
-                                                                 pSVar5->m_Items[2] =
-                                                                      *(int32_t *)&pMVar8->invoker_method;
-                                                                 Utility_PhysicsLayer__SetLayerCollisions
-                                                                           (iVar13,pSVar5,pMVar8);
-                                                                 iVar13 = *(int32_t *)
-                                                                           (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                           0x54);
-                                                                 pSVar12 = (System_Int32_array *)0x3;
-                                                                 uVar14 = TypeInfo_int;
-                                                                 pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40()
-                                                                 ;
-                                                                 uVar4 = (uint)uVar14;
-                                                                 if (pSVar5 == (System_Int32_array *)0x0)
-                                                                 goto label_0449368d;
-                                                                 uVar7 = (uint)pSVar5->max_length;
-                                                                 if (uVar7 != 0) {
-                                                                   pMVar8 = *(MethodInfo **)
-                                                                             (TypeInfo_PhysicsLayer + 0xb8);
-                                                                   uVar1 = *(uint *)((long)&pMVar8->
-                                                       field7_0x38 + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[0] = uVar1;
-                                                       if (uVar7 != 1) {
-                                                         uVar1 = *(uint *)((long)&pMVar8->return_type + 4);
-                                                         pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                         pSVar5->m_Items[1] = uVar1;
-                                                         if (2 < uVar7) {
-                                                           pSVar5->m_Items[2] =
-                                                                *(int32_t *)
-                                                                 ((long)&pMVar8->virtualMethodPointer + 4);
-                                                           Utility_PhysicsLayer__SetLayerCollisions
-                                                                     (iVar13,pSVar5,pMVar8);
-                                                           iVar13 = *(int32_t *)
-                                                                     (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x34);
-                                                           pSVar12 = (System_Int32_array *)&g_data_00000005;
-                                                           uVar14 = TypeInfo_int;
-                                                           pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                           uVar4 = (uint)uVar14;
-                                                           if (pSVar5 == (System_Int32_array *)0x0)
-                                                           goto label_0449368d;
-                                                           uVar7 = (uint)pSVar5->max_length;
-                                                           if (uVar7 != 0) {
-                                                             pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                             uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4)
-                                                             ;
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[0] = uVar1;
-                                                             if (uVar7 != 1) {
-                                                               uVar1 = *(uint *)((long)&pMVar8->return_type +
-                                                                                4);
-                                                               pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                               pSVar5->m_Items[1] = uVar1;
-                                                               if (2 < uVar7) {
-                                                                 uVar1 = *(uint *)((long)&pMVar8->
-                                                       virtualMethodPointer + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[2] = uVar1;
-                                                       if (uVar7 != 3) {
-                                                         pSVar12 = (System_Int32_array *)
-                                                                   (ulong)*(uint *)&pMVar8->invoker_method;
-                                                         pSVar5->m_Items[3] = *(uint *)&pMVar8->invoker_method
-                                                         ;
-                                                         if (4 < uVar7) {
-                                                           pSVar5->m_Items[4] =
-                                                                *(int32_t *)&pMVar8->return_type;
-                                                           Utility_PhysicsLayer__SetLayerCollisions
-                                                                     (iVar13,pSVar5,pMVar8);
-                                                           iVar13 = *(int32_t *)
-                                                                     (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x38);
-                                                           pSVar12 = (System_Int32_array *)0x6;
-                                                           uVar14 = TypeInfo_int;
-                                                           pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                           uVar4 = (uint)uVar14;
-                                                           if (pSVar5 == (System_Int32_array *)0x0)
-                                                           goto label_0449368d;
-                                                           uVar7 = (uint)pSVar5->max_length;
-                                                           if (uVar7 != 0) {
-                                                             pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                             uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4)
-                                                             ;
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[0] = uVar1;
-                                                             if (uVar7 != 1) {
-                                                               uVar1 = *(uint *)((long)&pMVar8->return_type +
-                                                                                4);
-                                                               pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                               pSVar5->m_Items[1] = uVar1;
-                                                               if (2 < uVar7) {
-                                                                 pSVar12 = (System_Int32_array *)
-                                                                           (ulong)*(uint *)&pMVar8->
-                                                       invoker_method;
-                                                       pSVar5->m_Items[2] = *(uint *)&pMVar8->invoker_method;
-                                                       if (uVar7 != 3) {
-                                                         uVar1 = *(uint *)((long)&pMVar8->virtualMethodPointer
-                                                                          + 4);
-                                                         pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                         pSVar5->m_Items[3] = uVar1;
-                                                         if (4 < uVar7) {
-                                                           uVar1 = *(uint *)((long)&pMVar8->name + 4);
-                                                           pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                           pSVar5->m_Items[4] = uVar1;
-                                                           if (uVar7 != 5) {
-                                                             pSVar5->m_Items[5] =
-                                                                  *(int32_t *)&pMVar8->return_type;
-                                                             Utility_PhysicsLayer__SetLayerCollisions
-                                                                       (iVar13,pSVar5,pMVar8);
-                                                             iVar13 = *(int32_t *)
-                                                                       (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x3c)
-                                                             ;
-                                                             pSVar12 = (System_Int32_array *)&g_data_0000000b;
-                                                             uVar14 = TypeInfo_int;
-                                                             pSVar5 = (System_Int32_array *)il2cpp_runtime_helper_022b2a40();
-                                                             uVar4 = (uint)uVar14;
-                                                             if (pSVar5 == (System_Int32_array *)0x0)
-                                                             goto label_0449368d;
-                                                             uVar7 = (uint)pSVar5->max_length;
-                                                             if (uVar7 != 0) {
-                                                               pMVar8 = *(MethodInfo **)(TypeInfo_PhysicsLayer + 0xb8);
-                                                               uVar1 = *(uint *)((long)&pMVar8->
-                                                       virtualMethodPointer + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[0] = uVar1;
-                                                       if (uVar7 != 1) {
-                                                         pSVar12 = (System_Int32_array *)
-                                                                   (ulong)*(uint *)&pMVar8->invoker_method;
-                                                         pSVar5->m_Items[1] = *(uint *)&pMVar8->invoker_method
-                                                         ;
-                                                         if (2 < uVar7) {
-                                                           uVar1 = *(uint *)((long)&pMVar8->name + 4);
-                                                           pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                           pSVar5->m_Items[2] = uVar1;
-                                                           if (uVar7 != 3) {
-                                                             uVar1 = *(uint *)((long)&pMVar8->field7_0x38 + 4)
-                                                             ;
-                                                             pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                             pSVar5->m_Items[3] = uVar1;
-                                                             if (4 < uVar7) {
-                                                               uVar2._0_2_ = pMVar8->slot;
-                                                               uVar2._2_1_ = pMVar8->parameters_count;
-                                                               uVar2._3_1_ = pMVar8->bitflags;
-                                                               pSVar12 = (System_Int32_array *)(ulong)uVar2;
-                                                               pSVar5->m_Items[4] = uVar2;
-                                                               if (uVar7 != 5) {
-                                                                 pSVar12 = (System_Int32_array *)
-                                                                           (ulong)*(uint *)&pMVar8->field_0x54
-                                                                 ;
-                                                                 pSVar5->m_Items[5] =
-                                                                      *(uint *)&pMVar8->field_0x54;
-                                                                 if (6 < uVar7) {
-                                                                   uVar1 = *(uint *)((long)&pMVar8->
-                                                       return_type + 4);
-                                                       pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                       pSVar5->m_Items[6] = uVar1;
-                                                       if (uVar7 != 7) {
-                                                         pSVar12 = (System_Int32_array *)
-                                                                   (ulong)*(uint *)&pMVar8->field7_0x38;
-                                                         pSVar5->m_Items[7] = *(uint *)&pMVar8->field7_0x38;
-                                                         if (8 < uVar7) {
-                                                           uVar1 = *(uint *)((long)&pMVar8->parameters + 4);
-                                                           pSVar12 = (System_Int32_array *)(ulong)uVar1;
-                                                           pSVar5->m_Items[8] = uVar1;
-                                                           if (uVar7 != 9) {
-                                                             pSVar12 = (System_Int32_array *)
-                                                                       (ulong)*(uint *)&pMVar8->parameters;
-                                                             pSVar5->m_Items[9] = *(uint *)&pMVar8->parameters
-                                                             ;
-                                                             if (10 < uVar7) {
-                                                               pSVar5->m_Items[10] =
-                                                                    *(int32_t *)&pMVar8->return_type;
-                                                               Utility_PhysicsLayer__SetLayerCollisions
-                                                                         (iVar13,pSVar5,pMVar8);
-                                                               iVar13 = *(int32_t *)
-                                                                         (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                         0x40);
-                                                               auVar16 = il2cpp_runtime_helper_022b2a40(TypeInfo_int,0);
-                                                               Utility_PhysicsLayer__SetLayerCollisions
-                                                                         (iVar13,auVar16._0_8_,auVar16._8_8_);
-                                                               iVar13 = *(int32_t *)
-                                                                         (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                         0x44);
-                                                               auVar16 = il2cpp_runtime_helper_022b2a40(TypeInfo_int,0);
-                                                               Utility_PhysicsLayer__SetLayerCollisions
-                                                                         (iVar13,auVar16._0_8_,auVar16._8_8_);
-                                                               iVar13 = *(int32_t *)
-                                                                         (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                         0x48);
-                                                               auVar16 = il2cpp_runtime_helper_022b2a40(TypeInfo_int,0);
-                                                               Utility_PhysicsLayer__SetLayerCollisions
-                                                                         (iVar13,auVar16._0_8_,auVar16._8_8_);
-                                                               iVar13 = *(int32_t *)
-                                                                         (*(long *)(TypeInfo_PhysicsLayer + 0xb8) +
-                                                                         0x4c);
-                                                               auVar16 = il2cpp_runtime_helper_022b2a40(TypeInfo_int,0);
-                                                               Utility_PhysicsLayer__SetLayerCollisions
-                                                                         (iVar13,auVar16._0_8_,auVar16._8_8_);
-                                                               return;
-                                                             }
-                                                           }
-                                                         }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                       }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
+  iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->NoCollision;
+  pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0);
+  Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+  iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox;
+  pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,4);
+  if (pSVar2 != (System_Int32_array *)0x0) {
+    if (((((int)pSVar2->max_length != 0) &&
+         (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+         1 < (uint)pSVar2->max_length)) &&
+        (pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox,
+        2 < (uint)pSVar2->max_length)) &&
+       (pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox,
+       3 < (uint)pSVar2->max_length)) {
+      pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+      Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+      iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->Human;
+      pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,8);
+      if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+      if (((((int)pSVar2->max_length != 0) &&
+           (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox,
+           1 < (uint)pSVar2->max_length)) &&
+          ((pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox,
+           2 < (uint)pSVar2->max_length &&
+           ((pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,
+            3 < (uint)pSVar2->max_length &&
+            (pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->CharacterDetection,
+            4 < (uint)pSVar2->max_length)))))) &&
+         ((pSVar2->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+          5 < (uint)pSVar2->max_length &&
+          ((pSVar2->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
+           6 < (uint)pSVar2->max_length &&
+           (pSVar2->m_Items[6] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters,
+           7 < (uint)pSVar2->max_length)))))) {
+        pSVar2->m_Items[7] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans;
+        Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+        iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox;
+        pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,6);
+        if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+        if (((((int)pSVar2->max_length != 0) &&
+             (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox,
+             1 < (uint)pSVar2->max_length)) &&
+            (pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->CharacterDetection,
+            2 < (uint)pSVar2->max_length)) &&
+           (((pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+             3 < (uint)pSVar2->max_length &&
+             (pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
+             4 < (uint)pSVar2->max_length)) &&
+            (pSVar2->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters,
+            5 < (uint)pSVar2->max_length)))) {
+          pSVar2->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans;
+          Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+          iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox;
+          pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,4);
+          if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+          if ((((int)pSVar2->max_length != 0) &&
+              (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox,
+              1 < (uint)pSVar2->max_length)) &&
+             ((pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+              2 < (uint)pSVar2->max_length &&
+              (pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,
+              3 < (uint)pSVar2->max_length)))) {
+            pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+            Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+            iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile;
+            pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,7);
+            if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+            if ((((((int)pSVar2->max_length != 0) &&
+                  (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+                  1 < (uint)pSVar2->max_length)) &&
+                 (pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox,
+                 2 < (uint)pSVar2->max_length)) &&
+                ((pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->ProjectileDetection,
+                 3 < (uint)pSVar2->max_length &&
+                 (pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
+                 4 < (uint)pSVar2->max_length)))) &&
+               ((pSVar2->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                5 < (uint)pSVar2->max_length &&
+                (pSVar2->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectProjectiles,
+                6 < (uint)pSVar2->max_length)))) {
+              pSVar2->m_Items[6] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+              Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+              iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->ProjectileDetection;
+              pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,1);
+              if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+              if ((int)pSVar2->max_length != 0) {
+                pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile;
+                Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->CharacterDetection;
+                pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,2);
+                if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                if (((int)pSVar2->max_length != 0) &&
+                   (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+                   1 < (uint)pSVar2->max_length)) {
+                  pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox;
+                  Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                  iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+                  pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,6);
+                  if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                  if ((((((int)pSVar2->max_length != 0) &&
+                        (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox,
+                        1 < (uint)pSVar2->max_length)) &&
+                       (pSVar2->m_Items[1] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters
+                       , 2 < (uint)pSVar2->max_length)) &&
+                      ((pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
+                       3 < (uint)pSVar2->max_length &&
+                       (pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                       4 < (uint)pSVar2->max_length)))) &&
+                     (pSVar2->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox,
+                     5 < (uint)pSVar2->max_length)) {
+                    pSVar2->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile;
+                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                    iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox;
+                    pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,1);
+                    if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                    if ((int)pSVar2->max_length != 0) {
+                      pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox;
+                      Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                      iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects;
+                      pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,7);
+                      if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                      if (((((int)pSVar2->max_length != 0) &&
+                           (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                           1 < (uint)pSVar2->max_length)) &&
+                          ((pSVar2->m_Items[1] =
+                                 TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                           2 < (uint)pSVar2->max_length &&
+                           (((pSVar2->m_Items[2] =
+                                   TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectProjectiles,
+                             3 < (uint)pSVar2->max_length &&
+                             (pSVar2->m_Items[3] =
+                                   TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans,
+                             4 < (uint)pSVar2->max_length)) &&
+                            (pSVar2->m_Items[4] =
+                                  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans,
+                            5 < (uint)pSVar2->max_length)))))) &&
+                         (pSVar2->m_Items[5] =
+                               TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters,
+                         6 < (uint)pSVar2->max_length)) {
+                        pSVar2->m_Items[6] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities;
+                        Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                        iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectProjectiles;
+                        pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,3);
+                        if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                        if ((((int)pSVar2->max_length != 0) &&
+                            (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                            1 < (uint)pSVar2->max_length)) &&
+                           (pSVar2->m_Items[1] =
+                                 TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                           2 < (uint)pSVar2->max_length)) {
+                          pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Projectile;
+                          Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                          iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans;
+                          pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,3);
+                          if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                          if ((((int)pSVar2->max_length != 0) &&
+                              (pSVar2->m_Items[0] = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll
+                              , 1 < (uint)pSVar2->max_length)) &&
+                             (pSVar2->m_Items[1] =
+                                   TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                             2 < (uint)pSVar2->max_length)) {
+                            pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox;
+                            Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                            iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans;
+                            pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,3);
+                            if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                            if ((((int)pSVar2->max_length != 0) &&
+                                (pSVar2->m_Items[0] =
+                                      TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                                1 < (uint)pSVar2->max_length)) &&
+                               (pSVar2->m_Items[1] =
+                                     TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                               2 < (uint)pSVar2->max_length)) {
+                              pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Human;
+                              Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                              iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters;
+                              pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,5);
+                              if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                              if ((((int)pSVar2->max_length != 0) &&
+                                  (pSVar2->m_Items[0] =
+                                        TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                                  1 < (uint)pSVar2->max_length)) &&
+                                 ((pSVar2->m_Items[1] =
+                                        TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                                  2 < (uint)pSVar2->max_length &&
+                                  ((pSVar2->m_Items[2] = TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+                                   3 < (uint)pSVar2->max_length &&
+                                   (pSVar2->m_Items[3] =
+                                         TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox,
+                                   4 < (uint)pSVar2->max_length)))))) {
+                                pSVar2->m_Items[4] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+                                Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities;
+                                pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,6);
+                                if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                                if ((((((int)pSVar2->max_length != 0) &&
+                                      (pSVar2->m_Items[0] =
+                                            TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                                      1 < (uint)pSVar2->max_length)) &&
+                                     (pSVar2->m_Items[1] =
+                                           TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects,
+                                     2 < (uint)pSVar2->max_length)) &&
+                                    ((pSVar2->m_Items[2] =
+                                           TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox,
+                                     3 < (uint)pSVar2->max_length &&
+                                     (pSVar2->m_Items[3] = TypeInfo_Utility_PhysicsLayer->static_fields->Human
+                                     , 4 < (uint)pSVar2->max_length)))) &&
+                                   (pSVar2->m_Items[4] =
+                                         TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,
+                                   5 < (uint)pSVar2->max_length)) {
+                                  pSVar2->m_Items[5] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+                                  Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                  iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll;
+                                  pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0xb);
+                                  if (pSVar2 == (System_Int32_array *)0x0) goto label_18233cb1b;
+                                  if ((((int)pSVar2->max_length != 0) &&
+                                      (pSVar2->m_Items[0] =
+                                            TypeInfo_Utility_PhysicsLayer->static_fields->Human,
+                                      1 < (uint)pSVar2->max_length)) &&
+                                     ((((pSVar2->m_Items[1] =
+                                              TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox,
+                                        2 < (uint)pSVar2->max_length &&
+                                        (((pSVar2->m_Items[2] =
+                                                TypeInfo_Utility_PhysicsLayer->static_fields->Projectile,
+                                          3 < (uint)pSVar2->max_length &&
+                                          (pSVar2->m_Items[3] =
+                                                TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll,
+                                          4 < (uint)pSVar2->max_length)) &&
+                                         (pSVar2->m_Items[4] =
+                                               TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans,
+                                         5 < (uint)pSVar2->max_length)))) &&
+                                       (((pSVar2->m_Items[5] =
+                                               TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans,
+                                         6 < (uint)pSVar2->max_length &&
+                                         (pSVar2->m_Items[6] =
+                                               TypeInfo_Utility_PhysicsLayer->static_fields->
+                                               MapObjectMapObjects, 7 < (uint)pSVar2->max_length)) &&
+                                        (pSVar2->m_Items[7] =
+                                              TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities,
+                                        8 < (uint)pSVar2->max_length)))) &&
+                                      ((pSVar2->m_Items[8] =
+                                             TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters
+                                       , 9 < (uint)pSVar2->max_length &&
+                                       (pSVar2->m_Items[9] =
+                                             TypeInfo_Utility_PhysicsLayer->static_fields->
+                                             MapObjectProjectiles, 10 < (uint)pSVar2->max_length)))))) {
+                                    pSVar2->m_Items[10] = TypeInfo_Utility_PhysicsLayer->static_fields->NPC;
+                                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                    iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorObject;
+                                    pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0);
+                                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                    iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorGizmo;
+                                    pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0);
+                                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                    iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->MinimapIcon;
+                                    pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0);
+                                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                    iVar1 = TypeInfo_Utility_PhysicsLayer->static_fields->Background;
+                                    pSVar2 = (System_Int32_array *)SZArrayNew(TypeInfo_int_array,0);
+                                    Utility_PhysicsLayer__SetLayerCollisions(iVar1,pSVar2,(MethodInfo *)0x0);
+                                    return;
                                   }
                                 }
                               }
@@ -625,412 +300,209 @@ void Utility_PhysicsLayer__Init(MethodInfo *method)
         }
       }
     }
+    ThrowIndexOutOfRangeException();
   }
-  il2cpp_runtime_helper_022b2ca0();
-label_0449368d:
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae919 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Physics);
-    g_data_057ae919 = '\x01';
-  }
-  iVar6 = *(int *)(TypeInfo_Physics + 0xe4);
-  pMVar8 = (MethodInfo *)0x0;
-  while( true ) {
-    if (iVar6 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    iVar6 = (int)pMVar8;
-    pSVar5 = (System_Int32_array *)(ulong)uVar4;
-    UnityEngine_Physics__IgnoreLayerCollision(uVar4,iVar6,1,(MethodInfo *)0x0);
-    uVar7 = iVar6 + 1;
-    if (uVar7 == 0x20) break;
-    iVar6 = *(int *)(TypeInfo_Physics + 0xe4);
-    pMVar8 = (MethodInfo *)(ulong)uVar7;
-  }
-  if (pSVar12 != (System_Int32_array *)0x0) {
-    if ((int)pSVar12->max_length < 1) {
-label_0449378d:
-      if (*(int *)(TypeInfo_PhysicsLayer + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar15 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-                 (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-      UVar3 = Utility_PhysicsLayer__GetMask(pSVar12,pMVar8);
-      pSVar5 = pSVar12;
-      if (pSVar15 != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-        System_Collections_Generic_Dictionary_int__LayerMask___Add(pSVar15,uVar4,UVar3,MethodInfo_Void_Add);
-        return;
-      }
-    }
-    else {
-      uVar11 = 0;
-      if ((pSVar12->max_length & 0xffffffff) != 0) {
-        do {
-          uVar7 = pSVar12->m_Items[uVar11];
-          pMVar8 = (MethodInfo *)(ulong)uVar7;
-          if (*(int *)(TypeInfo_Physics + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar5 = (System_Int32_array *)(ulong)uVar4;
-          UnityEngine_Physics__IgnoreLayerCollision(uVar4,uVar7,0,(MethodInfo *)0x0);
-          uVar11 = uVar11 + 1;
-          uVar7 = (uint)pSVar12->max_length;
-          if ((long)(int)uVar7 <= (long)uVar11) goto label_0449378d;
-        } while (uVar11 < uVar7);
-      }
-      il2cpp_runtime_helper_022b2ca0();
-    }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar12 = pSVar5;
-  if (pSVar5 != (System_Int32_array *)0x0) {
-    if (pSVar5->max_length == 0) {
-      UnityEngine_LayerMask__op_Implicit_4dfc6f0(0,(MethodInfo *)0x0);
-      return;
-    }
-    if ((int)pSVar5->max_length != 0) {
-      UVar3 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                        (1 << ((byte)pSVar5->m_Items[0] & 0x1f),(MethodInfo *)0x0);
-      if (1 < (int)pSVar5->max_length) {
-        lVar9 = 9;
-        do {
-          pSVar12 = (System_Int32_array *)(ulong)(uint)UVar3.fields.m_Mask;
-          uVar4 = UnityEngine_LayerMask__op_Implicit(UVar3,(MethodInfo *)0x0);
-          if ((ulong)(uint)pSVar5->max_length <= lVar9 - 8U) goto label_0449387f;
-          UVar3 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                            (uVar4 | 1 << ((byte)pSVar5->m_Items[lVar9 + -8] & 0x1f),(MethodInfo *)0x0);
-          lVar10 = lVar9 + -7;
-          lVar9 = lVar9 + 1;
-        } while (lVar10 < (int)pSVar5->max_length);
-      }
-      return;
-    }
-label_0449387f:
-    il2cpp_runtime_helper_022b2ca0();
-  }
-  iVar13 = (int32_t)pSVar12;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae918 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayerMask_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae918 = '\x01';
-    iVar6 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  else {
-    iVar6 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  if (iVar6 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar15 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-               (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  else {
-    pSVar15 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-               (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  if (pSVar15 != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-    System_Collections_Generic_Dictionary_int__LayerMask___get_Item(pSVar15,iVar13,MethodInfo_LayerMask_get_Item);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pSVar15,(MethodInfo *)0x0);
-  return;
+label_18233cb1b:
+  ThrowNullReferenceException();
 }
 
 
 // Utility.PhysicsLayer$$GetMask
 // il2cpp: UnityEngine_LayerMask_o Utility_PhysicsLayer__GetMask (System_Int32_array* layers, const MethodInfo* method);
-// 0x44937f0
+// 0x18233bc40
 
 UnityEngine_LayerMask_o Utility_PhysicsLayer__GetMask(System_Int32_array *layers,MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_LayerMask_o UVar2;
-  uint uVar3;
-  UnityEngine_LayerMask_Fields extraout_EAX;
-  long lVar4;
-  long lVar5;
-  int32_t key;
-  System_Int32_array *pSVar6;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *__this;
+  UnityEngine_LayerMask_o UVar1;
+  uint uVar2;
   
-  pSVar6 = layers;
-  if (layers != (System_Int32_array *)0x0) {
-    if (layers->max_length == 0) {
-      UVar2 = UnityEngine_LayerMask__op_Implicit_4dfc6f0(0,(MethodInfo *)0x0);
-      return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar2;
-    }
+  if (layers == (System_Int32_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if (layers->max_length != 0) {
     if ((int)layers->max_length != 0) {
-      UVar2 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                        (1 << ((byte)layers->m_Items[0] & 0x1f),(MethodInfo *)0x0);
-      if (1 < (int)layers->max_length) {
-        lVar4 = 9;
-        do {
-          pSVar6 = (System_Int32_array *)(ulong)(uint)UVar2.fields.m_Mask;
-          uVar3 = UnityEngine_LayerMask__op_Implicit(UVar2,(MethodInfo *)0x0);
-          if ((ulong)(uint)layers->max_length <= lVar4 - 8U) goto label_0449387f;
-          UVar2 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                            (uVar3 | 1 << ((byte)layers->m_Items[lVar4 + -8] & 0x1f),(MethodInfo *)0x0);
-          lVar5 = lVar4 + -7;
-          lVar4 = lVar4 + 1;
-        } while (lVar5 < (int)layers->max_length);
+      uVar2 = 1;
+      UVar1 = UnityEngine_LayerMask__op_Implicit(1 << ((byte)layers->m_Items[0] & 0x1f),(MethodInfo *)0x0);
+      while( true ) {
+        if ((int)layers->max_length <= (int)uVar2) {
+          return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar1;
+        }
+        UVar1 = UnityEngine_LayerMask__op_Implicit((int32_t)UVar1.fields.m_Mask,(MethodInfo *)0x0);
+        if ((uint)layers->max_length <= uVar2) break;
+        UVar1 = UnityEngine_LayerMask__op_Implicit
+                          ((uint)UVar1.fields.m_Mask | 1 << (layers->m_Items[(int)uVar2] & 0x1fU),
+                           (MethodInfo *)0x0);
+        uVar2 = uVar2 + 1;
       }
-      return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar2;
     }
-label_0449387f:
-    il2cpp_runtime_helper_022b2ca0();
+    ThrowIndexOutOfRangeException();
   }
-  key = (int32_t)pSVar6;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae918 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayerMask_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae918 = '\x01';
-    iVar1 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  else {
-    __this = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  if (__this != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-    UVar2 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item(__this,key,MethodInfo_LayerMask_get_Item);
-    return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar2;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)extraout_EAX.m_Mask;
+  UVar1 = UnityEngine_LayerMask__op_Implicit(0,(MethodInfo *)0x0);
+  return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar1;
 }
 
 
 // Utility.PhysicsLayer$$CopyMask
 // il2cpp: UnityEngine_LayerMask_o Utility_PhysicsLayer__CopyMask (int32_t originLayer, const MethodInfo* method);
-// 0x4493890
+// 0x18233bbc0
 
 UnityEngine_LayerMask_o Utility_PhysicsLayer__CopyMask(int32_t originLayer,MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_LayerMask_o UVar2;
-  UnityEngine_LayerMask_Fields extraout_EAX;
   System_Collections_Generic_Dictionary_int__LayerMask__o *__this;
+  UnityEngine_LayerMask_o UVar1;
   
-  if (g_data_057ae918 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayerMask_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae918 = '\x01';
-    iVar1 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
+  if (Il2CppMethodInitialized_18434783b == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    Il2CppMethodInitialized_18434783b = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
+  if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  else {
-    __this = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
+  __this = TypeInfo_Utility_PhysicsLayer->static_fields->_masks;
   if (__this != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-    UVar2 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item(__this,originLayer,MethodInfo_LayerMask_get_Item);
-    return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar2;
+    UVar1 = System_Collections_Generic_Dictionary_int__LayerMask___get_Item
+                      (__this,originLayer,
+                       (MethodInfo_14157A0 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_get_Item);
+    return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)UVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
-  return (UnityEngine_LayerMask_Fields)(UnityEngine_LayerMask_Fields)extraout_EAX.m_Mask;
+  ThrowNullReferenceException();
 }
 
 
 // Utility.PhysicsLayer$$SetLayerCollisions
 // il2cpp: void Utility_PhysicsLayer__SetLayerCollisions (int32_t layer, System_Int32_array* others, const MethodInfo* method);
-// 0x44936a0
+// 0x18233cb30
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18233cbbd: nop dword ptr [rax]
 
 void Utility_PhysicsLayer__SetLayerCollisions(int32_t layer,System_Int32_array *others,MethodInfo *method)
 
 {
+  System_Collections_Generic_Dictionary_int__LayerMask__o *__this;
   UnityEngine_LayerMask_o UVar1;
-  int iVar2;
+  int32_t iVar2;
   uint uVar3;
-  MethodInfo *method_00;
-  long lVar4;
-  long lVar5;
-  ulong uVar6;
-  int32_t key;
-  System_Int32_array *pSVar7;
-  System_Int32_array *pSVar8;
-  System_Collections_Generic_Dictionary_int__LayerMask__o *pSVar9;
   
-  if (g_data_057ae919 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Physics);
-    g_data_057ae919 = '\x01';
+  if (Il2CppMethodInitialized_18434783c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Physics);
+    Il2CppMethodInitialized_18434783c = '\x01';
   }
-  iVar2 = *(int *)(TypeInfo_Physics + 0xe4);
-  method_00 = (MethodInfo *)0x0;
-  while( true ) {
-    if (iVar2 == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  iVar2 = 0;
+  do {
+    if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
     }
-    pSVar7 = (System_Int32_array *)(ulong)(uint)layer;
-    iVar2 = (int)method_00;
-    UnityEngine_Physics__IgnoreLayerCollision(layer,iVar2,1,(MethodInfo *)0x0);
-    uVar3 = iVar2 + 1;
-    if (uVar3 == 0x20) break;
-    iVar2 = *(int *)(TypeInfo_Physics + 0xe4);
-    method_00 = (MethodInfo *)(ulong)uVar3;
-  }
+    UnityEngine_Physics__IgnoreLayerCollision(layer,iVar2,true,(MethodInfo *)0x0);
+    iVar2 = iVar2 + 1;
+  } while (iVar2 < 0x20);
   if (others != (System_Int32_array *)0x0) {
-    if ((int)others->max_length < 1) {
-label_0449378d:
-      if (*(int *)(TypeInfo_PhysicsLayer + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+    for (uVar3 = 0; (int)uVar3 < (int)others->max_length; uVar3 = uVar3 + 1) {
+      if ((uint)others->max_length <= uVar3) goto label_18233ccba;
+      iVar2 = others->m_Items[(int)uVar3];
+      if ((TypeInfo_UnityEngine_Physics->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Physics);
       }
-      pSVar9 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-                (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-      UVar1 = Utility_PhysicsLayer__GetMask(others,method_00);
-      pSVar7 = others;
-      if (pSVar9 != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-        System_Collections_Generic_Dictionary_int__LayerMask___Add(pSVar9,layer,UVar1,MethodInfo_Void_Add);
-        return;
-      }
+      UnityEngine_Physics__IgnoreLayerCollision(layer,iVar2,false,(MethodInfo *)0x0);
+    }
+    if ((TypeInfo_Utility_PhysicsLayer->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_PhysicsLayer);
+    }
+    __this = TypeInfo_Utility_PhysicsLayer->static_fields->_masks;
+    if (others->max_length == 0) {
+      UVar1 = UnityEngine_LayerMask__op_Implicit(0,(MethodInfo *)0x0);
     }
     else {
-      uVar6 = 0;
-      if ((others->max_length & 0xffffffff) != 0) {
-        do {
-          uVar3 = others->m_Items[uVar6];
-          method_00 = (MethodInfo *)(ulong)uVar3;
-          if (*(int *)(TypeInfo_Physics + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          pSVar7 = (System_Int32_array *)(ulong)(uint)layer;
-          UnityEngine_Physics__IgnoreLayerCollision(layer,uVar3,0,(MethodInfo *)0x0);
-          uVar6 = uVar6 + 1;
-          uVar3 = (uint)others->max_length;
-          if ((long)(int)uVar3 <= (long)uVar6) goto label_0449378d;
-        } while (uVar6 < uVar3);
+      if ((int)others->max_length == 0) {
+label_18233ccba:
+        ThrowIndexOutOfRangeException();
       }
-      il2cpp_runtime_helper_022b2ca0();
+      UVar1 = UnityEngine_LayerMask__op_Implicit(1 << ((byte)others->m_Items[0] & 0x1f),(MethodInfo *)0x0);
+      for (uVar3 = 1; (int)uVar3 < (int)others->max_length; uVar3 = uVar3 + 1) {
+        UVar1 = UnityEngine_LayerMask__op_Implicit((int32_t)UVar1.fields.m_Mask,(MethodInfo *)0x0);
+        if ((uint)others->max_length <= uVar3) goto label_18233ccba;
+        UVar1 = UnityEngine_LayerMask__op_Implicit
+                          ((uint)UVar1.fields.m_Mask | 1 << (others->m_Items[(int)uVar3] & 0x1fU),
+                           (MethodInfo *)0x0);
+      }
     }
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pSVar8 = pSVar7;
-  if (pSVar7 != (System_Int32_array *)0x0) {
-    if (pSVar7->max_length == 0) {
-      UnityEngine_LayerMask__op_Implicit_4dfc6f0(0,(MethodInfo *)0x0);
+    if (__this != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
+      System_Collections_Generic_Dictionary_int__LayerMask___Add
+                (__this,layer,UVar1,
+                 (MethodInfo_1415B30 *)MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_Add);
       return;
     }
-    if ((int)pSVar7->max_length != 0) {
-      UVar1 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                        (1 << ((byte)pSVar7->m_Items[0] & 0x1f),(MethodInfo *)0x0);
-      if (1 < (int)pSVar7->max_length) {
-        lVar4 = 9;
-        do {
-          pSVar8 = (System_Int32_array *)(ulong)(uint)UVar1.fields.m_Mask;
-          uVar3 = UnityEngine_LayerMask__op_Implicit(UVar1,(MethodInfo *)0x0);
-          if ((ulong)(uint)pSVar7->max_length <= lVar4 - 8U) goto label_0449387f;
-          UVar1 = UnityEngine_LayerMask__op_Implicit_4dfc6f0
-                            (uVar3 | 1 << ((byte)pSVar7->m_Items[lVar4 + -8] & 0x1f),(MethodInfo *)0x0);
-          lVar5 = lVar4 + -7;
-          lVar4 = lVar4 + 1;
-        } while (lVar5 < (int)pSVar7->max_length);
-      }
-      return;
-    }
-label_0449387f:
-    il2cpp_runtime_helper_022b2ca0();
   }
-  key = (int32_t)pSVar8;
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae918 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_LayerMask_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae918 = '\x01';
-    iVar2 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  else {
-    iVar2 = *(int *)(TypeInfo_PhysicsLayer + 0xe4);
-  }
-  if (iVar2 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    pSVar9 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  else {
-    pSVar9 = *(System_Collections_Generic_Dictionary_int__LayerMask__o **)
-              (*(long *)(TypeInfo_PhysicsLayer + 0xb8) + 0x58);
-  }
-  if (pSVar9 != (System_Collections_Generic_Dictionary_int__LayerMask__o *)0x0) {
-    System_Collections_Generic_Dictionary_int__LayerMask___get_Item(pSVar9,key,MethodInfo_LayerMask_get_Item);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  System_Object___ctor((Il2CppObject *)pSVar9,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Utility.PhysicsLayer$$.ctor
 // il2cpp: void Utility_PhysicsLayer___ctor (Utility_PhysicsLayer_o* __this, const MethodInfo* method);
-// 0x4493930
+// 0x18054c890
 
-void Utility_PhysicsLayer___ctor(Utility_PhysicsLayer_o *__this,MethodInfo *method)
+void
+Utility_PhysicsLayer___ctor(Utility_PhysicsLayer_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // Utility.PhysicsLayer$$.cctor
 // il2cpp: void Utility_PhysicsLayer___cctor (const MethodInfo* method);
-// 0x4493940
+// 0x18233ccc0
 
 void Utility_PhysicsLayer___cctor(MethodInfo *method)
 
 {
-  undefined8 *puVar1;
-  long lVar2;
   System_Collections_Generic_Dictionary_int__LayerMask__o *__this;
   
-  if (g_data_057ae91a == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_Int32_UnityEngine_LayerMask);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_int_LayerMask);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhysicsLayer);
-    g_data_057ae91a = '\x01';
+  if (Il2CppMethodInitialized_18434783d == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_Dictionary_int_LayerMask);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_PhysicsLayer);
+    Il2CppMethodInitialized_18434783d = '\x01';
   }
-  puVar1 = *(undefined8 **)(TypeInfo_PhysicsLayer + 0xb8);
-  *puVar1 = 0x800000005;
-  puVar1[1] = 0xa00000009;
-  puVar1[2] = 0xc0000000b;
-  puVar1[3] = 0xe0000000d;
-  puVar1[4] = 0x100000000f;
-  puVar1[5] = 0x1400000011;
-  puVar1[6] = 0x1600000015;
-  puVar1[7] = 0x1800000017;
-  *(undefined4 *)(puVar1 + 8) = 0x19;
-  *(undefined4 *)((long)puVar1 + 0x44) = 0x1a;
-  *(undefined4 *)(puVar1 + 9) = 0x1b;
-  *(undefined4 *)((long)puVar1 + 0x4c) = 0x1c;
-  puVar1[10] = 0x1e0000001d;
-  __this = (System_Collections_Generic_Dictionary_int__LayerMask__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_int_LayerMask);
-  System_Collections_Generic_Dictionary_int__LayerMask____ctor(__this,MethodInfo_Dictionary_2_System_Int32_UnityEngine_LayerMask);
-  lVar2 = *(long *)(TypeInfo_PhysicsLayer + 0xb8);
-  *(System_Collections_Generic_Dictionary_int__LayerMask__o **)(lVar2 + 0x58) = __this;
-  il2cpp_runtime_helper_022b4080(lVar2 + 0x58,__this);
+  TypeInfo_Utility_PhysicsLayer->static_fields->UI = 5;
+  TypeInfo_Utility_PhysicsLayer->static_fields->NoCollision = 8;
+  TypeInfo_Utility_PhysicsLayer->static_fields->Hitbox = 9;
+  TypeInfo_Utility_PhysicsLayer->static_fields->Human = 10;
+  TypeInfo_Utility_PhysicsLayer->static_fields->TitanMovebox = 0xb;
+  TypeInfo_Utility_PhysicsLayer->static_fields->TitanPushbox = 0xc;
+  TypeInfo_Utility_PhysicsLayer->static_fields->Hurtbox = 0xd;
+  TypeInfo_Utility_PhysicsLayer->static_fields->Projectile = 0xe;
+  TypeInfo_Utility_PhysicsLayer->static_fields->ProjectileDetection = 0xf;
+  TypeInfo_Utility_PhysicsLayer->static_fields->CharacterDetection = 0x10;
+  TypeInfo_Utility_PhysicsLayer->static_fields->NPC = 0x11;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectMapObjects = 0x14;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectProjectiles = 0x15;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectCharacters = 0x16;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectEntities = 0x17;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectAll = 0x18;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorObject = 0x19;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapEditorGizmo = 0x1a;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MinimapIcon = 0x1b;
+  TypeInfo_Utility_PhysicsLayer->static_fields->Background = 0x1c;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectTitans = 0x1d;
+  TypeInfo_Utility_PhysicsLayer->static_fields->MapObjectHumans = 0x1e;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_int_LayerMask);
+  System_Collections_Generic_Dictionary_int__LayerMask____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1404750 *)MethodInfo_System_Collections_Generic_Dictionary_int_LayerMask_ctor);
+  TypeInfo_Utility_PhysicsLayer->static_fields->_masks = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_Utility_PhysicsLayer->static_fields->_masks,__this);
   return;
 }
 

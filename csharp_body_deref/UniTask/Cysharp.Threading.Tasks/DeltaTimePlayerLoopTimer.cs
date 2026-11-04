@@ -11,36 +11,36 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000066")]
+[Token(Token = "0x2000064")]
 internal sealed class DeltaTimePlayerLoopTimer : PlayerLoopTimer
 {
-	[Token(Token = "0x40000D8")]
+	[Token(Token = "0x40000D3")]
 	[FieldOffset(Offset = "0x30")]
 	private int initialFrame;
 
-	[Token(Token = "0x40000D9")]
+	[Token(Token = "0x40000D4")]
 	[FieldOffset(Offset = "0x34")]
 	private float elapsed;
 
-	[Token(Token = "0x40000DA")]
+	[Token(Token = "0x40000D5")]
 	[FieldOffset(Offset = "0x38")]
 	private float interval;
 
-	[Token(Token = "0x600015D")]
-	[Address(RVA = "0x49D9180", Offset = "0x49D9180", VA = "0x49D9180")]
+	[Token(Token = "0x600015B")]
+	[Address(RVA = "0x290D010", Offset = "0x290B610", VA = "0x18290D010")]
 	public DeltaTimePlayerLoopTimer(TimeSpan interval, bool periodic, PlayerLoopTiming playerLoopTiming, CancellationToken cancellationToken, Action<object> timerCallback, object state)
 	{
 	}
 
-	[Token(Token = "0x600015E")]
-	[Address(RVA = "0x49D94E0", Offset = "0x49D94E0", VA = "0x49D94E0", Slot = "7")]
+	[Token(Token = "0x600015C")]
+	[Address(RVA = "0x290CEC0", Offset = "0x290B4C0", VA = "0x18290CEC0", Slot = "7")]
 	protected override bool MoveNextCore()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600015F")]
-	[Address(RVA = "0x49D9540", Offset = "0x49D9540", VA = "0x49D9540", Slot = "6")]
+	[Token(Token = "0x600015D")]
+	[Address(RVA = "0x290CF30", Offset = "0x290B530", VA = "0x18290CF30", Slot = "6")]
 	protected override void ResetCore(TimeSpan? interval)
 	{
 	}

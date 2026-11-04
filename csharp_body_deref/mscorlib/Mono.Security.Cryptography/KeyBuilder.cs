@@ -10,33 +10,33 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Cryptography;
 
-[Token(Token = "0x2000043")]
+[Token(Token = "0x2000061")]
 internal sealed class KeyBuilder
 {
-	[Token(Token = "0x400013E")]
+	[Token(Token = "0x40001C0")]
 	[FieldOffset(Offset = "0x0")]
 	private static RandomNumberGenerator rng;
 
 	[Token(Token = "0x17000019")]
 	private static RandomNumberGenerator Rng
 	{
-		[Token(Token = "0x6000129")]
-		[Address(RVA = "0x3AE09F0", Offset = "0x3AE09F0", VA = "0x3AE09F0")]
+		[Token(Token = "0x6000141")]
+		[Address(RVA = "0x1947430", Offset = "0x1945A30", VA = "0x181947430")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600012A")]
-	[Address(RVA = "0x3AE0A60", Offset = "0x3AE0A60", VA = "0x3AE0A60")]
+	[Token(Token = "0x6000142")]
+	[Address(RVA = "0x19473C0", Offset = "0x19459C0", VA = "0x1819473C0")]
 	public static byte[] Key(int size)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600012B")]
-	[Address(RVA = "0x3AE0B30", Offset = "0x3AE0B30", VA = "0x3AE0B30")]
+	[Token(Token = "0x6000143")]
+	[Address(RVA = "0x1947350", Offset = "0x1945950", VA = "0x181947350")]
 	public static byte[] IV(int size)
 	{
 		return null;

@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Configuration;
 
-[Token(Token = "0x2000382")]
+[Token(Token = "0x20003DD")]
 public interface IConfigurationSectionHandler
 {
 }

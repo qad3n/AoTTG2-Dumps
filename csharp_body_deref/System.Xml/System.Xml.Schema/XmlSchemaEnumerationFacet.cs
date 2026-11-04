@@ -13,7 +13,7 @@ namespace System.Xml.Schema;
 public class XmlSchemaEnumerationFacet : XmlSchemaFacet
 {
 	[Token(Token = "0x6001664")]
-	[Address(RVA = "0x4724CA0", Offset = "0x4724CA0", VA = "0x4724CA0")]
+	[Address(RVA = "0x266B4E0", Offset = "0x2669AE0", VA = "0x18266B4E0")]
 	public XmlSchemaEnumerationFacet()
 	{
 	}

@@ -9,21 +9,21 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Layout;
 
-[Token(Token = "0x200052C")]
+[Token(Token = "0x2000623")]
 internal class LayoutProcessorNative : ILayoutProcessor
 {
-	[Token(Token = "0x4001170")]
+	[Token(Token = "0x400170C")]
 	[FieldOffset(Offset = "0x10")]
 	private LayoutState m_State;
 
-	[Token(Token = "0x6001F69")]
-	[Address(RVA = "0x4FBC640", Offset = "0x4FBC640", VA = "0x4FBC640", Slot = "4")]
+	[Token(Token = "0x6002CBB")]
+	[Address(RVA = "0x31C2980", Offset = "0x31C0F80", VA = "0x1831C2980", Slot = "4")]
 	private void UnityEngine_002EUIElements_002ELayout_002EILayoutProcessor_002ECalculateLayout(LayoutNode node, float parentWidth, float parentHeight, LayoutDirection parentDirection)
 	{
 	}
 
-	[Token(Token = "0x6001F6A")]
-	[Address(RVA = "0x4FBA920", Offset = "0x4FBA920", VA = "0x4FBA920")]
+	[Token(Token = "0x6002CBC")]
+	[Address(RVA = "0x31C2B60", Offset = "0x31C1160", VA = "0x1831C2B60")]
 	public LayoutProcessorNative()
 	{
 	}

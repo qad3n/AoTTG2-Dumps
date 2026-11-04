@@ -12,667 +12,667 @@ using UnityEngine;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20002CD")]
+[Token(Token = "0x2000418")]
 [CompilerGenerated]
 internal class CustomLogicVector2Builtin : BuiltinClassInstance, ICustomLogicMathOperators, ICustomLogicEquals, ICustomLogicCopyable
 {
-	[Token(Token = "0x20002CE")]
+	[Token(Token = "0x2000419")]
 	public static class Factory
 	{
-		[Token(Token = "0x600117A")]
-		[Address(RVA = "0x3FCE460", Offset = "0x3FCE460", VA = "0x3FCE460")]
+		[Token(Token = "0x60019FC")]
+		[Address(RVA = "0x1ED95A0", Offset = "0x1ED7BA0", VA = "0x181ED95A0")]
 		public static CustomLogicVector2Builtin CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20002CF")]
+	[Token(Token = "0x200041A")]
 	public static class Bindings
 	{
-		[Token(Token = "0x4000E5F")]
+		[Token(Token = "0x400147F")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600117B")]
-		[Address(RVA = "0x3FCE710", Offset = "0x3FCE710", VA = "0x3FCE710")]
+		[Token(Token = "0x60019FD")]
+		[Address(RVA = "0x1EBF980", Offset = "0x1EBDF80", VA = "0x181EBF980")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600117C")]
-		[Address(RVA = "0x3FCF3D0", Offset = "0x3FCF3D0", VA = "0x3FCF3D0")]
+		[Token(Token = "0x60019FE")]
+		[Address(RVA = "0x1ECBAF0", Offset = "0x1ECA0F0", VA = "0x181ECBAF0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__X()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600117D")]
-		[Address(RVA = "0x3FCF4B0", Offset = "0x3FCF4B0", VA = "0x3FCF4B0")]
+		[Token(Token = "0x60019FF")]
+		[Address(RVA = "0x1ECBBE0", Offset = "0x1ECA1E0", VA = "0x181ECBBE0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Y()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600117E")]
-		[Address(RVA = "0x3FCF590", Offset = "0x3FCF590", VA = "0x3FCF590")]
+		[Token(Token = "0x6001A00")]
+		[Address(RVA = "0x1ECB320", Offset = "0x1EC9920", VA = "0x181ECB320")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Normalized()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600117F")]
-		[Address(RVA = "0x3FCF630", Offset = "0x3FCF630", VA = "0x3FCF630")]
+		[Token(Token = "0x6001A01")]
+		[Address(RVA = "0x1ECB140", Offset = "0x1EC9740", VA = "0x181ECB140")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Magnitude()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001180")]
-		[Address(RVA = "0x3FCF6D0", Offset = "0x3FCF6D0", VA = "0x3FCF6D0")]
+		[Token(Token = "0x6001A02")]
+		[Address(RVA = "0x1ECB730", Offset = "0x1EC9D30", VA = "0x181ECB730")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__SqrMagnitude()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001181")]
-		[Address(RVA = "0x3FCF770", Offset = "0x3FCF770", VA = "0x3FCF770")]
+		[Token(Token = "0x6001A03")]
+		[Address(RVA = "0x1ECBEB0", Offset = "0x1ECA4B0", VA = "0x181ECBEB0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Zero()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001182")]
-		[Address(RVA = "0x3FCF810", Offset = "0x3FCF810", VA = "0x3FCF810")]
+		[Token(Token = "0x6001A04")]
+		[Address(RVA = "0x1ECB3C0", Offset = "0x1EC99C0", VA = "0x181ECB3C0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__One()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001183")]
-		[Address(RVA = "0x3FCF8B0", Offset = "0x3FCF8B0", VA = "0x3FCF8B0")]
+		[Token(Token = "0x6001A05")]
+		[Address(RVA = "0x1ECB7D0", Offset = "0x1EC9DD0", VA = "0x181ECB7D0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Up()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001184")]
-		[Address(RVA = "0x3FCF950", Offset = "0x3FCF950", VA = "0x3FCF950")]
+		[Token(Token = "0x6001A06")]
+		[Address(RVA = "0x1ECABA0", Offset = "0x1EC91A0", VA = "0x181ECABA0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Down()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001185")]
-		[Address(RVA = "0x3FCF9F0", Offset = "0x3FCF9F0", VA = "0x3FCF9F0")]
+		[Token(Token = "0x6001A07")]
+		[Address(RVA = "0x1ECB0A0", Offset = "0x1EC96A0", VA = "0x181ECB0A0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Left()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001186")]
-		[Address(RVA = "0x3FCFA90", Offset = "0x3FCFA90", VA = "0x3FCFA90")]
+		[Token(Token = "0x6001A08")]
+		[Address(RVA = "0x1ECB690", Offset = "0x1EC9C90", VA = "0x181ECB690")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__Right()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001187")]
-		[Address(RVA = "0x3FCFB30", Offset = "0x3FCFB30", VA = "0x3FCFB30")]
+		[Token(Token = "0x6001A09")]
+		[Address(RVA = "0x1ECB1E0", Offset = "0x1EC97E0", VA = "0x181ECB1E0")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__NegativeInfinity()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001188")]
-		[Address(RVA = "0x3FCFBD0", Offset = "0x3FCFBD0", VA = "0x3FCFBD0")]
+		[Token(Token = "0x6001A0A")]
+		[Address(RVA = "0x1ECB500", Offset = "0x1EC9B00", VA = "0x181ECB500")]
 		public static CLPropertyBinding<CustomLogicVector2Builtin> __CreatePropertyBinding__PositiveInfinity()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001189")]
-		[Address(RVA = "0x3FCFC70", Offset = "0x3FCFC70", VA = "0x3FCFC70")]
+		[Token(Token = "0x6001A0B")]
+		[Address(RVA = "0x1EC4950", Offset = "0x1EC2F50", VA = "0x181EC4950")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Angle()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118A")]
-		[Address(RVA = "0x3FCFDC0", Offset = "0x3FCFDC0", VA = "0x3FCFDC0")]
+		[Token(Token = "0x6001A0C")]
+		[Address(RVA = "0x1EC4B90", Offset = "0x1EC3190", VA = "0x181EC4B90")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__ClampMagnitude()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118B")]
-		[Address(RVA = "0x3FCFF10", Offset = "0x3FCFF10", VA = "0x3FCFF10")]
+		[Token(Token = "0x6001A0D")]
+		[Address(RVA = "0x1EC55C0", Offset = "0x1EC3BC0", VA = "0x181EC55C0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Distance()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118C")]
-		[Address(RVA = "0x3FD0060", Offset = "0x3FD0060", VA = "0x3FD0060")]
+		[Token(Token = "0x6001A0E")]
+		[Address(RVA = "0x1EC56E0", Offset = "0x1EC3CE0", VA = "0x181EC56E0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Dot()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118D")]
-		[Address(RVA = "0x3FD01B0", Offset = "0x3FD01B0", VA = "0x3FD01B0")]
+		[Token(Token = "0x6001A0F")]
+		[Address(RVA = "0x1EC6A00", Offset = "0x1EC5000", VA = "0x181EC6A00")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Lerp()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118E")]
-		[Address(RVA = "0x3FD0300", Offset = "0x3FD0300", VA = "0x3FD0300")]
+		[Token(Token = "0x6001A10")]
+		[Address(RVA = "0x1EC67C0", Offset = "0x1EC4DC0", VA = "0x181EC67C0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__LerpUnclamped()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600118F")]
-		[Address(RVA = "0x3FD0450", Offset = "0x3FD0450", VA = "0x3FD0450")]
+		[Token(Token = "0x6001A11")]
+		[Address(RVA = "0x1EC6E80", Offset = "0x1EC5480", VA = "0x181EC6E80")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Max()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001190")]
-		[Address(RVA = "0x3FD05A0", Offset = "0x3FD05A0", VA = "0x3FD05A0")]
+		[Token(Token = "0x6001A12")]
+		[Address(RVA = "0x1EC6FA0", Offset = "0x1EC55A0", VA = "0x181EC6FA0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Min()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001191")]
-		[Address(RVA = "0x3FD06F0", Offset = "0x3FD06F0", VA = "0x3FD06F0")]
+		[Token(Token = "0x6001A13")]
+		[Address(RVA = "0x1EC70C0", Offset = "0x1EC56C0", VA = "0x181EC70C0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__MoveTowards()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001192")]
-		[Address(RVA = "0x3FD0840", Offset = "0x3FD0840", VA = "0x3FD0840")]
+		[Token(Token = "0x6001A14")]
+		[Address(RVA = "0x1EC7660", Offset = "0x1EC5C60", VA = "0x181EC7660")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Reflect()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001193")]
-		[Address(RVA = "0x3FD0990", Offset = "0x3FD0990", VA = "0x3FD0990")]
+		[Token(Token = "0x6001A15")]
+		[Address(RVA = "0x1EC81A0", Offset = "0x1EC67A0", VA = "0x181EC81A0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__SignedAngle()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001194")]
-		[Address(RVA = "0x3FD0AE0", Offset = "0x3FD0AE0", VA = "0x3FD0AE0")]
+		[Token(Token = "0x6001A16")]
+		[Address(RVA = "0x1EC8500", Offset = "0x1EC6B00", VA = "0x181EC8500")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__SmoothDamp()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001195")]
-		[Address(RVA = "0x3FD0C30", Offset = "0x3FD0C30", VA = "0x3FD0C30")]
+		[Token(Token = "0x6001A17")]
+		[Address(RVA = "0x1EC7E40", Offset = "0x1EC6440", VA = "0x181EC7E40")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Set()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001196")]
-		[Address(RVA = "0x3FD0D80", Offset = "0x3FD0D80", VA = "0x3FD0D80")]
+		[Token(Token = "0x6001A18")]
+		[Address(RVA = "0x1EC71E0", Offset = "0x1EC57E0", VA = "0x181EC71E0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding__Normalize()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001197")]
-		[Address(RVA = "0x3FD0ED0", Offset = "0x3FD0ED0", VA = "0x3FD0ED0")]
+		[Token(Token = "0x6001A19")]
+		[Address(RVA = "0x1EC9290", Offset = "0x1EC7890", VA = "0x181EC9290")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Copy__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001198")]
-		[Address(RVA = "0x3FD1020", Offset = "0x3FD1020", VA = "0x3FD1020")]
+		[Token(Token = "0x6001A1A")]
+		[Address(RVA = "0x1EC8CE0", Offset = "0x1EC72E0", VA = "0x181EC8CE0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Add__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6001199")]
-		[Address(RVA = "0x3FD1170", Offset = "0x3FD1170", VA = "0x3FD1170")]
+		[Token(Token = "0x6001A1B")]
+		[Address(RVA = "0x1ECA4D0", Offset = "0x1EC8AD0", VA = "0x181ECA4D0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Sub__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600119A")]
-		[Address(RVA = "0x3FD12C0", Offset = "0x3FD12C0", VA = "0x3FD12C0")]
+		[Token(Token = "0x6001A1C")]
+		[Address(RVA = "0x1ECA040", Offset = "0x1EC8640", VA = "0x181ECA040")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Mul__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600119B")]
-		[Address(RVA = "0x3FD1410", Offset = "0x3FD1410", VA = "0x3FD1410")]
+		[Token(Token = "0x6001A1D")]
+		[Address(RVA = "0x1EC94D0", Offset = "0x1EC7AD0", VA = "0x181EC94D0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Div__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600119C")]
-		[Address(RVA = "0x3FD1560", Offset = "0x3FD1560", VA = "0x3FD1560")]
+		[Token(Token = "0x6001A1E")]
+		[Address(RVA = "0x1EC9960", Offset = "0x1EC7F60", VA = "0x181EC9960")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Eq__()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600119D")]
-		[Address(RVA = "0x3FD16B0", Offset = "0x3FD16B0", VA = "0x3FD16B0")]
+		[Token(Token = "0x6001A1F")]
+		[Address(RVA = "0x1EC9BB0", Offset = "0x1EC81B0", VA = "0x181EC9BB0")]
 		public static CLMethodBinding<CustomLogicVector2Builtin> __CreateMethodBinding____Hash__()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x4000E5E")]
+	[Token(Token = "0x400147E")]
 	[FieldOffset(Offset = "0x30")]
 	private Vector2 _value;
 
-	[Token(Token = "0x1700021A")]
+	[Token(Token = "0x170002CF")]
 	public float X
 	{
-		[Token(Token = "0x600114E")]
-		[Address(RVA = "0x3FCC650", Offset = "0x3FCC650", VA = "0x3FCC650")]
+		[Token(Token = "0x60019D0")]
+		[Address(RVA = "0x584C90", Offset = "0x583290", VA = "0x180584C90")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x600114F")]
-		[Address(RVA = "0x3FCC660", Offset = "0x3FCC660", VA = "0x3FCC660")]
+		[Token(Token = "0x60019D1")]
+		[Address(RVA = "0x584CB0", Offset = "0x5832B0", VA = "0x180584CB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700021B")]
+	[Token(Token = "0x170002D0")]
 	public float Y
 	{
-		[Token(Token = "0x6001150")]
-		[Address(RVA = "0x3FCC670", Offset = "0x3FCC670", VA = "0x3FCC670")]
+		[Token(Token = "0x60019D2")]
+		[Address(RVA = "0x16EF890", Offset = "0x16EDE90", VA = "0x1816EF890")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x6001151")]
-		[Address(RVA = "0x3FCC680", Offset = "0x3FCC680", VA = "0x3FCC680")]
+		[Token(Token = "0x60019D3")]
+		[Address(RVA = "0x16EF940", Offset = "0x16EDF40", VA = "0x1816EF940")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700021C")]
+	[Token(Token = "0x170002D1")]
 	public CustomLogicVector2Builtin Normalized
 	{
-		[Token(Token = "0x6001152")]
-		[Address(RVA = "0x3FCC690", Offset = "0x3FCC690", VA = "0x3FCC690")]
+		[Token(Token = "0x60019D4")]
+		[Address(RVA = "0x1ED5260", Offset = "0x1ED3860", VA = "0x181ED5260")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700021D")]
+	[Token(Token = "0x170002D2")]
 	public float Magnitude
 	{
-		[Token(Token = "0x6001153")]
-		[Address(RVA = "0x3FCC890", Offset = "0x3FCC890", VA = "0x3FCC890")]
+		[Token(Token = "0x60019D5")]
+		[Address(RVA = "0x1ED5250", Offset = "0x1ED3850", VA = "0x181ED5250")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700021E")]
+	[Token(Token = "0x170002D3")]
 	public float SqrMagnitude
 	{
-		[Token(Token = "0x6001154")]
-		[Address(RVA = "0x3FCC910", Offset = "0x3FCC910", VA = "0x3FCC910")]
+		[Token(Token = "0x60019D6")]
+		[Address(RVA = "0x1ED5280", Offset = "0x1ED3880", VA = "0x181ED5280")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700021F")]
+	[Token(Token = "0x170002D4")]
 	public static CustomLogicVector2Builtin Zero
 	{
-		[Token(Token = "0x6001155")]
-		[Address(RVA = "0x3FCC930", Offset = "0x3FCC930", VA = "0x3FCC930")]
+		[Token(Token = "0x60019D7")]
+		[Address(RVA = "0x1EC45B0", Offset = "0x1EC2BB0", VA = "0x181EC45B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000220")]
+	[Token(Token = "0x170002D5")]
 	public static CustomLogicVector2Builtin One
 	{
-		[Token(Token = "0x6001156")]
-		[Address(RVA = "0x3FCC9E0", Offset = "0x3FCC9E0", VA = "0x3FCC9E0")]
+		[Token(Token = "0x60019D8")]
+		[Address(RVA = "0x1EC3F80", Offset = "0x1EC2580", VA = "0x181EC3F80")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000221")]
+	[Token(Token = "0x170002D6")]
 	public static CustomLogicVector2Builtin Up
 	{
-		[Token(Token = "0x6001157")]
-		[Address(RVA = "0x3FCCA90", Offset = "0x3FCCA90", VA = "0x3FCCA90")]
+		[Token(Token = "0x60019D9")]
+		[Address(RVA = "0x1EC41A0", Offset = "0x1EC27A0", VA = "0x181EC41A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000222")]
+	[Token(Token = "0x170002D7")]
 	public static CustomLogicVector2Builtin Down
 	{
-		[Token(Token = "0x6001158")]
-		[Address(RVA = "0x3FCCB40", Offset = "0x3FCCB40", VA = "0x3FCCB40")]
+		[Token(Token = "0x60019DA")]
+		[Address(RVA = "0x1EC3AA0", Offset = "0x1EC20A0", VA = "0x181EC3AA0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000223")]
+	[Token(Token = "0x170002D8")]
 	public static CustomLogicVector2Builtin Left
 	{
-		[Token(Token = "0x6001159")]
-		[Address(RVA = "0x3FCCBF0", Offset = "0x3FCCBF0", VA = "0x3FCCBF0")]
+		[Token(Token = "0x60019DB")]
+		[Address(RVA = "0x1EC3E50", Offset = "0x1EC2450", VA = "0x181EC3E50")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000224")]
+	[Token(Token = "0x170002D9")]
 	public static CustomLogicVector2Builtin Right
 	{
-		[Token(Token = "0x600115A")]
-		[Address(RVA = "0x3FCCCA0", Offset = "0x3FCCCA0", VA = "0x3FCCCA0")]
+		[Token(Token = "0x60019DC")]
+		[Address(RVA = "0x1EC4100", Offset = "0x1EC2700", VA = "0x181EC4100")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000225")]
+	[Token(Token = "0x170002DA")]
 	public static CustomLogicVector2Builtin NegativeInfinity
 	{
-		[Token(Token = "0x600115B")]
-		[Address(RVA = "0x3FCCD50", Offset = "0x3FCCD50", VA = "0x3FCCD50")]
+		[Token(Token = "0x60019DD")]
+		[Address(RVA = "0x1EC3EE0", Offset = "0x1EC24E0", VA = "0x181EC3EE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000226")]
+	[Token(Token = "0x170002DB")]
 	public static CustomLogicVector2Builtin PositiveInfinity
 	{
-		[Token(Token = "0x600115C")]
-		[Address(RVA = "0x3FCCE00", Offset = "0x3FCCE00", VA = "0x3FCCE00")]
+		[Token(Token = "0x60019DE")]
+		[Address(RVA = "0x1EC3FF0", Offset = "0x1EC25F0", VA = "0x181EC3FF0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000227")]
+	[Token(Token = "0x170002DC")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6001176")]
-		[Address(RVA = "0x3FCE400", Offset = "0x3FCE400", VA = "0x3FCE400", Slot = "4")]
+		[Token(Token = "0x60019F8")]
+		[Address(RVA = "0x1ED5220", Offset = "0x1ED3820", VA = "0x181ED5220", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000228")]
+	[Token(Token = "0x170002DD")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6001177")]
-		[Address(RVA = "0x3FCE430", Offset = "0x3FCE430", VA = "0x3FCE430", Slot = "6")]
+		[Token(Token = "0x60019F9")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000229")]
+	[Token(Token = "0x170002DE")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6001178")]
-		[Address(RVA = "0x3FCE440", Offset = "0x3FCE440", VA = "0x3FCE440", Slot = "7")]
+		[Token(Token = "0x60019FA")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700022A")]
+	[Token(Token = "0x170002DF")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6001179")]
-		[Address(RVA = "0x3FCE450", Offset = "0x3FCE450", VA = "0x3FCE450", Slot = "8")]
+		[Token(Token = "0x60019FB")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x600114A")]
-	[Address(RVA = "0x3FCC4A0", Offset = "0x3FCC4A0", VA = "0x3FCC4A0")]
+	[Token(Token = "0x60019CC")]
+	[Address(RVA = "0x1ED5090", Offset = "0x1ED3690", VA = "0x181ED5090")]
 	public CustomLogicVector2Builtin()
 	{
 	}
 
-	[Token(Token = "0x600114B")]
-	[Address(RVA = "0x3FCC510", Offset = "0x3FCC510", VA = "0x3FCC510")]
+	[Token(Token = "0x60019CD")]
+	[Address(RVA = "0x1ED5150", Offset = "0x1ED3750", VA = "0x181ED5150")]
 	public CustomLogicVector2Builtin(float xy)
 	{
 	}
 
-	[Token(Token = "0x600114C")]
-	[Address(RVA = "0x3FCC580", Offset = "0x3FCC580", VA = "0x3FCC580")]
+	[Token(Token = "0x60019CE")]
+	[Address(RVA = "0x1ED50E0", Offset = "0x1ED36E0", VA = "0x181ED50E0")]
 	public CustomLogicVector2Builtin(float x, float y)
 	{
 	}
 
-	[Token(Token = "0x600114D")]
-	[Address(RVA = "0x3FCC5F0", Offset = "0x3FCC5F0", VA = "0x3FCC5F0")]
+	[Token(Token = "0x60019CF")]
+	[Address(RVA = "0x1ED51C0", Offset = "0x1ED37C0", VA = "0x181ED51C0")]
 	public CustomLogicVector2Builtin(Vector2 value)
 	{
 	}
 
-	[Token(Token = "0x600115D")]
-	[Address(RVA = "0x3FCCEB0", Offset = "0x3FCCEB0", VA = "0x3FCCEB0")]
+	[Token(Token = "0x60019DF")]
+	[Address(RVA = "0x1ED4020", Offset = "0x1ED2620", VA = "0x181ED4020")]
 	public static float Angle(CustomLogicVector2Builtin from, CustomLogicVector2Builtin to)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x600115E")]
-	[Address(RVA = "0x3FCD040", Offset = "0x3FCD040", VA = "0x3FCD040")]
+	[Token(Token = "0x60019E0")]
+	[Address(RVA = "0x1ED4170", Offset = "0x1ED2770", VA = "0x181ED4170")]
 	public static CustomLogicVector2Builtin ClampMagnitude(CustomLogicVector2Builtin vector, float maxLength)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600115F")]
-	[Address(RVA = "0x3FCD190", Offset = "0x3FCD190", VA = "0x3FCD190")]
+	[Token(Token = "0x60019E1")]
+	[Address(RVA = "0x1ED4260", Offset = "0x1ED2860", VA = "0x181ED4260")]
 	public static float Distance(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001160")]
-	[Address(RVA = "0x3FCD230", Offset = "0x3FCD230", VA = "0x3FCD230")]
+	[Token(Token = "0x60019E2")]
+	[Address(RVA = "0x1ED4340", Offset = "0x1ED2940", VA = "0x181ED4340")]
 	public static float Dot(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001161")]
-	[Address(RVA = "0x3FCD260", Offset = "0x3FCD260", VA = "0x3FCD260")]
+	[Token(Token = "0x60019E3")]
+	[Address(RVA = "0x1ED43E0", Offset = "0x1ED29E0", VA = "0x181ED43E0")]
 	public static CustomLogicVector2Builtin Lerp(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001162")]
-	[Address(RVA = "0x3FCD350", Offset = "0x3FCD350", VA = "0x3FCD350")]
+	[Token(Token = "0x60019E4")]
+	[Address(RVA = "0x1ED4380", Offset = "0x1ED2980", VA = "0x181ED4380")]
 	public static CustomLogicVector2Builtin LerpUnclamped(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b, float t)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001163")]
-	[Address(RVA = "0x3FCD430", Offset = "0x3FCD430", VA = "0x3FCD430")]
+	[Token(Token = "0x60019E5")]
+	[Address(RVA = "0x1ED4450", Offset = "0x1ED2A50", VA = "0x181ED4450")]
 	public static CustomLogicVector2Builtin Max(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001164")]
-	[Address(RVA = "0x3FCD4F0", Offset = "0x3FCD4F0", VA = "0x3FCD4F0")]
+	[Token(Token = "0x60019E6")]
+	[Address(RVA = "0x1ED4490", Offset = "0x1ED2A90", VA = "0x181ED4490")]
 	public static CustomLogicVector2Builtin Min(CustomLogicVector2Builtin a, CustomLogicVector2Builtin b)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001165")]
-	[Address(RVA = "0x3FCD5B0", Offset = "0x3FCD5B0", VA = "0x3FCD5B0")]
+	[Token(Token = "0x60019E7")]
+	[Address(RVA = "0x1ED44D0", Offset = "0x1ED2AD0", VA = "0x181ED44D0")]
 	public static CustomLogicVector2Builtin MoveTowards(CustomLogicVector2Builtin current, CustomLogicVector2Builtin target, float maxDistanceDelta)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001166")]
-	[Address(RVA = "0x3FCD760", Offset = "0x3FCD760", VA = "0x3FCD760")]
+	[Token(Token = "0x60019E8")]
+	[Address(RVA = "0x1ED46C0", Offset = "0x1ED2CC0", VA = "0x181ED46C0")]
 	public static CustomLogicVector2Builtin Reflect(CustomLogicVector2Builtin inDirection, CustomLogicVector2Builtin inNormal)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001167")]
-	[Address(RVA = "0x3FCD860", Offset = "0x3FCD860", VA = "0x3FCD860")]
+	[Token(Token = "0x60019E9")]
+	[Address(RVA = "0x1ED4740", Offset = "0x1ED2D40", VA = "0x181ED4740")]
 	public static float SignedAngle(CustomLogicVector2Builtin from, CustomLogicVector2Builtin to)
 	{
 		return default(float);
 	}
 
-	[Token(Token = "0x6001168")]
-	[Address(RVA = "0x3FCDA20", Offset = "0x3FCDA20", VA = "0x3FCDA20")]
+	[Token(Token = "0x60019EA")]
+	[Address(RVA = "0x1ED4790", Offset = "0x1ED2D90", VA = "0x181ED4790")]
 	public static CustomLogicVector2Builtin SmoothDamp(CustomLogicVector2Builtin current, CustomLogicVector2Builtin target, CustomLogicVector2Builtin currentVelocity, float smoothTime, float maxSpeed)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001169")]
-	[Address(RVA = "0x3FCDB20", Offset = "0x3FCDB20", VA = "0x3FCDB20")]
+	[Token(Token = "0x60019EB")]
+	[Address(RVA = "0x1ED4730", Offset = "0x1ED2D30", VA = "0x181ED4730")]
 	public void Set(float x, float y)
 	{
 	}
 
-	[Token(Token = "0x600116A")]
-	[Address(RVA = "0x3FCDB30", Offset = "0x3FCDB30", VA = "0x3FCDB30")]
+	[Token(Token = "0x60019EC")]
+	[Address(RVA = "0x1ED4650", Offset = "0x1ED2C50", VA = "0x181ED4650")]
 	public void Normalize()
 	{
 	}
 
-	[Token(Token = "0x600116B")]
-	[Address(RVA = "0x3FCDC00", Offset = "0x3FCDC00", VA = "0x3FCDC00", Slot = "3")]
+	[Token(Token = "0x60019ED")]
+	[Address(RVA = "0x1ED4830", Offset = "0x1ED2E30", VA = "0x181ED4830", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600116C")]
-	[Address(RVA = "0x3FCDC10", Offset = "0x3FCDC10", VA = "0x3FCDC10", Slot = "17")]
+	[Token(Token = "0x60019EE")]
+	[Address(RVA = "0x1ED4A30", Offset = "0x1ED3030", VA = "0x181ED4A30", Slot = "19")]
 	public virtual object __Copy__()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600116D")]
-	[Address(RVA = "0x3FCDCA0", Offset = "0x3FCDCA0", VA = "0x3FCDCA0", Slot = "9")]
+	[Token(Token = "0x60019EF")]
+	[Address(RVA = "0x1ED4920", Offset = "0x1ED2F20", VA = "0x181ED4920", Slot = "11")]
 	public object __Add__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600116E")]
-	[Address(RVA = "0x3FCDDE0", Offset = "0x3FCDDE0", VA = "0x3FCDDE0", Slot = "10")]
+	[Token(Token = "0x60019F0")]
+	[Address(RVA = "0x1ED4F80", Offset = "0x1ED3580", VA = "0x181ED4F80", Slot = "12")]
 	public object __Sub__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600116F")]
-	[Address(RVA = "0x3FCDF20", Offset = "0x3FCDF20", VA = "0x3FCDF20", Slot = "11")]
+	[Token(Token = "0x60019F1")]
+	[Address(RVA = "0x1ED4DA0", Offset = "0x1ED33A0", VA = "0x181ED4DA0", Slot = "13")]
 	public object __Mul__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001170")]
-	[Address(RVA = "0x3FCE120", Offset = "0x3FCE120", VA = "0x3FCE120", Slot = "12")]
+	[Token(Token = "0x60019F2")]
+	[Address(RVA = "0x1ED4AD0", Offset = "0x1ED30D0", VA = "0x181ED4AD0", Slot = "14")]
 	public object __Div__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001171")]
-	[Address(RVA = "0x3FCE2B0", Offset = "0x3FCE2B0", VA = "0x3FCE2B0", Slot = "14")]
+	[Token(Token = "0x60019F3")]
+	[Address(RVA = "0x1ED4C50", Offset = "0x1ED3250", VA = "0x181ED4C50", Slot = "16")]
 	public bool __Eq__(object self, object other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001172")]
-	[Address(RVA = "0x3FCE370", Offset = "0x3FCE370", VA = "0x3FCE370", Slot = "15")]
+	[Token(Token = "0x60019F4")]
+	[Address(RVA = "0x1ED4D20", Offset = "0x1ED3320", VA = "0x181ED4D20", Slot = "17")]
 	public int __Hash__()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6001173")]
-	[Address(RVA = "0x3FCE3A0", Offset = "0x3FCE3A0", VA = "0x3FCE3A0", Slot = "13")]
+	[Token(Token = "0x60019F5")]
+	[Address(RVA = "0x1ED4D60", Offset = "0x1ED3360", VA = "0x181ED4D60", Slot = "15")]
 	public object __Mod__(object self, object other)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001174")]
-	[Address(RVA = "0x3FCE3E0", Offset = "0x3FCE3E0", VA = "0x3FCE3E0")]
+	[Token(Token = "0x60019F6")]
+	[Address(RVA = "0x1ED5350", Offset = "0x1ED3950", VA = "0x181ED5350")]
 	public static implicit operator Vector2(CustomLogicVector2Builtin value)
 	{
 		return default(Vector2);
 	}
 
-	[Token(Token = "0x6001175")]
-	[Address(RVA = "0x3FCC800", Offset = "0x3FCC800", VA = "0x3FCC800")]
+	[Token(Token = "0x60019F7")]
+	[Address(RVA = "0x1ED52A0", Offset = "0x1ED38A0", VA = "0x181ED52A0")]
 	public static implicit operator CustomLogicVector2Builtin(Vector2 value)
 	{
 		return null;

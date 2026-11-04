@@ -21,7 +21,7 @@ internal class Group : AstNode
 	public override AstType Type
 	{
 		[Token(Token = "0x6001B15")]
-		[Address(RVA = "0x477D760", Offset = "0x477D760", VA = "0x477D760", Slot = "4")]
+		[Address(RVA = "0x8680A0", Offset = "0x8666A0", VA = "0x1808680A0", Slot = "4")]
 		get
 		{
 			return default(AstType);
@@ -32,7 +32,7 @@ internal class Group : AstNode
 	public override XPathResultType ReturnType
 	{
 		[Token(Token = "0x6001B16")]
-		[Address(RVA = "0x477D770", Offset = "0x477D770", VA = "0x477D770", Slot = "5")]
+		[Address(RVA = "0x565FB0", Offset = "0x5645B0", VA = "0x180565FB0", Slot = "5")]
 		get
 		{
 			return default(XPathResultType);
@@ -43,7 +43,7 @@ internal class Group : AstNode
 	public AstNode GroupNode
 	{
 		[Token(Token = "0x6001B17")]
-		[Address(RVA = "0x477D780", Offset = "0x477D780", VA = "0x477D780")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -51,7 +51,7 @@ internal class Group : AstNode
 	}
 
 	[Token(Token = "0x6001B14")]
-	[Address(RVA = "0x477D730", Offset = "0x477D730", VA = "0x477D730")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public Group(AstNode groupNode)
 	{
 	}

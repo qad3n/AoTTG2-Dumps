@@ -12,12 +12,12 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001ED")]
+[Token(Token = "0x200020B")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class NoInterpFloatParameter : VolumeParameter<float>
 {
-	[Token(Token = "0x6000DD2")]
-	[Address(RVA = "0x4C0B280", Offset = "0x4C0B280", VA = "0x4C0B280")]
+	[Token(Token = "0x6000F31")]
+	[Address(RVA = "0x2B5F710", Offset = "0x2B5DD10", VA = "0x182B5F710")]
 	public NoInterpFloatParameter(float value, bool overrideState = false)
 	{
 	}

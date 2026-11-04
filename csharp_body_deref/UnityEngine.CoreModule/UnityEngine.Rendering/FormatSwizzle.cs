@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002B6")]
+[Token(Token = "0x2000332")]
 public enum FormatSwizzle
 {
-	[Token(Token = "0x4000797")]
+	[Token(Token = "0x40008C6")]
 	FormatSwizzleR,
-	[Token(Token = "0x4000798")]
+	[Token(Token = "0x40008C7")]
 	FormatSwizzleG,
-	[Token(Token = "0x4000799")]
+	[Token(Token = "0x40008C8")]
 	FormatSwizzleB,
-	[Token(Token = "0x400079A")]
+	[Token(Token = "0x40008C9")]
 	FormatSwizzleA,
-	[Token(Token = "0x400079B")]
+	[Token(Token = "0x40008CA")]
 	FormatSwizzle0,
-	[Token(Token = "0x400079C")]
+	[Token(Token = "0x40008CB")]
 	FormatSwizzle1
 }

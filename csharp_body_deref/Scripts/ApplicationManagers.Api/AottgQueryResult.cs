@@ -10,104 +10,104 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Api;
 
-[Token(Token = "0x20007D4")]
+[Token(Token = "0x2000961")]
 public sealed class AottgQueryResult<TValue>
 {
-	[Token(Token = "0x17000E5F")]
+	[Token(Token = "0x17000FC2")]
 	public AottgQueryResultState State
 	{
-		[Token(Token = "0x6004AC2")]
+		[Token(Token = "0x600573B")]
 		[CompilerGenerated]
 		get
 		{
 			return default(AottgQueryResultState);
 		}
-		[Token(Token = "0x6004AC3")]
+		[Token(Token = "0x600573C")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E60")]
+	[Token(Token = "0x17000FC3")]
 	public TValue Value
 	{
-		[Token(Token = "0x6004AC4")]
+		[Token(Token = "0x600573D")]
 		[CompilerGenerated]
 		get
 		{
 			return (TValue)null;
 		}
-		[Token(Token = "0x6004AC5")]
+		[Token(Token = "0x600573E")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E61")]
+	[Token(Token = "0x17000FC4")]
 	public string Error
 	{
-		[Token(Token = "0x6004AC6")]
+		[Token(Token = "0x600573F")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x6004AC7")]
+		[Token(Token = "0x6005740")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x17000E62")]
+	[Token(Token = "0x17000FC5")]
 	public bool IsFromCache
 	{
-		[Token(Token = "0x6004AC8")]
+		[Token(Token = "0x6005741")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x6004AC9")]
+		[Token(Token = "0x6005742")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x6004ACA")]
+	[Token(Token = "0x6005743")]
 	public static AottgQueryResult<TValue> LoadingNoCache()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004ACB")]
+	[Token(Token = "0x6005744")]
 	public static AottgQueryResult<TValue> ReadyFresh(TValue value, bool isFromCache)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004ACC")]
+	[Token(Token = "0x6005745")]
 	public static AottgQueryResult<TValue> ReadyStaleRefreshing(TValue value)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004ACD")]
+	[Token(Token = "0x6005746")]
 	public static AottgQueryResult<TValue> FailedNoCache(string error, bool isFromCache = false)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004ACE")]
+	[Token(Token = "0x6005747")]
 	public static AottgQueryResult<TValue> FailedRefreshStale(TValue value, string error)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004ACF")]
+	[Token(Token = "0x6005748")]
 	public AottgQueryResult()
 	{
 	}

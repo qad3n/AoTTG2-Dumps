@@ -1,509 +1,426 @@
 // Type: ApplicationManagers.PastebinLoader
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/ApplicationManagers/PastebinLoader.cs
 // Prior real C# source (older reference): Assets/Scripts/ApplicationManagers/PastebinLoader.cs
 // --------------------------------
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$.ctor
-// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9___ctor (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, int32_t __1__state, const MethodInfo* method);
-// 0x44be120
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$.ctor
+// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7___ctor (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, int32_t __1__state, const MethodInfo* method);
+// 0x180573ef0
 
-void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9___ctor
-               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,int32_t __1__state,
-               MethodInfo *method)
+void
+ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7___ctor(ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, int32_t __1__state, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   (__this->fields).__1__state = __1__state;
   return;
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$System.IDisposable.Dispose
-// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_IDisposable_Dispose (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44be210
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$System.IDisposable.Dispose
+// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_IDisposable_Dispose (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x18235b320
+// asm: 7 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18235b38b: jmp 0x18235b3a1
+// asm:   0x18235b38d: lea rcx, [rsp + 0x30]
+// asm:   0x18235b392: call 0x182344040  ; il2cpp_runtime_helper_182344040()
+// asm:   0x18235b397: mov rcx, qword ptr [rsp + 0x28]
+// asm:   0x18235b39c: test rcx, rcx
+// asm:   0x18235b39f: jne 0x18235b3a7
+// asm:   0x18235b3a7: call 0x1804171b0  ; il2cpp_codegen_rethrow()
 
-void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_IDisposable_Dispose
-               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_IDisposable_Dispose
+               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *__this,MethodInfo *method)
 
 {
-  ushort uVar1;
-  int iVar2;
-  UnityEngine_WWW_o *pUVar3;
-  UnityEngine_WWW_c *pUVar4;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar5;
-  code *vtableDispatch;
-  long lVar6;
-  undefined1 auVar7 [16];
+  int iVar1;
   
-  iVar2 = (__this->fields).__1__state;
-  if ((iVar2 == 1) || (iVar2 == -3)) {
-    if (g_data_057aea7f == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057aea7f = '\x01';
+  iVar1 = (__this->fields).__1__state;
+  if ((iVar1 == -3) || (iVar1 == 1)) {
+    if (Il2CppMethodInitialized_1843479b4 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+      Il2CppMethodInitialized_1843479b4 = '\x01';
     }
     (__this->fields).__1__state = -1;
-    pUVar3 = (__this->fields)._www_5__5;
-    if (pUVar3 != (UnityEngine_WWW_o *)0x0) {
-      pUVar4 = pUVar3->klass;
-      uVar1._0_1_ = (pUVar4->_2).rank;
-      uVar1._1_1_ = (pUVar4->_2).minimumAlignment;
-      if ((ulong)uVar1 != 0) {
-        pIVar5 = (pUVar4->_1).interfaceOffsets;
-        lVar6 = 0;
-        do {
-          if (*(long *)((long)&pIVar5->interfaceType + lVar6) == TypeInfo_IDisposable) {
-            auVar7._8_8_ = pIVar5;
-            auVar7._0_8_ = &(pUVar4->vtable)._0_Equals + *(int *)((long)&pIVar5->offset + lVar6);
-            goto label_044be2af;
-          }
-          lVar6 = lVar6 + 0x10;
-        } while ((ulong)uVar1 << 4 != lVar6);
-      }
-      auVar7 = il2cpp_runtime_helper_02300d20(pUVar3,TypeInfo_IDisposable,0);
-label_044be2af:
-      vtableDispatch = (code *)*auVar7._0_8_;
-      (*vtableDispatch)(pUVar3,auVar7._0_8_[1],auVar7._8_8_,vtableDispatch);
-      return;
+    if ((__this->fields)._www_5__5 != (UnityEngine_WWW_o *)0x0) {
+      InterfaceInvoker0_Invoke
+                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields)._www_5__5);
     }
   }
   return;
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$MoveNext
-// il2cpp: bool ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__MoveNext (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44be2c0
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$MoveNext
+// il2cpp: bool ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__MoveNext (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x18235ac10
+// eh: try 0x18235aca2..0x18235aeec -> pad 0x183318f20 catch Il2CppExceptionWrapper
+// eh: try 0x18235aeec..0x18235af63 -> pad 0x183340770 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x18235af63..0x18235b288 -> pad 0x183318f20 (+2 call sites) catch Il2CppExceptionWrapper
+// eh: try 0x18235b288..0x18235b2a7 -> pad 0x183340770 catch Il2CppExceptionWrapper [managed catch: TypeInfo_System_Exception]
+// eh: try 0x18235b2a7..0x18235b2c6 -> pad 0x183318f20 catch Il2CppExceptionWrapper
+// asm: 87 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x18235adb9: nop dword ptr [rax]
+// asm:   0x18235aedf: mov rcx, qword ptr [rsp + 0x80]
+// asm:   0x18235aee7: jmp 0x18235b13b
+// asm:   0x18235af68: mov rcx, qword ptr [rsp + 0x48]
+// asm:   0x18235af6d: test rcx, rcx
+// asm:   0x18235af70: je 0x18235b2bb
+// asm:   0x18235af76: mov rax, qword ptr [rcx]
+// asm:   0x18235af79: mov rdx, qword ptr [rax + 0x190]
+// asm:   0x18235af80: call qword ptr [rax + 0x188]  ; vtable slot 5
+// asm:   0x18235af86: mov rbx, rax
+// asm:   0x18235af89: lea rcx, [rip + 0x1d74ca0]  ; "Error parsing pastebin JSON: "
+// asm:   0x18235af90: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235af95: xor r8d, r8d
+// asm:   0x18235af98: mov rdx, rbx
+// asm:   0x18235af9b: mov rcx, rax
+// asm:   0x18235af9e: call 0x181969e50  ; System_String__Concat()
+// asm:   0x18235afa3: mov rbx, rax
+// asm:   0x18235afa6: lea rcx, [rip + 0x1da0723]  ; TypeInfo_ApplicationManagers_DebugConsole
+// asm:   0x18235afad: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x18235afb2: cmp dword ptr [rax + 0xe4], 0
+// asm:   0x18235afb9: jne 0x18235afc3
+// asm:   0x18235afbb: mov rcx, rax
+// asm:   0x18235afbe: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x18235afc3: cmp byte ptr [rip + 0x1fec980], 0
+// asm:   0x18235afca: jne 0x18235afeb
+// asm:   0x18235afcc: lea rcx, [rip + 0x1d837fd]  ; TypeInfo_GameManagers_ChatManager
+// asm:   0x18235afd3: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x18235afd8: lea rcx, [rip + 0x1da0459]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x18235afdf: call 0x180416e80  ; il2cpp_codegen_initialize_runtime_metadata()
+// asm:   0x18235afe4: mov byte ptr [rip + 0x1fec95f], 1
+// asm:   0x18235afeb: mov rcx, qword ptr [rip + 0x1da0446]  ; TypeInfo_UnityEngine_Debug
+// asm:   0x18235aff2: cmp dword ptr [rcx + 0xe4], 0
+// asm:   0x18235aff9: jne 0x18235b000
+// asm:   0x18235affb: call 0x1804171c0  ; il2cpp_codegen_runtime_class_init()
+// asm:   0x18235b000: xor edx, edx
+// asm:   0x18235b002: mov rcx, rbx
+// asm:   0x18235b005: call 0x182ec3bd0  ; UnityEngine_Debug__Log()
+// asm:   0x18235b00a: xor edi, edi
+// asm:   0x18235b237: mov rbx, qword ptr [rsp + 0x38]
+// asm:   0x18235b23c: test rbx, rbx
+// asm:   0x18235b23f: jne 0x18235b2c6
+// asm:   0x18235b245: movzx eax, byte ptr [rsp + 0x90]
+// asm:   0x18235b2bb: call 0x180417120  ; ThrowNullReferenceException()
+// asm:   0x18235b2c6: lea rcx, [rsp + 0x40]
+// asm:   0x18235b2cb: call 0x182344100  ; il2cpp_runtime_helper_182344100()
+// asm:   0x18235b2d0: mov rcx, rbx
+// asm:   0x18235b2d3: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183318f20: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183318f25: push rbp
+// asm:   0x183318f26: sub rsp, 0x20
+// asm:   0x183318f2a: mov rbp, rdx
+// asm:   0x183318f2d: mov rax, qword ptr [rbp + 0x30]
+// asm:   0x183318f31: mov rcx, qword ptr [rax]
+// asm:   0x183318f34: mov qword ptr [rbp + 0x38], rcx
+// asm:   0x183318f38: movabs rax, 0
+// asm:   0x183318f42: add rsp, 0x20
+// asm:   0x183318f46: pop rbp
+// asm:   0x183318f47: ret 
+// asm:   0x183340770: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183340775: push rbx
+// asm:   0x183340776: push rbp
+// asm:   0x183340777: push rdi
+// asm:   0x183340778: sub rsp, 0x20
+// asm:   0x18334077c: mov rbp, rdx
+// asm:   0x18334077f: mov rbx, qword ptr [rbp + 0x28]
+// asm:   0x183340783: mov rax, qword ptr [rbx]
+// asm:   0x183340786: mov rdi, qword ptr [rax]
+// asm:   0x183340789: lea rcx, [rip + 0xd387c8]  ; TypeInfo_System_Exception
+// asm:   0x183340790: call 0x180416ea0  ; il2cpp_codegen_get_runtime_metadata()
+// asm:   0x183340795: mov rdx, rdi
+// asm:   0x183340798: mov rcx, rax
+// asm:   0x18334079b: call 0x180416950  ; il2cpp_codegen_class_is_assignable_from()
+// asm:   0x1833407a0: test al, al
+// asm:   0x1833407a2: mov rax, qword ptr [rbx]
+// asm:   0x1833407a5: je 0x1833407b7
+// asm:   0x1833407a7: mov qword ptr [rbp + 0x48], rax
+// asm:   0x1833407ab: movabs rax, 0
+// asm:   0x1833407b5: jmp 0x1833407cc
+// asm:   0x1833407b7: mov qword ptr [rbp + 0x20], rax
+// asm:   0x1833407bb: lea rdx, [rip + 0xc9b7c6]
+// asm:   0x1833407c2: lea rcx, [rbp + 0x20]
+// asm:   0x1833407c6: call 0x1804ef7d0  ; _CxxThrowException()
+// asm:   0x1833407cc: add rsp, 0x20
+// asm:   0x1833407d0: pop rdi
+// asm:   0x1833407d1: pop rbp
+// asm:   0x1833407d2: pop rbx
+// asm:   0x1833407d3: ret 
 
-bool_conflict
-ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__MoveNext
-          (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+bool ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__MoveNext
+               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *__this,MethodInfo *method)
 
 {
-  System_String_array **ppSVar1;
-  SimpleJSONFixed_JSONNode_array **ppSVar2;
-  UnityEngine_WWW_o **ppUVar3;
-  uint uVar4;
-  ushort uVar5;
-  ushort uVar6;
-  ushort uVar7;
-  int iVar8;
-  UnityEngine_WWW_c *pUVar9;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar10;
-  bool_conflict bVar11;
-  System_String_array *pSVar12;
-  SimpleJSONFixed_JSONNode_array *pSVar13;
-  System_String_o *pSVar14;
-  Il2CppMethodPointer *ppIVar15;
-  SimpleJSONFixed_JSONNode_o *pSVar16;
-  UnityEngine_WWW_o *pUVar17;
-  undefined8 uVar18;
-  long *plVar19;
-  ulong uVar20;
-  uint uVar21;
-  long lVar22;
-  long lVar23;
-  bool bVar24;
-  undefined1 auVar25 [12];
+  int32_t *piVar1;
+  int iVar2;
+  SimpleJSONFixed_JSONNode_o *pSVar3;
+  bool bVar4;
+  System_String_array *pSVar5;
+  SimpleJSONFixed_JSONNode_array *pSVar6;
+  System_String_o *pSVar7;
+  Il2CppObject *pIVar8;
+  Il2CppObject *pIVar9;
+  UnityEngine_WWW_o *pUVar10;
+  uint uVar11;
   
-  if (g_data_057aea7e == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Debug);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_JSONNode);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PastebinLoader);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_string);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_WWW);
-    il2cpp_runtime_helper_023445d0(&"Failed to load pastebin link: ");
-    g_data_057aea7e = '\x01';
+  if (Il2CppMethodInitialized_1843479b3 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Debug);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_SimpleJSONFixed_JSONNode);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_PastebinLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_string_array);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_WWW);
+    il2cpp_codegen_initialize_runtime_metadata(&"Failed to load pastebin link: ");
+    Il2CppMethodInitialized_1843479b3 = '\x01';
   }
-  iVar8 = (__this->fields).__1__state;
-  if (iVar8 == 1) {
-label_044be4ac:
-    (__this->fields).__1__state = -3;
-    pUVar17 = (__this->fields)._www_5__5;
-    if (pUVar17 == (UnityEngine_WWW_o *)0x0) {
-label_044be8d4:
-      il2cpp_runtime_helper_022b2c90();
-label_044be8d9:
-      il2cpp_runtime_helper_022b2c90();
-label_044be8de:
-      il2cpp_runtime_helper_022b2ca0();
-label_044be8e3:
-      il2cpp_runtime_helper_022b2ca0();
-label_044be8e8:
-      il2cpp_runtime_helper_022b2ca0();
-      goto label_044be8ed;
-    }
-    pSVar14 = UnityEngine_WWW__get_error(pUVar17,(MethodInfo *)0x0);
-    ppUVar3 = &(__this->fields)._www_5__5;
-    if (pSVar14 != (System_String_o *)0x0) {
-      if (*ppUVar3 != (UnityEngine_WWW_o *)0x0) {
-        pSVar14 = UnityEngine_WWW__get_error(*ppUVar3,(MethodInfo *)0x0);
-        pSVar14 = System_String__Concat_3ae5ba0("Failed to load pastebin link: ",pSVar14,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_Debug + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        UnityEngine_Debug__Log((Il2CppObject *)pSVar14,(MethodInfo *)0x0);
-        if (g_data_057aea7f == '\0') {
-          il2cpp_runtime_helper_023445d0();
-          g_data_057aea7f = '\x01';
-        }
-        (__this->fields).__1__state = -1;
-        pUVar17 = (__this->fields)._www_5__5;
-        if (pUVar17 != (UnityEngine_WWW_o *)0x0) {
-          pUVar9 = pUVar17->klass;
-          uVar5._0_1_ = (pUVar9->_2).rank;
-          uVar5._1_1_ = (pUVar9->_2).minimumAlignment;
-          if ((ulong)uVar5 != 0) {
-            pIVar10 = (pUVar9->_1).interfaceOffsets;
-            lVar23 = 0;
-            do {
-              if (*(long *)((long)&pIVar10->interfaceType + lVar23) == TypeInfo_IDisposable) {
-                ppIVar15 = &(&(pUVar9->vtable)._0_Equals)[*(int *)((long)&pIVar10->offset + lVar23)].methodPtr
-                ;
-                goto label_044be6ad;
-              }
-              lVar23 = lVar23 + 0x10;
-            } while ((ulong)uVar5 << 4 != lVar23);
-          }
-          ppIVar15 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pUVar17,TypeInfo_IDisposable,0);
-label_044be6ad:
-          (**ppIVar15)(pUVar17,(MethodInfo *)ppIVar15[1]);
-        }
-label_044be769:
-        pSVar13 = (__this->fields)._nodes_5__3;
-        if (pSVar13 == (SimpleJSONFixed_JSONNode_array *)0x0) {
-label_044be8c0:
-          il2cpp_runtime_helper_022b2c90();
-label_044be8c5:
-          il2cpp_runtime_helper_022b2ca0();
-label_044be8ca:
-          il2cpp_runtime_helper_022b2c90();
-        }
-        else {
-          if ((int)pSVar13->max_length == 0) goto label_044be8c5;
-          pSVar16 = pSVar13->m_Items[0];
-          if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-            il2cpp_runtime_helper_02337ed0();
-          }
-          lVar23 = *(long *)(TypeInfo_PastebinLoader + 0xb8);
-          *(SimpleJSONFixed_JSONNode_o **)(lVar23 + 8) = pSVar16;
-          il2cpp_runtime_helper_022b4080(lVar23 + 8,pSVar16);
-          pSVar13 = (__this->fields)._nodes_5__3;
-          if (pSVar13 == (SimpleJSONFixed_JSONNode_array *)0x0) goto label_044be8ca;
-          if (1 < (uint)pSVar13->max_length) {
-            **(undefined8 **)(TypeInfo_PastebinLoader + 0xb8) = pSVar13->m_Items[1];
-            il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_PastebinLoader + 0xb8));
-            pSVar16 = (SimpleJSONFixed_JSONNode_o *)**(undefined8 **)(TypeInfo_PastebinLoader + 0xb8);
-            if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            bVar11 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar16,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-            if ((char)bVar11 != '\0') {
-              if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              pSVar16 = *(SimpleJSONFixed_JSONNode_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 8);
-              if (*(int *)(TypeInfo_JSONNode + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar11 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar16,(Il2CppObject *)0x0,(MethodInfo *)0x0);
-              if ((char)bVar11 != '\0') {
-                if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-                  il2cpp_runtime_helper_02337ed0();
-                }
-                *(undefined4 *)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x10) = 1;
-                return 0;
-              }
-            }
-            if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            *(undefined4 *)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x10) = 2;
-            return 0;
-          }
-        }
-        il2cpp_runtime_helper_022b2ca0();
-        goto label_044be8d4;
-      }
-      goto label_044be8f7;
-    }
-    pUVar17 = (__this->fields)._www_5__5;
-    if (pUVar17 == (UnityEngine_WWW_o *)0x0) goto label_044be8fc;
-    pSVar13 = (__this->fields)._nodes_5__3;
-    uVar21 = (__this->fields)._i_5__4;
-    pSVar14 = UnityEngine_WWW__get_text(pUVar17,(MethodInfo *)0x0);
-    pSVar16 = SimpleJSONFixed_JSON__Parse(pSVar14,(MethodInfo *)0x0);
-    if (pSVar13 == (SimpleJSONFixed_JSONNode_array *)0x0) goto label_044be901;
-    if ((pSVar16 != (SimpleJSONFixed_JSONNode_o *)0x0) &&
-       (lVar23 = il2cpp_runtime_helper_023051f0(pSVar16,(((pSVar13->obj).klass)->_1).element_class), lVar23 == 0))
-    goto label_044be910;
-    if ((uint)pSVar13->max_length <= uVar21) goto label_044be906;
-    pSVar13->m_Items[(int)uVar21] = pSVar16;
-    il2cpp_runtime_helper_022b4080(pSVar13->m_Items + (int)uVar21,pSVar16);
-    if (g_data_057aea7f == '\0') {
-      il2cpp_runtime_helper_023445d0();
-      g_data_057aea7f = '\x01';
-    }
+  uVar11 = 0;
+  iVar2 = (__this->fields).__1__state;
+  if (iVar2 == 0) {
     (__this->fields).__1__state = -1;
-    pUVar17 = (__this->fields)._www_5__5;
-    if (pUVar17 != (UnityEngine_WWW_o *)0x0) {
-      pUVar9 = pUVar17->klass;
-      uVar6._0_1_ = (pUVar9->_2).rank;
-      uVar6._1_1_ = (pUVar9->_2).minimumAlignment;
-      if ((ulong)uVar6 != 0) {
-        pIVar10 = (pUVar9->_1).interfaceOffsets;
-        lVar23 = 0;
-        do {
-          if (*(long *)((long)&pIVar10->interfaceType + lVar23) == TypeInfo_IDisposable) {
-            ppIVar15 = &(&(pUVar9->vtable)._0_Equals)[*(int *)((long)&pIVar10->offset + lVar23)].methodPtr;
-            goto label_044be6cd;
-          }
-          lVar23 = lVar23 + 0x10;
-        } while ((ulong)uVar6 << 4 != lVar23);
-      }
-      ppIVar15 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pUVar17,TypeInfo_IDisposable,0);
-label_044be6cd:
-      (**ppIVar15)(pUVar17,(MethodInfo *)ppIVar15[1]);
+    if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
     }
-    *ppUVar3 = (UnityEngine_WWW_o *)0x0;
-    il2cpp_runtime_helper_022b4080(ppUVar3,0);
-    uVar21 = (__this->fields)._i_5__4 + 1;
-    (__this->fields)._i_5__4 = uVar21;
-    pSVar12 = (__this->fields)._urls_5__2;
-    if (pSVar12 != (System_String_array *)0x0) {
-      uVar4 = (uint)pSVar12->max_length;
-      bVar24 = uVar21 < uVar4;
-      if ((int)uVar4 <= (int)uVar21) goto label_044be769;
-label_044be704:
-      if (bVar24) {
-        pSVar14 = pSVar12->m_Items[(int)uVar21];
-        pUVar17 = (UnityEngine_WWW_o *)il2cpp_runtime_helper_023052d0(TypeInfo_WWW);
-        UnityEngine_WWW___ctor(pUVar17,pSVar14,(MethodInfo *)0x0);
-        (__this->fields)._www_5__5 = pUVar17;
-        il2cpp_runtime_helper_022b4080(&(__this->fields)._www_5__5,pUVar17);
-        (__this->fields).__1__state = -3;
-        (__this->fields).__2__current = (Il2CppObject *)(__this->fields)._www_5__5;
-        il2cpp_runtime_helper_022b4080(&(__this->fields).__2__current);
-        (__this->fields).__1__state = 1;
-        return (bool_conflict)CONCAT71((int7)((ulong)pSVar12 >> 8),1);
-      }
-      goto label_044be8f2;
+    TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Status = 0;
+    pSVar5 = (System_String_array *)SZArrayNew(TypeInfo_string_array,2);
+    if (pSVar5 == (System_String_array *)0x0) {
+      ThrowNullReferenceException();
     }
+    if ((int)pSVar5->max_length == 0) {
+      ThrowIndexOutOfRangeException();
+    }
+    pSVar7 = TypeInfo_ApplicationManagers_PastebinLoader->static_fields->LeaderboardURL;
+    pSVar5->m_Items[0] = pSVar7;
+    Il2CppCodeGenWriteBarrier(pSVar5->m_Items,pSVar7);
+    if ((uint)pSVar5->max_length < 2) {
+      ThrowIndexOutOfRangeException();
+    }
+    pSVar7 = TypeInfo_ApplicationManagers_PastebinLoader->static_fields->PlatformURL;
+    pSVar5->m_Items[1] = pSVar7;
+    Il2CppCodeGenWriteBarrier(pSVar5->m_Items + 1,pSVar7);
+    (__this->fields)._urls_5__2 = pSVar5;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._urls_5__2,pSVar5);
+    pSVar5 = (__this->fields)._urls_5__2;
+    if (pSVar5 == (System_String_array *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar6 = (SimpleJSONFixed_JSONNode_array *)
+             SZArrayNew(TypeInfo_SimpleJSONFixed_JSONNode_array,(uint32_t)pSVar5->max_length);
+    (__this->fields)._nodes_5__3 = pSVar6;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._nodes_5__3,pSVar6);
+    while( true ) {
+      pSVar5 = (__this->fields)._urls_5__2;
+      if (pSVar5 == (System_String_array *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if ((int)pSVar5->max_length <= (int)uVar11) break;
+      pSVar6 = (__this->fields)._nodes_5__3;
+      if (pSVar6 == (SimpleJSONFixed_JSONNode_array *)0x0) {
+        ThrowNullReferenceException();
+      }
+      if ((uint)pSVar6->max_length <= uVar11) {
+        ThrowIndexOutOfRangeException();
+      }
+      pSVar6->m_Items[(int)uVar11] = (SimpleJSONFixed_JSONNode_o *)0x0;
+      Il2CppCodeGenWriteBarrier(pSVar6->m_Items + (int)uVar11,(void *)0x0);
+      uVar11 = uVar11 + 1;
+    }
+    (__this->fields)._i_5__4 = 0;
   }
   else {
-    if (iVar8 != 0) {
-      return 0;
+    if (iVar2 != 1) {
+      return false;
+    }
+    (__this->fields).__1__state = -3;
+    pUVar10 = (__this->fields)._www_5__5;
+    if (pUVar10 == (UnityEngine_WWW_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar7 = UnityEngine_WWW__get_error(pUVar10,(MethodInfo *)0x0);
+    if (pSVar7 != (System_String_o *)0x0) {
+      pUVar10 = (__this->fields)._www_5__5;
+      if (pUVar10 == (UnityEngine_WWW_o *)0x0) {
+        ThrowNullReferenceException();
+      }
+      pSVar7 = UnityEngine_WWW__get_error(pUVar10,(MethodInfo *)0x0);
+      pSVar7 = System_String__Concat_1969e50("Failed to load pastebin link: ",pSVar7,(MethodInfo *)0x0);
+      if ((TypeInfo_UnityEngine_Debug->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Debug);
+      }
+      UnityEngine_Debug__Log((Il2CppObject *)pSVar7,(MethodInfo *)0x0);
+      if (Il2CppMethodInitialized_1843479b4 == '\0') {
+        il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+        Il2CppMethodInitialized_1843479b4 = '\x01';
+      }
+      (__this->fields).__1__state = -1;
+      if ((__this->fields)._www_5__5 != (UnityEngine_WWW_o *)0x0) {
+        InterfaceInvoker0_Invoke
+                  (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields)._www_5__5);
+      }
+      goto label_18235b13b;
+    }
+    pUVar10 = (__this->fields)._www_5__5;
+    if (pUVar10 == (UnityEngine_WWW_o *)0x0) {
+      ThrowNullReferenceException();
+    }
+    pSVar6 = (__this->fields)._nodes_5__3;
+    uVar11 = (__this->fields)._i_5__4;
+    pSVar7 = UnityEngine_WWW__get_text(pUVar10,(MethodInfo *)0x0);
+    pIVar8 = (Il2CppObject *)SimpleJSONFixed_JSON__Parse(pSVar7,(MethodInfo *)0x0);
+    if (pSVar6 == (SimpleJSONFixed_JSONNode_array *)0x0) {
+      ThrowNullReferenceException();
+    }
+    if ((pIVar8 != (Il2CppObject *)0x0) &&
+       (pIVar9 = il2cpp_vm_Object_IsInst(pIVar8,(((pSVar6->obj).klass)->_1).element_class),
+       pIVar9 == (Il2CppObject *)0x0)) {
+      pIVar8 = il2cpp_codegen_get_array_type_mismatch_exception();
+      il2cpp_codegen_raise_exception(pIVar8,(MethodInfo *)0x0);
+    }
+    if ((uint)pSVar6->max_length <= uVar11) {
+      ThrowIndexOutOfRangeException();
+    }
+    pSVar6->m_Items[(int)uVar11] = (SimpleJSONFixed_JSONNode_o *)pIVar8;
+    Il2CppCodeGenWriteBarrier(pSVar6->m_Items + (int)uVar11,pIVar8);
+    if (Il2CppMethodInitialized_1843479b4 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+      Il2CppMethodInitialized_1843479b4 = '\x01';
     }
     (__this->fields).__1__state = -1;
-    if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+    if ((__this->fields)._www_5__5 != (UnityEngine_WWW_o *)0x0) {
+      InterfaceInvoker0_Invoke
+                (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields)._www_5__5);
     }
-    *(undefined4 *)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x10) = 0;
-    pSVar12 = (System_String_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_string,3);
-    if (pSVar12 == (System_String_array *)0x0) goto label_044be8d9;
-    if ((int)pSVar12->max_length == 0) goto label_044be8de;
-    pSVar12->m_Items[0] = *(System_String_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x20);
-    il2cpp_runtime_helper_022b4080(pSVar12->m_Items);
-    if ((uint)pSVar12->max_length < 2) goto label_044be8e3;
-    pSVar12->m_Items[1] = *(System_String_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x28);
-    il2cpp_runtime_helper_022b4080(pSVar12->m_Items + 1);
-    if ((uint)pSVar12->max_length < 3) goto label_044be8e8;
-    pSVar12->m_Items[2] = *(System_String_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x30);
-    il2cpp_runtime_helper_022b4080(pSVar12->m_Items + 2);
-    ppSVar1 = &(__this->fields)._urls_5__2;
-    (__this->fields)._urls_5__2 = pSVar12;
-    il2cpp_runtime_helper_022b4080(ppSVar1,pSVar12);
-    if (*ppSVar1 != (System_String_array *)0x0) {
-      pSVar13 = (SimpleJSONFixed_JSONNode_array *)il2cpp_runtime_helper_022b2a40(TypeInfo_JSONNode,(int)(*ppSVar1)->max_length);
-      ppSVar2 = &(__this->fields)._nodes_5__3;
-      (__this->fields)._nodes_5__3 = pSVar13;
-      il2cpp_runtime_helper_022b4080(ppSVar2);
-      pSVar12 = *ppSVar1;
-      if (pSVar12 != (System_String_array *)0x0) {
-        lVar23 = 0x20;
-        uVar20 = 0;
-        do {
-          if ((long)(int)pSVar12->max_length <= (long)uVar20) {
-            (__this->fields)._i_5__4 = 0;
-            uVar21 = 0;
-            iVar8 = (int)pSVar12->max_length;
-            bVar24 = iVar8 != 0;
-            if (iVar8 < 1) goto label_044be769;
-            goto label_044be704;
-          }
-          pSVar13 = *ppSVar2;
-          if (pSVar13 == (SimpleJSONFixed_JSONNode_array *)0x0) {
-            il2cpp_runtime_helper_022b2c90();
-label_044be8bb:
-            il2cpp_runtime_helper_022b2ca0();
-            goto label_044be8c0;
-          }
-          if ((uint)pSVar13->max_length <= uVar20) goto label_044be8bb;
-          *(undefined8 *)((long)pSVar13->m_Items + lVar23 + -0x20) = 0;
-          il2cpp_runtime_helper_022b4080((long)pSVar13->m_Items + lVar23 + -0x20);
-          uVar20 = uVar20 + 1;
-          pSVar12 = *ppSVar1;
-          lVar23 = lVar23 + 8;
-        } while (pSVar12 != (System_String_array *)0x0);
-      }
-      il2cpp_runtime_helper_022b2c90();
-      goto label_044be4ac;
-    }
-label_044be8ed:
-    il2cpp_runtime_helper_022b2c90();
-label_044be8f2:
-    il2cpp_runtime_helper_022b2ca0();
-label_044be8f7:
-    il2cpp_runtime_helper_022b2c90();
-label_044be8fc:
-    il2cpp_runtime_helper_022b2c90();
-label_044be901:
-    il2cpp_runtime_helper_022b2c90();
-label_044be906:
-    il2cpp_runtime_helper_022b2ca0();
+    (__this->fields)._www_5__5 = (UnityEngine_WWW_o *)0x0;
+    Il2CppCodeGenWriteBarrier(&(__this->fields)._www_5__5,(void *)0x0);
+    piVar1 = &(__this->fields)._i_5__4;
+    *piVar1 = *piVar1 + 1;
   }
-  il2cpp_runtime_helper_022b2c90();
-label_044be910:
-  uVar18 = il2cpp_runtime_helper_0231b270();
-  auVar25 = il2cpp_runtime_helper_022b2b10(uVar18,0);
-  uVar18 = auVar25._0_8_;
-  if (auVar25._8_4_ == 1) {
-    plVar19 = (long *)__cxa_begin_catch(uVar18);
-    lVar23 = *plVar19;
-    __cxa_end_catch();
-    if (lVar23 == 0) {
-      return 0;
-    }
-    il2cpp_runtime_helper_02235d50(__this);
-    uVar18 = il2cpp_runtime_helper_022fefe0();
-    if (lVar23 != 0) {
-      iVar8 = (__this->fields).__1__state;
-      if ((iVar8 == 1) || (iVar8 == -3)) {
-        if (g_data_057aea7f == '\0') {
-          il2cpp_runtime_helper_023445d0();
-          g_data_057aea7f = '\x01';
-        }
-        (__this->fields).__1__state = -1;
-        pUVar17 = (__this->fields)._www_5__5;
-        if (pUVar17 != (UnityEngine_WWW_o *)0x0) {
-          pUVar9 = pUVar17->klass;
-          uVar7._0_1_ = (pUVar9->_2).rank;
-          uVar7._1_1_ = (pUVar9->_2).minimumAlignment;
-          if ((ulong)uVar7 != 0) {
-            pIVar10 = (pUVar9->_1).interfaceOffsets;
-            lVar22 = 0;
-            do {
-              if (*(long *)((long)&pIVar10->interfaceType + lVar22) == TypeInfo_IDisposable) {
-                ppIVar15 = &(&(pUVar9->vtable)._0_Equals)[*(int *)((long)&pIVar10->offset + lVar22)].methodPtr
-                ;
-                goto label_044beb58;
-              }
-              lVar22 = lVar22 + 0x10;
-            } while ((ulong)uVar7 << 4 != lVar22);
-          }
-          ppIVar15 = (Il2CppMethodPointer *)il2cpp_runtime_helper_02300d20(pUVar17,TypeInfo_IDisposable,0);
-label_044beb58:
-          (**ppIVar15)(pUVar17,(MethodInfo *)ppIVar15[1]);
-        }
-      }
-      uVar18 = il2cpp_runtime_helper_022fefe0(lVar23);
-    }
+  pSVar5 = (__this->fields)._urls_5__2;
+  if (pSVar5 == (System_String_array *)0x0) {
+    ThrowNullReferenceException();
   }
-  _Unwind_Resume(uVar18);
+  if ((__this->fields)._i_5__4 < (int)pSVar5->max_length) {
+    pSVar5 = (__this->fields)._urls_5__2;
+    uVar11 = (__this->fields)._i_5__4;
+    if (uVar11 < (uint)pSVar5->max_length) {
+      pSVar7 = pSVar5->m_Items[(int)uVar11];
+      pUVar10 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_UnityEngine_WWW);
+      UnityEngine_WWW___ctor(pUVar10,pSVar7,(MethodInfo *)0x0);
+      (__this->fields)._www_5__5 = pUVar10;
+      Il2CppCodeGenWriteBarrier(&(__this->fields)._www_5__5,pUVar10);
+      (__this->fields).__1__state = -3;
+      pUVar10 = (__this->fields)._www_5__5;
+      (__this->fields).__2__current = (Il2CppObject *)pUVar10;
+      Il2CppCodeGenWriteBarrier(&(__this->fields).__2__current,pUVar10);
+      (__this->fields).__1__state = 1;
+      return true;
+    }
+    ThrowIndexOutOfRangeException();
+  }
+label_18235b13b:
+  pSVar6 = (__this->fields)._nodes_5__3;
+  if (pSVar6 == (SimpleJSONFixed_JSONNode_array *)0x0) {
+    ThrowNullReferenceException();
+  }
+  if ((int)pSVar6->max_length != 0) {
+    pSVar3 = pSVar6->m_Items[0];
+    if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
+    }
+    TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Leaderboard = pSVar3;
+    Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Leaderboard,pSVar3)
+    ;
+    pSVar3 = TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Leaderboard;
+    if ((TypeInfo_SimpleJSONFixed_JSONNode->_2).cctor_finished_or_no_cctor == 0) {
+      il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_SimpleJSONFixed_JSONNode);
+    }
+    bVar4 = SimpleJSONFixed_JSONNode__op_Inequality(pSVar3,(Il2CppObject *)0x0,(MethodInfo *)0x0);
+    if (bVar4) {
+      if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
+      }
+      TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Status = 1;
+    }
+    else {
+      if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
+      }
+      TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Status = 2;
+    }
+    return false;
+  }
+  ThrowIndexOutOfRangeException();
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$<>m__Finally1
-// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9____m__Finally1 (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44beb80
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$<>m__Finally1
+// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7____m__Finally1 (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x18235b3b0
 
-void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9____m__Finally1
-               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7____m__Finally1
+               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *__this,MethodInfo *method)
 
 {
-  ushort uVar1;
-  UnityEngine_WWW_o *pUVar2;
-  UnityEngine_WWW_c *pUVar3;
-  Il2CppRuntimeInterfaceOffsetPair *pIVar4;
-  code *vtableDispatch;
-  long lVar5;
-  undefined1 auVar6 [16];
-  
-  if (g_data_057aea7f == '\0') {
-    il2cpp_runtime_helper_023445d0();
-    g_data_057aea7f = '\x01';
+  if (Il2CppMethodInitialized_1843479b4 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_IDisposable);
+    Il2CppMethodInitialized_1843479b4 = '\x01';
   }
   (__this->fields).__1__state = -1;
-  pUVar2 = (__this->fields)._www_5__5;
-  if (pUVar2 == (UnityEngine_WWW_o *)0x0) {
+  if ((__this->fields)._www_5__5 != (UnityEngine_WWW_o *)0x0) {
+    InterfaceInvoker0_Invoke
+              (0,(Il2CppClass *)TypeInfo_System_IDisposable,(Il2CppObject *)(__this->fields)._www_5__5);
     return;
   }
-  pUVar3 = pUVar2->klass;
-  uVar1._0_1_ = (pUVar3->_2).rank;
-  uVar1._1_1_ = (pUVar3->_2).minimumAlignment;
-  if ((ulong)uVar1 != 0) {
-    pIVar4 = (pUVar3->_1).interfaceOffsets;
-    lVar5 = 0;
-    do {
-      if (*(long *)((long)&pIVar4->interfaceType + lVar5) == TypeInfo_IDisposable) {
-        auVar6._8_8_ = pIVar4;
-        auVar6._0_8_ = &(pUVar3->vtable)._0_Equals + *(int *)((long)&pIVar4->offset + lVar5);
-        goto label_044bec0f;
-      }
-      lVar5 = lVar5 + 0x10;
-    } while ((ulong)uVar1 << 4 != lVar5);
-  }
-  auVar6 = il2cpp_runtime_helper_02300d20(pUVar2,TypeInfo_IDisposable,0);
-label_044bec0f:
-  vtableDispatch = (code *)*auVar6._0_8_;
-  (*vtableDispatch)(pUVar2,auVar6._0_8_[1],auVar6._8_8_,vtableDispatch);
   return;
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44bec20
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$System.Collections.Generic.IEnumerator<System.Object>.get_Current
+// il2cpp: Il2CppObject* ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_Generic_IEnumerator_System_Object__get_Current (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x180573e90
 
-Il2CppObject *
-ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_Generic_IEnumerator_System_Object__get_Current
-          (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+Il2CppObject*
+ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_Generic_IEnumerator_System_Object__get_Current(ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$System.Collections.IEnumerator.Reset
-// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_IEnumerator_Reset (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44bec30
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$System.Collections.IEnumerator.Reset
+// il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_IEnumerator_Reset (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x18235b2e0
 
-void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_IEnumerator_Reset
-               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+void ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_IEnumerator_Reset
+               (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *__this,MethodInfo *method)
 
 {
-  undefined8 uVar1;
+  Il2CppClass *klass;
   System_NotSupportedException_o *__this_00;
+  MethodInfo *lastManagedFrame;
   
-  uVar1 = il2cpp_runtime_helper_023445d0(&TypeInfo_NotSupportedException);
-  __this_00 = (System_NotSupportedException_o *)il2cpp_runtime_helper_023052d0(uVar1);
+  klass = il2cpp_codegen_get_runtime_metadata(&TypeInfo_System_NotSupportedException);
+  __this_00 = (System_NotSupportedException_o *)il2cpp_codegen_object_new(klass);
   System_NotSupportedException___ctor(__this_00,(MethodInfo *)0x0);
-  uVar1 = il2cpp_runtime_helper_023445d0(&MethodInfo_Void_System_Collections_IEnumerator_Reset);
-  il2cpp_runtime_helper_022b2b10(__this_00,uVar1);
-  return;
+  lastManagedFrame =
+       il2cpp_codegen_get_runtime_metadata
+                 (&
+                  MethodInfo_ApplicationManagers_PastebinLoader_LoadPastebinCoroutine_d__7_System_Collections_IEnumerator_Res
+                 );
+  il2cpp_codegen_raise_exception((Il2CppObject *)__this_00,lastManagedFrame);
 }
 
 
-// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__9$$System.Collections.IEnumerator.get_Current
-// il2cpp: Il2CppObject* ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_IEnumerator_get_Current (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o* __this, const MethodInfo* method);
-// 0x44bec70
+// ApplicationManagers.PastebinLoader.<LoadPastebinCoroutine>d__7$$System.Collections.IEnumerator.get_Current
+// il2cpp: Il2CppObject* ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_IEnumerator_get_Current (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, const MethodInfo* method);
+// 0x180573e90
 
-Il2CppObject *
-ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collections_IEnumerator_get_Current
-          (ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9_o *__this,MethodInfo *method)
+Il2CppObject*
+ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7__System_Collections_IEnumerator_get_Current(ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o* __this, MethodInfo* method)
 
 {
   return (__this->fields).__2__current;
@@ -512,109 +429,103 @@ ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__9__System_Collectio
 
 // ApplicationManagers.PastebinLoader$$Init
 // il2cpp: void ApplicationManagers_PastebinLoader__Init (const MethodInfo* method);
-// 0x44bdf70
+// 0x1823551a0
 
 void ApplicationManagers_PastebinLoader__Init(MethodInfo *method)
 
 {
-  long lVar1;
-  Il2CppObject *pIVar2;
+  ApplicationManagers_PastebinLoader_o *value;
   
-  if (g_data_057aea7a == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PastebinLoader);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_PastebinLoader_CreateSingleton_PastebinLoader);
-    g_data_057aea7a = '\x01';
+  if (Il2CppMethodInitialized_1843479af == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_PastebinLoader);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Utility_SingletonFactory_CreateSingleton_PastebinLoader);
+    Il2CppMethodInitialized_1843479af = '\x01';
   }
-  if (*(int *)(TypeInfo_PastebinLoader + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
   }
-  pIVar2 = Utility_SingletonFactory__CreateSingleton_object_
-                     (*(Il2CppObject **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x18),MethodInfo_PastebinLoader_CreateSingleton_PastebinLoader);
-  lVar1 = *(long *)(TypeInfo_PastebinLoader + 0xb8);
-  *(Il2CppObject **)(lVar1 + 0x18) = pIVar2;
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x18,pIVar2);
+  value = Utility_SingletonFactory__CreateSingleton_object_
+                    ((Il2CppObject *)TypeInfo_ApplicationManagers_PastebinLoader->static_fields->_instance,
+                     (MethodInfo_798ED0 *)MethodInfo_Utility_SingletonFactory_CreateSingleton_PastebinLoader);
+  TypeInfo_ApplicationManagers_PastebinLoader->static_fields->_instance = value;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_ApplicationManagers_PastebinLoader->static_fields->_instance,value);
   return;
 }
 
 
 // ApplicationManagers.PastebinLoader$$LoadPastebin
 // il2cpp: void ApplicationManagers_PastebinLoader__LoadPastebin (const MethodInfo* method);
-// 0x44bdff0
+// 0x182355280
 
 void ApplicationManagers_PastebinLoader__LoadPastebin(MethodInfo *method)
 
 {
-  int iVar1;
-  UnityEngine_MonoBehaviour_o *__this;
-  Il2CppObject *pIVar2;
+  ApplicationManagers_PastebinLoader_o *__this;
+  ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *routine;
   
-  if (g_data_057aea7b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PastebinLoader);
-    g_data_057aea7b = '\x01';
-    iVar1 = *(int *)(TypeInfo_PastebinLoader + 0xe4);
+  if (Il2CppMethodInitialized_1843479b0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_PastebinLoader);
+    Il2CppMethodInitialized_1843479b0 = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_PastebinLoader + 0xe4);
+  if ((TypeInfo_ApplicationManagers_PastebinLoader->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = *(UnityEngine_MonoBehaviour_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x18);
-  }
-  else {
-    __this = *(UnityEngine_MonoBehaviour_o **)(*(long *)(TypeInfo_PastebinLoader + 0xb8) + 0x18);
-  }
-  if (__this != (UnityEngine_MonoBehaviour_o *)0x0) {
-    if (g_data_057aea7c == '\0') {
-      il2cpp_runtime_helper_023445d0(&TypeInfo_LoadPastebinCoroutine_d__9);
-      g_data_057aea7c = '\x01';
+  if (TypeInfo_ApplicationManagers_PastebinLoader->static_fields->_instance !=
+      (ApplicationManagers_PastebinLoader_o *)0x0) {
+    __this = TypeInfo_ApplicationManagers_PastebinLoader->static_fields->_instance;
+    if (Il2CppMethodInitialized_1843479b1 == '\0') {
+      il2cpp_codegen_initialize_runtime_metadata
+                (&TypeInfo_ApplicationManagers_PastebinLoader_LoadPastebinCoroutine_d__7);
+      Il2CppMethodInitialized_1843479b1 = '\x01';
     }
-    pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadPastebinCoroutine_d__9);
-    System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-    *(undefined4 *)&pIVar2[1].klass = 0;
-    UnityEngine_MonoBehaviour__StartCoroutine_4dfd680
-              (__this,(System_Collections_IEnumerator_o *)pIVar2,(MethodInfo *)0x0);
+    routine = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader_LoadPastebinCoroutine_d__7
+                        );
+    System_Object___ctor
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)routine,(MethodInfo *)0x0);
+    (routine->fields).__1__state = 0;
+    UnityEngine_MonoBehaviour__StartCoroutine_Auto
+              ((UnityEngine_MonoBehaviour_o *)__this,(System_Collections_IEnumerator_o *)routine,
+               (MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057aea7c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadPastebinCoroutine_d__9);
-    g_data_057aea7c = '\x01';
-  }
-  pIVar2 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadPastebinCoroutine_d__9);
-  System_Object___ctor(pIVar2,(MethodInfo *)0x0);
-  *(undefined4 *)&pIVar2[1].klass = 0;
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // ApplicationManagers.PastebinLoader$$LoadPastebinCoroutine
 // il2cpp: System_Collections_IEnumerator_o* ApplicationManagers_PastebinLoader__LoadPastebinCoroutine (ApplicationManagers_PastebinLoader_o* __this, const MethodInfo* method);
-// 0x44be0d0
+// 0x182355230
 
 System_Collections_IEnumerator_o *
 ApplicationManagers_PastebinLoader__LoadPastebinCoroutine
           (ApplicationManagers_PastebinLoader_o *__this,MethodInfo *method)
 
 {
-  Il2CppObject *__this_00;
+  ApplicationManagers_PastebinLoader__LoadPastebinCoroutine_d__7_o *__this_00;
   
-  if (g_data_057aea7c == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_LoadPastebinCoroutine_d__9);
-    g_data_057aea7c = '\x01';
+  if (Il2CppMethodInitialized_1843479b1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_ApplicationManagers_PastebinLoader_LoadPastebinCoroutine_d__7);
+    Il2CppMethodInitialized_1843479b1 = '\x01';
   }
-  __this_00 = (Il2CppObject *)il2cpp_runtime_helper_023052d0(TypeInfo_LoadPastebinCoroutine_d__9);
-  System_Object___ctor(__this_00,(MethodInfo *)0x0);
-  *(undefined4 *)&__this_00[1].klass = 0;
+  __this_00 = il2cpp_codegen_object_new
+                        ((Il2CppClass *)TypeInfo_ApplicationManagers_PastebinLoader_LoadPastebinCoroutine_d__7
+                        );
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this_00,(MethodInfo *)0x0);
+  (__this_00->fields).__1__state = 0;
   return (System_Collections_IEnumerator_o *)__this_00;
 }
 
 
 // ApplicationManagers.PastebinLoader$$.ctor
 // il2cpp: void ApplicationManagers_PastebinLoader___ctor (ApplicationManagers_PastebinLoader_o* __this, const MethodInfo* method);
-// 0x44be140
+// 0x180528540
 
-void ApplicationManagers_PastebinLoader___ctor
-               (ApplicationManagers_PastebinLoader_o *__this,MethodInfo *method)
+void
+ApplicationManagers_PastebinLoader___ctor(ApplicationManagers_PastebinLoader_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);
@@ -624,30 +535,25 @@ void ApplicationManagers_PastebinLoader___ctor
 
 // ApplicationManagers.PastebinLoader$$.cctor
 // il2cpp: void ApplicationManagers_PastebinLoader___cctor (const MethodInfo* method);
-// 0x44be150
+// 0x182355340
 
 void ApplicationManagers_PastebinLoader___cctor(MethodInfo *method)
 
 {
-  long lVar1;
-  
-  if (g_data_057aea7d == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PastebinLoader);
-    il2cpp_runtime_helper_023445d0(&"https://aottgrc.com/Aottg2/Version.json");
-    il2cpp_runtime_helper_023445d0(&"https://pastebin.com/raw/txV4YVcr");
-    il2cpp_runtime_helper_023445d0(&"https://pastebin.com/raw/zptDi9T6");
-    g_data_057aea7d = '\x01';
+  if (Il2CppMethodInitialized_1843479b2 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_PastebinLoader);
+    il2cpp_codegen_initialize_runtime_metadata(&"https://aottgrc.com/Aottg2/Version.json");
+    il2cpp_codegen_initialize_runtime_metadata(&"https://pastebin.com/raw/zptDi9T6");
+    Il2CppMethodInitialized_1843479b2 = '\x01';
   }
-  lVar1 = *(long *)(TypeInfo_PastebinLoader + 0xb8);
-  *(undefined4 *)(lVar1 + 0x10) = 0;
-  *(undefined8 *)(lVar1 + 0x20) = "https://pastebin.com/raw/txV4YVcr";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x20);
-  lVar1 = *(long *)(TypeInfo_PastebinLoader + 0xb8);
-  *(undefined8 *)(lVar1 + 0x28) = "https://pastebin.com/raw/zptDi9T6";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x28);
-  lVar1 = *(long *)(TypeInfo_PastebinLoader + 0xb8);
-  *(undefined8 *)(lVar1 + 0x30) = "https://aottgrc.com/Aottg2/Version.json";
-  il2cpp_runtime_helper_022b4080(lVar1 + 0x30);
+  TypeInfo_ApplicationManagers_PastebinLoader->static_fields->Status = 0;
+  TypeInfo_ApplicationManagers_PastebinLoader->static_fields->LeaderboardURL = "https://pastebin.com/raw/zptDi9T6";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_PastebinLoader->static_fields->LeaderboardURL,"https://pastebin.com/raw/zptDi9T6"
+            );
+  TypeInfo_ApplicationManagers_PastebinLoader->static_fields->PlatformURL = "https://aottgrc.com/Aottg2/Version.json";
+  Il2CppCodeGenWriteBarrier
+            (&TypeInfo_ApplicationManagers_PastebinLoader->static_fields->PlatformURL,"https://aottgrc.com/Aottg2/Version.json");
   return;
 }
 

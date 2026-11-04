@@ -10,18 +10,18 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000444")]
+[Token(Token = "0x2000516")]
 public abstract class UxmlTypeRestriction : IEquatable<UxmlTypeRestriction>
 {
-	[Token(Token = "0x6001AFE")]
-	[Address(RVA = "0x4F6C1D0", Offset = "0x4F6C1D0", VA = "0x4F6C1D0", Slot = "5")]
+	[Token(Token = "0x60026F8")]
+	[Address(RVA = "0x2F67B50", Offset = "0x2F66150", VA = "0x182F67B50", Slot = "5")]
 	public virtual bool Equals(UxmlTypeRestriction other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001AFF")]
-	[Address(RVA = "0x4F6C1E0", Offset = "0x4F6C1E0", VA = "0x4F6C1E0")]
+	[Token(Token = "0x60026F9")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected UxmlTypeRestriction()
 	{
 	}

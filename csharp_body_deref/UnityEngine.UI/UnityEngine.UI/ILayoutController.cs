@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x2000049")]
+[Token(Token = "0x2000047")]
 public interface ILayoutController
 {
-	[Token(Token = "0x60002B8")]
+	[Token(Token = "0x60002C1")]
 	void SetLayoutHorizontal();
 
-	[Token(Token = "0x60002B9")]
+	[Token(Token = "0x60002C2")]
 	void SetLayoutVertical();
 }

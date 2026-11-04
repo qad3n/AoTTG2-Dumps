@@ -12,11 +12,11 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000186")]
 public class Unknown
 {
-	[Token(Token = "0x40008B3")]
+	[Token(Token = "0x40008B1")]
 	public const string Identification = "__UNKNOWN";
 
-	[Token(Token = "0x6000F77")]
-	[Address(RVA = "0x4D58500", Offset = "0x4D58500", VA = "0x4D58500")]
+	[Token(Token = "0x6000F81")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	private Unknown()
 	{
 	}

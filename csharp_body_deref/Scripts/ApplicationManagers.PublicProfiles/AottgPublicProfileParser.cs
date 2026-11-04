@@ -10,53 +10,53 @@ using SimpleJSONFixed;
 
 namespace ApplicationManagers.PublicProfiles;
 
-[Token(Token = "0x200079F")]
+[Token(Token = "0x200092A")]
 public static class AottgPublicProfileParser
 {
-	[Token(Token = "0x6004990")]
-	[Address(RVA = "0x43C3150", Offset = "0x43C3150", VA = "0x43C3150")]
+	[Token(Token = "0x6005608")]
+	[Address(RVA = "0x2367050", Offset = "0x2365650", VA = "0x182367050")]
 	public static bool TryParse(string json, out AottgPublicProfile profile, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004991")]
-	[Address(RVA = "0x43C32C0", Offset = "0x43C32C0", VA = "0x43C32C0")]
+	[Token(Token = "0x6005609")]
+	[Address(RVA = "0x2367140", Offset = "0x2365740", VA = "0x182367140")]
 	public static bool TryParse(JSONNode node, out AottgPublicProfile profile, out string error)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6004992")]
-	[Address(RVA = "0x43C3910", Offset = "0x43C3910", VA = "0x43C3910")]
+	[Token(Token = "0x600560A")]
+	[Address(RVA = "0x2366C10", Offset = "0x2365210", VA = "0x182366C10")]
 	private static string RawJson(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004993")]
-	[Address(RVA = "0x43C39A0", Offset = "0x43C39A0", VA = "0x43C39A0")]
+	[Token(Token = "0x600560B")]
+	[Address(RVA = "0x2366CA0", Offset = "0x23652A0", VA = "0x182366CA0")]
 	private static string[] StringArray(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004994")]
-	[Address(RVA = "0x43C3870", Offset = "0x43C3870", VA = "0x43C3870")]
+	[Token(Token = "0x600560C")]
+	[Address(RVA = "0x2366B70", Offset = "0x2365170", VA = "0x182366B70")]
 	private static string NullableTrimmed(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004995")]
-	[Address(RVA = "0x43C37A0", Offset = "0x43C37A0", VA = "0x43C37A0")]
+	[Token(Token = "0x600560D")]
+	[Address(RVA = "0x2366F80", Offset = "0x2365580", VA = "0x182366F80")]
 	private static string Trimmed(JSONNode node)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6004996")]
-	[Address(RVA = "0x43C3290", Offset = "0x43C3290", VA = "0x43C3290")]
+	[Token(Token = "0x600560E")]
+	[Address(RVA = "0x2366B30", Offset = "0x2365130", VA = "0x182366B30")]
 	private static bool Fail(out AottgPublicProfile profile, out string error, string value)
 	{
 		return default(bool);

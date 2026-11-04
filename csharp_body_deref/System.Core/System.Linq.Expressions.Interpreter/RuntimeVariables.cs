@@ -17,14 +17,14 @@ internal sealed class RuntimeVariables : IRuntimeVariables
 	[FieldOffset(Offset = "0x10")]
 	private readonly IStrongBox[] _boxes;
 
-	[Token(Token = "0x6000AA7")]
-	[Address(RVA = "0x4502240", Offset = "0x4502240", VA = "0x4502240")]
+	[Token(Token = "0x6000AA6")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	private RuntimeVariables(IStrongBox[] boxes)
 	{
 	}
 
-	[Token(Token = "0x6000AA8")]
-	[Address(RVA = "0x44F76B0", Offset = "0x44F76B0", VA = "0x44F76B0")]
+	[Token(Token = "0x6000AA7")]
+	[Address(RVA = "0x247E220", Offset = "0x247C820", VA = "0x18247E220")]
 	internal static IRuntimeVariables Create(IStrongBox[] boxes)
 	{
 		return null;

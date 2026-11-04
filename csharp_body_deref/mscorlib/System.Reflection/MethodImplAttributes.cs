@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004E7")]
+[Token(Token = "0x2000517")]
 public enum MethodImplAttributes
 {
 	[Token(Token = "0x4001429")]
@@ -21,13 +21,13 @@ public enum MethodImplAttributes
 	[Token(Token = "0x400142C")]
 	OPTIL = 2,
 	[Token(Token = "0x400142D")]
-	Runtime = 3,
+	Runtime = CodeTypeMask,
 	[Token(Token = "0x400142E")]
 	ManagedMask = 4,
 	[Token(Token = "0x400142F")]
-	Unmanaged = 4,
+	Unmanaged = ManagedMask,
 	[Token(Token = "0x4001430")]
-	Managed = 0,
+	Managed = IL,
 	[Token(Token = "0x4001431")]
 	ForwardRef = 16,
 	[Token(Token = "0x4001432")]

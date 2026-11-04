@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace System.Net.Mime;
 
-[Token(Token = "0x200023C")]
+[Token(Token = "0x2000398")]
 internal class EncodedStreamFactory
 {
-	[Token(Token = "0x6000E08")]
-	[Address(RVA = "0x49CDA20", Offset = "0x49CDA20", VA = "0x49CDA20")]
+	[Token(Token = "0x60018CF")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EncodedStreamFactory()
 	{
 	}

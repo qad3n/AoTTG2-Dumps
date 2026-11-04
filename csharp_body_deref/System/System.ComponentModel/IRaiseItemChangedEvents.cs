@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002A2")]
+[Token(Token = "0x20001AD")]
 public interface IRaiseItemChangedEvents
 {
-	[Token(Token = "0x170003B9")]
+	[Token(Token = "0x17000228")]
 	bool RaisesItemChangedEvents
 	{
-		[Token(Token = "0x60010A8")]
+		[Token(Token = "0x6000AF0")]
 		get;
 	}
 }

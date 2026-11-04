@@ -13,200 +13,200 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Events;
 
 [Serializable]
-[Token(Token = "0x20001EC")]
+[Token(Token = "0x200022E")]
 public class UnityEvent : UnityEventBase
 {
-	[Token(Token = "0x400069B")]
+	[Token(Token = "0x4000732")]
 	[FieldOffset(Offset = "0x28")]
 	private object[] m_InvokeArray;
 
-	[Token(Token = "0x6000D6C")]
-	[Address(RVA = "0x4E13700", Offset = "0x4E13700", VA = "0x4E13700")]
+	[Token(Token = "0x600114B")]
+	[Address(RVA = "0x2F5EAA0", Offset = "0x2F5D0A0", VA = "0x182F5EAA0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public UnityEvent()
 	{
 	}
 
-	[Token(Token = "0x6000D6D")]
-	[Address(RVA = "0x4E13720", Offset = "0x4E13720", VA = "0x4E13720")]
+	[Token(Token = "0x600114C")]
+	[Address(RVA = "0x2F5E5A0", Offset = "0x2F5CBA0", VA = "0x182F5E5A0")]
 	public void AddListener(UnityAction call)
 	{
 	}
 
-	[Token(Token = "0x6000D6E")]
-	[Address(RVA = "0x4E13820", Offset = "0x4E13820", VA = "0x4E13820")]
+	[Token(Token = "0x600114D")]
+	[Address(RVA = "0x2F5EA50", Offset = "0x2F5D050", VA = "0x182F5EA50")]
 	public void RemoveListener(UnityAction call)
 	{
 	}
 
-	[Token(Token = "0x6000D6F")]
-	[Address(RVA = "0x4E13860", Offset = "0x4E13860", VA = "0x4E13860", Slot = "6")]
+	[Token(Token = "0x600114E")]
+	[Address(RVA = "0x2F5E6B0", Offset = "0x2F5CCB0", VA = "0x182F5E6B0", Slot = "6")]
 	protected override MethodInfo FindMethod_Impl(string name, Type targetObjType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D70")]
-	[Address(RVA = "0x4E138B0", Offset = "0x4E138B0", VA = "0x4E138B0", Slot = "7")]
+	[Token(Token = "0x600114F")]
+	[Address(RVA = "0x2F5E710", Offset = "0x2F5CD10", VA = "0x182F5E710", Slot = "7")]
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D71")]
-	[Address(RVA = "0x4E13750", Offset = "0x4E13750", VA = "0x4E13750")]
+	[Token(Token = "0x6001150")]
+	[Address(RVA = "0x2F5E780", Offset = "0x2F5CD80", VA = "0x182F5E780")]
 	private static BaseInvokableCall GetDelegate(UnityAction action)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D72")]
-	[Address(RVA = "0x4E13900", Offset = "0x4E13900", VA = "0x4E13900")]
+	[Token(Token = "0x6001151")]
+	[Address(RVA = "0x2F5E7E0", Offset = "0x2F5CDE0", VA = "0x182F5E7E0")]
 	public void Invoke()
 	{
 	}
 }
 [Serializable]
-[Token(Token = "0x20001EE")]
+[Token(Token = "0x2000230")]
 public class UnityEvent<T0> : UnityEventBase
 {
-	[Token(Token = "0x400069C")]
+	[Token(Token = "0x4000733")]
 	[FieldOffset(Offset = "0x0")]
 	private object[] m_InvokeArray;
 
-	[Token(Token = "0x6000D75")]
+	[Token(Token = "0x6001154")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public UnityEvent()
 	{
 	}
 
-	[Token(Token = "0x6000D76")]
+	[Token(Token = "0x6001155")]
 	public void AddListener(UnityAction<T0> call)
 	{
 	}
 
-	[Token(Token = "0x6000D77")]
+	[Token(Token = "0x6001156")]
 	public void RemoveListener(UnityAction<T0> call)
 	{
 	}
 
-	[Token(Token = "0x6000D78")]
+	[Token(Token = "0x6001157")]
 	protected override MethodInfo FindMethod_Impl(string name, Type targetObjType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D79")]
+	[Token(Token = "0x6001158")]
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D7A")]
+	[Token(Token = "0x6001159")]
 	private static BaseInvokableCall GetDelegate(UnityAction<T0> action)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D7B")]
+	[Token(Token = "0x600115A")]
 	public void Invoke(T0 arg0)
 	{
 	}
 }
 [Serializable]
-[Token(Token = "0x20001F0")]
+[Token(Token = "0x2000232")]
 public class UnityEvent<T0, T1> : UnityEventBase
 {
-	[Token(Token = "0x400069D")]
+	[Token(Token = "0x4000734")]
 	[FieldOffset(Offset = "0x0")]
 	private object[] m_InvokeArray;
 
-	[Token(Token = "0x6000D7E")]
+	[Token(Token = "0x600115D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public UnityEvent()
 	{
 	}
 
-	[Token(Token = "0x6000D7F")]
+	[Token(Token = "0x600115E")]
 	protected override MethodInfo FindMethod_Impl(string name, Type targetObjType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D80")]
+	[Token(Token = "0x600115F")]
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction)
 	{
 		return null;
 	}
 }
 [Serializable]
-[Token(Token = "0x20001F2")]
+[Token(Token = "0x2000234")]
 public class UnityEvent<T0, T1, T2> : UnityEventBase
 {
-	[Token(Token = "0x400069E")]
+	[Token(Token = "0x4000735")]
 	[FieldOffset(Offset = "0x0")]
 	private object[] m_InvokeArray;
 
-	[Token(Token = "0x6000D83")]
+	[Token(Token = "0x6001162")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public UnityEvent()
 	{
 	}
 
-	[Token(Token = "0x6000D84")]
+	[Token(Token = "0x6001163")]
 	public void AddListener(UnityAction<T0, T1, T2> call)
 	{
 	}
 
-	[Token(Token = "0x6000D85")]
+	[Token(Token = "0x6001164")]
 	public void RemoveListener(UnityAction<T0, T1, T2> call)
 	{
 	}
 
-	[Token(Token = "0x6000D86")]
+	[Token(Token = "0x6001165")]
 	protected override MethodInfo FindMethod_Impl(string name, Type targetObjType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D87")]
+	[Token(Token = "0x6001166")]
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D88")]
+	[Token(Token = "0x6001167")]
 	private static BaseInvokableCall GetDelegate(UnityAction<T0, T1, T2> action)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D89")]
+	[Token(Token = "0x6001168")]
 	public void Invoke(T0 arg0, T1 arg1, T2 arg2)
 	{
 	}
 }
 [Serializable]
-[Token(Token = "0x20001F4")]
+[Token(Token = "0x2000236")]
 public class UnityEvent<T0, T1, T2, T3> : UnityEventBase
 {
-	[Token(Token = "0x400069F")]
+	[Token(Token = "0x4000736")]
 	[FieldOffset(Offset = "0x0")]
 	private object[] m_InvokeArray;
 
-	[Token(Token = "0x6000D8C")]
+	[Token(Token = "0x600116B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public UnityEvent()
 	{
 	}
 
-	[Token(Token = "0x6000D8D")]
+	[Token(Token = "0x600116C")]
 	protected override MethodInfo FindMethod_Impl(string name, Type targetObjType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D8E")]
+	[Token(Token = "0x600116D")]
 	internal override BaseInvokableCall GetDelegate(object target, MethodInfo theFunction)
 	{
 		return null;

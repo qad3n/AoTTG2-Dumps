@@ -11,39 +11,40 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using GameManagers;
 using Il2CppDummyDll;
 using Photon.Realtime;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 namespace UI;
 
-[Token(Token = "0x200063B")]
+[Token(Token = "0x2000797")]
 internal class InGameMenu : BaseMenu
 {
-	[Token(Token = "0x200063D")]
+	[Token(Token = "0x2000799")]
 	[CompilerGenerated]
-	private sealed class _003CWaitAndShowBlood_003Ed__104 : IEnumerator<object>, IEnumerator, IDisposable
+	private sealed class _003CWaitAndShowBlood_003Ed__113 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4001E7C")]
-		[FieldOffset(Offset = "0x10")]
+		[Token(Token = "0x400263F")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4001E7D")]
-		[FieldOffset(Offset = "0x18")]
+		[Token(Token = "0x4002640")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4001E7E")]
-		[FieldOffset(Offset = "0x20")]
+		[Token(Token = "0x4002641")]
+		[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 		public InGameMenu _003C_003E4__this;
 
-		[Token(Token = "0x17000BE5")]
+		[Token(Token = "0x17000D3C")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6003EDC")]
-			[Address(RVA = "0x42CD510", Offset = "0x42CD510", VA = "0x42CD510", Slot = "4")]
+			[Token(Token = "0x60049E2")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -51,11 +52,11 @@ internal class InGameMenu : BaseMenu
 			}
 		}
 
-		[Token(Token = "0x17000BE6")]
+		[Token(Token = "0x17000D3D")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6003EDE")]
-			[Address(RVA = "0x42CD560", Offset = "0x42CD560", VA = "0x42CD560", Slot = "7")]
+			[Token(Token = "0x60049E4")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -63,609 +64,667 @@ internal class InGameMenu : BaseMenu
 			}
 		}
 
-		[Token(Token = "0x6003ED9")]
-		[Address(RVA = "0x42CD400", Offset = "0x42CD400", VA = "0x42CD400")]
+		[Token(Token = "0x60049DF")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
-		public _003CWaitAndShowBlood_003Ed__104(int _003C_003E1__state)
+		public _003CWaitAndShowBlood_003Ed__113(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6003EDA")]
-		[Address(RVA = "0x42CD420", Offset = "0x42CD420", VA = "0x42CD420", Slot = "5")]
+		[Token(Token = "0x60049E0")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6003EDB")]
-		[Address(RVA = "0x42CD430", Offset = "0x42CD430", VA = "0x42CD430", Slot = "6")]
+		[Token(Token = "0x60049E1")]
+		[Address(RVA = "0x226E190", Offset = "0x226C790", VA = "0x18226E190", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6003EDD")]
-		[Address(RVA = "0x42CD520", Offset = "0x42CD520", VA = "0x42CD520", Slot = "8")]
+		[Token(Token = "0x60049E3")]
+		[Address(RVA = "0x226E270", Offset = "0x226C870", VA = "0x18226E270", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x4001E3C")]
-	[FieldOffset(Offset = "0x98")]
+	[Token(Token = "0x40025FC")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	public EmoteHandler EmoteHandler;
 
-	[Token(Token = "0x4001E3D")]
-	[FieldOffset(Offset = "0xA0")]
+	[Token(Token = "0x40025FD")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	public ItemHandler ItemHandler;
 
-	[Token(Token = "0x4001E3E")]
-	[FieldOffset(Offset = "0xA8")]
+	[Token(Token = "0x40025FE")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xA8")]
+	public ActionHandler ActionHandler;
+
+	[Token(Token = "0x40025FF")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB0")]
 	public CharacterInfoHandler CharacterInfoHandler;
 
-	[Token(Token = "0x4001E3F")]
-	[FieldOffset(Offset = "0xB0")]
+	[Token(Token = "0x4002600")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xB8")]
 	public HUDBottomHandler HUDBottomHandler;
 
-	[Token(Token = "0x4001E40")]
-	[FieldOffset(Offset = "0xB8")]
+	[Token(Token = "0x4002601")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC0")]
 	public StylebarHandler StylebarHandler;
 
-	[Token(Token = "0x4001E41")]
-	[FieldOffset(Offset = "0xC0")]
+	[Token(Token = "0x4002602")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xC8")]
 	public GameObject NapeLock;
 
-	[Token(Token = "0x4001E42")]
-	[FieldOffset(Offset = "0xC8")]
+	[Token(Token = "0x4002603")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xD0")]
 	public ChatPanel ChatPanel;
 
-	[Token(Token = "0x4001E43")]
-	[FieldOffset(Offset = "0xD0")]
+	[Token(Token = "0x4002604")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xD8")]
 	public FeedPanel FeedPanel;
 
-	[Token(Token = "0x4001E44")]
-	[FieldOffset(Offset = "0xD8")]
+	[Token(Token = "0x4002605")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	public VoiceChatPanel VoiceChatPanel;
 
-	[Token(Token = "0x4001E45")]
-	[FieldOffset(Offset = "0xE0")]
+	[Token(Token = "0x4002606")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
 	public GameObject TopLeftHud;
 
-	[Token(Token = "0x4001E46")]
-	[FieldOffset(Offset = "0xE8")]
+	[Token(Token = "0x4002607")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xF0")]
 	public GameObject KDRReference;
 
-	[Token(Token = "0x4001E47")]
-	[FieldOffset(Offset = "0xF0")]
+	[Token(Token = "0x4002608")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xF8")]
 	public KDRPanel KDRPanel;
 
-	[Token(Token = "0x4001E48")]
-	[FieldOffset(Offset = "0xF8")]
+	[Token(Token = "0x4002609")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x100")]
 	public Telemetry TelemetryPanel;
 
-	[Token(Token = "0x4001E49")]
-	[FieldOffset(Offset = "0x100")]
+	[Token(Token = "0x400260A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x108")]
 	public BasePopup _settingsPopup;
 
-	[Token(Token = "0x4001E4A")]
-	[FieldOffset(Offset = "0x108")]
-	public BasePopup _createGamePopup;
-
-	[Token(Token = "0x4001E4B")]
-	[FieldOffset(Offset = "0x110")]
+	[Token(Token = "0x400260B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x110")]
 	public BasePopup _pausePopup;
 
-	[Token(Token = "0x4001E4C")]
-	[FieldOffset(Offset = "0x118")]
+	[Token(Token = "0x400260C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x118")]
 	public BasePopup _characterPopup;
 
-	[Token(Token = "0x4001E4D")]
-	[FieldOffset(Offset = "0x120")]
+	[Token(Token = "0x400260D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x120")]
 	public BasePopup _characterChangePopup;
 
-	[Token(Token = "0x4001E4E")]
-	[FieldOffset(Offset = "0x128")]
+	[Token(Token = "0x400260E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x128")]
 	public BasePopup _scoreboardPopup;
 
-	[Token(Token = "0x4001E4F")]
-	[FieldOffset(Offset = "0x130")]
+	[Token(Token = "0x400260F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x130")]
 	public BasePopup _mapPopup;
 
-	[Token(Token = "0x4001E50")]
-	[FieldOffset(Offset = "0x138")]
-	public BasePopup _selectMapPopup;
-
-	[Token(Token = "0x4001E51")]
-	[FieldOffset(Offset = "0x140")]
+	[Token(Token = "0x4002610")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x138")]
 	public BasePopup _songPopup;
 
-	[Token(Token = "0x4001E52")]
-	[FieldOffset(Offset = "0x148")]
-	public SkillTooltipPopup SkillTooltipPopup;
-
-	[Token(Token = "0x4001E53")]
-	[FieldOffset(Offset = "0x150")]
+	[Token(Token = "0x4002611")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x140")]
 	public CustomAssetUrlPopup _customAssetUrlPopup;
 
-	[Token(Token = "0x4001E54")]
-	[FieldOffset(Offset = "0x158")]
+	[Token(Token = "0x4002612")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x148")]
 	public CustomAssetVideoUrlPopup _customAssetVideoUrlPopup;
 
-	[Token(Token = "0x4001E55")]
-	[FieldOffset(Offset = "0x160")]
+	[Token(Token = "0x4002613")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x150")]
 	public SnapshotPopup _snapshotPopup;
 
-	[Token(Token = "0x4001E56")]
-	[FieldOffset(Offset = "0x168")]
+	[Token(Token = "0x4002614")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x158")]
 	public GlobalPauseGamePopup _globalPauseGamePopup;
 
-	[Token(Token = "0x4001E57")]
-	[FieldOffset(Offset = "0x170")]
+	[Token(Token = "0x4002615")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x160")]
 	public CutsceneDialoguePanel _cutsceneDialoguePanel;
 
-	[Token(Token = "0x4001E58")]
-	[FieldOffset(Offset = "0x178")]
+	[Token(Token = "0x4002616")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x168")]
 	public bool SkipAHSSInput;
 
-	[Token(Token = "0x4001E59")]
-	[FieldOffset(Offset = "0x180")]
+	[Token(Token = "0x4002617")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x170")]
 	private InGameBackgroundMenu _backgroundMenu;
 
-	[Token(Token = "0x4001E5A")]
-	[FieldOffset(Offset = "0x188")]
+	[Token(Token = "0x4002618")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x178")]
 	private KillFeedBigPopup _killFeedBigPopup;
 
-	[Token(Token = "0x4001E5B")]
-	[FieldOffset(Offset = "0x190")]
+	[Token(Token = "0x4002619")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x180")]
 	private List<KillFeedSmallPopup> _killFeedSmallPopups;
 
-	[Token(Token = "0x4001E5C")]
-	[FieldOffset(Offset = "0x198")]
+	[Token(Token = "0x400261A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x188")]
 	private KillScorePopup _killScorePopup;
 
-	[Token(Token = "0x4001E5D")]
-	[FieldOffset(Offset = "0x1A0")]
-	private Text _topCenterLabel;
+	[Token(Token = "0x400261B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x190")]
+	private InGameLabel _topCenterLabel;
 
-	[Token(Token = "0x4001E5E")]
-	[FieldOffset(Offset = "0x1A8")]
-	private Text _topLeftLabel;
+	[Token(Token = "0x400261C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x198")]
+	private InGameLabel _topLeftLabel;
 
-	[Token(Token = "0x4001E5F")]
-	[FieldOffset(Offset = "0x1B0")]
-	private Text _topRightLabel;
+	[Token(Token = "0x400261D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1A0")]
+	private InGameLabel _topRightLabel;
 
-	[Token(Token = "0x4001E60")]
-	[FieldOffset(Offset = "0x1B8")]
-	private Text _middleCenterLabel;
+	[Token(Token = "0x400261E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1A8")]
+	private InGameLabel _middleCenterLabel;
 
-	[Token(Token = "0x4001E61")]
-	[FieldOffset(Offset = "0x1C0")]
-	private Text _middleLeftLabel;
+	[Token(Token = "0x400261F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1B0")]
+	private InGameLabel _middleLeftLabel;
 
-	[Token(Token = "0x4001E62")]
-	[FieldOffset(Offset = "0x1C8")]
-	private Text _middleRightLabel;
+	[Token(Token = "0x4002620")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1B8")]
+	private InGameLabel _middleRightLabel;
 
-	[Token(Token = "0x4001E63")]
-	[FieldOffset(Offset = "0x1D0")]
-	private Text _bottomLeftLabel;
+	[Token(Token = "0x4002621")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1C0")]
+	private InGameLabel _bottomLeftLabel;
 
-	[Token(Token = "0x4001E64")]
-	[FieldOffset(Offset = "0x1D8")]
-	private Text _bottomRightLabel;
+	[Token(Token = "0x4002622")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1C8")]
+	private InGameLabel _bottomRightLabel;
 
-	[Token(Token = "0x4001E65")]
-	[FieldOffset(Offset = "0x1E0")]
-	private Text _bottomCenterLabel;
+	[Token(Token = "0x4002623")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1D0")]
+	private InGameLabel _bottomCenterLabel;
 
-	[Token(Token = "0x4001E66")]
-	[FieldOffset(Offset = "0x1E8")]
+	[Token(Token = "0x4002624")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1D8")]
 	private bool _showingBlood;
 
-	[Token(Token = "0x4001E67")]
-	[FieldOffset(Offset = "0x1F0")]
+	[Token(Token = "0x4002625")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1E0")]
 	public GameObject _minimapPanel;
 
-	[Token(Token = "0x4001E68")]
-	[FieldOffset(Offset = "0x1F8")]
+	[Token(Token = "0x4002626")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1E8")]
 	private List<BasePopup> _allPausePopups;
 
-	[Token(Token = "0x4001E69")]
-	[FieldOffset(Offset = "0x200")]
+	[Token(Token = "0x4002627")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1F0")]
+	private Dictionary<string, InGameLabel> _labels;
+
+	[Token(Token = "0x4002628")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x1F8")]
+	private bool _legacyLabels;
+
+	[Token(Token = "0x4002629")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x200")]
 	private Dictionary<string, float> _labelTimeLeft;
 
-	[Token(Token = "0x4001E6A")]
-	[FieldOffset(Offset = "0x208")]
+	[Token(Token = "0x400262A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x208")]
 	private Dictionary<string, bool> _labelHasTimeLeft;
 
-	[Token(Token = "0x4001E6B")]
-	[FieldOffset(Offset = "0x210")]
+	[Token(Token = "0x400262B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x210")]
 	private List<string> labelsToDeactivate;
 
-	[Token(Token = "0x4001E6C")]
-	[FieldOffset(Offset = "0x218")]
+	[Token(Token = "0x400262C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x218")]
 	private float _killScoreTimeLeft;
 
-	[Token(Token = "0x4001E6D")]
-	[FieldOffset(Offset = "0x21C")]
+	[Token(Token = "0x400262D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x21C")]
 	private float _snapshotTimeLeft;
 
-	[Token(Token = "0x4001E6E")]
-	[FieldOffset(Offset = "0x220")]
+	[Token(Token = "0x400262E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x220")]
 	private string _middleCenterText;
 
-	[Token(Token = "0x4001E6F")]
-	[FieldOffset(Offset = "0x228")]
+	[Token(Token = "0x400262F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x228")]
 	private string _bottomRightText;
 
-	[Token(Token = "0x4001E70")]
-	[FieldOffset(Offset = "0x230")]
+	[Token(Token = "0x4002630")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x230")]
 	private string _bottomCenterText;
 
-	[Token(Token = "0x4001E71")]
-	[FieldOffset(Offset = "0x238")]
+	[Token(Token = "0x4002631")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x238")]
 	private string _topLeftText;
 
-	[Token(Token = "0x4001E72")]
-	[FieldOffset(Offset = "0x240")]
+	[Token(Token = "0x4002632")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x240")]
 	public float _spectateUpdateTimeLeft;
 
-	[Token(Token = "0x4001E73")]
-	[FieldOffset(Offset = "0x244")]
+	[Token(Token = "0x4002633")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x244")]
 	public int _spectateCount;
 
-	[Token(Token = "0x4001E74")]
-	[FieldOffset(Offset = "0x248")]
+	[Token(Token = "0x4002634")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x248")]
 	private InGameManager _gameManager;
 
-	[Token(Token = "0x4001E75")]
-	[FieldOffset(Offset = "0x250")]
+	[Token(Token = "0x4002635")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x250")]
 	private Dictionary<string, BasePopup> _customPopups;
 
-	[Token(Token = "0x4001E76")]
-	[FieldOffset(Offset = "0x258")]
+	[Token(Token = "0x4002636")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x258")]
 	private string[] trackedProperties;
 
-	[Token(Token = "0x4001E77")]
-	[FieldOffset(Offset = "0x260")]
+	[Token(Token = "0x4002637")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x260")]
 	private UIDocument _uiDocument;
 
-	[Token(Token = "0x17000BE4")]
+	[Token(Token = "0x4002638")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x268")]
+	private int _lastDismissedMenuFrame;
+
+	[Token(Token = "0x4002639")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x26C")]
+	public bool ScoreboardDismissedUntilRelease;
+
+	[Token(Token = "0x400263A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x26D")]
+	public bool MapDismissedUntilRelease;
+
+	[Token(Token = "0x17000D3B")]
 	public VisualElement RootVisualElement
 	{
-		[Token(Token = "0x6003E9F")]
-		[Address(RVA = "0x42C5DE0", Offset = "0x42C5DE0", VA = "0x42C5DE0")]
+		[Token(Token = "0x600499E")]
+		[Address(RVA = "0x2253EE0", Offset = "0x22524E0", VA = "0x182253EE0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6003EA0")]
-	[Address(RVA = "0x42C5E00", Offset = "0x42C5E00", VA = "0x42C5E00", Slot = "4")]
+	[Token(Token = "0x600499F")]
+	[Address(RVA = "0x2251460", Offset = "0x224FA60", VA = "0x182251460", Slot = "4")]
 	public override void Setup()
 	{
 	}
 
-	[Token(Token = "0x6003EA1")]
-	[Address(RVA = "0x42C7040", Offset = "0x42C7040", VA = "0x42C7040")]
+	[Token(Token = "0x60049A0")]
+	[Address(RVA = "0x224C1A0", Offset = "0x224A7A0", VA = "0x18224C1A0")]
 	public void ApplyUISettings()
 	{
 	}
 
-	[Token(Token = "0x6003EA2")]
-	[Address(RVA = "0x42C61B0", Offset = "0x42C61B0", VA = "0x42C61B0")]
+	[Token(Token = "0x60049A1")]
+	[Address(RVA = "0x2251360", Offset = "0x224F960", VA = "0x182251360")]
 	public void SetupTopLeftHud()
 	{
 	}
 
-	[Token(Token = "0x6003EA3")]
-	[Address(RVA = "0x42C7090", Offset = "0x42C7090", VA = "0x42C7090")]
+	[Token(Token = "0x60049A2")]
+	[Address(RVA = "0x2252530", Offset = "0x2250B30", VA = "0x182252530")]
 	public void ToggleUI(bool toggle)
 	{
 	}
 
-	[Token(Token = "0x6003EA4")]
-	[Address(RVA = "0x42C70F0", Offset = "0x42C70F0", VA = "0x42C70F0")]
+	[Token(Token = "0x60049A3")]
+	[Address(RVA = "0x224EB90", Offset = "0x224D190", VA = "0x18224EB90")]
 	public bool IsActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003EA5")]
-	[Address(RVA = "0x42C7140", Offset = "0x42C7140", VA = "0x42C7140")]
+	[Token(Token = "0x60049A4")]
+	[Address(RVA = "0x224C2B0", Offset = "0x224A8B0", VA = "0x18224C2B0")]
 	public void CreateCustomPopup(string name, string title, float width, float height)
 	{
 	}
 
-	[Token(Token = "0x6003EA6")]
-	[Address(RVA = "0x42C7280", Offset = "0x42C7280", VA = "0x42C7280")]
+	[Token(Token = "0x60049A5")]
+	[Address(RVA = "0x224CC70", Offset = "0x224B270", VA = "0x18224CC70")]
 	public CustomPopup GetCustomPopup(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003EA7")]
-	[Address(RVA = "0x42C7320", Offset = "0x42C7320", VA = "0x42C7320")]
+	[Token(Token = "0x60049A6")]
+	[Address(RVA = "0x224EBE0", Offset = "0x224D1E0", VA = "0x18224EBE0")]
 	public bool IsCustomPopupActive(string name)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003EA8")]
-	[Address(RVA = "0x42C73C0", Offset = "0x42C73C0", VA = "0x42C73C0")]
+	[Token(Token = "0x60049A7")]
+	[Address(RVA = "0x224CC00", Offset = "0x224B200", VA = "0x18224CC00")]
 	public List<string> GetAllCustomPopups()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003EA9")]
-	[Address(RVA = "0x42C6DC0", Offset = "0x42C6DC0", VA = "0x42C6DC0")]
+	[Token(Token = "0x60049A8")]
+	[Address(RVA = "0x2250C10", Offset = "0x224F210", VA = "0x182250C10")]
 	public void SetupMinimap()
 	{
 	}
 
-	[Token(Token = "0x6003EAA")]
-	[Address(RVA = "0x42C6EB0", Offset = "0x42C6EB0", VA = "0x42C6EB0")]
+	[Token(Token = "0x60049A9")]
+	[Address(RVA = "0x2251250", Offset = "0x224F850", VA = "0x182251250")]
 	public void SetupSnapshot()
 	{
 	}
 
-	[Token(Token = "0x6003EAB")]
-	[Address(RVA = "0x42C6AD0", Offset = "0x42C6AD0", VA = "0x42C6AD0")]
+	[Token(Token = "0x60049AA")]
+	[Address(RVA = "0x2250000", Offset = "0x224E600", VA = "0x182250000")]
 	private void SetupChat()
 	{
 	}
 
-	[Token(Token = "0x6003EAC")]
-	[Address(RVA = "0x42C62A0", Offset = "0x42C62A0", VA = "0x42C62A0")]
+	[Token(Token = "0x60049AB")]
+	[Address(RVA = "0x2250340", Offset = "0x224E940", VA = "0x182250340")]
 	private void SetupLabels()
 	{
 	}
 
-	[Token(Token = "0x6003EAD")]
-	[Address(RVA = "0x42C60C0", Offset = "0x42C60C0", VA = "0x42C60C0")]
+	[Token(Token = "0x60049AC")]
+	[Address(RVA = "0x224C3F0", Offset = "0x224A9F0", VA = "0x18224C3F0")]
+	private InGameLabel CreateLabel(string label, Transform parent, ElementStyle style, TextAlignmentOptions alignment, TextAnchor anchor, Vector2 offset)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60049AD")]
+	[Address(RVA = "0x224FBC0", Offset = "0x224E1C0", VA = "0x18224FBC0")]
+	public void SetLegacyLabels(bool legacy)
+	{
+	}
+
+	[Token(Token = "0x60049AE")]
+	[Address(RVA = "0x2250B30", Offset = "0x224F130", VA = "0x182250B30")]
 	private void SetupLoading()
 	{
 	}
 
-	[Token(Token = "0x6003EAE")]
-	[Address(RVA = "0x42C7420", Offset = "0x42C7420", VA = "0x42C7420")]
+	[Token(Token = "0x60049AF")]
+	[Address(RVA = "0x224EDD0", Offset = "0x224D3D0", VA = "0x18224EDD0")]
 	public void OnFinishLoading()
 	{
 	}
 
-	[Token(Token = "0x6003EAF")]
-	[Address(RVA = "0x42C7820", Offset = "0x42C7820", VA = "0x42C7820")]
+	[Token(Token = "0x60049B0")]
+	[Address(RVA = "0x224C100", Offset = "0x224A700", VA = "0x18224C100")]
 	public bool AllowMap()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003EB0")]
-	[Address(RVA = "0x42BD970", Offset = "0x42BD970", VA = "0x42BD970")]
+	[Token(Token = "0x60049B1")]
+	[Address(RVA = "0x224E960", Offset = "0x224CF60", VA = "0x18224E960")]
 	public static bool InMenu()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003EB1")]
-	[Address(RVA = "0x42C78A0", Offset = "0x42C78A0", VA = "0x42C78A0")]
+	[Token(Token = "0x60049B2")]
+	[Address(RVA = "0x2252590", Offset = "0x2250B90", VA = "0x182252590")]
+	public bool TryDismissGameplayMenu()
+	{
+		return default(bool);
+	}
+
+	[Token(Token = "0x60049B3")]
+	[Address(RVA = "0x224C4E0", Offset = "0x224AAE0", VA = "0x18224C4E0")]
+	private static BasePopup FindTopmostPopup(Transform parent)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60049B4")]
+	[Address(RVA = "0x224FED0", Offset = "0x224E4D0", VA = "0x18224FED0")]
 	public void SetPauseMenu(bool enabled)
 	{
 	}
 
-	[Token(Token = "0x6003EB2")]
-	[Address(RVA = "0x42C7AF0", Offset = "0x42C7AF0", VA = "0x42C7AF0")]
+	[Token(Token = "0x60049B5")]
+	[Address(RVA = "0x2252450", Offset = "0x2250A50", VA = "0x182252450")]
 	public void ToggleScoreboardMenu()
 	{
 	}
 
-	[Token(Token = "0x6003EB3")]
-	[Address(RVA = "0x42C7BD0", Offset = "0x42C7BD0", VA = "0x42C7BD0")]
+	[Token(Token = "0x60049B6")]
+	[Address(RVA = "0x224FF70", Offset = "0x224E570", VA = "0x18224FF70")]
 	public void SetScoreboardMenu(bool enabled, bool fromClick)
 	{
 	}
 
-	[Token(Token = "0x6003EB4")]
-	[Address(RVA = "0x42C7C50", Offset = "0x42C7C50", VA = "0x42C7C50")]
+	[Token(Token = "0x60049B7")]
+	[Address(RVA = "0x2252370", Offset = "0x2250970", VA = "0x182252370")]
 	public void ToggleMapMenu()
 	{
 	}
 
-	[Token(Token = "0x6003EB5")]
-	[Address(RVA = "0x42C7D30", Offset = "0x42C7D30", VA = "0x42C7D30")]
+	[Token(Token = "0x60049B8")]
+	[Address(RVA = "0x224FDE0", Offset = "0x224E3E0", VA = "0x18224FDE0")]
 	public void SetMapMenu(bool enabled, bool fromClick)
 	{
 	}
 
-	[Token(Token = "0x6003EB6")]
-	[Address(RVA = "0x42C7DB0", Offset = "0x42C7DB0", VA = "0x42C7DB0")]
+	[Token(Token = "0x60049B9")]
+	[Address(RVA = "0x224F330", Offset = "0x224D930", VA = "0x18224F330")]
 	public void SetCharacterMenu(bool enabled)
 	{
 	}
 
-	[Token(Token = "0x6003EB7")]
-	[Address(RVA = "0x42C7F00", Offset = "0x42C7F00", VA = "0x42C7F00")]
+	[Token(Token = "0x60049BA")]
+	[Address(RVA = "0x2251B70", Offset = "0x2250170", VA = "0x182251B70")]
 	public void ShowCharacterChangeMenu()
 	{
 	}
 
-	[Token(Token = "0x6003EB8")]
-	[Address(RVA = "0x42C8050", Offset = "0x42C8050", VA = "0x42C8050")]
+	[Token(Token = "0x60049BB")]
+	[Address(RVA = "0x2251C80", Offset = "0x2250280", VA = "0x182251C80")]
 	public void ShowCutsceneMenu(string icon, string title, string content, bool full)
 	{
 	}
 
-	[Token(Token = "0x6003EB9")]
-	[Address(RVA = "0x42C8070", Offset = "0x42C8070", VA = "0x42C8070")]
+	[Token(Token = "0x60049BC")]
+	[Address(RVA = "0x224E930", Offset = "0x224CF30", VA = "0x18224E930")]
 	public void HideCutsceneMenu()
 	{
 	}
 
-	[Token(Token = "0x6003EBA")]
-	[Address(RVA = "0x42C7940", Offset = "0x42C7940", VA = "0x42C7940")]
+	[Token(Token = "0x60049BD")]
+	[Address(RVA = "0x224EC80", Offset = "0x224D280", VA = "0x18224EC80")]
 	public bool IsPauseMenuActive()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6003EBB")]
-	[Address(RVA = "0x42C80A0", Offset = "0x42C80A0", VA = "0x42C80A0")]
+	[Token(Token = "0x60049BE")]
+	[Address(RVA = "0x2251AE0", Offset = "0x22500E0", VA = "0x182251AE0")]
 	public void ShowBlood()
 	{
 	}
 
-	[Token(Token = "0x6003EBC")]
-	[Address(RVA = "0x42C81A0", Offset = "0x42C81A0", VA = "0x42C81A0")]
+	[Token(Token = "0x60049BF")]
+	[Address(RVA = "0x2252310", Offset = "0x2250910", VA = "0x182252310")]
 	public void ShowSnapshot(Texture2D texture)
 	{
 	}
 
-	[Token(Token = "0x6003EBD")]
-	[Address(RVA = "0x42C81F0", Offset = "0x42C81F0", VA = "0x42C81F0")]
+	[Token(Token = "0x60049C0")]
+	[Address(RVA = "0x2252100", Offset = "0x2250700", VA = "0x182252100")]
 	public void ShowKillFeed(string killer, string victim, int score, string weapon)
 	{
 	}
 
-	[Token(Token = "0x6003EBE")]
-	[Address(RVA = "0x42C8210", Offset = "0x42C8210", VA = "0x42C8210")]
+	[Token(Token = "0x60049C1")]
+	[Address(RVA = "0x2251FB0", Offset = "0x22505B0", VA = "0x182251FB0")]
 	public void ShowKillFeed(string killer, string victim, int score, string weapon, int killerActorNumber, int victimActorNumber)
 	{
 	}
 
-	[Token(Token = "0x6003EBF")]
-	[Address(RVA = "0x42C8330", Offset = "0x42C8330", VA = "0x42C8330")]
+	[Token(Token = "0x60049C2")]
+	[Address(RVA = "0x2251E50", Offset = "0x2250450", VA = "0x182251E50")]
 	private void ShowKillFeedPushSmall(string killer, string victim, int score, string weapon, float timeLeft, int killerActorNumber, int victimActorNumber, int index)
 	{
 	}
 
-	[Token(Token = "0x6003EC0")]
-	[Address(RVA = "0x42C8460", Offset = "0x42C8460", VA = "0x42C8460")]
+	[Token(Token = "0x60049C3")]
+	[Address(RVA = "0x2252250", Offset = "0x2250850", VA = "0x182252250")]
 	public void ShowKillScore(int score, bool force = false)
 	{
 	}
 
-	[Token(Token = "0x6003EC1")]
-	[Address(RVA = "0x42C8510", Offset = "0x42C8510", VA = "0x42C8510")]
+	[Token(Token = "0x60049C4")]
+	[Address(RVA = "0x224E690", Offset = "0x224CC90", VA = "0x18224E690")]
 	public int GetStylebarRank()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6003EC2")]
-	[Address(RVA = "0x42C8590", Offset = "0x42C8590", VA = "0x42C8590")]
+	[Token(Token = "0x60049C5")]
+	[Address(RVA = "0x224F590", Offset = "0x224DB90", VA = "0x18224F590")]
 	public void SetLabelActive(string label, bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC3")]
-	[Address(RVA = "0x42C87C0", Offset = "0x42C87C0", VA = "0x42C87C0")]
+	[Token(Token = "0x60049C6")]
+	[Address(RVA = "0x224F7B0", Offset = "0x224DDB0", VA = "0x18224F7B0")]
+	public void SetLabelBackgroundColor(string label, Color color)
+	{
+	}
+
+	[Token(Token = "0x60049C7")]
+	[Address(RVA = "0x224F630", Offset = "0x224DC30", VA = "0x18224F630")]
+	public void SetLabelBackgroundColorAll(Color color)
+	{
+	}
+
+	[Token(Token = "0x60049C8")]
+	[Address(RVA = "0x224F560", Offset = "0x224DB60", VA = "0x18224F560")]
 	public void SetKDRPanelActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC4")]
-	[Address(RVA = "0x42C87E0", Offset = "0x42C87E0", VA = "0x42C87E0")]
+	[Token(Token = "0x60049C9")]
+	[Address(RVA = "0x224FE80", Offset = "0x224E480", VA = "0x18224FE80")]
 	public void SetMinimapActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC5")]
-	[Address(RVA = "0x42C8820", Offset = "0x42C8820", VA = "0x42C8820")]
+	[Token(Token = "0x60049CA")]
+	[Address(RVA = "0x224F480", Offset = "0x224DA80", VA = "0x18224F480")]
 	public void SetChatPanelActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC6")]
-	[Address(RVA = "0x42C8850", Offset = "0x42C8850", VA = "0x42C8850")]
+	[Token(Token = "0x60049CB")]
+	[Address(RVA = "0x224F4C0", Offset = "0x224DAC0", VA = "0x18224F4C0")]
 	public void SetFeedPanelActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC7")]
-	[Address(RVA = "0x42C88F0", Offset = "0x42C88F0", VA = "0x42C88F0")]
+	[Token(Token = "0x60049CC")]
+	[Address(RVA = "0x224F290", Offset = "0x224D890", VA = "0x18224F290")]
 	public void SetBottomHUDActive(bool active)
 	{
 	}
 
-	[Token(Token = "0x6003EC8")]
-	[Address(RVA = "0x42C8980", Offset = "0x42C8980", VA = "0x42C8980")]
+	[Token(Token = "0x60049CD")]
+	[Address(RVA = "0x224FB00", Offset = "0x224E100", VA = "0x18224FB00")]
 	public void SetLabel(string label, string message, float time)
 	{
 	}
 
-	[Token(Token = "0x6003EC9")]
-	[Address(RVA = "0x42C8A30", Offset = "0x42C8A30", VA = "0x42C8A30")]
+	[Token(Token = "0x60049CE")]
+	[Address(RVA = "0x224F860", Offset = "0x224DE60", VA = "0x18224F860")]
 	private void SetLabelText(string label, string message)
 	{
 	}
 
-	[Token(Token = "0x6003ECA")]
-	[Address(RVA = "0x42C8130", Offset = "0x42C8130", VA = "0x42C8130")]
-	[IteratorStateMachine(typeof(_003CWaitAndShowBlood_003Ed__104))]
+	[Token(Token = "0x60049CF")]
+	[Address(RVA = "0x2253B20", Offset = "0x2252120", VA = "0x182253B20")]
+	[IteratorStateMachine(typeof(_003CWaitAndShowBlood_003Ed__113))]
 	private IEnumerator WaitAndShowBlood()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ECB")]
-	[Address(RVA = "0x42C8C60", Offset = "0x42C8C60", VA = "0x42C8C60")]
+	[Token(Token = "0x60049D0")]
+	[Address(RVA = "0x2252800", Offset = "0x2250E00", VA = "0x182252800")]
 	private void Update()
 	{
 	}
 
-	[Token(Token = "0x6003ECC")]
-	[Address(RVA = "0x42C9E60", Offset = "0x42C9E60", VA = "0x42C9E60")]
+	[Token(Token = "0x60049D1")]
+	[Address(RVA = "0x224C200", Offset = "0x224A800", VA = "0x18224C200")]
+	private string CombineLines(string first, string second)
+	{
+		return null;
+	}
+
+	[Token(Token = "0x60049D2")]
+	[Address(RVA = "0x224CD20", Offset = "0x224B320", VA = "0x18224CD20")]
 	private string GetKeybindStrings()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ECD")]
-	[Address(RVA = "0x42CA600", Offset = "0x42CA600", VA = "0x42CA600")]
+	[Token(Token = "0x60049D3")]
+	[Address(RVA = "0x224D360", Offset = "0x224B960", VA = "0x18224D360")]
 	private string GetPlayerListEntry(Player player)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ECE")]
-	[Address(RVA = "0x42CB080", Offset = "0x42CB080", VA = "0x42CB080")]
+	[Token(Token = "0x60049D4")]
+	[Address(RVA = "0x224C660", Offset = "0x224AC60", VA = "0x18224C660")]
 	private string GetAggregateStats(IGrouping<string, Player> group)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ECF")]
-	[Address(RVA = "0x42CB7F0", Offset = "0x42CB7F0", VA = "0x42CB7F0")]
+	[Token(Token = "0x60049D5")]
+	[Address(RVA = "0x224E5B0", Offset = "0x224CBB0", VA = "0x18224E5B0")]
 	private string GetPlayerList()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ED0")]
-	[Address(RVA = "0x42CB8D0", Offset = "0x42CB8D0", VA = "0x42CB8D0")]
+	[Token(Token = "0x60049D6")]
+	[Address(RVA = "0x224DE20", Offset = "0x224C420", VA = "0x18224DE20")]
 	private string GetPlayerListTeams()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6003ED1")]
-	[Address(RVA = "0x42C6F90", Offset = "0x42C6F90", VA = "0x42C6F90")]
-	private void HideAllMenus()
+	[Token(Token = "0x60049D7")]
+	[Address(RVA = "0x224E720", Offset = "0x224CD20", VA = "0x18224E720")]
+	private void HideAllMenus([Optional] BasePopup keep)
 	{
 	}
 
-	[Token(Token = "0x6003ED2")]
-	[Address(RVA = "0x42CC5F0", Offset = "0x42CC5F0", VA = "0x42CC5F0", Slot = "5")]
+	[Token(Token = "0x60049D8")]
+	[Address(RVA = "0x2250D10", Offset = "0x224F310", VA = "0x182250D10", Slot = "5")]
 	protected override void SetupPopups()
 	{
 	}
 
-	[Token(Token = "0x6003ED3")]
-	[Address(RVA = "0x42CCE90", Offset = "0x42CCE90", VA = "0x42CCE90")]
+	[Token(Token = "0x60049D9")]
+	[Address(RVA = "0x2253B90", Offset = "0x2252190", VA = "0x182253B90")]
 	public InGameMenu()
 	{
 	}

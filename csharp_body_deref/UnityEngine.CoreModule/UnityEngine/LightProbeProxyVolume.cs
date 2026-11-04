@@ -10,7 +10,7 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x20000F4")]
+[Token(Token = "0x2000116")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Camera/LightProbeProxyVolume.h")]
 public sealed class LightProbeProxyVolume : Behaviour
 {

@@ -13,14 +13,14 @@ namespace System.Xml;
 internal static class Res
 {
 	[Token(Token = "0x6000C33")]
-	[Address(RVA = "0x47F5EA0", Offset = "0x47F5EA0", VA = "0x47F5EA0")]
+	[Address(RVA = "0x611510", Offset = "0x60FB10", VA = "0x180611510")]
 	public static string GetString(string name)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000C34")]
-	[Address(RVA = "0x47F3650", Offset = "0x47F3650", VA = "0x47F3650")]
+	[Address(RVA = "0x273DC80", Offset = "0x273C280", VA = "0x18273DC80")]
 	public static string GetString(string name, params object[] args)
 	{
 		return null;

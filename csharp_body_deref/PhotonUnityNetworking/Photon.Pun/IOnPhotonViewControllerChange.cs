@@ -10,9 +10,9 @@ using Photon.Realtime;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000B")]
 public interface IOnPhotonViewControllerChange : IPhotonViewCallback
 {
-	[Token(Token = "0x6000009")]
+	[Token(Token = "0x6000007")]
 	void OnControllerChange(Player newController, Player previousController);
 }

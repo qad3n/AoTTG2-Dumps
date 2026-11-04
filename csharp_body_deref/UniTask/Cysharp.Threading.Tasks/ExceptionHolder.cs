@@ -10,32 +10,32 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200011E")]
+[Token(Token = "0x200011C")]
 internal class ExceptionHolder
 {
-	[Token(Token = "0x4000435")]
+	[Token(Token = "0x4000430")]
 	[FieldOffset(Offset = "0x10")]
 	private ExceptionDispatchInfo exception;
 
-	[Token(Token = "0x4000436")]
+	[Token(Token = "0x4000431")]
 	[FieldOffset(Offset = "0x18")]
 	private bool calledGet;
 
-	[Token(Token = "0x60006D1")]
-	[Address(RVA = "0x49EACB0", Offset = "0x49EACB0", VA = "0x49EACB0")]
+	[Token(Token = "0x60006CF")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public ExceptionHolder(ExceptionDispatchInfo exception)
 	{
 	}
 
-	[Token(Token = "0x60006D2")]
-	[Address(RVA = "0x49EACE0", Offset = "0x49EACE0", VA = "0x49EACE0")]
+	[Token(Token = "0x60006D0")]
+	[Address(RVA = "0x290DEA0", Offset = "0x290C4A0", VA = "0x18290DEA0")]
 	public ExceptionDispatchInfo GetException()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60006D3")]
-	[Address(RVA = "0x49EAD40", Offset = "0x49EAD40", VA = "0x49EAD40", Slot = "1")]
+	[Token(Token = "0x60006D1")]
+	[Address(RVA = "0x290DDF0", Offset = "0x290C3F0", VA = "0x18290DDF0", Slot = "1")]
 	~ExceptionHolder()
 	{
 	}

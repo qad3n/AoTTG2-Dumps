@@ -18,95 +18,95 @@ public abstract class BinaryOperatorHandler : OperatorHandler
 	[Token(Token = "0x200010A")]
 	private struct OperatorQuery : IEquatable<OperatorQuery>
 	{
-		[Token(Token = "0x400029F")]
+		[Token(Token = "0x400029D")]
 		[FieldOffset(Offset = "0x0")]
 		public readonly Type leftType;
 
-		[Token(Token = "0x40002A0")]
+		[Token(Token = "0x400029E")]
 		[FieldOffset(Offset = "0x8")]
 		public readonly Type rightType;
 
-		[Token(Token = "0x6000789")]
-		[Address(RVA = "0x4CDD5F0", Offset = "0x4CDD5F0", VA = "0x4CDD5F0")]
+		[Token(Token = "0x6000793")]
+		[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
 		public OperatorQuery(Type leftType, Type rightType)
 		{
 		}
 
-		[Token(Token = "0x600078A")]
-		[Address(RVA = "0x4CDD780", Offset = "0x4CDD780", VA = "0x4CDD780", Slot = "4")]
+		[Token(Token = "0x6000794")]
+		[Address(RVA = "0x2D9DC00", Offset = "0x2D9C200", VA = "0x182D9DC00", Slot = "4")]
 		public bool Equals(OperatorQuery other)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600078B")]
-		[Address(RVA = "0x4CDD800", Offset = "0x4CDD800", VA = "0x4CDD800", Slot = "0")]
+		[Token(Token = "0x6000795")]
+		[Address(RVA = "0x2DDC6B0", Offset = "0x2DDACB0", VA = "0x182DDC6B0", Slot = "0")]
 		public override bool Equals(object obj)
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x600078C")]
-		[Address(RVA = "0x4CDD8C0", Offset = "0x4CDD8C0", VA = "0x4CDD8C0", Slot = "2")]
+		[Token(Token = "0x6000796")]
+		[Address(RVA = "0x2DDC7B0", Offset = "0x2DDADB0", VA = "0x182DDC7B0", Slot = "2")]
 		public override int GetHashCode()
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x400029C")]
+	[Token(Token = "0x400029A")]
 	[FieldOffset(Offset = "0x30")]
 	private readonly Dictionary<OperatorQuery, Func<object, object, object>> handlers;
 
-	[Token(Token = "0x400029D")]
+	[Token(Token = "0x400029B")]
 	[FieldOffset(Offset = "0x38")]
 	private readonly Dictionary<OperatorQuery, IOptimizedInvoker> userDefinedOperators;
 
-	[Token(Token = "0x400029E")]
+	[Token(Token = "0x400029C")]
 	[FieldOffset(Offset = "0x40")]
 	private readonly Dictionary<OperatorQuery, OperatorQuery> userDefinedOperandTypes;
 
-	[Token(Token = "0x6000782")]
-	[Address(RVA = "0x4CD7570", Offset = "0x4CD7570", VA = "0x4CD7570")]
+	[Token(Token = "0x600078C")]
+	[Address(RVA = "0x2DC9920", Offset = "0x2DC7F20", VA = "0x182DC9920")]
 	protected BinaryOperatorHandler(string name, string verb, string symbol, string customMethodName)
 	{
 	}
 
-	[Token(Token = "0x6000783")]
-	[Address(RVA = "0x4CDCCD0", Offset = "0x4CDCCD0", VA = "0x4CDCCD0", Slot = "4")]
+	[Token(Token = "0x600078D")]
+	[Address(RVA = "0x2DC8EC0", Offset = "0x2DC74C0", VA = "0x182DC8EC0", Slot = "4")]
 	public virtual object Operate(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000784")]
-	[Address(RVA = "0x4CD76F0", Offset = "0x4CD76F0", VA = "0x4CD76F0", Slot = "5")]
+	[Token(Token = "0x600078E")]
+	[Address(RVA = "0x2DC8E20", Offset = "0x2DC7420", VA = "0x182DC8E20", Slot = "5")]
 	protected virtual object CustomHandling(object leftOperand, object rightOperand)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000785")]
-	[Address(RVA = "0x4CDD6E0", Offset = "0x4CDD6E0", VA = "0x4CDD6E0", Slot = "6")]
+	[Token(Token = "0x600078F")]
+	[Address(RVA = "0x2DC8DC0", Offset = "0x2DC73C0", VA = "0x182DC8DC0", Slot = "6")]
 	protected virtual object BothNullHandling()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000786")]
-	[Address(RVA = "0x4CDD730", Offset = "0x4CDD730", VA = "0x4CDD730", Slot = "7")]
+	[Token(Token = "0x6000790")]
+	[Address(RVA = "0x2DC98C0", Offset = "0x2DC7EC0", VA = "0x182DC98C0", Slot = "7")]
 	protected virtual object SingleNullHandling()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000787")]
+	[Token(Token = "0x6000791")]
 	protected void Handle<TLeft, TRight>(Func<TLeft, TRight, object> handler, bool reverse = false)
 	{
 	}
 
-	[Token(Token = "0x6000788")]
-	[Address(RVA = "0x4CDD620", Offset = "0x4CDD620", VA = "0x4CDD620")]
+	[Token(Token = "0x6000792")]
+	[Address(RVA = "0x2DC97F0", Offset = "0x2DC7DF0", VA = "0x182DC97F0")]
 	private static OperatorQuery ResolveUserDefinedOperandTypes(MethodInfo userDefinedOperator)
 	{
 		return default(OperatorQuery);

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20002BD")]
+[Token(Token = "0x2000339")]
 public enum ShadowSamplingMode
 {
-	[Token(Token = "0x40007BE")]
+	[Token(Token = "0x40008EE")]
 	CompareDepths,
-	[Token(Token = "0x40007BF")]
+	[Token(Token = "0x40008EF")]
 	RawDepth,
-	[Token(Token = "0x40007C0")]
+	[Token(Token = "0x40008F0")]
 	None
 }

@@ -20,35 +20,35 @@ public sealed class X509ExtensionCollection : CollectionBase, IEnumerable
 	[Token(Token = "0x17000041")]
 	public X509Extension this[string oid]
 	{
-		[Token(Token = "0x60000C8")]
-		[Address(RVA = "0x3AB4900", Offset = "0x3AB4900", VA = "0x3AB4900")]
+		[Token(Token = "0x60000D4")]
+		[Address(RVA = "0x1928F70", Offset = "0x1927570", VA = "0x181928F70")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000C4")]
-	[Address(RVA = "0x3AB5920", Offset = "0x3AB5920", VA = "0x3AB5920")]
+	[Token(Token = "0x60000D0")]
+	[Address(RVA = "0x1924500", Offset = "0x1922B00", VA = "0x181924500")]
 	public X509ExtensionCollection()
 	{
 	}
 
-	[Token(Token = "0x60000C5")]
-	[Address(RVA = "0x3AAF9E0", Offset = "0x3AAF9E0", VA = "0x3AAF9E0")]
+	[Token(Token = "0x60000D1")]
+	[Address(RVA = "0x1928E30", Offset = "0x1927430", VA = "0x181928E30")]
 	public X509ExtensionCollection(ASN1 asn1)
 	{
 	}
 
-	[Token(Token = "0x60000C6")]
-	[Address(RVA = "0x3AB5930", Offset = "0x3AB5930", VA = "0x3AB5930")]
+	[Token(Token = "0x60000D2")]
+	[Address(RVA = "0x1928CC0", Offset = "0x19272C0", VA = "0x181928CC0")]
 	public int IndexOf(string oid)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000C7")]
-	[Address(RVA = "0x3AB5A60", Offset = "0x3AB5A60", VA = "0x3AB5A60", Slot = "19")]
+	[Token(Token = "0x60000D3")]
+	[Address(RVA = "0x19244D0", Offset = "0x1922AD0", VA = "0x1819244D0", Slot = "19")]
 	private IEnumerator System_002ECollections_002EIEnumerable_002EGetEnumerator()
 	{
 		return null;

@@ -12,27 +12,27 @@ using UnityEngine;
 
 namespace CustomSkins;
 
-[Token(Token = "0x2000255")]
+[Token(Token = "0x2000370")]
 internal class HookCustomSkinPart : BaseCustomSkinPart
 {
-	[Token(Token = "0x4000CBB")]
+	[Token(Token = "0x40011EF")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	private float _tiling;
 
-	[Token(Token = "0x6000E53")]
-	[Address(RVA = "0x3F918F0", Offset = "0x3F918F0", VA = "0x3F918F0")]
+	[Token(Token = "0x60015BC")]
+	[Address(RVA = "0x1E8B090", Offset = "0x1E89690", VA = "0x181E8B090")]
 	public HookCustomSkinPart(BaseCustomSkinLoader loader, List<Renderer> renderers, string rendererId, int maxSize, float tiling, [Optional] Vector2? textureScale)
 	{
 	}
 
-	[Token(Token = "0x6000E54")]
-	[Address(RVA = "0x3F94930", Offset = "0x3F94930", VA = "0x3F94930", Slot = "6")]
+	[Token(Token = "0x60015BD")]
+	[Address(RVA = "0x1E8AE40", Offset = "0x1E89440", VA = "0x181E8AE40", Slot = "6")]
 	protected override void SetMaterial(Material material)
 	{
 	}
 
-	[Token(Token = "0x6000E55")]
-	[Address(RVA = "0x3F94AF0", Offset = "0x3F94AF0", VA = "0x3F94AF0", Slot = "7")]
+	[Token(Token = "0x60015BE")]
+	[Address(RVA = "0x1E8AF90", Offset = "0x1E89590", VA = "0x181E8AF90", Slot = "8")]
 	protected override Material SetNewTexture(Texture2D texture)
 	{
 		return null;

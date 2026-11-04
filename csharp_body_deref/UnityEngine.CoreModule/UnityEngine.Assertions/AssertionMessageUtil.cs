@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Assertions;
 
-[Token(Token = "0x2000357")]
+[Token(Token = "0x200030F")]
 internal class AssertionMessageUtil
 {
-	[Token(Token = "0x60011DD")]
-	[Address(RVA = "0x4E3C4C0", Offset = "0x4E3C4C0", VA = "0x4E3C4C0")]
+	[Token(Token = "0x6001267")]
+	[Address(RVA = "0x2F2EC10", Offset = "0x2F2D210", VA = "0x182F2EC10")]
 	public static string GetMessage(string failureMessage)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011DE")]
-	[Address(RVA = "0x4E3C5D0", Offset = "0x4E3C5D0", VA = "0x4E3C5D0")]
+	[Token(Token = "0x6001268")]
+	[Address(RVA = "0x2F2EA00", Offset = "0x2F2D000", VA = "0x182F2EA00")]
 	public static string GetMessage(string failureMessage, string expected)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011DF")]
-	[Address(RVA = "0x4E3BEA0", Offset = "0x4E3BEA0", VA = "0x4E3BEA0")]
+	[Token(Token = "0x6001269")]
+	[Address(RVA = "0x2F2E910", Offset = "0x2F2CF10", VA = "0x182F2E910")]
 	public static string GetEqualityMessage(object actual, object expected, bool expectEqual)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011E0")]
-	[Address(RVA = "0x4E3C180", Offset = "0x4E3C180", VA = "0x4E3C180")]
+	[Token(Token = "0x600126A")]
+	[Address(RVA = "0x2F2EC60", Offset = "0x2F2D260", VA = "0x182F2EC60")]
 	public static string NullFailureMessage(object value, bool expectNull)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60011E1")]
-	[Address(RVA = "0x4E3BD00", Offset = "0x4E3BD00", VA = "0x4E3BD00")]
+	[Token(Token = "0x600126B")]
+	[Address(RVA = "0x2F2E880", Offset = "0x2F2CE80", VA = "0x182F2E880")]
 	public static string BooleanFailureMessage(bool expected)
 	{
 		return null;

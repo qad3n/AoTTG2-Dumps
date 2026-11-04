@@ -17,7 +17,7 @@ internal class XTextWrapper : XObjectWrapper
 	private XText Text
 	{
 		[Token(Token = "0x6000F72")]
-		[Address(RVA = "0x3E4AFB0", Offset = "0x3E4AFB0", VA = "0x3E4AFB0")]
+		[Address(RVA = "0x1CB2A40", Offset = "0x1CB1040", VA = "0x181CB2A40")]
 		get
 		{
 			return null;
@@ -28,13 +28,13 @@ internal class XTextWrapper : XObjectWrapper
 	public override string? Value
 	{
 		[Token(Token = "0x6000F74")]
-		[Address(RVA = "0x3E4B040", Offset = "0x3E4B040", VA = "0x3E4B040", Slot = "19")]
+		[Address(RVA = "0x1CB2AB0", Offset = "0x1CB10B0", VA = "0x181CB2AB0", Slot = "19")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6000F75")]
-		[Address(RVA = "0x3E4B0B0", Offset = "0x3E4B0B0", VA = "0x3E4B0B0", Slot = "20")]
+		[Address(RVA = "0x1CB2B30", Offset = "0x1CB1130", VA = "0x181CB2B30", Slot = "20")]
 		set
 		{
 		}
@@ -44,7 +44,7 @@ internal class XTextWrapper : XObjectWrapper
 	public override IXmlNode? ParentNode
 	{
 		[Token(Token = "0x6000F76")]
-		[Address(RVA = "0x3E4B150", Offset = "0x3E4B150", VA = "0x3E4B150", Slot = "18")]
+		[Address(RVA = "0x1CB2990", Offset = "0x1CB0F90", VA = "0x181CB2990", Slot = "18")]
 		get
 		{
 			return null;
@@ -52,7 +52,7 @@ internal class XTextWrapper : XObjectWrapper
 	}
 
 	[Token(Token = "0x6000F73")]
-	[Address(RVA = "0x3E4B010", Offset = "0x3E4B010", VA = "0x3E4B010")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public XTextWrapper(XText text)
 	{
 	}

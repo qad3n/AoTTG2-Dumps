@@ -10,22 +10,22 @@ using Il2CppDummyDll;
 
 namespace Mono.Globalization.Unicode;
 
-[Token(Token = "0x2000034")]
+[Token(Token = "0x2000052")]
 internal class ContractionComparer : IComparer<Mono.Globalization.Unicode.Contraction>
 {
-	[Token(Token = "0x40000E1")]
+	[Token(Token = "0x4000163")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly Mono.Globalization.Unicode.ContractionComparer Instance;
 
-	[Token(Token = "0x60000A7")]
-	[Address(RVA = "0x3AD1810", Offset = "0x3AD1810", VA = "0x3AD1810", Slot = "4")]
+	[Token(Token = "0x60000BF")]
+	[Address(RVA = "0x19419D0", Offset = "0x193FFD0", VA = "0x1819419D0", Slot = "4")]
 	public int Compare(Mono.Globalization.Unicode.Contraction c1, Mono.Globalization.Unicode.Contraction c2)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60000A8")]
-	[Address(RVA = "0x3AD18A0", Offset = "0x3AD18A0", VA = "0x3AD18A0")]
+	[Token(Token = "0x60000C0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public ContractionComparer()
 	{
 	}

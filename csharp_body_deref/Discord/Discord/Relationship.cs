@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000042")]
+[Token(Token = "0x2000040")]
 public struct Relationship
 {
-	[Token(Token = "0x40000CB")]
+	[Token(Token = "0x40000C6")]
 	[FieldOffset(Offset = "0x0")]
 	public RelationshipType Type;
 
-	[Token(Token = "0x40000CC")]
+	[Token(Token = "0x40000C7")]
 	[FieldOffset(Offset = "0x8")]
 	public User User;
 
-	[Token(Token = "0x40000CD")]
+	[Token(Token = "0x40000C8")]
 	[FieldOffset(Offset = "0x30")]
 	public Presence Presence;
 }

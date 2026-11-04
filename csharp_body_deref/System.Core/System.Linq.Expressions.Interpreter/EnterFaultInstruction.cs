@@ -19,8 +19,8 @@ internal sealed class EnterFaultInstruction : IndexedBranchInstruction
 	[Token(Token = "0x1700017A")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000646")]
-		[Address(RVA = "0x44C9080", Offset = "0x44C9080", VA = "0x44C9080", Slot = "9")]
+		[Token(Token = "0x6000645")]
+		[Address(RVA = "0x242DA50", Offset = "0x242C050", VA = "0x18242DA50", Slot = "9")]
 		get
 		{
 			return null;
@@ -30,29 +30,29 @@ internal sealed class EnterFaultInstruction : IndexedBranchInstruction
 	[Token(Token = "0x1700017B")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000647")]
-		[Address(RVA = "0x44C90B0", Offset = "0x44C90B0", VA = "0x44C90B0", Slot = "5")]
+		[Token(Token = "0x6000646")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000645")]
-	[Address(RVA = "0x44C9060", Offset = "0x44C9060", VA = "0x44C9060")]
+	[Token(Token = "0x6000644")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	private EnterFaultInstruction(int labelIndex)
 	{
 	}
 
-	[Token(Token = "0x6000648")]
-	[Address(RVA = "0x44C90C0", Offset = "0x44C90C0", VA = "0x44C90C0")]
+	[Token(Token = "0x6000647")]
+	[Address(RVA = "0x242D860", Offset = "0x242BE60", VA = "0x18242D860")]
 	internal static EnterFaultInstruction Create(int labelIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000649")]
-	[Address(RVA = "0x44C91C0", Offset = "0x44C91C0", VA = "0x44C91C0", Slot = "8")]
+	[Token(Token = "0x6000648")]
+	[Address(RVA = "0x242D970", Offset = "0x242BF70", VA = "0x18242D970", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

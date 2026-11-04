@@ -9,53 +9,53 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200027A")]
+[Token(Token = "0x20002FB")]
 public enum EasingMode
 {
-	[Token(Token = "0x400092D")]
+	[Token(Token = "0x4000B9B")]
 	Ease,
-	[Token(Token = "0x400092E")]
+	[Token(Token = "0x4000B9C")]
 	EaseIn,
-	[Token(Token = "0x400092F")]
+	[Token(Token = "0x4000B9D")]
 	EaseOut,
-	[Token(Token = "0x4000930")]
+	[Token(Token = "0x4000B9E")]
 	EaseInOut,
-	[Token(Token = "0x4000931")]
+	[Token(Token = "0x4000B9F")]
 	Linear,
-	[Token(Token = "0x4000932")]
+	[Token(Token = "0x4000BA0")]
 	EaseInSine,
-	[Token(Token = "0x4000933")]
+	[Token(Token = "0x4000BA1")]
 	EaseOutSine,
-	[Token(Token = "0x4000934")]
+	[Token(Token = "0x4000BA2")]
 	EaseInOutSine,
-	[Token(Token = "0x4000935")]
+	[Token(Token = "0x4000BA3")]
 	EaseInCubic,
-	[Token(Token = "0x4000936")]
+	[Token(Token = "0x4000BA4")]
 	EaseOutCubic,
-	[Token(Token = "0x4000937")]
+	[Token(Token = "0x4000BA5")]
 	EaseInOutCubic,
-	[Token(Token = "0x4000938")]
+	[Token(Token = "0x4000BA6")]
 	EaseInCirc,
-	[Token(Token = "0x4000939")]
+	[Token(Token = "0x4000BA7")]
 	EaseOutCirc,
-	[Token(Token = "0x400093A")]
+	[Token(Token = "0x4000BA8")]
 	EaseInOutCirc,
-	[Token(Token = "0x400093B")]
+	[Token(Token = "0x4000BA9")]
 	EaseInElastic,
-	[Token(Token = "0x400093C")]
+	[Token(Token = "0x4000BAA")]
 	EaseOutElastic,
-	[Token(Token = "0x400093D")]
+	[Token(Token = "0x4000BAB")]
 	EaseInOutElastic,
-	[Token(Token = "0x400093E")]
+	[Token(Token = "0x4000BAC")]
 	EaseInBack,
-	[Token(Token = "0x400093F")]
+	[Token(Token = "0x4000BAD")]
 	EaseOutBack,
-	[Token(Token = "0x4000940")]
+	[Token(Token = "0x4000BAE")]
 	EaseInOutBack,
-	[Token(Token = "0x4000941")]
+	[Token(Token = "0x4000BAF")]
 	EaseInBounce,
-	[Token(Token = "0x4000942")]
+	[Token(Token = "0x4000BB0")]
 	EaseOutBounce,
-	[Token(Token = "0x4000943")]
+	[Token(Token = "0x4000BB1")]
 	EaseInOutBounce
 }

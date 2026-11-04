@@ -12,101 +12,101 @@ using Il2CppDummyDll;
 namespace System.Reflection;
 
 [Serializable]
-[Token(Token = "0x20004F1")]
+[Token(Token = "0x2000521")]
 public abstract class PropertyInfo : MemberInfo
 {
-	[Token(Token = "0x170004D8")]
+	[Token(Token = "0x170004DB")]
 	public override MemberTypes MemberType
 	{
-		[Token(Token = "0x6002493")]
-		[Address(RVA = "0x3BD46E0", Offset = "0x3BD46E0", VA = "0x3BD46E0", Slot = "7")]
+		[Token(Token = "0x6002515")]
+		[Address(RVA = "0x846EF0", Offset = "0x8454F0", VA = "0x180846EF0", Slot = "7")]
 		get
 		{
 			return default(MemberTypes);
 		}
 	}
 
-	[Token(Token = "0x170004D9")]
+	[Token(Token = "0x170004DC")]
 	public abstract Type PropertyType
 	{
-		[Token(Token = "0x6002494")]
+		[Token(Token = "0x6002516")]
 		get;
 	}
 
-	[Token(Token = "0x170004DA")]
+	[Token(Token = "0x170004DD")]
 	public abstract PropertyAttributes Attributes
 	{
-		[Token(Token = "0x6002496")]
+		[Token(Token = "0x6002518")]
 		get;
 	}
 
-	[Token(Token = "0x170004DB")]
+	[Token(Token = "0x170004DE")]
 	public bool IsSpecialName
 	{
-		[Token(Token = "0x6002497")]
-		[Address(RVA = "0x3BD46F0", Offset = "0x3BD46F0", VA = "0x3BD46F0", Slot = "19")]
+		[Token(Token = "0x6002519")]
+		[Address(RVA = "0x1A4C260", Offset = "0x1A4A860", VA = "0x181A4C260", Slot = "19")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x170004DC")]
+	[Token(Token = "0x170004DF")]
 	public abstract bool CanRead
 	{
-		[Token(Token = "0x6002498")]
+		[Token(Token = "0x600251A")]
 		get;
 	}
 
-	[Token(Token = "0x170004DD")]
+	[Token(Token = "0x170004E0")]
 	public abstract bool CanWrite
 	{
-		[Token(Token = "0x6002499")]
+		[Token(Token = "0x600251B")]
 		get;
 	}
 
-	[Token(Token = "0x170004DE")]
+	[Token(Token = "0x170004E1")]
 	public virtual MethodInfo GetMethod
 	{
-		[Token(Token = "0x600249A")]
-		[Address(RVA = "0x3BD4710", Offset = "0x3BD4710", VA = "0x3BD4710", Slot = "22")]
+		[Token(Token = "0x600251C")]
+		[Address(RVA = "0x1A4C240", Offset = "0x1A4A840", VA = "0x181A4C240", Slot = "22")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6002492")]
-	[Address(RVA = "0x3BD46D0", Offset = "0x3BD46D0", VA = "0x3BD46D0")]
+	[Token(Token = "0x6002514")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	protected PropertyInfo()
 	{
 	}
 
-	[Token(Token = "0x6002495")]
+	[Token(Token = "0x6002517")]
 	public abstract ParameterInfo[] GetIndexParameters();
 
-	[Token(Token = "0x600249B")]
-	[Address(RVA = "0x3BD4730", Offset = "0x3BD4730", VA = "0x3BD4730", Slot = "23")]
+	[Token(Token = "0x600251D")]
+	[Address(RVA = "0x1A4C160", Offset = "0x1A4A760", VA = "0x181A4C160", Slot = "23")]
 	public MethodInfo GetGetMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600249C")]
+	[Token(Token = "0x600251E")]
 	public abstract MethodInfo GetGetMethod(bool nonPublic);
 
-	[Token(Token = "0x600249D")]
-	[Address(RVA = "0x3BD4750", Offset = "0x3BD4750", VA = "0x3BD4750", Slot = "25")]
+	[Token(Token = "0x600251F")]
+	[Address(RVA = "0x1A4C180", Offset = "0x1A4A780", VA = "0x181A4C180", Slot = "25")]
 	public MethodInfo GetSetMethod()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600249E")]
+	[Token(Token = "0x6002520")]
 	public abstract MethodInfo GetSetMethod(bool nonPublic);
 
-	[Token(Token = "0x600249F")]
-	[Address(RVA = "0x3BD4770", Offset = "0x3BD4770", VA = "0x3BD4770")]
+	[Token(Token = "0x6002521")]
+	[Address(RVA = "0x1A4C1A0", Offset = "0x1A4A7A0", VA = "0x181A4C1A0")]
 	[DebuggerStepThrough]
 	[DebuggerHidden]
 	public object GetValue(object obj)
@@ -114,8 +114,8 @@ public abstract class PropertyInfo : MemberInfo
 		return null;
 	}
 
-	[Token(Token = "0x60024A0")]
-	[Address(RVA = "0x3BD4790", Offset = "0x3BD4790", VA = "0x3BD4790", Slot = "27")]
+	[Token(Token = "0x6002522")]
+	[Address(RVA = "0x1A4C1C0", Offset = "0x1A4A7C0", VA = "0x181A4C1C0", Slot = "27")]
 	[DebuggerHidden]
 	[DebuggerStepThrough]
 	public virtual object GetValue(object obj, object[] index)
@@ -123,51 +123,51 @@ public abstract class PropertyInfo : MemberInfo
 		return null;
 	}
 
-	[Token(Token = "0x60024A1")]
+	[Token(Token = "0x6002523")]
 	public abstract object GetValue(object obj, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture);
 
-	[Token(Token = "0x60024A2")]
-	[Address(RVA = "0x3BD47C0", Offset = "0x3BD47C0", VA = "0x3BD47C0")]
-	[DebuggerHidden]
+	[Token(Token = "0x6002524")]
+	[Address(RVA = "0x1A40C90", Offset = "0x1A3F290", VA = "0x181A40C90")]
 	[DebuggerStepThrough]
+	[DebuggerHidden]
 	public void SetValue(object obj, object value)
 	{
 	}
 
-	[Token(Token = "0x60024A3")]
-	[Address(RVA = "0x3BD47E0", Offset = "0x3BD47E0", VA = "0x3BD47E0", Slot = "29")]
+	[Token(Token = "0x6002525")]
+	[Address(RVA = "0x1A4C200", Offset = "0x1A4A800", VA = "0x181A4C200", Slot = "29")]
 	[DebuggerStepThrough]
 	[DebuggerHidden]
 	public virtual void SetValue(object obj, object value, object[] index)
 	{
 	}
 
-	[Token(Token = "0x60024A4")]
+	[Token(Token = "0x6002526")]
 	public abstract void SetValue(object obj, object value, BindingFlags invokeAttr, Binder binder, object[] index, CultureInfo culture);
 
-	[Token(Token = "0x60024A5")]
-	[Address(RVA = "0x3BD4810", Offset = "0x3BD4810", VA = "0x3BD4810", Slot = "0")]
+	[Token(Token = "0x6002527")]
+	[Address(RVA = "0x1A40580", Offset = "0x1A3EB80", VA = "0x181A40580", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024A6")]
-	[Address(RVA = "0x3BD4820", Offset = "0x3BD4820", VA = "0x3BD4820", Slot = "2")]
+	[Token(Token = "0x6002528")]
+	[Address(RVA = "0x198AC80", Offset = "0x1989280", VA = "0x18198AC80", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60024A7")]
-	[Address(RVA = "0x3BD2A40", Offset = "0x3BD2A40", VA = "0x3BD2A40")]
+	[Token(Token = "0x6002529")]
+	[Address(RVA = "0x1A41670", Offset = "0x1A3FC70", VA = "0x181A41670")]
 	public static bool operator ==(PropertyInfo left, PropertyInfo right)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60024A8")]
-	[Address(RVA = "0x3BD2A10", Offset = "0x3BD2A10", VA = "0x3BD2A10")]
+	[Token(Token = "0x600252A")]
+	[Address(RVA = "0x1A44730", Offset = "0x1A42D30", VA = "0x181A44730")]
 	public static bool operator !=(PropertyInfo left, PropertyInfo right)
 	{
 		return default(bool);

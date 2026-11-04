@@ -9,14 +9,14 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x200013D")]
+[Token(Token = "0x2000165")]
 [Flags]
 public enum ConsoleModifiers
 {
-	[Token(Token = "0x40004F4")]
+	[Token(Token = "0x4000551")]
 	Alt = 1,
-	[Token(Token = "0x40004F5")]
+	[Token(Token = "0x4000552")]
 	Shift = 2,
-	[Token(Token = "0x40004F6")]
+	[Token(Token = "0x4000553")]
 	Control = 4
 }

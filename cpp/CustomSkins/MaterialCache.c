@@ -1,655 +1,337 @@
 // Type: CustomSkins.MaterialCache
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // C# structure: source/csharp/Scripts/CustomSkins/MaterialCache.cs
 // Prior real C# source (older reference): Assets/Scripts/CustomSkins/MaterialCache.cs
 // --------------------------------
 
 // CustomSkins.MaterialCache$$Init
 // il2cpp: void CustomSkins_MaterialCache__Init (const MethodInfo* method);
-// 0x4095430
+// 0x181e93590
 
 void CustomSkins_MaterialCache__Init(MethodInfo *method)
 
 {
-  int iVar1;
-  long lVar2;
-  UnityEngine_Material_o *__this;
-  System_String_o *str2;
-  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  UnityEngine_Material_o *pUVar1;
+  UnityEngine_Color_Fields local_18;
   
-  if (g_data_057ac43b == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Material_InstantiateAsset_Material);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourceManager);
-    il2cpp_runtime_helper_023445d0(&"TransparentMaterial");
-    il2cpp_runtime_helper_023445d0(&"Map/Materials");
-    g_data_057ac43b = '\x01';
+  if (Il2CppMethodInitialized_184344fba == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_ApplicationManagers_ResourceManager);
+    il2cpp_codegen_initialize_runtime_metadata(&"TransparentMaterial");
+    il2cpp_codegen_initialize_runtime_metadata(&"Map/Materials");
+    Il2CppMethodInitialized_184344fba = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourceManager + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_ApplicationManagers_ResourceManager->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_ApplicationManagers_ResourceManager);
   }
-  str2 = (System_String_o *)
-         ApplicationManagers_ResourceManager__InstantiateAsset_object_
-                   ("Map/Materials","TransparentMaterial",0,MethodInfo_Material_InstantiateAsset_Material);
-  if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  pUVar1 = ApplicationManagers_ResourceManager__InstantiateAsset_object_
+                     ("Map/Materials","TransparentMaterial",false,
+                      (MethodInfo_795F00 *)
+                      MethodInfo_ApplicationManagers_ResourceManager_InstantiateAsset_Material);
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
   }
-  lVar2 = *(long *)(TypeInfo_MaterialCache + 0xb8);
-  *(System_String_o **)(lVar2 + 0x10) = str2;
-  il2cpp_runtime_helper_022b4080(lVar2 + 0x10);
-  __this = *(UnityEngine_Material_o **)(*(long *)(TypeInfo_MaterialCache + 0xb8) + 0x10);
-  if (__this == (UnityEngine_Material_o *)0x0) {
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ac43c == '\0') {
-      il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-      il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-      g_data_057ac43c = '\x01';
-      iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
-    }
-    else {
-      iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
-    }
-    if (iVar1 == 0) {
-      il2cpp_runtime_helper_02337ed0();
-      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                  **(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
-    }
-    else {
-      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
-                  **(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
-    }
-    if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      System_Collections_Generic_Dictionary_object__object___Clear(__this_00,MethodInfo_Void_Clear);
-      return;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    if (g_data_057ac440 == '\0') {
-      il2cpp_runtime_helper_023445d0(&",");
-      g_data_057ac440 = '\x01';
-    }
-    System_String__Concat_3af7150((System_String_o *)__this_00,",",str2,(MethodInfo *)0x0);
+  TypeInfo_CustomSkins_MaterialCache->static_fields->TransparentMaterial = pUVar1;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomSkins_MaterialCache->static_fields->TransparentMaterial,pUVar1);
+  pUVar1 = TypeInfo_CustomSkins_MaterialCache->static_fields->TransparentMaterial;
+  if (pUVar1 != (UnityEngine_Material_o *)0x0) {
+    local_18.r = 0.0;
+    local_18.g = 0.0;
+    local_18.b = 0.0;
+    local_18.a = 0.0;
+    UnityEngine_Material__set_color(pUVar1,(UnityEngine_Color_o *)&local_18,(MethodInfo *)0x0);
     return;
   }
-  UnityEngine_Material__set_color(__this,(UnityEngine_Color_o)ZEXT816(0),(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomSkins.MaterialCache$$Clear
 // il2cpp: void CustomSkins_MaterialCache__Clear (const MethodInfo* method);
-// 0x4095520
+// 0x181e93240
 
 void CustomSkins_MaterialCache__Clear(MethodInfo *method)
 
 {
-  int iVar1;
-  System_String_o *in_RSI;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
+  int32_t *piVar1;
+  int32_t length;
+  System_Collections_Generic_Dictionary_string__Material__o *__this;
+  System_Collections_Generic_List_string__o *pSVar2;
   
-  if (g_data_057ac43c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac43c = '\x01';
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
+  if (Il2CppMethodInitialized_184344fbb == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Clear);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    Il2CppMethodInitialized_184344fbb = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
+  __this = TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+  if (__this != (System_Collections_Generic_Dictionary_string__Material__o *)0x0) {
+    System_Collections_Generic_Dictionary_fsPortableReflection_AttributeQuery__object___Clear
+              ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+               (MethodInfo_13BF1C0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Clear);
+    pSVar2 = TypeInfo_CustomSkins_MaterialCache->static_fields->_ids;
+    if (pSVar2 != (System_Collections_Generic_List_string__o *)0x0) {
+      length = (pSVar2->fields)._size;
+      piVar1 = &(pSVar2->fields)._version;
+      *piVar1 = *piVar1 + 1;
+      (pSVar2->fields)._size = 0;
+      if (0 < length) {
+        System_Array__Clear((System_Array_o *)(pSVar2->fields)._items,0,length,(MethodInfo *)0x0);
+        return;
+      }
+      return;
+    }
   }
-  else {
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
-  }
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    System_Collections_Generic_Dictionary_object__object___Clear(__this,MethodInfo_Void_Clear);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac440 == '\0') {
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac440 = '\x01';
-  }
-  System_String__Concat_3af7150((System_String_o *)__this,",",in_RSI,(MethodInfo *)0x0);
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // CustomSkins.MaterialCache$$ContainsKey
 // il2cpp: bool CustomSkins_MaterialCache__ContainsKey (System_String_o* rendererId, System_String_o* url, const MethodInfo* method);
-// 0x40933a0
+// 0x181e93300
 
-bool_conflict
-CustomSkins_MaterialCache__ContainsKey(System_String_o *rendererId,System_String_o *url,MethodInfo *method)
+bool CustomSkins_MaterialCache__ContainsKey
+               (System_String_o *rendererId,System_String_o *url,MethodInfo *method)
 
 {
-  int iVar1;
-  System_Collections_Generic_Dictionary_object__object__o *__this;
-  Il2CppRGCTXData *__this_00;
-  long lVar2;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  bool_conflict bVar3;
-  System_String_o *pSVar4;
-  System_String_o *pSVar5;
-  Il2CppObject *pIVar6;
-  UnityEngine_Texture_o *value;
-  UnityEngine_Object_o *x;
-  UnityEngine_Material_o *pUVar7;
-  long *plVar8;
-  MethodInfo *method_00;
-  CustomSkins_BaseCustomSkinPart_o *__this_05;
-  undefined1 auVar9 [12];
-  undefined1 in_stack_ffffffffffffff58 [15];
-  char in_stack_ffffffffffffff67;
-  System_Collections_Generic_List_Enumerator_T__c *pSVar10;
-  System_Collections_Generic_List_Enumerator_T__o SStack_78;
-  Il2CppRGCTXData *pIStack_60;
+  System_Collections_Generic_Dictionary_string__Material__o *__this;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  bool bVar1;
+  System_String_o *id;
+  UnityEngine_Material_o *x;
   
-  if (g_data_057ac43d == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac43d = '\x01';
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
+  if (Il2CppMethodInitialized_184344fbc == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184344fbc = '\x01';
   }
-  else {
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
   }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
+  if (Il2CppMethodInitialized_184344fc0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_184344fc0 = '\x01';
   }
-  else {
-    __this = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
-  }
-  if (g_data_057ac440 == '\0') {
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac440 = '\x01';
-  }
-  pSVar5 = ",";
-  pSVar4 = System_String__Concat_3af7150(rendererId,",",url,(MethodInfo *)0x0);
-  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                      (__this,(Il2CppObject *)pSVar4,MethodInfo_Boolean_ContainsKey);
-    return bVar3;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ac43e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Material_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac43e = '\x01';
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
-  }
-  else {
-    iVar1 = *(int *)(TypeInfo_MaterialCache + 0xe4);
-  }
-  if (iVar1 == 0) {
-    il2cpp_runtime_helper_02337ed0();
-    __this_00 = (Il2CppRGCTXData *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
-  }
-  else {
-    __this_00 = (Il2CppRGCTXData *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
-  }
-  if (g_data_057ac440 == '\0') {
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac440 = '\x01';
-  }
-  pSVar4 = ",";
-  pSVar5 = System_String__Concat_3af7150(rendererId,",",pSVar5,(MethodInfo *)0x0);
-  if (__this_00 != (Il2CppRGCTXData *)0x0) {
-    pIVar6 = System_Collections_Generic_Dictionary_object__object___get_Item
-                       ((System_Collections_Generic_Dictionary_object__object__o *)__this_00,
-                        (Il2CppObject *)pSVar5,MethodInfo_Material_get_Item);
-    return (bool_conflict)pIVar6;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_60 = __this_00;
-  if (g_data_057ac429 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_Renderer_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"_MainTex");
-    g_data_057ac429 = '\x01';
-  }
-  pSVar10 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  bVar3 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)pSVar4,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if (((char)bVar3 != '\0') || (rendererId[1].klass == (System_String_c *)0x0)) {
-    return 0;
-  }
-  if (pSVar4 != (System_String_o *)0x0) {
-    value = UnityEngine_Material__get_mainTexture((UnityEngine_Material_o *)pSVar4,(MethodInfo *)0x0);
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
+  id = System_String__Concat_1969b70(rendererId,",",url,(MethodInfo *)0x0);
+  __this = TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+  if (__this != (System_Collections_Generic_Dictionary_string__Material__o *)0x0) {
+    bVar1 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)id,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    if (bVar1) {
+      if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+      }
+      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
+                  TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+      if (__this_00 == (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_181e93469;
+      x = System_Collections_Generic_Dictionary_object__object___get_Item
+                    (__this_00,(Il2CppObject *)id,
+                     (MethodInfo_147A5B0 *)
+                     MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+      if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+      }
+      bVar1 = UnityEngine_Object__op_Equality
+                        ((UnityEngine_Object_o *)x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
+      if (!bVar1) {
+        return true;
+      }
+      if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+      }
+      CustomSkins_MaterialCache__Remove(id,(MethodInfo *)0x0);
     }
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)value,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if (((char)bVar3 != '\0') &&
-       (bVar3 = UnityEngine_Material__HasProperty_4dcb5b0
-                          ((UnityEngine_Material_o *)pSVar4,"_MainTex",(MethodInfo *)0x0),
-       (char)bVar3 != '\0')) {
-      value = UnityEngine_Material__GetTexture
-                        ((UnityEngine_Material_o *)pSVar4,"_MainTex",(MethodInfo *)0x0);
-    }
-    if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    bVar3 = UnityEngine_Object__op_Equality
-                      ((UnityEngine_Object_o *)value,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-    if ((char)bVar3 != '\0') {
-      return 0;
-    }
-    if (rendererId[1].klass != (System_String_c *)0x0) {
-      System_Collections_Generic_List_object___GetEnumerator
-                (&SStack_78,(System_Collections_Generic_List_object__o *)rendererId[1].klass,MethodInfo_List_1_T_Enumerator_UnityEngine_Renderer_GetEnumerator);
-      x = (UnityEngine_Object_o *)0x0;
-      pSVar10 = (System_Collections_Generic_List_Enumerator_T__c *)SStack_78.fields._list;
-      do {
-        in_stack_ffffffffffffff67 = (char)x;
-        do {
-          do {
-            do {
-              __this_01.fields._version._3_1_ = in_stack_ffffffffffffff67;
-              __this_01.fields._0_15_ = in_stack_ffffffffffffff58;
-              __this_01.fields._current = (Il2CppObject *)pSVar10;
-              bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                (__this_01,(MethodInfo_321A1D0 *)&stack0xffffffffffffff68);
-              if ((char)bVar3 == '\0') {
-                __this_02.fields._version._3_1_ = in_stack_ffffffffffffff67;
-                __this_02.fields._0_15_ = in_stack_ffffffffffffff58;
-                __this_02.fields._current = (Il2CppObject *)pSVar10;
-                System_Collections_Generic_List_Enumerator_object___Dispose
-                          (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffff68);
-                goto label_0409383e;
-              }
-              if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                il2cpp_runtime_helper_02337ed0();
-              }
-              bVar3 = UnityEngine_Object__op_Equality
-                                ((UnityEngine_Object_o *)SStack_78.fields._current,(UnityEngine_Object_o *)0x0
-                                 ,(MethodInfo *)0x0);
-            } while ((char)bVar3 != '\0');
-            if ((CustomSkins_BaseCustomSkinPart_o *)SStack_78.fields._current ==
-                (CustomSkins_BaseCustomSkinPart_o *)0x0) {
-              il2cpp_runtime_helper_022b2c90();
-              goto label_0409385c;
-            }
-            x = (UnityEngine_Object_o *)
-                UnityEngine_Renderer__get_material
-                          ((UnityEngine_Renderer_o *)SStack_78.fields._current,(MethodInfo *)0x0);
-            if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-              il2cpp_runtime_helper_02337ed0();
-            }
-            bVar3 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-          } while ((char)bVar3 != '\0');
-          __this_05 = (CustomSkins_BaseCustomSkinPart_o *)SStack_78.fields._current;
-          pUVar7 = UnityEngine_Renderer__get_material
-                             ((UnityEngine_Renderer_o *)SStack_78.fields._current,(MethodInfo *)0x0);
-          bVar3 = CustomSkins_BaseCustomSkinPart__IsCharacterEffectMaterial(__this_05,pUVar7,method_00);
-        } while ((char)bVar3 == '\0');
-        pUVar7 = UnityEngine_Renderer__get_material
-                           ((UnityEngine_Renderer_o *)SStack_78.fields._current,(MethodInfo *)0x0);
-        if (pUVar7 == (UnityEngine_Material_o *)0x0) goto label_04093861;
-        bVar3 = UnityEngine_Material__HasProperty_4dcb5b0(pUVar7,"_MainTex",(MethodInfo *)0x0);
-        if ((char)bVar3 == '\0') {
-          pUVar7 = UnityEngine_Renderer__get_material
-                             ((UnityEngine_Renderer_o *)SStack_78.fields._current,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Material_o *)0x0) goto label_0409386b;
-          UnityEngine_Material__set_mainTexture(pUVar7,value,(MethodInfo *)0x0);
-        }
-        else {
-          pUVar7 = UnityEngine_Renderer__get_material
-                             ((UnityEngine_Renderer_o *)SStack_78.fields._current,(MethodInfo *)0x0);
-          if (pUVar7 == (UnityEngine_Material_o *)0x0) goto label_04093866;
-          UnityEngine_Material__SetTexture(pUVar7,"_MainTex",value,(MethodInfo *)0x0);
-        }
-        x = (UnityEngine_Object_o *)CONCAT71((int7)((ulong)x >> 8),1);
-        UnityEngine_Renderer__set_enabled
-                  ((UnityEngine_Renderer_o *)SStack_78.fields._current,1,(MethodInfo *)0x0);
-      } while( true );
-    }
+    return false;
   }
-label_0409385c:
-  il2cpp_runtime_helper_022b2c90();
-label_04093861:
-  il2cpp_runtime_helper_022b2c90();
-label_04093866:
-  il2cpp_runtime_helper_022b2c90();
-label_0409386b:
-  auVar9 = il2cpp_runtime_helper_022b2c90();
-  if (auVar9._8_4_ == 1) {
-    plVar8 = (long *)__cxa_begin_catch(auVar9._0_8_);
-    lVar2 = *plVar8;
-    __cxa_end_catch();
-    __this_03.fields._version._3_1_ = in_stack_ffffffffffffff67;
-    __this_03.fields._0_15_ = in_stack_ffffffffffffff58;
-    __this_03.fields._current = (Il2CppObject *)pSVar10;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffff68);
-    x = (UnityEngine_Object_o *)0x0;
-    if (lVar2 == 0) {
-label_0409383e:
-      return (bool_conflict)CONCAT71((int7)((ulong)x >> 8),in_stack_ffffffffffffff67 != '\0');
-    }
-    il2cpp_runtime_helper_022fefe0(lVar2);
-  }
-  __this_04.fields._version._3_1_ = in_stack_ffffffffffffff67;
-  __this_04.fields._0_15_ = in_stack_ffffffffffffff58;
-  __this_04.fields._current = (Il2CppObject *)pSVar10;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_04,(MethodInfo_321A1C0 *)&stack0xffffffffffffff68);
-  _Unwind_Resume(auVar9._0_8_);
+label_181e93469:
+  ThrowNullReferenceException();
 }
 
 
 // CustomSkins.MaterialCache$$GetMaterial
 // il2cpp: UnityEngine_Material_o* CustomSkins_MaterialCache__GetMaterial (System_String_o* rendererId, System_String_o* url, const MethodInfo* method);
-// 0x4093490
+// 0x181e934c0
 
 UnityEngine_Material_o *
 CustomSkins_MaterialCache__GetMaterial(System_String_o *rendererId,System_String_o *url,MethodInfo *method)
 
 {
-  Il2CppRGCTXData *__this;
-  long lVar1;
-  System_Collections_Generic_List_Enumerator_object__o __this_00;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  bool_conflict bVar2;
+  System_Collections_Generic_Dictionary_object__object__o *__this;
   System_String_o *key;
-  UnityEngine_Material_o *pUVar3;
-  UnityEngine_Texture_o *value;
-  UnityEngine_Object_o *x;
-  long *plVar4;
-  MethodInfo *method_00;
-  ulong uVar5;
-  System_String_o *x_00;
-  CustomSkins_BaseCustomSkinPart_o *__this_04;
-  undefined1 auVar6 [12];
-  undefined1 in_stack_ffffffffffffff70 [15];
-  char in_stack_ffffffffffffff7f;
-  System_Collections_Generic_List_Enumerator_T__c *pSVar7;
-  System_Collections_Generic_List_Enumerator_T__o SStack_60;
-  Il2CppRGCTXData *pIStack_48;
+  UnityEngine_Material_o *pUVar1;
   
-  if (g_data_057ac43e == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Material_get_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac43e = '\x01';
-    if (*(int *)(TypeInfo_MaterialCache + 0xe4) != 0) goto label_040934bb;
-label_0409354d:
-    il2cpp_runtime_helper_02337ed0();
-    __this = (Il2CppRGCTXData *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
+  if (Il2CppMethodInitialized_184344fbd == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    Il2CppMethodInitialized_184344fbd = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) goto label_0409354d;
-label_040934bb:
-    __this = (Il2CppRGCTXData *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
   }
-  if (g_data_057ac440 == '\0') {
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac440 = '\x01';
+  __this = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+  if (Il2CppMethodInitialized_184344fc0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_184344fc0 = '\x01';
   }
-  x_00 = ",";
-  key = System_String__Concat_3af7150(rendererId,",",url,(MethodInfo *)0x0);
-  if (__this != (Il2CppRGCTXData *)0x0) {
-    pUVar3 = (UnityEngine_Material_o *)
-             System_Collections_Generic_Dictionary_object__object___get_Item
-                       ((System_Collections_Generic_Dictionary_object__object__o *)__this,(Il2CppObject *)key,
-                        MethodInfo_Material_get_Item);
-    return pUVar3;
+  key = System_String__Concat_1969b70(rendererId,",",url,(MethodInfo *)0x0);
+  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    pUVar1 = System_Collections_Generic_Dictionary_object__object___get_Item
+                       (__this,(Il2CppObject *)key,
+                        (MethodInfo_147A5B0 *)
+                        MethodInfo_System_Collections_Generic_Dictionary_string_Material_get_Item);
+    return pUVar1;
   }
-  il2cpp_runtime_helper_022b2c90();
-  pIStack_48 = __this;
-  if (g_data_057ac429 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Renderer_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_UnityEngine_Renderer_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Object);
-    il2cpp_runtime_helper_023445d0(&"_MainTex");
-    g_data_057ac429 = '\x01';
-  }
-  pSVar7 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  uVar5 = 0;
-  bVar2 = UnityEngine_Object__op_Equality
-                    ((UnityEngine_Object_o *)x_00,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 == '\0') {
-    if (rendererId[1].klass != (System_String_c *)0x0) {
-      if (x_00 != (System_String_o *)0x0) {
-        value = UnityEngine_Material__get_mainTexture((UnityEngine_Material_o *)x_00,(MethodInfo *)0x0);
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        bVar2 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)value,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if (((char)bVar2 != '\0') &&
-           (bVar2 = UnityEngine_Material__HasProperty_4dcb5b0
-                              ((UnityEngine_Material_o *)x_00,"_MainTex",(MethodInfo *)0x0),
-           (char)bVar2 != '\0')) {
-          value = UnityEngine_Material__GetTexture
-                            ((UnityEngine_Material_o *)x_00,"_MainTex",(MethodInfo *)0x0);
-        }
-        if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-          il2cpp_runtime_helper_02337ed0();
-        }
-        uVar5 = 0;
-        bVar2 = UnityEngine_Object__op_Equality
-                          ((UnityEngine_Object_o *)value,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-        if ((char)bVar2 != '\0') goto label_04093846;
-        if (rendererId[1].klass != (System_String_c *)0x0) {
-          System_Collections_Generic_List_object___GetEnumerator
-                    (&SStack_60,(System_Collections_Generic_List_object__o *)rendererId[1].klass,MethodInfo_List_1_T_Enumerator_UnityEngine_Renderer_GetEnumerator)
-          ;
-          x = (UnityEngine_Object_o *)0x0;
-          pSVar7 = (System_Collections_Generic_List_Enumerator_T__c *)SStack_60.fields._list;
-          do {
-            in_stack_ffffffffffffff7f = (char)x;
-            do {
-              do {
-                do {
-                  __this_00.fields._version._3_1_ = in_stack_ffffffffffffff7f;
-                  __this_00.fields._0_15_ = in_stack_ffffffffffffff70;
-                  __this_00.fields._current = (Il2CppObject *)pSVar7;
-                  bVar2 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                                    (__this_00,(MethodInfo_321A1D0 *)&stack0xffffffffffffff80);
-                  if ((char)bVar2 == '\0') {
-                    __this_01.fields._version._3_1_ = in_stack_ffffffffffffff7f;
-                    __this_01.fields._0_15_ = in_stack_ffffffffffffff70;
-                    __this_01.fields._current = (Il2CppObject *)pSVar7;
-                    System_Collections_Generic_List_Enumerator_object___Dispose
-                              (__this_01,(MethodInfo_321A1C0 *)&stack0xffffffffffffff80);
-                    goto label_0409383e;
-                  }
-                  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                    il2cpp_runtime_helper_02337ed0();
-                  }
-                  bVar2 = UnityEngine_Object__op_Equality
-                                    ((UnityEngine_Object_o *)SStack_60.fields._current,
-                                     (UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-                } while ((char)bVar2 != '\0');
-                if ((CustomSkins_BaseCustomSkinPart_o *)SStack_60.fields._current ==
-                    (CustomSkins_BaseCustomSkinPart_o *)0x0) {
-                  il2cpp_runtime_helper_022b2c90();
-                  goto label_0409385c;
-                }
-                x = (UnityEngine_Object_o *)
-                    UnityEngine_Renderer__get_material
-                              ((UnityEngine_Renderer_o *)SStack_60.fields._current,(MethodInfo *)0x0);
-                if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-                  il2cpp_runtime_helper_02337ed0();
-                }
-                bVar2 = UnityEngine_Object__op_Equality(x,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-              } while ((char)bVar2 != '\0');
-              __this_04 = (CustomSkins_BaseCustomSkinPart_o *)SStack_60.fields._current;
-              pUVar3 = UnityEngine_Renderer__get_material
-                                 ((UnityEngine_Renderer_o *)SStack_60.fields._current,(MethodInfo *)0x0);
-              bVar2 = CustomSkins_BaseCustomSkinPart__IsCharacterEffectMaterial(__this_04,pUVar3,method_00);
-            } while ((char)bVar2 == '\0');
-            pUVar3 = UnityEngine_Renderer__get_material
-                               ((UnityEngine_Renderer_o *)SStack_60.fields._current,(MethodInfo *)0x0);
-            if (pUVar3 == (UnityEngine_Material_o *)0x0) goto label_04093861;
-            bVar2 = UnityEngine_Material__HasProperty_4dcb5b0(pUVar3,"_MainTex",(MethodInfo *)0x0);
-            if ((char)bVar2 == '\0') {
-              pUVar3 = UnityEngine_Renderer__get_material
-                                 ((UnityEngine_Renderer_o *)SStack_60.fields._current,(MethodInfo *)0x0);
-              if (pUVar3 == (UnityEngine_Material_o *)0x0) goto label_0409386b;
-              UnityEngine_Material__set_mainTexture(pUVar3,value,(MethodInfo *)0x0);
-            }
-            else {
-              pUVar3 = UnityEngine_Renderer__get_material
-                                 ((UnityEngine_Renderer_o *)SStack_60.fields._current,(MethodInfo *)0x0);
-              if (pUVar3 == (UnityEngine_Material_o *)0x0) goto label_04093866;
-              UnityEngine_Material__SetTexture(pUVar3,"_MainTex",value,(MethodInfo *)0x0);
-            }
-            x = (UnityEngine_Object_o *)CONCAT71((int7)((ulong)x >> 8),1);
-            UnityEngine_Renderer__set_enabled
-                      ((UnityEngine_Renderer_o *)SStack_60.fields._current,1,(MethodInfo *)0x0);
-          } while( true );
-        }
-      }
-label_0409385c:
-      il2cpp_runtime_helper_022b2c90();
-label_04093861:
-      il2cpp_runtime_helper_022b2c90();
-label_04093866:
-      il2cpp_runtime_helper_022b2c90();
-label_0409386b:
-      auVar6 = il2cpp_runtime_helper_022b2c90();
-      if (auVar6._8_4_ == 1) {
-        plVar4 = (long *)__cxa_begin_catch(auVar6._0_8_);
-        lVar1 = *plVar4;
-        __cxa_end_catch();
-        __this_02.fields._version._3_1_ = in_stack_ffffffffffffff7f;
-        __this_02.fields._0_15_ = in_stack_ffffffffffffff70;
-        __this_02.fields._current = (Il2CppObject *)pSVar7;
-        System_Collections_Generic_List_Enumerator_object___Dispose
-                  (__this_02,(MethodInfo_321A1C0 *)&stack0xffffffffffffff80);
-        x = (UnityEngine_Object_o *)0x0;
-        if (lVar1 == 0) {
-label_0409383e:
-          uVar5 = CONCAT71((int7)((ulong)x >> 8),in_stack_ffffffffffffff7f != '\0');
-          goto label_04093846;
-        }
-        il2cpp_runtime_helper_022fefe0(lVar1);
-      }
-      __this_03.fields._version._3_1_ = in_stack_ffffffffffffff7f;
-      __this_03.fields._0_15_ = in_stack_ffffffffffffff70;
-      __this_03.fields._current = (Il2CppObject *)pSVar7;
-      System_Collections_Generic_List_Enumerator_object___Dispose
-                (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffff80);
-      _Unwind_Resume(auVar6._0_8_);
-    }
-    uVar5 = 0;
-  }
-label_04093846:
-  return (UnityEngine_Material_o *)(uVar5 & 0xffffffff);
+  ThrowNullReferenceException();
 }
 
 
 // CustomSkins.MaterialCache$$SetMaterial
 // il2cpp: void CustomSkins_MaterialCache__SetMaterial (System_String_o* rendererId, System_String_o* url, UnityEngine_Material_o* material, const MethodInfo* method);
-// 0x40946c0
+// 0x181e93740
+// asm: 1 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e9386c: nop dword ptr [rax]
 
 void CustomSkins_MaterialCache__SetMaterial
                (System_String_o *rendererId,System_String_o *url,UnityEngine_Material_o *material,
                MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *pSVar1;
-  int32_t iVar2;
-  bool_conflict bVar3;
+  System_Collections_Generic_Dictionary_string__Material__o *__this;
+  System_Collections_Generic_List_string__o *pSVar1;
+  System_Collections_Generic_Dictionary_object__object__o *__this_00;
+  bool bVar2;
   System_String_o *key;
+  System_String_o *id;
   
-  if (g_data_057ac43f == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Add);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Clear);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_ContainsKey);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Int32_get_Count);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_set_Item);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac43f = '\x01';
-    if (*(int *)(TypeInfo_MaterialCache + 0xe4) != 0) goto label_040946ee;
-label_04094769:
-    il2cpp_runtime_helper_02337ed0();
-    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
+  if (Il2CppMethodInitialized_184344fbe == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_set_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Add);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Count);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_get_Item);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    Il2CppMethodInitialized_184344fbe = '\x01';
   }
-  else {
-    if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) goto label_04094769;
-label_040946ee:
-    pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8)
-    ;
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
   }
-  if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-    iVar2 = System_Collections_Generic_Dictionary_object__object___get_Count(pSVar1,MethodInfo_Int32_get_Count);
-    if (*(int *)(*(long *)(TypeInfo_MaterialCache + 0xb8) + 8) < iVar2) {
-      if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184344fc0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_184344fc0 = '\x01';
+  }
+  key = System_String__Concat_1969b70(rendererId,",",url,(MethodInfo *)0x0);
+  __this = TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+  if (__this != (System_Collections_Generic_Dictionary_string__Material__o *)0x0) {
+    bVar2 = System_Collections_Generic_Dictionary_object__StyleComplexSelector_PseudoStateData___ContainsKey
+                      ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,(Il2CppObject *)key,
+                       (MethodInfo_1455450 *)
+                       MethodInfo_System_Collections_Generic_Dictionary_string_Material_ContainsKey);
+    if (bVar2) {
+label_181e938ee:
+      if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
       }
-      if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8) ==
-          (System_Collections_Generic_Dictionary_object__object__o *)0x0) goto label_040948ca;
-      System_Collections_Generic_Dictionary_object__object___Clear
-                ((System_Collections_Generic_Dictionary_object__object__o *)
-                 **(undefined8 **)(TypeInfo_MaterialCache + 0xb8),MethodInfo_Void_Clear);
-    }
-    if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) {
-      il2cpp_runtime_helper_02337ed0();
-    }
-    if (g_data_057ac440 == '\0') {
-      il2cpp_runtime_helper_023445d0(&",");
-      g_data_057ac440 = '\x01';
-    }
-    key = System_String__Concat_3af7150(rendererId,",",url,(MethodInfo *)0x0);
-    if ((System_Collections_Generic_Dictionary_object__object__o *)**(undefined8 **)(TypeInfo_MaterialCache + 0xb8) !=
-        (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-      bVar3 = System_Collections_Generic_Dictionary_object__object___ContainsKey
-                        ((System_Collections_Generic_Dictionary_object__object__o *)
-                         **(undefined8 **)(TypeInfo_MaterialCache + 0xb8),(Il2CppObject *)key,MethodInfo_Boolean_ContainsKey);
-      if (*(int *)(TypeInfo_MaterialCache + 0xe4) == 0) {
-        il2cpp_runtime_helper_02337ed0();
-      }
-      pSVar1 = (System_Collections_Generic_Dictionary_object__object__o *)
-               **(undefined8 **)(TypeInfo_MaterialCache + 0xb8);
-      if (pSVar1 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
-        if ((char)bVar3 == '\0') {
-          System_Collections_Generic_Dictionary_object__object___Add
-                    (pSVar1,(Il2CppObject *)key,(Il2CppObject *)material,MethodInfo_Void_Add);
-          return;
-        }
+      __this_00 = (System_Collections_Generic_Dictionary_object__object__o *)
+                  TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+      if (__this_00 != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
         System_Collections_Generic_Dictionary_object__object___set_Item
-                  (pSVar1,(Il2CppObject *)key,(Il2CppObject *)material,MethodInfo_Void_set_Item);
+                  (__this_00,(Il2CppObject *)key,(Il2CppObject *)material,
+                   (MethodInfo_147A7F0 *)
+                   MethodInfo_System_Collections_Generic_Dictionary_string_Material_set_Item);
         return;
       }
     }
+    else {
+      if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+        il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+      }
+      pSVar1 = TypeInfo_CustomSkins_MaterialCache->static_fields->_ids;
+      if (pSVar1 != (System_Collections_Generic_List_string__o *)0x0) {
+        il2cpp_runtime_helper_180012890(pSVar1,key,MethodInfo_System_Collections_Generic_List_string_Add);
+        while( true ) {
+          if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+          }
+          pSVar1 = TypeInfo_CustomSkins_MaterialCache->static_fields->_ids;
+          if (pSVar1 == (System_Collections_Generic_List_string__o *)0x0) break;
+          if ((pSVar1->fields)._size <= TypeInfo_CustomSkins_MaterialCache->static_fields->MaxItems)
+          goto label_181e938ee;
+          if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+            il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+          }
+          pSVar1 = TypeInfo_CustomSkins_MaterialCache->static_fields->_ids;
+          if (pSVar1 == (System_Collections_Generic_List_string__o *)0x0) break;
+          id = System_Collections_Generic_List_object___System_Collections_IList_get_Item
+                         ((System_Collections_Generic_List_object__o *)pSVar1,0,
+                          (MethodInfo_92B830 *)MethodInfo_System_Collections_Generic_List_string_get_Item);
+          CustomSkins_MaterialCache__Remove(id,(MethodInfo *)0x0);
+        }
+      }
+    }
   }
-label_040948ca:
-  il2cpp_runtime_helper_022b2c90();
-  return;
+  ThrowNullReferenceException();
+}
+
+
+// CustomSkins.MaterialCache$$Remove
+// il2cpp: void CustomSkins_MaterialCache__Remove (System_String_o* id, const MethodInfo* method);
+// 0x181e93690
+
+void CustomSkins_MaterialCache__Remove(System_String_o *id,MethodInfo *method)
+
+{
+  System_Collections_Generic_Dictionary_object__object__o *__this;
+  System_Collections_Generic_List_string__o *__this_00;
+  
+  if (Il2CppMethodInitialized_184344fbf == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_Remove);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_Remove);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    Il2CppMethodInitialized_184344fbf = '\x01';
+  }
+  if ((TypeInfo_CustomSkins_MaterialCache->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_CustomSkins_MaterialCache);
+  }
+  __this = (System_Collections_Generic_Dictionary_object__object__o *)
+           TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial;
+  if (__this != (System_Collections_Generic_Dictionary_object__object__o *)0x0) {
+    System_Collections_Generic_Dictionary_object__object___Remove
+              (__this,(Il2CppObject *)id,
+               (MethodInfo_1470BF0 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_Remove);
+    __this_00 = TypeInfo_CustomSkins_MaterialCache->static_fields->_ids;
+    if (__this_00 != (System_Collections_Generic_List_string__o *)0x0) {
+      System_Collections_Generic_List_object___Remove
+                ((System_Collections_Generic_List_object__o *)__this_00,(Il2CppObject *)id,
+                 (MethodInfo_947340 *)MethodInfo_System_Collections_Generic_List_string_Remove);
+      return;
+    }
+  }
+  ThrowNullReferenceException();
 }
 
 
 // CustomSkins.MaterialCache$$GetId
 // il2cpp: System_String_o* CustomSkins_MaterialCache__GetId (System_String_o* rendererId, System_String_o* url, const MethodInfo* method);
-// 0x40955b0
+// 0x181e93470
 
 System_String_o *
 CustomSkins_MaterialCache__GetId(System_String_o *rendererId,System_String_o *url,MethodInfo *method)
@@ -657,47 +339,63 @@ CustomSkins_MaterialCache__GetId(System_String_o *rendererId,System_String_o *ur
 {
   System_String_o *pSVar1;
   
-  if (g_data_057ac440 == '\0') {
-    il2cpp_runtime_helper_023445d0(&",");
-    g_data_057ac440 = '\x01';
+  if (Il2CppMethodInitialized_184344fc0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&",");
+    Il2CppMethodInitialized_184344fc0 = '\x01';
   }
-  pSVar1 = System_String__Concat_3af7150(rendererId,",",url,(MethodInfo *)0x0);
+  pSVar1 = System_String__Concat_1969b70(rendererId,",",url,(MethodInfo *)0x0);
   return pSVar1;
 }
 
 
 // CustomSkins.MaterialCache$$.ctor
 // il2cpp: void CustomSkins_MaterialCache___ctor (CustomSkins_MaterialCache_o* __this, const MethodInfo* method);
-// 0x4095600
+// 0x18054c890
 
-void CustomSkins_MaterialCache___ctor(CustomSkins_MaterialCache_o *__this,MethodInfo *method)
+void
+CustomSkins_MaterialCache___ctor(CustomSkins_MaterialCache_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  System_Object___ctor
+            ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)__this,(MethodInfo *)0x0);
   return;
 }
 
 
 // CustomSkins.MaterialCache$$.cctor
 // il2cpp: void CustomSkins_MaterialCache___cctor (const MethodInfo* method);
-// 0x4095610
+// 0x181e93940
 
 void CustomSkins_MaterialCache___cctor(MethodInfo *method)
 
 {
-  System_Collections_Generic_Dictionary_object__object__o *__this;
+  System_Collections_Generic_Dictionary_string__Material__o *__this;
+  System_Collections_Generic_List_string__o *__this_00;
   
-  if (g_data_057ac441 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Dictionary_2_System_String_UnityEngine_Material);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Dictionary_string_Material);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_MaterialCache);
-    g_data_057ac441 = '\x01';
+  if (Il2CppMethodInitialized_184344fc1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&TypeInfo_System_Collections_Generic_Dictionary_string_Material);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_System_Collections_Generic_List_string_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Collections_Generic_List_string);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_CustomSkins_MaterialCache);
+    Il2CppMethodInitialized_184344fc1 = '\x01';
   }
-  __this = (System_Collections_Generic_Dictionary_object__object__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Dictionary_string_Material);
-  System_Collections_Generic_Dictionary_object__object____ctor(__this,MethodInfo_Dictionary_2_System_String_UnityEngine_Material);
-  **(undefined8 **)(TypeInfo_MaterialCache + 0xb8) = __this;
-  il2cpp_runtime_helper_022b4080(*(undefined8 *)(TypeInfo_MaterialCache + 0xb8),__this);
-  *(undefined4 *)(*(long *)(TypeInfo_MaterialCache + 0xb8) + 8) = 200;
+  __this = il2cpp_codegen_object_new
+                     ((Il2CppClass *)TypeInfo_System_Collections_Generic_Dictionary_string_Material);
+  System_Collections_Generic_Dictionary_object__object____ctor
+            ((System_Collections_Generic_Dictionary_TKey__TValue__o *)__this,
+             (MethodInfo_1454140 *)MethodInfo_System_Collections_Generic_Dictionary_string_Material_ctor);
+  TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial = __this;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomSkins_MaterialCache->static_fields->_IdToMaterial,__this);
+  __this_00 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Collections_Generic_List_string);
+  System_Collections_Generic_List_object____ctor
+            ((System_Collections_Generic_LowLevelList_T__o *)__this_00,
+             (MethodInfo_92A240 *)MethodInfo_System_Collections_Generic_List_string_ctor);
+  TypeInfo_CustomSkins_MaterialCache->static_fields->_ids = __this_00;
+  Il2CppCodeGenWriteBarrier(&TypeInfo_CustomSkins_MaterialCache->static_fields->_ids,__this_00);
+  TypeInfo_CustomSkins_MaterialCache->static_fields->MaxItems = 200;
   return;
 }
 

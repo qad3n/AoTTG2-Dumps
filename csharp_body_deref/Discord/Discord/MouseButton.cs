@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000031")]
 public enum MouseButton
 {
-	[Token(Token = "0x4000090")]
+	[Token(Token = "0x400008B")]
 	Left,
-	[Token(Token = "0x4000091")]
+	[Token(Token = "0x400008C")]
 	Middle,
-	[Token(Token = "0x4000092")]
+	[Token(Token = "0x400008D")]
 	Right
 }

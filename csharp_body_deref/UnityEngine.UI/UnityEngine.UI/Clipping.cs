@@ -10,11 +10,11 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200000D")]
+[Token(Token = "0x200000B")]
 public static class Clipping
 {
-	[Token(Token = "0x6000051")]
-	[Address(RVA = "0x4EF3290", Offset = "0x4EF3290", VA = "0x4EF3290")]
+	[Token(Token = "0x600004F")]
+	[Address(RVA = "0x3063AF0", Offset = "0x30620F0", VA = "0x183063AF0")]
 	public static Rect FindCullAndClipWorldRect(List<RectMask2D> rectMaskParents, out bool validRect)
 	{
 		return default(Rect);

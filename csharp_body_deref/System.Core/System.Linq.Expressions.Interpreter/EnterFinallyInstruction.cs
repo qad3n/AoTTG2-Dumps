@@ -19,8 +19,8 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	[Token(Token = "0x17000175")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x600063A")]
-		[Address(RVA = "0x44C8D20", Offset = "0x44C8D20", VA = "0x44C8D20", Slot = "9")]
+		[Token(Token = "0x6000639")]
+		[Address(RVA = "0x242DC90", Offset = "0x242C290", VA = "0x18242DC90", Slot = "9")]
 		get
 		{
 			return null;
@@ -30,8 +30,8 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	[Token(Token = "0x17000176")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x600063B")]
-		[Address(RVA = "0x44C8D50", Offset = "0x44C8D50", VA = "0x44C8D50", Slot = "5")]
+		[Token(Token = "0x600063A")]
+		[Address(RVA = "0x846F80", Offset = "0x845580", VA = "0x180846F80", Slot = "5")]
 		get
 		{
 			return default(int);
@@ -41,29 +41,29 @@ internal sealed class EnterFinallyInstruction : IndexedBranchInstruction
 	[Token(Token = "0x17000177")]
 	public override int ConsumedContinuations
 	{
-		[Token(Token = "0x600063C")]
-		[Address(RVA = "0x44C8D60", Offset = "0x44C8D60", VA = "0x44C8D60", Slot = "6")]
+		[Token(Token = "0x600063B")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "6")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000639")]
-	[Address(RVA = "0x44C8D00", Offset = "0x44C8D00", VA = "0x44C8D00")]
+	[Token(Token = "0x6000638")]
+	[Address(RVA = "0x1A29130", Offset = "0x1A27730", VA = "0x181A29130")]
 	private EnterFinallyInstruction(int labelIndex)
 	{
 	}
 
-	[Token(Token = "0x600063D")]
-	[Address(RVA = "0x44C8D70", Offset = "0x44C8D70", VA = "0x44C8D70")]
+	[Token(Token = "0x600063C")]
+	[Address(RVA = "0x242DA80", Offset = "0x242C080", VA = "0x18242DA80")]
 	internal static EnterFinallyInstruction Create(int labelIndex)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600063E")]
-	[Address(RVA = "0x44C8E70", Offset = "0x44C8E70", VA = "0x44C8E70", Slot = "8")]
+	[Token(Token = "0x600063D")]
+	[Address(RVA = "0x242DB90", Offset = "0x242C190", VA = "0x18242DB90", Slot = "8")]
 	public override int Run(InterpretedFrame frame)
 	{
 		return default(int);

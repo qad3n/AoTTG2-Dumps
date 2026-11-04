@@ -11,29 +11,29 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers.Credits;
 
-[Token(Token = "0x20007A5")]
+[Token(Token = "0x2000930")]
 public sealed class AottgCreditsResponse
 {
-	[Token(Token = "0x17000E1D")]
+	[Token(Token = "0x17000F80")]
 	public IReadOnlyList<AottgCreditCategory> Categories
 	{
-		[Token(Token = "0x60049AF")]
-		[Address(RVA = "0x43C5F00", Offset = "0x43C5F00", VA = "0x43C5F00")]
+		[Token(Token = "0x6005627")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60049B0")]
-		[Address(RVA = "0x43C5F10", Offset = "0x43C5F10", VA = "0x43C5F10")]
+		[Token(Token = "0x6005628")]
+		[Address(RVA = "0xB8AC00", Offset = "0xB89200", VA = "0x180B8AC00")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60049AE")]
-	[Address(RVA = "0x43C5E70", Offset = "0x43C5E70", VA = "0x43C5E70")]
+	[Token(Token = "0x6005626")]
+	[Address(RVA = "0x2365770", Offset = "0x2363D70", VA = "0x182365770")]
 	public AottgCreditsResponse(AottgCreditCategory[] categories)
 	{
 	}

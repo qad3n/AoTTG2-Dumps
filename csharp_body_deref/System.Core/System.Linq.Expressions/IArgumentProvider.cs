@@ -15,10 +15,10 @@ public interface IArgumentProvider
 	[Token(Token = "0x1700008A")]
 	int ArgumentCount
 	{
-		[Token(Token = "0x60003FB")]
+		[Token(Token = "0x60003FA")]
 		get;
 	}
 
-	[Token(Token = "0x60003FA")]
+	[Token(Token = "0x60003F9")]
 	Expression GetArgument(int index);
 }

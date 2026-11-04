@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgCreditsRenderer
-// Update status: unchanged since the previous dump
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgCreditsRenderer.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -13,80 +13,80 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x2000155")]
+[Token(Token = "0x20001E4")]
 internal static class AottgCreditsRenderer
 {
-	[Token(Token = "0x4000794")]
+	[Token(Token = "0x4000A37")]
 	private const string InfoIcon = "UI/Icons/info-circle";
 
-	[Token(Token = "0x4000795")]
+	[Token(Token = "0x4000A38")]
 	private const float GroupTopGap = 8f;
 
-	[Token(Token = "0x4000796")]
+	[Token(Token = "0x4000A39")]
 	private const float ContributorCellWidthPercent = 32f;
 
-	[Token(Token = "0x4000797")]
+	[Token(Token = "0x4000A3A")]
 	private const float ContributorCellHeight = 36f;
 
-	[Token(Token = "0x6000785")]
-	[Address(RVA = "0x43E60D0", Offset = "0x43E60D0", VA = "0x43E60D0")]
+	[Token(Token = "0x6000B1F")]
+	[Address(RVA = "0x23A8800", Offset = "0x23A6E00", VA = "0x1823A8800")]
 	public static void BuildCategory(AottgUi content, AottgCreditCategory category, int categoryIndex, AottgScreenSectionContext context)
 	{
 	}
 
-	[Token(Token = "0x6000786")]
-	[Address(RVA = "0x43E69B0", Offset = "0x43E69B0", VA = "0x43E69B0")]
+	[Token(Token = "0x6000B20")]
+	[Address(RVA = "0x23A9640", Offset = "0x23A7C40", VA = "0x1823A9640")]
 	private static void BuildGroup(AottgUi content, AottgCreditGroup group, string id)
 	{
 	}
 
-	[Token(Token = "0x6000787")]
-	[Address(RVA = "0x43E66D0", Offset = "0x43E66D0", VA = "0x43E66D0")]
+	[Token(Token = "0x6000B21")]
+	[Address(RVA = "0x23A9140", Offset = "0x23A7740", VA = "0x1823A9140")]
 	private static void BuildContributors(AottgUi content, IReadOnlyList<AottgCreditContributor> contributors, string id)
 	{
 	}
 
-	[Token(Token = "0x6000788")]
-	[Address(RVA = "0x43E6EC0", Offset = "0x43E6EC0", VA = "0x43E6EC0")]
+	[Token(Token = "0x6000B22")]
+	[Address(RVA = "0x23A8E90", Offset = "0x23A7490", VA = "0x1823A8E90")]
 	private static void BuildContributor(AottgUi grid, AottgCreditContributor contributor, string id)
 	{
 	}
 
-	[Token(Token = "0x6000789")]
-	[Address(RVA = "0x43E7110", Offset = "0x43E7110", VA = "0x43E7110")]
+	[Token(Token = "0x6000B23")]
+	[Address(RVA = "0x23A9A90", Offset = "0x23A8090", VA = "0x1823A9A90")]
 	private static GisketchNodeDefinition[] ContributorChildren(AottgCreditContributor contributor, string id)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600078A")]
-	[Address(RVA = "0x43E7010", Offset = "0x43E7010", VA = "0x43E7010")]
+	[Token(Token = "0x6000B24")]
+	[Address(RVA = "0x23A9950", Offset = "0x23A7F50", VA = "0x1823A9950")]
 	private static GisketchLayoutDefinition ContributorCellLayout()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600078B")]
-	[Address(RVA = "0x43E6D00", Offset = "0x43E6D00", VA = "0x43E6D00")]
-	private static void BuildEmpty(AottgUi content, string id, string text)
+	[Token(Token = "0x6000B25")]
+	[Address(RVA = "0x23A9330", Offset = "0x23A7930", VA = "0x1823A9330")]
+	private static void BuildEmpty(AottgUi content, string id, string textKey, string text)
 	{
 	}
 
-	[Token(Token = "0x600078C")]
-	[Address(RVA = "0x43E68A0", Offset = "0x43E68A0", VA = "0x43E68A0")]
+	[Token(Token = "0x6000B26")]
+	[Address(RVA = "0x23A9500", Offset = "0x23A7B00", VA = "0x1823A9500")]
 	private static void BuildGap(AottgUi content, string id)
 	{
 	}
 
-	[Token(Token = "0x600078D")]
-	[Address(RVA = "0x43E75A0", Offset = "0x43E75A0", VA = "0x43E75A0")]
+	[Token(Token = "0x6000B27")]
+	[Address(RVA = "0x23AA150", Offset = "0x23A8750", VA = "0x1823AA150")]
 	public static string SectionId(string name, int index)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600078E")]
-	[Address(RVA = "0x43E7650", Offset = "0x43E7650", VA = "0x43E7650")]
+	[Token(Token = "0x6000B28")]
+	[Address(RVA = "0x23A9FA0", Offset = "0x23A85A0", VA = "0x1823A9FA0")]
 	private static string SafeId(string value)
 	{
 		return null;

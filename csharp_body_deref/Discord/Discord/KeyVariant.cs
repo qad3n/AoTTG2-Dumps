@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000030")]
 public enum KeyVariant
 {
-	[Token(Token = "0x400008C")]
+	[Token(Token = "0x4000087")]
 	Normal,
-	[Token(Token = "0x400008D")]
+	[Token(Token = "0x4000088")]
 	Right,
-	[Token(Token = "0x400008E")]
+	[Token(Token = "0x4000089")]
 	Left
 }

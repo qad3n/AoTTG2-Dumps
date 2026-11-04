@@ -10,16 +10,16 @@ using Il2CppDummyDll;
 
 namespace System.Data;
 
-[Token(Token = "0x200003C")]
+[Token(Token = "0x2000049")]
 public sealed class DataTableClearEventArgs : EventArgs
 {
-	[Token(Token = "0x4000126")]
+	[Token(Token = "0x400016E")]
 	[FieldOffset(Offset = "0x10")]
 	[CompilerGenerated]
 	private readonly DataTable _003CTable_003Ek__BackingField;
 
-	[Token(Token = "0x600049C")]
-	[Address(RVA = "0x4590270", Offset = "0x4590270", VA = "0x4590270")]
+	[Token(Token = "0x60004CF")]
+	[Address(RVA = "0x24FAE90", Offset = "0x24F9490", VA = "0x1824FAE90")]
 	public DataTableClearEventArgs(DataTable dataTable)
 	{
 	}

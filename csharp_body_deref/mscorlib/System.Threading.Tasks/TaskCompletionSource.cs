@@ -9,66 +9,66 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks;
 
-[Token(Token = "0x2000225")]
+[Token(Token = "0x2000256")]
 public class TaskCompletionSource<TResult>
 {
-	[Token(Token = "0x4000A50")]
+	[Token(Token = "0x4000AAD")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly Task<TResult> _task;
 
-	[Token(Token = "0x170001D4")]
+	[Token(Token = "0x170001D8")]
 	public Task<TResult> Task
 	{
-		[Token(Token = "0x6001378")]
+		[Token(Token = "0x60013E9")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001374")]
+	[Token(Token = "0x60013E5")]
 	public TaskCompletionSource()
 	{
 	}
 
-	[Token(Token = "0x6001375")]
+	[Token(Token = "0x60013E6")]
 	public TaskCompletionSource(TaskCreationOptions creationOptions)
 	{
 	}
 
-	[Token(Token = "0x6001376")]
+	[Token(Token = "0x60013E7")]
 	public TaskCompletionSource(object state)
 	{
 	}
 
-	[Token(Token = "0x6001377")]
+	[Token(Token = "0x60013E8")]
 	public TaskCompletionSource(object state, TaskCreationOptions creationOptions)
 	{
 	}
 
-	[Token(Token = "0x6001379")]
+	[Token(Token = "0x60013EA")]
 	private void SpinUntilCompleted()
 	{
 	}
 
-	[Token(Token = "0x600137A")]
+	[Token(Token = "0x60013EB")]
 	public bool TrySetException(Exception exception)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600137B")]
+	[Token(Token = "0x60013EC")]
 	public void SetException(Exception exception)
 	{
 	}
 
-	[Token(Token = "0x600137C")]
+	[Token(Token = "0x60013ED")]
 	public bool TrySetResult(TResult result)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600137D")]
+	[Token(Token = "0x60013EE")]
 	public void SetResult(TResult result)
 	{
 	}

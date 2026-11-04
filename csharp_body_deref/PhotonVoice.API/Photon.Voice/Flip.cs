@@ -10,37 +10,37 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000086")]
+[Token(Token = "0x2000084")]
 public struct Flip
 {
-	[Token(Token = "0x4000210")]
+	[Token(Token = "0x400020B")]
 	[FieldOffset(Offset = "0x0")]
 	public static Flip None;
 
-	[Token(Token = "0x4000211")]
+	[Token(Token = "0x400020C")]
 	[FieldOffset(Offset = "0x2")]
 	public static Flip Vertical;
 
-	[Token(Token = "0x4000212")]
+	[Token(Token = "0x400020D")]
 	[FieldOffset(Offset = "0x4")]
 	public static Flip Horizontal;
 
-	[Token(Token = "0x4000213")]
+	[Token(Token = "0x400020E")]
 	[FieldOffset(Offset = "0x6")]
 	public static Flip Both;
 
 	[Token(Token = "0x170000C1")]
 	public bool IsVertical
 	{
-		[Token(Token = "0x60002CB")]
-		[Address(RVA = "0x3F2F4C0", Offset = "0x3F2F4C0", VA = "0x3F2F4C0")]
+		[Token(Token = "0x60002C9")]
+		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60002CC")]
-		[Address(RVA = "0x3F2F4D0", Offset = "0x3F2F4D0", VA = "0x3F2F4D0")]
+		[Token(Token = "0x60002CA")]
+		[Address(RVA = "0xFA0680", Offset = "0xF9EC80", VA = "0x180FA0680")]
 		[CompilerGenerated]
 		private set
 		{
@@ -50,51 +50,51 @@ public struct Flip
 	[Token(Token = "0x170000C2")]
 	public bool IsHorizontal
 	{
-		[Token(Token = "0x60002CD")]
-		[Address(RVA = "0x3F2F4E0", Offset = "0x3F2F4E0", VA = "0x3F2F4E0")]
+		[Token(Token = "0x60002CB")]
+		[Address(RVA = "0xADC3E0", Offset = "0xADA9E0", VA = "0x180ADC3E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60002CE")]
-		[Address(RVA = "0x3F2F4F0", Offset = "0x3F2F4F0", VA = "0x3F2F4F0")]
+		[Token(Token = "0x60002CC")]
+		[Address(RVA = "0x1D69F20", Offset = "0x1D68520", VA = "0x181D69F20")]
 		[CompilerGenerated]
 		private set
 		{
 		}
 	}
 
-	[Token(Token = "0x60002CF")]
-	[Address(RVA = "0x3F2F500", Offset = "0x3F2F500", VA = "0x3F2F500")]
+	[Token(Token = "0x60002CD")]
+	[Address(RVA = "0x1D69D80", Offset = "0x1D68380", VA = "0x181D69D80")]
 	public static bool operator ==(Flip f1, Flip f2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002D0")]
-	[Address(RVA = "0x3F2F580", Offset = "0x3F2F580", VA = "0x3F2F580")]
+	[Token(Token = "0x60002CE")]
+	[Address(RVA = "0x1D69E10", Offset = "0x1D68410", VA = "0x181D69E10")]
 	public static bool operator !=(Flip f1, Flip f2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002D1")]
-	[Address(RVA = "0x3F2F600", Offset = "0x3F2F600", VA = "0x3F2F600", Slot = "0")]
+	[Token(Token = "0x60002CF")]
+	[Address(RVA = "0x1D69BD0", Offset = "0x1D681D0", VA = "0x181D69BD0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60002D2")]
-	[Address(RVA = "0x3F2F660", Offset = "0x3F2F660", VA = "0x3F2F660", Slot = "2")]
+	[Token(Token = "0x60002D0")]
+	[Address(RVA = "0x1D69C30", Offset = "0x1D68230", VA = "0x181D69C30", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x60002D3")]
-	[Address(RVA = "0x3F2F6B0", Offset = "0x3F2F6B0", VA = "0x3F2F6B0")]
+	[Token(Token = "0x60002D1")]
+	[Address(RVA = "0x1D69EA0", Offset = "0x1D684A0", VA = "0x181D69EA0")]
 	public static Flip operator *(Flip f1, Flip f2)
 	{
 		return default(Flip);

@@ -10,14 +10,14 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000324")]
+[Token(Token = "0x2000353")]
 public sealed class PbeParameters
 {
-	[Token(Token = "0x17000306")]
+	[Token(Token = "0x17000308")]
 	public PbeEncryptionAlgorithm EncryptionAlgorithm
 	{
-		[Token(Token = "0x6001B82")]
-		[Address(RVA = "0x3B589D0", Offset = "0x3B589D0", VA = "0x3B589D0")]
+		[Token(Token = "0x6001BEA")]
+		[Address(RVA = "0x546860", Offset = "0x544E60", VA = "0x180546860")]
 		[CompilerGenerated]
 		get
 		{
@@ -25,11 +25,11 @@ public sealed class PbeParameters
 		}
 	}
 
-	[Token(Token = "0x17000307")]
+	[Token(Token = "0x17000309")]
 	public HashAlgorithmName HashAlgorithm
 	{
-		[Token(Token = "0x6001B83")]
-		[Address(RVA = "0x3B589E0", Offset = "0x3B589E0", VA = "0x3B589E0")]
+		[Token(Token = "0x6001BEB")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -37,11 +37,11 @@ public sealed class PbeParameters
 		}
 	}
 
-	[Token(Token = "0x17000308")]
+	[Token(Token = "0x1700030A")]
 	public int IterationCount
 	{
-		[Token(Token = "0x6001B84")]
-		[Address(RVA = "0x3B589F0", Offset = "0x3B589F0", VA = "0x3B589F0")]
+		[Token(Token = "0x6001BEC")]
+		[Address(RVA = "0xA4C170", Offset = "0xA4A770", VA = "0x180A4C170")]
 		[CompilerGenerated]
 		get
 		{
@@ -49,8 +49,8 @@ public sealed class PbeParameters
 		}
 	}
 
-	[Token(Token = "0x6001B85")]
-	[Address(RVA = "0x3B58A00", Offset = "0x3B58A00", VA = "0x3B58A00")]
+	[Token(Token = "0x6001BED")]
+	[Address(RVA = "0x19DB450", Offset = "0x19D9A50", VA = "0x1819DB450")]
 	public PbeParameters(PbeEncryptionAlgorithm encryptionAlgorithm, HashAlgorithmName hashAlgorithm, int iterationCount)
 	{
 	}

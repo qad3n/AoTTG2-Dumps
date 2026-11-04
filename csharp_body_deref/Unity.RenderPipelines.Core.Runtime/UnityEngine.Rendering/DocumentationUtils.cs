@@ -11,17 +11,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200010D")]
+[Token(Token = "0x20000ED")]
 public static class DocumentationUtils
 {
-	[Token(Token = "0x60008AE")]
+	[Token(Token = "0x6000865")]
 	public static string GetHelpURL<TEnum>([Optional] TEnum mask) where TEnum : struct, IConvertible
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60008AF")]
-	[Address(RVA = "0x4BB0500", Offset = "0x4BB0500", VA = "0x4BB0500")]
+	[Token(Token = "0x6000866")]
+	[Address(RVA = "0x2B0BDB0", Offset = "0x2B0A3B0", VA = "0x182B0BDB0")]
 	public static bool TryGetHelpURL(Type type, out string url)
 	{
 		return default(bool);

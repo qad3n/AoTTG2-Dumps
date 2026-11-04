@@ -10,45 +10,45 @@ using Mono.Security.Cryptography;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000319")]
+[Token(Token = "0x2000348")]
 internal class RC2Transform : Mono.Security.Cryptography.SymmetricTransform
 {
-	[Token(Token = "0x4000DFA")]
+	[Token(Token = "0x4000E07")]
 	[FieldOffset(Offset = "0x58")]
 	private ushort R0;
 
-	[Token(Token = "0x4000DFB")]
+	[Token(Token = "0x4000E08")]
 	[FieldOffset(Offset = "0x5A")]
 	private ushort R1;
 
-	[Token(Token = "0x4000DFC")]
+	[Token(Token = "0x4000E09")]
 	[FieldOffset(Offset = "0x5C")]
 	private ushort R2;
 
-	[Token(Token = "0x4000DFD")]
+	[Token(Token = "0x4000E0A")]
 	[FieldOffset(Offset = "0x5E")]
 	private ushort R3;
 
-	[Token(Token = "0x4000DFE")]
+	[Token(Token = "0x4000E0B")]
 	[FieldOffset(Offset = "0x60")]
 	private ushort[] K;
 
-	[Token(Token = "0x4000DFF")]
+	[Token(Token = "0x4000E0C")]
 	[FieldOffset(Offset = "0x68")]
 	private int j;
 
-	[Token(Token = "0x4000E00")]
+	[Token(Token = "0x4000E0D")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly byte[] pitable;
 
-	[Token(Token = "0x6001B40")]
-	[Address(RVA = "0x3B53AA0", Offset = "0x3B53AA0", VA = "0x3B53AA0")]
+	[Token(Token = "0x6001BA8")]
+	[Address(RVA = "0x19DC640", Offset = "0x19DAC40", VA = "0x1819DC640")]
 	public RC2Transform(RC2 rc2Algo, bool encryption, byte[] key, byte[] iv)
 	{
 	}
 
-	[Token(Token = "0x6001B41")]
-	[Address(RVA = "0x3B54040", Offset = "0x3B54040", VA = "0x3B54040", Slot = "17")]
+	[Token(Token = "0x6001BA9")]
+	[Address(RVA = "0x19DBAE0", Offset = "0x19DA0E0", VA = "0x1819DBAE0", Slot = "17")]
 	protected override void ECB(byte[] input, byte[] output)
 	{
 	}

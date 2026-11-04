@@ -13,38 +13,38 @@ using Photon.Voice;
 
 namespace POpusCodec;
 
-[Token(Token = "0x2000005")]
+[Token(Token = "0x2000003")]
 public class OpusDecoderAsync<T> : OpusDecoder<T>
 {
-	[Token(Token = "0x4000011")]
+	[Token(Token = "0x400000C")]
 	[FieldOffset(Offset = "0x0")]
 	protected static Dictionary<IntPtr, OpusDecoderAsync<T>> handles;
 
-	[Token(Token = "0x4000012")]
+	[Token(Token = "0x400000D")]
 	[FieldOffset(Offset = "0x0")]
 	private float[] bufOutFloat;
 
-	[Token(Token = "0x4000013")]
+	[Token(Token = "0x400000E")]
 	[FieldOffset(Offset = "0x0")]
 	private short[] bufOutShort;
 
-	[Token(Token = "0x6000009")]
+	[Token(Token = "0x6000007")]
 	[MonoPInvokeCallback(typeof(Action<IntPtr, IntPtr, int, bool>))]
 	public static void DataCallbackStatic(IntPtr handle, IntPtr p, int count, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x600000A")]
+	[Token(Token = "0x6000008")]
 	public OpusDecoderAsync(Action<FrameOut<T>> output, SamplingRate outputSamplingRateHz, Channels numChannels, int frameDurationSamples)
 	{
 	}
 
-	[Token(Token = "0x600000B")]
+	[Token(Token = "0x6000009")]
 	protected void dataCallback(IntPtr p, int count, bool endOfStream)
 	{
 	}
 
-	[Token(Token = "0x600000C")]
+	[Token(Token = "0x600000A")]
 	public override void Dispose()
 	{
 	}

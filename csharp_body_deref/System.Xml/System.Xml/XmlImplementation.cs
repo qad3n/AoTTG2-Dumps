@@ -20,7 +20,7 @@ public class XmlImplementation
 	internal XmlNameTable NameTable
 	{
 		[Token(Token = "0x6000915")]
-		[Address(RVA = "0x47D5410", Offset = "0x47D5410", VA = "0x47D5410")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
@@ -28,19 +28,19 @@ public class XmlImplementation
 	}
 
 	[Token(Token = "0x6000912")]
-	[Address(RVA = "0x47D5260", Offset = "0x47D5260", VA = "0x47D5260")]
+	[Address(RVA = "0x272C9D0", Offset = "0x272AFD0", VA = "0x18272C9D0")]
 	public XmlImplementation()
 	{
 	}
 
 	[Token(Token = "0x6000913")]
-	[Address(RVA = "0x47D5390", Offset = "0x47D5390", VA = "0x47D5390")]
+	[Address(RVA = "0x577FB0", Offset = "0x5765B0", VA = "0x180577FB0")]
 	public XmlImplementation(XmlNameTable nt)
 	{
 	}
 
 	[Token(Token = "0x6000914")]
-	[Address(RVA = "0x47D53C0", Offset = "0x47D53C0", VA = "0x47D53C0", Slot = "4")]
+	[Address(RVA = "0x272C970", Offset = "0x272AF70", VA = "0x18272C970", Slot = "4")]
 	public virtual XmlDocument CreateDocument()
 	{
 		return null;

@@ -11,23 +11,23 @@ using Il2CppDummyDll;
 namespace System.Threading;
 
 [Serializable]
-[Token(Token = "0x20001D3")]
+[Token(Token = "0x20001FE")]
 public class SynchronizationLockException : SystemException
 {
-	[Token(Token = "0x6001170")]
-	[Address(RVA = "0x3D28520", Offset = "0x3D28520", VA = "0x3D28520")]
+	[Token(Token = "0x60011CB")]
+	[Address(RVA = "0x1BA5C30", Offset = "0x1BA4230", VA = "0x181BA5C30")]
 	public SynchronizationLockException()
 	{
 	}
 
-	[Token(Token = "0x6001171")]
-	[Address(RVA = "0x3D28560", Offset = "0x3D28560", VA = "0x3D28560")]
+	[Token(Token = "0x60011CC")]
+	[Address(RVA = "0x1BA5C10", Offset = "0x1BA4210", VA = "0x181BA5C10")]
 	public SynchronizationLockException(string message)
 	{
 	}
 
-	[Token(Token = "0x6001172")]
-	[Address(RVA = "0x3D28580", Offset = "0x3D28580", VA = "0x3D28580")]
+	[Token(Token = "0x60011CD")]
+	[Address(RVA = "0x19A1CD0", Offset = "0x19A02D0", VA = "0x1819A1CD0")]
 	protected SynchronizationLockException(SerializationInfo info, StreamingContext context)
 	{
 	}

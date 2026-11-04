@@ -12,10 +12,10 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x20001CB")]
 public interface IGraphDataWithVariables : IGraphData
 {
-	[Token(Token = "0x170001DF")]
+	[Token(Token = "0x170001E2")]
 	VariableDeclarations variables
 	{
-		[Token(Token = "0x60010F6")]
+		[Token(Token = "0x6001103")]
 		get;
 	}
 }

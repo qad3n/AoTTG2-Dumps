@@ -15,11 +15,11 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface, AllowMultiple = false, Inherited = true)]
 public sealed class TypeIconAttribute : Attribute
 {
-	[Token(Token = "0x17000070")]
+	[Token(Token = "0x17000071")]
 	public Type type
 	{
-		[Token(Token = "0x600020A")]
-		[Address(RVA = "0x4CA3FD0", Offset = "0x4CA3FD0", VA = "0x4CA3FD0")]
+		[Token(Token = "0x600020E")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,8 +27,8 @@ public sealed class TypeIconAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000209")]
-	[Address(RVA = "0x4CA3E90", Offset = "0x4CA3E90", VA = "0x4CA3E90")]
+	[Token(Token = "0x600020D")]
+	[Address(RVA = "0x2DBA400", Offset = "0x2DB8A00", VA = "0x182DBA400")]
 	public TypeIconAttribute(Type type)
 	{
 	}

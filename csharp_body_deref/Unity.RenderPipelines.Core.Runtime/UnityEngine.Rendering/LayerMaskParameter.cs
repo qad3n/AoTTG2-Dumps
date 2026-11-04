@@ -12,12 +12,12 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x20001E3")]
+[Token(Token = "0x2000200")]
 [DebuggerDisplay("{m_Value} ({m_OverrideState})")]
 public class LayerMaskParameter : VolumeParameter<LayerMask>
 {
-	[Token(Token = "0x6000DBA")]
-	[Address(RVA = "0x4C0ADE0", Offset = "0x4C0ADE0", VA = "0x4C0ADE0")]
+	[Token(Token = "0x6000F18")]
+	[Address(RVA = "0x2B5C8A0", Offset = "0x2B5AEA0", VA = "0x182B5C8A0")]
 	public LayerMaskParameter(LayerMask value, bool overrideState = false)
 	{
 	}

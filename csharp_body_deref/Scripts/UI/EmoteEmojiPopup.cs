@@ -13,56 +13,56 @@ using UnityEngine.UI;
 
 namespace UI;
 
-[Token(Token = "0x2000633")]
+[Token(Token = "0x200078E")]
 internal class EmoteEmojiPopup : EmoteTextPopup
 {
-	[Token(Token = "0x4001DD3")]
+	[Token(Token = "0x4002588")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE0")]
 	protected RawImage _emojiImage;
 
-	[Token(Token = "0x4001DD4")]
+	[Token(Token = "0x4002589")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE8")]
 	protected bool _animated;
 
-	[Token(Token = "0x4001DD5")]
+	[Token(Token = "0x400258A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xE9")]
 	protected bool _isFirstFrame;
 
-	[Token(Token = "0x4001DD6")]
+	[Token(Token = "0x400258B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF0")]
 	protected Texture _texture0;
 
-	[Token(Token = "0x4001DD7")]
+	[Token(Token = "0x400258C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xF8")]
 	protected Texture _texture1;
 
-	[Token(Token = "0x4001DD8")]
+	[Token(Token = "0x400258D")]
 	protected const float AnimationFrameTime = 0.5f;
 
-	[Token(Token = "0x4001DD9")]
+	[Token(Token = "0x400258E")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x100")]
 	protected float _animationTimeLeft;
 
-	[Token(Token = "0x6003E50")]
-	[Address(RVA = "0x42BC220", Offset = "0x42BC220", VA = "0x42BC220", Slot = "20")]
+	[Token(Token = "0x6004942")]
+	[Address(RVA = "0x2241D20", Offset = "0x2240320", VA = "0x182241D20", Slot = "20")]
 	public override void Setup([Optional] BasePanel parent)
 	{
 	}
 
-	[Token(Token = "0x6003E51")]
-	[Address(RVA = "0x42BC2D0", Offset = "0x42BC2D0", VA = "0x42BC2D0", Slot = "59")]
+	[Token(Token = "0x6004943")]
+	[Address(RVA = "0x22418C0", Offset = "0x223FEC0", VA = "0x1822418C0", Slot = "62")]
 	public override void Load(string text, float showTime, BaseCharacter character, Vector3 offset)
 	{
 	}
 
-	[Token(Token = "0x6003E52")]
-	[Address(RVA = "0x42BC6E0", Offset = "0x42BC6E0", VA = "0x42BC6E0")]
+	[Token(Token = "0x6004944")]
+	[Address(RVA = "0x2241DD0", Offset = "0x22403D0", VA = "0x182241DD0")]
 	protected void Update()
 	{
 	}
 
-	[Token(Token = "0x6003E53")]
-	[Address(RVA = "0x42BC780", Offset = "0x42BC780", VA = "0x42BC780")]
+	[Token(Token = "0x6004945")]
+	[Address(RVA = "0x21C11A0", Offset = "0x21BF7A0", VA = "0x1821C11A0")]
 	public EmoteEmojiPopup()
 	{
 	}

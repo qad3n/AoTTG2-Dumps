@@ -15,30 +15,30 @@ using UnityEngine.UI;
 
 namespace UnityEngine.Rendering.UI;
 
-[Token(Token = "0x200021B")]
+[Token(Token = "0x20002DA")]
 public class DebugUIHandlerEnumHistory : DebugUIHandlerEnumField
 {
-	[Token(Token = "0x200021C")]
+	[Token(Token = "0x20002DB")]
 	[CompilerGenerated]
 	private sealed class _003CRefreshAfterSanitization_003Ed__4 : IEnumerator<object>, IEnumerator, IDisposable
 	{
-		[Token(Token = "0x4000871")]
+		[Token(Token = "0x4000D43")]
 		[FieldOffset(Offset = "0x10")]
 		private int _003C_003E1__state;
 
-		[Token(Token = "0x4000872")]
+		[Token(Token = "0x4000D44")]
 		[FieldOffset(Offset = "0x18")]
 		private object _003C_003E2__current;
 
-		[Token(Token = "0x4000873")]
+		[Token(Token = "0x4000D45")]
 		[FieldOffset(Offset = "0x20")]
 		public DebugUIHandlerEnumHistory _003C_003E4__this;
 
-		[Token(Token = "0x170001B1")]
+		[Token(Token = "0x1700026F")]
 		private object System_002ECollections_002EGeneric_002EIEnumerator_003CSystem_002EObject_003E_002ECurrent
 		{
-			[Token(Token = "0x6000E99")]
-			[Address(RVA = "0x4C13360", Offset = "0x4C13360", VA = "0x4C13360", Slot = "4")]
+			[Token(Token = "0x6001431")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "4")]
 			[DebuggerHidden]
 			get
 			{
@@ -46,11 +46,11 @@ public class DebugUIHandlerEnumHistory : DebugUIHandlerEnumField
 			}
 		}
 
-		[Token(Token = "0x170001B2")]
+		[Token(Token = "0x17000270")]
 		private object System_002ECollections_002EIEnumerator_002ECurrent
 		{
-			[Token(Token = "0x6000E9B")]
-			[Address(RVA = "0x4C133B0", Offset = "0x4C133B0", VA = "0x4C133B0", Slot = "7")]
+			[Token(Token = "0x6001433")]
+			[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90", Slot = "7")]
 			[DebuggerHidden]
 			get
 			{
@@ -58,64 +58,64 @@ public class DebugUIHandlerEnumHistory : DebugUIHandlerEnumField
 			}
 		}
 
-		[Token(Token = "0x6000E96")]
-		[Address(RVA = "0x4C13200", Offset = "0x4C13200", VA = "0x4C13200")]
+		[Token(Token = "0x600142E")]
+		[Address(RVA = "0x573EF0", Offset = "0x5724F0", VA = "0x180573EF0")]
 		[DebuggerHidden]
 		public _003CRefreshAfterSanitization_003Ed__4(int _003C_003E1__state)
 		{
 		}
 
-		[Token(Token = "0x6000E97")]
-		[Address(RVA = "0x4C13260", Offset = "0x4C13260", VA = "0x4C13260", Slot = "5")]
+		[Token(Token = "0x600142F")]
+		[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "5")]
 		[DebuggerHidden]
 		private void System_002EIDisposable_002EDispose()
 		{
 		}
 
-		[Token(Token = "0x6000E98")]
-		[Address(RVA = "0x4C13270", Offset = "0x4C13270", VA = "0x4C13270", Slot = "6")]
+		[Token(Token = "0x6001430")]
+		[Address(RVA = "0x2BBAE10", Offset = "0x2BB9410", VA = "0x182BBAE10", Slot = "6")]
 		private bool MoveNext()
 		{
 			return default(bool);
 		}
 
-		[Token(Token = "0x6000E9A")]
-		[Address(RVA = "0x4C13370", Offset = "0x4C13370", VA = "0x4C13370", Slot = "8")]
+		[Token(Token = "0x6001432")]
+		[Address(RVA = "0x2BBAF70", Offset = "0x2BB9570", VA = "0x182BBAF70", Slot = "8")]
 		[DebuggerHidden]
 		private void System_002ECollections_002EIEnumerator_002EReset()
 		{
 		}
 	}
 
-	[Token(Token = "0x400086F")]
+	[Token(Token = "0x4000D41")]
 	[FieldOffset(Offset = "0x88")]
 	private Text[] historyValues;
 
-	[Token(Token = "0x4000870")]
+	[Token(Token = "0x4000D42")]
 	private const float k_XOffset = 230f;
 
-	[Token(Token = "0x6000E92")]
-	[Address(RVA = "0x4C12C50", Offset = "0x4C12C50", VA = "0x4C12C50", Slot = "5")]
+	[Token(Token = "0x600142A")]
+	[Address(RVA = "0x2BAC5F0", Offset = "0x2BAABF0", VA = "0x182BAC5F0", Slot = "5")]
 	internal override void SetWidget(DebugUI.Widget widget)
 	{
 	}
 
-	[Token(Token = "0x6000E93")]
-	[Address(RVA = "0x4C12EE0", Offset = "0x4C12EE0", VA = "0x4C12EE0", Slot = "13")]
+	[Token(Token = "0x600142B")]
+	[Address(RVA = "0x2BAC8B0", Offset = "0x2BAAEB0", VA = "0x182BAC8B0", Slot = "13")]
 	public override void UpdateValueLabel()
 	{
 	}
 
-	[Token(Token = "0x6000E94")]
-	[Address(RVA = "0x4C13190", Offset = "0x4C13190", VA = "0x4C13190")]
+	[Token(Token = "0x600142C")]
+	[Address(RVA = "0x2BAC580", Offset = "0x2BAAB80", VA = "0x182BAC580")]
 	[IteratorStateMachine(typeof(_003CRefreshAfterSanitization_003Ed__4))]
 	private IEnumerator RefreshAfterSanitization()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000E95")]
-	[Address(RVA = "0x4C13220", Offset = "0x4C13220", VA = "0x4C13220")]
+	[Token(Token = "0x600142D")]
+	[Address(RVA = "0x2BAC540", Offset = "0x2BAAB40", VA = "0x182BAC540")]
 	public DebugUIHandlerEnumHistory()
 	{
 	}

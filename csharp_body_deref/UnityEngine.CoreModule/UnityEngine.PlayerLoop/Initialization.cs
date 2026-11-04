@@ -11,48 +11,48 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000208")]
+[Token(Token = "0x2000259")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 public struct Initialization
 {
-	[Token(Token = "0x2000209")]
+	[Token(Token = "0x200025A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ProfilerStartFrame
 	{
 	}
 
-	[Token(Token = "0x200020A")]
+	[Token(Token = "0x200025B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateCameraMotionVectors
 	{
 	}
 
-	[Token(Token = "0x200020B")]
+	[Token(Token = "0x200025C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorSampleTime
 	{
 	}
 
-	[Token(Token = "0x200020C")]
+	[Token(Token = "0x200025D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AsyncUploadTimeSlicedUpdate
 	{
 	}
 
-	[Token(Token = "0x200020D")]
+	[Token(Token = "0x200025E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct SynchronizeState
 	{
 	}
 
-	[Token(Token = "0x200020E")]
+	[Token(Token = "0x200025F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct SynchronizeInputs
 	{
 	}
 
-	[Token(Token = "0x200020F")]
+	[Token(Token = "0x2000260")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct XREarlyUpdate
 	{

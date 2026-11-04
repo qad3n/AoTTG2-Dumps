@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000147")]
+[Token(Token = "0x20002CF")]
 public delegate void HttpContinueDelegate(int StatusCode, WebHeaderCollection httpHeaders);

@@ -14,13 +14,13 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000184")]
 public interface ISerializationDepender : ISerializationCallbackReceiver
 {
-	[Token(Token = "0x170001AC")]
+	[Token(Token = "0x170001AF")]
 	IEnumerable<ISerializationDependency> deserializationDependencies
 	{
-		[Token(Token = "0x6000F6E")]
+		[Token(Token = "0x6000F78")]
 		get;
 	}
 
-	[Token(Token = "0x6000F6F")]
+	[Token(Token = "0x6000F79")]
 	void OnAfterDependenciesDeserialized();
 }

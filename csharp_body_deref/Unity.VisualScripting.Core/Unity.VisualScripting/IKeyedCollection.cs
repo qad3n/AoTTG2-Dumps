@@ -14,26 +14,26 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000019")]
 public interface IKeyedCollection<TKey, TItem> : ICollection<TItem>, IEnumerable<TItem>, IEnumerable
 {
-	[Token(Token = "0x1700001D")]
+	[Token(Token = "0x1700001E")]
 	TItem this[TKey key]
 	{
-		[Token(Token = "0x6000092")]
+		[Token(Token = "0x6000096")]
 		get;
 	}
 
-	[Token(Token = "0x1700001E")]
+	[Token(Token = "0x1700001F")]
 	TItem this[int index]
 	{
-		[Token(Token = "0x6000093")]
+		[Token(Token = "0x6000097")]
 		get;
 	}
 
-	[Token(Token = "0x6000094")]
+	[Token(Token = "0x6000098")]
 	bool TryGetValue(TKey key, out TItem value);
 
-	[Token(Token = "0x6000095")]
+	[Token(Token = "0x6000099")]
 	bool Contains(TKey key);
 
-	[Token(Token = "0x6000096")]
+	[Token(Token = "0x600009A")]
 	bool Remove(TKey key);
 }

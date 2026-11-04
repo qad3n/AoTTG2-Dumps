@@ -16,7 +16,7 @@ internal class XmlTypeMapMemberAnyElement : XmlTypeMapMemberExpandable
 	public bool IsDefaultAny
 	{
 		[Token(Token = "0x6000ED0")]
-		[Address(RVA = "0x48390A0", Offset = "0x48390A0", VA = "0x48390A0")]
+		[Address(RVA = "0x278D400", Offset = "0x278BA00", VA = "0x18278D400")]
 		get
 		{
 			return default(bool);
@@ -24,14 +24,14 @@ internal class XmlTypeMapMemberAnyElement : XmlTypeMapMemberExpandable
 	}
 
 	[Token(Token = "0x6000ECF")]
-	[Address(RVA = "0x4835CB0", Offset = "0x4835CB0", VA = "0x4835CB0")]
+	[Address(RVA = "0x278D1A0", Offset = "0x278B7A0", VA = "0x18278D1A0")]
 	public bool IsElementDefined(string name, string ns)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x6000ED1")]
-	[Address(RVA = "0x4839480", Offset = "0x4839480", VA = "0x4839480")]
+	[Address(RVA = "0x278D190", Offset = "0x278B790", VA = "0x18278D190")]
 	public XmlTypeMapMemberAnyElement()
 	{
 	}

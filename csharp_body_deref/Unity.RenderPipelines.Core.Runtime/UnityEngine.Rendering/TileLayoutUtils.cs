@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x20001D1")]
+[Token(Token = "0x20001EF")]
 public static class TileLayoutUtils
 {
-	[Token(Token = "0x6000D44")]
-	[Address(RVA = "0x4C03E60", Offset = "0x4C03E60", VA = "0x4C03E60")]
+	[Token(Token = "0x6000EBB")]
+	[Address(RVA = "0x2B63FA0", Offset = "0x2B625A0", VA = "0x182B63FA0")]
 	public static bool TryLayoutByTiles(RectInt src, uint tileSize, out RectInt main, out RectInt topRow, out RectInt rightCol, out RectInt topRight)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D45")]
-	[Address(RVA = "0x4C03F10", Offset = "0x4C03F10", VA = "0x4C03F10")]
+	[Token(Token = "0x6000EBC")]
+	[Address(RVA = "0x2B63ED0", Offset = "0x2B624D0", VA = "0x182B63ED0")]
 	public static bool TryLayoutByRow(RectInt src, uint tileSize, out RectInt main, out RectInt other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000D46")]
-	[Address(RVA = "0x4C03FA0", Offset = "0x4C03FA0", VA = "0x4C03FA0")]
+	[Token(Token = "0x6000EBD")]
+	[Address(RVA = "0x2B63E00", Offset = "0x2B62400", VA = "0x182B63E00")]
 	public static bool TryLayoutByCol(RectInt src, uint tileSize, out RectInt main, out RectInt other)
 	{
 		return default(bool);

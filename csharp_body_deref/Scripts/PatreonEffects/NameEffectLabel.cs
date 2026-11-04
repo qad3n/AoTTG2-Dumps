@@ -12,276 +12,276 @@ using UnityEngine.UI;
 
 namespace PatreonEffects;
 
-[Token(Token = "0x20000F6")]
+[Token(Token = "0x2000117")]
 [DisallowMultipleComponent]
 public class NameEffectLabel : MonoBehaviour
 {
-	[Token(Token = "0x40005D6")]
+	[Token(Token = "0x4000675")]
 	[FieldOffset(Offset = "0x20")]
 	private string _prefix;
 
-	[Token(Token = "0x40005D7")]
+	[Token(Token = "0x4000676")]
 	[FieldOffset(Offset = "0x28")]
 	private string _name;
 
-	[Token(Token = "0x40005D8")]
+	[Token(Token = "0x4000677")]
 	[FieldOffset(Offset = "0x30")]
 	private string _suffix;
 
-	[Token(Token = "0x40005D9")]
+	[Token(Token = "0x4000678")]
 	[FieldOffset(Offset = "0x38")]
 	private float _fontSize;
 
-	[Token(Token = "0x40005DA")]
+	[Token(Token = "0x4000679")]
 	[FieldOffset(Offset = "0x3C")]
 	private Color _color;
 
-	[Token(Token = "0x40005DB")]
+	[Token(Token = "0x400067A")]
 	[FieldOffset(Offset = "0x4C")]
 	private TextAlignmentOptions _alignment;
 
-	[Token(Token = "0x40005DC")]
+	[Token(Token = "0x400067B")]
 	[FieldOffset(Offset = "0x50")]
 	private bool _richText;
 
-	[Token(Token = "0x40005DD")]
+	[Token(Token = "0x400067C")]
 	[FieldOffset(Offset = "0x58")]
 	private TextMeshProUGUI _prefixTmp;
 
-	[Token(Token = "0x40005DE")]
+	[Token(Token = "0x400067D")]
 	[FieldOffset(Offset = "0x60")]
 	private TextMeshProUGUI _nameTmp;
 
-	[Token(Token = "0x40005DF")]
+	[Token(Token = "0x400067E")]
 	[FieldOffset(Offset = "0x68")]
 	private TextMeshProUGUI _suffixTmp;
 
-	[Token(Token = "0x40005E0")]
+	[Token(Token = "0x400067F")]
 	[FieldOffset(Offset = "0x70")]
 	private LayoutElement _prefixLayout;
 
-	[Token(Token = "0x40005E1")]
+	[Token(Token = "0x4000680")]
 	[FieldOffset(Offset = "0x78")]
 	private LayoutElement _nameLayout;
 
-	[Token(Token = "0x40005E2")]
+	[Token(Token = "0x4000681")]
 	[FieldOffset(Offset = "0x80")]
 	private LayoutElement _suffixLayout;
 
-	[Token(Token = "0x40005E3")]
+	[Token(Token = "0x4000682")]
 	[FieldOffset(Offset = "0x88")]
 	private NameEffectController _nameEffect;
 
-	[Token(Token = "0x40005E4")]
+	[Token(Token = "0x4000683")]
 	[FieldOffset(Offset = "0x0")]
 	private static TMP_FontAsset _sharedFontAsset;
 
-	[Token(Token = "0x40005E5")]
+	[Token(Token = "0x4000684")]
 	[FieldOffset(Offset = "0x8")]
 	private static TMP_SpriteAsset _sharedSpriteAsset;
 
-	[Token(Token = "0x170000B8")]
+	[Token(Token = "0x170000C7")]
 	public string prefix
 	{
-		[Token(Token = "0x60004D4")]
-		[Address(RVA = "0x422DBB0", Offset = "0x422DBB0", VA = "0x422DBB0")]
+		[Token(Token = "0x6000573")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004D5")]
-		[Address(RVA = "0x422DBC0", Offset = "0x422DBC0", VA = "0x422DBC0")]
+		[Token(Token = "0x6000574")]
+		[Address(RVA = "0x20CAB10", Offset = "0x20C9110", VA = "0x1820CAB10")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000B9")]
+	[Token(Token = "0x170000C8")]
 	public string nameText
 	{
-		[Token(Token = "0x60004D6")]
-		[Address(RVA = "0x422DDB0", Offset = "0x422DDB0", VA = "0x422DDB0")]
+		[Token(Token = "0x6000575")]
+		[Address(RVA = "0x584C80", Offset = "0x583280", VA = "0x180584C80")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004D7")]
-		[Address(RVA = "0x422DDC0", Offset = "0x422DDC0", VA = "0x422DDC0")]
+		[Token(Token = "0x6000576")]
+		[Address(RVA = "0x20CAAC0", Offset = "0x20C90C0", VA = "0x1820CAAC0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BA")]
+	[Token(Token = "0x170000C9")]
 	public string suffix
 	{
-		[Token(Token = "0x60004D8")]
-		[Address(RVA = "0x422DE10", Offset = "0x422DE10", VA = "0x422DE10")]
+		[Token(Token = "0x6000577")]
+		[Address(RVA = "0x5853F0", Offset = "0x5839F0", VA = "0x1805853F0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60004D9")]
-		[Address(RVA = "0x422DE20", Offset = "0x422DE20", VA = "0x422DE20")]
+		[Token(Token = "0x6000578")]
+		[Address(RVA = "0x20CACB0", Offset = "0x20C92B0", VA = "0x1820CACB0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BB")]
+	[Token(Token = "0x170000CA")]
 	public float fontSize
 	{
-		[Token(Token = "0x60004DA")]
-		[Address(RVA = "0x422DE70", Offset = "0x422DE70", VA = "0x422DE70")]
+		[Token(Token = "0x6000579")]
+		[Address(RVA = "0x585020", Offset = "0x583620", VA = "0x180585020")]
 		get
 		{
 			return default(float);
 		}
-		[Token(Token = "0x60004DB")]
-		[Address(RVA = "0x422DE80", Offset = "0x422DE80", VA = "0x422DE80")]
+		[Token(Token = "0x600057A")]
+		[Address(RVA = "0x20CA970", Offset = "0x20C8F70", VA = "0x1820CA970")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BC")]
+	[Token(Token = "0x170000CB")]
 	public Color color
 	{
-		[Token(Token = "0x60004DC")]
-		[Address(RVA = "0x422DFC0", Offset = "0x422DFC0", VA = "0x422DFC0")]
+		[Token(Token = "0x600057B")]
+		[Address(RVA = "0x20CA6D0", Offset = "0x20C8CD0", VA = "0x1820CA6D0")]
 		get
 		{
 			return default(Color);
 		}
-		[Token(Token = "0x60004DD")]
-		[Address(RVA = "0x422DFD0", Offset = "0x422DFD0", VA = "0x422DFD0")]
+		[Token(Token = "0x600057C")]
+		[Address(RVA = "0x20CA7F0", Offset = "0x20C8DF0", VA = "0x1820CA7F0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BD")]
+	[Token(Token = "0x170000CC")]
 	public TextAlignmentOptions alignment
 	{
-		[Token(Token = "0x60004DE")]
-		[Address(RVA = "0x422E140", Offset = "0x422E140", VA = "0x422E140")]
+		[Token(Token = "0x600057D")]
+		[Address(RVA = "0x58A610", Offset = "0x588C10", VA = "0x18058A610")]
 		get
 		{
 			return default(TextAlignmentOptions);
 		}
-		[Token(Token = "0x60004DF")]
-		[Address(RVA = "0x422E150", Offset = "0x422E150", VA = "0x422E150")]
+		[Token(Token = "0x600057E")]
+		[Address(RVA = "0x20CA6E0", Offset = "0x20C8CE0", VA = "0x1820CA6E0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BE")]
+	[Token(Token = "0x170000CD")]
 	public bool richText
 	{
-		[Token(Token = "0x60004E0")]
-		[Address(RVA = "0x422E250", Offset = "0x422E250", VA = "0x422E250")]
+		[Token(Token = "0x600057F")]
+		[Address(RVA = "0xC7FB40", Offset = "0xC7E140", VA = "0x180C7FB40")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60004E1")]
-		[Address(RVA = "0x422E260", Offset = "0x422E260", VA = "0x422E260")]
+		[Token(Token = "0x6000580")]
+		[Address(RVA = "0x20CAB60", Offset = "0x20C9160", VA = "0x1820CAB60")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170000BF")]
+	[Token(Token = "0x170000CE")]
 	public TextMeshProUGUI prefixComponent
 	{
-		[Token(Token = "0x60004E2")]
-		[Address(RVA = "0x422E390", Offset = "0x422E390", VA = "0x422E390")]
+		[Token(Token = "0x6000581")]
+		[Address(RVA = "0x58A570", Offset = "0x588B70", VA = "0x18058A570")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000C0")]
+	[Token(Token = "0x170000CF")]
 	public TextMeshProUGUI nameComponent
 	{
-		[Token(Token = "0x60004E3")]
-		[Address(RVA = "0x422E3A0", Offset = "0x422E3A0", VA = "0x422E3A0")]
+		[Token(Token = "0x6000582")]
+		[Address(RVA = "0x152F220", Offset = "0x152D820", VA = "0x18152F220")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170000C1")]
+	[Token(Token = "0x170000D0")]
 	public TextMeshProUGUI suffixComponent
 	{
-		[Token(Token = "0x60004E4")]
-		[Address(RVA = "0x422E3B0", Offset = "0x422E3B0", VA = "0x422E3B0")]
+		[Token(Token = "0x6000583")]
+		[Address(RVA = "0x58A6F0", Offset = "0x588CF0", VA = "0x18058A6F0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60004E5")]
-	[Address(RVA = "0x422E3C0", Offset = "0x422E3C0", VA = "0x422E3C0")]
+	[Token(Token = "0x6000584")]
+	[Address(RVA = "0x20C9F40", Offset = "0x20C8540", VA = "0x1820C9F40")]
 	public void SetFont(TMP_FontAsset font)
 	{
 	}
 
-	[Token(Token = "0x60004E6")]
-	[Address(RVA = "0x422E520", Offset = "0x422E520", VA = "0x422E520")]
+	[Token(Token = "0x6000585")]
+	[Address(RVA = "0x20CA540", Offset = "0x20C8B40", VA = "0x1820CA540")]
 	public void SetText(string prefix, string name, string suffix)
 	{
 	}
 
-	[Token(Token = "0x60004E7")]
-	[Address(RVA = "0x422E600", Offset = "0x422E600", VA = "0x422E600")]
+	[Token(Token = "0x6000586")]
+	[Address(RVA = "0x20CA0C0", Offset = "0x20C86C0", VA = "0x1820CA0C0")]
 	public void SetNameEffect(NameEffectType effect, Color a, Color b, Color c, Color d)
 	{
 	}
 
-	[Token(Token = "0x60004E8")]
-	[Address(RVA = "0x422E8E0", Offset = "0x422E8E0", VA = "0x422E8E0")]
+	[Token(Token = "0x6000587")]
+	[Address(RVA = "0x20C9A80", Offset = "0x20C8080", VA = "0x1820C9A80")]
 	public void ClearNameEffect()
 	{
 	}
 
-	[Token(Token = "0x60004E9")]
-	[Address(RVA = "0x422E9F0", Offset = "0x422E9F0", VA = "0x422E9F0")]
+	[Token(Token = "0x6000588")]
+	[Address(RVA = "0x20C9810", Offset = "0x20C7E10", VA = "0x1820C9810")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x60004EA")]
-	[Address(RVA = "0x422EA00", Offset = "0x422EA00", VA = "0x422EA00")]
+	[Token(Token = "0x6000589")]
+	[Address(RVA = "0x20C9820", Offset = "0x20C7E20", VA = "0x1820C9820")]
 	private void BuildIfNeeded()
 	{
 	}
 
-	[Token(Token = "0x60004EB")]
-	[Address(RVA = "0x422EC50", Offset = "0x422EC50", VA = "0x422EC50")]
+	[Token(Token = "0x600058A")]
+	[Address(RVA = "0x20C9B90", Offset = "0x20C8190", VA = "0x1820C9B90")]
 	private TextMeshProUGUI CreateSegment(string name, out LayoutElement layout)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60004EC")]
-	[Address(RVA = "0x422EFE0", Offset = "0x422EFE0", VA = "0x422EFE0")]
+	[Token(Token = "0x600058B")]
+	[Address(RVA = "0x20C93D0", Offset = "0x20C79D0", VA = "0x1820C93D0")]
 	private static void ApplySharedFont(TextMeshProUGUI tmp)
 	{
 	}
 
-	[Token(Token = "0x60004ED")]
-	[Address(RVA = "0x422DC10", Offset = "0x422DC10", VA = "0x422DC10")]
+	[Token(Token = "0x600058C")]
+	[Address(RVA = "0x20C9640", Offset = "0x20C7C40", VA = "0x1820C9640")]
 	private static void ApplyText(TextMeshProUGUI tmp, LayoutElement layout, string content)
 	{
 	}
 
-	[Token(Token = "0x60004EE")]
-	[Address(RVA = "0x422F210", Offset = "0x422F210", VA = "0x422F210")]
+	[Token(Token = "0x600058D")]
+	[Address(RVA = "0x20CA630", Offset = "0x20C8C30", VA = "0x1820CA630")]
 	public NameEffectLabel()
 	{
 	}

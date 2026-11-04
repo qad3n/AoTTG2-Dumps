@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x20004F7")]
+[Token(Token = "0x2000650")]
 internal enum HorseState
 {
-	[Token(Token = "0x4001620")]
+	[Token(Token = "0x4001C92")]
 	Idle,
-	[Token(Token = "0x4001621")]
+	[Token(Token = "0x4001C93")]
 	WalkToPoint,
-	[Token(Token = "0x4001622")]
+	[Token(Token = "0x4001C94")]
 	RunToPoint,
-	[Token(Token = "0x4001623")]
+	[Token(Token = "0x4001C95")]
 	ControlledIdle,
-	[Token(Token = "0x4001624")]
+	[Token(Token = "0x4001C96")]
 	ControlledRun,
-	[Token(Token = "0x4001625")]
+	[Token(Token = "0x4001C97")]
 	ControlledWalk
 }

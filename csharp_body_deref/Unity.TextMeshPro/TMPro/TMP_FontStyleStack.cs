@@ -9,64 +9,64 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200009F")]
+[Token(Token = "0x200009B")]
 public struct TMP_FontStyleStack
 {
-	[Token(Token = "0x40005DE")]
+	[Token(Token = "0x400056B")]
 	[FieldOffset(Offset = "0x0")]
 	public byte bold;
 
-	[Token(Token = "0x40005DF")]
+	[Token(Token = "0x400056C")]
 	[FieldOffset(Offset = "0x1")]
 	public byte italic;
 
-	[Token(Token = "0x40005E0")]
+	[Token(Token = "0x400056D")]
 	[FieldOffset(Offset = "0x2")]
 	public byte underline;
 
-	[Token(Token = "0x40005E1")]
+	[Token(Token = "0x400056E")]
 	[FieldOffset(Offset = "0x3")]
 	public byte strikethrough;
 
-	[Token(Token = "0x40005E2")]
+	[Token(Token = "0x400056F")]
 	[FieldOffset(Offset = "0x4")]
 	public byte highlight;
 
-	[Token(Token = "0x40005E3")]
+	[Token(Token = "0x4000570")]
 	[FieldOffset(Offset = "0x5")]
 	public byte superscript;
 
-	[Token(Token = "0x40005E4")]
+	[Token(Token = "0x4000571")]
 	[FieldOffset(Offset = "0x6")]
 	public byte subscript;
 
-	[Token(Token = "0x40005E5")]
+	[Token(Token = "0x4000572")]
 	[FieldOffset(Offset = "0x7")]
 	public byte uppercase;
 
-	[Token(Token = "0x40005E6")]
+	[Token(Token = "0x4000573")]
 	[FieldOffset(Offset = "0x8")]
 	public byte lowercase;
 
-	[Token(Token = "0x40005E7")]
+	[Token(Token = "0x4000574")]
 	[FieldOffset(Offset = "0x9")]
 	public byte smallcaps;
 
-	[Token(Token = "0x6000605")]
-	[Address(RVA = "0x4C955A0", Offset = "0x4C955A0", VA = "0x4C955A0")]
+	[Token(Token = "0x60005E0")]
+	[Address(RVA = "0x2D61710", Offset = "0x2D5FD10", VA = "0x182D61710")]
 	public void Clear()
 	{
 	}
 
-	[Token(Token = "0x6000606")]
-	[Address(RVA = "0x4C955B0", Offset = "0x4C955B0", VA = "0x4C955B0")]
+	[Token(Token = "0x60005E1")]
+	[Address(RVA = "0x2D61660", Offset = "0x2D5FC60", VA = "0x182D61660")]
 	public byte Add(FontStyles style)
 	{
 		return default(byte);
 	}
 
-	[Token(Token = "0x6000607")]
-	[Address(RVA = "0x4C95650", Offset = "0x4C95650", VA = "0x4C95650")]
+	[Token(Token = "0x60005E2")]
+	[Address(RVA = "0x2D61720", Offset = "0x2D5FD20", VA = "0x182D61720")]
 	public byte Remove(FontStyles style)
 	{
 		return default(byte);

@@ -18,7 +18,7 @@ internal class TypeInformation
 	public Type Type
 	{
 		[Token(Token = "0x6000533")]
-		[Address(RVA = "0x3DACCF0", Offset = "0x3DACCF0", VA = "0x3DACCF0")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -30,7 +30,7 @@ internal class TypeInformation
 	public PrimitiveTypeCode TypeCode
 	{
 		[Token(Token = "0x6000534")]
-		[Address(RVA = "0x3DACD00", Offset = "0x3DACD00", VA = "0x3DACD00")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,7 +39,7 @@ internal class TypeInformation
 	}
 
 	[Token(Token = "0x6000535")]
-	[Address(RVA = "0x3DACD10", Offset = "0x3DACD10", VA = "0x3DACD10")]
+	[Address(RVA = "0x8FB340", Offset = "0x8F9940", VA = "0x1808FB340")]
 	public TypeInformation(Type type, PrimitiveTypeCode typeCode)
 	{
 	}

@@ -20,8 +20,8 @@ internal sealed class EnterExceptionFilterInstruction : Instruction
 	[Token(Token = "0x1700017F")]
 	public override string InstructionName
 	{
-		[Token(Token = "0x6000652")]
-		[Address(RVA = "0x44C9390", Offset = "0x44C9390", VA = "0x44C9390", Slot = "9")]
+		[Token(Token = "0x6000651")]
+		[Address(RVA = "0x242D730", Offset = "0x242BD30", VA = "0x18242D730", Slot = "9")]
 		get
 		{
 			return null;
@@ -31,22 +31,22 @@ internal sealed class EnterExceptionFilterInstruction : Instruction
 	[Token(Token = "0x17000180")]
 	public override int ProducedStack
 	{
-		[Token(Token = "0x6000653")]
-		[Address(RVA = "0x44C93C0", Offset = "0x44C93C0", VA = "0x44C93C0", Slot = "5")]
+		[Token(Token = "0x6000652")]
+		[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "5")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x6000651")]
-	[Address(RVA = "0x44C9380", Offset = "0x44C9380", VA = "0x44C9380")]
+	[Token(Token = "0x6000650")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	private EnterExceptionFilterInstruction()
 	{
 	}
 
-	[Token(Token = "0x6000654")]
-	[Address(RVA = "0x44C93D0", Offset = "0x44C93D0", VA = "0x44C93D0", Slot = "8")]
+	[Token(Token = "0x6000653")]
+	[Address(RVA = "0x564040", Offset = "0x562640", VA = "0x180564040", Slot = "8")]
 	[ExcludeFromCodeCoverage]
 	public override int Run(InterpretedFrame frame)
 	{

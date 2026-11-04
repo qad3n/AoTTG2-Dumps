@@ -9,26 +9,26 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI.CoroutineTween;
 
-[Token(Token = "0x200008A")]
+[Token(Token = "0x2000088")]
 internal interface ITweenValue
 {
-	[Token(Token = "0x1700015C")]
+	[Token(Token = "0x1700015D")]
 	bool ignoreTimeScale
 	{
-		[Token(Token = "0x600055B")]
+		[Token(Token = "0x6000567")]
 		get;
 	}
 
-	[Token(Token = "0x1700015D")]
+	[Token(Token = "0x1700015E")]
 	float duration
 	{
-		[Token(Token = "0x600055C")]
+		[Token(Token = "0x6000568")]
 		get;
 	}
 
-	[Token(Token = "0x600055A")]
+	[Token(Token = "0x6000566")]
 	void TweenValue(float floatPercentage);
 
-	[Token(Token = "0x600055D")]
+	[Token(Token = "0x6000569")]
 	bool ValidTarget();
 }

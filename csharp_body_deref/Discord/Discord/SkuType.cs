@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000035")]
+[Token(Token = "0x2000033")]
 public enum SkuType
 {
-	[Token(Token = "0x400009C")]
+	[Token(Token = "0x4000097")]
 	Application = 1,
-	[Token(Token = "0x400009D")]
+	[Token(Token = "0x4000098")]
 	DLC,
-	[Token(Token = "0x400009E")]
+	[Token(Token = "0x4000099")]
 	Consumable,
-	[Token(Token = "0x400009F")]
+	[Token(Token = "0x400009A")]
 	Bundle
 }

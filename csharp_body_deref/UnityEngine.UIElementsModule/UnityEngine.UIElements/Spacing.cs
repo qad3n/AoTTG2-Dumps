@@ -9,55 +9,55 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000264")]
+[Token(Token = "0x20002E7")]
 internal struct Spacing
 {
-	[Token(Token = "0x40008E0")]
+	[Token(Token = "0x4000B50")]
 	[FieldOffset(Offset = "0x0")]
 	public float left;
 
-	[Token(Token = "0x40008E1")]
+	[Token(Token = "0x4000B51")]
 	[FieldOffset(Offset = "0x4")]
 	public float top;
 
-	[Token(Token = "0x40008E2")]
+	[Token(Token = "0x4000B52")]
 	[FieldOffset(Offset = "0x8")]
 	public float right;
 
-	[Token(Token = "0x40008E3")]
+	[Token(Token = "0x4000B53")]
 	[FieldOffset(Offset = "0xC")]
 	public float bottom;
 
-	[Token(Token = "0x1700030C")]
+	[Token(Token = "0x17000403")]
 	public float horizontal
 	{
-		[Token(Token = "0x6000FCA")]
-		[Address(RVA = "0x5078250", Offset = "0x5078250", VA = "0x5078250")]
+		[Token(Token = "0x60013C0")]
+		[Address(RVA = "0x32B6510", Offset = "0x32B4B10", VA = "0x1832B6510")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x1700030D")]
+	[Token(Token = "0x17000404")]
 	public float vertical
 	{
-		[Token(Token = "0x6000FCB")]
-		[Address(RVA = "0x5078260", Offset = "0x5078260", VA = "0x5078260")]
+		[Token(Token = "0x60013C1")]
+		[Address(RVA = "0x32B6520", Offset = "0x32B4B20", VA = "0x1832B6520")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x6000FCC")]
-	[Address(RVA = "0x5078270", Offset = "0x5078270", VA = "0x5078270")]
+	[Token(Token = "0x60013C2")]
+	[Address(RVA = "0x298BAD0", Offset = "0x298A0D0", VA = "0x18298BAD0")]
 	public Spacing(float left, float top, float right, float bottom)
 	{
 	}
 
-	[Token(Token = "0x6000FCD")]
-	[Address(RVA = "0x5078290", Offset = "0x5078290", VA = "0x5078290")]
+	[Token(Token = "0x60013C3")]
+	[Address(RVA = "0x32B6530", Offset = "0x32B4B30", VA = "0x1832B6530")]
 	public static Rect operator -(Rect r, Spacing a)
 	{
 		return default(Rect);

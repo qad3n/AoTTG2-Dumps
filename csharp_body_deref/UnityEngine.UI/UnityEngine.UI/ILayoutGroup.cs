@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200004A")]
+[Token(Token = "0x2000048")]
 public interface ILayoutGroup : ILayoutController
 {
 }

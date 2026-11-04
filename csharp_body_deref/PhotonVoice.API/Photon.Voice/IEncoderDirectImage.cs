@@ -10,13 +10,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200007D")]
+[Token(Token = "0x200007B")]
 public interface IEncoderDirectImage : IEncoderDirect<ImageBufferNative>, IEncoder, IDisposable
 {
 	[Token(Token = "0x170000BE")]
 	ImageFormat ImageFormat
 	{
-		[Token(Token = "0x60002C2")]
+		[Token(Token = "0x60002C0")]
 		get;
 	}
 }

@@ -10,9 +10,9 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001D3")]
+[Token(Token = "0x20001D6")]
 public interface IAsyncOnParticleCollisionHandler
 {
-	[Token(Token = "0x6000B49")]
+	[Token(Token = "0x6000B6D")]
 	UniTask<GameObject> OnParticleCollisionAsync();
 }

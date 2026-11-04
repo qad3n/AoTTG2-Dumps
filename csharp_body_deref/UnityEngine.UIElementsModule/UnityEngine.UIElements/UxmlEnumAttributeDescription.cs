@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000430")]
+[Token(Token = "0x20004F9")]
 public class UxmlEnumAttributeDescription<T> : TypedUxmlAttributeDescription<T> where T : struct, IConvertible
 {
-	[Token(Token = "0x6001AC9")]
+	[Token(Token = "0x6002694")]
 	public UxmlEnumAttributeDescription()
 	{
 	}
 
-	[Token(Token = "0x6001ACA")]
+	[Token(Token = "0x6002695")]
 	public override T GetValueFromBag(IUxmlAttributes bag, CreationContext cc)
 	{
 		return (T)null;
 	}
 
-	[Token(Token = "0x6001ACB")]
+	[Token(Token = "0x6002696")]
 	public bool TryGetValueFromBag(IUxmlAttributes bag, CreationContext cc, ref T value)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001ACC")]
+	[Token(Token = "0x6002697")]
 	private static U ConvertValueToEnum<U>(string v, U defaultValue) where U : struct
 	{
 		return (U)null;
 	}
 
-	[Token(Token = "0x6001ACD")]
+	[Token(Token = "0x6002698")]
 	private static string GetEnumNameErrorMessage(string v, Type enumType)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001ACE")]
+	[Token(Token = "0x6002699")]
 	private static string GetEnumRangeErrorMessage(string v, Type enumType)
 	{
 		return null;

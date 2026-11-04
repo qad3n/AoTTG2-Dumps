@@ -10,15 +10,15 @@ using Photon.Realtime;
 
 namespace Photon.Pun;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x200000D")]
 public interface IPunOwnershipCallbacks
 {
-	[Token(Token = "0x600000B")]
+	[Token(Token = "0x6000009")]
 	void OnOwnershipRequest(PhotonView targetView, Player requestingPlayer);
 
-	[Token(Token = "0x600000C")]
+	[Token(Token = "0x600000A")]
 	void OnOwnershipTransfered(PhotonView targetView, Player previousOwner);
 
-	[Token(Token = "0x600000D")]
+	[Token(Token = "0x600000B")]
 	void OnOwnershipTransferFailed(PhotonView targetView, Player senderOfFailedRequest);
 }

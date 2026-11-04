@@ -14,26 +14,26 @@ namespace System.Configuration;
 public abstract class ConfigurationSection : ConfigurationElement
 {
 	[Token(Token = "0x6000008")]
-	[Address(RVA = "0x448AA70", Offset = "0x448AA70", VA = "0x448AA70", Slot = "11")]
+	[Address(RVA = "0x23FF590", Offset = "0x23FDB90", VA = "0x1823FF590", Slot = "11")]
 	protected internal virtual void DeserializeSection(XmlReader reader)
 	{
 	}
 
 	[Token(Token = "0x6000009")]
-	[Address(RVA = "0x448AAA0", Offset = "0x448AAA0", VA = "0x448AAA0", Slot = "7")]
+	[Address(RVA = "0x23FF5C0", Offset = "0x23FDBC0", VA = "0x1823FF5C0", Slot = "7")]
 	protected internal override bool IsModified()
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x600000A")]
-	[Address(RVA = "0x448AAD0", Offset = "0x448AAD0", VA = "0x448AAD0", Slot = "10")]
+	[Address(RVA = "0x23FF5F0", Offset = "0x23FDBF0", VA = "0x1823FF5F0", Slot = "10")]
 	protected internal override void ResetModified()
 	{
 	}
 
 	[Token(Token = "0x600000B")]
-	[Address(RVA = "0x448AB00", Offset = "0x448AB00", VA = "0x448AB00", Slot = "12")]
+	[Address(RVA = "0x23FF620", Offset = "0x23FDC20", VA = "0x1823FF620", Slot = "12")]
 	protected internal virtual string SerializeSection(ConfigurationElement parentElement, string name, ConfigurationSaveMode saveMode)
 	{
 		return null;

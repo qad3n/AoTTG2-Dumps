@@ -10,17 +10,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.Experimental;
 
-[Token(Token = "0x2000555")]
+[Token(Token = "0x200064B")]
 internal struct EventDebuggerLogCall : IDisposable
 {
-	[Token(Token = "0x60020A8")]
-	[Address(RVA = "0x4FD3FE0", Offset = "0x4FD3FE0", VA = "0x4FD3FE0")]
+	[Token(Token = "0x6002E15")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public EventDebuggerLogCall(Delegate callback, EventBase evt)
 	{
 	}
 
-	[Token(Token = "0x60020A9")]
-	[Address(RVA = "0x4FD3FF0", Offset = "0x4FD3FF0", VA = "0x4FD3FF0", Slot = "4")]
+	[Token(Token = "0x6002E16")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "4")]
 	public void Dispose()
 	{
 	}

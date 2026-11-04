@@ -10,21 +10,21 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000018")]
+[Token(Token = "0x2000016")]
 public interface IInRoomCallbacks
 {
-	[Token(Token = "0x60000D5")]
+	[Token(Token = "0x60000D3")]
 	void OnPlayerEnteredRoom(Player newPlayer);
 
-	[Token(Token = "0x60000D6")]
+	[Token(Token = "0x60000D4")]
 	void OnPlayerLeftRoom(Player otherPlayer);
 
-	[Token(Token = "0x60000D7")]
+	[Token(Token = "0x60000D5")]
 	void OnRoomPropertiesUpdate(Hashtable propertiesThatChanged);
 
-	[Token(Token = "0x60000D8")]
+	[Token(Token = "0x60000D6")]
 	void OnPlayerPropertiesUpdate(Player targetPlayer, Hashtable changedProps);
 
-	[Token(Token = "0x60000D9")]
+	[Token(Token = "0x60000D7")]
 	void OnMasterClientSwitched(Player newMasterClient);
 }

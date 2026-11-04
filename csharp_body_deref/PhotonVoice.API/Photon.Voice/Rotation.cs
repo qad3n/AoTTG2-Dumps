@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x2000085")]
+[Token(Token = "0x2000083")]
 public enum Rotation
 {
-	[Token(Token = "0x4000209")]
+	[Token(Token = "0x4000204")]
 	Undefined = -1,
-	[Token(Token = "0x400020A")]
+	[Token(Token = "0x4000205")]
 	Rotate0 = 0,
-	[Token(Token = "0x400020B")]
+	[Token(Token = "0x4000206")]
 	Rotate90 = 90,
-	[Token(Token = "0x400020C")]
+	[Token(Token = "0x4000207")]
 	Rotate180 = 180,
-	[Token(Token = "0x400020D")]
+	[Token(Token = "0x4000208")]
 	Rotate270 = 270
 }

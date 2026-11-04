@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UI;
 
-[Token(Token = "0x200004C")]
+[Token(Token = "0x200004A")]
 public interface ILayoutIgnorer
 {
-	[Token(Token = "0x170000BD")]
+	[Token(Token = "0x170000BE")]
 	bool ignoreLayout
 	{
-		[Token(Token = "0x60002BA")]
+		[Token(Token = "0x60002C3")]
 		get;
 	}
 }

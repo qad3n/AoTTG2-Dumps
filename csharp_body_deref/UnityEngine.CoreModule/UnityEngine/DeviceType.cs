@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x200019A")]
+[Token(Token = "0x20001D6")]
 public enum DeviceType
 {
-	[Token(Token = "0x40005CB")]
+	[Token(Token = "0x4000668")]
 	Unknown,
-	[Token(Token = "0x40005CC")]
+	[Token(Token = "0x4000669")]
 	Handheld,
-	[Token(Token = "0x40005CD")]
+	[Token(Token = "0x400066A")]
 	Console,
-	[Token(Token = "0x40005CE")]
+	[Token(Token = "0x400066B")]
 	Desktop
 }

@@ -11,19 +11,19 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x2000007")]
+[Token(Token = "0x2000005")]
 public interface IReadOnlyAsyncReactiveProperty<T> : IUniTaskAsyncEnumerable<T>
 {
 	[Token(Token = "0x17000004")]
 	T Value
 	{
-		[Token(Token = "0x6000017")]
+		[Token(Token = "0x6000015")]
 		get;
 	}
 
-	[Token(Token = "0x6000018")]
+	[Token(Token = "0x6000016")]
 	IUniTaskAsyncEnumerable<T> WithoutCurrent();
 
-	[Token(Token = "0x6000019")]
+	[Token(Token = "0x6000017")]
 	UniTask<T> WaitAsync([Optional] CancellationToken cancellationToken);
 }

@@ -11,15 +11,15 @@ using UnityEngine.SceneManagement;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200014B")]
+[Token(Token = "0x200011D")]
 internal static class SceneExtensions
 {
-	[Token(Token = "0x40005B5")]
+	[Token(Token = "0x4000529")]
 	[FieldOffset(Offset = "0x0")]
 	private static PropertyInfo s_SceneGUID;
 
-	[Token(Token = "0x6000A52")]
-	[Address(RVA = "0x4BD1F60", Offset = "0x4BD1F60", VA = "0x4BD1F60")]
+	[Token(Token = "0x6000A4A")]
+	[Address(RVA = "0x2B192C0", Offset = "0x2B178C0", VA = "0x182B192C0")]
 	public static string GetGUID(this Scene scene)
 	{
 		return null;

@@ -10,45 +10,45 @@ using Il2CppDummyDll;
 namespace System.Runtime.Remoting.Channels;
 
 [Serializable]
-[Token(Token = "0x2000378")]
+[Token(Token = "0x20003A7")]
 internal class CrossAppDomainData
 {
-	[Token(Token = "0x4000F0B")]
+	[Token(Token = "0x4000F18")]
 	[FieldOffset(Offset = "0x10")]
 	private object _ContextID;
 
-	[Token(Token = "0x4000F0C")]
+	[Token(Token = "0x4000F19")]
 	[FieldOffset(Offset = "0x18")]
 	private int _DomainID;
 
-	[Token(Token = "0x4000F0D")]
+	[Token(Token = "0x4000F1A")]
 	[FieldOffset(Offset = "0x20")]
 	private string _processGuid;
 
-	[Token(Token = "0x1700036F")]
+	[Token(Token = "0x17000371")]
 	internal int DomainID
 	{
-		[Token(Token = "0x6001D8A")]
-		[Address(RVA = "0x3B80C80", Offset = "0x3B80C80", VA = "0x3B80C80")]
+		[Token(Token = "0x6001DF9")]
+		[Address(RVA = "0x8FB390", Offset = "0x8F9990", VA = "0x1808FB390")]
 		get
 		{
 			return default(int);
 		}
 	}
 
-	[Token(Token = "0x17000370")]
+	[Token(Token = "0x17000372")]
 	internal string ProcessID
 	{
-		[Token(Token = "0x6001D8B")]
-		[Address(RVA = "0x3B80C90", Offset = "0x3B80C90", VA = "0x3B80C90")]
+		[Token(Token = "0x6001DFA")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001D89")]
-	[Address(RVA = "0x3B80BE0", Offset = "0x3B80BE0", VA = "0x3B80BE0")]
+	[Token(Token = "0x6001DF8")]
+	[Address(RVA = "0x19F8980", Offset = "0x19F6F80", VA = "0x1819F8980")]
 	internal CrossAppDomainData(int domainId)
 	{
 	}

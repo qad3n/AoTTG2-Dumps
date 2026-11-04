@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Text;
 
-[Token(Token = "0x2000283")]
+[Token(Token = "0x20002B3")]
 public enum NormalizationForm
 {
-	[Token(Token = "0x4000B64")]
+	[Token(Token = "0x4000BAC")]
 	FormC = 1,
-	[Token(Token = "0x4000B65")]
+	[Token(Token = "0x4000BAD")]
 	FormD = 2,
-	[Token(Token = "0x4000B66")]
+	[Token(Token = "0x4000BAE")]
 	FormKC = 5,
-	[Token(Token = "0x4000B67")]
+	[Token(Token = "0x4000BAF")]
 	FormKD = 6
 }

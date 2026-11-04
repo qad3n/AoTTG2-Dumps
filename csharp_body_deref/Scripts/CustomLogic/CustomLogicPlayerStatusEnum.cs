@@ -11,136 +11,136 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x20003A8")]
+[Token(Token = "0x20004F8")]
 [CompilerGenerated]
 internal class CustomLogicPlayerStatusEnum : BuiltinClassInstance
 {
-	[Token(Token = "0x20003A9")]
+	[Token(Token = "0x20004F9")]
 	public static class Factory
 	{
-		[Token(Token = "0x600228A")]
-		[Address(RVA = "0x40874B0", Offset = "0x40874B0", VA = "0x40874B0")]
+		[Token(Token = "0x6002B8C")]
+		[Address(RVA = "0x1FEF570", Offset = "0x1FEDB70", VA = "0x181FEF570")]
 		public static CustomLogicPlayerStatusEnum CreateInstance(object[] args)
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x20003AA")]
+	[Token(Token = "0x20004FA")]
 	public static class Bindings
 	{
-		[Token(Token = "0x40010A4")]
+		[Token(Token = "0x40016DA")]
 		[FieldOffset(Offset = "0x0")]
 		public static readonly HashSet<string> MemberNames;
 
-		[Token(Token = "0x600228B")]
-		[Address(RVA = "0x40875D0", Offset = "0x40875D0", VA = "0x40875D0")]
+		[Token(Token = "0x6002B8D")]
+		[Address(RVA = "0x1FD8210", Offset = "0x1FD6810", VA = "0x181FD8210")]
 		public static ICLMemberBinding CreateMemberBinding(string name)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600228C")]
-		[Address(RVA = "0x4087760", Offset = "0x4087760", VA = "0x4087760")]
+		[Token(Token = "0x6002B8E")]
+		[Address(RVA = "0x1FDED40", Offset = "0x1FDD340", VA = "0x181FDED40")]
 		public static CLPropertyBinding<CustomLogicPlayerStatusEnum> __CreatePropertyBinding__Alive()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600228D")]
-		[Address(RVA = "0x4087800", Offset = "0x4087800", VA = "0x4087800")]
+		[Token(Token = "0x6002B8F")]
+		[Address(RVA = "0x1FE12C0", Offset = "0x1FDF8C0", VA = "0x181FE12C0")]
 		public static CLPropertyBinding<CustomLogicPlayerStatusEnum> __CreatePropertyBinding__Dead()
 		{
 			return null;
 		}
 
-		[Token(Token = "0x600228E")]
-		[Address(RVA = "0x40878A0", Offset = "0x40878A0", VA = "0x40878A0")]
+		[Token(Token = "0x6002B90")]
+		[Address(RVA = "0x1FE7760", Offset = "0x1FE5D60", VA = "0x181FE7760")]
 		public static CLPropertyBinding<CustomLogicPlayerStatusEnum> __CreatePropertyBinding__Spectating()
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065C")]
+	[Token(Token = "0x17000731")]
 	public static string Alive
 	{
-		[Token(Token = "0x6002283")]
-		[Address(RVA = "0x4087300", Offset = "0x4087300", VA = "0x4087300")]
+		[Token(Token = "0x6002B85")]
+		[Address(RVA = "0x1FEEB40", Offset = "0x1FED140", VA = "0x181FEEB40")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065D")]
+	[Token(Token = "0x17000732")]
 	public static string Dead
 	{
-		[Token(Token = "0x6002284")]
-		[Address(RVA = "0x4087370", Offset = "0x4087370", VA = "0x4087370")]
+		[Token(Token = "0x6002B86")]
+		[Address(RVA = "0x1FEEBC0", Offset = "0x1FED1C0", VA = "0x181FEEBC0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065E")]
+	[Token(Token = "0x17000733")]
 	public static string Spectating
 	{
-		[Token(Token = "0x6002285")]
-		[Address(RVA = "0x40873E0", Offset = "0x40873E0", VA = "0x40873E0")]
+		[Token(Token = "0x6002B87")]
+		[Address(RVA = "0x1FEEC10", Offset = "0x1FED210", VA = "0x181FEEC10")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700065F")]
+	[Token(Token = "0x17000734")]
 	public override string ClassName
 	{
-		[Token(Token = "0x6002286")]
-		[Address(RVA = "0x4087450", Offset = "0x4087450", VA = "0x4087450", Slot = "4")]
+		[Token(Token = "0x6002B88")]
+		[Address(RVA = "0x1FEEB90", Offset = "0x1FED190", VA = "0x181FEEB90", Slot = "6")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x17000660")]
+	[Token(Token = "0x17000735")]
 	public override bool IsAbstract
 	{
-		[Token(Token = "0x6002287")]
-		[Address(RVA = "0x4087480", Offset = "0x4087480", VA = "0x4087480", Slot = "6")]
+		[Token(Token = "0x6002B89")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "8")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000661")]
+	[Token(Token = "0x17000736")]
 	public override bool IsStatic
 	{
-		[Token(Token = "0x6002288")]
-		[Address(RVA = "0x4087490", Offset = "0x4087490", VA = "0x4087490", Slot = "7")]
+		[Token(Token = "0x6002B8A")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "9")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x17000662")]
+	[Token(Token = "0x17000737")]
 	public override bool InheritBaseMembers
 	{
-		[Token(Token = "0x6002289")]
-		[Address(RVA = "0x40874A0", Offset = "0x40874A0", VA = "0x40874A0", Slot = "8")]
+		[Token(Token = "0x6002B8B")]
+		[Address(RVA = "0x8ED110", Offset = "0x8EB710", VA = "0x1808ED110", Slot = "10")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6002282")]
-	[Address(RVA = "0x4087290", Offset = "0x4087290", VA = "0x4087290")]
+	[Token(Token = "0x6002B84")]
+	[Address(RVA = "0x1FEEAF0", Offset = "0x1FED0F0", VA = "0x181FEEAF0")]
 	public CustomLogicPlayerStatusEnum()
 	{
 	}

@@ -12,23 +12,23 @@ using UnityEngine.Scripting;
 namespace UnityEngine.Tilemaps;
 
 [Token(Token = "0x200000F")]
-[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.NativeType(Header = "Modules/Tilemap/TilemapScripting.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 public struct TileAnimationData
 {
-	[Token(Token = "0x4000036")]
+	[Token(Token = "0x4000039")]
 	[FieldOffset(Offset = "0x0")]
 	private Sprite[] m_AnimatedSprites;
 
-	[Token(Token = "0x4000037")]
+	[Token(Token = "0x400003A")]
 	[FieldOffset(Offset = "0x8")]
 	private float m_AnimationSpeed;
 
-	[Token(Token = "0x4000038")]
+	[Token(Token = "0x400003B")]
 	[FieldOffset(Offset = "0xC")]
 	private float m_AnimationStartTime;
 
-	[Token(Token = "0x4000039")]
+	[Token(Token = "0x400003C")]
 	[FieldOffset(Offset = "0x10")]
 	private TileAnimationFlags m_Flags;
 }

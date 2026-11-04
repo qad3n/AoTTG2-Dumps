@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x200019B")]
+[Token(Token = "0x200019E")]
 public interface IAsyncOnApplicationPauseHandler
 {
-	[Token(Token = "0x6000A85")]
+	[Token(Token = "0x6000AA9")]
 	UniTask<bool> OnApplicationPauseAsync();
 }

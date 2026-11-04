@@ -13,22 +13,22 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x200005C")]
 public class EventHookComparer : IEqualityComparer<EventHook>
 {
-	[Token(Token = "0x6000291")]
-	[Address(RVA = "0x4CA85E0", Offset = "0x4CA85E0", VA = "0x4CA85E0", Slot = "4")]
+	[Token(Token = "0x6000296")]
+	[Address(RVA = "0x2DA5F10", Offset = "0x2DA4510", VA = "0x182DA5F10", Slot = "4")]
 	public bool Equals(EventHook x, EventHook y)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000292")]
-	[Address(RVA = "0x4CA8640", Offset = "0x4CA8640", VA = "0x4CA8640", Slot = "5")]
+	[Token(Token = "0x6000297")]
+	[Address(RVA = "0x2DA5F70", Offset = "0x2DA4570", VA = "0x182DA5F70", Slot = "5")]
 	public int GetHashCode(EventHook obj)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x6000293")]
-	[Address(RVA = "0x4CA7F40", Offset = "0x4CA7F40", VA = "0x4CA7F40")]
+	[Token(Token = "0x6000298")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public EventHookComparer()
 	{
 	}

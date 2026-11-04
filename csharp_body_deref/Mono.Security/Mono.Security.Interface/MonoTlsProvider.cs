@@ -11,60 +11,60 @@ using Il2CppDummyDll;
 
 namespace Mono.Security.Interface;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x2000042")]
 public abstract class MonoTlsProvider
 {
-	[Token(Token = "0x17000062")]
+	[Token(Token = "0x17000065")]
 	public abstract Guid ID
 	{
-		[Token(Token = "0x600012F")]
-		get;
-	}
-
-	[Token(Token = "0x17000063")]
-	public abstract string Name
-	{
-		[Token(Token = "0x6000130")]
-		get;
-	}
-
-	[Token(Token = "0x17000064")]
-	public abstract bool SupportsSslStream
-	{
-		[Token(Token = "0x6000131")]
-		get;
-	}
-
-	[Token(Token = "0x17000065")]
-	public abstract bool SupportsConnectionInfo
-	{
-		[Token(Token = "0x6000132")]
+		[Token(Token = "0x6000153")]
 		get;
 	}
 
 	[Token(Token = "0x17000066")]
-	public abstract bool SupportsMonoExtensions
+	public abstract string Name
 	{
-		[Token(Token = "0x6000133")]
+		[Token(Token = "0x6000154")]
 		get;
 	}
 
 	[Token(Token = "0x17000067")]
-	public abstract SslProtocols SupportedProtocols
+	public abstract bool SupportsSslStream
 	{
-		[Token(Token = "0x6000134")]
+		[Token(Token = "0x6000155")]
 		get;
 	}
 
 	[Token(Token = "0x17000068")]
-	internal abstract bool SupportsCleanShutdown
+	public abstract bool SupportsConnectionInfo
 	{
-		[Token(Token = "0x6000135")]
+		[Token(Token = "0x6000156")]
 		get;
 	}
 
-	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x3ABC3E0", Offset = "0x3ABC3E0", VA = "0x3ABC3E0")]
+	[Token(Token = "0x17000069")]
+	public abstract bool SupportsMonoExtensions
+	{
+		[Token(Token = "0x6000157")]
+		get;
+	}
+
+	[Token(Token = "0x1700006A")]
+	public abstract SslProtocols SupportedProtocols
+	{
+		[Token(Token = "0x6000158")]
+		get;
+	}
+
+	[Token(Token = "0x1700006B")]
+	internal abstract bool SupportsCleanShutdown
+	{
+		[Token(Token = "0x6000159")]
+		get;
+	}
+
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	internal MonoTlsProvider()
 	{
 	}

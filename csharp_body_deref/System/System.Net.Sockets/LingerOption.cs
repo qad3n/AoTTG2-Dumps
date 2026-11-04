@@ -9,39 +9,39 @@ using Il2CppDummyDll;
 
 namespace System.Net.Sockets;
 
-[Token(Token = "0x20001F9")]
+[Token(Token = "0x2000386")]
 public class LingerOption
 {
-	[Token(Token = "0x4000A9A")]
+	[Token(Token = "0x4000EC9")]
 	[FieldOffset(Offset = "0x10")]
 	private bool enabled;
 
-	[Token(Token = "0x4000A9B")]
+	[Token(Token = "0x4000ECA")]
 	[FieldOffset(Offset = "0x14")]
 	private int lingerTime;
 
-	[Token(Token = "0x170002EA")]
+	[Token(Token = "0x1700053E")]
 	public bool Enabled
 	{
-		[Token(Token = "0x6000CCB")]
-		[Address(RVA = "0x49B77F0", Offset = "0x49B77F0", VA = "0x49B77F0")]
+		[Token(Token = "0x6001887")]
+		[Address(RVA = "0x11124D0", Offset = "0x1110AD0", VA = "0x1811124D0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x170002EB")]
+	[Token(Token = "0x1700053F")]
 	public int LingerTime
 	{
-		[Token(Token = "0x6000CCC")]
-		[Address(RVA = "0x49B7800", Offset = "0x49B7800", VA = "0x49B7800")]
+		[Token(Token = "0x6001888")]
+		[Address(RVA = "0xD23EE0", Offset = "0xD224E0", VA = "0x180D23EE0")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x6000CCA")]
-	[Address(RVA = "0x49B77D0", Offset = "0x49B77D0", VA = "0x49B77D0")]
+	[Token(Token = "0x6001886")]
+	[Address(RVA = "0x2812650", Offset = "0x2810C50", VA = "0x182812650")]
 	public LingerOption(bool enable, int seconds)
 	{
 	}

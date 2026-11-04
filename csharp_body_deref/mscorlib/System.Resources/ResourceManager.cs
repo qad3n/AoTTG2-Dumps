@@ -18,65 +18,32 @@ using Il2CppDummyDll;
 namespace System.Resources;
 
 [Serializable]
-[Token(Token = "0x20004B9")]
+[Token(Token = "0x20004E9")]
 [ComVisible(true)]
 public class ResourceManager
 {
-	[Token(Token = "0x20004BA")]
+	[Token(Token = "0x20004EA")]
 	internal class CultureNameResourceSetPair
 	{
-		[Token(Token = "0x6002387")]
-		[Address(RVA = "0x3BCB0F0", Offset = "0x3BCB0F0", VA = "0x3BCB0F0")]
+		[Token(Token = "0x6002409")]
+		[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 		public CultureNameResourceSetPair()
 		{
 		}
 	}
 
-	[Token(Token = "0x20004BB")]
+	[Token(Token = "0x20004EB")]
 	internal class ResourceManagerMediator
 	{
 		[Token(Token = "0x400138C")]
 		[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 		private ResourceManager _rm;
 
-		[Token(Token = "0x1700048E")]
+		[Token(Token = "0x17000491")]
 		internal string ModuleDir
 		{
-			[Token(Token = "0x6002389")]
-			[Address(RVA = "0x3BCB180", Offset = "0x3BCB180", VA = "0x3BCB180")]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x1700048F")]
-		internal Type LocationInfo
-		{
-			[Token(Token = "0x600238A")]
-			[Address(RVA = "0x3BCB1A0", Offset = "0x3BCB1A0", VA = "0x3BCB1A0")]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x17000490")]
-		internal Type UserResourceSet
-		{
-			[Token(Token = "0x600238B")]
-			[Address(RVA = "0x3BCB1C0", Offset = "0x3BCB1C0", VA = "0x3BCB1C0")]
-			get
-			{
-				return null;
-			}
-		}
-
-		[Token(Token = "0x17000491")]
-		internal string BaseNameField
-		{
-			[Token(Token = "0x600238C")]
-			[Address(RVA = "0x3BCB1E0", Offset = "0x3BCB1E0", VA = "0x3BCB1E0")]
+			[Token(Token = "0x600240B")]
+			[Address(RVA = "0x1A4D250", Offset = "0x1A4B850", VA = "0x181A4D250")]
 			get
 			{
 				return null;
@@ -84,10 +51,10 @@ public class ResourceManager
 		}
 
 		[Token(Token = "0x17000492")]
-		internal CultureInfo NeutralResourcesCulture
+		internal Type LocationInfo
 		{
-			[Token(Token = "0x600238D")]
-			[Address(RVA = "0x3BCB200", Offset = "0x3BCB200", VA = "0x3BCB200")]
+			[Token(Token = "0x600240C")]
+			[Address(RVA = "0x1A4D190", Offset = "0x1A4B790", VA = "0x181A4D190")]
 			get
 			{
 				return null;
@@ -95,96 +62,129 @@ public class ResourceManager
 		}
 
 		[Token(Token = "0x17000493")]
-		internal bool LookedForSatelliteContractVersion
+		internal Type UserResourceSet
 		{
-			[Token(Token = "0x600238F")]
-			[Address(RVA = "0x3BCB250", Offset = "0x3BCB250", VA = "0x3BCB250")]
-			get
-			{
-				return default(bool);
-			}
-			[Token(Token = "0x6002390")]
-			[Address(RVA = "0x3BCB270", Offset = "0x3BCB270", VA = "0x3BCB270")]
-			set
-			{
-			}
-		}
-
-		[Token(Token = "0x17000494")]
-		internal Version SatelliteContractVersion
-		{
-			[Token(Token = "0x6002391")]
-			[Address(RVA = "0x3BCB290", Offset = "0x3BCB290", VA = "0x3BCB290")]
+			[Token(Token = "0x600240D")]
+			[Address(RVA = "0x1A4D2B0", Offset = "0x1A4B8B0", VA = "0x181A4D2B0")]
 			get
 			{
 				return null;
 			}
-			[Token(Token = "0x6002392")]
-			[Address(RVA = "0x3BCB2B0", Offset = "0x3BCB2B0", VA = "0x3BCB2B0")]
+		}
+
+		[Token(Token = "0x17000494")]
+		internal string BaseNameField
+		{
+			[Token(Token = "0x600240E")]
+			[Address(RVA = "0x11282C0", Offset = "0x11268C0", VA = "0x1811282C0")]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x17000495")]
+		internal CultureInfo NeutralResourcesCulture
+		{
+			[Token(Token = "0x600240F")]
+			[Address(RVA = "0x1A4D270", Offset = "0x1A4B870", VA = "0x181A4D270")]
+			get
+			{
+				return null;
+			}
+		}
+
+		[Token(Token = "0x17000496")]
+		internal bool LookedForSatelliteContractVersion
+		{
+			[Token(Token = "0x6002411")]
+			[Address(RVA = "0x1A4D1B0", Offset = "0x1A4B7B0", VA = "0x181A4D1B0")]
+			get
+			{
+				return default(bool);
+			}
+			[Token(Token = "0x6002412")]
+			[Address(RVA = "0x1A4D2D0", Offset = "0x1A4B8D0", VA = "0x181A4D2D0")]
 			set
 			{
 			}
 		}
 
-		[Token(Token = "0x17000495")]
+		[Token(Token = "0x17000497")]
+		internal Version SatelliteContractVersion
+		{
+			[Token(Token = "0x6002413")]
+			[Address(RVA = "0x1A4D290", Offset = "0x1A4B890", VA = "0x181A4D290")]
+			get
+			{
+				return null;
+			}
+			[Token(Token = "0x6002414")]
+			[Address(RVA = "0x1A4D2F0", Offset = "0x1A4B8F0", VA = "0x181A4D2F0")]
+			set
+			{
+			}
+		}
+
+		[Token(Token = "0x17000498")]
 		internal UltimateResourceFallbackLocation FallbackLoc
 		{
-			[Token(Token = "0x6002394")]
-			[Address(RVA = "0x3BCB340", Offset = "0x3BCB340", VA = "0x3BCB340")]
+			[Token(Token = "0x6002416")]
+			[Address(RVA = "0x1A4D170", Offset = "0x1A4B770", VA = "0x181A4D170")]
 			get
 			{
 				return default(UltimateResourceFallbackLocation);
 			}
 		}
 
-		[Token(Token = "0x17000496")]
+		[Token(Token = "0x17000499")]
 		internal System.Reflection.RuntimeAssembly CallingAssembly
 		{
-			[Token(Token = "0x6002395")]
-			[Address(RVA = "0x3BCB360", Offset = "0x3BCB360", VA = "0x3BCB360")]
+			[Token(Token = "0x6002417")]
+			[Address(RVA = "0x1A4D150", Offset = "0x1A4B750", VA = "0x181A4D150")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000497")]
+		[Token(Token = "0x1700049A")]
 		internal System.Reflection.RuntimeAssembly MainAssembly
 		{
-			[Token(Token = "0x6002396")]
-			[Address(RVA = "0x3BCB380", Offset = "0x3BCB380", VA = "0x3BCB380")]
+			[Token(Token = "0x6002418")]
+			[Address(RVA = "0x1A4D1D0", Offset = "0x1A4B7D0", VA = "0x181A4D1D0")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x17000498")]
+		[Token(Token = "0x1700049B")]
 		internal string BaseName
 		{
-			[Token(Token = "0x6002397")]
-			[Address(RVA = "0x3BCB3F0", Offset = "0x3BCB3F0", VA = "0x3BCB3F0")]
+			[Token(Token = "0x6002419")]
+			[Address(RVA = "0x1A4D120", Offset = "0x1A4B720", VA = "0x181A4D120")]
 			get
 			{
 				return null;
 			}
 		}
 
-		[Token(Token = "0x6002388")]
-		[Address(RVA = "0x3BCB100", Offset = "0x3BCB100", VA = "0x3BCB100")]
+		[Token(Token = "0x600240A")]
+		[Address(RVA = "0x1A4D0A0", Offset = "0x1A4B6A0", VA = "0x181A4D0A0")]
 		internal ResourceManagerMediator(ResourceManager rm)
 		{
 		}
 
-		[Token(Token = "0x600238E")]
-		[Address(RVA = "0x3BCB220", Offset = "0x3BCB220", VA = "0x3BCB220")]
+		[Token(Token = "0x6002410")]
+		[Address(RVA = "0x1A4D020", Offset = "0x1A4B620", VA = "0x181A4D020")]
 		internal string GetResourceFileName(CultureInfo culture)
 		{
 			return null;
 		}
 
-		[Token(Token = "0x6002393")]
-		[Address(RVA = "0x3BCB2D0", Offset = "0x3BCB2D0", VA = "0x3BCB2D0")]
+		[Token(Token = "0x6002415")]
+		[Address(RVA = "0x1A4D050", Offset = "0x1A4B650", VA = "0x181A4D050")]
 		internal Version ObtainSatelliteContractVersion(Assembly a)
 		{
 			return null;
@@ -301,33 +301,33 @@ public class ResourceManager
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	internal static readonly int DEBUG;
 
-	[Token(Token = "0x1700048B")]
+	[Token(Token = "0x1700048E")]
 	public virtual string BaseName
 	{
-		[Token(Token = "0x600237A")]
-		[Address(RVA = "0x3BC94F0", Offset = "0x3BC94F0", VA = "0x3BC94F0", Slot = "4")]
+		[Token(Token = "0x60023FC")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x1700048C")]
+	[Token(Token = "0x1700048F")]
 	public virtual bool IgnoreCase
 	{
-		[Token(Token = "0x600237B")]
-		[Address(RVA = "0x3BC9500", Offset = "0x3BC9500", VA = "0x3BC9500", Slot = "5")]
+		[Token(Token = "0x60023FD")]
+		[Address(RVA = "0x1937790", Offset = "0x1935D90", VA = "0x181937790", Slot = "5")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x1700048D")]
+	[Token(Token = "0x17000490")]
 	protected UltimateResourceFallbackLocation FallbackLocation
 	{
-		[Token(Token = "0x600237C")]
-		[Address(RVA = "0x3BC9510", Offset = "0x3BC9510", VA = "0x3BC9510")]
+		[Token(Token = "0x60023FE")]
+		[Address(RVA = "0x1A4F710", Offset = "0x1A4DD10", VA = "0x181A4F710")]
 		get
 		{
 			return default(UltimateResourceFallbackLocation);
@@ -335,111 +335,111 @@ public class ResourceManager
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002373")]
-	[Address(RVA = "0x3BC8B50", Offset = "0x3BC8B50", VA = "0x3BC8B50")]
+	[Token(Token = "0x60023F5")]
+	[Address(RVA = "0x1A4E500", Offset = "0x1A4CB00", VA = "0x181A4E500")]
 	private void Init()
 	{
 	}
 
-	[Token(Token = "0x6002374")]
-	[Address(RVA = "0x3BC8C60", Offset = "0x3BC8C60", VA = "0x3BC8C60")]
+	[Token(Token = "0x60023F6")]
+	[Address(RVA = "0x1A4F150", Offset = "0x1A4D750", VA = "0x181A4F150")]
 	protected ResourceManager()
 	{
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x6002375")]
-	[Address(RVA = "0x3BC8D40", Offset = "0x3BC8D40", VA = "0x3BC8D40")]
+	[Token(Token = "0x60023F7")]
+	[Address(RVA = "0x1A4F250", Offset = "0x1A4D850", VA = "0x181A4F250")]
 	public ResourceManager(Type resourceSource)
 	{
 	}
 
-	[Token(Token = "0x6002376")]
-	[Address(RVA = "0x3BC9240", Offset = "0x3BC9240", VA = "0x3BC9240")]
+	[Token(Token = "0x60023F8")]
+	[Address(RVA = "0x1A4EE80", Offset = "0x1A4D480", VA = "0x181A4EE80")]
 	[OnDeserializing]
 	private void OnDeserializing(StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6002377")]
-	[Address(RVA = "0x3BC9290", Offset = "0x3BC9290", VA = "0x3BC9290")]
+	[Token(Token = "0x60023F9")]
+	[Address(RVA = "0x1A4EC70", Offset = "0x1A4D270", VA = "0x181A4EC70")]
 	[OnDeserialized]
 	private void OnDeserialized(StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6002378")]
-	[Address(RVA = "0x3BC9480", Offset = "0x3BC9480", VA = "0x3BC9480")]
+	[Token(Token = "0x60023FA")]
+	[Address(RVA = "0x1A4EED0", Offset = "0x1A4D4D0", VA = "0x181A4EED0")]
 	[OnSerializing]
 	private void OnSerializing(StreamingContext ctx)
 	{
 	}
 
-	[Token(Token = "0x6002379")]
-	[Address(RVA = "0x3BC90B0", Offset = "0x3BC90B0", VA = "0x3BC90B0")]
+	[Token(Token = "0x60023FB")]
+	[Address(RVA = "0x1A4D4A0", Offset = "0x1A4BAA0", VA = "0x181A4D4A0")]
 	private void CommonAssemblyInit()
 	{
 	}
 
-	[Token(Token = "0x600237D")]
-	[Address(RVA = "0x3BC9520", Offset = "0x3BC9520", VA = "0x3BC9520", Slot = "6")]
+	[Token(Token = "0x60023FF")]
+	[Address(RVA = "0x1A4D8A0", Offset = "0x1A4BEA0", VA = "0x181A4D8A0", Slot = "6")]
 	protected virtual string GetResourceFileName(CultureInfo culture)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600237E")]
-	[Address(RVA = "0x3BC9650", Offset = "0x3BC9650", VA = "0x3BC9650", Slot = "7")]
+	[Token(Token = "0x6002400")]
+	[Address(RVA = "0x1A4D9E0", Offset = "0x1A4BFE0", VA = "0x181A4D9E0", Slot = "7")]
 	public virtual ResourceSet GetResourceSet(CultureInfo culture, bool createIfNotExists, bool tryParents)
 	{
 		return null;
 	}
 
 	[MethodImpl((MethodImplOptions)8)]
-	[Token(Token = "0x600237F")]
-	[Address(RVA = "0x3BC9BA0", Offset = "0x3BC9BA0", VA = "0x3BC9BA0", Slot = "8")]
+	[Token(Token = "0x6002401")]
+	[Address(RVA = "0x1A4E5C0", Offset = "0x1A4CBC0", VA = "0x181A4E5C0", Slot = "8")]
 	protected virtual ResourceSet InternalGetResourceSet(CultureInfo culture, bool createIfNotExists, bool tryParents)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002380")]
-	[Address(RVA = "0x3BC9BC0", Offset = "0x3BC9BC0", VA = "0x3BC9BC0")]
+	[Token(Token = "0x6002402")]
+	[Address(RVA = "0x1A4E5F0", Offset = "0x1A4CBF0", VA = "0x181A4E5F0")]
 	private ResourceSet InternalGetResourceSet(CultureInfo requestedCulture, bool createIfNotExists, bool tryParents, ref System.Threading.StackCrawlMark stackMark)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002381")]
-	[Address(RVA = "0x3BC99E0", Offset = "0x3BC99E0", VA = "0x3BC99E0")]
+	[Token(Token = "0x6002403")]
+	[Address(RVA = "0x1A4D320", Offset = "0x1A4B920", VA = "0x181A4D320")]
 	private static void AddResourceSet(Dictionary<string, ResourceSet> localResourceSets, string cultureName, ref ResourceSet rs)
 	{
 	}
 
-	[Token(Token = "0x6002382")]
-	[Address(RVA = "0x3BCA5C0", Offset = "0x3BCA5C0", VA = "0x3BCA5C0")]
+	[Token(Token = "0x6002404")]
+	[Address(RVA = "0x1A4DEF0", Offset = "0x1A4C4F0", VA = "0x181A4DEF0")]
 	protected static Version GetSatelliteContractVersion(Assembly a)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002383")]
-	[Address(RVA = "0x3BCAE10", Offset = "0x3BCAE10", VA = "0x3BCAE10")]
+	[Token(Token = "0x6002405")]
+	[Address(RVA = "0x1A4D880", Offset = "0x1A4BE80", VA = "0x181A4D880")]
 	protected static CultureInfo GetNeutralResourcesLanguage(Assembly a)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002384")]
-	[Address(RVA = "0x3BC8930", Offset = "0x3BC8930", VA = "0x3BC8930")]
+	[Token(Token = "0x6002406")]
+	[Address(RVA = "0x1A4D630", Offset = "0x1A4BC30", VA = "0x181A4D630")]
 	internal static bool CompareNames(string asmTypeName1, string typeName2, AssemblyName asmName2)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002385")]
-	[Address(RVA = "0x3BC90A0", Offset = "0x3BC90A0", VA = "0x3BC90A0")]
+	[Token(Token = "0x6002407")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private void SetAppXConfiguration()
 	{
 	}

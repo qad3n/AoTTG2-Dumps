@@ -9,40 +9,40 @@ using Il2CppDummyDll;
 
 namespace System.IO.Enumeration;
 
-[Token(Token = "0x2000593")]
+[Token(Token = "0x20006BA")]
 public static class FileSystemName
 {
-	[Token(Token = "0x400175E")]
+	[Token(Token = "0x4001B32")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly char[] s_wildcardChars;
 
-	[Token(Token = "0x400175F")]
+	[Token(Token = "0x4001B33")]
 	[FieldOffset(Offset = "0x8")]
 	private static readonly char[] s_simpleWildcardChars;
 
-	[Token(Token = "0x6002B4C")]
-	[Address(RVA = "0x3C38AD0", Offset = "0x3C38AD0", VA = "0x3C38AD0")]
+	[Token(Token = "0x6003415")]
+	[Address(RVA = "0x1B05EF0", Offset = "0x1B044F0", VA = "0x181B05EF0")]
 	public static string TranslateWin32Expression(string expression)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002B4D")]
-	[Address(RVA = "0x3C39240", Offset = "0x3C39240", VA = "0x3C39240")]
+	[Token(Token = "0x6003416")]
+	[Address(RVA = "0x1B05E60", Offset = "0x1B04460", VA = "0x181B05E60")]
 	public static bool MatchesWin32Expression(ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = true)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B4E")]
-	[Address(RVA = "0x3C391C0", Offset = "0x3C391C0", VA = "0x3C391C0")]
+	[Token(Token = "0x6003417")]
+	[Address(RVA = "0x1B05DD0", Offset = "0x1B043D0", VA = "0x181B05DD0")]
 	public static bool MatchesSimpleExpression(ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase = true)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6002B4F")]
-	[Address(RVA = "0x3C3A670", Offset = "0x3C3A670", VA = "0x3C3A670")]
+	[Token(Token = "0x6003418")]
+	[Address(RVA = "0x1B05570", Offset = "0x1B03B70", VA = "0x181B05570")]
 	private static bool MatchPattern(ReadOnlySpan<char> expression, ReadOnlySpan<char> name, bool ignoreCase, bool useExtendedWildcards)
 	{
 		return default(bool);

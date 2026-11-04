@@ -11,60 +11,60 @@ using Il2CppDummyDll;
 namespace UnityEngine.Rendering;
 
 [Serializable]
-[Token(Token = "0x2000141")]
+[Token(Token = "0x2000129")]
 internal struct ProbeVolumeBakingProcessSettings
 {
-	[Token(Token = "0x2000142")]
+	[Token(Token = "0x200012A")]
 	internal enum SettingsVersion
 	{
-		[Token(Token = "0x400058A")]
+		[Token(Token = "0x400057A")]
 		Initial = 0,
-		[Token(Token = "0x400058B")]
+		[Token(Token = "0x400057B")]
 		ThreadedVirtualOffset = 1,
-		[Token(Token = "0x400058C")]
+		[Token(Token = "0x400057C")]
 		Max = 2,
-		[Token(Token = "0x400058D")]
-		Current = 1
+		[Token(Token = "0x400057D")]
+		Current = ThreadedVirtualOffset
 	}
 
-	[Token(Token = "0x4000586")]
+	[Token(Token = "0x4000576")]
 	[FieldOffset(Offset = "0x0")]
 	[SerializeField]
 	private SettingsVersion m_Version;
 
-	[Token(Token = "0x4000587")]
+	[Token(Token = "0x4000577")]
 	[FieldOffset(Offset = "0x4")]
 	public ProbeDilationSettings dilationSettings;
 
-	[Token(Token = "0x4000588")]
+	[Token(Token = "0x4000578")]
 	[FieldOffset(Offset = "0x18")]
 	public VirtualOffsetSettings virtualOffsetSettings;
 
-	[Token(Token = "0x17000120")]
+	[Token(Token = "0x1700012A")]
 	internal static ProbeVolumeBakingProcessSettings Default
 	{
-		[Token(Token = "0x6000A28")]
-		[Address(RVA = "0x4BCDE80", Offset = "0x4BCDE80", VA = "0x4BCDE80")]
+		[Token(Token = "0x6000A53")]
+		[Address(RVA = "0x2B13A80", Offset = "0x2B12080", VA = "0x182B13A80")]
 		get
 		{
 			return default(ProbeVolumeBakingProcessSettings);
 		}
 	}
 
-	[Token(Token = "0x6000A29")]
-	[Address(RVA = "0x4BCDF40", Offset = "0x4BCDF40", VA = "0x4BCDF40")]
+	[Token(Token = "0x6000A54")]
+	[Address(RVA = "0x2B13A50", Offset = "0x2B12050", VA = "0x182B13A50")]
 	internal ProbeVolumeBakingProcessSettings(ProbeDilationSettings dilationSettings, VirtualOffsetSettings virtualOffsetSettings)
 	{
 	}
 
-	[Token(Token = "0x6000A2A")]
-	[Address(RVA = "0x4BCDEF0", Offset = "0x4BCDEF0", VA = "0x4BCDEF0")]
+	[Token(Token = "0x6000A55")]
+	[Address(RVA = "0x2B139A0", Offset = "0x2B11FA0", VA = "0x182B139A0")]
 	internal void SetDefaults()
 	{
 	}
 
-	[Token(Token = "0x6000A2B")]
-	[Address(RVA = "0x4BCDF70", Offset = "0x4BCDF70", VA = "0x4BCDF70")]
+	[Token(Token = "0x6000A56")]
+	[Address(RVA = "0x2B13A10", Offset = "0x2B12010", VA = "0x182B13A10")]
 	internal void Upgrade()
 	{
 	}

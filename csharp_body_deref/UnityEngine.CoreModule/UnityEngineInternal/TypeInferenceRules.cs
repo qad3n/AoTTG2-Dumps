@@ -9,7 +9,7 @@ using Il2CppDummyDll;
 
 namespace UnityEngineInternal;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000007")]
 public enum TypeInferenceRules
 {
 	[Token(Token = "0x4000005")]

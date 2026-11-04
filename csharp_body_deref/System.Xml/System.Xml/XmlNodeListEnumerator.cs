@@ -29,7 +29,7 @@ internal class XmlNodeListEnumerator : IEnumerator
 	public object Current
 	{
 		[Token(Token = "0x60007BC")]
-		[Address(RVA = "0x47C8150", Offset = "0x47C8150", VA = "0x47C8150", Slot = "5")]
+		[Address(RVA = "0x2714C80", Offset = "0x2713280", VA = "0x182714C80", Slot = "5")]
 		get
 		{
 			return null;
@@ -37,19 +37,19 @@ internal class XmlNodeListEnumerator : IEnumerator
 	}
 
 	[Token(Token = "0x60007B9")]
-	[Address(RVA = "0x47C8030", Offset = "0x47C8030", VA = "0x47C8030")]
+	[Address(RVA = "0x2714C40", Offset = "0x2713240", VA = "0x182714C40")]
 	public XmlNodeListEnumerator(XPathNodeList list)
 	{
 	}
 
 	[Token(Token = "0x60007BA")]
-	[Address(RVA = "0x47C80E0", Offset = "0x47C80E0", VA = "0x47C80E0", Slot = "6")]
+	[Address(RVA = "0x1B5AFF0", Offset = "0x1B595F0", VA = "0x181B5AFF0", Slot = "6")]
 	public void Reset()
 	{
 	}
 
 	[Token(Token = "0x60007BB")]
-	[Address(RVA = "0x47C80F0", Offset = "0x47C80F0", VA = "0x47C80F0", Slot = "4")]
+	[Address(RVA = "0x2714BD0", Offset = "0x27131D0", VA = "0x182714BD0", Slot = "4")]
 	public bool MoveNext()
 	{
 		return default(bool);

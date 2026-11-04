@@ -17,8 +17,8 @@ public sealed class MemberMemberBinding : MemberBinding
 	[Token(Token = "0x170000C9")]
 	public ReadOnlyCollection<MemberBinding> Bindings
 	{
-		[Token(Token = "0x6000483")]
-		[Address(RVA = "0x44BD110", Offset = "0x44BD110", VA = "0x44BD110")]
+		[Token(Token = "0x6000482")]
+		[Address(RVA = "0x5852B0", Offset = "0x5838B0", VA = "0x1805852B0")]
 		[CompilerGenerated]
 		get
 		{

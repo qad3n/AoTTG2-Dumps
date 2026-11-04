@@ -10,18 +10,18 @@ using UnityEngine;
 
 namespace Photon.Voice.Unity.UtilityScripts;
 
-[Token(Token = "0x2000028")]
+[Token(Token = "0x2000026")]
 [RequireComponent(typeof(Recorder))]
 public class TestTone : MonoBehaviour
 {
-	[Token(Token = "0x6000154")]
-	[Address(RVA = "0x3F55610", Offset = "0x3F55610", VA = "0x3F55610")]
+	[Token(Token = "0x6000152")]
+	[Address(RVA = "0x1D94660", Offset = "0x1D92C60", VA = "0x181D94660")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000155")]
-	[Address(RVA = "0x3F55760", Offset = "0x3F55760", VA = "0x3F55760")]
+	[Token(Token = "0x6000153")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public TestTone()
 	{
 	}

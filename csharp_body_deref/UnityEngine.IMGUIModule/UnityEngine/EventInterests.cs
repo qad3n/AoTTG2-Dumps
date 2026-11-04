@@ -7,53 +7,55 @@
 // ===============================================================
 using System.Runtime.CompilerServices;
 using Il2CppDummyDll;
+using UnityEngine.Bindings;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000007")]
+[UnityEngine.Bindings.VisibleToOtherModules(new string[] { "UnityEngine.UIElementsModule" })]
 internal struct EventInterests
 {
-	[Token(Token = "0x1700001B")]
+	[Token(Token = "0x1700001E")]
 	public bool wantsMouseMove
 	{
-		[Token(Token = "0x600003C")]
-		[Address(RVA = "0x4E410E0", Offset = "0x4E410E0", VA = "0x4E410E0")]
+		[Token(Token = "0x6000052")]
+		[Address(RVA = "0xAE2930", Offset = "0xAE0F30", VA = "0x180AE2930")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600003D")]
-		[Address(RVA = "0x4E410F0", Offset = "0x4E410F0", VA = "0x4E410F0")]
+		[Token(Token = "0x6000053")]
+		[Address(RVA = "0xFA0680", Offset = "0xF9EC80", VA = "0x180FA0680")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700001C")]
+	[Token(Token = "0x1700001F")]
 	public bool wantsMouseEnterLeaveWindow
 	{
-		[Token(Token = "0x600003E")]
-		[Address(RVA = "0x4E41100", Offset = "0x4E41100", VA = "0x4E41100")]
+		[Token(Token = "0x6000054")]
+		[Address(RVA = "0xADC3E0", Offset = "0xADA9E0", VA = "0x180ADC3E0")]
 		[CompilerGenerated]
 		readonly get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x600003F")]
-		[Address(RVA = "0x4E41110", Offset = "0x4E41110", VA = "0x4E41110")]
+		[Token(Token = "0x6000055")]
+		[Address(RVA = "0x1D69F20", Offset = "0x1D68520", VA = "0x181D69F20")]
 		[CompilerGenerated]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700001D")]
+	[Token(Token = "0x17000020")]
 	public readonly bool wantsLessLayoutEvents
 	{
-		[Token(Token = "0x6000040")]
-		[Address(RVA = "0x4E41120", Offset = "0x4E41120", VA = "0x4E41120")]
+		[Token(Token = "0x6000056")]
+		[Address(RVA = "0x2F83560", Offset = "0x2F81B60", VA = "0x182F83560")]
 		[CompilerGenerated]
 		get
 		{
@@ -61,15 +63,15 @@ internal struct EventInterests
 		}
 	}
 
-	[Token(Token = "0x6000041")]
-	[Address(RVA = "0x4E41130", Offset = "0x4E41130", VA = "0x4E41130")]
+	[Token(Token = "0x6000057")]
+	[Address(RVA = "0x2F83440", Offset = "0x2F81A40", VA = "0x182F83440")]
 	public bool WantsEvent(EventType type)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000042")]
-	[Address(RVA = "0x4E41150", Offset = "0x4E41150", VA = "0x4E41150")]
+	[Token(Token = "0x6000058")]
+	[Address(RVA = "0x2F83460", Offset = "0x2F81A60", VA = "0x182F83460")]
 	public bool WantsLayoutPass(EventType type)
 	{
 		return default(bool);

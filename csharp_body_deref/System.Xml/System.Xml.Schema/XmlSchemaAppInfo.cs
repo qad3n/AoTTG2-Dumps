@@ -26,7 +26,7 @@ public class XmlSchemaAppInfo : XmlSchemaObject
 	public string Source
 	{
 		[Token(Token = "0x6001541")]
-		[Address(RVA = "0x471EBC0", Offset = "0x471EBC0", VA = "0x471EBC0")]
+		[Address(RVA = "0x18BE8A0", Offset = "0x18BCEA0", VA = "0x1818BE8A0")]
 		set
 		{
 		}
@@ -38,20 +38,20 @@ public class XmlSchemaAppInfo : XmlSchemaObject
 	public XmlNode[] Markup
 	{
 		[Token(Token = "0x6001542")]
-		[Address(RVA = "0x471EBD0", Offset = "0x471EBD0", VA = "0x471EBD0")]
+		[Address(RVA = "0x5853C0", Offset = "0x5839C0", VA = "0x1805853C0")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x6001543")]
-		[Address(RVA = "0x471EBE0", Offset = "0x471EBE0", VA = "0x471EBE0")]
+		[Address(RVA = "0xE8F700", Offset = "0xE8DD00", VA = "0x180E8F700")]
 		set
 		{
 		}
 	}
 
 	[Token(Token = "0x6001544")]
-	[Address(RVA = "0x471EBF0", Offset = "0x471EBF0", VA = "0x471EBF0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public XmlSchemaAppInfo()
 	{
 	}

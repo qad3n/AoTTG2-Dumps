@@ -11,58 +11,58 @@ using UnityEngine;
 
 namespace Characters;
 
-[Token(Token = "0x200055D")]
+[Token(Token = "0x20006CD")]
 internal class TitanProjectileDetection : MonoBehaviour
 {
-	[Token(Token = "0x4001A58")]
+	[Token(Token = "0x4002204")]
 	[FieldOffset(Offset = "0x20")]
 	public HashSet<GameObject> _entities;
 
-	[Token(Token = "0x4001A59")]
+	[Token(Token = "0x4002205")]
 	[FieldOffset(Offset = "0x28")]
 	public HashSet<Hook> _hooks;
 
-	[Token(Token = "0x4001A5A")]
+	[Token(Token = "0x4002206")]
 	[FieldOffset(Offset = "0x30")]
 	public BaseTitan Owner;
 
-	[Token(Token = "0x4001A5B")]
+	[Token(Token = "0x4002207")]
 	[FieldOffset(Offset = "0x38")]
 	public bool Detect;
 
-	[Token(Token = "0x60037E7")]
-	[Address(RVA = "0x4220CA0", Offset = "0x4220CA0", VA = "0x4220CA0")]
+	[Token(Token = "0x6004304")]
+	[Address(RVA = "0x21CD050", Offset = "0x21CB650", VA = "0x1821CD050")]
 	public static TitanProjectileDetection Create(BaseTitan owner)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60037E8")]
-	[Address(RVA = "0x42212D0", Offset = "0x42212D0", VA = "0x42212D0")]
+	[Token(Token = "0x6004305")]
+	[Address(RVA = "0x21CD6C0", Offset = "0x21CBCC0", VA = "0x1821CD6C0")]
 	public void RegisterHook(Hook hook)
 	{
 	}
 
-	[Token(Token = "0x60037E9")]
-	[Address(RVA = "0x4221330", Offset = "0x4221330", VA = "0x4221330")]
+	[Token(Token = "0x6004306")]
+	[Address(RVA = "0x21CD4C0", Offset = "0x21CBAC0", VA = "0x1821CD4C0")]
 	protected void OnTriggerEnter(Collider other)
 	{
 	}
 
-	[Token(Token = "0x60037EA")]
-	[Address(RVA = "0x4221430", Offset = "0x4221430", VA = "0x4221430")]
+	[Token(Token = "0x6004307")]
+	[Address(RVA = "0x21CD5D0", Offset = "0x21CBBD0", VA = "0x1821CD5D0")]
 	protected void OnTriggerExit(Collider other)
 	{
 	}
 
-	[Token(Token = "0x60037EB")]
-	[Address(RVA = "0x4221530", Offset = "0x4221530", VA = "0x4221530")]
+	[Token(Token = "0x6004308")]
+	[Address(RVA = "0x21CD2E0", Offset = "0x21CB8E0", VA = "0x1821CD2E0")]
 	protected void FixedUpdate()
 	{
 	}
 
-	[Token(Token = "0x60037EC")]
-	[Address(RVA = "0x4221700", Offset = "0x4221700", VA = "0x4221700")]
+	[Token(Token = "0x6004309")]
+	[Address(RVA = "0x21CD720", Offset = "0x21CBD20", VA = "0x1821CD720")]
 	public TitanProjectileDetection()
 	{
 	}

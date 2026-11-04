@@ -11,92 +11,92 @@ using Il2CppDummyDll;
 
 namespace System.Security.Cryptography;
 
-[Token(Token = "0x2000314")]
+[Token(Token = "0x2000343")]
 [ComVisible(true)]
 public class CryptoConfig
 {
-	[Token(Token = "0x4000DDA")]
+	[Token(Token = "0x4000DE7")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	private static readonly object lockObject;
 
-	[Token(Token = "0x4000DDB")]
+	[Token(Token = "0x4000DE8")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private static Dictionary<string, Type> algorithms;
 
-	[Token(Token = "0x170002ED")]
+	[Token(Token = "0x170002EF")]
 	[System.MonoLimitation("nothing is FIPS certified so it never make sense to restrict to this (empty) subset")]
 	public static bool AllowOnlyFipsAlgorithms
 	{
-		[Token(Token = "0x6001AFC")]
-		[Address(RVA = "0x3B44350", Offset = "0x3B44350", VA = "0x3B44350")]
+		[Token(Token = "0x6001B64")]
+		[Address(RVA = "0x668280", Offset = "0x666880", VA = "0x180668280")]
 		get
 		{
 			return default(bool);
 		}
 	}
 
-	[Token(Token = "0x6001AF3")]
-	[Address(RVA = "0x3B4CC50", Offset = "0x3B4CC50", VA = "0x3B4CC50")]
+	[Token(Token = "0x6001B5B")]
+	[Address(RVA = "0x19BA090", Offset = "0x19B8690", VA = "0x1819BA090")]
 	public static void AddOID(string oid, params string[] names)
 	{
 	}
 
-	[Token(Token = "0x6001AF4")]
-	[Address(RVA = "0x3B3CFA0", Offset = "0x3B3CFA0", VA = "0x3B3CFA0")]
+	[Token(Token = "0x6001B5C")]
+	[Address(RVA = "0x19BBED0", Offset = "0x19BA4D0", VA = "0x1819BBED0")]
 	public static object CreateFromName(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AF5")]
-	[Address(RVA = "0x3B4CC90", Offset = "0x3B4CC90", VA = "0x3B4CC90")]
+	[Token(Token = "0x6001B5D")]
+	[Address(RVA = "0x19BA0D0", Offset = "0x19B86D0", VA = "0x1819BA0D0")]
 	public static object CreateFromName(string name, params object[] args)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AF6")]
-	[Address(RVA = "0x3B4EB30", Offset = "0x3B4EB30", VA = "0x3B4EB30")]
+	[Token(Token = "0x6001B5E")]
+	[Address(RVA = "0x19BC5E0", Offset = "0x19BABE0", VA = "0x1819BC5E0")]
 	internal static string MapNameToOID(string name, object arg)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AF7")]
-	[Address(RVA = "0x3B4EB90", Offset = "0x3B4EB90", VA = "0x3B4EB90")]
+	[Token(Token = "0x6001B5F")]
+	[Address(RVA = "0x19BC630", Offset = "0x19BAC30", VA = "0x1819BC630")]
 	public static string MapNameToOID(string name)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AF8")]
-	[Address(RVA = "0x3B4F240", Offset = "0x3B4F240", VA = "0x3B4F240")]
+	[Token(Token = "0x6001B60")]
+	[Address(RVA = "0x19BC4C0", Offset = "0x19BAAC0", VA = "0x1819BC4C0")]
 	private static void Initialize()
 	{
 	}
 
-	[Token(Token = "0x6001AF9")]
-	[Address(RVA = "0x3B4F380", Offset = "0x3B4F380", VA = "0x3B4F380")]
+	[Token(Token = "0x6001B61")]
+	[Address(RVA = "0x19B9BE0", Offset = "0x19B81E0", VA = "0x1819B9BE0")]
 	public static void AddAlgorithm(Type algorithm, params string[] names)
 	{
 	}
 
-	[Token(Token = "0x6001AFA")]
-	[Address(RVA = "0x3B4F770", Offset = "0x3B4F770", VA = "0x3B4F770")]
+	[Token(Token = "0x6001B62")]
+	[Address(RVA = "0x19BC0A0", Offset = "0x19BA6A0", VA = "0x1819BC0A0")]
 	public static byte[] EncodeOID(string str)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AFB")]
-	[Address(RVA = "0x3B4FBB0", Offset = "0x3B4FBB0", VA = "0x3B4FBB0")]
+	[Token(Token = "0x6001B63")]
+	[Address(RVA = "0x19BBF20", Offset = "0x19BA520", VA = "0x1819BBF20")]
 	private static byte[] EncodeLongNumber(long x)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001AFD")]
-	[Address(RVA = "0x3B4FD80", Offset = "0x3B4FD80", VA = "0x3B4FD80")]
+	[Token(Token = "0x6001B65")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public CryptoConfig()
 	{
 	}

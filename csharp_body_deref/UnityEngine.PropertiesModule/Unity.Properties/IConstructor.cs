@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Unity.Properties;
 
-[Token(Token = "0x2000032")]
+[Token(Token = "0x2000064")]
 internal interface IConstructor
 {
-	[Token(Token = "0x1700002B")]
+	[Token(Token = "0x1700003F")]
 	InstantiationKind InstantiationKind
 	{
-		[Token(Token = "0x6000161")]
+		[Token(Token = "0x600017D")]
 		get;
 	}
 }
-[Token(Token = "0x2000033")]
+[Token(Token = "0x2000065")]
 internal interface IConstructor<out T> : IConstructor
 {
-	[Token(Token = "0x6000162")]
+	[Token(Token = "0x600017E")]
 	T Instantiate();
 }

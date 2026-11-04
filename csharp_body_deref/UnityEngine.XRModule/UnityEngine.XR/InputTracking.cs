@@ -15,10 +15,10 @@ using UnityEngine.Scripting;
 namespace UnityEngine.XR;
 
 [Token(Token = "0x2000002")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputTrackingFacade.h")]
-[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
 [UnityEngine.Bindings.StaticAccessor("XRInputTrackingFacade::Get()", UnityEngine.Bindings.StaticAccessorType.Dot)]
+[UnityEngine.Scripting.RequiredByNativeCode]
+[UnityEngine.Bindings.NativeConditional("ENABLE_VR")]
+[UnityEngine.Bindings.NativeHeader("Modules/XR/Subsystems/Input/Public/XRInputTrackingFacade.h")]
 public static class InputTracking
 {
 	[Token(Token = "0x2000003")]
@@ -42,14 +42,14 @@ public static class InputTracking
 
 	[Token(Token = "0x4000002")]
 	[FieldOffset(Offset = "0x8")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<XRNodeState> trackingLost;
 
 	[Token(Token = "0x4000003")]
 	[FieldOffset(Offset = "0x10")]
-	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	[CompilerGenerated]
+	[DebuggerBrowsable(DebuggerBrowsableState.Never)]
 	private static Action<XRNodeState> nodeAdded;
 
 	[Token(Token = "0x4000004")]
@@ -59,7 +59,7 @@ public static class InputTracking
 	private static Action<XRNodeState> nodeRemoved;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x510C0A0", Offset = "0x510C0A0", VA = "0x510C0A0")]
+	[Address(RVA = "0x33134F0", Offset = "0x3311AF0", VA = "0x1833134F0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	private static void InvokeTrackingEvent(TrackingStateEventType eventType, XRNode nodeType, long uniqueID, bool tracked)
 	{

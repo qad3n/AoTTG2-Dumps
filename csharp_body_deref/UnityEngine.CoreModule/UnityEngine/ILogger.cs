@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace UnityEngine;
 
-[Token(Token = "0x2000113")]
+[Token(Token = "0x2000137")]
 public interface ILogger : ILogHandler
 {
-	[Token(Token = "0x17000162")]
+	[Token(Token = "0x170001BB")]
 	ILogHandler logHandler
 	{
-		[Token(Token = "0x6000756")]
+		[Token(Token = "0x60009E2")]
 		get;
 	}
 
-	[Token(Token = "0x17000163")]
+	[Token(Token = "0x170001BC")]
 	bool logEnabled
 	{
-		[Token(Token = "0x6000757")]
+		[Token(Token = "0x60009E3")]
 		get;
 	}
 
-	[Token(Token = "0x6000758")]
+	[Token(Token = "0x60009E4")]
 	bool IsLogTypeAllowed(LogType logType);
 
-	[Token(Token = "0x6000759")]
+	[Token(Token = "0x60009E5")]
 	void Log(LogType logType, object message);
 
-	[Token(Token = "0x600075A")]
+	[Token(Token = "0x60009E6")]
 	void Log(LogType logType, object message, Object context);
 
-	[Token(Token = "0x600075B")]
+	[Token(Token = "0x60009E7")]
 	void LogError(string tag, object message);
 
-	[Token(Token = "0x600075C")]
+	[Token(Token = "0x60009E8")]
 	void LogFormat(LogType logType, string format, params object[] args);
 }

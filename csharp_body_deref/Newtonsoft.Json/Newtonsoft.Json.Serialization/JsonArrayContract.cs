@@ -49,7 +49,7 @@ public class JsonArrayContract : JsonContainerContract
 	public Type? CollectionItemType
 	{
 		[Token(Token = "0x60007CC")]
-		[Address(RVA = "0x3DD6BB0", Offset = "0x3DD6BB0", VA = "0x3DD6BB0")]
+		[Address(RVA = "0xC8FF80", Offset = "0xC8E580", VA = "0x180C8FF80")]
 		[CompilerGenerated]
 		get
 		{
@@ -61,7 +61,7 @@ public class JsonArrayContract : JsonContainerContract
 	public bool IsMultidimensionalArray
 	{
 		[Token(Token = "0x60007CD")]
-		[Address(RVA = "0x3DD6BC0", Offset = "0x3DD6BC0", VA = "0x3DD6BC0")]
+		[Address(RVA = "0x1ABF0C0", Offset = "0x1ABD6C0", VA = "0x181ABF0C0")]
 		[CompilerGenerated]
 		get
 		{
@@ -73,7 +73,7 @@ public class JsonArrayContract : JsonContainerContract
 	internal bool IsArray
 	{
 		[Token(Token = "0x60007CE")]
-		[Address(RVA = "0x3DD6BD0", Offset = "0x3DD6BD0", VA = "0x3DD6BD0")]
+		[Address(RVA = "0x1C3F930", Offset = "0x1C3DF30", VA = "0x181C3F930")]
 		[CompilerGenerated]
 		get
 		{
@@ -85,7 +85,7 @@ public class JsonArrayContract : JsonContainerContract
 	internal bool ShouldCreateWrapper
 	{
 		[Token(Token = "0x60007CF")]
-		[Address(RVA = "0x3DD6BE0", Offset = "0x3DD6BE0", VA = "0x3DD6BE0")]
+		[Address(RVA = "0x1C3FA20", Offset = "0x1C3E020", VA = "0x181C3FA20")]
 		[CompilerGenerated]
 		get
 		{
@@ -97,14 +97,14 @@ public class JsonArrayContract : JsonContainerContract
 	internal bool CanDeserialize
 	{
 		[Token(Token = "0x60007D0")]
-		[Address(RVA = "0x3DD6BF0", Offset = "0x3DD6BF0", VA = "0x3DD6BF0")]
+		[Address(RVA = "0x1C3F8A0", Offset = "0x1C3DEA0", VA = "0x181C3F8A0")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007D1")]
-		[Address(RVA = "0x3DD6C00", Offset = "0x3DD6C00", VA = "0x3DD6C00")]
+		[Address(RVA = "0x1C3FA30", Offset = "0x1C3E030", VA = "0x181C3FA30")]
 		[CompilerGenerated]
 		private set
 		{
@@ -115,7 +115,7 @@ public class JsonArrayContract : JsonContainerContract
 	internal ObjectConstructor<object>? ParameterizedCreator
 	{
 		[Token(Token = "0x60007D2")]
-		[Address(RVA = "0x3DD6C10", Offset = "0x3DD6C10", VA = "0x3DD6C10")]
+		[Address(RVA = "0x1C3F940", Offset = "0x1C3DF40", VA = "0x181C3F940")]
 		get
 		{
 			return null;
@@ -126,13 +126,13 @@ public class JsonArrayContract : JsonContainerContract
 	public ObjectConstructor<object>? OverrideCreator
 	{
 		[Token(Token = "0x60007D3")]
-		[Address(RVA = "0x3DD6CE0", Offset = "0x3DD6CE0", VA = "0x3DD6CE0")]
+		[Address(RVA = "0x1BD4C80", Offset = "0x1BD3280", VA = "0x181BD4C80")]
 		get
 		{
 			return null;
 		}
 		[Token(Token = "0x60007D4")]
-		[Address(RVA = "0x3DD2380", Offset = "0x3DD2380", VA = "0x3DD2380")]
+		[Address(RVA = "0x1C3FA50", Offset = "0x1C3E050", VA = "0x181C3FA50")]
 		set
 		{
 		}
@@ -142,14 +142,14 @@ public class JsonArrayContract : JsonContainerContract
 	public bool HasParameterizedCreator
 	{
 		[Token(Token = "0x60007D5")]
-		[Address(RVA = "0x3DD6CF0", Offset = "0x3DD6CF0", VA = "0x3DD6CF0")]
+		[Address(RVA = "0x1C3F920", Offset = "0x1C3DF20", VA = "0x181C3F920")]
 		[CompilerGenerated]
 		get
 		{
 			return default(bool);
 		}
 		[Token(Token = "0x60007D6")]
-		[Address(RVA = "0x3DD6D00", Offset = "0x3DD6D00", VA = "0x3DD6D00")]
+		[Address(RVA = "0x1C3FA40", Offset = "0x1C3E040", VA = "0x181C3FA40")]
 		[CompilerGenerated]
 		set
 		{
@@ -160,7 +160,7 @@ public class JsonArrayContract : JsonContainerContract
 	internal bool HasParameterizedCreatorInternal
 	{
 		[Token(Token = "0x60007D7")]
-		[Address(RVA = "0x3DD6D10", Offset = "0x3DD6D10", VA = "0x3DD6D10")]
+		[Address(RVA = "0x1C3F8B0", Offset = "0x1C3DEB0", VA = "0x181C3F8B0")]
 		get
 		{
 			return default(bool);
@@ -168,27 +168,27 @@ public class JsonArrayContract : JsonContainerContract
 	}
 
 	[Token(Token = "0x60007D8")]
-	[Address(RVA = "0x3DD12D0", Offset = "0x3DD12D0", VA = "0x3DD12D0")]
+	[Address(RVA = "0x1C3E480", Offset = "0x1C3CA80", VA = "0x181C3E480")]
 	public JsonArrayContract(Type underlyingType)
 	{
 	}
 
 	[Token(Token = "0x60007D9")]
-	[Address(RVA = "0x3DD7160", Offset = "0x3DD7160", VA = "0x3DD7160")]
+	[Address(RVA = "0x1C3DE60", Offset = "0x1C3C460", VA = "0x181C3DE60")]
 	internal IWrappedCollection CreateWrapper(object list)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DA")]
-	[Address(RVA = "0x3DD75C0", Offset = "0x3DD75C0", VA = "0x3DD75C0")]
+	[Address(RVA = "0x1C3DC00", Offset = "0x1C3C200", VA = "0x181C3DC00")]
 	internal IList CreateTemporaryCollection()
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60007DB")]
-	[Address(RVA = "0x3DD6F80", Offset = "0x3DD6F80", VA = "0x3DD6F80")]
+	[Address(RVA = "0x1C3E2E0", Offset = "0x1C3C8E0", VA = "0x181C3E2E0")]
 	private void StoreFSharpListCreatorIfNecessary(Type underlyingType)
 	{
 	}

@@ -9,33 +9,33 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200006A")]
+[Token(Token = "0x200002D")]
 internal class ConstantBufferSingleton<CBType> : ConstantBuffer<CBType> where CBType : struct
 {
-	[Token(Token = "0x40001B9")]
+	[Token(Token = "0x40000BC")]
 	[FieldOffset(Offset = "0x0")]
 	private static ConstantBufferSingleton<CBType> s_Instance;
 
-	[Token(Token = "0x17000050")]
+	[Token(Token = "0x1700002E")]
 	internal static ConstantBufferSingleton<CBType> instance
 	{
-		[Token(Token = "0x600057B")]
+		[Token(Token = "0x6000476")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x600057C")]
+		[Token(Token = "0x6000477")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x600057D")]
+	[Token(Token = "0x6000478")]
 	public override void Release()
 	{
 	}
 
-	[Token(Token = "0x600057E")]
+	[Token(Token = "0x6000479")]
 	public ConstantBufferSingleton()
 	{
 	}

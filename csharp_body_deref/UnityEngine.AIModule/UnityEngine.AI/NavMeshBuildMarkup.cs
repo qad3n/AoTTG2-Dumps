@@ -10,39 +10,39 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.AI;
 
-[Token(Token = "0x200000F")]
+[Token(Token = "0x2000011")]
 [UnityEngine.Bindings.NativeHeader("Modules/AI/Public/NavMeshBindingTypes.h")]
 public struct NavMeshBuildMarkup
 {
-	[Token(Token = "0x4000022")]
+	[Token(Token = "0x4000029")]
 	[FieldOffset(Offset = "0x0")]
 	private int m_OverrideArea;
 
-	[Token(Token = "0x4000023")]
+	[Token(Token = "0x400002A")]
 	[FieldOffset(Offset = "0x4")]
 	private int m_Area;
 
-	[Token(Token = "0x4000024")]
+	[Token(Token = "0x400002B")]
 	[FieldOffset(Offset = "0x8")]
 	private int m_InheritIgnoreFromBuild;
 
-	[Token(Token = "0x4000025")]
+	[Token(Token = "0x400002C")]
 	[FieldOffset(Offset = "0xC")]
 	private int m_IgnoreFromBuild;
 
-	[Token(Token = "0x4000026")]
+	[Token(Token = "0x400002D")]
 	[FieldOffset(Offset = "0x10")]
 	private int m_OverrideGenerateLinks;
 
-	[Token(Token = "0x4000027")]
+	[Token(Token = "0x400002E")]
 	[FieldOffset(Offset = "0x14")]
 	private int m_GenerateLinks;
 
-	[Token(Token = "0x4000028")]
+	[Token(Token = "0x400002F")]
 	[FieldOffset(Offset = "0x18")]
 	private int m_InstanceID;
 
-	[Token(Token = "0x4000029")]
+	[Token(Token = "0x4000030")]
 	[FieldOffset(Offset = "0x1C")]
 	private int m_IgnoreChildren;
 }

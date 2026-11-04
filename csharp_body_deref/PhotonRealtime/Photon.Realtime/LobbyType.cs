@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace Photon.Realtime;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000034")]
 public enum LobbyType : byte
 {
-	[Token(Token = "0x40001B9")]
+	[Token(Token = "0x40001B4")]
 	Default = 0,
-	[Token(Token = "0x40001BA")]
+	[Token(Token = "0x40001B5")]
 	SqlLobby = 2,
-	[Token(Token = "0x40001BB")]
+	[Token(Token = "0x40001B6")]
 	AsyncRandomLobby = 3
 }

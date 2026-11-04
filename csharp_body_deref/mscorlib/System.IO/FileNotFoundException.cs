@@ -12,25 +12,25 @@ using Il2CppDummyDll;
 namespace System.IO;
 
 [Serializable]
-[Token(Token = "0x200053E")]
+[Token(Token = "0x2000667")]
 public class FileNotFoundException : IOException
 {
-	[Token(Token = "0x170005CC")]
+	[Token(Token = "0x170007E3")]
 	public override string Message
 	{
-		[Token(Token = "0x60027FC")]
-		[Address(RVA = "0x3BEA5D0", Offset = "0x3BEA5D0", VA = "0x3BEA5D0", Slot = "5")]
+		[Token(Token = "0x60030CB")]
+		[Address(RVA = "0x1ACE3D0", Offset = "0x1ACC9D0", VA = "0x181ACE3D0", Slot = "5")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x170005CD")]
+	[Token(Token = "0x170007E4")]
 	public string FileName
 	{
-		[Token(Token = "0x60027FE")]
-		[Address(RVA = "0x3BEA6A0", Offset = "0x3BEA6A0", VA = "0x3BEA6A0")]
+		[Token(Token = "0x60030CD")]
+		[Address(RVA = "0xA4D3D0", Offset = "0xA4B9D0", VA = "0x180A4D3D0")]
 		[CompilerGenerated]
 		get
 		{
@@ -38,11 +38,11 @@ public class FileNotFoundException : IOException
 		}
 	}
 
-	[Token(Token = "0x170005CE")]
+	[Token(Token = "0x170007E5")]
 	public string FusionLog
 	{
-		[Token(Token = "0x60027FF")]
-		[Address(RVA = "0x3BEA6B0", Offset = "0x3BEA6B0", VA = "0x3BEA6B0")]
+		[Token(Token = "0x60030CE")]
+		[Address(RVA = "0x58A580", Offset = "0x588B80", VA = "0x18058A580")]
 		[CompilerGenerated]
 		get
 		{
@@ -50,45 +50,45 @@ public class FileNotFoundException : IOException
 		}
 	}
 
-	[Token(Token = "0x60027F9")]
-	[Address(RVA = "0x3BEA530", Offset = "0x3BEA530", VA = "0x3BEA530")]
+	[Token(Token = "0x60030C8")]
+	[Address(RVA = "0x1ACE250", Offset = "0x1ACC850", VA = "0x181ACE250")]
 	public FileNotFoundException()
 	{
 	}
 
-	[Token(Token = "0x60027FA")]
-	[Address(RVA = "0x3BEA570", Offset = "0x3BEA570", VA = "0x3BEA570")]
+	[Token(Token = "0x60030C9")]
+	[Address(RVA = "0x1ACE370", Offset = "0x1ACC970", VA = "0x181ACE370")]
 	public FileNotFoundException(string message)
 	{
 	}
 
-	[Token(Token = "0x60027FB")]
-	[Address(RVA = "0x3BEA590", Offset = "0x3BEA590", VA = "0x3BEA590")]
+	[Token(Token = "0x60030CA")]
+	[Address(RVA = "0x1ACE390", Offset = "0x1ACC990", VA = "0x181ACE390")]
 	public FileNotFoundException(string message, string fileName)
 	{
 	}
 
-	[Token(Token = "0x60027FD")]
-	[Address(RVA = "0x3BEA5E0", Offset = "0x3BEA5E0", VA = "0x3BEA5E0")]
+	[Token(Token = "0x60030CC")]
+	[Address(RVA = "0x1ACDF90", Offset = "0x1ACC590", VA = "0x181ACDF90")]
 	private void SetMessageField()
 	{
 	}
 
-	[Token(Token = "0x6002800")]
-	[Address(RVA = "0x3BEA6C0", Offset = "0x3BEA6C0", VA = "0x3BEA6C0", Slot = "3")]
+	[Token(Token = "0x60030CF")]
+	[Address(RVA = "0x1ACE060", Offset = "0x1ACC660", VA = "0x181ACE060", Slot = "3")]
 	public override string ToString()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6002801")]
-	[Address(RVA = "0x3BEA890", Offset = "0x3BEA890", VA = "0x3BEA890")]
+	[Token(Token = "0x60030D0")]
+	[Address(RVA = "0x1ACE2A0", Offset = "0x1ACC8A0", VA = "0x181ACE2A0")]
 	protected FileNotFoundException(SerializationInfo info, StreamingContext context)
 	{
 	}
 
-	[Token(Token = "0x6002802")]
-	[Address(RVA = "0x3BEA950", Offset = "0x3BEA950", VA = "0x3BEA950", Slot = "11")]
+	[Token(Token = "0x60030D1")]
+	[Address(RVA = "0x1ACDEA0", Offset = "0x1ACC4A0", VA = "0x181ACDEA0", Slot = "11")]
 	public override void GetObjectData(SerializationInfo info, StreamingContext context)
 	{
 	}

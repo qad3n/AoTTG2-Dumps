@@ -20,14 +20,14 @@ internal readonly struct InterpretedFrameInfo
 	[FieldOffset(Offset = "0x8")]
 	private readonly DebugInfo _debugInfo;
 
-	[Token(Token = "0x6000875")]
-	[Address(RVA = "0x44DAED0", Offset = "0x44DAED0", VA = "0x44DAED0")]
+	[Token(Token = "0x6000874")]
+	[Address(RVA = "0xB5D000", Offset = "0xB5B600", VA = "0x180B5D000")]
 	public InterpretedFrameInfo(string methodName, DebugInfo info)
 	{
 	}
 
-	[Token(Token = "0x6000876")]
-	[Address(RVA = "0x44DF5A0", Offset = "0x44DF5A0", VA = "0x44DF5A0", Slot = "3")]
+	[Token(Token = "0x6000875")]
+	[Address(RVA = "0x244E880", Offset = "0x244CE80", VA = "0x18244E880", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

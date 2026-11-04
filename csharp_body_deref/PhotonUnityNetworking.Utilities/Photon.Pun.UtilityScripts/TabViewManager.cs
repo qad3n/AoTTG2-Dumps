@@ -14,83 +14,83 @@ using UnityEngine.UI;
 
 namespace Photon.Pun.UtilityScripts;
 
-[Token(Token = "0x2000030")]
+[Token(Token = "0x200002E")]
 public class TabViewManager : MonoBehaviour
 {
 	[Serializable]
-	[Token(Token = "0x2000031")]
+	[Token(Token = "0x200002F")]
 	public class TabChangeEvent : UnityEvent<string>
 	{
-		[Token(Token = "0x6000105")]
-		[Address(RVA = "0x3F0DB50", Offset = "0x3F0DB50", VA = "0x3F0DB50")]
+		[Token(Token = "0x6000103")]
+		[Address(RVA = "0x1D5F2E0", Offset = "0x1D5D8E0", VA = "0x181D5F2E0")]
 		public TabChangeEvent()
 		{
 		}
 	}
 
 	[Serializable]
-	[Token(Token = "0x2000032")]
+	[Token(Token = "0x2000030")]
 	public class Tab
 	{
-		[Token(Token = "0x40000BB")]
+		[Token(Token = "0x40000B6")]
 		[FieldOffset(Offset = "0x10")]
 		public string ID;
 
-		[Token(Token = "0x40000BC")]
+		[Token(Token = "0x40000B7")]
 		[FieldOffset(Offset = "0x18")]
 		public Toggle Toggle;
 
-		[Token(Token = "0x40000BD")]
+		[Token(Token = "0x40000B8")]
 		[FieldOffset(Offset = "0x20")]
 		public RectTransform View;
 
-		[Token(Token = "0x6000106")]
-		[Address(RVA = "0x3F0DB90", Offset = "0x3F0DB90", VA = "0x3F0DB90")]
+		[Token(Token = "0x6000104")]
+		[Address(RVA = "0x1D5F730", Offset = "0x1D5DD30", VA = "0x181D5F730")]
 		public Tab()
 		{
 		}
 	}
 
-	[Token(Token = "0x40000B6")]
+	[Token(Token = "0x40000B1")]
 	[FieldOffset(Offset = "0x20")]
 	public ToggleGroup ToggleGroup;
 
-	[Token(Token = "0x40000B7")]
+	[Token(Token = "0x40000B2")]
 	[FieldOffset(Offset = "0x28")]
 	public Tab[] Tabs;
 
-	[Token(Token = "0x40000B8")]
+	[Token(Token = "0x40000B3")]
 	[FieldOffset(Offset = "0x30")]
 	public TabChangeEvent OnTabChanged;
 
-	[Token(Token = "0x40000B9")]
+	[Token(Token = "0x40000B4")]
 	[FieldOffset(Offset = "0x38")]
 	protected Tab CurrentTab;
 
-	[Token(Token = "0x40000BA")]
+	[Token(Token = "0x40000B5")]
 	[FieldOffset(Offset = "0x40")]
 	private Dictionary<Toggle, Tab> Tab_lut;
 
-	[Token(Token = "0x6000101")]
-	[Address(RVA = "0x3F0D6F0", Offset = "0x3F0D6F0", VA = "0x3F0D6F0")]
+	[Token(Token = "0x60000FF")]
+	[Address(RVA = "0x1D5F4D0", Offset = "0x1D5DAD0", VA = "0x181D5F4D0")]
 	private void Start()
 	{
 	}
 
-	[Token(Token = "0x6000102")]
-	[Address(RVA = "0x3F0D980", Offset = "0x3F0D980", VA = "0x3F0D980")]
+	[Token(Token = "0x6000100")]
+	[Address(RVA = "0x1D5F450", Offset = "0x1D5DA50", VA = "0x181D5F450")]
 	public void SelectTab(string id)
 	{
 	}
 
-	[Token(Token = "0x6000103")]
-	[Address(RVA = "0x3F0DA10", Offset = "0x3F0DA10", VA = "0x3F0DA10")]
+	[Token(Token = "0x6000101")]
+	[Address(RVA = "0x1D5F320", Offset = "0x1D5D920", VA = "0x181D5F320")]
 	private void OnTabSelected(Tab tab)
 	{
 	}
 
-	[Token(Token = "0x6000104")]
-	[Address(RVA = "0x3F0DB40", Offset = "0x3F0DB40", VA = "0x3F0DB40")]
+	[Token(Token = "0x6000102")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public TabViewManager()
 	{
 	}

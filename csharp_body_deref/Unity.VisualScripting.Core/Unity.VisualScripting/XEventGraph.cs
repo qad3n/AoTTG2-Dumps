@@ -13,12 +13,12 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000061")]
 public static class XEventGraph
 {
-	[Token(Token = "0x60002AD")]
+	[Token(Token = "0x60002B2")]
 	public static void TriggerEventHandler<TArgs>(this GraphReference reference, Func<EventHook, bool> predicate, TArgs args, Func<IGraphParentElement, bool> recurse, bool force)
 	{
 	}
 
-	[Token(Token = "0x60002AE")]
+	[Token(Token = "0x60002B3")]
 	public static void TriggerEventHandler<TArgs>(this GraphStack stack, Func<EventHook, bool> predicate, TArgs args, Func<IGraphParentElement, bool> recurse, bool force)
 	{
 	}

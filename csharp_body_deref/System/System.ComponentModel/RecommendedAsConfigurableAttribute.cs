@@ -10,28 +10,28 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002CB")]
-[Obsolete("Use System.ComponentModel.SettingsBindableAttribute instead to work with the new settings model.")]
+[Token(Token = "0x20001D6")]
 [AttributeUsage(AttributeTargets.Property)]
+[Obsolete("Use System.ComponentModel.SettingsBindableAttribute instead to work with the new settings model.")]
 public class RecommendedAsConfigurableAttribute : Attribute
 {
-	[Token(Token = "0x4000E00")]
+	[Token(Token = "0x4000737")]
 	[FieldOffset(Offset = "0x0")]
 	public static readonly RecommendedAsConfigurableAttribute No;
 
-	[Token(Token = "0x4000E01")]
+	[Token(Token = "0x4000738")]
 	[FieldOffset(Offset = "0x8")]
 	public static readonly RecommendedAsConfigurableAttribute Yes;
 
-	[Token(Token = "0x4000E02")]
+	[Token(Token = "0x4000739")]
 	[FieldOffset(Offset = "0x10")]
 	public static readonly RecommendedAsConfigurableAttribute Default;
 
-	[Token(Token = "0x1700041E")]
+	[Token(Token = "0x1700028D")]
 	public bool RecommendedAsConfigurable
 	{
-		[Token(Token = "0x600123C")]
-		[Address(RVA = "0x48A5D70", Offset = "0x48A5D70", VA = "0x48A5D70")]
+		[Token(Token = "0x6000C84")]
+		[Address(RVA = "0xE5A320", Offset = "0xE58920", VA = "0x180E5A320")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,28 +39,28 @@ public class RecommendedAsConfigurableAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x600123B")]
-	[Address(RVA = "0x48A5D50", Offset = "0x48A5D50", VA = "0x48A5D50")]
+	[Token(Token = "0x6000C83")]
+	[Address(RVA = "0x1A291A0", Offset = "0x1A277A0", VA = "0x181A291A0")]
 	public RecommendedAsConfigurableAttribute(bool recommendedAsConfigurable)
 	{
 	}
 
-	[Token(Token = "0x600123D")]
-	[Address(RVA = "0x48A5D80", Offset = "0x48A5D80", VA = "0x48A5D80", Slot = "0")]
+	[Token(Token = "0x6000C85")]
+	[Address(RVA = "0x28B89A0", Offset = "0x28B6FA0", VA = "0x1828B89A0", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600123E")]
-	[Address(RVA = "0x48A5E20", Offset = "0x48A5E20", VA = "0x48A5E20", Slot = "2")]
+	[Token(Token = "0x6000C86")]
+	[Address(RVA = "0x28776A0", Offset = "0x2875CA0", VA = "0x1828776A0", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600123F")]
-	[Address(RVA = "0x48A5E30", Offset = "0x48A5E30", VA = "0x48A5E30", Slot = "6")]
+	[Token(Token = "0x6000C87")]
+	[Address(RVA = "0x28B8A30", Offset = "0x28B7030", VA = "0x1828B8A30", Slot = "6")]
 	public override bool IsDefaultAttribute()
 	{
 		return default(bool);

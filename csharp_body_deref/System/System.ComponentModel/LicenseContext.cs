@@ -10,42 +10,42 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002AF")]
+[Token(Token = "0x20001BA")]
 public class LicenseContext : IServiceProvider
 {
-	[Token(Token = "0x170003C5")]
+	[Token(Token = "0x17000234")]
 	public virtual LicenseUsageMode UsageMode
 	{
-		[Token(Token = "0x60010D8")]
-		[Address(RVA = "0x4895570", Offset = "0x4895570", VA = "0x4895570", Slot = "5")]
+		[Token(Token = "0x6000B20")]
+		[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "5")]
 		get
 		{
 			return default(LicenseUsageMode);
 		}
 	}
 
-	[Token(Token = "0x60010D9")]
-	[Address(RVA = "0x4895580", Offset = "0x4895580", VA = "0x4895580", Slot = "6")]
+	[Token(Token = "0x6000B21")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "6")]
 	public virtual string GetSavedLicenseKey(Type type, Assembly resourceAssembly)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010DA")]
-	[Address(RVA = "0x4895590", Offset = "0x4895590", VA = "0x4895590", Slot = "7")]
+	[Token(Token = "0x6000B22")]
+	[Address(RVA = "0x59B2E0", Offset = "0x5998E0", VA = "0x18059B2E0", Slot = "7")]
 	public virtual object GetService(Type type)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x60010DB")]
-	[Address(RVA = "0x48955A0", Offset = "0x48955A0", VA = "0x48955A0", Slot = "8")]
+	[Token(Token = "0x6000B23")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020", Slot = "8")]
 	public virtual void SetSavedLicenseKey(Type type, string key)
 	{
 	}
 
-	[Token(Token = "0x60010DC")]
-	[Address(RVA = "0x48955B0", Offset = "0x48955B0", VA = "0x48955B0")]
+	[Token(Token = "0x6000B24")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public LicenseContext()
 	{
 	}

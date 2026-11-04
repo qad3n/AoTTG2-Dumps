@@ -9,12 +9,12 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000115")]
+[Token(Token = "0x200013D")]
 [AttributeUsage(AttributeTargets.Method)]
 public sealed class STAThreadAttribute : Attribute
 {
-	[Token(Token = "0x6000A2C")]
-	[Address(RVA = "0x3CD1F80", Offset = "0x3CD1F80", VA = "0x3CD1F80")]
+	[Token(Token = "0x6000A71")]
+	[Address(RVA = "0x5386D0", Offset = "0x536CD0", VA = "0x1805386D0")]
 	public STAThreadAttribute()
 	{
 	}

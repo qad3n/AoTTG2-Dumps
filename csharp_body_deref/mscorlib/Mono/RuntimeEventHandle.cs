@@ -10,39 +10,39 @@ using Il2CppDummyDll;
 
 namespace Mono;
 
-[Token(Token = "0x2000016")]
+[Token(Token = "0x2000034")]
 internal struct RuntimeEventHandle
 {
-	[Token(Token = "0x400008E")]
+	[Token(Token = "0x4000110")]
 	[FieldOffset(Offset = "0x0")]
 	private IntPtr value;
 
 	[Token(Token = "0x17000009")]
 	public IntPtr Value
 	{
-		[Token(Token = "0x600004C")]
-		[Address(RVA = "0x3ACDC80", Offset = "0x3ACDC80", VA = "0x3ACDC80")]
+		[Token(Token = "0x6000064")]
+		[Address(RVA = "0x72FFC0", Offset = "0x72E5C0", VA = "0x18072FFC0")]
 		get
 		{
 			return default(IntPtr);
 		}
 	}
 
-	[Token(Token = "0x600004B")]
-	[Address(RVA = "0x3ACDC70", Offset = "0x3ACDC70", VA = "0x3ACDC70")]
+	[Token(Token = "0x6000063")]
+	[Address(RVA = "0xB546E0", Offset = "0xB52CE0", VA = "0x180B546E0")]
 	internal RuntimeEventHandle(IntPtr v)
 	{
 	}
 
-	[Token(Token = "0x600004D")]
-	[Address(RVA = "0x3ACDC90", Offset = "0x3ACDC90", VA = "0x3ACDC90", Slot = "0")]
+	[Token(Token = "0x6000065")]
+	[Address(RVA = "0x194C520", Offset = "0x194AB20", VA = "0x18194C520", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600004E")]
-	[Address(RVA = "0x3ACDD70", Offset = "0x3ACDD70", VA = "0x3ACDD70", Slot = "2")]
+	[Token(Token = "0x6000066")]
+	[Address(RVA = "0x194C610", Offset = "0x194AC10", VA = "0x18194C610", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

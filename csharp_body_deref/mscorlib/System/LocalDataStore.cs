@@ -9,50 +9,50 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000153")]
+[Token(Token = "0x200017D")]
 internal sealed class LocalDataStore
 {
-	[Token(Token = "0x400051A")]
+	[Token(Token = "0x400057E")]
 	[FieldOffset(Offset = "0x10")]
 	private System.LocalDataStoreElement[] m_DataTable;
 
-	[Token(Token = "0x400051B")]
+	[Token(Token = "0x400057F")]
 	[FieldOffset(Offset = "0x18")]
 	private System.LocalDataStoreMgr m_Manager;
 
-	[Token(Token = "0x6000D5E")]
-	[Address(RVA = "0x3CE5940", Offset = "0x3CE5940", VA = "0x3CE5940")]
+	[Token(Token = "0x6000DAB")]
+	[Address(RVA = "0x1B6C7F0", Offset = "0x1B6ADF0", VA = "0x181B6C7F0")]
 	public LocalDataStore(System.LocalDataStoreMgr mgr, int InitialCapacity)
 	{
 	}
 
-	[Token(Token = "0x6000D5F")]
-	[Address(RVA = "0x3CE58C0", Offset = "0x3CE58C0", VA = "0x3CE58C0")]
+	[Token(Token = "0x6000DAC")]
+	[Address(RVA = "0x1B6C250", Offset = "0x1B6A850", VA = "0x181B6C250")]
 	internal void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000D60")]
-	[Address(RVA = "0x3CE5AB0", Offset = "0x3CE5AB0", VA = "0x3CE5AB0")]
+	[Token(Token = "0x6000DAD")]
+	[Address(RVA = "0x1B6C2E0", Offset = "0x1B6A8E0", VA = "0x181B6C2E0")]
 	public object GetData(LocalDataStoreSlot slot)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000D61")]
-	[Address(RVA = "0x3CE5C50", Offset = "0x3CE5C50", VA = "0x3CE5C50")]
+	[Token(Token = "0x6000DAE")]
+	[Address(RVA = "0x1B6C6B0", Offset = "0x1B6ACB0", VA = "0x181B6C6B0")]
 	public void SetData(LocalDataStoreSlot slot, object data)
 	{
 	}
 
-	[Token(Token = "0x6000D62")]
-	[Address(RVA = "0x3CE60A0", Offset = "0x3CE60A0", VA = "0x3CE60A0")]
+	[Token(Token = "0x6000DAF")]
+	[Address(RVA = "0x1B6C280", Offset = "0x1B6A880", VA = "0x181B6C280")]
 	internal void FreeData(int slot, long cookie)
 	{
 	}
 
-	[Token(Token = "0x6000D63")]
-	[Address(RVA = "0x3CE5D80", Offset = "0x3CE5D80", VA = "0x3CE5D80")]
+	[Token(Token = "0x6000DB0")]
+	[Address(RVA = "0x1B6C410", Offset = "0x1B6AA10", VA = "0x181B6C410")]
 	private System.LocalDataStoreElement PopulateElement(LocalDataStoreSlot slot)
 	{
 		return null;

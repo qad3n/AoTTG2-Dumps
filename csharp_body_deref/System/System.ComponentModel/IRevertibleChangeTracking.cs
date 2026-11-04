@@ -9,9 +9,9 @@ using Il2CppDummyDll;
 
 namespace System.ComponentModel;
 
-[Token(Token = "0x20002E6")]
+[Token(Token = "0x20001F1")]
 public interface IRevertibleChangeTracking : IChangeTracking
 {
-	[Token(Token = "0x60012CD")]
+	[Token(Token = "0x6000D15")]
 	void RejectChanges();
 }

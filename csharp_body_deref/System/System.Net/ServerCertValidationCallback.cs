@@ -12,72 +12,72 @@ using Il2CppDummyDll;
 
 namespace System.Net;
 
-[Token(Token = "0x2000185")]
+[Token(Token = "0x200030D")]
 internal class ServerCertValidationCallback
 {
-	[Token(Token = "0x2000186")]
+	[Token(Token = "0x200030E")]
 	private class CallbackContext
 	{
-		[Token(Token = "0x40007A4")]
+		[Token(Token = "0x4000BBA")]
 		[FieldOffset(Offset = "0x10")]
 		internal readonly object request;
 
-		[Token(Token = "0x40007A5")]
+		[Token(Token = "0x4000BBB")]
 		[FieldOffset(Offset = "0x18")]
 		internal readonly X509Certificate certificate;
 
-		[Token(Token = "0x40007A6")]
+		[Token(Token = "0x4000BBC")]
 		[FieldOffset(Offset = "0x20")]
 		internal readonly X509Chain chain;
 
-		[Token(Token = "0x40007A7")]
+		[Token(Token = "0x4000BBD")]
 		[FieldOffset(Offset = "0x28")]
 		internal readonly SslPolicyErrors sslPolicyErrors;
 
-		[Token(Token = "0x40007A8")]
+		[Token(Token = "0x4000BBE")]
 		[FieldOffset(Offset = "0x2C")]
 		internal bool result;
 
-		[Token(Token = "0x6000973")]
-		[Address(RVA = "0x497C2D0", Offset = "0x497C2D0", VA = "0x497C2D0")]
+		[Token(Token = "0x6001533")]
+		[Address(RVA = "0x27DCE50", Offset = "0x27DB450", VA = "0x1827DCE50")]
 		internal CallbackContext(object request, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
 		{
 		}
 	}
 
-	[Token(Token = "0x40007A2")]
+	[Token(Token = "0x4000BB8")]
 	[FieldOffset(Offset = "0x10")]
 	private readonly RemoteCertificateValidationCallback m_ValidationCallback;
 
-	[Token(Token = "0x40007A3")]
+	[Token(Token = "0x4000BB9")]
 	[FieldOffset(Offset = "0x18")]
 	private readonly ExecutionContext m_Context;
 
-	[Token(Token = "0x17000221")]
+	[Token(Token = "0x17000476")]
 	internal RemoteCertificateValidationCallback ValidationCallback
 	{
-		[Token(Token = "0x6000970")]
-		[Address(RVA = "0x497C0B0", Offset = "0x497C0B0", VA = "0x497C0B0")]
+		[Token(Token = "0x6001530")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x600096F")]
-	[Address(RVA = "0x497C030", Offset = "0x497C030", VA = "0x497C030")]
+	[Token(Token = "0x600152F")]
+	[Address(RVA = "0x27E84D0", Offset = "0x27E6AD0", VA = "0x1827E84D0")]
 	internal ServerCertValidationCallback(RemoteCertificateValidationCallback validationCallback)
 	{
 	}
 
-	[Token(Token = "0x6000971")]
-	[Address(RVA = "0x497C0C0", Offset = "0x497C0C0", VA = "0x497C0C0")]
+	[Token(Token = "0x6001531")]
+	[Address(RVA = "0x27E82B0", Offset = "0x27E68B0", VA = "0x1827E82B0")]
 	internal void Callback(object state)
 	{
 	}
 
-	[Token(Token = "0x6000972")]
-	[Address(RVA = "0x497C160", Offset = "0x497C160", VA = "0x497C160")]
+	[Token(Token = "0x6001532")]
+	[Address(RVA = "0x27E8360", Offset = "0x27E6960", VA = "0x1827E8360")]
 	internal bool Invoke(object request, X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
 	{
 		return default(bool);

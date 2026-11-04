@@ -10,61 +10,61 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200035E")]
+[Token(Token = "0x20003F3")]
 internal struct TransformData : IStyleDataGroup<TransformData>, IEquatable<TransformData>
 {
-	[Token(Token = "0x4000A36")]
+	[Token(Token = "0x4000CB2")]
 	[FieldOffset(Offset = "0x0")]
 	public Rotate rotate;
 
-	[Token(Token = "0x4000A37")]
+	[Token(Token = "0x4000CB3")]
 	[FieldOffset(Offset = "0x18")]
 	public Scale scale;
 
-	[Token(Token = "0x4000A38")]
+	[Token(Token = "0x4000CB4")]
 	[FieldOffset(Offset = "0x28")]
 	public TransformOrigin transformOrigin;
 
-	[Token(Token = "0x4000A39")]
+	[Token(Token = "0x4000CB5")]
 	[FieldOffset(Offset = "0x3C")]
 	public Translate translate;
 
-	[Token(Token = "0x60015A2")]
-	[Address(RVA = "0x50AABC0", Offset = "0x50AABC0", VA = "0x50AABC0", Slot = "4")]
+	[Token(Token = "0x6001D86")]
+	[Address(RVA = "0x30F6520", Offset = "0x30F4B20", VA = "0x1830F6520", Slot = "4")]
 	public TransformData Copy()
 	{
 		return default(TransformData);
 	}
 
-	[Token(Token = "0x60015A3")]
-	[Address(RVA = "0x50AABF0", Offset = "0x50AABF0", VA = "0x50AABF0", Slot = "5")]
+	[Token(Token = "0x6001D87")]
+	[Address(RVA = "0x30F64F0", Offset = "0x30F4AF0", VA = "0x1830F64F0", Slot = "5")]
 	public void CopyFrom(ref TransformData other)
 	{
 	}
 
-	[Token(Token = "0x60015A4")]
-	[Address(RVA = "0x50AAC20", Offset = "0x50AAC20", VA = "0x50AAC20")]
+	[Token(Token = "0x6001D88")]
+	[Address(RVA = "0x30F6870", Offset = "0x30F4E70", VA = "0x1830F6870")]
 	public static bool operator ==(TransformData lhs, TransformData rhs)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015A5")]
-	[Address(RVA = "0x50AAF90", Offset = "0x50AAF90", VA = "0x50AAF90", Slot = "6")]
+	[Token(Token = "0x6001D89")]
+	[Address(RVA = "0x30F6550", Offset = "0x30F4B50", VA = "0x1830F6550", Slot = "6")]
 	public bool Equals(TransformData other)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015A6")]
-	[Address(RVA = "0x50AB270", Offset = "0x50AB270", VA = "0x50AB270", Slot = "0")]
+	[Token(Token = "0x6001D8A")]
+	[Address(RVA = "0x30F6730", Offset = "0x30F4D30", VA = "0x1830F6730", Slot = "0")]
 	public override bool Equals(object obj)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x60015A7")]
-	[Address(RVA = "0x50AB360", Offset = "0x50AB360", VA = "0x50AB360", Slot = "2")]
+	[Token(Token = "0x6001D8B")]
+	[Address(RVA = "0x30F6800", Offset = "0x30F4E00", VA = "0x1830F6800", Slot = "2")]
 	public override int GetHashCode()
 	{
 		return default(int);

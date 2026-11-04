@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.Game.AottgChangelogMarkdown
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/Game/AottgChangelogMarkdown.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -11,43 +11,43 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.Game;
 
-[Token(Token = "0x200014B")]
+[Token(Token = "0x20001D3")]
 public static class AottgChangelogMarkdown
 {
-	[Token(Token = "0x4000768")]
+	[Token(Token = "0x40009E0")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly Regex InlinePattern;
 
-	[Token(Token = "0x600074A")]
-	[Address(RVA = "0x43E0450", Offset = "0x43E0450", VA = "0x43E0450")]
+	[Token(Token = "0x6000AA8")]
+	[Address(RVA = "0x23A5E40", Offset = "0x23A4440", VA = "0x1823A5E40")]
 	public static IReadOnlyList<AottgChangelogMarkdownBlock> Parse(string markdown)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600074B")]
-	[Address(RVA = "0x43E0C50", Offset = "0x43E0C50", VA = "0x43E0C50")]
+	[Token(Token = "0x6000AA9")]
+	[Address(RVA = "0x23A64E0", Offset = "0x23A4AE0", VA = "0x1823A64E0")]
 	public static string RenderInline(string text)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600074C")]
-	[Address(RVA = "0x43E0AF0", Offset = "0x43E0AF0", VA = "0x43E0AF0")]
+	[Token(Token = "0x6000AAA")]
+	[Address(RVA = "0x23A6B60", Offset = "0x23A5160", VA = "0x1823A6B60")]
 	private static bool TryReadHeader(string line, out string header)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600074D")]
-	[Address(RVA = "0x43E0BF0", Offset = "0x43E0BF0", VA = "0x43E0BF0")]
+	[Token(Token = "0x6000AAB")]
+	[Address(RVA = "0x23A5DE0", Offset = "0x23A43E0", VA = "0x1823A5DE0")]
 	private static bool IsBullet(string line)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x600074E")]
-	[Address(RVA = "0x43E1610", Offset = "0x43E1610", VA = "0x43E1610")]
+	[Token(Token = "0x6000AAC")]
+	[Address(RVA = "0x23A5CF0", Offset = "0x23A42F0", VA = "0x1823A5CF0")]
 	private static string Escape(string value)
 	{
 		return null;

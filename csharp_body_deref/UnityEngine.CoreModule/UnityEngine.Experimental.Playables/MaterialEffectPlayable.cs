@@ -13,27 +13,27 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Experimental.Playables;
 
-[Token(Token = "0x2000349")]
-[UnityEngine.Scripting.RequiredByNativeCode]
-[UnityEngine.Bindings.NativeHeader("Runtime/Shaders/Director/MaterialEffectPlayable.h")]
+[Token(Token = "0x20003F0")]
 [UnityEngine.Bindings.NativeHeader("Runtime/Export/Director/MaterialEffectPlayable.bindings.h")]
-[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Scripting.RequiredByNativeCode]
 [UnityEngine.Bindings.StaticAccessor("MaterialEffectPlayableBindings", UnityEngine.Bindings.StaticAccessorType.DoubleColon)]
+[UnityEngine.Bindings.NativeHeader("Runtime/Director/Core/HPlayable.h")]
+[UnityEngine.Bindings.NativeHeader("Runtime/Shaders/Director/MaterialEffectPlayable.h")]
 public struct MaterialEffectPlayable : IEquatable<MaterialEffectPlayable>
 {
-	[Token(Token = "0x4000AA4")]
+	[Token(Token = "0x4000D2B")]
 	[FieldOffset(Offset = "0x0")]
 	private PlayableHandle m_Handle;
 
-	[Token(Token = "0x6001199")]
-	[Address(RVA = "0x4E3A900", Offset = "0x4E3A900", VA = "0x4E3A900", Slot = "5")]
+	[Token(Token = "0x60017D5")]
+	[Address(RVA = "0xF3C930", Offset = "0xF3AF30", VA = "0x180F3C930", Slot = "5")]
 	public PlayableHandle GetHandle()
 	{
 		return default(PlayableHandle);
 	}
 
-	[Token(Token = "0x600119A")]
-	[Address(RVA = "0x4E3A910", Offset = "0x4E3A910", VA = "0x4E3A910", Slot = "4")]
+	[Token(Token = "0x60017D6")]
+	[Address(RVA = "0x2F79730", Offset = "0x2F77D30", VA = "0x182F79730", Slot = "4")]
 	public bool Equals(MaterialEffectPlayable other)
 	{
 		return default(bool);

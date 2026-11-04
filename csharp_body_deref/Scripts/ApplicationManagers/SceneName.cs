@@ -9,25 +9,25 @@ using Il2CppDummyDll;
 
 namespace ApplicationManagers;
 
-[Token(Token = "0x2000795")]
+[Token(Token = "0x2000920")]
 public enum SceneName
 {
-	[Token(Token = "0x40024AC")]
+	[Token(Token = "0x4002D7A")]
 	Startup,
-	[Token(Token = "0x40024AD")]
+	[Token(Token = "0x4002D7B")]
 	MainMenu,
-	[Token(Token = "0x40024AE")]
+	[Token(Token = "0x4002D7C")]
 	InGame,
-	[Token(Token = "0x40024AF")]
+	[Token(Token = "0x4002D7D")]
 	MapEditor,
-	[Token(Token = "0x40024B0")]
+	[Token(Token = "0x4002D7E")]
 	CharacterEditor,
-	[Token(Token = "0x40024B1")]
+	[Token(Token = "0x4002D7F")]
 	SnapshotViewer,
-	[Token(Token = "0x40024B2")]
+	[Token(Token = "0x4002D80")]
 	Gallery,
-	[Token(Token = "0x40024B3")]
+	[Token(Token = "0x4002D81")]
 	Credits,
-	[Token(Token = "0x40024B4")]
+	[Token(Token = "0x4002D82")]
 	DebugTest
 }

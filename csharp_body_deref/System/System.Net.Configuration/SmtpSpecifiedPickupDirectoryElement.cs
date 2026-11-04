@@ -10,38 +10,38 @@ using Il2CppDummyDll;
 
 namespace System.Net.Configuration;
 
-[Token(Token = "0x200039A")]
+[Token(Token = "0x20003F5")]
 public sealed class SmtpSpecifiedPickupDirectoryElement : ConfigurationElement
 {
-	[Token(Token = "0x1700055C")]
+	[Token(Token = "0x170005C6")]
 	public string PickupDirectoryLocation
 	{
-		[Token(Token = "0x60017E6")]
-		[Address(RVA = "0x48F4580", Offset = "0x48F4580", VA = "0x48F4580")]
+		[Token(Token = "0x6001A8A")]
+		[Address(RVA = "0x282C6A0", Offset = "0x282ACA0", VA = "0x18282C6A0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60017E7")]
-		[Address(RVA = "0x48F45B0", Offset = "0x48F45B0", VA = "0x48F45B0")]
+		[Token(Token = "0x6001A8B")]
+		[Address(RVA = "0x282C700", Offset = "0x282AD00", VA = "0x18282C700")]
 		set
 		{
 		}
 	}
 
-	[Token(Token = "0x1700055D")]
+	[Token(Token = "0x170005C7")]
 	protected override ConfigurationPropertyCollection Properties
 	{
-		[Token(Token = "0x60017E8")]
-		[Address(RVA = "0x48F45E0", Offset = "0x48F45E0", VA = "0x48F45E0", Slot = "4")]
+		[Token(Token = "0x6001A8C")]
+		[Address(RVA = "0x282C6D0", Offset = "0x282ACD0", VA = "0x18282C6D0", Slot = "4")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60017E5")]
-	[Address(RVA = "0x48F4550", Offset = "0x48F4550", VA = "0x48F4550")]
+	[Token(Token = "0x6001A89")]
+	[Address(RVA = "0x282C670", Offset = "0x282AC70", VA = "0x18282C670")]
 	public SmtpSpecifiedPickupDirectoryElement()
 	{
 	}

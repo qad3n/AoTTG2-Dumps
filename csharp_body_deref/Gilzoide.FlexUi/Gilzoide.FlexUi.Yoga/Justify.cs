@@ -9,19 +9,19 @@ using Il2CppDummyDll;
 
 namespace Gilzoide.FlexUi.Yoga;
 
-[Token(Token = "0x2000014")]
+[Token(Token = "0x2000012")]
 public enum Justify
 {
-	[Token(Token = "0x400006F")]
+	[Token(Token = "0x400006A")]
 	FlexStart,
-	[Token(Token = "0x4000070")]
+	[Token(Token = "0x400006B")]
 	Center,
-	[Token(Token = "0x4000071")]
+	[Token(Token = "0x400006C")]
 	FlexEnd,
-	[Token(Token = "0x4000072")]
+	[Token(Token = "0x400006D")]
 	SpaceBetween,
-	[Token(Token = "0x4000073")]
+	[Token(Token = "0x400006E")]
 	SpaceAround,
-	[Token(Token = "0x4000074")]
+	[Token(Token = "0x400006F")]
 	SpaceEvenly
 }

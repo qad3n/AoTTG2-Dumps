@@ -10,36 +10,36 @@ using Il2CppDummyDll;
 
 namespace Cysharp.Threading.Tasks;
 
-[Token(Token = "0x200003C")]
+[Token(Token = "0x2000039")]
 public static class UniTaskStatusExtensions
 {
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600012C")]
-	[Address(RVA = "0x49D65F0", Offset = "0x49D65F0", VA = "0x49D65F0")]
+	[Token(Token = "0x6000124")]
+	[Address(RVA = "0x1A814C0", Offset = "0x1A7FAC0", VA = "0x181A814C0")]
 	public static bool IsCompleted(this UniTaskStatus status)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600012D")]
-	[Address(RVA = "0x49D6600", Offset = "0x49D6600", VA = "0x49D6600")]
+	[Token(Token = "0x6000125")]
+	[Address(RVA = "0x291E9B0", Offset = "0x291CFB0", VA = "0x18291E9B0")]
 	public static bool IsCompletedSuccessfully(this UniTaskStatus status)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600012E")]
-	[Address(RVA = "0x49D6610", Offset = "0x49D6610", VA = "0x49D6610")]
+	[Token(Token = "0x6000126")]
+	[Address(RVA = "0x291E9A0", Offset = "0x291CFA0", VA = "0x18291E9A0")]
 	public static bool IsCanceled(this UniTaskStatus status)
 	{
 		return default(bool);
 	}
 
 	[MethodImpl((MethodImplOptions)256)]
-	[Token(Token = "0x600012F")]
-	[Address(RVA = "0x49D6620", Offset = "0x49D6620", VA = "0x49D6620")]
+	[Token(Token = "0x6000127")]
+	[Address(RVA = "0x291E9C0", Offset = "0x291CFC0", VA = "0x18291E9C0")]
 	public static bool IsFaulted(this UniTaskStatus status)
 	{
 		return default(bool);

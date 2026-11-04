@@ -10,33 +10,33 @@ using UnityEngine;
 
 namespace TMPro;
 
-[Token(Token = "0x200001D")]
+[Token(Token = "0x20000AE")]
 public struct Extents
 {
-	[Token(Token = "0x40000C2")]
+	[Token(Token = "0x40005D4")]
 	[FieldOffset(Offset = "0x0")]
 	internal static Extents zero;
 
-	[Token(Token = "0x40000C3")]
+	[Token(Token = "0x40005D5")]
 	[FieldOffset(Offset = "0x10")]
 	internal static Extents uninitialized;
 
-	[Token(Token = "0x40000C4")]
+	[Token(Token = "0x40005D6")]
 	[FieldOffset(Offset = "0x0")]
 	public Vector2 min;
 
-	[Token(Token = "0x40000C5")]
+	[Token(Token = "0x40005D7")]
 	[FieldOffset(Offset = "0x8")]
 	public Vector2 max;
 
-	[Token(Token = "0x600011A")]
-	[Address(RVA = "0x4C44630", Offset = "0x4C44630", VA = "0x4C44630")]
+	[Token(Token = "0x6000659")]
+	[Address(RVA = "0xB546F0", Offset = "0xB52CF0", VA = "0x180B546F0")]
 	public Extents(Vector2 min, Vector2 max)
 	{
 	}
 
-	[Token(Token = "0x600011B")]
-	[Address(RVA = "0x4C44640", Offset = "0x4C44640", VA = "0x4C44640", Slot = "3")]
+	[Token(Token = "0x600065A")]
+	[Address(RVA = "0x2D60E70", Offset = "0x2D5F470", VA = "0x182D60E70", Slot = "3")]
 	public override string ToString()
 	{
 		return null;

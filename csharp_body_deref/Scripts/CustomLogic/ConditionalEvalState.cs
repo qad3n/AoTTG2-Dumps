@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace CustomLogic;
 
-[Token(Token = "0x200049A")]
+[Token(Token = "0x20005F3")]
 internal enum ConditionalEvalState
 {
-	[Token(Token = "0x400142B")]
+	[Token(Token = "0x4001A76")]
 	None,
-	[Token(Token = "0x400142C")]
+	[Token(Token = "0x4001A77")]
 	PassedIf,
-	[Token(Token = "0x400142D")]
+	[Token(Token = "0x4001A78")]
 	FailedIf,
-	[Token(Token = "0x400142E")]
+	[Token(Token = "0x4001A79")]
 	PassedElseIf,
-	[Token(Token = "0x400142F")]
+	[Token(Token = "0x4001A7A")]
 	FailedElseIf
 }

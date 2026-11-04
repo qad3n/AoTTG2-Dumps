@@ -19,56 +19,56 @@ namespace Unity.VisualScripting;
 [IncludeInSettings(false)]
 public sealed class SceneVariables : MonoBehaviour, ISingleton
 {
-	[Token(Token = "0x4000945")]
+	[Token(Token = "0x4000943")]
 	[FieldOffset(Offset = "0x20")]
 	private Variables _variables;
 
-	[Token(Token = "0x170001E7")]
+	[Token(Token = "0x170001EA")]
 	public Variables variables
 	{
-		[Token(Token = "0x6001117")]
-		[Address(RVA = "0x4D66780", Offset = "0x4D66780", VA = "0x4D66780")]
+		[Token(Token = "0x6001124")]
+		[Address(RVA = "0x2E572A0", Offset = "0x2E558A0", VA = "0x182E572A0")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x6001112")]
-	[Address(RVA = "0x4D665A0", Offset = "0x4D665A0", VA = "0x4D665A0")]
+	[Token(Token = "0x600111F")]
+	[Address(RVA = "0x2E57180", Offset = "0x2E55780", VA = "0x182E57180")]
 	public static SceneVariables Instance(Scene scene)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001113")]
-	[Address(RVA = "0x4D66600", Offset = "0x4D66600", VA = "0x4D66600")]
+	[Token(Token = "0x6001120")]
+	[Address(RVA = "0x2E571E0", Offset = "0x2E557E0", VA = "0x182E571E0")]
 	public static bool InstantiatedIn(Scene scene)
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6001114")]
-	[Address(RVA = "0x4D66660", Offset = "0x4D66660", VA = "0x4D66660")]
+	[Token(Token = "0x6001121")]
+	[Address(RVA = "0x2E56FE0", Offset = "0x2E555E0", VA = "0x182E56FE0")]
 	public static VariableDeclarations For(Scene? scene)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001115")]
-	[Address(RVA = "0x4D66820", Offset = "0x4D66820", VA = "0x4D66820")]
+	[Token(Token = "0x6001122")]
+	[Address(RVA = "0x2E56F80", Offset = "0x2E55580", VA = "0x182E56F80")]
 	private void Awake()
 	{
 	}
 
-	[Token(Token = "0x6001116")]
-	[Address(RVA = "0x4D66880", Offset = "0x4D66880", VA = "0x4D66880")]
+	[Token(Token = "0x6001123")]
+	[Address(RVA = "0x2E57240", Offset = "0x2E55840", VA = "0x182E57240")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x6001118")]
-	[Address(RVA = "0x4D668E0", Offset = "0x4D668E0", VA = "0x4D668E0")]
+	[Token(Token = "0x6001125")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public SceneVariables()
 	{
 	}

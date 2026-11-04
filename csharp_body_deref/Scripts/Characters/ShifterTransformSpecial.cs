@@ -9,42 +9,42 @@ using Il2CppDummyDll;
 
 namespace Characters;
 
-[Token(Token = "0x2000527")]
+[Token(Token = "0x2000681")]
 internal class ShifterTransformSpecial : RechargeableUseable
 {
-	[Token(Token = "0x400181A")]
-	[FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4001EB7")]
+	[FieldOffset(Offset = "0x48")]
 	public float LiveTime;
 
-	[Token(Token = "0x400181B")]
-	[FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4001EB8")]
+	[FieldOffset(Offset = "0x50")]
 	protected string _shifter;
 
-	[Token(Token = "0x170009F6")]
+	[Token(Token = "0x17000B2A")]
 	protected override float ActiveTime
 	{
-		[Token(Token = "0x60035F3")]
-		[Address(RVA = "0x41F7680", Offset = "0x41F7680", VA = "0x41F7680", Slot = "14")]
+		[Token(Token = "0x6004031")]
+		[Address(RVA = "0x21698F0", Offset = "0x2167EF0", VA = "0x1821698F0", Slot = "14")]
 		get
 		{
 			return default(float);
 		}
 	}
 
-	[Token(Token = "0x60035F4")]
-	[Address(RVA = "0x41E4310", Offset = "0x41E4310", VA = "0x41E4310")]
+	[Token(Token = "0x6004032")]
+	[Address(RVA = "0x2175A70", Offset = "0x2174070", VA = "0x182175A70")]
 	public ShifterTransformSpecial(BaseCharacter owner, string shifter)
 	{
 	}
 
-	[Token(Token = "0x60035F5")]
-	[Address(RVA = "0x41F7690", Offset = "0x41F7690", VA = "0x41F7690", Slot = "9")]
+	[Token(Token = "0x6004033")]
+	[Address(RVA = "0x2175920", Offset = "0x2173F20", VA = "0x182175920", Slot = "9")]
 	protected override void Activate()
 	{
 	}
 
-	[Token(Token = "0x60035F6")]
-	[Address(RVA = "0x41F7740", Offset = "0x41F7740", VA = "0x41F7740", Slot = "10")]
+	[Token(Token = "0x6004034")]
+	[Address(RVA = "0x21759E0", Offset = "0x2173FE0", VA = "0x1821759E0", Slot = "10")]
 	protected override void Deactivate()
 	{
 	}

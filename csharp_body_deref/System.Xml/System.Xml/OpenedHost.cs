@@ -17,7 +17,7 @@ internal class OpenedHost
 	internal int nonCachedConnectionsCount;
 
 	[Token(Token = "0x6000B97")]
-	[Address(RVA = "0x47FC5A0", Offset = "0x47FC5A0", VA = "0x47FC5A0")]
+	[Address(RVA = "0x54C890", Offset = "0x54AE90", VA = "0x18054C890")]
 	public OpenedHost()
 	{
 	}

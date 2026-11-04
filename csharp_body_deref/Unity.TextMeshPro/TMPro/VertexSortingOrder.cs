@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace TMPro;
 
-[Token(Token = "0x200006F")]
+[Token(Token = "0x2000063")]
 public enum VertexSortingOrder
 {
-	[Token(Token = "0x40002F1")]
+	[Token(Token = "0x400023C")]
 	Normal,
-	[Token(Token = "0x40002F2")]
+	[Token(Token = "0x400023D")]
 	Reverse
 }

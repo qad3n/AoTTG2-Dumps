@@ -1,5 +1,5 @@
 // Type: Projectiles.ProjectileSpawner
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Projectiles/ProjectileSpawner.cs
@@ -8,67 +8,75 @@
 
 // Projectiles.ProjectileSpawner$$Spawn
 // il2cpp: Projectiles_BaseProjectile_o* Projectiles_ProjectileSpawner__Spawn (System_String_o* name, UnityEngine_Vector3_o position, UnityEngine_Quaternion_o rotation, UnityEngine_Vector3_o velocity, UnityEngine_Vector3_o gravity, float liveTime, int32_t charViewId, System_String_o* team, System_Object_array* settings, const MethodInfo* method);
-// 0x42084e0
+// 0x1820ce3f0
 
 Projectiles_BaseProjectile_o *
 Projectiles_ProjectileSpawner__Spawn
-          (System_String_o *name,UnityEngine_Vector3_o position,UnityEngine_Quaternion_o rotation,
-          UnityEngine_Vector3_o velocity,UnityEngine_Vector3_o gravity,float liveTime,int32_t charViewId,
+          (System_String_o *name,UnityEngine_Vector3_o *position,UnityEngine_Quaternion_o *rotation,
+          UnityEngine_Vector3_o *velocity,UnityEngine_Vector3_o *gravity,float liveTime,int32_t charViewId,
           System_String_o *team,System_Object_array *settings,MethodInfo *method)
 
 {
-  UnityEngine_MonoBehaviour_o *__this;
-  UnityEngine_MonoBehaviour_o *__this_00;
+  System_String_o *prefabName;
+  UnityEngine_GameObject_o *__this;
   Projectiles_BaseProjectile_o *pPVar1;
-  Projectiles_BaseProjectile_o *extraout_RAX;
-  float local_48;
-  float local_38;
+  UnityEngine_Vector3_Fields local_48;
+  UnityEngine_Quaternion_Fields local_38;
   
-  if (g_data_057ad8ed == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_BaseProjectile_GetComponent_BaseProjectile);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_PhotonNetwork);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ResourcePaths);
-    il2cpp_runtime_helper_023445d0(&"/");
-    g_data_057ad8ed = '\x01';
+  if (Il2CppMethodInitialized_18434691e == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_UnityEngine_GameObject_GetComponent_BaseProjectile)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Photon_Pun_PhotonNetwork);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Utility_ResourcePaths);
+    il2cpp_codegen_initialize_runtime_metadata(&"/");
+    Il2CppMethodInitialized_18434691e = '\x01';
   }
-  if (*(int *)(TypeInfo_ResourcePaths + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if ((TypeInfo_Utility_ResourcePaths->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Utility_ResourcePaths);
   }
-  __this = (UnityEngine_MonoBehaviour_o *)
-           System_String__Concat_3af7150
-                     (*(System_String_o **)(*(long *)(TypeInfo_ResourcePaths + 0xb8) + 0x50),"/",name,
-                      (MethodInfo *)0x0);
-  if (*(int *)(TypeInfo_PhotonNetwork + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  prefabName = System_String__Concat_1969b70
+                         (TypeInfo_Utility_ResourcePaths->static_fields->Projectiles,"/",
+                          name,(MethodInfo *)0x0);
+  if ((TypeInfo_Photon_Pun_PhotonNetwork->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_Photon_Pun_PhotonNetwork);
   }
-  __this_00 = (UnityEngine_MonoBehaviour_o *)
-              Photon_Pun_PhotonNetwork__Instantiate
-                        ((System_String_o *)__this,position,rotation,'\0',(System_Object_array *)0x0,
-                         (MethodInfo *)0x0);
-  if (__this_00 != (UnityEngine_MonoBehaviour_o *)0x0) {
-    pPVar1 = (Projectiles_BaseProjectile_o *)
-             UnityEngine_GameObject__GetComponent_object_((UnityEngine_GameObject_o *)__this_00,MethodInfo_BaseProjectile_GetComponent_BaseProjectile);
-    __this = __this_00;
+  local_48.z = (position->fields).z;
+  local_38.x = (rotation->fields).x;
+  local_38.y = (rotation->fields).y;
+  local_38.z = (rotation->fields).z;
+  local_38.w = (rotation->fields).w;
+  local_48.x = (position->fields).x;
+  local_48.y = (position->fields).y;
+  __this = Photon_Pun_PhotonNetwork__Instantiate
+                     (prefabName,(UnityEngine_Vector3_o *)&local_48,(UnityEngine_Quaternion_o *)&local_38,'\0'
+                      ,(System_Object_array *)0x0,(MethodInfo *)0x0);
+  if (__this != (UnityEngine_GameObject_o *)0x0) {
+    pPVar1 = UnityEngine_GameObject__GetComponent_object_
+                       (__this,(MethodInfo_6F5650 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponent_BaseProjectile);
     if (pPVar1 != (Projectiles_BaseProjectile_o *)0x0) {
-      local_48 = velocity.fields.x;
-      local_38 = gravity.fields.x;
-      (*((Il2CppClass *)pPVar1->klass)->vtable[0xc].methodPtr)
-                (liveTime,local_48,velocity.fields.z,local_38,gravity.fields.z,pPVar1,(ulong)(uint)charViewId,
-                 team,settings,((Il2CppClass *)pPVar1->klass)->vtable[0xc].method);
+      local_48.x = (gravity->fields).x;
+      local_48.y = (gravity->fields).y;
+      local_48.z = (gravity->fields).z;
+      local_38.x = (velocity->fields).x;
+      local_38.y = (velocity->fields).y;
+      local_38.z = (velocity->fields).z;
+      (*(pPVar1->klass->vtable)._12_Setup.methodPtr)
+                (pPVar1,liveTime,(UnityEngine_Vector3_o *)&local_38,(UnityEngine_Vector3_o *)&local_48,
+                 charViewId,team,settings,(pPVar1->klass->vtable)._12_Setup.method);
       return pPVar1;
     }
   }
-  il2cpp_runtime_helper_022b2c90();
-  UnityEngine_MonoBehaviour___ctor(__this,(MethodInfo *)0x0);
-  return extraout_RAX;
+  ThrowNullReferenceException();
 }
 
 
 // Projectiles.ProjectileSpawner$$.ctor
 // il2cpp: void Projectiles_ProjectileSpawner___ctor (Projectiles_ProjectileSpawner_o* __this, const MethodInfo* method);
-// 0x4208650
+// 0x180528540
 
-void Projectiles_ProjectileSpawner___ctor(Projectiles_ProjectileSpawner_o *__this,MethodInfo *method)
+void
+Projectiles_ProjectileSpawner___ctor(Projectiles_ProjectileSpawner_o* __this, MethodInfo* method)
 
 {
   UnityEngine_MonoBehaviour___ctor((UnityEngine_MonoBehaviour_o *)__this,(MethodInfo *)0x0);

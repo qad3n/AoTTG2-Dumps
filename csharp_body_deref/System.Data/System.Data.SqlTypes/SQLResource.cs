@@ -9,47 +9,14 @@ using Il2CppDummyDll;
 
 namespace System.Data.SqlTypes;
 
-[Token(Token = "0x200009D")]
+[Token(Token = "0x20000A7")]
 internal static class SQLResource
 {
-	[Token(Token = "0x17000164")]
+	[Token(Token = "0x17000167")]
 	internal static string NullString
 	{
-		[Token(Token = "0x60008F3")]
-		[Address(RVA = "0x4602100", Offset = "0x4602100", VA = "0x4602100")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000165")]
-	internal static string ArithOverflowMessage
-	{
-		[Token(Token = "0x60008F4")]
-		[Address(RVA = "0x4602130", Offset = "0x4602130", VA = "0x4602130")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000166")]
-	internal static string DivideByZeroMessage
-	{
-		[Token(Token = "0x60008F5")]
-		[Address(RVA = "0x4602160", Offset = "0x4602160", VA = "0x4602160")]
-		get
-		{
-			return null;
-		}
-	}
-
-	[Token(Token = "0x17000167")]
-	internal static string NullValueMessage
-	{
-		[Token(Token = "0x60008F6")]
-		[Address(RVA = "0x4602190", Offset = "0x4602190", VA = "0x4602190")]
+		[Token(Token = "0x6000912")]
+		[Address(RVA = "0x254A300", Offset = "0x2548900", VA = "0x18254A300")]
 		get
 		{
 			return null;
@@ -57,10 +24,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x17000168")]
-	internal static string TruncationMessage
+	internal static string ArithOverflowMessage
 	{
-		[Token(Token = "0x60008F7")]
-		[Address(RVA = "0x46021C0", Offset = "0x46021C0", VA = "0x46021C0")]
+		[Token(Token = "0x6000913")]
+		[Address(RVA = "0x254A180", Offset = "0x2548780", VA = "0x18254A180")]
 		get
 		{
 			return null;
@@ -68,10 +35,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x17000169")]
-	internal static string DateTimeOverflowMessage
+	internal static string DivideByZeroMessage
 	{
-		[Token(Token = "0x60008F8")]
-		[Address(RVA = "0x46021F0", Offset = "0x46021F0", VA = "0x46021F0")]
+		[Token(Token = "0x6000914")]
+		[Address(RVA = "0x254A270", Offset = "0x2548870", VA = "0x18254A270")]
 		get
 		{
 			return null;
@@ -79,10 +46,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016A")]
-	internal static string ConcatDiffCollationMessage
+	internal static string NullValueMessage
 	{
-		[Token(Token = "0x60008F9")]
-		[Address(RVA = "0x4602220", Offset = "0x4602220", VA = "0x4602220")]
+		[Token(Token = "0x6000915")]
+		[Address(RVA = "0x254A330", Offset = "0x2548930", VA = "0x18254A330")]
 		get
 		{
 			return null;
@@ -90,10 +57,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016B")]
-	internal static string CompareDiffCollationMessage
+	internal static string TruncationMessage
 	{
-		[Token(Token = "0x60008FA")]
-		[Address(RVA = "0x4602250", Offset = "0x4602250", VA = "0x4602250")]
+		[Token(Token = "0x6000916")]
+		[Address(RVA = "0x254A390", Offset = "0x2548990", VA = "0x18254A390")]
 		get
 		{
 			return null;
@@ -101,10 +68,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016C")]
-	internal static string ConversionOverflowMessage
+	internal static string DateTimeOverflowMessage
 	{
-		[Token(Token = "0x60008FB")]
-		[Address(RVA = "0x4602280", Offset = "0x4602280", VA = "0x4602280")]
+		[Token(Token = "0x6000917")]
+		[Address(RVA = "0x254A240", Offset = "0x2548840", VA = "0x18254A240")]
 		get
 		{
 			return null;
@@ -112,10 +79,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016D")]
-	internal static string TimeZoneSpecifiedMessage
+	internal static string ConcatDiffCollationMessage
 	{
-		[Token(Token = "0x60008FC")]
-		[Address(RVA = "0x46022B0", Offset = "0x46022B0", VA = "0x46022B0")]
+		[Token(Token = "0x6000918")]
+		[Address(RVA = "0x254A1E0", Offset = "0x25487E0", VA = "0x18254A1E0")]
 		get
 		{
 			return null;
@@ -123,10 +90,10 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016E")]
-	internal static string InvalidPrecScaleMessage
+	internal static string CompareDiffCollationMessage
 	{
-		[Token(Token = "0x60008FD")]
-		[Address(RVA = "0x46022E0", Offset = "0x46022E0", VA = "0x46022E0")]
+		[Token(Token = "0x6000919")]
+		[Address(RVA = "0x254A1B0", Offset = "0x25487B0", VA = "0x18254A1B0")]
 		get
 		{
 			return null;
@@ -134,39 +101,72 @@ internal static class SQLResource
 	}
 
 	[Token(Token = "0x1700016F")]
-	internal static string FormatMessage
+	internal static string ConversionOverflowMessage
 	{
-		[Token(Token = "0x60008FE")]
-		[Address(RVA = "0x4602310", Offset = "0x4602310", VA = "0x4602310")]
+		[Token(Token = "0x600091A")]
+		[Address(RVA = "0x254A210", Offset = "0x2548810", VA = "0x18254A210")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60008FF")]
-	[Address(RVA = "0x4602340", Offset = "0x4602340", VA = "0x4602340")]
+	[Token(Token = "0x17000170")]
+	internal static string TimeZoneSpecifiedMessage
+	{
+		[Token(Token = "0x600091B")]
+		[Address(RVA = "0x254A360", Offset = "0x2548960", VA = "0x18254A360")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000171")]
+	internal static string InvalidPrecScaleMessage
+	{
+		[Token(Token = "0x600091C")]
+		[Address(RVA = "0x254A2D0", Offset = "0x25488D0", VA = "0x18254A2D0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x17000172")]
+	internal static string FormatMessage
+	{
+		[Token(Token = "0x600091D")]
+		[Address(RVA = "0x254A2A0", Offset = "0x25488A0", VA = "0x18254A2A0")]
+		get
+		{
+			return null;
+		}
+	}
+
+	[Token(Token = "0x600091E")]
+	[Address(RVA = "0x254A080", Offset = "0x2548680", VA = "0x18254A080")]
 	internal static string InvalidOpStreamClosed(string method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000900")]
-	[Address(RVA = "0x4602380", Offset = "0x4602380", VA = "0x4602380")]
+	[Token(Token = "0x600091F")]
+	[Address(RVA = "0x254A140", Offset = "0x2548740", VA = "0x18254A140")]
 	internal static string InvalidOpStreamNonWritable(string method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000901")]
-	[Address(RVA = "0x46023C0", Offset = "0x46023C0", VA = "0x46023C0")]
+	[Token(Token = "0x6000920")]
+	[Address(RVA = "0x254A0C0", Offset = "0x25486C0", VA = "0x18254A0C0")]
 	internal static string InvalidOpStreamNonReadable(string method)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000902")]
-	[Address(RVA = "0x4602400", Offset = "0x4602400", VA = "0x4602400")]
+	[Token(Token = "0x6000921")]
+	[Address(RVA = "0x254A100", Offset = "0x2548700", VA = "0x18254A100")]
 	internal static string InvalidOpStreamNonSeekable(string method)
 	{
 		return null;

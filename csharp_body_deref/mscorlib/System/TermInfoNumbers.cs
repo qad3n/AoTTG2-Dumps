@@ -9,75 +9,75 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A3")]
+[Token(Token = "0x20001CE")]
 internal enum TermInfoNumbers
 {
-	[Token(Token = "0x40006F9")]
+	[Token(Token = "0x400075D")]
 	Columns,
-	[Token(Token = "0x40006FA")]
+	[Token(Token = "0x400075E")]
 	InitTabs,
-	[Token(Token = "0x40006FB")]
+	[Token(Token = "0x400075F")]
 	Lines,
-	[Token(Token = "0x40006FC")]
+	[Token(Token = "0x4000760")]
 	LinesOfMemory,
-	[Token(Token = "0x40006FD")]
+	[Token(Token = "0x4000761")]
 	MagicCookieGlitch,
-	[Token(Token = "0x40006FE")]
+	[Token(Token = "0x4000762")]
 	PaddingBaudRate,
-	[Token(Token = "0x40006FF")]
+	[Token(Token = "0x4000763")]
 	VirtualTerminal,
-	[Token(Token = "0x4000700")]
+	[Token(Token = "0x4000764")]
 	WidthStatusLine,
-	[Token(Token = "0x4000701")]
+	[Token(Token = "0x4000765")]
 	NumLabels,
-	[Token(Token = "0x4000702")]
+	[Token(Token = "0x4000766")]
 	LabelHeight,
-	[Token(Token = "0x4000703")]
+	[Token(Token = "0x4000767")]
 	LabelWidth,
-	[Token(Token = "0x4000704")]
+	[Token(Token = "0x4000768")]
 	MaxAttributes,
-	[Token(Token = "0x4000705")]
+	[Token(Token = "0x4000769")]
 	MaximumWindows,
-	[Token(Token = "0x4000706")]
+	[Token(Token = "0x400076A")]
 	MaxColors,
-	[Token(Token = "0x4000707")]
+	[Token(Token = "0x400076B")]
 	MaxPairs,
-	[Token(Token = "0x4000708")]
+	[Token(Token = "0x400076C")]
 	NoColorVideo,
-	[Token(Token = "0x4000709")]
+	[Token(Token = "0x400076D")]
 	BufferCapacity,
-	[Token(Token = "0x400070A")]
+	[Token(Token = "0x400076E")]
 	DotVertSpacing,
-	[Token(Token = "0x400070B")]
+	[Token(Token = "0x400076F")]
 	DotHorzSpacing,
-	[Token(Token = "0x400070C")]
+	[Token(Token = "0x4000770")]
 	MaxMicroAddress,
-	[Token(Token = "0x400070D")]
+	[Token(Token = "0x4000771")]
 	MaxMicroJump,
-	[Token(Token = "0x400070E")]
+	[Token(Token = "0x4000772")]
 	MicroColSize,
-	[Token(Token = "0x400070F")]
+	[Token(Token = "0x4000773")]
 	MicroLineSize,
-	[Token(Token = "0x4000710")]
+	[Token(Token = "0x4000774")]
 	NumberOfPins,
-	[Token(Token = "0x4000711")]
+	[Token(Token = "0x4000775")]
 	OutputResChar,
-	[Token(Token = "0x4000712")]
+	[Token(Token = "0x4000776")]
 	OutputResLine,
-	[Token(Token = "0x4000713")]
+	[Token(Token = "0x4000777")]
 	OutputResHorzInch,
-	[Token(Token = "0x4000714")]
+	[Token(Token = "0x4000778")]
 	OutputResVertInch,
-	[Token(Token = "0x4000715")]
+	[Token(Token = "0x4000779")]
 	PrintRate,
-	[Token(Token = "0x4000716")]
+	[Token(Token = "0x400077A")]
 	WideCharSize,
-	[Token(Token = "0x4000717")]
+	[Token(Token = "0x400077B")]
 	Buttons,
-	[Token(Token = "0x4000718")]
+	[Token(Token = "0x400077C")]
 	BitImageEntwining,
-	[Token(Token = "0x4000719")]
+	[Token(Token = "0x400077D")]
 	BitImageType,
-	[Token(Token = "0x400071A")]
+	[Token(Token = "0x400077E")]
 	Last
 }

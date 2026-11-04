@@ -10,12 +10,12 @@ using UnityEngine.Scripting;
 
 namespace Unity.IO.LowLevel.Unsafe;
 
-[Token(Token = "0x200002F")]
+[Token(Token = "0x200003D")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 public enum FileState
 {
-	[Token(Token = "0x4000081")]
+	[Token(Token = "0x40000A8")]
 	Absent,
-	[Token(Token = "0x4000082")]
+	[Token(Token = "0x40000A9")]
 	Exists
 }

@@ -9,24 +9,24 @@ using Il2CppDummyDll;
 
 namespace System.Globalization;
 
-[Token(Token = "0x20005CA")]
+[Token(Token = "0x200059C")]
 internal interface ISimpleCollator
 {
-	[Token(Token = "0x6002DA1")]
+	[Token(Token = "0x6002AAE")]
 	SortKey GetSortKey(string source, CompareOptions options);
 
-	[Token(Token = "0x6002DA2")]
+	[Token(Token = "0x6002AAF")]
 	int Compare(string s1, int idx1, int len1, string s2, int idx2, int len2, CompareOptions options);
 
-	[Token(Token = "0x6002DA3")]
+	[Token(Token = "0x6002AB0")]
 	bool IsPrefix(string src, string target, CompareOptions opt);
 
-	[Token(Token = "0x6002DA4")]
+	[Token(Token = "0x6002AB1")]
 	bool IsSuffix(string src, string target, CompareOptions opt);
 
-	[Token(Token = "0x6002DA5")]
+	[Token(Token = "0x6002AB2")]
 	int IndexOf(string s, string target, int start, int length, CompareOptions opt);
 
-	[Token(Token = "0x6002DA6")]
+	[Token(Token = "0x6002AB3")]
 	int LastIndexOf(string s, string target, int start, int length, CompareOptions opt);
 }

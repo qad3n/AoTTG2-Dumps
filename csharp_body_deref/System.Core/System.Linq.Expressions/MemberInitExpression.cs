@@ -19,8 +19,8 @@ public sealed class MemberInitExpression : Expression
 	[Token(Token = "0x170000C6")]
 	public NewExpression NewExpression
 	{
-		[Token(Token = "0x6000480")]
-		[Address(RVA = "0x44BD0E0", Offset = "0x44BD0E0", VA = "0x44BD0E0")]
+		[Token(Token = "0x600047F")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -31,8 +31,8 @@ public sealed class MemberInitExpression : Expression
 	[Token(Token = "0x170000C7")]
 	public ReadOnlyCollection<MemberBinding> Bindings
 	{
-		[Token(Token = "0x6000481")]
-		[Address(RVA = "0x44BD0F0", Offset = "0x44BD0F0", VA = "0x44BD0F0")]
+		[Token(Token = "0x6000480")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{

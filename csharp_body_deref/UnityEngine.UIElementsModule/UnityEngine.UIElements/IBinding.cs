@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000057")]
+[Token(Token = "0x2000093")]
 public interface IBinding
 {
-	[Token(Token = "0x6000327")]
+	[Token(Token = "0x60004EF")]
 	void PreUpdate();
 
-	[Token(Token = "0x6000328")]
+	[Token(Token = "0x60004F0")]
 	void Update();
 
-	[Token(Token = "0x6000329")]
+	[Token(Token = "0x60004F1")]
 	void Release();
 }

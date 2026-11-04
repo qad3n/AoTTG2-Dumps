@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x2000186")]
+[Token(Token = "0x200019D")]
 public delegate Vector2Int ScaleFunc(Vector2Int size);

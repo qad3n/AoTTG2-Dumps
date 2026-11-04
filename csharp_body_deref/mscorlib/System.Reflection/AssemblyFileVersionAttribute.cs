@@ -10,7 +10,7 @@ using Il2CppDummyDll;
 
 namespace System.Reflection;
 
-[Token(Token = "0x20004C8")]
+[Token(Token = "0x20004F8")]
 [AttributeUsage(AttributeTargets.Assembly, Inherited = false)]
 public sealed class AssemblyFileVersionAttribute : Attribute
 {
@@ -19,8 +19,8 @@ public sealed class AssemblyFileVersionAttribute : Attribute
 	[CompilerGenerated]
 	private readonly string _003CVersion_003Ek__BackingField;
 
-	[Token(Token = "0x60023D6")]
-	[Address(RVA = "0x3BD0580", Offset = "0x3BD0580", VA = "0x3BD0580")]
+	[Token(Token = "0x6002458")]
+	[Address(RVA = "0x1A3EC70", Offset = "0x1A3D270", VA = "0x181A3EC70")]
 	public AssemblyFileVersionAttribute(string version)
 	{
 	}

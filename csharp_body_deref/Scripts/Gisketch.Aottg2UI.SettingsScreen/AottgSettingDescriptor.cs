@@ -1,6 +1,6 @@
 // ==================== AoTTG2 cross-reference ====================
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSettingDescriptor
-// Update status: NEW in this game update
+// Update status: CHANGED in this game update
 // Real method bodies (native C decompile): source/cpp/Gisketch/Aottg2UI/SettingsScreen/AottgSettingDescriptor.c
 // Prior real C# source: none (type is newer than the last public source snapshot)
 // Bodies below are empty IL2CPP metadata stubs; the logic lives in the native C.
@@ -12,89 +12,101 @@ using Il2CppDummyDll;
 
 namespace Gisketch.Aottg2UI.SettingsScreen;
 
-[Token(Token = "0x2000128")]
+[Token(Token = "0x200016F")]
 internal sealed class AottgSettingDescriptor
 {
-	[Token(Token = "0x40006C4")]
+	[Token(Token = "0x4000820")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public readonly string Id;
 
-	[Token(Token = "0x40006C5")]
+	[Token(Token = "0x4000821")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x18")]
 	public readonly string Label;
 
-	[Token(Token = "0x40006C6")]
+	[Token(Token = "0x4000822")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x20")]
 	public readonly AottgSettingControlKind Kind;
 
-	[Token(Token = "0x40006C7")]
+	[Token(Token = "0x4000823")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x28")]
 	public readonly IAottgSettingAdapter Adapter;
 
-	[Token(Token = "0x40006C8")]
+	[Token(Token = "0x4000824")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x30")]
+	public string LabelKey;
+
+	[Token(Token = "0x4000825")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
 	public IAottgSettingAdapter SecondaryAdapter;
 
-	[Token(Token = "0x40006C9")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x38")]
+	[Token(Token = "0x4000826")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
 	public string Tooltip;
 
-	[Token(Token = "0x40006CA")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x40")]
+	[Token(Token = "0x4000827")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	public string TooltipKey;
+
+	[Token(Token = "0x4000828")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
 	public string SearchTitle;
 
-	[Token(Token = "0x40006CB")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x48")]
+	[Token(Token = "0x4000829")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
 	public string SearchKeywords;
 
-	[Token(Token = "0x40006CC")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x50")]
+	[Token(Token = "0x400082A")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
 	public string Icon;
 
-	[Token(Token = "0x40006CD")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x58")]
+	[Token(Token = "0x400082B")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
 	public bool Disabled;
 
-	[Token(Token = "0x40006CE")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x59")]
+	[Token(Token = "0x400082C")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x69")]
 	public bool ShowValue;
 
-	[Token(Token = "0x40006CF")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x5C")]
+	[Token(Token = "0x400082D")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x6C")]
 	public int MaxVisibleItems;
 
-	[Token(Token = "0x40006D0")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x60")]
+	[Token(Token = "0x400082E")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
 	public AottgSettingOption[] Options;
 
-	[Token(Token = "0x40006D1")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x68")]
+	[Token(Token = "0x400082F")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
 	public string ActionText;
 
-	[Token(Token = "0x40006D2")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x70")]
+	[Token(Token = "0x4000830")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
 	public string ActionId;
 
-	[Token(Token = "0x40006D3")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x78")]
+	[Token(Token = "0x4000831")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
 	public Action<GisketchActionContext> Action;
 
-	[Token(Token = "0x40006D4")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x80")]
+	[Token(Token = "0x4000832")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x90")]
+	public Func<string> DirtyValue;
+
+	[Token(Token = "0x4000833")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0x98")]
 	public string ReadOnlyText;
 
-	[Token(Token = "0x40006D5")]
-	[Il2CppDummyDll.FieldOffset(Offset = "0x88")]
+	[Token(Token = "0x4000834")]
+	[Il2CppDummyDll.FieldOffset(Offset = "0xA0")]
 	public Action<GisketchActionContext> OnChanged;
 
-	[Token(Token = "0x6000617")]
-	[Address(RVA = "0x4360940", Offset = "0x4360940", VA = "0x4360940")]
+	[Token(Token = "0x600078D")]
+	[Address(RVA = "0x230BF80", Offset = "0x230A580", VA = "0x18230BF80")]
 	public AottgSettingDescriptor(string id, string label, AottgSettingControlKind kind, [Optional] IAottgSettingAdapter adapter)
 	{
 	}
 
-	[Token(Token = "0x6000618")]
-	[Address(RVA = "0x43609F0", Offset = "0x43609F0", VA = "0x43609F0")]
+	[Token(Token = "0x600078E")]
+	[Address(RVA = "0x230BE70", Offset = "0x230A470", VA = "0x18230BE70")]
 	public void Changed(GisketchActionContext context)
 	{
 	}

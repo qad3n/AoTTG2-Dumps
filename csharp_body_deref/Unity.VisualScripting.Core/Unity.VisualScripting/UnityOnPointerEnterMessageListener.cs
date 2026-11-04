@@ -15,14 +15,14 @@ namespace Unity.VisualScripting;
 [AddComponentMenu("")]
 public sealed class UnityOnPointerEnterMessageListener : MessageListener, IPointerEnterHandler, IEventSystemHandler
 {
-	[Token(Token = "0x6000483")]
-	[Address(RVA = "0x4CB79B0", Offset = "0x4CB79B0", VA = "0x4CB79B0", Slot = "4")]
+	[Token(Token = "0x600048D")]
+	[Address(RVA = "0x2DBE900", Offset = "0x2DBCF00", VA = "0x182DBE900", Slot = "4")]
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x6000484")]
-	[Address(RVA = "0x4CB7A40", Offset = "0x4CB7A40", VA = "0x4CB7A40")]
+	[Token(Token = "0x600048E")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public UnityOnPointerEnterMessageListener()
 	{
 	}

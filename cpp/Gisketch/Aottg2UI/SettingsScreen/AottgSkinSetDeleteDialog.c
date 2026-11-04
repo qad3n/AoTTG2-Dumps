@@ -1,44 +1,53 @@
 // Type: Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
-// Update status: NEW in this game update
+// Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/Gisketch.Aottg2UI.SettingsScreen/AottgSkinSetDeleteDialog.cs
 // Prior real C# source: none
 // --------------------------------
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$get_Title
 // il2cpp: System_String_o* Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_Title (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, const MethodInfo* method);
-// 0x4465b50
+// 0x18239eb60
 
 System_String_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_Title
           (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *__this,MethodInfo *method)
 
 {
-  if (g_data_057ae7bc == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Delete Skin Set");
-    g_data_057ae7bc = '\x01';
+  System_String_o *pSVar1;
+  
+  if (Il2CppMethodInitialized_184347b4f == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete Skin Set");
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup.Skins.Common.DeleteSkinSet");
+    Il2CppMethodInitialized_184347b4f = '\x01';
   }
-  return "Delete Skin Set";
+  if ((TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+  }
+  pSVar1 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text
+                     ("SettingsPopup.Skins.Common.DeleteSkinSet","Delete Skin Set",(MethodInfo *)0x0);
+  return pSVar1;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$get_BodyScrollable
 // il2cpp: bool Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_BodyScrollable (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, const MethodInfo* method);
-// 0x4465b80
+// 0x180668280
 
-bool_conflict
-Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_BodyScrollable
-          (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *__this,MethodInfo *method)
+bool
+Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_BodyScrollable(Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, MethodInfo* method)
 
 {
-  return 0;
+  return false;
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$get_RootLayout
 // il2cpp: Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o* Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_RootLayout (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, const MethodInfo* method);
-// 0x4465b90
+// 0x18239ea60
 
 Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *
 Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_RootLayout
@@ -48,15 +57,16 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_RootLayout
   Gisketch_Aottg2UI_Data_GisketchLength_o *width;
   Gisketch_Aottg2UI_Data_GisketchLayoutDefinition_o *pGVar1;
   
-  if (g_data_057ae7bd == '\0') {
-    il2cpp_runtime_helper_023445d0(&"Column");
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7bd = '\x01';
+  if (Il2CppMethodInitialized_184347b50 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&"Column");
+    il2cpp_codegen_initialize_runtime_metadata(&"Stretch");
+    Il2CppMethodInitialized_184347b50 = '\x01';
   }
   width = Gisketch_Aottg2UI_Code_AottgUi__Points(420.0,(MethodInfo *)0x0);
   pGVar1 = Gisketch_Aottg2UI_Code_AottgUi__Layout
-                     ("Column",(System_String_o *)0x0,"Stretch",(System_String_o *)0x0,
-                      (System_String_o *)0x0,0.0,width,(Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
+                     ("Column",(System_String_o *)0x0,"Stretch",
+                      (System_String_o *)0x0,(System_String_o *)0x0,0.0,width,
+                      (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
                       (Gisketch_Aottg2UI_Data_GisketchLength_o *)0x0,
@@ -68,285 +78,148 @@ Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__get_RootLayout
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$BuildBody
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__BuildBody (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, Gisketch_Aottg2UI_Code_AottgUi_o* body, const MethodInfo* method);
-// 0x4465c60
+// 0x18239e730
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__BuildBody
                (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *__this,
                Gisketch_Aottg2UI_Code_AottgUi_o *body,MethodInfo *method)
 
 {
-  System_Collections_Generic_List_GisketchNodeDefinition__o *__this_00;
-  Gisketch_Aottg2UI_Code_AottgActionRegistry_o *pGVar1;
-  Gisketch_Aottg2UI_Styling_GisketchTheme_o *__this_01;
-  bool_conflict bVar2;
-  System_String_o *pSVar3;
-  Gisketch_Aottg2UI_Code_AottgUi_o *__this_02;
-  System_String_o *pSVar4;
-  MethodInfo *method_00;
-  System_Action_GisketchActionContext__o *action;
-  Gisketch_Aottg2UI_GisketchUIRoot_o *__this_03;
-  System_Action_GisketchActionContext__o *action_00;
-  System_String_o *text;
-  MethodInfo *method_01;
-  UnityEngine_Object_o *__this_04;
-  System_String_o *in_R8;
-  System_String_o *in_R9;
-  UnityEngine_Object_o *unaff_R14;
-  MethodInfo *in_stack_ffffffffffffff88;
-  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *enter;
+  System_String_o *pSVar1;
+  System_String_o *arg0;
   
-  if (g_data_057ae7be == '\0') {
-    il2cpp_runtime_helper_023445d0(&"?");
-    __this = (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *)&"Delete ";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7be = '\x01';
+  if (Il2CppMethodInitialized_184347b51 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete {0}?");
+    il2cpp_codegen_initialize_runtime_metadata(&"SettingsPopup.Skins.Common.DeleteSetConfirm");
+    Il2CppMethodInitialized_184347b51 = '\x01';
   }
-  __this_02 = (Gisketch_Aottg2UI_Code_AottgUi_o *)
-              Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__SelectedName((MethodInfo *)__this);
-  method_01 = "Delete ";
-  pSVar4 = System_String__Concat_3af7150
-                     ((System_String_o *)"Delete ",(System_String_o *)__this_02,"?",
-                      (MethodInfo *)0x0);
+  if ((TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init
+              ((Il2CppClass *)TypeInfo_Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale);
+  }
+  pSVar1 = Gisketch_Aottg2UI_Localization_Aottg2GisketchLocale__Text
+                     ("SettingsPopup.Skins.Common.DeleteSetConfirm","Delete {0}?",(MethodInfo *)0x0);
+  arg0 = Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__SelectedName((MethodInfo *)0x0);
+  pSVar1 = System_String__Format(pSVar1,(Il2CppObject *)arg0,(MethodInfo *)0x0);
   if (body != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgUi__Callout(body,3,pSVar4,(System_String_o *)0x0,(MethodInfo *)0x0);
+    Gisketch_Aottg2UI_Code_AottgUi__Callout(body,3,pSVar1,(System_String_o *)0x0,(MethodInfo *)0x0);
     return;
   }
-  method_00 = (MethodInfo *)il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae7bf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_GisketchActionContext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Delete);
-    il2cpp_runtime_helper_023445d0(&"overlay.close");
-    il2cpp_runtime_helper_023445d0(&"Delete");
-    method_01 = (MethodInfo *)&"Cancel";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7bf = '\x01';
-  }
-  if (__this_02 != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgDialogFooter__Quiet
-              ((Gisketch_Aottg2UI_Code_AottgDialogFooter_o *)__this_02,"Cancel","overlay.close",
-               (MethodInfo *)0x0);
-    action = (System_Action_GisketchActionContext__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_GisketchActionContext);
-    enter = (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x4465d6e;
-    System_Action_GisketchActionContext____ctor();
-    pSVar4 = "Delete";
-    action_00 = (System_Action_GisketchActionContext__o *)0x0;
-    __this_00 = (__this_02->fields)._children;
-    if (__this_00 != (System_Collections_Generic_List_GisketchNodeDefinition__o *)0x0) {
-      pGVar1 = *(Gisketch_Aottg2UI_Code_AottgActionRegistry_o **)&(__this_00->fields)._size;
-      if (pGVar1 == (Gisketch_Aottg2UI_Code_AottgActionRegistry_o *)0x0) {
-        pSVar3 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      }
-      else {
-        pSVar3 = Gisketch_Aottg2UI_Code_AottgActionRegistry__Register
-                           (pGVar1,(System_String_o *)(__this_00->fields)._syncRoot,action,(MethodInfo *)0x0);
-      }
-      Gisketch_Aottg2UI_Code_AottgUi__Button
-                ((Gisketch_Aottg2UI_Code_AottgUi_o *)__this_00,0,pSVar4,pSVar3,(System_String_o *)0x0,
-                 (System_String_o *)0x0,(Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,
-                 (System_String_o *)0x0,method_00);
-      return;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    pGVar1 = (__this_02->fields)._actions;
-    if (pGVar1 == (Gisketch_Aottg2UI_Code_AottgActionRegistry_o *)0x0) {
-      pSVar3 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    else {
-      pSVar3 = Gisketch_Aottg2UI_Code_AottgActionRegistry__Register
-                         (pGVar1,(__this_02->fields)._ownerId,action_00,(MethodInfo *)0x0);
-    }
-    Gisketch_Aottg2UI_Code_AottgUi__Button
-              (__this_02,(int32_t)pSVar4,text,pSVar3,in_R8,in_R9,enter,(System_String_o *)method_00,
-               in_stack_ffffffffffffff88);
-    return;
-  }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae7c0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    method_01 = (MethodInfo *)&TypeInfo_Object;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7c0 = '\x01';
-  }
-  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__DeleteSelected(method_01);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_04 = unaff_R14;
-  bVar2 = UnityEngine_Object__op_Inequality(unaff_R14,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    if (unaff_R14 == (UnityEngine_Object_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      System_Object___ctor((Il2CppObject *)__this_04,(MethodInfo *)0x0);
-      return;
-    }
-    __this_03 = (Gisketch_Aottg2UI_GisketchUIRoot_o *)
-                UnityEngine_GameObject__GetComponentInParent_object_
-                          ((UnityEngine_GameObject_o *)unaff_R14,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    if (__this_03 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) {
-      __this_01 = (__this_03->fields)._Theme_k__BackingField;
-      if (__this_01 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
-        Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__CloseTop
-                  ((Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)__this_01,1,(MethodInfo *)0x0);
-      }
-      Gisketch_Aottg2UI_GisketchUIRoot__RefreshActiveScreen(__this_03,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$BuildFooter
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__BuildFooter (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, Gisketch_Aottg2UI_Code_AottgDialogFooter_o* footer, const MethodInfo* method);
-// 0x4465cd0
+// 0x18239e7f0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__BuildFooter
                (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *__this,
                Gisketch_Aottg2UI_Code_AottgDialogFooter_o *footer,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Code_AottgUi_o *__this_00;
-  Gisketch_Aottg2UI_Code_AottgActionRegistry_o *pGVar1;
-  Gisketch_Aottg2UI_Styling_GisketchTheme_o *__this_01;
-  bool_conflict bVar2;
-  System_String_o *pSVar3;
-  MethodInfo *in_RAX;
-  System_Action_GisketchActionContext__o *action;
-  Gisketch_Aottg2UI_GisketchUIRoot_o *__this_02;
-  System_Action_GisketchActionContext__o *action_00;
-  System_String_o *text;
-  System_String_o *pSVar4;
-  UnityEngine_Object_o *__this_03;
-  System_String_o *in_R8;
-  System_String_o *in_R9;
-  UnityEngine_Object_o *unaff_R14;
-  MethodInfo *in_stack_ffffffffffffff90;
-  Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *enter;
+  DG_Tweening_Core_DOSetter_Color2__o *__this_00;
   
-  if (g_data_057ae7bf == '\0') {
-    il2cpp_runtime_helper_023445d0(&TypeInfo_Action_GisketchActionContext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Delete);
-    il2cpp_runtime_helper_023445d0(&"overlay.close");
-    il2cpp_runtime_helper_023445d0(&"Delete");
-    __this = (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *)&"Cancel";
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7bf = '\x01';
+  if (Il2CppMethodInitialized_184347b52 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_System_Action_GisketchActionContext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_Delete);
+    il2cpp_codegen_initialize_runtime_metadata(&"overlay.close");
+    il2cpp_codegen_initialize_runtime_metadata(&"Delete");
+    il2cpp_codegen_initialize_runtime_metadata(&"Common.Delete");
+    il2cpp_codegen_initialize_runtime_metadata(&"Cancel");
+    il2cpp_codegen_initialize_runtime_metadata(&"Common.Cancel");
+    Il2CppMethodInitialized_184347b52 = '\x01';
   }
   if (footer != (Gisketch_Aottg2UI_Code_AottgDialogFooter_o *)0x0) {
-    Gisketch_Aottg2UI_Code_AottgDialogFooter__Quiet(footer,"Cancel","overlay.close",(MethodInfo *)0x0);
-    action = (System_Action_GisketchActionContext__o *)il2cpp_runtime_helper_023052d0(TypeInfo_Action_GisketchActionContext);
-    enter = (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x4465d6e;
-    System_Action_GisketchActionContext____ctor();
-    pSVar4 = "Delete";
-    action_00 = (System_Action_GisketchActionContext__o *)0x0;
-    __this_00 = (footer->fields)._ui;
-    if (__this_00 != (Gisketch_Aottg2UI_Code_AottgUi_o *)0x0) {
-      pGVar1 = (__this_00->fields)._actions;
-      if (pGVar1 == (Gisketch_Aottg2UI_Code_AottgActionRegistry_o *)0x0) {
-        pSVar3 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-      }
-      else {
-        pSVar3 = Gisketch_Aottg2UI_Code_AottgActionRegistry__Register
-                           (pGVar1,(__this_00->fields)._ownerId,action,(MethodInfo *)0x0);
-      }
-      Gisketch_Aottg2UI_Code_AottgUi__Button
-                (__this_00,0,pSVar4,pSVar3,(System_String_o *)0x0,(System_String_o *)0x0,
-                 (Gisketch_Aottg2UI_Data_GisketchMotionDefinition_o *)0x0,(System_String_o *)0x0,in_RAX);
-      return;
-    }
-    il2cpp_runtime_helper_022b2c90();
-    pGVar1 = (((Gisketch_Aottg2UI_Code_AottgUi_o *)footer)->fields)._actions;
-    if (pGVar1 == (Gisketch_Aottg2UI_Code_AottgActionRegistry_o *)0x0) {
-      pSVar3 = (System_String_o *)**(undefined8 **)(g_data_057b9c00 + 0xb8);
-    }
-    else {
-      pSVar3 = Gisketch_Aottg2UI_Code_AottgActionRegistry__Register
-                         (pGVar1,(((Gisketch_Aottg2UI_Code_AottgUi_o *)footer)->fields)._ownerId,action_00,
-                          (MethodInfo *)0x0);
-    }
-    Gisketch_Aottg2UI_Code_AottgUi__Button
-              ((Gisketch_Aottg2UI_Code_AottgUi_o *)footer,(int32_t)pSVar4,text,pSVar3,in_R8,in_R9,enter,
-               (System_String_o *)in_RAX,in_stack_ffffffffffffff90);
+    Gisketch_Aottg2UI_Code_AottgDialogFooter__QuietKey
+              (footer,"Common.Cancel","Cancel","overlay.close",(MethodInfo *)0x0);
+    __this_00 = (DG_Tweening_Core_DOSetter_Color2__o *)
+                il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_System_Action_GisketchActionContext);
+    System_Action_GisketchActionContext____ctor
+              (__this_00,(Il2CppObject *)0x0,
+               (intptr_t)MethodInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_Delete,
+               (MethodInfo_1387DC0 *)0x0);
+    Gisketch_Aottg2UI_Code_AottgDialogFooter__PrimaryKey_18c3540
+              (footer,"Common.Delete","Delete",
+               (System_Action_GisketchActionContext__o *)__this_00,(MethodInfo *)0x0);
     return;
   }
-  il2cpp_runtime_helper_022b2c90();
-  if (g_data_057ae7c0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    __this = (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *)&TypeInfo_Object;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7c0 = '\x01';
-  }
-  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__DeleteSelected((MethodInfo *)__this);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
-  }
-  __this_03 = unaff_R14;
-  bVar2 = UnityEngine_Object__op_Inequality(unaff_R14,(UnityEngine_Object_o *)0x0,(MethodInfo *)0x0);
-  if ((char)bVar2 != '\0') {
-    if (unaff_R14 == (UnityEngine_Object_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      System_Object___ctor((Il2CppObject *)__this_03,(MethodInfo *)0x0);
-      return;
-    }
-    __this_02 = (Gisketch_Aottg2UI_GisketchUIRoot_o *)
-                UnityEngine_GameObject__GetComponentInParent_object_
-                          ((UnityEngine_GameObject_o *)unaff_R14,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    if (__this_02 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) {
-      __this_01 = (__this_02->fields)._Theme_k__BackingField;
-      if (__this_01 != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
-        Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__CloseTop
-                  ((Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)__this_01,1,(MethodInfo *)0x0);
-      }
-      Gisketch_Aottg2UI_GisketchUIRoot__RefreshActiveScreen(__this_02,(MethodInfo *)0x0);
-      return;
-    }
-  }
-  return;
+  ThrowNullReferenceException();
 }
 
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$Delete
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__Delete (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context, const MethodInfo* method);
-// 0x4465da0
+// 0x18239e8f0
 
 void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__Delete
-               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o context,MethodInfo *method)
+               (Gisketch_Aottg2UI_Actions_GisketchActionContext_o *context,MethodInfo *method)
 
 {
-  Gisketch_Aottg2UI_Styling_GisketchTheme_o *__this;
-  bool_conflict bVar1;
-  Gisketch_Aottg2UI_GisketchUIRoot_o *__this_00;
-  UnityEngine_GameObject_o *__this_01;
+  Il2CppObject *pIVar1;
+  UnityEngine_GameObject_o *__this;
+  Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *__this_00;
+  bool bVar2;
+  void *pvVar3;
+  Settings_TypedSetting_int__o *__this_01;
+  Gisketch_Aottg2UI_GisketchUIRoot_o *pGVar4;
   
-  if (g_data_057ae7c0 == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    method = (MethodInfo *)&TypeInfo_Object;
-    il2cpp_runtime_helper_023445d0();
-    g_data_057ae7c0 = '\x01';
+  if (Il2CppMethodInitialized_184347b53 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_UnityEngine_Object);
+    Il2CppMethodInitialized_184347b53 = '\x01';
   }
-  Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__DeleteSelected(method);
-  if (*(int *)(TypeInfo_Object + 0xe4) == 0) {
-    il2cpp_runtime_helper_02337ed0();
+  if (Il2CppMethodInitialized_184347b4c == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions)
+    ;
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ISetSettingsContainer);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_int_set_Value);
+    Il2CppMethodInitialized_184347b4c = '\x01';
   }
-  __this_01 = context.fields.GameObject;
-  bVar1 = UnityEngine_Object__op_Inequality
-                    ((UnityEngine_Object_o *)context.fields.GameObject,(UnityEngine_Object_o *)0x0,
-                     (MethodInfo *)0x0);
-  if ((char)bVar1 != '\0') {
-    if (context.fields.GameObject == (UnityEngine_GameObject_o *)0x0) {
-      il2cpp_runtime_helper_022b2c90();
-      System_Object___ctor((Il2CppObject *)__this_01,(MethodInfo *)0x0);
-      return;
+  if (TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings !=
+      (Settings_ISetSettingsContainer_o *)0x0) {
+    pvVar3 = InterfaceInvoker0_Invoke
+                       (7,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,
+                        (Il2CppObject *)
+                        TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->
+                        _settings);
+    if ((char)pvVar3 != '\0') {
+      pIVar1 = (Il2CppObject *)
+               TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+      if (pIVar1 == (Il2CppObject *)0x0) goto label_18239ea5a;
+      InterfaceInvoker0_Invoke(6,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar1);
+      pIVar1 = (Il2CppObject *)
+               TypeInfo_Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions->static_fields->_settings;
+      if (pIVar1 == (Il2CppObject *)0x0) goto label_18239ea5a;
+      __this_01 = InterfaceInvoker0_Invoke(1,(Il2CppClass *)TypeInfo_Settings_ISetSettingsContainer,pIVar1);
+      if (__this_01 == (Settings_TypedSetting_int__o *)0x0) goto label_18239ea5a;
+      Settings_TypedSetting_int___set_Value
+                (__this_01,0,(MethodInfo_E8F570 *)MethodInfo_Settings_TypedSetting_int_set_Value);
+      Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetActions__InvokeAfterChange((MethodInfo *)0x0);
     }
-    __this_00 = (Gisketch_Aottg2UI_GisketchUIRoot_o *)
-                UnityEngine_GameObject__GetComponentInParent_object_(context.fields.GameObject,MethodInfo_GisketchUIRoot_GetComponentInParent_GisketchUIRoot);
-    if (__this_00 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) {
-      __this = (__this_00->fields)._Theme_k__BackingField;
-      if (__this != (Gisketch_Aottg2UI_Styling_GisketchTheme_o *)0x0) {
-        Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__CloseTop
-                  ((Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)__this,1,(MethodInfo *)0x0);
-      }
-      Gisketch_Aottg2UI_GisketchUIRoot__RefreshActiveScreen(__this_00,(MethodInfo *)0x0);
+  }
+  if ((TypeInfo_UnityEngine_Object->_2).cctor_finished_or_no_cctor == 0) {
+    il2cpp_codegen_runtime_class_init((Il2CppClass *)TypeInfo_UnityEngine_Object);
+  }
+  bVar2 = UnityEngine_Object__op_Inequality
+                    ((UnityEngine_Object_o *)(context->fields).GameObject,(UnityEngine_Object_o *)0x0,
+                     (MethodInfo *)0x0);
+  if (bVar2) {
+    __this = (context->fields).GameObject;
+    if (__this == (UnityEngine_GameObject_o *)0x0) {
+label_18239ea5a:
+      ThrowNullReferenceException();
+    }
+    pGVar4 = UnityEngine_GameObject__GetComponentInParent_object_
+                       (__this,(MethodInfo_6F53B0 *)
+                               MethodInfo_UnityEngine_GameObject_GetComponentInParent_GisketchUIRoot);
+    if ((pGVar4 != (Gisketch_Aottg2UI_GisketchUIRoot_o *)0x0) &&
+       (__this_00 = (pGVar4->fields)._Overlays_k__BackingField,
+       __this_00 != (Gisketch_Aottg2UI_Overlays_GisketchOverlayManager_o *)0x0)) {
+      Gisketch_Aottg2UI_Overlays_GisketchOverlayManager__CloseTop(__this_00,true,(MethodInfo *)0x0);
       return;
     }
   }
@@ -356,13 +229,14 @@ void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog__Delete
 
 // Gisketch.Aottg2UI.SettingsScreen.AottgSkinSetDeleteDialog$$.ctor
 // il2cpp: void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog___ctor (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, const MethodInfo* method);
-// 0x4465e50
+// 0x1805386d0
 
-void Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog___ctor
-               (Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o *__this,MethodInfo *method)
+void
+Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog___ctor(Gisketch_Aottg2UI_SettingsScreen_AottgSkinSetDeleteDialog_o* __this, MethodInfo* method)
 
 {
-  System_Object___ctor((Il2CppObject *)__this,(MethodInfo *)0x0);
+  Gisketch_Aottg2UI_Code_AottgDialog___ctor
+            ((UnitySourceGeneratedAssemblyMonoScriptTypes_v1_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

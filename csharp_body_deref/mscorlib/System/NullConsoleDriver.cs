@@ -9,22 +9,22 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x2000197")]
+[Token(Token = "0x20001C2")]
 internal class NullConsoleDriver : System.IConsoleDriver
 {
-	[Token(Token = "0x40006B8")]
+	[Token(Token = "0x400071C")]
 	[FieldOffset(Offset = "0x0")]
 	private static readonly ConsoleKeyInfo EmptyConsoleKeyInfo;
 
-	[Token(Token = "0x6000FD3")]
-	[Address(RVA = "0x3D11DD0", Offset = "0x3D11DD0", VA = "0x3D11DD0", Slot = "4")]
+	[Token(Token = "0x600102A")]
+	[Address(RVA = "0x1B87620", Offset = "0x1B85C20", VA = "0x181B87620", Slot = "4")]
 	public ConsoleKeyInfo ReadKey(bool intercept)
 	{
 		return default(ConsoleKeyInfo);
 	}
 
-	[Token(Token = "0x6000FD4")]
-	[Address(RVA = "0x3D09EF0", Offset = "0x3D09EF0", VA = "0x3D09EF0")]
+	[Token(Token = "0x600102B")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	public NullConsoleDriver()
 	{
 	}

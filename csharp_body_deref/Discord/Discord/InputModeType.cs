@@ -9,11 +9,11 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000036")]
+[Token(Token = "0x2000034")]
 public enum InputModeType
 {
-	[Token(Token = "0x40000A1")]
+	[Token(Token = "0x400009C")]
 	VoiceActivity,
-	[Token(Token = "0x40000A2")]
+	[Token(Token = "0x400009D")]
 	PushToTalk
 }

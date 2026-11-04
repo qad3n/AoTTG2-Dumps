@@ -30,55 +30,55 @@ internal class TypeTranslator
 	private static Hashtable nullableTypes;
 
 	[Token(Token = "0x6000CF7")]
-	[Address(RVA = "0x480D0A0", Offset = "0x480D0A0", VA = "0x480D0A0")]
+	[Address(RVA = "0x2741960", Offset = "0x273FF60", VA = "0x182741960")]
 	static TypeTranslator()
 	{
 	}
 
 	[Token(Token = "0x6000CF8")]
-	[Address(RVA = "0x480A380", Offset = "0x480A380", VA = "0x480A380")]
+	[Address(RVA = "0x27417A0", Offset = "0x273FDA0", VA = "0x1827417A0")]
 	public static TypeData GetTypeData(Type type)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CF9")]
-	[Address(RVA = "0x480F720", Offset = "0x480F720", VA = "0x480F720")]
+	[Address(RVA = "0x2740C00", Offset = "0x273F200", VA = "0x182740C00")]
 	public static TypeData GetTypeData(Type runtimeType, string xmlDataType, bool underlyingEnumType = false)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFA")]
-	[Address(RVA = "0x4810460", Offset = "0x4810460", VA = "0x4810460")]
+	[Address(RVA = "0x2740BB0", Offset = "0x273F1B0", VA = "0x182740BB0")]
 	public static TypeData GetPrimitiveTypeData(string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFB")]
-	[Address(RVA = "0x48104C0", Offset = "0x48104C0", VA = "0x48104C0")]
+	[Address(RVA = "0x2740970", Offset = "0x273EF70", VA = "0x182740970")]
 	public static TypeData GetPrimitiveTypeData(string typeName, bool nullable)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFC")]
-	[Address(RVA = "0x4810700", Offset = "0x4810700", VA = "0x4810700")]
+	[Address(RVA = "0x27407C0", Offset = "0x273EDC0", VA = "0x1827407C0")]
 	public static TypeData FindPrimitiveTypeData(string typeName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFD")]
-	[Address(RVA = "0x480ADC0", Offset = "0x480ADC0", VA = "0x480ADC0")]
+	[Address(RVA = "0x2740880", Offset = "0x273EE80", VA = "0x182740880")]
 	public static string GetArrayName(string elemName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x6000CFE")]
-	[Address(RVA = "0x48107F0", Offset = "0x48107F0", VA = "0x48107F0")]
+	[Address(RVA = "0x27417F0", Offset = "0x273FDF0", VA = "0x1827417F0")]
 	public static void ParseArrayType(string arrayType, out string type, out string ns, out string dimensions)
 	{
 	}

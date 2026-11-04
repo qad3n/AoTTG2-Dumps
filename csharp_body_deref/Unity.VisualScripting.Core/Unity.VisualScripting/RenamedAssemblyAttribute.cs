@@ -15,11 +15,11 @@ namespace Unity.VisualScripting;
 [AttributeUsage(AttributeTargets.Assembly, AllowMultiple = true)]
 public sealed class RenamedAssemblyAttribute : Attribute
 {
-	[Token(Token = "0x17000173")]
+	[Token(Token = "0x17000176")]
 	public string previousName
 	{
-		[Token(Token = "0x6000E7A")]
-		[Address(RVA = "0x4D476E0", Offset = "0x4D476E0", VA = "0x4D476E0")]
+		[Token(Token = "0x6000E84")]
+		[Address(RVA = "0x8FB3A0", Offset = "0x8F99A0", VA = "0x1808FB3A0")]
 		[CompilerGenerated]
 		get
 		{
@@ -27,11 +27,11 @@ public sealed class RenamedAssemblyAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x17000174")]
+	[Token(Token = "0x17000177")]
 	public string newName
 	{
-		[Token(Token = "0x6000E7B")]
-		[Address(RVA = "0x4D476F0", Offset = "0x4D476F0", VA = "0x4D476F0")]
+		[Token(Token = "0x6000E85")]
+		[Address(RVA = "0x573E90", Offset = "0x572490", VA = "0x180573E90")]
 		[CompilerGenerated]
 		get
 		{
@@ -39,8 +39,8 @@ public sealed class RenamedAssemblyAttribute : Attribute
 		}
 	}
 
-	[Token(Token = "0x6000E79")]
-	[Address(RVA = "0x4D476A0", Offset = "0x4D476A0", VA = "0x4D476A0")]
+	[Token(Token = "0x6000E83")]
+	[Address(RVA = "0x1A291F0", Offset = "0x1A277F0", VA = "0x181A291F0")]
 	public RenamedAssemblyAttribute(string previousName, string newName)
 	{
 	}

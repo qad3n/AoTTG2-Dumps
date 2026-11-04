@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001F6")]
+[Token(Token = "0x20001F9")]
 [DisallowMultipleComponent]
 public sealed class AsyncTriggerExit2DTrigger : AsyncTriggerBase<Collider2D>
 {
-	[Token(Token = "0x6000BC1")]
-	[Address(RVA = "0x4A13AA0", Offset = "0x4A13AA0", VA = "0x4A13AA0")]
+	[Token(Token = "0x6000BE5")]
+	[Address(RVA = "0x293A0F0", Offset = "0x29386F0", VA = "0x18293A0F0")]
 	private void OnTriggerExit2D(Collider2D other)
 	{
 	}
 
-	[Token(Token = "0x6000BC2")]
-	[Address(RVA = "0x4A13AF0", Offset = "0x4A13AF0", VA = "0x4A13AF0")]
+	[Token(Token = "0x6000BE6")]
+	[Address(RVA = "0x2939DD0", Offset = "0x29383D0", VA = "0x182939DD0")]
 	public IAsyncOnTriggerExit2DHandler GetOnTriggerExit2DAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BC3")]
-	[Address(RVA = "0x4A13B60", Offset = "0x4A13B60", VA = "0x4A13B60")]
+	[Token(Token = "0x6000BE7")]
+	[Address(RVA = "0x2939E40", Offset = "0x2938440", VA = "0x182939E40")]
 	public IAsyncOnTriggerExit2DHandler GetOnTriggerExit2DAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BC4")]
-	[Address(RVA = "0x4A13BD0", Offset = "0x4A13BD0", VA = "0x4A13BD0")]
+	[Token(Token = "0x6000BE8")]
+	[Address(RVA = "0x2939FD0", Offset = "0x29385D0", VA = "0x182939FD0")]
 	public UniTask<Collider2D> OnTriggerExit2DAsync()
 	{
 		return default(UniTask<Collider2D>);
 	}
 
-	[Token(Token = "0x6000BC5")]
-	[Address(RVA = "0x4A13CD0", Offset = "0x4A13CD0", VA = "0x4A13CD0")]
+	[Token(Token = "0x6000BE9")]
+	[Address(RVA = "0x2939EC0", Offset = "0x29384C0", VA = "0x182939EC0")]
 	public UniTask<Collider2D> OnTriggerExit2DAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collider2D>);
 	}
 
-	[Token(Token = "0x6000BC6")]
-	[Address(RVA = "0x4A13DE0", Offset = "0x4A13DE0", VA = "0x4A13DE0")]
+	[Token(Token = "0x6000BEA")]
+	[Address(RVA = "0x293A140", Offset = "0x2938740", VA = "0x18293A140")]
 	public AsyncTriggerExit2DTrigger()
 	{
 	}

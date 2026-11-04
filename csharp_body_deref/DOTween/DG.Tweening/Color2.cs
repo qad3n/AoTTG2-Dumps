@@ -22,27 +22,27 @@ public struct Color2
 	public Color cb;
 
 	[Token(Token = "0x6000001")]
-	[Address(RVA = "0x2353EF0", Offset = "0x2353EF0", VA = "0x2353EF0")]
+	[Address(RVA = "0x547570", Offset = "0x545B70", VA = "0x180547570")]
 	public Color2(Color ca, Color cb)
 	{
 	}
 
 	[Token(Token = "0x6000002")]
-	[Address(RVA = "0x2353F00", Offset = "0x2353F00", VA = "0x2353F00")]
+	[Address(RVA = "0x547580", Offset = "0x545B80", VA = "0x180547580")]
 	public static Color2 operator +(Color2 c1, Color2 c2)
 	{
 		return default(Color2);
 	}
 
 	[Token(Token = "0x6000003")]
-	[Address(RVA = "0x2353F50", Offset = "0x2353F50", VA = "0x2353F50")]
+	[Address(RVA = "0x547610", Offset = "0x545C10", VA = "0x180547610")]
 	public static Color2 operator -(Color2 c1, Color2 c2)
 	{
 		return default(Color2);
 	}
 
 	[Token(Token = "0x6000004")]
-	[Address(RVA = "0x2353FA0", Offset = "0x2353FA0", VA = "0x2353FA0")]
+	[Address(RVA = "0x5475D0", Offset = "0x545BD0", VA = "0x1805475D0")]
 	public static Color2 operator *(Color2 c1, float f)
 	{
 		return default(Color2);

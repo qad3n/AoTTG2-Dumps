@@ -10,5 +10,5 @@ using UnityEngine;
 
 namespace EZhex1991.EZSoftBone;
 
-[Token(Token = "0x2000006")]
+[Token(Token = "0x2000004")]
 public delegate Vector3 CustomForce(float normalizedLength);

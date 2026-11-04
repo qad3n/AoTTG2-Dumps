@@ -9,100 +9,100 @@ using Il2CppDummyDll;
 
 namespace System;
 
-[Token(Token = "0x20001A4")]
+[Token(Token = "0x20001CF")]
 internal class TermInfoReader
 {
-	[Token(Token = "0x400071B")]
+	[Token(Token = "0x400077F")]
 	[FieldOffset(Offset = "0x10")]
 	private int boolSize;
 
-	[Token(Token = "0x400071C")]
+	[Token(Token = "0x4000780")]
 	[FieldOffset(Offset = "0x14")]
 	private int numSize;
 
-	[Token(Token = "0x400071D")]
+	[Token(Token = "0x4000781")]
 	[FieldOffset(Offset = "0x18")]
 	private int strOffsets;
 
-	[Token(Token = "0x400071E")]
+	[Token(Token = "0x4000782")]
 	[FieldOffset(Offset = "0x20")]
 	private byte[] buffer;
 
-	[Token(Token = "0x400071F")]
+	[Token(Token = "0x4000783")]
 	[FieldOffset(Offset = "0x28")]
 	private int booleansOffset;
 
-	[Token(Token = "0x4000720")]
+	[Token(Token = "0x4000784")]
 	[FieldOffset(Offset = "0x2C")]
 	private int intOffset;
 
-	[Token(Token = "0x6001058")]
-	[Address(RVA = "0x3D135B0", Offset = "0x3D135B0", VA = "0x3D135B0")]
+	[Token(Token = "0x60010AF")]
+	[Address(RVA = "0x1B90D90", Offset = "0x1B8F390", VA = "0x181B90D90")]
 	public TermInfoReader(string term, string filename)
 	{
 	}
 
-	[Token(Token = "0x6001059")]
-	[Address(RVA = "0x3D138E0", Offset = "0x3D138E0", VA = "0x3D138E0")]
+	[Token(Token = "0x60010B0")]
+	[Address(RVA = "0x1B90C70", Offset = "0x1B8F270", VA = "0x181B90C70")]
 	public TermInfoReader(string term, byte[] buffer)
 	{
 	}
 
-	[Token(Token = "0x600105A")]
-	[Address(RVA = "0x3D1B290", Offset = "0x3D1B290", VA = "0x3D1B290")]
+	[Token(Token = "0x60010B1")]
+	[Address(RVA = "0x1B903C0", Offset = "0x1B8E9C0", VA = "0x181B903C0")]
 	private void DetermineVersion(short magic)
 	{
 	}
 
-	[Token(Token = "0x600105B")]
-	[Address(RVA = "0x3D1B080", Offset = "0x3D1B080", VA = "0x3D1B080")]
+	[Token(Token = "0x60010B2")]
+	[Address(RVA = "0x1B90980", Offset = "0x1B8EF80", VA = "0x181B90980")]
 	private void ReadHeader(byte[] buffer, ref int position)
 	{
 	}
 
-	[Token(Token = "0x600105C")]
-	[Address(RVA = "0x3D1B200", Offset = "0x3D1B200", VA = "0x3D1B200")]
+	[Token(Token = "0x60010B3")]
+	[Address(RVA = "0x1B90BE0", Offset = "0x1B8F1E0", VA = "0x181B90BE0")]
 	private void ReadNames(byte[] buffer, ref int position)
 	{
 	}
 
-	[Token(Token = "0x600105D")]
-	[Address(RVA = "0x3D149D0", Offset = "0x3D149D0", VA = "0x3D149D0")]
+	[Token(Token = "0x60010B4")]
+	[Address(RVA = "0x1B908D0", Offset = "0x1B8EED0", VA = "0x181B908D0")]
 	public int Get(System.TermInfoNumbers number)
 	{
 		return default(int);
 	}
 
-	[Token(Token = "0x600105E")]
-	[Address(RVA = "0x3D148C0", Offset = "0x3D148C0", VA = "0x3D148C0")]
+	[Token(Token = "0x60010B5")]
+	[Address(RVA = "0x1B90780", Offset = "0x1B8ED80", VA = "0x181B90780")]
 	public string Get(System.TermInfoStrings tstr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x600105F")]
-	[Address(RVA = "0x3D199F0", Offset = "0x3D199F0", VA = "0x3D199F0")]
+	[Token(Token = "0x60010B6")]
+	[Address(RVA = "0x1B90590", Offset = "0x1B8EB90", VA = "0x181B90590")]
 	public byte[] GetStringBytes(System.TermInfoStrings tstr)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001060")]
-	[Address(RVA = "0x3D1B330", Offset = "0x3D1B330", VA = "0x3D1B330")]
+	[Token(Token = "0x60010B7")]
+	[Address(RVA = "0x1B90480", Offset = "0x1B8EA80", VA = "0x181B90480")]
 	private short GetInt16(byte[] buffer, int offset)
 	{
 		return default(short);
 	}
 
-	[Token(Token = "0x6001061")]
-	[Address(RVA = "0x3D1B380", Offset = "0x3D1B380", VA = "0x3D1B380")]
+	[Token(Token = "0x60010B8")]
+	[Address(RVA = "0x1B90700", Offset = "0x1B8ED00", VA = "0x181B90700")]
 	private string GetString(byte[] buffer, int offset)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6001062")]
-	[Address(RVA = "0x3D1B400", Offset = "0x3D1B400", VA = "0x3D1B400")]
+	[Token(Token = "0x60010B9")]
+	[Address(RVA = "0x1B904E0", Offset = "0x1B8EAE0", VA = "0x181B904E0")]
 	private byte[] GetStringBytes(byte[] buffer, int offset)
 	{
 		return null;

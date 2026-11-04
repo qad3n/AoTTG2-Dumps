@@ -9,28 +9,28 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x2000149")]
+[Token(Token = "0x200018E")]
 internal interface IDragAndDrop
 {
-	[Token(Token = "0x1700019D")]
+	[Token(Token = "0x1700021A")]
 	DragAndDropData data
 	{
-		[Token(Token = "0x6000946")]
+		[Token(Token = "0x6000B39")]
 		get;
 	}
 
-	[Token(Token = "0x6000941")]
+	[Token(Token = "0x6000B34")]
 	void StartDrag(StartDragArgs args, Vector3 pointerPosition);
 
-	[Token(Token = "0x6000942")]
+	[Token(Token = "0x6000B35")]
 	void UpdateDrag(Vector3 pointerPosition);
 
-	[Token(Token = "0x6000943")]
+	[Token(Token = "0x6000B36")]
 	void AcceptDrag();
 
-	[Token(Token = "0x6000944")]
+	[Token(Token = "0x6000B37")]
 	void DragCleanup();
 
-	[Token(Token = "0x6000945")]
+	[Token(Token = "0x6000B38")]
 	void SetVisualMode(DragVisualMode visualMode);
 }

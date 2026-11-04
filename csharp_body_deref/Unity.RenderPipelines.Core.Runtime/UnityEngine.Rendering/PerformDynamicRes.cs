@@ -9,5 +9,5 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.Rendering;
 
-[Token(Token = "0x200007A")]
+[Token(Token = "0x2000042")]
 public delegate float PerformDynamicRes();

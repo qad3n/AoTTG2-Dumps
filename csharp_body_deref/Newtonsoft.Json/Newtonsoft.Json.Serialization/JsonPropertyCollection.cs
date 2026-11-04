@@ -25,40 +25,40 @@ public class JsonPropertyCollection : KeyedCollection<string, JsonProperty>
 	private readonly List<JsonProperty> _list;
 
 	[Token(Token = "0x60008A3")]
-	[Address(RVA = "0x3DCCB30", Offset = "0x3DCCB30", VA = "0x3DCCB30")]
+	[Address(RVA = "0x1C43E90", Offset = "0x1C42490", VA = "0x181C43E90")]
 	public JsonPropertyCollection(Type type)
 	{
 	}
 
 	[Token(Token = "0x60008A4")]
-	[Address(RVA = "0x3DDAE50", Offset = "0x3DDAE50", VA = "0x3DDAE50", Slot = "39")]
+	[Address(RVA = "0x1C43BB0", Offset = "0x1C421B0", VA = "0x181C43BB0", Slot = "39")]
 	protected override string GetKeyForItem(JsonProperty item)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008A5")]
-	[Address(RVA = "0x3DCCD10", Offset = "0x3DCCD10", VA = "0x3DCCD10")]
+	[Address(RVA = "0x1C43880", Offset = "0x1C41E80", VA = "0x181C43880")]
 	public void AddProperty(JsonProperty property)
 	{
 	}
 
 	[Token(Token = "0x60008A6")]
-	[Address(RVA = "0x3DCCFE0", Offset = "0x3DCCFE0", VA = "0x3DCCFE0")]
+	[Address(RVA = "0x1C43B60", Offset = "0x1C42160", VA = "0x181C43B60")]
 	public JsonProperty GetClosestMatchProperty(string propertyName)
 	{
 		return null;
 	}
 
 	[Token(Token = "0x60008A7")]
-	[Address(RVA = "0x3DDAF50", Offset = "0x3DDAF50", VA = "0x3DDAF50")]
+	[Address(RVA = "0x1C43D90", Offset = "0x1C42390", VA = "0x181C43D90")]
 	private bool TryGetProperty(string key, [NotNullWhen(true)] out JsonProperty? item)
 	{
 		return default(bool);
 	}
 
 	[Token(Token = "0x60008A8")]
-	[Address(RVA = "0x3DDAE70", Offset = "0x3DDAE70", VA = "0x3DDAE70")]
+	[Address(RVA = "0x1C43BD0", Offset = "0x1C421D0", VA = "0x181C43BD0")]
 	public JsonProperty GetProperty(string propertyName, StringComparison comparisonType)
 	{
 		return null;

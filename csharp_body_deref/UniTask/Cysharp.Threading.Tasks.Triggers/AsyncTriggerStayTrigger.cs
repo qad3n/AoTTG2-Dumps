@@ -11,46 +11,46 @@ using UnityEngine;
 
 namespace Cysharp.Threading.Tasks.Triggers;
 
-[Token(Token = "0x20001F8")]
+[Token(Token = "0x20001FB")]
 [DisallowMultipleComponent]
 public sealed class AsyncTriggerStayTrigger : AsyncTriggerBase<Collider>
 {
-	[Token(Token = "0x6000BC8")]
-	[Address(RVA = "0x4A13E20", Offset = "0x4A13E20", VA = "0x4A13E20")]
+	[Token(Token = "0x6000BEC")]
+	[Address(RVA = "0x293DEF0", Offset = "0x293C4F0", VA = "0x18293DEF0")]
 	private void OnTriggerStay(Collider other)
 	{
 	}
 
-	[Token(Token = "0x6000BC9")]
-	[Address(RVA = "0x4A13E70", Offset = "0x4A13E70", VA = "0x4A13E70")]
+	[Token(Token = "0x6000BED")]
+	[Address(RVA = "0x293DC50", Offset = "0x293C250", VA = "0x18293DC50")]
 	public IAsyncOnTriggerStayHandler GetOnTriggerStayAsyncHandler()
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BCA")]
-	[Address(RVA = "0x4A13EE0", Offset = "0x4A13EE0", VA = "0x4A13EE0")]
+	[Token(Token = "0x6000BEE")]
+	[Address(RVA = "0x293DBD0", Offset = "0x293C1D0", VA = "0x18293DBD0")]
 	public IAsyncOnTriggerStayHandler GetOnTriggerStayAsyncHandler(CancellationToken cancellationToken)
 	{
 		return null;
 	}
 
-	[Token(Token = "0x6000BCB")]
-	[Address(RVA = "0x4A13F50", Offset = "0x4A13F50", VA = "0x4A13F50")]
+	[Token(Token = "0x6000BEF")]
+	[Address(RVA = "0x293DCC0", Offset = "0x293C2C0", VA = "0x18293DCC0")]
 	public UniTask<Collider> OnTriggerStayAsync()
 	{
 		return default(UniTask<Collider>);
 	}
 
-	[Token(Token = "0x6000BCC")]
-	[Address(RVA = "0x4A14050", Offset = "0x4A14050", VA = "0x4A14050")]
+	[Token(Token = "0x6000BF0")]
+	[Address(RVA = "0x293DDE0", Offset = "0x293C3E0", VA = "0x18293DDE0")]
 	public UniTask<Collider> OnTriggerStayAsync(CancellationToken cancellationToken)
 	{
 		return default(UniTask<Collider>);
 	}
 
-	[Token(Token = "0x6000BCD")]
-	[Address(RVA = "0x4A14160", Offset = "0x4A14160", VA = "0x4A14160")]
+	[Token(Token = "0x6000BF1")]
+	[Address(RVA = "0x293DF40", Offset = "0x293C540", VA = "0x18293DF40")]
 	public AsyncTriggerStayTrigger()
 	{
 	}

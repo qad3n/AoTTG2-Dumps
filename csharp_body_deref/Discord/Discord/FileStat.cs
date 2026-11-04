@@ -9,18 +9,18 @@ using Il2CppDummyDll;
 
 namespace Discord;
 
-[Token(Token = "0x2000046")]
+[Token(Token = "0x2000044")]
 public struct FileStat
 {
-	[Token(Token = "0x40000DD")]
+	[Token(Token = "0x40000D8")]
 	[FieldOffset(Offset = "0x0")]
 	public string Filename;
 
-	[Token(Token = "0x40000DE")]
+	[Token(Token = "0x40000D9")]
 	[FieldOffset(Offset = "0x8")]
 	public ulong Size;
 
-	[Token(Token = "0x40000DF")]
+	[Token(Token = "0x40000DA")]
 	[FieldOffset(Offset = "0x10")]
 	public ulong LastModified;
 }

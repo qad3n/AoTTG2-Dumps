@@ -1,5 +1,5 @@
 // Type: GameProgress.QuestContainer
-// Ghidra (System V/gcc) decompilation, IL2CPP structs + signatures applied.
+// Ghidra (Windows x64/MSVC) decompilation, IL2CPP structs + signatures applied.
 // ---- AoTTG2 cross-reference ----
 // Update status: unchanged since the previous dump
 // C# structure: source/csharp/Scripts/GameProgress/QuestContainer.cs
@@ -8,146 +8,158 @@
 
 // GameProgress.QuestContainer$$CollectRewards
 // il2cpp: void GameProgress_QuestContainer__CollectRewards (GameProgress_QuestContainer_o* __this, const MethodInfo* method);
-// 0x453d180
+// 0x181e36ed0
+// eh: try 0x181e36f91..0x181e370c1 -> pad 0x183317f30 (+3 call sites) catch Il2CppExceptionWrapper
+// asm: 37 instructions the C leaves out (exception handlers, dead branches):
+// asm:   0x181e36fce: mov rdx, qword ptr [rip + 0x225ab3b]  ; MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose
+// asm:   0x181e36fd5: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181e36fda: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181e36fdf: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181e36fe4: test rcx, rcx
+// asm:   0x181e36fe7: jne 0x181e370b5
+// asm:   0x181e36fed: mov rdi, qword ptr [rsp + 0x70]
+// asm:   0x181e37089: mov rdx, qword ptr [rip + 0x225aa80]  ; MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose
+// asm:   0x181e37090: mov rcx, qword ptr [rsp + 0x38]
+// asm:   0x181e37095: call 0x180547020  ; TextureScaler__Scale_d__1__System_IDisposable_Dispose()
+// asm:   0x181e3709a: mov rcx, qword ptr [rsp + 0x30]
+// asm:   0x181e3709f: test rcx, rcx
+// asm:   0x181e370a2: jne 0x181e370c1
+// asm:   0x181e370b5: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x181e370c1: call 0x1804171b0  ; il2cpp_codegen_rethrow()
+// asm:   0x183317f30: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183317f35: push rbp
+// asm:   0x183317f36: sub rsp, 0x20
+// asm:   0x183317f3a: mov rbp, rdx
+// asm:   0x183317f3d: mov rax, qword ptr [rbp + 0x20]
+// asm:   0x183317f41: mov rcx, qword ptr [rax]
+// asm:   0x183317f44: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x183317f48: movabs rax, 0
+// asm:   0x183317f52: add rsp, 0x20
+// asm:   0x183317f56: pop rbp
+// asm:   0x183317f57: ret 
+// asm:   0x183317fd0: mov qword ptr [rsp + 0x10], rdx
+// asm:   0x183317fd5: push rbp
+// asm:   0x183317fd6: sub rsp, 0x20
+// asm:   0x183317fda: mov rbp, rdx
+// asm:   0x183317fdd: mov rax, qword ptr [rbp + 0x28]
+// asm:   0x183317fe1: mov rcx, qword ptr [rax]
+// asm:   0x183317fe4: mov qword ptr [rbp + 0x30], rcx
+// asm:   0x183317fe8: movabs rax, 0
+// asm:   0x183317ff2: add rsp, 0x20
+// asm:   0x183317ff6: pop rbp
+// asm:   0x183317ff7: ret 
 
 void GameProgress_QuestContainer__CollectRewards(GameProgress_QuestContainer_o *__this,MethodInfo *method)
 
 {
   Settings_ListSetting_QuestItem__o *pSVar1;
-  System_Collections_Generic_List_object__o *pSVar2;
-  long lVar3;
-  System_Collections_Generic_List_Enumerator_object__o __this_00;
-  System_Collections_Generic_List_Enumerator_object__o __this_01;
-  System_Collections_Generic_List_Enumerator_object__o __this_02;
-  System_Collections_Generic_List_Enumerator_object__o __this_03;
-  System_Collections_Generic_List_Enumerator_object__o __this_04;
-  System_Collections_Generic_List_Enumerator_object__o __this_05;
-  bool_conflict bVar4;
-  long *plVar5;
-  MethodInfo *pMVar6;
-  undefined1 auVar7 [12];
-  System_Collections_Generic_List_Enumerator_T__c *pSVar8;
-  Il2CppType *pIVar9;
-  GameProgress_QuestItem_o *__this_06;
-  GameProgress_QuestItem_o *__this_07;
-  undefined1 local_48 [16];
-  GameProgress_QuestItem_o *local_38;
+  System_Collections_Generic_List_T__o *pSVar2;
+  bool bVar3;
+  undefined1 local_38 [16];
+  GameProgress_QuestItem_o *local_28;
+  undefined1 local_20 [8];
+  UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *pUStack_18;
+  GameProgress_QuestItem_o *local_10;
   
-  if (g_data_057aef2b == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Void_Dispose);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_Boolean_MoveNext);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_QuestItem_get_Current);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_T_Enumerator_GameProgress_QuestItem_GetEnumerator);
-    il2cpp_runtime_helper_023445d0(&MethodInfo_List_1_GameProgress_QuestItem_get_Value);
-    g_data_057aef2b = '\x01';
+  if (Il2CppMethodInitialized_184344dd0 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_MoveNext);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_get_Current);
+    il2cpp_codegen_initialize_runtime_metadata
+              (&MethodInfo_System_Collections_Generic_List_QuestItem_GetEnumerator);
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_TypedSetting_List_QuestItem_get_Value);
+    Il2CppMethodInitialized_184344dd0 = '\x01';
   }
-  pSVar8 = (System_Collections_Generic_List_Enumerator_T__c *)0x0;
-  pIVar9 = (Il2CppType *)0x0;
-  __this_06 = (GameProgress_QuestItem_o *)0x0;
+  local_20 = (undefined1  [8])0x0;
+  pUStack_18 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)0x0;
+  local_10 = (GameProgress_QuestItem_o *)0x0;
   pSVar1 = (__this->fields).DailyQuestItems;
   if ((pSVar1 != (Settings_ListSetting_QuestItem__o *)0x0) &&
-     (pSVar2 = (System_Collections_Generic_List_object__o *)(pSVar1->fields)._value,
-     pSVar2 != (System_Collections_Generic_List_object__o *)0x0)) {
-    System_Collections_Generic_List_object___GetEnumerator
-              ((System_Collections_Generic_List_Enumerator_T__o *)local_48,pSVar2,MethodInfo_List_1_T_Enumerator_GameProgress_QuestItem_GetEnumerator);
-    pSVar8 = (System_Collections_Generic_List_Enumerator_T__c *)local_48._0_8_;
-    pIVar9 = (Il2CppType *)local_48._8_8_;
-    __this_06 = local_38;
-    while (__this_00.fields._8_8_ = pIVar9,
-          __this_00.fields._list = (System_Collections_Generic_List_T__o *)pSVar8,
-          __this_00.fields._current = (Il2CppObject *)__this_06, pMVar6 = MethodInfo_Boolean_MoveNext,
-          bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                            (__this_00,(MethodInfo_321A1D0 *)&stack0xffffffffffffff98), (char)bVar4 != '\0') {
-      if (__this_06 == (GameProgress_QuestItem_o *)0x0) {
-        il2cpp_runtime_helper_022b2c90();
-        goto label_0453d2f7;
+     (pSVar2 = (pSVar1->fields)._value, pSVar2 != (System_Collections_Generic_List_T__o *)0x0)) {
+    System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+              ((System_Collections_Generic_List_Enumerator_T__o *)local_38,pSVar2,
+               (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_QuestItem_GetEnumerator);
+    local_20 = (undefined1  [8])local_38._0_8_;
+    pUStack_18 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38._8_8_;
+    local_10 = local_28;
+    local_38._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+    local_38._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_20;
+    while( true ) {
+      bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                        ((System_Collections_Generic_List_Enumerator_object__o *)local_20,
+                         (MethodInfo_153A2A0 *)
+                         MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_MoveNext);
+      if (!bVar3) break;
+      if (local_10 == (GameProgress_QuestItem_o *)0x0) {
+        ThrowNullReferenceException();
       }
-      GameProgress_QuestItem__CollectReward(__this_06,pMVar6);
+      GameProgress_QuestItem__CollectReward(local_10,(MethodInfo *)0x0);
     }
-    __this_01.fields._8_8_ = pIVar9;
-    __this_01.fields._list = (System_Collections_Generic_List_T__o *)pSVar8;
-    __this_01.fields._current = (Il2CppObject *)__this_06;
     System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_01,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
+              ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_20,
+               MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose);
     pSVar1 = (__this->fields).WeeklyQuestItems;
     if ((pSVar1 != (Settings_ListSetting_QuestItem__o *)0x0) &&
-       (pSVar2 = (System_Collections_Generic_List_object__o *)(pSVar1->fields)._value,
-       pSVar2 != (System_Collections_Generic_List_object__o *)0x0)) {
-      System_Collections_Generic_List_object___GetEnumerator
-                ((System_Collections_Generic_List_Enumerator_T__o *)local_48,pSVar2,MethodInfo_List_1_T_Enumerator_GameProgress_QuestItem_GetEnumerator);
-      pSVar8 = (System_Collections_Generic_List_Enumerator_T__c *)local_48._0_8_;
-      pIVar9 = (Il2CppType *)local_48._8_8_;
-      __this_07 = local_38;
+       (pSVar2 = (pSVar1->fields)._value, pSVar2 != (System_Collections_Generic_List_T__o *)0x0)) {
+      System_Collections_Generic_List_ProbeVolumeStreamableAsset_StreamableCellDesc___GetEnumerator
+                ((System_Collections_Generic_List_Enumerator_T__o *)local_38,pSVar2,
+                 (MethodInfo_91F180 *)MethodInfo_System_Collections_Generic_List_QuestItem_GetEnumerator);
+      local_20 = (undefined1  [8])local_38._0_8_;
+      pUStack_18 = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_38._8_8_;
+      local_10 = local_28;
+      local_38._0_8_ = (System_Collections_Generic_List_T__o *)0x0;
+      local_38._8_8_ = (UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_20;
       while( true ) {
-        __this_02.fields._8_8_ = pIVar9;
-        __this_02.fields._list = (System_Collections_Generic_List_T__o *)pSVar8;
-        __this_02.fields._current = (Il2CppObject *)__this_07;
-        pMVar6 = MethodInfo_Boolean_MoveNext;
-        bVar4 = System_Collections_Generic_List_Enumerator_object___MoveNext
-                          (__this_02,(MethodInfo_321A1D0 *)&stack0xffffffffffffff98);
-        if ((char)bVar4 == '\0') {
-          __this_03.fields._8_8_ = pIVar9;
-          __this_03.fields._list = (System_Collections_Generic_List_T__o *)pSVar8;
-          __this_03.fields._current = (Il2CppObject *)__this_07;
+        bVar3 = System_Collections_Generic_List_Enumerator_object___MoveNext
+                          ((System_Collections_Generic_List_Enumerator_object__o *)local_20,
+                           (MethodInfo_153A2A0 *)
+                           MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_MoveNext);
+        if (!bVar3) {
           System_Collections_Generic_List_Enumerator_object___Dispose
-                    (__this_03,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
+                    ((UnityEngine_LowLevelPhysics2D_PhysicsMask_SetBitIterator_o *)local_20,
+                     MethodInfo_System_Collections_Generic_List_Enumerator_QuestItem_Dispose);
           return;
         }
-        __this_06 = (GameProgress_QuestItem_o *)0x0;
-        if (__this_07 == (GameProgress_QuestItem_o *)0x0) break;
-        GameProgress_QuestItem__CollectReward(__this_07,pMVar6);
+        if (local_10 == (GameProgress_QuestItem_o *)0x0) break;
+        GameProgress_QuestItem__CollectReward(local_10,(MethodInfo *)0x0);
       }
-label_0453d2f7:
-      il2cpp_runtime_helper_022b2c90();
+      ThrowNullReferenceException();
     }
   }
-  auVar7 = il2cpp_runtime_helper_022b2c90();
-  if (auVar7._8_4_ == 1) {
-    plVar5 = (long *)__cxa_begin_catch(auVar7._0_8_);
-    lVar3 = *plVar5;
-    __cxa_end_catch();
-    __this_04.fields._8_8_ = pIVar9;
-    __this_04.fields._list = (System_Collections_Generic_List_T__o *)pSVar8;
-    __this_04.fields._current = (Il2CppObject *)__this_06;
-    System_Collections_Generic_List_Enumerator_object___Dispose
-              (__this_04,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-    if (lVar3 == 0) {
-      return;
-    }
-    il2cpp_runtime_helper_022fefe0(lVar3);
-  }
-  __this_05.fields._8_8_ = pIVar9;
-  __this_05.fields._list = (System_Collections_Generic_List_T__o *)pSVar8;
-  __this_05.fields._current = (Il2CppObject *)__this_06;
-  System_Collections_Generic_List_Enumerator_object___Dispose
-            (__this_05,(MethodInfo_321A1C0 *)&stack0xffffffffffffff98);
-  _Unwind_Resume(auVar7._0_8_);
+  ThrowNullReferenceException();
 }
 
 
 // GameProgress.QuestContainer$$.ctor
 // il2cpp: void GameProgress_QuestContainer___ctor (GameProgress_QuestContainer_o* __this, const MethodInfo* method);
-// 0x453d540
+// 0x181e370d0
 
 void GameProgress_QuestContainer___ctor(GameProgress_QuestContainer_o *__this,MethodInfo *method)
 
 {
   Settings_ListSetting_QuestItem__o *pSVar1;
   
-  if (g_data_057aef2c == '\0') {
-    il2cpp_runtime_helper_023445d0(&MethodInfo_ListSetting_1_GameProgress_QuestItem);
-    il2cpp_runtime_helper_023445d0(&TypeInfo_ListSetting_QuestItem);
-    g_data_057aef2c = '\x01';
+  if (Il2CppMethodInitialized_184344dd1 == '\0') {
+    il2cpp_codegen_initialize_runtime_metadata(&MethodInfo_Settings_ListSetting_QuestItem_ctor);
+    il2cpp_codegen_initialize_runtime_metadata(&TypeInfo_Settings_ListSetting_QuestItem);
+    Il2CppMethodInitialized_184344dd1 = '\x01';
   }
-  pSVar1 = (Settings_ListSetting_QuestItem__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_QuestItem);
-  Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)pSVar1,MethodInfo_ListSetting_1_GameProgress_QuestItem);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_QuestItem);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar1,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_QuestItem_ctor);
   (__this->fields).DailyQuestItems = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).DailyQuestItems,pSVar1);
-  pSVar1 = (Settings_ListSetting_QuestItem__o *)il2cpp_runtime_helper_023052d0(TypeInfo_ListSetting_QuestItem);
-  Settings_ListSetting_object____ctor_3521170((Settings_ListSetting_T__o *)pSVar1,MethodInfo_ListSetting_1_GameProgress_QuestItem);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).DailyQuestItems,pSVar1);
+  pSVar1 = il2cpp_codegen_object_new((Il2CppClass *)TypeInfo_Settings_ListSetting_QuestItem);
+  Settings_ListSetting_object____ctor_182b940
+            ((Settings_ListSetting_T__o *)pSVar1,
+             (MethodInfo_182B940 *)MethodInfo_Settings_ListSetting_QuestItem_ctor);
   (__this->fields).WeeklyQuestItems = pSVar1;
-  il2cpp_runtime_helper_022b4080(&(__this->fields).WeeklyQuestItems);
-  Settings_BaseSettingsContainer___ctor((Settings_PresetSettingsContainer_o *)__this,(MethodInfo *)0x0);
+  Il2CppCodeGenWriteBarrier(&(__this->fields).WeeklyQuestItems,pSVar1);
+  Settings_BaseSettingsContainer___ctor((Settings_BaseSettingsContainer_o *)__this,(MethodInfo *)0x0);
   return;
 }
 

@@ -10,38 +10,38 @@ using UnityEngine.Scripting;
 
 namespace UnityEngine.Playables;
 
-[Token(Token = "0x200032A")]
+[Token(Token = "0x2000301")]
 public interface IPlayableBehaviour
 {
-	[Token(Token = "0x600113B")]
+	[Token(Token = "0x600121A")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnGraphStart(Playable playable);
 
-	[Token(Token = "0x600113C")]
+	[Token(Token = "0x600121B")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnGraphStop(Playable playable);
 
-	[Token(Token = "0x600113D")]
+	[Token(Token = "0x600121C")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnPlayableCreate(Playable playable);
 
-	[Token(Token = "0x600113E")]
+	[Token(Token = "0x600121D")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnPlayableDestroy(Playable playable);
 
-	[Token(Token = "0x600113F")]
+	[Token(Token = "0x600121E")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnBehaviourPlay(Playable playable, FrameData info);
 
-	[Token(Token = "0x6001140")]
+	[Token(Token = "0x600121F")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void OnBehaviourPause(Playable playable, FrameData info);
 
-	[Token(Token = "0x6001141")]
+	[Token(Token = "0x6001220")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void PrepareFrame(Playable playable, FrameData info);
 
-	[Token(Token = "0x6001142")]
+	[Token(Token = "0x6001221")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	void ProcessFrame(Playable playable, FrameData info, object playerData);
 }

@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x200014D")]
-internal enum DragAndDropPosition
+[Token(Token = "0x2000192")]
+public enum DragAndDropPosition
 {
-	[Token(Token = "0x40005D2")]
+	[Token(Token = "0x40006FE")]
 	OverItem,
-	[Token(Token = "0x40005D3")]
+	[Token(Token = "0x40006FF")]
 	BetweenItems,
-	[Token(Token = "0x40005D4")]
+	[Token(Token = "0x4000700")]
 	OutsideItems
 }

@@ -25,7 +25,7 @@ public abstract class Tweener : Tween
 	internal bool isFromAllowed;
 
 	[Token(Token = "0x60002AF")]
-	[Address(RVA = "0x2370680", Offset = "0x2370680", VA = "0x2370680")]
+	[Address(RVA = "0x560630", Offset = "0x55EC30", VA = "0x180560630")]
 	internal Tweener()
 	{
 	}

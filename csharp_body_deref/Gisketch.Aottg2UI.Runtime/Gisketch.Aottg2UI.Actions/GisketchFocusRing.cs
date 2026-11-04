@@ -12,95 +12,95 @@ using UnityEngine.EventSystems;
 
 namespace Gisketch.Aottg2UI.Actions;
 
-[Token(Token = "0x20000BE")]
+[Token(Token = "0x20000DF")]
 public sealed class GisketchFocusRing : MonoBehaviour, ISelectHandler, IEventSystemHandler, IDeselectHandler, IPointerDownHandler
 {
-	[Token(Token = "0x40003D4")]
+	[Token(Token = "0x400048E")]
 	[FieldOffset(Offset = "0x20")]
 	private GameObject _ring;
 
-	[Token(Token = "0x40003D5")]
+	[Token(Token = "0x400048F")]
 	[FieldOffset(Offset = "0x28")]
 	private Tween _pulse;
 
-	[Token(Token = "0x40003D6")]
+	[Token(Token = "0x4000490")]
 	[FieldOffset(Offset = "0x30")]
 	private bool _selected;
 
-	[Token(Token = "0x6000578")]
-	[Address(RVA = "0x3A967E0", Offset = "0x3A967E0", VA = "0x3A967E0")]
+	[Token(Token = "0x60006CC")]
+	[Address(RVA = "0x19003F0", Offset = "0x18FE9F0", VA = "0x1819003F0")]
 	public void Setup(Color color, float thickness = 3f, float gap = 5f, float cornerLength = 14f, bool visible = true)
 	{
 	}
 
-	[Token(Token = "0x6000579")]
-	[Address(RVA = "0x3A97030", Offset = "0x3A97030", VA = "0x3A97030", Slot = "4")]
+	[Token(Token = "0x60006CD")]
+	[Address(RVA = "0x18FFD90", Offset = "0x18FE390", VA = "0x1818FFD90", Slot = "4")]
 	public void OnSelect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600057A")]
-	[Address(RVA = "0x3A97120", Offset = "0x3A97120", VA = "0x3A97120", Slot = "5")]
+	[Token(Token = "0x60006CE")]
+	[Address(RVA = "0x18FFC60", Offset = "0x18FE260", VA = "0x1818FFC60", Slot = "5")]
 	public void OnDeselect(BaseEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600057B")]
-	[Address(RVA = "0x3A97130", Offset = "0x3A97130", VA = "0x3A97130", Slot = "6")]
+	[Token(Token = "0x60006CF")]
+	[Address(RVA = "0x18FF010", Offset = "0x18FD610", VA = "0x1818FF010", Slot = "6")]
 	public void OnPointerDown(PointerEventData eventData)
 	{
 	}
 
-	[Token(Token = "0x600057C")]
-	[Address(RVA = "0x3A971E0", Offset = "0x3A971E0", VA = "0x3A971E0")]
+	[Token(Token = "0x60006D0")]
+	[Address(RVA = "0x18FFDA0", Offset = "0x18FE3A0", VA = "0x1818FFDA0")]
 	public void Pulse()
 	{
 	}
 
-	[Token(Token = "0x600057D")]
-	[Address(RVA = "0x3A974C0", Offset = "0x3A974C0", VA = "0x3A974C0")]
+	[Token(Token = "0x60006D1")]
+	[Address(RVA = "0x18FFC60", Offset = "0x18FE260", VA = "0x1818FFC60")]
 	private void OnDisable()
 	{
 	}
 
-	[Token(Token = "0x600057E")]
-	[Address(RVA = "0x3A974D0", Offset = "0x3A974D0", VA = "0x3A974D0")]
+	[Token(Token = "0x60006D2")]
+	[Address(RVA = "0x18FFC70", Offset = "0x18FE270", VA = "0x1818FFC70")]
 	private void OnDestroy()
 	{
 	}
 
-	[Token(Token = "0x600057F")]
-	[Address(RVA = "0x3A97040", Offset = "0x3A97040", VA = "0x3A97040")]
+	[Token(Token = "0x60006D3")]
+	[Address(RVA = "0x1900070", Offset = "0x18FE670", VA = "0x181900070")]
 	private void Refresh()
 	{
 	}
 
-	[Token(Token = "0x6000580")]
-	[Address(RVA = "0x3A96F50", Offset = "0x3A96F50", VA = "0x3A96F50")]
+	[Token(Token = "0x60006D4")]
+	[Address(RVA = "0x18FFB20", Offset = "0x18FE120", VA = "0x1818FFB20")]
 	private void Corner(string name, Color color, Vector2 anchor, Vector2 pivot, float thickness, float length)
 	{
 	}
 
-	[Token(Token = "0x6000581")]
-	[Address(RVA = "0x3A975F0", Offset = "0x3A975F0", VA = "0x3A975F0")]
+	[Token(Token = "0x60006D5")]
+	[Address(RVA = "0x1900150", Offset = "0x18FE750", VA = "0x181900150")]
 	private void Segment(string name, Color color, Vector2 anchor, Vector2 pivot, Vector2 size)
 	{
 	}
 
-	[Token(Token = "0x6000582")]
-	[Address(RVA = "0x3A96E80", Offset = "0x3A96E80", VA = "0x3A96E80")]
+	[Token(Token = "0x60006D6")]
+	[Address(RVA = "0x1900A20", Offset = "0x18FF020", VA = "0x181900A20")]
 	private static void Stretch(RectTransform rect, float gap)
 	{
 	}
 
-	[Token(Token = "0x6000583")]
-	[Address(RVA = "0x3A96E70", Offset = "0x3A96E70", VA = "0x3A96E70")]
+	[Token(Token = "0x60006D7")]
+	[Address(RVA = "0x547020", Offset = "0x545620", VA = "0x180547020")]
 	private static void MarkPreview(GameObject go)
 	{
 	}
 
-	[Token(Token = "0x6000584")]
-	[Address(RVA = "0x3A97890", Offset = "0x3A97890", VA = "0x3A97890")]
+	[Token(Token = "0x60006D8")]
+	[Address(RVA = "0x528540", Offset = "0x526B40", VA = "0x180528540")]
 	public GisketchFocusRing()
 	{
 	}

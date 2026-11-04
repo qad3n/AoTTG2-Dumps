@@ -9,35 +9,35 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements.UIR;
 
-[Token(Token = "0x20004DF")]
+[Token(Token = "0x200057A")]
 internal class MeshHandle : LinkedPoolItem<MeshHandle>
 {
-	[Token(Token = "0x4000FEB")]
+	[Token(Token = "0x40012B1")]
 	[FieldOffset(Offset = "0x18")]
 	internal Alloc allocVerts;
 
-	[Token(Token = "0x4000FEC")]
+	[Token(Token = "0x40012B2")]
 	[FieldOffset(Offset = "0x30")]
 	internal Alloc allocIndices;
 
-	[Token(Token = "0x4000FED")]
+	[Token(Token = "0x40012B3")]
 	[FieldOffset(Offset = "0x48")]
 	internal uint triangleCount;
 
-	[Token(Token = "0x4000FEE")]
+	[Token(Token = "0x40012B4")]
 	[FieldOffset(Offset = "0x50")]
 	internal Page allocPage;
 
-	[Token(Token = "0x4000FEF")]
+	[Token(Token = "0x40012B5")]
 	[FieldOffset(Offset = "0x58")]
 	internal uint allocTime;
 
-	[Token(Token = "0x4000FF0")]
+	[Token(Token = "0x40012B6")]
 	[FieldOffset(Offset = "0x5C")]
 	internal uint updateAllocID;
 
-	[Token(Token = "0x6001E2B")]
-	[Address(RVA = "0x4FABB50", Offset = "0x4FABB50", VA = "0x4FABB50")]
+	[Token(Token = "0x600292A")]
+	[Address(RVA = "0x3182C90", Offset = "0x3181290", VA = "0x183182C90")]
 	public MeshHandle()
 	{
 	}

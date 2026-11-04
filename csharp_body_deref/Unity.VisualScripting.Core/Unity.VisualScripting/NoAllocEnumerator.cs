@@ -15,59 +15,59 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000025")]
 public struct NoAllocEnumerator<T> : IEnumerator<T>, IEnumerator, IDisposable
 {
-	[Token(Token = "0x4000032")]
+	[Token(Token = "0x400002E")]
 	[FieldOffset(Offset = "0x0")]
 	private readonly IList<T> list;
 
-	[Token(Token = "0x4000033")]
+	[Token(Token = "0x400002F")]
 	[FieldOffset(Offset = "0x0")]
 	private int index;
 
-	[Token(Token = "0x4000034")]
+	[Token(Token = "0x4000030")]
 	[FieldOffset(Offset = "0x0")]
 	private T current;
 
-	[Token(Token = "0x4000035")]
+	[Token(Token = "0x4000031")]
 	[FieldOffset(Offset = "0x0")]
 	private bool exceeded;
 
-	[Token(Token = "0x1700002D")]
+	[Token(Token = "0x1700002E")]
 	public T Current
 	{
-		[Token(Token = "0x6000102")]
+		[Token(Token = "0x6000106")]
 		get
 		{
 			return (T)null;
 		}
 	}
 
-	[Token(Token = "0x1700002E")]
+	[Token(Token = "0x1700002F")]
 	private object System_002ECollections_002EIEnumerator_002ECurrent
 	{
-		[Token(Token = "0x6000103")]
+		[Token(Token = "0x6000107")]
 		get
 		{
 			return null;
 		}
 	}
 
-	[Token(Token = "0x60000FF")]
+	[Token(Token = "0x6000103")]
 	public NoAllocEnumerator(IList<T> list)
 	{
 	}
 
-	[Token(Token = "0x6000100")]
+	[Token(Token = "0x6000104")]
 	public void Dispose()
 	{
 	}
 
-	[Token(Token = "0x6000101")]
+	[Token(Token = "0x6000105")]
 	public bool MoveNext()
 	{
 		return default(bool);
 	}
 
-	[Token(Token = "0x6000104")]
+	[Token(Token = "0x6000108")]
 	private void System_002ECollections_002EIEnumerator_002EReset()
 	{
 	}

@@ -9,17 +9,17 @@ using Il2CppDummyDll;
 
 namespace UnityEngine.UIElements;
 
-[Token(Token = "0x20001F6")]
+[Token(Token = "0x2000240")]
 public sealed class TransitionRunEvent : TransitionEventBase<TransitionRunEvent>
 {
-	[Token(Token = "0x6000CD2")]
-	[Address(RVA = "0x503CC90", Offset = "0x503CC90", VA = "0x503CC90")]
+	[Token(Token = "0x6000F16")]
+	[Address(RVA = "0x326EBB0", Offset = "0x326D1B0", VA = "0x18326EBB0")]
 	static TransitionRunEvent()
 	{
 	}
 
-	[Token(Token = "0x6000CD3")]
-	[Address(RVA = "0x503CD60", Offset = "0x503CD60", VA = "0x503CD60")]
+	[Token(Token = "0x6000F17")]
+	[Address(RVA = "0x326EC90", Offset = "0x326D290", VA = "0x18326EC90")]
 	public TransitionRunEvent()
 	{
 	}

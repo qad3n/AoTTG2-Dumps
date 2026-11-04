@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.IO.Compression;
 
-[Token(Token = "0x200036F")]
+[Token(Token = "0x2000290")]
 public enum CompressionLevel
 {
-	[Token(Token = "0x4000FA6")]
+	[Token(Token = "0x400091E")]
 	Optimal,
-	[Token(Token = "0x4000FA7")]
+	[Token(Token = "0x400091F")]
 	Fastest,
-	[Token(Token = "0x4000FA8")]
+	[Token(Token = "0x4000920")]
 	NoCompression
 }

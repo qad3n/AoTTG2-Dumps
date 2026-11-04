@@ -10,19 +10,19 @@ using Il2CppDummyDll;
 
 namespace Photon.Voice;
 
-[Token(Token = "0x200007E")]
+[Token(Token = "0x200007C")]
 public interface IDecoder : IDisposable
 {
 	[Token(Token = "0x170000BF")]
 	string Error
 	{
-		[Token(Token = "0x60002C4")]
+		[Token(Token = "0x60002C2")]
 		get;
 	}
 
-	[Token(Token = "0x60002C3")]
+	[Token(Token = "0x60002C1")]
 	void Open(VoiceInfo info);
 
-	[Token(Token = "0x60002C5")]
+	[Token(Token = "0x60002C3")]
 	void Input(ref FrameBuffer buf);
 }

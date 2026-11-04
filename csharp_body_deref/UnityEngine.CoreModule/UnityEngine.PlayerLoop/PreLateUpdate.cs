@@ -11,90 +11,96 @@ using UnityEngine.Scripting.APIUpdating;
 
 namespace UnityEngine.PlayerLoop;
 
-[Token(Token = "0x2000250")]
+[Token(Token = "0x20002A5")]
 [UnityEngine.Scripting.RequiredByNativeCode]
 [MovedFrom("UnityEngine.Experimental.PlayerLoop")]
 public struct PreLateUpdate
 {
-	[Token(Token = "0x2000251")]
+	[Token(Token = "0x20002A6")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct Physics2DLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000252")]
+	[Token(Token = "0x20002A7")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct PhysicsLateUpdate
 	{
 	}
 
-	[Token(Token = "0x2000253")]
+	[Token(Token = "0x20002A8")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct AIUpdatePostScript
 	{
 	}
 
-	[Token(Token = "0x2000254")]
+	[Token(Token = "0x20002A9")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorUpdateAnimationBegin
 	{
 	}
 
-	[Token(Token = "0x2000255")]
+	[Token(Token = "0x20002AA")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct LegacyAnimationUpdate
 	{
 	}
 
-	[Token(Token = "0x2000256")]
+	[Token(Token = "0x20002AB")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorUpdateAnimationEnd
 	{
 	}
 
-	[Token(Token = "0x2000257")]
+	[Token(Token = "0x20002AC")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct DirectorDeferredEvaluate
 	{
 	}
 
-	[Token(Token = "0x2000258")]
+	[Token(Token = "0x20002AD")]
+	[UnityEngine.Scripting.RequiredByNativeCode]
+	public struct AccessibilityUpdate
+	{
+	}
+
+	[Token(Token = "0x20002AE")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UIElementsUpdatePanels
 	{
 	}
 
-	[Token(Token = "0x2000259")]
+	[Token(Token = "0x20002AF")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateNetworkManager
 	{
 	}
 
-	[Token(Token = "0x200025A")]
+	[Token(Token = "0x20002B0")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct UpdateMasterServerInterface
 	{
 	}
 
-	[Token(Token = "0x200025B")]
+	[Token(Token = "0x20002B1")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct EndGraphicsJobsAfterScriptUpdate
 	{
 	}
 
-	[Token(Token = "0x200025C")]
+	[Token(Token = "0x20002B2")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ParticleSystemBeginUpdateAll
 	{
 	}
 
-	[Token(Token = "0x200025D")]
+	[Token(Token = "0x20002B3")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ScriptRunBehaviourLateUpdate
 	{
 	}
 
-	[Token(Token = "0x200025E")]
+	[Token(Token = "0x20002B4")]
 	[UnityEngine.Scripting.RequiredByNativeCode]
 	public struct ConstraintManagerUpdate
 	{

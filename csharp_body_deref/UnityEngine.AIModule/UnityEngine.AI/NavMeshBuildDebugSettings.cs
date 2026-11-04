@@ -10,11 +10,11 @@ using UnityEngine.Bindings;
 
 namespace UnityEngine.AI;
 
-[Token(Token = "0x2000011")]
+[Token(Token = "0x2000013")]
 [UnityEngine.Bindings.NativeHeader("Modules/AI/Public/NavMeshBuildDebugSettings.h")]
 public struct NavMeshBuildDebugSettings
 {
-	[Token(Token = "0x400003A")]
+	[Token(Token = "0x4000041")]
 	[FieldOffset(Offset = "0x0")]
 	private byte m_Flags;
 }

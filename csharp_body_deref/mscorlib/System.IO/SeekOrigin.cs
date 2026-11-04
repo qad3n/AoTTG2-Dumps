@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000546")]
+[Token(Token = "0x200066F")]
 public enum SeekOrigin
 {
-	[Token(Token = "0x40015DE")]
+	[Token(Token = "0x40019BF")]
 	Begin,
-	[Token(Token = "0x40015DF")]
+	[Token(Token = "0x40019C0")]
 	Current,
-	[Token(Token = "0x40015E0")]
+	[Token(Token = "0x40019C1")]
 	End
 }

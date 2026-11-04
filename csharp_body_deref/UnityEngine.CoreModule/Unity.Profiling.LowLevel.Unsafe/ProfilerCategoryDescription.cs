@@ -12,30 +12,30 @@ using UnityEngine;
 namespace Unity.Profiling.LowLevel.Unsafe;
 
 [StructLayout((LayoutKind)2)]
-[Token(Token = "0x200002B")]
+[Token(Token = "0x2000037")]
 public readonly struct ProfilerCategoryDescription
 {
-	[Token(Token = "0x4000075")]
+	[Token(Token = "0x4000097")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x0")]
 	public readonly ushort Id;
 
-	[Token(Token = "0x4000076")]
+	[Token(Token = "0x4000098")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x2")]
 	public readonly ushort Flags;
 
-	[Token(Token = "0x4000077")]
+	[Token(Token = "0x4000099")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x4")]
 	public readonly Color32 Color;
 
-	[Token(Token = "0x4000078")]
+	[Token(Token = "0x400009A")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x8")]
 	private readonly int reserved0;
 
-	[Token(Token = "0x4000079")]
+	[Token(Token = "0x400009B")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0xC")]
 	public readonly int NameUtf8Len;
 
-	[Token(Token = "0x400007A")]
+	[Token(Token = "0x400009C")]
 	[Il2CppDummyDll.FieldOffset(Offset = "0x10")]
 	public unsafe readonly byte* NameUtf8;
 }

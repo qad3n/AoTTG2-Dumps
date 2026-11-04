@@ -9,13 +9,13 @@ using Il2CppDummyDll;
 
 namespace System.IO;
 
-[Token(Token = "0x2000562")]
+[Token(Token = "0x200068A")]
 public enum MatchCasing
 {
-	[Token(Token = "0x4001672")]
+	[Token(Token = "0x4001A50")]
 	PlatformDefault,
-	[Token(Token = "0x4001673")]
+	[Token(Token = "0x4001A51")]
 	CaseSensitive,
-	[Token(Token = "0x4001674")]
+	[Token(Token = "0x4001A52")]
 	CaseInsensitive
 }

@@ -13,9 +13,9 @@ namespace Unity.VisualScripting;
 [Token(Token = "0x2000062")]
 public interface IEventMachine : IMachine, IGraphRoot, IGraphParent, IGraphNester, IAotStubbable
 {
-	[Token(Token = "0x60002AF")]
+	[Token(Token = "0x60002B4")]
 	void TriggerAnimationEvent(AnimationEvent animationEvent);
 
-	[Token(Token = "0x60002B0")]
+	[Token(Token = "0x60002B5")]
 	void TriggerUnityEvent(string name);
 }

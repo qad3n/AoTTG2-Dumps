@@ -9,15 +9,15 @@ using Il2CppDummyDll;
 
 namespace System.Threading.Tasks.Sources;
 
-[Token(Token = "0x2000265")]
+[Token(Token = "0x2000295")]
 public enum ValueTaskSourceStatus
 {
-	[Token(Token = "0x4000B22")]
+	[Token(Token = "0x4000B6B")]
 	Pending,
-	[Token(Token = "0x4000B23")]
+	[Token(Token = "0x4000B6C")]
 	Succeeded,
-	[Token(Token = "0x4000B24")]
+	[Token(Token = "0x4000B6D")]
 	Faulted,
-	[Token(Token = "0x4000B25")]
+	[Token(Token = "0x4000B6E")]
 	Canceled
 }
